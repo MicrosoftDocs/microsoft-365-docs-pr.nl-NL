@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 13c0a575fd2614f58eb6a2163cda04118c2a391d
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 2f9d56b7e72befb8acddf6d9f810a7ba5cec1083
+ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636276"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52694363"
 ---
 # <a name="troubleshoot-issues-and-find-answers-to-faqs-on-microsoft-defender-for-endpoint-on-ios"></a>Problemen oplossen en antwoorden vinden op veelgestelde vragen op Microsoft Defender voor eindpunt in iOS
 
@@ -60,18 +60,21 @@ Hoewel deze standaard is ingeschakeld, zijn er mogelijk bepaalde gevallen waarvo
 
 ## <a name="issues-with-multiple-vpn-profiles"></a>Problemen met meerdere VPN-profielen
 
-Apple iOS biedt geen ondersteuning voor meerdere VPN's voor het hele apparaat om tegelijk actief te zijn. Hoewel er meerdere VPN-profielen op het apparaat kunnen bestaan, kan er slechts één VPN tegelijk actief zijn.
+Apple iOS biedt geen ondersteuning voor meerdere **VPN's** voor het hele apparaat om tegelijk actief te zijn. Hoewel er meerdere VPN-profielen op het apparaat kunnen bestaan, kan er slechts één VPN tegelijk actief zijn.
 
+Microsoft Defender voor Endpoint VPN kan naast andere VPN's bestaan die zijn geconfigureerd *als per-app* of *'Persoonlijk'.*
 
 ## <a name="battery-consumption"></a>Batterijverbruik
 
-Het batterijgebruik door een app wordt door Apple berekend op basis van een groot aantal factoren, waaronder cpu- en netwerkgebruik. Microsoft Defender voor Eindpunt gebruikt een lokale/lus-back VPN op de achtergrond om het webverkeer te controleren op schadelijke websites of verbindingen. Netwerkpakketten van een app worden door deze controle heen en daardoor wordt het batterijgebruik van Microsoft Defender voor Eindpunt onjuist berekend. Dit geeft een onjuiste indruk voor de gebruiker. Het werkelijke batterijverbruik van Microsoft Defender voor Eindpunt is lager dan wat wordt weergegeven op de pagina Batterij Instellingen op het apparaat. Dit is gebaseerd op tests die zijn uitgevoerd in de Microsoft Defender voor Eindpunt-app om het batterijverbruik te begrijpen.
+In de Instellingen app wordt in iOS alleen het batterijgebruik van apps weergegeven die voor de gebruiker gedurende een bepaalde periode zichtbaar zijn. Het batterijgebruik van apps die op het scherm worden weergegeven, is alleen voor die tijdsduur en wordt berekend door iOS op basis van een groot aantal factoren, waaronder cpu- en netwerkgebruik. Microsoft Defender voor Eindpunt gebruikt een lokale/lus-back VPN op de achtergrond om het webverkeer te controleren op schadelijke websites of verbindingen. Netwerkpakketten van een app worden door deze controle heen en daardoor wordt het batterijgebruik van Microsoft Defender voor Eindpunt onjuist berekend. Het werkelijke batterijverbruik van Microsoft Defender voor Eindpunt is veel lager dan wat wordt weergegeven op de pagina Batterij Instellingen op het apparaat.
 
-Ook de gebruikte VPN is een lokale VPN en in tegenstelling tot een traditionele VPN wordt netwerkverkeer niet buiten het apparaat verzonden.
+Gemiddeld is het batterijgebruik per dag door Microsoft Defender voor eindpunt op de achtergrond ongeveer **8,81%** van de totale batterij die die dag is verbruikt. Deze metrische waarde wordt gerapporteerd door Apple op basis van het werkelijke gebruik van Microsoft Defender voor Eindpunt op apparaten van eindgebruikers en kan om bovenstaande redenen ook worden verantwoord voor andere apps die netwerkactiviteit hebben.
+
+De gebruikte VPN is ook een lokale VPN en in tegenstelling tot een traditioneel VPN wordt netwerkverkeer niet buiten het apparaat verzonden.
 
 ## <a name="data-usage"></a>Gegevensgebruik
 
-Microsoft Defender for Endpoint gebruikt een lokale/lusback VPN om het webverkeer te controleren op schadelijke websites of verbindingen. Om deze reden worden gegevensgebruik door Apple onjuist door Apple bij Microsoft Defender voor Eindpunt verwerkt. Het werkelijke gegevensgebruik door Microsoft Defender voor Eindpunt is niet significant en veel kleiner dan wat wordt weergegeven op het gegevensgebruik Instellingen op het apparaat.
+Microsoft Defender for Endpoint gebruikt een lokale/lusback VPN om het webverkeer te controleren op schadelijke websites of verbindingen. Om deze reden kan het gegevensgebruik van Microsoft Defender voor eindpunten onjuist worden verantwoord. Het werkelijke gegevensgebruik door Microsoft Defender voor Eindpunt is niet significant en kleiner dan wat wordt weergegeven op de gegevensgebruiksgegevens Instellingen op het apparaat.
 
 ## <a name="report-unsafe-site"></a>Onveilige site rapporteren
 

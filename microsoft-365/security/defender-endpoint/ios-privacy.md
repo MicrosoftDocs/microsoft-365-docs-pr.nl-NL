@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 15c22a6f6b581ff68488db6628f7647d49487652
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: b1d64ceb7b0027546e84a9c42c8d2ffed188c03b
+ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934283"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52694471"
 ---
 # <a name="privacy-information---microsoft-defender-for-endpoint-on-ios"></a>Privacygegevens - Microsoft Defender voor Eindpunt op iOS
 
@@ -39,6 +39,9 @@ ms.locfileid: "51934283"
 Defender voor Eindpunt in iOS verzamelt gegevens van uw geconfigureerde iOS-apparaten en slaat deze op in dezelfde tenant waar u Defender voor Eindpunt hebt. De gegevens worden verzameld om Defender for Endpoint op iOS veilig, up-to-date te houden, te presteren zoals verwacht en om de service te ondersteunen.
 
 Zie Microsoft Defender for [Endpoint data storage and privacy (Microsoft Defender for Endpoint data storage and privacy) voor meer informatie over gegevensopslag.](data-storage-privacy.md)
+
+
+Zie Microsoft Defender voor Eindpunt en uw privacy op mobiele android- en iOS-apparaten voor meer informatie over de meest voorkomende privacyvragen over Microsoft Defender voor eindpunten op mobiele android- en [iOS-apparaten.](https://support.microsoft.com/topic/microsoft-defender-for-endpoint-and-your-privacy-on-android-and-ios-mobile-devices-4109bc54-8ec5-4433-9c33-d359b75ac22a)
 
 ## <a name="required-data"></a>Vereiste gegevens 
 
@@ -60,9 +63,9 @@ Hier is een lijst met de typen gegevens die worden verzameld:
 
 - Tenant-, apparaat- en gebruikersgegevens 
 
-    - Azure Active Directory (AD) Device ID en Azure User ID : hiermee wordt het apparaat uniek geïdentificeerd, respectievelijk Gebruiker bij Azure Active Directory. 
+    - Azure Active Directory (AD) Apparaat-id en Azure-gebruikers-id : hiermee wordt het apparaat uniek geïdentificeerd, respectievelijk Gebruiker bij Azure Active Directory. 
 
-    - Azure tenant-id - GUID die uw organisatie identificeert in Azure Active Directory. 
+    - Azure tenant-id - GUID die uw organisatie binnen uw Azure Active Directory. 
 
     - Microsoft Defender for Endpoint org ID - Unieke id die is gekoppeld aan de onderneming waar het apparaat deel van uitmaken. Hiermee kan Microsoft vaststellen of er problemen zijn die van invloed zijn op een selecte set ondernemingen en het aantal ondernemingen dat is beïnvloed. 
 

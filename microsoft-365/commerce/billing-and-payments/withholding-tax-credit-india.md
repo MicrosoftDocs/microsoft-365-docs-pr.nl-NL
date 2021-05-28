@@ -18,16 +18,21 @@ description: Meer informatie over het aanvragen van een tegoed op uw account voo
 ms.custom:
 - AdminSurgePortfolio
 - commerce_billing
+ROBOTS: NOINDEX, NOFOLLOW
 monikerRange: o365-worldwide
 ms.date: 05/03/2021
-ms.openlocfilehash: b34fd0fd2e35d71e6b35cde250be822201aa719a
-ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
+ms.openlocfilehash: 68afdd9c5dddc071faa96a78981c68cc2c20e1ed
+ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/27/2021
-ms.locfileid: "52689023"
+ms.locfileid: "52694219"
 ---
 # <a name="request-a-credit-for-withholding-tax-on-your-account-india-customers"></a>Een tegoed aanvragen voor bronbelasting voor uw account (India-klanten)
+
+> [!NOTE]
+>
+> Als uw organisatie niet is gevestigd in India, raadpleegt u Een tegoed aanvragen voor bronbelasting voor uw [account (globale klanten).](withholding-tax-credit-global.md)
 
 Klanten in India ontvangen Web Direct-facturen (Azure en Microsoft 365) gefactureerd door Microsoft Regional Sales Pte Ltd. Singapore (MRS) en betalen over de grenzen naar Singapore om de factuur te vereffenen. Als u belastingen hebt ingehouden bij het afstoten van de betaling, wordt in dit artikel uitgelegd hoe u een krediet voor de bronbelasting (WT) in uw account bij MRS kunt claimen.
 

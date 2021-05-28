@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Meer informatie over het configureren Exchange Server on-premises voor het gebruik van HMA (Hybrid Modern Authentication), met veiligere gebruikersverificatie en autorisatie.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2ae7a09387b62abc9e8c74f4a38c2fe8750bab19
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: f52b7c011b717c5dcb91270ab0a7dd2015131c0e
+ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244549"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52694447"
 ---
 # <a name="how-to-configure-exchange-server-on-premises-to-use-hybrid-modern-authentication"></a>On-premises Exchange Server configureren voor het gebruik van hybride moderne verificatie
 
@@ -140,7 +140,7 @@ Als OAuth ontbreekt op een server en een van de vier virtuele directories, moet 
 Ga terug naar de on-premises Exchange Management Shell voor deze laatste opdracht. U kunt nu valideren dat uw on-premises vermelding een vermelding heeft voor de provider van de verificatieprovider van evoSTS:
 
 ```powershell
-Get-AuthServer | where {$_.Name -eq "EvoSts"}
+Get-AuthServer | where {$_.Name -like "EvoSts"}
 ```
 
 De uitvoer moet een AuthServer van de naam EvoSts laten zien en de status 'Ingeschakeld' moet Waar zijn. Als u dit niet ziet, moet u de meest recente versie van de wizard Hybride configuratie downloaden en uitvoeren.
@@ -162,7 +162,7 @@ Set-OrganizationConfig -OAuth2ClientProfileEnabled $true
 Als de EXCH-versie Exchange 2016 (CU18 of hoger) of Exchange 2019 (CU7 of hoger) is en hybride is geconfigureerd met HCW die is gedownload na september 2020, voer dan de volgende opdracht uit in de Exchange Management Shell, on-premises:
 
 ```powershell
-Set-AuthServer -Identity "EvoSTS - {GUID}" -Domain "Tenant Domain" -IsDefaultAuthorizationEndpoint $true
+Set-AuthServer -Identity "EvoSTS - {GUID}" -DomainName "Tenant Domain" -IsDefaultAuthorizationEndpoint $true
 Set-OrganizationConfig -OAuth2ClientProfileEnabled $true
 ```
 

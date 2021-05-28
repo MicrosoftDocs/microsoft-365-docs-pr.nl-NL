@@ -17,12 +17,12 @@ search.appverid:
 - SPO160
 - MET150
 description: In dit artikel wordt beschreven hoe u uw portal kunt starten met de planning voor het starten van portals
-ms.openlocfilehash: d7ea64b3a9fef25ddfde43e61624e49d2b7d4352
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: fdf92f2bbdfb673f1db446b562e941d61679fa9a
+ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280967"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52694351"
 ---
 # <a name="launch-your-portal-using-the-sharepoint-portal-launch-scheduler"></a>Uw portal starten met de SharePoint portal launch scheduler
 
@@ -95,7 +95,7 @@ Voorheen konden portallanceringen alleen worden gepland via SharePoint PowerShel
     - Minder dan 10.000 gebruikers: twee golven
     - 10.000 tot 30.000 gebruikers: Drie golven 
     - 30.000 tot 100.000 gebruikers: Vijf golven
-    - Meer dan 100.000 gebruikers: Vijf golven en neem contact op met uw Microsoft-accountteam
+    - Meer dan 100.000 gebruikers: Vijf golven en neem contact op met uw Microsoft via de stappen die worden weergegeven in de sectie Portal starten met meer dan 100.000 gebruikers. 
 
 5.  Bepaal vervolgens het **type omleiding dat nodig** is:
 
@@ -118,6 +118,26 @@ Voorheen konden portallanceringen alleen worden gepland via SharePoint PowerShel
 
 8.  Bevestig de details van de portallancering en selecteer **Planning.** Nadat de start is gepland, moeten wijzigingen in de startpagina van de portal SharePoint een gezond diagnostisch resultaat ontvangen voordat de portal wordt geopend.
 
+### <a name="launch-portal-with-over-100k-users"></a>Portal starten met meer dan 100.000 gebruikers
+
+Als u van plan bent om meer dan 100 TB te migreren, dient u een ondersteuningsaanvraag in volgens de onderstaande stappen. Zorg ervoor dat u alle gevraagde gegevens op moet nemen.
+
+Volg deze stappen:
+1. Navigeren naar https://admin.microsoft.com
+2. Zorg ervoor dat u de preview van het nieuwe beheercentrum gebruikt.
+3. Selecteer in het linkernavigatiedeelvenster **Ondersteuning** en selecteer **vervolgens Nieuwe serviceaanvraag.** 
+
+
+   Hiermee wordt het deelvenster **Hulp nodig?** aan de rechterkant van het scherm geactiveerd.
+
+4.  Voer in **het gebied Kort** beschrijven uw probleem in op 'Start SharePoint Portal met 100.000 gebruikers'.</br>
+5. Selecteer **Contact opnemen met ondersteuning.**
+6. Voer **onder** Beschrijving 'Start SharePoint Portal met 100.000 gebruikers' in. 
+7. Vul de overige gegevens in en selecteer **Contact opnemen.**
+8. Nadat het ticket is gemaakt, moet u de ondersteuningsagent de volgende informatie geven:
+- Portal-URL's starten 
+- Aantal verwachte gebruikers
+- Geschatte begintijd 
 
 ## <a name="make-changes-to-a-scheduled-portal-launch"></a>Wijzigingen aanbrengen in een geplande portallancering
 

@@ -1,5 +1,5 @@
 ---
-title: Beleid voor veilige koppelingen instellen in Microsoft Defender voor Office 365
+title: Beleidsregels Safe Koppelingen instellen in Microsoft Defender voor Office 365
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -15,17 +15,17 @@ search.appverid:
 ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
-description: Beheerders kunnen informatie krijgen over het weergeven, maken, wijzigen en verwijderen van beleidsregels voor veilige koppelingen en globale instellingen voor veilige koppelingen in Microsoft Defender voor Office 365.
+description: Beheerders kunnen informatie krijgen over het weergeven, maken, wijzigen en verwijderen van Safe Koppelingenbeleid en algemene Safe Koppelingen-instellingen in Microsoft Defender voor Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c8b2cb8b57dcf630b3e07ac387e96ab099ca7403
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 61cb4746289a8acbdd9af7f668010604de511902
+ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204293"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52694495"
 ---
-# <a name="set-up-safe-links-policies-in-microsoft-defender-for-office-365"></a>Beleid voor veilige koppelingen instellen in Microsoft Defender voor Office 365
+# <a name="set-up-safe-links-policies-in-microsoft-defender-for-office-365"></a>Beleidsregels Safe Koppelingen instellen in Microsoft Defender voor Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -34,62 +34,65 @@ ms.locfileid: "51204293"
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 > [!IMPORTANT]
-> Dit artikel is bedoeld voor zakelijke klanten die [Microsoft Defender voor Office 365](defender-for-office-365.md) hebben. Als u een thuisgebruiker bent die informatie zoekt over Safelinks in Outlook, bekijkt u [Geavanceerde Outlook.com beveiliging.](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2)
+> Dit artikel is bedoeld voor zakelijke klanten die [Microsoft Defender voor Office 365](defender-for-office-365.md) hebben. Als u een thuisgebruiker bent die informatie zoekt over Safelinks in Outlook, gaat u naar [Advanced Outlook.com-beveiliging.](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2)
 
-Veilige koppelingen is een functie in Microsoft Defender voor [Office 365](defender-for-office-365.md) waarmee url's worden gescand van binnenkomende e-mailberichten in de e-mailstroom en het tijdstip van klikverificatie van URL's en koppelingen in e-mailberichten en op andere locaties. Zie Veilige koppelingen [in Microsoft Defender voor Office 365](safe-links.md)voor meer informatie.
+Safe Koppelingen is een functie in [Microsoft Defender voor Office 365](defender-for-office-365.md) waarmee url's worden gescand van binnenkomende e-mailberichten in de e-mailstroom en de tijd van klikverificatie van URL's en koppelingen in e-mailberichten en op andere locaties. Zie Koppelingen in Microsoft Defender voor Safe voor [meer Office 365.](safe-links.md)
 
-Er is geen ingebouwd of standaardbeleid voor veilige koppelingen. Als u veilige koppelingen wilt laten scannen op URL's, moet u een of meer beleidsregels voor veilige koppelingen maken, zoals wordt beschreven in dit artikel.
+Er is geen ingebouwd of standaardkoppelingsbeleid Safe koppelingen. Als u Safe koppelingen van URL's wilt scannen, moet u een of meer Safe Koppelingenbeleid maken, zoals in dit artikel wordt beschreven.
 
 > [!NOTE]
-> U configureert de algemene instellingen voor beveiliging van veilige koppelingen **buiten het** beleid voor veilige koppelingen. Zie Algemene instellingen [configureren voor veilige koppelingen in Microsoft Defender voor Office 365](configure-global-settings-for-safe-links.md)voor instructies.
+> U configureert de algemene instellingen voor Safe koppelingen **buiten** Safe koppelingenbeleid. Zie Algemene instellingen [configureren voor Safe koppelingen in Microsoft Defender](configure-global-settings-for-safe-links.md)voor Office 365.
 
-U kunt beleidsregels voor veilige koppelingen configureren in het beveiligings- & compliancecentrum of in PowerShell (Exchange Online PowerShell voor in aanmerking komende Microsoft 365-organisaties met postvakken in Exchange Online; zelfstandige EOP PowerShell voor organisaties zonder Exchange Online-postvakken, maar met Microsoft Defender voor Office 365-invoegabonnementen).
+U kunt Safe Koppelingen-beleid configureren in het beveiligings- & compliancecentrum of in PowerShell (Exchange Online PowerShell voor in aanmerking komende Microsoft 365-organisaties met postvakken in Exchange Online; zelfstandige EOP PowerShell voor organisaties zonder Exchange Online-postvakken, maar met Microsoft Defender voor Office 365-invoegabonnementen).
 
-De basiselementen van een beleid voor veilige koppelingen zijn:
+De basiselementen van een Safe koppelingenbeleid zijn:
 
-- Het beleid voor veilige **koppelingen:** Schakel beveiliging voor veilige koppelingen in, schakel realtime URL-scannen in, geef op of u moet wachten totdat het scannen in realtime moet worden voltooid voordat het bericht wordt verzonden, scan naar interne berichten in te stellen, op te geven of gebruikersklikken op URL's moeten bijhouden en of gebruikers mogen klikken op de oorspronkelijke URL.
+- Het beleid voor veilige **koppelingen:** schakel Safe Koppelingenbeveiliging in, schakel realtime URL-scan in, geef op of het scannen in realtime moet worden voltooid voordat het bericht wordt verzonden, schakel het scannen van interne berichten in, geef op of gebruikers klikken op URL's moeten bijhouden en geef op of gebruikers mogen klikken op de oorspronkelijke URL.
 - **De regel veilige koppelingen:** hiermee geeft u de prioriteits- en geadresseerdefilters op (op wie het beleid van toepassing is).
 
-Het verschil tussen deze twee elementen is niet duidelijk wanneer u veilige koppelingen beheert in het beveiligings- & compliancecentrum:
+> [!IMPORTANT]
+> Beheerders moeten rekening houden met de verschillende configuratie-instellingen voor SafeLinks. Een van de beschikbare opties is het opnemen van gebruikersgegevens in SafeLinks. Met deze functie kunnen *Beveiligingsops-teams* mogelijke gebruikerscompromitteerden onderzoeken, corrigerende actie ondernemen en dure inbreuken beperken.
 
-- Wanneer u een beleid voor veilige koppelingen maakt, maakt u een veilige koppelingsregel en het bijbehorende beleid voor veilige koppelingen op hetzelfde moment met dezelfde naam voor beide.
-- Wanneer u een beleid voor veilige koppelingen wijzigt, wijzigen instellingen met betrekking tot de naam, prioriteit, ingeschakeld of uitgeschakeld en geadresseerdefilters de regel voor veilige koppelingen. Alle andere instellingen wijzigen het beleid voor gekoppelde veilige koppelingen.
-- Wanneer u een beleid voor veilige koppelingen verwijdert, worden de regel voor veilige koppelingen en het bijbehorende beleid voor veilige koppelingen verwijderd.
+Het verschil tussen deze twee elementen is niet duidelijk wanneer u de Safe koppelingen in het beveiligings- & compliancecentrum beheert:
 
-In Exchange Online PowerShell of standalone EOP PowerShell beheert u het beleid en de regel afzonderlijk. Zie de sectie Exchange Online PowerShell of zelfstandige [EOP PowerShell](#use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-safe-links-policies) gebruiken voor het configureren van beleidsregels voor veilige koppelingen verderop in dit artikel voor meer informatie.
+- Wanneer u een Safe koppelingenbeleid maakt, maakt u tegelijkertijd een veilige koppelingsregel en het bijbehorende beleid voor veilige koppelingen met dezelfde naam voor beide.
+- Wanneer u een Safe koppelingenbeleid wijzigt, wijzigen instellingen met betrekking tot de naam, prioriteit, ingeschakeld of uitgeschakeld en geadresseerdefilters de regel voor veilige koppelingen. Alle andere instellingen wijzigen het beleid voor gekoppelde veilige koppelingen.
+- Wanneer u een Safe koppelingenbeleid verwijdert, worden de regel voor veilige koppelingen en het bijbehorende beleid voor veilige koppelingen verwijderd.
+
+In Exchange Online PowerShell of standalone EOP PowerShell beheert u het beleid en de regel afzonderlijk. Zie de sectie Gebruik Exchange Online PowerShell of zelfstandige [EOP PowerShell](#use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-safe-links-policies) voor het configureren Safe koppelingenbeleid verderop in dit artikel voor meer informatie.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de pagina **Veilige koppelingen wilt** gaan, gebruikt u <https://protection.office.com/safelinksv2> .
+- U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de pagina Safe **koppelingen wilt** gaan, gebruikt <https://protection.office.com/safelinksv2> u .
 
 - Zie [Verbinding maken met Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](/powershell/exchange/connect-to-exchange-online-protection-powershell) als je verbinding wilt maken met zelfstandige EOP PowerShell.
 
 - U moet machtigingen hebben toegewezen voordat u de procedures in dit artikel kunt uitvoeren:
-  - Als u beleidsregels voor veilige koppelingen wilt maken, wijzigen  en verwijderen, moet u lid zijn van de rollengroepen  Organisatiebeheer of Beveiligingsbeheerder in het Beveiligings- & **Compliancecentrum** en lid zijn van de rollengroep Organisatiebeheer in Exchange Online. 
-  - Als u alleen-lezen toegang wilt tot beleidsregels voor veilige koppelingen, moet u lid zijn van de rollengroepen **Globale** lezer of **Beveiligingslezer.**
+  - Als u beleidsregels voor Safe koppelingen wilt maken, wijzigen en  verwijderen,  moet u lid zijn van de rollengroepen Organisatiebeheer  of Beveiligingsbeheerder in het beveiligings- & compliancecentrum en lid zijn van de rollengroep Organisatiebeheer in Exchange Online. 
+  - Voor alleen-lezen toegang tot Safe koppelingenbeleid, moet u lid  zijn van de rollengroepen Globale lezer of **Beveiligingslezer.**
 
-  Zie Machtigingen [in het Beveiligings-](permissions-in-the-security-and-compliance-center.md) & Compliancecentrum en [Machtigingen in Exchange Online](/exchange/permissions-exo/permissions-exo)voor meer informatie.
+  Zie Machtigingen [in het Beveiligings-](permissions-in-the-security-and-compliance-center.md) & Compliancecentrum en [Machtigingen in](/exchange/permissions-exo/permissions-exo)Exchange Online.
 
   > [!NOTE]
   > 
   > - Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen in het Beveiligings- en compliancecentrum _en_ machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
-  . - De **rollengroep Alleen-weergeven voor** organisatiebeheer in [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) biedt ook alleen-lezen toegang tot de functie.
+  . - De **rollengroep Alleen-weergeven voor** organisatiebeheer [in](/Exchange/permissions-exo/permissions-exo#role-groups) Exchange Online biedt ook alleen-lezen toegang tot de functie.
 
-- Zie Beleidsinstellingen voor veilige koppelingen voor onze aanbevolen instellingen voor beleid voor veilige [koppelingen.](recommended-settings-for-eop-and-office365.md#safe-links-policy-settings)
+- Zie voor onze aanbevolen instellingen voor Safe [Koppelingenbeleid Safe Beleidsinstellingen voor koppelingen.](recommended-settings-for-eop-and-office365.md#safe-links-policy-settings)
 
 - Maximaal 30 minuten toestaan dat een nieuw of bijgewerkt beleid wordt toegepast.
 
-- [Er worden voortdurend nieuwe functies toegevoegd aan Microsoft Defender voor Office 365.](defender-for-office-365.md#new-features-in-microsoft-defender-for-office-365) Als er nieuwe functies worden toegevoegd, moet u mogelijk uw bestaande beleid voor veilige koppelingen aanpassen.
+- [Er worden voortdurend nieuwe functies toegevoegd aan Microsoft Defender voor Office 365.](defender-for-office-365.md#new-features-in-microsoft-defender-for-office-365) Als er nieuwe functies worden toegevoegd, moet u mogelijk uw bestaande Safe koppelingenbeleid aanpassen.
 
-## <a name="use-the-security--compliance-center-to-create-safe-links-policies"></a>Gebruik het beveiligings- & compliancecentrum om beleidsregels voor veilige koppelingen te maken
+## <a name="use-the-security--compliance-center-to-create-safe-links-policies"></a>Het beveiligings- & compliancecentrum gebruiken om Safe koppelingenbeleid te maken
 
-Als u een aangepast beleid voor veilige koppelingen maakt in het Beveiligings- & Compliancecentrum, worden de regel voor veilige koppelingen en het bijbehorende beleid voor veilige koppelingen tegelijk gemaakt met dezelfde naam voor beide.
+Als u een aangepast Safe-koppelingenbeleid maakt in het beveiligings- & compliancecentrum, worden de regel voor veilige koppelingen en het bijbehorende beleid voor veilige koppelingen tegelijk gemaakt met dezelfde naam voor beide.
 
-1. Ga in & Beveiligingscentrum naar **Beveiligingsbeheerbeleid** \>  \> **ATP Safe Links**.
+1. Ga in het & compliancecentrum naar  ATP-koppelingen voor \>  \> **bedreigingsbeheerbeleid Safe .**
 
-2. Klik op **de pagina Veilige** koppelingen op **Maken.**
+2. Klik op **Safe pagina Koppelingen** op **Maken.**
 
-3. De **wizard Nieuw beleid voor veilige** koppelingen wordt geopend. Configureer **op de pagina** Naam uw beleid de volgende instellingen:
+3. De **wizard Nieuw Safe koppelingen wordt** geopend. Configureer **op de pagina** Naam uw beleid de volgende instellingen:
 
    - **Naam**: een unieke beschrijvende naam voor het beleid.
 
@@ -97,23 +100,23 @@ Als u een aangepast beleid voor veilige koppelingen maakt in het Beveiligings- &
 
    Wanneer u klaar bent, klikt u op **Volgende.**
 
-4. Configureer **de** volgende instellingen op de pagina Instellingen die wordt weergegeven:
+4. Configureer **op Instellingen** pagina die wordt weergegeven de volgende instellingen:
 
-   - **Selecteer de actie voor onbekende potentieel schadelijke URL's in berichten:** Selecteer **Aan** om beveiliging van veilige koppelingen in te stellen voor koppelingen in e-mailberichten.
+   - **Selecteer de actie voor onbekende potentieel schadelijke URL's in** berichten: Selecteer **Aan** om Safe koppelingen in te stellen voor koppelingen in e-mailberichten.
 
-   - **Selecteer de actie voor onbekende of potentieel schadelijke URL's in Microsoft Teams:** Selecteer **Aan** om beveiliging van veilige koppelingen in te stellen voor koppelingen in Teams.
+   - Selecteer de actie voor onbekende of potentieel schadelijke **URL's** in Microsoft Teams : Selecteer **Aan** om de beveiliging van koppelingen in te Safe koppelingen in Teams.
 
    - **Realtime URL-scan toepassen** op verdachte koppelingen en koppelingen die naar bestanden wijzen: Selecteer deze instelling om het scannen van koppelingen in e-mailberichten in realtime mogelijk te maken.
 
    - **Wacht totdat URL-scannen is** voltooid voordat het bericht wordt weergegeven: Selecteer deze instelling om te wachten totdat het scannen van url's in realtime is voltooid voordat het bericht wordt weergegeven.
 
-   - **Veilige koppelingen toepassen op e-mailberichten** die binnen de organisatie zijn verzonden: Selecteer deze instelling om het beleid voor veilige koppelingen toe te passen op berichten tussen interne afzenders en interne geadresseerden.
+   - **Gebruik Safe koppelingen naar** e-mailberichten die binnen de organisatie worden verzonden: Selecteer deze instelling om het Safe Koppelingen-beleid toe te passen op berichten tussen interne afzenders en interne geadresseerden.
 
    - **Gebruikersklikken niet bijhouden:** laat deze instelling niet geselecteerd om het bijhouden van gebruikersklikken op URL's in e-mailberichten in te stellen.
 
    - **Gebruikers mogen niet doorklikken** naar de oorspronkelijke URL: Selecteer deze instelling om te blokkeren dat gebruikers doorklikken naar de oorspronkelijke URL op [waarschuwingspagina's.](safe-links.md#warning-pages-from-safe-links)
 
-   - **De volgende URL's niet** opnieuw schrijven: Hiermee krijgt u toegang tot de opgegeven URL's die anders zouden worden geblokkeerd door veilige koppelingen.
+   - **De volgende URL's niet** opnieuw schrijven: Hiermee krijgt u toegang tot de opgegeven URL's die anders door Safe worden geblokkeerd.
 
      Typ in het vak de URL of waarde die u wilt gebruiken en klik op ![Knoppictogram toevoegen](../../media/ITPro-EAC-AddIcon.png).
 
@@ -121,9 +124,9 @@ Als u een aangepast beleid voor veilige koppelingen maakt in het Beveiligings- &
 
      Zie De syntaxis van de vermelding voor de lijst 'De volgende URL's niet opnieuw [schrijven'.](safe-links.md#entry-syntax-for-the-do-not-rewrite-the-following-urls-list)
 
-   Zie Instellingen voor veilige koppelingen voor [e-mailberichten](safe-links.md#safe-links-settings-for-email-messages) en Instellingen voor veilige koppelingen voor Microsoft Teams voor meer [informatie over deze instellingen.](safe-links.md#safe-links-settings-for-microsoft-teams)
+   Zie voor meer informatie over deze [instellingen de instellingen Safe Koppelingen](safe-links.md#safe-links-settings-for-email-messages) voor e-mailberichten en Safe Koppelingen voor [Microsoft Teams.](safe-links.md#safe-links-settings-for-microsoft-teams)
 
-   Zie Beleidsinstellingen voor veilige koppelingen voor meer aanbevolen waarden voor standaard- en strikte [beleidsinstellingen.](recommended-settings-for-eop-and-office365.md#safe-links-policy-settings)
+   Zie voor meer informatie over de aanbevolen waarden voor standaard- en strikte beleidsinstellingen [Safe Beleidsinstellingen koppelingen.](recommended-settings-for-eop-and-office365.md#safe-links-policy-settings)
 
    Wanneer u klaar bent, klikt u op **Volgende.**
 
@@ -155,29 +158,29 @@ Als u een aangepast beleid voor veilige koppelingen maakt in het Beveiligings- &
 
    Wanneer u klaar bent, klikt u op **Voltooien.**
 
-## <a name="use-the-security--compliance-center-to-view-safe-links-policies"></a>Het beveiligings- & compliancecentrum gebruiken om beleidsregels voor veilige koppelingen weer te geven
+## <a name="use-the-security--compliance-center-to-view-safe-links-policies"></a>Het beveiligings- & compliancecentrum gebruiken om de Safe koppelingen weer te geven
 
-1. Ga in & Beveiligingscentrum naar **Beveiligingsbeheerbeleid** \>  \> **ATP Safe Links**.
+1. Ga in het & compliancecentrum naar  ATP-koppelingen voor \>  \> **bedreigingsbeheerbeleid Safe .**
 
-2. Selecteer op **de pagina** Veilige koppelingen een beleid in de lijst en klik erop (schakel het selectievakje niet in).
+2. Selecteer op **Safe pagina Koppelingen** een beleid in de lijst en klik erop (schakel het selectievakje niet in).
 
    De beleidsdetails worden weergegeven in een fly-out
 
-## <a name="use-the-security--compliance-center-to-modify-safe-links-policies"></a>Gebruik het beveiligings- & compliancecentrum om beleidsregels voor veilige koppelingen te wijzigen
+## <a name="use-the-security--compliance-center-to-modify-safe-links-policies"></a>Gebruik het beveiligings- & compliancecentrum om het beleid voor koppelingen Safe wijzigen
 
-1. Ga in & Beveiligingscentrum naar **Beveiligingsbeheerbeleid** \>  \> **ATP Safe Links**.
+1. Ga in het & compliancecentrum naar  ATP-koppelingen voor \>  \> **bedreigingsbeheerbeleid Safe .**
 
-2. Selecteer op **de pagina** Veilige koppelingen een beleid in de lijst en klik erop (schakel het selectievakje niet in).
+2. Selecteer op **Safe pagina Koppelingen** een beleid in de lijst en klik erop (schakel het selectievakje niet in).
 
 3. Klik in de beleidsdetails die worden weergegeven op **Beleid bewerken.**
 
-De beschikbare instellingen in de fly-out die worden weergegeven, zijn identiek aan de instellingen die worden beschreven in de sectie Het beveiligings- [& compliancecentrum](#use-the-security--compliance-center-to-create-safe-links-policies) gebruiken om beleidsregels voor veilige koppelingen te maken.
+De beschikbare instellingen in de fly-out die worden weergegeven, zijn identiek aan de instellingen die worden beschreven in het compliancecentrum & Beveiligingscentrum gebruiken om Safe [koppelingenbeleid te](#use-the-security--compliance-center-to-create-safe-links-policies) maken.
 
 Zie de volgende secties als u een beleid wilt in- of uitschakelen of de beleidsprioriteitsvolgorde wilt instellen.
 
-### <a name="enable-or-disable-safe-links-policies"></a>Beleidsregels voor veilige koppelingen in- of uitschakelen
+### <a name="enable-or-disable-safe-links-policies"></a>Beleidsregels voor koppelingen in- Safe uitschakelen
 
-1. Ga in & Beveiligingscentrum naar **Beveiligingsbeheerbeleid** \>  \> **ATP Safe Links**.
+1. Ga in het & compliancecentrum naar  ATP-koppelingen voor \>  \> **bedreigingsbeheerbeleid Safe .**
 
 2. Let op de waarde in de **kolom Status:**
 
@@ -185,46 +188,46 @@ Zie de volgende secties als u een beleid wilt in- of uitschakelen of de beleidsp
 
    - Verplaats te wisselknop naar rechts om het beleid in te schakelen: ![Beleid in-/uit-](../../media/scc-toggle-on.png).
 
-### <a name="set-the-priority-of-safe-links-policies"></a>De prioriteit van beleidsregels voor veilige koppelingen instellen
+### <a name="set-the-priority-of-safe-links-policies"></a>De prioriteit instellen van Safe koppelingenbeleid
 
-Beleidsregels voor veilige koppelingen krijgen standaard een prioriteit die is gebaseerd op de volgorde waarin ze zijn gemaakt (nieuwere agenten hebben een lagere prioriteit dan oudere beleidsregels). Een lager prioriteitsnummer geeft een hogere prioriteit aan voor het beleid (0 is de hoogste) en beleid word verwerkt in prioriteitsvolgorde (beleid met hogere prioriteit wordt verwerkt voor beleid met lagere prioriteit). Twee beleidsregels kunnen niet dezelfde prioriteit hebben en de verwerking van het beleid stopt nadat het eerste beleid is toegepast.
+Standaard krijgen Safe koppelingenbeleid een prioriteit die is gebaseerd op de volgorde waarin ze zijn gemaakt (nieuwere agenten hebben een lagere prioriteit dan oudere beleidsregels). Een lager prioriteitsnummer geeft een hogere prioriteit aan voor het beleid (0 is de hoogste) en beleid word verwerkt in prioriteitsvolgorde (beleid met hogere prioriteit wordt verwerkt voor beleid met lagere prioriteit). Twee beleidsregels kunnen niet dezelfde prioriteit hebben en de verwerking van het beleid stopt nadat het eerste beleid is toegepast.
 
 Voor meer informatie over de prioriteitvolgorde en het evalueren en toepassen van een beleid, raadpleegt u [volgorde en prioriteit van e-mailbeveiliging](how-policies-and-protections-are-combined.md).
 
-Beleidsregels voor veilige koppelingen worden weergegeven in de volgorde waarin ze worden verwerkt (het eerste beleid heeft de **prioriteitswaarde** 0).
+Safe Koppelingenbeleid wordt weergegeven in de volgorde waarin ze worden verwerkt (het eerste beleid heeft de **waarde** Prioriteit 0).
 
 > [!NOTE]
-> In het & compliancecentrum kunt u alleen de prioriteit van het beleid voor veilige koppelingen wijzigen nadat u het hebt gemaakt. In PowerShell kunt u de standaardprioriteit overschrijven wanneer u de regel veilige koppelingen maakt (die van invloed kan zijn op de prioriteit van bestaande regels).
+> In het Beveiligings- & compliancecentrum kunt u alleen de prioriteit van het Safe koppelingen wijzigen nadat u het hebt gemaakt. In PowerShell kunt u de standaardprioriteit overschrijven wanneer u de regel veilige koppelingen maakt (die van invloed kan zijn op de prioriteit van bestaande regels).
 
 Om de prioriteit van beleid te wijzigen, kunt u het beleid naar boven of beneden verplaatsen in de lijst (u kunt het **Prioriteit** snummer in het Beveiligings en compliancecentrum niet rechtstreeks wijzigen).
 
-1. Ga in & Beveiligingscentrum naar **Beveiligingsbeheerbeleid** \>  \> **ATP Safe Links**.
+1. Ga in het & compliancecentrum naar  ATP-koppelingen voor \>  \> **bedreigingsbeheerbeleid Safe .**
 
-2. Selecteer op **de pagina** Veilige koppelingen een beleid in de lijst en klik erop (schakel het selectievakje niet in).
+2. Selecteer op **Safe pagina Koppelingen** een beleid in de lijst en klik erop (schakel het selectievakje niet in).
 
 3. Klik in de beleidsdetails die worden weergegeven op de beschikbare prioriteitsknop:
 
-   - In het beleid Veilige koppelingen met **prioriteit 0** is alleen de **knop Prioriteit verlagen** beschikbaar. 
+   - Het Safe koppelingenbeleid met **prioriteitswaarde** **0** heeft alleen de **knop Prioriteit verlagen** beschikbaar.
 
-   - In het beleid Veilige koppelingen met de laagste **prioriteitswaarde** (bijvoorbeeld **3)** is alleen de knop **Prioriteit verhogen** beschikbaar.
+   - Het Safe beleid met de  laagste prioriteitswaarde (bijvoorbeeld **3)** heeft alleen de knop **Prioriteit verhogen** beschikbaar.
 
-   - Als u drie of meer beleidsregels voor veilige koppelingen hebt,  hebben  beleidsregels tussen de waarden met de hoogste en laagste prioriteit zowel de knoppen Prioriteit verhogen als Prioriteit verlagen beschikbaar.
+   - Als u drie of meer Safe koppelingenbeleid hebt, zijn beleidsregels tussen  de  waarden met de hoogste en laagste prioriteit zowel de knoppen Prioriteit verhogen als Prioriteit verlagen beschikbaar.
 
 4. Klik **op Prioriteit verhogen of** Prioriteit verlagen **om** de waarde Prioriteit **te** wijzigen.
 
 5. Klik op **Sluiten** wanneer u gereed bent.
 
-## <a name="use-the-security--compliance-center-to-remove-safe-links-policies"></a>Het beveiligings- & compliancecentrum gebruiken om beleid voor veilige koppelingen te verwijderen
+## <a name="use-the-security--compliance-center-to-remove-safe-links-policies"></a>Het beveiligings- & compliancecentrum gebruiken om Safe koppelingen te verwijderen
 
-1. Ga in & Beveiligingscentrum naar **Beveiligingsbeheerbeleid** \>  \> **ATP Safe Links**.
+1. Ga in het & compliancecentrum naar  ATP-koppelingen voor \>  \> **bedreigingsbeheerbeleid Safe .**
 
-2. Selecteer op **de pagina** Veilige koppelingen een beleid in de lijst en klik erop (schakel het selectievakje niet in).
+2. Selecteer op **Safe pagina Koppelingen** een beleid in de lijst en klik erop (schakel het selectievakje niet in).
 
 3. Klik in de beleidsdetails die worden weergegeven op Beleid verwijderen **en** klik vervolgens op **Ja** in het waarschuwingsdialoogvenster dat wordt weergegeven.
 
-## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-safe-links-policies"></a>Exchange Online PowerShell of zelfstandige EOP PowerShell gebruiken om beleid voor veilige koppelingen te configureren
+## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-safe-links-policies"></a>Gebruik Exchange Online PowerShell of zelfstandige EOP PowerShell om Safe koppelingenbeleid te configureren
 
-Zoals eerder beschreven, bestaat een beleid voor veilige koppelingen uit een beleid voor veilige koppelingen en een regel voor veilige koppelingen.
+Zoals eerder beschreven, Safe beleid voor koppelingen bestaat uit een beleid voor veilige koppelingen en een regel voor veilige koppelingen.
 
 In PowerShell is het verschil tussen beleidsregels voor veilige koppelingen en regels voor veilige koppelingen duidelijk. U beheert beleidsregels voor veilige koppelingen met behulp van **\* de cmdlets -SafeLinksPolicy** en u beheert regels voor veilige koppelingen met behulp van **\* de cmdlets -SafeLinksRule.**
 
@@ -232,9 +235,9 @@ In PowerShell is het verschil tussen beleidsregels voor veilige koppelingen en r
 - In PowerShell wijzigt u de instellingen in het beleid voor veilige koppelingen en de regel voor veilige koppelingen afzonderlijk.
 - Wanneer u een beleid voor veilige koppelingen uit PowerShell verwijdert, wordt de bijbehorende regel voor veilige koppelingen niet automatisch verwijderd en omgekeerd.
 
-### <a name="use-powershell-to-create-safe-links-policies"></a>PowerShell gebruiken om beleid voor veilige koppelingen te maken
+### <a name="use-powershell-to-create-safe-links-policies"></a>PowerShell gebruiken om Safe koppelingen te maken
 
-Het maken van een beleid voor veilige koppelingen in PowerShell is een proces in twee stappen:
+Het maken Safe beleid voor koppelingen in PowerShell is een proces in twee stappen:
 
 1. Maak het beleid voor veilige koppelingen.
 2. Maak de regel veilige koppelingen die het beleid voor veilige koppelingen aangeeft waar de regel op van toepassing is.
@@ -267,11 +270,11 @@ New-SafeLinksPolicy -Name "<PolicyName>" [-AdminDisplayName "<Comments>"] [-IsEn
 In dit voorbeeld wordt een beleid voor veilige koppelingen met de naam Contoso All gemaakt met de volgende waarden:
 
 - Schakel URL's scannen en herschrijven in e-mailberichten in.
-- URL's scannen in teams in-/uit-/uit -2 zetten (alleen TAP Preview).
+- URL's scannen in Teams in (alleen TAP Preview).
 - Schakel realtime scannen in van geklikte URL's, inclusief geklikte koppelingen die naar bestanden wijzen.
 - Wacht totdat URL-scannen is voltooid voordat u het bericht bezorgt.
 - Schakel URL's scannen en herschrijven in voor interne berichten.
-- Gebruikersklikken bijhouden die betrekking hebben op beveiliging tegen veilige koppelingen (we gebruiken de parameter _DoNotTrackUserClicks_ niet en de standaardwaarde is $false, wat betekent dat gebruikersklikken worden bijgespoord).
+- Gebruikersklikken bijhouden met betrekking tot Safe Koppelingenbeveiliging (we gebruiken de parameter _DoNotTrackUserClicks_ niet en de standaardwaarde is $false, wat betekent dat gebruikersklikken worden bijgepuurd).
 - Gebruikers mogen niet doorklikken naar de oorspronkelijke URL.
 
 ```PowerShell
@@ -357,7 +360,7 @@ Zie [Get-SafeLinksRule](/powershell/module/exchange/get-safelinksrule)voor gedet
 
 ### <a name="use-powershell-to-modify-safe-links-policies"></a>PowerShell gebruiken om beleidsregels voor veilige koppelingen te wijzigen
 
-U kunt de naam van een beleid voor veilige koppelingen niet wijzigen in PowerShell (de cmdlet **Set-SafeLinksPolicy** heeft geen _naamparameter)._ Wanneer u de naam van een beleid voor veilige koppelingen wijzigt in het beveiligings- & compliancecentrum, wijzigt u alleen de naam van de regel voor veilige _koppelingen._
+U kunt de naam van een beleid voor veilige koppelingen niet wijzigen in PowerShell (de cmdlet **Set-SafeLinksPolicy** heeft geen _naamparameter)._ Wanneer u de naam van een Safe koppelingenbeleid wijzigt in het beveiligings- & compliancecentrum, wijzigt u alleen de naam van de regel voor veilige _koppelingen._
 
 De enige extra overweging voor het wijzigen van beleidsregels voor veilige koppelingen in PowerShell is de beschikbare syntaxis voor de parameter _DoNotRewriteUrls_ (de lijst 'De volgende URL's niet [herschrijven'):](safe-links.md#do-not-rewrite-the-following-urls-lists-in-safe-links-policies)
 
@@ -390,7 +393,7 @@ Zie [Set-SafeLinksRule](/powershell/module/exchange/set-safelinksrule)voor gedet
 
 ### <a name="use-powershell-to-enable-or-disable-safe-links-rules"></a>PowerShell gebruiken om regels voor veilige koppelingen in of uit te schakelen
 
-Als u een regel voor veilige koppelingen in PowerShell in- of uitschakelen, wordt het hele beleid voor veilige koppelingen (de regel voor veilige koppelingen en het toegewezen beleid voor veilige koppelingen) in- of uitgeschakeld.
+Als u een regel voor veilige koppelingen in PowerShell in- of uitschakelen, wordt het hele Safe-koppelingenbeleid (de regel voor veilige koppelingen en het toegewezen beleid voor veilige koppelingen) in- of uitgeschakeld.
 
 Als u een regel voor veilige koppelingen in PowerShell wilt in- of uitschakelen, gebruikt u de volgende syntaxis:
 
@@ -469,15 +472,15 @@ Remove-SafeLinksRule -Identity "Marketing Department"
 
 Zie [Remove-SafeLinksRule voor](/powershell/module/exchange/remove-safelinksrule)gedetailleerde syntaxis- en parametergegevens.
 
-Als u wilt controleren of veilige koppelingen berichten scannen, controleert u de beschikbare Microsoft Defender voor Office 365-rapporten. Zie Rapporten voor Defender voor [Office 365](view-reports-for-mdo.md) en Verkenner gebruiken in het beveiligings- [& compliancecentrum voor meer informatie.](threat-explorer.md)
+Als u wilt controleren Safe koppelingen berichten scannen, controleert u de beschikbare Microsoft Defender voor Office 365 rapporten. Zie Rapporten voor Defender voor Office 365 [en](view-reports-for-mdo.md) Explorer gebruiken in het beveiligings- [& compliancecentrum voor meer informatie.](threat-explorer.md)
 
 ## <a name="how-do-you-know-these-procedures-worked"></a>Hoe weet ik of deze procedures zijn geslaagd?
 
-Ga als volgt te werk om te controleren of u beleidsregels voor veilige koppelingen hebt gemaakt, gewijzigd of verwijderd:
+Als u wilt controleren of u beleidsregels voor koppelingen hebt gemaakt, gewijzigd of Safe hebt verwijderd, gaat u als volgt te werk:
 
-- Ga in & Beveiligingscentrum naar **Beveiligingsbeheerbeleid** \>  \> **ATP Safe Links**. Controleer de lijst met beleidsregels, de **statuswaarden** en de **prioriteitswaarden.** Als u meer details wilt weergeven, selecteert u het beleid in de lijst en bekijkt u de details in de fly-out.
+- Ga in het & compliancecentrum naar  ATP-koppelingen voor \>  \> **bedreigingsbeheerbeleid Safe .** Controleer de lijst met beleidsregels, de **statuswaarden** en de **prioriteitswaarden.** Als u meer details wilt weergeven, selecteert u het beleid in de lijst en bekijkt u de details in de fly-out.
 
-- Vervang in Exchange Online PowerShell of Exchange Online Protection PowerShell de naam van het beleid of de regel, voer de volgende opdracht uit en controleer \<Name\> de instellingen:
+- Vervang Exchange Online PowerShell of Exchange Online Protection PowerShell door de naam van het beleid of de regel, voer de volgende opdracht uit en controleer \<Name\> de instellingen:
 
   ```PowerShell
   Get-SafeLinksPolicy -Identity "<Name>"
