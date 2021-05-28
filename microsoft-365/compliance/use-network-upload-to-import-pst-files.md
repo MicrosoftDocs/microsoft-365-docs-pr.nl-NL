@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 103f940c-0468-4e1a-b527-cc8ad13a5ea6
 description: 'Voor beheerders: informatie over uploaden via het netwerk om meerdere PST-bestanden bulksgewijs te importeren in gebruikerspostvakken in Microsoft 365.'
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6ff645589337260cd8e29d1e1d066abdf60c1f1a
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: ebbc9b080bf42ef309741dc8bfa4283df9776902
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280919"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683963"
 ---
 # <a name="use-network-upload-to-import-your-organizations-pst-files-to-microsoft-365"></a>Gebruik uploaden via het netwerk om de PST-bestanden van uw organisatie te importeren in Microsoft 365
 
@@ -51,7 +51,7 @@ U hoeft stap 1 slechts eenmaal uit te voeren om PST-bestanden te importeren in M
   
 - U moet de rol Postvak importeren exporteren toegewezen krijgen in Exchange Online om PST-bestanden te kunnen importeren in Microsoft 365-postvakken. Deze rol is standaard niet toegewezen aan een rollengroep in Exchange Online. U kunt de rol Postvak importeren exporteren toevoegen aan de rollengroep Organisatiebeheer. U kunt ook een rollengroep maken, de rol Postvak importeren exporteren daar aan toewijzen, en uzelf als lid toevoegen. Zie de gedeelten Een rol aan een rollengroep toevoegen of Een rollengroep maken in [Rollengroepen beheren](/Exchange/permissions-exo/role-groups) voor meer informatie.
 
-    Als u importtaken wilt maken in het beveiligings- en compliancecentrum, moet bovendien sprake zijn van een van de volgende gevallen:
+    Als u importtaken wilt maken in het Microsoft 365-compliancecentrum, moet bovendien sprake zijn van een van de volgende gevallen:
 
   - De rol van e-mailgeadresseerde moet aan u zijn toegewezen in Exchange Online. Deze rol wordt standaard toegewezen aan de rollengroepen Organisatiebeheer en Recipient Management.
 
@@ -70,7 +70,7 @@ U hoeft stap 1 slechts eenmaal uit te voeren om PST-bestanden te importeren in M
 
 - Deze procedure bestaat uit het kopiëren en opslaan van een URL die een toegangssleutel bevat. Die informatie wordt in stap 2 gebruikt voor het uploaden van uw PST-bestanden, en in stap 3 als u een lijst wilt weergeven met de PST-bestanden die zijn geüpload naar Office 365. Neem maatregelen ter bescherming van deze URL, net zoals voor het beschermen van wachtwoorden of andere beveiligingsinformatie. U kunt de URL bijvoorbeeld opslaan in een met een wachtwoord beveiligd Microsoft Word-document of op een versleuteld USB-station. Zie de sectie [Meer informatie](#more-information) voor een voorbeeld van deze gecombineerde URL en sleutel.
 
-- U kunt PST-bestanden importeren in een inactief postvak in Office 365. U kunt dit doen door de GUID van het inactieve postvak op te geven in de `Mailbox`-parameter in het toewijzingsbestand van de PST-import. Zie stap 4 op het tabblad **Instructies** in dit onderwerp voor meer informatie. 
+- U kunt PST-bestanden importeren in een inactief postvak in Office 365. U kunt dit doen door de GUID van het inactieve postvak op te geven in de `Mailbox`-parameter in het toewijzingsbestand van de PST-import. Zie stap 4 op het tabblad **Instructies** in dit onderwerp voor meer informatie.
 
 - In een hybride Exchange-implementatie kunt u PST-bestanden importeren in een archiefpostvak in de cloud voor een gebruiker waarvan het primaire postvak zich on-premises bevindt. Daarvoor doet u het volgende in het toewijzingsbestand voor de PST-import:
 
@@ -96,14 +96,14 @@ De eerste stap is het downloaden en installeren van het hulpprogramma AzCopy, da
 > [!IMPORTANT]
 > Als u PST-bestanden wilt importeren via de methode uploaden via het netwerk en de opdrachtsyntaxis die in dit artikel wordt beschreven, moet u de versie van AzCopy gebruiken die kan worden gedownload in stap 6b in de volgende procedure. U kunt ook [hier](https://aka.ms/downloadazcopy) dezelfde versie van AzCopy downloaden. Het gebruik van een andere versie van AzCopy wordt niet ondersteund.
   
-1. Ga naar [https://protection.office.com](https://protection.office.com) en meld u aan met de referenties van een beheerdersaccount in uw organisatie.
+1. Ga naar <https://compliance.microsoft.com> en meld u aan met de referenties van een beheerdersaccount in uw organisatie.
 
-2. In het linkerdeelvenster van het beveiligings- en compliancecentrum klikt u op **Informatiebeheer** \> **Importeren** \> **PST-bestanden importeren**.
+2. Klik in het linkerdeelvenster van het Microsoft365-compliancecentrum op **Informatiebeheer** \> **Importeren**.
 
     > [!NOTE]
-    > U moet de juiste machtigingen bezitten om de pagina **Importeren** te kunnen openen in het beveiligings- en compliancecentrum. Zie het gedeelte **Voordat u begint** voor meer informatie. 
+    > U moet de juiste machtigingen bezitten om de pagina **Importeren** te kunnen openen in het Microsoft 365-compliancecentrum. Zie het gedeelte **Voordat u begint** voor meer informatie. 
 
-3. Klik op de pagina **PST-bestanden importeren** op ![Pictogram toevoegen](../media/ITPro-EAC-AddIcon.gif) **Nieuwe importtaak**.
+3. Klik op het tabblad **Importeren** op ![Pictogram toevoegen](../media/ITPro-EAC-AddIcon.gif) **Nieuwe importtaak**.
 
     De wizard voor het maken van een importtaak wordt weergegeven.
 
@@ -167,7 +167,7 @@ Nadat u de opdracht uitvoert, worden statusberichten weergegeven die de voortgan
 
 ## <a name="optional-step-3-view-a-list-of-the-pst-files-uploaded-to-office-365"></a>Stap 3 (optioneel): bekijk de lijst met PST-bestanden die zijn geüpload naar Office 365
 
-U kunt eventueel de Microsoft Azure Storage Explorer (een gratis open-sourcehulpprogramma) installeren en gebruiken om een lijst weer te geven met de PST-bestanden die u hebt geüpload naar de Azure-blob. Er zijn twee goede redenen om dit te doen:
+U kunt eventueel de Microsoft Azure Storage Explorer (een gratis open-sourcehulpprogramma) installeren en gebruiken om een lijst weer te geven met de PST-bestanden die u hebt geüpload naar de Azure-blob.
   
 - Om te controleren dat de PST-bestanden uit de gedeelde map of van de bestandsserver in uw organisatie zijn geüpload naar de Azure-blob.
 
@@ -198,7 +198,7 @@ Ga als volgt te werk om de Azure Storage Explorer te installeren en verbinding t
   
 ## <a name="step-4-create-the-pst-import-mapping-file"></a>Stap 4: maak het toewijzingsbestand voor de PST-import
 
-Nadat u de PST-bestanden hebt geüpload naar de Azure-opslaglocatie voor uw organisatie, is de volgende stap het maken van een bestand met door komma’s gescheiden waarden (CSV), waarin u opgeeft in welke gebruikerspostvakken de PST-bestanden moeten worden geïmporteerd. Dit CSV-bestand dient u in bij de volgende stap, wanneer u een PST-importtaak maakt.
+Nadat u de PST-bestanden hebt geüpload naar de Azure-opslaglocatie voor uw organisatie, is de volgende stap het maken van een bestand met door komma’s gescheiden waarden (CSV), waarin u opgeeft in welke gebruikerspostvakken de PST-bestanden moeten worden geïmporteerd.
   
 1. [Download een exemplaar van het toewijzingsbestand voor de PST-import](https://go.microsoft.com/fwlink/p/?LinkId=544717).
 
@@ -231,7 +231,7 @@ Nadat u de PST-bestanden hebt geüpload naar de Azure-opslaglocatie voor uw orga
     | `FilePath` <br/> |Hiermee geeft u de locatie van de map in de Azure-opslaglocatie op waarnaar u de PST-bestanden hebt geüpload in stap 2.  <br/> Als u in stap 2 geen optionele submap in de SAS-URL hebt opgegeven in de parameter `/Dest:`, kunt u deze parameter leeg laten in het CSV-bestand. Als u wel een submap hebt toegevoegd, geeft u die op in deze parameter (zie het tweede voorbeeld). Deze parameterwaarde is hoofdlettergevoelig.  <br/> U moet in *geen* geval ‘ingestiondata’ opnemen in de waarde voor de parameter `FilePath`.  <br/><br/> **Belangrijk:** De hoofdletters en kleine letters in de naam van het pad naar het bestand moeten identiek zijn als u in stap 2 een optionele naam van een submap in de SAS-URL hebt opgenomen in de parameter `/Dest:`. Als u bijvoorbeeld `PSTFiles` hebt gebruikt als naam van de submap in stap 2 en vervolgens `pstfiles` gebruikt in de parameter `FilePath` in het CSV-bestand, mislukt het importeren van het PST-bestand. Zorg dat u in beide gevallen dezelfde hoofdletters en kleine letters gebruikt.  <br/> |(laat leeg)  <br/> Of  <br/>  `PSTFiles` <br/> |
     | `Name` <br/> |Hiermee geeft u de naam op van het PST-bestand dat u wilt importeren in het gebruikerspostvak. Deze parameterwaarde is hoofdlettergevoelig. De bestandsnaam voor elk PST-bestand in het toewijzingsbestand voor een importtaak moet uniek zijn. <br/> <br/>**Belangrijk:** De hoofdletters en kleine letters in de naam van het PST-bestand in het CSV-bestand moeten identiek zijn aan die van het PST-bestand dat u in stap 2 hebt geüpload naar de Azure-opslaglocatie. Als u bijvoorbeeld `annb.pst` gebruikt in de parameter`Name` in het CSV-bestand, maar de naam PST-bestand in werkelijkheid `AnnB.pst` is, mislukt het importeren van dat PST-bestand. Zorg dat u in de naam van het PST-bestand in het CVS-bestand dezelfde hoofdletters en kleine letters gebruikt als in de daadwerkelijke naam van het PST-bestand.  <br/> | `annb.pst` <br/> |
     | `Mailbox` <br/> |Hiermee geeft u het e-mailadres op van het postvak waarin u het PST-bestand gaat importeren. U kunt geen openbare map opgeven omdat de PST-importservice geen ondersteuning biedt voor het importeren van PST-bestanden in openbare mappen.  <br/> Als u een PST-bestand wilt importeren in een inactief postvak, moet u de postvak-GUID voor deze parameter opgeven. Om deze GUID te verkrijgen voert u de volgende PowerShell-opdracht uit in Exchange Online: `Get-Mailbox <identity of inactive mailbox> -InactiveMailboxOnly | FL Guid` <br/> <br/>**Opmerking:** Soms zijn er mogelijk meerdere postvakken met hetzelfde e-mailadres, waarbij het ene postvak actief is en het andere voorlopig verwijderd (of inactief) is. In die situatie moet u de postvak-GUID opgeven als unieke aanduiding van het postvak waarin u het PST-bestand wilt importeren. Om deze GUID te verkrijgen voor actieve postvakken voert u de volgende PowerShell-opdracht uit: `Get-Mailbox <identity of active mailbox> | FL Guid`. Om de GUID te verkrijgen voor voorlopig verwijderde (of inactieve) postvakken, voert u de volgende opdracht uit: `Get-Mailbox <identity of soft-deleted or inactive mailbox> -SoftDeletedMailbox | FL Guid`.  <br/> | `annb@contoso.onmicrosoft.com` <br/> Of  <br/>  `2d7a87fe-d6a2-40cc-8aff-1ebea80d4ae7` <br/> |
-    | `IsArchive` <br/> | Hiermee geeft u op of u het PST-bestand wilt importeren in het archiefpostvak van de gebruiker. Er zijn twee opties:  <br/><br/>**ONWAAR:** Het PST-bestand wordt geïmporteerd in het primaire postvak van de gebruiker.  <br/> **WAAR:** Het PST-bestand wordt geïmporteerd in het archiefpostvak van de gebruiker. Er wordt vanuit gegaan dat [het archiefpostvak van de gebruiker actief is](enable-archive-mailboxes.md). <br/><br/>Als u deze parameter instelt op `TRUE` en het archiefpostvak van de gebruiker is niet actief, dan mislukt de importbewerking voor die gebruiker. Als een importbewerking voor één gebruiker mislukt (omdat zijn of haar archiefpostvak niet actief is en deze eigenschap is ingesteld op `TRUE`), dan hebben de overige gebruikers hiervan geen last.  <br/>  Als u deze parameter leeg laat, wordt het PST-bestand geïmporteerd in het primaire postvak van de gebruiker.  <br/> <br/>**Opmerking:** Als u een PST-bestand wilt importeren in een archiefpostvak in de cloud van een gebruiker wiens primaire postvak zich on-premises bevindt, geeft u `TRUE` op voor deze parameter en geeft u het e-mailadres op van het on-premises gebruikerspostvak voor de `Mailbox`-parameter.  <br/> | `FALSE` <br/> Of  <br/>  `TRUE` <br/> |
+    | `IsArchive` <br/> | Hiermee geeft u op of u het PST-bestand wilt importeren in het archiefpostvak van de gebruiker.<br/><br/>**ONWAAR:** Het PST-bestand wordt geïmporteerd in het primaire postvak van de gebruiker.  <br/> **WAAR:** Het PST-bestand wordt geïmporteerd in het archiefpostvak van de gebruiker. Er wordt vanuit gegaan dat [het archiefpostvak van de gebruiker actief is](enable-archive-mailboxes.md). <br/><br/>Als u deze parameter instelt op `TRUE` en het archiefpostvak van de gebruiker is niet actief, dan mislukt de importbewerking voor die gebruiker. Als een importbewerking voor één gebruiker mislukt (omdat zijn of haar archiefpostvak niet actief is en deze eigenschap is ingesteld op `TRUE`), dan hebben de overige gebruikers hiervan geen last.  <br/>  Als u deze parameter leeg laat, wordt het PST-bestand geïmporteerd in het primaire postvak van de gebruiker.  <br/> <br/>**Opmerking:** Als u een PST-bestand wilt importeren in een archiefpostvak in de cloud van een gebruiker wiens primaire postvak zich on-premises bevindt, geeft u `TRUE` op voor deze parameter en geeft u het e-mailadres op van het on-premises gebruikerspostvak voor de `Mailbox`-parameter.  <br/> | `FALSE` <br/> Of  <br/>  `TRUE` <br/> |
     | `TargetRootFolder` <br/> | Hiermee geeft u het postvak op waarin het PST-bestand wordt geïmporteerd.  <br/> <br/> Als u deze parameter leeg laat, wordt het PST-bestand geïmporteerd in een nieuwe map genaamd **Geïmporteerd** in de hoofdmap van het postvak (op hetzelfde niveau als de map Postvak IN en de andere standaardmappen).  <br/> <br/> Als u `/` opgeeft, worden de mappen en items in het PST-bestand geïmporteerd bovenaan de mapstructuur in het doelpostvak of archief. Als een map al bestaat in het doelpostvak (bijvoorbeeld standaardmappen zoals Postvak IN, Verzonden items en Verwijderde items), worden de items in die map in het PST-bestand samengevoegd in de bestaande map in het doelpostvak. Als het PST-bestand bijvoorbeeld een Postvak IN bevat, worden items in die map geïmporteerd in het Postvak IN in het doelpostvak. Nieuwe mappen worden gemaakt als ze nog niet bestaan in de mapstructuur voor het doelpostvak.  <br/><br/>  Als u `/<foldername>` opgeeft, worden de items  en mappen in het PST-bestand geïmporteerd in een map genaamd *\<foldername\>*. Als u bijvoorbeeld `/ImportedPst` gebruikt, worden de items geïmporteerd in een map genaamd **ImportedPst**. Deze map bevindt zich in het postvak van de gebruiker, op hetzelfde niveau als de map Postvak IN.  <br/><br/> **Tip:** Het is aan te raden te experimenteren met deze parameter in een aantal testbatches, zodat u kunt bepalen wat de beste locatie is voor het importeren van PST-bestanden.  <br/> |(laat leeg)  <br/> Of  <br/>  `/` <br/> Of  <br/>  `/ImportedPst` <br/> |
     | `ContentCodePage` <br/> |Met deze optionele parameter geeft u een numerieke waarde op voor de codetabel die u wilt gebruiken voor het importeren van PST-bestanden in de ANSI-indeling. Deze parameter kunt u gebruiken voor het importeren van PST-bestanden van Chinese, Japanse of Koreaanse organisaties (CJK), omdat die talen gebruikmaken van DBCS-tekens voor tekencodering. Als u deze parameter niet gebruikt bij het importeren van PST-bestanden die DBCS-tekens gebruiken voor de namen van mappen in postvakken, zijn de namen van de mappen vaak vervormd na het importeren.  <br/><br/> Zie [Codetabel-id’s](/windows/win32/intl/code-page-identifiers) voor een lijst met ondersteunde waarden voor deze parameter.  <br/> <br/>**Opmerking:** Zoals eerder vermeld is dit een optionele parameter, die u niet hoeft te gebruiken in uw CSV-bestand. U kunt de parameter ook toevoegen en voor een of meer rijen leeg laten.  <br/> |(laat leeg)  <br/> Of  <br/>  `932` (de codetabel-id voor ANSI/OEM Japans)  <br/> |
     | `SPFileContainer` <br/> |Voor de PST-import laat u deze parameter leeg.  <br/> |Niet van toepassing  <br/> |
@@ -242,20 +242,18 @@ Nadat u de PST-bestanden hebt geüpload naar de Azure-opslaglocatie voor uw orga
 
 De volgende stap is het maken van een PST-importtaak in de importservice van Microsoft 365. Zoals hiervoor uitgelegd dient u hierbij het toewijzingsbestand voor de PST-import in dat u in stap 4 hebt gemaakt. Nadat u de nieuwe taak hebt gemaakt, analyseert Microsoft 365 de gegevens in de PST-bestanden en krijgt u de gelegenheid om te filteren welke gegevens daadwerkelijk worden geïmporteerd in de postvakken die u hebt opgegeven in het toewijzingsbestand voor de PST-import (zie [stap 6](#step-6-filter-data-and-start-the-pst-import-job)).
   
-1. Ga naar [https://protection.office.com](https://protection.office.com) en meld u aan met de referenties van een beheerdersaccount in uw organisatie. 
+1. Ga naar <https://compliance.microsoft.com> en meld u aan met de referenties van een beheerdersaccount in uw organisatie.
 
-2. In het linkerdeelvenster van het beveiligings- en compliancecentrum klikt u op **Informatiebeheer > Importeren > PST-bestanden importeren**.
+2. Klik in het linkerdeelvenster van het Microsoft365-compliancecentrum op **Informatiebeheer > Importeren**.
 
-3. Klik op de pagina **PST-bestanden importeren** op ![Pictogram toevoegen](../media/ITPro-EAC-AddIcon.gif) **Nieuwe importtaak**.
+3. Klik op het tabblad **Importeren** op ![Pictogram toevoegen](../media/ITPro-EAC-AddIcon.gif) **Nieuwe importtaak**.
 
    > [!NOTE]
-   > U moet de juiste machtigingen bezitten om de pagina **Importeren** te kunnen openen in het beveiligings- en compliancecentrum om een importtaak te kunnen maken. Zie het gedeelte **Voordat u begint** voor meer informatie. 
+   > U moet de juiste machtigingen bezitten om de pagina **Importeren** te kunnen openen in het Microsoft 365-compliancecentrum om een importtaak te kunnen maken. Zie het gedeelte **Voordat u begint** voor meer informatie. 
 
 4. Typ een naam voor de PST-importtaak en klik op **Volgende**. U kunt kleine letters, getallen, streepjes en onderstrepingstekens gebruiken. U kunt geen hoofdletters of spaties in de naam gebruiken.
 
 5. Op de pagina **Wilt u gegevens uploaden of verzenden?** klikt u op **Uw gegevens uploaden** en vervolgens op **Volgende**.
-
-    ![Klikken op Uw gegevens uploaden om een importtaak voor het uploaden via het netwerk te maken](../media/e59f9dc3-ccde-44ff-ac38-c4e39d76ae85.png)
   
 6. Klik in stap 4 op de pagina **Gegevens importeren** op de selectievakjes **Ik ben klaar met het uploaden van mijn bestanden** en **Ik heb een toewijzingsbestand**, en klik vervolgens op **Volgende**.
 
@@ -265,7 +263,7 @@ De volgende stap is het maken van een PST-importtaak in de importservice van Mic
 
     ![Klik op Toewijzingsbestand selecteren om het CSV-bestand in te dienen dat u hebt gemaakt voor de importtaak](../media/d30b1d73-80bb-491e-a642-a21673d06889.png)
   
-8. Wanneer de naam van het CSV-bestand wordt weergegeven onder **Naam toewijzingsbestand**, klikt u op **Valideren** om het CSV-bestand te controleren op fouten. 
+8. Wanneer de naam van het CSV-bestand wordt weergegeven onder **Naam toewijzingsbestand**, klikt u op **Valideren** om het CSV-bestand te controleren op fouten.
 
     ![Klik op Valideren om het CSV-bestand te controleren op fouten.](../media/4680999d-5538-4059-b878-2736a5445037.png)
   
@@ -288,19 +286,13 @@ De volgende stap is het maken van een PST-importtaak in de importservice van Mic
 
 Nadat u de importtaak hebt gemaakt in stap 5, analyseert Microsoft 365 de gegevens in de PST-bestanden (op een veilige manier) door de leeftijd van de items en de verschillende berichttypen in de PST-bestanden te bepalen. Wanneer de analyse is voltooid en de gegevens klaar zijn om te worden geïmporteerd, hebt u de optie om de alle gegevens in de PST-bestanden te importeren of de hoeveelheid gegevens te beperken door filters te gebruiken om te bepalen welke gegevens er worden geïmporteerd.
   
-1. Klik op de pagina **PST-bestanden importeren**, in het beveiligings- en compliancecentrum op **Klaar om te importeren in Office 365** voor de importtaak die u in stap 5 hebt gemaakt.
-
-    ![Klik op Klaar om te importeren in Microsoft 365 naast de importtaak die u hebt gemaakt](../media/5760aac3-300b-4e31-b894-253c42a4b82b.png)
+1. Selecteer op het tabblad **Importeren** in het Microsoft Office 365-compliancecentrum de te importeren taken die u in Stap 5 heeft aangemaakt en klik vervolgens op **Importeren naar Office 365**.
   
-    Er wordt een flyoutpagina weergegeven met informatie over de PST-bestanden en overige informatie over de importtaak.
-
-2. Klik op de flyoutpagina op **Importeren in Office 365**.
-
-    De pagina **Gegevens filteren** wordt weergegeven. Deze pagina bevat informatie uit de analyse van de PST-bestanden door Office 365, inclusief informatie over de leeftijd van de gegevens. U hebt nu de optie om te filteren welke gegevens worden geïmporteerd of alle gegevens te importeren. 
+   De pagina **Gegevens filteren** wordt weergegeven. Deze pagina bevat informatie uit de analyse van de PST-bestanden door Office 365, inclusief informatie over de leeftijd van de gegevens. U hebt nu de optie om te filteren welke gegevens worden geïmporteerd of alle gegevens te importeren. 
 
     ![U kunt de gegevens in het PST-bestand knippen of alles importeren](../media/287fc030-99e9-417b-ace7-f64617ea5d4e.png)
   
-3. Voer een van de volgende handelingen uit:
+2. Voer een van de volgende handelingen uit:
 
    1. Als u hoeveelheid gegevens die u importeert wilt beperken, klikt u op **Ja, ik wil een filter gebruiken voor het importeren**.
 
@@ -310,9 +302,9 @@ Nadat u de importtaak hebt gemaakt in stap 5, analyseert Microsoft 365 de gegeve
 
    2. Als u alle gegevens in de PST-bestanden wilt importeren, klikt u op **Nee, ik wil alles importeren** en klikt u op **Volgende**.
 
-4. Als u ervoor kiest alle gegevens te importeren, klikt u op **Gegevens importeren** om de importtaak te starten. 
+3. Als u ervoor kiest alle gegevens te importeren, klikt u op **Gegevens importeren** om de importtaak te starten. 
 
-   De status van de importtaak wordt weergegeven op de pagina **PST-bestanden importeren**. Klik op ![het pictogram](../media/O365-MDM-Policy-RefreshIcon.gif) **Vernieuwen** om de statusinformatie bij te werken die wordt weergegeven in de kolom **Status**. Klik op de importtaak om een flyoutpagina weer te geven met de status van elk PST-bestand dat wordt geïmporteerd. 
+   De status van de importtaak wordt weergegeven op de pagina **PST-bestanden importeren**. Klik op ![het pictogram](../media/O365-MDM-Policy-RefreshIcon.gif) **Vernieuwen** om de statusinformatie bij te werken die wordt weergegeven in de kolom **Status**. Klik op de importtaak om een flyoutpagina weer te geven met de status van elk PST-bestand dat wordt geïmporteerd.
 
 ## <a name="more-information"></a>Meer informatie
 
@@ -322,7 +314,7 @@ Nadat u de importtaak hebt gemaakt in stap 5, analyseert Microsoft 365 de gegeve
 
   - De gegevens zijn beschikbaar voor gebruikers van alle soorten apparaten, omdat ze zijn opgeslagen in de cloud.
 
-  - Er wordt zo voldaan aan nalevingsbehoeften van uw organisatie, omdat u Microsoft 365-compliancefuncties kunt toepassen op de gegevens van de PST-bestanden die u hebt geïmporteerd. Dit zijn:
+  - Er wordt zo voldaan aan nalevingsbehoeften van uw organisatie, omdat u Microsoft 365-compliancefuncties kunt toepassen op de gegevens van de PST-bestanden die u hebt geïmporteerd. Dit omvat:
 
   - Inschakelen van [archiefpostvakken](enable-archive-mailboxes.md) en [automatisch uitbreidende archieven](enable-unlimited-archiving.md) om gebruikers extra opslagruimte te geven om de gegevens op te slaan die u hebt geïmporteerd.
 
@@ -372,7 +364,7 @@ Hier ziet u een afbeelding en beschrijving van het uploadproces via het netwerk 
   
 ![Werkstroom van het netwerkuploadproces om PST-bestanden te importeren in Office 365](../media/9e05a19e-1e7a-4f1f-82df-9118f51588c4.png)
   
-1. **Het PST-importeerhulpmiddel en de sleutel voor de persoonlijke Azure-opslaglocatie downloaden:** de eerste stap is het downloaden van het opdrachtregelprogramma AzCopy en een toegangssleutel die wordt gebruikt om de PST-bestanden te uploaden naar een Azure-opslaglocatie in de Microsoft-cloud. U verkrijgt deze op de pagina **Importeren** in het beveiligings- en compliancecentrum. Met de sleutel (een zogenaamde SAS-sleutel (Secure Access Signature)) beschikt u over de benodigde machtigingen om de PST-bestanden te uploaden naar een persoonlijke en beveiligde Azure-opslaglocatie. Deze toegangssleutel is uniek voor uw organisatie en voorkomt onbevoegde toegang tot uw PST-bestanden nadat ze zijn geüpload naar de Microsoft-cloud. Voor het importeren van PST-bestanden hoeft uw organisatie geen apart Azure-abonnement te hebben. 
+1. **Het PST-importeerhulpmiddel en de sleutel voor de persoonlijke Azure-opslaglocatie downloaden:** de eerste stap is het downloaden van het opdrachtregelprogramma AzCopy en een toegangssleutel die wordt gebruikt om de PST-bestanden te uploaden naar een Azure-opslaglocatie in de Microsoft-cloud. U verkrijgt deze op de pagina **Importeren** in het Microsoft 365-compliancecentrum. Met de sleutel (een zogenaamde SAS-sleutel (Secure Access Signature)) beschikt u over de benodigde machtigingen om de PST-bestanden te uploaden naar een persoonlijke en beveiligde Azure-opslaglocatie. Deze toegangssleutel is uniek voor uw organisatie en voorkomt onbevoegde toegang tot uw PST-bestanden nadat ze zijn geüpload naar de Microsoft-cloud. Voor het importeren van PST-bestanden hoeft uw organisatie geen apart Azure-abonnement te hebben. 
 
 2. **De PST-bestanden uploaden naar de Azure-opslaglocatie:** de volgende stap is het hulpprogramma AzCopy.exe (gedownload in stap 1) te gebruiken om uw PST-bestanden te uploaden en op te slaan in een Azure-opslaglocatie die zich in hetzelfde regionale Microsoft-datacenter bevindt als uw organisatie. Als u de PST-bestanden die u wilt importeren, wilt uploaden, moeten ze zich bevinden in een bestandsshare of -server in uw organisatie.
 
@@ -380,8 +372,8 @@ Hier ziet u een afbeelding en beschrijving van het uploadproces via het netwerk 
 
 3. **Een PST-importtoewijzingsbestand maken**: nadat de PST-bestanden zijn geüpload naar de Azure-opslaglocatie is de volgende stap het maken van een bestand met door komma's gescheiden waarden (CSV) waarin wordt aangegeven in welke gebruikerspostvakken de PST-bestanden worden geïmporteerd. Een PST-bestand kan worden geïmporteerd in het primaire postvak of het archiefpostvak van een gebruiker. De Office 365-importservice gebruikt de gegevens in het CSV-bestand om de PST-bestanden te importeren.
 
-4. **Een PST-importtaak maken**: de volgende stap is het maken van een PST-importtaak op de pagina **PST-bestanden importeren** in het beveiligings- en compliancecentrum en het PST-importtoewijzingsbestand te verzenden dat in de vorige stap is gemaakt. Nadat u de importtaak hebt gemaakt, analyseert Microsoft 365 de gegevens in de PST-bestanden en biedt u vervolgens de mogelijkheid om filters in te stellen die bepalen welke gegevens daadwerkelijk worden geïmporteerd in de postvakken die zijn opgegeven in het PST-importtoewijzingsbestand. 
+4. **Een PST-importtaak maken**: de volgende stap is het maken van een PST-importtaak op de pagina **PST-bestanden importeren** in het Microsoft 365-compliancecentrum en het PST-importtoewijzingsbestand te verzenden dat in de vorige stap is gemaakt. Nadat u de importtaak hebt gemaakt, analyseert Microsoft 365 de gegevens in de PST-bestanden en biedt u vervolgens de mogelijkheid om filters in te stellen die bepalen welke gegevens daadwerkelijk worden geïmporteerd in de postvakken die zijn opgegeven in het PST-importtoewijzingsbestand. 
 
 5. **De PST-gegevens filteren die worden geïmporteerd in de postvakken**: nadat de importtaak is gemaakt en gestart, analyseert Microsoft 365 de gegevens in de PST-bestanden (veilig en beveiligd) door de leeftijd van de items en de verschillende berichttypen in de PST-bestanden te identificeren. Wanneer de analyse is voltooid en de gegevens klaar zijn om te worden geïmporteerd, hebt u de optie om de alle gegevens in de PST-bestanden te importeren of de hoeveelheid gegevens te beperken door filters te gebruiken om te bepalen welke gegevens er worden geïmporteerd.
 
-6. **De PST-importtaak starten**: nadat de importtaak is gestart, gebruikt Microsoft 365 de informatie in het PST-importtoewijzingsbestand om de PST-bestanden vanuit de Azure-opslaglocatie te importeren in de postvakken van de gebruikers. Statusinformatie over de importtaak (inclusief informatie over elk PST-bestand dat wordt geïmporteerd) wordt weergegeven op de pagina **PST-bestanden importeren** in het beveiligings- en compliancecentrum. Wanneer de importtaak is voltooid, wordt de status voor de taak ingesteld op **Voltooid**.
+6. **De PST-importtaak starten**: nadat de importtaak is gestart, gebruikt Microsoft 365 de informatie in het PST-importtoewijzingsbestand om de PST-bestanden vanuit de Azure-opslaglocatie te importeren in de postvakken van de gebruikers. Statusinformatie over de importtaak (inclusief informatie over elk PST-bestand dat wordt geïmporteerd) wordt weergegeven op de pagina **PST-bestanden importeren** in het Microsoft 365-compliancecentrum. Wanneer de importtaak is voltooid, wordt de status voor de taak ingesteld op **Voltooid**.
