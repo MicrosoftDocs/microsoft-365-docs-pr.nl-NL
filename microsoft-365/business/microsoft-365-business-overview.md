@@ -28,13 +28,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
-description: Lees meer over Microsoft 365 Business Premium, een abonnementsservice met Office-productiviteitsapps en geavanceerde bescherming voor uw bedrijf tegen cyberdreigingen.
-ms.openlocfilehash: a355c9856ead4a66f6876cc7cb5aa8eb469d7f12
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+description: Meer informatie Microsoft 365 Business Premium, een abonnementsservice met Office apps en geavanceerde beveiliging tegen cyberdreigingen.
+ms.openlocfilehash: e4a182c5dd5444392486dd137e70361e880534bd
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244851"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52705517"
 ---
 # <a name="overview-of-microsoft-365-business-premium"></a>Overzicht van Microsoft 365 Business Premium
 
@@ -42,7 +42,7 @@ ms.locfileid: "52244851"
 
 Microsoft 365 Business Premium (voorheen Microsoft 365 Business) is een uitgebreide abonnementsservice voor bedrijven met minder dan 300 werknemers. Het integreert uw favoriete Office-productiviteitsapps en -services en hulpmiddelen voor samenwerking zoals Microsoft Teams, met geavanceerde beveiligings- en apparaatbeheerfuncties.
 
-Bekijk deze video voor een kort overzicht van Microsoft 365 Business Premium.<br><br>
+## <a name="watch-what-is-microsoft-365-business-premium"></a>Kijken: Wat is Microsoft 365 Business Premium
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   
@@ -105,12 +105,12 @@ Uw **apparaten zijn beveiligd** door:
 
 Zie [beveiligingsfuncties van Microsoft 365 Business Premium](security-features.md)voor de volledige lijst met beveiligingsfuncties. Nadat u [Microsoft 365 Business Premium hebt ingesteld](set-up.md), raadpleegt u [de bescherming tegen bedreigingen verhogen](increase-threat-protection.md) en [nalevingsfuncties instellen](set-up-compliance.md) om aan de slag te gaan met de beveiligingsfuncties die niet zijn opgenomen als onderdeel van de begeleide installatie. Lees ook [de tien beste manieren om Office 365-en Microsoft 365 Business Premium-abonnementen te beveiligen](/office365/admin/security-and-compliance/secure-your-business-data) voor een goed overzicht van het instellen van beveiliging tegen cybercriminelen en hackers.
 
-## <a name="get-microsoft-365-business-premium"></a>Microsoft 365 Business Premium downloaden
+## <a name="next-steps"></a>Volgende stappen
 
 - Als u een partner hebt, krijgen ze Microsoft 365 Business Premium: [Microsoft 365 Business Premium downloaden in het Microsoft Partner Center](get-microsoft-365-business.md).
 
 - Als u geen partner hebt en Microsoft 365 Business Premium wilt aanschaffen, kunt u deze [hier kopen](https://www.microsoft.com/microsoft-365/business) en volg de [aanmeldingsinstructies](sign-up.md).
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Microsoft 365 Business Premium trainingsvideo's](../business-video/index.yml) (koppelingspagina)

@@ -23,36 +23,36 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
-description: Ontdek het verschil tussen Microsoft 365 Business Standard en Microsoft 365 Business Premium en hoe u kunt upgraden naar Microsoft 365 Business Premium.
-ms.openlocfilehash: 1f38270c9acb6b803d16bb842140cc6df9cee768
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Leer het verschil tussen Microsoft 365 Business Standard en Microsoft 365 Business Premium en hoe u kunt upgraden naar Microsoft 365 Business Premium.
+ms.openlocfilehash: 0968b877820590987f6f3ceca3efbd106b62cbd1
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578302"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52705485"
 ---
 # <a name="upgrade-to-microsoft-365-business-premium-from-microsoft-365-business-standard"></a>Upgrade naar Microsoft 365 Business Premium van Microsoft 365 Business Standard
 
-Als u een [Microsoft 365](https://products.office.com/compare-all-microsoft-office-products-4-column?activetab=tab:primaryr2)voor Bedrijven-abonnement hebt, bijvoorbeeld Microsoft 365 Business Standard, kunt u eenvoudig een upgrade uitvoeren naar Microsoft 365 Business Premium. Upgrade naar Microsoft 365 Business Premium als u het volgende wilt toevoegen:
+Als u een abonnement [Microsoft 365 voor](https://products.office.com/compare-all-microsoft-office-products-4-column?activetab=tab:primaryr2)bedrijven hebt, bijvoorbeeld Microsoft 365 Business Standard, kunt u eenvoudig upgraden naar Microsoft 365 Business Premium. Upgrade naar Microsoft 365 Business Premium als u wilt toevoegen:
 
 - Windows 10 Pro (naar pc's met Windows 8 of hoger)
 
 - Eenvoudige besturingselementen voor het beheren van zakelijke gegevens op apparaten
 
 - Geavanceerde beveiligingsmogelijkheden.
-Meer informatie over Microsoft 365 Business Premium vindt [u Microsoft.com](https://www.microsoft.com/microsoft-365/business)
+Meer informatie over Microsoft 365 Business Premium op [Microsoft.com](https://www.microsoft.com/microsoft-365/business)
 
 ## <a name="whats-the-difference-between-microsoft-365-business-standard-and-microsoft-365-business-premium"></a>Wat is het verschil tussen Microsoft 365 Business Standard en Microsoft 365 Business Premium?
 
-We hebben een vergelijking van deze twee abonnementen naast elkaar toegevoegd aan de beschrijving van de [Microsoft 365 Business Premium-service.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description) 
+We hebben een vergelijking van deze twee abonnementen naast elkaar toegevoegd aan [de Microsoft 365 Business Premium Servicebeschrijving.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description) 
 
-## <a name="before-you-get-started"></a>Voordat u aan de slag gaat
+## <a name="before-you-begin"></a>Voordat u begint
 
-- **Wanneer moet ik ervoor kiezen om een upgrade uit te voeren?** Upgrade is de juiste keuze wanneer u alle gebruikers wilt upgraden **die** aan één abonnement zijn toegewezen. Wanneer u een upgrade kiest, worden alle abonnementsgebruikers tegelijk overgeschakeld naar een ander abonnement. Als u niet iedereen wilt upgraden die aan één abonnement is toegewezen, koopt u licenties voor het [](../admin/manage/assign-licenses-to-users.md) nieuwe abonnement (in dit geval Microsoft 365 Business Premium) en wijst u deze licenties afzonderlijk toe aan elke gebruiker die u wilt upgraden.
+- **Wanneer moet ik ervoor kiezen om een upgrade uit te voeren?** Upgrade is de juiste keuze wanneer u alle gebruikers wilt upgraden **die** aan één abonnement zijn toegewezen. Wanneer u een upgrade kiest, worden alle abonnementsgebruikers tegelijk overgeschakeld naar een ander abonnement. Als u niet iedereen wilt upgraden die aan één abonnement is toegewezen, koopt u licenties voor [](../admin/manage/assign-licenses-to-users.md) het nieuwe abonnement (in dit geval Microsoft 365 Business Premium) en wijst u deze licenties afzonderlijk toe aan elke gebruiker die u wilt upgraden.
 
 - **Sommige invoegtoepassingen kunnen de upgrade verhinderen** Als u een upgrade probeert te starten en u een invoeging hebt die verhindert dat u doorgaat, kunt u de invoegvoeging eerst verwijderen en deze later opnieuw toevoegen als u deze nog steeds nodig hebt.
 
-- **Als u uw abonnement vooraf hebt betaald** Er is geen eenvoudig upgradepad voor prepaid-abonnementen. U weet of u een vooraf betaald abonnement hebt omdat u uw abonnement hebt ingesteld met een product-id die u mogelijk in een winkel hebt gekocht. Neem contact op met een partner, ga naar de Microsoft Store of wacht totdat uw prepaid-abonnement verloopt om over te schakelen naar een nieuw abonnement.
+- **Als u uw abonnement vooraf hebt betaald** Er is geen eenvoudig upgradepad voor prepaid-abonnementen. U weet of u een vooraf betaald abonnement hebt omdat u uw abonnement hebt ingesteld met een product-id die u mogelijk in een winkel hebt gekocht. Neem contact op met een partner, ga naar het Microsoft Store of wacht totdat uw prepaid-abonnement verloopt om over te schakelen naar een nieuw abonnement.
 
 ## <a name="upgrade-to-microsoft-365-business-premium"></a>Upgrade naar Microsoft 365 Business Premium
 
@@ -65,7 +65,7 @@ We hebben een vergelijking van deze twee abonnementen naast elkaar toegevoegd aa
   > [!NOTE]
   > Als u een bericht ziet met de tekst Upgraden van uw abonnement wordt niet ondersteund met groepslicenties **in Azure Active Directory,** kunt u dit veilig negeren, tenzij u een zeer grote organisatie hebt. Organisaties die deze optie hebben geselecteerd, weten dat ze gebruikmaken van groepslicenties.
 
-4. Vervolgens kunt u een lijst bekijken met abonnementen waar u een upgrade naar kunt uitvoeren. Zoek in dit geval het Microsoft 365 Business Premium-abonnement. U kunt omlaag schuiven als u alle apps en services wilt zien die bij dit abonnement zijn inbegrepen. Selecteer **onder Microsoft 365 Business Premium** de optie **Upgrade** om Microsoft 365 Business Premium toe te voegen aan uw winkelwagen.
+4. Vervolgens kunt u een lijst bekijken met abonnementen waar u een upgrade naar kunt uitvoeren. Zoek in dit geval het Microsoft 365 Business Premium plan. U kunt omlaag schuiven als u alle apps en services wilt zien die bij dit abonnement zijn inbegrepen. Selecteer **onder Microsoft 365 Business Premium** Upgrade **om** een Microsoft 365 Business Premium aan uw winkelwagen toe te voegen.
 
 5. In de winkelwagen:
 
@@ -80,11 +80,11 @@ Het kost Microsoft enkele minuten om uw nieuwe serviceplannen in te stellen. Als
 8. Wanneer uw abonnement gereed is, moet u mogelijk enkele extra installatiestappen in het beheercentrum voltooien. Selecteer in het navigatiedeelvenster **Start om** eventuele extra installatiestappen uit te voeren.
 
 > [!NOTE]
-> U ontvangt een prorated refund voor de Microsoft 365-licenties die u niet meer nodig hebt. Uw bankrekening of creditcard wordt ongeveer twee dagen na het instellen van het nieuwe abonnement in rekening gebracht.
+> U ontvangt een prorated refund voor de Microsoft 365 licenties die u niet meer nodig hebt. Uw bankrekening of creditcard wordt ongeveer twee dagen na het instellen van het nieuwe abonnement in rekening gebracht.
   
 ## <a name="protect-user-devices-and-files"></a>Gebruikersapparaten en bestanden beveiligen
 
-Nu microsoft 365 Business Premium-licenties zijn toegewezen, moet u de stappen voltooien om apparaten en bestanden te gaan beveiligen. U gebruikt een aantal nieuwe opties die zijn opgenomen in het navigatiedeelvenster van het beheercentrum.
+Nu er Microsoft 365 Business Premium licenties zijn toegewezen, moet u de stappen voltooien om apparaten en bestanden te beveiligen. U gebruikt een aantal nieuwe opties die zijn opgenomen in het navigatiedeelvenster van het beheercentrum.
   
 1. Ga in het beheercentrum in het  navigatiedeelvenster naar \> **Apparatenbeleid.**
 
@@ -92,18 +92,18 @@ Nu microsoft 365 Business Premium-licenties zijn toegewezen, moet u de stappen v
 
 3. Geef in **het deelvenster** Beleid toevoegen een naam op voor het beleid (bijvoorbeeld Werkbestanden beveiligen) en kies vervolgens een **type** beleid in de vervolgkeuzelijst.
 
-    U kunt toepassingsbeleid instellen voor het beveiligen van bestanden op Android- en iPhone-apparaten, evenals Windows 10, en u kunt apparaatconfiguratiebeleid instellen voor windows 10-apparaten van het bedrijf. Zie de volgende koppelingen voor meer informatie:
+    U kunt toepassingsbeleid instellen voor het beveiligen van bestanden op Android- en iPhone-apparaten, evenals Windows 10, en u kunt apparaatconfiguratiebeleid instellen voor bedrijfsapparaten Windows 10 apparaten. Zie de volgende koppelingen voor meer informatie:
 
     - [Instellingen voor app-beveiliging instellen voor Android- of iOS-apparaten](app-protection-settings-for-android-and-ios.md)
 
     - [Instellingen voor toepassingsbeveiliging instellen voor Windows 10-apparaten](protection-settings-for-windows-10-devices.md)
 
-    - [Apparaatbeveiligingsinstellingen instellen voor Windows 10-pc's](protection-settings-for-windows-10-pcs.md)
+    - [Apparaatbeveiligingsinstellingen instellen voor Windows 10 pc's](protection-settings-for-windows-10-pcs.md)
 
 4. Nadat u beleidsregels hebt ingesteld, kunnen u en uw werknemers apparaten instellen:
 
-    - Als uw Windows-apparaten nog geen Windows Pro Creator-update gebruiken, moet u deze [upgraden naar Windows Pro Creators Update.](upgrade-to-windows-pro-creators-update.md)
+    - Als uw Windows apparaten nog niet de update Windows Pro Creator gebruiken, moet u deze upgraden naar Windows Pro [Makersupdate.](upgrade-to-windows-pro-creators-update.md)
 
-    - Zie [Windows-apparaten instellen voor Microsoft 365 Business Premium-gebruikers](set-up-windows-devices.md) voor stappen voor Windows-apparaten.
+    - Zie [Het instellen van Windows apparaten voor Microsoft 365 Business Premium gebruikers](set-up-windows-devices.md) voor stappen voor Windows apparaten.
 
-    - Zie [Mobiele apparaten instellen voor Microsoft 365 Business Premium-gebruikers](set-up-mobile-devices.md) voor stappen voor Android-telefoons en iPhones.
+    - Zie [Mobiele apparaten instellen voor Microsoft 365 Business Premium gebruikers voor](set-up-mobile-devices.md) stappen voor Android-telefoons en iPhones.
