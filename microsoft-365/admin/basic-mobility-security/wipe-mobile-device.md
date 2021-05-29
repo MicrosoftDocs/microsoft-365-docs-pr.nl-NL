@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Gebruik de ingebouwde basismobiliteit en beveiliging om gegevens van geregistreerde apparaten te verwijderen.
-ms.openlocfilehash: 7830a0f4ef609f6465c171ecab2c9e3c48198424
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: 8c873923505fe527f5a44df0e8b15d290e92023b
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023855"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706140"
 ---
 # <a name="wipe-a-mobile-device-in-basic-mobility-and-security"></a>Een mobiel apparaat wissen in Basismobiliteit en Beveiliging
 
@@ -31,7 +31,7 @@ U kunt ingebouwde basismobiliteit en beveiliging voor Microsoft 365 gebruiken om
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
-Mobiele apparaten kunnen gevoelige organisatiegegevens opslaan en toegang bieden tot de Microsoft 365-resources van uw organisatie. Als u de gegevens van uw organisatie wilt beschermen, kunt u fabrieksinstellingen opnieuw instellen of bedrijfsgegevens verwijderen:
+Mobiele apparaten kunnen gevoelige organisatiegegevens opslaan en toegang bieden tot de Microsoft 365 uw organisatie. Als u de gegevens van uw organisatie wilt beschermen, kunt u fabrieksinstellingen opnieuw instellen of bedrijfsgegevens verwijderen:
 
 - **Fabrieksinstellingen:** hiermee verwijdert u alle gegevens op het mobiele apparaat van een gebruiker, inclusief geïnstalleerde toepassingen, foto's en persoonlijke gegevens. Wanneer het wissen is voltooid, wordt het apparaat teruggezet naar de fabrieksinstellingen.
 
@@ -45,7 +45,7 @@ Mobiele apparaten kunnen gevoelige organisatiegegevens opslaan en toegang bieden
 
 ## <a name="wipe-a-mobile-device"></a>Een mobiel apparaat wissen
 
-1. Ga naar het [Microsoft 365-beheercentrum.](../../admin/admin-overview/about-the-admin-center.md)
+1. Ga naar het [Microsoft 365 beheercentrum.](../../admin/admin-overview/about-the-admin-center.md)
 
 2. Typ Mobile Device Management in het zoekveld en selecteer **Mobile Device Management** in de lijst met resultaten.
 
@@ -60,7 +60,7 @@ Mobiele apparaten kunnen gevoelige organisatiegegevens opslaan en toegang bieden
 6. Selecteer het type wissen van op afstand dat je wilt uitvoeren.
 
     - Als u het apparaat volledig wilt wissen en herstellen naar de fabrieksinstellingen, selecteert u **Fabrieksherstel.**
-    - Als u een selectief wissen en alleen microsoft 365-organisatiegegevens wilt verwijderen, selecteert u **Bedrijfsgegevens verwijderen.**
+    - Als u een selectief wissen en alleen Microsoft 365 organisatiegegevens wilt verwijderen, **selecteert u Bedrijfsgegevens verwijderen.**
     - Als u het apparaat uit uw organisatie wilt verwijderen, selecteert u **Apparaat verwijderen.**
 
 7. Selecteer **Ja** om te bevestigen.
@@ -83,12 +83,8 @@ Het wissen wordt direct naar het mobiele apparaat verzonden en het apparaat is g
 
 |**Inhoudseffect**|**iOS 10 en hoger**|**Android 5 en hoger**|
 |:-----|:-----|:-----|
-|Microsoft 365-appgegevens worden gewist als het apparaat is beveiligd door intune App Protection-beleid. De apps worden niet verwijderd. Voor apparaten die niet zijn beveiligd met MAM-beleid (Mobile Application Management), worden in Outlook en OneDrive geen gegevens in de cache verwijderd.<br/>**Opmerking** Voor het toepassen van Intune App-beveiligingsbeleid moet u een Intune-licentie hebben.|Ja|Ja|
+|Microsoft 365 app-gegevens worden gewist als het apparaat is beveiligd door intune App Protection-beleid. De apps worden niet verwijderd. Voor apparaten die niet zijn beveiligd door MAM-beleid (Mobile Application Management), worden Outlook en OneDrive gegevens in de cache niet verwijderd.<br/>**Opmerking** Voor het toepassen van Intune App-beveiligingsbeleid moet u een Intune-licentie hebben.|Ja|Ja|
 |Beleidsinstellingen die door Basismobiliteit en Beveiliging worden toegepast op apparaten, worden niet meer afgedwongen. gebruikers kunnen de instellingen wijzigen.|Ja|Ja|
 |E-mailprofielen die zijn gemaakt door Basismobiliteit en Beveiliging worden verwijderd en e-mail in de cache op het apparaat wordt verwijderd.|Ja|N.v.t.|
 >[!NOTE]
->De bedrijfsportal-app is beschikbaar in de App Store voor iOS en de Play Store voor Android-apparaten.
-
-## <a name="related-topics"></a>Verwante onderwerpen
-
-[Basic Mobility en Security instellen](set-up.md)
+>Bedrijfsportal app is beschikbaar in de App Store voor iOS en de Play Store voor Android-apparaten.

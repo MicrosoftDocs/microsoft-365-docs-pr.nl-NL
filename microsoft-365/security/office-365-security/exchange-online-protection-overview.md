@@ -15,12 +15,12 @@ ms.custom:
 description: Lees hoe Exchange Online Protection (EOP) uw on-premises e-mailorganisatie kan beschermen in zelfstandige en hybride omgevingen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ce90f1429e2c54f413ae54172a6d2f663ef6a358
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: ad083e828fbed27cce4b8929c1bee3081c983c17
+ms.sourcegitcommit: 76c91e7b0d3172de57988eb4576d2b91c2f9ce18
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624719"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52707282"
 ---
 # <a name="exchange-online-protection-overview"></a>Overzicht Exchange Online Protection
 
@@ -31,12 +31,14 @@ ms.locfileid: "52624719"
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Exchange Online Protection (EOP) is de cloudfilterservice die uw organisatie helpt beschermen tegen spam, malware en andere e-mailbedreigingen. EOP is opgenomen in alle Microsoft 365 organisaties met Exchange Online postvakken.
-
-In de rest van dit artikel wordt uitgelegd hoe EOP werkt.
+Exchange Online Protection (EOP) is de cloudfilterservice die uw organisatie beschermt tegen spam, malware en andere e-mailrisico's. EOP is opgenomen in alle Microsoft 365 organisaties met Exchange Online postvakken.
 
 > [!NOTE]
 > EOP is ook op zichzelf beschikbaar om on-premises postvakken en in hybride omgevingen te beveiligen om on-premises postvakken Exchange beschermen. Zie Zelfstandige Exchange Online Protection voor [meer informatie.](/exchange/standalone-eop/standaonline-eop)
+
+De stappen voor het instellen van EOP-beveiligingsfuncties en een vergelijking met de toegevoegde beveiliging die u krijgt in Microsoft Defender voor Office 365, zie Beschermen [tegen bedreigingen.](protect-against-threats.md) De aanbevolen instellingen voor EOP-functies zijn beschikbaar in aanbevolen instellingen voor EOP en Microsoft Defender voor [Office 365 beveiliging.](recommended-settings-for-eop-and-office365.md)
+
+In de rest van dit artikel wordt uitgelegd hoe EOP werkt en welke functies beschikbaar zijn in EOP.
 
 ## <a name="how-eop-works"></a>Hoe EOP werkt
 
@@ -44,38 +46,19 @@ Als u wilt weten hoe EOP werkt, kunt u zien hoe binnenkomende e-mail wordt verwe
 
 :::image type="content" source="../../media/tp_emailprocessingineopt3.png" alt-text="Afbeelding van e-mail van internet of feedback van klanten die wordt verzonden naar EOP en via de Verbinding, Anti-malware, Mailflow Rules-slash-Policy Filtering en Content Filtering, vóór de uitspraak van ongewenste e-mail of quarantaine, of de bezorging van e-mail van eindgebruikers.":::
 
-- Wanneer een binnenkomend bericht EOP binnenkomt, wordt in eerste instantie verbindingsfiltering uitgevoerd, waarmee de reputatie van de afzender wordt gecontroleerd. Het grootste deel van de spam wordt op dit moment gestopt en geweigerd door EOP. Zie [Verbindingsfiltering configureren](configure-the-connection-filter-policy.md) voor meer informatie.
+1. Wanneer een binnenkomend bericht EOP binnenkomt, wordt in eerste instantie verbindingsfiltering uitgevoerd, waarmee de reputatie van de afzender wordt gecontroleerd. Het grootste deel van de spam wordt op dit moment gestopt en geweigerd door EOP. Zie [Verbindingsfiltering configureren](configure-the-connection-filter-policy.md) voor meer informatie.
 
-- Vervolgens wordt het bericht gecontroleerd op malware. Als malware wordt gevonden in het bericht of de bijlage(en) wordt het bericht alleen doorgeleid naar een quarantaineopslag van een beheerder. Zie Bescherming tegen malware in EOP voor meer informatie over [malwarebeveiliging.](anti-malware-protection.md)
+2. Vervolgens wordt het bericht gecontroleerd op malware. Als malware wordt gevonden in het bericht of de bijlage(en) wordt het bericht alleen doorgeleid naar een quarantaineopslag van een beheerder. Zie Bescherming tegen malware in EOP voor meer informatie over [malwarebeveiliging.](anti-malware-protection.md)
 
-- Berichten gaan door met het filteren van beleid, waarbij ze worden geëvalueerd op basis van aangepaste regels voor e-mailstroom (ook wel transportregels genoemd) die u maakt of afdwingt op basis van een sjabloon. U kunt bijvoorbeeld een regel hebben die een melding naar een manager verzendt wanneer e-mail van een specifieke afzender binnenkomt. DLP-controles (Data Loss Prevention) worden ook uitgevoerd op dit moment (Exchange Enterprise CAL with Services).
+3. Het bericht wordt voortgezet door middel van beleidsfilters, waarbij het wordt geëvalueerd op basis van e-mailstroomregels (ook wel transportregels genoemd) die u hebt gemaakt. Een regel kan bijvoorbeeld een melding naar een manager verzenden wanneer een bericht van een specifieke afzender binnenkomt.
 
-- Vervolgens gaat het bericht door middel van antispamfiltering waarbij het bericht wordt controleren op spam, phishing of bulk-e-mail. Gedetecteerde berichten kunnen onder andere worden verzonden naar quarantaine of de map Ongewenste e-mail van een gebruiker. Zie [Antispambeleid configureren en](configure-your-spam-filter-policies.md) [Anti-phishingbeleid configureren](configure-anti-phishing-policies-eop.md)voor meer informatie.
+   In on-premises organisatie met Exchange Enterprise CAL met Services-licenties, vindt op dit moment ook DLP-controles (Data Loss Prevention) in EOP (Data Loss Prevention) (Data Loss Prevention) in EOP (Data Loss Prevention) (Data Loss Prevention) in EOP (Data Loss Prevention) (DLP) (Data Loss Prevention) in EOP (Data [Loss Prevention) (Data Loss Prevention) (DLP)](/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention) (Data Loss Prevention) in EOP (Data Loss Prevention)
 
-Elk bericht dat al deze beveiligingslagen doorstaat, wordt bezorgd bij de geadresseerde.
+4. Het bericht wordt verzonden door middel van inhoudsfilters (antispam en anti-spoofing) waarbij schadelijke berichten worden geïdentificeerd als spam, spam met hoog vertrouwen, phishing, phishing met hoog vertrouwen of bulksgewijs (antispambeleid) of spoofing (spoofinstellingen in anti-phishingbeleid). U kunt de actie voor het bericht configureren op basis van het filteroordeel (quarantaine, verplaatsen naar de map Ongewenste e-mail, enzovoort). Zie [Antispambeleid configureren](configure-your-spam-filter-policies.md) en [anti-phishingbeleid](configure-anti-phishing-policies-eop.md)configureren in EOP voor meer informatie.
+
+Een bericht dat al deze beveiligingslagen doorstaat, wordt bezorgd bij de geadresseerden.
 
 Zie Bestelling en prioriteit [van e-mailbeveiliging](how-policies-and-protections-are-combined.md)voor meer informatie.
-
-## <a name="eop-plans-and-features-for-on-premises-email-organizations"></a>EOP-abonnementen en -functies voor on-premises e-mailorganisaties
-
-De beschikbare EOP-abonnementsabonnementen zijn:
-
-- **Zelfstandige EOP:** U kunt zich registreren voor EOP om uw on-premises e-mailorganisatie te beschermen.
-
-- **EOP-functies in Exchange Online:** Elk abonnement met Exchange Online (zelfstandig of als onderdeel van Microsoft 365) gebruikt EOP om uw postvakken Exchange Online beschermen.
-
-- **Exchange Enterprise CAL met Services:** Als u een on-premises Exchange-organisatie hebt waar u extra Exchange Enterprise CAL met Services-licenties hebt gekocht, maakt EOP deel uit van de inbegrepen services.
-
-Zie de beschrijving van de Exchange Online Protection service voor informatie over vereisten, belangrijke limieten en beschikbaarheid van [functies in alle EOP-abonnementen.](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)
-
-> [!NOTE]
-> Als u een abonnement Microsoft 365 of Office 365 met Exchange Online postvakken, hebt u EOP. Zie Bescherming tegen bedreigingen voor stappen voor het instellen van EOP-beveiligingsfuncties in uw abonnement en informatie over de toegevoegde beveiliging die een Microsoft Defender voor Office 365-abonnement u kan [bieden.](protect-against-threats.md) De aanbevolen instellingen voor EOP-functie voor installatie vindt u in Aanbevolen instellingen voor EOP en Microsoft Defender voor [Office 365 beveiliging.](recommended-settings-for-eop-and-office365.md)
-
-## <a name="setting-up-eop-for-on-premises-email-organizations"></a>EOP instellen voor on-premises e-mailorganisaties
-
-Het instellen van EOP kan eenvoudig zijn, met name in het geval van een kleine organisatie met een handjevol nalevingsregels. Als u echter een grote organisatie hebt met meerdere domeinen, aangepaste complianceregels of hybride e-mailstroom, kan het instellen meer planning en tijd in de tijd duren.
-
-Als u EOP al hebt gekocht, zie Uw [EOP-service](/exchange/standalone-eop/set-up-your-eop-service) instellen om ervoor te zorgen dat u alle stappen voltooit die nodig zijn om EOP te configureren om uw berichtenomgeving te beschermen.
 
 ### <a name="eop-datacenters"></a>EOP-datacenters
 
@@ -91,32 +74,64 @@ EOP voert load balancing uit tussen datacenters, maar alleen binnen een regio. A
   - Verenigde Staten: Exchange Online postvakken bevinden zich in Amerikaanse datacenters. Alle berichten worden gerouteerd via lokale datacenters voor EOP-filtering. Berichten in quarantaine worden opgeslagen in het datacenter waar de tenant zich bevindt.
 - Voor de Government Community Cloud (GCC) bevinden alle Exchange Online-postvakken zich in Amerikaanse datacenters en worden alle berichten door U.S. datacenters gerouteerd voor EOP-filtering.
 
-## <a name="eop-help-for-admins"></a>EOP Help voor beheerders
+### <a name="eop-features"></a>EOP-functies
 
-De Help-inhoud voor EOP-beheerders bestaat uit de volgende categorieën op het hoogste niveau:
+In deze sectie vindt u een overzicht op hoog niveau van de belangrijkste functies die beschikbaar zijn in EOP.
 
-- [EOP, dag 1,](protect-against-threats.md)configureren voor Microsoft Defender voor Office 365-beheerders: EOP-beveiligings- en detectiehulpmiddelen configureren in de kern van Microsoft Defender voor Office 365.
+Zie de beschrijving van de Exchange Online Protection service voor informatie over vereisten, belangrijke limieten en beschikbaarheid van [functies in alle EOP-abonnementen.](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)
 
-- [EOP-functies:](eop-features.md)bevat een lijst met functies die beschikbaar zijn in EOP.
+**Opmerkingen**:
 
-- [Uw EOP-service instellen:](/exchange/standalone-eop/set-up-your-eop-service)biedt stappen voor het instellen van uw EOP-service en koppelingen naar aanvullende informatie.
+- EOP gebruikt verschillende URL-blokkeringslijsten om bekende schadelijke koppelingen in berichten te detecteren.
+- EOP gebruikt een uitgebreide lijst met domeinen die bekend staan om het verzenden van spam.
+- EOP gebruikt meerdere anti-malware-engines om onze klanten altijd automatisch te beschermen.
+- EOP controleert de actieve payload in de berichtoplage en alle berichtbijlagen op malware.
+- Zie Aanbevolen instellingen voor EOP en Microsoft Defender voor Office 365 beveiliging voor [aanbevolen waarden voor beveiligingsbeleid.](recommended-settings-for-eop-and-office365.md)
+- Zie Beschermen tegen bedreigingen voor snelle instructies voor het configureren van [beveiligingsbeleid.](protect-against-threats.md)
 
-- [Overstappen op EOP vanuit Google Postini, de Barracuda Spam- en Virusfirewall of Cisco IronPort:](switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco.md)Beschrijft het proces voor het overstappen van een ander e-mailbeveiligingsproduct naar EOP.
+<br>
 
-- [Geadresseerden beheren in zelfstandige EOP:](/exchange/standalone-eop/manage-recipients-in-eop)Hier wordt beschreven hoe u e-mailgebruikers en groepen beheert in zelfstandige EOP.
-
-- [E-mailstroom in EOP:](mail-flow-in-eop.md)Hier wordt beschreven hoe u aangepaste scenario's voor e-mailstroom configureert met behulp van verbindingslijnen, hoe u domeinen beheert die aan de service zijn gekoppeld en hoe u de dbeb-functie (Directory Based Edge Blocking) inschakelen.
-
-- [Aanbevolen instellingen voor EOP](recommended-settings-for-eop-and-office365.md)en Microsoft Defender voor Office 365 beveiliging: Beschrijft aanbevolen configuratie-instellingen en aandachtspunten voor nadat u uw service hebt ingesteld en ingericht.
-
-- [Controlerapporten in Exchange Online:](/exchange/security-and-compliance/exchange-auditing-reports/exchange-auditing-reports)Beschrijft hoe u controlerapporten gebruikt om configuratiewijzigingen in de service bij te houden.
-
-- [Bescherming tegen spam en anti-malware in EOP:](anti-spam-and-anti-malware-protection.md)beschrijft spamfilters en malwarefilters en laat zien hoe u deze kunt aanpassen aan de behoeften van uw organisatie. Ook worden taken beschreven die beheerders en eindgebruikers kunnen uitvoeren op in quarantaine geplaatste berichten.
-
-- [Rapportage en bericht traceren in Exchange Online Protection:](reporting-and-message-trace-in-exchange-online-protection.md)Beschrijft de beschikbare rapporten en hulpprogramma's voor probleemoplossing.
-
-- Exchange beheercentrum [in Exchange Online-](/exchange/exchange-admin-center) of Exchange-beheercentrum in zelfstandige [EOP:](/exchange/standalone-eop/exchange-admin-center-eop)Hier wordt beschreven hoe u toegang hebt tot de beheerinterface van het Exchange-beheercentrum (EAC) om gerelateerde EOP-functies te beheren.
-
-- [Exchange Online Protection PowerShell:](/powershell/exchange/exchange-online-protection-powershell)biedt informatie over externe PowerShell, waarmee u uw EOP-service vanaf de opdrachtregel kunt beheren.
-
-- [Hulp en ondersteuning voor EOP](help-and-support-for-eop.md) Geeft informatie over het verkrijgen van hulp en technische ondersteuning.
+****
+|Functie|Opmerkingen|
+|---|---|
+|**Beveiliging**||
+|Anti-malware|[Anti-malwarebeveiliging in EOP](anti-malware-protection.md) <p> [Veelgestelde vragen over beveiliging tegen malware](anti-malware-protection-faq-eop.yml) <p> [Anti-malwarebeleid configureren in EOP](configure-anti-malware-policies.md)|
+|Inkomende antispam|[Bescherming tegen spam in EOP](anti-spam-protection.md) <p> [Veelgestelde vragen over beveiliging tegen ongewenste e-mail](anti-spam-protection-faq.yml) <p> [Antispambeleid configureren in EOP](configure-your-spam-filter-policies.md)|
+|Uitgaande antispam|[Beveiliging tegen uitgaande spam in EOP](outbound-spam-controls.md) <p> [Uitgaande spamfilters configureren in EOP](configure-the-outbound-spam-policy.md) <p> [Automatische externe e-mail doorsturen in Microsoft 365](external-email-forwarding.md)|
+|Verbindingsfilters|[Filteren van verbinding configureren](configure-the-connection-filter-policy.md)|
+|Anti-phishing|[Anti-phishingbeleid in Microsoft 365](set-up-anti-phishing-policies.md) <p> [Antiphishingbeleid configureren in EOP](configure-anti-phishing-policies-eop.md)|
+|Beveiliging tegen adresvervalsing (spoofing)|[Inzicht in spoof intelligence in EOP](learn-about-spoof-intelligence.md) <p> [Tenant Toestaan/Blokkeren-lijst beheren](tenant-allow-block-list.md)|
+|Zero-hour auto purge (ZAP) voor bezorgde malware, spam en phishingberichten|[ZAP in Exchange Online](zero-hour-auto-purge.md)|
+|Beveiligingsbeleid vooraf instellen|[Vooraf ingestelde beveiligingsbeleidsregels in EOP en Microsoft Defender voor Office 365](preset-security-policies.md) <p> [Configuratieanalyse voor beveiligingsbeleid in EOP en Microsoft Defender voor Office 365](configuration-analyzer-for-security-policies.md)|
+|Lijst met tenants toestaan/blokkeren|[Tenant Toestaan/Blokkeren-lijst beheren](tenant-allow-block-list.md)|
+|Lijsten blokkeren voor afzenders van berichten|[Geblokkeerde afzenderlijsten maken in EOP](create-block-sender-lists-in-office-365.md)|
+|Lijsten toestaan voor afzenders van berichten|[Lijsten met veilige afzenders maken in EOP](create-safe-sender-lists-in-office-365.md)|
+|Directory Based Edge Blocking (DBEB)|[Randblokkering op basis van adreslijst gebruiken om berichten te weigeren die naar ongeldige geadresseerden zijn verzonden](/exchange/mail-flow-best-practices/use-directory-based-edge-blocking)|
+|**Quarantaine en inzendingen**||
+|Inzending door beheerder|[Beheerdersinzending gebruiken om verdachte spam, phish, URL's en bestanden naar Microsoft te verzenden](admin-submission.md)|
+|Gebruikersinzendingen (aangepast postvak)|[Beleid voor gebruikersinzendingen](user-submission.md)|
+|Quarantaine - beheerders|[Berichten en bestanden in quarantaine beheren als EOP-beheerder](manage-quarantined-messages-and-files.md) <p> [Veelgestelde vragen over in quarantaine geplaatste berichten](quarantine-faq.yml) <p> [Berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md) <p> [Berichtkoppen tegen ongewenste e-mail in Microsoft 365](anti-spam-message-headers.md) <p> U kunt de berichtkoppen van in quarantaine geplaatste berichten analyseren met de [berichtkopanalyse op](https://mha.azurewebsites.net/).|
+|Quarantaine - eindgebruikers|[Berichten in quarantaine zoeken en vrijgeven als gebruiker in EOP](find-and-release-quarantined-messages-as-a-user.md) <p> [Gebruikersspammeldingen gebruiken om in quarantaine geplaatste berichten vrij te geven en te rapporteren](use-spam-notifications-to-release-and-report-quarantined-messages.md)|
+|**E-mailstroom**||
+|Regels voor e-mailstroom|[Regels voor e-mailstroom (transportregels) in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) <p> [Voorwaarden en uitzonderingen voor e-mailstroomregel (predicaten) in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions) <p> [Acties voor e-mailstroomregel in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions) <p> [Regels voor e-mailstroom beheren in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules) <p> [Procedures voor e-mailstroomregel in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-procedures)|
+|Geaccepteerde domeinen|[Geaccepteerde domeinen beheren in Exchange Online](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)|
+|Verbindingslijnen|[E-mailstroom configureren met behulp van verbindingslijnen in Exchange Online](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)|
+|Verbeterde filtering voor verbindingslijnen|[Verbeterde filtering voor verbindingslijnen in Exchange Online](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)|
+|**Monitoring**||
+|Bericht traceren|[Bericht traceren](message-trace-scc.md) <p> [Bericht traceren in het Exchange beheercentrum](/exchange/monitoring/trace-an-email-message/message-trace-modern-eac)|
+|Samenwerkingsrapporten & e-mail|[Beveiligingsrapporten voor e-mail weergeven](view-email-security-reports.md)|
+|E-mailstroomrapporten|[E-mailstroomrapporten weergeven](view-mail-flow-reports.md) <p> [E-mailstroomrapporten in het Exchange beheercentrum](/exchange/monitoring/mail-flow-reports/mail-flow-reports)|
+|Inzichten in e-mailstroom|[Inzichten in e-mailstroom](mail-flow-insights-v2.md) <p> [Inzichten in e-mailstroom in het Exchange beheercentrum](/exchange/monitoring/mail-flow-insights/mail-flow-insights)|
+|Controlerapporten|[Controlerapporten in het Exchange beheercentrum](/exchange/security-and-compliance/exchange-auditing-reports/exchange-auditing-reports)|
+|Waarschuwingsbeleid|[Waarschuwingsbeleid](../../compliance/alert-policies.md)|
+|**Service level agreements (SLA's) en ondersteuning**||
+|Spameffectiviteit SLA|\> 99%|
+|Fout-positieve ratio SLA|\< 1:250,000|
+|Virusdetectie en het blokkeren van SLA|100% van bekende virussen|
+|Maandelijkse uptime SLA|99.999%|
+|Telefoon en web technische ondersteuning 24 uur per dag, zeven dagen per week|[Help en ondersteuning voor EOP.](help-and-support-for-eop.md)|
+|**Andere functies**||
+|Een geo-redundant globaal netwerk van servers|EOP wordt uitgevoerd op een wereldwijd netwerk van datacenters die zijn ontworpen om de beste beschikbaarheid te bieden. Zie de sectie [EOP-datacenters](#eop-datacenters) eerder in dit artikel voor meer informatie.|
+|Bericht in de wachtrij wanneer de on-premises server geen e-mail kan accepteren|Berichten in uitstel blijven één dag in onze wachtrijen staan. Pogingen voor het opnieuw proberen van berichten zijn gebaseerd op de fout die we krijgen van het e-mailsysteem van de geadresseerde. Gemiddeld worden berichten elke 5 minuten opnieuw verzonden. Zie veelgestelde vragen [over EOP-berichten in de wachtrij, uitgestelde en niet-verzonden berichten voor meer informatie.](eop-queued-deferred-and-bounced-messages-faq.yml)|
+|Office 365-berichtversleuteling beschikbaar als een invoegvoeging|Zie Versleuteling [in Office 365.](../../compliance/encryption.md)|
+|||

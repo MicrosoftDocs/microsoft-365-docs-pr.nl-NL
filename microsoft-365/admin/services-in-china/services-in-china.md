@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: a8ab5061-3346-4da0-bb7c-5260822b53ae
 description: Meer informatie over Office 365 beheerd door 21Vianet dat is ontworpen om te voldoen aan de behoeften voor veilige, betrouwbare en schaalbare cloudservices in China.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 00710d53033648764ed0e55eeb51ee66518e36f7
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: bc416ca253d26cc5d391d226039223eac02720b0
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297054"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706368"
 ---
 # <a name="office-365-operated-by-21vianet"></a>Office 365, beheerd door 21Vianet
 
@@ -234,10 +234,8 @@ De AVG verleent personen (of, betrokkenen) bepaalde rechten met betrekking tot d
     
 Zie [DSR (Data Subject Requests) voor AVG voor](https://www.trustcenter.cn/privacy/gdpr-office365.mdl)meer informatie en instructies.
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
-[Probeer of koop een abonnement Microsoft 365 voor bedrijven](../../commerce/try-or-buy-microsoft-365.md) (artikel)
-
-[Ondersteuning voor Azure Information Protection voor Office 365 beheerd door 21Vianet](parity-between-azure-information-protection.md) (artikel)
-
+[Probeer of koop een abonnement Microsoft 365 voor bedrijven](../../commerce/try-or-buy-microsoft-365.md) (artikel)\
+[Ondersteuning voor Azure Information Protection voor Office 365 beheerd door 21Vianet](parity-between-azure-information-protection.md) (artikel)\
 [Uw factuur bekijken of een Fapiao krijgen](../../commerce/billing-and-payments/view-your-bill-or-invoice.md) (artikel)

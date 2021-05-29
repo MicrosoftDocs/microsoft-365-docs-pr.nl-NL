@@ -28,12 +28,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Meer informatie Microsoft 365 voor bedrijven, hoe u dit kunt instellen en hoe u de apparaten en pc's van uw gebruikers voorbereidt om ervoor te zorgen dat ze worden beschermd door gebruikers Microsoft 365 voor bedrijven.
-ms.openlocfilehash: ddf6f8d12587c6fb562a599a41c190ffef32c147
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: be5f0e74b71f412bf647e4ef0e496cd932fc306a
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52293702"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706453"
 ---
 # <a name="get-started-with-microsoft-365-for-business"></a>Aan de slag met Microsoft 365 voor bedrijven
 
@@ -41,7 +41,7 @@ ms.locfileid: "52293702"
 
 Microsoft 365 voor bedrijven is een uitgebreide set hulpprogramma's voor bedrijfsproductiviteit en samenwerking, zoals Outlook, Word, Excel en andere Office-producten, die altijd up-to-date zijn. U kunt uw werkbestanden op al uw iOS-, Android- en Windows 10-apparaten beveiligen met bedrijfsbeveiliging die eenvoudig te beheren is.
 
-Bekijk deze video voor een kort overzicht van Microsoft 365 voor bedrijven.<br><br>
+## <a name="watch-what-is-microsoft-365-business-premium"></a>Kijken: Wat is Microsoft 365 Business Premium
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   
@@ -61,11 +61,11 @@ In het volgende diagram wordt beschreven hoe beheerders Microsoft 365 voor bedri
   
 ![A diagram that shows the setup and management flow for admins, and also for a user](../media/249f81fc-7e79-44c7-8425-3a0b7b651c3b.png)
 
-Bekijk deze video voor een overzicht van Microsoft 365 voor bedrijven.<br><br>
+## <a name="watch-set-up-microsoft-365-business"></a>Kijken: Een Microsoft 365 Business
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FYSM] 
 
-Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../business-video/index.yml).
+Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../business-video/index.yml).
 
   
 ### <a name="1-set-up-microsoft-365-for-business-admin"></a>1: Een Microsoft 365 voor bedrijven instellen (beheerder)
@@ -107,10 +107,9 @@ Als u een lokale Active Directory met enkele on-premises bronnen (zoals bestands
     
 - Als beheerder Microsoft 365 voor bedrijven hebt u toegang tot ons klantenserviceteam: Contact opnemen met ondersteuning voor **[zakelijke producten - Help voor beheerders](../business-video/get-help-support.md)**
     
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
-[Microsoft 365 voor zakelijke documentatie en resources](./index.yml)
-  
-[Beheer Microsoft 365 voor bedrijven](manage.md)[Migreren naar Microsoft 365 voor bedrijven](migrate-to-microsoft-365-business.md)
-
-[Trainingsvideo's voor Microsoft 365 voor bedrijven](../business-video/index.yml)
+[Microsoft 365 voor zakelijke documentatie en resources](./index.yml) (koppelingspagina)\
+[Beheer Microsoft 365 voor bedrijven](manage.md) (artikel)\
+[Migreren naar Microsoft 365 voor bedrijven](migrate-to-microsoft-365-business.md) (artikel)\
+[Microsoft 365 voor zakelijke trainingsvideo's](../business-video/index.yml) (koppelingspagina)

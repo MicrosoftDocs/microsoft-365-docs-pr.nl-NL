@@ -21,14 +21,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Meer informatie over het maken van een e-mailhandtekening voor het hele bedrijf.
-ms.openlocfilehash: a1a85826be2a799b56cf3d06b6416778470a116f
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 669c61d17784641d1ecc88ac0952a46575c7898b
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578949"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706260"
 ---
 # <a name="create-a-company-wide-email-signature"></a>Een e-mailhandtekening voor het hele bedrijf maken
+
+## <a name="watch-create-a-company-wide-email-signature"></a>Kijken: Een e-mailhandtekening voor het hele bedrijf maken
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1IEWf?autoplay=false]
 
@@ -36,7 +38,7 @@ Een bedrijfsbrede e-mailhandtekening wordt weergegeven in elke e-mail die door p
 
 ## <a name="try-it"></a>Probeer het zelf!
 
-1. Selecteer Exchange in het Microsoft **365-beheercentrum.**
+1. Selecteer in Microsoft 365 beheercentrum **Exchange**.
 1. Selecteer **E-mailstroom**.
 1. Selecteer **Toevoegen +** en selecteer vervolgens **Vrijwaringen toepassen.**
 1. Op de **pagina Nieuwe regel:**

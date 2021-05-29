@@ -20,15 +20,17 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Meer informatie over het stoppen van het automatisch doorsturen van e-mailberichten.
-ms.openlocfilehash: f8bd599c7c8bca8d4789188acbcd3574b7473dcb
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+description: Meer informatie over het stoppen van het automatisch doorsturen van e-mailberichten door een e-mailstroomregel te maken om diefstal van bedrijfsgegevens te voorkomen.
+ms.openlocfilehash: 82e4c80b0edc501889e0fc4dc28f1ec1ad703568
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903680"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706472"
 ---
 # <a name="stop-email-auto-forward"></a>E-mail automatisch doorsturen stoppen
+
+## <a name="watch-stop-auto-forwarding-emails"></a>Kijken: Het automatisch doorsturen van e-mailberichten stoppen
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2W6kS?autoplay=false]
 
@@ -36,7 +38,7 @@ Als een hacker toegang krijgt tot het postvak van een gebruiker, kunnen ze de e-
 
 ## <a name="try-it"></a>Probeer het zelf!
 
-1. Selecteer in het Microsoft 365-beheercentrum **Exchange**,  **e-mailstroom** en selecteer op het tabblad Regels het plusteken en kies **een nieuwe regel maken.**
+1. Selecteer in Microsoft 365 beheercentrum Exchange **,** **e-mailstroom** en  selecteer op het tabblad Regels het plusteken en kies **een nieuwe regel maken.**
 1. Selecteer **Meer opties.** De nieuwe regel een naam geven.
 1. Open vervolgens de vervolgkeuzekeuze voor het **toepassen van deze regel als**, selecteer **de** afzender en is vervolgens **extern intern**.
 1. Selecteer **Binnen de organisatie** en klik vervolgens op **OK.**
@@ -48,6 +50,8 @@ Als een hacker toegang krijgt tot het postvak van een gebruiker, kunnen ze de e-
 
     Uw regel is gemaakt en hackers kunnen berichten niet meer automatisch doorsturen.
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
-[Een andere e-mailalias](https://docs.microsoft.com/microsoft-365/admin/email/add-another-email-alias-for-a-user) voor een gebruiker toevoegen (artikel) E-mail doorsturen [configureren in Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/email/configure-email-forwarding) (artikel) Problemen met e-mailbezorging zoeken en oplossen als beheerder van [Office 365](https://docs.microsoft.com/exchange/troubleshoot/email-delivery/email-delivery-issues) voor Bedrijven (artikel)
+[Een ander e-mailalias toevoegen voor een gebruiker](../admin/email/add-another-email-alias-for-a-user.md) (artikel)\
+[Doorsturen van e‑mail configureren in Microsoft 365](../admin/email/configure-email-forwarding.md) (artikel)\
+[Problemen met e-mailbezorging](/exchange/troubleshoot/email-delivery/email-delivery-issues) zoeken en oplossen als Office 365 voor zakelijke beheerder (artikel)

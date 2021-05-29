@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Of het nu gaat om het toevoegen van nieuwe oplossingen aan het compliancecentrum, het bijwerken van bestaande functies op basis van uw feedback of het implementeren van nieuwe en bijgewerkte documentatie, met Microsoft 365 kunt u het steeds veranderende compliancelandschap in de hand houden. Ontdek wat we deze maand hebben gedaan.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ae1df2ce6373e4a8f6b01c33e50bea5e6c16ca0a
-ms.sourcegitcommit: 4bcac4cb4f9399ebbd7c8cff0abb4d6ecedb731e
+ms.openlocfilehash: f249108dba279e255efd57ecd56159d3c71dcb4b
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52698950"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706616"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Wat is er nieuw in Microsoft 365-compliance
 
@@ -48,7 +48,7 @@ En ga naar [Microsoft 365 routekaart](https://www.microsoft.com/microsoft-365/ro
 
 ### <a name="data-connectors"></a>Gegevensconnectors
 
-- [Een connector instellen voor het archiveren van Cisco Jabber op Oracle-gegevens]/microsoft-365/compliance/archive-ciscojabberonoracle-data)
+- [Een connector instellen voor het archiveren van Cisco Jabber op Oracle-gegevens](/microsoft-365/compliance/archive-ciscojabberonoracle-data)
 - [Een connector instellen voor het archiveren van Cisco Jabber op PostgreSQL-gegevens](/microsoft-365/compliance/archive-ciscojabberonpostgresql-data)
 
 ### <a name="data-loss-prevention"></a>Preventie van gegevensverlies
@@ -59,14 +59,15 @@ En ga naar [Microsoft 365 routekaart](https://www.microsoft.com/microsoft-365/ro
 
 ### <a name="retention-policies-and-retention-label-policies"></a>Bewaarbeleid en bewaarlabelbeleid
 
-- De Microsoft 365 Groups-locatie ondersteunt nu het toepassen van de bewaarinstellingen op alleen Microsoft 365-postvakken SharePoint alleen de verbonden SharePoint-sites met behulp van de [PowerShell-cmdlet Set-RetentionCompliancePolicy](/powershell/module/exchange/set-retentioncompliancepolicy) met de parameter Applications.
+- De Microsoft 365 Groups-locatie ondersteunt nu het toepassen van de bewaarinstellingen op alleen Microsoft 365-postvakken SharePoint alleen de verbonden SharePoint-sites met behulp van de [PowerShell-cmdlet Set-RetentionCompliancePolicy](/powershell/module/exchange/set-retentioncompliancepolicy) met de parameter *Applications.*
 
 ### <a name="sensitivity-labels"></a>Vertrouwelijkheidslabels
 
 Outlook releases en updates:
-- Voorheen alleen ondersteund door de geïntegreerde AIP-labelingclient, ondersteunt ingebouwde labeling nu verschillende instellingen voor [standaardlabels en verplichte labeling](sensitivity-labels-office-apps.md#outlook-specific-options-for-default-label-and-mandatory-labeling)
-- Encrypt-Only wordt nu ondersteund door macOS, iOS en Android
-- [Gevoeligheidslabels beheren in het onderwerp Office-apps](/microsoft-365/compliance/sensitivity-labels-office-apps) bijgewerkt met nieuwe vermeldingen in de tabel met mogelijkheden voor Outlook [verschillende](/microsoft-365/compliance/sensitivity-labels-office-apps#sensitivity-label-capabilities-in-outlook) instellingen voor standaardlabels en verplichte [labeling](/microsoft-365/compliance/sensitivity-labels-office-apps#outlook-specific-options-for-default-label-and-mandatory-labeling) voor de nieuwe functieversie van Outlook voor ingebouwde labeling ter ondersteuning van een ander standaardlabel en een uitzondering op verplichte labeling. Bovendien wordt de Encrypt-Only nu ondersteund door macOS/iOS/Android en worden alle dynamische markeringen met variabelen nu ondersteund in alle Outlook clients. Verplichte labeling wordt nu uitgerold naar de overige platforms.
+- [Verschillende instellingen voor het standaardlabel en verplichte labeling](sensitivity-labels-office-apps.md#outlook-specific-options-for-default-label-and-mandatory-labeling) worden nu ondersteund voor ingebouwde labeling. Voorheen werden deze instellingen alleen ondersteund door de geïntegreerde AIP-labelingclient.
+- [Encrypt-Only](encryption-sensitivity-labels.md#let-users-assign-permissions) wordt nu ondersteund door macOS, iOS en Android.
+- [Verplichte labeling](sensitivity-labels-office-apps.md#require-users-to-apply-a-label-to-their-email-and-documents) wordt uitgerold naar de overige platforms.
+- [Dynamische markeringen met alle variabelen worden](sensitivity-labels-office-apps.md#dynamic-markings-with-variables) ondersteund in alle Outlook clients.
 
 ## <a name="march-2021"></a>Maart 2021
 

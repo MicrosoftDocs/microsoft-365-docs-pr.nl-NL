@@ -20,13 +20,13 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: 'Verwijder de licentie uit een gedeeld postvak om het toe te wijzen aan een andere gebruiker. '
-ms.openlocfilehash: d552cfb77ff0ab2853939c6cb25fd4737f8c17d3
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+description: 'Verwijder een licentie uit een gedeeld postvak om deze aan een andere gebruiker toe te wijzen of de licentie terug te geven, zodat u er niet voor betaalt. '
+ms.openlocfilehash: d33487879506402c5f0de2f7942c3299c5698b73
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537581"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706284"
 ---
 # <a name="remove-a-license-from-a-shared-mailbox"></a>Een licentie uit een gedeeld postvak verwijderen
 
@@ -74,14 +74,10 @@ Voor gedeelde postvakken is meestal geen licentie vereist. Volg deze instructies
 
 6. U betaalt nog steeds voor de licentie. Als u wilt stoppen met betalen, [verwijdert u de licentie uit uw abonnement.](../../commerce/licenses/buy-licenses.md)
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-content"></a>Verwante inhoud
 
-[Meer over gedeelde postvakken](about-shared-mailboxes.md)
-
-[Een gedeeld postvak maken](create-a-shared-mailbox.md)
-
-[Een gedeeld postvak configureren](configure-a-shared-mailbox.md)
-
-[Een gebruikerspostvak converteren naar een gedeeld postvak](convert-user-mailbox-to-shared-mailbox.md)
-
-[Problemen oplossen met gedeelde postvakken](resolve-issues-with-shared-mailboxes.md)
+[Info over gedeelde postvakken](about-shared-mailboxes.md) (artikel)\
+[Een gedeeld postvak](create-a-shared-mailbox.md) maken (artikel)\
+[Een gedeeld postvak configureren](configure-a-shared-mailbox.md) (artikel)\
+[Het postvak van een gebruiker converteren naar een gedeeld postvak](convert-user-mailbox-to-shared-mailbox.md) (artikel)\
+[Problemen oplossen met gedeelde postvakken](resolve-issues-with-shared-mailboxes.md) (artikel)

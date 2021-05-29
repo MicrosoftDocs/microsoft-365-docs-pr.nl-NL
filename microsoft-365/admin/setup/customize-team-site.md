@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 70a62f09-45ea-4968-8482-43cddfb8cc01
 description: Meer informatie over het aanpassen, organiseren en beheren van uw SharePoint teamsite met documentbibliotheken, lijsten en hubs.
-ms.openlocfilehash: aca2b2ff147fdb030540712133b27eba706b0985
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 47033f286f2661a8cfffa3efce0cc7deda82ea63
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244513"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706344"
 ---
 # <a name="customize-your-team-site-for-file-storage-and-sharing"></a>Uw teamsite aanpassen voor het opslaan en delen van bestanden
 
@@ -103,15 +103,15 @@ Hoewel bestandsopslag en documentbeheer een begin is, is delen met uw team en ex
 
 Tijdens het beheer van uw teamsite moet u wellicht gebruikers toevoegen of verwijderen. Hier vindt u informatie met inzichten over het toevoegen en beheren van gebruikers op uw teamsite.
   
-Bekijk een video over groepen, zie [Groepen begrijpen en beheren](https://docs.microsoft.com/learn/m365/). 
+Bekijk een video over groepen, zie [Groepen begrijpen en beheren](/learn/m365/). 
   
 Als u gebruikers wilt toevoegen aan een Microsoft 365 groep, zie Gebruikers toevoegen en [tegelijkertijd licenties toewijzen.](../add-users/add-users.md)
   
 Lees hoe u toegangsaanvragen kunt verwerken met [Toegangsaanvragen instellen en beheren.](https://support.microsoft.com/office/94B26E0B-2822-49D4-929A-8455698654B3)
   
-## <a name="here-are-more-articles-you-might-be-interested-in"></a>Hier zijn meer artikelen waarin u mogelijk geïnteresseerd bent
+## <a name="next-steps"></a>Volgende stappen
 
-- **Office-apps instellen voor uw tablets en telefoons**. U moet dit doen, zodat u bestanden kunt bewerken die zijn opgeslagen op uw teamsite vanaf uw tablet of telefoon. Als u de Office-apps voor uw tablet of telefoon niet installeert, kunt u uw bestanden op uw teamsite wel zien maar niet bewerken. 
+U moet een Office instellen op uw apparaten, zodat u bestanden kunt bewerken die zijn opgeslagen op uw teamsite vanaf uw tablet of telefoon. Als u de Office-apps voor uw tablet of telefoon niet installeert, kunt u uw bestanden op uw teamsite wel zien maar niet bewerken. 
     
   - [Installeren en instellen Office op een Android met Microsoft 365](https://support.microsoft.com/office/cafe9d6f-8b0c-4b03-b20a-12438a82a22d)
     

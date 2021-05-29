@@ -18,17 +18,17 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Meer informatie over het gebruik van de tenantwisselaar en over de weergaven met meerdere tenants.
-ms.openlocfilehash: d59760b8a143acc33747aff9f7deaa0b6dd3e711
-ms.sourcegitcommit: 682ed2c4e2bc6979025cdb89094866cef6c8751a
+description: Meer informatie over het gebruik van de tenantwisselaar en de weergaven met meerdere tenants die u de mogelijkheid bieden om tenants vanaf één locatie te beheren.
+ms.openlocfilehash: e0bf6c872d4998c0cd0263fd8474ac5e9c99ef14
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51943027"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706152"
 ---
 # <a name="multi-tenant-management"></a>Beheer van meerdere tenants
 
-Multiten tenantbeheer biedt een geïntegreerde vorm van beheer waarmee Microsoft 365-partnerbeheerders alle tenants kunnen beheren die ze beheren vanaf één locatie. Als u een partner bent die meerdere tenants beheert, kunt u het volgende doen:
+Multiten tenantbeheer biedt een geïntegreerde vorm van beheer waarmee Microsoft 365 partnerbeheerders alle tenants kunnen beheren die ze beheren vanaf één locatie. Als u een partner bent die meerdere tenants beheert, kunt u het volgende doen:
 
 - Snel schakelen tussen tenants die u beheert.
 - Beoordeel de servicetoestand, producten en facturering voor meerdere tenants.
@@ -36,7 +36,7 @@ Multiten tenantbeheer biedt een geïntegreerde vorm van beheer waarmee Microsoft
 
 ## <a name="move-between-tenants"></a>Verplaatsen tussen tenants
 
-1. Selecteer in het Microsoft 365-beheercentrum de naam van de organisatie.
+1. Selecteer in Microsoft 365 beheercentrum de naam van de organisatie.
 
     :::image type="content" source="../../media/macorgswitcher.png" alt-text="Schakelknop voor meerdere tenants.":::
 
@@ -46,7 +46,7 @@ Multiten tenantbeheer biedt een geïntegreerde vorm van beheer waarmee Microsoft
 
 ## <a name="view-all-tenants-page"></a>Pagina Alle tenants weergeven
 
-1. Selecteer in het Microsoft 365-beheercentrum in het linkernavigatienavigatiepunt **Alle tenants**.
+1. Selecteer in Microsoft 365 linkernavigatie alle tenants in het **linkernavigatiecentrum.**
 - Op de **pagina Alle tenants** kunt u
   - Service-status beoordelen
   - Gebruik van licenties controleren
@@ -59,7 +59,7 @@ Als u een tenant hebt gemarkeerd als favoriet, wordt deze automatisch uitgebreid
 
 In de weergave service-status ziet u of incidenten of adviezen van invloed zijn op de tenants. Er wordt zelfs bekent hoeveel van uw beheerde tenants worden beïnvloed.
 
-1. Selecteer in het Microsoft 365-beheercentrum in de weergave met meerdere tenants de optie **Service health.**
+1. Selecteer in Microsoft 365 beheercentrum in de weergave meerdere tenants de optie **Service health.**
 2. Op **de** samengevoegde weergave Service-status kunt u ook het totale aantal incidenten zien, het totale aantal adviezen dat van invloed is op een van de beheerde tenants en het aantal services met actieve incidenten. U kunt ook zien hoeveel van uw tenants worden beïnvloed door incidenten en adviezen.
 
     - U kunt de filteroptie gebruiken om problemen weer te geven op type probleem of per service
@@ -73,9 +73,9 @@ In de weergave service-status ziet u of incidenten of adviezen van invloed zijn 
 
 De lijst met getroffen tenants kan worden geëxporteerd naar CSV-indeling, zodat beheerders deze kunnen delen met ondersteuningsteams.
 
-## <a name="view-a-single-tenant-in-the-microsoft-365-admin-center"></a>Eén tenant weergeven in het Microsoft 365-beheercentrum
+## <a name="view-a-single-tenant-in-the-microsoft-365-admin-center"></a>Eén tenant weergeven in het Microsoft 365 beheercentrum
 
-U kunt terugkeren naar het Microsoft 365-beheercentrum voor een van de tenants op de **pagina Alle tenants.**
+U kunt terugkeren naar het Microsoft 365 beheercentrum voor een van de tenants op **de pagina Alle tenants.**
 
 1. Selecteer op **de pagina Alle tenants** de tenantnaam waarvoor u het beheercentrum wilt weergeven.
 2. U wordt doorgestuurd naar het beheercentrum voor die tenant.

@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: Lees hoe u compliancegrenzen kunt gebruiken om logische grenzen te maken die bepalen welke gebruikersinhoudslocaties een eDiscovery-manager kan zoeken in Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8b19347ad8e1c87d5b66cb49ed2af152b4765c37
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.openlocfilehash: 02e2e2f048ab521ad5640003cb127ed7bfa19641
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52311914"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706604"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations"></a>Compliancegrenzen instellen voor eDiscovery-onderzoeken
 
@@ -249,7 +249,7 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "C
 
 Houd rekening met de volgende zaken bij het zoeken en exporteren van inhoud in multi-geo-omgevingen.
   
-- Met **de** parameter Regio worden zoekopdrachten naar postvakken Exchange bepaald. Alle datacenters worden doorzocht wanneer u postvakken zoekt. Gebruik de **parameter** Filters bij het maken of wijzigen van een zoekmachtigingsfilter als u het bereik van Exchange wilt beperken. 
+- Met de parameter **Region** kunt u geen zoekopdrachten in Exchange-postvakken beheren. Alle datacenters worden doorzocht wanneer u postvakken zoekt. Gebruik de **parameter** Filters bij het maken of wijzigen van een zoekmachtigingsfilter als u het bereik van Exchange wilt beperken. 
 
 - Als een eDiscovery Manager moet zoeken in meerdere SharePoint-regio's, moet u een ander gebruikersaccount maken voor die eDiscovery-manager die u wilt gebruiken in het filter voor zoekmachtigingen om het gebied op te geven waar de SharePoint-sites of OneDrive-accounts zich bevinden. Zie de sectie 'Zoeken naar inhoud in een SharePoint Multi-Geo omgeving' in Inhoud zoeken voor meer informatie over het [instellen van deze instelling.](content-search-reference.md#searching-for-content-in-a-sharepoint-multi-geo-environment)
 
@@ -288,6 +288,8 @@ Houd rekening met de volgende beperkingen bij het beheren van eDiscovery-gevalle
 - Compliancegrenzen zijn niet van toepassing op in eDiscovery-gevallen. Dat betekent dat een eDiscovery-manager in één bureau een gebruiker in een ander bureau in de wacht kan zetten. De compliancegrens wordt echter afgedwongen als de eDiscovery-manager zoekt naar de inhoudslocaties van de gebruiker die in de wacht is geplaatst. Dat betekent dat de eDiscovery-manager de inhoudslocaties van de gebruiker niet kan doorzoeken, ook al kunnen ze de gebruiker in de wacht zetten.
 
     Houdstatistieken zijn ook alleen van toepassing op inhoudslocaties in het bureau.
+
+- Als u een zoekmachtigingsfilter (een postvak of een sitefilter) hebt toegewezen en u probeert niet-geïndexeerde items te exporteren voor een zoekopdracht die alle SharePoint-sites in uw organisatie bevat, ontvangt u het volgende foutbericht: `Unable to execute the task. Reason: The scope options UnindexedItemsOnly or BothIndexedandUnindexedItems are not allowed when the executing user has a compliance security filter applied` . Als u een zoekmachtigingsfilter hebt toegewezen en u niet-geïndexeerde items wilt exporteren vanuit SharePoint, moet u de zoekopdracht opnieuw uitvoeren en specifieke SharePoint sites opnemen om te zoeken. Anders kunt u alleen geïndexeerde items exporteren vanuit een zoekopdracht die alle SharePoint bevat. Zie Zoekresultaten exporteren voor meer informatie over de opties wanneer u zoekresultaten [exporteert.](export-search-results.md#step-1-prepare-search-results-for-export)
 
 - Zoekmachtigingenfilters worden niet toegepast op Exchange openbare mappen.
 

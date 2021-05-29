@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Gebruik Basismobiliteit en beveiliging om apparaatbeleid te maken dat uw organisatiegegevens beschermt.
-ms.openlocfilehash: 5abd27f963208140a53cfd885152301992830b5e
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: 5519351db428faa837a63eedb384b42c8d8ee07c
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023903"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706320"
 ---
 # <a name="create-device-security-policies-in-basic-mobility-and-security"></a>Apparaatbeveiligingsbeleid maken in Basismobiliteit en Beveiliging
 
@@ -35,12 +35,12 @@ U kunt Basismobiliteit en beveiliging gebruiken om apparaatbeleid te maken om uw
 > Voordat u een beleid voor mobiele apparaten kunt maken, moet u Basismobiliteit en beveiliging activeren en instellen. Zie Overzicht van basismobiliteit en beveiliging voor meer informatie.
 
 - Meer informatie over de apparaten, apps voor mobiele apparaten en beveiligingsinstellingen die door Basismobiliteit en Beveiliging worden ondersteund. Zie [Mogelijkheden van basismobiliteit en beveiliging.](capabilities.md)
-- Maak beveiligingsgroepen met Microsoft 365-gebruikers die u beleid wilt implementeren voor en voor gebruikers die u mogelijk wilt uitsluiten van geblokkeerde toegang tot Microsoft 365. We raden u aan het beleid te testen voordat u een nieuw beleid implementeert voor uw organisatie door het beleid te implementeren voor een klein aantal gebruikers. U kunt een beveiligingsgroep maken en gebruiken met alleen uzelf of een klein aantal Microsoft 365-gebruikers die het beleid voor u kunnen testen. Zie Een beveiligingsgroep maken, bewerken of verwijderen voor meer informatie over [beveiligingsgroepen.](../email/create-edit-or-delete-a-security-group.md)
-- Als u basisbeleid voor mobiliteit en beveiliging wilt maken en implementeren in Microsoft 365, moet u een globale beheerder van Microsoft 365 zijn. Zie Machtigingen [in het Beveiligings- & compliancecentrum voor meer informatie.](../../security/office-365-security/permissions-in-the-security-and-compliance-center.md)
-- Voordat u beleid implementeert, laat u uw organisatie weten wat de mogelijke gevolgen zijn van het registreren van een apparaat in Basismobiliteit en Beveiliging. Afhankelijk van hoe u het beleid in stelt, kunnen niet-compatibele apparaten worden geblokkeerd voor toegang tot Microsoft 365 en gegevens, waaronder geïnstalleerde toepassingen, foto's en persoonlijke gegevens op een geregistreerd apparaat, en gegevens kunnen worden verwijderd.
+- Maak beveiligingsgroepen met Microsoft 365 gebruikers die u beleid wilt implementeren voor en voor gebruikers die u mogelijk wilt uitsluiten van geblokkeerde toegang tot Microsoft 365. We raden u aan het beleid te testen voordat u een nieuw beleid implementeert voor uw organisatie door het beleid te implementeren voor een klein aantal gebruikers. U kunt een beveiligingsgroep maken en gebruiken die alleen uzelf of een klein aantal Microsoft 365 gebruikers die het beleid voor u kunnen testen. Zie Een beveiligingsgroep maken, bewerken of verwijderen voor meer informatie over [beveiligingsgroepen.](../email/create-edit-or-delete-a-security-group.md)
+- Als u basisbeleid voor mobiliteit en beveiliging wilt maken en implementeren in Microsoft 365, moet u een globale beheerder Microsoft 365 zijn. Zie Machtigingen [in het Beveiligings- & compliancecentrum voor meer informatie.](../../security/office-365-security/permissions-in-the-security-and-compliance-center.md)
+- Voordat u beleid implementeert, laat u uw organisatie weten wat de mogelijke gevolgen zijn van het registreren van een apparaat in Basismobiliteit en Beveiliging. Afhankelijk van hoe u het beleid in stelt, kunnen niet-compatibele apparaten worden geblokkeerd voor toegang tot Microsoft 365 en gegevens, waaronder geïnstalleerde toepassingen, foto's en persoonlijke gegevens op een geregistreerd apparaat, en kunnen gegevens worden verwijderd.
 
 >[!NOTE]
->Beleidsregels en toegangsregels die zijn gemaakt in basismobiliteit en beveiliging voor Microsoft 365 Business Standard, overschrijven exchange ActiveSync-beleidsregels voor postvakken op mobiele apparaten en regels voor apparaattoegang die zijn gemaakt in het Exchange-beheercentrum. Nadat een apparaat is geregistreerd in basismobiliteit en beveiliging voor Microsoft 365 Business Standard, wordt elke exchange ActiveSync-postvakbeleid of apparaattoegangsregel die is toegepast op het apparaat, genegeerd. Zie [Exchange ActiveSync in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/exchange-activesync/exchange-activesync)voor meer informatie over Exchange ActiveSync.
+>Beleidsregels en toegangsregels die zijn gemaakt in Basismobiliteit en beveiliging voor Microsoft 365 Business Standard overschrijven Exchange ActiveSync beleidsregels voor postvakken op mobiele apparaten en regels voor apparaattoegang die zijn gemaakt in het Exchange beheercentrum. Nadat een apparaat is geregistreerd voor Basismobiliteit en beveiliging voor Microsoft 365 Business Standard, wordt elke Exchange ActiveSync beleid voor postvak voor mobiele apparaten of regel voor apparaattoegang die is toegepast op het apparaat, genegeerd. Zie Exchange ActiveSync in Exchange Online voor [meer Exchange ActiveSync informatie](/exchange/clients-and-mobile-in-exchange-online/exchange-activesync/exchange-activesync)over Exchange Online.
 
 ## <a name="step-1-create-a-device-policy-and-deploy-to-a-test-group"></a>Stap 1: Een apparaatbeleid maken en implementeren in een testgroep
 
@@ -60,7 +60,7 @@ Voordat u kunt beginnen, moet u basismobiliteit en beveiliging hebben geactiveer
 
 6. Selecteer **Dit beleid maken.**
 
-Het beleid wordt naar het apparaat van elke gebruiker door het beleid schuift wanneer ze zich de volgende keer aanmelden bij Microsoft 365 met hun mobiele apparaat. Als gebruikers nog niet eerder een beleid hebben toegepast op hun mobiele apparaat, ontvangen ze na het implementeren van het beleid een melding op hun apparaat met de stappen voor het registreren en activeren van Basismobiliteit en beveiliging. Zie Uw mobiele apparaat registreren met [basismobiliteit en beveiliging voor meer informatie.](enroll-your-mobile-device.md) Totdat ze zich hebben ingeschreven voor Basismobiliteit en beveiliging die worden gehost door de Intune-service, is de toegang tot e-mail, OneDrive en andere services beperkt. Nadat ze de inschrijving hebben voltooid met de Intune Company Portal-app, kunnen ze de services gebruiken en wordt het beleid toegepast op hun apparaat.
+Het beleid wordt naar het apparaat van elke gebruiker door het beleid schuift wanneer ze zich de volgende keer aanmelden bij Microsoft 365 mobiele apparaat. Als gebruikers nog niet eerder een beleid hebben toegepast op hun mobiele apparaat, ontvangen ze na het implementeren van het beleid een melding op hun apparaat met de stappen voor het registreren en activeren van Basismobiliteit en beveiliging. Zie Uw mobiele apparaat registreren met [basismobiliteit en beveiliging voor meer informatie.](enroll-your-mobile-device.md) Totdat ze de inschrijving in Basismobiliteit en Beveiliging voltooien die worden gehost door de Intune-service, is de toegang tot e-mail, OneDrive en andere services beperkt. Nadat ze de inschrijving hebben voltooid met de Intune-bedrijfsportal app, kunnen ze de services gebruiken en wordt het beleid toegepast op hun apparaat.
 
 ## <a name="step-2-verify-that-your-policy-works"></a>Stap 2: controleren of uw beleid werkt
 
@@ -69,7 +69,7 @@ Nadat u een apparaatbeleid hebt gemaakt, controleert u of het beleid werkt zoals
 1. Typ in uw browser [https://protection.office.com/devicev2](https://protection.office.com/devicev2) .
 2. Selecteer **De lijst met beheerde apparaten weergeven.**
 3. Controleer de status van gebruikersapparaten die het beleid hebben toegepast. U wilt dat **de status** van apparaten wordt **beheerd.**
-4. U kunt ook een volledig of selectief wissen  op een apparaat  doen door te klikken op de knop Fabrieksinstellingen opnieuw instellen of **Bedrijfsgegevens** verwijderen uit de knop Beheren nadat u een apparaat hebt geselecteerd. Zie [Een mobiel apparaat wissen in Microsoft 365 voor instructies.
+4. U kunt ook een volledig of selectief wissen  op een apparaat  doen door te klikken op de knop Fabrieksinstellingen opnieuw instellen of **Bedrijfsgegevens** verwijderen uit de knop Beheren nadat u een apparaat hebt geselecteerd. Zie [Een mobiel apparaat wissen in Microsoft 365.
 
 ## <a name="step-3-deploy-a-policy-to-your-organization"></a>Stap 3: Een beleid implementeren in uw organisatie
 
@@ -85,13 +85,13 @@ Het beleid wordt naar het mobiele apparaat van elke gebruiker door het beleid ge
 
 ## <a name="step-4-block-email-access-for-unsupported-devices"></a>Stap 4: E-mailtoegang blokkeren voor niet-ondersteunde apparaten
 
-Als u uw organisatiegegevens wilt beveiligen, moet u app-toegang tot e-mail van Microsoft 365 blokkeren voor mobiele apparaten die niet worden ondersteund door Basismobiliteit en Beveiliging. Zie Ondersteunde apparaten voor een lijst met [ondersteunde apparaten.](../../admin/basic-mobility-security/capabilities.md)
+Als u uw organisatiegegevens wilt beveiligen, moet u app-toegang tot e-Microsoft 365 blokkeren voor mobiele apparaten die niet worden ondersteund door Basismobiliteit en Beveiliging. Zie Ondersteunde apparaten voor een lijst met [ondersteunde apparaten.](../../admin/basic-mobility-security/capabilities.md)
 
 **App-toegang blokkeren:**
 
 1. Typ in uw browser [https://protection.office.com/devicev2](https://protection.office.com/devicev2) .
 2. Selecteer **Instellingen voor apparaattoegang voor de hele organisatie beheren.**
-3. Als u niet-ondersteunde  apparaten wilt blokkeren, kiest u Blokkeren onder Als een apparaat niet wordt ondersteund door Basismobiliteit en Beveiliging voor **Microsoft 365** en selecteert u **Vervolgens Opslaan.**
+3. Als u niet-ondersteunde  apparaten wilt blokkeren, kiest u Blokkeren onder Als een apparaat niet wordt ondersteund door **Basismobiliteit** en beveiliging voor Microsoft 365 en selecteert u **Opslaan**.
 
    :::image type="content" source="../../media/basic-mobility-security/bms-5-block-access.png" alt-text="Optie Voor toegang tot basismobiliteits- en beveiligingsblokkering":::
 
@@ -105,7 +105,7 @@ Als u sommige personen wilt uitsluiten van controles voor voorwaardelijke toegan
 
    :::image type="content" source="../../media/basic-mobility-security/bms-4-policy.png" alt-text="Basismobiliteit en beveiliging maken een beleidsoptie":::
 
-3. Selecteer **Toevoegen** om de beveiligingsgroep toe te voegen met gebruikers die u wilt uitsluiten van geblokkeerde toegang tot Microsoft 365. Wanneer een gebruiker aan deze lijst is toegevoegd, heeft deze toegang tot e-mail van Microsoft 365 wanneer deze een niet-ondersteund apparaat gebruikt.
+3. Selecteer **Toevoegen** om de beveiligingsgroep toe te voegen met gebruikers die u wilt uitsluiten van geblokkeerde toegang tot Microsoft 365. Wanneer een gebruiker aan deze lijst is toegevoegd, heeft deze toegang tot Microsoft 365 e-mail wanneer deze een niet-ondersteund apparaat gebruikt.
 
 4. Selecteer de beveiligingsgroep die u wilt gebruiken in het **deelvenster** Groep selecteren.
 
@@ -126,16 +126,16 @@ Wanneer u een beleid op gebruikersapparaten toe passen, verschilt de invloed op 
 |Documentsynchronisatie blokkeren|Nee|Nee|Ja|iOS: Documenten blokkeren in de cloud.|
 |Fotosynchronisatie blokkeren |Nee|Nee|Ja|iOS (native): Fotostream blokkeren.|
 |Schermopname blokkeren |Nee|Ja|Ja|Geblokkeerd wanneer u een poging hebt gedaan.|
-|Videovergadering blokkeren |Nee|Nee|Ja|FaceTime is geblokkeerd in iOS, niet in Skype of andere.|
+|Videovergadering blokkeren |Nee|Nee|Ja|FaceTime is geblokkeerd in iOS, niet op Skype of anderen.|
 |Het verzenden van diagnostische gegevens blokkeren |Nee|Ja|Ja|Blokkeer het verzenden van Google-crashrapport op Android.|
-|Toegang tot de App Store blokkeren |Nee|Ja|Ja|App Store-pictogram ontbreekt op de startpagina van Android, is uitgeschakeld in Windows, ontbreekt in iOS.|
+|Toegang tot de App Store blokkeren |Nee|Ja|Ja|App Store-pictogram ontbreekt op de startpagina van Android, uitgeschakeld op Windows, ontbreekt in iOS.|
 |Wachtwoord vereisen voor de App Store |Nee|Nee|Ja|iOS: Wachtwoord vereist voor iTunes-aankopen.|
-|Verbinding met verwisselbare opslag blokkeren |Nee|Ja|N.v.t.|Android: SD-kaart is grijs weergegeven in instellingen, Windows meldt gebruiker, geïnstalleerde apps zijn niet beschikbaar|
-|Bluetooth-verbinding blokkeren |Notities bekijken|Notities bekijken|Ja|We kunnen BlueTooth niet uitschakelen als instelling voor Android. In plaats daarvan schakelen we alle transacties uit waarvoor BlueTooth nodig is: Geavanceerde audiodistributie, Audio/Video-afstandsbediening, handsfree apparaten, headset, Telefoonboektoegang en Seriële poort. Een klein pop-upbericht wordt onder aan de pagina weergegeven wanneer een van deze berichten wordt gebruikt.|
+|Verbinding met verwisselbare opslag blokkeren |Nee|Ja|N.v.t.|Android: SD-kaart is grijs weergegeven in instellingen, Windows gebruiker op de Windows, geïnstalleerde apps zijn niet beschikbaar|
+|Verbinding Bluetooth blokkeren |Notities bekijken|Notities bekijken|Ja|We kunnen BlueTooth niet uitschakelen als instelling voor Android. In plaats daarvan schakelen we alle transacties uit waarvoor BlueTooth nodig is: Geavanceerde audiodistributie, Audio/Video-afstandsbediening, handsfree apparaten, headset, Telefoon Book Access en Seriële poort. Een klein pop-upbericht wordt onder aan de pagina weergegeven wanneer een van deze berichten wordt gebruikt.|
 
 ## <a name="what-happens-when-you-delete-a-policy-or-remove-a-user-from-the-policy"></a>Wat gebeurt er wanneer u een beleid verwijdert of een gebruiker uit het beleid verwijdert?
 
-Wanneer u een beleid verwijdert of een gebruiker verwijdert uit een groep waaraan het beleid is geïmplementeerd, worden de beleidsinstellingen, het e-mailprofiel van Microsoft 365 en e-mailberichten in de cache mogelijk verwijderd van het apparaat van de gebruiker. Zie de volgende tabel om te zien wat er is verwijderd voor de verschillende apparaattypen.
+Wanneer u een beleid verwijdert of een gebruiker verwijdert uit een groep waaraan het beleid is geïmplementeerd, worden de beleidsinstellingen, Microsoft 365 e-mailprofiel en e-mailberichten in de cache mogelijk verwijderd van het apparaat van de gebruiker. Zie de volgende tabel om te zien wat er is verwijderd voor de verschillende apparaattypen.
 
 |**Wat wordt verwijderd**|**iOS 6 en hoger**|**Android 4 en hoger (inclusief Samsung KNOX**|
 |:-----|:-----|:-----|
@@ -148,8 +148,7 @@ Het beleid wordt verwijderd van het mobiele apparaat voor elke gebruiker. Het be
 
 U kunt een apparaat ook volledig wissen of organisatiegegevens selectief wissen vanaf het apparaat. Zie Een mobiel apparaat [wissen in Basismobiliteit en Beveiliging voor meer informatie.](wipe-mobile-device.md)
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
-[Overzicht van de Basic Mobility en Security](overview.md)
-
-[Capaciteiten Basic Mobility en Security](capabilities.md)
+[Overzicht van basismobiliteit en beveiliging](overview.md) (artikel)\
+[Mogelijkheden van basismobiliteit en beveiliging](capabilities.md) (artikel)

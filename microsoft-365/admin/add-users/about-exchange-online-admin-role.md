@@ -20,21 +20,19 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: 097ae285-c4af-4319-9770-e2559d66e4c8
-description: 'Exchange Online-beheerders beheren de e-mail en postvakken van uw organisatie. Ze herstellen bijvoorbeeld verwijderde items in het postvak van een gebruiker. '
-ms.openlocfilehash: 4dc1f435571650ae4a805198782c3c24a92024fb
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+description: Exchange onlinebeheerders beheren de e-mail en postvakken van uw organisatie. Ze herstellen bijvoorbeeld verwijderde items in het postvak van een gebruiker.
+ms.openlocfilehash: 58f0da87c0db57a3df62834a4375d561e20a98f8
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197647"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706212"
 ---
 # <a name="about-the-exchange-online-admin-role"></a>De Exchange Online-beheerdersrol
 
-Als u Microsoft 365 wilt [](assign-admin-roles.md) beheren, kunt u gebruikersmachtigingen toewijzen voor het beheren van de e-mail en postvakken van uw organisatie vanuit het [Exchange-beheercentrum.](/exchange/exchange-admin-center) U doet dit door ze toe te wijzen aan de rol van de Exchange-beheerder.
+Om u te helpen Microsoft 365 beheren, kunt u gebruikersmachtigingen toewijzen voor het beheren van de e-mail en postvakken van uw organisatie vanuit [het Exchange beheercentrum.](/exchange/exchange-admin-center) [](assign-admin-roles.md) U doet dit door ze toe te wijzen aan de rol van de Exchange-beheerder.
   
- **Tip**: Wanneer u aan iemand de rol van Exchange-beheerder toewijst, moet die persoon ook de rol van Servicebeheerder toewijzen. Op deze manier kunnen ze belangrijke informatie zien in het Microsoft 365-beheercentrum, zoals de status van de Exchange Online-service, en meldingen wijzigen en vrijgeven.
-  
-## <a name="before-you-begin"></a>Voordat u begint
+ **Tip**: Wanneer u aan iemand de rol van Exchange-beheerder toewijst, moet die persoon ook de rol van Servicebeheerder toewijzen. Op deze manier kunnen ze belangrijke informatie zien in het Microsoft 365-beheercentrum, zoals de status van de Exchange Online service, en meldingen wijzigen en vrijgeven.
 
 Hier volgen enkele van de belangrijkste taken die gebruikers kunnen uitvoeren wanneer zij de rol van Exchange-beheerder toegewezen hebben gekregen:
   
@@ -48,7 +46,7 @@ Hier volgen enkele van de belangrijkste taken die gebruikers kunnen uitvoeren wa
 
 - [Maak een gedeeld postvak,](../email/create-a-shared-mailbox.md) zodat een groep personen e-mail kan controleren en verzenden vanaf een gemeenschappelijk e-mailadres.
 
-- [E-mailbeveiligings- en](https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-spam-protection) malwarefilters voor de organisatie.
+- [E-mailbeveiligings- en](../../security/office-365-security/anti-spam-protection.md) malwarefilters voor de organisatie.
 
 - Microsoft 365-groepen beheren
 
@@ -62,8 +60,8 @@ In een grote organisatie kan de Exchange-beheerder gebruikers toewijzen aan Exch
 
 - [Over Microsoft 365-beheersrollen](about-admin-roles.md)
 
-- [Informatie over de sharepoint online-beheerdersrol](/sharepoint/sharepoint-admin-role)
+- [Informatie over SharePoint onlinebeheerderrol](/sharepoint/sharepoint-admin-role)
 
 - [About the Skype for Business admin role](/skypeforbusiness/skype-for-business-online) (De Skype voor Bedrijven-beheerdersrol)
 
-- [Microsoft Teams-beheerdersrol gebruiken](/MicrosoftTeams/using-admin-roles)
+- [Rol Microsoft Teams beheerder gebruiken](/MicrosoftTeams/using-admin-roles)
