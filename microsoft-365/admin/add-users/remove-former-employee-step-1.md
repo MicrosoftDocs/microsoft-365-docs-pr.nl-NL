@@ -24,19 +24,20 @@ search.appverid:
 - MET150
 - MOE150
 description: Een voormalige werknemer blokkeren om zich aan te melden en de toegang tot Microsoft 365 blokkeren.
-ms.openlocfilehash: 8eb41c3b449e63284371aaf168262307a4c21941
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 84852e9bccb1d4370db07492baf7ccaed7f6db3d
+ms.sourcegitcommit: 4bcac4cb4f9399ebbd7c8cff0abb4d6ecedb731e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535948"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52698902"
 ---
 # <a name="step-1---prevent-a-former-employee-from-logging-in-and-block-access-to-microsoft-365-services"></a>Stap 1: voorkomen dat een voormalige werknemer zich aanlogt en de toegang tot Microsoft 365 services blokkeert
 
 Als u de aanmeldingstoegang van een gebruiker onmiddellijk wilt voorkomen, moet u het wachtwoord opnieuw instellen. In deze stap dwingt u de gebruiker af te melden van Microsoft 365.
 
 > [!NOTE]
-> U moet een globale beheerder zijn om de aanmelding te starten.
+> U moet een globale beheerder zijn om de aanmelding voor andere beheerders te starten. Voor niet-beheerdersgebruikers kunt u een gebruikerbeheerder of een gebruiker van de helpdeskbeheerder gebruiken om deze actie uit te voeren.
+> Meer informatie over beheerdersrollen <a href="https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles">over beheerdersrollen</a>
 
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.
 2. Schakel het vakje naast de naam van de gebruiker in en selecteer vervolgens **Wachtwoord opnieuw instellen.**
