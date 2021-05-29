@@ -110,12 +110,14 @@
           href: sit-modify-edm-schema-configurable-match.md
         - name: Meldingen maken voor activiteiten met exacte gegevensovereenkomst (preview)
           href: sit-edm-notifications-activities.md
-        - name: Een aangepast type gevoelige informatie maken in het beveiligings- en compliancecentrum
+        - name: Een aangepast type gevoelige informatie maken in het compliancecentrum
           href: create-a-custom-sensitive-information-type.md
         - name: Een aangepast type gevoelige informatie maken met Windows PowerShell
           href: create-a-custom-sensitive-information-type-in-scc-powershell.md
         - name: Een woordenlijst met trefwoorden maken
           href: create-a-keyword-dictionary.md
+        - name: Een woordenlijst met trefwoorden wijzigen
+          href: sit-modify-keyword-dictionary.md
         - name: Fingerprinting van documenten
           href: document-fingerprinting.md
     - name: Trainbare classificaties
@@ -124,8 +126,6 @@
           href: classifier-learn-about.md
         - name: Aan de slag met trainbare classificaties
           href: classifier-get-started-with.md
-        - name: Een classificatie opnieuw trainen voor communicatiecompliance
-          href: classifier-how-to-retrain-comms-compliance.md
         - name: Een classificatie opnieuw trainen voor de inhoudsverkenner
           href: classifier-how-to-retrain-content-explorer.md
     - name: Gegevensclassificatie
