@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: Adopt
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: 9a73f14662deb0fc68ac6c2a8552d988efc1d351
-ms.sourcegitcommit: a3359982fea01339c7377e3ee89f223788cee0bf
+ms.openlocfilehash: 62e65f9be25e2c482cca78577048d504ee93097a
+ms.sourcegitcommit: 4bcac4cb4f9399ebbd7c8cff0abb4d6ecedb731e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/28/2021
-ms.locfileid: "52696464"
+ms.locfileid: "52698974"
 ---
 # <a name="microsoft-sharepoint-syntex-adoption-get-started"></a>Microsoft SharePoint Syntex-acceptatie: Aan de slag
 
@@ -146,4 +146,4 @@ Als u klaar wilt zijn voor de implementatie SharePoint Syntex, moet u het volgen
 
 ## <a name="see-also"></a>Zie ook
 
-[Scenario's en use cases in SharePoint Syntex](adoption-scenarios.md)
+[Scenario's en use cases voor SharePoint Syntex](adoption-scenarios.md)

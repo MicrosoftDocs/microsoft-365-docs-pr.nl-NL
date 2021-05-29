@@ -27,12 +27,12 @@ ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: In dit artikel kunnen beheerders meer informatie krijgen over Safe koppelingen in Defender voor Office 365 om hun organisatie te beschermen tegen phishing en andere aanvallen die kwaadaardige URL's gebruiken.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 407f04685e41269c0e8436d3b68db7d755fce129
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 675de13410ac98e18a8b72125c2226d2c9c62821
+ms.sourcegitcommit: 4bcac4cb4f9399ebbd7c8cff0abb4d6ecedb731e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593567"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52698986"
 ---
 # <a name="safe-links-in-microsoft-defender-for-office-365"></a>Safe Koppelingen in Microsoft Defender voor Office 365
 
@@ -74,7 +74,7 @@ Dit artikel bevat gedetailleerde beschrijvingen van de volgende typen Safe Koppe
   - [Safe Koppelingeninstellingen voor Microsoft Teams](#safe-links-settings-for-microsoft-teams)
   - [Lijsten met 'De volgende URL's niet opnieuw schrijven' in Safe koppelingenbeleid](#do-not-rewrite-the-following-urls-lists-in-safe-links-policies)
 
-- **Algemene Safe Koppelingen:** deze instellingen zijn globaal geconfigureerd, niet in Safe Koppelingenbeleid. De instellingen zijn echter alleen van toepassing op gebruikers die zijn opgenomen in het actieve Safe Koppelingenbeleid. Deze instellingen omvatten:
+- **Algemene Safe Koppelingen:** deze instellingen zijn globaal geconfigureerd, niet in Safe Koppelingenbeleid. Deze instellingen omvatten:
 
   - [Safe Koppelingeninstellingen voor Office 365 apps](#safe-links-settings-for-office-365-apps)
   - ['De volgende URL's blokkeren' voor Safe koppelingen](#block-the-following-urls-list-for-safe-links)
