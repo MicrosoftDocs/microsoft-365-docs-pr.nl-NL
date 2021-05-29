@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 787d7a75-e201-46f3-a242-f698162ff09f
 description: Lees hoe u een of meer distributielijsten kunt upgraden naar Microsoft 365 groepen in Outlook en hoe u PowerShell gebruikt om meerdere distributielijsten tegelijk te upgraden.
-ms.openlocfilehash: 7e1fc4e971a22ec785662f684a4f9e08970c808a
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: d4686e7f2ec305194130b60fbacab24c9cf7f4e9
+ms.sourcegitcommit: 4bcac4cb4f9399ebbd7c8cff0abb4d6ecedb731e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636008"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52698938"
 ---
 # <a name="upgrade-distribution-lists-to-microsoft-365-groups-in-outlook"></a>Distributielijsten upgraden naar Microsoft 365 groepen in Outlook
 
@@ -86,10 +86,10 @@ Als u een ervaren PowerShell-gebruiker bent, wilt u misschien PowerShell in plaa
 Voer de volgende opdracht uit om één DL bij te upgraden:
 
 ```PowerShell
-Upgrade-DistributionGroup -DlIdentities \<Dl SMTP address\>
+Upgrade-DistributionGroup -DlIdentities <Dl SMTP address>
 ```
 
-Als u bijvoorbeeld een upgrade wilt uitvoeren van een DL met SMTP-adres dl1@contoso.com, voer dan de volgende opdracht uit:
+Als u bijvoorbeeld een DL wilt upgraden met SMTP-dl1@contoso.com, voer dan de volgende opdracht uit:
 
 ```PowerShell
 Upgrade-DistributionGroup -DlIdentities dl1@contoso.com
@@ -103,8 +103,8 @@ Upgrade-DistributionGroup -DlIdentities dl1@contoso.com
 U kunt ook meerdere DL's als batch doorgeven en samen upgraden:
 
 ```PowerShell
-Upgrade-DistributionGroup -DlIdentities \<DL SMTP address1\>, \< DL SMTP address2\>,
-\< DL SMTP address3\>, \< DL SMTP address 4\>
+Upgrade-DistributionGroup -DlIdentities <DL SMTP address1>, <DL SMTP address2>,
+<DL SMTP address3>, <DL SMTP address4>
 ```
 
 Als u bijvoorbeeld vijf DL's wilt upgraden met SMTP-adres `dl1@contoso.com` en de volgende opdracht wilt `dl2@contoso.com` `dl3@contoso.com` `dl4@contoso.com` `dl5@contoso.com` uitvoeren:
@@ -159,7 +159,7 @@ U kunt alleen in de cloud beheerde, eenvoudige, niet-geneste distributielijsten 
 
 Als u wilt controleren of een DL al dan niet in aanmerking komt, kunt u de onderstaande opdracht uitvoeren:
 
-`Get-DistributionGroup \<DL SMTP address\> | Get-EligibleDistributionGroupForMigration`
+`Get-DistributionGroup <DL SMTP address> | Get-EligibleDistributionGroupForMigration`
 
 Als u wilt controleren welke DL's in aanmerking komen voor een upgrade, voer dan de volgende opdracht uit:
 
@@ -191,7 +191,7 @@ Er zijn enkele gevallen waarin DL wel in aanmerking komt, maar niet kan worden b
 
 De upgrade vindt alleen plaats als de oproep naar de server wordt verzonden. Als de upgrade mislukt, worden de distributielijsten niet gewijzigd. Ze blijven op dezelfde manier werken.
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Groepen vergelijken](../create-groups/compare-groups.md) (artikel)\
 [Uitleg over Microsoft 365 groepen aan uw gebruikers](../create-groups/explain-groups-knowledge-worker.md) (artikel)\
