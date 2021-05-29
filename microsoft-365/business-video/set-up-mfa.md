@@ -20,15 +20,17 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Meer informatie over het instellen van meervoudige verificatie op uw telefoon.
-ms.openlocfilehash: 4a4041777b055b03e2ab5efede72eca56afdf589
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Meer informatie over het instellen van meervoudige verificatie, ook wel tweestapsverificatie genoemd, op uw telefoon.
+ms.openlocfilehash: 16997961c4bbe405792c40d1f1d93c511e10e740
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578661"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52705652"
 ---
 # <a name="set-up-multi-factor-authentication-on-your-phone"></a>Meervoudige verificatie instellen op uw telefoon
+
+## <a name="watch-set-up-multi-factor-authentication-with-a-mobile-device"></a>Kijken: Meervoudige verificatie instellen met een mobiel apparaat
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2MmQR?autoplay=false]
 
@@ -44,7 +46,7 @@ Meervoudige verificatie biedt meer beveiliging voor uw bedrijf. Volg deze stappe
 1. Kies **Instellen.**
 1. Laat het **venster Mobiele app configureren** geopend op uw computer.
 1. Ga op uw mobiele apparaat naar de App Store, zoek naar 'Microsoft Authenticator', selecteer het, installeer het en open het.
-1. Volg in Authenticator de aanwijzingen om de wizard te voltooien en kies vervolgens het plusteken (+) om uw account toe te voegen.
+1. Volg Authenticator aanwijzingen om de wizard te voltooien en kies vervolgens het plusteken (+) om uw account toe te voegen.
 1. Kies Werk- of  **schoolaccount,** kies Toestaan wanneer u wordt gevraagd om toestemming om foto's te maken en video's op te nemen en volg vervolgens de instructies om de QR-code te scannen in het geopende venster op uw computer.
 1. Nadat het account is toegevoegd, kiest u **Got It**.
 1. Kies op uw computer **Volgende** en kies **vervolgens opnieuw Volgende.**
