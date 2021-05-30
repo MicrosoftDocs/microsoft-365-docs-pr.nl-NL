@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 hideEdit: true
 description: Meer informatie over het maximum aantal beleidsregels en items per beleid voor bewaarbeleid en bewaarlabelbeleid
-ms.openlocfilehash: 007ca6eec50b243e1b820938ffa67553d7882c7b
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: 1ee2d07a42aaf4dff45ae22e9dfc005b3c4593d9
+ms.sourcegitcommit: 4bcac4cb4f9399ebbd7c8cff0abb4d6ecedb731e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52162868"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52698962"
 ---
 # <a name="limits-for-retention-policies-and-retention-label-policies"></a>Limieten voor bewaarbeleid en retentielabelbeleid
 
@@ -33,13 +33,15 @@ Als u [bewaarbeleid en retentielabelbeleid](retention.md#retention-policies-and-
 
 ## <a name="maximum-number-of-policies-per-tenant"></a>Maximaal aantal gebruikers per tenant
 
-Een enkele tenant kan maximaal 10.000 beleidsregels hebben (in iedere configuratie). Binnen dit maximale aantal vallen ook de verschillende beleidsregels voor retentie en andere beleidsregels voor compliance, zoals DLP-beleidsregels.
+Een enkele tenant kan maximaal 10.000 beleidsregels hebben (in iedere configuratie). Dit maximumaantal omvat de verschillende beleidsregels voor gegevensretentie en andere beleidsregels voor compliance, zoals beleid voor DLP, informatiebarrières, eDiscovery-bewaringen en vertrouwelijkheidslabels.
 
-Maximale aantal beleidsregels voor retentie per workload:
+Deze limiet van 10.000 beleidsregels omvat ook enkele limieten voor het maximumaantal beleidsregels voor gegevensretentie per workload:
 
 - Exchange Online (in iedere configuratie): 1.800
 - SharePoint of OneDrive: (alle sites automatisch inbegrepen): 13
 - SharePoint of OneDrive (specifieke locaties inbegrepen of uitgesloten): 2.600
+
+Hoewel het bewaarbeleid voor Microsoft Teams en Yammer gebruikmaakt van postvakken om gegevens op te slaan voor gegevensretentie, is het bewaarbeleid voor Teams en Yammer uitgesloten bij het maximumaantal beleidsregels voor Exchange Online.
 
 ## <a name="maximum-number-of-items-per-policy"></a>Maximale aantal items per beleidsregel
 

@@ -19,22 +19,22 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 832276bd-d024-47b6-a80a-a6b884907a5b
-description: 'Informatie over het in- of uitschakelen van de functie Onbelangrijke e-mail voor alle of specifieke gebruikers in uw organisatie, met Behulp van Exchange PowerShell. '
-ms.openlocfilehash: ac68893bc0aeea5ab214698c54524921e2b1921d
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: 'Informatie over het in- of uitschakelen van de functie Onbelangrijke e-mail voor alle of specifieke gebruikers in uw organisatie, met Exchange PowerShell. '
+ms.openlocfilehash: 059fb8e626a0b05e0224fc89931453aaae43be0b
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915900"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706107"
 ---
 # <a name="configure-clutter-for-your-organization"></a>Onbelangrijke e-mail configureren voor uw organisatie
 
 > [!TIP]
 > [Postvak IN met prioriteit](../setup/configure-focused-inbox.md) gaat Onbelangrijke e-mail vervangen. Meer informatie: Update over Postvak IN met focus [en onze plannen voor Onbelangrijke e-mail](https://techcommunity.microsoft.com/t5/Outlook-Blog/Update-on-Focused-Inbox-and-our-plans-for-Clutter/ba-p/136448)
   
-Als beheerder moet u mogelijk de functie Onbelangrijke e-mail beheren in Microsoft 365. Als u de functie Onbelangrijke e-mail wilt in- of uitschakelen voor gebruikers in uw organisatie, moet u Exchange PowerShell gebruiken. (Personen kunnen het in- of uitschakelen met behulp van deze instructies: [Onbelangrijke e-mail in- of uitschakelen in Outlook.](https://support.microsoft.com/office/a9c72a77-1bc4-40e6-ba6d-103c1d1aba4c)
+Als beheerder moet u mogelijk de functie Onbelangrijke e-mail beheren in Microsoft 365. Als u de functie Onbelangrijke e-mail wilt in- of uitschakelen voor gebruikers in uw organisatie, moet u Exchange PowerShell gebruiken. (Personen kunnen het in- of uitschakelen met behulp van deze instructies: Onbelangrijke e-mail in- of uitschakelen [in Outlook.](https://support.microsoft.com/office/a9c72a77-1bc4-40e6-ba6d-103c1d1aba4c)
   
-Zie [Using PowerShell with Exchange Online](/powershell/exchange/exchange-online-powershell) (PowerShell gebruiken met Exchange Online) en [Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) (Verbinding maken met Exchange Online PowerShell) voor informatie over het gebruik van Exchange PowerShell. U moet een account hebben dat ten minste de rol van exchange-servicebeheerder heeft en de mogelijkheid om verbinding te maken met Exchange Online met PowerShell. 
+Zie [Using PowerShell with Exchange Online](/powershell/exchange/exchange-online-powershell) (PowerShell gebruiken met Exchange Online) en [Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) (Verbinding maken met Exchange Online PowerShell) voor informatie over het gebruik van Exchange PowerShell. U moet een account hebben dat ten minste de rol Exchange servicebeheerder en de mogelijkheid om verbinding te maken met Exchange Online PowerShell. 
   
 ## <a name="turn-clutter-on-using-exchange-powershell"></a>Onbelangrijke e-mail inschakelen bij gebruik van Exchange PowerShell
 
@@ -60,7 +60,7 @@ Als u PowerShell gebruikt om veel gebruikers ineens te maken, dan moet u [Set-Cl
 
 Als beheerder kunt u Onbelangrijke e-mail opnieuw inschakelen met Exchange PowerShell. Wanneer u dit hebt gedaan, wordt Postvak IN met prioriteit uitgeschakeld en is Onbelangrijke e-mail opnieuw actief. 
   
- **Als u de webversie van Outlook gebruikt met een Microsoft 365 Business Premium-abonnement:**
+ **Als u een Outlook op internet gebruikt met een Microsoft 365 Business Premium abonnement:**
   
 - Als een gebruiker momenteel Onbelangrijke e-mail heeft ingeschakeld: 
     
@@ -96,11 +96,8 @@ Als beheerder kunt u Onbelangrijke e-mail opnieuw inschakelen met Exchange Power
     
   - Instellingen voor Onbelangrijke e-mail worden weergegeven
     
-## <a name="related-articles"></a>Verwante artikelen
-<a name="bkmk_onoff"> </a>
+## <a name="related-content"></a>Verwante inhoud
 
-[De functie Onbelangrijke e-mail gebruiken om berichten met een lage prioriteit te sorteren in Outlook](https://support.microsoft.com/office/7b50c5db-7704-4e55-8a1b-dfc7bf1eafa0)
-    
-[Onbelangrijke e-mail gebruiken om berichten met een lage prioriteit te sorteren in OWA](https://support.microsoft.com/office/fe4d64ca-bf73-48f1-91b4-9a659e008bce)
-    
-[Onbelangrijke e-mail uitschakelen in Outlook](https://support.microsoft.com/office/a9c72a77-1bc4-40e6-ba6d-103c1d1aba4c)
+[Onbelangrijke e-mail gebruiken om](https://support.microsoft.com/office/7b50c5db-7704-4e55-8a1b-dfc7bf1eafa0) berichten met een lage prioriteit te sorteren in Outlook (artikel)\
+[Onbelangrijke e-mail gebruiken om](https://support.microsoft.com/office/fe4d64ca-bf73-48f1-91b4-9a659e008bce) berichten met een lage prioriteit te sorteren in OWA (artikel)\
+[Onbelangrijke e-mail uitschakelen in Outlook](https://support.microsoft.com/office/a9c72a77-1bc4-40e6-ba6d-103c1d1aba4c) (artikel)
