@@ -17,12 +17,12 @@ ms.collection:
 description: Beheerders kunnen het antispambeleid in Exchange Online Protection (EOP) bekijken, maken, wijzigen en verwijderen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: fb4ba4f48d6f336444861b4407461efd4c8862d0
-ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
+ms.openlocfilehash: 1ed4b04acd7fec75af4e157837312b824a8d9f98
+ms.sourcegitcommit: a3359982fea01339c7377e3ee89f223788cee0bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52694507"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52696560"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Antispambeleid configureren in EOP
 
@@ -37,14 +37,14 @@ In Microsoft 365-organisaties met postvakken in Exchange Online of standalone EO
 
 Beheerders kunnen het standaardbeleid bekijken, bewerken en configureren (maar niet verwijderen). Voor grotere nauwkeurigheid kunt u ook aangepast antispambeleid maken dat wordt toegepast op specifieke gebruikers, groepen of domeinen binnen uw bedrijf. Aangepast beleid heeft altijd voorrang op het standaardbeleid, maar u kunt de prioriteit (uitvoervolgorde) wijzigen van uw aangepaste beleid.
 
-U kunt antispambeleid configureren in het Beveiligings- en compliancecentrum of in PowerShell (Exchange Online PowerShell voor Microsoft 365-organisaties met postvakken in Exchange Online; standalone EOP PowerShell voor organisaties zonder Exchange Online-postvakken).
+U kunt antispambeleid configureren in het Microsoft 365-beveiligingscentrum of in PowerShell (Exchange Online PowerShell voor Microsoft 365-organisaties met postvakken in Exchange Online; standalone EOP PowerShell voor organisaties zonder Exchange Online-postvakken).
 
 De basiselementen van antispambeleid zijn: 
 
 - **Het spamfilterbeleid**: omschrijft de acties voor spamfilterbeoordelingen en de meldingsopties.
 - **De spamfilterregel**: omschrijft de prioriteits- en geadresseerdenfilters (waarop het beleid van toepassing is) voor spamfilterbeleid.
 
-Het verschil tussen deze twee elementen is niet overduidelijk wanneer u antispambeleid beheert in het Beveiligings- en compliancecentrum:
+Het verschil tussen deze twee elementen is niet overduidelijk wanneer u antispambeleid beheert in het beveiligingscentrum:
 
 - Wanneer u antispambeleid maakt, maakt u in feite tegelijkertijd een spamfilterregel en het bijbehorende spamfilterbeleid met dezelfde naam voor beide.
 - Wanneer u antispambeleid wijzigt, wordt de spamfilterregel gewijzigd door instellingen met betrekking tot de naam, prioriteit, in- of uitgeschakeld en geadresseerdenfilters. Alle andere instellingen wijzigen het bijbehorende spamfilterbeleid.
@@ -62,7 +62,7 @@ Om de effectiviteit van spamfilters te verhogen, kunt u aangepast antispambeleid
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Gebruik <https://protection.office.com/antispam> om direct naar de pagina **Antispaminstellingen** te gaan.
+- U opent het beveiligingscentrum in <https://security.microsoft.com/>. Gebruik <https://security.microsoft.com/antispam> om direct naar de pagina **Antispambeleid** te gaan.
 
 - Zie [Verbinding maken met Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](/powershell/exchange/connect-to-exchange-online-protection-powershell) als je verbinding wilt maken met zelfstandige EOP PowerShell.
 
@@ -79,40 +79,75 @@ Om de effectiviteit van spamfilters te verhogen, kunt u aangepast antispambeleid
 
 - Zie [Instellingen voor antispambeleid in EOP](recommended-settings-for-eop-and-office365.md#eop-anti-spam-policy-settings)voor de aanbevolen instellingen voor antispambeleid.
 
-## <a name="use-the-security--compliance-center-to-create-anti-spam-policies"></a>Het Beveiligings- en compliancecentrum gebruiken om antispambeleid te maken
+## <a name="use-the-security-center-to-create-anti-spam-policies"></a>Het beveiligingscentrum gebruiken om antispambeleid te maken
 
-Wanneer u antispambeleid maakt in het Beveiligings- en compliancecentrum worden tegelijkertijd een spamfilterregel en het bijbehorende spamfilterbeleid gemaakt met dezelfde naam voor beide.
+Wanneer u antispambeleid maakt in het beveiligingscentrum worden tegelijkertijd een spamfilterregel en het bijbehorende spamfilterbeleid gemaakt met dezelfde naam voor beide.
 
-1. Ga in het Beveiligings- en compliancecentrum naar **Risicobeheer** \> **Beleid** \> **Antispam**.
+1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> **Antispam**.
 
-2. Kies op de pagina **Antispaminstellingen** op **Beleid maken**.
+2. Klik op ![Pictogram maken](../../media/m365-cc-sc-create-icon.png) **Beleid maken** en selecteer vervolgens **Binnenkomend** in de vervolgkeuzelijst.
 
-3. Configureer in het deelvenster **Nieuw spamfilterbeleid** dat wordt geopend de volgende instellingen:
-
-   - **Naam**: een unieke beschrijvende naam voor het beleid. U mag de volgende tekens niet gebruiken: `\ % & * + / = ? { } | < > ( ) ; : , [ ] "`.
-
-      Als u eerder al antispambeleid hebt gemaakt in het Exchange-beheercentrum (EAC) dat deze tekens bevat, moet u het antispambeleid in PowerShell hernoemen. Zie de sectie [PowerShell gebruiken om spamfilterregels te wijzigen](#use-powershell-to-modify-spam-filter-rules) later in dit artikel voor instructies.
-
+3. De wizard van het beleid wordt geopend. Configureer de volgende instellingen op de pagina **Uw beleid een naam geven**:
+   - **Naam**: een unieke beschrijvende naam voor het beleid.
    - **Beschrijving**: voer een optionele beschrijving in voor het beleid.
 
-4. (Optioneel) Vouw de sectie **Spam- en bulkbewerkingen** uit en controleer of configureer de volgende instellingen:
+   Wanneer u gereed bent, klikt u op **Volgende**.
 
-   - **Selecteer de actie die moet worden uitgevoerd voor binnenkomende spam en bulk-e-mail**: selecteer of bekijk de actie die moet worden uitgevoerd op berichten op basis van de volgende spamfilterbeoordelingen:
+4. Zoek op de pagina **Gebruikers, groepen en domeinen** die wordt weergegeven, de interne geadresseerden op wie het beleid van toepassing is (voorwaarden voor geadresseerden):
+   - **Gebruikers**: de opgegeven postvakken, e-mailgebruikers or e-mailcontactpersonen binnen uw organisatie.
+   - **Groepen**: de opgegeven distributiegroepen, beveiligingsgroepen met e-mail of Microsoft 365-groepen binnen uw organisatie.
+   - **Domeinen**: alle geadresseerden in de opgegeven [geaccepteerde domeinen](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains) binnen uw organisatie.
 
+   Klik in het juiste vak, begin een waarde te typen en selecteer de gewenste waarde in de resultaten. Herhaal deze stap zo vaak als nodig is. Als u een bestaande waarde wilt verwijderen, klikt u op verwijderen ![Pictogram Verwijderen](../../media/m365-cc-sc-remove-selection-icon.png) naast de waarde.
+
+   Voor gebruikers of groepen kunt u de meeste id's (naam, weergavenaam, alias, e-mailadres, accountnaam, enzovoort) gebruiken, maar de bijbehorende weergavenaam wordt weergegeven in de resultaten. Voer voor gebruikers een enkel sterretje (\*) in om alle beschikbare waarden weer te geven.
+
+   Meerdere waarden in dezelfde voorwaarde: gebruik OF-logica (bijvoorbeeld: _\<recipient1\>_ of _\<recipient2\>_). Verschillende voorwaarden: gebruik EN-logica (bijvoorbeeld: _\<recipient1\>_ en _\<member of group 1\>_).
+
+   - **Deze gebruikers, groepen en domeinen uitsluiten**: als u uitzonderingen wilt toevoegen voor de interne geadresseerden op wie het beleid van toepassing is (uitzonderingen op ontvangers), selecteert u deze optie en configureert u de uitzonderingen. De instellingen en het gedrag zijn exact hetzelfde als bij de voorwaarden.
+
+   Wanneer u gereed bent, klikt u op **Volgende**.
+
+5. Configureer de volgende instellingen op de pagina **Drempelwaarde bulkmail en spameigenschappen**:
+
+   - **Drempelwaarde bulkmail**: hiermee wordt het bulkklachtniveau (BCL) van een bericht aangegeven dat de gespecificeerde actie activeert voor de **Bulk**-spamfilterbeoordeling die u op de volgende pagina configureert (groter dan de opgegeven waarde, niet groter dan of gelijk aan). Een hogere waarde geeft aan dat het bericht minder wenselijk is (grotere kans dat het bericht spam is). De standaardwaarde is 7. Zie [Bulkklachtniveau (BCL) in EOP](bulk-complaint-level-values.md) en [Wat is het verschil tussen ongewenste e-mail en bulk-e-mail?](what-s-the-difference-between-junk-email-and-bulk-email.md) voor meer informatie.
+
+     Standaard is de enige PowerShell-instelling _MarkAsSpamBulkMail_ `On` in antispambeleid. Deze instelling is van grote invloed op de resultaten van een **Bulk**-filterbeoordeling:
+
+     - **_MarkAsSpamBulkMail_ is ingeschakeld**: een BCL dat groter is dan de drempelwaarde wordt geconverteerd naar een SCL 6, wat overeenkomt met een filterbeoordeling van **Spam** en de actie voor de **Bulk**-filterbeoordeling wordt toegepast op het bericht.
+     - **_MarkAsSpamBulkMail_ is uitgeschakeld**: het bericht krijgt het stempel BCL, maar er wordt _geen actie_ uitgevoerd voor een **Bulk**-filterbeoordeling. Het gevolg is dat de BCL-drempelwaarde en de actie voor de **Bulk**-filterbeoordeling niet relevant zijn.
+
+   - **Spamscore verhogen**, **Markeren als spam**<sup>\*</sup> en **Testmodus**: bevat de instellingen voor de geavanceerde spamfilter (ASF) die standaard zijn uitgeschakeld. ASF-instellingen worden afgeschaft en hun functionaliteit wordt opgenomen in andere onderdelen van de filterstack. Het is raadzaam dat u al deze ASF-instellingen uitgeschakeld laat in uw antispambeleid.
+
+     Zie [Geavanceerde instellingen voor spamfilters in EOP](advanced-spam-filtering-asf-options.md) voor meer informatie over deze instellingen.
+
+      <sup>\*</sup> **Bevat specifieke talen** en **uit deze landen** maken geen deel uit van ASF-instellingen.
+
+   - **Bevat specifieke talen**: klik in het vak en selecteer **Aan** of **Uit** in de vervolgkeuzelijst. Als u deze inschakelt, wordt een vak weergegeven. Begin de naam van een taal te typen in het vak. Er wordt een gefilterde lijst met ondersteunde talen weergegeven. Wanneer u de gezochte taal vindt, selecteert u die. Herhaal deze stap zo vaak als nodig is. Als u een bestaande waarde wilt verwijderen, klikt u op ![Pictogram verwijderen](../../media/m365-cc-sc-remove-selection-icon.png) naast de waarde.
+
+   - **Uit deze landen** _: klik in het vak en selecteer_ *Aan** of **Uit** in de vervolgkeuzelijst. Als u deze inschakelt, wordt een vak weergegeven. Begin de naam van een land te typen in het vak. Er wordt een gefilterde lijst met ondersteunde landen weergegeven. Selecteer het land of de regio waarnaar u zocht als het is gevonden. Herhaal deze stap zo vaak als nodig is. Als u een bestaande waarde wilt verwijderen, klikt u op ![Pictogram verwijderen](../../media/m365-cc-sc-remove-selection-icon.png) naast de waarde.
+
+   Wanneer u gereed bent, klikt u op **Volgende**.
+
+6. Configureer de volgende instellingen op de pagina **Acties** die wordt weergegeven:
+
+   - **Berichtacties**: selecteer of bekijk de actie die moet worden uitgevoerd op berichten op basis van de volgende spamfilterbeoordelingen:
      - **Spam**
      - **Hoogstwaarschijnlijk spam**
-     - **Phishing-e-mail**
-     - **Hoogstwaarschijnlijk Phishing-e-mail**
-     - **Bulk-e-mail**
+     - **phishing**
+     - **Phishing met hoge waarschijnlijkheid**
+     - **Bulk**
 
      De beschikbare acties voor spamfilterbeoordelingen worden beschreven in de volgende tabel.
 
-     - Een vinkje ( ![vinkje](../../media/checkmark.png)) geeft aan dat de actie beschikbaar is (niet alle acties zijn beschikbaar voor alle spamfilterbeoordelingen).
+     - Een vinkje ( ![vinkje](../../media/checkmark.png)) geeft aan dat de actie beschikbaar is (niet alle acties zijn beschikbaar voor alle beoordelingen).
      - Een asterisk (<sup>\*</sup>) na het vinkje geeft de standaardactie aan voor de spamfilterbeoordeling. 
+
+     <br>
 
      ****
 
-     |Actie|Spam|Hoog<br>betrouwbaarheid<br>spam|Phishing<br>e-mail|Hoog<br>betrouwbaarheid<br>phishing<br>e-mail|Bulk<br>e-mail|
+     |Actie|Spam|Hoog<br>betrouwbaarheid<br>spam|Phishing|Hoog<br>betrouwbaarheid<br>phishing|Bulk|
      |---|:---:|:---:|:---:|:---:|:---:|
      |**Bericht verplaatsen naar de map Ongewenste e-mail**: het bericht wordt bezorgd in het postvak en verplaatst naar de map Ongewenste e-mail.<sup>1</sup>|![Vinkje](../../media/checkmark.png)<sup>\*</sup>|![Vinkje](../../media/checkmark.png)<sup>\*</sup>|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)<sup>\*</sup>|
      |**X-kop toevoegen**: hiermee wordt een X-kop toegevoegd aan de berichtkop en het bericht bezorgd in het postvak. <p> U voert de veldnaam (niet de waarde) van de X-kop later in het vak **Deze X-koptekst toevoegen** in.  <p> Bij de beoordelingen **Spam** en **Hoogstwaarschijnlijk spam** wordt het bericht verplaatst nar de map Ongewenste e-mail.<sup>1,2</sup>|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)||![Vinkje](../../media/checkmark.png)<sup>\*</sup>|
@@ -129,15 +164,7 @@ Wanneer u antispambeleid maakt in het Beveiligings- en compliancecentrum worden 
      >
      > <sup>2</sup> U kunt deze waarde gebruiken als voorwaarde in e-mailstroomregels om het bericht te filteren of om te leiden.
 
-   - **De drempelwaarde selecteren**: hiermee wordt het bulkklachtniveau (BCL) van een bericht aangegeven dat de gespecificeerde actie activeert voor de **Bulk-e-mail**-spamfilterbeoordeling (groter dan de opgegeven waarde, niet groter dan of gelijk aan). Een hogere waarde geeft aan dat het bericht minder wenselijk is (grotere kans dat het bericht spam is). De standaardwaarde is 7. Zie [Bulkklachtniveau (BCL) in EOP](bulk-complaint-level-values.md) en [Wat is het verschil tussen ongewenste e-mail en bulk-e-mail?](what-s-the-difference-between-junk-email-and-bulk-email.md) voor meer informatie.
-
-     Standaard is de enige PowerShell-instelling _MarkAsSpamBulkMail_ `On` in antispambeleid. Deze instelling is van grote invloed op de resultaten van een **Bulk-e-mail**-filterbeoordeling:
-
-     - **_MarkAsSpamBulkMail_ is ingeschakeld**: een BCL dat groter is dan de drempelwaarde wordt geconverteerd naar een SCL 6, wat overeenkomt met een filterbeoordeling van **Spam** en de actie voor de **Bulk-e-mail**-filterbeoordeling wordt toegepast op het bericht.
-
-     - **_MarkAsSpamBulkMail_ is uitgeschakeld**: het bericht krijgt het stempel BCL, maar er wordt _geen actie_ uitgevoerd voor een **Bulk-e-mail**-filterbeoordeling. Het gevolg is dat de BCL-drempelwaarde en de actie voor de **Bulk-e-mail**-filterbeoordeling niet relevant zijn.
-
-   - **Quarantaine**: geeft aan hoe lang het bericht in quarantaine moet worden gehouden als u de actie **Bericht in quarantaine plaatsen** hebt geselecteerd voor een spamfilterbeoordeling. Na het verlopen van de periode wordt het bericht verwijderd. De standaardwaarde is 30 dagen. Een geldige waarde ligt tussen de 1 en 30 dagen. Zie de volgende artikelen voor meer informatie over quarantaine:
+   - **Spam in quarantaine plaatsen voor zoveel dagen**: geeft aan hoe lang het bericht in quarantaine moet worden gehouden als u de actie **Bericht in quarantaine plaatsen** hebt geselecteerd voor een spamfilterbeoordeling. Na het verlopen van de periode wordt het bericht verwijderd. De standaardwaarde is 30 dagen. Een geldige waarde ligt tussen de 1 en 30 dagen. Zie de volgende artikelen voor meer informatie over quarantaine:
 
      - [Berichten in quarantaine in EOP](quarantine-email-messages.md)
      - [Berichten en bestanden in quarantaine beheren als EOP-beheerder](manage-quarantined-messages-and-files.md)
@@ -155,225 +182,173 @@ Wanneer u antispambeleid maakt in het Beveiligings- en compliancecentrum worden 
 
    - **Bericht naar dit e-mailadres omleiden**: dit vak is alleen vereist en beschikbaar als u de actie **Bericht naar e-mailadres omleiden** hebt geselecteerd voor een spamfilterbeoordeling. Voer het e-mailadres in waarnaar u het bericht wilt verzenden. U kunt meerdere waarden opgeven, gescheiden door puntkomma’s (;).
 
-   - **Veiligheidstips**: standaard staan veiligheidstips ingeschakeld, maar u kunt ze uitschakelen door het selectievakje **Aan** uit te schakelen. Zie [Veiligheidstips in e-mailberichten](safety-tips-in-office-365.md) voor meer informatie over veiligheidstips.
+   - **Veiligheidstips inschakelen**: standaard staan veiligheidstips ingeschakeld, maar u kunt ze uitschakelen door het selectievakje uit te schakelen. Zie [Veiligheidstips in e-mailberichten](safety-tips-in-office-365.md) voor meer informatie over veiligheidstips.
 
-   **Zero-hour auto purge**-instellingen: ZAP detecteert en voert actie uit op berichten die al zijn afgeleverd aan Exchange Online-postvakken. Zie [Zero-hour auto purge - beveiliging tegen ongewenste e-mail en malware](zero-hour-auto-purge.md) voor meer informatie over ZAP.
+   - **Zero-hour auto purge (ZAP) inschakelen**: ZAP detecteert en voert actie uit op berichten die al zijn afgeleverd aan Exchange Online-postvakken. Zie [Zero-hour auto purge - beveiliging tegen ongewenste e-mail en malware](zero-hour-auto-purge.md) voor meer informatie.
 
-   - **Spam ZAP**: ZAP is standaard ingeschakeld voor spamdetectie, maar u kunt het uitschakelen door het selectievakje **Aan** uit te schakelen.
+     ZAP is standaard ingeschakeld. Wanneer ZAP is ingeschakeld, zijn de volgende instellingen beschikbaar:
 
-   - **Phish ZAP**: ZAP is standaard ingeschakeld voor phishingdetectie, maar u kunt het uitschakelen door het selectievakje **Aan** uit te schakelen.
+     - **ZAP inschakelen voor phishingberichten**: ZAP is standaard ingeschakeld voor phishingdetectie, maar u kunt het uitschakelen door het selectievakje uit te schakelen.
+     - **ZAP inschakelen voor spamberichten**: ZAP is standaard ingeschakeld voor spamdetectie, maar u kunt het uitschakelen door het selectievakje uit te schakelen.
 
-5. (Optioneel) Vouw de sectie **Lijsten toestaan** uit om op basis van e-mailadres of e-maildomein afzenders van berichten te configureren die de spamfilters mogen overslaan:
+   - **Spammeldingen voor eindgebruikers inschakelen**: zie de sectie [Spammeldingen voor eindgebruikers configureren](#configure-end-user-spam-notifications) verderop in dit onderwerp voor meer informatie.
 
-   > [!CAUTION]
+   Wanneer u gereed bent, klikt u op **Volgende**.
+
+7. Op de flyout **Lijst toestaan en blokkeren** die wordt weergegeven, kunt u op basis van e-mailadres of e-maildomein afzenders van berichten configureren die de spamfilters mogen overslaan.
+
+   In de sectie **Toegestaan** kunt u toegestane afzenders en toegestane domeinen configureren. In de sectie **Geblokkeerd** kunt u geblokkeerde afzenders en geblokkeerde domeinen toevoegen.
+
+   > [!IMPORTANT]
    >
-   > - Denk goed na voordat u hier domeinen toevoegt. Zie [Lijsten met veilige afzenders maken in EOP](create-safe-sender-lists-in-office-365.md) voor meer informatie.
+   > Denk goed na voordat u domeinen toevoegt aan de lijst met toegestane domeinen. Zie [Lijsten met veilige afzenders maken in EOP](create-safe-sender-lists-in-office-365.md) voor meer informatie.
    >
-   > - Voeg nooit geaccepteerde domeinen (domeinen waarvan u eigenaar bent) of algemene domeinen (bijv.: microsoft.com of office.com) toe aan de lijst met toegestane domeinen. Hiermee kunnen kwaadwillende gebruikers e-mail verzenden die de e-mailspamfilters in uw bedrijf overslaat.
+   > • Voeg nooit uw eigen [geaccepteerde domeinen](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains) of algemene domeinen (bijv.: microsoft.com of office.com) toe aan de lijst met toegestane domeinen. Als het is toegestaan dat deze domeinen spamfilters omzeilen, kunnen kwaadwillende gebruikers eenvoudig e-mails naar uw organisatie verzenden.
+   >
+   > Het is niet gevaarlijk handmatig domeinen te blokkeren door ze aan de lijst met geblokkeerde domeinen toe te voegen, maar het kan de werkbelasting vergroten. Zie [Lijsten met geblokkeerde afzenders maken in EOP](create-block-sender-lists-in-office-365.md) voor meer informatie.
+   >
+   > Er zijn momenten waarop de filters het bericht missen, u het niet eens bent met het filteroordeel of het even duurt voor de systemen helemaal bijgewerkt zijn. In deze gevallen zijn de lijsten Toegestaan en Geblokkeerd beschikbaar om de huidige filterbeoordelingen te overschrijven. Maar u dient dezer lijsten spaarzaam en tijdelijk te gebruiken, omdat lange lijsten onbeheerbaar kunnen worden en de filterstack moet doen waarvoor die is ingesteld. Als u echter een toegestaan domein voor een langere periode behoudt, moet u dat de afzender laten weten om zeker te weten dat het domein is geverifieerd en ingesteld op DMARC als dat niet zo is.
 
-   - **Afzender toelaten**: klik op **Bewerken**. In het deelvenster **Lijst met toegestane afzenders** dat wordt weergegeven:
+   De stappen voor het toevoegen van vermeldingen aan een van de lijsten zijn hetzelfde:
 
-      a. Voert u het e-mailadres van de afzender in. U kunt meerdere e-mailadressen opgeven, gescheiden door puntkomma’s (;).
+   1. Klik op de koppeling voor de lijst die u wilt configureren:
+      - **Toegestane** \> **afzenders**: Klik op **(nn) afzender(s) beheren**.
+      - **Toegestane** \> **domeinen**: Klik op **Domeinen toestaan**.
+      - **Geblokkeerde** \> **afzenders**: Klik op **(nn) afzender(s) beheren**.
+      - **Geblokkeerde** \> **domeinen**: Klik op **Domeinen blokkeren**.
 
-      b. Klikt u op ![Pictogram toevoegen](../../media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) om de afzenders toe te voegen.
+   2. Doe in de flyout die wordt weergegeven, het volgende:
+      1. Klik op ![Pictogram maken](../../media/m365-cc-sc-create-icon.png) **Afzenders toevoegen** of **Domeinen toevoegen**.
+      2. Typ in de flyout **Afzenders toevoegen** of **Domeinen toevoegen** die wordt weergegeven, het e-mailadres van de afzender in het vak **Afzender** of het domein in het vak **Domein**. Terwijl u typt, wordt de waarde onder het vak weergegeven. Wanneer u klaar bent met het typen van het e-mailadres of domein, selecteert u de waarde onder het vak.
+      3. Herhaal deze stap zo vaak als nodig is. Als u een bestaande waarde wilt verwijderen, klikt u op verwijderen ![Pictogram Verwijderen](../../media/m365-cc-sc-remove-selection-icon.png) naast de waarde.
 
-      Herhaal deze stappen zo vaak als nodig is.
+      Wanneer u klaar bent, klikt u op **Afzenders toevoegen** of **Domeinen toevoegen**.
 
-      De afzenders die u hebt toegevoegd worden weergegeven in de sectie **Toegestane afzenders** in het deelvenster. Om een afzender te verwijderen, klikt u op ![Pictogram verwijderen](../../media/scc-remove-icon.png).
+      In de hoofdflyout worden de afzenders of domeinen die u hebt toegevoegd, weergegeven op de pagina. Ga als volgt te werk om een vermelding van deze pagina te verwijderen:
 
-      Klik op **Opslaan** wanneer u gereed bent.
+      1. Selecteer een of meer vermeldingen in de lijst. U kunt ook het **zoekvak** gebruiken om waarden te vinden in de lijst.
+      2. Nadat u ten minste één vermelding hebt geselecteerd, wordt het pictogram verwijderen ![Pictogram Verwijderen](../../media/m365-cc-sc-delete-icon.png) weergegeven.
+      3. Klik op het pictogram verwijderen ![Pictogram Verwijderen](../../media/m365-cc-sc-delete-icon.png) om de geselecteerde vermeldingen te verwijderen.
 
-   - **Domein toelaten**: klik op **Bewerken**. In het deelvenster **Lijst met toegestane domeinen** dat wordt weergegeven:
+      Klik op **Gereed** als u klaar bent.
 
-      a. Voer het domein in. U kunt meerdere domeinen opgeven, gescheiden door puntkomma’s (;).
+      Klik op de pagina **Lijst met toegestaan en geblokkeerd** op **Volgende** wanneer u wordt gevraagd om door te gaan.
 
-      b. Klikt u op ![Pictogram toevoegen](../../media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) om de domeinen toe te voegen.
+8. Controleer uw instellingen op de pagina **Controleren** die wordt weergegeven. U kunt in elke sectie **Bewerken** selecteren om de instellingen in de sectie te wijzigen.
 
-      Herhaal deze stappen zo vaak als nodig is.
+   Klik op **Maken** wanneer u gereed bent.
 
-      De domeinen die u hebt toegevoegd worden weergegeven in de sectie **Toegestane domeinen** in het deelvenster. Om een domein te verwijderen, klikt u op ![Pictogram verwijderen](../../media/scc-remove-icon.png).
+9. Klik op de bevestigingspagina die wordt weergegeven op **Gereed**.
 
-      Klik op **Opslaan** wanneer u gereed bent.
+## <a name="use-the-security-center-to-view-anti-spam-policies"></a>Het beveiligingscentrum gebruiken om antispambeleid te bekijken
 
-6. (Optioneel) Vouw de sectie **Geblokkeerd** uit om op basis van e-mailadres of e-maildomein afzenders van berichten te configureren die altijd worden gemarkeerd als Hoogstwaarschijnlijk spam:
+1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> **Antispam**.
 
-   > [!NOTE]
-   > Het is niet gevaarlijk handmatig domeinen te blokkeren, maar het kan de werkbelasting vergroten Zie [Lijsten met geblokkeerde afzenders maken in EOP](create-block-sender-lists-in-office-365.md) voor meer informatie.
+2. Zoek op de pagina **Antispambeleid** een van de volgende waarden:
+   - De waarde **Type** is **Aangepast antispambeleid**
+   - De waarde **Naam** is **Antispambeleid voor binnenkomende spam (standaard)**
 
-   - **Afzender blokkeren**: klik op **Bewerken**. In het deelvenster **Lijst met geblokkeerde afzenders** dat wordt weergegeven:
+   De volgende eigenschappen worden weergegeven in de lijst met antispambeleidsregels:
 
-      a. Voert u het e-mailadres van de afzender in. U kunt meerdere e-mailadressen opgeven, gescheiden door puntkomma’s (;). Jokertekens (*) worden niet ondersteund.
+   - **Naam**
+   - **Status**
+   - **Prioriteit**
+   - **Type**
 
-      b. Klikt u op ![Pictogram toevoegen](../../media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) om de afzenders toe te voegen.
+3. Wanneer u een antispambeleid selecteert door op de naam te klikken, worden de beleidsinstellingen weergegeven in een flyout.
 
-      Herhaal deze stappen zo vaak als nodig is.
+## <a name="use-the-security-center-to-modify-anti-spam-policies"></a>Het beveiligingscentrum gebruiken om antispambeleid aan te passen
 
-      De afzenders die u hebt toegevoegd worden weergegeven in de sectie **Geblokkeerde afzenders** in het deelvenster. Om een afzender te verwijderen, klikt u op de knop ![Verwijderen](../../media/scc-remove-icon.png).
+1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> **Antispam**.
 
-      Klik op **Opslaan** wanneer u gereed bent.
-
-   - **Domein blokkeren**: klik op **Bewerken**. In het deelvenster **Lijst met geblokkeerde domeinen** dat wordt weergegeven:
-
-      a. Voer het domein in. U kunt meerdere domeinen opgeven, gescheiden door puntkomma’s (;). Jokertekens (*) worden niet toegestaan.
-
-      b. Klikt u op ![Pictogram toevoegen](../../media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) om de domeinen toe te voegen.
-
-      Herhaal deze stappen zo vaak als nodig is.
-
-      De domeinen die u hebt toegevoegd worden weergegeven in de lijst **Geblokkeerde domeinen** in het deelvenster. Om een domein te verwijderen, klikt u op knop ![Verwijderen](../../media/scc-remove-icon.png).
-
-      Klik op **Opslaan** wanneer u gereed bent.
-
-7. (Optioneel) Vouw de sectie **Internationale spam** uit om de e-mailtalen of herkomstlanden te configureren die worden geblokkeerd door spamfilters:
-
-   - **E-mailberichten in de volgende talen filteren**: deze instelling is standaard uitgeschakeld (**Satus: UIT**). Klik op **Bewerken**. Configureer in het deelvenster **Internationale spaminstellingen** dat wordt weergegeven de volgende instellingen:
-
-     - **E-mailberichten in de volgende talen filteren**: selecteer het selectievakje om deze instelling in te schakelen. Schakel het selectievakje uit om deze instelling uit te schakelen.
-
-     - Klik in het vak en begin de *naam* van de taal te typen. Er wordt een gefilterde lijst met ondersteunde talen weergegeven, samen met de bijbehorende ISO 639-2-taalcode. Wanneer u de gezochte taal vindt, selecteert u die. Herhaal deze stap zo vaak als nodig is.
-
-       De lijst met talen die u hebt geselecteerd, verschijnt in het deelvenster. Om een taal te verwijderen, klikt u op ![de knop Verwijderen](../../media/scc-remove-icon.png).
-
-     Klik op **Opslaan** wanneer u gereed bent.
-
-   - **E-mailberichten uit de volgende landen of regio’s filteren**: deze instelling is standaard uitgeschakeld (**Satus: UIT**). Klik op **Bewerken** om de instelling in te schakelen. Configureer in het deelvenster **Internationale spaminstellingen** dat wordt weergegeven de volgende instellingen:
-
-     - **E-mailberichten uit de volgende landen of regio’s filteren**: selecteer het selectievakje om deze instelling in te schakelen. Schakel het selectievakje uit om deze instelling uit te schakelen.
-
-     - Klik in het vak en begin de *naam* van het land of de regio te typen. Er wordt een gefilterde lijst met ondersteunde landen weergegeven, samen met de bijbehorende tweeletterige ISO 3166-1-landcode. Selecteer het land of de regio waarnaar u zocht als het is gevonden. Herhaal deze stap zo vaak als nodig is.
-
-       De lijst met landen die u hebt geselecteerd, verschijnt in het deelvenster. Om een land of regio te verwijderen, klikt u op ![de knop Verwijderen](../../media/scc-remove-icon.png).
-
-     Klik op **Opslaan** wanneer u gereed bent.
-
-8. De optionele sectie **Spameigenschappen** bevat ASF-instellingen (geavanceerde instellingen voor spamfilters) die standaard zijn uitgeschakeld. ASF-instellingen worden afgeschaft en hun functionaliteit wordt opgenomen in andere onderdelen van de filterstack. Het is raadzaam dat u al deze ASF-instellingen uitgeschakeld laat in uw antispambeleid.
-
-   Zie [Geavanceerde instellingen voor spamfilters in EOP](advanced-spam-filtering-asf-options.md) voor meer informatie over deze instellingen.
-
-9. (Verplicht) Vouw de sectie **Toegepast op** uit om de interne geadresseerden te bepalen op wie het beleid van toepassing is.
-
-    U kunt een voorwaarde of uitzondering maar één keer gebruiken, maar u kunt meerdere waarden opgeven voor de voorwaarde of uitzondering. Meerdere waarden van dezelfde voorwaarde of uitzondering: gebruik OF-logica (bijvoorbeeld: _\<recipient1\>_ of _\<recipient2\>_). Verschillende voorwaarden of uitzonderingen: gebruik EN-logica (bijvoorbeeld: _\<recipient1\>_ en _\<member of group 1\>_).
-
-    Het eenvoudigste is drie keer te klikken op **Een voorwaarde toevoegen** om alle beschikbare voorwaarden weer te geven. U kunt op de ![knop Verwijderen](../../media/scc-remove-icon.png) klikken om voorwaarden te verwijderen die u niet wilt configureren.
-
-    - **Het domein van de geadresseerde is**: specificeert geadresseerden in een of meer van de geconfigureerde domeinen in uw organisatie. Klik in het vak **Een tag toevoegen** om een domein weer te geven en te selecteren. Klik opnieuw op het vak **Een tag toevoegen** om aanvullende domeinen te selecteren als er meer dan één domein beschikbaar is.
-
-    - **Geadresseerde is**: specificeert een of meer postvakken, e-mailgebruikers or e-mailcontactpersonen binnen uw bedrijf. Klik in het vak **Tag toevoegen** en begin te typen om de lijst te filteren. Klik opnieuw op het vak **Tag toevoegen** om aanvullende geadresseerden te selecteren.
-
-    - **Geadresseerde is een lid van**: specificeert een of meer groepen in uw bedrijf. Klik in het vak **Tag toevoegen** en begin te typen om de lijst te filteren. Klik opnieuw op het vak **Tag toevoegen** om aanvullende geadresseerden te selecteren.
-
-    - **Behalve als**: om uitzonderingen op de regel toe te voegen, klikt u drie keer op **Een voorwaarde toevoegen** om alle beschikbare uitzonderingen weer te geven. De instellingen en het gedrag zijn exact hetzelfde als bij de voorwaarden.
-
-10. Klik op **Opslaan** wanneer u gereed bent.
-
-## <a name="use-the-security--compliance-center-to-view-anti-spam-policies"></a>Het Beveiligings- en compliancecentrum gebruiken om antispambeleid weer te geven
-
-1. Ga in het Beveiligings- en compliancecentrum naar **Risicobeheer** \> **Beleid** \> **Antispam**.
-
-2. Klik op de pagina **Antispaminstellingen** op ![Pictogram uitvouwen](../../media/scc-expand-icon.png) om antispambeleid uit te vouwen:
-
-   - Het standaardbeleid met de naam **Standaardbeleid voor spamfilters**.
-
+2. Selecteer op de pagina **Antispambeleid** een antispambeleid in de lijst door op de naam te klikken:
    - Aangepast beleid dat u hebt gemaakt, waarvan de waarde in de kolom **Type**, **Aangepast antispambeleid** is.
+   - Het standaardbeleid met de naam **Antispambeleid voor binnenkomende spam (standaard)**.
 
-3. De belangrijke beleidsinstellingen worden weergegeven in de uitgebreide beleidsgegevens. Klik op **Beleid bewerken** voor meer gegevens.
+3. U kunt in de flyout met beleidsdetails in elke sectie de optie **Bewerken** selecteren om de instellingen in de sectie te wijzigen. Zie de vorige sectie in dit artikel over [Het beveiligingscentrum gebruiken om antispambeleid te maken](#use-the-security-center-to-create-anti-spam-policies) voor meer informatie over de instellingen.
 
-## <a name="use-the-security--compliance-center-to-modify-anti-spam-policies"></a>Het Beveiligings- en compliancecentrum gebruiken om antispambeleid te wijzigen
-
-1. Ga in het Beveiligings- en compliancecentrum naar **Risicobeheer** \> **Beleid** \> **Antispam**.
-
-2. Klik op de pagina **Antispaminstellingen** op ![Pictogram uitvouwen](../../media/scc-expand-icon.png) om antispambeleid uit te vouwen:
-
-   - Het standaardbeleid met de naam **Standaardbeleid voor spamfilters**.
-
-   - Aangepast beleid dat u hebt gemaakt, waarvan de waarde in de kolom **Type**, **Aangepast antispambeleid** is.
-
-3. Klik op **Beleid bewerken**.
-
-De beschikbare instellingen in het deelvenster zijn voor aangepast antispambeleid hetzelfde als die zijn beschreven in de sectie [Het Beveiligings- en compliancecentrum gebruiken om antispambeleid te maken](#use-the-security--compliance-center-to-create-anti-spam-policies).
-
-Voor het standaardantispambeleid met de naam **Standaardbeleid voor spamfilters** is de sectie **Toegepast op** niet beschikbaar (het beleid is op iedereen van toepassing) en u kunt de naam van het beleid niet wijzigen.
+   Voor het standaardantispambeleid is de sectie **Toegepast op** niet beschikbaar (het beleid is op iedereen van toepassing) en u kunt de naam van het beleid niet wijzigen.
 
 Zie de volgende secties om beleid in- of uit te schakelen, de prioriteit van beleid te wijzigen of de quarantaine-meldingen van eindgebruiker configureren.
 
 ### <a name="enable-or-disable-anti-spam-policies"></a>Antispambeleid in- of uitschakelen
 
-1. Ga in het Beveiligings- en compliancecentrum naar **Risicobeheer** \> **Beleid** \> **Antispam**.
-
-2. Klik in de pagina **Antispaminstellingen** op ![Pictogram uitvouwen](../../media/scc-expand-icon.png) om aangepast beleid uit te vouwen dat u hebt gemaakt (de waarde in de kolom **Type** is **Aangepast antispambeleid**).
-
-3. Let op de waarde in de kolom **Aan** in de uitgebreide beleidsgegevens die worden weergegeven.
-
-   Verplaats te wisselknop naar links om het beleid uit te schakelen: ![Uitschakelen](../../media/scc-toggle-off.png)
-
-   Verplaats te wisselknop naar rechts om het beleid in te schakelen: ![Inschakelen](../../media/scc-toggle-on.png)
-
 U kunt het standaardantispambeleid niet uitschakelen.
+
+1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> **Antispam**.
+
+2. Selecteer op de pagina **Antispambeleid** een beleid met de **Waarde type** van **Aangepast antispambeleid** uit de lijst door op de naam de klikken.
+
+3. Boven aan de flyout met beleidsdetails die wordt weergegeven, ziet u een van de volgende waarden:
+   - **Beleid uitgeschakeld**: als u het beleid wilt inschakelen, klikt u op ![Pictogram inschakelen](../../media/m365-cc-sc-turn-on-off-icon.png) **Inschakelen** .
+   - **Beleid ingeschakeld**: als u het beleid wilt uitschakelen, klikt u op ![Pictogram uitschakelen](../../media/m365-cc-sc-turn-on-off-icon.png) **Uitschakelen**.
+
+4. Klik in het bevestigingsvenster dat wordt weergegeven op **Inschakelen** of **Uitschakelen**.
+
+5. Klik in de flyout met beleidsdetails op **Sluiten**.
+
+Op de hoofdbeleidspagina wordt de waarde **Status** van het beleid weergegeven als **Ingeschakeld** of **Uitgeschakeld**.
 
 ### <a name="set-the-priority-of-custom-anti-spam-policies"></a>De prioriteit instellen voor aangepast antispambeleid
 
 Standaard krijgt antispambeleid een prioriteit op basis van de volgorde waarin het is gemaakt (nieuwer beleid heeft een hogere prioriteit dan ouder beleid). Een lager prioriteitsnummer geeft een hogere prioriteit aan voor het beleid (0 is de hoogste) en beleid word verwerkt in prioriteitsvolgorde (beleid met hogere prioriteit wordt verwerkt voor beleid met lagere prioriteit). Twee beleidsregels kunnen niet dezelfde prioriteit hebben en de verwerking van het beleid stopt nadat het eerste beleid is toegepast.
 
-Voor meer informatie over de prioriteitvolgorde en het evalueren en toepassen van een beleid, raadpleegt u [volgorde en prioriteit van e-mailbeveiliging](how-policies-and-protections-are-combined.md).
+Als u de prioriteit van een beleid wilt wijzigen, klikt u op **Prioriteit verhogen** of **Prioriteit verlagen** in de eigenschappen van het beleid (u kunt het **Prioriteitsnummer** niet rechtstreeks wijzigen in het beveiligingscentrum). Het wijzigen van de prioriteit van een beleid is alleen zinvol als u meerdere beleidsregels hebt.
 
-Aangepast antispambeleid wordt weergegeven in de volgorde waarin het wordt verwerkt (het eerste beleid heeft de **Prioriteit** swaarde 0). Het standaardantispambeleid met de naam **Standaardbeleid voor spamfilters** heeft de prioriteitswaarde **Laagste** en dat kunt u niet wijzigen.
+ **Opmerkingen**:
 
- **Opmerking**: In het Beveiligings- en compliancecentrum kunt u alleen de prioriteit wijzigen van het antispambeleid nadat u het hebt gemaakt. In PowerShell kunt u de standaardprioriteit vervangen wanneer u de spamfilterbeleidsregel maakt (die kan de prioriteit van bestaande regels beïnvloeden).
+- In het beveiligingscentrum kunt u alleen de prioriteit wijzigen van het antispambeleid nadat u het hebt gemaakt. In PowerShell kunt u de standaardprioriteit vervangen wanneer u de spamfilterbeleidsregel maakt (die kan de prioriteit van bestaande regels beïnvloeden).
+- Antispambeleid wordt verwerkt in de volgorde waarin het wordt weergegeven (het eerste beleid heeft de **Prioriteitswaarde** 0). Het standaardantispambeleid heeft de prioriteitswaarde **Laagste** en dat kunt u niet wijzigen.
 
-Om de prioriteit van beleid te wijzigen, kunt u het beleid naar boven of beneden verplaatsen in de lijst (u kunt het **Prioriteit** snummer in het Beveiligings en compliancecentrum niet rechtstreeks wijzigen).
+1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> **Antispam**.
 
-1. Ga in het Beveiligings- en compliancecentrum naar **Risicobeheer** \> **Beleid** \> **Antispam**.
+2. Selecteer op de pagina **Antispambeleid** een beleid met de **Waarde type** van **Aangepast antispambeleid** uit de lijst door op de naam de klikken.
 
-2. Zoek in de pagina **Antispaminstellingen** het beleid waarvan de waarde in de kolom **Type**, **Aangepast antispambeleid** is. Let op de waarden in de kolom **Prioriteit**:
+3. Boven aan de flyout met beleidsgegevens die wordt weergegeven, ziet u **Prioriteit verhogen** of **Prioriteit verlagen** op basis van de huidige prioriteitswaarde en het aantal aangepaste beleidsregels:
+   - Voor het antispambeleid met de **Prioriteitswaarde** **0** is alleen de optie **Prioriteit verlagen** beschikbaar.
+   - Voor het antispambeleid met de laagste **Prioriteitswaarde** (bijvoorbeeld **3**) is alleen de optie **Prioriteit verhogen** beschikbaar.
+   - Als u drie of meer antispambeleidsregels hebt, zijn bij beleidsregels tussen de hoogste en laagste prioriteitswaarden zowel de optie **Prioriteit verhogen** als **Prioriteit verlagen** beschikbaar.
 
-   - Het aangepaste antispambeleid met de hoogste prioriteit heeft de waarde ![Pictogram pijl-omlaag](../../media/ITPro-EAC-DownArrowIcon.png) **0**.
+   Klik op het ![pictogram Prioriteit verhogen](../../media/m365-cc-sc-increase-icon.png) **Prioriteit verhogen** of ![Pictogram Prioriteit verlagen](../../media/m365-cc-sc-decrease-icon.png) **Prioriteit verlagen** om de **Prioriteitswaarde** te wijzigen.
 
-   - Het aangepaste antispambeleid met de laagste prioriteit heeft de waarde ![Pictogram pijl-omhoog](../../media/ITPro-EAC-UpArrowIcon.png) **n** (bijv.: ![Pictogram pijl-omhoog](../../media/ITPro-EAC-UpArrowIcon.png) **3**).
-
-   - Als u drie of meer aangepaste antispambeleidsregels hebt, hebben de regels tussen de hoogste en laagste prioriteit de waarden ![Pictogram pijl-omhoog](../../media/ITPro-EAC-UpArrowIcon.png)![Pictogram pijl-omlaag](../../media/ITPro-EAC-DownArrowIcon.png) **n** (bijv.: ![Pictogram pijl-omhoog](../../media/ITPro-EAC-UpArrowIcon.png)![Pictogram pijl-omlaag](../../media/ITPro-EAC-DownArrowIcon.png) **2**).
-
-3. Klik op ![het pictogram pijl-omhoog](../../media/ITPro-EAC-UpArrowIcon.png) of ![het pictogram pijl-omlaag](../../media/ITPro-EAC-DownArrowIcon.png) om het aangepaste antispambeleid omhoog of omlaag te verplaatsen in de prioriteitslijst.
+4. Wanneer u klaar bent, klikt u in de flyout met beleidsdetails op **Sluiten**.
 
 ### <a name="configure-end-user-spam-notifications"></a>Spammeldingen voor eindgebruikers configureren
 
 Wanneer in een spamfilterbeoordeling een bericht in quarantaine wordt geplaatst, kunt u spammeldingen voor eindgebruikers configureren om geadresseerden te laten weten wat er is gebeurd met berichten die naar hen zijn verzonden. Zie [Spammeldingen voor eindgebruikers in EOP](use-spam-notifications-to-release-and-report-quarantined-messages.md) voor meer informatie over deze meldingen.
 
-1. Ga in het Beveiligings- en compliancecentrum naar **Risicobeheer** \> **Beleid** \> **Antispam**.
+1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> **Antispam**.
 
-2. Klik op de pagina **Antispaminstellingen** op ![Pictogram uitvouwen](../../media/scc-expand-icon.png) om antispambeleid uit te vouwen:
-
-   - Het standaardbeleid met de naam **Standaardbeleid voor spamfilters**.
-
+2. Selecteer op de pagina **Antispambeleidsregels** een antispambeleid in de lijst door op de naam te klikken:
    - Aangepast beleid dat u hebt gemaakt, waarvan de waarde in de kolom **Type**, **Aangepast antispambeleid** is.
+   - Het standaardbeleid met de naam **Antispambeleid voor binnenkomende spam (standaard)**.
 
-3. Klik op **Spammeldingen voor eindgebruikers configureren** in de uitgebreide beleidsgegevens die worden weergegeven.
+3. Klik in de flyout met beleidsgegevens die wordt weergegeven op **Bewerken** in de sectie **Acties**. Configureer de volgende instellingen op de flyout **Acties** die wordt weergegeven:
 
-4. Configureer de volgende instellingen in het dialoogvenster **\<Policy Name\>** dat wordt geopend:
+   - **Spammeldingen voor eindgebruikers inschakelen**: selecteer het selectievakje om meldingen in te schakelen of deselecteer het selectievakje om meldingen uit te schakelen. Wanneer u het selectievakje selecteert, worden de volgende aanvullende instellingen weergegeven:
 
-   - **Spammeldingen voor eindgebruikers inschakelen**: vink het selectievakje aan om meldingen in te schakelen. Schakel het selectievakje uit om meldingen uit te schakelen.
+     - **Iedere (dagen) spammeldingen voor eindgebruikers verzenden**: selecteer hoe vaak meldingen worden verzonden. De standaardwaarde is 3 dagen. U kunt 1 tot 15 dagen opgeven.
 
-   - **Iedere (dagen) spammeldingen voor eindgebruikers verzenden**: selecteer hoe vaak meldingen worden verzonden. De standaardwaarde is 3 dagen. U kunt 1 tot 15 dagen opgeven.
+       Er zijn drie cycli van spammeldingen voor eindgebruikers binnen een periode van 24 uur die beginnen op de volgende tijden: 01:00 UTC, 08:00 UTC en 16:00 UTC.
 
-     Er zijn drie cycli van spammeldingen voor eindgebruikers binnen een periode van 24 uur die beginnen op de volgende tijden: 01:00 UTC, 08:00 UTC en 16:00 UTC.
+       > [!NOTE]
+       > Als we tijdens een vorige cyclus een melding hebben gemist, wordt in de volgende cyclus de melding gepusht. Dit geeft mogelijk de indruk van meerdere meldingen op dezelfde dag.
 
-     > [!NOTE]
-     > Als we tijdens een vorige cyclus een melding hebben gemist, wordt in de volgende cyclus de melding gepusht. Dit geeft de indruk van meerdere meldingen op dezelfde dag.
-
-   - **Taal van meldingen**: klik op de vervolgkeuzelijst en selecteer een beschikbare taal in de lijst. De standaardwaarde is **Standaard**, dat wil zeggen Engels.
+     - **Taal**: klik op de vervolgkeuzelijst en selecteer een beschikbare taal in de lijst. De standaardwaarde is **Standaard**, dat wil zeggen Engels.
 
    Klik op **Opslaan** wanneer u gereed bent.
 
-## <a name="use-the-security--compliance-center-to-remove-anti-spam-policies"></a>Het Beveiligings- en compliancecentrum gebruiken om antispambeleid te verplaatsen
+4. Klik in de flyout met beleidsdetails weer op **Sluiten**.
 
-1. Ga in het Beveiligings- en compliancecentrum naar **Risicobeheer** \> **Beleid** \> **Antispam**.
+## <a name="use-the-security-center-to-remove-anti-spam-policies"></a>Het beveiligingscentrum gebruiken om antispambeleid te verwijderen
 
-2. Klik in de pagina **Antispaminstellingen** op ![Pictogram uitvouwen](../../media/scc-expand-icon.png) om het aangepaste beleid uit te vouwen dat u wilt verwijderen (de waarde in de kolom **Type** is **Aangepast antispambeleid**).
+Wanneer u het beveiligingscentrum gebruikt om een antispambeleid te verwijderen, worden de spamfilterregel en het bijbehorende spamfilterbeleid beide verwijderd. U kunt het standaardbeleid niet verwijderen.
 
-3. Klik in de uitgebreide beleidsgegevens op **Beleid verwijderen**.
+1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> **Antispam**.
 
-4. Klik op **Ja** in het waarschuwingsvenster dat wordt weergegeven.
+2. Selecteer op de pagina **Antispambeleid** een beleid met de **Waarde type** van **Aangepast antispambeleid** uit de lijst door op de naam de klikken. Klik boven aan de flyout met beleidsdetails die wordt weergegeven, op het ![pictogram Meer acties](../../media/m365-cc-sc-more-actions-icon.png) **Meer acties** \> ![Pictogram Beleid verwijderen](../../media/m365-cc-sc-delete-icon.png) **Beleid verwijderen**.
 
-U kunt het standaardbeleid niet verwijderen.
+3. Klik in het bevestigingsvenster dat wordt weergegeven op **Ja**.
 
 ## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-anti-spam-policies"></a>Exchange Online PowerShell of standalone EOP PowerShell gebruiken om antispambeleid te configureren
 
@@ -387,12 +362,10 @@ In Exchange Online PowerShell of standalone EOP PowerShell is het verschil tusse
 
 De volgende antispambeleidsinstellingen zijn alleen beschikbaar in PowerShell:
 
-- De parameter _MarkAsSpamBulkMail_, die standaard `On` is. De gevolgen van deze instelling zijn eerder in dit artikel uitgelegd in de sectie [Het Beveiligings- en compliancecentrum gebruiken om antispambeleid te maken](#use-the-security--compliance-center-to-create-anti-spam-policies).
+- De parameter _MarkAsSpamBulkMail_, die standaard `On` is. De gevolgen van deze instelling zijn eerder in dit artikel uitgelegd in de sectie [Het beveiligingscentrum gebruiken om antispambeleid te maken](#use-the-security-center-to-create-anti-spam-policies).
 
 - De volgende instellingen voor quarantainemeldingen voor eindgebruikers:
-
   - De parameter _DownloadLink_ toont of verbergt de koppeling naar het rapportagehulpmiddel voor ongewenste e-mail voor Outlook.
-
   - De parameter _EndUserSpamNotificationCustomSubject_ die u kunt gebruiken om de onderwerpregel van de melding aan te passen.
 
 ### <a name="use-powershell-to-create-anti-spam-policies"></a>PowerShell gebruiken om antispambeleid te maken
@@ -406,12 +379,12 @@ Antispambeleid maken in PowerShell bestaat uit twee stappen:
 
 - U kunt een nieuwe spamfilterbeleidsregel maken en een bestaand, niet-gekoppeld spamfilterbeleid eraan toewijzen. Een spamfilterbeleidsregel kan niet worden gekoppeld aan meer dan één spamfilterbeleid.
 
-- U kunt de volgende instellingen voor nieuw spamfilterbeleid configureren in PowerShell die niet beschikbaar zijn in het Beveiligings- en compliancecentrum tot nadat u het beleid hebt gemaakt:
+- U kunt de volgende instellingen voor nieuw spamfilterbeleid configureren in PowerShell die niet beschikbaar zijn in het beveiligingscentrum tot nadat u het beleid hebt gemaakt:
 
   - Schakel het nieuwe beleid uit (_Ingeschakeld_ `$false` in het cmdlet **New-HostedContentFilterRule**).
   - Stel de prioriteit van het beleid in tijdens het maken (_Prioriteit_ _\<Number\>_) in de cmdlet **New-HostedContentFilterRule**).
 
-- Nieuw spamfilterbeleid dat u maakt in PowerShell is niet zichtbaar in het Beveiligings- en compliancecentrum totdat u het beleid toewijst aan een spamfilterregel.
+- Nieuw spamfilterbeleid dat u maakt in PowerShell is niet zichtbaar in het beveiligingscentrum totdat u het beleid toewijst aan een spamfilterregel.
 
 #### <a name="step-1-use-powershell-to-create-a-spam-filter-policy"></a>Stap 1: PowerShell gebruiken om spamfilterbeleid te maken
 
@@ -424,15 +397,11 @@ New-HostedContentFilterPolicy -Name "<PolicyName>" [-AdminDisplayName "<Comments
 Dit voorbeeld maakt spamfilterbeleid met de naam Contoso Executives met de volgende instellingen:
 
 - Quarantainemeldingen wanneer de spamfilterbeoordeling Spam of Hoogstwaarschijnlijk spam is.
-
-- BCL 6 activeert de actie voor een bulk-e-mail-spamfilterbeoordeling.
+- BCL 7, 8 of 9 activeert de actie voor een bulk-e-mail-spamfilterbeoordeling.
 
 ```PowerShell
 New-HostedContentFilterPolicy -Name "Contoso Executives" -HighConfidenceSpamAction Quarantine -SpamAction Quarantine -BulkThreshold 6
 ```
-
-> [!NOTE]
-> **New-HostedContentFilterPolicy** en **Set-HostedContentFilterPolicy** bevatten een oudere parameter _ZapEnabled_ en nieuwere parameters _PhishZapEnabled_ en _SpamZapEnabled_. De parameter _ZapEnabled_ is in februari 2020 afgeschaft. The parameters _PhishZapEnabled_ en _SpamZapEnabled_ namen hun waarden over van de parameter _ZapEnabled_. Maar als u de parameters _PhishZapEnabled_ en _SpamZapEnabled_ gebruikt in een opdracht of de instelling **Spam ZAP** of **Phish ZAP** in het antispambeleid in het Beveiligings- en compliancecentrum, wordt de waarde van de parameter _ZapEnabled_ genegeerd. Met andere woorden, gebruik de parameter _ZapEnabled_ niet, maar gebruik hiervoor in de plaats de parameters _PhishZapEnabled_ en _SpamZapEnabled_.
 
 Zie [New-HostedContentFilterPolicy](/powershell/module/exchange/new-hostedcontentfilterpolicy) voor gedetailleerde syntaxis- en parameterinformatie.
 
@@ -447,7 +416,6 @@ New-HostedContentFilterRule -Name "<RuleName>" -HostedContentFilterPolicy "<Poli
 Dit voorbeeld maakt een nieuwe spamfilterregel met de naam Contoso Executives met de volgende instellingen:
 
 - Het spamfilterbeleid met de naam Contoso Executives wordt gekoppeld aan de regel.
-
 - De regel is van toepassing op leden van de groep met de naam Contoso Executives Group.
 
 ```PowerShell
@@ -521,8 +489,7 @@ Zie [Get-HostedContentFilterRule](/powershell/module/exchange/get-hostedcontentf
 Voor het wijzigen van spamfilterbeleid in PowerShell zijn, behalve voor de volgende items, dezelfde instellingen beschikbaar als bij het maken van het beleid zoals eerder in dit artikel beschreven in de sectie [Stap 1: PowerShell gebruiken om spamfilterbeleid te maken](#step-1-use-powershell-to-create-a-spam-filter-policy).
 
 - De schakeloptie _MakeDefault_ die het specifieke beleid wijzigt in het standaardbeleid (toegepast op iedereen, altijd **Laagste** prioriteit en kan niet worden verwijderd) is alleen beschikbaar wanneer u spamfilterbeleid wijzigt in PowerShell.
-
-- U kunt de naam van het spamfilterbeleid niet wijzigen (het cmdlet **Set-HostedContentFilterPolicy** heeft geen parameter _Naam_). Wanneer u de naam van antispambeleid in het Beveiligings- en compliancecentrum wijzigt, wijzigt u alleen de naam van de spamfilter _regel_.
+- U kunt de naam van het spamfilterbeleid niet wijzigen (het cmdlet **Set-HostedContentFilterPolicy** heeft geen parameter _Naam_). Wanneer u de naam van antispambeleid in het beveiligingscentrum wijzigt, wijzigt u alleen de naam van de spamfilter _regel_.
 
 Gebruik de volgende syntaxis om spamfilterbeleid te wijzigen:
 
@@ -544,7 +511,7 @@ Gebruik de volgende syntaxis om een spamfilterregel te wijzigen:
 Set-HostedContentFilterRule -Identity "<RuleName>" <Settings>
 ```
 
-In dit voorbeeld wordt de naam veranderd van de bestaande spamfilterregel met de naam `{Fabrikam Spam Filter}` die problemen kan veroorzaken in het Beveiligings- en compliancecentrum.
+In dit voorbeeld wordt de naam van de bestaande spamfilterregel gewijzigd naar `{Fabrikam Spam Filter}`.
 
 ```powershell
 Set-HostedContentFilterRule -Identity "{Fabrikam Spam Filter}" -Name "Fabrikam Spam Filter"
@@ -595,7 +562,6 @@ Set-HostedContentFilterRule -Identity "Marketing Department" -Priority 2
 **Opmerkingen**:
 
 - Als u de prioriteit wilt instellen van een nieuwe regel wanneer u deze maakt, gebruikt u in plaats daarvan de parameter _Prioriteit_ in het cmdlet **New-HostedContentFilterRule**.
-
 - Het standaardbeleid heeft geen bijbehorende spamfilterregel en heeft altijd de waarde **Laagste** die niet kan worden gewijzigd.
 
 ### <a name="use-powershell-to-remove-spam-filter-policies"></a>PowerShell gebruiken om spamfilterbeleid te verwijderen
@@ -639,7 +605,7 @@ Zie [Remove-HostedContentFilterRule](/powershell/module/exchange/remove-hostedco
 ### <a name="send-a-gtube-message-to-test-your-spam-policy-settings"></a>Een GTUBE-bericht zenden om de instellingen van uw spambeleid te testen
 
 > [!NOTE]
-> Deze stappen werken alleen als het e-mailbedrijf waarvandaan u het GTUBE-bericht stuurt, niet scant op uitgaande spam. Als dit wel het geval is, kan het testbericht niet worden verzonden.
+> Deze stappen werken alleen als het e-mailbedrijf waarvandaan u het GTUBE-bericht stuurt, niet scant op uitgaande spam. Als dit wel het geval is, kunt u het testbericht niet verzenden.
 
 GTUBE (Generic Test for Unsolicited Bulk Email) is een tekenreeks die u opneemt in een testbericht om de antispaminstellingen van uw bedrijf te verifiëren. Een GTUBE-bericht is vergelijkbaar met het EICAR-tekstbestand (European Institute for Computer Antivirus Research) voor het testen van malware-instellingen.
 
@@ -648,10 +614,3 @@ Neem de volgende GTUBE-tekst op in een e-mailbericht op één regel zonder spati
 ```text
 XJS*C4JDBQADN1.NSBN3*2IDNEN*GTUBE-STANDARD-ANTI-UBE-TEST-EMAIL*C.34X
 ```
-
-## <a name="allowblock-lists"></a>Lijsten toestaan/blokkeren
-
-Er zijn momenten waarop de filters het bericht missen of het duurt even voor de systemen helemaal bijgewerkt zijn. In die gevallen heeft het antispambeleid een lijst Toestaan en een lijst Blokkeren beschikbaar om de huidige beoordeling te negeren. Deze optie moet spaarzaam en tijdelijk worden gebruikt, omdat de lijsten onbeheerbaar kunnen worden, omdat de filterstack moet doen waarvoor die is ingesteld.
-
-> [!TIP]
-> Er kunnen situaties zijn waar uw bedrijf het niet eens is met de beoordeling die de service aflevert. In dat geval wilt u mogelijk de lijsten Toestaan en Blokkeren permanent behouden. Als u echter een domein voor een langere periode op de lijst Toestaan plaatst, moet u dat de afzender laten weten om zeker te weten dat het domein is geverifieerd en instellen op DMARC als dat niet zo is.
