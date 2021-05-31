@@ -1,8 +1,9 @@
 ---
-title: Uitlegtypen
-ms.author: efrene
-author: efrene
+title: Uitlegtypen in Microsoft SharePoint Syntex
+ms.author: chucked
+author: chuckedmonson
 manager: pamgreen
+ms.reviewer: ssquires
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -11,39 +12,41 @@ ms.collection:
 - enabler-strategic
 - m365initiative-syntex
 localization_priority: Priority
-description: Meer informatie over uitlegtypen in Microsoft SharePoint Syntex
-ms.openlocfilehash: a5404230a59d1740a2b855527229a7aca92195a8
-ms.sourcegitcommit: dc1ac43a57fac6f57438859dd668f927d94fdf34
+description: Meer informatie over uitlegtypen in Microsoft SharePoint Syntex.
+ms.openlocfilehash: 515fd8af289ec7c64e14eb6d54b236ba3a8aa9f6
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51604403"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706559"
 ---
-# <a name="introduction-to-explanation-types"></a>Inleiding tot uitlegtypen
+# <a name="explanation-types-in-microsoft-sharepoint-syntex"></a>Uitlegtypen in Microsoft SharePoint Syntex
 
-Uitleg wordt gebruikt om de gegevens te definiëren die je wilt labelen en ophalen in je documentinformatie over modellen in Microsoft SharePoint Syntex. Bij het maken van een uitleg moet je een uitlegtype selecteren. In dit artikel vind je meer informatie over de verschillende uitlegtypen en hoe je deze kunt gebruiken. 
+Uitleg wordt gebruikt om de gegevens te definiëren die je wilt labelen en ophalen in je documentinformatie over modellen in Microsoft SharePoint Syntex. Bij het maken van een uitleg moet je een uitlegtype selecteren. In dit artikel vind je meer informatie over de verschillende uitlegtypen en hoe je deze kunt gebruiken.
 
-![Uitlegtypen](../media/content-understanding/explanation-types.png) 
+![Schermafbeelding van het deelvenster Een uitleg maken met de drie typen uitleg.](../media/content-understanding/explanation-types.png) 
    
 Deze uitlegtypen zijn beschikbaar:
 
-- **Frasenlijst**: Lijst met woorden, woordgroepen, getallen of andere tekens die je kunt gebruiken in het document of de gegevens die je wilt ophalen. De tekenreeks **Verwijzen naar Doctor** wordt bijvoorbeeld gebruikt in medische verwijsdocumenten die je identificeert. Of het **telefoonnummer** van de verwijzende arts uit medische verwijzingsdocumenten die u identificeert.
+- [**Patroonlijst**](#phrase-list): lijst met woorden, woordgroepen, cijfers of andere tekens die u kunt gebruiken in het document of de informatie die u uit het document haalt. De tekststring *verwijzende arts* staat bijvoorbeeld in alle medische verwijzingsdocumenten die u identificeert. Of het *telefoonnummer* van de verwijzende arts uit alle medische verwijzingsdocumenten die u identificeert.
 
-- **Nabijheid**: in dit artikel wordt beschreven hoe dicht toelichtingen bij elkaar liggen. Een lijst met *straatnummers* staat bijvoorbeeld vlak voor de lijst met *straatnamen*, zonder tokens ertussen (verderop in dit artikel vindt u meer informatie over tokens). Voor het type proximity moet je ten minste twee uitleggen in je model hebben, of de optie wordt uitgeschakeld. 
- 
+- [**Reguliere expressie**](#regular-expression): in een reguliere expressie wordt een notatie gebruikt om patronen te matchen en zo specifieke tekenpatronen te vinden. U kunt bijvoorbeeld een reguliere expressie gebruiken om alle instanties van een *e-mailadres* patroon in een verzameling documenten te zoeken.
+
+- [**Nabijheid**](#proximity): beschrijft hoe nauw de verklaringen bij elkaar liggen. Een lijst met *straatnummers* staat bijvoorbeeld vlak voor de lijst met *straatnamen*, zonder tokens ertussen (verderop in dit artikel vindt u meer informatie over tokens). Voor het type proximity moet je ten minste twee uitleggen in je model hebben, of de optie wordt uitgeschakeld. 
+
 ## <a name="phrase-list"></a>Woordenlijst
 
-Het uitlegtype van een woordenlijst wordt meestal gebruikt om een document te identificeren en te classificeren via je model. Zoals wordt beschreven in het labelvoorbeeld *Verwijzende arts*, is het een tekenreeks met woorden, woordgroepen, getallen of tekens die consequent voorkomen in de documenten die je wilt herkennen.
+Het uitlegtype van een woordenlijst wordt meestal gebruikt om een document te identificeren en te classificeren via je model. Zoals beschreven in het voorbeeld van het label *verwijzende arts*, is het een reeks woorden, woordgroepen, cijfers of tekens die consistent in de documenten staat die u identificeert.
 
-Hoewel het geen eis is, kunt je je uitleg beter laten opvallen als de woordgroep die je wilt vastleggen zich op een consistente locatie in het document bevindt. Zo kan het label *Verwijzende arts* label zich in de eerste alinea van het document bevinden. U kunt ook de optie **[Configureren waar zinnen voorkomen in het document](https://docs.microsoft.com/microsoft-365/contentunderstanding/explanation-types-overview#configure-where-phrases-occur-in-the-document)** in de geavanceerde instellingen gebruiken om specifieke gebieden te selecteren waar de zin zich bevindt, vooral als de kans bestaat dat de zin op meerdere locaties in uw document voorkomt.
+Hoewel dit geen vereiste is, kunt u meer succes behalen met uw uitleg als het patroon dat u vastlegt zich op een consistente locatie in uw document bevindt. Het label *verwijzende arts* kan bijvoorbeeld consequent in de eerste alinea van het document staan. U kunt ook de optie **[Configureren waar zinnen voorkomen in het document](https://docs.microsoft.com/microsoft-365/contentunderstanding/explanation-types-overview#configure-where-phrases-occur-in-the-document)** in de geavanceerde instellingen gebruiken om specifieke gebieden te selecteren waar de zin zich bevindt, vooral als de kans bestaat dat het patroon op meerdere locaties in uw document voorkomt.
 
 Als hoofdlettergevoeligheid een vereiste is bij het identificeren van je label, kun je met het woordenlijsttype in uw uitleg opgeven door het selectievakje **Alleen exacte kapitalisatie** in te schakelen.
 
 ![Onderscheid tussen hoofdletters en kleine letters](../media/content-understanding/case-sensitivity.png) 
 
-Een patroonlijst is vooral handig wanneer u een uitleg maakt die informatie in verschillende indelingen identificeert en extraheert, zoals datums, telefoonnummers en creditcardnummers. Een datum kan bijvoorbeeld worden weergegeven in een aantal verschillende notaties (1/1/2020, 1-1-2020, 01/01/20, 01/01/2020, 1 januari 2020, enzovoort). Door een patroonlijst te definiëren, kunt u efficiënter identificeren door eventuele variaties in de gegevens vast te leggen die u probeert vast te stellen en op te halen. 
+Een patroonlijst is vooral handig wanneer u een uitleg maakt die informatie in verschillende indelingen identificeert en extraheert, zoals datums, telefoonnummers en creditcardnummers. Een datum kan bijvoorbeeld in veel verschillende formaten worden weergegeven (1/1/2020, 1-1-2020, 01/01/20, 01/01/2020, 1 januari 2020, enzovoort). Door een patroonlijst te definiëren, kunt u efficiënter identificeren door eventuele variaties in de gegevens vast te leggen die u probeert vast te stellen en op te halen. 
 
-Voor het voorbeeld **Telefoonnummer** moet je het telefoonnummer voor elke verwijzende arts ophalen uit alle Medische Verwijzingsdocumenten die door het model worden geïdentificeerd. Wanneer u de uitleg maakt, typt u de verschillende notaties die een telefoonnummer in uw document kan weergeven, zodat u mogelijke variaties kunt vastleggen. 
+Voor het voorbeeld *Telefoonnummer* haalt u het telefoonnummer voor elke verwijzende arts op uit alle Medische Verwijzingsdocumenten die door het model worden geïdentificeerd. Wanneer u de uitleg maakt, typt u de verschillende notaties die een telefoonnummer in uw document kan weergeven, zodat u mogelijke variaties kunt vastleggen. 
 
 ![Patroonlijst met telefoonnummers](../media/content-understanding/pattern-list.png)
 
@@ -54,12 +57,13 @@ Schakel voor dit voorbeeld in **Geavanceerde instellingen** het selectievakje **
 Als u een patroonlijst maakt die teksttekens bevat, selecteert u het selectievakje **Willekeurige letter van a-z** om aan te geven dat elk 'a'-teken dat in de patroonlijst wordt gebruikt, elk teken van 'a' tot 'z' kan zijn.
 
 Als u bijvoorbeeld een patroonlijst **Datum** maakt en u ervoor wilt zorgen dat een datumnotatie wordt ondersteund zoals *1 januari 2020*, moet u het volgende doen:
+
 - Voeg *0 AAA 0000* en *00 AAA 0000* aan de patroonlijst toe.
 - Zorg ervoor dat **Een willekeurige letter van a-z** is geselecteerd.
 
 ![Een letter van a-z](../media/content-understanding/any-letter.png)
 
-Als je hoofdlettereisen in je patroonlijst hebt, kun je ook het selectievakje **Alleen exact hoofdlettergebruik** selecteren. Als de eerste letter van de maand moet worden gekapitaliseerd, moet u het volgende doen:
+Als je hoofdlettereisen in je patroonlijst hebt, kun je ook het selectievakje **Alleen exact hoofdlettergebruik** selecteren. Als u voor het datumvoorbeeld wilt dat de eerste letter van de maand met een hoofdletter wordt geschreven, moet u:
 
 - Voeg *0 Aaa 0000* en *00 AAA 0000* aan de patroonlijst toe.
 - Zorg ervoor dat **Alleen exact hoofdlettergebruik** ook is geselecteerd.
@@ -69,9 +73,51 @@ Als je hoofdlettereisen in je patroonlijst hebt, kun je ook het selectievakje **
 > [!NOTE]
 > Gebruik in plaats van het handmatig maken van een uitleg voor patroonlijsten de [uitlegbibliotheek](https://docs.microsoft.com/microsoft-365/contentunderstanding/explanation-types-overview#use-explanation-templates) voor het gebruik van vooraf gemaakte patroonlijstsjablonen voor een algemene patroonlijst, zoals *datum*, *telefoonnummer*, *creditcardnummer*, enzovoort.
 
+## <a name="regular-expression"></a>Reguliere expressie
+
+Met behulp van een reguliere uitlegtype voor expressies kunt u patronen maken om bepaalde tekenreeksen in documenten te zoeken en te identificeren. U kunt reguliere expressies gebruiken om snel grote hoeveelheden tekst te parseren om:
+
+- Specifieke tekenpatronen te zoeken.
+- Tekst te valideren om ervoor te zorgen dat deze overeenkomt met een vooraf gedefinieerd patroon (zoals een e-mailadres).
+- Tekstsubtekenreeksen te extraheren, bewerken, vervangen of verwijderen.
+
+Een type reguliere expressie is vooral handig wanneer u een uitleg maakt die informatie in vergelijkbare indelingen identificeert en extraheert, zoals e-mailadressen, bankrekeningnummers of URL's. Een e-mailadres, zoals megan@contoso.com, wordt bijvoorbeeld met een bepaald patroon weergegeven ('megan' is het eerste deel en 'com' is het laatste deel). 
+
+De reguliere expressie voor een e-mailadres is: **[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+. [A-Za-z]{2,6}**.
+
+Deze expressie bestaat uit vijf delen, in deze volgorde:
+
+1. Een of meer van de volgende tekens:
+
+   a. Letters van a tot z
+
+   b. Getal tussen 0 en 9
+
+   c. Punt, onderstrepingsteken, percentage of streepje
+
+2. Het @-symbool
+
+3. Elk aantal van hetzelfde soort tekens als het eerste deel van het e-mailadres
+
+4. Een punt
+
+5. Twee tot zes letters
+
+Een uitlegtype voor een reguliere expressie toevoegen:
+
+1. Selecteer **Reguliere expressie** in het deelvenster **Een uitleg maken** onder **Type uitleg**.
+
+   ![Schermafbeelding van het deelvenster Een uitleg maken waarin Reguliere expressie is geselecteerd.](../media/content-understanding/create-regular-expression.png)
+
+2. U kunt een uitdrukking typen in het tekstvak **Reguliere expressie** of **Een reguliere uitdrukking uit een sjabloon toevoegen** selecteren.
+
+   Wanneer u een reguliere expressie toevoegt met behulp van een sjabloon, worden de naam en de reguliere expressie automatisch toegevoegd aan het tekstvak. Als u bijvoorbeeld de sjabloon **E-mailadres** kiest, wordt het paneel **Een uitleg maken** ingevuld.
+
+   ![Schermafbeelding van het deelvenster Een uitleg maken waarop de sjabloon E-mailadres is toegepast.](../media/content-understanding/create-regular-expression-email.png)
+
 ## <a name="proximity"></a>Proximity 
 
-Met het Proximity-uitlegtype kan je model identificeren met behulp van hoe dichtbij een ander stukje gegevens is. Bijvoorbeeld, in je model heb je twee verklaringen gedefinieerd waaraan zowel het *huisnummer* als *telefoonnummer* zijn gelabeld. 
+Met het Proximity-uitlegtype kan je model identificeren met behulp van hoe dichtbij een ander stukje gegevens is. Stel dat u in uw model twee verklaringen hebt gedefinieerd die zowel het *huisnummer* van de klant als het *telefoonnummer* van een label voorzien. 
 
 Je ziet ook dat de telefoonnummers van klanten altijd voor het huisnummer worden weergegeven. 
 
@@ -86,7 +132,7 @@ Gebruik de proximity-uitleg om te bepalen hoe ver de uitleg van een telefoonnumm
 
 #### <a name="what-are-tokens"></a>Wat zijn tokens?
 
-Voor het gebruik van het Proximity-uitlegtype moet je weten wat een token is, omdat het aantal tokens is hoe de proximity-uitleg de afstand tussen een verklaring en een andere meet. Een token is een doorlopende reeks (geen spaties of interpunctie) van letters en cijfers. 
+Om het uitlegtype nabijheid te gebruiken, moet u weten wat een token is. Het aantal tokens is de manier waarop de nabijheidsverklaring de afstand van de ene uitleg tot de andere meet. Een token is een doorlopende reeks (geen spaties of interpunctie) van letters en cijfers. 
 
 In de volgende tabel zie je enkele voorbeelden van hoe je het aantal tokens in een woordgroep kunt vaststellen.
 
@@ -99,7 +145,7 @@ In de volgende tabel zie je enkele voorbeelden van hoe je het aantal tokens in e
 
 #### <a name="configure-the-proximity-explanation-type"></a>Het proximity-uitlegtype configureren
 
-Voor het voorbeeld configureer je de proximity-instelling zodanig dat je het aantal tokens kunt definiëren in *Telefoonnummer*-uitleg afkomstig van de *Huisnummer*-uitleg. Je ziet dat het minimumbereik “0“ is omdat er geen tokens zijn tussen het telefoonnummer en het huisnummer.
+Voor het voorbeeld configureert u de nabijheidsinstelling zodanig dat u het aantal tokens kunt definiëren in de *telefoonnummer*-uitleg afkomstig van de *huisnummer*-uitleg. Je ziet dat het minimumbereik “0“ is omdat er geen tokens zijn tussen het telefoonnummer en het huisnummer.
 
 Sommige telefoonnummers in de voorbeelddocumenten worden echter toegevoegd met *(mobiel)*.
 
@@ -120,10 +166,11 @@ Configureer de proximity-instelling voor een bereik van 0 tot en met 3.
 
 ![Voorbeeld van proximity](../media/content-understanding/proximity-example.png)
 
-
 ## <a name="configure-where-phrases-occur-in-the-document"></a>Configureren waar woordgroepen voorkomen in het document
 
-Wanneer u een uitleg maakt, wordt standaard in het hele document gezocht naar de woordgroep die u wilt extraheren. U kunt echter de geavanceerde instelling **Waar deze woordgroepen voorkomen** gebruiken om een specifieke locatie in het document te isoleren waar een woordgroep voorkomt. Dit is handig in situaties waarin soortgelijke gevallen van een woordgroep ergens anders in het document kunnen worden weergegeven en u wilt ervoor zorgen dat de juiste is geselecteerd. Wanneer we kijken naar ons voorbeelddocument voor medische verwijzing, wordt de **Verwijzende arts** altijd in de eerste alinea van het document vermeld. Met de instelling **Waar deze woordgroepen voorkomen kunt u in dit voorbeeld de uitleg zo configureren dat alleen in het begin van het document naar dit label wordt gezocht, of op een andere locatie waar dit kan voorkomen.
+Wanneer u een uitleg maakt, wordt standaard in het hele document gezocht naar het patroon dat u wilt extraheren. U kunt echter de geavanceerde instelling **Waar deze woordgroepen voorkomen** gebruiken om een specifieke locatie in het document te isoleren waar een woordgroep voorkomt. Deze instelling is handig in situaties waarin vergelijkbare gevallen van een patroon ergens anders in het document kunnen voorkomen en u zeker wilt weten dat de juiste is geselecteerd.
+
+Wanneer we kijken naar ons voorbeelddocument voor medische verwijzing, wordt de *verwijzende arts* altijd in de eerste alinea van het document vermeld. Met de instelling **Waar deze woordgroepen voorkomen** kunt u in dit voorbeeld de uitleg zo configureren dat alleen in het begin van het document naar dit label wordt gezocht, of op een andere locatie waar dit kan voorkomen.
 
 ![Instelling Waar deze woordgroepen voorkomen](../media/content-understanding/phrase-location.png)
 
@@ -135,11 +182,11 @@ U kunt kiezen uit de volgende opties voor deze instelling:
 
    ![Begin van bestand](../media/content-understanding/beginning-of-file.png)
 
-    In de viewer kunt u het selectievakje handmatig aanpassen zodat de locatie van de woordgroep wordt opgenomen. De waarde van **Eindpositie** wordt bijgewerkt om het aantal tokens weer te geven dat het geselecteerde gebied bevat. U kunt de waarde van de Eindpositie ook bijwerken om het geselecteerde gebied aan te passen.
+    In de viewer kunt u het selectievakje handmatig aanpassen zodat de locatie van de woordgroep wordt opgenomen. De waarde van **Eindpositie** wordt bijgewerkt om het aantal tokens weer te geven dat het geselecteerde gebied bevat. U kunt de waarde van de **Eindpositie** ook bijwerken om het geselecteerde gebied aan te passen.
 
    ![Vak Begin van bestandspositie](../media/content-understanding/beginning-box.png)
 
-- Einde van het bestand: het document wordt vanaf het eind tot aan de locatie van de woordgroep doorzocht.
+- Einde van het bestand: het document wordt vanaf het eind tot aan de locatie van het patroon doorzocht.
 
    ![Einde van bestand](../media/content-understanding/end-of-file.png)
 
@@ -147,7 +194,7 @@ U kunt kiezen uit de volgende opties voor deze instelling:
 
    ![Vak Einde van bestand](../media/content-understanding/end-box.png)
 
-- Aangepast bereik: in een bepaald bereik binnen het document wordt gezocht naar de locatie van de woordgroep.
+- Aangepast bereik: het document wordt binnen een opgegeven bereik doorzocht op de locatie van het patroon.
 
    ![Aangepast bereik](../media/content-understanding/custom-file.png)
 
@@ -157,33 +204,40 @@ U kunt kiezen uit de volgende opties voor deze instelling:
 
 Je kan handmatig verschillende frasenlijstwaarden toevoegen voor je uitleg, maar het kan eenvoudiger door sjablonen te gebruiken die aangeboden worden in de uitlegbibliotheek.
 
-Je kunt bijvoorbeeld in plaats van alle variaties voor *Datum* handmatig toe te voegen, de frasenlijstsjabloon gebruiken voor *Datum*, die al een aantal frasenlijstwaarden bevat:
+In plaats van alle variaties voor de *datum* handmatig toe te voegen, kunt u bijvoorbeeld de sjabloonlijst voor het patroon voor *datum* gebruiken, omdat deze al veel waarden voor een patroonlijst bevat:
 
 ![Uitlegbibliotheek](../media/content-understanding/explanation-template.png)
  
-De uitlegbibliotheek bevat een aantal veelgebruikte beschrijvingen van de frasenlijst, waaronder:
+De uitlegbibliotheek bevat een aantal veelgebruikte beschrijvingen van de *patroonlijst*, waaronder:
 
 - Datum: Kalenderdatums, alle notaties. Bevat tekst en getallen (bijvoorbeeld "9 dec, 2020").
 - Datum (numeriek): Kalenderdatums, alle notaties. Bevat getallen (bijvoorbeeld 1-11-2020).
 - Tijd: 12- en 24-uurs tijdnotatie.
-- Getal: Positieve en negatieve getallen tot maximaal 2 decimalen. 
-- Percentage: een lijst met patronen die een percentage vertegenwoordigen. Bijvoorbeeld, 1%, 11%, 100%, 11.11%, enz.
-- Telefoonnummer: veelgebruikte Amerikaanse en internationale notaties. Bijvoorbeeld, 000 000 0000, 000-000-0000, (000)000-0000, (000) 000-0000, enz.
+- Getal: positieve en negatieve getallen met maximaal twee decimalen. 
+- Percentage: een lijst met patronen die een percentage vertegenwoordigen. Bijvoorbeeld 1%, 11%, 100% of 11,11%.
+- Telefoonnummer: veelgebruikte Amerikaanse en internationale notaties. Bijvoorbeeld 000 000 0000, 000-000-0000, (000)000-0000 of (000) 000-0000.
 - Postcode: Amerikaanse postcode-indelingen. Bijvoorbeeld, 11111, 11111-1111.
 - Eerste woord van zin: algemene patronen voor woorden met maximaal negen tekens. 
-- Einde van zin: veelvoorkomende interpunctie voor het einde van een zin
+- Einde van zin: veelvoorkomende interpunctie voor het einde van een zin.
 - Creditcard: veelgebruikte notaties voor creditcards. Bijvoorbeeld, 1111-1111-1111-1111. 
-- Sofinummer: Amerikaanse notatie voor het sofinummer. Bijvoorbeeld, 111-11-1111. 
-- Selectievakje: een frasenlijst die variaties op een opgevuld selectievakje vertegenwoordigt. Bijvoorbeeld, _X_, _ _X_, enz.
+- Sofinummer: Amerikaanse notatie voor het sofinummer. Bijvoorbeeld: 111-11-1111. 
+- Selectievakje: een patroonlijst die variaties op een ingevuld selectievakje vertegenwoordigt. Bijvoorbeeld: _X_, _ _X_
 - Valuta: Belangrijke internationale symbolen. Bijvoorbeeld, $. 
-- E-mail CC: Een frasenlijst met de term 'CC:', vaak gevonden in de buurt van de namen of e-mailadressen van extra personen of groepen waar het bericht naar is verzonden.
+- E-mail CC: een patroonlijst met de term 'CC:', die vaak wordt gevonden in de buurt van de namen of e-mailadressen van andere mensen of groepen waarnaar het bericht is verzonden.
 - E-maildatum: Een frasenlijst met de term 'Verzonden op:', vaak gevonden bij de datum waarop het e-mailbericht is verzonden.
 - E-mail begroeting: Algemene beginregels voor e-mailberichten.
 - E-mail ontvanger: Een frasenlijst met de term 'Aan:', vaak gevonden in de buurt van de namen of e-mailadressen van personen of groepen waar het bericht naar is verzonden. 
 - E-mail afzender: Een frasenlijst met de term 'Van:', vaak gevonden in de buurt van de naam of het e-mailadres van de afzender. 
-- E-mail onderwerp: Een frasenlijst met de term 'Onderwerp:', vaak gevonden in de buurt van het e-mail onderwerp. 
+- E-mail onderwerp: Een frasenlijst met de term 'Onderwerp:', vaak gevonden in de buurt van het e-mail onderwerp.
 
-De uitlegbibliotheek bevat ook drie automatische sjabloontypen die binnen de gegevens werken die je gelabeld hebt in je voorbeeldbestanden:
+De uitlegbibliotheek bevat beschrijvingen van een aantal veelgebruikte *reguliere expressies*, waaronder:
+
+- 6 tot 17 cijfers: komt overeen met een getal van 6 tot 17 cijfers. Amerikaanse bankrekeningnummers hebben dit patroon.
+- E-mailadres: komt overeen met een gangbaar type e-mailadres zoals meganb@contoso.com.
+- Id-nummer van Amerikaanse belastingplichtige: komt overeen met een driecijferig nummer dat begint met een 9, gevolgd door een zescijferig nummer dat begint met een 7 of 8. 
+- Webadres (URL): komt overeen met de indeling van een webadres, beginnend met http:// of https://.
+
+Bovendien bevat de uitlegbibliotheek drie automatische sjabloontypen die werken met de gegevens die u in uw voorbeeldbestanden hebt gelabeld:
 
 - After-label: De woorden of karakters die voorkomen na de labels in de voorbeeldbestanden.
 - Before-label: De woorden of karakters die voorkomen voor de labels in de voorbeeldbestanden.

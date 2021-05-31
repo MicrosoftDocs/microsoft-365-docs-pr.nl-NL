@@ -17,20 +17,21 @@ ms.custom:
 - adminvideo
 search.appverid:
 - MET150
-description: Meer informatie over de functies van Microsoft 365 Business Premium.
+description: Lees meer over Microsoft 365 Business Premium, een abonnementsservice die de IT-zaken voor je regelt.
 feedback_system: None
 ms.date: 7/28/2020
-ms.openlocfilehash: 336d206b3853baa2bdde5d925113dc0887919da7
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 3f0c184cd0e0e6392f66d049b46930031e054bbe
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245178"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52705664"
 ---
 # <a name="microsoft-365-business-premium"></a>Microsoft 365 Business Premium
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA?autoplay=false]
+## <a name="watch-what-is-microsoft-365-business-premium"></a>Bekijken: Wat is Microsoft 365 Business Premium?
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA?autoplay=false]
 
 Microsoft 365 Business Premium is een abonnementsservice waarmee je je organisatie kan leiden in de cloud, terwijl Microsoft voor de IT zorgt door je apparaten te beheren, je te beveiligen tegen werkelijke dreigingen en je organisatie van de nieuwste business-software te voorzien.
 

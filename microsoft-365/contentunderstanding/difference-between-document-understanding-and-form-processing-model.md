@@ -1,8 +1,9 @@
 ---
 title: Het verschil tussen documentbegripmodellen en formulierverwerkingsmodellen
-ms.author: efrene
-author: efrene
+ms.author: chucked
+author: chuckedmonson
 manager: pamgreen
+ms.reviewer: lauriellis
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -12,15 +13,14 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Uitleg over het verschil tussen documentbegripmodellen en formulierverwerkingsmodellen
-ms.openlocfilehash: f12cc46e1ffcbc610f50ba327e22ad46a2591521
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: f19017ce8b748644177ac00f4daf7cb29ad522c6
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222267"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706508"
 ---
 # <a name="difference-between-document-understanding-and-form-processing-models"></a>Het verschil tussen documentbegripmodellen en formulierverwerkingsmodellen 
-
 
 Met documentbegrip in Microsoft SharePoint Syntex kunt u documenten identificeren en classificeren die worden geüpload naar SharePoint-documentbibliotheken en kunt u relevante informatie uit de bestanden halen.  Als bestanden bijvoorbeeld worden geüpload naar een SharePoint-documentbibliotheek, worden alle bestanden die worden geïdentificeerd als *inkooporders* als zodanig geclassificeerd en vervolgens weergegeven in een aangepaste weergave van een documentbibliotheek. Bovendien kunt u specifieke informatie uit elk bestand halen (zoals *PO-nummer* en *Totaal*) en die weergeven als een kolom in de documentbibliotheekweergave. 
 
@@ -36,16 +36,14 @@ Beide modellen worden in het algemeen gebruikt voor dezelfde doeleinden, maar de
 > [!NOTE]
 > Zie [Ingebruikname van SharePoint Syntex: introductiehandleiding](./adoption-getstarted.md) voor meer informatie over formulierverwerking scenariovoorbeelden voor documentbegrip.
 
-
 ## <a name="structured-versus-unstructured-and-semi-structured-content"></a>Gestructureerde versus niet-gestructureerde en gedeeltelijk gestructureerde inhoud
 
 Gebruik documentbegripmodellen om gegevens te identificeren en extraheren uit niet-gestructureerde documenten, zoals brieven of contracten, waarin de tekstentiteiten die u wilt extraheren zich in zinnen of specifieke delen van het document bevinden. Een niet-gestructureerd document kan bijvoorbeeld een brief zijn voor het verlengen van een contract, die op verschillende manieren kan zijn geschreven. Maar bepaalde informatie bevindt zich altijd in de hoofdtekst van een contractverlengingsdocument, zoals de tekenreeks *Begindatum van de service* gevolgd door een werkelijke datum.
 
-Gebruik formulierverwerkingsmodellen om bestanden te identificeren en gegevens te extraheren uit gestructureerde of half-gestructureerde documenten, zoals formulieren of facturen. Formulierverwerkingsmodellen worden met voorbeelddocumenten getraind om de indeling van uw formulieren te begrijpen, en om te zoeken naar de gegevens die u wilt ophalen van soortgelijke locaties. Formulieren hebben meestal een meer gestructureerde indeling waarbij entiteiten zich op dezelfde locatie bevinden (bijvoorbeeld een bsn-nummer in een belastingformulier).
+Gebruik formulierverwerkingsmodellen om bestanden te herkennen en gegevens te extraheren uit gestructureerde of semi-gestructureerde documenten, zoals formulieren of facturen. Formulierverwerkingsmodellen worden met voorbeelddocumenten getraind om de indeling van uw formulieren te begrijpen, en om te zoeken naar de gegevens die u van soortgelijke locaties wilt ophalen. Formulieren hebben meestal een meer gestructureerde indeling terwijl entiteiten zich op dezelfde locatie bevinden (bijvoorbeeld een BSN-nummer in een belastingformulier).
 
 > [!NOTE]
 > U moet toegang hebben tot een inhoudscentrumsite om een documentbegripmodel te maken of toe te passen op een SharePoint-documentbibliotheek. 
-
 
 ## <a name="where-models-are-created"></a>Waar modellen worden gemaakt
 
@@ -78,7 +76,7 @@ Gebruik de volgende tabel als u wilt weten wanneer u formulierverwerking moet ge
 | Locaties | Getraind voor één documentbibliotheek.| Kan worden toegepast op meerdere bibliotheken.|
 | Ondersteunde bestandstypen| Trainen op pdf-, JPG-, PNG-indeling, totaal 50 MB en 500 pagina's.| Trainen op 5 tot 10 pdf-, Office- of e-mailbestanden, inclusief negatieve voorbeelden.<br>Office-bestanden worden afgekapt bij 64.000 tekens. Gescande OCR-bestanden zijn beperkt tot 20 pagina's.|
 | Integreren met beheerde metagegevens | Nee | Ja, door de entiteitsextractor te trainen om te verwijzen naar een geconfigureerd veld met beheerde metagegevens.|
-| Integratie van compliancefunctie wanneer Microsoft-gegevensbescherming is ingeschakeld | Gepubliceerde labels voor retentie instellen.<br>Gevoeligheidslabels instellen komt nog. | Gepubliceerde labels voor retentie instellen.<br>Gevoeligheidslabels instellen komt nog. |
+| Integratie van compliancefunctie wanneer Microsoft-gegevensbescherming is ingeschakeld | Gepubliceerde labels voor retentie instellen.<br>Gevoeligheidslabels instellen komt nog. | Gepubliceerde labels voor retentie instellen.<br>Gepubliceerde vertrouwelijkheidslabels instellen. |
 | Ondersteunde regio's| Formulierverwerking is afhankelijk van Power Platform. Raadpleeg voor meer informatie over wereldwijde beschikbaarheid van Power Platform en AI Builder [Beschikbaarheid van Power Platform](https://dynamics.microsoft.com/geographic-availability/). | Beschikbaar in alle regio's.|
 | Transactiekosten | Maakt gebruik van AI Builder-credits.<br>Tegoeden zijn te koop in partijen van 1 miljoen.<br>1 miljoen credits zijn inbegrepen wanneer u meer dan 300 SharePoint Syntex-licenties aanschaft.<br>Met 1 miljoen credits kunnen 2.000 bestandspagina's worden verwerkt.<br>| N.v.t. |
 | Capaciteit | Gebruikt de standaard omgeving van Power-platform (aangepaste omgevingen waarin de Dataverse database wordt ondersteund). | Heeft geen capaciteitsbeperkingen.|
