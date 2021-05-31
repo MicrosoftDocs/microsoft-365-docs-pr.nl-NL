@@ -16,12 +16,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: Gebruik Exchange Online-bewaking voor informatie over e-mailincidenten of -adviezen in Microsoft 365.
-ms.openlocfilehash: 53dc7f990f57fd8d4da68bd424947676cbf0e85d
-ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
+ms.openlocfilehash: ee31f8e152d7c54e37b850563bea57971e07f61c
+ms.sourcegitcommit: 76c91e7b0d3172de57988eb4576d2b91c2f9ce18
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49572859"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52707294"
 ---
 # <a name="exchange-online-monitoring-for-microsoft-365"></a>Exchange Online-bewaking voor Microsoft 365
 
@@ -49,9 +49,9 @@ Met de **Exchange Online**-bewakingspagina kan je zien of de Exchange-service in
 
 Deze preview is ingeschakeld voor klanten die aan deze vereisten voldoen: 
 
-- De organisatie heeft een licentie nodig voor ten minste 10 000 stuks van een combinatie van deze producten: Office 365 E3, Microsoft 365 E3, Office 365 E5, Microsoft 365 E5. 
+- De organisatie heeft een licentie nodig voor ten minste 5000 stuks van een van de volgende producten of een combinatie ervan: Office 365 E3, Microsoft 365 E3, Office 365 E5, Microsoft 365 E5. 
 
-  Je organisatie heeft bijvoorbeeld 3000 Office 365 E3-licenties en 8500 Microsoft 365 E5-licenties, wat op een totaal van 11 500 licenties van kwalificerende producten neerkomt.
+  Uw organisatie heeft bijvoorbeeld 3000 Office 365 E3-licenties en 2500 Microsoft 365 E5-licenties, op een totaal van 5500 licenties van in aanmerking komende producten.
 
 - Je organisatie heeft ten minste 50 maandelijks actieve Exchange Online-gebruikers nodig.
 
@@ -95,10 +95,10 @@ Controleer eerst of je het nieuwe beheercentrum hebt ingeschakeld op de **Startp
 
 Controleer vervolgens of je aan beide van de volgende vereisten voldoet: 
 
-- De organisatie heeft een licentie nodig voor ten minste 10 000 stuks van een combinatie van deze producten: Office 365 E3, Microsoft 365 E3, Office 365 E5, Microsoft 365 E5. 
-- Je organisatie heeft ten minste 50 maandelijks actieve Exchange Online-gebruikers nodig.
+- De organisatie heeft een licentie nodig voor ten minste 5000 stuks van een van de volgende producten of een combinatie ervan: Office 365 E3, Microsoft 365 E3, Office 365 E5, Microsoft 365 E5. 
+- Uw organisatie heeft ten minste vijftig maandelijks actieve Exchange Online-gebruikers nodig.
 
-Als het aantal licenties voor je organisatie minder dan 10.000 gebruikers telt en het aantal maandelijks actieve gebruikers minder dan 50 gebruikers telt, wordt Exchange Online-bewaking pas ingeschakeld zodra aan deze vereisten wordt voldaan.
+Als het aantal licenties voor uw organisatie minder dan 5000 gebruikers telt en het aantal maandelijks actieve gebruikers minder dan 50 gebruikers telt, wordt Exchange Online-bewaking pas ingeschakeld zodra aan deze vereisten wordt voldaan.
 
 #### <a name="2-the-active-user-count-in-the-dashboard-for-each-client-appears-to-be-low-we-have-a-lot-of-active-licenses-assigned-to-users-what-does-this-mean"></a>2. Het aantal actieve gebruikers in het dashboard voor elke client lijkt laag te zijn. We hebben veel actieve licenties aan gebruikers toegewezen. Wat betekent dit? 
 
@@ -132,5 +132,5 @@ Voor feedback over incidenten of adviezen gebruik je de koppeling **Is deze post
 
 #### <a name="7-where-is-the-data-instrumented-for-the-scenarios-that-show-activity-trends"></a>7. Waar zijn de gegevens voor de scenario‘s die activiteitentrends weergeven geïnstrumenteerd?
 
-De gegevens zijn geïnstrumenteerd in de Exchange Online-service. Je zal een daling zien in activiteitssignaal wanneer er een fout gebeurt voor dat de aanvraag Exchange Online bereikt of er een fout in Exchange Online gebeurt.
+De gegevens worden in de Exchange Online-service ondergebracht. Als er een fout optreedt voordat de aanvraag Exchange Online bereikt of als er een fout in Exchange Online optreedt, krijgt u een daling van de activiteit te zien.
 
