@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Lees meer over bewaarbeleid en retentielabels die u helpen te behouden wat u nodig hebt en wat u niet verwijdert.
-ms.openlocfilehash: ba17a94fa4ae0d12405cc7e38d7d74e90fa7ad02
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: ab02559a439899fe25a560aa52718045b730ebd4
+ms.sourcegitcommit: cebbdd393dcfd93ff43a1ab66ad70115853f83e7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52625219"
+ms.lasthandoff: 06/01/2021
+ms.locfileid: "52710716"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Meer informatie over bewaarbeleid en retentielabels
 
@@ -116,7 +116,7 @@ Bewaarbeleid kan worden toegepast op de volgende locaties:
 - Teams-kanaalberichten
 - Teams-chats
 - Berichten in de Yammer-community
-- Privéberichten in Yammer
+- Berichten Yammer-gebruikers
 
 U kunt heel efficiënt één beleid toepassen op meerdere locaties of op specifieke locaties of gebruikers.
 
@@ -308,7 +308,7 @@ Uitleg van de vier verschillende niveaus:
     
     Documenten in deze SharePoint-site voor marketing worden tien jaar bewaard omdat dit de langste bewaarperiode is.
 
-3. **Expliciet heeft prioriteit boven impliciet.** Van toepassing om te bepalen wanneer items worden verwijderd: 
+3. **Expliciet heeft prioriteit boven impliciet voor verwijderingen.** Nu conflicten zijn opgelost voor bewaren, blijven alleen conflicten voor verwijderingen bestaan: 
     
     1. Een retentielabel (hoe dat ook werd toegepast) garandeert expliciete bewaring in vergelijking met bewaarbeleid, omdat de bewaarinstellingen worden toegepast op een afzonderlijk item in plaats van impliciet vanuit een container. Dit betekent dat een verwijderingsactie op basis van een retentielabel altijd voorrang heeft op een verwijderingsactie op basis van een bewaarbeleid.
         

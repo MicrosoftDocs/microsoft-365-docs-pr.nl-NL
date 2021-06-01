@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Gebruik bewaarbeleid om de inhoud die gebruikers genereren met e-mail, documenten en gesprekken efficiënt te beheren. Behoud wat u wilt en verwijder wat u niet wilt.
-ms.openlocfilehash: 1faeae5dc145d6f908f9137387b875c890d22e14
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 7b23ed2b45a24e8999785909f9357043bef731e5
+ms.sourcegitcommit: cebbdd393dcfd93ff43a1ab66ad70115853f83e7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280425"
+ms.lasthandoff: 06/01/2021
+ms.locfileid: "52710692"
 ---
 # <a name="create-and-configure-retention-policies"></a>Bewaarbeleid maken en configureren
 
@@ -54,7 +54,7 @@ Hoewel bewaarbeleid meerdere services kan ondersteunen die in bewaarbeleid worde
 - Teams-kanaalberichten
 - Teams-chats
 - Berichten in de Yammer-community
-- Privéberichten in Yammer
+- Berichten Yammer-gebruikers
 
 Wanneer u de Teams- of Yammer-locaties selecteert bij het maken van bewaarbeleid, worden de andere locaties automatisch uitgesloten. Dit betekent dat de instructies die u moet volgen, afhankelijk zijn van of u de Teams- of Yammer-locaties moet opnemen:
 
@@ -130,11 +130,11 @@ Het is mogelijk dat bewaarbeleid dat wordt toegepast op Microsoft 365-groepen, S
     
     Selecteer niet **Geavanceerde bewaarinstellingen gebruiken**, want deze optie wordt niet ondersteund voor Yammer-locaties. 
 
-4. Selecteer voor de pagina **Locaties kiezen**, **Ik wil specifieke locaties kiezen**. Schakel vervolgens een of beide locaties voor Yammer in: **Berichten in de Yammer-community** en **Privéberichten in Yammer**.
+4. Selecteer voor de pagina **Locaties kiezen**, **Ik wil specifieke locaties kiezen**. Schakel vervolgens een of beide locaties voor Yammer in: **Berichten in de Yammer-community** en **Gebruikersberichten in Yammer**.
     
-    Standaard worden alle community's en gebruikers geselecteerd, maar u kunt dit verfijnen door specifieke community's en gebruikers op te geven die moeten worden opgenomen of uitgesloten. 
+    Standaard worden alle community's en gebruikers geselecteerd, maar u kunt dit verfijnen door specifieke community's en gebruikers op te geven die moeten worden opgenomen of uitgesloten.
     
-    Voor Privéberichten in Yammer: 
+    Voor gebruikersberichten in Yammer: 
     - Als u de standaard op **Alle** laat staan, worden Azure B2B-gasten niet opgenomen. 
     - Als u **Gebruiker selecteren** selecteert, kunt u bewaarbeleid toepassen op externe gebruikers als u hun account kent.
 
@@ -247,7 +247,7 @@ Door in uw bewaarbeleid de instellingen te kiezen voor het bewaren en verwijdere
 
 ### <a name="retaining-content-for-a-specific-period-of-time"></a>Inhoud bewaren voor een specifieke periode
 
-Wanneer u bewaarbeleid configureert, kiest u ervoor items te bewaren voor een specifiek aantal dagen, maanden of jaren. Of als alternatief, de items permanent bewaren.
+Wanneer u bewaarbeleid configureert, kiest u ervoor items te bewaren voor een specifiek aantal dagen, maanden of jaren. U kunt de items ook voor altijd bewaren.
 
 Wanneer u bewaarbeleid configureert, kunt u ervoor kiezen inhoud voor onbepaalde tijd te bewaren of voor een specifiek aantal dagen, maanden of jaren. De bewaarperiode wordt berekend op basis van de leeftijd van de inhoud, niet vanaf wanneer het bewaarbeleid wordt toegepast.
 
@@ -288,7 +288,7 @@ Wanneer u de optionele configuratie wilt gebruiken om het bereik van uw bewaarin
 > [!WARNING]
 > Als u opnemen configureert en vervolgens de laatste verwijdert, wordt de configuratie opnieuw ingesteld op **Alle** voor die locatie.  Zorg ervoor dat dit de configuratie is die u wilt hebben voordat u het beleid opslaat.
 >
-> Als u bijvoorbeeld één SharePoint-site specificeert die moet worden opgenomen in uw bewaarbeleid dat is ingesteld op het verwijderen van gegevens en vervolgens verwijdert u die ene site, is het bewaarbeleid dat gegevens permanent verwijdert standaard van toepassing op alle SharePoint-sites. Hetzelfde geldt voor het opnemen van Exchange-ontvangers, OneDrive-accounts, Teams-chatgebruikers, enz.
+> Als u bijvoorbeeld één SharePoint-site specificeert die moet worden opgenomen in uw bewaarbeleid dat is ingesteld op het verwijderen van gegevens en vervolgens verwijdert u die ene site, is het bewaarbeleid dat gegevens permanent verwijdert standaard van toepassing op alle SharePoint-sites. Hetzelfde geldt voor opnemingen voor Exchange-ontvangers, OneDrive-accounts, Teams-chatgebruikers, enzovoort.
 >
 > Schakel in dit scenario de locatie uit als u niet wilt dat het bewaarbeleid wordt toegepast op de instelling **Alle** van de locatie. U kunt ook specifieke uitsluitingen van het bewaarbeleid opgeven.
 

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Gebruik vertrouwelijkheidslabels om inhoud te beveiligen in SharePoint- en Microsoft Teams-sites en Microsoft 365 Groepen.
-ms.openlocfilehash: ef4559a278ce83f429790efcd20517b5c8545cb3
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 6baca2e24e50bd3ee418da994adcfbe7fca8338c
+ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52531040"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52694399"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>Vertrouwelijkheidslabels gebruiken om inhoud te beveiligen in Microsoft Teams, Microsoft 365 Groepen en SharePoint-sites
 
@@ -138,7 +138,7 @@ Omdat u de SharePoint-instellingen afzonderlijk van de labelconfiguratie kunt co
 
 Als u wilt weergeven in de vervolgkeuzelijst voor selectie, moeten verificatiecontexten worden gemaakt, geconfigureerd en gepubliceerd als onderdeel van uw configuratie van Voorwaardelijke toegang van Azure Active Directory. Zie de sectie [Verificatiecontexten configureren](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps#configure-authentication-contexts) in de documentatie Voorwaardelijke toegang van Azure AD voor meer informatie en instructies.
 
-Niet alle apps ondersteunen verificatiecontexten. Als een gebruiker met een niet-ondersteunde app verbinding maakt met de site die is geconfigureerd voor een verificatiecontext, zien ze een bericht dat de toegang is geweigerd of wordt hem of haar gevraagd om te worden geverifieerd, maar geweigerd. De apps die momenteel verificatiecontexten ondersteunen:
+Niet alle apps ondersteunen verificatiecontexten. Als een gebruiker met een niet-ondersteunde app verbinding maakt met de site die is geconfigureerd voor een verificatiecontext, zien ze een bericht dat de toegang is geweigerd of wordt hem of haar gevraagd om te worden geverifieerd, maar geweigerd. De apps die momenteel verificatiecontexten ondersteunen, zijn:
 
 - De webversie van Office, met de webversie van Outlook
 
@@ -163,6 +163,20 @@ Niet alle apps ondersteunen verificatiecontexten. Als een gebruiker met een niet
     - Android: nog niet ondersteund
 
 Bekende problemen in deze preview:
+
+- Deze functie wordt nog steeds uitgerold naar sommige tenants. Als het beleid voor voorwaardelijke toegang met de geselecteerde verificatiecontext niet van kracht wordt wanneer een gebruiker de site gebruikt, kunt u PowerShell gebruiken om te controleren of uw configuratie juist is en of aan alle vereisten wordt voldaan. U moet het gevoeligheidslabel van de site verwijderen en de site vervolgens configureren voor de verificatiecontext met behulp van de cmdlet [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) van de huidige [SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online). Als deze methode werkt, wacht u nog enkele dagen voordat u het gevoeligheidslabel opnieuw probeert toe te passen.
+    
+    De verificatiecontext testen met behulp van PowerShell:
+    
+    ```powershell
+    Set-SPOSite -Identity <site url> -ConditionalAccessPolicy AuthenticationContext -AuthenticationContextName "Name of authentication context"
+    ```
+    
+    De verificatiecontext verwijderen zodat u het gevoeligheidslabel opnieuw kunt toepassen:
+    
+    ```powershell
+    Set-SPOSite -Identity <site url> -ConditionalAccessPolicy AuthenticationContext -AuthenticationContextName ""
+    ```
 
 - De synchronisatie-app voor OneDrive wordt alleen ondersteund voor OneDrive en niet voor andere sites.
 
