@@ -296,6 +296,8 @@
           items:
             - name: Overzicht van Microsoft 365 Defender-API's (preview)
               href: api-overview.md
+            - name: Ondersteunde Microsoft 365 Defender-API's
+              href: api-supported.md
             - name: Aan de slag met Microsoft 365 Defender-API's (preview)
               items:
                 - name: Microsoft 365 Defender-API-licentie en -gebruiksrechtovereenkomst
@@ -314,19 +316,25 @@
                   href: api-articles.md
             - name: Microsoft 365 Defender-API's en schema (preview)
               items:
-                - name: Ondersteunde Microsoft 365 Defender-API's
-                  href: api-supported.md
                 - name: Algemene REST API-foutcodes
                   href: api-error-codes.md
+                - name: Streaming-API
+                  items:
+                    - name: Microsoft 365 Streaming-API
+                      href: ../defender-endpoint/raw-data-export.md
+                    - name: Geavanceerde opsporingsevenementen streamen naar de Azure Events-hub
+                      href: ../defender-endpoint/raw-data-export-event-hub.md
+                    - name: Geavanceerde opsporingsevenementen streamen naar uw opslagaccount
+                      href: ../defender-endpoint/raw-data-export-storage.md
                 - name: Geavanceerde API voor opsporing
                   href: api-advanced-hunting.md
-                - name: API's voor incidenten
+                - name: Api's voor incidenten
                   items:
                     - name: Methoden en eigenschappen van incidenten
                       href: api-incident.md
                     - name: Lijst met incidenten
                       href: api-list-incidents.md
-                    - name: Incident bijwerken
+                    - name: Incidenten bijwerken
                       href: api-update-incidents.md
     - name: Microsoft Defender voor Office 365
       href: ../office-365-security/index.yml

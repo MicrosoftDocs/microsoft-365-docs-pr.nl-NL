@@ -1,6 +1,6 @@
 ---
-title: Microsoft Defender voor eindpuntgebeurtenissen streamen naar uw opslagaccount
-description: Meer informatie over het configureren van Microsoft Defender voor Eindpunt voor het streamen van Advanced Hunting-gebeurtenissen naar uw Opslagaccount.
+title: Gebeurtenissen Microsoft 365 Defender streamen naar uw Storage account
+description: Meer informatie over het configureren Microsoft 365 Defender om geavanceerde gebeurtenissen voor jagen te streamen naar uw Storage account.
 keywords: raw data export, streaming API, API, Event Hubs, Azure storage, storage account, Advanced Hunting, raw data sharing
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,79 +16,79 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 19fe0c9c3dc6f2e4226a4aa9a6cd983bc95bae3a
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 1a1d6b63bcdf21535f36b23d4a30e5ea01833c36
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688787"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52729990"
 ---
-# <a name="configure-microsoft-defender-for-endpoint-to-stream-advanced-hunting-events-to-your-storage-account"></a><span data-ttu-id="29f6a-104">Microsoft Defender voor eindpunt configureren voor het streamen van advanced hunting-gebeurtenissen naar uw opslagaccount</span><span class="sxs-lookup"><span data-stu-id="29f6a-104">Configure Microsoft Defender for Endpoint to stream Advanced Hunting events to your Storage account</span></span>
+# <a name="configure--microsoft-365-defender-to-stream-advanced-hunting-events-to-your-storage-account"></a><span data-ttu-id="5c43f-104">Configureer Microsoft 365 Defender om Advanced Hunting-gebeurtenissen te streamen naar uw Storage account</span><span class="sxs-lookup"><span data-stu-id="5c43f-104">Configure  Microsoft 365 Defender to stream Advanced Hunting events to your Storage account</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="29f6a-105">**Van toepassing op:**</span><span class="sxs-lookup"><span data-stu-id="29f6a-105">**Applies to:**</span></span>
-- [<span data-ttu-id="29f6a-106">Microsoft Defender voor Eindpunt</span><span class="sxs-lookup"><span data-stu-id="29f6a-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/?linkid=2154037)
+<span data-ttu-id="5c43f-105">**Van toepassing op:**</span><span class="sxs-lookup"><span data-stu-id="5c43f-105">**Applies to:**</span></span>
+- [<span data-ttu-id="5c43f-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="5c43f-106">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> <span data-ttu-id="29f6a-107">Wilt u Defender voor Eindpunt ervaren?</span><span class="sxs-lookup"><span data-stu-id="29f6a-107">Want to experience Defender for Endpoint?</span></span> [<span data-ttu-id="29f6a-108">Meld u aan voor een gratis proefabonnement.</span><span class="sxs-lookup"><span data-stu-id="29f6a-108">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configuresiem-abovefoldlink) 
+[!include[Prerelease information](../../includes/prerelease.md)]
 
-## <a name="before-you-begin"></a><span data-ttu-id="29f6a-109">Voordat u begint:</span><span class="sxs-lookup"><span data-stu-id="29f6a-109">Before you begin:</span></span>
 
-1. <span data-ttu-id="29f6a-110">Maak een [Opslagaccount](https://docs.microsoft.com/azure/storage/common/storage-account-overview) in uw tenant.</span><span class="sxs-lookup"><span data-stu-id="29f6a-110">Create a [Storage account](https://docs.microsoft.com/azure/storage/common/storage-account-overview) in your tenant.</span></span>
+## <a name="before-you-begin"></a><span data-ttu-id="5c43f-107">Voordat u begint:</span><span class="sxs-lookup"><span data-stu-id="5c43f-107">Before you begin:</span></span>
 
-2. <span data-ttu-id="29f6a-111">Meld u aan bij [uw Azure-tenant](https://ms.portal.azure.com/), ga naar Abonnementen > Uw abonnement > **Resource Providers > Registreren bij Microsoft.insights.**</span><span class="sxs-lookup"><span data-stu-id="29f6a-111">Log in to your [Azure tenant](https://ms.portal.azure.com/), go to **Subscriptions > Your subscription > Resource Providers > Register to Microsoft.insights**.</span></span>
+1. <span data-ttu-id="5c43f-108">Maak een [Storage account](/azure/storage/common/storage-account-overview) in uw tenant.</span><span class="sxs-lookup"><span data-stu-id="5c43f-108">Create a [Storage account](/azure/storage/common/storage-account-overview) in your tenant.</span></span>
 
-## <a name="enable-raw-data-streaming"></a><span data-ttu-id="29f6a-112">Onbewerkte gegevensstreaming inschakelen:</span><span class="sxs-lookup"><span data-stu-id="29f6a-112">Enable raw data streaming:</span></span>
+2. <span data-ttu-id="5c43f-109">Meld u aan bij [uw Azure-tenant,](https://ms.portal.azure.com/)ga naar Abonnementen > Uw > **Resource Providers > Registreren bij Microsoft.Insights.**</span><span class="sxs-lookup"><span data-stu-id="5c43f-109">Log in to your [Azure tenant](https://ms.portal.azure.com/), go to **Subscriptions > Your subscription > Resource Providers > Register to Microsoft.Insights**.</span></span>
 
-1. <span data-ttu-id="29f6a-113">Meld u aan bij [de Microsoft Defender for Endpoint-portal](https://securitycenter.windows.com) als een \* Globale **beheerder** _ of _\*_Beveiligingsbeheerder_\*\*.</span><span class="sxs-lookup"><span data-stu-id="29f6a-113">Log in to [Microsoft Defender for Endpoint portal](https://securitycenter.windows.com) as a ***Global Administrator** _ or _*_Security Administrator_\*\*.</span></span>
+## <a name="enable-raw-data-streaming"></a><span data-ttu-id="5c43f-110">Onbewerkte gegevensstreaming inschakelen:</span><span class="sxs-lookup"><span data-stu-id="5c43f-110">Enable raw data streaming:</span></span>
 
-2. <span data-ttu-id="29f6a-114">Ga naar [de pagina Instellingen voor gegevensexport](https://securitycenter.windows.com/interoperability/dataexport) in het Microsoft Defender-beveiligingscentrum.</span><span class="sxs-lookup"><span data-stu-id="29f6a-114">Go to [Data export settings page](https://securitycenter.windows.com/interoperability/dataexport) on Microsoft Defender Security Center.</span></span>
+1. <span data-ttu-id="5c43f-111">Meld u aan [bij Microsoft 365 Defender-beveiligingscentrum](https://security.microsoft.com) als een ***Globale beheerder** _ of _*_Beveiligingsbeheerder_\*\*.</span><span class="sxs-lookup"><span data-stu-id="5c43f-111">Log in to [Microsoft 365 Defender security center](https://security.microsoft.com) as a ***Global Administrator** _ or _*_Security Administrator_\*\*.</span></span>
 
-3. <span data-ttu-id="29f6a-115">Klik op **Instellingen voor gegevensexport toevoegen.**</span><span class="sxs-lookup"><span data-stu-id="29f6a-115">Click on **Add data export settings**.</span></span>
+2. <span data-ttu-id="5c43f-112">Ga naar [de pagina Instellingen voor gegevensexport](https://security.microsoft.com/settings/mtp_settings/raw_data_export) in Microsoft Defender-beveiligingscentrum.</span><span class="sxs-lookup"><span data-stu-id="5c43f-112">Go to [Data export settings page](https://security.microsoft.com/settings/mtp_settings/raw_data_export) in Microsoft Defender Security Center.</span></span>
 
-4. <span data-ttu-id="29f6a-116">Kies een naam voor uw nieuwe instellingen.</span><span class="sxs-lookup"><span data-stu-id="29f6a-116">Choose a name for your new settings.</span></span>
+3. <span data-ttu-id="5c43f-113">Klik op **Instellingen voor gegevensexport toevoegen.**</span><span class="sxs-lookup"><span data-stu-id="5c43f-113">Click on **Add data export settings**.</span></span>
 
-5. <span data-ttu-id="29f6a-117">Kies **Gebeurtenissen doorsturen naar Azure Storage.**</span><span class="sxs-lookup"><span data-stu-id="29f6a-117">Choose **Forward events to Azure Storage**.</span></span>
+4. <span data-ttu-id="5c43f-114">Kies een naam voor uw nieuwe instellingen.</span><span class="sxs-lookup"><span data-stu-id="5c43f-114">Choose a name for your new settings.</span></span>
 
-6. <span data-ttu-id="29f6a-118">Typ uw **resource-id voor opslagaccount.**</span><span class="sxs-lookup"><span data-stu-id="29f6a-118">Type your **Storage Account Resource ID**.</span></span> <span data-ttu-id="29f6a-119">Als u uw opslagaccountresource-id wilt **downloaden,** gaat u naar de pagina Opslagaccount op het tabblad Eigenschappen van [Azure Portal](https://ms.portal.azure.com/) > > kopieert u de tekst onder **Opslagaccountresource-id:**</span><span class="sxs-lookup"><span data-stu-id="29f6a-119">In order to get your **Storage Account Resource ID**, go to your Storage account page on [Azure portal](https://ms.portal.azure.com/) > properties tab > copy the text under **Storage account resource ID**:</span></span>
+5. <span data-ttu-id="5c43f-115">Kies **Gebeurtenissen doorsturen om te Azure Storage.**</span><span class="sxs-lookup"><span data-stu-id="5c43f-115">Choose **Forward events to Azure Storage**.</span></span>
+
+6. <span data-ttu-id="5c43f-116">Typ uw **Storage accountresource-id**.</span><span class="sxs-lookup"><span data-stu-id="5c43f-116">Type your **Storage Account Resource ID**.</span></span> <span data-ttu-id="5c43f-117">Als u uw Storage **Account Resource-id** wilt downloaden, gaat u naar de pagina met Storage-account op het tabblad Eigenschappen van [azure portal](https://ms.portal.azure.com/) > > kopieert u de tekst onder Storage Account **Resource ID:**</span><span class="sxs-lookup"><span data-stu-id="5c43f-117">In order to get your **Storage Account Resource ID**, go to your Storage account page on [Azure portal](https://ms.portal.azure.com/) > properties tab > copy the text under **Storage Account Resource ID**:</span></span>
 
    ![Afbeelding van gebeurtenishub resource-id1](images/storage-account-resource-id.png)
 
-7. <span data-ttu-id="29f6a-121">Kies de gebeurtenissen die u wilt streamen en klik op **Opslaan.**</span><span class="sxs-lookup"><span data-stu-id="29f6a-121">Choose the events you want to stream and click **Save**.</span></span>
+7. <span data-ttu-id="5c43f-119">Kies de gebeurtenissen die u wilt streamen en klik op **Opslaan.**</span><span class="sxs-lookup"><span data-stu-id="5c43f-119">Choose the events you want to stream and click **Save**.</span></span>
 
-## <a name="the-schema-of-the-events-in-the-storage-account"></a><span data-ttu-id="29f6a-122">Het schema van de gebeurtenissen in het opslagaccount:</span><span class="sxs-lookup"><span data-stu-id="29f6a-122">The schema of the events in the Storage account:</span></span>
+## <a name="the-schema-of-the-events-in-the-storage-account"></a><span data-ttu-id="5c43f-120">Het schema van de gebeurtenissen in het Storage account:</span><span class="sxs-lookup"><span data-stu-id="5c43f-120">The schema of the events in the Storage account:</span></span>
 
-- <span data-ttu-id="29f6a-123">Er wordt een blobcontainer gemaakt voor elk gebeurtenistype:</span><span class="sxs-lookup"><span data-stu-id="29f6a-123">A blob container will be created for each event type:</span></span> 
+- <span data-ttu-id="5c43f-121">Er wordt een blobcontainer gemaakt voor elk gebeurtenistype:</span><span class="sxs-lookup"><span data-stu-id="5c43f-121">A blob container will be created for each event type:</span></span> 
 
   ![Afbeelding van gebeurtenishub resource-id2](images/storage-account-event-schema.png)
 
-- <span data-ttu-id="29f6a-125">Het schema van elke rij in een blob is het volgende JSON:</span><span class="sxs-lookup"><span data-stu-id="29f6a-125">The schema of each row in a blob is the following JSON:</span></span> 
+- <span data-ttu-id="5c43f-123">Het schema van elke rij in een blob is het volgende JSON:</span><span class="sxs-lookup"><span data-stu-id="5c43f-123">The schema of each row in a blob is the following JSON:</span></span> 
 
   ```
   {
-          "time": "<The time WDATP received the event>"
+          "time": "<The time Microsoft 365 Defender received the event>"
           "tenantId": "<Your tenant ID>"
           "category": "<The Advanced Hunting table name with 'AdvancedHunting-' prefix>"
-          "properties": { <WDATP Advanced Hunting event as Json> }
+          "properties": { <Microsoft 365 Defender Advanced Hunting event as Json> }
   }               
   ```
 
-- <span data-ttu-id="29f6a-126">Elke blob bevat meerdere rijen.</span><span class="sxs-lookup"><span data-stu-id="29f6a-126">Each blob contains multiple rows.</span></span>
+- <span data-ttu-id="5c43f-124">Elke blob bevat meerdere rijen.</span><span class="sxs-lookup"><span data-stu-id="5c43f-124">Each blob contains multiple rows.</span></span>
 
-- <span data-ttu-id="29f6a-127">Elke rij bevat de naam van de gebeurtenis, de tijd dat Defender voor Eindpunt de gebeurtenis heeft ontvangen, de tenant waar deze deel van uitmaken (u ontvangt alleen gebeurtenissen van uw tenant) en de gebeurtenis in JSON-indeling in een eigenschap genaamd 'eigenschappen'.</span><span class="sxs-lookup"><span data-stu-id="29f6a-127">Each row contains the event name, the time Defender for Endpoint received the event, the tenant it belongs (you will only get events from your tenant), and the event in JSON format in a property called "properties".</span></span>
+- <span data-ttu-id="5c43f-125">Elke rij bevat de naam van de gebeurtenis, de tijd dat Defender voor Eindpunt de gebeurtenis heeft ontvangen, de tenant waar deze deel van uitmaken (u ontvangt alleen gebeurtenissen van uw tenant) en de gebeurtenis in JSON-indeling in een eigenschap genaamd 'eigenschappen'.</span><span class="sxs-lookup"><span data-stu-id="5c43f-125">Each row contains the event name, the time Defender for Endpoint received the event, the tenant it belongs (you will only get events from your tenant), and the event in JSON format in a property called "properties".</span></span>
 
-- <span data-ttu-id="29f6a-128">Zie Geavanceerd overzicht van jagen voor meer informatie over het schema van Microsoft Defender voor [eindpuntgebeurtenissen.](advanced-hunting-overview.md)</span><span class="sxs-lookup"><span data-stu-id="29f6a-128">For more information about the schema of Microsoft Defender for Endpoint events, see [Advanced Hunting overview](advanced-hunting-overview.md).</span></span>
+- <span data-ttu-id="5c43f-126">Zie Geavanceerd overzicht van de Microsoft 365 Defender voor meer informatie over het schema van de gebeurtenissen [in Defender.](../defender/advanced-hunting-overview.md)</span><span class="sxs-lookup"><span data-stu-id="5c43f-126">For more information about the schema of Microsoft 365 Defender events, see [Advanced Hunting overview](../defender/advanced-hunting-overview.md).</span></span>
 
-- <span data-ttu-id="29f6a-129">In Advanced Hunting heeft de **tabel DeviceInfo** een kolom met de naam **MachineGroep** die de groep van het apparaat bevat.</span><span class="sxs-lookup"><span data-stu-id="29f6a-129">In Advanced Hunting, the **DeviceInfo** table has a column named **MachineGroup** which contains the group of the device.</span></span> <span data-ttu-id="29f6a-130">Hier wordt elke gebeurtenis ook gedecoreerd met deze kolom.</span><span class="sxs-lookup"><span data-stu-id="29f6a-130">Here every event will be decorated with this column as well.</span></span> <span data-ttu-id="29f6a-131">Zie [Apparaatgroepen voor](machine-groups.md) meer informatie.</span><span class="sxs-lookup"><span data-stu-id="29f6a-131">See [Device Groups](machine-groups.md) for more information.</span></span>
 
-## <a name="data-types-mapping"></a><span data-ttu-id="29f6a-132">Gegevenstypen toewijzen:</span><span class="sxs-lookup"><span data-stu-id="29f6a-132">Data types mapping:</span></span>
+## <a name="data-types-mapping"></a><span data-ttu-id="5c43f-127">Gegevenstypen toewijzen:</span><span class="sxs-lookup"><span data-stu-id="5c43f-127">Data types mapping:</span></span>
 
-<span data-ttu-id="29f6a-133">Ga als volgt te werk om de gegevenstypen voor onze gebeurteniseigenschappen op te halen:</span><span class="sxs-lookup"><span data-stu-id="29f6a-133">In order to get the data types for our events properties do the following:</span></span>
+<span data-ttu-id="5c43f-128">Ga als volgt te werk om de gegevenstypen voor onze gebeurteniseigenschappen op te halen:</span><span class="sxs-lookup"><span data-stu-id="5c43f-128">In order to get the data types for our events properties do the following:</span></span>
 
-1. <span data-ttu-id="29f6a-134">Meld u aan [bij het Microsoft Defender-beveiligingscentrum](https://securitycenter.windows.com) en ga naar [de pagina Geavanceerd zoeken.](https://securitycenter.windows.com/hunting-package)</span><span class="sxs-lookup"><span data-stu-id="29f6a-134">Log in to [Microsoft Defender Security Center](https://securitycenter.windows.com) and go to [Advanced Hunting page](https://securitycenter.windows.com/hunting-package).</span></span>
+1. <span data-ttu-id="5c43f-129">Meld u aan [bij Microsoft 365 beveiligingscentrum](https://security.microsoft.com) en ga naar [de pagina Geavanceerd zoeken.](https://security.microsoft.com/hunting-package)</span><span class="sxs-lookup"><span data-stu-id="5c43f-129">Log in to [Microsoft 365 security center](https://security.microsoft.com) and go to [Advanced Hunting page](https://security.microsoft.com/hunting-package).</span></span>
 
-2. <span data-ttu-id="29f6a-135">Voer de volgende query uit om de gegevenstypentoewijzing voor elke gebeurtenis te krijgen:</span><span class="sxs-lookup"><span data-stu-id="29f6a-135">Run the following query to get the data types mapping for each event:</span></span> 
+2. <span data-ttu-id="5c43f-130">Voer de volgende query uit om de gegevenstypentoewijzing voor elke gebeurtenis te krijgen:</span><span class="sxs-lookup"><span data-stu-id="5c43f-130">Run the following query to get the data types mapping for each event:</span></span> 
 
    ```
    {EventType}
@@ -96,12 +96,12 @@ ms.locfileid: "51688787"
    | project ColumnName, ColumnType 
    ```
 
-- <span data-ttu-id="29f6a-136">Hier volgt een voorbeeld voor apparaatgegevensgebeurtenis:</span><span class="sxs-lookup"><span data-stu-id="29f6a-136">Here is an example for Device Info event:</span></span> 
+- <span data-ttu-id="5c43f-131">Hier volgt een voorbeeld voor apparaatgegevensgebeurtenis:</span><span class="sxs-lookup"><span data-stu-id="5c43f-131">Here is an example for Device Info event:</span></span> 
 
   ![Afbeelding van gebeurtenishub resource-id3](images/machine-info-datatype-example.png)
 
-## <a name="related-topics"></a><span data-ttu-id="29f6a-138">Verwante onderwerpen</span><span class="sxs-lookup"><span data-stu-id="29f6a-138">Related topics</span></span>
-- [<span data-ttu-id="29f6a-139">Overzicht van geavanceerd jagen</span><span class="sxs-lookup"><span data-stu-id="29f6a-139">Overview of Advanced Hunting</span></span>](advanced-hunting-overview.md)
-- [<span data-ttu-id="29f6a-140">Microsoft Defender voor Endpoint Streaming API</span><span class="sxs-lookup"><span data-stu-id="29f6a-140">Microsoft Defender for Endpoint Streaming API</span></span>](raw-data-export.md)
-- [<span data-ttu-id="29f6a-141">Microsoft Defender voor eindpuntgebeurtenissen streamen naar uw Azure-opslagaccount</span><span class="sxs-lookup"><span data-stu-id="29f6a-141">Stream Microsoft Defender for Endpoint events to your Azure storage account</span></span>](raw-data-export-storage.md)
-- [<span data-ttu-id="29f6a-142">Documentatie over Azure Storage-account</span><span class="sxs-lookup"><span data-stu-id="29f6a-142">Azure Storage Account documentation</span></span>](https://docs.microsoft.com/azure/storage/common/storage-account-overview)
+## <a name="related-topics"></a><span data-ttu-id="5c43f-133">Verwante onderwerpen</span><span class="sxs-lookup"><span data-stu-id="5c43f-133">Related topics</span></span>
+- [<span data-ttu-id="5c43f-134">Overzicht van geavanceerd jagen</span><span class="sxs-lookup"><span data-stu-id="5c43f-134">Overview of Advanced Hunting</span></span>](../defender/advanced-hunting-overview.md)
+- [<span data-ttu-id="5c43f-135">Microsoft 365 Defender Streaming API</span><span class="sxs-lookup"><span data-stu-id="5c43f-135">Microsoft 365 Defender Streaming API</span></span>](raw-data-export.md)
+- [<span data-ttu-id="5c43f-136">Gebeurtenissen Microsoft 365 Defender streamen naar uw Azure-opslagaccount</span><span class="sxs-lookup"><span data-stu-id="5c43f-136">Stream Microsoft 365 Defender events to your Azure storage account</span></span>](raw-data-export-storage.md)
+- [<span data-ttu-id="5c43f-137">Azure Storage Accountdocumentatie</span><span class="sxs-lookup"><span data-stu-id="5c43f-137">Azure Storage Account documentation</span></span>](/azure/storage/common/storage-account-overview)

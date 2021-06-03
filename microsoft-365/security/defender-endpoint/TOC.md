@@ -593,11 +593,6 @@
 ###### [Geavanceerde opsporing met behulp van PowerShell](run-advanced-query-sample-powershell.md)
 ###### [OData-query's gebruiken](exposed-apis-odata-samples.md)
 
-#### [API voor onbewerkte voor gegevensstreaming]()
-##### [Onbewerkte gegevensstreaming](raw-data-export.md)
-##### [Geavanceerde opsporingsevenementen streamen naar de Azure Events-hub](raw-data-export-event-hub.md)
-##### [Geavanceerde opsporingsevenementen streamen naar uw opslagaccount](raw-data-export-storage.md)
-
 #### [SIEM-integratie]()
 ##### [Bedreigingsinformatieconcepten begrijpen](threat-indicator-concepts.md)
 ##### [Meer informatie over verschillende manieren om detecties op te halen](configure-siem.md)

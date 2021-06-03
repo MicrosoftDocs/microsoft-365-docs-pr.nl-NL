@@ -1,5 +1,5 @@
 ---
-title: Een query uitvoeren op de gegevens in een controleset
+title: Query's uitvoeren op de inhoud in een revisieset
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -15,55 +15,104 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: Meer informatie over het maken en uitvoeren van een query in een revisieset om gegevens te ordenen voor een efficiëntere controle in een Advanced eDiscovery geval.
+description: Meer informatie over het maken en uitvoeren van een query in een revisieset om inhoud te ordenen voor een efficiëntere controle in een Advanced eDiscovery geval.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5a03b0c863f9cc2050b18ce83ed11b8a71d1db4d
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: 64dbeb8ad68f4188e5768a0a7e0e80ca6c22760b
+ms.sourcegitcommit: cc9e3cac6af23f20d7cc5ac6fc6f6e01bc3cc5c5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52345798"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52736420"
 ---
-# <a name="query-the-data-in-a-review-set"></a><span data-ttu-id="eee7c-103">Een query uitvoeren op de gegevens in een controleset</span><span class="sxs-lookup"><span data-stu-id="eee7c-103">Query the data in a review set</span></span>
+# <a name="query-and-filter-content-in-a-review-set"></a><span data-ttu-id="f801a-103">Inhoud in een revisieset query's uitvoeren en filteren</span><span class="sxs-lookup"><span data-stu-id="f801a-103">Query and filter content in a review set</span></span>
 
-<span data-ttu-id="eee7c-104">In de meeste gevallen is het handig om dieper in de gegevens in een revisieset te kunnen graven en deze gegevens te organiseren om een efficiëntere controle te vergemakkelijken.</span><span class="sxs-lookup"><span data-stu-id="eee7c-104">In most cases, it will be useful to be able to dig deeper into the data in a review set and organize that data to facilitate a more efficient review.</span></span> <span data-ttu-id="eee7c-105">Als u query's in een revisieset gebruikt, kunt u zich concentreren op een subset met documenten die voldoen aan de criteria van uw beoordeling.</span><span class="sxs-lookup"><span data-stu-id="eee7c-105">Using Queries in a review set helps you focus on a subset of documents that meet the criteria of your review.</span></span>
+<span data-ttu-id="f801a-104">In de meeste gevallen is het handig om dieper in te gaan op de inhoud in een revisieset en deze te organiseren om een efficiëntere controle te vergemakkelijken.</span><span class="sxs-lookup"><span data-stu-id="f801a-104">In most cases, it will be useful to dig deeper into the content in a review set and organize it to facilitate a more efficient review.</span></span> <span data-ttu-id="f801a-105">Als u filters en query's in een revisieset gebruikt, kunt u zich concentreren op een subset met documenten die voldoen aan de criteria van uw revisie.</span><span class="sxs-lookup"><span data-stu-id="f801a-105">Using filters and queries in a review set helps you focus on a subset of documents that meet the criteria of your review.</span></span>
 
-## <a name="creating-and-running-a-query-in-a-review-set"></a><span data-ttu-id="eee7c-106">Een query maken en uitvoeren in een revisieset</span><span class="sxs-lookup"><span data-stu-id="eee7c-106">Creating and running a query in a review set</span></span>
+## <a name="default-filters"></a><span data-ttu-id="f801a-106">Standaardfilters</span><span class="sxs-lookup"><span data-stu-id="f801a-106">Default filters</span></span>
 
-<span data-ttu-id="eee7c-107">Als u een query wilt maken en uitvoeren op de documenten in een revisieset, **selecteert** u Nieuwe query in de revisieset.</span><span class="sxs-lookup"><span data-stu-id="eee7c-107">To create and run a query on the documents in a review set, select **New query** in the review set.</span></span> <span data-ttu-id="eee7c-108">Nadat u de naam van de query hebt gegeven en de voorwaarden hebt bepaald, **selecteert** u Opslaan om de query op te slaan en uit te voeren.</span><span class="sxs-lookup"><span data-stu-id="eee7c-108">After you name your query and define the conditions, select **Save** to save and run the query.</span></span> <span data-ttu-id="eee7c-109">Als u een query wilt uitvoeren die eerder is opgeslagen, selecteert u een opgeslagen query.</span><span class="sxs-lookup"><span data-stu-id="eee7c-109">To run a query that has been previously saved, select a saved query.</span></span>
+<span data-ttu-id="f801a-107">In een revisieset zijn er vijf standaardfilters die vooraf zijn geladen in de revisieset:</span><span class="sxs-lookup"><span data-stu-id="f801a-107">In a review set, there are five default filters that are pre-loaded in the review set:</span></span>
 
-![Query's instellen controleren](../media/AeDReviewSetQueries.png)
+- <span data-ttu-id="f801a-108">Trefwoorden</span><span class="sxs-lookup"><span data-stu-id="f801a-108">Keywords</span></span>
+- <span data-ttu-id="f801a-109">Datum</span><span class="sxs-lookup"><span data-stu-id="f801a-109">Date</span></span>
+- <span data-ttu-id="f801a-110">Afzender/auteur</span><span class="sxs-lookup"><span data-stu-id="f801a-110">Sender/Author</span></span>
+- <span data-ttu-id="f801a-111">Onderwerp/titel</span><span class="sxs-lookup"><span data-stu-id="f801a-111">Subject/Title</span></span>
+- <span data-ttu-id="f801a-112">Tags</span><span class="sxs-lookup"><span data-stu-id="f801a-112">Tags</span></span>
 
-## <a name="building-a-review-set-query"></a><span data-ttu-id="eee7c-111">Een revisiesetquery maken</span><span class="sxs-lookup"><span data-stu-id="eee7c-111">Building a review set query</span></span>
+![Standaardfiltertypen](../media/DefaultFilterTypes.png)
 
-<span data-ttu-id="eee7c-112">U kunt een query maken met behulp van een combinatie van trefwoorden, eigenschappen en voorwaarden in de voorwaarde Trefwoorden.</span><span class="sxs-lookup"><span data-stu-id="eee7c-112">You can build a query by using a combination of keywords, properties, and conditions in the Keywords condition.</span></span> <span data-ttu-id="eee7c-113">U kunt voorwaarden ook groepen als een blok (een zogenaamde *voorwaardegroep)* om een complexere query te maken.</span><span class="sxs-lookup"><span data-stu-id="eee7c-113">You can also group conditions as a block (called a *condition group*) to build a more complex query.</span></span> <span data-ttu-id="eee7c-114">Zie Metagegevensvelden in documenten in Advanced eDiscovery voor een lijst en beschrijving van metagegevenseigenschappen die [u kunt zoeken.](document-metadata-fields-in-Advanced-eDiscovery.md)</span><span class="sxs-lookup"><span data-stu-id="eee7c-114">For a list and description of metadata properties that you can search, see [Document metadata fields in Advanced eDiscovery](document-metadata-fields-in-Advanced-eDiscovery.md).</span></span>
+<span data-ttu-id="f801a-114">Klik op elk filter om het uit te vouwen en een waarde toe te wijzen.</span><span class="sxs-lookup"><span data-stu-id="f801a-114">Click each filter to expand it and assign a value.</span></span> <span data-ttu-id="f801a-115">Klik buiten het filter om het filter automatisch toe te passen op de revisieset.</span><span class="sxs-lookup"><span data-stu-id="f801a-115">Click outside the filter to automatically apply the filter to the review set.</span></span> <span data-ttu-id="f801a-116">In de volgende schermafbeelding ziet u het datumfilter dat is geconfigureerd om documenten weer te geven binnen een datumbereik.</span><span class="sxs-lookup"><span data-stu-id="f801a-116">The following screenshot shows the Date filter configured to show documents within a date range.</span></span>
 
-### <a name="conditions"></a><span data-ttu-id="eee7c-115">Voorwaarden</span><span class="sxs-lookup"><span data-stu-id="eee7c-115">Conditions</span></span>
+![Standaardfilter uitv](../media/ExpandedFilter.png)
 
-<span data-ttu-id="eee7c-116">Elk doorzoekbaar veld in een revisieset heeft een bijbehorende voorwaarde die u kunt gebruiken om de query te maken.</span><span class="sxs-lookup"><span data-stu-id="eee7c-116">Every searchable field in a review set has a corresponding condition that you can use to build your query.</span></span>
+## <a name="add-or-remove-filters"></a><span data-ttu-id="f801a-118">Filters toevoegen of verwijderen</span><span class="sxs-lookup"><span data-stu-id="f801a-118">Add or remove filters</span></span>
 
-<span data-ttu-id="eee7c-117">Er zijn meerdere typen voorwaarden:</span><span class="sxs-lookup"><span data-stu-id="eee7c-117">There are multiple types of conditions:</span></span>
+<span data-ttu-id="f801a-119">Als u filters wilt toevoegen of verwijderen die worden weergegeven voor de revisieset, selecteert u **Filters** om het filtervenster te openen, dat wordt weergegeven op een flyoutpagina.</span><span class="sxs-lookup"><span data-stu-id="f801a-119">To add or remove filters that are displayed for the review set, select **Filters** to open the filter panel, which is displayed on a flyout page.</span></span> 
 
-- <span data-ttu-id="eee7c-118">Vrije tekst: Een voorwaarde voor vrije tekst wordt gebruikt voor tekstvelden zoals onderwerp.</span><span class="sxs-lookup"><span data-stu-id="eee7c-118">Freetext: A freetext condition is used for text fields such as subject.</span></span> <span data-ttu-id="eee7c-119">U kunt meerdere zoektermen op een lijst zetten door ze te scheiden met een komma.</span><span class="sxs-lookup"><span data-stu-id="eee7c-119">You can list multiple search terms by separating them out with a comma.</span></span>
+![Deelvenster Filter](../media/FilterPanel.png)
 
-- <span data-ttu-id="eee7c-120">Datum: Er wordt een datumvoorwaarde gebruikt voor datumvelden, zoals laatst gewijzigde datum.</span><span class="sxs-lookup"><span data-stu-id="eee7c-120">Date: A date condition is used for date fields such as last modified date.</span></span>
+<span data-ttu-id="f801a-121">De beschikbare filters zijn ingedeeld in vier secties:</span><span class="sxs-lookup"><span data-stu-id="f801a-121">The available filters are organized in four sections:</span></span>
 
-- <span data-ttu-id="eee7c-121">Zoekopties: Een voorwaarde voor zoekopties biedt een lijst met mogelijke waarden voor het specifieke veld in de revisieset.</span><span class="sxs-lookup"><span data-stu-id="eee7c-121">Search options: A search options condition will provide a list of possible values for the particular field in your review set.</span></span> <span data-ttu-id="eee7c-122">Dit wordt gebruikt voor velden, zoals afzender, waarbij er een eindig aantal mogelijke waarden in de revisieset staat.</span><span class="sxs-lookup"><span data-stu-id="eee7c-122">This is used for fields, such as sender, where there is a finite number of possible values in your review set.</span></span>
+- <span data-ttu-id="f801a-122">**Zoeken:** filters die verschillende zoekmogelijkheden bieden.</span><span class="sxs-lookup"><span data-stu-id="f801a-122">**Search**: Filters that provide different search capabilities.</span></span>
 
-- <span data-ttu-id="eee7c-123">Trefwoord: Een trefwoordvoorwaarde is een specifiek exemplaar van een voorwaarde voor vrije tekst die u kunt gebruiken om te zoeken naar termen of om KQL-achtige querytaal te gebruiken.</span><span class="sxs-lookup"><span data-stu-id="eee7c-123">Keyword: A keyword condition is a specific instance of freetext condition that you can use to search for terms, or use KQL-like query language in.</span></span> <span data-ttu-id="eee7c-124">Zie hieronder voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="eee7c-124">See below for more detail.</span></span>
+- <span data-ttu-id="f801a-123">**Analyse & voorspellende** codering: filters voor eigenschappen die worden gegenereerd  en toegevoegd aan documenten wanneer u de documentanalyse & of voorspellende coderingsmodellen gebruikt.</span><span class="sxs-lookup"><span data-stu-id="f801a-123">**Analytics & predictive coding**: Filters for properties generated and added to documents when you run the **Document & email analytic** job or use predictive coding models.</span></span>
 
-### <a name="query-language"></a><span data-ttu-id="eee7c-125">Querytaal</span><span class="sxs-lookup"><span data-stu-id="eee7c-125">Query language</span></span>
+- <span data-ttu-id="f801a-124">**Id's:** filtert voor alle id-eigenschappen van documenten.</span><span class="sxs-lookup"><span data-stu-id="f801a-124">**IDs**: Filters for all ID properties of documents.</span></span>
 
-<span data-ttu-id="eee7c-126">Naast de voorwaarden kunt u een KQL-achtige querytaal in de voorwaarde Trefwoorden gebruiken om uw query te maken.</span><span class="sxs-lookup"><span data-stu-id="eee7c-126">In addition to conditions, you can use a KQL-like query language in the Keywords condition to build your query.</span></span> <span data-ttu-id="eee7c-127">De querytaal voor revisiesetquery's ondersteunt standaard Booleaanse operatoren, zoals **EN**, **OF**, **NIET**, en **NEAR**.</span><span class="sxs-lookup"><span data-stu-id="eee7c-127">The query language for review set queries supports standard Boolean operators, such as **AND**, **OR**, **NOT**, and **NEAR**.</span></span> <span data-ttu-id="eee7c-128">Het ondersteunt ook een jokerteken met één teken (?) en een jokerteken met meerdere tekens (\*).</span><span class="sxs-lookup"><span data-stu-id="eee7c-128">It also supports a single-character wildcard (?) and a multi-character wildcard (\*).</span></span>
+- <span data-ttu-id="f801a-125">**Itemeigenschappen:** Filters voor documenteigenschappen.</span><span class="sxs-lookup"><span data-stu-id="f801a-125">**Item properties**: Filters for document properties.</span></span> 
 
-## <a name="filters"></a><span data-ttu-id="eee7c-129">Filters</span><span class="sxs-lookup"><span data-stu-id="eee7c-129">Filters</span></span>
+<span data-ttu-id="f801a-126">Vouw elke sectie uit en selecteer of deselecteer filters om ze toe te voegen of te verwijderen in de filterset.</span><span class="sxs-lookup"><span data-stu-id="f801a-126">Expand each section and select or deselect filters to add or remove them in the filter set.</span></span> <span data-ttu-id="f801a-127">Wanneer u een filter toevoegt, wordt dit weergegeven in de filterset.</span><span class="sxs-lookup"><span data-stu-id="f801a-127">When you add a filter, it's displayed in the filter set.</span></span> 
 
-<span data-ttu-id="eee7c-130">Naast query's die u kunt opslaan, kunt u filters voor revisiesets gebruiken om snel aanvullende voorwaarden toe te passen op een revisiesetquery.</span><span class="sxs-lookup"><span data-stu-id="eee7c-130">In addition to queries that you can save, you can use review set filters to quickly apply additional conditions to a review set query.</span></span> <span data-ttu-id="eee7c-131">Met behulp van filters kunt u de resultaten van een query voor revisiesets verder verfijnen.</span><span class="sxs-lookup"><span data-stu-id="eee7c-131">Using filters help you further refine the results displayed by a review set query.</span></span>
+![Lijst met filtersecties en eigenschappen in het filtervenster](../media/FilterPanel2.png)
 
-![Filters voor revisiesets](../media/AeDReviewSetFilters.png)
+> [!NOTE]
+> <span data-ttu-id="f801a-129">Wanneer u een sectie uitv vouwt in het filtervenster, ziet u dat de standaardfiltertypen zijn geselecteerd.</span><span class="sxs-lookup"><span data-stu-id="f801a-129">When you expand a section in the filter panel, you'll notice that the default filter types are selected.</span></span> <span data-ttu-id="f801a-130">U kunt deze geselecteerd houden of deselecteren en verwijderen uit de filterset.</span><span class="sxs-lookup"><span data-stu-id="f801a-130">You can keep these selected or deselect them and removed them from the filter set.</span></span> 
 
-<span data-ttu-id="eee7c-133">Filters verschillen op twee belangrijke manieren van query's:</span><span class="sxs-lookup"><span data-stu-id="eee7c-133">Filters differ from queries in two significant ways:</span></span>
+## <a name="filter-types"></a><span data-ttu-id="f801a-131">Filtertypen</span><span class="sxs-lookup"><span data-stu-id="f801a-131">Filter types</span></span>
 
-- <span data-ttu-id="eee7c-134">Filters zijn van tijdelijke aard.</span><span class="sxs-lookup"><span data-stu-id="eee7c-134">Filters are transient.</span></span> <span data-ttu-id="eee7c-135">Ze blijven niet langer bestaan dan de bestaande sessie.</span><span class="sxs-lookup"><span data-stu-id="eee7c-135">They don't persist beyond the existing session.</span></span> <span data-ttu-id="eee7c-136">Met andere woorden, u kunt een filter niet opslaan.</span><span class="sxs-lookup"><span data-stu-id="eee7c-136">In other words, you can't save a filter.</span></span> <span data-ttu-id="eee7c-137">Query's worden opgeslagen in de revisieset en worden geopend wanneer u de revisieset opent.</span><span class="sxs-lookup"><span data-stu-id="eee7c-137">Queries are saved to the review set, and access them whenever you open the review set.</span></span>
+<span data-ttu-id="f801a-132">Elk doorzoekbaar veld in een revisieset heeft een bijbehorend filter dat u kunt gebruiken voor filteritems op basis van een specifiek veld.</span><span class="sxs-lookup"><span data-stu-id="f801a-132">Every searchable field in a review set has a corresponding filter that you can use for filter items based on a specific field.</span></span>
 
-- <span data-ttu-id="eee7c-138">Filters zijn altijd additief.</span><span class="sxs-lookup"><span data-stu-id="eee7c-138">Filters are always additive.</span></span> <span data-ttu-id="eee7c-139">Filters worden toegepast naast de huidige query voor revisiesets.</span><span class="sxs-lookup"><span data-stu-id="eee7c-139">Filters are applied in addition to the current review set query.</span></span> <span data-ttu-id="eee7c-140">Als u een andere query toepassen, worden de resultaten vervangen die door de huidige query worden geretourneerd.</span><span class="sxs-lookup"><span data-stu-id="eee7c-140">Applying a different query will replace the results returned by the current query.</span></span>
+<span data-ttu-id="f801a-133">Er zijn meerdere typen filters:</span><span class="sxs-lookup"><span data-stu-id="f801a-133">There are multiple types of filters:</span></span>
+
+- <span data-ttu-id="f801a-134">**Vrije tekst:** Er wordt een freetekstfilter toegepast op tekstvelden zoals 'Onderwerp'.</span><span class="sxs-lookup"><span data-stu-id="f801a-134">**Freetext**: A freetext filter is applied to text fields such as "Subject".</span></span> <span data-ttu-id="f801a-135">U kunt meerdere zoektermen op een lijst zetten door ze te scheiden met een komma.</span><span class="sxs-lookup"><span data-stu-id="f801a-135">You can list multiple search terms by separating them with a comma.</span></span>
+
+- <span data-ttu-id="f801a-136">**Datum:** er wordt een datumfilter gebruikt voor datumvelden zoals 'Laatst gewijzigde datum'.</span><span class="sxs-lookup"><span data-stu-id="f801a-136">**Date**: A date filter is used for date fields such as "Last modified date".</span></span>
+
+- <span data-ttu-id="f801a-137">**Zoekopties:** Een zoekoptiesfilter bevat een lijst met mogelijke waarden (elke waarde wordt weergegeven met een selectievakje dat u kunt selecteren) voor bepaalde velden in de revisie.</span><span class="sxs-lookup"><span data-stu-id="f801a-137">**Search options**: A search options filter provides a list of possible values (each value is displayed with a checkbox that you can select) for particular fields in the review.</span></span> <span data-ttu-id="f801a-138">Dit filter wordt gebruikt voor velden, zoals 'Afzender', waarbij er een beperkt aantal mogelijke waarden in de revisieset staat.</span><span class="sxs-lookup"><span data-stu-id="f801a-138">This filter is used for fields, such as "Sender", where there is a finite number of possible values in the review set.</span></span>
+
+- <span data-ttu-id="f801a-139">**Trefwoord:** een trefwoordvoorwaarde is een specifiek exemplaar van een voorwaarde voor vrije tekst die u kunt gebruiken om te zoeken naar termen.</span><span class="sxs-lookup"><span data-stu-id="f801a-139">**Keyword**: A keyword condition is a specific instance of freetext condition that you can use to search for terms.</span></span> <span data-ttu-id="f801a-140">U kunt ook KQL-achtige querytaal gebruiken in dit type filter.</span><span class="sxs-lookup"><span data-stu-id="f801a-140">You can also use KQL-like query language in this type of filter.</span></span> <span data-ttu-id="f801a-141">Zie de secties Querytaal en Geavanceerde opbouwfunctie voor query's in dit onderwerp voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="f801a-141">For more information, see the Query language and Advanced query builder sections in this topic.</span></span>
+
+## <a name="include-and-exclude-filter-relationships"></a><span data-ttu-id="f801a-142">Filterrelaties opnemen en uitsluiten</span><span class="sxs-lookup"><span data-stu-id="f801a-142">Include and exclude filter relationships</span></span>
+
+<span data-ttu-id="f801a-143">U hebt de optie om de op te nemen en uit te sluiten relatie voor een bepaald filter.</span><span class="sxs-lookup"><span data-stu-id="f801a-143">You have the option to change the include and exclude relationship for a particular filter.</span></span> <span data-ttu-id="f801a-144">In het filter Label kunt u bijvoorbeeld items uitsluiten die met een bepaalde tag zijn gemarkeerd door Gelijk aan **geen** van in het vervolgkeuzefilter te selecteren.</span><span class="sxs-lookup"><span data-stu-id="f801a-144">For example, in the Tag filter, you can exclude items that are tagged with a particular tag by selecting **Equals none of** in the dropdown filter.</span></span> 
+
+![Labelfilter uitsluiten](../media/TagFilterExclude.png)
+
+## <a name="save-filters-as-queries"></a><span data-ttu-id="f801a-146">Filters opslaan als query's</span><span class="sxs-lookup"><span data-stu-id="f801a-146">Save filters as queries</span></span>
+
+<span data-ttu-id="f801a-147">Nadat u tevreden bent over uw filters, kunt u de filtercombinatie opslaan als een filterquery.</span><span class="sxs-lookup"><span data-stu-id="f801a-147">After you are satisfied with your filters, you can save the filter combination as a filter query.</span></span> <span data-ttu-id="f801a-148">Hiermee kunt u het filter toepassen in de toekomstige revisiesessies.</span><span class="sxs-lookup"><span data-stu-id="f801a-148">This lets you apply the filter in the future review sessions.</span></span>
+
+<span data-ttu-id="f801a-149">Als u een filter wilt opslaan, **selecteert u De query opslaan** en een naam geven.</span><span class="sxs-lookup"><span data-stu-id="f801a-149">To save a filter, select **Save the query** and name it.</span></span> <span data-ttu-id="f801a-150">U of andere revisoren kunnen eerder opgeslagen filterquery's uitvoeren door de vervolgkeuzekeuze van opgeslagen filterquery's te selecteren en een filterquery te selecteren die u wilt toepassen om de setdocumenten te controleren. </span><span class="sxs-lookup"><span data-stu-id="f801a-150">You or other reviewers can run previously saved filter queries by selecting the **Saved filter queries** dropdown and selecting a filter query to apply to review set documents.</span></span> 
+
+![Een filterquery opslaan](../media/SaveFilterQuery.png)
+
+<span data-ttu-id="f801a-152">Als u een filterquery wilt verwijderen, opent u het filtervenster en selecteert u het prullenbakpictogram naast de query.</span><span class="sxs-lookup"><span data-stu-id="f801a-152">To delete a filter query, open the filter panel and select the trashcan icon next to the query.</span></span>
+
+![Een filterquery verwijderen](../media/DeleteFilterQuery.png)
+
+## <a name="query-language"></a><span data-ttu-id="f801a-154">Querytaal</span><span class="sxs-lookup"><span data-stu-id="f801a-154">Query language</span></span>
+
+<span data-ttu-id="f801a-155">Naast het gebruik van filters kunt u ook een KQL-achtige querytaal gebruiken in het filter Trefwoorden om de zoekquery voor revisiesets te maken.</span><span class="sxs-lookup"><span data-stu-id="f801a-155">In addition to using filters, you can also use a KQL-like query language in the Keywords filter to build your review set search query.</span></span> <span data-ttu-id="f801a-156">De querytaal voor revisiesetquery's ondersteunt standaard Booleaanse operatoren, zoals **EN**, **OF**, **NIET**, en **NEAR**.</span><span class="sxs-lookup"><span data-stu-id="f801a-156">The query language for review set queries supports standard Boolean operators, such as **AND**, **OR**, **NOT**, and **NEAR**.</span></span> <span data-ttu-id="f801a-157">Het ondersteunt ook een jokerteken met één teken (?) en een jokerteken met meerdere tekens (\*).</span><span class="sxs-lookup"><span data-stu-id="f801a-157">It also supports a single-character wildcard (?) and a multi-character wildcard (\*).</span></span>
+
+## <a name="advanced-query-builder"></a><span data-ttu-id="f801a-158">Geavanceerde opbouwfunctie voor query's</span><span class="sxs-lookup"><span data-stu-id="f801a-158">Advanced query builder</span></span>
+
+<span data-ttu-id="f801a-159">U kunt ook geavanceerdere query's maken om documenten te zoeken in een revisieset.</span><span class="sxs-lookup"><span data-stu-id="f801a-159">You can also build more advanced queries to search for documents in a review set.</span></span>
+
+1. <span data-ttu-id="f801a-160">Open het filtervenster, selecteer **Filters** en vouw de **sectie** Zoeken uit.</span><span class="sxs-lookup"><span data-stu-id="f801a-160">Open the filter panel, select **Filters**, and expand the **Search** section.</span></span>
+
+  ![Een KQL-filter toevoegen](../media/AddKQLFilter.png)
+
+2. <span data-ttu-id="f801a-162">Selecteer het **KQL-filter** en klik **op Opbouwfunctie voor query's openen.**</span><span class="sxs-lookup"><span data-stu-id="f801a-162">Select the **KQL** filter and click **Open query builder**.</span></span>
+
+   <span data-ttu-id="f801a-163">In dit deelvenster kunt u complexe KQL-query's maken met behulp van de opbouwfunctie voor query's.</span><span class="sxs-lookup"><span data-stu-id="f801a-163">In this panel, you can create complex KQL queries by using the query builder.</span></span> <span data-ttu-id="f801a-164">U kunt voorwaarden toevoegen of voorwaardengroepen toevoegen die zijn opgebouwd uit meerdere voorwaarden die logisch zijn verbonden door **EN-** of **OF-relaties.**</span><span class="sxs-lookup"><span data-stu-id="f801a-164">You can add conditions or add condition groups that are made up of multiple conditions that are logically connected by **AND** or **OR** relationships.</span></span>
+
+   ![Opbouwfunctie voor query's gebruiken om complexe filterquery's te configureren](../media/ComplexQuery.png)
