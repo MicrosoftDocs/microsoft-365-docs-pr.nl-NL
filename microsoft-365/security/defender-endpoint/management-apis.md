@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: a57cebd2cb7d35f968ed9ddfa4d9215eac2182d6
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 78ab364f8a261b1201fad17ebf86adc1a7456a46
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934451"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730835"
 ---
 # <a name="overview-of-management-and-apis"></a>Overzicht van beheer en API's 
 
@@ -41,7 +41,7 @@ Als u erkent dat klantomgevingen en -structuren kunnen variëren, is Defender fo
 
 ## <a name="endpoint-onboarding-and-portal-access"></a>Onboarding van eindpunten en portaltoegang 
 
-Apparaat onboarding is volledig geïntegreerd in Microsoft Endpoint Manager en Microsoft Intune voor clientapparaten en Azure Defender voor serverapparaten, wat volledige end-to-end ervaring biedt met configuratie, implementatie en monitoring. Daarnaast ondersteunt Microsoft Defender voor Eindpunt groepsbeleid en andere hulpprogramma's van derden die worden gebruikt voor apparatenbeheer.
+Apparaat onboarding is volledig geïntegreerd in Microsoft Endpoint Manager en Microsoft Intune voor clientapparaten en Azure Defender voor serverapparaten, wat volledige end-to-end ervaring biedt voor configuratie, implementatie en monitoring. Daarnaast ondersteunt Microsoft Defender voor Eindpunt groepsbeleid en andere hulpprogramma's van derden die worden gebruikt voor apparatenbeheer.
 
 Defender voor Eindpunt biedt een fijnkorrelige controle over wat gebruikers met toegang tot de portal kunnen zien en doen via de flexibiliteit van op rollen gebaseerde toegangsbeheer (RBAC). Het RBAC-model ondersteunt alle smaken van de structuur van beveiligingsteams:
 - Wereldwijd verspreide organisaties en beveiligingsteams
@@ -71,16 +71,17 @@ Met de **Onderzoeks-API** wordt de rijkdom van Defender voor Eindpunt beschreven
 
 De **Response API** biedt de mogelijkheid om acties uit te voeren in de service en op apparaten, zodat klanten indicatoren kunnen opnemen, instellingen kunnen beheren, de status van een waarschuwing kunnen beheren en reactieacties kunnen uitvoeren op apparaten die programmatisch zijn, zoals apparaten isoleren van het netwerk, quarantainebestanden en andere apparaten. 
 
-## <a name="raw-data-streaming-api"></a>API voor onbewerkte voor gegevensstreaming 
-Defender for Endpoint Raw Data Streaming API biedt klanten de mogelijkheid om realtime gebeurtenissen en waarschuwingen van hun exemplaren te verzenden terwijl ze binnen één gegevensstroom voorkomen, wat zorgt voor een lage latentie en een mechanisme voor hoge doorvoerbezorging.
+## <a name="streaming-api"></a>Streaming-API 
+Streaming API biedt klanten de mogelijkheid om realtimegebeurtenissen en waarschuwingen van hun exemplaren te verzenden wanneer ze binnen één gegevensstroom voorkomen, wat een lage latentie, een hoog doorvoerbezorgingsmechanisme biedt.
 
-De gebeurtenisgegevens van Defender voor Eindpunt worden rechtstreeks naar Azure-opslag voor gegevensopslag op lange termijn of naar Azure Event Hubs voor gebruik door visualisatieservices of extra gegevensverwerkingsmotoren. 
+Gebeurtenisgegevens worden rechtstreeks naar Azure-opslag voor gegevensopslag op lange termijn of naar Azure Event Hubs voor gebruik door visualisatieservices of extra gegevensverwerkingsmotoren. 
 
-Zie Raw data streaming API voor meer [informatie.](raw-data-export.md)
+>[!NOTE]
+>Streaming API is nu verplaatst naar Microsoft 365 Defender. Zie Streaming [API voor meer informatie.](raw-data-export.md)
 
 
 ## <a name="siem-api"></a>SIEM-API
-Wanneer u beveiligingsgegevens en SIEM-integratie (Event Management) inschakelen, kunt u hiermee detecties uit het Microsoft Defender-beveiligingscentrum halen met behulp van uw SIEM-oplossing of door rechtstreeks verbinding te maken met de REST-API voor detecties. Hiermee activeert u de sectie toegangsgegevens van de SIEM-verbindingslijn met vooraf ingevulde waarden en wordt er een toepassing gemaakt onder uw Azure Active Directory -tenant (Azure AD). Zie [SIEM-integratie voor meer informatie.](enable-siem-integration.md)
+Wanneer u beveiligingsgegevens en SIEM-integratie (Event Management) inschakelen, kunt u hiermee detecties uit Microsoft Defender-beveiligingscentrum halen met uw SIEM-oplossing of door rechtstreeks verbinding te maken met de REST-API voor detecties. Hiermee activeert u de sectie toegangsdetails van de SIEM-connector met vooraf ingevulde waarden en wordt er een toepassing gemaakt onder uw Azure Active Directory (Azure AD)-tenant. Zie [SIEM-integratie voor meer informatie.](enable-siem-integration.md)
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Toegang tot de API's van Microsoft Defender voor eindpunten ](apis-intro.md)

@@ -1,6 +1,6 @@
 ---
-title: Microsoft 365 Api's voor Defender-incidenten en het type incidentresource
-description: Meer informatie over de methoden en eigenschappen van het resourcetype Incident in Microsoft 365 Defender
+title: Microsoft 365 Api's voor Defender-incidenten en het resourcetype incidenten
+description: Meer informatie over de methoden en eigenschappen van het resourcetype Incidenten in Microsoft 365 Defender
 keywords: incident, incidenten, api
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -20,20 +20,20 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 5cc149668e49e21b38b5fb95ae3f40db6c296e1d
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 587d6107b0c09b2178311d8da6606968e7fda083
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572583"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730928"
 ---
-# <a name="microsoft-365-defender-incidents-api-and-the-incident-resource-type"></a>Microsoft 365 Defender-incidenten-API en het type incidentresource
+# <a name="microsoft-365-defender-incidents-api-and-the-incidents-resource-type"></a>Microsoft 365 Defender-incidenten-API en het resourcetype incidenten
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
 
-- Microsoft 365 Defender
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > [!IMPORTANT]
 > Sommige informatie is gerelateerd aan voorlopige productversies die mogelijk aanzienlijk gewijzigd worden voordat ze commercieel gepubliceerd worden. Microsoft geeft geen garantie, uitdrukkelijk of impliciet, met betrekking tot de informatie die hier wordt beschreven.
@@ -79,7 +79,7 @@ tags | lijst met tekenreeksen | Lijst met incidentlabels.
 opmerkingen | Lijst met opmerkingen over incidenten | Incident Comment object contains: comment string, createdBy string, and createTime date time.
 waarschuwingen | Lijst met waarschuwingen | Lijst met gerelateerde waarschuwingen. Zie voorbeelden van [API-documentatie lijstincidenten.](api-list-incidents.md)
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-articles"></a>Aanverwante artikelen
 
 - [Microsoft 365 Overzicht van DEFENDER-API's](api-overview.md)
 - [Overzicht van incidenten](incidents-overview.md)

@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 6f0c92371e7e9b7a3348f90df788ee8c3a46374b
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 833bc1d8284829323cc2f0c391e42f4e563a6948
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572151"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730880"
 ---
 # <a name="list-incidents-api-in-microsoft-365-defender"></a>Lijst incidenten API in Microsoft 365 Defender
 
@@ -34,7 +34,7 @@ ms.locfileid: "52572151"
 
 **Van toepassing op:**
 
-- Microsoft 365 Defender
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > [!IMPORTANT]
 > Sommige informatie is gerelateerd aan voorlopige productversies die mogelijk aanzienlijk gewijzigd worden voordat ze commercieel gepubliceerd worden. Microsoft geeft geen garantie, uitdrukkelijk of impliciet, met betrekking tot de informatie die hier wordt beschreven.
@@ -722,7 +722,7 @@ GET https://api.security.microsoft.com/api/incidents
 }
 ```
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-articles"></a>Aanverwante artikelen
 
 - [Toegang tot Microsoft 365 Defender-API's](api-access.md)
 - [Meer informatie over API-limieten en -licenties](api-terms.md)

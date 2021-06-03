@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0e09a313b512135785050abd5aa61bb9576ce1d8
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 2242d195f4a4ea4b8f0c345d82fa0ad1f947bfa2
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274938"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730760"
 ---
 # <a name="microsoft-defender-for-endpoint-on-linux"></a>Microsoft Defender voor Eindpunt op Linux
 
@@ -77,7 +77,7 @@ Als er installatiefouten optreden, raadpleegt u [Installatiefouten oplossen in M
 
 ### <a name="system-requirements"></a>Systeemvereisten
 
-- Ondersteunde Linux-serverdistributies en -versies:
+- Ondersteunde Linux-serverdistributies en x64-versies (AMD64/EM64T) :
 
   - Red Hat Enterprise Linux 7.2 of hoger
   - CentOS 7.2 of hoger
@@ -135,7 +135,7 @@ Nadat u de service hebt ingeschakeld, moet u mogelijk uw netwerk of firewall con
 
 In de volgende downloadbare spreadsheet vindt u de services en bijbehorende URL's waar uw netwerk verbinding mee moet kunnen maken. U moet ervoor zorgen dat er geen firewall- of netwerkfilterregels zijn die de toegang tot deze URL's weigeren. Als dat zo is, moet u mogelijk een *regel* voor toestaan speciaal voor hen maken.
 
-| Spreadsheet met domeinenlijst | Omschrijving |
+| Spreadsheet met domeinenlijst | Beschrijving |
 |:-----|:-----|
 |![Thumb image for Microsoft Defender for Endpoint URLLs spreadsheet](images/mdatp-urls.png)<br/>  | Spreadsheet met specifieke DNS-records voor servicelocaties, geografische locaties en besturingssysteem. <br><br>[Download de spreadsheet hier.](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx)
 

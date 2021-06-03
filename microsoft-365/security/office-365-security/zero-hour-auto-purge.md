@@ -22,12 +22,12 @@ ms.custom:
 description: Beheerders kunnen meer informatie krijgen over hoe zap (Zero Hour Auto Purge) bezorgde berichten in een Exchange Online-postvak met terugwerkende kracht naar de map Ongewenste e-mail of quarantaine kan verplaatsen die met terugwerkende kracht spam of phishing zijn.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ee5a3fee8e189ff9cc08f187971e728670766d6d
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 9612f6267a0786b6f81f1c9a3f2ac270e344d0a8
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684193"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730676"
 ---
 # <a name="zero-hour-auto-purge-zap-in-exchange-online"></a>Auto purge (ZAP) van nul uur in Exchange Online
 
@@ -72,6 +72,12 @@ Voor gelezen of **ongelezen** berichten die na de bezorging als phishing worden 
 ZAP voor phishing is standaard ingeschakeld in antispambeleid en  de standaardactie voor het filteren van phishing-e-mail is **Quarantainebericht,** wat betekent dat ZAP voor phishing het bericht standaard in quarantaine zet.
 
 Zie [Antispambeleid](configure-your-spam-filter-policies.md)configureren in Microsoft 365.
+
+### <a name="zap-for-high-confidence-phishing"></a>ZAP voor phishing met hoog vertrouwen 
+
+Voor **gelezen of ongelezen berichten** die worden geïdentificeerd als phishing met veel vertrouwen na de bezorging, wordt het bericht door ZAP in quarantaine geplaatst. Alleen beheerders kunnen phish-berichten met veel vertrouwen vanuit quarantaine bekijken en beheren. 
+
+ZAP voor phish met hoog vertrouwen is standaard ingeschakeld. Zie Standaard Beveiligen [in Office 365.](secure-by-default.md)
 
 ### <a name="zap-for-spam"></a>ZAP voor spam
 
@@ -119,6 +125,6 @@ ZAP werkt nog steeds zolang het bericht niet is verwijderd, of zolang dezelfde o
 
 ### <a name="how-does-zap-affect-mailboxes-on-hold"></a>Wat is de invloed van ZAP op postvakken in de wacht?
 
-ZAP zal geen berichten uit postvakken in quarantaine plaatsen in de wacht. ZAP kan berichten verplaatsen naar de map Ongewenste e-mail op basis van de actie die is geconfigureerd voor spam of phishing in antispambeleid.
+ZAP gaat berichten uit postvakken in quarantaine plaatsen in de wacht. ZAP kan berichten verplaatsen naar de map Ongewenste e-mail op basis van de actie die is geconfigureerd voor spam of phishing in antispambeleid.
 
 Zie [In-Place Hold](/Exchange/security-and-compliance/in-place-and-litigation-holds)and Litigation Hold in Exchange Online Exchange Online voor meer informatie over in- en Exchange Online.

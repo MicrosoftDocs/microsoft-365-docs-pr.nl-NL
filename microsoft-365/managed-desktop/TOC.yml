@@ -147,14 +147,6 @@
           items:
             - name: Inventarisrapport voor apparaten
               href: working-with-managed-desktop/device-inventory-report.md
-            - name: Inzichten in gebruik
-              href: working-with-managed-desktop/usage-insights.md
-            - name: Inzichten in betrouwbaarheid
-              href: working-with-managed-desktop/reliability-insights.md
-            - name: Inzichten in batterijen
-              href: working-with-managed-desktop/battery-insights.md
-            - name: Inzichten in Windows-beveiligingsupdates
-              href: working-with-managed-desktop/security-update-insights.md
         - name: Ondersteuning voor beheerders
           href: working-with-managed-desktop/admin-support.md
         - name: Ondersteuning voor gebruikers

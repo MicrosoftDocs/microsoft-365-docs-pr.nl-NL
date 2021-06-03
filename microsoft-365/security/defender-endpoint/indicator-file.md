@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 103f5d0ad9d12a37f3a3b8065f39c24d592cc252
-ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
+ms.openlocfilehash: 6d92cbacba72210c6accbbb1e5ecf25de660fc3c
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51995055"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730532"
 ---
 # <a name="create-indicators-for-files"></a>Indicatoren voor bestanden maken
 
@@ -47,19 +47,19 @@ U kunt op drie manieren indicatoren voor bestanden maken:
 
 Het is belangrijk om de volgende vereisten te begrijpen voordat u indicatoren voor bestanden maakt:
 
-- Deze functie is beschikbaar als uw organisatie **Microsoft Defender Antivirus gebruikt (in actieve modus)** en **cloudbeveiliging is ingeschakeld.** Zie Beveiliging in de [cloud beheren voor meer informatie.](/windows/security/threat-protection/microsoft-defender-antivirus/deploy-manage-report-microsoft-defender-antivirus)
+- Deze functie is beschikbaar als uw organisatie gebruikmaakt **van Microsoft Defender Antivirus (in** actieve modus) en **cloudbeveiliging is ingeschakeld.** Zie Beveiliging in de [cloud beheren voor meer informatie.](/windows/security/threat-protection/microsoft-defender-antivirus/deploy-manage-report-microsoft-defender-antivirus)
 
 - De versie van de Antimalware-client moet 4.18.1901.x of hoger zijn. Zie [Maandelijkse platform- en engineversies](manage-updates-baselines-microsoft-defender-antivirus.md#monthly-platform-and-engine-versions)
 
 - Ondersteund op apparaten met Windows 10, versie 1703 of hoger, Windows Server 2016 en 2019.
 
-- Als u bestanden wilt blokkeren, moet u eerst de functie 'blokkeren [of toestaan'](advanced-features.md) in instellingen in- of uitschakelen.
+- Als u bestanden wilt blokkeren, moet u eerst de functie 'blokkeren of [toestaan'](advanced-features.md) in Instellingen.
 
-Deze functie is ontworpen om te voorkomen dat verdachte malware (of mogelijk schadelijke bestanden) van internet wordt gedownload. Het ondersteunt momenteel draagbare uitvoerbare (PE)-bestanden, waaronder .exe- en .dll-bestanden. De dekking wordt in de tijd uitgebreid.
+Deze functie is ontworpen om te voorkomen dat verdachte malware (of mogelijk schadelijke bestanden) van internet wordt gedownload. Het ondersteunt momenteel draagbare uitvoerbare (PE)-bestanden, .exe en .dll bestanden. De dekking wordt in de tijd uitgebreid.
 
 ## <a name="create-an-indicator-for-files-from-the-settings-page"></a>Een indicator voor bestanden maken op de pagina Instellingen
 
-1. Selecteer in het navigatiedeelvenster **Instellingen > Indicatoren**.
+1. Selecteer in het navigatiedeelvenster **Instellingen > Indicatoren.**
 
 2. Selecteer het **tabblad Bestandshash.**  
 
@@ -89,13 +89,13 @@ Bestanden die automatisch worden geblokkeerd door een indicator, worden niet wee
 
 Cert- en bestands-IoC-beleidsafhandelingsconflicten volgen de volgende volgorde:
 
-- Als het bestand niet is toegestaan door Windows Defender Application Control en AppLocker enforce mode policy/policies, dan **Blokkeren**
+- Als het bestand niet is toegestaan Windows Defender toepassingsbeheer en AppLocker-modusbeleid/-beleid afdwingen, **blokkeert** u
 
-- Anders als het bestand is toegestaan door de Defender Anti-Virus Exclusion, dan **Toestaan**
+- Anders als het bestand is toegestaan door de Microsoft Defender Antivirus uitsluiting, dan **toestaan**
 
 - Anders als het bestand is geblokkeerd of gewaarschuwd door een blok- of waarschuwingsbestand-IoC, vervolgens **blokkeren/waarschuwen**
 
-- Anders als het bestand is toegestaan door een IOC-beleid voor bestand toestaan, wordt **het bestand vervolgens toegestaan**
+- Anders als het bestand is toegestaan door een IoC-beleid voor bestand toestaan, wordt **het bestand vervolgens toegestaan**
 
 - Anders als het bestand is geblokkeerd door ASR-regels, CFA, AV, SmartScreen en **vervolgens Blokkeren**  
 
@@ -103,7 +103,7 @@ Cert- en bestands-IoC-beleidsafhandelingsconflicten volgen de volgende volgorde:
 
 Als er conflicterende bestands-IoC-beleidsregels zijn met hetzelfde afdwingingstype en hetzelfde doel, wordt het beleid van de veiligere hash (wat langer betekent) toegepast. Een sha-256-bestandshash-IoC-beleid zal bijvoorbeeld een IoC-beleid voor MD5-bestandshash winnen als beide hashtypen hetzelfde bestand definiëren.
 
-Houd er rekening mee dat de functies voor het blokkeren van kwetsbare toepassingen voor bedreigings- en kwetsbaarheidsbeheer de bestands-Ioc's gebruiken voor handhaving en de bovenstaande conflictafhandelingsvolgorde volgen.
+Houd er rekening Threat and Vulnerability Management de functies van de blokkering van kwetsbare toepassingen de bestands-Ioc's gebruiken voor handhaving en volgen de bovenstaande conflictafhandelingsvolgorde.
 
 ### <a name="examples"></a>Voorbeelden
 
@@ -113,7 +113,7 @@ Houd er rekening mee dat de functies voor het blokkeren van kwetsbare toepassing
 |Surface Reduction-regel voor aanvallen |Blokkeren |Toestaan |Toestaan
 |Windows Defender-toepassingsbeheer |Toestaan |Blokkeren |Toestaan |
 |Windows Defender-toepassingsbeheer |Blokkeren |Toestaan |Blokkeren
-|Uitsluiting van Microsoft Defender Antivirus |Toestaan |Blokkeren |Toestaan
+|Microsoft Defender Antivirus uitsluiting |Toestaan |Blokkeren |Toestaan
 
 ## <a name="see-also"></a>Zie ook
 

@@ -18,17 +18,17 @@ search.appverid:
 - MET150
 ms.assetid: 26af16df-34cd-4f4a-b893-bc1d2e74039e
 ms.custom: seo-marvel-apr2020
-description: Meer informatie over het filteren van gegevens met de intelligente importfunctie in Office 365 importservice wanneer u PST-bestanden importeert in Office 365.
-ms.openlocfilehash: fb978332f70495044a457147d29d8cdcf1194264
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+description: Meer informatie over het filteren van gegevens met de intelligente importfunctie in Microsoft 365 importservice wanneer u PST-bestanden importeert in Microsoft 365.
+ms.openlocfilehash: fc89467e3ea9c0af86ec6b9ef6a9d7d61079e116
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684051"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730568"
 ---
 # <a name="filter-data-when-importing-pst-files"></a>Gegevens filteren bij het importeren van PST-bestanden
 
-Gebruik de nieuwe functie Intelligent importeren in de Office 365 Service Importeren om de items in PST-bestanden te filteren die daadwerkelijk worden geïmporteerd in de doelpostvakken. Dit werkt als volgende:
+Gebruik de nieuwe functie Intelligent importeren in de Microsoft 365 Service Importeren om de items in PST-bestanden te filteren die daadwerkelijk worden geïmporteerd in de doelpostvakken. Dit werkt als volgende:
   
 - Nadat u een PST-importklus hebt gedaan en indient, worden PST-bestanden geüpload naar een Azure-opslaggebied in de Microsoft-cloud.
   
@@ -66,7 +66,7 @@ Nadat u een PST-importklus hebt gemaakt, volgt u deze stappen om de gegevens te 
   
 1. Ga naar <https://compliance.microsoft.com> en meld u aan met de referenties van een beheerdersaccount in uw organisatie.
     
-2. Klik in het linkerdeelvenster van Microsoft 365 compliancecentrum op **Informatiebeheer** \> **importeren.**
+2. Klik in het linkerdeelvenster van het Microsoft365-compliancecentrum op **Informatiebeheer** \> **Importeren**.
     
     De importtaken voor uw organisatie worden weergegeven op het **tabblad** Importeren. De **waarde Analyse voltooid** in de kolom **Status** geeft de importtaken aan die door de Microsoft 365 zijn geanalyseerd en die u kunt importeren.
     

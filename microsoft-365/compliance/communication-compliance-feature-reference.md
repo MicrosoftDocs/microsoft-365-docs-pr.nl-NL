@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 87f5e414a13d966ba2fbb30d84d7d4adae7a1d13
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: da88bc2aa0e001d714d4317948e28cdca633d17d
+ms.sourcegitcommit: cc9e3cac6af23f20d7cc5ac6fc6f6e01bc3cc5c5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624347"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52736358"
 ---
 # <a name="communication-compliance-feature-reference"></a>Verwijzing naar communicatie-compliancefunctie
 
@@ -49,6 +49,23 @@ Beleidssjablonen zijn vooraf gedefinieerde beleidsinstellingen die u kunt gebrui
 | **Belangenverstrengeling** | Communicatie tussen twee groepen of twee gebruikers controleren om conflicten te voorkomen | - Locaties: Exchange Online, Microsoft Teams, Yammer, Skype voor Bedrijven <br> - Richting: Intern <br> - Percentage controleren: 100% <br> - Voorwaarden: Geen |
 
 Communicatie wordt elke 24 uur gescand vanaf het moment dat beleid wordt gemaakt. Als u bijvoorbeeld om 11:00 uur een aanstootgevend taalbeleid maakt, worden in het beleid elke 24 uur om 11:00 uur dagelijks communicatie-compliancesignalen verzameld. Het bewerken van een beleid verandert deze keer niet. Als u de laatste scandatum en -tijd voor een beleid wilt weergeven, gaat u naar de kolom Laatste *beleidsscan* op de **pagina** Beleid. Nadat u een nieuw beleid hebt gemaakt, kan het tot 24 uur duren voordat de eerste scandatum en -tijd van het beleid worden bekeken. De datum en tijd van de laatste scan worden geconverteerd naar de tijdzone van uw lokale systeem.
+
+## <a name="pausing-a-policy-preview"></a>Een beleid onderbreken (voorbeeld)
+
+Nadat u een communicatie-compliancebeleid hebt gemaakt, wordt het beleid mogelijk tijdelijk onderbroken indien nodig. Het onderbreken van een beleid kan worden gebruikt voor het testen of oplossen van problemen met beleidscondities of voor het optimaliseren van beleidsvoorwaarden. In plaats van een beleid in deze omstandigheden te verwijderen, worden bij het onderbreken van een beleid ook bestaande beleidswaarschuwingen en berichten bewaard voor lopende onderzoeken en beoordelingen. Als u een beleid pauzeert, wordt voorkomen dat alle gebruikersberichtvoorwaarden die in het beleid zijn gedefinieerd, worden gecontroleerd en gewaarschuwd wanneer het beleid wordt onderbroken. Als u een beleid wilt onderbreken of opnieuw wilt starten, moeten gebruikers lid zijn van de rollengroep *Communicatie compliancebeheerder.*
+
+Als u een beleid wilt onderbreken, gaat u naar de **pagina** Beleid, selecteert u een beleid en selecteert u Vervolgens **Beleid onderbreken** op de werkbalk Acties. In het **deelvenster Beleid onderbreken** bevestigt u dat u het beleid wilt onderbreken door Onderbreken te **selecteren.** In sommige gevallen kan het tot 24 uur duren voordat een beleid is onderbroken. Wanneer het beleid is onderbroken, worden er geen waarschuwingen gemaakt voor berichten die overeenkomen met het beleid. Berichten die zijn gekoppeld aan waarschuwingen die zijn gemaakt vóór het onderbreken van het beleid, blijven echter beschikbaar voor onderzoek, controle en herstel.
+
+De beleidsstatus voor onderbroken beleid kan verschillende statussen aangeven:
+
+- **Actief:** Het beleid is actief
+- **Onderbroken:** Het beleid wordt volledig onderbroken.
+- **Onderbreken:** het beleid wordt momenteel onderbroken.
+- **Hervatten:** Het beleid in het proces dat wordt hervat.
+- **Fout bij het opnieuw op te** maken: er is een fout opgetreden bij het opnieuw maken van het beleid. Voor de trace van de foutenstapel beweegt u de muisaanwijzer boven de status Fout *bij* het opnieuw weergeven van de status in de kolom Status op de pagina Beleid.
+- **Fout bij onderbreken:** er is een fout opgetreden bij het onderbreken van het beleid. Voor de trace van de foutenstapel beweegt u de muisaanwijzer boven de fout bij het *onderbreken* van de status in de kolom Status op de pagina Beleid.
+
+Als u een beleid wilt hervatten, gaat u naar **de** pagina Beleid, selecteert u een beleid en selecteert u vervolgens Beleid **hervatten** op de werkbalk Acties. Bevestig in **het deelvenster** Cv-beleid dat u het beleid wilt hervatten door Hervatten **te selecteren.** In sommige gevallen kan het tot 24 uur duren voordat een beleid is hervat. Wanneer het beleid is hervat, worden waarschuwingen voor berichten die overeenkomen met het beleid gemaakt en zijn ze beschikbaar voor onderzoek, controle en herstel.
 
 ## <a name="permissions"></a>Machtigingen
 

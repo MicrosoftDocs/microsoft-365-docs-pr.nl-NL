@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 496ad5695d9cd491817bad5daf3c76a02addefd1
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: b19a6072be5f97b90c117f053ccae4593587c43d
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51904186"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730892"
 ---
 # <a name="overview-of--microsoft-365-defender-apis"></a>Overzicht van Microsoft 365 Defender-API's
 
@@ -46,7 +46,10 @@ Gebruik de Microsoft 365 Defender-API's om werkstromen te automatiseren op basis
 
 - **[Op zoek](api-advanced-hunting.md)** naar bedreigingen tussen producten: gebruik de organisatiekennis van uw beveiligingsteam om te zoeken naar tekenen van compromissen door uw eigen aangepaste query's te maken om onbewerkte gegevens te oversprokken die zijn verzameld in meerdere beveiligingsproducten.
 
-Naast deze Microsoft 365 Defender-specifieke API's worden in elk van onze andere beveiligingsproducten extra [API's](api-articles.md) aan de man brengen om te profiteren van hun unieke mogelijkheden.
+Gebruik de [Streaming API om](../defender-endpoint/raw-data-export.md) realtimegebeurtenissen en waarschuwingen van exemplaren te verzenden terwijl deze binnen één gegevensstroom plaatsvinden.
+
+
+Naast deze Microsoft 365 defender-specifieke API's, worden in elk [](api-articles.md) van onze andere beveiligingsproducten extra API's aan de man Microsoft 365 om te profiteren van hun unieke mogelijkheden.
 
 
 > [!NOTE]
@@ -58,12 +61,12 @@ Naast deze Microsoft 365 Defender-specifieke API's worden in elk van onze andere
 | **Meer informatie over het openen van de API's** |
 |-|
 | [Meer informatie over API-quota en -licenties](api-terms.md) |
-| [De Microsoft 365 Defender-API's openen](api-access.md) |
+| [Toegang tot Microsoft 365 Defender-API's](api-access.md) |
 | **Apps maken** |
 | [Een 'Hello world' app maken](api-hello-world.md) |
-| [Een app maken voor toegang tot Microsoft 365 Defender-API's namens een gebruiker](api-create-app-user-context.md) |
-| [Een app maken voor toegang tot Microsoft 365 Defender zonder een gebruiker](api-create-app-web.md) |
-| [Een app maken met partnertoegang voor meerdere tenants tot Microsoft 365 Defender-API's](api-partner-access.md) |
+| [Een app maken voor toegang Microsoft 365 Defender-API's namens een gebruiker](api-create-app-user-context.md) |
+| [Een app maken voor toegang Microsoft 365 Defender zonder een gebruiker](api-create-app-web.md) |
+| [Een app maken met partnertoegang voor meerdere tenants Microsoft 365 Defender-API's](api-partner-access.md) |
 | **Problemen met uw apps oplossen en onderhouden** |
 | [Api-foutcodes begrijpen](api-error-codes.md) |
 | [Geheimen beheren in uw apps met Azure Key Vault](/learn/modules/manage-secrets-with-azure-key-vault/) |

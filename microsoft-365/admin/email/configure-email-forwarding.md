@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: ab5eb117-0f22-4fa7-a662-3a6bdb0add74
 description: Met e-mail doorsturen kunt u e-mailberichten doorsturen die zijn verzonden naar een Microsoft 365 postvak van een gebruiker naar een ander postvak binnen of buiten uw organisatie.
-ms.openlocfilehash: 1d16a44749b51b582b7198cb331edf7faf3cf1f8
-ms.sourcegitcommit: 4bcac4cb4f9399ebbd7c8cff0abb4d6ecedb731e
+ms.openlocfilehash: dfea738f5d786b6e476dd02dc92fd0aef452d62f
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52698914"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730136"
 ---
 # <a name="configure-email-forwarding-in-microsoft-365"></a>E-mail doorsturen configureren in Microsoft 365
 
@@ -57,7 +57,16 @@ U moet een beheerder Exchange globale beheerder in Microsoft 365 om deze stappen
 
 4. Selecteer op de pagina e-mail doorsturen de optie Alle e-mailberichten doorsturen die naar dit postvak zijn verzonden, voer het doorgestuurde adres in en kies of u een kopie van doorgestuurde e-mailberichten wilt bewaren. Als u deze optie niet ziet, moet u ervoor zorgen dat er een licentie is toegewezen aan het gebruikersaccount. Selecteer **Wijzigingen opslaan**.
 
-    **Als u meerdere e-mailadressen** wilt doorsturen, kunt u de gebruiker vragen om een regel in te stellen in Outlook door te sturen naar de adressen. Zie Regels gebruiken om berichten automatisch door te sturen voor [meer informatie.](https://support.microsoft.com/office/45aa9664-4911-4f96-9663-ece42816d746)
+    **Als u meerdere e-mailadressen** wilt doorsturen, kunt u de gebruiker vragen om een regel in te stellen in Outlook door te sturen naar de adressen. 
+    
+    1.  Outlook   >  **Home**  >   **Rules openen >** Selecteer Regels beheren & **waarschuwingen**
+    1. Selecteer **Nieuwe regel** Selecteer Regel toepassen op het bericht dat ik ontvang onder aan de lijst en klik vervolgens op  >   **Volgende.**
+    1. Klik **op Ja** wanneer u daarom wordt gevraagd Deze regel wordt toegepast op elk bericht dat u ontvangt. 
+    1. Selecteer in de volgende lijst de acties **omleiden naar personen of** openbare groepen en stop **met het verwerken van meer regels**
+    1. Klik op de onderstreepte **woordgroep personen of openbare groep** in het onderste deel van het venster.
+    1. Typ het **e-mailadres waar** u e-mail naar wilt doorsturen in het veld Aan en klik vervolgens op **OK.**
+    1. Voltooien **selecteren**
+    
 
      Of maak in het [](../setup/create-distribution-lists.md)beheercentrum een distributiegroep, voeg de adressen hieraan toe [en](add-user-or-contact-to-distribution-list.md)stel doorsturen in om de DL aan te wijzen met de instructies in dit artikel.
 

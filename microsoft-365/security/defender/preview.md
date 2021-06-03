@@ -20,14 +20,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: c82e1abf9e539ad169bbc488ade9cd21bb8e6727
-ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
+ms.openlocfilehash: 8ad5ffe2b175a8f7a42b2fad353fcde13a60cfec
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52029072"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730520"
 ---
-# <a name="microsoft-365-defender-preview-features"></a>Preview-functies van Microsoft 365 Defender
+# <a name="microsoft-365-defender-preview-features"></a>Microsoft 365 Preview-functies van Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -39,13 +39,13 @@ ms.locfileid: "52029072"
 
 De Microsoft 365 Defender-service wordt voortdurend bijgewerkt met nieuwe functies en mogelijkheden.
 
-Lees meer over nieuwe functies in de preview-release van Microsoft 365 Defender en probeer als een van de eersten toekomstige functies door de preview-ervaring in te dagen.
+Meer informatie over nieuwe functies in Microsoft 365 Preview-release van Defender en probeer als een van de eersten toekomstige functies door de preview-ervaring in te 2013 in te 2013.
 
-Zie Nieuw [in Microsoft 365 Defender](whats-new.md)voor meer informatie over nieuwe mogelijkheden die algemeen beschikbaar zijn.
+Zie Nieuwe functies in Defender voor [meer Microsoft 365 informatie](whats-new.md)over nieuwe mogelijkheden die algemeen beschikbaar zijn.
 
 ## <a name="required-permissions"></a>Vereiste machtigingen
 
-Accounts die de volgende Azure Active Directory-rollen (Azure AD) hebben toegewezen, kunnen Microsoft 365 Defender Preview-functies in- en uit- zetten:
+Accounts die aan de volgende Azure Active Directory (Azure AD) zijn toegewezen, kunnen de functies Microsoft 365 Defender Preview in:
 
 - Globale beheerder
 - Beveiligingsbeheerder
@@ -68,7 +68,8 @@ U weet dat u preview-functies hebt ingeschakeld wanneer u ziet dat het selectiev
 
 De volgende functies en verbeteringen zijn momenteel beschikbaar in de preview-versie:
 
-- **[Microsoft 365 Defender API's](api-overview.md)** : met de api's op het hoogste niveau van Microsoft 365 Defender kunt u werkstromen automatiseren op basis van het gedeelde incident en geavanceerde zoektabellen. 
-- **[Actie ondernemen in geavanceerde jacht](advanced-hunting-take-action.md)**: snel bedreigingen bevatten of gecompromitteerde activa die u vindt in geavanceerde [jacht.](advanced-hunting-overview.md)
-- **[In-portal schemaverwijzing:](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** informatie over geavanceerde schematabellen voor jagen rechtstreeks in het beveiligingscentrum. Naast tabel- en kolombeschrijvingen bevat deze verwijzing ondersteunde gebeurtenistypen `ActionType` (waarden) en voorbeeldquery's.
-- **[DeviceFromIP(), functie:](advanced-hunting-devicefromip-function.md)** informatie over welke apparaten een specifiek IP-adres of een specifiek IP-adres op een bepaald tijdstip hebben gekregen.
+- **[Streaming API-](../defender-endpoint/raw-data-export.md)** Microsoft 365 Defender ondersteunt het streamen van alle gebeurtenissen die beschikbaar zijn via Advanced Hunting naar een Event Hubs en/of Azure-opslagaccount.
+- **[Microsoft 365 Defender API's:](api-overview.md)** met de api's op het hoogste niveau Microsoft 365 Defender kunt u werkstromen automatiseren op basis van het gedeelde incident en geavanceerde zoektabellen. 
+- **[Actie ondernemen in geavanceerde jacht](advanced-hunting-take-action.md)** : snel bedreigingen bevatten of gecompromitteerde activa die u vindt in geavanceerde [jacht.](advanced-hunting-overview.md)
+- **[In-portal schema reference](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** - Informatie over geavanceerde schematabellen voor het jagen rechtstreeks in het beveiligingscentrum. Naast tabel- en kolombeschrijvingen bevat deze verwijzing ondersteunde gebeurtenistypen `ActionType` (waarden) en voorbeeldquery's.
+- **[DeviceFromIP() functie:](advanced-hunting-devicefromip-function.md)** informatie over welke apparaten een specifiek IP-adres of een specifiek IP-adres op een bepaald tijdstip hebben gekregen.

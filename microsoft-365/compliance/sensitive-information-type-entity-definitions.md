@@ -19,12 +19,12 @@ hideEdit: true
 feedback_system: None
 recommendations: false
 description: Preventie van gegevensverlies (DLP) in het Beveiligings compliancecentrum bevat meer dan 200 typen gevoelige informatie die u kunt gebruiken in uw &amp; DLP-beleid. In dit artikel worden al deze typen gevoelige informatie beschreven en wordt beschreven waar een DLP-beleid naar zoekt wanneer elk type wordt gedetecteerd.
-ms.openlocfilehash: 0f3de14466cf9d2ebf5550eaec002bd4dea6e435
-ms.sourcegitcommit: 1206319a5d3fed8d52a2581b8beafc34ab064b1c
+ms.openlocfilehash: ff976389e75e96d0a018d7c5379e2831313388dc
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "52162854"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730472"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>Definities van entiteiten van het type Gevoelige informatie
 
@@ -38,18 +38,17 @@ negen cijfers met een opgemaakt of niet-opgemaakt patroon
 
 ### <a name="pattern"></a>Patroon
 
-Opgemaakt:
-- vier cijfers beginnend met 0, 1, 2, 3, 6, 7 of 8
-- een afbreekstreester
+- twee cijfers in het bereik 00-12, 21-32, 61-72 of 80
+- twee cijfers
+- een optioneel afbreekstreester
 - vier cijfers
-- een afbreekstreester
+- een optioneel afbreekstreester
 - een cijfer
 
-Niet-opgemaakt: negen opeenvolgende cijfers die beginnen met 0, 1, 2, 3, 6, 7 of 8 
 
 ### <a name="checksum"></a>Checksum
 
-Nee
+Ja
 
 ### <a name="definition"></a>Definitie
 
@@ -619,11 +618,12 @@ Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is 
 
 ### <a name="format"></a>Opmaak
 
-Een letter gevolgd door zeven cijfers
+acht of negen alfanumerieke tekens 
 
 ### <a name="pattern"></a>Patroon
 
-Een letter (niet zaakgevoelig) gevolgd door zeven cijfers
+- één letter (N, E, D, F, A, C, U, X), gevolgd door 7 cijfers of
+- 2 letters (PA, PB, PC, PD, PE, PF, PU, PW, PX, PZ), gevolgd door 7 cijfers.
 
 ### <a name="checksum"></a>Checksum
 
@@ -632,60 +632,48 @@ Nee
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- De normale expressie Regex_australia_passport_number inhoud die overeenkomt met het patroon.
-- Er wordt een trefwoord Keyword_passport of Keyword_australia_passport_number gevonden.
+- Met de normale `Regex_australia_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Er wordt een `Keyword_australia_passport_number` trefwoord uit gevonden.
+
+Een DLP-beleid heeft weinig vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
+- Met de normale `Regex_australia_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
 
 ```xml
-<!-- Australia Passport Number -->
-<Entity id="29869db6-602d-4853-ab93-3484f905df50" patternsProximity="300" recommendedConfidence="75">
-  <Pattern confidenceLevel="75">
+    <!-- Australia Passport Number -->
+    <Entity id="29869db6-602d-4853-ab93-3484f905df50" patternsProximity="300" recommendedConfidence="75" relaxProximity="true">
+      <Pattern confidenceLevel="75">
         <IdMatch idRef="Regex_australia_passport_number" />
-        <Any minMatches="1">
-          <Match idRef="Keyword_passport" />
-          <Match idRef="Keyword_australia_passport_number" />
-        </Any>
-   </Pattern>
-</Entity>   
+        <Match idRef="Keyword_australia_passport_number" />
+      </Pattern>
+      <Pattern confidenceLevel="65">
+        <IdMatch idRef="Regex_australia_passport_number" />
+      </Pattern>
+    </Entity>  
 ```
 
 ### <a name="keywords"></a>Trefwoorden
 
-#### <a name="keyword_passport"></a>Keyword_passport
-
-- Paspoortnummer
-- Paspoort nee
-- Paspoort #
-- Paspoort #
-- PassportID
-- Passportno
-- paspoortnummer
-- パスポート
-- パスポート番号
-- パのポーののNum
-- パスポート ＃ 
-- Numéro de passeport
-- Passeport n °
-- Passeport Non
-- Passeport #
-- Passeport #
-- PasseportNon
-- Passeportn °
-
 #### <a name="keyword_australia_passport_number"></a>Keyword_australia_passport_number
 
-- paspoort
+- paspoort #
+- paspoort #
+- passportid
+- paspoorten
+- passportno
+- paspoort nee
+- paspoortnummer
+- paspoortnummer
+- paspoortnummers
+- paspoortnummers
 - paspoortdetails
 - migratie en burgerschap
 - gemenebest van Australië
 - afdeling migratie
-- woonadres
-- ministerie van migratie en burgerschap
-- visa
 - nationale identiteitskaart
-- paspoortnummer
 - reisdocument
 - instantie voor uitgifte
-   
+
+
 ## <a name="australia-tax-file-number"></a>Australië belastingbestandsnummer
 
 ### <a name="format"></a>Opmaak
@@ -8646,7 +8634,7 @@ Patroon moet de volgende gegevens bevatten:
 
 De notatie voor elk land is iets anders. Het type IBAN-gevoelige informatie bestrijkt deze 60 landen:
 
-ad, ae, al, at, az, ba, be, bg, bh, ch, cr, cy, cz, de, dk, do, ee, es, fi, fo, fr, gb, ge, gi, gl, gr, hr, hu, ie, il, is, it, kw, kz, lb, li, lt, lu, lv, mc, md, me, mk, mr, mt, mu, nl, no, pl, pt, ro, rs, sa, se, si, sk, sm, tn, tr, vg
+ad, ae, al, at, az, ba, be, bg, bh, ch, cr, cy, cz, de, dk, do, ee, es, fi, fo, fr, gb, ge, gi, gl, gr, hr, hu, ie, il, is, it, kw, kz, lb, li, lt, lu, lv, mc, md, me, mk, mr, mt, mu, nl, no, pl, pt, ro, rs, sa, se, si, sk , sm, tn, tr, vg
 
 ### <a name="checksum"></a>Checksum
 
@@ -11062,7 +11050,7 @@ Dit type gevoelige informatie is alleen beschikbaar voor gebruik in:
     
 ### <a name="checksum"></a>Checksum
 
-Ja
+ja
   
 ### <a name="definition"></a>Definitie
 

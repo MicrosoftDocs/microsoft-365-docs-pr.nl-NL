@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ed2165c0102170256f50964180a550d8eccbce8c
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: f6ef1d3dbc111e5d10bf4d3c42dfd08e5e9d63e3
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932785"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730635"
 ---
 # <a name="microsoft-defender-for-endpoint-evaluation-lab"></a>Microsoft Defender voor endpoint-evaluatielaboratorium
 
@@ -45,7 +45,7 @@ Met de vereenvoudigde set-upervaring kunt u zich richten op het uitvoeren van uw
 
 U hebt volledige toegang tot de krachtige mogelijkheden van het platform, zoals geautomatiseerde onderzoeken, geavanceerde zoek- en bedreigingsanalyses, zodat u de uitgebreide beveiligingsstack kunt testen die Defender voor Eindpunt biedt. 
 
-U kunt Windows 10- of Windows Server 2019-apparaten toevoegen die vooraf zijn geconfigureerd om de nieuwste besturingssysteemversies, de juiste beveiligingsonderdelen en Office 2019 Standard te installeren.
+U kunt Windows 10- of Windows Server 2019-apparaten toevoegen die vooraf zijn geconfigureerd voor de nieuwste besturingssysteemversies en de juiste beveiligingsonderdelen en Office 2019 Standard zijn geïnstalleerd.
 
 U kunt ook bedreigingssimulatoren installeren. Defender for Endpoint werkt samen met toonaangevende bedreigingssimulatieplatforms om u te helpen de Mogelijkheden van Defender voor eindpunten uit te testen zonder de portal te verlaten.
 
@@ -75,9 +75,8 @@ U kunt het lab openen via het menu. Selecteer in het navigatiemenu **Evaluatie e
 
 >[!NOTE]
 >- Afhankelijk van het type omgevingsstructuur dat u selecteert, zijn apparaten beschikbaar voor het opgegeven aantal uren vanaf de dag van activering.
->- Elke omgeving is ingericht met een beperkt aantal testapparaten. Wanneer u de inrichtende apparaten hebt gebruikt, worden er geen nieuwe apparaten geleverd. Een verwijderd apparaat vernieuwt het aantal beschikbare testapparaats niet.
->- U kunt het lab niet meer gebruiken wanneer de resources zijn opgebruikt. Het wordt niet opnieuw ingesteld of vernieuwd.
->- Het is raadzaam om de resources zorgvuldig te gebruiken. De labbronnen zijn beperkt. Ze worden niet opnieuw ingesteld of vernieuwd. 
+>- Elke omgeving is ingericht met een beperkt aantal testapparaten. Wanneer u de inrichtende apparaten hebt gebruikt en deze hebt verwijderd, kunt u om meer apparaten vragen. 
+>- U kunt eenmaal per maand labbronnen aanvragen. 
 
 Hebt u al een lab? Zorg ervoor dat u de nieuwe bedreigingssimulatoren inschakelen en actieve apparaten hebt.
 
@@ -109,30 +108,27 @@ Nadat het installatieproces voor het lab is voltooid, kunt u apparaten toevoegen
 
 
 ## <a name="add-devices"></a>Apparaten toevoegen
-Wanneer u een apparaat toevoegt aan uw omgeving, stelt Defender voor Eindpunt een goed geconfigureerd apparaat met verbindingsgegevens in. U kunt Windows 10- of Windows Server 2019-apparaten toevoegen.
+Wanneer u een apparaat toevoegt aan uw omgeving, stelt Defender voor Eindpunt een goed geconfigureerd apparaat met verbindingsgegevens in. U kunt Windows 10 of Windows Server 2019-apparaten toevoegen.
 
-Het apparaat wordt geconfigureerd met de meest recente versie van het besturingssysteem en de Office 2019-standaard, evenals andere apps zoals Java, Python en SysIntenals. 
-
-   >[!TIP]
-   > Meer apparaten nodig in uw lab? Verzend een ondersteuningsticket om uw aanvraag te laten beoordeeld door het Defender voor Endpoint-team. 
+Het apparaat wordt geconfigureerd met de meest recente versie van het besturingssysteem en Office 2019 Standard, evenals andere apps zoals Java, Python en SysIntenals. 
 
 Als u ervoor kiest om een bedreigingssimulator toe te voegen tijdens de installatie van het lab, wordt op alle apparaten de agent voor de bedreigingssimulator geïnstalleerd op de apparaten die u toevoegt.
 
-Het apparaat wordt automatisch onboarded bij uw tenant met de aanbevolen Windows-beveiligingsonderdelen ingeschakeld en in de auditmodus, zonder moeite aan uw zijde. 
+Het apparaat wordt automatisch onboarded bij uw tenant met de aanbevolen Windows beveiligingsonderdelen ingeschakeld en in de auditmodus, zonder moeite aan uw zijde. 
 
 De volgende beveiligingsonderdelen zijn vooraf geconfigureerd in de testapparaten:
 
-- [Kwetsbaarheid voor aanvallen verminderen](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard)
-- [Blok op het eerste gezicht](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-block-at-first-sight-microsoft-defender-antivirus)
-- [Beheerde maptoegang](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/controlled-folders-exploit-guard)
-- [Bescherming tegen misbruik](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/enable-exploit-protection)
-- [Netwerkbeveiliging](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/network-protection-exploit-guard)
-- [Potentieel ongewenste toepassingsdetectie](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus)
-- [Cloudbeveiliging](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/utilize-microsoft-cloud-protection-microsoft-defender-antivirus)
-- [Microsoft Defender SmartScreen](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-smartscreen/windows-defender-smartscreen-overview)
+- [Kwetsbaarheid voor aanvallen verminderen](attack-surface-reduction.md)
+- [Blok op het eerste gezicht](configure-block-at-first-sight-microsoft-defender-antivirus.md)
+- [Beheerde maptoegang](controlled-folders.md)
+- [Bescherming tegen misbruik](enable-exploit-protection.md)
+- [Netwerkbeveiliging](network-protection.md)
+- [Potentieel ongewenste toepassingsdetectie](detect-block-potentially-unwanted-apps-microsoft-defender-antivirus.md)
+- [Beveiliging in de cloud](cloud-protection-microsoft-defender-antivirus.md)
+- [Microsoft Defender SmartScreen](/windows/security/threat-protection/microsoft-defender-smartscreen/microsoft-defender-smartscreen-overview)
 
 >[!NOTE]
-> Microsoft Defender Antivirus is aan (niet in de auditmodus). Als Microsoft Defender Antivirus blokkeert dat u uw simulatie kunt uitvoeren, kunt u de realtimebeveiliging op het apparaat uitschakelen via Windows-beveiliging. Zie [Always-on protection configureren](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus)voor meer informatie.
+> Microsoft Defender Antivirus is aan (niet in de auditmodus). Als Microsoft Defender Antivirus de simulatie niet kunt uitvoeren, kunt u realtimebeveiliging op het apparaat uitschakelen via Windows-beveiliging. Zie [Always-on protection configureren](configure-real-time-protection-microsoft-defender-antivirus.md)voor meer informatie.
 
 Geautomatiseerde onderzoeksinstellingen zijn afhankelijk van tenantinstellingen. Deze wordt standaard geconfigureerd als semi-geautomatiseerd. Zie Overzicht van geautomatiseerde onderzoeken voor [meer informatie.](automated-investigations.md)
 
@@ -163,10 +159,29 @@ Geautomatiseerde onderzoeksinstellingen zijn afhankelijk van tenantinstellingen.
     ![Afbeelding van het tabblad Apparaten](images/machines-tab.png)
     
 
-    >[!TIP]
-    >In de **kolom Simulatorstatus** kunt u de muisaanwijzer boven het informatiepictogram plaatsen om de installatiestatus van een agent te weten.
+    > [!TIP]
+    > In de **kolom Simulatorstatus** kunt u de muisaanwijzer boven het informatiepictogram plaatsen om de installatiestatus van een agent te weten.
+
+## <a name="request-for-more-devices"></a>Aanvragen voor meer apparaten
+Wanneer alle bestaande apparaten worden gebruikt en verwijderd, kunt u om meer apparaten vragen. U kunt eenmaal per maand labbronnen aanvragen. 
 
 
+1. Selecteer aanvragen voor meer apparaten in het **evaluatielaboratorium.**
+
+   ![Afbeelding van aanvraag voor meer apparaten](images/request-more-devices.png)
+
+2. Kies uw configuratie. 
+3. Verzend de aanvraag. 
+
+Wanneer de aanvraag is ingediend, ziet u een groene bevestigingsbanner en de datum van de laatste inzending.
+ 
+U vindt de status van uw aanvraag op **het** tabblad Gebruikersacties, dat binnen enkele uren wordt goedgekeurd.
+
+Wanneer deze zijn goedgekeurd, worden de aangevraagde apparaten toegevoegd aan de lab-set-up en kunt u meer apparaten maken. 
+
+
+> [!TIP]
+> Als u meer uit uw lab wilt halen, vergeet dan niet om onze bibliotheek met simulaties te lezen.
 
 ## <a name="simulate-attack-scenarios"></a>Scenario's voor aanvallen simuleren
 Gebruik de testapparaten om uw eigen aanvalssimulaties uit te voeren door er verbinding mee te maken. 
@@ -175,7 +190,7 @@ U kunt aanvalsscenario's simuleren met behulp van:
 - De [aanvalsscenario's 'Doe het zelf'](https://securitycenter.windows.com/tutorials)
 - Bedreigingssimulatoren
 
-U kunt ook Geavanceerd zoeken [gebruiken](advanced-hunting-query-language.md) om gegevens op te vragen en [bedreigingsanalyses](threat-analytics.md) te gebruiken om rapporten over nieuwe bedreigingen weer te geven.
+U kunt ook Geavanceerd zoeken [gebruiken](advanced-hunting-overview.md) om gegevens op te vragen en [bedreigingsanalyses](threat-analytics.md) te gebruiken om rapporten over nieuwe bedreigingen weer te geven.
 
 ### <a name="do-it-yourself-attack-scenarios"></a>Doe-het-zelf-aanvalsscenario's
 Als u op zoek bent naar een vooraf gemaakte simulatie, kunt u onze aanvalsscenario's ['Doe het zelf' gebruiken.](https://securitycenter.windows.com/tutorials) Deze scripts zijn veilig, gedocumenteerd en eenvoudig te gebruiken. Deze scenario's weerspiegelen de mogelijkheden van Defender voor eindpunten en helpen u bij het onderzoeken.
@@ -184,11 +199,11 @@ Als u op zoek bent naar een vooraf gemaakte simulatie, kunt u onze aanvalsscenar
 >[!NOTE]
 >De verbinding met de testapparaten wordt uitgevoerd met RDP. Zorg ervoor dat uw firewallinstellingen RDP-verbindingen toestaan.
 
-1. Maak verbinding met uw apparaat en voer een aanvalssimulatie uit door **Verbinding maken te selecteren.** 
+1. Verbinding maken naar uw apparaat en voer een aanvalssimulatie uit door **Verbinding maken.** 
 
     ![Afbeelding van de knop Verbinding maken voor testapparaten](images/test-machine-table.png)
 
-2. Sla het RDP-bestand op en start het door **Verbinding maken te selecteren.**
+2. Sla het RDP-bestand op en start het door **Verbinding maken.**
 
     ![Afbeelding van verbinding met extern bureaublad](images/remote-connection.png)
 

@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Volg de stappen in dit artikel om een andere werknemer toegang te geven tot de OneDrive en Outlook werknemers.
-ms.openlocfilehash: 55bc2c3d8530e5cb7702f99a77b3918bfb7c0dee
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: abcad87498f6670fe7fe2f5457321f1b3f6e0930
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52634254"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730196"
 ---
 # <a name="step-4---give-another-employee-access-to-onedrive-and-outlook-data"></a>Stap 4: een andere werknemer toegang geven tot OneDrive en Outlook gegevens
 
@@ -52,6 +52,30 @@ Als u de bestanden van een voormalige gebruiker OneDrive wilt behouden, geeft u 
 > [!NOTE]
 > U kunt maximaal 500 MB aan bestanden en mappen tegelijk verplaatsen of kopiëren.<br/>
 > Wanneer u documenten met versiegeschiedenis verplaatst of kopieert, wordt alleen de nieuwste versie verplaatst.  
+
+U kunt ook toegang verlenen aan een andere gebruiker om toegang te krijgen tot de OneDrive.
+
+1. Meld u aan bij <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">het beheercentrum</a> als globale beheerder of SharePoint beheerder.
+
+    Als u een bericht krijgt dat u geen toegang hebt tot het beheercentrum, hebt u geen beheerdersmachtigingen in uw organisatie.
+
+2. Selecteer beheercentra in  het \> **linkerdeelvenster SharePoint.** (Mogelijk moet u Alles tonen **selecteren om** de lijst met beheercentra weer te geven.)
+
+3. Als het klassieke SharePoint wordt weergegeven,  selecteert u Nu openen boven aan de pagina om het SharePoint openen.
+
+4. Selecteer meer functies in **het linkerdeelvenster.**
+
+5. Selecteer **onder Gebruikersprofielen** de optie **Openen.**
+
+6. Selecteer **onder Personen** de optie **Gebruikersprofielen beheren.**
+
+7. Voer de naam van de voormalige werknemer in en selecteer **Zoeken.**
+
+8. Klik met de rechtermuisknop op de gebruiker en kies **siteverzamelingseigenaren beheren.**
+
+9. Voeg de gebruiker toe aan **beheerders van siteverzamelingen** en selecteer **Ok.**
+
+10. De gebruiker kan nu de gegevens van de voormalige werknemer OneDrive met de OneDrive URL. 
 
 ### <a name="revoke-admin-access-to-a-users-onedrive"></a>Beheerderstoegang tot de gebruikersaccounts intrekken OneDrive
 
@@ -161,7 +185,7 @@ Als u toegang wilt geven tot de e-mailberichten, agenda, taken en contactpersone
 > [!TIP]
 > Als u slechts een paar items uit een Outlook gegevensbestand (.pst) wilt importeren of herstellen, kunt u het Outlook gegevensbestand openen. Sleep vervolgens in het navigatiedeelvenster de items van Outlook mappen met gegevensbestand naar uw bestaande Outlook mappen. 
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Beheerders toevoegen en verwijderen op een OneDrive account](/sharepoint/manage-user-profiles#add-and-remove-admins-for-a-users-onedrive) (artikel)\
 [Een verwijderde OneDrive](/onedrive/restore-deleted-onedrive) (artikel)\ herstellen

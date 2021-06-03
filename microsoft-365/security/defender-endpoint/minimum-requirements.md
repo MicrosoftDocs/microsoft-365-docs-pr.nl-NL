@@ -16,18 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 12ed9b8648630428c6da347252d077521d859482
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 6607d5029e45c77754a431c87eb61cd281e013c1
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245706"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730724"
 ---
 # <a name="minimum-requirements-for-microsoft-defender-for-endpoint"></a>Minimumvereisten voor Microsoft Defender voor Eindpunt
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
+
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
@@ -41,6 +42,7 @@ Er zijn enkele minimumvereisten voor onboarding-apparaten voor de service. Meer 
 > - Defender for Endpoint heeft in de recente MITRE-evaluatie de toonaangevende mogelijkheden voor optica en detectie gedemonstreerd. Lees: [Inzichten uit de MITRE-ATT-&op CK gebaseerde evaluatie](https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/insights-from-the-mitre-attack-based-evaluation-of-windows-defender-atp/).
 
 ## <a name="licensing-requirements"></a>Licentievereisten
+
 Voor Microsoft Defender voor Eindpunt is een van de volgende microsoft volumelicentieaanbiedingen vereist:
 
 - Windows 10 Enterprise E5
@@ -76,6 +78,7 @@ Zie Vergelijken Windows 10 voor meer informatie over de matrix met functies in W
 Zie de vergelijking PDF voor een gedetailleerde vergelijkingstabel Windows 10 vergelijking van commerciële [edities.](https://wfbdevicemanagementprod.blob.core.windows.net/windowsforbusiness/Windows10_CommercialEdition_Comparison.pdf)
 
 ## <a name="browser-requirements"></a>Browservereisten
+
 Toegang tot Defender voor Eindpunt wordt uitgevoerd via een browser, ter ondersteuning van de volgende browsers:
 
 - Microsoft Edge
@@ -88,8 +91,9 @@ Toegang tot Defender voor Eindpunt wordt uitgevoerd via een browser, ter onderst
 ## <a name="hardware-and-software-requirements"></a>Hardware- en softwarevereisten
 
 ### <a name="supported-windows-versions"></a>Ondersteunde Windows versies
-- Windows 7 SP1 Enterprise ([Vereist ESU voor ondersteuning](https://docs.microsoft.com/troubleshoot/windows-client/windows-7-eos-faq/windows-7-extended-security-updates-faq).)
-- Windows 7 SP1 Pro ([Vereist ESU voor ondersteuning](https://docs.microsoft.com/troubleshoot/windows-client/windows-7-eos-faq/windows-7-extended-security-updates-faq).)
+
+- Windows 7 SP1 Enterprise ([Vereist ESU voor ondersteuning](/troubleshoot/windows-client/windows-7-eos-faq/windows-7-extended-security-updates-faq).)
+- Windows 7 SP1 Pro ([Vereist ESU voor ondersteuning](/troubleshoot/windows-client/windows-7-eos-faq/windows-7-extended-security-updates-faq).)
 - Windows 8.1 Enterprise
 - Windows 8.1 Pro
 - Windows 10 Enterprise
@@ -118,17 +122,19 @@ De hardwarevereisten voor Defender voor Eindpunt op apparaten zijn hetzelfde voo
 
 
 ### <a name="other-supported-operating-systems"></a>Andere ondersteunde besturingssystemen
+
 - [Android](microsoft-defender-endpoint-android.md)
 - [iOS](microsoft-defender-endpoint-ios.md)
 - [Linux](microsoft-defender-endpoint-linux.md)
 - [macOS](microsoft-defender-endpoint-mac.md)
 
 > [!NOTE]
-> U moet bevestigen dat de Linux-distributies en -versies van Android, iOS en macOS die u hebt compatibel zijn met Defender voor Eindpunt om de integratie te laten werken.
+> U moet bevestigen dat de Linux-distributies en -versies van Android, iOS en macOS compatibel zijn met Defender voor Eindpunt om de integratie te laten werken.
 
 
 
 ### <a name="network-and-data-storage-and-configuration-requirements"></a>Vereisten voor netwerk- en gegevensopslag en -configuratie
+
 Wanneer u de onboardingwizard voor de eerste keer uitwerkt, moet u kiezen waar uw Microsoft Defender voor endpoint-gerelateerde informatie is opgeslagen: in de Europese Unie, het Verenigd Koninkrijk of het datacenter van de Verenigde Staten.
 
 > [!NOTE]
@@ -148,9 +154,9 @@ Deze service is standaard ingeschakeld. Het is een goede gewoonte om te controle
 
 1. Open een opdrachtregelprompt met verhoogde opdrachtregel op het apparaat:
 
-   1.  Ga naar **Start** en typ **cmd.**
+   1.  Go to **Start** and type **cmd**.
 
-   1.  Klik met de rechtermuisknop **op Opdrachtprompt** en selecteer **Uitvoeren als beheerder.**
+   1.  Klik met de rechtermuisknop op **Opdrachtprompt** en selecteer **Als beheerder uitvoeren**.
 
 2. Voer de volgende opdracht in en druk op **Enter:**
 
@@ -170,9 +176,9 @@ U moet instellen dat de service automatisch wordt start als de START_TYPE **niet
 
 1.  Open een opdrachtregelprompt met verhoogde opdrachtregel op het eindpunt:
 
-    1. Ga naar **Start** en typ **cmd.**
+    1. Go to **Start** and type **cmd**.
 
-    1. Klik met de rechtermuisknop **op Opdrachtprompt** en selecteer **Uitvoeren als beheerder.**
+    1. Klik met de rechtermuisknop op **Opdrachtprompt** en selecteer **Als beheerder uitvoeren**.
 
 2.  Voer de volgende opdracht in en druk op **Enter:**
 
@@ -188,6 +194,7 @@ U moet instellen dat de service automatisch wordt start als de START_TYPE **niet
 
 
 #### <a name="internet-connectivity"></a>Internetverbinding
+
 Internetverbinding op apparaten is rechtstreeks of via proxy vereist.
 
 De Defender for Endpoint-sensor kan een dagelijkse gemiddelde bandbreedte van 5 MB gebruiken om te communiceren met de Defender for Endpoint-cloudservice en om cybergegevens te rapporteren. Eenmalige activiteiten, zoals het uploaden van bestanden en het verzamelen van onderzoekspakketten, worden niet opgenomen in deze dagelijkse gemiddelde bandbreedte.
@@ -198,26 +205,29 @@ Voordat u apparaten aan boord gaat, moet de diagnostische gegevensservice zijn i
 
 
 ## <a name="microsoft-defender-antivirus-configuration-requirement"></a>Microsoft Defender Antivirus configuratievereiste
+
 De Defender voor Eindpunt-agent is afhankelijk van de mogelijkheid Microsoft Defender Antivirus bestanden te scannen en informatie over deze bestanden te verstrekken.
 
-Beveiligingsintelligentie-updates configureren op de Defender voor Endpoint-apparaten, ongeacht Microsoft Defender Antivirus het actieve antimalware is of niet. Zie Updates beheren Microsoft Defender Antivirus basislijnen voor [meer informatie.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/manage-updates-baselines-microsoft-defender-antivirus)
+Beveiligingsintelligentie-updates configureren op de Defender voor Endpoint-apparaten, ongeacht Microsoft Defender Antivirus het actieve antimalware is of niet. Zie Updates beheren Microsoft Defender Antivirus basislijnen voor [meer informatie.](/windows/security/threat-protection/microsoft-defender-antivirus/manage-updates-baselines-microsoft-defender-antivirus)
 
 Als Microsoft Defender Antivirus niet de actieve antimalware in uw organisatie is en u de Service Defender voor eindpunt gebruikt, wordt Microsoft Defender Antivirus passieve modus gebruikt.
 
 Als uw organisatie de Microsoft Defender Antivirus groepsbeleid of andere methoden heeft uitgeschakeld, moeten apparaten die zijn ingeschakeld, worden uitgesloten van dit groepsbeleid.
 
-Als u servers onboardt en Microsoft Defender Antivirus niet de actieve antimalware op uw servers is, moeten Microsoft Defender Antivirus worden geconfigureerd om in de passieve modus te gaan of te worden verwijderd. De configuratie is afhankelijk van de serverversie. Zie Microsoft Defender Antivirus [compatibiliteit voor meer informatie.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus-compatibility.md)
+Als u servers onboardt en Microsoft Defender Antivirus niet de actieve antimalware op uw servers is, moeten Microsoft Defender Antivirus worden geconfigureerd om in de passieve modus te gaan of te worden verwijderd. De configuratie is afhankelijk van de serverversie. Zie Microsoft Defender Antivirus [compatibiliteit voor meer informatie.](/security/defender-endpoint/microsoft-defender-antivirus-compatibility)
 
 > [!NOTE]
 > Uw normale groepsbeleid is niet van toepassing op Tamper Protection en wijzigingen in Microsoft Defender Antivirus instellingen worden genegeerd wanneer Tamper Protection is ingesteld.
 
 
 ## <a name="microsoft-defender-antivirus-early-launch-antimalware-elam-driver-is-enabled"></a>Microsoft Defender Antivirus Elam-stuurprogramma (Early Launch Antimalware) is ingeschakeld
+
 Als u de Microsoft Defender Antivirus als het primaire antimalwareproduct op uw apparaten gebruikt, wordt de Defender for Endpoint-agent aan boord.
 
 Als u een antimalwareclient van derden gebruikt en mobile device management-oplossingen of Microsoft Endpoint Manager (huidige vertakking) gebruikt, moet u ervoor zorgen dat het ELAM-stuurprogramma Microsoft Defender Antivirus is ingeschakeld. Zie Ervoor zorgen dat Microsoft Defender Antivirus [niet is uitgeschakeld door beleid voor meer informatie.](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy)
 
 
 ## <a name="related-topics"></a>Verwante onderwerpen
+
 - [Microsoft Defender instellen voor endpoint-implementatie](production-deployment.md)
 - [Onboard-apparaten](onboard-configure.md)

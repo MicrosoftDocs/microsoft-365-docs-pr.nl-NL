@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: f2c66dca326589807f5712c5548c177a0d08ade0
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: c10b2863503a5bda829cbf67379a606b687ac2e3
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935723"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730940"
 ---
 # <a name="supported-microsoft-365-defender-apis"></a>Ondersteunde Microsoft 365 Defender-API's 
 
@@ -43,6 +43,7 @@ Artikel | Beschrijving
 -|-
 [Geavanceerde API voor opsporing](api-advanced-hunting.md) | Geavanceerde zoekquery's uitvoeren.
 [API's voor incidenten](api-incident.md) | Lijst en werk incidenten bij, samen met andere praktische taken.
+[Streaming API](../defender-endpoint/raw-data-export.md) (preview) | Verzend realtime gebeurtenissen en waarschuwingen als ze in één gegevensstroom voorkomen.
 
 ### <a name="endpoint-uris"></a>Eindpunt-URL's
 
@@ -56,9 +57,10 @@ Tokens kunnen worden verkregen door toegang te krijgen https://api.security.micr
 
 Alle API's langs `/api` het pad gebruiken het [OData-protocol,](/odata/overview) bijvoorbeeld https://api.security.microsoft.com/api/incidents .
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-articles"></a>Aanverwante artikelen
 
-- [Overzicht van Microsoft 365 Defender-API's](api-overview.md)
-- [De Microsoft 365 Defender-API's openen](api-access.md)
+- [Microsoft 365 Overzicht van DEFENDER-API's](api-overview.md)
+- [Toegang tot Microsoft 365 Defender-API's](api-access.md)
+- [Streaming-API](../defender-endpoint/raw-data-export.md)
 - [Meer informatie over API-limieten en -licenties](api-terms.md)
 - [Foutcodes begrijpen](api-error-codes.md)

@@ -17,21 +17,21 @@ ms.collection:
 - m365initiative-m365-defender
 ms.custom:
 - seo-marvel-apr2020
-description: Beheerders kunnen leren hoe ze training voor de aanvalssimulatie kunnen gebruiken om gesimuleerde phishing- en wachtwoordaanvallen uit te voeren in hun Microsoft 365 E5- of Microsoft Defender voor Office 365 Plan 2-organisaties.
+description: Beheerders kunnen leren hoe ze training voor de aanvalssimulatie kunnen gebruiken om gesimuleerde phishing- en wachtwoordaanvallen uit te voeren in hun Microsoft 365 E5 of Microsoft Defender voor Office 365 Plan 2-organisaties.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6e344153ef433bc13b16136e584ec4da73fcef6a
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: a5986bbeebd49223ebfd74773346f27fc5297243
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204087"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730902"
 ---
 # <a name="get-started-using-attack-simulation-training"></a>Aan de slag met aanvalssimulatietraining
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-Als uw organisatie Microsoft 365 E5 of Microsoft Defender voor Office 365 Plan 2 heeft, met mogelijkheden voor bedreigingsonderzoek en [reactie,](office-365-ti.md)kunt u de training voor de aanvalssimulatie in het Microsoft-beveiligingscentrum gebruiken om realistische aanvalsscenario's in uw organisatie uit te voeren. Deze gesimuleerde aanvallen kunnen u helpen bij het identificeren en vinden van kwetsbare gebruikers voordat een echte aanval van invloed is op uw bottom line. Lees dit artikel voor meer informatie.
+Als uw organisatie beschikt over Microsoft 365 E5 of Microsoft Defender voor Office 365 Plan 2, dat mogelijkheden voor bedreigingsonderzoek en antwoord [bevat,](office-365-ti.md)kunt u de trainingstraining Aanvalssimulatie in het Microsoft-beveiligingscentrum gebruiken om realistische aanvalsscenario's in uw organisatie uit te voeren. Deze gesimuleerde aanvallen kunnen u helpen bij het identificeren en vinden van kwetsbare gebruikers voordat een echte aanval van invloed is op uw bottom line. Lees dit artikel voor meer informatie.
 
 > [!NOTE]
 > Aanvalssimulatietraining vervangt de oude Attack Simulator v1-ervaring die wordt beschreven in [Attack Simulator in Microsoft Defender voor Office 365.](attack-simulator.md)
@@ -40,9 +40,9 @@ Als uw organisatie Microsoft 365 E5 of Microsoft Defender voor Office 365 Plan 2
 
 - Als u het Microsoft-beveiligingscentrum wilt openen, gaat u naar <https://security.microsoft.com/> . Training voor aanvalssimulaties is beschikbaar op **training voor e-mail en** \> **samenwerkingssimulaties** voor aanvallen. Als u rechtstreeks naar de training Aanvalssimulatie wilt gaan, opent u <https://security.microsoft.com/attacksimulator> .
 
-- Zie Microsoft [Defender voor Office 365-servicebeschrijving](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)voor meer informatie over de beschikbaarheid van training voor aanvalssimulaties in verschillende Microsoft 365-abonnementen.
+- Zie Microsoft Defender voor Office 365 servicebeschrijving voor meer informatie over de beschikbaarheid van training voor attack-Microsoft 365 [verschillende abonnementen.](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
 
-- U moet machtigingen krijgen toegewezen in het Beveiligings- & Compliancecentrum of in Azure Active Directory voordat u de procedures in dit artikel kunt uitvoeren. U moet lid zijn van **Organisatiebeheer,** **Beveiligingsbeheerder** of een van de volgende rollen:
+- U moet zijn toegewezen machtigingen in het Beveiligings- & compliancecentrum of in Azure Active Directory voordat u de procedures in dit artikel kunt uitvoeren. U moet lid zijn van **Organisatiebeheer,** **Beveiligingsbeheerder** of een van de volgende rollen:
   - **Aanvalssimulatorbeheerders:** maak en beheerd alle aspecten van aanvalssimulatiecampagnes.
   - **Attack Simulator Payload Authors:** Maak aanvalsladingen die een beheerder later kan starten.
 
@@ -50,7 +50,12 @@ Als uw organisatie Microsoft 365 E5 of Microsoft Defender voor Office 365 Plan 2
 
 - Er zijn geen bijbehorende PowerShell-cmdlets voor de training voor de aanvalssimulatie.
 
-- Aanvalssimulatie en trainingsgerelateerde gegevens worden opgeslagen met andere klantgegevens voor Microsoft 365-services. Zie Microsoft [365-gegevenslocaties](../../enterprise/o365-data-locations.md)voor meer informatie. Aanvalssimulatie is beschikbaar in de volgende regio's: NAM, APC, EUR, IND, CAN, AUS, FRA, GBR, JPN en KOR.
+- Aanvalssimulatie en trainingsgerelateerde gegevens worden opgeslagen met andere klantgegevens voor Microsoft 365 services. Zie voor meer informatie [Microsoft 365 gegevenslocaties.](../../enterprise/o365-data-locations.md) Aanvalssimulatie is beschikbaar in de volgende regio's: NAM, APC, EUR, IND, CAN, AUS, FRA, GBR, JPN en KOR.
+
+- Vanaf 15 juni 2021 is training voor aanvalssimulatie beschikbaar in GCC. Als uw organisatie Office 365 G5 GCC of Microsoft Defender voor Office 365 (plan 2) voor de overheid heeft, kunt u de trainingstraining Aanvalssimulatie in het Microsoft-beveiligingscentrum gebruiken om realistische aanvalsscenario's uit te voeren in uw organisatie, zoals in dit artikel wordt beschreven. Training voor aanvalssimulaties is nog niet beschikbaar in GCC High- of DoD-omgevingen.
+
+> [!NOTE]
+> Training voor aanvalssimulatie biedt een subset van mogelijkheden voor E3-klanten als proefversie. Het proefabonnement bevat de mogelijkheid om een Credential Harvest-payload te gebruiken en de mogelijkheid om trainingservaringen 'ISA Phishing' of 'Mass Market Phishing' te selecteren. Er maken geen andere mogelijkheden deel uit van de proefversie van E3.
 
 ## <a name="simulations"></a>Simulaties
 
@@ -69,7 +74,7 @@ In de training voor de aanvalssimulatie zijn er meerdere typen technieken voor s
 - **Drive-by-url:** Een aanvaller stuurt de geadresseerde een bericht met een URL. Wanneer de geadresseerde op de URL klikt, wordt deze naar een website geleid die probeert achtergrondcode uit te voeren. Met deze achtergrondcode wordt geprobeerd informatie over de ontvanger te verzamelen of willekeurige code op het apparaat te implementeren. Meestal is de doelwebsite een bekende website die is gecompromitteerd of een kloon van een bekende website. Vertrouwdheid met de website helpt de gebruiker ervan te overtuigen dat de koppeling veilig is om op te klikken. Deze techniek wordt ook wel een _watergat-aanval genoemd._
 
 > [!NOTE]
-> Controleer de beschikbaarheid van de gesimuleerde phishing-URL in uw ondersteunde webbrowsers voordat u de URL gebruikt in een phishingcampagne. Hoewel we met veel URL-reputatieleveranciers werken om deze URL's voor simulaties altijd toe te staan, hebben we niet altijd volledige dekking (bijvoorbeeld Google Safe Browsing). De meeste leveranciers bieden richtlijnen waarmee u altijd specifieke URL's kunt toestaan <https://support.google.com/chrome/a/answer/7532419> (bijvoorbeeld).
+> Controleer de beschikbaarheid van de gesimuleerde phishing-URL in uw ondersteunde webbrowsers voordat u de URL gebruikt in een phishingcampagne. Hoewel we met veel URL-reputatieleveranciers werken om deze url's altijd toe te staan, hebben we niet altijd volledige dekking (bijvoorbeeld Google Safe Browsen). De meeste leveranciers bieden richtlijnen waarmee u altijd specifieke URL's kunt toestaan <https://support.google.com/chrome/a/answer/7532419> (bijvoorbeeld).
 
 De URL's die worden gebruikt door training voor de aanvalssimulatie worden in de volgende lijst beschreven:
 
@@ -111,4 +116,4 @@ Zie Een aangepaste payload maken voor de trainingstraining aanvalssimulatie voor
 Zie Inzichten verkrijgen via de trainingstraining Aanvalssimulatie voor [stapsgewijs](attack-simulation-training-insights.md)instructies over het verkrijgen van inzichten met rapportage.
 
 > [!NOTE]
-> Attack Simulator gebruikt veilige koppelingen in Defender voor Office 365 om veilig klikgegevens bij te houden voor de URL  in het payloadbericht dat wordt verzonden naar geadresseerden van een phishingcampagne, zelfs als de instelling Gebruikersklikken niet bijhouden in beleid voor veilige koppelingen is ingeschakeld.
+> Attack Simulator gebruikt Safe Koppelingen in Defender voor Office 365 om veilig klikgegevens bij te houden voor de URL in het payloadbericht  dat wordt verzonden naar geadresseerden van een phishingcampagne, zelfs als de instelling Gebruikersklikken niet bijhouden in het beleid voor Safe Koppelingen is ingeschakeld.

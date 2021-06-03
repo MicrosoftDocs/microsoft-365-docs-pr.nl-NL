@@ -1,5 +1,5 @@
 ---
-title: Windows- en Office-implementatielabkit
+title: Windows 10 en Office 365 implementatielabkit
 f1.keywords:
 - NOCSH
 ms.author: greglin
@@ -15,18 +15,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Lees meer over Windows en Office Deployment Lab Kit en waar u het kunt vinden.
-ms.openlocfilehash: c0cf3ce239ed91261bd6e53cf317a7053168509a
-ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
+ms.openlocfilehash: da51e0e3509ac2be60b9961dc2a0532d29f4f137
+ms.sourcegitcommit: cc9e3cac6af23f20d7cc5ac6fc6f6e01bc3cc5c5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52060871"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52736346"
 ---
-# <a name="windows-and-office-deployment-lab-kit"></a>Windows- en Office-implementatielabkit
+# <a name="windows-10-and-office-365-deployment-lab-kit"></a>Windows 10 en Office 365 implementatielabkit
 
-De Windows- en Office-implementatielabkit is ontworpen om u te helpen bij het plannen, testen en valideren van uw implementatie en beheer van bureaubladen met Windows 10 Enterprise en Microsoft 365 Apps voor ondernemingen. De labs in de kithoes met Microsoft Endpoint Configuration Manager, Desktop Analytics, het Office-aanpassingshulpmiddel, OneDrive, Windows Autopilot en meer.
+De Windows 10 en Office 365 implementatie labkit is ontworpen om u te helpen bij het plannen, testen en valideren van de implementatie en het beheer van bureaubladen met Windows 10 Enterprise en Microsoft 365-apps voor ondernemingen. De labs in de kit cover met Microsoft Endpoint Configuration Manager, Desktop Analytics, het Office Customization Tool, OneDrive, Windows Autopilot en meer.
 
-Deze kit wordt ten zeerste aanbevolen voor organisaties die zich voorbereiden op Windows 8.1-upgrades naar Windows 10. Dit geldt ook als u momenteel Windows 10, Microsoft 365 Apps voor ondernemingen (voorheen Office 365 ProPlus) of Office 2019 gebruikt. Als een geïsoleerde omgeving is het resulterende lab ideaal voor het verkennen van implementatieprogramma-updates en het testen van uw implementatiegerelateerde automatisering.
+Deze kit wordt ten zeerste aanbevolen voor organisaties die zich voorbereiden op Windows 8.1-upgrades voor Windows 10. Dit geldt ook als u momenteel Windows 10, Microsoft 365-apps voor ondernemingen (voorheen Office 365 ProPlus) of Office 2019. Als een geïsoleerde omgeving is het resulterende lab ideaal voor het verkennen van implementatieprogramma-updates en het testen van uw implementatiegerelateerde automatisering.
 
 [Windows en Office Deployment Lab Kit downloaden](https://www.microsoft.com/evalcenter/evaluate-lab-kit).
 
@@ -34,9 +34,9 @@ Deze kit wordt ten zeerste aanbevolen voor organisaties die zich voorbereiden op
 
 De kit biedt u een automatisch inrichtende virtuele labomgeving, waaronder domeingevoegde bureaubladcl clients, een domeincontroller, een internetgateway en een volledig geconfigureerd exemplaar van Configuration Manager. De kit bevat de meest recente evaluatieversies van de volgende producten:
 
-  - NIEUW! Windows 10 Enterprise, versie 20H2
+  - NIEUW! Windows 10 Enterprise, versie 21H1
   - Windows 7 Enterprise
-  - Microsoft Endpoint Configuration Manager, versie 2010*
+  - NIEUW! Microsoft Endpoint Configuration Manager, versie 2103*
   - Windows Assessment and Deployment Kit voor Windows 10
   - Microsoft Deployment Toolkit
   - Microsoft Application Virtualization (App-V)
@@ -47,6 +47,7 @@ De kit biedt u een automatisch inrichtende virtuele labomgeving, waaronder domei
 Het resulterende lab is ontworpen om te worden verbonden met experimenten voor: 
 
   - Microsoft 365 E5
+  - Microsoft 365-apps voor ondernemingen
   - Office 365 E5 met Enterprise Mobility + Security (EMS)
 
 ## <a name="step-by-step-labs"></a>Stapsgewijze labs
@@ -61,17 +62,17 @@ Dankzij gedetailleerde labhandleidingen wordt u begeleid door meerdere scenario'
 
 ### <a name="prepare-configuration"></a>Configuratie voorbereiden   
 
-- Windows 10-updatebezorging optimaliseren   
-- Windows 10 onderhouden met groepsbeleid
-- Onderhoud van Windows 10 met Microsoft Intune   
-- Windows 10 onderhouden met Configuration Manager   
-- Microsoft 365-apps voor bedrijven onderhouden met Configuration Manager   
-- Microsoft 365-apps voor bedrijven onderhouden met Intune  
+- Bezorging Windows 10 bijwerken optimaliseren   
+- Servicekosten Windows 10 groepsbeleid gebruiken
+- Onderhoud Windows 10 met Microsoft Intune   
+- Servicebeheer Windows 10 met Configuration Manager   
+- Servicebeheer Microsoft 365-apps voor ondernemingen configuratiebeheer   
+- Servicekosten Microsoft 365-apps voor ondernemingen Intune  
 - Beveiliging en compliance   
 
 ### <a name="prepare-applications"></a>Toepassingen voorbereiden    
 
-- Gereedheidshulpset voor Office  
+- Gereedheid Toolkit voor Office  
 - MSIX Packaging and Conversion of Win32-toepassingen   
 
 ### <a name="deploy-windows-10"></a>Windows 10 implementeren   
@@ -79,27 +80,28 @@ Dankzij gedetailleerde labhandleidingen wordt u begeleid door meerdere scenario'
 - Taakreeksen voor os-implementatie in Configuration Manager
 - Taakreeksen voor os-implementatie in de Microsoft Deployment Toolkit (MDT)
 - Windows Autopilot
-- De nieuwe Microsoft Edge implementeren en beheren  
+- De nieuwe Microsoft Edge  
 
-### <a name="deploy-microsoft-365-apps-for-enterprise"></a>Microsoft 365-apps voor ondernemingen implementeren    
+### <a name="deploy-microsoft-365-apps-for-enterprise"></a>Implementatie van Microsoft 365-apps voor ondernemingen    
 
 - Beheerde implementatie in de cloud  
 - Lokaal beheerde implementatie    
-- Microsoft 365 Apps for enterprise Deployment on Non-AD Joined Devices 
+- Microsoft 365-apps voor ondernemingen Implementatie op niet-AD-apparaten 
 - Beheerde implementatie voor ondernemingen met Configuration Manager
-- Beheerde enterprise-implementatie met Microsoft Intune  
+- Enterprise managed deployment using Microsoft Intune  
 - LOB-implementatie en -beheer met Microsoft Intune
-- Microsoft Teams implementeren
+- Implementatie van Microsoft Teams
 
-### <a name="deploy-windows-virtual-desktop"></a>Windows Virtual Desktop implementeren  
+### <a name="deploy-windows-virtual-desktop"></a>Virtuele Windows implementeren  
 
 - Voorbereiden, implementeren, optimaliseren
  
-## <a name="where-to-find-the-windows-and-office-deployment-lab-kit"></a>Waar vindt u de Windows- en Office Deployment Lab Kit
+## <a name="where-to-find-the-windows-10-and-office-365-deployment-lab-kit"></a>Waar vindt u de Windows 10 en Office 365 implementatielabkit
 
 [Windows en Office Deployment Lab Kit downloaden](https://www.microsoft.com/evalcenter/evaluate-lab-kit).
 
-* De geïnstalleerde basislijnversie 2002 kan worden bijgewerkt naar versie 2010 met en update in de console. Gebruik een brede bandbreedte internetverbinding om deze inhoud te downloaden en 30-45 minuten toe te staan voor automatische inrichting. Voor de labomgeving is minimaal 16 GB beschikbaar geheugen en 150 GB vrije schijfruimte vereist. Voor optimale prestaties wordt 32 GB beschikbaar geheugen en 300 GB vrije ruimte aanbevolen. De kit verloopt op 22 juli 2021. Er wordt een nieuwe versie gepubliceerd vóór de vervaldatum.
+> [!NOTE]
+> Gebruik een breedbandinternetverbinding om deze inhoud te downloaden en 30-45 minuten toe te staan voor automatische inrichting. Voor de labomgeving is minimaal 16 GB beschikbaar geheugen en 150 GB vrije schijfruimte vereist. Voor optimale prestaties wordt 32 GB beschikbaar geheugen en 300 GB vrije ruimte aanbevolen. De kit verloopt op 23 augustus 2021. Er wordt een nieuwe versie gepubliceerd vóór de vervaldatum.
 
 ## <a name="additional-guidance"></a>Aanvullende richtlijnen
 

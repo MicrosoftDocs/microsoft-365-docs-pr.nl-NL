@@ -116,7 +116,7 @@ Bewaarbeleid kan worden toegepast op de volgende locaties:
 - Teams-kanaalberichten
 - Teams-chats
 - Berichten in de Yammer-community
-- Berichten Yammer-gebruikers
+- Yammer-gebruikersberichten
 
 U kunt heel efficiënt één beleid toepassen op meerdere locaties of op specifieke locaties of gebruikers.
 
@@ -308,7 +308,7 @@ Uitleg van de vier verschillende niveaus:
     
     Documenten in deze SharePoint-site voor marketing worden tien jaar bewaard omdat dit de langste bewaarperiode is.
 
-3. **Expliciet heeft prioriteit boven impliciet voor verwijderingen.** Nu conflicten zijn opgelost voor bewaren, blijven alleen conflicten voor verwijderingen bestaan: 
+3. **Expliciet heeft prioriteit boven impliciet voor verwijderingen.** Nu conflicten voor bewaring zijn opgelost, zijn alleen conflicten voor verwijdering over: 
     
     1. Een retentielabel (hoe dat ook werd toegepast) garandeert expliciete bewaring in vergelijking met bewaarbeleid, omdat de bewaarinstellingen worden toegepast op een afzonderlijk item in plaats van impliciet vanuit een container. Dit betekent dat een verwijderingsactie op basis van een retentielabel altijd voorrang heeft op een verwijderingsactie op basis van een bewaarbeleid.
         

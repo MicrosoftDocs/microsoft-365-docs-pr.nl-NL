@@ -17,12 +17,12 @@ search.appverid:
 - SPO160
 - MET150
 description: In dit artikel wordt beschreven hoe u uw portal kunt starten met de planning voor het starten van portals
-ms.openlocfilehash: fdf92f2bbdfb673f1db446b562e941d61679fa9a
-ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
+ms.openlocfilehash: ac55a5b0cc9d252642c890b78ccec1ba720f0957
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52694351"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730256"
 ---
 # <a name="launch-your-portal-using-the-sharepoint-portal-launch-scheduler"></a>Uw portal starten met de SharePoint portal launch scheduler
 
@@ -120,7 +120,7 @@ Voorheen konden portallanceringen alleen worden gepland via SharePoint PowerShel
 
 ### <a name="launch-portal-with-over-100k-users"></a>Portal starten met meer dan 100.000 gebruikers
 
-Als u van plan bent om meer dan 100 TB te migreren, dient u een ondersteuningsaanvraag in volgens de onderstaande stappen. Zorg ervoor dat u alle gevraagde gegevens op moet nemen.
+Als u van plan bent een portal te starten met meer dan 100.000 gebruikers, dient u een ondersteuningsaanvraag in volgens de onderstaande stappen. Zorg ervoor dat u alle gevraagde gegevens op moet nemen.
 
 Volg deze stappen:
 1. Navigeren naar https://admin.microsoft.com
