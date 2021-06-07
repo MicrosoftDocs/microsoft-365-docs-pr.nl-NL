@@ -19,12 +19,12 @@ ms.custom:
 - Ent_Solutions
 recommendations: false
 description: Informatie over het implementeren van teams met bescherming voor vertrouwelijke gegevens.
-ms.openlocfilehash: 0590e63aa0feb5b699eca98c0056604fe09b77f5
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: a3f715cb05ad1d5acf3c93c58959f12ebec46978
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583650"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52788340"
 ---
 # <a name="configure-teams-with-protection-for-sensitive-data"></a>Teams met bescherming voor vertrouwelijke gegevens configureren
 
@@ -33,6 +33,13 @@ In dit artikel kijken we naar het opzetten van een team met een gevoelig bescher
 - Een gevoeligheidslabel voor het team waarmee u het delen van gasten kunt in- of uitschakelen en de toegang tot SharePoint-inhoud beperkt tot alleen-internet voor onbeheerde apparaten. Dit label kan ook worden gebruikt om bestanden te classificeren.
 - Een meer beperkend standaardkoppelingstype voor delen
 - Alleen teameigenaren kunnen persoonlijke kanalen maken.
+
+## <a name="video-demonstration"></a>Videodemonstratie
+
+Bekijk deze video voor een overzicht van de procedures die in dit artikel worden beschreven.
+<br>
+<br>
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NMS6]
 
 ## <a name="guest-sharing"></a>Delen met gasten
 

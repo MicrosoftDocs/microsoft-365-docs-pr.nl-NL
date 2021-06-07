@@ -1,7 +1,7 @@
 ---
-title: Microsoft Defender voor eindpuntstroomconnector
+title: Microsoft Defender voor endpoint-Flow connector
 ms.reviewer: ''
-description: Gebruik Microsoft Defender voor eindpuntstroomconnector om de beveiliging te automatiseren en een stroom te maken die wordt geactiveerd wanneer er een nieuwe waarschuwing op uw tenant plaatsvindt.
+description: Gebruik Microsoft Defender voor Endpoint Flow connector om de beveiliging te automatiseren en een stroom te maken die wordt geactiveerd wanneer er een nieuwe waarschuwing op uw tenant wordt geplaatst.
 keywords: flow, ondersteunde api's, api, Microsoft flow, query, automatisering
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -15,13 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 33a7c7b1907ac761dfdde43a70bfb8f515235150
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: dd0cc3c2da134750f905b1f80746d6ec65cc70b2
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51929297"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769700"
 ---
 # <a name="microsoft-power-automate-formerly-microsoft-flow-and-azure-functions"></a>Microsoft Power Automate (voorheen Microsoft Flow) en Azure-functies
 
@@ -36,7 +37,7 @@ ms.locfileid: "51929297"
 
 Het automatiseren van beveiligingsprocedures is een standaardvereiste voor elk modern Beveiligingscentrum. Het ontbreken van professionele cyberverdedigers dwingt SOC om op de meest efficiënte manier te werken en automatisering is een must. Microsoft Power Automate ondersteunt verschillende connectors die daar precies voor zijn gemaakt. U kunt binnen enkele minuten een end-to-end procedureautomatisering maken.
 
-Microsoft Defender API heeft een officiële Stroomconnector met veel mogelijkheden.
+Microsoft Defender API heeft een officiële Flow Connector met veel mogelijkheden.
 
 ![Afbeelding van referenties bewerken1](images/api-flow-0.png)
 
@@ -46,19 +47,19 @@ Microsoft Defender API heeft een officiële Stroomconnector met veel mogelijkhed
 
 ## <a name="usage-example"></a>Gebruiksvoorbeeld
 
-In het volgende voorbeeld wordt gedemonstreerd hoe u een stroom maakt die wordt geactiveerd op elk moment dat er een nieuwe waarschuwing op uw tenant plaatsvindt.
+In het volgende voorbeeld wordt gedemonstreerd hoe u een Flow maakt die wordt geactiveerd op elk moment dat er een nieuwe waarschuwing op uw tenant plaatsvindt.
 
-1. Meld u aan [bij Microsoft Power Automate.](https://flow.microsoft.com)
+1. Meld u aan bij [Microsoft Power Automate.](https://flow.microsoft.com)
 
 2. Ga naar **Mijn stromen**  >  **Nieuw**  >  **geautomatiseerd-van leeg**.
 
     ![Afbeelding van referenties bewerken2](images/api-flow-1.png)
 
-3. Kies een naam voor uw stroom, zoek naar 'Microsoft Defender ATP Triggers' als trigger en selecteer vervolgens de nieuwe trigger Waarschuwingen.
+3. Kies een naam voor uw Flow, zoek naar 'Microsoft Defender ATP Triggers' als trigger en selecteer vervolgens de nieuwe trigger Waarschuwingen.
 
     ![Afbeelding van referenties bewerken3](images/api-flow-2.png)
 
-Nu hebt u een stroom die wordt geactiveerd telkens wanneer er een nieuwe waarschuwing wordt gegeven.
+U hebt nu een Flow die wordt geactiveerd telkens wanneer er een nieuwe waarschuwing wordt gegeven.
 
 ![Afbeelding van referenties bewerken4](images/api-flow-3.png)
 
@@ -82,7 +83,7 @@ De waarschuwingstrigger bevat alleen de waarschuwings-id en de machine-id. U kun
 
 2. Controleer of de ernst van de waarschuwing **gelijk is aan** Hoog.
 
-   Zo ja, voeg dan de **MICROSOFT Defender ATP - Machineactie isoleren** toe met de machine-id en een opmerking.
+   Zo ja, voegt u de **Microsoft Defender ATP - Machineactie** isoleren met de machine-id en een opmerking.
 
     ![Afbeelding van referenties bewerken6](images/api-flow-5.png)
 

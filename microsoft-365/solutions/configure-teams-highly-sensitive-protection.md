@@ -19,12 +19,12 @@ ms.custom:
 - Ent_Solutions
 recommendations: false
 description: Informatie over het implementeren van teams met bescherming voor zeer vertrouwelijke gegevens.
-ms.openlocfilehash: 7c5485a008434b351eebbec3ea1f20b10d82278a
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 3e98b1a52e698d52eba16d4296c062d7347759d0
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583686"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52788353"
 ---
 # <a name="configure-teams-with-protection-for-highly-sensitive-data"></a>Teams met bescherming voor zeer vertrouwelijke gegevens configureren
 
@@ -38,6 +38,13 @@ De zeer gevoelige laag biedt de volgende extra bescherming bovenop de basislaag:
 - Een meer beperkend standaardkoppelingstype voor delen
 - Alleen teameigenaren kunnen privé-kanalen maken.
 - Toegangsaanvragen voor de gekoppelde SharePoint-site zijn uitgeschakeld.
+
+## <a name="video-demonstration"></a>Videodemonstratie
+
+Bekijk deze video voor een overzicht van de procedures die in dit artikel worden beschreven.
+<br>
+<br>
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NzI7]
 
 ## <a name="guest-sharing"></a>Gasten delen
 
@@ -79,7 +86,7 @@ Een gevoeligheidslabel maken
 16. Als je gasttoegang wilt toestaan, selecteer je onder **Toegang voor externe gebruikers** de optie **Laat Microsoft 365-groepseigenaren personen van buiten de organisatie als gast aan de groep toevoegen**.
 17. Klik op **Volgende**.
 18. Selecteer op de pagina **Instellingen voor extern delen en instellingen voor toegang tot het apparaat definiëren** de optie **Extern delen beheren via gelabelde SharePoint-sites**.
-19. Onder **Inhoud kan worden gedeeld met** kies je **Nieuwe en bestaande gasten** als je gasttoegang wilt toestaan of **Alleen personen binnen uw organisatie** als je dat niet wilt.
+19. Onder **Inhoud kan worden gedeeld met** kiest u **Nieuwe en bestaande gasten** als u gasttoegang wilt toestaan of **Alleen personen van de organisatie** als u dat niet wilt.
 20. Kies onder **Toegang tot niet-beheerde apparaten** de optie **Toegang blokkeren**. (Als u gasten toelaat die geen beheerde apparaten hebben, kan het een goed idee zijn om de optie **Beperkte toegang via het web toestaan** te kiezen.)
 21. Klik op **Volgende**.
 22. Klik op de pagina **Automatische labeling voor databasekolommen** op **Volgende**.

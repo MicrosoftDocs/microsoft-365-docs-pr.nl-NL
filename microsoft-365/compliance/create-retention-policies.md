@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Gebruik bewaarbeleid om de inhoud die gebruikers genereren met e-mail, documenten en gesprekken efficiënt te beheren. Behoud wat u wilt en verwijder wat u niet wilt.
-ms.openlocfilehash: 7b23ed2b45a24e8999785909f9357043bef731e5
-ms.sourcegitcommit: cebbdd393dcfd93ff43a1ab66ad70115853f83e7
+ms.openlocfilehash: 9f550aa2e0a79170c4651f29c23a8ed0c8c9b3a4
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/01/2021
-ms.locfileid: "52710692"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769415"
 ---
 # <a name="create-and-configure-retention-policies"></a>Bewaarbeleid maken en configureren
 
@@ -221,11 +221,11 @@ Specificeer `Group:Exchange,SharePoint` als u terug wilt keren naar de standaard
 
 ### <a name="configuration-information-for-skype-for-business"></a>Configuratiegegevens voor Skype voor Bedrijven 
 
-In tegenstelling tot Exchange-e-mail kunt u de status van de Skype-locatie niet in- of uitschakelen om automatisch alle gebruikers op te nemen, maar wanneer u die locatie inschakelt, moet u vervolgens handmatig de gebruikers kiezen wiens gesprekken u wilt bewaren:
+Anders dan andere locaties kan je de status van Skype-locaties niet inschakelen om automatisch alle gebruikers op te nemen. In plaats daarvan, als je de locatie wilt inschakelen, moet je de optie **Bewerken** selecteren om de gebruikers waarvan je de gesprekken wilt bewaren manueel te kiezen:
 
-![Skype-locatie kiezen voor bewaarbeleid](../media/skype-location-retention-policies.png)
+![Skype-locatie bewerken voor retentiebeleid](../media/skype-location-retention-policies.png)
 
-Wanneer u **Gebruiker kiezen** selecteert, kunt u snel alle gebruikers opnemen door het selectievakje **Alle gebruikers selecteren** te selecteren. Het is echter belangrijk om te weten dat elke gebruiker telt als specifieke opname in het beleid. Dus, als u 1.000 gebruikers opneemt door het selectievakje **Alle gebruikers selecteren** te selecteren, is dat hetzelfde als wanneer u handmatig 1.000 gebruikers selecteert. Dit is het maximale aantal dat wordt ondersteund door Skype voor Bedrijven.
+Als je de optie **Bewerken** selecteert in het deelvenster **Skype voor Bedrijven**, kan je snel alle gebruikers opnemen door het verborgen selectievakje te selecteren voor de kolom **Naam**. Het is echter belangrijk om te weten dat elke gebruiker telt als een specifieke opname in het beleid. Dus, als je 1.000 gebruikers opneemt door dit selectievakje te selecteren, is dat hetzelfde als wanneer je handmatig 1.000 gebruikers selecteert. Dit is het maximale aantal dat wordt ondersteund door Skype voor Bedrijven.
 
 Let op dat **Gespreksgeschiedenis**, een map in Outlook, een functie is die niets te doen heeft met Skype-archivering. **Gespreksgeschiedenis** kan worden uitgeschakeld door de eindgebruiker, maar in Skype wordt gearchiveerd door een kopie van Skype-gesprekken op te slaan in een verborgen map die niet toegankelijk is voor de gebruiker, maar wel beschikbaar voor eDiscovery.
 

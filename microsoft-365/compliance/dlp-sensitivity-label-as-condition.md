@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: meer informatie over de services en itemtypen waarvoor u gevoeligheidslabels kunt gebruiken als voorwaarden in DLP-beleid
-ms.openlocfilehash: b33e6704a3311740c1e386f77f1c751382ee6958
-ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
+ms.openlocfilehash: 94d5e9f53471f6113dcc755995a3f94e95a58e53
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52651090"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52779841"
 ---
 # <a name="use-sensitivity-labels-as-conditions-in-dlp-policies"></a>Vertrouwelijkheidslabels gebruiken als voorwaarden in DLP-beleid
 
@@ -65,6 +65,9 @@ U kunt gevoeligheidslabels gebruiken als voorwaarden op deze items en in deze sc
 \* DLP-detectie van e-mailbijlagen die als vertrouwelijk zijn gemarkeerd, wordt alleen ondersteund voor Office-bestandstypen.
 
 \** Bijlagen die via een privéchat of kanalen in Teams worden verzonden, worden automatisch geüpload naar OneDrive voor Bedrijven en SharePoint. Dus als SharePoint Online of OneDrive voor Bedrijven als locaties zijn opgenomen in uw DLP-beleid, worden gelabelde bijlagen die worden verzonden in Teams automatisch opgenomen in het bereik van deze voorwaarde. Teams als locatie hoeft niet te zijn geselecteerd in het DLP-beleid.
+
+> [!NOTE]
+> De mogelijkheid van DLP om gevoeligheidslabels te detecteren in SharePoint en OneDrive voor Bedrijven is beperkt. Raadpleeg [Vertrouwelijkheidslabels inschakelen voor Office-bestanden in SharePoint en OneDrive](sensitivity-labels-sharepoint-onedrive-files.md#limitations) voor meer informatie.
 
 ### <a name="supported-scenarios"></a>Ondersteunde scenario's
 

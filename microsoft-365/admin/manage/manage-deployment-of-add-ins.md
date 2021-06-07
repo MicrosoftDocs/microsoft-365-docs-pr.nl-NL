@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Informatie over het implementeren van invoegvoegingen voor gebruikers en groepen in uw organisatie met gecentraliseerde implementatie in het beheercentrum.
-ms.openlocfilehash: 8cc4f29cd2593d9651edaf87791f46dabdcc30b2
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 796517ba13a4718c38d5200fcf9cbe38b5dc62d0
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636020"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52779636"
 ---
 # <a name="deploy-add-ins-in-the-admin-center"></a>Invoegtoepassingen implementeren in het beheercentrum
 
@@ -38,7 +38,7 @@ Zie Bepalen of gecentraliseerde implementatie van invoegvoegingen werkt voor uw 
 Zie Invoegvoegingen beheren in het [beheercentrum](manage-addins-in-the-admin-center.md) voor meer informatie over het beheren van invoegvoegingen na de implementatie.
   
 > [!NOTE]
->  Voor Word gebruiken Excel en PowerPoint een [SharePoint-appcatalogus](https://dev.office.com/docs/add-ins/publish/publish-task-pane-and-content-add-ins-to-an-add-in-catalog) om invoegingen te implementeren voor gebruikers in een on-premises omgeving zonder verbinding met Microsoft 365 en/of ondersteuning voor SharePoint-invoegingen die vereist zijn. Gebruik Outlook configuratiescherm Exchange te implementeren in een on-premises omgeving zonder verbinding met Microsoft 365.
+>  Voor Word gebruiken Excel en PowerPoint een [SharePoint-appcatalogus](/office/dev/add-ins/publish/publish-task-pane-and-content-add-ins-to-an-add-in-catalog) om invoegingen te implementeren voor gebruikers in een on-premises omgeving zonder verbinding met Microsoft 365 en/of ondersteuning voor SharePoint-invoegingen die vereist zijn. Gebruik Outlook configuratiescherm Exchange te implementeren in een on-premises omgeving zonder verbinding met Microsoft 365.
   
 ## <a name="recommended-approach-for-deploying-office-add-ins"></a>Aanbevolen werkwijze voor de implementatie van Office-invoegtoepassingen
 
@@ -129,7 +129,7 @@ Updates voor invoegtoepassingen worden als volgt uitgevoerd:
 
 - **Office Store-invoegtoepassing:** Als een beheerder een invoegtoepassing in de Office Store heeft geselecteerd (als een invoegtoepassing in de Office Store wordt bijgewerkt), wordt de invoegtoepassing later bijgewerkt in Gecentraliseerde implementatie. De volgende keer dat de betreffende Office-toepassingen worden gestart, wordt de invoegtoepassing bijgewerkt. De webtoepassing kan elk moment worden gewijzigd.
   
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Invoegvoegingen beheren in het beheercentrum](manage-addins-in-the-admin-center.md) (artikel)\
 [Uw eerste Word-taakvenster maken (artikel\](/office/dev/add-ins/quickstarts/word-quickstart?tabs=yeomangenerator)

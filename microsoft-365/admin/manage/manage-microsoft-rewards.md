@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ROBOTS: NOINDEX, NOFOLLOW
 description: Gebruikers die een persoonlijk Microsoft-account hebben, kunnen Microsoft Rewards-punten verdienen in verband met hun zoekopdrachten op het werk als AAD koppelen aan Rewards-functie is ingeschakeld.
-ms.openlocfilehash: 8cbd88de530ec4aa566962bb74715dc9c417f296
-ms.sourcegitcommit: aff2331f9a3f22591f8ace1a646809969d28c120
+ms.openlocfilehash: 581a7a044ef1b3508591778c9da416ffc3afac2e
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52464340"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52779660"
 ---
 # <a name="manage-microsoft-rewards"></a>Microsoft Rewards beheren
 
@@ -36,10 +36,10 @@ Deze functie is niet beschikbaar voor gebruikers van de overheid. Beheerders moe
 
 ## <a name="related-content"></a>Verwante inhoud
 
-[Microsoft Search instellen](/microsoftsearch/setup-microsoft-search.md) (artikel)
+[Microsoft Search instellen](/microsoftsearch/setup-microsoft-search) (artikel)
 
 [Top 12 taken voor beveiligingsteams ter ondersteuning van thuis werken](../../security/top-security-tasks-for-remote-work.md) (artikel)
 
-[Nieuwe functies in Microsoft 365](https://support.microsoft.com/en-us/office/what-s-new-in-microsoft-365-95c8d81d-08ba-42c1-914f-bca4603e1426) (artikel)
+[Nieuwe functies in Microsoft 365](https://support.microsoft.com/office/what-s-new-in-microsoft-365-95c8d81d-08ba-42c1-914f-bca4603e1426) (artikel)
 
 

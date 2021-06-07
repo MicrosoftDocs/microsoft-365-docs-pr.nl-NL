@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender voor endpoint-API's-verbinding met Power BI
+title: Microsoft Defender for Endpoint API's connection to Power BI
 ms.reviewer: ''
 description: Maak een BI-rapport (Power Business Intelligence) boven microsoft Defender voor eindpunt-API's.
 keywords: api's, ondersteunde api's, Power BI, rapporten
@@ -15,13 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 7c99267d75c89b3484d207cd763131e4bcc91527
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 5c76784d78837c324922ffc25539746a4921e426
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935039"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769706"
 ---
 # <a name="create-custom-reports-using-power-bi"></a>Aangepaste rapporten maken met Power BI
 
@@ -38,13 +39,13 @@ ms.locfileid: "51935039"
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
-In deze sectie leert u een Power BI-rapport maken op de top van Defender voor eindpunt-API's.
+In deze sectie leert u een rapport Power BI maken boven op API's van Defender voor eindpunten.
 
-In het eerste voorbeeld wordt gedemonstreerd hoe u Power BI koppelt aan advanced hunting API en in het tweede voorbeeld wordt een verbinding met onze OData-API's gedemonstreerd, zoals MachineActies of Waarschuwingen.
+In het eerste voorbeeld wordt gedemonstreerd hoe u verbinding maakt Power BI Advanced Hunting API en in het tweede voorbeeld wordt een verbinding met onze OData-API's gedemonstreerd, zoals MachineActies of Waarschuwingen.
 
-## <a name="connect-power-bi-to-advanced-hunting-api"></a>Power BI verbinden met advanced hunting API
+## <a name="connect-power-bi-to-advanced-hunting-api"></a>Verbinding maken Power BI naar Advanced Hunting API
 
-- Microsoft Power BI openen
+- Microsoft-Power BI
 
 - Klik **op Lege**  >  **gegevensquery opvragen**
 
@@ -107,7 +108,7 @@ In het eerste voorbeeld wordt gedemonstreerd hoe u Power BI koppelt aan advanced
 
 - Voer uw referenties in en wacht totdat u bent aangemeld
 
-- Klik op **Verbinding maken**
+- Klik **Verbinding maken**
 
     ![Afbeelding van setreferenties2](images/power-bi-set-credentials-organizational-cont.png)
 
@@ -115,7 +116,7 @@ In het eerste voorbeeld wordt gedemonstreerd hoe u Power BI koppelt aan advanced
 
 - U kunt deze tabel dupliceren, de naam ervan wijzigen en de query Geavanceerd zoeken binnen bewerken om eventuele gegevens op te halen.
 
-## <a name="connect-power-bi-to-odata-apis"></a>Power BI verbinden met OData-API's
+## <a name="connect-power-bi-to-odata-apis"></a>Verbinding maken Power BI naar OData-API's
 
 - Het enige verschil met het bovenstaande voorbeeld is de query in de editor. 
 
@@ -137,11 +138,11 @@ In het eerste voorbeeld wordt gedemonstreerd hoe u Power BI koppelt aan advanced
 - U kunt OData-query's ook gebruiken voor queryfilters, zie [OData-query's gebruiken](exposed-apis-odata-samples.md)
 
 
-## <a name="power-bi-dashboard-samples-in-github"></a>Power BI-dashboardvoorbeelden in GitHub
-Zie de [Power BI-rapportsjablonen](https://github.com/microsoft/MicrosoftDefenderATP-PowerBI)voor meer informatie.
+## <a name="power-bi-dashboard-samples-in-github"></a>Power BI dashboardvoorbeelden in GitHub
+Zie de sjablonen voor [Power BI rapport voor meer informatie.](https://github.com/microsoft/MicrosoftDefenderATP-PowerBI)
 
 ## <a name="sample-reports"></a>Voorbeeldrapporten
-Bekijk de voorbeelden van het Microsoft Defender voor Endpoint Power BI-rapport. Zie Door codevoorbeelden bladeren voor [meer informatie.](https://docs.microsoft.com/samples/browse/?products=mdatp)
+Bekijk de voorbeelden van microsoft Defender voor eindpunten Power BI rapport. Zie Door codevoorbeelden bladeren voor [meer informatie.](https://docs.microsoft.com/samples/browse/?products=mdatp)
 
 
 ## <a name="related-topic"></a>Verwant onderwerp

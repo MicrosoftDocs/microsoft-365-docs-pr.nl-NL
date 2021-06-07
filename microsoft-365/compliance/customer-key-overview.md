@@ -15,12 +15,12 @@ ms.collection:
 - m365initiative-compliance
 ms.custom: seo-marvel-apr2020
 description: In dit artikel leert u hoe serviceversleuteling werkt met Customer Key in Microsoft 365.
-ms.openlocfilehash: 3d0c86dbca02a66547f0ade643b745ecfc8f92cd
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: d12a5d2f80de11a69fc4a36146a511c5f9a306f8
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52344768"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769447"
 ---
 # <a name="service-encryption-with-customer-key"></a>Serviceversleuteling met klantsleutel
 
@@ -52,8 +52,11 @@ Een decodeerbeleid voor gegevensversleuteling definieert de versleutelingshiëra
 - Teams statusberichten
 - Gebruikers- en signaalgegevens voor Exchange Online
 - Exchange Online postvakken die nog niet zijn versleuteld door postvakDEP's
-- MIP-gegevens komen exact overeen met EDM-gegevens (gegevensbestandsschema's, regelpakketten en de zouten die worden gebruikt om de gevoelige gegevens te hashen).
-  Voor MIP exact data match (EDM) en Microsoft Teams versleutelt de DEP met meerdere werkbelastingen nieuwe gegevens vanaf het moment dat u de DEP aan de tenant toewijst. Voor Exchange Online versleutelt Customer Key alle bestaande en nieuwe gegevens.
+- Microsoft Information Protection:
+
+  - Exacte gegevens komen overeen met EDM-gegevens( inclusief gegevensbestandsschema's, regelpakketten en de zouten die worden gebruikt om de gevoelige gegevens te hashen. Voor EDM en Microsoft Teams versleutelt de DEP met meerdere werkbelastingen nieuwe gegevens vanaf het moment dat u de DEP aan de tenant toewijst. Voor Exchange Online versleutelt Customer Key alle bestaande en nieuwe gegevens.
+
+  - Labelconfiguratie voor gevoeligheidslabels
 
 DEP's met meerdere werkbelastingen versleutelen de volgende typen gegevens niet. In plaats Microsoft 365 andere typen versleuteling gebruikt om deze gegevens te beveiligen.
 
@@ -98,7 +101,7 @@ De sleutelhiërarchie die wordt gebruikt voor DEP's die gegevens voor meerdere M
 
 ![Versleutelingscodes voor SharePoint Online Customer Key](../media/customerkeyencryptionhierarchiessharepointonedriveteamsfiles.png)
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-articles"></a>Aanverwante artikelen
 
 - [Klantsleutel instellen](customer-key-set-up.md)
 

@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Ontdek hoe Microsoft Productiviteitsscore metingen van ervaringen van mensen en technologie weergeeft en vergelijkt met organisaties van vergelijkbare grootte.
-ms.openlocfilehash: ded8b3ee6cbe6df308a4e7388107ea394debe020
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 0735fb6d47b475146deade6ab3ca2f8d24ec27a7
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593839"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52779672"
 ---
 # <a name="microsoft-productivity-score"></a>Microsoft Productiviteitsscore 
 
@@ -40,7 +40,7 @@ We bieden metrische gegevens, inzichten en aanbevelingen in twee gedeelten:
 
 - **Gebruikerservaringen:** Dit kwantificeert hoe je organisatie werkt door Microsoft 365-categorieën te gebruiken, zoals samenwerking, mobiliteit, communicatie, vergaderingen en teamwork.  
 
-    Voor elk van deze categorieën nemen we publiek onderzoek in acht zodat we aanbevolen procedures en geassocieerde voordelen kunnen identificeren in de vorm van organisatorische doeltreffendheid. Bijvoorbeeld, [Forrester](https://vc2prod.blob.core.windows.net/vc-resources/TEIStudies/TEI%20of%20Microsoft%20365%20E5%20-%20Oct%202018.pdf)-onderzoek heeft aangetoond dat mensen tot 100 minuten per week kunnen besparen wanneer ze samenwerken en content delen in de cloud (in plaats van bijlagen mailen). Bovendien kwantificeren we het gebruik van deze aanbevolen procedures in je organisatie zodat je kan zien hoe ver je bent gekomen in je digitale transformatie. 
+    Voor elk van deze categorieën nemen we publiek onderzoek in acht zodat we aanbevolen procedures en geassocieerde voordelen kunnen identificeren in de vorm van organisatorische doeltreffendheid. Bijvoorbeeld, Forrester-onderzoek heeft aangetoond dat mensen tot 100 minuten per week kunnen besparen wanneer ze samenwerken en content delen in de cloud (in plaats van bijlagen mailen). Bovendien kwantificeren we het gebruik van deze aanbevolen procedures in je organisatie zodat je kan zien hoe ver je bent gekomen in je digitale transformatie. 
 
 - **Technologie-ervaringen:** Je organisatie is afhankelijk van betrouwbare en goed functionerende technologie, alsook efficiënt gebruik van Microsoft 365. [Eindpuntanalyse](https://aka.ms/endpointanalytics) helpt je begrijpen hoe de prestatie en gezondheidsproblemen van jouw hardware en software een impact hebben op gebruikersproductiviteit. Microsoft 365-apps health toont aan of apparaten in je organisatie de aanbevolen kanalen gebruiken voor Microsoft 365-apps.
 

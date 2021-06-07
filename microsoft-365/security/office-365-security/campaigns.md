@@ -19,12 +19,12 @@ ms.collection:
 description: Meer informatie over campagneweergaven in Microsoft Defender voor Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e3c84b9e6253dd813ff930314fc2c1d0a947e94e
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 04e3d76271e95d36d73dd473076029cb60c06900
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204009"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52779445"
 ---
 # <a name="campaign-views-in-microsoft-defender-for-office-365"></a>Campagneweergaven in Microsoft Defender voor Office 365
 
@@ -33,7 +33,7 @@ ms.locfileid: "51204009"
 **Van toepassing op**
 - [Abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
 
-Campagneweergaven is een functie in Microsoft Defender voor Office 365 Plan 2 (bijvoorbeeld Microsoft 365 E5 of organisaties met een Defender voor Office 365-abonnement 2-invoegactie). Campagneweergaven in het Beveiligings- & compliancecentrum identificeert en categoriseert phishingaanvallen in de service. Campagneweergaven kunnen u helpen:
+Campagneweergaven is een functie in Microsoft Defender voor Office 365 Plan 2 (bijvoorbeeld Microsoft 365 E5 of organisaties met een Defender voor Office 365 Abonnement 2-invoeging). Campagneweergaven in het Microsoft 365 beveiligingscentrum identificeren en categoriseren phishingaanvallen in de service. Campagneweergaven kunnen u helpen:
 
 - Efficiënt onderzoeken en reageren op phishing-aanvallen.
 - Beter inzicht in het bereik van de aanval.
@@ -54,20 +54,20 @@ Microsoft maakt gebruik van de enorme hoeveelheden anti-phishing-, antispam- en 
 
 Een campagne kan van korte duur zijn of meerdere dagen, weken of maanden duren met actieve en inactieve perioden. Er kan een campagne worden gestart tegen uw specifieke organisatie of uw organisatie maakt mogelijk deel uit van een grotere campagne voor meerdere bedrijven.
 
-## <a name="campaign-views-in-the-security--compliance-center"></a>Campagneweergaven in het beveiligings- & compliancecentrum
+## <a name="campaign-views-in-the-security-center"></a>Campagneweergaven in het beveiligingscentrum
 
-Campagneweergaven zijn beschikbaar in het [Beveiligings- & compliancecentrum](https://protection.office.com) bij **Threat Management** \> **Campaigns** of rechtstreeks op <https://protection.office.com/campaigns> .
+Campagneweergaven zijn beschikbaar in [het Microsoft 365 beveiligingscentrum](https://security.microsoft.com) bij **E-mail** & \> **samenwerkingscampagnes** of rechtstreeks op <https://security.microsoft.com/campaigns> .
 
-![Overzicht van campagnes in het beveiligings- & compliancecentrum](../../media/campaigns-overview.png)
+![Overzicht van campagnes in het Microsoft 365 beveiligingscentrum](../../media/campaigns-overview.png)
 
 U kunt ook naar Campagneweergaven gaan via:
 
-- **Bedreigingsbeheer** \> **Explorer** \> **Weergave** \> **Campagnes**
-- **Bedreigingsbeheer** \> **Explorer** \> **Weergave** \> **Alle e-mail** \> **Tabblad Campagne**
-- **Bedreigingsbeheer** \> **Explorer** \> **Weergave** \> **Phish** \> **Tabblad Campagne**
-- **Bedreigingsbeheer** \> **Explorer** \> **Weergave** \> **Malware** \> **Tabblad Campagne**
+- **Samenwerking via & e-mail** \> **Explorer** \> **Weergave** \> **Campagnes**
+- **Samenwerking via & e-mail** \> **Explorer** \> **Weergave** \> **Alle e-mail** \> **Tabblad Campagne**
+- **Samenwerking via & e-mail** \> **Explorer** \> **Weergave** \> **Phish** \> **Tabblad Campagne**
+- **Samenwerking via & e-mail** \> **Explorer** \> **Weergave** \> **Malware** \> **Tabblad Campagne**
 
-Als u toegang wilt tot campagneweergaven, moet u lid  zijn van de rollengroepen Organisatiebeheer, Beveiligingsbeheerder of Beveiligingslezer in het beveiligings- & Compliancecentrum. Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
+Als u campagneweergaven wilt openen, moet u lid zijn van de rollengroepen **Organisatiebeheer,** **Beveiligingsbeheerder** of **Beveiligingslezer** in het beveiligingscentrum. Zie Machtigingen in het Microsoft 365 compliancecentrum en Microsoft 365 [beveiligingscentrum voor meer informatie.](permissions-microsoft-365-security-center.md)
 
 ## <a name="campaigns-overview"></a>Overzicht van campagnes
 
@@ -78,7 +78,7 @@ Op het **standaardtabblad** Campagne wordt in **het gebied Campagnetype** een st
 > [!TIP]
 > Als u geen campagnegegevens ziet, kunt u het datumbereik of de [filters wijzigen.](#filters-and-settings)
 
-Op de rest van de overzichtspagina ziet u de volgende informatie op het **tabblad** Campagne:
+In de tabel onder de grafiek op de overzichtspagina ziet u de volgende informatie op het **tabblad** Campagne:
 
 - **Naam**
 
@@ -92,7 +92,7 @@ Op de rest van de overzichtspagina ziet u de volgende informatie op het **tabbla
   - **Phish:** Waar beschikbaar, het merk dat wordt gepromoveerd door deze campagne. Bijvoorbeeld, `Microsoft` `365` , `Unknown` , , `Outlook` of `DocuSign` .
   - **Malware:** Bijvoorbeeld, `HTML/PHISH` of `HTML/<MalwareFamilyName>` .
 
-  Waar beschikbaar, het merk dat wordt gepromoveerd door deze campagne. Wanneer de detectie wordt aangedreven door Defender voor Office 365-technologie, wordt het voorvoegsel **ATP toegevoegd** aan de subtypewaarde.
+  Waar beschikbaar, het merk dat wordt gepromoveerd door deze campagne. Wanneer de detectie wordt aangedreven door Defender Office 365 technologie, wordt het voorvoegsel **ATP toegevoegd** aan de subtypewaarde.
 
 - **Geadresseerden:** het aantal gebruikers dat het doel van deze campagne is.
 
@@ -104,13 +104,13 @@ Op de rest van de overzichtspagina ziet u de volgende informatie op het **tabbla
 
   Klikpercentage **wordt** niet gebruikt in malwarecampagnes.
 
-- **Bezocht:** Hoeveel gebruikers zijn daadwerkelijk door de payload-website. Als er **geklikte waarden** zijn, maar veilige koppelingen de toegang tot de website hebben geblokkeerd, is deze waarde nul.
+- **Bezocht:** Hoeveel gebruikers zijn daadwerkelijk door de payload-website. Als er **geklikte waarden** zijn, maar Safe koppelingen geblokkeerde toegang tot de website, is deze waarde nul.
 
 Het **tabblad Campagne origin** toont de berichtbronnen op een kaart van de wereld.
 
 ### <a name="filters-and-settings"></a>Filters en instellingen
 
-Boven aan de pagina Campagneweergaven vindt u verschillende filter- en query-instellingen om specifieke campagnes te vinden en te isoleren.
+Boven aan de pagina **Campagne** vindt u verschillende filter- en query-instellingen om specifieke campagnes te zoeken en te isoleren.
 
 ![Campagnefilters](../../media/campaign-filters-and-settings.png)
 
@@ -131,7 +131,6 @@ De filterbare campagneeigenschappen die beschikbaar zijn in de knop **Campagnety
   - **Bestandsnaam bijlage**
   - **Malwarefamilie**
   - **Tags:** Gebruikers of groepen waarvan de opgegeven gebruikerstag is toegepast (inclusief prioriteitsaccounts). Zie Gebruikerslabels voor meer [informatie over gebruikerslabels.](user-tags.md)
-  - **Systeem overschrijven**
   - **Bezorgingsactie**
   - **Aanvullende actie**
   - **Richtingsrichting**
@@ -146,7 +145,9 @@ De filterbare campagneeigenschappen die beschikbaar zijn in de knop **Campagnety
   - **Ip-afzender**
   - **Bijlage SHA256:** Als u de hashwaarde SHA256 van een bestand in Windows wilt zoeken, voer u de volgende opdracht uit in een opdrachtprompt: `certutil.exe -hashfile "<Path>\<Filename>" SHA256` .
   - **Cluster-id**
+  - **Waarschuwings-id**
   - **Waarschuwingsbeleids-id**
+  - **Campagne-id**
   - **ZAP URL-signaal**
 
 - **URL's**:
@@ -164,11 +165,11 @@ Voor geavanceerdere filtering, inclusief filteren op meerdere eigenschappen, kun
 
 Wanneer u klaar bent, klikt u op de **knop** Query.
 
-Nadat u een eenvoudig of geavanceerd filter hebt gemaakt, kunt u het opslaan met behulp van **Query opslaan** of Query **opslaan als**. Wanneer u later terugkeert naar Campagneweergaven, kunt u een opgeslagen filter laden door op **Opgeslagen query-instellingen te klikken.**
+Nadat u een eenvoudig of geavanceerd filter hebt gemaakt, kunt u het opslaan met behulp van **Query opslaan** of Query **opslaan als**. Wanneer u later terugkeert naar de pagina **Campagnes,** kunt u een opgeslagen filter laden door op **Opgeslagen query-instellingen te klikken.**
 
 Als u de grafiek of de lijst met campagnes wilt exporteren, klikt u op **Exporteren** en selecteert u **Grafiekgegevens exporteren** of **Campagnelijst exporteren.**
 
-Als u een Abonnement op Microsoft Defender voor Eindpunt hebt, kunt u op **MDE-instellingen** klikken om de campagnesgegevens te verbinden of los te koppelen met Microsoft Defender voor Eindpunt. Zie Microsoft Defender voor [Office 365](integrate-office-365-ti-with-mde.md)integreren met Microsoft Defender voor Eindpunt voor meer informatie.
+Als u een Abonnement op Microsoft Defender voor Eindpunt hebt, kunt u op **MDE-Instellingen** klikken om de campagnesgegevens te verbinden of los te koppelen met Microsoft Defender voor Eindpunt. Zie Microsoft Defender integreren voor Office 365 microsoft [Defender voor eindpunt voor meer informatie.](integrate-office-365-ti-with-mde.md)
 
 ## <a name="campaign-details"></a>Campagnedetails
 
@@ -178,30 +179,26 @@ Wanneer u op de naam van een campagne klikt, worden de campagnedetails weergegev
 
 Boven aan de weergave met campagnedetails zijn de volgende campagnegegevens beschikbaar:
 
-- **ID:** de unieke campagne-id.
-
-- **Gestart** **en beëindigd:** de begin- en einddatum van de campagne. Houd er rekening mee dat deze datums verder kunnen gaan dan de filterdatums die u hebt geselecteerd op de overzichtspagina.
-
-- **Effect:** deze sectie bevat de volgende gegevens voor het datumbereikfilter dat u hebt geselecteerd (of die u selecteert in de tijdlijn):
-  - Het totale aantal geadresseerden.
-  - Het aantal berichten dat 'Postvak IN' was (dat wil zeggen, bezorgd in het Postvak IN, niet in de map Ongewenste e-mail).
-  - Hoeveel gebruikers hebben in het phishingbericht op de URL-payload geklikt.
-  - Hoeveel gebruikers hebben de URL bezocht.
-
-- **Targeted:** Het percentage zoals berekend door: (het aantal geadresseerden van de campagne in uw organisatie) / (het totale aantal geadresseerden in de campagne in alle organisaties in de service). Deze waarde wordt berekend over de hele levensduur van de campagne en wordt niet gewijzigd op basis van datumfilters.
-
-- Een interactieve tijdlijn van campagneactiviteit: de tijdlijn toont activiteiten gedurende de hele levensduur van de campagne. Standaard bevat het gearceerde gebied het datumbereikfilter dat u hebt geselecteerd in het overzicht. U kunt klikken en slepen om een specifiek begin- en eindpunt te selecteren, waarmee de gegevens worden gewijzigd die worden weergegeven in het gebied Impact en op de rest van de pagina, zoals beschreven in de volgende <u>secties.  </u>
-
-Klik op de titelbalk op de knop Campagneopschrijven downloaden Om de campagnedetails te downloaden naar een **Word-document** (standaard met de naam ![ ](../../media/download-campaign-write-up-button.png) CampaignReport.docx). Houd er rekening mee dat de download details bevat over de hele levensduur van de campagne (niet alleen de filterdatums die u hebt geselecteerd).
+- **Campagne-id:** de unieke campagne-id.
+- **Activiteit:** De duur en activiteit van de campagne.
+- De volgende gegevens voor het datumbereikfilter dat u hebt geselecteerd (of die u selecteert in de tijdlijn):
+- **Gevolg**
+- **Berichten:** Het totale aantal geadresseerden.
+- **Postvak IN:** Het aantal berichten dat is bezorgd in het Postvak IN, niet in de map Ongewenste e-mail.
+- **Klik op koppeling**: Hoeveel gebruikers hebben op de URL-payload in het phishingbericht geklikt.
+- **Bezochte koppeling:** Hoeveel gebruikers de URL hebben bezocht.
+- **Targeted(%)**: Het percentage zoals berekend door: (het aantal campagne-geadresseerden in uw organisatie) / (het totale aantal geadresseerden in de campagne in alle organisaties in de service). Deze waarde wordt berekend over de hele levensduur van de campagne en wordt niet gewijzigd op basis van datumfilters.
+- Begindatum-/tijd- en eindgegevens-/tijdfilters voor de campagnestroom, zoals beschreven in de volgende sectie.
+- Een interactieve tijdlijn van campagneactiviteit: de tijdlijn toont activiteiten gedurende de hele levensduur van de campagne. U kunt de muisaanwijzer boven de gegevenspunten in de grafiek bewegen om de hoeveelheid gedetecteerde berichten te zien.
 
 ![Campagnegegevens](../../media/campaign-details-campaign-info.png)
 
 ### <a name="campaign-flow"></a>Campagnestroom
 
-In het midden van de weergave met campagnedetails worden belangrijke details over de campagne weergegeven in de sectie **Stroom** in een horizontaal stroomdiagram (bekend als een _Sankey-diagram)._ Met deze details krijgt u inzicht in de elementen van de campagne en de mogelijke impact in uw organisatie.
+In het midden van de weergave met campagnedetails worden belangrijke details over de campagne weergegeven in een horizontaal stroomdiagram (bekend als een _Sankey-diagram)._ Met deze details krijgt u inzicht in de elementen van de campagne en de mogelijke impact in uw organisatie.
 
 > [!TIP]
-> De informatie die wordt weergegeven in het **stroomdiagram,** wordt bepaald door het gearceerde datumbereik in de tijdlijn, zoals beschreven in de vorige sectie.
+> De informatie die in het stroomdiagram wordt weergegeven, wordt bepaald door het datumbereikfilter in de tijdlijn, zoals beschreven in de vorige sectie.
 
 ![Campagnedetails die geen url-klikken van gebruikers bevatten](../../media/campaign-details-no-recipient-actions.png)
 
@@ -213,9 +210,11 @@ Het diagram bevat de volgende informatie:
 - **Afzenderdomeinen**
 - **Filter vonnissen:** Vonniswaarden zijn gerelateerd aan de beschikbare phishing- en spamfilters zoals beschreven in kopteksten van [antispamberichten.](anti-spam-message-headers.md) De beschikbare waarden worden in de volgende tabel beschreven:
 
+  <br>
+
   ****
 
-  |Waarde|Uitspraak over spamfilter|Beschrijving|
+  |Waarde|Uitspraak over spamfilter|Omschrijving|
   |---|---|---|
   |**Toegestaan**|`SFV:SKN` <p> `SFV:SKI`|Het bericht is gemarkeerd als geen spam en/of is niet gefilterd voordat het door spamfilters wordt geëvalueerd. Het bericht is bijvoorbeeld gemarkeerd als geen spam door een regel voor de e-mailstroom (ook wel een transportregel genoemd). <p> Het bericht heeft spamfilters om andere redenen overgeslagen. De afzender en geadresseerde lijken zich bijvoorbeeld in dezelfde organisatie te hebben.|
   |**Geblokkeerd**|`SFV:SKS`|Het bericht is gemarkeerd als spam voordat het werd geëvalueerd door spamfilters. Bijvoorbeeld door een regel voor de e-mailstroom.|
@@ -224,7 +223,7 @@ Het diagram bevat de volgende informatie:
   |**Uitgebracht**|`SFV:SKQ`|Het bericht heeft spamfilters overgeslagen omdat het is vrijgegeven uit quarantaine.|
   |**Tenant toestaan**<sup>\*</sup>|`SFV:SKA`|Het bericht heeft spamfilters overgeslagen vanwege de instellingen in een antispambeleid. De afzender stond bijvoorbeeld in de lijst met toegestane afzenders of de lijst met toegestane domeinen.|
   |**Tenantblok**<sup>\*\*</sup>|`SFV:SKA`|Het bericht is geblokkeerd door spamfilters vanwege de instellingen in een antispambeleid. De afzender stond bijvoorbeeld in de lijst met toegestane afzenders of de lijst met toegestane domeinen.|
-  |**Toestaan door gebruiker**<sup>\*</sup>|`SFV:SFE`|Het bericht heeft spamfilters overgeslagen omdat de afzender zich in de lijst Met veilige afzenders van een gebruiker had geplaatst.|
+  |**Toestaan door gebruiker**<sup>\*</sup>|`SFV:SFE`|Het bericht heeft spamfilters overgeslagen omdat de afzender zich in de lijst Safe afzenders van een gebruiker.|
   |**Gebruikersblok**<sup>\*\*</sup>|`SFV:BLK`|Het bericht is geblokkeerd door spamfilters omdat de afzender zich in de lijst Geblokkeerde afzenders van een gebruiker heeft geplaatst.|
   |**ZAP**|n/a|Het bezorgde bericht is verplaatst naar de map Ongewenste [e-mail of quarantaine.](zero-hour-auto-purge.md) U configureert de actie in uw antispambeleid.|
   |
@@ -233,8 +232,8 @@ Het diagram bevat de volgende informatie:
 
   <sup>\*\*</sup> Controleer uw antispambeleid, omdat deze berichten in quarantaine moeten worden geplaatst en niet moeten worden bezorgd.
 
-- Bezorgingslocaties: U wilt waarschijnlijk berichten onderzoeken die zijn bezorgd bij geadresseerden (in het Postvak IN of in de map Ongewenste e-mail), zelfs als gebruikers niet op de payload-URL in het bericht hebben geklikt. U kunt ook de in quarantaine geplaatste berichten uit quarantaine verwijderen. Zie In quarantaine geplaatste [e-mailberichten in EOP](quarantine-email-messages.md)voor meer informatie.
-  - **Verwijderde map**
+- **Berichtbestemmingen:** U wilt waarschijnlijk berichten onderzoeken die zijn bezorgd bij geadresseerden (in het Postvak IN of in de map Ongewenste e-mail), zelfs als gebruikers niet op de payload-URL in het bericht hebben geklikt. U kunt ook de in quarantaine geplaatste berichten uit quarantaine verwijderen. Zie In quarantaine geplaatste [e-mailberichten in EOP](quarantine-email-messages.md)voor meer informatie.
+  - **Map verwijderd**
   - **Laten vallen**
   - **Extern:** De ontvanger bevindt zich in uw on-premises e-mailorganisatie in hybride omgevingen.
   - **Mislukt**
@@ -256,9 +255,9 @@ Wanneer een phishingbericht wordt bezorgd in het Postvak IN of ongewenste e-mail
 Als een gebruiker in het phishingbericht op de payload-URL heeft geklikt, worden de acties weergegeven in het **gebied URL-klikken** van het diagram in de weergave campagnedetails.
 
 - **Toegestaan**
-- **BlockPage:** De ontvanger heeft op de payload-URL geklikt, maar [](safe-links.md) de toegang tot de schadelijke website is geblokkeerd door een beleid voor veilige koppelingen in uw organisatie.
-- **BlockPageOverride:** De geadresseerde klikte op de payload-URL in het bericht, Veilige koppelingen probeerden deze te stoppen, maar ze mochten het blok overschrijven. Controleer uw [beleid voor veilige koppelingen](set-up-safe-links-policies.md) om te zien waarom gebruikers de uitspraak veilige koppelingen mogen overschrijven en door mogen gaan naar de schadelijke website.
-- **PendingDetonationPage:** Veilige bijlagen in Microsoft Defender voor Office 365 is bezig met het openen en onderzoeken van de payload-URL in een virtuele computeromgeving.
+- **BlockPage:** De ontvanger heeft op de payload-URL geklikt, maar de toegang tot de schadelijke website is geblokkeerd door een [Safe koppelingenbeleid](safe-links.md) in uw organisatie.
+- **BlockPageOverride:** De geadresseerde heeft op de payload-URL in het bericht geklikt, Safe Koppelingen hebben geprobeerd deze te stoppen, maar ze mochten het blok overschrijven. Controleer uw [Safe koppelingenbeleid](set-up-safe-links-policies.md) om te zien waarom gebruikers de uitspraak Safe koppelingen mogen overschrijven en naar de schadelijke website kunnen gaan.
+- **PendingDetonationPage**: Safe Bijlagen in Microsoft Defender voor Office 365 is bezig met het openen en onderzoeken van de payload-URL in een virtuele computeromgeving.
 - **PendingDetonationPageOverride:** De geadresseerde mocht de ontsteker van de payload overschrijven en de URL openen zonder te wachten op de resultaten.
 
 ### <a name="tabs"></a>Tabbladen
@@ -266,7 +265,7 @@ Als een gebruiker in het phishingbericht op de payload-URL heeft geklikt, worden
 Met de tabbladen in de weergave campagnedetails kunt u de campagne verder onderzoeken.
 
 > [!TIP]
-> De informatie die op de tabbladen wordt weergegeven, wordt bepaald door het gearceerde datumbereik in de tijdlijn, zoals beschreven in de sectie [Campagnegegevens.](#campaign-information)
+> De informatie die op de tabbladen wordt weergegeven, wordt bepaald door het datumbereikfilter in de tijdlijn, zoals beschreven in [de sectie Campagnegegevens.](#campaign-information)
 
 - **URL-klikken**: Als gebruikers niet op de payload-URL in het bericht hebben geklikt, is deze sectie leeg. Als een gebruiker op de URL kan klikken, worden de volgende waarden ingevuld:
   - **Gebruiker**<sup>\*</sup>
@@ -303,7 +302,11 @@ Met de tabbladen in de weergave campagnedetails kunt u de campagne verder onderz
 
 ### <a name="buttons"></a>Knoppen
 
-Met de knoppen in de weergave campagnedetails kunt u de kracht van Threat Explorer gebruiken om de campagne verder te onderzoeken.
+Met de knoppen onder aan de weergave campagnedetails kunt u details van de campagne onderzoeken en opnemen:
 
-- **Campagne verkennen:** hiermee opent u een nieuw zoektabblad Threat Explorer met de **waarde Campagne-id** als zoekfilter.
-- **Berichten met Postvak IN verkennen:** hiermee opent u een nieuw zoektabblad Threat Explorer met de locatie **Campagne-id** en **Bezorging: Postvak IN** als zoekfilter.
+- **Berichten verkennen:** Gebruik de kracht van Threat Explorer om de campagne verder te onderzoeken:
+  - **Alle berichten:** Hiermee opent u een nieuw zoektabblad Threat Explorer met de **waarde Campagne-id** als zoekfilter.
+  - **Postvak IN:** Hiermee opent u een nieuw zoektabblad Threat Explorer met de locatie **Campagne-id** en **bezorging: Postvak IN** als zoekfilter.
+  - **Interne berichten:** Hiermee opent u een nieuw zoektabblad Threat Explorer met de **campagne-id** en **richting: Intra-org** als zoekfilter.
+
+- **Bedreigingsrapport downloaden:** Download de campagnedetails naar een Word-document (standaard benoemd CampaignReport.docx). Houd er rekening mee dat de download details bevat over de hele levensduur van de campagne (niet alleen de filterdatums die u hebt geselecteerd).

@@ -1,6 +1,6 @@
 ---
 title: Microsoft 365 Defender advanced hunting API
-description: Meer informatie over het uitvoeren van geavanceerde zoekquery's met behulp van de geavanceerde api van Microsoft 365 Defender
+description: Meer informatie over het uitvoeren van geavanceerde zoekquery's met Microsoft 365 advanced hunting API van Defender
 keywords: Advanced Hunting, API's, api, M365 Defender, Microsoft 365 Defender
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: c988a609a329c8f7f8988314e56aae942beebac5
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 3ff62265783be846a95964164e372100fe1ef662
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932891"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769583"
 ---
 # <a name="microsoft-365-defender-advanced-hunting-api"></a>Microsoft 365 Defender Advanced hunting API
 
@@ -38,7 +38,7 @@ ms.locfileid: "51932891"
 > [!IMPORTANT]
 > Sommige informatie is gerelateerd aan voorlopige productversies die mogelijk aanzienlijk gewijzigd worden voordat ze commercieel gepubliceerd worden. Microsoft geeft geen garantie, uitdrukkelijk of impliciet, met betrekking tot de informatie die hier wordt beschreven.
 
-[Geavanceerd zoeken](advanced-hunting-overview.md) is een hulpprogramma [](advanced-hunting-query-language.md) voor het zoeken naar bedreigingen dat speciaal samengestelde query's gebruikt om de afgelopen 30 dagen met gebeurtenisgegevens in Microsoft 365 Defender te bekijken. U kunt geavanceerde zoekquery's gebruiken om ongebruikelijke activiteiten te controleren, mogelijke bedreigingen te detecteren en zelfs te reageren op aanvallen. Met de geavanceerde api voor jagen kunt u gebeurtenisgegevens programmeren.
+[Geavanceerd jagen](advanced-hunting-overview.md) is een hulpprogramma [](advanced-hunting-query-language.md) voor het zoeken naar bedreigingen dat speciaal samengestelde query's gebruikt om de afgelopen 30 dagen met gebeurtenisgegevens in Microsoft 365 Defender. U kunt geavanceerde zoekquery's gebruiken om ongebruikelijke activiteiten te controleren, mogelijke bedreigingen te detecteren en zelfs te reageren op aanvallen. Met de geavanceerde api voor jagen kunt u gebeurtenisgegevens programmeren.
 
 ## <a name="quotas-and-resource-allocation"></a>Quota en resourcetoewijzing
 
@@ -47,17 +47,16 @@ De volgende voorwaarden hebben betrekking op alle query's.
 1. Query's verkennen en retourneren gegevens uit de afgelopen 30 dagen.
 2. Resultaten kunnen maximaal 100.000 rijen opleveren.
 3. U kunt maximaal 15 oproepen per minuut per tenant voeren.
-4. U hebt 10 minuten speeltijd per uur per tenant.
-5. U hebt in totaal vier uur aan gebruikstijden per dag per tenant.
-6. Als één aanvraag langer dan 10 minuten wordt uitgevoerd, wordt er een time-out uitgevoerd en wordt er een foutbericht weergegeven.
-7. Een HTTP-antwoordcode geeft aan dat u een quotum hebt bereikt, hetzij op het aantal verzonden aanvragen, hetzij door de toegewezen `429` gebruikstijd. Lees de antwoord body voor meer informatie over de limiet die u hebt bereikt. 
+4. Query's worden geblokkeerd als de tenant 100% heeft bereikt tot na de volgende cyclus van 15 minuten.
+5. Als één aanvraag langer dan 10 minuten wordt uitgevoerd, wordt er een time-out uitgevoerd en wordt er een foutbericht weergegeven.
+6. Een HTTP-antwoordcode geeft aan dat u een quotum hebt bereikt, hetzij op het aantal verzonden aanvragen, hetzij door de toegewezen `429` gebruikstijd. Lees de antwoord body voor meer informatie over de limiet die u hebt bereikt. 
 
 > [!NOTE]
 > Alle quota die hierboven worden vermeld (bijvoorbeeld 15 oproepen per min) zijn per tenantgrootte. Deze quota's zijn het minimum.
 
 ## <a name="permissions"></a>Machtigingen
 
-Een van de volgende machtigingen is vereist om de geavanceerde api voor jagen te bellen. Zie [Access the Microsoft 365 Defender Protection API's (Access the Microsoft 365 Defender Protection](api-access.md) API's) voor meer informatie, inclusief het kiezen van machtigingen.
+Een van de volgende machtigingen is vereist om de geavanceerde api voor jagen te bellen. Zie Access the Microsoft 365 Defender Protection [API's (Access the Microsoft 365 Defender Protection API's](api-access.md) ) voor meer informatie, inclusief het kiezen van machtigingen.
 
 Machtigingstype | Machtiging | Weergavenaam machtiging
 -|-|-
@@ -87,7 +86,7 @@ Inhoudstype | toepassing/json
 
 In de objectaanvraag moet u een JSON-object de volgende parameters geven:
 
-Parameter | Type | Beschrijving
+Parameter | Type | Omschrijving
 -|-|-
 Query | Tekst | De query die u wilt uitvoeren. **Opmerking: vereist**
 
@@ -178,9 +177,9 @@ In het volgende voorbeeld verzendt een gebruiker de query hieronder en ontvangt 
 }
 ```
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-articles"></a>Aanverwante artikelen
 
-- [De Microsoft 365 Defender-API's openen](api-access.md)
+- [Toegang tot Microsoft 365 Defender-API's](api-access.md)
 - [Meer informatie over API-limieten en -licenties](api-terms.md)
 - [Foutcodes begrijpen](api-error-codes.md)
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)

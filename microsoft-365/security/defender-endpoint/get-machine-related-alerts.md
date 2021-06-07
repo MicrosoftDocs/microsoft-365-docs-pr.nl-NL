@@ -14,12 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 837643bf5793437380a6f33c0eeca55ccef2100b
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: bf445332fed7b8661c510bf60f36088b79e2d8df
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51199249"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770023"
 ---
 # <a name="get-machine-related-alerts--api"></a>Api voor machinegerelateerde waarschuwingen krijgen
 
@@ -61,7 +63,7 @@ GET /api/machines/{id}/alerts
 
 ## <a name="request-headers"></a>Kopteksten aanvragen
 
-Naam | Type | Beschrijving
+Naam | Type | Omschrijving
 :---|:---|:---
 Autorisatie | Tekenreeks | Bearer {token}. **Vereist**.
 

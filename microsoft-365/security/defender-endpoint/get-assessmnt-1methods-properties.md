@@ -17,11 +17,11 @@ ms.topic: article
 ms.technology: mde
 ms.custom: api
 ms.openlocfilehash: e820875a3350761824c3e4e67311e55507a9cb6f
-ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
+ms.sourcegitcommit: 83df0be7144c9c5d606f70b4efa65369e86693d2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52689199"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52778350"
 ---
 # <a name="export-assessment-methods-and-properties-per-device"></a>Beoordelingsmethoden en -eigenschappen per apparaat exporteren
 
@@ -48,9 +48,9 @@ Er zijn drie API-methoden die u kunt gebruiken om verschillende soorten gegevens
 
 1. Evaluatie van beveiligde configuraties exporteren
 
-2. Evaluatie van de softwarevoorraad exporteren
+2. Software-inventarisbeoordeling exporteren
 
-3. Beoordeling van beveiligingsproblemen met software exporteren
+3. Software-kwetsbaarhedenbeoordeling exporteren
 
 Voor elke methode zijn er verschillende API-oproepen om verschillende typen gegevens op te halen. Omdat de hoeveelheid gegevens groot kan zijn, kunnen deze op twee manieren worden opgehaald:
 

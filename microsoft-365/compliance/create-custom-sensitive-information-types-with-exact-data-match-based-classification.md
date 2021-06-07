@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Meer informatie over het maken van aangepaste gevoelige informatietypen met op Exacte gegevens overeenkomende classificatie.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0bb75db5b6bb1f3a3b18033b5327f014748f6512
-ms.sourcegitcommit: aff2331f9a3f22591f8ace1a646809969d28c120
+ms.openlocfilehash: 7c6db9df115020902b80328a341606cca2b1c735
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52464391"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769459"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>Aangepaste gevoelige informatietypen maken met een classificatie op basis van Exacte gegevensmatch
 
@@ -51,13 +51,13 @@ Maar wat als u een aangepast type gevoelige informatie (SIT) wilt dat exacte geg
 Met EDM-classificatie kunt u aangepaste gevoelige informatietypen maken die verwijzen naar exacte waarden in een database met gevoelige informatie. De database kan dagelijks worden vernieuwd en maximaal 100 miljoen rijen met gegevens bevatten. Als werknemers, patiënten of klanten komen en gaan en records veranderen, blijven uw aangepaste gevoelige informatietypen actueel en van toepassing. En u kunt classificatie op basis van EDM gebruiken met beleidsregels, zoals beleid voor preventie van gegevensverlies of Microsoft Cloud App Security [bestandsbeleid.](/cloud-app-security/data-protection-policies) [](dlp-learn-about-dlp.md)
 
 > [!NOTE]
-> Microsoft 365 Information Protection ondersteunt in voorbeeldtalen voor dubbele bytetekensets voor:
-> - Chinees (vereenvoudigd)
-> - Chinees (traditioneel)
-> - Koreaans
+> Microsoft 365 Information Protection ondersteunt talen voor preview van dubbel-byte-tekensets voor:
+> - Vereenvoudigd Chinees
+> - Traditioneel Chinees
+> - Koreaks
 > - Japans
 > 
-> Deze ondersteuning is beschikbaar voor gevoelige informatietypen. Zie [Informatiebeveiligingsondersteuning voor dubbele bytetekensets releasenotities (preview)](mip-dbcs-relnotes.md) voor meer informatie.
+> Deze ondersteuning is beschikbaar voor typen gevoelige informatie. Zie [Ondersteuning voor Information Protection voor releaseopmerkingen bij dubbel-bytetekensets (preview)](mip-dbcs-relnotes.md) voor meer informatie.
  
 
 ## <a name="required-licenses-and-permissions"></a>Vereiste licenties en machtigingen
@@ -612,10 +612,6 @@ Deze locaties ondersteunen EDM-gevoelige informatietypen:
 - Microsoft Cloud App Security DLP-beleid
 - Beleid voor automatisch labelen op de server
 
-EDM-gevoelige informatietypen voor volgende scenario's zijn momenteel in ontwikkeling, maar nog niet beschikbaar:
-
-- Automatische classificatie van gevoeligheidslabels en bewaarlabels
-
 #### <a name="to-create-a-dlp-policy-with-edm"></a>Een DLP-beleid maken met EDM
 
 1. Ga naar het Beveiligings- & compliancecentrum met de juiste [koppeling voor uw abonnement.](#portal-links-for-your-subscription)
@@ -654,7 +650,7 @@ EDM-gevoelige informatietypen voor volgende scenario's zijn momenteel in ontwikk
 > [!NOTE]
 > Sta ongeveer één uur toe dat uw nieuwe DLP-beleid zijn weg door uw datacenter kan vinden.
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-articles"></a>Aanverwante artikelen
 
 - [Definities van entiteiten van het type gevoelige informatie](sensitive-information-type-entity-definitions.md)
 - [Meer informatie over typen gevoelige informatie](sensitive-information-type-learn-about.md)

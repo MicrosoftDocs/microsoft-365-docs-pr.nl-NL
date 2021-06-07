@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 2c261e42-5dd1-48b0-845f-2a016d29cfc1
 description: Binnen 30 dagen na het verwijderen van een gebruikersaccount kunt u het account en alle gegevens herstellen en kan de gebruiker zich aanmelden met hetzelfde account.
-ms.openlocfilehash: 83852136ee22ab3f63d8ada6a5a7290883c392e5
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: f849fe8e403aa9a72eccb4dd65665ec9f33618d1
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52623819"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52779648"
 ---
 # <a name="restore-a-user"></a>Een gebruiker herstellen
    
@@ -38,7 +38,7 @@ Hier zijn een paar tips:
   
 - Zorg ervoor dat licenties beschikbaar zijn om toe te wijzen aan het account.
     
-- Zie [Problemen met verwijderde gebruikersaccounts oplossen in Office 365](/office365/troubleshoot/active-directory/restore-deleted-user-accounts.md) als uw bedrijf Active Directory gebruikt voor instructies over het herstellen van gebruikersaccounts. 
+- Als uw bedrijf Active Directory gebruikt voor instrutcions bij het herstellen van een gebruikersaccount, zie Hoe u problemen kunt oplossen met verwijderde gebruikersaccounts [in](/office365/troubleshoot/active-directory/restore-deleted-user-accounts)Office 365. 
     
 ## <a name="restore-one-or-more-user-accounts"></a>Een of meer gebruikersaccounts herstellen
 
@@ -91,7 +91,7 @@ Hiervoor moet [u beheerdersmachtigingen](about-admin-roles.md) Microsoft 365.
     
 4. Controleer het resultaat en selecteer vervolgens **Sluiten**.
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Een gebruiker verwijderen](delete-a-user.md) (artikel)\
 [Beheerdersrollen toewijzen](assign-admin-roles.md) (video)\

@@ -11,17 +11,17 @@ localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 05/17/2021
+ms.date: 06/04/2021
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: ef5a9ffdf45a2f8e7f262ae7f969cd19e848b7a5
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: ca5737a0224825a0c88159c4a3931cc0c310b69b
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572523"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52788449"
 ---
 # <a name="configure-and-validate-microsoft-defender-antivirus-network-connections"></a>Netwerkverbindingen van Microsoft Defender Antivirus configureren en valideren
 
@@ -29,12 +29,12 @@ ms.locfileid: "52572523"
 
 - [Microsoft Defender voor Eindpunt](/microsoft-365/security/defender-endpoint/)
 
-Als u Microsoft Defender Antivirus beveiliging in de cloud goed wilt laten werken, moet u uw netwerk zo configureren dat verbindingen tussen uw eindpunten en bepaalde Microsoft-servers worden toegestaan. In dit artikel worden de verbindingen vermeld die moeten worden toegestaan, bijvoorbeeld met behulp van firewallregels, en worden instructies gegeven voor het valideren van uw verbinding. Als u uw beveiliging correct configureert, kunt u ervoor zorgen dat u de beste waarde ontvangt van uw beveiligingsservices die in de cloud worden geleverd.
+Als u Microsoft Defender Antivirus beveiliging in de cloud correct wilt laten werken, moet uw beveiligingsteam uw netwerk zo configureren dat verbindingen tussen uw eindpunten en bepaalde Microsoft-servers worden toegestaan. In dit artikel worden de verbindingen vermeld die moeten worden toegestaan, bijvoorbeeld met behulp van firewallregels, en worden instructies gegeven voor het valideren van uw verbinding. Als u uw beveiliging correct configureert, kunt u ervoor zorgen dat u de beste waarde ontvangt van uw beveiligingsservices die in de cloud worden geleverd.
 
 Zie het blogbericht [Belangrijke wijzigingen in het eindpunt van Microsoft Active Protection Services](https://techcommunity.microsoft.com/t5/Configuration-Manager-Archive/Important-changes-to-Microsoft-Active-Protection-Service-MAPS/ba-p/274006) voor meer informatie over netwerkconnectiviteit.
 
 > [!TIP]
-> U kunt ook naar de demowebsite [](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground) van Microsoft Defender voor Eindpunt demo.wd.microsoft.com om te bevestigen dat de volgende functies werken:
+> Ga naar de demowebsite van Microsoft Defender voor Eindpunt demo.wd.microsoft.com [om](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground) te bevestigen dat de volgende functies werken:
 >
 > - Cloudbeveiliging
 > - Snel leren (inclusief blok op het eerste gezicht)
@@ -42,35 +42,34 @@ Zie het blogbericht [Belangrijke wijzigingen in het eindpunt van Microsoft Activ
 
 ## <a name="allow-connections-to-the-microsoft-defender-antivirus-cloud-service"></a>Verbindingen met de Microsoft Defender Antivirus cloudservice toestaan
 
-De Microsoft Defender Antivirus cloudservice biedt snelle, sterke beveiliging voor uw eindpunten. Het inschakelen van de door de cloud geleverde beveiligingsservice is optioneel, maar het wordt ten zeerste aanbevolen omdat deze belangrijke bescherming biedt tegen malware op uw eindpunten en in uw netwerk.
+De Microsoft Defender Antivirus cloudservice biedt snelle, sterke beveiliging voor uw eindpunten. Het inschakelen van de door de cloud geleverde beveiligingsservice is optioneel, maar het wordt ten zeerste aanbevolen omdat deze belangrijke bescherming biedt tegen malware op uw eindpunten en in uw netwerk. Zie [Beveiliging in de cloud](enable-cloud-protection-microsoft-defender-antivirus.md) inschakelen voor meer informatie over het inschakelen van de service met Intune, Microsoft Endpoint Configuration Manager, Groepsbeleid, PowerShell-cmdlets of op afzonderlijke clients in de Windows-beveiliging app. 
+
+Nadat u de service hebt ingeschakeld, moet u mogelijk uw netwerk of firewall configureren om verbindingen tussen de service en uw eindpunten toe te staan. Omdat uw beveiliging een cloudservice is, moeten computers toegang hebben tot internet en de Microsoft Defender voor Office 365 machine learning-services. Sluit de URL niet uit `*.blob.core.windows.net` van een netwerkcontrole. 
 
 > [!NOTE]
 > De Microsoft Defender Antivirus cloudservice is een mechanisme voor het leveren van bijgewerkte beveiliging voor uw netwerk en eindpunten. Hoewel het een cloudservice wordt genoemd, is het niet alleen beveiliging voor bestanden die zijn opgeslagen in de cloud, maar wordt gebruikgemaakt van gedistribueerde resources en machine learning om uw eindpunten te beschermen tegen een snelheid die veel sneller is dan traditionele beveiligingsinformatie-updates.
 
-Zie [Beveiliging in de cloud](enable-cloud-protection-microsoft-defender-antivirus.md) inschakelen voor meer informatie over het inschakelen van de service met Intune, Microsoft Endpoint Configuration Manager, Groepsbeleid, PowerShell-cmdlets of op afzonderlijke clients in de Windows-beveiliging app. 
+## <a name="services-and-urls"></a>Services en URL's
 
-Nadat u de service hebt ingeschakeld, moet u mogelijk uw netwerk of firewall configureren om verbindingen tussen de service en uw eindpunten toe te staan.
+De tabel in deze sectie bevat de services en de bijbehorende websiteadressen (URL's). 
 
-Omdat uw beveiliging een cloudservice is, moeten computers toegang hebben tot internet en de Microsoft Defender voor Office 365 machine learning-services. Sluit de URL niet uit `*.blob.core.windows.net` van een netwerkcontrole. 
+Zorg ervoor dat er geen firewall- of netwerkfilterregels zijn die toegang tot deze URL's weigeren. Anders moet u mogelijk een regel voor toestaan speciaal voor hen maken (met uitzondering van de `*.blob.core.windows.net` URL). De URL's in de volgende tabel gebruiken poort 443 voor communicatie.
 
-De onderstaande tabel bevat de services en bijbehorende URL's. Zorg ervoor dat er geen firewall- of netwerkfilterregels zijn die toegang tot deze URL's weigeren, of u moet mogelijk een regel voor toestaan speciaal voor hen maken (met uitzondering van de `*.blob.core.windows.net` URL). Hieronder vermelden URL's gebruiken poort 443 voor communicatie.
-
-
-| **Service**| **Beschrijving** |**URL** |
-| :--: | :-- | :-- |
-| Microsoft Defender Antivirus door de cloud geleverde beveiligingsservice, ook wel Microsoft Active Protection Service (KAARTEN)|Gebruikt door Microsoft Defender Antivirus om beveiliging in de cloud te bieden|`*.wdcp.microsoft.com` <br/> `*.wdcpalt.microsoft.com` <br/> `*.wd.microsoft.com`|
-| Microsoft Update Service (MU) <br/> Windows Updateservice (WU)|  Beveiligingsinformatie en productupdates   |`*.update.microsoft.com` <br/> `*.delivery.mp.microsoft.com`<br/> `*.windowsupdate.com` <br/><br/> Zie [Verbindings-eindpunten voor Windows Update voor meer informatie](/windows/privacy/manage-windows-1709-endpoints#windows-update)|
-|Beveiligingsinformatieupdates Alternatieve downloadlocatie (ADL)|   Alternatieve locatie voor Microsoft Defender Antivirus beveiligingsintelligentieupdates als de geïnstalleerde beveiligingsintelligentie verouderd is (7 of meer dagen achter)|    `*.download.microsoft.com`  </br> `*.download.windowsupdate.com`</br>  `go.microsoft.com`</br> `https://fe3cr.delivery.mp.microsoft.com/ClientWebService/client.asmx`|
-| Opslag voor malware indienen|Upload locatie voor bestanden die zijn ingediend bij Microsoft via het formulier Voorzending of automatische voorbeeldinzending    | `ussus1eastprod.blob.core.windows.net` <br/>    `ussus2eastprod.blob.core.windows.net` <br/>    `ussus3eastprod.blob.core.windows.net` <br/>    `ussus4eastprod.blob.core.windows.net` <br/>    `wsus1eastprod.blob.core.windows.net` <br/>    `wsus2eastprod.blob.core.windows.net` <br/>    `ussus1westprod.blob.core.windows.net` <br/>    `ussus2westprod.blob.core.windows.net` <br/>    `ussus3westprod.blob.core.windows.net` <br/>    `ussus4westprod.blob.core.windows.net` <br/>    `wsus1westprod.blob.core.windows.net` <br/>    `wsus2westprod.blob.core.windows.net` <br/>    `usseu1northprod.blob.core.windows.net` <br/>    `wseu1northprod.blob.core.windows.net` <br/>    `usseu1westprod.blob.core.windows.net` <br/>    `wseu1westprod.blob.core.windows.net` <br/>    `ussuk1southprod.blob.core.windows.net` <br/>    `wsuk1southprod.blob.core.windows.net` <br/>    `ussuk1westprod.blob.core.windows.net` <br/>    `wsuk1westprod.blob.core.windows.net` |
-| Intrekkingslijst voor certificaten (CRL)|Gebruikt door Windows bij het maken van de SSL-verbinding met KAARTEN voor het bijwerken van de CRL   | `http://www.microsoft.com/pkiops/crl/` <br/> `http://www.microsoft.com/pkiops/certs` <br/>   `http://crl.microsoft.com/pki/crl/products` <br/> `http://www.microsoft.com/pki/certs` |
-| Symbol Store|Gebruikt door Microsoft Defender Antivirus om bepaalde kritieke bestanden te herstellen tijdens herstelstromen  | `https://msdl.microsoft.com/download/symbols` |
-| Universele telemetrieclient| Gebruikt door Windows om diagnostische gegevens van de client te verzenden; Microsoft Defender Antivirus telemetrie gebruikt voor productkwaliteitscontroledoeleinden   | De update gebruikt SSL (TCP-poort 443) om manifesten te downloaden en diagnostische gegevens te uploaden naar Microsoft met de volgende DNS-eindpunten:   `vortex-win.data.microsoft.com` <br/>   `settings-win.data.microsoft.com`|
+| Service en beschrijving | URL |
+|----|---- |
+| Microsoft Defender Antivirus door de cloud geleverde beveiligingsservice, ook wel Microsoft Active Protection Service (KAARTEN)<p>Deze service wordt door Microsoft Defender Antivirus gebruikt om beveiliging in de cloud te bieden|`*.wdcp.microsoft.com` <p> `*.wdcpalt.microsoft.com` <p> `*.wd.microsoft.com`|
+| Microsoft Update Service (MU) en Windows Update Service (WU) <p>Deze services maken beveiligingsinformatie en productupdates mogelijk   |`*.update.microsoft.com` <p> `*.delivery.mp.microsoft.com`<p> `*.windowsupdate.com` <p> Zie Verbindings eindpunten voor Windows [Update voor meer informatie](/windows/privacy/manage-windows-1709-endpoints#windows-update)|
+|Beveiligingsinformatieupdates Alternatieve downloadlocatie (ADL)<p>Dit is een alternatieve locatie voor Microsoft Defender Antivirus beveiligingsinformatieupdates als de geïnstalleerde beveiligingsinformatie verouderd is (7 of meer dagen achter)|  `*.download.microsoft.com`  <p> `*.download.windowsupdate.com`<p>  `go.microsoft.com`<p> `https://fe3cr.delivery.mp.microsoft.com/ClientWebService/client.asmx`|
+| Opslag voor malware indienen <p>Dit is de uploadlocatie voor bestanden die naar Microsoft zijn verzonden via het formulier Voorzending of automatische voorbeeldinzending | `ussus1eastprod.blob.core.windows.net` <p>    `ussus2eastprod.blob.core.windows.net` <p>    `ussus3eastprod.blob.core.windows.net` <p>    `ussus4eastprod.blob.core.windows.net` <p>    `wsus1eastprod.blob.core.windows.net` <p>    `wsus2eastprod.blob.core.windows.net` <p>    `ussus1westprod.blob.core.windows.net` <p>    `ussus2westprod.blob.core.windows.net` <p>    `ussus3westprod.blob.core.windows.net` <p>    `ussus4westprod.blob.core.windows.net` <p>    `wsus1westprod.blob.core.windows.net` <p>    `wsus2westprod.blob.core.windows.net` <p>    `usseu1northprod.blob.core.windows.net` <p>    `wseu1northprod.blob.core.windows.net` <p>    `usseu1westprod.blob.core.windows.net` <p>    `wseu1westprod.blob.core.windows.net` <p>    `ussuk1southprod.blob.core.windows.net` <p>    `wsuk1southprod.blob.core.windows.net` <p>    `ussuk1westprod.blob.core.windows.net` <p>    `wsuk1westprod.blob.core.windows.net` |
+| Intrekkingslijst voor certificaten (CRL) <p>Deze lijst wordt gebruikt door Windows bij het maken van de SSL-verbinding met KAARTEN voor het bijwerken van de CRL   | `http://www.microsoft.com/pkiops/crl/` <p> `http://www.microsoft.com/pkiops/certs` <p>   `http://crl.microsoft.com/pki/crl/products` <p> `http://www.microsoft.com/pki/certs` |
+| Symbol Store <p>Het symboolopslag wordt gebruikt door Microsoft Defender Antivirus om bepaalde kritieke bestanden te herstellen tijdens herstelstromen   | `https://msdl.microsoft.com/download/symbols` |
+| Universele telemetrieclient <p>Deze client wordt gebruikt door Windows om diagnostische gegevens van de client te verzenden<p> Microsoft Defender Antivirus telemetrie gebruikt voor productkwaliteitscontroledoeleinden    | De update gebruikt SSL (TCP-poort 443) om manifesten te downloaden en diagnostische gegevens te uploaden naar Microsoft met de volgende DNS-eindpunten: <p> `vortex-win.data.microsoft.com` <p>   `settings-win.data.microsoft.com`|
 
 ## <a name="validate-connections-between-your-network-and-the-cloud"></a>Verbindingen tussen uw netwerk en de cloud valideren
 
 Nadat u de url's hierboven hebt toestaan, kunt u testen of u verbinding hebt met de Microsoft Defender Antivirus-cloudservice en correct gegevens rapporteert en ontvangt om ervoor te zorgen dat u volledig bent beveiligd.
 
-**Gebruik het cmdline-hulpprogramma om beveiliging in de cloud te valideren:**
+### <a name="use-the-cmdline-tool-to-validate-cloud-delivered-protection"></a>Het cmdline-hulpprogramma gebruiken om beveiliging in de cloud te valideren
 
 Gebruik het volgende argument met Microsoft Defender Antivirus command-line utility () om te controleren of uw netwerk kan communiceren met de `mpcmdrun.exe` Microsoft Defender Antivirus cloudservice:
 
@@ -83,7 +82,7 @@ Gebruik het volgende argument met Microsoft Defender Antivirus command-line util
 
 Zie De Microsoft Defender Antivirus [beheren mpcmdrun.exe opdrachtregel](command-line-arguments-microsoft-defender-antivirus.md)voor meer informatie.
 
-**Probeer een nep-malwarebestand van Microsoft te downloaden:**
+### <a name="attempt-to-download-a-fake-malware-file-from-microsoft"></a>Poging om een nep-malwarebestand van Microsoft te downloaden
 
 U kunt een voorbeeldbestand downloaden dat Microsoft Defender Antivirus wordt gedetecteerd en geblokkeerd als u goed bent verbonden met de cloud.
 
@@ -115,12 +114,3 @@ U ziet ook een detectie onder In quarantaine geplaatste **bedreigingen** in de s
 
    In Windows gebeurtenislogboek wordt ook Windows Defender [clientgebeurtenis-id 1116.](troubleshoot-microsoft-defender-antivirus.md)
 
-## <a name="related-articles"></a>Verwante artikelen
-
-- [Microsoft Defender Antivirus in Windows 10](microsoft-defender-antivirus-in-windows-10.md)
-
-- [Cloudbeveiliging inschakelen](enable-cloud-protection-microsoft-defender-antivirus.md)
-
-- [Opdrachtregelargumenten](command-line-arguments-microsoft-defender-antivirus.md)
-
-- [Belangrijke wijzigingen in het eindpunt van Microsoft Active Protection Services](https://techcommunity.microsoft.com/t5/Configuration-Manager-Archive/Important-changes-to-Microsoft-Active-Protection-Service-MAPS/ba-p/274006)

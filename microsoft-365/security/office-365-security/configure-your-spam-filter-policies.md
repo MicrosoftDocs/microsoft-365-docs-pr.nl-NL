@@ -17,12 +17,12 @@ ms.collection:
 description: Beheerders kunnen het antispambeleid in Exchange Online Protection (EOP) bekijken, maken, wijzigen en verwijderen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1ed4b04acd7fec75af4e157837312b824a8d9f98
-ms.sourcegitcommit: a3359982fea01339c7377e3ee89f223788cee0bf
+ms.openlocfilehash: b830c165d91dfdc8c5c6c47abecd73ba7a9621c8
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52696560"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52788461"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Antispambeleid configureren in EOP
 
@@ -83,9 +83,9 @@ Om de effectiviteit van spamfilters te verhogen, kunt u aangepast antispambeleid
 
 Wanneer u antispambeleid maakt in het beveiligingscentrum worden tegelijkertijd een spamfilterregel en het bijbehorende spamfilterbeleid gemaakt met dezelfde naam voor beide.
 
-1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> **Antispam**.
+1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
 
-2. Klik op ![Pictogram maken](../../media/m365-cc-sc-create-icon.png) **Beleid maken** en selecteer vervolgens **Binnenkomend** in de vervolgkeuzelijst.
+2. Klik op de pagina **Antispambeleid** achtereenvolgens op ![Pictogram maken](../../media/m365-cc-sc-create-icon.png), **Beleid maken** en selecteer in de vervolgkeuzelijst de optie **Binnenkomend**.
 
 3. De wizard van het beleid wordt geopend. Configureer de volgende instellingen op de pagina **Uw beleid een naam geven**:
    - **Naam**: een unieke beschrijvende naam voor het beleid.
@@ -242,7 +242,7 @@ Wanneer u antispambeleid maakt in het beveiligingscentrum worden tegelijkertijd 
 
 ## <a name="use-the-security-center-to-view-anti-spam-policies"></a>Het beveiligingscentrum gebruiken om antispambeleid te bekijken
 
-1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> **Antispam**.
+1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
 
 2. Zoek op de pagina **Antispambeleid** een van de volgende waarden:
    - De waarde **Type** is **Aangepast antispambeleid**
@@ -259,9 +259,9 @@ Wanneer u antispambeleid maakt in het beveiligingscentrum worden tegelijkertijd 
 
 ## <a name="use-the-security-center-to-modify-anti-spam-policies"></a>Het beveiligingscentrum gebruiken om antispambeleid aan te passen
 
-1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> **Antispam**.
+1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
 
-2. Selecteer op de pagina **Antispambeleid** een antispambeleid in de lijst door op de naam te klikken:
+2. Selecteer op de pagina **Antispambeleidsregels** een antispambeleid in de lijst door op de naam te klikken:
    - Aangepast beleid dat u hebt gemaakt, waarvan de waarde in de kolom **Type**, **Aangepast antispambeleid** is.
    - Het standaardbeleid met de naam **Antispambeleid voor binnenkomende spam (standaard)**.
 
@@ -275,7 +275,7 @@ Zie de volgende secties om beleid in- of uit te schakelen, de prioriteit van bel
 
 U kunt het standaardantispambeleid niet uitschakelen.
 
-1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> **Antispam**.
+1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
 
 2. Selecteer op de pagina **Antispambeleid** een beleid met de **Waarde type** van **Aangepast antispambeleid** uit de lijst door op de naam de klikken.
 
@@ -300,7 +300,7 @@ Als u de prioriteit van een beleid wilt wijzigen, klikt u op **Prioriteit verhog
 - In het beveiligingscentrum kunt u alleen de prioriteit wijzigen van het antispambeleid nadat u het hebt gemaakt. In PowerShell kunt u de standaardprioriteit vervangen wanneer u de spamfilterbeleidsregel maakt (die kan de prioriteit van bestaande regels beïnvloeden).
 - Antispambeleid wordt verwerkt in de volgorde waarin het wordt weergegeven (het eerste beleid heeft de **Prioriteitswaarde** 0). Het standaardantispambeleid heeft de prioriteitswaarde **Laagste** en dat kunt u niet wijzigen.
 
-1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> **Antispam**.
+1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
 
 2. Selecteer op de pagina **Antispambeleid** een beleid met de **Waarde type** van **Aangepast antispambeleid** uit de lijst door op de naam de klikken.
 
@@ -317,7 +317,7 @@ Als u de prioriteit van een beleid wilt wijzigen, klikt u op **Prioriteit verhog
 
 Wanneer in een spamfilterbeoordeling een bericht in quarantaine wordt geplaatst, kunt u spammeldingen voor eindgebruikers configureren om geadresseerden te laten weten wat er is gebeurd met berichten die naar hen zijn verzonden. Zie [Spammeldingen voor eindgebruikers in EOP](use-spam-notifications-to-release-and-report-quarantined-messages.md) voor meer informatie over deze meldingen.
 
-1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> **Antispam**.
+1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
 
 2. Selecteer op de pagina **Antispambeleidsregels** een antispambeleid in de lijst door op de naam te klikken:
    - Aangepast beleid dat u hebt gemaakt, waarvan de waarde in de kolom **Type**, **Aangepast antispambeleid** is.
@@ -340,11 +340,11 @@ Wanneer in een spamfilterbeoordeling een bericht in quarantaine wordt geplaatst,
 
 4. Klik in de flyout met beleidsdetails weer op **Sluiten**.
 
-## <a name="use-the-security-center-to-remove-anti-spam-policies"></a>Het beveiligingscentrum gebruiken om antispambeleid te verwijderen
+## <a name="use-the-security-center-to-remove-custom-anti-spam-policies"></a>Het beveiligingscentrum gebruiken om aangepast antispambeleid te verwijderen
 
-Wanneer u het beveiligingscentrum gebruikt om een antispambeleid te verwijderen, worden de spamfilterregel en het bijbehorende spamfilterbeleid beide verwijderd. U kunt het standaardbeleid niet verwijderen.
+Wanneer u het beveiligingscentrum gebruikt om aangepast antispambeleid te verwijderen, worden de spamfilterregel en het bijbehorende spamfilterbeleid beide verwijderd. U kunt het standaardantispambeleid niet verwijderen.
 
-1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> **Antispam**.
+1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
 
 2. Selecteer op de pagina **Antispambeleid** een beleid met de **Waarde type** van **Aangepast antispambeleid** uit de lijst door op de naam de klikken. Klik boven aan de flyout met beleidsdetails die wordt weergegeven, op het ![pictogram Meer acties](../../media/m365-cc-sc-more-actions-icon.png) **Meer acties** \> ![Pictogram Beleid verwijderen](../../media/m365-cc-sc-delete-icon.png) **Beleid verwijderen**.
 
@@ -378,9 +378,7 @@ Antispambeleid maken in PowerShell bestaat uit twee stappen:
  **Opmerkingen**:
 
 - U kunt een nieuwe spamfilterbeleidsregel maken en een bestaand, niet-gekoppeld spamfilterbeleid eraan toewijzen. Een spamfilterbeleidsregel kan niet worden gekoppeld aan meer dan één spamfilterbeleid.
-
 - U kunt de volgende instellingen voor nieuw spamfilterbeleid configureren in PowerShell die niet beschikbaar zijn in het beveiligingscentrum tot nadat u het beleid hebt gemaakt:
-
   - Schakel het nieuwe beleid uit (_Ingeschakeld_ `$false` in het cmdlet **New-HostedContentFilterRule**).
   - Stel de prioriteit van het beleid in tijdens het maken (_Prioriteit_ _\<Number\>_) in de cmdlet **New-HostedContentFilterRule**).
 

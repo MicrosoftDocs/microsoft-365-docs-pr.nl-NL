@@ -8,17 +8,18 @@ ms.mktglfcycl: manage
 ms.sitesec: library
 localization_priority: Normal
 audience: ITPro
-author: dansimp
-ms.author: dansimp
+author: denisebmsft
+ms.author: deniseb
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 0a2ec16685ede2e625528fc3944943923bba3fc9
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.topic: article
+ms.openlocfilehash: ff82819f4e168fc57b649411fbe5e9136b0e36f4
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51569741"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769315"
 ---
 # <a name="view-attack-surface-reduction-events"></a>Gebeurtenissen voor het verminderen van aanvalsoppervlakken bekijken
 
@@ -28,7 +29,8 @@ ms.locfileid: "51569741"
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-enablesiem-abovefoldlink)
+> [!TIP]
+> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-enablesiem-abovefoldlink)
 
 Controleer gebeurtenissen met een beperking van de surface attack in Event Viewer om te controleren welke regels of instellingen werken. U kunt ook bepalen of instellingen te 'luidruchtig' zijn of van invloed zijn op uw dagelijkse werkstroom.
 
@@ -36,17 +38,17 @@ Het controleren van gebeurtenissen is handig wanneer u de functies evalueert. U 
 
 In dit artikel worden alle gebeurtenissen, de bijbehorende functie of instelling beschreven en wordt beschreven hoe u aangepaste weergaven kunt maken om te filteren op specifieke gebeurtenissen.
 
-Krijg gedetailleerde rapportage over gebeurtenissen en blokken als onderdeel van Windows-beveiliging als u een E5-abonnement hebt en [Microsoft Defender voor Eindpunt gebruikt.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
+Krijg gedetailleerde rapportage over gebeurtenissen en blokken als onderdeel van Windows-beveiliging als u een E5-abonnement hebt en [Microsoft Defender voor Eindpunt gebruikt.](microsoft-defender-endpoint.md)
 
 ## <a name="use-custom-views-to-review-attack-surface-reduction-capabilities"></a>Aangepaste weergaven gebruiken om de mogelijkheden voor het verminderen van de Surface-aanval te bekijken
 
-Maak aangepaste weergaven in de Windows Event Viewer om alleen gebeurtenissen te zien voor specifieke mogelijkheden en instellingen. De eenvoudigste manier is om een aangepaste weergave te importeren als een XML-bestand. U kunt de XML rechtstreeks vanaf deze pagina kopiëren.
+Maak aangepaste weergaven in de Windows Viewer voor gebeurtenissen om alleen gebeurtenissen te zien voor specifieke mogelijkheden en instellingen. De eenvoudigste manier is om een aangepaste weergave te importeren als een XML-bestand. U kunt de XML rechtstreeks vanaf deze pagina kopiëren.
 
 U kunt ook handmatig naar het gebeurtenisgebied navigeren dat overeenkomt met de functie.
 
 ### <a name="import-an-existing-xml-custom-view"></a>Een bestaande aangepaste XML-weergave importeren
 
-1. Maak een leeg TXT-bestand en kopieer de XML voor de aangepaste weergave die u wilt gebruiken in het TXT-bestand. Doe dit voor elk van de aangepaste weergaven die u wilt gebruiken. Wijzig de naam van de bestanden als volgt (zorg ervoor dat u het type wijzigt van .txt in .xml):
+1. Maak een leeg .txt bestand en kopieer de XML voor de aangepaste weergave die u wilt gebruiken in het .txt bestand. Doe dit voor elk van de aangepaste weergaven die u wilt gebruiken. Wijzig de naam van de bestanden als volgt (zorg ervoor dat u het type wijzigt van .txt in .xml):
     - Aangepaste weergave gecontroleerde *maptoegangsgebeurtenissen:cfa-events.xml*
     - Aangepaste weergave beveiligingsgebeurtenissen *gebruiken:ep-events.xml*
     - Aangepaste weergave Voor surface reduction events van attack: *asr-events.xml*
@@ -66,7 +68,7 @@ U kunt ook handmatig naar het gebeurtenisgebied navigeren dat overeenkomt met de
 
 ### <a name="copy-the-xml-directly"></a>De XML rechtstreeks kopiëren
 
-1. Typ **gebeurtenisviewer** in het menu Start en open de Windows **Event Viewer.**
+1. Typ **gebeurtenisviewer** in het menu Start en open de Windows **Viewer voor gebeurtenissen.**
 
 2. Selecteer in het linkervenster onder **Acties** de optie **Aangepaste weergave maken...**
 
@@ -76,7 +78,7 @@ U kunt ook handmatig naar het gebeurtenisgebied navigeren dat overeenkomt met de
 
 4. Plak de XML-code voor de functie die u wilt filteren op gebeurtenissen in de XML-sectie.
 
-5. Kies **OK**. Geef een naam op voor het filter.
+5. Selecteer **OK**. Geef een naam op voor het filter.
 
 6. Er wordt een aangepaste weergave gemaakt waarmee alleen de gebeurtenissen met betrekking tot die functie worden gefilterd.
 
@@ -135,9 +137,9 @@ U kunt ook handmatig naar het gebeurtenisgebied navigeren dat overeenkomt met de
 
 ## <a name="list-of-attack-surface-reduction-events"></a>Lijst met gebeurtenissen in de beperking van de aanvalsoppervlakken
 
-Alle gebeurtenissen voor het verminderen van aanvallen bevinden zich onder Toepassingen en Services-logboeken **> Microsoft > Windows** en vervolgens de map of provider zoals vermeld in de volgende tabel.
+Alle gebeurtenissen voor het verminderen van aanvallen bevinden zich onder Applications **and Services Logs > Microsoft > Windows** en vervolgens de map of provider zoals vermeld in de volgende tabel.
 
-U hebt toegang tot deze gebeurtenissen in Windows Event Viewer:
+U hebt toegang tot deze gebeurtenissen in Windows Viewer voor gebeurtenissen:
 
 1. Open het **menu Start** en typ **de gebeurtenisviewer** en selecteer het **resultaat van de gebeurtenisviewer.**
 2. Vouw **toepassingen en serviceslogboeken > Microsoft > Windows** uit en ga naar de map die wordt weergegeven onder **Provider/bron** in de onderstaande tabel.

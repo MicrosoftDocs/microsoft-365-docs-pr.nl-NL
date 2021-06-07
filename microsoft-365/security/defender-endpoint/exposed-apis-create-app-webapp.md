@@ -15,13 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 8f480a148d72428c6346930a91358d1e8b674ee7
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 4742a32fd899f41d4e7772c52415891cdd8895bf
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51200003"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769519"
 ---
 # <a name="create-an-app-to-access-microsoft-defender-for-endpoint-without-a-user"></a>Een app maken voor toegang tot Microsoft Defender voor Eindpunt zonder een gebruiker
 
@@ -38,10 +39,10 @@ ms.locfileid: "51200003"
 
 Op deze pagina wordt beschreven hoe u een toepassing maakt om programmatische toegang te krijgen tot Defender voor Eindpunt zonder een gebruiker. Zie Toegang krijgen met gebruikerscontext als u programmatische toegang nodig hebt tot Defender for Endpoint namens [een gebruiker.](exposed-apis-create-app-nativeapp.md) Zie Aan de slag als u niet zeker weet welke toegang u [nodig hebt.](apis-intro.md)
 
-In Microsoft Defender voor Eindpunt worden veel van de gegevens en acties via een set programmatische API's beschikbaar. Met deze API's kunt u werkstromen automatiseren en innoveren op basis van De mogelijkheden van Defender voor eindpunten. Voor de API-toegang is OAuth2.0-verificatie vereist. Zie [OAuth 2.0 Autorisatiecodestroom](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)voor meer informatie.
+In Microsoft Defender voor Eindpunt worden veel van de gegevens en acties via een set programmatische API's beschikbaar. Met deze API's kunt u werkstromen automatiseren en innoveren op basis van De mogelijkheden van Defender voor eindpunten. Voor de API-toegang is OAuth2.0-verificatie vereist. Zie [OAuth 2.0 Autorisatiecode](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)voor Flow.
 
 Over het algemeen moet u de volgende stappen nemen om de API's te gebruiken:
-- Een Azure Active Directory-toepassing (Azure AD) maken.
+- Maak een Azure Active Directory (Azure AD)-toepassing.
 - Een toegangs token krijgen met deze toepassing.
 - Gebruik het token om toegang te krijgen tot Defender voor Endpoint API.
 
@@ -51,7 +52,7 @@ In dit artikel wordt uitgelegd hoe u een Azure AD-toepassing maakt, toegang krij
 
 1. Meld u aan [bij Azure](https://portal.azure.com) met een gebruiker met de rol **Globale beheerder.**
 
-2. **Navigeer naar Azure Active Directory**  >  **App-registraties** Nieuwe  >  **registratie**. 
+2. Navigeer **naar Azure Active Directory**  >  **app-registraties Nieuwe**  >  **registratie**. 
 
    ![Afbeelding van Microsoft Azure en navigatie naar toepassingsregistratie](images/atp-azure-new-app2.png)
 
@@ -222,5 +223,5 @@ Hieronder volgt een voorbeeld van het verzenden van een verzoek om een lijst met
 ```
 
 ## <a name="see-also"></a>Zie ook
-- [Ondersteunde API's voor Microsoft Defender voor eindpunten](exposed-apis-list.md)
+- [Ondersteunde API's voor Microsoft Defender voor Eindpunt](exposed-apis-list.md)
 - [Toegang tot Microsoft Defender voor Eindpunt namens een gebruiker](exposed-apis-create-app-nativeapp.md)

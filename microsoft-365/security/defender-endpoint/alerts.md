@@ -14,20 +14,21 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 4997d7118b139d993ed94ed917137ca107940e46
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: c935df1abddc3d0ebee74e09280d6e3ec961ca97
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51199619"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769807"
 ---
 # <a name="alert-resource-type"></a>Type waarschuwingsresource
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 
 - Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
@@ -38,23 +39,23 @@ ms.locfileid: "51199619"
 
 ## <a name="methods"></a>Methoden
 
-Methode |Retourtype |Beschrijving
+Methode |Retourtype |Omschrijving
 :---|:---|:---
-[Waarschuwing ontvangen](get-alert-info-by-id.md) | [Waarschuwing](alerts.md) | Eén [waarschuwingsobject](alerts.md) krijgen.
+[Waarschuwing ontvangen](get-alert-info-by-id.md) | [Waarschuwingsweergave](alerts.md) | Eén [waarschuwingsobject](alerts.md) krijgen.
 [Lijstwaarschuwingen](get-alerts.md) | [Waarschuwingsverzameling](alerts.md) | [Lijstwaarschuwingsverzameling.](alerts.md)
-[Waarschuwing bijwerken](update-alert.md) | [Waarschuwing](alerts.md) | Specifieke waarschuwing [bijwerken](alerts.md).
+[Waarschuwing bijwerken](update-alert.md) | [Waarschuwingsweergave](alerts.md) | Specifieke waarschuwing [bijwerken](alerts.md).
 [Batchupdatewaarschuwingen](batch-update-alerts.md) | | Een reeks waarschuwingen [bijwerken.](alerts.md)
-[Waarschuwing maken](create-alert-by-reference.md)|[Waarschuwing](alerts.md)|Maak een waarschuwing op basis van gebeurtenisgegevens die zijn verkregen uit [Advanced Hunting.](run-advanced-query-api.md)
+[Waarschuwing maken](create-alert-by-reference.md)|[Waarschuwingsweergave](alerts.md)|Maak een waarschuwing op basis van gebeurtenisgegevens die zijn verkregen uit [Advanced Hunting.](run-advanced-query-api.md)
 [Gerelateerde domeinen lijst](get-alert-related-domain-info.md)|Domeinverzameling| Lijst-URL's die aan de waarschuwing zijn gekoppeld.
 [Gerelateerde bestanden lijst](get-alert-related-files-info.md) | [Bestandsverzameling](files.md) |  Vermeld [](files.md) de bestandsentiteiten die aan de [waarschuwing zijn gekoppeld.](alerts.md)
 [Lijstgerelateerde IPs](get-alert-related-ip-info.md) | IP-verzameling | Lijst-IPs die zijn gekoppeld aan de waarschuwing.
-[Gerelateerde machines krijgen](get-alert-related-machine-info.md) | [Machine](machine.md) | De [computer](machine.md) die is gekoppeld aan de [waarschuwing](alerts.md).
+[Gerelateerde machines krijgen](get-alert-related-machine-info.md) | [Computer](machine.md) | De [computer](machine.md) die is gekoppeld aan de [waarschuwing](alerts.md).
 [Verwante gebruikers krijgen](get-alert-related-user-info.md) | [Gebruiker](user.md) | De [gebruiker](user.md) die is gekoppeld aan de [waarschuwing](alerts.md).
 
 
 ## <a name="properties"></a>Eigenschappen
 
-Eigenschap |    Type    |    Beschrijving
+Eigenschap |    Type    |    Omschrijving
 :---|:---|:---
 id | Tekenreeks | Waarschuwings-id.
 titel | Tekenreeks | Waarschuwingstitel.
@@ -78,7 +79,7 @@ threatFamilyName | Tekenreeks | Familie van bedreigingen.
 threatName | Tekenreeks | Bedreigingsnaam.
 machineId | Tekenreeks | Id van een [machine-entiteit](machine.md) die is gekoppeld aan de waarschuwing.
 computerDnsName | Tekenreeks | [computer](machine.md) volledig gekwalificeerde naam.
-aadTenantId | Tekenreeks | De Azure Active Directory-id.
+aadTenantId | Tekenreeks | De Azure Active Directory id.
 melderId | Tekenreeks | De id van de melder die de waarschuwing heeft geactiveerd.
 opmerkingen | Lijst met opmerkingen over waarschuwingen | Object Waarschuwingscommentant bevat: tekenreeks, gemaaktEen tekenreeks en createTime date time.
 Bewijs | Lijst met aanwijzingen voor waarschuwingen | Bewijs met betrekking tot de waarschuwing. Zie het onderstaande voorbeeld.

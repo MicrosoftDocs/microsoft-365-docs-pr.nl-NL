@@ -1,5 +1,5 @@
 ---
-title: Contoso's COVID-19-antwoord en ondersteuning voor extern en on-site werk
+title: Contoso's COVID-19-antwoord en ondersteuning voor hybride werk
 author: JoeDavies-MSFT
 f1.keywords:
 - NOCSH
@@ -13,15 +13,15 @@ ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom: ''
-description: Begrijp hoe contoso Corporation heeft gereageerd op de COVID-19-epidemie en hoe ze hun software-installatie- en update-infrastructuur hebben ontworpen voor extern en on-site werk.
-ms.openlocfilehash: 0bc7bc0e457b51e2f65337e355bcf9fced52274d
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+description: Begrijp hoe contoso Corporation heeft gereageerd op de COVID-19-epidemie en hoe ze hun software-installatie- en update-infrastructuur voor hybride werk hebben ontworpen.
+ms.openlocfilehash: 2d28b0513221f6c14526baba69bf0f5986154805
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245442"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52788377"
 ---
-# <a name="contosos-covid-19-response-and-support-for-remote-and-onsite-work"></a>Contoso's COVID-19-antwoord en ondersteuning voor extern en on-site werk
+# <a name="contosos-covid-19-response-and-support-for-hybrid-work"></a>Contoso's COVID-19-antwoord en ondersteuning voor hybride werk
 
 Contoso heeft haar externe werknemers altijd ondersteund, die on-premises bronnen hebben gebruikt via een centrale VPN-server in het hoofdkantoor van Parijs. Contoso had alle externe werknemers een beheerde laptop uitgegeven. On-premises werknemers hadden een combinatie van desktopcomputers en laptops.
 
@@ -39,9 +39,9 @@ Hier is de resulterende configuratie met VPN-apparaten die zijn geïnstalleerd i
 
 Een externe werknemer met de geïnstalleerde VPN-client gebruikt DNS om het dichtstbijzijnde kantoor te vinden en maakt verbinding met het VPN-apparaat dat daar is geïnstalleerd. Met gesplitste tunneling wordt het verkeer naar Microsoft 365 Eindpunten optimaliseren rechtstreeks verzonden naar de dichtstbijzijnde Microsoft 365 netwerklocatie. Al het andere verkeer wordt via de VPN-verbinding naar het VPN-apparaat verzonden.
 
-## <a name="contosos-support-for-remote-and-onsite-work"></a>Ondersteuning van Contoso voor extern en on-site werk
+## <a name="contosos-support-for-hybrid-work"></a>Ondersteuning van Contoso voor hybride werk
 
-Nadat de eerste wijzigingen zijn aangebracht om voornamelijk externe werknemers te ondersteunen tijdens regionale vergrendelingen, heeft Contoso infrastructuurwijzigingen aangebracht ter ondersteuning van extern en on-site werk waarin een werknemer kan zijn:
+Nadat de eerste wijzigingen zijn aangebracht om voornamelijk externe werknemers te ondersteunen tijdens regionale vergrendelingen, heeft Contoso infrastructuurwijzigingen aangebracht ter ondersteuning van hybride werk waarin een werknemer het volgende kan doen:
 
 - Altijd op afstand.
 - Altijd ter plaatse.
@@ -87,4 +87,4 @@ Voor een nieuw extern apparaat dat is uitgegeven aan een nieuwe werknemer, neemt
 
 ## <a name="next-step"></a>Volgende stap
 
-[Uw infrastructuur instellen voor extern werk](empower-people-to-work-remotely.md) in uw organisatie.
+[Uw infrastructuur instellen voor hybride werk](empower-people-to-work-remotely.md) in uw organisatie.

@@ -23,17 +23,17 @@ search.appverid:
 - GEA150
 ms.assetid: 1561140a-16a9-4a02-822d-a989250e479d
 description: Meer informatie over het kopen van een domeinnaam in Microsoft 365.
-ms.openlocfilehash: 3d5a5568a0e75a06f0880d82ea8e4a1a8d003689
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: c4b3b0ac88671e72ed567998ad9d97486dfb6342
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635460"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52779684"
 ---
 # <a name="buy-a-domain-name"></a>Een domeinnaam kopen
 
 > [!NOTE]
-> Als uw organisatie Office 365 21Vianet in China gebruikt, zie Een domein kopen voor Office 365 beheerd door [21Vianet in China.](/buy-a-domain-name?view=o365-21vianet#how-to-buy-a-domain-for-office-365-operated-by-21vianet.md)
+> Als uw organisatie Office 365 21Vianet in China gebruikt, zie Een domein kopen voor Office 365 beheerd door [21Vianet in China.](#how-to-buy-a-domain-for-office-365-operated-by-21vianet)
 
  *Als u domeinen wilt toevoegen, wijzigen of verwijderen, **moet** u een **globale beheerder** van een bedrijfs- of [ondernemingsplan zijn.](https://products.office.com/business/office) Deze wijzigingen zijn van invloed op de hele tenant, *aangepaste beheerders* of *gewone* gebruikers kunnen deze wijzigingen niet aanbrengen.*  
 
@@ -89,9 +89,8 @@ Vraag de overdracht aan bij de registrar waarnaar u uw domein wilt verplaatsen. 
 
 
 ::: moniker range="o365-21vianet"
+
 ## <a name="how-to-buy-a-domain-for-office-365-operated-by-21vianet"></a>Een domein kopen voor Office 365 beheerd door 21Vianet
-
-
 
 Als u nog geen eigen domein hebt, kunt u gemakkelijk online een domein kopen bij een domeinnaamregistrar, een domeinverkoper, of zelfs bij uw huidige internetprovider. U krijgt een domeinnaam wanneer u zich registreert voor Office 365 beheerd door 21Vianet, bijvoorbeeld contoso.partner.onmschina.cn. Maar misschien wilt u een aangepaste domeinnaam gebruiken, zoals fourthcoffee.com.
   
@@ -117,7 +116,7 @@ Nadat u uw domein hebt geregistreerd (bij een domeinregistrar), meld u zich aan 
     
 ::: moniker-end
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Een domein toevoegen aan Microsoft 365](../setup/add-domain.md) (artikel)\
 [Veelgestelde vragen over domeinen](../setup/domains-faq.yml) (artikel)\

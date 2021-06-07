@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Retentielabels en beleidsregels voor automatisch labelen maken, zodat u automatisch labels kunt toepassen om te behouden wat u nodig hebt en te verwijderen wat u niet nodig hebt
-ms.openlocfilehash: 12e909964422d0c15312c1794ce3d9aacc2a1da8
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: 0324f988402d407e30d10a725aa5acebb0a69964
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52162867"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52788393"
 ---
 # <a name="automatically-apply-a-retention-label-to-retain-or-delete-content"></a>Automatisch een retentielabel toepassen om inhoud te behouden of te verwijderen
 
@@ -132,21 +132,19 @@ U kunt retentielabels automatisch toepassen op inhoud wanneer deze inhoud het vo
 > [!WARNING]
 > Deze configuratie kent momenteel een bekende beperking, waarbij voor alle e-mailberichten zonder label altijd het geselecteerde bewaarlabel wordt toegepast wanneer er een overeenkomst is met de door u gekozen typen gevoelige informatie. Zelfs als u bijvoorbeeld het beleid voor automatisch toepassen op specifieke gebruikers of andere locaties dan Exchange selecteert, wordt het label altijd toegepast op e-mailberichten zonder label wanneer er een overeenkomst is.
 
-Wanneer u beleid maakt om automatisch retentielabels toe te passen op gevoelige informatie, ziet u dezelfde lijst met beleidssjablonen als bij het maken van een DLP-beleid (preventie van gegevensverlies). Elke sjabloon is vooraf geconfigureerd om te zoeken naar specifieke typen gevoelige informatie. Met de sjabloon die hier wordt weergegeven, wordt bijvoorbeeld gezocht naar AMERIKAANSE ITIN-, SSN- en paspoortnummers in de categorie **Privacy** en de sjabloon voor **Amerikaanse persoonlijk identificeerbare informatie (PII)**:
+Wanneer u beleid maakt om automatisch retentielabels toe te passen op gevoelige informatie, ziet u dezelfde lijst met beleidssjablonen als bij het maken van een DLP-beleid (preventie van gegevensverlies). Elke sjabloon is vooraf geconfigureerd om te zoeken naar specifieke typen gevoelige informatie. In het volgende voorbeeld zijn de typen gevoelige informatie afkomstig uit de categorie **Privacy** en de sjabloon **PII-gegevens (persoonlijke gegevens)**:
 
 ![Beleidssjablonen met typen gevoelige informatie](../media/sensitive-info-configuration.png)
 
 Zie [Entiteitsdefinities van typen gevoelige informatie](sensitive-information-type-entity-definitions.md) voor meer informatie over de typen gevoelige informatie. Momenteel worden [exacte gegevensovereenkomsten](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md) en [fingerprinting van documenten](document-fingerprinting.md) niet ondersteund voor dit scenario.
 
-Nadat u een beleidssjabloon hebt geselecteerd, kunt u alle typen gevoelige informatie toevoegen of verwijderen en kunt u het aantal exemplaren en de nauwkeurigheid van de gegevensovereenkomsten wijzigen. In de voorbeeldschermafbeelding die hierna wordt weergegeven, wordt een retentielabel alleen automatisch toegepast wanneer:
+Nadat u een beleidssjabloon hebt geselecteerd, kunt u alle typen gevoelige informatie toevoegen of verwijderen en kunt u de betrouwbaarheidswaarde en het aantal exemplaren wijzigen. In het vorige voorbeeld van een schermafbeelding zijn deze opties gewijzigd, zodat een retentielabel alleen automatisch wordt toegepast wanneer:
   
-- Het type gevoelige informatie dat is gedetecteerd een nauwkeurigheid (of betrouwbaarheidsniveau) heeft van ten minste 75. Veel typen gevoelige informatie worden gedefinieerd met meerdere patronen, waarbij voor een patroon met een hogere nauwkeurigheid meer bewijs (zoals trefwoorden, datums of adressen) nodig is, terwijl voor een patroon met een lagere nauwkeurigheid minder bewijs nodig is. Hoe lager de **min**-nauwkeurigheid van de overeenkomst, hoe eenvoudiger de inhoud aan de voorwaarde voldoet.
+- Voor het gedetecteerde type gevoelige informatie is de nauwkeurigheid van de overeenkomst (of het [betrouwbaarheidsniveau](sensitive-information-type-learn-about.md#more-on-confidence-levels)) ten minste **Gemiddelde betrouwbaarheid** voor twee van de typen gevoelige informatie en **Hoge betrouwbaarheid** voor een type. Veel typen gevoelige informatie worden gedefinieerd met meerdere patronen, waarbij voor een patroon met een hogere nauwkeurigheid meer bewijs (zoals trefwoorden, datums of adressen) nodig is, terwijl voor een patroon met een lagere nauwkeurigheid minder bewijs nodig is. Hoe lager het betrouwbaarheidsniveau, hoe eerder de inhoud overeenkomt met de voorwaarde, maar met een grotere kans op fout-positieven.
 
-- De inhoud bevat tussen 1 en 9 exemplaren van elk van deze drie typen gevoelige informatie. U kunt de waarde **tot** verwijderen, zodat deze wordt gewijzigd in **Elke**.
+- De inhoud bevat 1 tot 9 exemplaren van elk van deze drie typen gevoelige informatie. De standaardinstelling voor de waarde **tot** is **Elke**.
 
 Zie voor meer informatie over deze opties de volgende richtlijnen in de DLP-documentatie [Regels afstemmen zodat deze eenvoudiger of moeilijker overeenkomen](data-loss-prevention-policies.md#tuning-rules-to-make-them-easier-or-harder-to-match).
-    
-![Opties voor het identificeren van typen gevoelige informatie](../media/de255881-f596-4c8d-8359-e974e3a0819a.png)
 
 Overweeg het volgende wanneer u typen gevoelige informatie gebruikt om automatisch retentielabels toe te passen:
 

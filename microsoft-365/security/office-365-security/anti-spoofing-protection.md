@@ -22,12 +22,12 @@ localization_priority: Priority
 description: Beheerders kunnen meer informatie krijgen over de functies tegen adresvervalsing die beschikbaar zijn in EOP (Exchange Online Protection) die kunnen beschermen tegen phishing-aanvallen van vervalste afzenders en domeinen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7680c2f4eae54aa53eba72b328baf1bf92fbcf98
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 17228f634dc4aee9cfd416ca676920a5b4e0fba2
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537965"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52779492"
 ---
 # <a name="anti-spoofing-protection-in-eop"></a>Beveiliging tegen adresvervalsing in EOP
 
@@ -54,14 +54,14 @@ De volgende anti-spoofing-technologieën zijn beschikbaar in EOP:
 
 - **Vervalste afzenders toestaan of blokkeren in de lijst Tenant toestaan/blokkeren**: wanneer u het oordeel in inzicht in adresvervalsingsanalyse overschrijft, wordt de vervalste afzender een handmatige vermelding voor toestaan of blokkeren die alleen wordt weergegeven op het tabblad **Adresvervalsing gebruiken** in de lijst Tenant toestaan/blokkeren. U kunt ook handmatig vermeldingen maken voor toestaan of blokkeren voor vervalste afzenders voordat deze worden gedetecteerd door adresvervalsingsanalyse. Zie voor meer informatie [Lijst Tenant toestaan/blokkeren beheren in EOP](tenant-allow-block-list.md).
 
-- **Anti-phishingbeleid**: in EOP bevat anti-phishingbeleid de volgende instellingen voor anti-adresvervalsing (spoofing):
+- **Anti-phishingbeleid**: in EOP en Microsoft Defender voor Office 365 bevat het anti-phishingbeleid de volgende instellingen voor anti-spoofing:
   - Adresvervalsingsanalyse in- of uitschakelen.
   - Schakel identificatie met niet-geverifieerde afzender in Outlook in of uit.
   - Geef de actie op voor geblokkeerde vervalste afzenders.
 
   Zie [Instellingen voor adresvervalsing in anti-phishingbeleid](set-up-anti-phishing-policies.md#spoof-settings) voor meer informatie.
 
-  **Opmerking**: Anti-phishingbeleid in Microsoft Defender voor Office 365 bevatten extra beveiligingen, waaronder **imitatie** beveiliging. Zie voor meer informatie [Exclusieve instellingen in anti-phishingbeleid in Microsoft Defender voor Office 365](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365).
+  **Opmerking**: Anti-phishingbeleid in Defender voor Office 365 bevat extra beveiligingen, waaronder bescherming tegen **imitatie**. Zie voor meer informatie [Exclusieve instellingen in anti-phishingbeleid in Microsoft Defender voor Office 365](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365).
 
 - **Rapport met detectie van adresvervalsing**: Voor meer informatie, zie [Rapport voor adresvervalsing](view-email-security-reports.md#spoof-detections-report).
 

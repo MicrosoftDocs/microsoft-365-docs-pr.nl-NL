@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Volg deze stappen om het gebruikersaccount van een voormalige werknemer te verwijderen.
-ms.openlocfilehash: 735821c9c4d6edf3d23fa3535ed9fa6b3d294b8c
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: e9f87f68650394a81c735346db929bf592e91d18
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782379"
+ms.locfileid: "52779829"
 ---
 # <a name="step-7---delete-a-former-employees-user-account"></a>Stap 7 - Het gebruikersaccount van een voormalige werknemer verwijderen
 
@@ -84,6 +84,8 @@ De bovenstaande bewerkingen kunnen op drie plaatsen worden uitgevoerd:
   
  **Snelst voor een gebruiker met aanwezigheid on-premises en in het Exchange-Datacenter**: Beëindig de sessie met behulp van het Azure Active Directory-beheercentrum/Exchange-beheercentrum, en breng de wijziging OOK aan in de on-premises omgeving. Anders worden de wijzigingen in het Azure Active Directory-beheercentrum/Exchange-beheercentrum overschreven door DirSync.
   
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-articles"></a>Verwante artikelen
 
-[Een gebruiker herstellen](restore-user.md) (artikel)/ [Wachtwoorden opnieuw instellen](reset-passwords.md) (artikel)
+[Een gebruiker herstellen](restore-user.md)
+
+[Wachtwoorden opnieuw instellen](reset-passwords.md)
