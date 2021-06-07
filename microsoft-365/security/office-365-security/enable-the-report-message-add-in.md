@@ -17,12 +17,12 @@ ms.collection:
 description: Meer informatie over het inschakelen van het rapportbericht of de phishing-invoegvoegingen voor Outlook en Outlook op internet, voor individuele gebruikers of voor uw hele organisatie.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 25c4f7d67fd4fa876544a17df0f4bc1abfd7b3e7
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: ff91cf4c99c9552ab5f5fecd7c6d2efee8d2d9a8
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782931"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52789254"
 ---
 # <a name="enable-the-report-message-or-the-report-phishing-add-ins"></a>Het rapportbericht of de phishing-invoegvoegingen rapporteren inschakelen
 
@@ -53,7 +53,6 @@ Als u een globale beheerder of een Exchange Online-beheerder bent en Exchange is
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
 - Zowel de invoeging Rapportbericht als de invoeging Phishing-rapport werkt met de meeste Microsoft 365 en de volgende producten:
-
   - Webversie van Outlook
   - Outlook 2013 SP1 of hoger
   - Outlook 2016 voor Mac
@@ -69,6 +68,9 @@ Als u een globale beheerder of een Exchange Online-beheerder bent en Exchange is
 - Beheerders moeten lid zijn van de rollengroep Globale beheerders. Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
 
 - Zie Fout-positieven en onwaar negatieven rapporteren in Outlook voor meer informatie over het rapporteren van een bericht met de [functie Rapportbericht.](report-false-positives-and-false-negatives.md)
+
+> [!IMPORTANT]
+> We raden u de ingebouwde rapportageervaring in Outlook omdat het beleid voor het indienen van gebruikers niet [kan worden gebruikt.](./user-submission.md) We raden u aan in plaats daarvan de invoeging Rapportbericht of de invoeging Phishing melden te gebruiken.
 
 ## <a name="get-the-report-message-add-in"></a>De invoegvoegvoegvoeging Rapportbericht ontvangen
 

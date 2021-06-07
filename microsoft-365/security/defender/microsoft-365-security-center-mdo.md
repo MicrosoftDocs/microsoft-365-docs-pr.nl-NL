@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.prod: m365-security
 ms.technology: m365d
-ms.openlocfilehash: 2322dbab657d6dd73ce79b3a8e52a3d968c45809
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: ec5d22caa52ffaa061637cb8c510a0efaf566b6a
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770974"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782895"
 ---
 # <a name="microsoft-defender-for-office-365-in-the-microsoft-365-security-center"></a>Microsoft Defender voor Office 365 in het Microsoft 365-beveiligingscentrum
 
@@ -139,7 +139,7 @@ Spoor proactief dreigingen, malware en schadelijke activiteiten op in de eindpun
 
 Het Actiecentrum geeft de onderzoeken weer die aangemaakt werden door geautomatiseerde onderzoeks- en reactiefuncties. Deze geautomatiseerde self-healing in Microsoft 365 Defender kan beveiligingsteams bijstaan bij het automatisch reageren op specifieke gebeurtenissen.
 
-[Meer informatie over Actiecentrum](m365d-action-center.md)
+[Meer informatie over actiecentrum](m365d-action-center.md)
 
 #### <a name="threat-analytics"></a>Dreigingsanalyse
 

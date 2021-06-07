@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 46ea74d11f9c54cd1d967058433a74ef4c1ead19
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 018bc3549cd7a25df5bdd86d98d351e19027c31f
+ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52300132"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796028"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-access-control"></a>Microsoft Defender voor Endpoint Device Control Verwisselbare Storage Access Control
 
@@ -68,7 +68,7 @@ Zie voor elke apparaateigenschappen de sectie **Apparaateigenschappen** hierbove
         - CdRomDevices
     - DeviceId
     - HardwareId
-    - InstancePathId
+    - InstancePathId: InstancePathId is een tekenreeks die het apparaat in het systeem uniek identificeert, bijvoorbeeld USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611&0. Het getal aan het einde **(bijvoorbeeld&0)** vertegenwoordigt de avaliable slot en kan veranderen van apparaat naar apparaat. Voor de beste resultaten gebruikt u een jokerteken aan het einde. Bijvoorbeeld: USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611*
     - FriendlyNameId
     - SerialNumberId
     - VID
@@ -196,7 +196,7 @@ Met de functie Storage Access Control kunt u beleid via groepsbeleid toepassen o
 
 ### <a name="licensing"></a>Licenties
 
-Voordat u aan de slag gaat met Verwisselbaar Storage Access Control, moet u uw Microsoft 365 [bevestigen.](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=2) Als u Verwisselbare Storage access control wilt openen en gebruiken, moet u Microsoft 365 E5.
+Voordat u aan de slag gaat met Verwisselbaar Storage Access Control, moet u uw Microsoft 365 [bevestigen.](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=2) Als u Verwisselbare Storage access control wilt openen en gebruiken, moet u Microsoft 365 E3.
 
 ### <a name="deploying-policy-via-group-policy"></a>Beleid implementeren via groepsbeleid
 
@@ -241,9 +241,9 @@ Voor beleidsimplementatie in Intune moet het account machtigingen hebben voor he
 **Microsoft Endpoint Manager https://endpoint.microsoft.com/) -beheercentrum ( -> Apparaten -> Configuratieprofielen -> Profiel maken -> Platform: Windows 10 en hoger & Profiel: Aangepast**
 
 1. Maak voor elke groep een OMA-URI-regel:
-    - OMA-URI:
+    - OMA-URI: 
 
-      /Vendor/MSFT/Defender/Configuration/DeviceControl/PolicyGroups/%7b **GroupGUID**%7d/GroupData
+      ./Vendor/MSFT/Defender/Configuration/DeviceControl/PolicyGroups/%7b **GroupGUID**%7d/GroupData
 
       Voor een **verwisselbare opslag- en cd/dvd-groep** in het voorbeeld moet de koppeling bijvoorbeeld zijn:
 
@@ -255,9 +255,9 @@ Voor beleidsimplementatie in Intune moet het account machtigingen hebben voor he
 
 2. Maak voor elk beleid ook een OMA-URI:
 
-    - OMA-URI:
+    - OMA-URI: 
 
-      /Vendor/MSFT/Defender/Configuration/DeviceControl/PolicyRules/%7bFA6BE102-0784-4A2A-B010-A0BEBEBF68E1%7d/RuleData
+      ./Vendor/MSFT/Defender/Configuration/DeviceControl/PolicyRules/%7bFA6BE102-0784-4A2A-B010-A0BEBEBF68E1%7d/RuleData
 
       Voor de regel Blokschrijven en Access uitvoeren, maar goedgekeurde **USB's** toestaan in het voorbeeld, moet de koppeling bijvoorbeeld zijn: 
 

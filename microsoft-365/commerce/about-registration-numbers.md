@@ -20,12 +20,12 @@ ms.custom:
 - commerce_purchase
 description: Meer informatie over registratienummers en meldingen onder controle bij het kopen van Microsoft-producten of -services.
 ms.date: 03/17/2021
-ms.openlocfilehash: 8ec97356f9859e928a8ee435f406c15f4f17a4c4
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 93cba6c1eebf0b41a94d6a6e3aac83693218f407
+ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332220"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52795968"
 ---
 # <a name="about-registration-numbers-and-under-review-notifications"></a>Informatie over registratienummers en onder controlemeldingen
 
@@ -86,7 +86,7 @@ De volgende tabel bevat voorbeelden van de registratienummers die voor elk land 
 | **Polen**  | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Poland-TIN.pdf) – Btw-nummer<br>[PESEL](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Poland-TIN.pdf) – Het nationale identificatienummer dat in Polen wordt gebruikt (Pools Powszechny Elektroniczny System Ewidencji Ludności, Universal Electronic System for Registration of the Population) |  |  |  |  |
 | **Rusland**  | [INN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Russia-TIN.pdf) – Btw-nummer (Russisch "Individualiy Nomer Nalogoplatelshika") |  |  |  |  |
 | **Saoedi-Arabië** | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Saudi-Arabia-TIN.pdf) – Btw-nummer |  |  |  |  |
-| **South Africa** | TRN – nummer voor verkeersregistratie |  |  |  |  |
+| **South Africa** | TRN – btw-nummer |  |  |  |  |
 | **Zuid-Soedan** | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/) – Btw-nummer |  |  |  |  |
 | **Tadzjikistan**  | INN – Btw-nummer<br>EIN – Employer Identification number<br>KPP: dit is een code die de reden voor de organisatieregistratie wekt. |  |  |  |  |
 | **Thailand** | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/) – Btw-nummer |  |  |  |  |

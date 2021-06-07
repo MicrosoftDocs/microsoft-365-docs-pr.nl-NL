@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: ''
 localization_priority: None
 description: Meer informatie over hoe u kunt zoeken naar onderwerpen in Microsoft Viva.
-ms.openlocfilehash: 54a143ea0960bf56a0d1c5224658bea404c7621e
-ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
+ms.openlocfilehash: 36901cf32a0633aaa5fc08e45021d13c7b06dd0b
+ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52301714"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52795992"
 ---
 # <a name="use-microsoft-search-to-find-topics-in-microsoft-viva-topics"></a>Microsoft Search gebruiken om onderwerpen te zoeken in Microsoft Viva-onderwerpen
 
@@ -55,8 +55,5 @@ Voor gebruikers die op zoek zijn naar informatie over het boeken van een reis vo
 - Voor gebruikers die in het algemeen zoeken naar 'reizen', maakt u een onderwerp over 'Reizen' met de informatie die ze verwachten te zien. U kunt een koppeling toevoegen aan de externe site Concur in de beschrijving van het onderwerp. Als de koppeling is gekoppeld aan een interne boekingssite voor reizen die wordt gehost op de Microsoft 365 tenant, kunt u deze toevoegen aan de 'Vastgemaakte resources'.
  
 ### <a name="search-results-priority"></a>Prioriteit voor zoekresultaten 
- 
-In de zoekervaring van gebruikers worden zoekresultaten weergegeven in de volgende prioriteit in Microsoft Search wanneer een gebruiker zoekt naar een term zoals 'reizen'.
-1. Gepubliceerde of bevestigde onderwerpen 
-2. Bladwijzers
-3. Voorgestelde onderwerpen
+
+In de zoekervaring van de gebruiker wordt, wanneer een gebruiker zoekt naar een term zoals 'reizen', een bladwijzer voor een onderwerp weergegeven, als er een bladwijzer beschikbaar is.

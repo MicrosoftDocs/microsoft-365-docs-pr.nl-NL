@@ -17,12 +17,12 @@ ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
 ms.date: 06/04/2021
-ms.openlocfilehash: 264a3b7a4a24c446048d6cfc6863f1ae9765566f
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: a1b7891e9e397e7345eb73a94d6298a9da781d98
+ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52789181"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52795980"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>Updates Microsoft Defender Antivirus en basislijnen toepassen
 
@@ -80,7 +80,7 @@ Zie Update voor Windows Defender [antimalwareplatform](https://support.microsoft
 Al onze updates bevatten 
 - prestatieverbeteringen;
 - verbeteringen in de servicebaarheid; en 
-- integratieverbeteringen (Cloud, Microsoft 365 Defender).
+- integratieverbeteringen (Cloud, [Microsoft 365 Defender).](/microsoft-365/security/defender/microsoft-365-defender)
 <br/>
 <details>
 <summary> Mei-2021 (Platform: 4.18.2105.4 | Motor: 1.1.18200.4)</summary>
@@ -92,7 +92,8 @@ Al onze updates bevatten
 &ensp;Ondersteuningsfase: **Beveiligings- en kritieke updates**
     
 ### <a name="whats-new"></a>Wat is er nieuw
-- Verbeteringen in gedragscontrole 
+- Verbeteringen in [gedragscontrole](client-behavioral-blocking.md) 
+- Functie [voor het filteren van meldingen](network-protection.md) voor vaste netwerkbeveiliging
 
 ### <a name="known-issues"></a>Bekende problemen
 Geen bekende problemen  
@@ -621,7 +622,7 @@ Zie Microsoft Defender update voor Windows [installatieafbeeldingen](https://sup
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-| Artikel | Omschrijving  |
+| Artikel | Beschrijving  |
 |:---|:---|
 |[Microsoft Defender-update voor Windows installatieafbeeldingen van besturingssysteem](https://support.microsoft.com/help/4568292/defender-update-for-windows-operating-system-installation-images)  | Controleer antimalware-updatepakketten voor installatieafbeeldingen van uw besturingssysteem (WIM- en VHD-bestanden). Ontvang Microsoft Defender Antivirus updates voor Windows 10 (Enterprise, Pro en Home editions), Windows Server 2019 en Windows Server 2016 installatieafbeeldingen.  |
 |[Beheren hoe beveiligingsupdates worden gedownload en toegepast](manage-protection-updates-microsoft-defender-antivirus.md) | Beveiligingsupdates kunnen via veel bronnen worden geleverd. |

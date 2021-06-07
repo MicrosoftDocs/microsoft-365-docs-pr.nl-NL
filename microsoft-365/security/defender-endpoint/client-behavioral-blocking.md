@@ -19,16 +19,14 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: c58c81cd4623ec03850c167cad285e052413174c
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 4e416aa9484f251280649035247a59dcc82ce750
+ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933419"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52795956"
 ---
 # <a name="client-behavioral-blocking"></a>Gedragsblokkering van cliënt
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
@@ -38,7 +36,7 @@ ms.locfileid: "51933419"
 
 ## <a name="overview"></a>Overzicht
 
-Clientgedragsblokkering is een onderdeel van de mogelijkheden voor het blokkeren en [inperking](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/behavioral-blocking-containment) van gedrag in Defender voor Eindpunt. Aangezien verdacht gedrag wordt gedetecteerd op apparaten (ook wel clients of eindpunten genoemd), worden artefacten (zoals bestanden of toepassingen) automatisch geblokkeerd, gecontroleerd en gesaneerd. 
+Clientgedragsblokkering is een onderdeel van de mogelijkheden voor het blokkeren en [inperking](behavioral-blocking-containment.md) van gedrag in Defender voor Eindpunt. Aangezien verdacht gedrag wordt gedetecteerd op apparaten (ook wel clients of eindpunten genoemd), worden artefacten (zoals bestanden of toepassingen) automatisch geblokkeerd, gecontroleerd en gesaneerd. 
 
 :::image type="content" source="images/pre-execution-and-post-execution-detection-engines.png" alt-text="Cloud- en clientbeveiliging":::
 
@@ -46,9 +44,9 @@ Antivirusbeveiliging werkt het beste in combinatie met cloudbeveiliging.
 
 ## <a name="how-client-behavioral-blocking-works"></a>Hoe clientgedragsblokkering werkt
 
-[Microsoft Defender Antivirus](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) kan verdacht gedrag, schadelijke code, bestandsloze en in-memory-aanvallen en meer detecteren op een apparaat. Wanneer verdacht gedrag wordt gedetecteerd, controleert en verzendt Microsoft Defender Antivirus deze verdachte gedragingen en hun procesbomen naar de cloudbeveiligingsservice. Machine learning maakt binnen milliseconden onderscheid tussen schadelijke toepassingen en goed gedrag en classificeert elk artefact. In bijna realtime, zodra een artefact schadelijk blijkt te zijn, wordt het geblokkeerd op het apparaat. 
+[Microsoft Defender Antivirus](microsoft-defender-antivirus-in-windows-10.md) kan verdacht gedrag, schadelijke code, bestandsloze en in-memory-aanvallen en meer detecteren op een apparaat. Wanneer verdacht gedrag wordt gedetecteerd, Microsoft Defender Antivirus en verzendt u die verdachte gedragingen en hun procesbomen naar de cloudbeveiligingsservice. Machine learning maakt binnen milliseconden onderscheid tussen schadelijke toepassingen en goed gedrag en classificeert elk artefact. In bijna realtime, zodra een artefact schadelijk blijkt te zijn, wordt het geblokkeerd op het apparaat. 
 
-Wanneer een verdacht gedrag wordt gedetecteerd, wordt er een [waarschuwing](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/alerts-queue) gegenereerd en is deze zichtbaar in het Microsoft Defender-beveiligingscentrum ( [https://securitycenter.windows.com](https://securitycenter.windows.com) ).
+Wanneer een verdacht gedrag wordt gedetecteerd, wordt er een [waarschuwing](alerts-queue.md) gegenereerd en is deze zichtbaar in de Microsoft Defender-beveiligingscentrum ( [https://securitycenter.windows.com](https://securitycenter.windows.com) ).
 
 Clientgedragsblokkering is effectief omdat hiermee niet alleen wordt voorkomen dat een aanval wordt gestart, maar het kan ook helpen een aanval te stoppen die is begonnen met uitvoeren. En, met [het blokkeren van feedback-loop](feedback-loop-blocking.md) (een andere mogelijkheid voor het blokkeren en inperking van gedrag) worden aanvallen op andere apparaten in uw organisatie voorkomen.
 
@@ -59,19 +57,19 @@ Op gedrag gebaseerde detecties worden benoemd op basis van de [MITRE ATT-&CK Mat
 
 |Tactiek |   Naam van detectiebedreiging |
 |----|----|
-|Eerste toegang | Gedrag:Win32/InitialAccess.*!ml |
-|Uitvoering  | Gedrag:Win32/Execution.*!ml |
-|Persistentie    | Gedrag:Win32/Persistentie.*!ml |
-|Escalatie van bevoegdheden   | Gedrag:Win32/PrivilegeEscalation.*!ml |
-|Defense Ontwijking    | Gedrag:Win32/DefenseEvasion.*!ml |
-|Referentietoegang  | Gedrag:Win32/CredentialAccess.*!ml |
-|Detectie  | Gedrag:Win32/Discovery.*!ml |
-|Zijbeweging | Gedrag:Win32/LateralMovement.*!ml |
-|Verzameling |   Gedrag:Win32/Collection.*!ml |
-|Command and Control | Gedrag:Win32/CommandAndControl.*!ml |
-|Exfiltration   | Gedrag:Win32/Exfiltration.*!ml |
-|Gevolg | Gedrag:Win32/Impact.*!ml |
-|Niet-gecategoriseerd  | Gedrag:Win32/Generic.*!ml |
+|Eerste toegang | `Behavior:Win32/InitialAccess.*!ml` |
+|Uitvoering  | `Behavior:Win32/Execution.*!ml` |
+|Persistentie    | `Behavior:Win32/Persistence.*!ml` |
+|Escalatie van bevoegdheden   | `Behavior:Win32/PrivilegeEscalation.*!ml` |
+|Defense Ontwijking    | `Behavior:Win32/DefenseEvasion.*!ml` |
+|Referentietoegang  | `Behavior:Win32/CredentialAccess.*!ml` |
+|Detectie  | `Behavior:Win32/Discovery.*!ml` |
+|Zijbeweging | `Behavior:Win32/LateralMovement.*!ml` |
+|Verzameling |   `Behavior:Win32/Collection.*!ml` |
+|Command and Control | `Behavior:Win32/CommandAndControl.*!ml` |
+|Exfiltration   | `Behavior:Win32/Exfiltration.*!ml` |
+|Gevolg | `Behavior:Win32/Impact.*!ml` |
+|Niet-gecategoriseerd  | `Behavior:Win32/Generic.*!ml` |
 
 > [!TIP]
 > Zie recente wereldwijde bedreigingsactiviteit voor meer informatie **[over specifieke bedreigingen.](https://www.microsoft.com/wdsi/threats)**
@@ -81,22 +79,13 @@ Op gedrag gebaseerde detecties worden benoemd op basis van de [MITRE ATT-&CK Mat
 
 Als uw organisatie Defender voor Eindpunt gebruikt, is clientgedragsblokkering standaard ingeschakeld. Zorg er echter voor dat de volgende [](behavioral-blocking-containment.md)functies en mogelijkheden van Defender voor Eindpunt zijn ingeschakeld en geconfigureerd om te profiteren van alle Mogelijkheden van Defender voor eindpunten, inclusief het blokkeren en inperking van gedragingen:
 
-- [Defender voor eindpunten](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-machines-security-baseline)
+- [Defender voor eindpunten](configure-machines-security-baseline.md)
 
-- [Apparaten die zijn aan boord van Defender voor Eindpunt](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/onboard-configure)
+- [Apparaten die zijn aan boord van Defender voor Eindpunt](onboard-configure.md)
 
-- [EDR in blokkeringsmodus](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/edr-in-block-mode)
+- [EDR in blokkeringsmodus](edr-in-block-mode.md)
 
-- [Kwetsbaarheid voor aanvallen verminderen](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/attack-surface-reduction)
+- [Kwetsbaarheid voor aanvallen verminderen](attack-surface-reduction.md)
 
-- [Beveiliging van de volgende generatie](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-microsoft-defender-antivirus-features) (antivirus)
+- [Beveiliging van de volgende generatie](configure-microsoft-defender-antivirus-features.md) (antivirus, antimalware en andere mogelijkheden voor bedreigingsbeveiliging)
 
-## <a name="related-articles"></a>Verwante artikelen
-
-- [Gedragsblokkering en -insluiting](behavioral-blocking-containment.md)
-
-- [Feedbacklus blokkeren](feedback-loop-blocking.md)
-
-- [(Blog) Blokkering en insluiting van gedrag: optica transformeren in beveiliging](https://www.microsoft.com/security/blog/2020/03/09/behavioral-blocking-and-containment-transforming-optics-into-protection/)
-
-- [Nuttige Defender voor eindpuntresources](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/helpful-resources)

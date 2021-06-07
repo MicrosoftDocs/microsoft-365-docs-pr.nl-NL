@@ -19,12 +19,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: 'Samenvatting: Inzicht in de migratie van Microsoft Cloud Germany (Microsoft Cloud Deutschland) naar Office 365 services in de nieuwe Duitse datacenterregio.'
-ms.openlocfilehash: ad6c81f04b9e8551ad6eeb6521f7562243df53e9
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: 4162e51164120cecaa431ad6883d3ee112ad4880
+ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52346302"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796004"
 ---
 # <a name="migration-from-microsoft-cloud-deutschland-to-office-365-services-in-the-new-german-datacenter-regions"></a>Migratie van Microsoft Cloud Deutschland naar Office 365 services in de nieuwe Duitse datacenterregio's
 
@@ -64,7 +64,7 @@ Office 365 Video wordt op 1 maart 2021 niet meer gebruikt. Als u ervoor kiest om
 
 In deze afbeelding ziet u de tien fasen van de migratie naar de nieuwe Duitse datacenters.
 
-![De tien fasen van de migratie naar de nieuwe Datacenters van Duitsland](../media/ms-cloud-germany-migration-opt-in/migration-organization.png)
+:::image type="content" alt-text="De tien fasen van de migratie naar de nieuwe Datacenters van Duitsland" source="../media/ms-cloud-germany-migration-opt-in/migration-organization.png" lightbox="../media/ms-cloud-germany-migration-opt-in/migration-organization.png":::
 
 Deze fasen beginnen wanneer [u zich aant voor migratie.](./ms-cloud-germany-migration-opt-in.md) De meeste migratiefasen worden uitgevoerd als back-endservicebewerkingen met minimale interactie tussen klanten en worden de ene fase na de andere uitgevoerd. Het begin van extra taken onder leiding van de klant en de algehele migratiestatus worden tijdens het migratieproces gecommuniceerd via het Berichtencentrum van het Microsoft 365 beheercentrum. Voorbeeld van taken: door klanten beheerde DNS-updates, herconfiguratie van hybride configuratie voor Exchange hybride klanten of Azure-migratie.
 
@@ -201,7 +201,7 @@ Er zijn momenteel 39 services beschikbaar als onderdeel van Office 365 services 
 
 Als u alleen een Azure-klant [](/azure/germany/germany-migration-main) bent, kunt u vandaag beginnen met het migreren van uw Azure-resources naar een andere regio. 
 
-Als u Azure hebt met Office 365, Dynamics 365 of Power BI, moet u het migratieproces volgen om een succesvolle migratie van AzureAD te garanderen voordat u begint met de self-directed Azure-migratie. U moet de Azure-migratie vóór de sluiting van de service voltooien om uw Azure-werkbelastingen te behouden met uw AzureAD en Office 365 organisatie.
+Als u Azure met Office 365, Dynamics 365 of Power BI hebt, moet u eerst het migratieproces voor Office 365-services volgen om ervoor te zorgen dat Azure AD succesvol wordt gemigratied voordat u de zelfgestuurde Azure-migratie kunt starten. U moet de Azure-migratie voltooien voordat u de tenantmigratie voltooit om uw Azure-werkbelasting te behouden met uw Azure AD en Office 365 organisatie. Raadpleeg Acties [en effecten van migratiefasen voor de migratie van Microsoft Cloud Deutschland](ms-cloud-germany-transition-phases.md) voor meer informatie.
 
 **Office 365**
 
@@ -303,7 +303,7 @@ De migratie is ontworpen om minimale gevolgen te hebben voor eindgebruikers/klan
 
 ### <a name="which-customers-are-affected-by-the-azure-active-directory-migration"></a>Welke klanten worden beïnvloed door de Azure Active Directory migratie? 
 
-Alle klanten van Office365 zijn afhankelijk van Azure Active Directory voor het verifiëren en opslaan van essentiële serviceonderdelen die nodig zijn voor de werking van gehoste microsoft-services. 
+Alle klanten van Office 365 zijn afhankelijk van Azure Active Directory voor het verifiëren en opslaan van essentiële serviceonderdelen die nodig zijn voor de werking van gehoste microsoft-services. 
 
 
 ### <a name="what-are-the-impacts-of-the-azure-active-directory-migration"></a>Wat zijn de gevolgen van de Azure Active Directory migratie?

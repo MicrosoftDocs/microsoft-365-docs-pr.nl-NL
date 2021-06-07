@@ -15,12 +15,12 @@ ms.collection:
 description: Beheerders kunnen leren hoe ze geavanceerde anti-phishingbeleidsregels kunnen maken, wijzigen en verwijderen die beschikbaar zijn in organisaties met Microsoft Defender voor Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8cbe517ef2a702e3e4fd7f6af4ee1d7ed1dd13d2
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: 9af3824b245cd976d1e859d6ebc4efcda47325e0
+ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52789133"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52793086"
 ---
 # <a name="configure-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Anti-phishingbeleid configureren in Microsoft Defender voor Office 365
 
@@ -164,7 +164,7 @@ Als u een aangepast anti-phishingbeleid maakt in het beveiligingscentrum, worden
 
        Terug in de flyout Aangepaste domeinen beheren voor **imitatie,** kunt u items verwijderen door een of meer items uit de lijst te selecteren. U kunt zoeken naar items met het ![ zoekpictogram ](../../media/m365-cc-sc-create-icon.png) **Zoeken.**
 
-       Nadat u ten minste één item hebt geselecteerd, wordt het pictogram Verwijderen weergegeven, waarmee u de geselecteerde items ![ ](../../media/m365-cc-sc-delete-icon.png)  kunt verwijderen.
+       Nadat u ten minste één item hebt geselecteerd, wordt het pictogram Domeinen verwijderen weergegeven, waarmee u de geselecteerde items ![ ](../../media/m365-cc-sc-delete-icon.png)  kunt verwijderen.
 
    - **Vertrouwde afzenders** en domeinen toevoegen: : Geef uitzonderingen op voor imitatiebeveiliging voor het beleid door op Vertrouwde **afzender(s) en domein(s) beheren (nn) te klikken.** Configureer de volgende instellingen in het flyout Manage **custom domains for impersonation protection** flyout that appears:
       - **Afzenders:** controleer of het tabblad **Afzender** is geselecteerd en klik op ![ Pictogram Afzenders ](../../media/m365-cc-sc-create-icon.png) toevoegen. Voer in het fly-out Vertrouwde **afzenders** toevoegen in het vak een e-mailadres in en klik vervolgens op **Toevoegen.** Herhaal deze stap zo vaak als nodig is. Als u een bestaand item wilt verwijderen, klikt ![ u op Pictogram verwijderen voor het ](../../media/m365-cc-sc-close-icon.png) item.
@@ -243,7 +243,7 @@ Als u een aangepast anti-phishingbeleid maakt in het beveiligingscentrum, worden
 
    Wanneer u gereed bent, klikt u op **Volgende**.
 
-7. Controleer uw instellingen op de pagina **Controleren** die wordt weergegeven. U kunt in elke sectie **Bewerken** selecteren om de instellingen in de sectie te wijzigen.
+7. Controleer uw instellingen op de pagina **Controleren** die wordt weergegeven. U kunt in elke sectie **Bewerken** selecteren om de instellingen in de sectie te wijzigen. U kunt ook op **Terug klikken** of de specifieke pagina in de wizard selecteren.
 
    Wanneer u klaar bent, klikt u op **Verzenden.**
 
