@@ -20,12 +20,12 @@ description: Beheerders kunnen informatie krijgen over bedreigingsbeveiliging in
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 77b76a56c34a005b0e0742f207e2824359ae8cac
-ms.sourcegitcommit: a3359982fea01339c7377e3ee89f223788cee0bf
+ms.openlocfilehash: ac90aa853769b239386d422e0b196a1f6140bf95
+ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52696548"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52793194"
 ---
 # <a name="protect-against-threats"></a>Beveiligen tegen bedreigingen
 
@@ -101,45 +101,57 @@ Zie [EOP anti-malwarebeleidsinstellingen](recommended-settings-for-eop-and-offic
 
    Klik op **Opslaan** wanneer u gereed bent.
 
-4. Klik terug op de flyout beleidsdetails op **Sluiten.**
+4. Klik in de flyout met beleidsdetails weer op **Sluiten**.
 
 Zie Anti-malwarebeleid configureren in EOP voor gedetailleerde instructies voor het configureren van [anti-malwarebeleid.](configure-anti-malware-policies.md)
 
-## <a name="part-2---anti-phishing-protection"></a>Deel 2 - Bescherming tegen phishing
+## <a name="part-2---anti-phishing-protection-in-eop-and-defender-for-office-365"></a>Deel 2 - Bescherming tegen phishing in EOP en Defender voor Office 365
 
 [Anti-phishingbeveiliging](anti-phishing-protection.md) is beschikbaar in abonnementen met [EOP.](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description) Geavanceerde anti-phishingbeveiliging is beschikbaar in [Defender voor Office 365.](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
 
-In de volgende procedure wordt beschreven hoe u een anti-phishingbeleid configureert in Microsoft Defender voor Office 365. De stappen zijn vergelijkbaar voor het configureren van een anti-phishingbeleid in EOP.
+Zie [EOP anti-phishingbeleidsinstellingen](recommended-settings-for-eop-and-office365.md#eop-anti-phishing-policy-settings) en [Anti-phishingbeleidsinstellingen in Microsoft Defender](recommended-settings-for-eop-and-office365.md#anti-phishing-policy-settings-in-microsoft-defender-for-office-365)voor Office 365 voor meer informatie over de aanbevolen instellingen voor anti-phishingbeleid.
 
-1. Kies in [& Beveiligingscentrum](https://protection.office.com)de optie **Bedreigingsbeheerbeleid** \>  \> **Anti-phishing.**
+In de volgende procedure wordt beschreven hoe u het standaard anti-phishingbeleid configureert. Instellingen die alleen beschikbaar zijn in Defender voor Office 365 zijn duidelijk gemarkeerd.
 
-2. Klik **op Standaardbeleid.**
+1. Openen <https://security.microsoft.com/antiphishing> .
 
-3. Klik in **de sectie Imitatie** op **Bewerken** en geef de volgende instellingen op:
+2. Selecteer op **de pagina Anti-phishing** het beleid met de naam **Office365 AntiPhish Default (Standaard)** door op de naam te klikken.
 
-   - Schakel op **het tabblad Gebruikers toevoegen ter** beveiliging beveiliging *beveiliging* in. Voeg vervolgens gebruikers toe, zoals de leden van het bestuur van uw organisatie, uw CEO, CFO en andere senior leidinggevenden. (U kunt een afzonderlijk e-mailadres typen of klikken om een lijst weer te geven.)
+3. Configureer de volgende instellingen in de flyout beleidsdetails die worden weergegeven:
 
-   - Schakel op **het tabblad Domeinen toevoegen om te** beveiligen automatisch de domeinen in die ik **bezit.** Als u aangepaste domeinen hebt, voegt u deze nu toe.
+   - **Phishingdrempel & beveiligingssectie:** Klik op **Beveiligingsinstellingen bewerken** en  configureer de volgende instellingen in het fly-out Beveiligingsinstellingen bewerken dat wordt geopend:
+     - **Drempelwaarde voor** <sup>\*</sup> phishing-e-mail: Selecteer **2 - Agressief** (standaard) of **3 - Agressiever** (strikt).
+     - **Sectie Imitatie:** <sup>\*</sup> De volgende waarden configureren:
+       - Selecteer **Gebruikers inschakelen** om te beveiligen, klik op de koppeling **Afzender(s) beheren (nn)** die wordt weergegeven en voeg vervolgens interne en externe afzenders toe om zich te beschermen tegen imitatie, zoals de bestuursleden van uw organisatie, uw CEO, CFO en andere senior leaders.
+       - Selecteer **Domeinen beveiligen inschakelen** en configureer de volgende instellingen die worden weergegeven:
+         - Selecteer **Domeinen opnemen die ik bezit** om interne afzenders in uw geaccepteerde domeinen te beschermen (zichtbaar door te klikken op **Mijn** domeinen weergeven) tegen imitatie.
+         - Als u afzenders in andere domeinen wilt beveiligen, selecteert u Aangepaste domeinen **opnemen,** klikt u op de koppeling Aangepaste **domein(nn) beheren (nn)** die wordt weergegeven en voegt u vervolgens andere domeinen toe om zich te beschermen tegen imitatie.
+     - Sectie Vertrouwde **afzenders** en domeinen toevoegen: Klik op Vertrouwde <sup>\*</sup> **afzender(s) en domeinen (nn)** beheren om indien nodig uitzonderingen op afzender- en afzenderdomeinen te configureren voor imitatiebeveiliging.
+     - Instellingen voor postvakinformatie: Controleer of Postvakintelligentie inschakelen en <sup>\*</sup> **Intelligence inschakelen voor imitatiebeveiliging** zijn geselecteerd. 
+     - **Sectie Spoof:** Controleren **Of spoofinformatie inschakelen** is geselecteerd.
 
-   - Selecteer op **het** tabblad Acties de optie **Het bericht in** quarantaine plaatsen voor zowel de **imiteerde gebruiker** als de **nagebootsde domeinopties.** Schakel ook veiligheidstips voor imitatie in.
+     Klik op **Opslaan** wanneer u gereed bent.
 
-   - Zorg op het tabblad Postvakintelligentie ervoor dat postvakinformatie is ingeschakeld en schakel op postvakintelligentie gebaseerde imitatiebeveiliging in.  Kies in **de lijst Als e-mail wordt verzonden** door een nagebootsde gebruikerslijst de optie **Het bericht in quarantaine plaatsen.**
+   - **Sectie** Acties: Klik op **Acties bewerken** en configureer de volgende instellingen in **het** fly-out Acties bewerken dat wordt geopend:
+     - **Sectie Berichtacties:** De volgende instellingen configureren:
+       - **Als bericht wordt gedetecteerd als een nagebootsde gebruiker:** <sup>\*</sup> Selecteer Het bericht in quarantaine **plaatsen.**
+       - **Als bericht wordt gedetecteerd als een nagebootsd domein:** <sup>\*</sup> Selecteer Het bericht in quarantaine **plaatsen.**
+       - **Als postvakinformatie een** nagebootste gebruiker detecteert: Selecteer Bericht verplaatsen naar de mappen Ongewenste e-mail van de geadresseerden (Standaard) of Het bericht in quarantaine plaatsen <sup>\*</sup> (Strikt).  
+       - **Als bericht wordt gedetecteerd als spoof:** Selecteer **Bericht verplaatsen** naar de mappen ongewenste e-mail van de geadresseerden (Standaard) of **Het** bericht in quarantaine plaatsen (Strikt).
+     - **Veiligheidstips & de sectie** Indicatoren: De volgende instellingen configureren:
+       - **Gebruikers imiteren veiligheidstip** <sup>\*</sup> : Selecteren (in- of uit).
+       - **Domein-imitatie veiligheidstip** <sup>\*</sup> : Selecteren (in- of uit).
+       - **Ongebruikelijke tekens voor gebruikers imiteren veiligheidstip** <sup>\*</sup> : Selecteren (in- of uit).
+       - **Show (?) for unauthenticated senders for spoof**: Select (turn on).
+       - **Tag 'via' laten** zien: Selecteer (in) als deze instelling beschikbaar is.
 
-   - Geef op **het tabblad Vertrouwde afzenders en** domeinen toevoegen alle vertrouwde afzenders of domeinen op die u wilt toevoegen.
+     Klik op **Opslaan** wanneer u gereed bent.
 
-   - **Sla** op het **tabblad Uw instellingen controleren** op nadat u de instellingen hebt bekeken.
+   <sup>\*</sup>Deze instelling is alleen beschikbaar in Defender voor Office 365.
 
-4. Klik in **de sectie Spoof** op **Bewerken** en geef de volgende instellingen op:
+4. Klik **op Opslaan** en klik vervolgens op **Sluiten**
 
-   - Zorg ervoor dat de beveiliging **tegen spoofing** is ingeschakeld op het tabblad Filterinstellingen voor spoofing.
-
-   - Kies op **het** tabblad Acties de optie **Het bericht in quarantaine plaatsen.**
-
-   - **Sla** op het **tabblad Uw instellingen controleren** op nadat u de wijzigingen hebt bekeken. (Als u geen wijzigingen hebt aangebracht, **annuleert** u .)
-
-5. Sluit de pagina met standaardbeleidsinstellingen.
-
-Zie [Anti-phishingbeleid configureren in Microsoft Defender](configure-atp-anti-phishing-policies.md)voor meer informatie over uw anti-phishingbeleidsopties voor Office 365.
+Zie [Anti-phishingbeleid configureren in EOP](configure-anti-phishing-policies-eop.md) en [Anti-phishingbeleid configureren in Microsoft Defender](configure-atp-anti-phishing-policies.md)voor meer informatie over het configureren van anti-phishingbeleid Office 365.
 
 ## <a name="part-3---anti-spam-protection-in-eop"></a>Deel 3 - Bescherming tegen spam in EOP
 
@@ -147,15 +159,13 @@ Zie [EOP antispambeleidsinstellingen](recommended-settings-for-eop-and-office365
 
 1. Openen <https://security.microsoft.com/antispam> .
 
-2. Selecteer op **de pagina Antispambeleid** het beleid **antispambeleid in de** lijst door op de naam te klikken.
+2. Selecteer op **de pagina Antispambeleid** het beleid **antispambeleid (standaard) in** de lijst door op de naam te klikken.
 
-3. Klik in het flyout met beleidsdetails dat wordt weergegeven op **Drempelwaarde** en eigenschappen voor spam bewerken in de sectie Bulk **e-mail & spameigenschappen.**
+3. Ga als volgt te werk in de flyout beleidsdetails die worden weergegeven:
+   - **Bulk e-maildrempel & sectie spameigenschappen:** Klik op Drempelwaarde en eigenschappen **voor spam bewerken.** Stel in **de flyout** voor spam en  eigenschappen die worden weergegeven, de drempelwaarde voor bulksgewijs e-mail in op 5 (Strikt) of 6 (standaard). Klik op **Opslaan** wanneer u gereed bent.
+   - **Sectie Toegestane en geblokkeerde afzenders en** domeinen: Controleer of bewerk uw toegestane afzenders en toegestane domeinen.
 
-4. Stel in **de flyout** voor spam en  eigenschappen die worden weergegeven, de drempelwaarde voor bulksgewijs e-mail in op 5 (Strikt) of 6 (standaard). Wanneer u klaar bent, klikt u op **Opslaan**
-
-5. Ga terug naar de flyout beleidsdetails en ga naar de sectie Toegestane en geblokkeerde **afzenders** en domeinen en bekijk of bewerk uw toegestane afzenders en toegestane domeinen.
-
-6. Klik op **Sluiten** wanneer u gereed bent.
+4. Klik op **Sluiten** wanneer u gereed bent.
 
 Zie Antispambeleid configureren in EOP voor gedetailleerde instructies voor het configureren van [antispambeleid.](configure-your-spam-filter-policies.md)
 

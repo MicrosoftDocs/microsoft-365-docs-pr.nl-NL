@@ -19,12 +19,12 @@ description: Beheerders kunnen leren hoe ze het spoof intelligence-beleid en het
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 821488f79186e1b5c306b587764377989346eea5
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: f0e5c83bc50197e30c12f8f7aeedc83930d7ff5e
+ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52530884"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52793206"
 ---
 # <a name="manage-spoofed-senders-using-the-spoof-intelligence-policy-and-spoof-intelligence-insight-in-eop"></a>Vervalste afzenders beheren met behulp van het spoof intelligence-beleid en het inzicht in spoof intelligence in EOP
 
@@ -69,7 +69,7 @@ U kunt spoofinformatie beheren in het beveiligings- & compliancecentrum of in Po
   - [Anti-phishingbeleid configureren in EOP](configure-anti-phishing-policies-eop.md).
   - [Anti-phishingbeleid configureren in Microsoft Defender voor Office 365.](configure-atp-anti-phishing-policies.md)
 
-- Zie Standaardinstellingen voor [anti-phishingbeleid](recommended-settings-for-eop-and-office365.md#eop-default-anti-phishing-policy-settings)van EOP voor onze aanbevolen instellingen voor spoofinformatie.
+- Zie [EOP anti-phishingbeleidsinstellingen](recommended-settings-for-eop-and-office365.md#eop-anti-phishing-policy-settings)voor onze aanbevolen instellingen voor spoofinformatie.
 
 ## <a name="manage-spoofed-senders"></a>Vervalste afzenders beheren
 
@@ -96,7 +96,7 @@ Er zijn twee manieren om vervalste afzenders toe te staan en te blokkeren:
    - **Uw domeinen:** afzenders die gebruikers spoofen in uw interne domeinen.
    - **Externe domeinen:** afzenders die gebruikers spoofen in externe domeinen.
 
-5. Klik ![ op Pictogram ](../../media/scc-expand-icon.png) Uitv in de kolom **Toegestaan om te** vervalsen? Kies **Ja** om de vervalste afzender toe te staan of kies **Nee om** het bericht te markeren als vervalst. De actie wordt bepaald door het standaard anti-phishingbeleid of aangepaste anti-phishingbeleid (de standaardwaarde is Bericht verplaatsen naar map **Ongewenste e-mail**). Zie Spoofinstellingen [in anti-phishingbeleid](set-up-anti-phishing-policies.md#spoof-settings)voor meer informatie.
+5. Klik ![ op Pictogram ](../../media/scc-expand-icon.png) Uitv in de kolom **Toegestaan om te** vervalsen? Kies **Ja** om de vervalste afzender toe te staan of kies **Nee om** het bericht te markeren als vervalst. De actie wordt bepaald door het standaard anti-phishingbeleid of aangepaste anti-phishingbeleid (de standaardwaarde is Bericht verplaatsen naar map **Ongewenste e-mail**). Zie [Instellingen voor adresvervalsing in anti-phishingbeleid](set-up-anti-phishing-policies.md#spoof-settings) voor meer informatie.
 
    ![Schermafbeelding van de spoofed senders flyout en of de afzender mag spoofen](../../media/c0c062fd-f4a4-4d78-96f7-2c22009052bb.jpg)
 
