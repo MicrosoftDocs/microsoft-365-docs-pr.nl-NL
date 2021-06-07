@@ -18,12 +18,12 @@ ms.collection:
 description: Informatie over het configureren van DMARC (Domain-based Message Authentication, Reporting, and Conformance) om berichten te valideren die zijn verzonden vanuit uw organisatie.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9beada6e0fb61e503392b0bd379f02bd1c025464
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: a92c6ec50fb60d15e027a11163aad6b2186e5304
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538673"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52779901"
 ---
 # <a name="use-dmarc-to-validate-email"></a>DMARC gebruiken om e-mail te valideren
 
@@ -178,7 +178,7 @@ Voorbeelden:
     _dmarc.contoso.com  3600 IN  TXT  "v=DMARC1; p=reject"
     ```
 
-Wanneer u het record hebt gemaakt, moet u het record bij uw domeinregistrar bijwerken. Zie [DNS-records voor Microsoft 365 maken wanneer u uw DNS-records beheert](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md) voor instructies over het toevoegen van het DMARC TXT-record aan uw DNS-records voor Microsoft 365.
+Wanneer u het record hebt gemaakt, moet u het record bij uw domeinregistrar bijwerken.
 
 ## <a name="dmarc-mail-public-preview-feature"></a>DMARC Mail (functie Openbare preview)
 > [!CAUTION]
@@ -256,7 +256,7 @@ contoso.com     3600   IN  MX  10 contoso-com.mail.protection.outlook.com
 
 Alle, of de meeste, e-mail zal eerst worden gerouteerd naar mail.contoso.com, omdat dat de primaire MX is en vervolgens wordt de e-mail gerouteerd naar EOP. In bepaalde gevallen vermeldt u mogelijk niet eens EOP als een MX-record en koppelt u gewoon connectors om uw e-mail te routeren. EOP hoeft niet de eerste vermelding te zijn om DMARC-validatie te kunnen uitvoeren. Het garandeert de validatie, omdat we niet zeker kunnen weten dat alle on-premises/niet-O365-servers DMARC-controles uitvoeren.  Het afdwingen van DMARC voor het domein (niet de server) van een klant is beschikbaar wanneer u het DMARC TXT-record instelt, maar de ontvangende server voert de handhaving daadwerkelijk uit.  Als u EOP instelt als ontvangende server, voert EOP de DMARC-handhaving uit.
 
-![Een afbeelding voor het oplossen van problemen met DMARC. Met dank aan Daniel Mande](../../media/Tp_DMARCTroublehoot.png)
+:::image type="content" source="../../media/Tp_DMARCTroublehoot.png" alt-text="Een afbeelding voor het oplossen van problemen met DMARC. Met dank aan Daniel Mande" lightbox="../../media/Tp_DMARCTroublehoot.png":::
 
 ## <a name="for-more-information"></a>Voor meer informatie
 

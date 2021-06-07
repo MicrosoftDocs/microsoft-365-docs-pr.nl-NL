@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Meer informatie over het geven van feedback aan een trainbare classificatie in Inhoudsverkenner.
-ms.openlocfilehash: d61437634dcad7f01a6737947b0f32f42de2818e
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: ef0539a3d474ffecaeac8633b4a58aa068a5c182
+ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "52161914"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52793062"
 ---
 # <a name="how-to-retrain-a-classifier-in-content-explorer"></a>Een classificatie opnieuw trainen voor de inhoudsverkenner
 
@@ -96,7 +96,7 @@ Zie Processtroom voor het opnieuw bijscholen van een classificatie voor meer inf
 
 12. Bekijk de aanbevolen actie en de voorspellingsvergelijkingen van de opnieuw getrainde en momenteel gepubliceerde versies van de classificatie.
 13. Als u tevreden bent over de resultaten van de omscholing, kiest u **Opnieuw publiceren.**
-14. Als u niet tevreden bent over de resultaten van de omscholing, kunt u ervoor kiezen om extra feedback te geven aan de classificatie in de compliance-interface Communicatie en een andere herscholingscyclus te starten of niets te doen in welk geval de momenteel gepubliceerde versie van de classificatie blijft worden gebruikt. 
+14. Als u niet tevreden bent over de resultaten van de omscholing, kunt u ervoor kiezen om extra feedback te geven aan de classificatie in de interface van Inhoudsverkenner en een andere omscholingscyclus te starten of niets te doen in welk geval de momenteel gepubliceerde versie van de classificatie nog steeds wordt gebruikt. 
 
 ## <a name="details-on-republishing-recommendations"></a>Details over het opnieuw publiceren van aanbevelingen
 

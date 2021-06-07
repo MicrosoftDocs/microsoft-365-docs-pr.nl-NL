@@ -1,6 +1,6 @@
 ---
 title: Compatibiliteit met antivirusoplossingen met Defender voor Eindpunt
-description: Meer informatie over hoe Windows Defender werkt met Microsoft Defender voor Eindpunt en hoe deze werkt wanneer een antimalwareclient van derden wordt gebruikt.
+description: Meer informatie over Windows Defender werkt met Microsoft Defender voor Eindpunt en hoe deze werkt wanneer een antimalwareclient van derden wordt gebruikt.
 keywords: windows defender compatibility, defender, Microsoft Defender for Endpoint, defender for endpoint, antivirus, mde
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.date: 05/06/2021
 ms.technology: mde
-ms.openlocfilehash: 84c523b721596d9c467f01cf6b8a0685b2091669
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: f5a0db755f919cb47c4cd284857ddf4e27d16996
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274878"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782883"
 ---
 # <a name="antivirus-solution-compatibility-with-microsoft-defender-for-endpoint"></a>Compatibiliteit met antivirusoplossingen met Microsoft Defender voor Eindpunt
 
@@ -38,14 +38,14 @@ ms.locfileid: "52274878"
 De Microsoft Defender voor Eindpunt-agent is afhankelijk van Microsoft Defender Antivirus voor bepaalde mogelijkheden, zoals bestandsscans.
 
 >[!IMPORTANT]
->Defender voor Eindpunt voldoet niet aan de instellingen voor Microsoft Defender Antivirus Exclusions. 
+>Defender voor Eindpunt voldoet niet aan de instellingen Microsoft Defender Antivirus Uitsluitingen. 
 
-U moet beveiligingsintelligentie-updates configureren op de Defender voor Eindpunt-apparaten, ongeacht of Microsoft Defender Antivirus de actieve antimalware is of niet. Zie Microsoft [Defender Antivirus-updates](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/manage-updates-baselines-microsoft-defender-antivirus.md)beheren en basislijnen toepassen voor meer informatie.
+U moet beveiligingsintelligentie-updates configureren op de Defender voor Eindpunt-apparaten, ongeacht Microsoft Defender Antivirus het actieve antimalware is of niet. Zie Updates beheren Microsoft Defender Antivirus basislijnen voor [meer informatie.](manage-updates-baselines-microsoft-defender-antivirus.md)
 
-Als een onboarded-apparaat is beveiligd door een antimalwareclient van derden, gaat Microsoft Defender Antivirus op dat eindpunt in de passieve modus.
+Als een onboarded-apparaat is beveiligd door een antimalwareclient van derden, wordt Microsoft Defender Antivirus op dat eindpunt in de passieve modus.
 
 Microsoft Defender Antivirus blijft updates ontvangen en het *mspeng.exe-proces* wordt weergegeven als een service die wordt uitgevoerd, maar er worden geen scans uitgevoerd en de lopende antimalwareclient van derden wordt niet vervangen.
 
-De Microsoft Defender Antivirus-interface wordt uitgeschakeld en gebruikers op het apparaat kunnen Microsoft Defender Antivirus niet gebruiken om on-demand scans uit te voeren of de meeste opties te configureren.
+De Microsoft Defender Antivirus-interface wordt uitgeschakeld en gebruikers op het apparaat kunnen geen Microsoft Defender Antivirus gebruiken om on-demand scans uit te voeren of de meeste opties te configureren.
 
-Zie het onderwerp [Microsoft Defender Antivirus and Defender for Endpoint compatibility topic (Microsoft Defender Antivirus and Defender for Endpoint compatibility topic) voor meer informatie.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)
+Zie het onderwerp compatibiliteit [Microsoft Defender Antivirus Defender voor eindpunten](microsoft-defender-antivirus-compatibility.md)voor meer informatie.

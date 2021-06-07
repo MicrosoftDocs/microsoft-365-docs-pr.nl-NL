@@ -20,16 +20,16 @@ search.appverid:
 - MET150
 description: Meer informatie over de Advanced eDiscovery oplossing in Microsoft 365. Dit artikel bevat een overzicht van Advanced eDiscovery in Microsoft 365, een hulpmiddel waarmee u interne en externe onderzoeken kunt beheren. Daarnaast worden de zakelijke redenen voor het gebruik van Advanced eDiscovery om uw juridische onderzoeken te beheren.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 16d18d04c0bb45f0a9328dcebae866c16a575812
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: ec5ea7b32abb03edd31ab69abc7b8d3044b1d353
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "52162673"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782787"
 ---
 # <a name="overview-of-microsoft-365-advanced-ediscovery"></a>Overzicht van Microsoft 365 Advanced eDiscovery
 
-De Advanced eDiscovery oplossing in Microsoft 365 is gebaseerd op de bestaande microsoft eDiscovery- en analysemogelijkheden. Advanced eDiscovery biedt een end-to-endwerkstroom voor het bewaren, verzamelen, analyseren, controleren, analyseren en exporteren van inhoud die reageert op interne en externe onderzoeken van uw organisatie. Daarnaast kunnen juridische teams de volledige werkstroom voor meldingen over juridische in- en uit te houden beheren om te communiceren met bewaarders die betrokken zijn bij een zaak.
+De Advanced eDiscovery oplossing in Microsoft 365 is gebaseerd op de bestaande microsoft eDiscovery- en analysemogelijkheden. Advanced eDiscovery biedt een end-to-endwerkstroom voor het bewaren, verzamelen, analyseren, controleren en exporteren van inhoud die reageert op interne en externe onderzoeken van uw organisatie. Daarnaast kunnen juridische teams de volledige werkstroom voor meldingen over juridische in- en uit te houden beheren om te communiceren met bewaarders die betrokken zijn bij een zaak.
 
 ## <a name="advanced-ediscovery-capabilities"></a>Advanced eDiscovery mogelijkheden
 
@@ -124,7 +124,7 @@ Er zijn twee snelle en eenvoudige stappen om aan de slag te gaan met Advanced eD
 
 ![Werkstroom aan de slag met Advanced eDiscovery](../media/get-started-AeD.png)
 
-|Stappen  |Beschrijving  |
+|Stappen  |Omschrijving  |
 |:---------|:---------|
 |[Advanced eDiscovery instellen](get-started-with-advanced-ediscovery.md)| Nadat u de abonnements- en licentievereisten hebt geverifieerd, kunt u machtigingen toewijzen en instellingen voor de hele organisatie configureren om aan de slag te gaan met Advanced eDiscovery.|
 |[Zaken maken en beheren](create-and-manage-advanced-ediscoveryv2-case.md) | Maak zaken om de werkstroom Advanced eDiscovery voor alle juridische en andere soorten onderzoeken in uw organisatie te beheren.|

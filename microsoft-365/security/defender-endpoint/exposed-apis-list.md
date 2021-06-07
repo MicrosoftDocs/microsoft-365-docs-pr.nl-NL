@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 63e38d5c9cfe50d1fa4cda1f7ae9c7df55a45083
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: 61c7c8022ed89a4d10e5737e2dcdf92a4375bedd
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52788833"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770407"
 ---
 # <a name="supported-microsoft-defender-for-endpoint-apis"></a>Ondersteunde API's voor Microsoft Defender voor Eindpunt
 
@@ -62,7 +62,7 @@ Onderwerp | Omschrijving
 :---|:---
 [Geavanceerd opsporen](run-advanced-query-api.md) | Query's uitvoeren vanuit API.
 [Waarschuwingsmethoden en -eigenschappen](alerts.md) | Voer API-oproepen uit, \- zoals waarschuwingen ontvangen, waarschuwing maken, waarschuwing bijwerken en meer.
-[Beoordelingsmethoden en -eigenschappen per apparaat exporteren](get-assessment-methods-properties.md) | Voer API-oproepen uit, zoals \- een veilige configuratiebeoordeling exporteren, beoordeling van de softwarevoorraad exporteren en evaluatie van beveiligingsproblemen met software exporteren.
+[Beoordelingsmethoden en -eigenschappen per apparaat exporteren](get-assessmnt-1methods-properties.md) | Voer API-oproepen uit, zoals \- een veilige configuratiebeoordeling exporteren, beoordeling van de softwarevoorraad exporteren en evaluatie van beveiligingsproblemen met software exporteren.
 [Methoden en eigenschappen voor geautomatiseerd onderzoek](investigation.md) | Voer API-oproepen uit, \- zoals ophalen van onderzoek.
 [Waarschuwingen met betrekking tot domeinen ophalen](get-domain-related-alerts.md) | Voer API-oproepen uit, \- zoals domeingerelateerde apparaten, domeinstatistieken en meer.
 [Bestandsmethoden en -eigenschappen](files.md) | Voer API-oproepen uit, \- zoals bestandsgegevens, bestandsgerelateerde waarschuwingen, bestandsgerelateerde apparaten en bestandsstatistieken.

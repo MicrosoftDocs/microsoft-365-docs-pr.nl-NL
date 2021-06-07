@@ -12,15 +12,15 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Microsoft 365-beheerders kunnen leren hoe ze kunnen herstellen van een ransomware-aanval.
+description: Microsoft 365 beheerders kunnen leren hoe ze kunnen herstellen van een ransomware-aanval.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 242a4a2f43bd91d75caeaeaa0488f23a5ba4319d
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 473591a02b78043153d505dda6dd7ef5ac6e3961
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204341"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52789049"
 ---
 # <a name="recover-from-a-ransomware-attack-in-microsoft-365"></a>Herstellen van een ransomware-aanval in Microsoft 365
 
@@ -49,13 +49,13 @@ Als u offlineback-ups hebt, kunt u  waarschijnlijk de versleutelde gegevens hers
 
 Als u geen back-ups hebt of als uw back-ups ook zijn beïnvloed door de ransomware, kunt u deze stap overslaan.
 
-## <a name="step-2-disable-exchange-activesync-and-onedrive-sync"></a>Stap 2: Exchange ActiveSync en OneDrive-synchronisatie uitschakelen
+## <a name="step-2-disable-exchange-activesync-and-onedrive-sync"></a>Stap 2: Synchronisatie Exchange ActiveSync en OneDrive uitschakelen
 
 Het belangrijkste punt hier is om de verspreiding van gegevensversleuteling door de ransomware te stoppen.
 
-Als u vermoedt dat e-mail een doel is van de ransomware-versleuteling, schakelt u de toegang van gebruikers tot postvakken tijdelijk uit. Exchange ActiveSync synchroniseert gegevens tussen apparaten en Exchange Online-postvakken.
+Als u vermoedt dat e-mail een doel is van de ransomware-versleuteling, schakelt u de toegang van gebruikers tot postvakken tijdelijk uit. Exchange ActiveSync synchroniseert gegevens tussen apparaten en Exchange Online postvakken.
 
-Zie Exchange ActiveSync uitschakelen voor gebruikers in Exchange Online als u Exchange ActiveSync voor een postvak [wilt uitschakelen.](https://support.microsoft.com/help/2795303)
+Als u Exchange ActiveSync voor een postvak wilt uitschakelen, zie [Hoe u Exchange ActiveSync](https://support.microsoft.com/help/2795303)gebruikers in Exchange Online.
 
 Zie andere typen toegang tot een postvak uitschakelen:
 
@@ -63,7 +63,7 @@ Zie andere typen toegang tot een postvak uitschakelen:
 
 - [POP3- of IMAP4-toegang in- of uitschakelen voor een gebruiker](/Exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)
 
-Als u OneDrive-synchronisatie pauzeert, kunt u uw cloudgegevens beter beschermen tegen updates door mogelijk geïnfecteerde apparaten. Zie Synchronisatie onderbreken en [hervatten in OneDrive](https://support.microsoft.com/office/2152bfa4-a2a5-4d3a-ace8-92912fb4421e)voor meer informatie.
+Als u OneDrive, kunt u ervoor zorgen dat uw cloudgegevens niet worden bijgewerkt door mogelijk geïnfecteerde apparaten. Zie Synchronisatie onderbreken en hervatten in OneDrive voor [meer OneDrive.](https://support.microsoft.com/office/2152bfa4-a2a5-4d3a-ace8-92912fb4421e)
 
 ## <a name="step-3-remove-the-malware-from-the-affected-devices"></a>Stap 3: De malware van de betreffende apparaten verwijderen
 
@@ -71,11 +71,11 @@ Voer een volledige, huidige antivirusscan uit op alle verdachte computers en app
 
 Vergeet niet om apparaten te scannen die gegevens synchroniseren of de doelen van netwerkstations.
 
-U kunt [Windows Defender of](https://www.microsoft.com/windows/comprehensive-security) (voor oudere clients) Microsoft Security [Essentials gebruiken.](https://www.microsoft.com/download/details.aspx?id=5201)
+U kunt [Windows Defender](https://www.microsoft.com/windows/comprehensive-security) of (voor oudere [clients)](https://www.microsoft.com/download/details.aspx?id=5201)Microsoft Security Essentials.
 
 Een alternatief waarmee u ook ransomware of malware kunt verwijderen, is het hulpprogramma voor het verwijderen van schadelijke [software (MSRT).](https://www.microsoft.com/download/details.aspx?id=9905)
 
-Als deze opties niet werken, kunt u [Windows Defender offline](https://support.microsoft.com/help/17466) proberen of problemen met het opsporen en verwijderen van malware [oplossen.](https://support.microsoft.com/help/4466982)
+Als deze opties niet werken, [](https://support.microsoft.com/help/17466) kunt u proberen om offline Windows Defender problemen met het opsporen en verwijderen van malware op [te lossen.](https://support.microsoft.com/help/4466982)
 
 ## <a name="step-4-recover-files-on-a-cleaned-computer-or-device"></a>Stap 4: Bestanden herstellen op een opgeschoonde computer of apparaat
 
@@ -83,13 +83,13 @@ Nadat u de vorige stap hebt voltooid om de ransomware-payload uit uw omgeving te
 
 **Opmerkingen**:
 
-- Sommige ransomware versleutelt of verwijdert ook de back-upversies, zodat u bestandsgeschiedenis of systeembeveiliging niet kunt gebruiken om bestanden te herstellen. Als dat gebeurt, hebt u back-ups nodig op externe stations of apparaten die niet zijn beïnvloed door de ransomware of OneDrive, zoals beschreven in de volgende sectie.
+- Sommige ransomware versleutelt of verwijdert ook de back-upversies, zodat u bestandsgeschiedenis of systeembeveiliging niet kunt gebruiken om bestanden te herstellen. Als dat gebeurt, hebt u back-ups nodig op externe stations of apparaten die niet zijn beïnvloed door de ransomware of OneDrive zoals beschreven in de volgende sectie.
 
 - Als een map wordt gesynchroniseerd met OneDrive en u niet de nieuwste versie van Windows gebruikt, kunnen er enkele beperkingen zijn met behulp van Bestandsgeschiedenis.
 
 ## <a name="step-5-recover-your-files-in-your-onedrive-for-business"></a>Stap 5: Uw bestanden herstellen in uw OneDrive voor Bedrijven
 
-Met Bestanden herstellen in OneDrive voor Bedrijven kunt u uw hele OneDrive binnen de afgelopen 30 dagen terugzetten naar een eerder tijdstip. Zie Uw [OneDrive herstellen voor meer informatie.](https://support.microsoft.com/office/fa231298-759d-41cf-bcd0-25ac53eb8a15)
+Met Bestanden herstellen in OneDrive voor Bedrijven kunt u uw hele OneDrive in de afgelopen 30 dagen terugzetten naar een eerder tijdstip. Zie [OneDrive herstellen](https://support.microsoft.com/office/fa231298-759d-41cf-bcd0-25ac53eb8a15) voor meer informatie.
 
 ## <a name="step-6-recover-deleted-email"></a>Stap 6: Verwijderde e-mail herstellen
 
@@ -99,13 +99,13 @@ In het zeldzame geval dat de ransomware al uw e-mail heeft verwijderd, kunt u wa
 
 - [Verwijderde items herstellen in Outlook voor Windows](https://support.microsoft.com/office/49e81f3c-c8f4-4426-a0b9-c0fd751d48ce)
 
-## <a name="step-7-re-enable-exchange-activesync-and-onedrive-sync"></a>Stap 7: Exchange ActiveSync en OneDrive-synchronisatie opnieuw inschakelen
+## <a name="step-7-re-enable-exchange-activesync-and-onedrive-sync"></a>Stap 7: Synchronisatie van Exchange ActiveSync en OneDrive opnieuw inschakelen
 
-Nadat u uw computers en apparaten hebt opgeruimd en uw gegevens hebt hersteld, kunt u Exchange ActiveSync en OneDrive-synchronisatie die u eerder hebt uitgeschakeld, opnieuw inschakelen in [stap 2.](#step-2-disable-exchange-activesync-and-onedrive-sync)
+Nadat u uw computers en apparaten hebt opgeruimd en uw gegevens hebt hersteld, kunt u de synchronisatie van Exchange ActiveSync en OneDrive die u eerder hebt uitgeschakeld, opnieuw inschakelen in [stap 2.](#step-2-disable-exchange-activesync-and-onedrive-sync)
 
-## <a name="step-8-optional-block-onedrive-sync-for-specific-file-extensions"></a>Stap 8 (optioneel): OneDrive-synchronisatie blokkeren voor specifieke bestandsextensies
+## <a name="step-8-optional-block-onedrive-sync-for-specific-file-extensions"></a>Stap 8 (optioneel): Synchronisatie OneDrive voor specifieke bestandsextensies blokkeren
 
-Nadat u bent hersteld, kunt u voorkomen dat OneDrive voor Bedrijven-clients de bestandstypen synchroniseren die door deze ransomware zijn beïnvloed. Zie [Set-SPOTenantSyncClientRestriction (Set-SPOTenantSyncClientRestriction) voor meer informatie.](/powershell/module/sharepoint-online/set-spotenantsyncclientrestriction)
+Nadat u de bestanden hebt hersteld, kunt u voorkomen dat OneDrive voor Bedrijven de bestandstypen synchroniseren die door deze ransomware zijn beïnvloed. Zie [Set-SPOTenantSyncClientRestriction (Set-SPOTenantSyncClientRestriction) voor meer informatie.](/powershell/module/sharepoint-online/set-spotenantsyncclientrestriction)
 
 ## <a name="report-the-attack"></a>De aanval rapporteren
 
@@ -129,6 +129,8 @@ Websites voor scamrapportage bieden informatie over het voorkomen en voorkomen v
 
 - Nieuw-Zeeland: [Oplichting bij consumentenzaken](http://www.consumeraffairs.govt.nz/scams)
 
+- Zwitserland [Nationales Zentrum für Cybersicherheit NCSC](https://www.ncsc.admin.ch/ncsc/de/home.html)
+
 - Verenigd Koninkrijk: [Actiefraude](http://www.actionfraud.police.uk/)
 
 - Verenigde Staten: [On Guard Online](http://www.onguardonline.gov/)
@@ -147,15 +149,15 @@ U kunt phishingberichten die ransomware bevatten rapporteren met behulp van een 
 
 - [Norsk Hydro reageert op ransomware-aanval met transparantie](https://www.microsoft.com/security/blog/2019/12/17/norsk-hydro-ransomware-attack-transparency/)
 
-- [Ransomware-detectie en het herstellen van uw bestanden in OneDrive](https://support.microsoft.com/office/0d90ec50-6bfd-40f4-acc7-b8c12c73637f)
+- [Ransomware detectie en herstellen van uw bestanden in OneDrive](https://support.microsoft.com/office/0d90ec50-6bfd-40f4-acc7-b8c12c73637f)
 
-- [Microsoft Security Intelligence Report](https://www.microsoft.com/securityinsights/)
+- [Microsoft-beveiligingsinformatie Rapport](https://www.microsoft.com/securityinsights/)
 
-- [Macro's in- of uitschakelen in Office-bestanden](https://support.microsoft.com/office/12b036fd-d140-4e74-b45e-16fed1a7e5c6)
+- [Macro's in- of uitschakelen in Office bestanden](https://support.microsoft.com/office/12b036fd-d140-4e74-b45e-16fed1a7e5c6)
 
-- [Aanbevolen instellingen voor EOP- en Microsoft Defender-beveiliging voor Office 365](recommended-settings-for-eop-and-office365.md)
+- [Aanbevolen instellingen voor EOP en Microsoft Defender voor Office 365 beveiliging](recommended-settings-for-eop-and-office365.md)
 
-- [Een waardige upgrade: beveiliging van de volgende generatie in Windows 10 is bestand tegen ransomware-uitbraken in 2017](https://www.microsoft.com/security/blog/2018/01/10/a-worthy-upgrade-next-gen-security-on-windows-10-proves-resilient-against-ransomware-outbreaks-in-2017/)
+- [Een waardige upgrade: beveiliging van de volgende generatie op Windows 10 is bestand tegen ransomware-uitbraken in 2017](https://www.microsoft.com/security/blog/2018/01/10/a-worthy-upgrade-next-gen-security-on-windows-10-proves-resilient-against-ransomware-outbreaks-in-2017/)
 
 - [Geen mas, Samas: Wat is er in de modus operandi van deze ransomware?](https://www.microsoft.com/security/blog/2016/03/17/no-mas-samas-whats-in-this-ransomwares-modus-operandi/)
 

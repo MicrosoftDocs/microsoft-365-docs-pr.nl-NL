@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Meer informatie over het maken van aangepaste gevoelige informatietypen met op Exacte gegevens overeenkomende classificatie.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7c6db9df115020902b80328a341606cca2b1c735
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: b729cb8a4c30ec13e22f36f9721cb55ecc93942d
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769459"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52779865"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>Aangepaste gevoelige informatietypen maken met een classificatie op basis van Exacte gegevensmatch
 
@@ -377,7 +377,7 @@ Als u het gevoelige gegevensbestand met duidelijke tekst niet wilt onthullen, ku
 > Als u de wizard Exacte gegevensmatch en de wizard Gevoelige gegevenstype hebt gebruikt om uw schema- en patroonbestanden te maken, moet u ***het*** schema voor deze procedure downloaden.
 
 > [!NOTE]
-> Als uw organisatie [Klantsleutel voor Microsoft 365 heeft ingesteld op tenantniveau (openbare preview)](customer-key-tenant-level.md#overview-of-customer-key-for-microsoft-365-at-the-tenant-level-public-preview), wordt de versleutelingsfunctionaliteit automatisch gebruikt door exacte gegevensmatch. Dit is alleen beschikbaar voor E5-gelicentieerde tenants in de commerciële cloud.
+> Als uw organisatie Klantsleutel heeft ingesteld voor Microsoft 365 op [tenantniveau,](customer-key-overview.md)wordt de versleutelingsfunctionaliteit van Exact data match automatisch gebruikt. Dit is alleen beschikbaar voor E5-gelicentieerde tenants in de commerciële cloud.
 
 #### <a name="prerequisites"></a>Vereisten
 

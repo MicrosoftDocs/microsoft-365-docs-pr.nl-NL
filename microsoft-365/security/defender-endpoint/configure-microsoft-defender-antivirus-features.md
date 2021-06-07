@@ -11,17 +11,17 @@ localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 11/18/2020
+ms.date: 06/04/2021
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 4408d5e788449c0d094008261f5e7db9bfe38758
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 6ef9a2c34a88d7c9f5506c681088db9dc84cb0cc
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275106"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52789025"
 ---
 # <a name="configure-microsoft-defender-antivirus-features"></a>Microsoft Defender Antivirus-functies configureren
 
@@ -32,27 +32,24 @@ ms.locfileid: "52275106"
 
 - [Microsoft Defender voor Eindpunt](/microsoft-365/security/defender-endpoint/)
 
-U kunt Microsoft Defender Antivirus met een aantal hulpprogramma's configureren, waaronder:
+U kunt Microsoft Defender Antivirus met een aantal hulpprogramma's configureren, zoals:
 
-- Microsoft Intune
-- Microsoft Endpoint Configuration Manager
+- Microsoft Endpoint Manager (inclusief Microsoft Intune en Microsoft Endpoint Configuration Manager)
 - Groepsbeleid
 - PowerShell-cmdlets
 - Windows Beheerinstrumentatie (WMI)
 
 De volgende algemene categorieën functies kunnen worden geconfigureerd:
 
-- Cloudbeveiliging
-- Altijd-op realtime bescherming, inclusief bescherming op basis van gedrag, heuristische en op machine learning gebaseerde beveiliging
-- De interactie van eindgebruikers met de client op afzonderlijke eindpunten
+- Beveiliging in de cloud. Zie [Beveiliging en beveiliging in](cloud-protection-microsoft-defender-antivirus.md) de cloud Microsoft Defender Antivirus
+ 
+- Altijd in realtime bescherming, inclusief bescherming op basis van gedrag, heuristische en op machine learning gebaseerde beveiliging. Zie [Gedrags-, heuristische en realtimebeveiliging configureren.](configure-protection-features-microsoft-defender-antivirus.md)
 
-In de volgende artikelen wordt beschreven hoe u belangrijke taken kunt uitvoeren bij het configureren van Microsoft Defender Antivirus. Elk artikel bevat instructies voor het van toepassing zijnde configuratiehulpmiddel (of hulpprogramma's).
+- De interactie tussen eindgebruikers met de client op afzonderlijke eindpunten. Zie de volgende bronnen:
+   
+   - [Voorkomen dat gebruikers de gebruikersinterface van de Microsoft Defender Antivirus zien of gebruiken](prevent-end-user-interaction-microsoft-defender-antivirus.md)
 
-|Artikel  |Omschrijving  |
-|---------|---------|
-|[Microsoft Cloud-beveiliging Microsoft Defender Antivirus gebruiken](cloud-protection-microsoft-defender-antivirus.md)     | Gebruik cloudbeveiliging voor geavanceerde, snelle en krachtige antivirusdetectie.        |
-|[Gedrag, heuristiek en realtime bescherming configureren](configure-protection-features-microsoft-defender-antivirus.md)     |Schakel op gedrag gebaseerde, heuristische en realtime antivirusbeveiliging in.         |
-|[Interactie tussen eindgebruikers configureren met Microsoft Defender Antivirus](configure-end-user-interaction-microsoft-defender-antivirus.md) | Configureer hoe eindgebruikers in uw organisatie werken met Microsoft Defender Antivirus, welke meldingen ze zien en of ze instellingen kunnen overschrijven. |
+   - [Voorkomen of toestaan dat gebruikers lokaal de beleidsinstellingen Microsoft Defender Antivirus wijzigen](configure-local-policy-overrides-microsoft-defender-antivirus.md) 
 
 > [!TIP]
-> U kunt ook het onderwerp Referentieonderwerpen voor beheer- en [configuratiehulpmiddelen](configuration-management-reference-microsoft-defender-antivirus.md) bekijken voor een overzicht van elk hulpmiddel en koppelingen naar verdere hulp.
+> Bekijk [Naslagonderwerpen voor beheer- en configuratiehulpprogramma's.](configuration-management-reference-microsoft-defender-antivirus.md)

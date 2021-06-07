@@ -14,12 +14,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 232f7133f177e3d0aa93fcb2835fb86bcfd0d37c
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: c03bc2a61ba2dae1b5db34c6b48d623c58c0c613
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769321"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782871"
 ---
 # <a name="customize-attack-surface-reduction-rules"></a>Regels voor het verminderen van aanvalsoppervlakken aanpassen
 
@@ -46,8 +46,14 @@ U kunt regels voor de beperking van de surface voor aanvallen instellen voor app
 
 U kunt ervoor kiezen om uit te sluiten dat bestanden en mappen worden geëvalueerd door regels voor het verminderen van het oppervlak van de aanval. Wanneer het bestand is uitgesloten, wordt het niet geblokkeerd, zelfs niet als een surface reduction-regel voor aanvallen detecteert dat het bestand schadelijk gedrag bevat.
 
+Denk bijvoorbeeld aan de ransomware-regel:
+
+De ransomware-regel is ontworpen om zakelijke klanten te helpen de risico's van ransomware-aanvallen te beperken en tegelijkertijd de bedrijfscontinuïteit te waarborgen. Standaard wordt de ransomware-regel als waarschuwing gebruikt en beschermd tegen bestanden die nog niet voldoende reputatie en vertrouwen hebben bereikt. Om de nadruk te herstellen, wordt de ransomware-regel alleen triggers voor bestanden die onvoldoende positieve reputatie en prevalentie hebben verkregen, op basis van gebruiksgegevens van miljoenen van onze klanten. Meestal worden de blokken zelf opgelost, omdat de waarden 'reputatie en vertrouwen' van elk bestand stapsgewijs worden bijgewerkt naarmate het niet-problematische gebruik toeneemt.
+
+In gevallen waarin blokken niet tijdig zelf worden opgelost, kunnen klanten _-_ op eigen risico - gebruikmaken van het selfservicemechanisme of een op IOC (Indicator of Compromise) gebaseerde 'lijst met toegestane bestanden' om de blokkering van de bestanden zelf te deblokkeren.  
+
 > [!WARNING]
-> Hierdoor kunnen onveilige bestanden mogelijk worden uitgevoerd en uw apparaten kunnen worden geïnfecteerd. Het uitsluiten van bestanden of mappen kan de beveiliging die wordt geboden door regels voor het beperken van het oppervlak van de aanval, aanzienlijk beperken. Bestanden die door een regel zijn geblokkeerd, kunnen worden uitgevoerd en er wordt geen rapport of gebeurtenis opgenomen.
+> Het uitsluiten of deblokkeren van bestanden of mappen kan mogelijk onveilige bestanden toestaan om uw apparaten uit te voeren en te infecteren. Het uitsluiten van bestanden of mappen kan de beveiliging die wordt geboden door regels voor het beperken van het oppervlak van de aanval, aanzienlijk beperken. Bestanden die door een regel zijn geblokkeerd, kunnen worden uitgevoerd en er wordt geen rapport of gebeurtenis opgenomen.
 
 Een uitsluiting is van toepassing op alle regels die uitsluitingen toestaan. U kunt een afzonderlijk bestand, mappad of de volledig gekwalificeerde domeinnaam voor een resource opgeven. U kunt een uitsluiting echter niet beperken tot een specifieke regel.
 
@@ -57,7 +63,7 @@ Attack Surface Reduction ondersteunt omgevingsvariabelen en jokertekens. Zie Jok
 Als u problemen ondervindt met regels voor het detecteren van bestanden die volgens u niet moeten worden gedetecteerd, gebruikt u de auditmodus om [de regel te testen.](evaluate-attack-surface-reduction.md)
 
 | Beschrijving van regel | GUID |
-|:----|:----|:----|
+|:----|:----|
 | Alle toepassingen Office voor het maken van onderliggende processen blokkeren | `D4F940AB-401B-4EFC-AADC-AD5F3C50688A` |
 | De uitvoering van mogelijk obfuscated scripts blokkeren | `5BEB7EFE-FD9A-4556-801D-275E5FFC04CC` |
 | Win32 API-oproepen blokkeren vanuit Office macro | `92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B` |

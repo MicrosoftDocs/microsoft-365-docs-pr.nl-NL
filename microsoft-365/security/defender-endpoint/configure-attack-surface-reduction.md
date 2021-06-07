@@ -1,6 +1,6 @@
 ---
-title: Aanvalsoppervlakverkorting configureren
-description: Gebruik Microsoft Intune, Microsoft Endpoint Configuration Manager, PowerShell-cmdlets en Groepsbeleid om de surface-beperking van aanvallen te configureren.
+title: Mogelijkheden voor het verlagen van de Surface-aanval configureren
+description: Gebruik Microsoft Intune, Microsoft Endpoint Configuration Manager, PowerShell-cmdlets en Groepsbeleid om de oppervlakbeperking van aanvallen te configureren.
 keywords: asr, attack surface reduction, windows defender, microsoft defender, antivirus, av
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -8,45 +8,57 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: macapara
-author: mjcaparas
+ms.author: deniseb
+author: denisebmsft
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 6129fb889e2bd42f177c4e3be30f676854119f91
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.date: 06/02/2021
+ms.openlocfilehash: d2f984e21338e2f9a4ed579cde2d74339031d649
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166159"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770959"
 ---
-# <a name="configure-attack-surface-reduction"></a>Aanvalsoppervlakverkorting configureren
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
+# <a name="configure-attack-surface-reduction-capabilities"></a>Mogelijkheden voor het verlagen van de Surface-aanval configureren
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+> [!TIP]
+> Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
-U kunt de beperking van de attack surface configureren met veel hulpmiddelen, waaronder:
+Defender voor Eindpunt bevat verschillende mogelijkheden voor het verminderen van de surface van de aanval. Zie Overzicht van de mogelijkheden voor het verminderen van de surface [van de aanval voor meer informatie.](overview-attack-surface-reduction.md) Als u de beperking van het oppervlak van de aanval in uw omgeving wilt configureren, gaat u als volgt te werk: 
 
-* Microsoft Intune
-* Microsoft Endpoint Configuration Manager
-* Groepsbeleid
-* PowerShell-cmdlets
+1. [Schakel isolatie op basis van hardware in voor Microsoft Edge.](/windows/security/threat-protection/microsoft-defender-application-guard/install-md-app-guard)
 
-Artikel | Beschrijving
--|-
-[Isolatie op basis van hardware inschakelen voor Microsoft Edge](/windows/security/threat-protection/microsoft-defender-application-guard/install-md-app-guard) | Application Guard voorbereiden en installeren, inclusief hardware- en softwarevereisten
-[Toepassingsbesturingselement inschakelen](/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control)|Toepassingen van gebruikers controleren en kernelmodusprocessen beveiligen
-[Beveiliging misbruiken](./enable-exploit-protection.md)|Gebruiksbeperkingstechnieken automatisch toepassen op zowel besturingssysteemprocessen als op afzonderlijke apps
-[Netwerkbeveiliging](./enable-network-protection.md)|Voorkomen dat gebruikers apps gebruiken om toegang te krijgen tot gevaarlijke domeinen
-[Gecontroleerde maptoegang](./enable-controlled-folders.md)|Waardevolle gegevens beschermen tegen schadelijke apps
-[Surface-beperking voor aanvallen](./enable-attack-surface-reduction.md)|Acties en apps voorkomen die gewoonlijk worden gebruikt door malware die op zoek is naar misbruik
-[Netwerkfirewall](/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security-deployment-guide)|Apparaten en gegevens in een netwerk beveiligen
+2. Toepassingsbeheer inschakelen. 
 
+   1. Bekijk basisbeleid in Windows. Zie [voorbeeldbasisbeleid.](/windows/security/threat-protection/windows-defender-application-control/example-wdac-base-policies)
+   2. Zie de [ontwerphandleiding voor toepassingsbesturingselementen.](/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control-design-guide)
+   3. Raadpleeg de [ontwerphandleiding voor toepassingsbesturingselementen.](/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control-deployment-guide)
+
+3. [Gecontroleerde maptoegang inschakelen.](enable-controlled-folders.md)
+
+4. [Schakel Netwerkbeveiliging in.](enable-network-protection.md)
+
+5. [Exploitbeveiliging inschakelen.](enable-exploit-protection.md)
+
+6. [Regels voor het verlagen van het oppervlak van de aanval configureren.](enable-attack-surface-reduction.md)
+
+7. Stel uw netwerkfirewall in.
+
+   1. Krijg een overzicht van [Windows Defender Firewall geavanceerde beveiliging.](/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security)
+   2. Gebruik de [Windows Defender Firewall ontwerphandleiding om](/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security-design-guide) te bepalen hoe u uw firewallbeleid wilt ontwerpen.
+   3. Gebruik de [Windows Defender Firewall implementatiehandleiding om](/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security-deployment-guide) de firewall van uw organisatie in te stellen met geavanceerde beveiliging. 
+
+> [!TIP]
+> In de meeste gevallen kunt u bij het configureren van de mogelijkheden voor het verlagen van het oppervlak van de aanval kiezen uit verschillende methoden:
+> - Microsoft Endpoint Manager (die nu Microsoft Intune en Microsoft Endpoint Configuration Manager)
+> - Groepsbeleid
+> - PowerShell-cmdlets

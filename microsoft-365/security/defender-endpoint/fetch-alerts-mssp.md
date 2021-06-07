@@ -16,19 +16,20 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ee2a5e1815dd552753ac7f3dee30df11ac4332e2
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.custom: api
+ms.openlocfilehash: 456507533265bc085adc1008f3264e123569a6ca
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51060546"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770767"
 ---
 # <a name="fetch-alerts-from-mssp-customer-tenant"></a>Waarschuwingen ophalen van MSSP-klant tenant
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 
 >Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-mssp-support-abovefoldlink)
 
@@ -48,7 +49,7 @@ Stap 1: Een toepassing van derden maken
 
 Stap 2: Toegang krijgen en tokens vernieuwen van de tenant van uw klant
  
-Stap 3: uw toepassing toestaan in het Microsoft Defender-beveiligingscentrum
+Stap 3: uw toepassing toestaan op Microsoft Defender-beveiligingscentrum
  
 ### <a name="step-1-create-an-application-in-azure-active-directory-azure-ad"></a>Stap 1: Een toepassing maken in Azure Active Directory (Azure AD)
  
@@ -56,7 +57,7 @@ U moet een toepassing maken en deze machtigingen verlenen om waarschuwingen op t
 
 1. Meld u aan bij de [Azure AD-portal.](https://aad.portal.azure.com/)
 
-2. Selecteer **Azure Active Directory**  >  **App-registraties**.
+2. Selecteer **Azure Active Directory**  >  **app-registraties**.
  
 3. Klik **op Nieuwe registratie.**
 
@@ -85,7 +86,7 @@ U moet een toepassing maken en deze machtigingen verlenen om waarschuwingen op t
  
 
 ### <a name="step-2-get-access-and-refresh-tokens-from-your-customers-tenant"></a>Stap 2: Toegang krijgen en tokens vernieuwen van de tenant van uw klant
-In deze sectie vindt u informatie over het gebruik van een PowerShell-script om de tokens van de tenant van uw klant op te halen. In dit script wordt de toepassing uit de vorige stap gebruikt om de toegangs- en vernieuwingstokens te verkrijgen met behulp van de OAuth Authorization Code Flow.
+In deze sectie vindt u informatie over het gebruik van een PowerShell-script om de tokens van de tenant van uw klant op te halen. In dit script wordt de toepassing uit de vorige stap gebruikt om toegangs- en vernieuwingstokens te verkrijgen met behulp van de OAuth Autorisatiecode Flow.
 
 Nadat u uw referenties hebt ingediend, moet u toestemming verlenen voor de toepassing, zodat de toepassing is ingericht in de tenant van de klant.
 
@@ -159,14 +160,14 @@ Nadat u uw referenties hebt ingediend, moet u toestemming verlenen voor de toepa
 
 8. In het PowerShell-venster ontvangt u een toegangs-token en een vernieuwings-token. Sla het vernieuwingsken op om de SIEM-connector te configureren. 
  
-### <a name="step-3-allow-your-application-on-microsoft-defender-security-center"></a>Stap 3: Uw toepassing toestaan in het Microsoft Defender-beveiligingscentrum
-U moet de toepassing toestaan die u hebt gemaakt in het Microsoft Defender-beveiligingscentrum.
+### <a name="step-3-allow-your-application-on-microsoft-defender-security-center"></a>Stap 3: Uw toepassing toestaan op Microsoft Defender-beveiligingscentrum
+U moet de toepassing toestaan die u hebt gemaakt in Microsoft Defender-beveiligingscentrum.
  
 U moet de machtiging Portalsysteeminstellingen **beheren** hebben om de toepassing toe te staan. Anders moet u uw klant vragen om de toepassing voor u toe te staan.
 
 1. Ga naar `https://securitycenter.windows.com?tid=<customer_tenant_id>` (vervangen \<customer_tenant_id\> door de tenant-id van de klant.
 
-2. Klik **op Instellingen**  >  **SIEM**. 
+2. Klik **Instellingen**  >  **SIEM**. 
 
 3. Selecteer het **tabblad MSSP.**
 

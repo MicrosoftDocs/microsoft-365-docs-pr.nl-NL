@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 9079a47dcc078b582586370b322502b74ce3838c
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: c4d392c9c7777a5ab5435d70e36822e11aa39dae
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51199979"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771187"
 ---
 # <a name="file-resource-type"></a>Bestandsresourcetype
 
@@ -39,7 +40,7 @@ ms.locfileid: "51199979"
 Vertegenwoordig een bestandsentiteit in Defender voor Eindpunt.
 
 ## <a name="methods"></a>Methoden
-Methode|Retourtype |Beschrijving
+Methode|Retourtype |Omschrijving
 :---|:---|:---
 [Bestand downloaden](get-file-information.md) | [bestand](files.md) | Eén bestand downloaden 
 [Gerelateerde waarschuwingen voor lijstbestand](get-file-related-alerts.md) | [waarschuwingsverzameling](alerts.md) | Haal [](alerts.md) de waarschuwingsentiteiten op die aan het bestand zijn gekoppeld.
@@ -48,7 +49,7 @@ Methode|Retourtype |Beschrijving
 
 
 ## <a name="properties"></a>Eigenschappen
-|Eigenschap | Type    |   Beschrijving |
+|Eigenschap | Type    |   Omschrijving |
 |:---|:---|:---|
 |sha1 | Tekenreeks | Sha1 hash van de bestandsinhoud |
 |sha256 | Tekenreeks | Sha256-hash van de bestandsinhoud |

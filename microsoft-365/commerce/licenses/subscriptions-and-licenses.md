@@ -21,12 +21,12 @@ ms.custom:
 search.appverid: MET150
 description: Welke toepassingen en services u ontvangt, is afhankelijk van Microsoft 365 product dat u hebt gekocht, zoals Microsoft 365-apps voor bedrijven.
 ms.date: 07/01/2020
-ms.openlocfilehash: 4e93a84df106475417289da168ca472ed5a07475
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 817ea454bf471fdc2f175658af9030925d29189a
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582726"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52779877"
 ---
 # <a name="understand-subscriptions-and-licenses-in-microsoft-365-for-business"></a>Meer inzicht in abonnementen en licenties in Microsoft 365 voor bedrijven
 
@@ -67,8 +67,6 @@ U hoeft geen licenties toe te wijzen aan resourcepostvakken, postvakken voor ver
 - [Een gedeeld postvak maken](../../admin/email/create-a-shared-mailbox.md)
 - [Een licentie uit een gedeeld postvak verwijderen](../../admin/email/remove-license-from-shared-mailbox.md)
 - [Gedeelde postvakken in Exchange Online](/exchange/collaboration-exo/shared-mailboxes) voor alle andere Microsoft 365 abonnementen.
-- [Postvakken voor vergaderruimten maken en beheren](/exchange/recipients-in-exchange-online/manage-room-mailboxes)
-- [Postvakken van apparatuur beheren](/exchange/recipients-in-exchange-online/manage-equipment-mailboxes)
 
 ## <a name="who-can-assign-licenses"></a>Wie kunt u licenties toewijzen?
 

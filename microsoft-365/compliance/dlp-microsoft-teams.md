@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft Teams chats en kanalen ondersteunt DLP-beleid (Data Loss Prevention).
-ms.openlocfilehash: e55bfa34b2495465f573bcede3ebda2308dbbbbc
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 6467ae7fdfc9c8636bd306efde5cb89c100e5e6c
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583386"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782559"
 ---
 # <a name="data-loss-prevention-and-microsoft-teams"></a>Preventie en preventie van gegevensverlies Microsoft Teams
 
@@ -59,15 +59,12 @@ DLP-beveiliging wordt anders toegepast op Teams entiteiten.
 |---------|---------|---------|
 |afzonderlijke gebruikersaccounts     |1:1/n chats         |ja         |
 |     |algemene chats         |nee         |
-|     |gedeelde kanalen         |nee         |
 |     |privékanalen         |ja         |
 |beveiligingsgroepen/distributielijsten  | 1:1/n chats         |ja         |
 |     |algemene chats         |nee         |
-|     |gedeelde kanalen         |nee      |
 |     |privékanalen         |ja        |
 |Microsoft 365 groep    |1:1/n chats          |nee         |
 |     |algemene chats          |ja        |
-|     |gedeelde kanalen|ja |
 |     |privékanalen|nee| 
 
 
@@ -229,7 +226,7 @@ DLP-beleid in actie wanneer gast probeert een document te openen in Teams met ex
 > [!div class="mx-imgBorder"]
 > ![Externe toegang geblokkeerd](../media/dlp-teams-external-sharing/external-access-blocked.png)
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-articles"></a>Aanverwante artikelen
 
 - [Een DLP-beleid maken, testen en afstemmen](create-test-tune-dlp-policy.md)
 - [Send email notifications and show policy tips for DLP policies](use-notifications-and-policy-tips.md) (E-mailmeldingen verzenden en beleidstips tonen voor DLP-beleid)

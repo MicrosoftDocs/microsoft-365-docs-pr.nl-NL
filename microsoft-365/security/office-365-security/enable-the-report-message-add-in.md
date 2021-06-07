@@ -17,12 +17,12 @@ ms.collection:
 description: Meer informatie over het inschakelen van het rapportbericht of de phishing-invoegvoegingen voor Outlook en Outlook op internet, voor individuele gebruikers of voor uw hele organisatie.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: dc54c5b74697ac41a1d4ff0818467dba662b31f5
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 25c4f7d67fd4fa876544a17df0f4bc1abfd7b3e7
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52295817"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782931"
 ---
 # <a name="enable-the-report-message-or-the-report-phishing-add-ins"></a>Het rapportbericht of de phishing-invoegvoegingen rapporteren inschakelen
 
@@ -48,13 +48,13 @@ De invoegvoegvoegoptie Phishing melden biedt de optie om alleen phishingberichte
 
 Als u een individuele gebruiker bent, kunt u beide invoegvoegingen voor uzelf inschakelen.
 
-f u een globale beheerder of een Exchange Online-beheerder bent en Exchange is geconfigureerd voor het gebruik van OAuth-verificatie, kunt u de invoegvoeging Rapportbericht en de invoeging Phishingrapport voor uw organisatie inschakelen. Beide invoegvoegingen zijn nu beschikbaar via [Gecentraliseerde implementatie.](../../admin/manage/centralized-deployment-of-add-ins.md)
+Als u een globale beheerder of een Exchange Online-beheerder bent en Exchange is geconfigureerd voor het gebruik van OAuth-verificatie, kunt u de invoeging Rapportbericht en de invoeging Phishingrapport voor uw organisatie inschakelen. Beide invoegvoegingen zijn nu beschikbaar via [Gecentraliseerde implementatie.](../../admin/manage/centralized-deployment-of-add-ins.md)
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
 - Zowel de invoeging Rapportbericht als de invoeging Phishing-rapport werkt met de meeste Microsoft 365 en de volgende producten:
 
-  - Outlook op het web
+  - Webversie van Outlook
   - Outlook 2013 SP1 of hoger
   - Outlook 2016 voor Mac
   - Outlook opgenomen in Microsoft 365 apps voor Enterprise

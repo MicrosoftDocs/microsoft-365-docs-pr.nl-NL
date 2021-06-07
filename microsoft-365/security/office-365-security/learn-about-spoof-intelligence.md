@@ -1,5 +1,5 @@
 ---
-title: Inzicht in spoofinformatie
+title: Inzicht in adresvervalsingsanalyse
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -20,12 +20,12 @@ ms.custom:
 description: Beheerders kunnen meer informatie krijgen over het inzicht in spoof intelligence in Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 37c5bcb6f2c15c3814fafa198f2905e23b12ba01
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 45ecbe68072441b40477d1b27953b957aeffa9e3
+ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538745"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52793170"
 ---
 # <a name="spoof-intelligence-insight-in-eop"></a>Inzicht in spoof intelligence in EOP
 
@@ -63,7 +63,7 @@ In de rest van dit artikel wordt uitgelegd hoe u het inzicht in spoof intelligen
 
 > [!NOTE]
 >
-> - Alleen vervalste afzenders die door spoof intelligence zijn gedetecteerd, worden weergegeven in het inzicht van de spoof intelligence. Wanneer u de uitspraak toestaan of blokkeren overschrijven in het inzicht, wordt de vervalste afzender een handmatige invoer toestaan of blokkeren die alleen wordt weergegeven op het tabblad **Spoof** in de lijst Tenant toestaan/blokkeren. U kunt ook handmatig vermeldingen voor vervalste afzenders maken of blokkeren voordat ze worden gedetecteerd door spoofinformatie. Zie De lijst Tenant [toestaan/blokkeren beheren in EOP](tenant-allow-block-list.md)voor meer informatie.
+> - Alleen vervalste afzenders die door spoof intelligence zijn gedetecteerd, worden weergegeven in het inzicht van de spoof intelligence. Wanneer u de uitspraak toestaan of blokkeren overschrijven in het inzicht, wordt de vervalste afzender een handmatige invoer toestaan of blokkeren die alleen wordt weergegeven op het tabblad **Spoof** in de lijst Tenant toestaan/blokkeren. U kunt ook handmatig vermeldingen voor vervalste afzenders maken of blokkeren voordat ze worden gedetecteerd door spoofinformatie. Zie voor meer informatie [Lijst Tenant toestaan/blokkeren beheren in EOP](tenant-allow-block-list.md).
 >
 > - Het inzicht in spoof intelligence en het tabblad **Spoof** in de lijst Tenant Allow/Block vervangen de functionaliteit van het spoof intelligence-beleid dat beschikbaar was op de pagina antispambeleid in het Beveiligings- & Compliancecentrum.
 >
@@ -88,7 +88,7 @@ In de rest van dit artikel wordt uitgelegd hoe u het inzicht in spoof intelligen
 
 - U schakelt spoofinformatie in en uit in anti-phishingbeleid in EOP en Microsoft Defender voor Office 365. Spoofinformatie is standaard ingeschakeld. Zie [Anti-phishingbeleid configureren in EOP](configure-anti-phishing-policies-eop.md) of [Anti-phishingbeleid configureren in Microsoft Defender](configure-atp-anti-phishing-policies.md)voor Office 365.
 
-- Zie Standaardinstellingen voor [anti-phishingbeleid](recommended-settings-for-eop-and-office365-atp.md#eop-default-anti-phishing-policy-settings)van EOP voor onze aanbevolen instellingen voor spoofinformatie.
+- Zie [EOP anti-phishingbeleidsinstellingen](recommended-settings-for-eop-and-office365-atp.md#eop-anti-phishing-policy-settings)voor onze aanbevolen instellingen voor spoofinformatie.
 
 ## <a name="open-the-spoof-intelligence-insight-in-the-security--compliance-center"></a>Het inzicht in spoof intelligence openen in het beveiligings- & compliancecentrum
 

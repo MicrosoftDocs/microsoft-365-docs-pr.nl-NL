@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 4957c92cb95464213cce4a81ded07de166468c73
-ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
+ms.openlocfilehash: a6e11aea14a7b8d99c0098b68951790328ec593e
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52689011"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782907"
 ---
 # <a name="investigate-alerts-in-microsoft-365-defender"></a>Waarschuwingen onderzoeken in Microsoft 365 Defender
 
@@ -92,7 +92,7 @@ Waarschuwingsbron | Voorbereidend teken
 Microsoft Defender voor Office 365 | `fa{GUID}` <br> Voorbeeld: `fa123a456b-c789-1d2e-12f1g33h445h6i` 
 Microsoft Defender voor Eindpunt | `da` of `ed` voor aangepaste detectiewaarschuwingen <br> 
 Microsoft Defender for Identity | `aa{GUID}` <br> Voorbeeld: `aa123a456b-c789-1d2e-12f1g33h445h6i` 
-Microsoft Cloud App Security |`ca{GUID}` <br> Voorbeeld: `aa123a456b-c789-1d2e-12f1g33h445h6i` 
+Microsoft Cloud App Security |`ca{GUID}` <br> Voorbeeld: `ca123a456b-c789-1d2e-12f1g33h445h6i` 
 
 
 

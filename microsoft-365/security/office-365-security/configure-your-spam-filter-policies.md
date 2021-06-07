@@ -17,12 +17,12 @@ ms.collection:
 description: Beheerders kunnen het antispambeleid in Exchange Online Protection (EOP) bekijken, maken, wijzigen en verwijderen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b830c165d91dfdc8c5c6c47abecd73ba7a9621c8
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: a272e78e05f86a8f9f918c873e9fb1a85f863bfc
+ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52788461"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52793098"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Antispambeleid configureren in EOP
 
@@ -234,7 +234,7 @@ Wanneer u antispambeleid maakt in het beveiligingscentrum worden tegelijkertijd 
 
       Klik op de pagina **Lijst met toegestaan en geblokkeerd** op **Volgende** wanneer u wordt gevraagd om door te gaan.
 
-8. Controleer uw instellingen op de pagina **Controleren** die wordt weergegeven. U kunt in elke sectie **Bewerken** selecteren om de instellingen in de sectie te wijzigen.
+8. Controleer uw instellingen op de pagina **Controleren** die wordt weergegeven. U kunt in elke sectie **Bewerken** selecteren om de instellingen in de sectie te wijzigen. U kunt ook op **Terug** klikken of de specifieke pagina in de wizard selecteren.
 
    Klik op **Maken** wanneer u gereed bent.
 

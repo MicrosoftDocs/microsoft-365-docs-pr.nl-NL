@@ -21,12 +21,12 @@ description: 'Het Microsoft 365-beheercentrum: meer informatie over de functies 
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: 654f8de8d931f26efbcba5b60d730a9d9e477e65
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: d4bd7d02b8c14f8b57b6f2e3eef99c2233d820fe
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769082"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52779889"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Nieuwe functies in het Microsoft 365 beheercentrum
 
@@ -49,6 +49,18 @@ En als u wilt weten wat er nieuw is met andere Microsoft-cloudservices:
 - [Nieuwe functies in het SharePoint beheercentrum](/sharepoint/what-s-new-in-admin-center)
 - [Office updates](/OfficeUpdates/)
 - [De status van Windows release controleren](/windows/deployment/update/check-release-health)
+
+## <a name="june-2021"></a>Juni 2021
+
+### <a name="microsoft-365-admin-center-search"></a>Microsoft 365 zoeken in het beheercentrum
+
+We hebben een aantal nieuwe categorieën toegevoegd aan de zoekfunctionaliteit.
+
+- U kunt nu zoeken naar Microsoft 365 beheerdersrollen in globale zoekopdrachten en rollentoewijzingen snel vanaf elke pagina bekijken en beheren. Zoek bijvoorbeeld naar **Intune-beheerder.**
+
+- U kunt nu vereenvoudigde installatie-ervaringen vinden via globale zoekopdrachten. Dit kan u en uw team helpen om snel aan de slag te gaan met het gebruik van nieuwe functies. Zoek bijvoorbeeld naar ingesteld **wachtwoord dat nooit verloopt.**
+
+Zie Zoeken in het Microsoft 365 beheercentrum voor meer informatie over zoeken [in het beheercentrum.](manage/search-in-the-mac.md)
 
 ## <a name="may-2021"></a>Mei 2021
 

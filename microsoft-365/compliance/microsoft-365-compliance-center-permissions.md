@@ -11,12 +11,12 @@ ms.topic: article
 localization_priority: Normal
 description: Meer informatie over het beheren van machtigingen in Microsoft 365 compliancecentrum.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 72575fce5f7d43354715c77016a8f444e539887f
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 7038863c0cbcaf99cf07072445a3b001e7b8ca0b
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52772446"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782847"
 ---
 # <a name="permissions-in-the-microsoft-365-compliance-center"></a>Machtigingen in het Microsoft 365 compliancecentrum
 
@@ -26,7 +26,7 @@ Als u het tabblad Machtigingen wilt weergeven in het Microsoft 365 compliancecen
 
 ![Pagina Machtigingen in Microsoft 365 compliancecentrum](../media/m365-compliance-center-permissions.png)
 
-Machtigingen in het Microsoft 365 compliancecentrum zijn gebaseerd op het RBAC-machtigingsmodel (Role Based Access Control). RBAC is hetzelfde machtigingsmodel dat wordt gebruikt door de meeste Microsoft 365-services, dus als u bekend bent met de machtigingsstructuur in deze services, is het verlenen van machtigingen in het Microsoft 365 compliancecentrum bekend. Het is belangrijk om te onthouden dat de machtigingen die in het Microsoft 365 compliancecentrum worden beheerd, niet betrekking hebben op het beheer van alle machtigingen die nodig zijn voor elke afzonderlijke service. U moet nog steeds bepaalde servicespecifieke machtigingen beheren in het beheercentrum voor de specifieke service. Als u bijvoorbeeld machtigingen moet toewijzen voor archiverings-, audit- en bewaarbeleid, moet u deze machtigingen beheren in het Exchange beheercentrum.
+Machtigingen in het Microsoft 365 compliancecentrum zijn gebaseerd op het RBAC-machtigingsmodel (Role Based Access Control). RBAC is hetzelfde machtigingsmodel dat wordt gebruikt door de meeste Microsoft 365-services, dus als u bekend bent met de machtigingsstructuur in deze services, is het verlenen van machtigingen in het Microsoft 365 compliancecentrum bekend. Het is belangrijk om te onthouden dat de machtigingen die in het Microsoft 365 compliancecentrum worden beheerd, niet betrekking hebben op het beheer van alle machtigingen die nodig zijn voor elke afzonderlijke service. U moet nog steeds bepaalde servicespecifieke machtigingen beheren in het beheercentrum voor de specifieke service. Als u bijvoorbeeld machtigingen moet toewijzen voor archiverings-, audit- en MRM-bewaarbeleid, moet u deze machtigingen beheren in het Exchange beheercentrum.
 
 ## <a name="relationship-of-members-roles-and-role-groups"></a>Relatie van leden, rollen en rollengroepen
 

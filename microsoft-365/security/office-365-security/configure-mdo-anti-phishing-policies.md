@@ -15,12 +15,12 @@ ms.collection:
 description: Beheerders kunnen leren hoe ze geavanceerde anti-phishingbeleidsregels kunnen maken, wijzigen en verwijderen die beschikbaar zijn in organisaties met Microsoft Defender voor Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 3660b9574f4faf4ee9c0602ac23b36f8634650dc
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 8cbe517ef2a702e3e4fd7f6af4ee1d7ed1dd13d2
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537905"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52789133"
 ---
 # <a name="configure-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Anti-phishingbeleid configureren in Microsoft Defender voor Office 365
 
@@ -34,34 +34,34 @@ Anti-phishingbeleid in [Microsoft Defender voor Office 365](defender-for-office-
 
 Beheerders kunnen het standaard anti-phishingbeleid weergeven, bewerken en configureren (maar niet verwijderen). Voor meer granulariteit kunt u ook aangepaste anti-phishingbeleidsregels maken die van toepassing zijn op specifieke gebruikers, groepen of domeinen in uw organisatie. Aangepast beleid heeft altijd voorrang op het standaardbeleid, maar u kunt de prioriteit (uitvoervolgorde) wijzigen van uw aangepaste beleid.
 
-U kunt anti-phishingbeleid configureren in het Beveiligings- & compliancecentrum of in Exchange Online PowerShell.
+U kunt anti-phishingbeleid configureren in Defender voor Office 365 in het Microsoft 365 beveiligingscentrum of in Exchange Online PowerShell.
 
-Zie [Anti-phishingbeleid](configure-anti-phishing-policies-eop.md)configureren in EOP voor informatie over het configureren van de meer beperkte anti-phishingbeleidsregels die beschikbaar zijn in Exchange Online Protection-organisaties (dat wil zeggen organisaties zonder Microsoft Defender voor Office 365).
+Zie [Anti-phishingbeleid](configure-anti-phishing-policies-eop.md)configureren in EOP voor informatie over het configureren van de meer beperkte anti-phishingbeleidsregels die beschikbaar zijn in Exchange Online Protection (dat wil zeggen organisaties zonder Defender voor Office 365).
 
 De basiselementen van een anti-phishingbeleid zijn:
 
 - **Het anti-phish-beleid:** geeft de phishingbeveiligingen aan die u wilt in- of uitschakelen en de acties om opties toe te passen.
 - **De anti-phish-regel:** hiermee geeft u de prioriteits- en geadresseerdefilters op (op wie het beleid van toepassing is) voor een anti-phish-beleid.
 
-Het verschil tussen deze twee elementen is niet duidelijk wanneer u anti-phishingbeleid beheert in het beveiligings- & compliancecentrum:
+Het verschil tussen deze twee elementen is niet duidelijk wanneer u anti-phishingbeleid in het beveiligingscentrum beheert:
 
 - Wanneer u een beleid maakt, maakt u tegelijkertijd een anti-phish-regel en het bijbehorende anti-phish-beleid met dezelfde naam voor beide.
 - Wanneer u een beleid wijzigt, wijzigen instellingen met betrekking tot de naam, prioriteit, ingeschakeld of uitgeschakeld en geadresseerdefilters de anti-phish-regel. Alle andere instellingen wijzigen het bijbehorende anti-phish-beleid.
 - Wanneer u een beleid verwijdert, worden de anti-phish-regel en het bijbehorende anti-phish-beleid verwijderd.
 
-In Exchange Online PowerShell beheert u het beleid en de regel afzonderlijk. Zie de sectie Use Exchange Online PowerShell to configure [anti-phishing policies in Microsoft Defender for Office 365 section verderop](#use-exchange-online-powershell-to-configure-anti-phishing-policies-in-microsoft-defender-for-office-365) in dit artikel voor meer informatie.
+In Exchange Online PowerShell beheert u het beleid en de regel afzonderlijk. Zie de sectie Gebruik Exchange Online PowerShell voor het configureren van [anti-phishingbeleid](#use-exchange-online-powershell-to-configure-anti-phishing-policies) verderop in dit artikel voor meer informatie.
 
-Elke Microsoft Defender voor Office 365 heeft een ingebouwd anti-phishingbeleid met de naam Office365 AntiPhish Default dat de volgende eigenschappen heeft:
+Elke Defender voor Office 365 organisatie heeft een ingebouwd anti-phishingbeleid met de naam Office365 AntiPhish Default met de volgende eigenschappen:
 
 - Het beleid wordt toegepast op alle geadresseerden in de organisatie, ook al is er geen anti-phish-regel (ontvangersfilters) gekoppeld aan het beleid.
 - Het beleid heeft de prioriteit **Laagste** die u niet kunt wijzigen (het beleid wordt altijd als laatste toegepast). Alle beleid dat u maakt heeft altijd een hogere prioriteit.
 - Het beleid is het standaardbeleid (de eigenschap **IsDefault** heeft de waarde `True`) en u kunt het standaardbeleid niet verwijderen.
 
-Als u de effectiviteit van anti-phishingbeveiliging in Microsoft Defender voor Office 365 wilt vergroten, kunt u aangepaste anti-phishingbeleidsregels maken met striktere instellingen die worden toegepast op specifieke gebruikers of groepen gebruikers.
+Als u de effectiviteit van anti-phishingbeveiliging in Defender voor Office 365 wilt vergroten, kunt u aangepaste anti-phishingbeleidsregels maken met striktere instellingen die worden toegepast op specifieke gebruikers of groepen gebruikers.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de **pagina Anti-phishing wilt** gaan, gebruikt u <https://protection.office.com/antiphishing> .
+- U opent het beveiligingscentrum in <https://security.microsoft.com/>. Als u rechtstreeks naar de **pagina Anti-phishing wilt** gaan, gebruikt u <https://security.microsoft.com/antiphishing> .
 
 - Zie [Verbinding maken met Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) als je verbinding wilt maken met Exchange Online PowerShell.
 
@@ -74,105 +74,54 @@ Als u de effectiviteit van anti-phishingbeveiliging in Microsoft Defender voor O
   **Opmerkingen**:
 
   - Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen _en_ machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
-  - De **rollengroep Alleen-weergeven voor** organisatiebeheer in [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) geeft ook alleen-lezen toegang tot de <sup>\*</sup> functie.
-  - <sup>\*</sup> In het & compliancecentrum kunnen gebruikers met alleen-lezen toegang de instellingen van aangepast anti-phishingbeleid bekijken. Alleen-lezen gebruikers kunnen de instellingen niet zien in het standaard anti-phishingbeleid.
+  - De functiegroep **Alleen-lezen organisatiebeheer** in [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) geeft ook alleen-lezentoegang tot deze functie.
 
-- Voor onze aanbevolen instellingen voor anti-phishingbeleid in Microsoft Defender voor Office 365, zie [Anti-phishingbeleid in Defender voor Office 365 instellingen.](recommended-settings-for-eop-and-office365.md#anti-phishing-policy-settings-in-microsoft-defender-for-office-365)
+- Voor onze aanbevolen instellingen voor anti-phishingbeleid in Defender voor Office 365, zie [Anti-phishingbeleid in Defender voor Office 365 instellingen.](recommended-settings-for-eop-and-office365.md#anti-phishing-policy-settings-in-microsoft-defender-for-office-365)
 
 - Maximaal 30 minuten toestaan dat een nieuw of bijgewerkt beleid wordt toegepast.
 
 - Zie Bestelling en prioriteit van e-mailbeveiliging voor informatie over de toepassing van anti-phishingbeleid in de [filterpijplijn.](how-policies-and-protections-are-combined.md)
 
-## <a name="use-the-security--compliance-center-to-create-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Gebruik het Beveiligings- & compliancecentrum om anti-phishingbeleid te maken in Microsoft Defender voor Office 365
+## <a name="use-the-security-center-to-create-anti-phishing-policies"></a>Gebruik het beveiligingscentrum om anti-phishingbeleid te maken
 
-Als u een aangepast anti-phishingbeleid maakt in het beveiligings- & compliancecentrum, worden de anti-phish-regel en het bijbehorende anti-phish-beleid tegelijkertijd gemaakt met dezelfde naam voor beide.
+Als u een aangepast anti-phishingbeleid maakt in het beveiligingscentrum, worden de anti-phish-regel en het bijbehorende anti-phish-beleid tegelijkertijd gemaakt met dezelfde naam voor beide.
 
-Wanneer u een anti-phishingbeleid maakt, kunt u alleen de naam, beschrijving en het filter voor geadresseerden opgeven waarop het beleid van toepassing is. Nadat u het beleid hebt ingesteld, kunt u het beleid wijzigen om de standaardinstellingen voor anti-phishing te wijzigen of te controleren.
+1. Ga in het beveiligingscentrum naar **E-mail & samenwerkingsbeleid** & sectie Beleidsregels voor bedreigingsbeleid \>  \>  \>  \> **Anti-phishing**.
 
-1. Ga in het & Compliancecentrum naar **Threat management** \> **Policy** \> **Anti-phishing**.
+2. Klik op **de pagina Anti-phishing** op ![ Pictogram Maken ](../../media/m365-cc-sc-create-icon.png) **maken.**
 
-2. Klik op **de pagina Anti-phishing** op **Maken.**
-
-3. De **wizard Een nieuw anti-phishingbeleid maken wordt** geopend. Configureer **op de pagina** Naam uw beleid de volgende instellingen:
-
+3. De wizard van het beleid wordt geopend. Configureer **deze instellingen op de** pagina Beleidsnaam:
    - **Naam**: een unieke beschrijvende naam voor het beleid.
-
    - **Beschrijving**: voer een optionele beschrijving in voor het beleid.
 
-   Wanneer u klaar bent, klikt u op **Volgende.**
+   Wanneer u gereed bent, klikt u op **Volgende**.
 
-4. Op de **pagina Toegepast op** die wordt weergegeven, identificeert u de interne geadresseerden op wie het beleid van toepassing is.
+4. Zoek op de pagina **Gebruikers, groepen en domeinen** die wordt weergegeven, de interne geadresseerden op wie het beleid van toepassing is (voorwaarden voor geadresseerden):
+   - **Gebruikers**: de opgegeven postvakken, e-mailgebruikers or e-mailcontactpersonen binnen uw organisatie.
+   - **Groepen**: de opgegeven distributiegroepen, beveiligingsgroepen met e-mail of Microsoft 365-groepen binnen uw organisatie.
+   - **Domeinen**: alle geadresseerden in de opgegeven [geaccepteerde domeinen](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains) binnen uw organisatie.
 
-   U kunt een voorwaarde of uitzondering maar één keer gebruiken, maar u kunt meerdere waarden opgeven voor de voorwaarde of uitzondering. Meerdere waarden van dezelfde voorwaarde of uitzondering: gebruik OF-logica (bijvoorbeeld: _\<recipient1\>_ of _\<recipient2\>_). Verschillende voorwaarden of uitzonderingen: gebruik EN-logica (bijvoorbeeld: _\<recipient1\>_ en _\<member of group 1\>_).
+   Klik in het juiste vak, begin een waarde te typen en selecteer de gewenste waarde in de resultaten. Herhaal deze stap zo vaak als nodig is. Als u een bestaande waarde wilt verwijderen, klikt u op verwijderen ![Pictogram Verwijderen](../../media/m365-cc-sc-remove-selection-icon.png) naast de waarde.
 
-   Klik **op Een voorwaarde toevoegen.** Selecteer in de vervolgkeuzekeuze die wordt weergegeven een voorwaarde onder **Toegepast als:**
+   Voor gebruikers of groepen kunt u de meeste id's (naam, weergavenaam, alias, e-mailadres, accountnaam, enzovoort) gebruiken, maar de bijbehorende weergavenaam wordt weergegeven in de resultaten. Voer voor gebruikers een enkel sterretje (\*) in om alle beschikbare waarden weer te geven.
 
-   - **De geadresseerde is:** Hiermee geeft u een of meer postvakken, e-mailgebruikers of e-mailcontactcontacten in uw organisatie op.
-   - **De geadresseerde is lid van**: Hiermee geeft u een of meer groepen in uw organisatie op.
-   - **Het domein van de geadresseerde is:** hiermee geeft u geadresseerden op in een of meer van de geconfigureerde geaccepteerde domeinen in de organisatie.
+   Meerdere waarden in dezelfde voorwaarde: gebruik OF-logica (bijvoorbeeld: _\<recipient1\>_ of _\<recipient2\>_). Verschillende voorwaarden: gebruik EN-logica (bijvoorbeeld: _\<recipient1\>_ en _\<member of group 1\>_).
 
-   Nadat u de voorwaarde hebt geselecteerd, wordt er een bijbehorende vervolgkeuze weergegeven met een **Van deze vakjes.**
+   - **Deze gebruikers, groepen en domeinen uitsluiten**: als u uitzonderingen wilt toevoegen voor de interne geadresseerden op wie het beleid van toepassing is (uitzonderingen op ontvangers), selecteert u deze optie en configureert u de uitzonderingen. De instellingen en het gedrag zijn exact hetzelfde als bij de voorwaarden.
 
-   - Klik in het vak en blader door de lijst met waarden die u wilt selecteren.
-   - Klik in het vak en begin te typen om de lijst te filteren en selecteer een waarde.
-   - Als u extra waarden wilt toevoegen, klikt u in een leeg gebied in het vak.
-   - Als u afzonderlijke items wilt verwijderen, klikt **u op Pictogram** Verwijderen verwijderen op de ![ ](../../media/scc-remove-icon.png) waarde.
-   - Als u de hele voorwaarde wilt verwijderen, klikt **u op Pictogram** Verwijderen in de ![ ](../../media/scc-remove-icon.png) voorwaarde.
+   Wanneer u gereed bent, klikt u op **Volgende**.
 
-   Als u een extra voorwaarde wilt toevoegen, klikt **u op Een voorwaarde toevoegen** en selecteert u een resterende waarde onder Toegepast **als**.
+5. Configureer de volgende **instellingen & op de** pagina Phishing-beveiliging die wordt weergegeven:
 
-   Als u uitzonderingen wilt toevoegen, klikt **u op Een voorwaarde toevoegen** en selecteert u een uitzondering onder Behalve **als**. De instellingen en het gedrag zijn exact hetzelfde als bij de voorwaarden.
+   - **Drempelwaarde voor** phishing-e-mail: gebruik de schuifregelaar om een van de volgende waarden te selecteren:
+     - **1 - Standaard** (Dit is de standaardwaarde.)
+     - **2 - Agressief**
+     - **3 - Agressiever**
+     - **4 - Meest agressief**
 
-   Wanneer u klaar bent, klikt u op **Volgende.**
+     Zie Advanced [phishing thresholds in anti-phishing policies in Microsoft Defender for Office 365](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-anti-phishing-policies-in-microsoft-defender-for-office-365).
 
-5. Controleer uw **instellingen op de** pagina Uw instellingen controleren die wordt weergegeven. U kunt op **Bewerken op elke** instelling klikken om deze te wijzigen.
-
-   Wanneer u klaar bent, klikt u op **Dit beleid maken.**
-
-6. Klik **op OK** in het bevestigingsdialoogvenster dat wordt weergegeven.
-
-Nadat u het anti-phishingbeleid met deze algemene instellingen hebt gemaakt, gebruikt u de instructies in de volgende sectie om de beveiligingsinstellingen in het beleid te configureren.
-
-## <a name="use-the-security--compliance-center-to-modify-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Gebruik het Beveiligings- & compliancecentrum om anti-phishingbeleid in Microsoft Defender te wijzigen voor Office 365
-
-Gebruik de volgende procedures om anti-phishingbeleid te wijzigen: een nieuw beleid dat u hebt gemaakt of bestaande beleidsregels die u al hebt aangepast.
-
-1. Als u er nog niet bent, opent u het Beveiligingscentrum & compliancecentrum en gaat u naar **Threat management** \> **Policy** \> **Anti-phishing**.
-
-2. Selecteer het aangepaste anti-phishingbeleid dat u wilt wijzigen. Als deze optie al is geselecteerd, deselecteert u de selectie en selecteert u deze opnieuw.
-
-3. Het **fly-out \<name\> Beleid** bewerken wordt weergegeven. Als u in **een** sectie op Bewerken klikt, hebt u toegang tot de instellingen in die sectie.
-
-   - De volgende stappen worden weergegeven in de volgorde waarin de secties worden weergegeven, maar ze zijn niet opeenvolgend (u kunt de secties in elke volgorde selecteren en wijzigen).
-
-   - Nadat u **in** een sectie op Bewerken hebt geklikt, worden de beschikbare instellingen weergegeven in  een wizard-indeling, maar  u kunt in elke volgorde binnen de pagina's springen en u kunt op Opslaan op een pagina klikken (of  ![ ](../../media/scc-remove-icon.png) **\<name\>** pictogram Annuleren of Sluiten sluiten om terug te keren naar de pagina Uw beleid bewerken (u hoeft niet naar de laatste pagina van de wizard te gaan om op te slaan of te verlaten).
-
-4. **Beleidsinstelling:** Klik op **Bewerken** om dezelfde instellingen te wijzigen die beschikbaar waren toen u het [beleid](#use-the-security--compliance-center-to-create-anti-phishing-policies-in-microsoft-defender-for-office-365) in de vorige sectie maakte:
-
-   - **Naam**
-   - **Beschrijving**
-   - **Toegepast op**
-   - **Uw instellingen controleren**
-
-   Wanneer u klaar bent, klikt u op **Opslaan** op een pagina.
-
-5. **Imitatie:** Klik op **Bewerken om** de beveiligde afzenders en beveiligde afzenderdomeinen in het beleid te wijzigen. Deze instellingen zijn een voorwaarde voor het beleid dat specifieke afzenders identificeert die moeten zoeken (afzonderlijk of per domein) in het Van-adres van binnenkomende berichten. Zie Instellingen voor imitatie [in anti-phishingbeleid in Microsoft Defender](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)voor Office 365.
-
-   - **Gebruikers toevoegen om te beveiligen:** De standaardwaarde is  ![ ](../../media/scc-toggle-off.png) Uit-uit. Als u de knop wilt in- of uitschakelen, schuift u de schakelknop naar **Aan** en klikt u vervolgens op de knop Gebruiker ![ toevoegen die wordt ](../../media/scc-toggle-on.png) weergegeven. 
-
-     Configureer **in het** flyout Gebruiker toevoegen dat wordt weergegeven de volgende waarden:
-
-     - **E-mailadres**:
-
-       - Klik in het vak en blader door de lijst met gebruikers die u wilt selecteren.
-       - Klik in het vak en begin te typen om de lijst te filteren en selecteer een gebruiker.
-       - Als u een item wilt verwijderen, klikt **u op Pictogram** Verwijderen van de ![ ](../../media/scc-remove-icon.png) gebruiker.
-
-     - **Naam:** Deze waarde wordt ingevuld op basis van het e-mailadres dat u hebt geselecteerd, maar u kunt deze wijzigen.
-
-     Wanneer u klaar bent, klikt u op **Opslaan** op een pagina.
-
-     Als u een bestaand item wilt bewerken, selecteert u de beveiligde gebruiker in de lijst.
+   - **Imitatie:** deze instellingen zijn een voorwaarde voor het beleid dat specifieke afzenders identificeert die moeten zoeken (afzonderlijk of per domein) in het Van-adres van binnenkomende berichten. Zie Instellingen voor imitatie [in anti-phishingbeleid in Microsoft Defender](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)voor Office 365.
 
      > [!NOTE]
      >
@@ -180,214 +129,204 @@ Gebruik de volgende procedures om anti-phishingbeleid te wijzigen: een nieuw bel
      >
      > - Gebruikersbeveiliging werkt niet als de afzender en geadresseerde eerder via e-mail hebben gecommuniceerd. Als de afzender en geadresseerde nooit via e-mail hebben gecommuniceerd, wordt het bericht geïdentificeerd als een imitatiepoging.
 
-   - **Domeinen toevoegen om te beveiligen:** Een of beide van de volgende instellingen configureren:
+     - **Gebruikers inschakelen om te beveiligen:** de standaardwaarde is uitgeschakeld (niet geselecteerd). Schakel het selectievakje in en klik vervolgens op de koppeling **Afzender(nn) beheren (nn)** die wordt weergegeven.
 
-     - **Automatisch de domeinen opnemen die ik bezit:** De standaardwaarde is **Uit-** ![ of ](../../media/scc-toggle-off.png) uitschakelen. Als u deze wilt in-  of uitschakelen, schuift u de schakelknop naar ![ In-/uitschakelen. ](../../media/scc-toggle-on.png)
+       Ga als volgt te werk in het fly-out Afzenders voor **imitatiebeveiliging** beheren dat wordt weergegeven:
 
-       Als u de domeinen wilt weergeven die u bezit, selecteert u **Domeinen weergeven van wie ik de eigenaar ben.**
+       - **Interne afzenders:** Klik ![ op Intern pictogram Toevoegen Selecteer ](../../media/m365-cc-sc-add-internal-icon.png) **intern**. Klik in het fly-out Interne **afzenders** toevoegen dat wordt weergegeven in het vak en selecteer een interne gebruiker in de lijst. U kunt de lijst filteren door de gebruiker te typen en vervolgens de gebruiker te selecteren in de resultaten. U kunt de meeste id's (naam, weergavenaam, alias, e-mailadres, accountnaam, enzovoort) gebruiken, maar de bijbehorende weergavenaam wordt weergegeven in de resultaten.
 
-     - **Aangepaste domeinen opnemen:** De standaardwaarde is  ![ ](../../media/scc-toggle-off.png) Uitgeschakeld. Als u de knop wilt  in- of uitschakelen, schuift u de schakelknop naar Aan en typt u in het vak Domeinen toevoegen de domeinnaam ![ ](../../media/scc-toggle-on.png) (bijvoorbeeld contoso.com),  drukt u op Enter en herhaalt u dit zo nodig.
+         Herhaal deze stap zo vaak als nodig is. Als u een bestaande waarde wilt verwijderen, klikt u op verwijderen ![Pictogram Verwijderen](../../media/m365-cc-sc-remove-selection-icon.png) naast de waarde.
 
-     > [!NOTE]
-     > U kunt maximaal 50 domeinen hebben in alle anti-phishingbeleidsregels.
+         Wanneer u klaar bent, klikt u op **Toevoegen**
 
-   - **Acties**: Klik op **Bewerken**
+       - **Externe afzenders:** Klik ![ op Extern pictogram Toevoegen Selecteer ](../../media/m365-cc-sc-create-icon.png) **extern**. Voer in het flyout Externe **afzenders** toevoegen dat  wordt weergegeven, een weergavenaam in het vak Een naam toevoegen en een e-mailadres in het vak Een **vaild-e-mail** toevoegen in en klik vervolgens op **Toevoegen.**
 
-     - **Als e-mail wordt** verzonden door een nagebootsde gebruiker: Configureer een van de volgende acties voor berichten waarbij de afzender een van de beveiligde gebruikers is die u hebt opgegeven in Gebruikers toevoegen ter **bescherming:**
+         Herhaal deze stap zo vaak als nodig is. Als u een bestaande waarde wilt verwijderen, klikt u op verwijderen ![Pictogram Verwijderen](../../media/m365-cc-sc-remove-selection-icon.png) naast de waarde.
 
-       - **Geen actie toepassen**
-       - **Bericht omleiden naar andere e-mailadressen**
-       - **Bericht verplaatsen naar de mappen ongewenste e-mail van de geadresseerden**
-       - **Het bericht in quarantaine plaatsen**
-       - **Het bericht bezorgen en andere adressen toevoegen aan de BCC-regel**
-       - **Het bericht verwijderen voordat het wordt bezorgd**
+         Wanneer u klaar bent, klikt u op **Toevoegen**
 
-     - **Als e-mail** wordt verzonden door een nagebootsd domein: Configureer een van de volgende acties voor berichten waarbij het domein van de afzender zich in een van de beveiligde domeinen die u hebt opgegeven in **Domeinen** toevoegen ter bescherming:
+       Terug in de **flyout Afzenders beheren** voor imitatie, kunt u items verwijderen door een of meer items in de lijst te selecteren. U kunt zoeken naar items met het ![ zoekpictogram ](../../media/m365-cc-sc-create-icon.png) **Zoeken.**
 
-       - **Geen actie toepassen**
-       - **Bericht omleiden naar andere e-mailadressen**
-       - **Bericht verplaatsen naar de mappen ongewenste e-mail van de geadresseerden**
-       - **Het bericht in quarantaine plaatsen**
-       - **Het bericht bezorgen en andere adressen toevoegen aan de BCC-regel**
-       - **Het bericht verwijderen voordat het wordt bezorgd**
+       Nadat u ten minste één item hebt geselecteerd, wordt het pictogram Geselecteerde gebruikers verwijderen pictogram Geselecteerde gebruikers verwijderen weergegeven, waarmee u de geselecteerde items ![ ](../../media/m365-cc-sc-remove-selected-users-icon.png)  kunt verwijderen.
 
-   - Klik **op veiligheidstips voor imitatie in-** en configureren een van de volgende instellingen:
+       Klik op **Gereed** als u klaar bent.
 
-     - **Tip voor imiteerde gebruikers tonen**
-     - **Tip voor nagebootste domeinen tonen**
-     - **Tip voor ongebruikelijke tekens tonen**
+     - **Domeinen beveiligen:** de standaardwaarde is uitgeschakeld (niet geselecteerd). Als u deze optie wilt in- of uitschakelen, selecteert u het selectievakje en configureert u een of beide van de volgende instellingen:
+       - **Neem de domeinen op die ik bezit:** schakel het selectievakje in om deze instelling in te stellen. Als u de domeinen wilt weergeven die u bezit, klikt u **op Mijn domeinen weergeven.**
+       - **Aangepaste domeinen opnemen:** Als u deze instelling wilt in- of uit- zetten, selecteert u het selectievakje en klikt u vervolgens op de koppeling Aangepaste **domein(nn) beheren (nn)** die wordt weergegeven. Klik in het flyout Manage **custom domains for impersonation protection** flyout that appears, click Add ![ domains icon Add ](../../media/m365-cc-sc-create-icon.png) **domains**.
 
-     De standaardwaarde voor alle tips is **Uitgeschakeld.** ![ ](../../media/scc-toggle-off.png) Als u een van deze in wilt schakelen, schuift u de schakelknop naar  [In-/uitschakelen.](../../media/scc-toggle-on.png)
+         Klik in **het flyout** Aangepaste domeinen toevoegen  dat wordt weergegeven in het vak Domein, voer een waarde in en druk vervolgens op Enter of selecteer de waarde die onder het vak wordt weergegeven. Herhaal deze stap zo vaak als nodig is. Als u een bestaande waarde wilt verwijderen, klikt u op ![Pictogram verwijderen](../../media/m365-cc-sc-remove-selection-icon.png) naast de waarde.
 
-     Klik op **Opslaan** wanneer u gereed bent.
+         Wanneer u klaar bent, klikt u op **Domeinen toevoegen**
 
-   - **Postvakintelligentie:**
+         > [!NOTE]
+         > U kunt maximaal 50 domeinen hebben in alle anti-phishingbeleidsregels.
 
-     - **Postvakintelligentie inschakelen?**: De standaardwaarde is **Ingeschakeld.** [](../../media/scc-toggle-on.png) Als u deze wilt uitschakelen, schuift u de schakelknop naar **Uit-** ![ of ](../../media/scc-toggle-off.png) uitschakelen.
+       Terug in de flyout Aangepaste domeinen beheren voor **imitatie,** kunt u items verwijderen door een of meer items uit de lijst te selecteren. U kunt zoeken naar items met het ![ zoekpictogram ](../../media/m365-cc-sc-create-icon.png) **Zoeken.**
 
-     - **Postvakintelligentie inschakelen op basis van imitatiebeveiliging?**: Deze instelling is alleen beschikbaar als **Postvakintelligentie inschakelen is** **ingeschakeld.** Schakel deze instelling in om de actie op te geven die u moet ondernemen voor berichten voor imitatiedetecties van postvakinformatieresultaten.
+       Nadat u ten minste één item hebt geselecteerd, wordt het pictogram Verwijderen weergegeven, waarmee u de geselecteerde items ![ ](../../media/m365-cc-sc-delete-icon.png)  kunt verwijderen.
 
-       In **Als e-mail wordt** verzonden door een nagebootsde gebruiker, kunt u een van de volgende acties opgeven (dezelfde acties die beschikbaar zijn voor beveiligde gebruikers en beveiligde domeinen):
+   - **Vertrouwde afzenders** en domeinen toevoegen: : Geef uitzonderingen op voor imitatiebeveiliging voor het beleid door op Vertrouwde **afzender(s) en domein(s) beheren (nn) te klikken.** Configureer de volgende instellingen in het flyout Manage **custom domains for impersonation protection** flyout that appears:
+      - **Afzenders:** controleer of het tabblad **Afzender** is geselecteerd en klik op ![ Pictogram Afzenders ](../../media/m365-cc-sc-create-icon.png) toevoegen. Voer in het fly-out Vertrouwde **afzenders** toevoegen in het vak een e-mailadres in en klik vervolgens op **Toevoegen.** Herhaal deze stap zo vaak als nodig is. Als u een bestaand item wilt verwijderen, klikt ![ u op Pictogram verwijderen voor het ](../../media/m365-cc-sc-close-icon.png) item.
 
-       - **Pas geen actie** toe: houd er rekening mee dat deze waarde hetzelfde resultaat heeft als het inschakelen van postvakinformatie inschakelen? maar postvakintelligentie op basis van  **imitatiebeveiliging inschakelen uitschakelen?**.
-       - **Bericht omleiden naar andere e-mailadressen**
-       - **Bericht verplaatsen naar de mappen ongewenste e-mail van de geadresseerden**
-       - **Het bericht in quarantaine plaatsen**
-       - **Het bericht bezorgen en andere adressen toevoegen aan de BCC-regel**
-       - **Het bericht verwijderen voordat het wordt bezorgd**
+        Wanneer u klaar bent, klikt u op **Toevoegen.**
 
-   - **Vertrouwde afzenders en domeinen toevoegen:** geef uitzonderingen op voor het beleid:
+      - **Domeinen:** Selecteer het tabblad **Domein** en klik ![ op Pictogram Domeinen ](../../media/m365-cc-sc-create-icon.png) toevoegen.
+  
+        Klik in **het** fly-out Vertrouwde domeinen toevoegen  dat wordt weergegeven in het vak Domein, voer een waarde in en druk vervolgens op Enter of selecteer de waarde die onder het vak wordt weergegeven. Herhaal deze stap zo vaak als nodig is. Als u een bestaande waarde wilt verwijderen, klikt u op ![Pictogram verwijderen](../../media/m365-cc-sc-remove-selection-icon.png) naast de waarde.
 
-     - **Vertrouwde afzenders:**
+        Wanneer u klaar bent, klikt u op **Toevoegen.**
 
-       - Klik in het vak en blader door de lijst met gebruikers die u wilt selecteren.
-       - Klik in het vak en begin te typen om de lijst te filteren en selecteer een gebruiker.
-       - Als u een item wilt verwijderen, klikt **u op Pictogram** Verwijderen van de ![ ](../../media/scc-remove-icon.png) gebruiker.
+     In het **flyout** Aangepaste domeinen beheren voor imitatie kunt u items  verwijderen uit de tabbladen **Afzender** en Domein door een of meer items in de lijst te selecteren. U kunt zoeken naar items met het ![ zoekpictogram ](../../media/m365-cc-sc-create-icon.png) **Zoeken.**
 
-     - **Vertrouwde domeinen:** Voer de domeinnaam in (bijvoorbeeld contoso.com), druk op Enter en herhaal indien nodig.
+     Nadat u ten minste één item hebt geselecteerd, wordt **het** pictogram Verwijderen weergegeven, waarmee u de geselecteerde items kunt verwijderen.
 
-   - **Uw instellingen controleren:** In plaats van op elke afzonderlijke stap te klikken, worden de instellingen weergegeven in een overzicht.
+     Klik op **Gereed** als u klaar bent.
 
-     - U kunt in elke **sectie op Bewerken** klikken om terug te gaan naar de relevante pagina.
-     - U kunt de volgende instellingen  rechtstreeks **op** deze pagina in- of uitschakelen:
+   - **Postvakintelligentie** inschakelen: de standaardwaarde is ingeschakeld (geselecteerd) en u wordt aangeraden deze aan te laten staan. Schakel het selectievakje uit om het uit te schakelen.
 
-       - **Beveiligde gebruikers**
-       - **Beveiligde domeinen** \> **Domeinen opnemen die ik bezit**
-       - **Beveiligde domeinen** \> **Beveiligde domeinen** (aangepaste domeinen)
-       - **Postvakintelligentie**
+     - **Beveiliging van imitatie op basis van intelligentie inschakelen:** deze instelling is alleen beschikbaar als **Postvakintelligentie** inschakelen is ingeschakeld (geselecteerd). Met deze instelling kan postvakinformatie actie ondernemen voor berichten die worden geïdentificeerd als imitatiepogingen. U geeft de actie op die u moet ondernemen in de instelling Als **postvakintelligentie** een instelling voor een nagebootsde gebruiker op de volgende pagina detecteert.
 
-   Wanneer u klaar bent, klikt u op **Opslaan** op een pagina.
+       U wordt aangeraden deze instelling in te stellen door het selectievakje in te stellen. Schakel het selectievakje uit om deze instelling uit te schakelen.
 
-6. **Spoof:** Klik op **Bewerken** om spoofinformatie in of uit te schakelen, unauthenticated sender identification in Outlook in of uit te schakelen en de actie te configureren die van toepassing is op berichten van geblokkeerde vervalste afzenders. Zie Spoofinstellingen [in anti-phishingbeleid](set-up-anti-phishing-policies.md#spoof-settings)voor meer informatie over deze instellingen.
+   - **Spoof:** Gebruik in deze sectie het selectievakje **Spoof intelligence in-** of uitschakelen. De standaardwaarde is ingeschakeld (geselecteerd) en u wordt aangeraden deze aan te laten staan. U geeft de actie op om berichten van geblokkeerde vervalste afzenders op te nemen in de instelling Als bericht wordt gedetecteerd als **spoof** op de volgende pagina.
 
-   Houd er rekening mee dat deze instellingen ook beschikbaar zijn in anti-phishingbeleid in EOP.
-
-   - **Filterinstellingen voor spoofing:** gebruik de instelling **Spoof intelligence inschakelen?** om spoofinformatie in of uit te schakelen. De standaardwaarde is **Aan** en we raden u aan deze aan te laten staan. Als u deze wilt uitschakelen, schuift u de schakelknop naar **Uit-** ![ of ](../../media/scc-toggle-off.png) uitschakelen.
+     Schakel het selectievakje uit om spoofinformatie uit te schakelen.
 
      > [!NOTE]
      > U hoeft de bescherming tegen spoofing niet uit te schakelen als uw MX-record niet naar de Microsoft 365; u in plaats daarvan Verbeterde filtering voor verbindingslijnen inschakelen. Zie [Enhanced Filtering for Connectors in Exchange Online](/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors).
 
-   - **Instellingen voor niet-nautische afzenders:** U kunt de volgende instellingen configureren:
-     - **Unauthenticated sender question mark (?)** symbol inschakelen? : Voeg een vraagteken toe aan de foto van de afzender in het  vak Van in Outlook als het bericht niet door SPF- of DKIM-controles wordt gecontroleerd en het bericht niet door DMARC of samengestelde verificatie [gaat.](email-validation-and-authentication.md#composite-authentication) De standaardwaarde is **Aan**. Als u deze wilt uitschakelen, schuift u de schakelknop naar **Uit-** ![ of ](../../media/scc-toggle-off.png) uitschakelen.
-     - **Tag 'via' inschakelen?**: Voeg de via-tag (chris@contoso.com via fabrikam.com) toe als het e-mailadres in het vak Van verschilt van het domein in de DKIM-handtekening of het **MAIL FROM-adres.** De standaardwaarde is **Aan**. Als u deze wilt uitschakelen, schuift u de schakelknop naar **Uit-** ![ of ](../../media/scc-toggle-off.png) uitschakelen.
+   Wanneer u gereed bent, klikt u op **Volgende**.
 
-   - **Acties:** Geef de actie op voor berichten van geblokkeerde vervalste afzenders:
+6. Configureer de volgende instellingen op de pagina **Acties** die wordt weergegeven:
 
-     **Als e-mail wordt verzonden door iemand die uw** domein niet mag vervalsen:
+   - **Berichtacties:** Configureer de volgende acties in deze sectie:
+     - **Als bericht wordt gedetecteerd als een nagebootsde gebruiker:** Deze instelling is alleen beschikbaar als u **Gebruikers inschakelen** op de vorige pagina hebt geselecteerd. Selecteer een van de volgende acties in de vervolgkeuzelijst voor berichten waarin de afzender een van de beveiligde gebruikers is die u op de vorige pagina hebt opgegeven:
+       - **Geen actie toepassen**
+       - **Bericht omleiden naar andere e-mailadressen**
+       - **Bericht verplaatsen naar de mappen ongewenste e-mail van de geadresseerden**
+       - **Het bericht in quarantaine plaatsen**
+       - **Het bericht bezorgen en andere adressen toevoegen aan de BCC-regel**
+       - **Het bericht verwijderen voordat het wordt bezorgd**
 
-     - **Bericht verplaatsen naar de mappen ongewenste e-mail van de geadresseerden**
-     - **Het bericht in quarantaine plaatsen**
+     - **Als het bericht wordt gedetecteerd** als een nagebootsd domein: Deze instelling is alleen beschikbaar als u **Domeinen inschakelen** op de vorige pagina hebt geselecteerd. Selecteer een van de volgende acties in de vervolgkeuzelijst voor berichten met het e-mailadres van de afzender in een van de beveiligde domeinen die u op de vorige pagina hebt opgegeven:
+       - **Geen actie toepassen**
+       - **Bericht omleiden naar andere e-mailadressen**
+       - **Bericht verplaatsen naar de mappen ongewenste e-mail van de geadresseerden**
+       - **Het bericht in quarantaine plaatsen**
+       - **Het bericht bezorgen en andere adressen toevoegen aan de BCC-regel**
+       - **Het bericht verwijderen voordat het wordt bezorgd**
 
-   - **Uw instellingen controleren:** In plaats van op elke afzonderlijke stap te klikken, worden de instellingen weergegeven in een overzicht.
+     - **Als met postvakinformatie een** nagebootsde gebruiker wordt gedetecteerd: Deze instelling is alleen beschikbaar als u **Intelligentie inschakelen** voor imitatiebeveiliging op de vorige pagina hebt geselecteerd. Selecteer een van de volgende acties in de vervolgkeuzelijst voor berichten die zijn geïdentificeerd als imitatiepogingen door postvakinformatie:
+       - **Geen actie toepassen**
+       - **Bericht omleiden naar andere e-mailadressen**
+       - **Bericht verplaatsen naar de mappen ongewenste e-mail van de geadresseerden**
+       - **Het bericht in quarantaine plaatsen**
+       - **Het bericht bezorgen en andere adressen toevoegen aan de BCC-regel**
+       - **Het bericht verwijderen voordat het wordt bezorgd**
 
-     - U kunt in elke **sectie op Bewerken** klikken om terug te gaan naar de relevante pagina.
-     - U kunt de volgende instellingen  rechtstreeks **op** deze pagina in- of uitschakelen:
-       - **Instellingen voor spooffilters**
-       - **Instellingen voor niet-genauteerde afzender**
-       - **Acties**
+     - **Als bericht wordt gedetecteerd als spoof:** Deze instelling is alleen beschikbaar als u **Spoofinformatie inschakelen** op de vorige pagina hebt geselecteerd. Selecteer een van de volgende acties in de vervolgkeuzelijst voor berichten van geblokkeerde vervalste afzenders:
+       - **Bericht verplaatsen naar de mappen ongewenste e-mail van de geadresseerden**
+       - **Het bericht in quarantaine plaatsen**
 
-   Wanneer u klaar bent, klikt u op **Opslaan** op een pagina.
+   - **Veiligheidstips & indicatoren**: De volgende instellingen configureren:
+     - **Gebruikers imiteren veiligheidstip:** deze instelling is alleen beschikbaar als u **Gebruikers inschakelen** op de vorige pagina hebt geselecteerd.
+     - **Domein nabootsing veiligheidstip:** deze instelling is alleen beschikbaar als u **Domeinen inschakelen** op de vorige pagina hebt geselecteerd.
+     - **Ongebruikelijke tekens voor gebruikers imiteren veiligheidstip** Deze instelling is alleen beschikbaar als u Gebruikers inschakelen voor **het beveiligen** of **inschakelen van** domeinen op de vorige pagina hebt geselecteerd.
+     - **Toon (?) voor niet-nautische afzenders** voor spoof: Deze instelling is alleen beschikbaar als u **Spoof intelligence** op de vorige pagina inschakelen hebt geselecteerd. Hiermee voegt u een vraagteken toe aan de foto van de afzender in het vak Van  in Outlook als het bericht niet door SPF- of DKIM-controles wordt gecontroleerd en het bericht niet door DMARC of samengestelde verificatie [komt.](email-validation-and-authentication.md#composite-authentication)
+     - **Tag 'via' tonen:** deze instelling is alleen beschikbaar als u **Spoof intelligence inschakelen** op de vorige pagina hebt geselecteerd. Hiermee voegt u een via-tag (chris@contoso.com via fabrikam.com) toe aan het Van-adres als deze verschilt van het domein in de DKIM-handtekening of het **MAIL FROM-adres.** De standaardwaarde is ingeschakeld (geselecteerd). Schakel het selectievakje uit om het uit te schakelen.
 
-7. **Geavanceerde instellingen:** Klik op **Bewerken om** de geavanceerde phishingdrempels te configureren. Zie Advanced [phishing thresholds in anti-phishing policies in Microsoft Defender for Office 365](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-anti-phishing-policies-in-microsoft-defender-for-office-365).
+       > [!NOTE]
+       > Op dit moment is de taginstelling **'via'** tonen niet beschikbaar in alle organisaties. Als u de taginstelling **'via'** tonen niet  hebt, worden het vraagteken en de via-tag beide gecontroleerd door de instelling Tonen **(?)** voor niet-genauteerde afzenders voor spoofinstelling in uw organisatie.
 
-   - **Geavanceerde phishingdrempels:** Selecteer een van de volgende waarden:
+     Schakel het selectievakje in om een instelling in te stellen. Schakel het selectievakje uit om het uit te schakelen.
 
-   - **1 - Standaard** (Dit is de standaardwaarde.)
-   - **2 - Agressief**
-   - **3 - Agressiever**
-   - **4 - Meest agressief**
+   Wanneer u gereed bent, klikt u op **Volgende**.
 
-   - **Uw instellingen controleren:** Klik op **Bewerken om** terug te gaan naar de **pagina Geavanceerde phishingdrempels.**
+7. Controleer uw instellingen op de pagina **Controleren** die wordt weergegeven. U kunt in elke sectie **Bewerken** selecteren om de instellingen in de sectie te wijzigen.
 
-   Wanneer u klaar bent, klikt u **op Opslaan** op beide pagina's.
+   Wanneer u klaar bent, klikt u op **Verzenden.**
 
-8. Bekijk de instellingen op **de \<Name\> pagina** Uw beleid bewerken en klik vervolgens op **Sluiten.**
+8. Klik op de bevestigingspagina die wordt weergegeven op **Gereed**.
 
-### <a name="use-the-security--compliance-center-to-modify-the-default-anti-phishing-policy-in-microsoft-defender-for-office-365"></a>Gebruik het Beveiligings- & compliancecentrum om het standaard anti-phishingbeleid in Microsoft Defender voor Office 365
+## <a name="use-the-security-center-to-view-anti-phishing-policies"></a>Het beveiligingscentrum gebruiken om anti-phishingbeleid te bekijken
 
-Het standaard anti-phishingbeleid in Microsoft Defender voor Office 365 heet Office365 AntiPhish Default en wordt niet weergegeven in de lijst met beleidsregels. Als u het standaard anti-phishingbeleid wilt wijzigen, gaat u als volgt te werk:
+1. Ga in het beveiligingscentrum naar **E-mail & samenwerkingsbeleid** & sectie Beleidsregels voor bedreigingsbeleid \>  \>  \>  \> **Anti-phishing**.
 
-1. Ga in het & Compliancecentrum naar **Threat management** \> **Policy** \> **Anti-phishing**.
+2. Op de **pagina Anti-phishing** worden de volgende eigenschappen weergegeven in de lijst met anti-phishingbeleidsregels:
 
-2. Klik op **de pagina Anti-phishing** op **Standaardbeleid.**
+   - **Naam**
+   - **Status**
+   - **Prioriteit**
+   - **Laatst gewijzigd**
 
-3. De **pagina Uw beleid bewerken Office365 AntiPhish Default** wordt weergegeven. De volgende secties zijn beschikbaar, die identieke instellingen bevatten voor wanneer u [een aangepast beleid wijzigt:](#use-the-security--compliance-center-to-modify-anti-phishing-policies-in-microsoft-defender-for-office-365)
+3. Wanneer u een beleid selecteert door op de naam te klikken, worden de beleidsinstellingen weergegeven in een flyout.
 
-   - **Imitatie**
-   - **Spoof**
-   - **Geavanceerde instellingen**
+## <a name="use-the-security-center-to-modify-anti-phishing-policies"></a>Gebruik het beveiligingscentrum om anti-phishingbeleid te wijzigen
 
-   De volgende instellingen zijn niet beschikbaar wanneer u het standaardbeleid wijzigt:
+1. Ga in het beveiligingscentrum naar **E-mail & samenwerkingsbeleid** & sectie Beleidsregels voor bedreigingsbeleid \>  \>  \>  \> **Anti-phishing**.
 
-   - U kunt  de sectie Beleidsinstelling en -waarden  zien, maar er is geen koppeling Bewerken, dus u kunt de instellingen niet wijzigen (beleidsnaam, beschrijving en op wie het beleid van toepassing is (dit geldt voor alle geadresseerden)).
-   - U kunt het standaardbeleid niet verwijderen.
-   - U kunt de prioriteit van het standaardbeleid niet wijzigen (dit wordt altijd als laatste toegepast).
+2. Selecteer op **de pagina Anti-phishing** een beleid in de lijst door op de naam te klikken.
 
-4. Controleer op **de pagina Uw beleid bewerken Office365 AntiPhish Default** uw instellingen en klik vervolgens op **Sluiten.**
+3. U kunt in de flyout met beleidsdetails in elke sectie de optie **Bewerken** selecteren om de instellingen in de sectie te wijzigen. Zie Het beveiligingscentrum gebruiken om [anti-phishingbeleid](#use-the-security-center-to-create-anti-phishing-policies) te maken eerder in dit artikel voor meer informatie over de instellingen.  
 
-### <a name="enable-or-disable-custom-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Aangepaste anti-phishingbeleidsregels in- of uitschakelen in Microsoft Defender voor Office 365
+   Voor het standaard anti-phishingbeleid is de sectie **Gebruikers,** groepen en domeinen niet beschikbaar (het beleid is van toepassing op iedereen) en kunt u de naam van het beleid niet wijzigen.
 
-1. Ga in het & Compliancecentrum naar **Threat management** \> **Policy** \> **Anti-phishing**.
+Zie de volgende secties als u een beleid wilt in- of uitschakelen of de beleidsprioriteitsvolgorde wilt instellen.
 
-2. Let op de waarde in de **kolom Status:**
-
-   - Schuif de schakelknop naar  ![ Uit-schakelknop uit ](../../media/scc-toggle-off.png) om het beleid uit te schakelen.
-
-   - Schuif de schakelknop naar  ![ Aan-aan om ](../../media/scc-toggle-on.png) het beleid in te schakelen.
+### <a name="enable-or-disable-custom-anti-phishing-policies"></a>Aangepaste anti-phishingbeleidsregels in- of uitschakelen
 
 U kunt het standaard anti-phishingbeleid niet uitschakelen.
 
-### <a name="set-the-priority-of-custom-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>De prioriteit instellen van aangepast anti-phishingbeleid in Microsoft Defender voor Office 365
+1. Ga in het beveiligingscentrum naar **E-mail & samenwerkingsbeleid** & sectie Beleidsregels voor bedreigingsbeleid \>  \>  \>  \> **Anti-phishing**.
+
+2. Selecteer op **de pagina Anti-phishing** een aangepast beleid in de lijst door op de naam te klikken.
+
+3. Boven aan de flyout met beleidsdetails die wordt weergegeven, ziet u een van de volgende waarden:
+   - **Beleid uitgeschakeld**: als u het beleid wilt inschakelen, klikt u op ![Pictogram inschakelen](../../media/m365-cc-sc-turn-on-off-icon.png) **Inschakelen** .
+   - **Beleid ingeschakeld**: als u het beleid wilt uitschakelen, klikt u op ![Pictogram uitschakelen](../../media/m365-cc-sc-turn-on-off-icon.png) **Uitschakelen**.
+
+4. Klik in het bevestigingsvenster dat wordt weergegeven op **Inschakelen** of **Uitschakelen**.
+
+5. Klik in de flyout met beleidsdetails op **Sluiten**.
+
+Op de hoofdbeleidspagina wordt de waarde **Status** van het beleid weergegeven als **Ingeschakeld** of **Uitgeschakeld**.
+
+### <a name="set-the-priority-of-custom-anti-phishing-policies"></a>De prioriteit instellen van aangepast anti-phishingbeleid
 
 Anti-phishingbeleid krijgt standaard een prioriteit die is gebaseerd op de volgorde waarin ze zijn gemaakt (nieuwere beleidsregels hebben een lagere prioriteit dan oudere beleidsregels). Een lager prioriteitsnummer geeft een hogere prioriteit aan voor het beleid (0 is de hoogste) en beleid word verwerkt in prioriteitsvolgorde (beleid met hogere prioriteit wordt verwerkt voor beleid met lagere prioriteit). Twee beleidsregels kunnen niet dezelfde prioriteit hebben en de verwerking van het beleid stopt nadat het eerste beleid is toegepast.
 
-Voor meer informatie over de prioriteitvolgorde en het evalueren en toepassen van een beleid, raadpleegt u [volgorde en prioriteit van e-mailbeveiliging](how-policies-and-protections-are-combined.md).
+Als u de prioriteit van een beleid wilt wijzigen, klikt u op **Prioriteit verhogen** of **Prioriteit verlagen** in de eigenschappen van het beleid (u kunt het **Prioriteitsnummer** niet rechtstreeks wijzigen in het beveiligingscentrum). Het wijzigen van de prioriteit van een beleid is alleen zinvol als u meerdere beleidsregels hebt.
 
-Aangepaste anti-phishingbeleidsregels worden weergegeven in de volgorde waarin ze worden verwerkt (het eerste beleid heeft de **prioriteitswaarde** 0). Het standaard anti-phishingbeleid met de naam Office365 AntiPhish Default heeft de aangepaste prioriteitswaarde **Laag** en u kunt deze niet wijzigen.
+ **Opmerkingen**:
 
- **Opmerking:** In het & compliancecentrum kunt u alleen de prioriteit van het anti-phishingbeleid wijzigen nadat u het hebt gemaakt. In PowerShell kunt u de standaardprioriteit overschrijven wanneer u de anti-phish-regel maakt (die van invloed kan zijn op de prioriteit van bestaande regels).
+- In het beveiligingscentrum kunt u alleen de prioriteit van het anti-phishingbeleid wijzigen nadat u het hebt gemaakt. In PowerShell kunt u de standaardprioriteit overschrijven wanneer u de anti-phish-regel maakt (die van invloed kan zijn op de prioriteit van bestaande regels).
+- Anti-phishingbeleid wordt verwerkt in de volgorde waarin ze worden weergegeven (het eerste beleid heeft de **prioriteitswaarde** 0). Het standaard anti-phishingbeleid heeft de prioriteitswaarde **Laag** en u kunt deze niet wijzigen.
 
-Als u de prioriteit van  een beleid wilt wijzigen, klikt u op Prioriteit verhogen  of Prioriteit verlagen **in** de eigenschappen van het beleid (u kunt het prioriteitsnummer niet rechtstreeks wijzigen in het Beveiligings- & Compliancecentrum). Het wijzigen van de prioriteit van een beleid is alleen zinvol als u meerdere beleidsregels hebt.
+1. Ga in het beveiligingscentrum naar **E-mail & samenwerkingsbeleid** & sectie Beleidsregels voor bedreigingsbeleid \>  \>  \>  \> **Anti-phishing**.
 
-1. Ga in het & Compliancecentrum naar **Threat management** \> **Policy** \> **Anti-phishing**.
+2. Selecteer op **de pagina Anti-phishing** een aangepast beleid in de lijst door op de naam te klikken.
 
-2. Selecteer het beleid dat u wilt wijzigen. Als deze optie al is geselecteerd, deselecteert u de selectie en selecteert u deze opnieuw.
+3. Boven aan de flyout met beleidsgegevens die wordt weergegeven, ziet u **Prioriteit verhogen** of **Prioriteit verlagen** op basis van de huidige prioriteitswaarde en het aantal aangepaste beleidsregels:
+   - Het anti-phishingbeleid met **prioriteitswaarde** **0** heeft alleen de **optie Prioriteit verlagen** beschikbaar.
+   - Het anti-phishingbeleid met de **laagste** prioriteitswaarde (bijvoorbeeld **3)** heeft alleen de optie **Prioriteit verhogen** beschikbaar.
+   - Als u drie of meer anti-phishingbeleidsregels hebt, hebben beleidsregels tussen  de hoogste en laagste prioriteit zowel de opties Prioriteit verhogen als Prioriteit verlagen beschikbaar. 
 
-3. Het **fly-out \<name\> Beleid** bewerken wordt weergegeven.
+   Klik op het ![pictogram Prioriteit verhogen](../../media/m365-cc-sc-increase-icon.png) **Prioriteit verhogen** of ![Pictogram Prioriteit verlagen](../../media/m365-cc-sc-decrease-icon.png) **Prioriteit verlagen** om de **Prioriteitswaarde** te wijzigen.
 
-   - Het aangepaste anti-phishingbeleid met **prioriteitswaarde** **0** heeft alleen de **knop Prioriteit verlagen** beschikbaar.
+4. Wanneer u klaar bent, klikt u in de flyout met beleidsdetails op **Sluiten**.
 
-   - Het aangepaste anti-phishingbeleid  met de laagste prioriteitswaarde (bijvoorbeeld **3)** heeft alleen de knop **Prioriteit verhogen** beschikbaar.
+## <a name="use-the-security-center-to-remove-custom-anti-phishing-policies"></a>Gebruik het beveiligingscentrum om aangepaste anti-phishingbeleidsregels te verwijderen
 
-   - Als u drie of meer aangepaste anti-phishingbeleidsregels hebt, hebben  beleidsregels  tussen de waarden met de hoogste en laagste prioriteit zowel de knoppen Prioriteit verhogen als Prioriteit verlagen beschikbaar.
+Wanneer u het beveiligingscentrum gebruikt om een aangepast anti-phishingbeleid te verwijderen, worden de anti-phish-regel en het bijbehorende anti-phish-beleid beide verwijderd. U kunt het standaard anti-phishingbeleid niet verwijderen.
 
-4. Klik **op Prioriteit verhogen of** Prioriteit verlagen **om** de waarde Prioriteit **te** wijzigen.
+1. Ga in het beveiligingscentrum naar **E-mail & samenwerkingsbeleid** & sectie Beleidsregels voor bedreigingsbeleid \>  \>  \>  \> **Anti-phishing**.
 
-5. Klik op **Sluiten** wanneer u gereed bent.
+2. Selecteer een aangepast beleid in de lijst door op de naam van het beleid te klikken. Klik boven aan de flyout met beleidsdetails die wordt weergegeven, op het ![pictogram Meer acties](../../media/m365-cc-sc-more-actions-icon.png) **Meer acties** \> ![Pictogram Beleid verwijderen](../../media/m365-cc-sc-delete-icon.png) **Beleid verwijderen**.
 
-## <a name="use-the-security--compliance-center-to-view-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Gebruik het Beveiligings- & compliancecentrum om anti-phishingbeleid in Microsoft Defender voor Office 365
+3. Klik in het bevestigingsvenster dat wordt weergegeven op **Ja**.
 
-1. Ga in het & compliancecentrum naar **Threat management** \> **Policy** \> **Anti-phishing**.
-
-2. Ga op een van de volgende stappen te werk:
-
-   - Selecteer een aangepast anti-phishingbeleid dat u wilt weergeven. Als deze optie al is geselecteerd, deselecteert u de selectie en selecteert u deze opnieuw.
-
-   - Klik **op Standaardbeleid** om het standaardbeleid voor anti-phishing te bekijken.
-
-3. Het **fly-out \<name\>** Beleid bewerken wordt weergegeven, waar u de instellingen en waarden kunt bekijken.
-
-## <a name="use-the-security--compliance-center-to-remove-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Gebruik het Beveiligings- & compliancecentrum om anti-phishingbeleid in Microsoft Defender te verwijderen voor Office 365
-
-1. Ga in het & Compliancecentrum naar **Threat management** \> **Policy** \> **Anti-phishing**.
-
-2. Selecteer het beleid dat u wilt verwijderen. Als deze optie al is geselecteerd, deselecteert u de selectie en selecteert u deze opnieuw.
-
-3. Klik in **het \<name\> flyout** Beleid bewerken dat wordt weergegeven op Beleid verwijderen **en** klik vervolgens op **Ja** in het waarschuwingsdialoogvenster dat wordt weergegeven.
-
-U kunt het standaardbeleid niet verwijderen.
-
-## <a name="use-exchange-online-powershell-to-configure-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Gebruik Exchange Online PowerShell om anti-phishingbeleid in Microsoft Defender te configureren voor Office 365
+## <a name="use-exchange-online-powershell-to-configure-anti-phishing-policies"></a>Gebruik Exchange Online PowerShell om anti-phishingbeleid te configureren
 
 Zoals eerder beschreven, bestaat een antispambeleid uit een anti-phish-beleid en een anti-phish-regel.
 
@@ -407,13 +346,10 @@ Het maken van een anti-phishingbeleid in PowerShell is een proces in twee stappe
  **Opmerkingen**:
 
 - U kunt een nieuwe anti-phish-regel maken en er een bestaand, niet-verbonden anti-phish-beleid aan toewijzen. Een anti-phish-regel kan niet worden gekoppeld aan meer dan één anti-phish-beleid.
-
-- U kunt de volgende instellingen configureren voor nieuwe anti-phish-beleidsregels in PowerShell die pas beschikbaar zijn in het Beveiligings- & Compliancecentrum nadat u het beleid hebt gemaakt:
-
+- U kunt de volgende instellingen configureren voor nieuwe anti-phish-beleidsregels in PowerShell die pas beschikbaar zijn in het beveiligingscentrum nadat u het beleid hebt gemaakt:
   - Het nieuwe beleid maken als uitgeschakeld (_ingeschakeld op_ `$false` de cmdlet **New-AntiPhishRule).**
   - Stel de prioriteit van het beleid in tijdens het maken _(Prioriteit)_ _\<Number\>_ op de cmdlet **Nieuw-AntiPhishRule).**
-
-- Een nieuw anti-phish-beleid dat u in PowerShell maakt, is pas zichtbaar in het beveiligings- & compliancecentrum als u het beleid aan een anti-phish-regel toewijst.
+- Een nieuw anti-phish-beleid dat u in PowerShell maakt, is pas zichtbaar in het beveiligingscentrum als u het beleid aan een anti-phish-regel toewijst.
 
 #### <a name="step-1-use-powershell-to-create-an-anti-phish-policy"></a>Stap 1: PowerShell gebruiken om een anti-phish-beleid te maken
 
@@ -519,7 +455,7 @@ Naast de volgende items zijn dezelfde instellingen beschikbaar wanneer u een ant
 
 - De _schakelknop MakeDefault_ die het opgegeven beleid verandert in  het standaardbeleid (toegepast op iedereen, altijd Laagste prioriteit en u kunt het niet verwijderen) is alleen beschikbaar wanneer u een anti-phish-beleid wijzigt in PowerShell.
 
-- U kunt de naam van een anti-phish-beleid niet wijzigen (de cmdlet **Set-AntiPhishPolicy** heeft geen _naamparameter)._ Wanneer u de naam van een anti-phishingbeleid wijzigt in het Beveiligings- & Compliancecentrum, wijzigt u alleen de naam van de anti-phish-regel.
+- U kunt de naam van een anti-phish-beleid niet wijzigen (de cmdlet **Set-AntiPhishPolicy** heeft geen _naamparameter)._ Wanneer u de naam van een anti-phishingbeleid in het beveiligingscentrum wijzigt, wijzigt u alleen de naam van de anti-phish-regel. 
 
 Als u een anti-phish-beleid wilt wijzigen, gebruikt u de volgende syntaxis:
 
@@ -627,12 +563,9 @@ Zie [Remove-AntiPhishRule (Verwijderen-AntiPhishRule)](/powershell/module/exchan
 
 ## <a name="how-do-you-know-these-procedures-worked"></a>Hoe weet ik of deze procedures zijn geslaagd?
 
-Als u wilt controleren of u anti-phishingbeleid hebt geconfigureerd in Microsoft Defender voor Office 365, gaat u als volgt te werk:
+Als u wilt controleren of u anti-phishingbeleid hebt geconfigureerd in Defender voor Office 365, gaat u als volgt te werk:
 
-- Ga in het & Compliancecentrum naar **Threat management** \> **Policy** \> **Anti-phishing**. Controleer de lijst met beleidsregels, de **statuswaarden** en de **prioriteitswaarden.** Ga als volgt te werk om meer details weer te geven:
-
-  - Selecteer het beleid in de lijst en bekijk de details in de flyout.
-  - Klik **op Standaardbeleid** en bekijk de details in de flyout.
+- Ga in het beveiligingscentrum naar **E-mail & samenwerkingsbeleid** & sectie Beleidsregels voor bedreigingsbeleid \>  \>  \>  \> **Anti-phishing**. Controleer de lijst met beleidsregels, de **statuswaarden** en de **prioriteitswaarden.** Als u meer details wilt weergeven, selecteert u het beleid in de lijst door op de naam te klikken en de details weer te geven in de flyout die wordt weergegeven.
 
 - Vervang Exchange Online PowerShell door de naam van het beleid of de regel en voer de volgende opdracht uit \<Name\> en controleer de instellingen:
 

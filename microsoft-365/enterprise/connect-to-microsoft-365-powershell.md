@@ -17,12 +17,12 @@ ms.custom:
 - Ent_Office_Other
 ms.assetid: 5ebc0e21-b72d-46d8-96fa-00643b18eaec
 description: Maak verbinding met je Microsoft 365-tenant via PowerShell voor Microsoft 365 om Beheercentrum-taken vanaf de opdrachtregel uit te voeren.
-ms.openlocfilehash: 08005ba1cbdcbfec14585d22614129a9b33352b9
-ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
+ms.openlocfilehash: 70d6aa1373daf2322319d21e385fc1498af3351e
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51445754"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782799"
 ---
 # <a name="connect-to-microsoft-365-with-powershell"></a>Verbinding maken met Microsoft 365 met PowerShell
 
@@ -42,7 +42,7 @@ Momenteel vervangt de module Azure Active Directory PowerShell voor Graph nog ni
 
 **Besturingssysteem**
 
-Je moet een 64-bits versie van Windows gebruiken. Ondersteuning voor de 32-bits versie van de Microsoft Azure Active Directory-module voor Windows PowerShell is in 2014 beëindigd.
+Gebruik een 64-bits versie van Windows. Ondersteuning voor de 32-bits versie van de Microsoft Azure Active Directory-module voor Windows PowerShell is in 2014 beëindigd.
 
 U kunt de volgende versies van Windows gebruiken:
     
@@ -57,7 +57,7 @@ U kunt de volgende versies van Windows gebruiken:
 
 - Voor de module Azure Active Directory PowerShell voor Graph moet je PowerShell versie 5.1 of hoger gebruiken.
 
-- Voor de Microsoft Azure Active Directory-module voor Windows PowerShell moet je PowerShell versie 5.1 of hoger gebruiken, tot PowerShell versie 6. PowerShell versie 7 kan niet worden gebruikt.
+- Voor de Microsoft Azure Active Directory-module voor Windows PowerShell moet u PowerShell versie 5.1 of hoger gebruiken, tot PowerShell versie 6. PowerShell versie 7 kan niet meer worden gebruikt.
        
 >[!Note]
 >Deze procedures zijn bedoeld voor gebruikers die lid zijn van een Microsoft 365-beheerdersrol. Raadpleeg [Over beheerdersrollen](../admin/add-users/about-admin-roles.md) voor meer informatie.
@@ -101,7 +101,7 @@ Antwoord **Ja** of **Ja op alles** om door te gaan met de installatie.
 
 ### <a name="step-2-connect-to-azure-ad-for-your-microsoft-365-subscription"></a>Stap 2: Maak verbinding met Azure AD voor jouw Microsoft 365-abonnement
 
-Als je verbinding wilt maken met Azure Active Directory (Azure AD) voor jouw Microsoft 365-abonnement met een accountnaam en wachtwoord of met meervoudige verificatie, voer je een van de volgende opdrachten uit vanaf een Windows PowerShell-opdrachtprompt. (Deze hoeft geen verhoogde bevoegdheid te hebben.)
+Als u verbinding wilt maken met Azure Active Directory (Azure AD) voor uw Microsoft 365-abonnement met een accountnaam en wachtwoord of met meervoudige verificatie, voert u een van de volgende opdrachten uit vanaf een Windows PowerShell-opdrachtprompt (de opdracht hoeft geen verhoogde bevoegdheden te bevatten).
 
 | Office 365-cloud | Opdracht |
 |:-------|:-----|
@@ -130,7 +130,7 @@ PowerShell Core biedt geen ondersteuning voor de Microsoft Azure Active Director
 
 Deze stappen hoef je maar één keer uit te voeren op je computer. Maar waarschijnlijk moet je de software regelmatig bijwerken.
   
-1.  Als je geen Windows 10 gebruikt, installeer je de 64-bits versie van de Microsoft Online Services-aanmeldhulp: [Microsoft Online Services-aanmeldhulp voor IT-professionals RTW](https://www.microsoft.com/Download/details.aspx?id=28177).
+1.  Als je geen Windows 10 gebruikt, installeer je de 64-bits versie van de Microsoft Online Services-aanmeldhulp: [Microsoft Online Services-aanmeldhulp voor IT-professionals RTW](https://download.microsoft.com/download/7/1/E/71EF1D05-A42C-4A1F-8162-96494B5E615C/msoidcli_32bit.msi).
     
 2. Installeer de Microsoft Azure Active Directory-module voor Windows PowerShell met deze stappen:
     
@@ -141,7 +141,7 @@ Deze stappen hoef je maar één keer uit te voeren op je computer. Maar waarschi
     
 ### <a name="step-2-connect-to-azure-ad-for-your-microsoft-365-subscription"></a>Stap 2: Maak verbinding met Azure AD voor jouw Microsoft 365-abonnement
 
-Om verbinding te maken met Azure AD voor jouw Microsoft 365-abonnement met een accountnaam en wachtwoord of met meervoudige verificatie, voer je een van de volgende opdrachten uit vanaf een Windows PowerShell-opdrachtprompt. (Deze hoeft geen verhoogde bevoegdheid te hebben.)
+Als u verbinding wilt maken met Azure AD voor uw Microsoft 365-abonnement met een accountnaam en wachtwoord of met meervoudige verificatie, voert u een van de volgende opdrachten uit vanaf een Windows PowerShell-opdrachtprompt (deze hoeft geen verhoogde bevoegdheden te bevatten).
 
 | Office 365-cloud | Opdracht |
 |:-------|:-----|

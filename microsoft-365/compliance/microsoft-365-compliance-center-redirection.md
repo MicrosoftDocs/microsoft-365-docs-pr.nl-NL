@@ -11,12 +11,12 @@ ms.topic: article
 localization_priority: Normal
 description: Meer informatie over het automatisch omleiden Office 365 beveiligings- en compliancecentrum naar het Microsoft 365 compliancecentrum..
 ms.collection: M365-security-compliance
-ms.openlocfilehash: fb667e8f19b26cbe229b3aceffe194a86133c261
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: b51b2e225c833ac499379bbee119f8cb6f4216e9
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52772445"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782835"
 ---
 # <a name="redirect-users-from-the-office-365-security-and-compliance-center-to-the-microsoft-365-compliance-center"></a>Gebruikers omleiden van het Office 365 beveiligings- en compliancecentrum naar het Microsoft 365 compliancecentrum
 
@@ -51,7 +51,7 @@ Als u wilt teruggaan naar het Office 365 Beveiligings- en compliancecentrum (pro
 1. Meld u aan bij [het Microsoft 365 compliancecentrum](https://compliance.microsoft.com) als globale beheerder of gebruik een account met compliancebeheerdersmachtigingen in Azure Active Directory.
 2. Navigeer **naar Instellingen**  >  **omleiding van het compliancecentrum**.
 3. Schakel de instelling Automatische omleiding in op **Uit.**
-4. Selecteer **Uitschakelen** en deel feedback wanneer u daarom wordt gevraagd.
+4. Selecteer **Uitschakelen en** feedback delen wanneer u daarom wordt gevraagd.
 
 Wanneer deze is uitgeschakeld, worden gebruikers niet meer doorgestuurd naar compliance.microsoft.com en worden ze doorgestuurd naar het Office 365 Security and Compliance center (protection.microsoft.com). Deze instelling kan op elk moment opnieuw worden ingeschakeld door globale beheerders of compliancebeheerders.
 

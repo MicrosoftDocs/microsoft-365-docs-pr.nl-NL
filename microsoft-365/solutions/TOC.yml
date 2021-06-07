@@ -13,7 +13,7 @@
       href: architecture-icons-templates.md
 - name: Microsoft 365-foundation oplossingen
   items:
-    - name: Uw infrastructuur instellen voor extern werk
+    - name: Uw infrastructuur instellen voor hybride werk
       items:
         - name: Overzicht
           href: empower-people-to-work-remotely.md
@@ -27,7 +27,7 @@
           href: empower-people-to-work-remotely-manage-endpoints.md
         - name: Stap 5. Productiviteitsapps en -services implementeren
           href: empower-people-to-work-remotely-teams-productivity-apps.md
-        - name: 'Stap 6: Externe werknemers trainen'
+        - name: 'Stap 6: Uw werknemers trainen'
           href: empower-people-to-work-remotely-train-monitor-usage.md
     - name: Veilige samenwerking met Microsoft 365 instellen
       items:

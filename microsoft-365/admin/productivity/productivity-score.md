@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Ontdek hoe Microsoft Productiviteitsscore metingen van ervaringen van mensen en technologie weergeeft en vergelijkt met organisaties van vergelijkbare grootte.
-ms.openlocfilehash: 0735fb6d47b475146deade6ab3ca2f8d24ec27a7
-ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
+ms.openlocfilehash: af0e8583bec00b1ddfd62145a4757a4e568108e8
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52779672"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52789037"
 ---
 # <a name="microsoft-productivity-score"></a>Microsoft Productiviteitsscore 
 
@@ -42,7 +42,7 @@ We bieden metrische gegevens, inzichten en aanbevelingen in twee gedeelten:
 
     Voor elk van deze categorieën nemen we publiek onderzoek in acht zodat we aanbevolen procedures en geassocieerde voordelen kunnen identificeren in de vorm van organisatorische doeltreffendheid. Bijvoorbeeld, Forrester-onderzoek heeft aangetoond dat mensen tot 100 minuten per week kunnen besparen wanneer ze samenwerken en content delen in de cloud (in plaats van bijlagen mailen). Bovendien kwantificeren we het gebruik van deze aanbevolen procedures in je organisatie zodat je kan zien hoe ver je bent gekomen in je digitale transformatie. 
 
-- **Technologie-ervaringen:** Je organisatie is afhankelijk van betrouwbare en goed functionerende technologie, alsook efficiënt gebruik van Microsoft 365. [Eindpuntanalyse](https://aka.ms/endpointanalytics) helpt je begrijpen hoe de prestatie en gezondheidsproblemen van jouw hardware en software een impact hebben op gebruikersproductiviteit. Microsoft 365-apps health toont aan of apparaten in je organisatie de aanbevolen kanalen gebruiken voor Microsoft 365-apps.
+- **Technologie-ervaringen:** uw organisatie is afhankelijk van betrouwbare en goed functionerende technologie, en tevens van het efficiënt gebruik van Microsoft 365. [Eindpuntanalyse](https://aka.ms/endpointanalytics) helpt je begrijpen hoe de prestatie en gezondheidsproblemen van jouw hardware en software een impact hebben op gebruikersproductiviteit. Microsoft 365-apps health toont aan of apparaten in je organisatie de aanbevolen kanalen gebruiken voor Microsoft 365-apps.
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
@@ -53,7 +53,7 @@ Voor gebruikerservaringengegevens heb je een abonnement op Microsoft 365 voor be
 > [!NOTE]
 > Voor toegang tot de functies van de productiviteitsscore heb je geen licentie voor Workplace Analytics nodig.
 
-Productiviteitsscore is enkel beschikbaar in het Microsoft 365-beheercentrum en is enkel toegankelijk voor IT-professionals die een van de volgende functies bekleden:  
+Productiviteitsscore is alleen beschikbaar in het Microsoft 365-beheercentrum en alleen toegankelijk voor IT-professionals met een van de volgende functies:  
 
 - Algemeen beheerder
 - Exchange-beheerders
@@ -116,13 +116,13 @@ De aanbevolen benchmark voor netwerkverbinding is 80 punten.
 
 De sectie **Score-analyse** biedt een analyse van je productiviteitsscore met benchmarks volgens gebruikerservaring en technologie-ervaring.
 
-De scoregeschiedenis toont hoe de score in elke categorie veranderde gedurende de laatste 6 maanden.
+De scoregeschiedenis toont hoe de score in elke categorie gedurende de laatste zes maanden is veranderd.
 
-De gebieden **Gebruikerservaringen** en **Technologie-ervaringen** bevatten overzichten van de respectievelijke categorieën. Je kan op elke categorie klikken voor een dieper inzicht.
+De gebieden **Gebruikerservaringen** en **Technologie-ervaringen** bevatten de belangrijkste overzichten van de respectieve categorieën. U kunt elke categorie selecteren voor een dieper inzicht.
 
 ## <a name="category-details-pages"></a>Categorie-informatiepagina‘s
 
-Elke categorie-informatiepagina geeft een overzicht en ondersteunende metrische gegevens, alsook gerelateerd onderzoek en acties die je kan ondernemen voor het teweeg brengen van verandering in je organisatie. Onderzoek biedt ondersteuning voor het belang en de redenering van het overzicht van elke categorie. Lees het [Forrester-verslag](https://vc2prod.blob.core.windows.net/vc-resources/TEIStudies/TEI%20of%20Microsoft%20365%20E5%20-%20Oct%202018.pdf) voor meer informatie.
+Elke categorie-informatiepagina geeft een overzicht en ondersteunende metrische gegevens, alsook gerelateerd onderzoek en acties die je kan ondernemen voor het teweeg brengen van verandering in je organisatie. Onderzoek biedt ondersteuning voor het belang en de redenering van het overzicht van elke categorie. [Lees het Forrester-rapport](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PBrb) voor meer informatie.
 
 De informatiepagina‘s zijn:
 - [Samenwerking aan inhoud: gebruikerservaringen](content-collaboration.md)

@@ -1,5 +1,5 @@
 ---
-title: Contracten beheren met een Microsoft 365 oplossing
+title: Beheer contracten met een gebruik van een Microsoft 365 oplossing
 ms.author: chucked
 author: chuckedmonson
 manager: pamgreen
@@ -13,14 +13,14 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: ''
 description: Meer informatie over het beheren van contracten Microsoft 365 een SharePoint syntex, SharePoint lijsten, Microsoft Teams en Power Automate.
-ms.openlocfilehash: 219ab13eb5787bef566ede0c5dc856da29d96837
-ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
+ms.openlocfilehash: d12ccd2d4bc777b05489556f0d96ce9de80954a8
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52651282"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770815"
 ---
-# <a name="manage-contracts-using-a-microsoft-365-solution"></a>Contracten beheren met een Microsoft 365 oplossing
+# <a name="manage-contracts-using-a-microsoft-365-solution"></a>Beheer contracten met een gebruik van een Microsoft 365 oplossing
 
 In dit artikel wordt beschreven hoe u een oplossing voor contractbeheer voor uw organisatie kunt maken met SharePoint Syntex en onderdelen van Microsoft 365. Het biedt u een kader om u te helpen bij het plannen en maken van een oplossing die past bij uw unieke zakelijke behoeften. Zelfs als deze oplossing niet past bij uw bedrijfsbehoeften als geheel, kunnen delen ervan worden overgenomen in uw planning om een aangepaste oplossing voor contractbeheer te maken.
 
@@ -73,6 +73,14 @@ Deze richtlijn voor contractbeheeroplossing bevat vier onderdelen van Microsoft 
 6. Het eindresultaat van deze oplossing is een geautomatiseerd bedrijfsproces voor uw organisatie. Werknemers kunnen eenvoudig de aangepaste tegelweergave in Teams om de goedkeuringswerkstroom van uw documenten te starten en te controleren. 
 
      ![Tabblad Contracten.](../media/content-understanding/tile-view.png)
+
+### <a name="licensing-requirements"></a>Licentievereisten
+
+Deze oplossing is afhankelijk van de volgende functionaliteit, die allemaal beschikbaar is als onderdeel van een licentie voor Microsoft 365 Enterprise (E1, E3, E5, F3) of Business (Basic, Standard of Premium) :
+
+-   Microsoft SharePoint Syntex
+-   Microsoft Teams
+-   Power Automate
 
 ## <a name="create-the-solution"></a>De oplossing maken
 

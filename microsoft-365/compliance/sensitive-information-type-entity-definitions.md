@@ -18,17 +18,17 @@ ms.collection:
 hideEdit: true
 feedback_system: None
 recommendations: false
-description: Preventie van gegevensverlies (DLP) in het Beveiligings compliancecentrum bevat meer dan 200 typen gevoelige informatie die u kunt gebruiken in uw &amp; DLP-beleid. In dit artikel worden al deze typen gevoelige informatie beschreven en wordt beschreven waar een DLP-beleid naar zoekt wanneer elk type wordt gedetecteerd.
-ms.openlocfilehash: ff976389e75e96d0a018d7c5379e2831313388dc
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+description: Er zijn 200 typen gevoelige informatie die u kunt gebruiken in uw DLP-beleid. In dit artikel worden al deze typen gevoelige informatie beschreven en wordt beschreven waar een DLP-beleid naar zoekt wanneer elk type wordt gedetecteerd.
+ms.openlocfilehash: 4efa411f7cc34b4116cc418e328e5c3f7545f788
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730472"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52789217"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>Definities van entiteiten van het type Gevoelige informatie
 
-Preventie van gegevensverlies (DLP) in het Compliancecentrum bevat veel typen gevoelige informatie die klaar zijn voor gebruik in uw DLP-beleid. In dit artikel worden al deze typen gevoelige informatie beschreven en wordt beschreven waar een DLP-beleid naar zoekt wanneer elk type wordt gedetecteerd. Zie Gevoelige informatietypen voor meer informatie over [gevoelige informatietypen.](sensitive-information-type-learn-about.md)
+In dit artikel vindt u een overzicht van alle entiteitsdefinities van het type gevoelige informatie. Elke definitie laat zien waar een DLP-beleid naar zoekt om elk type te detecteren. Zie Gevoelige informatietypen voor meer informatie over [gevoelige informatietypen.](sensitive-information-type-learn-about.md)
 
 ## <a name="aba-routing-number"></a>ABA-routeringsnummer
 
@@ -147,11 +147,11 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 
 ### <a name="format"></a>Opmaak
 
-Elf cijfers met streepje
+11 cijfers met streepje
 
 ### <a name="pattern"></a>Patroon
 
-Elf cijfers met een streepje:
+11 cijfers met een streepje:
 - twee cijfers in 20, 23, 24, 27, 30, 33 of 34
 - een afbreekstreester (-)
 - acht cijfers
@@ -573,7 +573,7 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 
 10-11 cijfers:
 - Het eerste cijfer is in het bereik 2-6
-- Negen cijfers is een vinkje
+- Negende cijfer is een vinkje
 - Tiende cijfer is het probleemcijfer
 - Het elfde cijfer (optioneel) is het afzonderlijke getal
 
@@ -622,8 +622,8 @@ acht of negen alfanumerieke tekens
 
 ### <a name="pattern"></a>Patroon
 
-- één letter (N, E, D, F, A, C, U, X), gevolgd door 7 cijfers of
-- 2 letters (PA, PB, PC, PD, PE, PF, PU, PW, PX, PZ), gevolgd door 7 cijfers.
+- één letter (N, E, D, F, A, C, U, X), gevolgd door zeven cijfers of
+- Twee letters (PA, PB, PC, PD, PE, PF, PU, PW, PX, PZ), gevolgd door zeven cijfers.
 
 ### <a name="checksum"></a>Checksum
 
@@ -2745,7 +2745,17 @@ Verschilt per provincie
 
 ### <a name="pattern"></a>Patroon
 
-Verschillende patronen voor Alberta, British Columbia, Manitoba, New Brunswick, Newfoundland/Labrador, Nova Scotia, Ontario, Prince Edward Island, Quebec en Saskatchewan
+Verschillende patronen die betrekking hebben op:
+- Alberta
+- Brits-Columbia
+- Manitoba
+- New Brunswick
+- Newfoundland/Labrador
+- Nova Scotia
+- Ontario
+- Prins EdwardEiland
+- Quebec
+- Saskatchewan
 
 ### <a name="checksum"></a>Checksum
 
@@ -3166,7 +3176,7 @@ Ja
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
 - De functie Func_canadian_sin inhoud die overeenkomt met het patroon.
-- Ten minste twee van de volgende combinaties:
+- Ten minste twee van de volgende patronen:
     - Er wordt een trefwoord Keyword_sin gevonden.
     - Er wordt een trefwoord Keyword_sin_collaborative gevonden.
     - Met de Func_eu_date wordt een datum in de juiste datumnotatie gevonden.
@@ -3376,7 +3386,7 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 
 ### <a name="pattern"></a>Patroon
 
-Complex en robuust patroon dat kaarten van alle grote merken wereldwijd detecteert, waaronder Visa, MasterCard, Discover Card, JCB, American Express, cadeaukaarten en dinerkaarten.
+Detecteert kaarten van alle grote merken wereldwijd, waaronder Visa, MasterCard, Discover Card, JCB, American Express, cadeaukaarten en dinerkaarten.
 
 ### <a name="checksum"></a>Checksum
 
@@ -3831,7 +3841,7 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 
 
 ## <a name="croatia-identity-card-number"></a>Nummer van kroatische identiteitskaart
-Deze entiteit van het type gevoelige informatie maakt deel uit van het eu-nationale identificatienummer voor gevoelige informatie. Het is beschikbaar als een op zichzelf staand entiteit met gevoelige informatie.
+Deze entiteit is opgenomen in het gevoelige informatietype EU National Identification Number. Het is beschikbaar als een op zichzelf staand entiteit met gevoelige informatie.
 
 ### <a name="format"></a>Opmaak
 
@@ -6332,7 +6342,7 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 
 ## <a name="finland-passport-number"></a>Finland paspoortnummer
 
-Deze entiteit van het type gevoelige informatie is beschikbaar in het type gevoelige informatie van het EU-paspoortnummer en is beschikbaar als een op zichzelf staand entiteit van het type gevoelige informatie.
+Deze entiteit is beschikbaar in het gevoelige informatietype EU-paspoortnummer en is beschikbaar als een op zichzelf staand gevoelige informatietype entiteit.
 
 ### <a name="format"></a>Opmaak
 combinatie van negen letters en cijfers
@@ -6412,7 +6422,7 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 
 ## <a name="france-drivers-license-number"></a>Rijbewijsnummer van Frankrijk
 
-Deze entiteit van het type gevoelige informatie is beschikbaar in het type gevoelige informatie over het EU-rijbewijsnummer en is beschikbaar als een op zichzelf staand entiteit met gevoelige informatie.
+Deze entiteit is beschikbaar in het type gevoelige informatie over het EU-rijbewijsnummer en is beschikbaar als een op zichzelf staand entiteit met gevoelige informatie.
 
 ### <a name="format"></a>Opmaak
 
@@ -6671,7 +6681,7 @@ Een DLP-beleid heeft weinig vertrouwen dat dit type gevoelige informatie is gede
 
    
 ## <a name="france-passport-number"></a>Frankrijk paspoortnummer
-Deze entiteit van het type gevoelige informatie is beschikbaar in het gevoelige informatietype EU-paspoortnummer. Het is beschikbaar als een op zichzelf staand entiteit met gevoelige informatie.
+Deze entiteit is beschikbaar in het gevoelige informatietype EU-paspoortnummer. Het is ook beschikbaar als een op zichzelf staand entiteit met gevoelige informatie.
 
 ### <a name="format"></a>Opmaak
 
@@ -6983,7 +6993,7 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 
 ## <a name="germany-drivers-license-number"></a>Het rijbewijsnummer van Duitsland
 
-Deze entiteit van het type gevoelige informatie is opgenomen in het gevoelige informatietype EU-rijbewijsnummer. Het is beschikbaar als een op zichzelf staand entiteit met gevoelige informatie.
+Deze entiteit van het type gevoelige informatie is opgenomen in het gevoelige informatietype EU-rijbewijsnummer. Het is ook beschikbaar als een op zichzelf staand entiteit met gevoelige informatie.
 
 ### <a name="format"></a>Opmaak
 
@@ -7229,7 +7239,7 @@ Een DLP-beleid heeft weinig vertrouwen dat dit type gevoelige informatie is gede
 
 ## <a name="germany-passport-number"></a>Duitsland paspoortnummer
 
-Deze entiteit van het type gevoelige informatie is opgenomen in het type gevoelige informatie van het EU-paspoortnummer en is beschikbaar als een op zichzelf staand entiteit met gevoelige informatie.
+Deze entiteit is opgenomen in het gevoelige informatietype EU-paspoortnummer en is beschikbaar als een op zichzelf staand gevoelige informatietype entiteit.
 
 ### <a name="format"></a>Opmaak
 
@@ -7446,7 +7456,7 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 
 ## <a name="greece-drivers-license-number"></a>Licentienummer van Griekenland
 
-Deze entiteit van het type gevoelige informatie maakt deel uit van het type gevoelige informatie over het EU-rijbewijsnummer en is beschikbaar als een op zichzelf staand entiteit met gevoelige informatie.
+Deze entiteit is opgenomen in het gevoelige informatietype Eu Driver's License Number. Het is ook beschikbaar als een op zichzelf staand entiteit met gevoelige informatie.
 
 ### <a name="format"></a>Opmaak
 
@@ -7750,12 +7760,12 @@ Dit type gevoelige informatie is alleen beschikbaar voor gebruik in:
 
 ### <a name="format"></a>Opmaak
 
-Elf cijfers zonder spaties en scheidingstekens
+11 cijfers zonder spaties en scheidingstekens
   
 ### <a name="pattern"></a>Patroon
 
-- 6 cijfers als geboortedatum YYMMDD
-- 4 cijfers
+- Zes cijfers als geboortedatum YYMMDD
+- Vier cijfers
 - een vinkje
   
 ### <a name="checksum"></a>Checksum
@@ -8134,7 +8144,7 @@ Dit type gevoelige informatie is alleen beschikbaar voor gebruik in:
 
 11 cijfers:
   
-- Eén cijfer dat overeenkomt met geslacht (1-man, 2-vrouw, andere getallen zijn ook mogelijk voor burgers die vóór 1900 zijn geboren of voor burgers met een dubbele nationaliteit) 
+- Eén cijfer dat overeenkomt met geslacht, 1 voor man, 2 voor vrouw. Andere getallen zijn ook mogelijk voor burgers die vóór 1900 zijn geboren of voor burgers met een dubbele nationaliteit.
 - Zes cijfers die overeenkomen met de geboortedatum (YYMMDD)
 - Drie cijfers die overeenkomen met een serieel getal
 - Eén vinkje
@@ -8634,7 +8644,66 @@ Patroon moet de volgende gegevens bevatten:
 
 De notatie voor elk land is iets anders. Het type IBAN-gevoelige informatie bestrijkt deze 60 landen:
 
-ad, ae, al, at, az, ba, be, bg, bh, ch, cr, cy, cz, de, dk, do, ee, es, fi, fo, fr, gb, ge, gi, gl, gr, hr, hu, ie, il, is, it, kw, kz, lb, li, lt, lu, lv, mc, md, me, mk, mr, mt, mu, nl, no, pl, pt, ro, rs, sa, se, si, sk , sm, tn, tr, vg
+- ad
+- ae
+- al
+- op
+- az
+- ba
+- be
+- bg
+- bh
+- ch
+- cr
+- cy
+- cz
+- de
+- dk
+- do
+- ee
+- es
+- fi
+- fo
+- fr
+- gb
+- ge
+- gi
+- gl
+- gr
+- hr
+- hu
+- ie
+- il
+- is
+- het
+- kw
+- kz
+- lb
+- li
+- lt
+- lu
+- lv
+- mc
+- md
+- mij
+- mk
+- mr.
+- mt
+- mu
+- nl
+- nee
+- pl
+- pt
+- ro
+- rs
+- sa
+- se
+- si
+- sk
+- sm
+- tn
+- tr
+- vg
 
 ### <a name="checksum"></a>Checksum
 
@@ -9259,7 +9328,7 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
    
 ## <a name="italy-drivers-license-number"></a>Nummer van het rijbewijs van Italië
 
-Deze entiteit van het type gevoelige informatie maakt deel uit van het type gevoelige informatie over het EU-rijbewijsnummer en is beschikbaar als een op zichzelf staand entiteit met gevoelige informatie.
+Dit type entiteit is opgenomen in het gevoelige informatietype Eu Driver's License Number. Het is ook beschikbaar als een op zichzelf staand entiteit met gevoelige informatie.
 
 ### <a name="format"></a>Opmaak
 
@@ -9447,7 +9516,7 @@ Een combinatie van 16 tekens van letters en cijfers:
 - drie letters die overeenkomen met de eerste, derde en vierde medeklinker in de voornaam
 - twee cijfers die overeenkomen met de laatste cijfers van het geboortejaar
 - een letter die overeenkomt met de letter voor de maand van de geboorte: letters worden in alfabetische volgorde gebruikt, maar alleen de letters A tot en met E, H, L, M, P, R tot en met T worden gebruikt (januari is dus A en oktober is R)
-- twee cijfers die overeenkomen met de dag van de maand van de geboorte: om onderscheid te maken tussen geslachten, wordt 40 toegevoegd aan de geboortedatum voor vrouwen
+- twee cijfers die overeenkomen met de dag van de geboortemaand om onderscheid te maken tussen geslachten, wordt 40 toegevoegd aan de geboortedatum voor vrouwen
 - vier cijfers die overeenkomen met de gebiedscode die specifiek is voor de gemeente waar de persoon is geboren (landcodes worden gebruikt voor het buitenland)
 - één pariteitscijfer
     
@@ -11750,7 +11819,7 @@ Een DLP-beleid heeft weinig vertrouwen dat dit type gevoelige informatie is gede
 
 ### <a name="format"></a>Opmaak
 
-alfanumeriek patroon van elf tekens
+Alfanumeriek patroon van 11 tekens
   
 ### <a name="pattern"></a>Patroon
 
@@ -11937,11 +12006,11 @@ Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is 
 
 ### <a name="format"></a>Opmaak
 
-tien cijfers zonder spaties en scheidingstekens
+10 cijfers zonder spaties en scheidingstekens
   
 ### <a name="pattern"></a>Patroon
 
-tien cijfers
+10 cijfers
   
 ### <a name="checksum"></a>Checksum
 
@@ -12676,7 +12745,7 @@ Een DLP-beleid heeft weinig vertrouwen dat dit type gevoelige informatie is gede
 ### <a name="pattern"></a>Patroon
 
 11 cijfers:
-- zes cijfers in de indeling DDMMYY die de geboortedatum zijn 
+- zes cijfers in de indeling DDMMYY, de geboortedatum 
 - individueel getal met drie cijfers 
 - twee controlecijfers
 
@@ -13032,7 +13101,7 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 
    
 ## <a name="poland-passport-number"></a>Polen paspoortnummer
-Deze entiteit van het type gevoelige informatie is opgenomen in het gevoelige informatietype EU-paspoortnummer. Het is beschikbaar als een op zichzelf staand entiteit met gevoelige informatie.
+Deze entiteit van het type gevoelige informatie is opgenomen in het gevoelige informatietype EU-paspoortnummer. Het is ook beschikbaar als een op zichzelf staand entiteit met gevoelige informatie.
 
 ### <a name="format"></a>Opmaak
 
@@ -14726,7 +14795,7 @@ Dit type gevoelige informatie is alleen beschikbaar voor gebruik in:
   
 - zeven cijfers die overeenkomen met de geboortedatum (DDMMLLL) waarbij 'LLL' overeenkomt met de laatste drie cijfers van het geboortejaar 
 - twee cijfers die overeenkomen met het geboortegebied "50"
-- drie cijfers die overeenkomen met een combinatie van geslacht en serienummer voor personen die op dezelfde dag zijn geboren (000-499 voor mannen en 500-999 voor vrouwen)
+- drie cijfers die overeenkomen met een combinatie van geslacht en serienummer voor personen die op dezelfde dag zijn geboren. 000-499 voor man en 500-999 voor vrouw.
 - een vinkje
     
 ### <a name="checksum"></a>Checksum
@@ -15615,7 +15684,7 @@ Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is 
 
 #### <a name="cep_passwordplaceholder"></a>CEP_PasswordPlaceHolder
 
-(Houd er rekening mee dat deze trefwoorden technisch gezien met dit type gevoelige informatie worden geïdentificeerd met behulp van een gewone expressie, niet met een trefwoordlijst.)
+Dit type gevoelige informatie identificeert deze trefwoorden met behulp van een gewone expressie, niet een lijst met trefwoorden.
 
 - Wachtwoord of pwd gevolgd door 0-2 spaties, een gelijkteken (=), 0-2 spaties en een sterretje (*) -OF-
 - Wachtwoord of pwd gevolgd door:
@@ -15626,7 +15695,7 @@ Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is 
 
 #### <a name="cep_commonexamplekeywords"></a>CEP_CommonExampleKeywords
 
-(Houd er rekening mee dat deze trefwoorden technisch gezien met dit type gevoelige informatie worden geïdentificeerd met behulp van een gewone expressie, niet met een trefwoordlijst.)
+Dit type gevoelige informatie identificeert deze trefwoorden met behulp van een gewone expressie, niet een lijst met trefwoorden.
 
 - contoso
 - fabrikam
@@ -15642,11 +15711,11 @@ Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is 
 
 ### <a name="format"></a>Opmaak
 
-tien cijfers met een afbreekstreester
+10 cijfers met een afbreekstreester
   
 ### <a name="pattern"></a>Patroon
 
-tien cijfers met een afbreekstreester:
+10 cijfers met een afbreekstreester:
   
 - zes cijfers 
 - een afbreekstreester
@@ -16726,7 +16795,7 @@ Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is 
 - Geboortedatum 
    
 ## <a name="uk-national-insurance-number-nino"></a>VK national insurance number (NINO)
-Deze entiteit van het type gevoelige informatie maakt deel uit van het eu-nationale identificatienummer voor gevoelige informatie. Het is beschikbaar als een op zichzelf staand entiteit met gevoelige informatie.
+Deze entiteit van het type gevoelige informatie maakt deel uit van het eu-nationale identificatienummer voor gevoelige informatie. Het is ook beschikbaar als een op zichzelf staand entiteit met gevoelige informatie.
 
 ### <a name="format"></a>Opmaak
 

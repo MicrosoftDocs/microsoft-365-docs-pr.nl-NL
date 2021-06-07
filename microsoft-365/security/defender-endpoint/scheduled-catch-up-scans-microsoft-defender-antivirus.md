@@ -11,17 +11,17 @@ localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 05/05/2021
+ms.date: 06/04/2021
 ms.reviewer: pauhijbr, ksarens
 manager: dansimp
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: 1748a33be2c27123eb0437784dcdb2cb7905616a
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: f1344026878b7fbd6242d82b1afb0e6671c32073
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274686"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52789266"
 ---
 # <a name="configure-scheduled-quick-or-full-microsoft-defender-antivirus-scans"></a>Geplande snelle of volledige Microsoft Defender Antivirus-scans configureren
 
@@ -73,8 +73,8 @@ Gebruik de volgende tabel om een scantype te kiezen.
 |Scenario  |Aanbevolen scantype  |
 |---------|---------|
 |U wilt normale, geplande scans instellen     | Snelle scan <p>Met een snelle scan worden de processen, het geheugen, de profielen en bepaalde locaties op het apparaat gecontroleerd. In combinatie [met realtime-beveiliging](configure-real-time-protection-microsoft-defender-antivirus.md)die altijd wordt gebruikt, biedt een snelle scan een sterke dekking voor malware die begint met het systeem en malware op kernelniveau. Realtime beveiliging controleert bestanden wanneer ze worden geopend en gesloten en wanneer een gebruiker naar een map navigeert.         |
-|Bedreigingen, zoals malware, worden gedetecteerd op een apparaat     | Volledige scan <p>Een volledige scan kan helpen bepalen of er inactieve onderdelen zijn die een grondigere opruiming vereisen.         |
-|U wilt een [scan op aanvraag uitvoeren](run-scan-microsoft-defender-antivirus.md)     | Volledige scan  <p>Een volledige scan bekijkt alle bestanden op de apparaatschijf, inclusief bestanden die verouderd, gearchiveerd en niet dagelijks worden geopend.      |
+|Bedreigingen, zoals malware, worden gedetecteerd op een afzonderlijk apparaat     | Snelle scan <p>In de meeste gevallen wordt met een snelle scan gedetecteerde malware gedetecteerd en verwijderd.   |
+|U wilt een [scan op aanvraag uitvoeren](run-scan-microsoft-defender-antivirus.md)     | Snelle scan       |
 | U wilt ervoor zorgen dat een draagbaar apparaat, zoals een USB-station, geen malware bevat | Aangepaste scan <p>Met een aangepaste scan kunt u specifieke locaties, mappen of bestanden selecteren en een snelle scan uitvoeren. |
 
 ### <a name="what-else-do-i-need-to-know-about-quick-and-full-scans"></a>Wat moet ik nog meer weten over snelle en volledige scans?
@@ -155,7 +155,7 @@ Gebruik de volgende cmdlets:
 Set-MpPreference -ScanOnlyIfIdleEnabled
 ```
 
-Zie [PowerShell-cmdlets](use-powershell-cmdlets-microsoft-defender-antivirus.md) gebruiken voor het configureren en uitvoeren van Microsoft Defender Antivirus [defender-cmdlets](/powershell/module/defender/)voor meer informatie.
+Zie [PowerShell-cmdlets gebruiken om Microsoft Defender Antivirus te configureren en uit te voeren](use-powershell-cmdlets-microsoft-defender-antivirus.md) en [Defender-cmdlets](/powershell/module/defender/) voor meer informatie.
 
 ### <a name="use-windows-management-instruction-wmi"></a>Gebruik Windows Management Instruction (WMI)
 

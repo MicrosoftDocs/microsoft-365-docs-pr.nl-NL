@@ -17,16 +17,16 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Gebruik Microsoft Endpoint Manager om uw apparaten, pc's en andere eindpunten te beheren.
-ms.openlocfilehash: 116f2a92ccae43a36a8a4ceafcd598c532a852c3
-ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
+ms.openlocfilehash: ef43f447b819a6e5d9d0de1d979d7d30887e30fb
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52028990"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52789101"
 ---
 # <a name="step-4-deploy-endpoint-management-for-your-devices-pcs-and-other-endpoints"></a>Stap 4. Eindpuntbeheer voor uw apparaten, pc's en andere eindpunten implementeren
 
-Als u externe medewerkers hebt, moet u steeds meer persoonlijke apparaten ondersteunen. Eindpuntbeheer biedt op beleid gebaseerde beveiliging waarbij apparaten moeten voldoen aan specifieke criteria voordat ze toegang krijgen tot bronnen. Microsoft Endpoint Manager biedt moderne beheermogelijkheden om uw gegevens in de cloud en on-premises veilig te houden. 
+Als u hybride medewerkers hebt, moet u steeds meer persoonlijke apparaten ondersteunen. Eindpuntbeheer biedt op beleid gebaseerde beveiliging waarbij apparaten moeten voldoen aan specifieke criteria voordat ze toegang krijgen tot bronnen. Microsoft Endpoint Manager biedt moderne beheermogelijkheden om uw gegevens in de cloud en on-premises veilig te houden. 
 
 [Microsoft Endpoint Manager](/mem/endpoint-manager-overview) biedt services en hulpprogramma‘s voor het beheer van mobiele apparaten, desktopcomputers, virtuele machines, embedded apparaten en servers door enkele services te combineren die u mogelijk al kent en gebruikt.
 
@@ -38,7 +38,7 @@ Microsoft Intune is een cloudservice die gericht is op Mobile Device Management 
 
 - **MDM:** geeft u volledige controle over apparaten die eigendom zijn van de organisatie, inclusief het bewerken van instellingen, functies en beveiliging. Apparaten zijn 'geregistreerd' in Intune waar ze Intune-beleid met regels en instellingen ontvangen. U kunt bijvoorbeeld wachtwoord- en PIN-vereisten instellen, een VPN-verbinding aanmaken, bedreigingsbeveiliging instellen en meer.
 
-- **MAM:** externe werknemers willen misschien niet dat u volledige controle hebt over hun persoonlijke apparaten, ook wel bekend als Bring-Your-Own-Device (BYOD). U kunt voor externe werknemers opties beschikbaar maken en toch uw organisatie beschermen. Zo kunnen externe werknemers hun apparaten registreren voor volledige toegang tot de resources van uw organisatie. Als deze gebruikers alleen toegang willen tot e-mail of Microsoft Teams, kunt u app-beveiligingsbeleid gebruiken waarvoor meervoudige verificatie (MFA) vereist is om deze apps te kunnen gebruiken.
+- **MAM:** externe werknemers willen misschien niet dat u volledige controle hebt over hun persoonlijke apparaten, ook wel bekend als Bring-Your-Own-Device (BYOD). Voor hybride werknemers kunt u opties beschikbaar stellen en toch uw organisatie beschermen. Zo kunnen hybride werknemers hun apparaten registreren voor volledige toegang tot de resources van uw organisatie. Als deze gebruikers alleen toegang willen tot e-mail of Microsoft Teams, kunt u app-beveiligingsbeleid gebruiken waarvoor meervoudige verificatie (MFA) vereist is om deze apps te kunnen gebruiken.
 
 Zie voor meer informatie dit [overzicht van Microsoft Intune](/intune/fundamentals/what-is-intune).
 
@@ -95,4 +95,4 @@ U gebruikt de reeks functies en mogelijkheden van Endpoint Manager om mobiele ap
 
 [![Stap 5: Productiviteitsapps en -services voor externe medewerkers implementeren](../media/empower-people-to-work-remotely/remote-workers-step-grid-5.png)](empower-people-to-work-remotely-teams-productivity-apps.md)
 
-Ga verder met [stap 5](empower-people-to-work-remotely-teams-productivity-apps.md) om te zorgen dat externe werknemers productiviteits-apps voor Microsoft 365 gaan gebruiken, zoals Microsoft Teams.
+Ga verder met [stap 5](empower-people-to-work-remotely-teams-productivity-apps.md) om te zorgen dat hybride werknemers productiviteits-apps voor Microsoft 365 gaan gebruiken, zoals Microsoft Teams.

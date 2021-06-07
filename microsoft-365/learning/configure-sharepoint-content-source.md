@@ -1,10 +1,10 @@
 ---
-title: 'Binnenkort beschikbaar: SharePoint configureren als een bron van leerinhoud voor Microsoft Viva Learning (preview)'
+title: Een SharePoint als een bron van leerinhoud configureren voor Microsoft Viva Learning (preview)
 ms.author: chucked
 author: chuckedmonson
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 05/12/2021
+ms.date: ''
 audience: admin
 ms.topic: article
 ms.service: ''
@@ -14,127 +14,132 @@ ms.collection:
 - enabler-strategic
 - m365initiative-viva-learning
 localization_priority: None
-description: Informatie over het configureren van SharePoint als een bron van leerinhoud voor Microsoft Viva Learning (Preview).
-ms.openlocfilehash: 2bed3a42d62e2aab2165ee38379eb07503807e6e
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+description: Meer informatie over het configureren SharePoint als een leerinhoudsbron voor Microsoft Viva Learning (Preview).
+ms.openlocfilehash: 29ac15abe3a915213306ebfdf8ebab8f89730f20
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52333576"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782775"
 ---
-# <a name="coming-soon-configure-sharepoint-as-a-learning-content-source-for-microsoft-viva-learning-preview"></a>Binnenkort beschikbaar: SharePoint configureren als een bron van leerinhoud voor Microsoft Viva Learning (preview)
+# <a name="configure-sharepoint-as-a-learning-content-source-for-microsoft-viva-learning-preview"></a>Een SharePoint als een bron van leerinhoud configureren voor Microsoft Viva Learning (preview)
 
 > [!NOTE]
-> De informatie in dit artikel heeft betrekking op een voorbeeldproduct dat aanzienlijk kan worden gewijzigd voordat het commercieel wordt uitgebracht. 
+> Deze functie is nog niet beschikbaar in productvoorbeeld. 
 
-U kunt SharePoint configureren als een bron voor leerinhoud om de eigen inhoud van uw organisatie beschikbaar te maken in Viva Learning (Preview).
 
-## <a name="overview"></a>Overzicht
 
-De kennisbeheerder (of globale beheerder) biedt een site-URL aan waar de Leerservice een lege gecentraliseerde locatie kan maken, de Learning App Content Repository, in de vorm van een gestructureerde SharePoint-lijst. Deze lijst kan door uw organisatie worden gebruikt om koppelingen naar SharePoint-mappen met meerdere bedrijven te huis houden die leerinhoud bevatten. Beheerders zijn verantwoordelijk voor het verzamelen en cureren van een lijst met URL's voor mappen. Deze mappen mogen alleen inhoud bevatten die beschikbaar kan worden gesteld in Viva Learning (preview).
+<!---
 
-Viva Learning (Preview) ondersteunt de volgende documenttypen:
+You can configure SharePoint as a learning content source to make your organization's own content available in Viva Learning (Preview).
+
+## Overview
+
+The knowledge admin (or global administrator) provides a site URL to where the Learning Service can create an empty centralized location—the Learning App Content Repository—in the form of a structured SharePoint list. This list can be used by your organization to house links to cross-company SharePoint folders that contain learning content. Admins are responsible for collecting and curating a list of URLs for folders. These folders should only include content that can be made available in Viva Learning (Preview).
+
+Viva Learning (Preview) supports the following document types:
 
 - Word, PowerPoint, Excel, PDF
 - Audio (.m4a)
 - Video (.mov, .mp4, .avi)
 
-Zie [SharePoint-limieten voor meer informatie.](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits?redirectSourcePath=%252farticle%252fSharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498) 
+For more information, see [SharePoint limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits?redirectSourcePath=%252farticle%252fSharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498). 
 
-## <a name="permissions"></a>Machtigingen
+## Permissions
 
-URL's van documentbibliotheekmappen kunnen worden verzameld vanaf elke SharePoint-site in de organisatie. Viva Learning (Preview) volgt alle bestaande inhoudsmachtigingen. Daarom is alleen inhoud waarvoor een gebruiker toegang heeft, doorzoekbaar en zichtbaar in Viva Learning (Preview). Inhoud in deze mappen kan worden doorzocht, maar alleen inhoud waaraan de afzonderlijke werknemer machtigingen heeft, kan worden gebruikt.
+Document library folder URLs can be collected from any SharePoint site in the organization. Viva Learning (Preview) follows all existing content permissions. Therefore, only content for which a user has permission to access is searchable and visible within Viva Learning (Preview). Any content within these folders will be searchable, but only content to which the individual employee has permissions can be used.
 
-Het verwijderen van inhoud uit de opslagplaats van uw organisatie wordt momenteel niet ondersteund.
+Content deletion from your organization’s repository is not currently supported.
 
-Als u onbedoeld opgedoken inhoud wilt verwijderen, gaat u als volgt te werk:
+To remove unintentionally surfaced content, follow these steps:
 
-1.  Als u de toegang tot de documentbibliotheek wilt beperken, selecteert u de optie Acties **tonen** en selecteert u **Vervolgens Toegang beheren.**
+1.  To restrict access to the document library, select the **Show actions** option, and then select **Manage access**.
      
-     ![Pagina documentbibliotheek in SharePoint met de optie Acties weergeven met Toegang hoogbedeeld beheren.](../media/learning/learning-sharepoint-permissions2.png)
+     ![Document library page in SharePoint showing Show actions option with Manage access highligted.](../media/learning/learning-sharepoint-permissions2.png)
 
-2.  Verwijder het oorspronkelijke document in de documentbibliotheek.
+2.  Delete the original document within the document library.
 
-Zie Delen en machtigingen in de [moderne SharePoint-ervaring](/sharepoint/modern-experience-sharing-permissions)voor meer informatie. 
+For more information, see [Sharing and permissions in the SharePoint modern experience](/sharepoint/modern-experience-sharing-permissions). 
 
-## <a name="learning-service"></a>Leerservice
+## Learning Service
 
-De Learning Service gebruikt de meegeleverde map-URL's om metagegevens op te halen uit alle inhoud die in die mappen is opgeslagen. Binnen 24 uur na het leveren van de MAP-URL in de gecentraliseerde opslagplaats kunnen werknemers de inhoud van uw organisatie zoeken en gebruiken in Viva Learning (Preview). Alle wijzigingen in inhoud, inclusief bijgewerkte metagegevens en machtigingen, worden ook binnen 24 uur toegepast in de Leerservice.
+The Learning Service uses the provided folder URLs to get metadata from all content stored in those folders. Within 24 hours of supplying the folder URL in the centralized repository, employees can search for and use your organization’s content within Viva Learning (Preview). All changes to content, including updated metadata and permissions, will also be applied in the Learning Service within 24 hours.
 
-## <a name="configure-sharepoint-as-a-source"></a>SharePoint configureren als bron
+## Configure SharePoint as a source
 
-U moet een globale beheerder van Microsoft 365, SharePoint-beheerder of kennisbeheerder zijn om deze taken uit te voeren.
+You must be a Microsoft 365 global administrator, SharePoint administrator, or knowledge admin to perform these tasks.
 
-Als u SharePoint wilt configureren als bronnen voor leerinhoud in voor Viva Learning (Voorbeeld), volgt u de volgende stappen:
+To configure SharePoint as a learning content sources in for Viva Learning (Preview), follow these steps:
 
-1.  Ga in de linkernavigatie van het Microsoft 365-beheercentrum naar **Instellingen**  >  **organisatie-instellingen.**
+1.  In the left navigation of the Microsoft 365 admin center, go to **Settings** > **Org settings**.
  
-2.  Selecteer op **de pagina Organisatie-instellingen** op het **tabblad Services** de optie Viva **Learning (voorbeeld)**.
+2.  On the **Org settings** page, on the **Services** tab, select **Viva Learning (Preview)**.
 
-     ![Pagina Instellingen in het Microsoft 365-beheercentrum waarin Viva Learning wordt weergegeven.](../media/learning/learning-sharepoint-configure1.png)
+     ![Settings page in the Microsoft 365 admin center showing Viva Learning listed.](../media/learning/learning-sharepoint-configure1.png)
 
-3.  In het **deelvenster Viva Learning (Preview)** onder SharePoint wordt de SITE-URL naar de SharePoint-site weergegeven waarin u wilt dat Viva Learning (Preview) een gecentraliseerde opslagplaats maakt.
+3.  On the **Viva Learning (Preview)** panel, under SharePoint, provides the site URL to the SharePoint site where you want Viva Learning (Preview) to create a centralized repository.
 
-     ![Leerpaneel in het Microsoft 365-beheercentrum met SharePoint geselecteerd.](../media/learning/learning-sharepoint-configure2.png)
+     ![Learning panel in the Microsoft 365 admin center showing SharePoint selected.](../media/learning/learning-sharepoint-configure2.png)
 
-4.  Er wordt automatisch een SharePoint-lijst gemaakt op de opgegeven SharePoint-site.
+4.  A SharePoint list is created automatically within the provided SharePoint site.
 
-     ![Nieuw gemaakte SharePoint-lijst op de SharePoint-site.](../media/learning/learning-sharepoint-configure3.png)
+     ![Newly created SharePoint list within the SharePoint site.](../media/learning/learning-sharepoint-configure3.png)
 
-     Selecteer in de linkernavigatie van de SharePoint-site **de optie Site-inhoud**  >  **Learning App Content Repository.** 
+     In the left navigation of the SharePoint site, select **Site contents** > **Learning App Content Repository**. 
 
-     ![SharePoint-lijst met de navigatie van site-inhoud en de sectie Inhoudsopslag voor leer-apps.](../media/learning/learning-sharepoint-configure4.png) 
+     ![SharePoint list showing the Site contents navigation and the Learning App Content Repository section.](../media/learning/learning-sharepoint-configure4.png) 
 
-5. Vul op **de pagina Inhoudsopslag** van leer-apps de SharePoint-lijst met URL's in naar de mappen met leerinhoud.
+5. On the **Learning App Content Repository** page, populate the SharePoint list with URLs to the learning content folders.
 
-   1. Selecteer **Nieuw om** het deelvenster Nieuw item **te** bekijken. 
+   1. Select **New** to view the **New item** panel. 
 
-       ![Pagina Learning Content Repository in SharePoint met de optie Nieuw.](../media/learning/learning-sharepoint-configure5.png)
+       ![Learning Content Repository page in SharePoint showing the New option.](../media/learning/learning-sharepoint-configure5.png)
  
-   2. Voeg in **het deelvenster** Nieuw item in **het** veld Titel een adreslijstnaam van uw keuze toe. Voeg in **het veld Map-URL** de URL toe aan de map leerinhoud. Selecteer **Opslaan**.
+   2. On the **New item** panel, in the **Title** field, add a directory name of your choice. In the **Folder URL** field, add the URL to the learning content folder. Select **Save**.
 
-       ![Het deelvenster Nieuw item in SharePoint met de velden Titel en Map-URL.](../media/learning/learning-sharepoint-configure6.png)
+       ![New item panel in SharePoint showing the Title and Folder URL fields.](../media/learning/learning-sharepoint-configure6.png)
 
-   3. De **pagina Learning App Content Repository** wordt bijgewerkt met de nieuwe leerinhoud.
+   3. The **Learning App Content Repository** page is updated with the new learning content.
 
-       ![Pagina Learning Content Repository in SharePoint met de bijgewerkte informatie.](../media/learning/learning-sharepoint-configure7.png)
+       ![Learning Content Repository page in SharePoint showing the updated information.](../media/learning/learning-sharepoint-configure7.png)
 
 > [!NOTE]
-> Als u een bredere toegang tot de Inhoudsopslagplaats voor leer-apps wilt toestaan, is er binnenkort een koppeling naar de lijst beschikbaar in de interface Viva Learning (Preview), waar gebruikers toegang kunnen aanvragen en uiteindelijk kunnen helpen de lijst in te vullen. Site-eigenaren en globale beheerders moeten toegang verlenen tot de lijst. Access is alleen specifiek voor de lijst en is niet van toepassing op de site waar de lijst is opgeslagen. Zie De inhoud van [uw](#provide-your-own-organizations-content) eigen organisatie later in dit artikel verstrekken voor meer informatie.
+> To allow for broader access to the Learning App Content Repository, a link to the list soon will be available in the Viva Learning (Preview) interface where users can request access and ultimately help populate the list. Site owners and global administrators will be required to grant access to the list. Access is specific to the list only and does not apply to the site where the list is stored. For more information, see [Provide your own organization's content](#provide-your-own-organizations-content) later in this article.
 
-### <a name="folder-url-document-library-curation"></a>Map URL document library curation
+### Folder URL document library curation
 
-Standaardmetagegevens (zoals gewijzigde datum, gemaakt door, documentnaam, inhoudstype en organisatienaam) worden automatisch in Viva Learning (Preview) getrokken door de Microsoft Graph-API.
+Default metadata (such as modified date, created by, document name, content type, and organization name) is automatically pulled into Viva Learning (Preview) by the Microsoft Graph API.
  
-Als u de algehele detectie en zoekrelevantie van de inhoud wilt verbeteren, raden we u aan een kolom **Beschrijving toe te** voegen.
+To improve overall discovery and search relevance of the content, we recommend adding a **Description** column.
 
-Als u een kolom **Beschrijving wilt** toevoegen aan de pagina van de documentbibliotheek, gaat u als volgt te werk:
+To add a **Description** column to the document library page, follow these steps:
 
-1.  Selecteer op **de pagina** Documenten de optie **Kolom toevoegen.**
+1.  On the **Documents** page, select **Add column**.
 
-2. Selecteer de **optie Acties tonen** en selecteer vervolgens Enkele regel **tekst.**
+2. Select the **Show actions** option, and then select **Single line of text**.
 
-     ![Pagina Documenten in SharePoint met de opties Voor acties weergeven met Één regel tekst gemarkeerd.](../media/learning/learning-sharepoint-curation1.png)
+     ![Documents page in SharePoint showing the Show actions options with Single line of text highlighted.](../media/learning/learning-sharepoint-curation1.png)
 
-3. Voeg in **het deelvenster** Een kolom maken in het veld **Naam** een beschrijvende naam voor de kolom toe. Selecteer **Opslaan**.
+3. On the **Create a column** panel, in the **Name** field, add a descriptive name for the column. Select **Save**.
 
-     ![Maak een kolomvenster in SharePoint met de velden Naam en andere velden.](../media/learning/learning-sharepoint-curation2.png)
+     ![Create a column panel in SharePoint showing the Name and other fields.](../media/learning/learning-sharepoint-curation2.png)
  
-4. Voeg op **de** pagina Documenten in **de** kolom Beschrijving aangepaste beschrijvingen toe voor elk item. Als er geen beschrijving wordt opgegeven, wordt in Viva Learning (Preview) een standaardbericht weergegeven waarin de inhoud wordt benadrukt als afkomstig uit uw eigen SharePoint-bibliotheek. 
+4. On the **Documents** page, in the **Description** column, add custom descriptions for each item. If no description is supplied, Viva Learning (Preview) will provide a default message that highlights the content as being from your own SharePoint library. 
 
-     ![Pagina Documenten in SharePoint met de beschrijvingen in de kolom Beschrijving.](../media/learning/learning-sharepoint-curation3.png)
+     ![Documents page in SharePoint showing the descriptions in the Description column.](../media/learning/learning-sharepoint-curation3.png)
  
-### <a name="provide-your-own-organizations-content"></a>De inhoud van uw eigen organisatie leveren
+### Provide your own organization's content
 
-Kennisbeheerders hebben toegang tot de Learning App Content Repository van hun organisatie in SharePoint, waar ze verwijzingen kunnen geven naar documentbibliotheken binnen verschillende organisaties. Inhoud in deze bibliotheken wordt vervolgens weergegeven als leerinhoud in Viva Learning (Preview).
+Knowledge admins can access their organization’s Learning App Content Repository in SharePoint, where they can provide references to cross-organization document libraries. Content within these libraries will be then surfaced as learning content in Viva Learning (Preview).
 
-1. Selecteer in Viva Learning (Preview) **Meer opties** **(...)** en selecteer vervolgens **Instellingen.**
+1. In Viva Learning (Preview), select **More options** (**...**), and then select **Settings**.
 
-     ![SharePoint-bibliotheekpagina met de optie Meer opties en Instellingen.](../media/learning/learning-sharepoint-library-1.png)
+     ![SharePoint library page showing the More options and Settings option.](../media/learning/learning-sharepoint-library-1.png)
      
-2. Selecteer **onder Instellingen** de optie **Machtigingen.**
+2. Under **Settings**, select **Permissions**.
 
-     ![Optiepagina Instellingen in SharePoint met de opties Machtigingen en Toegang controleren.](../media/learning/learning-sharepoint-library-2.png)
+     ![Settings option page in SharePoint showing the Permissions and Check access options.](../media/learning/learning-sharepoint-library-2.png)
 
-3. Selecteer **Toegang controleren** om verbinding te maken met de gecentraliseerde bibliotheek van uw organisatie.
+3. Select **Check access** to connect to your organization’s centralized library.
      
+--->

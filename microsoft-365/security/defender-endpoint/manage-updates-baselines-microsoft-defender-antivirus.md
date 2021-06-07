@@ -16,13 +16,13 @@ ms.custom: nextgen
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.date: 06/03/2021
-ms.openlocfilehash: e67f783552cca5cc36c1563f5e5557796028ea18
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.date: 06/04/2021
+ms.openlocfilehash: 264a3b7a4a24c446048d6cfc6863f1ae9765566f
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52772015"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52789181"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>Updates Microsoft Defender Antivirus en basislijnen toepassen
 
@@ -83,6 +83,21 @@ Al onze updates bevatten
 - integratieverbeteringen (Cloud, Microsoft 365 Defender).
 <br/>
 <details>
+<summary> Mei-2021 (Platform: 4.18.2105.4 | Motor: 1.1.18200.4)</summary>
+
+&ensp;Versie van beveiligingsinformatieupdate: **1.341.8.0**  
+&ensp;Uitgebracht: **4 juni 2021**  
+&ensp;Platform: **4.18.2105.4**  
+&ensp;Motor: **1.1.18200.4**  
+&ensp;Ondersteuningsfase: **Beveiligings- en kritieke updates**
+    
+### <a name="whats-new"></a>Wat is er nieuw
+- Verbeteringen in gedragscontrole 
+
+### <a name="known-issues"></a>Bekende problemen
+Geen bekende problemen  
+<br/>
+</details><details>
 <summary> April-2021 (Platform: 4.18.2104.14 | Engine: 1.1.18100.5)</summary>
 
 &ensp;Versie van beveiligingsinformatieupdate: **1.337.2.0**  
@@ -98,9 +113,7 @@ Al onze updates bevatten
 ### <a name="known-issues"></a>Bekende problemen
 Geen bekende problemen  
 <br/>
-</details>
-
-<details>
+</details><details>
 <summary> Maart-2021 (Platform: 4.18.2103.7 | Motor: 1.1.18000.5)</summary>
 
 &ensp;Versie van beveiligingsinformatieupdate: **1.335.36.0**  
@@ -118,14 +131,20 @@ Geen bekende problemen
 ### <a name="known-issues"></a>Bekende problemen
 Geen bekende problemen  
 <br/>
-</details><details>
+</details>
+
+### <a name="previous-version-updates-technical-upgrade-support-only"></a>Eerdere versieupdates: Alleen ondersteuning voor technische upgrade
+
+Nadat een nieuwe pakketversie is uitgebracht, wordt de ondersteuning voor de vorige twee versies beperkt tot alleen technische ondersteuning. Versies die ouder zijn dan die in deze sectie worden weergegeven, en alleen beschikbaar zijn voor ondersteuning voor technische upgrades. 
+<br/><br/>
+<details>
 <summary> Februari-2021 (Platform: 4.18.2102.3 | Motor: 1.1.17900.7)</summary>
 
 &ensp;Versie van beveiligingsinformatieupdate: **1.333.7.0**  
 &ensp;Uitgebracht: **9 maart 2021**  
 &ensp;Platform: **4.18.2102.3**  
 &ensp;Motor: **1.1.17900.7**  
-&ensp;Ondersteuningsfase: **Beveiligings- en kritieke updates**
+&ensp;Ondersteuningsfase: **Ondersteuning voor technische upgrade (alleen)**
     
 ### <a name="whats-new"></a>Wat is er nieuw
 
@@ -135,13 +154,7 @@ Geen bekende problemen
 ### <a name="known-issues"></a>Bekende problemen
 Geen bekende problemen  
 <br/>
-</details>
-
-### <a name="previous-version-updates-technical-upgrade-support-only"></a>Eerdere versieupdates: Alleen ondersteuning voor technische upgrade
-
-Nadat een nieuwe pakketversie is uitgebracht, wordt de ondersteuning voor de vorige twee versies beperkt tot alleen technische ondersteuning. Versies die ouder zijn dan die in deze sectie worden weergegeven, en alleen beschikbaar zijn voor ondersteuning voor technische upgrades. 
-<br/><br/>
-<details>
+</details><details>
 <summary> Januari-2021 (Platform: 4.18.2101.9 | Motor: 1.1.17800.5)</summary>
 
 &ensp;Versie van beveiligingsinformatieupdate: **1.327.1854.0**  

@@ -16,12 +16,12 @@ ms.custom: autoir
 ms.reviewer: evaldm, isco
 f1.keywords: CSH
 ms.technology: m365d
-ms.openlocfilehash: 685c23f4e8daac4f00e0bbd90dcaca9a80703559
-ms.sourcegitcommit: a3359982fea01339c7377e3ee89f223788cee0bf
+ms.openlocfilehash: 48d299f2318b0a1be251132a4b50a333a1a0c7a8
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52696512"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782955"
 ---
 # <a name="configure-automated-investigation-and-response-capabilities-in-microsoft-365-defender"></a>Geautomatiseerde onderzoeks- en antwoordmogelijkheden configureren in Microsoft 365 Defender
 
@@ -73,8 +73,8 @@ Beveiligingsinstellingen in Office 365 helpen bij het beveiligen van e-mail en i
 
 1. Ga in Microsoft 365 beveiligingscentrum [https://security.microsoft.com](https://security.microsoft.com) () naar **Beleidsregels & beleidsregels** \> **voor bedreigingsregels.**
 2. Zorg ervoor dat alle volgende beleidsregels zijn geconfigureerd. Zie Beschermen tegen bedreigingen voor hulp en [aanbevelingen.](/microsoft-365/security/office-365-security/protect-against-threats)
-   - [Anti-malware)](../office-365-security/protect-against-threats.md#part-1---anti-malware-protection-in-eop)
-   - [Anti-phishing)](../office-365-security/protect-against-threats.md#part-2---anti-phishing-protection)
+   - [Anti-malware](../office-365-security/protect-against-threats.md#part-1---anti-malware-protection-in-eop)
+   - [Anti-phishing](../office-365-security/protect-against-threats.md#part-2---anti-phishing-protection)
    - [Veilige bijlagen](../office-365-security/protect-against-threats.md#safe-attachments-policies-in-microsoft-defender-for-office-365)
    - [Veilige koppelingen](../office-365-security/protect-against-threats.md#safe-links-policies-in-microsoft-defender-for-office-365)
    - [Antispam](../office-365-security/protect-against-threats.md#part-3---anti-spam-protection-in-eop)

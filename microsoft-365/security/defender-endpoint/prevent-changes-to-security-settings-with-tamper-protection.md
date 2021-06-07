@@ -17,12 +17,12 @@ ms.custom: nextgen
 ms.technology: mde
 ms.topic: article
 ms.date: 05/17/2021
-ms.openlocfilehash: ed9eb425d718a2dbdaa2cdb3ab1e6899c9870124
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 2d212bedf9033b0824d32e7f42afea3944d9ca67
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538881"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782811"
 ---
 # <a name="protect-security-settings-with-tamper-protection"></a>Beveiligingsinstellingen beveiligen tegen onrechtmatig wijzigen
 
@@ -257,7 +257,7 @@ Als u een organisatie bent die [Microsoft Defender](/microsoft-365/security/defe
 
 - [Beveiliging van fraude beheren met Intune](#manage-tamper-protection-for-your-organization-using-intune)
 - [Beveiliging van fraude beheren met Configuration Manager, versie 2006](#manage-tamper-protection-for-your-organization-with-configuration-manager-version-2006)
-- [Beveiliging van tamper beheren met behulp Microsoft Defender-beveiligingscentrum](#manage-tamper-protection-for-your-organization-using-the-microsoft-defender-security-center) (momenteel in preview)
+- [Beveiliging van tamper beheren met behulp van de Microsoft Defender-beveiligingscentrum](#manage-tamper-protection-for-your-organization-using-the-microsoft-defender-security-center) 
 
 ### <a name="how-does-configuring-tamper-protection-in-intune-affect-how-i-manage-microsoft-defender-antivirus-through-my-group-policy"></a>Hoe beïnvloedt het configureren van beveiliging tegen geknoei in Intune de manier waarop ik Microsoft Defender Antivirus mijn groepsbeleid beheer?
 

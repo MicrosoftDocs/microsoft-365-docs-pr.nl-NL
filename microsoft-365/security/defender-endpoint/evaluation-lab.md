@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f6ef1d3dbc111e5d10bf4d3c42dfd08e5e9d63e3
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: c785dbb759afe77b14f41985b9f451a4ec52e29f
+ms.sourcegitcommit: 83df0be7144c9c5d606f70b4efa65369e86693d2
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730635"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52778231"
 ---
 # <a name="microsoft-defender-for-endpoint-evaluation-lab"></a>Microsoft Defender voor endpoint-evaluatielaboratorium
 
@@ -118,17 +118,17 @@ Het apparaat wordt automatisch onboarded bij uw tenant met de aanbevolen Windows
 
 De volgende beveiligingsonderdelen zijn vooraf geconfigureerd in de testapparaten:
 
-- [Kwetsbaarheid voor aanvallen verminderen](attack-surface-reduction.md)
-- [Blok op het eerste gezicht](configure-block-at-first-sight-microsoft-defender-antivirus.md)
-- [Beheerde maptoegang](controlled-folders.md)
-- [Bescherming tegen misbruik](enable-exploit-protection.md)
-- [Netwerkbeveiliging](network-protection.md)
-- [Potentieel ongewenste toepassingsdetectie](detect-block-potentially-unwanted-apps-microsoft-defender-antivirus.md)
-- [Beveiliging in de cloud](cloud-protection-microsoft-defender-antivirus.md)
-- [Microsoft Defender SmartScreen](/windows/security/threat-protection/microsoft-defender-smartscreen/microsoft-defender-smartscreen-overview)
+- [Kwetsbaarheid voor aanvallen verminderen](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard)
+- [Blok op het eerste gezicht](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-block-at-first-sight-microsoft-defender-antivirus)
+- [Beheerde maptoegang](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/controlled-folders-exploit-guard)
+- [Bescherming tegen misbruik](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/enable-exploit-protection)
+- [Netwerkbeveiliging](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/network-protection-exploit-guard)
+- [Potentieel ongewenste toepassingsdetectie](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus)
+- [Beveiliging in de cloud](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/utilize-microsoft-cloud-protection-microsoft-defender-antivirus)
+- [Microsoft Defender SmartScreen](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-smartscreen/windows-defender-smartscreen-overview)
 
 >[!NOTE]
-> Microsoft Defender Antivirus is aan (niet in de auditmodus). Als Microsoft Defender Antivirus de simulatie niet kunt uitvoeren, kunt u realtimebeveiliging op het apparaat uitschakelen via Windows-beveiliging. Zie [Always-on protection configureren](configure-real-time-protection-microsoft-defender-antivirus.md)voor meer informatie.
+> Microsoft Defender Antivirus is aan (niet in de auditmodus). Als Microsoft Defender Antivirus de simulatie niet kunt uitvoeren, kunt u realtimebeveiliging op het apparaat uitschakelen via Windows-beveiliging. Zie [Always-on protection configureren](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus)voor meer informatie.
 
 Geautomatiseerde onderzoeksinstellingen zijn afhankelijk van tenantinstellingen. Deze wordt standaard geconfigureerd als semi-geautomatiseerd. Zie Overzicht van geautomatiseerde onderzoeken voor [meer informatie.](automated-investigations.md)
 
@@ -190,7 +190,7 @@ U kunt aanvalsscenario's simuleren met behulp van:
 - De [aanvalsscenario's 'Doe het zelf'](https://securitycenter.windows.com/tutorials)
 - Bedreigingssimulatoren
 
-U kunt ook Geavanceerd zoeken [gebruiken](advanced-hunting-overview.md) om gegevens op te vragen en [bedreigingsanalyses](threat-analytics.md) te gebruiken om rapporten over nieuwe bedreigingen weer te geven.
+U kunt ook Geavanceerd zoeken [gebruiken](advanced-hunting-query-language.md) om gegevens op te vragen en [bedreigingsanalyses](threat-analytics.md) te gebruiken om rapporten over nieuwe bedreigingen weer te geven.
 
 ### <a name="do-it-yourself-attack-scenarios"></a>Doe-het-zelf-aanvalsscenario's
 Als u op zoek bent naar een vooraf gemaakte simulatie, kunt u onze aanvalsscenario's ['Doe het zelf' gebruiken.](https://securitycenter.windows.com/tutorials) Deze scripts zijn veilig, gedocumenteerd en eenvoudig te gebruiken. Deze scenario's weerspiegelen de mogelijkheden van Defender voor eindpunten en helpen u bij het onderzoeken.

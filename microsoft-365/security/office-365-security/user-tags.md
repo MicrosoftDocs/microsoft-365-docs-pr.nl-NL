@@ -13,27 +13,27 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
-description: Beheerders kunnen leren hoe u specifieke groepen gebruikers kunt identificeren met gebruikerslabels in Microsoft Defender voor Office 365-abonnement 2. Tagfiltering is beschikbaar in waarschuwingen, rapporten en onderzoeken in Microsoft Defender voor Office 365 om snel de gelabelde gebruikers te identificeren.
+description: Beheerders kunnen leren hoe u specifieke groepen gebruikers kunt identificeren met gebruikerslabels in Microsoft Defender voor Office 365 plan 2. Tagfiltering is beschikbaar in waarschuwingen, rapporten en onderzoeken in Microsoft Defender voor Office 365 om snel de gelabelde gebruikers te identificeren.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2c1dc426bae77cd35b567bf166032855327a8ffe
-ms.sourcegitcommit: 682ed2c4e2bc6979025cdb89094866cef6c8751a
+ms.openlocfilehash: 44b925840700c00c6b2d28c445ac26abd6624d1c
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51943009"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782859"
 ---
 # <a name="user-tags-in-microsoft-defender-for-office-365"></a>Gebruikerslabels in Microsoft Defender voor Office 365
 
 > [!NOTE]
-> De functie gebruikerslabels is beschikbaar in Preview, is niet voor iedereen beschikbaar en kan worden gewijzigd. Voor meer informatie over de releaseplanning raadpleegt u de [routekaart voor Microsoft 365.](https://www.microsoft.com/microsoft-365/roadmap)
+> De functie gebruikerslabels is beschikbaar in Preview, is niet voor iedereen beschikbaar en kan worden gewijzigd. Voor meer informatie over de releaseplanning raadpleegt u [de Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap).
 
 Gebruikerslabels zijn id's voor specifieke groepen gebruikers in [Microsoft Defender voor Office 365.](defender-for-office-365.md) Er zijn twee typen gebruikerslabels:
 
 - **Systeemlabels:** Momenteel is [Prioriteitsaccounts](../../admin/setup/priority-accounts.md) het enige type systeemlabel.
 - **Aangepaste tags:** u maakt deze gebruikerslabels zelf.
 
-Als uw organisatie Defender voor Office 365-abonnement 2 heeft (inbegrepen in uw abonnement of als invoegvoeggebruik), kunt u aangepaste gebruikerslabels maken naast het gebruik van de tag prioriteitsaccounts.
+Als uw organisatie Defender voor Office 365 abonnement 2 (inbegrepen in uw abonnement of als een invoegvoeggebruik) heeft, kunt u naast het gebruik van de tag prioriteitsaccounts ook aangepaste gebruikerslabels maken.
 
 > [!NOTE]
 > Momenteel kunt u alleen gebruikerslabels toepassen op postvakgebruikers.
@@ -44,14 +44,14 @@ Nadat u systeemlabels of aangepaste tags op gebruikers hebt toegepast, kunt u de
 - [Threat Explorer en realtime detecties](threat-explorer.md)
 - [Statusrapport bedreigingsbeveiliging](view-email-security-reports.md#threat-protection-status-report)
 - [Campagneweergaven](campaigns.md)
-- Voor prioriteitsaccounts kunt u het rapport [E-mailproblemen voor prioriteitsaccounts](/exchange/monitoring/mail-flow-reports/mfr-email-issues-for-priority-accounts-report) gebruiken in het Exchange-beheercentrum (EAC).
+- Voor prioriteitsaccounts kunt u het rapport [E-mailproblemen voor prioriteitsaccounts](/exchange/monitoring/mail-flow-reports/mfr-email-issues-for-priority-accounts-report) gebruiken in Exchange beheercentrum (EAC).
 
 In dit artikel wordt uitgelegd hoe u gebruikerslabels configureert in & Compliancecentrum. Er zijn geen cmdlets in & compliancecentrum om gebruikerslabels te beheren.
 
-Zie Beveiligingsaanbevelingen voor [prioriteitsaccounts in Microsoft 365](security-recommendations-for-priority-accounts.md)als u wilt zien hoe gebruikerslabels deel uitmaken van de strategie voor het beschermen van gebruikersaccounts met een hoge impact.
+Zie Beveiligingsaanbevelingen voor [prioriteitsaccounts in](security-recommendations-for-priority-accounts.md)Microsoft 365.
 
 > [!NOTE]
-> Als u het geïntegreerde Microsoft 365-beveiligingscentrum gebruikt, kunt u hier tags instellen: https://security.microsoft.com/userTags .
+> Als u het geïntegreerde beveiligingscentrum Microsoft 365, kunt u hier tags instellen: https://security.microsoft.com/securitysettings/userTags .
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
@@ -64,12 +64,13 @@ Zie Beveiligingsaanbevelingen voor [prioriteitsaccounts in Microsoft 365](securi
 
   Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
 
-  **Opmerkingen**:
+  > [!NOTE]
+  >
+  > - Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen in het Beveiligings- en compliancecentrum _en_ machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
+  >
+  > - Gebruikerslabelbeheer wordt beheerd door de rollen **Tag Reader** en **Tag Manager.**
 
-  - Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen in het Beveiligings- en compliancecentrum _en_ machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
-  - Gebruikerslabelbeheer wordt beheerd door de rollen **Tag Reader** en **Tag Manager.**
-
-- U kunt ook prioriteitsaccounts beheren en controleren in het Microsoft 365-beheercentrum. Zie Prioriteitsaccounts beheren [en controleren voor instructies.](../../admin/setup/priority-accounts.md)
+- U kunt ook prioriteitsaccounts beheren en controleren in het Microsoft 365 beheercentrum. Zie Prioriteitsaccounts beheren [en controleren voor instructies.](../../admin/setup/priority-accounts.md)
 
 - Zie dit onderwerp voor informatie over het _beveiligen_ van bevoorrechte accounts [(beheerdersaccounts).](/azure/architecture/framework/security/critical-impact-accounts)
 
@@ -83,7 +84,7 @@ Zie Beveiligingsaanbevelingen voor [prioriteitsaccounts in Microsoft 365](securi
    - **Naam:** Voer een unieke, beschrijvende naam in voor de tag. Dit is de waarde die u ziet en gebruikt.
    - **Beschrijving:** Voer een optionele beschrijving voor de tag in.
 
-   Wanneer u klaar bent, klikt u op **Volgende.**
+   Wanneer u gereed bent, klikt u op **Volgende**.
 
 4. Ga op **de pagina Gebruikers toewijzen** naar een van de volgende stappen:
 
@@ -98,7 +99,7 @@ Zie Beveiligingsaanbevelingen voor [prioriteitsaccounts in Microsoft 365](securi
 
    - Klik **op Importeren** om een tekstbestand te selecteren dat de e-mailadressen van de gebruikers of groepen bevat. Zorg ervoor dat het tekstbestand één invoer per regel bevat.
 
-   Wanneer u klaar bent, klikt u op **Volgende.**
+   Wanneer u gereed bent, klikt u op **Volgende**.
 
 5. Controleer op **de pagina Tag** controleren uw instellingen. U kunt in **de specifieke** sectie op Bewerken klikken om wijzigingen aan te brengen.
 
@@ -126,7 +127,8 @@ Zie Beveiligingsaanbevelingen voor [prioriteitsaccounts in Microsoft 365](securi
 
 ## <a name="use-the-security--compliance-center-to-remove-user-tags"></a>Gebruik het beveiligings- & compliancecentrum om gebruikerslabels te verwijderen
 
-**Opmerking:** U kunt de ingebouwde tag **Priority-account niet** verwijderen.
+> [!NOTE]
+> U kunt de ingebouwde tag **Priority-account niet** verwijderen.
 
 1. Ga in het & Compliancecentrum naar **Gebruikerslabels voor** \> **bedreigingsbeheer.**
 

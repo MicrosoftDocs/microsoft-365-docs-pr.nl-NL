@@ -12,13 +12,13 @@ ms.collection:
 - enabler-strategic
 - m365initiative-syntex
 localization_priority: Priority
-description: Meer informatie over uitlegtypen in Microsoft SharePoint Syntex.
-ms.openlocfilehash: 515fd8af289ec7c64e14eb6d54b236ba3a8aa9f6
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+description: Meer informatie over frasenlijst, gewone uitdrukking en nabijheidsuitlegtypen in Microsoft SharePoint Syntex.
+ms.openlocfilehash: 8748b2fd33e20cf7e402d499db05f1f6722e735a
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706559"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770863"
 ---
 # <a name="explanation-types-in-microsoft-sharepoint-syntex"></a>Uitlegtypen in Microsoft SharePoint Syntex
 
@@ -115,6 +115,15 @@ Een uitlegtype voor een reguliere expressie toevoegen:
 
    ![Schermafbeelding van het deelvenster Een uitleg maken waarop de sjabloon E-mailadres is toegepast.](../media/content-understanding/create-regular-expression-email.png)
 
+### <a name="limitations"></a>Beperkingen
+
+De volgende tabel geeft in-lijn tekenopties weer die momenteel niet beschikbaar voor gebruik zijn in normale uitdrukkingspatronen. 
+
+|Optie  |Status  |Huidige functionaliteit  |
+|---------|---------|---------|
+|Hoofdlettergevoeligheid | Wordt momenteel niet ondersteund. | Alle uitgevoerde overeenkomsten zijn hoofdlettergevoelig.  |
+|Lijnankers     | Wordt momenteel niet ondersteund. | Kan specifieke positie niet opgeven in een tekenreeks waar een overeenkomst moet voorkomen.   |
+
 ## <a name="proximity"></a>Proximity 
 
 Met het Proximity-uitlegtype kan je model identificeren met behulp van hoe dichtbij een ander stukje gegevens is. Stel dat u in uw model twee verklaringen hebt gedefinieerd die zowel het *huisnummer* van de klant als het *telefoonnummer* van een label voorzien. 
@@ -139,7 +148,7 @@ In de volgende tabel zie je enkele voorbeelden van hoe je het aantal tokens in e
 |Woordengroep|Aantal tokens|Uitleg|
 |--|--|--|
 |`Dog`|1|Eén woord zonder leesteken of spatie.|
-|`RMT33W`|1|Een record locatornummer. Het mag cijfers en letters bevatten, maar geen leestekens.|
+|`RMT33W`|1|Een locatornummer voor adresrecords. Het kan cijfers en letters bevatten, maar geen leestekens.|
 |`425-555-5555`|5|Een telefoonnummer. Elk leesteken bestaat uit één token, zodat `425-555-5555` 5 tokens zou zijn:<br>`425`<br>`-`<br>`555`<br>`-`<br>`5555` |
 |`https://luis.ai`|7|`https`<br>`:`<br>`/`<br>`/`<br>`luis`<br>`.`<br>`ai`<br>|
 

@@ -21,12 +21,12 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: 80546d44bc1ba222c736b397a272f9f1f1a01d4a
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: f025f23242c28f698e6f67755cc59d21c4463914
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52269466"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782943"
 ---
 # <a name="remediation-actions-in-microsoft-365-defender"></a>Herstelacties in Microsoft 365 Defender
 
@@ -50,7 +50,7 @@ In de volgende tabel worden herstelacties samengevat die momenteel worden onders
 |:---------|:---------|
 |- Onderzoekspakket verzamelen <br/>- Apparaat isoleren (deze actie kan ongedaan worden gemaakt)<br/>- Offboard machine <br/>- Uitvoering van code vrijgeven <br/>- Uit quarantaine worden gezet <br/>- Voorbeeld aanvragen <br/>- Codeuitvoering beperken (deze actie kan ongedaan worden gemaakt) <br/>- Antivirusscan uitvoeren <br/>- Stoppen en in quarantaine plaatsen      |- URL blokkeren (time-of-click)<br/>- E-mailberichten of clusters zacht verwijderen<br/>- E-mail in quarantaine plaatsen<br/>- Een e-mailbijlage in quarantaine plaatsen<br/>- Externe e-mail doorsturen uitschakelen          |
 
-Herstelacties, in behandeling of al voltooid, kunnen worden bekeken in het [Actiecentrum.](m365d-action-center.md)
+Herstelacties, ongeacht of deze in behandeling zijn of al zijn voltooid, kunnen worden bekeken in het [Actiecentrum.](m365d-action-center.md)
 
 ## <a name="remediation-actions-that-follow-automated-investigations"></a>Herstelacties die volgen op geautomatiseerde onderzoeken
 
@@ -60,8 +60,8 @@ De volgende tabel bevat mogelijke vonnissen en resultaten:
 
 | Vonnis    | Betrokken entiteiten    | Resultaten|
 |------|------|------|
-| Schadelijk    | Apparaten (eindpunten)    | Herstelacties worden automatisch ondernomen (ervan uitgaande [](m365d-configure-auto-investigation-response.md#review-or-change-the-automation-level-for-device-groups) dat de apparaatgroepen van uw organisatie zijn ingesteld op Volledig - automatisch bedreigingen **corrigeren)**|
-| Schadelijk    | E-mailinhoud (URL's of bijlagen) | Aanbevolen herstelacties zijn in afwachting van goedkeuring|
+| Kwaadaardig    | Apparaten (eindpunten)    | Herstelacties worden automatisch ondernomen (ervan uitgaande [](m365d-configure-auto-investigation-response.md#review-or-change-the-automation-level-for-device-groups) dat de apparaatgroepen van uw organisatie zijn ingesteld op Volledig - automatisch bedreigingen **corrigeren)**|
+| Kwaadaardig    | E-mailinhoud (URL's of bijlagen) | Aanbevolen herstelacties zijn in afwachting van goedkeuring|
 | Verdacht    | Apparaten of e-mailinhoud | Aanbevolen herstelacties zijn in afwachting van goedkeuring|
 | Geen bedreigingen gevonden    | Apparaten of e-mailinhoud    | Er zijn geen herstelacties nodig|
 

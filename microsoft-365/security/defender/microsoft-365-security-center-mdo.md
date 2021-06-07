@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.prod: m365-security
 ms.technology: m365d
-ms.openlocfilehash: 62a917b36355335c8eb52d83caecdbba691f8175
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 2322dbab657d6dd73ce79b3a8e52a3d968c45809
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52242130"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770974"
 ---
 # <a name="microsoft-defender-for-office-365-in-the-microsoft-365-security-center"></a>Microsoft Defender voor Office 365 in het Microsoft 365-beveiligingscentrum
 
@@ -33,7 +33,33 @@ ms.locfileid: "52242130"
 - [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft Defender voor Office 365](/microsoft-365/security/office-365-security/defender-for-office-365)
 
-Het verbeterde [Microsoft 365 beveiligingscentrum](./overview-security-center.md) in [https://security.microsoft.com](https://security.microsoft.com) combineert beveiligingsfuncties uit bestaande Microsoft beveiligingsportalen, inclusief Microsoft Defender beveiligingscentrum en het Office 365 beveiligings- en compliancecentrum. Dit verbeterde centrum helpt beveiligingsteams hun organisatie doeltreffender en efficiënter beschermen tegen bedreigingen.
+## <a name="quick-reference"></a>Snelzoekverwijzing
+
+De afbeelding en de onderstaande tabel bevat de wijzigingen in de navigatie tussen het Office 365 beveiligingscentrum & compliancecentrum en het Microsoft 365 beveiligingscentrum.
+
+> [!div class="mx-imgBorder"]
+> ![Afbeelding van wat is verplaatst naar waar](../../media/mdo-m3d-security-center.png)
+
+<br>
+
+****
+
+|Office 365 Beveiligings- & compliance|Microsoft 365-beveiligingscentrum|Microsoft 365-compliancecentrum|Exchange-beheercentrum|
+|---|---|---|---|
+|Waarschuwingen|E-mail en samenwerking|||
+|Classificatie||Zie [Microsoft 365 compliancecentrum](https://compliance.microsoft.com/homepage)||
+|Preventie van gegevensverlies||Zie [Microsoft 365 compliancecentrum](https://compliance.microsoft.com/homepage)||
+|Records Management||Zie [Microsoft 365 compliancecentrum](https://compliance.microsoft.com/homepage) ||
+|Informatiebeheer||Zie [Microsoft 365 compliancecentrum](https://compliance.microsoft.com/homepage)||
+|Bedreigingsbeheer|E-mail en samenwerking|||
+|E-mailstroom|||Zie [Exchange beheercentrum](https://admin.exchange.microsoft.com/#/)|
+|Gegevensprivacy||Zie [Microsoft 365 compliancecentrum](https://compliance.microsoft.com/homepage)||
+|Zoeken|Zoeken|||
+|Rapporten|Rapport|||
+|Servicecontrole|Instellingen|||
+|
+
+Het verbeterde [Microsoft 365 beveiligingscentrum](./overview-security-center.md) in <https://security.microsoft.com> combineert beveiligingsfuncties uit bestaande Microsoft beveiligingsportalen, inclusief Microsoft Defender beveiligingscentrum en het Office 365 beveiligings- en compliancecentrum. Dit verbeterde centrum helpt beveiligingsteams hun organisatie doeltreffender en efficiënter beschermen tegen bedreigingen.
 
 Het artikel over het Office 365 beveiligings- en complianceportaal (protection.office.com) geeft een beschrijving van enkele wijzigingen en verbeteringen aan het Microsoft Office 365 beveiligingscentrum. 
 
@@ -69,7 +95,7 @@ Geen wijzigingen aan deze gebieden:
 Controleer ook de sectie **Relevante informatie** onderaan dit artikel.
 
 > [!IMPORTANT]
-> Het Microsoft 365-beveiligingsportaal (https://security.microsoft.com) combineert beveiligingsfuncties in https://securitycenter.windows.com en https://protection.office.com. Wat je te zien krijgt hangt echter af van het abonnement. Als je bijvoorbeeld enkel Microsoft Defender voor Office 365 Plan 1 of 2 hebt als alleenstaande abonnementen, zal je geen functies voor Beveiliging voor eindpunten te zien krijgen en klanten van Defender voor Office Plan 1 zullen geen items te zien krijgen zoals Dreigingsanalyse.
+> De Microsoft 365 Beveiligingsportal <https://security.microsoft.com> () combineert beveiligingsfuncties in <https://securitycenter.windows.com> en <https://protection.office.com> . Wat je te zien krijgt hangt echter af van het abonnement. Als je bijvoorbeeld enkel Microsoft Defender voor Office 365 Plan 1 of 2 hebt als alleenstaande abonnementen, zal je geen functies voor Beveiliging voor eindpunten te zien krijgen en klanten van Defender voor Office Plan 1 zullen geen items te zien krijgen zoals Dreigingsanalyse.
 
 > [!TIP]
 > Alle Exchange Online Protection (EOP)-functies worden opgenomen in het Microsoft 365 beveiligingscentrum, omdat EOP een kernelement is van Defender voor Office 365.
@@ -147,15 +173,15 @@ Wil je aan de slag met het zoeken naar e-maildreigingen met geavanceerde opspori
 
 De sectie [Aan de slag](/microsoft-365/security/office-365-security/defender-for-office-365.md#getting-started) van het [Artikel over Microsoft Defender voor Office 365](/microsoft-365/security/office-365-security/defender-for-office-365) heeft logische vroege configuratiesegmenten die er als volgt uitzien:
 
-1. Configureer alles met 'anti' in de naam.
-   - anti-malware
-   - anti-phishing
-   - anti-spam
-2. Stel alles in met 'veilig' in de naam.
-   - veilige koppelingen
-   - veilige bijlagen
-3. De werkbelastingen verdedigen (bijv. SharePoint Online, OneDrive en Teams)
-4. Beschermen met Zero-Hour Auto Purge
+1. Configureer alles met 'Anti' in de naam.
+   - Anti-malware
+   - Anti-phishing
+   - Antispam
+2. Stel alles in met 'Safe' in de naam.
+   - Veilige koppelingen
+   - Veilige bijlagen
+3. De werkbelastingen verdedigen (bijv. SharePoint Online, OneDrive en Teams).
+4. Beveiligen met auto purge van nul uur.
 
 Samen met de [snelkoppeling](../office-365-security/protect-against-threats.md) om meteen aan de slag te gaan en start de configuratie op Dag 1.
 
@@ -181,7 +207,7 @@ EmailPostDeliveryEvents
 LogonTime = Timestamp, AccountDisplayName, Application, Protocol, DeviceName, LogonType
 ```
 
-:::image type="content" source="../../media/converge-13-advanced-hunt-an-email-zap-new.png" alt-text="De pagina geavanceerde opsporing (onder Opsporing) met Query geselecteerd bovenaan het queryvenster en met Kustoquery die uitgevoerd word om ZAP-acties van de laatste 7 dagen vast te leggen.":::
+:::image type="content" source="../../media/converge-13-advanced-hunt-an-email-zap-new.png" alt-text="De pagina Geavanceerd zoeken (onder Jagen) met Query geselecteerd boven aan het queryvenster en het uitvoeren van een Kusto-query om ZAP-acties in de afgelopen 7 dagen vast te leggen.":::
 
 De gegevens van deze query zullen in het resultatenvenster onder de query zelf zichtbaar zijn. Resultaten bevatten informatie zoal 'DeviceName', 'AccountDisplayName' en 'ZapTime' in een resultatenset die kan aangepast worden. Resultaten kunnen geëxporteerd worden voor het archief. Als het om een query gaat die je later opnieuw nodig zult hebben, selecteer dan **Opslaan** > **Opslaan als** en voeg de query toe aan de lijst van query's, gedeeld of community query's.
 
