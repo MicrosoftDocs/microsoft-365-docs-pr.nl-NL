@@ -6,10 +6,14 @@
       href: compliance-quick-tasks.md
     - name: Wat is er nieuw in Microsoft 365-compliance
       href: whats-new.md
+    - name: Microsoft 365-oplossingencatalogus
+      href: microsoft-365-solution-catalog.md
     - name: Microsoft 365-compliancecentrum
       href: microsoft-365-compliance-center.md
-    - name: Microsoft 365-oplossingscatalogus
-      href: microsoft-365-solution-catalog.md
+    - name: Machtigingen in het Microsoft 365-compliancecentrum
+      href: microsoft-365-compliance-center-permissions.md
+    - name: Gebruikers omleiden naar het Microsoft 365-compliancecentrum
+      href: microsoft-365-compliance-center-redirection.md
     - name: Uw gratis Azure Active Directory-abonnement gebruiken
       href: use-your-free-azure-ad-subscription-in-office-365.md
     - name: Beveiliging en compliance plannen in Office 365

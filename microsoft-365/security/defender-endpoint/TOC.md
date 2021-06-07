@@ -244,17 +244,14 @@
 
 ### [Kwetsbaarheid voor aanvallen verminderen]()
 #### [Overzicht van kwetsbaarheid voor aanvallen verminderen](overview-attack-surface-reduction.md)
-#### [Regels voor het verminderen van aanvalsoppervlakken evalueren](evaluate-attack-surface-reduction.md)
-#### [Configuratie-instellingen voor het verminderen van aanvalsoppervlakken](configure-attack-surface-reduction.md)
-#### [Veelgestelde vragen over kwetsbaarheid voor aanvallen verminderen](attack-surface-reduction-faq.md)
-
-#### [Controles voor kwetsbaarheid voor aanvallen verminderen]()
-##### [Regels voor kwetsbaarheid voor aanvallen verminderen](attack-surface-reduction.md)
-##### [Regels voor het verminderen van aanvalsoppervlakken inschakelen](enable-attack-surface-reduction.md)
-##### [Regels voor het verminderen van aanvalsoppervlakken aanpassen](customize-attack-surface-reduction.md)
-##### [Gebeurtenissen voor het verminderen van aanvalsoppervlakken bekijken](event-views.md)
-
-#### [Controlemodus gebruiken](audit-windows-defender.md)
+#### [Mogelijkheden voor het verminderen van kwetsbaarheid voor aanvallen configureren](configure-attack-surface-reduction.md)
+#### [Informatie over regels voor het verminderen van kwetsbaarheid voor aanvallen](attack-surface-reduction.md)
+#### [Regels voor het verminderen van kwetsbaarheid voor aanvallen evalueren](evaluate-attack-surface-reduction.md)
+#### [Regels voor het verminderen van aanvalsoppervlakken inschakelen](enable-attack-surface-reduction.md)
+#### [Regels voor het verminderen van aanvalsoppervlakken aanpassen](customize-attack-surface-reduction.md)
+#### [Veelgestelde vragen over het verminderen van kwetsbaarheid voor aanvallen](attack-surface-reduction-faq.md)
+#### [Gebeurtenissen voor het verminderen van kwetsbaarheid voor aanvallen bekijken](event-views.md)
+#### [Auditmodus gebruiken voor het verminderen van kwetsbaarheid voor aanvallen](audit-windows-defender.md)
 
 ### Beveiliging van de volgende generatie
 #### [Overzicht van Microsoft Defender Antivirus](microsoft-defender-antivirus-in-windows-10.md)
@@ -592,6 +589,13 @@
 ###### [Geavanceerde opsporing met behulp van Python](run-advanced-query-sample-python.md)
 ###### [Geavanceerde opsporing met behulp van PowerShell](run-advanced-query-sample-powershell.md)
 ###### [OData-query's gebruiken](exposed-apis-odata-samples.md)
+
+
+#### [API voor onbewerkte voor gegevensstreaming]()
+##### [Onbewerkte gegevensstreaming](raw-data-export.md)
+##### [Geavanceerde opsporingsevenementen streamen naar de Azure Events-hub](raw-data-export-event-hub.md)
+##### [Geavanceerde opsporingsevenementen streamen naar uw opslagaccount](raw-data-export-storage.md)
+
 
 #### [SIEM-integratie]()
 ##### [Bedreigingsinformatieconcepten begrijpen](threat-indicator-concepts.md)
