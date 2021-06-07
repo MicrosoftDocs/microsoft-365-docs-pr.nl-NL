@@ -1,5 +1,5 @@
 ---
-title: 'Stap 3: Het implementeren van beveiliging en compliance voor externe werknemers'
+title: 'Stap 3: beveiliging en compliance voor hybride werknemers implementeren'
 f1.keywords:
 - NOCSH
 author: JoeDavies-MSFT
@@ -16,30 +16,30 @@ ms.collection:
 - m365solution-remotework
 - m365solution-scenario
 ms.custom: ''
-description: Gebruik beveiligings- en complianceservices van Microsoft 365 om uw apps, gegevens en apparaten te beveiligen voor externe werknemers.
-ms.openlocfilehash: eb558b276b5e8fe828f62930eb977cc87ce3134f
-ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
+description: Gebruik beveiligings- en complianceservices van Microsoft 365 om uw apps, gegevens en apparaten voor hybride werknemers te beveiligen.
+ms.openlocfilehash: fc5a83bfc6c8ec2dcb801e6063514c0a90c83de8
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52029108"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52788924"
 ---
-# <a name="step-3-deploy-security-and-compliance-for-remote-workers"></a>Stap 3: Het implementeren van beveiliging en compliance voor externe werknemers
+# <a name="step-3-deploy-security-and-compliance-for-hybrid-workers"></a>Stap 3: beveiliging en compliance voor hybride werknemers implementeren
 
-Voor externe werknemers die niet of alleen af en toe op kantoor komen, is beveiliging en compliance een belangrijk onderdeel van de totaaloplossing. Al hun communicatie vindt plaats via het internet in plaats van het besloten intranet van een organisatie. 
+Voor hybride werknemers die niet of alleen af en toe op kantoor komen, is beveiliging en compliance een belangrijk onderdeel van de totaaloplossing. Al hun communicatie vindt plaats via het internet in plaats van het besloten intranet van een organisatie. 
 
 U en uw werknemers kunnen van alles doen om productief te blijven en tegelijkertijd het cyberbeveiligingsrisico te verlagen en zich te houden aan interne beleids- en gegevensvoorschriften.
 
 Voor werken op afstand zijn de volgende beveiligings- en compliance-elementen nodig:
 
-- Gecontroleerde toegang tot de productiviteits-apps die door externe werknemers worden gebruikt, zoals Microsoft Teams 
-- Gecontroleerde toegang tot en bescherming van gegevens die externe werknemers aanmaken en gebruiken, zoals chatgesprekken of gedeelde bestanden
+- Gecontroleerde toegang tot de productiviteits-apps die door hybride werknemers worden gebruikt, zoals Microsoft Teams 
+- Gecontroleerde toegang tot en bescherming van gegevens die hybride werknemers maken en gebruiken, zoals chatgesprekken of gedeelde bestanden
 - Bescherming van Windows 10-apparaten tegen malware en andere soorten cyberaanvallen
 - Bescherming van e-mail, bestanden en websites door het consistent labelen van vertrouwelijkheids- en beschermingsniveaus
 - Voorkomen van informatielekken
 - Inachtneming van regionale gegevensvoorschriften
 
-Hier vind je de mogelijkheden van Microsoft 365 voor beveiligings-en Compliance-Services voor externe werknemers.
+Dit zijn de functies van Microsoft 365 voor beveiligings- en complianceservices voor hybride werknemers.
 
 ![Gebruik deze services van Microsoft 365 om veilig en conform te blijven](../media/empower-people-to-work-remotely/remote-workers-security-compliance-grid.png)
 
@@ -49,14 +49,18 @@ Beveilig uw toepassingen en gegevens met deze beveiligingsfuncties van Microsoft
 
 | Functie | Waarom ik deze nodig heb | Licentieverlening |
 |:-------|:-----|:-------|
-| Microsoft Defender voor Office 365 | Beveilig uw Microsoft 365-apps en -gegevens tegen een aanval, zoals e-mailberichten, Office-documenten en hulpmiddelen voor samenwerking. <br><br> Met Microsoft Defender voor Office 365 worden signalen van uw apps verzameld en geanalyseerd voor detectie, onderzoek en herstel van beveiligingsrisico's en wordt uw organisatie beschermd tegen bedreigingen in de vorm van e-mailberichten, koppelingen (URL's) en hulpmiddelen voor samenwerking. Daarnaast biedt Microsoft Defender automatische beoordeling van tenantconfiguraties en configuratiehulpmiddelen voor standaard- en strikte beveiligingsposities. | Microsoft 365 E3 of E5 | 
-| Bescherming tegen malware | Microsoft Defender Antivirus en Device Guard bieden apparaatbescherming tegen malware. <br><br> In SharePoint Online wordt het uploaden van bestanden automatisch gescand op bekende malware. ‎<br><br> Exchange Online Protection (EOP) beveiligt postvakken in de cloud. | Microsoft 365 E3 of E5 |
+| Microsoft Defender voor Office 365 | Beveilig uw Microsoft 365-apps en -gegevens tegen een aanval, zoals e-mailberichten, Office-documenten en hulpmiddelen voor samenwerking. <br><br> Met Microsoft Defender voor Office 365 worden signalen van uw apps verzameld en geanalyseerd voor detectie, onderzoek en herstel van beveiligingsrisico's en wordt uw organisatie beschermd tegen bedreigingen in de vorm van e-mailberichten, koppelingen (URL's) en hulpmiddelen voor samenwerking. Het biedt ook geautomatiseerde beoordeling van tenantconfiguraties en configuratiehulpmiddelen voor standaard- en strenge beveiligingsposturen. | Microsoft 365 E3 of E5 | 
+| Bescherming tegen malware | Microsoft Defender Antivirus en Device Guard bieden apparaatbescherming tegen malware. <br><br> In SharePoint Online worden geüploade bestanden automatisch gescand op bekende malware.<br><br> Exchange Online Protection (EOP) beveiligt postvakken in de cloud. | Microsoft 365 E3 of E5 |
 | Microsoft Defender for Endpoint | Beveilig de apparaten van uw organisatie tegen cyberbedreigingen en datalekken en detecteer, onderzoek en reageer op geavanceerde bedreigingen. | Microsoft 365 E5 |
 | Cloud App Security | Beveilig de cloudservices, zowel Microsoft 365- als andere SaaS-apps, tegen een aanval. | Microsoft 365 E5-licentie of afzonderlijke Cloud App Security-licenties |
 | Azure AD Identity Protection  | Detectie en herstel van identiteitsrisico's automatiseren. <br><br>Maak een risicobeleid voor voorwaardelijke toegang aan, waarbij meervoudige verificatie (MFA) voor risicovolle aanmeldingen vereist is. | Microsoft 365 E5 of E3 met Azure AD Premium P2-licenties |
 ||||
 
+Eerst moet u meer weten over [Microsoft Secure Score](/microsoft-365/security/defender/microsoft-secure-score) en dit gebruiken.
+
 Zie [Belangrijkste 12 taken voor beveiligingsteams om het thuiswerken te ondersteunen](../security/top-security-tasks-for-remote-work.md) voor meer informatie.
+
+Zie [Microsoft 365-beveiligingsdocumentatie](/microsoft-365/security) voor meer informatie over beveiliging in Microsoft 365.
 
 ## <a name="compliance"></a>Compliance
 
@@ -79,10 +83,10 @@ Zie [Snelle taken om aan de slag te gaan met Microsoft 365-compliance](../compli
 
 ## <a name="results-of-step-3"></a>Resultaten van stap 3
 
-Implementaties voor uw externe werknemers:
+Implementaties voor uw hybride werknemers:
 
 - Beveiliging
-  - Gecontroleerde toegang tot apps en gegevens die externe medewerkers gebruiken om te communiceren en samen te werken
+  - Gecontroleerde toegang tot apps en gegevens die hybride werknemers gebruiken om te communiceren en samen te werken
   - Bescherming tegen malware voor cloudservicegegevens, e-mail en Windows 10-apparaten 
 - Compliance
   - Consistent labelen van vertrouwelijkheids- en beschermingsniveaus

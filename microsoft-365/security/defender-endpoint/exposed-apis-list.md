@@ -15,13 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: f7a620ad56496b1a26e193a18fa93f4d217431df
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 63e38d5c9cfe50d1fa4cda1f7ae9c7df55a45083
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684145"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52788833"
 ---
 # <a name="supported-microsoft-defender-for-endpoint-apis"></a>Ondersteunde API's voor Microsoft Defender voor Eindpunt
 
@@ -61,7 +62,7 @@ Onderwerp | Omschrijving
 :---|:---
 [Geavanceerd opsporen](run-advanced-query-api.md) | Query's uitvoeren vanuit API.
 [Waarschuwingsmethoden en -eigenschappen](alerts.md) | Voer API-oproepen uit, \- zoals waarschuwingen ontvangen, waarschuwing maken, waarschuwing bijwerken en meer.
-[Beoordelingsmethoden en -eigenschappen per apparaat exporteren](get-assessmnt-1methods-properties.md) | Voer API-oproepen uit, zoals \- een veilige configuratiebeoordeling exporteren, beoordeling van de softwarevoorraad exporteren en evaluatie van beveiligingsproblemen met software exporteren.
+[Beoordelingsmethoden en -eigenschappen per apparaat exporteren](get-assessment-methods-properties.md) | Voer API-oproepen uit, zoals \- een veilige configuratiebeoordeling exporteren, beoordeling van de softwarevoorraad exporteren en evaluatie van beveiligingsproblemen met software exporteren.
 [Methoden en eigenschappen voor geautomatiseerd onderzoek](investigation.md) | Voer API-oproepen uit, \- zoals ophalen van onderzoek.
 [Waarschuwingen met betrekking tot domeinen ophalen](get-domain-related-alerts.md) | Voer API-oproepen uit, \- zoals domeingerelateerde apparaten, domeinstatistieken en meer.
 [Bestandsmethoden en -eigenschappen](files.md) | Voer API-oproepen uit, \- zoals bestandsgegevens, bestandsgerelateerde waarschuwingen, bestandsgerelateerde apparaten en bestandsstatistieken.

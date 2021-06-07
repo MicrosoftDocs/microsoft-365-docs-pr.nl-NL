@@ -14,20 +14,21 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 1e24236aae1922705c1711042f0426251a979ede
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 0083d806f3e52307e6dce30f74e255073a09c16a
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166679"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770491"
 ---
 # <a name="collect-investigation-package-api"></a>Api voor onderzoekspakket verzamelen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -66,7 +67,7 @@ POST https://api.securitycenter.microsoft.com/api/machines/{id}/collectInvestiga
 
 ## <a name="request-headers"></a>Kopteksten aanvragen
 
-Naam | Type | Beschrijving
+Naam | Type | Omschrijving
 :---|:---|:---
 Autorisatie | Tekenreeks | Bearer {token}. **Vereist**.
 Inhoudstype | tekenreeks | toepassing/json. **Vereist**.
@@ -74,7 +75,7 @@ Inhoudstype | tekenreeks | toepassing/json. **Vereist**.
 ## <a name="request-body"></a>Body aanvragen
 In de objectaanvraag moet u een JSON-object de volgende parameters geven:
 
-Parameter | Type    | Beschrijving
+Parameter | Type    | Omschrijving
 :---|:---|:---
 Opmerking |   Tekenreeks |    Opmerking om te koppelen aan de actie. **Vereist**.
 

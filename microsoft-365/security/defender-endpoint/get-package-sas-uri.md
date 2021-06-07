@@ -14,12 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: b9c8877e341e7438532ab3eb3f7af4c2a9114af7
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 054db1766cdab3aa5b49da4940dcdddfe6086434
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893339"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770683"
 ---
 # <a name="get-package-sas-uri-api"></a>Sas URI-API voor pakket krijgen
 
@@ -58,7 +60,7 @@ GET https://api.securitycenter.microsoft.com/api/machineactions/{machine action 
 
 ## <a name="request-headers"></a>Kopteksten aanvragen
 
-Naam | Type | Beschrijving
+Naam | Type | Omschrijving
 :---|:---|:---
 Autorisatie | Tekenreeks | Bearer {token}. **Vereist**.
 

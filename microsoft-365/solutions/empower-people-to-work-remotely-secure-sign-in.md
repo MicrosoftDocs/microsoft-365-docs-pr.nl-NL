@@ -1,5 +1,5 @@
 ---
-title: Stap 1. Aanmeldingsbeveiliging voor externe werknemers verbeteren met MFA
+title: Stap 1. Aanmeldingsbeveiliging voor hybride werknemers verbeteren met MFA
 f1.keywords:
 - NOCSH
 author: JoeDavies-MSFT
@@ -16,21 +16,21 @@ ms.collection:
 - m365solution-remotework
 - m365solution-scenario
 ms.custom: ''
-description: Vereis dat uw externe werknemers zich aanmelden met meervoudige verificatie (MFA).
-ms.openlocfilehash: 1c69f2ee7520a554a726bc0ffd9e2d7ebca64261
-ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
+description: Vereis dat uw hybride werknemers zich aanmelden met meervoudige verificatie (MFA).
+ms.openlocfilehash: 105c2f7170b4bea648427b0fda57ad081cb99a86
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52028966"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52788956"
 ---
-# <a name="step-1-increase-sign-in-security-for-remote-workers-with-mfa"></a>Stap 1. Aanmeldingsbeveiliging voor externe werknemers verbeteren met MFA
+# <a name="step-1-increase-sign-in-security-for-hybrid-workers-with-mfa"></a>Stap 1. Aanmeldingsbeveiliging voor hybride werknemers verbeteren met MFA
 
-U kunt de aanmeldingsbeveiliging voor uw externe werknemers verbeteren door gebruik te maken van meervoudige verificatie (MFA). Bij MFA is er voor gebruikersaanmeldingen extra verificatie naast het wachtwoord voor het gebruikersaccount nodig. Zelfs als kwaadwillende gebruikers het wachtwoord voor een gebruikersaccount achterhalen, moeten ze ook kunnen reageren op de extra verificatie, zoals een sms die naar een smartphone wordt gestuurd voordat er toegang wordt verleend.
+U kunt de aanmeldingsbeveiliging voor uw hybride werknemers verbeteren door gebruik te maken van meervoudige verificatie (MFA). Bij MFA is er voor gebruikersaanmeldingen extra verificatie naast het wachtwoord voor het gebruikersaccount nodig. Zelfs als kwaadwillende gebruikers het wachtwoord voor een gebruikersaccount achterhalen, moeten ze ook kunnen reageren op de extra verificatie, zoals een sms die naar een smartphone wordt gestuurd voordat er toegang wordt verleend.
 
 ![Het juiste wachtwoord plus een extra verificatie resulteert in een geslaagde aanmelding](../media/empower-people-to-work-remotely/remote-workers-mfa.png)
 
-Voor alle gebruikers, met inbegrip van externe werknemers en met name beheerders, wordt MFA ten zeerste aanbevolen.
+Voor alle gebruikers, met inbegrip van hybride werknemers en met name beheerders, wordt MFA ten zeerste aanbevolen.
 
 Er zijn drie manieren waarop u uw gebruikers kunt verplichten MFA te gebruiken op basis van uw Microsoft 365-abonnement.
 
@@ -101,7 +101,7 @@ Met self-service voor wachtwoordherstel (SSPR) kunnen gebruikers hun eigen wacht
 
 ## <a name="sign-in-to-saas-apps-with-azure-ad"></a>Aanmelden bij SaaS-apps met Azure AD
 
-Azure AD kan naast het bieden van cloudverificatie voor gebruikers ook worden gebruikt om al uw apps centraal te beveiligen, ongeacht of ze zich on-premises, in de Microsoft-cloud of in een andere cloud bevinden. Door het [integreren van apps in azure AD](/azure/active-directory/manage-apps/plan-an-application-integration), kunt u het externe medewerkers gemakkelijk maken om de toepassingen te vinden die ze nodig hebben en zich veilig hierop aan te melden.
+Azure AD kan naast het bieden van cloudverificatie voor gebruikers ook worden gebruikt om al uw apps centraal te beveiligen, ongeacht of ze zich on-premises, in de Microsoft-cloud of in een andere cloud bevinden. Door het [integreren van apps in azure AD](/azure/active-directory/manage-apps/plan-an-application-integration), kunt u het hybride werknemers gemakkelijk maken om de toepassingen te vinden die ze nodig hebben en zich veilig hierbij aan te melden.
 
 ## <a name="admin-technical-resources-for-mfa-and-identity"></a>Technische informatiebronnen voor beheerders voor MFA en identiteit
 

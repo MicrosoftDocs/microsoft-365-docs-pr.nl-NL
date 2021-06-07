@@ -14,20 +14,21 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 9066bcdae549f7a6b1372714d567674eb03c1e51
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 8b05dde015bc96e1ccd3f80e25c416a371e03199
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166673"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52772387"
 ---
 # <a name="create-alert-api"></a>Waarschuwings-API maken
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 - Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
@@ -72,7 +73,7 @@ POST https://api.securitycenter.microsoft.com/api/alerts/CreateAlertByReference
 
 ## <a name="request-headers"></a>Kopteksten aanvragen
 
-Naam | Type | Beschrijving
+Naam | Type | Omschrijving
 :---|:---|:---
 Autorisatie | Tekenreeks | Bearer {token}. **Vereist**.
 Inhoudstype | Tekenreeks | toepassing/json. **Vereist**.
@@ -81,7 +82,7 @@ Inhoudstype | Tekenreeks | toepassing/json. **Vereist**.
 
 In de aanvraag-body moet u de volgende waarden leveren (alle waarden zijn vereist):
 
-Eigenschap | Type | Beschrijving
+Eigenschap | Type | Omschrijving
 :---|:---|:---
 eventTime | DateTime(UTC) | De exacte tijd van de gebeurtenis als tekenreeks, zoals verkregen uit geavanceerde jacht. bijvoorbeeld Vereist ```2018-08-03T16:45:21.7115183Z``` .
 reportId | Tekenreeks | Het rapportId of the event, as obtained from advanced hunting. **Vereist**.

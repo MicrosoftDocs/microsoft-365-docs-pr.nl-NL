@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Lees meer over Windows en Office Deployment Lab Kit en waar u het kunt vinden.
-ms.openlocfilehash: da51e0e3509ac2be60b9961dc2a0532d29f4f137
-ms.sourcegitcommit: cc9e3cac6af23f20d7cc5ac6fc6f6e01bc3cc5c5
+ms.openlocfilehash: bb73c303e1266a7d19b3578fb01b849b5e96990f
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52736346"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770671"
 ---
 # <a name="windows-10-and-office-365-deployment-lab-kit"></a>Windows 10 en Office 365 implementatielabkit
 
@@ -28,7 +28,7 @@ De Windows 10 en Office 365 implementatie labkit is ontworpen om u te helpen bij
 
 Deze kit wordt ten zeerste aanbevolen voor organisaties die zich voorbereiden op Windows 8.1-upgrades voor Windows 10. Dit geldt ook als u momenteel Windows 10, Microsoft 365-apps voor ondernemingen (voorheen Office 365 ProPlus) of Office 2019. Als een geïsoleerde omgeving is het resulterende lab ideaal voor het verkennen van implementatieprogramma-updates en het testen van uw implementatiegerelateerde automatisering.
 
-[Windows en Office Deployment Lab Kit downloaden](https://www.microsoft.com/evalcenter/evaluate-lab-kit).
+[Download de Windows 10 en Office 365 implementatielabkit](https://www.microsoft.com/evalcenter/evaluate-lab-kit).
 
 ## <a name="a-complete-lab-environment"></a>Een volledige testomgeving
 
@@ -36,7 +36,7 @@ De kit biedt u een automatisch inrichtende virtuele labomgeving, waaronder domei
 
   - NIEUW! Windows 10 Enterprise, versie 21H1
   - Windows 7 Enterprise
-  - NIEUW! Microsoft Endpoint Configuration Manager, versie 2103*
+  - NIEUW! Microsoft Endpoint Configuration Manager, versie 2103
   - Windows Assessment and Deployment Kit voor Windows 10
   - Microsoft Deployment Toolkit
   - Microsoft Application Virtualization (App-V)

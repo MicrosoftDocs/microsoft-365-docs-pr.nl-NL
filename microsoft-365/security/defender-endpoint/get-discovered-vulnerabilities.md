@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 133a8525a2e561062a492f7148de97a77d37444e
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: ac7a9ef932f2640bbc5325f0154c0ceb48ae3018
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934319"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52772291"
 ---
 # <a name="get-discovered-vulnerabilities"></a>Gevonden beveiligingsproblemen ophalen
 
@@ -59,7 +60,7 @@ GET /api/machines/{machineId}/vulnerabilities
 
 ## <a name="request-headers"></a>Kopteksten aanvragen
 
-Naam | Type | Beschrijving
+Naam | Type | Omschrijving
 :---|:---|:---
 Autorisatie | Tekenreeks | Bearer {token}. **Vereist**.
 

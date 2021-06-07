@@ -14,12 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 25ac8ce2c9fb17b2576f86dae1da984865b19018
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: d9218ad447f926f0086801036277323e7c1efb4c
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933887"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770557"
 ---
 # <a name="get-missing-kbs-by-software-id"></a>Ontbrekende KBs op software-id
 
@@ -52,7 +54,7 @@ GET /api/Software/{Id}/getmissingkbs
 
 ## <a name="request-header"></a>Koptekst aanvragen
 
-Naam | Type | Beschrijving
+Naam | Type | Omschrijving
 :---|:---|:---
 Autorisatie | Tekenreeks | Bearer {token}. **Vereist**.
 

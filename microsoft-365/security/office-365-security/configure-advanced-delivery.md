@@ -17,12 +17,12 @@ ms.custom: ''
 description: Beheerders kunnen leren hoe ze het beleid voor geavanceerde bezorging in Exchange Online Protection (EOP) kunnen gebruiken om berichten te identificeren die niet moeten worden gefilterd in specifieke ondersteunde scenario's (phishingsimulaties van derden en berichten die worden bezorgd in postvakken van beveiligingsbewerkingen (SecOps).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0e4e230fdca7fe29fc1c7a1bc68085454ba883b9
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: a9c1c6f7635b87e25adcb121db79f67d4ec1988f
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624787"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52788992"
 ---
 # <a name="configure-the-delivery-of-third-party-phishing-simulations-to-users-and-unfiltered-messages-to-secops-mailboxes"></a>De bezorging van phishingsimulaties van derden configureren voor gebruikers en ongefilterde berichten in SecOps-postvakken
 
@@ -34,12 +34,12 @@ ms.locfileid: "52624787"
 > [!NOTE]
 > De functie die in dit artikel wordt beschreven, is in Preview, is niet voor iedereen beschikbaar en kan worden gewijzigd.
 
-Als u uw organisatie standaard veilig wilt [houden,](secure-by-default.md)staat Exchange Online Protection (EOP) geen veilige lijsten toe of filtert u geen bypass voor berichten die leiden tot malware of phishing met veel vertrouwen. Er zijn echter specifieke scenario's waarvoor niet-gefilterde berichten moeten worden bezorgd. Bijvoorbeeld:
+Als u uw organisatie standaard veilig wilt [houden,](secure-by-default.md)staat Exchange Online Protection (EOP) geen veilige lijsten of filtering bypass toe voor berichten die zijn geïdentificeerd als malware of phishing met een hoog vertrouwen. Er zijn echter specifieke scenario's waarvoor niet-gefilterde berichten moeten worden bezorgd. Bijvoorbeeld:
 
 - **Phishingsimulaties** van derden: Gesimuleerde aanvallen kunnen u helpen om kwetsbare gebruikers te identificeren voordat een echte aanval van invloed is op uw organisatie.
 - **Postvakken voor beveiligingsbewerkingen (SecOps)**: Speciale postvakken die door beveiligingsteams worden gebruikt om ongefilterde berichten te verzamelen en te analyseren (zowel goed als slecht).
 
-U gebruikt het _geavanceerde bezorgingsbeleid_ in Microsoft 365 om te voorkomen dat deze berichten _in_ deze specifieke scenario's worden gefilterd. <sup>\*</sup> Het geavanceerde bezorgingsbeleid zorgt ervoor dat berichten in deze scenario's niet worden gefilterd:
+U gebruikt het _geavanceerde bezorgingsbeleid_ in Microsoft 365 om te voorkomen dat deze berichten _in_ deze specifieke scenario's worden gefilterd. <sup>\*</sup> Het geavanceerde bezorgingsbeleid zorgt ervoor dat berichten in deze scenario's de volgende resultaten bereiken:
 
 - Filters in EOP en Microsoft Defender voor Office 365 actie ondernemen op deze berichten.<sup>\*</sup>
 - [Zero-hour Purge (ZAP)](zero-hour-auto-purge.md) voor spam en phishing onderneemt geen actie op deze berichten.<sup>\*</sup>
@@ -62,44 +62,61 @@ Berichten die worden geïdentificeerd door het geavanceerde bezorgingsbeleid zij
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent het beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de pagina **Geavanceerde bezorging wilt** gaan, opent u <https://protection.office.com/advanceddelivery> .
+- U opent het beveiligingscentrum in <https://security.microsoft.com>. Als u rechtstreeks naar de pagina **Geavanceerde bezorging wilt** gaan, opent u <https://security.microsoft.com/advanceddelivery> .
 
 - U moet machtigingen hebben toegewezen voordat u de procedures in dit artikel kunt uitvoeren:
-  - Als u geconfigureerde instellingen wilt maken, wijzigen of verwijderen in het  geavanceerde leveringsbeleid, moet u lid zijn van de  rollengroep Beveiligingsbeheerder in het **Beveiligings- & Compliancecentrum** en lid zijn van de rollengroep Organisatiebeheer in **Exchange Online.**  
+  - Als u geconfigureerde instellingen wilt maken, wijzigen of verwijderen in het  geavanceerde bezorgingsbeleid, moet u lid  zijn van de rollengroep Beveiligingsbeheerder in het **beveiligingscentrum** en lid zijn van de rollengroep Organisatiebeheer in **Exchange Online.**  
   - Voor alleen-lezen toegang tot het geavanceerde bezorgingsbeleid moet u lid zijn van de rollengroepen **Globale** lezer of **Beveiligingslezer.**
 
-  Zie Machtigingen [in het Beveiligings-](permissions-in-the-security-and-compliance-center.md) & Compliancecentrum en [Machtigingen in](/exchange/permissions-exo/permissions-exo)Exchange Online.
+  Zie Machtigingen [in het](permissions-microsoft-365-security-center.md) Microsoft 365 beveiligingscentrum en [Machtigingen in](/exchange/permissions-exo/permissions-exo)Exchange Online.
 
-## <a name="use-the-security--compliance-center-to-configure-third-party-phishing-simulations-in-the-advanced-delivery-policy"></a>Gebruik het Beveiligings- & compliancecentrum om phishingsimulaties van derden te configureren in het geavanceerde bezorgingsbeleid
+  > [!NOTE]
+  > Gebruikers toevoegen aan de bijbehorende Azure Active Directory geeft gebruikers de vereiste machtigingen in het beveiligingscentrum en _machtigingen_ voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
 
-1. Ga in het & Compliance center naar **Threat management** \> **Policy Advanced** \> **delivery**.
+## <a name="use-the-security-center-to-configure-secops-mailboxes-in-the-advanced-delivery-policy"></a>Het beveiligingscentrum gebruiken om SecOps-postvakken te configureren in het beleid voor geavanceerde bezorging
 
-2. Selecteer op **de pagina Geavanceerde** bezorging het tabblad **Phishingsimulatie** en klik vervolgens op **Bewerken.**
+1. Ga in het beveiligingscentrum naar **E-mail & samenwerkingsbeleid** & regels \>  \> **Bedreigingsbeleidsregels** \>  sectie \> **Geavanceerde bezorging**.
 
-3. Configureer de volgende instellingen **in de flyout phishingsimulatie** van derden die wordt geopend:
+2. Controleer op **de pagina** Geavanceerde bezorging of het **tabblad SecOps-postvak** is geselecteerd en ga vervolgens op een van de volgende stappen te werk:
+   - Klik ![ op Pictogram Bewerken ](../../media/m365-cc-sc-edit-icon.png) **Bewerken.**
+   - Als er geen geconfigureerde phishingsimulaties zijn, klikt u op **Toevoegen.**
 
-   - **Domein verzenden:** Er is ten minste één e-mailadresdomein vereist (bijvoorbeeld contoso.com). U kunt maximaal tien items toevoegen.
-   - **IP-adres** verzenden: Minimaal één geldig IPv4-adres is vereist. U kunt maximaal tien items toevoegen. Geldige waarden zijn:
-     - Enkel IP: bijvoorbeeld 192.168.1.1.
-     - IP-bereik: bijvoorbeeld 192.168.0.1-192.168.0.254.
-     - CIDR IP: Bijvoorbeeld 192.168.0.1/25.
-   - **Url's voor** simulaties om toe te staan: Voer desgewenst specifieke URL's in die deel uitmaken van uw phishingsimulatiecampagne die niet mogen worden geblokkeerd of tot ontploffing mogen worden gebracht. U kunt maximaal tien items toevoegen.
+3. Voer in **het flyout SecOps-postvakken** bewerken dat wordt geopend een bestaand Exchange Online-postvak in dat u wilt aanwijzen als SecOps-postvak door een van de volgende stappen uit te voeren:
+   - Klik in het vak, laat de lijst met postvakken oplossen en selecteer het postvak.
+   - Klik in het vak om een id voor het postvak te typen (naam, weergavenaam, alias, e-mailadres, accountnaam, enzovoort) en selecteer het postvak (weergavenaam) in de resultaten.
 
-4. Wanneer u klaar bent, klikt u op **Opslaan.**
+     Herhaal deze stap zo vaak als nodig is. Distributiegroepen zijn niet toegestaan.
 
-De phishingsimulatiegegevens van derden die u hebt geconfigureerd, worden weergegeven op het **tabblad Phishingsimulatie.** Als u wijzigingen wilt aanbrengen, klikt **u op Bewerken** op het tabblad.
-
-## <a name="use-the-security--compliance-center-to-configure-secops-mailboxes-in-the-advanced-delivery-policy"></a>Gebruik het Beveiligings- & compliancecentrum om SecOps-postvakken te configureren in het geavanceerde bezorgingsbeleid
-
-1. Ga in het & compliancecentrum naar **Geavanceerde bezorging van bedreigingsbeleidsbeleid.** \>  \> 
-
-2. Selecteer op **de pagina Geavanceerde** bezorging het tabblad **SecOps-postvak** en klik vervolgens op **Bewerken.**
-
-3. Voer in **het flyout SecOps-postvak** dat wordt geopend de e-mailadressen in van bestaande Exchange Online postvakken die u wilt aanwijzen als SecOps-postvakken. Distributiegroepen zijn niet toegestaan.
+     Als u een bestaande waarde wilt verwijderen, klikt u op verwijderen ![Pictogram Verwijderen](../../media/m365-cc-sc-remove-selection-icon.png) naast de waarde.
 
 4. Klik op **Opslaan** wanneer u gereed bent.
 
-De secops-postvakinzendingen die u hebt geconfigureerd, worden weergegeven op het **tabblad SecOps-postvak.** Als u wijzigingen wilt aanbrengen, klikt **u op Bewerken** op het tabblad.
+De secops-postvakinzendingen die u hebt geconfigureerd, worden weergegeven op het **tabblad SecOps-postvak.** Als u wijzigingen wilt aanbrengen, klikt ![ u op Het tabblad ](../../media/m365-cc-sc-edit-icon.png) **bewerken** op Pictogram Bewerken.
+
+## <a name="use-the-security-center-to-configure-third-party-phishing-simulations-in-the-advanced-delivery-policy"></a>Gebruik het beveiligingscentrum om phishingsimulaties van derden te configureren in het beleid voor geavanceerde bezorging
+
+1. Ga in het beveiligingscentrum naar **E-mail & samenwerkingsbeleid** & regels \>  \> **Bedreigingsbeleidsregels** \>  sectie \> **Geavanceerde bezorging**.
+
+2. Selecteer op **de pagina** Geavanceerde bezorging het **tabblad Phishingsimulatie** en ga vervolgens op een van de volgende stappen te werk:
+   - Klik ![ op Pictogram Bewerken ](../../media/m365-cc-sc-edit-icon.png) **Bewerken.**
+   - Als er geen geconfigureerde phishingsimulaties zijn, klikt u op **Toevoegen.**
+
+3. Configureer de volgende instellingen in het flyout **phishingsimulatie** van derden bewerken dat wordt geopend:
+
+   - **Domein** verzenden: Vouw deze instelling uit en voer ten minste één e-mailadresdomein in (bijvoorbeeld contoso.com) door in het vak te klikken, een waarde in te voeren en vervolgens op Enter te drukken of de waarde te selecteren die onder het vak wordt weergegeven. Herhaal deze stap zo vaak als nodig is. U kunt maximaal tien items toevoegen.
+   - **IP verzenden:** Vouw deze instelling uit en voer ten minste één geldig IPv4-adres in door in het vak te klikken, een waarde in te voeren en vervolgens op Enter te drukken of de waarde te selecteren die onder het vak wordt weergegeven. Herhaal deze stap zo vaak als nodig is. U kunt maximaal tien items toevoegen. Geldige waarden zijn:
+     - Enkel IP: bijvoorbeeld 192.168.1.1.
+     - IP-bereik: bijvoorbeeld 192.168.0.1-192.168.0.254.
+     - CIDR IP: Bijvoorbeeld 192.168.0.1/25.
+   - **Url's** voor simulaties om dit mogelijk te maken: Vouw deze instelling uit en voer desgewenst specifieke URL's in die deel uitmaken van uw phishingsimulatiecampagne die niet mogen worden geblokkeerd of gedetoneerd door in het vak te klikken, een waarde in te voeren en vervolgens op Enter te drukken of de waarde te selecteren die onder het vak wordt weergegeven. U kunt maximaal tien items toevoegen.
+
+   Als u een bestaande waarde wilt verwijderen, klikt u op verwijderen ![Pictogram Verwijderen](../../media/m365-cc-sc-remove-selection-icon.png) naast de waarde.
+
+4. Wanneer u klaar bent, gaat u op een van de volgende stappen te werk:
+   - **Eerste keer:** Klik **op Toevoegen** en klik vervolgens op **Sluiten.**
+   - **Bestaand bewerken:** Klik **op Opslaan** en klik vervolgens op **Sluiten.**
+
+De phishingsimulatiegegevens van derden die u hebt geconfigureerd, worden weergegeven op het **tabblad Phishingsimulatie.** Als u wijzigingen wilt aanbrengen, klikt ![ u op Het tabblad ](../../media/m365-cc-sc-edit-icon.png) **bewerken** op Pictogram Bewerken.
 
 ## <a name="additional-scenarios-that-require-filtering-bypass"></a>Extra scenario's waarvoor filteren moet worden omzeild
 
@@ -107,6 +124,6 @@ Naast de twee scenario's waar het geavanceerde bezorgingsbeleid u bij kan helpen
 
 - **Filters van derden:** Als de MX-record  van uw domein niet naar Office 365 (berichten worden eerst ergens anders gerouteerd), is beveiliging standaard niet [](secure-by-default.md) *beschikbaar.*
 
-  Als u microsoft-filtering wilt omzeilen voor berichten die al zijn geëvalueerd door filtering van derden, gebruikt u regels voor e-mailstroom (ook wel transportregels genoemd), zie E-mailstroomregels gebruiken om de SCL in berichten [in te stellen.](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-set-scl.md)
+  Gebruik e-mailstroomregels (ook wel transportregels genoemd) om Microsoft-filtering te omzeilen voor berichten die al zijn geëvalueerd door filtering van derden. Zie E-mailstroomregels gebruiken om de SCL in berichten [in te stellen voor meer informatie.](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-set-scl.md)
 
-- **False positives under review**: U wilt mogelijk bepaalde berichten die nog steeds door Microsoft worden geanalyseerd [via](admin-submission.md) beheerdersinzendingen tijdelijk toestaan om bekende goede berichten te melden die ten onrechte als slecht worden gemarkeerd voor Microsoft (false positives). Net als bij alle overschrijvingen wordt het ten zeerste **_aangeraden_** om deze vergoedingen tijdelijk af te geven.
+- **False positives under review**: U wilt mogelijk bepaalde berichten die nog steeds door Microsoft worden geanalyseerd [via](admin-submission.md) beheerdersinzendingen tijdelijk toestaan om bekende goede berichten te melden die ten onrechte als slecht worden gemarkeerd voor Microsoft (false positives). Net als bij alle **** overschrijvingen wordt ten zeerste aanbevolen dat deze vergoedingen tijdelijk zijn.

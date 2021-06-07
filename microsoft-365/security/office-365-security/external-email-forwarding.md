@@ -15,12 +15,12 @@ ms.custom:
 description: .
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0f42da077ca84341824fad01fcb23eae976336a1
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 6b96d3d656a89e7102550d09a2f5052fdb5ae818
+ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204206"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52792954"
 ---
 # <a name="control-automatic-external-email-forwarding-in-microsoft-365"></a>Automatische externe e-mail doorsturen in Microsoft 365
 
@@ -33,16 +33,14 @@ ms.locfileid: "51204206"
 
 Als beheerder hebt u mogelijk bedrijfsvereisten voor het beperken of beheren van automatisch doorgestuurde berichten naar externe geadresseerden (geadresseerden buiten uw organisatie). E-mail doorsturen kan handig zijn, maar kan ook een beveiligingsrisico opleveren vanwege de mogelijke openbaarmaking van informatie. Aanvallers kunnen deze informatie gebruiken om uw organisatie of partners aan te vallen.
 
-
 De volgende typen automatische doorsturen zijn beschikbaar in Microsoft 365:
 
 - Gebruikers kunnen regels [voor Postvak IN zo](https://support.microsoft.com/office/c24f5dea-9465-4df4-ad17-a50704d66c59) configureren dat berichten automatisch worden doorgestuurd naar externe afzenders (bewust of als gevolg van een gekromd account).
-
 - Beheerders kunnen het [doorsturen van postvakken](/exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding) (ook wel _SMTP-doorsturen_ genoemd) configureren om berichten automatisch door te sturen naar externe geadresseerden. De beheerder kan kiezen of u alleen berichten wilt doorsturen of kopieën van doorgestuurde berichten in het postvak wilt bewaren.
 
 U kunt beleidsregels voor uitgaand spamfilter gebruiken om automatische doorsturen naar externe geadresseerden te controleren. Er zijn drie instellingen beschikbaar:
 
-- **Automatisch:** Automatisch extern doorsturen wordt geblokkeerd. Interne automatische doorsturen van berichten blijft werken. Dit is de standaardinstelling.
+- **Automatisch - Systeemgestuurd:** Automatisch extern doorsturen wordt geblokkeerd. Interne automatische doorsturen van berichten blijft werken. Dit is de standaardinstelling.
 - **Op**: Automatisch extern doorsturen is toegestaan en niet beperkt.
 - **Uit:** Automatisch extern doorsturen is uitgeschakeld en resulteert in een rapport over niet-bezorging (ook wel een NDR- of bouncebericht genoemd) naar de afzender.
 
@@ -61,13 +59,11 @@ Zie Uitgaande [spamfilters](configure-the-outbound-spam-policy.md)configureren i
 Als beheerder hebt u mogelijk al andere besturingselementen geconfigureerd om automatisch doorsturen van e-mail toe te staan of te blokkeren. Bijvoorbeeld:
 
 - [Externe domeinen om](/exchange/mail-flow-best-practices/remote-domains/remote-domains) automatische doorsturen van e-mail naar bepaalde of alle externe domeinen toe te staan of te blokkeren.
-
-- Voorwaarden en acties in [Exchange-regels](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) voor e-mailstroom (ook wel transportregels genoemd) om automatisch doorgestuurde berichten naar externe geadresseerden te detecteren en te blokkeren.
+- Voorwaarden en acties in Exchange [regels](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) voor e-mailstroom (ook wel transportregels genoemd) om automatisch doorgestuurde berichten naar externe geadresseerden te detecteren en te blokkeren.
 
 Externe domeininstellingen en e-mailstroomregels zijn onafhankelijk van de instellingen in beleidsregels voor uitgaand spamfilter. Bijvoorbeeld:
 
 - U staat automatisch doorsturen voor een extern domein toe, maar u blokkeert automatisch doorsturen in beleidsregels voor uitgaand spamfilter. In dit voorbeeld worden automatisch doorgestuurde berichten geblokkeerd.
-
 - U staat automatisch doorsturen toe in beleidsregels voor uitgaand spamfilter, maar u gebruikt regels voor e-mailstroom of externe domeininstellingen om automatisch doorgestuurde e-mail te blokkeren. In dit voorbeeld blokkeren de regels voor e-mailstroom of externe domeininstellingen automatisch doorgestuurde berichten.
 
 Met deze functieafhankelijkheid kunt u (bijvoorbeeld) automatisch doorsturen toestaan in beleidsregels voor uitgaand spamfilter, maar externe domeinen gebruiken om de externe domeinen te beheren waar gebruikers berichten naar kunnen doorsturen.

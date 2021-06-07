@@ -6,19 +6,19 @@ ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 localization_priority: normal
-ms.author: dansimp
-author: dansimp
+ms.author: deniseb
+author: denisebmsft
 ms.reviewer: dansimp
 ms.topic: article
 manager: dansimp
 audience: ITPro
 ms.technology: mde
-ms.openlocfilehash: ee8e7be20076bde41867981008e53a70c134e47e
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 47eb80af58c948db5997dc9f5edfa5737a796837
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893725"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52772363"
 ---
 # <a name="protect-your-organizations-data-with-device-control"></a>De gegevens van uw organisatie beveiligen met apparaatbesturingselement
 
@@ -39,11 +39,11 @@ Met het apparaatbesturingselementrapport kunt u gebeurtenissen bekijken die betr
 De auditgebeurtenissen zijn:
 
 - **USB-station mount and unmount:** Auditgebeurtenissen die worden gegenereerd wanneer een USB-station is bevestigd of losgekoppeld.
-- **PnP:** Auditgebeurtenissen voor het aansluiten en afspelen worden gegenereerd wanneer verwisselbare opslag, een printer of Bluetooth-media is verbonden.
+- **PnP:** Auditgebeurtenissen voor het aansluiten en afspelen worden gegenereerd wanneer verwisselbare opslag, een printer of Bluetooth media is verbonden.
 
 ## <a name="monitor-device-control-security"></a>Beveiliging van apparaatbesturingselementen controleren
 
-Apparaatbesturingselement in Microsoft Defender voor Eindpunt biedt beveiligingsbeheerders hulpmiddelen waarmee ze de beveiliging van apparaatbeheer van hun organisatie kunnen bijhouden via rapporten. U kunt het apparaatbesturingselementrapport vinden in het Microsoft 365-beveiligingscentrum door naar **Rapporten > Apparaatbeveiliging te gaan.**
+Apparaatbesturingselement in Microsoft Defender voor Eindpunt biedt beveiligingsbeheerders hulpmiddelen waarmee ze de beveiliging van apparaatbeheer van hun organisatie kunnen bijhouden via rapporten. U kunt het apparaatbesturingselementrapport vinden in het Microsoft 365 beveiligingscentrum door naar **Rapporten > Apparaatbeveiliging te gaan.**
 
 De apparaatbeveiligingskaart op het dashboard **Rapporten** toont het aantal auditgebeurtenissen dat per mediatype is gegenereerd, in de afgelopen 180 dagen.
 
@@ -61,7 +61,7 @@ Wanneer u een gebeurtenis selecteert, wordt er een flyout weergegeven met meer i
 
 - **Algemene details:** Datum, actiemodus en het beleid van deze gebeurtenis.
 - **Media-informatie:** Mediagegevens omvatten Medianaam, Klasnaam, Class GUID, Apparaat-id, Leverancier-id, Volume, Serienummer en Bustype.
-- **Locatiegegevens:** Apparaatnaam en MDATP-apparaat-id.
+- **Locatiegegevens:** Apparaatnaam en MDATP apparaat-id.
 
 > [!div class="mx-imgBorder"]
 > ![FilterOnDeviceControlReport](images/devicecontrolreportfilter.png)

@@ -16,13 +16,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 3526fd06-b45f-445b-aed4-5ebd37b3762a
-description: Gebruik de functie Zoeken en verwijderen in het beveiligings- en compliancecentrum om een e-mailbericht te zoeken en te verwijderen uit alle postvakken in uw organisatie.
-ms.openlocfilehash: 629b236be3f857da47674cda9350d8b89e6f3445
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+description: Gebruik de functie Zoeken en verwijderen in het Microsoft 365-compliancecentrum om een e-mailbericht te zoeken en te verwijderen uit alle postvakken in uw organisatie.
+ms.openlocfilehash: 95683ed5dc6cce8ff109976ebb0d13215593f046
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537641"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770707"
 ---
 # <a name="search-for-and-delete-email-messages"></a>E-mailberichten zoeken en verwijderen
 
@@ -46,19 +46,23 @@ U kunt de functie Zoeken en verwijderen gebruiken om een e-mailbericht te zoeken
   > [!NOTE]
   > De rollengroep **Organisatiebeheer** bestaat zowel in Exchange Online als in het Beveiligings- en compliancecentrum. Dit zijn afzonderlijke rollengroepen die verschillende machtigingen geven. Als lid van **Organisatiebeheer** in Exchange Online worden de vereiste machtigingen voor het verwijderen van e-mailberichten niet verleend. Als u niet de rol **Zoeken en opschonen** toegewezen hebt gekregen in Beveiligings- en compliancecentrum (rechtstreeks of via een rollengroep zoals **Organisatiebeheer**), wordt u in stap 3 een fout weergegeven wanneer u de cmdlet **New-ComplianceSearchAction** uitvoert met het bericht 'Er kan geen parameter worden gevonden die overeenkomt met de parameternaam 'Opschonen'.
 
-- U moet PowerShell voor het beveiligings- en compliancecentrum gebruiken om berichten te verwijderen. Zie [stap 2](#step-2-connect-to-security--compliance-center-powershell) voor instructies over het maken van verbinding.
+- U moet PowerShell voor het beveiligings- en compliancecentrum gebruiken om berichten te verwijderen. Zie [stap 1](#step-1-connect-to-security--compliance-center-powershell) voor instructies over het maken van verbinding.
 
 - U kunt per keer maximaal 10 items per postvak verwijderen. Omdat de mogelijkheid om berichten te zoeken en te verwijderen is bedoeld als een hulpprogramma voor incidentele reactie, zorgt deze limiet ervoor dat berichten snel uit postvakken worden verwijderd. Deze functie is niet bedoeld om postvakken van gebruikers op te schonen.
 
-- Het maximum aantal postvakken in een inhoudszoekactie dat u kunt gebruiken om items te verwijderen via een zoek- en opschoningsopdracht is 50.000. Als met de zoekopdracht (die u in [stap 1](#step-1-create-a-content-search-to-find-the-message-to-delete) maakt) in meer dan 50.000 postvakken wordt gezocht, mislukt de opschoningsactie (die u in stap 3 maakt). Er kan meestal worden gezocht naar meer dan 50.000 postvakken in één zoekopdracht wanneer u de zoekopdracht zo configureert dat alle postvakken in uw organisatie worden gebruikt. Deze beperking geldt ook wanneer minder dan 50.000 postvakken items bevatten die overeenkomen met de zoekopdracht. Zie de sectie [Meer informatie](#more-information) voor instructies voor het gebruik van zoekmachtigingsfilters voor het zoeken naar en verwijderen van items uit meer dan 50.000 postvakken.
+- Het maximum aantal postvakken in een inhoudszoekactie dat u kunt gebruiken om items te verwijderen via een zoek- en opschoningsopdracht is 50.000. Als met de zoekopdracht (die u in [stap 2](#step-2-create-a-content-search-to-find-the-message-to-delete) maakt) in meer dan 50.000 postvakken wordt gezocht, mislukt de opschoningsactie (die u in stap 3 maakt). Er kan meestal worden gezocht naar meer dan 50.000 postvakken in één zoekopdracht wanneer u de zoekopdracht zo configureert dat alle postvakken in uw organisatie worden gebruikt. Deze beperking geldt ook wanneer minder dan 50.000 postvakken items bevatten die overeenkomen met de zoekopdracht. Zie de sectie [Meer informatie](#more-information) voor instructies voor het gebruik van zoekmachtigingsfilters voor het zoeken naar en verwijderen van items uit meer dan 50.000 postvakken.
 
 - De procedure in dit artikel kan alleen worden gebruikt om items in postvakken en openbare mappen van Exchange Online te verwijderen. U kunt deze niet gebruiken om inhoud te verwijderen van SharePoint- of OneDrive voor Bedrijven-sites.
 
 - E-mailitems in een revisieset in een Advanced eDiscovery-zaak kunnen niet worden verwijderd met behulp van de procedures in dit artikel. Items in een revisieset zijn namelijk opgeslagen in een Azure-opslaglocatie en niet in de liveservice. Dit betekent dat deze niet worden geretourneerd door de inhoudszoekactie die u in stap 1 hebt gemaakt. Als u items in een revisieset wilt verwijderen, moet u de Advanced eDiscovery-zaak met de revisieset verwijderen. Zie [Advanced eDiscovery-zaak sluiten of verwijderen](close-or-delete-case.md) voor meer informatie.
 
-## <a name="step-1-create-a-content-search-to-find-the-message-to-delete"></a>Stap 1: Een inhoudszoekactie maken om het te verwijderen bericht te zoeken
+## <a name="step-1-connect-to-security--compliance-center-powershell"></a>Stap 1: verbinding maken met Beveiligings- en compliancecentrum van PowerShell
 
-De eerste stap bestaat uit het maken en uitvoeren van een inhoudszoekactie om het bericht te zoeken dat u wilt verwijderen uit postvakken in uw organisatie. U kunt de zoekopdracht maken met behulp van het Beveiligings- en compliancecentrum of door de cmdlets **New-ComplianceSearch** en **Start-ComplianceSearch** uit te voeren. De berichten die overeenkomen met de query voor deze zoekopdracht worden verwijderd door de opdracht **New-ComplianceSearchAction -Purge** in [stap 3](#step-3-delete-the-message) uit te voeren. Zie de volgende onderwerpen voor informatie over het maken van een inhoudszoekopdracht en het configureren van zoekquery's:
+De eerste stap is het maken van verbinding met Beveiligings- en compliancecentrum van PowerShell voor uw organisatie. Zie [Verbinding maken met Beveiligings- en compliancecentrum van Powershell](/powershell/exchange/connect-to-scc-powershell) voor stapsgewijze instructies.
+
+## <a name="step-2-create-a-content-search-to-find-the-message-to-delete"></a>Stap 2: een inhoudszoekactie maken om het te verwijderen bericht te zoeken
+
+De tweede stap bestaat uit het maken en uitvoeren van een Inhoudszoekactie om het bericht te zoeken dat u wilt verwijderen uit postvakken in uw organisatie. U kunt de zoekopdracht maken met behulp van het Microsoft 365-compliancecentrum of door de cmdlets **New-ComplianceSearch** en **Start-ComplianceSearch** in Beveiligings- en compliancecentrum van PowerShell uit te voeren. De berichten die overeenkomen met de query voor deze zoekopdracht worden verwijderd door de opdracht **New-ComplianceSearchAction -Purge** in [Stap 3](#step-3-delete-the-message) uit te voeren. Zie de volgende onderwerpen voor informatie over het maken van een Inhoudszoekopdracht en het configureren van zoekquery's:
 
 - [Inhoud zoeken in Office 365 ](content-search.md)
 
@@ -69,7 +73,7 @@ De eerste stap bestaat uit het maken en uitvoeren van een inhoudszoekactie om he
 - [Start-ComplianceSearch](/powershell/module/exchange/Start-ComplianceSearch)
 
 > [!NOTE]
-> De inhoudslocaties waarin wordt gezocht in de inhoudszoekopdracht die u in deze stap maakt, kunnen geen SharePoint- of OneDrive voor Bedrijven-sites bevatten. U kunt alleen postvakken en openbare mappen opnemen in een inhoudszoekopdracht die wordt gebruikt voor e-mailberichten. Als de inhoudszoekopdracht sites bevat, krijgt u een foutmelding in stap 3 wanneer u de cmdlet **New-ComplianceSearchAction** uitvoert.
+> De inhoudslocaties waarin wordt gezocht in de Inhoudszoekopdracht die u in deze stap maakt, kunnen geen SharePoint- of OneDrive voor Bedrijven-sites bevatten. U kunt alleen postvakken en openbare mappen opnemen in een Inhoudszoekopdracht die wordt gebruikt voor e-mailberichten. Als de Inhoudszoekopdracht sites bevat, krijgt u een foutmelding in Stap 3 wanneer u de cmdlet **New-ComplianceSearchAction** uitvoert.
 
 ### <a name="tips-for-finding-messages-to-remove"></a>Tips voor het zoeken naar berichten die u wilt verwijderen
 
@@ -83,7 +87,7 @@ Het doel van de zoekopdracht is om de resultaten van de zoekopdracht te beperken
 
 - Bekijk een voorbeeld van de zoekresultaten om te controleren of de zoekopdracht alleen het bericht (of de berichten) heeft geretourneerd die u wilt verwijderen.
 
-- Gebruik de statistieken voor geschatte zoekresultaten (weergegeven in het detailvenster van de zoekopdracht in het beveiligings- en compliancecentrum of met behulp van de cmdlet [Get-ComplianceSearch](/powershell/module/exchange/get-compliancesearch)) om het totale aantal resultaten te tellen.
+- Gebruik de statistieken voor geschatte zoekresultaten (weergegeven in het detailvenster van de zoekopdracht in het Microsoft 365-compliancecentrum of met behulp van de cmdlet [Get-ComplianceSearch](/powershell/module/exchange/get-compliancesearch)) om het totale aantal resultaten te tellen.
 
 Hier ziet u twee voorbeelden van query's om verdachte e-mailberichten te vinden.
 
@@ -106,17 +110,11 @@ $Search=New-ComplianceSearch -Name "Remove Phishing Message" -ExchangeLocation A
 Start-ComplianceSearch -Identity $Search.Identity
 ```
 
-## <a name="step-2-connect-to-security--compliance-center-powershell"></a>Stap 2: Verbinding maken met PowerShell van het beveiligings- en compliancecentrum
+## <a name="step-3-delete-the-message"></a>Stap 3: het bericht verwijderen
 
-De volgende stap is het maken van verbinding met PowerShell voor het beveiligings- en compliancecentrum voor uw organisatie. Zie [Verbinding maken met Exchange Online PowerShell](/powershell/exchange/connect-to-scc-powershell) voor stapsgewijze instructies.
+Nadat u een Inhoudszoekopdracht hebt gemaakt en verfijnd om het bericht te retourneren dat u wilt verwijderen en verbonden bent met de PowerShell van het Beveiligings- en compliancecentrum, bestaat de laatste stap eruit om de cmdlet **New-ComplianceSearchAction** uit te voeren om het bericht te verwijderen. U kunt het bericht snel of definitief verwijderen. Een snel verwijderd bericht wordt verplaatst naar de map Herstelbare items van een gebruiker en wordt bewaard totdat de bewaarperiode voor verwijderde items is verstreken. Definitief verwijderde berichten worden gemarkeerd voor permanente verwijdering uit het postvak en worden definitief verwijderd wanneer het postvak de volgende keer wordt verwerkt door de Assistent voor beheerde mappen. Als herstel van één item voor het postvak is ingeschakeld, worden deze verwijderde items definitief verwijderd nadat de bewaarperiode voor verwijderde items is verstreken. Als een postvak in de wacht is geplaatst, blijven verwijderde berichten behouden totdat de duur van het item verloopt of totdat de blokkade op het postvak wordt opgeheven.
 
-Nadat u verbinding hebt gemaakt met de PowerShell van het beveiligings- en compliancecentrum moet u de cmdlets **New-ComplianceSearch** en **Start-ComplianceSearch** uitvoeren die u in de vorige stap hebt voorbereid.
-
-## <a name="step-3-delete-the-message"></a>Stap 3: Het bericht verwijderen
-
-Nadat u een inhoudzoekactie hebt gemaakt en verfijnd om het bericht te retourneren dat u wilt verwijderen en verbonden bent met de PowerShell van het beveiligings- en compliancecentrum, bestaat de laatste stap eruit om de cmdlet **New-ComplianceSearchAction** uit te voeren om het bericht te verwijderen. U kunt het bericht snel of definitief verwijderen. Een snel verwijderd bericht wordt verplaatst naar de map Herstelbare items van een gebruiker en wordt bewaard totdat de bewaarperiode voor verwijderde items is verstreken. Definitief verwijderde berichten worden gemarkeerd voor permanente verwijdering uit het postvak en worden definitief verwijderd wanneer het postvak de volgende keer wordt verwerkt door de Assistent voor beheerde mappen. Als herstel van één item voor het postvak is ingeschakeld, worden deze verwijderde items definitief verwijderd nadat de bewaarperiode voor verwijderde items is verstreken. Als een postvak in de wacht is geplaatst, blijven verwijderde berichten behouden totdat de duur van het item verloopt of totdat de blokkade op het postvak wordt opgeheven.
-
-In het volgende voorbeeld worden met de opdracht snel de zoekresultaten verwijderd die het resultaat zijn van de zoekopdracht 'Phishingbericht verwijderen'.
+In het volgende voorbeeld worden met de opdracht de zoekresultaten verwijderd die het resultaat zijn van een Inhoudszoekopdracht 'Phishingbericht verwijderen'.
 
 ```powershell
 New-ComplianceSearchAction -SearchName "Remove Phishing Message" -Purge -PurgeType SoftDelete

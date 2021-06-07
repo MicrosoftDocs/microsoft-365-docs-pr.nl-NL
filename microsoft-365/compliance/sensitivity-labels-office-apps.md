@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Informatie voor IT-beheerders voor het beheren van vertrouwelijkheidslabels in Office-apps voor desktop, mobiele apparaten en internet.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a7ac7415ce5e7f88b21128846b7cff957e388fd5
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: 3da3d971a1ef55d343ac1b61e6457981022c4c92
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730376"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770376"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Vertrouwelijkheidslabels in Office-apps beheren
 
@@ -88,11 +88,11 @@ De weergegeven nummers zijn de minimale versies van Office-toepassingen die voor
 |[Dynamische markeringen met variabelen](#dynamic-markings-with-variables)                                              | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | Ja               |
 |[Nu machtigingen toewijzen](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | Ja               |
 |[Gebruikers machtigingen laten toewijzen: <br /> - Niet doorsturen](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | Ja               |
-|[Gebruikers machtigingen laten toewijzen: <br /> - Alleen-versleutelen](encryption-sensitivity-labels.md#let-users-assign-permissions)  |2011+ | 16.48+ | 4.2112.0+  | 4.2112.0+ | Ja |
+|[Gebruikers machtigingen laten toewijzen: <br /> - Alleen-versleutelen](encryption-sensitivity-labels.md#let-users-assign-permissions)  |2011+ | 16.48+ <sup>\*</sup> | 4.2112.0+  | 4.2112.0+ | Ja |
 |[Vereisen dat gebruikers een label toepassen op hun e-mail en documenten](#require-users-to-apply-a-label-to-their-email-and-documents)   | 2101+                        | 16.43+ <sup>\*</sup>                    | 4.2111+            | 4.2111+                | Ja                |
 |[Activiteit van gebruikers in verband met labels controleren](data-classification-activity-explorer.md) | 2011+ | Ter beoordeling | Ter beoordeling           | Ter beoordeling               | Ter beoordeling |
 |[Een vertrouwelijkheidslabel automatisch op inhoud toepassen](apply-sensitivity-label-automatically.md)                    | 2009+                      | 16.44+ <sup>\*</sup>                    | Ter beoordeling           | Ter beoordeling               | Ja |
-|[Verschillende instellingen voor standaardlabels en verplicht labelen](#outlook-specific-options-for-default-label-and-mandatory-labeling)                    | 2105+                      | 16.43.1108+                   | 4.2111+           | 4.2111+               | Ja |
+|[Verschillende instellingen voor standaardlabels en verplicht labelen](#outlook-specific-options-for-default-label-and-mandatory-labeling)                    | 2105+                      | 16.43.1108+ <sup>\*</sup>                   | 4.2111+           | 4.2111+               | Ja |
 |
 
 **Voetnoten:**

@@ -1,7 +1,7 @@
 ---
-title: Lijst met beveiligingslekken op aanbeveling
+title: Lijst van beveiligingsproblemen per aanbeveling
 description: Hiermee wordt een lijst met beveiligingsproblemen opgehaald die zijn gekoppeld aan de beveiligingsaanbeveling.
-keywords: api's, graph api, ondersteunde api's, get, lijst met beveiligingsproblemen, beveiligingsaanbeveling, beveiligingsaanbeveling voor beveiligingsproblemen, bedreigings- en kwetsbaarheidsbeheer, api voor bedreigings- en kwetsbaarheidsbeheer
+keywords: api's, graph api, ondersteunde api's, get, lijst met beveiligingsproblemen, beveiligingsaanbeveling, beveiligingsaanbeveling voor beveiligingsproblemen, Threat and Vulnerability Management, Threat and Vulnerability Management api
 search.product: eADQiWindows 10XVcnh
 ms.prod: w10
 ms.mktglfcycl: deploy
@@ -14,14 +14,16 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: b41ee2886d758ab0ab70b78ee6d6d863d0d482a7
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 8fc9bb53fd2cfe768710129704c13ee751a695a2
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51198599"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770443"
 ---
-# <a name="list-vulnerabilities-by-recommendation"></a>Lijst met beveiligingslekken op aanbeveling
+# <a name="list-vulnerabilities-by-recommendation"></a>Lijst van beveiligingsproblemen per aanbeveling
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -52,7 +54,7 @@ GET /api/recommendations/{id}/vulnerabilities
 
 ## <a name="request-headers"></a>Kopteksten aanvragen
 
-Naam | Type | Beschrijving
+Naam | Type | Omschrijving
 :---|:---|:---
 Autorisatie | Tekenreeks | Bearer {token}. **Vereist**.
 

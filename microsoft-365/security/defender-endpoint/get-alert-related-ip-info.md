@@ -1,5 +1,5 @@
 ---
-title: Informatie over waarschuwingsgerelateerde IPs krijgen
+title: Gegevens over IP's met betrekking tot waarschuwingen ophalen
 description: Alle IP's ophalen die betrekking hebben op een specifieke waarschuwing met Microsoft Defender voor Eindpunt.
 keywords: api's, graph api, ondersteunde api's, waarschuwingsinformatie, waarschuwingsinformatie, gerelateerde ip
 search.product: eADQiWindows 10XVcnh
@@ -14,20 +14,21 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 970f82038bd7feb4f0c568ed13b285f75bf1ab19
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: b6ac9746ff82f81772505daac7d7f36249687d7d
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166667"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52772327"
 ---
 # <a name="get-alert-related-ips-information-api"></a>Api voor waarschuwingsgerelateerde IPs-informatie krijgen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
@@ -67,7 +68,7 @@ GET /api/alerts/{id}/ips
 
 ## <a name="request-headers"></a>Kopteksten aanvragen
 
-Naam | Type | Beschrijving
+Naam | Type | Omschrijving
 :---|:---|:---
 Autorisatie | Tekenreeks | Bearer {token}. **Vereist**.
 

@@ -16,13 +16,13 @@ ms.custom: nextgen
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.date: 05/13/2021
-ms.openlocfilehash: 17a76b39b51293de82cf9b3e5f0e323ec3d28844
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.date: 06/03/2021
+ms.openlocfilehash: e67f783552cca5cc36c1563f5e5557796028ea18
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538037"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52772015"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>Updates Microsoft Defender Antivirus en basislijnen toepassen
 
@@ -465,6 +465,20 @@ U wordt aangeraden uw Windows 10 (Enterprise-, Pro- en Home-edities), Windows Se
 Zie Microsoft Defender update voor Windows [installatieafbeeldingen](https://support.microsoft.com/help/4568292/defender-update-for-windows-operating-system-installation-images)van het besturingssysteem voor meer informatie.
 
 <details>
+<summary>1.1.2106.01</summary>
+
+&ensp;Pakketversie: **1.1.2106.01**    
+&ensp;Platformversie: **4.18.2104.14**   
+&ensp;Engine versie: **1.1.18100.6**  
+&ensp;Handtekeningversie: **1.339.1923.0**    
+    
+### <a name="fixes"></a>Fixes
+- Geen
+
+### <a name="additional-information"></a>Aanvullende informatie
+- Geen  
+<br/>
+</details><details>
 <summary>1.1.2105.01</summary>
 
 &ensp;Pakketversie: **1.1.2105.01**    

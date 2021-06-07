@@ -15,13 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: bc58241be69a1d8e1a78abc583b2c87dbef9cfa7
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 6182b4cb0d1f648f33c3a7fc4da4c648d8996bcd
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51199376"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770611"
 ---
 # <a name="partner-access-through-microsoft-defender-for-endpoint-apis"></a>Partnertoegang via Microsoft Defender voor eindpunt-API's
 
@@ -36,10 +37,10 @@ ms.locfileid: "51199376"
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
-Op deze pagina wordt beschreven hoe u een Azure Active Directory-toepassing (Azure AD) maakt om programmatische toegang te krijgen tot Microsoft Defender voor Eindpunt namens uw klanten.
+Op deze pagina wordt beschreven hoe u een Azure Active Directory (Azure AD) maakt om programmatische toegang te krijgen tot Microsoft Defender voor Eindpunt namens uw klanten.
 
 
-In Microsoft Defender voor Eindpunt worden veel van de gegevens en acties via een set programmatische API's beschikbaar. Met deze API's kunt u werkstromen automatiseren en innoveren op basis van de mogelijkheden van Microsoft Defender voor eindpunten. Voor de API-toegang is OAuth2.0-verificatie vereist. Zie [OAuth 2.0 Autorisatiecodestroom](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)voor meer informatie.
+In Microsoft Defender voor Eindpunt worden veel van de gegevens en acties via een set programmatische API's beschikbaar. Met deze API's kunt u werkstromen automatiseren en innoveren op basis van de mogelijkheden van Microsoft Defender voor eindpunten. Voor de API-toegang is OAuth2.0-verificatie vereist. Zie [OAuth 2.0 Autorisatiecode](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)voor Flow.
 
 Over het algemeen moet u de volgende stappen nemen om de API's te gebruiken:
 - Maak een **Azure AD-toepassing met** meerdere tenants.
@@ -53,7 +54,7 @@ In de volgende stappen vindt u informatie over het maken van een Azure AD-toepas
 
 1. Meld u aan bij [uw Azure-tenant](https://portal.azure.com) met een gebruiker met **de rol Globale** beheerder.
 
-2. **Navigeer naar Azure Active Directory**  >  **App-registraties** Nieuwe  >  **registratie**. 
+2. Navigeer **naar Azure Active Directory**  >  **app-registraties Nieuwe**  >  **registratie**. 
 
    ![Afbeelding van Microsoft Azure en navigatie naar toepassingsregistratie](images/atp-azure-new-app2.png)
 
@@ -65,7 +66,7 @@ In de volgende stappen vindt u informatie over het maken van een Azure AD-toepas
 
     - Redirect URI - type: Web, URI: https://portal.azure.com
 
-    ![Afbeelding van microsoft Azure-partnertoepassingsregistratie](images/atp-api-new-app-partner.png)
+    ![Afbeelding van Microsoft Azure registratie van partnertoepassing](images/atp-api-new-app-partner.png)
 
 
 4. Geef uw toepassing toegang tot Microsoft Defender voor Eindpunt en wijs deze toe met de minimale set machtigingen die nodig zijn om de integratie te voltooien.
@@ -200,7 +201,7 @@ Raadpleeg [Token halen met Python](run-advanced-query-sample-python.md#get-token
 ### <a name="using-curl"></a>Curl gebruiken
 
 > [!NOTE]
-> De onderstaande procedure met de bedoeling Curl voor Windows is al geïnstalleerd op uw computer
+> De onderstaande procedure die Curl voor Windows is al geïnstalleerd op uw computer
 
 - Een opdrachtvenster openen
 - Uw CLIENT_ID op uw Azure-toepassing-id instellen
@@ -248,5 +249,5 @@ Sanity check om er zeker van te zijn dat u een correct token hebt:
     ```
 
 ## <a name="see-also"></a>Zie ook
-- [Ondersteunde API's voor Microsoft Defender voor eindpunten](exposed-apis-list.md)
+- [Ondersteunde API's voor Microsoft Defender voor Eindpunt](exposed-apis-list.md)
 - [Toegang tot Microsoft Defender voor Eindpunt namens een gebruiker](exposed-apis-create-app-nativeapp.md)

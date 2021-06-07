@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: b9c8d4da528ba065dc1b4a68ddaa816a1ad78c4a
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 9f3313a08b072f4fb2f699148ab801207e56fc09
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187830"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52772111"
 ---
 # <a name="isolate-machine-api"></a>Machine-API isoleren
 
@@ -28,7 +29,7 @@ ms.locfileid: "51187830"
 
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -70,7 +71,7 @@ POST https://api.securitycenter.microsoft.com/api/machines/{id}/isolate
 
 ## <a name="request-headers"></a>Kopteksten aanvragen
 
-Naam | Type | Beschrijving
+Naam | Type | Omschrijving
 :---|:---|:---
 Autorisatie | Tekenreeks | Bearer {token}. **Vereist**.
 Inhoudstype | tekenreeks | toepassing/json. **Vereist**.
@@ -78,7 +79,7 @@ Inhoudstype | tekenreeks | toepassing/json. **Vereist**.
 ## <a name="request-body"></a>Body aanvragen
 In de objectaanvraag moet u een JSON-object de volgende parameters geven:
 
-Parameter | Type    | Beschrijving
+Parameter | Type    | Omschrijving
 :---|:---|:---
 Opmerking |   Tekenreeks |    Opmerking om te koppelen aan de actie. **Vereist**.
 IsolationType   | Tekenreeks |  Type isolatie. Toegestane waarden zijn: 'Volledig' of 'Selectief'.

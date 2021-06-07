@@ -1,5 +1,5 @@
 ---
-title: Stap 5. Productiviteitsapps en -services implementeren voor externe medewerkers
+title: Stap 5. Productiviteitsapps en -services implementeren voor hybride werknemers
 f1.keywords:
 - NOCSH
 author: JoeDavies-MSFT
@@ -17,14 +17,14 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Geef uw gebruikers de mogelijkheid productief te zijn met Teams, Exchange, SharePoint en andere Microsoft 365-services.
-ms.openlocfilehash: 749719afdfa7c9f5796ff839d1743ffd697c27e4
-ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
+ms.openlocfilehash: ed35f06f3dcee9c7981a086278040fc0a44519b3
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52029002"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52788896"
 ---
-# <a name="step-5-deploy-remote-worker-productivity-apps-and-services"></a>Stap 5. Productiviteitsapps en -services implementeren voor externe medewerkers
+# <a name="step-5-deploy-hybrid-worker-productivity-apps-and-services"></a>Stap 5. Productiviteitsapps en -services implementeren voor hybride werknemers
 
 Om productief te zijn, moeten mensen met elkaar kunnen communiceren en samenwerken. Ze moeten kunnen vergaderen, chatten via spraak en tekst, nieuwe inhoud kunnen maken, bestanden en informatie delen, e-mails uitwisselen en agenda's en taken kunnen beheren. Microsoft 365 bied cloudservices voor al deze belangrijke functies:
 
@@ -40,11 +40,11 @@ Om productief te zijn, moeten mensen met elkaar kunnen communiceren en samenwerk
 
 ## <a name="keep-people-connected-with-microsoft-teams"></a>Houd iedereen verbonden met Microsoft Teams
 
-Met Teams kunt u op één plek chatten, vergaderen, bellen en samenwerken. Miljoenen mensen doen elke dag hun werk in Teams, omdat het alles wat u nodig hebt om extern te werken, samenbrengt in een hub voor teamwork. 
+Met Teams kunt u op één plek chatten, vergaderen, bellen en samenwerken. Miljoenen mensen doen elke dag hun werk in Teams, omdat het alles wat u nodig hebt om ter plekke of extern te werken, samenbrengt in een hub voor teamwork. 
 
-Voor gedetailleerde informatie, zie[Externe medewerkers ondersteunen met Microsoft Teams](/microsoftteams/support-remote-work-with-teams). 
+Zie[Externe medewerkers ondersteunen met Microsoft Teams](/microsoftteams/support-remote-work-with-teams) voor uitgebreide begeleiding. 
 
-Bekijk de [webcasts Inschakelen van hybride werkzaamheden met Microsoft Teams](https://resources.techcommunity.microsoft.com/enabling-hybrid-work/) voor hulp bij en demo's over het gebruik van Teams voor extern werk.
+Bekijk de [webcasts Inschakelen van hybride werkzaamheden met Microsoft Teams](https://resources.techcommunity.microsoft.com/enabling-hybrid-work/) voor hulp bij en demo's over het gebruik van Teams voor hybride werk.
 
 ### <a name="chat-and-conversations"></a>Chat en gesprekken
 
@@ -52,27 +52,27 @@ Chat en gesprekken met threads staan centraal in Teams met ondersteuning voor é
 
 ### <a name="meetings-and-conferencing"></a>Besprekingen en vergaderingen 
 
-Teams biedt zeker hulp bij het onderhouden van communicatie en het delen van gegevens met externe medewerkers, met name met vergaderingen voor maximaal 250 mensen. Teams-vergaderingen bieden interactieve, gezamenlijke vergaderingen met mensen binnen en buiten uw organisatie. Externe medewerkers kunnen Teams-vergaderingen gebruiken voor dagelijkse activiteiten waaronder terugkerende projectcontrolepunten, bijpraten met collega's, brainstormsessies en gesprekken met klanten. 
+Teams biedt zeker hulp bij het onderhouden van communicatie en het delen van gegevens met hybride werknemers, met name bij vergaderingen voor maximaal 250 mensen. Teams-vergaderingen bieden interactieve, gezamenlijke vergaderingen met mensen binnen en buiten uw organisatie. Externe medewerkers kunnen Teams-vergaderingen gebruiken voor dagelijkse activiteiten waaronder terugkerende projectcontrolepunten, bijpraten met collega's, brainstormsessies en gesprekken met klanten. 
 
 ### <a name="calling"></a>Bellen
 
-Teams ondersteunt rechtstreekse VoIP-gesprekken tussen gebruikers en zelfs andere organisaties die gebruikmaken van federatie. Teams gebruikt dezelfde codecs als vergaderingen en biedt wereldwijd geweldige audio zonder extra PSTN-kosten. Sommige gebruikers hebben echter mogelijk een speciaal telefoonnummer nodig om externe gesprekken aan te nemen wanneer ze extern werken. Teams kan snel cloudtelefoonservice bieden voor deze gebruikers om telefoongesprekken te beginnen en te ontvangen.
+Teams ondersteunt rechtstreekse VoIP-gesprekken tussen gebruikers en zelfs andere organisaties die gebruikmaken van federatie. Teams gebruikt dezelfde codecs als vergaderingen en biedt wereldwijd geweldige audio zonder extra PSTN-kosten. Sommige gebruikers hebben echter mogelijk een speciaal telefoonnummer nodig om externe gesprekken aan te nemen wanneer ze ter plekke of extern werken. Teams kan snel cloudtelefoonservice bieden voor deze gebruikers om telefoongesprekken te beginnen en te ontvangen.
 
 ### <a name="apps-and-workflows"></a>Apps en werkstromen
 
 Teams biedt een platform voor apps en werkstromen die kunnen worden geopend vanaf de desktop-, web- en mobiele versies van Teams. Teams bevat honderden toepassingen die door Microsoft en derden zijn gepubliceerd, waarmee gebruikers beter kunnen samenwerken en waarmee veelgebruikte zakelijke services in Teams kunnen worden geïntegreerd. Gebruikers en beheerders kunnen ook aangepaste apps en geautomatiseerde werkstromen voor Teams maken met Power Apps en Power Automate-ontwikkelhulpmiddelen met weinig code.
 
-Met apps en werkstromen zijn externe medewerkers productiever in Teams, door het verzamelen en delen van belangrijke gegevens, het automatiseren van herhalende taken en de mogelijkheid te chatten met een interactieve bot. Apps vastmaken aan een kanaal of de Teams-app-balk is een goede manier voor gebruikers om deze apps snel beschikbaar te hebben op een relevante plek en beheerders kunnen apps vastmaken om bewustwording en acceptatie te bewerkstelligen van de apps die iedereen zou moeten gebruiken.
+Met apps en werkstromen zijn hybride medewerkers productiever in Teams doordat ze belangrijke gegevens verzamelen en delen, herhalende taken automatiseren en de mogelijkheid hebben te chatten met een interactieve bot. Apps vastmaken aan een kanaal of de Teams-app-balk is een goede manier voor gebruikers om deze apps snel beschikbaar te hebben op een relevante plek en beheerders kunnen apps vastmaken om bewustwording en acceptatie te bewerkstelligen van de apps die iedereen zou moeten gebruiken.
 
 ## <a name="exchange-email-and-manage-calendars-contacts-and-tasks-with-exchange-online-and-outlook"></a>E-mail uitwisselen en agenda's, contactpersonen en taken beheren met Exchange Online en Outlook
 
-Met Outlook kunnen externe medewerkers verbonden en georganiseerd blijven met e-mail, agenda's, contactpersonen en meer. Allemaal samen op één plek. Met Outlook blijft u op koers en kunt u uw dagindeling prioriteren op basis van wat voor u relevant is. Met Outlook kunt u rechtstreeks vanuit OneDrive bijlagen delen, Teams-vergaderingen plannen en eraan deelnemen, agenda's delen en bekijken en anderen machtigen. Door te weten wat eraan zit te komen qua werk- en privé-verplichtingen en wat er aandacht nodig heeft, kunnen externe medewerkers zich richten op wat belangrijk is. Outlook biedt handige manieren voor externe medewerkers om hun tijd in te delen en eenvoudig te vinden wat ze zoeken, met inbegrip van bestanden, personen in de organisatie en meer. 
+Met Outlook kunnen hybride werknemers verbonden en georganiseerd blijven met e-mail, agenda's, contactpersonen en meer. Allemaal samen op één plek. Met Outlook blijft u op koers en kunt u uw dagindeling prioriteren op basis van wat voor u relevant is. Met Outlook kunt u rechtstreeks vanuit OneDrive bijlagen delen, Teams-vergaderingen plannen en eraan deelnemen, agenda's delen en bekijken en anderen machtigen. Door te weten wat eraan zit te komen qua werk- en privé-verplichtingen en waarvoor aandacht nodig is, kunnen hybride werknemers zich richten op wat belangrijk is. Outlook biedt handige manieren voor hybride werknemers om hun tijd in te delen en eenvoudig te vinden wat ze zoeken, zoals bestanden, personen in de organisatie en meer. 
 
 Zie [dit artikel](../security/office-365-security/secure-email-recommended-policies.md) voor het aanbevolen beleid voor identiteiten en apparaattoegang om e-mailberichten en e-mailclients van organisaties te beveiligen waarmee moderne verificatie en voorwaardelijke toegang worden ondersteund.
 
 ## <a name="store-and-collaborate-on-files-with-sharepoint-and-onedrive"></a>Samenwerken aan en opslaan van bestanden met SharePoint en OneDrive
 
-Bij het samenwerken aan inhoud kunnen externe medewerkers SharePoint- en OneDrive-mappen gebruiken als centrale locatie in de cloud om bestanden op te slaan en te delen, eraan samen te werken, te cocreëren en te communiceren. Externe medewerkers kunnen overal veilig werken vanuit een webbrowser, Teams en Office-apps.
+Bij het samenwerken aan inhoud kunnen hybride werknemers SharePoint- en OneDrive-mappen gebruiken als centrale locatie in de cloud om bestanden op te slaan en te delen, eraan samen te werken, te cocreëren en te communiceren. Externe medewerkers kunnen overal veilig werken vanuit een webbrowser, Teams en Office-apps.
 
 Mogelijk moet u uw documenten migreren naar SharePoint of OneDrive vanuit:
 

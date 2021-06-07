@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Beheerders kunnen ondersteuning voor gevoeligheidslabels inschakelen voor Word Excel en PowerPoint bestanden in SharePoint en OneDrive.
-ms.openlocfilehash: 16186bd1e5c4cd2ca5b1ccd81c24ec81bfd33597
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 8007f085e7bcba7f055f616954e2f0549f6f125a
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684025"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770395"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>Vertrouwelijkheidslabels inschakelen voor Office-bestanden in SharePoint en OneDrive
 
@@ -87,6 +87,8 @@ Gebruik de OneDrive-synchronisatie-app versie 19.002.0121.0008 of hoger op Windo
     - **Dubbele sleutelcodering** is geselecteerd.
     
     Voor etiketten met een van deze versleutelingsconfiguraties worden de etiketten niet weergegeven voor gebruikers in webversie van Office. Bovendien kunnen de nieuwe mogelijkheden niet worden gebruikt met documenten met een label die al deze versleutelingsinstellingen hebben. Deze documenten worden bijvoorbeeld niet geretourneerd in zoekresultaten, zelfs niet als ze worden bijgewerkt.
+
+- Als u een document uploadt naar SharePoint en het label van het bestand geen  versleuteling gebruikt, kan het even duren voordat de labelnaam wordt weergegeven in de kolom Gevoeligheid in de documentbibliotheek. Factor in deze vertraging als u scripts of automatisering gebruikt die afhankelijk zijn van de labelnaam in deze kolom.
 
 - Gebruikers kunnen vertragingen ervaren bij het openen van versleutelde documenten in het volgende scenario Opslaan als: Met een bureaubladversie van Office kiest een gebruiker Opslaan als voor een document met een gevoeligheidslabel waarin versleuteling wordt toegepast. De gebruiker selecteert SharePoint of OneDrive voor de locatie en probeert dat document vervolgens onmiddellijk te openen in webversie van Office. Als de service de versleuteling nog steeds verwerkt, ziet de gebruiker een bericht dat het document moet worden geopend in de bureaublad-app. Als ze het binnen een paar minuten opnieuw proberen, wordt het document geopend in webversie van Office. 
 
@@ -169,7 +171,8 @@ Als u de nieuwe mogelijkheden wilt inschakelen, gebruikt u de cmdlet [Set-SPOTen
 
 1. Als u een werk- of schoolaccount gebruikt met globale beheerders- of SharePoint beheerdersbevoegdheden in Microsoft 365, maakt u verbinding met SharePoint. Zie Aan de slag [met SharePoint Online Management Shell voor meer informatie.](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
     
-    Opmerking: Als u multi-geo Microsoft 365 hebt, gebruikt u de parameter -Url met [Verbinding maken-SPOService](/powershell/module/sharepoint-online/connect-sposervice)en geeft u de url van de SharePoint Online Administration Center-site op voor een van uw geografische locaties.
+    > [!NOTE]
+    > Als u Microsoft 365 Multi-Geo hebt, gebruikt u de parameter -Url met [Verbinding maken-SPOService](/powershell/module/sharepoint-online/connect-sposervice)en geeft u de url van de SharePoint Online Administration Center-site op voor een van uw geografische locaties.
 
 2. Voer de volgende opdracht uit en druk **op Y** om dit te bevestigen:
 

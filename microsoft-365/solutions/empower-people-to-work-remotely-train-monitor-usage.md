@@ -1,5 +1,5 @@
 ---
-title: 'Stap 6: Externe werknemers trainen en reageren op feedback over gebruik'
+title: 'Stap 6: Werknemers trainen en reageren op feedback over gebruik'
 f1.keywords:
 - NOCSH
 author: JoeDavies-MSFT
@@ -17,16 +17,16 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Train uw gebruikers en zorg ervoor dat problemen snel worden opgelost.
-ms.openlocfilehash: 66091269e4bb4844456feac1b8cfa28718b0ca36
-ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
+ms.openlocfilehash: b6581533983c2e00ab8b29d73326deebda52599f
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52028922"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52788821"
 ---
-# <a name="step-6-train-remote-workers-and-address-usage-feedback"></a>Stap 6: Externe werknemers trainen en reageren op feedback over gebruik
+# <a name="step-6-train-your-workers-and-address-usage-feedback"></a>Stap 6: Werknemers trainen en reageren op feedback over gebruik
 
-Geef uw externe werknemers training in:
+Geef uw hybride werknemers training in:
 
 - Juiste aanmeldprocedures met gebruik van MFA, waaronder het registreren van een aanvullende verificatiemethode.
 - Het gebruik van apparaten en hoe eindpuntbeheerbeleid kan worden gebruikt om toegang te blokkeren voor niet-compatibele of niet-beheerde apparaten.
@@ -38,15 +38,15 @@ Geef uw externe werknemers training in:
 
 Bij deze training horen praktijkoefeningen, zodat uw werknemers deze functies en de resultaten ervan kunnen ervaren.
 
-Maak een forum voor je externe werknemers om vragen te stellen of problemen op te lossen, zoals een team of een Yammer-groep.
+Maak voor uw werknemers een forum waar ze vragen kunnen stellen of problemen oplossen, zoals een team of een Yammer-groep.
 
 In de weken na de training:
 
-- Reageer snel op feedback van externe werknemers in je forum en pas zo nodig het beleid en de configuratie van externe werknemers aan.
+- Reageer snel op feedback van werknemers in het forum en pas zo nodig het beleid en de configuratie van werknemers aan.
 - Analyseer het gebruik voor teams, e-mail, SharePoint-sites en OneDrive-mappen en vergelijk dit met de je verwachtingen of gebruiksverwachtingen.
 
 School de gebruikers indien nodig bij.
 
 ## <a name="results-of-step-6"></a>Resultaten van stap 6
 
-Je externe werknemers zijn getraind en er is een responsief en open forum voor hen om feedback te geven en problemen te publiceren met betrekking tot externe toegang en productiviteits-apps.
+Uw hybride werknemers zijn getraind en er is een responsief en open forum waar ze feedback kunnen geven en problemen publiceren met betrekking tot beveiliging, compliance, externe toegang en productiviteits-apps.

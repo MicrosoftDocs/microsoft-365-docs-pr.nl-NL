@@ -16,13 +16,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.technology: mde
-ms.openlocfilehash: 78ab364f8a261b1201fad17ebf86adc1a7456a46
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 7fdb8ef1689c18945352b30b3ebfe6c176c4034e
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730835"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52772027"
 ---
 # <a name="overview-of-management-and-apis"></a>Overzicht van beheer en API's 
 
@@ -71,13 +72,14 @@ Met de **Onderzoeks-API** wordt de rijkdom van Defender voor Eindpunt beschreven
 
 De **Response API** biedt de mogelijkheid om acties uit te voeren in de service en op apparaten, zodat klanten indicatoren kunnen opnemen, instellingen kunnen beheren, de status van een waarschuwing kunnen beheren en reactieacties kunnen uitvoeren op apparaten die programmatisch zijn, zoals apparaten isoleren van het netwerk, quarantainebestanden en andere apparaten. 
 
-## <a name="streaming-api"></a>Streaming-API 
-Streaming API biedt klanten de mogelijkheid om realtimegebeurtenissen en waarschuwingen van hun exemplaren te verzenden wanneer ze binnen één gegevensstroom voorkomen, wat een lage latentie, een hoog doorvoerbezorgingsmechanisme biedt.
+## <a name="raw-data-streaming-api"></a>API voor onbewerkte voor gegevensstreaming 
+Defender for Endpoint Raw Data Streaming API biedt klanten de mogelijkheid om realtime gebeurtenissen en waarschuwingen van hun exemplaren te verzenden terwijl ze binnen één gegevensstroom voorkomen, wat zorgt voor een lage latentie en een mechanisme voor hoge doorvoerbezorging.
 
-Gebeurtenisgegevens worden rechtstreeks naar Azure-opslag voor gegevensopslag op lange termijn of naar Azure Event Hubs voor gebruik door visualisatieservices of extra gegevensverwerkingsmotoren. 
+De gebeurtenisgegevens van Defender voor Eindpunt worden rechtstreeks naar Azure-opslag voor gegevensopslag op lange termijn of naar Azure Event Hubs voor gebruik door visualisatieservices of extra gegevensverwerkingsmotoren. 
 
->[!NOTE]
->Streaming API is nu verplaatst naar Microsoft 365 Defender. Zie Streaming [API voor meer informatie.](raw-data-export.md)
+Zie Raw data streaming API voor meer [informatie.](raw-data-export.md)
+
+De nieuwe Microsoft 365 Defender Streaming API bevat naast apparaatgebeurtenissen ook e-mail- en waarschuwingsgebeurtenissen. Zie de Defender Streaming [API Microsoft 365 voor meer informatie.](../defender/streaming-api.md)
 
 
 ## <a name="siem-api"></a>SIEM-API
