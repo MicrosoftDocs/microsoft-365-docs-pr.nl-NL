@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Records declareren met behulp van retentielabels
-ms.openlocfilehash: fd88858c8d5cd1870f594050607b784a9dc5b78c
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: fed988d2f880e4c0af1321cfb6ef4a873bd4e7ab
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "52162109"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730544"
 ---
 # <a name="declare-records-by-using-retention-labels"></a>Records declareren met behulp van retentielabels
 
@@ -54,7 +54,7 @@ Als u van gedachten verandert over de weergave van deze optie in de wizard voor 
 
 ## <a name="configuring-retention-labels-to-declare-records"></a>Retentielabels configureren om records te declareren
 
-Wanneer u een retentielabel maakt of bewerkt vanuit de **Record Management**-oplossing in het Microsoft 365-compliancecentrum, kunt u items markeren als record. Als u de PowerShell-opdracht heeft uitgevoerd in de vorige sectie, dan kunt u items ook markeren als regelgevingsrecord.
+Wanneer u een retentielabel maakt vanuit de **Record Management**-oplossing in het Microsoft 365-compliancecentrum, kunt u items markeren als record. Als u de PowerShell-opdracht heeft uitgevoerd in de vorige sectie, dan kunt u items ook markeren als regelgevingsrecord.
 
 Bijvoorbeeld:
 

@@ -9,16 +9,16 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 28035a9f0a669c1daa7526d0b1fefac52a77c81a
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: b37ce09a0781aa83970502224ddbb3658ed07d69
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52729966"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771883"
 ---
 # <a name="work-with-reports"></a>Werken met rapporten
 
-Microsoft Managed Desktop bevat verschillende rapporten en dashboards die IT-beheerders in uw organisatie kunnen gebruiken om verschillende aspecten van de populatie van apparaten te begrijpen.U vindt rapporten op twee locaties: [in](https://endpoint.microsoft.com) Microsoft Endpoint Manager en in het [Microsoft 365 beheercentrum.](https://admin.microsoft.com/adminportal/home?previewoff=false#/microsoftmanageddesktop) 
+Microsoft Managed Desktop bevat verschillende rapporten en dashboards die IT-beheerders in uw organisatie kunnen gebruiken om verschillende aspecten van de populatie van apparaten te begrijpen. 
 
 ## <a name="reports-in-microsoft-endpoint-manager"></a>Rapporten in Microsoft Endpoint Manager
 
@@ -37,6 +37,13 @@ Bovendien kunt u op verschillende locaties in Microsoft Endpoint Manager rapport
 > [!NOTE]
 > Aangepaste Microsoft Managed Desktop garanderen alleen toegang tot de Microsoft Managed Desktop rapporten. Zie Op Microsoft Endpoint Manager rollen gebaseerd toegangsbeheer met [Microsoft Intune.](/mem/intune/fundamentals/role-based-access-control)  
 
+## <a name="endpoint-analytics"></a>Eindpuntanalyse
+Microsoft Managed Desktop is nu geïntegreerd met [Endpoint-analyse.](/mem/analytics/overview) Deze rapporten geven u inzichten om te meten hoe uw organisatie werkt en de kwaliteit van de ervaring die aan uw gebruikers wordt geleverd. Eindpuntanalyse staat in **het** menu Rapporten van [Microsoft Endpoint Manager.](https://endpoint.microsoft.com/) Als u een score wilt draaien om alleen apparaten op te nemen  die worden beheerd door Microsoft Managed Desktop naar een rapport gaan, selecteert u de vervolgkeuzekeuze en selecteert u Microsoft Managed Desktop **apparaten.**
+
+Als Endpoint-analyse niet automatisch is geconfigureerd voor uw Azure AD-organisatie ("tenant") tijdens de inschrijving, kunt u dat zelf doen. Zie Onboard [in de Endpoint-analyseportal](/mem/analytics/enroll-intune#bkmk_onboard)voor meer informatie. U kunt al uw apparaten registreren of, als u alleen Microsoft Managed Desktop  apparaten wilt opnemen, de moderne apparaatgroepen op de werkplek selecteren voor Test, First, Fast en Broad. Voor deze rapporten zijn mogelijk verschillende machtigingen vereist. Zie Machtigingen om [ervoor te](/mem/analytics/overview#permissions) zorgen dat u rollen op de juiste manier hebt toegewezen voor meer informatie.
+
+> [!NOTE]
+> Als u de privacy van de privacy van gebruikers beter wilt respecteren, moeten er meer dan 10 Microsoft Managed Desktop zijn geregistreerd met Endpoint-analyse om dit filter te kunnen gebruiken.
 
  ## <a name="inventory-data"></a>Voorraadgegevens
 

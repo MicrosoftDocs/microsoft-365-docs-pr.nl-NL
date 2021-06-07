@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Informatie voor IT-beheerders voor het beheren van vertrouwelijkheidslabels in Office-apps voor desktop, mobiele apparaten en internet.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dd3f1e7329612755a1806b5d9af8e13f07790cd6
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: a7ac7415ce5e7f88b21128846b7cff957e388fd5
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52625123"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730376"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Vertrouwelijkheidslabels in Office-apps beheren
 
@@ -387,54 +387,24 @@ Zie de informatie over [beleidsinstellingen](sensitivity-labels.md#what-label-po
 
 ## <a name="outlook-specific-options-for-default-label-and-mandatory-labeling"></a>Outlook-specifieke opties voor standaardlabels en verplicht labelen
 
-Voor ingebouwd labelen bepaalt u de minimale versies van Outlook die deze functies ondersteunen met behulp van de [functietabel voor Outlook](#sensitivity-label-capabilities-in-outlook) op deze pagina en de rij **Verschillende instellingen voor standaardlabels en verplicht labelen**.
+Voor ingebouwd labelen bepaalt u de minimale versies van Outlook die deze functies ondersteunen met behulp van de [functietabel voor Outlook](#sensitivity-label-capabilities-in-outlook) op deze pagina en de rij **Verschillende instellingen voor standaardlabels en verplicht labelen**. Alle versies van de geïntegreerde labelclient van Azure Information Protection ondersteunen deze Outlook-specifieke opties.
 
-Wanneer u de instellingen voor labelbeleid **Dit label standaard toepassen op documenten en e-mail** en **Vereist dat gebruikers een label toepassen op hun e-mail of documenten** selecteert, is uw configuratiekeuze standaard van toepassing op e-mailberichten en documenten.
+Wanneer de Outlook-app een standaard labelinstelling ondersteunt die verschilt van de standaard labelinstelling voor documenten:
 
-Gebruik geavanceerde PowerShell-instellingen om verschillende instellingen op e-mailberichten toe te passen:
+- In de wizard voor labelbeleid kunt u op de pagina **Een standaardlabel toepassen op e-mails** uw keuze specificeren voor een gevoeligheidslabel dat wordt toegepast op alle niet-gelabelde e-mails of geen standaardlabel. Deze instelling is onafhankelijk van de instelling **Dit label standaard toepassen op documenten** op de vorige pagina **Beleidsinstellingen voor documenten** van de wizard.
 
-- **OutlookDefaultLabel**: gebruik deze instelling als u wilt dat een ander standaardlabel of geen label wordt toegepast.
+Wanneer de Outlook-app geen standaardlabelinstelling ondersteunt die afwijkt van de standaardlabelinstelling voor documenten: Outlook gebruikt altijd de waarde die u opgeeft voor **Dit label standaard toepassen op documenten** op de pagina **Beleidsinstellingen voor documenten** van de wizard voor labelbeleid.
 
-- **DisableMandatoryInOutlook**: gebruik deze instelling als u wilt dat in Outlook gebruikers niet langer wordt gevraagd een label te selecteren voor niet-gelabelde e-mailberichten.
+Wanneer de Outlook-app het uitschakelen van verplichte labeling ondersteunt:
 
-Zie de volgende sectie voor meer informatie over het configureren van deze instellingen met behulp van PowerShell.
+- Selecteer in de wizard voor labelbeleid op de pagina **Beleidsinstellingen** de optie **Vereisen dat gebruikers een label toepassen op hun e-mail en documenten**. Selecteer vervolgens **Volgende** > **Volgende** en schakel het selectievakje **Vereisen dat gebruikers een label toepassen op hun e-mails**. Zorg dat het selectievakje is ingeschakeld als u wilt dat verplichte labels worden toegepast op e-mails en documenten.
 
-### <a name="powershell-advanced-settings-outlookdefaultlabel-and-disablemandatoryinoutlook"></a>Geavanceerde PowerShell-instellingen OutlookDefaultLabel en DisableMandatoryInOutlook
+Wanneer de Outlook-app geen ondersteuning biedt voor het uitschakelen van verplichte labeling: als u **Vereisen dat gebruikers een label toepassen op hun e-mail of documenten** als beleidsinstelling selecteert, wordt de gebruiker altijd gevraagd een label te selecteren voor e-mails zonder label.
 
-Deze instellingen worden ondersteund door PowerShell te gebruiken met de parameter *AdvancedSettings* en de cmdlets [Set-LabelPolicy](/powershell/module/exchange/set-labelpolicy) en [New-LabelPolicy](/powershell/module/exchange/new-labelpolicy) van het [Beveiligings- en compliancecentrum PowerShell](/powershell/exchange/scc-powershell). Deze twee geavanceerde instellingen werden eerder alleen ondersteund door de geïntegreerde Azure Information Protection-labelclient en worden nu ondersteund voor ingebouwd labelen.
-
-PowerShell-voorbeelden, waarbij het labelbeleid de naam **Global** krijgt:
-
-- Outlook vrijstellen van een standaardlabel:
-    
-    ````powershell
-    Set-LabelPolicy -Identity Global -AdvancedSettings @{OutlookDefaultLabel="None"}
-    ````
-
-- Outlook vrijstellen van verplicht labelen:
-    
-    ````powershell
-    Set-LabelPolicy -Identity Global -AdvancedSettings @{DisableMandatoryInOutlook="True"}
-    ````
-
-Momenteel zijn OutlookDefaultLabel en DisableMandatoryInOutlook de enige geavanceerde PowerShell-instellingen die worden ondersteund voor zowel ingebouwd labelen als de Azure Information Protection-client.
-
-De overige geavanceerde PowerShell-instellingen blijven alleen ondersteund voor de Azure Information Protection-client. Zie [Beheerdershandleiding: aangepaste configuraties voor de geïntegreerde Azure Information Protection-labelclient](/azure/information-protection/rms-client/clientv2-admin-guide-customizations#configuring-advanced-settings-for-the-client-via-powershell) voor meer informatie over het gebruik van geavanceerde instellingen voor de Azure Information Protection-client.
-
-#### <a name="powershell-tips-for-specifying-the-advanced-settings"></a>Tips van PowerShell voor het opgeven van de geavanceerde instellingen
-
-Als u een ander standaardlabel voor Outlook wilt opgeven, moet u de label-GUID opgeven. Gebruik de volgende opdracht om deze waarde te vinden:
-
-````powershell
-Get-Label | Format-Table -Property DisplayName, Name, Guid
-````
-
-Als u een van deze geavanceerde instellingen uit een labelbeleid wilt verwijderen, gebruikt u dezelfde syntaxis voor de parameter AdvancedSettings, maar geeft u een lege tekenreekswaarde (null) op. Bijvoorbeeld:
-
-````powershell
-Set-LabelPolicy -Identity Global -AdvancedSettings @{OutlookDefaultLabel=""}
-````
-
+> [!NOTE]
+> Als u de geavanceerde instellingen van PowerShell **OutlookDefaultLabel** en **DisableMandatoryInOutlook** hebt geconfigureerd met behulp van de cmdlets [Set-LabelPolicy](/powershell/module/exchange/set-labelpolicy) of [New-LabelPolicy](/powershell/module/exchange/new-labelpolicy):
+> 
+> De gekozen waarden voor deze PowerShell-instellingen worden weergegeven in de wizard voor labelbeleid en werken automatisch voor Outlook-apps die deze instellingen ondersteunen. De overige geavanceerde PowerShell-instellingen blijven alleen ondersteund voor de Azure Information Protection-labelclient. 
 
 ## <a name="end-user-documentation"></a>Documentatie voor eindgebruikers
 

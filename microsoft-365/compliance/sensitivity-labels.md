@@ -22,12 +22,12 @@ description: Gebruik vertrouwelijkheidslabels van Microsoft Information Protecti
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 171f449a8b73ff42113358d50dbe8bde909f5d4d
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 42ac45fcea72d0ccdae69f6b7315cf31d38121d7
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52625183"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730244"
 ---
 # <a name="learn-about-sensitivity-labels"></a>Meer informatie over vertrouwelijkheidslabels
 
@@ -182,7 +182,7 @@ Wanneer u labelbeleid configureert, kunt u:
 
 - **kiezen welke gebruikers en groepen de labels zien.** Labels kunnen worden gepubliceerd aan specifieke gebruikers of beveiligingsgroepen met e-mailberichten, distributiegroepen of Microsoft 365-groepen (die een[dynamisch lidmaatschap](/azure/active-directory/users-groups-roles/groups-create-rule) kunnen hebben) in Azure AD.
 
-- **een standaardlabel toepassen** op alle nieuwe documenten en niet-gelabelde e-mailberichten die zijn gemaakt door de gebruikers en groepen die zijn opgenomen in het labelbeleid en hetzelfde of een ander standaardlabel op containers (als u [vertrouwelijkheidslabels voor Microsoft Teams-, Microsoft 365-groepen- en SharePoint-sites hebt ingeschakeld](sensitivity-labels-teams-groups-sites.md)). Met deze instelling past de geïntegreerde labelclient van Azure Information Protection ook het standaardlabel toe op bestaande documenten die niet zijn gelabeld. Gebruikers kunnen het standaardlabel altijd wijzigen als het niet het juiste label is voor hun document of e-mail.
+- **Een standaardlabel specificeren** voor nieuwe documenten, e-mails zonder label en nieuwe containers [(als u gevoeligheidslabels hebt ingeschakeld voor Microsoft Teams, Microsoft 365-groepen en SharePoint-sites](sensitivity-labels-teams-groups-sites.md)). U kunt hetzelfde label opgeven voor alle drie de typen items, of  verschillende labels. Wanneer u een standaardlabel voor documenten opgeeft, past de geïntegreerde labelclient van Azure Information Protection dit standaardlabel ook toe op bestaande documenten die niet zijn gelabeld. Gebruikers kunnen het standaardlabel altijd wijzigen als het niet het juiste label is voor hun document of e-mail.
     
     Overweeg om een standaardlabel te gebruiken om een basisniveau in te stellen van beveiligingsinstellingen dat u wilt toepassen op al uw inhoud. Zonder gebruikerstraining en ander beheer kan deze instelling echter ook resulteren in onjuiste labeling. Het is gewoonlijk geen goed idee om een label te kiezen dat versleuteling toepast als standaardlabel op documenten. Veel organisaties moeten bijvoorbeeld documenten verzenden naar en delen met externe gebruikers die mogelijk geen apps hebben die de versleuteling ondersteunen of ze gebruiken mogelijk een account die niet geautoriseerd kan worden. Zie [Versleutelde documenten delen met externe gebruikers](sensitivity-labels-office-apps.md#sharing-encrypted-documents-with-external-users) voor meer informatie over dit scenario.
 
@@ -190,7 +190,7 @@ Wanneer u labelbeleid configureert, kunt u:
 
     ![Prompt wanneer gebruikers een reden invoeren](../media/Sensitivity-label-justification-required.png)
 
-- **Eis dat gebruikers een label toepassen** met één optie voor e-mail en documenten en een andere voor containers. Deze opties, ook wel verplicht labelen genoemd, zorgen ervoor dat er een label moet worden toegepast voordat gebruikers documenten kunnen opslaan en e-mailberichten verzenden en nieuwe groepen of sites maken.
+- **Vereisen dat gebruikers een label toepassen** op documenten en e-mails, alleen documenten en op containers. Deze opties, ook wel verplicht labelen genoemd, zorgen ervoor dat er een label moet worden toegepast voordat gebruikers documenten kunnen opslaan en e-mailberichten verzenden en nieuwe groepen of sites maken.
     
     Aan documenten en e-mailberichten kan door een gebruiker handmatig een label worden toegewezen, automatisch als gevolg van een voorwaarde die u hebt geconfigureerd of standaard worden toegewezen (de hiervoor beschreven optie standaardlabel). Een voorbeeldprompt die in Outlook wordt weergegeven wanneer een gebruiker een label moet toewijzen:
 

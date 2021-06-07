@@ -16,12 +16,13 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 06028f64a3340aeeef52269bc8a1e739d18e6db7
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.custom: api
+ms.openlocfilehash: 6716b0eb029b49ec08cb52ebefc23e50b19036ca
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903116"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771667"
 ---
 # <a name="pull-microsoft-defender-for-endpoint-detections-using-siem-rest-api"></a>Microsoft Defender voor eindpuntdetecties trekken met behulp van SIEM REST API
 
@@ -52,7 +53,7 @@ In het algemeen ondersteunt het OAuth 2.0-protocol vier typen stromen:
 
 Zie de website van OAuth voor meer informatie over de [OAuth-specificaties.](http://www.oauth.net)
 
-Microsoft Defender for Endpoint ondersteunt  de _machtigingsstroom_ en de clientreferentiestroom om toegang te krijgen tot detecties voor pull-detecties, met Azure Active Directory (AAD) als autorisatieserver.
+Microsoft Defender for Endpoint ondersteunt  de machtigingsstroom en de clientreferentiestroom om toegang te krijgen tot pulldetecties, met Azure Active Directory (AAD) als autorisatieserver. 
 
 De _autorisatieverleningsstroom_ gebruikt gebruikersreferenties om een autorisatiecode te verkrijgen, die vervolgens wordt gebruikt om een toegangs token te verkrijgen.
 
@@ -61,7 +62,7 @@ De _clientreferentiestroom maakt_ gebruik van clientreferenties om te verifiëre
 Gebruik de volgende methode in de Microsoft Defender for Endpoint API om detecties in JSON-indeling op te halen.
 
 >[!NOTE]
->In het Microsoft Defender-beveiligingscentrum worden soortgelijke waarschuwingsdetecties samengevoegd tot één waarschuwing. Deze API haalt waarschuwingsdetecties in de onbewerkte vorm op basis van de queryparameters die u hebt ingesteld, zodat u uw eigen groepering en filtering kunt toepassen. 
+>Microsoft Defender-beveiligingscentrum worden soortgelijke waarschuwingsdetecties samengevoegd tot één waarschuwing. Deze API haalt waarschuwingsdetecties in de onbewerkte vorm op basis van de queryparameters die u hebt ingesteld, zodat u uw eigen groepering en filtering kunt toepassen. 
 
 ## <a name="before-you-begin"></a>Voordat u begint
 - Voordat u het Eindpunt van Microsoft Defender voor Eindpunt belt om detecties op te halen, moet u de SIEM-integratietoepassing inschakelen in Azure Active Directory (AAD). Zie [SiEM-integratie inschakelen in Microsoft Defender voor eindpunt voor meer informatie.](enable-siem-integration.md)
@@ -111,7 +112,7 @@ Methode | URI aanvragen
 Toevoegen| Gebruik de URI die van toepassing is op uw regio. <br><br> **Voor de EU**: `https://wdatp-alertexporter-eu.windows.com/api/alerts` </br> **Voor ons:**`https://wdatp-alertexporter-us.windows.com/api/alerts` <br> **Voor Groot-Brittannië:**`https://wdatp-alertexporter-uk.windows.com/api/alerts` 
 
 ### <a name="request-header"></a>Koptekst aanvragen
-Koptekst | Type | Beschrijving|
+Koptekst | Type | Omschrijving|
 :--|:--|:--
 Autorisatie | tekenreeks | Vereist. Het Azure AD access-token in het formulier  &lt; *Bearer-token* &gt; . |
 
@@ -119,7 +120,7 @@ Autorisatie | tekenreeks | Vereist. Het Azure AD access-token in het formulier  
 
 Gebruik optionele queryparameters om de hoeveelheid gegevens op te geven en te bepalen die in een antwoord worden geretourneerd. Als u deze methode zonder parameters noemt, bevat het antwoord alle waarschuwingen in uw organisatie in de afgelopen 2 uur.
 
-Name | Value| Beschrijving
+Name | Value| Omschrijving
 :---|:---|:---
 sinceTimeUtc | DateTime | Hiermee definieert u de waarschuwingen met een lagere tijd die worden opgehaald op basis van het veld: <br> `LastProcessedTimeUtc` <br> Het tijdbereik is: van sinceTimeUtc-tijd tot huidige tijd. <br><br> **OPMERKING:** Als dit niet is opgegeven, worden alle waarschuwingen die in de afgelopen twee uur zijn gegenereerd, opgehaald.
 untilTimeUtc | DateTime | Hiermee definieert u de waarschuwingen voor de hoogste tijdsgebonden waarschuwingen die worden opgehaald. <br> Het tijdbereik is: van `sinceTimeUtc` tijd tot `untilTimeUtc` tijd. <br><br> **OPMERKING:** Wanneer dit niet is opgegeven, is de standaardwaarde de huidige tijd.
@@ -127,7 +128,7 @@ geleden | tekenreeks | Haalt waarschuwingen in de volgende tijdsbereik op: van `
 limiet | int | Hiermee wordt het aantal waarschuwingen definieerd dat moet worden opgehaald. De meest recente waarschuwingen worden opgehaald op basis van het gedefinieerde getal.<br><br> **OPMERKING:** Wanneer dit niet is opgegeven, worden alle beschikbare waarschuwingen in het tijdbereik opgehaald.
 machinegroepen | tekenreeks | Hiermee geeft u apparaatgroepen op waar u waarschuwingen vandaan wilt halen. <br><br> **OPMERKING:** Wanneer dit niet is opgegeven, worden waarschuwingen van alle apparaatgroepen opgehaald. <br><br> Voorbeeld: <br><br> ```https://wdatp-alertexporter-eu.securitycenter.windows.com/api/alerts/?machinegroups=UKMachines&machinegroups=FranceMachines```
 DeviceCreatedMachineTags | tekenreeks | Eén apparaatlabel uit het register.
-CloudCreatedMachineTags | tekenreeks | Apparaatlabels die zijn gemaakt in het Microsoft Defender-beveiligingscentrum.
+CloudCreatedMachineTags | tekenreeks | Apparaatlabels die zijn gemaakt in Microsoft Defender-beveiligingscentrum.
 
 ### <a name="request-example"></a>Voorbeeld aanvragen
 In het volgende voorbeeld wordt gedemonstreerd hoe u alle detecties in uw organisatie kunt ophalen.
@@ -328,7 +329,7 @@ echo $apiResponse
 ## <a name="error-codes"></a>Foutcodes
 De REST-API van Microsoft Defender voor eindpunt retourneert de volgende foutcodes die zijn veroorzaakt door een ongeldige aanvraag.
 
-HTTP-foutcode | Beschrijving
+HTTP-foutcode | Omschrijving
 :---|:---
 401 | Ongeldige aanvraag of ongeldig token.
 403 | Niet-geautoriseerde uitzondering: een van de domeinen wordt niet beheerd door de tenantbeheerder of tenantstaat wordt verwijderd.

@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Wanneer u een vertrouwelijkheidslabel maakt, kunt u automatisch een label toewijzen aan bestanden en e-mailberichten of gebruikers vragen om het label te selecteren dat u aanbeveelt.
-ms.openlocfilehash: d7559e5fa75db1fb23592dec1a3a5f35bad603df
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 4c39e5895c3315d77d7bfc211f0ba3e65f06659b
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538532"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769291"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Een vertrouwelijkheidslabel automatisch toepassen op inhoud
 
@@ -93,7 +93,7 @@ Gebruik de volgende tabel om de verschillen in gedrag te herkennen voor de twee 
 |Exchange-bijlagen gecontroleerd op voorwaarden|Nee | Ja|
 |Visuele markeringen toepassen |Ja |Ja (alleen e-mail) |
 |Toepassen van IRM-versleuteling zonder label overschrijven|Ja, als de gebruiker het minimale gebruiksrecht voor exporteren heeft |Ja (alleen e-mail) |
-|Labelen van binnenkomende e-mail|Nee |Ja (versleuteling niet toegepast) |
+|Labelen van binnenkomende e-mail|Nee |Ja|
 
 \* Automatisch labelen is momenteel niet in alle regio's beschikbaar. Als uw tenant deze functionaliteit niet ondersteunt, is het tabblad Automatisch labelen niet zichtbaar in het labelcentrum voor beheerders.
 
@@ -189,7 +189,7 @@ Specifiek voor ingebouwd labelen:
 
 - Voor aanbevolen labels in de desktopversies van Word wordt de vertrouwelijke inhoud die de aanbeveling heeft geactiveerd, gemarkeerd, zodat gebruikers de gevoelige inhoud kunnen beoordelen en verwijderen in plaats van het aanbevolen vertrouwelijkheidslabel toe te passen.
 
-- Zie [Automatisch vertrouwelijkheidslabels toepassen op of aanbevelen voor uw bestanden en e-mailberichten in Office](https://support.office.com/nl-NL/article/automatically-apply-or-recommend-sensitivity-labels-to-your-files-and-emails-in-office-622e0d9c-f38c-470a-bcdb-9e90b24d71a1) voor meer informatie over hoe deze labels worden toegepast in Office-apps, voorbeelden van schermafbeeldingen en hoe vertrouwelijke informatie wordt gedetecteerd.
+- Zie [Automatisch vertrouwelijkheidslabels toepassen op of aanbevelen voor uw bestanden en e-mailberichten in Office](https://support.office.com/en-us/article/automatically-apply-or-recommend-sensitivity-labels-to-your-files-and-emails-in-office-622e0d9c-f38c-470a-bcdb-9e90b24d71a1) voor meer informatie over hoe deze labels worden toegepast in Office-apps, voorbeelden van schermafbeeldingen en hoe vertrouwelijke informatie wordt gedetecteerd.
 
 Specifiek voor de geïntegreerde Azure Information Protection-labelclient:
 

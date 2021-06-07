@@ -19,12 +19,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
-ms.openlocfilehash: e7cecd645d857a5c2d5e7a98c78bd3f39b68449d
-ms.sourcegitcommit: ddf6c25d1ed6387d07614f7042e033bad7f406f9
+ms.openlocfilehash: 487fc87c613d7321e3ae608097d98d2c90f8874e
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52639404"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771907"
 ---
 # <a name="microsoft-defender-for-endpoint-in-the-microsoft-365-security-center"></a>Microsoft Defender voor Eindpunt in het Microsoft 365 beveiligingscentrum
 
@@ -177,6 +177,10 @@ Als u de [SIEM-API van Defender voor Eindpunt gebruikt,](../defender-endpoint/en
 ### <a name="email-alerts"></a>E-mailwaarschuwingen
 
 U kunt e-mailwaarschuwingen blijven gebruiken voor Defender voor Eindpunt. We hebben nieuwe koppelingen toegevoegd in de e-mailberichten die wijzen naar de waarschuwingspagina of de pagina met incidenten in het Microsoft 365 beveiligingscentrum. Zie Accounts omleiden van Microsoft Defender voor Eindpunt naar [het Microsoft 365 beveiligingscentrum voor meer informatie.](./microsoft-365-security-mde-redirection.md)
+
+### <a name="managed-security-service-providers-mssp"></a>Managed Security Service Providers (MSSP)
+
+Aanmelden bij meerdere tenants tegelijk in dezelfde browsersessie wordt momenteel niet ondersteund in de geïntegreerde portal. U kunt ervoor kiezen om de automatische omleiding af te sluiten door terug te keren naar de voormalige [Microsoft Defender for Endpoint-portal,](microsoft-365-security-mde-redirection.md#can-i-go-back-to-using-the-former-portal)om deze functionaliteit te behouden totdat het probleem is opgelost.
 
 ## <a name="related-information"></a>Gerelateerde informatie
 

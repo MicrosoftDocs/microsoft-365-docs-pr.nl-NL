@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Met Microsoft 365 Groepen kunt u teamwerk in verschillende Microsoft 365 stimuleren door een groep personen toegang te geven tot een verzameling gedeelde resources.
-ms.openlocfilehash: f940872a3e4ba2aeeb62247c2898d5a4c0dec85f
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 69f7e47bcfb9e0704f8c373cf1addf98ef898cfa
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635748"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782391"
 ---
 # <a name="overview-of-microsoft-365-groups-for-administrators"></a>Overzicht van Microsoft 365 groepen voor beheerders
 
@@ -45,7 +45,7 @@ Microsoft 365 Groepen is de basislidmaatschapsservice die alle teamwerk in Micro
 
 Met een Microsoft 365 groep hoeft u niet handmatig machtigingen toe te wijzen aan elk van deze resources. Als u personen toevoegt aan de groep, krijgen ze automatisch de machtigingen die ze nodig hebben.
 
-Elke gebruiker kan een groep maken, tenzij u het maken van groepen beperkt [tot een specifieke set personen.](../../solutions/manage-creation-of-groups.md) Als u het maken van groepen beperkt, kunnen gebruikers die geen groepen kunnen maken geen SharePoint sites, Planners of teams maken. Voor deze services moeten de personen die ze maken, een groep kunnen maken. Gebruikers kunnen nog steeds deelnemen aan groepsactiviteiten, zoals het maken van taken in Planner of het gebruik Teams chat, mits ze lid zijn van de groep.
+Elke gebruiker kan een groep maken, tenzij u het maken van groepen beperkt [tot een specifieke set personen.](../../solutions/manage-creation-of-groups.md) Als u het maken van groepen beperkt, kunnen gebruikers die geen groepen kunnen maken geen SharePoint-sites, Planners, teams, Outlook groepsagenda's, Stream-groepen, Yammer-groepen, Gedeelde bibliotheken in OneDrive of gedeelde Power BI-werkruimten maken. Voor deze services moeten de personen die ze maken, een groep kunnen maken. Gebruikers kunnen nog steeds deelnemen aan groepsactiviteiten, zoals het maken van taken in Planner of het gebruik Teams chat, mits ze lid zijn van de groep.
 
 Groepen hebben de volgende rollen:
 
@@ -87,7 +87,7 @@ Het standaard maximum aantal Microsoft 365 groepen dat een organisatie kan hebbe
 
 Het beheren van Microsoft 365 groepen is effectiever wanneer u actie-informatie hebt over het gebruik van groepen. Het Microsoft 365-beheercentrum heeft een rapportageprogramma waarmee u het opslaggebruik kunt zien, hoeveel actieve groepen u hebt en hoe gebruikers de groepen gebruiken. Zie: [Microsoft 365 rapporten in het beheercentrum voor](../activity-reports/office-365-groups.md) meer informatie.
 
-## <a name="sensitivity-labels"></a>Gevoeligheidslabels
+## <a name="sensitivity-labels"></a>Vertrouwelijkheidslabels
 
 U kunt gevoeligheidslabels maken die de gebruikers in uw organisatie kunnen instellen wanneer ze een Microsoft 365 maken. Met gevoeligheidslabels kunt u het volgende configureren: 
 
@@ -117,7 +117,7 @@ Microsoft 365 groepen werken met Azure Active Directory. Welke groepsfuncties u 
 > Als u een Azure AD-Premium-abonnement hebt voor alle groepen, kunnen gebruikers deelnemen aan de groep, ongeacht of ze een AAD P1-licentie hebben toegewezen. Licenties worden niet afgedwongen.
 > Periodiek genereren we gebruiksrapporten waarin wordt verteld welke gebruikers een licentie missen en hebben we er een nodig die aan hen is toegewezen om te voldoen aan de licentievereisten. Stel dat een gebruiker geen licentie heeft en wordt toegevoegd aan een groep waarin het naamgevingsbeleid wordt afgedwongen. Het rapport geeft aan dat ze een licentie nodig hebben.
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Meer informatie over Microsoft 365 Groepen](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2) (artikel)\
 [Distributielijsten upgraden naar Microsoft 365 Groepen](../manage/upgrade-distribution-lists.md) (artikel)\

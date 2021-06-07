@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: d0db45daa786c1a44272e4d02153af3fe658e781
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 3df703fd84c87a2bd34bb2a81f8c83063e468b17
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51200207"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771445"
 ---
 # <a name="run-antivirus-scan-api"></a>Antivirusscan-API uitvoeren
 
@@ -64,7 +65,7 @@ POST https://api.securitycenter.microsoft.com/api/machines/{id}/runAntiVirusScan
 
 ## <a name="request-headers"></a>Kopteksten aanvragen
 
-Naam | Type | Beschrijving
+Naam | Type | Omschrijving
 :---|:---|:---
 Autorisatie | Tekenreeks | Bearer {token}. **Vereist**.
 Inhoudstype | tekenreeks | toepassing/json
@@ -72,7 +73,7 @@ Inhoudstype | tekenreeks | toepassing/json
 ## <a name="request-body"></a>Body aanvragen
 In de objectaanvraag moet u een JSON-object de volgende parameters geven:
 
-Parameter | Type    | Beschrijving
+Parameter | Type    | Omschrijving
 :---|:---|:---
 Opmerking |   Tekenreeks | Opmerking om te koppelen aan de actie. **Vereist**.
 ScanType|   Tekenreeks  | Hiermee wordt het type scan definieert. **Vereist**.

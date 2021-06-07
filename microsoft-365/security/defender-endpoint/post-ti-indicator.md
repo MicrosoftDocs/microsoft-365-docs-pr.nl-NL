@@ -14,20 +14,21 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 42bab0a9d20d5e1ef78b98b3538cef209240d890
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: ce0dc0ce255e9717082687bd1f8bf5941739261d
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187130"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771703"
 ---
 # <a name="submit-or-update-indicator-api"></a>Api voor indicator verzenden of bijwerken
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
@@ -63,7 +64,7 @@ POST https://api.securitycenter.microsoft.com/api/indicators
 
 ## <a name="request-headers"></a>Kopteksten aanvragen
 
-Naam | Type | Beschrijving
+Naam | Type | Omschrijving
 :---|:---|:---
 Autorisatie | Tekenreeks | Bearer {token}. **Vereist**.
 Inhoudstype | tekenreeks | toepassing/json. **Vereist**.
@@ -71,7 +72,7 @@ Inhoudstype | tekenreeks | toepassing/json. **Vereist**.
 ## <a name="request-body"></a>Body aanvragen
 In de objectaanvraag moet u een JSON-object de volgende parameters geven:
 
-Parameter | Type    | Beschrijving
+Parameter | Type    | Omschrijving
 :---|:---|:---
 indicatorValue | Tekenreeks | Identiteit van de [entiteit Indicator.](ti-indicator.md) **Vereist**
 indicatorType | Enum | Type indicator. Mogelijke waarden zijn: "FileSha1", "FileSha256", "IpAddress", "DomainName" en "Url". **Vereist**

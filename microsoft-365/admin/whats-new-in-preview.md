@@ -21,12 +21,12 @@ description: 'Het Microsoft 365-beheercentrum: meer informatie over de functies 
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: 964689c431b45671a92dda62ccf8a083291213a3
-ms.sourcegitcommit: ddf6c25d1ed6387d07614f7042e033bad7f406f9
+ms.openlocfilehash: 654f8de8d931f26efbcba5b60d730a9d9e477e65
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52639547"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769082"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Nieuwe functies in het Microsoft 365 beheercentrum
 
@@ -56,17 +56,17 @@ En als u wilt weten wat er nieuw is met andere Microsoft-cloudservices:
 
 ### <a name="keep-track-of-support-ticket-updates-using-the-admin-mobile-app"></a>Ondersteuningsticketupdates bijhouden met de mobiele app Beheerder
 
-Voor alle serviceaanvragen die in uw tenant zijn gemaakt, kunt u nu de ticketstatus bijhouden, ticketgegevens bekijken en aanvullende informatie verstrekken/aanvragen door notities toe te voegen & bijlagen. 
+Voor alle serviceaanvragen die in uw tenant zijn gemaakt, kunt u nu de ticketstatus bijhouden, ticketgegevens bekijken en aanvullende informatie verstrekken/aanvragen door notities toe te voegen & bijlagen.
 
-:::image type="content" source="../media/whats-new-track-support-tickets.png" alt-text="Schermafbeelding: Ondersteuningsticketupdates bijhouden":::
+:::image type="content" source="../media/Keep-track-support-ticket-updates2.PNG" alt-text="Schermafbeelding: Ondersteuningsticketupdates bijhouden":::
 
-### <a name="stay-on-top-of-all-the-major-updates-to-the-app-and-your-microsoft-365-subscription"></a>Blijf op de hoogte van alle belangrijke updates voor de app en uw Microsoft 365 abonnement 
+### <a name="stay-on-top-of-all-the-major-updates-to-the-app-and-your-microsoft-365-subscription"></a>Blijf op de hoogte van alle belangrijke updates voor de app en uw Microsoft 365 abonnement
 
-- Blijf op de hoogte van alle belangrijke updates voor uw Microsoft 365 via pushmeldingen van het Berichtencentrum (nu standaard ingeschakeld). 
+- Blijf op de hoogte van alle belangrijke updates voor uw Microsoft 365 via pushmeldingen van het Berichtencentrum (nu standaard ingeschakeld).
 
 - Houd de nieuwste functies bij die beschikbaar zijn in de app met **behulp van de** sectie Nieuw. Ga naar **Instellingen**  >  **Wat is er nieuw?**
 
-:::image type="content" source="../media/whats-new-updates.png" alt-text="Schermafbeelding: Belangrijke updates en functies bijhouden":::
+:::image type="content" source="../media/Stay-on-top-of-updates.PNG" alt-text="Schermafbeelding: Belangrijke updates en functies bijhouden":::
 
 ## <a name="april-2021"></a>April 2021
 

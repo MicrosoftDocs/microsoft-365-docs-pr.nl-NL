@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Volg deze stappen om het gebruikersaccount van een voormalige werknemer te verwijderen.
-ms.openlocfilehash: 5ca428079091c4af44ef1efa9be3d7340e254995
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 735821c9c4d6edf3d23fa3535ed9fa6b3d294b8c
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535936"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782379"
 ---
 # <a name="step-7---delete-a-former-employees-user-account"></a>Stap 7 - Het gebruikersaccount van een voormalige werknemer verwijderen
 
@@ -48,7 +48,7 @@ Wanneer u een gebruiker verwijdert, wordt het account inactief gedurende ongevee
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfR]
 
-Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../../business-video/index.yml).
+Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../../business-video/index.yml).
 
 ## <a name="does-your-organization-use-active-directory"></a>Maakt uw organisatie gebruik van Active Directory?
 
@@ -56,7 +56,7 @@ Als uw organisatie gebruikersaccounts synchroniseert Microsoft 365 vanuit een lo
 
 Zie Een gebruikersaccount [verwijderen](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753730(v=ws.11))voor meer informatie over het verwijderen en herstellen van gebruikersaccounts in Active Directory.
   
-Zie de cmdlet Remove-MsolUser PowerShell Azure Active Directory u de powershell-cmdlet [Remove-MsolUser](https://go.microsoft.com/fwlink/?linkid=842230) gebruikt.
+Zie de cmdlet Remove-MsolUser PowerShell Azure Active Directory u de powershell-cmdlet [Remove-MsolUser](/powershell/module/msonline/remove-msoluser) gebruikt.
   
 ## <a name="what-you-need-to-know-about-terminating-an-employees-email-session"></a>Wat u moet weten over het beëindigen van een sessie van een werknemer
 
@@ -84,8 +84,6 @@ De bovenstaande bewerkingen kunnen op drie plaatsen worden uitgevoerd:
   
  **Snelst voor een gebruiker met aanwezigheid on-premises en in het Exchange-Datacenter**: Beëindig de sessie met behulp van het Azure Active Directory-beheercentrum/Exchange-beheercentrum, en breng de wijziging OOK aan in de on-premises omgeving. Anders worden de wijzigingen in het Azure Active Directory-beheercentrum/Exchange-beheercentrum overschreven door DirSync.
   
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-content"></a>Verwante inhoud
 
-[Een gebruiker herstellen](restore-user.md)
-
-[Wachtwoorden opnieuw instellen](reset-passwords.md)
+[Een gebruiker herstellen](restore-user.md) (artikel)/ [Wachtwoorden opnieuw instellen](reset-passwords.md) (artikel)

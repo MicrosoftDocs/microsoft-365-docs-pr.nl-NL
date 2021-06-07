@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 229c1f9e77a0cb85744155e82934b48dd63052b2
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 3aa58f3df4a4c3562cbd4dfbf6113c30816e2a0f
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933407"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769195"
 ---
 # <a name="list-vulnerabilities-by-machine-and-software"></a>Lijst van beveiligingsproblemen per computer en software
 
@@ -43,7 +44,7 @@ Hiermee wordt een lijst opgehaald met alle beveiligingslekken die van invloed zi
 - De OData ```$filter``` wordt ondersteund voor alle eigenschappen.
 
 >[!Tip]
->Dit is een geweldige API voor [Power BI-integratie.](api-power-bi.md)
+>Dit is een geweldige API [voor Power BI integratie.](api-power-bi.md)
 
 ## <a name="permissions"></a>Machtigingen
 Een van de volgende machtigingen is vereist om deze API te bellen. Zie Microsoft Defender voor [eindpunt-API's](apis-intro.md) gebruiken voor meer informatie, inclusief het kiezen van machtigingen.
@@ -60,7 +61,7 @@ GET /api/vulnerabilities/machinesVulnerabilities
 
 ## <a name="request-headers"></a>Kopteksten aanvragen
 
-Naam | Type | Beschrijving
+Naam | Type | Omschrijving
 :---|:---|:---
 Autorisatie | Tekenreeks | Bearer {token}. **Vereist**.
 
@@ -119,5 +120,5 @@ Hier is een voorbeeld van het antwoord.
 
 ## <a name="see-also"></a>Zie ook
 
-- [Risicogebaseerd bedreigings- en kwetsbaarheidsbeheer](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
+- [Risicogebaseerde Threat and Vulnerability Management](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
 - [Beveiligingslekken in uw organisatie](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-weaknesses)

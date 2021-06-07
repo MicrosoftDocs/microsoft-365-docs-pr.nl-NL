@@ -66,6 +66,8 @@
           href: protect-against-threats.md
         - name: Defender voor Office 365 integreren met Defender voor Eindpunt
           href: integrate-office-365-ti-with-mde.md
+        - name: Machtigingen in het Microsoft 365-beveiligingscentrum
+          href: permissions-microsoft-365-security-center.md
         - name: Machtigingen in het beveiligings- en compliancecentrum
           href: permissions-in-the-security-and-compliance-center.md
         - name: SIEM-serverintegratie

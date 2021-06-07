@@ -14,20 +14,21 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: bbd908c15f4d65d4923c088261c92de6d2d3cc35
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 75b62f1bada67c30dc05237a284f8b64c3c7072d
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187106"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771379"
 ---
 # <a name="indicator-resource-type"></a>Indicatorresourcetype
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
@@ -40,16 +41,16 @@ ms.locfileid: "51187106"
 
 - Zie de [bijbehorende pagina Indicatoren](https://securitycenter.windows.com/preferences2/custom_ti_indicators/files) in de portal. 
 
-Methode|Retourtype |Beschrijving
+Methode|Retourtype |Omschrijving
 :---|:---|:---
-[Lijstindicatoren](get-ti-indicators-collection.md) | [Indicator](ti-indicator.md) Verzameling | Lijstindicatorentiteiten. [](ti-indicator.md)
+[Lijst van indicatoren](get-ti-indicators-collection.md) | [Indicator](ti-indicator.md) Verzameling | Lijstindicatorentiteiten. [](ti-indicator.md)
 [Indicator verzenden](post-ti-indicator.md) | [Indicator](ti-indicator.md) | Entiteit Indicator [verzenden of](ti-indicator.md) bijwerken.
 [Indicatoren importeren](import-ti-indicators.md) | [Indicator](ti-indicator.md) Verzameling | Indicatoren-entiteiten [verzenden of](ti-indicator.md) bijwerken.
 [Indicator verwijderen](delete-ti-indicator-by-id.md) | Geen inhoud | Hiermee verwijdert u [de entiteit Indicator.](ti-indicator.md)
 
 
 ## <a name="properties"></a>Eigenschappen
-Eigenschap |  Type    |   Beschrijving
+Eigenschap |  Type    |   Omschrijving
 :---|:---|:---
 id | Tekenreeks | Identiteit van de [entiteit Indicator.](ti-indicator.md)
 indicatorValue | Tekenreeks | De waarde van de [indicator](ti-indicator.md).

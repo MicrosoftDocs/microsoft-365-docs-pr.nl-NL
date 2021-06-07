@@ -694,7 +694,7 @@
               href: advanced-ediscovery-dashboard.md
             - name: Documenten weergeven in een controleset
               href: view-documents-in-review-set.md
-            - name: Een query uitvoeren op de gegevens in een controleset
+            - name: Query- en filterinhoud in een controleset
               href: review-set-search.md
             - name: Documenten taggen in een controleset
               href: tagging-documents.md

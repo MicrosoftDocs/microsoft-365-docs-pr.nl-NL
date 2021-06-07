@@ -9,57 +9,57 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 5e614581ee76d1f8cb026345f1c31ed22faafb8a
-ms.sourcegitcommit: d3c1b08b3a8af29ef19ffe77da063920f28fe290
+ms.openlocfilehash: d35ab0f4e99d466d283d49e0f51f8e868691b9a9
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50572626"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771739"
 ---
 # <a name="admin-support-for-microsoft-managed-desktop"></a>Ondersteuning voor beheerders voor Microsoft Managed Desktop
 
-U kunt ondersteuningstickets of feedbackverzoeken indienen bij Microsoft via de beheerportal van Microsoft Managed Desktop. Ondersteuningsaanvragen krijgen altijd de prioriteit boven feedback-inzendingen. Ondersteuningsaanvragen worden op basis van ernst beheerd en beheerd, zoals wordt beschreven in de definitietabel [met ernst.](#sev) Feedback wordt beoordeeld en indien aangevraagd een antwoord gegeven. 
+U kunt ondersteuningstickets of feedbackaanvragen indienen bij Microsoft via Microsoft Managed Desktop Beheerportal. Ondersteuningsaanvragen krijgen altijd prioriteit boven feedback-inzendingen. Ondersteuningsaanvragen worden triaged en beheerd op basis van ernst, zoals beschreven in de [ernstdefinitietabel.](#sev) Feedback wordt beoordeeld en een antwoord wordt gegeven wanneer hierom wordt gevraagd. 
 
 >[!IMPORTANT]
->Zorg ervoor dat u [een beheerdercontactcontactpunt in stelt](../get-started/add-admin-contacts.md) voor het inpakken van apps, apparaten, beveiliging en andere. U kunt in deze gebieden geen ondersteuningsaanvraag indienen als een contactpersoon van een beheerder niet is geconfigureerd.
+>Zorg ervoor dat u [een contactpersoon voor](../get-started/add-admin-contacts.md) beheerders in stelt voor app-verpakkingen, apparaten, beveiliging en andere. U kunt in geen van deze gebieden een ondersteuningsaanvraag indienen als een beheerdercontactcontactpunt niet is geconfigureerd.
 
 **Een ondersteuningsaanvraag indienen**
-1. Meld u aan [bij Microsoft Endpoint Manager](https://endpoint.microsoft.com/) en ga naar het menu Probleemoplossing + **ondersteuning.**
-2. Zoek de sectie Microsoft Managed Desktop en selecteer **Serviceaanvraag.**
-3. Selecteer **+** Nieuw ondersteuningsticket **bij ondersteuningsaanvragen.**
-4. Selecteer het **type ondersteuningsaanvraag** dat overeenkomt met de hulp die u nodig hebt. De onderstaande tabel bevat een overzicht van de opties. 
-5. Selecteer het **niveau Ernst.** Zie de definities van ernst [van de ondersteuningsaanvraag voor meer informatie.](#sev) 
+1. Meld u aan [bij Microsoft Endpoint Manager](https://endpoint.microsoft.com/) en ga naar het **menu Tenantbeheer.**
+2. Zoek naar de Microsoft Managed Desktop sectie, selecteer **Serviceaanvraag.**
+3. Selecteer **bij Ondersteuningsaanvragen** **+ Nieuw ondersteuningsticket**.
+4. Selecteer het **type ondersteuningsaanvraag** dat overeenkomt met de hulp die u nodig hebt. In de onderstaande tabel worden de opties beschreven. 
+5. Selecteer het **ernstniveau.** Zie Ernstsdefinities voor [ondersteuningsverzoeken](#sev)voor meer informatie. 
 
-Type ondersteuningsaanvraag | Wanneer gebruiken
+Type ondersteuningsaanvraag | Wanneer moet ik gebruiken
 --- | ---
-Incident | U moet het microsoft Managed Desktop Operations Team onderzoek doen, zoals de gevolgen van een wijziging of servicestoring.
-Informatie aanvragen | U plant een wijziging voor netwerken, proxyconfiguratie, VPN-systemen, verloopdatum van certificaten of u hebt alleen informatie over de service nodig. Een reactie van het team voor beheerde desktopbewerkingen van Microsoft wordt op de hoogte gegeven bij het communiceren van een wijziging binnen uw organisatie.
-Aanvraag wijzigen | U moet het microsoft Managed Desktop Operations Team een wijziging laten uitvoeren, zoals het verplaatsen van apparaten tussen updategroepen.
+Incident | U moet het Microsoft Managed Desktop Operations Team onderzoeken, zoals de algemene impact van een wijziging of servicestoring.
+Informatie aanvragen | U plant een wijziging voor netwerken, proxyconfiguratie, VPN-systemen, verlopen van certificaten of hebt alleen wat informatie nodig over de service. Een antwoord van het Microsoft Managed Desktop Operations Team wordt geadviseerd bij het communiceren van een wijziging binnen uw organisatie.
+Aanvraag wijzigen | U moet het Microsoft Managed Desktop Operations Team een wijziging aan te brengen, zoals het verplaatsen van apparaten tussen updategroepen.
 
 <span id="sev" />
 
-## <a name="support-request-severity-definitions"></a>Definities van ernst aanvragen
+## <a name="support-request-severity-definitions"></a>Definities van ernst van ondersteuningsverzoeken
 
-De eerste reactietijd is de periode vanaf het moment waarop u uw ondersteuningsaanvraag indient tot wanneer een technicus met Microsoft Managed Desktop contact met u op neemt en aan uw ondersteuningsaanvraag begint te werken. De begintijd van de reactie varieert afhankelijk van de zakelijke impact van de aanvraag, op basis van de ernst van de aanvraag.
+De eerste reactietijd is de periode vanaf het moment dat u uw ondersteuningsaanvraag indient wanneer een Microsoft Managed Desktop engineer contact met u op neemt en begint te werken aan uw ondersteuningsaanvraag. De eerste antwoordtijd is afhankelijk van de zakelijke impact van de aanvraag, op basis van de ernst van de aanvraag.
 
-Urgentieniveau  | Situatie van klant |  Begintijd van de reactie   | Verwachte reactie van de klant
+Urgentieniveau  | Klantsituatie |  Eerste antwoordtijd   | Verwachte reactie van klanten
 --- | --- | --- | ---
-**Ernst A: kritieke impact** |  **Kritieke zakelijke impact**<br><br>Het bedrijf van de klant heeft aanzienlijk verlies of een degradatie van de services en vereist onmiddellijke aandacht.<br><br>**Belangrijke gevolgen voor de compatibiliteit van toepassingen**<br><br>Het hele bedrijf van de klant ondervindt financiële impact als gevolg van het vastvallen of verlies van essentiële functionaliteit | In eerste < 1 uur<br>Update: 60 minuten<br>24x7 beschikbaar | Wanneer u Ernst A selecteert, bevestigt u dat het probleem een kritieke zakelijke impact heeft, met ernstig verlies en minder services. <br><br>Het probleem vereist onmiddellijk antwoord en u gaat elke dag met het Microsoft-team 24x7-bewerking uitvoeren totdat de oplossing is opgelost, anders kan Microsoft naar eigen goed inzicht de ernst verlagen naar niveau B.<br><br> U zorgt er ook voor dat Microsoft over de juiste contactgegevens beschikt. 
-**Ernst B – Gemiddelde impact** |  **Gemiddelde invloed op bedrijf**<br><br>Het bedrijf van de klant heeft een gemiddeld verlies of een degradatie van de services, maar werk kan redelijkerwijs worden voortgezet op een beperkte manier.<br><br>**Gemiddelde toepassingscompatibiliteit**<br><br>Een specifieke zakelijke groep is niet meer productief vanwege het vastvallen of verlies van essentiële functionaliteit. |  In eerste < 4 uur<br>Update: 12 uur<br>Tijdens de werktijden (24x7 beschikbaar) | Wanneer u Ernst B selecteert, bevestigt u dat het probleem een gemiddelde invloed heeft op uw bedrijf met verlies en degradatie van services, maar tijdelijke oplossingen zorgen voor redelijke, tijdelijke, bedrijfscontinuïteit. <br><br>Het probleem vereist een urgent antwoord. Als u bij het indienen van de ondersteuningsaanvraag 24x7 kiest, gaat u elke dag met het Microsoft-team een doorlopende bewerking van 24x7 uitvoeren tot de oplossing. Als u dat niet doet, kan Microsoft naar eigen goed inzicht de ernst van het niveau C verlagen. Als u ondersteuning tijdens de werkuren kiest wanneer u een incident met ernst B indient, neemt Microsoft alleen tijdens de werkuren contact met u op.<br><br>U zorgt er ook voor dat Microsoft over de juiste contactgegevens beschikt.
-**Ernst C – Minimale impact** |   **Minimale gevolgen voor bedrijf**<br><br> Het bedrijf van de klant functioneert met kleine problemen met services.<br><br>**Secundaire toepassingscompatibiliteit**<br><br>Potentiële niet-gerelateerde gebruikers kunnen kleine compatibiliteitsproblemen ervaren die de productiviteit niet verhinderen |    In eerste < 8 uur<br>Update: 24 uur<br>Openingstijden  | Wanneer u Ernst C selecteert, bevestigt u dat het probleem minimale gevolgen heeft voor uw bedrijf, met secundaire problemen met service.<br><br>Voor een incident met ernst C neemt Microsoft alleen tijdens de werkuren contact met u op.<br><br>U zorgt er ook voor dat Microsoft over de juiste contactgegevens beschikt
+**Ernst A – Kritiek effect** |  **Kritiek bedrijfseffect**<br><br>Het bedrijf van de klant heeft aanzienlijk verlies of degradatie van services en vereist directe aandacht.<br><br>**Belangrijke compatibiliteitseffecten van toepassingen**<br><br>Het hele bedrijf van de klant ondervindt financiële gevolgen als gevolg van vastvallen of verlies van kritieke functionaliteit | Initial: < 1 uur<br>Update: 60 minuten<br>24x7 beschikbaar | Wanneer u Ernst A selecteert, bevestigt u dat het probleem een kritieke zakelijke impact heeft, met ernstig verlies en degradatie van services. <br><br>Het probleem vereist een onmiddellijk antwoord en u verbindt zich ertoe om elke dag 24x7 te werken met het Microsoft-team totdat de oplossing is opgelost, anders kan Microsoft naar eigen goed inzicht de ernst verlagen tot niveau B.<br><br> U zorgt er ook voor dat Microsoft uw juiste contactgegevens heeft. 
+**Ernst B – Matige impact** |  **Matige zakelijke impact**<br><br>Het bedrijf van de klant heeft een matig verlies of degradatie van services, maar het werk kan redelijk op een verminderde manier worden voortgezet.<br><br>**Matige toepassingscompatibiliteit**<br><br>Een specifieke zakelijke groep is niet meer productief vanwege vastvallend gedrag of verlies van kritieke functionaliteit. |  Initial: < 4 uur<br>Update: 12 uur<br>Werkuren (24x7 beschikbaar) | Wanneer u Ernst B selecteert, bevestigt u dat het probleem een matige invloed heeft op uw bedrijf met verlies en degradatie van services, maar tijdelijke oplossingen maken een redelijke, zij het tijdelijke, bedrijfscontinuïteit mogelijk. <br><br>Het probleem vereist een urgent antwoord. Als u 24x7 hebt gekozen wanneer u de ondersteuningsaanvraag indient, verbindt u zich elke dag met het Microsoft-team aan een continue 24x7-bewerking tot de oplossing, anders kan Microsoft naar eigen goed inzicht de ernst verlagen tot niveau C. Als u ondersteuning voor werkuren kiest wanneer u een incident met ernst B indient, neemt Microsoft alleen tijdens werkuren contact met u op.<br><br>U zorgt er ook voor dat Microsoft uw juiste contactgegevens heeft.
+**Ernst C – Minimale impact** |   **Minimale zakelijke impact**<br><br> Het bedrijf van de klant werkt met kleine belemmeringen voor services.<br><br>**Secundaire toepassingscompatibiliteitseffecten**<br><br>Potentieel niet-gerelateerde gebruikers hebben te maken met kleine compatibiliteitsproblemen die productiviteit niet voorkomen |    Initial: < 8 uur<br>Update: 24 uur<br>Openingstijden  | Wanneer u Ernst C selecteert, bevestigt u dat het probleem minimale gevolgen heeft voor uw bedrijf met een kleine belemmering voor de service.<br><br>Voor een incident met ernst C neemt Microsoft alleen tijdens werkuren contact met u op.<br><br>U zorgt er ook voor dat Microsoft beschikt over uw juiste contactgegevens
 
 Meer informatie:
-- **Ondersteuningstalen** - Alle ondersteuning is beschikbaar in het Engels.
-- **Wijzigingen op niveau van ernst:** Microsoft kan het niveau van de ernst downgraden als de klant onvoldoende bronnen of antwoorden kan bieden om Microsoft in staat te stellen door te gaan met het oplossen van problemen. 
-- **Tijdens de werkuren:** in de meeste landen zijn de werkdagen van 9:00 tot 17:00 uur, Pacific Standard Time.
--  Toepassingscompatibiliteit: er moet een reproduceerbare fout zijn tussen de vorige en huidige versie van Windows of Office voor een toepassingscompatibiliteitsprobleem van dezelfde versie van de toepassing. Om compatibiliteitsproblemen met toepassingen op te lossen, heeft Microsoft een contactpersoon van de klant nodig. De persoon moet rechtstreeks samenwerken met ons Fast Track-team om het probleem te onderzoeken en op te lossen.
-- **Responstijd van klant** Als een klant niet aan de verwachte antwoordvereisten kan voldoen, wordt de aanvraag met één niveau van ernst naar een minimum van ernst C gedowngraded. Als een klant niet reageert op aanvragen voor actie, wordt de ondersteuningsaanvraag binnen 48 uur na de laatste aanvraag door Microsoft beperkt en gesloten.
+- **Ondersteuningstalen:** alle ondersteuning is beschikbaar in het Engels.
+- **Wijzigingen in ernstniveau:** Microsoft kan het ernstniveau verlagen als de klant niet in staat is voldoende resources of antwoorden te verstrekken om Microsoft in staat te stellen door te gaan met het oplossen van problemen. 
+- **Openingstijden:** voor de meeste landen zijn de werkuren van 9:00 tot 17:00 uur, Pacific Standard Time.
+-  Toepassingscompatibiliteit: voor een compatibiliteitsprobleem met toepassingen moet er een reproduceerbare fout zijn, van dezelfde versie van de toepassing, tussen de vorige en de huidige versie van Windows of Office. Om compatibiliteitsproblemen met toepassingen op te lossen, heeft Microsoft een klantcontactpunt nodig om mee te kunnen werken. De persoon moet rechtstreeks samenwerken met ons Fast Track-team om het probleem te onderzoeken en op te lossen.
+- **Reactietijd van klant** Als een klant niet aan de verwachte antwoordvereisten kan voldoen, zal Microsoft de aanvraag verlagen met één ernstniveau, tot een minimum van ernst C. Als een klant niet reageert op verzoeken om actie, zal Microsoft de ondersteuningsaanvraag beperken en sluiten binnen 48 uur na de laatste aanvraag.
 
 ## <a name="provide-feedback"></a>Feedback geven
 
-Wij waarderen uw feedback en gebruiken deze om de ondersteuning voor beheerders te verbeteren.
+We waarderen uw feedback en gebruiken deze om de ondersteuningservaring van de beheerder te verbeteren.
 
-Zodra een ticket de status  **Beperkt** of Opgelost heeft, kunt u uw feedback over uw ervaring met dat specifieke probleem delen. Als u feedback wilt delen, gaat u naar de **pagina Serviceaanvragen** in het menu Probleemoplossing **+** ondersteuning van de mem-portal. Selecteer het specifieke ticket. De ticketdetails worden weergegeven in het invliegen aan de rechterkant, selecteren het **tabblad Feedback** en geven de gevraagde informatie op. Pas op dat u geen persoonlijke gegevens in het feedbackformulier op nemen. Zie de privacyverklaring van Microsoft voor meer [informatie over privacy.](https://privacy.microsoft.com/privacystatement)
+Wanneer een ticket in de status **Beperkt** of Opgelost **is,** kunt u uw feedback over uw ervaring met dat specifieke probleem delen. Als u feedback wilt delen, gaat u naar de **pagina Serviceaanvragen** in het menu **Probleemoplossing + ondersteuning** van de MEM-portal. Selecteer het specifieke ticket. De ticketdetails worden weergegeven in de fly-in aan de rechterkant, selecteer het **tabblad Feedback** en geef de gevraagde informatie op. Zorg ervoor dat u geen persoonlijke gegevens in het feedbackformulier op wilt nemen. Zie de Privacyverklaring van Microsoft voor [meer informatie over privacy.](https://privacy.microsoft.com/privacystatement)
 
 ![Feedbackformulier](../../media/feedback_form.png)
 
@@ -68,4 +68,4 @@ Zodra een ticket de status  **Beperkt** of Opgelost heeft, kunt u uw feedback ov
 ## <a name="more-resources"></a>Meer informatie
 - [Gebruikersondersteuning voor Microsoft Managed Desktop.](end-user-support.md) 
 - [Ondersteuning voor Microsoft Managed Desktop.](../service-description/support.md) 
-- Als u zich al hebt geabonneerd op beheerd bureaublad van Microsoft, vindt u gedetailleerde procedures, processtromen, werkinstructies en veelgestelde vragen in de Microsoft Managed Desktop Admin Guide op de **pagina Online-resources** in de sectie **Microsoft Managed Desktop** van het menu **Tenantbeheer** in [Microsoft Endpoint Manager.](https://endpoint.microsoft.com/)
+- Als u zich al hebt geabonneerd op Microsoft Managed Desktop, vindt u gedetailleerde procedures, processtromen, werkinstructies en veelgestelde vragen in de Microsoft Managed Desktop-beheerhandleiding op de **pagina Onlineresources** onder de sectie Microsoft Managed Desktop **van** het menu **Tenantbeheer** in [Microsoft Endpoint Manager.](https://endpoint.microsoft.com/)

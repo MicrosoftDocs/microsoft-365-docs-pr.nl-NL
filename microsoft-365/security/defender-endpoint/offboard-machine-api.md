@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 03a1ef11224021703a6f33f82fa2c4f135a317a7
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: e2b1114cd091c9cd42aa8e4525416f9d73358a65
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934175"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771991"
 ---
 # <a name="offboard-machine-api"></a>Offboard-machine-API
 
@@ -50,7 +51,7 @@ Offboard-apparaat van Defender voor Eindpunt.
 [!include[Machine actions note](../../includes/machineactionsnote.md)]
 
 >[!Note]
-> Deze API wordt ondersteund in Windows 10, versie 1703 en hoger of Windows Server 2019 en hoger. Deze API wordt niet ondersteund op MacOS- of Linux-apparaten.
+> Deze API wordt ondersteund Windows 10, versie 1703 en hoger of Windows Server 2019 en hoger. Deze API wordt niet ondersteund op MacOS- of Linux-apparaten.
 
 ## <a name="permissions"></a>Machtigingen
 Een van de volgende machtigingen is vereist om deze API te bellen. Zie Defender voor [eindpunt-API's gebruiken](apis-intro.md) voor meer informatie, inclusief het kiezen van machtigingen.
@@ -72,7 +73,7 @@ POST https://api.securitycenter.microsoft.com/api/machines/{id}/offboard
 
 ## <a name="request-headers"></a>Kopteksten aanvragen
 
-Naam | Type | Beschrijving
+Naam | Type | Omschrijving
 :---|:---|:---
 Autorisatie | Tekenreeks | Bearer {token}. **Vereist**.
 Inhoudstype | tekenreeks | toepassing/json. **Vereist**.
@@ -80,7 +81,7 @@ Inhoudstype | tekenreeks | toepassing/json. **Vereist**.
 ## <a name="request-body"></a>Body aanvragen
 In de objectaanvraag moet u een JSON-object de volgende parameters geven:
 
-Parameter | Type    | Beschrijving
+Parameter | Type    | Omschrijving
 :---|:---|:---
 Opmerking |   Tekenreeks |    Opmerking om te koppelen aan de actie. **Vereist**.
 

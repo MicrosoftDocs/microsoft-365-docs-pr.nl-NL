@@ -18,16 +18,16 @@ ms.custom:
 search.appverid:
 - MET150
 description: Gebruik Windows PowerShell voor meer informatie over basismobiliteits- en beveiligingsapparaten in uw organisatie.
-ms.openlocfilehash: 92fcd6f39ffff97d7a4ecd2a69626ece54b481b2
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 7cb2369c9a31210f26db12b0453e7a4228e1cccc
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904250"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782439"
 ---
 # <a name="get-details-about-basic-mobility-and-security-managed-devices"></a>Meer informatie over beheerde basisapparaten voor mobiliteit en beveiliging
 
-In dit artikel wordt beschreven hoe u Windows PowerShell gebruikt voor meer informatie over de apparaten in uw organisatie die u hebt ingesteld voor Basismobiliteit en Beveiliging.
+In dit artikel wordt beschreven hoe u Windows PowerShell voor meer informatie over de apparaten in uw organisatie die u hebt ingesteld voor Basismobiliteit en Beveiliging.
 
 Hier ziet u een overzicht van de apparaatdetails die voor u beschikbaar zijn.
 
@@ -45,11 +45,11 @@ Hier ziet u een overzicht van de apparaatdetails die voor u beschikbaar zijn.
 
 Er zijn een paar dingen die u moet instellen om de opdrachten en scripts uit te voeren die in dit artikel worden beschreven.
 
-### <a name="step-1-download-and-install-the-azure-active-directory-module-for-windows-powershell"></a>Stap 1: De Azure Active Directory-module voor Windows PowerShell downloaden en installeren
+### <a name="step-1-download-and-install-the-azure-active-directory-module-for-windows-powershell"></a>Stap 1: Download en installeer de Azure Active Directory module voor Windows PowerShell
 
-Zie Verbinding maken met [Microsoft 365 met PowerShell](/office365/enterprise/powershell/connect-to-office-365-powershell)voor meer informatie over deze stappen.
+Zie voor meer informatie over deze stappen [Verbinding maken te Microsoft 365 powershell.](/office365/enterprise/powershell/connect-to-office-365-powershell)
 
-1. Ga naar Microsoft Online Services Sign-In Assistent voor [IT-professionals RTWl](https://www.microsoft.com/download/details.aspx?id=41950)en   selecteer Downloaden voor Microsoft Online Services  **Aanmeldingsassistent**.
+1. Ga naar Microsoft Online Services Sign-In Assistent voor [IT-professionals RTWl](https://download.microsoft.com/download/7/1/E/71EF1D05-A42C-4A1F-8162-96494B5E615C/msoidcli_32bit.msi)en   selecteer Downloaden voor Microsoft Online Services  **Aanmeldingsassistent**.
 
 2. Installeer de module Microsoft Azure Active Directory voor Windows PowerShell met deze stappen:
 
@@ -63,13 +63,13 @@ Zie Verbinding maken met [Microsoft 365 met PowerShell](/office365/enterprise/
 
     5. Sluit na de installatie het powershell-opdrachtvenster.
 
-### <a name="step-2-connect-to-your-microsoft-365-subscription"></a>Stap 2: Verbinding maken met uw Microsoft 365-abonnement
+### <a name="step-2-connect-to-your-microsoft-365-subscription"></a>Stap 2: Verbinding maken uw Microsoft 365 abonnement
 
-1. Voer in de Windows Azure Active Directory-module voor Windows PowerShell de volgende opdracht uit.  
+1. Voer in Windows Azure Active Directory module voor Windows PowerShell de volgende opdracht uit.  
 
     $UserCredential = Get-Credential
 
-2. Typ in het dialoogvenster Aanmeldingsaanvraag voor Windows PowerShell de gebruikersnaam en het wachtwoord voor uw globale beheerdersaccount van Microsoft 365 en selecteer **OK.**
+2. Typ in Windows PowerShell dialoogvenster Aanvraag voor referenties de gebruikersnaam en het wachtwoord voor uw Microsoft 365 globale beheerdersaccount en selecteer **OK.**
 
 3. Voer de volgende opdracht uit.
 
@@ -82,7 +82,7 @@ Zie Verbinding maken met [Microsoft 365 met PowerShell](/office365/enterprise/
 
 Als u het script Get-MsolUserDeviceComplianceStatus.ps1 uitvoeren, moet u het uitvoeren van PowerShell-scripts inschakelen.
 
-1. Selecteer start op uw Windows-bureaublad **en** typ vervolgens Windows PowerShell. Klik met de rechtermuisknop op Windows PowerShell en selecteer **vervolgens Uitvoeren als beheerder.**
+1. Selecteer op Windows bureaublad **Start** en typ Windows PowerShell. Klik met de rechtermuisknop Windows PowerShell en selecteer vervolgens **Uitvoeren als beheerder.**
 
 2. Voer de volgende opdracht uit.
 
@@ -92,7 +92,7 @@ Als u het script Get-MsolUserDeviceComplianceStatus.ps1 uitvoeren, moet u het ui
 
 **Voer de Get-MsolDevice cmdlet uit om details weer te geven voor alle apparaten in uw organisatie**
 
-1. Open de Microsoft Azure Active Directory-module voor Windows PowerShell.  
+1. Open de Microsoft Azure Active Directory module voor Windows PowerShell.  
 
 2. Voer de volgende opdracht uit.
 
@@ -263,11 +263,11 @@ Sla eerst het script op uw computer op.
 70.  }
     
 
-71.  Sla het op als een Windows PowerShell-scriptbestand met de bestandsextensie .ps1; bijvoorbeeld Get-MsolUserDeviceComplianceStatus.ps1.   
+71.  Sla het op als een Windows PowerShell scriptbestand met behulp van de bestandsextensie .ps1; bijvoorbeeld Get-MsolUserDeviceComplianceStatus.ps1.   
 
 ## <a name="run-the-script-to-get-device-information-for-a-single-user-account"></a>Voer het script uit om apparaatgegevens voor één gebruikersaccount op te halen
 
-1. Open de Microsoft Azure Active Directory-module voor Windows PowerShell.
+1. Open de Microsoft Azure Active Directory module voor Windows PowerShell.
     
 2. Ga naar de map waar u het script hebt opgeslagen. Als u de opdracht bijvoorbeeld hebt opgeslagen in C:\PS-Scripts, voer dan de volgende opdracht uit.
     
@@ -281,11 +281,11 @@ Sla eerst het script op uw computer op.
 
     .\Get-MsolUserDeviceComplianceStatus.ps1 -Gebruiker $u -Exporteren
 
-De gegevens worden geëxporteerd naar uw Windows-bureaublad als csv-bestand. U kunt extra parameters gebruiken om de bestandsnaam en het pad van de CSV op te geven.
+De gegevens worden geëxporteerd naar uw Windows bureaublad als een CSV-bestand. U kunt extra parameters gebruiken om de bestandsnaam en het pad van de CSV op te geven.
 
 ## <a name="run-the-script-to-get-device-information-for-a-group-of-users"></a>Voer het script uit om apparaatgegevens voor een groep gebruikers op te halen
 
-1. Open de Microsoft Azure Active Directory-module voor Windows PowerShell.
+1. Open de Microsoft Azure Active Directory module voor Windows PowerShell.
     
 2. Ga naar de map waar u het script hebt opgeslagen. Als u de opdracht bijvoorbeeld hebt opgeslagen in C:\PS-Scripts, voer dan de volgende opdracht uit.   
 
@@ -299,11 +299,11 @@ De gegevens worden geëxporteerd naar uw Windows-bureaublad als csv-bestand. U k
 
     .\Get-MsolUserDeviceComplianceStatus.ps1 -Gebruiker $u -Exporteren
 
-De gegevens worden geëxporteerd naar uw Windows-bureaublad als csv-bestand. U kunt extra parameters gebruiken om de bestandsnaam en het pad van de CSV op te geven.
+De gegevens worden geëxporteerd naar uw Windows bureaublad als een CSV-bestand. U kunt extra parameters gebruiken om de bestandsnaam en het pad van de CSV op te geven.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Microsoft Connect is met pensioen](/collaborate/connect-redirect)
+[Microsoft Verbinding maken is met pensioen](/collaborate/connect-redirect)
 
 [Overzicht van de Basic Mobility en Security](overview.md)
 

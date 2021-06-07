@@ -1,5 +1,5 @@
 ---
-title: Meer informatie over de Microsoft-compliance-extensie (preview)
+title: Meer informatie over Microsoft compliance-extensie
 f1.keywords:
 - CSH
 ms.author: chrfox
@@ -19,14 +19,14 @@ ms.collection:
 search.appverid:
 - MET150
 description: De Microsoft-compliance-extensie is een uitbreiding van de controle en het beheer van bestandsactiviteiten en beschermende maatregelen, voor de Google Chrome-browser
-ms.openlocfilehash: c8a5795b3be8b393fd3a934504449bf6db0c2f01
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: b8d9be88f42cce736cdbf66a97f4363106fa5820
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52162874"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730484"
 ---
-# <a name="learn-about-the-microsoft-compliance-extension-preview"></a>Meer informatie over de Microsoft-compliance-extensie (preview)
+# <a name="learn-about-the-microsoft-compliance-extension"></a>Meer informatie over Microsoft compliance-extensie
 
 [Eindpunt-DLP (preventie van gegevensverlies)](endpoint-dlp-learn-about.md) is een uitbreiding voor de activiteitencontrole en beveiligingsmogelijkheden van [Microsoft 365 DLP (preventie van gegevensverlies)](dlp-learn-about-dlp.md) voor gevoelige items op Windows 10-apparaten. Zodra apparaten zijn geregistreerd bij de Microsoft 365-complianceoplossingen, wordt de informatie over wat gebruikers met gevoelige items doen, zichtbaar in [Activiteitenverkenner](data-classification-activity-explorer.md) en kunt u beschermende maatregelen voor deze items afdwingen via [DLP-beleid](create-test-tune-dlp-policy.md).
 
@@ -62,6 +62,6 @@ Raadpleeg [Aan de slag met de Microsoft-compliance-extensie](dlp-chrome-get-star
 - [Eindpunt-DLP gebruiken](endpoint-dlp-using.md)
 - [Meer informatie over preventie van gegevensverlies](dlp-learn-about-dlp.md)
 - [Een DLP-beleid maken, testen en afstemmen](create-test-tune-dlp-policy.md)
-- [Aan de slag met de activiteitenverkenner](data-classification-activity-explorer.md)
+- [Aan de slag met Activity Explorer](data-classification-activity-explorer.md)
 - [Microsoft Defender voor Eindpunt](https://docs.microsoft.com/windows/security/threat-protection/)
-- [Intern risicobeheer](insider-risk-management.md)
+- [Insider Risk-beheer](insider-risk-management.md)

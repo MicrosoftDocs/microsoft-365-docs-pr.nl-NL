@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 670282f0f87092437bb1f3c6bf7be908e4649042
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: ac14f1ecda2b6256dc19223869b8878e6e725b96
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51199727"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771398"
 ---
 # <a name="stop-and-quarantine-file-api"></a>API voor bestand stoppen en in quarantaine plaatsen
 
@@ -65,7 +66,7 @@ POST https://api.securitycenter.microsoft.com/api/machines/{id}/StopAndQuarantin
 
 ## <a name="request-headers"></a>Kopteksten aanvragen
 
-Naam | Type | Beschrijving
+Naam | Type | Omschrijving
 :---|:---|:---
 Autorisatie | Tekenreeks | Bearer {token}. **Vereist**.
 Inhoudstype | tekenreeks | toepassing/json. **Vereist**.
@@ -73,7 +74,7 @@ Inhoudstype | tekenreeks | toepassing/json. **Vereist**.
 ## <a name="request-body"></a>Body aanvragen
 In de objectaanvraag moet u een JSON-object de volgende parameters geven:
 
-Parameter | Type    | Beschrijving
+Parameter | Type    | Omschrijving
 :---|:---|:---
 Opmerking |   Tekenreeks |    Opmerking om te koppelen aan de actie. **Vereist**.
 Sha1 |  Tekenreeks   | Sha1 van het bestand om het apparaat te stoppen en in quarantaine te plaatsen. **Vereist**.

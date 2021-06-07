@@ -1,5 +1,5 @@
 ---
-title: Beheerdersbeoordeling voor gerapporteerde berichten
+title: Controle door beheerder voor gerapporteerde berichten
 f1.keywords:
 - NOCSH
 ms.author: dansimp
@@ -13,14 +13,14 @@ ms.collection:
 description: Informatie over het controleren van berichten die worden gerapporteerd en feedback geven aan uw gebruikers.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 619cd35b6a60f0d50aa6c13e4cad2b8d7ae947a8
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: 7386f5b283e2bfabb76eee91d33dfda0e42ec7b1
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730956"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769123"
 ---
-# <a name="admin-review-for-reported-messages"></a>Beheerdersbeoordeling voor gerapporteerde berichten
+# <a name="admin-review-for-reported-messages"></a>Controle door beheerder voor gerapporteerde berichten
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -40,12 +40,12 @@ U kunt alleen gebruikers van controleresultaten markeren en op de hoogte stellen
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
 - Als u de configuratie voor gebruikersinzendingen wilt wijzigen, moet u lid zijn van een van de volgende rollengroepen:
-    - Organisatiebeheer of Beveiligingsbeheerder in het [beveiligingscentrum.](permissions-microsoft-365-compliance-security.md)
-    - Organisatiebeheer in [Exchange Online.](/Exchange/permissions-exo/permissions-exo)
+  - Organisatiebeheer of Beveiligingsbeheerder in het [Microsoft 365 beveiligingscentrum.](permissions-microsoft-365-security-center.md)
+  - Organisatiebeheer in [Exchange Online.](/Exchange/permissions-exo/permissions-exo)
 
 - U hebt ook toegang nodig tot de Exchange Online PowerShell. Als het account dat u probeert te gebruiken geen toegang heeft tot Exchange Online PowerShell, krijgt u een foutmelding met de vermelding Een e-mailadres *opgeven in uw domein.* Zie de volgende onderwerpen voor meer informatie over het in- of uitschakelen van toegang tot Exchange Online PowerShell:
-    - [Toegang tot powershell in- Exchange Online uitschakelen](/powershell/exchange/disable-access-to-exchange-online-powershell)
-    - [Clienttoegangsregels in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules)
+  - [Toegang tot powershell in- Exchange Online uitschakelen](/powershell/exchange/disable-access-to-exchange-online-powershell)
+  - [Clienttoegangsregels in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules)
 
 ## <a name="configure-the-messages-used-to-notify-users"></a>De berichten configureren die worden gebruikt om gebruikers op de hoogte te stellen
 

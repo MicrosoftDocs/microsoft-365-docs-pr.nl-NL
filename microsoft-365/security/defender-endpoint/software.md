@@ -14,20 +14,21 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 9bfec2c4e65a390189556c14347eaf17236fb95e
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 14291cbbba2272d268a8e79b6df7bd87992885db
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187102"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771396"
 ---
 # <a name="software-resource-type"></a>Type softwareresource
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 **Van toepassing op:** [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
@@ -43,18 +44,18 @@ ms.locfileid: "51187102"
 
 ## <a name="methods"></a>Methoden
 
-Methode |Retourtype |Beschrijving
+Methode |Retourtype |Omschrijving
 :---|:---|:---
-[Lijstsoftware](get-software.md) | Softwareverzameling | Vermeld de inventaris van de organisatiesoftware.
-[Software downloaden op id](get-software-by-id.md) | Software | Een specifieke software downloaden op de software-id.
-[Distributie van softwareversies van lijst](get-software-ver-distribution.md)| Distributieverzameling | Lijst met softwareversiedistributie per software-id.
-[Machines per softwarelijst maken](get-machines-by-software.md)| MachineRef-verzameling | Een lijst met apparaten ophalen die zijn gekoppeld aan de software-id.
-[Beveiligingslekken door software op een lijst zetten](get-vuln-by-software.md) | [Kwetsbaarheidsverzameling](vulnerability.md) | Een lijst met beveiligingslekken ophalen die zijn gekoppeld aan de software-id.
-[Ontbrekende KBs krijgen](get-missing-kbs-software.md) | KB-verzameling | Een lijst met ontbrekende KBs downloaden die zijn gekoppeld aan de software-id
+[Lijst van software](get-software.md) | Softwareverzameling | Vermeld de inventaris van de organisatiesoftware.
+[Software per id ophalen](get-software-by-id.md) | Software | Een specifieke software downloaden op de software-id.
+[Lijst van distributie van softwareversies](get-software-ver-distribution.md)| Distributieverzameling | Lijst met softwareversiedistributie per software-id.
+[Lijst van computers per software](get-machines-by-software.md)| MachineRef-verzameling | Een lijst met apparaten ophalen die zijn gekoppeld aan de software-id.
+[Lijst van beveiligingsproblemen per software](get-vuln-by-software.md) | [Kwetsbaarheidsverzameling](vulnerability.md) | Een lijst met beveiligingslekken ophalen die zijn gekoppeld aan de software-id.
+[Ontbrekende KB's ophalen](get-missing-kbs-software.md) | KB-verzameling | Een lijst met ontbrekende KBs downloaden die zijn gekoppeld aan de software-id
 
 ## <a name="properties"></a>Eigenschappen
 
-Eigenschap |   Type   |   Beschrijving
+Eigenschap |   Type   |   Omschrijving
 :---|:---|:---
 id | Tekenreeks | Software-id
 Naam | Tekenreeks | Softwarenaam

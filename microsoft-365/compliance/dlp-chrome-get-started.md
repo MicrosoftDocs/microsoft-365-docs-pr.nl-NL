@@ -1,5 +1,5 @@
 ---
-title: Aan de slag met Microsoft compliance-extensie (preview)
+title: Aan de slag met Microsoft compliance-extensie
 f1.keywords:
 - CSH
 ms.author: chrfox
@@ -18,15 +18,15 @@ ms.collection:
 - m365initiative-compliance
 search.appverid:
 - MET150
-description: Bereid de Microsoft Compliance-extensie voor en implementeer deze.
-ms.openlocfilehash: 6ae44a86d415161cd3d7adf40671f02d93fb83c6
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+description: Bereid de Microsoft compliance-extensie voor en implementeer deze.
+ms.openlocfilehash: 084d8fea1bffb012b4a4685dd28ec93df8e29b19
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52162887"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730508"
 ---
-# <a name="get-started-with-microsoft-compliance-extension-preview"></a>Aan de slag met de Microsoft Compliiance-extensie (preview)
+# <a name="get-started-with-microsoft-compliance-extension"></a>Aan de slag met de Microsoft compliance-extensie
 
 Gebruik deze procedures om de Compliance-extensie van Microsoft uit te rollen.
 
@@ -76,7 +76,7 @@ Gegevens uit DLP voor eindpunten kunnen worden weergegeven in [Activiteitenverke
 
 ### <a name="overall-installation-workflow"></a>Algemene installatiewerkstroom
 
-De implementatie van De nalevingsextensie van Microsoft is een proces met meerdere fasen. U kunt ervoor kiezen om op één computer tegelijk te installeren of gebruik Microsoft Endpoint Manager of groepsbeleid voor implementaties binnen de hele organisatie.
+Het implementeren van de Microsoft compliance-extension is een proces dat uit meerdere fasen bestaat. U kunt ervoor kiezen om op één computer tegelijk te installeren of gebruik Microsoft Endpoint Manager of groepsbeleid voor implementaties binnen de hele organisatie.
 
 1. [Bereid uw apparaten voor](#prepare-your-devices).
 2. [Basic Setup Single Machine Selfhost](#basic-setup-single-machine-selfhost)
@@ -261,9 +261,8 @@ Nu u Chrome hebt verwijderd uit de lijst met niet-toegeziene browsers/apps, kunt
 
 ### <a name="known-issues-and-limitations"></a>Bekende problemen en beperkingen
 
-1. Het afdwingen van slepen en neerzetten voor het uploaden van mappen wordt niet ondersteund.
-2. Afdwingen van overschrijven blokkeren voor cloud-uitgang wordt niet ondersteund.
-3. De incognitomodus wordt niet ondersteund en moet worden uitgeschakeld.
+1. Afdwingen van overschrijven blokkeren voor cloud-uitgang wordt niet ondersteund.
+2. De incognitomodus wordt niet ondersteund en moet worden uitgeschakeld.
 
 ## <a name="next-steps"></a>Volgende stappen
 Nu u onboarded-apparaten hebt en de activiteitsgegevens kunt bekijken in Activiteitenverkenner, kunt u verder gaan met de volgende stap, waarin u DLP-beleid maakt voor het beveiligen van uw gevoelige items.
@@ -276,9 +275,9 @@ Nu u onboarded-apparaten hebt en de activiteitsgegevens kunt bekijken in Activit
 - [Preventie van gegevensverlies voor eindpunten gebruiken](endpoint-dlp-using.md)
 - [Meer informatie over preventie van gegevensverlies](dlp-learn-about-dlp.md)
 - [Een DLP-beleid maken, testen en afstemmen](create-test-tune-dlp-policy.md)
-- [Aan de slag met de Activiteitenverkenner](data-classification-activity-explorer.md)
-- [Microsoft Defender voor Endpoint](https://docs.microsoft.com/windows/security/threat-protection/)
-- [Hulpmiddelen en methoden voor het onboarden van Windows 10-apparaten](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)
+- [Aan de slag met Activity Explorer](data-classification-activity-explorer.md)
+- [Microsoft Defender voor Eindpunt](https://docs.microsoft.com/windows/security/threat-protection/)
+- [Hulpmiddelen en methoden onboarden voor Windows 10-apparaten](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)
 - [Microsoft 365-abonnement](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1)
 - [Azure AD-gekoppelde apparaten](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-ad-join)
 - [De nieuwe Microsoft Edge op basis van Chromium downloaden](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium)

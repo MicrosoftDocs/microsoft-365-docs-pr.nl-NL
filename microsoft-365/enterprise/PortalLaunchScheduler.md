@@ -17,19 +17,19 @@ search.appverid:
 - SPO160
 - MET150
 description: In dit artikel wordt beschreven hoe u uw portal kunt starten met de planning voor het starten van portals
-ms.openlocfilehash: ac55a5b0cc9d252642c890b78ccec1ba720f0957
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: e77668b3c21b43de1a2e30dc7181842770a24784
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730256"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769201"
 ---
 # <a name="launch-your-portal-using-the-sharepoint-portal-launch-scheduler"></a>Uw portal starten met de SharePoint portal launch scheduler
 
 Een portal is een SharePoint communicatiesite op uw intranet die veel verkeer heeft: een site die in de loop van enkele weken tussen de 10.000 en meer dan 100.000 kijkers heeft. Gebruik de planning voor het starten van portals om uw portal te starten om ervoor te zorgen dat gebruikers een soepele weergaveervaring hebben bij het openen van uw nieuwe portal SharePoint portal.
 <br>
 <br>
-De planning voor het starten van portals is ontworpen om u te helpen een gefaseerd implementatieaanpak te volgen door gebruikers in golven te batchen en de URL-omleiding voor de nieuwe portal te beheren. Tijdens de lancering van elke golf kunt u feedback van gebruikers verzamelen, de prestaties van de portal controleren en de start onderbreken om problemen op te lossen voordat u verdergaat met de volgende golf. Meer informatie over het [plannen van een portallancering in SharePoint.](https://docs.microsoft.com/microsoft-365/Enterprise/Planportallaunchroll-out?view=o365-worldwide) 
+De planning voor het starten van portals is ontworpen om u te helpen een gefaseerd implementatieaanpak te volgen door gebruikers in golven te batchen en de URL-omleiding voor de nieuwe portal te beheren. Tijdens de lancering van elke golf kunt u feedback van gebruikers verzamelen, de prestaties van de portal controleren en de start onderbreken om problemen op te lossen voordat u verdergaat met de volgende golf. Meer informatie over het [plannen van een portallancering in SharePoint.](/microsoft-365/Enterprise/Planportallaunchroll-out?view=o365-worldwide) 
 
 **Er zijn twee soorten omleiding:**
 
@@ -116,28 +116,30 @@ Voorheen konden portallanceringen alleen worden gepland via SharePoint PowerShel
 
 7. Bepaal wie de site direct moet bekijken en voer de gegevens in in **het veld Gebruikers die zijn vrijgesteld van golven.** Deze gebruikers worden uitgesloten van golven en worden niet omgeleid vóór, tijdens of na de lancering.
 
+    >[!NOTE]
+    > Maximaal 50 afzonderlijke gebruikers of beveiligingsgroepen kunnen maximaal worden toegevoegd. Gebruik beveiligingsgroepen wanneer u meer dan 50 personen nodig hebt om toegang te krijgen tot de portal voordat de golven beginnen te starten. 
+
 8.  Bevestig de details van de portallancering en selecteer **Planning.** Nadat de start is gepland, moeten wijzigingen in de startpagina van de portal SharePoint een gezond diagnostisch resultaat ontvangen voordat de portal wordt geopend.
 
-### <a name="launch-portal-with-over-100k-users"></a>Portal starten met meer dan 100.000 gebruikers
+### <a name="launch-a-portal-with-over-100k-users"></a>Een portal starten met meer dan 100.000 gebruikers
 
-Als u van plan bent een portal te starten met meer dan 100.000 gebruikers, dient u een ondersteuningsaanvraag in volgens de onderstaande stappen. Zorg ervoor dat u alle gevraagde gegevens op moet nemen.
+Als u van plan bent een portal met meer dan 100.000 gebruikers te starten, dient u een ondersteuningsaanvraag in volgens de onderstaande stappen. Zorg ervoor dat u alle gevraagde informatie op moet nemen.
 
-Volg deze stappen:
-1. Navigeren naar https://admin.microsoft.com
-2. Zorg ervoor dat u de preview van het nieuwe beheercentrum gebruikt.
-3. Selecteer in het linkernavigatiedeelvenster **Ondersteuning** en selecteer **vervolgens Nieuwe serviceaanvraag.** 
-
+**Volg deze stappen:**
+1. Ga naar https://admin.microsoft.com
+2. Controleer of u de preview van het nieuwe beheercentrum gebruikt
+3. Selecteer ondersteuning in het linkernavigatiedeelvenster **en** selecteer vervolgens **Nieuwe serviceaanvraag**
 
    Hiermee wordt het deelvenster **Hulp nodig?** aan de rechterkant van het scherm geactiveerd.
 
-4.  Voer in **het gebied Kort** beschrijven uw probleem in op 'Start SharePoint Portal met 100.000 gebruikers'.</br>
-5. Selecteer **Contact opnemen met ondersteuning.**
-6. Voer **onder** Beschrijving 'Start SharePoint Portal met 100.000 gebruikers' in. 
-7. Vul de overige gegevens in en selecteer **Contact opnemen.**
+4. Voor **Kort beschrijven van uw probleem,** typt u 'Launch SharePoint Portal with 100k users'</br>
+5. Selecteer vervolgens **Contact opnemen met ondersteuning**
+6. Voer **onder Beschrijving**'Start SharePoint Portal met 100.000 gebruikers' in
+7. Vul de resterende gegevens in en selecteer contact **met mij opnemen**
 8. Nadat het ticket is gemaakt, moet u de ondersteuningsagent de volgende informatie geven:
-- Portal-URL's starten 
-- Aantal verwachte gebruikers
-- Geschatte begintijd 
+   - Portal-URL's 
+   - Aantal verwachte gebruikers
+   - Geschatte beginplanning
 
 ## <a name="make-changes-to-a-scheduled-portal-launch"></a>Wijzigingen aanbrengen in een geplande portallancering
 

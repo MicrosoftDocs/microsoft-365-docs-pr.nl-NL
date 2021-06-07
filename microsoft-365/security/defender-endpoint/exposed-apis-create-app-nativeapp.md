@@ -1,7 +1,7 @@
 ---
 title: Microsoft Defender voor eindpunt-API's gebruiken
 ms.reviewer: ''
-description: Lees hoe u een inheems Windows-app ontwerpt om programmatische toegang te krijgen tot Microsoft Defender voor Eindpunt zonder een gebruiker.
+description: Meer informatie over het ontwerpen van een Windows app voor programmatische toegang tot Microsoft Defender voor Eindpunt zonder een gebruiker.
 keywords: api's, graph api, ondersteunde api's, actor, waarschuwingen, apparaat, gebruiker, domein, ip, bestand, geavanceerd zoeken, query
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -15,13 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 5e59ff75a7933cf52af857f1a41b0925aa7bb47a
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 8f23a0b269986f4caa199ad3744c563fcc6ff6b2
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51198893"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769099"
 ---
 # <a name="use-microsoft-defender-for-endpoint-apis"></a>Microsoft Defender voor eindpunt-API's gebruiken
 
@@ -29,7 +30,7 @@ ms.locfileid: "51198893"
 
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
@@ -43,7 +44,7 @@ Als u programmatische toegang nodig hebt voor Microsoft Defender voor Eindpunt z
 
 Als u niet zeker weet welke toegang u nodig hebt, leest u de [pagina Inleiding.](apis-intro.md)
 
-In Microsoft Defender voor Eindpunt worden veel van de gegevens en acties via een set programmatische API's beschikbaar. Met deze API's kunt u werkstromen automatiseren en innoveren op basis van De mogelijkheden van Microsoft Defender voor eindpunten. Voor de API-toegang is OAuth2.0-verificatie vereist. Zie [OAuth 2.0 Autorisatiecodestroom](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)voor meer informatie.
+In Microsoft Defender voor Eindpunt worden veel van de gegevens en acties via een set programmatische API's beschikbaar. Met deze API's kunt u werkstromen automatiseren en innoveren op basis van De mogelijkheden van Microsoft Defender voor eindpunten. Voor de API-toegang is OAuth2.0-verificatie vereist. Zie [OAuth 2.0 Autorisatiecode](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)voor Flow.
 
 Over het algemeen moet u de volgende stappen nemen om de API's te gebruiken:
 - Een AAD-toepassing maken
@@ -63,7 +64,7 @@ Op deze pagina wordt uitgelegd hoe u een AAD-toepassing maakt, toegang krijgt to
 
 1. Meld u aan [bij Azure](https://portal.azure.com) met een gebruikersaccount met de rol **Globale beheerder.**
 
-2. **Navigeer naar Azure Active Directory**  >  **App-registraties** Nieuwe  >  **registratie**. 
+2. Navigeer **naar Azure Active Directory**  >  **app-registraties Nieuwe**  >  **registratie**. 
 
    ![Afbeelding van Microsoft Azure en navigatie naar toepassingsregistratie](images/atp-azure-new-app2.png)
 
@@ -72,7 +73,7 @@ Op deze pagina wordt uitgelegd hoe u een AAD-toepassing maakt, toegang krijgt to
    - **Naam:** voer een betekenisvolle toepassingsnaam in die wordt weergegeven voor gebruikers van de app.
    - **Ondersteunde accounttypen:** selecteer welke accounts u wilt dat uw toepassing ondersteunt.
 
-       | Ondersteunde accounttypen | Beschrijving |
+       | Ondersteunde accounttypen | Omschrijving |
        |-------------------------|-------------|
        | **Accounts in deze organisatiemap alleen** | Selecteer deze optie als u een LOB-toepassing (Line-of-Business) bouwt. Deze optie is niet beschikbaar als u de toepassing niet registreert in een adreslijst.<br><br>Deze optie wordt alleen naar Azure AD met één tenant gemapt.<br><br>Dit is de standaardoptie, tenzij u de app buiten een adreslijst registreert. In gevallen waarin de app buiten een adreslijst is geregistreerd, zijn Azure AD-multi-tenant- en persoonlijke Microsoft-accounts de standaardinstelling. |
        | **Accounts in een organisatiemap** | Selecteer deze optie als u alle zakelijke en educatieve klanten wilt targeten.<br><br>Deze optie wordt alleen aan een Azure AD-multi-tenant toe te staan.<br><br>Als u de app hebt geregistreerd als alleen een enkele tenant van Azure AD, kunt u deze bijwerken als Azure AD-multi-tenant en terug naar een enkele tenant via het **verificatieblad.** |

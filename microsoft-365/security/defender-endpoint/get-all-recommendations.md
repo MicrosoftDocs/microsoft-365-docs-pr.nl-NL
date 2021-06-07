@@ -1,7 +1,7 @@
 ---
 title: Lijst van alle aanbevelingen
 description: Hiermee wordt een lijst opgehaald met alle beveiligingsaanbevelingen die van invloed zijn op de organisatie.
-keywords: api's, graph api, ondersteunde api's, get, beveiligingsaanbevelingen, Microsoft Defender voor Endpoint tvm-api, bedreigings- en kwetsbaarheidsbeheer, bedreigings- en kwetsbaarheidsbeheer-api
+keywords: api's, graph api, ondersteunde api's, get, beveiligingsaanbevelingen, Microsoft Defender voor Endpoint tvm api, Threat and Vulnerability Management, Threat and Vulnerability Management api
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 0cb0a1f8a42b419db960e5097667c335bf7f7877
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 0a58287a9bd48a4d19144a40674e1d3ad3bd256a
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935015"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52768924"
 ---
 # <a name="list-all-recommendations"></a>Lijst van alle aanbevelingen
 
@@ -56,7 +57,7 @@ GET /api/recommendations
 
 ## <a name="request-headers"></a>Kopteksten aanvragen
 
-Naam | Type | Beschrijving
+Naam | Type | Omschrijving
 :---|:---|:---
 Autorisatie | Tekenreeks | Bearer {token}. **Vereist**.
 

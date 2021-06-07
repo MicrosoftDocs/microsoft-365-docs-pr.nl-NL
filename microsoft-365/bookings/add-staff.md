@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: bookings
 localization_priority: Normal
 description: Gebruik deze pagina om uw personeelslijst te maken en om de gegevens van personeelsleden te beheren, zoals naam, telefoonnummer en e-mailadres.
-ms.openlocfilehash: 7fd19e3281b3dc075b5f72ca0471f5c66f93752d
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 23757c492986936125eff1203e6a99231164da22
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683317"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52768943"
 ---
 # <a name="add-staff-to-bookings"></a>Medewerkers toevoegen aan Bookings
 
@@ -23,7 +23,7 @@ Op de pagina Personeel in Bookings maakt u uw personeelslijst en beheert u de ge
 
 Hoewel Bookings een functie van Microsoft 365 is, zijn niet alle personeelsleden verplicht een account Microsoft 365 hebben. Alle personeelsleden moeten een geldig e-mailadres hebben, zodat ze boekingen kunnen ontvangen en wijzigingen kunnen plannen.
 
-## <a name="watch-add-your-staff-in-microsoft-bookings"></a>Kijken: Uw personeel toevoegen in Microsoft Bookings
+## <a name="watch-add-your-staff-to-bookings"></a>Kijken: Uw personeel toevoegen aan Bookings
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWuVka]
 
@@ -67,14 +67,39 @@ Hoewel Bookings een functie van Microsoft 365 is, zijn niet alle personeelsleden
     > [!NOTE]
     > Alleen de eerste 31 personeelsleden die u aan uw personeelspagina toevoegt, worden weergegeven wanneer u personeelsleden aan een service toewijst.
 
-## <a name="next-steps"></a>Volgende stappen
+## <a name="make-a-bookings-user-a-super-user-without-adding-them-as-staff-in-bookings"></a>Een Bookings-gebruiker een supergebruiker maken zonder deze toe te voegen als Staff in Bookings
 
-Nadat u personeelsleden hebt toevoegen, kunt u [bedrijfssluitingen](schedule-closures-time-off-vacation.md) en -vrijtijd plannen en [uw planningsbeleid instellen.](set-scheduling-policies.md)
+Mogelijk wilt u een persoon toevoegen aan uw personeelslijst in Bookings zonder deze beschikbaar te stellen voor klanten of klanten. Wanneer u ze een supergebruiker maakt, worden ze beheerder van het postvak van de reservering. Als beheerder van een boekingspostvak wordt gedefinieerd dat u volledige toegang hebt tot het boekingspostvak en machtigingen voor verzenden als.
 
-## <a name="related-content"></a>Verwante inhoud
+> [!NOTE]
+> Deze stappen werken alleen als de gebruiker die  wordt toegevoegd nog geen viewerrol heeft toegewezen in Bookings.
 
-[Microsoft Bookings](bookings-overview.md)
+1. [Verbinding maken om Microsoft 365 powershell te gebruiken.](/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
-[Bedrijfssluiting, verlof en vakantiedagen plannen](schedule-closures-time-off-vacation.md)
+2. Met PowerShell kunt u volledige toegang toewijzen met de volgende opdrachten:
 
-[Uw planningsbeleid instellen](set-scheduling-policies.md)
+    ```powershell
+    Add-MailboxPermission -Identity <bookingmailbox@emailaddress> -User <adminusers@emailaddress> -AccessRights FullAccess -Deny:$false
+    ```
+
+3. Voer vervolgens deze opdracht uit om machtigingen voor verzenden als toe te wijzen.
+
+    ```powershell
+    Add-RecipientPermission -Identity <bookingmailbox@emailaddress> -Trustee <adminusers@emailaddress> -AccessRights SendAs -Confirm:$false
+    ```
+
+Hier is een voorbeeld van de PowerShell-opdracht om Allie Bellew toe te voegen aan het postvak van Contoso-dagopvangboek.
+
+1. Voer eerst deze opdracht uit:
+
+    ```powershell
+    Add-MailboxPermission -Identity "daycare@contoso.com" -User "Allie Bellew" -AccessRights FullAccess -InheritanceType All
+    ```
+
+2. Voer vervolgens deze opdracht uit:
+
+    ```powershell
+    Add-RecipientPermission -Identity <bookingmailbox@emailaddress> -Trustee <adminusers@emailaddress> -AccessRights SendAs -Confirm:$false
+    ```
+
+**Allie Bellew heeft** nu beheerderstoegang, maar wordt niet weergegeven als boekbaar personeel in Bookings.

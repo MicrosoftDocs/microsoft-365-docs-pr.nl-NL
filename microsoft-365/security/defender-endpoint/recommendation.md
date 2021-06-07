@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 6ab4d4e1acab0e4b837195f64c369057d7ceb417
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: bd7aa2af2c7500bbe02108bb8aa5dee452ff2998
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51198231"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771595"
 ---
 # <a name="recommendation-resource-type"></a>Type aanbevelingsresource
 
@@ -39,17 +40,17 @@ ms.locfileid: "51198231"
 [!include[Prerelease information](../../includes/prerelease.md)]
 
 ## <a name="methods"></a>Methoden
-Methode |Retourtype |Beschrijving
+Methode |Retourtype |Omschrijving
 :---|:---|:---
-[Alle aanbevelingen op een lijst zetten](get-all-recommendations.md) | Aanbevelingsverzameling | Hiermee wordt een lijst opgehaald met alle beveiligingsaanbevelingen die van invloed zijn op de organisatie
-[Aanbeveling per id krijgen](get-recommendation-by-id.md) | Aanbeveling | Haalt een beveiligingsaanbeveling op met de id
+[Lijst van alle aanbevelingen](get-all-recommendations.md) | Aanbevelingsverzameling | Hiermee wordt een lijst opgehaald met alle beveiligingsaanbevelingen die van invloed zijn op de organisatie
+[Aanbevelingen per id ophalen](get-recommendation-by-id.md) | Aanbeveling | Haalt een beveiligingsaanbeveling op met de id
 [Aanbevelingssoftware downloaden](get-recommendation-software.md)| [Software](software.md) | Haalt een beveiligingsaanbeveling op die betrekking heeft op een specifieke software
 [Aanbevelingsapparaten krijgen](get-recommendation-machines.md)|MachineRef-verzameling | Hiermee wordt een lijst opgehaald met apparaten die zijn gekoppeld aan de beveiligingsaanbeveling
 [Beveiligingsproblemen met aanbevelingen krijgen](get-recommendation-vulnerabilities.md) | [Kwetsbaarheidsverzameling](vulnerability.md) | Hiermee wordt een lijst met beveiligingsproblemen opgehaald die zijn gekoppeld aan de beveiligingsaanbeveling
 
 
 ## <a name="properties"></a>Eigenschappen
-Eigenschap |   Type   |   Beschrijving
+Eigenschap |   Type   |   Omschrijving
 :---|:---|:---
 id | Tekenreeks | Aanbevelings-id
 productNaam | Tekenreeks | Gerelateerde softwarenaam  

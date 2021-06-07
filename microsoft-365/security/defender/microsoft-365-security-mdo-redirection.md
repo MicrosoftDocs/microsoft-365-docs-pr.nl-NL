@@ -1,5 +1,5 @@
 ---
-title: Accounts omleiden van Microsoft Defender voor Office 365 naar het nieuwe Microsoft 365 beveiligingscentrum
+title: Accounts omleiden van Office 365 beveiligings- en compliancecentrum naar het nieuwe Microsoft 365 beveiligingscentrum
 description: Omleiden van defender voor Office 365 naar het Microsoft 365 beveiligingscentrum.
 keywords: Microsoft 365 beveiligingscentrum, Aan de slag met het Microsoft 365 beveiligingscentrum, omleiding van het beveiligingscentrum
 search.product: eADQiWindows 10XVcnh
@@ -20,14 +20,14 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 2a4b122b3ef3a1ddaf61d8f9373bec3e721db177
-ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
+ms.openlocfilehash: 703d3c3c9086aa2bdfada560c009e8738dffbb18
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52651378"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52768967"
 ---
-# <a name="redirecting-accounts-from-microsoft-defender-for-office-365-to-the-microsoft-365-security-center"></a>Accounts omleiden van Microsoft Defender voor Office 365 naar het Microsoft 365 beveiligingscentrum
+# <a name="redirecting-accounts-from-office-365-security-and-compliance-center-to-microsoft-365-security-center"></a>Accounts omleiden van Office 365 beveiligings- en compliancecentrum naar Microsoft 365 beveiligingscentrum
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -36,7 +36,7 @@ ms.locfileid: "52651378"
 - Microsoft 365 Defender
 - Defender voor Office 365
 
-In dit artikel wordt uitgelegd hoe u accounts kunt doorsturen naar het Microsoft 365-beveiligingscentrum door automatische omleiding vanuit het voormalige Microsoft-beveiligings- en compliancecentrum (protection.office.com of securitycenter.microsoft.com) in te stellen naar het Microsoft 365-beveiligingscentrum (security.microsoft.com).
+In dit artikel wordt uitgelegd hoe u accounts kunt doorsturen naar het Microsoft 365-beveiligingscentrum door automatische omleiding vanuit het voormalige Office 365-beveiligings- en compliancecentrum (protection.office.com) in te stellen naar het Microsoft 365-beveiligingscentrum (security.microsoft.com).
 
 ## <a name="what-to-expect"></a>Wat u kunt verwachten
 Wanneer automatische omleiding is ingeschakeld en actief is, worden gebruikers die toegang hebben tot de beveiligingsgerelateerde mogelijkheden in Office 365 Security and Compliance (protection.office.com), automatisch doorgestuurd naar het Microsoft 365-beveiligingscentrum ( https://security.microsoft.com) .  
@@ -78,7 +78,7 @@ Terugkeren naar de voormalige portal:
 
 Deze instelling kan op elk moment opnieuw worden ingeschakeld.
 
-Nadat accounts zijn uitgeschakeld, worden accounts niet meer doorgeleid naar security.microsoft.com en hebt u opnieuw toegang tot de voormalige portal- securitycenter.windows.com of securitycenter.microsoft.com.
+Nadat accounts zijn uitgeschakeld, worden accounts niet meer doorgeleid naar security.microsoft.com en hebt u opnieuw toegang tot de voormalige portal, securitycenter.windows.com of securitycenter.microsoft.com.
 
 ## <a name="related-information"></a>Gerelateerde informatie
 - [Overzicht van Microsoft 365-beveiligingscentrum](overview-security-center.md)

@@ -13,14 +13,14 @@ ms.collection:
 - M365solutions
 ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
-ms.openlocfilehash: 4532afc40c2324b77725d9ddad158587083e6e9b
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 73e29109a429d8a3fffc69b79939c8dff7ecb087
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280947"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769267"
 ---
-# <a name="microsoft-cloud-for-enterprise-architects-illustrations"></a>Microsoft Cloud voor Enterprise Architects
+# <a name="microsoft-cloud-for-it-architects-illustrations"></a>Illustraties voor Microsoft Cloud voor IT-architecten
 
 Deze posters voor cloudarchitectuur geven u informatie over Microsoft-cloudservices, waaronder Microsoft 365, Azure Active Directory (Azure AD), Microsoft Intune, Microsoft Dynamics 365 en hybride on-premises en cloudoplossingen. 
 
@@ -28,7 +28,7 @@ IT-besluitvormers en -architecten kunnen deze bronnen gebruiken om de ideale opl
 
 
 <a name="identity"></a>
-### <a name="microsoft-cloud-identity-for-enterprise-architects"></a>Microsoft cloudidentiteit voor ondernemingsarchitecten
+### <a name="microsoft-cloud-identity-for-it-architects"></a>Microsoft cloudidentiteit voor IT-architecten
 
 Wat IT-architecten moeten weten over het ontwerpen van identiteit voor organisaties die gebruikmaken van Microsoft-cloudservices en -platforms.
   
@@ -37,7 +37,7 @@ Wat IT-architecten moeten weten over het ontwerpen van identiteit voor organisat
 |[![Duimafbeelding voor microsoft cloudidentiteitsmodel](../media/solutions-architecture-center/msft-cloud-identity-model-thumb.png)](../downloads/MSFT_cloud_architecture_identity.pdf) <br/> [Weergeven als pdf-bestand](../downloads/MSFT_cloud_architecture_identity.pdf) \| [Downloaden als PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity.pdf) \| [Downloaden als een Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity.vsdx)   <br/>Bijgewerkt in september 2020 | Dit model bevat:  <ul> <li> Inleiding tot identiteit met De cloud van Microsoft </li><li> Azure AD IDaaS-mogelijkheden </li><li> On-premises Ad DS-accounts (Active Directory Domain Services) integreren met Azure AD </li><li> Adreslijstonderdelen in Azure IaaS plaatsen </li><li> AD DS-opties voor werkbelastingen in Azure IaaS </li></ul><br/>  <br/>|
 
 <a name="security"></a>
-### <a name="microsoft-cloud-security-for-enterprise-architects"></a>Microsoft cloudbeveiliging voor ondernemingsarchitecten
+### <a name="microsoft-cloud-security-for-it-architects"></a>Microsoft cloudbeveiliging voor IT-architecten
 
 Wat IT-architecten moeten weten over beveiliging in Microsoft-cloudservices en -platforms.
   
@@ -46,7 +46,7 @@ Wat IT-architecten moeten weten over beveiliging in Microsoft-cloudservices en -
 |[![Microsoft Cloud Security voor enterprise architects modelminiatuur](../media/solutions-architecture-center/msft-cloud-security-model-thumb.png)](https://download.microsoft.com/download/6/D/F/6DFD7614-BBCF-4572-A871-E446B8CF5D79/MSFT_cloud_architecture_security%20(1).pdf) <br/> [PDF](https://download.microsoft.com/download/6/D/F/6DFD7614-BBCF-4572-A871-E446B8CF5D79/MSFT_cloud_architecture_security%20(1).pdf)  \| <br/>Bijgewerkt in april 2021 | Dit model bevat: <ul><li>Verantwoordelijkheden voor microsoft- en klantbeveiliging</li><li>Identiteit en apparaattoegang</li><li>Bedreigingsbeveiliging</li><li>Gegevensbescherming </ul><br/>|
    
 <a name="networking"></a>
-### <a name="microsoft-cloud-networking-for-enterprise-architects"></a>Microsoft cloudnetwerken voor ondernemingsarchitecten
+### <a name="microsoft-cloud-networking-for-it-architects"></a>Microsoft Cloud Networking voor IT-architecten
 
 Wat IT-architecten moeten weten over netwerken voor Microsoft-cloudservices en -platforms.
   
@@ -55,7 +55,7 @@ Wat IT-architecten moeten weten over netwerken voor Microsoft-cloudservices en -
 |[![Thumb image for Microsoft cloud networking model](../media/solutions-architecture-center/msft-cloud-networking-model-thumb.png)](../downloads/MSFT_cloud_architecture_networking.pdf) <br/>  [Weergeven als pdf-bestand](../downloads/MSFT_cloud_architecture_networking.pdf) \| [Downloaden als PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_networking.pdf) \| [Downloaden als een Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_networking.vsdx)   <br/>Bijgewerkt in augustus 2020 | Dit model bevat: <ul><li> Uw netwerk ontwikkelen voor cloudconnectiviteit </li><li> Veelgebruikte elementen van Microsoft-cloudconnectiviteit </li><li> ExpressRoute voor Microsoft-cloudconnectiviteit </li><li> Netwerken ontwerpen voor Microsoft SaaS, Azure PaaS en Azure IaaS </li></ul><br/>  <br/>|
 
 <a name="hybrid"></a>
-### <a name="microsoft-hybrid-cloud-for-enterprise-architects"></a>Microsoft Hybrid Cloud voor ondernemingsarchitecten
+### <a name="microsoft-hybrid-cloud-for-it-architects"></a>Hybride Microsoft-cloud voor IT-architecten
 
 Wat IT-architecten moeten weten over hybride cloud voor Microsoft-services en platforms.
   
