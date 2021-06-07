@@ -14,78 +14,79 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: db4682d0d2fccd7504eb46d9099a9783408cfb73
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: dd9def688619b6079d947cb76069aa0f77d768de
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51570934"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52772303"
 ---
-# <a name="get-device-secure-score"></a><span data-ttu-id="5f6e1-104">Secure Score voor apparaten ophalen</span><span class="sxs-lookup"><span data-stu-id="5f6e1-104">Get device secure score</span></span>
+# <a name="get-device-secure-score"></a><span data-ttu-id="59a3f-104">Secure Score voor apparaten ophalen</span><span class="sxs-lookup"><span data-stu-id="59a3f-104">Get device secure score</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-<span data-ttu-id="5f6e1-105">**Van toepassing op:**</span><span class="sxs-lookup"><span data-stu-id="5f6e1-105">**Applies to:**</span></span>
-- [<span data-ttu-id="5f6e1-106">Microsoft Defender voor Eindpunt</span><span class="sxs-lookup"><span data-stu-id="5f6e1-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
-- [<span data-ttu-id="5f6e1-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="5f6e1-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
+<span data-ttu-id="59a3f-105">**Van toepassing op:**</span><span class="sxs-lookup"><span data-stu-id="59a3f-105">**Applies to:**</span></span>
+- [<span data-ttu-id="59a3f-106">Microsoft Defender voor Eindpunt</span><span class="sxs-lookup"><span data-stu-id="59a3f-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [<span data-ttu-id="59a3f-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="59a3f-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-<span data-ttu-id="5f6e1-108">**Van toepassing op:** [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)</span><span class="sxs-lookup"><span data-stu-id="5f6e1-108">**Applies to:** [Microsoft Defender for Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)</span></span>
+<span data-ttu-id="59a3f-108">**Van toepassing op:** [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)</span><span class="sxs-lookup"><span data-stu-id="59a3f-108">**Applies to:** [Microsoft Defender for Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)</span></span>
 
-- <span data-ttu-id="5f6e1-109">Wilt u Microsoft Defender voor Eindpunt ervaren?</span><span class="sxs-lookup"><span data-stu-id="5f6e1-109">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="5f6e1-110">Meld u aan voor een gratis proefabonnement.</span><span class="sxs-lookup"><span data-stu-id="5f6e1-110">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+- <span data-ttu-id="59a3f-109">Wilt u Microsoft Defender voor Eindpunt ervaren?</span><span class="sxs-lookup"><span data-stu-id="59a3f-109">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="59a3f-110">Meld u aan voor een gratis proefabonnement.</span><span class="sxs-lookup"><span data-stu-id="59a3f-110">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
 
-<span data-ttu-id="5f6e1-111">Haalt uw [Microsoft Secure Score voor apparaten op.](tvm-microsoft-secure-score-devices.md)</span><span class="sxs-lookup"><span data-stu-id="5f6e1-111">Retrieves your [Microsoft Secure Score for Devices](tvm-microsoft-secure-score-devices.md).</span></span> <span data-ttu-id="5f6e1-112">Een hogere Microsoft Secure Score voor apparaten betekent dat uw eindpunten beter bestand zijn tegen cyberbeveiligingsaanvallen.</span><span class="sxs-lookup"><span data-stu-id="5f6e1-112">A higher Microsoft Secure Score for Devices means your endpoints are more resilient from cybersecurity threat attacks.</span></span> 
+<span data-ttu-id="59a3f-111">Haalt uw [Microsoft Secure Score voor apparaten op.](tvm-microsoft-secure-score-devices.md)</span><span class="sxs-lookup"><span data-stu-id="59a3f-111">Retrieves your [Microsoft Secure Score for Devices](tvm-microsoft-secure-score-devices.md).</span></span> <span data-ttu-id="59a3f-112">Een hogere Microsoft Secure Score voor apparaten betekent dat uw eindpunten beter bestand zijn tegen cyberbeveiligingsaanvallen.</span><span class="sxs-lookup"><span data-stu-id="59a3f-112">A higher Microsoft Secure Score for Devices means your endpoints are more resilient from cybersecurity threat attacks.</span></span> 
 
-## <a name="permissions"></a><span data-ttu-id="5f6e1-113">Machtigingen</span><span class="sxs-lookup"><span data-stu-id="5f6e1-113">Permissions</span></span>
+## <a name="permissions"></a><span data-ttu-id="59a3f-113">Machtigingen</span><span class="sxs-lookup"><span data-stu-id="59a3f-113">Permissions</span></span>
 
-<span data-ttu-id="5f6e1-114">Een van de volgende machtigingen is vereist om deze API te bellen.</span><span class="sxs-lookup"><span data-stu-id="5f6e1-114">One of the following permissions is required to call this API.</span></span> <span data-ttu-id="5f6e1-115">Zie Microsoft Defender voor [eindpunt-API's](apis-intro.md) gebruiken voor meer informatie, inclusief het kiezen van machtigingen.</span><span class="sxs-lookup"><span data-stu-id="5f6e1-115">To learn more, including how to choose permissions, see [Use Microsoft Defender for Endpoint APIs](apis-intro.md) for details.</span></span>
+<span data-ttu-id="59a3f-114">Een van de volgende machtigingen is vereist om deze API te bellen.</span><span class="sxs-lookup"><span data-stu-id="59a3f-114">One of the following permissions is required to call this API.</span></span> <span data-ttu-id="59a3f-115">Zie Microsoft Defender voor [eindpunt-API's](apis-intro.md) gebruiken voor meer informatie, inclusief het kiezen van machtigingen.</span><span class="sxs-lookup"><span data-stu-id="59a3f-115">To learn more, including how to choose permissions, see [Use Microsoft Defender for Endpoint APIs](apis-intro.md) for details.</span></span>
 
-<span data-ttu-id="5f6e1-116">Machtigingstype</span><span class="sxs-lookup"><span data-stu-id="5f6e1-116">Permission type</span></span> |   <span data-ttu-id="5f6e1-117">Machtiging</span><span class="sxs-lookup"><span data-stu-id="5f6e1-117">Permission</span></span>  |   <span data-ttu-id="5f6e1-118">Weergavenaam machtiging</span><span class="sxs-lookup"><span data-stu-id="5f6e1-118">Permission display name</span></span>
+<span data-ttu-id="59a3f-116">Machtigingstype</span><span class="sxs-lookup"><span data-stu-id="59a3f-116">Permission type</span></span> |   <span data-ttu-id="59a3f-117">Machtiging</span><span class="sxs-lookup"><span data-stu-id="59a3f-117">Permission</span></span>  |   <span data-ttu-id="59a3f-118">Weergavenaam machtiging</span><span class="sxs-lookup"><span data-stu-id="59a3f-118">Permission display name</span></span>
 :---|:---|:---
-<span data-ttu-id="5f6e1-119">Toepassing</span><span class="sxs-lookup"><span data-stu-id="5f6e1-119">Application</span></span> |   <span data-ttu-id="5f6e1-120">Score.Read.Alll</span><span class="sxs-lookup"><span data-stu-id="5f6e1-120">Score.Read.Alll</span></span> |   <span data-ttu-id="5f6e1-121">'Score bedreigings- en kwetsbaarheidsbeheer lezen'</span><span class="sxs-lookup"><span data-stu-id="5f6e1-121">'Read Threat and Vulnerability Management score'</span></span>
-<span data-ttu-id="5f6e1-122">Gedelegeerd (werk- of schoolaccount)</span><span class="sxs-lookup"><span data-stu-id="5f6e1-122">Delegated (work or school account)</span></span> | <span data-ttu-id="5f6e1-123">Score.Read</span><span class="sxs-lookup"><span data-stu-id="5f6e1-123">Score.Read</span></span> | <span data-ttu-id="5f6e1-124">'Score bedreigings- en kwetsbaarheidsbeheer lezen'</span><span class="sxs-lookup"><span data-stu-id="5f6e1-124">'Read Threat and Vulnerability Management score'</span></span>
+<span data-ttu-id="59a3f-119">Toepassing</span><span class="sxs-lookup"><span data-stu-id="59a3f-119">Application</span></span> |   <span data-ttu-id="59a3f-120">Score.Read.Alll</span><span class="sxs-lookup"><span data-stu-id="59a3f-120">Score.Read.Alll</span></span> |   <span data-ttu-id="59a3f-121">'Score bedreigings- en kwetsbaarheidsbeheer lezen'</span><span class="sxs-lookup"><span data-stu-id="59a3f-121">'Read Threat and Vulnerability Management score'</span></span>
+<span data-ttu-id="59a3f-122">Gedelegeerd (werk- of schoolaccount)</span><span class="sxs-lookup"><span data-stu-id="59a3f-122">Delegated (work or school account)</span></span> | <span data-ttu-id="59a3f-123">Score.Read</span><span class="sxs-lookup"><span data-stu-id="59a3f-123">Score.Read</span></span> | <span data-ttu-id="59a3f-124">'Score bedreigings- en kwetsbaarheidsbeheer lezen'</span><span class="sxs-lookup"><span data-stu-id="59a3f-124">'Read Threat and Vulnerability Management score'</span></span>
 
-## <a name="http-request"></a><span data-ttu-id="5f6e1-125">HTTP-aanvraag</span><span class="sxs-lookup"><span data-stu-id="5f6e1-125">HTTP request</span></span>
+## <a name="http-request"></a><span data-ttu-id="59a3f-125">HTTP-aanvraag</span><span class="sxs-lookup"><span data-stu-id="59a3f-125">HTTP request</span></span>
 
 ```
 GET /api/configurationScore
 ```
 
-## <a name="request-headers"></a><span data-ttu-id="5f6e1-126">Kopteksten aanvragen</span><span class="sxs-lookup"><span data-stu-id="5f6e1-126">Request headers</span></span>
+## <a name="request-headers"></a><span data-ttu-id="59a3f-126">Kopteksten aanvragen</span><span class="sxs-lookup"><span data-stu-id="59a3f-126">Request headers</span></span>
 
-<span data-ttu-id="5f6e1-127">Naam</span><span class="sxs-lookup"><span data-stu-id="5f6e1-127">Name</span></span> | <span data-ttu-id="5f6e1-128">Type</span><span class="sxs-lookup"><span data-stu-id="5f6e1-128">Type</span></span> | <span data-ttu-id="5f6e1-129">Omschrijving</span><span class="sxs-lookup"><span data-stu-id="5f6e1-129">Description</span></span>
+<span data-ttu-id="59a3f-127">Naam</span><span class="sxs-lookup"><span data-stu-id="59a3f-127">Name</span></span> | <span data-ttu-id="59a3f-128">Type</span><span class="sxs-lookup"><span data-stu-id="59a3f-128">Type</span></span> | <span data-ttu-id="59a3f-129">Omschrijving</span><span class="sxs-lookup"><span data-stu-id="59a3f-129">Description</span></span>
 :---|:---|:---
-<span data-ttu-id="5f6e1-130">Autorisatie</span><span class="sxs-lookup"><span data-stu-id="5f6e1-130">Authorization</span></span> | <span data-ttu-id="5f6e1-131">Tekenreeks</span><span class="sxs-lookup"><span data-stu-id="5f6e1-131">String</span></span> | <span data-ttu-id="5f6e1-132">Bearer {token}.</span><span class="sxs-lookup"><span data-stu-id="5f6e1-132">Bearer {token}.</span></span> <span data-ttu-id="5f6e1-133">**Vereist**.</span><span class="sxs-lookup"><span data-stu-id="5f6e1-133">**Required**.</span></span>
+<span data-ttu-id="59a3f-130">Autorisatie</span><span class="sxs-lookup"><span data-stu-id="59a3f-130">Authorization</span></span> | <span data-ttu-id="59a3f-131">Tekenreeks</span><span class="sxs-lookup"><span data-stu-id="59a3f-131">String</span></span> | <span data-ttu-id="59a3f-132">Bearer {token}.</span><span class="sxs-lookup"><span data-stu-id="59a3f-132">Bearer {token}.</span></span> <span data-ttu-id="59a3f-133">**Vereist**.</span><span class="sxs-lookup"><span data-stu-id="59a3f-133">**Required**.</span></span>
 
-## <a name="request-body"></a><span data-ttu-id="5f6e1-134">Body aanvragen</span><span class="sxs-lookup"><span data-stu-id="5f6e1-134">Request body</span></span>
+## <a name="request-body"></a><span data-ttu-id="59a3f-134">Body aanvragen</span><span class="sxs-lookup"><span data-stu-id="59a3f-134">Request body</span></span>
 
-<span data-ttu-id="5f6e1-135">Leeg</span><span class="sxs-lookup"><span data-stu-id="5f6e1-135">Empty</span></span>
+<span data-ttu-id="59a3f-135">Leeg</span><span class="sxs-lookup"><span data-stu-id="59a3f-135">Empty</span></span>
 
-## <a name="response"></a><span data-ttu-id="5f6e1-136">Antwoord</span><span class="sxs-lookup"><span data-stu-id="5f6e1-136">Response</span></span>
+## <a name="response"></a><span data-ttu-id="59a3f-136">Antwoord</span><span class="sxs-lookup"><span data-stu-id="59a3f-136">Response</span></span>
 
-<span data-ttu-id="5f6e1-137">Als dit is gelukt, retourneert deze methode 200 OK, waarbij de veilige scoregegevens van het apparaat in de antwoord-body worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="5f6e1-137">If successful, this method returns 200 OK, with the device secure score data in the response body.</span></span>
+<span data-ttu-id="59a3f-137">Als dit is gelukt, retourneert deze methode 200 OK, waarbij de veilige scoregegevens van het apparaat in de antwoord-body worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="59a3f-137">If successful, this method returns 200 OK, with the device secure score data in the response body.</span></span>
 
-## <a name="example"></a><span data-ttu-id="5f6e1-138">Voorbeeld</span><span class="sxs-lookup"><span data-stu-id="5f6e1-138">Example</span></span>
+## <a name="example"></a><span data-ttu-id="59a3f-138">Voorbeeld</span><span class="sxs-lookup"><span data-stu-id="59a3f-138">Example</span></span>
 
-### <a name="request"></a><span data-ttu-id="5f6e1-139">Aanvraag</span><span class="sxs-lookup"><span data-stu-id="5f6e1-139">Request</span></span>
+### <a name="request"></a><span data-ttu-id="59a3f-139">Aanvraag</span><span class="sxs-lookup"><span data-stu-id="59a3f-139">Request</span></span>
 
-<span data-ttu-id="5f6e1-140">Hier is een voorbeeld van de aanvraag.</span><span class="sxs-lookup"><span data-stu-id="5f6e1-140">Here is an example of the request.</span></span>
+<span data-ttu-id="59a3f-140">Hier is een voorbeeld van de aanvraag.</span><span class="sxs-lookup"><span data-stu-id="59a3f-140">Here is an example of the request.</span></span>
 
 ```http
 GET https://api.securitycenter.microsoft.com/api/configurationScore
 ```
 
-### <a name="response"></a><span data-ttu-id="5f6e1-141">Antwoord</span><span class="sxs-lookup"><span data-stu-id="5f6e1-141">Response</span></span>
+### <a name="response"></a><span data-ttu-id="59a3f-141">Antwoord</span><span class="sxs-lookup"><span data-stu-id="59a3f-141">Response</span></span>
 
-<span data-ttu-id="5f6e1-142">Hier is een voorbeeld van het antwoord.</span><span class="sxs-lookup"><span data-stu-id="5f6e1-142">Here is an example of the response.</span></span>
+<span data-ttu-id="59a3f-142">Hier is een voorbeeld van het antwoord.</span><span class="sxs-lookup"><span data-stu-id="59a3f-142">Here is an example of the response.</span></span>
 
 >[!NOTE]
-><span data-ttu-id="5f6e1-143">De hier weergegeven antwoordlijst kan worden afgekapt voor beknoptheid.</span><span class="sxs-lookup"><span data-stu-id="5f6e1-143">The response list shown here may be truncated for brevity.</span></span> 
+><span data-ttu-id="59a3f-143">De hier weergegeven antwoordlijst kan worden afgekapt voor beknoptheid.</span><span class="sxs-lookup"><span data-stu-id="59a3f-143">The response list shown here may be truncated for brevity.</span></span> 
 
 ```json
 {
@@ -95,6 +96,6 @@ GET https://api.securitycenter.microsoft.com/api/configurationScore
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="5f6e1-144">Zie ook</span><span class="sxs-lookup"><span data-stu-id="5f6e1-144">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="59a3f-144">Zie ook</span><span class="sxs-lookup"><span data-stu-id="59a3f-144">See also</span></span>
 
-- [<span data-ttu-id="5f6e1-145">OData-query's met Microsoft Defender voor Eindpunt</span><span class="sxs-lookup"><span data-stu-id="5f6e1-145">OData queries with Microsoft Defender for Endpoint</span></span>](exposed-apis-odata-samples.md)
+- [<span data-ttu-id="59a3f-145">OData-query's met Microsoft Defender voor Eindpunt</span><span class="sxs-lookup"><span data-stu-id="59a3f-145">OData queries with Microsoft Defender for Endpoint</span></span>](exposed-apis-odata-samples.md)
