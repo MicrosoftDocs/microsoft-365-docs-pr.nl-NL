@@ -322,7 +322,7 @@
                   items:
                     - name: Microsoft 365 Streaming-API
                       href: ../defender-endpoint/raw-data-export.md
-                    - name: Geavanceerde opsporingsevenementen streamen naar de Azure Events-hub
+                    - name: Geavanceerde hunting-evens streamen naar azure events hub
                       href: ../defender-endpoint/raw-data-export-event-hub.md
                     - name: Geavanceerde opsporingsevenementen streamen naar uw opslagaccount
                       href: ../defender-endpoint/raw-data-export-storage.md

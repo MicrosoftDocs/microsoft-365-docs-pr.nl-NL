@@ -14,79 +14,81 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 180179d5b1362ad4952618148b11007aa9efe91c
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: dcb00d0d2afc7f873ea9c4afa3174ac46babf879
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51200063"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770779"
 ---
-# <a name="get-machineaction-api"></a><span data-ttu-id="8a6e2-104">MachineAction-API krijgen</span><span class="sxs-lookup"><span data-stu-id="8a6e2-104">Get machineAction API</span></span>
+# <a name="get-machineaction-api"></a><span data-ttu-id="eb982-104">MachineAction-API krijgen</span><span class="sxs-lookup"><span data-stu-id="eb982-104">Get machineAction API</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-<span data-ttu-id="8a6e2-105">**Van toepassing op:** [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)</span><span class="sxs-lookup"><span data-stu-id="8a6e2-105">**Applies to:** [Microsoft Defender for Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)</span></span>
+<span data-ttu-id="eb982-105">**Van toepassing op:** [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)</span><span class="sxs-lookup"><span data-stu-id="eb982-105">**Applies to:** [Microsoft Defender for Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)</span></span>
 
-- <span data-ttu-id="8a6e2-106">Wilt u Microsoft Defender voor Eindpunt ervaren?</span><span class="sxs-lookup"><span data-stu-id="8a6e2-106">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="8a6e2-107">Meld u aan voor een gratis proefabonnement.</span><span class="sxs-lookup"><span data-stu-id="8a6e2-107">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+- <span data-ttu-id="eb982-106">Wilt u Microsoft Defender voor Eindpunt ervaren?</span><span class="sxs-lookup"><span data-stu-id="eb982-106">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="eb982-107">Meld u aan voor een gratis proefabonnement.</span><span class="sxs-lookup"><span data-stu-id="eb982-107">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
 
-## <a name="api-description"></a><span data-ttu-id="8a6e2-108">API-beschrijving</span><span class="sxs-lookup"><span data-stu-id="8a6e2-108">API description</span></span>
-<span data-ttu-id="8a6e2-109">Hiermee wordt specifieke [machineactie opgehaald](machineaction.md) met de id.</span><span class="sxs-lookup"><span data-stu-id="8a6e2-109">Retrieves specific [Machine Action](machineaction.md) by its ID.</span></span>
+## <a name="api-description"></a><span data-ttu-id="eb982-108">API-beschrijving</span><span class="sxs-lookup"><span data-stu-id="eb982-108">API description</span></span>
+<span data-ttu-id="eb982-109">Hiermee wordt specifieke [machineactie opgehaald](machineaction.md) met de id.</span><span class="sxs-lookup"><span data-stu-id="eb982-109">Retrieves specific [Machine Action](machineaction.md) by its ID.</span></span>
 
 
-## <a name="limitations"></a><span data-ttu-id="8a6e2-110">Beperkingen</span><span class="sxs-lookup"><span data-stu-id="8a6e2-110">Limitations</span></span>
-1. <span data-ttu-id="8a6e2-111">Tariefbeperkingen voor deze API zijn 100 oproepen per minuut en 1500 oproepen per uur.</span><span class="sxs-lookup"><span data-stu-id="8a6e2-111">Rate limitations for this API are 100 calls per minute and 1500 calls per hour.</span></span>
+## <a name="limitations"></a><span data-ttu-id="eb982-110">Beperkingen</span><span class="sxs-lookup"><span data-stu-id="eb982-110">Limitations</span></span>
+1. <span data-ttu-id="eb982-111">Tariefbeperkingen voor deze API zijn 100 oproepen per minuut en 1500 oproepen per uur.</span><span class="sxs-lookup"><span data-stu-id="eb982-111">Rate limitations for this API are 100 calls per minute and 1500 calls per hour.</span></span>
 
 
-## <a name="permissions"></a><span data-ttu-id="8a6e2-112">Machtigingen</span><span class="sxs-lookup"><span data-stu-id="8a6e2-112">Permissions</span></span>
-<span data-ttu-id="8a6e2-113">Een van de volgende machtigingen is vereist om deze API te bellen.</span><span class="sxs-lookup"><span data-stu-id="8a6e2-113">One of the following permissions is required to call this API.</span></span> <span data-ttu-id="8a6e2-114">Zie Defender voor [eindpunt-API's gebruiken](apis-intro.md) voor meer informatie, inclusief het kiezen van machtigingen.</span><span class="sxs-lookup"><span data-stu-id="8a6e2-114">To learn more, including how to choose permissions, see [Use Defender for Endpoint APIs](apis-intro.md)</span></span>
+## <a name="permissions"></a><span data-ttu-id="eb982-112">Machtigingen</span><span class="sxs-lookup"><span data-stu-id="eb982-112">Permissions</span></span>
+<span data-ttu-id="eb982-113">Een van de volgende machtigingen is vereist om deze API te bellen.</span><span class="sxs-lookup"><span data-stu-id="eb982-113">One of the following permissions is required to call this API.</span></span> <span data-ttu-id="eb982-114">Zie Defender voor [eindpunt-API's gebruiken](apis-intro.md) voor meer informatie, inclusief het kiezen van machtigingen.</span><span class="sxs-lookup"><span data-stu-id="eb982-114">To learn more, including how to choose permissions, see [Use Defender for Endpoint APIs](apis-intro.md)</span></span>
 
-<span data-ttu-id="8a6e2-115">Machtigingstype</span><span class="sxs-lookup"><span data-stu-id="8a6e2-115">Permission type</span></span> |   <span data-ttu-id="8a6e2-116">Machtiging</span><span class="sxs-lookup"><span data-stu-id="8a6e2-116">Permission</span></span>  |   <span data-ttu-id="8a6e2-117">Weergavenaam machtiging</span><span class="sxs-lookup"><span data-stu-id="8a6e2-117">Permission display name</span></span>
+<span data-ttu-id="eb982-115">Machtigingstype</span><span class="sxs-lookup"><span data-stu-id="eb982-115">Permission type</span></span> |   <span data-ttu-id="eb982-116">Machtiging</span><span class="sxs-lookup"><span data-stu-id="eb982-116">Permission</span></span>  |   <span data-ttu-id="eb982-117">Weergavenaam machtiging</span><span class="sxs-lookup"><span data-stu-id="eb982-117">Permission display name</span></span>
 :---|:---|:---
-<span data-ttu-id="8a6e2-118">Toepassing</span><span class="sxs-lookup"><span data-stu-id="8a6e2-118">Application</span></span> |   <span data-ttu-id="8a6e2-119">Machine.Read.All</span><span class="sxs-lookup"><span data-stu-id="8a6e2-119">Machine.Read.All</span></span> |  <span data-ttu-id="8a6e2-120">'Alle machineprofielen lezen'</span><span class="sxs-lookup"><span data-stu-id="8a6e2-120">'Read all machine profiles'</span></span>
-<span data-ttu-id="8a6e2-121">Toepassing</span><span class="sxs-lookup"><span data-stu-id="8a6e2-121">Application</span></span> |   <span data-ttu-id="8a6e2-122">Machine.ReadWrite.All</span><span class="sxs-lookup"><span data-stu-id="8a6e2-122">Machine.ReadWrite.All</span></span> | <span data-ttu-id="8a6e2-123">'Alle computergegevens lezen en schrijven'</span><span class="sxs-lookup"><span data-stu-id="8a6e2-123">'Read and write all machine information'</span></span>
-<span data-ttu-id="8a6e2-124">Gedelegeerd (werk- of schoolaccount)</span><span class="sxs-lookup"><span data-stu-id="8a6e2-124">Delegated (work or school account)</span></span> | <span data-ttu-id="8a6e2-125">Machine.Lezen</span><span class="sxs-lookup"><span data-stu-id="8a6e2-125">Machine.Read</span></span> | <span data-ttu-id="8a6e2-126">'Machinegegevens lezen'</span><span class="sxs-lookup"><span data-stu-id="8a6e2-126">'Read machine information'</span></span>
-<span data-ttu-id="8a6e2-127">Gedelegeerd (werk- of schoolaccount)</span><span class="sxs-lookup"><span data-stu-id="8a6e2-127">Delegated (work or school account)</span></span> | <span data-ttu-id="8a6e2-128">Machine.ReadWrite</span><span class="sxs-lookup"><span data-stu-id="8a6e2-128">Machine.ReadWrite</span></span> | <span data-ttu-id="8a6e2-129">'Machinegegevens lezen en schrijven'</span><span class="sxs-lookup"><span data-stu-id="8a6e2-129">'Read and write machine information'</span></span>
+<span data-ttu-id="eb982-118">Toepassing</span><span class="sxs-lookup"><span data-stu-id="eb982-118">Application</span></span> |   <span data-ttu-id="eb982-119">Machine.Read.All</span><span class="sxs-lookup"><span data-stu-id="eb982-119">Machine.Read.All</span></span> |  <span data-ttu-id="eb982-120">'Alle machineprofielen lezen'</span><span class="sxs-lookup"><span data-stu-id="eb982-120">'Read all machine profiles'</span></span>
+<span data-ttu-id="eb982-121">Toepassing</span><span class="sxs-lookup"><span data-stu-id="eb982-121">Application</span></span> |   <span data-ttu-id="eb982-122">Machine.ReadWrite.All</span><span class="sxs-lookup"><span data-stu-id="eb982-122">Machine.ReadWrite.All</span></span> | <span data-ttu-id="eb982-123">'Alle computergegevens lezen en schrijven'</span><span class="sxs-lookup"><span data-stu-id="eb982-123">'Read and write all machine information'</span></span>
+<span data-ttu-id="eb982-124">Gedelegeerd (werk- of schoolaccount)</span><span class="sxs-lookup"><span data-stu-id="eb982-124">Delegated (work or school account)</span></span> | <span data-ttu-id="eb982-125">Machine.Lezen</span><span class="sxs-lookup"><span data-stu-id="eb982-125">Machine.Read</span></span> | <span data-ttu-id="eb982-126">'Machinegegevens lezen'</span><span class="sxs-lookup"><span data-stu-id="eb982-126">'Read machine information'</span></span>
+<span data-ttu-id="eb982-127">Gedelegeerd (werk- of schoolaccount)</span><span class="sxs-lookup"><span data-stu-id="eb982-127">Delegated (work or school account)</span></span> | <span data-ttu-id="eb982-128">Machine.ReadWrite</span><span class="sxs-lookup"><span data-stu-id="eb982-128">Machine.ReadWrite</span></span> | <span data-ttu-id="eb982-129">'Machinegegevens lezen en schrijven'</span><span class="sxs-lookup"><span data-stu-id="eb982-129">'Read and write machine information'</span></span>
 
 >[!Note]
-> <span data-ttu-id="8a6e2-130">Bij het verkrijgen van een token met gebruikersreferenties:</span><span class="sxs-lookup"><span data-stu-id="8a6e2-130">When obtaining a token using user credentials:</span></span>
->- <span data-ttu-id="8a6e2-131">De gebruiker moet ten minste de volgende rolmachtiging hebben: 'Gegevens weergeven' [(Zie](user-roles.md) Rollen maken en beheren voor meer informatie)</span><span class="sxs-lookup"><span data-stu-id="8a6e2-131">The user needs to have at least the following role permission: 'View Data' (See [Create and manage roles](user-roles.md) for more information)</span></span>
+> <span data-ttu-id="eb982-130">Bij het verkrijgen van een token met gebruikersreferenties:</span><span class="sxs-lookup"><span data-stu-id="eb982-130">When obtaining a token using user credentials:</span></span>
+>- <span data-ttu-id="eb982-131">De gebruiker moet ten minste de volgende rolmachtiging hebben: 'Gegevens weergeven' [(Zie](user-roles.md) Rollen maken en beheren voor meer informatie)</span><span class="sxs-lookup"><span data-stu-id="eb982-131">The user needs to have at least the following role permission: 'View Data' (See [Create and manage roles](user-roles.md) for more information)</span></span>
 
-## <a name="http-request"></a><span data-ttu-id="8a6e2-132">HTTP-aanvraag</span><span class="sxs-lookup"><span data-stu-id="8a6e2-132">HTTP request</span></span>
+## <a name="http-request"></a><span data-ttu-id="eb982-132">HTTP-aanvraag</span><span class="sxs-lookup"><span data-stu-id="eb982-132">HTTP request</span></span>
 ```
 GET https://api.securitycenter.microsoft.com/api/machineactions/{id}
 ```
 
-## <a name="request-headers"></a><span data-ttu-id="8a6e2-133">Kopteksten aanvragen</span><span class="sxs-lookup"><span data-stu-id="8a6e2-133">Request headers</span></span>
+## <a name="request-headers"></a><span data-ttu-id="eb982-133">Kopteksten aanvragen</span><span class="sxs-lookup"><span data-stu-id="eb982-133">Request headers</span></span>
 
-<span data-ttu-id="8a6e2-134">Naam</span><span class="sxs-lookup"><span data-stu-id="8a6e2-134">Name</span></span> | <span data-ttu-id="8a6e2-135">Type</span><span class="sxs-lookup"><span data-stu-id="8a6e2-135">Type</span></span> | <span data-ttu-id="8a6e2-136">Beschrijving</span><span class="sxs-lookup"><span data-stu-id="8a6e2-136">Description</span></span>
+<span data-ttu-id="eb982-134">Naam</span><span class="sxs-lookup"><span data-stu-id="eb982-134">Name</span></span> | <span data-ttu-id="eb982-135">Type</span><span class="sxs-lookup"><span data-stu-id="eb982-135">Type</span></span> | <span data-ttu-id="eb982-136">Omschrijving</span><span class="sxs-lookup"><span data-stu-id="eb982-136">Description</span></span>
 :---|:---|:---
-<span data-ttu-id="8a6e2-137">Autorisatie</span><span class="sxs-lookup"><span data-stu-id="8a6e2-137">Authorization</span></span> | <span data-ttu-id="8a6e2-138">Tekenreeks</span><span class="sxs-lookup"><span data-stu-id="8a6e2-138">String</span></span> | <span data-ttu-id="8a6e2-139">Bearer {token}.</span><span class="sxs-lookup"><span data-stu-id="8a6e2-139">Bearer {token}.</span></span> <span data-ttu-id="8a6e2-140">**Vereist**.</span><span class="sxs-lookup"><span data-stu-id="8a6e2-140">**Required**.</span></span>
+<span data-ttu-id="eb982-137">Autorisatie</span><span class="sxs-lookup"><span data-stu-id="eb982-137">Authorization</span></span> | <span data-ttu-id="eb982-138">Tekenreeks</span><span class="sxs-lookup"><span data-stu-id="eb982-138">String</span></span> | <span data-ttu-id="eb982-139">Bearer {token}.</span><span class="sxs-lookup"><span data-stu-id="eb982-139">Bearer {token}.</span></span> <span data-ttu-id="eb982-140">**Vereist**.</span><span class="sxs-lookup"><span data-stu-id="eb982-140">**Required**.</span></span>
 
 
-## <a name="request-body"></a><span data-ttu-id="8a6e2-141">Body aanvragen</span><span class="sxs-lookup"><span data-stu-id="8a6e2-141">Request body</span></span>
-<span data-ttu-id="8a6e2-142">Leeg</span><span class="sxs-lookup"><span data-stu-id="8a6e2-142">Empty</span></span>
+## <a name="request-body"></a><span data-ttu-id="eb982-141">Body aanvragen</span><span class="sxs-lookup"><span data-stu-id="eb982-141">Request body</span></span>
+<span data-ttu-id="eb982-142">Leeg</span><span class="sxs-lookup"><span data-stu-id="eb982-142">Empty</span></span>
 
-## <a name="response"></a><span data-ttu-id="8a6e2-143">Antwoord</span><span class="sxs-lookup"><span data-stu-id="8a6e2-143">Response</span></span>
-<span data-ttu-id="8a6e2-144">Als dit is gelukt, retourneert deze methode 200, Ok-antwoordcode met een [entiteit Machineactie.](machineaction.md)</span><span class="sxs-lookup"><span data-stu-id="8a6e2-144">If successful, this method returns 200, Ok response code with a [Machine Action](machineaction.md) entity.</span></span> <span data-ttu-id="8a6e2-145">Als de entiteit machineactie met de opgegeven id niet is gevonden- 404 Niet gevonden.</span><span class="sxs-lookup"><span data-stu-id="8a6e2-145">If machine action entity with the specified id was not found - 404 Not Found.</span></span>
+## <a name="response"></a><span data-ttu-id="eb982-143">Antwoord</span><span class="sxs-lookup"><span data-stu-id="eb982-143">Response</span></span>
+<span data-ttu-id="eb982-144">Als dit is gelukt, retourneert deze methode 200, Ok-antwoordcode met een [entiteit Machineactie.](machineaction.md)</span><span class="sxs-lookup"><span data-stu-id="eb982-144">If successful, this method returns 200, Ok response code with a [Machine Action](machineaction.md) entity.</span></span> <span data-ttu-id="eb982-145">Als de entiteit machineactie met de opgegeven id niet is gevonden- 404 Niet gevonden.</span><span class="sxs-lookup"><span data-stu-id="eb982-145">If machine action entity with the specified id was not found - 404 Not Found.</span></span>
 
-## <a name="example"></a><span data-ttu-id="8a6e2-146">Voorbeeld</span><span class="sxs-lookup"><span data-stu-id="8a6e2-146">Example</span></span>
+## <a name="example"></a><span data-ttu-id="eb982-146">Voorbeeld</span><span class="sxs-lookup"><span data-stu-id="eb982-146">Example</span></span>
 
-<span data-ttu-id="8a6e2-147">**Aanvraag**</span><span class="sxs-lookup"><span data-stu-id="8a6e2-147">**Request**</span></span>
+<span data-ttu-id="eb982-147">**Aanvraag**</span><span class="sxs-lookup"><span data-stu-id="eb982-147">**Request**</span></span>
 
-<span data-ttu-id="8a6e2-148">Hier is een voorbeeld van de aanvraag.</span><span class="sxs-lookup"><span data-stu-id="8a6e2-148">Here is an example of the request.</span></span>
+<span data-ttu-id="eb982-148">Hier is een voorbeeld van de aanvraag.</span><span class="sxs-lookup"><span data-stu-id="eb982-148">Here is an example of the request.</span></span>
 
 ```
 GET https://api.securitycenter.microsoft.com/api/machineactions/2e9da30d-27f6-4208-81f2-9cd3d67893ba
 ```
 
-<span data-ttu-id="8a6e2-149">**Antwoord**</span><span class="sxs-lookup"><span data-stu-id="8a6e2-149">**Response**</span></span>
+<span data-ttu-id="eb982-149">**Antwoord**</span><span class="sxs-lookup"><span data-stu-id="eb982-149">**Response**</span></span>
 
-<span data-ttu-id="8a6e2-150">Hier is een voorbeeld van het antwoord.</span><span class="sxs-lookup"><span data-stu-id="8a6e2-150">Here is an example of the response.</span></span>
+<span data-ttu-id="eb982-150">Hier is een voorbeeld van het antwoord.</span><span class="sxs-lookup"><span data-stu-id="eb982-150">Here is an example of the response.</span></span>
 
 
 ```
