@@ -13,7 +13,7 @@
 |MICROSOFT-RUIMTEN|Gepland|Gepland|N.v.t.|N.v.t.|N.v.t.|
 |OFFICE 365-BEHEERDER|Gepland|N.v.t.|N.v.t.|N.v.t.|N.v.t.|
 |OFFICE LENS|Gepland|Gepland|N.v.t.|N.v.t.|N.v.t.|
-|OFFICE MOBILE|Gepland|Gepland|N.v.t.|N.v.t.|N.v.t.|
+|OFFICE MOBILE|✔|Gepland|N.v.t.|N.v.t.|N.v.t.|
 |OFFICE.COM|N.v.t.|N.v.t.|N.v.t.|N.v.t.|Gepland|
 |ONEDRIVE|✔|✔|✔|✔|Gepland|
 |ONENOTE|✔|Gepland|Gepland|Gepland|Gepland|

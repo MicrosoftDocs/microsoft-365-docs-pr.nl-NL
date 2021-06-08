@@ -19,12 +19,12 @@ ms.assetid: ''
 description: Meer informatie over eenvoudige stappen voor het oplossen van problemen die u kunt ondernemen om veelvoorkomende problemen in Office 365 eDiscovery op te lossen.
 siblings_only: true
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3d3d0830ac677ea812a0d09793de8214245d6b2a
-ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
+ms.openlocfilehash: 26ca41774e1e09619fdf5e518258f8acf3a9d938
+ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52162772"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52809117"
 ---
 # <a name="investigate-troubleshoot-and-resolve-common-ediscovery-issues"></a>Veelvoorkomende eDiscovery-problemen onderzoeken, oplossen en oplossen
 
@@ -89,6 +89,20 @@ Bij het uitvoeren van een eDiscovery-zoekopdracht met SharePoint Online- en One 
 1. Controleer de locatie die is geïdentificeerd in de zoekopdracht om ervoor te zorgen dat de locatie van het bestand juist is en toegevoegd aan de zoeklocaties.
 
 2. Gebruik de procedures bij [Handmatig aanvragen voor het crawlen](/sharepoint/crawl-site-content) en opnieuw indexeren van een site, bibliotheek of lijst om de site opnieuw te indexeren.
+
+## <a name="errorissue-this-file-wasnt-exported-because-it-doesnt-exist-anymore-the-file-was-included-in-the-count-of-estimated-search-results-because-its-still-listed-in-the-index-the-file-will-eventually-be-removed-from-the-index-and-wont-cause-an-error-in-the-future"></a>Fout/probleem: Dit bestand is niet geëxporteerd omdat het niet meer bestaat. Het bestand is opgenomen in het aantal geschatte zoekresultaten omdat het nog steeds in de index wordt vermeld. Het bestand wordt uiteindelijk uit de index verwijderd en veroorzaakt in de toekomst geen fout.
+
+Mogelijk ziet u deze fout bij het uitvoeren van een eDiscovery-zoekopdracht met SharePoint Online en One Drive For Business-locaties. eDiscovery is afhankelijk van de SPO-index om de bestandslocaties te identificeren. Als het bestand is verwijderd, maar de SPO-index nog niet is bijgewerkt, kan deze fout optreden.
+
+### <a name="resolution"></a>Oplossing 
+Open de SPO-locatie en controleer of dit bestand er inderdaad niet is.
+Voorgestelde oplossing is om de site handmatig opnieuw te indexeren of te wachten totdat de site opnieuw wordt geïndexeerd door het automatische achtergrondproces.
+
+
+## <a name="errorissue-this-search-result-was-not-downloaded-as-it-is-a-folder-or-other-artefact-that-cant-be-downloaded-by-itself-any-items-inside-the-folder-or-library-will-be-downloaded"></a>Fout/probleem: Dit zoekresultaat is niet gedownload omdat het een map of ander artefact is dat niet zelf kan worden gedownload, items in de map of bibliotheek worden gedownload.
+
+Mogelijk ziet u deze fout bij het uitvoeren van een eDiscovery-zoekopdracht met SharePoint Online en One Drive For Business-locaties. Het betekent dat we het item dat in de index is gerapporteerd, zouden proberen te exporteren, maar het bleek een map te zijn, zodat we het niet hebben geëxporteerd. Zoals in de fout wordt vermeld, exporteren we geen mapitems, maar exporteren we wel de inhoud ervan.
+
 
 ## <a name="errorissue-search-fails-because-recipient-is-not-found"></a>Fout/probleem: Zoeken mislukt omdat geadresseerde niet wordt gevonden
 

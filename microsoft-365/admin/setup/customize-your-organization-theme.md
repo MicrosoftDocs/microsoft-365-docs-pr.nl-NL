@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: Informatie over het wijzigen van het standaardthema voor de bovenkant van de navigatiebalk in Microsoft 365 en aanpassen aan uw bedrijfslogo of -kleur.
-ms.openlocfilehash: 5f6536d575ef055cda7a97a0860315c491100a1d
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: e609cbbc116f932d9c41f7ec797bf04a2a9c8ef8
+ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635924"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52809045"
 ---
 # <a name="customize-the-microsoft-365-theme-for-your-organization"></a>Het thema Microsoft 365 uw organisatie aanpassen
 
@@ -39,7 +39,7 @@ U kunt een standaardthema toevoegen of bijwerken dat van toepassing is op iedere
 
 1. Ga in het beheercentrum naar **de** pagina Instellingen Organisatie Instellingen en kies vervolgens het tabblad \>  **Organisatieprofiel.**
 
-2. Selecteer op **het tabblad** Organisatieprofiel de optie **Organisatiethema**.
+2. Selecteer aangepaste **thema's** op het tabblad **Organisatieprofiel.**
 
 Alle thema's kunnen worden aangepast met behulp van de volgende tabbladen.
 
@@ -74,7 +74,7 @@ U kunt maximaal vier extra groepsthema's maken.
 
 2. Onder **Groepen** kunt u maximaal 5 Microsoft 365 groepen selecteren die het groepsthema kunnen zien, in plaats van het standaardthema te gebruiken. U kunt ook voorkomen dat gebruikers hun thema overschrijven en de weergavenaam van de gebruiker weergeven.
 
-3. Selecteer **Opslaan**.
+3. Klik op **Opslaan**.
 
 :::image type="content" source="../../media/default-theme-general-users.png" alt-text="Schermafbeelding: tabblad Algemeen met het standaardthema voor een groep gebruikers in uw organisatie":::
 
