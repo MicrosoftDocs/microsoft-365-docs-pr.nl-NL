@@ -23,73 +23,73 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 06/04/2021
 ms.locfileid: "52770287"
 ---
-# <a name="get-file-information-api"></a><span data-ttu-id="bcd2b-104">Api voor bestandsgegevens downloaden</span><span class="sxs-lookup"><span data-stu-id="bcd2b-104">Get file information API</span></span>
+# <a name="get-file-information-api"></a><span data-ttu-id="fa6b5-104">Api voor bestandsgegevens downloaden</span><span class="sxs-lookup"><span data-stu-id="fa6b5-104">Get file information API</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-<span data-ttu-id="bcd2b-105">**Van toepassing op:**</span><span class="sxs-lookup"><span data-stu-id="bcd2b-105">**Applies to:**</span></span>
-- [<span data-ttu-id="bcd2b-106">Microsoft Defender voor Eindpunt</span><span class="sxs-lookup"><span data-stu-id="bcd2b-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
-- [<span data-ttu-id="bcd2b-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="bcd2b-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
+<span data-ttu-id="fa6b5-105">**Van toepassing op:**</span><span class="sxs-lookup"><span data-stu-id="fa6b5-105">**Applies to:**</span></span>
+- [<span data-ttu-id="fa6b5-106">Microsoft Defender voor Eindpunt</span><span class="sxs-lookup"><span data-stu-id="fa6b5-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [<span data-ttu-id="fa6b5-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="fa6b5-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> <span data-ttu-id="bcd2b-108">Wilt u Microsoft Defender voor Eindpunt ervaren?</span><span class="sxs-lookup"><span data-stu-id="bcd2b-108">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="bcd2b-109">Meld u aan voor een gratis proefabonnement.</span><span class="sxs-lookup"><span data-stu-id="bcd2b-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+> <span data-ttu-id="fa6b5-108">Wilt u Microsoft Defender voor Eindpunt ervaren?</span><span class="sxs-lookup"><span data-stu-id="fa6b5-108">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="fa6b5-109">Meld u aan voor een gratis proefabonnement.</span><span class="sxs-lookup"><span data-stu-id="fa6b5-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
 
-## <a name="api-description"></a><span data-ttu-id="bcd2b-110">API-beschrijving</span><span class="sxs-lookup"><span data-stu-id="bcd2b-110">API description</span></span>
-<span data-ttu-id="bcd2b-111">Haalt een bestand [op id](files.md) Sha1 of Sha256 op</span><span class="sxs-lookup"><span data-stu-id="bcd2b-111">Retrieves a [File](files.md) by identifier Sha1, or Sha256</span></span>
+## <a name="api-description"></a><span data-ttu-id="fa6b5-110">API-beschrijving</span><span class="sxs-lookup"><span data-stu-id="fa6b5-110">API description</span></span>
+<span data-ttu-id="fa6b5-111">Haalt een bestand [op id](files.md) Sha1 of Sha256 op</span><span class="sxs-lookup"><span data-stu-id="fa6b5-111">Retrieves a [File](files.md) by identifier Sha1, or Sha256</span></span>
 
 
-## <a name="limitations"></a><span data-ttu-id="bcd2b-112">Beperkingen</span><span class="sxs-lookup"><span data-stu-id="bcd2b-112">Limitations</span></span>
-1. <span data-ttu-id="bcd2b-113">Tariefbeperkingen voor deze API zijn 100 oproepen per minuut en 1500 oproepen per uur.</span><span class="sxs-lookup"><span data-stu-id="bcd2b-113">Rate limitations for this API are 100 calls per minute and 1500 calls per hour.</span></span>
+## <a name="limitations"></a><span data-ttu-id="fa6b5-112">Beperkingen</span><span class="sxs-lookup"><span data-stu-id="fa6b5-112">Limitations</span></span>
+1. <span data-ttu-id="fa6b5-113">Tariefbeperkingen voor deze API zijn 100 oproepen per minuut en 1500 oproepen per uur.</span><span class="sxs-lookup"><span data-stu-id="fa6b5-113">Rate limitations for this API are 100 calls per minute and 1500 calls per hour.</span></span>
 
 
-## <a name="permissions"></a><span data-ttu-id="bcd2b-114">Machtigingen</span><span class="sxs-lookup"><span data-stu-id="bcd2b-114">Permissions</span></span>
-<span data-ttu-id="bcd2b-115">Een van de volgende machtigingen is vereist om deze API te bellen.</span><span class="sxs-lookup"><span data-stu-id="bcd2b-115">One of the following permissions is required to call this API.</span></span> <span data-ttu-id="bcd2b-116">Zie Microsoft Defender voor [eindpunt-API's](apis-intro.md) gebruiken voor meer informatie, inclusief het kiezen van machtigingen.</span><span class="sxs-lookup"><span data-stu-id="bcd2b-116">To learn more, including how to choose permissions, see [Use Microsoft Defender for Endpoint APIs](apis-intro.md)</span></span>
+## <a name="permissions"></a><span data-ttu-id="fa6b5-114">Machtigingen</span><span class="sxs-lookup"><span data-stu-id="fa6b5-114">Permissions</span></span>
+<span data-ttu-id="fa6b5-115">Een van de volgende machtigingen is vereist om deze API te bellen.</span><span class="sxs-lookup"><span data-stu-id="fa6b5-115">One of the following permissions is required to call this API.</span></span> <span data-ttu-id="fa6b5-116">Zie Microsoft Defender voor [eindpunt-API's](apis-intro.md) gebruiken voor meer informatie, inclusief het kiezen van machtigingen.</span><span class="sxs-lookup"><span data-stu-id="fa6b5-116">To learn more, including how to choose permissions, see [Use Microsoft Defender for Endpoint APIs](apis-intro.md)</span></span>
 
-<span data-ttu-id="bcd2b-117">Machtigingstype</span><span class="sxs-lookup"><span data-stu-id="bcd2b-117">Permission type</span></span> |   <span data-ttu-id="bcd2b-118">Machtiging</span><span class="sxs-lookup"><span data-stu-id="bcd2b-118">Permission</span></span>  |   <span data-ttu-id="bcd2b-119">Weergavenaam machtiging</span><span class="sxs-lookup"><span data-stu-id="bcd2b-119">Permission display name</span></span>
+<span data-ttu-id="fa6b5-117">Machtigingstype</span><span class="sxs-lookup"><span data-stu-id="fa6b5-117">Permission type</span></span> |   <span data-ttu-id="fa6b5-118">Machtiging</span><span class="sxs-lookup"><span data-stu-id="fa6b5-118">Permission</span></span>  |   <span data-ttu-id="fa6b5-119">Weergavenaam machtiging</span><span class="sxs-lookup"><span data-stu-id="fa6b5-119">Permission display name</span></span>
 :---|:---|:---
-<span data-ttu-id="bcd2b-120">Toepassing</span><span class="sxs-lookup"><span data-stu-id="bcd2b-120">Application</span></span> |   <span data-ttu-id="bcd2b-121">File.Read.All</span><span class="sxs-lookup"><span data-stu-id="bcd2b-121">File.Read.All</span></span> | <span data-ttu-id="bcd2b-122">'Alle bestandsprofielen lezen'</span><span class="sxs-lookup"><span data-stu-id="bcd2b-122">'Read all file profiles'</span></span>
-<span data-ttu-id="bcd2b-123">Gedelegeerd (werk- of schoolaccount)</span><span class="sxs-lookup"><span data-stu-id="bcd2b-123">Delegated (work or school account)</span></span> | <span data-ttu-id="bcd2b-124">File.Read.All</span><span class="sxs-lookup"><span data-stu-id="bcd2b-124">File.Read.All</span></span> |    <span data-ttu-id="bcd2b-125">'Alle bestandsprofielen lezen'</span><span class="sxs-lookup"><span data-stu-id="bcd2b-125">'Read all file profiles'</span></span>
+<span data-ttu-id="fa6b5-120">Toepassing</span><span class="sxs-lookup"><span data-stu-id="fa6b5-120">Application</span></span> |   <span data-ttu-id="fa6b5-121">File.Read.All</span><span class="sxs-lookup"><span data-stu-id="fa6b5-121">File.Read.All</span></span> | <span data-ttu-id="fa6b5-122">'Alle bestandsprofielen lezen'</span><span class="sxs-lookup"><span data-stu-id="fa6b5-122">'Read all file profiles'</span></span>
+<span data-ttu-id="fa6b5-123">Gedelegeerd (werk- of schoolaccount)</span><span class="sxs-lookup"><span data-stu-id="fa6b5-123">Delegated (work or school account)</span></span> | <span data-ttu-id="fa6b5-124">File.Read.All</span><span class="sxs-lookup"><span data-stu-id="fa6b5-124">File.Read.All</span></span> |    <span data-ttu-id="fa6b5-125">'Alle bestandsprofielen lezen'</span><span class="sxs-lookup"><span data-stu-id="fa6b5-125">'Read all file profiles'</span></span>
 
 >[!Note]
-> <span data-ttu-id="bcd2b-126">Bij het verkrijgen van een token met gebruikersreferenties:</span><span class="sxs-lookup"><span data-stu-id="bcd2b-126">When obtaining a token using user credentials:</span></span>
->- <span data-ttu-id="bcd2b-127">De gebruiker moet ten minste de volgende rolmachtiging hebben: 'Gegevens weergeven' [(Zie](user-roles.md) Rollen maken en beheren voor meer informatie)</span><span class="sxs-lookup"><span data-stu-id="bcd2b-127">The user needs to have at least the following role permission: 'View Data' (See [Create and manage roles](user-roles.md) for more information)</span></span>
+> <span data-ttu-id="fa6b5-126">Bij het verkrijgen van een token met gebruikersreferenties:</span><span class="sxs-lookup"><span data-stu-id="fa6b5-126">When obtaining a token using user credentials:</span></span>
+>- <span data-ttu-id="fa6b5-127">De gebruiker moet ten minste de volgende rolmachtiging hebben: 'Gegevens weergeven' [(Zie](user-roles.md) Rollen maken en beheren voor meer informatie)</span><span class="sxs-lookup"><span data-stu-id="fa6b5-127">The user needs to have at least the following role permission: 'View Data' (See [Create and manage roles](user-roles.md) for more information)</span></span>
 
-## <a name="http-request"></a><span data-ttu-id="bcd2b-128">HTTP-aanvraag</span><span class="sxs-lookup"><span data-stu-id="bcd2b-128">HTTP request</span></span>
+## <a name="http-request"></a><span data-ttu-id="fa6b5-128">HTTP-aanvraag</span><span class="sxs-lookup"><span data-stu-id="fa6b5-128">HTTP request</span></span>
 ```
 GET /api/files/{id}
 ```
 
-## <a name="request-headers"></a><span data-ttu-id="bcd2b-129">Kopteksten aanvragen</span><span class="sxs-lookup"><span data-stu-id="bcd2b-129">Request headers</span></span>
+## <a name="request-headers"></a><span data-ttu-id="fa6b5-129">Kopteksten aanvragen</span><span class="sxs-lookup"><span data-stu-id="fa6b5-129">Request headers</span></span>
 
-<span data-ttu-id="bcd2b-130">Naam</span><span class="sxs-lookup"><span data-stu-id="bcd2b-130">Name</span></span> | <span data-ttu-id="bcd2b-131">Type</span><span class="sxs-lookup"><span data-stu-id="bcd2b-131">Type</span></span> | <span data-ttu-id="bcd2b-132">Omschrijving</span><span class="sxs-lookup"><span data-stu-id="bcd2b-132">Description</span></span>
+<span data-ttu-id="fa6b5-130">Naam</span><span class="sxs-lookup"><span data-stu-id="fa6b5-130">Name</span></span> | <span data-ttu-id="fa6b5-131">Type</span><span class="sxs-lookup"><span data-stu-id="fa6b5-131">Type</span></span> | <span data-ttu-id="fa6b5-132">Beschrijving</span><span class="sxs-lookup"><span data-stu-id="fa6b5-132">Description</span></span>
 :---|:---|:---
-<span data-ttu-id="bcd2b-133">Autorisatie</span><span class="sxs-lookup"><span data-stu-id="bcd2b-133">Authorization</span></span> | <span data-ttu-id="bcd2b-134">Tekenreeks</span><span class="sxs-lookup"><span data-stu-id="bcd2b-134">String</span></span> | <span data-ttu-id="bcd2b-135">Bearer {token}.</span><span class="sxs-lookup"><span data-stu-id="bcd2b-135">Bearer {token}.</span></span> <span data-ttu-id="bcd2b-136">**Vereist**.</span><span class="sxs-lookup"><span data-stu-id="bcd2b-136">**Required**.</span></span>
+<span data-ttu-id="fa6b5-133">Autorisatie</span><span class="sxs-lookup"><span data-stu-id="fa6b5-133">Authorization</span></span> | <span data-ttu-id="fa6b5-134">Tekenreeks</span><span class="sxs-lookup"><span data-stu-id="fa6b5-134">String</span></span> | <span data-ttu-id="fa6b5-135">Bearer {token}.</span><span class="sxs-lookup"><span data-stu-id="fa6b5-135">Bearer {token}.</span></span> <span data-ttu-id="fa6b5-136">**Vereist**.</span><span class="sxs-lookup"><span data-stu-id="fa6b5-136">**Required**.</span></span>
 
 
-## <a name="request-body"></a><span data-ttu-id="bcd2b-137">Body aanvragen</span><span class="sxs-lookup"><span data-stu-id="bcd2b-137">Request body</span></span>
-<span data-ttu-id="bcd2b-138">Leeg</span><span class="sxs-lookup"><span data-stu-id="bcd2b-138">Empty</span></span>
+## <a name="request-body"></a><span data-ttu-id="fa6b5-137">Body aanvragen</span><span class="sxs-lookup"><span data-stu-id="fa6b5-137">Request body</span></span>
+<span data-ttu-id="fa6b5-138">Leeg</span><span class="sxs-lookup"><span data-stu-id="fa6b5-138">Empty</span></span>
 
-## <a name="response"></a><span data-ttu-id="bcd2b-139">Antwoord</span><span class="sxs-lookup"><span data-stu-id="bcd2b-139">Response</span></span>
-<span data-ttu-id="bcd2b-140">Als dit is gelukt en het bestand bestaat: 200 OK met [de bestandsentiteit](files.md) in de body.</span><span class="sxs-lookup"><span data-stu-id="bcd2b-140">If successful and file exists - 200 OK with the [file](files.md) entity in the body.</span></span> <span data-ttu-id="bcd2b-141">Als bestand niet bestaat- 404 Niet gevonden.</span><span class="sxs-lookup"><span data-stu-id="bcd2b-141">If file does not exist - 404 Not Found.</span></span>
+## <a name="response"></a><span data-ttu-id="fa6b5-139">Antwoord</span><span class="sxs-lookup"><span data-stu-id="fa6b5-139">Response</span></span>
+<span data-ttu-id="fa6b5-140">Als dit is gelukt en het bestand bestaat: 200 OK met [de bestandsentiteit](files.md) in de body.</span><span class="sxs-lookup"><span data-stu-id="fa6b5-140">If successful and file exists - 200 OK with the [file](files.md) entity in the body.</span></span> <span data-ttu-id="fa6b5-141">Als bestand niet bestaat- 404 Niet gevonden.</span><span class="sxs-lookup"><span data-stu-id="fa6b5-141">If file does not exist - 404 Not Found.</span></span>
 
 
-## <a name="example"></a><span data-ttu-id="bcd2b-142">Voorbeeld</span><span class="sxs-lookup"><span data-stu-id="bcd2b-142">Example</span></span>
+## <a name="example"></a><span data-ttu-id="fa6b5-142">Voorbeeld</span><span class="sxs-lookup"><span data-stu-id="fa6b5-142">Example</span></span>
 
-<span data-ttu-id="bcd2b-143">**Aanvraag**</span><span class="sxs-lookup"><span data-stu-id="bcd2b-143">**Request**</span></span>
+<span data-ttu-id="fa6b5-143">**Aanvraag**</span><span class="sxs-lookup"><span data-stu-id="fa6b5-143">**Request**</span></span>
 
-<span data-ttu-id="bcd2b-144">Hier is een voorbeeld van de aanvraag.</span><span class="sxs-lookup"><span data-stu-id="bcd2b-144">Here is an example of the request.</span></span>
+<span data-ttu-id="fa6b5-144">Hier is een voorbeeld van de aanvraag.</span><span class="sxs-lookup"><span data-stu-id="fa6b5-144">Here is an example of the request.</span></span>
 
 ```http
 GET https://api.securitycenter.microsoft.com/api/files/4388963aaa83afe2042a46a3c017ad50bdcdafb3
 ```
 
-<span data-ttu-id="bcd2b-145">**Antwoord**</span><span class="sxs-lookup"><span data-stu-id="bcd2b-145">**Response**</span></span>
+<span data-ttu-id="fa6b5-145">**Antwoord**</span><span class="sxs-lookup"><span data-stu-id="fa6b5-145">**Response**</span></span>
 
-<span data-ttu-id="bcd2b-146">Hier is een voorbeeld van het antwoord.</span><span class="sxs-lookup"><span data-stu-id="bcd2b-146">Here is an example of the response.</span></span>
+<span data-ttu-id="fa6b5-146">Hier is een voorbeeld van het antwoord.</span><span class="sxs-lookup"><span data-stu-id="fa6b5-146">Here is an example of the response.</span></span>
 
 
 ```json
