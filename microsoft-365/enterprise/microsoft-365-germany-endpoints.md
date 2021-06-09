@@ -1,5 +1,5 @@
 ---
-title: Office 365-eindpunten voor Duitsland
+title: Office 365 eindpunten voor Duitsland
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -18,7 +18,7 @@ ms.custom:
 - seo-marvel-apr2020
 search.appverid: MOE150
 ms.assetid: 8a113a50-0071-4155-bb8e-eba5a8dbd4c8
-description: In dit artikel vindt u eindpunten die bereikbaar zijn voor klanten die Office 365 gebruiken in Duitsland.
+description: In dit artikel vindt u eindpunten die bereikbaar zijn voor klanten met Office 365 in Duitsland.
 hideEdit: true
 ms.openlocfilehash: 0d96300e77c67ac05ea18ab23d63c01d4f840dfb
 ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
@@ -29,15 +29,15 @@ ms.locfileid: "51759892"
 ---
 # <a name="office-365-germany-endpoints"></a>Office 365 eindpunten Germany-eindpunten
 
- *Van toepassing op: Office 365-beheerder*
+ *Van toepassing op: Office 365 Admin*
 
-Office 365 vereist verbinding met internet. De onderstaande eindpunten moeten bereikbaar zijn voor klanten die alleen **Office 365 Germany-abonnementen** gebruiken.
+Office 365 vereist verbinding met internet. De onderstaande eindpunten moeten bereikbaar zijn voor klanten die alleen Office 365 **Duitsland-abonnementen** gebruiken.
 
 > [!NOTE]
-> Voor klanten die in de overgang naar de nieuwe Microsoft 365-datacenterregio in Duitsland zitten, worden de eindpunten gewijzigd.
-> Zie Migratie van [Microsoft Cloud Deutschland naar Office 365-services in](ms-cloud-germany-transition.md)de nieuwe Duitse datacenterregio's voor meer informatie.
+> Voor klanten die in de overgang naar de nieuwe Microsoft 365 datacenterregio in Duitsland staan, worden de eindpunten gewijzigd.
+> Zie Migratie van Microsoft Cloud Deutschland naar Office 365 in de nieuwe Duitse [datacenterregio's voor](ms-cloud-germany-transition.md)meer informatie.
   
- **Office 365-eindpunten:** Wereldwijd [(inclusief GCC)](urls-and-ip-address-ranges.md)Office 365 beheerd door   |  [21 Vianet](urls-and-ip-address-ranges-21vianet.md)   |  *Office 365 Germany* Office  |  [365 U.S. Government DoD](microsoft-365-u-s-government-dod-endpoints.md)Office  |  [365 U.S. Government GCC High](microsoft-365-u-s-government-gcc-high-endpoints.md)  |
+ **Office 365 eindpunten:** [Worldwide (including GCC)](urls-and-ip-address-ranges.md)Office 365 operated   |  [by 21 Vianet](urls-and-ip-address-ranges-21vianet.md)Office 365   |  *Germany*  |  [Office 365 U.S. Government DoD](microsoft-365-u-s-government-dod-endpoints.md)Office 365  |  [U.S. Government GCC High](microsoft-365-u-s-government-gcc-high-endpoints.md)  |
   
 |||
 |:-----|:-----|

@@ -1,5 +1,5 @@
 ---
-title: Netwerkaanvragen in Office voor Mac
+title: Netwerkverzoeken in Office voor Mac
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -16,7 +16,7 @@ ms.custom:
 - seo-marvel-apr2020
 search.appverid: MOM160
 ms.assetid: afdae969-4046-44b9-9adb-f1bab216414b
-description: In dit artikel wordt beschreven welke eindpunten en Url's Office voor Mac-toepassingen willen bereiken en welke services beschikbaar zijn.
+description: In dit artikel wordt beschreven welke eindpunten en URL's Office voor Mac toepassingen proberen te bereiken en welke services worden geleverd.
 ms.openlocfilehash: b777b4ea7e03495cb6389be8fe05e96a26fd9664
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
@@ -24,12 +24,12 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 08/14/2020
 ms.locfileid: "46689265"
 ---
-# <a name="network-requests-in-office-for-mac"></a>Netwerkaanvragen in Office voor Mac
+# <a name="network-requests-in-office-for-mac"></a>Netwerkverzoeken in Office voor Mac
 
-Office voor Mac-toepassingen bieden een ingebouwde app-ervaring op het macOS-platform. Elke app is ontworpen voor gebruik in diverse scenario's, waaronder Staten waarbij geen netwerktoegang beschikbaar is. Wanneer een computer is verbonden met een netwerk, kunnen de toepassingen automatisch verbinding maken met een reeks webservices om uitgebreide functionaliteit te geven. In de volgende informatie wordt beschreven welke eindpunten en Url's de toepassingen willen bereiken en welke services beschikbaar zijn. Deze informatie is nuttig voor het oplossen van problemen met de netwerkconfiguratie en het instellen van beleid voor netwerkproxy servers. De informatie in dit artikel is bedoeld om het [artikel Office 365 URL en](urls-and-ip-address-ranges.md)adresbereiken aan te vullen, waaronder eindpunten voor computers met Microsoft Windows. Tenzij anders wordt vermeld, is de informatie in dit artikel ook van toepassing op Office 2019 voor Mac en Office 2016 voor Mac, dat beschikbaar is als eenmalige aankoop vanuit een winkel of via een Volume Licensing Agreement. 
+Office voor Mac-toepassingen bieden een native app-ervaring op het macOS-platform. Elke app is ontworpen om te werken in verschillende scenario's, waaronder staten waarin er geen netwerktoegang beschikbaar is. Wanneer een computer is verbonden met een netwerk, maken de toepassingen automatisch verbinding met een reeks webservices om verbeterde functionaliteit te bieden. In de volgende informatie wordt beschreven welke eindpunten en URL's de toepassingen proberen te bereiken en welke services worden geleverd. Deze informatie is handig bij het oplossen van problemen met netwerkconfiguratie en het instellen van beleid voor netwerkproxyservers. De details in dit artikel zijn bedoeld als aanvulling op [het artikel Office 365 URL](urls-and-ip-address-ranges.md)en adresbereiken, dat eindpunten bevat voor computers met Microsoft Windows. Tenzij vermeld, is de informatie in dit artikel ook van toepassing op Office 2019 voor Mac en Office 2016 voor Mac, die beschikbaar zijn als een een-time aankoop in een winkel of via een volumelicentieovereenkomst. 
 
   
-In het meeste van dit artikel vindt u tabellen waarin de netwerk-Url's, typen en beschrijvingen van de service of functie van dit eindpunt worden beschreven. Elk van de Office-apps kan verschillen van de service en het gebruik van het eindpunt. In de volgende tabellen worden de volgende apps gedefinieerd:
+Het grootste deel van dit artikel bestaat uit tabellen met informatie over netwerk-URL's, het type en de beschrijving van de service of functie die door dat eindpunt wordt geleverd. Elk van de Office apps kan verschillen in de service en het gebruik van eindpunten. De volgende apps worden gedefinieerd in de onderstaande tabellen:
   
 - W: Word
 - P: PowerPoint
@@ -39,215 +39,215 @@ In het meeste van dit artikel vindt u tabellen waarin de netwerk-Url's, typen en
    
 Het type URL wordt als volgt gedefinieerd:
   
-- ST: statisch-de URL is hard gecodeerd in de clienttoepassing.
+- ST: Statisch: de URL wordt hard gecodeerd in de clienttoepassing.
     
-- SS: semi-statisch-de URL is gecodeerd als onderdeel van een webpagina of redirector.
+- SS: Semi-Static - De URL wordt gecodeerd als onderdeel van een webpagina of omleiding.
     
-- CS: config service-de URL wordt geretourneerd als onderdeel van de Office Configuration service.
+- CS: Config-service: de URL wordt geretourneerd als onderdeel van Office Configuratieservice.
 
     
-## <a name="office-for-mac-default-configuration"></a>Standaardconfiguratie van Office voor Mac
+## <a name="office-for-mac-default-configuration"></a>Office voor Mac standaardconfiguratie
 
  **Installatie en updates**
   
-De volgende netwerkeindpunten worden gebruikt om het installatieprogramma voor Office voor Mac te downloaden van Microsoft CDN (Content Delivery Network).
+De volgende netwerk-eindpunten worden gebruikt om het Office voor Mac te downloaden van de Microsoft-Content Delivery Network (CDN).
   
 |**URL**|**Type**|**Beschrijving**|
 |:-----|:-----|:-----|
-|```https://go.microsoft.com/fwlink/```  <br/> |KT  <br/> |Microsoft 365-installatie Portal forward link-service naar de nieuwste installatiepakketten.  <br/> |
-|```https://officecdn-microsoft-com.akamaized.net/```  <br/> |VEREFFEN  <br/> |Locatie van installatiepakketten op het Content Delivery Network.  <br/> |
-|```https://officecdn.microsoft.com/```  <br/> |VEREFFEN  <br/> |Locatie van installatiepakketten op het Content Delivery Network.  <br/> |
-|```https://officeci-mauservice.azurewebsites.net/```  <br/> |KT  <br/> |Beheer van het beheerpunt voor Microsoft AutoUpdate  <br/> |
+|```https://go.microsoft.com/fwlink/```  <br/> |ST  <br/> |Microsoft 365 Installatieportal doorgestuurde koppelingsservice naar meest recente installatiepakketten.  <br/> |
+|```https://officecdn-microsoft-com.akamaized.net/```  <br/> |SS  <br/> |Locatie van installatiepakketten op de Content Delivery Network.  <br/> |
+|```https://officecdn.microsoft.com/```  <br/> |SS  <br/> |Locatie van installatiepakketten op de Content Delivery Network.  <br/> |
+|```https://officeci-mauservice.azurewebsites.net/```  <br/> |ST  <br/> |Eindpunt beheerbeheer voor Microsoft AutoUpdate  <br/> |
    
- **Eerste keer starten van app**
+ **Eerste app-start**
   
-De volgende netwerkeindpunten worden bij de eerste keer starten van een Office-app contact opgenomen. Deze eindpunten zorgen voor uitgebreide Office-functionaliteit voor gebruikers en de Url's worden opgenomen, ongeacht het type licentie (inclusief volume licentie-installaties).
+Er wordt contact opgenomen met de volgende netwerk-eindpunten bij de eerste start van een Office-app. Deze eindpunten bieden verbeterde Office functionaliteit voor gebruikers en er wordt contact opgenomen met de URL's, ongeacht het licentietype (inclusief installaties voor volumelicenties).
   
-|**URL**|**Cloud**|**Type**|**Beschrijving**|
+|**URL**|**Apps**|**Type**|**Beschrijving**|
 |:-----|:-----|:-----|:-----|
-|```https://config.edge.skype.com/```  <br/> |WXPON  <br/> |KT  <br/> |' Flighting ', zodat u zich kunt uitlichten en experimenteert.  <br/> |
-|```https://ocos-office365-s2s.msedge.net/```  <br/> |WXPON  <br/> |KT  <br/> |Test voor netwerkconfiguratie van flighting  <br/> |
-|```https://client-office365-tas.msedge.net/```  <br/> |WXPON  <br/> |KT  <br/> |Test voor netwerkconfiguratie van flighting  <br/> |
-|```https://officeclient.microsoft.com/```  <br/> |WXPON  <br/> |KT  <br/> |Office Configuration service: hoofdlijst met Service-eindpunten.  <br/> |
-|```https://nexusrules.officeapps.live.com/```  <br/> |WXPON  <br/> |KT  <br/> |Office-regels voor telemetrie downloaden: informeert de client over welke gegevens en gebeurtenissen moeten worden geüpload naar de telemetrie-service.  <br/> |
-|```https://mobile.pipe.aria.microsoft.com/```  <br/> |P  <br/> |Support  <br/> |OneNote-telemetrie-service  <br/> |
-|```https://nexus.officeapps.live.com/```  <br/> |WXPON  <br/> |KT  <br/> |Office Telemetry upload-rapporten: ' heartbeat ' en foutgebeurtenissen die optreden op de client worden geüpload naar de telemetrie-service.  <br/> |
-|```https://templateservice.office.com/```  <br/> |WXP  <br/> |Support  <br/> |Office-sjabloon service: biedt gebruikers met online documentsjablonen.  <br/> |
-|```https://omextemplates.content.office.net/```  <br/> |WXP  <br/> |Support  <br/> |Downloads van Office-sjablonen: opslag van PNG-sjabloon afbeeldingen.  <br/> |
-|```https://store.office.com/```  <br/> |WXP  <br/> |Support  <br/> |Store-configuratie voor Office-apps.  <br/> |
-|```https://odc.officeapps.live.com/```  <br/> |WXPN  <br/> |Support  <br/> |Catalogus van Office document Integration Services (lijst met Services en eindpunten) en voor thuis-realm-detectie.  <br/> |
-|```https://cdn.odc.officeapps.live.com/```  <br/> |WXPON  <br/> |Support  <br/> |Bronnen voor thuis-realm-detectie v2 (15,40 en hoger)  <br/> |
-|```https://officecdn.microsoft.com/```  <br/> |WXPON  <br/> |KT  <br/> |Microsoft AutoUpdate-manifesten: Hiermee wordt gecontroleerd of er updates beschikbaar zijn  <br/> |
-|```https://ajax.aspnetcdn.com/```  <br/> |WXPO  <br/> |VEREFFEN  <br/> |Microsoft AJAX JavaScript-bibliotheek  <br/> |
-|```https://wikipedia.firstpartyapps.oaspapps.com/```  <br/> |W  <br/> |VEREFFEN  <br/> |Wikipedia-app voor Office-configuratie en-bronnen.  <br/> |
-|```https://excelbingmap.firstpartyapps.oaspapps.com/```  <br/> |X  <br/> |VEREFFEN  <br/> |Bing Kaarten-app voor Office-configuratie en-bronnen.  <br/> |
-|```https://peoplegraph.firstpartyapps.oaspapps.com/```  <br/> |X  <br/> |VEREFFEN  <br/> |De app personen Graph voor Office-configuratie en-bronnen.  <br/> |
-|```https://www.onenote.com/```  <br/> |P  <br/> |KT  <br/> |Wat is de nieuwe inhoud voor OneNote.  <br/> |
-|```https://site-cdn.onenote.net/```  <br/> |P  <br/> |KT  <br/> |Nieuwe inhoud voor OneNote.  <br/> |
-|```https://site-cdn.onenote.net/```  <br/> |P  <br/> |VEREFFEN  <br/> |Nieuwe afbeeldingen voor OneNote  <br/> |
-|```https://acompli.helpshift.com/```  <br/> |W  <br/> |KT  <br/> |In-app-ondersteunings service.  <br/> |
-|```https://prod-global-autodetect.acompli.net/```  <br/> |W  <br/> |KT  <br/> |Detectie service voor e-mailaccounts.  <br/> |
-|```https://autodiscover-s.outlook.com/```  <br/> |WXPO  <br/> |KT  <br/> |Automatisch opsporen van Outlook  <br/> |
-|```https://outlook.office365.com/```  <br/> |WXPO  <br/> |KT  <br/> |Outlook-eindpunt voor Microsoft 365-service.  <br/> |
-|```https://r1.res.office365.com/```  <br/> |W  <br/> |KT  <br/> |Pictogrammen voor Outlook-invoegtoepassingen.  <br/> |
+|```https://config.edge.skype.com/```  <br/> |WXPON  <br/> |ST  <br/> |'Flighting'-configuratie: hiermee kunt u functies oplichten en experimenteren.  <br/> |
+|```https://ocos-office365-s2s.msedge.net/```  <br/> |WXPON  <br/> |ST  <br/> |'Flighting' Network Configuration Test  <br/> |
+|```https://client-office365-tas.msedge.net/```  <br/> |WXPON  <br/> |ST  <br/> |'Flighting' Network Configuration Test  <br/> |
+|```https://officeclient.microsoft.com/```  <br/> |WXPON  <br/> |ST  <br/> |Office Configuratieservice : hoofdlijst met service-eindpunten.  <br/> |
+|```https://nexusrules.officeapps.live.com/```  <br/> |WXPON  <br/> |ST  <br/> |Office Regels Telemetrie downloaden: informeert de client over welke gegevens en gebeurtenissen moeten worden geüpload naar de telemetrieservice.  <br/> |
+|```https://mobile.pipe.aria.microsoft.com/```  <br/> |N  <br/> |CS  <br/> |OneNote Telemetrieservice  <br/> |
+|```https://nexus.officeapps.live.com/```  <br/> |WXPON  <br/> |ST  <br/> |Office Telemetrie Upload Reporting - 'Heartbeart' en foutgebeurtenissen die zich voordoen op de client, worden geüpload naar de telemetrieservice.  <br/> |
+|```https://templateservice.office.com/```  <br/> |WXP  <br/> |CS  <br/> |Office Sjabloonservice: biedt gebruikers online documentsjablonen.  <br/> |
+|```https://omextemplates.content.office.net/```  <br/> |WXP  <br/> |CS  <br/> |Office Sjablonen Downloads - Storage van PNG-sjabloonafbeeldingen.  <br/> |
+|```https://store.office.com/```  <br/> |WXP  <br/> |CS  <br/> |Store-configuratie voor Office apps.  <br/> |
+|```https://odc.officeapps.live.com/```  <br/> |WXPN  <br/> |CS  <br/> |Office Document Integration Services Catalog (lijst met services en eindpunten) en Home Realm Discovery.  <br/> |
+|```https://cdn.odc.officeapps.live.com/```  <br/> |WXPON  <br/> |CS  <br/> |Resources voor Home Realm Discovery v2 (15,40 en hoger)  <br/> |
+|```https://officecdn.microsoft.com/```  <br/> |WXPON  <br/> |ST  <br/> |Microsoft AutoUpdate-manifesten : controleert of er updates beschikbaar zijn  <br/> |
+|```https://ajax.aspnetcdn.com/```  <br/> |WXPO  <br/> |SS  <br/> |Microsoft Ajax JavaScript-bibliotheek  <br/> |
+|```https://wikipedia.firstpartyapps.oaspapps.com/```  <br/> |W  <br/> |SS  <br/> |Wikipedia-app voor Office configuratie en resources.  <br/> |
+|```https://excelbingmap.firstpartyapps.oaspapps.com/```  <br/> |X  <br/> |SS  <br/> |Bing Kaart-app voor Office en resources.  <br/> |
+|```https://peoplegraph.firstpartyapps.oaspapps.com/```  <br/> |X  <br/> |SS  <br/> |Personen Graph app voor Office en resources.  <br/> |
+|```https://www.onenote.com/```  <br/> |N  <br/> |ST  <br/> |Wat is nieuwe inhoud voor OneNote.  <br/> |
+|```https://site-cdn.onenote.net/```  <br/> |N  <br/> |ST  <br/> |Nieuwe inhoud voor OneNote.  <br/> |
+|```https://site-cdn.onenote.net/```  <br/> |N  <br/> |SS  <br/> |Wat zijn nieuwe afbeeldingen voor OneNote.  <br/> |
+|```https://acompli.helpshift.com/```  <br/> |O  <br/> |ST  <br/> |Ondersteuningsservice in de app.  <br/> |
+|```https://prod-global-autodetect.acompli.net/```  <br/> |O  <br/> |ST  <br/> |E-mailaccountdetectieservice.  <br/> |
+|```https://autodiscover-s.outlook.com/```  <br/> |WXPO  <br/> |ST  <br/> |Outlook AutoDiscovery  <br/> |
+|```https://outlook.office365.com/```  <br/> |WXPO  <br/> |ST  <br/> |Outlook eindpunt voor Microsoft 365 service.  <br/> |
+|```https://r1.res.office365.com/```  <br/> |O  <br/> |ST  <br/> |Pictogrammen voor Outlook invoegvoegingen.  <br/> |
    
 > [!NOTE]
-> De Office-configuratie service fungeert als een service voor automatische detectie voor alle Microsoft Office-clients, niet alleen voor Mac. De eindpunten die in het antwoord worden geretourneerd, zijn semi-statisch in die wijziging, maar wel mogelijk. 
+> De Office Configuration Service fungeert als een automatische detectieservice voor alle Microsoft Office clients, niet alleen voor Mac. De eindpunten die in het antwoord worden geretourneerd, zijn semi-statisch, omdat de wijziging zeer zeldzaam is, maar nog steeds mogelijk is. 
   
  **Aanmelden**
   
-Voor de volgende netwerkeindpunten wordt contact opgenomen wanneer u zich aanmeldt bij de opslag in de Cloud. Afhankelijk van uw accounttype kan u contact opnemen met andere services. Bijvoorbeeld:
+Er wordt contact opgenomen met de volgende netwerk-eindpunten wanneer u zich aanmeldt bij cloudopslag. Afhankelijk van uw accounttype kan er contact worden opgenomen met verschillende services. Bijvoorbeeld:
   
-- **MSA: Microsoft-account:** wordt meestal gebruikt voor scenario's met consumenten en detailhandel 
+- **MSA: Microsoft-account** - meestal gebruikt voor scenario's voor consumenten en detailhandel 
     
-- **OrgID: organisatie account:** wordt meestal gebruikt voor commerciële scenario's 
+- **OrgID: Organisatieaccount** - meestal gebruikt voor commerciële scenario's 
     
-|**URL**|**Cloud**|**Type**|**Beschrijving**|
+|**URL**|**Apps**|**Type**|**Beschrijving**|
 |:-----|:-----|:-----|:-----|
-|```https://login.windows.net/```  <br/> |WXPON  <br/> |KT  <br/> |Windows-autorisatie service  <br/> |
-|```https://login.microsoftonline.com/```  <br/> |WXPON  <br/> |KT  <br/> |Microsoft 365-login service (OrgID)  <br/> |
-|```https://login.live.com/```  <br/> |WXPON  <br/> |KT  <br/> |Inlog service voor Microsoft-accounts (MSA)  <br/> |
-|```https://auth.gfx.ms/```  <br/> |WXPON  <br/> |Support  <br/> |Helper voor Microsoft-account login service (MSA)  <br/> |
-|```https://secure.aadcdn.microsoftonline-p.com/```  <br/> |WXPON  <br/> |VEREFFEN  <br/> |Microsoft 365-huisstijl aanmelding (OrgID)  <br/> |
-|```https://ocws.officeapps.live.com/```  <br/> |WXPN  <br/> |Support  <br/> |Locator voor opslag van documenten en locaties  <br/> |
-|```https://roaming.officeapps.live.com/```  <br/> |WXPN  <br/> |Support  <br/> |De MRU-documentservice (most recently used)  <br/> |
+|```https://login.windows.net/```  <br/> |WXPON  <br/> |ST  <br/> |Windows Autorisatieservice  <br/> |
+|```https://login.microsoftonline.com/```  <br/> |WXPON  <br/> |ST  <br/> |Microsoft 365 Aanmeldingsservice (OrgID)  <br/> |
+|```https://login.live.com/```  <br/> |WXPON  <br/> |ST  <br/> |Microsoft Account Login Service (MSA)  <br/> |
+|```https://auth.gfx.ms/```  <br/> |WXPON  <br/> |CS  <br/> |Microsoft Account Login Service Helper (MSA)  <br/> |
+|```https://secure.aadcdn.microsoftonline-p.com/```  <br/> |WXPON  <br/> |SS  <br/> |Microsoft 365 Login Branding (OrgID)  <br/> |
+|```https://ocws.officeapps.live.com/```  <br/> |WXPN  <br/> |CS  <br/> |Document en locaties Storage Locator  <br/> |
+|```https://roaming.officeapps.live.com/```  <br/> |WXPN  <br/> |CS  <br/> |Meest recent gebruikte documentservice (MRU)  <br/> |
    
 > [!NOTE]
-> Als u een abonnement hebt op basis van abonnementen en een licentie, meldt u zich aan bij het activeren van het product en schakelt u de toegang tot Cloud bronnen zoals OneDrive. Bij installaties van volume licenties wordt gebruikers nog steeds gevraagd zich aan te melden (standaard), maar dit is alleen vereist voor de toegang tot Cloud bronnen, aangezien het product al is geactiveerd. 
+> Voor abonnements- en detailhandelslicenties activeert u het product door u aan te melden en kunt u toegang krijgen tot cloudresources, zoals OneDrive. Voor installaties met volumelicenties worden gebruikers nog steeds gevraagd zich (standaard) aan te melden, maar dat is alleen vereist voor toegang tot cloudbronnen, omdat het product al is geactiveerd. 
   
- **Product activering**
+ **Productactivering**
   
-De volgende netwerkeindpunten zijn van toepassing op activeringen van Microsoft 365-abonnement en voor handels producten. Dit geldt met name niet voor installaties van volume licenties.
+De volgende netwerk-eindpunten zijn van toepassing op Microsoft 365 activeringen van abonnementen en retaillicenties. Dit geldt met name niet voor installaties met volumelicenties.
   
-|**URL**|**Cloud**|**Type**|**Beschrijving**|
+|**URL**|**Apps**|**Type**|**Beschrijving**|
 |:-----|:-----|:-----|:-----|
-|```https://ols.officeapps.live.com/```  <br/> |WXPON  <br/> |Support  <br/> |Office Licensing-service  <br/> |
+|```https://ols.officeapps.live.com/```  <br/> |WXPON  <br/> |CS  <br/> |Office Licentieservice  <br/> |
    
- **Inhoud van nieuwe functies**
+ **Nieuwe inhoud**
   
-De volgende netwerkeindpunten zijn alleen van toepassing op Microsoft 365-abonnementen.
+De volgende netwerk-eindpunten zijn alleen van toepassing Microsoft 365 abonnement.
   
-|**URL**|**Cloud**|**Type**|**Beschrijving**|
+|**URL**|**Apps**|**Type**|**Beschrijving**|
 |:-----|:-----|:-----|:-----|
-|```https://contentstorage.osi.office.net/```  <br/> |WXPO  <br/> |VEREFFEN  <br/> |Wat is de nieuwe inhoud van de JSON-pagina.  <br/> |
+|```https://contentstorage.osi.office.net/```  <br/> |WXPO  <br/> |SS  <br/> |Wat is nieuwe JSON-pagina-inhoud.  <br/> |
    
  **Onderzoeker**
   
-De volgende netwerkeindpunten zijn alleen van toepassing op Microsoft 365-abonnementen.
+De volgende netwerk-eindpunten zijn alleen van toepassing Microsoft 365 abonnement.
   
-|**URL**|**Cloud**|**Type**|**Beschrijving**|
+|**URL**|**Apps**|**Type**|**Beschrijving**|
 |:-----|:-----|:-----|:-----|
-|```https://entity.osi.office.net/```  <br/> |W  <br/> |Support  <br/> |Service voor onderzoeker  <br/> |
-|```https://cdn.entity.osi.office.net/```  <br/> |W  <br/> |Support  <br/> |Onderzoek statische inhoud  <br/> |
-|```https://www.bing.com/```  <br/> |W  <br/> |Support  <br/> |Onderzoeker-inhouds provider  <br/> |
+|```https://entity.osi.office.net/```  <br/> |W  <br/> |CS  <br/> |Researcher Web Service  <br/> |
+|```https://cdn.entity.osi.office.net/```  <br/> |W  <br/> |CS  <br/> |Statische inhoud van onderzoeker  <br/> |
+|```https://www.bing.com/```  <br/> |W  <br/> |CS  <br/> |Onderzoeker-inhoudsprovider  <br/> |
    
  **Slim zoeken**
   
-De volgende netwerkeindpunten zijn van toepassing op activeringen van zowel Microsoft 365-abonnement als voor handels-en volume licenties.
+De volgende netwerk-eindpunten zijn van toepassing op zowel Microsoft 365 abonnementen als retail-/volumelicentieactiveringen.
   
-|**URL**|**Cloud**|**Type**|**Beschrijving**|
+|**URL**|**Apps**|**Type**|**Beschrijving**|
 |:-----|:-----|:-----|:-----|
-|```https://uci.officeapps.live.com/```  <br/> |WXPN  <br/> |Support  <br/> |Inzichten-webservice  <br/> |
-|```https://ajax.googleapis.com/```  <br/> |WXPN  <br/> |Support  <br/> |JQuery-bibliotheek  <br/> |
-|```https://cdnjs.cloudflare.com/```  <br/> |WXPN  <br/> |Support  <br/> |Ondersteunende JavaScript-bibliotheek  <br/> |
-|```https://www.bing.com/```  <br/> |WXPN  <br/> |Support  <br/> |Inzicht inhouds provider  <br/> |
-|```https://tse1.mm.bing.net/```  <br/> |WXPN  <br/> |Support  <br/> |Inzicht inhouds provider  <br/> |
+|```https://uci.officeapps.live.com/```  <br/> |WXPN  <br/> |CS  <br/> |Insights Web Service  <br/> |
+|```https://ajax.googleapis.com/```  <br/> |WXPN  <br/> |CS  <br/> |JQuery-bibliotheek  <br/> |
+|```https://cdnjs.cloudflare.com/```  <br/> |WXPN  <br/> |CS  <br/> |Ondersteuning voor JavaScript-bibliotheek  <br/> |
+|```https://www.bing.com/```  <br/> |WXPN  <br/> |CS  <br/> |Insights Content Provider  <br/> |
+|```https://tse1.mm.bing.net/```  <br/> |WXPN  <br/> |CS  <br/> |Insights Content Provider  <br/> |
    
  **PowerPoint Designer**
   
-De volgende netwerkeindpunten zijn alleen van toepassing op Microsoft 365-abonnementen.
+De volgende netwerk-eindpunten zijn alleen van toepassing Microsoft 365 abonnement.
   
-|**URL**|**Cloud**|**Type**|**Beschrijving**|
+|**URL**|**Apps**|**Type**|**Beschrijving**|
 |:-----|:-----|:-----|:-----|
-|```https://pptsgs.officeapps.live.com/```  <br/> |P  <br/> |Support  <br/> |PowerPoint Designer-webservice  <br/> |
+|```https://pptsgs.officeapps.live.com/```  <br/> |P  <br/> |CS  <br/> |PowerPoint Designer webservice  <br/> |
    
  **PowerPoint QuickStarter**
   
-De volgende netwerkeindpunten zijn alleen van toepassing op Microsoft 365-abonnementen.
+De volgende netwerk-eindpunten zijn alleen van toepassing Microsoft 365 abonnement.
   
-|**URL**|**Cloud**|**Type**|**Beschrijving**|
+|**URL**|**Apps**|**Type**|**Beschrijving**|
 |:-----|:-----|:-----|:-----|
-|```https://pptcts.officeapps.live.com/```  <br/> |P  <br/> |Support  <br/> |PowerPoint Quick Service-webservice  <br/> |
+|```https://pptcts.officeapps.live.com/```  <br/> |P  <br/> |CS  <br/> |PowerPoint QuickStarter-webservice  <br/> |
    
- **Glimlach/frons verzenden**
+ **Een glimlach/frons verzenden**
   
-De volgende netwerkeindpunten zijn van toepassing op activeringen van zowel Microsoft 365-abonnement als voor handels-en volume licenties.
+De volgende netwerk-eindpunten zijn van toepassing op zowel Microsoft 365 abonnementen als retail-/volumelicentieactiveringen.
   
-|**URL**|**Cloud**|**Type**|**Beschrijving**|
+|**URL**|**Apps**|**Type**|**Beschrijving**|
 |:-----|:-----|:-----|:-----|
-|```https://sas.office.microsoft.com/```  <br/> |WXPON  <br/> |Support  <br/> |Een glimlach-service verzenden  <br/> |
+|```https://sas.office.microsoft.com/```  <br/> |WXPON  <br/> |CS  <br/> |Een glimlachservice verzenden  <br/> |
    
  **Contact opnemen met ondersteuning**
   
-De volgende netwerkeindpunten zijn van toepassing op activeringen van zowel Microsoft 365-abonnement als voor handels-en volume licenties.
+De volgende netwerk-eindpunten zijn van toepassing op zowel Microsoft 365 abonnementen als retail-/volumelicentieactiveringen.
   
-|**URL**|**Cloud**|**Type**|**Beschrijving**|
+|**URL**|**Apps**|**Type**|**Beschrijving**|
 |:-----|:-----|:-----|:-----|
-|```https://powerlift-frontdesk.acompli.net/```  <br/> |W  <br/> |Support  <br/> |Neem contact op met ondersteunings service  <br/> |
-|```https://acompli.helpshift.com/```  <br/> |W  <br/> |Support  <br/> |In-app-ondersteunings service  <br/> |
+|```https://powerlift-frontdesk.acompli.net/```  <br/> |O  <br/> |CS  <br/> |Contact opnemen met ondersteuningsservice  <br/> |
+|```https://acompli.helpshift.com/```  <br/> |O  <br/> |CS  <br/> |Ondersteuningsservice in de app  <br/> |
    
  **Opslaan als PDF**
   
-De volgende netwerkeindpunten zijn van toepassing op activeringen van zowel Microsoft 365-abonnement als voor handels-en volume licenties.
+De volgende netwerk-eindpunten zijn van toepassing op zowel Microsoft 365 abonnementen als retail-/volumelicentieactiveringen.
   
-|**URL**|**Cloud**|**Type**|**Beschrijving**|
+|**URL**|**Apps**|**Type**|**Beschrijving**|
 |:-----|:-----|:-----|:-----|
-|```https://wordcs.officeapps.live.com/```  <br/> |W  <br/> |Support  <br/> |Word document Conversion Service (PDF)  <br/> |
+|```https://wordcs.officeapps.live.com/```  <br/> |W  <br/> |CS  <br/> |Word-documentconversieservice (PDF)  <br/> |
    
- **Office-apps (aka invoegtoepassingen)**
+ **Office Apps (ook wel invoegingen)**
   
-De volgende netwerkeindpunten zijn van toepassing op activeringen van Microsoft 365-abonnement en detailhandel/volume licenties wanneer Office-app-invoegtoepassingen worden vertrouwd.
+De volgende netwerk-eindpunten zijn van toepassing op zowel Microsoft 365 abonnementen als retail-/volumelicentieactiveringen wanneer Office app-invoegingen worden vertrouwd.
   
-|**URL**|**Cloud**|**Type**|**Beschrijving**|
+|**URL**|**Apps**|**Type**|**Beschrijving**|
 |:-----|:-----|:-----|:-----|
-|```https://store.office.com/```  <br/> |WXPO  <br/> |Support  <br/> |Configuratie van Office App Store  <br/> |
-|```https://wikipedia.firstpartyapps.oaspapps.com/```  <br/> |W  <br/> |VEREFFEN  <br/> |Bronnen voor Wikipedia-app  <br/> |
-|```https://excelbingmap.firstpartyapps.oaspapps.com/```  <br/> |X  <br/> |VEREFFEN  <br/> |Bronnen Bing Kaarten-app  <br/> |
-|```https://peoplegraph.firstpartyapps.oaspapps.com```  <br/> |X  <br/> |VEREFFEN  <br/> |Bronnen voor app personen grafiek  <br/> |
-|```https://o15.officeredir.microsoft.com/```  <br/> |WPX  <br/> |VEREFFEN  <br/> |Office-omleidings service  <br/> |
-|```https://appsforoffice.microsoft.com/```  <br/> |WXP  <br/> |VEREFFEN  <br/> |Office JavaScript-bibliotheken  <br/> |
-|```https://telemetry.firstpartyapps.oaspapps.com/```  <br/> |WX  <br/> |VEREFFEN  <br/> |Telemetry and Reporting service voor Office-apps  <br/> |
-|```https://ajax.microsoft.com/```  <br/> |W  <br/> |VEREFFEN  <br/> |Microsoft AJAX JavaScript-bibliotheek  <br/> |
-|```https://ajax.aspnetcdn.com/```  <br/> |X  <br/> |VEREFFEN  <br/> |Microsoft AJAX JavaScript-bibliotheek  <br/> |
-|```https://c.microsoft.com/```  <br/> |WPXO  <br/> |VEREFFEN  <br/> |Office JavaScript-bibliotheken  <br/> |
-|```https://c1.microsoft.com/```  <br/> |WPXO  <br/> |VEREFFEN  <br/> |Bronnen voor ondersteuning  <br/> |
-|```https://cs.microsoft.com/```  <br/> |WPXO  <br/> |VEREFFEN  <br/> |Bronnen voor ondersteuning  <br/> |
-|```https://c.bing.com/```  <br/> |WPXO  <br/> |VEREFFEN  <br/> |Bronnen voor ondersteuning  <br/> |
-|```https://*.cdn.optimizely.com/```  <br/> |WPXO  <br/> |VEREFFEN  <br/> |JavaScript-bibliotheek  <br/> |
-|```https://errors.client.optimizely.com/```  <br/> |WPX  <br/> |VEREFFEN  <br/> |Foutrapportage  <br/> |
-|```https://*-contentstorage.osi.office.net/```  <br/> |WPXO  <br/> |VEREFFEN  <br/> |Bronnen voor lettertypen  <br/> |
-|```https://nexus.ensighten.com/```  <br/> |WPXO  <br/> |VEREFFEN  <br/> |Telemetrie-service  <br/> |
-|```https://browser.pipe.aria.microsoft.com/```  <br/> |WPXO  <br/> |VEREFFEN  <br/> |Telemetrie-rapportage  <br/> |
-|```https://*.vo.msecnd.net/```  <br/> |WPXO  <br/> |VEREFFEN  <br/> |Microsoft Store-Activabibliotheek  <br/> |
-|```https://*.wikipedia.org/```  <br/> |W  <br/> |VEREFFEN  <br/> |Bronnen voor een Wikipedia-pagina  <br/> |
-|```https://upload.wikimedia.org/```  <br/> |W  <br/> |VEREFFEN  <br/> |Wikipedia-mediabronnen  <br/> |
-|```https://wikipedia.firstpartyappssandbox.oappseperate.com/```  <br/> |W  <br/> |VEREFFEN  <br/> |Wikipedia-sandbox-frame  <br/> |
-|```https://*.virtualearth.net/```  <br/> |X  <br/> |VEREFFEN  <br/> |Kaart Sjablonen  <br/> |
+|```https://store.office.com/```  <br/> |WXPO  <br/> |CS  <br/> |Office-app store-configuratie  <br/> |
+|```https://wikipedia.firstpartyapps.oaspapps.com/```  <br/> |W  <br/> |SS  <br/> |Wikipedia-appbronnen  <br/> |
+|```https://excelbingmap.firstpartyapps.oaspapps.com/```  <br/> |X  <br/> |SS  <br/> |Bing App-resources in kaart brengen  <br/> |
+|```https://peoplegraph.firstpartyapps.oaspapps.com```  <br/> |X  <br/> |SS  <br/> |Personen Graph app-resources  <br/> |
+|```https://o15.officeredir.microsoft.com/```  <br/> |WPX  <br/> |SS  <br/> |Office Omleidingsservice  <br/> |
+|```https://appsforoffice.microsoft.com/```  <br/> |WXP  <br/> |SS  <br/> |Office JavaScript-bibliotheken  <br/> |
+|```https://telemetry.firstpartyapps.oaspapps.com/```  <br/> |WX  <br/> |SS  <br/> |Telemetrie- en rapportageservice voor Office apps  <br/> |
+|```https://ajax.microsoft.com/```  <br/> |W  <br/> |SS  <br/> |Microsoft Ajax JavaScript-bibliotheek  <br/> |
+|```https://ajax.aspnetcdn.com/```  <br/> |X  <br/> |SS  <br/> |Microsoft Ajax JavaScript-bibliotheek  <br/> |
+|```https://c.microsoft.com/```  <br/> |WPXO  <br/> |SS  <br/> |Office JavaScript-bibliotheken  <br/> |
+|```https://c1.microsoft.com/```  <br/> |WPXO  <br/> |SS  <br/> |Ondersteuningsbronnen  <br/> |
+|```https://cs.microsoft.com/```  <br/> |WPXO  <br/> |SS  <br/> |Ondersteuningsbronnen  <br/> |
+|```https://c.bing.com/```  <br/> |WPXO  <br/> |SS  <br/> |Ondersteuningsbronnen  <br/> |
+|```https://*.cdn.optimizely.com/```  <br/> |WPXO  <br/> |SS  <br/> |JavaScript-bibliotheek  <br/> |
+|```https://errors.client.optimizely.com/```  <br/> |WPX  <br/> |SS  <br/> |Foutrapportage  <br/> |
+|```https://*-contentstorage.osi.office.net/```  <br/> |WPXO  <br/> |SS  <br/> |Lettertypebronnen  <br/> |
+|```https://nexus.ensighten.com/```  <br/> |WPXO  <br/> |SS  <br/> |Telemetrieservice  <br/> |
+|```https://browser.pipe.aria.microsoft.com/```  <br/> |WPXO  <br/> |SS  <br/> |Telemetrierapportage  <br/> |
+|```https://*.vo.msecnd.net/```  <br/> |WPXO  <br/> |SS  <br/> |Microsoft Store Activabibliotheek  <br/> |
+|```https://*.wikipedia.org/```  <br/> |W  <br/> |SS  <br/> |Wikipedia-paginabronnen  <br/> |
+|```https://upload.wikimedia.org/```  <br/> |W  <br/> |SS  <br/> |Wikipedia-mediabronnen  <br/> |
+|```https://wikipedia.firstpartyappssandbox.oappseperate.com/```  <br/> |W  <br/> |SS  <br/> |Wikipedia sandbox frame  <br/> |
+|```https://*.virtualearth.net/```  <br/> |X  <br/> |SS  <br/> |Kaartsjablonen  <br/> |
    
  **Veilige koppelingen**
   
-Het volgende netwerkeindpunt is alleen van toepassing op alle Office-toepassingen voor Microsoft 365-abonnementen.
+Het volgende netwerk-eindpunt is alleen van toepassing op alle Office voor Microsoft 365 abonnement.
   
 |**URL**|**Type**|**Beschrijving**|
 |:-----|:-----|:-----|
-|```https://*.oscs.protection.outlook.com/```  <br/> |Support  <br/> |Microsoft-service voor veilige koppelingen  <br/> |
+|```https://*.oscs.protection.outlook.com/```  <br/> |CS  <br/> |Microsoft Safe Koppelingsservice  <br/> |
    
- **Vastlopen van rapporten**
+ **Crashrapportage**
   
-Het volgende netwerkeindpunt is van toepassing op alle Office-toepassingen voor activeringen van zowel Microsoft 365-abonnement als voor handels-en volume licenties. Wanneer een proces plotseling vastloopt, wordt een rapport gegenereerd en naar de Watson-service verzonden.
+Het volgende netwerk-eindpunt is van toepassing op alle Office voor zowel Microsoft 365-abonnementen als retail-/volumelicentieactiveringen. Wanneer een proces onverwacht vast loopt, wordt er een rapport gegenereerd en verzonden naar de Watson-service.
   
 |**URL**|**Type**|**Beschrijving**|
 |:-----|:-----|:-----|
-|```https://watson.microsoft.com/```  <br/> |KT  <br/> |Service voor foutrapportage van Microsoft  <br/> |
-|```https://officeci.azurewebsites.net/```  <br/> |KT  <br/> |Service voor samenwerking van Office  <br/> |
+|```https://watson.microsoft.com/```  <br/> |ST  <br/> |Microsoft Error Reporting Service  <br/> |
+|```https://officeci.azurewebsites.net/```  <br/> |ST  <br/> |Office Collaborative Insights Service  <br/> |
    
-## <a name="options-for-reducing-network-requests-and-traffic"></a>Opties voor het beperken van netwerkaanvragen en verkeer
+## <a name="options-for-reducing-network-requests-and-traffic"></a>Opties voor het verminderen van netwerkaanvragen en -verkeer
 
-De standaardconfiguratie van Office voor Mac biedt de beste gebruikerservaring, zowel de functionaliteit als de computer up-to-date houden. In sommige gevallen wilt u mogelijk voorkomen dat toepassingen contact opnemen met netwerkeindpunten. In deze sectie worden opties besproken.
+De standaardconfiguratie van Office voor Mac biedt de beste gebruikerservaring, zowel wat betreft functionaliteit als het up-to-date houden van de computer. In sommige scenario's wilt u mogelijk voorkomen dat toepassingen contact opnemen met netwerk-eindpunten. In deze sectie worden de opties besproken om dit te doen.
   
- ### <a name="disabling-cloud-sign-in-and-office-add-ins"></a>Aanmelding bij de Cloud en Office-invoegtoepassingen uitschakelen
+ ### <a name="disabling-cloud-sign-in-and-office-add-ins"></a>Cloud-Sign-In en Office Add-Ins
   
-Volume licentie klanten kunnen strikte beleidsregels bevatten voor het opslaan van documenten in opslag in de Cloud. U kunt de volgende voorkeuren per toepassing instellen voor het uitschakelen van MSA/OrgID-aanmelding en toegang tot Office-invoegtoepassingen.
+Klanten van volumelicenties hebben mogelijk een strikt beleid voor het opslaan van documenten in cloudopslag. De volgende voorkeur per toepassing kan worden ingesteld om MSA/OrgID-aanmelding uit te schakelen en toegang tot Office invoegtoepassing.
   
 - ```defaults write com.microsoft.Word UseOnlineContent -integer 0```
 
@@ -255,34 +255,34 @@ Volume licentie klanten kunnen strikte beleidsregels bevatten voor het opslaan v
 
 - ```defaults write com.microsoft.Powerpoint UseOnlineContent -integer 0```
 
-Als gebruikers toegang proberen te krijgen tot de aanmeld functie, wordt een foutmelding weergegeven dat er geen netwerkverbinding is. Aangezien u met deze voorkeur ook online productactivering blokkeert, moet u dit alleen gebruiken voor installaties van volume licenties. Met deze voorkeur wordt niet voorkomen dat Office-toepassingen toegang krijgen tot de volgende eindpunten:
+Als gebruikers toegang proberen te krijgen tot Sign-In, zien ze een foutmelding dat er geen netwerkverbinding aanwezig is. Omdat deze voorkeur ook online productactivering blokkeert, mag deze alleen worden gebruikt voor installaties met volumelicenties. Met deze voorkeur wordt met name voorkomen Office toepassingen toegang krijgen tot de volgende eindpunten:
   
 - ```https://odc.officeapps.live.com```
     
 - ```https://*.firstpartyapps.oaspapps.com```
     
-- Alle eindpunten die worden vermeld in het gedeelte ' Aanmelden ' hierboven.
+- Alle eindpunten in de bovenstaande sectie Aanmelden.
     
-- Alle eindpunten die worden weergegeven in de sectie ' Slim zoeken ' hierboven.
+- Alle eindpunten die worden weergegeven in de sectie 'Slim zoeken' hierboven.
     
-- Alle eindpunten die worden vermeld in het gedeelte ' Product Activation ' hierboven.
+- Alle eindpunten in de bovenstaande sectie Productactivering.
     
-- Alle eindpunten die worden vermeld in de sectie ' Office-apps (aka invoegtoepassingen) ' hierboven.
+- Alle eindpunten die worden weergegeven in de sectie 'Office Apps (aka invoegvoegingen)' hierboven.
     
-Als u de volledige functionaliteit voor de gebruiker opnieuw wilt instellen, stelt u de voorkeur in op 2 of verwijdert u deze.
+Als u de volledige functionaliteit voor de gebruiker opnieuw wilt instellen, stelt u de voorkeur in op '2' of verwijdert u deze.
   
 > [!NOTE]
-> Voor deze voorkeur is Office voor Mac build 15,25 [160726] of later vereist. 
+> Voor deze voorkeur Office voor Mac build 15,25 [160726] of hoger vereist. 
   
 ### <a name="telemetry"></a>Telemetrie 
   
-In Office voor Mac worden telemetrie-gegevensregel matig naar Microsoft verzonden. Gegevens worden geüpload naar het eindpunt ' Nexus '. Met de telemetrie-gegevens kan het engineering team de gezondheid en eventuele onverwachte gedrag van elke Office-app beoordelen. Er zijn twee categorieën telemetrie:
+Office voor Mac verzendt regelmatig telemetriegegevens terug naar Microsoft. Gegevens worden geüpload naar het eindpunt 'Nexus'. Met de telemetriegegevens kan het technische team de status en onverwachte gedragingen van elke Office-app. Er zijn twee categorieën telemetrie:
   
-- **Heartbeat** bevat versie-en licentiegegevens. Deze gegevens worden direct verzonden na de start van de app. 
+- **Heartbeat** bevat versie- en licentiegegevens. Deze gegevens worden direct na het starten van de app verzonden. 
     
-- **Gebruik** bevat informatie over de manier waarop apps worden gebruikt en niet-kritieke fouten. Deze gegevens worden elke 60 minuten verzonden. 
+- **Gebruik** bevat informatie over hoe apps worden gebruikt en niet-fatale fouten. Deze gegevens worden elke 60 minuten verzonden. 
     
-Microsoft houdt uw privacy zeer serieus. U kunt op de site van het Microsoft-gegevens verzamelings beleid lezen [https://privacy.microsoft.com](https://privacy.microsoft.com) . Om te voorkomen dat toepassingen ' gebruik ' telemetrie verzenden, kan de **SendAllTelemetryEnabled** -voorkeur worden aangepast. De voorkeur is een optie voor de toepassing en kan worden ingesteld via macOS Configuration-profielen, of handmatig van Terminal: 
+Microsoft neemt uw privacy zeer serieus. U kunt meer lezen over het gegevensverzamelingsbeleid van Microsoft op [https://privacy.microsoft.com](https://privacy.microsoft.com) . Als u wilt voorkomen dat toepassingen telemetrie 'Gebruik' verzenden, kan de voorkeur **SendAllTelemetryEnabled** worden aangepast. De voorkeur is per toepassing en kan worden ingesteld via macOS-configuratieprofielen of handmatig vanuit Terminal: 
   
 ```defaults write com.microsoft.Word SendAllTelemetryEnabled -bool FALSE```
 
@@ -300,28 +300,28 @@ Microsoft houdt uw privacy zeer serieus. U kunt op de site van het Microsoft-geg
 
 Heartbeat-telemetrie wordt altijd verzonden en kan niet worden uitgeschakeld.
   
-### <a name="crash-reporting"></a>Vastlopen van rapporten
+### <a name="crash-reporting"></a>Crashrapportage
   
-Wanneer een onherstelbare toepassingsfout optreedt, stopt de toepassing en uploadt de toepassing een crash rapport naar de Watson-service. Het rapport over vastlopen bestaat uit een oproep stapel, de lijst met stappen die door de toepassing naar de crash zijn verwerkt. Met deze stappen wordt het engineering-team geholpen met de exacte functie die mislukt en waarom.
+Wanneer er een fatale toepassingsfout optreedt, wordt de toepassing onverwacht beëindigd en wordt er een crashrapport geüpload naar de 'Watson'-service. Het crashrapport bestaat uit een call-stack, de lijst met stappen die de toepassing heeft verwerkt voorafgaand aan de crash. Met deze stappen kan het technische team de exacte functie identificeren die is mislukt en waarom.
   
-In sommige gevallen zorgt de inhoud van een document dat de toepassing vastloopt. Als de app het document als oorzaak identificeert, wordt de gebruiker gevraagd of u het document ook samen met de oproep stapel wilt verzenden. Gebruikers kunnen een gefundeerde optie voor deze vraag maken. IT-beheerders kunnen strikte vereisten treffen voor de verzending van documenten en de beslissing namens de gebruiker doen om nooit documenten te verzenden. U kunt de volgende voorkeur instellen om te voorkomen dat documenten worden verzonden, en om de prompt voor de gebruiker te onderdrukken:
+In sommige gevallen loopt de toepassing vast door de inhoud van een document. Als de app het document als oorzaak identificeert, wordt de gebruiker gevraagd of het goed is om het document ook samen met de stapel met de oproep te verzenden. Gebruikers kunnen een weloverwogen keuze maken voor deze vraag. IT-beheerders hebben mogelijk strikte vereisten voor het verzenden van documenten en besluiten namens de gebruiker om nooit documenten te verzenden. De volgende voorkeur kan worden ingesteld om te voorkomen dat documenten worden verzonden en om de prompt naar de gebruiker te onderdrukken:
   
 ```defaults write com.microsoft.errorreporting IsAttachFilesEnabled -bool FALSE```
 
 > [!NOTE]
-> Als **SendAllTelemetryEnabled** is ingesteld op **False**, zijn alle crash rapporten voor dat proces uitgeschakeld. Als u vastlopen wilt rapporteren zonder gebruik van telemetrie te verzenden, kunt u de volgende voorkeuren instellen: ```defaults write com.microsoft.errorreporting IsMerpEnabled -bool TRUE``` 
+> Als **SendAllTelemetryEnabled** is ingesteld op **ONWAAR,** is alle crashrapportage voor dat proces uitgeschakeld. Als u crashrapportage wilt inschakelen zonder telemetrie te verzenden, kunt u de volgende voorkeur instellen: ```defaults write com.microsoft.errorreporting IsMerpEnabled -bool TRUE``` 
   
 ### <a name="updates"></a>Updates
   
-Microsoft brengt regelmatig updates voor Office voor Mac uit (meestal één keer per maand). U wordt aangeraden gebruikers en IT-beheerders op de hoogte te houden om ervoor te zorgen dat de nieuwste beveiligingsfixes worden geïnstalleerd. In situaties waarin IT-beheerders hun computer updates nauwkeurig willen beheren en beheren, kan de volgende voorkeur worden ingesteld om te voorkomen dat het automatisch bijwerken van producten automatisch wordt gedetecteerd en aangeboden.
+Microsoft brengt Office voor Mac regelmatig updates uit (meestal eenmaal per maand). We raden gebruikers en IT-beheerders ten zeerste aan om machines up-to-date te houden om ervoor te zorgen dat de meest recente beveiligingsupdates worden geïnstalleerd. In gevallen waarin IT-beheerders machine-updates nauwlettend willen controleren en beheren, kan de volgende voorkeur worden ingesteld om te voorkomen dat het AutoUpdate-proces automatisch productupdates detecteert en aanbiedt:
   
 ```defaults write com.microsoft.autoupdate2 HowToCheck -string 'Manual'```
 
-### <a name="blocking-requests-with-a-firewallproxy"></a>Aanvragen blokkeren met een firewall/proxy
+### <a name="blocking-requests-with-a-firewallproxy"></a>Verzoeken blokkeren met een firewall/proxy
   
-Als uw organisatie aanvragen van Url's blokkeert via een firewall of proxyserver, moet u ervoor zorgen dat de Url's die in dit document worden vermeld, worden geconfigureerd als toegestaan of worden weergegeven in een 40X-antwoord (zoals 403 of 404). Met een 40X-antwoord kunnen de Office-toepassingen de onbepaalde gebruikerservaring op een juiste manier accepteren en een snellere gebruikerservaring bieden, ongeacht de verbinding, waardoor de client weer opnieuw kan worden uitgevoerd.
+Als uw organisatie aanvragen voor URL's blokkeert via een firewall of proxyserver, moet u de URL's in dit document configureren als toegestaan of blokkeren met een 40X-antwoord (bijvoorbeeld 403 of 404). Met een 40X-antwoord kunnen de Office-toepassingen het onvermogen om toegang tot de resource te krijgen, accepteren en biedt het een snellere gebruikerservaring dan alleen het laten vallen van de verbinding, waardoor de client op zijn beurt opnieuw moet proberen.
   
-Als authenticatie van de proxyserver is vereist, wordt een 407-antwoord teruggegeven aan de client. Voor de beste ervaring moet u ervoor zorgen dat u Office voor Mac-versies 15,27 of hoger gebruikt, aangezien deze specifieke oplossingen bevatten voor het werken met NTLM-en Kerberos-servers.
+Als voor uw proxyserver verificatie is vereist, wordt een antwoord van 407 geretourneerd naar de client. Voor de beste ervaring, zorg ervoor dat u Office voor Mac builds 15.27 of hoger gebruikt, aangezien deze specifieke oplossingen bevatten voor het werken met NTLM- en Kerberos-servers.
   
   
 ## <a name="see-also"></a>Zie ook

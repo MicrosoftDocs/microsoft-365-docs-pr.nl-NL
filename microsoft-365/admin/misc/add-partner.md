@@ -200,7 +200,7 @@ U moet uw wederverkoper-partner vragen om deze instructies te volgen: [Een resel
   
 ::: moniker-end
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Zoek uw Microsoft 365 partner of wederverkoper](../manage/find-your-partner-or-reseller.md) (artikel)\
 [Uw installatie van Microsoft 365 voor bedrijven](../setup/plan-your-setup.md) plannen (artikel)

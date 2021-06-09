@@ -28,21 +28,21 @@ ms.locfileid: "49073196"
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-U kunt PowerShell voor Microsoft 365 als alternatief gebruiken voor het Beheercentrum van Microsoft 365 voor het beheren van wachtwoorden in Microsoft 365. 
+U kunt PowerShell voor Microsoft 365 gebruiken als alternatief voor het Microsoft 365 beheercentrum voor het beheren van wachtwoorden in Microsoft 365. 
 
-Voer de volgende stappen uit als u in dit artikel de waarde van een variabele moet opgeven voor een opdracht blokkering in dit artikel.
+Als voor een opdrachtblok in dit artikel variabele waarden moeten worden opgegeven, gebruikt u deze stappen.
 
-1. Kopieer het opdracht blok naar het Klembord en plak dit in Kladblok of in de ISE (Integrated script Environment) van PowerShell.
-2. Vul de waarden voor de variabele in en verwijder de tekens "<" en ">".
-3. Voer de opdrachten uit in het PowerShell-venster of in het PowerShell-ISE.
+1. Kopieer het opdrachtblok naar het klembord en plak het in Kladblok of de Geïntegreerde Scriptomgeving (ISE) van PowerShell.
+2. Vul de variabele waarden in en verwijder de tekens '<' en '>'.
+3. Voer de opdrachten uit in het PowerShell-venster of de PowerShell-ise.
 
-## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Azure Active Directory PowerShell voor Graph module gebruiken
+## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>De powershell Azure Active Directory powershell gebruiken voor Graph module
 
-Maak eerst [verbinding met uw Microsoft 365-Tenant](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).
+Maak eerst [verbinding met uw Microsoft 365 tenant.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
 
 ### <a name="set-a-password"></a>Een wachtwoord instellen
 
-Met deze opdrachten kunt u een wachtwoord opgeven voor een gebruikersaccount.
+Gebruik deze opdrachten om een wachtwoord voor een gebruikersaccount op te geven.
 
 ```powershell
 $userUPN="<user account sign in name, such as belindan@contoso.com>"
@@ -50,9 +50,9 @@ $newPassword="<new password>"
 $secPassword = ConvertTo-SecureString $newPassword -AsPlainText -Force
 Set-AzureADUserPassword -ObjectId  $userUPN -Password $secPassword
 ```
-### <a name="force-a-user-to-change-their-password"></a>Een gebruiker dwingen hun wachtwoord te wijzigen
+### <a name="force-a-user-to-change-their-password"></a>Een gebruiker dwingen zijn of haar wachtwoord te wijzigen
 
-Met deze opdrachten kunt u een wachtwoord instellen en een gebruiker dwingen hun nieuwe wachtwoord te wijzigen.
+Gebruik deze opdrachten om een wachtwoord in te stellen en een gebruiker te dwingen zijn of haar nieuwe wachtwoord te wijzigen.
 
 ```powershell
 $userUPN="<user account sign in name, such as belindan@contoso.com>"
@@ -61,7 +61,7 @@ $secPassword = ConvertTo-SecureString $newPassword -AsPlainText -Force
 Set-AzureADUserPassword -ObjectId  $userUPN -Password $secPassword -EnforceChangePasswordPolicy $true
 ```
 
-Met deze opdrachten kunt u een wachtwoord instellen en een gebruiker dwingen hun nieuwe wachtwoord te wijzigen wanneer ze zich de volgende keer aanmelden.
+Gebruik deze opdrachten om een wachtwoord in te stellen en een gebruiker te dwingen het nieuwe wachtwoord te wijzigen wanneer deze zich de volgende keer aan melden.
 
 ```powershell
 $userUPN="<user account sign in name, such as belindan@contoso.com>"
@@ -70,13 +70,13 @@ $secPassword = ConvertTo-SecureString $newPassword -AsPlainText -Force
 Set-AzureADUserPassword -ObjectId  $userUPN -Password $secPassword -ForceChangePasswordNextLogin $true
 ```
 
-## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>De Microsoft Azure Active Directory-module voor Windows PowerShell gebruiken
+## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Gebruik de Microsoft Azure Active Directory module voor Windows PowerShell
 
-Maak eerst [verbinding met uw Microsoft 365-Tenant](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).
+Maak eerst [verbinding met uw Microsoft 365 tenant.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
 ### <a name="set-a-password"></a>Een wachtwoord instellen
 
-Met deze opdrachten kunt u een wachtwoord opgeven voor een gebruikersaccount.
+Gebruik deze opdrachten om een wachtwoord voor een gebruikersaccount op te geven.
 
 ```powershell
 $userUPN="<user account sign in name>"
@@ -84,9 +84,9 @@ $newPassword="<new password>"
 Set-MsolUserPassword -UserPrincipalName $userUPN -NewPassword $newPassword
 ```
 
-### <a name="force-a-user-to-change-their-password"></a>Een gebruiker dwingen hun wachtwoord te wijzigen
+### <a name="force-a-user-to-change-their-password"></a>Een gebruiker dwingen zijn of haar wachtwoord te wijzigen
 
-Met deze opdrachten kunt u een gebruiker dwingen hun wachtwoord te wijzigen.
+Gebruik deze opdrachten om een gebruiker te dwingen zijn wachtwoord te wijzigen.
 
 ```powershell
 $userUPN="<user account sign in name>"

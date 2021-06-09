@@ -1,5 +1,5 @@
 ---
-title: Een satelliet locatie verwijderen
+title: Een satellietlocatie verwijderen
 ms.reviewer: adwood
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom: seo-marvel-mar2020
 ms.collection: Strat_SP_gtc
 localization_priority: Normal
-description: Meer informatie over hoe u een locatie voor satellieten verwijdert in Microsoft 365 multi-geo. Wanneer een satelliet locatie wordt verwijderd, worden alle gebruikersgegevens ook permanent verwijderd.
+description: Meer informatie over het verwijderen van een satellietlocatie in Microsoft 365 Multi-Geo. Wanneer een satellietlocatie wordt verwijderd, worden ook alle gebruikersgegevens definitief verwijderd.
 ms.openlocfilehash: 7a58ed91a0bb801fc41ed0a89889ede5e65b4a21
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
@@ -20,27 +20,27 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 08/14/2020
 ms.locfileid: "46689317"
 ---
-# <a name="delete-a-satellite-location-in-microsoft-365-multi-geo"></a>Een locatie voor satellieten verwijderen in Microsoft 365 multi-geo
+# <a name="delete-a-satellite-location-in-microsoft-365-multi-geo"></a>Een satellietlocatie verwijderen in Microsoft 365 Multi-Geo
 
-Als u een locatie voor satellieten niet meer nodig hebt, kunt u deze verwijderen uit de Tenant vanuit het SharePoint-Beheercentrum.
+Als u geen satellietlocatie meer nodig hebt, kunt u deze uit uw tenant verwijderen uit het SharePoint beheercentrum.
 
 > [!WARNING]
-> Alle gebruikersgegevens op de locatie van de satelliet worden permanent verwijderd. Dit geldt ook voor alle inhoud van OneDrive voor bedrijven, SharePoint-sites en Exchange-postvakken, waaronder Microsoft 365-groeps postvakken. Voordat u de locatie van de satelliet verwijdert, moet u gegevens migreren naar een andere locatie of op de centrale locatie. U kunt deze actie niet ongedaan maken.
+> Alle gebruikersgegevens op de satellietlocatie worden definitief verwijderd. Dit omvat alle OneDrive voor Bedrijven inhoud, SharePoint sites en Exchange postvakken, Microsoft 365 groepspostvakken. U moet gegevens migreren naar een andere satellietlocatie of de centrale locatie voordat u de satellietlocatie verwijdert. Deze actie kan niet ongedaan worden gemaakt.
 
-Alleen globale beheerders kunnen satelliet locaties verwijderen.
+Alleen globale beheerders kunnen satellietlocaties verwijderen.
 
-![Schermafbeelding van het multi-geo-Beheercentrum met het verwijderen van geo-locatie-GEBRUIKERSINTERFACE](../media/multi-geo-delete-satellite-location.png)
+![Schermafbeelding van multi-geo-beheercentrum met de gebruikersinterface van de geografische locatie verwijderen](../media/multi-geo-delete-satellite-location.png)
 
-Een satelliet locatie verwijderen
+Een satellietlocatie verwijderen
 
-1. Het SharePoint-Beheercentrum openen
+1. Het SharePoint-beheercentrum openen
 
-2. Ga naar het tabblad **geo locations** .
+2. Ga naar het **tabblad Geolocaties.**
 
 3. Klik op de kaart op de geografische locatie die u wilt verwijderen.
 
-4. Klik op **locatie verwijderen**.
+4. Klik **op Locatie verwijderen.**
 
-5. Bevestig het verwijderen door de selectievakjes in te schakelen.
+5. Bevestig het verwijderen door de selectievakjes voor bevestiging in te selecteren.
 
 6. Klik op **Verwijderen**.

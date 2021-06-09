@@ -1,5 +1,5 @@
 ---
-title: Het webonderdeel inhoud zoeken in plaats van het webonderdeel inhouds query gebruiken om de prestaties te verbeteren in SharePoint Online
+title: Webonderdeel Inhoud zoeken gebruiken in plaats van webonderdeel Inhoudsquery om de prestaties in SharePoint Online
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -20,7 +20,7 @@ search.appverid:
 - MET150
 - SPO160
 ms.assetid: e8ce6b72-745b-464a-85c7-cbf6eb53391b
-description: Meer informatie over hoe u de prestaties kunt verbeteren door het webonderdeel inhouds query te vervangen door het webonderdeel inhoud zoeken in SharePoint Server 2013 en SharePoint Online.
+description: Lees hoe u de prestaties kunt verbeteren door het webonderdeel Inhoudsquery te vervangen door het webonderdeel Inhoud zoeken in SharePoint Server 2013 en SharePoint Online.
 ms.openlocfilehash: e5f57e59a421d79302f447e229091fdfc96f1237
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
@@ -28,50 +28,50 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 08/14/2020
 ms.locfileid: "46689549"
 ---
-# <a name="using-content-search-web-part-instead-of-content-query-web-part-to-improve-performance-in-sharepoint-online"></a>Het webonderdeel inhoud zoeken in plaats van het webonderdeel inhouds query gebruiken om de prestaties te verbeteren in SharePoint Online
+# <a name="using-content-search-web-part-instead-of-content-query-web-part-to-improve-performance-in-sharepoint-online"></a>Webonderdeel Inhoud zoeken gebruiken in plaats van webonderdeel Inhoudsquery om de prestaties in SharePoint Online
 
-In dit artikel wordt uitgelegd hoe u de prestaties kunt verbeteren door het webonderdeel inhouds query te vervangen door het webonderdeel inhoud zoeken in SharePoint Server 2013 en SharePoint Online.
+In dit artikel wordt beschreven hoe u de prestaties kunt verbeteren door het webonderdeel Inhoudsquery te vervangen door het webonderdeel Inhoud zoeken in SharePoint Server 2013 en SharePoint Online.
   
-Een van de krachtigste nieuwe functies van SharePoint Server 2013 en SharePoint Online is het webonderdeel inhoud zoeken (WEBONDERDEEL inhoud zoeken). Dit webonderdeel maakt gebruik van de zoekindex om snel resultaten op te halen die aan de gebruiker worden getoond. Gebruik het webonderdeel inhoud zoeken in plaats van het webonderdeel inhouds query (CQWP) op uw pagina's om de prestaties van uw gebruikers te verbeteren.
+Een van de krachtigste nieuwe functies van SharePoint Server 2013 en SharePoint Online is het webonderdeel Inhoud zoeken (WEBWP). In dit webonderdeel wordt de zoekindex gebruikt om snel resultaten op te halen die aan de gebruiker worden weergegeven. Gebruik het webonderdeel Inhoud zoeken in plaats van het webonderdeel Inhoudsquery (CQWP) op uw pagina's om de prestaties voor uw gebruikers te verbeteren.
   
-Het gebruik van een webonderdeel inhoud zoeken via een webonderdeel inhouds query levert bijna altijd betere resultaten op voor het laden van pagina's in SharePoint Online. Er is een beetje extra configuratie ter verbetering van de juiste query, maar de voordelen zijn voor betere prestaties en tevredenere gebruikers.
+Als u een webonderdeel Inhoud zoeken gebruikt via een webonderdeel Inhoudsquery, resulteert dit bijna altijd in aanzienlijk betere laadprestaties voor pagina's op SharePoint Online. Er is een beetje extra configuratie om de juiste query te krijgen, maar de voordelen zijn verbeterde prestaties en gelukkiger gebruikers.
   
-## <a name="comparing-the-performance-gain-you-get-from-using-content-search-web-part-instead-of-content-query-web-part"></a>Wanneer u de prestaties vergelijkt met het gebruik van het webonderdeel inhoud zoeken in plaats van het webonderdeel inhouds query
+## <a name="comparing-the-performance-gain-you-get-from-using-content-search-web-part-instead-of-content-query-web-part"></a>De prestaties van het webonderdeel Inhoud zoeken vergelijken in plaats van webonderdeel Inhoudsquery
 
-In het volgende voorbeeld worden de relatieve prestatiewinst weergegeven wanneer u een webonderdeel inhoud zoeken gebruikt in plaats van een webonderdeel inhouds query. De effecten zijn duidelijker met een complexe sitestructuur en zeer brede inhoudsquery's.
+In de volgende voorbeelden ziet u de relatieve prestatieverbeteringen die u kunt ontvangen wanneer u een webonderdeel Inhoud zoeken gebruikt in plaats van een webonderdeel Inhoudsquery. De effecten zijn duidelijker met een complexe sitestructuur en zeer brede inhoudsquery's.
   
-De voorbeeldsite heeft de volgende kenmerken:
+Deze voorbeeldsite heeft de volgende kenmerken:
   
-- acht niveaus van subsites.
+- 8 niveaus met subsites.
     
-- Lijsten waarin een aangepast inhoudstype wordt gebruikt voor fruit.
+- Lijsten met een aangepast inhoudstype 'fruit'.
     
-- In het webonderdeel is de Inhoudsquery uitgebreid, met als resultaat alle items met het inhoudstype ' fruit '.
+- In het webonderdeel is de inhoudsquery breed en worden alle items met het inhoudstype 'fruit' als resultaat gebruikt.
     
-- Het voorbeeld werkt alleen met 50-items op de acht sites. De effecten zullen nog meer uitspreken voor sites met meer inhoud.
+- In het voorbeeld worden slechts 50 items op de 8 sites gebruikt. De effecten zijn nog duidelijker voor sites met meer inhoud.
     
-Dit is een schermafbeelding van de resultaten van het webonderdeel inhouds query.
+Hier ziet u een schermafbeelding van de resultaten van het webonderdeel Inhoudsquery.
   
-![Afbeelding met Inhoudsquery voor webonderdeel](../media/b3d41f20-dfe5-46ed-9c0a-31057e82de33.png)
+![Afbeelding met inhoudsquery voor webonderdeel](../media/b3d41f20-dfe5-46ed-9c0a-31057e82de33.png)
   
-In Internet Explorer gebruikt u het tabblad **netwerk** van de F12-hulpprogramma's voor ontwikkelaars om de details te bekijken voor de antwoordheader. In de volgende schermafbeelding is de waarde voor het **SPRequestDuration** voor deze pagina-laad 924 milliseconden. 
+Gebruik in Internet Explorer het **tabblad Netwerk** van de hulpprogramma's voor F12-ontwikkelaars om de details van de antwoordkop te bekijken. In de volgende schermafbeelding is de waarde voor **de SPRequestDuration** voor deze paginabelasting 924 milliseconden. 
   
-![Schermafbeelding van het aanvragen van de duur van 924](../media/343571f2-a249-4de2-bc11-2cee93498aea.png)
+![Schermafbeelding met de duur van de aanvraag van 924](../media/343571f2-a249-4de2-bc11-2cee93498aea.png)
   
- In **SPRequestDuration** wordt de hoeveelheid werk die op de server is uitgevoerd, aangegeven om de pagina voor te bereiden. Door de inhoud van een query te vervangen door de webonderdelen inhoud door zoekresultaten wordt de tijd voor het weergeven van de pagina aanzienlijk verkleind. Als u daarentegen een pagina met een vergelijkbaar webonderdeel inhoud zoeken oplevert, wordt het resultaat van de **SPRequestDuration** -waarde van 106 milliseconden weergegeven, zoals in deze schermafbeelding: 
+ **SPRequestDuration** geeft de hoeveelheid werk aan die op de server wordt uitgevoerd om de pagina voor te bereiden. Als u van inhoud op query wisselt Webonderdelen inhoud op zoekfunctie, Webonderdelen de tijd die nodig is om de pagina weer te geven aanzienlijk. Een pagina met een vergelijkbaar webonderdeel Inhoud zoeken, die hetzelfde aantal resultaten retourneert, heeft daarentegen een **SPRequestDuration-waarde** van 106 milliseconden, zoals wordt weergegeven in deze schermafbeelding: 
   
-![Schermafbeelding van het aanvragen van de duur van 106](../media/b46387ac-660d-4e5e-a11c-cc430e912962.png)
+![Schermafbeelding met aanvraagduur van 106](../media/b46387ac-660d-4e5e-a11c-cc430e912962.png)
   
-## <a name="adding-a-content-search-web-part-in-sharepoint-online"></a>Een webonderdeel inhoud zoeken toevoegen in SharePoint Online
+## <a name="adding-a-content-search-web-part-in-sharepoint-online"></a>Een webonderdeel Inhoud zoeken toevoegen in SharePoint Online
 
-Het toevoegen van een webonderdeel inhoud is vergelijkbaar met een standaard webonderdeel inhouds query. Zie de sectie  *' een webonderdeel inhoud zoeken toevoegen '*  in een webonderdeel inhoud [Zoeken configureren in SharePoint](https://support.office.com/article/Configure-a-Content-Search-Web-Part-in-SharePoint-0dc16de1-dbe4-462b-babb-bf8338c36c9a).
+Het toevoegen van een webonderdeel Inhoud zoeken lijkt sterk op een gewoon webonderdeel Inhoudsquery. Zie de sectie *'Een webonderdeel* Inhoud zoeken toevoegen' in Een webonderdeel Inhoud zoeken [configureren in SharePoint.](https://support.office.com/article/Configure-a-Content-Search-Web-Part-in-SharePoint-0dc16de1-dbe4-462b-babb-bf8338c36c9a)
   
-## <a name="creating-the-right-search-query-for-your-content-search-web-part"></a>De juiste zoekquery maken voor het webonderdeel inhoud zoeken
+## <a name="creating-the-right-search-query-for-your-content-search-web-part"></a>De juiste zoekquery maken voor het webonderdeel Inhoud zoeken
 
-Wanneer u een webonderdeel inhoud zoeken hebt toegevoegd, kunt u de zoekopdracht verfijnen en de gewenste items herstellen. Zie de sectie  *' inhoud weergeven door een geavanceerde query te configureren in een webonderdeel inhoud zoeken '*  in een webonderdeel inhoud [Zoeken configureren in SharePoint](https://support.office.com/article/Configure-a-Content-Search-Web-Part-in-SharePoint-0dc16de1-dbe4-462b-babb-bf8338c36c9a)voor gedetailleerde instructies.
+Nadat u een webonderdeel Inhoud zoeken hebt toegevoegd, kunt u de zoekopdracht verfijnen en de gezochte items retourneren. Zie de sectie 'Inhoud weergeven door een geavanceerde *query in* een webonderdeel Inhoud zoeken te configureren' in Een webonderdeel Inhoud zoeken configureren [in](https://support.office.com/article/Configure-a-Content-Search-Web-Part-in-SharePoint-0dc16de1-dbe4-462b-babb-bf8338c36c9a)SharePoint.
   
-## <a name="query-building-and-testing-tool"></a>Het hulpmiddel voor het maken en testen van query's
+## <a name="query-building-and-testing-tool"></a>Hulpprogramma voor het maken en testen van query's
 
-Voor een hulpmiddel voor het maken en testen van complexe query's, raadpleegt u het [hulpmiddel Zoek query](https://sp2013searchtool.codeplex.com/) op codeplex. 
+Zie het hulpprogramma Zoekquery op Codeplex voor een hulpprogramma voor het maken en testen van complexe query's. [](https://sp2013searchtool.codeplex.com/) 
   
 

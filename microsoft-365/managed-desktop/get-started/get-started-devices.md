@@ -18,38 +18,38 @@ ms.locfileid: "47289445"
 ---
 # <a name="get-your-users-ready-to-use-devices"></a>Uw gebruikers voorbereiden om apparaten te gebruiken
 
-Wanneer een Microsoft-beheerd bureaublad zich in de handen van de gebruiker bevindt, kunt u snel en eenvoudig aan de slag met het apparaat. Apparaten zijn vooraf geconfigureerd met de huidige versie van Windows, en de configuraties en apps worden geïnstalleerd via de Cloud wanneer de gebruiker Setup voltooit. 
+Wanneer een Microsoft Managed Desktop in handen is van uw gebruiker, is het snel en eenvoudig om daarmee aan de slag te gaan. Apparaten worden vooraf geconfigureerd met de huidige versie van Windows en configuraties en apps worden geïnstalleerd vanuit de cloud terwijl de gebruiker de installatie voltooit. 
  
-Om dit nog makkelijker te maken, bieden we u een handleiding waarmee u uw gebruikers kunt laten overstappen op de eerste instelling, zodat u de informatie over de instelling en voor later gebruik, indien nodig. U kunt deze handleiding aanpassen zodat bepaalde Details voor uw organisatie worden opgenomen. U kunt de gids vervolgens rechtstreeks naar uw gebruikers distribueren en hun apparaat. Er zijn twee versies, één voor organisaties die gebruikmaken van het ondersteunings systeem van Microsoft (de Help-app
+Om dit nog eenvoudiger te maken, bieden we een handleiding die uw gebruikers begeleidt bij de eerste installatie en helpbronnen biedt, zowel voor de installatie als voor gebruik later, indien nodig. U kunt deze handleiding aanpassen om bepaalde details op te nemen die specifiek zijn voor uw organisatie. Vervolgens distribueert u de handleiding rechtstreeks naar uw gebruikers samen met hun apparaat. Er zijn twee versies, een voor organisaties die gebruikmaken van het ondersteuningssysteem van Microsoft (de Hulp vragen-app), een voor organisaties die alternatieve ondersteuning bieden voor hun gebruikers.
 
 ## <a name="to-prepare-the-guide"></a>De handleiding voorbereiden
 
 1. Download de versie die geschikt is voor uw organisatie:
-- [Microsoft Managed Desktop-ga aan de slag met uw apparaat (Help-informatie)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-help-custom-v3.pdf) -deze versie gebruiken als uw gebruikers Microsoft-ondersteunings systeem gebruiken.
-- [Microsoft Managed Desktop-ga aan de slag met uw apparaat](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-no-help-custom-v2.pdf) : gebruik deze versie als uw gebruikers *geen* gebruikmaken van het ondersteunings systeem van Microsoft.
-2. Gebruik een app die u kunt gebruiken om PDF-bestanden te openen om gegevens in te vullen die relevant zijn voor uw organisatie:
-    - De naam van het netwerk waarmee de gebruiker verbinding moet maken om door te gaan met de installatie (stap 3 in de handleiding)
-    - De naam van het Azure-Tenant account van uw organisatie (stap 4 in de handleiding)
-    - Contact gegevens voor de interne IT-ondersteuning van uw organisatie (boven in de tweede pagina)
-3. Sla de bewerkte PDF op en distribueer vervolgens naar uw gebruikers. 
+- Microsoft Managed Desktop - Aan de slag met uw apparaat [(Hulp vragen versie)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-help-custom-v3.pdf) - gebruik deze versie als uw gebruikers het ondersteuningssysteem van Microsoft zullen gebruiken.
+- [Microsoft Managed Desktop - Aan de slag met uw apparaat](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-no-help-custom-v2.pdf) -  gebruik deze versie als uw gebruikers het ondersteuningssysteem van Microsoft niet gebruiken.
+2. Gebruik elke app die PDF-bestanden kan openen om gegevens in te vullen die relevant zijn voor uw organisatie:
+    - De naam van het netwerk waar uw gebruikers verbinding mee moeten maken om de installatie voort te zetten (stap 3 in de handleiding)
+    - De naam van het Azure-tenantaccount van uw organisatie (stap 4 in de handleiding)
+    - Contactgegevens voor de interne IT-ondersteuning van uw organisatie (boven aan de tweede pagina)
+3. Sla het bewerkte PDF-bestand op en distribueren naar uw gebruikers. 
 
-## <a name="ready-to-use-guide"></a>Kant-en-klare gids
+## <a name="ready-to-use-guide"></a>"Ready-to-use guide"
 
-We bieden ook een uitgebreide versie van de gids voor organisaties die de gids niet hoeven aan te passen. Er zijn twee versies, één voor organisaties die gebruikmaken van het ondersteunings systeem van Microsoft (de Help-app 
+We bieden ook een algemenere versie van de handleiding voor organisaties die deze niet hoeven aan te passen. Er zijn twee versies, een voor organisaties die gebruikmaken van het ondersteuningssysteem van Microsoft (de Hulp vragen-app), een voor organisaties die alternatieve ondersteuning bieden voor hun gebruikers. 
 
-- [Microsoft-beheerd bureaublad: u kunt aan de slag met uw apparaat (Help-versie vragen)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-help-v3.pdf) : gebruik deze versie als uw gebruikers het ondersteunings systeem van Microsoft gebruiken.
-- [Microsoft Managed Desktop-ga aan de slag met uw apparaat (klaar om te gebruiken)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-no-help-v2.pdf) -gebruik deze versie als uw gebruikers het ondersteunings systeem van Microsoft *niet* gebruiken.
+- Microsoft Managed Desktop - Aan de slag met uw apparaat [(Hulp vragen versie -](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-help-v3.pdf) klaar voor gebruik) - gebruik deze versie als uw gebruikers het ondersteuningssysteem van Microsoft zullen gebruiken.
+- [Microsoft Managed Desktop - Aan de](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-no-help-v2.pdf) slag met uw apparaat (klaar voor gebruik)  - gebruik deze versie als uw gebruikers het ondersteuningssysteem van Microsoft niet gebruiken.
 
-U bent nu klaar om te gaan naar de implementatie van apps:
+U kunt nu verder gaan met het implementeren van apps:
 
 
 ## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Stappen om aan de slag te gaan met Microsoft Managed Desktop
 
-1. [Contactpersonen voor beheer toevoegen en verifiëren in de Beheerportal](add-admin-contacts.md)
+1. [Contactpersonen voor beheer toevoegen en verifiëren in de beheerportal](add-admin-contacts.md)
 2. [Voorwaardelijke toegang aanpassen](conditional-access.md)
 3. [Licenties toewijzen](assign-licenses.md)
 4. [Intune Company Portal implementeren](company-portal.md)
 5. [Enterprise State Roaming inschakelen](enterprise-state-roaming.md)
 6. [Apparaten instellen](set-up-devices.md)
-7. Laat de gebruikers gebruikmaken van apparaten (dit onderwerp)
+7. Uw gebruikers voorbereiden op het gebruik van apparaten (dit onderwerp)
 8. [Apps implementeren](deploy-apps.md)

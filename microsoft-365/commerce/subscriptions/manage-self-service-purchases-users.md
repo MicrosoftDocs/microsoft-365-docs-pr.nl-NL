@@ -147,7 +147,7 @@ U kunt een lijst bekijken met alle zelf aangeschafte abonnementen die u hebt gek
 ::: moniker-end
 2. Zoek op het tabblad **Producten** het abonnement dat u wilt opzeggen. Selecteer de drie puntjes (meer acties) en selecteer **Abonnement annuleren**.
 3. Kies in het deelvenster **Abonnement annuleren** een reden waarom u wilt opzeggen. Geef desgewenst feedback die u hebt.
-4. Kies **Opslaan**.
+4. Klik op **Opslaan**.
 
 ## <a name="manage-your-payment-details"></a>Uw betalingsgegevens beheren
 

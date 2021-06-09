@@ -17,7 +17,7 @@ ms.custom:
 - Ent_TLGs
 - seo-marvel-apr2020
 ms.assetid: 6f916a77-301c-4be2-b407-6cec4d80df76
-description: Gebruik deze testlaboratoriumhandleiding om een gesimuleerde bedrijfstestomgeving te maken voor Microsoft 365 voor bedrijven.
+description: Gebruik deze testlaboratoriumhandleiding om een gesimuleerde ondernemingstestomgeving te maken voor Microsoft 365 voor bedrijven.
 ms.openlocfilehash: 8df63e1a580b57aa263c11dccaed947f46f2cbb9
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -27,7 +27,7 @@ ms.locfileid: "50926042"
 ---
 # <a name="the-simulated-enterprise-base-configuration"></a>De basisconfiguratie voor een gesimuleerde Enterprise
 
-*Deze testlaborator kan worden gebruikt voor testomgevingen van Microsoft 365 voor bedrijven en Office 365 Enterprise.*
+*Deze testlaborator kan worden gebruikt voor zowel Microsoft 365 voor bedrijven als Office 365 Enterprise testomgevingen.*
 
 In dit artikel wordt beschreven hoe u een vereenvoudigde omgeving kunt maken voor Microsoft 365 voor ondernemingen met de volgende informatie:
 
@@ -40,18 +40,18 @@ Het maken van een vereenvoudigde testomgeving bestaat uit twee fasen:
 - [Fase 1: Creëer een gesimuleerd intranet](#phase-1-create-a-simulated-intranet)
 - [Fase 2: Maak uw abonnement op Microsoft 365 E5](#phase-2-create-your-microsoft-365-e5-subscription)
 
-U kunt de resulterende omgeving gebruiken om de functies en functionaliteit van [Microsoft 365](https://www.microsoft.com/microsoft-365/enterprise) voor bedrijven te testen met extra [Test Lab Guides](m365-enterprise-test-lab-guides.md) of alleen.
+U kunt de resulterende omgeving gebruiken [](https://www.microsoft.com/microsoft-365/enterprise) om de functies en functionaliteit van Microsoft 365 voor bedrijven te testen met extra [Test Lab Guides](m365-enterprise-test-lab-guides.md) of alleen.
 
 ![Testlabrichtlijnen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
-> Ga naar [Microsoft 365 for enterprise Test Lab Guide](../downloads/Microsoft365EnterpriseTLGStack.pdf)Stack voor een visuele kaart voor alle artikelen in de Microsoft 365 voor enterprise Test Lab Guide Stack.
+> Voor een visuele kaart van alle artikelen in de Microsoft 365 voor enterprise Test Lab Guide stack, gaat u naar Microsoft 365 voor [enterprise Test Lab Guide Stack.](../downloads/Microsoft365EnterpriseTLGStack.pdf)
 
 ## <a name="phase-1-create-a-simulated-intranet"></a>Fase 1: Creëer een gesimuleerd intranet
 
 In deze fase maakt u een gesimuleerd intranet in Azure-infrastructuurservices met een AD DS-domeincontroller (Active Directory Domain Services), een toepassingsserver en een clientcomputer.
 
-U gebruikt deze computers in aanvullende [Microsoft 365-handleidingen](m365-enterprise-test-lab-guides.md) voor testlaboratorieën voor ondernemingen om hybride identiteit en andere mogelijkheden te configureren en te demonstreren.
+U gebruikt deze computers in aanvullende Microsoft 365 voor [ondernemingstestlaboratorieën](m365-enterprise-test-lab-guides.md) om hybride identiteit en andere mogelijkheden te configureren en te demonstreren.
 
 ### <a name="method-1-build-your-simulated-intranet-with-an-azure-resource-manager-template"></a>Methode 1: Maak uw gesimuleerde intranet met een Azure Resource Manager-sjabloon
 
@@ -160,19 +160,19 @@ U wordt gevraagd om een gebruikersnaam en wachtwoord voor het lokale Administrat
   
 Maak vervolgens verbinding met de virtuele DC1-machine:
   
-1. Selecteer [resourcegroepen in de Azure-portal](https://portal.azure.com) **> <** de naam van de nieuwe **_resourcegroep_*_> > _* DC1**  >  **Connect**.
+1. Selecteer [resourcegroepen in de Azure-portal](https://portal.azure.com) **> <** de naam van de nieuwe **_resourcegroep_*_> > _* DC1**  >  **Verbinding maken**.
     
-2. Selecteer in het geopende deelvenster **RDP-bestand downloaden.** Open het DC1.rdp-bestand dat is gedownload en selecteer **vervolgens Verbinding maken.**
+2. Selecteer in het geopende deelvenster **RDP-bestand downloaden.** Open het DC1.rdp-bestand dat is gedownload en selecteer **Verbinding maken.**
     
 3. Geef de naam van het lokale administrator-account van DC1 op:
     
    - Voor Windows 7:
     
-     Selecteer in **het dialoogvenster Windows-beveiliging** de optie **Een ander account gebruiken.** Voer **in Gebruikersnaam** de naam van het **dc1-lokale \\** < *beheerdersaccount* in>.
+     Selecteer in **Windows-beveiliging** dialoogvenster Een **ander account gebruiken.** Voer **in Gebruikersnaam** de naam van het **dc1-lokale \\** < *beheerdersaccount* in>.
     
    - Voor Windows 8 of Windows 10:
     
-     Selecteer in **het dialoogvenster Windows-beveiliging** **meer opties** en selecteer vervolgens Een ander account **gebruiken.** Voer **in Gebruikersnaam** de naam van het **dc1-lokale \\** < *beheerdersaccount* in>.
+     Selecteer in **Windows-beveiliging** dialoogvenster Meer opties **en** selecteer **vervolgens Een ander account gebruiken.** Voer **in Gebruikersnaam** de naam van het **dc1-lokale \\** < *beheerdersaccount* in>.
     
 4. Voer **in Wachtwoord** het wachtwoord van het lokale beheerdersaccount in en selecteer **OK.**
     
@@ -184,7 +184,7 @@ Voeg vervolgens een extra gegevensschijf toe als een nieuw volume met de station
 Get-Disk | Where PartitionStyle -eq "RAW" | Initialize-Disk -PartitionStyle MBR -PassThru | New-Partition -AssignDriveLetter -UseMaximumSize | Format-Volume -FileSystem NTFS -NewFileSystemLabel "WSAD Data"
 ```
 
-Configureer DC1 vervolgens als een domeincontroller en DNS-server voor het **testlab.**\<*your public domain*> -domein. Geef uw openbare domeinnaam op, verwijder de hoekhaken en voer deze opdrachten uit op een windows PowerShell-opdrachtprompt op beheerdersniveau op DC1.
+Configureer DC1 vervolgens als een domeincontroller en DNS-server voor het **testlab.**\<*your public domain*> -domein. Geef uw openbare domeinnaam op, verwijder de hoekhaken en voer deze opdrachten op beheerdersniveau uit Windows PowerShell opdrachtprompt op DC1.
   
 ```powershell
 $yourDomain="<your public domain>"
@@ -197,11 +197,11 @@ Houd er rekening mee dat deze opdrachten een paar minuten in beslag nemen.
   
 Nadat DC1 opnieuw is gestart, maakt u opnieuw verbinding met de DC1-virtuele machine.
   
-1. Selecteer [resourcegroepen in de Azure-portal](https://portal.azure.com) **> <** de naam van de *resourcegroep*> > **DC1**  >  **Connect.**
+1. Selecteer [resourcegroepen in de Azure-portal](https://portal.azure.com) **> <** de naam van de *resourcegroep*> > **DC1**  >  **Verbinding maken.**
     
-2. Voer het DC1.rdp-bestand uit dat is gedownload en selecteer vervolgens **Verbinding maken.**
+2. Voer het DC1.rdp-bestand uit dat is gedownload en selecteer **Verbinding maken.**
     
-3. Selecteer **in Windows-beveiliging** **de optie Een ander account gebruiken.** Voer **in Gebruikersnaam** de naam van het lokale beheerdersaccount van **TESTLAB \\** in < >.
+3. Selecteer **in Windows-beveiliging** selecteer Een ander account **gebruiken.** Voer **in Gebruikersnaam** de naam van het lokale beheerdersaccount van **TESTLAB \\** in < >.
     
 4. Voer in **het** vak Wachtwoord het wachtwoord van het lokale beheerdersaccount in en selecteer **OK.**
     
@@ -379,13 +379,13 @@ Als u uw nieuwe Office 365 E5-proefabonnement wilt maken, volgt u de instructies
 
 #### <a name="using-an-office-365-e5-test-environment"></a>Een Office 365 E5-testomgeving gebruiken
 
-Als u alleen een Office 365-testomgeving nodig hebt, hoeft u de rest van dit artikel niet te lezen.
+Als u alleen een testomgeving Office 365, hoeft u de rest van dit artikel niet te lezen.
 
-Zie Microsoft [365 for enterprise Test Lab Guides](m365-enterprise-test-lab-guides.md)voor aanvullende Test Lab Guides die van toepassing zijn op zowel Microsoft 365 als Office 365.
+Zie voor aanvullende testlaboratoriumhulplijnen die van toepassing zijn op zowel Microsoft 365 als Office 365, [Microsoft 365 voor ondernemingstestlaboratoriumhulplijnen.](m365-enterprise-test-lab-guides.md)
 
 ### <a name="add-a-microsoft-365-e5-trial-subscription"></a>Een Microsoft 365 E5-proefabonnement toevoegen.
 
-Als u een proefabonnement op Microsoft 365 E5 wilt toevoegen en uw gebruikersaccounts wilt configureren met licenties, voert u de instructies uit in fase [3](lightweight-base-configuration-microsoft-365-enterprise.md#phase-3-add-a-microsoft-365-e5-trial-subscription) van de testlaborator voor lichtgewicht basisconfiguratie.
+Als u een Microsoft 365 E5 proefabonnement wilt toevoegen en uw gebruikersaccounts wilt configureren met licenties, voert u de instructies uit in fase [3](lightweight-base-configuration-microsoft-365-enterprise.md#phase-3-add-a-microsoft-365-e5-trial-subscription) van de testlaborator voor lichte basisconfiguratie.
 
   
 ## <a name="results"></a>Resultaten

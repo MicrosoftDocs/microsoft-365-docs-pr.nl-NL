@@ -35,7 +35,7 @@ Wanneer de criteria in een DLP-beleid (Data Loss Prevention) overeenkomen met de
 
 ## <a name="workloads"></a>Werkbelastingen
 
-Het [DLP-waarschuwingsbeheerdashboard](https://compliance.microsoft.com/datalossprevention?viewid=dlpalerts), in het [Microsoft 365-compliancecentrum](https://compliance.microsoft.com/), bevat waarschuwingen voor DLP-beleid voor deze werkbelastingen:
+Het [DLP-waarschuwingsbeheerdashboard](https://compliance.microsoft.com/datalossprevention?viewid=dlpalerts), in [het Microsoft 365 compliancecentrum](https://compliance.microsoft.com/), bevat waarschuwingen voor DLP-beleid voor deze werkbelastingen:
 
 - Exchange
 - SharePoint
@@ -44,7 +44,7 @@ Het [DLP-waarschuwingsbeheerdashboard](https://compliance.microsoft.com/dataloss
 - Windows 10-apparaten 
 
 > [!TIP]
-> Klanten die [Endpoint DLP gebruiken](endpoint-dlp-learn-about.md) die in aanmerking komen voor [Teams DLP,](dlp-microsoft-teams.md) zien hun waarschuwingen voor DLP-eindpuntbeleid en Teams DLP-beleidswaarschuwingen in het DLP-waarschuwingsbeheerdashboard.
+> Klanten die [Endpoint DLP](endpoint-dlp-learn-about.md) gebruiken die in aanmerking komen voor [Teams DLP,](dlp-microsoft-teams.md) zien hun waarschuwingen voor DLP-eindpuntbeleid en Teams DLP-beleidswaarschuwingen in het DLP-dashboard voor waarschuwingsbeheer.
 
 ## <a name="single-alert-and-aggregate-alert"></a>Eén waarschuwings- en statistische waarschuwing
 
@@ -58,7 +58,7 @@ Waarschuwingen voor een enkele gebeurtenis worden meestal gebruikt in beleidsreg
 
 Hier zijn enkele gebeurtenissen die zijn gekoppeld aan een waarschuwing. In de gebruikersinterface kunt u een bepaalde gebeurtenis kiezen om de details ervan weer te geven. 
 
-### <a name="event-details"></a>Gebeurtenisdetails
+### <a name="event-details"></a>Details van de gebeurtenis
 
 |Eigenschapsnaam  |Beschrijving  |Gebeurtenistypen  |
 |---------|---------|---------|
@@ -75,18 +75,18 @@ Hier zijn enkele gebeurtenissen die zijn gekoppeld aan een waarschuwing. In de g
 |IP-adres | IP-adres van de computer waarop de DLP-beleidsmatch heeft plaatsgevonden | apparaatgebeurtenissen|
 |sha1 |SHA-1 hash van het bestand | apparaatgebeurtenissen|
 |sha256 | SHA-256 hash van het bestand | apparaatgebeurtenissen|
-|MDATP-apparaat-id | endpoint-apparaat MDATP-id|
-|bestandsgrootte | grootte van het bestand| SharePoint-, OneDrive- en apparaatgebeurtenissen|
-|bestandspad | het absolute pad van het item dat betrokken is bij het DLP-beleid | Gebeurtenissen in SharePoint, OneDrive en apparaten|
-|e-mailontvangers |als een e-mailbericht het gevoelige item was dat overeen kwam met het DLP-beleid, bevat dit veld de geadresseerden van die e-mail| Exchange-gebeurtenissen|
-|onderwerp e-mail |onderwerp van het e-mailbericht dat overeen komt met het DLP-beleid |Exchange-gebeurtenissen|
-|e-mailbijlagen | namen van de bijlagen in de e-mail die overeenkomen met het DLP-beleid| Exchange-gebeurtenissen|
-|site-eigenaar |naam van de site-eigenaar| SharePoint- en OneDrive-gebeurtenissen|
-|site-URL |vol met de URL van de SharePoint- of OneDrive-site waar de DLP-beleidsmatch plaatsvond |SharePoint- en OneDrive-gebeurtenissen|
-|bestand gemaakt |tijd van het maken van het bestand dat overeenkomen met het DLP-beleid |SharePoint- en OneDrive-gebeurtenissen|
-|bestand dat het laatst is gewijzigd | de laatste keer dat het bestand dat overeen kwam met het DLP-beleid is gewijzigd | SharePoint- en OneDrive-gebeurtenissen|
-|bestandsgrootte | grootte van het bestand dat overeenkomen met het DLP-beleid |SharePoint- en OneDrive-gebeurtenissen|
-|bestandseigenaar |eigenaar van het bestand dat is afgestemd op het DLP-beleid |SharePoint- en OneDrive-gebeurtenissen|  
+|MDATP apparaat-id | endpoint device MDATP ID|
+|bestandsgrootte | grootte van het bestand| SharePoint, OneDrive en apparaatgebeurtenissen|
+|bestandspad | het absolute pad van het item dat betrokken is bij het DLP-beleid | SharePoint, OneDrive en apparatengebeurtenissen|
+|e-mailontvangers |als een e-mailbericht het gevoelige item was dat overeen kwam met het DLP-beleid, bevat dit veld de geadresseerden van die e-mail| Exchange gebeurtenissen|
+|onderwerp e-mail |onderwerp van het e-mailbericht dat overeen komt met het DLP-beleid |Exchange gebeurtenissen|
+|e-mailbijlagen | namen van de bijlagen in de e-mail die overeenkomen met het DLP-beleid| Exchange gebeurtenissen|
+|site-eigenaar |naam van de site-eigenaar| SharePoint en OneDrive gebeurtenissen|
+|site-URL |vol met de URL van de SharePoint of OneDrive site waar de DLP-beleidsmatch heeft plaatsgevonden |SharePoint en OneDrive gebeurtenissen|
+|bestand gemaakt |tijd van het maken van het bestand dat overeenkomen met het DLP-beleid |SharePoint en OneDrive gebeurtenissen|
+|bestand dat het laatst is gewijzigd | de laatste keer dat het bestand dat overeen kwam met het DLP-beleid is gewijzigd | SharePoint en OneDrive gebeurtenissen|
+|bestandsgrootte | grootte van het bestand dat overeenkomen met het DLP-beleid |SharePoint en OneDrive gebeurtenissen|
+|bestandseigenaar |eigenaar van het bestand dat is afgestemd op het DLP-beleid |SharePoint en OneDrive gebeurtenissen|  
 
 ### <a name="policy-details"></a>Beleidsdetails
 

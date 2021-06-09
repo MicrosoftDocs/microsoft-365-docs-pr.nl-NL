@@ -524,7 +524,7 @@ Als u de rapporten wilt bekijken en gebruiken die in dit artikel worden beschrev
 - **Organisatiebeheer**
 - **Beveiligingsbeheerder**
 - **Beveiligingslezer**
-- **Globale lezer**
+- **Algemene lezer**
 
 Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
 

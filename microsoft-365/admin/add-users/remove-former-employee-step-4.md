@@ -185,7 +185,7 @@ Als u toegang wilt geven tot de e-mailberichten, agenda, taken en contactpersone
 > [!TIP]
 > Als u slechts een paar items uit een Outlook gegevensbestand (.pst) wilt importeren of herstellen, kunt u het Outlook gegevensbestand openen. Sleep vervolgens in het navigatiedeelvenster de items van Outlook mappen met gegevensbestand naar uw bestaande Outlook mappen. 
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Beheerders toevoegen en verwijderen op een OneDrive account](/sharepoint/manage-user-profiles#add-and-remove-admins-for-a-users-onedrive) (artikel)\
 [Een verwijderde OneDrive](/onedrive/restore-deleted-onedrive) (artikel)\ herstellen

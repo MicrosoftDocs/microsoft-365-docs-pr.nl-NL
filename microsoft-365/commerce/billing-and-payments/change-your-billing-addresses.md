@@ -159,7 +159,7 @@ U kunt ook het alternatieve e-mailadres van andere globale en factureringsbeheer
 
 3. Typ in **het deelvenster Gebruikersrollen** bewerken het alternatieve e-mailadres dat u wilt gebruiken en selecteer **Opslaan.**
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Uw rekening of factuur bekijken](view-your-bill-or-invoice.md) (artikel)\
 [Uw factuur of factuur begrijpen](understand-your-invoice2.md) (artikel)\

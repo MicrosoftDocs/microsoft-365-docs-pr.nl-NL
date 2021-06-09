@@ -50,7 +50,7 @@ U kunt overstappen zonder dat dit van invloed is op uw bestaande Defender voor E
 ## <a name="schema-tables-in-microsoft-365-defender-only"></a>Alleen tabellen in Microsoft 365 Defender
 Het [geavanceerde Microsoft 365 Defender biedt](advanced-hunting-schema-tables.md) extra tabellen met gegevens uit verschillende Microsoft 365 beveiligingsoplossingen. De volgende tabellen zijn alleen beschikbaar in Microsoft 365 Defender:
 
-| Tabelnaam | Omschrijving |
+| Tabelnaam | Beschrijving |
 |------------|-------------|
 | [AlertEvidence](advanced-hunting-alertevidence-table.md) | Bestanden, IP-adressen, URL's, gebruikers of apparaten die zijn gekoppeld aan waarschuwingen |
 | [AlertInfo](advanced-hunting-alertinfo-table.md) | Waarschuwingen van Microsoft Defender voor Eindpunt, Microsoft Defender voor Office 365, Microsoft Cloud App Security en Microsoft Defender voor identiteit, inclusief ernstsinformatie en bedreigingscategorieën  |

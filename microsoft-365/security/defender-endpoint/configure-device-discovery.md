@@ -40,17 +40,17 @@ ms.locfileid: "51765249"
 
 Detectie kan worden geconfigureerd in de standaard- of basismodus. Gebruik de standaardoptie om apparaten in uw netwerk actief te zoeken, waardoor de detectie van eindpunten beter wordt gegarandeerd en de apparaatclassificatie uitgebreider is. 
 
-U kunt de lijst met apparaten aanpassen die worden gebruikt om standaarddetectie uit te voeren. U kunt standaarddetectie inschakelen op alle onboarded-apparaten die deze mogelijkheid ondersteunen (momenteel alleen Windows 10-apparaten) of een subset of subset van uw apparaten selecteren door hun apparaatlabels op te geven. 
+U kunt de lijst met apparaten aanpassen die worden gebruikt om standaarddetectie uit te voeren. U kunt standaarddetectie inschakelen op alle onboarded-apparaten die deze mogelijkheid ook ondersteunen (momenteel alleen Windows 10-apparaten) of een subset of subset van uw apparaten selecteren door hun apparaatlabels op te geven. 
 
 
 > [!IMPORTANT]
-> Voor een voorbeeld moet u eerst de preview-functies in het Microsoft Defender-beveiligingscentrum in te zetten.
-> Vervolgens hebt u toegang tot de configuratie voor apparaatdetectie in het Microsoft 365-beveiligingscentrum. De lijst met niet-beheerde apparaten en beveiligingsaanbevelingen is beschikbaar in zowel het Microsoft Defender-beveiligingscentrum als het Microsoft 365-beveiligingscentrum, terwijl de dashboardtegels alleen beschikbaar zijn in het Microsoft 365-beveiligingscentrum.
+> Voor een voorbeeld moet u eerst de preview-functies in Microsoft Defender-beveiligingscentrum.
+> Vervolgens hebt u toegang tot de configuratie voor apparaatdetectie in Microsoft 365 beveiligingscentrum. De lijst met niet-beheerde apparaten en beveiligingsaanbevelingen is beschikbaar in zowel Microsoft Defender-beveiligingscentrum als Microsoft 365 beveiligingscentrum, terwijl de dashboardtegels alleen beschikbaar zijn in Microsoft 365 beveiligingscentrum.
 
 
-Volg de volgende configuratiestappen in het Microsoft 365-beveiligingscentrum:
+Volg de volgende configuratiestappen in Microsoft 365 beveiligingscentrum:
 
-1.  Ga naar **Instellingen > apparaatdetectie**.
+1.  Navigeer **naar Instellingen > apparaatdetectie**.
 2.  Selecteer de detectiemodus die u wilt gebruiken op uw onboarded-apparaten. 
 3.  Als u hebt geselecteerd om standaarddetectie te gebruiken, selecteert u welke apparaten u wilt gebruiken voor actieve detectie: alle apparaten of op een subset door de apparaatlabels op te geven.
 4. Klik op **Opslaan**.

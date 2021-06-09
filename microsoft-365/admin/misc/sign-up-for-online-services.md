@@ -19,7 +19,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 4f374dc7-b96c-49c7-80ed-554716ba0138
-description: 'Lees meer over het gebruik van e-mail van werk of school om u aan te melden voor Microsoft Online Services zonder dat u de IT-afdeling gebruikt. '
+description: 'Leer hoe u werk- of school-e-mail gebruikt om u aan te melden voor onlineservices van Microsoft zonder dat de IT-afdeling erbij betrokken is. '
 ms.openlocfilehash: ad46d698398da32d88d0c1617499b326e8fcb163
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
@@ -27,7 +27,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48644865"
 ---
-# <a name="your-domain-may-be-in-use-if-someone-else-signed-up-with-it"></a>Uw domein kan in gebruik zijn als iemand anders zich heeft aangemeld
+# <a name="your-domain-may-be-in-use-if-someone-else-signed-up-with-it"></a>Uw domein is mogelijk in gebruik als iemand anders zich met het domein heeft aangemeld
 
 Gebruikers met een e-mailadres voor werk of school kunnen [zich registreren voor enkele onlineservices van Microsoft](self-service-sign-up.md) zonder tussenkomst van hun IT-afdeling. Dit geldt bijvoorbeeld voor services als Office 365, Power BI en Rights Management Services. Door de selfserviceregistratie uit te voeren, waarbij ze hun e-mailadres voor hun werk of school opgeven, hebben ze toegang tot functies van de service. Ze kunnen de service echter niet beheren (gebruikers toevoegen, licenties toevoegen, het domein beheren, enzovoort). 
   

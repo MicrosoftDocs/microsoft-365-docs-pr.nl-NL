@@ -18,10 +18,10 @@ ms.locfileid: "50925788"
 ---
 # <a name="assign-licenses"></a>Licenties toewijzen
 
-Als onderdeel van de voorbereidingen om u aan te melden bij Microsoft Managed Desktop, moet u er zeker van zijn dat u de benodigde licenties hebt verkregen. Als u de licenties nog niet [](../get-ready/prerequisites.md#more-about-licenses) hebt verkregen, zie Meer informatie over licenties voor meer informatie over welke licenties u precies nodig hebt.
+Als onderdeel van de voorbereidingen om u in te Microsoft Managed Desktop, moet u er zeker van zijn dat u de benodigde licenties hebt verkregen. Als u de licenties nog niet [](../get-ready/prerequisites.md#more-about-licenses) hebt verkregen, zie Meer informatie over licenties voor meer informatie over welke licenties u precies nodig hebt.
 
 
-Als uw licenties allemaal in een rij staan, is het nu tijd om ze toe te wijzen aan uw gebruikers. Als u licenties wilt toewijzen, wordt u aangeraden gebruik te maken van de groepslicentiefunctie [van](/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal) Azure Active Directory.
+Als uw licenties allemaal in een rij staan, is het nu tijd om ze toe te wijzen aan uw gebruikers. Als u licenties wilt toewijzen, raden we u aan gebruik te maken van de groepslicentiefunctie [van](/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal) Azure Active Directory.
 
 Als u problemen hebt met licentietoewijzing, neem dan contact op met de ondersteuning van [beheerder.](../working-with-managed-desktop/admin-support.md)
 

@@ -44,7 +44,7 @@ Het API-antwoord bevat [bedreigings- & vulnerability management](next-gen-thre
 
 ## <a name="methods"></a>Methoden
 
-Methode | Gegevenstype | Omschrijving
+Methode | Gegevenstype | Beschrijving
 :---|:---|:---
 [Alle herstelactiviteiten weergeven](get-remediation-all-activities.md) | Onderzoeksverzameling | Retourneert informatie over alle herstelactiviteiten.
 [Weergegeven apparaten van één herstelactiviteit weergeven](get-remediation-exposed-devices-activities.md) | Onderzoeksentiteit | Retourneert informatie over blootgestelde apparaten voor de opgegeven herstelactiviteit.
@@ -54,7 +54,7 @@ Meer informatie over [herstelactiviteiten.](tvm-remediation.md)
 
 ## <a name="properties"></a>Eigenschappen
 
-Eigenschaps-id | Gegevenstype | Omschrijving
+Eigenschaps-id | Gegevenstype | Beschrijving
 :---|:---|:---
 categorie | Tekenreeks | Categorie van de herstelactiviteit (software-/beveiligingsconfiguratie)
 completerEmail | Tekenreeks | Als de herstelactiviteit handmatig is voltooid door iemand, bevat deze kolom zijn of haar e-mail

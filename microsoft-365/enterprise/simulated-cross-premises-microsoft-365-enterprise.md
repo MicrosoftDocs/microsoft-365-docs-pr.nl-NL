@@ -26,7 +26,7 @@ ms.locfileid: "50926030"
 ---
 # <a name="simulated-cross-premises-virtual-network-in-a-microsoft-365-test-environment"></a>Gesimuleerd cross-premises virtueel netwerk in een Microsoft 365-testomgeving
 
-*Deze testlaborator kan worden gebruikt voor testomgevingen van Microsoft 365 voor bedrijven en Office 365 Enterprise.*
+*Deze testlaborator kan worden gebruikt voor zowel Microsoft 365 voor bedrijven als Office 365 Enterprise testomgevingen.*
 
 In dit artikel wordt stapsgewijs uitgelegd hoe u een gesimuleerde hybride cloudomgeving met Microsoft Azure maakt met behulp van twee virtuele Azure-netwerken. Dit is de resulterende configuratie. 
   
@@ -59,12 +59,12 @@ Er zijn drie belangrijke fasen om deze testomgeving in te stellen:
 > [!NOTE]
 > Voor deze configuratie is een betaald Azure-abonnement vereist. 
 
-U kunt de resulterende omgeving gebruiken om de functies en functionaliteit van [Microsoft 365](https://www.microsoft.com/microsoft-365/enterprise) voor bedrijven te testen met extra [Test Lab Guides](m365-enterprise-test-lab-guides.md) of alleen.
+U kunt de resulterende omgeving gebruiken [](https://www.microsoft.com/microsoft-365/enterprise) om de functies en functionaliteit van Microsoft 365 voor bedrijven te testen met extra [Test Lab Guides](m365-enterprise-test-lab-guides.md) of alleen.
 
 ![Testlabrichtlijnen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
-> Ga naar [Microsoft 365 for enterprise Test Lab Guide Stack](../downloads/Microsoft365EnterpriseTLGStack.pdf) voor een visuele kaart van alle artikelen in de Microsoft 365 voor enterprise Test Lab Guide stack.
+> Ga naar [Microsoft 365 voor enterprise Test Lab Guide Stack](../downloads/Microsoft365EnterpriseTLGStack.pdf) voor een visuele kaart van alle artikelen in de Microsoft 365 voor enterprise Test Lab Guide stack.
 
 ## <a name="phase-1-configure-the-testlab-virtual-network"></a>Fase 1: het virtuele TestLab-netwerk configureren.
 

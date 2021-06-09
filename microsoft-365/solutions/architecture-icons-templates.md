@@ -1,6 +1,6 @@
 ---
-title: Microsoft 365 Architecture-pictogrammen en-sjablonen
-description: Pictogrammen voor het maken van architectuur diagrammen voor Microsoft 365.
+title: Microsoft 365 architectuurpictogrammen en -sjablonen
+description: Pictogrammen voor gebruik in architectuurdiagrammen voor Microsoft 365.
 ms.author: samanro
 author: samanro
 manager: bcarter
@@ -17,34 +17,34 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 12/16/2020
 ms.locfileid: "49688729"
 ---
-# <a name="microsoft-365-architecture-icons-and-templates"></a>Microsoft 365 Architecture-pictogrammen en-sjablonen
+# <a name="microsoft-365-architecture-icons-and-templates"></a>Microsoft 365 architectuurpictogrammen en -sjablonen
 
-U helpen onze partners en klanten ontwerpen en architect nieuwe oplossingen zijn belangrijk. Architectuur diagrammen zoals deze in onze richtlijnen kunnen helpen bij het communiceren van ontwerpbeslissingen en de relaties tussen onderdelen in een omgeving. We gebruiken een reeks symbolen en pictogrammen samen met Visio-sjablonen om de architectuur diagrammen te maken en deze hulpmiddelen te bieden om u te helpen bij het maken van een aangepast Architecture diagram voor uw volgende oplossing.
+Het is belangrijk om onze partners en klanten te helpen bij het ontwerpen en ontwerpen van nieuwe oplossingen. Architectuurdiagrammen zoals die in onze richtlijnen worden opgenomen, kunnen helpen bij het communiceren van ontwerpbeslissingen en de relaties tussen onderdelen in een omgeving. We gebruiken een set symbolen en pictogrammen samen met Visio-sjablonen om de architectuurdiagrammen te maken die we producteren en bieden deze hulpmiddelen hier om u te helpen een aangepast architectuurdiagram te maken voor uw volgende oplossing.
 
-U kunt deze pictogrammen, symbolen en sjablonen weergeven in de downloadbare bestanden op de volgende pagina's:
+U kunt deze pictogrammen, symbolen en sjablonen in actie zien in downloadbare bestanden die beschikbaar zijn op de volgende pagina's:
 
-- [Productiviteits illustraties](productivity-illustrations.md)
+- [Productiviteitsillustraties](productivity-illustrations.md)
 - [Modellen voor Microsoft-cloudarchitectuur](cloud-architecture-models.md)
 
-## <a name="terms-and-download"></a>Voorwaarden en download
+## <a name="terms-and-download"></a>Voorwaarden en downloaden
 
-Microsoft staat het gebruik van deze pictogrammen toe in architecturale diagrammen, trainingsmateriaal of documentatie. U mag alleen de pictogrammen kopiëren, distribueren en weergeven voor het toegestane gebruik, tenzij u expliciete toestemming van Microsoft hebt toegekend. Microsoft reserves all other rights.
+Microsoft staat het gebruik van deze pictogrammen toe in architectuurdiagrammen, trainingsmateriaal of documentatie. U mag de pictogrammen alleen kopiëren, distribueren en weergeven voor het toegestane gebruik, tenzij microsoft expliciete toestemming heeft verleend. Microsoft reserves all other rights.
 
-
- > [!div class="button"]
- > [SVG-en PNG-pictogrammen downloaden](https://go.microsoft.com/fwlink/?linkid=869455)
 
  > [!div class="button"]
- > [Visio-sjablonen en-stencils downloaden](https://go.microsoft.com/fwlink/?linkid=2056186)
+ > [SVG- en PNG-pictogrammen downloaden](https://go.microsoft.com/fwlink/?linkid=869455)
 
-## <a name="example-architecture-diagrams"></a>Voorbeelden van architectuur diagrammen
+ > [!div class="button"]
+ > [Sjablonen Visio stencils downloaden](https://go.microsoft.com/fwlink/?linkid=2056186)
 
-U kunt deze pictogrammen en sjablonen gebruiken om diagrammen te maken zoals de volgende voorbeelden:
+## <a name="example-architecture-diagrams"></a>Voorbeeldarchitectuurdiagrammen
 
-1. Voorbeeld van een zoek architectuurdiagram voor SharePoint:
+U kunt deze pictogrammen en sjablonen gebruiken om diagrammen te maken, zoals de volgende voorbeelden:
 
-    ![Voorbeeld van zoek architectuur voor SharePoint](../media/configure-search-for-multi-geo-image1-1.png)
+1. Voorbeeld van zoekarchitectuurdiagram voor SharePoint:
 
-2. Architectuurdiagram levenscyclus van teams:
+    ![Voorbeeld van zoekarchitectuur voor SharePoint](../media/configure-search-for-multi-geo-image1-1.png)
 
-    ![Bewaar cyclus van teams](../media/TeamsRetentionLifecycle.png)
+2. Teams architectuurdiagram voor de bewaarcyclus:
+
+    ![Teams levenscyclus van bewaring](../media/TeamsRetentionLifecycle.png)

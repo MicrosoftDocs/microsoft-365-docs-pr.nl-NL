@@ -1,5 +1,5 @@
 ---
-title: Gebeurtenissen voor het verminderen van aanvalsoppervlakken bekijken
+title: Gebeurtenissen voor het verminderen van kwetsbaarheid voor aanvallen bekijken
 description: Importeer aangepaste weergaven om gebeurtenissen in de surface-beperking van aanvallen te zien.
 keywords: event view, exploit guard, audit, review, events
 search.product: eADQiWindows 10XVcnh
@@ -21,7 +21,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 06/04/2021
 ms.locfileid: "52769315"
 ---
-# <a name="view-attack-surface-reduction-events"></a>Gebeurtenissen voor het verminderen van aanvalsoppervlakken bekijken
+# <a name="view-attack-surface-reduction-events"></a>Gebeurtenissen voor het verminderen van kwetsbaarheid voor aanvallen bekijken
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -147,7 +147,7 @@ U hebt toegang tot deze gebeurtenissen in Windows Viewer voor gebeurtenissen:
 
    ![Animatie met behulp van Gebeurtenisviewer](/windows/security/threat-protection/images/event-viewer)
 
-Functie | Provider/bron | Gebeurtenis-id | Omschrijving
+Functie | Provider/bron | Gebeurtenis-id | Beschrijving
 :-|:-|:-:|:-
 Bescherming tegen misbruik | Security-Mitigations (kernelmodus/gebruikersmodus) | 1 | ACG-audit
 Bescherming tegen misbruik | Security-Mitigations (kernelmodus/gebruikersmodus) | 2 | ACG afdwingen

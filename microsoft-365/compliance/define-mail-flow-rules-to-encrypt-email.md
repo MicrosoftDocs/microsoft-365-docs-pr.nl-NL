@@ -116,7 +116,7 @@ U kunt versleuteling verwijderen die toegankelijk is voor uw organisatie. Dit be
 
 7. Selecteer **in Ga als volgt** te werk en selecteer De **berichtbeveiliging** wijzigen \> **Office 365-berichtversleuteling en rechtenbescherming**.
 
-8. Selecteer **Opslaan**.
+8. Klik op **Opslaan**.
 
 ## <a name="create-mail-flow-rules-for-office-365-message-encryption-without-the-new-capabilities"></a>E-mailstroomregels maken voor Office 365-berichtversleuteling zonder de nieuwe mogelijkheden
 

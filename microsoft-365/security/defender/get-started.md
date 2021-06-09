@@ -33,7 +33,7 @@ ms.locfileid: "51759820"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-Microsoft 365 Defender is een geïntegreerde ervaring waar u de beveiliging in uw hele bedrijf kunt bewaken en beheren. Met de geïntegreerde waarschuwingen voor identiteiten, eindpunten, gegevens, apps, e-mail en samenwerkingshulpmiddelen gebeurt het onderzoeken en beantwoorden van bedreigingen nu op een centrale locatie. 
+Microsoft 365 Defender is een geïntegreerde ervaring waarin u de beveiliging in uw hele bedrijf kunt bewaken en beheren. Met de geïntegreerde waarschuwingen voor identiteiten, eindpunten, gegevens, apps, e-mail en samenwerkingshulpmiddelen gebeurt het onderzoeken en beantwoorden van bedreigingen nu op een centrale locatie. 
 
 Of u nu nieuw bent in de Microsoft-suite met beveiligingsproducten of bekend bent met afzonderlijke werkstromen, dit onderwerp begeleidt u in de eenvoudige stappen die u moet nemen om aan de slag te gaan met Microsoft 365 Defender.
 
@@ -41,17 +41,17 @@ Of u nu nieuw bent in de Microsoft-suite met beveiligingsproducten of bekend ben
 
 Over het algemeen moet u de volgende stappen ondernemen om aan de slag te gaan:
 
-- **[Stap 1: Microsoft 365 Defender in-](m365d-enable.md)** <br>
+- **[Stap 1: De Defender Microsoft 365 in](m365d-enable.md)** <br>
     U moet eerst de service inleveren door ervoor te zorgen dat u de juiste licentie hebt en rollen zijn toegewezen, zodat u toegang hebt tot de portal. 
 
     U gaat vervolgens door enkele eenvoudige instellingen en vervolgens kunt u bevestigen dat de service is aan.
 
 - **[Stap 2: Ondersteunde services implementeren](deploy-supported-services.md)** <br>
-    Nadat u de eerste stappen hebt doorlopen, moet u de ondersteunde services implementeren die worden aangeboden bij Microsoft 365 Defender. Het implementeren van services vergroot uw zichtbaarheid in de signalen van assets in uw netwerk.
+    Nadat u de eerste stappen hebt doorlopen, moet u de ondersteunde services implementeren die worden Microsoft 365 Defender. Het implementeren van services vergroot uw zichtbaarheid in de signalen van assets in uw netwerk.
 
 
 ## <a name="key-capabilities"></a>Belangrijke mogelijkheden
-Als u Microsoft 365 Defender in- en uitrolt, hebt u toegang tot de volgende belangrijke mogelijkheden:
+Als u Microsoft 365 Defender in- en implementeert, hebt u toegang tot de volgende belangrijke mogelijkheden:
 
 
 | Mogelijkheid | Beschrijving |

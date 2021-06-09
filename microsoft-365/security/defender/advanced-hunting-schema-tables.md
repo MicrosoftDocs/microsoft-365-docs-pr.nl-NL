@@ -55,7 +55,7 @@ Als u snel toegang wilt tot de schemaverwijzing, selecteert u de actie Verwijzin
 ## <a name="learn-the-schema-tables"></a>De schematabellen leren
 In de volgende verwijzing worden alle tabellen in het schema weergegeven. Elke tabelnaam wordt koppelingen naar een pagina met de kolomnamen voor die tabel. Tabel- en kolomnamen worden ook weergegeven in het beveiligingscentrum als onderdeel van de schemaweergave op het geavanceerde zoekscherm.
 
-| Tabelnaam | Omschrijving |
+| Tabelnaam | Beschrijving |
 |------------|-------------|
 | **[AlertEvidence](advanced-hunting-alertevidence-table.md)** | Bestanden, IP-adressen, URL's, gebruikers of apparaten die zijn gekoppeld aan waarschuwingen |
 | **[AlertInfo](advanced-hunting-alertinfo-table.md)** | Waarschuwingen van Microsoft Defender voor Eindpunt, Microsoft Defender voor Office 365, Microsoft Cloud App Security en Microsoft Defender voor identiteit, inclusief ernstsinformatie en bedreigingscategorisatie  |

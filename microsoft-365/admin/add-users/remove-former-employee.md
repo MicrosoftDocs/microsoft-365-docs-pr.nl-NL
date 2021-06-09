@@ -59,7 +59,7 @@ U moet een globale beheerder zijn om de stappen in deze oplossing uit te voeren.
 |[Stap 6 : de licentie voor het Microsoft 365 verwijderen van een voormalige werknemer](remove-former-employee-step-6.md) <br/> |Als u een licentie verwijdert, kunt u deze aan iemand anders toewijzen. U kunt de licentie ook wissen, zodat u er niet voor hoeft te betalen totdat u een andere persoon inhuurt.  <br/><br/> Als u een licentie verwijdert of wist, worden de oude e-mailberichten, de contactpersonen en de agenda van de gebruiker gedurende **30 dagen** bewaard. Daarna worden ze definitief gewist. Als u de licentie van een gebruiker verwijdert of wist, maar het account niet wist, blijft de inhoud van de OneDrive van de gebruiker nog maximaal dertig dagen toegankelijk.  <br/> |
 |[Stap 7 - Het gebruikersaccount van een voormalige werknemer verwijderen](remove-former-employee-step-7.md) <br/> |Hiermee wordt het account verwijderd uit uw beheercentrum. Houdt alles schoon. <br/> |
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Een gebruiker herstellen](restore-user.md) (artikel)\
 [Een nieuwe werknemer toevoegen aan Microsoft 365](add-new-employee.md) (artikel)\

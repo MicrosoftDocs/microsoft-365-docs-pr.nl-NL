@@ -124,6 +124,6 @@ Ga in het linkernavigatiemenu naar **Instellingen**  >  **Meldingen.** U kunt hi
 
 Nadat u de mobiele beheerder hebt gedownload, kunt u gebruikers toevoegen om aan de slag te gaan.
   
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Trainingsvideo's voor Microsoft 365 voor bedrijven](../../business-video/index.yml)

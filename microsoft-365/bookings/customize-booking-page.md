@@ -1,5 +1,5 @@
 ---
-title: Uw reserverings pagina aanpassen en publiceren
+title: Uw reserveringspagina aanpassen en publiceren
 ms.author: kwekua
 author: kwekuako
 manager: scotv
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: bookings
 localization_priority: Normal
 ms.assetid: 116d7a84-a7a0-4911-a1e9-debb2cca7c43
-description: Wijzig het kleurenthema van uw reserverings pagina in de app Microsoft bookings.
+description: Wijzig het kleurenthema van uw boekingspagina in de Microsoft Bookings-app.
 ms.openlocfilehash: c930c06300a83ee17f1efdaaf42761ddfdebdd7b
 ms.sourcegitcommit: d76a4c07f0be2938372bdfae50e0e4d523bd8e9f
 ms.translationtype: MT
@@ -16,49 +16,49 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 10/14/2020
 ms.locfileid: "48456373"
 ---
-# <a name="customize-and-publish-your-booking-page"></a>Uw reserverings pagina aanpassen en publiceren
+# <a name="customize-and-publish-your-booking-page"></a>Uw reserveringspagina aanpassen en publiceren
 
-Op de pagina met de boekings pagina kunt u instellen hoe de reserverings pagina van een klant te zien is. Wanneer u de reserverings pagina hebt aangepast en gepubliceerd, zullen uw klanten deze gebruiken om afspraken met u te boeken.
+Op de boekingspagina stelt u in hoe de boekingspagina van uw externe klant eruit zal zien. Nadat u uw reserveringspagina hebt aangepast en gepubliceerd, zullen uw klanten deze gebruiken om afspraken met u te boeken.
 
-Als u de reserverings pagina wilt aanpassen, meldt u zich aan bij [Office.com](https://office.com)en gaat u naar **boekings boekings** \> **pagina**. U kunt de reserverings pagina aanpassen met de volgende opties. Als u uw boekings pagina hebt ingesteld, kunt u deze publiceren zodat klanten met u afspraken kunnen maken.
+Als u uw reserveringspagina wilt aanpassen, meld u [zich aan bij Office.com](https://office.com)en gaat u naar **de boekingspagina van Bookings.** \>  U kunt de reserveringspagina aanpassen met de volgende opties. Nadat u uw boekingspagina hebt ingesteld, kunt u deze publiceren, zodat klanten met u afspraken kunnen maken.
 
-1. In Microsoft 365 selecteert u het startprogramma voor apps en selecteert u vervolgens **Bookings**.
+1. Selecteer Microsoft 365 start voor apps en selecteer **vervolgens Bookings**.
 
 2. Selecteer **Reserveringspagina** in het navigatiedeelvenster.
 
-In de sectie hieronder vindt u informatie over het instellen van uw boekings pagina en het publiceren van uw pagina.
+In de onderstaande sectie vindt u informatie over het instellen van uw boekingspagina en hoe u uw pagina publiceert.
 
-- De status van de **reserverings pagina** Publiceer uw agenda Live om uw service bookable te maken. U hebt de opties om de koppeling met uw agenda te delen via e-mail en Twitter, en om de knop **nu boeken** toe te voegen aan een Facebook-pagina. De koppeling kan ook worden ingesloten op de website van uw organisatie.
+- **Status van reserveringspagina** Publiceer uw agenda live om uw service te boeken. U hebt de opties om de koppeling naar uw agenda te delen via e-mail en Twitter en om een **knop Nu** boeken toe te voegen aan een Facebook-pagina. De koppeling kan ook worden ingesloten op de website van uw organisatie.
 
-    De interne reserverings pagina ziet er als volgt uit:
+    De interne boekingspagina ziet er als volgende uit:
 
-    :::image type="content" source="media/bookings-Self-Service_2.jpg" alt-text="De pagina Bookings":::
+    :::image type="content" source="media/bookings-Self-Service_2.jpg" alt-text="De pagina Boekingen":::
 
-- **Toegangsbeheer voor boekings pagina: een Microsoft 365-account voor de boek**  Als u deze optie selecteert, kunnen de personen in uw organisatie de gewenste services niet weergeven. Toegang tot de pagina wordt geautoriseerd via Credential checks om ervoor te zorgen dat de gebruiker lid is van een account binnen de Tenant.
+- **Toegangsbeheer voor boekingspagina's: Een account Microsoft 365 van mijn organisatie** vereisen om te boeken  Als u deze optie selecteert, kunnen alleen personen binnen uw organisatie uw pagina bekijken of services boeken. Toegang tot de pagina is geautoriseerd via referentiescontroles om ervoor te zorgen dat de bezoeker deel uit maakt van een account binnen de tenant.
 
-- **Toegangsbeheer voor boekings pagina: het indexeren van de boekings pagina voor direct zoeken uitschakelen** Als u deze instelling inschakelt, wordt uw pagina niet weergegeven in de zoekresultaten voor Google, Bing of andere zoekprogramma's. Als u dit selectievakje inschakelt, krijgt u de mogelijkheid om de pagina te openen met de koppeling naar de gegenereerde pagina.
+- **Toegangsbeheer voor reserveringspagina: Directe indexering van de reserveringspagina uitschakelen** Met deze instelling wordt voorkomen dat uw pagina wordt weergegeven in de zoekresultaten voor Google, Bing of andere zoekmachines. Als u dit vak selecteert, wordt ervoor gezorgd dat de toegang tot de pagina is beperkt tot de gegenereerde paginakoppeling.
 
-- **Toestemming voor klant datagebruik** Wanneer deze optie is ingeschakeld, wordt de gebruiker of de klant toestemming gegeven om de gegevens op de pagina Self-Service te gebruiken. Als u de boeking wilt voltooien, moet het vak door de gebruiker zijn gecontroleerd.
+- **Toestemming voor het gebruik van klantgegevens** Wanneer deze optie is geselecteerd, wordt tekst weergegeven waarin de gebruiker of de klant toestemming vraagt om zijn of haar gegevens te gebruiken op de Self-Service pagina. Het vakje moet worden ingeschakeld door de gebruiker om de reservering te voltooien.
 
-- Het **plannen van beleid**, **e-mail meldingen**en **personeelsleden** deze instellingen zijn vergelijkbaar met de instellingen voor de services op het tabblad Services.
+- **Planningsbeleid,** **E-mailmeldingen** en **Personeel** Al deze instellingen zijn vergelijkbaar met de instellingen die beschikbaar zijn voor elke service op het tabblad Services.
 
-- **Beschikbaarheid** Dit is een optie voor het instellen van specifieke tijds-en datumbereikwaarden voor een service. Anders zijn reserveringen in uw kantooruren standaard. U kunt hier de optie **beschikbaarheid** gebruiken voor scenario's, zoals feestdagen of langere uren.
+- **Beschikbaarheid** Dit is een optie om specifieke beschikbaarheidsbereiken voor een service in te stellen. Anders is Bookings standaard ingesteld op uw werkuren. U kunt de optie **Beschikbaarheid hier** gebruiken voor scenario's zoals feestdagen of verlengde uren.
 
-- **De pagina aanpassen** Kies kleuren en logo's die worden weergegeven op de pagina Self-Service, bijvoorbeeld voor merk consistentie.
+- **Uw pagina aanpassen** Kies kleuren en logo's die op de Self-Service worden weergegeven, bijvoorbeeld voor merkconsistentie.
 
-- **Instellingen voor regio en tijdzone** Hier kunt u voorkeuren voor uw tijdzone en taal instellen voor de pagina Self-Service. U wordt aangeraden uw lokale tijdzone in te stellen. Voor bezoekers van uw Self-Service-pagina worden de lokale tijdzones automatisch gedetecteerd en worden deze in hun eigen tijdzones weergegeven. Als een afspraak bijvoorbeeld beschikbaar is op 1:17.00 uur PST, ziet iemand in CST de beschikbare tijd die wordt weergegeven als 3:17.00 uur CST.
+- **Instellingen voor regio's en tijdzone** Hier kunt u uw tijdzone en taalvoorkeuren instellen voor de Self-Service pagina. U wordt aangeraden uw lokale tijdzone in te stellen. Voor bezoekers van uw Self-Service worden in Bookings automatisch hun lokale tijdzones gedetecteerd en wordt de beschikbaarheid ervan weergegeven in hun eigen tijdzones. Als een afspraak bijvoorbeeld beschikbaar is om 13:00 uur PST, ziet iemand in CST de beschikbare tijd weergegeven als 15:00 uur CST.
 
-Wanneer u de reserverings pagina hebt gepubliceerd, wordt in klanten de reserverings pagina weergegeven waar ze afspraken met u kunnen boeken. De boekings pagina voor customer facing ziet er als volgt uit:
+Wanneer u uw boekingspagina publiceert, zien klanten uw boekingspagina waar ze afspraken met u kunnen boeken. De boekingspagina van de klant ziet er als volgende uit:
 
-:::image type="content" source="media/bookings-self-service.jpg" alt-text="De pagina Bookings":::
+:::image type="content" source="media/bookings-self-service.jpg" alt-text="Boekingspagina klant":::
 
 ## <a name="publish-the-booking-page"></a>De reserveringspagina publiceren
 
-Bekijk deze video of volg de onderstaande stappen om de boekings pagina te publiceren of de publicatie ongedaan te maken.
+Bekijk deze video of volg de onderstaande stappen om uw reserveringspagina te publiceren of de publicatie ongedaan te maken.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWuYil]
 
-1. In Microsoft 365 selecteert u het startprogramma voor apps en selecteert u vervolgens **Bookings**.
+1. Selecteer Microsoft 365 start voor apps en selecteer **vervolgens Bookings**.
 
 1. Selecteer **Reserveringspagina** in het navigatiedeelvenster.
 
@@ -70,4 +70,4 @@ Bekijk deze video of volg de onderstaande stappen om de boekings pagina te publi
 
 ## <a name="unpublish-the-booking-page"></a>De publicatie van de boekingspagina ongedaan maken
 
- - Als u de boekings pagina wilt publiceren, gaat u naar de boekings pagina en selecteert u **publicatie ongedaan**maken.
+ - Als u het publiceren van de reserveringspagina wilt ongedaan maken, gaat u naar de pagina Reservering en **selecteert** u Publiceren ongedaan maken .

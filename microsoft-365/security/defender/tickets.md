@@ -1,6 +1,6 @@
 ---
-title: ServiceNow-tickets integreren in het Microsoft 365-beveiligingscentrum en compliancecentrum
-description: Meer informatie over het maken en bijhouden van tickets in ServiceNow vanuit het Microsoft 365-beveiligingscentrum en compliancecentrum.
+title: ServiceNow-tickets integreren in Microsoft 365 beveiligingscentrum en compliancecentrum
+description: Meer informatie over het maken en bijhouden van tickets in ServiceNow vanuit het Microsoft 365 beveiligingscentrum en compliancecentrum.
 keywords: beveiliging, Microsoft 365, M365, compliance, compliancecentrum, beveiligingscentrum, ServiceNow, tickets, taken, SNOW, verbinding
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -27,7 +27,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 04/02/2021
 ms.locfileid: "51569865"
 ---
-# <a name="integrate-servicenow-tickets-into-the-microsoft-365-security-center-and-compliance-center"></a>ServiceNow-tickets integreren in het Microsoft 365-beveiligingscentrum en compliancecentrum
+# <a name="integrate-servicenow-tickets-into-the-microsoft-365-security-center-and-compliance-center"></a>ServiceNow-tickets integreren in Microsoft 365 beveiligingscentrum en compliancecentrum
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 

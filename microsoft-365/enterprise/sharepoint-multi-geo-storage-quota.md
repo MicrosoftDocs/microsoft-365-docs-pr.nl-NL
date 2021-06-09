@@ -1,5 +1,5 @@
 ---
-title: SharePoint-opslag quota's in meerdere geografische omgevingen
+title: SharePoint opslagquota in multi-geo-omgevingen
 ms.reviewer: adwood
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -14,7 +14,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPO_Content
 localization_priority: Normal
-description: Meer informatie over SharePoint-opslagquota in omgevingen met meerdere geografische omgevingen en de manier waarop quota's kunnen worden beheerd door de SharePoint Online-beheerder.
+description: Meer informatie SharePoint opslagquota's in multi-geoomgevingen en hoe quota's kunnen worden beheerd door de SharePoint Online-beheerder.
 ms.openlocfilehash: ec736a6bd6061f8b028fca7a1c34d5278a84db89
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
@@ -22,32 +22,32 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 08/14/2020
 ms.locfileid: "46689570"
 ---
-# <a name="sharepoint-storage-quotas-in-multi-geo-environments"></a>SharePoint-opslag quota's in meerdere geografische omgevingen
+# <a name="sharepoint-storage-quotas-in-multi-geo-environments"></a>SharePoint opslagquota in multi-geo-omgevingen
 
-Standaard delen alle geografische locaties van een multi-geografische omgeving het beschikbare opslagquotum voor de Tenant.
+Standaard delen alle geografische locaties van een multi-geo-omgeving het beschikbare opslagquotum voor tenants.
 
-Met de instelling SharePoint geo Storage target kunt u de opslagquota voor elke geografische locatie beheren. Wanneer u een opslagquotum voor een geografische locatie toewijst, wordt dit de maximale hoeveelheid opslagruimte voor die geografische locatie en wordt de beschikbare opslagquota van de Tenant afgetrokken. De resterende beschikbare opslagquota voor de Tenant wordt vervolgens gedeeld via de geconfigureerde geo-locaties waarvoor geen specifiek opslagquotum is toegewezen.
+Met de SharePoint voor geografische opslagquota kunt u het opslagquotum voor elke geografische locatie beheren. Wanneer u een opslagquotum toewijst voor een geografische locatie, wordt dit de maximale hoeveelheid opslagruimte die beschikbaar is voor die geografische locatie en wordt deze afgetrokken van het beschikbare tenantopslagquotum. Het resterende beschikbare tenantopslagquotum wordt vervolgens gedeeld over de geconfigureerde geografische locaties waarvoor geen specifiek opslagquotum is toegewezen.
 
-De SharePoint Online-beheerder kan het SharePoint-opslagquotum voor een Geo Location toewijzen door verbinding te maken met de centrale locatie. Geo-beheerders voor satelliet locaties kunnen de opslagquota bekijken maar deze niet toewijzen.
+Het SharePoint opslagquotum voor elke geografische locatie kan worden toegewezen door de SharePoint Online-beheerder door verbinding te maken met de centrale locatie. Geobeheerders voor satellietlocaties kunnen het opslagquotum bekijken, maar kunnen het niet toewijzen.
 
 ## <a name="configure-a-storage-quota-for-a-geo-location"></a>Een opslagquotum configureren voor een geografische locatie
 
-Gebruik de [module Microsoft SharePoint Online](https://www.microsoft.com/download/details.aspx?id=35588 ) en maak verbinding met de centrale locatie om het opslagquotum voor een geografische locatie toe te wijzen. 
+Gebruik de [Microsoft Office SharePoint Online module en](https://www.microsoft.com/download/details.aspx?id=35588 ) maak verbinding met de centrale locatie om het opslagquotum voor een geografische locatie toe te wijzen. 
 
-Voer cmdlet uit om het opslagquotum voor een locatie toe te wijzen:
+Als u een Storage quota voor een locatie wilt toewijzen, moet u cmdlet uitvoeren:
 
 `Set-SPOGeoStorageQuota -GeoLocation <geolocationcode> -StorageQuotaMB <value>`
 
-Voer het volgende uit om de opslag quota voor de huidige geografische locatie weer te geven:
+Als u Storage quotum voor de huidige geografische locatie wilt weergeven, gaat u als volgende te werk:
 
 `Get-SPOGeoStorageQuota`
 
-![Schermafbeelding van het PowerShell-venster met de cmdlet Get-SPOGeoStorageQuota](../media/multi-geo-storage-quota.png)
+![Schermafbeelding van PowerShell-venster met Get-SPOGeoStorageQuota cmdlet](../media/multi-geo-storage-quota.png)
 
-Voer het volgende uit om het opslagquotum voor alle geografische locaties weer te geven:
+Als u de Storage voor alle geografische locaties wilt weergeven, gaat u als volgende te werk:
 
 `Get-SPOGeoStorageQuota -AllLocations`
 
-Als u het toegewezen opslagquotum voor een geografische locatie wilt verwijderen, stelt u het `StorageQuota value = 0` volgende in:
+Als u het toegewezen opslagquotum voor een geografische locatie wilt verwijderen, stelt u `StorageQuota value = 0` het volgende in:
 
 `Set-SPOGeoStorageQuota -GeoLocation <geolocationcode> -StorageQuotaMB 0`

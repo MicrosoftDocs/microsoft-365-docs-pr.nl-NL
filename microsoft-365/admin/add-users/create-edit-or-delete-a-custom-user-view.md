@@ -129,7 +129,7 @@ Ook kunt u filteren op andere gegevens uit het gebruikersprofiel die worden gebr
   
 3. Bewerk **de gegevens op** de pagina Aangepast filter zo nodig en selecteer **opslaan.** Of als u het filter wilt verwijderen, selecteert u onder aan de pagina **Verwijderen.** 
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Overzicht van het Microsoft 365](../../business-video/admin-center-overview.md) (video)\
 [Over beheerdersrollen](../add-users/about-admin-roles.md) (video)\

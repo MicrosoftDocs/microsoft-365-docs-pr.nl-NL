@@ -1,5 +1,5 @@
 ---
-title: Contoso IT-infrastructuur en bedrijfsbehoeften
+title: Contoso IT-infrastructuur en zakelijke behoeften
 author: JoeDavies-MSFT
 f1.keywords:
 - NOCSH
@@ -13,7 +13,7 @@ ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom: ''
-description: Inzicht in de basisstructuur van de on-premises IT-infrastructuur van Contoso en de manier waarop de zakelijke behoeften van het bedrijf voldoen aan Microsoft 365 for Enterprise.
+description: Inzicht in de basisstructuur van de on-premises IT-infrastructuur van Contoso en hoe aan de zakelijke behoeften van het bedrijf wordt voldaan door Microsoft 365 voor ondernemingen.
 ms.openlocfilehash: 72d502b5078a1e572eeba27832550af52907e209
 ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: MT
@@ -21,17 +21,17 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 12/02/2020
 ms.locfileid: "49558404"
 ---
-# <a name="contoso-it-infrastructure-and-business-needs"></a>Contoso IT-infrastructuur en bedrijfsbehoeften
+# <a name="contoso-it-infrastructure-and-business-needs"></a>Contoso IT-infrastructuur en zakelijke behoeften
 
-Contoso overstapt van een on-premises, gecentraliseerde IT-infrastructuur naar een in de Cloud uitgedeelde instelling voor het uitvoeren van persoonlijke productiviteit en toepassingen op basis van de Cloud.
+Contoso maakt de overstap van een on-premises, gecentraliseerde IT-infrastructuur naar een cloudinclusieve installatie met persoonlijke productiviteitsbelastingen en -toepassingen in de cloud.
 
-## <a name="existing-contoso-it-infrastructure"></a>Bestaande infrastructuur contoso IT
+## <a name="existing-contoso-it-infrastructure"></a>Bestaande IT-infrastructuur van Contoso
 
 Contoso maakt gebruik van een grotendeels gecentraliseerde on-premise IT-infrastructuur, met toepassingsdatacenters op het hoofdkantoor in Parijs.
 
-Hier is Office Headquarters Office met Application datacenters, een DMZ en Internet.
+Hier bevindt zich het hoofdkantoor met toepassingscentra, een DMZ en internet.
 
-![Bestaande infrastructuur contoso IT](../media/contoso-infra-needs/contoso-infra-needs-fig1.png)
+![Bestaande IT-infrastructuur van Contoso](../media/contoso-infra-needs/contoso-infra-needs-fig1.png)
 
 De on-premises toepassingsdatacenters hosten: 
 
@@ -43,24 +43,24 @@ Bovendien ondersteunt elk regionaal hubkantoor een set servers met een vergelijk
 
 Doorzoekbaarheid in de applicaties en gegevens van deze afzonderlijke, geografisch verspreide datacenters blijft een uitdaging.
 
-In het contoso Headquarters DMZ kunt u verschillende sets servers maken:
+In het Contoso-hoofdkantoor DMZ bieden verschillende sets servers het volgende:
 
-- Het hosten van de openbare website van contoso, van welke klanten producten, onderdelen, bevoorrading en dienst kunnen bestellen.
+- Hosting voor de openbare Website van Contoso, waaruit klanten producten, onderdelen, leveringen en service kunnen bestellen.
 - Hosting van het partner-extranet voor communicatie en samenwerking met Contoso-partners.
 - Op VPN'S gebaseerde externe toegang tot het intranet van Contoso en webproxy voor werknemers in het hoofdkantoor van Parijs.
 
-## <a name="contoso-business-needs"></a>Bedrijfsbehoeften met contoso
+## <a name="contoso-business-needs"></a>Zakelijke behoeften van Contoso
 
-De behoeften van Contoso Business zijn in vijf hoofdcategorieën onderverdeeld:
+De zakelijke behoeften van Contoso zijn onderverdeeld in vijf hoofdcategorieën:
 
 **Productiviteit**
 
 - Eenvoudiger samenwerken
 
-  E-mail en on-line samenwerking vervangen op basis van een online model dat wijzigingen in realtime toestaat in documenten, eenvoudiger onlinevergaderingen en vastgelegde gespreks threads.
+  Vervang samenwerking op basis van e-mail en bestanden door een onlinemodel waarmee realtime wijzigingen in documenten, eenvoudigere onlinevergaderingen en vastgelegde gespreksthreads mogelijk zijn.
 - Verbeter de productiviteit voor externe en mobiele werknemers
 
-  Met een groot aantal werknemers die in huis of in het veld werken, vervangt u de bewaarde VPN-oplossing door uitvoering van toegang tot contoso-gegevens en-bronnen in de Cloud.
+  Als veel werknemers thuis of in het veld werken, vervangt u de vpn-oplossing met knelpunten door performant toegang tot Contoso-gegevens en -resources in de cloud.
 - Verbeter de creativiteit en innovatie
 
   Profiteer van de nieuwste visuele leer- en ideeontwikkelingsmethoden, inclusief inkt en 3D-visualisatie.
@@ -69,7 +69,7 @@ De behoeften van Contoso Business zijn in vijf hoofdcategorieën onderverdeeld:
 
 - Identiteits- en toegangsbeheer
 
-  Afdwingen van meervoudige en andere vormen van verificatie en beveiliging van gebruikers-en beheerdersaccounts.
+  Dwing multifactor- en andere vormen van verificatie af en bescherm gebruikers- en beheerdersaccountreferenties.
 
 - Bedreigingsbeveiliging
 
@@ -81,63 +81,63 @@ De behoeften van Contoso Business zijn in vijf hoofdcategorieën onderverdeeld:
 
 - Beveiligingsbeheer
 
-  Bewaak beveiligings-Posture en spoor en reageer op bedreigingen in realtime.
+  Controleer de beveiligingshouding en detecteer en reageer in realtime op bedreigingen.
 
 **Externe en mobiele toegang en zakelijke partners**
 
-- Beveiliging voor externe en mobiele werknemers verbeteren
+- De beveiliging voor externe en mobiele werknemers verbeteren
 
-  Implementeer uw eigen apparaat (BYOD) en bedrijfseigendoms beheer ter waarborging om te zorgen voor beveiligde toegang, het corrigeren van toepassings gedrag en de bescherming van bedrijfsgegevens.
+  Implementeert bring your own device (BYOD) and company-owned device management to ensure secured access, correct application behavior, and company data protection.
 
 - De infrastructuur voor externe toegang voor werknemers reduceren
 
-  Ondersteunings-en ondersteuningskosten verlagen en de prestaties van de Remote Access-oplossing verbeteren door regelmatig toegankelijke bronnen naar de cloud te verplaatsen.
+  Verminder de kosten voor onderhoud en ondersteuning en verbeter de prestaties voor oplossing voor externe toegang door veelgebruikte resources naar de cloud te verplaatsen.
 
-- Zorgt voor betere connectiviteit en lagere overhead voor Business-to-susiness (B2B)-transacties
+- Betere connectiviteit en lagere overhead voor B2B-transacties (Business-to-Susiness)
 
-  Vervang een verouderd en kostbaar partner extranet met een in de cloud gebaseerde oplossing die federatieve verificatie gebruikt.
+  Vervang een ouder en duur partner extranet door een cloudoplossing die federatief verificatie gebruikt.
 
 **Compliance**
 
 - Voldoen aan regionale wettelijke voorschriften
 
-  Zorg ervoor dat de naleving van industriële en regionale voorschriften voor het opslaan, versleutelen, data privacy en persoonlijke gegevens voorschriften, zoals de algemene verordening gegevensbescherming (AVG) voor de Europe Union, voldoen.
+  Zorg ervoor dat de industrie- en regionale voorschriften voor gegevensopslag, versleuteling, privacy van gegevens en persoonsgegevens worden nageleefd, zoals de Algemene verordening gegevensbescherming (AVG) voor de Europese Unie.
 
 **Beheer**
 
-- Minder IT-kosten voor het beheren van software die draait op client Pc's en-apparaten
+- Lagere IT-overhead voor het beheren van software die wordt uitgevoerd op client-pc's en -apparaten
 
-  De installatie van updates voor het Windows-besturingssysteem en Microsoft 365-apps voor Enterprise binnen de organisatie automatiseren.
+  Automatiseer de installatie van updates voor het Windows besturingssysteem en Microsoft 365-apps voor ondernemingen in de hele organisatie.
 
-## <a name="mapping-contoso-business-needs-to-microsoft-365-for-enterprise"></a>Contoso Business behoeften toewijzen aan Microsoft 365 for Enterprise
+## <a name="mapping-contoso-business-needs-to-microsoft-365-for-enterprise"></a>Contoso-bedrijven toewijzen moet Microsoft 365 voor bedrijven
 
-De IT-afdeling van Contoso heeft bepaald dat de volgende toewijzingen van zakelijke behoeften aan Microsoft 365 E5-functies voorafgaand aan de implementatie:
+De IT-afdeling Contoso heeft de volgende toewijzing van bedrijfsbehoeften vastgesteld Microsoft 365 E5 functies vóór de implementatie:
 
 
-| Categorie | Zakelijke behoefte | Microsoft 365 voor Enterprise-producten of-functies |
+| Categorie | Zakelijke behoefte | Microsoft 365 voor ondernemingsproducten of -functies |
 |:-------|:-----|:-----|
 | Productiviteit |  |  |
 |  | Eenvoudiger samenwerken | Microsoft Teams, SharePoint, OneDrive |
 |  | Verbeter de productiviteit voor externe en mobiele werknemers | Werkbelasting en cloud-gebaseerde gegevens voor Microsoft 365 |
 |  | Verbeter de creativiteit en innovatie | Windows Ink, Cortana op het werk, PowerPoint |
 | Beveiliging |  |  |
-|  | Identiteits- en toegangsbeheer | Toegewezen globale beheerdersaccounts met Azure AD multi-factor Authentication (MFA) en Azure AD-geprivilegieerde identiteitsbeheer (PIM) <BR> MFA voor alle gebruikersaccounts <BR> Voorwaardelijke toegang <BR> Windows Hello <BR> Windows Credential Guard |
-|  | Bedreigingsbeveiliging | Advanced Threat Analytics <BR> Windows Defender <BR> Defender voor Office 365 <BR> Microsoft Defender voor Office 365 <BR> Microsoft 365 Threat onderzoek en-antwoord <BR> |
+|  | Identiteits- en toegangsbeheer | Toegewezen globale beheerdersaccounts met Azure AD Multi-Factor Authentication (MFA) en Azure AD Privileged Identity Management (PIM) <BR> MFA voor alle gebruikersaccounts <BR> Voorwaardelijke toegang <BR> Windows Hello <BR> Windows Credential Guard |
+|  | Bedreigingsbeveiliging | Advanced Threat Analytics <BR> Windows Defender <BR> Defender voor Office 365 <BR> Microsoft Defender voor Office 365 <BR> Microsoft 365 bedreigingsonderzoek en -antwoord <BR> |
 |  | Gegevensbeveiliging | Azure-gegevensbeveiliging <BR> Preventie van gegevensverlies (DLP, Data Loss Prevention) <BR> Windows-gegevensbescherming (WIP) <BR> Microsoft Cloud App Security <BR> Microsoft Intune |
 |  | Beveiligingsbeheer | Azure Defender  <BR> Windows Defender-Beveiligingscentrum |
 | Externe en mobiele toegang en zakelijke partners |  |  |
 |  | Verbeterde beveiliging voor externe en mobiele werknemers | Microsoft Intune |
 |  | De infrastructuur voor externe toegang voor werknemers reduceren | Werkbelasting en cloud-gebaseerde gegevens voor Microsoft 365 |
-|  | De connectiviteit en lagere overhead voor B2B-transacties verbeteren | Federatieve verificatie en cloudgebaseerde bronnen |
+|  | Connectiviteit en lagere overhead voor B2B-transacties verbeteren | Federatieve verificatie en cloudgebaseerde bronnen |
 | Naleving |  |  |
-|  | Voldoen aan regionale wettelijke voorschriften | AVG-functies in Microsoft 365 |
+|  | Voldoen aan regionale wettelijke voorschriften | GDPR-functies in Microsoft 365 |
 | Beheer |  |  |
-|  | Minder IT-kosten voor de installatie van clientupdates | Updates voor Windows 10 Enterprise <BR> Updates voor Microsoft 365-apps voor ondernemingen |
+|  | Lagere IT-overhead voor het installeren van clientupdates | Updates voor Windows 10 Enterprise <BR> Updates voor Microsoft 365-apps voor ondernemingen |
 ||||
 
 ## <a name="next-step"></a>Volgende stap
 
-Meer informatie over het [on-premises netwerk van](contoso-networking.md) Contoso Corporation en hoe dit is geoptimaliseerd voor toegang en latentie tot microsoft 365 cloudresources.
+Meer informatie over het [on-premises](contoso-networking.md) netwerk van Contoso Corporation en hoe het is geoptimaliseerd voor toegang en latentie om Microsoft 365 cloudbronnen te gebruiken.
 
 ## <a name="see-also"></a>Zie ook
 

@@ -16,7 +16,7 @@ ms.custom:
 - Ent_Office_Other
 - seo-marvel-apr2020
 ms.assetid: 26b9ff81-93b0-4251-beaf-3c9f1d7c80c8
-description: Meer informatie over het beheren van gebruikersaccounts, licenties en groepen van Microsoft 365 met PowerShell.
+description: Meer informatie over het beheren Microsoft 365 gebruikersaccounts, licenties en groepen met PowerShell.
 ms.openlocfilehash: d3745b9365c67615efe32881408d1a717b8dbbed
 ms.sourcegitcommit: bdf65d48b20f0f428162c39ee997accfa84f4e5d
 ms.translationtype: MT
@@ -28,7 +28,7 @@ ms.locfileid: "49371534"
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-Microsoft 365-beheerders moeten gebruikersaccounts, licenties en groepen beheren. Hoewel u de meeste van deze taken kunt uitvoeren in het Microsoft 365-Beheercentrum, zijn sommige eenvoudiger in PowerShell.
+Microsoft 365 beheerders moeten gebruikersaccounts, licenties en groepen beheren. Hoewel u de meeste van deze taken kunt uitvoeren in het Microsoft 365 beheercentrum, zijn sommige taken eenvoudiger in PowerShell.
 
 Zie de volgende artikelen voor meer informatie.
 
