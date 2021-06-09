@@ -1,7 +1,7 @@
 ---
 title: Instellingen voor insiderrisicobeheer
 description: Meer informatie over insider-instellingen voor risicobeheer in Microsoft 365
-keywords: Microsoft 365, insider risk management, risk management, compliance
+keywords: Microsoft 365, intern risicobeheer, risicobeheer, naleving
 localization_priority: Normal
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -71,7 +71,7 @@ In sommige gevallen wilt u mogelijk de indicatoren voor insiderrisicobeleid bepe
 Als u de indicatoren voor insiderrisicobeleid wilt definiëren die zijn ingeschakeld in alle insiderrisicobeleidsregels, gaat u naar Insider-risico-instellingen Indicatoren en selecteert u een  >   of meer beleidsindicatoren. De indicatoren die zijn geselecteerd op de pagina Indicatoren-instellingen, kunnen niet afzonderlijk worden geconfigureerd wanneer u een insiderrisicobeleid maakt of bewerkt in de beleidswizard.
 
 >[!NOTE]
->Het kan enkele uren duren voordat nieuwe gebruikers die handmatig zijn toegevoegd, worden weergegeven in het **dashboard Gebruikers.** Het kan maximaal 24 uur duren voordat activiteiten voor deze gebruikers worden weergegeven. Als u activiteiten wilt weergeven voor handmatig toegevoegde gebruikers, selecteert u de gebruiker op het **dashboard** Gebruikers en opent u het tabblad **Gebruikersactiviteit** in het detailvenster.
+>Het kan enkele uren duren voordat nieuwe gebruikers die handmatig zijn toegevoegd, worden weergegeven in het **dashboard Gebruikers.** Het kan tot 24 uur duren voordat de activiteiten van de afgelopen 90 dagen voor deze gebruikers worden weergegeven. Als u activiteiten wilt weergeven voor handmatig toegevoegde gebruikers, selecteert u de gebruiker op het **dashboard** Gebruikers en opent u het tabblad **Gebruikersactiviteit** in het detailvenster.
 
 ### <a name="enable-device-indicators-and-onboard-devices"></a>Apparaatindicatoren en onboard-apparaten inschakelen
 <a name="OnboardDevices"> </a>
@@ -200,7 +200,7 @@ Waarschuwingen van Defender voor Eindpunt worden dagelijks geïmporteerd. Afhank
 Als u bijvoorbeeld *Nieuw ,* *In*  uitvoering en Opgelost voor deze instelling selecteert, wanneer een Waarschuwing van Microsoft Defender voor eindpunt wordt gegenereerd en de status Nieuw *is,* wordt een eerste waarschuwingsactiviteit geïmporteerd voor de gebruiker met insiderrisico's. Wanneer de triagestatus van Defender voor eindpunt wordt gewijzigd *in In uitvoering,* wordt een tweede activiteit voor deze waarschuwing geïmporteerd voor de gebruiker met insiderrisico. Wanneer de uiteindelijke Triagestatus van Defender voor Eindpunt van *Opgelost* is ingesteld, wordt een derde activiteit voor deze waarschuwing geïmporteerd voor de gebruiker met insiderrisico. Met deze functionaliteit kunnen onderzoekers de voortgang van de Waarschuwingen van Defender voor eindpunten volgen en het zichtbaarheidsniveau kiezen dat hun onderzoek vereist.
 
 >[!IMPORTANT]
->U moet Microsoft Defender voor Eindpunt hebben geconfigureerd in uw organisatie en Defender voor Eindpunt inschakelen voor integratie van insiderrisicobeheer in het Defender-beveiligingscentrum om waarschuwingen voor beveiligingsovertredingen te importeren. Zie Geavanceerde functies configureren in Defender voor Eindpunt voor meer informatie over het configureren van Defender voor Eindpunt voor integratie met [insiderrisicobeheer.](/windows/security/threat-protection/microsoft-defender-atp/advanced-features\#share-endpoint-alerts-with-microsoft-compliance-center)
+>U moet Microsoft Defender voor Eindpunt in uw organisatie hebben geconfigureerd en Defender voor Eindpunt inschakelen voor integratie van intern risicobeheer in het Defender-beveiligingscentrum om waarschuwingen voor beveiligingsovertredingen te importeren. Zie voor meer informatie over het configureren van Defender voor Eindpunt voor integratie met intern risicobeheer [Geavanceerde functies in Defender voor Eindpunt configureren](/windows/security/threat-protection/microsoft-defender-atp/advanced-features\#share-endpoint-alerts-with-microsoft-compliance-center).
 
 ### <a name="domains-preview"></a>Domeinen (voorbeeld)
 
@@ -282,9 +282,9 @@ Volg de volgende stappen om een gebruikersgroep met prioriteit te maken:
 4. Vul op **de pagina Groep** definiëren de volgende velden in:
     - **Naam (vereist)**: Voer een vriendelijke naam in voor de gebruikersgroep met prioriteit. U kunt de naam van de gebruikersgroep met prioriteit niet wijzigen nadat u de wizard hebt voltooid.
     - **Beschrijving (optioneel)**: Voer een beschrijving in voor de gebruikersgroep met prioriteit.
-5. Selecteer **Volgende om** door te gaan.
+5. Selecteer **Volgende** om door te gaan.
 6. Selecteer **op** de pagina  Leden kiezen de optie Leden kiezen om te zoeken en  selecteer welke gebruikersaccounts met e-mail zijn opgenomen in de groep of schakel het selectievakje Alles selecteren in om alle gebruikers in uw organisatie toe te voegen aan de groep. Selecteer **Toevoegen om** door te gaan of Annuleren **om** te sluiten zonder gebruikers toe te voegen aan de groep.
-7. Selecteer **Volgende om** door te gaan.
+7. Selecteer **Volgende** om door te gaan.
 8. Bekijk op **de** pagina Controleren de instellingen die u hebt gekozen voor de gebruikersgroep met prioriteit. Selecteer **Bewerken** om een van de groepswaarden te wijzigen of selecteer **Verzenden** om de gebruikersgroep met prioriteit te maken en te activeren.
 9. Selecteer op de bevestigingspagina **Klaar om** de wizard te sluiten.
 
@@ -297,8 +297,8 @@ Volg de volgende stappen om een gebruikersgroep met prioriteit te bewerken:
 1. Ga in [Microsoft 365 compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer **Insider-risico-instellingen.**
 2. Het tabblad **Prioriteit gebruikersgroepen** selecteren
 3. Selecteer de gebruikersgroep met prioriteit die u wilt bewerken en selecteer **Groep bewerken.**
-4. Werk op **de pagina Groep** definiëren het veld Beschrijving zo nodig bij. U kunt de naam van de gebruikersgroep met prioriteit niet bijwerken. Selecteer **Volgende om** door te gaan.
-5. Voeg op **de pagina Leden** kiezen nieuwe leden toe aan de groep met het **besturingselement Leden** kiezen. Als u een gebruiker uit de groep wilt verwijderen, selecteert u de 'X' naast de gebruiker die u wilt verwijderen. Selecteer **Volgende om** door te gaan.
+4. Werk op **de pagina Groep** definiëren het veld Beschrijving zo nodig bij. U kunt de naam van de gebruikersgroep met prioriteit niet bijwerken. Selecteer **Volgende** om door te gaan.
+5. Voeg op **de pagina Leden** kiezen nieuwe leden toe aan de groep met het **besturingselement Leden** kiezen. Als u een gebruiker uit de groep wilt verwijderen, selecteert u de 'X' naast de gebruiker die u wilt verwijderen. Selecteer **Volgende** om door te gaan.
 6. Bekijk op **de** pagina Controleren de update-instellingen die u hebt gekozen voor de gebruikersgroep met prioriteit. Selecteer **Bewerken om** een van de groepswaarden te wijzigen of selecteer Verzenden **om** de gebruikersgroep met prioriteit bij te werken.
 7. Selecteer op de bevestigingspagina **Klaar om** de wizard te sluiten.
 
@@ -494,7 +494,7 @@ Afhankelijk van het aantal gebruikers dat is toegewezen aan rollengroepen voor i
 
 ## <a name="analytics-preview"></a>Analyse (voorbeeld)
 
-Met insider risk analytics kunt u een evaluatie uitvoeren van potentiële insiderrisico's in uw organisatie zonder dat u beleidsregels voor insiderrisico's configureert. Deze evaluatie kan uw organisatie helpen bij het identificeren van mogelijke gebieden met een hoger gebruikersrisico en het bepalen van het type en het bereik van beleidsregels voor insiderrisicobeheer dat u mogelijk wilt configureren. Analysescans bieden de volgende voordelen voor uw organisatie:
+Met risicoanalyses voor insiders kunt u een evaluatie uitvoeren van potentiële interne risico's in uw organisatie zonder dat u een intern risicobeleid configureert. Aan de hand van deze evaluatie kan uw organisatie potentiële gebieden met een hoger gebruikersrisico identificeren en bepalen welk type en bereik van het beleid voor intern risicobeheer u wilt configureren. Analysescans bieden de volgende voordelen voor uw organisatie:
 
 - Eenvoudig te configureren: Als u aan de slag wilt met analysescans, selecteert u Scan uitvoeren wanneer u daarom wordt gevraagd door de analyseaanbeveling of gaat u naar Insider-risico-instellingen > tabblad Analyse en analytics inschakelen.
 - Minimale privacyvereisten: Scanresultaten en inzichten worden geretourneerd als geanonimiseerde gebruikersactiviteit, afzonderlijke gebruikersnamen kunnen niet worden geïdentificeerd door revisoren.

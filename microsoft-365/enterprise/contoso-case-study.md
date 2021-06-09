@@ -13,7 +13,7 @@ ms.collection:
 - Strat_O365_Enterprise
 - M365-subscription-management
 ms.custom: ''
-description: Hoe een fictieve, maar representatieve globale organisatie Microsoft 365 voor ondernemingen heeft overgenomen.
+description: Hoe een fictieve, maar representatieve globale organisatie Microsoft 365 voor ondernemingen.
 ms.openlocfilehash: e14c2747837ed91a63e7609ce46307b0f38aa758
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -23,11 +23,11 @@ ms.locfileid: "50927578"
 ---
 # <a name="microsoft-365-for-enterprise-for-the-contoso-corporation"></a>Microsoft 365 voor ondernemingen voor de Contoso Corporation
 
-Microsoft 365 voor bedrijven is de belangrijkste cloudaanbieding van Microsoft die lokale en cloudgebaseerde productiviteitsapps en -services combineert met Windows 10 Enterprise en geavanceerde beveiligingsfuncties. Het is een complete, intelligente oplossing waarmee iedereen creatief en veilig kan samenwerken.
+Microsoft 365 voor ondernemingen is de belangrijkste cloudaanbieding van Microsoft die lokale en cloudgebaseerde productiviteitsapps en -services combineert met Windows 10 Enterprise en geavanceerde beveiligingsfuncties. Het is een complete, intelligente oplossing waarmee iedereen creatief en veilig kan samenwerken.
 
-Contoso Corporation is een fictieve, maar representatieve wereldwijde productieconglomeraat met het hoofdkantoor in Parijs. Het bedrijf heeft Microsoft 365 geïmplementeerd voor ondernemingen en heeft belangrijke ontwerpbeslissingen en implementatiedetails voor netwerken, identiteit, Windows 10 Enterprise, Microsoft 365 Apps voor ondernemingen, mobiel apparaatbeheer, informatiebeveiliging en beveiliging aangepakt.
+Contoso Corporation is een fictieve, maar representatieve wereldwijde productieconglomeraat met het hoofdkantoor in Parijs. Het bedrijf heeft Microsoft 365 voor ondernemingen geïmplementeerd en heeft belangrijke ontwerpbeslissingen en implementatiedetails voor netwerken, identiteit, Windows 10 Enterprise, Microsoft 365-apps voor ondernemingen, beheer van mobiele apparaten, informatiebeveiliging en beveiliging aangepakt.
 
-Het algemene doel van het bedrijf voor Microsoft 365 voor ondernemingen is om de digitale transformatie te versnellen door cloudservices te gebruiken om werknemers, partners, gegevens en processen samen te brengen om klantwaarde te creëren en het concurrentievoordeel in een wereld met digitale primeur te behouden.
+Het algemene doel van het bedrijf voor Microsoft 365 voor ondernemingen is om de digitale transformatie te versnellen door cloudservices te gebruiken om haar werknemers, partners, gegevens en processen samen te brengen om klantwaarde te creëren en het concurrentievoordeel in een wereld met digitale primeur te behouden.
 
 Zie de volgende artikelen voor meer informatie:
 
@@ -53,7 +53,7 @@ Zie de volgende artikelen voor meer informatie:
 
 - [Microsoft 365-apps voor ondernemingen](contoso-o365pp.md)
 
-  De Contoso-infrastructuur voor Microsoft 365 Apps voor bedrijven implementeert en installeert automatisch updates voor de Microsoft Office-suite met productiviteitssoftware.
+  De Contoso-infrastructuur voor Microsoft 365-apps voor ondernemingen implementeert en installeert automatisch updates voor de Microsoft Office suite met productiviteitssoftware.
 
 - [Mobile Device Management](contoso-mdm.md)
 
@@ -83,11 +83,11 @@ Bekijk deze aanvullende IT-scenario's en -configuraties:
 
 - [Aanstootgevend taalbeleid voor communicatie compliance](../compliance/communication-compliance-case-study.md)
 
-  Lees hoe Contoso snel een aanstootgevend taalbeleid voor Microsoft Teams, Exchange en Yammer-communicatie heeft geconfigureerd.
+  Lees hoe Contoso snel een aanstootgevend taalbeleid configureerde voor Microsoft Teams, Exchange en Yammer communicatie.
 
 ## <a name="next-step"></a>Volgende stap
 
-Meer [informatie over de Contoso Corporation](contoso-overview.md) en de ontwerpoverwegingen die zijn aangepakt toen ze Microsoft 365 voor ondernemingen hebben geïmplementeerd.
+Meer [informatie over de Contoso Corporation](contoso-overview.md) en de ontwerpoverwegingen die zijn aangepakt toen ze Microsoft 365 voor ondernemingen.
 
 
 ## <a name="see-also"></a>Zie ook

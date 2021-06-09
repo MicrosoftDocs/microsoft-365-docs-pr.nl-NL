@@ -1,5 +1,5 @@
 ---
-title: 'Ondersteuning voor Microsoft 365 Client App: Verificatie op basis van certificaten'
+title: 'Microsoft 365 Client-app-ondersteuning: verificatie op basis van certificaten'
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -14,7 +14,7 @@ search.appverid:
 - MET150
 f1.keywords:
 - NOCSH
-description: In dit artikel vindt u meer informatie over ondersteuning voor Microsoft 365 Client App voor verificatie op basis van certificaten.
+description: In dit artikel vindt u meer informatie over Microsoft 365 client-app-ondersteuning voor verificatie op basis van certificaten.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: d5ebef7c10aa61ba28c8fb841468be244f6e8542
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
@@ -23,7 +23,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50904989"
 ---
-# <a name="microsoft-365-client-app-support-certificate-based-authentication"></a>Ondersteuning voor Microsoft 365 Client App: Verificatie op basis van certificaten
+# <a name="microsoft-365-client-app-support-certificate-based-authentication"></a>Microsoft 365 Client-app-ondersteuning: verificatie op basis van certificaten
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
@@ -32,15 +32,15 @@ Moderne verificatie is een overkoepelende term voor een combinatie van verificat
 - **Verificatiemethoden:** Meervoudige verificatie; Clientcertificaatverificatie.
 - **Autorisatiemethoden**: Microsoft's implementatie van Open Authorization (OAuth).
 
-Moderne verificatie is ingeschakeld met behulp van een verificatiebibliotheek, zoals Active Directory Authentication Library (ADAL) of Microsoft Authentication Library (MSAL). Moderne verificatie is wat clients gebruiken om toegang tot Microsoft 365-resources te verifiëren en te machtigen. Moderne verificatie maakt gebruik van OAuth en biedt een beveiligd mechanisme voor clients voor toegang tot Microsoft 365-services, zonder dat hiervoor toegang tot gebruikersreferenties is vereist. Bij aanmelding verifieert de gebruiker zich rechtstreeks met Azure Active Directory en ontvangt hij/zij een access/refresh-tokenpaar. Het toegangs token verleent de client toegang tot de juiste resources in de Microsoft 365-tenant. Een vernieuwings-token wordt gebruikt om een nieuw toegangs- of vernieuwings-tokenpaar te verkrijgen wanneer het huidige toegangs-token verloopt.
+Moderne verificatie is ingeschakeld met behulp van een verificatiebibliotheek, zoals Active Directory Authentication Library (ADAL) of Microsoft Authentication Library (MSAL). Moderne verificatie is wat clients gebruiken voor het verifiëren en machtigen van toegang tot Microsoft 365 resources. Moderne verificatie maakt gebruik van OAuth en biedt een veilig mechanisme voor clients voor toegang tot Microsoft 365 services, zonder dat hiervoor toegang tot gebruikersreferenties is vereist. Bij aanmelding verifieert de gebruiker zich rechtstreeks met Azure Active Directory en ontvangt hij/zij een access/refresh-tokenpaar. Het toegangs token verleent de client toegang tot de juiste resources in de Microsoft 365 tenant. Een vernieuwings-token wordt gebruikt om een nieuw toegangs- of vernieuwings-tokenpaar te verkrijgen wanneer het huidige toegangs-token verloopt.
 
-Moderne verificatie ondersteunt verschillende verificatiemechanismen, zoals verificatie op basis van certificaten. Clients op Windows-, Android- of iOS-apparaten kunnen verificatie op basis van certificaten (CBA) gebruiken om zich te verifiëren bij Azure Active Directory met behulp van een clientcertificaat op het apparaat. In plaats van een gewone gebruikersnaam/wachtwoord wordt het certificaat gebruikt om een access/refresh-tokenpaar te verkrijgen van Azure Active Directory.
+Moderne verificatie ondersteunt verschillende verificatiemechanismen, zoals verificatie op basis van certificaten. Clients op Windows, Android- of iOS-apparaten kunnen verificatie op basis van certificaten (CBA) gebruiken om zich te verifiëren Azure Active Directory met behulp van een clientcertificaat op het apparaat. In plaats van een gewone gebruikersnaam/wachtwoord wordt het certificaat gebruikt om een access/refresh token pair te verkrijgen van Azure Active Directory.
 
 Meer informatie over [verificatie op basis van certificaten.](/azure/active-directory/authentication/active-directory-certificate-based-authentication-get-started)
 
 ## <a name="supported-clients--platforms"></a>Ondersteunde clients & platforms
 
-De nieuwste versies van de volgende clients en platforms ondersteunen verificatie op basis van certificaten wanneer u zich aanmeldt bij Azure Active Directory-accounts binnen de client (bijvoorbeeld bij het toevoegen van een account aan de app). Zie Systeemvereisten voor Microsoft 365 voor meer informatie over platformondersteuning in [Microsoft 365.](/microsoft-365/microsoft-365-and-office-resources)
+De nieuwste versies van de volgende clients en platforms ondersteunen verificatie op basis van certificaten wanneer u zich aanmeldt bij Azure Active Directory-accounts binnen de client (bijvoorbeeld bij het toevoegen van een account aan de app). Zie Systeemvereisten voor Microsoft 365 voor meer informatie over platformondersteuning [in Microsoft 365.](/microsoft-365/microsoft-365-and-office-resources)
 <br>
 <br>
 

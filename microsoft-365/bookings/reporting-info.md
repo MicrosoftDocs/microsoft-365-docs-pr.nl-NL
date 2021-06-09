@@ -28,7 +28,7 @@ Deze informatie op afspraakniveau kan worden gebruikt om de klantactiviteit rond
 
 :::image type="content" source="../media/bookings-activities.png" alt-text="Schermafbeelding: 4 maanden bookings-activiteit":::
 
-1. Sla het bestand op met een nieuwe naam en geef DE XLS- of XLSX-indeling op.
+1. Sla het bestand op met een nieuwe naam en geef .xls of xlsx-indeling op.
 
 1. Open het bestand om de vier maandenweergave van uw Bookings-agenda te bekijken.
 
@@ -43,7 +43,7 @@ Het rapport bevat de volgende velden.
  - **Datum & tijd**
 - **Klantnaam**
 - **E-mail van klant**
-- **Klanttelefoon**
+- **Klant Telefoon**
 - **Klantadres**
 - **Personeel**
 - **Service**
@@ -56,8 +56,8 @@ Het verbeterde rapport bevat nu de volgende velden.
 - **Prijstype**   Standaardprijstype ingesteld voor een service bij het maken van de service.
 - **Prijs**   Prijs die overeenkomt met het gekozen prijstype.
 - **Valuta**   Valutatypeset voor een bedrijf.
-- **CC-deelnemers**   De geadresseerden die de e-mailmeldingen voor een reservering ontvangen. Dit kan worden opgegeven in de Teams-app bij het maken van een reservering.
+- **CC-deelnemers**   De geadresseerden die de e-mailmeldingen voor een reservering ontvangen. Dit kan worden opgegeven in de Teams app bij het maken van een reservering.
 - **Aantal aangemelde deelnemers**   Hoeveel klanten een groepsboekingsservice hebben geboekt.
-- **Tekstmeldingen ingeschakeld**   Of klanten sms-meldingen kunnen ontvangen.
+- **Tekstmeldingen ingeschakeld**   Of klanten een melding Sms ontvangen.
 - **Aangepaste velden**   Alle vragen en antwoorden met betrekking tot één reservering worden in dit veld gecombineerd.
 - **Reserverings-id**   Dit is handig om dezelfde boekingen van een groepsservice te identificeren.

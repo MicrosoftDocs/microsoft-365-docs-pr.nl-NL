@@ -21,7 +21,7 @@ search.appverid:
 - MED150
 - BCS160
 ms.assetid: e7968303-c234-46c4-b8b0-b5c93c6d57a7
-description: Lees wat u moet doen als u een niet-routable domein hebt dat is gekoppeld aan uw on-premises gebruikersaccounts voordat u deze synchroniseert met uw Microsoft 365-tenant.
+description: Lees wat u moet doen als u een niet-routable domain hebt dat is gekoppeld aan uw on-premises gebruikersaccounts voordat u deze synchroniseert met uw Microsoft 365 tenant.
 ms.openlocfilehash: e4d0e020c5792c610d501c33e8f3d5131b7a1ff0
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -37,9 +37,9 @@ Als u momenteel een '.lokaal' domein gebruikt voor uw gebruikersaccounts in AD D
   
 ## <a name="what-if-i-only-have-a-local-on-premises-domain"></a>Wat gebeurt er als ik alleen een on-premises domein '.lokaal' heb?
 
-U gebruikt Azure AD Connect om uw AD DS te synchroniseren met de Azure AD-tenant van uw Microsoft 365-tenant. Zie Uw [on-premises](/azure/architecture/reference-architectures/identity/azure-ad)identiteiten integreren met Azure AD voor meer informatie.
+U gebruikt Azure AD Verbinding maken om uw AD DS te synchroniseren met de Azure AD-tenant van uw Microsoft 365 tenant. Zie Uw [on-premises](/azure/architecture/reference-architectures/identity/azure-ad)identiteiten integreren met Azure AD voor meer informatie.
   
-Met Azure AD Connect worden de UPN en het wachtwoord van uw gebruikers gesynchroniseerd, zodat gebruikers zich kunnen aanmelden met dezelfde referenties die ze on-premises gebruiken. Azure AD Connect synchroniseert echter alleen gebruikers met domeinen die worden geverifieerd door Microsoft 365. Dit betekent dat het domein ook wordt geverifieerd door Azure AD omdat Microsoft 365-identiteiten worden beheerd door Azure AD. Met andere woorden, het domein moet een geldig internetdomein zijn (zoals .com, .org, .net, .us). Als uw interne AD DS alleen een niet-routable-domein gebruikt (bijvoorbeeld '.lokaal'), kan dit mogelijk niet overeenkomen met het geverifieerde domein dat u hebt voor uw Microsoft 365-tenant. U kunt dit probleem oplossen door uw primaire domein in uw on-premises AD DS te wijzigen of door een of meer UPN-achtervoegsels toe te voegen.
+Azure AD Verbinding maken synchroniseert de UPN en het wachtwoord van uw gebruikers, zodat gebruikers zich kunnen aanmelden met dezelfde referenties die ze on-premises gebruiken. Azure AD-Verbinding maken synchroniseert echter alleen gebruikers met domeinen die worden geverifieerd door Microsoft 365. Dit betekent dat het domein ook wordt geverifieerd door Azure AD omdat Microsoft 365 identiteiten worden beheerd door Azure AD. Met andere woorden, het domein moet een geldig internetdomein zijn (zoals .com, .org, .net, .us). Als uw interne AD DS alleen een niet-routable-domein gebruikt (bijvoorbeeld '.lokaal'), kan dit mogelijk niet overeenkomen met het geverifieerde domein dat u hebt voor uw Microsoft 365 tenant. U kunt dit probleem oplossen door uw primaire domein in uw on-premises AD DS te wijzigen of door een of meer UPN-achtervoegsels toe te voegen.
   
 ### <a name="change-your-primary-domain"></a>Uw primaire domein wijzigen
 
@@ -55,9 +55,9 @@ Nadat u de UPN's hebt bijgewerkt om het geverifieerde domein te gebruiken, kunt 
   
 1. Kies op de AD DS-domeincontroller in Serverbeheer **de optie Extra** Active \> **Directory-domeinen en -vertrouwensinstellingen.**
     
-    **Of als u geen Windows Server 2012 hebt**
+    **Of als u geen Windows Server 2012**
     
-    Druk **op Windows-toets + R** om het dialoogvenster Uitvoeren te openen en typ domein.msc en kies  **OK.**
+    Druk **Windows +R** om het dialoogvenster Uitvoeren te **openen** en typ domein.msc en kies **OK.**
     
     ![Kies Active Directory-domeinen en -vertrouwensrelatie.](../media/46b6e007-9741-44af-8517-6f682e0ac974.png)
   
@@ -75,9 +75,9 @@ Nadat u de UPN's hebt bijgewerkt om het geverifieerde domein te gebruiken, kunt 
   
 1. Kies op de AD DS-domeincontroller in Serverbeheer **de optie Extra** Active \> **Directory-gebruikers en -computers.**
     
-    **Of als u geen Windows Server 2012 hebt**
+    **Of als u geen Windows Server 2012**
     
-    Druk **op Windows-toets + R** om het dialoogvenster Uitvoeren te openen en typ Dsa.msc en klik vervolgens op  **OK**
+    Druk **Windows +R** om het dialoogvenster Uitvoeren te **openen** en typ Dsa.msc en klik vervolgens op **OK**
     
 2. Selecteer een gebruiker, klik met de rechtermuisknop en kies vervolgens **Eigenschappen.**
     
@@ -99,4 +99,4 @@ U kunt bijvoorbeeld de volgende PowerShell-opdrachten uitvoeren om alle contoso.
   $LocalUsers | foreach {$newUpn = $_.UserPrincipalName.Replace("@contoso.local","@contoso.com"); $_ | Set-ADUser -UserPrincipalName $newUpn}
   ```
 
-Zie [Active Directory Windows PowerShell-module](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee617195(v=technet.10)) voor meer informatie over het gebruik van Windows PowerShell in AD DS.
+Zie [Active Directory Windows PowerShell module](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee617195(v=technet.10)) voor meer informatie over het gebruik Windows PowerShell in AD DS.

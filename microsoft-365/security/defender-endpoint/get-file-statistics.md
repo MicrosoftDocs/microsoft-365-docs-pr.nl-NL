@@ -65,13 +65,13 @@ GET /api/files/{id}/stats
 
 ## <a name="request-headers"></a>Kopteksten aanvragen
 
-Naam | Type | Omschrijving
+Naam | Type | Beschrijving
 :---|:---|:---
 Autorisatie | Tekenreeks | Bearer {token}. **Vereist**.
 
 ## <a name="request-uri-parameters"></a>URI-parameters aanvragen
 
-Naam | Type | Omschrijving
+Naam | Type | Beschrijving
 :---|:---|:---
 lookBackHours | Int32 | Definieert de uren die we terug zoeken om de statistieken te krijgen. Standaard is dit 30 dagen. **Optioneel**.
 

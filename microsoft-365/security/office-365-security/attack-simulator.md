@@ -133,7 +133,7 @@ Als u een van de ingebouwde sjablonen gaat gebruiken of het e-mailbericht rechts
 
    - **Onderwerp:** Het **veld Onderwerp** van het e-mailbericht.
 
-   Wanneer u klaar bent, klikt u op **Volgende.**
+   Wanneer u gereed bent, klikt u op **Volgende**.
 
 6. Maak in **de stap E-mail** opstellen de berichtin body van het e-mailbericht. U kunt het tabblad **E-mail** (een uitgebreide HTML-editor) of het **tabblad Bron** (onbewerkte HTML-code) gebruiken.
 
@@ -143,7 +143,7 @@ Als u een van de ingebouwde sjablonen gaat gebruiken of het e-mailbericht rechts
 
    - `${loginserverurl}` hiermee voegt u de **URL-waarde phishing-aanmeldingsserver** in van de vorige stap.
 
-   Wanneer u klaar bent, klikt u op **Volgende.**
+   Wanneer u gereed bent, klikt u op **Volgende**.
 
 7. Klik in **de stap** Bevestigen op **Voltooien.**
 
@@ -166,7 +166,7 @@ Als u een van de ingebouwde sjablonen gaat gebruiken of het e-mailbericht rechts
    > [!div class="mx-imgBorder"]
    > ![Startpagina phishing](../../media/5e93b3cc-5981-462f-8b45-bdf85d97f1b8.jpg)
 
-   Wanneer u klaar bent, klikt u op **Volgende.**
+   Wanneer u gereed bent, klikt u op **Volgende**.
 
 4. Ga in **de stap Doel geadresseerden** op een van de volgende stappen te werk:
 
@@ -174,7 +174,7 @@ Als u een van de ingebouwde sjablonen gaat gebruiken of het e-mailbericht rechts
 
    - Klik **op Importeren** en vervolgens **bestand** importeren om een door komma's gescheiden waarde (CSV) of een door regel gescheiden bestand met e-mailadressen te importeren. Elke regel moet het e-mailadres van de geadresseerde bevatten.
 
-   Wanneer u klaar bent, klikt u op **Volgende.**
+   Wanneer u gereed bent, klikt u op **Volgende**.
 
 5. Configureer **in de stap E-maildetails** configureren de volgende instellingen:
 
@@ -215,7 +215,7 @@ Als u een van de ingebouwde sjablonen gaat gebruiken of het e-mailbericht rechts
 
    - **Onderwerp:** Het **veld Onderwerp** van het e-mailbericht.
 
-   Wanneer u klaar bent, klikt u op **Volgende.**
+   Wanneer u gereed bent, klikt u op **Volgende**.
 
 6. Maak in **de stap E-mail** opstellen de berichtin body van het e-mailbericht. Als u een sjabloon hebt geselecteerd in de **stap Start,** is de berichtinstelling al geconfigureerd, maar u kunt deze aanpassen. U kunt het tabblad **E-mail** (een uitgebreide HTML-editor) of het **tabblad Bron** (onbewerkte HTML-code) gebruiken.
 
@@ -230,7 +230,7 @@ Als u een van de ingebouwde sjablonen gaat gebruiken of het e-mailbericht rechts
    > [!div class="mx-imgBorder"]
    > ![E-mail op te stellen](../../media/9bd65af4-1f9d-45c1-8c06-796d7ccfd425.jpg)
 
-   Wanneer u klaar bent, klikt u op **Volgende.**
+   Wanneer u gereed bent, klikt u op **Volgende**.
 
 7. Klik in **de stap** Bevestigen op **Voltooien om** de campagne te starten. Het phishingbericht wordt bezorgd bij de beoogde geadresseerden.
 
@@ -269,7 +269,7 @@ In Attack Simulator zijn er twee verschillende typen wachtwoord aanvalscampagnes
 
    - Klik **op Importeren** en vervolgens **bestand** importeren om een door komma's gescheiden waarde (CSV) of een door regel gescheiden bestand met e-mailadressen te importeren. Elke regel moet het e-mailadres van de geadresseerde bevatten.
 
-   Wanneer u klaar bent, klikt u op **Volgende.**
+   Wanneer u gereed bent, klikt u op **Volgende**.
 
 5. Kies in **de stap Aanvalsinstellingen** kiezen wat u moet doen op basis van het campagnetype:
 
@@ -281,7 +281,7 @@ In Attack Simulator zijn er twee verschillende typen wachtwoord aanvalscampagnes
 
    - **Wachtwoordinfarct**: Voer in **Het wachtwoord(en)** dat u wilt gebruiken in het aanvalsvak één wachtwoord in.
 
-   Wanneer u klaar bent, klikt u op **Volgende.**
+   Wanneer u gereed bent, klikt u op **Volgende**.
 
 6. Klik in **de stap** Bevestigen op **Voltooien om** de campagne te starten. De wachtwoorden die u hebt opgegeven, worden beproefd voor gebruikers die u hebt opgegeven.
 

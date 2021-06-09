@@ -63,13 +63,13 @@ GET /api/ips/{ip}/stats
 
 ## <a name="request-headers"></a>Kopteksten aanvragen
 
-Naam | Type | Omschrijving
+Naam | Type | Beschrijving
 :---|:---|:---
 Autorisatie | Tekenreeks | Bearer {token}. **Vereist**.
 
 ## <a name="request-uri-parameters"></a>URI-parameters aanvragen
 
-Naam | Type | Omschrijving
+Naam | Type | Beschrijving
 :---|:---|:---
 lookBackHours | Int32 | Definieert de uren die we terug zoeken om de statistieken te krijgen. Standaard is dit 30 dagen. **Optioneel**.
 
@@ -106,7 +106,7 @@ Hier is een voorbeeld van het antwoord.
 ```
 
 
-| Naam | Omschrijving |
+| Naam | Beschrijving |
 | :--- | :---------- |
 | Orgprepresensor | het duidelijke aantal apparaten dat de netwerkverbinding met dit IP-adres heeft geopend. |
 | Organisatie die voor het eerst is gezien | de eerste verbinding voor dit IP-adres in de organisatie. |

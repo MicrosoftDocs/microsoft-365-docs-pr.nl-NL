@@ -1,5 +1,5 @@
 ---
-title: Netwerkapparaatdetectie en beveiligingsprobleembeheer
+title: Netwerkapparaatdetectie en -vulnerability management
 description: Beveiligingsaanbevelingen en beveiligingsdetectie zijn nu beschikbaar voor besturingssystemen van schakelopties, routers, WLAN-controllers en firewalls.
 keywords: netwerkapparaten, detectie van kwetsbaarheid van netwerkapparaten, besturingssystemen van schakelopties, routers, WLAN-controllers en firewalls
 search.product: eADQiWindows 10XVcnh
@@ -25,14 +25,14 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 04/16/2021
 ms.locfileid: "51862065"
 ---
-# <a name="network-device-discovery-and-vulnerability-management"></a>Netwerkapparaatdetectie en beveiligingsprobleembeheer
+# <a name="network-device-discovery-and-vulnerability-management"></a>Netwerkapparaatdetectie en -vulnerability management
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
 
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [Bedreigings- en kwetsbaarheidsbeheer](next-gen-threat-and-vuln-mgt.md)
+- [Bedreiging en vulnerability management](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > [!IMPORTANT]
@@ -45,9 +45,9 @@ ms.locfileid: "51862065"
 > [!NOTE]  
 > De [netwerkapparaatdetectie-](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/network-device-discovery-and-vulnerability-assessments/ba-p/2267548) en kwetsbaarheidsbeoordelingen Blog \( gepubliceerd op 04-13-2021 biedt inzicht in de nieuwe mogelijkheden voor netwerkapparaatdetectie \) in Defender voor  Eindpunt. In dit artikel vindt u een overzicht van de uitdaging waarop netwerkapparaatdetectie **is** ontworpen en gedetailleerde informatie over hoe u aan de slag gaat met deze nieuwe mogelijkheden.
 
-Mogelijkheden voor netwerkdetectie zijn beschikbaar in de sectie **Apparaatvoorraad** van het Microsoft 365-beveiligingscentrum en de consoles van het Microsoft Defender-beveiligingscentrum.  
+Netwerkdetectiemogelijkheden zijn beschikbaar in de sectie **Apparaatvoorraad** van het Microsoft 365 beveiligingscentrum en Microsoft Defender-beveiligingscentrum consoles.  
 
-Een aangewezen Microsoft Defender voor Eindpunt-apparaat wordt in elk netwerksegment gebruikt om periodieke geverifieerde scans van vooraf geconfigureerde netwerkapparaten uit te voeren. Nadat deze zijn ontdekt, bieden de mogelijkheden voor bedreigings- en kwetsbaarheidsbeheer van Defender voor Eindpunt geïntegreerde werkstromen voor het beveiligen van gevonden schakelopties, routers, WLAN-controllers, firewalls en VPN-gateways.  
+Een aangewezen Microsoft Defender voor Eindpunt-apparaat wordt in elk netwerksegment gebruikt om periodieke geverifieerde scans van vooraf geconfigureerde netwerkapparaten uit te voeren. Nadat deze zijn ontdekt, bieden de functies van Defender voor Endpoint Threat and Vulnerability Management geïntegreerde werkstromen voor het beveiligen van gevonden schakelopties, routers, WLAN-controllers, firewalls en VPN-gateways.  
 
 Zodra de netwerkapparaten zijn gevonden en geclassificeerd, kunnen beveiligingsbeheerders de meest recente beveiligingsaanbevelingen ontvangen en onlangs ontdekte beveiligingsproblemen bekijken op netwerkapparaten die in hun organisatie zijn geïmplementeerd.
 
@@ -105,12 +105,12 @@ De eerste stap is het selecteren van een apparaat dat de geverifieerde netwerksc
 
 ## <a name="permissions"></a>Machtigingen
 
-Als u evaluatietaken wilt configureren, is de volgende optie voor gebruikersmachtiging vereist: **Beveiligingsinstellingen beheren in het Beveiligingscentrum.** U kunt de machtiging vinden door naar Instellingen Rollen  >  **te gaan.** Zie Rollen maken en beheren voor op rollen [gebaseerd toegangsbeheer voor meer informatie.](user-roles.md)
+Als u evaluatietaken wilt configureren, is de volgende optie voor gebruikersmachtiging vereist: **Beveiligingsinstellingen beheren in het Beveiligingscentrum.** U kunt de machtiging vinden door naar Instellingen  >  **Rollen.** Zie Rollen maken en beheren voor op rollen [gebaseerd toegangsbeheer voor meer informatie.](user-roles.md)
 
 ## <a name="install-the-network-scanner"></a>De netwerkscanner installeren
 
-1. Ga naar **Microsoft 365 security**  >  **Settings**  >  **Endpoints**  >  **Assessment jobs** (under Network **assessments**).
-    1. Ga in het Microsoft Defender-beveiligingscentrum naar de pagina Instellingen > Evaluatietaken.
+1. Ga naar **Microsoft 365**  >  **beveiligingstaken Instellingen**  >  **Endpoints**  >  **Assessment jobs** (onder **Netwerkbeoordelingen).**
+    1. Ga in Microsoft Defender-beveiligingscentrum naar de pagina Instellingen > Taken beoordelen.
 
 2. Download de netwerkscanner en installeer deze op het aangewezen defender voor eindpuntbeoordelingsapparaat.
 
@@ -134,7 +134,7 @@ Het registratieproces van de netwerkscanner voltooien:
 
 ## <a name="configure-a-new-assessment-job"></a>Een nieuwe evaluatieklus configureren  
 
-Selecteer op de pagina Evaluatietaken in **Instellingen** de optie **Netwerkbeoordelingstaken toevoegen.** Volg het set-upproces om netwerkapparaten te kiezen die regelmatig moeten worden gescand en toegevoegd aan de apparaatvoorraad.
+Selecteer op de pagina **Evaluatietaken** in Instellingen de optie **Netwerkbeoordelingstaken toevoegen.** Volg het set-upproces om netwerkapparaten te kiezen die regelmatig moeten worden gescand en toegevoegd aan de apparaatvoorraad.
 
 Als u duplicatie van apparaten in de netwerkapparaatvoorraad wilt voorkomen, moet u ervoor zorgen dat elk IP-adres slechts eenmaal is geconfigureerd op meerdere beoordelingsapparaten.
 
@@ -193,7 +193,7 @@ Als u na 5 minuten nog steeds geen resultaten krijgt, start u de service opnieuw
 
 Controleer of de scanner correct wordt uitgevoerd. Ga vervolgens naar de scandefinitie en selecteer 'Test uitvoeren'. Controleer welke foutberichten van de betreffende IP-adressen worden verzonden.
 
-### <a name="required-threat-and-vulnerability-management-user-permission"></a>Vereiste gebruikersmachtigingen voor bedreigings- en kwetsbaarheidsbeheer
+### <a name="required-threat-and-vulnerability-management-user-permission"></a>Vereist Threat and Vulnerability Management gebruikersmachtiging
 
 Registratie is voltooid met een fout: 'Het lijkt erop dat u niet over voldoende machtigingen voor het toevoegen van een nieuwe agent hebt. De vereiste machtiging is 'Beveiligingsinstellingen beheren in het Beveiligingscentrum'.
 
@@ -209,7 +209,7 @@ Probeer een andere browser of kopieer de aanmeldingskoppeling en -code naar een 
 
 Wijzig de instellingen voor de opdrachtregel op uw apparaat om het kopiëren en wijzigen van de tekstgrootte toe te staan.
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-articles"></a>Aanverwante artikelen
 
 - [Apparaatvoorraad](machines-view-overview.md)
 - [Geavanceerde functies configureren](advanced-features.md)

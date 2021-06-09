@@ -54,11 +54,11 @@ Beheerders kunnen Exchange Online PowerShell gebruiken om de status van de regel
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U kunt alleen Exchange Online PowerShell gebruiken om de procedures in dit artikel uit te voeren. Zie [Verbinding maken met Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) als je verbinding wilt maken met Exchange Online PowerShell.
+- U kunt alleen Exchange Online PowerShell gebruiken om de procedures in dit artikel uit te voeren. Zie [Verbinding maken met Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell.
 
 - Voordat u de procedures in dit artikel kunt uitvoeren, moet Exchange Online machtigingen zijn toegewezen. U hebt met name de rol E-mailontvangers nodig (die standaard is toegewezen aan de  rollengroepen Organisatiebeheer, Geadresseerdenbeheer  en  Aangepaste e-mailontvangers) of de rol Gebruikersopties (die standaard is toegewezen aan de rollengroepen Organisatiebeheer en Helpdesk).    Als u gebruikers wilt toevoegen aan rollengroepen in Exchange Online, zie [Rollengroepen wijzigen in Exchange Online.](/Exchange/permissions-exo/role-groups#modify-role-groups) Houd er rekening mee dat gebruikers met standaardmachtigingen dezelfde procedures kunnen uitvoeren in hun eigen postvak, zolang ze toegang hebben tot [Exchange Online PowerShell.](/powershell/exchange/disable-access-to-exchange-online-powershell)
 
-- In hybride omgevingen waarin EOP on-premises Exchange-postvakken beschermt, moet u regels voor e-mailstroom (ook wel transportregels genoemd) configureren in on-premises Exchange om de uitspraak voor EOP-spamfilters te vertalen, zodat de regel voor ongewenste e-mail het bericht naar de map Ongewenste e-mail kan verplaatsen. Zie [EOP configureren voor spam](/exchange/standalone-eop/configure-eop-spam-protection-hybrid)in de map Ongewenste e-mail in hybride omgevingen voor meer informatie.
+- In hybride omgevingen waar EOP on-premises Exchange-postvakken beschermt, moet u regels voor e-mailstroom (ook wel transportregels genoemd) configureren in on-premises Exchange om de EOP-spamfilterbeoordeling te vertalen, zodat de regel voor ongewenste e-mail het bericht kan verplaatsen naar de map Ongewenste e-mail. Zie [EOP configureren om in hybride omgevingen spam te bezorgen in de map Ongewenste e-mail](/exchange/standalone-eop/configure-eop-spam-protection-hybrid) voor meer informatie. 
 
 - Safe Afzenders voor gedeelde postvakken worden niet automatisch gesynchroniseerd met Azure AD en EOP.
 

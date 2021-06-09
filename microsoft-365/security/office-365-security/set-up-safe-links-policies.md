@@ -98,7 +98,7 @@ Als u een aangepast Safe-koppelingenbeleid maakt in het beveiligings- & complian
 
    - **Beschrijving**: voer een optionele beschrijving in voor het beleid.
 
-   Wanneer u klaar bent, klikt u op **Volgende.**
+   Wanneer u gereed bent, klikt u op **Volgende**.
 
 4. Configureer **op Instellingen** pagina die wordt weergegeven de volgende instellingen:
 
@@ -128,7 +128,7 @@ Als u een aangepast Safe-koppelingenbeleid maakt in het beveiligings- & complian
 
    Zie voor meer informatie over de aanbevolen waarden voor standaard- en strikte beleidsinstellingen [Safe Beleidsinstellingen koppelingen.](recommended-settings-for-eop-and-office365.md#safe-links-policy-settings)
 
-   Wanneer u klaar bent, klikt u op **Volgende.**
+   Wanneer u gereed bent, klikt u op **Volgende**.
 
 5. Op de **pagina Toegepast op** die wordt weergegeven, identificeert u de interne geadresseerden op wie het beleid van toepassing is.
 
@@ -152,7 +152,7 @@ Als u een aangepast Safe-koppelingenbeleid maakt in het beveiligings- & complian
 
    Als u uitzonderingen wilt toevoegen, klikt **u op Een voorwaarde toevoegen** en selecteert u een uitzondering onder Behalve **als**. De instellingen en het gedrag zijn exact hetzelfde als bij de voorwaarden.
 
-   Wanneer u klaar bent, klikt u op **Volgende.**
+   Wanneer u gereed bent, klikt u op **Volgende**.
 
 6. Controleer uw **instellingen op de** pagina Uw instellingen controleren die wordt weergegeven. U kunt op **Bewerken op elke** instelling klikken om deze te wijzigen.
 

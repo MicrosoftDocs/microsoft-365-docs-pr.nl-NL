@@ -47,7 +47,7 @@ Voordat u e-mail verzendt met vertrouwelijke of gevoelige informatie, kunt u het
 
 ## <a name="set-it-up"></a>Instellen
 
-Als u een bericht wilt versleutelen dat niet voldoet aan een vooraf gedefinieerde regel of als uw beheerder geen regels heeft ingesteld, kunt u verschillende versleutelingsregels toepassen voordat u het bericht verzendt. Als u een versleuteld bericht wilt verzenden vanuit Outlook 2013 of 2016 of Outlook 2016 voor Mac, selecteert u **Opties > Machtigingen** en selecteert u vervolgens de gewenste beveiligingsoptie. U kunt ook een versleuteld bericht verzenden door de **knop** Beveiligen te selecteren in de webversie van Outlook. Zie Versleutelde berichten verzenden, weergeven en beantwoorden in Outlook voor pc voor [meer informatie.](https://support.microsoft.com/en-us/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980)
+Als u een bericht wilt versleutelen dat niet voldoet aan een vooraf gedefinieerde regel of als uw beheerder geen regels heeft ingesteld, kunt u verschillende versleutelingsregels toepassen voordat u het bericht verzendt. Als u een versleuteld bericht wilt verzenden vanaf Outlook 2013 of 2016 of Outlook 2016 voor Mac, selecteert u **Opties > Machtigingen** en selecteert u vervolgens de gewenste beveiligingsoptie. U kunt ook een versleuteld bericht verzenden door de knop Beveiligen te **selecteren** in Outlook op internet. Zie Versleutelde berichten [verzenden, weergeven en beantwoorden in Outlook pc voor meer informatie.](https://support.microsoft.com/en-us/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980)
 
 ## <a name="admin-settings"></a>Beheerinstellingen
 
@@ -57,11 +57,11 @@ U vindt alles over het instellen van e-mailversleuteling bij [E-mailversleutelin
 
 Beheerders kunnen regels voor e-mailstroom maken om e-mailberichten die vanuit uw campagne worden verzonden en ontvangen, automatisch te beveiligen. Stel regels in om uitgaande e-mailberichten te versleutelen en versleuteling te verwijderen uit versleutelde berichten die afkomstig zijn van uw organisatie of van antwoorden naar versleutelde berichten die vanuit uw organisatie worden verzonden.
 
-U maakt regels voor de e-mailstroom om e-mailberichten te versleutelen met de nieuwe mogelijkheden van Office 365 Message Encryption (OME). Definieer e-mailstroomregels voor het activeren van berichtversleuteling met de nieuwe OME-mogelijkheden met behulp van het Exchange Admin Center (EAC). 
+U maakt regels voor e-mailstroom om e-mailberichten te versleutelen met de nieuwe Office 365-berichtversleuteling (OME). Definieer e-mailstroomregels voor het activeren van berichtversleuteling met de nieuwe OME-mogelijkheden met behulp van Exchange Beheercentrum (EAC). 
 
 1. Meld u aan in een webbrowser met een werk- of schoolaccount dat globale beheerdersmachtigingen heeft gekregen.
 2. Kies de tegel Beheerder.
-3. Kies beheercentra in het beheercentrum **> Exchange.**
+3. Kies beheercentra in het **beheercentrum > Exchange.**
 
 Zie Regels voor e-mailstroom definiëren [om e-mailberichten te versleutelen voor meer informatie.](../compliance/define-mail-flow-rules-to-encrypt-email.md)
 

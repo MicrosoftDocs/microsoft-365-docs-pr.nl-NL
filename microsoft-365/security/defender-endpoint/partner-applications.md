@@ -64,7 +64,7 @@ Logo |Partnernaam   | Beschrijving
 ![Afbeelding van Micro Focus ArcSight-logo](images/arcsight-logo.png) | [MicroFocus ArcSight](https://go.microsoft.com/fwlink/?linkid=2113548) | MicroFocus ArcSight gebruiken om Defender voor eindpuntdetecties te trekken
 ![Afbeelding van RSA NetWitness-logo](images/rsa-netwitness-logo.png) | [RSA NetWitness](https://go.microsoft.com/fwlink/?linkid=2118566) | Stream Defender for Endpoint Alerts to RSA NetWitness using Microsoft Graph Security API
 ![Afbeelding van SafeBreach-logo](images/safebreach-logo.png) | [SafeBreach](https://go.microsoft.com/fwlink/?linkid=2114114)| Zichtbaarheid krijgen in beveiligingsgebeurtenissen van Defender voor eindpunten die automatisch worden gecorreleerd met SafeBreach-simulaties
-![Afbeelding van Skybox Vulnerability Control-logo](images/skybox-logo.png) | [Skybox Vulnerability Control](https://go.microsoft.com/fwlink/?linkid=2127467) | Skybox Vulnerability Control doorsnijdt het geluid van kwetsbaarheidsbeheer, correlerende context voor bedrijven, netwerken en bedreigingen om uw meest risicovolle beveiligingslekken aan het licht te brengen
+![Afbeelding van Skybox Vulnerability Control-logo](images/skybox-logo.png) | [Skybox Vulnerability Control](https://go.microsoft.com/fwlink/?linkid=2127467) | Skybox Vulnerability Control doorsnijdt het geluid van vulnerability management, correlerende context voor bedrijven, netwerken en bedreigingen om uw meest risicovolle beveiligingslekken aan het licht te brengen
 ![Afbeelding van Splunk-logo](images/splunk-logo.png) | [Splunk](https://go.microsoft.com/fwlink/?linkid=2129805) | Met de invoeging defender voor eindpunt kunnen Splunk-gebruikers alle waarschuwingen en ondersteunende informatie opnemen in hun Splunk
 ![Afbeelding van XM Cyber-logo](images/xmcyber-logo.png) | [XM Cyber](https://go.microsoft.com/fwlink/?linkid=2136700) | Prioriteit geven aan uw antwoord op een waarschuwing op basis van risicofactoren en activa met een hoge waarde
 
@@ -76,7 +76,7 @@ Logo |Partnernaam   | Beschrijving
 ![Afbeelding van CyberSponse CyOps-logo](images/cybersponse-logo.png) | [CyberSponse CyOps](https://go.microsoft.com/fwlink/?linkid=2115943) | CyOps integreert met Defender for Endpoint om de snel reagerende playbooks voor incidenten van klanten te automatiseren
 ![Afbeelding van Delta Risk ActiveEye-logo](images/delta-risk-activeeye-logo.png) | [Delta Risk ActiveEye](https://go.microsoft.com/fwlink/?linkid=2127468) | Delta Risk, een toonaangevende provider van SOC-as-a-Service en beveiligingsservices, integreert Defender for Endpoint met het cloud-native SOAR-platform ActiveEye.
 ![Afbeelding van Demisto, een logo van Palo Alto Networks Company](images/demisto-logo.png) | [Demisto, een Palo Alto Networks Company](https://go.microsoft.com/fwlink/?linkid=2108414) | Demisto wordt geïntegreerd met Defender voor Endpoint om beveiligingsteams in staat te stellen beveiligingscontrole, verrijking en reactie van eindpunten te orden en te automatiseren
-![Afbeelding van Microsoft Flow & Azure Functions-logo](images/ms-flow-logo.png) | [Microsoft Flow & Azure-functies](https://go.microsoft.com/fwlink/?linkid=2114300) | Gebruik de Defender voor Eindpunt-connectors voor Azure Logic Apps & Microsoft Flow om beveiligingsprocedures te automatiseren
+![Afbeelding van Microsoft Flow & Azure Functions-logo](images/ms-flow-logo.png) | [Microsoft Flow & Azure-functies](https://go.microsoft.com/fwlink/?linkid=2114300) | De Defender voor Eindpunt-connectors gebruiken om Azure Logic Apps & Microsoft Flow beveiligingsprocedures te automatiseren
 ![Afbeelding van Rapid7 InsightConnect-logo](images/rapid7-logo.png) | [Rapid7 InsightConnect](https://go.microsoft.com/fwlink/?linkid=2116040) | InsightConnect integreert met Defender voor Endpoint om uw tijdintensieve beveiligingsprocessen te versnellen, stroomlijnen en integreren
 ![Afbeelding van ServiceNow-logo](images/servicenow-logo.png) | [ServiceNow](https://go.microsoft.com/fwlink/?linkid=2135621) | Waarschuwingen opnemen in serviceNow-beveiligingsbewerkingsoplossing op basis van Microsoft Graph API-integratie
 ![Afbeelding van Swimlane-logo](images/swimlane-logo.png) | [Zwembaan](https://go.microsoft.com/fwlink/?linkid=2113902) | Mogelijkheden voor incidentrespons maximaliseren met Swimlane en Defender voor eindpunten
@@ -109,8 +109,8 @@ Logo |Partnernaam   | Beschrijving
 ![Afbeelding van Het logo van Better Mobile](images/bettermobile-logo.png) | [Betere mobiele telefoon](https://go.microsoft.com/fwlink/?linkid=2086214)| OP AI gebaseerde MTD-oplossing om mobiele bedreigingen tegen te & phishing. Privé surfen op internet om de privacy van gebruikers te beschermen 
 ![Afbeelding van Corrata-logo](images/corrata-logo.png)| [Corrata](https://go.microsoft.com/fwlink/?linkid=2081148) | Mobiele oplossing: bescherm uw mobiele apparaten met gedetailleerde zichtbaarheid en controle vanuit Corrata 
 ![Afbeelding van het lookout-logo](images/lookout-logo.png)| [Lookout](https://go.microsoft.com/fwlink/?linkid=866935)| Telemetrie van Lookout Mobile Threat Protection downloaden voor mobiele android- en iOS-apparaten
-![Afbeelding van het logo van Symantec Endpoint Protection Mobile](images/symantec-logo.png) | [Symantec Endpoint Protection Mobile](https://go.microsoft.com/fwlink/?linkid=2090992)| SEP Mobile helpt bedrijven bij het voorspellen, detecteren en voorkomen van beveiligingsrisico's en beveiligingsproblemen op mobiele apparaten 
-![Afbeelding van Zimperium-logo](images/zimperium-logo.png)| [Zimperium](https://go.microsoft.com/fwlink/?linkid=2118044)|Uw Defender voor Eindpunt uitbreiden naar iOS en Android met mobiele bedreigingsdefensie op basis van Machine Learning
+![Afbeelding van het logo van Endpoint Protection Mobile](images/symantec-logo.png) | [Symantec Endpoint Protection Mobile](https://go.microsoft.com/fwlink/?linkid=2090992)| SEP Mobile helpt bedrijven bij het voorspellen, detecteren en voorkomen van beveiligingsrisico's en beveiligingsproblemen op mobiele apparaten 
+![Afbeelding van Zimperium-logo](images/zimperium-logo.png)| [Zimperium](https://go.microsoft.com/fwlink/?linkid=2118044)|Uw Defender voor Eindpunt uitbreiden naar iOS en Android met Machine Learning mobile threat defense
 
 
 
@@ -152,5 +152,5 @@ Met Defender voor Eindpunt kunt u integreren met deze oplossingen en op Ioc's re
 
 Defender voor Eindpunt ondersteunt momenteel IOC-matching en herstel voor bestands- en netwerkindicatoren. Blokkeren wordt ondersteund voor bestandsindicatoren.  
 
-## <a name="support-for-non-windows-platforms"></a>Ondersteuning voor niet-Windows-platforms
-Defender voor Eindpunt biedt een gecentraliseerde beveiligingsbewerkingservaring voor Windows- en niet-Windows-platforms, inclusief mobiele apparaten. U kunt waarschuwingen van verschillende ondersteunde besturingssystemen (OS) in de portal zien en het netwerk van uw organisatie beter beveiligen. 
+## <a name="support-for-non-windows-platforms"></a>Ondersteuning voor niet-Windows platforms
+Defender voor Eindpunt biedt een gecentraliseerde beveiligingsbewerkingservaring voor Windows en niet-Windows platforms, waaronder mobiele apparaten. U kunt waarschuwingen van verschillende ondersteunde besturingssystemen (OS) in de portal zien en het netwerk van uw organisatie beter beveiligen. 

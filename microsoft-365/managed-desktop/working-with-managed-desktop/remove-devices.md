@@ -1,6 +1,6 @@
 ---
 title: Apparaten verwijderen
-description: Apparaten verwijderen uit Microsoft Managed Desktop Management
+description: Apparaten verwijderen uit Microsoft Managed Desktop beheer
 ms.service: m365-md
 author: jaimeo
 f1.keywords:
@@ -20,7 +20,7 @@ ms.locfileid: "51893735"
 ---
 # <a name="remove-devices"></a>Apparaten verwijderen
 
-U kunt apparaten verwijderen uit Microsoft Managed Desktop Management met behulp van de beheerportal. Deze actie is permanent, maar u kunt deze opnieuw registreren bij Microsoft Managed Desktop door de [registratiestappen te volgen.](../get-started/register-devices-self.md)
+U kunt apparaten verwijderen uit Microsoft Managed Desktop beheer via de beheerportal. Deze actie is permanent, maar u kunt deze opnieuw registreren met Microsoft Managed Desktop door de [registratiestappen uit te voeren.](../get-started/register-devices-self.md)
 
 Wanneer u een apparaat verwijdert, vindt u de volgende stappen:
 
@@ -28,14 +28,14 @@ Wanneer u een apparaat verwijdert, vindt u de volgende stappen:
 - We verwijderen het apparaat uit alle apparaatgroepen 'Moderne werkplek'.
 - We verwijderen het apparaat uit het **blad Apparaten** in de beheerportal.
 
-Wanneer u een apparaat verwijdert, kunt u het apparaat ook verwijderen uit Azure Active Directory (Azure AD) en Microsoft Intune.
+Wanneer u een apparaat verwijdert, kunt u dit ook verwijderen uit Azure Active Directory (Azure AD) en Microsoft Intune.
  
 > [!CAUTION]
 > Het verwijderen van de objecten die betrekking hebben op een apparaat uit Azure AD en Microsoft Intune is permanent. Als u de objecten verwijdert, kunt u de apparaten niet bekijken of beheren vanuit de Intune- en Azure-portals. De apparaten hebben geen toegang tot de bedrijfsresources van hun bedrijf. Bedrijfsgegevens kunnen van hen worden verwijderd als de apparaten zich proberen aan te melden nadat ze zijn verwijderd.
 
-1. Selecteer [in Microsoft Endpoint Manager](https://endpoint.microsoft.com/)de optie **Apparaten** in het linkernavigatiedeelvenster.
-2. Zoek de sectie **Microsoft Managed Desktop** van het menu en selecteer **Apparaten.**
-3. Selecteer in de werkruimte Microsoft Managed Desktop Devices de apparaten die u wilt verwijderen.
+1. Selecteer [Microsoft Endpoint Manager](https://endpoint.microsoft.com/)in **het** linkernavigatiedeelvenster apparaten.
+2. Zoek naar de **Microsoft Managed Desktop** van het menu en selecteer **Apparaten.**
+3. Selecteer in Microsoft Managed Desktop werkruimte Apparaten de apparaten die u wilt verwijderen.
 4. Selecteer **Apparaatacties** en selecteer vervolgens **Apparaat verwijderen waarmee** een fly-in wordt geopend om de apparaten te verwijderen.
 5. Controleer in de fly-in de geselecteerde apparaten en selecteer **vervolgens Apparaten verwijderen.** Als u de Azure AD- en Intune-objecten tegelijk wilt verwijderen, schakelt u het selectievakje in. Het verwijderen van apparaten kan enkele minuten duren.
 

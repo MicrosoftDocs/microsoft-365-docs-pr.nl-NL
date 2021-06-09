@@ -1,5 +1,5 @@
 ---
-title: Toegang tot het Microsoft Defender voor Eindpunt Community Center
+title: Toegang tot het Microsoft Defender voor Eindpunt Community Center
 description: Toegang tot het Microsoft Defender for Endpoint Community Center om ervaringen te delen, deel te nemen en meer te weten te komen over het product.
 keywords: community, communitycentrum, tech community, gesprek, aankondigingen
 search.product: eADQiWindows 10XVcnh
@@ -24,7 +24,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 04/20/2021
 ms.locfileid: "51893423"
 ---
-# <a name="access-the-microsoft-defender-for-endpoint-community-center"></a>Toegang tot het Microsoft Defender voor Eindpunt Community Center
+# <a name="access-the-microsoft-defender-for-endpoint-community-center"></a>Toegang tot het Microsoft Defender voor Eindpunt Community Center
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -43,7 +43,7 @@ Er zijn verschillende ruimten die u kunt verkennen om meer te weten te komen ove
 
 
 Er zijn verschillende manieren waarop u toegang hebt tot het Community Center:
-- Selecteer in het navigatiedeelvenster van het Microsoft Defender-beveiligingscentrum de optie **Communitycentrum.**  Er wordt een nieuw browsertabblad geopend en u gaat naar de pagina Defender voor Endpoint Tech Community. 
+- Selecteer in Microsoft Defender-beveiligingscentrum navigatiedeelvenster de optie **Communitycentrum.**  Er wordt een nieuw browsertabblad geopend en u gaat naar de pagina Defender voor Endpoint Tech Community. 
 - Toegang tot de community via de pagina Tech Community van [Microsoft Defender voor Endpoint](https://techcommunity.microsoft.com/t5/Windows-Defender-Advanced-Threat/ct-p/WindowsDefenderAdvanced)
 
 

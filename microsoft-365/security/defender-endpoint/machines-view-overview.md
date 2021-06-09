@@ -89,7 +89,7 @@ Filteren op de volgende statussen van apparaten:
 
 ### <a name="antivirus-status"></a>Antivirusstatus
 
-Apparaten filteren op antivirusstatus. Is alleen van toepassing op actieve Windows 10-apparaten.
+Apparaten filteren op antivirusstatus. Geldt alleen voor actieve Windows 10 apparaten.
 
 - **Uitgeschakeld-** Virusbeveiliging & is uitgeschakeld.
 - **Niet rapporteren:** virusbeveiliging & geen rapportage.
@@ -103,9 +103,9 @@ Als u apparaten wilt weergeven die mogelijk worden beïnvloed door een bepaalde 
 
 Zie Bedreigingsanalyse voor meer [informatie over bepaalde bedreigingen.](threat-analytics.md) Zie Threat [& Vulnerability Management voor](next-gen-threat-and-vuln-mgt.md)informatie over risicobeperking.
 
-### <a name="windows-10-version"></a>Windows 10-versie
+### <a name="windows-10-version"></a>Windows 10 versie
 
-Selecteer alleen de Windows 10-versies die u wilt onderzoeken.
+Selecteer alleen de Windows 10 versies die u wilt onderzoeken.
 
 ### <a name="tags--groups"></a>Tags & Groepen
 

@@ -24,7 +24,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 06/03/2021
 ms.locfileid: "52736420"
 ---
-# <a name="query-and-filter-content-in-a-review-set"></a>Inhoud in een revisieset query's uitvoeren en filteren
+# <a name="query-and-filter-content-in-a-review-set"></a>Query- en filterinhoud in een controleset
 
 In de meeste gevallen is het handig om dieper in te gaan op de inhoud in een revisieset en deze te organiseren om een efficiëntere controle te vergemakkelijken. Als u filters en query's in een revisieset gebruikt, kunt u zich concentreren op een subset met documenten die voldoen aan de criteria van uw revisie.
 

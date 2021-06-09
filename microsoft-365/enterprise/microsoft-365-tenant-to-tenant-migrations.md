@@ -17,7 +17,7 @@ search.appverid:
 ms.assetid: eb45fd8b-1d5d-4b0c-9c5a-479dbb176e7d
 f1.keywords:
 - NOCSH
-description: Meer informatie over het migreren van Microsoft 365-tenants.
+description: Meer informatie over het migreren Microsoft 365 tenants.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: f6e8277a7ca768db3a4a4acd2488859b7764a40c
 ms.sourcegitcommit: 8b1bd7ca8cd81e4270f0c1e06d2b6ca81804a6aa
@@ -28,9 +28,9 @@ ms.locfileid: "50819712"
 ---
 # <a name="microsoft-365-tenant-to-tenant-migrations"></a>Microsoft 365 tenant-to-tenant-migraties
 
-Er zijn verschillende architectuurbenaderingen voor fusies, overnames, afstotingen en andere scenario's die ertoe kunnen leiden dat u een bestaande Microsoft 365-tenant migreert naar een nieuwe tenant. De meeste klanten werken samen met Microsoft Consulting Services of een Microsoft-partner om tenants te migreren, inclusief het gebruik van hulpprogramma's van derden om inhoud te migreren. 
+Er zijn verschillende architectuurbenaderingen voor fusies, overnames, afstotingen en andere scenario's die ertoe kunnen leiden dat u een bestaande Microsoft 365 tenant naar een nieuwe tenant migreert. De meeste klanten werken samen met Microsoft Consulting Services of een Microsoft-partner om tenants te migreren, inclusief het gebruik van hulpprogramma's van derden om inhoud te migreren. 
 
-Gebruik het [tenant-to-tenant-migratiearchitectuurmodel](https://download.microsoft.com/download/b/a/1/ba19dfe7-96e2-4983-8783-4dcff9cebe7b/microsoft-365-tenant-to-tenant-migration.pdf) om te begrijpen hoe u microsoft 365 tenant-to-tenantmigraties en de stappen van een migratie kunt plannen.
+Gebruik het [tenant-to-tenant-migratiearchitectuurmodel](https://download.microsoft.com/download/b/a/1/ba19dfe7-96e2-4983-8783-4dcff9cebe7b/microsoft-365-tenant-to-tenant-migration.pdf) om te begrijpen hoe u Microsoft 365 tenant-to-tenant-migraties en de stappen van een migratie.
 
 [![Migratiemodel tenant-naar-tenant](../media/solutions-architecture-center/msft-tenant-to-tenant-migration-thumb.png)](https://download.microsoft.com/download/b/a/1/ba19dfe7-96e2-4983-8783-4dcff9cebe7b/microsoft-365-tenant-to-tenant-migration.pdf) 
 

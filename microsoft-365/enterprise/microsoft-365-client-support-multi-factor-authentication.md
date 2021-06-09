@@ -1,5 +1,5 @@
 ---
-title: 'Ondersteuning voor Microsoft 365 Client App: Meervoudige verificatie'
+title: 'Microsoft 365 Client-app-ondersteuning: meervoudige verificatie'
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -14,7 +14,7 @@ search.appverid:
 - MET150
 f1.keywords:
 - NOCSH
-description: In dit artikel leert u welke platforms, clients en PowerShell-modules meervoudige verificatie voor Microsoft 365 ondersteunen.
+description: In dit artikel leert u welke platforms, clients en PowerShell-modules meervoudige verificatie ondersteunen voor Microsoft 365.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 80ee370526d17d472cd048cd4d89b862e158b631
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
@@ -23,7 +23,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50927557"
 ---
-# <a name="microsoft-365-client-app-support-multi-factor-authentication"></a>Ondersteuning voor Microsoft 365 Client App: Meervoudige verificatie
+# <a name="microsoft-365-client-app-support-multi-factor-authentication"></a>Microsoft 365 Client-app-ondersteuning: meervoudige verificatie
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
@@ -36,7 +36,7 @@ Meer informatie over [meervoudige verificatie](/azure/active-directory/authentic
 
 ## <a name="supported-clients--platforms"></a>Ondersteunde clients & platforms
 
-De nieuwste versies van de volgende clients en platforms ondersteunen meervoudige verificatie. Zie Systeemvereisten voor Microsoft 365 voor meer informatie over platformondersteuning in [Microsoft 365.](/microsoft-365/microsoft-365-and-office-resources)
+De nieuwste versies van de volgende clients en platforms ondersteunen meervoudige verificatie. Zie Systeemvereisten voor Microsoft 365 voor meer informatie over platformondersteuning [in Microsoft 365.](/microsoft-365/microsoft-365-and-office-resources)
 <br>
 <br>
 

@@ -20,7 +20,7 @@ ms.locfileid: "51893778"
 ---
 # <a name="address-device-name-dependency"></a>Afhankelijkheid van adresapparaatnaam
 
-Microsoft Managed Desktop past een gestandaardiseerde naamnotatie toe wanneer apparaten zijn geregistreerd en de naam van apparaten automatisch wijzigt als de naam later wordt gewijzigd. Zie Apparaatnamen voor [meer informatie.](../service-description/device-names.md)
+Microsoft Managed Desktop wordt een gestandaardiseerde naamnotatie toegepast wanneer apparaten zijn geregistreerd en automatisch de naam van apparaten wijzigen als de naam later wordt gewijzigd. Zie Apparaatnamen voor [meer informatie.](../service-description/device-names.md)
 
 > [!IMPORTANT]
-> Als uw omgeving afhankelijk is van specifieke apparaatnamen (bijvoorbeeld om een bepaalde netwerkconfiguratie te ondersteunen), moet u opties onderzoeken om die afhankelijkheid te verwijderen voordat u zich inschrijft bij Microsoft Managed Desktop. Als u de naamafhankelijkheid moet behouden, kunt u een aanvraag indienen via de [beheerportal](../working-with-managed-desktop/admin-support.md) om de naamswijzigingsfunctie uit te schakelen en de gewenste naamnotatie te gebruiken.
+> Als uw omgeving afhankelijk is van specifieke apparaatnamen (bijvoorbeeld om een bepaalde netwerkconfiguratie te ondersteunen), moet u opties onderzoeken om die afhankelijkheid te verwijderen voordat u zich inschrijft Microsoft Managed Desktop. Als u de naamafhankelijkheid moet behouden, kunt u een aanvraag indienen via de [beheerportal](../working-with-managed-desktop/admin-support.md) om de naamswijzigingsfunctie uit te schakelen en de gewenste naamnotatie te gebruiken.

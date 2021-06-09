@@ -45,7 +45,7 @@ In dit onderwerp vindt u instructies voor het uitvoeren van het hulpprogramma vi
  
 2.  Start een [Live Response-sessie](live-response.md#initiate-a-live-response-session-on-a-device) op de computer die u moet onderzoeken.
 
-3.  Selecteer **Bestand uploaden naar bibliotheek**.
+3.  Selecteer **Upload bestand naar bibliotheek**.
 
     ![Afbeelding van uploadbestand](images/upload-file.png)
 

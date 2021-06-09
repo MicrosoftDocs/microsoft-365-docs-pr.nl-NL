@@ -1,5 +1,5 @@
 ---
-title: Een Microsoft Defender voor Eindpunt-partner worden
+title: Een Microsoft Defender voor Eindpunt-partner worden
 ms.reviewer: ''
 description: Meer informatie over de stappen en vereisten voor het integreren van uw oplossing met Microsoft Defender voor Eindpunt en partner zijn
 keywords: partner, integratie, oplossingsvalidatie, certificering, vereisten, lid, misa, toepassingsportal
@@ -23,7 +23,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 04/20/2021
 ms.locfileid: "51893315"
 ---
-# <a name="become-a-microsoft-defender-for-endpoint-partner"></a>Een Microsoft Defender voor Eindpunt-partner worden
+# <a name="become-a-microsoft-defender-for-endpoint-partner"></a>Een Microsoft Defender voor Eindpunt-partner worden
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -39,7 +39,7 @@ Als u een Defender voor Eindpunt-oplossingspartner wilt worden, moet u de volgen
 Abonneer u op [de licentie microsoft Defender voor endpoint-ontwikkelaars](https://winatpregistration-prd.trafficmanager.net/Developer/UserAgreement?Length=9). Met een abonnement kunt u een Microsoft Defender for Endpoint-tenant met maximaal 10 apparaten gebruiken om oplossingen te ontwikkelen die zijn geïntegreerd met Microsoft Defender voor Eindpunt. 
 
 ## <a name="step-2-fulfill-the-solution-validation-and-certification-requirements"></a>Stap 2: Voldoen aan de vereisten voor validatie en certificering van oplossingen
-De beste manier voor technologiepartners om te certificeren dat hun integratie werkt, is door een gezamenlijke klant het voorgestelde integratieontwerp goed te laten keuren (de klant kan de optie Een **partner** aanbevelen gebruiken op de [pagina Partnertoepassing](https://securitycenter.microsoft.com/interoperability/partners) in het Microsoft Defender-beveiligingscentrum) en deze laten testen en degraderen naar het Microsoft Defender voor Eindpunt-team.
+De beste manier voor technologiepartners om te certificeren dat hun integratie werkt, is door een gezamenlijke klant het voorgestelde integratieontwerp goed te laten keuren (de klant kan de optie Een **partner** aanbevelen gebruiken op de [pagina Partnertoepassing](https://securitycenter.microsoft.com/interoperability/partners) in de Microsoft Defender-beveiligingscentrum) en deze laten testen en demo's laten doen naar het Microsoft Defender voor Eindpunt-team.
 
 Zodra het Microsoft Defender voor Endpoint-team de integratie heeft beoordeeld en goedgekeurd, wordt u door ons doorverbonden als partner bij de Microsoft Intelligent Security Association.
 
@@ -56,7 +56,7 @@ Als u wilt dat uw bedrijf als partner wordt vermeld op de pagina in-productpartn
 3. Geef een productbeschrijving van 15 woorden op.
 4. Koppeling naar de landingspagina voor de klant om de integratie of blogpost te voltooien die voldoende informatie voor klanten bevat. Elk persbericht, inclusief de productnaam van Microsoft Defender voor Eindpunt, moet worden beoordeeld door de marketing- en technische teams. Wacht ten minste 10 dagen totdat het revisieproces is uitgevoerd.
 5.  Als u een Azure AD-benadering met meerdere tenants gebruikt, hebben we de naam van de Azure AD-toepassing nodig om het gebruik van de toepassing bij te houden.
-6. Neem het User-Agent veld op in elke API-oproep die wordt gedaan naar openbare API's of Graph-beveiligings-API's van Microsoft Defender voor Eindpunt. Dit wordt gebruikt voor statistische doeleinden, probleemoplossing en partnerherkenning. Bovendien is deze stap een vereiste voor lidmaatschap van Microsoft Intelligent Security Association (MISA).
+6. Neem het User-Agent veld op in elke API-oproep die wordt gedaan bij openbare API's of beveiligings-api's Graph Microsoft Defender voor Eindpunt. Dit wordt gebruikt voor statistische doeleinden, probleemoplossing en partnerherkenning. Bovendien is deze stap een vereiste voor lidmaatschap van Microsoft Intelligent Security Association (MISA).
 
     Volg deze stappen:
     

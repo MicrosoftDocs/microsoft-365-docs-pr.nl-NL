@@ -40,7 +40,7 @@ Er kunnen scenario's zijn waarin u waarschuwingen wilt onderdrukken die worden w
 U kunt een lijst met alle onderdrukkingsregels weergeven en deze op één plaats beheren. U kunt ook een regel voor het onderdrukken van waarschuwingen in- of uitschakelen.
 
 
-1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **Waarschuwingsonderdrukking**. De lijst met onderdrukkingsregels die gebruikers in uw organisatie hebben gemaakt, wordt weergegeven.
+1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **waarschuwingsonderdrukking.** De lijst met onderdrukkingsregels die gebruikers in uw organisatie hebben gemaakt, wordt weergegeven.
 
 2. Selecteer een regel door op het selectievakje naast de naam van de regel te klikken.
 
@@ -49,7 +49,7 @@ U kunt een lijst met alle onderdrukkingsregels weergeven en deze op één plaats
 
 ## <a name="view-details-of-a-suppression-rule"></a>Details van een onderdrukkingsregel weergeven
 
-1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **Waarschuwingsonderdrukking**. De lijst met onderdrukkingsregels die gebruikers in uw organisatie hebben gemaakt, wordt weergegeven.
+1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **waarschuwingsonderdrukking.** De lijst met onderdrukkingsregels die gebruikers in uw organisatie hebben gemaakt, wordt weergegeven.
 
 2. Klik op een regelnaam. Details van de regel worden weergegeven. U ziet de regeldetails, zoals status, bereik, actie, aantal overeenkomende waarschuwingen, gemaakt op en datum waarop de regel is gemaakt. U kunt ook gekoppelde waarschuwingen en de regelvoorwaarden bekijken.
 
