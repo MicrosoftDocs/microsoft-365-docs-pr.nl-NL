@@ -23,7 +23,7 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Lees hoe u uw campagne of bedrijf kunt beschermen door uw werk te beveiligen met Microsoft 365.
+description: Lees hoe u uw campagne of bedrijf kunt beschermen door uw beveiliging te verhogen met Microsoft 365.
 ms.openlocfilehash: d2486f7160bef57a91d76fba756ff75ba319b8fa
 ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
 ms.translationtype: MT
@@ -31,20 +31,20 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 01/29/2021
 ms.locfileid: "50044370"
 ---
-# <a name="bump-up-security-protection-for-your-campaign-or-business"></a><span data-ttu-id="e8e49-103">Beveiligingsbeveiliging voor uw campagne of bedrijf verbeteren</span><span class="sxs-lookup"><span data-stu-id="e8e49-103">Bump up security protection for your campaign or business</span></span>
+# <a name="bump-up-security-protection-for-your-campaign-or-business"></a><span data-ttu-id="2e63c-103">Beveiligingsbeveiliging voor uw campagne of bedrijf verbeteren</span><span class="sxs-lookup"><span data-stu-id="2e63c-103">Bump up security protection for your campaign or business</span></span>
 
 
-## <a name="overview"></a><span data-ttu-id="e8e49-104">Overzicht</span><span class="sxs-lookup"><span data-stu-id="e8e49-104">Overview</span></span> 
-<span data-ttu-id="e8e49-105">Bekijk deze video om te zien hoe u uw campagne of bedrijf kunt beschermen:</span><span class="sxs-lookup"><span data-stu-id="e8e49-105">Watch this video to see how you can protect your campaign or business:</span></span>
+## <a name="overview"></a><span data-ttu-id="2e63c-104">Overzicht</span><span class="sxs-lookup"><span data-stu-id="2e63c-104">Overview</span></span> 
+<span data-ttu-id="2e63c-105">Bekijk deze video om te zien hoe u uw campagne of bedrijf kunt beveiligen:</span><span class="sxs-lookup"><span data-stu-id="2e63c-105">Watch this video to see how you can protect your campaign or business:</span></span>
 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3cfV1]  
 
 
-<span data-ttu-id="e8e49-106">Volg daarna de stappen om:</span><span class="sxs-lookup"><span data-stu-id="e8e49-106">Then follow the steps to:</span></span>
+<span data-ttu-id="2e63c-106">Volg vervolgens de stappen om:</span><span class="sxs-lookup"><span data-stu-id="2e63c-106">Then follow the steps to:</span></span>
 
-- [<span data-ttu-id="e8e49-107">Beveiliging tegen malware en andere bedreigingen</span><span class="sxs-lookup"><span data-stu-id="e8e49-107">Protect against malware and other threats</span></span>](m365-campaigns-increase-protection.md)
-- <span data-ttu-id="e8e49-108">[Toegang tot uw campagnegegevens beschermen door](m365-campaigns-conditional-access.md) uw accounts en apps te beveiligen</span><span class="sxs-lookup"><span data-stu-id="e8e49-108">[Protect access to your campaign data](m365-campaigns-conditional-access.md) by protecting your accounts and apps</span></span>
-- [<span data-ttu-id="e8e49-109">Beheerdersaccounts beveiligen</span><span class="sxs-lookup"><span data-stu-id="e8e49-109">Protect admin accounts</span></span>](m365-campaigns-protect-admin-accounts.md)
-- [<span data-ttu-id="e8e49-110">Mobiele apparaten instellen</span><span class="sxs-lookup"><span data-stu-id="e8e49-110">Set up mobile devices</span></span>](../business/set-up-mobile-devices.md?toc=/microsoft-365/campaigns/toc.json)
-- [<span data-ttu-id="e8e49-111">Uw gebruikers trainen</span><span class="sxs-lookup"><span data-stu-id="e8e49-111">Train your users</span></span>](m365-campaigns-users.md)
+- [<span data-ttu-id="2e63c-107">Beveiliging tegen malware en andere bedreigingen</span><span class="sxs-lookup"><span data-stu-id="2e63c-107">Protect against malware and other threats</span></span>](m365-campaigns-increase-protection.md)
+- <span data-ttu-id="2e63c-108">[De toegang tot uw campagnegegevens beveiligen](m365-campaigns-conditional-access.md) door uw accounts en apps te beveiligen</span><span class="sxs-lookup"><span data-stu-id="2e63c-108">[Protect access to your campaign data](m365-campaigns-conditional-access.md) by protecting your accounts and apps</span></span>
+- [<span data-ttu-id="2e63c-109">Beheerdersaccounts beveiligen</span><span class="sxs-lookup"><span data-stu-id="2e63c-109">Protect admin accounts</span></span>](m365-campaigns-protect-admin-accounts.md)
+- [<span data-ttu-id="2e63c-110">Mobiele apparaten instellen</span><span class="sxs-lookup"><span data-stu-id="2e63c-110">Set up mobile devices</span></span>](../business/set-up-mobile-devices.md?toc=/microsoft-365/campaigns/toc.json)
+- [<span data-ttu-id="2e63c-111">Uw gebruikers trainen</span><span class="sxs-lookup"><span data-stu-id="2e63c-111">Train your users</span></span>](m365-campaigns-users.md)

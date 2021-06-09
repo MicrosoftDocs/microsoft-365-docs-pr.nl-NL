@@ -1,5 +1,5 @@
 ---
-title: 'Infographic: Bescherm uw campagne'
+title: 'Infographic: uw campagne helpen beveiligen'
 f1.keywords:
 - NOCSH
 ms.author: samanro
@@ -31,10 +31,10 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 01/29/2021
 ms.locfileid: "50044394"
 ---
-# <a name="infographic-help-protect-yourself-and-your-campaign-from-digital-threats"></a><span data-ttu-id="2992b-103">Infographic: Bescherm uzelf en uw campagne tegen digitale bedreigingen</span><span class="sxs-lookup"><span data-stu-id="2992b-103">Infographic: Help protect yourself and your campaign from digital threats</span></span>
+# <a name="infographic-help-protect-yourself-and-your-campaign-from-digital-threats"></a><span data-ttu-id="cdba9-103">Infographic: Bescherm uzelf en uw campagne tegen digitale bedreigingen</span><span class="sxs-lookup"><span data-stu-id="cdba9-103">Infographic: Help protect yourself and your campaign from digital threats</span></span>
 
-<span data-ttu-id="2992b-104">De volgende koppelingen voor PowerPoint en PDF kunnen worden gedownload en afgedrukt in tabloid-indeling (ook wel grootboek genoemd, 11 x 17 of A3).</span><span class="sxs-lookup"><span data-stu-id="2992b-104">The following links for PowerPoint and PDF can be downloaded and printed in tabloid format (also known as ledger, 11 x 17, or A3).</span></span>
+<span data-ttu-id="cdba9-104">De volgende koppelingen voor PowerPoint en PDF kunnen worden gedownload en afgedrukt in tabloid-indeling (ook wel grootboek genoemd, 11 x 17 of A3).</span><span class="sxs-lookup"><span data-stu-id="cdba9-104">The following links for PowerPoint and PDF can be downloaded and printed in tabloid format (also known as ledger, 11 x 17, or A3).</span></span>
 
-<span data-ttu-id="2992b-105">[![Afbeelding van het beveiligen van uw campagnegegevens](../media/M365-Campaigns-WhatCanUsersDoToSecure-358x201.png)](downloads/M365CampaignsWhatCanUsersDoToSecure.pdf)</span><span class="sxs-lookup"><span data-stu-id="2992b-105">[![Image for secure your help protect your campaign info graphic](../media/M365-Campaigns-WhatCanUsersDoToSecure-358x201.png)](downloads/M365CampaignsWhatCanUsersDoToSecure.pdf)</span></span>
+<span data-ttu-id="cdba9-105">[![Afbeelding voor het beveiligen van uw help bij het beveiligen van uw afbeelding van campagnegegevens](../media/M365-Campaigns-WhatCanUsersDoToSecure-358x201.png)](downloads/M365CampaignsWhatCanUsersDoToSecure.pdf)</span><span class="sxs-lookup"><span data-stu-id="cdba9-105">[![Image for secure your help protect your campaign info graphic](../media/M365-Campaigns-WhatCanUsersDoToSecure-358x201.png)](downloads/M365CampaignsWhatCanUsersDoToSecure.pdf)</span></span>
 
-<span data-ttu-id="2992b-106">[PDF](downloads/M365CampaignsWhatCanUsersDoToSecure.pdf)  |  [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs-pr/raw/live/m365-democracy/microsoft-365/campaigns/downloads/M365CampaignsWhatCanUsersDoToSecure.pptx)</span><span class="sxs-lookup"><span data-stu-id="2992b-106">[PDF](downloads/M365CampaignsWhatCanUsersDoToSecure.pdf) | [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs-pr/raw/live/m365-democracy/microsoft-365/campaigns/downloads/M365CampaignsWhatCanUsersDoToSecure.pptx)</span></span>
+<span data-ttu-id="cdba9-106">[PDF](downloads/M365CampaignsWhatCanUsersDoToSecure.pdf)  |  [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs-pr/raw/live/m365-democracy/microsoft-365/campaigns/downloads/M365CampaignsWhatCanUsersDoToSecure.pptx)</span><span class="sxs-lookup"><span data-stu-id="cdba9-106">[PDF](downloads/M365CampaignsWhatCanUsersDoToSecure.pdf) | [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs-pr/raw/live/m365-democracy/microsoft-365/campaigns/downloads/M365CampaignsWhatCanUsersDoToSecure.pptx)</span></span>

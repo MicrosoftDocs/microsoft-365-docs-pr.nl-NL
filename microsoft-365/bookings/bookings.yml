@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: Microsoft Bookings
-summary: Afspraken plannen en beheren met Microsoft bookings. Inclusief integratie met Outlook en geautomatiseerde meldingen.
+summary: Afspraken plannen en beheren met Microsoft Bookings. Inclusief integratie met Outlook en geautomatiseerde meldingen.
 metadata:
   title: Microsoft Bookings
-  description: Afspraken plannen en beheren met Microsoft bookings. Inclusief integratie met Outlook en geautomatiseerde meldingen.
+  description: Afspraken plannen en beheren met Microsoft Bookings. Inclusief integratie met Outlook en geautomatiseerde meldingen.
   ms.service: bookings
   ms.topic: landing-page
   author: dmaguire
@@ -18,7 +18,7 @@ metadata:
   ms.lasthandoff: 09/09/2020
   ms.locfileid: "47419518"
 landingContent:
-- title: Info over Microsoft Bookings
+- title: Over Microsoft Bookings
   linkLists:
   - linkListType: overview
     links:
@@ -26,7 +26,7 @@ landingContent:
       url: bookings-overview.md
   - linkListType: download
     links:
-    - text: De app Bookings openen
+    - text: De app Bookings downloaden
       url: get-bookings-app.md
 - title: Microsoft Bookings instellen
   linkLists:
@@ -40,7 +40,7 @@ landingContent:
       url: define-service-offerings.md
     - text: Werkuren voor werknemers instellen
       url: employee-hours.md
-    - text: Uw reserverings pagina aanpassen en publiceren
+    - text: Uw reserveringspagina aanpassen en publiceren
       url: customize-booking-page.md
     - text: Nieuwe boekingen maken en toewijzen
       url: create-a-manual-booking.md

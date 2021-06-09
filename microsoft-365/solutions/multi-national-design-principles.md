@@ -1,5 +1,5 @@
 ---
-title: Multinationale ontwerpprincipes voor Microsoft 365
+title: Meervoudige ontwerpprincipes voor Microsoft 365
 description: Beschrijving.
 ms.author: samanro
 author: samanro
@@ -19,6 +19,6 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 07/29/2020
 ms.locfileid: "46521097"
 ---
-# <a name="multi-national-design-principles-for-microsoft-365"></a><span data-ttu-id="c5b91-103">Multinationale ontwerpprincipes voor Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="c5b91-103">Multi-national design principles for Microsoft 365</span></span>
+# <a name="multi-national-design-principles-for-microsoft-365"></a><span data-ttu-id="ceb32-103">Meervoudige ontwerpprincipes voor Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="ceb32-103">Multi-national design principles for Microsoft 365</span></span>
 
-<span data-ttu-id="c5b91-104">Tekst</span><span class="sxs-lookup"><span data-stu-id="c5b91-104">Text</span></span>
+<span data-ttu-id="ceb32-104">Tekst</span><span class="sxs-lookup"><span data-stu-id="ceb32-104">Text</span></span>

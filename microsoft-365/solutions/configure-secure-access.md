@@ -1,5 +1,5 @@
 ---
-title: Beveiligde toegang tot Microsoft 365-services configureren
+title: Veilige toegang tot services Microsoft 365 configureren
 description: 'Zoek beschrijvende richtlijnen voor het implementeren van MFA, voorwaardelijke toegang en verwante beleidsregels voor drie beveiligingslagen: basislijn, gevoelig, zeer gevoelig.'
 ms.author: samanro
 author: samanro
@@ -19,6 +19,6 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51050884"
 ---
-# <a name="configure-secure-access-to-microsoft-365-services"></a><span data-ttu-id="dca4f-103">Beveiligde toegang tot Microsoft 365-services configureren</span><span class="sxs-lookup"><span data-stu-id="dca4f-103">Configure secure access to Microsoft 365 services</span></span>
+# <a name="configure-secure-access-to-microsoft-365-services"></a><span data-ttu-id="b01ea-103">Veilige toegang tot services Microsoft 365 configureren</span><span class="sxs-lookup"><span data-stu-id="b01ea-103">Configure secure access to Microsoft 365 services</span></span>
 
-<span data-ttu-id="dca4f-104">Deze oplossing is gebaseerd op de "[M365 golden config](../security/defender-365-security/microsoft-365-policies-configurations.md)" -- beschrijvende richtlijnen voor het implementeren van MFA, voorwaardelijke toegang en verwante beleidsregels voor drie beveiligingslagen: basislijn, gevoelig, zeer gevoelig.</span><span class="sxs-lookup"><span data-stu-id="dca4f-104">This solution is based on the "[M365 golden config](../security/defender-365-security/microsoft-365-policies-configurations.md)" -- prescriptive guidance for implementing MFA, conditional access, and related policies for three tiers of protection: baseline, sensitive, highly sensitive.</span></span>
+<span data-ttu-id="b01ea-104">Deze oplossing is gebaseerd op de "[M365 golden config](../security/defender-365-security/microsoft-365-policies-configurations.md)" -- beschrijvende richtlijnen voor het implementeren van MFA, voorwaardelijke toegang en verwante beleidsregels voor drie beveiligingslagen: basislijn, gevoelig, zeer gevoelig.</span><span class="sxs-lookup"><span data-stu-id="b01ea-104">This solution is based on the "[M365 golden config](../security/defender-365-security/microsoft-365-policies-configurations.md)" -- prescriptive guidance for implementing MFA, conditional access, and related policies for three tiers of protection: baseline, sensitive, highly sensitive.</span></span>
