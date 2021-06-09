@@ -33,13 +33,13 @@ ms.locfileid: "52705580"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE22Yf0?autoplay=false]
 
-In Microsoft 365 voor bedrijven kunt u eenvoudig bestanden delen met personen in uw organisatie, maar soms moet u ook delen met personen buiten uw organisatie. Als u bestanden veilig wilt delen met uw klanten, kunt u een beveiligde koppeling verzenden.
+In Microsoft 365 voor Bedrijven kunt u eenvoudig bestanden delen met personen in uw organisatie, maar soms moet u ook delen met personen buiten uw organisatie. Als u bestanden veilig wilt delen met uw klanten, kunt u een beveiligde koppeling verzenden.
 
 ## <a name="try-it"></a>Probeer het zelf!
 
-1. Klik boven aan de bibliotheek Documenten op uw SharePoint op **Nieuw** en selecteer **map**.
+1. Klik boven aan de bibliotheek Documenten op uw SharePoint-site op **Nieuw** en selecteer **map**.
 1. Geef de map een naam en klik op **Maken.**
-1. Upload bestanden die u wilt delen met de nieuwe bibliotheek of kies **Nieuw** om nieuwe documenten rechtstreeks in de bibliotheek te maken.
+1. Upload de bestanden die u wilt delen naar de nieuwe bibliotheek of kies **Nieuw** om nieuwe documenten rechtstreeks in de bibliotheek te maken.
 1. Selecteer de nieuwe map in de bibliotheek Documenten en klik vervolgens op de **knop** Delen.
 1. Klik in **het venster Koppeling** verzenden op de lijst bovenaan, kies **Specifieke** personen, selecteer Bewerken **toestaan** en kies **toepassen.**
 1. Voer in **het venster Koppeling** verzenden het e-mailadres van uw klant in, typ een bericht en kies **Verzenden.**

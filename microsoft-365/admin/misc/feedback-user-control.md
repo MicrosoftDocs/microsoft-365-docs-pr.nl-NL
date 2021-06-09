@@ -31,7 +31,7 @@ ms.locfileid: "51650057"
 Feedback van gebruikers is een kritiek signaal voor Microsoft om gebruikerservaringen met Microsoft-producten te begrijpen. Microsoft waardeert de mening van onze gebruikers. Feedback van gebruikers gaat rechtstreeks naar onze technici en helpt ons bij het vormgeven van de toekomst van Microsoft-producten en -services voor al onze gebruikers.  
 In dit onderwerp vindt u informatie over welke soorten feedback er zijn, hoe we deze verzamelen, wat we verzamelen en hoe we met de gegevens omgaan.
 
-Als beheerder kunt u het feedbacksignaal voor uw organisatie beheren. We introduceren een nieuwe set beleidsinstellingen om u te helpen bij het beheren van de feedbackverzameling van gebruikers binnen de Microsoft 365-toepassingen voor uw organisatie. Met deze beleidsinstellingen kunt u Azure Active Directory-groepen targeten en de feedbackverzamelingservaring voor uw organisatie configureren. Feedback van gebruikers gaat rechtstreeks naar onze technici en helpt ons bij het vormgeven van de toekomst van Microsoft-producten en -services voor al onze gebruikers. U vindt meer informatie over deze beleidsinstellingen, op welke toepassingen ze van toepassing zijn en over best practices bij [Microsoft-feedback beheren voor uw organisatie.](../manage/manage-feedback-ms-org.md)
+Als beheerder kunt u het feedbacksignaal voor uw organisatie beheren. We introduceren een nieuwe set beleidsinstellingen om u te helpen bij het beheren van de feedbackverzameling van gebruikers binnen de Microsoft 365 toepassingen voor uw organisatie. Met deze beleidsinstellingen kunt u groepen Azure Active Directory en kunt u de feedbackverzamelingservaring voor uw organisatie configureren. Feedback van gebruikers gaat rechtstreeks naar onze technici en helpt ons bij het vormgeven van de toekomst van Microsoft-producten en -services voor al onze gebruikers. U vindt meer informatie over deze beleidsinstellingen, op welke toepassingen ze van toepassing zijn en over best practices bij [Microsoft-feedback beheren voor uw organisatie.](../manage/manage-feedback-ms-org.md)
 
 ## <a name="feedback-types"></a>Feedbacktypen
 
@@ -42,12 +42,12 @@ Als uw gebruikers een van de apps van Microsoft gebruiken en feedback willen gev
 #### <a name="in-product-feedback-examples"></a>Voorbeelden van in-productfeedback
 
 :::image type="content" source="../../media/In-appfeedbackbackstage.png" alt-text="Schermafbeelding: Voorbeeld van feedback in een product":::
-:::image type="content" source="../../media/In-appfeedbackwindows.png" alt-text="Schermafbeelding: Voorbeeld van feedback van Windows in-product ":::
-:::image type="content" source="../../media/TeamsIn-appFeedback.png" alt-text="Schermafbeelding: Voorbeeld van feedback van Teams in-product":::
+:::image type="content" source="../../media/In-appfeedbackwindows.png" alt-text="Schermafbeelding: Windows voorbeeld van feedback in het product":::
+:::image type="content" source="../../media/TeamsIn-appFeedback.png" alt-text="Schermafbeelding: Teams voorbeeld van feedback in het product":::
 
 ### <a name="in-product-surveys"></a>In-product enquêtes
 
-Gebruikers kunnen hun ervaring ook beoordelen en aanvullende informatie over hun ervaring geven via systeem geïnitieerde enquêteprompts. Deze aanwijzingen komen af en toe voor in de Microsoft 365-producten. Wanneer u daarom wordt gevraagd, kunnen gebruikers kiezen of ze feedback willen geven. De enquêteprompts worden meestal rechtsonder in de app weergegeven. Als de gebruiker besluit om feedback te geven, de prompt weg te sturen of de prompt zelf laat verdwijnen, ziet die gebruiker de enquête enige tijd niet meer. Microsoft maakt ook gebruik van een beheerproces om het aantal door het systeem geïnitieerde enquêtes te beperken.  De bedoeling van het beheer is ervoor te zorgen dat gebruikers niet worden overstelpt door het aantal enquêteprompts.
+Gebruikers kunnen hun ervaring ook beoordelen en aanvullende informatie over hun ervaring geven via systeem geïnitieerde enquêteprompts. Deze aanwijzingen komen af en toe voor in Microsoft 365 producten. Wanneer u daarom wordt gevraagd, kunnen gebruikers kiezen of ze feedback willen geven. De enquêteprompts worden meestal rechtsonder in de app weergegeven. Als de gebruiker besluit om feedback te geven, de prompt weg te sturen of de prompt zelf laat verdwijnen, ziet die gebruiker de enquête enige tijd niet meer. Microsoft maakt ook gebruik van een beheerproces om het aantal door het systeem geïnitieerde enquêtes te beperken.  De bedoeling van het beheer is ervoor te zorgen dat gebruikers niet worden overstelpt door het aantal enquêteprompts.
 
 :::image type="content" source="../../media/feedback-love.png" alt-text="Schermafbeelding: Voorbeeld van feedbackaanvraag voor in-product":::
 
@@ -57,7 +57,7 @@ Gebruikers kunnen hun ervaring ook beoordelen en aanvullende informatie over hun
 
 Gedetailleerde en actiebare feedback is essentieel voor het aanbrengen van wijzigingen en verbeteringen in Microsoft-producten. Als uw gebruikers problemen hebben of suggesties hebben voor hoe we deze kunnen verbeteren, horen we dit graag. Hieronder vindt u enkele tips en voorbeelden over actie-feedback die naar Microsoft is verzonden.
 
-- **Beknopte en beschrijvende titel**   Beschrijvende en specifieke titels helpen ons inzicht te krijgen in het probleem dat wordt gerapporteerd. Voorbeeld: De lijst Recente bestanden **van** Excel bevat geen onlangs toegevoegde OneDrive-bestanden.
+- **Beknopte en beschrijvende titel**   Beschrijvende en specifieke titels helpen ons inzicht te krijgen in het probleem dat wordt gerapporteerd. Voorbeeld: Excel de lijst **Recente bestanden** bevat geen onlangs toegevoegde OneDrive bestanden.
 - **Focus op één probleem tegelijk**   Geef feedback voor één probleem of aanbeveling één item tegelijk. Dit zorgt ervoor dat de juiste logboeken en gegevens worden ontvangen bij elke inzending en kunnen worden toegewezen voor opvolging. Als u meerdere problemen hebt, dient u een nieuwe feedbackaanvraag in voor elk probleem. Op deze manier kunnen we vaststellen hoe groot de hoeveelheid feedback is die we ontvangen over een bepaald probleem.
 - **Details schrijven in het vak Beschrijving**   Informatie over uw apparaat, besturingssysteem en apps wordt automatisch opgenomen in elke gerapporteerde feedback. Voeg aanvullende informatie toe over een probleem dat u belangrijk vindt. Voeg bijvoorbeeld gedetailleerde stappen toe om het probleem te reproduceren.
 
@@ -82,7 +82,7 @@ Wanneer een gebruiker feedback inzendt, worden app-gegevens meestal verzameld, s
 - **App-build**   Build number of Microsoft product that was captured on submission.
 - **App-taal**   Taal van Microsoft-product dat is vastgelegd bij inzending.
 - **Bijlagen**   Waren bijlagen (dat wil zeggen schermafbeeldingen, bestanden) verzameld als onderdeel van de feedback? (Ja/Nee).
-- **TenantId**   Als feedback wordt verzonden vanuit een Azure Active Directory-account, waaraan TenantId is gekoppeld.
+- **TenantId**   Als feedback wordt verzonden vanuit een Azure Active Directory account, waaraan TenantId is gekoppeld.
 
 ## <a name="data-handling-and-privacy"></a>Gegevensverwerking en privacy
 
@@ -93,4 +93,4 @@ We geven u de controle over uw privacy met gebruiks- en gebruikshulpmiddelen en 
 
 ## <a name="how-can-i-see-my-users-feedback"></a>Hoe kan ik de feedback van mijn gebruiker zien?
 
-Binnenkort delen we de feedbackgegevens die we voor Microsoft-producten verzamelen, weer aan u. We werken aan een nieuwe ervaring in het Microsoft 365-beheercentrum, zodat u de feedbackgegevens voor uw organisatie kunt bekijken, verwijderen en exporteren. Dit geeft u directe transparantie en nuttige inzichten in de ervaringen van uw gebruikers met Microsoft 365-producten.
+Binnenkort delen we de feedbackgegevens die we voor Microsoft-producten verzamelen, weer aan u. We werken aan een nieuwe ervaring in het Microsoft 365 beheercentrum, zodat u de feedbackgegevens voor uw organisatie kunt bekijken, verwijderen en exporteren. Dit geeft u directe transparantie en nuttige inzichten in de ervaringen van uw gebruikers met Microsoft 365 producten.

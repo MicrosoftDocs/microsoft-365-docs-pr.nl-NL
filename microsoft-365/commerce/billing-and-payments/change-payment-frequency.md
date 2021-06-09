@@ -37,7 +37,7 @@ Wanneer u een abonnement koopt, kiest u maandelijkse of jaarlijkse facturering. 
 3. Selecteer op de pagina Abonnementsgegevens in de sectie **Abonnements-** en betalingsinstellingen de optie **Factureringsfrequentie bewerken.**
 4. Kies in **het deelvenster Factureringsfrequentie** bewerken de optie voor hoe vaak u wilt worden gefactureerd en selecteer **Vervolgens Wijzigen.**
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Uw rekening of factuur bekijken](../../commerce/billing-and-payments/view-your-bill-or-invoice.md) (artikel)\
 [Betalen voor uw abonnement](../../commerce/billing-and-payments/pay-for-your-subscription.md) (artikel)\

@@ -29,47 +29,47 @@ ms.locfileid: "46689163"
 ---
 # <a name="dns-records-for-office-365-dod"></a>DNS-records voor Office 365 DoD
 
-*Dit artikel is van toepassing op Office 365 DoD en Microsoft 365 DoD*
+*Dit artikel is van toepassing Office 365 DoD en Microsoft 365 DoD*
 
-Als onderdeel van de onboarding van Office 365 DoD, moet u uw SMTP-en SIP-domeinen toevoegen aan uw online services-Tenant.  U doet dit met behulp van de New-MsolDomain-cmdlet in azure AD PowerShell of de [Azure Government Portal](https://portal.azure.us) gebruiken om het proces voor het toevoegen van een domein en het eigendom ervan te starten.
+Als onderdeel van onboarding Office 365 DoD, moet u uw SMTP- en SIP-domeinen toevoegen aan uw Online Services-tenant.  U doet dit met de New-MsolDomain cmdlet in Azure AD PowerShell of gebruik de [Azure Government Portal](https://portal.azure.us) om het proces van het toevoegen van het domein te starten en het eigendom te bewijzen.
 
-Wanneer u uw domein hebt toegevoegd aan de Tenant en gevalideerd, gebruikt u de volgende richtlijnen om de juiste DNS-records voor de services toe te voegen.  Mogelijk moet u de onderstaande tabel aanpassen aan de behoeften van uw organisatie met betrekking tot de inkomende MX-record (s) en eventuele bestaande Exchange Autodiscover-record (s) die u hebt geïnstalleerd.  We raden u ten zeerste aan om deze DNS-records met uw berichten team te coördineren om te voorkomen dat u een e-mailbericht veroudert of niet.
+Nadat u uw domeinen hebt toegevoegd aan uw tenant en hebt gevalideerd, gebruikt u de volgende richtlijnen om de juiste DNS-records toe te voegen voor de onderstaande services.  Mogelijk moet u de onderstaande tabel aanpassen aan de behoeften van uw organisatie met betrekking tot de inkomende MX-record(s) en eventuele bestaande Exchange Autodiscover-record(s) die u hebt.  We raden u ten zeerste aan deze DNS-records te coördineren met uw berichtenteam om uitval of onjuiste bezorging van e-mail te voorkomen.
 
 ## <a name="exchange-online"></a>Exchange Online
 
-| Type | Priority | Host name | Verwijst naar het adres of de waarde | TTL |
+| Type | Priority | Hostnaam | Wijst naar adres of waarde | TTL |
 | --- | --- | --- | --- | --- |
-| MX | 0 | @ | *Tenant*. mail.Protection.office365.us (zie hieronder voor meer informatie) | 1 uur |
-| TXT | - | @ | v = spf1 include:SPF. Protection. office365. us-all | 1 uur |
+| MX | 0 | @ | *tenant*.mail.protection.office365.us (zie hieronder voor meer informatie) | 1 uur |
+| TXT | - | @ | v=spf1 include:spf.protection.office365.us -all | 1 uur |
 | CNAME | - | autodiscover | autodiscover-dod.office365.us | 1 uur |
 
-### <a name="exchange-autodiscover-record"></a>Record Exchange automatisch opsporen
+### <a name="exchange-autodiscover-record"></a>Exchange Autodiscover-record
 
-Als u Exchange Server on-premises hebt, wordt u aangeraden uw bestaande record te verlaten terwijl u migreert naar Exchange Online en de record bij te werken wanneer u de migratie hebt voltooid.
+Als u on-premises Exchange Server, raden we u aan uw bestaande record op zijn plaats te laten terwijl u migreert naar Exchange Online en deze record bij te werken nadat u de migratie hebt voltooid.
 
-### <a name="exchange-online-mx-record"></a>MX-record voor Exchange Online
+### <a name="exchange-online-mx-record"></a>Exchange Online MX-record
 
-De MX-recordwaarde voor uw geaccepteerde domeinen volgt een standaardindeling zoals hierboven aangegeven: *Tenant*. mail.Protection.office365.us, waarbij de *Tenant* wordt vervangen door het eerste deel van de standaardnaam van de Tenant.
+De MX-recordwaarde voor uw geaccepteerde domeinen volgt een standaardnotatie zoals hierboven vermeld: *tenant*.mail.protection.office365.us, die *tenant* vervangt door het eerste deel van de standaardtenatienaam.
 
-Als de naam van de Tenant bijvoorbeeld contoso.onmicrosoft.us is, gebruikt u **contoso.mail.Protection.office365.us** als de waarde voor uw MX-record.
+Als de naam van uw tenant bijvoorbeeld contoso.onmicrosoft.us,  gebruikt u contoso.mail.protection.office365.us als de waarde voor uw MX-record.
 
 ## <a name="skype-for-business-online"></a>Skype voor Bedrijven Online
 
 ### <a name="cname-records"></a>CNAME-records
 
-| Type | Host name | Verwijst naar het adres of de waarde | TTL |
+| Type | Hostnaam | Wijst naar adres of waarde | TTL |
 | --- | --- | --- | --- |
 | CNAME | sip | sipdir.online.dod.skypeforbusiness.us | 1 uur |
 | CNAME | lyncdiscover | webdir.online.dod.skypeforbusiness.us | 1 uur | 
 
 ### <a name="srv-records"></a>SRV-records
 
-| Type | Service | Protocol | Poort | Dikte | Priority | Naam | Doel | TTL |
+| Type | Service | Protocol | Poort | Gewicht | Priority | Naam | Doel | TTL |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| SRV | \_sip | \_TLS | 443 | 1 | 100 | @ | sipdir.online.dod.skypeforbusiness.us | 1 uur |
-| SRV | \_sipfederationtls | \_TCP | 5061 | 1 | 100 | @ | sipfed.online.dod.skypeforbusiness.us | 1 uur |
+| SRV | \_sip | \_tls | 443 | 1 | 100 | @ | sipdir.online.dod.skypeforbusiness.us | 1 uur |
+| SRV | \_sipfederationtls | \_tcp | 5061 | 1 | 100 | @ | sipfed.online.dod.skypeforbusiness.us | 1 uur |
 
 ## <a name="additional-dns-records"></a>Extra DNS-records
 
 > [!IMPORTANT]
-> Als u een bestaande *msoid* CNAME-record hebt in uw DNS-zone, moet u de record op dit moment **verwijderen** uit DNS.  De msoid-record is niet compatibel met Microsoft 365 Enterprise *-apps (voorheen Office 365 ProPlus)* en kan de activering van de Cloud verhinderen.
+> Als u een bestaande *msoid* CNAME-record in  uw DNS-zone hebt, moet u de record op dit moment verwijderen uit DNS.  De msoidrecord is niet compatibel met Microsoft 365 Enterprise Apps *(voorheen Office 365 ProPlus)* en voorkomt dat activering slaagt.

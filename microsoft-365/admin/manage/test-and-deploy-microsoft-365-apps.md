@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365-apps testen en implementeren door partners in de portal Geïntegreerde apps
+title: Test en implementeer Microsoft 365-apps door partners in de portal Geïntegreerde apps
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -13,7 +13,7 @@ ms.collection: ''
 ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
-description: Zoek, test en implementeer Microsoft- en Microsoft-partner-apps voor gebruikers en groepen in uw organisatie via de portal Geïntegreerde apps in het Microsoft 365-beheercentrum.
+description: Zoek, test en implementeer microsoft- en Microsoft-partner-apps voor gebruikers en groepen in uw organisatie via de portal Geïntegreerde apps in het Microsoft 365 beheercentrum.
 ms.openlocfilehash: da67cbe5f8b6e5f2da42e1f4b57a55d7d4a768fb
 ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: MT
@@ -21,32 +21,32 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 04/08/2021
 ms.locfileid: "51644474"
 ---
-# <a name="test-and-deploy-microsoft-365-apps-by-partners-in-the-integrated-apps-portal"></a>Microsoft 365-apps testen en implementeren door partners in de portal Geïntegreerde apps
+# <a name="test-and-deploy-microsoft-365-apps-by-partners-in-the-integrated-apps-portal"></a>Test en implementeer Microsoft 365-apps door partners in de portal Geïntegreerde apps
 
-Het Microsoft 365-beheercentrum biedt u de flexibiliteit om apps voor één winkel, aangepaste bedrijfslijn met apps en Microsoft 365-partner-apps op één locatie te implementeren. De locatie is toegankelijk in het Microsoft-beheercentrum > Instellingen > Geïntegreerde apps. De mogelijkheid om gekochte en gelicentieerde apps van Microsoft-partners te vinden, te testen en volledig te implementeren vanuit de portal Geïntegreerde apps biedt het gemak en de voordelen die uw organisatie nodig heeft om zakelijke services regelmatig en efficiënt te laten werken.
+Het Microsoft 365 beheercentrum biedt u de flexibiliteit om apps voor één winkel, aangepaste bedrijfslijn met apps en Microsoft 365 partner-apps op één locatie te implementeren. U kunt de locatie openen in het Microsoft-beheercentrum > Instellingen > geïntegreerde apps. De mogelijkheid om gekochte en gelicentieerde apps van Microsoft-partners te vinden, te testen en volledig te implementeren vanuit de portal Geïntegreerde apps biedt het gemak en de voordelen die uw organisatie nodig heeft om zakelijke services regelmatig en efficiënt te laten werken.
 
-Zie [Microsoft 365-apps](https://techcommunity.microsoft.com/t5/microsoft-365-blog/manage-and-deploy-microsoft-365-apps-from-the-microsoft-365/ba-p/1194324)beheren en implementeren vanuit het Microsoft 365-beheercentrum voor meer informatie over het aanschaffen en in licentie geven van Microsoft 365-apps van partners voor uw organisatie.
+Zie Beheer en implementeer Microsoft 365-apps vanuit het [Microsoft 365-beheercentrum](https://techcommunity.microsoft.com/t5/microsoft-365-blog/manage-and-deploy-microsoft-365-apps-from-the-microsoft-365/ba-p/1194324)voor meer informatie over het aanschaffen en Microsoft 365 van apps van partners voor uw organisatie.
 
 Zie Een [SaaS-aanbieding](https://go.microsoft.com/fwlink/?linkid=2158277) plannen voor de commerciële markt voor meer informatie over hoe partners deze apps maken.
 
 De portal Geïntegreerde apps is alleen toegankelijk voor globale beheerders en alleen beschikbaar voor klanten over de hele wereld. Deze functie is niet beschikbaar in soevereine en overheidswolken.
 
-In de portal Geïntegreerde apps wordt een lijst met apps weergegeven, met enkele apps en Microsoft 365-apps van partners die uw organisatie zijn geïmplementeerd. Alleen web-apps, SPFx-apps, Office-invoegapplicaties en Teams-apps worden weergegeven. Voor web-apps ziet u twee soorten apps.
+In de portal Geïntegreerde apps wordt een lijst met apps weergegeven, met enkele apps en Microsoft 365 apps van partners die uw organisatie worden geïmplementeerd. Alleen web-apps, SPFx apps, Office en Teams worden weergegeven. Voor web-apps ziet u twee soorten apps.
 
 - SaaS-apps die beschikbaar zijn in appsource.microsoft.com en kunnen worden geïmplementeerd door beheerders die namens de organisatie toestemming geven.
 - SAML-galerie-apps die zijn gekoppeld aan office-invoegvoegingen.
 
 ## <a name="manage-apps-in-the-integrated-apps-portal"></a>Apps beheren in de portal Geïntegreerde apps
 
-U kunt het testen en implementeren van aangeschafte en gelicentieerde Microsoft 365-apps van partners beheren.
+U kunt het testen en implementeren van aangeschafte en gelicentieerde Microsoft 365-apps partners beheren.
 
-1. Kies in het beheercentrum in het linkernavigatiemenu **Instellingen** en kies vervolgens **Geïntegreerde apps.**
+1. Kies in het beheercentrum in het linkernavigatienavigatiepunt **Instellingen** en kies vervolgens **Geïntegreerde apps.**
 
 2. Kies een app met **status** van **meer apps beschikbaar om** het deelvenster Beheren **te** openen. Met de status **van meer beschikbare apps** weet u dat er meer integraties zijn van de ISV's die nog niet zijn geïmplementeerd.
 
 3. Selecteer op **het tabblad** Overzicht de optie **Implementeren.** Voor sommige apps moet u gebruikers toevoegen voordat u Implementeren kunt selecteren.
 
-4. Selecteer **Gebruikers,** kies **Is dit een testimplementatie** en kies vervolgens Hele **organisatie,** **Specifieke gebruikers/groepen** of **Alleen ik.** U kunt ook Implementatie **testen kiezen** als u liever wacht met het implementeren van de app naar de hele organisatie. Specifieke gebruikers of groepen kunnen een Microsoft 365-groep, een beveiligingsgroep of een distributiegroep zijn.
+4. Selecteer **Gebruikers,** kies **Is dit een testimplementatie** en kies vervolgens Hele **organisatie,** **Specifieke gebruikers/groepen** of **Alleen ik.** U kunt ook Implementatie **testen kiezen** als u liever wacht met het implementeren van de app naar de hele organisatie. Specifieke gebruikers of groepen kunnen een Microsoft 365 groep, een beveiligingsgroep of een distributiegroep zijn.
 
 5. Selecteer **Bijwerken** en vervolgens **Klaar.** U kunt nu Implementeren selecteren op het tabblad Overzicht.
 
@@ -60,11 +60,11 @@ U kunt het testen en implementeren van aangeschafte en gelicentieerde Microsoft 
 
 U kunt gepubliceerde apps vinden, testen en volledig implementeren die nog niet worden weergegeven in de lijst op de pagina Geïntegreerde apps. Door de apps te kopen en in licentie te geven vanuit het beheercentrum, kunt u microsoft- en Microsoft-partner-apps toevoegen aan uw lijst vanaf één locatie.
 
-1. Kies in het beheercentrum in het linkernavigatiemenu **Instellingen** en kies vervolgens **Geïntegreerde apps.**
+1. Kies in het beheercentrum in het linkernavigatienavigatiepunt **Instellingen** en kies vervolgens **Geïntegreerde apps.**
 
 2. Selecteer **Apps downloaden** om een weergave van de apps te krijgen.
 
-3. Selecteer op de pagina Gepubliceerde apps van **Microsoft 365 Apps** de app die u wilt implementeren door Nu downloaden te **kiezen.** De apps die voornamelijk worden weergegeven, zijn Word, PowerPoint, Excel, Outlook-invoegversies, Teams-app en SharePoint-apps (gebaseerd op SharePoint Framework-technologie). Accepteer de machtigingen en selecteer **Doorgaan.**
+3. Selecteer op **Microsoft 365-apps** pagina gepubliceerde apps de app die u wilt implementeren door **Nu downloaden te kiezen.** De apps die voornamelijk worden weergegeven, zijn Word-, PowerPoint-, Excel-, Outlook-invoegapps, Teams-app en SharePoint-apps (gebaseerd op SharePoint Framework technologie). Accepteer de machtigingen en selecteer **Doorgaan.**
 
 5. Selecteer **Implementeren** boven aan de pagina naast het bericht dat verwijst naar wachten om te worden geïmplementeerd.
 
@@ -72,34 +72,34 @@ U kunt gepubliceerde apps vinden, testen en volledig implementeren die nog niet 
 
 6. Selecteer **Gebruikers toevoegen,** kies **Is dit een testimplementatie** en kies vervolgens Hele **organisatie** of **Specifieke gebruikers/groepen** of **Alleen ik.**
 
-    Specifieke gebruikers/groepen kunnen een Microsoft 365-groep, een beveiligingsgroep of een gedistribueerde groep zijn. U kunt ook Implementatie **testen kiezen** als u liever wacht met het implementeren van de app naar de hele organisatie.
+    Specifieke gebruikers/groepen kunnen een Microsoft 365 groep, een beveiligingsgroep of een gedistribueerde groep zijn. U kunt ook Implementatie **testen kiezen** als u liever wacht met het implementeren van de app naar de hele organisatie.
 
 7. Selecteer **Volgende** om naar de pagina **Machtigingsaanvraag accepteren te** gaan. De app-mogelijkheden en machtigingen van elk van de apps worden weergegeven. Als de app toestemming nodig heeft, **selecteert u Machtigingen accepteren.** Alleen een globale beheerder kan toestemming geven.
 
-8. Selecteer **Volgende om** de implementatie te bekijken en implementatie voltooien te **kiezen.** U kunt de implementatie bekijken op **het** tabblad Overzicht door Deze implementatie weergeven **te kiezen.** In het Microsoft 365-beheercentrum ziet u de status van elke geïmplementeerde app en de datum waarop u de app hebt geïmplementeerd.
+8. Selecteer **Volgende om** de implementatie te bekijken en implementatie voltooien te **kiezen.** U kunt de implementatie bekijken op **het** tabblad Overzicht door Deze implementatie weergeven **te kiezen.** In het Microsoft 365 beheercentrum ziet u de status van elke geïmplementeerde app en de datum waarop u de app hebt geïmplementeerd.
 
 > [!NOTE]
 > Als een app eerder is geïmplementeerd vanaf een andere plaats dan de portal Geïntegreerde apps, is **het implementatietype** **Aangepast.**
 
 ## <a name="unsupported-scenarios"></a>Niet-ondersteunde scenario's
 
-U kunt voor de volgende scenario's geen enkele store-app of Microsoft 365-apps per partner implementeren vanuit de portal geïntegreerde apps.
+U kunt geen enkele store-app of -Microsoft 365-apps implementeren via de portal Geïntegreerde apps voor de volgende scenario's.
 
 - Dezelfde invoegvoeging is gekoppeld aan meer dan één SaaS-aanbieding.
-- De SaaS-aanbieding is gekoppeld aan invoegvoegingen, maar is niet geïntegreerd met Microsoft Graph en er is geen AAD-app-id beschikbaar.
-- De SaaS-aanbieding is gekoppeld aan invoegvoegingen, maar AAD-app-id die beschikbaar is voor Microsoft Graph-integratie, wordt gedeeld met meerdere SaaS-aanbiedingen.
+- De SaaS-aanbieding is gekoppeld aan invoegvoegingen, maar wordt niet geïntegreerd met Microsoft-Graph en er wordt geen AAD-app-id verstrekt.
+- De SaaS-aanbieding is gekoppeld aan invoegvoegingen, maar AAD-app-id die beschikbaar is voor Microsoft-Graph wordt gedeeld in meerdere SaaS-aanbiedingen.
 
-## <a name="upload-custom-line-of-business-apps-for-testing-and-full-deployment"></a>Aangepaste lijn zakelijke apps uploaden voor testen en volledige implementatie
+## <a name="upload-custom-line-of-business-apps-for-testing-and-full-deployment"></a>Upload aangepaste lijn van zakelijke apps voor testen en volledige implementatie
 
-1. Kies in het beheercentrum in het linkernavigatiemenu de optie **Instellingen** en vervolgens **Geïntegreerde apps.**
+1. Kies in het beheercentrum in het linkernavigatienavigatiepunt **Instellingen** en vervolgens **Geïntegreerde apps.**
 
-2. Selecteer **Aangepaste apps uploaden.** Alleen een aangepaste lijn met apps voor Word, PowerPoint, Excel en Outlook wordt ondersteund.
+2. Selecteer **Upload aangepaste apps.** Alleen een aangepaste lijn met apps voor Word, PowerPoint, Excel en Outlook wordt ondersteund.
 
 3. Upload het manifestbestand vanaf uw apparaat of voeg een URL-koppeling toe. Voor sommige apps moet u gebruikers toevoegen voordat u Implementeren kunt selecteren.
 
 4. Selecteer **Gebruikers toevoegen,** kies **Is dit een testimplementatie** en kies **Hele organisatie** of **Specifieke gebruikers/groepen** of Alleen **ik.**
 
-    Specifieke gebruikers/groepen kunnen een Microsoft 365-groep, een beveiligingsgroep of een gedistribueerde groep zijn. U kunt ook **Test-implementatie kiezen** als u wilt wachten met het implementeren van de app naar de hele organisatie.
+    Specifieke gebruikers/groepen kunnen een Microsoft 365 groep, een beveiligingsgroep of een gedistribueerde groep zijn. U kunt ook **Test-implementatie kiezen** als u wilt wachten met het implementeren van de app naar de hele organisatie.
 
 5. Selecteer **Volgende** om naar de pagina **Machtigingsaanvraag accepteren te** gaan. De app-mogelijkheden en machtigingen van de apps worden weergegeven. Als de app toestemming nodig heeft, **selecteert u Machtigingen accepteren.** Alleen een globale beheerder kan toestemming geven.
 
@@ -115,12 +115,12 @@ Alleen globale beheerders hebben toegang tot geïntegreerde apps. Geïntegreerde
 
 Er kunnen een paar redenen zijn:
 
-- De aangemelde beheerder is een Exchange-beheerder.
+- De aangemelde beheerder is een Exchange admininstrator.
 - De klant is in de soevereine cloud en geïntegreerde apps zijn nog beschikbaar voor soevereine cloudklanten.
 
 ### <a name="what-apps-can-i-deploy-from-integrated-apps"></a>Welke apps kan ik implementeren vanuit geïntegreerde apps?
 
-Met geïntegreerde apps kunnen web-apps, Teams-apps, Excel, PowerPoint, Word, Outlook-invoegapps en SPFx-apps worden geïmplementeerd. Voor invoegvoegingen ondersteunt geïntegreerde apps implementatie naar Exchange Online-postvakken en niet on-premises Exchange-postvakken.
+Met geïntegreerde apps kunnen web-apps, Teams-apps, Excel, PowerPoint, Word, Outlook-invoegapps en SPFx worden geïmplementeerd. Voor invoegvoegingen worden geïntegreerde apps ondersteund voor implementatie Exchange onlinepostvakken en niet on-premises Exchange postvakken.
 
 ### <a name="can-administrators-delete-or-remove-apps"></a>Kunnen beheerders apps verwijderen of verwijderen?
 

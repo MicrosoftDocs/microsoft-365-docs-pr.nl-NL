@@ -25,7 +25,7 @@ Blijf op de hoogte van wat er in uw branche gebeurt. Elke ochtend krijgt u een r
 
 ## <a name="what-is-it"></a>Wat is het?
 
-Gebruik makend van de kracht van de Bing-zoekmachine van Microsoft, is Industry Updates een verzameling van het belangrijkste werknieuws op internet, dat speciaal voor u is geselecteerd.
+Door gebruik te maken van de kracht van de Bing van Microsoft, is Industry Updates een verzameling van het belangrijkste werknieuws op internet, dat speciaal voor u is geselecteerd.
 
 ## <a name="how-does-it-work"></a>Hoe werkt dit?
 
@@ -33,7 +33,7 @@ Pas uw ervaring aan door onderwerpen en interesses te volgen. Ontvang nieuws ove
 
 ## <a name="how-do-i-customize-my-industry-updates-email"></a>Hoe pas ik mijn e-mail voor bedrijfstakupdates aan?
 
-Als u uw ervaring wilt aanpassen, gaat u naar de pagina Instellingen om de onderwerpen en interesses te volgen die voor u belangrijk zijn. Toegang tot uw persoonlijke instellingenpagina door een bladwijzer te kiezen voor Het aanpassen van uw inhoud in de nieuwsbrief [Bing, Edge](https://www.bing.com/news/professional?pn=setting&mkt=en-us&form=BAWLOG&frb=1) en Industry Updates of door te klikken op de knop Instellingen in uw e-mail met brancheupdates.
+Als u uw ervaring wilt aanpassen, gaat u naar de pagina Instellingen om de onderwerpen en interesses te volgen die voor u belangrijk zijn. Toegang tot uw pagina met persoonlijke instellingen door een bladwijzer te kiezen voor Het aanpassen van uw inhoud op Bing [nieuwsbrief voor](https://www.bing.com/news/professional?pn=setting&mkt=en-us&form=BAWLOG&frb=1) edge- en brancheupdates of door te klikken op de knop Instellingen in uw e-mail met brancheupdates.
 
 [Abonneer](https://www.bing.com/news/professional?pn=setting&mkt=en-us&asnl=1&form=BAWLOG&frb=1) u en ontvang e-mail van Brancheupdates die vandaag in uw Postvak IN wordt bezorgd.
 

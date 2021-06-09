@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365-tenants beheren met Windows PowerShell voor DAP partners
+title: Beheer Microsoft 365 tenants met Windows PowerShell voor DAP-partners
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -16,7 +16,7 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 ms.assetid: f92d5116-5b66-4150-ad20-1452fc3dd712
-description: In dit artikel vindt u informatie over het gebruik van PowerShell voor Microsoft 365 voor het beheren van uw klant tenancies.
+description: In dit artikel leert u hoe u PowerShell kunt gebruiken voor Microsoft 365 om uw klantentenancies te beheren.
 ms.openlocfilehash: 14290f04159e3ba0ce46971d204b71d3bb1600d9
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
@@ -24,75 +24,75 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 08/14/2020
 ms.locfileid: "46689077"
 ---
-# <a name="manage-microsoft-365-tenants-with-windows-powershell-for-delegated-access-permissions-dap-partners"></a>Microsoft 365-tenants beheren met Windows PowerShell voor Microsoft gemachtigde toegangsmachtigingen (DAP)-partners
+# <a name="manage-microsoft-365-tenants-with-windows-powershell-for-delegated-access-permissions-dap-partners"></a>Beheer Microsoft 365 tenants met Windows PowerShell voor DAP-partners (Gedelegeerde Toegangsmachtigingen)
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-Windows PowerShell biedt ondersteuning voor RSS-en Cloud solution providers voor het gemakkelijk beheren en rapporteren van instellingen voor klant pacht die niet beschikbaar zijn in het Microsoft 365-Beheercentrum. Houd er rekening mee dat de machtigingen van de partner beheerder namens (AOBO) moeten worden beheerd om verbinding te maken met de klant tenancies.
+Windows PowerShell kunnen syndicatie- en Cloud Solution Provider(CSP)-partners eenvoudig instellingen voor klantpachten beheren en rapporteren die niet beschikbaar zijn in het Microsoft 365 beheercentrum. Houd er rekening mee dat machtigingen voor het beheren namens (AOBO) vereist zijn voor het account van de partnerbeheerder om verbinding te maken met de klanttenancies.
   
-De partners van de gedelegeerde toegang (machtigingen) zijn syndicaties en partners van een Cloud solution provider. Vaak zijn ze netwerk-of telecommunicatie providers van andere bedrijven. Ze bundelt Microsoft 365-abonnementen in hun serviceaanbiedingen voor hun klanten. Wanneer iemand een Microsoft 365-abonnement verkoopt, worden er automatisch beheermachtigingen verleend namens (AOBO) aan de klant tenancies zodat ze de klant tenancies kunnen beheren en rapporteren.
+DAP-partners (Gedelegeerde Access Permission) zijn Syndication- en Cloud Solution Providers (CSP)-partners. Ze zijn vaak netwerk- of telecomproviders voor andere bedrijven. Ze bundelen Microsoft 365 abonnementen in hun serviceaanbiedingen voor hun klanten. Wanneer ze een Microsoft 365-abonnement verkopen, worden ze automatisch machtigingen voor beheer namens (AOBO) verleend aan de klanten, zodat ze de klantentenancies kunnen beheren en rapporteren.
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-Voor de procedures in dit onderwerp moet u verbinding kunnen maken met [Microsoft 365 met PowerShell](connect-to-microsoft-365-powershell.md).
+Voor de procedures in dit onderwerp moet u verbinding maken met Verbinding maken [met Microsoft 365 PowerShell.](connect-to-microsoft-365-powershell.md)
   
-U hebt ook uw Tenant-beheerderreferenties voor uw partners nodig.
+U hebt ook de referenties van de partnertenatiebeheerder nodig.
   
 ## <a name="what-do-you-want-to-do"></a>Wat wilt u doen?
 
-### <a name="list-all-tenant-ids"></a>Alle Tenant-Id's weergeven
+### <a name="list-all-tenant-ids"></a>Alle tenant-ID's op een lijst zetten
 
 > [!NOTE]
-> Als u meer dan 500 tenants hebt, bereik dan de syntaxis van de cmdlet met  _all_ of _-MaxResultsParameter_. Dit geldt voor andere cmdlets die een grote uitvoer kunnen bieden, zoals **Get-MsolUser**.
+> Als u meer dan 500 tenants hebt, kunt u de syntaxis van de cmdlet bereiken met de syntaxis _-Alles_ of _-MaxResultsParameter._ Dit geldt voor andere cmdlets die een grote uitvoer kunnen geven, zoals **Get-MsolUser.**
   
-Voer de volgende opdracht uit om alle Tenant-Id's van klanten weer te geven waartoe u toegang hebt.
+Voer deze opdracht uit om alle klanttenatie-id's weer te geven tot wie u toegang hebt.
   
 ```
 Get-MsolPartnerContract -All | Select-Object TenantId
 ```
 
-Hiermee wordt een lijst met al uw tenants van uw klanten weergegeven op **TenantId**.
+Hier wordt een lijst weergegeven met alle klanttententen van **TenantId.**
 
 >[!Note]
->De PowerShell-core biedt geen ondersteuning voor de Microsoft Azure Active Directory-module voor Windows PowerShell module en cmdlets met **MSOL** in de naam. Als u deze cmdlets wilt blijven gebruiken, moet u deze uitvoeren vanuit Windows PowerShell.
+>PowerShell Core biedt geen ondersteuning voor de Microsoft Azure Active Directory-module voor Windows PowerShell-module en cmdlets met **Msol** in hun naam. Als u deze cmdlets wilt blijven gebruiken, moet u deze uitvoeren vanuit Windows PowerShell.
 >
   
-### <a name="get-a-tenant-id-by-using-the-domain-name"></a>Een Tenant-ID aanvragen met behulp van de domeinnaam
+### <a name="get-a-tenant-id-by-using-the-domain-name"></a>Een tenant-id krijgen met de domeinnaam
 
-Voer de volgende opdracht uit om de **TenantId** voor een specifieke klant Tenant op domeinnaam op te zoeken. Vervang _<domainname.onmicrosoft.com->_ door de werkelijke domeinnaam van de Tenant van de klant die u wilt.
+Voer deze opdracht uit om **tenantid** voor een specifieke klant tenant op domeinnaam te krijgen. Vervang _<domainname.onmicrosoft.com>_ door de werkelijke domeinnaam van de klant tenant die u wilt.
   
 ```
 Get-MsolPartnerContract -DomainName <domainname.onmicrosoft.com> | Select-Object TenantId
 ```
 
-### <a name="list-all-domains-for-a-tenant"></a>Alle domeinen voor een Tenant weergeven
+### <a name="list-all-domains-for-a-tenant"></a>Alle domeinen voor een tenant op een lijst zetten
 
-Voer deze opdracht uit om alle domeinen voor één klant Tenant op te zoeken. Vervangen  _<customer TenantId value>_ door de huidige waarde.
+Voer deze opdracht uit om alle domeinen voor één klantten tenant te krijgen. Vervangen  _<customer TenantId value>_ door de werkelijke waarde.
   
 ```
 Get-MsolDomain -TenantId <customer TenantId value>
 ```
 
-Als u extra domeinen hebt geregistreerd, worden alle domeinen weergegeven die zijn gekoppeld aan de klant **TenantId**.
+Als u extra domeinen hebt geregistreerd, worden alle domeinen die zijn gekoppeld aan de klant **TenantId, als retourneert.**
   
-### <a name="get-a-mapping-of-all-tenants-and-registered-domains"></a>Een toewijzing van alle tenants en geregistreerde domeinen weergeven
+### <a name="get-a-mapping-of-all-tenants-and-registered-domains"></a>Een toewijzing van alle tenants en geregistreerde domeinen krijgen
 
-De eerdere PowerShell voor Microsoft 365-opdrachten laten we u zien hoe u Tenant-Id's of domeinen kunt ophalen, maar niet beide tegelijkertijd, en zonder duidelijke toewijzingen. Met deze opdracht wordt een lijst met al uw Tenant-Id's en de domeinen van de klant gegenereerd.
+In de vorige PowerShell-opdrachten voor Microsoft 365-opdrachten werd getoond hoe u tenant--ed's of domeinen kunt ophalen, maar niet beide tegelijk en zonder dat u ze allemaal duidelijk kunt toewijzen. Met deze opdracht wordt een lijst gegenereerd met al uw tenant-1D's voor klanten en hun domeinen.
   
 ```
 $Tenants = Get-MsolPartnerContract -All; $Tenants | foreach {$Domains = $_.TenantId; Get-MsolDomain -TenantId $Domains | fl @{Label="TenantId";Expression={$Domains}},name}
 ```
 
-### <a name="get-all-users-for-a-tenant"></a>Alle gebruikers voor een Tenant aanvragen
+### <a name="get-all-users-for-a-tenant"></a>Alle gebruikers voor een tenant krijgen
 
-Hierdoor worden de **userPrincipalName**, de **DisplayName**en de status van de **isLicensed** weergegeven voor alle gebruikers van een bepaalde Tenant. Vervangen _<customer TenantId value>_ door de huidige waarde.
+Hiermee worden de **UserPrincipalName,** **de DisplayName** en de **status isLicensed** weergegeven voor alle gebruikers voor een bepaalde tenant. Vervangen _<customer TenantId value>_ door de werkelijke waarde.
   
 ```
 Get-MsolUser -TenantID <customer TenantId value>
 ```
 
-### <a name="get-all-details-about-a-user"></a>Alle details van een gebruiker weergeven
+### <a name="get-all-details-about-a-user"></a>Alle details over een gebruiker bekijken
 
-Als u alle eigenschappen van een bepaalde gebruiker wilt zien, voert u deze opdracht uit. Vervangen  _<customer TenantId value>_ door _<user principal name value>_ de werkelijke waarden.
+Als u alle eigenschappen van een bepaalde gebruiker wilt zien, kunt u deze opdracht uitvoeren. Vervang  _<customer TenantId value>_ en door de werkelijke _<user principal name value>_ waarden.
   
 ```
 Get-MsolUser -TenantId <customer TenantId value> -UserPrincipalName <user principal name value>
@@ -100,23 +100,23 @@ Get-MsolUser -TenantId <customer TenantId value> -UserPrincipalName <user princi
 
 ### <a name="add-users-set-options-and-assign-licenses"></a>Gebruikers toevoegen, opties instellen en licenties toewijzen
 
-De bulk creatie, configuratie en licenties van Microsoft 365-gebruikers is met name efficiënt met behulp van PowerShell voor Microsoft 365. In deze twee stappen maakt u eerst vermeldingen voor alle gebruikers die u wilt toevoegen in een CSV-bestand (door komma's gescheiden waarden) en importeert u vervolgens dat bestand met behulp van PowerShell voor Microsoft 365. 
+Het bulksgewijs maken, configureren en licentieverlenen van Microsoft 365 gebruikers is met name efficiënt door PowerShell te gebruiken voor Microsoft 365. In dit proces in twee stappen maakt u eerst items voor alle gebruikers die u wilt toevoegen in een CSV-bestand (door komma's gescheiden waarde) en importeert u dat bestand vervolgens met PowerShell voor Microsoft 365. 
   
 #### <a name="create-a-csv-file"></a>Een CSV-bestand maken
 
-Maak een CSV-bestand met de volgende indeling:
+Maak een CSV-bestand met behulp van deze indeling:
   
 -  `UserPrincipalName,FirstName,LastName,DisplayName,Password,TenantId,UsageLocation,LicenseAssignment`
     
 waarbij:
   
-- **UsageLocation**: de waarde voor dit is de ISO-land/regiocode van twee tekens van de gebruiker. De landen/regio's kunnen worden opgezocht op het[ISO online-browser platform](https://go.microsoft.com/fwlink/p/?LinkId=532703). De code voor de Verenigde Staten is bijvoorbeeld US en de code voor Brazilië is BR. 
+- **UsageLocation:** De waarde hiervoor is de tweeletterig ISO-land-/regiocode van de gebruiker. De land-/regiocodes kunnen worden op gezocht op het[ISO Online Browsing Platform.](https://go.microsoft.com/fwlink/p/?LinkId=532703) De code voor de Verenigde Staten is bijvoorbeeld VS en de code voor Brazilië is BR. 
     
-- **LicenseAssignment**: de waarde voor dit gebruik wordt in de `syndication-account:<PROVISIONING_ID>` volgende indeling gebruikt: Als u bijvoorbeeld Tenant gebruikers voor de klant toewijst O365_Business_Premium licenties, ziet de waarde van **LicenseAssignment** er als volgt uit: **publicatie van extern account: O365_Business_Premium**. U ziet het PROVISIONING_IDs in de portal van de syndicatie-partner waartoe u toegang hebt als een syndicatie-of CSP-partner.
+- **LicenseAssignment**: Voor de waarde hiervoor wordt deze indeling gebruikt: `syndication-account:<PROVISIONING_ID>` . Als u bijvoorbeeld klanttenatiegebruikers O365_Business_Premium licenties toewijst, ziet de waarde **LicenseAssignment** er zo uit: **syndication-account:O365_Business_Premium.** U vindt de PROVISIONING_IDs in de Syndication Partner Portal waar u toegang toe hebt als syndication- of CSP-partner.
     
 #### <a name="import-the-csv-file-and-create-the-users"></a>Het CSV-bestand importeren en de gebruikers maken
 
-Nadat u uw CSV-bestand hebt gemaakt, voert u deze opdracht uit om gebruikersaccounts te maken met niet-vertraagde wachtwoorden die de gebruiker moet wijzigen bij de eerste aanmelding en de door u opgegeven licentie wordt toegewezen. Zorg ervoor dat u de juiste naam van het CSV-bestand vervangt.
+Nadat u uw CSV-bestand hebt gemaakt, kunt u deze opdracht uitvoeren om gebruikersaccounts te maken met niet-verlopende wachtwoorden die de gebruiker bij de eerste aanmelding moet wijzigen en die de licentie toewijst die u opgeeft. Zorg ervoor dat u de juiste CSV-bestandsnaam vervangt.
   
 ```
 Import-Csv .\FILENAME.CSV | foreach {New-MsolUser -UserPrincipalName $_.UserPrincipalName -DisplayName $_.DisplayName -FirstName $_.FirstName -LastName $_.LastName -Password $_.Password -UsageLocation $_.UsageLocation -LicenseAssignment $_.LicenseAssignment -ForceChangePassword:$true -PasswordNeverExpires:$true -TenantId $_.TenantId}

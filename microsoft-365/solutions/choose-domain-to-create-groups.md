@@ -119,7 +119,7 @@ Er zijn nog een paar dingen die u moet weten:
     
 - Er kunnen maximaal 100 e-mailadresbeleidsregel voor een organisatie worden geconfigureerd.
     
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Planning van samenwerkingsbeheer stapsgewijs](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step) (artikel)
 

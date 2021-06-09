@@ -1,5 +1,5 @@
 ---
-title: Een OneDrive-site naar een andere geografische locatie verplaatsen
+title: Een site OneDrive naar een andere geografische locatie verplaatsen
 ms.reviewer: adwood
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -14,7 +14,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPO_Content
 localization_priority: Normal
-description: Informatie over het verplaatsen van een OneDrive-site naar een andere geografische locatie, waaronder het plannen van site-verplaatsings-en gebruikers vooruitzichten.
+description: Informatie over het verplaatsen van een OneDrive naar een andere geografische locatie, zoals het plannen van siteverplaatsing en het communiceren van verwachtingen aan gebruikers.
 ms.openlocfilehash: 59b3fb47fd195967e7af056c7a71fb4e736471d1
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
@@ -22,103 +22,103 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 08/14/2020
 ms.locfileid: "46688925"
 ---
-# <a name="move-a-onedrive-site-to-a-different-geo-location"></a>Een OneDrive-site naar een andere geografische locatie verplaatsen 
+# <a name="move-a-onedrive-site-to-a-different-geo-location"></a>Een site OneDrive naar een andere geografische locatie verplaatsen 
 
-Met OneDrive geo Move kunt u de OneDrive van een gebruiker naar een andere geografische locatie verplaatsen. OneDrive geo Move voor OneDrive wordt uitgevoerd door de SharePoint Online-beheerder of de globale beheerder van Microsoft 365. Voordat u begint met het verplaatsen van een OneDrive-geografische verplaatsing, moet u de gebruiker op de hoogte stellen van de gebruiker van wie de OneDrive wordt verplaatst en wordt u aangeraden alle bestanden te sluiten gedurende de verhuizing. (Als de gebruiker tijdens de verhuizing een document heeft geopend met de Office-client, moet het document worden opgeslagen op de nieuwe locatie.) U kunt de verhuizing later opnieuw plannen.
+Met OneDrive geo-move kunt u de gegevens van een gebruiker OneDrive naar een andere geografische locatie verplaatsen. OneDrive geo-move wordt uitgevoerd door de SharePoint onlinebeheerder of de Microsoft 365 globale beheerder. Voordat u een geo-OneDrive start, moet u de gebruiker op de hoogte stellen van wie de OneDrive wordt verplaatst en raden ze aan alle bestanden te sluiten gedurende de duur van de verhuizing. (Als de gebruiker een document heeft geopend met de Office client tijdens de verhuizing, moet het document na het verplaatsen worden opgeslagen op de nieuwe locatie.) De verhuizing kan desgewenst voor een toekomstige periode worden gepland.
 
-De OneDrive-service gebruikt Azure Blob Storage om inhoud op te slaan. De blobopslag van de opslagruimte die gekoppeld is aan de OneDrive van de gebruiker wordt verplaatst van de bron naar het doel geografische gebied binnen 40 dagen van de doel-OneDrive die beschikbaar is voor de gebruiker. De toegang tot de OneDrive van de gebruiker wordt hersteld zodra de beschikbare doel-OneDrive beschikbaar is.
+De OneDrive-service gebruikt Azure Blob Storage om inhoud op te slaan. De Storage blob die is gekoppeld aan de OneDrive van de gebruiker, wordt binnen 40 dagen na de OneDrive voor de gebruiker van de bron naar de doellocatie verplaatst. De toegang tot de OneDrive van de gebruiker wordt hersteld zodra de OneDrive beschikbaar is.
 
-Tijdens OneDrive geo-verhuizings venster (ongeveer 2-6 uur) wordt de OneDrive van de gebruiker ingesteld op alleen-lezen. Gebruikers hebben nog steeds toegang tot hun bestanden via de OneDrive-synchronisatieclient of hun OneDrive-site in SharePoint Online. Nadat OneDrive is verplaatst, wordt de gebruiker automatisch verbonden met hun OneDrive op de doellocatie van de geografische locatie wanneer ze naar OneDrive navigeren in het startprogramma voor apps van Microsoft 365. De synchronisatieclient begint automatisch met synchroniseren vanaf de nieuwe locatie.
+Tijdens OneDrive geoverhuisvenster (ongeveer 2-6 uur) is de OneDrive van de gebruiker ingesteld op alleen-lezen. De gebruiker heeft nog steeds toegang tot zijn bestanden via de OneDrive-synchronisatieclient of via OneDrive site in SharePoint Online. Nadat OneDrive geoverplaatsing is voltooid, wordt de gebruiker automatisch verbonden met zijn of haar OneDrive op de geografische locatie van de bestemming wanneer hij of zij naar OneDrive in het start startstation voor Microsoft 365 app navigeert. De synchronisatieclient wordt automatisch vanaf de nieuwe locatie gesynchroniseerd.
 
-Voor de procedures in dit artikel is de [Microsoft SharePoint Online PowerShell-module](https://www.microsoft.com/download/details.aspx?id=35588)vereist.
+Voor de procedures in dit artikel is Microsoft Office SharePoint Online [PowerShell-module vereist.](https://www.microsoft.com/download/details.aspx?id=35588)
 
 ## <a name="communicating-to-your-users"></a>Communiceren met uw gebruikers
 
-Als u OneDrive-sites tussen geo-locaties verplaatst, is het belangrijk om te communiceren met uw gebruikers wat u kunt verwachten. Dit kan de gebruikers verwarring en oproepen naar uw helpdesk verminderen. E-mail uw gebruikers voorafgaand aan de verhuizing en laat ze de volgende informatie weten:
+Wanneer u OneDrive sites verplaatst tussen geografische locaties, is het belangrijk om uw gebruikers te laten weten wat ze kunnen verwachten. Dit kan gebruikersverwarring en oproepen naar uw helpdesk helpen verminderen. E-mail uw gebruikers vóór de verhuizing en laat ze de volgende informatie weten:
 
-- Wanneer de verplaatsing naar verwachting begint en hoe lang deze duurt
-- De geografische locatie waarnaar de OneDrive wordt verplaatst, en de URL voor toegang tot de nieuwe locatie
-- De persoon moet hun bestanden sluiten en geen wijzigingen aanbrengen tijdens de verhuizing.
-- Het is niet mogelijk om bestanden te bewerken en te delen.
-- Wat kunt u verwachten van de [gebruikerservaring in een omgeving met meerdere geografische omgevingen](multi-geo-user-experience.md) ?
+- Wanneer de overstap wordt verwacht en hoe lang deze naar verwachting zal duren
+- Naar welke geografische locatie de OneDrive wordt verplaatst en de URL voor toegang tot de nieuwe locatie
+- Ze moeten hun bestanden sluiten en geen wijzigingen maken tijdens het verplaatsen.
+- Bestandsmachtigingen en delen worden niet gewijzigd als gevolg van de verhuizing.
+- Wat u kunt verwachten van [de gebruikerservaring in een multi-geo-omgeving](multi-geo-user-experience.md)
 
-Zorg ervoor dat u uw gebruikers een e-mailbericht stuurt wanneer de overstap is voltooid, zodat ze verder kunnen werken in OneDrive.
+Zorg ervoor dat u uw gebruikers een e-mail stuurt wanneer de overstap is voltooid, zodat ze kunnen zien dat ze weer kunnen werken in OneDrive.
 
-## <a name="scheduling-onedrive-site-moves"></a>OneDrive-site plannen
+## <a name="scheduling-onedrive-site-moves"></a>Site-OneDrive plannen
 
-U kunt instellen dat de OneDrive-site vooraf wordt bewogen (verderop in dit artikel wordt beschreven). We raden u aan te beginnen met een klein aantal gebruikers om uw werkstromen en communicatie strategieën te valideren. Wanneer u vertrouwd bent met het proces, kunt u het volgende plannen:
+U kunt de OneDrive van tevoren plannen (verder in dit artikel beschreven). Het is raadzaam om te beginnen met een klein aantal gebruikers om uw werkstromen en communicatiestrategieën te valideren. Zodra u vertrouwd bent met het proces, kunt u de volgende stappen plannen:
 
-- U kunt maximaal 4.000 verplaatsen.
-- Zoals de verhuizing begint, kunt u meer plannen, met een maximum van 4.000 in behandeling in de wachtrij en op een bepaald moment.
-- De maximumgrootte van een OneDrive die kan worden verplaatst, is 1 terabyte (1 TB).
+- U kunt maximaal 4.000 bewegingen tegelijk plannen.
+- Wanneer de bewegingen beginnen, kunt u meer plannen, met een maximum van 4.000 in behandeling zijnde bewegingen in de wachtrij en een bepaalde tijd.
+- De maximale grootte van een OneDrive die kan worden verplaatst, is 1 terabyte (1 TB).
 
-## <a name="moving-a-onedrive-site"></a>Een OneDrive-site verplaatsen
+## <a name="moving-a-onedrive-site"></a>Een site OneDrive verplaatsen
 
-Voor het uitvoeren van een OneDrive-geografische verplaatsing moet de tenantbeheerder eerst de voorkeurs gegevenslocatie (PDL) van de gebruiker instellen op de gewenste geografische locatie. Wanneer de PDL is ingesteld, wacht u minimaal 24 uur voordat de PDL-update via de geo-locaties is gesynchroniseerd voordat u de geografische verhuizing van OneDrive start.
+Als u een OneDrive geo-move wilt uitvoeren, moet de tenantbeheerder eerst de voorkeurslocatie voor gegevens (PDL) van de gebruiker instellen op de juiste geografische locatie. Wanneer de PDL is ingesteld, wacht u ten minste 24 uur totdat de PDL-update wordt gesynchroniseerd over de geografische locaties voordat u de OneDrive geo-move.
 
-Wanneer u de geo Move-cmdlets gebruikt, kunt u de volgende syntaxis gebruiken om verbinding te maken met de SPO-service op de huidige OneDrive-geografische locatie van de gebruiker:
+Wanneer u de geoverplaatsings cmdlets gebruikt, maakt u verbinding met SPO Service op de huidige locatie OneDrive gebruiker, met de volgende syntaxis:
 
 `Connect-SPOService -url https://<tenantName>-admin.sharepoint.com`
 
-Als u bijvoorbeeld OneDrive van User ' Matt@contosoenergy.onmicrosoft.com ' wilt verplaatsen, maakt u verbinding met het SharePoint-Beheercentrum als de OneDrive van de gebruiker wordt gebruikt in plaats van de geografische locatie van de gebruiker:
+Bijvoorbeeld: Als u OneDrive gebruikers 'Matt@contosoenergy.onmicrosoft.com' wilt verplaatsen, maakt u verbinding met het EUR SharePoint-beheercentrum terwijl de OneDrive van de gebruiker zich op de geografische locatie van EUR bevindt:
 
 `Connect-SPOSservice -url https://contosoenergyeur-admin.sharepoint.com`
 
-![Schermafbeelding van het PowerShell-venster met de cmdlet Connect-sposervice](../media/move-onedrive-between-geo-locations-image1.png)
+![Schermafbeelding van PowerShell-venster met connect-sposervice-cmdlet](../media/move-onedrive-between-geo-locations-image1.png)
 
 ## <a name="validating-the-environment"></a>De omgeving valideren
 
-U wordt aangeraden om de omgeving te valideren voordat u een OneDrive-geografische verhuizing start.
+Voordat u een geo-OneDrive start, raden we u aan de omgeving te valideren.
 
-Voer de volgende opdracht uit om ervoor te zorgen dat alle geo-locaties compatibel zijn:
+Voer het volgende uit om ervoor te zorgen dat alle geografische locaties compatibel zijn:
 
 `Get-SPOGeoMoveCrossCompatibilityStatus`
 
-U ziet een lijst met uw geografische locaties en u kunt de inhoud van de geografische locaties verplaatsten, ongeacht of deze wordt aangeduid als compatibel. Als met de opdracht ' niet-compatibel ' is geretourneerd, probeert u de status op een later tijdstip te valideren.
+U ziet een lijst met uw geografische locaties en of inhoud kan worden verplaatst, wordt aangeduid als 'Compatibel'. Als de opdracht 'Niet compatibel' retourneert, kunt u proberen de status op een later tijdstip te valideren.
 
-Als een OneDrive een subsite bevat, kunt u deze bijvoorbeeld niet verplaatsen. U kunt de cmdlet start-SPOUserAndContentMove gebruiken met de parameter-ValidationOnly om te controleren of de OneDrive kan worden verplaatst:
+Als een OneDrive bijvoorbeeld een subsite bevat, kan deze niet worden verplaatst. U kunt de cmdlet Start-SPOUserAndContentMove -ValidationOnly gebruiken om te valideren of de OneDrive kan worden verplaatst:
 
 `Start-SPOUserAndContentMove -UserPrincipalName <UPN> -DestinationDataLocation <DestinationDataLocation> -ValidationOnly`
 
-Hierdoor wordt het resultaat weergegeven als de OneDrive klaar is om te worden verplaatst of als er een fout is opgetreden als de verhuizing niet kan worden verplaatst. Nadat u hebt gecontroleerd of de OneDrive klaar is om te worden verplaatst, kunt u beginnen met verplaatsen.
+Dit geeft succes als de OneDrive gereed is om te worden verplaatst of Mislukken als er een wettelijke wacht- of subsite is die de overstap verhindert. Nadat u hebt gevalideerd dat de OneDrive klaar is om te worden verplaatst, kunt u de overstap starten.
 
-## <a name="start-a-onedrive-geo-move"></a>Een geografische verhuizing van OneDrive starten
+## <a name="start-a-onedrive-geo-move"></a>Een geo-OneDrive starten
 
-Voer de volgende opdracht uit om de verhuizing te starten:  
+Als u de move wilt starten, gaat u als volgende te werk:  
 
 `Start-SPOUserAndContentMove -UserPrincipalName <UserPrincipalName> -DestinationDataLocation <DestinationDataLocation>`
 
-Met deze parameters:
+Deze parameters gebruiken:
 
--   _UserPrincipalName_ : UPN van de gebruiker van wie OneDrive wordt verplaatst.
+-   _UserPrincipalName:_ UPN van de gebruiker van wie OneDrive wordt verplaatst.
 
--   _DestinationDataLocation_ – geografische locatie waar de OneDrive moet worden verplaatst. Dit moet gelijk zijn aan de voorkeur van de gebruikerslocatie van de gebruiker.
+-   _DestinationDataLocation:_ Geo-Location waar de OneDrive moet worden verplaatst. Dit moet hetzelfde zijn als de gewenste gegevenslocatie van de gebruiker.
 
-Als u bijvoorbeeld de OneDrive van matt@contosoenergy.onmicrosoft.com van EUR naar AUS wilt verplaatsen, voert u de volgende opdracht uit:
+Als u bijvoorbeeld de OneDrive van matt@contosoenergy.onmicrosoft.com van EUR naar AUS wilt verplaatsen, gaat u als volgende te werk:
 
 `Start-SPOUserAndContentMove -UserPrincipalName matt@contosoenergy.onmicrosoft.com -DestinationDataLocation AUS`
 
-![Schermafbeelding van het PowerShell-venster met de cmdlet start-SPOUserAndContentMove](../media/move-onedrive-between-geo-locations-image2.png)
+![Schermafbeelding van PowerShell-venster met Start-SPOUserAndContentMove cmdlet](../media/move-onedrive-between-geo-locations-image2.png)
 
-Gebruik een van de volgende parameters als u een geo-overstap voor een later tijdstip wilt plannen:
+Als u een geografische beweging voor een later tijdstip wilt plannen, gebruikt u een van de volgende parameters:
 
--   _PreferredMoveBeginDate_ : de verhuizing gaat waarschijnlijk op deze specifieke tijd. De tijd moet zijn opgegeven in Coordinated Universal Time (UTC).
+-   _PreferredMoveBeginDate:_ de move begint waarschijnlijk op deze opgegeven tijd. Tijd moet worden opgegeven in Coordinated Universal Time (UTC).
 
--   _PreferredMoveEndDate_ : de verhuizing wordt waarschijnlijk op basis van de opgegeven tijd voltooid. De tijd moet zijn opgegeven in Coordinated Universal Time (UTC). 
+-   _PreferredMoveEndDate:_ de move wordt waarschijnlijk voltooid op deze opgegeven tijd, op basis van de beste inspanning. Tijd moet worden opgegeven in Coordinated Universal Time (UTC). 
 
-## <a name="cancel-a-onedrive-geo-move"></a>Een geo-verhuizing van OneDrive opzeggen 
+## <a name="cancel-a-onedrive-geo-move"></a>Een geo-OneDrive annuleren 
 
-U kunt de geografische verplaatsing van een OneDrive van een gebruiker stoppen, mits de overstap niet wordt uitgevoerd of voltooid met behulp van de cmdlet:
+U kunt de geografische beweging van de OneDrive van een gebruiker stoppen, mits de beweging niet wordt uitgevoerd of voltooid met behulp van de cmdlet:
 
 `Stop-SPOUserAndContentMove – UserPrincipalName <UserPrincipalName>`
 
-Waarbij _userPrincipalName_ de UPN is van de gebruiker van wie u de OneDrive-verplaatsing wilt stoppen.
+Waarbij _UserPrincipalName_ de UPN is van de gebruiker van wie OneDrive u wilt stoppen.
 
-## <a name="determining-current-status"></a>De huidige status bepalen
+## <a name="determining-current-status"></a>Huidige status bepalen
 
-Met de cmdlet Get-SPOUserAndContentMoveState kunt u de status van een OneDrive-geografische plaats in-of uitzetten.
+U kunt de status van een OneDrive geo verplaatsen in of uit de geo die u hebt verbonden met de Get-SPOUserAndContentMoveState cmdlet.
 
-De verplaatsings status wordt beschreven in de volgende tabel.
+De statussen voor verplaatsen worden in de volgende tabel beschreven.
 
 <table>
 <thead>
@@ -130,77 +130,77 @@ De verplaatsings status wordt beschreven in de volgende tabel.
 <tbody>
 <tr class="odd">
 <td align="left">NotStarted</td>
-<td align="left">De verhuizing is niet gestart.</td>
+<td align="left">De move is nog niet gestart.</td>
 </tr>
 <tr class="even">
-<td align="left">Invoortgang (<em>n</em>/4)</td>
-<td align="left">De verplaatsing wordt uitgevoerd in een van de volgende staten: validering (1/4), back-up (2/4), herstellen (3/4), opruimen (4/4).</td>
+<td align="left">InProgress (<em>n</em>/4)</td>
+<td align="left">De move wordt uitgevoerd in een van de volgende staten: Validatie (1/4), Back-up (2/4), Herstellen (3/4), Opschoning (4-4).</td>
 </tr>
 <tr class="odd">
-<td align="left">Bevestiging</td>
+<td align="left">Succes</td>
 <td align="left">De verhuizing is voltooid.</td>
 </tr>
 <tr class="even">
 <td align="left">Mislukt</td>
-<td align="left">Verplaatsen mislukt.</td>
+<td align="left">De beweging is mislukt.</td>
 </tr>
 </tbody>
 </table>
 
-Als u de status van de verhuizing van een bepaalde gebruiker wilt achterhalen, gebruikt u de parameter UserPrincipalName:
+Gebruik de parameter UserPrincipalName om de status van de move van een specifieke gebruiker te vinden:
 
 `Get-SPOUserAndContentMoveState -UserPrincipalName <UPN>`
 
-Gebruik de parameter MoveState met een van de volgende waarden als u wilt weten hoe u de status van alle in-en uitnodigingen van de geografische locatie waarmee u bent verbonden wilt achterhalen.
+Gebruik de parameter MoveState met een van de volgende waarden om de status van alle bewegingen in of uit de geografische locatie te vinden die u hebt verbonden: NotStarted, InProgress, Success, Failed, All.
 
 `Get-SPOUserAndContentMoveState -MoveState <value>`
 
-U kunt ook de `-Verbose` parameter toevoegen voor uitgebreide beschrijvingen van de verplaatsings status.
+U kunt ook de `-Verbose` parameter toevoegen voor uitgebreidere beschrijvingen van de status verplaatsen.
 
 ## <a name="user-experience"></a>Gebruikerservaring
 
-Gebruikers van OneDrive moeten minimaal verstoren als hun OneDrive naar een andere geografische locatie wordt verplaatst. Als u tijdens de verhuizing een kortere alleen-lezen status wilt hebben, blijven bestaande koppelingen en machtigingen op de verwachte manier werken als de verplaatsing is voltooid.
+Gebruikers van OneDrive moeten minimale onderbrekingen zien als hun OneDrive naar een andere geografische locatie wordt verplaatst. Afgezien van een korte status alleen-lezen tijdens het verplaatsen, blijven bestaande koppelingen en machtigingen werken zoals verwacht wanneer de verhuizing is voltooid.
 
 ### <a name="onedrive-for-business"></a>OneDrive voor Bedrijven
 
-Terwijl de overstap wordt uitgevoerd, wordt de OneDrive van de gebruiker ingesteld op alleen-lezen. Wanneer de overstap is voltooid, wordt de gebruiker doorgestuurd naar zijn of haar OneDrive op de nieuwe geo-locatie wanneer ze naar OneDrive navigeren in het startprogramma voor Microsoft 365-apps of een webbrowser.
+Terwijl de move wordt uitgevoerd, is de OneDrive van de gebruiker ingesteld op alleen-lezen. Wanneer de overstap is voltooid, wordt de gebruiker doorgestuurd naar zijn of haar OneDrive in de nieuwe geografische locatie wanneer hij of zij naar OneDrive het start- Microsoft 365 app of een webbrowser navigeert.
 
-### <a name="permissions-on-onedrive-content"></a>Machtigingen voor OneDrive-inhoud
+### <a name="permissions-on-onedrive-content"></a>Machtigingen voor OneDrive inhoud
 
-Gebruikers met machtigingen voor OneDrive-inhoud blijven toegang tot de inhoud tijdens de verhuizing en nadat deze is voltooid.
+Gebruikers met machtigingen voor het OneDrive inhoud hebben nog steeds toegang tot de inhoud tijdens de verhuizing en nadat deze is voltooid.
 
-### <a name="onedrive-sync-client"></a>OneDrive-Synchronisatieclient 
+### <a name="onedrive-sync-client"></a>OneDrive Synchronisatieclient 
 
-Met de synchronisatieclient van OneDrive wordt automatisch het synchroniseren van synchronisatie naar de nieuwe OneDrive-locatie herkend en naadloos overgebracht nadat de geo-verplaatsing van OneDrive is voltooid. De gebruiker hoeft zich niet opnieuw aan te melden of een andere actie te ondernemen.  (Versie 17.3.6943.0625 of hoger van de synchronisatieclient vereist.)
+De OneDrive-synchronisatieclient detecteert automatisch en schakelt naadloos synchronisatie over naar de nieuwe OneDrive-locatie zodra de OneDrive geoverplaatsing is voltooid. De gebruiker hoeft zich niet opnieuw aan te melden of een andere actie uit te voeren.  (Versie 17.3.6943.0625 of hoger van de synchronisatieclient vereist.)
 
-Als een gebruiker een bestand bijwerkt terwijl de geo-verhuizing van OneDrive wordt uitgevoerd, wordt door de synchronisatieclient aangegeven dat het uploaden van bestanden in behandeling is terwijl de verhuizing plaatsvindt.
+Als een gebruiker een bestand bij werkt terwijl de OneDrive geo-move wordt uitgevoerd, meldt de synchronisatieclient dat de uploads van bestanden in behandeling zijn terwijl de overstap wordt uitgevoerd.
 
-### <a name="sharing-links"></a>Koppelingen voordelen 
+### <a name="sharing-links"></a>Koppelingen voor delen 
 
-Na voltooiing van OneDrive geo-verhuizing worden de bestaande gedeelde koppelingen voor de bestanden die zijn verplaatst automatisch omgeleid naar de nieuwe geografische locatie.
+Wanneer OneDrive geoverplaatsing hebt voltooid, worden de bestaande gedeelde koppelingen voor de bestanden die zijn verplaatst, automatisch omgeleid naar de nieuwe geografische locatie.
 
-### <a name="onenote-experience"></a>OneNote-ervaring 
+### <a name="onenote-experience"></a>OneNote Ervaring 
 
-Met de apps van OneNote Win32 client en UWP (Universal) wordt automatisch notitieblokken automatisch opgespoord en naadloos gesynchroniseerd met de nieuwe OneDrive-locatie nadat OneDrive geo Move is voltooid. De gebruiker hoeft zich niet opnieuw aan te melden of een andere actie te ondernemen. De enige zichtbare indicator voor de gebruiker is het synchroniseren van notitieblokken mislukt wanneer OneDrive geo-verplaatsing wordt uitgevoerd. Deze ervaring is beschikbaar in de volgende versies van OneNote-clients:
+OneNote win32-client en uwp-app (Universal) worden notitieblokken automatisch gedetecteerd en naadloos gesynchroniseerd naar de nieuwe OneDrive-locatie wanneer OneDrive geo-move is voltooid. De gebruiker hoeft zich niet opnieuw aan te melden of een andere actie uit te voeren. De enige zichtbare indicator voor de gebruiker is dat de synchronisatie van notitieblokken mislukt wanneer OneDrive geo-move wordt uitgevoerd. Deze ervaring is beschikbaar in de volgende OneNote clientversies:
 
--   OneNote Win32-versie 16.0.8326.2096 (en later)
+-   OneNote win32 – Versie 16.0.8326.2096 (en hoger)
 
--   OneNote UWP: versie 16.0.8431.1006 (en later)
+-   OneNote UWP – Versie 16.0.8431.1006 (en hoger)
 
--   App OneNote Mobile: versie 16.0.8431.1011 (en later)
+-   OneNote Mobiele app : versie 16.0.8431.1011 (en hoger)
 
-### <a name="teams-app"></a>Teams-app
+### <a name="teams-app"></a>Teams app
 
-Na voltooiing van OneDrive geo-verhuizing hebben gebruikers toegang tot hun OneDrive-bestanden in de app teams. Bestanden die worden gedeeld via teams-chat vanuit hun OneDrive voordat u geo-overstap gaat, blijven ook werken na voltooiing van de verhuizing.
+Wanneer OneDrive geo-move hebt voltooid, hebben gebruikers toegang tot hun OneDrive bestanden in de Teams app. Bovendien blijven bestanden die worden gedeeld via Teams chat vanaf hun OneDrive voordat de geo-beweging wordt verplaatst, werken nadat de beweging is voltooid.
 
-### <a name="onedrive-for-business-mobile-app-ios"></a>Mobiele app van OneDrive voor bedrijven (iOS) 
+### <a name="onedrive-for-business-mobile-app-ios"></a>OneDrive voor Bedrijven Mobiele app (iOS) 
 
-Na voltooiing van OneDrive geo-verhuizing moet de gebruiker zich afmelden en opnieuw aanmelden op de mobiele iOS-app om te synchroniseren met de nieuwe OneDrive-locatie.
+Wanneer OneDrive geo-move voltooid is, moet de gebruiker zich aanmelden en zich opnieuw aanmelden in de mobiele iOS-app om te synchroniseren met de nieuwe OneDrive locatie.
 
 ### <a name="existing-followed-groups-and-sites"></a>Bestaande gevolgde groepen en sites
 
-Gevolgde sites en groepen worden weergegeven in het OneDrive van de gebruiker, ongeacht de geografische locatie. Sites en groepen die worden gehost op een andere geografische locatie, worden geopend op een apart tabblad.
+Gevolgde sites en groepen worden in de OneDrive van de gebruiker, ongeacht hun geografische locatie. Sites en groepen die op een andere geografische locatie worden gehost, worden geopend op een apart tabblad.
 
-### <a name="delve-geo-url-updates"></a>Geo-URL'S bijwerken in Delve
+### <a name="delve-geo-url-updates"></a>Delve Geo-URL-updates
 
-Gebruikers worden alleen naar de Delve-geo verzonden die overeenkomen met hun PDL, wanneer hun OneDrive naar de nieuwe geo is verplaatst.
+Gebruikers worden alleen naar de Delve geo verzonden die overeenkomt met hun PDL nadat hun OneDrive is verplaatst naar de nieuwe geo.

@@ -58,7 +58,7 @@ Als er na het invoeren van een promotiecode een foutbericht wordt weergegeven, k
 - **De promotiecode is verlopen.** Campagnes gelden gedurende een beperkte periode. Promotiecodes hebben een vervaldatum. Als de vervaldatum van de promotiecode die u probeert te gebruiken is overschreden, kunt u de code niet meer gebruiken. U kunt vervallen promotiecodes niet meer invoeren of inruilen, maar u kunt het abonnement wel aanschaffen zonder promotiecode.
 - **De promotiecode die u gebruikt, is bedoeld voor een ander geografisch gebied.** Sommige promotiecodes zijn alleen geldig in een bepaald land of een bepaalde regio. Promotiecodes werken niet in een ander land of een andere regio dan het land of de regio waarvoor ze zijn gemaakt.
   
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Een abonnement kopen via uw gratis proefabonnement](./try-or-buy-microsoft-365.md) (artikel)\  
 [Een ander abonnement kopen](./try-or-buy-microsoft-365.md) (artikel)\  

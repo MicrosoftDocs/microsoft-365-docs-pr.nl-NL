@@ -1,5 +1,5 @@
 ---
-title: Uw serviceaanbiedingen in Bookings vastleggen
+title: Uw serviceaanbiedingen definiëren in Bookings
 ms.author: kwekua
 author: kwekuako
 manager: scotv
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: bookings
 localization_priority: Normal
 ms.assetid: 4a1c391e-524f-48e0-bef8-185df3a9634b
-description: Instructies voor het invoeren van serviceaanbiedingen, waaronder de servicenaam, beschrijving, locatie, duur en prijzen. U kunt ook de werknemers taggen die gekwalificeerd zijn om de service te bieden.
+description: Instructies voor het invoeren van serviceaanbiedingen, waaronder servicenaam, beschrijving, locatie, duur en prijzen. U kunt ook de werknemers taggen die gekwalificeerd zijn om de service te bieden.
 ms.openlocfilehash: 095188546c01149a793a478a3cbd5ac9fbeb5524
 ms.sourcegitcommit: 7c0873d2a804f17697844fb13f1a100fabce86c4
 ms.translationtype: MT
@@ -16,120 +16,120 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 09/18/2020
 ms.locfileid: "47962535"
 ---
-# <a name="define-your-service-offerings-in-bookings"></a>Uw serviceaanbiedingen in Bookings vastleggen
+# <a name="define-your-service-offerings-in-bookings"></a>Uw serviceaanbiedingen definiëren in Bookings
 
-Wanneer u uw serviceaanbiedingen opgeeft in Microsoft Bookings, kunt u de naam van een service, beschrijving, locatie opgeven (Kies of u wilt vergaderen of een onlinevergadering wilt hebben), de duur, standaard herinneringen voor klanten en medewerkers, de interne notities over de service en de prijzen. U kunt ook de werknemers taggen die gekwalificeerd zijn om de service te bieden. Wanneer klanten uw zakelijke website gaan raadplegen om een afspraak te boeken, kunnen ze precies zien welke soorten afspraken beschikbaar zijn, de persoon kiezen die de service wil bieden en hoeveel hun servicekosten kost.
+Wanneer u uw serviceaanbiedingen in Microsoft Bookings definieert, stelt u een servicenaam, beschrijving, locatie in (kies of u persoonlijk wilt vergaderen of een onlinevergadering wilt houden), duur, standaardherinneringen aan klanten en personeel, interne notities over de service en prijzen. U kunt ook de werknemers taggen die gekwalificeerd zijn om de service te bieden. Wanneer klanten vervolgens naar uw zakelijke website komen om een afspraak te boeken, kunnen ze precies zien welke soorten afspraken beschikbaar zijn, de persoon kiezen die ze de service willen leveren en hoeveel hun service kost.
 
-U kunt ook aangepaste informatie en Url's toevoegen aan de e-mail bevestiging en de herinneringen die u verzendt wanneer iemand een dienst stuurt via de boekings pagina.
+U kunt ook aangepaste informatie en URL's toevoegen aan de e-mailbevestiging en herinneringen die u verzendt wanneer iemand een service boekt via uw boekingspagina.
 
 ## <a name="create-the-service-details"></a>De servicedetails maken
 
-1. Ga naar de [pagina Services beheren](https://outlook.office.com/bookings/services) en selecteer **een service toevoegen**.
+1. Ga naar de [pagina Services beheren](https://outlook.office.com/bookings/services) en selecteer Een service **toevoegen.**
 
-2. **Servicenaam**: Voer de naam van uw service in. Dit is de naam die wordt weergegeven in het vervolgkeuzemenu op de pagina agenda. Deze naam wordt ook weergegeven wanneer iedereen handmatig een afspraak op de pagina agenda plaatst, en deze wordt weergegeven als een tegel op de pagina selfservice.
+2. **Servicenaam:** voer de naam van uw service in. Dit is de naam die wordt weergegeven in de vervolgkeuzelijst op de pagina Agenda. Deze naam wordt ook weergegeven wanneer iemand handmatig een afspraak toevoegt op de pagina Agenda en deze wordt weergegeven als een tegel op de pagina Selfservice.
 
-3. **Beschrijving**: de beschrijving die u invoert, wordt weergegeven wanneer een gebruiker op het informatiepictogram op de pagina selfservice klikt.
+3. **Beschrijving:** De beschrijving die u op geeft, wordt weergegeven wanneer een gebruiker op het informatiepictogram op de pagina Selfservice klikt.
 
-4. **Standaardlocatie**: deze locatie wordt weergegeven in e-mailberichten voor de bevestiging en de herinneringen voor zowel personeel als klanten, en de agenda wordt weergegeven in de agendagebeurtenis die voor de reservering is gemaakt.
+4. **Standaardlocatie:** Deze locatie wordt weergegeven op bevestigings- en herinneringsberichten voor zowel personeel als klanten en deze wordt weergegeven in de agendagebeurtenis die voor de reservering is gemaakt.
 
-5. **Onlinevergadering toevoegen**: met deze instelling kunt u onlinevergaderingen voor elke afspraak, via teams of Skype, in-of uitschakelen, afhankelijk van welke optie u configureert als standaard-client voor het personeelslid.
+5. **Onlinevergadering** toevoegen: met deze instelling kunt u onlinevergaderingen in- of uitschakelen voor elke afspraak, via Teams of Skype, afhankelijk van welke u configureert als de standaardclient voor het personeelslid.
 
-    - Enabled
+    - Ingeschakeld:
 
-        - Een koppeling naar een team of Skype-vergadering, die uniek is voor de reservering, wordt toegevoegd aan de agendagebeurtenis op zowel de agenda's van de afdeling als de agenda van klanten, samen met inbel informatie.
-        - De koppeling om deel te nemen aan de vergadering wordt toegevoegd aan alle e-mailberichten met bevestiging en herinneringen, zoals wordt weergegeven in het volgende voorbeeld:
+        - Een koppeling naar een Teams- of Skype-vergadering, uniek voor de reservering, wordt toegevoegd aan de agendagebeurtenis in zowel de agenda's van het personeel als de agenda's van de klanten, samen met inbelgegevens.
+        - De koppeling om deel te nemen aan de vergadering wordt toegevoegd aan alle bevestigings- en herinnerings-e-mailberichten, zoals wordt weergegeven in het volgende voorbeeld:
 
-        :::image type="content" source="media/bookings-teams-meeting-link.jpg" alt-text="Voorbeeld van koppeling om deel te nemen aan teams-vergadering in Bookings":::
+        :::image type="content" source="media/bookings-teams-meeting-link.jpg" alt-text="Voorbeeld van koppeling om deel te nemen Teams vergadering in Bookings":::
 
         > [!NOTE]
-        > Teams-vergaderingen kunnen deelnemen via de mobiele app teams, de bureaublad-app van teams, in een webbrowser of via de telefoon inbellen. U wordt ten zeerste aangeraden teams als de standaard onlinevergadering in te schakelen voor de Tenant, voor de beste manier om virtuele afspraken te reserveren.
+        > Teams vergaderingen kunnen worden samengevoegd via de Teams mobiele app, de Teams desktop-app, in een webbrowser of via de telefoon inbeltoepassing. We raden u ten zeerste aan Teams als de standaard onlinevergaderingsservice voor uw tenant in te stellen voor de beste ervaring bij het maken van virtuele afspraken.
 
-    - Uitgeschakeld
-        - Afspraken bevatten geen optie voor vergaderingen en alle velden die worden weergegeven wanneer u **onlinevergadering toevoegen** wordt ingeschakeld, worden niet weergegeven.
+    - Uitgeschakeld:
+        - Afspraken bevatten geen optie voor een vergadering en alle vergadervelden die worden weergegeven wanneer **Onlinevergadering** toevoegen is ingeschakeld, worden niet weergegeven.
 
-6. **Standaardduur**: Hiermee wordt aangegeven hoe lang alle vergaderingen worden geboekt. De tijd wordt geblokkeerd vanaf de begintijd, geselecteerd tijdens de reservering. De fulltime van de afspraak wordt geblokkeerd in de agenda's van het personeel.
+6. **Standaardduur:** dit is hoe lang alle vergaderingen worden geboekt. De tijd wordt geblokkeerd vanaf de begintijd, die tijdens de reservering is geselecteerd. De volledige afspraaktijd wordt geblokkeerd in de agenda's van het personeel.
 
-7. **Buffer tijd voor uw klant kan niet boeken**: als u deze instelling inschakelt, wordt het toevoegen van extra tijd aan de agenda van het personeel telkens wanneer een afspraak wordt vastgelegd, toegestaan.
+7. **Buffertijd die uw klant** niet kan boeken: Als u deze instelling inschakelen, kunt u extra tijd toevoegen aan de agenda van het personeel telkens als er een afspraak wordt geboekt.
 
-    De tijd wordt geblokkeerd in de agenda van het personeel en impact op de beschikbare beschikbaarheidsinfo. Dit betekent dat als een afspraak eindigt op 3:00 pm en de buffertijd van 10 minuten aan het einde van de vergadering is toegevoegd, de agenda van het personeel wordt weergegeven als bezet en niet-bookable tot 3:10pm. Dit kan handig zijn als uw staf tijd nodig heeft voordat een vergadering kan voorbereiden, zoals een dokter die de grafiek van een patiënten reviseert, of een financiële adviseur waarmee de informatie over de accounts wordt voorbereid. Het kan ook handig zijn na een vergadering, bijvoorbeeld wanneer iemand tijd nodig heeft om naar een andere locatie te reizen.
+    De tijd wordt geblokkeerd in de agenda van het personeel en de vrije/drukke informatie beïnvloeden. Dit betekent dat als een afspraak eindigt om 15:00 uur en 10 minuten buffertijd is toegevoegd aan het einde van de vergadering, de agenda van het personeel wordt als bezet en niet-boekbaar tot 15:10 uur. Dit kan handig zijn als uw personeel tijd nodig heeft voor de voorbereiding van een vergadering, zoals een arts die de grafiek van een patiënt bekijkt of een financieel adviseur die relevante accountgegevens voorbereidt. Het kan ook handig zijn na een vergadering, bijvoorbeeld wanneer iemand tijd nodig heeft om naar een andere locatie te reizen.
 
-8. **Laat de klant de reserverings functie laten beheren**: met deze instelling wordt bepaald of de klant de reservering kan wijzigen of annuleren, mits deze via het tabblad Agenda op de web-app Bookings is opgenomen.
+8. **De klant de** reservering laten beheren: deze instelling bepaalt of de klant zijn of haar reservering kan wijzigen of annuleren, mits deze is geboekt via het tabblad Agenda in de Bookings Web-app.
 
-    - Enabled
+    - Ingeschakeld:
 
-        De knop **reservering beheren** wordt weergegeven op het bevestigingsbericht van de klant. Wanneer deze knop is geselecteerd voor de klant, worden drie opties weergegeven:
-        - **Opnieuw plannen** Wanneer u deze optie inschakelt, wordt de gebruiker een service-specifieke selfservice pagina, waar ze een nieuwe tijd en/of datum voor dezelfde service kunnen selecteren en van de oorspronkelijke boeking. Houd er rekening mee dat er in de gebruikers ook wel een wijziging van het personeelslid moet worden gemaakt, ook al is het oorspronkelijke personeelslid bijgevoegd aan de opnieuw geplande reservering.
-        - **Reservering annuleren** Hiermee annuleert u de boeking en verwijdert u deze uit de agenda van het personeel.
-        - **Nieuwe reservering** Met deze optie wordt de gebruiker gecommuniceerd met alle services en medewerkers die worden weergegeven voor het plannen van een nieuwe boeking.
+        De **knop Reservering beheren** wordt weergegeven in het bevestigingsbericht van de klant. Wanneer deze knop is geselecteerd door de klant, worden drie opties weergegeven:
+        - **Opnieuw plannen** Als u deze optie selecteert, gaat de gebruiker naar een servicespecifieke Self-Service-pagina, waar hij/zij een nieuwe tijd en/of datum voor dezelfde service en hetzelfde personeelslid uit de oorspronkelijke reservering kan selecteren. Hoewel het oorspronkelijke personeelslid standaard is gekoppeld aan de nieuwe reservering, kan de gebruiker het personeelslid ook wijzigen.
+        - **Reservering annuleren** Hiermee wordt de reservering geannuleerd en uit de agenda van het personeel verwijderd.
+        - **Nieuwe reservering** Deze optie brengt de gebruiker naar de Self-Service pagina met alle services en personeelsleden die worden vermeld, voor het plannen van een nieuwe reservering.
 
-        :::image type="content" source="media/bookings-manage-booking-button.jpg" alt-text="De knop Bookings beheren in Bookings":::
+        :::image type="content" source="media/bookings-manage-booking-button.jpg" alt-text="De knop Boekingen beheren in Bookings":::
 
-        U wordt aangeraden deze instelling in te schakelen als u vertrouwd bent met klanten die toegang hebben tot de selfservice pagina.
+        We raden u alleen aan deze instelling ingeschakeld te laten als u tevreden bent met klanten die toegang hebben tot de Self-Service pagina.
 
-    - Uitgeschakeld
+    - Uitgeschakeld:
 
-        De gebruiker kan zijn of haar boeking niet opnieuw plannen of annuleren wanneer ze het tabblad agenda van de web-app Bookings opnemen. Wanneer u via de selfservice-pagina naar de volgende pagina gaat, hebben klanten echter nog steeds de knop **reserve functie beheren** en alle bijbehorende opties, zelfs als deze instelling is uitgeschakeld.
+        De gebruiker kan zijn reservering niet opnieuw plannen of annuleren wanneer hij of zij via het tabblad Agenda in de Bookings Web-app boekt. Bij het boeken via Self-Service pagina hebben klanten echter  nog steeds de knop Reservering beheren en alle opties, zelfs wanneer deze instelling is uitgeschakeld.
 
-        U wordt aangeraden deze instelling uit te schakelen als u de toegang tot de selfservice pagina wilt beperken. Daarnaast wordt u aangeraden om tekst toe te voegen aan uw e-mailberichten voor bevestiging en herinneringen, zodat uw klanten u op een andere manier kunnen wijzigen, zoals door het bellen van de Office of het e-mailen van de helpdesk.
+        U wordt aangeraden deze instelling uit te zetten als u de toegang tot de Self-Service wilt beperken. Daarnaast raden we aan om tekst toe te voegen aan uw bevestigings- en herinnerings-e-mailberichten waarin uw klanten worden verteld hoe ze hun reservering op een andere manier kunnen wijzigen, bijvoorbeeld door het kantoor te bellen of een e-mail te sturen naar de helpdesk.
 
-9. **Maximum aantal deelnemers per gebeurtenis** Met deze instelling kunt u services maken waarmee meerdere personen dezelfde afspraak tijd en dezelfde medewerkers kunnen boeken (zoals een fitness klasse). De tijdsduur van de afspraak voor de geselecteerde service, medewerkers en tijdstippen zijn beschikbaar voor de boekingsperiode, en de door u opgegeven maximum aantal deelnemers is bereikt. De capaciteit van de huidige afspraak en de deelnemers kunnen worden weergegeven op het tabblad agenda van de web-app bookings.
+9. **Maximum aantal deelnemers per gebeurtenis** Met deze instelling kunt u services maken waarvoor meerdere personen dezelfde afspraaktijd en hetzelfde personeel (zoals een fitnessklasse) moeten kunnen boeken. De tijdsleuf voor de geselecteerde service, personeel en tijd is beschikbaar om te boeken totdat het maximum aantal deelnemers, dat door u is opgegeven, is bereikt. De huidige afspraakcapaciteit en deelnemers kunnen worden weergegeven op het tabblad Agenda in de Bookings Web-app.
 
-    :::image type="content" source="media/bookings-maximum-attendees.jpg" alt-text="Voorbeeld van het instellen van het maximum aantal deelnemers aan Bookings":::
+    :::image type="content" source="media/bookings-maximum-attendees.jpg" alt-text="Voorbeeld van het instellen van maximale deelnemers in Bookings":::
 
-10. **Standaardprijs**  Dit is de prijs die op de selfservice pagina wordt weergegeven. Als **prijs niet is ingesteld** , wordt er geen prijs of een verwijzing naar de kosten of prijzen weergegeven.
+10. **Standaardprijs**  Dit is de prijs die wordt weergegeven op de Self-Service pagina. Als **Prijs niet is** ingesteld, wordt er geen prijs of verwijzing naar kosten of prijzen weergegeven.
 
-11. **Info** Dit veld wordt weergegeven in de boekings gebeurtenis voor vastgelegde medewerkers en de gebeurtenis die wordt weergegeven op het tabblad agenda van de Bookings-web-app.
+11. **Notities** Dit veld wordt weergegeven in de reserveringsgebeurtenis voor geboekt personeel, evenals op de gebeurtenis die wordt weergegeven op het tabblad Agenda in de web-app Bookings.
 
-12. **Aangepaste velden** In deze sectie kunnen vragen worden toegevoegd of verwijderd als de klant moet reageren op de juiste volgorde.
+12. **Aangepaste velden** In deze sectie kunnen vragen worden toegevoegd of verwijderd als de klant een vraag moet beantwoorden om te kunnen boeken.
 
-    - Klant-e-mail, telefoonnummer, adres en notities zijn niet-verwisselbare velden, maar u kunt ze optioneel maken door het selectievakje **vereist** naast elk veld te deselecteren.
+    - E-mail, telefoonnummer, adres en notities van klanten zijn niet-verwisselbare velden, maar u kunt ze optioneel maken door **Vereist** naast elk veld te deselecteren.
 
-    - U kunt een vraag voor meerdere keuze of tekst antwoorden toevoegen door **een vraag toevoegen**te selecteren.
+    - U kunt een vraag met meerdere keuze of tekst beantwoorden toevoegen door **Een vraag toevoegen te selecteren.**
 
-        Aangepaste velden zijn handig voor het verzamelen van informatie die nodig is telkens wanneer een bepaalde afspraak wordt gereserveerd. Voorbeelden hiervan zijn verzekerings leveranciers voor een fraude bezoek, leningtype voor het aanbrengen van leningen, het belangrijkste onderzoek voor het adviseren van universiteiten of de kandidaat-ID voor functioneringsgesprekken.
+        Aangepaste velden kunnen handig zijn bij het verzamelen van gegevens die nodig zijn telkens wanneer de specifieke afspraak wordt geboekt. Voorbeelden hiervan zijn verzekeringsprovider vóór een bezoek aan de kliniek, leningstype voor leningsoverleg, hoofdstudie voor academische advisering of sollicitant-id voor sollicitatiegesprekken.
 
-13. **Herinneringen en bevestigingen** Beide soorten e-mails worden verzonden naar klanten, medewerkers of beide, op een bepaalde periode vóór de afspraak. U kunt voor elke afspraak meerdere berichten maken op basis van uw voorkeur.
+13. **Herinneringen en bevestigingen** Beide typen e-mailberichten worden verzonden naar klanten, personeelsleden of beide, binnen een bepaalde periode vóór de afspraak. Er kunnen meerdere berichten worden gemaakt voor elke afspraak, afhankelijk van uw voorkeur.
 
-    - Het standaard e-mailbericht met een bevestiging en een herinnering bevat basisinformatie over de afspraak, zoals de naam van de klant/klant, de naam van het personeelslid, de service of afspraak die is geboekt, en de tijd van de afspraak. Voor onlinevergaderingen wordt ook een koppeling naar deelnemen opgenomen. De mogelijkheid om de reservering te beheren, kan ook worden opgenomen als deze instelling is ingeschakeld (zoals hierboven is beschreven in stap 8).
+    - De standaardbevestigings- en herinneringsberichten bevatten basisinformatie over de afspraak, zoals de naam van de klant/klant, de naam van het personeelslid, de service of afspraak die is geboekt en het tijdstip van de afspraak. Voor onlinevergaderingen wordt ook een koppeling opgenomen om deel te nemen. De mogelijkheid om de reservering te beheren kan ook worden opgenomen, als deze instelling is ingeschakeld (zoals hierboven beschreven in stap 8).
 
-        :::image type="content" source="media/bookings-remind-confirm.jpg" alt-text="Een bevestiging van reserve berichten via Bookings":::
+        :::image type="content" source="media/bookings-remind-confirm.jpg" alt-text="Een bevestigingsmail van Bookings":::
 
-    - U kunt eventueel ook eventuele extra tekst die u wilt gebruiken, zoals informatie over Herplannen of de klanten voor de afspraak opnemen. Hieronder ziet u een voorbeeld van de aangepaste tekst die is toegevoegd aan de oorspronkelijke bevestigings-e-mail, die wordt weergegeven in het veld **aanvullende informatie voor e-mail bevestiging** :
+    - Desgewenst kunt u hier eventuele aanvullende tekst opnemen die u wilt gebruiken, zoals informatie over het opnieuw plannen of wat klanten moeten meenemen voor de afspraak. Hieronder ziet u een voorbeeld van aangepaste tekst die is toegevoegd aan de oorspronkelijke bevestigings-e-mail, te zien in het veld **Aanvullende informatie voor e-mailbevestiging:**
 
-        :::image type="content" source="media/bookings-additional-info.jpg" alt-text="Aanvullende informatie in de e-mail van een Bookings":::
+        :::image type="content" source="media/bookings-additional-info.jpg" alt-text="Aanvullende informatie in een e-mail van Bookings":::
 
-14. **SMS-meldingen voor uw klant inschakelen** Als deze optie is geselecteerd, worden er SMS-berichten naar de klant verzonden, maar alleen als ze zich aanmelden.
+14. **Sms-meldingen voor uw klant inschakelen** Als geselecteerd, Sms berichten naar de klant worden verzonden, maar alleen als ze zich hebben aanmeld.
 
-    - Opt-in box op de paginahand matig reserveren en self-service:
+    - Opt-in box on the manual booking and Self-Service Page:
 
-        :::image type="content" source="media/bookings-opt-In-boc.jpg" alt-text="Het vak opt-in voor bookings":::
+        :::image type="content" source="media/bookings-opt-In-boc.jpg" alt-text="Het opt-in vak in Bookings":::
 
-    - SMS-meldingen ziet er als volgt uit (Houd er rekening mee dat SMS-meldingen momenteel alleen beschikbaar zijn in Noord-Amerika):
+    - Sms-meldingen zien er als volgt uit (houd er rekening mee dat Sms zijn momenteel alleen beschikbaar in Noord-Amerika):
 
-        :::image type="content" source="media/bookings-text-notifications.jpg" alt-text="Een tekst melding van Bookings":::
+        :::image type="content" source="media/bookings-text-notifications.jpg" alt-text="Een tekstmelding van Bookings":::
 
-15. **Opties voor publiceren** Kies of u deze service wilt weergeven als bookable op de pagina selfservice, of als u de service bookable alleen wilt maken op het tabblad agenda van de Bookings-web-app.
+15. **Publicatieopties** Kies of deze service moet worden weergegeven als boekbaar op de pagina Self-Service of dat de service alleen kan worden geboekt op het tabblad Agenda in de Bookings Web-app.
 
-16. **Planningsbeleid** Met deze instelling wordt bepaald hoe tijden van afspraken worden weergegeven en met welke periode de afspraken kunnen worden gemaakt of geannuleerd.
+16. **Planningsbeleid** Deze instelling bepaalt hoe afspraaktijden worden bekeken en de periode waarin boekingen kunnen worden gemaakt of geannuleerd.
 
-17. **E-mail meldingen** Sets voor het verzenden van e-mailberichten naar organisatie medewerkers en voor klanten of klanten.
+17. **E-mailmeldingen** Hiermee stelt u in wanneer e-mailberichten worden verzonden naar medewerkers van de organisatie en naar klanten of klanten.
 
-18. **Medewerkers** Als u dit selectievakje inschakelt, kunnen klanten of klanten een specifiek personeelslid voor hun afspraak kiezen.
+18. **Personeel** Als u dit selectievakje incheckt, kunnen klanten of klanten een specifiek personeelslid kiezen voor hun afspraak.
 
-    - Enabled
+    - Ingeschakeld:
 
-        Klanten kunnen kiezen uit alle medewerkers die zijn toegewezen aan de afspraak wanneer ze worden gereserveerd op de pagina selfservice. Als u de optie voor **iedereen** selecteert, kiest u in willekeurige volgorde een beschikbare personeels lid om de afspraak toe te wijzen.
+        Klanten kunnen kiezen uit alle personeelsleden die aan de afspraak zijn toegewezen bij het boeken op de Self-Service pagina. Als u de optie **Iedereen selecteert,** kiest Bookings willekeurig een beschikbaar personeelslid om aan de afspraak toe te wijzen.
 
-    - Uitgeschakeld
+    - Uitgeschakeld:
 
-        Klanten die via de selfservice pagina worden herboeken, kunnen een service en een tijd en datum selecteren. De beschikbare medewerkers worden op willekeurige wijze geboekt. Houd er rekening mee dat bepaalde medewerkers nog steeds kunnen worden geselecteerd wanneer ze worden geboekt via het tabblad Agenda in de web-app bookings.
+        Klanten die via de pagina Self-Service kunnen een service en een tijd en datum selecteren. Het beschikbare personeel wordt willekeurig geboekt. Houd er rekening mee dat specifieke personeelsleden nog steeds kunnen worden geselecteerd wanneer ze zijn geboekt via het tabblad Agenda in de Bookings Web-app.
 
-19. **Beschikbaarheid** Met de volgende opties kunt u bepalen wanneer u de service kunt maken:
+19. **Beschikbaarheid** De volgende opties bepalen wanneer de service kan worden geboekt:
 
-    - **Bookable wanneer personeel gratis zijn** Met de service wordt de beschikbaarheid bijgehouden op basis van het moment dat de medewerkers binnen kantooruren gratis zijn, zonder enige tijdsbeperkingen.
+    - **Boekbaar wanneer het personeel vrij is** De service behoudt de beschikbaarheid op basis van het tijdstip waarop het personeel binnen werkdagen vrij is, zonder extra tijdsbeperkingen.
 
-    - **Aangepaste uren (periodiek wekelijks)** De service heeft een extra beschikbaarheid die verder kan worden beperkt (naast de beperking van kantooruren of met personeels uren). Gebruik deze optie wanneer u de service alleen op een bepaald moment kunt op een bepaald moment aangeleverd of uitvoeren.
+    - **Aangepaste uren (wekelijks terugkerende uren)** De service heeft een extra laag beschikbaarheid die verder kan worden beperkt (naast het beperken van de werkuren of de personeelsuren). Gebruik deze optie wanneer uw service alleen op een bepaald moment kan worden geleverd of uitgevoerd.
 
-    - **Verschillende beschikbaarheid voor een datumbereik instellen** Met deze instelling wordt de beschikbaarheid beïnvloed op een bepaald moment, in plaats van periodieke basis. Dit kan bijvoorbeeld worden gebruikt wanneer een computer die nodig is voor de service tijdelijk wordt afgehandeld en niet beschikbaar is, of als een organisatie voor de feestdagen wordt afgesloten.
+    - **Verschillende beschikbaarheid voor een datumbereik instellen** Deze instelling is van invloed op de beschikbaarheid op een bepaald tijdstip, in plaats van op een terugkerende basis. Dit kan bijvoorbeeld worden gebruikt wanneer een machine die nodig is voor de service tijdelijk wordt gebruikt en niet beschikbaar is, of wanneer een organisatie is gesloten voor een feestdag.
 
-20. **Personeel toewijzen** Selecteer de medewerkers (mits u medewerkers hebt toegevoegd aan het tabblad medewerkers) die bookable voor die specifieke service. Als u het selectievakje inschakelt, worden alle medewerkers die aan de service zijn toegewezen, als resultaat gegeven.
+20. **Personeel toewijzen** Selecteer het personeel (mits u personeelsleden hebt toegevoegd aan het tabblad Personeel) die voor die specifieke service kunnen worden geboekt. Als u geen individueel personeel selecteert, worden alle personeelsleden toegewezen aan de service.

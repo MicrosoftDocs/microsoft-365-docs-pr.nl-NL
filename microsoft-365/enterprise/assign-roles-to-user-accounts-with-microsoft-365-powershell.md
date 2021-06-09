@@ -1,5 +1,5 @@
 ---
-title: Rollen toewijzen aan Microsoft 365-gebruikersaccounts met PowerShell
+title: Rollen toewijzen aan Microsoft 365 gebruikersaccounts met PowerShell
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -19,7 +19,7 @@ ms.custom:
 - Ent_Office_Other
 - seo-marvel-apr2020
 ms.assetid: ede7598c-b5d5-4e3e-a488-195f02f26d93
-description: In dit artikel leert u hoe u Snel en eenvoudig PowerShell voor Microsoft 365 kunt gebruiken om beheerdersrollen toe te wijzen aan gebruikersaccounts.
+description: In dit artikel leert u hoe u Snel en eenvoudig PowerShell kunt gebruiken Microsoft 365 beheerdersrollen toe te wijzen aan gebruikersaccounts.
 ms.openlocfilehash: 84e785052c970ca15487540c3904eacdd0e9ca28
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -27,28 +27,28 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50905378"
 ---
-# <a name="assign-admin-roles-to-microsoft-365-user-accounts-with-powershell"></a>Beheerdersrollen toewijzen aan Gebruikersaccounts van Microsoft 365 met PowerShell
+# <a name="assign-admin-roles-to-microsoft-365-user-accounts-with-powershell"></a>Beheerdersrollen toewijzen aan Microsoft 365 gebruikersaccounts met PowerShell
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
 U kunt eenvoudig rollen toewijzen aan gebruikersaccounts met PowerShell voor Microsoft 365.
 
 >[!Note]
->Meer informatie over  [het toewijzen van beheerdersrollen](../admin/add-users/assign-admin-roles.md) aan gebruikersaccounts met het Microsoft 365-beheercentrum.
+>Meer informatie over [het toewijzen van beheerdersrollen](../admin/add-users/assign-admin-roles.md) aan gebruikersaccounts met het Microsoft 365 beheercentrum.
 >
 >Zie Gebruikers en groepen beheren voor een lijst met [aanvullende bronnen.](../admin/add-users/index.yml)
 >
 
-## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>De Azure Active Directory PowerShell voor Graph-module gebruiken
+## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>De powershell Azure Active Directory powershell gebruiken voor Graph module
 
-Gebruik eerst een globale beheerdersaccount om verbinding [te maken met uw Microsoft 365-tenant.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
+Gebruik eerst een globale beheerdersaccount om verbinding [te maken met uw Microsoft 365 tenant.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
   
 Identificeer vervolgens de aanmeldingsnaam van het gebruikersaccount dat u wilt toevoegen aan een rol (bijvoorbeeld: fredsm \@ contoso.com). Dit wordt ook wel de naam van de gebruikershoofdnaam (UPN) genoemd.
 
-Bepaal vervolgens de naam van de rol. Zie [beheerdersrolmachtigingen in Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles).
+Bepaal vervolgens de naam van de rol. Zie [beheerdersrolmachtigingen in Azure Active Directory.](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)
 
 >[!Note]
->Let op de notities in dit artikel. Sommige rollennamen zijn anders voor Azure Active Directory (Azure AD) PowerShell. De *SharePoint-beheerderrol* in het Microsoft 365-beheercentrum is bijvoorbeeld *SharePoint Service Administrator* in Azure AD PowerShell.
+>Let op de notities in dit artikel. Sommige rollennamen zijn anders voor Azure Active Directory (Azure AD) PowerShell. De rol van *SharePoint beheerder* in het Microsoft 365 beheercentrum is bijvoorbeeld SharePoint *servicebeheerder* in Azure AD PowerShell.
 >
 
 Vul vervolgens de aanmeldings- en rolnamen in en voer de volgende opdrachten uit:
@@ -65,7 +65,7 @@ $role = Get-AzureADDirectoryRole | Where {$_.displayName -eq $roleName}
 Add-AzureADDirectoryRoleMember -ObjectId $role.ObjectId -RefObjectId (Get-AzureADUser | Where {$_.UserPrincipalName -eq $userName}).ObjectID
 ```
 
-Hier is een voorbeeld van een voltooide opdrachtset die de rol van SharePoint-servicebeheerder toewijst aan het *\@ belindan-contoso.com* account:
+Hier is een voorbeeld van een voltooide opdrachtset die de rol SharePoint servicebeheerder toewijst aan het *belindan \@ contoso.com* account:
   
 ```powershell
 $userName="belindan@contoso.com"
@@ -86,9 +86,9 @@ $roleName="<role name>"
 Get-AzureADDirectoryRole | Where { $_.DisplayName -eq $roleName } | Get-AzureADDirectoryRoleMember | Ft DisplayName
 ```
 
-## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>De Microsoft Azure Active Directory-module voor Windows PowerShell gebruiken
+## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Gebruik de Microsoft Azure Active Directory module voor Windows PowerShell
 
-Gebruik eerst een globale beheerdersaccount om verbinding [te maken met uw Microsoft 365-tenant.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
+Gebruik eerst een globale beheerdersaccount om verbinding [te maken met uw Microsoft 365 tenant.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
   
 ### <a name="for-a-single-role-change"></a>Voor één rolwijziging
 
@@ -134,7 +134,7 @@ $roleName="<The admin role name you want to assign to the account>"
 Add-MsolRoleMember -RoleMemberEmailAddress (Get-MsolUser -All | Where DisplayName -eq $dispName).UserPrincipalName -RoleName $roleName
 ```
 
-Plak de opdrachten in Kladblok. Voor de *$dispName* en *$roleName* variabelen vervangt u de beschrijvingstekst door de waarden. Verwijder de \< and > tekens, maar bewaar de aanhalingstekens. Plak de gewijzigde lijnen in het Venster Microsoft Azure Active Directory Module voor Windows PowerShell om ze uit te voeren. U kunt ook de geïntegreerde Windows PowerShell-scriptomgeving (ISE) gebruiken.
+Plak de opdrachten in Kladblok. Voor de *$dispName* en *$roleName* variabelen vervangt u de beschrijvingstekst door de waarden. Verwijder de \< and > tekens, maar bewaar de aanhalingstekens. Plak de gewijzigde lijnen in de Microsoft Azure Active Directory module om Windows PowerShell uit te voeren. U kunt ook de ise (Integrated Script Environment Windows PowerShell (Integrated Script Environment) gebruiken.
   
 Hier is een voorbeeld van een voltooide opdrachtset:
   
@@ -156,7 +156,7 @@ Als u gewend bent om te werken met de aanmeldingsnamen of UPN's van gebruikersac
   Get-MsolUser -All | Sort UserPrincipalName | Select UserPrincipalName | More
   ```
 
-    Deze opdracht bevat de UPN van uw gebruikersaccounts, gesorteerd op UPN, één scherm tegelijk. U kunt de cmdlet **Where** gebruiken om de lijst te filteren. Hier is een voorbeeld:
+    Deze opdracht bevat de UPN van uw gebruikersaccounts, gesorteerd op UPN, één scherm tegelijk. U kunt de cmdlet **Where** gebruiken om de lijst te filteren. Hier volgt een voorbeeld:
     
   ```powershell
   Get-MsolUser -All | Where DisplayName -like "John*" | Sort UserPrincipalName | Select UserPrincipalName | More
@@ -180,7 +180,7 @@ $roleName="<The role name you want to assign to the account>"
 Add-MsolRoleMember -RoleMemberEmailAddress $upnName -RoleName $roleName
 ```
 
-Kopieer de opdrachten en plak ze in Kladblok. Voor de **$upnName** en **$roleName** variabelen. Vervang de beschrijvingstekst door de waarden. Verwijder de \< and > tekens, maar bewaar de aanhalingstekens. Plak de gewijzigde lijnen in microsoft Azure Active Directory-module voor Windows PowerShell-venster om ze uit te voeren. U kunt ook de Windows PowerShell ISE gebruiken.
+Kopieer de opdrachten en plak ze in Kladblok. Voor de **$upnName** en **$roleName** variabelen. Vervang de beschrijvingstekst door de waarden. Verwijder de \< and > tekens, maar bewaar de aanhalingstekens. Plak de gewijzigde lijnen in Microsoft Azure Active Directory module om Windows PowerShell uit te voeren. U kunt ook de ise Windows PowerShell gebruiken.
   
 Hier is een voorbeeld van een voltooide opdrachtset:
   

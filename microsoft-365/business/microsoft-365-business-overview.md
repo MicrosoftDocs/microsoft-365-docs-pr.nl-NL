@@ -42,7 +42,7 @@ ms.locfileid: "52705517"
 
 Microsoft 365 Business Premium (voorheen Microsoft 365 Business) is een uitgebreide abonnementsservice voor bedrijven met minder dan 300 werknemers. Het integreert uw favoriete Office-productiviteitsapps en -services en hulpmiddelen voor samenwerking zoals Microsoft Teams, met geavanceerde beveiligings- en apparaatbeheerfuncties.
 
-## <a name="watch-what-is-microsoft-365-business-premium"></a>Kijken: Wat is Microsoft 365 Business Premium
+## <a name="watch-what-is-microsoft-365-business-premium"></a>Bekijken: Wat is Microsoft 365 Business Premium?
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   
@@ -111,6 +111,6 @@ Zie [beveiligingsfuncties van Microsoft 365 Business Premium](security-features.
 
 - Als u geen partner hebt en Microsoft 365 Business Premium wilt aanschaffen, kunt u deze [hier kopen](https://www.microsoft.com/microsoft-365/business) en volg de [aanmeldingsinstructies](sign-up.md).
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Microsoft 365 Business Premium trainingsvideo's](../business-video/index.yml) (koppelingspagina)

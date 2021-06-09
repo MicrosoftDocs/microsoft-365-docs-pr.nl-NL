@@ -391,7 +391,7 @@ In Azure PowerShell:
 
 Nadat u de stappen in dit artikel hebt voltooid, kunt u dep's maken en toewijzen. Zie Klantsleutel beheren [voor instructies.](customer-key-manage.md)
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-articles"></a>Aanverwante artikelen
 
 - [Serviceversleuteling met klantsleutel](customer-key-overview.md)
 

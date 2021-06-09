@@ -26,17 +26,17 @@ ms.locfileid: "50905642"
 ---
 # <a name="activate-rights-management-in-the-admin-center"></a>Rechtenbeheer activeren in het beheercentrum
 
-U moet de Rights Management-service (RMS) activeren voordat u de IRM-functies (Information Rights Management) van Microsoft 365-toepassingen en -services kunt gebruiken. Nadat u RMS hebt geactiveerd, kan uw organisatie beginnen met het beveiligen van belangrijke documenten en e-mailberichten met Behulp van Azure RMS. Deze oplossing voor informatiebeveiliging kan alle bestandstypen beveiligen en integreren met clienttoepassingen zoals Excel, Microsoft Word en andere, Exchange Online en SharePoint Online, en servers zoals Microsoft Exchange en Microsoft SharePoint.
+U moet de Rights Management-service (RMS) activeren voordat u de IRM-functies (Information Rights Management) van Microsoft 365 toepassingen en services kunt gebruiken. Nadat u RMS hebt geactiveerd, kan uw organisatie beginnen met het beveiligen van belangrijke documenten en e-mailberichten met Behulp van Azure RMS. Deze oplossing voor informatiebeveiliging kan alle bestandstypen beveiligen en integreren met clienttoepassingen zoals Excel, Microsoft Word en andere, Exchange Online en SharePoint Online, en servers zoals Microsoft Exchange en Microsoft SharePoint.
   
 > [!TIP]
 > Als u niet zeker weet of u Rights Management nodig hebt, controleert u of uw organisatie een of meer van deze zakelijke problemen of [vereisten heeft.](/azure/information-protection/what-is-azure-rms#business-problems-solved-by-azure-rights-management) 
   
 Gebruik deze koppelingen voor meer informatie over RMS:
   
-- Zie Wat is Azure [Rights Management](/rights-management/understand-explore/what-is-azure-rms)voor meer informatie over RMS.
+- Zie Wat is Azure Rights Management voor [meer informatie over](/rights-management/understand-explore/what-is-azure-rms)RMS.
 
-- Zie Overzicht van Azure Rights Management als rms nieuw voor [u is.](/rights-management/understand-explore/azure-rights-management)
+- Zie Overzicht van Azure Rights Management als rms nieuw [Azure Rights Management.](/rights-management/understand-explore/azure-rights-management)
 
-- Zie de routekaart voor implementatie van Azure Rights Management voor een overzicht van de [implementatiestappen.](/rights-management/plan-design/deployment-roadmap)
+- Zie de routekaart voor de implementatie van Azure Rights Management voor een overzicht van [de implementatiestappen.](/rights-management/plan-design/deployment-roadmap)
 
-- Zie De beveiligingsservice activeren vanuit Azure Information [Protection](/azure/information-protection/activate-service)voor instructies over het activeren van RMS voor Microsoft 365.
+- Zie De beveiligingsservice activeren vanuit Azure Information Protection Microsoft 365 instructies over het activeren van RMS voor [Microsoft 365.](/azure/information-protection/activate-service)

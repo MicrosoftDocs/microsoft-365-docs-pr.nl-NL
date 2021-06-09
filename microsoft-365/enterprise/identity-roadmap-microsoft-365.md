@@ -25,23 +25,23 @@ ms.locfileid: "51051304"
 ---
 # <a name="identity-roadmap-for-microsoft-365"></a>Identiteits-roadmap voor Microsoft 365 herkennen
 
-In Microsoft 365 voor bedrijven maakt een goed geplande en uitgevoerde identiteitsinfrastructuur de weg vrij voor een betere beveiliging, waaronder het beperken van de toegang tot uw productiviteitsbelasting en hun gegevens tot alleen geverifieerde gebruikers en apparaten.
+In Microsoft 365 voor ondernemingen maakt een goed geplande en uitgevoerde identiteitsinfrastructuur de weg vrij voor een betere beveiliging, waaronder het beperken van de toegang tot uw productiviteitsbelasting en hun gegevens tot alleen geverifieerde gebruikers en apparaten.
 
-Bekijk deze video voor een overzicht van identiteitsmodellen en verificatie voor Microsoft 365 voor bedrijven.
+Bekijk deze video voor een overzicht van identiteitsmodellen en verificatie Microsoft 365 voor bedrijven.
 
 <p> </p>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Pjwu]
 
-Zie de poster Identiteitsinfrastructuur voor informatie over de identiteitsfuncties van elk Microsoft 365 voor ondernemingsplan, de rol van Azure [](../downloads/m365e-identity-infra.pdf)Active Directory, zowel de on-premises als cloudonderdelen en de meest voorkomende verificatieconfiguraties.
+Zie de poster Identiteitsinfrastructuur voor informatie over de identiteitsfuncties van elke Microsoft 365 voor ondernemingsplan, de rol van Azure Active Directory, zowel [](../downloads/m365e-identity-infra.pdf)de on-premises als cloudgebaseerde onderdelen en de meest voorkomende verificatieconfiguraties.
 
 [![De poster Identiteitsinfrastructuur](../downloads/m365e-identity-infra.png)](../downloads/m365e-identity-infra.pdf)
 
-Bekijk deze poster met twee pagina's om snel meer informatie te krijgen over identiteitsconcepten en -configuraties voor Microsoft 365 voor bedrijven.
+Bekijk deze poster met twee pagina's om snel meer te weten te komen over identiteitsconcepten en -configuraties voor Microsoft 365 voor bedrijven.
 
 U kunt deze [poster ook downloaden](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/m365e-identity-infra.pdf) en deze afdrukken in de notatie letter, legal of tabloid (11 x 17).
 
-## <a name="plan"></a>Plan
+## <a name="plan"></a>Abonnement
 
 Plannen voor de implementatie van uw identiteit:
 
@@ -67,7 +67,7 @@ Microsoft biedt een reeks aanbevelingen voor identiteits- en apparaattoegang om 
 
 ## <a name="manage"></a>Beheren
 
-Zie de volgende informatie om uw Microsoft 365-identiteitsimplementatie te beheren:
+Zie de volgende Microsoft 365 voor het beheren van uw identiteitsimplementatie:
 
 - [Gebruikersaccounts](manage-microsoft-365-accounts.md)
 - [Licenties](assign-licenses-to-user-accounts.md)
@@ -76,7 +76,7 @@ Zie de volgende informatie om uw Microsoft 365-identiteitsimplementatie te beher
 - [Beheermodel](manage-microsoft-365-identity-governance.md)
 - [Adreslijstsynchronisatie](view-directory-synchronization-status.md)
 
-## <a name="how-microsoft-does-identity-for-microsoft-365"></a>Hoe Microsoft identiteit voor Microsoft 365 doet
+## <a name="how-microsoft-does-identity-for-microsoft-365"></a>Hoe Microsoft identiteit doet voor Microsoft 365
 
 Lees hoe IT-experts bij Microsoft [identiteiten en beveiligde toegang beheren](https://www.microsoft.com/en-us/itshowcase/managing-user-identities-and-secure-access-at-microsoft).
 
@@ -86,7 +86,7 @@ Lees hoe IT-experts bij Microsoft [identiteiten en beveiligde toegang beheren](h
 
 ## <a name="how-contoso-did-identity-for-microsoft-365"></a>Hoe Contoso identiteit heeft gedaan voor Microsoft 365
 
-Zie Identiteit voor [contoso Corporation](contoso-identity.md)voor een voorbeeld van hoe een fictieve, maar representatieve multinationale organisatie een hybride identiteitsinfrastructuur voor Microsoft 365-cloudservices heeft geïmplementeerd.
+Zie Identiteit voor [contoso Corporation](contoso-identity.md)voor een voorbeeld van hoe een fictieve, maar representatieve multinationale organisatie een hybride identiteitsinfrastructuur heeft geïmplementeerd voor Microsoft 365 cloudservices.
 
 ## <a name="next-step"></a>Volgende stap
 

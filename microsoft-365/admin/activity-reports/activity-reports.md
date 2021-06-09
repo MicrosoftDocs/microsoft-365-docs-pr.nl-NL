@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: Beschik over een periodiek rapport over de manier waarop personen in uw organisatie Microsoft 365-services gebruiken en elk diagram onderzoeken voor meer inzicht.
-ms.openlocfilehash: 917a44f4b6f7458c50ac193b95c7751c66c9e7cd
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 66cb3436fe6903c429e3c1950eee040b21c6dc9d
+ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52530968"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52808997"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>Microsoft 365-overzichten in het beheercentrum
 
@@ -33,7 +33,7 @@ U kunt gemakkelijk zien hoe mensen in uw bedrijf Microsoft 365-services gebruike
   
 Er zijn overzichten beschikbaar voor de afgelopen 7 dagen, 30 dagen, 90 dagen en 180 dagen. Er zijn niet direct gegevens voor alle rapportageperioden beschikbaar. De rapporten komen beschikbaar na 48 uur.
   
-Bekijk deze video voor meer informatie over hoe u de rapporten kunt gebruiken:
+## <a name="watch-act-on-a-usage-report-in-office-365"></a>Bekijk: Een gebruiksrapport in Office 365 opvolgen
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/fb726f8e-aead-43b2-ba0f-53ba5b886bf7?autoplay=false]
   
@@ -88,52 +88,30 @@ Afhankelijk van uw abonnement zijn de volgende rapporten beschikbaar.
 - [Microsoft browsergebruik](browser-usage-report.md) 
   
 - [E-mailactiviteit](email-activity-ww.md)
-
-- [E-mailactiviteit voor de Amerikaanse overheid](email-activity.md)
     
 - [Postvakgebruik](mailbox-usage.md)
     
 - [Office-activeringen](microsoft-office-activations-ww.md)
 
-- [Office-activeringen voor de Amerikaanse overheid](microsoft-office-activations.md)
-
 - [Actieve gebruikers](active-users-ww.md)
-
-- [Actieve gebruikers voor de Amerikaanse overheid](active-users.md)
   
 - [Gebruik van e-mail-apps](email-apps-usage-ww.md)
 
-- [Gebruik van e-mailapps voor de Amerikaanse overheid](email-apps-usage.md)
-
 - [Formulieractiviteit](forms-activity-ww.md)
 
-- [Formulieractiviteit voor de Amerikaanse overheid](forms-activity.md)
-
 - [Dynamics 365 Customer Voice-activiteit](forms-pro-activity-ww.md)
-  
-- [Dynamics 365 Customer Voice-activiteit voor de Amerikaanse overheid](forms-pro-activity.md)
 
-- [Microsoft 365 Groepen](office-365-groups-ww.md)
-
-- [Microsoft 365 Groepen voor de Amerikaanse overheid](office-365-groups.md)
+- [Microsoft 365-groepen](office-365-groups-ww.md)
   
 - [Gebruikersactiviteit in OneDrive voor Bedrijven](onedrive-for-business-activity-ww.md)
 
-- [Gebruikersactiviteit in OneDrive voor Bedrijven voor de Amerikaanse overheid](onedrive-for-business-activity.md)
-
 - [Gebruik van OneDrive voor Bedrijven](onedrive-for-business-usage-ww.md)
-
-- [Gebruik van OneDrive voor Bedrijven voor de Amerikaanse overheid](onedrive-for-business-usage.md)
 
 - [Gebruik van Microsoft 365-apps](microsoft365-apps-usage-ww.md)
   
 - [SharePoint-sitegebruik](sharepoint-site-usage-ww.md)
-
-- [SharePoint-site gebruik voor de Amerikaanse overheid](sharepoint-site-usage.md)
   
 - [SharePoint-activiteit](sharepoint-activity-ww.md)
-
-- [SharePoint-activiteit voor de Amerikaanse overheid](sharepoint-activity.md)
   
 - [Skype voor Bedrijven Online-activiteit](/SkypeForBusiness/skype-for-business-online-reporting/activity-report)
   
@@ -145,23 +123,13 @@ Afhankelijk van uw abonnement zijn de volgende rapporten beschikbaar.
 
 - [Yammer-activiteit](yammer-activity-report-ww.md)
 
-- [Yammer-activiteit voor de Amerikaanse overheid](yammer-activity-report.md)
-
 - [Yammer-apparaatgebruik](yammer-device-usage-report-ww.md)
 
-- [Yammer-apparaatgebruik voor de Amerikaanse overheid](yammer-device-usage-report.md)
-
-- [Rapport met Yammer-groepsactiviteit](yammer-groups-activity-report-ww.md)
-
-- [Rapport met Yammer-groepsactiviteit voor de Amerikaanse overheid](yammer-groups-activity-report.md)
+- [Yammer groups activity report](yammer-groups-activity-report-ww.md) (Rapport met Yammer-groepsactiviteit)
 
 - [Gebruikersactiviteit in Microsoft Teams](microsoft-teams-user-activity-preview.md)
 
-- [Gebruikersactiviteit in Microsoft Teams voor de Amerikaanse overheid](microsoft-teams-user-activity.md)
-
 - [Apparaatgebruik in Microsoft Teams](microsoft-teams-device-usage-preview.md)
-
-- [Apparaatgebruik in Microsoft Teams voor de Amerikaanse overheid](microsoft-teams-device-usage.md)
 
 ## <a name="how-to-view-licensing-information"></a>Het weergeven van licentie-informatie
 
@@ -201,8 +169,6 @@ Als u echter een bepaalde dag selecteert (bijvoorbeeld nummer 3), wordt in het r
   
 ## <a name="related-content"></a>Verwante inhoud
 
-[Rapporten in het Beveiligings- &amp; compliancecentrum](../../compliance/reports-in-security-and-compliance.md) (artikel)
-
-[Microsoft 365-gebruiksanalyse inschakelen](../usage-analytics/usage-analytics.md) (artikel)
-
+[Rapporten in het Beveiligings- &amp; compliancecentrum](../../compliance/reports-in-security-and-compliance.md) (artikel)\
+[Microsoft 365-gebruiksanalyse](../usage-analytics/usage-analytics.md) (artikel)\
 [Rapporten in Microsoft 365-gebruiksanalyse naar voorkeur aanpassen](../usage-analytics/customize-reports.md) (artikel)

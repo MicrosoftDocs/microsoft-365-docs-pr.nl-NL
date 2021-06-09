@@ -97,7 +97,7 @@ Zie de geavanceerde zoekverwijzing voor meer informatie over andere tabellen in 
 
  
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-articles"></a>Aanverwante artikelen
 
 -   [AADSpnSignInEventsBeta](./advanced-hunting-aadspnsignineventsbeta-table.md)
 -   [Overzicht van geavanceerd opsporen](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview)

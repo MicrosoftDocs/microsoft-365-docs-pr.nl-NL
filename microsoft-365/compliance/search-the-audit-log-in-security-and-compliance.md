@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: 'Ga naar het Microsoft 365-compliancecentrum om het geïntegreerde auditlogboek te zoeken zodat u activiteiten van gebruikers en beheerders kunt bekijken in uw organisatie. '
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dfda69e5695d2097de5bfae48b580e23799edf87
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 8817ed09673ec23d0a41d680942276bcb1fe297d
+ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52536044"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52809141"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>Zoek in het auditlogboek in het compliancecentrum
 
@@ -761,7 +761,7 @@ De volgende tabel bevat activiteiten van rolbeheer in Azure Active Directory die
 |:-----|:-----|:-----|
 |Lid aan rol toevoegen|Lid aan rol toevoegen.|Er is een gebruiker toegevoegd aan een beheerrol in Microsoft 365. |
 |Gebruiker uit directoryrol verwijderd |Lid uit rol verwijderen.|Er is een gebruiker verwijderd uit de beheerrol in Microsoft 365.|
-|Contactgegevens van bedrijf ingesteld|Contactgegevens van bedrijf ingesteld.|De contactvoorkeuren op bedrijfsniveau zijn bijgewerkt voor uw organisatie. Dit omvat e-mailadressen voor abonnementsgerelateerde e-mailberichten verzonden door Microsoft 365 en technische meldingen over services.|
+|Contactgegevens van bedrijf ingesteld|Contactgegevens van bedrijf ingesteld.|De contactvoorkeuren op bedrijfsniveau zijn bijgewerkt voor uw organisatie, waaronder e-mailadressen voor abonnements-e-mail die door Microsoft 365 wordt verzonden en technische meldingen over services.|
 ||||
 
 ### <a name="directory-administration-activities"></a>Activiteiten in verband met adreslijstbeheer

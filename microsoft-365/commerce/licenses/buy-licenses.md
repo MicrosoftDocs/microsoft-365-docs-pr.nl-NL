@@ -71,7 +71,7 @@ Als u licenties uit een abonnement hebt verwijderd, moet u gebruikers uit [uw or
 2. Zoek op **het** tabblad Producten het abonnement waarvoor u licenties wilt kopen of verwijderen. Selecteer de drie puntjes (meer acties) en selecteer **Vervolgens Licenties kopen.** [Wat gebeurt er als ik de knoppen Licenties kopen of Licenties verwijderen niet zie?](#what-if-i-dont-see-the-buy-licenses-or-remove-licenses-buttons)
 3. Als u het aantal licenties wilt verminderen, selecteert u boven aan het deelvenster Licenties kopen de optie **Licenties verwijderen.** 
 4. Als u licenties wilt kopen of  verwijderen, voert u onder Nieuw aantal **in** het vak Totaal aantal licenties het totale aantal licenties in dat u voor dit abonnement wilt gebruiken. Als u bijvoorbeeld 100 licenties hebt en u er nog vijf wilt toevoegen, voert u 105 in. Als u er vijf wilt verwijderen, voert u 95 in.
-5. Kies **Opslaan**.
+5. Klik op **Opslaan**.
 
 > [!NOTE]
 > U kunt het aantal licenties voor uw abonnement niet verminderen als alle licenties momenteel aan gebruikers zijn toegewezen. Als u het aantal licenties wilt verminderen, verwijdert u eerst een of meer licenties van gebruikers [en](../../admin/manage/remove-licenses-from-users.md)verwijdert u vervolgens de licenties uit het abonnement.
@@ -104,7 +104,7 @@ Als u meer licenties voor uw abonnement hebt gekocht, moet u deze licenties verv
 
 Als u het aantal licenties voor uw abonnement hebt verminderd omdat iemand uw organisatie heeft verlaten, wilt u mogelijk het account van die gebruiker verwijderen. Zie Een voormalige werknemer [verwijderen voor meer informatie.](../../admin/add-users/remove-former-employee.md)
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Licenties toewijzen aan gebruikers](../../admin/manage/assign-licenses-to-users.md) (artikel)\
 [Informatie over abonnementen en licenties](subscriptions-and-licenses.md) (artikel)\

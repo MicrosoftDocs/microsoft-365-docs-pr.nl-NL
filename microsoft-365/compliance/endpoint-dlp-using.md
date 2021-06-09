@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Informatie over het configureren van beleid voor preventie van gegevensverlies (DLP) om locaties voor Microsoft 365 Eindpunt-DLP (EPDLP) te gebruiken.
-ms.openlocfilehash: cbd95ed3ee70b69b395f73c83852a9f37a269f0b
-ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
+ms.openlocfilehash: 1a0297271c3e0e8fb94a476982f146aa8c221e7a
+ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52259485"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52809129"
 ---
 # <a name="using-endpoint-data-loss-prevention"></a>Preventie van gegevensverlies van eindpunten gebruiken
 
@@ -70,6 +70,9 @@ Wanneer de beleidsinstelling **Toegang door niet-toegestane apps en browsers** i
 > [!IMPORTANT]
 > Neem het pad naar het uitvoerbare bestand niet op, maar alleen de uitvoerbare naam (zoals browser.exe).
 
+### <a name="unallowed-bluetooth-apps"></a>Niet-toegestane Bluetooth-apps
+
+Voorkom dat personen bestanden die zijn beveiligd op basis van uw beleid, overbrengen via specifieke Bluetooth-apps.
 
 ### <a name="browser-and-domain-restrictions"></a>Browser- en domeinbeperkingen
 Beperken dat vertrouwelijke bestanden die overeenkomen met uw beleid, worden gedeeld met beperkte cloudservicedomeinen.
@@ -97,6 +100,11 @@ U kunt bepalen hoe gebruikers werken met de optie voor zakelijke rechtvaardiging
 - Gebruikers kunnen alleen een ingebouwde reden selecteren.
 - Gebruikers kunnen alleen hun eigen reden invoeren.
 
+### <a name="always-audit-file-activity-for-devices"></a>Bestandsactiviteiten voor apparaten altijd controleren
+
+Wanneer apparaten zijn geregistreerd, worden activiteiten voor Office-, PDF- en CSV-bestanden standaard automatisch gecontroleerd en beschikbaar voor beoordeling in Activiteitenverkenner. Schakel deze functie uit als u wilt dat deze activiteit alleen wordt gecontroleerd wanneer geregistreerde apparaten worden opgenomen in een actief beleid.
+
+Bestandsactiviteiten worden altijd gecontroleerd op geregistreerde apparaten, ongeacht of ze zijn opgenomen in een actief beleid.
 
 ## <a name="tying-dlp-settings-together"></a>DLP-instellingen samenhangen
 
@@ -154,7 +162,7 @@ Voor deze scenario's moeten apparaten a geïmplementeerd zijn en rapporteren in 
 
 11. Controleer Activiteitenverkenner op gegevens van de bewaakte eindpunten. Stel het locatiefilter in voor apparaten en voeg het beleid toe. Filter vervolgens op de naam van het beleid om de gevolgen van dit beleid te bekijken. ZIe [Aan de slag met activiteitenverkenner](data-classification-activity-explorer.md) voor meer informatie.
 
-12. Probeer een test te delen die inhoud bevat die de PII-voorwaarde (Persoonlijk identificeerbare informatie) zal activeren met iemand buiten uw organisatie. Dit zou het beleid moeten activeren.
+12. Probeer een test te delen die inhoud bevat die de Amerikaanse PII-gegevensvoorwaarde (Persoonlijk identificeerbare informatie) activeert met iemand buiten uw organisatie. Dit activeert het beleid.
 
 13. Controleer Activiteitenverkenner op de gebeurtenis.
 
@@ -179,7 +187,7 @@ Voor deze scenario's moeten apparaten a geïmplementeerd zijn en rapporteren in 
 
 8. Behoud alle vorige instellingen door **Volgende** te kiezen en vervolgens de beleidswijzigingen te **Verzenden**.
 
-9. Probeer een test te delen die inhoud bevat die de PII-voorwaarde (Persoonlijk identificeerbare informatie) zal activeren met iemand buiten uw organisatie. Dit zou het beleid moeten activeren.
+9. Probeer een test te delen die inhoud bevat die de Amerikaanse PII-gegevensvoorwaarde (Persoonlijk identificeerbare informatie) activeert met iemand buiten uw organisatie. Dit activeert het beleid.
 
 10. Controleer Activiteitenverkenner op de gebeurtenis.
 
@@ -204,7 +212,7 @@ Voor deze scenario's moeten apparaten a geïmplementeerd zijn en rapporteren in 
 
 8. Behoud alle vorige instellingen door **Volgende** te kiezen en vervolgens de beleidswijzigingen te **Verzenden**.
 
-9. Probeer een test te delen die inhoud bevat die de PII-voorwaarde (Persoonlijk identificeerbare informatie) zal activeren met iemand buiten uw organisatie. Dit zou het beleid moeten activeren.
+9. Probeer een test te delen die inhoud bevat die de Amerikaanse PII-gegevensvoorwaarde (Persoonlijk identificeerbare informatie) activeert met iemand buiten uw organisatie. Dit activeert het beleid.
 
    U ziet een pop-up zoals deze op het clientapparaat:
 
@@ -219,7 +227,7 @@ Voor deze scenario's moeten apparaten a geïmplementeerd zijn en rapporteren in 
 - [Aan de slag met Eindpunt-DLP (gegevensverlies voor eindpunten)](endpoint-dlp-getting-started.md)
 - [Meer informatie over preventie van gegevensverlies](dlp-learn-about-dlp.md)
 - [Een DLP-beleid maken, testen en afstemmen](create-test-tune-dlp-policy.md)
-- [Aan de slag met de activiteitenverkenner](data-classification-activity-explorer.md)
+- [Aan de slag met Activity Explorer](data-classification-activity-explorer.md)
 - [Microsoft Defender voor Eindpunt](/windows/security/threat-protection/)
 - [Hulpmiddelen en methoden onboarden voor Windows 10-apparaten](/microsoft-365/compliance/dlp-configure-endpoints)
 - [Microsoft 365-abonnement](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1)

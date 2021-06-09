@@ -27,7 +27,7 @@ ms.locfileid: "51163573"
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-secopsdashboard-abovefoldlink) 
@@ -63,7 +63,7 @@ De volgende tabel bevat de ondersteunde eindpunten en het bijbehorende implement
 | Eindpunt     | Implementatiehulpmiddel                       |
 |--------------|------------------------------------------|
 | **Windows**  |  [Lokaal script (maximaal 10 apparaten)](configure-endpoints-script.md) <br>  [Groepsbeleid](configure-endpoints-gp.md) <br>  [Microsoft Endpoint Manager/ Mobile Device Manager](configure-endpoints-mdm.md) <br>   [Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md) <br> [VDI-scripts](configure-endpoints-vdi.md)   |
-| **macOS**    | [Lokaal script](mac-install-manually.md) <br> [Microsoft Endpoint Manager](mac-install-with-intune.md) <br> [JAMF Pro](mac-install-with-jamf.md) <br> [Mobile Device Management](mac-install-with-other-mdm.md) |
+| **macOS**    | [Lokaal script](mac-install-manually.md) <br> [Microsoft Endpoint Manager](mac-install-with-intune.md) <br> [JAMF-Pro](mac-install-with-jamf.md) <br> [Mobile Device Management](mac-install-with-other-mdm.md) |
 | **Linux Server** | [Lokaal script](linux-install-manually.md) <br> [Poppop](linux-install-with-puppet.md) <br> [Ansible](linux-install-with-ansible.md)|
 | **iOS**      | [App-gebaseerde](ios-install.md)                                |
 | **Android**  | [Microsoft Endpoint Manager](android-intune.md)               | 
@@ -73,9 +73,9 @@ De volgende tabel bevat de ondersteunde eindpunten en het bijbehorende implement
 ## <a name="step-3-configure-capabilities"></a>Stap 3: Mogelijkheden configureren
 Nadat u eindpunten hebt onboarding, configureert u de beveiligingsmogelijkheden in Defender voor Eindpunt, zodat u de krachtige beveiliging kunt maximaliseren die beschikbaar is in de suite. De volgende mogelijkheden zijn:
 
-- Eindpuntdetectie en -antwoord
+- Detectie van en reactie op eindpunt
 - Beveiliging van de volgende generatie
-- Surface-beperking voor aanvallen
+- Kwetsbaarheid voor aanvallen verminderen
 
 
   

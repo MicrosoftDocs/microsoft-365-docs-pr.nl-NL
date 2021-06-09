@@ -136,7 +136,7 @@ U kunt het beheercentrum Microsoft 365 gebruiken om licenties opnieuw toe te sta
 
 Nadat al uw gebruikers aan uw nieuwe abonnement zijn toegewezen, annuleert u het Office 365 [E4-abonnement.](cancel-your-subscription.md)
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Upgraden naar een ander abonnement](upgrade-to-different-plan.md) (artikel)\
 [Abonnementslicenties kopen](../licenses/buy-licenses.md) of verwijderen (artikel)\

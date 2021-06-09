@@ -122,7 +122,7 @@ Microsoft 365 Business Premium heeft een opslaglimiet van 50 GB voor het gebruik
 
 Na de migratie naar Microsoft 365 Business Premium, hebt u Defender voor Office 365. Zie [Microsoft Defender voor Office 365](../security/office-365-security/defender-for-office-365.md) voor een overzicht. Zie Het instellen van [Safe Koppelingen](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa)instellen, Safe [Bijlagen](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)instellen en [Anti-phishing instellen in Defender](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c)voor Office 365.
 
-### <a name="sensitivity-labels"></a>Gevoeligheidslabels
+### <a name="sensitivity-labels"></a>Vertrouwelijkheidslabels
 
 Zie Overzicht van gevoeligheidslabels en het maken en beheren van [gevoeligheidslabels](../business-video/create-sensitivity-labels.md) video als u gevoeligheidslabels wilt gebruiken. [](../compliance/sensitivity-labels.md)
 

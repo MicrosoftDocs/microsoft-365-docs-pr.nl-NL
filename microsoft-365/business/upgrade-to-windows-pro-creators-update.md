@@ -39,7 +39,7 @@ ms.locfileid: "52705549"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3t58j] 
 
-Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../business-video/index.yml).
+Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../business-video/index.yml).
 
 ## <a name="upgrade-to-windows-10-pro"></a>Upgraden naar Windows 10 Pro
   
@@ -62,6 +62,6 @@ Als u het instellen van Windows 10 apparaten wilt voltooien, zie Windows apparat
   
 Zie Mobiele apparaten instellen voor gebruikers Microsoft 365 voor zakelijke gebruikers als u het instellen van Android- en [iOS-apparaten wilt voltooien.](set-up-mobile-devices.md) 
   
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Microsoft 365 voor zakelijke trainingsvideo's](../business-video/index.yml) (koppelingspagina)

@@ -1,5 +1,5 @@
 ---
-title: Skype voor Bedrijven Online-beleid per gebruiker toewijzen met PowerShell voor Microsoft 365
+title: Een onlinebeleid Skype voor Bedrijven per gebruiker toewijzen met PowerShell voor Microsoft 365
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -21,11 +21,11 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50905402"
 ---
-# <a name="assign-per-user-skype-for-business-online-policies-with-powershell-for-microsoft-365"></a>Skype voor Bedrijven Online-beleid per gebruiker toewijzen met PowerShell voor Microsoft 365
+# <a name="assign-per-user-skype-for-business-online-policies-with-powershell-for-microsoft-365"></a>Een onlinebeleid Skype voor Bedrijven per gebruiker toewijzen met PowerShell voor Microsoft 365
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-Het gebruik van PowerShell voor Microsoft 365 is een efficiënte manier om communicatie-instellingen per gebruiker toe te wijzen met Skype voor Bedrijven Online-beleid.
+PowerShell gebruiken voor Microsoft 365 is een efficiënte manier om communicatie-instellingen per gebruiker toe te wijzen met Skype voor Bedrijven Online-beleid.
   
 ## <a name="prepare-to-run-the-powershell-commands"></a>De PowerShell-opdrachten voorbereiden
 
@@ -43,11 +43,11 @@ Gebruik deze instructies om de opdrachten uit te voeren (sla de stappen over die
    Connect-MicrosoftTeams
    ```
 
-   Wanneer u daarom wordt gevraagd, voert u de naam en het wachtwoord van uw Skype voor Bedrijven Online-beheerdersaccount in.
+   Wanneer u hier om wordt gevraagd, voert u Skype voor Bedrijven naam en wachtwoord van uw onlinebeheerdersaccount in.
     
 ## <a name="updating-external-communication-settings-for-a-user-account"></a>Externe communicatie-instellingen voor een gebruikersaccount bijwerken
 
-Stel dat u instellingen voor externe communicatie in een gebruikersaccount wilt wijzigen. U wilt bijvoorbeeld toestaan dat Alex communiceert met federatieve gebruikers (EnableFederationAccess is gelijk aan Waar), maar niet met Windows Live-gebruikers (EnablePublicCloudAccess is gelijk aan False). Om dat te doen, moet u twee dingen doen:
+Stel dat u instellingen voor externe communicatie in een gebruikersaccount wilt wijzigen. U wilt bijvoorbeeld toestaan dat Alex communiceert met federatieve gebruikers (EnableFederationAccess is gelijk aan Waar), maar niet met Windows Live-gebruikers (EnablePublicCloudAccess is gelijk aan Onwaar). Om dat te doen, moet u twee dingen doen:
   
 1. Zoek een beleid voor externe toegang dat voldoet aan onze criteria.
     

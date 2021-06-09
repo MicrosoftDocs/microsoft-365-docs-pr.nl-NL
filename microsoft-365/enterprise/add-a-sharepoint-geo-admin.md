@@ -22,17 +22,17 @@ ms.locfileid: "50905598"
 ---
 # <a name="add-or-remove-a-geo-administrator-in-microsoft-365-multi-geo"></a>Een geobeheerder toevoegen of verwijderen in Microsoft 365 Multi-Geo
 
-U kunt afzonderlijke beheerders configureren voor elke geografische locatie die u in uw tenant hebt. Deze beheerders hebben toegang tot de instellingen van SharePoint Online en OneDrive die specifiek zijn voor hun geografische locatie.
+U kunt afzonderlijke beheerders configureren voor elke geografische locatie die u in uw tenant hebt. Deze beheerders hebben toegang tot de SharePoint Online en OneDrive instellingen die specifiek zijn voor hun geografische locatie.
 
 Sommige services, zoals het termstore, worden vanaf de centrale locatie beheerd en gerepliceerd naar satellietlocaties. De geobeheerder voor de centrale locatie heeft hier toegang toe, terwijl geobeheerders voor satellietlocaties dat niet doen.
 
-Globale beheerders en SharePoint Online-beheerders hebben nog steeds toegang tot instellingen op de centrale locatie en alle satellietlocaties.
+Globale beheerders en SharePoint onlinebeheerders hebben nog steeds toegang tot instellingen op de centrale locatie en alle satellietlocaties.
 
 ## <a name="configuring-geo-administrators"></a>Geobeheerders configureren
 
 Voor het configureren van geobeheerders is SharePoint Online PowerShell-module vereist.
 
-Gebruik [Connect-SPOService](/powershell/module/sharepoint-online/Connect-SPOService) om verbinding te maken met het beheercentrum van de geografische locatie waar u de geobeheerder wilt toevoegen. (Bijvoorbeeld Connect-SPOService  https://ContosoEUR-admin.sharepoint.com.)
+Gebruik [Verbinding maken-SPOService](/powershell/module/sharepoint-online/Connect-SPOService) om verbinding te maken met het beheercentrum van de geografische locatie waar u de geobeheerder wilt toevoegen. (Bijvoorbeeld Connect-SPOServicehttps://ContosoEUR-admin.sharepoint.com.)
 
 Als u de bestaande geobeheerders van een locatie wilt weergeven, voer dan `Get-SPOGeoAdministrator`
 

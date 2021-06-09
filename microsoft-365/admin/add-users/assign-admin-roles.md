@@ -46,7 +46,7 @@ Wanneer u nieuwe gebruikers toevoegt, als u ze geen beheerdersrol toewijst, zijn
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfO] 
 
-Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../../business-video/index.yml).
+Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../../business-video/index.yml).
 
 ## <a name="assign-admin-roles"></a>Beheerdersrollen toewijzen 
 
@@ -103,7 +103,7 @@ U kunt beheerdersrolmachtigingen op twee verschillende manieren controleren:
 - U kunt naar de details van de gebruiker gaan en kijken onder **Rollen** op de **pagina Account.**
 - U kunt ook naar **Rollen gaan en** de beheerdersrol selecteren en toegewezen beheerders selecteren om te zien welke gebruikers zijn toegewezen.
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Over Microsoft 365 beheerdersrollen](about-admin-roles.md) (artikel)\
 [Beheerdersrolmachtigingen in Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) (artikel)\
