@@ -39,7 +39,7 @@ In Microsoft 365 organisaties met postvakken in Exchange Online of zelfstandige 
 
 ****
 
-|Methode|Omschrijving|
+|Methode|Beschrijving|
 |---|---|
 |[Beheerdersinzending gebruiken om verdachte spam, phish, URL's en bestanden naar Microsoft te verzenden](admin-submission.md)|De aanbevolen rapportagemethode voor beheerders in organisaties met Exchange Online postvakken (niet beschikbaar in zelfstandige EOP).|
 |[Het rapportbericht of de phishing-invoegvoegingen rapporteren inschakelen](enable-the-report-message-add-in.md)|Werkt met Outlook en Outlook op het web (voorheen bekend als Outlook Web App). <p> Afhankelijk van uw abonnement zijn berichten die gebruikers met de invoegvoegingen hebben gerapporteerd, beschikbaar in de portal Admin [Submissions,](admin-submission.md) [Automated investigation and response (AIR),](air-view-investigation-results.md)the [User-reported messages report](view-email-security-reports.md#user-reported-messages-report), and Threat [Explorer](threat-explorer-views.md#email--submissions). <p> U kunt gerapporteerde berichten zo configureren dat ze worden gekopieerd of omgeleid naar een postvak dat u opgeeft. Zie Beleidsregels voor [gebruikersinzendingen voor meer informatie.](user-submission.md)

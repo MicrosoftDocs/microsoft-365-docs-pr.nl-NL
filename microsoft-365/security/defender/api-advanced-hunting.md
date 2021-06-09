@@ -86,7 +86,7 @@ Inhoudstype | toepassing/json
 
 In de objectaanvraag moet u een JSON-object de volgende parameters geven:
 
-Parameter | Type | Omschrijving
+Parameter | Type | Beschrijving
 -|-|-
 Query | Tekst | De query die u wilt uitvoeren. **Opmerking: vereist**
 

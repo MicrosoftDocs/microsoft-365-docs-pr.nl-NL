@@ -24,7 +24,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 04/14/2021
 ms.locfileid: "51765297"
 ---
-# <a name="use-powershell-cmdlets-to-configure-and-manage-microsoft-defender-antivirus"></a>PowerShell-cmdlets gebruiken om Microsoft Defender Antivirus te configureren en te beheren
+# <a name="use-powershell-cmdlets-to-configure-and-manage-microsoft-defender-antivirus"></a>PowerShell-cmdlets gebruiken voor het configureren en beheren van Microsoft Defender Antivirus
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -37,20 +37,20 @@ U kunt PowerShell gebruiken om verschillende functies uit te voeren in Windows D
 
 Zie het [onderwerp Defender-cmdlets](/powershell/module/defender) voor een lijst met de cmdlets en de functies en beschikbare parameters.
 
-PowerShell-cmdlets zijn het meest handig in Windows Server-omgevingen die niet afhankelijk zijn van een grafische gebruikersinterface (GUI) om software te configureren.
+PowerShell-cmdlets zijn het meest handig in Windows Serveromgevingen die niet afhankelijk zijn van een grafische gebruikersinterface (GUI) om software te configureren.
 
 > [!NOTE]
-> PowerShell-cmdlets mogen niet worden gebruikt als vervanging voor een volledige netwerkbeleidsbeheerinfrastructuur, zoals [Microsoft Endpoint Configuration Manager,](/configmgr) [Group Policy Management Console](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731212(v=ws.11))of Microsoft Defender Antivirus Group Policy [ADMX-sjablonen.](https://www.microsoft.com/download/101445)
+> PowerShell-cmdlets mogen niet worden gebruikt als vervanging voor een volledige infrastructuur voor netwerkbeleidsbeheer, zoals [Microsoft Endpoint Configuration Manager,](/configmgr) [Group Policy Management Console](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731212(v=ws.11))of Microsoft Defender Antivirus [ADMX-sjablonen voor groepsbeleid.](https://www.microsoft.com/download/101445)
 
-Wijzigingen die zijn aangebracht met PowerShell, zijn van invloed op lokale instellingen op het eindpunt waar de wijzigingen worden geïmplementeerd of aangebracht. Dit betekent dat implementaties van beleid met groepsbeleid, Microsoft Endpoint Configuration Manager of Microsoft Intune wijzigingen kunnen overschrijven die zijn aangebracht met PowerShell.
+Wijzigingen die zijn aangebracht met PowerShell, zijn van invloed op lokale instellingen op het eindpunt waar de wijzigingen worden geïmplementeerd of aangebracht. Dit betekent dat implementaties van beleid met groepsbeleid, Microsoft Endpoint Configuration Manager of Microsoft Intune wijzigingen die met PowerShell zijn aangebracht, kunnen overschrijven.
 
 U kunt [configureren welke instellingen lokaal kunnen worden overschrijven met lokale beleidsbe perken.](configure-local-policy-overrides-microsoft-defender-antivirus.md)
 
 PowerShell wordt meestal geïnstalleerd onder de `%SystemRoot%\system32\WindowsPowerShell` map.
 
-## <a name="use-microsoft-defender-antivirus-powershell-cmdlets"></a>Microsoft Defender Antivirus PowerShell-cmdlets gebruiken
+## <a name="use-microsoft-defender-antivirus-powershell-cmdlets"></a>PowerShell Microsoft Defender Antivirus-cmdlets gebruiken
 
-1. Typ powershell in de **windows-zoekbalk.**
+1. Typ powershell Windows de **zoekbalk.**
 2. Selecteer **Windows PowerShell** in de resultaten om de interface te openen.
 3. Voer de opdracht PowerShell en eventuele parameters in.
 

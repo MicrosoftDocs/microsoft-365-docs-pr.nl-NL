@@ -39,7 +39,7 @@ In dit artikel kunt u netwerkbeveiliging evalueren door de functie in te stellen
 
 Schakel netwerkbeveiliging in de auditmodus in om te zien welke IP-adressen en domeinen zouden zijn geblokkeerd. U kunt ervoor zorgen dat dit geen invloed heeft op line-of-business-apps of een idee krijgen van hoe vaak blokken voorkomen.
 
-1. Typ **powershell** in het menu Start, klik met de rechtermuisknop op **Windows PowerShell en** selecteer Uitvoeren als **beheerder**
+1. Typ **powershell** in het menu Start, klik met de **rechtermuisknop Windows PowerShell** en selecteer Uitvoeren als **beheerder**
 2. Voer de volgende cmdlet in:
 
     ```PowerShell
@@ -54,13 +54,13 @@ Schakel netwerkbeveiliging in de auditmodus in om te zien welke IP-adressen en d
 
 De netwerkverbinding is toegestaan en er wordt een testbericht weergegeven.
 
-![Voorbeeldmelding met de melding Verbinding geblokkeerd: De IT-beheerder heeft ervoor gezorgd dat deze netwerkverbinding werd geblokkeerd door Windows Security. Neem contact op met uw IT-helpdesk.](/microsoft-365/security/defender-endpoint/images/np-notif)
+![Voorbeeldmelding met de melding Verbinding geblokkeerd: De IT-beheerder heeft Windows-beveiliging netwerkverbinding geblokkeerd. Neem contact op met uw IT-helpdesk.](/microsoft-365/security/defender-endpoint/images/np-notif)
 
 ## <a name="review-network-protection-events-in-windows-event-viewer"></a>Netwerkbeveiligingsgebeurtenissen bekijken in Windows Event Viewer
 
-Als u apps wilt bekijken die zouden zijn geblokkeerd, opent u Gebeurtenisviewer en filtert u op Gebeurtenis-id 1125 in het Microsoft-Windows-Windows-Defender/Operationeel logboek. In de volgende tabel worden alle netwerkbeveiligingsgebeurtenissen vermeld.
+Als u apps wilt bekijken die zijn geblokkeerd, opent u Gebeurtenisviewer en filtert u op Gebeurtenis-id 1125 in het microsoft-Windows-Windows-Defender/Operationeel logboek. In de volgende tabel worden alle netwerkbeveiligingsgebeurtenissen vermeld.
 
-| Gebeurtenis-id | Leveren/bron | Omschrijving |
+| Gebeurtenis-id | Leveren/bron | Beschrijving |
 |-|-|-|
 |5007 | Windows Defender (operationeel) | Gebeurtenis wanneer instellingen worden gewijzigd |
 |1125 | Windows Defender (operationeel) | Gebeurtenis wanneer een netwerkverbinding wordt gecontroleerd |

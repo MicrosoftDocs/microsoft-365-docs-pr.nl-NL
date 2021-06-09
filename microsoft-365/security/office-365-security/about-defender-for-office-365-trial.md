@@ -1,5 +1,5 @@
 ---
-title: Informatie over de proefversie van Microsoft Defender voor Office 365
+title: Informatie over de proefversie van Microsoft Defender Office 365 microsoft defender
 f1.keywords: ''
 ms.author: chrisda
 author: chrisda
@@ -25,27 +25,27 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 04/15/2021
 ms.locfileid: "51768744"
 ---
-# <a name="about-the-microsoft-defender-for-office-365-trial"></a>Informatie over de proefversie van Microsoft Defender voor Office 365
+# <a name="about-the-microsoft-defender-for-office-365-trial"></a>Informatie over de proefversie van Microsoft Defender Office 365 microsoft defender
 
 Microsoft Defender voor Office 365 beschermt uw organisatie tegen schadelijke bedreigingen die worden veroorzaakt door e-mailberichten, koppelingen (URL's) en samenwerkingshulpmiddelen. Defender voor Office 365 omvat:
 
 - **Beleid voor bedreigingsbeveiliging**: definieer beleid voor bedreigingsbeveiliging om het juiste beveiligingsniveau in te stellen voor uw organisatie.
-- **Rapporten:** Bekijk realtime rapporten om de prestaties van Defender voor Office 365 in uw organisatie te controleren.
+- **Rapporten:** Bekijk realtime rapporten om De prestaties van Defender Office 365 in uw organisatie te controleren.
 - **Functies voor bedreigingsonderzoek en reacties**: gebruik toonaangevende hulpmiddelen om bedreigingen te onderzoeken, te doorgronden, te simuleren en te voorkomen.
 - **Mogelijkheden voor geautomatiseerd onderzoek en acties**: bespaar tijd en moeite bij het onderzoeken en beperken van bedreigingen.
 
-Een proefversie van Microsoft Defender voor Office 365 is de eenvoudigste manier om de mogelijkheden van Defender voor Office 365 uit te proberen. Het instellen van de proefversie duurt slechts een paar klikken. Nadat de proefversie is voltooid, zijn alle mogelijkheden van Defender voor Office 365-abonnement 1 en Abonnement 2 tot 90 dagen beschikbaar in de organisatie.
+Een Proefversie van Microsoft Defender voor Office 365 is de eenvoudigste manier om de mogelijkheden van Defender voor Office 365 te proberen en het instellen duurt slechts een paar klikken. Nadat de proefversie is voltooid, zijn alle mogelijkheden van Defender voor Office 365 Plan 1 en Plan 2 beschikbaar in de organisatie voor maximaal 90 dagen.
 
 > [!NOTE]
 > De geautomatiseerde configuratie die in dit artikel wordt beschreven, bevindt zich momenteel in Openbare preview en is mogelijk niet beschikbaar op uw locatie.
 
 ## <a name="terms-and-conditions"></a>Algemene voorwaarden
 
-De proefversie van Defender voor Office 365 is 90 dagen beschikbaar en kan worden gestart voor al uw gebruikers. Zie Proefvoorwaarden voor [Microsoft Defender voor Office 365 & voorwaarden voor meer informatie.](defender-for-office-365-trial-terms-and-conditions.md)
+De proefversie van Defender Office 365 is 90 dagen beschikbaar en kan worden gestart voor al uw gebruikers. Zie Voor meer informatie [Microsoft Defender voor Office 365 Proefvoorwaarden & voorwaarden.](defender-for-office-365-trial-terms-and-conditions.md)
 
-## <a name="set-up-a-defender-for-office-365-trial"></a>Een Proefversie van Defender voor Office 365 instellen
+## <a name="set-up-a-defender-for-office-365-trial"></a>Een Defender instellen voor Office 365 proefversie
 
-Met een proefabonnement kunnen organisaties eenvoudig de mogelijkheden van Defender voor Office 365 instellen en configureren. Tijdens de installatie worden beleidsregels die exclusief zijn voor Defender voor Office 365 (met name Veilige [bijlagen,](safe-attachments.md)Veilige [koppelingen](safe-links.md)en imitatiebeveiliging [in antispambeleid)](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)toegepast met de standaardsjabloon voor vooraf ingesteld beveiligingsbeleid. [](preset-security-policies.md)
+Met een proefabonnement kunnen organisaties de Defender eenvoudig instellen en configureren voor Office 365 mogelijkheden. Tijdens de installatie worden beleidsregels die exclusief zijn voor Defender voor Office 365 (met name [Safe Bijlagen,](safe-attachments.md) [Safe Koppelingen](safe-links.md)en imitatiebeveiliging [in antispambeleid)](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)toegepast met de standaardsjabloon voor vooraf ingestelde beveiligingsbeleidsregels. [](preset-security-policies.md)
 
 Deze beleidsregels gelden standaard voor alle gebruikers in de organisatie, maar beheerders kunnen het beleid tijdens of na de installatie aanpassen, zodat ze alleen van toepassing zijn op specifieke gebruikers.
 
@@ -53,7 +53,7 @@ Tijdens de installatie is MDO-antwoordfunctionaliteit (gevonden in MDO P2 of equ
 
 ## <a name="licensing"></a>Licenties
 
-Als onderdeel van de proefversie worden de Defender voor Office 365-licenties automatisch toegepast op de organisatie. De licenties zijn de eerste 90 dagen gratis.
+Als onderdeel van de proefversie worden de Defender voor Office 365 licenties automatisch toegepast op de organisatie. De licenties zijn de eerste 90 dagen gratis.
 
 ## <a name="permissions"></a>Machtigingen
 
@@ -67,15 +67,15 @@ Beheerders kunnen de proefversie op elk moment uitschakelen door naar de kaart <
 
 ## <a name="availability"></a>Beschikbaarheid
 
-De proefversie van Defender voor Office 365 wordt geleidelijk uitgerold naar bestaande klanten die voldoen aan specifieke criteria (inclusief geografie) en die geen bestaande Defender voor Office 365-abonnementen 1- of Abonnement 2-licenties hebben (inbegrepen in hun abonnement of als invoegversie).
+De proefversie van Defender voor Office 365 wordt geleidelijk uitgerold naar bestaande klanten die voldoen aan specifieke criteria (inclusief geografie) en die niet over bestaande Defender-licenties voor Office 365 Abonnement 1- of Abonnement 2-licenties (opgenomen in hun abonnement of als invoegversie) zijn.
 
 ## <a name="learn-more-about-defender-for-office-365"></a>Meer informatie over Defender voor Office 365
 
-Defender voor Office 365 helpt organisaties bij het beveiligen van hun bedrijf door een uitgebreide reeks mogelijkheden aan te bieden.
+Defender voor Office 365 helpt organisaties hun bedrijf te beveiligen door een uitgebreide reeks mogelijkheden aan te bieden.
 
-In deze interactieve handleiding vindt u ook meer [](https://techcommunity.microsoft.com/t5/video-hub/protect-your-organization-with-microsoft-365-defender/m-p/1671189)informatie over Defender voor Office 365.
+U kunt ook meer informatie over Defender voor Office 365 in deze [interactieve handleiding.](https://techcommunity.microsoft.com/t5/video-hub/protect-your-organization-with-microsoft-365-defender/m-p/1671189)
 
-![Conceptuele diagram van Microsoft Defender voor Office 365](../../media/microsoft-defender-for-office-365.png)
+![Microsoft Defender voor Office 365 conceptuele diagram](../../media/microsoft-defender-for-office-365.png)
 
 ### <a name="prevention"></a>Preventie
 
@@ -93,7 +93,7 @@ Toonaangevende AI detecteert schadelijke en verdachte inhoud en correleert aanva
 
 ### <a name="investigation-and-hunting"></a>Onderzoek en jagen
 
-Krachtige ervaringen helpen bij het identificeren, prioriteren en onderzoeken van bedreigingen, met geavanceerde zoekmogelijkheden om aanvallen in Office 365 bij te houden.
+Krachtige ervaringen helpen bij het identificeren, prioriteren en onderzoeken van bedreigingen, met geavanceerde mogelijkheden voor het zoeken naar aanvallen in Office 365.
 
 - [Bedreigingsverkenner en realtimedetecties](threat-explorer.md)
 - [Realtime rapporten in Defender voor Office 365](view-reports-for-mdo.md)
@@ -104,7 +104,7 @@ Krachtige ervaringen helpen bij het identificeren, prioriteren en onderzoeken va
 
 Uitgebreide mogelijkheden voor incidentrespons en automatisering versterken de effectiviteit en efficiëntie van uw beveiligingsteam.
 
-- [Automatisch onderzoek en antwoord (AIR) in Microsoft Defender voor Office 365](office-365-air.md)
+- [Automated investigation and response (AIR) in Microsoft Defender for Office 365](office-365-air.md)
 
 ### <a name="awareness-and-training"></a>Bekendheid en training
 
@@ -117,7 +117,7 @@ Uitgebreide mogelijkheden voor simulatie en training, samen met geïntegreerde e
 Aanbevolen sjablonen en configuratieinzichten helpen klanten bij het verkrijgen en beveiligen.
 
 - [Vooraf ingestelde beveiligingsbeleidsregels in EOP en Microsoft Defender voor Office 365](preset-security-policies.md)
-- [Configuratieanalyse voor beveiligingsbeleid in EOP en Microsoft Defender voor Office 365](configuration-analyzer-for-security-policies.md).
+- [Configuratieanalyse voor beveiligingsbeleid in EOP en Microsoft Defender voor Office 365.](configuration-analyzer-for-security-policies.md)
 
 ## <a name="give-feedback"></a>Feedback geven
 

@@ -16,7 +16,7 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - Ent_Architecture
-description: Gebruik Test Lab Guides om Microsoft 365-oplossingen en -scenario's te ontwikkelen in een dev/testomgeving.
+description: Gebruik testlaboratoriumhandleidingen om Microsoft 365 oplossingen en scenario's in een dev/testomgeving uit te werken.
 ms.openlocfilehash: 10ddfc9cb9f9135b352be50c555811342ae0bd2b
 ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
@@ -34,6 +34,6 @@ U kunt TLG's ook gebruiken om representatieve omgevingen te maken voor het ontwi
   
 ![Testlabrichtlijnen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
-Probeer [deze Test Lab Guide om](team-security-isolation-dev-test.md) een team in te stellen met beveiligingsisolatie.
+Probeer [deze testlaboratoriumhandleiding](team-security-isolation-dev-test.md) om een team in te stellen met beveiligingsisolatie.
 
-Zie Microsoft 365 For enterprise Test Lab Guides (Test Lab Guides voor ondernemingen) voor aanvullende handleidingen voor [Microsoft 365-functies en -configuratie.](../enterprise/m365-enterprise-test-lab-guides.md)
+Zie voor meer handleidingen Microsoft 365 functies en configuratie [Microsoft 365 voor ondernemingstestlaboratoriumhandleidingen.](../enterprise/m365-enterprise-test-lab-guides.md)

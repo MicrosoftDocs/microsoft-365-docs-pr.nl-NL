@@ -16,37 +16,37 @@ ms.locfileid: "48846190"
 ---
 # <a name="support-for-microsoft-managed-desktop"></a>Ondersteuning voor Microsoft Managed Desktop
 
-Microsoft zal proactief en opnieuw actief incidenteel beheer aanbieden. Microsoft houdt incidenten bij in de beheerportal van Microsoft Managed Desktop. De persoon is geclassificeerd op basis van [Ernst definities](../working-with-managed-desktop/admin-support.md#sev).
+Microsoft biedt proactief en reactief incidentbeheer. Microsoft houdt incidenten bij in de Microsoft Managed Desktop-beheerportal. Ze worden geclassificeerd op basis [van ernstsdefinities](../working-with-managed-desktop/admin-support.md#sev).
 
-Klanten kunnen contact opnemen met Microsoft beheerde bureaublad activiteiten voor:
-- Informatie aanvragen op de Microsoft beheerde bureaublad Tenant of configuratie
-- Aanvragen voor de configuratie van Microsoft beheerde bureaublad apparaten wijzigen
-- Een incident of storing melden
+Klanten kunnen contact Microsoft Managed Desktop met de volgende bewerkingen:
+- Informatieaanvragen over de Microsoft Managed Desktop tenant of configuratie
+- Aanvragen wijzigen in de configuratie van Microsoft Managed Desktop apparaten
+- Een incident of uitval melden
 
 ## <a name="whats-included"></a>Wat is inbegrepen?
 
-Ondersteuning voor Microsoft Managed Desktop omvat:
+Microsoft Managed Desktop ondersteuning omvat:
 
-- Een team van technici die specifiek zijn voor Microsoft Managed Desktop-apparaten
-- Ondersteuningsopties voor gebruikers met beheerde bureaublad apparaten van Microsoft
-- Verkent beperkte beheerderstoegang tot door Microsoft beheerde bureaublad apparaten voor technici die Microsoft Managed Desktop-apparaten beheren 
+- Een team van technici dat is Microsoft Managed Desktop apparaten
+- Ondersteuningsopties voor gebruikers met Microsoft Managed Desktop apparaten
+- Verleent beperkte beheerderstoegang tot Microsoft Managed Desktop apparaten voor technici die Microsoft Managed Desktop beheren 
 
 Ondersteunde producten:
 
-- Windows 10 met Microsoft Defender voor eindpunt
-- Deze Microsoft 365-apps voor Enterprise-apps: Outlook, Word, PowerPoint, Excel, Skype voor bedrijven-client, Microsoft teams 
+- Windows 10 met Microsoft Defender voor Eindpunt
+- Deze Microsoft 365-apps voor ondernemingen apps: Outlook, Word, PowerPoint, Excel, Skype voor Bedrijven client, Microsoft Teams 
 - Microsoft Store voor Bedrijven 
-- Client van OneDrive voor bedrijven 
+- OneDrive voor Bedrijven client 
 
-Ondersteunings Details:
+Ondersteuningsdetails:
 
-- Huidige: Verenigde Staten, Canada (met uitzondering van Quebec), Verenigd Koninkrijk, België, Luxemburg, Nederlands, Australië en Nieuw-Zeeland (24x7x365) 
-- Engels is de enige ondersteunde taal voor telefoon-en chat gesprekken met klanten 
-- We maken gebruik van een partner voor het niet vervangen van de helpdesk van uw bedrijf. LOB-apps (line-of-Business), netwerkbronnen, etc. worden nog steeds verwerkt door de helpdesk 
-- Microsoft beheerde bureaublad apparaten in de groep testen en apparaten die niet onderdeel uitmaken van de beheerde bureaubladversie van Microsoft zijn buiten bereik 
+- Huidige: Verenigde Staten, Canada (exclusief Quebec), Verenigd Koninkrijk, België, Luxemburg, Nederland, Australië en Nieuw-Zeeland (24x7x365) 
+- Engels is de enige ondersteunde taal voor telefoon- en chatgesprekken met klanten 
+- We werken samen met, niet vervangen, uw zakelijke helpdesk; LOB-apps (Line-of-Business) en netwerkbronnen worden nog steeds door uw helpdesk verwerkt 
+- Microsoft Managed Desktop apparaten in de groep 'Testen' en apparaten die geen deel uitmaken van Microsoft Managed Desktop vallen buiten het bereik 
 
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-- [Meer informatie over hoe IT-beheerders ondersteuning kunnen krijgen](../working-with-managed-desktop/admin-support.md)
+- [Informatie over hoe IT-beheerders ondersteuning kunnen krijgen](../working-with-managed-desktop/admin-support.md)
 - [Meer informatie over hoe gebruikers ondersteuning kunnen krijgen](../working-with-managed-desktop/end-user-support.md)

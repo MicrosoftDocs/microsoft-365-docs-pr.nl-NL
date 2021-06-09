@@ -1,5 +1,5 @@
 ---
-title: Gebruik Microsoft Teams lessen in uw Learning Management System
+title: Gebruik Microsoft Teams lessen met Blackboard
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -13,19 +13,19 @@ ms.collection: M365-modern-desktop
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: De Microsoft Teams in uw leerbeheersysteem integreren
-ms.openlocfilehash: 18d33225dd57932af20421c6b3b5dc4fe3b397b8
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+ms.openlocfilehash: 287b9f1cadfdcf3adafdca91f4a351865bbcf3bc
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52327732"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52821269"
 ---
-# <a name="use-microsoft-teams-classes-in-your-learning-management-system"></a>Gebruik Microsoft Teams lessen in uw Learning Management System
+# <a name="use-microsoft-teams-classes-with-blackboard"></a>Gebruik Microsoft Teams lessen met Blackboard
 
 > [!IMPORTANT]
 > Sommige informatie is gerelateerd aan voorlopige productversies die mogelijk aanzienlijk gewijzigd worden voordat ze commercieel gepubliceerd worden. Microsoft geeft geen garantie, uitdrukkelijk of impliciet, met betrekking tot de informatie die hier wordt beschreven.
 
-Microsoft Teams klasteams is een LTI-app (Learning Tools Interoperability) waarmee docenten en leerlingen eenvoudig kunnen navigeren tussen hun LMS (Learning Management System) en Teams. Gebruikers hebben rechtstreeks vanuit hun LMS toegang tot hun klasteams die aan hun cursus zijn gekoppeld.
+Microsoft Teams lessen is een LTI-app (Learning Tools Interoperability) waarmee docenten en leerlingen eenvoudig kunnen navigeren tussen hun LMS (Learning Management System) en Teams. Gebruikers hebben rechtstreeks vanuit hun LMS toegang tot hun klasteams die aan hun cursus zijn gekoppeld.
 
 ## <a name="approve-the-app-in-the-microsoft-azure-tenant"></a>De app goedkeuren in de Microsoft Azure tenant
 

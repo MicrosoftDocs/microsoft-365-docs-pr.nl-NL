@@ -71,7 +71,7 @@ Ga naar deze rapporten en dashboards voor meer informatie over de status van uw 
 
 ****
 
-|Dashboard|Omschrijving|
+|Dashboard|Beschrijving|
 |---|---|
 |[Dashboard Bedreigingsbeheer](security-dashboard.md)|Gebruik  dit dashboard in de sectie Bedreigingsbeheer van het beveiligingscentrum om te zien welke bedreigingen al zijn afgehandeld en als handig hulpmiddel voor het rapporteren aan zakelijke besluitvormers over wat de mogelijkheden voor bedreigingsonderzoek en -reactie al hebben gedaan om uw bedrijf te beveiligen.|
 |[Bedreigingsverkenner (of realtime detecties)](threat-explorer.md)|Dit is ook in de **sectie Bedreigingsbeheer** van het beveiligingscentrum. Als u een aanval op uw tenant onderzoekt of ondervindt, gebruikt u Explorer (of realtime detecties) om bedreigingen te analyseren. Explorer (en het realtimedetectierapport) toont het aantal aanvallen in de tijd en u kunt deze gegevens analyseren op bedreigingsfamilies, infrastructuur voor aanvallers en meer. U kunt ook verdachte e-mailberichten markeren voor de lijst Incidenten.|
