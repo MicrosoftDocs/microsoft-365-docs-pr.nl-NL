@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Beheerders kunnen een TeleMessage-connector instellen om WhatsApp-gegevens te importeren en te archiveren in Microsoft 365. Op deze manier kunt u gegevens van externe gegevensbronnen archiveren in Microsoft 365, zodat u compliancefuncties, zoals juridische bewaring, inhoudszoekbeleid en bewaarbeleid, kunt gebruiken om de gegevens van derden van uw organisatie te beheren.
-ms.openlocfilehash: 1387351772ccbb17f471c44fcd8d077df18a637e
-ms.sourcegitcommit: b169f6ad3e44a7fcebf77f43be9eb5edd84ea5ef
+ms.openlocfilehash: a8f588e6bbe5180865a2053b055230e4f35ed96a
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52162777"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52822163"
 ---
 # <a name="set-up-a-connector-to-archive-whatsapp-data"></a>Een connector instellen voor het archiveren van WhatsApp-gegevens
 
@@ -41,7 +41,7 @@ In het volgende overzicht wordt uitgelegd hoe het gebruik van een connector voor
 
    Naast automatische gebruikerstoewijzing met  de waarde van de eigenschap E-mailadres van de gebruiker, kunt u ook aangepaste toewijzing implementeren door een CSV-toewijzingsbestand te uploaden. Dit toewijzingsbestand bevat het mobiele telefoonnummer en het bijbehorende Microsoft 365 e-mailadres voor gebruikers in uw organisatie. Als u zowel automatische gebruikerstoewijzing als aangepaste toewijzing inschakelen, wordt voor elk WhatsApp-item eerst naar aangepast toewijzingsbestand gesnapt. Als er geen geldige Microsoft 365-gebruiker wordt gevonden die overeenkomt met het mobiele telefoonnummer van een gebruiker, gebruikt de verbindingslijn de waarden in de eigenschap e-mailadres van het item dat het probeert te importeren. Als de verbindingslijn geen geldige Microsoft 365-gebruiker vindt in het aangepaste toewijzingsbestand of in de eigenschap e-mailadres van het WhatsApp-item, wordt het item niet geïmporteerd.
 
-## <a name="before-you-begin"></a>Voordat u begint
+## <a name="before-you-set-up-a-connector"></a>Voordat u een verbindingslijn in stelt
 
 Sommige implementatiestappen die nodig zijn om Communicatiegegevens van WhatsApp te archiveren, zijn extern van Microsoft 365 en moeten zijn voltooid voordat u de verbindingslijn in het compliancecentrum kunt maken.
 
@@ -52,6 +52,8 @@ Sommige implementatiestappen die nodig zijn om Communicatiegegevens van WhatsApp
 - Installeer de TeleMessage [WhatsApp Telefoon Archiver-app](https://www.telemessage.com/mobile-archiver/whatsapp-phone-archiver-2/) op de mobiele telefoons van uw werknemers en activeer deze. U kunt ook de normale WhatsApp- of WhatsApp Business-apps installeren op de mobiele telefoons van uw werknemers en de WhatsApp Cloud Archiver-service activeren door een QR-code te scannen op de telemessage-website. Zie [WhatsApp Cloud Archiver](https://www.telemessage.com/mobile-archiver/whatsapp-archiver/whatsapp-cloud-archiver/)voor meer informatie.
 
 - De gebruiker die een Verizon Network-verbindingslijn maakt, moet de rol Postvak importeren exporteren in Exchange Online. Dit is vereist om verbindingslijnen toe te voegen op de pagina **Gegevensconnectors** in het Microsoft 365 compliancecentrum. Deze rol is standaard niet toegewezen aan een rollengroep in Exchange Online. U kunt de rol Postvak importeren exporteren toevoegen aan de rollengroep Organisatiebeheer in Exchange Online. U kunt ook een rollengroep maken, de rol Postvak importeren exporteren toewijzen en vervolgens de juiste gebruikers toevoegen als leden. Zie de secties [](/Exchange/permissions-exo/role-groups#create-role-groups) Rollengroepen [](/Exchange/permissions-exo/role-groups#modify-role-groups) maken of Rollengroepen wijzigen in het artikel 'Rollengroepen beheren in Exchange Online'.
+
+- Deze gegevensconnector is beschikbaar in GCC omgevingen in de Microsoft 365 amerikaanse overheidscloud. Toepassingen en services van derden kunnen betrekking hebben op het opslaan, verzenden en verwerken van klantgegevens van uw organisatie op systemen van derden die buiten de Microsoft 365-infrastructuur vallen en daarom niet worden gedekt door de toezeggingen van Microsoft 365 compliance en gegevensbescherming. Microsoft geeft niet aan dat het gebruik van dit product om verbinding te maken met toepassingen van derden betekent dat deze toepassingen van derden compatibel zijn met FEDRAMP.
 
 ## <a name="create-a-whatsapp-archiver-connector"></a>Een Connector voor WhatsApp Archiver maken
 

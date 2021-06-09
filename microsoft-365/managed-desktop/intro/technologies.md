@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: e653ff84602a5e5546ef9a4c0aca2559b77e43c1
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 7c1f768e69fa65c76529e641f095e13fc7ad67c8
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683509"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841338"
 ---
 # <a name="microsoft-managed-desktop-technologies"></a>Technologieën in Microsoft Managed Desktop
 
@@ -52,8 +52,8 @@ Functies opgenomen en beheerd als onderdeel van Microsoft Managed Desktop:
  |
  --- | ---
 BitLocker Versleuteling van station | BitLocker Stationsversleuteling wordt gebruikt om alle systeemstations te versleutelen. Zie voor meer informatie [BitLocker Station Encryption](/windows/security/information-protection/bitlocker/bitlocker-overview).
-Windows Defender Systeembeveiliger | Beschermt de integriteit van het systeem bij het opstarten en valideert dat de systeemintegriteit echt is gehandhaafd. Zie voor meer informatie [Windows Defender System Guard.]( https://docs.microsoft.com/windows/security/threat-protection/windows-defender-system-guard/system-guard-how-hardware-based-root-of-trust-helps-protect-windows)
-Windows Defender Credential Guard | Windows Defender Credential Guard maakt gebruik van op virtualisatie gebaseerde beveiliging om geheimen te isoleren, zodat alleen bevoorrechte systeemsoftware ze kan openen. Zie voor meer informatie [Windows Defender System Guard.]( https://docs.microsoft.com/windows/security/threat-protection/windows-defender-system-guard/system-guard-how-hardware-based-root-of-trust-helps-protect-windows)
+Windows Defender Systeembeveiliger | Beschermt de integriteit van het systeem bij het opstarten en valideert dat de systeemintegriteit echt is gehandhaafd. Zie voor meer informatie [Windows Defender System Guard.](/windows/security/threat-protection/windows-defender-system-guard/system-guard-how-hardware-based-root-of-trust-helps-protect-windows)
+Windows Defender Credential Guard | Windows Defender Credential Guard maakt gebruik van op virtualisatie gebaseerde beveiliging om geheimen te isoleren, zodat alleen bevoorrechte systeemsoftware ze kan openen. Zie voor meer informatie [Windows Defender System Guard.](/windows/security/threat-protection/windows-defender-system-guard/system-guard-how-hardware-based-root-of-trust-helps-protect-windows)
 Microsoft Defender voor eindpunt - Endpoint Detection and Response | Microsoft Managed Desktop Beveiligingsbewerkingen reageert op waarschuwingen en onderneemt actie om bedreigingen te corrigeren met endpointdetectie en -antwoord. Zie Microsoft [Defender for Endpoint - Endpoint Detection and Response voor meer informatie.](/windows/security/threat-protection/microsoft-defender-atp/overview-endpoint-detection-response)
 Microsoft Defender voor eindpunt - Bedreigingsexperts | Microsoft Managed Desktop integratie met inzichten en gegevens van Threat Experts via gerichte aanvalsmeldingen. U moet aanvullende toestemming geven voordat deze service is ingeschakeld. Zie Microsoft [Defender for Endpoint - Threat Experts voor meer informatie.](/windows/security/threat-protection/microsoft-defender-atp/microsoft-threat-experts)
 Microsoft Defender voor Eindpunt - Bedreigings- en kwetsbaarheidsbeheer | Vereist voor toekomstig gebruik in het Microsoft Managed Desktop serviceplan. Zie Microsoft [Defender for Endpoint - Threat and Vulnerability Management voor meer informatie.](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)
@@ -61,7 +61,7 @@ Microsoft Defender for Endpoint - Attack Surface Reduction | Attack surface redu
 Microsoft Defender for Endpoint - Exploit Protection | Beschermt tegen malware die exploits gebruikt om apparaten te infecteren en te verspreiden door gebruiksbeperkingstechnieken automatisch toe te passen op zowel besturingssysteemprocessen als apps. Zie Microsoft [Defender for Endpoint - Exploit Protection voor meer informatie.](/windows/security/threat-protection/microsoft-defender-atp/exploit-protection)
 Microsoft Defender voor Eindpunt - Netwerkbeveiliging | Netwerkbeveiliging vergroot het bereik van Microsoft Defender SmartScreen om al het uitgaande HTTP- en HTTPS-verkeer te blokkeren dat probeert verbinding te maken met bronnen met een lage reputatie. Zie [Microsoft Defender for Endpoint - Network Protection voor meer informatie.](/windows/security/threat-protection/microsoft-defender-atp/network-protection)
 Microsoft Defender Tamper Protection | Windows Tamper Protection wordt gebruikt om te voorkomen dat beveiligingsinstellingen, zoals antivirusbeveiliging, worden gewijzigd. Zie Microsoft Defender Tamper Protection voor meer [informatie.](/windows/security/threat-protection/microsoft-defender-antivirus/prevent-changes-to-security-settings-with-tamper-protection)
-Microsoft Defender Antivirus Op gedrag gebaseerde, heuristische en realtime antivirusbeveiliging | Altijd bezig met het scannen van bestands- en procesrisico's die mogelijk niet als malware worden gedetecteerd. Zie voor meer informatie [Microsoft Defender Antivirus op gedrag gebaseerde, heuristische en realtime antivirusbeveiliging.]( https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10)
+Microsoft Defender Antivirus Op gedrag gebaseerde, heuristische en realtime antivirusbeveiliging | Altijd bezig met het scannen van bestands- en procesrisico's die mogelijk niet als malware worden gedetecteerd. Zie voor meer informatie [Microsoft Defender Antivirus op gedrag gebaseerde, heuristische en realtime antivirusbeveiliging.](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10)
 Microsoft Defender Antivirus Beveiliging in de cloud | Biedt dynamische, geautomatiseerde bescherming tegen nieuwe en nieuwe bedreigingen. Zie voor meer informatie [Microsoft Defender Antivirus beveiliging in de cloud.](/windows/security/threat-protection/microsoft-defender-antivirus/utilize-microsoft-cloud-protection-microsoft-defender-antivirus)
 Microsoft Defender "Blok op het eerste gezicht" | Biedt detectie en blokkering van nieuwe malware wanneer Windows een verdacht of onbekend bestand detecteert. Zie Microsoft Defender Block op het [eerste gezicht voor meer informatie.](/windows/security/threat-protection/microsoft-defender-antivirus/configure-block-at-first-sight-microsoft-defender-antivirus)
 Microsoft Defender AV Potentieel ongewenste toepassingen | Potentieel ongewenste toepassingen worden gebruikt om apps te blokkeren waardoor uw computer traag kan worden uitgevoerd, onverwachte advertenties kan weergeven of in het slechtste geval andere software kan installeren die onverwacht of ongewenst kan zijn. Zie Microsoft [Defender AV Potentieel ongewenste toepassingen voor meer informatie.](/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus)

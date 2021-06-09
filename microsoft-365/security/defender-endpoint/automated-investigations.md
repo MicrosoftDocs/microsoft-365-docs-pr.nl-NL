@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs
 ms.custom: AIR
-ms.openlocfilehash: d4b0751938b66cc22dd59e2e7035077c5ef59ff9
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: e52471e1b3e9ee3a410de493b536f9d360d60624
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274818"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844440"
 ---
 # <a name="overview-of-automated-investigations"></a>Overzicht van geautomatiseerde onderzoeken
 
@@ -72,9 +72,9 @@ Wanneer waarschuwingen worden geactiveerd en een geautomatiseerd onderzoek wordt
 
 Wanneer vonnissen worden bereikt, kunnen geautomatiseerde onderzoeken leiden tot een of meer herstelacties. Voorbeelden van herstelacties zijn het verzenden van een bestand naar quarantaine, het stoppen van een service, het verwijderen van een geplande taak en meer. Zie Herstelacties [voor meer informatie.](manage-auto-investigation.md#remediation-actions)  
 
-Afhankelijk van het automatiseringsniveau dat is ingesteld voor uw organisatie en andere beveiligingsinstellingen, kunnen herstelacties automatisch [of](automation-levels.md) alleen plaatsvinden na goedkeuring door uw beveiligingsbewerkingsteam. Extra beveiligingsinstellingen die van invloed kunnen zijn op automatische herstelmaatregelen, zijn onder andere bescherming tegen mogelijk [ongewenste toepassingen](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus) (PUA). 
+Afhankelijk van het automatiseringsniveau dat is ingesteld voor uw organisatie en andere beveiligingsinstellingen, kunnen herstelacties automatisch [of](automation-levels.md) alleen plaatsvinden na goedkeuring door uw beveiligingsbewerkingsteam. Extra beveiligingsinstellingen die van invloed kunnen zijn op automatische herstelmaatregelen, zijn onder andere bescherming tegen mogelijk [ongewenste toepassingen](/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus) (PUA). 
 
-Alle herstelacties, in behandeling of voltooid, worden bijgeplaatst in het [Actiecentrum.](auto-investigation-action-center.md) Zo nodig kan uw beveiligingsbewerkingsteam een herstelactie ongedaan maken. Zie Herstelacties controleren en goedkeuren na een geautomatiseerd onderzoek voor meer [informatie.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/manage-auto-investigation)
+Alle herstelacties, in behandeling of voltooid, worden bijgeplaatst in het [Actiecentrum.](auto-investigation-action-center.md) Zo nodig kan uw beveiligingsbewerkingsteam een herstelactie ongedaan maken. Zie Herstelacties controleren en goedkeuren na een geautomatiseerd onderzoek voor meer [informatie.](/microsoft-365/security/defender-endpoint/manage-auto-investigation)
 
 > [!TIP]
 > Bekijk de nieuwe, geïntegreerde onderzoekspagina in het Microsoft 365 beveiligingscentrum. Zie [(NIEUW!) voor meer informatie. Geïntegreerde onderzoekspagina](/microsoft-365/security/defender/m365d-autoir-results#new-unified-investigation-page).
@@ -88,7 +88,7 @@ Op dit moment ondersteunt AIR alleen de volgende besturingssysteemversies:
 - Windows Server 2019
 - Windows 10 versie 1709 (os build 16299.1085 met [KB4493441](https://support.microsoft.com/help/4493441/windows-10-update-kb4493441)) of hoger
 - Windows 10 versie 1803 (os build 17134.704 met [KB4493464)](https://support.microsoft.com/help/4493464/windows-10-update-kb4493464)of hoger
-- Windows 10, versie [1803](https://docs.microsoft.com/windows/release-information/status-windows-10-1809-and-windows-server-2019) of hoger
+- Windows 10, versie [1803](/windows/release-information/status-windows-10-1809-and-windows-server-2019) of hoger
 
 ## <a name="next-steps"></a>Volgende stappen
 
@@ -98,6 +98,6 @@ Op dit moment ondersteunt AIR alleen de volgende besturingssysteemversies:
 
 ## <a name="see-also"></a>Zie ook
 
-- [PUA-beveiliging](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus)
-- [Geautomatiseerd onderzoek en antwoord in Microsoft Defender voor Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)
-- [Geautomatiseerd onderzoek en antwoord in Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/defender/mtp-autoir)
+- [PUA-beveiliging](/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus)
+- [Geautomatiseerd onderzoek en antwoord in Microsoft Defender voor Office 365](/microsoft-365/security/office-365-security/office-365-air)
+- [Geautomatiseerd onderzoek en antwoord in Microsoft 365 Defender](/microsoft-365/security/defender/mtp-autoir)

@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 6529f0badd94d6ca4d95dfbb562a9d352fedb76a
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 2a442a642a71bd6bf3a52dbf3901c4367c2c10d8
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935891"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844992"
 ---
 # <a name="understand-the-analyst-report-in-threat-analytics"></a>Het analistrapport in bedreigingsanalyses begrijpen
 
@@ -67,18 +67,18 @@ Naast deze bij te houden risicobeperking, worden in het analyserapport ook risic
 Hoewel u het tabblad **Mitigaties** kunt gebruiken om uw beveiligingshouding tegen een bedreiging te beoordelen, kunt u met deze aanbevelingen extra stappen ondernemen om uw beveiligingshouding te verbeteren. Lees alle mitigatie-richtlijnen in het analistenrapport zorgvuldig en pas deze waar mogelijk toe.
 
 ## <a name="understand-how-each-threat-can-be-detected"></a>Begrijpen hoe elke bedreiging kan worden gedetecteerd
-Het analistrapport bevat ook de detecties van Microsoft Defender voor endpoint-antivirus- en _eindpuntdetectie-_ en antwoordmogelijkheden (EDR).
+Het analistrapport bevat ook de detecties van Microsoft Defender voor endpoint-antivirus- en _eindpuntdetectie en -respons_ (EDR) mogelijkheden.
 
 ### <a name="antivirus-detections"></a>Antivirusdetecties
-Deze detecties zijn beschikbaar op apparaten met [Microsoft Defender Antivirus](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) ingeschakeld. Wanneer deze detecties plaatsvinden op apparaten die zijn onboarded bij Microsoft Defender voor Eindpunt, worden er ook waarschuwingen uitgevoerd die de grafieken in het rapport aanlichten.
+Deze detecties zijn beschikbaar op apparaten met [Microsoft Defender Antivirus](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) ingeschakeld. Wanneer deze detecties plaatsvinden op apparaten die zijn onboarded bij Microsoft Defender voor Eindpunt, worden er ook waarschuwingen uitgevoerd die de grafieken in het rapport aanlichten.
 
 >[!NOTE]
 >Het analistrapport bevat ook **algemene detecties** die een breed scala aan bedreigingen kunnen identificeren, naast onderdelen of gedragingen die specifiek zijn voor de bijgespoorde bedreiging. Deze algemene detecties worden niet weergegeven in de grafieken.
 
-### <a name="endpoint-detection-and-response-edr-alerts"></a>EDR-waarschuwingen (Endpoint Detection and Response)
-EDR-waarschuwingen worden verhoogd voor [apparaten die zijn aan boord van Microsoft Defender voor Eindpunt](onboard-configure.md). Deze waarschuwingen zijn in het algemeen afhankelijk van beveiligingssignalen die zijn verzameld door de Microsoft Defender voor eindpunten-sensor en andere mogelijkheden voor eindpunten, zoals antivirusprogramma's, netwerkbeveiliging, tamperbeveiliging, die fungeren als krachtige signaalbronnen.
+### <a name="endpoint-detection-and-response-edr-alerts"></a>Waarschuwingen voor eindpuntdetectie en antwoord (EDR)
+EDR waarschuwingen worden opgeheven voor [apparaten die zijn aan boord van Microsoft Defender voor Eindpunt](onboard-configure.md). Deze waarschuwingen zijn in het algemeen afhankelijk van beveiligingssignalen die zijn verzameld door de Microsoft Defender voor eindpunten-sensor en andere mogelijkheden voor eindpunten, zoals antivirusprogramma's, netwerkbeveiliging, tamperbeveiliging, die fungeren als krachtige signaalbronnen.
 
-Net als de lijst met antivirusdetecties zijn sommige EDR-waarschuwingen ontworpen om een algemene vlag te geven voor verdacht gedrag dat mogelijk niet is gekoppeld aan de bijgespoorde bedreiging. In dergelijke gevallen wordt in het rapport duidelijk aangegeven dat de waarschuwing 'algemeen' is en dat dit geen invloed heeft op een van de grafieken in het rapport.
+Net als de lijst met antivirusdetecties zijn sommige EDR ontworpen om verdacht gedrag te markeren dat mogelijk niet is gekoppeld aan de bijgespoorde bedreiging. In dergelijke gevallen wordt in het rapport duidelijk aangegeven dat de waarschuwing 'algemeen' is en dat dit geen invloed heeft op een van de grafieken in het rapport.
 
 ## <a name="find-subtle-threat-artifacts-using-advanced-hunting"></a>Subtiele bedreigingsartefacten zoeken met behulp van geavanceerde jacht
 Met detecties kunt u de bijgespoorde bedreiging automatisch identificeren en stoppen, maar veel aanvalsactiviteiten laten subtiele sporen achter die extra controle vereisen. Sommige aanvalsactiviteiten vertonen gedrag dat ook normaal kan zijn, dus als u ze dynamisch detecteert, kan dit leiden tot operationele ruis of zelfs onwaar positieven.

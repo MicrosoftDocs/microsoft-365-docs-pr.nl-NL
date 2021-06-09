@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Informatie over de basisstappen voor het maken van een trefwoordenlijst in het Office 365-beveiligings- en compliancecentrum.
-ms.openlocfilehash: 24f6bb636c702438be8ca9520c6523031f297410
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 1e1aa45c3bf4d31e4c969b0bc0949109fa716467
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683761"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841160"
 ---
 # <a name="create-a-keyword-dictionary"></a>Een woordenlijst met trefwoorden maken
 
@@ -31,7 +31,7 @@ Preventie van gegevensverlies (DLP) kan uw vertrouwelijke items identificeren, c
 
 ## <a name="keyword-dictionary-limits"></a>Limieten trefwoordenlijst
 
-Er geldt een limiet van 50 vertrouwelijke informatietypen op basis van trefwoordlijsten die per tenant kunnen worden aangemaakt. Als u wilt weten hoeveel woordenlijsten u in uw tenant hebt, maakt u verbinding via de procedures in [Verbinding maken het Beveiligings- en compliancecentrum in PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) om verbinding te maken met uw tenant en dit PowerShell-script uit te voeren.
+Er geldt een limiet van 50 vertrouwelijke informatietypen op basis van trefwoordlijsten die per tenant kunnen worden aangemaakt. Als u wilt weten hoeveel woordenlijsten u in uw tenant hebt, maakt u verbinding via de procedures in [Verbinding maken het Beveiligings- en compliancecentrum in PowerShell](/powershell/exchange/connect-to-scc-powershell) om verbinding te maken met uw tenant en dit PowerShell-script uit te voeren.
 
 ```powershell
 $rawFile = $env:TEMP + "\rule.xml"

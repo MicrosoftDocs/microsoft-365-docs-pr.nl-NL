@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 7ed7390f67747d176145bb051d8b1633a7146a23
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: d0cb4a3d01c1380f4fd06999c8f81a4054e2fd00
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730808"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844428"
 ---
 # <a name="onboard-previous-versions-of-windows"></a>Onboarden eerdere versies van Windows
 
@@ -59,7 +59,7 @@ Defender for Endpoint is geïntegreerd met System Center Endpoint Protection om 
 De volgende stappen zijn vereist om deze integratie mogelijk te maken: 
 - Installeer de update van het anti-malwareplatform van januari [2017 voor Endpoint Protection clients](https://support.microsoft.com/help/3209361/january-2017-anti-malware-platform-update-for-endpoint-protection-clie) 
 - Het lidmaatschap van de SCEP-client Cloud Protection Service configureren op **de instelling Geavanceerd**
-- Configureer uw netwerk om verbindingen met de Microsoft Defender Antivirus toestaan. Zie Verbindingen met de Microsoft Defender Antivirus [cloud toestaan voor meer informatie.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-network-connections-microsoft-defender-antivirus#allow-connections-to-the-microsoft-defender-antivirus-cloud)
+- Configureer uw netwerk om verbindingen met de Microsoft Defender Antivirus toestaan. Zie Verbindingen met de Microsoft Defender Antivirus [cloud toestaan voor meer informatie.](/windows/security/threat-protection/microsoft-defender-antivirus/configure-network-connections-microsoft-defender-antivirus#allow-connections-to-the-microsoft-defender-antivirus-cloud)
 
 ## <a name="install-and-configure-microsoft-monitoring-agent-mma-to-report-sensor-data-to-microsoft-defender-for-endpoint"></a>Microsoft Monitoring Agent (MMA) installeren en configureren om sensorgegevens te rapporteren aan Microsoft Defender voor Eindpunt
 
@@ -90,10 +90,10 @@ Bekijk de volgende details om de minimale systeemvereisten te controleren:
    - De werkruimte-id en -werkruimtecode kopiëren
 
 3. Kies een van de volgende installatiemethoden om de agent te installeren met behulp van de werkruimte-id en de werkruimtetoets:
-    - [Installeer de agent handmatig met installatie](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-setup-wizard). <br>
+    - [Installeer de agent handmatig met installatie](/azure/log-analytics/log-analytics-windows-agents#install-agent-using-setup-wizard). <br>
       Selecteer op **de pagina Opties** voor agentinstellingen Verbinding maken agent naar Azure Log Analytics **(OMS)**
-    - [Installeer de agent met de opdrachtregel](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-command-line).
-    - [Configureer de agent met behulp van een script.](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-dsc-in-azure-automation)
+    - [Installeer de agent met de opdrachtregel](/azure/log-analytics/log-analytics-windows-agents#install-agent-using-command-line).
+    - [Configureer de agent met behulp van een script.](/azure/log-analytics/log-analytics-windows-agents#install-agent-using-dsc-in-azure-automation)
 
    > [!NOTE]
    > Als u een klant van de Amerikaanse overheid bent [,](gov.md)moet u onder 'Azure Cloud' de parameter 'Azure US Government' kiezen als u de installatiewizard gebruikt of als u een opdrachtregel of een script gebruikt. Stel de parameter 'OPINSIGHTS_WORKSPACE_AZURE_CLOUD_TYPE' in op 1.
@@ -104,8 +104,8 @@ Wanneer u klaar bent, ziet u binnen een uur onboarded eindpunten in de portal.
 
 ### <a name="configure-proxy-and-internet-connectivity-settings"></a>Proxy- en internetconnectiviteitsinstellingen configureren
  
-- Elk Windows eindpunt moet verbinding kunnen maken met internet via HTTPS. Deze verbinding kan rechtstreeks zijn, met behulp van een proxy of via de [OMS Gateway.](https://docs.microsoft.com/azure/log-analytics/log-analytics-oms-gateway)
-- Als een proxy of firewall standaard al het verkeer blokkeert en alleen specifieke domeinen via of HTTPS-scannen (SSL-inspectie) is ingeschakeld, moet u ervoor zorgen dat u toegang tot URL's van de Defender voor [Eindpunt-service](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-proxy-internet#enable-access-to-microsoft-defender-atp-service-urls-in-the-proxy-server)inschakelen.
+- Elk Windows eindpunt moet verbinding kunnen maken met internet via HTTPS. Deze verbinding kan rechtstreeks zijn, met behulp van een proxy of via de [OMS Gateway.](/azure/log-analytics/log-analytics-oms-gateway)
+- Als een proxy of firewall standaard al het verkeer blokkeert en alleen specifieke domeinen via of HTTPS-scannen (SSL-inspectie) is ingeschakeld, moet u ervoor zorgen dat u toegang tot URL's van de Defender voor [Eindpunt-service](/microsoft-365/security/defender-endpoint/configure-proxy-internet#enable-access-to-microsoft-defender-atp-service-urls-in-the-proxy-server)inschakelen.
 
 ## <a name="offboard-client-endpoints"></a>Offboard client-eindpunten
 Als u offboard wilt, kunt u de MMA-agent van het eindpunt verwijderen of deze loskoppelen van de rapportage naar uw Werkruimte Defender voor Eindpunt. Na het offboarden van de agent verzendt het eindpunt geen sensorgegevens meer naar Defender voor Eindpunt. 

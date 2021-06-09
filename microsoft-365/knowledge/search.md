@@ -1,7 +1,7 @@
 ---
 title: Microsoft Search gebruiken om onderwerpen te zoeken in Microsoft Viva-onderwerpen
-ms.author: efrene
-author: efrene
+ms.author: chuckedmonson
+author: chucked
 manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: ''
 localization_priority: None
 description: Meer informatie over hoe u kunt zoeken naar onderwerpen in Microsoft Viva.
-ms.openlocfilehash: 36901cf32a0633aaa5fc08e45021d13c7b06dd0b
-ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
+ms.openlocfilehash: bce9309d27b76854b927922f39389c18e1c09449
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52795992"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844729"
 ---
 # <a name="use-microsoft-search-to-find-topics-in-microsoft-viva-topics"></a>Microsoft Search gebruiken om onderwerpen te zoeken in Microsoft Viva-onderwerpen
 
@@ -23,7 +23,7 @@ Hoewel Gebruikers van Viva-onderwerpen onderwerpen kunnen vinden via onderwerp h
 
 ## <a name="topic-answer"></a>Antwoord op onderwerp
 
-Wanneer u zoekt naar een specifiek onderwerp in Microsoft Search (bijvoorbeeld 'Saturnus'), als er een onderwerp bestaat en wordt gevonden, wordt het resultaat weergegeven in de suggestienotatie Antwoorden.
+Wanneer u zoekt naar een specifiek onderwerp in Microsoft Search (bijvoorbeeld 'Saturnus'), als een onderwerp bestaat en wordt gevonden, wordt het resultaat weergegeven in de suggestienotatie voor het onderwerpantwoord.
 
 Het antwoord op het onderwerp wordt weergegeven:
 - Onderwerpnaam
@@ -56,4 +56,4 @@ Voor gebruikers die op zoek zijn naar informatie over het boeken van een reis vo
  
 ### <a name="search-results-priority"></a>Prioriteit voor zoekresultaten 
 
-In de zoekervaring van de gebruiker wordt, wanneer een gebruiker zoekt naar een term zoals 'reizen', een bladwijzer voor een onderwerp weergegeven, als er een bladwijzer beschikbaar is.
+Wanneer een gebruiker in de zoekervaring van de gebruiker zoekt naar een term zoals 'reizen', wordt er een bladwijzer weergegeven in plaats van een onderwerp, als er een bladwijzer beschikbaar is.

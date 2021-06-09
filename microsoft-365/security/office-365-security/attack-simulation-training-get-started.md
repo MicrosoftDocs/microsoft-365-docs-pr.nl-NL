@@ -20,12 +20,12 @@ ms.custom:
 description: Beheerders kunnen leren hoe ze training voor de aanvalssimulatie kunnen gebruiken om gesimuleerde phishing- en wachtwoordaanvallen uit te voeren in hun Microsoft 365 E5 of Microsoft Defender voor Office 365 Plan 2-organisaties.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a5986bbeebd49223ebfd74773346f27fc5297243
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: c5d4b77204f207c31f2014df797f6209b92c9ccb
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730902"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52822332"
 ---
 # <a name="get-started-using-attack-simulation-training"></a>Aan de slag met aanvalssimulatietraining
 
@@ -38,7 +38,7 @@ Als uw organisatie beschikt over Microsoft 365 E5 of Microsoft Defender voor Off
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- Als u het Microsoft-beveiligingscentrum wilt openen, gaat u naar <https://security.microsoft.com/> . Training voor aanvalssimulaties is beschikbaar op **training voor e-mail en** \> **samenwerkingssimulaties** voor aanvallen. Als u rechtstreeks naar de training Aanvalssimulatie wilt gaan, opent u <https://security.microsoft.com/attacksimulator> .
+- Als u het Microsoft-beveiligingscentrum wilt openen, gaat u naar <https://security.microsoft.com> . Training voor aanvalssimulaties is beschikbaar op **training voor e-mail en** \> **samenwerkingssimulaties** voor aanvallen. Als u rechtstreeks naar de training Aanvalssimulatie wilt gaan, opent u <https://security.microsoft.com/attacksimulator> .
 
 - Zie Microsoft Defender voor Office 365 servicebeschrijving voor meer informatie over de beschikbaarheid van training voor attack-Microsoft 365 [verschillende abonnementen.](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
 

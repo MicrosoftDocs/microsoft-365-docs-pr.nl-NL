@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Beheerders kunnen een TeleMessage-connector instellen voor het importeren en archiveren van Sms, MMS en spraakoproepen vanaf mobiele Android-telefoons. Op deze manier kunt u gegevens van externe gegevensbronnen archiveren in Microsoft 365, zodat u compliancefuncties, zoals juridische bewaring, inhoudszoekbeleid en bewaarbeleid, kunt gebruiken om de gegevens van derden van uw organisatie te beheren.
-ms.openlocfilehash: 92dcfbebaeb9f138b5a057d36e328967c43c9544
-ms.sourcegitcommit: b169f6ad3e44a7fcebf77f43be9eb5edd84ea5ef
+ms.openlocfilehash: 6a70d57c5728b5e69df09a523f865d7e8beb8130
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52162778"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52822224"
 ---
 # <a name="set-up-a-connector-to-archive-android-mobile-data"></a>Een connector instellen voor het archiveren van mobiele Android-gegevens
 
@@ -39,7 +39,7 @@ In het volgende overzicht wordt uitgelegd hoe het gebruik van een connector voor
 
 4. De verbindingslijn importeert de mobiele communicatie-items naar het postvak van een specifieke gebruiker. Er wordt een nieuwe map met de naam Android Archiver gemaakt in het postvak van de specifieke gebruiker en de items worden er in geïmporteerd. De verbindingslijn wordt toegewezen met behulp van de waarde van de eigenschap *E-mailadres van de* gebruiker. Elk e-mailbericht bevat deze eigenschap, die wordt gevuld met het e-mailadres van elke deelnemer van het e-mailbericht. Naast automatische gebruikerstoewijzing met  de waarde van de eigenschap E-mailadres van de gebruiker, kunt u ook een aangepaste toewijzing definiëren door een CSV-toewijzingsbestand te uploaden. Dit toewijzingsbestand moet het mobiele nummer en het bijbehorende Microsoft 365 voor elke gebruiker bevatten. Als u automatische gebruikerstoewijzing inschakelen en een aangepaste toewijzing biedt, wordt voor elk e-mailitem eerst naar aangepast toewijzingsbestand gekijken. Als er geen geldige Microsoft 365 wordt gevonden die overeenkomt met het mobiele nummer van een gebruiker, gebruikt de verbindingslijn de eigenschap e-mailadres van de gebruiker van het e-mailitem. Als de verbindingslijn geen geldige Microsoft 365 gebruiker vindt in het  aangepaste toewijzingsbestand of de eigenschap E-mailadres van het e-mailitem van de gebruiker, wordt het item niet geïmporteerd.
 
-## <a name="before-you-begin"></a>Voordat u begint
+## <a name="before-you-set-up-a-connector"></a>Voordat u een verbindingslijn in stelt
 
 Sommige implementatiestappen die nodig zijn om Android-communicatiegegevens te archiveren, zijn extern Microsoft 365 en moeten worden voltooid voordat u de verbindingslijn in het compliancecentrum kunt maken.
 
@@ -50,6 +50,8 @@ Sommige implementatiestappen die nodig zijn om Android-communicatiegegevens te a
 - Installeer en activeer de app TeleMessage Android Archiver op de mobiele telefoons van uw werknemers.
 
 - De gebruiker die een Android Archiver-connector maakt, moet de rol Postvak importeren exporteren in Exchange Online. Dit is vereist om verbindingslijnen toe te voegen op de pagina **Gegevensconnectors** in het Microsoft 365 compliancecentrum. Deze rol is standaard niet toegewezen aan een rollengroep in Exchange Online. U kunt de rol Postvak importeren exporteren toevoegen aan de rollengroep Organisatiebeheer in Exchange Online. U kunt ook een rollengroep maken, de rol Postvak importeren exporteren toewijzen en vervolgens de juiste gebruikers toevoegen als leden. Zie de secties [](/Exchange/permissions-exo/role-groups#create-role-groups) Rollengroepen [](/Exchange/permissions-exo/role-groups#modify-role-groups) maken of Rollengroepen wijzigen in het artikel 'Rollengroepen beheren in Exchange Online'.
+
+- Deze gegevensconnector is beschikbaar in GCC omgevingen in de Microsoft 365 amerikaanse overheidscloud. Toepassingen en services van derden kunnen betrekking hebben op het opslaan, verzenden en verwerken van klantgegevens van uw organisatie op systemen van derden die buiten de Microsoft 365-infrastructuur vallen en daarom niet worden gedekt door de toezeggingen van Microsoft 365 compliance en gegevensbescherming. Microsoft geeft niet aan dat het gebruik van dit product om verbinding te maken met toepassingen van derden betekent dat deze toepassingen van derden compatibel zijn met FEDRAMP.
 
 ## <a name="create-an-android-archiver-connector"></a>Een Android Archiver-connector maken
 

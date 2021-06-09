@@ -1,6 +1,6 @@
 ---
-title: Microsoft Threat Experts-mogelijkheden configureren en beheren via Microsoft 365 Defender
-description: Abonneer u op Microsoft Threats Experts via Microsoft 365 Defender om het te configureren, te beheren en te gebruiken in uw dagelijkse beveiligingsbewerkingen en beveiligingsbeheer.
+title: De mogelijkheden voor Microsoft Threat Experts configureren en beheren via Microsoft 365 Defender
+description: Abonneer u op Microsoft Threats Experts Microsoft 365 Defender om het te configureren, te beheren en te gebruiken in uw dagelijkse beveiligingsbewerkingen en beveiligingsbeheer.
 keywords: Microsoft Threat Experts, managed threat hunting service, MTE, Microsoft managed hunting service
 search.product: Windows 10
 search.appverid: met150
@@ -14,14 +14,14 @@ localization_priority: normal
 manager: dansimp
 audience: ITPro
 ms.topic: article
-ms.openlocfilehash: 38bf768f1a5603fa3da0d7a3acc8f409ed6372de
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: 0ccb8482dae94de4a9f43a5ecaf7c701e6dd82a5
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765525"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844788"
 ---
-# <a name="configure-and-manage-microsoft-threat-experts-capabilities-through-microsoft-365-defender"></a>Microsoft Threat Experts-mogelijkheden configureren en beheren via Microsoft 365 Defender
+# <a name="configure-and-manage-microsoft-threat-experts-capabilities-through-microsoft-365-defender"></a>De mogelijkheden voor Microsoft Threat Experts configureren en beheren via Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -35,47 +35,47 @@ ms.locfileid: "51765525"
 ## <a name="before-you-begin"></a>Voordat u begint
 
 > [!IMPORTANT]
-> Voordat u van toepassing bent, moet u de geschiktheidsvereisten voor de Microsoft Threat Experts bespreken: Targeted Attack Notifications managed threat hunting service met uw Microsoft Technical Service-provider en accountteam.
+> Voordat u van toepassing bent, moet u de geschiktheidsvereisten voor de Microsoft Threat Experts - Targeted Attack Notifications managed threat hunting service bespreken met uw Microsoft Technical Service-provider en accountteam.
 
-Als u gerichte aanvalsmeldingen wilt ontvangen, moet Microsoft 365 Defender zijn geïmplementeerd met apparaten die zijn geregistreerd. Dien vervolgens een toepassing in via de M365-portal voor Microsoft Threat Experts - Targeted Attack Notifications.
+Als u gerichte aanvalsmeldingen wilt ontvangen, moet u een Microsoft 365 Defender hebben geïmplementeerd met apparaten die zijn geregistreerd. Verzend vervolgens een toepassing via de M365-portal voor Microsoft Threat Experts - Targeted Attack Notifications.
 
-Neem contact op met uw accountteam of Microsoft-vertegenwoordiger om u te abonneren op Microsoft Threat Experts - Experts on Demand. Met Experts on Demand kunt u overleggen met onze bedreigingsexperts over hoe u uw organisatie kunt beschermen tegen relevante detecties en tegens.
+Neem contact op met uw accountteam of Microsoft-vertegenwoordiger om u Microsoft Threat Experts - Experts on Demand. Met Experts on Demand kunt u overleggen met onze bedreigingsexperts over hoe u uw organisatie kunt beschermen tegen relevante detecties en tegens.
 
-## <a name="apply-for-microsoft-threat-experts---targeted-attack-notifications-service"></a>Microsoft Threat Experts aanvragen - Service Meldingen van gerichte aanvallen
+## <a name="apply-for-microsoft-threat-experts---targeted-attack-notifications-service"></a>Aanvragen voor Microsoft Threat Experts - Targeted Attack Notifications-service
 
-Als u al Microsoft Defender voor Eindpunt en Microsoft 365 Defender hebt, kunt u Microsoft Threat Experts aanvragen: targeted attack notifications via hun Microsoft 365 Defender-portal.  Met gerichte aanvalsmeldingen krijgt u speciale inzichten en analyses om de meest kritieke bedreigingen voor uw organisatie te identificeren, zodat u er snel op kunt reageren.
+Als u al Microsoft Defender voor Eindpunt en Microsoft 365 Defender hebt, kunt u een aanvraag indienen voor Microsoft Threat Experts - Targeted Attack Notifications via hun Microsoft 365 Defender-portal.  Met gerichte aanvalsmeldingen krijgt u speciale inzichten en analyses om de meest kritieke bedreigingen voor uw organisatie te identificeren, zodat u er snel op kunt reageren.
 
-1. Ga in het navigatiedeelvenster naar Instellingen > Eindpunten > Algemene > Geavanceerde functies **> Microsoft Threat Experts - Targeted Attack Notifications**.
+1. Ga in het navigatiedeelvenster naar Instellingen > eindpunten > Algemene > Geavanceerde functies > Microsoft Threat Experts - Meldingen voor gerichte **aanvallen.**
 
-2. Selecteer **Toepassen.**
+2. Selecteer **Toepassen**.
 
-    ![Afbeelding van instellingen voor Microsoft Threat Experts](../../media/mte/mte-collaboratewithmte.png)
+    ![Afbeelding van Microsoft Threat Experts instellingen](../../media/mte/mte-collaboratewithmte.png)
 
 3. Voer uw naam en e-mailadres in, zodat Microsoft contact met u kan opnemen over uw toepassing.
 
-    ![Afbeelding van microsoft Threat Experts-toepassing](../../media/mte/mte-apply.png)
+    ![Afbeelding van Microsoft Threat Experts toepassing](../../media/mte/mte-apply.png)
 
 4. Lees de [privacyverklaring](https://privacy.microsoft.com/en-us/privacystatement)en selecteer **Verzenden** wanneer u klaar bent. U ontvangt een welkomst-e-mail zodra uw toepassing is goedgekeurd.
 
-    ![Afbeelding van microsoft Threat Experts-toepassingsbevestiging](../../media/mte/mte-applicationconfirmation.png)
+    ![Afbeelding van Microsoft Threat Experts toepassingsbevestiging](../../media/mte/mte-applicationconfirmation.png)
 
 5. Nadat u uw welkomstbericht hebt ontvangen, ontvangt u automatisch gerichte meldingen over aanvallen.
 
-6. U kunt uw status verifiëren door naar **Instellingen > eindpunten > Algemene > Geavanceerde functies.** Nadat deze is goedgekeurd, is **de wisselknop Microsoft Threat Experts - Targeted Attack Notification** zichtbaar en ingeschakeld. 
+6. U kunt uw status verifiëren door naar Instellingen > **eindpunten > Algemene > Geavanceerde functies.** Nadat deze is goedgekeurd, **Microsoft Threat Experts de** wisselknop Gerichte aanvalsmelding zichtbaar en **ingeschakeld.**
 
-## <a name="where-youll-see-the-targeted-attack-notifications-from-microsoft-threat-experts"></a>Waar ziet u de meldingen over gerichte aanvallen van Microsoft Threat Experts
+## <a name="where-youll-see-the-targeted-attack-notifications-from-microsoft-threat-experts"></a>Waar ziet u de meldingen van gerichte aanvallen van Microsoft Threat Experts
 
-U kunt een gerichte aanvalsmelding ontvangen van Microsoft Threat Experts via de volgende mediums:
+U kunt een gerichte aanvalsmelding ontvangen Microsoft Threat Experts de volgende mediums:
 
-- De pagina Incidenten van de Microsoft 365 **Defender-portal**
-- Het dashboard Waarschuwingen van de Microsoft 365 **Defender-portal**
-- OData alerting [API](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/get-alerts) and [REST API](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/pull-alerts-using-rest-api)
-- [DeviceAlertEvents](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-devicealertevents-table) table in Advanced hunting
+- De Microsoft 365 de pagina Incidenten van de **Defender-portal**
+- Het Microsoft 365 het Dashboard Waarschuwingen van de **Defender-portal**
+- OData alerting [API](/windows/security/threat-protection/microsoft-defender-atp/get-alerts) and [REST API](/windows/security/threat-protection/microsoft-defender-atp/pull-alerts-using-rest-api)
+- [DeviceAlertEvents](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-devicealertevents-table) table in Advanced hunting
 - Uw Postvak IN, als u ervoor kiest om gerichte aanvalsmeldingen per e-mail naar u te laten verzenden. Zie [Hieronder een meldingsregel voor e-mail](#create-an-email-notification-rule) maken.
 
 ### <a name="create-an-email-notification-rule"></a>Een meldingsregel voor e-mail maken
 
-U kunt regels maken voor het verzenden van e-mailmeldingen voor geadresseerden van meldingen. Zie Waarschuwingsmeldingen  [configureren](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-email-notifications) voor het maken, bewerken, verwijderen of oplossen van e-mailmeldingen voor meer informatie.
+U kunt regels maken voor het verzenden van e-mailmeldingen voor geadresseerden van meldingen. Zie Waarschuwingsmeldingen  [configureren](/windows/security/threat-protection/microsoft-defender-atp/configure-email-notifications) voor het maken, bewerken, verwijderen of oplossen van e-mailmeldingen voor meer informatie.
 
 ## <a name="view-targeted-attack-notifications"></a>Meldingen van gerichte aanvallen weergeven
 
@@ -91,28 +91,28 @@ Als u al klant bent van Microsoft Defender voor Eindpunt, kunt u contact opnemen
 
 ## <a name="consult-a-microsoft-threat-expert-about-suspicious-cybersecurity-activities-in-your-organization"></a>Raadpleeg een Microsoft-bedreigingsexpert over verdachte cyberbeveiligingsactiviteiten in uw organisatie
 
-U kunt contact opnemen met Microsoft Threat Experts vanuit de Microsoft 365 Defender-portal. Experts kunnen u helpen complexe bedreigingen en gerichte aanvalsmeldingen te begrijpen. Werk samen met experts voor meer informatie over waarschuwingen en incidenten, of advies over het afhandelen van compromissen. Krijg inzicht in de context van bedreigingsinformatie die wordt beschreven in uw portaldashboard.
+U kunt contact opnemen Microsoft Threat Experts vanuit de portal Microsoft 365 Defender. Experts kunnen u helpen complexe bedreigingen en gerichte aanvalsmeldingen te begrijpen. Werk samen met experts voor meer informatie over waarschuwingen en incidenten, of advies over het afhandelen van compromissen. Krijg inzicht in de context van bedreigingsinformatie die wordt beschreven in uw portaldashboard.
 
 > [!NOTE]
 >
 > - Waarschuwingsvragen met betrekking tot de aangepaste bedreigingsinformatiegegevens van uw organisatie worden momenteel niet ondersteund. Neem contact op met uw beveiligingsbewerkingen of incidentresponsteam voor meer informatie.
-> - U moet de machtiging Beveiligingsinstellingen **beheren hebben in** de Microsoft 365 Defender-portal om een onderzoek in te dienen via het formulier Een **bedreigingsexpert** raadplegen.
+> - U moet de machtiging Beveiligingsinstellingen beheren in het **beveiligingscentrum hebben in** Microsoft 365 Defender-portal om een onderzoek in te dienen via het formulier Een **bedreigingsexpert** raadplegen.
 
 1. Ga naar de portalpagina die betrekking heeft op de informatie die u wilt onderzoeken: bijvoorbeeld **Apparaat,** **Waarschuwing** of **Incident.** Zorg ervoor dat de portalpagina met betrekking tot uw onderzoek in beeld is voordat u een onderzoeksaanvraag verzendt.
 
 2. Selecteer in het bovenste menu **? Raadpleeg een bedreigingsexpert.**
 
-    ![Afbeelding van Microsoft Threat Experts Experts on Demand in het menu](../../media/mte/incidents-action-mte-highlighted.png)
+    ![Afbeelding van Microsoft Threat Experts experts op aanvraag in het menu](../../media/mte/incidents-action-mte-highlighted.png)
 
     Er wordt een flyoutscherm geopend.
 
     De koptekst geeft aan of u een proefabonnement hebt of een volledig Microsoft Threat Experts - Experts on-Demand-abonnement.
 
-    ![Afbeelding van microsoft Threat Experts Experts on Demand trial subscription screen](../../media/mte/mte-trial.png)
+    ![Afbeelding van Microsoft Threat Experts het proefabonnementsscherm van Experts on Demand](../../media/mte/mte-trial.png)
 
     Het **veld Onderwerp** onderzoeken wordt al ingevuld met de koppeling naar de relevante pagina voor uw aanvraag.
 
-3. Geef in het volgende veld voldoende informatie op om de Microsoft Threat Experts voldoende context te geven om het onderzoek te starten.
+3. Geef in het volgende veld voldoende informatie op om de Microsoft Threat Experts context te geven om het onderzoek te starten.
 
 4. Voer het e-mailadres in dat u wilt gebruiken om te corresponderen met Microsoft Threat Experts.
 
@@ -144,11 +144,11 @@ Bekijk deze video voor een kort overzicht van de Microsoft Services Hub.
 - We hebben onlangs een blogbericht gezien over een bedreiging die is gericht op onze branche. Kunt u ons helpen begrijpen welke bescherming Microsoft 365 Defender biedt tegen deze bedreigingsacteur?
 - We hebben onlangs een phishingcampagne gezien die is uitgevoerd tegen onze organisatie. Kunt u ons vertellen of dit specifiek is gericht op ons bedrijf of verticaal?
 
-### <a name="microsoft-threat-experts-alert-communications"></a>Waarschuwingscommunicatie van Microsoft Threat Experts
+### <a name="microsoft-threat-experts-alert-communications"></a>Microsoft Threat Experts waarschuwingscommunicatie
 
 - Kan uw team voor incidentrespons ons helpen bij het adres van de gerichte aanvalmelding die we hebben ontvangen?
 - We hebben deze gerichte aanvalsmelding ontvangen van Microsoft Threat Experts. We hebben geen eigen team voor incidentrespons. Wat kunnen we nu doen en hoe kunnen we het incident bevatten?
-- We hebben een melding van een gerichte aanval ontvangen van Microsoft Threat Experts. Welke gegevens kunt u ons geven die we kunnen doorgeven aan ons team voor incidentrespons?
+- We hebben een gerichte aanvalsmelding ontvangen van Microsoft Threat Experts. Welke gegevens kunt u ons geven die we kunnen doorgeven aan ons team voor incidentrespons?
 
 > [!NOTE]
 > Microsoft Threat Experts is een beheerde service voor het zoeken naar bedreigingen en niet een incidentresponsservice. De experts kunnen het onderzoek echter naadloos overstappen op de services Detection and Response Team (DART) van Microsoft Cyberbeveiliging Solutions Group (CSG) indien nodig. U kunt er ook voor kiezen om contact op te nemen met uw eigen team voor incidentrespons om problemen aan te pakken die een reactie op incidenten vereisen.

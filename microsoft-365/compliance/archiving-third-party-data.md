@@ -22,12 +22,12 @@ ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 ms.custom:
 - seo-marvel-apr2020
 description: Meer informatie over het importeren van gegevens van derden van sociale mediaplatforms, chatplatforms en platformen voor documentsamenwerking om postvakken Microsoft 365 maken.
-ms.openlocfilehash: 22a2e6dbadc3c259896348fc89754882db85cfb4
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: 17172daa60721523bbfb97ab81f7a57078eb1b1c
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "52162592"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52822151"
 ---
 # <a name="archive-third-party-data"></a>Gegevens van derden archiveren
 
@@ -86,7 +86,7 @@ De volgende tabel bevat de gegevensconnectors van derden die beschikbaar zijn in
 ||||||||
 
 > [!NOTE]
-> <sup>1</sup> Gegevensconnector die door TeleMessage wordt geleverd. Voordat u gegevens kunt archiveren in Microsoft 365, moet u met TeleMessage werken om de archiveringsservice voor uw organisatie in te stellen. Zie de vereiste sectie in de stapsgewijs instructies voor dit gegevenstype voor meer informatie.<br/><br/><sup>2</sup> Gegevensconnector geleverd door Veritas. Voordat u gegevens kunt archiveren in Microsoft 365, moet u samenwerken met Veritas om de archiveringsservice voor uw organisatie in te stellen. Zie de vereiste sectie in de stapsgewijs instructies voor dit gegevenstype voor meer informatie.
+> <sup>1</sup> Gegevensconnector die door TeleMessage wordt geleverd. Voordat u gegevens kunt archiveren in Microsoft 365, moet u met TeleMessage werken om de archiveringsservice voor uw organisatie in te stellen. Zie de vereiste sectie in de stapsgewijs instructies voor dit gegevenstype voor meer informatie. TeleMessage-gegevensconnectoren zijn ook beschikbaar in GCC omgevingen in Microsoft 365 cloud van de Amerikaanse overheid. Zie de sectie Gegevensconnectoren in de cloud van de Amerikaanse overheid [in](#data-connectors-in-the-us-government-cloud) dit artikel voor meer informatie. <br/><br/><sup>2</sup> Gegevensconnector geleverd door Veritas. Voordat u gegevens kunt archiveren in Microsoft 365, moet u samenwerken met Veritas om de archiveringsservice voor uw organisatie in te stellen. Zie de vereiste sectie in de stapsgewijs instructies voor dit gegevenstype voor meer informatie.
 
 De gegevens van derden in de vorige tabel (met uitzondering van HR-gegevens en fysieke foutgegevens) worden geïmporteerd in gebruikerspostvakken. De bijbehorende complianceoplossingen die gegevens van derden ondersteunen, worden toegepast op het postvak van de gebruiker waarin de gegevens zijn opgeslagen.
 
@@ -122,9 +122,25 @@ Met [de functie recordbeheer](records-management.md) in Microsoft 365 kunt u geg
 
 U kunt communicatie [compliance gebruiken](communication-compliance.md) om gegevens van derden te onderzoeken om te controleren of deze voldoen aan de gegevensstandaarden van uw organisatie. U kunt dit doen door ongepaste berichten in uw organisatie te detecteren, vast te leggen en herstelacties uit te voeren. U kunt bijvoorbeeld de gegevens van derden controleren die u importeert voor aanstootgevende taal, gevoelige informatie en naleving van regelgeving.
 
-### <a name="insider-risk-management"></a>Intern risicobeheer
+### <a name="insider-risk-management"></a>Beheer van insider-risico's
 
 Signalen van gegevens van derden, zoals selectieve HR-gegevens, kunnen worden gebruikt door de [Insider-oplossing](insider-risk-management.md) voor risicobeheer om interne risico's te minimaliseren door u te laten detecteren, onderzoeken en handelen op risicovolle activiteiten in uw organisatie. Gegevens die door de HR-gegevensconnector worden geïmporteerd, worden bijvoorbeeld gebruikt als risicoindicatoren om te helpen bij het opsporen van diefstal van vertrekkende werknemersgegevens.
+
+## <a name="data-connectors-in-the-us-government-cloud"></a>Gegevensconnectoren in de Cloud van de Amerikaanse overheid
+
+Zoals eerder vermeld, zijn gegevensconnectoren die door TeleMessage worden geleverd, beschikbaar in de cloud van de Amerikaanse overheid. In de volgende tabel worden de specifieke overheidsomgevingen aangegeven die elke TeleMessage-gegevensconnector ondersteunen. Zie voor meer informatie over amerikaanse overheidswolken [Microsoft 365 Amerikaanse overheid.](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/microsoft-365-government-how-to-buy)
+
+|TeleMessage-gegevensconnector  |GCC  |GCC Hoog  |DoD  |
+|:---------|:---------|:---------|:---------|
+|Android Archiver | Ja | Nee | Nee |
+|AT&T Sms/MMS Network Archiver | Ja | Nee | Nee |
+|Bell Sms/MMS Network Archiver | Ja | Nee | Nee |
+|Enterprise Number Archiver | Ja | Nee | Nee |
+|O2 Sms en Voice Network Archiver | Ja         | Nee | Nee |
+|TELUS Sms Network Archiver | Ja | Nee | Nee |
+|Verizon Sms/MMS Network Archiver | Ja | Nee | Nee |
+|WhatsApp Archiver | Ja | Nee | Nee |
+|||||
 
 ## <a name="working-with-a-microsoft-partner-to-archive-third-party-data"></a>Werken met een Microsoft-partner om gegevens van derden te archiveren
 

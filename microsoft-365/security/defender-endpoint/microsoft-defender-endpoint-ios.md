@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 4a051742775c3d4e8b36bf0ba7a4fd2502763014
-ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
+ms.openlocfilehash: b4c2d586cd23a346db1bcebf891689ff648b639b
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52694459"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844704"
 ---
 # <a name="microsoft-defender-for-endpoint-on-ios"></a>Microsoft Defender voor Eindpunt op iOS
 
@@ -45,20 +45,20 @@ ms.locfileid: "52694459"
 
 **Voor eindgebruikers**
 
-- Microsoft Defender for Endpoint-licentie die is toegewezen aan de eindgebruiker(s) van de app. Zie [Microsoft Defender voor endpoint-licentievereisten](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/minimum-requirements#licensing-requirements).
+- Microsoft Defender for Endpoint-licentie die is toegewezen aan de eindgebruiker(s) van de app. Zie [Microsoft Defender voor endpoint-licentievereisten](/microsoft-365/security/defender-endpoint/minimum-requirements#licensing-requirements).
 
-- Apparaat(en) zijn [geregistreerd via de](https://docs.microsoft.com/mem/intune/user-help/enroll-your-device-in-intune-ios) Intune-bedrijfsportal app om intune-beleid voor apparaat compliance af te dwingen. Hiervoor moet aan de eindgebruiker een licentie Microsoft Intune toegewezen.
+- Apparaat(en) zijn [geregistreerd via de](/mem/intune/user-help/enroll-your-device-in-intune-ios) Intune-bedrijfsportal app om intune-beleid voor apparaat compliance af te dwingen. Hiervoor moet aan de eindgebruiker een licentie Microsoft Intune toegewezen.
     - Intune-bedrijfsportal app kan worden gedownload vanuit de [Apple App Store.](https://apps.apple.com/us/app/intune-company-portal/id719171358)
     - Apple staat niet toe dat gebruikers worden omgeleid om andere apps te downloaden uit de App Store en daarom moet deze stap worden uitgevoerd door de gebruiker voordat deze wordt onboarding naar de Microsoft Defender voor Endpoint-app.
 
-- Zie Licenties toewijzen aan gebruikers voor meer informatie over het toewijzen van [licenties.](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign)
+- Zie Licenties toewijzen aan gebruikers voor meer informatie over het toewijzen van [licenties.](/azure/active-directory/users-groups-roles/licensing-groups-assign)
 
 **Voor beheerders**
 
 - Toegang tot de Microsoft Defender-beveiligingscentrum portal.
 
     > [!NOTE]
-    > Microsoft Intune is de enige ondersteunde MDM-oplossing (Mobile Device Management) voor de implementatie van Microsoft Defender voor Eindpunt in iOS. Momenteel worden alleen geregistreerde apparaten ondersteund voor het afdwingen van Defender voor Eindpunt op iOS-beleid voor apparaat compliance in Intune.
+    > Microsoft Intune is de enige ondersteunde UEM-oplossing (Unified Endpoint Management) voor het implementeren van Microsoft Defender voor Eindpunt en het afdwingen van Defender voor endpoint-gerelateerde beleidsregels voor apparaat compliance in Intune.
 
 - Access to [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431), to deploy the app to enrolled user groups in your organization.
 
@@ -68,12 +68,9 @@ ms.locfileid: "52694459"
 
 - Apparaat is geregistreerd met de [Intune-bedrijfsportal app](https://apps.apple.com/us/app/intune-company-portal/id719171358).
 
-> [!NOTE]
-> **Microsoft Defender voor Eindpunt voor iOS is beschikbaar in [de Apple App Store.](https://aka.ms/mdatpiosappstore)**
-
 ## <a name="installation-instructions"></a>Installatie-instructies
 
-De implementatie van Microsoft Defender voor Eindpunt in iOS is via Microsoft Intune (MDM) en zowel gecontroleerde als niet-bewaakte apparaten worden ondersteund.
+De implementatie van Microsoft Defender voor Eindpunt in iOS is via Microsoft Intune (MDM) en zowel gecontroleerde als niet-bewaakte apparaten worden ondersteund. Eindgebruikers kunnen de app ook rechtstreeks installeren vanuit de [Apple App Store.](https://aka.ms/mdatpiosappstore)
 Zie Microsoft Defender voor eindpunten implementeren in [iOS voor meer informatie.](ios-install.md)
 
 ## <a name="resources"></a>Resources

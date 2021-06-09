@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 1d8f4452273047684a30db3b18d1281f40f46378
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 0b52b6f9b457dbe1a5984c3d68c7077f7037d498
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903296"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845076"
 ---
 # <a name="investigate-incidents-in-microsoft-defender-for-endpoint"></a>Incidenten in Microsoft Defender voor Eindpunt onderzoeken
 
@@ -83,7 +83,7 @@ Elk van de geanalyseerde entiteiten wordt gemarkeerd als geïnfecteerd, gesaneer
 Met Microsoft Defender voor Eindpunt worden de bedreigingsgegevens samengevoegd tot een incident, zodat u de patronen en correlaties kunt zien die afkomstig zijn van verschillende gegevenspunten. U kunt een dergelijke correlatie bekijken via de incidentgrafiek.
 
 ### <a name="incident-graph"></a>Incidentgrafiek
-The **Graph** vertelt het verhaal van de cyberbeveiligingsaanval. U ziet bijvoorbeeld wat het invoerpunt was, welke indicator voor compromissen of activiteit is waargenomen op welk apparaat. etc.
+De **Graph** vertelt het verhaal van de cyberbeveiligingsaanval. U ziet bijvoorbeeld wat het invoerpunt was, welke indicator voor compromissen of activiteit is waargenomen op welk apparaat. etc.
 
 ![Afbeelding van de incidentgrafiek](images/atp-incident-graph-tab.png)
 
@@ -92,6 +92,6 @@ U kunt op de cirkels in de incidentgrafiek klikken om de details van de schadeli
 ![Afbeelding van incidentdetails](images/atp-incident-graph-details.png)
 
 ## <a name="related-topics"></a>Verwante onderwerpen
-- [Incidentenwachtrij](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/view-incidents-queue)
-- [Incidenten in Microsoft Defender voor Eindpunt onderzoeken](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/investigate-incidents)
-- [Microsoft Defender voor eindpuntincidenten beheren](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/manage-incidents)
+- [Incidentenwachtrij](/microsoft-365/security/defender-endpoint/view-incidents-queue)
+- [Incidenten in Microsoft Defender voor Eindpunt onderzoeken](/microsoft-365/security/defender-endpoint/investigate-incidents)
+- [Microsoft Defender voor eindpuntincidenten beheren](/microsoft-365/security/defender-endpoint/manage-incidents)

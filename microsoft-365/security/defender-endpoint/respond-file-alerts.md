@@ -16,20 +16,20 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ba48adcf93c5b768b2280729b33a1a7d361919cb
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 1f189956d65e6d08d8e00272ba0d8db3ba59f6d4
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51059358"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844068"
 ---
-# <a name="take-response-actions-on-a-file"></a>Antwoordacties uitvoeren op een bestand
+# <a name="take-response-actions-on-a-file"></a>Acties ondernemen op een bestand
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 
 [!include[Prerelease information](../../includes/prerelease.md)]
 
@@ -44,7 +44,7 @@ Antwoordacties worden uitgevoerd boven aan de bestandspagina en bevatten:
 - Bestand stoppen en in quarantaine plaatsen
 - Indicator toevoegen
 - Downloadbestand
-- Een bedreigingsexpert raadplegen
+- Contact opnemen met een risicodeskundige
 - Actiecentrum
 
 U kunt ook bestanden indienen voor uitgebreide analyse, om het bestand uit te voeren in een beveiligde cloudsandbox. Wanneer de analyse is voltooid, krijgt u een gedetailleerd rapport met informatie over het gedrag van het bestand. U kunt bestanden indienen voor uitgebreide analyse en eerdere rapporten lezen door het **tabblad Diepe analyse te** selecteren. Deze bevindt zich onder de bestandsgegevenskaarten.
@@ -67,13 +67,13 @@ U kunt een aanval in uw organisatie bevatten door het schadelijke proces te stop
 > [!IMPORTANT]
 > U kunt deze actie alleen ondernemen als:
 >
-> - Op het apparaat waar u de actie op onderneemt, wordt Windows 10, versie 1703 of hoger uitgevoerd
+> - Het apparaat waar u de actie op onderneemt, wordt uitgevoerd Windows 10 versie 1703 of hoger
 > - Het bestand is niet eigendom van vertrouwde uitgevers van derden of niet ondertekend door Microsoft
-> - Microsoft Defender Antivirus moet ten minste actief zijn in de passieve modus. Zie Compatibiliteit met Microsoft Defender Antivirus voor meer [informatie.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)
+> - Microsoft Defender Antivirus moet ten minste actief zijn in de passieve modus. Zie Microsoft Defender Antivirus [compatibiliteit voor meer informatie.](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)
 
 De **actie Bestand stoppen en quarantaine** omvat het stoppen van lopende processen, het quarantineren van de bestanden en het verwijderen van permanente gegevens, zoals registersleutels.
 
-Deze actie wordt van kracht op apparaten met Windows 10, versie 1703 of hoger, waar het bestand de afgelopen 30 dagen is waargenomen.
+Deze actie wordt van kracht op apparaten Windows 10, versie 1703 of hoger, waar het bestand de afgelopen 30 dagen is waargenomen.
 
 > [!NOTE]
 > U kunt het bestand op elk moment vanuit quarantaine herstellen.
@@ -116,13 +116,13 @@ In de apparaattijdlijn wordt een nieuwe gebeurtenis toegevoegd voor elk apparaat
 
 Er wordt een waarschuwing weergegeven voordat de actie wordt geïmplementeerd voor bestanden die op grote schaal in een organisatie worden gebruikt. Het is om te valideren dat de bewerking is bedoeld.
 
-## <a name="restore-file-from-quarantine"></a>Bestand uit quarantaine herstellen
+## <a name="restore-file-from-quarantine"></a>Bestand in quarantaine herstellen
 
 U kunt een bestand terugdraaien en verwijderen uit quarantaine als u na een onderzoek hebt vastgesteld dat het bestand schoon is. Voer de volgende opdracht uit op elk apparaat waarop het bestand in quarantaine is geplaatst.
 
 1. Open een opdrachtregelprompt met verhoogde opdracht op het apparaat:
 
-   1. Ga naar **Start** en typ _cmd._
+   1. Go to **Start** and type _cmd_.
 
    1. Klik met de rechtermuisknop **op Opdrachtprompt** en selecteer **Uitvoeren als beheerder.**
 
@@ -142,7 +142,7 @@ U kunt een bestand terugdraaien en verwijderen uit quarantaine als u na een onde
 
 ## <a name="download-or-collect-file"></a>Bestand downloaden of verzamelen
 
-Als **u Bestand downloaden** selecteert in de antwoordacties, kunt u een lokaal zip-archief met een wachtwoord downloaden dat uw bestand bevat. Er wordt een flyout weergegeven waarin u een reden voor het downloaden van het bestand kunt opnemen en een wachtwoord kunt instellen.
+Als **u Bestand downloaden** selecteert in de antwoordacties, kunt u een lokaal, met een wachtwoord beveiligd archief .zip met uw bestand downloaden. Er wordt een flyout weergegeven waarin u een reden voor het downloaden van het bestand kunt opnemen en een wachtwoord kunt instellen.
 
 Standaard kunt u geen bestanden downloaden die in quarantaine staan.
 
@@ -160,11 +160,11 @@ Voorkom verdere verspreiding van een aanval in uw organisatie door potentieel sc
 
 > [!IMPORTANT]
 >
-> - Deze functie is beschikbaar als uw organisatie Microsoft Defender Antivirus gebruikt en beveiliging die door de cloud is geleverd, is ingeschakeld. Zie Beveiliging in de cloud beheren [voor meer informatie.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/deploy-manage-report-microsoft-defender-antivirus)
+> - Deze functie is beschikbaar als uw organisatie gebruikmaakt van Microsoft Defender Antivirus cloudbeveiliging is ingeschakeld. Zie Beveiliging in de cloud beheren [voor meer informatie.](/windows/security/threat-protection/microsoft-defender-antivirus/deploy-manage-report-microsoft-defender-antivirus)
 >
 > - De versie van de Antimalware-client moet 4.18.1901.x of hoger zijn.
-> - Deze functie is ontworpen om te voorkomen dat verdachte malware (of mogelijk schadelijke bestanden) van internet wordt gedownload. Het ondersteunt momenteel draagbare uitvoerbare (PE)-bestanden, waaronder _.exe-_ en _.dll-bestanden._ De dekking wordt in de tijd uitgebreid.
-> - Deze reactieactie is beschikbaar voor apparaten op Windows 10, versie 1703 of hoger.
+> - Deze functie is ontworpen om te voorkomen dat verdachte malware (of mogelijk schadelijke bestanden) van internet wordt gedownload. Het ondersteunt momenteel draagbare uitvoerbare (PE)-bestanden, _.exe_ en _.dll_ bestanden. De dekking wordt in de tijd uitgebreid.
+> - Deze reactieactie is beschikbaar voor apparaten Windows 10, versie 1703 of hoger.
 > - De functie Toestaan of blokkeren kan niet worden uitgevoerd op bestanden als de classificatie van het bestand aanwezig is in de cache van het apparaat vóór de actie toestaan of blokkeren.
 
 > [!NOTE]
@@ -174,7 +174,7 @@ Voorkom verdere verspreiding van een aanval in uw organisatie door potentieel sc
 
 ### <a name="enable-the-block-file-feature"></a>De functie Blokbestand inschakelen
 
-Als u bestanden wilt blokkeren, moet u eerst de functie Blokkeren of toestaan [in-/uitschakelen  ](advanced-features.md) in Instellingen.
+Als u bestanden wilt blokkeren, moet u eerst [de  ](advanced-features.md) functie Blokkeren of toestaan in Instellingen.
 ### <a name="allow-or-block-file"></a>Bestand toestaan of blokkeren
 
 Wanneer u een indicatorhash voor een bestand toevoegt, kunt u ervoor kiezen om een waarschuwing te verhogen en het bestand te blokkeren wanneer een apparaat in uw organisatie dit probeert uit te voeren.
@@ -185,15 +185,15 @@ Zie [Indicatoren beheren voor](manage-indicators.md) meer informatie over het bl
 
 Als u het blokkeren van een bestand wilt stoppen, verwijdert u de indicator. U kunt dit doen via de **actie Indicator bewerken** op de profielpagina van het bestand. Deze actie is zichtbaar op dezelfde positie als de actie **Indicator** toevoegen, voordat u de indicator toevoegt.
 
-U kunt ook indicatoren bewerken op de pagina **Instellingen,** onder   >  **Regelsindicatoren.** Indicatoren worden in dit gebied weergegeven door de hash van het bestand.
+U kunt ook indicatoren bewerken vanaf de **Instellingen** pagina onder   >  **Regelsindicatoren.** Indicatoren worden in dit gebied weergegeven door de hash van het bestand.
 
-## <a name="consult-a-threat-expert"></a>Een bedreigingsexpert raadplegen
+## <a name="consult-a-threat-expert"></a>Contact opnemen met een risicodeskundige
 
-Raadpleeg een Bedreigingsexpert van Microsoft voor meer informatie over een mogelijk gecompromitteerd apparaat of al gecompromitteerde apparaten. Microsoft Threat Experts zijn rechtstreeks vanuit het Microsoft Defender-beveiligingscentrum betrokken voor een tijdige en nauwkeurige reactie. Experts bieden inzichten over een mogelijk gecompromitteerd apparaat en helpen u inzicht te krijgen in complexe bedreigingen en gerichte aanvalsmeldingen. Ze kunnen ook informatie verstrekken over de waarschuwingen of een context met bedreigingsinformatie die u op uw portaldashboard ziet.
+Raadpleeg een Bedreigingsexpert van Microsoft voor meer informatie over een mogelijk gecompromitteerd apparaat of al gecompromitteerde apparaten. Microsoft Threat Experts rechtstreeks vanuit de Microsoft Defender-beveiligingscentrum voor een tijdige en nauwkeurige reactie. Experts bieden inzichten over een mogelijk gecompromitteerd apparaat en helpen u inzicht te krijgen in complexe bedreigingen en gerichte aanvalsmeldingen. Ze kunnen ook informatie verstrekken over de waarschuwingen of een context met bedreigingsinformatie die u op uw portaldashboard ziet.
 
-Zie [Een Microsoft Threat Expert raadplegen](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-microsoft-threat-experts#consult-a-microsoft-threat-expert-about-suspicious-cybersecurity-activities-in-your-organization) voor meer informatie.
+Zie [Een Microsoft Threat Expert raadplegen](/microsoft-365/security/defender-endpoint/configure-microsoft-threat-experts#consult-a-microsoft-threat-expert-about-suspicious-cybersecurity-activities-in-your-organization) voor meer informatie.
 
-## <a name="check-activity-details-in-action-center"></a>Activiteitsdetails controleren in het Actiecentrum
+## <a name="check-activity-details-in-action-center"></a>Activiteitsdetails controleren in Actiecentrum
 
 Het **Actiecentrum** bevat informatie over acties die zijn ondernomen op een apparaat of bestand. U kunt de volgende details bekijken:
 
@@ -211,7 +211,7 @@ Alle andere gerelateerde details worden ook weergegeven, zoals inzendingsdatum/-
 Cyberbeveiligingsonderzoeken worden meestal geactiveerd door een waarschuwing. Waarschuwingen zijn gerelateerd aan een of meer waargenomen bestanden die vaak nieuw of onbekend zijn. Als u een bestand selecteert, gaat u naar de bestandsweergave waar u de metagegevens van het bestand kunt zien. Als u de gegevens met betrekking tot het bestand wilt verrijken, kunt u het bestand indienen voor uitgebreide analyse.
 
 Met de functie Deep Analysis wordt een bestand uitgevoerd in een beveiligde, volledig geinstrumenteerde cloudomgeving. Uitgebreide analyseresultaten tonen de activiteiten, waargenomen gedragingen en bijbehorende artefacten van het bestand, zoals verwijderde bestanden, registerwijzigingen en communicatie met IPs.
-Deep Analysis ondersteunt momenteel uitgebreide analyse van draagbare uitvoerbare (PE)-bestanden (waaronder _.exe-_ en _.dll-bestanden)._
+Deep Analysis ondersteunt momenteel uitgebreide analyse van draagbare uitvoerbare (PE)-bestanden _(waaronder.exe_ en _.dll_ bestanden).
 
 Een uitgebreide analyse van een bestand duurt enkele minuten. Wanneer de bestandsanalyse is voltooid, wordt het tabblad Diepe analyse bijgewerkt om een overzicht weer te geven en de datum en tijd van de meest recente beschikbare resultaten.
 
@@ -224,7 +224,7 @@ Gebruik de functie voor uitgebreide analyse om de details van een bestand te ond
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4aAYy?rel=0]
 
-**Verzenden** voor uitgebreide analyse is ingeschakeld wanneer het bestand beschikbaar is in de back-endpoint-back-endpoint-verzameling van Defender of als het is waargenomen op een Windows 10-apparaat dat ondersteuning biedt voor het indienen van uitgebreide analyses.
+**Verzenden** voor uitgebreide analyse is ingeschakeld wanneer het bestand beschikbaar is in de back-endpoint-backend-verzameling van Defender for Endpoint of als het is waargenomen op een Windows 10-apparaat dat ondersteuning biedt voor het indienen van een uitgebreide analyse.
 
 > [!NOTE]
 > Alleen bestanden uit Windows 10 kunnen automatisch worden verzameld.
@@ -249,12 +249,12 @@ Wanneer het voorbeeld wordt verzameld, wordt het bestand in Defender voor Eindpu
    ![U kunt alleen PE-bestanden verzenden in de sectie Bestandsdetails](images/submit-file.png)
 
    > [!NOTE]
-   > Alleen PE-bestanden worden ondersteund, waaronder _.exe-_ en _.dll-bestanden._
+   > Alleen PE-bestanden worden ondersteund, _.exe_ en _.dll_ bestanden.
 
 Er wordt een voortgangsbalk weergegeven en informatie over de verschillende stadia van de analyse. U kunt het rapport vervolgens bekijken wanneer de analyse is uitgevoerd.
 
 > [!NOTE]
-> Afhankelijk van de beschikbaarheid van het apparaat, kan de tijd van de steekproefverzameling variëren. Er is een time-out van 3 uur voor voorbeeldverzameling. De verzameling mislukt en de bewerking wordt afgebroken als er op dat moment geen online windows 10-apparaatrapportage is. U kunt bestanden opnieuw indienen voor uitgebreide analyse om nieuwe gegevens in het bestand op te halen.
+> Afhankelijk van de beschikbaarheid van het apparaat, kan de tijd van de steekproefverzameling variëren. Er is een time-out van 3 uur voor voorbeeldverzameling. De verzameling mislukt en de bewerking wordt afgebroken als er op dat moment geen online Windows 10 is. U kunt bestanden opnieuw indienen voor uitgebreide analyse om nieuwe gegevens in het bestand op te halen.
 
 ### <a name="view-deep-analysis-reports"></a>Uitgebreide analyserapporten weergeven
 
@@ -276,7 +276,7 @@ Met de details kunt u onderzoeken of er aanwijzingen zijn voor een mogelijke aan
 
 Als u een probleem tegenkomt bij het indienen van een bestand, probeert u de volgende stappen voor het oplossen van problemen.
 
-1. Controleer of het bestand in kwestie een PE-bestand is. PE-bestanden hebben meestal _.exe-_ of _.dll-extensies_ (uitvoerbare programma's of toepassingen).
+1. Controleer of het bestand in kwestie een PE-bestand is. PE-bestanden hebben meestal _.exe_ of _.dll_ extensies (uitvoerbare programma's of toepassingen).
 2. Zorg ervoor dat de service toegang heeft tot het bestand, dat het nog steeds bestaat en niet beschadigd of gewijzigd is.
 3. Wacht even en probeer het bestand opnieuw in te dienen. De wachtrij kan vol zijn of er is een tijdelijke verbinding of communicatiefout opgetreden.
 4. Als het voorbeeldverzamelingsbeleid niet is geconfigureerd, is het standaardgedrag om voorbeeldverzameling toe te staan. Als het bestand is geconfigureerd, controleert u of de beleidsinstelling voorbeeldverzameling toestaat voordat u het bestand opnieuw indient. Wanneer voorbeeldverzameling is geconfigureerd, controleert u de volgende registerwaarde:
@@ -295,5 +295,5 @@ Als u een probleem tegenkomt bij het indienen van een bestand, probeert u de vol
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-- [Antwoordacties uitvoeren op een apparaat](respond-machine-alerts.md)
+- [Acties ondernemen op een apparaat](respond-machine-alerts.md)
 - [Bestanden onderzoeken](investigate-files.md)

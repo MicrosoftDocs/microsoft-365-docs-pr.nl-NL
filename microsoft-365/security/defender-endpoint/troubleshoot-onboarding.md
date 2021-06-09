@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 6465be53de38872e3eb1d7b70dc3efbb9154aace
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: b9d6cd374a107a403269bc3babbe4220d69e1cce
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934199"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844872"
 ---
 # <a name="troubleshoot-microsoft-defender-for-endpoint-onboarding-issues"></a>Problemen met de onboarding van Microsoft Defender voor eindpunten oplossen
 
@@ -52,7 +52,7 @@ Als u het onboardingproces hebt voltooid en [](investigate-machines.md) na een u
 
 Zie Problemen met [onboarding](#troubleshoot-onboarding-issues-on-the-device) op de apparaten oplossen voor extra fouten die kunnen optreden als het script is voltooid.
 
-### <a name="troubleshoot-onboarding-issues-when-deploying-with-microsoft-endpoint-configuration-manager"></a>Problemen met onboarding oplossen bij implementatie met Microsoft Endpoint Configuration Manager
+### <a name="troubleshoot-onboarding-issues-when-deploying-with-microsoft-endpoint-configuration-manager"></a>Problemen met onboarding oplossen bij het implementeren met Microsoft Endpoint Configuration Manager
 
 Wanneer u apparaten onboardt met de volgende versies van Configuration Manager:
 
@@ -72,7 +72,7 @@ Als de onboarding is voltooid, maar de  apparaten na een uur niet worden weergeg
 
 1. Klik **op Start,** typ **Gebeurtenisviewer** en druk op **Enter.**
 
-2. Ga naar **Windows Logs**  >  **Application**.
+2. Ga naar **Windows**  >  **Logboektoepassing.**
 
 3. Zoek naar een gebeurtenis uit **WDATPOnboarding-gebeurtenisbron.**
 
@@ -85,8 +85,8 @@ Gebeurtenis-id | Fouttype | Oplossingsstappen
 :---:|:---|:---
  `5` | Offboarding-gegevens zijn gevonden, maar kunnen niet worden verwijderd | Controleer de machtigingen in het register, met name<br> `HKLM\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection`.
 `10` | Onboarding-gegevens kunnen niet worden geschreven naar het register |  Controleer de machtigingen in het register, met name<br> `HKLM\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection`.<br>Controleer of het script is uitgevoerd als beheerder.
-`15` |  De SENSE-service kan niet worden begonnen |Controleer de servicetoestand `sc query sense` (opdracht). Zorg ervoor dat het script zich niet in een tussenliggende toestand *('Pending_Stopped'*, *'Pending_Running'*) en probeer het script opnieuw uit te voeren (met beheerdersrechten). <br> <br> Als op het apparaat Windows 10 wordt uitgevoerd, wordt versie 1607 en het uitvoeren van de opdracht als retourneert, start u `sc query sense` het apparaat opnieuw `START_PENDING` op. Als het opnieuw opstarten van het apparaat het probleem niet aanpakt, upgradet u naar KB4015217 en probeert u opnieuw onboarding uit te voeren.
-`15` | De SENSE-service kan niet worden begonnen | Als het bericht van de fout is: Systeemfout 577 of fout 1058 is opgetreden, moet u het Microsoft Defender Antivirus ELAM-stuurprogramma inschakelen, zie Ervoor zorgen dat [Microsoft Defender Antivirus](#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy) niet is uitgeschakeld door een beleid voor instructies.
+`15` |  De SENSE-service kan niet worden begonnen |Controleer de servicetoestand `sc query sense` (opdracht). Zorg ervoor dat het script zich niet in een tussenliggende toestand *('Pending_Stopped'*, *'Pending_Running'*) en probeer het script opnieuw uit te voeren (met beheerdersrechten). <br> <br> Als het apparaat wordt uitgevoerd Windows 10, wordt versie 1607 en het uitvoeren van de opdracht `sc query sense` als retourneert , start u het apparaat opnieuw `START_PENDING` op. Als het opnieuw opstarten van het apparaat het probleem niet aanpakt, upgradet u naar KB4015217 en probeert u opnieuw onboarding uit te voeren.
+`15` | De SENSE-service kan niet worden begonnen | Als het bericht van de fout is: Systeemfout 577 of fout 1058 is opgetreden, moet u het elam-stuurprogramma Microsoft Defender Antivirus inschakelen, zie Controleren of [Microsoft Defender Antivirus](#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy) niet is uitgeschakeld door een beleid voor instructies.
 `30` |  Het script kan niet wachten totdat de service wordt uitgevoerd | De service kan meer tijd hebben genomen om te starten of heeft fouten ondervonden tijdens het starten. Zie Gebeurtenissen en fouten controleren met behulp van [Gebeurtenisviewer](event-error-codes.md)voor meer informatie over gebeurtenissen en fouten met betrekking tot SENSE.
 `35` |  Het script heeft de benodigde registerwaarde voor onboardingstatus niet gevonden | Wanneer de SENSE-service voor het eerst wordt gestart, wordt de onboarding-status naar de registerlocatie<br>`HKLM\SOFTWARE\Microsoft\Windows Advanced Threat Protection\Status`.<br> Het script kon het na enkele seconden niet vinden. U kunt deze handmatig testen en controleren of deze er is. Zie Gebeurtenissen en fouten controleren met behulp van [Gebeurtenisviewer](event-error-codes.md)voor meer informatie over gebeurtenissen en fouten met betrekking tot SENSE.
 `40` | De status van de SENSE-service onboarding is niet ingesteld op **1** | De SENSE-service is niet goed aan boord gekomen. Zie Gebeurtenissen en fouten controleren met behulp van [Gebeurtenisviewer](event-error-codes.md)voor meer informatie over gebeurtenissen en fouten met betrekking tot SENSE.
@@ -94,25 +94,25 @@ Gebeurtenis-id | Fouttype | Oplossingsstappen
 
 ### <a name="troubleshoot-onboarding-issues-using-microsoft-intune"></a>Problemen met onboarding oplossen met Microsoft Intune
 
-U kunt Microsoft Intune gebruiken om foutcodes te controleren en de oorzaak van het probleem op te lossen.
+U kunt Microsoft Intune om foutcodes te controleren en de oorzaak van het probleem op te lossen.
 
 Als u beleidsregels hebt geconfigureerd in Intune en deze niet worden doorgegeven op apparaten, moet u mogelijk automatische MDM-registratie configureren.
 
 Gebruik de volgende tabellen om de mogelijke oorzaken van problemen tijdens onboarding te begrijpen:
 
-- Microsoft Intune-foutcodes en OMA-URIs tabel
+- Microsoft Intune foutcodes en OMA-URIs tabel
 - Bekende problemen met niet-nalevingstabel
 - MDM-gebeurtenislogboekentabel (Mobile Device Management)
 
 Als geen van de gebeurtenislogboeken en probleemoplossingsstappen  werkt, downloadt u het lokale script in de sectie Apparaatbeheer van de portal en voer deze uit in een verhoogde opdrachtprompt.
 
-#### <a name="microsoft-intune-error-codes-and-oma-uris"></a>Microsoft Intune-foutcodes en -OMA-URIs
+#### <a name="microsoft-intune-error-codes-and-oma-uris"></a>Microsoft Intune foutcodes en OMA-URIs
 
 Foutcode Hex | Foutcode dec | Foutbeschrijving | OMA-URI | Mogelijke stappen voor oorzaak en probleemoplossing
 :---:|:---|:---|:---|:---
-0x87D1FDE8 | -2016281112 | Herstel is mislukt | Onboarding <br> Offboarding | **Mogelijke oorzaak:** Onboarding of offboarding is mislukt op een verkeerde blob: verkeerde handtekening of ontbrekende velden PreviousOrgIds. <br><br> **Stappen voor het oplossen van problemen:** <br> Controleer de gebeurtenis-ID's in de [onboarding-fouten van agentweergave in de sectie apparaatgebeurtenislogboek.](#view-agent-onboarding-errors-in-the-device-event-log) <br><br> Controleer de MDM-gebeurtenislogboeken in de volgende tabel of volg de instructies in [MDM-fouten diagnosticeren in Windows 10](https://docs.microsoft.com/windows/client-management/mdm/diagnose-mdm-failures-in-windows-10).
+0x87D1FDE8 | -2016281112 | Herstel is mislukt | Onboarding <br> Offboarding | **Mogelijke oorzaak:** Onboarding of offboarding is mislukt op een verkeerde blob: verkeerde handtekening of ontbrekende velden PreviousOrgIds. <br><br> **Stappen voor het oplossen van problemen:** <br> Controleer de gebeurtenis-ID's in de [onboarding-fouten van agentweergave in de sectie apparaatgebeurtenislogboek.](#view-agent-onboarding-errors-in-the-device-event-log) <br><br> Controleer de MDM-gebeurtenislogboeken in de volgende tabel of volg de instructies in [MDM-fouten diagnosticeren in Windows 10.](/windows/client-management/mdm/diagnose-mdm-failures-in-windows-10)
  | | | | Onboarding <br> Offboarding <br> SampleSharing | **Mogelijke oorzaak:** Microsoft Defender for Endpoint Policy registry key is not exist or the OMA DM client doesn't have permissions to write to it. <br><br> **Stappen voor het oplossen van problemen:** Controleer of de volgende registersleutel bestaat: `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection` <br> <br> Als deze niet bestaat, opent u een verhoogde opdracht en voegt u de sleutel toe.
- | | | | SenseIsRunning <br> OnboardingState <br> OrgId |  **Mogelijke oorzaak:** Een poging om te corrigeren met de eigenschap Alleen-lezen. Onboarding is mislukt. <br><br> **Stappen voor het oplossen van problemen:** Bekijk de stappen voor het oplossen van problemen met [onboarding op het apparaat.](#troubleshoot-onboarding-issues-on-the-device) <br><br> Controleer de MDM-gebeurtenislogboeken in de volgende tabel of volg de instructies in [MDM-fouten diagnosticeren in Windows 10](https://docs.microsoft.com/windows/client-management/mdm/diagnose-mdm-failures-in-windows-10).
+ | | | | SenseIsRunning <br> OnboardingState <br> OrgId |  **Mogelijke oorzaak:** Een poging om te corrigeren met de eigenschap Alleen-lezen. Onboarding is mislukt. <br><br> **Stappen voor het oplossen van problemen:** Bekijk de stappen voor het oplossen van problemen met [onboarding op het apparaat.](#troubleshoot-onboarding-issues-on-the-device) <br><br> Controleer de MDM-gebeurtenislogboeken in de volgende tabel of volg de instructies in [MDM-fouten diagnosticeren in Windows 10.](/windows/client-management/mdm/diagnose-mdm-failures-in-windows-10)
  | | | | Alles | **Mogelijke oorzaak:** Probeer Microsoft Defender voor Eindpunt te implementeren op niet-ondersteunde SKU/Platform, met name Holografische SKU. <br><br> Momenteel ondersteunde platforms:<br> Enterprise, Education en Professional.<br> Server wordt niet ondersteund.
  0x87D101A9 | -2016345687 |SyncML(425): De aangevraagde opdracht is mislukt omdat de afzender niet over voldoende toegangsbeheermachtigingen (ACL) voor de geadresseerde heeft. | Alles |  **Mogelijke oorzaak:** Probeer Microsoft Defender voor Eindpunt te implementeren op niet-ondersteunde SKU/Platform, met name Holografische SKU.<br><br> Momenteel ondersteunde platforms:<br>  Enterprise, Education en Professional.
 
@@ -122,8 +122,8 @@ De volgende tabel bevat informatie over problemen met niet-naleving en hoe u de 
 
 Case | Symptomen | Mogelijke stappen voor oorzaak en probleemoplossing
 :---:|:---|:---
- `1` | Apparaat voldoet aan de vereisten van SenseIsRunning OMA-URI. Maar is niet compatibel met OrgId, Onboarding en OnboardingState OMA-URIs. | **Mogelijke oorzaak:** Controleer of de gebruiker OOBE heeft doorgegeven na de installatie of upgrade van Windows. Tijdens OOBE-onboarding kan niet worden voltooid, maar SENSE wordt al uitgevoerd.<br><br> **Stappen voor het oplossen van problemen:** Wacht totdat OOBE is voltooid.
- `2` |  Apparaat voldoet aan de vereisten van OrgId, Onboarding en OnboardingState OMA-URIs, maar is niet compatibel door SenseIsRunning OMA-URI. |  **Mogelijke oorzaak:** Het opstarttype van de service is ingesteld als 'Vertraagde start'. Soms veroorzaakt dit dat de Microsoft Intune-server het apparaat meldt als niet-compatibel door SenseIsRunning wanneer de DM-sessie plaatsvindt bij het starten van het systeem. <br><br> **Stappen voor het oplossen van problemen:** Het probleem moet automatisch binnen 24 uur zijn opgelost.
+ `1` | Apparaat voldoet aan de vereisten van SenseIsRunning OMA-URI. Maar is niet compatibel met OrgId, Onboarding en OnboardingState OMA-URIs. | **Mogelijke oorzaak:** Controleer of de gebruiker OOBE heeft doorgegeven na Windows installatie of upgrade. Tijdens OOBE-onboarding kan niet worden voltooid, maar SENSE wordt al uitgevoerd.<br><br> **Stappen voor het oplossen van problemen:** Wacht totdat OOBE is voltooid.
+ `2` |  Apparaat voldoet aan de vereisten van OrgId, Onboarding en OnboardingState OMA-URIs, maar is niet compatibel door SenseIsRunning OMA-URI. |  **Mogelijke oorzaak:** Het opstarttype van de service is ingesteld als 'Vertraagde start'. Soms zorgt dit ervoor dat Microsoft Intune server het apparaat meldt als niet-compatibel door SenseIsRunning wanneer DM-sessie plaatsvindt bij het starten van het systeem. <br><br> **Stappen voor het oplossen van problemen:** Het probleem moet automatisch binnen 24 uur zijn opgelost.
  `3` | Apparaat voldoet niet | **Stappen voor het oplossen van problemen:** Zorg ervoor dat onboarding- en offboarding-beleid niet tegelijkertijd op hetzelfde apparaat wordt geïmplementeerd.
 
 #### <a name="mobile-device-management-mdm-event-logs"></a>MDM-gebeurtenislogboeken (Mobile Device Management)
@@ -146,13 +146,13 @@ Als de gebruikte implementatiehulpmiddelen geen fout in het onboardingproces aan
 - [Controleren of de diagnostische gegevensservice is ingeschakeld](#ensure-the-diagnostics-service-is-enabled)
 - [Controleren of de service is ingesteld op starten](#ensure-the-service-is-set-to-start)
 - [Controleer of het apparaat een internetverbinding heeft](#ensure-the-device-has-an-internet-connection)
-- [Ervoor zorgen dat Microsoft Defender Antivirus niet is uitgeschakeld door een beleid](#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy)
+- [Controleren of Microsoft Defender Antivirus niet is uitgeschakeld door een beleid](#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy)
 
 ### <a name="view-agent-onboarding-errors-in-the-device-event-log"></a>Fouten bij het onboarden van agent weergeven in het gebeurtenislogboek van het apparaat
 
 1. Klik **op Start,** typ **Gebeurtenisviewer** en druk op **Enter.**
 
-2. Vouw in **het deelvenster Gebeurtenisviewer (lokaal)** **toepassingen en serviceslogboeken**  >  **microsoft**  >  **Windows**  >  **SENSE uit.**
+2. Vouw in **het deelvenster Gebeurtenisviewer (lokaal)** toepassingen en **serviceslogboeken**  >  **uit van Microsoft**  >  **Windows**  >  **SENSE.**
 
    > [!NOTE]
    > SENSE is de interne naam die wordt gebruikt om te verwijzen naar de gedrags sensor die Microsoft Defender voor Eindpunt aandreed.
@@ -177,7 +177,7 @@ Gebeurtenis-id | Bericht | Oplossingsstappen
 `15` | Microsoft Defender voor Eindpunt kan opdrachtkanaal niet starten met URL: _variabele_ | [Controleer of het apparaat internettoegang heeft.](#ensure-the-device-has-an-internet-connection)
 `17` | Microsoft Defender voor Endpoint-service kan de verbonden gebruikerservaringen en telemetrieservicelocatie niet wijzigen. Foutcode: variabele | [Voer het onboarding-script opnieuw uit.](configure-endpoints-script.md) Als het probleem zich blijft voordoen, neem dan contact op met de ondersteuning.
 `25` | De statusstatus van het register is niet opnieuw ingesteld door de Microsoft Defender voor eindpuntservice. Foutcode: _variabele_ | Neem contact op met ondersteuning.
-`27` | De modus Microsoft Defender voor eindpunt is niet ingeschakeld in Windows Defender. Onboarding is mislukt. Foutcode: variabele | Neem contact op met ondersteuning.
+`27` | Kan de modus Microsoft Defender voor Eindpunt niet inschakelen in Windows Defender. Onboarding is mislukt. Foutcode: variabele | Neem contact op met ondersteuning.
 `29` | Kan de offboarding-parameters niet lezen. Fouttype: %1, Foutcode: %2, Beschrijving: %3 | Controleer of het apparaat internettoegang heeft en voer vervolgens het hele offboarding-proces opnieuw uit.
 `30` | Kan de modus $(build.sense.productDisplayName) niet uitschakelen in Microsoft Defender voor Eindpunt. Foutcode: %1 | Neem contact op met ondersteuning.
 `32` | De service $(build.sense.productDisplayName) heeft niet gevraagd om zichzelf te stoppen na het offboarden. Foutcode: %1 | Controleer of het begintype van de service handmatig is en start het apparaat opnieuw op.
@@ -195,19 +195,19 @@ Er zijn extra onderdelen op het apparaat waar de Microsoft Defender voor Eindpun
 
 ### <a name="ensure-the-diagnostic-data-service-is-enabled"></a>Controleren of de diagnostische gegevensservice is ingeschakeld
 
-Als de apparaten niet correct rapporteren, moet u mogelijk controleren of de diagnostische gegevensservice van Windows 10 is ingesteld op automatisch starten en wordt uitgevoerd op het apparaat. De service is mogelijk uitgeschakeld door andere programma's of wijzigingen in de gebruikersconfiguratie.
+Als de apparaten niet correct rapporteren, moet u mogelijk controleren of de diagnostische Windows 10 is ingesteld op automatisch starten en wordt uitgevoerd op het apparaat. De service is mogelijk uitgeschakeld door andere programma's of wijzigingen in de gebruikersconfiguratie.
 
 Controleer eerst of de service is ingesteld op automatisch starten wanneer Windows wordt gestart. Controleer vervolgens of de service momenteel actief is (en start de service als dat niet zo is).
 
 ### <a name="ensure-the-service-is-set-to-start"></a>Controleren of de service is ingesteld op starten
 
-**Gebruik de opdrachtregel om het opstarttype van de diagnostische gegevensservice voor Windows 10 te controleren:**
+**Gebruik de opdrachtregel om het opstarttype Windows 10 diagnostische gegevensservice te controleren:**
 
 1. Open een opdrachtregelprompt met verhoogde opdrachtregel op het apparaat:
 
    a. Klik **op Start,** typ **cmd** en druk op **Enter.**
 
-   b. Klik met de rechtermuisknop **op Opdrachtprompt** en selecteer **Uitvoeren als beheerder.**
+   b. Klik met de rechtermuisknop op **Opdrachtprompt** en selecteer **Als beheerder uitvoeren**.
 
 2. Voer de volgende opdracht in en druk op **Enter:**
 
@@ -221,13 +221,13 @@ Controleer eerst of de service is ingesteld op automatisch starten wanneer Windo
 
    Als de service niet is ingesteld op , moet u instellen dat de `START_TYPE` `AUTO_START` service automatisch wordt start.
 
-**Gebruik de opdrachtregel om de diagnostische gegevensservice van Windows 10 in te stellen om automatisch te starten:**
+**Gebruik de opdrachtregel om de Windows 10 diagnostische gegevensservice in te stellen om automatisch te starten:**
 
 1. Open een opdrachtregelprompt met verhoogde opdrachtregel op het apparaat:
 
    a. Klik **op Start,** typ **cmd** en druk op **Enter.**
 
-   b. Klik met de rechtermuisknop **op Opdrachtprompt** en selecteer **Uitvoeren als beheerder.**
+   b. Klik met de rechtermuisknop op **Opdrachtprompt** en selecteer **Als beheerder uitvoeren**.
 
 2. Voer de volgende opdracht in en druk op **Enter:**
 
@@ -251,7 +251,7 @@ Controleer eerst of de service is ingesteld op automatisch starten wanneer Windo
 
 ### <a name="ensure-the-device-has-an-internet-connection"></a>Controleer of het apparaat een internetverbinding heeft
 
-Voor de Microsoft Defender voor eindpunten-sensor moet Microsoft Windows HTTP (WinHTTP) sensorgegevens rapporteren en communiceren met de Microsoft Defender voor Eindpunt-service.
+Voor de Microsoft Defender for Endpoint-sensor moet Microsoft Windows HTTP (WinHTTP) sensorgegevens rapporteren en communiceren met de Microsoft Defender for Endpoint-service.
 
 WinHTTP is onafhankelijk van de instellingen voor internetbrowsersproxy en andere contexttoepassingen van gebruikers en moet de proxyservers kunnen detecteren die beschikbaar zijn in uw specifieke omgeving.
 
@@ -259,10 +259,10 @@ Als u ervoor wilt zorgen dat de sensor serviceconnectiviteit heeft, volgt u de s
 
 Als de verificatie mislukt en uw omgeving een proxy gebruikt om verbinding te maken met internet, volgt u de stappen die worden beschreven in het onderwerp Instellingen voor proxy- en [internetverbinding](configure-proxy-internet.md) configureren.
 
-### <a name="ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy"></a>Ervoor zorgen dat Microsoft Defender Antivirus niet is uitgeschakeld door een beleid
+### <a name="ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy"></a>Controleren of Microsoft Defender Antivirus niet is uitgeschakeld door een beleid
 
 > [!IMPORTANT]
-> Het volgende geldt alleen  voor apparaten die de update van augustus 2020 (versie 4.18.2007.8) nog niet hebben ontvangen voor Microsoft Defender Antivirus.
+> Het volgende geldt alleen  voor apparaten die nog niet de update van augustus 2020 (versie 4.18.2007.8) hebben ontvangen voor Microsoft Defender Antivirus.
 >
 > De update zorgt ervoor dat Microsoft Defender Antivirus niet kan worden uitgeschakeld op clientapparaten via systeembeleid.
 
@@ -272,7 +272,7 @@ Als de verificatie mislukt en uw omgeving een proxy gebruikt om verbinding te ma
 
 **Oplossing:** Als op uw apparaten een antimalwareclient van derden wordt uitgevoerd, moet het ELAM-stuurprogramma (Early Launch Antimalware) van Microsoft Defender for Endpoint worden ingeschakeld. U moet ervoor zorgen dat het niet is uitgeschakeld door een systeembeleid.
 
-- Afhankelijk van het hulpprogramma dat u gebruikt om beleid te implementeren, moet u controleren of het volgende Windows Defender-beleid is geweken:
+- Afhankelijk van het hulpprogramma dat u gebruikt om beleid te implementeren, moet u controleren of de volgende Windows Defender beleidsregels zijn geweken:
 
   - DisableAntiSpyware
   - DisableAntiVirus
@@ -292,7 +292,7 @@ Als de verificatie mislukt en uw omgeving een proxy gebruikt om verbinding te ma
     ![Afbeelding van registersleutel voor Microsoft Defender Antivirus](images/atp-disableantispyware-regkey.png)
 
    > [!NOTE]
-   > Alle Windows Defender-services (wdboot, wdfilter, wdnisdrv, wdnissvc en windefend) moeten hun standaardtoestand hebben. Het wijzigen van het opstarten van deze services wordt niet ondersteund en kan u dwingen uw systeem opnieuw te maken.
+   > Alle Windows Defender services (wdboot, wdfilter, wdnisdrv, wdnissvc en windefend) moeten in hun standaardtoestand staan. Het wijzigen van het opstarten van deze services wordt niet ondersteund en kan u dwingen uw systeem opnieuw te maken.
    >
    > Voorbeeld van standaardconfiguraties voor WdBoot en WdFilter:
    > - `<Key Path="SYSTEM\CurrentControlSet\Services\WdBoot"><KeyValue Value="0" ValueKind="DWord" Name="Start"/></Key>`
@@ -335,127 +335,127 @@ De onderstaande stappen geven richtlijnen voor het volgende scenario:
 - In dit scenario start de SENSE-service niet automatisch, ook al is onboarding-pakket geïmplementeerd
 
 > [!NOTE]
-> De volgende stappen zijn alleen relevant wanneer u Microsoft Endpoint Configuration Manager gebruikt. Zie [Microsoft Defender for Endpoint](https://docs.microsoft.com/mem/configmgr/protect/deploy-use/windows-defender-advanced-threat-protection)voor meer informatie over onboarding met Microsoft Endpoint Configuration Manager.
+> De volgende stappen zijn alleen relevant wanneer u Microsoft Endpoint Configuration Manager. Zie Microsoft Defender voor Eindpunt voor meer informatie over onboarding Microsoft Endpoint Configuration Manager gebruik [van Microsoft Endpoint Configuration Manager.](/mem/configmgr/protect/deploy-use/windows-defender-advanced-threat-protection)
 
-1. Een toepassing maken in Microsoft Endpoint Configuration Manager.
+1. Maak een toepassing in Microsoft Endpoint Configuration Manager.
 
-    ![Afbeelding van configuratie van Microsoft Endpoint Configuration Manager1](images/mecm-1.png)
+    ![Afbeelding van Microsoft Endpoint Configuration Manager configuratie1](images/mecm-1.png)
 
 2. Selecteer **Handmatig de toepassingsgegevens opgeven.**
 
-    ![Afbeelding van configuratie van Microsoft Endpoint Configuration Manager2](images/mecm-2.png)
+    ![Afbeelding van Microsoft Endpoint Configuration Manager configuratie2](images/mecm-2.png)
 
 3. Geef informatie op over de toepassing en **selecteer** volgende .
 
-    ![Afbeelding van Configuratiebeheer voor Microsoft Endpoint3](images/mecm-3.png)
+    ![Afbeelding van Microsoft Endpoint Configuration Manager configuratie3](images/mecm-3.png)
 
 4. Geef informatie op over het softwarecentrum en **selecteer** Volgende.
 
-    ![Afbeelding van Configuratiebeheer voor Microsoft Endpoint4](images/mecm-4.png)
+    ![Afbeelding van Microsoft Endpoint Configuration Manager configuratie4](images/mecm-4.png)
 
 5. Selecteer toevoegen in **implementatietypen.** 
 
-    ![Afbeelding van Configuratiebeheer van Microsoft Endpoint5](images/mecm-5.png)
+    ![Afbeelding van Microsoft Endpoint Configuration Manager configuratie5](images/mecm-5.png)
 
 6. Selecteer **Handmatig de gegevens van het implementatietype opgeven** en selecteer vervolgens **Volgende.**
 
-    ![Afbeelding van Configuratiebeheer van Microsoft Endpoint6](images/mecm-6.png)
+    ![Afbeelding van Microsoft Endpoint Configuration Manager configuratie6](images/mecm-6.png)
 
 7. Geef informatie op over het implementatietype en **selecteer** Volgende.
 
-    ![Afbeelding van Configuratiebeheer van Microsoft Endpoint7](images/mecm-7.png)
+    ![Afbeelding van Microsoft Endpoint Configuration Manager configuratie7](images/mecm-7.png)
 
 8. Geef **in het programma**  >  **Inhoudsinstallatie** de opdracht op: `net start sense` .
 
-    ![Afbeelding van Configuratiebeheer van Microsoft Endpoint8](images/mecm-8.png)
+    ![Afbeelding van Microsoft Endpoint Configuration Manager configuratie8](images/mecm-8.png)
 
 9. Selecteer **in detectiemethode** **Regels configureren om de aanwezigheid** van dit implementatietype te detecteren en selecteer vervolgens Component **toevoegen.**
 
-    ![Afbeelding van Configuratiebeheer voor Microsoft Endpoint9](images/mecm-9.png)
+    ![Afbeelding van Microsoft Endpoint Configuration Manager configuratie9](images/mecm-9.png)
 
 10. Geef de volgende detectieregeldetails op en selecteer **OK:**
 
-    ![Afbeelding van Configuratiebeheer voor Microsoft Endpoint10](images/mecm-10.png)
+    ![Afbeelding van Microsoft Endpoint Configuration Manager configuratie10](images/mecm-10.png)
 
 11. Selecteer volgende in **detectiemethode.** 
 
-    ![Afbeelding van configuratie van Microsoft Endpoint Configuration Manager11](images/mecm-11.png)
+    ![Afbeelding van Microsoft Endpoint Configuration Manager configuratie11](images/mecm-11.png)
 
 12. Geef **in Gebruikerservaring** de volgende informatie op en selecteer **Volgende:**
 
-    ![Afbeelding van Configuratiebeheer voor Microsoft Endpoint12](images/mecm-12.png)
+    ![Afbeelding van Microsoft Endpoint Configuration Manager configuratie12](images/mecm-12.png)
 
 13. Selecteer **Volgende** in **Vereisten.**
 
-    ![Afbeelding van Configuratiebeheer voor Microsoft Endpoint13](images/mecm-13.png)
+    ![Afbeelding van Microsoft Endpoint Configuration Manager configuratie13](images/mecm-13.png)
 
 14. Selecteer Volgende in **Afhankelijkheden.** 
 
-    ![Afbeelding van Configuratiebeheer van Microsoft Endpoint14](images/mecm-14.png)
+    ![Afbeelding van Microsoft Endpoint Configuration Manager configuratie14](images/mecm-14.png)
 
 15. Selecteer **Volgende** in **Samenvatting.**
 
-    ![Afbeelding van Configuratiebeheer voor Microsoft Endpoint15](images/mecm-15.png)
+    ![Afbeelding van Microsoft Endpoint Configuration Manager configuratie15](images/mecm-15.png)
 
 16. Selecteer **In Voltooiing** de optie **Sluiten.**
 
-    ![Afbeelding van Configuratiebeheer voor Microsoft Endpoint16](images/mecm-16.png)
+    ![Afbeelding van Microsoft Endpoint Configuration Manager configuratie16](images/mecm-16.png)
 
 17. Selecteer volgende in **implementatietypen.** 
 
-    ![Afbeelding van Configuratiebeheer voor Microsoft Endpoint17](images/mecm-17.png)
+    ![Afbeelding van Microsoft Endpoint Configuration Manager configuratie17](images/mecm-17.png)
 
 18. Selecteer **Volgende** in **Samenvatting.**
 
-    ![Afbeelding van Configuratiebeheer voor Microsoft Endpoint18](images/mecm-18.png)
+    ![Afbeelding van Microsoft Endpoint Configuration Manager configuratie18](images/mecm-18.png)
 
-    De status wordt vervolgens weergegeven: Afbeelding van Configuratiebeheer van ![ Microsoft Endpoint19](images/mecm-19.png)
+    De status wordt vervolgens weergegeven: ![ Afbeelding van Microsoft Endpoint Configuration Manager configuratie19](images/mecm-19.png)
 
 19. Selecteer **In Voltooiing** de optie **Sluiten.**
 
-    ![Afbeelding van Configuratiebeheer voor Microsoft Endpoint20](images/mecm-20.png)
+    ![Afbeelding van Microsoft Endpoint Configuration Manager configuratie20](images/mecm-20.png)
 
 20. U kunt de toepassing nu implementeren door met de rechtermuisknop op de app te klikken en **Implementeren te selecteren.**
 
-    ![Afbeelding van Configuratiebeheer voor Microsoft Endpoint21](images/mecm-21.png)
+    ![Afbeelding van Microsoft Endpoint Configuration Manager configuratie21](images/mecm-21.png)
 
 21. Selecteer **in Algemeen** automatisch inhoud **distribueren voor afhankelijkheden** en **Bladeren.**
 
-    ![Afbeelding van configuratie van Microsoft Endpoint Configuration Manager22](images/mecm-22.png)
+    ![Afbeelding van Microsoft Endpoint Configuration Manager configuratie22](images/mecm-22.png)
 
 22. Selecteer **volgende** in **Inhoud.**
 
-    ![Afbeelding van Configuratiebeheer voor Microsoft Endpoint23](images/mecm-23.png)
+    ![Afbeelding van Microsoft Endpoint Configuration Manager configuratie23](images/mecm-23.png)
 
 23. Selecteer **volgende in implementatie-instellingen.** 
 
-    ![Afbeelding van Configuratiebeheer van Microsoft Endpoint24](images/mecm-24.png)
+    ![Afbeelding van Microsoft Endpoint Configuration Manager configuratie24](images/mecm-24.png)
 
 24. Selecteer **in Planning** zo snel mogelijk na de beschikbare **tijd** de optie **Volgende.**
 
-    ![Afbeelding van Configuratiebeheer voor Microsoft Endpoint25](images/mecm-25.png)
+    ![Afbeelding van Microsoft Endpoint Configuration Manager configuratie25](images/mecm-25.png)
 
 25. Selecteer **in Gebruikerservaring** de optie Wijzigingen uitvoeren bij deadline of tijdens een **onderhoudsvenster (moet** opnieuw worden gestart) en selecteer **vervolgens Volgende**.
 
-    ![Afbeelding van configuratie van Microsoft Endpoint Configuration Manager26](images/mecm-26.png)
+    ![Afbeelding van Microsoft Endpoint Configuration Manager configuratie26](images/mecm-26.png)
 
 26. Selecteer **volgende** in **Waarschuwingen.**
 
-    ![Afbeelding van Configuratiebeheer voor Microsoft Endpoint27](images/mecm-27.png)
+    ![Afbeelding van Microsoft Endpoint Configuration Manager configuratie27](images/mecm-27.png)
 
 27. Selecteer **Volgende** in **Samenvatting.**
 
-    ![Afbeelding van Configuratiebeheer van Microsoft Endpoint28](images/mecm-28.png)
+    ![Afbeelding van Microsoft Endpoint Configuration Manager configuratie28](images/mecm-28.png)
 
-    De status wordt vervolgens weergegeven Afbeelding van configuratie van ![ Microsoft Endpoint Configuration Manager29](images/mecm-29.png)
+    De status wordt vervolgens weergegeven Afbeelding ![ van Microsoft Endpoint Configuration Manager configuratie29](images/mecm-29.png)
 
 28. Selecteer **In Voltooiing** de optie **Sluiten.**
 
-    ![Afbeelding van configuratiebeheer voor Microsoft Endpoint30](images/mecm-30.png)
+    ![Afbeelding van Microsoft Endpoint Configuration Manager configuratie30](images/mecm-30.png)
 
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-- [Problemen met Microsoft Defender voor Eindpunt oplossen](troubleshoot-mdatp.md)
+- [Problemen met Microsoft Defender voor Eindpunt oplossen](troubleshoot-mdatp.md)
 - [Onboard-apparaten](onboard-configure.md)
 - [Instellingen voor apparaatproxy en internetverbinding configureren](configure-proxy-internet.md)

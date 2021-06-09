@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Meer informatie over het maken van aangepaste gevoelige informatietypen met op Exacte gegevens overeenkomende classificatie.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b729cb8a4c30ec13e22f36f9721cb55ecc93942d
-ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
+ms.openlocfilehash: ff190fa85e631562a07dcecc1f75713ecacdf07e
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52779865"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52822115"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>Aangepaste gevoelige informatietypen maken met een classificatie op basis van Exacte gegevensmatch
 
@@ -610,7 +610,7 @@ Deze locaties ondersteunen EDM-gevoelige informatietypen:
 - Microsoft Teams (gesprekken)
 - DLP voor SharePoint (bestanden)
 - Microsoft Cloud App Security DLP-beleid
-- Beleid voor automatisch labelen op de server
+- Beleid voor automatisch labelen op de server - beschikbaar voor commerciële cloudklanten <!--, UNCOMMENT THIS ON 6/15 and government cloud customers-->
 
 #### <a name="to-create-a-dlp-policy-with-edm"></a>Een DLP-beleid maken met EDM
 

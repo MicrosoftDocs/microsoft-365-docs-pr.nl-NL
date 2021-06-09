@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Retentiebeleid voor auditlogboeken maakt deel uit van de nieuwe geavanceerde controlemogelijkheden in Microsoft 365. Met een bewaarbeleid voor controlelogboeken kunt u opgeven hoelang controlelogboeken in uw organisatie moeten worden bewaard.
-ms.openlocfilehash: 2ac95d9bb9c13b6bf0c0e31d17b4fb46c30c492a
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: b3534f5d0572b2656711850b483651270b9e3315
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "52162577"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52822139"
 ---
 # <a name="manage-audit-log-retention-policies"></a>Retentiebeleid voor auditlogboek beheren
 
@@ -49,7 +49,7 @@ Geavanceerde audit in Microsoft 365 biedt een standaard retentiebeleid voor audi
 
 - Als u een auditlogboek langer dan 90 dagen (en maximaal 1 jaar) wilt bewaren, moet aan de gebruiker die het auditlogboek genereert (door een auditactiviteit uit te voeren) een licentie voor Office 365 E5 of Microsoft 365 E5 worden toegewezen of moet deze een licentie hebben voor Microsoft 365 E5 Compliance of E5 eDiscovery en een invoegtoepassingslicentie voor Audit. Als u auditlogboeken tien jaar wilt bewaren, moet de gebruiker die het auditlogboek genereert ook een invoegtoepassingslicentie voor de retentie van auditlogboeken van tien jaar krijgen, naast een E5-licentie.
 
-- Alle aangepaste retentiebeleidsregels voor auditlogboeken (gemaakt door uw organisatie) hebben prioriteit boven het standaard retentiebeleid. Als u bijvoorbeeld een retentiebeleid voor auditlogboek maakt voor activiteiten in Exchange-postvakken met een bewaarperiode van minder dan één jaar, worden auditrecords voor activiteiten in Exchange-postvakken bewaard gedurende de kortere duur die is opgegeven in het aangepaste beleid.
+- Alle aangepaste bewaarbeleidsregels voor auditlogboeken (gemaakt door uw organisatie) hebben voorrang op het standaardbewaarbeleid. Als u bijvoorbeeld een bewaarbeleid voor het auditlogboek voor Exchange-postvakactiviteit maakt met een bewaarperiode die korter is dan één jaar, worden auditrecords voor Exchange-postvakactiviteiten bewaard voor de kortere duur die is gespecificeerd door het aangepaste beleid.
 
 ## <a name="create-an-audit-log-retention-policy"></a>Een retentiebeleid voor het auditlogboek maken
 
@@ -77,7 +77,7 @@ Geavanceerde audit in Microsoft 365 biedt een standaard retentiebeleid voor audi
 
    5. **Duur:** de hoeveelheid tijd die nodig is voor het bewaren van de auditlogboeken die voldoen aan de criteria van het beleid.
 
-   6. **Prioriteit:** Deze waarde bepaalt de volgorde waarin bewaarbeleid voor auditlogboek in uw organisatie wordt verwerkt. Een hogere waarde geeft een hogere prioriteit aan. Zo krijgt een beleid met een prioriteitswaarde van **5** prioriteit boven een beleid met een prioriteitswaarde van **0**. Zoals eerder uitgelegd heeft elk aangepast bewaarbeleid voor auditlogboek voorrang op het standaardbeleid voor uw organisatie.
+   6. **Prioriteit:** Deze waarde bepaalt de volgorde waarin bewaarbeleid voor auditlogboek in uw organisatie wordt verwerkt. Een lagere waarde geeft een hogere prioriteit aan. Geldige prioriteiten zijn numerieke waarden tussen **1** en **10.000**. Een waarde van **1** geeft de hoogste prioriteit aan en een waarde van **10.000** de laagste prioriteit. Zo heeft bijvoorbeeld een beleid met een waarde van **5** voorrang op een beleid met een waarde van **10**. Zoals eerder uitgelegd heeft elk aangepast bewaarbeleid voor auditlogboek voorrang op het standaardbeleid voor uw organisatie.
 
 5. Klik op **Opslaan** om het nieuwe retentiebeleid voor het auditlogboek te maken.
 

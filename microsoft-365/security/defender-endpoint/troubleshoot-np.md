@@ -15,12 +15,12 @@ ms.reviewer: oogunrinde
 manager: dansimp
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: f77ce94fda63a9e7e8a9484a67a22eeec136d619
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 481a8f15d6a41bda8dc866ce40d98c4f3717223d
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935879"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844053"
 ---
 # <a name="troubleshoot-network-protection"></a>Problemen met netwerkbeveiliging oplossen
 
@@ -51,10 +51,10 @@ Er zijn vier stappen om deze problemen op te lossen:
 Netwerkbeveiliging werkt alleen op apparaten met de volgende voorwaarden:
 
 >[!div class="checklist"]
-> - Eindpunten worden uitgevoerd met Windows 10 Pro- of Enterprise-versie, versie 1709 of hoger.
-> - Eindpunten gebruiken Microsoft Defender Antivirus als de enige antivirusbeveiligings-app. [Bekijk wat er gebeurt wanneer u een niet-Microsoft-antivirusoplossing gebruikt.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)
-> - [Realtime beveiliging](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus) is ingeschakeld.
-> - [Beveiliging in de cloud](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus) is ingeschakeld.
+> - Eindpunten worden uitgevoerd Windows 10 Pro of Enterprise-editie, versie 1709 of hoger.
+> - Eindpunten gebruiken Microsoft Defender Antivirus als de enige antivirusbeveiligingsapp. [Bekijk wat er gebeurt wanneer u een niet-Microsoft-antivirusoplossing gebruikt.](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)
+> - [Realtime beveiliging](/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus) is ingeschakeld.
+> - [Beveiliging in de cloud](/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus) is ingeschakeld.
 > - De controlemodus is niet ingeschakeld. Gebruik [Groepsbeleid om](enable-network-protection.md#group-policy) de regel in te stellen **op Uitgeschakeld** (waarde: **0**).
 
 ## <a name="use-audit-mode"></a>Controlemodus gebruiken
@@ -79,7 +79,7 @@ U kunt netwerkbeveiliging inschakelen in de auditmodus en vervolgens naar een we
 
 ## <a name="report-a-false-positive-or-false-negative"></a>Een onwaar positief of onwaar negatief rapporteren
 
-Als u de functie hebt getest met de demosite en met de auditmodus en netwerkbeveiliging werkt aan vooraf geconfigureerde scenario's, maar niet werkt zoals verwacht voor een specifieke verbinding, gebruikt u het webinzendingsformulier van [Windows Defender Security Intelligence](https://www.microsoft.com/wdsi/filesubmission) om een onwaar negatief of onwaar positief voor netwerkbeveiliging te melden. Met een E5-abonnement kunt u ook een koppeling naar [een bijbehorende waarschuwing geven.](alerts-queue.md)
+Als u de functie hebt getest met de demosite en met de auditmodus en netwerkbeveiliging werkt aan vooraf geconfigureerde scenario's, maar niet werkt zoals verwacht voor een specifieke verbinding, gebruikt u het webinzendingsformulier [Windows Defender Security Intelligence](https://www.microsoft.com/wdsi/filesubmission) om een onwaar negatief of onwaar positief voor netwerkbeveiliging te melden. Met een E5-abonnement kunt u ook een koppeling naar [een bijbehorende waarschuwing geven.](alerts-queue.md)
 
 Zie [Fout-positieve/negatieven adresseert in Microsoft Defender voor Eindpunt.](defender-endpoint-false-positives-negatives.md)
 
@@ -91,7 +91,7 @@ Als u de geblokkeerde website wilt toestaan (onwaar positief), voegt u de URL to
 
 Wanneer u een probleem met netwerkbeveiliging rapporteert, wordt u gevraagd diagnostische gegevens te verzamelen en te verzenden die kunnen worden gebruikt door microsoft-ondersteunings- en technische teams om problemen op te lossen.
 
-1. Open een opdrachtprompt met verhoogde opdracht en wijzig in de Windows Defender-adreslijst:
+1. Open een opdrachtprompt met verhoogde opdracht en wijzig de Windows Defender adreslijst:
 
    ```console
    cd c:\program files\windows defender
@@ -120,10 +120,10 @@ reg add "HKLM\Software\Microsoft\Windows Defender" /v ProxyServer /d "<proxy IP 
 reg add "HKLM\Software\Microsoft\Windows Defender" /v ProxyPacUrl /d "<Proxy PAC url>" /f
 ```
 
-U kunt de registersleutel configureren met PowerShell, Microsoft Endpoint Manager of Groepsbeleid. Hier zijn enkele bronnen die u kunt helpen:
+U kunt de registersleutel configureren met Behulp van PowerShell, Microsoft Endpoint Manager of Groepsbeleid. Hier zijn enkele bronnen die u kunt helpen:
 - [Werken met registersleutels](/powershell/scripting/samples/working-with-registry-keys)
 - [Aangepaste clientinstellingen configureren voor Endpoint Protection](/mem/configmgr/protect/deploy-use/endpoint-protection-configure-client)
-- [Groepsbeleidsinstellingen gebruiken om endpointbeveiliging te beheren](/mem/configmgr/protect/deploy-use/endpoint-protection-group-policies)
+- [Groepsbeleidsinstellingen gebruiken om de Endpoint Protection](/mem/configmgr/protect/deploy-use/endpoint-protection-group-policies)
 
 ## <a name="see-also"></a>Zie ook
 

@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: d8f589da32ae72383bbe2da7624c9bb846265679
-ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
+ms.openlocfilehash: 26695df0e34c0e06adc4f58acf3fea83122c1982
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 06/08/2021
-ms.locfileid: "52809247"
+ms.locfileid: "52844476"
 ---
 # <a name="create-a-custom-gradual-rollout-process-for-microsoft-defender-updates"></a>Een aangepast geleidelijk implementatieproces maken voor Microsoft Defender-updates
 
@@ -54,7 +54,7 @@ In de volgende tabel vindt u de beschikbare instellingen voor groepsbeleid voor 
 > [!NOTE]
 > Een bijgewerkte Defender ADMX-sjabloon wordt samen met de 21H2-release van de Windows 10.
 
-U kunt [Groepsbeleid gebruiken om](https://docs.microsoft.com/windows/win32/srvnodes/group-policy?redirectedfrom=MSDN)uw Microsoft Defender Antivirus   eindpunten te configureren en te beheren.
+U kunt [Groepsbeleid gebruiken om](/windows/win32/srvnodes/group-policy?redirectedfrom=MSDN)uw Microsoft Defender Antivirus   eindpunten te configureren en te beheren.
 
 In het algemeen kunt u de volgende procedure gebruiken voor het configureren of wijzigen van Microsoft Defender Antivirus groepsbeleidsinstellingen:
 
@@ -74,7 +74,7 @@ In het algemeen kunt u de volgende procedure gebruiken voor het configureren of 
 
 Volg de instructies in onderstaande koppeling om een aangepast beleid te maken in Intune:
 
-[Aangepaste instellingen toevoegen voor Windows 10 apparaten in Microsoft Intune - Azure \| Microsoft Docs](https://docs.microsoft.com/mem/intune/configuration/custom-settings-windows-10)
+[Aangepaste instellingen toevoegen voor Windows 10 apparaten in Microsoft Intune - Azure \| Microsoft Docs](/mem/intune/configuration/custom-settings-windows-10)
 
 ## <a name="powershell"></a>PowerShell
 
@@ -94,4 +94,4 @@ Voorbeeld:
 
 Gebruik `Set-MpPreference -PlatformUpdatesChannel Beta` dit programma om platformupdates te configureren om vanuit het bètakanaal te komen.
 
-Zie Set-MpPreference (Defender) voor meer informatie over de parameters en hoe u [deze configureert | Microsoft Docs](https://docs.microsoft.com/powershell/module/defender/set-mppreference?view=windowsserver2019-ps).
+Zie Set-MpPreference (Defender) voor meer informatie over de parameters en hoe u [deze configureert | Microsoft Docs](/powershell/module/defender/set-mppreference?view=windowsserver2019-ps).

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 2601001687fc22da98ca3cd81010237d12705ea4
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 99a52188dd5f6eca2f8368aa3c114d0bfb950b10
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687409"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844152"
 ---
 # <a name="troubleshoot-microsoft-defender-for-endpoint-live-response-issues"></a>Problemen met live-antwoorden op Microsoft Defender voor Eindpunt oplossen
 
@@ -67,7 +67,7 @@ Live response maakt gebruik van De registratie van de Defender voor eindpunten-s
 2. WpnService (Windows Push Notifications System Service) is niet uitgeschakeld.
 
 Raadpleeg de onderstaande artikelen om volledig inzicht te krijgen in het gedrag en de vereisten van de WpnService-service:
-- [Overzicht van Windows Push Notification Services (WNS)](https://docs.microsoft.com/windows/uwp/design/shell/tiles-and-notifications/windows-push-notification-services--wns--overview)
-- [Enterprise Firewall en proxyconfiguraties ter ondersteuning van WNS-verkeer](https://docs.microsoft.com/windows/uwp/design/shell/tiles-and-notifications/firewall-allowlist-config)
+- [Windows Overzicht van Push Notification Services (WNS)](/windows/uwp/design/shell/tiles-and-notifications/windows-push-notification-services--wns--overview)
+- [Enterprise Firewall en proxyconfiguraties ter ondersteuning van WNS-verkeer](/windows/uwp/design/shell/tiles-and-notifications/firewall-allowlist-config)
 - [Openbare IP-bereik (Microsoft Push Notifications Service)](https://www.microsoft.com/en-us/download/details.aspx?id=44535)
 

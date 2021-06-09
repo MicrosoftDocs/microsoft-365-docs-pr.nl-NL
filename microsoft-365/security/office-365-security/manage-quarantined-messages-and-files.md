@@ -19,12 +19,12 @@ ms.custom:
 description: Beheerders kunnen leren hoe u berichten in quarantaine kunt weergeven en beheren voor alle gebruikers in Exchange Online Protection (EOP). Beheerders in organisaties met Microsoft Defender voor Office 365 kunnen ook in quarantaine geplaatste bestanden beheren in SharePoint Online, OneDrive voor Bedrijven en Microsoft Teams.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 508866fd66e4cbd00f559446d4ce52a4be063c94
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 7b484cc3a8462115b5151b34ba93ba0c041e16b4
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52539105"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52822296"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>Berichten en bestanden in quarantaine beheren als EOP-beheerder
 
@@ -41,11 +41,11 @@ Beheerders kunnen alle typen in quarantaine geplaatste berichten voor alle gebru
 
 Beheerders in organisaties met Microsoft Defender voor Office 365 kunnen ook in quarantaine geplaatste bestanden weergeven, downloaden en verwijderen in SharePoint Online, OneDrive voor Bedrijven en Microsoft Teams.
 
-U bekijkt en beheert berichten in quarantaine in het beveiligings- & compliancecentrum of in PowerShell (Exchange Online PowerShell voor Microsoft 365-organisaties met postvakken in Exchange Online; zelfstandige EOP PowerShell voor organisaties zonder Exchange Online-postvakken).
+U bekijkt en beheert berichten in quarantaine in het Microsoft 365-beveiligingscentrum of in PowerShell (Exchange Online PowerShell voor Microsoft 365-organisaties met postvakken in Exchange Online; zelfstandige EOP PowerShell voor organisaties zonder Exchange Online-postvakken).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- Ga naar <https://protection.office.com> om het Beveiligings- en compliancecentrum te openen. Ga naar <https://protection.office.com/quarantine> als u de quarantaine-pagina direct wilt openen.
+- Als u het beveiligingscentrum wilt openen, gaat u naar <https://security.microsoft.com> . Ga naar <https://security.microsoft.com/quarantine> als u de quarantaine-pagina direct wilt openen.
 
 - Zie [Verbinding maken met Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](/powershell/exchange/connect-to-exchange-online-protection-powershell) als je verbinding wilt maken met zelfstandige EOP PowerShell.
 
@@ -68,13 +68,13 @@ U bekijkt en beheert berichten in quarantaine in het beveiligings- & compliancec
 
   Wanneer een bericht verloopt vanuit quarantaine, kunt u het bericht niet herstellen.
 
-## <a name="use-the-security--compliance-center-to-manage-quarantined-email-messages"></a>Het beveiligings- & compliancecentrum gebruiken om in quarantaine geplaatste e-mailberichten te beheren
+## <a name="use-the-security-center-to-manage-quarantined-email-messages"></a>Het beveiligingscentrum gebruiken om in quarantaine geplaatste e-mailberichten te beheren
 
 ### <a name="view-quarantined-email"></a>In quarantaine geplaatste e-mail weergeven
 
-1. Ga in het & compliancecentrum naar **Quarantaine voor bedreigingsbeheer** \>  \> **controleren.**
+1. Ga in het beveiligingscentrum naar **E-mail & Samenwerking** \> **Controleren** \> **quarantaine**.
 
-2. Controleer of **Weergave in quarantaine** is ingesteld op de standaardwaarde-e-mail. 
+2. Controleer op **de** pagina Quarantaine of **Weergave in quarantaine** is ingesteld op de standaardwaarde-e-mail. 
 
 3. U kunt de resultaten sorteren door op een beschikbare kolomkop te klikken. Klik op **Kolommen wijzigen** om maximaal zeven kolommen te laten zien. Standaardwaarden worden aangegeven met een sterretje (<sup>\*</sup>):
 
@@ -84,7 +84,7 @@ U bekijkt en beheert berichten in quarantaine in het beveiligings- & compliancec
    - **Reden van quarantaine**<sup>\*</sup>
    - **Vrijgegeven?**<sup>\*</sup>
    - **Beleidstype**<sup>\*</sup>
-   - **Vervalt op**
+   - **Vervalt op**<sup>\*</sup>
    - **Ontvanger**
    - **Bericht-ID**
    - **Beleidsnaam**
@@ -94,15 +94,12 @@ U bekijkt en beheert berichten in quarantaine in het beveiligings- & compliancec
    Klik op **Opslaan** of op **Instellen op standaard** wanneer u gereed bent.
 
 4. Klik op **Filter** om de resultaten te filteren. De beschikbare filters zijn:
-
    - **Vervaldatum**: filtert de berichten op de datum dat de quarantaineperiode vervalt:
      - **Vandaag**
      - **Komende 2 dagen**
      - **Komende 7 dagen**
      - **Aangepast**: voer een **begindatum** en **einddatum** in.
-
    - **Ontvangen op**: voer een **begindatum** en **einddatum** in.
-
    - **Reden van quarantaine**:
      - **Beleid:** Het bericht komt overeen met de voorwaarden van een e-mailstroomregel (ook wel een transportregel genoemd).
      - **Bulk**
@@ -110,32 +107,25 @@ U bekijkt en beheert berichten in quarantaine in het beveiligings- & compliancec
      - **Malware**
      - **Spam**
      - **Phish met hoog vertrouwen**
-
    - **Beleidstype**: berichten filteren op beleidstype:
      - **Anti-malwarebeleid**
      - **Safe Bijlagebeleid**
      - **Beleid tegen phishing**
      - **Beleid voor gehoste inhoudsfilters** (antispambeleid)
      - **Transportregel**
-
    - **E-mailontvanger:** Alle gebruikers of alleen berichten die naar u zijn verzonden. Eindgebruikers kunnen alleen in quarantaine geplaatste berichten beheren die naar hen zijn verzonden.
 
    Als u het filter wilt wissen, drukt u op **Wissen**. Als u het filterdeelvenster wilt verbergen, klikt u opnieuw op **Filter**.
 
 5. Gebruik **Resultaten sorteren op** (standaard de knop **Bericht-ID**) en een bijbehorende waarde om naar specifieke berichten te zoeken. Jokertekens worden niet ondersteund. U kunt zoeken op een van de volgende waarden:
-
    - **Bericht-ID**: de wereldwijd unieke identificatie van het bericht.
 
      U hebt bijvoorbeeld [](message-trace-scc.md) berichtspoor gebruikt om te zoeken naar een bericht dat is verzonden naar een gebruiker in uw organisatie en u bepaalt dat het bericht in quarantaine is geplaatst in plaats van bezorgd. Zorg ervoor dat u de id-waarde voor het volledige bericht op moet nemen, waaronder hoekhaken ( \<\> ). Bijvoorbeeld: `<79239079-d95a-483a-aacf-e954f592a0f6@XYZPR00BM0200.contoso.com>` .
 
    - **E-mailadres afzender**: een enkel e-mailadres van een afzender.
-
    - **Beleidsnaam**: gebruik de volledige Beleidsnaam van het bericht. De zoekopdracht is niet hoofdlettergevoelig.
-
    - **E-mailadres ontvanger**: een enkel e-mailadres van een ontvanger.
-
    - **Onderwerp**: gebruik het volledige onderwerp van het bericht. De zoekopdracht is niet hoofdlettergevoelig.
-
    - **Naam van** het beleid: de naam van het beleid dat verantwoordelijk was voor het kwaalveren van het bericht.
 
    Nadat u de zoekcriteria hebt opgegeven, klikt u op de ![Knop vernieuwen](../../media/scc-quarantine-refresh.png) **Vernieuwen** om de resultaten te filteren.
@@ -144,36 +134,25 @@ Nadat u een specifiek bericht in quarantaine hebt gevonden, selecteert u het ber
 
 #### <a name="view-quarantined-message-details"></a>Gegevens van bericht in quarantaine bekijken
 
-Wanneer u een e-mailbericht selecteert in de lijst verschijnen de volgende berichtdetails in het deelvenster **Details**:
+Wanneer u een e-mailbericht in de lijst selecteert, zijn de volgende berichtdetails beschikbaar in de details flyout die wordt weergegeven:
 
 - **Bericht-ID**: de wereldwijd unieke identificatie van het bericht.
-
 - **Adres afzender**
-
 - **Ontvangen op**: de datum/tijd waarop het bericht is ontvangen.
-
 - **Onderwerp**
-
 - **Reden voor quarantaine:** geeft aan of een bericht is geïdentificeerd als **Spam**, **Bulk**, **Phish**, overeenkomend met een regel voor de e-mailstroom (**transportregel**) of is geïdentificeerd als **malware.**
-
 - **Aantal geadresseerden**
-
 - **Ontvangers**: als het bericht naar meerdere ontvangers is gestuurd, moet u klikken op **Preview bericht** of **Berichtkop bekijken** om de volledige lijst met ontvangers te zien.
-
 - **Vervalt op**: de datum/tijd waarop het bericht automatisch en permanent wordt verwijderd uit quarantaine.
-
 - **Vrijgegeven aan**: alle e-mailadressen (indien aanwezig) waaraan het bericht is vrijgegeven.
-
 - **Nog niet vrijgegeven aan**: alle e-mailadressen (indien aanwezig) waaraan het bericht nog niet is vrijgegeven.
 
 ### <a name="take-action-on-quarantined-email"></a>Actie ondernemen op e-mail in quarantaine
 
-Nadat u een bericht hebt geselecteerd, hebt u verschillende opties voor wat u moet doen met de berichten in het deelvenster **Details:**
+Nadat u een bericht hebt geselecteerd, hebt u verschillende opties voor wat u moet doen met de berichten in de details flyout:
 
-- **Releasebericht:** Kies de volgende opties in het flyoutvenster dat wordt weergegeven:
-
+- **Releasebericht:** Kies de volgende opties in het flyout dat wordt weergegeven:
   - **Berichten rapporteren aan Microsoft voor analyse:** Dit is standaard geselecteerd en meldt het verkeerd in quarantaine geplaatste bericht aan Microsoft als een onwaar positief bericht. Als het bericht in quarantaine is geplaatst als spam, bulksgewijs, phishing of malware bevat, wordt het bericht ook gerapporteerd aan het Microsoft Spam Analysis Team. Afhankelijk van hun analyse kunnen de regels voor spamfilters voor de hele service worden aangepast om het bericht door te sturen.
-
   - Kies een van de volgende opties:
     - **Berichten vrijgeven voor alle geadresseerden**
     - **Berichten vrijgeven aan specifieke geadresseerden**
@@ -187,25 +166,16 @@ Nadat u een bericht hebt geselecteerd, hebt u verschillende opties voor wat u mo
   - Alleen geadresseerden die het bericht niet hebben ontvangen, worden weergegeven in de lijst met potentiële geadresseerden.
 
 - **Berichtkop bekijken**: kies deze koppeling om de tekst van de berichtkop te bekijken. Om de kopvelden en -waarden uitgebreid te analyseren, kopieert u de berichtkoptekst naar uw klembord en kies vervolgens **Microsoft-berichtkopanalyse** om naar de Verbindingsanalyse op afstand te gaan (klik met de rechtermuisknop en kies **In een nieuw tabblad openen** als u Microsoft 365 niet wilt verlaten om deze taak te voltooien). Plak de berichtkop in de pagina in de sectie Berichtkopanalyse en kies **Koppen analyseren**:
-
-- **Preview van bericht**: kies in het deelvenster dat wordt weergegeven een van de volgende opties:
+- **Voorbeeldbericht:** Kies een van de volgende opties in het flyout dat wordt weergegeven:
   - **Bronweergave**: toont de HTML-versie van het bericht met uitgeschakelde koppelingen.
   - **Tekstweergave**: toont het bericht in gewone tekst.
-
 - **Uit quarantaine verwijderen:** nadat u op **Ja** hebt geklikt in de waarschuwing die wordt weergegeven, wordt het bericht onmiddellijk verwijderd zonder naar de oorspronkelijke geadresseerden te worden verzonden.
-
-- **Bericht downloaden**: selecteer in het deelvenster dat wordt weergegeven **Ik begrijp de risico’s van het downloaden van dit bericht** om een lokale kopie van het bericht op te slaan in .eml-indeling.
-
+- **Bericht downloaden:** Selecteer in het flyout dat wordt weergegeven de optie Ik begrijp de risico's van het downloaden van dit bericht om een lokale kopie van het bericht op te slaan in .eml-indeling. 
 - **Afzenders blokkeren**: voeg de afzender toe aan de lijst met geblokkeerde afzenders in uw postvak. Raadpleeg [Afzender van e-mail blokkeren](https://support.microsoft.com/office/b29fd867-cac9-40d8-aed1-659e06a706e4) voor meer informatie.
-
-- **Bericht verzenden:** Kies de volgende opties in het flyoutvenster dat wordt weergegeven:
-
+- **Bericht verzenden:** Kies de volgende opties in het flyout dat wordt weergegeven:
   - **Objecttype:** **E-mail** (standaard), **URL** of **Bijlage**.
-
   - **Inzendingsindeling:** **Netwerkbericht-id** (standaard,  met de bijbehorende waarde in het vak Netwerkbericht-id) **of** Bestand (bladeren naar een lokaal .eml- of .msg-bestand). Als u Bestand **selecteert** en vervolgens **Netwerkbericht-id** selecteert, is de oorspronkelijke waarde verdwenen.
-
   - **Geadresseerden:** Typ bij lease één oorspronkelijke geadresseerde van het bericht of klik **op Alles selecteren** om alle geadresseerden te identificeren. U kunt ook op **Alles selecteren** klikken en afzonderlijke geadresseerden vervolgens selectief verwijderen.
-
   - **Reden voor indiening:** **Had niet moeten worden geblokkeerd** (standaard) of Had moeten worden **geblokkeerd.**
 
   Wanneer u klaar bent, klikt u op **Verzenden.**
@@ -214,7 +184,7 @@ Als u het bericht niet vrijgeeft of verwijdert, wordt het verwijderd nadat de st
 
 #### <a name="take-action-on-multiple-quarantined-email-messages"></a>Actie ondernemen op meerdere e-mailberichten in quarantaine
 
-Wanneer u meerdere e-mailberichten in quarantaine selecteert (maximaal 100), verschijnt het deelvenster **Bulkopdrachten**, waar u de volgende acties kunt uitvoeren:
+Wanneer u meerdere in quarantaine geplaatste berichten in de  lijst selecteert (maximaal 100), wordt het fly-out Bulkacties weergegeven waar u de volgende acties kunt uitvoeren:
 
 - **Berichten vrijgeven**: de opties zijn dezelfde als wanneer u een enkel bericht vrijgeeft, behalve dat u **Berichten vrijgeven aan specifieke ontvangers** niet kunt selecteren. U kunt alleen **Bericht vrijgeven aan alle ontvangers** of **Berichten vrijgeven aan andere personen**.
 
@@ -225,7 +195,7 @@ Wanneer u meerdere e-mailberichten in quarantaine selecteert (maximaal 100), ver
 
 Klik op **Sluiten** wanneer u gereed bent.
 
-## <a name="microsoft-defender-for-office-365-only-use-the-security--compliance-center-to-manage-quarantined-files"></a>Alleen Microsoft Defender voor Office 365: Gebruik het beveiligings- & compliancecentrum om in quarantaine geplaatste bestanden te beheren
+## <a name="use-the-security-center-to-manage-quarantined-files-in-defender-for-office-365"></a>Gebruik het beveiligingscentrum om in quarantaine geplaatste bestanden te beheren in Defender voor Office 365
 
 > [!NOTE]
 > De procedures voor in quarantaine geplaatste bestanden in deze sectie zijn alleen beschikbaar voor Abonnees Office 365 Abonnement 1 en Abonnement 2.
@@ -234,12 +204,11 @@ In organisaties met Defender voor Office 365 kunnen beheerders in quarantaine ge
 
 ### <a name="view-quarantined-files"></a>In quarantaine geplaatste bestanden weergeven
 
-1. Ga in het & compliancecentrum naar **Quarantaine voor bedreigingsbeheer** \>  \> **controleren.**
+1. Ga in het beveiligingscentrum naar **E-mail & Samenwerking** \> **Controleren** \> **quarantaine**.
 
-2. Weergave **in quarantaine wijzigen in** de **waardebestanden.** U kunt sorteren op een veld door op een beschikbare kolomkop te klikken.
+2. Op de **pagina Quarantaine** wijzigt u Weergave in **quarantaine in** de **waardebestanden.** U kunt sorteren op een veld door op een beschikbare kolomkop te klikken.
 
 3. U kunt de resultaten sorteren door op een beschikbare kolomkop te klikken. Klik op **Kolommen wijzigen** om maximaal zeven kolommen te laten zien. De standaardkolommen zijn gemarkeerd met een sterretje ( <sup>\*</sup> ):
-
    - **Gebruiker**<sup>\*</sup>
    - **Locatie**<sup>\*</sup>
    - **Bestandsnaam**<sup>\*</sup>
@@ -251,7 +220,6 @@ In organisaties met Defender voor Office 365 kunnen beheerders in quarantaine ge
    - **Gewijzigd op tijd**
 
 4. Klik op **Filter** om de resultaten te filteren. De beschikbare filters zijn:
-
    - **Vervaldatum**: filtert de berichten op de datum dat de quarantaineperiode vervalt:
      - **Vandaag**
      - **Komende 2 dagen**
@@ -265,7 +233,7 @@ Nadat u een specifiek bestand in quarantaine hebt gevonden, selecteert u het bes
 
 #### <a name="view-quarantined-file-details"></a>In quarantaine geplaatste bestandsgegevens weergeven
 
-Wanneer u een bestand in de lijst selecteert, worden de volgende bestandsgegevens weergegeven in het deelvenster **Details:**
+Wanneer u een bestand in de lijst selecteert, zijn de volgende bestandsgegevens beschikbaar in de details flyout die wordt geopend:
 
 - **Bestandsnaam**
 - **BestandS-URL:** URL die de locatie van het bestand definieert (bijvoorbeeld in SharePoint Online).
@@ -283,7 +251,7 @@ Wanneer u een bestand in de lijst selecteert, worden de volgende bestandsgegeven
 
 ### <a name="take-action-on-quarantined-files"></a>Actie ondernemen voor in quarantaine geplaatste bestanden
 
-Wanneer u een bestand in de lijst selecteert, kunt u de volgende acties uitvoeren in het bestand in het deelvenster **Details:**
+Wanneer u een bestand in de lijst selecteert, kunt u de volgende acties uitvoeren in het bestand in de details flyout:
 
 - **Releasebestanden:** Selecteer (standaard) of deselecteer **Rapportbestanden** naar Microsoft voor analyse en klik vervolgens op **Bestanden vrijgeven.**
 - **Downloadbestand**
@@ -293,7 +261,7 @@ Als u de bestanden niet los laat of verwijdert, worden deze verwijderd nadat de 
 
 #### <a name="actions-on-multiple-quarantined-files"></a>Acties voor meerdere in quarantaine geplaatste bestanden
 
-Wanneer u meerdere in quarantaine geplaatste bestanden in de  lijst selecteert (maximaal 100), wordt het deelvenster Bulkacties weergegeven waarin u de volgende acties kunt uitvoeren:
+Wanneer u meerdere in quarantaine geplaatste bestanden in de  lijst selecteert (maximaal 100), wordt het fly-out Bulkacties weergegeven waar u de volgende acties kunt uitvoeren:
 
 - **Bestanden vrijgeven**
 - **Bestanden verwijderen:** Nadat u op **Ja** hebt geklikt in de waarschuwing die wordt weergegeven, worden de bestanden onmiddellijk verwijderd.

@@ -12,12 +12,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 00943eb85abbfd2d237ae5544eb69d3ec4d9f875
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: c8c83724d17acff52d588331b3b854e180d5466c
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245502"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841280"
 ---
 # <a name="device-images"></a>Afbeeldingen van apparaten
 
@@ -79,13 +79,13 @@ Commerciële HP-pc's die zijn verzonden met de HP Corporate Ready Image, bevatte
 
 Met deze stappen worden alle gegevens op het apparaat verwijderd, dus voordat u begint, moet u een back-up maken van alle gegevens die u wilt bewaren.
 
-1. [Maak een opstartbaar USB-station](https://docs.microsoft.com/windows-hardware/manufacture/desktop/winpe-create-usb-bootable-drive) met WinPE.
+1. [Maak een opstartbaar USB-station](/windows-hardware/manufacture/desktop/winpe-create-usb-bootable-drive) met WinPE.
 2. Kopieer deze bestanden van C: \\ BRONNEN naar het USB-station:
     - Het WIM-bestand voor fabrieksherstel (bijvoorbeeld HP \_ EliteBook \_ 840 \_ G7 \_ Notebook PC CR \_ \_ \_ 2004.wim)
     - IMPLEMENTEREN. CMD
     - ReCreatePartitions.txt
 3. [Het apparaat opstarten op WinPE](https://store.hp.com/us/en/tech-takes/how-to-boot-from-usb-drive-on-windows-10-pcs) USB-station.
-4. Voer in een opdrachtprompt [Diskpart.exe. ](https://docs.microsoft.com/windows-server/administration/windows-commands/diskpart#additional-references)
+4. Voer in een opdrachtprompt [Diskpart.exe. ](/windows-server/administration/windows-commands/diskpart#additional-references)
 5. Voer in Diskpart het nummer van de primaire opslagschijf `list disk` (meestal Schijf 0) uit.
 6. Sluit Diskpart af door te `exit` typen.
 7. Voer in de opdrachtprompt uit , waarbij sys_disk het schijfnummer is van de primaire opslagschijf die u zojuist hebt bepaald en recovery_wim de bestandsnaam van de `deploy.cmd <sys_disk> <recovery_wim>` .   WIM-bestand dat u eerder hebt gekopieerd.

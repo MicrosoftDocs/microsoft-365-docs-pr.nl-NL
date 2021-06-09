@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0276f0464f898d3675e4cc1d6b69185e7e390a87
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 7956c1454cd7bd962eda984cc9d93be9824d7458
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572667"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52822103"
 ---
 # <a name="microsoft-defender-for-endpoint-for-us-government-customers"></a>Microsoft Defender voor Eindpunt voor overheidsklanten in de VS
 
@@ -104,7 +104,7 @@ De volgende besturingssysteemversies worden ondersteund bij het gebruik van [Azu
 
 OS-versie | GCC | GCC Hoog | DoD
 :---|:---|:---|:---
-Windows Server 2019 | ![Nee](images/svg/check-no.svg) In ontwikkeling | ![Nee](images/svg/check-no.svg) In ontwikkeling | ![Nee](images/svg/check-no.svg) In ontwikkeling
+Windows Server 2019 | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
 Windows Server 2016 | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
 Windows Server 2012 R2 | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
 Windows Server 2008 R2 SP1 | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
@@ -164,7 +164,7 @@ Functienaam | GCC | GCC Hoog | DoD
 Beheer en API's: Streaming API | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg)
 Filteren van webinhoud | ![Nee](images/svg/check-no.svg) In ontwikkeling | ![Nee](images/svg/check-no.svg) In ontwikkeling | ![Nee](images/svg/check-no.svg) In ontwikkeling
 Integraties: Azure Sentinel | ![Ja](images/svg/check-yes.svg) | ![Ja](images/svg/check-yes.svg) Waarschuwingen <br /> ![Nee](images/svg/check-no.svg) Incidenten & Onbewerkte gegevens: In ontwikkeling | ![Ja](images/svg/check-yes.svg) Waarschuwingen <br /> ![Nee](images/svg/check-no.svg) Incidenten & Onbewerkte gegevens: In ontwikkeling
-Integraties: Microsoft Cloud App Security | ![Nee](images/svg/check-no.svg) In ontwikkeling | ![Nee](images/svg/check-no.svg) In ontwikkeling | ![Nee](images/svg/check-no.svg) In ontwikkeling
+Integraties: Microsoft Cloud App Security | ![Ja](images/svg/check-yes.svg) | ![Nee](images/svg/check-no.svg) In ontwikkeling | ![Nee](images/svg/check-no.svg) In ontwikkeling
 Integraties: Microsoft Compliance Manager | ![Nee](images/svg/check-no.svg) In ontwikkeling | ![Nee](images/svg/check-no.svg) In ontwikkeling | ![Nee](images/svg/check-no.svg) In ontwikkeling
 Integraties: Microsoft Defender voor identiteit | ![Nee](images/svg/check-no.svg) In ontwikkeling | ![Nee](images/svg/check-no.svg) In ontwikkeling | ![Nee](images/svg/check-no.svg) In ontwikkeling
 Integraties: Microsoft Endpoint DLP | ![Nee](images/svg/check-no.svg) In ontwikkeling | ![Nee](images/svg/check-no.svg) In ontwikkeling | ![Nee](images/svg/check-no.svg) In ontwikkeling

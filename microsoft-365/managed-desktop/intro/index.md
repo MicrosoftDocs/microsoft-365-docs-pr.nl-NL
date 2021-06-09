@@ -10,12 +10,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: d058cfefbc31be6d355ed61e745c36af684829b4
-ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
+ms.openlocfilehash: 0c08f5d05c42ed8d1e84632377be28e542771c2a
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52259665"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841364"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>Wat is Microsoft Managed Desktop?
 
@@ -61,7 +61,7 @@ Microsoft Managed Desktop neemt de last op zich van het beheren van geregistreer
 
 - **Updates:** Microsoft Managed Desktop stelt alle aspecten van [implementatiegroepen](../service-description/updates.md) in en beheert deze voor kwaliteits- en functie-updates van Windows 10, stuurprogramma's, firmware, antivirusdefinities en updates van Microsoft 365 Apps voor Ondernemingen. Dit omvat uitgebreide testen en verificatie van alle updates, om ervoor te zorgen dat geregistreerde apparaten altijd up-to-date zijn en om verstoringen te minimaliseren, waardoor uw IT-afdeling van die doorlopende taak wordt bevrijd.
 
-- **Apps:** als onderdeel van Microsoft 365 Enterprise biedt (en beheert) Microsoft verschillende belangrijke Microsoft-apps voor u. Maar er zijn waarschijnlijk ook andere apps die u nodig heeft voor uw bedrijf. In plaats van dat uw IT-afdeling die apps moet testen, verpakken en implementeren, helpt Microsoft u bij het implementeren ervan via het programma [FastTrack](https://www.microsoft.com/FastTrack). Verder kan het programma [App Assure](https://docs.microsoft.com/fasttrack/products-and-capabilities#app-assuree) helpen bij het oplossen van eventuele compatibiliteitsproblemen die optreden bij het migreren naar de nieuwste versies van onze producten. Meer informatie vindt u op [Apps in Microsoft Managed Desktop](../get-ready/apps.md).
+- **Apps:** als onderdeel van Microsoft 365 Enterprise biedt (en beheert) Microsoft verschillende belangrijke Microsoft-apps voor u. Maar er zijn waarschijnlijk ook andere apps die u nodig heeft voor uw bedrijf. In plaats van dat uw IT-afdeling die apps moet testen, verpakken en implementeren, helpt Microsoft u bij het implementeren ervan via het programma [FastTrack](https://www.microsoft.com/FastTrack). Verder kan het programma [App Assure](/fasttrack/products-and-capabilities#app-assuree) helpen bij het oplossen van eventuele compatibiliteitsproblemen die optreden bij het migreren naar de nieuwste versies van onze producten. Meer informatie vindt u op [Apps in Microsoft Managed Desktop](../get-ready/apps.md).
 
 
 ## <a name="device-monitoring"></a>Controle van apparaten

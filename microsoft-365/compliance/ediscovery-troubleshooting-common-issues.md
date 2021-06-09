@@ -19,12 +19,12 @@ ms.assetid: ''
 description: Meer informatie over eenvoudige stappen voor het oplossen van problemen die u kunt ondernemen om veelvoorkomende problemen in Office 365 eDiscovery op te lossen.
 siblings_only: true
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 26ca41774e1e09619fdf5e518258f8acf3a9d938
-ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
+ms.openlocfilehash: 28c092cefbdd8add46d3f36aa118e230d16a918a
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 06/08/2021
-ms.locfileid: "52809117"
+ms.locfileid: "52822236"
 ---
 # <a name="investigate-troubleshoot-and-resolve-common-ediscovery-issues"></a>Veelvoorkomende eDiscovery-problemen onderzoeken, oplossen en oplossen
 
@@ -226,7 +226,7 @@ Dit is een probleem aan de clientzijde en probeer de volgende stappen om het pro
 
 1. Probeer een andere client/computer te downloaden.
 
-2. Verwijder oude zoekopdrachten die niet meer nodig zijn met behulp van [Remove-ComplianceSearch][/powershell/module/exchange/remove-compliancesearch] cmdlet.
+2. Verwijder oude zoekopdrachten die niet meer nodig zijn met [de cmdlet Remove-ComplianceSearch.](/powershell/module/exchange/remove-compliancesearch)
 
 3. Zorg ervoor dat u downloadt naar een lokaal station.
 

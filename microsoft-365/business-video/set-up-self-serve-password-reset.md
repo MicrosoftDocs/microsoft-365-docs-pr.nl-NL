@@ -20,13 +20,13 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Lees hoe gebruikers hun eigen wachtwoorden opnieuw kunnen instellen in Microsoft 365 Business Premium.
-ms.openlocfilehash: 62f82f106327c5378310bac0d41fde8462449329
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+description: Meer informatie over hoe gebruikers hun eigen wachtwoorden opnieuw kunnen instellen in Microsoft 365 Business Premium.
+ms.openlocfilehash: b3cdd388c27b0f75bddb2544e36bd3ade210955b
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903704"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841316"
 ---
 # <a name="set-up-self-service-password-reset"></a>Selfservice voor wachtwoordherstel instellen
 
@@ -36,13 +36,17 @@ Als u wilt dat uw gebruikers hun eigen wachtwoorden opnieuw instellen zonder tel
 
 ## <a name="try-it"></a>Probeer het zelf!
 
-1. In het Microsoft 365-beheercentrum selecteert u in het linkernavigatiedeelvenster **Instellingen** en vervolgens **& privacy**.
+1. Selecteer in Microsoft 365 linkernavigatiedeelvenster in het linkernavigatiedeelvenster Instellingen **en** vervolgens **Beveiligings- & privacy**.
 1. Selecteer **onder Uw personen hun eigen wachtwoorden** opnieuw instellen de optie Azure **AD-beheercentrum.**
 1. Selecteer in het linkernavigatiedeelvenster **Gebruikers** en selecteer vervolgens op de pagina **Gebruikers - alle** gebruikers de optie Wachtwoord opnieuw **instellen.**
 1. Selecteer **Alles om** het opnieuw instellen van selfservicewachtwoord in te stellen en selecteer vervolgens **Opslaan.**
 
 De volgende keer dat een gebruiker zich aan meldt bij zijn of haar account, wordt hem of haar om zijn of haar gebruikers-id en wachtwoord gevraagd. Ze selecteren **Volgende** en kiezen vervolgens of ze zich willen verifiëren met hun telefoon, e-mail of beide. Ze voeren de code in die ze ontvangen, selecteer **Verifiëren** en selecteer vervolgens **Voltooien.** Wanneer ze klaar zijn, kunnen ze hun eigen wachtwoord opnieuw instellen.
 
-## <a name="related-content"></a>Verwante onderwerpen 
+## <a name="related-content"></a>Verwante onderwerpen
 
-[Het wachtwoordverloopbeleid](https://docs.microsoft.com/microsoft-365/admin/manage/set-password-expiration-policy) voor uw [](https://docs.microsoft.com/microsoft-365/admin/add-users/set-password-to-never-expire) organisatie instellen (artikel) Het wachtwoord van een afzonderlijke gebruiker instellen om nooit te verlopen (artikel) [](https://docs.microsoft.com/microsoft-365/admin/add-users/strong-password) Sterke wachtwoordvereisten voor gebruikers uitschakelen (artikel)
+[Het wachtwoordverloopbeleid voor uw organisatie instellen](/microsoft-365/admin/manage/set-password-expiration-policy) (artikel)
+
+[Het wachtwoord van een individuele gebruiker zo instellen dat het nooit verloopt](/microsoft-365/admin/add-users/set-password-to-never-expire) (artikel)
+
+[Sterke wachtwoordvereisten voor gebruikers uitschakelen](/microsoft-365/admin/add-users/strong-password) (artikel)

@@ -15,12 +15,12 @@ ms.custom:
 description: In dit artikel vindt u informatie over rapporten en hulpprogramma's voor probleemoplossing die beschikbaar zijn Microsoft Exchange Online EOP-beheerders (Protection).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ae55ded9d907754161813c9f7bfa7eeb14c558a8
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 079e2b359f28b0b6bc3d7eac86e69060c65ea250
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52625027"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841436"
 ---
 # <a name="reporting-and-message-trace-in-eop"></a>Rapportage en bericht traceren in EOP
 
@@ -46,11 +46,8 @@ In Microsoft 365 organisaties met postvakken in Exchange Online of zelfstandige 
 Zie de volgende bronnen voor meer informatie:
 
 - [Microsoft 365 Rapporten in het beheercentrum - Microsoft 365 groepen](../../admin/activity-reports/office-365-groups.md)
-
 - [Microsoft 365 Rapporten in het beheercentrum - E-mailactiviteit](../../admin/activity-reports/email-activity.md)
-
 - [Microsoft 365 Rapporten in het beheercentrum - Gebruik van e-mailapps](../../admin/activity-reports/email-apps-usage.md)
-
 - [Microsoft 365 Rapporten in het beheercentrum - Postvakgebruik](../../admin/activity-reports/mailbox-usage.md)
 
 ## <a name="security--compliance-reports-in-the-microsoft-365-admin-center"></a>Beveiligings- & compliancerapporten in het Microsoft 365 beheercentrum

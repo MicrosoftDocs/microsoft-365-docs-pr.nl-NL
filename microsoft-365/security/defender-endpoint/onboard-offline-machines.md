@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ee06f927579445825a2b2813e483c24357d2ed78
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: ed33f67695fddc78c0bac646f72ca0c48887bb04
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934919"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844416"
 ---
 # <a name="onboard-devices-without-internet-access-to-microsoft-defender-for-endpoint"></a>Onboard-apparaten zonder internettoegang tot Microsoft Defender voor Eindpunt
 
@@ -39,23 +39,23 @@ ms.locfileid: "51934919"
 Als u apparaten zonder internetverbinding wilt gebruiken, moet u de volgende algemene stappen ondernemen:
 
 > [!IMPORTANT] 
-> De onderstaande stappen zijn alleen van toepassing op apparaten met eerdere versies van Windows, zoals Windows Server 2016 en eerder of Windows 8.1 en eerder.
+> De onderstaande stappen zijn alleen van toepassing op apparaten met eerdere versies van Windows zoals: Windows Server 2016 en eerder of eerder of Windows 8.1 en eerder.
 
 > [!NOTE]
-> - Een OMS-gatewayserver kan niet worden gebruikt als proxy voor losgekoppelde Windows 10- of Windows Server 2019-apparaten wanneer deze zijn geconfigureerd via het register 'TelemetryProxyServer' of GPO.
-> - Voor Windows 10 of Windows Server 2019- hoewel u TelemetryProxyServer mag gebruiken, moet deze naar een standaardproxyapparaat of -apparaat wijzen.
-> - Daarnaast moet Windows 10 of Windows Server 2019 in niet-verbonden omgevingen certificaten vertrouwenslijsten offline kunnen bijwerken via een intern bestand of webserver.
-> - Zie Een bestand of webserver configureren om de CTL-bestanden te downloaden voor meer informatie over het offline bijwerken van [CTL's.](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn265983(v=ws.11)#configure-a-file-or-web-server-to-download-the-ctl-files)
+> - Een OMS-gatewayserver kan niet worden gebruikt als proxy voor losgekoppelde Windows 10- of Windows Server 2019-apparaten wanneer deze zijn geconfigureerd via het register of de GPO van TelemetryProxyServer.
+> - Voor Windows 10 of Windows Server 2019: hoewel u TelemetryProxyServer mag gebruiken, moet dit naar een standaardproxyapparaat of -apparaat wijzen.
+> - Bovendien moeten Windows 10 of Windows Server 2019 in niet-verbonden omgevingen certificaten vertrouwenslijsten offline kunnen bijwerken via een intern bestand of webserver.
+> - Zie Een bestand of webserver configureren om de CTL-bestanden te downloaden voor meer informatie over het offline bijwerken van [CTL's.](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn265983(v=ws.11)#configure-a-file-or-web-server-to-download-the-ctl-files)
 
 Zie de volgende artikelen voor meer informatie over onboardingmethoden:
-- [Onboarden eerdere versies van Windows](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/onboard-downlevel)
-- [Onboard servers to the Microsoft Defender for Endpoint service](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-server-endpoints#windows-server-2008-r2-sp1--windows-server-2012-r2-and-windows-server-2016)
-- [Instellingen voor apparaatproxy en internetverbinding configureren](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-proxy-internet#configure-the-proxy-server-manually-using-a-registry-based-static-proxy)
+- [Onboarden eerdere versies van Windows](/microsoft-365/security/defender-endpoint/onboard-downlevel)
+- [Onboard servers to the Microsoft Defender for Endpoint service](/microsoft-365/security/defender-endpoint/configure-server-endpoints#windows-server-2008-r2-sp1--windows-server-2012-r2-and-windows-server-2016)
+- [Instellingen voor apparaatproxy en internetverbinding configureren](/microsoft-365/security/defender-endpoint/configure-proxy-internet#configure-the-proxy-server-manually-using-a-registry-based-static-proxy)
 
 ## <a name="on-premise-devices"></a>On-premises apparaten
 
 - Azure Log Analytics (voorheen BEKEND als OMS Gateway) instellen als proxy of hub:
-  - [Azure Log Analytics Agent](https://docs.microsoft.com/azure/azure-monitor/platform/gateway#download-the-log-analytics-gateway)
+  - [Azure Log Analytics Agent](/azure/azure-monitor/platform/gateway#download-the-log-analytics-gateway)
   - [Microsoft Monitoring Agent (MMA) installeren](configure-server-endpoints.md#install-and-configure-microsoft-monitoring-agent-mma-to-report-sensor-data-to-microsoft-defender-for-endpoint) en configureren, wijs Defender for Endpoint Workspace-sleutel voor & id
 
 - Offlineapparaten in hetzelfde netwerk van Azure Log Analytics
@@ -64,17 +64,17 @@ Zie de volgende artikelen voor meer informatie over onboardingmethoden:
      - Defender for Endpoint workspace key & ID
 
 ## <a name="azure-virtual-machines"></a>Virtuele Azure-machines
-- Azure [Log Analytics-werkruimte configureren en inschakelen](https://docs.microsoft.com/azure/azure-monitor/platform/gateway)
+- Azure [Log Analytics-werkruimte configureren en inschakelen](/azure/azure-monitor/platform/gateway)
 
     - Azure Log Analytics Gateway (voorheen OMS Gateway genoemd) instellen als proxy of hub:
-      - [Azure Log Analytics Gateway](https://docs.microsoft.com/azure/azure-monitor/platform/gateway#download-the-log-analytics-gateway)
+      - [Azure Log Analytics Gateway](/azure/azure-monitor/platform/gateway#download-the-log-analytics-gateway)
       - [Microsoft Monitoring Agent (MMA) installeren](configure-server-endpoints.md#install-and-configure-microsoft-monitoring-agent-mma-to-report-sensor-data-to-microsoft-defender-for-endpoint) en configureren, wijs Defender for Endpoint Workspace-sleutel voor & id
     - Offline Azure VMs in hetzelfde netwerk van OMS Gateway
       - Azure Log Analytics IP configureren als een proxy
       - Azure Log Analytics Workspace Key & ID
 
     - Azure Defender
-      - [Werkruimte voor \> beveiligingsbeleidlogboekanalyse](https://docs.microsoft.com/azure/security-center/security-center-wdatp#enable-windows-defender-atp-integration)
-      - [Threat Detection \> Allow Defender for Endpoint to access my data](https://docs.microsoft.com/azure/security-center/security-center-wdatp#enable-windows-defender-atp-integration)
+      - [Werkruimte voor \> beveiligingsbeleidlogboekanalyse](/azure/security-center/security-center-wdatp#enable-windows-defender-atp-integration)
+      - [Threat Detection \> Allow Defender for Endpoint to access my data](/azure/security-center/security-center-wdatp#enable-windows-defender-atp-integration)
 
-        Zie Werken met [beveiligingsbeleid voor meer informatie.](https://docs.microsoft.com/azure/security-center/tutorial-security-policy)
+        Zie Werken met [beveiligingsbeleid voor meer informatie.](/azure/security-center/tutorial-security-policy)

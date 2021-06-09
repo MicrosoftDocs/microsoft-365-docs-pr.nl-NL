@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 93aa685f12e0241758bf86d3aa956717db052e5f
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 56fd5aa10cf30e7bdcad213a68430b460e65647c
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499939"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844212"
 ---
 # <a name="view-and-organize-the-microsoft-defender-for-endpoint-incidents-queue"></a>De wachtrij Microsoft Defender voor eindpuntincidenten weergeven en organiseren
 
@@ -55,7 +55,7 @@ U kunt de volgende filters toepassen om de lijst met incidenten te beperken en e
 
 ### <a name="severity"></a>Ernst
 
-Ernst van incident | Omschrijving
+Ernst van incident | Beschrijving
 :---|:---
 Hoog </br>(Rood) | Bedreigingen die vaak worden gekoppeld aan geavanceerde permanente bedreigingen (APT). Deze incidenten geven een hoog risico aan vanwege de ernst van de schade die ze kunnen toebrengen aan apparaten.
 Gemiddeld </br>(Oranje) | Bedreigingen die zelden worden waargenomen in de organisatie, zoals afwijkende registerwijziging, uitvoering van verdachte bestanden en waargenomen gedrag dat typisch is voor aanvalsfasen.
@@ -85,7 +85,7 @@ Bijvoorbeeld: *incident met meerdere fases op meerdere eindpunten die door meerd
 
 
 ## <a name="see-also"></a>Zie ook
-- [Incidentenwachtrij](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/view-incidents-queue)
+- [Incidentenwachtrij](/microsoft-365/security/defender-endpoint/view-incidents-queue)
 - [Incidenten beheren](manage-incidents.md)
 - [Incidenten onderzoeken](investigate-incidents.md)
 

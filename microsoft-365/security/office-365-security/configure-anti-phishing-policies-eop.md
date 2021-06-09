@@ -15,12 +15,12 @@ ms.collection:
 description: Beheerders kunnen leren hoe ze het anti-phishingbeleid kunnen maken, wijzigen en verwijderen dat beschikbaar is in Exchange Online Protection (EOP) organisaties met of zonder Exchange Online postvakken.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c329edc517476cfb184bfa4b70c2f2c9542b6e33
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: ee227fe622f21d5b0f520507e1d88e2bbd0f3b31
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52789061"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52822308"
 ---
 # <a name="configure-anti-phishing-policies-in-eop"></a>Antiphishingbeleid configureren in EOP
 
@@ -60,7 +60,7 @@ Als u de effectiviteit van anti-phishingbeveiliging wilt vergroten, kunt u aange
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent het beveiligingscentrum in <https://security.microsoft.com/>. Als u rechtstreeks naar de **pagina Anti-phishing wilt** gaan, gebruikt u <https://security.microsoft.com/antiphishing> .
+- U opent het beveiligingscentrum in <https://security.microsoft.com>. Als u rechtstreeks naar de **pagina Anti-phishing wilt** gaan, gebruikt u <https://security.microsoft.com/antiphishing> .
 
 - Zie [Verbinding maken met Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell.
 
@@ -77,7 +77,7 @@ Als u de effectiviteit van anti-phishingbeveiliging wilt vergroten, kunt u aange
   - Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen _en_ machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
   - De **rollengroep Alleen-weergeven voor** organisatiebeheer in [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) geeft ook alleen-lezen toegang tot de <sup>\*</sup> functie.
 
-- Zie Standaardinstellingen voor anti-phishingbeleid voor EOP voor onze aanbevolen instellingen voor [anti-phishingbeleid.](recommended-settings-for-eop-and-office365.md#eop-default-anti-phishing-policy-settings)
+- Zie [EOP anti-phishingbeleidsinstellingen](recommended-settings-for-eop-and-office365.md#eop-anti-phishing-policy-settings)voor onze aanbevolen instellingen voor anti-phishingbeleid.
 
 - Maximaal 30 minuten toestaan dat het bijgewerkte beleid wordt toegepast.
 
@@ -137,7 +137,7 @@ Als u een aangepast anti-phishingbeleid maakt in het beveiligingscentrum, worden
 
    Wanneer u gereed bent, klikt u op **Volgende**.
 
-7. Controleer uw instellingen op de pagina **Controleren** die wordt weergegeven. U kunt in elke sectie **Bewerken** selecteren om de instellingen in de sectie te wijzigen.
+7. Controleer uw instellingen op de pagina **Controleren** die wordt weergegeven. U kunt in elke sectie **Bewerken** selecteren om de instellingen in de sectie te wijzigen. U kunt ook op **Terug** klikken of de specifieke pagina in de wizard selecteren.
 
    Wanneer u klaar bent, klikt u op **Verzenden.**
 

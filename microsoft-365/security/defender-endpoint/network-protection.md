@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: a22cab9185b2ece2e8e30c00ea747cca823f4920
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: b6b664d471e238e2feb1e1aedd100c1299fc5bbe
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861145"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844260"
 ---
 # <a name="protect-your-network"></a>Beveilig uw netwerk
 
@@ -33,9 +33,9 @@ ms.locfileid: "51861145"
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-Netwerkbeveiliging helpt het aanvalsoppervlak van uw apparaten te beperken door gebeurtenissen op internet. Hiermee voorkomt u dat werknemers elke toepassing gebruiken om toegang te krijgen tot gevaarlijke domeinen die phishingpraktijken, exploits en andere schadelijke inhoud op internet kunnen hosten. Netwerkbeveiliging breidt het bereik van [Microsoft Defender SmartScreen](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-smartscreen/microsoft-defender-smartscreen-overview) uit om al het uitgaande HTTP-verkeer te blokkeren dat probeert verbinding te maken met bronnen met een lage reputatie (op basis van het domein of de hostnaam).
+Netwerkbeveiliging helpt het aanvalsoppervlak van uw apparaten te beperken door gebeurtenissen op internet. Hiermee voorkomt u dat werknemers elke toepassing gebruiken om toegang te krijgen tot gevaarlijke domeinen die phishingpraktijken, exploits en andere schadelijke inhoud op internet kunnen hosten. Netwerkbeveiliging breidt het bereik van Microsoft Defender SmartScreen uit om al het uitgaande HTTP-verkeer te blokkeren dat probeert verbinding te maken met bronnen met een lage reputatie (op basis van het domein [of](/windows/security/threat-protection/microsoft-defender-smartscreen/microsoft-defender-smartscreen-overview) de hostnaam).
 
-Netwerkbeveiliging wordt ondersteund in Windows, te beginnen met Windows 10, versie 1709. Netwerkbeveiliging wordt nog niet ondersteund op andere besturingssystemen, maar webbeveiliging wordt ondersteund met de nieuwe Microsoft Edge op basis van Chromium. Zie Webbeveiliging voor [meer informatie.](web-protection-overview.md)
+Netwerkbeveiliging wordt ondersteund op Windows, te beginnen met Windows 10, versie 1709. Netwerkbeveiliging wordt nog niet ondersteund op andere besturingssystemen, maar webbeveiliging wordt ondersteund met de nieuwe Microsoft Edge op basis van Chromium. Zie Webbeveiliging voor [meer informatie.](web-protection-overview.md)
 
 Netwerkbeveiliging breidt de beveiliging in [webbeveiliging uit](web-protection-overview.md) tot het besturingssysteemniveau. Het biedt functionaliteit voor webbeveiliging in Edge voor andere ondersteunde browsers en niet-browsertoepassingen. Daarnaast biedt netwerkbeveiliging zichtbaarheid en blokkering van indicatoren voor compromissen (IOC's) wanneer deze worden gebruikt met [de detectie en reactie van eindpunten.](overview-endpoint-detection-response.md) Netwerkbeveiliging werkt bijvoorbeeld met uw [aangepaste indicatoren.](manage-indicators.md)
 
@@ -54,9 +54,9 @@ U kunt ook de [auditmodus gebruiken om](audit-windows-defender.md) te evalueren 
 
 Netwerkbeveiliging vereist Windows 10 Pro of Enterprise en Microsoft Defender Antivirus realtime beveiliging.
 
-| Windows-versie | Microsoft Defender Antivirus |
+| Windows versie | Microsoft Defender Antivirus |
 |:---|:---|
-| Windows 10 versie 1709 of hoger <p>Windows Server 1803 of hoger | [Microsoft Defender Antivirus realtime-beveiliging](configure-real-time-protection-microsoft-defender-antivirus.md) en [beveiliging in](enable-cloud-protection-microsoft-defender-antivirus.md) de cloud moeten zijn ingeschakeld |
+| Windows 10 versie 1709 of hoger <p>Windows Server 1803 of hoger | [Microsoft Defender Antivirus realtime beveiliging en](configure-real-time-protection-microsoft-defender-antivirus.md) [beveiliging in](enable-cloud-protection-microsoft-defender-antivirus.md) de cloud moeten zijn ingeschakeld |
 
 Nadat u de services hebt ingeschakeld, moet u mogelijk uw netwerk of firewall configureren om de verbindingen tussen de services en uw apparaten toe te staan (ook wel eindpunten genoemd).  
 
@@ -78,7 +78,7 @@ DeviceEvents
 
 ## <a name="review-network-protection-events-in-windows-event-viewer"></a>Netwerkbeveiligingsgebeurtenissen bekijken in Windows Event Viewer
 
-U kunt het Windows-gebeurtenislogboek bekijken om gebeurtenissen te bekijken die worden gemaakt wanneer netwerkbeveiligingsblokken (of audits) toegang tot een schadelijk IP- of domein blokkeert:
+U kunt het logboek Windows gebeurtenissen bekijken die zijn gemaakt wanneer netwerkbeveiligingsblokken (of audits) toegang tot een schadelijk IP- of domein blokkeert:
 
 1. [Kopieer de XML rechtstreeks.](event-views.md)
 
@@ -92,15 +92,15 @@ Met deze procedure wordt een aangepaste weergave gemaakt die filtert om alleen d
 | 1125 | Gebeurtenis wanneer netwerkbeveiliging wordt uitgevoerd in de auditmodus |
 | 1126 | Gebeurtenis wanneer netwerkbeveiliging wordt branden in de blokmodus |
 
-## <a name="considerations-for-windows-virtual-desktop-running-windows-10-enterprise-multi-session"></a>Aandachtspunten voor windows virtual desktop met Windows 10 Enterprise Multi-Session
+## <a name="considerations-for-windows-virtual-desktop-running-windows-10-enterprise-multi-session"></a>Aandachtspunten voor Windows virtuele bureaublad met Windows 10 Enterprise multisessie
 
-Houd rekening met de verschillende gebruikers van Windows 10 Enterprise:
+Houd rekening met de multigebruikers Windows 10 Enterprise de volgende punten:
 
 1. Netwerkbeveiliging is een functie voor het hele apparaat en kan niet worden gericht op specifieke gebruikerssessies.
 
 2. Filterbeleid voor webinhoud is ook apparaatbreed.
 
-3. Als u onderscheid wilt maken tussen gebruikersgroepen, kunt u afzonderlijke Windows Virtual Desktop-hostgroepen en -toewijzingen maken.
+3. Als u onderscheid wilt maken tussen gebruikersgroepen, kunt u afzonderlijke Windows en toewijzingen voor virtuele bureaubladhosts maken.
 
 4. Test netwerkbeveiliging in de auditmodus om het gedrag ervan te beoordelen voordat u deze uitrolt. 
 
@@ -124,7 +124,7 @@ reg add "HKLM\Software\Microsoft\Windows Defender" /v ProxyPacUrl /d "<Proxy PAC
 
 ```
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-articles"></a>Aanverwante artikelen
 
 - [Netwerkbeveiliging evalueren |](evaluate-network-protection.md) Maak een snel scenario waarin wordt gedemonstreerd hoe de functie werkt en welke gebeurtenissen gewoonlijk worden gemaakt.
 

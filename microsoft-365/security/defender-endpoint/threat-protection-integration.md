@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: ce8dbef2f4fb7c3503f04f15148d2071b449b2dc
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 8973a78787345532055161507e2d30f75b3b2cf1
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935531"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844968"
 ---
 # <a name="microsoft-defender-for-endpoint-and-other-microsoft-solutions"></a>Microsoft Defender voor Eindpunt en andere Microsoft-oplossingen
 
@@ -39,7 +39,7 @@ ms.locfileid: "51935531"
 Microsoft Defender voor Eindpunt wordt rechtstreeks geïntegreerd met verschillende Microsoft-oplossingen.
 
 ### <a name="azure-defender"></a>Azure Defender
-Microsoft Defender voor Eindpunt biedt een uitgebreide oplossing voor serverbeveiliging, inclusief mogelijkheden voor het detecteren en reageren van eindpunten (EDR) op Windows-servers.
+Microsoft Defender voor Eindpunt biedt een uitgebreide serverbeveiligingsoplossing, eindpuntdetectie en -respons (EDR) mogelijkheden op Windows servers.
 
 ### <a name="azure-sentinel"></a>Azure Sentinel
 Met de Microsoft Defender voor Eindpunt-connector kunt u waarschuwingen van Microsoft Defender voor Eindpunt streamen naar Azure Sentinel. Op deze manier kunt u beveiligingsgebeurtenissen in uw organisatie uitgebreider analyseren en playbooks maken voor een effectieve en onmiddellijke reactie.
@@ -51,28 +51,28 @@ Onlangs hebben we de integratie van Azure Information Protection afgeschaft, omd
 De dynamische apparaatrisicoscore van Microsoft Defender voor Eindpunt is geïntegreerd in de evaluatie Voorwaardelijke toegang, zodat alleen veilige apparaten toegang hebben tot resources. 
 
 ### <a name="microsoft-cloud-app-security"></a>Microsoft Cloud App Security
-Microsoft Cloud App Security maakt gebruik van Microsoft Defender for Endpoint-eindpuntsignalen om direct inzicht te krijgen in het gebruik van cloudtoepassing, waaronder het gebruik van niet-ondersteunde cloudservices (schaduw-IT) van alle bewaakte apparaten van Microsoft Defender voor Endpoint.
+Microsoft Cloud App Security gebruikt Microsoft Defender voor eindpuntsignalen om direct inzicht te krijgen in het gebruik van cloudtoepassing, waaronder het gebruik van niet-ondersteunde cloudservices (schaduw-IT) van alle bewaakte apparaten van Microsoft Defender voor Endpoint.
 
 ### <a name="microsoft-defender-for-identity"></a>Microsoft Defender for Identity
 Verdachte activiteiten zijn processen die worden uitgevoerd onder een gebruikerscontext. De integratie tussen Microsoft Defender voor Eindpunt en Microsoft Defender voor identiteit biedt de flexibiliteit om een cyberbeveiligingsonderzoek uit te voeren tussen activiteiten en identiteiten.
 
 ### <a name="microsoft-defender-for-office"></a>Microsoft Defender voor Office
-[Defender voor Office 365](https://docs.microsoft.com/office365/securitycompliance/office-365-atp) helpt uw organisatie te beschermen tegen malware in e-mailberichten of bestanden via veilige koppelingen, veilige bijlagen, geavanceerde mogelijkheden voor anti-phishing en spoof intelligence. De integratie tussen Microsoft Defender voor Office 365 en Microsoft Defender voor Eindpunt stelt beveiligingsanalisten in staat om upstream te gaan om het ingangspunt van een aanval te onderzoeken. Door het delen van bedreigingsinformatie kunnen aanvallen worden beperkt en geblokkeerd. 
+[Defender voor Office 365](/office365/securitycompliance/office-365-atp) helpt uw organisatie te beschermen tegen malware in e-mailberichten of bestanden via Safe Koppelingen, Safe Bijlagen, geavanceerde mogelijkheden voor anti-phishing en spoof intelligence. De integratie tussen Microsoft Defender voor Office 365 en Microsoft Defender voor Eindpunt stelt beveiligingsanalisten in staat om upstream te gaan om het ingangspunt van een aanval te onderzoeken. Door het delen van bedreigingsinformatie kunnen aanvallen worden beperkt en geblokkeerd. 
 
 >[!NOTE]
-> Defender voor Office 365-gegevens worden weergegeven voor gebeurtenissen in de afgelopen 30 dagen. Voor waarschuwingen worden Defender voor Office 365-gegevens weergegeven op basis van de eerste activiteitstijd. Daarna zijn de gegevens niet meer beschikbaar in Defender voor Office 365.
+> Defender voor Office 365 gegevens wordt weergegeven voor gebeurtenissen in de afgelopen 30 dagen. Voor waarschuwingen worden Defender voor Office 365 weergegeven op basis van de eerste activiteitstijd. Daarna zijn de gegevens niet meer beschikbaar in Defender voor Office 365.
 
 ### <a name="skype-for-business"></a>Skype voor Bedrijven
-De integratie van Skype voor Bedrijven biedt analisten een manier om te communiceren met een mogelijk gecompromitteerde gebruiker of apparaateigenaar via een eenvoudige knop vanuit de portal.
+De Skype voor Bedrijven biedt analisten een manier om te communiceren met een mogelijk gecompromitteerde gebruiker of apparaateigenaar via een eenvoudige knop vanuit de portal.
 
 ## <a name="microsoft-365-defender"></a>Microsoft 365 Defender
 Met Microsoft 365 Defender vormen Microsoft Defender voor Eindpunt en diverse microsoft-beveiligingsoplossingen een geïntegreerde suite voor bedrijfsdefensie vóór en na inbreuk die inheems is geïntegreerd in eindpunten, identiteit, e-mail en toepassingen om geavanceerde aanvallen op te sporen, te voorkomen, te onderzoeken en automatisch te beantwoorden. 
  
-[Meer informatie over Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/defender/microsoft-threat-protection)
+[Meer informatie over Microsoft 365 Defender](/microsoft-365/security/defender/microsoft-threat-protection)
 
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Integratie en andere geavanceerde functies configureren](advanced-features.md)
-- [Overzicht van Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/defender/microsoft-threat-protection)
-- [Microsoft 365 Defender inschakelen](https://docs.microsoft.com/microsoft-365/security/defender/mtp-enable)
+- [Microsoft 365 Overzicht van Defender](/microsoft-365/security/defender/microsoft-threat-protection)
+- [Microsoft 365 Defender inschakelen](/microsoft-365/security/defender/mtp-enable)
 - [Gebruikers, gegevens en apparaten beveiligen met Voorwaardelijke toegang](conditional-access.md)

@@ -12,34 +12,34 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: ''
 description: Meer informatie over het gebruik Microsoft Teams om uw contractbeheerkanaal te maken met behulp van een Microsoft 365 oplossing.
-ms.openlocfilehash: 81d5fe34383453b187363b13c21ef47844948193
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 073ef1651ea5470594bfce0ffce65e849f9e063a
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636180"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841172"
 ---
 # <a name="step-2-use-microsoft-teams-to-create-your-contract-management-channel"></a>Stap 2. Gebruik Microsoft Teams om uw contractbeheerkanaal te maken
 
-Wanneer uw organisatie een oplossing voor contractenbeheer in stelt, hebt u een centrale locatie nodig waar belanghebbenden contracten kunnen bekijken en beheren. Hiervoor kunt u een [](https://docs.microsoft.com/microsoftteams/) Microsoft Teams voor het instellen van een Teams kanaal en de functies in Teams gebruiken:
+Wanneer uw organisatie een oplossing voor contractenbeheer in stelt, hebt u een centrale locatie nodig waar belanghebbenden contracten kunnen bekijken en beheren. Hiervoor kunt u een [](/microsoftteams/) Microsoft Teams voor het instellen van een Teams kanaal en de functies in Teams gebruiken:
 
 - **Maak een locatie voor belanghebbenden om eenvoudig alle contracten te zien waarvoor actie moet worden ondernomen.** In Teams kunt u bijvoorbeeld een  tabblad Contracten maken in het kanaal Contractbeheer waarin leden een handige tegelweergave kunnen zien van alle contracten die moeten worden goedgekeurd. U kunt de weergave ook zo configureren dat elke 'kaart' de belangrijke gegevens bevat die u belangrijk vindt (zoals *Client,* *Contractant* en *Kostenbedrag).*
 
      ![Tabblad Contracten.](../media/content-understanding/tile-view.png)
 
-- **Hebben een locatie voor leden om met elkaar te communiceren en belangrijke gebeurtenissen te zien.** In Teams kunt u bijvoorbeeld  het tabblad Berichten gebruiken om gesprekken te voeren, updates op te vragen en acties te bekijken (zoals een lid dat een contract weigert). Wanneer er iets is gebeurd (zoals een  nieuw contract dat ter goedkeuring is ingediend), kan het tabblad Berichten niet alleen worden gebruikt om het aan te kondigen, maar ook om een record van het contract bij te houden. En als leden zich abonneren op meldingen, krijgen ze een melding wanneer er een update is. 
+- **Hebben een locatie voor leden om met elkaar te communiceren en belangrijke gebeurtenissen te zien.** In Teams kunt u bijvoorbeeld  het tabblad Berichten gebruiken om gesprekken te voeren, updates op te vragen en acties te bekijken (zoals een lid dat een contract weigert). Wanneer er iets is gebeurd (zoals een  nieuw contract dat ter goedkeuring is ingediend), kan het tabblad Berichten niet alleen worden gebruikt om het aan te kondigen, maar ook om een record van het contract bij te houden. En als leden zich abonneren op meldingen, krijgen ze een melding wanneer er een update is.
 
-     ![Tabblad Berichten.](../media/content-understanding/posts.png)</br> 
+     ![Tabblad Berichten.](../media/content-understanding/posts.png)
 
-- **Hebben een locatie waar leden goedgekeurde contracten kunnen zien om te weten wanneer ze tegen betaling kunnen worden ingediend.** In Teams kunt u een <b></b> voor betaling kanaal maken waarin alle contracten worden vermeld die moeten worden verzonden naar betaling. U kunt deze oplossing eenvoudig uitbreiden om deze informatie rechtstreeks te schrijven naar een financiële toepassing van derden (bijvoorbeeld Dynamics CRM).
+- **Hebben een locatie waar leden goedgekeurde contracten kunnen zien om te weten wanneer ze tegen betaling kunnen worden ingediend.** In Teams kunt u een  voor betaling kanaal maken waarin alle contracten worden vermeld die moeten worden verzonden naar betaling. U kunt deze oplossing eenvoudig uitbreiden om deze informatie rechtstreeks te schrijven naar een financiële toepassing van derden (bijvoorbeeld Dynamics CRM).
 
-## <a name="attach-your-sharepoint-document-library-to-the-contracts-tab"></a>Uw documentbibliotheek SharePoint toevoegen aan het tabblad Contracten 
+## <a name="attach-your-sharepoint-document-library-to-the-contracts-tab"></a>Uw documentbibliotheek SharePoint toevoegen aan het tabblad Contracten
 
 Nadat u een tabblad **Contracten** hebt aangemaakt in uw kanaal Contractenbeheer, moet u uw SharePoint [documentbibliotheek eraan koppelen.](https://support.microsoft.com/office/add-a-sharepoint-page-list-or-document-library-as-a-tab-in-teams-131edef1-455f-4c67-a8ce-efa2ebf25f0b) De SharePoint documentbibliotheek die u wilt toevoegen, is de bibliotheek waarin u het syntex-documentkennismodel in de vorige sectie hebt SharePoint toegepast.
 
 Nadat u de SharePoint documentbibliotheek hebt toegevoegd, kunt u alle geclassificeerde contracten weergeven via een standaardlijstweergave.
 
-   ![Lijstweergave.](../media/content-understanding/list-view.png) 
+   ![Lijstweergave.](../media/content-understanding/list-view.png)
 
 ## <a name="customize-your-contracts-tab-tile-view"></a>De tegelweergave op het tabblad Contracten aanpassen
 
@@ -54,7 +54,7 @@ Voor de aangepaste tegelweergave die u gebruikt, moet u wijzigingen aanbrengen i
 
 Als u de JSON-code voor uw weergave wilt zien of wijzigen in uw Teams-kanaal, selecteert u in het kanaal Teams de vervolgkeuzelijst Weergave en selecteert u Huidige weergave opmaken.
 
-   ![json-indeling.](../media/content-understanding/jason-format.png) 
+   ![json-indeling.](../media/content-understanding/jason-format.png)
 
 ## <a name="card-size-and-shape"></a>Kaartgrootte en -vorm
 
@@ -81,7 +81,6 @@ Bekijk in [ContractTileFormatting.jsde](https://github.com/pnp/syntex-samples/bl
                       }
 ```
 
-
 ## <a name="contract-status"></a>Contractstatus
 
 Met de volgende code kunt u de status van elke titelkaart definiëren. Elke statuswaarde (*Nieuw*, *In revisie*, Goedgekeurd en Geweigerd ) geeft voor elke status een andere kleurcode weer.   Bekijk in [ContractTileFormatting.jsbestand](https://github.com/pnp/syntex-samples/blob/main/scenario%20assets/Contracts%20Management/View%20Formatter/ContractTileFormatting.json) de sectie die de status definieert.
@@ -104,10 +103,9 @@ Met de volgende code kunt u de status van elke titelkaart definiëren. Elke stat
               }
 ```
 
-
 ## <a name="extracted-fields"></a>Geëxtraheerde velden
 
-Op elke contractkaart worden drie velden weergegeven die zijn geëxtraheerd voor elk contract *(Client,* *Contractant* en *Kostenbedrag).* Daarnaast wilt u ook de tijd/datum weergeven waarop het bestand is geclassificeerd met het syntex-model SharePoint gebruikt om het te identificeren. 
+Op elke contractkaart worden drie velden weergegeven die zijn geëxtraheerd voor elk contract *(Client,* *Contractant* en *Kostenbedrag).* Daarnaast wilt u ook de tijd/datum weergeven waarop het bestand is geclassificeerd met het syntex-model SharePoint gebruikt om het te identificeren.
 
 In het [ContractTileFormatting.jsbestand](https://github.com/pnp/syntex-samples/blob/main/scenario%20assets/Contracts%20Management/View%20Formatter/ContractTileFormatting.json) definiëren de volgende secties elk van deze secties.
 
@@ -159,7 +157,6 @@ In deze sectie wordt de weergave van de contractant op de kaart beschrijft en wo
 },
 ```
 
-
 ### <a name="fee-amount"></a>Kostenbedrag
 
 In deze sectie wordt beschrijft hoe het bedrag van de kosten wordt weergegeven op de kaart en wordt de waarde voor het specifieke contract gebruikt.
@@ -183,8 +180,6 @@ In deze sectie wordt beschrijft hoe het bedrag van de kosten wordt weergegeven o
                         "txtContent": "[$FeeAmount]"
                       },
 ```
-
-
 
 ### <a name="classification-date"></a>Classificatiedatum
 

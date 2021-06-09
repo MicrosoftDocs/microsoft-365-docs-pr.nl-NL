@@ -17,12 +17,12 @@ ms.collection:
 ms.topic: conceptual
 ms.date: 5/1/2020
 ms.technology: mde
-ms.openlocfilehash: b791f2b62cb4a3f8062c80ceeb04ccfa72f704bc
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: b17af7931b181a5fa30271a3eee07c7abf10a010
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51057329"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844020"
 ---
 # <a name="review-alerts-in-microsoft-defender-for-endpoint"></a>Waarschuwingen controleren in Microsoft Defender voor Eindpunt
 
@@ -30,7 +30,7 @@ ms.locfileid: "51057329"
 
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 
 >Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-managealerts-abovefoldlink)
 
@@ -46,7 +46,7 @@ Als u de naam van een waarschuwing selecteert in Defender voor Eindpunt, wordt u
 
 1. **De waarschuwingstitel** toont de naam van de waarschuwing en is er om u eraan te herinneren welke waarschuwing uw huidige onderzoek is gestart, ongeacht wat u op de pagina hebt geselecteerd.
 2. [**Getroffen assets**](#review-affected-assets) bevat kaarten van apparaten en gebruikers die door deze waarschuwing worden beïnvloed en die klikbaar zijn voor meer informatie en acties.
-3. In **het waarschuwingsverhaal** worden alle entiteiten weergegeven die betrekking hebben op de waarschuwing, verbonden door een boomweergave. De waarschuwing in de titel is de waarschuwing in focus wanneer u voor het eerst op de pagina van de geselecteerde waarschuwing komt. Entiteiten in het waarschuwingsverhaal kunnen worden uitgebreid en erop klikken om aanvullende informatie te verstrekken en de reactie te versnellen doordat u acties kunt uitvoeren in de context van de waarschuwingspagina. Gebruik het waarschuwingsverhaal om uw onderzoek te starten. Lees hoe u waarschuwingen [kunt onderzoeken in Microsoft Defender voor Eindpunt.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/investigate-alerts)
+3. In **het waarschuwingsverhaal** worden alle entiteiten weergegeven die betrekking hebben op de waarschuwing, verbonden door een boomweergave. De waarschuwing in de titel is de waarschuwing in focus wanneer u voor het eerst op de pagina van de geselecteerde waarschuwing komt. Entiteiten in het waarschuwingsverhaal kunnen worden uitgebreid en erop klikken om aanvullende informatie te verstrekken en de reactie te versnellen doordat u acties kunt uitvoeren in de context van de waarschuwingspagina. Gebruik het waarschuwingsverhaal om uw onderzoek te starten. Lees hoe u waarschuwingen [kunt onderzoeken in Microsoft Defender voor Eindpunt.](/microsoft-365/security/defender-endpoint/investigate-alerts)
 4. In **het detailvenster** worden eerst de details van de geselecteerde waarschuwing weergegeven, met details en acties met betrekking tot deze waarschuwing. Als u een van de getroffen activa of entiteiten in het waarschuwingsverhaal selecteert, wordt het detailvenster gewijzigd in contextuele informatie en acties voor het geselecteerde object.
 
 Noteer de detectiestatus voor uw waarschuwing. 

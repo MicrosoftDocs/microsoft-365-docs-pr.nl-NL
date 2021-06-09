@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ae8b08ce3d5bcc34e91f031223108fca053348ce
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: aab9c191e590b0717a0f1be62ed88a699d3b5b57
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572391"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844042"
 ---
 # <a name="take-response-actions-on-a-device"></a>Acties ondernemen op een apparaat
 
@@ -124,7 +124,7 @@ Als onderdeel van het onderzoek- of antwoordproces kunt u op afstand een antivir
 
 >[!IMPORTANT]
 >- Deze actie is beschikbaar voor apparaten op Windows 10, versie 1709 of hoger.
->- Een Microsoft Defender Antivirus (Microsoft Defender AV) kan worden uitgevoerd naast andere antivirusoplossingen, ongeacht of Microsoft Defender AV de actieve antivirusoplossing is of niet. Microsoft Defender AV kan in de passieve modus staan. Zie Microsoft Defender Antivirus [compatibiliteit voor meer informatie.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility.md)
+>- Een Microsoft Defender Antivirus (Microsoft Defender AV) kan worden uitgevoerd naast andere antivirusoplossingen, ongeacht of Microsoft Defender AV de actieve antivirusoplossing is of niet. Microsoft Defender AV kan in de passieve modus staan. Zie Microsoft Defender Antivirus [compatibiliteit voor meer informatie.](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility.md)
 
 Als u Antivirusscan uitvoeren hebt **geselecteerd,** selecteert u het scantype dat u wilt uitvoeren (snel of vol) en voegt u een opmerking toe voordat u de scan bevestigt.
 
@@ -134,7 +134,7 @@ In het Actiecentrum worden de scangegevens weergegeven en de tijdlijn van het ap
 
 >[!NOTE]
 >Wanneer u een scan activeert met de actie Defender voor eindpuntreactie, is de waarde scanAvgCPULoadFactor van Microsoft Defender antivirus nog steeds van toepassing en wordt de CPU-impact van de scan beperkt.<br> Als ScanAvgCPULoadFactor niet is geconfigureerd, is de standaardwaarde een limiet van 50% maximale CPU-belasting tijdens een scan.<br>
->Zie [Configure-advanced-scan-types-microsoft-defender-antivirus](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-advanced-scan-types-microsoft-defender-antivirus)voor meer informatie.
+>Zie [Configure-advanced-scan-types-microsoft-defender-antivirus](/windows/security/threat-protection/microsoft-defender-antivirus/configure-advanced-scan-types-microsoft-defender-antivirus)voor meer informatie.
 
 ## <a name="restrict-app-execution"></a>Het uitvoeren van apps beperken
 
@@ -143,7 +143,7 @@ Naast het bevatten van een aanval door schadelijke processen te stoppen, kunt u 
 >[!IMPORTANT]
 > - Deze actie is beschikbaar voor apparaten op Windows 10, versie 1709 of hoger.
 > - Deze functie is beschikbaar als uw organisatie gebruikmaakt van Microsoft Defender Antivirus.
-> - Deze actie moet voldoen aan de Windows Defender de codeintegriteitsbeleidsindelingen en -ondertekeningsvereisten voor Toepassingsbeheer. Zie Code [integrity policy formats and signing (Code integrity policy formats and signing) voor meer informatie.](https://docs.microsoft.com/windows/device-security/device-guard/requirements-and-deployment-planning-guidelines-for-device-guard#code-integrity-policy-formats-and-signing)
+> - Deze actie moet voldoen aan de Windows Defender de codeintegriteitsbeleidsindelingen en -ondertekeningsvereisten voor Toepassingsbeheer. Zie Code [integrity policy formats and signing (Code integrity policy formats and signing) voor meer informatie.](/windows/device-security/device-guard/requirements-and-deployment-planning-guidelines-for-device-guard#code-integrity-policy-formats-and-signing)
 
 Als u wilt voorkomen dat een toepassing wordt uitgevoerd, wordt een codeintegriteitsbeleid toegepast waarmee bestanden alleen kunnen worden uitgevoerd als ze zijn ondertekend door een door Microsoft uitgegeven certificaat. Deze beperkingsmethode kan voorkomen dat een aanvaller gecompromitteerde apparaten kan beheren en verdere schadelijke activiteiten kan uitvoeren.
 
@@ -191,7 +191,7 @@ Wanneer een apparaat wordt geïsoleerd, wordt de volgende melding weergegeven om
 
 U kunt een Bedreigingsexpert van Microsoft raadplegen voor meer inzichten over een mogelijk gecompromitteerd apparaat of al gecompromitteerde apparaten. Microsoft Threat Experts kan rechtstreeks vanuit het Microsoft Defender-beveiligingscentrum worden ingeschakeld voor een tijdige en nauwkeurige reactie. Experts bieden inzichten, niet alleen met betrekking tot een mogelijk gecompromitteerd apparaat, maar ook om meer inzicht te krijgen in complexe bedreigingen, gerichte aanvalsmeldingen die u ontvangt, of als u meer informatie nodig hebt over de waarschuwingen of een context voor bedreigingsinformatie die u ziet op uw portaldashboard.
 
-Zie [Een Microsoft Threat Expert raadplegen](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-microsoft-threat-experts#consult-a-microsoft-threat-expert-about-suspicious-cybersecurity-activities-in-your-organization) voor meer informatie.
+Zie [Een Microsoft Threat Expert raadplegen](/microsoft-365/security/defender-endpoint/configure-microsoft-threat-experts#consult-a-microsoft-threat-expert-about-suspicious-cybersecurity-activities-in-your-organization) voor meer informatie.
 
 
 ## <a name="check-activity-details-in-action-center"></a>Activiteitsdetails controleren in Actiecentrum
@@ -209,4 +209,4 @@ Alle andere gerelateerde details worden ook weergegeven, bijvoorbeeld inzendings
 
 ## <a name="related-topic"></a>Verwant onderwerp
 - [Acties ondernemen op een bestand](respond-file-alerts.md)
-- [Onnauwkeurigheid van rapport](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-security-recommendation#report-inaccuracy)
+- [Onnauwkeurigheid van rapport](/microsoft-365/security/defender-endpoint/tvm-security-recommendation#report-inaccuracy)

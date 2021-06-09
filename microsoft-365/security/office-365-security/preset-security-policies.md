@@ -15,12 +15,12 @@ ms.collection:
 description: Beheerders kunnen leren hoe ze standaard- en striktbeleidsinstellingen kunnen toepassen op de beveiligingsfuncties van Exchange Online Protection (EOP) en Microsoft Defender voor Office 365
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ca0b8b8dd879f3f662c96f1527bca13efbe5ef6c
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 244364b423ee633a9131aabf93b5fc1e7cf756c0
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52771223"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52822284"
 ---
 # <a name="preset-security-policies-in-eop-and-microsoft-defender-for-office-365"></a>Vooraf ingestelde beveiligingsbeleidsregels in EOP en Microsoft Defender voor Office 365
 
@@ -105,7 +105,7 @@ Met andere woorden, de  instellingen van het strikte beveiligingsbeleid overschr
 
 ### <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent het Microsoft 365 beveiligingscentrum op <https://security.microsoft.com/> . Als u rechtstreeks naar de pagina Vooraf **ingestelde beveiligingsbeleidsregels wilt** gaan, gebruikt <https://security.microsoft.com/presetSecurityPolicies> u .
+- U opent het Microsoft 365 beveiligingscentrum op <https://security.microsoft.com> . Als u rechtstreeks naar de pagina Vooraf **ingestelde beveiligingsbeleidsregels wilt** gaan, gebruikt <https://security.microsoft.com/presetSecurityPolicies> u .
 
 - Zie [Verbinding maken met Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) als je verbinding wilt maken met Exchange Online PowerShell.
 
@@ -119,7 +119,7 @@ Met andere woorden, de  instellingen van het strikte beveiligingsbeleid overschr
 
 ### <a name="use-the-security-center-to-assign-preset-security-policies-to-users"></a>Het beveiligingscentrum gebruiken om vooraf ingestelde beveiligingsbeleidsregels toe te wijzen aan gebruikers
 
-1. Ga in het beveiligingscentrum naar **E-mailbeleid & samenwerkingsbeleid** & Beleidsregels voor bedreiging vooraf \>  \>  \> **ingestelde beveiligingsbeleidsregels**.
+1. Ga in het beveiligingscentrum naar de sectie Beleidsregels voor **e-mail &** samenwerkingsbeleid & de sectie Beleidsregels voor bedreigingsbeleid met sjabloon vooraf ingestelde \>  \>  \>  \> **beveiligingsbeleidsregels.**
 
 2. Klik **onder Standaardbeveiliging** **of Strikte beveiliging** op **Bewerken.**
 

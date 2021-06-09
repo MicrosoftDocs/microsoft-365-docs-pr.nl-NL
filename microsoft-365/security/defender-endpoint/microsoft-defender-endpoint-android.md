@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 3f8a8c04f608096e5c226d6899fbbd983bd8d8c1
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 499ac9a6ee81bacb79cd83993d510f87e11c62c6
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52246426"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844716"
 ---
 # <a name="microsoft-defender-for-endpoint-on-android"></a>Microsoft Defender voor Eindpunt op Android
 
@@ -48,13 +48,13 @@ In dit onderwerp wordt beschreven hoe u Defender voor Eindpunt op Android kunt i
 
 -   **Voor eindgebruikers**
 
-    -   Microsoft Defender for Endpoint-licentie die is toegewezen aan de eindgebruiker(s) van de app. Zie [Microsoft Defender voor endpoint-licentievereisten](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/minimum-requirements#licensing-requirements)
+    -   Microsoft Defender for Endpoint-licentie die is toegewezen aan de eindgebruiker(s) van de app. Zie [Microsoft Defender voor endpoint-licentievereisten](/microsoft-365/security/defender-endpoint/minimum-requirements#licensing-requirements)
 
     -   Intune-bedrijfsportal app kan worden gedownload van [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.windowsintune.companyportal) en is beschikbaar op het Android-apparaat.
 
-        -   Bovendien kunnen apparaat(en) worden geregistreerd [via](https://docs.microsoft.com/mem/intune/user-help/enroll-device-android-company-portal) de app Intune-bedrijfsportal om intune-beleid voor apparaat compliance af te dwingen. Hiervoor moet aan de eindgebruiker een licentie Microsoft Intune toegewezen.
+        -   Bovendien kunnen apparaat(en) worden geregistreerd [via](/mem/intune/user-help/enroll-device-android-company-portal) de app Intune-bedrijfsportal om intune-beleid voor apparaat compliance af te dwingen. Hiervoor moet aan de eindgebruiker een licentie Microsoft Intune toegewezen.
 
-    -   Zie Licenties toewijzen aan gebruikers voor meer informatie over het toewijzen van [licenties.](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign)
+    -   Zie Licenties toewijzen aan gebruikers voor meer informatie over het toewijzen van [licenties.](/azure/active-directory/users-groups-roles/licensing-groups-assign)
         
 
 -   **Voor beheerders**
@@ -94,6 +94,6 @@ Richtlijnen voor het configureren van Microsoft Defender voor Endpoint voor Andr
 
 
 ## <a name="related-topics"></a>Verwante onderwerpen
-- [Microsoft Defender voor Eindpunt op Android implementeren via Microsoft Intune](android-intune.md)
-- [Microsoft Defender voor Eindpunt in Android-functies configureren](android-configure.md)
+- [Microsoft Defender voor Eindpunt op Android implementeren via Microsoft Intune](android-intune.md)
+- [Microsoft Defender voor Eindpunt in Android-functies configureren](android-configure.md)
 

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: Informatie over het wijzigen van het standaardthema voor de bovenkant van de navigatiebalk in Microsoft 365 en aanpassen aan uw bedrijfslogo of -kleur.
-ms.openlocfilehash: e609cbbc116f932d9c41f7ec797bf04a2a9c8ef8
-ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
+ms.openlocfilehash: 7dc1eb4df22cbd96b2370437991aee936243189e
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 06/08/2021
-ms.locfileid: "52809045"
+ms.locfileid: "52841304"
 ---
 # <a name="customize-the-microsoft-365-theme-for-your-organization"></a>Het thema Microsoft 365 uw organisatie aanpassen
 
@@ -82,20 +82,13 @@ U kunt maximaal vier extra groepsthema's maken.
 
 Op de **pagina Logo's** kunt u uw logo's toevoegen en de URL opgeven waar gebruikers naartoe gaan wanneer ze het logo selecteren.
 
-- **Standaardlogo:** Voeg een URL-locatie toe die naar uw logo wijst. Zorg ervoor dat de URL HTTPS gebruikt en dat de afbeelding ten minste 200 x 30 pixels is. Uw standaardlogo kan de JPG-, PNG-, GIF- of SVG-indeling hebben.
+- **Standaardlogo:** Voeg een URL-locatie toe die naar uw logo wijst. Zorg ervoor dat de URL HTTPS gebruikt. Als u een logo uploadt, moet u ervoor zorgen dat het minder dan 10 kb is. Uw standaardlogo kan de JPG-, PNG-, GIF- of SVG-indeling hebben. Voor SVG-afbeeldingen worden ze zo breed gemaakt dat ze verticaal 24 pixels passen. JPG-, PNG-, GIF-afbeeldingen worden geschaald naar 200 x 48 pixels.
 - **Alternatief logo:** Voeg een URL-locatie toe die naar uw logo wijst. Uw alternatieve logo moet zijn geoptimaliseerd voor gebruik in Office donkere thema's. Dezelfde vereisten als het standaardlogo.
-- **Klein standaardlogo:** Voeg een URL-locatie toe die naar uw logo wijst. De afbeelding moet ten minste 48 x 48 pixels zijn. U kunt deze afbeelding zo schalen dat deze past op kleinere of mobiele apparaten.
-- **Klein alternatief logo:** Voeg een URL-locatie toe die naar uw logo wijst. Deze afbeelding heeft dezelfde vereisten als het kleine standaardlogo.
 - **Koppeling bij klikken:** Voeg een URL-locatie toe die naar uw logo wijst. U kunt uw logo gebruiken als koppeling naar een bedrijfsresource, bijvoorbeeld de website van uw bedrijf.
 
 Selecteer **Opslaan** om de wijzigingen op te slaan.
 
 U kunt uw logo's op elk moment verwijderen. Ga terug naar de **pagina Logo's** en selecteer **Verwijderen.**
-
-:::image type="content" source="../../media/default-theme-logos.png" alt-text="Schermafbeelding: tabblad Logo's met standaardthemalogo voor uw organisatie":::
-
-> [!NOTE]
-> Standaard worden eerst logoselecties weergegeven die door de meeste organisaties worden gebruikt. Als u alle logoselecties wilt zien, gaat u naar de onderkant van de lijst en selecteert u **Geavanceerde opties bekijken.**
   
 ## <a name="colors-choose-theme-colors"></a>Kleuren: Themakleuren kiezen
 

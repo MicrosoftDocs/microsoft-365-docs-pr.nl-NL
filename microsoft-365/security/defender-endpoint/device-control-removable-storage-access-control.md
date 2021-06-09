@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 018bc3549cd7a25df5bdd86d98d351e19027c31f
-ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
+ms.openlocfilehash: fba74990d8e4465f957acda83e66e1dc43a317e8
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796028"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841184"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-access-control"></a>Microsoft Defender voor Endpoint Device Control Verwisselbare Storage Access Control
 
@@ -68,7 +68,7 @@ Zie voor elke apparaateigenschappen de sectie **Apparaateigenschappen** hierbove
         - CdRomDevices
     - DeviceId
     - HardwareId
-    - InstancePathId: InstancePathId is een tekenreeks die het apparaat in het systeem uniek identificeert, bijvoorbeeld USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611&0. Het getal aan het einde **(bijvoorbeeld&0)** vertegenwoordigt de avaliable slot en kan veranderen van apparaat naar apparaat. Voor de beste resultaten gebruikt u een jokerteken aan het einde. Bijvoorbeeld: USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611*
+    - InstancePathId: InstancePathId is een tekenreeks die het apparaat in het systeem uniek identificeert, bijvoorbeeld USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611&0. Het getal aan het einde **(bijvoorbeeld&0)** vertegenwoordigt de beschikbare sleuf en kan veranderen van apparaat naar apparaat. Voor de beste resultaten gebruikt u een jokerteken aan het einde. Bijvoorbeeld: USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611*
     - FriendlyNameId
     - SerialNumberId
     - VID
@@ -196,7 +196,7 @@ Met de functie Storage Access Control kunt u beleid via groepsbeleid toepassen o
 
 ### <a name="licensing"></a>Licenties
 
-Voordat u aan de slag gaat met Verwisselbaar Storage Access Control, moet u uw Microsoft 365 [bevestigen.](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=2) Als u Verwisselbare Storage access control wilt openen en gebruiken, moet u Microsoft 365 E3.
+Voordat u aan de slag gaat met Verwisselbaar Storage Access Control, moet u uw Microsoft 365 [bevestigen.](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=2) Als u verwisselbare Storage access control wilt openen en gebruiken, moet u Microsoft 365 E3 of Microsoft 365 E5.
 
 ### <a name="deploying-policy-via-group-policy"></a>Beleid implementeren via groepsbeleid
 
@@ -226,7 +226,7 @@ Met de functie Verwisselbaar Storage Access Control kunt u beleid via OMA-URI to
 
 ### <a name="licensing"></a>Licenties
 
-Voordat u aan de slag gaat met Verwisselbaar Storage Access Control, moet u uw Microsoft 365 [bevestigen.](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=2) Als u Verwisselbare Storage access control wilt openen en gebruiken, moet u Microsoft 365 E3.
+Voordat u aan de slag gaat met Verwisselbaar Storage Access Control, moet u uw Microsoft 365 [bevestigen.](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=2) Als u verwisselbare Storage access control wilt openen en gebruiken, moet u Microsoft 365 E3 of Microsoft 365 E5.
 
 ### <a name="permission"></a>Machtiging
 
@@ -265,11 +265,11 @@ Voor beleidsimplementatie in Intune moet het account machtigingen hebben voor he
 
     - Gegevenstype: tekenreeks (XML-bestand)
 
-      :::image type="content" source="images/xml-data-type-string-2.png" alt-text="Weergave van XML-bestand voor het gegevenstype TEKENREEKS":::
+      :::image type="content" source="images/xml-data-type-string-2.png" lightbox="images/xml-data-type-string-2.png" alt-text="Weergave van XML-bestand voor het gegevenstype TEKENREEKS":::
 
 ## <a name="deploying-and-managing-policy-by-using-intune-user-interface"></a>Beleid implementeren en beheren met intune-gebruikersinterface
 
-Deze mogelijkheid is nog niet beschikbaar. 
+Deze mogelijkheid (in Microsoft Endpoint Manager-beheercentrum (> Apparaten > Configuratieprofielen > Profiel > Platform maken: Windows 10 en https://endpoint.microsoft.com/) hoger & Profiel: Apparaatbesturingselement) is nog niet beschikbaar. 
 
 ## <a name="view-device-control-removable-storage-access-control-data-in-microsoft-defender-for-endpoint"></a>Verwisselbare apparaatbesturingselementen Storage Access Control-gegevens weergeven in Microsoft Defender voor Eindpunt
 
@@ -277,7 +277,7 @@ De Microsoft 365 beveiligingsportal toont verwisselbare opslag die is geblokkeer
 
 - Microsoft 365 voor E5-rapportage
 
-```
+```kusto
 //events triggered by RemovableStoragePolicyTriggered
 DeviceEvents
 | where ActionType == &quot;RemovableStoragePolicyTriggered&quot; 

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 47211e187d1f9f883745f008c6d94d04ee762e98
-ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
+ms.openlocfilehash: a16e3eb8f6f7eae9fbaa82c9fd978f4fef429818
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52302062"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52822320"
 ---
 # <a name="web-content-filtering"></a>Filteren van webinhoud
 
@@ -57,15 +57,15 @@ De blokkeringservaring voor ondersteunde browsers van derden wordt geleverd door
 
 ## <a name="prerequisites"></a>Vereisten
 
-Voordat u deze functie uit probeert, moet u de volgende vereisten hebben:
+Voordat u deze functie uit probeert, moet u aan de volgende vereisten voldoen:
 
 - Windows 10 Enterprise E5, Microsoft 365 E5, Microsoft 365 E5 Security, Microsoft 365 E3 + Microsoft 365 E5 Security of de zelfstandige licentie van Microsoft Defender voor Eindpunt. 
 - Toegang tot Microsoft Defender-beveiligingscentrum portal ( https://securitycenter.windows.com) .
-- Apparaten met Windows 10 jubileumupdate (versie 1607) of hoger met de nieuwste MoCAMP-update.
+- Apparaten met Windows 10 Jubileumupdate (versie 1607) of hoger met de nieuwste antimalware-engineupdate van Microsoft Defender.
 
 ## <a name="data-handling"></a>Gegevensverwerking
 
-We volgen de regio die u hebt gekozen om te gebruiken als onderdeel van uw instellingen voor gegevensafhandeling van Microsoft Defender voor [eindpunten.](data-storage-privacy.md) Uw gegevens verlaten het datacenter niet in die regio. Bovendien worden uw gegevens niet gedeeld met derden, inclusief onze gegevensproviders.
+Gegevens worden opgeslagen in de regio die is geselecteerd als onderdeel van de instellingen voor gegevensafhandeling van Microsoft Defender voor [eindpunten.](data-storage-privacy.md) Uw gegevens verlaten het datacenter niet in die regio. Bovendien worden uw gegevens niet gedeeld met derden, inclusief onze gegevensproviders.
 
 ## <a name="turn-on-web-content-filtering"></a>Filteren van webinhoud inschakelen
 
@@ -91,14 +91,10 @@ Een nieuw beleid toevoegen:
 
 5. Bekijk de samenvatting en sla het beleid op. Het kan maximaal 2 uur duren voordat de beleidsvernieuwing van toepassing is op de geselecteerde apparaten.
 
-> [!TIP]
-> U kunt een beleid implementeren zonder een categorie in een apparaatgroep te selecteren. Met deze actie wordt een beleid voor alleen controle uitgevoerd, om u te helpen het gedrag van gebruikers te begrijpen voordat u een blokbeleid maakt.
-
->[!NOTE]
->Als u een beleid verwijdert of tegelijkertijd apparaatgroepen verandert, kan dit leiden tot vertraging bij de beleidsimplementatie.
-
->[!IMPORTANT]
->Het blokkeren van de categorie 'Niet-gecategoriseerd' kan leiden tot onverwachte en ongewenste resultaten.  
+> [!NOTE]
+> - U kunt een beleid implementeren zonder een categorie in een apparaatgroep te selecteren. Met deze actie wordt een beleid voor alleen controle uitgevoerd, om u te helpen het gedrag van gebruikers te begrijpen voordat u een blokbeleid maakt.
+> - Als u een beleid verwijdert of tegelijkertijd apparaatgroepen verandert, kan dit leiden tot vertraging bij de beleidsimplementatie.
+> - Het blokkeren van de categorie 'Niet-gecategoriseerd' kan leiden tot onverwachte en ongewenste resultaten.  
 
 ### <a name="allow-specific-websites"></a>Specifieke websites toestaan
 
@@ -120,7 +116,7 @@ Er wordt een deelvenster geopend waarin u de prioriteit kunt selecteren en aanvu
 
 ## <a name="web-content-filtering-cards-and-details"></a>Filterkaarten en details voor webinhoud
 
-Selecteer **Rapporten > webbeveiliging om** kaarten weer te geven met informatie over het filteren van webinhoud en beveiliging tegen webdreigingen. De volgende kaarten bevatten overzichtsinformatie over het filteren van webinhoud.
+Selecteer **Rapporten**  >  **webbeveiliging om** kaarten weer te geven met informatie over het filteren van webinhoud en beveiliging tegen webdreigingen. De volgende kaarten bevatten overzichtsinformatie over het filteren van webinhoud.
 
 ### <a name="web-activity-by-category"></a>Webactiviteit per categorie
 
@@ -166,9 +162,4 @@ Gebruik het tijdbereikfilter linksboven op de pagina om een periode te selectere
 
 - Rapporten voor webinhoudsfilters zijn momenteel beperkt tot het weergeven van de 5000 beste records. In het rapport Domeinen wordt bijvoorbeeld alleen een maximum van de bovenste 5000 domeinen voor een bepaalde filterquery, indien van toepassing, gegeven. 
 
-## <a name="related-topics"></a>Verwante onderwerpen
 
-- [Overzicht webbeveiliging](web-protection-overview.md)
-- [Webbedreigingsbeveiliging](web-threat-protection.md)
-- [Webbeveiliging monitoren](web-protection-monitoring.md)
-- [Reageren op webbedreigingen](web-protection-response.md)
