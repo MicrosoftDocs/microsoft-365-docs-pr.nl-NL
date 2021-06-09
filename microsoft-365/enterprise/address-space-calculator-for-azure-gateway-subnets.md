@@ -1,5 +1,5 @@
 ---
-title: Adresruimte berekenen voor Azure gateway-subnetten
+title: Adresruimteberekening voor Azure Gateway-subnetten
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -15,7 +15,7 @@ ms.custom:
 - PowerShell
 - Ent_Office_Other
 - seo-marvel-apr2020
-description: 'Samenvatting: Bereken de adresruimte van een subnet van Azure gateway met C3, python of PowerShell.'
+description: 'Overzicht: Bereken de adresruimte van een Azure Gateway-subnet met C3, Python of PowerShell.'
 ms.openlocfilehash: d92bea5c36fde6277154d19365ed0bdaa5df4254
 ms.sourcegitcommit: ec293978e951b09903b79e6642aa587824935e0c
 ms.translationtype: MT
@@ -23,20 +23,20 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "49780566"
 ---
-# <a name="address-space-calculator-for-azure-gateway-subnets"></a><span data-ttu-id="52964-103">Adresruimte berekenen voor Azure gateway-subnetten</span><span class="sxs-lookup"><span data-stu-id="52964-103">Address space calculator for Azure gateway subnets</span></span>
+# <a name="address-space-calculator-for-azure-gateway-subnets"></a><span data-ttu-id="ccbc4-103">Adresruimteberekening voor Azure Gateway-subnetten</span><span class="sxs-lookup"><span data-stu-id="ccbc4-103">Address space calculator for Azure gateway subnets</span></span>
 
-<span data-ttu-id="52964-104">Een virtuele netwerk (VNet) in azure-infrastructuurservices die is verbonden met andere netwerken, moet een gateway-subnet hebben.</span><span class="sxs-lookup"><span data-stu-id="52964-104">A virtual network (VNet) in Azure infrastructure services that is connected to other networks must have a gateway subnet.</span></span> <span data-ttu-id="52964-105">De aanbevolen procedures voor het definiëren van het gateway subnet zijn:</span><span class="sxs-lookup"><span data-stu-id="52964-105">The best practices for defining the gateway subnet are:</span></span>
+<span data-ttu-id="ccbc4-104">Een virtueel netwerk (VNet) in Azure-infrastructuurservices dat is verbonden met andere netwerken, moet een gateway-subnet hebben.</span><span class="sxs-lookup"><span data-stu-id="ccbc4-104">A virtual network (VNet) in Azure infrastructure services that is connected to other networks must have a gateway subnet.</span></span> <span data-ttu-id="ccbc4-105">De best practices voor het definiëren van het gateway-subnet zijn:</span><span class="sxs-lookup"><span data-stu-id="ccbc4-105">The best practices for defining the gateway subnet are:</span></span>
 
-- <span data-ttu-id="52964-106">De lengte van het voorvoegsel van het gateway subnet mag een maximumlengte van 29 hebben (bijvoorbeeld 10.119.255.248/29), maar u kunt wel gebruikmaken van een prefixlengte van 27 (bijvoorbeeld 10.119.255.224/27).</span><span class="sxs-lookup"><span data-stu-id="52964-106">The prefix length of the gateway subnet can have a maximum prefix length of 29 (for example, 10.119.255.248/29), but the current recommendation is that you use a prefix length of 27 (for example, 10.119.255.224/27).</span></span>
-- <span data-ttu-id="52964-107">Wanneer u de adresruimte van het gateway subnet definieert, gebruikt u het laatste onderdeel van de VNet-adresruimte.</span><span class="sxs-lookup"><span data-stu-id="52964-107">When defining the address space of the gateway subnet, use the last part of the VNet address space.</span></span>
+- <span data-ttu-id="ccbc4-106">De lengte van het voorvoegsel van het gateway-subnet kan een maximumlengte van 29 hebben (bijvoorbeeld 10.119.255.248/29), maar de huidige aanbeveling is dat u een voorvoegsellengte van 27 gebruikt (bijvoorbeeld 10.119.255.224/27).</span><span class="sxs-lookup"><span data-stu-id="ccbc4-106">The prefix length of the gateway subnet can have a maximum prefix length of 29 (for example, 10.119.255.248/29), but the current recommendation is that you use a prefix length of 27 (for example, 10.119.255.224/27).</span></span>
+- <span data-ttu-id="ccbc4-107">Wanneer u de adresruimte van het gateway-subnet definit, gebruikt u het laatste deel van de VNet-adresruimte.</span><span class="sxs-lookup"><span data-stu-id="ccbc4-107">When defining the address space of the gateway subnet, use the last part of the VNet address space.</span></span>
 
-<span data-ttu-id="52964-108">Voor de tweede aanbeveling kunt u de adresruimte van het gateway subnet bepalen door de gebruikte bits voor het gateway subnet in te stellen op 0 en de resterende bits in de adresruimte van VNet in 1.</span><span class="sxs-lookup"><span data-stu-id="52964-108">For the second recommendation, you can determine the address space of the gateway subnet by setting the bits used for the gateway subnet to 0 and the remaining bits in the VNet address space to 1.</span></span> <span data-ttu-id="52964-109">Als u de adresruimte van de gateway niet snel wilt berekenen zonder te converteren naar een binair getal of een decimale waarde, kunt u een consoletoepassing gebruiken die is geschreven in C# of python of met een PowerShell-opdracht blok.</span><span class="sxs-lookup"><span data-stu-id="52964-109">To quickly calculate the gateway subnet address space without having to convert to binary and back to decimal, you can use a console application written in C# or Python or with a PowerShell command block.</span></span>
+<span data-ttu-id="ccbc4-108">Voor de tweede aanbeveling kunt u de adresruimte van het gateway-subnet bepalen door de bits die voor het gateway-subnet worden gebruikt in te stellen op 0 en de resterende bits in de VNet-adresruimte op 1.</span><span class="sxs-lookup"><span data-stu-id="ccbc4-108">For the second recommendation, you can determine the address space of the gateway subnet by setting the bits used for the gateway subnet to 0 and the remaining bits in the VNet address space to 1.</span></span> <span data-ttu-id="ccbc4-109">Als u snel de ruimte van het gateway-subnetadres wilt berekenen zonder dat u deze naar binair en decimaal moet converteren, kunt u een consoletoepassing gebruiken die is geschreven in C# of Python of met een PowerShell-opdrachtblok.</span><span class="sxs-lookup"><span data-stu-id="ccbc4-109">To quickly calculate the gateway subnet address space without having to convert to binary and back to decimal, you can use a console application written in C# or Python or with a PowerShell command block.</span></span>
 
-<span data-ttu-id="52964-110">Dit artikel bevat C#-, python-en PowerShell-codeblokken waarmee de adresruimte van de gateway wordt berekend op basis van de waarden van w. x. y. z/n voor het VNet-adresprefix en de lengte van de subnetvoorvoegsel van de gateway.</span><span class="sxs-lookup"><span data-stu-id="52964-110">This article contains C#, Python, and PowerShell code blocks that calculate the gateway subnet address space based on the values of w.x.y.z/n for the VNet address prefix and the gateway subnet prefix length.</span></span>
+<span data-ttu-id="ccbc4-110">Dit artikel bevat C#, Python en PowerShell-codeblokken waarmee de ruimte voor het gateway-subnetadres wordt berekend op basis van de waarden van w.x.y.z/n voor het VNet-adres voorvoegsel en de lengte van het gateway subnet.</span><span class="sxs-lookup"><span data-stu-id="ccbc4-110">This article contains C#, Python, and PowerShell code blocks that calculate the gateway subnet address space based on the values of w.x.y.z/n for the VNet address prefix and the gateway subnet prefix length.</span></span>
 
-## <a name="c-code-block"></a><span data-ttu-id="52964-111">C#-codeblok</span><span class="sxs-lookup"><span data-stu-id="52964-111">C# code block</span></span>
+## <a name="c-code-block"></a><span data-ttu-id="ccbc4-111">C#-codeblok</span><span class="sxs-lookup"><span data-stu-id="ccbc4-111">C# code block</span></span>
 
-<span data-ttu-id="52964-112">Gebruik dit codeblok om een console-app te maken in C#.</span><span class="sxs-lookup"><span data-stu-id="52964-112">Use this code block to create a console app in C#.</span></span>
+<span data-ttu-id="ccbc4-112">Gebruik dit codeblok om een console-app te maken in C#.</span><span class="sxs-lookup"><span data-stu-id="ccbc4-112">Use this code block to create a console app in C#.</span></span>
 
 ```c#
 using System; 
@@ -108,9 +108,9 @@ namespace ConsoleApplication1
 } 
 ```
 
-## <a name="python-code-block"></a><span data-ttu-id="52964-113">Python-codeblok</span><span class="sxs-lookup"><span data-stu-id="52964-113">Python code block</span></span>
+## <a name="python-code-block"></a><span data-ttu-id="ccbc4-113">Python-codeblok</span><span class="sxs-lookup"><span data-stu-id="ccbc4-113">Python code block</span></span>
 
-<span data-ttu-id="52964-114">Gebruik dit codeblok om een console-app te maken in python.</span><span class="sxs-lookup"><span data-stu-id="52964-114">Use this code block to create a console app in Python.</span></span>
+<span data-ttu-id="ccbc4-114">Gebruik dit codeblok om een console-app te maken in Python.</span><span class="sxs-lookup"><span data-stu-id="ccbc4-114">Use this code block to create a console app in Python.</span></span>
 
 ```python
 import math 
@@ -147,9 +147,9 @@ print(gwAddrPref)
 ```
 
 
-## <a name="powershell-command-block"></a><span data-ttu-id="52964-115">PowerShell-opdracht blok</span><span class="sxs-lookup"><span data-stu-id="52964-115">PowerShell command block</span></span>
+## <a name="powershell-command-block"></a><span data-ttu-id="ccbc4-115">PowerShell-opdrachtblok</span><span class="sxs-lookup"><span data-stu-id="ccbc4-115">PowerShell command block</span></span>
 
-<span data-ttu-id="52964-116">Vul de waarden in en voer het resultaat van de opdracht in een PowerShell-venster of in het PowerShell-venster (ISE) uit.</span><span class="sxs-lookup"><span data-stu-id="52964-116">Fill in the values and run the resulting command block in a PowerShell window or in the PowerShell Integrated Script Environment (ISE).</span></span>
+<span data-ttu-id="ccbc4-116">Vul de waarden in en voer het resulterende opdrachtblok uit in een PowerShell-venster of in de Geïntegreerde Scriptomgeving (ISE) van PowerShell.</span><span class="sxs-lookup"><span data-stu-id="ccbc4-116">Fill in the values and run the resulting command block in a PowerShell window or in the PowerShell Integrated Script Environment (ISE).</span></span>
 
 ```powershell
 # Specify the values of w.x.y.z/n for your VNet address space and g, the prefix length of your gateway subnet: 
@@ -177,6 +177,6 @@ $dx= [string]$w2 + "." + [string]$x2 + "." + [string]$y2 + "." + [string]$z2 + "
 Write-Host "Your gateway address prefix is: " $dx
 ```
     
-## <a name="related-topics"></a><span data-ttu-id="52964-117">Verwante onderwerpen</span><span class="sxs-lookup"><span data-stu-id="52964-117">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="ccbc4-117">Verwante onderwerpen</span><span class="sxs-lookup"><span data-stu-id="ccbc4-117">Related topics</span></span>
 
-[<span data-ttu-id="52964-118">Microsoft 365 beheren met PowerShell</span><span class="sxs-lookup"><span data-stu-id="52964-118">Manage Microsoft 365 with PowerShell</span></span>](manage-microsoft-365-with-microsoft-365-powershell.md)
+[<span data-ttu-id="ccbc4-118">Microsoft 365 beheren met PowerShell</span><span class="sxs-lookup"><span data-stu-id="ccbc4-118">Manage Microsoft 365 with PowerShell</span></span>](manage-microsoft-365-with-microsoft-365-powershell.md)
