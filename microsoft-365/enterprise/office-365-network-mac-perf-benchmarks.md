@@ -1,5 +1,5 @@
 ---
-title: Voor de netwerk Score en-vergelijkingen van Office 365.
+title: Office 365 netwerkscorebenchmarks en -vergelijkingen
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -13,7 +13,7 @@ search.appverid:
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
-description: Voor de netwerk Score en-vergelijkingen van Office 365.
+description: Office 365 netwerkscorebenchmarks en -vergelijkingen
 ms.openlocfilehash: e84a6dd63376c55c7da0abd4c414577c94f760d4
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
@@ -21,4 +21,4 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 08/14/2020
 ms.locfileid: "46689038"
 ---
-# <a name="office-365-network-score-benchmarks-and-comparisons"></a><span data-ttu-id="da7f1-103">Voor de netwerk Score en-vergelijkingen van Office 365.</span><span class="sxs-lookup"><span data-stu-id="da7f1-103">Office 365 network score benchmarks and comparisons</span></span>
+# <a name="office-365-network-score-benchmarks-and-comparisons"></a><span data-ttu-id="0580d-103">Office 365 netwerkscorebenchmarks en -vergelijkingen</span><span class="sxs-lookup"><span data-stu-id="0580d-103">Office 365 network score benchmarks and comparisons</span></span>
