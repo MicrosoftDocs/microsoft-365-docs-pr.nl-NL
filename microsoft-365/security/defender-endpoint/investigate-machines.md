@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c1e572910ad311daba18a8b0f5eeb546ffe36956
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: e64f17f2bedea89db1190e6c758c514f14fc3a68
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51929107"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843576"
 ---
 # <a name="investigate-devices-in-the-microsoft-defender-for-endpoint-devices-list"></a>Apparaten onderzoeken in de lijst Microsoft Defender voor eindpuntapparaten
 
@@ -39,7 +39,7 @@ ms.locfileid: "51929107"
 Onderzoek de details van een waarschuwing die op een specifiek apparaat wordt opgehaald om andere gedragingen of gebeurtenissen te identificeren die mogelijk verband houden met de waarschuwing of het mogelijke bereik van de inbreuk.
 
 > [!NOTE]
-> Als onderdeel van het onderzoek- of antwoordproces kunt u een onderzoekspakket verzamelen vanaf een apparaat. Dit doet u als: [Onderzoekspakket van apparaten verzamelen.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/respond-machine-alerts#collect-investigation-package-from-devices)
+> Als onderdeel van het onderzoek- of antwoordproces kunt u een onderzoekspakket verzamelen vanaf een apparaat. Dit doet u als: [Onderzoekspakket van apparaten verzamelen.](/microsoft-365/security/defender-endpoint/respond-machine-alerts#collect-investigation-package-from-devices)
 
 U kunt op getroffen apparaten klikken wanneer u ze in de portal ziet om een gedetailleerd rapport over dat apparaat te openen. Getroffen apparaten worden in de volgende gebieden geïdentificeerd:
 
@@ -109,12 +109,12 @@ Het **tabblad** Tijdlijn bevat een chronologische weergave van de gebeurtenissen
 Met de tijdlijn kunt u ook selectief inzoomen op gebeurtenissen die binnen een bepaalde periode hebben plaatsgevonden. U kunt de temporele volgorde bekijken van gebeurtenissen die zich hebben voorgedaan op een apparaat gedurende een geselecteerde periode. Als u de weergave verder wilt bepalen, kunt u filteren op gebeurtenisgroepen of de kolommen aanpassen.
 
 >[!NOTE]
-> Als u firewallgebeurtenissen wilt weergeven, moet u het controlebeleid inschakelen, zie [Verbinding auditfilterplatform](https://docs.microsoft.com/windows/security/threat-protection/auditing/audit-filtering-platform-connection).
+> Als u firewallgebeurtenissen wilt weergeven, moet u het controlebeleid inschakelen, zie [Verbinding auditfilterplatform](/windows/security/threat-protection/auditing/audit-filtering-platform-connection).
 >Firewall bestrijkt de volgende gebeurtenissen
 >
->- [5025](https://docs.microsoft.com/windows/security/threat-protection/auditing/event-5025) - firewallservice gestopt
->- [5031](https://docs.microsoft.com/windows/security/threat-protection/auditing/event-5031) - toepassing die is geblokkeerd voor het accepteren van inkomende verbindingen in het netwerk
->- [5157](https://docs.microsoft.com/windows/security/threat-protection/auditing/event-5157) - geblokkeerde verbinding
+>- [5025](/windows/security/threat-protection/auditing/event-5025) - firewallservice gestopt
+>- [5031](/windows/security/threat-protection/auditing/event-5031) - toepassing die is geblokkeerd voor het accepteren van inkomende verbindingen in het netwerk
+>- [5157](/windows/security/threat-protection/auditing/event-5157) - geblokkeerde verbinding
 
 ![Afbeelding van apparaattijdlijn met gebeurtenissen](images/timeline-device.png)
 
@@ -134,11 +134,11 @@ Meer informatie over bepaalde gebeurtenissen vindt u in de **sectie Aanvullende*
 - Actieve bedreiging gedetecteerd: de detectie van bedreigingen vond plaats terwijl de bedreiging werd uitgevoerd
 - Herstel mislukt: een poging om de gedetecteerde bedreiging te herstellen is aangeroepen, maar is mislukt
 - Herstel is gelukt: de gedetecteerde bedreiging is gestopt en opgeruimd
-- Waarschuwing overgeslagen door gebruiker: de Waarschuwing voor SmartScreen van Windows Defender is door een gebruiker afgewezen en overgenomen
+- Waarschuwing overgeslagen door gebruiker: de waarschuwing Windows Defender SmartScreen is door een gebruiker afgewezen en overgenomen
 - Verdacht script gedetecteerd : er is een mogelijk schadelijk script gevonden dat werd uitgevoerd
 - De waarschuwingscategorie: als de gebeurtenis heeft geleid tot het genereren van een waarschuwing, wordt de waarschuwingscategorie ("Zijbeweging", bijvoorbeeld) verstrekt
 
-#### <a name="event-details"></a>Gebeurtenisdetails
+#### <a name="event-details"></a>Details van de gebeurtenis
 Selecteer een gebeurtenis om relevante details over die gebeurtenis weer te geven. Er wordt een deelvenster weergegeven om algemene gebeurtenisgegevens weer te geven. Wanneer dit van toepassing is en gegevens beschikbaar zijn, wordt ook een grafiek weergegeven met gerelateerde entiteiten en hun relaties.
 
 Als u de gebeurtenis en gerelateerde gebeurtenissen verder wilt controleren, kunt u snel een geavanceerde [query](advanced-hunting-overview.md) uitvoeren door Hunt te selecteren **voor gerelateerde gebeurtenissen.** De query retournoemt de geselecteerde gebeurtenis en de lijst met andere gebeurtenissen die rond dezelfde tijd op hetzelfde eindpunt hebben plaatsgevonden.

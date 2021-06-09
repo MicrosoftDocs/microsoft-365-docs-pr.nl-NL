@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 5c76784d78837c324922ffc25539746a4921e426
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 0ddb38e713f08c101639976b9f2c8c1ee32e63a3
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769706"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843780"
 ---
 # <a name="create-custom-reports-using-power-bi"></a>Aangepaste rapporten maken met Power BI
 
@@ -142,7 +142,7 @@ In het eerste voorbeeld wordt gedemonstreerd hoe u verbinding maakt Power BI Adv
 Zie de sjablonen voor [Power BI rapport voor meer informatie.](https://github.com/microsoft/MicrosoftDefenderATP-PowerBI)
 
 ## <a name="sample-reports"></a>Voorbeeldrapporten
-Bekijk de voorbeelden van microsoft Defender voor eindpunten Power BI rapport. Zie Door codevoorbeelden bladeren voor [meer informatie.](https://docs.microsoft.com/samples/browse/?products=mdatp)
+Bekijk de voorbeelden van microsoft Defender voor eindpunten Power BI rapport. Zie Door codevoorbeelden bladeren voor [meer informatie.](/samples/browse/?products=mdatp)
 
 
 ## <a name="related-topic"></a>Verwant onderwerp

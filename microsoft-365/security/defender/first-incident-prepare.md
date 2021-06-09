@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 4fc124bf8787d5880d78a4f5208bd66329da07a0
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: da9147955c5da9ea727854420b3d4d160583ef73
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52539033"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52840932"
 ---
 # <a name="prepare-your-security-posture-for-your-first-incident"></a>Uw beveiligingshouding voorbereiden op het eerste incident
 
@@ -40,14 +40,14 @@ Als u zich voorbereidt op incidentafhandeling, moet het netwerk van een organisa
 
 Microsoft 365 Defender kan helpen bij het aanpakken van verschillende aspecten van incidentpreventie: 
 
-- Een [Zero Trust-framework](https://docs.microsoft.com/security/zero-trust/) implementeren
+- Een [Zero Trust-framework](/security/zero-trust/) implementeren
 - Uw beveiligingsstatus bepalen door een score toe te wijzen met [Microsoft Secure Score](microsoft-secure-score.md)
 - Bedreigingen voorkomen via kwetsbaarheidsbeoordelingen in [Bedreigings- en kwetsbaarheidsbeheer](../defender-endpoint/next-gen-threat-and-vuln-mgt.md)
 - Inzicht in de meest recente beveiligingsrisico's, zodat u zich op deze bedreigingen kunt voorbereiden
 
 ## <a name="step-1-implement-zero-trust"></a>Stap 1. Nul vertrouwen implementeren
 
-[Zero Trust](https://docs.microsoft.com/security/zero-trust/) is een geïntegreerde beveiligingsbeschouwing en end-to-endstrategie waarin rekening wordt gehouden met de complexe aard van elke moderne omgeving, met inbegrip van het mobiele personeel en de gebruikers, apparaten, toepassingen en gegevens, waar ze zich ook bevinden. Door één deelvenster met glas op te geven om alle detecties op een consistente manier te beheren, kan Microsoft 365 Defender het uw beveiligingsteam gemakkelijker maken om de basisprincipes van Zero Trust te implementeren. [](https://docs.microsoft.com/security/zero-trust/#guiding-principles-of-zero-trust) 
+[Zero Trust](/security/zero-trust/) is een geïntegreerde beveiligingsbeschouwing en end-to-endstrategie waarin rekening wordt gehouden met de complexe aard van elke moderne omgeving, met inbegrip van het mobiele personeel en de gebruikers, apparaten, toepassingen en gegevens, waar ze zich ook bevinden. Door één deelvenster met glas op te geven om alle detecties op een consistente manier te beheren, kan Microsoft 365 Defender het uw beveiligingsteam gemakkelijker maken om de basisprincipes van Zero Trust te implementeren. [](/security/zero-trust/#guiding-principles-of-zero-trust) 
 
 Onderdelen van Microsoft 365 Defender kunnen schendingen van regels weergeven die zijn geïmplementeerd om beleid voor voorwaardelijke toegang voor Zero Trust tot stand te brengen door gegevens van Microsoft Defender voor Eindpunt (MDE) of andere mobiele beveiligingsleveranciers te integreren als informatiebron voor beleidsregels voor apparaat compliance en implementatie van beleidsregels voor voorwaardelijke toegang op apparaten. 
 

@@ -20,16 +20,16 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Ga aan de slag met het definiëren en beheren van waarschuwingen voor preventiebeleid voor gegevensverlies.
-ms.openlocfilehash: 7f070dd960cc00ad7899c75117cd2a3fcf679973
-ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
+ms.openlocfilehash: ad117eb0c5460b90c92c664f0c233b81d1882327
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51760728"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843864"
 ---
 # <a name="get-started-with-the-data-loss-prevention-alert-dashboard"></a>Aan de slag met het waarschuwingsdashboard voor de preventie van gegevensverlies
 
-DLP-beleid (Data Loss Prevention) kan beschermende acties uitvoeren om onbedoeld delen van gevoelige items te voorkomen. Wanneer een actie wordt ondernomen voor een gevoelig item, kunt u een melding krijgen door waarschuwingen voor DLP te configureren. In dit artikel wordt beschreven hoe u beleidsregels voor rich alert kunt definiëren die zijn gekoppeld aan uw DLP-beleid (Data Loss Prevention). U ziet hoe u het [DLP-dashboard](https://compliance.microsoft.com/datalossprevention?viewid=dlpalerts) voor waarschuwingsbeheer in het [Microsoft 365-compliancecentrum](https://compliance.microsoft.com/) kunt gebruiken om waarschuwingen, gebeurtenissen en bijbehorende metagegevens voor DLP-beleidsovertredingen weer te geven.
+DLP-beleid (Data Loss Prevention) kan beschermende acties uitvoeren om onbedoeld delen van gevoelige items te voorkomen. Wanneer een actie wordt ondernomen voor een gevoelig item, kunt u een melding krijgen door waarschuwingen voor DLP te configureren. In dit artikel wordt beschreven hoe u beleidsregels voor rich alert kunt definiëren die zijn gekoppeld aan uw DLP-beleid (Data Loss Prevention). U ziet hoe u het DLP-waarschuwingsbeheerdashboard in het [Microsoft 365 compliancecentrum](https://compliance.microsoft.com/) kunt gebruiken om waarschuwingen, gebeurtenissen en bijbehorende metagegevens voor DLP-beleidsovertredingen weer te geven. [](https://compliance.microsoft.com/datalossprevention?viewid=dlpalerts)
 
 Als U nog geen DLP-waarschuwingen hebt, bekijkt u Meer informatie over het dashboard waarschuwingen [voor preventie van gegevensverlies](dlp-alerts-dashboard-learn.md)
 
@@ -43,14 +43,14 @@ Voordat u begint, moet u de benodigde vereisten hebben:
 
 ### <a name="licensing-for-the-dlp-alert-management-dashboard"></a>Licenties voor het DLP-waarschuwingsbeheerdashboard
 
-Alle in aanmerking komende tenants voor Office 365 DLP hebben toegang tot het DLP-waarschuwingsbeheerdashboard. Als u wilt beginnen, komt u in aanmerking voor Office 365 DLP voor Exchange Online, SharePoint Online en OneDrive voor Bedrijven. Zie Welke licenties bieden een gebruiker de rechten om te profiteren van de service voor meer informatie over de licentievereisten voor Office 365 [DLP?](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#which-licenses-provide-the-rights-for-a-user-to-benefit-from-the-service-16).
+Alle in aanmerking komende tenants voor Office 365 DLP hebben toegang tot het DLP-waarschuwingsbeheerdashboard. Om aan de slag te gaan, moet u in aanmerking komen voor Office 365 DLP voor Exchange Online, SharePoint Online en OneDrive voor Bedrijven. Zie Welke licenties bieden een gebruiker de rechten om van de service te profiteren voor meer informatie over de licentievereisten voor Office 365 DLP? voor [meer informatie](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#which-licenses-provide-the-rights-for-a-user-to-benefit-from-the-service-16)over de licentievereisten voor DLP.
 
-Klanten die [Endpoint DLP gebruiken](endpoint-dlp-learn-about.md) die in aanmerking komen voor [Teams DLP,](dlp-microsoft-teams.md) zien hun waarschuwingen voor DLP-eindpuntbeleid en Teams DLP-beleidswaarschuwingen in het DLP-waarschuwingsbeheerdashboard.
+Klanten die [Endpoint DLP](endpoint-dlp-learn-about.md) gebruiken die in aanmerking komen voor [Teams DLP,](dlp-microsoft-teams.md) zien hun waarschuwingen voor DLP-eindpuntbeleid en Teams DLP-beleidswaarschuwingen in het DLP-dashboard voor waarschuwingsbeheer.
 
 De **functie Inhoudsvoorbeeld** is alleen beschikbaar voor deze licenties:
 
-- Microsoft 365 (E5)
-- Office 365 (E5)
+- Microsoft 365 E5
+- Office 365 E5
 - Advanced Compliance (E5) add on
 - Microsoft 365 E5/A5 Information Protection and Governance
 - Microsft 365 E5/A5 Compliance
@@ -65,7 +65,7 @@ Configuratie van een waarschuwing met één gebeurtenis: organisaties met een E1
 - Een E1-, F1- of G1-abonnement of een E3- of G3-abonnement met een van de volgende functies:
     - Office 365 Advanced Threat Protection Plan 2
     - Microsoft 365 E5 Compliance
-    - Microsoft 365 eDiscovery- en Audit-invoeglicentie
+    - Microsoft 365 invoeglicentie voor eDiscovery en Audit
 
 ### <a name="roles"></a>Rollen
 
@@ -115,7 +115,7 @@ Als uw organisatie is gelicentieerd voor configuratieopties voor een waarschuwin
 
 Werken met het DLP-dashboard voor waarschuwingsbeheer:
 
-1. Ga in [het Microsoft 365-compliancecentrum](https://www.compliance.microsoft.com)naar **Preventie van gegevensverlies.**
+1. Ga in [Microsoft 365 compliancecentrum](https://www.compliance.microsoft.com)naar **Preventie van gegevensverlies.**
 2. Selecteer het **tabblad Waarschuwingen** om het dashboard met DLP-waarschuwingen weer te geven.
 3. Selecteer een waarschuwing om details te zien:
 

@@ -20,27 +20,27 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Meer informatie over het instellen van sterke wachtwoordvereisten voor uw gebruikers met Windows PowerShell.
-ms.openlocfilehash: de2f47bb88fe4cb3d00e45698fe006035faa4e5c
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+description: Informatie over het instellen van sterke wachtwoordvereisten voor uw gebruikers met behulp van Windows PowerShell.
+ms.openlocfilehash: 898eaf30d813e883e88c3ccc8ff500d72ae72854
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222071"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52840656"
 ---
 # <a name="turn-off-strong-password-requirements-for-users"></a>Sterke wachtwoordvereisten voor gebruikers uitschakelen
 
-In dit artikel wordt uitgelegd hoe u sterke wachtwoordvereisten voor uw gebruikers kunt uitschakelen. Sterke wachtwoordvereisten zijn standaard ingeschakeld in uw Microsoft 365 voor Bedrijven-organisatie. Uw organisatie heeft mogelijk vereisten voor het uitschakelen van sterke wachtwoorden. Volg de onderstaande stappen om sterke wachtwoordvereisten uit te schakelen. U moet deze stappen met PowerShell voltooien.
+In dit artikel wordt uitgelegd hoe u sterke wachtwoordvereisten voor uw gebruikers kunt uitschakelen. Sterke wachtwoordvereisten zijn standaard ingeschakeld in uw Microsoft 365 voor bedrijven. Uw organisatie heeft mogelijk vereisten voor het uitschakelen van sterke wachtwoorden. Volg de onderstaande stappen om sterke wachtwoordvereisten uit te schakelen. U moet deze stappen met PowerShell voltooien.
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
-Dit artikel is bedoeld voor personen die wachtwoordbeleid beheren voor een bedrijf, school of non-profitorganisatie. Voor het uitvoeren van deze stappen moet u zich aanmelden met uw Microsoft 365-beheerdersaccount. [Wat is een beheerdersaccount?](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview) U moet een globale [beheerder of wachtwoordbeheerder zijn om](about-admin-roles.md) deze stappen uit te voeren.
+Dit artikel is bedoeld voor personen die wachtwoordbeleid beheren voor een bedrijf, school of non-profitorganisatie. Voor het uitvoeren van deze stappen moet u zich aanmelden met uw Microsoft 365-beheerdersaccount. [Wat is een beheerdersaccount?](/microsoft-365/business-video/admin-center-overview) U moet een globale [beheerder of wachtwoordbeheerder zijn om](about-admin-roles.md) deze stappen uit te voeren.
 
-U moet ook verbinding maken met Microsoft 365 met PowerShell.
+U moet ook verbinding maken met Microsoft 365 PowerShell.
 
 ## <a name="set-strong-passwords"></a>Sterke wachtwoorden instellen
 
-1. [Maak verbinding met Microsoft 365 met PowerShell.](/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
+1. [Verbinding maken om Microsoft 365 powershell te gebruiken.](/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
 2. Met PowerShell kunt u sterke wachtwoordvereisten uitschakelen voor alle gebruikers met de volgende opdracht:
 
@@ -58,7 +58,7 @@ U moet ook verbinding maken met Microsoft 365 met PowerShell.
 
 ## <a name="related-content"></a>Verwante onderwerpen
 
-[Verbinding maken met Microsoft 365 met PowerShell](/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
+[Verbinding maken met Microsoft 365 PowerShell](/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
 [Meer informatie over PowerShell MsolUser-opdrachten](/powershell/module/msonline/set-msoluser?view=azureadps-1.0)
 

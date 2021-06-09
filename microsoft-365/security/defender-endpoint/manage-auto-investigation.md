@@ -19,12 +19,12 @@ ms.collection:
 ms.topic: how-to
 ms.date: 01/29/2021
 ms.technology: mde
-ms.openlocfilehash: b0c983f4ba939cee6485570af774c8a728c73944
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 410972bd823c3a3c4fda53cacc225014d83f3457
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274926"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844008"
 ---
 # <a name="review-remediation-actions-following-an-automated-investigation"></a>Herstelacties na een geautomatiseerd onderzoek controleren
 
@@ -39,7 +39,7 @@ Afhankelijk van
 
 - het type bedreiging; 
 - de resulterende uitspraak, en 
-- hoe de apparaatgroepen van [uw](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/machine-groups) organisatie zijn geconfigureerd, 
+- hoe de apparaatgroepen van [uw](/microsoft-365/security/defender-endpoint/machine-groups) organisatie zijn geconfigureerd, 
 
 Herstelacties kunnen automatisch of alleen plaatsvinden na goedkeuring door het beveiligingsteam van uw organisatie. 
 
@@ -49,7 +49,7 @@ Hier zijn enkele voorbeelden:
 
 - **Voorbeeld 2**: De apparaten van Contoso zijn opgenomen in een apparaatgroep die is ingesteld voor Semi - goedkeuring vereisen voor **eventuele herstel.** In dit geval moet het beveiligingsteam van Contoso alle herstelacties na een geautomatiseerd onderzoek controleren en goedkeuren (zie Lopende acties [controleren).](#review-pending-actions)
 
-- **Voorbeeld 3:** Tailspin Toys heeft hun apparaatgroepen ingesteld op **Geen geautomatiseerde reactie** (niet aanbevolen). In dit geval vindt er geen geautomatiseerd onderzoek plaats. Er worden geen herstelacties ondernomen of in behandeling en er worden geen acties geregistreerd in het [Actiecentrum](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/auto-investigation-action-center#the-action-center) voor hun apparaten (zie [Apparaatgroepen beheren).](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/machine-groups#manage-device-groups)
+- **Voorbeeld 3:** Tailspin Toys heeft hun apparaatgroepen ingesteld op **Geen geautomatiseerde reactie** (niet aanbevolen). In dit geval vindt er geen geautomatiseerd onderzoek plaats. Er worden geen herstelacties ondernomen of in behandeling en er worden geen acties geregistreerd in het [Actiecentrum](/microsoft-365/security/defender-endpoint/auto-investigation-action-center#the-action-center) voor hun apparaten (zie [Apparaatgroepen beheren).](/microsoft-365/security/defender-endpoint/machine-groups#manage-device-groups)
 
 Of dit nu automatisch of na goedkeuring wordt gedaan, een geautomatiseerd onderzoek kan leiden tot een of meer herstelacties:
 - Een bestand in quarantaine plaatsen
@@ -111,8 +111,8 @@ Automatiseringsniveaus bepalen of bepaalde herstelacties automatisch of alleen n
 |**Semi - goedkeuring vereisen voor herstel van kernmappen** |Er wordt een vonnis *van Verdachte* bereikt voor een bewijs. <br/><br/>Herstelacties zijn in behandeling bij goedkeuring.  |[In behandeling zijnde acties goedkeuren (of afwijzen).](#review-pending-actions)|
 |**Semi - goedkeuring vereisen voor herstel van niet-tijdelijke mappen** |Er wordt een uitspraak *van Kwaadwillend* bereikt voor een bewijs. <br/><br/>Als het artefact een bestand of uitvoerbaar bestand is dat zich niet in een tijdelijke map, zoals de downloadmap of de tijdelijke map van de gebruiker, in behandeling heeft, worden herstelacties in behandeling genomen. <br/><br/>Als het artefact een bestand is of dat kan worden uitgevoerd *in* een tijdelijke map, worden herstelacties automatisch uitgevoerd.  |1. [In behandeling zijnde acties goedkeuren (of weigeren)](#review-pending-actions)<br/><br/>2. [Voltooide acties controleren](#review-completed-actions)  |
 |**Semi - goedkeuring vereisen voor herstel van niet-tijdelijke mappen** |Er wordt een vonnis *van Verdachte* bereikt voor een bewijs. <br/><br/>Herstelacties zijn in behandeling bij goedkeuring. |[Acties in behandeling goedkeuren (of weigeren)](#review-pending-actions)  | 
-|Een van de **volledige** of **semi-automatiseringsniveaus** |Een uitspraak van *Geen gevonden bedreigingen* wordt bereikt voor een bewijs. <br/><br/>Er worden geen herstelacties ondernomen en er worden geen acties in behandeling genomen. |[Gegevens en resultaten van een geautomatiseerd onderzoek weergeven](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/auto-investigation-action-center) |
-|**Geen geautomatiseerde reactie** (niet aanbevolen)|Er worden geen geautomatiseerde onderzoeken uitgevoerd, dus er worden geen vonnissen bereikt en er worden geen herstelacties ondernomen of wachten op goedkeuring. |[Overweeg om uw apparaatgroepen in te stellen of te wijzigen om **Volledige** of **Semi-automatisering te** gebruiken](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/machine-groups) |
+|Een van de **volledige** of **semi-automatiseringsniveaus** |Een uitspraak van *Geen gevonden bedreigingen* wordt bereikt voor een bewijs. <br/><br/>Er worden geen herstelacties ondernomen en er worden geen acties in behandeling genomen. |[Gegevens en resultaten van een geautomatiseerd onderzoek weergeven](/microsoft-365/security/defender-endpoint/auto-investigation-action-center) |
+|**Geen geautomatiseerde reactie** (niet aanbevolen)|Er worden geen geautomatiseerde onderzoeken uitgevoerd, dus er worden geen vonnissen bereikt en er worden geen herstelacties ondernomen of wachten op goedkeuring. |[Overweeg om uw apparaatgroepen in te stellen of te wijzigen om **Volledige** of **Semi-automatisering te** gebruiken](/microsoft-365/security/defender-endpoint/machine-groups) |
 
 In Microsoft Defender voor Eindpunt worden alle vonnissen bij gehouden in het [Actiecentrum.](auto-investigation-action-center.md#new-a-unified-action-center)
 

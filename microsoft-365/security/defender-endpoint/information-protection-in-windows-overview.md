@@ -1,7 +1,7 @@
 ---
 title: Overzicht van informatiebeveiliging in Windows
 ms.reviewer: ''
-description: Meer informatie over hoe informatiebeveiliging in Windows werkt om gevoelige informatie te identificeren en te beveiligen
+description: Meer informatie over hoe informatiebeveiliging werkt in Windows om gevoelige informatie te identificeren en te beveiligen
 keywords: informatie, beveiliging, dlp, gegevens, verlies, preventie, bescherming
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 65c5161f110e95008f2dc56aa3a2d17266ac1cb1
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 9d68f879fe8fd9379b286c106ed9229895f91b9a
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933347"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841104"
 ---
 # <a name="information-protection-in-windows-overview"></a>Overzicht van informatiebeveiliging in Windows
 
@@ -37,16 +37,16 @@ ms.locfileid: "51933347"
 
 [!include[Prerelease information](../../includes/prerelease.md)]
 
-Informatiebeveiliging is een integraal onderdeel van de Microsoft 365 Enterprise-suite en biedt intelligente beveiliging om gevoelige gegevens veilig te houden en productiviteit op de werkplek in te stellen.
+Informatiebeveiliging is een integraal onderdeel van Microsoft 365 Enterprise suite en biedt intelligente beveiliging om gevoelige gegevens veilig te houden en productiviteit op de werkplek in te stellen.
 
 
 >[!TIP]
-> Lees ons blogbericht over hoe Microsoft Defender voor Eindpunt integreert met Microsoft Information Protection om gevoelige gegevens op [Windows-apparaten te ontdekken,](https://cloudblogs.microsoft.com/microsoftsecure/2019/01/17/windows-defender-atp-integrates-with-microsoft-information-protection-to-discover-protect-and-monitor-sensitive-data-on-windows-devices/)te beveiligen en te bewaken.
+> Lees ons blogbericht over de integratie van Microsoft Defender voor eindpunten met Microsoft Information Protection om gevoelige gegevens op apparaten te ontdekken, te beveiligen [en Windows bewaken.](https://cloudblogs.microsoft.com/microsoftsecure/2019/01/17/windows-defender-atp-integrates-with-microsoft-information-protection-to-discover-protect-and-monitor-sensitive-data-on-windows-devices/)
 
 Defender voor Eindpunt past de volgende methoden toe om gegevens te ontdekken, te classificeren en te beveiligen:
 
-- **Gegevensdetectie** : gevoelige gegevens identificeren op Windows-apparaten die risico lopen
-- **Gegevensclassificatie:** gegevens automatisch classificeren op basis van gemeenschappelijk MIP-beleid (Microsoft Information Protection) dat wordt beheerd in office 365-beveiligings- & Compliancecentrum. Met automatische classificatie kunt u gevoelige gegevens beveiligen, zelfs als de eindgebruiker deze niet handmatig heeft geclassificeerd.
+- **Gegevensdetectie** : gevoelige gegevens identificeren op Windows apparaten die risico lopen
+- **Gegevensclassificatie:** gegevens automatisch classificeren op basis van gemeenschappelijk MIP-beleid (Microsoft Information Protection) dat wordt beheerd in Office 365 Beveiligings- & Compliancecentrum. Met automatische classificatie kunt u gevoelige gegevens beveiligen, zelfs als de eindgebruiker deze niet handmatig heeft geclassificeerd.
 
 
 ## <a name="data-discovery-and-data-classification"></a>Gegevensdetectie en gegevensclassificatie
@@ -55,16 +55,16 @@ In Defender voor Eindpunt worden automatisch bestanden met gevoeligheidslabels e
 
 Gevoeligheidslabels classificeren en helpen gevoelige inhoud te beveiligen.
 
-Gevoelige informatietypen in de implementatie van Office 365 data loss prevention (DLP) vallen onder twee categorieën:
+Gevoelige informatietypen in de Office 365 implementatie van DLP (Data Loss Prevention) vallen onder twee categorieën:
 
 - Standaard
 - Aangepast
 
-Standaardgevoelige informatietypen bevatten gegevens zoals bankrekeningnummers, socialezekerheidsnummers of nationale persoonsgegevens. Zie Waar het type gevoelige informatie naar op [zoek is voor meer informatie.](https://docs.microsoft.com/office365/securitycompliance/what-the-sensitive-information-types-look-for)
+Standaardgevoelige informatietypen bevatten gegevens zoals bankrekeningnummers, socialezekerheidsnummers of nationale persoonsgegevens. Zie Waar het type gevoelige informatie naar op [zoek is voor meer informatie.](/office365/securitycompliance/what-the-sensitive-information-types-look-for)
 
-Aangepaste typen zijn typen die u definieert en die zijn ontworpen om een ander type gevoelige informatie te beveiligen (bijvoorbeeld werknemers-1D's of projectnummers). Zie Een aangepast type gevoelige informatie maken voor [meer informatie.](https://docs.microsoft.com/office365/securitycompliance/create-a-custom-sensitive-information-type)
+Aangepaste typen zijn typen die u definieert en die zijn ontworpen om een ander type gevoelige informatie te beveiligen (bijvoorbeeld werknemers-1D's of projectnummers). Zie Een aangepast type gevoelige informatie maken voor [meer informatie.](/office365/securitycompliance/create-a-custom-sensitive-information-type)
 
-Wanneer een bestand wordt gemaakt of bewerkt op een Windows-apparaat, scant Defender voor Eindpunt de inhoud om te evalueren of het gevoelige informatie bevat.
+Wanneer een bestand wordt gemaakt of bewerkt op een apparaat Windows, scant Defender for Endpoint de inhoud om te evalueren of het gevoelige informatie bevat.
 
 Schakel de Azure Information Protection-integratie in, zodat wanneer een bestand met gevoelige informatie wordt gevonden door Defender voor Eindpunt, hoewel etiketten of informatietypen, het automatisch wordt doorgestuurd naar Azure Information Protection vanaf het apparaat.
 
@@ -87,9 +87,9 @@ Klik op een apparaat om een lijst met bestanden te bekijken die op dit apparaat 
 
 ## <a name="log-analytics"></a>Logboekanalyse
 
-Gegevensdetectie op basis van Defender voor Eindpunt is ook beschikbaar in [Azure Log Analytics,](https://docs.microsoft.com/azure/log-analytics/log-analytics-overview)waar u complexe query's kunt uitvoeren op de onbewerkte gegevens.
+Gegevensdetectie op basis van Defender voor Eindpunt is ook beschikbaar in [Azure Log Analytics,](/azure/log-analytics/log-analytics-overview)waar u complexe query's kunt uitvoeren op de onbewerkte gegevens.
 
-Zie Centrale rapportage voor Azure Information Protection voor meer informatie over Azure Information Protection [Analytics.](https://docs.microsoft.com/azure/information-protection/reports-aip)
+Zie Centrale rapportage voor Azure Information Protection voor meer informatie over Azure Information Protection [Analytics.](/azure/information-protection/reports-aip)
 
 Open Azure Log Analytics in Azure Portal en open een opbouwfunctie voor query's (standaard of klassiek).
 
@@ -103,8 +103,8 @@ InformationProtectionLogs_CL
 **Vereisten:**
 
 - Klanten moeten een abonnement hebben voor Azure Information Protection.
-- Integratie van Azure Information Protection inschakelen in het Microsoft Defender-beveiligingscentrum:
-    - Ga naar **Instellingen** in het Microsoft Defender-beveiligingscentrum en klik op **Geavanceerde instellingen** onder **Algemeen.**
+- Integratie van Azure Information Protection inschakelen in Microsoft Defender-beveiligingscentrum:
+    - Ga naar **Instellingen** in Microsoft Defender-beveiligingscentrum, klik op **Geavanceerde Instellingen** onder **Algemeen.**
 
 
 

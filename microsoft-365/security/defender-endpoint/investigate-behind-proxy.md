@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 47be07759a72a080a3687ed3bb50cef9d0a959b7
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 55c001781ff016d7a23dc5db286d454b39fac5de
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51904044"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841052"
 ---
 # <a name="investigate-connection-events-that-occur-behind-forward-proxies"></a>Verbindingsgebeurtenissen achter forward-proxies onderzoeken
 
@@ -45,11 +45,11 @@ Het bewaken van de netwerkverbinding achter een doorgestuurde proxy is mogelijk 
 
 Netwerkbeveiliging kan worden beheerd met de volgende modi:
 
-- **Blokkeren** <br> Gebruikers of apps worden geblokkeerd om verbinding te maken met gevaarlijke domeinen. U kunt deze activiteit zien in het Microsoft Defender-beveiligingscentrum.
-- **Controle** <br> Gebruikers of apps worden niet geblokkeerd om verbinding te maken met gevaarlijke domeinen. U ziet deze activiteit echter nog steeds in het Microsoft Defender-beveiligingscentrum.
+- **Blokkeren** <br> Gebruikers of apps worden geblokkeerd om verbinding te maken met gevaarlijke domeinen. U kunt deze activiteit zien in Microsoft Defender-beveiligingscentrum.
+- **Controle** <br> Gebruikers of apps worden niet geblokkeerd om verbinding te maken met gevaarlijke domeinen. U ziet deze activiteit echter nog steeds in Microsoft Defender-beveiligingscentrum.
 
 
-Als u netwerkbeveiliging uitstijt, worden gebruikers of apps niet geblokkeerd om verbinding te maken met gevaarlijke domeinen. U ziet geen netwerkactiviteit in het Microsoft Defender-beveiligingscentrum.
+Als u netwerkbeveiliging uitstijt, worden gebruikers of apps niet geblokkeerd om verbinding te maken met gevaarlijke domeinen. U ziet geen netwerkactiviteit in Microsoft Defender-beveiligingscentrum.
 
 Als u het niet configureert, is netwerkblokkering standaard uitgeschakeld.
 
@@ -94,4 +94,4 @@ DeviceNetworkEvents
 
 
 ## <a name="related-topics"></a>Verwante onderwerpen
-- [Netwerkbeveiliging toepassen met GP - CSP-beleid](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-enablenetworkprotection)
+- [Netwerkbeveiliging toepassen met GP - CSP-beleid](/windows/client-management/mdm/policy-csp-defender#defender-enablenetworkprotection)

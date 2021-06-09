@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Gebruik een lokaal script om het configuratiepakket op apparaten te implementeren, zodat ze zijn aan boord van de service.
-ms.openlocfilehash: e9efa76af72f9169bdec1acf35d72066ac0a776e
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 55109d8fda52db6651d4398cd84ffd6668b4d871
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "52162700"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843444"
 ---
 # <a name="onboard-windows-10-devices-using-a-local-script"></a>Onboarden Windows 10-apparaten met een lokaal script
 
@@ -48,9 +48,9 @@ U kunt ook afzonderlijke apparaten handmatig onboarden om Microsoft 365 voorkome
 
 6.  Open een opdrachtregelprompt met verhoogde opdrachtregel op het apparaat en voer het script uit:
 
-7.  Ga naar **Start** en typ **cmd.**
+7.  Go to **Start** and type **cmd**.
 
-8.  Klik met de rechtermuisknop **op Opdrachtprompt** en selecteer **Uitvoeren als beheerder.**
+8.  Klik met de rechtermuisknop op **Opdrachtprompt** en selecteer **Als beheerder uitvoeren**.
 
     ![Venster startmenu dat verwijst naar Uitvoeren als beheerder](../media/dlp-run-as-admin.png)
 
@@ -78,9 +78,9 @@ Om veiligheidsredenen verloopt het pakket dat wordt gebruikt voor Offboard-appar
 
 6.  Open een opdrachtregelprompt met verhoogde opdrachtregel op het apparaat en voer het script uit:
 
-7.  Ga naar **Start** en typ **cmd.**
+7.  Go to **Start** and type **cmd**.
 
-8.  Klik met de rechtermuisknop **op Opdrachtprompt** en selecteer **Uitvoeren als beheerder.**
+8.  Klik met de rechtermuisknop op **Opdrachtprompt** en selecteer **Als beheerder uitvoeren**.
 
     ![Venster startmenu dat verwijst naar Uitvoeren als beheerder](../media/dlp-run-as-admin.png)
 
@@ -93,7 +93,7 @@ Om veiligheidsredenen verloopt het pakket dat wordt gebruikt voor Offboard-appar
 
 
 ## <a name="monitor-device-configuration"></a>Apparaatconfiguratie controleren
-U kunt de verschillende verificatiestappen volgen in de [Problemen met onboarding oplossen](( om te controleren of het script is voltooid en of de https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding) agent wordt uitgevoerd.
+U kunt de verschillende verificatiestappen volgen in de [Problemen met onboarding oplossen](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding) om te controleren of het script is voltooid en of de agent actief is.
 
 Controle kan ook rechtstreeks in de portal of met behulp van de verschillende implementatiehulpmiddelen worden uitgevoerd.
 

@@ -20,12 +20,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: eed486120673abc513490f4892069ee8fd9bba21
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: e258a7fec21bd3499553fe726730ac685ff990b5
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636156"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52821377"
 ---
 # <a name="get-started-with-communication-compliance"></a>Aan de slag met communicatiecompliance
 
@@ -68,7 +68,7 @@ Kies uit deze opties voor rollengroep bij het configureren van communicatie comp
 
 | Rol | Rolmachtigingen |
 |:-----|:-----|
-| **Naleving van communicatie** | Gebruik deze rollengroep om communicatie compliance voor uw organisatie in één groep te beheren. Door alle gebruikersaccounts toe te voegen voor aangewezen beheerders, analisten, onderzoeker en kijkers, kunt u communicatie compliancemachtigingen configureren in één groep. Deze rollengroep bevat alle machtigingsrollen voor communicatie compliance. Deze configuratie is de eenvoudigste manier om snel aan de slag te gaan met communicatie-compliance en is geschikt voor organisaties die geen afzonderlijke machtigingen nodig hebben die zijn gedefinieerd voor afzonderlijke groepen gebruikers. |
+| **Communicatiecompliance** | Gebruik deze rollengroep om communicatie compliance voor uw organisatie in één groep te beheren. Door alle gebruikersaccounts toe te voegen voor aangewezen beheerders, analisten, onderzoeker en kijkers, kunt u communicatie compliancemachtigingen configureren in één groep. Deze rollengroep bevat alle machtigingsrollen voor communicatie compliance. Deze configuratie is de eenvoudigste manier om snel aan de slag te gaan met communicatie-compliance en is geschikt voor organisaties die geen afzonderlijke machtigingen nodig hebben die zijn gedefinieerd voor afzonderlijke groepen gebruikers. |
 | **Communicatie compliancebeheerder** | Gebruik deze rollengroep om communicatie compliance in eerste instantie te configureren en later om beheerders van communicatie compliance te scheiden in een gedefinieerde groep. Gebruikers die aan deze rollengroep zijn toegewezen, kunnen communicatie compliancebeleid, globale instellingen en toewijzingen voor rollengroepen maken, lezen, bijwerken en verwijderen. Gebruikers die aan deze rollengroep zijn toegewezen, kunnen geen berichtwaarschuwingen weergeven. |
 | **Communicatie compliance-analist** | Gebruik deze groep om machtigingen toe te wijzen aan gebruikers die fungeren als communicatie-complianceanalisten. Gebruikers die aan deze rollengroep zijn toegewezen, kunnen beleid weergeven waarin ze zijn toegewezen als revisoren, metagegevens van berichten weergeven (geen berichtinhoud), escaleren naar extra revisoren of meldingen verzenden naar gebruikers. Analisten kunnen waarschuwingen in behandeling niet oplossen. |
 | **Communicatie compliance-onderzoeker** | Gebruik deze groep om machtigingen toe te wijzen aan gebruikers die fungeren als communicatie compliance-onderzoeker. Gebruikers die aan deze rollengroep zijn toegewezen, kunnen metagegevens en inhoud van berichten bekijken, escaleren naar extra revisoren, escaleren naar een Advanced eDiscovery-geval, meldingen naar gebruikers verzenden en de waarschuwing oplossen. |
@@ -133,7 +133,7 @@ Gebruik de volgende grafiek om groepen in uw organisatie te configureren voor co
   
 Wanneer u een distributiegroep toewijst in het beleid, worden alle e-mailberichten en Teams van elke gebruiker in de distributiegroep bewaakt. Wanneer u een Microsoft 365 groep in het beleid toewijst, worden alle e-mailberichten en Teams-chats die naar die groep zijn verzonden, bewaakt door het beleid, niet de afzonderlijke e-mailberichten en chats die door elk groepslid zijn ontvangen.
 
-Als u een organisatie bent met een on-premises implementatie Exchange een externe e-mailprovider en u Microsoft Teams-chats voor uw gebruikers wilt controleren, moet u een distributiegroep maken voor de gebruikers met on-premises of externe postvakken die u wilt controleren. Later in deze stappen wijst u deze  distributiegroep toe als de selectie onder toezicht van gebruikers en groepen in de beleidswizard.
+Als u een organisatie bent met een on-premises implementatie Exchange een externe e-mailprovider en u Microsoft Teams-chats voor uw gebruikers wilt controleren, moet u een distributiegroep maken voor de gebruikers met on-premises of externe postvakken die u wilt controleren. Later in deze stappen wijst u deze  distributiegroep toe als de selectie onder toezicht van gebruikers en groepen in de beleidswizard. Zie Zoeken naar Teams chatgegevens voor on-premises gebruikers voor meer informatie over de vereisten en beperkingen voor het inschakelen van cloudgebaseerde opslag en [Teams-ondersteuning voor on-premises gebruikers.](search-cloud-based-mailboxes-for-on-premises-users.md)
 
 Als u gecontroleerde gebruikers in grote ondernemingen wilt beheren, moet u mogelijk alle gebruikers in grote groepen controleren. U kunt PowerShell gebruiken om een distributiegroep te configureren voor een globaal communicatiebeleid voor de toegewezen groep. Op deze manier kunt u duizenden gebruikers met één beleid controleren en het communicatiebeleid bijgewerkt houden wanneer nieuwe werknemers lid worden van uw organisatie.
 
@@ -246,7 +246,7 @@ U kunt er ook voor kiezen om anonimisatie in te stellen voor weergegeven gebruik
 
 4. Als u anonimisatie wilt inschakelen, selecteert u **Anonieme versies van gebruikersnamen tonen.**
 
-5. Selecteer **Opslaan**.
+5. Klik op **Opslaan**.
 
 6. Ga naar het **tabblad Kennisgevingssjablonen** en selecteer **vervolgens Aankondigingssjabloon maken.**
 

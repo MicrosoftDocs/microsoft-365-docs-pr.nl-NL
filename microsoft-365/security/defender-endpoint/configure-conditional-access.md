@@ -1,6 +1,6 @@
 ---
 title: Voorwaardelijke toegang configureren in Microsoft Defender voor eindpunt
-description: Meer informatie over de stappen die u moet uitvoeren in Intune, Microsoft Defender Security Center en Azure voor het implementeren van voorwaardelijke toegang
+description: Meer informatie over de stappen die u moet uitvoeren in Intune, Microsoft Defender-beveiligingscentrum azure om voorwaardelijke toegang te implementeren
 keywords: voorwaardelijke toegang, voorwaardelijke toegang, toegang, apparaatrisico, risiconiveau, integratie, intune-integratie
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: e68a8c35fb1028fa8e60cf52a8e8bb411a534b19
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: ceb69d59dc5208c0908e33d0880d9352562ec140
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903776"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843972"
 ---
 # <a name="configure-conditional-access-in-microsoft-defender-for-endpoint"></a>Voorwaardelijke toegang configureren in Microsoft Defender voor eindpunt
 
@@ -44,13 +44,13 @@ In deze sectie wordt u begeleid bij alle stappen die u moet uitvoeren om Voorwaa
 U moet ervoor zorgen dat al uw apparaten zijn geregistreerd in Intune. U kunt een van de volgende opties gebruiken om apparaten in te schrijven in Intune:
 
 
-- IT-beheerder: Zie [Windows Enrollment](https://docs.microsoft.com/intune/windows-enroll#enable-windows-10-automatic-enrollment) voor meer informatie over het inschakelen van automatische inschrijving
-- Eindgebruiker: Zie Uw Windows 10-apparaat registreren in Intune voor meer informatie over het registreren van uw [Windows 10-apparaat in Intune](https://docs.microsoft.com/intune/quickstart-enroll-windows-device)
-- Alternatief voor eindgebruikers: Zie How to: Plan your Azure AD join implementation (Uw [Azure AD join-implementatie](https://docs.microsoft.com/azure/active-directory/devices/azureadjoin-plan)plannen) voor meer informatie over het deelnemen aan een Azure AD-domein.
+- IT-beheerder: Zie Windows [Enrollment](/intune/windows-enroll#enable-windows-10-automatic-enrollment) voor meer informatie over het inschakelen van automatische inschrijving
+- Eindgebruiker: Zie Uw Windows 10 in Intune registreren voor meer informatie over het registreren van uw Windows 10 apparaat [in Intune](/intune/quickstart-enroll-windows-device)
+- Alternatief voor eindgebruikers: Zie How to: Plan your Azure AD join implementation (Uw [Azure AD join-implementatie](/azure/active-directory/devices/azureadjoin-plan)plannen) voor meer informatie over het deelnemen aan een Azure AD-domein.
 
 
 
-Er zijn stappen die u moet uitvoeren in het Microsoft Defender-beveiligingscentrum, de Intune-portal en de Azure AD-portal.
+Er zijn stappen die u moet uitvoeren in Microsoft Defender-beveiligingscentrum, de Intune-portal en de Azure AD-portal.
 
 Het is belangrijk om de vereiste rollen op te merken om toegang te krijgen tot deze portals en Voorwaardelijke toegang te implementeren:
 - **Microsoft Defender-beveiligingscentrum:** u moet zich aanmelden bij de portal met een globale beheerdersrol om de integratie in te zetten.
@@ -59,26 +59,26 @@ Het is belangrijk om de vereiste rollen op te merken om toegang te krijgen tot d
 
 
 > [!NOTE]
-> U hebt een Microsoft Intune-omgeving nodig, met beheerde Intune- en Azure AD-apparaten die zijn aangesloten bij Windows 10.
+> U hebt een Microsoft Intune nodig, met intune beheerde en Azure AD-Windows 10 apparaten.
 
 Ga als volgt te werk om Voorwaardelijke toegang in te stellen:
-- Stap 1: De Microsoft Intune-verbinding in-en-uit zetten vanuit het Microsoft Defender-beveiligingscentrum
+- Stap 1: Schakel de Microsoft Intune verbinding in Microsoft Defender-beveiligingscentrum
 - Stap 2: De integratie van Defender voor eindpunten in Intune in-
 - Stap 3: Het compliancebeleid maken in Intune
 - Stap 4: Het beleid toewijzen 
 - Stap 5: Een Azure AD-beleid voor voorwaardelijke toegang maken
 
 
-### <a name="step-1-turn-on-the-microsoft-intune-connection"></a>Stap 1: De Microsoft Intune-verbinding in-
-1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **Geavanceerde functies** Microsoft  >  **Intune-verbinding**.
+### <a name="step-1-turn-on-the-microsoft-intune-connection"></a>Stap 1: De Microsoft Intune in
+1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **Geavanceerde functies Microsoft Intune**  >  **verbinding.**
 2. Schakel de instelling Microsoft Intune in op **Aan**.
 3. Klik **op Voorkeuren opslaan.**
 
 
 ### <a name="step-2-turn-on-the-defender-for-endpoint-integration-in-intune"></a>Stap 2: De integratie van Defender voor eindpunten in Intune in-
 1. Meld u aan bij [Azure Portal](https://portal.azure.com).
-2. Selecteer **Apparaat compliance** Microsoft Defender  >  **ATP**.
-3. Stel **Windows 10.0.15063+-apparaten** verbinden met Microsoft Defender Advanced Threat Protection in op **Aan.**
+2. Selecteer **Apparaat compliance**  >  **Microsoft Defender ATP.**
+3. Stel **Verbinding maken Windows 10.0.15063+** apparaten in op Microsoft Defender Advanced Threat Protection op **Aan.**
 4. Klik op **Opslaan**.
 
 
@@ -86,7 +86,7 @@ Ga als volgt te werk om Voorwaardelijke toegang in te stellen:
 1. Selecteer in [de Azure-portal](https://portal.azure.com) **Alle services**, filter op **Intune** en selecteer **Microsoft Intune.**
 2. Selecteer **Apparaat**  >  **compliancebeleid Beleid**  >  **maken**.
 3. Voer een **naam en** **beschrijving in.**
-4. Selecteer windows **10 en hoger** in **Platform.**
+4. Selecteer **in Platform** de Windows 10 en **hoger.**
 5. Stel in **de instellingen voor** Apparaattoestand De instelling Vereisen dat het apparaat zich op of onder het **apparaatrisiconiveau** op het gewenste niveau moet hebben ingesteld:
 
    - **Beveiligd:** dit niveau is het veiligst. Het apparaat kan geen bestaande bedreigingen hebben en heeft nog steeds toegang tot bedrijfsresources. Als er bedreigingen worden gevonden, wordt het apparaat geëvalueerd als niet-compatibel.
@@ -104,9 +104,9 @@ Ga als volgt te werk om Voorwaardelijke toegang in te stellen:
 5. Als u het beleid wilt implementeren voor de groepen, selecteert u **Opslaan.** De gebruikersapparaten die het doel zijn van het beleid, worden geëvalueerd op naleving.
 
 ### <a name="step-5-create-an-azure-ad-conditional-access-policy"></a>Stap 5: Een Azure AD-beleid voor voorwaardelijke toegang maken
-1. Open in [de Azure-portal](https://portal.azure.com) **Het nieuwe beleid voor Azure Active Directory**  >    >  **Voorwaardelijke toegang**.
+1. Open in [de Azure-portal](https://portal.azure.com) **het Azure Active Directory**  >  **Voorwaardelijke toegang** nieuw  >  **beleid**.
 2. Voer een **beleidsnaam in** en selecteer **Gebruikers en groepen.** Gebruik de opties Opnemen of Uitsluiten om uw groepen toe te voegen voor het beleid en selecteer **Klaar.**
-3. Selecteer **Cloud-apps** en kies welke apps u wilt beveiligen. Kies bijvoorbeeld Apps **selecteren** en selecteer **Office 365 SharePoint Online** en Office **365 Exchange Online.** Selecteer **Klaar om** uw wijzigingen op te slaan.
+3. Selecteer **Cloud-apps** en kies welke apps u wilt beveiligen. Kies bijvoorbeeld Apps **selecteren** en selecteer Office 365 SharePoint **Online** en **Office 365 Exchange Online.** Selecteer **Klaar om** uw wijzigingen op te slaan.
 
 4. Selecteer **Voorwaarden**  >  **Client-apps om** het beleid toe te passen op apps en browsers. Selecteer bijvoorbeeld **Ja** en schakel vervolgens **Browser-** en **Mobiele apps en bureaubladcl clients in.** Selecteer **Klaar om** uw wijzigingen op te slaan.
 
@@ -114,6 +114,6 @@ Ga als volgt te werk om Voorwaardelijke toegang in te stellen:
 
 6. Selecteer **Beleid inschakelen** en vervolgens **Maken om** uw wijzigingen op te slaan.
 
-Zie Naleving afdwingen voor Microsoft Defender voor Eindpunt met [Voorwaardelijke toegang in Intune](https://docs.microsoft.com/intune/advanced-threat-protection)voor meer informatie.
+Zie Naleving afdwingen voor Microsoft Defender voor Eindpunt met [Voorwaardelijke toegang in Intune](/intune/advanced-threat-protection)voor meer informatie.
 
 >Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-conditionalaccess-belowfoldlink)

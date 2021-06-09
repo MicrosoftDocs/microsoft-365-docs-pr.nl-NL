@@ -19,12 +19,12 @@ ms.custom:
 description: Beheerders kunnen informatie krijgen over het weergeven, maken, wijzigen en verwijderen van uitgaand spambeleid in Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c2f68cac05f296771fc56d400e95d014811fe03a
-ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
+ms.openlocfilehash: 9ebff0a93acd505532773fbf5d714268df220c9a
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52793002"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52822007"
 ---
 # <a name="configure-outbound-spam-filtering-in-eop"></a>Uitgaande spamfilters configureren in EOP
 
@@ -68,7 +68,7 @@ Als u de effectiviteit van uitgaande spamfilters wilt vergroten, kunt u aangepas
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent het beveiligingscentrum in <https://security.microsoft.com/>. Gebruik <https://security.microsoft.com/antispam> om direct naar de pagina **Antispaminstellingen** te gaan.
+- U opent het beveiligingscentrum in <https://security.microsoft.com>. Gebruik <https://security.microsoft.com/antispam> om direct naar de pagina **Antispaminstellingen** te gaan.
 
 - Zie [Verbinding maken met Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](/powershell/exchange/connect-to-exchange-online-protection-powershell) als je verbinding wilt maken met zelfstandige EOP PowerShell.
 
@@ -91,7 +91,7 @@ Als u de effectiviteit van uitgaande spamfilters wilt vergroten, kunt u aangepas
 
 Als u een aangepast uitgaand spambeleid maakt in het beveiligingscentrum, worden de filterregel voor spam en het bijbehorende spamfilterbeleid tegelijkertijd met dezelfde naam voor beide gemaakt.
 
-1. Ga in het beveiligingscentrum naar **E-mail & samenwerkingsbeleid** & de sectie Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Anti-spam**.
+1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
 
 2. Klik op **de pagina Antispambeleid** op Pictogram Maken Beleid maken en selecteer vervolgens ![ ](../../media/m365-cc-sc-create-icon.png)  **Uitgaand** in de vervolgkeuzelijst.
 
@@ -169,7 +169,7 @@ Als u een aangepast uitgaand spambeleid maakt in het beveiligingscentrum, worden
 
    Wanneer u gereed bent, klikt u op **Volgende**.
 
-6. Controleer uw instellingen op de pagina **Controleren** die wordt weergegeven. U kunt in elke sectie **Bewerken** selecteren om de instellingen in de sectie te wijzigen. U kunt ook op **Terug klikken** of de specifieke pagina in de wizard selecteren.
+6. Controleer uw instellingen op de pagina **Controleren** die wordt weergegeven. U kunt in elke sectie **Bewerken** selecteren om de instellingen in de sectie te wijzigen. U kunt ook op **Terug** klikken of de specifieke pagina in de wizard selecteren.
 
    Klik op **Maken** wanneer u gereed bent.
 
@@ -177,9 +177,9 @@ Als u een aangepast uitgaand spambeleid maakt in het beveiligingscentrum, worden
 
 ## <a name="use-the-security-center-to-view-outbound-spam-policies"></a>Het beveiligingscentrum gebruiken om uitgaand spambeleid te bekijken
 
-1. Ga in het beveiligingscentrum naar **E-mail & samenwerkingsbeleid** & de sectie Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Anti-spam**.
+1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
 
-2. Zoek op **de pagina Antispambeleid** naar een van de volgende waarden:
+2. Zoek op de pagina **Antispambeleid** een van de volgende waarden:
    - De **waarde Type** is Aangepast uitgaande **spambeleid**
    - De **waarde Naam** is **uitgaand beleid antispam (standaard)**
 
@@ -194,7 +194,7 @@ Als u een aangepast uitgaand spambeleid maakt in het beveiligingscentrum, worden
 
 ## <a name="use-the-security-center-to-modify-outbound-spam-policies"></a>Het beveiligingscentrum gebruiken om uitgaand spambeleid te wijzigen
 
-1. Ga in het beveiligingscentrum naar **E-mail & samenwerkingsbeleid** & de sectie Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Anti-spam**.
+1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
 
 2. Selecteer op **de pagina Anti-spambeleid** een uitgaand spambeleid in de lijst door op de naam te klikken:
    - Een aangepast beleid dat u hebt gemaakt waarbij de waarde in de kolom **Type** aangepast **uitgaande spambeleid is.**
@@ -210,7 +210,7 @@ Zie de volgende secties om beleid in- of uit te schakelen, de prioriteit van bel
 
 U kunt het standaardbeleid voor uitgaande spam niet uitschakelen.
 
-1. Ga in het beveiligingscentrum naar **E-mail & samenwerkingsbeleid** & de sectie Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Anti-spam**.
+1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
 
 2. Selecteer op **de pagina Antispambeleid** een beleid met de **waarde Type** van Aangepast uitgaande **spambeleid** in de lijst door op de naam te klikken.
 
@@ -235,7 +235,7 @@ Als u de prioriteit van een beleid wilt wijzigen, klikt u op **Prioriteit verhog
 - In het beveiligingscentrum kunt u alleen de prioriteit van het uitgaande spambeleid wijzigen nadat u het hebt gemaakt. In PowerShell kunt u de standaardprioriteit vervangen wanneer u de spamfilterbeleidsregel maakt (die kan de prioriteit van bestaande regels beïnvloeden).
 - Uitgaande spambeleidsregels worden verwerkt in de volgorde waarin ze worden weergegeven (het eerste beleid heeft de **prioriteitswaarde** 0). Het standaardbeleid voor uitgaande spam heeft de **prioriteitswaarde Laag** en u kunt deze niet wijzigen.
 
-1. Ga in het beveiligingscentrum naar **E-mail & samenwerkingsbeleid** & de sectie Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Anti-spam**.
+1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
 
 2. Selecteer op **de pagina Antispambeleid** een beleid met de **waarde Type** van Aangepast uitgaande **spambeleid** in de lijst door op de naam te klikken.
 
@@ -252,7 +252,7 @@ Als u de prioriteit van een beleid wilt wijzigen, klikt u op **Prioriteit verhog
 
 Wanneer u het beveiligingscentrum gebruikt om een aangepast uitgaand spambeleid te verwijderen, worden de spamfilterregel en het bijbehorende spamfilterbeleid beide verwijderd. U kunt het standaardbeleid voor uitgaande spam niet verwijderen.
 
-1. Ga in het beveiligingscentrum naar **E-mail & samenwerkingsbeleid** & de sectie Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Anti-spam**.
+1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
 
 2. Selecteer op **de pagina Antispambeleid** een beleid met de **waarde Type** van Aangepast uitgaande **spambeleid** in de lijst door op de naam te klikken. Klik boven aan de flyout met beleidsdetails die wordt weergegeven, op het ![pictogram Meer acties](../../media/m365-cc-sc-more-actions-icon.png) **Meer acties** \> ![Pictogram Beleid verwijderen](../../media/m365-cc-sc-delete-icon.png) **Beleid verwijderen**.
 

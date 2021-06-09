@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Bereid de Microsoft compliance-extensie voor en implementeer deze.
-ms.openlocfilehash: 084d8fea1bffb012b4a4685dd28ec93df8e29b19
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: 5a2fa5958117d14715292245924dce2ff63b09a0
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730508"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843828"
 ---
 # <a name="get-started-with-microsoft-compliance-extension"></a>Aan de slag met de Microsoft compliance-extensie
 
@@ -55,7 +55,7 @@ Voordat u aan de slag gaat, moet u uw [abonnement op Microsoft 365](https://www.
 - Microsoft 365 E5 Information Protection en governance
 - Microsoft 365 A5 Information Protection en governance
 
-Zie voor gedetailleerde licentie-richtlijnen [Microsoft 365-licentie guidance for security & compliance](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection).
+Zie voor gedetailleerde licentie-richtlijnen [Microsoft 365-licentie guidance for security & compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection).
 
 - Uw organisatie moet een licentie hebben voor Eindpunt-DLP
 - Uw apparaten moeten Windows 10 x64 build 1809 of hoger hebben.
@@ -169,7 +169,7 @@ Voordat u de Microsoft Compliance-extensie toevoegt aan de lijst met geforceer g
 
 Als u Microsoft Endpoint Manager niet wilt gebruiken, kunt u groepsbeleid gebruiken om de Microsoft-nalevingsextensie in uw organisatie te implementeren
 
-1. Uw apparaten moeten kunnen worden beheerbaar via groepsbeleid en u moet alle Chrome ADMX's importeren in de centrale opslag voor groepsbeleid. Zie voor meer informatie [het Centraal beheerbeleid in Windows](https://docs.microsoft.com/troubleshoot/windows-client/group-policy/create-and-manage-central-store).
+1. Uw apparaten moeten kunnen worden beheerbaar via groepsbeleid en u moet alle Chrome ADMX's importeren in de centrale opslag voor groepsbeleid. Zie voor meer informatie [het Centraal beheerbeleid in Windows](/troubleshoot/windows-client/group-policy/create-and-manage-central-store).
 
 2.  Maak een PowerShell-script met deze PowerShell-opdracht:
 
@@ -276,8 +276,8 @@ Nu u onboarded-apparaten hebt en de activiteitsgegevens kunt bekijken in Activit
 - [Meer informatie over preventie van gegevensverlies](dlp-learn-about-dlp.md)
 - [Een DLP-beleid maken, testen en afstemmen](create-test-tune-dlp-policy.md)
 - [Aan de slag met Activity Explorer](data-classification-activity-explorer.md)
-- [Microsoft Defender voor Eindpunt](https://docs.microsoft.com/windows/security/threat-protection/)
-- [Hulpmiddelen en methoden onboarden voor Windows 10-apparaten](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)
+- [Microsoft Defender voor Eindpunt](/windows/security/threat-protection/)
+- [Hulpmiddelen en methoden onboarden voor Windows 10-apparaten](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)
 - [Microsoft 365-abonnement](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1)
-- [Azure AD-gekoppelde apparaten](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-ad-join)
+- [Azure AD-gekoppelde apparaten](/azure/active-directory/devices/concept-azure-ad-join)
 - [De nieuwe Microsoft Edge op basis van Chromium downloaden](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium)

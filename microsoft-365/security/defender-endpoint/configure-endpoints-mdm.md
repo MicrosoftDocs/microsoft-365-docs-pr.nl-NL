@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 951b0f33356ab99485f09ccc4147691e13ed3c6e
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 45aa406212fe39f088f58bf311b1aed3fed16498
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935003"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843432"
 ---
 # <a name="onboard-windows-10-devices-using-mobile-device-management-tools"></a>Onboarden Windows 10-apparaten met hulpmiddelen voor Mobile Device Management
 
@@ -38,31 +38,31 @@ U kunt MDM-oplossingen (Mobile Device Management) gebruiken om apparaten te conf
 Zie [WindowsAdvancedThreatProtection CSP](https://msdn.microsoft.com/library/windows/hardware/mt723296(v=vs.85).aspx) and [WindowsAdvancedThreatProtection CSP and WindowsAdvancedThreatProtection DDF file (WindowsAdvancedThreatProtection DDF-bestand)](https://msdn.microsoft.com/library/windows/hardware/mt723297(v=vs.85).aspx)voor meer informatie over het gebruik van Defender voor Endpoint CSP.
 
 ## <a name="before-you-begin"></a>Voordat u begint
-Als u Microsoft Intune gebruikt, moet het apparaat MDM zijn geregistreerd. Anders worden de instellingen niet toegepast. 
+Als u een Microsoft Intune gebruikt, moet u het apparaat MDM-inschrijving hebben. Anders worden de instellingen niet toegepast. 
 
-Zie [Apparaatinschrijving (Microsoft Intune) voor](https://docs.microsoft.com/mem/intune/enrollment/device-enrollment)meer informatie over het inschakelen van MDM met Microsoft Intune.
+Zie [Apparaatinschrijving (Microsoft Intune)](/mem/intune/enrollment/device-enrollment)voor meer informatie over het inschakelen van MDM met Microsoft Intune.
 
 ## <a name="onboard-devices-using-microsoft-intune"></a>Onboard-apparaten met Microsoft Intune
 
 [![Afbeelding van het PDF-bestand met onboarding-apparaten voor Defender voor Eindpunt met Microsoft Intune ](images/onboard-intune.png)](images/onboard-intune-big.png#lightbox)
 
-Bekijk het [PDF-bestand](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf)  of  [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) om de verschillende paden te bekijken bij de implementatie van Defender voor Eindpunt. 
+Bekijk het [PDF-bestand](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf) of [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) om de verschillende paden te bekijken bij de implementatie van Defender voor Eindpunt. 
 
-Volg de instructies van [Intune](https://docs.microsoft.com/intune/advanced-threat-protection).
+Volg de instructies van [Intune](/intune/advanced-threat-protection).
 
 Zie [WindowsAdvancedThreatProtection CSP](https://msdn.microsoft.com/library/windows/hardware/mt723296(v=vs.85).aspx) and [WindowsAdvancedThreatProtection CSP and WindowsAdvancedThreatProtection DDF file (WindowsAdvancedThreatProtection DDF-bestand)](https://msdn.microsoft.com/library/windows/hardware/mt723297(v=vs.85).aspx)voor meer informatie over het gebruik van Defender voor Endpoint CSP.
 
 
 > [!NOTE]
 > - Het **beleid Statusstatus voor onboarded-apparaten** gebruikt alleen-lezen eigenschappen en kan niet worden gesaneerd.
-> - Configuratie van de rapportagefrequentie voor diagnostische gegevens is alleen beschikbaar voor apparaten in Windows 10, versie 1703.
+> - Configuratie van de rapportagefrequentie voor diagnostische gegevens is alleen beschikbaar voor apparaten Windows 10, versie 1703.
 
 
 >[!TIP]
 > Nadat u het apparaat hebt onboarding, kunt u ervoor kiezen om een detectietest uit te voeren om te controleren of een apparaat correct is aan boord van de service. Zie Een detectietest uitvoeren op een nieuw ingebouwde [Microsoft Defender voor eindpuntapparaat](run-detection-test.md)voor meer informatie.
 
 
-Bekijk het [PDF-bestand](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf)  of  [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) om de verschillende paden te bekijken bij de implementatie van Microsoft Defender voor Eindpunt.
+Bekijk het [PDF-bestand](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf) of [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) om de verschillende paden te bekijken bij de implementatie van Microsoft Defender voor Eindpunt.
 
 ## <a name="offboard-and-monitor-devices-using-mobile-device-management-tools"></a>Apparaten offboarden en bewaken met behulp van hulpprogramma's voor mobiel apparaatbeheer
 Om veiligheidsredenen verloopt het pakket dat wordt gebruikt voor Offboard-apparaten 30 dagen na de datum waarop het is gedownload. Verlopen offboarding-pakketten die naar een apparaat zijn verzonden, worden geweigerd. Wanneer u een offboarding-pakket downloadt, wordt u op de hoogte gesteld van de vervaldatum van de pakketten en wordt het ook opgenomen in de pakketnaam.
@@ -70,25 +70,25 @@ Om veiligheidsredenen verloopt het pakket dat wordt gebruikt voor Offboard-appar
 > [!NOTE]
 > Onboarding- en offboarding-beleid mag niet tegelijkertijd op hetzelfde apparaat worden geïmplementeerd, anders veroorzaakt dit onvoorspelbare botsingen.
 
-1. Ontvang het offboarding-pakket van [het Microsoft Defender-beveiligingscentrum:](https://securitycenter.windows.com/)
+1. Haal het offboarding-pakket van [Microsoft Defender-beveiligingscentrum:](https://securitycenter.windows.com/)
 
    1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **Offboarding**.
 
    1. Selecteer Windows 10 als het besturingssysteem.
 
-   1. Selecteer in **het veld** Implementatiemethode de optie Mobile Device Management / **Microsoft Intune**.
+   1. Selecteer in **het veld** Implementatiemethode de optie Mobile Device **Management /Microsoft Intune.**
     
-   1. Klik **op Pakket downloaden** en sla het ZIP-bestand op.
+   1. Klik **op Pakket downloaden** en sla het .zip op.
 
-2. Haal de inhoud van het ZIP-bestand op naar een gedeelde, alleen-lezen locatie die kan worden gebruikt door de netwerkbeheerders die het pakket zullen implementeren. U moet een bestand met de *naam WindowsDefenderATP_valid_until_YYYY-MM-DD.offboarding hebben.*
+2. Haal de inhoud van het .zip bestand op naar een gedeelde, alleen-lezen locatie die kan worden gebruikt door de netwerkbeheerders die het pakket zullen implementeren. U moet een bestand met de *naam WindowsDefenderATP_valid_until_YYYY-MM-DD.offboarding hebben.*
 
-3. Gebruik het aangepaste configuratiebeleid van Microsoft Intune om de volgende ondersteunde OMA-URI-instellingen te implementeren.
+3. Gebruik het Microsoft Intune aangepast configuratiebeleid om de volgende ondersteunde OMA-URI-instellingen te implementeren.
 
       OMA-URI: ./Device/Vendor/MSFT/WindowsAdvancedThreatProtection/Offboarding<br/>
       Datumtype: tekenreeks<br/>
       Waarde: [De waarde kopiëren en plakken uit de inhoud van het WindowsDefenderATP_valid_until_YYYY-MM-DD.offboarding-bestand]
 
-Zie Windows [10-beleidsinstellingen in Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/windows-10-policy-settings-in-microsoft-intune)voor meer informatie over beleidsinstellingen van Microsoft Intune.
+Zie voor meer informatie over Microsoft Intune beleidsinstellingen [Windows 10 beleidsinstellingen in Microsoft Intune.](/intune/deploy-use/windows-10-policy-settings-in-microsoft-intune)
 
 
 > [!NOTE]
@@ -98,8 +98,8 @@ Zie Windows [10-beleidsinstellingen in Microsoft Intune](https://docs.microsoft.
 > Offboarding zorgt ervoor dat het apparaat stopt met het verzenden van sensorgegevens naar de portal, maar gegevens van het apparaat, inclusief verwijzingen naar eventuele waarschuwingen die het heeft ontvangen, blijven maximaal 6 maanden bewaard.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
-- [Onboard Windows 10-apparaten met groepsbeleid](configure-endpoints-gp.md)
-- [Onboard Windows 10-apparaten met Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
+- [Onboard Windows 10 apparaten met groepsbeleid](configure-endpoints-gp.md)
+- [Onboard Windows 10 apparaten met Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
 - [Onboarden Windows 10-apparaten met een lokaal script](configure-endpoints-script.md)
 - [Onboarden niet-permanente virtual desktop infrastructure (VDI)-apparaten](configure-endpoints-vdi.md)
 - [Een detectietest uitvoeren op een nieuw ingebouwde Microsoft Defender voor eindpuntapparaat](run-detection-test.md)

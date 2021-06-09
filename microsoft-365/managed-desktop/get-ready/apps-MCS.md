@@ -12,16 +12,16 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 1441ca3305a5f3e5a83ddd5e1547812f08d7d96b
-ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
+ms.openlocfilehash: 7a967f5e4b2678b55ed87f2eaa68590703c55805
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51445694"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52840884"
 ---
 # <a name="working-with-microsoft-consulting-services"></a>Werken met Microsoft Consulting Services
 
-U kunt microsoft Consulting Services (MCS) gebruiken om uw apps te laten verpakken voor gebruik met Microsoft Managed Desktop. Voor meer informatie kunt u contact opnemen met uw accountvertegenwoordiger om contact op te nemen met MCS en het specifieke app-verpakkingsproject te bekijken.
+U kunt contact houden met Microsoft Consulting Services (MCS) om uw apps te laten verpakken voor gebruik met Microsoft Managed Desktop. Voor meer informatie kunt u contact opnemen met uw accountvertegenwoordiger om contact op te nemen met MCS en het specifieke app-verpakkingsproject te bekijken.
 
 ## <a name="roles-and-responsibilities"></a>Rollen en verantwoordelijkheden
 
@@ -33,28 +33,28 @@ Als u wilt werken met mcs-app-verpakking, **moet u de volgende elementen leveren
 
 **MCS zorgt voor de volgende acties:**
 
-- Controleren of de app is verboden of beperkt in de Microsoft Managed Desktop-omgeving.
-- Testen van de installatie, het starten en verwijderen van de app om de compatibiliteit met Windows 10 te waarborgen. Als MCS een compatibiliteitsprobleem detecteert, wordt de app door mcs overgehandigd aan het [App Assure-programma](https://docs.microsoft.com/fasttrack/products-and-capabilities#app-assure) voor herstel.
+- Controleren of de app is verboden of beperkt in de Microsoft Managed Desktop omgeving.
+- Testen van de installatie, het starten en verwijderen van de app om ervoor te zorgen dat de app compatibel is met Windows 10. Als MCS een compatibiliteitsprobleem detecteert, wordt de app door mcs overgehandigd aan het [App Assure-programma](/fasttrack/products-and-capabilities#app-assure) voor herstel.
 - De app inpakken op uw specificatie en vervolgens app-implementatie testen met Microsoft Intune.
 
 ## <a name="app-delivery-schedule"></a>Planning voor app-bezorging
 
-Start het verpakkingsproces door de app-informatie te uploaden naar de Microsoft Managed Desktop-portal. Het verpakkingsteam bekijkt elke donderdag nieuwe inzendingen. Na controle en verpakking worden de verpakte apps de volgende vrijdag bezorgd. Er kunnen maximaal vijf apps per week worden verpakt om te starten, maar de service kan worden opgeschaald naar uw behoeften.
+Start het verpakkingsproces door de app-informatie te uploaden naar de Microsoft Managed Desktop portal. Het verpakkingsteam bekijkt elke donderdag nieuwe inzendingen. Na controle en verpakking worden de verpakte apps de volgende vrijdag bezorgd. Er kunnen maximaal vijf apps per week worden verpakt om te starten, maar de service kan worden opgeschaald naar uw behoeften.
 
 ![agenda met app-instroom op een donderdag (de 21e in dit voorbeeld), mediavalidatie de volgende dag, verpakking op de volgende maandag (de 25e) en app-bezorging op de volgende vrijdag (de 29e)](../../media/MCS-cal.png)
 
-U krijgt een melding zodra de app is geleverd. Op dat moment hebt u 21 dagen om acceptatietests uit te voeren en het werk goed te keuren in de Microsoft Managed Desktop-portal. Als u tijdens uw acceptatietest een probleem met de app ontdekt, weigert u de app in de Microsoft Managed Desktop-portal en wordt u via e-mail verbonden met een MCS-packager om het probleem te begrijpen en op te lossen.
+U krijgt een melding zodra de app is geleverd. Op dat moment hebt u 21 dagen de tijd om acceptatietests uit te voeren en het werk in de Microsoft Managed Desktop goed te keuren. Als u tijdens uw acceptatietest een probleem met de app ontdekt, weigert u de app in de Microsoft Managed Desktop-portal en wordt u via e-mail verbonden met een MCS-packager om het probleem te begrijpen en op te lossen.
 
 ## <a name="testing-accounts-and-environment"></a>Accounts en omgeving testen
 
-Als het verpakkingsteam de migratie naar Microsoft Intune wil voltooien, raden we u aan bepaalde machtigingen in te leveren:
- 
--   Toegang tot de app-implementatiemogelijkheden van Microsoft Intune voor de packager om de app toe te voegen en toe te wijzen 
--   Testgroepen, gebruikersaccounts en licenties voor de verwerkers om de apps te kunnen testen
+Het verpakkingsteam kan de migratie naar Microsoft Intune voltooien door bepaalde machtigingen op te geven:
+
+- Toegang tot Microsoft Intune app-implementatiemogelijkheden voor de packager om de app toe te voegen en toe te wijzen
+- Testgroepen, gebruikersaccounts en licenties voor de verwerkers om de apps te kunnen testen
 
 MCS gebruikt deze machtigingen om de volgende acties uit te voeren:
- 
--   Ervoor zorgen dat de app werkt op een virtuele computer die is geconfigureerd voor Microsoft Managed Desktop
--   De app uploaden naar Microsoft Intune voor implementatie naar uw gebruikers
+
+- Ervoor zorgen dat de app werkt op een virtuele computer die is geconfigureerd voor Microsoft Managed Desktop
+- De app uploaden naar Microsoft Intune voor implementatie naar uw gebruikers
 
 Zonder deze machtigingen kan MCS verder gaan, maar kunnen ze de toepassingen niet uploaden naar uw omgeving.

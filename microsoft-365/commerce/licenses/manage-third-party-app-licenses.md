@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: argani
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -15,16 +16,16 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - commerce_licensing
-ms.reviewer: argani
 search.appverid:
 - MET150
 description: Meer informatie over het beheren van licenties voor apps van derden in het Microsoft 365 beheercentrum.
-ms.openlocfilehash: 91c2a75aefe28b3525996522f7fdd55d22524d43
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.date: 04/30/2021
+ms.openlocfilehash: 2b74c8a43f759ca2cdcecac6a59fca5c0952b44f
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107716"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52821401"
 ---
 # <a name="manage-third-party-app-licenses-in-the-microsoft-365-admin-center"></a>App-licenties van derden beheren in het Microsoft 365 beheercentrum
 
@@ -61,7 +62,7 @@ Afhankelijk van de app van derden die u hebt gekocht, is het mogelijk dat u de a
 2. Selecteer de app die u wilt installeren in uw account.
 3. Selecteer dit product installeren op de pagina licentiedetails. U wordt omgeleid naar een andere platformsite waar u de app in uw omgeving installeert.
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Licenties toewijzen aan gebruikers](../../admin/manage/assign-licenses-to-users.md) (artikel) \
 [Licenties van gebruikers niet toewijzen](../../admin/manage/remove-licenses-from-users.md) (artikel)

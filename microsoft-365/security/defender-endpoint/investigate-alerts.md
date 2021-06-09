@@ -19,19 +19,19 @@ ms.collection:
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 8b3b864e716957c24893d2097249440b0a90f10a
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 626be9e949170fcda1f0bcf2a88e1b9780bbe764
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186099"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841088"
 ---
 # <a name="investigate-alerts-in-microsoft-defender-for-endpoint"></a>Waarschuwingen onderzoeken in Microsoft Defender voor Eindpunt
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigatealerts-abovefoldlink) 
@@ -40,7 +40,7 @@ Onderzoek waarschuwingen die van invloed zijn op uw netwerk, begrijpen wat ze be
 
 Selecteer een waarschuwing in de waarschuwingenwachtrij om naar de waarschuwingspagina te gaan. Deze weergave bevat de waarschuwingstitel, de betreffende assets, het detail zijvenster en het waarschuwingsverhaal.
 
-Start uw onderzoek op de waarschuwingspagina door de betreffende activa of een van de entiteiten te selecteren onder de weergave van de waarschuwingsverhaalstructuur. Het detailvenster wordt automatisch gevuld met meer informatie over wat u hebt geselecteerd. Als u wilt zien wat voor soort informatie u hier kunt bekijken, leest u [Waarschuwingen controleren in Microsoft Defender voor Eindpunt.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/review-alerts)
+Start uw onderzoek op de waarschuwingspagina door de betreffende activa of een van de entiteiten te selecteren onder de weergave van de waarschuwingsverhaalstructuur. Het detailvenster wordt automatisch gevuld met meer informatie over wat u hebt geselecteerd. Als u wilt zien wat voor soort informatie u hier kunt bekijken, leest u [Waarschuwingen controleren in Microsoft Defender voor Eindpunt.](/microsoft-365/security/defender-endpoint/review-alerts)
 
 ## <a name="investigate-using-the-alert-story"></a>Onderzoeken met behulp van het waarschuwingsverhaal
 

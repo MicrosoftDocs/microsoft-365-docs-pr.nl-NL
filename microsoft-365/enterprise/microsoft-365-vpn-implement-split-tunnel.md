@@ -17,12 +17,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: Vpn-splits tunneling implementeren voor Office 365
-ms.openlocfilehash: 49d64a40a39a6f8b1f8ea585b2915c26bd1115c6
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: c2195eb9e3af3c591ff59d0b0f87583455b9b119
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114234"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843648"
 ---
 # <a name="implementing-vpn-split-tunneling-for-office-365"></a>VPN splits tunneling implementeren voor Office 365
 
@@ -328,7 +328,7 @@ Poort 80 wordt alleen gebruikt voor zaken zoals omleiden naar een poort 443-sess
 
 ### <a name="does-split-tunnel-configuration-work-for-teams-running-in-a-browser"></a>Werkt splits tunnelconfiguratie voor Teams in een browser?
 
-Ja, dat doet u via ondersteunde browsers, die worden weergegeven in [Clients voor](https://docs.microsoft.com/microsoftteams/get-clients#web-client)Microsoft Teams.
+Ja, dat doet u via ondersteunde browsers, die worden weergegeven in [Clients voor](/microsoftteams/get-clients#web-client)Microsoft Teams.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 

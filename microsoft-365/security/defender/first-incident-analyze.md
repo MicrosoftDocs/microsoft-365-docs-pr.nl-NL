@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 83889123067897483478aec3d881a5a7b6ec14cc
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 8eb36ca630a9748de07c5cbe84f0e43ef23a47cf
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297222"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841076"
 ---
 # <a name="step-1-triage-and-analyze-your-first-incident"></a>Stap 1. Triage en analyseer uw eerste incident
 
@@ -45,10 +45,10 @@ Wanneer een beveiligingsincident is gedetecteerd, Microsoft 365 Defender details
 Microsoft 365 Defender ontvangt waarschuwingen en gebeurtenissen van meerdere Microsoft-beveiligingsplatforms als detectiebronnen om een holistisch beeld en context van schadelijke activiteiten te maken. Dit zijn de mogelijke detectiebronnen:
 
 - [Microsoft Defender for Endpoint](../defender-endpoint/microsoft-defender-endpoint.md) is een eindpuntdetectie en -respons-oplossing (EDR) die gebruikmaakt van Microsoft Defender-antivirussoftware en geavanceerde bedreigingsbeveiliging in de cloud met Microsoft Security Graph. Defender for Endpoint is een geïntegreerd platform voor preventieve beveiliging, detectie na inbreuken, geautomatiseerd onderzoek en antwoord. Het beschermt eindpunten tegen cyberaanvallen, detecteert geavanceerde aanvallen en datalekken, automatiseert beveiligingsincidenten en verbetert de beveiliging. 
-- [Microsoft Defender voor](https://docs.microsoft.com/defender-for-identity/what-is) identiteit is een cloudgebaseerde beveiligingsoplossing die uw on-premises Ad DS-signalen (Active Directory Domain Services) gebruikt om geavanceerde bedreigingen, gecompromitteerde identiteiten en kwaadaardige insideracties die zijn gericht op uw organisatie te identificeren, te detecteren en te onderzoeken. 
-- [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/) fungeert als poortwachter voor realtime toegang tussen uw zakelijke gebruikers en de cloudbronnen die ze gebruiken, waar uw gebruikers zich ook bevinden en ongeacht het apparaat dat ze gebruiken. 
+- [Microsoft Defender voor](/defender-for-identity/what-is) identiteit is een cloudgebaseerde beveiligingsoplossing die uw on-premises Ad DS-signalen (Active Directory Domain Services) gebruikt om geavanceerde bedreigingen, gecompromitteerde identiteiten en kwaadaardige insideracties die zijn gericht op uw organisatie te identificeren, te detecteren en te onderzoeken. 
+- [Microsoft Cloud App Security](/cloud-app-security/) fungeert als poortwachter voor realtime toegang tussen uw zakelijke gebruikers en de cloudbronnen die ze gebruiken, waar uw gebruikers zich ook bevinden en ongeacht het apparaat dat ze gebruiken. 
 - [Microsoft Defender voor Office 365](../office-365-security/overview.md) beschermt uw organisatie tegen schadelijke bedreigingen in e-mailberichten, koppelingen (URL's) en samenwerkingshulpmiddelen. 
-- [Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-introduction) is een geïntegreerd beveiligingsbeheersysteem voor infrastructuur dat de beveiliging van uw datacenters verbetert en geavanceerde bedreigingsbeveiliging biedt voor uw hybride werkbelastingen in de cloud en on-premises. 
+- [Azure Security Center](/azure/security-center/security-center-introduction) is een geïntegreerd beveiligingsbeheersysteem voor infrastructuur dat de beveiliging van uw datacenters verbetert en geavanceerde bedreigingsbeveiliging biedt voor uw hybride werkbelastingen in de cloud en on-premises. 
 
 In Microsoft 365 Defender worden [incidenten](incidents-overview.md) geïdentificeerd door waarschuwingen van deze verschillende detectiebronnen te correeren. In plaats van resources aan elkaar te rijgen of meerdere waarschuwingen te onderscheiden in hun respectieve incidenten, kunt u meteen beginnen met de wachtrij voor incidenten in Microsoft 365 Defender. Op deze manier kunt u incidenten op een efficiënte manier over eindpunten, identiteiten, e-mail en toepassingen triagen en de schade door een aanval beperken.
 

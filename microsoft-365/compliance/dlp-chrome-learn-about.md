@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: De Microsoft-compliance-extensie is een uitbreiding van de controle en het beheer van bestandsactiviteiten en beschermende maatregelen, voor de Google Chrome-browser
-ms.openlocfilehash: b8d9be88f42cce736cdbf66a97f4363106fa5820
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: cf7a3cd2e26f2e7d7a116e4a609f98aeea78be19
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730484"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843804"
 ---
 # <a name="learn-about-the-microsoft-compliance-extension"></a>Meer informatie over Microsoft compliance-extensie
 
@@ -63,5 +63,5 @@ Raadpleeg [Aan de slag met de Microsoft-compliance-extensie](dlp-chrome-get-star
 - [Meer informatie over preventie van gegevensverlies](dlp-learn-about-dlp.md)
 - [Een DLP-beleid maken, testen en afstemmen](create-test-tune-dlp-policy.md)
 - [Aan de slag met Activity Explorer](data-classification-activity-explorer.md)
-- [Microsoft Defender voor Eindpunt](https://docs.microsoft.com/windows/security/threat-protection/)
+- [Microsoft Defender voor Eindpunt](/windows/security/threat-protection/)
 - [Insider Risk-beheer](insider-risk-management.md)

@@ -1,7 +1,7 @@
 ---
-title: Microsoft Defender voor Eindpunt
+title: Microsoft Defender for Endpoint
 description: Microsoft Defender voor Eindpunt is een beveiligingsplatform voor zakelijke eindpunten dat helpt bij het beschermen tegen geavanceerde permanente bedreigingen.
-keywords: inleiding tot Microsoft Defender voor Eindpunt, inleiding tot Microsoft Defender voor Eindpunt, cyberbeveiliging, geavanceerde permanente bedreiging, bedrijfsbeveiliging, computergedrags sensor, cloudbeveiliging, analyse, bedreigingsinformatie, beperking van het oppervlak van aanvallen, bescherming van de volgende generatie, geautomatiseerd onderzoek en herstel, microsoft threat experts, secure score, advanced hunting, Microsoft 365 Defender, cyber threat hunting
+keywords: inleiding tot Microsoft Defender voor Eindpunt, inleiding tot Microsoft Defender voor Eindpunt, cyberbeveiliging, geavanceerde permanente bedreiging, bedrijfsbeveiliging, machine-gedrags sensor, cloudbeveiliging, analyse, bedreigingsinformatie, beperking van het oppervlak van de aanval, bescherming van de volgende generatie, geautomatiseerd onderzoek en herstel, microsoft threat experts, secure score, advanced hunting, Microsoft 365 Defender, cyber threat hunting
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 57d4506e32db5defe29f2d0e59f72bd4c1998310
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 3bab9d0248a2ed8e83807f3c38215e653cba26eb
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935927"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843552"
 ---
-# <a name="microsoft-defender-for-endpoint"></a>Microsoft Defender voor Eindpunt
+# <a name="microsoft-defender-for-endpoint"></a>Microsoft Defender for Endpoint
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -33,7 +33,7 @@ ms.locfileid: "51935927"
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-> Zie Windows 10 Enterprise edition voor meer informatie over de functies en functionaliteit van [Windows 10 Enterprise Edition.](https://www.microsoft.com/WindowsForBusiness/buy)
+> Voor meer informatie over Windows 10 Enterprise Edition-functies en -functionaliteit, zie [Windows 10 Enterprise edition.](https://www.microsoft.com/WindowsForBusiness/buy)
 
 Microsoft Defender for Endpoint is een beveiligingsplatform voor zakelijke eindpunten dat is ontworpen om bedrijfsnetwerken te helpen geavanceerde bedreigingen te voorkomen, te detecteren, te onderzoeken en erop te reageren.
 <p></p>
@@ -42,14 +42,14 @@ Microsoft Defender for Endpoint is een beveiligingsplatform voor zakelijke eindp
 
 Defender voor Eindpunt gebruikt de volgende combinatie van technologie die is ingebouwd in Windows 10 en de krachtige cloudservice van Microsoft:
 
--   **Gedragssensoren voor** eindpunten: Deze sensoren, ingesloten in Windows 10, verzamelen en verwerken gedragssignalen van het besturingssysteem en verzenden deze sensorgegevens naar uw persoonlijke, geïsoleerde, cloud-exemplaar van Microsoft Defender voor Eindpunt.
+-   **Gedragssensoren voor** eindpunten: deze sensoren Windows 10 ingesloten in Windows 10 verzamelen en verwerken gedragssignalen van het besturingssysteem en verzenden deze sensorgegevens naar uw persoonlijke, geïsoleerde, cloud-exemplaar van Microsoft Defender voor Eindpunt.
 
 
--   **Cloudbeveiligingsanalyse:** gebruikmakend van big data, apparaatleren en unieke Microsoft-optica in het Windows-ecosysteem, enterprise cloudproducten (zoals Office 365) en onlineactiva, worden gedragssignalen vertaald in inzichten, detecties en aanbevolen antwoorden op geavanceerde bedreigingen.
+-   **Cloudbeveiligingsanalyse:** gebruik maken van big data, apparaatleren en unieke Microsoft-optica in het Windows-ecosysteem, enterprise cloudproducten (zoals Office 365) en onlineactiva, gedragssignalen worden vertaald in inzichten, detecties en aanbevolen antwoorden op geavanceerde bedreigingen.
 
 -   **Bedreigingsinformatie:** Gegenereerd door Microsoft-jagers, beveiligingsteams en aangevuld met bedreigingsinformatie die door partners wordt geleverd, stelt Threat Intelligence Defender voor Eindpunt in staat om hulpprogramma's, technieken en procedures voor aanvallers te identificeren en waarschuwingen te genereren wanneer ze worden waargenomen in verzamelde sensorgegevens.
 
-<center><h2>Microsoft Defender voor Eindpunt</center></h2>
+<center><h2>Microsoft Defender for Endpoint</center></h2>
 <table>
 <tr>
 <td><a href="#tvm"><center><img src="images/TVM_icon.png" alt="Threat & Vulnerability Management"> <br><b>Threat & Vulnerability Management</b></center></a></td>
@@ -89,7 +89,7 @@ De surface reduction set met mogelijkheden voor aanvallen biedt de eerste verded
 
 <a name="ngp"></a>
 
-**[Beveiliging van de volgende generatie](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10)**<br>
+**[Beveiliging van de volgende generatie](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10)**<br>
 Om de beveiligingsperimeter van uw netwerk verder te versterken, gebruikt Microsoft Defender voor Eindpunt de volgende generatie beveiliging die is ontworpen om alle soorten nieuwe bedreigingen op te vangen.
 
 <a name="edr"></a>
@@ -114,8 +114,8 @@ Defender voor Eindpunt bevat Microsoft Secure Score voor apparaten om u te helpe
 De nieuwe beheerde bedreigingsjachtservice van Microsoft Defender for Endpoint biedt proactief zoeken, prioriteit geven en extra context en inzichten die beveiligingscentrums (SOC's) in staat stellen om bedreigingen snel en nauwkeurig te identificeren en erop te reageren.
 
 >[!IMPORTANT]
->Klanten van Defender voor Eindpunten moeten een aanvraag indienen voor de beheerde threat hunting-service van Microsoft Threat Experts om proactieve targeted attack notifications te krijgen en samen te werken met experts op aanvraag. Experts on Demand is een invoegservice. Targeted Attack Notifications worden altijd opgenomen nadat u bent geaccepteerd in de beheerde threat hunting-service van Microsoft Threat Experts.<p>
-><p>Als u nog niet bent geregistreerd en de voordelen <b></b> > <b></b> > <b></b> ervan wilt ervaren, gaat u naar Algemene geavanceerde functies van > <b>Instellingen microsoft Threat Experts</b> die u wilt toepassen. Nadat u deze hebt geaccepteerd, krijgt u de voordelen van Meldingen voor gerichte aanvallen en start u een proefversie van 90 dagen met experts op aanvraag. Neem contact op met uw Microsoft-vertegenwoordiger voor een volledig abonnement op aanvraag.
+>Klanten van Defender voor Eindpunt moeten een aanvraag indienen voor de Microsoft Threat Experts managed threat hunting service om proactieve targeted attack notifications te krijgen en samen te werken met experts op aanvraag. Experts on Demand is een invoegservice. Targeted Attack Notifications worden altijd opgenomen nadat u bent geaccepteerd in Microsoft Threat Experts managed threat hunting service.<p>
+><p>Als u nog niet bent ingeschreven en de voordelen <b></b> ervan wilt ervaren, gaat u naar Instellingen > <b>algemene</b> > <b></b> geavanceerde > <b>functies Microsoft Threat Experts</b> toe te passen. Nadat u deze hebt geaccepteerd, krijgt u de voordelen van Meldingen voor gerichte aanvallen en start u een proefversie van 90 dagen met experts op aanvraag. Neem contact op met uw Microsoft-vertegenwoordiger voor een volledig abonnement op aanvraag.
 
 <a name="apis"></a>
 
@@ -134,8 +134,8 @@ Defender for Endpoint wordt rechtstreeks geïntegreerd met verschillende Microso
 - Microsoft Defender voor Office
 - Skype voor Bedrijven
 
-**[Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/defender/microsoft-threat-protection)**<br>
-Met Microsoft 365 Defender vormen Defender voor Eindpunt en diverse microsoft-beveiligingsoplossingen een geïntegreerde suite voor bedrijfsdefensie vóór en na inbreuk die inheems is geïntegreerd in eindpunten, identiteit, e-mail en toepassingen om geavanceerde aanvallen op te sporen, te voorkomen, te onderzoeken en automatisch te beantwoorden.
+**[Microsoft 365 Defender](/microsoft-365/security/defender/microsoft-threat-protection)**<br>
+Met Microsoft 365 Defender, Defender voor Eindpunt en diverse microsoft-beveiligingsoplossingen vormen ze een geïntegreerde suite voor bedrijfsdefensie vóór en na inbreuk die inheems is geïntegreerd in eindpunten, identiteit, e-mail en toepassingen om geavanceerde aanvallen op te sporen, te voorkomen, te onderzoeken en automatisch te beantwoorden.
 
 
 ## <a name="related-topic"></a>Verwant onderwerp

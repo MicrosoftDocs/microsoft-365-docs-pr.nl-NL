@@ -19,12 +19,12 @@ ms.custom:
 description: Beheerders kunnen leren hoe u verbindingsfilters configureert in Exchange Online Protection (EOP) om e-mailberichten van e-mailservers toe te staan of te blokkeren.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 27c8cbbc70a4844e11bf85003215d2798a57a7ff
-ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
+ms.openlocfilehash: b5eb24377dd9f9ac304e1df7b2902d29e4a738b9
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52792978"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52821959"
 ---
 # <a name="configure-connection-filtering"></a>Filteren van verbinding configureren
 
@@ -51,7 +51,7 @@ In dit artikel wordt beschreven hoe u het standaardbeleid voor verbindingsfilter
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent het beveiligingscentrum in <https://security.microsoft.com/>. Gebruik <https://security.microsoft.com/antispam> om direct naar de pagina **Antispambeleid** te gaan.
+- U opent het beveiligingscentrum in <https://security.microsoft.com>. Gebruik <https://security.microsoft.com/antispam> om direct naar de pagina **Antispambeleid** te gaan.
 
 - Zie [Verbinding maken met Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](/powershell/exchange/connect-to-exchange-online-protection-powershell) als je verbinding wilt maken met zelfstandige EOP PowerShell.
 
@@ -74,7 +74,7 @@ In dit artikel wordt beschreven hoe u het standaardbeleid voor verbindingsfilter
 
 ## <a name="use-the-security-center-to-modify-the-default-connection-filter-policy"></a>Het beveiligingscentrum gebruiken om het standaardbeleid voor verbindingsfilters te wijzigen
 
-1. Ga in het beveiligingscentrum naar **E-mail & samenwerkingsbeleid** & de sectie Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Anti-spam**.
+1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
 
 2. Selecteer op **de pagina Antispambeleid** de optie Verbindingsfilterbeleid **(standaard)** in de lijst door op de naam van het beleid te klikken.
 
@@ -105,7 +105,7 @@ In dit artikel wordt beschreven hoe u het standaardbeleid voor verbindingsfilter
 
 ## <a name="use-the-security-center-to-view-the-default-connection-filter-policy"></a>Het beveiligingscentrum gebruiken om het standaardbeleid voor verbindingsfilters te bekijken
 
-1. Ga in het beveiligingscentrum naar **E-mail & samenwerkingsbeleid** & de sectie Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Anti-spam**.
+1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
 
 2. Op de **pagina Antispambeleid** worden de volgende eigenschappen weergegeven in de lijst met beleidsregels:
 

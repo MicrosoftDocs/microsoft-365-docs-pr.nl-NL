@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a037b9070fff2a208e7ee0a0602ce60cf3e042bf
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 8297fac0f733b93b1d8e3eabb25eeee7b1e07acb
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770011"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52821971"
 ---
 # <a name="supported-operating-systems-platforms-and-capabilities---for-threat-and-vulnerability-management"></a>Ondersteunde besturingssystemen, platforms en mogelijkheden - voor Threat and Vulnerability Management
 
@@ -60,7 +60,7 @@ macOS 10.14 'Mojave' en hoger | Ja | Ja | Ja (voorbeeld) | Ja (voorbeeld) | Ja (
 Red Hat Enterprise Linux 7.2 of hoger **(preview) (** \* Zie 'Belangrijk' bericht hieronder) | Ja | Ja | Ja | Ja | Ja
 CentOS 7.2 of hoger **(preview)** | Ja | Ja | Ja | Ja | Ja
 Ubuntu 16.04 LTS of hoger LTS **(preview)** | Ja | Ja | Ja | Ja | Ja
-Oracle Linux 7.2 of hoger | Ja | Ja | Ja | Ja | Ja
+Oracle Linux 7.2 of hoger **(preview)** | Ja | Ja | Ja | Ja | Ja
 
 >[!IMPORTANT]
 > \* Red Hat Enterprise Linux: 'De beveiligingsgegevens die worden verstrekt en weergegeven als onderdeel van uw Microsoft Defender voor Endpoint-services, worden beschikbaar gesteld in de onbewerkte vorm', 'AS IS', van Red Hat, Inc., en zijn mogelijk niet up-to-date. De gegevens die toegankelijk zijn in de Red Hat Security Data API, worden gelicentieerd onder de Creative Commons Attribution 4.0 International License. U draagt het risico bij het gebruik van deze gegevens. Microsoft en haar externe leveranciers wijst alle aansprakelijkheid voor gevolgschade en andere indirecte schade en impliciete garanties af, met inbegrip van impliciete garanties van niet-inbreuk, verkoopbaarheid en geschiktheid voor een bepaald doel. © 2020 Red Hat. Alle rechten voorbehouden. © 2020 Microsoft. Alle rechten voorbehouden.'

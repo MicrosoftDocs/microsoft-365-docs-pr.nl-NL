@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: c028289a58247075c33e85d6d6f3797b3ddad7b4
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 204530b8b4a87215053ddcb0434e40e45271da3d
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297186"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841004"
 ---
 # <a name="example-of-an-identity-based-attack"></a>Voorbeeld van een op identiteit gebaseerde aanval
 
@@ -44,7 +44,7 @@ Microsoft 365 Met Defender kunnen analisten waarschuwingen filteren op detectieb
 
 :::image type="content" source="../../media/first-incident-path-identity/first-incident-identity-mdi-filter.png" alt-text="Voorbeeld van het filteren van de detectiebron voor Defender voor identiteit":::
 
-Als u **de waarschuwing Verdachte overpass-the-hash-aanval** selecteert, gaat u naar een pagina in Microsoft Cloud App Security met meer gedetailleerde informatie. U kunt altijd meer informatie over een  waarschuwing [of](https://docs.microsoft.com/defender-for-identity/lateral-movement-alerts#suspected-overpass-the-hash-attack-kerberos-external-id-2002) aanval vinden door Meer informatie over dit type waarschuwing te selecteren voor een beschrijving van de aanval en suggesties voor herstel.
+Als u **de waarschuwing Verdachte overpass-the-hash-aanval** selecteert, gaat u naar een pagina in Microsoft Cloud App Security met meer gedetailleerde informatie. U kunt altijd meer informatie over een  waarschuwing [of](/defender-for-identity/lateral-movement-alerts#suspected-overpass-the-hash-attack-kerberos-external-id-2002) aanval vinden door Meer informatie over dit type waarschuwing te selecteren voor een beschrijving van de aanval en suggesties voor herstel.
  
 :::image type="content" source="../../media/first-incident-path-identity/first-incident-identity-alert-example.png" alt-text="Voorbeeld van een waarschuwing voor een vermoedelijke viaduct-the-hash-aanval"::: 
 

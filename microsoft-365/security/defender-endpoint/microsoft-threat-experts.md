@@ -19,19 +19,19 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 466e67bb4649f8cf87e4152a07122d57c5071b79
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: ebde023db5196117a02a2372784a3110839c51fa
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185573"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843528"
 ---
 # <a name="microsoft-threat-experts"></a>Microsoft Threat Experts
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
@@ -45,23 +45,23 @@ Deze beheerde bedreigingsjachtservice biedt op experts gebaseerde inzichten en g
 > [!NOTE]
 > Bespreek de geschiktheidsvereisten met uw Microsoft Technical Service-provider en -accountteam voordat u een aanvraag voor de beheerde bedreigingsjachtservice gaat indienen.
 
-Als u een klant van Microsoft Defender voor Eindpunt bent, moet u **Microsoft Threat Experts - Targeted Attack Notifications** aanvragen om speciale inzichten en analyses te krijgen die helpen bij het identificeren van de meest kritieke bedreigingen in uw omgeving, zodat u snel op deze bedreigingen kunt reageren
+Als u een klant bent van Microsoft Defender voor Eindpunt, moet u **Microsoft Threat Experts - Targeted Attack Notifications** aanvragen om speciale inzichten en analyses te krijgen die helpen bij het identificeren van de meest kritieke bedreigingen in uw omgeving, zodat u snel op deze bedreigingen kunt reageren
 
-Als u zich wilt registreren bij Microsoft Threat Experts - Voordelen voor gerichte aanvalsmeldingen, gaat u naar Instellingen Algemene geavanceerde functies  >    >    >  **Microsoft Threat Experts - Targeted Attack Notifications** om toe te passen. Zodra deze is geaccepteerd, krijgt u de voordelen van Meldingen voor gerichte aanvallen.
+Als u zich wilt Microsoft Threat Experts - Voordelen voor gerichte aanvalsmeldingen, gaat u naar Instellingen algemene geavanceerde functies  >    >    >  **Microsoft Threat Experts - Targeted Attack Notifications** om toe te passen. Zodra deze is geaccepteerd, krijgt u de voordelen van Meldingen voor gerichte aanvallen.
 
-Neem contact op met uw accountteam of microsoft-vertegenwoordiger om u te abonneren op **Microsoft Threat Experts - Experts op** aanvraag om contact op te nemen met onze bedreigingsexperts over relevante detecties en tegens die uw organisatie te maken heeft.
+Neem contact op met uw accountteam of Microsoft-vertegenwoordiger om u te abonneren op **Microsoft Threat Experts - Experts op** aanvraag om contact op te nemen met onze bedreigingsexperts over relevante detecties en tegenstand die uw organisatie te maken heeft.
 
-Zie [Microsoft Threat Experts configureren voor](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-microsoft-threat-experts#before-you-begin) meer informatie. 
+Zie [De Microsoft Threat Experts configureren voor](/microsoft-365/security/defender-endpoint/configure-microsoft-threat-experts#before-you-begin) meer informatie. 
 
 ## <a name="microsoft-threat-experts---targeted-attack-notification"></a>Microsoft Threat Experts - Melding van gerichte aanval 
-Microsoft Threat Experts: gerichte aanvalsmelding biedt proactief zoeken naar de belangrijkste bedreigingen voor uw netwerk, zoals inbraken door menselijke tegenpartij, hands-on-keyboard-aanvallen of geavanceerde aanvallen, zoals cyberspionage. Deze meldingen worden als een nieuwe waarschuwing op de voormelding uitgevoerd. De beheerde huntingservice bevat:  
+Microsoft Threat Experts- Gerichte aanvalsmelding biedt proactief zoeken naar de belangrijkste bedreigingen voor uw netwerk, zoals inbraken door menselijke tegenpartij, hands-on-keyboard-aanvallen of geavanceerde aanvallen, zoals cyberspionage. Deze meldingen worden als een nieuwe waarschuwing op de voormelding uitgevoerd. De beheerde huntingservice bevat:  
 - Bedreigingsbewaking en -analyse, waardoor de tijd en het risico voor het bedrijf worden verkleind 
 - Door de jager getrainde kunstmatige intelligentie om bekende en onbekende aanvallen te ontdekken en prioriteit te geven  
 - De belangrijkste risico's identificeren, soc's helpen tijd en energie te maximaliseren 
 - Bereik van compromissen en zo veel context als snel kan worden geleverd om een snelle soc-reactie in te schakelen. 
  
-## <a name="microsoft-threat-experts---experts-on-demand"></a>Microsoft Threat Experts - Experts on Demand
-Klanten kunnen onze beveiligingsexperts rechtstreeks vanuit het Microsoft Defender-beveiligingscentrum betrekken voor een tijdige en nauwkeurige reactie. Experts bieden inzichten die nodig zijn om beter inzicht te krijgen in de complexe bedreigingen die van invloed zijn op uw organisatie, van waarschuwingsvragen, mogelijk gecompromitteerde apparaten, hoofdoorzaak van een verdachte netwerkverbinding, tot aanvullende bedreigingsinformatie over lopende geavanceerde permanente bedreigingscampagnes. Met deze mogelijkheid kunt u het volgende doen:
+## <a name="microsoft-threat-experts---experts-on-demand"></a>Microsoft Threat Experts - Experts op aanvraag
+Klanten kunnen onze beveiligingsexperts rechtstreeks betrekken vanuit Microsoft Defender-beveiligingscentrum voor een tijdige en nauwkeurige reactie. Experts bieden inzichten die nodig zijn om beter inzicht te krijgen in de complexe bedreigingen die van invloed zijn op uw organisatie, van waarschuwingsvragen, mogelijk gecompromitteerde apparaten, hoofdoorzaak van een verdachte netwerkverbinding, tot aanvullende bedreigingsinformatie over lopende geavanceerde permanente bedreigingscampagnes. Met deze mogelijkheid kunt u het volgende doen:
 - Meer informatie over waarschuwingen, waaronder de hoofdoorzaak of het bereik van het incident 
 - Meer duidelijkheid over verdacht apparaatgedrag en de volgende stappen als u wordt geconfronteerd met een geavanceerde aanvaller  
 - Risico's en beveiliging met betrekking tot bedreigingsacacteurs, campagnes of nieuwe technieken voor aanvallers bepalen 
@@ -89,4 +89,4 @@ Bekijk deze video voor een kort overzicht van de Microsoft Services Hub.
 
    
 ## <a name="related-topic"></a>Verwant onderwerp
-- [Microsoft Threat Experts-mogelijkheden configureren](configure-microsoft-threat-experts.md)
+- [De Microsoft Threat Experts configureren](configure-microsoft-threat-experts.md)
