@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: article
 description: Schakel een instelling in waarmee cocreatie mogelijk is en inhoud automatisch wordt opgeslagen in bureaublad-apps voor gelabelde en versleutelde documenten in SharePoint en OneDrive.
-ms.openlocfilehash: 6506f72a7ff663c1fc1c32ca22a562f1f8ad3e0a
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 926f8aa188aeb1dbc7bb7b042d0a402acc49f7a3
+ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332724"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796052"
 ---
 # <a name="enable-co-authoring-for-files-encrypted-with-sensitivity-labels"></a>Cocreatie inschakelen voor bestanden die zijn versleuteld met gevoeligheidslabels
 
@@ -48,7 +48,7 @@ Lees de releaseaankondiging in het blogbericht [Introductie van cocreatie van ve
 
 Voordat u de instelling voor ondersteuning van cocreatie voor Office-bureaublad-apps inschakelt, is het belangrijk om te weten dat deze actie wijzigingen toepast in de metagegevens van labels die worden opgeslagen in en gelezen vanuit Office-bestanden.
 
-De metagegevens van de labels bevatten informatie die uw tenant en het toegepaste gevoeligheidslabel identificeert. Deze wijziging door deze instelling betreft de indeling van metagegevens en de locatie van niet-versleutelde bestanden voor Word, Excel en PowerPoint. Er vinden geen wijzigingen in metagegevens voor labels plaats voor versleutelde bestanden of e-mailberichten.
+De metagegevens van de labels bevatten informatie die uw tenant en het toegepaste gevoeligheidslabel identificeert. De wijziging door deze instelling betreft de indeling van metagegevens en de locatie van Word-, Excel- en PowerPoint-bestanden. U hoeft geen actie te ondernemen voor versleutelde bestanden of e-mails. De wijziging van de metagegevens voor versleutelde bestanden is compatibel met eerdere versies en er zijn geen wijzigingen voor e-mailberichten. U moet echter wel rekening houden met de wijzigingen in metagegevens voor versleutelde bestanden die automatisch kunnen worden bijgewerkt, maar die niet compatibel zijn met eerdere versies.
 
 Deze wijziging heeft gevolgen voor zowel bestanden met een nieuw label als voor bestanden die al een label hebben. Wanneer u apps en services gebruikt die ondersteuning bieden voor instellingen voor cocreatie:
 - Voor bestanden die net zijn gelabeld, worden alleen de nieuwe indeling en locatie gebruikt voor de metagegevens van het label.
@@ -60,7 +60,7 @@ Meer informatie over deze wijziging in metagegevens vindt u in de volgende bronn
 
 - Open Specifications: [2.6.3 LabelInfo versus Custom Document Properties](/openspecs/office_file_formats/ms-offcrypto/13939de6-c833-44ab-b213-e0088bf02341)
 
-Schakel deze instelling als gevolg van deze wijzigingen niet in als u in uw organisatie apps, services, scripts of hulpprogramma's gebruikt waarmee metagegevens voor labels naar de oude locatie worden gelezen of geschreven. Als u dit doet, kan dit bijvoorbeeld deze gevolgen hebben:
+Schakel deze instelling als gevolg van deze wijzigingen niet in als u in uw organisatie apps, services, scripts of hulpprogramma's gebruikt waarmee metagegevens voor labels naar de oude locatie worden gelezen of geschreven. Doet u dit wel, zijn dit enkele van de gevolgen:
 
 - Een document met een label wordt zonder label weergegeven aan gebruikers
 
@@ -142,7 +142,7 @@ Deze preview-versie van cocreatie voor bestanden die zijn versleuteld met gevoel
 ## <a name="how-to-enable-co-authoring-for-files-with-sensitivity-labels"></a>Cocreatie inschakelen voor bestanden met gevoeligheidslabels
 
 > [!CAUTION]
-> U kunt deze instelling in één keer in- of uitschakelen. Test de functie in de preview-versie alleen in een niet-productieomgeving en pas nadat u de wijzigingen in de metagegevens en de vereisten, beperkingen en eventuele bekende problemen die op deze pagina worden beschreven, hebt gelezen en begrepen.
+> Het inschakelen is een eenzijdige actie. Test de functie in de preview-versie alleen in een niet-productieomgeving en pas nadat u de wijzigingen in de metagegevens en de vereisten, beperkingen en eventuele bekende problemen die op deze pagina worden beschreven, hebt gelezen en begrepen.
 
 Tijdens de preview moet u een specifieke URL gebruiken om toegang te krijgen tot deze instelling in het Microsoft 365-compliancecentrum.
 
