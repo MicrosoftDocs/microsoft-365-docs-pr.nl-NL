@@ -6,17 +6,17 @@
       items:
         - name: Wat is Microsoft 365 Defender?
           href: microsoft-365-defender.md
-        - name: Microsoft 365-beveiligingscentrum
+        - name: Microsoft 365 Overzicht van Defender
           href: overview-security-center.md
         - name: Wat is er nieuw in Microsoft 365 Defender
           href: whats-new.md
-        - name: Defender voor Eindpunt in het Microsoft 365-beveiligingscentrum
+        - name: Defender voor Eindpunt in Microsoft 365 Defender
           href: microsoft-365-security-center-mde.md
-        - name: Defender voor Office 365 in het Microsoft 365-beveiligingscentrum
+        - name: Defender voor Office 365 in Microsoft 365 Defender
           href: microsoft-365-security-center-mdo.md
-        - name: Defender voor Eindpunt omleiden naar Microsoft 365-beveiligingscentrum
+        - name: Defender voor Eindpunt omleiden naar Microsoft 365 Defender
           href: microsoft-365-security-mde-redirection.md
-        - name: Defender voor Office 365 omleiden naar Microsoft 365-beveiligingscentrum
+        - name: Omleiden Office 365 beveiligings- en compliancecentrum naar Microsoft 365 Defender
           href: microsoft-365-security-mdo-redirection.md
         - name: Microsoft 365 Defender-integratie met Azure Sentinel
           href: microsoft-365-defender-integration-with-azure-sentinel.md
@@ -123,7 +123,7 @@
                     - name: Identiteit
                       href: first-incident-path-identity.md
             - name: Playbooks voor incidentreacties
-              href: 'https://docs.microsoft.com/security/compass/incident-response-playbooks'
+              href: /security/compass/incident-response-playbooks
             - name: E-mailmeldingen
               href: get-incident-notifications.md
         - name: Dreigingsanalyse
@@ -321,11 +321,11 @@
                 - name: Streaming-API
                   items:
                     - name: Microsoft 365 Streaming-API
-                      href: ../defender-endpoint/raw-data-export.md
-                    - name: Geavanceerde hunting-evens streamen naar azure events hub
-                      href: ../defender-endpoint/raw-data-export-event-hub.md
+                      href: streaming-api.md
+                    - name: Geavanceerde opsporingsevenementen streamen naar de Azure Events-hub
+                      href: streaming-api-event-hub.md
                     - name: Geavanceerde opsporingsevenementen streamen naar uw opslagaccount
-                      href: ../defender-endpoint/raw-data-export-storage.md
+                      href: streaming-api-storage.md
                 - name: Geavanceerde API voor opsporing
                   href: api-advanced-hunting.md
                 - name: Api's voor incidenten
