@@ -1,5 +1,5 @@
 ---
-title: Paginagewicht optimaliseren in moderne sitepagina's van SharePoint Online
+title: Paginagewicht optimaliseren in SharePoint moderne onlinesitepagina's
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -20,7 +20,7 @@ ms.custom:
 ms.reviewer: sstewart
 search.appverid:
 - MET150
-description: Lees hoe u het hulpprogramma Paginadiagnose gebruikt om het paginagewicht te optimaliseren in moderne sitepagina's van SharePoint Online.
+description: Meer informatie over het gebruik van het hulpprogramma Paginadiagnose om het paginagewicht te SharePoint moderne sitepagina's online.
 ms.openlocfilehash: 780d8ca0debbc5efb834f8f3543b9a5a8d168108
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -28,23 +28,23 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50907442"
 ---
-# <a name="optimize-page-weight-in-sharepoint-online-modern-site-pages"></a>Paginagewicht optimaliseren in moderne sitepagina's van SharePoint Online
+# <a name="optimize-page-weight-in-sharepoint-online-modern-site-pages"></a>Paginagewicht optimaliseren in SharePoint moderne onlinesitepagina's
 
-Moderne SharePoint Online-sitepagina's bevatten seriële code die is vereist om pagina-inhoud van de pagina weer te geven, inclusief afbeeldingen, tekst, objecten in het inhoudsgebied onder navigatie-/opdrachtbalken en andere HTML-code die het kader van de pagina vormt. Paginagewicht is een meting van deze HTML-code en moet worden beperkt om optimale laadtijden voor pagina's te garanderen.
+SharePoint Moderne onlinesitepagina's bevatten seriële code die is vereist om pagina-inhoud van de pagina weer te geven, inclusief afbeeldingen, tekst, objecten in het inhoudsgebied onder navigatie-/opdrachtbalken en andere HTML-code die het kader van de pagina vormt. Paginagewicht is een meting van deze HTML-code en moet worden beperkt om optimale laadtijden voor pagina's te garanderen.
 
 In dit artikel wordt beschreven hoe u het paginagewicht op uw moderne sitepagina's kunt verminderen.
 
 >[!NOTE]
->Zie Prestaties in de [moderne SharePoint-ervaring](/sharepoint/modern-experience-performance)voor meer informatie over de prestaties in moderne SharePoint Online-portals.
+>Zie Prestaties in de moderne SharePoint voor meer informatie over prestaties in SharePoint moderne [onlineportalen.](/sharepoint/modern-experience-performance)
 
 ## <a name="use-the-page-diagnostics-for-sharepoint-tool-to-analyze-page-weight"></a>Het hulpprogramma Paginadiagnose voor SharePoint gebruiken om het paginagewicht te analyseren
 
-Het hulpprogramma Paginadiagnose voor SharePoint is een browserextensie voor de nieuwe Microsoft Edge - en Chrome-browsers waarmee zowel moderne portals van SharePoint Online als klassieke https://www.microsoft.com/edge) publicerende sitepagina's worden geanalyseerd. Het hulpprogramma bevat een rapport voor elke geanalyseerde pagina die laat zien hoe de pagina presteert op basis van een gedefinieerde set prestatiecriteria. Als u het hulpprogramma Paginadiagnose voor SharePoint wilt installeren en meer wilt weten, gaat u naar Het hulpprogramma [Paginadiagnose gebruiken voor SharePoint Online.](page-diagnostics-for-spo.md)
+Het hulpprogramma Paginadiagnose voor SharePoint is een browserextensie voor de nieuwe Microsoft Edge ( en Chrome-browsers die zowel SharePoint Moderne portal online als klassieke https://www.microsoft.com/edge) publicerende sitepagina's analyseren. Het hulpprogramma bevat een rapport voor elke geanalyseerde pagina die laat zien hoe de pagina presteert op basis van een gedefinieerde set prestatiecriteria. Als u het hulpprogramma Paginadiagnose voor SharePoint wilt installeren en meer wilt weten, gaat u naar Het hulpprogramma [Paginadiagnose gebruiken](page-diagnostics-for-spo.md)voor SharePoint Online.
 
 >[!NOTE]
->Het hulpprogramma Paginadiagnose werkt alleen voor SharePoint Online en kan niet worden gebruikt op een SharePoint-systeempagina.
+>Het hulpprogramma Paginadiagnose werkt alleen SharePoint Online en kan niet worden gebruikt op een SharePoint systeempagina.
 
-Wanneer u een SharePoint-sitepagina analyseert met het hulpprogramma Paginadiagnose voor SharePoint, ziet u informatie over de pagina in het pagina-gewicht onder **500 KB-resultaat** van het deelvenster _Diagnostische tests._ Het resultaat wordt groen weergegeven als het paginagewicht onder de basislijnwaarde valt en rood als het paginagewicht de basislijnwaarde overschrijdt.
+Wanneer u een SharePoint-sitepagina analyseert met het hulpprogramma Paginadiagnose voor SharePoint, ziet u informatie over de pagina  in het paginagewicht onder **500 KB-resultaat** van het deelvenster Diagnostische tests. Het resultaat wordt groen weergegeven als het paginagewicht onder de basislijnwaarde valt en rood als het paginagewicht de basislijnwaarde overschrijdt.
 
 Mogelijke resultaten zijn:
 
@@ -53,7 +53,7 @@ Mogelijke resultaten zijn:
 
 Als het  **paginagewicht onder 500 KB** wordt weergegeven in de sectie Aandacht vereist, kunt u op het resultaat klikken voor meer informatie.
 
-![Aanvragen voor SharePoint-resultaten](../media/modern-portal-optimization/pagediag-page-weight.png)
+![Aanvragen om SharePoint resultaten](../media/modern-portal-optimization/pagediag-page-weight.png)
 
 ## <a name="remediate-page-weight-issues"></a>Problemen met het gewicht van pagina's oplossen
 
@@ -79,12 +79,12 @@ Voordat u paginaherzieningen maakt om prestatieproblemen op te lossen, noteert u
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Prestaties van SharePoint Online afstemmen](tune-sharepoint-online-performance.md)
+[Prestaties SharePoint online afstemmen](tune-sharepoint-online-performance.md)
 
-[Prestaties van Office 365 afstemmen](tune-microsoft-365-performance.md)
+[Prestaties Office 365 afstemmen](tune-microsoft-365-performance.md)
 
-[Prestaties in de moderne SharePoint-ervaring](/sharepoint/modern-experience-performance)
+[Prestaties in de moderne SharePoint ervaring](/sharepoint/modern-experience-performance)
 
 [Netwerken voor contentlevering](content-delivery-networks.md)
 
-[Het Office 365 Content Delivery Network (CDN) gebruiken met SharePoint Online](use-microsoft-365-cdn-with-spo.md)
+[De Office 365 Content Delivery Network (CDN) gebruiken met SharePoint Online](use-microsoft-365-cdn-with-spo.md)

@@ -76,7 +76,7 @@ De limieten die in deze sectie worden beschreven, zijn gerelateerd aan het gebru
 |Het maximum aantal zoekopdrachten dat tegelijk kan worden uitgevoerd. |Geen limiet |
 |Het maximum aantal zoekopdrachten dat één gebruiker tegelijk kan starten. |10 | 
 |Maximum aantal tekens voor een zoekquery (inclusief operatoren en voorwaarden). |10.000 &nbsp; <sup>2</sup>|
-|Maximum aantal tekens voor een zoekquery voor SharePoint en OneDrive voor Bedrijven sites (inclusief operatoren en voorwaarden). |10,000<br>4.000 met Jokertekens &nbsp; <sup>2</sup>|
+|Maximum aantal tekens voor een zoekquery voor SharePoint en OneDrive voor Bedrijven sites (inclusief operatoren en voorwaarden). |10.000<br>4.000 met Jokertekens &nbsp; <sup>2</sup>|
 |Minimum aantal alfatekens voor jokertekens voor voorvoegsel; bijvoorbeeld één **\* *_ of* \* _ set**.|3 |  
 |Maximumvarianten die worden geretourneerd wanneer u een voorvoegsel-jokerteken gebruikt om te zoeken naar een exacte woordgroep of wanneer u een voorvoegsel-jokerteken en de operator **NEAR** Boolean gebruikt. |10.000 &nbsp; <sup>3</sup>|
 |Maximum aantal items per gebruikerspostvak dat wordt weergegeven op de voorbeeldpagina voor zoekopdrachten. De nieuwste items worden weergegeven. |100|
@@ -91,16 +91,16 @@ De limieten die in deze sectie worden beschreven, zijn gerelateerd aan het gebru
 
 ## <a name="search-times"></a>Zoektijden
 
-Microsoft verzamelt prestatiegegevens voor zoekopdrachten die worden uitgevoerd door alle organisaties. Hoewel de complexiteit van de zoekquery van invloed kan zijn op zoektijden, is het aantal gezochte postvakken de grootste factor die van invloed is op hoe lang zoekopdrachten duren. Hoewel Microsoft geen serviceovereenkomst voor zoektijden biedt, bevat de volgende tabel de gemiddelde zoektijden voor zoekopdrachten in verzamelingen op basis van het aantal postvakken dat in de zoekopdracht is opgenomen.
+Microsoft verzamelt prestatiegegevens voor zoekopdrachten die worden uitgevoerd door alle organisaties. Hoewel de complexiteit van de zoekquery van invloed kan zijn op de zoektijd, is het aantal te doorzoeken postvakken de grootste factor die van invloed is op de zoektijd. Hoewel Microsoft geen serviceovereenkomst voor zoektijden biedt, bevat de volgende tabel de gemiddelde zoektijden voor zoekopdrachten in verzamelingen op basis van het aantal postvakken dat in de zoekopdracht is opgenomen.
   
   | Aantal postvakken | Gemiddelde zoektijd |
   |:-----|:-----|
   |100  <br/> |30 seconden  <br/> |
   |1,000  <br/> |45 seconden  <br/> |
-  |10,000  <br/> |4 minuten  <br/> |
-  |25,000  <br/> |10 minuten  <br/> |
-  |50,000  <br/> |20 minuten  <br/> |
-  |100,000  <br/> |25 minuten  <br/> |
+  |10.000  <br/> |4 minuten  <br/> |
+  |25.000  <br/> |10 minuten  <br/> |
+  |50.000  <br/> |20 minuten  <br/> |
+  |100.000  <br/> |25 minuten  <br/> |
   |||
 
 ## <a name="viewer-limits"></a>Viewer-limieten

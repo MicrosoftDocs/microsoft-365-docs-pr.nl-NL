@@ -27,21 +27,21 @@ ms.locfileid: "50907490"
 ---
 # <a name="hybrid-solutions"></a>Hybride oplossingen
 
-Met Microsoft Azure kunt u bepaalde Office Server-werkbelastingen implementeren die gewoonlijk on-premises zijn geïmplementeerd in Azure-infrastructuurservices.
+Met Microsoft Azure kunt u bepaalde Office Server-workloads implementeren die gewoonlijk on-premises zijn geïmplementeerd in Azure-infrastructuurservices.
   
-Voor microsoft 365-identiteitsinfrastructuur in Azure:
+Voor Microsoft 365 identiteitsinfrastructuur in Azure:
 
-- [Azure AD voor SharePoint Server-verificatie gebruiken](/azure/active-directory/saas-apps/sharepoint-on-premises-tutorial)
+- [Azure AD gebruiken voor SharePoint serververificatie](/azure/active-directory/saas-apps/sharepoint-on-premises-tutorial)
 
-- [Microsoft 365 Directory-synchronisatie implementeren in Microsoft Azure](deploy-microsoft-365-directory-synchronization-dirsync-in-microsoft-azure.md)
+- [De Microsoft 365 adreslijstsynchronisatie implementeren in Microsoft Azure](deploy-microsoft-365-directory-synchronization-dirsync-in-microsoft-azure.md)
   
-- [Een on-premises netwerk verbinden met een virtueel Microsoft Azure-netwerk](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md)
+- [Verbinding maken een on-premises netwerk naar een Microsoft Azure virtueel netwerk](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md)
     
 - [Federatieverificatie met hoge beschikbaarheid implementeren voor Microsoft 365 in Azure](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md)
     
 Voor SharePoint Server 2013-werkbelastingen in Azure:
   
-- [Microsoft Azure Architectures voor SharePoint 2013](microsoft-azure-architectures-for-sharepoint-2013.md)
+- [Microsoft Azure Architecturen voor SharePoint 2013](microsoft-azure-architectures-for-sharepoint-2013.md)
     
 - [Calamiteitenherstel SharePoint Server 2013 in Microsoft Azure](sharepoint-server-2013-disaster-recovery-in-microsoft-azure.md)
     

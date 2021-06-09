@@ -25,7 +25,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: c12164c7-6190-4294-b88a-590580c9869a
-description: Meer informatie over de instellingen die beschikbaar zijn in Microsoft 365 voor Bedrijven om werkbestanden te beveiligen als het apparaat van een gebruiker verloren gaat of wordt gestolen.
+description: Meer informatie over de instellingen die beschikbaar zijn in Microsoft 365 voor bedrijven om werkbestanden te beveiligen als het apparaat van een gebruiker verloren gaat of wordt gestolen.
 ms.openlocfilehash: 6b10ce73d3ebe936d3878724783d6076455a3552
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -45,7 +45,7 @@ De volgende instellingen zijn beschikbaar voor het beveiligen van werkbestanden 
 |:-----|:-----|
 |Instelling  <br/> |Beschrijving  <br/> |
 |Werkbestanden van een inactief apparaat verwijderen na zoveel dagen  <br/> |Als een apparaat niet wordt gebruikt voor het aantal dagen dat u hier opgeeft, worden alle werkbestanden die op het apparaat zijn opgeslagen, automatisch verwijderd.  <br/> |
-|Gebruikers dwingen om alle werkbestanden op te slaan in OneDrive voor Bedrijven  <br/> |Als deze instelling **Aan** is, is OneDrive voor Bedrijven de enige beschikbare locatie voor het opslaan van werkbestanden.  <br/> |
+|Gebruikers dwingen om alle werkbestanden op te slaan in OneDrive voor Bedrijven  <br/> |Als deze instelling **Aan** is, is de enige beschikbare locatie voor het opslaan van werkbestanden OneDrive voor Bedrijven.  <br/> |
 |Werkbestanden versleutelen  <br/> |Laat deze instelling **ingeschakeld** zodat werkbestanden worden beveiligd door versleuteling. Zelfs als het apparaat verloren of gestolen is, kan niemand uw bedrijfsgegevens lezen.  <br/> |
    
 

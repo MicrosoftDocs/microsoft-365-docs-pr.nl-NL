@@ -83,13 +83,13 @@ Zie het volgende voor het oplossen van problemen met PowerShell-verbindingsfoute
 
 - [Verbinding maken powershell Exchange Online gebruiken](/powershell/exchange/connect-to-exchange-online-powershell#how-do-you-know-this-worked)
 
-- [Verbinding maken beveiligingscentrum & PowerShell](/powershell/exchange/connect-to-scc-powershell#how-do-you-know-this-worked)
+- [Verbinding maken met Beveiligings- en compliancecentrum van Powershell](/powershell/exchange/connect-to-scc-powershell#how-do-you-know-this-worked)
 
 ## <a name="new-compliancesecurityfilter"></a>New-ComplianceSecurityFilter
 
 Het **New-ComplianceSecurityFilter** wordt gebruikt om een zoekmachtigingsfilter te maken. In de volgende tabel worden de parameters voor deze cmdlet beschreven. Alle parameters zijn vereist om een compliancebeveiligingsfilter te maken.
   
-| Parameter | Omschrijving |
+| Parameter | Beschrijving |
 |:-----|:-----|
 | _Actie_ <br/> | De  _parameter_ Actie geeft aan op welk type zoekactie het filter wordt toegepast. De mogelijke acties voor zoeken naar inhoud zijn:  <br/><br/> **Exporteren:** Het filter wordt toegepast bij het exporteren van zoekresultaten.  <br/> **Voorbeeld:** Het filter wordt toegepast bij het bekijken van zoekresultaten.  <br/> **Zuiveren:** Het filter wordt toegepast bij het verwijderen van zoekresultaten.  <br/> **Zoeken:** Het filter wordt toegepast bij het uitvoeren van een zoekopdracht.  <br/> **Alles:** Het filter wordt toegepast op alle zoekacties.  <br/> |
 | _Filternaam_ <br/> |De  _parameter FilterName_ geeft de naam van het machtigingsfilter aan. Deze naam wordt gebruikt om een filter te identiteiten wanneer u de **cmdlets Get-ComplianceSecurityFilter,** **Set-ComplianceSecurityFilter** en **Remove-ComplianceSecurityFilter** gebruikt.  <br/> |
@@ -213,7 +213,7 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "C
 
 Het **filter Set-ComplianceSecurityFilter** wordt gebruikt om een bestaand zoekmachtigingsfilter te wijzigen. De enige vereiste parameter is _FilterName._ 
   
-| Parameter | Omschrijving |
+| Parameter | Beschrijving |
 |:-----|:-----|
 | _Actie_| De  _parameter_ Actie geeft aan op welk type zoekactie het filter wordt toegepast. De mogelijke acties voor zoeken naar inhoud zijn: <br/><br/> **Exporteren:** Het filter wordt toegepast bij het exporteren van zoekresultaten.  <br/> **Voorbeeld:** Het filter wordt toegepast bij het bekijken van zoekresultaten.  <br/> **Zuiveren:** Het filter wordt toegepast bij het verwijderen van zoekresultaten.  <br/> **Zoeken:** Het filter wordt toegepast bij het uitvoeren van een zoekopdracht.  <br/> **Alles:** Het filter wordt toegepast op alle zoekacties.  <br/> |
 | _Filternaam_|De  _parameter FilterName_ geeft de naam van het machtigingsfilter aan. |

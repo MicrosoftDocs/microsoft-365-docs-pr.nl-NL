@@ -47,7 +47,7 @@ Als u de licentie verwijdert, worden alle gegevens van die gebruiker gedurende d
 2. Selecteer het abonnement waarvan u licenties wilt verwijderen.
 3. Selecteer op de pagina Details **de optie Licenties verwijderen.**
 4. Voer in **het deelvenster** Licenties verwijderen onder  Nieuw aantal in het vak Totaal aantal licenties het totale aantal licenties in dat u voor dit abonnement wilt gebruiken. Als u bijvoorbeeld 25 licenties hebt en u een van deze licenties wilt verwijderen, voert u 24 in.
-5. Kies **Opslaan**.
+5. Klik op **Opslaan**.
 
 Wanneer u [een andere persoon aan](add-users.md) uw bedrijf toevoegt, wordt u gevraagd tegelijkertijd een licentie te kopen, met slechts één stap!
 

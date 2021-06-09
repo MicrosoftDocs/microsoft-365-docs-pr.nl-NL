@@ -22,7 +22,7 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: f3433b6b-02f7-447f-9d62-306bf03638b0
-description: Meer informatie over het valideren van de beveiligingsinstellingen van de Microsoft 365 Business Premium-app op uw Android- of iOS-apparaten.
+description: Meer informatie over het valideren Microsoft 365 Business Premium instellingen voor app-beveiliging op uw Android- of iOS-apparaten.
 ms.openlocfilehash: a0a4a6e6cff59f66a506929e97c99d361472a68b
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -42,9 +42,9 @@ Nadat u [app-configuraties voor Android-apparaten hebt ingesteld](app-protection
   
 Controleer eerst of het beleid van toepassing is op de app waarin u het gaat valideren.
   
-1. Ga in het Microsoft 365 Business [Premium-beheercentrum](https://portal.office.com)naar  \> **Beleidsbeleid bewerken.**
+1. Ga in Microsoft 365 Business Premium [beheercentrum](https://portal.office.com)naar **Beleidsregels** \> **bewerken.**
     
-2. Kies **Toepassingsbeleid voor Android** voor de instellingen die u hebt gemaakt bij de installatie of een ander beleid dat u hebt gemaakt, en controleer of dit bijvoorbeeld is afgedwongen voor Outlook. 
+2. Kies **Toepassingsbeleid voor Android** voor de instellingen die u hebt gemaakt bij de installatie of een ander beleid dat u hebt gemaakt, en controleer of het beleid is afgedwongen voor Outlook, bijvoorbeeld. 
     
     ![Shows all the apps for which this policy protects files.](../media/b3be3ddd-f683-4073-8d7a-9c639a636a2c.png)
   
@@ -52,9 +52,9 @@ Controleer eerst of het beleid van toepassing is op de app waarin u het gaat val
 
 Kies in het deelvenster **Beleid bewerken** de optie **Bewerken** naast **Toegangsbeheer Office-documenten**, vouw **Beheren hoe gebruikers Office-bestanden op mobiele apparaten openen** uit en zorg ervoor dat **Een pincode of vingerafdruk vereisen om toegang te krijgen tot Office-apps** is ingesteld op **Aan**.
   
-![Zorg ervoor dat de pincode of vingerafdruk vereisen voor toegang tot Office-apps is ingesteld op Aan.](../media/f37eb5b2-7e26-49fb-9bd6-d955d196bacf.png)
+![Zorg ervoor dat de pincode of vingerafdruk vereisen voor toegang tot Office apps is ingesteld op Aan.](../media/f37eb5b2-7e26-49fb-9bd6-d955d196bacf.png)
   
-1. Open Outlook op het Android-apparaat van de gebruiker en meld u aan met de Microsoft 365 Business Premium-referenties van de gebruiker.
+1. Open in het Android-apparaat van de gebruiker Outlook en meld u aan met de Microsoft 365 Business Premium referenties van de gebruiker.
     
 2. U wordt ook gevraagd een pincode in te voeren of een vingerafdruk te gebruiken.
     
@@ -62,15 +62,15 @@ Kies in het deelvenster **Beleid bewerken** de optie **Bewerken** naast **Toegan
   
 ### <a name="validate-reset-pin-after-number-of-failed-attempts"></a>Pincode opnieuw instellen na aantal mislukte pogingen valideren
 
-Kies **in** het deelvenster  Beleid bewerken de optie Bewerken naast Toegangsbesturingselement **voor Office-documenten,** vouw Beheren hoe gebruikers Toegang krijgen tot **Office-bestanden** op mobiele apparaten uit en zorg ervoor dat **Pincode** opnieuw instellen nadat het aantal mislukte pogingen is ingesteld op een nummer. Dit is standaard 5. 
+Kies  in het deelvenster  Beleid bewerken de optie Bewerken naast toegangsbesturingselement voor Office-documenten, vouw Beheren hoe gebruikers toegang hebben tot **Office-bestanden** op mobiele apparaten uit en zorg ervoor dat Pincode opnieuw instellen nadat het aantal mislukte pogingen **is** ingesteld op een nummer.  Dit is standaard 5. 
   
-1. Open Outlook op het Android-apparaat van de gebruiker en meld u aan met de Microsoft 365 Business Premium-referenties van de gebruiker.
+1. Open in het Android-apparaat van de gebruiker Outlook en meld u aan met de Microsoft 365 Business Premium referenties van de gebruiker.
     
 2. Voer net zo vaak een onjuiste pincode in als is aangegeven in het beleid. U ziet een prompt met de melding **Pincode pogingslimiet bereikt om** de pincode opnieuw in te stellen. 
     
     ![After too many incorrect PIN attempts, you need to reset your PIN.](../media/fca6fcb4-bb5c-477f-af5e-5dc937e8b835.png)
   
-3. Druk op **Pincode opnieuw instellen**. U wordt gevraagd u aan te melden met de Microsoft 365 Business Premium-referenties van de gebruiker en vervolgens een nieuwe pincode in te stellen.
+3. Druk op **Pincode opnieuw instellen**. U wordt gevraagd u aan te melden met de Microsoft 365 Business Premium gebruikersreferenties en vervolgens een nieuwe pincode in te stellen.
     
 ### <a name="validate-force-users-to-save-all-work-files-to-onedrive-for-business"></a>Gebruikers dwingen om alle werkbestanden op te slaan in OneDrive voor Bedrijven valideren
 
@@ -78,7 +78,7 @@ Kies in het deelvenster **Beleid bewerken** de optie **Bewerken** naast **Beveil
   
 ![Verify that Force users to save all work files to OneDrive for Business is set to On.](../media/7140fa1d-966d-481c-829f-330c06abb5a5.png)
   
-1. Open Outlook op het Android-apparaat van de gebruiker en meld u aan met de Microsoft 365 Business Premium-referenties van de gebruiker en voer desgevraagd een pincode in.
+1. Open in het Android-apparaat van de gebruiker Outlook en meld u aan met de Microsoft 365 Business Premium referenties van de gebruiker en voer een pincode in indien daarom wordt gevraagd.
     
 2. Open een e-mailbericht met een bijlage en tik op het pictogram Pijl-omlaag naast de gegevens van de bijlage.
     
@@ -93,21 +93,21 @@ Kies in het deelvenster **Beleid bewerken** de optie **Bewerken** naast **Beveil
   
 ### <a name="validate-require-user-to-sign-in-again-if-office-apps-have-been-idle-for-a-specified-time"></a>Vereisen dat gebruikers zich opnieuw aanmelden als Office-apps inactief zijn geweest gedurende een opgegeven tijd valideren
 
-Kies **in** het deelvenster  Beleid bewerken de optie Bewerken naast Toegangsbeheer voor **Office-documenten,** vouw Beheren hoe gebruikers Toegang krijgen tot **Office-bestanden** op mobiele apparaten uit en zorg ervoor dat Gebruikers opnieuw moeten aanmelden nadat **Office-apps** niet actief zijn geweest, is ingesteld op een aantal minuten. Dit is standaard 30 minuten. 
+Kies  in het deelvenster  Beleid bewerken de optie Bewerken naast toegangsbesturingselement **voor Office-documenten,** vouw Beheren hoe gebruikers toegang hebben tot **Office-bestanden** op mobiele apparaten uit en zorg ervoor dat Gebruikers opnieuw moeten aanmelden nadat **Office-apps** niet actief zijn geweest, is ingesteld op een aantal minuten. Dit is standaard 30 minuten. 
   
-1. Open Outlook op het Android-apparaat van de gebruiker en meld u aan met de Microsoft 365 Business Premium-referenties van de gebruiker en voer desgevraagd een pincode in.
+1. Open in het Android-apparaat van de gebruiker Outlook en meld u aan met de Microsoft 365 Business Premium referenties van de gebruiker en voer een pincode in indien daarom wordt gevraagd.
     
 2. U ziet nu het Postvak IN van Outlook. Gebruik het Android-apparaat minimaal 30 minuten niet (of een andere tijdsduur, langer dan wat u hebt opgegeven in het beleid). Het apparaat wordt waarschijnlijk gedimd.
     
-3. Open Outlook opnieuw op het Android-apparaat.
+3. Access Outlook weer op het Android-apparaat.
     
-4. U wordt gevraagd uw pincode in te voeren voordat u Outlook opnieuw kunt openen.
+4. U wordt gevraagd uw pincode in te voeren voordat u weer toegang hebt tot Outlook toegang.
     
 ### <a name="validate-protect-work-files-with-encryption"></a>Werkbestanden beveiligen met versleuteling valideren
 
 Kies in het deelvenster **Beleid bewerken** de optie **Bewerken** naast **Beveiliging bij verlies of diefstal van apparaten**, vouw **Werkbestanden beveiligen bij verlies of diefstal van apparaten** uit en zorg ervoor dat **Werkbestanden beveiligen met versleuteling** is ingesteld op **Aan** en **Gebruikers dwingen om alle werkbestanden op te slaan in OneDrive voor Bedrijven** is ingesteld op **Uit**.
   
-1. Open Outlook op het Android-apparaat van de gebruiker en meld u aan met de Microsoft 365 Business Premium-referenties van de gebruiker en voer desgevraagd een pincode in.
+1. Open in het Android-apparaat van de gebruiker Outlook en meld u aan met de Microsoft 365 Business Premium referenties van de gebruiker en voer een pincode in indien daarom wordt gevraagd.
     
 2. Open een e-mailbericht met een paar bijlagen in het afbeeldingsbestand.
     
@@ -131,9 +131,9 @@ Nadat u [app-configuraties voor iOS-apparaten hebt ingesteld](app-protection-set
   
 Controleer eerst of het beleid van toepassing is op de app waarin u het gaat valideren.
   
-1. Ga in het Microsoft 365 Business [Premium-beheercentrum](https://portal.office.com)naar  \> **Beleidsbeleid bewerken.**
+1. Ga in Microsoft 365 Business Premium [beheercentrum](https://portal.office.com)naar **Beleidsregels** \> **bewerken.**
     
-2. Kies **Toepassingsbeleid voor iOS** voor de instellingen die u hebt gemaakt bij de installatie of een ander beleid dat u hebt gemaakt, en controleer of dit is afgedwongen voor outlook bijvoorbeeld. 
+2. Kies **Toepassingsbeleid voor iOS** voor de instellingen die u hebt gemaakt bij de installatie of een ander beleid dat u hebt gemaakt, en controleer of dit is afgedwongen voor Outlook bijvoorbeeld. 
     
     ![Shows all the apps for which this policy protects files.](../media/842441b8-e7b1-4b86-9edd-d94d1f77b6f4.png)
   
@@ -141,9 +141,9 @@ Controleer eerst of het beleid van toepassing is op de app waarin u het gaat val
 
 Kies in het deelvenster **Beleid bewerken** de optie **Bewerken** naast **Toegangsbeheer Office-documenten**, vouw **Beheren hoe gebruikers Office-bestanden op mobiele apparaten openen** uit en zorg ervoor dat **Een pincode of vingerafdruk vereisen om toegang te krijgen tot Office-apps** is ingesteld op **Aan**.
   
-![Zorg ervoor dat de pincode of vingerafdruk vereisen voor toegang tot Office-apps is ingesteld op Aan.](../media/f37eb5b2-7e26-49fb-9bd6-d955d196bacf.png)
+![Zorg ervoor dat de pincode of vingerafdruk vereisen voor toegang tot Office apps is ingesteld op Aan.](../media/f37eb5b2-7e26-49fb-9bd6-d955d196bacf.png)
   
-1. Open Outlook op het iOS-apparaat van de gebruiker en meld u aan met de Microsoft 365 Business Premium-referenties van de gebruiker.
+1. Open in het iOS-apparaat van de gebruiker Outlook en meld u aan met de Microsoft 365 Business Premium referenties van de gebruiker.
     
 2. U wordt ook gevraagd een pincode in te voeren of een vingerafdruk te gebruiken.
     
@@ -151,15 +151,15 @@ Kies in het deelvenster **Beleid bewerken** de optie **Bewerken** naast **Toegan
   
 ### <a name="validate-reset-pin-after-number-of-failed-attempts"></a>Pincode opnieuw instellen na aantal mislukte pogingen valideren
 
-Kies **in** het deelvenster  Beleid bewerken de optie Bewerken naast Toegangsbesturingselement **voor Office-documenten,** vouw Beheren hoe gebruikers Toegang krijgen tot **Office-bestanden** op mobiele apparaten uit en zorg ervoor dat **Pincode** opnieuw instellen nadat het aantal mislukte pogingen is ingesteld op een nummer. Dit is standaard 5. 
+Kies  in het deelvenster  Beleid bewerken de optie Bewerken naast toegangsbesturingselement voor Office-documenten, vouw Beheren hoe gebruikers toegang hebben tot **Office-bestanden** op mobiele apparaten uit en zorg ervoor dat Pincode opnieuw instellen nadat het aantal mislukte pogingen **is** ingesteld op een nummer.  Dit is standaard 5. 
   
-1. Open Outlook op het iOS-apparaat van de gebruiker en meld u aan met de Microsoft 365 Business Premium-referenties van de gebruiker.
+1. Open in het iOS-apparaat van de gebruiker Outlook en meld u aan met de Microsoft 365 Business Premium referenties van de gebruiker.
     
 2. Voer net zo vaak een onjuiste pincode in als is aangegeven in het beleid. U ziet een prompt met de melding **Pincode pogingslimiet bereikt om** de pincode opnieuw in te stellen. 
     
     ![After too many incorrect PIN attempts, you need to reset your PIN.](../media/fab5c089-a4a5-4e8d-8c95-b8eed1dfa262.png)
   
-3. Druk op **OK**. U wordt gevraagd u aan te melden met de Microsoft 365 Business Premium-referenties van de gebruiker en vervolgens een nieuwe pincode in te stellen.
+3. Druk op **OK**. U wordt gevraagd u aan te melden met de Microsoft 365 Business Premium gebruikersreferenties en vervolgens een nieuwe pincode in te stellen.
     
 ### <a name="validate-force-users-to-save-all-work-files-to-onedrive-for-business"></a>Gebruikers dwingen om alle werkbestanden op te slaan in OneDrive voor Bedrijven valideren
 
@@ -167,33 +167,33 @@ Kies in het deelvenster **Beleid bewerken** de optie **Bewerken** naast **Beveil
   
 ![Verify that Force users to save all work files to OneDrive for Business is set to On.](../media/7140fa1d-966d-481c-829f-330c06abb5a5.png)
   
-1. Open Outlook op het iOS-apparaat van de gebruiker en meld u aan met de Microsoft 365 Business Premium-referenties van de gebruiker en voer desgevraagd een pincode in.
+1. Open in het iOS-apparaat van de gebruiker Outlook en meld u aan met de referenties van de gebruiker Microsoft 365 Business Premium en voer een pincode in indien daarom wordt gevraagd.
     
 2. Open een e-mailbericht met een bijlage, open de bijlage en kies **Opslaan** onderaan het scherm. 
     
     ![Tap the Save option after you open an attachment to try to save it.](../media/b419b070-1530-4f14-86a8-8d89933a2b25.png)
   
-3. U ziet alleen een optie voor OneDrive voor Bedrijven. Zo niet, tikt **u op Account** toevoegen en **selecteert u OneDrive voor Bedrijven** in het scherm **Opslagaccount** toevoegen. Geef microsoft 365 Business Premium van de eindgebruiker op om u aan te melden wanneer u daarom wordt gevraagd. 
+3. U ziet alleen een optie voor OneDrive voor Bedrijven. Zo niet, tikt **u op Account** toevoegen en **selecteert u OneDrive voor Bedrijven** in het scherm Storage **account** toevoegen. Geef de eindgebruiker de Microsoft 365 Business Premium om u aan te melden wanneer u daarom wordt gevraagd. 
     
     Tik op **Opslaan** en selecteer **OneDrive voor Bedrijven**.
     
 ### <a name="validate-require-user-to-sign-in-again-if-office-apps-have-been-idle-for-a-specified-time"></a>Vereisen dat gebruikers zich opnieuw aanmelden als Office-apps inactief zijn geweest gedurende een opgegeven tijd valideren
 
-Kies **in** het deelvenster  Beleid bewerken de optie Bewerken naast Toegangsbeheer voor **Office-documenten,** vouw Beheren hoe gebruikers Toegang krijgen tot **Office-bestanden** op mobiele apparaten uit en zorg ervoor dat Gebruikers opnieuw moeten aanmelden nadat **Office-apps** niet actief zijn geweest, is ingesteld op een aantal minuten. Dit is standaard 30 minuten. 
+Kies  in het deelvenster  Beleid bewerken de optie Bewerken naast toegangsbesturingselement **voor Office-documenten,** vouw Beheren hoe gebruikers toegang hebben tot **Office-bestanden** op mobiele apparaten uit en zorg ervoor dat Gebruikers opnieuw moeten aanmelden nadat **Office-apps** niet actief zijn geweest, is ingesteld op een aantal minuten. Dit is standaard 30 minuten. 
   
-1. Open Outlook op het iOS-apparaat van de gebruiker en meld u aan met de Microsoft 365 Business Premium-referenties van de gebruiker en voer desgevraagd een pincode in.
+1. Open in het iOS-apparaat van de gebruiker Outlook en meld u aan met de referenties van de gebruiker Microsoft 365 Business Premium en voer een pincode in indien daarom wordt gevraagd.
     
 2. U ziet nu het Postvak IN van Outlook. Gebruik het iOS-apparaat minimaal 30 minuten niet (of een andere tijdsduur, langer dan wat u hebt opgegeven in het beleid). Het apparaat wordt waarschijnlijk gedimd.
     
-3. Open Outlook opnieuw op het iOS-apparaat.
+3. Access Outlook weer op het iOS-apparaat.
     
-4. U wordt gevraagd uw pincode in te voeren voordat u Outlook opnieuw kunt openen.
+4. U wordt gevraagd uw pincode in te voeren voordat u weer toegang hebt tot Outlook toegang.
     
 ### <a name="validate-protect-work-files-with-encryption"></a>Werkbestanden beveiligen met versleuteling valideren
 
 Kies in het deelvenster **Beleid bewerken** de optie **Bewerken** naast **Beveiliging bij verlies of diefstal van apparaten**, vouw **Werkbestanden beveiligen bij verlies of diefstal van apparaten** uit en zorg ervoor dat **Werkbestanden beveiligen met versleuteling** is ingesteld op **Aan** en **Gebruikers dwingen om alle werkbestanden op te slaan in OneDrive voor Bedrijven** is ingesteld op **Uit**.
   
-1. Open Outlook op het iOS-apparaat van de gebruiker en meld u aan met de Microsoft 365 Business Premium-referenties van de gebruiker en voer desgevraagd een pincode in.
+1. Open in het iOS-apparaat van de gebruiker Outlook en meld u aan met de referenties van de gebruiker Microsoft 365 Business Premium en voer een pincode in indien daarom wordt gevraagd.
     
 2. Open een e-mailbericht met een paar bijlagen in het afbeeldingsbestand.
     

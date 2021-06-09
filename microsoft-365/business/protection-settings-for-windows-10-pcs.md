@@ -1,5 +1,5 @@
 ---
-title: Instellingen voor apparaatbeveiliging bewerken of maken voor Windows 10-pc's
+title: Instellingen voor apparaatbeveiliging bewerken of maken voor Windows 10 pc's
 f1.keywords:
 - NOCSH
 ms.author: sharik
@@ -22,7 +22,7 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: bd66c26c-73a4-45a8-8642-3ea4ee7cd89d
-description: Meer informatie over instellingen die beschikbaar zijn in Microsoft 365 voor Bedrijven om Windows 10-apparaten te beveiligen.
+description: Meer informatie over instellingen die beschikbaar zijn in Microsoft 365 voor bedrijven om uw Windows 10 beveiligen.
 ms.openlocfilehash: acfb27b2e4592d4ed1e446a63c9495ae07d916de
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -30,15 +30,15 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 04/02/2021
 ms.locfileid: "51578222"
 ---
-# <a name="edit-or-create-device-protection-settings-for-windows-10-pcs"></a>Instellingen voor apparaatbeveiliging bewerken of maken voor Windows 10-pc's
+# <a name="edit-or-create-device-protection-settings-for-windows-10-pcs"></a>Instellingen voor apparaatbeveiliging bewerken of maken voor Windows 10 pc's
 
 Dit artikel is van toepassing op Microsoft 365 Business Premium.
 
-Nadat u standaardinstellingen voor Windows-beveiliging hebt ingesteld op de pagina Setup, kunt u nieuwe instellingen toevoegen die van toepassing zijn op alle gebruikers of een set gebruikers. U kunt ook alle gemaakte bewerkingen bewerken.
+Nadat u standaardbeveiligingsinstellingen Windows ingesteld op de pagina Setup, kunt u nieuwe instellingen toevoegen die van toepassing zijn op alle gebruikers of een set gebruikers. U kunt ook alle gemaakte bewerkingen bewerken.
 
-## <a name="create-protection-settings-for-windows-10-devices"></a>Beveiligingsinstellingen maken voor Windows 10-apparaten
+## <a name="create-protection-settings-for-windows-10-devices"></a>Beveiligingsinstellingen maken voor Windows 10 apparaten
 
-Bekijk een video over het beveiligen van Windows 10-apparaten met Microsoft 365 Business Premium:
+Bekijk een video over het beveiligen van Windows 10 apparaten met Microsoft 365 Business Premium:
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/a5734146-620a-4cec-8618-536b3ca37972?autoplay=false]
   
@@ -55,18 +55,18 @@ Bekijk een video over het beveiligen van Windows 10-apparaten met Microsoft 365 
 6. Bepaal nu **Voor wie zijn deze instellingen?** Als u niet de standaardbeveiligingsgroep **Alle gebruikers** wilt gebruiken, kies **Wijzigen**, zoek de beveiligingsgroep die deze instellingen ontvangt \> **Selecteer**.
 7. Kies ten slotte, **Klaar** om het beleid op te slaan en dit toe te wijzen aan apparaten. 
 
-## <a name="edit-windows-10-protection-settings"></a>Beveiligingsinstellingen voor Windows 10 bewerken
+## <a name="edit-windows-10-protection-settings"></a>Beveiligingsinstellingen Windows 10 bewerken
  
 1. Ga naar het beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.     
 2. Kies in de  linkernavigatienavigatie de optie \> **Apparatenbeleid.**
-1. Kies een bestaand Windows-apparaatbeleid en vervolgens **Bewerken.**
+1. Kies een bestaand Windows apparaatbeleid en vervolgens **Bewerken.**
 1. Kies **Bewerken** naast een instelling die u wilt wijzigen en klik vervolgens op **Opslaan.**
 
 ## <a name="available-settings"></a>Beschikbare instellingen
 
 Alle instellingen zijn standaard **ingeschakeld**. De volgende instellingen zijn beschikbaar.
   
-Zie Beveiligingsfuncties [in Microsoft 365 Premium](map-protection-features-to-intune-settings.md)in kaart brengen naar Intune-instellingen voor meer informatie. 
+Zie Hoe kunnen beveiligingsfuncties [in Microsoft 365 Premium Intune-instellingen](map-protection-features-to-intune-settings.md)voor meer informatie. 
   
 |||
 |:-----|:-----|

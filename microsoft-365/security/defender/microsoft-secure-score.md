@@ -122,7 +122,7 @@ Met alleen-lezen toegang kunt u de status of notities niet bewerken voor een ver
 * Servicebeheerder
 * Beveiligingslezer
 * Beveiligingsoperator
-* Globale lezer
+* Algemene lezer
 
 ## <a name="risk-awareness"></a>Risicobewustzijn
 

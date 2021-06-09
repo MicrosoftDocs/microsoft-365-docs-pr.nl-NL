@@ -96,7 +96,7 @@ Als beheerder kunt u Onbelangrijke e-mail opnieuw inschakelen met Exchange Power
     
   - Instellingen voor Onbelangrijke e-mail worden weergegeven
     
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Onbelangrijke e-mail gebruiken om](https://support.microsoft.com/office/7b50c5db-7704-4e55-8a1b-dfc7bf1eafa0) berichten met een lage prioriteit te sorteren in Outlook (artikel)\
 [Onbelangrijke e-mail gebruiken om](https://support.microsoft.com/office/fe4d64ca-bf73-48f1-91b4-9a659e008bce) berichten met een lage prioriteit te sorteren in OWA (artikel)\

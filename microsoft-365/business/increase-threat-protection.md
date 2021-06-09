@@ -79,7 +79,7 @@ Een regel voor e-mailtransport maken:
 
 5. Pas de instellingen in de volgende tabel voor de regel toe. Gebruik de standaardwaarden voor de rest van de instellingen, tenzij u deze wilt wijzigen.
 
-6. Kies **Opslaan**.
+6. Klik op **Opslaan**.
 
 |Instelling|Gebruikers waarschuwen voordat ze bijlagen van Office openen||
 |---|---|---|
@@ -111,7 +111,7 @@ Als u een regel voor e-mailtransport wilt maken, [bekijkt](../business-video/sto
 
 5. Pas de instellingen in de volgende tabel toe. Gebruik de standaardwaarden voor de rest van de instellingen, tenzij u deze wilt wijzigen.
 
-6. Kies **Opslaan**.
+6. Klik op **Opslaan**.
 
 |Instelling|Gebruikers waarschuwen voordat ze bijlagen van Office openen|
 |---|---|
@@ -145,7 +145,7 @@ Als u een anti-phishingbeleid wilt maken in Microsoft Defender voor Office 365, 
 |Instelling of optie|Aanbevolen instelling|
 |---|---|
 |Naam|Domein en meest waardevolle campagnemedewerkers|
-|Omschrijving|Zorg ervoor dat het belangrijkste personeel en ons domein niet worden nagebootst.|
+|Beschrijving|Zorg ervoor dat het belangrijkste personeel en ons domein niet worden nagebootst.|
 |Gebruikers toevoegen om ze te beveiligen|Selecteer **+ Een voorwaarde toevoegen, De ontvanger is**. Typ gebruikersnamen of voer het e-mailadres in van de kandidaat, campagnemanager en andere belangrijke personeelsleden. U kunt maximaal 20 interne en externe adressen toevoegen die u wilt beschermen tegen imitatie.|
 |Domeinen toevoegen om te beveiligen|Selecteer **+ Een voorwaarde toevoegen, Het domein van de geadresseerde is**. Voer het aangepaste domein in dat is gekoppeld aan Microsoft 365-abonnement, als u er een hebt gedefinieerd. U kunt meer dan één domein invoeren.|
 |Acties kiezen|Als e-mail wordt verzonden door een nagebootste gebruiker: Kies **Bericht omleiden** naar een ander e-mailadres en typ vervolgens het e-mailadres van de beveiligingsbeheerder; bijvoorbeeld: *<span> <span> Els @contoso.com.* Als e-mail wordt verzonden door een nagebootsd domein: Kies **Quarantainebericht.**|
@@ -176,7 +176,7 @@ Als u een Safe bijlagebeleid wilt maken, bekijkt u [deze korte video](../busines
 |Instelling of optie|Aanbevolen instelling|
 |---|---|
 |Naam|Huidige en toekomstige e-mailberichten blokkeren met gedetecteerde malware.|
-|Omschrijving|Blokkeer huidige en toekomstige e-mailberichten en bijlagen met gedetecteerde malware.|
+|Beschrijving|Blokkeer huidige en toekomstige e-mailberichten en bijlagen met gedetecteerde malware.|
 |Bijlages opslaan onbekende malwarereactie|Selecteer **Blokkeren: blokkeer de huidige en toekomstige e-mailberichten en bijlagen met gedetecteerde malware.**|
 |Bijlage omleiden bij detectie|Omleiding inschakelen (selecteer dit vak) Voer het beheerdersaccount of een postvakinstelling in voor quarantaine.          Pas de bovenstaande selectie toe als er malware wordt gescand op bijlagen of als er een fout optreedt (schakel dit vakje in).|
 |Toegepast op|Het domein van de geadresseerde is . . . selecteer uw domein.|
@@ -207,7 +207,7 @@ Het standaardbeleid wijzigen:
 
 2. Selecteer onder Instellingen die van toepassing zijn op **inhoud,** behalve **e-mail, Microsoft 365-apps voor ondernemingen, Office voor iOS en Android.**
 
-3. Kies **Opslaan**.
+3. Klik op **Opslaan**.
 
 Een nieuw beleid maken dat is gericht op alle geadresseerden in uw domein:
 
@@ -215,7 +215,7 @@ Een nieuw beleid maken dat is gericht op alle geadresseerden in uw domein:
 
 2. Pas de instellingen toe die in de volgende tabel worden vermeld.
 
-3. Kies **Opslaan**.
+3. Klik op **Opslaan**.
 
 |Instelling of optie|Aanbevolen instelling|
 |---|---|

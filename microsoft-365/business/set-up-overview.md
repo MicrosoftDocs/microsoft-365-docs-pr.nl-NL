@@ -40,7 +40,7 @@ Bekijk een korte video over het Microsoft 365 Business Premium instellen.<br><br
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4jZwg] 
 
-Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../business-video/index.yml).
+Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../business-video/index.yml).
 
 De meeste installatiestappen kunnen worden uitgevoerd in de begeleide installatie, maar de andere opties worden ook weergegeven.
 

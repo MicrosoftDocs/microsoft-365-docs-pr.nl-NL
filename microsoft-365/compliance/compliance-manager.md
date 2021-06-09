@@ -150,7 +150,7 @@ Compliance manager is beschikbaar in de volgende talen:
 - Hungarian
 - Italian
 - Japans
-- Koreaans
+- Koreaks
 - Noors
 - Polish
 - Portugees (Braziliaans)
@@ -166,4 +166,4 @@ Lees hoe u zich kunt aanmelden, machtigingen en rollen kunt toewijzen, instellin
 
 Pas Vervolgens Compliance Manager aan om u te helpen voldoen aan industriestandaarden die het belangrijkst zijn voor uw organisatie door [evaluaties in te stellen.](compliance-manager-assessments.md)
 
-Om u te helpen voldoen aan de privacyregels voor gegevens, hebben we een werkstroom ontworpen om u te begeleiden bij een end-to-endproces voor het plannen en implementeren van mogelijkheden in Microsoft 365, waaronder compliancebeheer. Zie Informatiebeveiliging [](../solutions/information-protection-deploy.md) implementeren voor privacyregels voor gegevens met Microsoft 365 (aka.ms/m365dataprivacy). 
+Om u te helpen voldoen aan de privacyregels voor gegevens, hebben we een werkstroom ontworpen om u te begeleiden bij een end-to-endproces voor het plannen en implementeren van mogelijkheden in Microsoft 365, waaronder compliancebeheer. Raadpleeg voor meer informatie [Informatiebescherming voor regelgeving voor gegevensbescherming implementeren met Microsoft 365](../solutions/information-protection-deploy.md) (aka.ms/m365dataprivacy). 

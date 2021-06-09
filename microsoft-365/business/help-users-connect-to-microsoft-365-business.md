@@ -37,12 +37,12 @@ ms.locfileid: "51578442"
 ---
 # <a name="help-users-connect-to-microsoft-365-business-premium"></a>Gebruikers helpen verbinding te maken met Microsoft 365 Business Premium
 
-Nadat u de installatie hebt voltooid, is uw standaardbeleid voor apparaten van toepassing. Op mobiele apparaten downloaden gebruikers Office-apps. Beleid wordt vervolgens toegepast wanneer de gebruiker zich aan meldt met zijn of haar werk- of schoolaccount. Voordat beleid wordt toegepast op Windows-pc's, is er nog wat extra werk vereist, zoals het uitvoeren van een in-place upgrade. Bekijk en deel de volgende onderwerpen om gebruikers te helpen bij het instellen en verbinden:
+Nadat u de installatie hebt voltooid, is uw standaardbeleid voor apparaten van toepassing. Op mobiele apparaten downloaden gebruikers Office apps. Beleid wordt vervolgens toegepast wanneer de gebruiker zich aan meldt met zijn of haar werk- of schoolaccount. Voordat beleid wordt toegepast op Windows-pc's, is er nog wat extra werk vereist, zoals het uitvoeren van een in-place upgrade. Bekijk en deel de volgende onderwerpen om gebruikers te helpen bij het instellen en verbinden:
   
-[Windows-apparaten instellen voor Gebruikers van Microsoft 365 Business Premium](set-up-windows-devices.md)
+[Apparaten Windows instellen voor Microsoft 365 Business Premium gebruikers](set-up-windows-devices.md)
   
 [De stapsgewijze handleiding gebruiken om Autopilot-apparaten en -profielen toe te voegen](add-autopilot-devices-and-profile.md)
   
-[Mobiele apparaten instellen voor Gebruikers van Microsoft 365 Business Premium](set-up-mobile-devices.md)
+[Mobiele apparaten instellen voor Microsoft 365 Business Premium gebruikers](set-up-mobile-devices.md)
   
 

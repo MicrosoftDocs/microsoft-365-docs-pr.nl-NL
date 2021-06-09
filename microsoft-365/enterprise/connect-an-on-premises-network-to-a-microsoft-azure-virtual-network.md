@@ -1,5 +1,5 @@
 ---
-title: Een on-premises netwerk verbinden met een virtueel Microsoft Azure-netwerk
+title: Verbinding maken een on-premises netwerk naar een Microsoft Azure virtueel netwerk
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -19,7 +19,7 @@ ms.custom:
 - Ent_Solutions
 - seo-marvel-apr2020
 ms.assetid: 81190961-5454-4a5c-8b0e-6ae75b9fb035
-description: 'Overzicht: Informatie over het configureren van een cross-premises Azure-virtueel netwerk voor office-serverwerkbelastingen met een site-naar-site VPN-verbinding.'
+description: 'Overzicht: Informatie over het configureren van een cross-premises Azure-virtueel netwerk voor Office serverwerkbelastingen met een SITE-naar-site VPN-verbinding.'
 ms.openlocfilehash: 00fd1c2246e9e9ac3eb55ca5ece9d84ecf49a1d3
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -27,7 +27,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50907706"
 ---
-# <a name="connect-an-on-premises-network-to-a-microsoft-azure-virtual-network"></a>Een on-premises netwerk verbinden met een virtueel Microsoft Azure-netwerk
+# <a name="connect-an-on-premises-network-to-a-microsoft-azure-virtual-network"></a>Verbinding maken een on-premises netwerk naar een Microsoft Azure virtueel netwerk
 
 Er is een cross-premises Azure-virtueel netwerk verbonden met uw on-premises netwerk, dat uw netwerk uitbreidt tot subnetten en virtuele machines die worden gehost in Azure-infrastructuurservices. Met deze verbinding hebben computers op uw on-premises netwerk rechtstreeks toegang tot virtuele machines in Azure en vice versa. 
 
@@ -37,7 +37,7 @@ Een adreslijstsynchronisatieserver die op een virtuele Azure-computer wordt uitg
 
 Uw virtuele machines in Azure hoeven niet te worden geïsoleerd van uw on-premises omgeving. Als u virtuele Azure-machines wilt verbinden met uw on-premises netwerkbronnen, moet u een lokaal virtueel Azure-netwerk configureren. In het volgende diagram ziet u de vereiste onderdelen voor het implementeren van een cross-premises Azure-virtueel netwerk met een virtuele computer in Azure.
   
-![On-premises netwerk dat is verbonden met Microsoft Azure via een SITE-naar-site VPN-verbinding](../media/86ab63a6-bfae-4f75-8470-bd40dff123ac.png)
+![On-premises netwerk verbonden met Microsoft Azure via een SITE-naar-site VPN-verbinding](../media/86ab63a6-bfae-4f75-8470-bd40dff123ac.png)
  
 In het diagram zijn er twee netwerken verbonden via een site-naar-site VPN-verbinding: het on-premises netwerk en het virtuele Azure-netwerk. De SITE-naar-site VPN-verbinding is:
 
@@ -210,7 +210,7 @@ Dit is de resulterende configuratie.
 ### <a name="phase-2-create-the-cross-premises-virtual-network-in-azure"></a>Fase 2: het cross-premises virtuele netwerk maken in Azure
 <a name="Phase2"></a>
 
-Open eerst een Azure PowerShell-prompt. Zie Aan de slag met [Azure PowerShell](/powershell/azure/get-started-azureps)als u Azure PowerShell niet hebt geïnstalleerd.
+Open eerst een Azure PowerShell prompt. Zie Aan de slag met Azure PowerShell als u deze [Azure PowerShell.](/powershell/azure/get-started-azureps)
 
  
 Meld u vervolgens aan bij uw Azure-account met deze opdracht.
@@ -320,7 +320,7 @@ Dit is de resulterende configuratie.
   
 ### <a name="phase-3-optional-add-virtual-machines"></a>Fase 3 (optioneel): Virtuele machines toevoegen
 
-Maak de virtuele machines die u nodig hebt in Azure. Zie Een virtuele Windows-computer maken met [de Azure-portal](https://go.microsoft.com/fwlink/p/?LinkId=393098)voor meer informatie.
+Maak de virtuele machines die u nodig hebt in Azure. Zie Een virtuele Windows maken met [de Azure-portal](https://go.microsoft.com/fwlink/p/?LinkId=393098)voor meer informatie.
   
 Gebruik de volgende instellingen:
   
@@ -336,4 +336,4 @@ Dit is de resulterende configuratie.
   
 ## <a name="next-step"></a>Volgende stap
   
-[Microsoft 365 Directory-synchronisatie implementeren in Microsoft Azure](deploy-microsoft-365-directory-synchronization-dirsync-in-microsoft-azure.md)
+[De Microsoft 365 adreslijstsynchronisatie implementeren in Microsoft Azure](deploy-microsoft-365-directory-synchronization-dirsync-in-microsoft-azure.md)

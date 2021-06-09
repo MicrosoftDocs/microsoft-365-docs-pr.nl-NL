@@ -54,5 +54,5 @@ Volg deze stappen voor het converteren van het postvak van de gebruiker [naar ee
 2. Selecteer de naam van de werknemer die u wilt blokkeren en selecteer vervolgens het **tabblad E-mail.**
 3. Selecteer **onder E-mail doorsturen** de optie **E-mail doorsturen beheren.**
 4. Schakel **Alle naar dit postvak verzonden e-mail doorsturen** in. Typ in **het vak** Adres doorsturen het e-mailadres van de huidige werknemer die de e-mail gaat ontvangen.
-5. Kies **Opslaan**.
+5. Klik op **Opslaan**.
 6. Vergeet niet dat u het account van de voormalige werknemer dient te behouden.

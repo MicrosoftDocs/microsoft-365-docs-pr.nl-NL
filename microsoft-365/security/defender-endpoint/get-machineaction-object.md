@@ -65,7 +65,7 @@ GET https://api.securitycenter.microsoft.com/api/machineactions/{id}
 
 ## <a name="request-headers"></a>Kopteksten aanvragen
 
-Naam | Type | Omschrijving
+Naam | Type | Beschrijving
 :---|:---|:---
 Autorisatie | Tekenreeks | Bearer {token}. **Vereist**.
 

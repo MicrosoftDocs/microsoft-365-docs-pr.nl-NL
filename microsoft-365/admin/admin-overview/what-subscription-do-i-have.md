@@ -39,7 +39,7 @@ Als u een beheerder bent, kunt u controleren welke abonnementen uw organisatie h
 3. Als u de kolommen in de lijst wilt wijzigen, selecteert u **Kolommen kiezen.** Wijzig de selectie van kolommen en selecteer **Opslaan.**
 4. Als u meer details wilt zien voor één abonnement, selecteert u dat abonnement.
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
   
 [Abonnementen en facturering](../../commerce/index.yml) (koppelingen)\
 [Uw rekening of factuur bekijken](../../commerce/billing-and-payments/view-your-bill-or-invoice.md) (artikel)\

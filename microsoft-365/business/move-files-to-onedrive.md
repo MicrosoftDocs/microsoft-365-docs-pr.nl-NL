@@ -37,7 +37,7 @@ Bekijk een korte video over het verplaatsen van bestanden naar OneDrive voor Bed
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/d74b083c-1f44-43ea-8a14-2e1fc600b341] 
 
-Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../business-video/index.yml).
+Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../business-video/index.yml).
 
 
 ## <a name="move-files-to-onedrive-for-business"></a>Bestanden verplaatsen naar OneDrive voor Bedrijven

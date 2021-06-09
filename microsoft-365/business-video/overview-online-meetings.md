@@ -73,7 +73,7 @@ U kunt een chat eenvoudig converteren in Microsoft Teams naar een vergadering. K
 
 Hebt u hulp nodig? Zie [Een gesprek starten vanuit een chatgesprek in Teams.](https://support.microsoft.com/office/f5138c9d-df4c-43d8-9cf6-53400c1a7798)
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-articles"></a>Aanverwante artikelen
 
 [Vergaderingen in Microsoft Teams](/microsoftteams/tutorial-meetings-in-teams)
 

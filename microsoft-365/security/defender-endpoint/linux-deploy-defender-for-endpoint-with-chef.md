@@ -23,7 +23,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 04/20/2021
 ms.locfileid: "51903926"
 ---
-# <a name="deploy-defender-for-endpoint-on-linux-with-chef"></a>Defender voor eindpunt implementeren op Linux met Chef
+# <a name="deploy-defender-for-endpoint-on-linux-with-chef"></a>Defender voor Eindpunt implementeren op Linux met Chef
 
 Voordat u begint:
 
@@ -37,7 +37,7 @@ Nadat het kookboek is gemaakt, maakt u een map met bestanden in de map met kookb
 
 `mkdir mdatp/files`
 
-Breng het Zip-bestand Linux Server Onboarding over dat kan worden gedownload van de Microsoft Defender Security Center-portal naar deze map met nieuwe bestanden.
+Breng het Zip-bestand Linux Server Onboarding over dat kan worden gedownload van de Microsoft Defender-beveiligingscentrum portal naar deze map met nieuwe bestanden.
 
 Ga op het werkstation van Kok naar de map mdatp/recepten. Deze map wordt gemaakt wanneer het kookboek is gegenereerd. Gebruik de gewenste teksteditor (zoals vi of nano) om de volgende instructies toe te voegen aan het einde van het standaard.rb-bestand:
 -   include_recipe '::onboard_mdatp'
@@ -127,7 +127,7 @@ end
 Als u deze stap wilt opnemen als onderdeel van het recept, voegt u include_recipe ':: settings_mdatp' toe aan uw standaard.rb-bestand in de receptmap.
 U kunt crontab ook gebruiken om automatische updates te plannen Een update van microsoft Defender voor Eindpunt [(Linux) plannen.](linux-update-MDE-Linux.md)
 
-MDATP-kookboek verwijderen:
+Verwijder MDATP kookboek:
 
 ```powershell
 #Uninstall the Defender package

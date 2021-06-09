@@ -206,7 +206,7 @@ Als u van plan bent uw on-premises Active Directory te synchroniseren met Micros
 > [!NOTE]
 >  Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Een domein overbrengen van Micrsoft 365 naar een andere host](../get-help-with-domains/transfer-a-domain-from-microsoft-to-another-host.md) (artikel)\
 [Pilot Microsoft 365 van mijn aangepaste domein](../misc/pilot-microsoft-365-from-my-custom-domain.md) (artikel)\

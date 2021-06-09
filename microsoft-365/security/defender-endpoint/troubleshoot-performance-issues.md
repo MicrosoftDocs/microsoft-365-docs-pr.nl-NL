@@ -122,7 +122,7 @@ Procesmonitor (ProcMon) is een geavanceerd monitoringprogramma waarmee realtime-
         > 
         >![Procmon minimaliseren](images/procmon-minimize.png)
     
-7. Nadat u een van de procedures in stap 6 hebt gevolgd, ziet u de volgende optie om filters in te stellen. Selecteer **OK**. U kunt de resultaten altijd filteren nadat de opname is voltooid.
+7. Nadat u een van de procedures in stap 6 hebt gevolgd, ziet u de volgende optie om filters in te stellen. Selecteer **OK**. U kunt de resultaten altijd filteren nadat de opname is voltooid.
  
     ![Procesnaam filteren is Systeem uitsluiten](images/procmon-filter-options.png) 
 
@@ -220,7 +220,7 @@ U kunt ook het opdrachtregelprogramma *wpr.exegebruiken,* dat beschikbaar is in 
     >[!TIP]
     >Houd de gegevensverzameling tot niet meer dan vijf minuten. Twee tot drie minuten is een goed bereik omdat er veel gegevens worden verzameld.
 
-12. Selecteer **Opslaan**.
+12. Klik op **Opslaan**.
 
     ![Opslaan selecteren](images/wpr-10.png)
 
@@ -229,7 +229,7 @@ U kunt ook het opdrachtregelprogramma *wpr.exegebruiken,* dat beschikbaar is in 
     ![Details opvullen](images/wpr-12.png)
 
     1. Selecteer **Bestandsnaam:** om te bepalen waar het trace-bestand wordt opgeslagen. Standaard wordt de 1.is opgeslagen in `%user%\Documents\WPR Files\` .
-    1. Selecteer **Opslaan**.
+    1. Klik op **Opslaan**.
 
 14. Wacht totdat de trace wordt samengevoegd.
 

@@ -35,7 +35,7 @@ Houd informatie bij en organiseer het werk met Microsoft-lijsten. Maak een nieuw
 
 1. Selecteer **Nieuw.**
 1. Voeg details over de bestelling toe.
-1. Kies **Opslaan**.
+1. Klik op **Opslaan**.
 
 ### <a name="share-the-list-with-partners-or-coworkers"></a>De lijst delen met partners of collega's
 

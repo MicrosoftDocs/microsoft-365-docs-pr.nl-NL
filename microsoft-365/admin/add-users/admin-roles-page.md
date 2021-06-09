@@ -58,7 +58,7 @@ Dit is geen volledige lijst met alle machtigingen die deze rollen hebben. Select
 
 Wijs de Exchange beheerdersrol toe aan gebruikers die de e-mailpostvakken, Microsoft 365 groepen en Exchange Online. Ze kunnen ook serviceaanvragen voor Microsoft-ondersteuning openen en beheren. [Meer informatie](/microsoft-365/admin/add-users/about-exchange-online-admin-role)
 
-### <a name="global-admin"></a>Bedrijfsbeheerder
+### <a name="global-admin"></a>Algemeen beheerder
 
 Wijs de rol van globale beheerder toe aan gebruikers die globale toegang nodig hebben tot de meeste beheerfuncties en gegevens in de onlineservices van Microsoft. Te veel gebruikers globale toegang geven is een beveiligingsrisico, we raden u dan ook aan om 2 tot 4 globale beheerders te hebben. Alleen globale beheerders kunnen wachtwoorden opnieuw instellen voor alle gebruikers en domeinen toevoegen en beheren. Ze kunnen ook serviceaanvragen voor Microsoft-ondersteuning openen en beheren. De persoon die zich heeft aangemeld voor Microsoft Online Services, wordt automatisch een globale beheerder. [Meer informatie](/microsoft-365/admin/add-users/about-admin-roles#roles-available-in-the-microsoft-365-admin-center)
 
@@ -96,7 +96,7 @@ In het beheercentrum:
 
 ![Een afbeelding met een vergelijking van beheerdersrollen](../../media/compare-roles-list.png)
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Over Microsoft 365 beheerdersrollen](about-admin-roles.md) (artikel)\
 [Beheerdersrollen toewijzen](assign-admin-roles.md) (artikel)

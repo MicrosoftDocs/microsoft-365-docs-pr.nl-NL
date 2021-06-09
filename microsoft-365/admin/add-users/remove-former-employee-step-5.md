@@ -41,6 +41,6 @@ Als uw voormalige werknemer een organisatietelefoon had, kunt u het Exchange-beh
 2. Ga in het Exchange-beheercentrum naar **Ontvangers** \> **Postvakken**.
 3. Selecteer de gebruiker en selecteer onder **Mobiele apparaten** de optie **Details weergeven.**
 4. Selecteer op **de pagina Details van** mobiele apparaten onder Mobiele **apparaten** het mobiele apparaat, selecteer **Apparaat** wissen en selecteer ![ vervolgens ](../../media/1c113a36-53cb-4974-884f-3ecd9535506e.png) **Blokkeren.**
-5. Kies **Opslaan**.
+5. Klik op **Opslaan**.
    > [!TIP]
    > Zorg ervoor dat u de gebruiker uit uw on-premises Blackberry Enterprise Service verwijdert of uit schakelt. U moet ook alle Blackberry-apparaten voor de gebruiker uitschakelen. Raadpleeg de beheerhandleiding voor de Blackberry Business Cloud Services als u specifieke stappen moet uitvoeren voor het uitschakelen van de gebruiker.

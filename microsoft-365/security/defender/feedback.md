@@ -1,6 +1,6 @@
 ---
 title: Feedback geven over Microsoft 365 Defender
-description: Productfeedback geven op Microsoft 365 Defender
+description: Productfeedback geven over Microsoft 365 Defender
 keywords: feedback, m365-beveiliging, beveiliging, 365, mogelijkheden
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security

@@ -238,7 +238,7 @@ Als een apparaat verloren gaat of wordt gestolen, kunt u gevoelige organisatiege
 
 Zie Een mobiel apparaat [wissen in Basismobiliteit en Beveiliging voor meer informatie.](wipe-mobile-device.md)
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Overzicht van basismobiliteit en](overview.md) beveiliging voor Microsoft 365 (artikel)\
 [Apparaatbeveiligingsbeleid maken in Basismobiliteit en Beveiliging](create-device-security-policies.md) (artikel)

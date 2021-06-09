@@ -39,7 +39,7 @@ ms.locfileid: "51578082"
 
 ## <a name="device-file-error-messages"></a>Foutberichten van apparaatbestand
 
-Hier vindt u informatie over enkele fouten die u kunt zien tijdens het werken met AutoPilot-apparaatbestanden in Microsoft 365 Business Premium. 
+Hier vindt u informatie over enkele fouten die u mogelijk ziet tijdens het werken met AutoPilot-apparaatbestanden in Microsoft 365 Business Premium. 
   
 |**Foutcode**|**Fix om te proberen**|
 |:-----|:-----|
@@ -47,5 +47,5 @@ Hier vindt u informatie over enkele fouten die u kunt zien tijdens het werken me
 |De hashwaarde voor hardware voor een apparaat is niet correct.  <br/> |Als u deze fout ziet, betekent dit dat de waarde die u hebt opgegeven in uw CSV-bestand voor de hardware-hash van één apparaat, niet juist is. Controleer eerst of de waarde correct is getypt. Als u denkt dat de waarde juist is, maar deze fout nog steeds wordt weergegeven, vraagt u uw hardwareleverancier om hulp.  <br/> |
 |Apparaat dat is toegewezen aan een andere tenant  <br/> |Als u deze fout ziet, betekent dit dat de waarde die u hebt opgegeven in uw CSV-bestand voor het serienummer of de productcode van een of meer apparaten niet juist is. Controleer eerst of de waarde correct is getypt. Als u denkt dat de waarde juist is, maar deze fout nog steeds wordt weergegeven, vraagt u uw hardwareleverancier om hulp.  <br/> |
 |Het CSV-bestand bevat een ongeldig serienummer of productcode  <br/> |Als u deze fout ziet, betekent dit dat het apparaat dat u wilt registreren al is geregistreerd door een andere organisatie. Als u deze fout wilt oplossen, vraagt u uw hardwareleverancier om hulp.  <br/> |
-|Dit apparaat wordt niet ondersteund voor het instellen met Behulp van AutoPilot  <br/> | Deze fout betekent dat het apparaat niet voldoet aan de implementatievereisten voor AutoPilot. Apparaten moeten aan deze vereisten voldoen:  <br/>  Windows 10 versie 1703 of hoger.  <br/>  Nieuwe apparaten die niet out-of-box ervaring met Windows hebben gehad.  <br/> |
+|Dit apparaat wordt niet ondersteund voor het instellen met Behulp van AutoPilot  <br/> | Deze fout betekent dat het apparaat niet voldoet aan de implementatievereisten voor AutoPilot. Apparaten moeten aan deze vereisten voldoen:  <br/>  Windows 10 versie 1703 of hoger.  <br/>  Nieuwe apparaten die nog niet zijn Windows-out-of-box-ervaring.  <br/> |
 |Apparaat niet gevonden  <br/> |Deze fout betekent dat een of meer apparaten in uw CSV-bestand niet zijn geregistreerd bij uw organisatie. Als u dit wilt oplossen, vraagt u uw hardwareleverancier om hulp.  <br/> |

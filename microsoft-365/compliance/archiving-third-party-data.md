@@ -122,7 +122,7 @@ Met [de functie recordbeheer](records-management.md) in Microsoft 365 kunt u geg
 
 U kunt communicatie [compliance gebruiken](communication-compliance.md) om gegevens van derden te onderzoeken om te controleren of deze voldoen aan de gegevensstandaarden van uw organisatie. U kunt dit doen door ongepaste berichten in uw organisatie te detecteren, vast te leggen en herstelacties uit te voeren. U kunt bijvoorbeeld de gegevens van derden controleren die u importeert voor aanstootgevende taal, gevoelige informatie en naleving van regelgeving.
 
-### <a name="insider-risk-management"></a>Beheer van insider-risico's
+### <a name="insider-risk-management"></a>Intern risicobeheer
 
 Signalen van gegevens van derden, zoals selectieve HR-gegevens, kunnen worden gebruikt door de [Insider-oplossing](insider-risk-management.md) voor risicobeheer om interne risico's te minimaliseren door u te laten detecteren, onderzoeken en handelen op risicovolle activiteiten in uw organisatie. Gegevens die door de HR-gegevensconnector worden geïmporteerd, worden bijvoorbeeld gebruikt als risicoindicatoren om te helpen bij het opsporen van diefstal van vertrekkende werknemersgegevens.
 

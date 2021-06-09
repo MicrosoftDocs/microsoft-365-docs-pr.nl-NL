@@ -52,7 +52,7 @@ U moet een globale [beheerder of wachtwoordbeheerder zijn om](about-admin-roles.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3AY8S]
 
-Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../../business-video/index.yml).
+Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../../business-video/index.yml).
 
 ## <a name="steps-let-people-reset-their-own-passwords"></a>Stappen: Personen hun eigen wachtwoorden opnieuw laten instellen
 
@@ -75,5 +75,5 @@ Met deze stappen wordt selfservice voor wachtwoordherstel ingeschakeld voor iede
 ## <a name="related-content"></a>Verwante onderwerpen
 
 [Het wachtwoordverloopbeleid voor uw organisatie](../manage/set-password-expiration-policy.md) instellen (artikel)\
-[Het wachtwoord van een afzonderlijke gebruiker instellen op nooit verlopen](set-password-to-never-expire.md) (artikel)\
+[Het wachtwoord van een individuele gebruiker zo instellen dat het nooit verloopt](set-password-to-never-expire.md) (artikel)\
 [Microsoft 365 Business trainingsvideo's](../../business-video/index.yml) (koppelingspagina)

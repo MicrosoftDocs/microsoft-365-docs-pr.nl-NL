@@ -1,5 +1,5 @@
 ---
-title: Hoe beleidsregels in Microsoft 365 voor Bedrijven bedrijfsgegevens beveiligen
+title: Hoe beleid in Microsoft 365 voor bedrijven bedrijfsgegevens beschermt
 f1.keywords:
 - NOCSH
 ms.author: sharik
@@ -34,13 +34,13 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 04/02/2021
 ms.locfileid: "51578422"
 ---
-# <a name="how-policies-in-microsoft-365-for-business-protect-company-data"></a>Hoe beleidsregels in Microsoft 365 voor Bedrijven bedrijfsgegevens beveiligen
+# <a name="how-policies-in-microsoft-365-for-business-protect-company-data"></a>Hoe beleid in Microsoft 365 voor bedrijven bedrijfsgegevens beschermt
 
 Dit artikel is van toepassing op Microsoft 365 Business Premium.
 
 Het beleid dat u definieert, geldt specifiek voor het apparaattype en kan worden toegepast op specifieke groepen gebruikers. Dit betekent dat u één beleid kunt definiëren dat geldt voor uw managers en een tweede beleid dat van toepassing is op alle andere gebruikers.
   
-Voor Android- en iOS-apparaten kunt u beleid voor toepassingen toevoegen of bewerken ter bescherming van Office-apps en werkbestanden die door Office-apps worden gebruikt. We kunnen Windows 10-apparaten iets meer beheren, dus toepassingsbeleid kan meer instellingen bevatten, zoals versleuteling en beveiliging voor netwerk- en cloudlocaties. U kunt ook apparaatbeleid voor Windows 10-apparaten maken met instellingen voor virusbeveiliging en automatische updates. We raden u aan het beleid dat tijdens de installatie is gemaakt, bij te houden, maar als u uw beleid wilt afstemmen of meer wilt toevoegen, bekijkt u deze artikelen:
+Voor Android- en iOS-apparaten kunt u beleid voor toepassingen toevoegen of bewerken ter bescherming van Office-apps en werkbestanden die door Office-apps worden gebruikt. We kunnen meer controle Windows 10 apparaten, zodat toepassingsbeleid meer instellingen kan bevatten, zoals versleuteling en beveiliging voor netwerk- en cloudlocaties. U kunt ook apparaatbeleid voor Windows 10-apparaten maken met instellingen voor virusbeveiliging en automatische updates. We raden u aan het beleid dat tijdens de installatie is gemaakt, bij te houden, maar als u uw beleid wilt afstemmen of meer wilt toevoegen, bekijkt u deze artikelen:
   
 [App-configuraties instellen voor Android- of iOS-apparaten](app-protection-settings-for-android-and-ios.md)
   

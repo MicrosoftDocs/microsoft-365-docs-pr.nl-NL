@@ -26,7 +26,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: aa31319c-9196-48c9-a90b-4057e0494c7a
-description: Meer informatie over beveiligingsbeleid waarmee u kunt beheren hoe gebruikers toegang hebben tot Office-apps en bestanden werken vanaf mobiele apparaten.
+description: Meer informatie over beveiligingsbeleid waarmee u kunt beheren hoe gebruikers toegang hebben tot Office apps en bestanden werken vanaf mobiele apparaten.
 ms.openlocfilehash: a48aa241c9e70cf087da3f1701e859dae7238024
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -47,10 +47,10 @@ De volgende instellingen zijn beschikbaar om te bepalen hoe gebruikers toegang t
 |||
 |:-----|:-----|
 |Instelling  <br/> |Beschrijving  <br/> |
-|Een pincode of vingerafdruk vereisen om toegang te krijgen tot Office-apps  <br/> |Als deze instelling **Aan** is, moeten gebruikers een andere vorm van verificatie opgeven, naast hun gebruikersnaam en wachtwoord, voordat ze Office-apps op hun mobiele apparaat kunnen gebruiken.  <br/> |
+|Een pincode of vingerafdruk vereisen om toegang te krijgen tot Office-apps  <br/> |Als deze instelling **Aan** is, moeten gebruikers een andere vorm van verificatie opgeven, naast hun gebruikersnaam en wachtwoord, voordat ze Office apps op hun mobiele apparaat kunnen gebruiken.  <br/> |
 |Pincode opnieuw instellen wanneer het aanmelden ... keer mislukt  <br/> |Om te voorkomen dat een niet-geautoriseerde gebruiker een pincode kan raden, wordt de pincode opnieuw ingesteld na het aantal door u opgegeven verkeerde aanmeldpogingen.  <br/> |
 |Vereisen dat gebruikers zich opnieuw aanmelden als Office-apps inactief zijn geweest gedurende  <br/> |Met deze instelling wordt bepaald hoelang een gebruiker inactief kan zijn voordat hij of zij wordt gevraagd zich opnieuw aan te melden.  <br/> |
 |Toegang weigeren tot werkbestanden op jailbroken of geroote apparaten  <br/> |Slimme gebruikers hebben mogelijk een jailbroken of geroot apparaat. Dit betekent dat de gebruiker het besturingssysteem kan wijzigen, waardoor het apparaat gevoeliger kan zijn voor malware. Deze apparaten worden geblokkeerd wanneer deze instelling is **ingeschakeld**.  <br/> |
-|Gebruikers mogen geen inhoud van Office-apps kopiëren naar persoonlijke apps  <br/> |Wanneer de instelling **Aan** is, kan de gebruiker geen gegevens in een werkbestand kopiëren naar een persoonlijk bestand. Als de instelling **Uit** is, kan de gebruiker gegevens uit een werkbestand kopiëren naar een persoonlijke app of persoonlijk account.  <br/> |
+|Gebruikers mogen geen inhoud kopiëren van Office apps naar persoonlijke apps  <br/> |Wanneer de instelling **Aan** is, kan de gebruiker geen gegevens in een werkbestand kopiëren naar een persoonlijk bestand. Als de instelling **Uit** is, kan de gebruiker gegevens uit een werkbestand kopiëren naar een persoonlijke app of persoonlijk account.  <br/> |
    
 

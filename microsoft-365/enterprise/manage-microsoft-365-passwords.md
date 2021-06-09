@@ -1,5 +1,5 @@
 ---
-title: Wachtwoorden voor gebruikersaccounts van Microsoft 365 beheren
+title: Wachtwoorden Microsoft 365 gebruikersaccount beheren
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -21,7 +21,7 @@ search.appverid:
 - MED150
 - BCS160
 ms.assetid: 98ca5b3f-f720-4d8e-91be-fe656548a25a
-description: Meer informatie over het beheren van wachtwoorden voor gebruikersaccounts van Microsoft 365.
+description: Meer informatie over het beheren van wachtwoorden Microsoft 365 gebruikersaccount.
 ms.openlocfilehash: 2062da49310121ec18f7ce21f523531f10d6df9b
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -29,11 +29,11 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50905090"
 ---
-# <a name="manage-microsoft-365-user-account-passwords"></a>Wachtwoorden voor gebruikersaccounts van Microsoft 365 beheren
+# <a name="manage-microsoft-365-user-account-passwords"></a>Wachtwoorden Microsoft 365 gebruikersaccount beheren
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-U kunt wachtwoorden voor gebruikersaccounts van Microsoft 365 op verschillende manieren beheren, afhankelijk van uw identiteitsconfiguratie. U kunt gebruikersaccounts beheren in het [Microsoft 365-beheercentrum](../admin/add-users/index.yml), in Ad DS (Active Directory Domain Services) of in het Azure Active Directory-beheercentrum (Azure AD).
+U kunt wachtwoorden Microsoft 365 gebruikersaccount op verschillende manieren beheren, afhankelijk van uw identiteitsconfiguratie. U kunt gebruikersaccounts beheren in [Microsoft 365](../admin/add-users/index.yml)beheercentrum , in Ad DS (Active Directory Domain Services) of in het Azure Active Directory (Azure AD)-beheercentrum.
 
 ## <a name="plan-for-where-and-how-you-will-manage-your-user-account-passwords"></a>Plannen voor waar en hoe u wachtwoorden voor uw gebruikersaccount gaat beheren
 

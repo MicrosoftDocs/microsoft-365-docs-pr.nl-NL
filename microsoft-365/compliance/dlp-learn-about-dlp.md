@@ -56,14 +56,14 @@ Alle DLP-gecontroleerde activiteiten worden standaard opgenomen in [het Microsof
 
 Een DLP-implementatie volgt meestal deze belangrijke fasen.
 
-- [Plannen voor DLP](#plan-for-dlp)
+- [Plan voor DLP](#plan-for-dlp)
 - [Voorbereiden op DLP](#prepare-for-dlp)
 - [Uw beleid implementeren in productie](#deploy-your-policies-in-production)
 
 
 <!--ADD DIAGRAM OF THE DLP LIFECYCLE WORK ON WITH MAS-->
 
-### <a name="plan-for-dlp"></a>Plannen voor DLP
+### <a name="plan-for-dlp"></a>Plan voor DLP
 
 Microsoft 365 DLP-monitoring en -beveiliging zijn inheems in de toepassingen die gebruikers elke dag gebruiken. Dit helpt om de gevoelige items van uw organisatie te beschermen tegen riskante activiteiten, zelfs als uw gebruikers niet zijn gewend aan preventie van gegevensverlies. Als uw organisatie en uw gebruikers nieuw zijn op het gebied van preventie van gegevensverlies, kan het nodig zijn om DLP aan te passen aan uw bedrijfsprocessen en is er een cultuurverschuiving voor uw gebruikers. Maar met de juiste planning, testen en afstemmen beschermt uw DLP-beleid uw gevoelige items en minimaliseert u eventuele verstoringen van bedrijfsprocessen.
 
@@ -87,10 +87,10 @@ U kunt DLP-beleid toepassen op gegevens in rust, gegevens in gebruik en gegevens
 
 - Exchange Online e-mail
 - SharePoint Onlinesites
-- OneDrive accounts
+- OneDrive-accounts
 - Teams chat- en kanaalberichten
 - Microsoft Cloud App Security
-- Windows 10 apparaten
+- Windows 10-apparaten
 - On-premises opslagplaatsen
 
 Elk heeft verschillende vereisten. Gevoelige items op sommige locaties, zoals Exchange online, kunnen onder de paraplu van DLP worden gebracht door gewoon een beleid te configureren dat op hen van toepassing is. Voor andere bestanden, zoals on-premises bestandsitories, is een implementatie van AIP-scanner (Azure Information Protection) vereist. U moet uw omgeving voorbereiden, conceptbeleid coderen en deze grondig testen voordat u eventuele blokkeringsacties activeert.
@@ -134,11 +134,11 @@ U hebt flexibiliteit in de manier waarop u uw DLP-beleid maakt en configureert. 
     
 locatie | opnemen/uitsluiten door|
 |---------|---------|
-|Exchange e-mail| distributiegroepen|
+|Exchange-e-mail| distributiegroepen|
 |SharePoint sites |sites |
-|OneDrive accounts |accounts of distributiegroepen |
+|OneDrive-accounts |accounts of distributiegroepen |
 |Teams chat- en kanaalberichten |accounts |
-|Windows 10 apparaten |gebruiker of groep |
+|Windows 10-apparaten |gebruiker of groep |
 |Microsoft Cloud App Security |exemplaar |
 |On-premises opslagplaatsen| archiefbestandspad|
 
@@ -182,12 +182,12 @@ DLP rapporteert een grote hoeveelheid informatie in Microsoft 365 monitoring, be
 Wanneer DLP een actie onderneemt voor een gevoelig item, kunt u hiervan op de hoogte worden gesteld via een configureerbare waarschuwing. In plaats van dat deze waarschuwingen zich in een postvak opstapelen om door te sissen, stelt het Compliancecentrum deze beschikbaar in het [DLP Alerts Management Dashboard.](dlp-configure-view-alerts-policies.md) Gebruik het DLP-waarschuwingendashboard om waarschuwingen te configureren, te controleren, te triagen en de resolutie van DLP-waarschuwingen bij te houden. Hier volgen een voorbeeld van waarschuwingen die worden gegenereerd door beleidswedstrijden en activiteiten van Windows 10 apparaten.
 
 > [!div class="mx-imgBorder"]
-> ![Waarschuwingsgegevens](../media/Alert-info-1.png)
+> ![Waarschuwingsinformatie](../media/Alert-info-1.png)
 
-U kunt ook details van de bijbehorende gebeurtenis weergeven met uitgebreide metagegevens in hetzelfde dashboard
+U kunt ook details van de bijbehorende gebeurtenis met uitgebreide metagegevens in hetzelfde dashboard bekijken
 
 > [!div class="mx-imgBorder"]
-> ![gebeurtenisgegevens](../media/Event-info-1.png)
+> ![gebeurtenisinformatie](../media/Event-info-1.png)
 
 ### <a name="reports"></a>Rapporten
 
@@ -210,7 +210,7 @@ Zie voor meer informatie Microsoft 365 DLP:
 - [Meer informatie over Microsoft 365 Eindpunt-DLP](endpoint-dlp-learn-about.md)
 - [Meer informatie over het standaard preventiebeleid voor gegevensverlies in Microsoft Teams (preview)](dlp-teams-default-policy.md)
 - [Meer informatie over de on-premises scanner voor Microsoft 365 preventie van gegevensverlies (preview)](dlp-on-premises-scanner-learn.md)
-- [Meer informatie over de Microsoft-compliance-extensie (preview)](dlp-chrome-learn-about.md)
+- [Meer informatie over Microsoft compliance-extensie (preview)](dlp-chrome-learn-about.md)
 - [Meer informatie over het Waarschuwingen-dashboard voor preventie van gegevensverlies](dlp-alerts-dashboard-learn.md)
 
 Zie Informatiebeveiliging implementeren voor privacyregels voor gegevens met [](../solutions/information-protection-deploy.md) Microsoft 365 (aka.ms/m365dataprivacy).

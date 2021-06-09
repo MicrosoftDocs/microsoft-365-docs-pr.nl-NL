@@ -1,5 +1,5 @@
 ---
-title: Windows 10 en Office 365 implementatielabkit
+title: Lab kit voor de implementatie van Windows 10 en Office 365
 f1.keywords:
 - NOCSH
 ms.author: greglin
@@ -22,7 +22,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 06/04/2021
 ms.locfileid: "52770671"
 ---
-# <a name="windows-10-and-office-365-deployment-lab-kit"></a>Windows 10 en Office 365 implementatielabkit
+# <a name="windows-10-and-office-365-deployment-lab-kit"></a>Lab kit voor de implementatie van Windows 10 en Office 365
 
 De Windows 10 en Office 365 implementatie labkit is ontworpen om u te helpen bij het plannen, testen en valideren van de implementatie en het beheer van bureaubladen met Windows 10 Enterprise en Microsoft 365-apps voor ondernemingen. De labs in de kit cover met Microsoft Endpoint Configuration Manager, Desktop Analytics, het Office Customization Tool, OneDrive, Windows Autopilot en meer.
 

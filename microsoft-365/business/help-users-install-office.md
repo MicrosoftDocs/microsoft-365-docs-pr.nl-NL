@@ -46,7 +46,7 @@ Bekijk een korte video over het installeren van Office apps.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/acce002c-0756-4b64-ac5d-2198ee96a9b1] 
 
-Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../business-video/index.yml).
+Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../business-video/index.yml).
 
 ## <a name="manage-office-deployments"></a>Office-implementaties beheren
 

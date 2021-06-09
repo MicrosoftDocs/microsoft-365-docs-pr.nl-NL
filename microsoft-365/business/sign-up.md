@@ -54,7 +54,7 @@ Bekijk deze video voor een kort overzicht van het aanmeldingsproces.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3znhX] 
 
-Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 Als u zich wilt registreren en Microsoft 365 voor uw bedrijf, gaat u als volgt te werk:
 

@@ -51,7 +51,7 @@ Als u een uitnodiging Microsoft Teams om lid te worden van een team, zijn er een
 1. Open de Microsoft Teams app en kies **Ja** om over te schakelen naar het team waar u voor bent uitgenodigd.  U kunt nu samenwerken aan het project in Teams.
 1. Als u wilt teruggaan naar het team van uw bedrijf, selecteert u deze in  **de**  vervolgkeuzekeuzeknop Organisatie.
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Gastervaring in Teams](/microsoftteams/guest-experience) (artikel)\
 [Beheer Microsoft Teams instellingen voor uw organisatie](/microsoftteams/enable-features-office-365) (artikel)\
