@@ -1,6 +1,6 @@
 ---
-title: ServiceNow-tickets integreren in het Microsoft 365-beveiligingscentrum en compliancecentrum
-description: Meer informatie over het maken en bijhouden van tickets in ServiceNow vanuit het Microsoft 365-beveiligingscentrum en compliancecentrum.
+title: ServiceNow-tickets integreren in Microsoft 365 beveiligingscentrum en compliancecentrum
+description: Meer informatie over het maken en bijhouden van tickets in ServiceNow vanuit het Microsoft 365 beveiligingscentrum en compliancecentrum.
 keywords: beveiliging, Microsoft 365, M365, compliance, compliancecentrum, beveiligingscentrum, ServiceNow, tickets, taken, SNOW, verbinding
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -27,12 +27,12 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 04/02/2021
 ms.locfileid: "51569865"
 ---
-# <a name="integrate-servicenow-tickets-into-the-microsoft-365-security-center-and-compliance-center"></a><span data-ttu-id="fb4cf-104">ServiceNow-tickets integreren in het Microsoft 365-beveiligingscentrum en compliancecentrum</span><span class="sxs-lookup"><span data-stu-id="fb4cf-104">Integrate ServiceNow tickets into the Microsoft 365 security center and compliance center</span></span>
+# <a name="integrate-servicenow-tickets-into-the-microsoft-365-security-center-and-compliance-center"></a><span data-ttu-id="6f180-104">ServiceNow-tickets integreren in Microsoft 365 beveiligingscentrum en compliancecentrum</span><span class="sxs-lookup"><span data-stu-id="6f180-104">Integrate ServiceNow tickets into the Microsoft 365 security center and compliance center</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 >[!CAUTION]
-><span data-ttu-id="fb4cf-105">**De voorbeeldperiode voor de ServiceNow-connector is beëindigd**</span><span class="sxs-lookup"><span data-stu-id="fb4cf-105">**The preview period for the ServiceNow connector has ended**</span></span><br>
-><span data-ttu-id="fb4cf-106">Deze mogelijkheid is niet meer beschikbaar.</span><span class="sxs-lookup"><span data-stu-id="fb4cf-106">This capability is no longer available.</span></span> <span data-ttu-id="fb4cf-107">Bedankt voor uw feedback en verdere ondersteuning terwijl we de volgende stappen bepalen.</span><span class="sxs-lookup"><span data-stu-id="fb4cf-107">Thank you for your feedback and continued support while we determine next steps.</span></span>
+><span data-ttu-id="6f180-105">**De voorbeeldperiode voor de ServiceNow-connector is beëindigd**</span><span class="sxs-lookup"><span data-stu-id="6f180-105">**The preview period for the ServiceNow connector has ended**</span></span><br>
+><span data-ttu-id="6f180-106">Deze mogelijkheid is niet meer beschikbaar.</span><span class="sxs-lookup"><span data-stu-id="6f180-106">This capability is no longer available.</span></span> <span data-ttu-id="6f180-107">Bedankt voor uw feedback en verdere ondersteuning terwijl we de volgende stappen bepalen.</span><span class="sxs-lookup"><span data-stu-id="6f180-107">Thank you for your feedback and continued support while we determine next steps.</span></span>
 
-<span data-ttu-id="fb4cf-108">ServiceNow is een populair cloud computing-platform waarmee bedrijven digitale werkstromen voor zakelijke bewerkingen kunnen beheren.</span><span class="sxs-lookup"><span data-stu-id="fb4cf-108">ServiceNow is a popular cloud computing platform that helps companies manage digital workflows for enterprise operations.</span></span> <span data-ttu-id="fb4cf-109">Hun Now-platform heeft IT-werkstromen, werkstromen voor werknemers en klantwerkstromen.</span><span class="sxs-lookup"><span data-stu-id="fb4cf-109">Their Now platform has IT workflows, employee workflows, and customer workflows.</span></span>
+<span data-ttu-id="6f180-108">ServiceNow is een populair cloud computing-platform waarmee bedrijven digitale werkstromen voor zakelijke bewerkingen kunnen beheren.</span><span class="sxs-lookup"><span data-stu-id="6f180-108">ServiceNow is a popular cloud computing platform that helps companies manage digital workflows for enterprise operations.</span></span> <span data-ttu-id="6f180-109">Hun Now-platform heeft IT-werkstromen, werkstromen voor werknemers en klantwerkstromen.</span><span class="sxs-lookup"><span data-stu-id="6f180-109">Their Now platform has IT workflows, employee workflows, and customer workflows.</span></span>
