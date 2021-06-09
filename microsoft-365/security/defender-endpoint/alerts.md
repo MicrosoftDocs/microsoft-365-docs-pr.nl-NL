@@ -39,7 +39,7 @@ ms.locfileid: "52769807"
 
 ## <a name="methods"></a>Methoden
 
-Methode |Retourtype |Omschrijving
+Methode |Retourtype |Beschrijving
 :---|:---|:---
 [Waarschuwing ontvangen](get-alert-info-by-id.md) | [Waarschuwingsweergave](alerts.md) | Eén [waarschuwingsobject](alerts.md) krijgen.
 [Lijstwaarschuwingen](get-alerts.md) | [Waarschuwingsverzameling](alerts.md) | [Lijstwaarschuwingsverzameling.](alerts.md)
@@ -55,7 +55,7 @@ Methode |Retourtype |Omschrijving
 
 ## <a name="properties"></a>Eigenschappen
 
-Eigenschap |    Type    |    Omschrijving
+Eigenschap |    Type    |    Beschrijving
 :---|:---|:---
 id | Tekenreeks | Waarschuwings-id.
 titel | Tekenreeks | Waarschuwingstitel.

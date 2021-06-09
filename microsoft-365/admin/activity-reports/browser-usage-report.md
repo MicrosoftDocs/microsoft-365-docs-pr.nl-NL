@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365-rapporten in het beheercentrum - Browsergebruik van Microsoft
+title: Microsoft 365 Rapporten in het beheercentrum - Browsergebruik van Microsoft
 ms.author: waxiaoyu
 author: sarahwxy
 manager: scotv
@@ -17,7 +17,7 @@ search.appverid:
 - MET150
 - MOE150
 - GEA150
-description: Lees hoe u een browsergebruiksrapport van Microsoft kunt krijgen met behulp van het Dashboard Microsoft 365-rapporten in het Microsoft 365-beheercentrum.
+description: Meer informatie over het downloaden van een Microsoft-browsergebruiksrapport met behulp Microsoft 365 dashboard Rapporten in het Microsoft 365 beheercentrum.
 ms.openlocfilehash: f655a3951dc58ddd5089c8034db64af3840ebf7d
 ms.sourcegitcommit: 9adb89206daa075af34a73bcb7e8fb86d7c2919a
 ms.translationtype: MT
@@ -25,28 +25,28 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/10/2021
 ms.locfileid: "50606216"
 ---
-# <a name="microsoft-365-reports-in-the-admin-center---microsoft-browser-usage"></a>Microsoft 365-rapporten in het beheercentrum - Browsergebruik van Microsoft
+# <a name="microsoft-365-reports-in-the-admin-center---microsoft-browser-usage"></a>Microsoft 365 Rapporten in het beheercentrum - Browsergebruik van Microsoft
 
-In het Dashboard  Microsoft 365-rapporten ziet u een overzicht van de activiteiten in alle producten in uw organisatie. U kunt inzoomen op rapporten op het niveau van afzonderlijke producten om een gedetailleerder inzicht te krijgen in de activiteiten binnen elk product. Bekijk [het overzichtsonderwerp over rapporten](activity-reports.md). In het browsergebruiksrapport van Microsoft krijgt u meer inzicht in Internet Explorer, de oudere versie van Microsoft Edge en het nieuwe Microsoft Edge-gebruik. Gebruiksrapportage is gebaseerd op onlineservices van Microsoft 365 die worden geopend via een Microsoft-browser.
+In Microsoft 365 **dashboard Rapporten** ziet u een overzicht van activiteiten voor de producten in uw organisatie. Hiermee kunt u inzoomen op afzonderlijke rapporten op productniveau om u gedetailleerder inzicht te geven in de activiteiten binnen elk product. Bekijk [het overzichtsonderwerp over rapporten](activity-reports.md). In het rapport Browsergebruik van Microsoft kunt u inzichten krijgen in Internet Explorer, Microsoft Edge (oudere versie) en nieuw Microsoft Edge gebruik. Gebruiksrapportage is gebaseerd op Microsoft 365 onlineservices die worden geopend via een Microsoft-browser.
 
  > [!NOTE]
- > U moet een globale beheerder, globale lezer of rapportenlezer in Microsoft 365 of een beheerder van Exchange, SharePoint of Skype voor Bedrijven zijn om rapporten te kunnen zien.
+ > U moet een globale beheerder, globale lezer of rapportlezer zijn in Microsoft 365 of een Exchange, SharePoint of Skype voor Bedrijven beheerder om rapporten te zien.
 
-## <a name="how-to-get-to-the-microsoft-browser-usage-report"></a>Hoe u naar het browsergebruiksrapport van Microsoft gaat
+## <a name="how-to-get-to-the-microsoft-browser-usage-report"></a>Het browsergebruiksrapport van Microsoft openen
 
 1. Ga in het beheercentrum naar de pagina **Rapporten** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Gebruik</a>. 
-2. Klik op de startpagina van het dashboard op **de knop** Meer weergeven op de browsergebruikskaart van Microsoft.
+2. Klik op de startpagina van het dashboard op **de knop Meer** weergeven op de microsoft-browsergebruikskaart.
 
-## <a name="interpret-the-microsoft-browser-usage-report"></a>Het rapport Browsergebruik van Microsoft interpreteren
+## <a name="interpret-the-microsoft-browser-usage-report"></a>Het browsergebruiksrapport van Microsoft interpreteren
 
 ![Rapport Browsergebruik van Microsoft](../../media/95557c88-24ee-417d-a828-96ba00b17aaf.png)
 
 |Item|Beschrijving|
  |:-----|:-----|
- |1. <br/> |In **het browsergebruiksrapport** van Microsoft kunnen trends worden weergegeven voor de laatste 7, 30, 90 of 180 dagen.  <br/> |
- |2. <br/> |De gegevens in elk rapport zijn meestal tot de laatste zeven dagen bedekt. <br/> |
- |3. <br/> |In **de grafiek Met dagelijkse** actieve gebruikers ziet u het dagelijkse aantal gebruikers voor Microsoft Edge, Oudere microsoft Edge en Internet Explorer wanneer deze worden gebruikt voor toegang tot Microsoft 365-services. <br/> |
- |4.<br/>|In de grafiek **Actieve** gebruikers ziet u het totale aantal gebruikers dat Microsoft Edge, oudere Microsoft Edge en Internet Explorer gebruikt voor toegang tot Microsoft 365-services in de geselecteerde periode.<br/>|
- |5.<br/>|De tabel toont een uitsplitsing van de gegevens per gebruiker. U kunt kolommen toevoegen aan of verwijderen uit de tabel. <br/><br/>**Gebruikersnaam** is het e-mailadres van de gebruiker die via Microsoft-browsers verbinding heeft gemaakt met Microsoft 365-services.<br><br/>**Gebruikt Microsoft Edge toont** een vinkje als de gebruiker Microsoft Edge heeft gebruikt om verbinding te maken met Microsoft 365-services.<br/><br/>**Gebruikt Microsoft Edge Legacy toont** een vinkje als de gebruiker Microsoft Edge Legacy heeft gebruikt om verbinding te maken met Microsoft 365-services.<br/><br/>**Gebruikt Internet Explorer heeft** een vinkje weergegeven als de gebruiker Internet Explorer heeft gebruikt om verbinding te maken met Microsoft 365-services. |
- |6.<br/>|Selecteer het **pictogram Kolommen kiezen** om kolommen toe te voegen aan of te verwijderen uit het rapport.|
- |7.<br/>|U kunt de rapportgegevens ook exporteren naar een CSV-bestand van Excel door de **koppeling Exporteren te** selecteren. Hiermee exporteert u gegevens voor alle gebruikers en kunt u eenvoudige aggregatie, sortering en filtering uitvoeren voor verdere analyse. Als u minder dan honderd gebruikers hebt, kunt u in de tabel in het rapport zelf sorteren en filteren. Als u meer dan honderd gebruikers hebt, moet u de gegevens exporteren om te kunnen filteren en sorteren.|
+ |1. <br/> |Het **browsergebruiksrapport van Microsoft** kan worden bekeken voor trends in de afgelopen 7, 30, 90 of 180 dagen.  <br/> |
+ |2. <br/> |De gegevens in elk rapport hebben meestal betrekking op de laatste zeven dagen. <br/> |
+ |3. <br/> |In **de grafiek** Dagelijkse actieve gebruikers ziet u het dagelijkse aantal gebruikers voor Microsoft Edge, Microsoft Edge (oudere versie) en Internet Explorer wanneer deze worden gebruikt voor toegang tot Microsoft 365 services. <br/> |
+ |4.<br/>|In **de** grafiek Actieve gebruikers ziet u het totale aantal gebruikers dat Microsoft Edge, Microsoft Edge (oudere versie) en Internet Explorer gebruikt voor toegang tot Microsoft 365 services in de geselecteerde periode.<br/>|
+ |5.<br/>|De tabel toont een uitsplitsing van de gegevens per gebruiker. U kunt kolommen toevoegen aan of verwijderen uit de tabel.  <br/><br/>**Gebruikersnaam** is het e-mailadres van de gebruiker die verbinding heeft gemaakt met Microsoft 365 services met Behulp van Microsoft-browsers.<br><br/>**Gebruikte Microsoft Edge** toont een vinkje als de gebruiker Microsoft Edge gebruikt om verbinding te maken met Microsoft 365 services.<br/><br/>**Gebruikte Microsoft Edge (oudere versie)** toont een vinkje als de gebruiker Microsoft Edge (oudere versie) gebruikt om verbinding te maken met Microsoft 365 services.<br/><br/>**In Gebruikte Internet Explorer** wordt een vinkje weergegeven als de gebruiker Internet Explorer heeft gebruikt om verbinding te maken met Microsoft 365 services. |
+ |6.<br/>|Selecteer het **pictogram Kolommen kiezen** om kolommen toe te voegen of te verwijderen uit het rapport.|
+ |7.<br/>|U kunt de rapportgegevens ook exporteren naar een Excel .csv bestand door de **koppeling Exporteren te** selecteren. Hiermee exporteert u gegevens voor alle gebruikers en kunt u eenvoudige aggregatie, sorteren en filteren voor verdere analyse. Als u minder dan 100 gebruikers hebt, kunt u sorteren en filteren in de tabel in het rapport zelf. Als u meer dan 100 gebruikers hebt, moet u de gegevens exporteren om te kunnen filteren en sorteren.|

@@ -43,7 +43,7 @@ Met een gedeelde agenda kunt u snel zien wanneer personen beschikbaar zijn voor 
 1. U kunt nu uw agenda en de agenda's weergeven voor de personen die u hebt toegevoegd.
 1. Als u de beschikbaarheid van uw groep wilt controleren, kiest u de **weergave** Dag.
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Uw agenda en contactpersonen beheren in Outlook](https://support.microsoft.com/office/manage-your-calendar-and-contacts-in-outlook-631a182a-21e0-4e41-8fa2-0d83e55da02d) (artikel)\
 [E-mailsamenwerking](../admin/email/email-collaboration.md) (artikel)\

@@ -191,7 +191,7 @@ Er zijn enkele gevallen waarin DL wel in aanmerking komt, maar niet kan worden b
 
 De upgrade vindt alleen plaats als de oproep naar de server wordt verzonden. Als de upgrade mislukt, worden de distributielijsten niet gewijzigd. Ze blijven op dezelfde manier werken.
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Groepen vergelijken](../create-groups/compare-groups.md) (artikel)\
 [Uitleg over Microsoft 365 groepen aan uw gebruikers](../create-groups/explain-groups-knowledge-worker.md) (artikel)\

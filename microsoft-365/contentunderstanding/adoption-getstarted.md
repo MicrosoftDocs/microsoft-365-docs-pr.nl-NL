@@ -125,7 +125,7 @@ Als u klaar wilt zijn voor de implementatie SharePoint Syntex, moet u het volgen
     - Plan voor het benutten van de waarde van geëxtraheerde metagegevens met:
       - Zoeken
       - Opmaak filteren en weergeven
-      - Naleving
+      - Compliance
       - Automatisering
 2. Identificeren
     - Inzicht in bestaande functies voor informatiearchitectuur en inhoudsbeheer.

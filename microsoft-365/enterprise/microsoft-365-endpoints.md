@@ -18,7 +18,7 @@ ms.custom:
 - Ent_TLGs
 - seo-marvel-apr2020
 ms.assetid: ''
-description: Voor doel-IP-adressen en Url's voor Microsoft 365-verkeer gebruikt u deze lijst met artikelen voor de Internet eindpunten van de verschillende Microsoft 365-wolken.
+description: Gebruik deze lijst met artikelen voor de internet-eindpunten van de verschillende Microsoft 365 voor doel-IP-adressen en URL's voor Microsoft 365 verkeer.
 ms.openlocfilehash: 159c8e7dea6fe241ab44b283b1193397c3ad70e3
 ms.sourcegitcommit: a76de3d1604d755b29053e7bf557c0008be6ad23
 ms.translationtype: MT
@@ -30,28 +30,28 @@ ms.locfileid: "49787901"
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-Eindpunten zijn de set doel-IP-adressen, DNS-domeinnamen en Url's voor Microsoft 365-verkeer op internet. 
+Eindpunten zijn de set doel-IP-adressen, DNS-domeinnamen en URL's voor Microsoft 365 verkeer op internet. 
 
-Voor het optimaliseren van de prestaties van de cloudservices van Microsoft 365 is voor deze eindpunten speciale behandeling nodig voor de clientbrowsers en de apparaten in het Edge-netwerk. Deze apparaten zijn firewalls, SSL-onderbreking en inspectie-en pakket controleapparaten, en systemen voor preventie van gegevensverlies.
+Als u de prestaties wilt optimaliseren Microsoft 365 cloudservices, hebben deze eindpunten speciale verwerking nodig door uw clientbrowsers en de apparaten in uw edge-netwerk. Deze apparaten omvatten firewalls, SSL-apparaten voor het breken en controleren en controleren van pakketten en preventiesystemen voor gegevensverlies.
 
-Zie [Microsoft 365-eindpunten beheren](managing-office-365-endpoints.md) voor de details.
+Zie [Beheer Microsoft 365 eindpunten](managing-office-365-endpoints.md) voor de details.
 
-Er zijn momenteel vijf verschillende Microsoft 365-wolken. In deze tabel vindt u een lijst met eindpunten voor elk item.
+Er zijn momenteel vijf verschillende Microsoft 365 wolken. Met deze tabel gaat u naar de lijst met eindpunten voor elk eindpunt.
 
-| Cloudwitness | Beschrijving |
+| Cloud | Beschrijving |
 |:-------|:-----|
-| [Wereldwijde eindpunten](urls-and-ip-address-ranges.md) | De eindpunten voor wereldwijd Microsoft 365-abonnementen, waaronder de Amerikaanse Government Cloud Cloud (GCC) van de Verenigde Staten. |
-| [Eindpunten voor U.S. Government DoD](microsoft-365-u-s-government-dod-endpoints.md) | De eindpunten voor de Nederlandse afdeling van de defensie (DoD). |
-| [Eindpunten voor U.S. Government GCC High](microsoft-365-u-s-government-gcc-high-endpoints.md) | De eindpunten voor de Verenigde Staten Government Community High (GCC High)-abonnementen. |
-| [Microsoft 365 beheerd door 21Vianet-eindpunten](urls-and-ip-address-ranges-21vianet.md) | De eindpunten voor Microsoft 365, beheerd door 21Vianet, die zijn ontworpen om te voldoen aan de behoeften van Microsoft 365 in China. |
-| [Microsoft 365 Duitsland-eindpunten](microsoft-365-germany-endpoints.md) | De eindpunten voor een aparte Cloud in Europa voor de meest gereglementeerde klanten in Duitsland, de Europese Unie (EU) en de Europese gratis Trade Association (EVA). |
+| [Wereldwijde eindpunten](urls-and-ip-address-ranges.md) | De eindpunten voor wereldwijde Microsoft 365 abonnementen, waaronder de Verenigde Staten Government Community Cloud (GCC). |
+| [Eindpunten voor U.S. Government DoD](microsoft-365-u-s-government-dod-endpoints.md) | De eindpunten voor abonnementen van het Amerikaanse ministerie van Defensie (DoD). |
+| [Eindpunten voor U.S. Government GCC High](microsoft-365-u-s-government-gcc-high-endpoints.md) | De eindpunten voor amerikaanse Government Community Cloud High (GCC High) abonnementen. |
+| [Microsoft 365 beheerd door 21Vianet-eindpunten](urls-and-ip-address-ranges-21vianet.md) | De eindpunten voor Microsoft 365 beheerd door 21Vianet, dat is ontworpen om te voldoen aan de behoeften voor Microsoft 365 in China. |
+| [Microsoft 365 Eindpunten in Duitsland](microsoft-365-germany-endpoints.md) | De eindpunten voor een afzonderlijke cloud in Europa voor de meest gereguleerde klanten in Duitsland, de Europese Unie (EU) en de European Free Trade Association (EFTA). |
 |||
 
-Als u de meest recente lijst met eindpunten voor uw Microsoft 365-Cloud wilt automatiseren, raadpleegt u de [website IP Address and URL van Office 365](microsoft-365-ip-web-service.md).
+Als u het verkrijgen van de meest recente lijst met eindpunten voor uw Microsoft 365 cloud wilt automatiseren, bekijkt u [de Office 365 IP-adres en URL-webservice](microsoft-365-ip-web-service.md).
 
-Voor extra eindpunten raadpleegt u de volgende artikelen:
+Zie deze artikelen voor meer eindpunten:
 
 - [Aanvullende eindpunten die niet zijn opgenomen in de webservice](additional-office365-ip-addresses-and-urls.md)
-- [Netwerkverzoeken in Office 2016 voor Mac](network-requests-in-office-2016-for-mac.md)
+- [Netwerkaanvragen in Office 2016 voor Mac](network-requests-in-office-2016-for-mac.md)
 
-Als u een leverancier van netwerkapparatuur bent, neemt u deel aan het [Office 365-programma](microsoft-365-networking-partner-program.md)voor de netwerk partner. Registreer u in het programma om de principes van Microsoft 365-netwerkverbindingen samen te stellen aan uw producten en oplossingen. 
+Als u een leverancier van netwerkapparatuur bent, kunt u deelnemen aan [de Office 365 Networking Partner Program.](microsoft-365-networking-partner-program.md) Schrijf u in voor het programma om Microsoft 365 netwerkconnectiviteitsprincipes in te bouwen in uw producten en oplossingen. 

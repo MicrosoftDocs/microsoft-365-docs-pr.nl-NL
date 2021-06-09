@@ -71,7 +71,7 @@ POST https://api.securitycenter.microsoft.com/api/machines/{id}/tags
 
 ## <a name="request-headers"></a>Kopteksten aanvragen
 
-Naam | Type | Omschrijving
+Naam | Type | Beschrijving
 :---|:---|:---
 Autorisatie | Tekenreeks | Bearer {token}. **Vereist**.
 Inhoudstype | tekenreeks | toepassing/json. **Vereist**.
@@ -80,7 +80,7 @@ Inhoudstype | tekenreeks | toepassing/json. **Vereist**.
 
 In de objectaanvraag moet u een JSON-object de volgende parameters geven:
 
-Parameter |    Type    | Omschrijving
+Parameter |    Type    | Beschrijving
 :---|:---|:---
 Waarde |    Tekenreeks |    De naam van de tag. **Vereist**.
 Actie    | Enum |    Toevoegen of verwijderen. Toegestane waarden zijn: 'Toevoegen' of 'Verwijderen'. **Vereist**.

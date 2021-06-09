@@ -43,7 +43,7 @@ Om aan deze vraag te voldoen, bieden mssp-serviceproviders (Managed Security Ser
 
 Defender voor Eindpunt voegt partnerschapskansen toe voor dit scenario en stelt MSSP's in staat om de volgende acties uit te voeren:
 
-- Toegang krijgen tot de Microsoft Defender-beveiligingscentrumportal van MSSP-klanten
+- Toegang krijgen tot de mssp-portal van Microsoft Defender-beveiligingscentrum klant
 - E-mailmeldingen ontvangen en 
 - Waarschuwingen ophalen via hulpprogramma's voor beveiligingsgegevens en gebeurtenisbeheer (SIEM)
 

@@ -1,5 +1,5 @@
 ---
-title: Adresruimte berekenen voor Azure gateway-subnetten
+title: Adresruimteberekening voor Azure Gateway-subnetten
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -15,7 +15,7 @@ ms.custom:
 - PowerShell
 - Ent_Office_Other
 - seo-marvel-apr2020
-description: 'Samenvatting: Bereken de adresruimte van een subnet van Azure gateway met C3, python of PowerShell.'
+description: 'Overzicht: Bereken de adresruimte van een Azure Gateway-subnet met C3, Python of PowerShell.'
 ms.openlocfilehash: d92bea5c36fde6277154d19365ed0bdaa5df4254
 ms.sourcegitcommit: ec293978e951b09903b79e6642aa587824935e0c
 ms.translationtype: MT
@@ -23,16 +23,16 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "49780566"
 ---
-# <a name="address-space-calculator-for-azure-gateway-subnets"></a>Adresruimte berekenen voor Azure gateway-subnetten
+# <a name="address-space-calculator-for-azure-gateway-subnets"></a>Adresruimteberekening voor Azure Gateway-subnetten
 
-Een virtuele netwerk (VNet) in azure-infrastructuurservices die is verbonden met andere netwerken, moet een gateway-subnet hebben. De aanbevolen procedures voor het definiëren van het gateway subnet zijn:
+Een virtueel netwerk (VNet) in Azure-infrastructuurservices dat is verbonden met andere netwerken, moet een gateway-subnet hebben. De best practices voor het definiëren van het gateway-subnet zijn:
 
-- De lengte van het voorvoegsel van het gateway subnet mag een maximumlengte van 29 hebben (bijvoorbeeld 10.119.255.248/29), maar u kunt wel gebruikmaken van een prefixlengte van 27 (bijvoorbeeld 10.119.255.224/27).
-- Wanneer u de adresruimte van het gateway subnet definieert, gebruikt u het laatste onderdeel van de VNet-adresruimte.
+- De lengte van het voorvoegsel van het gateway-subnet kan een maximumlengte van 29 hebben (bijvoorbeeld 10.119.255.248/29), maar de huidige aanbeveling is dat u een voorvoegsellengte van 27 gebruikt (bijvoorbeeld 10.119.255.224/27).
+- Wanneer u de adresruimte van het gateway-subnet definit, gebruikt u het laatste deel van de VNet-adresruimte.
 
-Voor de tweede aanbeveling kunt u de adresruimte van het gateway subnet bepalen door de gebruikte bits voor het gateway subnet in te stellen op 0 en de resterende bits in de adresruimte van VNet in 1. Als u de adresruimte van de gateway niet snel wilt berekenen zonder te converteren naar een binair getal of een decimale waarde, kunt u een consoletoepassing gebruiken die is geschreven in C# of python of met een PowerShell-opdracht blok.
+Voor de tweede aanbeveling kunt u de adresruimte van het gateway-subnet bepalen door de bits die voor het gateway-subnet worden gebruikt in te stellen op 0 en de resterende bits in de VNet-adresruimte op 1. Als u snel de ruimte van het gateway-subnetadres wilt berekenen zonder dat u deze naar binair en decimaal moet converteren, kunt u een consoletoepassing gebruiken die is geschreven in C# of Python of met een PowerShell-opdrachtblok.
 
-Dit artikel bevat C#-, python-en PowerShell-codeblokken waarmee de adresruimte van de gateway wordt berekend op basis van de waarden van w. x. y. z/n voor het VNet-adresprefix en de lengte van de subnetvoorvoegsel van de gateway.
+Dit artikel bevat C#, Python en PowerShell-codeblokken waarmee de ruimte voor het gateway-subnetadres wordt berekend op basis van de waarden van w.x.y.z/n voor het VNet-adres voorvoegsel en de lengte van het gateway subnet.
 
 ## <a name="c-code-block"></a>C#-codeblok
 
@@ -110,7 +110,7 @@ namespace ConsoleApplication1
 
 ## <a name="python-code-block"></a>Python-codeblok
 
-Gebruik dit codeblok om een console-app te maken in python.
+Gebruik dit codeblok om een console-app te maken in Python.
 
 ```python
 import math 
@@ -147,9 +147,9 @@ print(gwAddrPref)
 ```
 
 
-## <a name="powershell-command-block"></a>PowerShell-opdracht blok
+## <a name="powershell-command-block"></a>PowerShell-opdrachtblok
 
-Vul de waarden in en voer het resultaat van de opdracht in een PowerShell-venster of in het PowerShell-venster (ISE) uit.
+Vul de waarden in en voer het resulterende opdrachtblok uit in een PowerShell-venster of in de Geïntegreerde Scriptomgeving (ISE) van PowerShell.
 
 ```powershell
 # Specify the values of w.x.y.z/n for your VNet address space and g, the prefix length of your gateway subnet: 

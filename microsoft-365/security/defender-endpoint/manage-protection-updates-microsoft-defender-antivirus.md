@@ -258,7 +258,7 @@ Stel een netwerkbestands delen (UNC/mapped station) in om beveiligingsinformatie
     > [!NOTE]
     > Voeg de map x64 (of x86) niet toe aan het pad. Het mpcmdrun.exe wordt automatisch toegevoegd.
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-articles"></a>Aanverwante artikelen
 
 - [Implementatie van Microsoft Defender Antivirus](deploy-manage-report-microsoft-defender-antivirus.md)
 - [Updates Microsoft Defender Antivirus en basislijnen toepassen](manage-updates-baselines-microsoft-defender-antivirus.md)

@@ -1,5 +1,5 @@
 ---
-title: Stap 2. Optimale netwerken voor uw Microsoft 365 voor enterprise-tenants
+title: Stap 2. Optimale netwerken voor uw Microsoft 365 voor zakelijke tenants
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -15,7 +15,7 @@ ms.collection:
 - m365solution-scenario
 ms.custom:
 - Ent_Solutions
-description: Optimaliseer de netwerktoegang tot uw Microsoft 365-tenants.
+description: Optimaliseer de netwerktoegang tot uw Microsoft 365 tenants.
 ms.openlocfilehash: 5eac0793d2afc924a919671ffa105362ea1866d9
 ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: MT
@@ -23,56 +23,56 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/03/2021
 ms.locfileid: "50407190"
 ---
-# <a name="step-2-optimal-networking-for-your-microsoft-365-for-enterprise-tenants"></a>Stap 2. Optimale netwerken voor uw Microsoft 365 voor enterprise-tenants
+# <a name="step-2-optimal-networking-for-your-microsoft-365-for-enterprise-tenants"></a>Stap 2. Optimale netwerken voor uw Microsoft 365 voor zakelijke tenants
 
-Microsoft 365 voor ondernemingen bevat apps voor cloudproductiviteit zoals Teams en Exchange Online, en Microsoft Intune, samen met veel identiteits- en beveiligingsservices van Microsoft Azure. Al deze cloudservices zijn afhankelijk van de beveiliging, prestaties en betrouwbaarheid van verbindingen vanaf clientapparaten op uw on-premises netwerk of een locatie op internet. 
+Microsoft 365 voor bedrijven omvat cloudproductiviteitsapps zoals Teams en Exchange Online en Microsoft Intune, samen met veel identiteits- en beveiligingsservices van Microsoft Azure. Al deze cloudservices zijn afhankelijk van de beveiliging, prestaties en betrouwbaarheid van verbindingen van clientapparaten op uw on-premises netwerk of op een locatie op internet. 
 
-Als u de netwerktoegang voor uw tenant wilt optimaliseren, moet u:
+Als u de netwerktoegang voor uw tenant wilt optimaliseren, moet u het volgende doen:
 
-- Optimaliseer het pad tussen uw on-premises gebruikers en de dichtstbijzijnde locatie voor het globale netwerk van Microsoft.
-- Optimaliseer de toegang tot het globale Microsoft-netwerk voor externe gebruikers die een VPN-oplossing voor externe toegang gebruiken.
+- Optimaliseer het pad tussen uw on-premises gebruikers en de dichtstbijzijnde locatie van het Microsoft Global Network.
+- Optimaliseer de toegang tot het Microsoft Global Network voor externe gebruikers die gebruikmaken van een VPN-oplossing voor externe toegang.
 - Gebruik Network Insights om de netwerkperimeter voor uw kantoorlocaties te ontwerpen.
-- Optimaliseer de toegang tot specifieke assets die worden gehost op SharePoint-sites met het Office 365-CDN.
-- Proxy- en netwerkrandapparaten configureren om de verwerking van vertrouwd verkeer in Microsoft 365 te omzeilen met de lijst met eindpunten en het bijwerken van de lijst te automatiseren wanneer wijzigingen worden aangebracht.
+- Optimaliseer de toegang tot specifieke assets die worden gehost op SharePoint sites met de Office 365 CDN.
+- Configureer proxy- en netwerkrandapparaten om de verwerking voor Microsoft 365 vertrouwde verkeer te omzeilen met de lijst met eindpunten en automatiseer de update van de lijst wanneer er wijzigingen worden aangebracht.
 
 ## <a name="enterprise-on-premises-workers"></a>On-premises werknemers voor ondernemingen
 
-Voor bedrijfsnetwerken moet u de eindgebruikerservaring optimaliseren door de beste netwerktoegang in te stellen tussen clients en de dichtstbijzijnde Microsoft 365-eindpunten. De kwaliteit van de eindgebruikerservaring is rechtstreeks gerelateerd aan de prestaties en reactiesnelheid van de toepassing die de gebruiker gebruikt. Microsoft Teams is bijvoorbeeld afhankelijk van lage latentie, zodat telefoongesprekken, vergaderingen en samenwerkingen via gedeelde schermen storingenloos zijn.
+Voor bedrijfsnetwerken moet u de eindgebruikerservaring optimaliseren door de best presterende netwerktoegang in te stellen tussen clients en de dichtstbijzijnde Microsoft 365 eindpunten. De kwaliteit van de eindgebruikerservaring is rechtstreeks gerelateerd aan de prestaties en reactiesnelheid van de toepassing die de gebruiker gebruikt. De Microsoft Teams is bijvoorbeeld afhankelijk van een lage latentie, zodat telefoongesprekken, vergaderingen en gedeelde schermsamenwerkingen van gebruikers probleemloos zijn.
 
-Het primaire doel in het netwerkontwerp moet zijn om de latentie te minimaliseren door de retourtijd (RTT) te verkorten van clientapparaten naar het wereldwijde Netwerk van Microsoft, de openbare netwerk backbone van Microsoft die alle datacenters van Microsoft verbindt met een lage latentie, toegangspunten voor cloudtoepassing met hoge beschikbaarheid, ook wel front doorsprekjes genoemd, verspreid over de hele wereld.
+Het primaire doel in het netwerkontwerp moet zijn om de latentie te minimaliseren door de retourtijd (RTT) te verkorten van clientapparaten naar het Microsoft Global Network, de openbare netwerk backbone van Microsoft die alle datacenters van Microsoft verbindt met lage latentie, toegangspunten voor cloudtoepassing met hoge beschikbaarheid, bekend als voordeuren, verspreid over de hele wereld.
 
 Hier is een voorbeeld van een traditioneel bedrijfsnetwerk.
 
 ![Een traditioneel bedrijfsnetwerk met centrale toegang tot internet](../media/tenant-management-overview/tenant-management-networking-traditional.png)
 
-In deze afbeelding maken filialen verbinding met een centraal kantoor via WAN-apparaten (Wide Area Network) en een WAN-backbone. Internettoegang gaat via een beveiligings- of proxyapparaat aan de netwerkrand van het centrale kantoor en via een internetprovider. Op internet heeft het wereldwijde Microsoft-netwerk een aantal front door in regio's over de hele wereld. Organisaties kunnen ook tussenliggende locaties gebruiken voor extra pakketverwerking en beveiliging voor verkeer. De Microsoft 365-tenant van een organisatie bevindt zich in het wereldwijde Microsoft-netwerk.
+In deze afbeelding maken filialen verbinding met een centraal kantoor via WAN-apparaten (Wide Area Network) en een WAN-backbone. Internettoegang is via een beveiligings- of proxyapparaat aan de netwerkrand van het centrale kantoor en een internetprovider (internetprovider). Op internet heeft het Microsoft Global Network een reeks voordeuren in regio's over de hele wereld. Organisaties kunnen ook tussenliggende locaties gebruiken voor extra pakketverwerking en beveiliging voor verkeer. De tenant van een Microsoft 365 van een organisatie bevindt zich in het Microsoft Global Network.
 
-De problemen met deze configuratie voor Microsoft 365-cloudservices zijn:
+De problemen met deze configuratie voor Microsoft 365 cloudservices zijn:
 
-- Voor gebruikers in filialen wordt verkeer verzonden naar niet-lokale fronten, waardoor de latentie toeneemt.
-- Als u verkeer naar tussenliggende locaties stuurt, maakt u netwerk hairpins die dubbele pakketverwerking uitvoeren op vertrouwd verkeer, waardoor de latentie toeneemt.
-- Netwerkrandapparaten voeren onnodige en dubbele pakketverwerking uit op vertrouwd verkeer, met grotere latentie.
+- Voor gebruikers in filialen wordt verkeer verzonden naar niet-lokale voordeuren, waardoor de latentie toeneemt.
+- Als u verkeer naar tussenliggende locaties verstuurt, worden netwerkharpinen gebruikt die dubbele pakketverwerking uitvoeren op vertrouwd verkeer, waardoor de latentie toeneemt.
+- Netwerkrandapparaten voeren onnodige en dubbele pakketverwerking uit op vertrouwd verkeer, waardoor de latentie toeneemt.
 
-Het optimaliseren van de prestaties van het Microsoft 365-netwerk hoeft niet ingewikkeld te zijn. U krijgt de best mogelijke prestaties door enkele belangrijke principes te volgen:
+Het optimaliseren Microsoft 365 netwerkprestaties hoeft niet ingewikkeld te zijn. U kunt de best mogelijke prestaties krijgen door een paar belangrijke principes te volgen:
 
-- Identificeer Microsoft 365-netwerkverkeer, dat vertrouwd verkeer bestemd is voor Microsoft-cloudservices.
-- Sta lokaal vertakkingsverkeer van Het Microsoft 365-netwerkverkeer naar internet toe vanaf elke locatie waar gebruikers verbinding maken met Microsoft 365.
-- Voorkom netwerk hairpins.
-- Sta Microsoft 365-verkeer toe dat proxies en pakketcontroleapparaten worden overgeslagen.
+- Identificeer Microsoft 365 netwerkverkeer, dat vertrouwd verkeer is dat is bestemd voor Microsoft-cloudservices.
+- Sta lokale tak van netwerkverkeer Microsoft 365 internet toe vanaf elke locatie waar gebruikers verbinding maken met Microsoft 365.
+- Vermijd netwerkhaartjes.
+- Sta Microsoft 365 toe om proxies en pakketcontroleapparaten te omzeilen.
 
-Als u deze principes implementeert, krijgt u een bedrijfsnetwerk dat is geoptimaliseerd voor Microsoft 365.
+Als u deze principes implementeert, wordt een bedrijfsnetwerk geoptimaliseerd voor Microsoft 365.
 
-![Een bedrijfsnetwerk geoptimaliseerd voor Microsoft 365](../media/tenant-management-overview/tenant-management-networking-optimized.png)
+![Een bedrijfsnetwerk dat is geoptimaliseerd voor Microsoft 365](../media/tenant-management-overview/tenant-management-networking-optimized.png)
 
-In deze afbeelding hebben filialen een eigen internetverbinding via een software-gedefinieerd WAN-apparaat (SDWAN), waarmee vertrouwd Microsoft 365-verkeer wordt doorverbeld naar de dichtstbijzijnde front door de regio. Bij het centrale kantoor worden met het vertrouwde Microsoft 365-verkeer de beveiliging of het proxyapparaat overgeslagen en worden tussenliggende apparaten niet meer gebruikt.
+In deze afbeelding hebben filialen een eigen internetverbinding via een software-gedefinieerd WAN-apparaat (SDWAN), dat vertrouwde Microsoft 365-verkeer naar de dichtstbijzijnde regionale voordeur verzendt. In het centrale kantoor worden vertrouwde Microsoft 365 het beveiligings- of proxyapparaat omzeild en worden tussenliggende apparaten niet meer gebruikt.
 
-De geoptimaliseerde configuratie lost als volgende de latentieproblemen van een traditioneel bedrijfsnetwerk op:
+De geoptimaliseerde configuratie lost de latentieproblemen van een traditioneel bedrijfsnetwerk als volgende op:
 
-- Vertrouwd Microsoft 365-verkeer slaat de WAN-backbone over en wordt voor alle kantoren naar lokale deuren verzonden, met afnemende latentie.
-- Netwerk hairpins die dubbele pakketverwerking uitvoeren, worden overgeslagen voor vertrouwd microsoft 365-verkeer, afnemende latentie.
-- Netwerkrandapparaten die onnodige en dubbele pakketverwerking uitvoeren, worden overgeslagen voor vertrouwd verkeer in Microsoft 365, met afnemende latentie.
+- Vertrouwd Microsoft 365 de WAN-backbone over en wordt verzonden naar lokale deuren voor alle kantoren, met een afnemende latentie.
+- Netwerkharpins die dubbele pakketverwerking uitvoeren, worden overgeslagen voor Microsoft 365 vertrouwde verkeer, met een afnemende latentie.
+- Netwerkrandapparaten die onnodige en dubbele pakketverwerking uitvoeren, worden overgeslagen voor Microsoft 365 vertrouwde verkeer, met een afnemende latentie.
 
-Zie het overzicht van [de Microsoft 365-netwerkconnectiviteit voor meer informatie.](../enterprise/microsoft-365-networking-overview.md)
+Zie het overzicht van [Microsoft 365 netwerkverbinding voor meer informatie.](../enterprise/microsoft-365-networking-overview.md)
 
 ## <a name="remote-workers"></a>Externe werknemers
 
@@ -80,80 +80,80 @@ Als uw externe medewerkers een traditionele VPN-client gebruiken om extern toega
 
 ![Netwerkverkeer van VPN-clients zonder tunneling](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-before-tunneling.png)
 
-In deze afbeelding moet Microsoft 365-verkeer een indirecte route nemen via uw organisatie, die kan worden doorgestuurd naar een front door het globale netwerk van Microsoft ver weg van de fysieke locatie van de VPN-client. Met dit indirecte pad wordt een vertraging toegevoegd aan het netwerkverkeer en wordt de algehele prestatie negatief beïnvloed.  
+In deze afbeelding Microsoft 365 verkeer een indirecte route door uw organisatie nemen, die kan worden doorgestuurd naar een frontdeur van het Microsoft Global Network, ver weg van de fysieke locatie van de VPN-client. Met dit indirecte pad wordt een vertraging toegevoegd aan het netwerkverkeer en wordt de algehele prestatie negatief beïnvloed.  
 
 Met split tunneling kunt u uw VPN-client zo configureren dat specifieke typen verkeer niet via de VPN-verbinding naar het bedrijfsnetwerk worden verzonden.
 
-Configureer uw split tunneling VPN-clients zodanig dat verkeer wordt uitgesloten naar de Microsoft 365-eindpuntcategorie **Optimaliseren** over de VPN-verbinding om toegang tot Microsoft 365-cloudresources te optimaliseren. Zie office [365-eindpuntcategorieën](../enterprise/microsoft-365-network-connectivity-principles.md#new-office-365-endpoint-categories) en de lijsten [van](../enterprise/microsoft-365-vpn-implement-split-tunnel.md#implement-vpn-split-tunneling) Categorie-eindpunten optimaliseren voor gesplitste tunneling voor meer informatie.
+Configureer uw split tunneling VPN-clients zodanig dat verkeer wordt uitgesloten naar de Microsoft 365-eindpuntcategorie **Optimaliseren** over de VPN-verbinding om toegang tot Microsoft 365-cloudresources te optimaliseren. Zie voor meer informatie [Office 365 eindpuntcategorieën](../enterprise/microsoft-365-network-connectivity-principles.md#new-office-365-endpoint-categories) en [de](../enterprise/microsoft-365-vpn-implement-split-tunnel.md#implement-vpn-split-tunneling) lijsten met Categorie-eindpunten optimaliseren voor splits tunneling.
 
-Hier is de resulterende verkeersstroom voor gesplitste tunneling, waarin het meeste verkeer naar Microsoft 365-cloud-apps de VPN-verbinding omzeilt.
+Hier is de resulterende verkeersstroom voor gesplitste tunneling, waarbij het grootste deel van het verkeer naar Microsoft 365 cloud-apps de VPN-verbinding overbrugt.
 
 ![Netwerkverkeer van VPN-clients met tunneling](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-after-tunneling.png)
 
-In deze afbeelding verstuurt en ontvangt de VPN-client essentieel Microsoft 365-cloudserviceverkeer rechtstreeks via internet en naar de dichtstbijzijnde front door naar het globale netwerk van Microsoft.
+In deze afbeelding verzendt en ontvangt de VPN-client cruciaal Microsoft 365 cloudserviceverkeer rechtstreeks via internet en naar de dichtstbijzijnde deur naar het Microsoft Global Network.
 
 Bekijk [Office 365-connectiviteit optimaliseren voor externe gebruikers met VPN-split-tunneling](../enterprise/microsoft-365-vpn-split-tunnel.md) voor meer informatie en richtlijnen.
 
-## <a name="using-network-insights-preview"></a>Network Insights (preview) gebruiken
+## <a name="using-network-insights-preview"></a>Network Insights gebruiken (voorbeeld)
 
-Netwerkinzichten zijn prestatiestatistieken die worden verzameld via uw Microsoft 365-tenant, zodat u de netwerkperimeters voor uw kantoorlocaties kunt ontwerpen. Elk inzicht biedt livedetails over de prestatiekenmerken voor een opgegeven probleem voor elke geografische locatie waar on-premises gebruikers toegang hebben tot uw tenant.
+Netwerkinzichten zijn prestatiemetrische gegevens die zijn verzameld Microsoft 365 tenant die u helpen bij het ontwerpen van netwerkperimeters voor uw kantoorlocaties. Elk inzicht bevat live details over de prestatiekenmerken voor een opgegeven probleem voor elke geografische locatie waar on-premises gebruikers toegang hebben tot uw tenant.
 
-Er kunnen twee netwerkinzichten op tenantniveau worden weergegeven voor de tenant:
+Er zijn twee netwerkinzichten op tenantniveau die mogelijk worden weergegeven voor de tenant:
 
-- [Voorbeeldverbindingen van Exchange die zijn beïnvloed door verbindingsproblemen](../enterprise/office-365-network-mac-perf-insights.md#exchange-sampled-connections-impacted-by-connectivity-issues)
-- [Voorbeeldverbindingen in SharePoint die zijn beïnvloed door verbindingsproblemen](../enterprise/office-365-network-mac-perf-insights.md#sharepoint-sampled-connections-impacted-by-connectivity-issues)
+- [Exchange verbindingen die zijn beïnvloed door verbindingsproblemen](../enterprise/office-365-network-mac-perf-insights.md#exchange-sampled-connections-impacted-by-connectivity-issues)
+- [SharePoint verbindingen die zijn beïnvloed door verbindingsproblemen](../enterprise/office-365-network-mac-perf-insights.md#sharepoint-sampled-connections-impacted-by-connectivity-issues)
 
 Dit zijn de specifieke netwerkinzichten voor elke kantoorlocatie:
 
-- [Backgressie van netwerk](../enterprise/office-365-network-mac-perf-insights.md#backhauled-network-egress)
-- [Betere prestaties gedetecteerd voor klanten bij u in de buurt](../enterprise/office-365-network-mac-perf-insights.md#better-performance-detected-for-customers-near-you)
-- [Gebruik van een niet-optimale voorzijde van Exchange Online-service](../enterprise/office-365-network-mac-perf-insights.md#use-of-a-non-optimal-exchange-online-service-front-door)
-- [Gebruik van een niet-optimale front door de SharePoint Online-service](../enterprise/office-365-network-mac-perf-insights.md#use-of-a-non-optimal-sharepoint-online-service-front-door)
-- [Lage downloadsnelheid van SharePoint-front door](../enterprise/office-365-network-mac-perf-insights.md#low-download-speed-from-sharepoint-front-door)
-- [Optimaal netwerkingressie china-gebruiker](../enterprise/office-365-network-mac-perf-insights.md#china-user-optimal-network-egress)
+- [Backhauled network egress](../enterprise/office-365-network-mac-perf-insights.md#backhauled-network-egress)
+- [Betere prestaties gedetecteerd voor klanten in uw buurt](../enterprise/office-365-network-mac-perf-insights.md#better-performance-detected-for-customers-near-you)
+- [Gebruik van een niet-optimale Exchange Online servicedeuren](../enterprise/office-365-network-mac-perf-insights.md#use-of-a-non-optimal-exchange-online-service-front-door)
+- [Gebruik van een niet-optimale SharePoint onlineservice voor de deur](../enterprise/office-365-network-mac-perf-insights.md#use-of-a-non-optimal-sharepoint-online-service-front-door)
+- [Lage downloadsnelheid van SharePoint voor deur](../enterprise/office-365-network-mac-perf-insights.md#low-download-speed-from-sharepoint-front-door)
+- [China user optimal network egress](../enterprise/office-365-network-mac-perf-insights.md#china-user-optimal-network-egress)
 
 >[!IMPORTANT]
->Netwerkinzichten, prestatieaanbevelingen en beoordelingen in het Microsoft 365-beheercentrum worden momenteel weergegeven als preview-status. Het is alleen beschikbaar voor Microsoft 365-tenants die zijn ingeschreven voor het feature preview-programma.
+>Netwerkinzichten, prestatieaanbevelingen en evaluaties in Microsoft 365 beheercentrum heeft momenteel de preview-status. Het is alleen beschikbaar voor Microsoft 365 tenants die zijn geregistreerd voor het functievoorbeeldprogramma.
 
-Zie [Microsoft 365 Network Insights](../enterprise/office-365-network-mac-perf-insights.md)voor meer informatie.
+Zie voor meer informatie [Microsoft 365 Network Insights.](../enterprise/office-365-network-mac-perf-insights.md)
 
-## <a name="sharepoint-performance-with-the-office-365-cdn"></a>Prestaties van SharePoint met het Office 365-CDN
+## <a name="sharepoint-performance-with-the-office-365-cdn"></a>SharePoint prestaties met de Office 365 CDN
 
-Met een cdn (Content Delivery Network) in de cloud kunt u laadtijden verminderen, bandbreedte besparen en sneller reageren. Een CDN verbetert de prestaties door statische assets, zoals grafische of videobestanden, dichter bij de browsers waarin u ze aanvraagt, in de map op te slaan, om downloads te versnellen en de latentie te verminderen. U kunt het ingebouwde Office 365 Content Delivery Network (CDN), dat deel uit maakt van SharePoint in Microsoft 365 E3 en E5, gebruiken om statische assets te hosten voor betere prestaties voor uw SharePoint-pagina's.
+Met een cloudgebaseerde Content Delivery Network (CDN) kunt u laadtijden verminderen, bandbreedte besparen en sneller reageren. Een CDN verbetert de prestaties door statische assets, zoals grafische of videobestanden, dichter bij de browsers te cachen waarin ze worden gevraagd, wat helpt om downloads te versnellen en de latentie te verminderen. U kunt de ingebouwde Office 365 Content Delivery Network (CDN), inbegrepen bij SharePoint in Microsoft 365 E3 en E5, gebruiken om statische assets te hosten om betere prestaties te bieden voor uw SharePoint pagina's.
 
-Het Office 365-CDN bestaat uit meerdere CDN's waarmee u statische assets op meerdere locaties of _origins_ kunt hosten en deze kunt gebruiken vanuit globale netwerken met hoge snelheid. Afhankelijk van het type inhoud dat u wilt hosten in het Office  365-CDN, kunt u openbare origins,  persoonlijke origins of beide toevoegen.
+De Office 365 CDN bestaat uit meerdere CDN's waarmee u statische assets op meerdere locaties of _origins_ kunt hosten en deze kunt gebruiken vanuit globale snelle netwerken. Afhankelijk van het type inhoud dat u wilt hosten in  de Office 365 CDN, kunt u openbare origins, **privé-origins** of beide toevoegen.
 
-Als deze zijn geïmplementeerd en geconfigureerd, worden assets van openbare en persoonlijke origins geüpload door het Office 365-CDN en worden deze beschikbaar gemaakt voor snelle toegang tot gebruikers op internet.
+Wanneer deze worden geïmplementeerd en geconfigureerd, worden Office 365 CDN vanuit openbare en privé-origins geüpload en beschikbaar voor snelle toegang tot gebruikers die zich op internet bevinden.
 
 ![Office 365 CDN geïmplementeerd voor gebruikers](../media/O365-CDN/o365-cdn-flow-transparent.svg "Office 365 CDN geïmplementeerd voor gebruikers")
 
-Zie het [Office 365-CDN gebruiken met SharePoint Online voor meer informatie.](../enterprise/use-microsoft-365-cdn-with-spo.md)
+Zie De Office 365 CDN [met SharePoint Online voor meer informatie.](../enterprise/use-microsoft-365-cdn-with-spo.md)
 
-## <a name="automated-endpoint-listing"></a>Vermelding van geautomatiseerd eindpunt
+## <a name="automated-endpoint-listing"></a>Geautomatiseerde eindpuntvermelding
 
-Als u wilt dat de verwerking van vertrouwd Microsoft 365-verkeer wordt overgeslagen door uw on-premises clients, randapparaten en cloudgebaseerde pakketanalyseservices, moet u deze configureren met de set eindpunten (IP-adresbereiken en DNS-namen) die overeenkomen met Microsoft 365-services. Deze eindpunten kunnen handmatig worden geconfigureerd in firewalls en andere randbeveiligingsapparaten, PAC-bestanden voor clientcomputers om proxies te omzeilen of SD-WAN-apparaten in filialen. De eindpunten veranderen echter na enige tijd, waardoor op deze locaties voortdurend handmatig onderhoud van de eindpuntenlijsten moet worden vereist.
+Als u wilt dat uw on-premises clients, edge-apparaten en cloudgebaseerde pakketanalyseservices de verwerking van vertrouwd Microsoft 365-verkeer overslaan, moet u deze configureren met de set eindpunten (IP-adresbereiken en DNS-namen) die overeenkomen met Microsoft 365-services. Deze eindpunten kunnen handmatig worden geconfigureerd in firewalls en andere randbeveiligingsapparaten, PAC-bestanden voor clientcomputers om proxies te omzeilen of SD-WAN-apparaten bij filialen. De eindpunten veranderen echter in de tijd, waardoor het handmatig onderhoud van de eindpuntlijsten op deze locaties vereist is.
 
-Gebruik de OFFICE [365-webservice MET IP-adres](../enterprise/microsoft-365-ip-web-service.md)en URL als u het beheer van vermeldingen en wijzigingsbeheer voor Microsoft 365-eindpunten in uw PAC-clientbestanden en -netwerkapparaten wilt automatiseren. Met deze service kunt u Microsoft 365-netwerkverkeer beter identificeren en onderscheiden, zodat u eenvoudiger de meest recente wijzigingen kunt evalueren, configureren en op de hoogte blijven.
+Als u het lijst- en wijzigingsbeheer voor Microsoft 365-eindpunten in uw CLIENT PAC-bestanden en netwerkapparaten wilt automatiseren, gebruikt u de Office 365 IP-adres- en [URL REST-webservice.](../enterprise/microsoft-365-ip-web-service.md) Met deze service kunt u netwerkverkeer beter identificeren en Microsoft 365 onderscheiden, zodat u eenvoudiger de meest recente wijzigingen kunt evalueren, configureren en op de hoogte kunt blijven.
 
-U kunt PowerShell, Python of andere talen gebruiken om de wijzigingen in eindpunten na een periode te bepalen en uw PAC-bestanden en edge-netwerkapparaten te configureren.
+U kunt PowerShell, Python of andere talen gebruiken om de wijzigingen in eindpunten in de tijd te bepalen en uw PAC-bestanden en edge-netwerkapparaten te configureren.
 
-De basisprocedure 2010 2016 is:
+Het basisproces is:
 
-1. Gebruik de Webservice voor IP-adres en URL van Office 365 en het configuratiemechanisme van uw keuze om uw PAC-bestanden en netwerkapparaten te configureren met de huidige set Microsoft 365-eindpunten.
-2. Voer een dagelijks terugkerend bericht uit om te controleren op wijzigingen in de eindpunten of gebruik een meldingsmethode.
-3. Wanneer wijzigingen worden gedetecteerd, kunt u het PAC-bestand opnieuw toevoegen en opnieuw distribueren voor clientcomputers en de wijzigingen aanbrengen op uw netwerkapparaten.
+1. Gebruik de Office 365 IP-adres- en URL-webservice en het configuratiemechanisme van uw keuze om uw PAC-bestanden en netwerkapparaten te configureren met de huidige set Microsoft 365 eindpunten.
+2. Voer een dagelijkse terugkerende methode uit om te controleren op wijzigingen in de eindpunten of gebruik een meldingsmethode.
+3. Wanneer wijzigingen worden gedetecteerd, herstelt en herverdeelt u het PAC-bestand voor clientcomputers en wijzigt u de wijzigingen in uw netwerkapparaten.
 
-Zie de Webservice voor IP-adressen en [URL's van Office 365 voor meer informatie.](../enterprise/microsoft-365-ip-web-service.md)
+Zie voor meer informatie [Office 365 IP-adres en URL-webservice.](../enterprise/microsoft-365-ip-web-service.md)
 
 ## <a name="results-of-step-2"></a>Resultaten van stap 2
 
-Voor uw Microsoft 365-tenant met optimale netwerken hebt u de volgende mogelijkheden:
+Voor uw Microsoft 365 tenant met optimale netwerken hebt u het volgende bepaald:
 
-- Netwerkprestaties optimaliseren voor on-premises gebruikers door internetverbindingen toe te voegen aan alle filialen en netwerk hairpins te verwijderen.
-- How to implement automated trusted endpoint listing for your client-based PAC files and your network devices and services, including ongoing updates (most suitable for enterprise networks).
-- Ondersteuning van de toegang van externe medewerkers tot on-premises resources.
+- Netwerkprestaties optimaliseren voor on-premises gebruikers door internetverbinding toe te voegen aan alle filialen en netwerkhaartjes te verwijderen.
+- Geautomatiseerde vertrouwde eindpuntvermelding implementeren voor pac-bestanden op basis van uw client en uw netwerkapparaten en -services, inclusief doorlopende updates (die het meest geschikt zijn voor bedrijfsnetwerken).
+- Ondersteuning voor de toegang van externe werknemers tot on-premises resources.
 - Netwerkinzichten gebruiken
-- Het Implementeren van het Office 365-CDN.
+- De implementatie van de Office 365 CDN.
 
 Hier is een voorbeeld van een ondernemingsorganisatie en de tenant met optimale netwerken.
 
@@ -161,22 +161,22 @@ Hier is een voorbeeld van een ondernemingsorganisatie en de tenant met optimale 
 
 [Een grotere versie van deze afbeelding bekijken](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/tenant-management-overview/tenant-management-tenant-build-step2.png)
 
-In deze afbeelding heeft de tenant voor deze organisatie het volgende:
+In deze afbeelding heeft de tenant voor deze ondernemingsorganisatie:
 
-- Lokale internetverbinding voor elke filialen met een SDWAN-apparaat dat vertrouwd Microsoft 365-verkeer doorsturen naar een lokale front door.
-- Geen netwerk hairpins.
-- Beveiligings- en proxyrandapparaten van Centraal kantoor die vertrouwd verkeer van Microsoft 365 doorsturen naar een lokale front door.
+- Lokale internettoegang voor elke vestiging met een SDWAN-apparaat dat vertrouwde Microsoft 365 doorgestuurd naar een lokale deur.
+- Geen netwerkhaartjes.
+- Beveiligings- en proxyrandapparaten van centraal kantoor die Microsoft 365 vertrouwde verkeer doorsturen naar een lokale deur.
 
-## <a name="ongoing-maintenance-for-optimal-networking"></a>Doorlopend onderhoud voor optimaal netwerken
+## <a name="ongoing-maintenance-for-optimal-networking"></a>Doorlopend onderhoud voor optimale netwerken
 
-Oplopende basis moet u mogelijk het volgende doen:
+Op permanente basis moet u mogelijk het volgende doen:
 
-- Werk uw randapparaten en geïmplementeerde PAC-bestanden bij voor wijzigingen in eindpunten of controleer of het geautomatiseerde proces correct werkt.
-- Beheer uw assets in het Office 365-CDN.
-- Werk de configuratie van gesplitste tunneling in uw VPN-clients bij voor wijzigingen in eindpunten.
+- Werk uw edge-apparaten en geïmplementeerde PAC-bestanden bij voor wijzigingen in eindpunten of controleer of uw geautomatiseerde proces correct werkt.
+- Beheer uw activa in de Office 365 CDN.
+- Werk de configuratie voor gesplitste tunneling in uw VPN-clients bij voor wijzigingen in eindpunten.
 
 ## <a name="next-step"></a>Volgende stap
 
 [![Stap 3. Uw identiteiten synchroniseren en veilige aanmeldingen afdwingen](../media/tenant-management-overview/tenant-management-step-grid-identity.png)](tenant-management-identity.md)
 
-Ga verder [met identiteit om](tenant-management-identity.md) uw on-premises accounts en groepen te synchroniseren en veilige aanmeldingen voor gebruikers af te dwingen.
+Ga verder [met identiteit om](tenant-management-identity.md) uw on-premises accounts en groepen te synchroniseren en veilige aanmeldingen van gebruikers af te dwingen.

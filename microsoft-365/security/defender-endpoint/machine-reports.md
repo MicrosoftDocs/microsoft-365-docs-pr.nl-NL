@@ -1,6 +1,6 @@
 ---
 title: Rapport over apparaattoestand en naleving in Microsoft Defender voor Eindpunt
-description: Detectie van apparaatstatussen, antivirusstatus, besturingssysteemplatform en Windows 10-versies bijhouden met behulp van het rapport Apparaatstatus en naleving
+description: Detecties van apparaatstatussen, antivirusstatus, besturingssysteemplatform en Windows 10 met behulp van het rapport Apparaatstatus en naleving
 keywords: status, antivirus, besturingssysteemplatform, windows 10-versie, versie, status, naleving, status
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -35,7 +35,7 @@ ms.locfileid: "51860289"
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-Het statusrapport apparaten bevat informatie op hoog niveau over de apparaten in uw organisatie. Het rapport bevat trending-informatie over de status van de sensorstatus, antivirusstatus, besturingssysteemplatforms en Windows 10-versies.
+Het statusrapport apparaten bevat informatie op hoog niveau over de apparaten in uw organisatie. Het rapport bevat trendinformatie over de status van de sensorstatus, antivirusstatus, besturingssysteemplatforms en Windows 10 versies.
 
 Het dashboard is gestructureerd in twee secties: ![ Afbeelding van het apparaatrapport](images/device-reports.png)
  
@@ -72,11 +72,11 @@ Het rapport bestaat uit kaarten met de volgende apparaatkenmerken:
  
 - **Gezondheidstoestand:** geeft informatie weer over de sensortoestand op apparaten, met een samengevoegde weergave van apparaten die actief zijn, communicatiesproblemen ondervinden, inactief zijn of waar geen sensorgegevens worden gezien.
   
-- **Antivirusstatus voor actieve Windows 10-apparaten:** toont het aantal apparaten en de status van Microsoft Defender Antivirus.
+- **Antivirusstatus voor actieve Windows 10 apparaten:** toont het aantal apparaten en de status van Microsoft Defender Antivirus.
     
 - **BESTURINGSSYSTEEM-platforms:** toont de distributie van besturingssysteemplatforms die binnen uw organisatie aanwezig zijn. 
  
-- **Windows 10-versies:** toont de distributie van Windows 10-apparaten en hun versies in uw organisatie.
+- **Windows 10 versies:** toont de verdeling van Windows 10 apparaten en hun versies in uw organisatie.
  
  
  
@@ -89,11 +89,11 @@ U kunt meerdere filters selecteren die u wilt toepassen op de apparaatkenmerken.
 >[!NOTE]
 >Deze filters zijn van **toepassing op alle** kaarten in het rapport.
  
-Als u bijvoorbeeld gegevens wilt tonen over Windows 10-apparaten met de status actieve sensor:
+Als u bijvoorbeeld gegevens wilt tonen over Windows 10 apparaten met de status actieve sensor:
  
 1. Onder **Filters > status van de sensor > Actief**.
-2. Selecteer vervolgens **BE-platforms > Windows 10**.
-3. Selecteer **Toepassen.**
+2. Selecteer vervolgens **OS-platforms > Windows 10.**
+3. Selecteer **Toepassen**.
 
 
 ## <a name="related-topic"></a>Verwant onderwerp

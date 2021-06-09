@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: Normal
-description: Informatie over het gebruik van de toegankelijkheidsmodus bij het trainen van een model in SharePoint Syntex.
+description: Meer informatie over het gebruik van de toegankelijkheidsmodus tijdens het trainen van een model in SharePoint Syntex.
 ms.openlocfilehash: 5f6e9d542f3d41dbddacd54b1b379910dcb0c9dc
 ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
 ms.translationtype: MT
@@ -18,48 +18,48 @@ ms.locfileid: "50515146"
 ---
 # <a name="sharepoint-syntex-accessibility-mode"></a>SharePoint Syntex toegankelijkheidsmodus
 
-In [SharePoint Syntex](index.md)kunnen gebruikers tijdens het werken met voorbeelddocumenten de toegankelijkheidsmodus inschakelen in alle fasen van modeltraining (label, training, test). Als u de toegankelijkheidsmodus gebruikt, kunnen gebruikers die slechtziend zijn gemakkelijker toetsenbordtoegankelijkheid bieden tijdens het navigeren door items en items labelen in de documentviewer.
+In [SharePoint Syntex](index.md)kunnen gebruikers de toegankelijkheidsmodus inschakelen in alle fasen van modeltraining (label, trein, test) wanneer ze met voorbeelddocumenten werken. Als u de toegankelijkheidsmodus gebruikt, kunnen slechtziende gebruikers gemakkelijker toegankelijkheid van het toetsenbord hebben terwijl ze navigeren en items labelen in de documentviewer.
 
-Hierdoor kunnen gebruikers hun toetsenbord gebruiken om door tekst in de documentviewer te navigeren en ook gesproken tekst te horen van niet alleen de geselecteerde waarden, maar ook van acties (zoals labelen of verwijderen van labeling uit geselecteerde tekst) of voorspelde labelwaarden terwijl u het model met extra voorbeelddocumenten trainen. 
+Hiermee kunnen gebruikers hun toetsenbord gebruiken om door tekst in de documentviewer te navigeren en een gesproken tekst te horen van niet alleen de geselecteerde waarden, maar ook van acties (zoals labeling of het verwijderen van labeling uit geselecteerde tekst) of voorspelde labelwaarden terwijl u het model traint met extra voorbeelddocumenten. 
 
 
 ![Toegankelijkheidsmodus](../media/content-understanding/accessibility-mode.png)
 
 ## <a name="requirements"></a>Vereisten
 
-Als u de audio van de gesproken tekst wilt horen, moet u de [Verteller-app](https://support.microsoft.com/windows/complete-guide-to-narrator-e4397a0d-ef4f-b386-d8ae-c172f109bdb1) in de verteller-instellingen op uw Windows 10-systeem in uitschakelen.
+Als u het geluid van de gesproken tekst wilt horen, moet u de [Verteller-app](https://support.microsoft.com/windows/complete-guide-to-narrator-e4397a0d-ef4f-b386-d8ae-c172f109bdb1) in uw Verteller op uw Windows 10 in.
 
-![Verteller in te zetten](../media/content-understanding/narrator-settings.png)
+![De Verteller](../media/content-understanding/narrator-settings.png)
 
-## <a name="labeling-for-keyboard-users"></a>Labelen voor toetsenbordgebruikers
+## <a name="labeling-for-keyboard-users"></a>Labeling voor toetsenbordgebruikers
 
-Voor toetsenbordgebruikers die de toegankelijkheidsmodus gebruiken, kunt u de volgende toetsen gebruiken als u een label aan tekst in een voorbeelddocument in de viewer wilt toevoegen:
+Voor toetsenbordgebruikers die de toegankelijkheidsmodus gebruiken, kunt u de volgende toetsen gebruiken als u tekst in een voorbeelddocument in de viewer labelt:
 
-- Tab: Hiermee gaat u naar voren en selecteert u het volgende woord.
-- Tab+Shift: hiermee verplaatst u het vorige woord naar achteren en selecteert u het vorige woord.
-- Enter: een label toevoegen aan of verwijderen van het geselecteerde woord.
-- Pijl-rechts: Hiermee gaat u naar voren door afzonderlijke tekens in een geselecteerd woord.
-- Pijl-links: Hiermee gaat u achteruit door afzonderlijke tekens in een geselecteerd woord.
+- Tab: Hiermee verplaatst u naar voren en selecteert u het volgende woord.
+- Tab + Shift: Hiermee verplaatst u u naar achteren en selecteert u het vorige woord.
+- Enter: Een label labelen of verwijderen uit het geselecteerde woord.
+- Pijl-rechts: hiermee wordt u door afzonderlijke tekens in een geselecteerd woord verplaatst.
+- Pijl-links: hiermee verplaatst u u naar achteren door afzonderlijke tekens in een geselecteerd woord.
 
 > [!NOTE]
-> Als u meerdere woorden labelt voor één etiket, moet u elk woord van een label voorzien.
+> Als u meerdere woorden labelt voor één label, moet u elk woord labelen.
 
 
 ## <a name="narration"></a>Gesproken tekst
 
-Voor verteller-gebruikers die de toegankelijkheidsmodus gebruiken, gebruikt u dezelfde toetsenbordnavigatie die voor toetsenbordgebruikers is beschreven om het voorbeelddocument in de viewer te bekijken.
+Voor Verteller gebruikers die de toegankelijkheidsmodus gebruiken, gebruikt u dezelfde toetsenbordnavigatie die is beschreven voor toetsenbordgebruikers om door het voorbeelddocument in de viewer te gaan.
 
-Terwijl u door de voorbeelddocumenten en labelreekswaarden navigeert, geeft Verteller de gebruiker de volgende audioprompts:
+Terwijl u door de voorbeelddocumenten en labelreekswaarden navigeert, Verteller de gebruiker de volgende audioprompts:
 
-- Wanneer u het toetsenbord gebruikt om door de documentviewer te navigeren, wordt de geselecteerde tekenreeks voor het geluid van Verteller opgezocht.
-- Binnen een geselecteerde tekenreeks geeft Verteller-audio elk teken in de tekenreeks op terwijl u deze selecteert met de pijl-links of pijl-rechts.
-- Als u een gelabelde tekenreeks selecteert, wordt in Verteller de waarde vermeld en vervolgens 'gelabeld'.  Als de labelwaarde bijvoorbeeld 'Contoso' is, wordt 'Costoso gelabeld' als resultaat geven. 
-- Als u op het tabblad Training een tekenreeks selecteert in de documentviewer die alleen is voorspeld, wordt de waarde voor het geluid van Verteller weergegeven en vervolgens 'voorspeld'. Deze fout treedt op wanneer met de training een waarde in het bestand wordt voorspeld die niet overeen komt met wat door de gebruiker is gelabeld.
-- Als u op het tabblad Training een tekenreeks selecteert in de documentviewer die is gelabeld en voorspeld, wordt de waarde door Verteller-audio aangeduid en vervolgens 'gelabeld en voorspeld'. Dit gebeurt wanneer de training is geslaagd en er een overeenkomst is tussen een voorspelde waarde en het gebruikerslabel.
+- Wanneer u het toetsenbord gebruikt om door de documentviewer te navigeren, Verteller de geselecteerde tekenreeks.
+- In een geselecteerde tekenreeks Verteller elk teken in de tekenreeks als u ze selecteert met behulp van de pijl-links of pijl-rechts.
+- Als u een tekenreeks selecteert die is gelabeld, Verteller de waarde en vervolgens 'labeled'.  Als de labelwaarde bijvoorbeeld 'Contoso' is, wordt 'Costoso labeled' vermeld. 
+- Als u op het tabblad training een tekenreeks selecteert in de documentviewer die alleen is voorspeld, wordt Verteller de waarde weergegeven en vervolgens 'voorspeld'. Dit gebeurt wanneer de training een waarde in het bestand voorspelt die niet overeenkomen met wat door de gebruiker is gelabeld.
+- Als u op het tabblad training een tekenreeks selecteert in de documentviewer die is gelabeld en voorspeld, wordt Verteller audio de waarde weergegeven en vervolgens 'gelabeld en voorspeld'. Dit gebeurt wanneer de training is geslaagd en er een overeenkomst is tussen een voorspelde waarde en het gebruikerslabel.
 
 
 
-Nadat een tekenreeks is gelabeld of er een label is verwijderd in de viewer, wordt u gewaarschuwd voor het opslaan van de wijzigingen voordat u de tekenreeks sluit.
+Nadat een tekenreeks is gelabeld of een label is verwijderd in de viewer, wordt Verteller u gewaarschuwd om uw wijzigingen op te slaan voordat u de video sluit.
 
 ## <a name="see-also"></a>Zie ook
 

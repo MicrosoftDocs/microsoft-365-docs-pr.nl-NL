@@ -19,56 +19,56 @@ ms.locfileid: "51768972"
 ---
 # <a name="manage-topic-discovery-in-microsoft-viva-topics"></a>Onderwerpdetectie beheren in Microsoft Viva-onderwerpen
 
-U kunt de instellingen voor onderwerpdetectie beheren in het [Microsoft 365-beheercentrum.](https://admin.microsoft.com) U moet een globale beheerder of SharePoint-beheerder zijn om deze taken uit te voeren.
+U kunt de instellingen voor onderwerpdetectie beheren in [het Microsoft 365 beheercentrum.](https://admin.microsoft.com) U moet een globale beheerder of SharePoint zijn om deze taken uit te voeren.
 
 ## <a name="to-access-topics-management-settings"></a>Toegang tot de instellingen voor onderwerpenbeheer:
 
-1. Klik in het Microsoft 365-beheercentrum op **Instellingen** en vervolgens **op Organisatie-instellingen.**
+1. Klik in Microsoft 365 beheercentrum **op** Instellingen en vervolgens **op Organisatie-instellingen.**
 2. Klik op **het tabblad** Services op **Onderwerpervaringen.**
 
-    ![Personen verbinden met kennis](../media/admin-org-knowledge-options-completed.png) 
+    ![Verbinding maken mensen kennis te laten maken](../media/admin-org-knowledge-options-completed.png) 
 
 3. Selecteer het **tabblad Onderwerpdetectie.** Zie de volgende secties voor informatie over elke instelling.
 
     ![knowledge-network-settings](../media/knowledge-network-settings-topic-discovery.png) 
 
-## <a name="select-sharepoint-topic-sources"></a>SharePoint-onderwerpbronnen selecteren
+## <a name="select-sharepoint-topic-sources"></a>Selecteer SharePoint onderwerpbronnen
 
-U kunt de SharePoint-sites in uw organisatie wijzigen die worden verkend voor onderwerpen.
+U kunt de SharePoint sites in uw organisatie wijzigen die worden verkend voor onderwerpen.
 
-Als u een specifieke lijst met sites wilt opnemen of uitsluiten, kunt u de volgende CSV-sjabloon gebruiken:
+Als u een specifieke lijst met sites wilt opnemen of uitsluiten, kunt u de volgende .csv gebruiken:
 
 ``` csv
 Site name,URL
 ```
 
-Als u sites toevoegt met de site picker, worden deze toegevoegd aan de bestaande lijst met sites die u wilt opnemen of uitsluiten. Als u een CSV-bestand uploadt, wordt elke bestaande lijst overschreven. Als u eerder specifieke sites hebt opgenomen of uitgesloten, kunt u de lijst als CSV-bestand downloaden, wijzigingen aanbrengen en de nieuwe lijst uploaden.
+Als u sites toevoegt met de site picker, worden deze toegevoegd aan de bestaande lijst met sites die u wilt opnemen of uitsluiten. Als u een .csv uploadt, wordt elke bestaande lijst overschreven. Als u eerder specifieke sites hebt opgenomen of uitgesloten, kunt u de lijst als een .csv downloaden, wijzigingen aanbrengen en de nieuwe lijst uploaden.
 
 Sites kiezen voor onderwerpdetectie
 
-1. Selecteer op **het tabblad Onderwerpdetectie** onder **SharePoint-onderwerpbronnen selecteren** de optie **Bewerken.**
-2. Selecteer op **de pagina SharePoint-onderwerpbronnen** selecteren welke SharePoint-sites worden verkend als bronnen voor uw onderwerpen tijdens de detectie. Dit omvat:
-    - **Alle sites:** Alle SharePoint-sites in uw tenant. Hiermee worden huidige en toekomstige sites vastleggen.
+1. Selecteer op **het tabblad** Onderwerpdetectie onder Selecteer **SharePoint onderwerpbronnen** de optie **Bewerken.**
+2. Selecteer op **de pagina SharePoint onderwerpbronnen** selecteren welke sites SharePoint worden verkend als bronnen voor uw onderwerpen tijdens de detectie. Dit zijn:
+    - **Alle sites:** Alle SharePoint sites in uw tenant. Hiermee worden huidige en toekomstige sites vastleggen.
     - **Alle, behalve geselecteerde sites:** Typ de namen van de sites die u wilt uitsluiten.  U kunt ook een lijst uploaden met sites die u niet wilt ontdekken. Sites die in de toekomst worden gemaakt, worden opgenomen als bronnen voor onderwerpdetectie. 
     - **Alleen geselecteerde sites:** Typ de namen van de sites die u wilt opnemen. U kunt ook een lijst met sites uploaden. Sites die in de toekomst worden gemaakt, worden niet opgenomen als bronnen voor onderwerpdetectie.
-    - **Geen sites:** Onderwerpen worden niet automatisch gegenereerd of bijgewerkt met SharePoint-inhoud. Bestaande onderwerpen blijven in het onderwerpcentrum staan.
+    - **Geen sites:** Onderwerpen worden niet automatisch gegenereerd of bijgewerkt met SharePoint inhoud. Bestaande onderwerpen blijven in het onderwerpcentrum staan.
 
-    ![Schermafbeelding van de gebruikersinterface van SharePoint-onderwerpbronnen](../media/k-manage-select-topic-source.png)
+    ![Schermafbeelding van SharePoint gebruikersinterface van onderwerpbronnen](../media/k-manage-select-topic-source.png)
    
 3. Klik op **Opslaan**.
 
 ## <a name="exclude-topics-by-name"></a>Onderwerpen uitsluiten op naam
 
-U kunt onderwerpen uitsluiten van detectie door een lijst te uploaden met een CSV-bestand. Als u eerder onderwerpen hebt uitgesloten, kunt u de CSV downloaden, wijzigingen aanbrengen en opnieuw uploaden.
+U kunt onderwerpen uitsluiten van detectie door een lijst te uploaden met een .csv bestand. Als u eerder onderwerpen hebt uitgesloten, kunt u de .csv downloaden, wijzigingen aanbrengen en opnieuw uploaden.
 
 1. Selecteer op **het tabblad** Onderwerpdetectie onder **Onderwerpen uitsluiten** de optie **Bewerken.**
 2. Klik **op Onderwerpen uitsluiten op naam.**
-3. Als u een lijst wilt maken, downloadt u de CSV-sjabloon en voegt u de onderwerpen toe die u wilt uitsluiten (zie Werken met de *CSV-sjabloon* hieronder). Wanneer het bestand gereed is, klikt u **op Bladeren** en uploadt u het bestand. Als er een bestaande lijst is, kunt u de CSV met de lijst downloaden.
+3. Als u een lijst wilt maken, downloadt u de .csv sjabloon en voegt u de onderwerpen toe die u wilt uitsluiten (zie Werken met de *.csv sjabloon* hieronder). Wanneer het bestand gereed is, klikt u **op Bladeren** en uploadt u het bestand. Als er een bestaande lijst is, kunt u de .csv met de lijst downloaden.
 4. Klik op **Opslaan**.
 
     ![Schermafbeelding van de gebruikersinterface van onderwerpen uitsluiten](../media/km-manage-exclude-topics.png)
 
-### <a name="working-with-the-csv-template"></a>Werken met de CSV-sjabloon
+### <a name="working-with-the-csv-template"></a>Werken met de .csv sjabloon
 
 U kunt de csv-sjabloon hieronder kopiëren:
 

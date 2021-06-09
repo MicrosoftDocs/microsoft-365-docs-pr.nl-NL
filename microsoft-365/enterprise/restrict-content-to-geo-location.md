@@ -1,5 +1,5 @@
 ---
-title: Inhoud van SharePoint-site beperken tot een geografische locatie
+title: Site-SharePoint beperken tot een geografische locatie
 ms.reviewer: adwood
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 ms.collection: Strat_SP_gtc
 localization_priority: Normal
-description: In dit artikel leert u hoe u SharePoint-sites kunt beperken tot een opgegeven geografische locatie in een multi-geoomgeving.
+description: In dit artikel leert u hoe u SharePoint sites kunt beperken tot een opgegeven geografische locatie in een multi-geoomgeving.
 ms.openlocfilehash: 74255db19b2ecf9b333d33208c63da260b2bd747
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50927262"
 ---
-# <a name="restrict-sharepoint-site-content-to-a-geo-location"></a>Inhoud van SharePoint-site beperken tot een geografische locatie
+# <a name="restrict-sharepoint-site-content-to-a-geo-location"></a>Site-SharePoint beperken tot een geografische locatie
 
 In sommige gevallen kunt u ervoor kiezen om een site en de bestandsinhoud ervan af te dwingen op de geografische locatie waar de site is gemaakt, door te voorkomen dat de site wordt verplaatst of door te voorkomen dat de bestandsinhoud van de site op een andere geografische locatie wordt ingeslagen.
 

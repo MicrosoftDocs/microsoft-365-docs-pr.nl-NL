@@ -17,7 +17,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - seo-marvel-apr2020
-description: In dit artikel wordt uitgelegd hoe u hybride moderne verificatie kunt verwijderen of uitschakelen uit Skype voor Bedrijven en Exchange.
+description: In dit artikel wordt uitgelegd hoe u hybride moderne verificatie verwijdert of uit Skype voor Bedrijven en Exchange.
 ms.openlocfilehash: 9442ef3e19d0835bfd59f27ec425e36fd7dfcf7a
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -31,12 +31,12 @@ ms.locfileid: "50927286"
 
 Als u HMA (Hybrid Modern Authentication) alleen hebt ingeschakeld om te vinden dat deze niet geschikt is voor uw huidige omgeving, kunt u HMA uitschakelen. In dit artikel wordt uitgelegd hoe u dit kunt doen.
   
-## <a name="who-is-this-article-for"></a>Voor wie is dit artikel bedoeld?
+## <a name="who-is-this-article-for"></a>Wie is dit artikel voor?
 
 Als u Moderne verificatie hebt ingeschakeld in Skype voor Bedrijven Online of On-premises, en/of Exchange Online of On-premises en hebt gevonden dat u HMA moet uitschakelen, zijn deze stappen voor u.
 
 > [!IMPORTANT]
-> Zie het artikel['Skype voor Bedrijven-toologieën](/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported)ondersteund met moderne verificatie' als u skype voor Bedrijven Online of On-premises gebruikt, een HMA met gemengde topologie hebt en moet kijken naar ondersteunde excuses voordat u begint.
+> Zie het[artikel 'Skype voor Bedrijven topologies](/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported)supported with Modern Authentication' als u in Skype voor Bedrijven Online of On-premises bent, een mixed-topology HMA hebt en moet kijken naar ondersteunde excuses voordat u begint.
   
 ## <a name="how-to-disable-hybrid-modern-authentication-exchange"></a>Hybride moderne verificatie uitschakelen (Exchange)
 
@@ -47,7 +47,7 @@ Set-OrganizationConfig -OAuth2ClientProfileEnabled $false
 Set-AuthServer -Identity evoSTS -IsDefaultAuthorizationEndpoint $false
 ```
 
-2. **Exchange Online:** [Verbinding maken met Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell) met Externe PowerShell. Voer de volgende opdracht uit om de  *vlag OAuth2ClientProfileEnabled*  om te zetten in 'onwaar':
+2. **Exchange Online:** Verbinding maken [om Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell) externe PowerShell te gebruiken. Voer de volgende opdracht uit om de  *vlag OAuth2ClientProfileEnabled*  om te zetten in 'onwaar':
 
 ```powershell    
 Set-OrganizationConfig -OAuth2ClientProfileEnabled:$false
@@ -61,7 +61,7 @@ Set-OrganizationConfig -OAuth2ClientProfileEnabled:$false
 Set-CsOAuthConfiguration -ClientAuthorizationOAuthServerIdentity ""
 ```
 
-2. **Skype voor Bedrijven Online:** [Verbinding maken met Skype voor Bedrijven Online](manage-skype-for-business-online-with-microsoft-365-powershell.md) met Externe PowerShell. Voer de volgende opdracht uit om Moderne verificatie uit te schakelen:
+2. **Skype voor Bedrijven Online:** [Verbinding maken online Skype voor Bedrijven met](manage-skype-for-business-online-with-microsoft-365-powershell.md) Remote PowerShell. Voer de volgende opdracht uit om Moderne verificatie uit te schakelen:
 
 ```powershell    
 Set-CsOAuthConfiguration -ClientAdalAuthOverride Disallowed
