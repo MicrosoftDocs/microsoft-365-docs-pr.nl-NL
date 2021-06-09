@@ -454,7 +454,7 @@
         - name: Skype voor Bedrijven
           href: /SkypeForBusiness/skype-for-business-online
         - name: Microsoft Teams
-          href: 'https://docs.microsoft.com/microsoftteams/upgrade-monitor-quality'
+          href: /microsoftteams/upgrade-monitor-quality
         - name: Yammer
           href: 'https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe'
         - name: Prestaties en afstemming
@@ -481,7 +481,7 @@
 - name: Windows 10
   items:
     - name: Hoe de releasestatus controleren
-      href: 'https://docs.microsoft.com/windows/deployment/update/check-release-health'
+      href: /windows/deployment/update/check-release-health
     - name: Implementeren en bijwerken
       href: /windows/deployment/
 - name: Microsoft 365-apps voor ondernemingen
