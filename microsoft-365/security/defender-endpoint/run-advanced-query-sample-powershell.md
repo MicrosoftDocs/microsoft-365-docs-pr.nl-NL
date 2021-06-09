@@ -17,45 +17,45 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 9192662b8d4ed23a5903dddb555f07bf182ab17f
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 0d44f59f69c590ecd8d61207de8784af3e32197d
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52771499"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844884"
 ---
-# <a name="advanced-hunting-using-powershell"></a><span data-ttu-id="9716e-104">Geavanceerde opsporing met behulp van PowerShell</span><span class="sxs-lookup"><span data-stu-id="9716e-104">Advanced Hunting using PowerShell</span></span>
+# <a name="advanced-hunting-using-powershell"></a><span data-ttu-id="94a94-104">Geavanceerde opsporing met behulp van PowerShell</span><span class="sxs-lookup"><span data-stu-id="94a94-104">Advanced Hunting using PowerShell</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-<span data-ttu-id="9716e-105">**Van toepassing op:** [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)</span><span class="sxs-lookup"><span data-stu-id="9716e-105">**Applies to:** [Microsoft Defender for Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)</span></span>
+<span data-ttu-id="94a94-105">**Van toepassing op:** [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)</span><span class="sxs-lookup"><span data-stu-id="94a94-105">**Applies to:** [Microsoft Defender for Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)</span></span>
 
-> <span data-ttu-id="9716e-106">Wilt u Microsoft Defender voor Eindpunt ervaren?</span><span class="sxs-lookup"><span data-stu-id="9716e-106">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="9716e-107">Meld u aan voor een gratis proefabonnement.</span><span class="sxs-lookup"><span data-stu-id="9716e-107">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> <span data-ttu-id="94a94-106">Wilt u Microsoft Defender voor Eindpunt ervaren?</span><span class="sxs-lookup"><span data-stu-id="94a94-106">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="94a94-107">Meld u aan voor een gratis proefabonnement.</span><span class="sxs-lookup"><span data-stu-id="94a94-107">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
-<span data-ttu-id="9716e-108">Voer geavanceerde query's uit met PowerShell, zie [Advanced Hunting API](run-advanced-query-api.md).</span><span class="sxs-lookup"><span data-stu-id="9716e-108">Run advanced queries using PowerShell, see [Advanced Hunting API](run-advanced-query-api.md).</span></span>
+<span data-ttu-id="94a94-108">Voer geavanceerde query's uit met PowerShell, zie [Advanced Hunting API](run-advanced-query-api.md).</span><span class="sxs-lookup"><span data-stu-id="94a94-108">Run advanced queries using PowerShell, see [Advanced Hunting API](run-advanced-query-api.md).</span></span>
 
-<span data-ttu-id="9716e-109">In deze sectie delen we PowerShell-voorbeelden om een token op te halen en te gebruiken om een query uit te voeren.</span><span class="sxs-lookup"><span data-stu-id="9716e-109">In this section, we share PowerShell samples to retrieve a token and use it to run a query.</span></span>
+<span data-ttu-id="94a94-109">In deze sectie delen we PowerShell-voorbeelden om een token op te halen en te gebruiken om een query uit te voeren.</span><span class="sxs-lookup"><span data-stu-id="94a94-109">In this section, we share PowerShell samples to retrieve a token and use it to run a query.</span></span>
 
-## <a name="before-you-begin"></a><span data-ttu-id="9716e-110">Voordat u begint</span><span class="sxs-lookup"><span data-stu-id="9716e-110">Before you begin</span></span>
-<span data-ttu-id="9716e-111">U moet eerst een [app maken.](apis-intro.md)</span><span class="sxs-lookup"><span data-stu-id="9716e-111">You first need to [create an app](apis-intro.md).</span></span>
+## <a name="before-you-begin"></a><span data-ttu-id="94a94-110">Voordat u begint</span><span class="sxs-lookup"><span data-stu-id="94a94-110">Before you begin</span></span>
+<span data-ttu-id="94a94-111">U moet eerst een [app maken.](apis-intro.md)</span><span class="sxs-lookup"><span data-stu-id="94a94-111">You first need to [create an app](apis-intro.md).</span></span>
 
-## <a name="preparation-instructions"></a><span data-ttu-id="9716e-112">Voorbereidingsinstructies</span><span class="sxs-lookup"><span data-stu-id="9716e-112">Preparation instructions</span></span>
+## <a name="preparation-instructions"></a><span data-ttu-id="94a94-112">Voorbereidingsinstructies</span><span class="sxs-lookup"><span data-stu-id="94a94-112">Preparation instructions</span></span>
 
-- <span data-ttu-id="9716e-113">Open een PowerShell-venster.</span><span class="sxs-lookup"><span data-stu-id="9716e-113">Open a PowerShell window.</span></span>
-- <span data-ttu-id="9716e-114">Als u de PowerShell-opdrachten niet kunt uitvoeren in uw beleid, kunt u de onderstaande opdracht uitvoeren:</span><span class="sxs-lookup"><span data-stu-id="9716e-114">If your policy does not allow you to run the PowerShell commands, you can run the below command:</span></span>
+- <span data-ttu-id="94a94-113">Open een PowerShell-venster.</span><span class="sxs-lookup"><span data-stu-id="94a94-113">Open a PowerShell window.</span></span>
+- <span data-ttu-id="94a94-114">Als u de PowerShell-opdrachten niet kunt uitvoeren in uw beleid, kunt u de onderstaande opdracht uitvoeren:</span><span class="sxs-lookup"><span data-stu-id="94a94-114">If your policy does not allow you to run the PowerShell commands, you can run the below command:</span></span>
   ```
   Set-ExecutionPolicy -ExecutionPolicy Bypass
   ```
 
-><span data-ttu-id="9716e-115">Zie [PowerShell-documentatie](https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-executionpolicy) voor meer informatie</span><span class="sxs-lookup"><span data-stu-id="9716e-115">For more information, see [PowerShell documentation](https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-executionpolicy)</span></span>
+><span data-ttu-id="94a94-115">Zie [PowerShell-documentatie](/powershell/module/microsoft.powershell.security/set-executionpolicy) voor meer informatie</span><span class="sxs-lookup"><span data-stu-id="94a94-115">For more information, see [PowerShell documentation](/powershell/module/microsoft.powershell.security/set-executionpolicy)</span></span>
 
-## <a name="get-token"></a><span data-ttu-id="9716e-116">Token krijgen</span><span class="sxs-lookup"><span data-stu-id="9716e-116">Get token</span></span>
+## <a name="get-token"></a><span data-ttu-id="94a94-116">Token krijgen</span><span class="sxs-lookup"><span data-stu-id="94a94-116">Get token</span></span>
 
-- <span data-ttu-id="9716e-117">Voer het volgende uit:</span><span class="sxs-lookup"><span data-stu-id="9716e-117">Run the following:</span></span>
+- <span data-ttu-id="94a94-117">Voer het volgende uit:</span><span class="sxs-lookup"><span data-stu-id="94a94-117">Run the following:</span></span>
 
 ```
 $tenantId = '00000000-0000-0000-0000-000000000000' # Paste your own tenant ID here
@@ -74,14 +74,14 @@ $response = Invoke-RestMethod -Method Post -Uri $oAuthUri -Body $body -ErrorActi
 $aadToken = $response.access_token
 ```
 
-<span data-ttu-id="9716e-118">waar</span><span class="sxs-lookup"><span data-stu-id="9716e-118">where</span></span>
-- <span data-ttu-id="9716e-119">$tenantId: id van de tenant namens wie u de query wilt uitvoeren (dat wil zeggen dat de query wordt uitgevoerd op de gegevens van deze tenant)</span><span class="sxs-lookup"><span data-stu-id="9716e-119">$tenantId: ID of the tenant on behalf of which you want to run the query (that is, the query will be run on the data of this tenant)</span></span>
-- <span data-ttu-id="9716e-120">$appId: id van uw Azure AD-app (de app moet de machtiging Geavanceerde query's uitvoeren hebben voor Defender voor Eindpunt)</span><span class="sxs-lookup"><span data-stu-id="9716e-120">$appId: ID of your Azure AD app (the app must have 'Run advanced queries' permission to Defender for Endpoint)</span></span>
-- <span data-ttu-id="9716e-121">$appSecret: Geheim van uw Azure AD-app</span><span class="sxs-lookup"><span data-stu-id="9716e-121">$appSecret: Secret of your Azure AD app</span></span>
+<span data-ttu-id="94a94-118">waar</span><span class="sxs-lookup"><span data-stu-id="94a94-118">where</span></span>
+- <span data-ttu-id="94a94-119">$tenantId: id van de tenant namens wie u de query wilt uitvoeren (dat wil zeggen dat de query wordt uitgevoerd op de gegevens van deze tenant)</span><span class="sxs-lookup"><span data-stu-id="94a94-119">$tenantId: ID of the tenant on behalf of which you want to run the query (that is, the query will be run on the data of this tenant)</span></span>
+- <span data-ttu-id="94a94-120">$appId: id van uw Azure AD-app (de app moet de machtiging Geavanceerde query's uitvoeren hebben voor Defender voor Eindpunt)</span><span class="sxs-lookup"><span data-stu-id="94a94-120">$appId: ID of your Azure AD app (the app must have 'Run advanced queries' permission to Defender for Endpoint)</span></span>
+- <span data-ttu-id="94a94-121">$appSecret: Geheim van uw Azure AD-app</span><span class="sxs-lookup"><span data-stu-id="94a94-121">$appSecret: Secret of your Azure AD app</span></span>
 
-## <a name="run-query"></a><span data-ttu-id="9716e-122">Query uitvoeren</span><span class="sxs-lookup"><span data-stu-id="9716e-122">Run query</span></span>
+## <a name="run-query"></a><span data-ttu-id="94a94-122">Query uitvoeren</span><span class="sxs-lookup"><span data-stu-id="94a94-122">Run query</span></span>
 
-<span data-ttu-id="9716e-123">Voer de volgende query uit:</span><span class="sxs-lookup"><span data-stu-id="9716e-123">Run the following query:</span></span>
+<span data-ttu-id="94a94-123">Voer de volgende query uit:</span><span class="sxs-lookup"><span data-stu-id="94a94-123">Run the following query:</span></span>
 
 ```
 $query = 'RegistryEvents | limit 10' # Paste your own query here
@@ -99,35 +99,35 @@ $results = $response.Results
 $schema = $response.Schema
 ```
 
-- <span data-ttu-id="9716e-124">$results de resultaten van de query bevatten</span><span class="sxs-lookup"><span data-stu-id="9716e-124">$results contain the results of your query</span></span>
-- <span data-ttu-id="9716e-125">$schema bevat het schema van de resultaten van de query</span><span class="sxs-lookup"><span data-stu-id="9716e-125">$schema contains the schema of the results of your query</span></span>
+- <span data-ttu-id="94a94-124">$results de resultaten van de query bevatten</span><span class="sxs-lookup"><span data-stu-id="94a94-124">$results contain the results of your query</span></span>
+- <span data-ttu-id="94a94-125">$schema bevat het schema van de resultaten van de query</span><span class="sxs-lookup"><span data-stu-id="94a94-125">$schema contains the schema of the results of your query</span></span>
 
-### <a name="complex-queries"></a><span data-ttu-id="9716e-126">Complexe query's</span><span class="sxs-lookup"><span data-stu-id="9716e-126">Complex queries</span></span>
+### <a name="complex-queries"></a><span data-ttu-id="94a94-126">Complexe query's</span><span class="sxs-lookup"><span data-stu-id="94a94-126">Complex queries</span></span>
 
-<span data-ttu-id="9716e-127">Als u complexe query's (of query's met meerdere lijnen) wilt uitvoeren, kunt u de query opslaan in een bestand en in plaats van de eerste regel in het bovenstaande voorbeeld de onderstaande opdracht uitvoeren:</span><span class="sxs-lookup"><span data-stu-id="9716e-127">If you want to run complex queries (or multilines queries), save your query in a file and, instead of the first line in the above sample, run the below command:</span></span>
+<span data-ttu-id="94a94-127">Als u complexe query's (of query's met meerdere lijnen) wilt uitvoeren, kunt u de query opslaan in een bestand en in plaats van de eerste regel in het bovenstaande voorbeeld de onderstaande opdracht uitvoeren:</span><span class="sxs-lookup"><span data-stu-id="94a94-127">If you want to run complex queries (or multilines queries), save your query in a file and, instead of the first line in the above sample, run the below command:</span></span>
 
 ```
 $query = [IO.File]::ReadAllText("C:\myQuery.txt"); # Replace with the path to your file
 ```
 
-## <a name="work-with-query-results"></a><span data-ttu-id="9716e-128">Werken met queryresultaten</span><span class="sxs-lookup"><span data-stu-id="9716e-128">Work with query results</span></span>
+## <a name="work-with-query-results"></a><span data-ttu-id="94a94-128">Werken met queryresultaten</span><span class="sxs-lookup"><span data-stu-id="94a94-128">Work with query results</span></span>
 
-<span data-ttu-id="9716e-129">U kunt nu de queryresultaten gebruiken.</span><span class="sxs-lookup"><span data-stu-id="9716e-129">You can now use the query results.</span></span>
+<span data-ttu-id="94a94-129">U kunt nu de queryresultaten gebruiken.</span><span class="sxs-lookup"><span data-stu-id="94a94-129">You can now use the query results.</span></span>
 
-<span data-ttu-id="9716e-130">Ga als file1.csv als u de resultaten van de query wilt uitvoeren in de CSV-indeling:</span><span class="sxs-lookup"><span data-stu-id="9716e-130">To output the results of the query in CSV format in file file1.csv do the below:</span></span>
+<span data-ttu-id="94a94-130">Ga als file1.csv als u de resultaten van de query wilt uitvoeren in de CSV-indeling:</span><span class="sxs-lookup"><span data-stu-id="94a94-130">To output the results of the query in CSV format in file file1.csv do the below:</span></span>
 
 ```
 $results | ConvertTo-Csv -NoTypeInformation | Set-Content file1.csv
 ```
 
-<span data-ttu-id="9716e-131">Ga als file1.jsals u de resultaten van de query wilt uitvoeren in de JSON-indeling:</span><span class="sxs-lookup"><span data-stu-id="9716e-131">To output the results of the query in JSON format in file file1.json do the below:</span></span>
+<span data-ttu-id="94a94-131">Ga als file1.jsals u de resultaten van de query wilt uitvoeren in de JSON-indeling:</span><span class="sxs-lookup"><span data-stu-id="94a94-131">To output the results of the query in JSON format in file file1.json do the below:</span></span>
 
 ```
 $results | ConvertTo-Json | Set-Content file1.json
 ```
 
 
-## <a name="related-topic"></a><span data-ttu-id="9716e-132">Verwant onderwerp</span><span class="sxs-lookup"><span data-stu-id="9716e-132">Related topic</span></span>
-- [<span data-ttu-id="9716e-133">Microsoft Defender voor eindpunt-API's</span><span class="sxs-lookup"><span data-stu-id="9716e-133">Microsoft Defender for Endpoint APIs</span></span>](apis-intro.md)
-- [<span data-ttu-id="9716e-134">Geavanceerde API voor opsporing</span><span class="sxs-lookup"><span data-stu-id="9716e-134">Advanced Hunting API</span></span>](run-advanced-query-api.md)
-- [<span data-ttu-id="9716e-135">Geavanceerde opsporing met behulp van Python</span><span class="sxs-lookup"><span data-stu-id="9716e-135">Advanced Hunting using Python</span></span>](run-advanced-query-sample-python.md)
+## <a name="related-topic"></a><span data-ttu-id="94a94-132">Verwant onderwerp</span><span class="sxs-lookup"><span data-stu-id="94a94-132">Related topic</span></span>
+- [<span data-ttu-id="94a94-133">Microsoft Defender voor eindpunt-API's</span><span class="sxs-lookup"><span data-stu-id="94a94-133">Microsoft Defender for Endpoint APIs</span></span>](apis-intro.md)
+- [<span data-ttu-id="94a94-134">Geavanceerde API voor opsporing</span><span class="sxs-lookup"><span data-stu-id="94a94-134">Advanced Hunting API</span></span>](run-advanced-query-api.md)
+- [<span data-ttu-id="94a94-135">Geavanceerde opsporing met behulp van Python</span><span class="sxs-lookup"><span data-stu-id="94a94-135">Advanced Hunting using Python</span></span>](run-advanced-query-sample-python.md)

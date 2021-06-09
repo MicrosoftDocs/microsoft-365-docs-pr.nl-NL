@@ -245,7 +245,7 @@
               href: dlp-teams-default-policy.md
             - name: Meer informatie over de on-premises scanner voor Microsoft 365 preventie van gegevensverlies (preview)
               href: dlp-on-premises-scanner-learn.md
-            - name: Meer informatie over Microsoft compliance-extensie (preview)
+            - name: Meer informatie over de Microsoft-compliance-extensie
               href: dlp-chrome-learn-about.md
             - name: Meer informatie over het Waarschuwingen-dashboard voor preventie van gegevensverlies
               href: dlp-alerts-dashboard-learn.md
@@ -267,7 +267,7 @@
               href: endpoint-dlp-getting-started.md
             - name: Apparaat-proxy en instellingen voor internetverbinding voor Eindpunt DLP configureren.
               href: endpoint-dlp-configure-proxy.md
-            - name: Aan de slag met Microsoft compliance-extensie (preview)
+            - name: Aan de slag met de Microsoft-compliance-extensie
               href: dlp-chrome-get-started.md
             - name: Aan de slag met het waarschuwingsdashboard voor de preventie van gegevensverlies
               href: dlp-alerts-dashboard-get-started.md
@@ -694,14 +694,14 @@
               href: add-data-to-review-set-from-another-review-set.md
         - name: Inhoud van een case beoordelen
           items:
-            - name: Het dashboard voor controlesets gebruiken
-              href: advanced-ediscovery-dashboard.md
-            - name: Documenten weergeven in een controleset
-              href: view-documents-in-review-set.md
             - name: Query- en filterinhoud in een controleset
               href: review-set-search.md
             - name: Documenten taggen in een controleset
               href: tagging-documents.md
+            - name: Documenten weergeven in een controleset
+              href: view-documents-in-review-set.md
+            - name: Het dashboard voor controlesets gebruiken
+              href: advanced-ediscovery-dashboard.md
         - name: Inhoud van een case analyseren
           href: analyzing-data-in-review-set.md
           items:
@@ -711,12 +711,20 @@
               href: email-threading-in-advanced-ediscovery.md
             - name: Thema's
               href: themes-in-advanced-ediscovery.md
-            - name: Module voor predictief coderen (preview)
+        - name: Predictief coderen gebruiken (preview)
+          items:
+            - name: Snel aan de slag - predictief coderen
+              href: predictive-coding-quick-start.md
+            - name: Meer informatie over predictief coderen
               href: predictive-coding-overview.md
-            - name: De relevantiemodule gebruiken om inhoud te analyseren
-              href: using-relevance.md
-            - name: Buitengebruikstelling van de relevantiemodule
-              href: relevance-module-retirement.md
+            - name: Een model voor predictief coderen maken
+              href: predictive-coding-create-model.md
+            - name: Een model voor predictief coderen trainen
+              href: predictive-coding-train-model.md
+            - name: Voorspellingsscorefilter toepassen
+              href: predictive-coding-apply-prediction-filter.md
+            - name: Referentie predictief coderen
+              href: predictive-coding-reference.md
         - name: Inhoud van een case exporteren
           href: exporting-data-ediscover20.md
           items:
