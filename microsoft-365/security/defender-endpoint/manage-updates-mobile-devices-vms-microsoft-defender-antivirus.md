@@ -1,6 +1,6 @@
 ---
-title: Definieer hoe mobiele apparaten worden bijgewerkt door Microsoft Defender Antivirus
-description: Beheer hoe mobiele apparaten, zoals laptops, moeten worden bijgewerkt met beveiligingsupdates voor Microsoft Defender Antivirus.
+title: Definieer hoe mobiele apparaten worden bijgewerkt per Microsoft Defender Antivirus
+description: Beheer hoe mobiele apparaten, zoals laptops, moeten worden bijgewerkt met Microsoft Defender Antivirus beveiligingsupdates.
 keywords: updates, beveiliging, planningsupdates, batterij, mobiel apparaat, laptop, notitieblok, opt-in, microsoft-update, wsus, overschrijven
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -45,7 +45,7 @@ De volgende artikelen kunnen ook handig zijn in deze situaties:
 
 ## <a name="opt-in-to-microsoft-update-on-mobile-computers-without-a-wsus-connection"></a>Kies voor Microsoft Update op mobiele computers zonder WSUS-verbinding
 
-U kunt Microsoft Update gebruiken om beveiligingsinformatie op mobiele apparaten met Microsoft Defender Antivirus up-to-date te houden wanneer ze niet zijn verbonden met het bedrijfsnetwerk of anders geen WSUS-verbinding hebben. 
+U kunt Microsoft Update gebruiken om beveiligingsinformatie op mobiele apparaten die Microsoft Defender Antivirus worden uitgevoerd, up-to-date te houden wanneer ze niet zijn verbonden met het bedrijfsnetwerk of anders geen WSUS-verbinding hebben. 
 
 Dit betekent dat beveiligingsupdates kunnen worden geleverd op apparaten (via Microsoft Update), zelfs als u WSUS hebt ingesteld om Microsoft Update te overschrijven.
 
@@ -53,7 +53,7 @@ U kunt op een van de volgende manieren kiezen voor Microsoft Update op het mobie
 
 - Wijzig de instelling met Groepsbeleid.
 - Gebruik een VBScript om een script te maken en voer het vervolgens uit op elke computer in uw netwerk.
-- Kies handmatig op elke computer in uw netwerk via **het** menu Instellingen.
+- Kies handmatig elke computer in uw netwerk via **het** Instellingen menu.
 
 ### <a name="use-group-policy-to-opt-in-to-microsoft-update"></a>Groepsbeleid gebruiken om u aan te geven bij Microsoft Update
 
@@ -63,7 +63,7 @@ U kunt op een van de volgende manieren kiezen voor Microsoft Update op het mobie
 
 3. Selecteer **Beleid en** **beheersjablonen.**
 
-4. Vouw de boom uit naar **Windows-onderdelen**  >  **Microsoft Defender Antivirus** Signature  >  **Updates**.
+4. Vouw de structuur uit **Windows onderdelen**  >  **Microsoft Defender Antivirus**  >  **Handtekeningupdates.**
 
 5. Stel **Beveiligingsintelligentie-updates van Microsoft Update toestaan** in op **Ingeschakeld** en selecteer **OK.**
 
@@ -80,11 +80,11 @@ U kunt op een van de volgende manieren kiezen voor Microsoft Update op het mobie
 
 2. Selecteer **Geavanceerde** opties.
 
-3. Schakel het selectievakje Voor mij updates voor andere **Microsoft-producten in** wanneer ik Windows bij werk.
+3. Schakel het selectievakje Voor mij updates voor andere **Microsoft-producten in** wanneer ik een update Windows.
 
 ## <a name="prevent-security-intelligence-updates-when-running-on-battery-power"></a>Beveiligingsintelligentie-updates voorkomen wanneer de batterij wordt gebruikt
 
-U kunt Microsoft Defender Antivirus zo configureren dat alleen beveiligingsupdates worden gedownload wanneer de pc is verbonden met een bekabelde stroombron. 
+U kunt Microsoft Defender Antivirus alleen beveiligingsupdates downloaden wanneer de pc is verbonden met een bekabelde stroombron. 
 
 ### <a name="use-group-policy-to-prevent-security-intelligence-updates-on-battery-power"></a>Groepsbeleid gebruiken om beveiligingsintelligentie-updates voor accu's te voorkomen
 
@@ -94,11 +94,11 @@ U kunt Microsoft Defender Antivirus zo configureren dat alleen beveiligingsupdat
 
 3.  Selecteer **Beleid en** **beheersjablonen.**
 
-4.  Vouw de structuur uit **naar Windows-onderdelen** Microsoft Defender Antivirus Signature Updates en stel beveiligingsintelligentie-updates toestaan wanneer u op de batterij werkt in  >    >  op **Uitgeschakeld.**  Selecteer vervolgens **OK**. 
+4.  Vouw de structuur uit **Windows onderdelen**  >  **Microsoft Defender Antivirus**  >  **Handtekeningupdates** en stel beveiligingsinformatie-updates  toestaan wanneer u op de batterij werkt in op **Uitgeschakeld.** Selecteer vervolgens **OK**. 
 
 Met deze actie wordt voorkomen dat beveiligingsupdates worden gedownload wanneer de pc op de batterij staat.
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-articles"></a>Aanverwante artikelen
 
-- [Microsoft Defender Antivirus-updates beheren en basislijnen toepassen](manage-updates-baselines-microsoft-defender-antivirus.md)
-- [Microsoft Defender Antivirus bijwerken en beheren in Windows 10](deploy-manage-report-microsoft-defender-antivirus.md)
+- [Updates Microsoft Defender Antivirus en basislijnen toepassen](manage-updates-baselines-microsoft-defender-antivirus.md)
+- [Uw gegevens bijwerken en Microsoft Defender Antivirus beheren in Windows 10](deploy-manage-report-microsoft-defender-antivirus.md)

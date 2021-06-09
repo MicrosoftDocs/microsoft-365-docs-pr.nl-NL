@@ -23,7 +23,7 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Lees hoe u uw campagne of bedrijf kunt beschermen door uw werk te beveiligen met Microsoft 365.
+description: Lees hoe u uw campagne of bedrijf kunt beschermen door uw beveiliging te verhogen met Microsoft 365.
 ms.openlocfilehash: d2486f7160bef57a91d76fba756ff75ba319b8fa
 ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
 ms.translationtype: MT
@@ -35,16 +35,16 @@ ms.locfileid: "50044370"
 
 
 ## <a name="overview"></a>Overzicht 
-Bekijk deze video om te zien hoe u uw campagne of bedrijf kunt beschermen:
+Bekijk deze video om te zien hoe u uw campagne of bedrijf kunt beveiligen:
 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3cfV1]  
 
 
-Volg daarna de stappen om:
+Volg vervolgens de stappen om:
 
 - [Beveiliging tegen malware en andere bedreigingen](m365-campaigns-increase-protection.md)
-- [Toegang tot uw campagnegegevens beschermen door](m365-campaigns-conditional-access.md) uw accounts en apps te beveiligen
+- [De toegang tot uw campagnegegevens beveiligen](m365-campaigns-conditional-access.md) door uw accounts en apps te beveiligen
 - [Beheerdersaccounts beveiligen](m365-campaigns-protect-admin-accounts.md)
 - [Mobiele apparaten instellen](../business/set-up-mobile-devices.md?toc=/microsoft-365/campaigns/toc.json)
 - [Uw gebruikers trainen](m365-campaigns-users.md)

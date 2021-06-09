@@ -54,13 +54,13 @@ Ga als volgende te werk om een eDiscovery-wacht te maken die is gekoppeld aan ee
 
 7. Kies op **de wizard** Locaties kiezen de inhoudslocaties die u in de wacht wilt zetten. U kunt postvakken, sites en openbare mappen in de wacht zetten.
 
-    ![De inhoudslocaties kiezen die u in de wacht wilt zetten](../media/eDiscoveryHoldLocations.png)
+    ![Kies de inhoudslocaties die u vast wilt zetten](../media/eDiscoveryHoldLocations.png)
   
-   1. **Exchange postvakken:** Stel de schakelknop in op **Aan** en klik vervolgens op **Gebruikers,** groepen of teams kiezen om op te geven welke postvakken in de wacht moeten worden gezet. Gebruik het zoekvak om gebruikerspostvakken en distributiegroepen te zoeken (om de postvakken van groepsleden in de wacht te zetten) om deze in de wacht te zetten. U kunt ook het bijbehorende postvak in de wacht zetten voor een Microsoft-team, Office 365 Groep en Yammer Groep. Zie Inhoud die is opgeslagen in postvakken voor [eDiscovery](what-is-stored-in-exo-mailbox.md)voor meer informatie over de toepassingsgegevens die worden bewaard wanneer een postvak in de wacht wordt geplaatst.
+   1. **Exchange-postvakken**: Stel de wisselknop in op **Aan** en klik vervolgens op **Kies gebruikers, groepen of teams** om de postvakken op te geven die u vast wilt zetten. Gebruik het zoekvak om gebruikerspostvakken en distributiegroepen te zoeken (om de postvakken van groepsleden vast te zetten) die u vast wilt zetten. U kunt ook het bijbehorende postvak in de wacht zetten voor een Microsoft-team, Office 365 Groep en Yammer Groep. Zie Inhoud die is opgeslagen in postvakken voor [eDiscovery](what-is-stored-in-exo-mailbox.md)voor meer informatie over de toepassingsgegevens die worden bewaard wanneer een postvak in de wacht wordt geplaatst.
 
-   1. **SharePoint sites:** Stel de schakelknop in op **Aan** en klik vervolgens op Sites **kiezen** om op te geven SharePoint sites en OneDrive accounts in de wacht te zetten. Typ de URL voor elke site die u in de wacht wilt zetten. U kunt ook de URL voor de SharePoint toevoegen voor een Microsoft-team, Office 365 groep of een Yammer Groep.
+   1. **SharePoint-sites**: Stel de wisselknop in op **Aan** en klik vervolgens op **Sites kiezen** om SharePoint-sites en OneDrive-accounts op te geven die u vast wilt zetten. Typ de URL voor elke site die u vast wilt zetten. U kunt ook de URL voor de SharePoint toevoegen voor een Microsoft-team, Office 365 groep of een Yammer Groep.
   
-   1. **Exchange openbare mappen:** Stel de schakelknop in op **Aan** om alle openbare mappen in uw Exchange Online in de wacht te zetten. U kunt geen specifieke openbare mappen kiezen om in de wacht te zetten. Schakel de wisselknop uit als u openbare mappen niet in de wacht wilt zetten.
+   1. **Openbare Mappen in Exchange**: Stel de wisselknop in op **Aan** om alle openbare mappen in uw Exchange Online-organisatie vast te zetten. U kunt geen specifieke openbare mappen kiezen die u vast wilt zetten. Zet de wisselknop uit als u geen openbare mappen vast wilt zetten.
 
    > [!NOTE]
    > U moet ten minste één inhoudslocatie aan de wacht houden toevoegen. Anders wordt in de eDiscovery-holdstatistieken laten zien dat er geen items in de wacht staan.
@@ -125,18 +125,18 @@ Hier zijn enkele andere dingen waar u rekening mee moet houden bij het zoeken na
 
 ## <a name="preserve-content-in-microsoft-teams"></a>Inhoud behouden in Microsoft Teams
 
-Gesprekken die deel uitmaken van een Microsoft Teams kanaal, worden opgeslagen in het postvak dat is gekoppeld aan het Microsoft-team. Op dezelfde manier worden bestanden die teamleden delen in een kanaal opgeslagen op de SharePoint teamsite. Daarom moet u het teampostvak en de SharePoint in de eDiscovery-wachtplaats plaatsen om gesprekken en bestanden in een kanaal te behouden.
+Gesprekken die deel uitmaken van een Microsoft Teams kanaal, worden opgeslagen in het postvak dat is gekoppeld aan het Microsoft-team. En bestanden die teamleden delen in een kanaal, worden opgeslagen op de SharePoint-site van het team. Daarom moet u het teampostvak en de SharePoint in de eDiscovery-wachtplaats plaatsen om gesprekken en bestanden in een kanaal te behouden.
 
 U kunt ook gesprekken die deel uitmaken van de chatlijst in Teams (chats met de naam *1:1* of *groepschats van 1:N)* opslaan in de postvakken van de gebruikers die deelnemen aan de chat. En bestanden die gebruikers delen in chatgesprekken, worden opgeslagen in OneDrive account van de gebruiker die het bestand deelt. Daarom moet u de afzonderlijke gebruikerspostvakken en -OneDrive toevoegen aan een eDiscovery-wachtruimte om gesprekken en bestanden in de chatlijst te behouden. Het is een goed idee om de postvakken van leden van een Microsoft-team in de wacht te zetten, naast het in de wacht zetten van het teampostvak en de site.
 
 > [!NOTE]
-> Als uw organisatie een hybride Exchange-implementatie heeft (of als uw organisatie een on-premises Exchange-organisatie synchroniseert met Office 365) en Microsoft Teams heeft ingeschakeld, kunnen on-premises gebruikers de Teams-chattoepassing gebruiken en deelnemen aan 1:1 chats en 1:N-groepschats. Deze gesprekken worden opgeslagen in cloudopslag die is gekoppeld aan een on-premises gebruiker. Als een on-premises gebruiker in een eDiscovery-bewaring wordt geplaatst, blijft Teams chatinhoud in de cloudopslag behouden. Zie Zoeken naar Teams [chatgegevens voor on-premises gebruikers](search-cloud-based-mailboxes-for-on-premises-users.md)voor meer informatie.
+> Als uw organisatie een hybride Exchange-implementatie heeft (of als uw organisatie een on-premises Exchange-organisatie synchroniseert met Office 365) en Microsoft Teams heeft ingeschakeld, kunnen on-premises gebruikers de Teams-chattoepassing gebruiken en deelnemen aan 1:1 chats en 1:N-groepschats. Deze gesprekken worden opgeslagen in cloudopslag die is gekoppeld aan een on-premises gebruiker. Als een on-premises gebruiker in een eDiscovery-bewaring wordt geplaatst, blijft Teams chatinhoud in de cloudopslag behouden. Zie [Zoeken naar chatgegevens van Teams voor on-premises gebruikers](search-cloud-based-mailboxes-for-on-premises-users.md) voor meer informatie.
 
 Zie Een gebruiker of [team](/MicrosoftTeams/legal-hold)in Microsoft Teams juridische Microsoft Teams voor meer informatie over het behoud van Teams inhoud.
 
 ### <a name="preserve-card-content"></a>Kaartinhoud behouden
 
-Op dezelfde manier wordt kaartinhoud die wordt gegenereerd door apps in Teams-kanalen, 1:1-chats en 1:N-groepschats, opgeslagen in postvakken en behouden wanneer een postvak in een eDiscovery-wachtruimte wordt geplaatst. Een *kaart* is een gebruikersinterfacecontainer voor korte stukken inhoud. Kaarten kunnen meerdere eigenschappen en bijlagen hebben en kunnen knoppen bevatten waarmee kaartacties worden ge triggerd. Zie Kaarten voor meer [informatie.](/microsoftteams/platform/task-modules-and-cards/what-are-cards) Net als Teams inhoud, wordt de kaartinhoud opgeslagen op basis van de plaats waar de kaart is gebruikt. Inhoud voor kaarten die in een Teams kanaal worden gebruikt, wordt opgeslagen in Teams groepspostvak. Kaartinhoud voor 1:1- en 1xN-chats worden opgeslagen in de postvakken van de chatdeelnemers.
+Op dezelfde manier wordt kaartinhoud die wordt gegenereerd door apps in Teams-kanalen, 1:1-chats en 1:N-groepschats, opgeslagen in postvakken en behouden wanneer een postvak in een eDiscovery-wachtruimte wordt geplaatst. Een *kaart* is een UI-container voor korte stukken inhoud. Kaarten kunnen meerdere eigenschappen en bijlagen hebben en kunnen knoppen bevatten waarmee kaartacties worden ge triggerd. Zie Kaarten voor meer [informatie.](/microsoftteams/platform/task-modules-and-cards/what-are-cards) Waar kaartinhoud wordt opgeslagen, hangt net als bij andere inhoud van Teams, af van de plaats waar de kaart is gebruikt. Inhoud voor kaarten die wordt gebruikt in een Teams-kanaal, wordt opgeslagen in het postvak van de Teams-groep. Kaartinhoud voor 1:1- en 1xN-chats wordt opgeslagen in de postvakken van de deelnemers aan de chat.
 
 ### <a name="preserve-meeting-and-call-information"></a>Vergaderings- en gespreksgegevens behouden
 
@@ -148,7 +148,7 @@ Vanaf februari 2020 hebben we ook de mogelijkheid ingeschakeld om inhoud in priv
 
 ### <a name="preserve-wiki-content"></a>Wiki-inhoud behouden
 
-Elk team- of teamkanaal bevat ook een Wiki voor het maken van notitie en samenwerking. De Wiki-inhoud wordt automatisch opgeslagen in een bestand met een MHT-indeling. Dit bestand wordt opgeslagen in de Teams wikigegevens op de teamsite SharePoint wikigegevens. U kunt de wiki-inhoud behouden door de teamsite SharePoint aan een eDiscovery-wachtplaats toe te voegen.
+Elk team- of teamkanaal bevat ook een Wiki voor het maken van notitie en samenwerking. De Wiki-inhoud wordt automatisch opgeslagen in een bestand met de MHT-indeling. Dit bestand wordt op de SharePoint-site van het team opgeslagen in de documentbibliotheek voor Wiki-gegevens van Teams. U kunt de wiki-inhoud behouden door de teamsite SharePoint aan een eDiscovery-wachtplaats toe te voegen.
 
 > [!NOTE]
 > De mogelijkheid om Wiki-inhoud voor een team- of teamkanaal te behouden (wanneer u de SharePoint-site van het team in de wacht zet) is uitgebracht op 22 juni 2017. Als een teamsite in de wacht staat, blijft de Wiki-inhoud behouden vanaf die datum. Als een teamsite echter in de wacht staat en de Wiki-inhoud vóór 22 juni 2017 is verwijderd, blijft de Wiki-inhoud niet behouden.
@@ -173,7 +173,7 @@ Houd rekening met de volgende dingen wanneer u zowel Teams als Office 365 groepe
     ```
 
     > [!NOTE]
-    > Als u de **cmdlet Get-UnifiedGroup** wilt uitvoeren, moet u de rol View-Only Geadresseerden toegewezen krijgen in Exchange Online of lid zijn van een rollengroep die de rol View-Only Geadresseerden heeft toegewezen. 
+    > Als u de cmdlet **Get-UnifiedGroup** wilt uitvoeren, moet u de rol View-Only Recipients toegewezen krijgen in Exchange Online of lid zijn van een rollengroep aan wie de rol View-Only Recipients is toegewezen. 
   
 - Wanneer het postvak van een gebruiker wordt doorzocht, wordt Office 365 team of groep waar de gebruiker lid van is, niet gezocht. Wanneer u een team of groep Office 365 in de eDiscovery-wacht, worden alleen het groepspostvak en de groepssite in de wacht geplaatst. De postvakken en OneDrive voor Bedrijven van groepsleden worden niet in de wacht gezet, tenzij u ze expliciet toevoegt aan de eDiscovery-wachtplaats. Dus als u een Team of Office 365-groep om een juridische reden in de wacht moet zetten, kunt u overwegen om de postvakken en OneDrive accounts van team- of groepsleden in dezelfde wacht te zetten.
 
@@ -184,14 +184,14 @@ Houd rekening met de volgende dingen wanneer u zowel Teams als Office 365 groepe
     ```
 
     > [!NOTE]
-    > Als u de **cmdlet Get-UnifiedGroupLinks** wilt uitvoeren, moet u de rol View-Only Geadresseerden in Exchange Online krijgen of lid zijn van een rollengroep die de rol View-Only Geadresseerden heeft toegewezen.
+    > Als u de cmdlet **Get-UnifiedGroupLinks** wilt uitvoeren, moet u de rol View-Only Recipients toegewezen krijgen in Exchange Online of lid zijn van een rollengroep aan wie de rol View-Only Recipients is toegewezen.
 
 ## <a name="preserve-content-in-onedrive-accounts"></a>Inhoud behouden in OneDrive accounts
 
-Zie Een lijst maken met alle OneDrive-locaties in uw organisatie als u een lijst wilt verzamelen met de URL's voor de [OneDrive voor Bedrijven-sites in](/onedrive/list-onedrive-urls)uw organisatie, zodat u deze kunt toevoegen aan een wacht- of zoekactie die is gekoppeld aan een eDiscovery-zaak. Met het script in dit artikel wordt een tekstbestand gemaakt met een lijst met alle OneDrive sites in uw organisatie. Als u dit script wilt uitvoeren, moet u de SharePoint Online Management Shell installeren en gebruiken. Zorg ervoor dat u de URL voor het MySite-domein van uw organisatie aan elke site OneDrive die u wilt zoeken. Dit is het domein dat al uw OneDrive; `https://contoso-my.sharepoint.com`bijvoorbeeld. Hier is een voorbeeld van een URL voor de OneDrive van een gebruiker: `https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft.com` .
+Zie Een lijst maken met alle OneDrive-locaties in uw organisatie als u een lijst wilt verzamelen met de URL's voor de [OneDrive voor Bedrijven-sites in](/onedrive/list-onedrive-urls)uw organisatie, zodat u deze kunt toevoegen aan een wacht- of zoekactie die is gekoppeld aan een eDiscovery-zaak. Met het script in dit artikel wordt een tekstbestand gemaakt met een lijst met alle OneDrive sites in uw organisatie. Als u dit script wilt uitvoeren, moet u SharePoint Online Management Shell installeren en gebruiken. Koppel de URL voor het MySite-domein van uw organisatie aan elke OneDrive-site die u wilt doorzoeken. Dit is het domein dat de inhoud van uw OneDrive bevat; bijvoorbeeld `https://contoso-my.sharepoint.com`. Hier is een voorbeeld van een URL voor de OneDrive-site van een gebruiker: `https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft.com`.
 
 > [!IMPORTANT]
-> De URL voor het OneDrive account van een gebruiker bevat de naam van de gebruikershoofdnaam (UPN) `https://alpinehouse-my.sharepoint.com/personal/sarad_alpinehouse_onmicrosoft_com` (bijvoorbeeld). In het zeldzame geval dat de UPN van een persoon wordt gewijzigd, wordt OneDrive URL ook gewijzigd om de nieuwe UPN in te nemen. Als het OneDrive-account van een gebruiker deel uitmaakt van een eDiscovery-wacht, oud en hun UPN wordt gewijzigd, moet u de wacht houden bijwerken en de nieuwe OneDrive-URL van de gebruiker toevoegen en de oude verwijderen. Zie Hoe UPN-wijzigingen van invloed zijn op de [OneDrive URL voor meer informatie.](/onedrive/upn-changes)
+> De URL voor het OneDrive account van een gebruiker bevat de naam van de gebruikershoofdnaam (UPN) `https://alpinehouse-my.sharepoint.com/personal/sarad_alpinehouse_onmicrosoft_com` (bijvoorbeeld). In het zeldzame geval dat de UPN van een persoon wordt gewijzigd, wordt OneDrive URL ook gewijzigd om de nieuwe UPN in te nemen. Als het OneDrive-account van een gebruiker deel uitmaakt van een eDiscovery-wacht, oud en hun UPN wordt gewijzigd, moet u de wacht houden bijwerken en de nieuwe OneDrive-URL van de gebruiker toevoegen en de oude verwijderen. Zie [De invloed van wijzigingen aan de UPN op de URL van OneDrive](/onedrive/upn-changes) voor meer informatie.
 
 ## <a name="removing-content-locations-from-an-ediscovery-hold"></a>Inhoudslocaties verwijderen uit een eDiscovery-wacht
 
@@ -220,7 +220,7 @@ De volgende tabel bevat de limieten voor eDiscovery-zaken en case-holds.
   | Beschrijving van limiet | Limiet |
   |:-----|:-----|
   |Maximum aantal zaken voor een organisatie.  <br/> |Geen limiet  <br/> |
-  |Het maximum aantal eDiscovery-bezit voor een organisatie.  <br/> |10,000  <br/> |
+  |Het maximum aantal eDiscovery-bezit voor een organisatie.  <br/> |10.000  <br/> |
   |Maximum aantal postvakken in één eDiscovery-wacht. Deze limiet omvat het gecombineerde totaal van gebruikerspostvakken en de postvakken die zijn gekoppeld aan Microsoft 365 Groepen, Microsoft Teams en Yammer Groepen.  <br/> |1,000  <br/> |
   |Maximum aantal sites in één eDiscovery-wacht. Deze limiet omvat het gecombineerde totaal OneDrive voor Bedrijven sites, SharePoint sites en de sites die zijn gekoppeld aan Microsoft 365 Groepen, Microsoft Teams en Yammer Groepen.  <br/> |100  <br/> |
   |Het maximum aantal zaken dat wordt weergegeven op de startpagina van eDiscovery en het maximum aantal items dat wordt weergegeven op de tabbladen Houdt, Zoekopdrachten en Exporteren in een zaak. <sup>1</sup> |1,000|

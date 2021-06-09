@@ -1,5 +1,5 @@
 ---
-title: Fout-positieven of onwaar negatieven in Microsoft 365 Defender adresseert
+title: Fout-positieven of onwaar negatieven in Microsoft 365 Defender
 description: Is er iets gemist of ten onrechte gedetecteerd door AIR in Microsoft 365 Defender? Meer informatie over het indienen van fout-positieven of onwaar negatieven bij Microsoft voor analyse.
 keywords: geautomatiseerd, onderzoek, waarschuwing, herstel, onwaar positief, onwaar negatief
 search.appverid: met150
@@ -28,14 +28,14 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/07/2021
 ms.locfileid: "52269574"
 ---
-# <a name="address-false-positives-or-false-negatives-in-microsoft-365-defender"></a>Fout-positieven of onwaar negatieven in Microsoft 365 Defender adresseert
+# <a name="address-false-positives-or-false-negatives-in-microsoft-365-defender"></a>Fout-positieven of onwaar negatieven in Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-Onwaar positieven of negatieven kunnen af en toe optreden met een bedreigingsbeveiligingsoplossing. Als [geautomatiseerde onderzoeks- en antwoordmogelijkheden](m365d-autoir.md) in Microsoft 365 Defender iets hebben gemist of ten onrechte zijn gedetecteerd, zijn er stappen die uw beveiligingsteam kan uitvoeren:
+Onwaar positieven of negatieven kunnen af en toe optreden met een bedreigingsbeveiligingsoplossing. Als [geautomatiseerde onderzoeks- en antwoordmogelijkheden](m365d-autoir.md) in Microsoft 365 defender iets hebben gemist of ten onrechte zijn gedetecteerd, zijn er stappen die uw beveiligingsteam kan uitvoeren:
 
 - [Een onwaar positief/negatief melden bij Microsoft](#report-a-false-positivenegative-to-microsoft-for-analysis)
 - [Uw waarschuwingen aanpassen](#adjust-an-alert-to-prevent-false-positives-from-recurring) (indien nodig)
@@ -47,14 +47,14 @@ In de volgende secties wordt beschreven hoe u deze taken uitvoert.
 
 |Item gemist of ten onrechte gedetecteerd |Service  |Wat moet u doen?  |
 |---------|---------|---------|
-|- E-mailbericht <br/>- E-mailbijlage <br/>- URL in een e-mailbericht<br/>- URL in een Office-bestand      |[Microsoft Defender voor Office 365](/microsoft-365/security/office-365-security/defender-for-office-365)        |[Verdachte spam, phish, URL's en bestanden indienen bij Microsoft voor scannen](../office-365-security/admin-submission.md)         |
+|- E-mailbericht <br/>- E-mailbijlage <br/>- URL in een e-mailbericht<br/>- URL in een Office bestand      |[Microsoft Defender voor Office 365](/microsoft-365/security/office-365-security/defender-for-office-365)        |[Verdachte spam, phish, URL's en bestanden indienen bij Microsoft voor scannen](../office-365-security/admin-submission.md)         |
 |Bestand of app op een apparaat    |[Microsoft Defender voor Eindpunt](/windows/security/threat-protection)         |[Een bestand indienen bij Microsoft voor malwareanalyse](https://www.microsoft.com/wdsi/filesubmission)         |
 
 ## <a name="adjust-an-alert-to-prevent-false-positives-from-recurring"></a>Een waarschuwing aanpassen om te voorkomen dat fout-positieven terugkeren
 
 |Scenario |Service |Wat moet u doen? |
 |--------|--------|--------|
-|- Een waarschuwing wordt geactiveerd door legitiem gebruik <br/>- Een waarschuwing is onjuist    |[Microsoft Cloud App Security](/cloud-app-security)<br/> of <br/>[Beveiliging van Azure-bedreigingen](/azure/security/fundamentals/threat-detection)         |[Waarschuwingen beheren in de cloud-app-beveiligingsportal](/cloud-app-security/managing-alerts)         |
+|- Een waarschuwing wordt geactiveerd door legitiem gebruik <br/>- Een waarschuwing is onjuist    |[Microsoft Cloud App Security](/cloud-app-security)<br/> of <br/>[Beveiliging van Azure-bedreigingen](/azure/security/fundamentals/threat-detection)         |[Waarschuwingen beheren in de Cloud App Security portal](/cloud-app-security/managing-alerts)         |
 |Een bestand, IP-adres, URL of domein wordt behandeld als malware op een apparaat, ook al is het veilig|[Microsoft Defender voor Eindpunt](/windows/security/threat-protection) |[Een aangepaste indicator maken met de actie Toestaan](/windows/security/threat-protection/microsoft-defender-atp/manage-indicators) |
 
 ## <a name="undo-a-remediation-action-that-was-taken-on-a-device"></a>Een herstelactie ongedaan maken die is ondernomen op een apparaat
@@ -72,5 +72,5 @@ Als er een herstelactie is uitgevoerd op een entiteit (zoals een apparaat of een
 ## <a name="see-also"></a>Zie ook
 
 - [De details en resultaten van een geautomatiseerd onderzoek weergeven](m365d-autoir-results.md)
-- [Proactief op bedreigingen zoeken met geavanceerde jacht in Microsoft 365 Defender](advanced-hunting-overview.md)
+- [Proactief op bedreigingen zoeken met geavanceerde Microsoft 365 Defender](advanced-hunting-overview.md)
 - [Actie ondernemen voor fout-positieven/-negatieven in Microsoft Defender voor Eindpunt](/windows/security/threat-protection/microsoft-defender-atp/defender-endpoint-false-positives-negatives)

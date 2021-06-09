@@ -19,15 +19,15 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/30/2021
 ms.locfileid: "51445308"
 ---
-# <a name="microsoft-managed-desktop-supported-regions"></a>Ondersteunde regio's voor Microsoft Managed Desktop
+# <a name="microsoft-managed-desktop-supported-regions"></a>Microsoft Managed Desktop ondersteunde regio's
 
-In dit artikel vindt u informatie over regio's waar u Microsoft Managed Desktop kunt gebruiken en waar het wordt ondersteund. Zie Apparaten voor gebruikers localiseren voor meer informatie over talen die worden ondersteund door Microsoft Managed Desktop voor de [gebruikerservaring.](../get-started/localization.md)
+In dit artikel vindt u informatie over regio's Microsoft Managed Desktop en waar het wordt ondersteund. Zie Apparaten voor gebruikers localiseren Microsoft Managed Desktop voor meer informatie over talen die worden ondersteund door Microsoft Managed Desktop voor [de gebruikerservaring.](../get-started/localization.md)
 
-U kunt nog steeds beheerde apparaten buiten deze regio's gebruiken zonder onderbreking van de Microsoft Managed Desktop-service. Een werknemer in het Verenigd Koninkrijk kan bijvoorbeeld veilig werken en updates ontvangen op zijn of haar beheerde apparaat terwijl hij/zij door Azië, Europa of Zuid-Amerika reist.
+U kunt nog steeds beheerde apparaten buiten deze regio's gebruiken zonder onderbreking van de Microsoft Managed Desktop service. Een werknemer in het Verenigd Koninkrijk kan bijvoorbeeld veilig werken en updates ontvangen op zijn of haar beheerde apparaat terwijl hij/zij door Azië, Europa of Zuid-Amerika reist.
 
-Zie De gebruikerservaring localiseren voor meer informatie over de talen die worden ondersteund door Microsoft Managed Desktop voor gebruikers- en [beheerderservaringen.](../get-started/localization.md)
+Zie De gebruikerservaring localiseren voor meer informatie over de talen die door Microsoft Managed Desktop voor gebruikers- en [beheerderservaringen worden ondersteund.](../get-started/localization.md)
 
-Zie Ondersteuning voor Microsoft Managed Desktop voor meer informatie over gebruikersondersteuning met Microsoft Managed [Desktop.](support.md)
+Zie Ondersteuning voor Microsoft Managed Desktop ondersteuning voor [Microsoft Managed Desktop.](support.md)
 
 ## <a name="availability-of-the-service"></a>Beschikbaarheid van de service
 

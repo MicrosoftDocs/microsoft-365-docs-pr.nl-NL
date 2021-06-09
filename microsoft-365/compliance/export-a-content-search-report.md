@@ -37,7 +37,7 @@ Wanneer u een rapport exporteert, worden de rapportbestanden gedownload naar een
 
 ## <a name="before-you-export-a-search-report"></a>Voordat u een zoekrapport exporteert
 
-- Als u een zoekrapport wilt exporteren, moet u de rol compliancezoekbeheer toegewezen krijgen in & Compliancecentrum. Deze rol wordt standaard toegewezen aan de ingebouwde rollengroepen eDiscovery Manager en Organisatiebeheer. Zie [eDiscovery-machtigingen](assign-ediscovery-permissions.md)toewijzen voor meer informatie.
+- Als u een zoekrapport wilt exporteren, moet u de rol compliancezoekbeheer toegewezen krijgen in & Compliancecentrum. Deze rol wordt standaard toegewezen aan de ingebouwde rollengroepen eDiscovery Manager en Organisatiebeheer. Zie [eDiscovery-machtigingen toewijzen](assign-ediscovery-permissions.md) voor meer informatie.
 
 - Wanneer u een rapport exporteert, worden de gegevens tijdelijk opgeslagen op Azure Storage locatie in de Microsoft-cloud voordat deze worden gedownload naar uw lokale computer. Zorg ervoor dat uw organisatie verbinding kan maken met het eindpunt in Azure, dat **\* .blob.core.windows.net** is (het jokerteken vertegenwoordigt een unieke id voor uw export). De zoekresultaten worden twee weken na het maken Azure Storage van de locatie verwijderd.
 

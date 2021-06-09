@@ -131,7 +131,7 @@ Het aantal licenties beperken is een afzonderlijke stap die alleen kan worden ui
 
 4. Voer in **het deelvenster** Licenties verwijderen onder  **Nieuw** aantal in het vak Totaal aantal licenties het totale aantal licenties in dat u voor dit abonnement wilt gebruiken. Als u bijvoorbeeld 100 licenties hebt en u er vijf wilt verwijderen, voert u 95 in.
 
-5. Kies **Opslaan**.
+5. Klik op **Opslaan**.
 
 Wanneer u later de stappen doorloopt om een andere persoon aan uw bedrijf toe te voegen, wordt u gevraagd tegelijkertijd een licentie te kopen. Dat kan met één stap.
 
@@ -151,7 +151,7 @@ Hier volgt een overzicht van de meestvoorkomende problemen tijdens het verwijder
 
 **Wilt u uw Microsoft 365 van uw computer verwijderen? Ga naar [Uw abonnement opzeggen.](../../commerce/subscriptions/cancel-your-subscription.md)**
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Een gebruiker herstellen](restore-user.md) (artikel)\
 [Een postvak permanent verwijderen](/exchange/permanently-delete-a-mailbox-exchange-2013-help) (artikel)\

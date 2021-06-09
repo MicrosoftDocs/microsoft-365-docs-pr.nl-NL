@@ -70,7 +70,7 @@ Als de opdracht voor het inschakelen van het controleren van zoekquery's eerder 
 
 ## <a name="step-3-set-up-audit-retention-policies"></a>Stap 3: Beleid voor controlebewaring instellen
 
-Naast het standaardbeleid dat Exchange-, SharePoint- en Azure AD-auditrecords één jaar behoudt, kunt u aanvullende bewaarbeleidsregels voor auditlogboek maken om te voldoen aan de vereisten van de beveiligingsbewerkingen, IT- en complianceteams van uw organisatie. Zie voor meer informatie [Bewaarbeleid voor auditlogboeken beheren](audit-log-retention-policies.md).
+Naast het standaardbeleid dat Exchange-, SharePoint- en Azure AD-auditrecords gedurende één jaar bewaart, kunt u aanvullend bewaarbeleid voor auditlogboeken maken om te voldoen aan de vereisten van de beveiligingsactiviteiten, IT- en complianceteams van uw organisatie. Zie voor meer informatie [Bewaarbeleid voor auditlogboeken beheren](audit-log-retention-policies.md).
 
 ## <a name="step-4-search-for-crucial-events"></a>Stap 4: Zoeken naar belangrijke gebeurtenissen
 

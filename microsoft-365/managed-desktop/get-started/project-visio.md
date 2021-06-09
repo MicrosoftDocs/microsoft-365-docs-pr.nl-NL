@@ -1,6 +1,6 @@
 ---
-title: Microsoft Project of Microsoft Visio installeren op de beheerde bureaublad apparaten van Microsoft
-description: Info over het installeren van Microsoft Project of Microsoft Visio op desktop computers met Microsoft beheerd
+title: Installatie Microsoft Project of Microsoft Visio op Microsoft Managed Desktop apparaten
+description: Informatie over het installeren van Microsoft Project of Microsoft Visio op Microsoft Managed Desktop apparaten
 keywords: Microsoft Managed Desktop, Microsoft 365, Microsoft Project, Microsoft Visio
 ms.service: m365-md
 author: jaimeo
@@ -15,30 +15,30 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 09/17/2020
 ms.locfileid: "47950530"
 ---
-# <a name="install-microsoft-project-or-microsoft-visio-on-microsoft-managed-desktop-devices"></a>Microsoft Project of Microsoft Visio installeren op de beheerde bureaublad apparaten van Microsoft
+# <a name="install-microsoft-project-or-microsoft-visio-on-microsoft-managed-desktop-devices"></a>Installatie Microsoft Project of Microsoft Visio op Microsoft Managed Desktop apparaten
 
-In Microsoft Project en Microsoft Visio zijn bepaalde stappen vereist voor het installeren van op Microsoft beheerde bureaublad apparaten. In dit onderwerp worden de vereisten en installatieprocessen voor deze toepassingen gedocumenteerd.
+Microsoft Project en Microsoft Visio moeten specifieke stappen worden geïnstalleerd op Microsoft Managed Desktop apparaten. Dit onderwerp documenteert de vereisten en het installatieproces voor deze toepassingen.
 
 ## <a name="prerequisites"></a>Vereisten
 
-Beheerders moet controleren of ze aan de volgende vereisten voldoen:
-- **Aantal licenties** : de juiste hoeveelheid Microsoft Project-en Microsoft Visio-licenties moeten beschikbaar zijn voor uw gebruikers. Microsoft Managed Desktop biedt momenteel alleen ondersteuning voor 64-bits versies van deze toepassingen. 
-- **Licentie namen** : de juiste licentie namen voor deze toepassingen zijn:
-    - **Microsoft Project** -project online Professional of project online Premium
-    - **Microsoft Visio** -Visio online-abonnement 2
-- **Bedrijfsportal** : de bedrijfsportal moet beschikbaar zijn in uw Tenant, zodat uw gebruikers deze toepassingen kunnen installeren. Zie [Company Portal](company-portal.md)als de bedrijfs portal niet is geïmplementeerd in uw Tenant.
+Beheerders moeten controleren of ze aan deze vereisten voldoen:
+- **Licentiehoeveelheden:** de juiste hoeveelheid Microsoft Project microsoft-Visio moet beschikbaar zijn voor uw gebruikers. Microsoft Managed Desktop ondersteunt momenteel alleen 64-bits versies van deze toepassingen. 
+- **Licentienamen:** de juiste licentienamen voor deze toepassingen zijn:
+    - **Microsoft Project** - Project Online Professional of Project Online Premium
+    - **Microsoft Visio** - Visio Online Plan 2
+- **Bedrijfsportal-** De Bedrijfsportal moet beschikbaar zijn in uw tenant zodat uw gebruikers deze toepassingen kunnen installeren. Als de Bedrijfsportal niet is geïmplementeerd in uw tenant, bekijkt [u Bedrijfsportal.](company-portal.md)
 
-## <a name="deploy-project-and-visio-for-microsoft-managed-desktop-devices"></a>Project en Visio voor Microsoft beheerde bureaublad apparaten implementeren
-Microsoft Managed Desktop zal Microsoft Project en Microsoft Visio toevoegen als twee Win32-toepassingen in Microsoft intune. U maakt ook twee groepen in azure Active Directory, die aan de bijbehorende toepassing wordt toegewezen met de beschikbaarheid ' beschikbare '. 
+## <a name="deploy-project-and-visio-for-microsoft-managed-desktop-devices"></a>Implementatie Project en Visio voor Microsoft Managed Desktop apparaten
+Microsoft Managed Desktop worden Microsoft Project en Microsoft Visio als twee Win32-toepassingen in Microsoft Intune. We maken ook twee groepen in Azure Active Directory die worden toegewezen aan de bijbehorende toepassing met de bedoeling 'Beschikbaar'. 
 
-**Project en Visio implementeren** Voeg de gebruiker toe aan de juiste groep en de toepassing wordt beschikbaar in de bedrijfs portal. Het kan een paar minuten duren voor synchronisatie, maar de gebruikers kunnen de apps van de bedrijfs portal installeren. 
+**Uw Project en Visio** Voeg de gebruiker toe aan de juiste groep en de toepassing wordt beschikbaar in de Bedrijfsportal. Het kan enkele minuten duren voordat de synchronisatie is, maar uw gebruikers kunnen de apps vervolgens installeren vanaf Bedrijfsportal. 
 
-Naam van Azure AD-groep | Welke gebruikers moeten ze toewijzen?   
+Naam van Azure AD-groep | Welke gebruikers moeten worden toegewezen?   
  --- | ---
-Modern Workplace-Office-Project_Install | Gebruikers die project nodig hebben
-Modern Workplace-Office-Visio_Install | Gebruikers die Visio nodig hebben
+Modern Workplace-Office-Project_Install | Gebruikers die een Project
+Modern Workplace-Office-Visio_Install | Gebruikers die een Visio
 
-## <a name="communicate-changes"></a>Wijzigingen doorgeven
-Het is belangrijk dat IT-beheerders hun gebruikers laten weten hoe ze project en Visio moeten installeren. Dit omvat: 
-- Gebruikers op de hoogte stellen van de beschikbare toepassingen. 
-- Instructies voor het installeren van deze toepassingen via de bedrijfs portal.
+## <a name="communicate-changes"></a>Wijzigingen communiceren
+It-beheerders moeten hun gebruikers laten weten hoe ze Project en Visio. Dit zijn: 
+- Gebruikers op de hoogte stellen wanneer deze toepassingen voor hen beschikbaar zijn. 
+- Instructies voor het installeren van deze toepassingen vanaf de Bedrijfsportal.

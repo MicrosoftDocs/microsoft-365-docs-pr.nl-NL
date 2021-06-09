@@ -1,5 +1,5 @@
 ---
-title: Beveiligde toegang tot Microsoft 365-services configureren
+title: Veilige toegang tot services Microsoft 365 configureren
 description: 'Zoek beschrijvende richtlijnen voor het implementeren van MFA, voorwaardelijke toegang en verwante beleidsregels voor drie beveiligingslagen: basislijn, gevoelig, zeer gevoelig.'
 ms.author: samanro
 author: samanro
@@ -19,6 +19,6 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51050884"
 ---
-# <a name="configure-secure-access-to-microsoft-365-services"></a>Beveiligde toegang tot Microsoft 365-services configureren
+# <a name="configure-secure-access-to-microsoft-365-services"></a>Veilige toegang tot services Microsoft 365 configureren
 
 Deze oplossing is gebaseerd op de "[M365 golden config](../security/defender-365-security/microsoft-365-policies-configurations.md)" -- beschrijvende richtlijnen voor het implementeren van MFA, voorwaardelijke toegang en verwante beleidsregels voor drie beveiligingslagen: basislijn, gevoelig, zeer gevoelig.

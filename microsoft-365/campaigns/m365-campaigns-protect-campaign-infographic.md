@@ -1,5 +1,5 @@
 ---
-title: 'Infographic: Bescherm uw campagne'
+title: 'Infographic: uw campagne helpen beveiligen'
 f1.keywords:
 - NOCSH
 ms.author: samanro
@@ -35,6 +35,6 @@ ms.locfileid: "50044394"
 
 De volgende koppelingen voor PowerPoint en PDF kunnen worden gedownload en afgedrukt in tabloid-indeling (ook wel grootboek genoemd, 11 x 17 of A3).
 
-[![Afbeelding van het beveiligen van uw campagnegegevens](../media/M365-Campaigns-WhatCanUsersDoToSecure-358x201.png)](downloads/M365CampaignsWhatCanUsersDoToSecure.pdf)
+[![Afbeelding voor het beveiligen van uw help bij het beveiligen van uw afbeelding van campagnegegevens](../media/M365-Campaigns-WhatCanUsersDoToSecure-358x201.png)](downloads/M365CampaignsWhatCanUsersDoToSecure.pdf)
 
 [PDF](downloads/M365CampaignsWhatCanUsersDoToSecure.pdf)  |  [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs-pr/raw/live/m365-democracy/microsoft-365/campaigns/downloads/M365CampaignsWhatCanUsersDoToSecure.pptx)

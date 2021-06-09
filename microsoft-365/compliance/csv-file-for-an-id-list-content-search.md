@@ -27,7 +27,7 @@ ms.locfileid: "52311536"
 ---
 # <a name="prepare-a-csv-file-for-an-id-list-content-search"></a>Een CSV-bestand voorbereiden voor een id-lijst Zoeken naar inhoud
 
-U kunt zoeken naar specifieke postvak-e-mailberichten en andere postvakitems met een lijst met Exchange-ed's. Als u een zoekopdracht naar een id-lijst wilt maken, dient u een CSV-bestand (door komma's gescheiden waarde) in dat de specifieke postvakitems identificeert die moeten worden gezocht. Voor dit CSV-bestand gebruikt u het **Results.csv-bestand of** het niet-geïndexeerde **Items.csv-bestand** dat is opgenomen wanneer u de zoekresultaten inhoud exporteert of een inhoudszoekrapport exporteert vanuit een bestaande inhoudszoekactie. Vervolgens bewerkt u een van deze bestanden om de specifieke items aan te geven die u wilt zoeken, maakt u een nieuwe zoekopdracht naar de lijst met id's en verstuurt u het CSV-bestand.
+U kunt zoeken naar specifieke postvak-e-mailberichten en andere postvakitems met een lijst met Exchange-ed's. Als u een zoekopdracht voor een lijst met id's wilt maken, dient u een bestand met door komma's gescheiden waarden (CSV) in dat de specifieke postvakitems identificeert waar u naar wilt zoeken. Voor dit CSV-bestand gebruikt u het **Results.csv-bestand of** het niet-geïndexeerde **Items.csv-bestand** dat is opgenomen wanneer u de zoekresultaten inhoud exporteert of een inhoudszoekrapport exporteert vanuit een bestaande inhoudszoekactie. Vervolgens bewerkt u een van deze bestanden om de specifieke items aan te geven die u wilt zoeken, maakt u een nieuwe zoekopdracht naar de lijst met id's en verstuurt u het CSV-bestand.
 
 **Waarom een id-lijst zoeken?** Als u niet kunt bepalen of een item reageert op een eDiscovery-aanvraag op basis van de metagegevens in **deResults.csv-** of Niet-geïndexeerde **Items.csv-bestanden,** kunt u een zoekopdracht naar een id-lijst gebruiken om dat item te zoeken, een voorbeeld te bekijken en vervolgens te exporteren om te bepalen of het reageert op de zaak die u onderzoekt. Zoekopdrachten in id-lijst worden meestal gebruikt om een specifieke set niet-geïndexeerde items te zoeken en te retourneren.
 
@@ -82,7 +82,7 @@ De volgende stap is het maken van een nieuwe zoekopdracht in de lijst met id's e
 
 1. Ga naar <https://compliance.microsoft.com> en meld u aan.
 
-2. Klik in het linkernavigatiedeelvenster van het Microsoft 365 compliancecentrum op **Alles weergeven** en klik vervolgens op Zoeken **naar inhoud.**
+2. Klik in het linker navigatiedeelvenster van het Microsoft 365-compliancecentrum op **Alles weergeven** en klik vervolgens op **Inhoud zoeken**.
 
 3. Klik op **de pagina Inhoud** zoeken op Zoeken op **id-lijst.**
 

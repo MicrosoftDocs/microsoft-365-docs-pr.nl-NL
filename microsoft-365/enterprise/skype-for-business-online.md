@@ -21,7 +21,7 @@ search.appverid:
 - MSO150
 - BCS160
 ms.assetid: 4307bdbf-6097-458d-9a6a-048112695c59
-description: Als beheerder kunt u hulp krijgen bij het instellen van onderdelen van Skype voor bedrijven online, waaronder uw netwerk, vergaderingen en CHATs, en externe toegang voor gebruikers.
+description: Als beheerder kunt u hulp zoeken bij het instellen van delen van Skype voor Bedrijven Online, waaronder uw netwerk, vergaderingen en chatberichten en externe toegang voor gebruikers.
 ms.openlocfilehash: 1e3807199fc83d642399b29870f2cac477d2ec75
 ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
@@ -33,7 +33,7 @@ ms.locfileid: "47415704"
 
 ## <a name="were-here-to-help"></a>We zijn er om u te helpen.
 
-Als beheerder van Office 365 voor bedrijven krijgt u gratis toegang tot onze deskundige ondersteuningsmedewerkers. ** [Neem contact op met de ondersteuning voor bedrijfsproducten-Help voor beheerders](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) als u de informatie die u nodig hebt niet kunt vinden op deze website.**
+Als beheerder van Office 365 voor bedrijven krijgt u gratis toegang tot onze deskundige ondersteuningsmedewerkers. Als u de informatie die u nodig hebt op deze website niet vindt, neem dan contact op met ondersteuning voor **[zakelijke producten - Help voor beheerders](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)**
   
 ## <a name="let-your-users-contact-external-skype-or-skype-for-business-users"></a>Laat uw gebruikers contact opnemen met externe Skype- of Skype voor Bedrijven-gebruikers
 
@@ -41,7 +41,7 @@ U kunt mensen die gebruikmaken van Skype voor Bedrijven de mogelijkheid geven co
   
 - [Gebruikers contact laten opnemen met externe gebruikers van Skype voor Bedrijven](https://support.office.com/article/b414873a-0059-4cd5-aea1-e5d0857dbc94)
     
-- [Skype voor bedrijven-gebruikers Skype-contactpersonen laten toevoegen](https://support.office.com/article/08666236-1894-42ae-8846-e49232bbc460)
+- [Gebruikers Skype voor Bedrijven contactpersonen Skype toevoegen](https://support.office.com/article/08666236-1894-42ae-8846-e49232bbc460)
     
 ## <a name="improve-call-and-video-quality"></a>Gespreks- en videokwaliteit verbeteren
 
@@ -65,23 +65,23 @@ Zie ook:
     
 ## <a name="fix-problems-for-your-users"></a>Problemen oplossen voor uw gebruikers
 
-- [Persoonlijke opties instellen in Skype voor bedrijven](https://support.office.com/article/68bacc31-71d3-44c3-a4d4-64da78c447aa#bkmk-stop-automatic-startup)
+- [Persoonlijke opties instellen in Skype voor Bedrijven](https://support.office.com/article/68bacc31-71d3-44c3-a4d4-64da78c447aa#bkmk-stop-automatic-startup)
     
-- [Hulp nodig bij het aanmelden bij Skype voor bedrijven?](https://support.office.com/article/448b8ea7-5b33-444a-afd4-175fc9930d05)
+- [Hulp nodig bij het aanmelden bij Skype voor Bedrijven?](https://support.office.com/article/448b8ea7-5b33-444a-afd4-175fc9930d05)
     
-- [Video: aan-en afmelden bij Skype voor bedrijven](https://support.office.com/article/8abed4b3-ac48-493e-9d76-0e10140e9451)
+- [Video: Meld u aan en uit Skype voor Bedrijven](https://support.office.com/article/8abed4b3-ac48-493e-9d76-0e10140e9451)
     
-- [Opties voor audio apparaten instellen in Skype voor bedrijven](https://support.office.com/article/2533d929-9814-4349-8ae4-fca29246e2ff)
+- [Opties voor audioapparaat instellen in Skype voor Bedrijven](https://support.office.com/article/2533d929-9814-4349-8ae4-fca29246e2ff)
     
 - [Deelnemen aan een Skype voor Bedrijven-vergadering](https://support.office.com/article/3862be6d-758a-4064-a016-67c0febf3cd5)
     
-- [Skype voor bedrijven verwijderen](https://support.office.com/article/28C4A036-7F22-406C-B7F4-87894CBAF902)
+- [Verwijder Skype voor Bedrijven](https://support.office.com/article/28C4A036-7F22-406C-B7F4-87894CBAF902)
     
 ## <a name="help-your-users-get-started-quickly"></a>Help uw gebruikers om snel aan de slag te gaan.
 
 - [Ontdek Skype voor Bedrijven](https://support.office.com/article/8a3491a3-c095-4718-80cf-cbbe4afe4eba): Trainingsbronnen voor uw gebruikers 
     
-- [Skype voor bedrijven installeren](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)
+- [Installatie Skype voor Bedrijven](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)
     
 - [Video: Aanwezigheid en chatten in Skype voor Bedrijven](https://support.office.com/article/c873b869-4ce0-4375-9bea-5de150eaf081)
     
@@ -89,6 +89,6 @@ Zie ook:
     
 - [Een telefonische vergadering starten in Skype voor Bedrijven](https://support.office.com/article/8dc8ac52-91ac-4db9-8672-11551fdaf997)
     
- **Zie [Help voor Skype voor bedrijven](https://support.office.com/article/4fbe07ce-6b15-4a06-bcf0-baea57890410)voor meer artikelen voor gebruikers.**
+ **Zie voor meer artikelen voor gebruikers [Skype voor Bedrijven help.](https://support.office.com/article/4fbe07ce-6b15-4a06-bcf0-baea57890410)**
   
 

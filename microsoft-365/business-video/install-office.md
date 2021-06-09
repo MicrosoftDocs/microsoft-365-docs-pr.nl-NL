@@ -43,7 +43,7 @@ Microsoft Office apps vindt u in het **startmenu.** Als u ze&#39;ziet, kunt u ze
 
 De Office apps die u hebt geïnstalleerd, worden nu weergegeven in het **startmenu.**
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Uw inhoud migreren naar Microsoft 365](/sharepointmigration/migrate-to-sharepoint-online.md) (artikel)
 

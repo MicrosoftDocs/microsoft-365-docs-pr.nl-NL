@@ -58,7 +58,7 @@ Voordat u koopt, moet u nadenken over het plan waar u zich voor hebt registreren
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/906be77d-ded6-48fb-a25f-da110f787282]
 
-Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../../business-video/index.yml).
+Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../../business-video/index.yml).
 
 Hulp nodig bij het kiezen van een plan? Er zijn verkoopadviseurs beschikbaar om uw vragen te beantwoorden. Ga naar [Alle producten vergelijken](https://products.office.com/compare-all-microsoft-office-products?tab=2) en kies een van de ondersteuningsopties voor contactpersonen aan de linkerkant van de pagina.
   
@@ -123,6 +123,6 @@ U hoeft uw proefabonnement niet te annuleren. Als u het proefabonnement niet koo
     > [!IMPORTANT]
     >  Wanneer u zich registreert, moet u de beste betalingsoptie voor uw organisatie kiezen. Bel de ondersteuning voor facturering als u betalingsopties wilt wijzigen.
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Microsoft 365 voor zakelijke trainingsvideo's](../../business-video/index.yml) (koppelingspagina)

@@ -123,7 +123,7 @@ Wilt u zich aanmelden voor [ExpressRoute voor Office 365?](https://aka.ms/ert)
 
 [Prestatieproblemen met Office 365 oplossen: planning](performance-troubleshooting-plan.md)
 
-[URL's en IP-adresbereiken voor Office 365](urls-and-ip-address-ranges.md)
+[Office 365-URL's en IP-adresbereiken](urls-and-ip-address-ranges.md)
 
 [Aanpassing van Office 365-netwerk en -prestaties](network-planning-and-performance.md)
 

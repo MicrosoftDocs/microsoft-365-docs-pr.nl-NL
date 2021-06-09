@@ -184,14 +184,14 @@ U kunt eveneens een CNAME-record maken om klanten te helpen bij het zoeken van u
 4.  Typ www in het vak Hostnaam **of** **Alias.**
 5.  Typ in **het vak** Adrespunten de volledig gekwalificeerde domeinnaam (FQDN) voor uw website. U kunt bijvoorbeeld **contoso.com**.
 6.  Als u de TTL-instelling voor de record wilt wijzigen, selecteert u een nieuwe tijdsduur in de **vervolgkeuzelijst TTL.** Ga anders verder met stap 6.
-7.  Kies **Opslaan**.
+7.  Klik op **Opslaan**.
 
 Nadat de naamserverrecords zijn bijgewerkt om naar Microsoft te wijzen, is uw domeinconfiguratie voltooid. E-mail wordt doorgeleid naar Microsoft en het verkeer naar uw websiteadres blijft naar uw huidige websitehost gaan.'
     
 > [!NOTE]
 > Het kan enige uren duren voordat de updates van uw naamserverrecords via het DNS-systeem op internet zijn doorgevoerd. Vervolgens zijn uw e-mail en andere services van Microsoft ingesteld voor gebruik met uw domein. 
   
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [DNS-records toevoegen om uw domein te verbinden](create-dns-records-at-any-dns-hosting-provider.md) (artikel)\
 [Problemen opsporen en oplossen nadat u uw domein of DNS-records hebt toegevoegd](find-and-fix-issues.md) (artikel)\

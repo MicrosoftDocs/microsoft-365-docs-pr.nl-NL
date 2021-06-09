@@ -69,7 +69,7 @@ PATCH /api/alerts/{id}
 
 ## <a name="request-headers"></a>Kopteksten aanvragen
 
-Naam | Type | Omschrijving
+Naam | Type | Beschrijving
 :---|:---|:---
 Autorisatie | Tekenreeks | Bearer {token}. **Vereist**.
 Inhoudstype | Tekenreeks | toepassing/json. **Vereist**.
@@ -80,7 +80,7 @@ In de aanvraagt u de waarden voor de relevante velden die moeten worden bijgewer
 <br>Bestaande eigenschappen die niet in de aanvraag worden opgenomen, behouden hun vorige waarden of worden herberekend op basis van wijzigingen in andere eigenschapswaarden. 
 <br>Voor de beste prestaties moet u geen bestaande waarden opnemen die niet zijn gewijzigd.
 
-Eigenschap | Type | Omschrijving
+Eigenschap | Type | Beschrijving
 :---|:---|:---
 status | Tekenreeks | Hiermee geeft u de huidige status van de waarschuwing op. De eigenschapswaarden zijn: 'Nieuw', 'InProgress' en 'Opgelost'.
 toegewezenTo | Tekenreeks | Eigenaar van de waarschuwing

@@ -17,7 +17,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - Ent_TLGs
-description: 'Overzicht: Aanvullende apparaatinformatie over services bij de overstap van Microsoft Cloud Germany (Microsoft Cloud Deutschland) naar Office 365-services in de nieuwe Duitse datacenterregio.'
+description: 'Overzicht: Aanvullende apparaatinformatie over services wanneer u van Microsoft Cloud Germany (Microsoft Cloud Deutschland) naar Office 365 services in de nieuwe Duitse datacenterregio gaat.'
 ms.openlocfilehash: 21188372f03af394fe1c0e227c1adeabbad02a85
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -45,15 +45,15 @@ Het is essentieel voor uw succes dat u uw apparaten alleen uitschrijft en opnieu
 
 **Hoe herstel ik de status van mijn apparaat na de migratie?**
 
-Voor hybride Windows-apparaten van Azure AD die zijn geregistreerd met Azure AD en die eigendom zijn van het bedrijf, kunnen beheerders de migratie van deze apparaten beheren via op afstand geactiveerde werkstromen die de registratie van de oude apparaatstatussen ongedaan maken.
+Voor hybride Azure AD-apparaten en Windows-apparaten die zijn geregistreerd bij Azure AD, kunnen beheerders de migratie van deze apparaten beheren via op afstand geactiveerde werkstromen die de registratie van de oude apparaatstatussen ongedaan maken.
   
-Voor alle andere apparaten, inclusief persoonlijke Windows-apparaten die zijn geregistreerd in Azure AD, moet de eindgebruiker deze stappen handmatig uitvoeren. Voor apparaten die zijn verbonden met Azure AD, moeten gebruikers een lokaal beheerdersaccount hebben om de registratie uit te schrijven en vervolgens hun apparaten opnieuw te registreren.
+Voor alle andere apparaten, waaronder persoonlijke apparaten Windows die zijn geregistreerd in Azure AD, moet de eindgebruiker deze stappen handmatig uitvoeren. Voor apparaten die zijn verbonden met Azure AD, moeten gebruikers een lokaal beheerdersaccount hebben om de registratie uit te schrijven en vervolgens hun apparaten opnieuw te registreren.
 
 Microsoft publiceert instructies voor het herstellen van de apparaattoestand. 
  
 **Hoe weet ik dat al mijn apparaten zijn geregistreerd in de openbare cloud?**
 
-Als u wilt controleren of uw apparaten zijn geregistreerd in de openbare cloud, moet u de lijst met apparaten exporteren en downloaden van de Azure AD-portal naar een Excel-spreadsheet. Filter vervolgens de apparaten die zijn geregistreerd (met behulp van de kolom _registeredTime)_ na de migratiefase Scheiden [van Microsoft Cloud Deutschland.](ms-cloud-germany-transition.md#how-is-the-migration-organized)
+Als u wilt controleren of uw apparaten zijn geregistreerd in de openbare cloud, moet u de lijst met apparaten exporteren en downloaden van de Azure AD-portal naar een Excel spreadsheet. Filter vervolgens de apparaten die zijn geregistreerd (met behulp van de kolom _registeredTime)_ na de migratiefase Scheiden [van Microsoft Cloud Deutschland.](ms-cloud-germany-transition.md#how-is-the-migration-organized)
 
 Apparaatregistratie wordt gedeactiveerd na de migratie van de tenant en kan niet worden ingeschakeld of uitgeschakeld. Als Intune niet wordt gebruikt, meld u dan aan bij uw abonnement en voer deze opdracht uit om de optie opnieuw te activeren:
 
@@ -65,9 +65,9 @@ Get-AzureADServicePrincipal -All:$true |Where-object -Property AppId -eq "000000
 
 ### <a name="windows-down-level"></a>Windows down-level
 
-_Windows down-level-apparaten zijn Windows-apparaten_ die momenteel eerdere versies van Windows uitvoeren (zoals Windows 8.1 of Windows 7), of die Windows Server-versies eerder dan 2019 en 2016 uitvoeren. Als dergelijke apparaten eerder zijn geregistreerd, moet u de registratie van deze apparaten ongedaan maken en opnieuw registreren. 
+_Windows_ apparaten op downniveau zijn Windows-apparaten die momenteel eerdere versies van Windows uitvoeren (zoals Windows 8.1 of Windows 7), of die eerder dan 2019 en 2016 Windows Server-versies uitvoeren. Als dergelijke apparaten eerder zijn geregistreerd, moet u de registratie van deze apparaten ongedaan maken en opnieuw registreren. 
 
-Gebruik de volgende opdracht op het apparaat om te bepalen of een Windows-apparaat op downniveau eerder is verbonden met Azure AD:
+Gebruik de volgende opdracht op het apparaat om te bepalen Windows een apparaat met een lager niveau eerder is verbonden met Azure AD:
 
 ```console
 %programfiles%\Microsoft Workplace Join\autoworkplace /status
@@ -94,15 +94,15 @@ Alleen voor apparaten waaruit blijkt dat het apparaat is verbonden (op basis van
 "%programfiles%\Microsoft Workplace Join\autoworkplace /leave"
 ```
 
-De vorige opdracht hoeft slechts één keer te worden uitgevoerd per domeingebruiker die zich aanmeldt op het windows-apparaat op downniveau. Deze opdracht moet worden uitgevoerd in de context van de domeingebruiker die zich aanmeldt. 
+De vorige opdracht hoeft slechts één keer te worden uitgevoerd per domeingebruiker die zich aanmeldt op het Windows apparaat op downniveau. Deze opdracht moet worden uitgevoerd in de context van de domeingebruiker die zich aanmeldt. 
 
 Er moet voldoende aandacht aan worden gegeven om deze opdracht niet uit te voeren wanneer de gebruiker zich vervolgens aan meldt. Wanneer de vorige opdracht wordt uitgevoerd, wordt de samengevoegde status van de lokale hybride Azure AD-computer geweken voor de gebruiker die zich heeft aangemeld. En als de computer nog steeds is geconfigureerd voor hybride Azure AD-join in de tenant, wordt geprobeerd deel te nemen wanneer de gebruiker zich opnieuw meldt.
 
-### <a name="windows-current"></a>Windows Current
+### <a name="windows-current"></a>Windows Huidige
 
 #### <a name="unjoin"></a>Unjoin
 
-Voer de volgende opdracht uit op het apparaat om te bepalen of het Windows 10-apparaat eerder is verbonden met Azure AD:
+Voer de volgende opdracht uit op het apparaat om te bepalen Windows 10 het apparaat eerder is verbonden met Azure AD:
 
 ```console
 %SystemRoot%\system32\dsregcmd.exe /status
@@ -128,7 +128,7 @@ Voer als beheerder alleen de volgende opdracht uit als beheerder om de samengevo
 %SystemRoot%\system32\dsregcmd.exe /leave
 ```
 
-De vorige opdracht hoeft slechts eenmaal in een beheercontext op het Windows-apparaat te worden uitgevoerd.
+De vorige opdracht hoeft slechts eenmaal in een administratieve context op het Windows worden uitgevoerd.
 
 #### <a name="hybrid-ad-joinre-registration"></a>Hybride AD Join\Re-Registration
 
@@ -137,7 +137,7 @@ Het apparaat wordt automatisch zonder tussenkomst van de gebruiker of beheerder 
 
 ## <a name="azure-ad-join"></a>Azure AD Join
 
-**BELANGRIJK:** De Intune-service principal wordt ingeschakeld na de migratie van commerce, wat de activering van Azure AD Device Registration impliceert. Als u Azure AD Device Registration vóór de migratie hebt geblokkeerd, moet u de Intune-service principal met PowerShell uitschakelen om Azure AD Device Registration weer uit te schakelen met de Azure AD-portal. U kunt de Intune-service principal uitschakelen met deze opdracht in de Azure Active Directory PowerShell voor Graph-module.
+**BELANGRIJK:** De Intune-service principal wordt ingeschakeld na de migratie van commerce, wat de activering van Azure AD Device Registration impliceert. Als u Azure AD Device Registration vóór de migratie hebt geblokkeerd, moet u de Intune-service principal met PowerShell uitschakelen om Azure AD Device Registration weer uit te schakelen met de Azure AD-portal. U kunt de Intune-service principal uitschakelen met deze opdracht in Azure Active Directory PowerShell voor Graph module.
 
 ```powershell
 Get-AzureADServicePrincipal -All:$true |Where-object -Property AppId -eq "0000000a-0000-0000-c000-000000000000" | Set-AzureADServicePrincipal -AccountEnabled:$false
@@ -145,7 +145,7 @@ Get-AzureADServicePrincipal -All:$true |Where-object -Property AppId -eq "000000
 
 ### <a name="unjoin"></a>Unjoin
 
-Als u wilt bepalen of het Windows 10-apparaat eerder is verbonden met Azure AD, kan de gebruiker of beheerder de volgende opdracht uitvoeren op het apparaat:
+Als u wilt bepalen of het Windows 10 eerder is verbonden met Azure AD, kan de gebruiker of beheerder de volgende opdracht uitvoeren op het apparaat:
 
 ```console
 %SystemRoot%\system32\dsregcmd.exe /status
@@ -173,16 +173,16 @@ Beheerder: Als de beheerder van de organisatie de apparaten van de gebruikers wi
 %SystemRoot%\system32\dsregcmd.exe /leave
 ```
 
-De vorige opdracht hoeft slechts eenmaal in een beheercontext op het Windows-apparaat te worden uitgevoerd. 
+De vorige opdracht hoeft slechts eenmaal in een administratieve context op het Windows worden uitgevoerd. 
 
 ### <a name="azure-ad-joinre-registration"></a>Azure AD Join/Re-Registration
 
-De gebruiker kan het apparaat koppelen aan Azure AD via Windows-instellingen: **Instellingen > Accounts > Access Work or School > Connect**.
+De gebruiker kan het apparaat koppelen aan Azure AD via Windows instellingen: **Instellingen > Accounts > Access Work or School > Verbinding maken**.
  
 
 ## <a name="azure-ad-registered-company-owned"></a>Azure AD Registered (eigendom van het bedrijf)
 
-Voer de volgende opdracht uit op het apparaat om te bepalen of het Windows 10-apparaat azure AD-geregistreerd is:
+Als u wilt bepalen of Windows 10 Azure AD-geregistreerd is, voer u de volgende opdracht uit op het apparaat:
 
 ```console
 %SystemRoot%\system32\dsregcmd.exe /status
@@ -218,34 +218,34 @@ De aanwezigheid van deze registerwaarde moet de join van de werkplek blokkeren e
 
 ## <a name="android"></a>Android
 
-Voor Android moeten gebruikers de registratie van hun apparaten ongedaan maken en opnieuw registreren. Dit kan via de Microsoft Authenticator-app of de bedrijfsportal-app. 
+Voor Android moeten gebruikers de registratie van hun apparaten ongedaan maken en opnieuw registreren. Dit kan via de Microsoft Authenticator app of de Bedrijfsportal app. 
 
-- Vanuit de Microsoft Authenticator-app kunnen gebruikers naar Instellingen **> Apparaatregistratie.** Van hieruit kunnen gebruikers hun registratie ongedaan maken en hun apparaat opnieuw registreren.
+- Vanuit de Microsoft Authenticator app kunnen gebruikers naar Instellingen > **Apparaatregistratie** gaan. Van hieruit kunnen gebruikers hun registratie ongedaan maken en hun apparaat opnieuw registreren.
  
-- Vanuit de bedrijfsportal kunnen gebruikers naar het tabblad **Apparaten** gaan en het apparaat verwijderen. Daarna kunt u het apparaat opnieuw registreren met behulp van bedrijfsportal.
+- Vanuit de Bedrijfsportal kunnen gebruikers naar het **tabblad** Apparaten gaan en het apparaat verwijderen. Daarna kunt u het apparaat opnieuw registreren met behulp van Bedrijfsportal.
  
 - Gebruikers kunnen zich ook afmelden en opnieuw registreren door het account te verwijderen van de pagina accountinstellingen en vervolgens het werkaccount opnieuw toe te voegen.
 
-U kunt de registratie van het apparaat op Android ongedaan maken en opnieuw registreren met de Microsoft Authenticator-app:
+U kunt de registratie van het apparaat op Android ongedaan maken en opnieuw registreren met de Microsoft Authenticator app:
 
-1.  Open de Microsoft Authenticator-app en ga naar **Instellingen.**
+1.  Open de Microsoft Authenticator app en ga naar **Instellingen.**
 2.  Selecteer **Apparaatregistratie.**
 3.  De registratie van het apparaat ongedaan maken door **Afmelden te selecteren.**
 4.  Voor **apparaatregistratie,** moet u het apparaat opnieuw registreren door uw e-mailadres te typen en vervolgens **Registreren te selecteren.**
 
-U kunt de registratie van een Android-apparaat op de pagina Android-instellingen ongedaan maken en opnieuw registreren:
+Een Android-apparaat op de pagina Android-Instellingen opnieuw registreren:
 
-1.  Open **Apparaatinstellingen** en ga naar **Accounts.**
+1.  Open **Apparaat Instellingen** en ga naar **Accounts.**
 2.  Selecteer het werkaccount dat u opnieuw wilt registreren en selecteer **Account verwijderen.**
 3.  Nadat het account is verwijderd, selecteert u op de **pagina Accounts** de optie Account toevoegen **> werkaccount.**
 4.  Voor **Workplace Join** typt u uw e-mailadres en **selecteert** u Deelnemen om de registratie van het apparaat te voltooien.
 
-U kunt de registratie van het apparaat op Android ongedaan maken en opnieuw registreren via bedrijfsportal:
+U kunt de registratie van het apparaat op Android ongedaan maken en opnieuw registreren Bedrijfsportal:
 
 1.  Start Bedrijfsportal en ga naar **het tabblad** Apparaten.
 2.  Selecteer het apparaat om de apparaatdetails te bekijken.
 3.  Selecteer apparaat verwijderen in het menu drie puntjes (drie puntjes) en voltooi de verwijdering door dit te bevestigen in het dialoogvenster.
-4.  U moet nu worden afgemeld bij de bedrijfsportal-app. Selecteer **Aanmelden om** het apparaat opnieuw te registreren.
+4.  U moet nu zijn afgemeld bij de Bedrijfsportal app. Selecteer **Aanmelden om** het apparaat opnieuw te registreren.
 
 Bekijk de informatie over Azure Active Directory (Azure AD) in Aanvullende Azure AD-informatie voor de migratie van [Microsoft Cloud Deutschland](ms-cloud-germany-transition-azure-ad.md)voor meer informatie over acties die nodig zijn tijdens de migratiefase van deze werkbelasting of de gevolgen voor beheer of gebruik.
 
@@ -253,28 +253,28 @@ Bekijk de informatie over Azure Active Directory (Azure AD) in Aanvullende Azure
 
 Op iOS-apparaten moet een gebruiker accounts in de cache handmatig verwijderen uit de Microsoft Authenticator, het apparaat uitschrijven en zich afmelden bij native apps op het apparaat.
 
-### <a name="step-1-if-present-remove-the-account-from-the-microsoft-authenticator-app"></a>Stap 1: Als dit wordt gebruikt, verwijdert u het account uit de Microsoft Authenticator-app
+### <a name="step-1-if-present-remove-the-account-from-the-microsoft-authenticator-app"></a>Stap 1: Als u aanwezig bent, verwijdert u het account uit de Microsoft Authenticator app
 
-1. Tik op het account in de Microsoft Authenticator-app.
-2. Tik op **het pictogram** Instellingen in de rechterbovenhoek. Als u het pictogram Instellingen **niet** ziet, gebruikt u mogelijk niet de nieuwste versie van Microsoft Authenticator.
+1. Tik op het account in de Microsoft Authenticator app.
+2. Tik op **Instellingen** in de rechterbovenhoek. Als u het pictogram  Instellingen niet ziet, gebruikt u mogelijk niet de nieuwste versie van Microsoft Authenticator.
 3. Tik op **de knop Account** verwijderen.
 4. Tik **op Alle apps op dit apparaat.**
  
-### <a name="step-2-unregister-the-device-from-the-microsoft-authenticator-app"></a>Stap 2: Het apparaat uit de Microsoft Authenticator-app verwijderen
+### <a name="step-2-unregister-the-device-from-the-microsoft-authenticator-app"></a>Stap 2: Het apparaat uit de app Microsoft Authenticator verwijderen
 
 1. Tik op het menupictogram in de rechterbovenhoek.
-2. Tik **op Instellingen** en vervolgens op **Apparaatregistratie.**
+2. Tik **Instellingen** en vervolgens **op Apparaatregistratie.**
 4. Als uw account wordt weergegeven, tikt u **op Apparaat afmelden** en **doorgaan** in het dialoogvenster. Daarna ziet u geen account meer.
  
 ### <a name="step-3-sign-out-from-individual-apps-if-necessary"></a>Stap 3: Meld u indien nodig af bij afzonderlijke apps
 
-Gebruikers kunnen naar afzonderlijke apps zoals Outlook, Teams en OneDrive gaan en accounts uit die apps verwijderen.
+Gebruikers kunnen naar afzonderlijke apps gaan, zoals Outlook, Teams en OneDrive en accounts uit die apps verwijderen.
 
 ## <a name="more-information"></a>Meer informatie
 
 Aan de slag:
 
-- [Migratie van Microsoft Cloud Deutschland naar Office 365-services in de nieuwe Duitse datacenterregio's](ms-cloud-germany-transition.md)
+- [Migratie van Microsoft Cloud Deutschland naar Office 365 services in de nieuwe Duitse datacenterregio's](ms-cloud-germany-transition.md)
 - [Microsoft Cloud Deutschland-migratiehulp](https://aka.ms/germanymigrateassist)
 - [Opt-in voor migratie](ms-cloud-germany-migration-opt-in.md)
 - [Klantervaring tijdens de migratie](ms-cloud-germany-transition-experience.md)
@@ -288,5 +288,5 @@ Door de overgang lopen:
 Cloud-apps:
 
 - [Dynamics 365-migratieprogrammagegevens](/dynamics365/get-started/migrate-data-german-region)
-- [Informatie over power bi-migratieprogramma's](/power-bi/admin/service-admin-migrate-data-germany)
-- [Aan de slag met uw Microsoft Teams-upgrade](/microsoftteams/upgrade-start-here)
+- [Power BI migratieprogrammagegevens](/power-bi/admin/service-admin-migrate-data-germany)
+- [Aan de slag met uw Microsoft Teams upgrade](/microsoftteams/upgrade-start-here)
