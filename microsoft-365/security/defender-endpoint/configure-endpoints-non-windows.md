@@ -1,6 +1,6 @@
 ---
-title: Onboard non-Windows devices to the Microsoft Defender for Endpoint service
-description: Configureer niet-Windows-apparaten, zodat ze sensorgegevens kunnen verzenden naar de Microsoft Defender for Endpoint-service.
+title: Niet-Windows aan boord van de Microsoft Defender for Endpoint-service
+description: Configureer niet-Windows apparaten zodat ze sensorgegevens kunnen verzenden naar de Microsoft Defender for Endpoint-service.
 keywords: onboard non-Windows devices, macos, linux, device management, configure Microsoft Defender for Endpoint devices
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 1c10576b72793ab3833f2e9027e3814a449334ee
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 265a7e9093638caa2111c7d1d82e51c8c2437d12
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933923"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845458"
 ---
-# <a name="onboard-non-windows-devices"></a>Onboarden niet-Windows-apparaten
+# <a name="onboard-non-windows-devices"></a>Niet-Windows-apparaten onboarden
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -38,28 +38,28 @@ ms.locfileid: "51933923"
 
 >Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-nonwindows-abovefoldlink) 
 
-Defender voor Eindpunt biedt een gecentraliseerde beveiligingsbewerkingservaring voor Windows en niet-Windows-platforms. U kunt waarschuwingen van verschillende ondersteunde besturingssystemen (OS) zien in het Microsoft Defender-beveiligingscentrum en het netwerk van uw organisatie beter beveiligen. 
+Defender voor Eindpunt biedt een gecentraliseerde beveiligingsbewerkingservaring voor Windows en niet-Windows platforms. U kunt waarschuwingen van verschillende ondersteunde besturingssystemen (OS) zien in Microsoft Defender-beveiligingscentrum en het netwerk van uw organisatie beter beveiligen. 
 
 U moet de exacte Linux-distributies en macOS-versies kennen die compatibel zijn met Defender voor Eindpunt om de integratie te laten werken. Zie voor meer informatie:
 - [Microsoft Defender for Endpoint on Linux system requirements](microsoft-defender-endpoint-linux.md#system-requirements)  
 - [Microsoft Defender voor Eindpunt voor systeemvereisten voor macOS](microsoft-defender-endpoint-mac.md#system-requirements).
 
-## <a name="onboarding-non-windows-devices"></a>Onboarding niet-Windows-apparaten
-U moet de volgende stappen ondernemen om niet-Windows-apparaten aan te sluiten:
+## <a name="onboarding-non-windows-devices"></a>Onboarding van niet-Windows apparaten
+U moet de volgende stappen ondernemen om niet-Windows in te stappen:
 1. Selecteer uw voorkeursmethode voor onboarding:
 
-   - Voor macOS-apparaten kunt u ervoor kiezen om aan boord te gaan via Microsoft Defender voor Eindpunt of via een oplossing van derden. Zie Microsoft Defender voor Eindpunt op Mac voor [meer informatie.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint-mac)
+   - Voor macOS-apparaten kunt u ervoor kiezen om aan boord te gaan via Microsoft Defender voor Eindpunt of via een oplossing van derden. Zie Microsoft Defender voor Eindpunt op Mac voor [meer informatie.](/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint-mac)
 
-   - Voor andere niet-Windows-apparaten kiest u **Onboard non-Windows-apparaten via integratie van derden.**   
+   - Voor andere niet-Windows-apparaten kiest **u Onboard niet-Windows** apparaten via integratie van derden .   
     1. Selecteer in het navigatiedeelvenster **Interoperabiliteitspartners.**  >   Zorg ervoor dat de oplossing van derden wordt vermeld.
-    2. Selecteer op **het tabblad Partnertoepassingen** de partner die uw niet-Windows-apparaten ondersteunt.
+    2. Selecteer op **het tabblad Partnertoepassingen** de partner die uw niet-Windows ondersteunt.
     3. Selecteer **Partnerpagina openen om** de pagina van de partner te openen. Volg de instructies op de pagina.
     4. Nadat u een account hebt gemaakt of een abonnement hebt genomen op de partneroplossing, moet u naar een fase gaan waarin een globale tenantbeheerder in uw organisatie wordt gevraagd een machtigingsaanvraag van de partnertoepassing te accepteren. Lees de machtigingsaanvraag zorgvuldig door om ervoor te zorgen dat het is uitgelijnd met de service die u nodig hebt. 
 
         
 2. Voer een detectietest uit door de instructies van de oplossing van derden te volgen.
 
-## <a name="offboard-non-windows-devices"></a>Offboard niet-Windows-apparaten
+## <a name="offboard-non-windows-devices"></a>Niet-offboard-Windows apparaten
 
 1. Volg de documentatie van derden om de externe oplossing los te koppelen van Microsoft Defender voor Eindpunt.
 

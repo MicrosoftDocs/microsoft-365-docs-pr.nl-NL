@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 02/07/2020
 ms.technology: mde
-ms.openlocfilehash: e919f697048840b0eb7bffd34914328fe233f823
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: d827fb89a082286b1b7b77ea0a14e588ce171161
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935159"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842192"
 ---
 # <a name="onboard-windows-10-devices-using-configuration-manager"></a>Onboarden Windows 10-updates met Configuration Manager
 
@@ -32,7 +32,7 @@ ms.locfileid: "51935159"
 
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
-- Microsoft Endpoint Configuration Manager current branch
+- Microsoft Endpoint Configuration Manager huidige vertakking
 - System Center 2012 R2 Configuration Manager
 
 >Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configureendpointssccm-abovefoldlink)
@@ -57,7 +57,7 @@ Vanaf Configuration Manager versie 2002 kunt u de volgende besturingssystemen aa
 - Windows Server 2019
 
 >[!NOTE]
->Zie Onboard [Windows-servers](configure-server-endpoints.md)voor meer informatie over het onboarden van Windows Server 2012 R2, Windows Server 2016 en Windows Server 2019.
+>Zie Onboard Windows servers voor meer informatie over het onboarden van Windows Server 2012 R2, Windows Server 2016 en [](configure-server-endpoints.md)Windows Server 2019.
 
 
 
@@ -67,28 +67,28 @@ Vanaf Configuration Manager versie 2002 kunt u de volgende besturingssystemen aa
 [![Afbeelding van het PDF-bestand met de verschillende implementatiepaden](images/onboard-config-mgr.png)](images/onboard-config-mgr.png#lightbox)
 
 
-Bekijk het [PDF-bestand](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf)  of  [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) om de verschillende paden te bekijken bij de implementatie van Microsoft Defender voor Eindpunt. 
+Bekijk het [PDF-bestand](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf) of [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) om de verschillende paden te bekijken bij de implementatie van Microsoft Defender voor Eindpunt. 
 
 
 
-1. Open het configuratiepakket Configuratiebeheer .zip-bestand *(WindowsDefenderATPOnboardingPackage.zip)* dat u hebt gedownload uit de wizard Service onboarding. U kunt het pakket ook in [het Microsoft Defender-beveiligingscentrum kopen:](https://securitycenter.windows.com/)
+1. Open het configuratiepakket Configuratiebeheer .zip bestand *(WindowsDefenderATPOnboardingPackage.zip)* dat u hebt gedownload uit de wizard Service onboarding. U kunt het pakket ook van [Microsoft Defender-beveiligingscentrum:](https://securitycenter.windows.com/)
 
-    1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **Onboarding**.
+    1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **Onboarding.**
     
     1. Selecteer Windows 10 als het besturingssysteem.
 
-    1. Selecteer in **het veld** Implementatiemethode System Center Configuration **Manager 2012/2012 R2/1511/1602**.
+    1. Selecteer in **het veld** Implementatiemethode **System Center Configuration Manager 2012/2012 R2/1511/1602**.
     
-    1. Selecteer **Pakket downloaden** en sla het ZIP-bestand op.
+    1. Selecteer **Pakket downloaden** en sla het .zip op.
 
-2. Haal de inhoud van het ZIP-bestand op naar een gedeelde, alleen-lezen locatie die kan worden gebruikt door de netwerkbeheerders die het pakket zullen implementeren. U moet een bestand met de naam *WindowsDefenderATPOnboardingScript.cmd hebben.*
+2. Haal de inhoud van het .zip bestand op naar een gedeelde, alleen-lezen locatie die kan worden gebruikt door de netwerkbeheerders die het pakket zullen implementeren. U moet een bestand met de naam *WindowsDefenderATPOnboardingScript.cmd hebben.*
 
-3. Implementeer het pakket door de stappen te volgen in het artikel Pakketten en programma's [in System Center 2012 R2 Configuration Manager.](https://docs.microsoft.com/previous-versions/system-center/system-center-2012-R2/gg699369\(v=technet.10\))
+3. Implementeer het pakket door de stappen in het artikel Pakketten en programma's [in System Center 2012 R2 Configuration Manager te](/previous-versions/system-center/system-center-2012-R2/gg699369\(v=technet.10\)) volgen.
 
     a. Kies een vooraf gedefinieerde apparaatverzameling om het pakket te implementeren.
 
 > [!NOTE]
-> Defender voor Eindpunt biedt geen ondersteuning voor onboarding tijdens de [OOBE-fase (Out-Of-Box Experience).](https://answers.microsoft.com/en-us/windows/wiki/windows_10/how-to-complete-the-windows-10-out-of-box/47e3f943-f000-45e3-8c5c-9d85a1a0cf87) Zorg ervoor dat gebruikers OOBE voltooien na het uitvoeren van Windows-installatie of upgrade.
+> Defender voor Eindpunt biedt geen ondersteuning voor onboarding tijdens de [OOBE-fase (Out-Of-Box Experience).](https://answers.microsoft.com/en-us/windows/wiki/windows_10/how-to-complete-the-windows-10-out-of-box/47e3f943-f000-45e3-8c5c-9d85a1a0cf87) Zorg ervoor dat gebruikers OOBE voltooien na het uitvoeren Windows installatie of upgrade.
 
 >[!TIP]
 > Nadat u het apparaat hebt onboarding, kunt u ervoor kiezen om een detectietest uit te voeren om te controleren of een apparaat correct is aan boord van de service. Zie Een detectietest uitvoeren op een nieuw ingebouwde [Defender voor eindpuntapparaat](run-detection-test.md)voor meer informatie.
@@ -98,11 +98,11 @@ Bekijk het [PDF-bestand](https://github.com/MicrosoftDocs/microsoft-365-docs/raw
 > 
 > Dit gedrag kan worden bereikt door een detectieregel te maken die controleert of de registerwaarde 'OnboardingState' (van type REG_DWORD) = 1.
 > Deze registerwaarde bevindt zich onder 'HKLM\SOFTWARE\Microsoft\Windows Advanced Threat Protection\Status'.
-Zie Detectiemethoden configureren [in System Center 2012 R2 Configuration Manager voor meer informatie.](https://docs.microsoft.com/previous-versions/system-center/system-center-2012-R2/gg682159\(v=technet.10\)#step-4-configure-detection-methods-to-indicate-the-presence-of-the-deployment-type)
+Zie Detectiemethoden configureren [in System Center 2012 R2 Configuration Manager voor meer informatie.](/previous-versions/system-center/system-center-2012-R2/gg682159\(v=technet.10\)#step-4-configure-detection-methods-to-indicate-the-presence-of-the-deployment-type)
 
 ### <a name="configure-sample-collection-settings"></a>Voorbeeldverzamelingsinstellingen configureren
 
-Voor elk apparaat kunt u een configuratiewaarde instellen om aan te geven of er steekproeven kunnen worden verzameld vanaf het apparaat wanneer een aanvraag wordt gedaan via het Microsoft Defender-beveiligingscentrum om een bestand in te dienen voor uitgebreide analyse.
+Voor elk apparaat kunt u een configuratiewaarde instellen om aan te geven of steekproeven vanaf het apparaat kunnen worden verzameld wanneer een aanvraag wordt ingediend via Microsoft Defender-beveiligingscentrum om een bestand in te dienen voor uitgebreide analyse.
 
 >[!NOTE]
 >Deze configuratie-instellingen worden meestal uitgevoerd via Configuration Manager. 
@@ -127,7 +127,7 @@ Mogelijke waarden zijn:
 
 De standaardwaarde voor het geval de registersleutel niet bestaat, is 1.
 
-Zie Inleiding tot compliance-instellingen [in System Center 2012 R2 Configuration Manager](https://docs.microsoft.com/previous-versions/system-center/system-center-2012-R2/gg682139\(v=technet.10\))voor meer informatie over compliance van System Center Configuration Manager.
+Zie Inleiding tot nalevingsinstellingen in System Center Configuration Manager [2012 R2 Configuration Manager](/previous-versions/system-center/system-center-2012-R2/gg682139\(v=technet.10\))voor meer informatie over System Center compliance-instellingen.
 
 
 ## <a name="other-recommended-configuration-settings"></a>Andere aanbevolen configuratie-instellingen
@@ -173,25 +173,25 @@ Om veiligheidsredenen verloopt het pakket dat wordt gebruikt voor Offboard-appar
 > [!NOTE]
 > Onboarding- en offboarding-beleid mag niet tegelijkertijd op hetzelfde apparaat worden geïmplementeerd, anders veroorzaakt dit onvoorspelbare botsingen.
 
-### <a name="offboard-devices-using-microsoft-endpoint-manager-current-branch"></a>Offboard-apparaten met microsoft Endpoint Manager current branch
+### <a name="offboard-devices-using-microsoft-endpoint-manager-current-branch"></a>Offboard-apparaten met Microsoft Endpoint Manager huidige vertakking
 
-Zie Een [offboarding-configuratiebestand maken](https://docs.microsoft.com/configmgr/protect/deploy-use/windows-defender-advanced-threat-protection#create-an-offboarding-configuration-file)als u de huidige vertakking van Microsoft Endpoint Manager gebruikt.
+Zie Een [offboarding-configuratiebestand](/configmgr/protect/deploy-use/windows-defender-advanced-threat-protection#create-an-offboarding-configuration-file)maken als u Microsoft Endpoint Manager huidige vertakking gebruikt.
 
 ### <a name="offboard-devices-using-system-center-2012-r2-configuration-manager"></a>Offboard-apparaten met System Center 2012 R2 Configuration Manager
 
-1. Ontvang het offboarding-pakket van [het Microsoft Defender-beveiligingscentrum:](https://securitycenter.windows.com/)
+1. Haal het offboarding-pakket van [Microsoft Defender-beveiligingscentrum:](https://securitycenter.windows.com/)
 
     1. Selecteer in het navigatiedeelvenster **Instellingen**  >   **Offboarding**.
 
     1. Selecteer Windows 10 als het besturingssysteem.
 
-    1. Selecteer in **het veld** Implementatiemethode System Center Configuration **Manager 2012/2012 R2/1511/1602**.
+    1. Selecteer in **het veld** Implementatiemethode **System Center Configuration Manager 2012/2012 R2/1511/1602**.
     
-    1. Selecteer **Pakket downloaden** en sla het ZIP-bestand op.
+    1. Selecteer **Pakket downloaden** en sla het .zip op.
 
-2. Haal de inhoud van het ZIP-bestand op naar een gedeelde, alleen-lezen locatie die kan worden gebruikt door de netwerkbeheerders die het pakket zullen implementeren. U moet een bestand met de *WindowsDefenderATPOffboardingScript_valid_until_YYYY-MM-DD.cmd hebben.*
+2. Haal de inhoud van het .zip bestand op naar een gedeelde, alleen-lezen locatie die kan worden gebruikt door de netwerkbeheerders die het pakket zullen implementeren. U moet een bestand met de *WindowsDefenderATPOffboardingScript_valid_until_YYYY-MM-DD.cmd hebben.*
 
-3. Implementeer het pakket door de stappen te volgen in het artikel Pakketten en programma's [in System Center 2012 R2 Configuration Manager.](https://docs.microsoft.com/previous-versions/system-center/system-center-2012-R2/gg699369\(v=technet.10\))
+3. Implementeer het pakket door de stappen in het artikel Pakketten en programma's [in System Center 2012 R2 Configuration Manager te](/previous-versions/system-center/system-center-2012-R2/gg699369\(v=technet.10\)) volgen.
 
     a. Kies een vooraf gedefinieerde apparaatverzameling om het pakket te implementeren.
 
@@ -201,9 +201,9 @@ Zie Een [offboarding-configuratiebestand maken](https://docs.microsoft.com/confi
 
 ## <a name="monitor-device-configuration"></a>Apparaatconfiguratie controleren
 
-Als u de huidige vertakking van Microsoft Endpoint Manager gebruikt, gebruikt u het ingebouwde Dashboard van Defender voor Eindpunt in de console Configuration Manager. Zie Defender [for Endpoint - Monitor voor meer informatie.](https://docs.microsoft.com/configmgr/protect/deploy-use/windows-defender-advanced-threat-protection#monitor)
+Als u de huidige Microsoft Endpoint Manager gebruikt, gebruikt u het ingebouwde Dashboard van Defender voor eindpunt in de console Configuration Manager. Zie Defender [for Endpoint - Monitor voor meer informatie.](/configmgr/protect/deploy-use/windows-defender-advanced-threat-protection#monitor)
 
-Als u System Center 2012 R2 Configuration Manager gebruikt, bestaat monitoring uit twee onderdelen:
+Als u configuratiebeheer System Center 2012 R2 gebruikt, bestaat monitoring uit twee onderdelen:
 
 1. Bevestigen dat het configuratiepakket correct is geïmplementeerd en wordt uitgevoerd (of is uitgevoerd) op de apparaten in uw netwerk.
 
@@ -225,7 +225,7 @@ Als u System Center 2012 R2 Configuration Manager gebruikt, bestaat monitoring u
 
 ### <a name="check-that-the-devices-are-compliant-with-the-microsoft-defender-for-endpoint-service"></a>Controleer of de apparaten compatibel zijn met de Microsoft Defender for Endpoint-service
 
-U kunt een complianceregel instellen voor configuratie-item in System Center 2012 R2 Configuration Manager om de implementatie te controleren.
+U kunt een complianceregel instellen voor configuratie-item in System Center 2012 R2 Configuration Manager om uw implementatie te controleren.
 
 Deze regel moet een *configuratieitem voor complianceregelen* zijn dat de waarde van een registersleutel op gerichte apparaten controleert.
 
@@ -237,10 +237,10 @@ Name: "OnboardingState"
 Value: "1"
 ```
 
-Zie Inleiding tot [compliance-instellingen in System Center 2012 R2 Configuration Manager voor meer informatie.](https://docs.microsoft.com/previous-versions/system-center/system-center-2012-R2/gg682139\(v=technet.10\))
+Zie Inleiding tot compliance-instellingen [in System Center 2012 R2 Configuration Manager voor meer informatie.](/previous-versions/system-center/system-center-2012-R2/gg682139\(v=technet.10\))
 
 ## <a name="related-topics"></a>Verwante onderwerpen
-- [Onboard Windows 10-apparaten met groepsbeleid](configure-endpoints-gp.md)
+- [Onboard Windows 10 apparaten met groepsbeleid](configure-endpoints-gp.md)
 - [Onboarden Windows 10-apparaten met hulpmiddelen voor Mobile Device Management](configure-endpoints-mdm.md)
 - [Onboarden Windows 10-apparaten met een lokaal script](configure-endpoints-script.md)
 - [Onboarden niet-permanente virtual desktop infrastructure (VDI)-apparaten](configure-endpoints-vdi.md)

@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e08781455888595d57bd8a9e6f792796ea1853cd
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 6447aa4182846020312e9be870c5548d9415ac71
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684205"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842828"
 ---
 # <a name="deploy-updates-for-microsoft-defender-for-endpoint-on-macos"></a>Updates voor Microsoft Defender voor Eindpunt implementeren in macOS
 
@@ -48,7 +48,7 @@ Als u besluit updates te implementeren met behulp van uw softwaredistributieprog
 
 ## <a name="use-msupdate"></a>Msupdate gebruiken
 
-MAU bevat een opdrachtregelhulpmiddel, *msupdate* genoemd, dat is ontworpen voor IT-beheerders, zodat ze nauwkeuriger kunnen bepalen wanneer updates worden toegepast. Instructies voor het gebruik van dit hulpprogramma vindt u in [Update Office voor Mac met msupdate.](https://docs.microsoft.com/deployoffice/mac/update-office-for-mac-using-msupdate)
+MAU bevat een opdrachtregelhulpmiddel, *msupdate* genoemd, dat is ontworpen voor IT-beheerders, zodat ze nauwkeuriger kunnen bepalen wanneer updates worden toegepast. Instructies voor het gebruik van dit hulpprogramma vindt u in [Update Office voor Mac met msupdate.](/deployoffice/mac/update-office-for-mac-using-msupdate)
 
 In MAU is de toepassingsaanduiding voor Microsoft Defender voor Eindpunt op macOS *WDAV00.* Als u de nieuwste updates voor Microsoft Defender voor Eindpunt voor macOS wilt downloaden en installeren, voert u de volgende opdracht uit vanuit een terminalvenster:
 
@@ -256,4 +256,4 @@ Als u MAU wilt configureren, kunt u dit configuratieprofiel implementeren vanuit
 
 ## <a name="resources"></a>Resources
 
-- [msupdate-verwijzing](https://docs.microsoft.com/deployoffice/mac/update-office-for-mac-using-msupdate)
+- [msupdate-verwijzing](/deployoffice/mac/update-office-for-mac-using-msupdate)

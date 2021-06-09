@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 2279045093ebfac4a7eb4544a3e0c137c08c9c0c
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 0258b2cdbff4a8b20be42e508863985c7402f609
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935387"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845508"
 ---
 # <a name="microsoft-defender-for-endpoint-data-storage-and-privacy"></a>Microsoft Defender voor opslag en privacy van eindpuntgegevens
 
@@ -35,7 +35,7 @@ ms.locfileid: "51935387"
 
 In deze sectie worden enkele van de meest gestelde vragen over privacy en gegevensafhandeling voor Defender voor Eindpunt bestrijkt.
 > [!NOTE]
-> In dit document worden de gegevensopslag- en privacygegevens met betrekking tot Defender voor Eindpunt uitgelegd. Zie Microsoft [Privacyverklaring](https://go.microsoft.com/fwlink/?linkid=827576)voor meer informatie over Defender voor Eindpunt en andere producten en services, zoals Microsoft Defender Antivirus en Windows 10. Zie ook [veelgestelde vragen over privacy van Windows 10](https://go.microsoft.com/fwlink/?linkid=827577) voor meer informatie.
+> In dit document worden de gegevensopslag- en privacygegevens met betrekking tot Defender voor Eindpunt uitgelegd. Zie Microsoft [Privacyverklaring](https://go.microsoft.com/fwlink/?linkid=827576)voor meer informatie over Defender voor Eindpunt en andere producten en services, zoals Microsoft Defender Antivirus en Windows 10. Zie ook [Windows 10 veelgestelde vragen over privacy voor](https://go.microsoft.com/fwlink/?linkid=827577) meer informatie.
 
 
 ## <a name="what-data-does-microsoft-defender-for-endpoint-collect"></a>Welke gegevens worden door Microsoft Defender voor Eindpunt verzameld?
@@ -44,7 +44,7 @@ In Microsoft Defender voor Eindpunt worden gegevens van uw geconfigureerde appar
 
 Verzamelde gegevens omvatten bestandsgegevens (zoals bestandsnamen, groottes en hashes), procesgegevens (lopende processen, hashes), registergegevens, netwerkverbindingsgegevens (host-IPs en poorten) en apparaatgegevens (zoals apparaataanduidingen, namen en de versie van het besturingssysteem).
 
-Microsoft slaat deze gegevens veilig op in Microsoft Azure en onderhoudt deze in overeenstemming met microsoft-privacypraktijken en [microsoft-vertrouwenscentrumbeleid.](https://go.microsoft.com/fwlink/?linkid=827578)
+Microsoft slaat deze gegevens veilig op in Microsoft Azure en onderhoudt deze in overeenstemming met de privacypraktijken van Microsoft en het [beleid van het Microsoft Trust Center.](https://go.microsoft.com/fwlink/?linkid=827578)
 
 Met deze gegevens kan Defender voor Eindpunt het volgende doen:
 - Indicatoren voor aanvallen (IOA's) in uw organisatie proactief identificeren
@@ -54,16 +54,16 @@ Met deze gegevens kan Defender voor Eindpunt het volgende doen:
 Microsoft gebruikt uw gegevens niet voor reclame.
 
 ## <a name="data-protection-and-encryption"></a>Gegevensbeveiliging en versleuteling
-De Defender for Endpoint-service maakt gebruik van geavanceerde gegevensbeschermingstechnologieën die zijn gebaseerd op de Microsoft Azure-infrastructuur. 
+De Defender for Endpoint-service maakt gebruik van geavanceerde gegevensbeschermingstechnologieën die zijn gebaseerd op Microsoft Azure infrastructuur. 
 
-Er zijn verschillende aspecten die relevant zijn voor gegevensbescherming die door onze service worden verzorgd. Versleuteling is een van de meest kritieke en bevat gegevensversleuteling in rust, versleuteling tijdens de vlucht en sleutelbeheer met Key Vault. Zie Overzicht van [Azure-versleuteling](https://docs.microsoft.com/azure/security/security-azure-encryption-overview)voor meer informatie over andere technologieën die worden gebruikt door de Defender for Endpoint-service. 
+Er zijn verschillende aspecten die relevant zijn voor gegevensbescherming die door onze service worden verzorgd. Versleuteling is een van de meest kritieke en bevat gegevensversleuteling in rust, versleuteling tijdens de vlucht en sleutelbeheer met Key Vault. Zie Overzicht van [Azure-versleuteling](/azure/security/security-azure-encryption-overview)voor meer informatie over andere technologieën die worden gebruikt door de Defender for Endpoint-service. 
 
 In alle scenario's worden gegevens minimaal versleuteld met 256 bits [AES-versleuteling.](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
 
 
 ## <a name="data-storage-location"></a>Locatie voor gegevensopslag
 
-Defender for Endpoint is actief in de Microsoft Azure-datacenters in de Europese Unie, het Verenigd Koninkrijk of in de Verenigde Staten. Klantgegevens die door de service worden verzameld, kunnen worden opgeslagen in: (a) de geografische locatie van de tenant die is geïdentificeerd tijdens de inrichting of (b) als Defender voor Eindpunt een andere onlineservice van Microsoft gebruikt om dergelijke gegevens te verwerken, de geolocatie zoals gedefinieerd door de regels voor gegevensopslag van die andere onlineservice.
+Defender for Endpoint is actief in de Microsoft Azure datacenters in de Europese Unie, het Verenigd Koninkrijk of in de Verenigde Staten. Klantgegevens die door de service worden verzameld, kunnen worden opgeslagen in: (a) de geografische locatie van de tenant die is geïdentificeerd tijdens de inrichting of (b) als Defender voor Eindpunt een andere onlineservice van Microsoft gebruikt om dergelijke gegevens te verwerken, de geolocatie zoals gedefinieerd door de regels voor gegevensopslag van die andere onlineservice.
 
 Klantgegevens in gepseudonimiseerde vorm kunnen ook worden opgeslagen in de centrale opslag- en verwerkingssystemen in de Verenigde Staten.
 
@@ -82,7 +82,7 @@ Microsoft-ontwikkelaars en -beheerders hebben per ontwerp voldoende bevoegdheden
 
 Daarnaast voert Microsoft achtergrondverificatiecontroles uit van bepaalde personeelsleden en beperkt de toegang tot toepassingen, systemen en netwerkinfrastructuur in verhouding tot het niveau van achtergrondverificatie. Operationeel personeel volgt een formeel proces wanneer ze bij de uitvoering van hun taken toegang moeten krijgen tot het account of de gerelateerde informatie van een klant.
 
-Toegang tot gegevens voor services die zijn geïmplementeerd in microsoft Azure Government-datacenters wordt alleen verleend aan besturingssystemen die zijn gescreend en goedgekeurd voor het verwerken van gegevens die onderhevig zijn aan bepaalde overheidsvoorschriften en -vereisten, zoals FedRAMP, NIST 800.171 (DIB), ITAR, IRS 1075, DoD L4 en CJIS.
+Toegang tot gegevens voor services die zijn geïmplementeerd in Microsoft Azure Datacenters van de overheid wordt alleen verleend aan bedienend personeel dat is gescreend en goedgekeurd voor het verwerken van gegevens die onderhevig zijn aan bepaalde overheidsvoorschriften en -vereisten, zoals FedRAMP, NIST 800.171 (DIB), ITAR, IRS 1075, DoD L4 en CJIS.
 
 
 ## <a name="is-data-shared-with-other-customers"></a>Worden gegevens gedeeld met andere klanten?

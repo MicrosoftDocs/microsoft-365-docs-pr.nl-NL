@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 09/24/2018
 ms.technology: mde
-ms.openlocfilehash: 9913d1b0b0d5d0462fdee0b9c576a590bd3ddbc9
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: ef6d05bb27018bb72f731da2e8b7837c9d9f0127
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51198319"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842060"
 ---
 # <a name="microsoft-defender-for-endpoint-apis-using-powershell"></a>Microsoft Defender voor eindpunt-API's met PowerShell
 
@@ -55,7 +55,7 @@ In deze sectie delen we PowerShell-voorbeelden met
   Set-ExecutionPolicy -ExecutionPolicy Bypass
   ```
 
-Zie [PowerShell-documentatie](https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-executionpolicy) voor meer informatie
+Zie [PowerShell-documentatie](/powershell/module/microsoft.powershell.security/set-executionpolicy) voor meer informatie
 
 ## <a name="get-token"></a>Token krijgen
 
@@ -132,4 +132,4 @@ $response
 ## <a name="see-also"></a>Zie ook
 - [Microsoft Defender voor eindpunt-API's](apis-intro.md)
 - [Geavanceerde API voor opsporing](run-advanced-query-api.md)
-- [Geavanceerd jagen met Python](run-advanced-query-sample-python.md)
+- [Geavanceerde opsporing met behulp van Python](run-advanced-query-sample-python.md)

@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: dab72da02927c3fff6025eb2d0fa9ed0fdf1d0d7
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: d32d40ac8ce086caedd53e0a69aac2a3025dc702
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245274"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842252"
 ---
 # <a name="configure-microsoft-defender-for-endpoint-on-ios-features"></a>Microsoft Defender voor eindpunt configureren voor iOS-functies
 
@@ -40,10 +40,10 @@ ms.locfileid: "52245274"
 ## <a name="conditional-access-with-defender-for-endpoint-on-ios"></a>Voorwaardelijke toegang met Defender voor Eindpunt in iOS  
 Microsoft Defender voor Eindpunt op iOS, samen met Microsoft Intune en Azure Active Directory, maakt het afdwingen van apparaat compliance en beleid voor Voorwaardelijke toegang mogelijk op basis van apparaatrisicoscore. Defender for Endpoint is een MTD-oplossing (Mobile Threat Defense) die u kunt implementeren om gebruik te maken van deze mogelijkheid via Intune.
 
-Zie Defender voor Eindpunt en [Intune](https://docs.microsoft.com/mem/intune/protect/advanced-threat-protection)voor meer informatie over het instellen van Voorwaardelijke toegang met Defender voor Eindpunt in iOS.
+Zie Defender voor Eindpunt en [Intune](/mem/intune/protect/advanced-threat-protection)voor meer informatie over het instellen van Voorwaardelijke toegang met Defender voor Eindpunt in iOS.
 
-> [!NOTE]
-> **Jailbreakdetectie door Microsoft Defender voor Endpoint op iOS is momenteel in preview.** Als een apparaat wordt gedetecteerd als een jailbroken door Microsoft Defender voor Eindpunt, wordt een waarschuwing met hoog risico gerapporteerd aan het Beveiligingscentrum en als Voorwaardelijke toegang is ingesteld op basis van de apparaatrisicoscore, wordt het apparaat geblokkeerd voor toegang tot bedrijfsgegevens.
+### <a name="jailbreak-detection-by-microsoft-defender-for-endpoint"></a>Jailbreakdetectie door Microsoft Defender voor Eindpunt
+Microsoft Defender voor Eindpunt heeft de mogelijkheid om niet-beheerde en beheerde apparaten te detecteren die in de bajes staan. Als wordt vastgesteld dat een apparaat een jailbroken is, wordt een waarschuwing met hoog risico gerapporteerd aan het Beveiligingscentrum en als Voorwaardelijke toegang is ingesteld op basis van de apparaatrisicoscore, wordt het apparaat geblokkeerd voor toegang tot bedrijfsgegevens.
 
 ## <a name="web-protection-and-vpn"></a>Webbeveiliging en VPN
 
@@ -71,7 +71,7 @@ Apple iOS biedt geen ondersteuning voor meerdere VPN's voor het hele apparaat om
 Om ervoor te zorgen dat bedrijfsgegevens niet worden gebruikt op iOS-apparaten met een jailbroken, raden we u aan het volgende compliancebeleid in te stellen op Intune.
 
 > [!NOTE]
-> Op dit moment is jailbreakdetectie door Microsoft Defender voor Eindpunt op iOS in preview. U wordt aangeraden dit beleid in te stellen als een extra verdedigingslaag tegen scenario's met een jailbreak.
+> Jailbreakdetectie is een mogelijkheid die wordt geleverd door Microsoft Defender voor Eindpunt in iOS. U wordt echter aangeraden dit beleid in te stellen als een extra verdedigingslaag tegen scenario's met een jailbreak.
 
 Volg de onderstaande stappen om een compliancebeleid te maken tegen jailbroken apparaten.
 
@@ -96,7 +96,7 @@ Volg de onderstaande stappen om een compliancebeleid te maken tegen jailbroken a
 
 ## <a name="configure-custom-indicators"></a>Aangepaste indicatoren configureren
 
-Met Defender voor Eindpunt in iOS kunnen beheerders ook aangepaste indicatoren configureren op iOS-apparaten. Zie Indicatoren beheren voor meer informatie over het configureren van aangepaste [indicatoren.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/manage-indicators)
+Met Defender voor Eindpunt in iOS kunnen beheerders ook aangepaste indicatoren configureren op iOS-apparaten. Zie Indicatoren beheren voor meer informatie over het configureren van aangepaste [indicatoren.](/microsoft-365/security/defender-endpoint/manage-indicators)
 
 > [!NOTE]
 > Defender voor Eindpunt in iOS ondersteunt het maken van aangepaste indicatoren alleen voor IP-adressen en URL's/domeinen.
@@ -105,8 +105,3 @@ Met Defender voor Eindpunt in iOS kunnen beheerders ook aangepaste indicatoren c
 
 Phishingwebsites doen zich voor als betrouwbare websites om uw persoonlijke of financiële gegevens te verkrijgen. Ga naar [de pagina Feedback geven over netwerkbeveiliging](https://www.microsoft.com/wdsi/filesubmission/exploitguard/networkprotection) als u een website wilt rapporteren die een phishingsite kan zijn.
 
-## <a name="battery-consumption-issues-on-ios-when-microsoft-defender-for-endpoint-is-installed"></a>Problemen met batterijverbruik in iOS wanneer Microsoft Defender voor Eindpunt is geïnstalleerd
-
-Het batterijgebruik door een app wordt door Apple berekend op basis van een groot aantal factoren, waaronder cpu- en netwerkgebruik. Microsoft Defender voor Eindpunt gebruikt een lokale/lus-back VPN op de achtergrond om het webverkeer te controleren op schadelijke websites of verbindingen. Netwerkpakketten van een app worden door deze controle heen en daardoor wordt het batterijgebruik van Microsoft Defender voor Eindpunt onjuist berekend. Dit geeft een onjuiste indruk voor de gebruiker. Het werkelijke batterijverbruik van Microsoft Defender voor Eindpunt is lager dan wat wordt weergegeven op de pagina Batterij Instellingen op het apparaat. Dit is gebaseerd op tests die zijn uitgevoerd in de Microsoft Defender voor Eindpunt-app om het batterijverbruik te begrijpen.
-
-Ook de GEBRUIKTE VPN is een lokale VPN en in tegenstelling tot traditionele VPN's wordt netwerkverkeer niet buiten het apparaat verzonden.

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: fc1c1e0d3f68016651c04521e04ce348e5ab9a65
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: d5e48f1e4f6bc2cfaa836d90e24f2ce8ba3f2114
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52246463"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845328"
 ---
 # <a name="investigate-entities-on-devices-using-live-response"></a>Entiteiten op apparaten onderzoeken met livereactie
 
@@ -55,11 +55,11 @@ Voordat u een sessie op een apparaat kunt starten, moet u aan de volgende vereis
 Apparaten moeten een van de volgende versies van Windows
 
   - **Windows 10**
-    - [Versie 1909](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1909) of hoger  
-    - [Versie 1903](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1903) met [KB4515384](https://support.microsoft.com/en-us/help/4515384/windows-10-update-kb4515384)
-    - [Versie 1809 (RS 5)](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1809) [met KB4537818](https://support.microsoft.com/help/4537818/windows-10-update-kb4537818)
-    - [Versie 1803 (RS 4)](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1803) met [KB4537795](https://support.microsoft.com/help/4537795/windows-10-update-kb4537795)
-    - [Versie 1709 (RS 3)](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) met [KB4537816](https://support.microsoft.com/help/4537816/windows-10-update-kb4537816)
+    - [Versie 1909](/windows/whats-new/whats-new-windows-10-version-1909) of hoger  
+    - [Versie 1903](/windows/whats-new/whats-new-windows-10-version-1903) met [KB4515384](https://support.microsoft.com/en-us/help/4515384/windows-10-update-kb4515384)
+    - [Versie 1809 (RS 5)](/windows/whats-new/whats-new-windows-10-version-1809) [met KB4537818](https://support.microsoft.com/help/4537818/windows-10-update-kb4537818)
+    - [Versie 1803 (RS 4)](/windows/whats-new/whats-new-windows-10-version-1803) met [KB4537795](https://support.microsoft.com/help/4537795/windows-10-update-kb4537795)
+    - [Versie 1709 (RS 3)](/windows/whats-new/whats-new-windows-10-version-1709) met [KB4537816](https://support.microsoft.com/help/4537816/windows-10-update-kb4537816)
   
   - **Windows Server 2019 - Alleen van toepassing op openbare preview**
     - Versie 1903 of (met [KB4515384](https://support.microsoft.com/en-us/help/4515384/windows-10-update-kb4515384)) later 
@@ -136,7 +136,7 @@ Afhankelijk van de rol die aan u is verleend, kunt u eenvoudige of geavanceerde 
 
 De volgende opdrachten zijn beschikbaar voor gebruikersrollen die de mogelijkheid krijgen om basisopdrachten **voor** livereacties uit te voeren. Zie Rollen maken en beheren voor meer informatie over [roltoewijzingen.](user-roles.md) 
 
-| Opdracht | Omschrijving |
+| Opdracht | Beschrijving |
 |---|---|--- |
 |`cd` | Wijzigt de huidige adreslijst. | 
 |`cls` | Het scherm van de console wordt gewed.  |
@@ -160,7 +160,7 @@ De volgende opdrachten zijn beschikbaar voor gebruikersrollen die de mogelijkhei
 ### <a name="advanced-commands"></a>Geavanceerde opdrachten
 De volgende opdrachten zijn beschikbaar voor gebruikersrollen die de mogelijkheid krijgen om geavanceerde **opdrachten** voor livereacties uit te voeren. Zie Rollen maken en beheren voor meer informatie over [roltoewijzingen.](user-roles.md) 
 
-| Opdracht | Omschrijving |
+| Opdracht | Beschrijving |
 |---|---|
 | `analyze` | Analyseert de entiteit met verschillende belastende motoren om tot een uitspraak te komen. |
 | `run` | Voert een PowerShell-script uit vanuit de bibliotheek op het apparaat. |
@@ -172,7 +172,7 @@ De volgende opdrachten zijn beschikbaar voor gebruikersrollen die de mogelijkhei
 
 ## <a name="use-live-response-commands"></a>Opdrachten voor livereacties gebruiken
 
-De opdrachten die u in de console kunt gebruiken, volgen dezelfde principes als [Windows Opdrachten.](https://docs.microsoft.com/windows-server/administration/windows-commands/windows-commands#BKMK_c)
+De opdrachten die u in de console kunt gebruiken, volgen dezelfde principes als [Windows Opdrachten.](/windows-server/administration/windows-commands/windows-commands#BKMK_c)
 
 De geavanceerde opdrachten bieden een krachtigere reeks acties waarmee u krachtigere acties kunt uitvoeren, zoals het downloaden en uploaden van een bestand, het uitvoeren van scripts op het apparaat en het uitvoeren van herstelacties voor een entiteit.
 

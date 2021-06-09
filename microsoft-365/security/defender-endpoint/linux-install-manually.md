@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c50efb11ee7f884be6788b90c14e7fc639d9b8ca
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 3ed033f137d3329dc208183fe8fad1f300ffd4c9
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52281003"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841787"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-manually"></a>Microsoft Defender voor Eindpunt handmatig implementeren op Linux
 
@@ -328,7 +328,7 @@ Download het onboarding-pakket van Microsoft Defender-beveiligingscentrum:
     > ```bash
     > mdatp health --field definitions_status
     > ```
-    > Houd er rekening mee dat u mogelijk ook een proxy moet configureren na het voltooien van de eerste installatie. Zie [Defender voor eindpunt configureren op Linux voor statische proxydetectie: Configuratie na installatie](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/linux-static-proxy-configuration#post-installation-configuration).
+    > Houd er rekening mee dat u mogelijk ook een proxy moet configureren na het voltooien van de eerste installatie. Zie [Defender voor eindpunt configureren op Linux voor statische proxydetectie: Configuratie na installatie](/microsoft-365/security/defender-endpoint/linux-static-proxy-configuration#post-installation-configuration).
 
 5. Voer een detectietest uit om te controleren of het apparaat goed is onboarded en rapporteert aan de service. Voer de volgende stappen uit op het nieuwe onboarded-apparaat:
 
@@ -409,4 +409,4 @@ Wanneer u uw besturingssysteem upgradet naar een nieuwe hoofdversie, moet u Eers
 Zie [Verwijderen voor](linux-resources.md#uninstall) meer informatie over het verwijderen van Defender voor Eindpunt op Linux van clientapparaten.
 
 ## <a name="see-also"></a>Zie ook
-- [Problemen met de status van agent onderzoeken](health-status.md)
+- [Statusproblemen van agent onderzoeken](health-status.md)

@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 91029f03e089f44f49800bfe2d18536a8d415411
-ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
+ms.openlocfilehash: c974701b83fbb6dbcac1cc597578a97144b2b482
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52029026"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845592"
 ---
 # <a name="whats-new-in-microsoft-365-defender"></a>Wat is er nieuw in Microsoft 365 Defender
 
@@ -32,23 +32,23 @@ ms.locfileid: "52029026"
 > Wilt u Microsoft 365 Defender ervaren? U kunt het [evalueren in een testomgeving](m365d-evaluation.md?ocid=cx-docs-MTPtriallab) of [uw pilotproject uitvoeren in een productieomgeving](m365d-pilot.md?ocid=cx-evalpilot).
 >
 
-De volgende functies zijn over het algemeen beschikbaar (GA) in de nieuwste versie van Microsoft 365 Defender.
+De volgende functies zijn over het algemeen beschikbaar (GA) in de meest recente versie van Microsoft 365 Defender.
 
 RSS-feed: Ontvang een melding wanneer deze pagina wordt bijgewerkt door de volgende URL in uw feedlezer te kopiëren en te kopiëren:
 ```http
-https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+functionality+in+Microsoft+365+defender%22&locale=en-us
+/api/search/rss?search=%22Lists+the+new+features+and+functionality+in+Microsoft+365+defender%22&locale=en-us
 ```
 
 ## <a name="april-2021"></a>April 2021
-- Verbeterd Microsoft 365-beveiligingscentrum <br> Het verbeterde [Microsoft 365-beveiligingscentrum](https://security.microsoft.com) is nu beschikbaar in de openbare preview. Deze nieuwe ervaring brengt Defender voor Eindpunt, Defender voor Office 365, Microsoft 365 Defender en meer naar het Microsoft 365-beveiligingscentrum. Dit is de nieuwe thuisbasis voor het beheren van uw beveiligingsbesturingselementen. [Ontdek wat er nieuw is](./overview-security-center.md).
+- Verbeterde Microsoft 365 beveiligingscentrum <br> Het verbeterde [Microsoft 365-beveiligingscentrum](https://security.microsoft.com) is nu beschikbaar in de openbare preview. Deze nieuwe ervaring brengt Defender voor Eindpunt, Defender voor Office 365, Microsoft 365 Defender en meer naar het Microsoft 365-beveiligingscentrum. Dit is de nieuwe thuisbasis voor het beheren van uw beveiligingsbesturingselementen. [Ontdek wat er nieuw is](./overview-security-center.md).
 
-- [Microsoft 365 Defender threat analytics report](threat-analytics.md)<br>
- Met bedreigingsanalyse kunt u reageren op en de impact van actieve aanvallen minimaliseren. U kunt ook meer informatie krijgen over aanvalspogingen die zijn geblokkeerd door Microsoft 365 Defender-oplossingen en preventief optreden om het risico op verdere blootstelling te beperken en de tolerantie te vergroten. Als onderdeel van de geïntegreerde beveiligingservaring is bedreigingsanalyse nu beschikbaar voor licentiehouders van Microsoft Defender voor Eindpunt en Microsoft Defender voor Office E5.
+- [Microsoft 365 Rapport Bedreigingsanalyse van Defender](threat-analytics.md)<br>
+ Met bedreigingsanalyse kunt u reageren op en de impact van actieve aanvallen minimaliseren. U kunt ook meer informatie krijgen over aanvalspogingen die worden geblokkeerd door Microsoft 365 Defender-oplossingen en preventief acties ondernemen om het risico op verdere blootstelling te beperken en de tolerantie te vergroten. Als onderdeel van de geïntegreerde beveiligingservaring is bedreigingsanalyse nu beschikbaar voor Microsoft Defender voor Eindpunt en Microsoft Defender voor Office E5-licentiehouders.
 
 ## <a name="march-2021"></a>Maart 2021
-- [CloudAppEvents-tabel](advanced-hunting-cloudappevents-table.md) <br>Informatie over gebeurtenissen in verschillende cloud-apps en -services die worden gedekt door Microsoft Cloud App Security. Deze tabel bevat ook informatie die eerder beschikbaar was in `AppFileEvents` .
+- [CloudAppEvents-tabel](advanced-hunting-cloudappevents-table.md) <br>Informatie over gebeurtenissen in verschillende cloud-apps en -services die onder de Microsoft Cloud App Security. Deze tabel bevat ook informatie die eerder beschikbaar was in `AppFileEvents` .
 ## <a name="february-2021"></a>Februari 2021
-- (Preview) Het verbeterde [Microsoft 365-beveiligingscentrum ( https://security.microsoft.com) ](https://security.microsoft.com) is nu beschikbaar in een openbaar voorbeeld. Deze nieuwe ervaring brengt Defender voor Eindpunt en Defender voor Office 365 naar het midden. [Meer informatie over wat er gewijzigd is](./overview-security-center.md).
+- (Preview) Het verbeterde [Microsoft 365 beveiligingscentrum ( https://security.microsoft.com) ](https://security.microsoft.com) is nu beschikbaar in een openbaar voorbeeld. Deze nieuwe ervaring brengt Defender voor Eindpunt en Defender voor Office 365 naar het midden. [Meer informatie over wat er gewijzigd is](./overview-security-center.md).
 
 ## <a name="september-2020"></a>September 2020
 - [Tabel IdentityDirectoryEvents](advanced-hunting-identitydirectoryevents-table.md) <br> Gebeurtenissen zoeken met een on-premises domeincontroller met Active Directory (AD). Deze [geavanceerde schematabel](advanced-hunting-overview.md) voor de jacht bestrijkt een reeks identiteitsgerelateerde gebeurtenissen en systeemgebeurtenissen op de domeincontroller.

@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: d01e1d847a8932d95e645a89eff15cf0793491e5
-ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
+ms.openlocfilehash: 6348d688103c51176fbed36c923a660c77a2258d
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52651270"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842780"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint-on-mac"></a>Nieuwe functies in Microsoft Defender voor Eindpunt op Mac
 
@@ -163,7 +163,7 @@ ms.locfileid: "52651270"
 
 ## <a name="1010031"></a>101.00.31
 
-- Verbeterde [onboarding-ervaring voor Intune-gebruikers](https://docs.microsoft.com/mem/intune/apps/apps-advanced-threat-protection-macos)
+- Verbeterde [onboarding-ervaring voor Intune-gebruikers](/mem/intune/apps/apps-advanced-threat-protection-macos)
 - [Antivirusuitsluitingen ondersteunen nu jokertekens](mac-exclusions.md#supported-exclusion-types)
 - De mogelijkheid toegevoegd om antivirusscans te activeren vanuit het contextmenu van macOS. U kunt nu met de rechtermuisknop op een bestand of map in Finder klikken en **Scannen met Microsoft Defender voor eindpunt selecteren**
 - In-place product downgrades worden nu expliciet afgekeurd door het installatieprogramma. Als u wilt downgraden, moet u eerst de bestaande versie verwijderen en uw apparaat opnieuw configureren

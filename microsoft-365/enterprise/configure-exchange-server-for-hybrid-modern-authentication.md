@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Meer informatie over het configureren Exchange Server on-premises voor het gebruik van HMA (Hybrid Modern Authentication), met veiligere gebruikersverificatie en autorisatie.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f52b7c011b717c5dcb91270ab0a7dd2015131c0e
-ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
+ms.openlocfilehash: d30d1b2b14efd66d973e9bf6d45b970d7af681bc
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52694447"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841628"
 ---
 # <a name="how-to-configure-exchange-server-on-premises-to-use-hybrid-modern-authentication"></a>On-premises Exchange Server configureren voor het gebruik van hybride moderne verificatie
 
@@ -183,12 +183,12 @@ U moet ook de Ctrl-toets ingedrukt houden terwijl u met de rechtermuisknop op he
 
 Als u een on-premises klant bent met Exchange server op TCP 443, kunt u de verwerking van verkeer voor de volgende IP-adresbereiken omzeilen:
 
-```
+```text
 52.125.128.0/20
 52.127.96.0/23
 ```
 
-De Outlook-app voor iOS en Android is ontworpen als de beste manier om Microsoft 365 of Office 365 op uw mobiele apparaat te ervaren met behulp van Microsoft-services om uw dagelijkse leven en werk te vinden, plannen en prioriteit te geven. Zie Hybride moderne verificatie gebruiken met Outlook [voor iOS en Android voor meer informatie.](https://docs.microsoft.com/exchange/clients/outlook-for-ios-and-android/use-hybrid-modern-auth?view=exchserver-2019)
+De Outlook-app voor iOS en Android is ontworpen als de beste manier om Microsoft 365 of Office 365 op uw mobiele apparaat te ervaren met behulp van Microsoft-services om uw dagelijkse leven en werk te vinden, plannen en prioriteit te geven. Zie Hybride moderne verificatie gebruiken met Outlook [voor iOS en Android voor meer informatie.](/exchange/clients/outlook-for-ios-and-android/use-hybrid-modern-auth)
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 

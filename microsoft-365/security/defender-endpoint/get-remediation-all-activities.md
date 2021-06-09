@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: b95fa2da177a3ecb93bcf3e2085be6111c2c641e
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 60f80e78a5f5c7da44a218c30f4b0173d4ecc829
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770515"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845128"
 ---
 # <a name="list-all-remediation-activities"></a>Alle herstelactiviteiten weergeven
 
@@ -55,11 +55,11 @@ Een van de volgende machtigingen is vereist om deze API te bellen. Zie Microsoft
 Machtigingstype | Machtiging | Weergavenaam machtiging
 :---|:---|:---
 Toepassing | RemediationTask.Read.All | \'Informatie over kwetsbaarheidsbeheer en bedreigingsbeheer lezen\'
-Gedelegeerd (werk- of schoolaccount) | RemediationTask.Read.Read | \'Informatie over kwetsbaarheidsbeheer en bedreigingsbeheer lezen\'
+Gedelegeerd (werk- of schoolaccount) | RemediationTask.Read | \'Informatie over kwetsbaarheidsbeheer en bedreigingsbeheer lezen\'
 
 ## <a name="properties"></a>Eigenschappen
 
-Eigenschap (id) | Gegevenstype | Omschrijving | Voorbeeld van een geretourneerde waarde
+Eigenschap (id) | Gegevenstype | Beschrijving | Voorbeeld van een geretourneerde waarde
 :---|:---|:---|:---
 categorie | Tekenreeks | Categorie van de herstelactiviteit (software-/beveiligingsconfiguratie) | Software
 completerEmail | Tekenreeks | Als de herstelactiviteit handmatig is voltooid door iemand, bevat deze kolom zijn of haar e-mail | null
@@ -73,7 +73,7 @@ id | Tekenreeks | Id van deze herstelactiviteit | 097d9735-5479-4899-b1b7-773988
 nameId | Tekenreeks | Verwante productnaam | Microsoft Silverlight
 prioriteit | Tekenreeks | Prioriteit die de maker heeft ingesteld voor deze herstelactiviteit (Hoog\Gemiddeld\Laag) | Hoog
 productId | Tekenreeks | Gerelateerde product-id | microsoft-_-silverlight
-productiviteitImpactRemediationType | Tekenreeks | Er kunnen alleen enkele configuratiewijzigingen worden aangevraagd voor apparaten zonder dat dit gevolgen heeft voor de gebruiker. Deze waarde geeft de selectie aan tussen 'alle blootgestelde apparaten' of 'alleen apparaten zonder invloed van de gebruiker'. | AllExposedAssets
+productiviteitImpactRemediationType | Tekenreeks | Er kunnen alleen enkele configuratiewijzigingen worden aangevraagd voor apparaten zonder dat dit gevolgen heeft voor de gebruiker. Deze waarde geeft de selectie aan tussen 'alle blootgestelde apparaten' of 'alleen apparaten zonder gebruikerseffect'. | AllExposedAssets
 rbacGroupNames | Tekenreeks | Namen van gerelateerde apparaatgroep | [ "Windows Servers", "Windows 10" ]
 aanbevolenProgram | Tekenreeks | Aanbevolen programma om een upgrade uit te voeren naar | null
 aanbevolenVendor | Tekenreeks | Aanbevolen leverancier om een upgrade uit te voeren naar | null

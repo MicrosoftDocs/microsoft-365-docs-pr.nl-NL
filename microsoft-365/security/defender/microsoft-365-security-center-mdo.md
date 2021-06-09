@@ -1,7 +1,7 @@
 ---
-title: Microsoft Defender voor Office 365 in het Microsoft 365-beveiligingscentrum
-description: Informatie over veranderingen uit het Office 365 Beveiligings- en compliancecentrum aan het Microsoft 365-beveiligingscentrum.
-keywords: 'Microsoft 365 beveiliging: Aan de slag met het Microsoft 365-beveiligingscentrum, Microsoft Defender voor Office 365, Microsoft Defender voor Eindpunt, MDO, MDE, enkel deelvenster glas, nieuwe beveiligingsportal, nieuwe defender-beveiligingsportal'
+title: Microsoft Defender voor Office 365 in Microsoft 365 Defender
+description: Meer informatie over wijzigingen van het Office 365 beveiligings- en compliancecentrum naar Microsoft 365 Defender.
+keywords: 'Microsoft 365 beveiliging: Aan de slag met Microsoft 365 Defender, Microsoft Defender voor Office 365, Microsoft Defender voor Eindpunt, MDO, MDE, enkel deelvenster glas, nieuwe beveiligingsportal, nieuwe defender-beveiligingsportal'
 ms.date: 02/21/2021
 ms.author: tracyp
 author: msfttracyp
@@ -17,14 +17,14 @@ ms.collection:
 - m365initiative-m365-defender
 ms.prod: m365-security
 ms.technology: m365d
-ms.openlocfilehash: ec5d22caa52ffaa061637cb8c510a0efaf566b6a
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: 95471f444117e1a44abe8de76c95cda52d5f7930
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782895"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842601"
 ---
-# <a name="microsoft-defender-for-office-365-in-the-microsoft-365-security-center"></a>Microsoft Defender voor Office 365 in het Microsoft 365-beveiligingscentrum
+# <a name="microsoft-defender-for-office-365-in-microsoft-365-defender"></a>Microsoft Defender voor Office 365 in Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -35,7 +35,7 @@ ms.locfileid: "52782895"
 
 ## <a name="quick-reference"></a>Snelzoekverwijzing
 
-De afbeelding en de onderstaande tabel bevat de wijzigingen in de navigatie tussen het Office 365 beveiligingscentrum & compliancecentrum en het Microsoft 365 beveiligingscentrum.
+De afbeelding en de onderstaande tabel bevat de wijzigingen in de navigatie tussen het Office 365 beveiligingscentrum & compliancecentrum en Microsoft 365 Defender.
 
 > [!div class="mx-imgBorder"]
 > ![Afbeelding van wat is verplaatst naar waar](../../media/mdo-m3d-security-center.png)
@@ -44,7 +44,7 @@ De afbeelding en de onderstaande tabel bevat de wijzigingen in de navigatie tuss
 
 ****
 
-|Office 365 Beveiligings- & compliance|Microsoft 365-beveiligingscentrum|Microsoft 365-compliancecentrum|Exchange-beheercentrum|
+|Office 365 Beveiligings- & compliance|Microsoft 365 Defender|Microsoft 365-compliancecentrum|Exchange-beheercentrum|
 |---|---|---|---|
 |Waarschuwingen|E-mail en samenwerking|||
 |Classificatie||Zie [Microsoft 365 compliancecentrum](https://compliance.microsoft.com/homepage)||
@@ -59,11 +59,11 @@ De afbeelding en de onderstaande tabel bevat de wijzigingen in de navigatie tuss
 |Servicecontrole|Instellingen|||
 |
 
-Het verbeterde [Microsoft 365 beveiligingscentrum](./overview-security-center.md) in <https://security.microsoft.com> combineert beveiligingsfuncties uit bestaande Microsoft beveiligingsportalen, inclusief Microsoft Defender beveiligingscentrum en het Office 365 beveiligings- en compliancecentrum. Dit verbeterde centrum helpt beveiligingsteams hun organisatie doeltreffender en efficiënter beschermen tegen bedreigingen.
+[Microsoft 365 Defender](./overview-security-center.md) bij combineert beveiligingsmogelijkheden van bestaande <https://security.microsoft.com> Microsoft-beveiligingsportalen, waaronder Microsoft Defender-beveiligingscentrum en het Office 365 Security & Compliance Center. Dit verbeterde centrum helpt beveiligingsteams hun organisatie doeltreffender en efficiënter beschermen tegen bedreigingen.
 
-Het artikel over het Office 365 beveiligings- en complianceportaal (protection.office.com) geeft een beschrijving van enkele wijzigingen en verbeteringen aan het Microsoft Office 365 beveiligingscentrum. 
+Als u bekend bent met de Office 365 Security and Compliance portal (protection.office.com), beschrijft dit artikel enkele van de wijzigingen en verbeteringen in Microsoft 365 Defender.
 
-Meer informatie over voordelen: [Overzicht van Microsoft 365-beveiligingscentrum](overview-security-center.md)
+Meer informatie over de voordelen: [Overzicht van Microsoft 365 Defender](overview-security-center.md)
 
 Als je op zoek bent naar items gerelateerd aan compliance, bezoek dan het [Microsoft 365-compliancecentrum](https://compliance.microsoft.com/homepage).
 
@@ -79,7 +79,7 @@ Deze tabel is een snelle verwijzing naar gebieden van E-mail en Samenwerking waa
 |---|---|
 |[Entiteitspagina van e-mail](../office-365-security/mdo-email-entity-page.md)|Deze pagina **verenigt** e-mailgegevens die over verschillende pagina's of weergaves in het verleden zijn verspreid. E-mails onderzoeken voor bedreigingen en trends is *gecentraliseerd*. Koptekstinformatie en preview van e-mail zijn beschikbaar via dezelfde e-mailpagina, samen met andere handige informatie over e-mails. Ook de deactiveringsstatus voor schadelijke bestandsbijlagen of URL's kunnen teruggevonden worden op het tabblad op dezelfde pagina. De E-mailentiteitspagina geeft de beheerder en beveiligingsteams de mogelijkheid om de bedreiging van e-mails en de status hiervan te begrijpen en vervolgens snel te handelen.|
 |[Onderzoek](../office-365-security/office-365-air.md#changes-are-coming-soon-in-your-security-center)|Dit brengt AIR-functies samen in [Defender voor Office 365](/microsoft-365/security/office-365-security/defender-for-office-365) en [Defender voor eindpunt](../defender-endpoint/automated-investigations.md). Met deze updates en verbeteringen kan jouw beveiligingsteam informatie bekijken over geautomatiseerde onderzoeken en herstelacties in e-mail, samenwerkingsinhoud, gebruikersaccounts en apparaten, allemaal op één plaats.|
-|[Waarschuwingsweergave](../../compliance/alert-policies.md)|Het flyoutvenster **Waarschuwingen weergeven** in het Office beveiligings- en compliancecentrum heeft nu ook snelkoppelingen naar het Microsoft 365-beveiligingscentrum. Klik op de snelkoppeling **Waarschuwingspagina openen** om het Microsoft 365-beveiligingscentrum te openen. Klik op eender welke Office 365-waarschuwing in de Waarschingswachtrij om toegang te krijgen tot de pagina **Waarschuwingen weergeven**.|
+|[Waarschuwingsweergave](../../compliance/alert-policies.md)|Het **deelvenster Waarschuwingen weergeven** in het Office beveiligings- en compliancecentrum bevat nu koppelingen naar Microsoft 365 Defender. Klik op de **koppeling Waarschuwingspagina openen** en Microsoft 365 Defender wordt geopend. Klik op eender welke Office 365-waarschuwing in de Waarschingswachtrij om toegang te krijgen tot de pagina **Waarschuwingen weergeven**.|
 |[Aanvalssimulatietraining](../office-365-security/attack-simulation-training-insights.md)|Gebruik Aanvalssimulatietraining om realistische aanvalsscenario's uit te voeren in jouw organisatie. Met deze gesimuleerde aanvallen kan je jouw personeel trainen voordat een echte aanval jouw organisatie treft. Aanvalssimulatietraining bevat meer opties, geavanceerde rapporten en verbeterde trainingsstromen waardoor je de aanvalsscenario's en trainingsscenario's gemakkelijk kan leveren en beheren.|
 |
 
@@ -98,9 +98,9 @@ Controleer ook de sectie **Relevante informatie** onderaan dit artikel.
 > De Microsoft 365 Beveiligingsportal <https://security.microsoft.com> () combineert beveiligingsfuncties in <https://securitycenter.windows.com> en <https://protection.office.com> . Wat je te zien krijgt hangt echter af van het abonnement. Als je bijvoorbeeld enkel Microsoft Defender voor Office 365 Plan 1 of 2 hebt als alleenstaande abonnementen, zal je geen functies voor Beveiliging voor eindpunten te zien krijgen en klanten van Defender voor Office Plan 1 zullen geen items te zien krijgen zoals Dreigingsanalyse.
 
 > [!TIP]
-> Alle Exchange Online Protection (EOP)-functies worden opgenomen in het Microsoft 365 beveiligingscentrum, omdat EOP een kernelement is van Defender voor Office 365.
+> Alle Exchange Online Protection (EOP) functies worden opgenomen in Microsoft 365 Defender, omdat EOP een kernelement is van Defender voor Office 365.
 
-## <a name="microsoft-365-security-center-home-page"></a>Startpagina van Microsoft 365-beveiligingscentrum
+## <a name="microsoft-365-defender-home-page"></a>Microsoft 365 Startpagina van Defender
 
 De startpagina van de portaaloppervlakken:
 
@@ -148,7 +148,7 @@ Haal bedreigingsinformatie op via Microsoft beveiligingsonderzoeksexperten. Drei
 - E-mailgerelateerde detectie en beperkingen uit Microsoft Defender voor Office 365. Dit is bovenop de eindpuntgegevens die reeds beschikbaar zijn in Microsoft Defender voor Eindpunt.
 - Incidentenweergave gerelateerd aan dreigingen.
 - Geavanceerde ervaring voor snelle identificatie en gebruik van informatie waarop actie kan op uitgevoerd worden in de rapporten.
-Toegang krijgen tot dreigingsanalyse kan via de navigatiebalk links bovenaan het Microsoft 365-beveiligingscentrum of via de toegewezen dashboardkaart die de belangrijkste dreigingen voor jouw organisatie weergeeft.
+U hebt toegang tot Threat Analytics vanaf de linkerbovenbalk in Microsoft 365 Defender of via een speciale dashboardkaart met de belangrijkste bedreigingen voor uw organisatie.
 
 Meer informatie over hoe je [opkomende dreigingen kan traceren en beantwoorden met dreigingsanalyse](./threat-analytics.md)
 
@@ -156,16 +156,16 @@ Meer informatie over hoe je [opkomende dreigingen kan traceren en beantwoorden m
 
 Traceer en onderzoek dreigingen op e-mails van gebruikers, traceer campagnes en meer. Als je Office 365 beveiligings- en compliancecentrum reeds gebruikt hebt, zal je dit bekend zijn.
 
-:::image type="content" source="../../media/converge-3-email-and-collab-new.png" alt-text="Het menu snel starten voor E-mail en samenwerken (of MSDO) aan de linkerzijde van het Microsoft 365-beveiligingscentrum.":::
+:::image type="content" source="../../media/converge-3-email-and-collab-new.png" alt-text="Het snelstartmenu voor E-mail & Collab (of MSDO), aan de linkerkant van Microsoft 365 Defender.":::
 
 ### <a name="access-and-reports"></a>Toegang en rapporten
 
 Bekijk rapporten, wijzig instellingen en gebruikersrollen.
 
-:::image type="content" source="../../media/converge-4-access-and-reporting-new.png" alt-text="Het menu snel starten voor machtigingen en rapportage in het Microsoft 365-beveiligingscentrum, aan de linkerzijde van het beveiligingscentrum.":::
+:::image type="content" source="../../media/converge-4-access-and-reporting-new.png" alt-text="Het snelstartmenu voor Microsoft 365 defender-machtigingen en -rapportage, aan de linkerkant van het beveiligingscentrum.":::
 
 > [!NOTE]
-> Voor Defender voor Office 365-gebruikers kunt  u nu DKIM-sleutels (DomainKeys Identified Mail) beheren en draaien via het Microsoft 365-beveiligingscentrum: of naar Beleidsregels & bedreigingsbeleid <https://security.microsoft.com/threatpolicy>  \>  \> **DKIM** gaan.
+> Voor Defender voor Office 365-gebruikers kunt  u nu DKIM-sleutels (DomainKeys Identified Mail) beheren en draaien via Microsoft 365 Defender: of naar <https://security.microsoft.com/threatpolicy> **Beleidsregels &-regels** \>  \> **DKIM** navigeren.
 
 ## <a name="advanced-hunting-example-for-microsoft-defender-for-office-365"></a>Voorbeeld van geavanceerde opsporing voor Microsoft Defender voor Office 365
 
@@ -213,7 +213,7 @@ De gegevens van deze query zullen in het resultatenvenster onder de query zelf z
 
 ## <a name="related-information"></a>Gerelateerde informatie
 
-- [Microsoft Defender voor Office 365 in het Microsoft 365-beveiligingscentrum](microsoft-365-security-center-mdo.md)
+- [Microsoft Defender voor Office 365 in Microsoft 365 Defender](microsoft-365-security-center-mdo.md)
 - [Het Actiecentrum](./m365d-action-center.md)
 - [Waarschuwingen voor E-mail en samenwerking](../../compliance/alert-policies.md#default-alert-policies)
 - [Dreigingen in apparaten, e-mailberichten, apps en identiteiten opsporen](./advanced-hunting-query-emails-devices.md)

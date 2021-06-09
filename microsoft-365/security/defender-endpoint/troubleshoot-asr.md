@@ -17,12 +17,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: 9ff00c706b0fb336c178e227b1cb33eff9e9ebbc
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: c5c76553ff3f0b32def5fbafbf2c8f010e49eeb2
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935219"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845417"
 ---
 # <a name="troubleshoot-attack-surface-reduction-rules"></a>Problemen met regels voor het verminderen van aanvallen oplossen
 
@@ -56,11 +56,11 @@ Er zijn vier stappen om deze problemen op te lossen:
 
 Surface Reduction-regels voor aanvallen werken alleen op apparaten met de volgende voorwaarden:
 
-- Eindpunten worden uitgevoerd met Windows 10 Enterprise, versie 1709 (ook wel de Fall Creators Update genoemd).
+- Eindpunten worden uitgevoerd Windows 10 Enterprise, versie 1709 (ook wel de Fall Creators Update genoemd).
 
-- Eindpunten gebruiken Microsoft Defender Antivirus als de enige antivirusbeveiligings-app. [Als u een andere antivirus-app gebruikt,](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)kan Microsoft Defender AV zichzelf uitschakelen.
+- Eindpunten gebruiken Microsoft Defender Antivirus als de enige antivirusbeveiligingsapp. [Als u een andere antivirus-app gebruikt,](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)kan Microsoft Defender AV zichzelf uitschakelen.
 
-- [Realtime beveiliging](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus) is ingeschakeld.
+- [Realtime beveiliging](/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus) is ingeschakeld.
 
 - Controlemodus is niet ingeschakeld. Gebruik Groepsbeleid om de regel in te stellen **op Uitgeschakeld** (waarde: **0**) zoals beschreven in [Surface reduction rules voor aanvallen inschakelen.](enable-attack-surface-reduction.md)
 
@@ -68,7 +68,7 @@ Als aan deze vereisten is voldaan, gaat u verder met de volgende stap om de rege
 
 ## <a name="use-audit-mode-to-test-the-rule"></a>Controlemodus gebruiken om de regel te testen
 
-U kunt naar de website van Windows Defender Test ground bij [demo.wd.microsoft.com](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground) gaan om te bevestigen dat regels voor het verminderen van aanvallen over het algemeen werken voor vooraf geconfigureerde scenario's en processen op een apparaat, of u kunt de auditmodus gebruiken, zodat alleen regels kunnen worden gemeld.
+U kunt de website van Windows Defender Test ground bij [demo.wd.microsoft.com](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground) bezoeken om te bevestigen dat regels voor het verminderen van aanvallen over het algemeen werken voor vooraf geconfigureerde scenario's en processen op een apparaat, of u kunt de auditmodus gebruiken, zodat alleen regels kunnen worden gemeld.
 
 Volg deze instructies in [Het demoprogramma gebruiken](evaluate-attack-surface-reduction.md) om te zien hoe regels voor het verminderen van aanvallen werken om de specifieke regel te testen waarmee u problemen ondervindt.
 
@@ -100,13 +100,13 @@ Zie Surface reduction aanpassen om een uitsluiting [toe te voegen.](customize-at
 
 ## <a name="report-a-false-positive-or-false-negative"></a>Een onwaar positief of onwaar negatief rapporteren
 
-Gebruik het [webinzendingsformulier](https://www.microsoft.com/wdsi/filesubmission) van Windows Defender Security Intelligence om een onwaar negatief of onwaar positief voor netwerkbeveiliging te melden. Met een Windows E5-abonnement kunt u ook een koppeling naar [een bijbehorende waarschuwing geven.](alerts-queue.md)
+Gebruik het [Windows Defender webinzendingsformulier](https://www.microsoft.com/wdsi/filesubmission) voor Beveiligingsinformatie om een onwaar negatief of onwaar positief voor netwerkbeveiliging te melden. Met een Windows E5-abonnement kunt u ook een koppeling naar [een bijbehorende waarschuwing geven.](alerts-queue.md)
 
 ## <a name="collect-diagnostic-data-for-file-submissions"></a>Diagnostische gegevens verzamelen voor bestandsinzendingen
 
 Wanneer u een probleem rapporteert met regels voor het verminderen van de surface attack, wordt u gevraagd diagnostische gegevens te verzamelen en in te dienen die kunnen worden gebruikt door ondersteunings- en technische teams van Microsoft om problemen op te lossen.
 
-1. Open een opdrachtprompt met verhoogde opdracht en wijzig in de Windows Defender-adreslijst:
+1. Open een opdrachtprompt met verhoogde opdracht en wijzig de Windows Defender adreslijst:
 
    ```console
    cd "c:\program files\windows defender"
@@ -120,10 +120,10 @@ Wanneer u een probleem rapporteert met regels voor het verminderen van de surfac
 
 3. Standaard worden ze opgeslagen in `C:\ProgramData\Microsoft\Windows Defender\Support\MpSupportFiles.cab` . Voeg het bestand toe aan het inzendingsformulier.
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-articles"></a>Aanverwante artikelen
 
 - [Regels voor kwetsbaarheid voor aanvallen verminderen](attack-surface-reduction.md)
 
 - [Regels voor het verminderen van aanvalsoppervlakken inschakelen](enable-attack-surface-reduction.md)
 
-- [Regels voor het verminderen van aanvalsoppervlakken evalueren](evaluate-attack-surface-reduction.md)
+- [Regels voor het verminderen van kwetsbaarheid voor aanvallen evalueren](evaluate-attack-surface-reduction.md)

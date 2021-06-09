@@ -12,12 +12,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: e6b0c96d4e145a2e5df7c7555e262aefe891e483
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 5b5421d2b4001b813d3bcc1e804cae7fb05d0fa7
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51690617"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842000"
 ---
 # <a name="device-profiles"></a>Apparaatprofielen
 
@@ -31,9 +31,9 @@ U kunt apparaatprofielen zien als onderdeel van een hiërarchie van apparaatconf
 
 :::image type="content" source="../../media/mmd-profile-options-heirarchy.png" alt-text="Apparaatconfiguraties die worden weergegeven als een piramide. Beschrijving volgt":::
 
-In principe heeft elk Microsoft Managed Desktop-apparaat een basis die een standaard beveiligingslijn, compliancebeleid, Windows Update-instellingen en groepen bevat. Als u wilt werken met Beheerd bureaublad van Microsoft, moet elk apparaat al deze elementen bevatten, die niet kunnen worden gewijzigd door beheerders zonder een aanvraag voor Microsoft Managed Desktop.
+In principe heeft elk Microsoft Managed Desktop een basis die een standaard beveiligingslijn, compliancebeleid, Windows Instellingen voor bijwerken en groepen bevat. Als u met Microsoft Managed Desktop wilt werken, moet elk apparaat al deze elementen bevatten, die niet kunnen worden gewijzigd door beheerders zonder een verzoek om Microsoft Managed Desktop.
 
-Apparaatprofielen worden weergegeven op het volgende hogere niveau. Aan elk Microsoft Managed Desktop-apparaat moet één (en slechts één) profiel zijn toegewezen. Beheerders kunnen kiezen welk profiel aan een apparaat is toegewezen.
+Apparaatprofielen worden weergegeven op het volgende hogere niveau. Aan Microsoft Managed Desktop apparaat moet één (en slechts één) profiel zijn toegewezen. Beheerders kunnen kiezen welk profiel aan een apparaat is toegewezen.
 
 Op een nog hoger niveau zijn extra [aanpassingen.](customizing.md) Elk apparaat kan een of meer (of geen) aanpassingen hebben. Ze kunnen een laag op een lager niveau (apparaatprofielen of de basisconfiguratie) wijzigen of een geheel nieuwe aanvraag zijn die boven op de standaardconfiguratie wordt gelegd.
 
@@ -44,30 +44,35 @@ Bovenaan staan uw eigen wijzigingen, zoals netwerkdetails of toepassingen. Een a
 
 De volgende tabel bevat een overzicht van de instellingen en de standaardwaarden voor elke instelling die is geconfigureerd met apparaatprofielen. (Achter de schermen worden deze instellingen geconfigureerd met OMA-URIs aangepaste configuratieprofielen in Microsoft Endpoint Manager.)
 
-| Functie | Gevoelige gegevens | Power User | Standard |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|------------------------|-----------------------|
-| **Externe opslag blokkeren**                                                                                                                               | Ja                       | Ja                   | Nee                   |
-| **[Cloudblokniveau](https://docs.microsoft.com/graph/api/resources/intune-deviceconfig-defendercloudblockleveltype)** | Hoog                      | Hoog                  | Hoog                 |
-| **Microsoft-accounts uitschakelen**                                                                                                                           | Ja                       | Ja                   | Nee                   |
-| **Persoonlijke OneDrive uitschakelen**                                                                                                                            | Ja                       | Ja                   | Nee                   |
-| **Overschakelen naar een beveiligd bureaublad voor hoogte**                                                                                                               | Nee                        | Ja                   | Nee                   |
-| **Microsoft Defender voor Endpoint Device Tag**                                                                                                           | M365Managed-SensitiveData | M365Managed-PowerUser | M365Managed-Standard |
-| **Beheerder op het apparaat?**                                                                                                                                 | Nee                        | Ja                   | Nee                   |
-| **Autopilot-profiel**                                                                                                                                     | MMD-standaard               | MMD Power User         | MMD-standaard          |
-| **AppLocker**                                                                                                                                            | Ja                       | Nee                    | Nee                   |
-| **Openbare winkel blokkeren**                                                                                                                                   | Ja                       | Ja                   | Nee                   |
+<br>
+
+****
+
+|Functie|Gevoelige gegevens|Power User|Standard|
+|---|:---:|:---:|:---:|
+|**Externe Storage**|Ja|Ja|Nee|
+|**[Cloudblokniveau](/graph/api/resources/intune-deviceconfig-defendercloudblockleveltype)**|Hoog|Hoog|Hoog|
+|**Microsoft-accounts uitschakelen**|Ja|Ja|Nee|
+|**Persoonlijke OneDrive**|Ja|Ja|Nee|
+|**Overschakelen naar een beveiligd bureaublad voor hoogte**|Nee|Ja|Nee|
+|**Microsoft Defender voor Endpoint Device Tag**|M365Managed-SensitiveData|M365Managed-PowerUser|M365Managed-Standard|
+|**Beheerder op het apparaat?**|Nee|Ja|Nee|
+|**Autopilot-profiel**|MMD-standaard|MMD Power User|MMD-standaard|
+|**AppLocker**|Ja|Nee|Nee|
+|**Openbare winkel blokkeren**|Ja|Ja|Nee|
+|
 
 Elk apparaatprofiel bevat ook de volgende items:
 
-- Een AAD-apparaatgroep (Dynamic Membership Azure Active Directory)
+- Een dynamische groep leden Azure Active Directory (AAD)-apparaat
 - Een statische AAD-apparaatgroep voor lidmaatschap
-- Een Configuratieprofiel van Microsoft Endpoint Manager
+- Een Microsoft Endpoint Manager configuratieprofiel
 
 > [!IMPORTANT]
 > Wijzig het lidmaatschap van deze groepen niet rechtstreeks. Gebruik de interface zoals beschreven in [Profielen opnieuw toewijzen.](../working-with-managed-desktop/change-device-profile.md)
 
 ## <a name="limitations"></a>Beperkingen
 
-U kunt uitzonderingen op de apparaatprofielen en hun gegevens aanvragen, net zoals bij elk ander beleid. Houd er rekening mee dat u slechts één van elk apparaatprofiel in uw Azure Active Directory-organisatie ("tenant") kunt hebben. U kunt bijvoorbeeld niet aanvragen dat appLocker voor slechts enkele gebruikers wordt uitgeschakeld door het profiel van het gevoelige gegevensapparaat. Alle apparaten met het profiel Gevoelige gegevens moeten dezelfde configuratie hebben.
+U kunt uitzonderingen op de apparaatprofielen en hun gegevens aanvragen, net zoals bij elk ander beleid. Houd er rekening mee dat u slechts één van elk apparaatprofiel in uw Azure Active Directory ('tenant'). U kunt bijvoorbeeld niet aanvragen dat appLocker voor slechts enkele gebruikers wordt uitgeschakeld door het profiel van het gevoelige gegevensapparaat. Alle apparaten met het profiel Gevoelige gegevens moeten dezelfde configuratie hebben.
 
 Elk apparaat kan slechts één profiel hebben. Als een bepaald apparaat door meer dan één gebruiker wordt gebruikt, hebben alle gebruikers op dat apparaat dezelfde configuratie.

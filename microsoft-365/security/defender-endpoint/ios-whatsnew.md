@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 64a96256ff4bb4b77ec634195f6d89b92252142a
-ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
+ms.openlocfilehash: 894b628575c0788b6a5d4bb23a8fe512d7c467bc
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52301762"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845604"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint-on-ios"></a>Nieuwe functies in Microsoft Defender voor Eindpunt in iOS
 
@@ -34,6 +34,12 @@ ms.locfileid: "52301762"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+
+## <a name="1117240101"></a>1.1.17240101
+- Ondersteuning voor Mobile Application Management (MAM) via Intune is over het algemeen beschikbaar met deze versie. Zie Microsoft Defender for [Endpoint risk signals available for your App protection policies (Microsoft Defender for Endpoint risk signals available for your App protection policies)](https://techcommunity.microsoft.com/t5/intune-customer-success/microsoft-defender-for-endpoint-risk-signals-available-for-your/ba-p/2186322) voor meer informatie.
+- **JailbreakDetectie** is over het algemeen beschikbaar. Zie Beleid voor voorwaardelijke toegang [instellen op basis van apparaatrisicosignalen voor meer informatie.](ios-configure-features.md#conditional-access-with-defender-for-endpoint-on-ios)
+- **Auto-setup van VPN-profiel** voor geregistreerde apparaten via Microsoft Endpoint Manager (Intune) is over het algemeen beschikbaar. Zie VPN-profiel automatisch instellen voor [geregistreerde iOS-apparaten](ios-install.md#auto-onboarding-of-vpn-profile-simplified-onboarding)voor meer informatie.
+- Bug fixes.
 
 ## <a name="1115140101"></a>1.1.15140101
 

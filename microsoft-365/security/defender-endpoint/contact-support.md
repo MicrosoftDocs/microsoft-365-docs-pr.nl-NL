@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: eaf26c566b54b21e63af5ecbfe3603f2b1389208
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 2231a4fc1f8bb58a83c639c8e60ad790af0df236
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51892839"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845628"
 ---
 # <a name="contact-microsoft-defender-for-endpoint-support"></a>Contact opnemen met de ondersteuning van Microsoft Defender voor Eindpunt
 
@@ -46,9 +46,9 @@ Het is belangrijk om te weten welke specifieke rollen machtigingen hebben om ond
 U moet minimaal een serviceondersteuningsbeheerder **of** helpdeskbeheerder hebben.
 
 
-Zie Beveiligingsbeheerdersmachtigingen voor meer informatie over welke rollen [machtigingen hebben.](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#security-administrator-permissions) Rollen die de actie `microsoft.office365.supportTickets/allEntities/allTasks` bevatten, kunnen een aanvraag indienen.
+Zie Beveiligingsbeheerdersmachtigingen voor meer informatie over welke rollen [machtigingen hebben.](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#security-administrator-permissions) Rollen die de actie `microsoft.office365.supportTickets/allEntities/allTasks` bevatten, kunnen een aanvraag indienen.
 
-Zie Over beheerdersrollen voor algemene informatie [over beheerdersrollen.](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true)
+Zie Over beheerdersrollen voor algemene informatie [over beheerdersrollen.](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true)
 
 
 ## <a name="access-the-widget"></a>De widget openen
@@ -58,7 +58,7 @@ U kunt op twee manieren toegang krijgen tot de nieuwe ondersteuningswidget:
 
     ![Afbeelding van widget wanneer vraagteken is geselecteerd](images/support-widget.png)
 
-2. Klik op hulp **nodig?**  in de rechteronderzijde van het Microsoft Defender-beveiligingscentrum:
+2. Klik op hulp **nodig?**  in de rechteronderzijde van de Microsoft Defender-beveiligingscentrum:
 
 
     ![Afbeelding van de knop Hulp nodig](images/need-help.png)

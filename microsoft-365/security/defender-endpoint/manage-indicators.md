@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 481051b74c1be88ba78bbd44e4fc0c174ed0bdad
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+ms.openlocfilehash: fb87f36c5289d622df2615046c5bb2fd8fad9543
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51470891"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842240"
 ---
 # <a name="create-indicators"></a>Indicatoren maken
 
@@ -68,7 +68,7 @@ U kunt een indicator maken voor:
 
 
 > [!NOTE]
-> Er is een limiet van 15.000 indicatoren per tenant. Bestands- en certificaatindicatoren blokkeren [geen uitsluitingen die zijn gedefinieerd voor Microsoft Defender Antivirus.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-exclusions-microsoft-defender-antivirus) Indicatoren worden niet ondersteund in Microsoft Defender Antivirus wanneer deze in de passieve modus staat. 
+> Er is een limiet van 15.000 indicatoren per tenant. Bestands- en certificaatindicatoren blokkeren geen [uitsluitingen die zijn gedefinieerd voor Microsoft Defender Antivirus.](/windows/security/threat-protection/microsoft-defender-antivirus/configure-exclusions-microsoft-defender-antivirus) Indicatoren worden niet ondersteund in Microsoft Defender Antivirus in de passieve modus. 
 
 
 ## <a name="related-topics"></a>Verwante onderwerpen

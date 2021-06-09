@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: In-Place eDiscovery en In-Place Hold (en de bijbehorende PowerShell-cmdlets) in Exchange Online worden in de eerste helft van 2020 met pensioen. De Search-Mailbox cmdlet en Advanced eDiscovery v1.0 worden ook binnen dezelfde periode ingetrokken.
-ms.openlocfilehash: 48a20b9e73c5379325afb715a86c4945385fd0b9
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: c5f1ddb4c817ebc316c2e2efdba9a4bc605eb5a2
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "52161759"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842660"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>Buitengebruikstelling van verouderde eDiscovery-hulpprogramma's
 
@@ -146,7 +146,7 @@ In de volgende tabel worden andere hulpprogramma's beschreven die u kunt gebruik
   </tr>
 <tr class="odd">
 <td>Items herstellen uit de map Herstelbare items</td>
-  <td><a href="https://docs.microsoft.com/powershell/module/exchange/Restore-RecoverableItems">Restore-RecoverableItems</td>
+  <td><a href="/powershell/module/exchange/Restore-RecoverableItems">Restore-RecoverableItems</td>
   <td>U kunt permanent verwijderde items (ook wel <i>soft-deleted</i> items genoemd) herstellen in postvakken, zolang de bewaarperiode voor verwijderde items voor een item niet is verlopen. Zie De map <a href="/Exchange/security-and-compliance/recoverable-items-folder/recoverable-items-folder">Herstelbare items in</a>Exchange Online.</td>
 </tr>
 </tbody>
@@ -203,9 +203,9 @@ In de volgende tabel worden andere hulpprogramma's beschreven die u kunt gebruik
 <tbody>
 <tr class="odd">
 <td>Zoeken en exporteren</td>
-<td><p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearch"><span class="underline">*-ComplianceSearch</span></a></p>
-<p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearchaction"><span class="underline">*-ComplianceSearchAction</span></a></p>
-<p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancecase"><span class="underline">*-ComplianceCase</span></a></p>
+<td><p><a href="/powershell/module/exchange/get-compliancesearch"><span class="underline">*-ComplianceSearch</span></a></p>
+<p><a href="/powershell/module/exchange/get-compliancesearchaction"><span class="underline">*-ComplianceSearchAction</span></a></p>
+<p><a href="/powershell/module/exchange/get-compliancecase"><span class="underline">*-ComplianceCase</span></a></p>
 <p> </p></td>
 <td><p>De cmdlets ComplianceSearch en ComplianceSearchAction werken samen om u te helpen bij het zoeken en exporteren van inhoud. U kunt een nieuwe zoekopdracht maken en de zoekschatting weergeven met de cmdlets <strong>Nieuw,</strong> <strong>Get-</strong>en <strong>Start-ComplianceSearch.</strong> Vervolgens kunt u de <strong>cmdlet New-ComplianceSearchAction</strong> gebruiken om de zoekresultaten te exporteren. U moet nog steeds het belangrijkste eDiscovery-hulpprogramma gebruiken in het Microsoft 365 compliancecentrum om deze zoekresultaten te downloaden naar uw lokale computer.</p>
 <p>
@@ -213,9 +213,9 @@ In de volgende tabel worden andere hulpprogramma's beschreven die u kunt gebruik
 </tr>
 <tr class="even">
 <td>Inhoud in een postvak vasthouden</td>
-<td><p><a href="https://docs.microsoft.com/powershell/module/exchange/get-caseholdpolicy"><span class="underline">*-CaseHoldPolicy</span></a></p>
-<p><a href="https://docs.microsoft.com/powershell/module/exchange/get-caseholdrule"><span class="underline">*-CaseHoldRule</span></a></p>
-<p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancecase"><span class="underline">*-ComplianceCase</span></a></p>
+<td><p><a href="/powershell/module/exchange/get-caseholdpolicy"><span class="underline">*-CaseHoldPolicy</span></a></p>
+<p><a href="/powershell/module/exchange/get-caseholdrule"><span class="underline">*-CaseHoldRule</span></a></p>
+<p><a href="/powershell/module/exchange/get-compliancecase"><span class="underline">*-ComplianceCase</span></a></p>
 <p> </p></td>
 <td><p>In het Microsoft 365 compliancecentrum moet een ComplianceCase zijn gekoppeld. Maak eerst de compliancecase en maak vervolgens een CaseHoldPolicy en een CaseHoldRule.</p>
 <p><strong>Opmerking:</strong> Als u een CaseHoldPolicy maakt zonder een CaseHoldRule te maken, wordt de wacht in de wacht gezet totdat de CaseHoldRule is gemaakt en is gekoppeld aan de CaseHoldPolicy. Zie de cmdletdocumentatie voor meer informatie.</p></td>
@@ -282,15 +282,15 @@ In de volgende tabel worden andere hulpprogramma's beschreven die u kunt gebruik
 <tbody>
 <tr class="odd">
 <td>Zoeken in een postvak</td>
-<td><p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearch"><span class="underline">*-ComplianceSearch</span></a></p>
-<p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearchaction"><span class="underline">*-ComplianceSearchAction</span></a></p>
+<td><p><a href="/powershell/module/exchange/get-compliancesearch"><span class="underline">*-ComplianceSearch</span></a></p>
+<p><a href="/powershell/module/exchange/get-compliancesearchaction"><span class="underline">*-ComplianceSearchAction</span></a></p>
 <p></a></p></td>
 <td><p>De cmdlets ComplianceSearch en ComplianceSearchAction werken samen om u te helpen bij het zoeken en exporteren van inhoud. U kunt een nieuwe zoekopdracht maken en de zoekschatting weergeven met de cmdlets <strong>Nieuw,</strong> <strong>Get-</strong>en <strong>Start-ComplianceSearch.</strong> Vervolgens kunt u de opdracht <strong>New-ComplianceSearchAction -Export</strong> gebruiken om de zoekresultaten te exporteren. U moet nog steeds het belangrijkste eDiscovery-hulpprogramma gebruiken in het Microsoft 365 compliancecentrum om deze zoekresultaten te downloaden naar uw lokale computer.</p></p>
 </td>
 </tr>
 <tr class="even">
 <td>Bulk-e-mail verwijderen uit een postvak</td>
-<td><p><a href="https://docs.microsoft.com/microsoft-365/compliance/set-up-an-archive-and-deletion-policy-for-mailboxes?view=o365-worldwide"><span class="underline">Een archief- en verwijderingsbeleid instellen voor postvakken</span></a></p>
+<td><p><a href="/microsoft-365/compliance/set-up-an-archive-and-deletion-policy-for-mailboxes?view=o365-worldwide"><span class="underline">Een archief- en verwijderingsbeleid instellen voor postvakken</span></a></p>
 <p></p></td>
 <td><p>Beheerders kunnen een archiverings- en verwijderingsbeleid maken dat items automatisch naar het archiefpostvak van een gebruiker verplaatst en automatisch items uit het postvak verwijdert.</p>
 </td>
@@ -307,10 +307,10 @@ In de volgende tabel worden andere hulpprogramma's beschreven die u kunt gebruik
 </tr>
 <tr class=even>
   <td>Berichten uit een postvak verwijderen</td>
-<td><p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearch"><span class="underline">*-ComplianceSearch</span></a></p>
-<p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearchaction"><span class="underline">*-ComplianceSearchAction</span></a></p>
+<td><p><a href="/powershell/module/exchange/get-compliancesearch"><span class="underline">*-ComplianceSearch</span></a></p>
+<p><a href="/powershell/module/exchange/get-compliancesearchaction"><span class="underline">*-ComplianceSearchAction</span></a></p>
 <p></p></td>
-<td><p>De cmdlets ComplianceSearch en ComplianceSearchAction werken samen om u te helpen bij het zoeken en verwijderen van inhoud. U kunt een zoekopdracht maken en uitvoeren met <strong>cmdlets New-ComplianceSearch</strong> en <strong>New-ComplianceSearch,</strong> waarna u de inhoud kunt verwijderen met de opdracht <strong>New-ComplianceSearchAction -Purge -PurgeType.</strong> Zie Berichten zoeken en verwijderen voor <a href="https://docs.microsoft.com/microsoft-365/compliance/search-for-and-delete-messages-in-your-organization"><span class="underline">meer informatie.</span></a></p>
+<td><p>De cmdlets ComplianceSearch en ComplianceSearchAction werken samen om u te helpen bij het zoeken en verwijderen van inhoud. U kunt een zoekopdracht maken en uitvoeren met <strong>cmdlets New-ComplianceSearch</strong> en <strong>New-ComplianceSearch,</strong> waarna u de inhoud kunt verwijderen met de opdracht <strong>New-ComplianceSearchAction -Purge -PurgeType.</strong> Zie Berichten zoeken en verwijderen voor <a href="/microsoft-365/compliance/search-for-and-delete-messages-in-your-organization"><span class="underline">meer informatie.</span></a></p>
 </td>
 </tr>
 <tr class="odd"> 

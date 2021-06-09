@@ -21,12 +21,12 @@ description: 'Het Microsoft 365-beheercentrum: meer informatie over de functies 
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: d4bd7d02b8c14f8b57b6f2e3eef99c2233d820fe
-ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
+ms.openlocfilehash: 5bb8377dd45714dcdf25533055159f8964acc558
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52779889"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841964"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Nieuwe functies in het Microsoft 365 beheercentrum
 
@@ -291,7 +291,7 @@ We hebben van veel beheerders gehoord dat ze informatie over groepen en hun gebr
 
 ### <a name="microsoft-365-solution-and-architecture-center"></a>Microsoft 365-oplossings- en architectuurcentrum
 
-Deze maand hebben we een nieuwe site uitgebracht op het Microsoft 365-oplossings- en architectuurcentrum, waarin de technische richtlijnen worden samen gebracht die u nodig hebt om geïntegreerde Microsoft 365-oplossingen te begrijpen, plannen en implementeren voor veilige en compatibele [https://docs.microsoft.com]() samenwerking. [](../solutions/index.yml) In dit centrum vindt u het volgende:
+Deze maand hebben we een nieuwe site uitgebracht [](../solutions/index.yml)op docs.microsoft.com genaamd het Microsoft 365-oplossings- en architectuurcentrum, waarin de technische richtlijnen worden samen gebracht die u nodig hebt om geïntegreerde Microsoft 365-oplossingen te begrijpen, plannen en implementeren voor veilige en compatibele samenwerking. In dit centrum vindt u het volgende:
 
 - Richtlijnen voor basisoplossing
 - Werkbelastingsoplossingen en scenario-richtlijnen

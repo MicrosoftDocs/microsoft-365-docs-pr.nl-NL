@@ -17,29 +17,29 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: b937dd41f0296f2cf4102f41f8ab10bd55e1c35d
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 7c471dc99a5deafcc60177812f60f1f884b10ee1
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51200279"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845568"
 ---
 # <a name="protect-important-folders-with-controlled-folder-access"></a>Belangrijke mappen beveiligen met gecontroleerde maptoegang
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
 ## <a name="what-is-controlled-folder-access"></a>Wat is beheerde maptoegang?
 
-Gecontroleerde maptoegang helpt uw waardevolle gegevens te beschermen tegen schadelijke apps en bedreigingen, zoals ransomware. Gecontroleerde maptoegang beschermt uw gegevens door apps te controleren op een lijst met bekende, vertrouwde apps. Beheerde maptoegang wordt ondersteund op Windows Server 2019- en Windows 10-clients en kan worden ingeschakeld met de Windows-beveiligingsapp, Microsoft Endpoint Configuration Manager of Intune (voor beheerde apparaten). 
+Gecontroleerde maptoegang helpt uw waardevolle gegevens te beschermen tegen schadelijke apps en bedreigingen, zoals ransomware. Gecontroleerde maptoegang beschermt uw gegevens door apps te controleren op een lijst met bekende, vertrouwde apps. Ondersteund op Windows Server 2019- en Windows 10-clients, kan gecontroleerde maptoegang worden ingeschakeld met de Windows-beveiliging-app, Microsoft Endpoint Configuration Manager of Intune (voor beheerde apparaten). 
 
 > [!NOTE]
-> Scripting-engines worden niet vertrouwd en u kunt ze geen toegang verlenen tot gecontroleerde beveiligde mappen.  PowerShell wordt bijvoorbeeld niet vertrouwd door gecontroleerde maptoegang, zelfs niet als u dit toestaat met [certificaat- en bestandsindicatoren.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/indicator-certificates) 
+> Scripting-engines worden niet vertrouwd en u kunt ze geen toegang verlenen tot gecontroleerde beveiligde mappen.  PowerShell wordt bijvoorbeeld niet vertrouwd door gecontroleerde maptoegang, zelfs niet als u dit toestaat met [certificaat- en bestandsindicatoren.](/microsoft-365/security/defender-endpoint/indicator-certificates) 
 
 Gecontroleerde toegang tot mappen werkt het beste met [Microsoft Defender voor](microsoft-defender-endpoint.md)Eindpunt, waarmee u gedetailleerde rapportage krijgt over gebeurtenissen en blokken voor gecontroleerde mappentoegang als onderdeel van de gebruikelijke scenario's voor [waarschuwingsonderzoek.](investigate-alerts.md)
 
@@ -62,15 +62,15 @@ Gecontroleerde toegang tot mappen is vooral handig om uw documenten en informati
 
 De [beveiligde mappen bevatten](#review-controlled-folder-access-events-in-windows-event-viewer) veelgebruikte systeemmappen (inclusief opstartsectoren) en u kunt meer mappen [toevoegen.](customize-controlled-folders.md#protect-additional-folders) U kunt ook [toestaan dat apps](customize-controlled-folders.md#allow-specific-apps-to-make-changes-to-controlled-folders) hen toegang geven tot de beveiligde mappen.
 
-U kunt de [auditmodus gebruiken om](audit-windows-defender.md) te evalueren hoe gecontroleerde maptoegang van invloed is op uw organisatie als deze is ingeschakeld. U kunt ook naar de website van Windows Defender Test ground [demo.wd.microsoft.com](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground) om te bevestigen dat de functie werkt en te zien hoe deze werkt.
+U kunt de [auditmodus gebruiken om](audit-windows-defender.md) te evalueren hoe gecontroleerde maptoegang van invloed is op uw organisatie als deze is ingeschakeld. U kunt ook naar de website [](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground) Windows Defender Test ground demo.wd.microsoft.com om te bevestigen dat de functie werkt en te zien hoe deze werkt.
 
 Gecontroleerde maptoegang wordt ondersteund in de volgende versies van Windows:
-- [Windows 10, versie 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) en hoger
-- [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
+- [Windows 10, versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) en hoger
+- [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 
-## <a name="windows-system-folders-are-protected-by-default"></a>Windows-systeemmappen zijn standaard beveiligd
+## <a name="windows-system-folders-are-protected-by-default"></a>Windows systeemmappen zijn standaard beveiligd
 
-Windows-systeemmappen zijn standaard beveiligd, samen met verschillende andere mappen: 
+Windows systeemmappen zijn standaard beveiligd, samen met verschillende andere mappen: 
 
 - `c:\Users\<username>\Documents`
 - `c:\Users\Public\Documents`
@@ -83,17 +83,17 @@ Windows-systeemmappen zijn standaard beveiligd, samen met verschillende andere m
 - `c:\Users\<username>\Favorites`
 
 > [!NOTE]
-> U kunt extra mappen als beveiligd configureren, maar u kunt de windows-systeemmappen die standaard zijn beveiligd niet verwijderen.
+> U kunt extra mappen als beveiligd configureren, maar u kunt de Windows systeemmappen die standaard zijn beveiligd, niet verwijderen.
 
 ## <a name="requirements-for-controlled-folder-access"></a>Vereisten voor gecontroleerde maptoegang
 
-Voor gecontroleerde maptoegang is [het inschakelen van Realtime beveiliging](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus)van Microsoft Defender Antivirus vereist.
+Voor gecontroleerde maptoegang is het [inschakelen Microsoft Defender Antivirus realtime-beveiliging vereist.](/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus)
 
-## <a name="review-controlled-folder-access-events-in-the-microsoft-defender-security-center"></a>Gecontroleerde toegangsgebeurtenissen voor mappen bekijken in het Microsoft Defender-beveiligingscentrum
+## <a name="review-controlled-folder-access-events-in-the-microsoft-defender-security-center"></a>Gecontroleerde maptoegangsgebeurtenissen in de Microsoft Defender-beveiligingscentrum
 
 Defender for Endpoint biedt gedetailleerde rapportage over gebeurtenissen en blokken als onderdeel van de [scenario's voor waarschuwingsonderzoek.](investigate-alerts.md)
 
-U kunt Microsoft Defender opvragen voor eindpuntgegevens met behulp van [Geavanceerd zoeken.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/advanced-hunting-windows-defender-advanced-threat-protection) Als u de [auditmodus gebruikt,](audit-windows-defender.md)kunt u geavanceerd zoeken gebruiken om te zien hoe de instellingen voor gecontroleerde maptoegang van invloed zijn op uw omgeving als deze zijn ingeschakeld. [](advanced-hunting-overview.md)
+U kunt Microsoft Defender opvragen voor eindpuntgegevens met behulp van [Geavanceerd zoeken.](/microsoft-365/security/defender-endpoint/advanced-hunting-windows-defender-advanced-threat-protection) Als u de [auditmodus gebruikt,](audit-windows-defender.md)kunt u geavanceerd zoeken gebruiken om te zien hoe de instellingen voor gecontroleerde maptoegang van invloed zijn op uw omgeving als deze zijn ingeschakeld. [](advanced-hunting-overview.md)
 
 Voorbeeldquery:
 
@@ -102,15 +102,15 @@ DeviceEvents
 | where ActionType in ('ControlledFolderAccessViolationAudited','ControlledFolderAccessViolationBlocked')
 ```
 
-## <a name="review-controlled-folder-access-events-in-windows-event-viewer"></a>Gecontroleerde maptoegangsgebeurtenissen bekijken in Windows Event Viewer
+## <a name="review-controlled-folder-access-events-in-windows-event-viewer"></a>Gecontroleerde maptoegangsgebeurtenissen controleren in Windows Gebeurtenisviewer
 
-U kunt het Windows-gebeurtenislogboek bekijken om gebeurtenissen te bekijken die worden gemaakt wanneer gecontroleerde maptoegangsblokken (of audits) van een app worden gemaakt:
+U kunt het Windows gebeurtenislogboek bekijken om gebeurtenissen te zien die worden gemaakt wanneer gecontroleerde maptoegangsblokken (of audits) een app maken:
 
 1. Download het [evaluatiepakket en](https://aka.ms/mp7z2w) haal het *bestand* cfa-events.xmlnaar een gemakkelijk toegankelijke locatie op het apparaat.
-2. Typ **Gebeurtenisviewer** in het menu Start om de Windows Event Viewer te openen.
+2. Typ **Gebeurtenisviewer** in het menu Start om de Windows gebeurtenisviewer te openen.
 3. Selecteer in het linkervenster onder **Acties** de optie **Aangepaste weergave importeren...**.
 4. Ga naar de plaats waar u *cfa-events.xml* en selecteer deze. U kunt ook [de XML rechtstreeks kopiëren.](event-views.md)
-5. Kies **OK**.
+5. Selecteer **OK**.
 
 In de volgende tabel ziet u gebeurtenissen met betrekking tot gecontroleerde maptoegang:
 
@@ -122,10 +122,10 @@ In de volgende tabel ziet u gebeurtenissen met betrekking tot gecontroleerde map
 
 ## <a name="view-or-change-the-list-of-protected-folders"></a>De lijst met beveiligde mappen weergeven of wijzigen
 
-U kunt de Windows Security-app gebruiken om de lijst met mappen weer te geven die zijn beveiligd met beheerde maptoegang. 
+U kunt de app Windows-beveiliging gebruiken om de lijst met mappen weer te geven die zijn beveiligd met beheerde maptoegang. 
 
-1. Open de Windows Security-app op uw Windows 10-apparaat.
-2. Selecteer **Virusbeveiliging & bedreiging**.
+1. Open op Windows 10 apparaat de Windows-beveiliging app.
+2. Selecteer **Virus- & bedreigingsbeveiliging**.
 3. Selecteer **onder Ransomware-beveiliging** de optie **Ransomware-beveiliging beheren.**
 4. Als beheerde maptoegang is uitgeschakeld, moet u deze in- en uitschakelen. Selecteer **beveiligde mappen.**
 5. Ga op een van de volgende stappen te werk:
@@ -133,7 +133,7 @@ U kunt de Windows Security-app gebruiken om de lijst met mappen weer te geven di
    - Als u een map wilt verwijderen, selecteert u deze en selecteert u **Vervolgens Verwijderen.** 
 
 > [!NOTE]
-> [Windows-systeemmappen](#windows-system-folders-are-protected-by-default) zijn standaard beveiligd en u kunt ze niet uit de lijst verwijderen.
+> [Windows systeemmappen](#windows-system-folders-are-protected-by-default) zijn standaard beveiligd en u kunt ze niet uit de lijst verwijderen.
 
 ## <a name="see-also"></a>Zie ook
 

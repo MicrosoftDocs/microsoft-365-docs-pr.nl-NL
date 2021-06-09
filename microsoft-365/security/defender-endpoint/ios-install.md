@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 6f2b9a1365a27bb7397aea51dcd5bc9e2631afe2
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 371208433cbb0f65ab5a2808318c03dae6bb6d8b
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624703"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842292"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-ios"></a>Microsoft Defender voor eindpunt implementeren in iOS
 
@@ -44,7 +44,7 @@ In dit onderwerp wordt beschreven hoe u Defender voor Eindpunt implementeert op 
 - Zorg ervoor dat iOS-registratie is gedaan voor uw gebruikers. Gebruikers moeten een Defender voor Eindpunt-licentie hebben toegewezen om Defender voor Eindpunt in iOS te kunnen gebruiken. Raadpleeg [Licenties toewijzen aan gebruikers voor](/azure/active-directory/users-groups-roles/licensing-groups-assign) instructies over het toewijzen van licenties.
 
 > [!NOTE]
-> Microsoft Defender voor Eindpunt op iOS is nu beschikbaar in de [Apple App Store.](https://aka.ms/mdatpiosappstore)
+> Microsoft Defender voor Eindpunt voor iOS is beschikbaar in de [Apple App Store.](https://aka.ms/mdatpiosappstore)
 
 ## <a name="deployment-steps"></a>Implementatiestappen
 
@@ -78,9 +78,6 @@ Deploy Defender for Endpoint on iOS via Intune-bedrijfsportal.
 
 ## <a name="auto-onboarding-of-vpn-profile-simplified-onboarding"></a>Auto-Onboarding van VPN-profiel (Vereenvoudigde onboarding)
 
-> [!NOTE]
-> Auto-onboarding van VPN-profiel is momenteel in preview en de stappen die in deze sectie worden vermeld, kunnen aanzienlijk worden gewijzigd voordat het commercieel wordt uitgebracht.
-
 Beheerders kunnen de automatische installatie van VPN-profiel configureren. Hiermee wordt het VPN-profiel van Defender voor Eindpunt automatisch ingesteld zonder dat de gebruiker dit hoeft te doen tijdens onboarding. Houd er rekening mee dat VPN wordt gebruikt om de functie Webbeveiliging te bieden. Dit is geen gewone VPN en is een lokale/self-looping VPN die geen verkeer buiten het apparaat neemt.
 
 1. Ga [in het Microsoft Endpoint Manager-beheercentrum](https://go.microsoft.com/fwlink/?linkid=2109431)naar Profiel maken van   ->    ->  **apparatenconfiguratieprofielen.**
@@ -107,7 +104,7 @@ Beheerders kunnen de automatische installatie van VPN-profiel configureren. Hier
 
     ![Een schermafbeelding van een beschrijving van een smartphone die automatisch wordt gegenereerd](images/41627a709700c324849bf7e13510c516.png)
 
-2. Tik op het pictogram van de Defender voor eindpunt-app en volg de instructies op het scherm om de onboarding-stappen uit te voeren. De details omvatten de acceptatie door eindgebruikers van iOS-machtigingen die vereist zijn door Defender voor Eindpunt in iOS.
+2. Tik op het pictogram van de Defender voor eindpunt-app (MSDefender) en volg de instructies op het scherm om de onboarding-stappen uit te voeren. De details omvatten de acceptatie door eindgebruikers van iOS-machtigingen die vereist zijn door Defender voor Eindpunt in iOS.
 
 3. Na succesvolle onboarding wordt het apparaat weergegeven in de lijst Apparaten in Microsoft Defender-beveiligingscentrum.
 
@@ -133,7 +130,7 @@ Met Intune kunt u de Defender voor iOS-app configureren via een beleid voor app-
 1. Geef op *de pagina Configuratiebeleid voor* apps maken de volgende informatie op:
     - Naam van beleid
     - Platform: selecteer iOS/iPadOS
-    - Targeted app: Selecteer **Microsoft Defender ATP** in de lijst
+    - Targeted app: Selecteer **Microsoft Defender Endpoint** in de lijst
 
     > [!div class="mx-imgBorder"]
     > ![Afbeelding van Microsoft Endpoint Manager beheercentrum5](images/ios-deploy-5.png)

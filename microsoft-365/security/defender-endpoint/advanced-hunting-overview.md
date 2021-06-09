@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 906ae4bdebcc46e210fa9c5dcb5387c880fdbb38
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+ms.openlocfilehash: 9f1934de8f710a21bc362e735bb6f1eab7a2d287
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939658"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845414"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting"></a>Proactief op bedreigingen zoeken met geavanceerde jacht
 
@@ -44,7 +44,7 @@ U kunt dezelfde query's voor het zoeken naar bedreigingen gebruiken om aangepast
 
 >[!TIP]
 >Gebruik [geavanceerde jacht in Microsoft 365 Defender](/microsoft-365/security/defender/advanced-hunting-overview) om te zoeken naar bedreigingen met behulp van gegevens van Defender voor Eindpunt, Microsoft Defender voor Office 365, Microsoft Cloud App Security en Microsoft Defender voor identiteit. [Schakel Microsoft 365 Defender in.](/microsoft-365/security/defender/m365d-enable)<br><br>
-Meer informatie over het verplaatsen van uw geavanceerde zoekwerkstromen van Microsoft Defender voor Eindpunt naar Microsoft 365 Defender in Geavanceerde zoekquery's migreren van [Microsoft Defender voor Eindpunt.](/microsoft-365/security/defender/advanced-hunting-migrate-from-mde)
+Meer informatie over het verplaatsen van uw geavanceerde zoekwerkstromen van Microsoft Defender voor Eindpunt naar Microsoft 365 Defender in Geavanceerde zoekquery's migreren vanuit [Microsoft Defender voor Eindpunt.](/microsoft-365/security/defender/advanced-hunting-migrate-from-mde)
 
 ## <a name="get-started-with-advanced-hunting"></a>Aan de slag met geavanceerde jacht
 
@@ -54,7 +54,7 @@ We raden u aan om verschillende stappen uit te voeren om snel aan de haal te gaa
 
 | Leerdoel | Beschrijving | Resource |
 |--|--|--|
-| **De taal leren** | Geavanceerd zoeken is gebaseerd op [de querytaal Kusto,](https://docs.microsoft.com/azure/kusto/query/)die dezelfde syntaxis en operatoren ondersteunt. Begin de querytaal te leren door de eerste query uit te voeren. | [Overzicht van querytaal](advanced-hunting-query-language.md) |
+| **De taal leren** | Geavanceerd zoeken is gebaseerd op [de querytaal Kusto,](/azure/kusto/query/)die dezelfde syntaxis en operatoren ondersteunt. Begin de querytaal te leren door de eerste query uit te voeren. | [Overzicht van querytaal](advanced-hunting-query-language.md) |
 | **Meer informatie over het gebruik van de queryresultaten** | Meer informatie over grafieken en verschillende manieren waarop u uw resultaten kunt bekijken of exporteren. Ontdek hoe u snel query's kunt aanpassen en kunt inzoomen om uitgebreidere informatie te krijgen. | [Werken met queryresultaten](advanced-hunting-query-results.md) |
 | **Meer informatie over het schema** | Krijg een goed, goed inzicht in de tabellen in het schema en de kolommen. Informatie over waar u gegevens kunt zoeken bij het maken van query's. | [Schemaverwijzing](advanced-hunting-schema-reference.md) |
 | **Vooraf gedefinieerde query's gebruiken** | Verken verzamelingen van vooraf gedefinieerde query's met verschillende scenario's voor het zoeken naar bedreigingen. | [Gedeelde query's](advanced-hunting-shared-queries.md) |

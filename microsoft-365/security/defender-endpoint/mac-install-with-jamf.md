@@ -1,6 +1,6 @@
 ---
-title: Microsoft Defender voor eindpunt implementeren in macOS met Jamf Pro
-description: Microsoft Defender voor eindpunt implementeren in macOS met Jamf Pro
+title: Microsoft Defender voor Eindpunt implementeren op macOS met Jamf Pro
+description: Microsoft Defender voor Eindpunt implementeren op macOS met Jamf Pro
 keywords: microsoft, defender, Microsoft Defender for Endpoint, mac, installation, deploy, uninstallation, intune, jamfpro, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,14 +18,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: d102635a284ec5c802e352f097d1632e2f20e166
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: b41c5ec827e110e0101c50ce7babeb6442096edb
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51929059"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842888"
 ---
-# <a name="deploying-microsoft-defender-for-endpoint-on-macos-with-jamf-pro"></a>Microsoft Defender voor eindpunt implementeren in macOS met Jamf Pro
+# <a name="deploying-microsoft-defender-for-endpoint-on-macos-with-jamf-pro"></a>Microsoft Defender voor Eindpunt implementeren op macOS met Jamf Pro
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -39,14 +39,14 @@ ms.locfileid: "51929059"
 Meer informatie over het implementeren van Microsoft Defender voor Eindpunt in macOS met Jamf Pro.
 
 > [!NOTE]
-> Zie Nieuwe configuratieprofielen voor [macOS Catalina](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/mac-sysext-policies)en nieuwere versies van macOS als u macOS Catalina (10.15.4) of nieuwere versies van macOS gebruikt.
+> Zie Nieuwe configuratieprofielen voor [macOS Catalina](/microsoft-365/security/defender-endpoint/mac-sysext-policies)en nieuwere versies van macOS als u macOS Catalina (10.15.4) of nieuwere versies van macOS gebruikt.
 
 Dit is een proces met meerdere stappen. U moet alle volgende stappen voltooien:
 
 - [Aanmelden bij de Jamf-portal](mac-install-jamfpro-login.md)
-- [Microsoft Defender voor eindpunt instellen voor macOS-apparaatgroepen in Jamf Pro](mac-jamfpro-device-groups.md)
-- [Microsoft Defender voor Eindpunt instellen voor macOS-beleid in Jamf Pro](mac-jamfpro-policies.md)
-- [Het Microsoft Defender voor eindpunt op macOS-apparaten registreren bij Jamf Pro](mac-jamfpro-enroll-devices.md)
+- [Het Microsoft Defender voor Eindpunt instellen voor macOS-apparaatgroepen in Jamf Pro](mac-jamfpro-device-groups.md)
+- [Het Microsoft Defender voor Eindpunt instellen voor macOS-beleid in Jamf Pro](mac-jamfpro-policies.md)
+- [Het Microsoft Defender voor Eindpunt op macOS-apparaten registreren in Jamf Pro](mac-jamfpro-enroll-devices.md)
 
 
 

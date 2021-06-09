@@ -14,12 +14,12 @@ ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: ee87ac3bdfe88596a5f1625904af53499488f35f
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: 1d09eaf04999478a0cd0b4907667a522a23fb39f
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51571006"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841976"
 ---
 # <a name="enable-controlled-folder-access"></a>Beheerde maptoegang inschakelen
 
@@ -31,11 +31,11 @@ ms.locfileid: "51571006"
 
 >Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
-[Met gecontroleerde maptoegang](controlled-folders.md) kunt u waardevolle gegevens beschermen tegen schadelijke apps en bedreigingen, zoals ransomware. Gecontroleerde maptoegang is inbegrepen in Windows 10 en Windows Server 2019.
+[Met gecontroleerde maptoegang](controlled-folders.md) kunt u waardevolle gegevens beschermen tegen schadelijke apps en bedreigingen, zoals ransomware. Gecontroleerde maptoegang is opgenomen in Windows 10 en Windows Server 2019.
 
 U kunt beheerde maptoegang inschakelen met behulp van een van de volgende methoden:
 
-* [Windows-beveiligingsapp](#windows-security-app)
+* [Windows-beveiliging app](#windows-security-app)
 * [Microsoft Intune](#intune)
 * [Mobile Device Management (MDM)](#mobile-device-management-mdm)
 * [Microsoft Endpoint Configuration Manager](#microsoft-endpoint-configuration-manager)
@@ -46,23 +46,23 @@ U kunt beheerde maptoegang inschakelen met behulp van een van de volgende method
 
 Instellingen voor groepsbeleid die het samenvoegen van de lokale beheerderslijst uitschakelen, overschrijven de instellingen voor beheerde maptoegang. Ze overschrijven ook beveiligde mappen en toegestane apps die door de lokale beheerder zijn ingesteld via beheerde maptoegang. Deze beleidsregels omvatten:
 
-* Microsoft Defender Antivirus **Configure local administrator merge behavior for lists**
-* System Center Endpoint Protection **Allow users to add exclusions and overrides**
+* Microsoft Defender Antivirus Gedrag **van lokale beheerders samenvoegen configureren voor lijsten**
+* System Center Endpoint Protection Toestaan **dat gebruikers uitsluitingen en overschrijven toevoegen**
 
-Zie Voorkomen of toestaan dat gebruikers lokaal microsoft Defender AV-beleidsinstellingen wijzigen voor meer informatie over het uitschakelen van het samenvoegen van lokale [lijst.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-local-policy-overrides-microsoft-defender-antivirus#configure-how-locally-and-globally-defined-threat-remediation-and-exclusions-lists-are-merged)
+Zie Voorkomen of toestaan dat gebruikers lokaal microsoft Defender AV-beleidsinstellingen wijzigen voor meer informatie over het uitschakelen van het samenvoegen van lokale [lijst.](/windows/security/threat-protection/microsoft-defender-antivirus/configure-local-policy-overrides-microsoft-defender-antivirus#configure-how-locally-and-globally-defined-threat-remediation-and-exclusions-lists-are-merged)
 
-## <a name="windows-security-app"></a>Windows-beveiligingsapp
+## <a name="windows-security-app"></a>Windows-beveiliging app
 
-1. Open de Windows Security-app door het schildpictogram op de taakbalk te selecteren. U kunt ook zoeken in het startmenu voor **Defender.**
+1. Open de Windows-beveiliging app door het schildpictogram op de taakbalk te selecteren. U kunt ook zoeken in het startmenu voor **Defender.**
 
 2. Selecteer de **tegel Virus & bedreigingsbeveiliging** (of het schildpictogram op de linkermenubalk) en selecteer **vervolgens Ransomware-beveiliging.**
 
 3. Stel de schakelknop voor **gecontroleerde maptoegang in** op **Aan.**
 
 > [!NOTE]
-> Als beheerde maptoegang is geconfigureerd met groepsbeleid, PowerShell- of MDM-CSP's, wordt de status gewijzigd in de Windows Security-app na een herstart van het apparaat.
-> Als de functie is ingesteld op **auditmodus** met een van deze hulpprogramma's, wordt in de Windows-beveiligings-app de status **Uit gebruikt.**
-> Als u gebruikersprofielgegevens beschermt, wordt u aangeraden het gebruikersprofiel op het standaardstation voor Windows-installatie te plaatsen.
+> Als beheerde maptoegang is geconfigureerd met groepsbeleids-, PowerShell- of MDM-CSP's, wordt de status gewijzigd in de Windows-beveiliging-app na een herstart van het apparaat.
+> Als de functie is ingesteld op **auditmodus** met een van deze hulpprogramma's, Windows-beveiliging de app de status **Uit.**
+> Als u gebruikersprofielgegevens beschermt, raden we aan dat het gebruikersprofiel zich op het standaardstation Windows installeren.
 
 ## <a name="intune"></a>Intune
 
@@ -70,9 +70,9 @@ Zie Voorkomen of toestaan dat gebruikers lokaal microsoft Defender AV-beleidsins
 
 2. Ga naar **Apparaatconfiguratieprofielen**  >    >  **Profiel maken.**
 
-3. Noem het profiel een naam, kies **Windows 10 en hoger** en **Endpoint-beveiliging.** <br/> ![Eindpuntbeveiligingsprofiel maken](/microsoft-365/security/defender-endpoint/images/create-endpoint-protection-profile) <br/>
+3. Noem het profiel een naam, kies **Windows 10 en hoger en** **Endpoint-beveiliging.** <br/> ![Eindpuntbeveiligingsprofiel maken](/microsoft-365/security/defender-endpoint/images/create-endpoint-protection-profile) <br/>
 
-4. Ga naar **Configure**  >  **Windows Defender Exploit Guard Controlled folder**  >  **access**  >  **Enable**.
+4. Ga naar **Configure**  >  **Windows Defender Exploit Guard Controlled** map  >  **access**  >  **Enable**.
 
 5. Typ het pad naar elke toepassing die toegang heeft tot beveiligde mappen en het pad naar een andere map die bescherming nodig heeft. Kies **Toevoegen**.<br/> ![Gecontroleerde maptoegang inschakelen in Intune](/microsoft-365/security/defender-endpoint/images/enable-cfa-intune)<br/>
 
@@ -85,11 +85,11 @@ Zie Voorkomen of toestaan dat gebruikers lokaal microsoft Defender AV-beleidsins
 
 ## <a name="mobile-device-management-mdm"></a>Mobile Device Management (MDM)
 
-Gebruik [de configuratieserviceprovider ./Vendor/MSFT/Policy/Config/ControlledFolderAccessProtectedFolders](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-controlledfolderaccessprotectedfolders) (CSP) om apps in staat te stellen om wijzigingen aan te brengen in beveiligde mappen.
+Gebruik [de configuratieserviceprovider ./Vendor/MSFT/Policy/Config/ControlledFolderAccessProtectedFolders](/windows/client-management/mdm/policy-csp-defender#defender-controlledfolderaccessprotectedfolders) (CSP) om apps in staat te stellen om wijzigingen aan te brengen in beveiligde mappen.
 
 ## <a name="microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager
 
-1. Ga in Microsoft Endpoint Configuration Manager naar **Assets and Compliance**  >  **Endpoint Protection**  >  **Windows Defender Exploit Guard**.
+1. Ga Microsoft Endpoint Configuration Manager naar Assets **and Compliance**  >  **Endpoint Protection**  >  **Windows Defender Exploit Guard**.
 
 2. Selecteer **Home**  >  **Create Exploit Guard Policy**.
 
@@ -107,16 +107,16 @@ Gebruik [de configuratieserviceprovider ./Vendor/MSFT/Policy/Config/ControlledFo
 
 1. Open op uw apparaat voor [](https://technet.microsoft.com/library/cc731212.aspx)groepsbeleidsbeheer de console Groepsbeleidsbeheer, klik met de rechtermuisknop op het groepsbeleidsobject dat u wilt configureren en selecteer **Bewerken.**
 
-2. Ga in **de Groepsbeleidseditor** naar **Computerconfiguratie** en selecteer **Beheersjablonen.**
+2. Ga in de **Groepsbeleidsbeheereditor** naar **Computerconfiguratie** en selecteer **Beheersjablonen**.
 
-3. Vouw de structuur uit naar **Windows-onderdelen > Microsoft Defender Antivirus > Windows Defender Exploit Guard > Gecontroleerde maptoegang.**
+3. Vouw de boom uit Windows **onderdelen > Microsoft Defender Antivirus > Windows Defender Exploit Guard > Gecontroleerde maptoegang.**
 
 4. Dubbelklik op de instelling **Beheerde maptoegang configureren** en stel de optie in op **Ingeschakeld.** In de sectie Opties moet u een van de volgende opties opgeven:
-    * **Inschakelen:** schadelijke en verdachte apps mogen geen wijzigingen aanbrengen in bestanden in beveiligde mappen. Er wordt een melding gegeven in het Windows-gebeurtenislogboek.
+    * **Inschakelen:** schadelijke en verdachte apps mogen geen wijzigingen aanbrengen in bestanden in beveiligde mappen. Er wordt een melding verstrekt in het Windows gebeurtenislogboek.
     * **Uitschakelen (standaard)** - De functie Voor gecontroleerde maptoegang werkt niet. Alle apps kunnen wijzigingen aanbrengen in bestanden in beveiligde mappen.
-    * **Controlemodus:** wijzigingen zijn toegestaan als een schadelijke of verdachte app probeert een wijziging aan te brengen in een bestand in een beveiligde map. Het wordt echter opgenomen in het Windows-gebeurtenislogboek, waar u de impact op uw organisatie kunt beoordelen.
-    * **Alleen schijfwijzigingen blokkeren:** pogingen van niet-vertrouwde apps om naar schijfsectoren te schrijven, worden geregistreerd in het Windows-gebeurtenislogboek. Deze logboeken zijn te vinden in toepassingen en **serviceslogboeken** > Microsoft > Windows > Windows Defender > Operational > ID 1123.
-    * **Alleen controleschijfwijzigingen:** alleen pogingen om te schrijven naar beveiligde schijfsectoren worden opgenomen in het Windows-gebeurtenislogboek (onder Toepassingen en **serviceslogboeken**  >  **Microsoft**  >  **Windows Windows**  >  **Defender**  >  **Operational**  >  **ID 1124).** Pogingen om bestanden in beveiligde mappen te wijzigen of te verwijderen, worden niet opgenomen.
+    * **Controlemodus:** wijzigingen zijn toegestaan als een schadelijke of verdachte app probeert een wijziging aan te brengen in een bestand in een beveiligde map. Het wordt echter opgenomen in het logboek Windows gebeurtenislogboek waarin u de impact op uw organisatie kunt beoordelen.
+    * **Alleen schijfwijzigingen blokkeren:** pogingen van niet-vertrouwde apps om naar schijfsectoren te schrijven, worden aangemeld Windows gebeurtenislogboek. Deze logboeken zijn te vinden in **toepassingen en serviceslogboeken** > Microsoft > Windows > Windows Defender > Operational > ID 1123.
+    * **Alleen** controleschijfwijzigingen: alleen pogingen om te schrijven naar beveiligde schijfsectoren worden opgenomen in het gebeurtenislogboek van Windows (onder Toepassingen en **serviceslogboeken**  >  **van Microsoft**  >  **Windows**  >  **Windows Defender**  >  **Operational**  >  **ID 1124).** Pogingen om bestanden in beveiligde mappen te wijzigen of te verwijderen, worden niet opgenomen.
 
       ![Schermafbeelding van de groepsbeleidsoptie Ingeschakeld en Auditmodus geselecteerd in de vervolgkeuzekeuze](/microsoft-365/security/defender-endpoint/images/cfa-gp-enable)
 
@@ -125,7 +125,7 @@ Gebruik [de configuratieserviceprovider ./Vendor/MSFT/Policy/Config/ControlledFo
 
 ## <a name="powershell"></a>PowerShell
 
-1. Typ **powershell** in het menu Start, klik met de rechtermuisknop op **Windows PowerShell** en selecteer **Uitvoeren als beheerder.**
+1. Typ **powershell** in het menu Start, klik met **de rechtermuisknop Windows PowerShell** en selecteer Uitvoeren als **beheerder.**
 
 2. Voer de volgende cmdlet in:
 

@@ -15,12 +15,12 @@ ms.author: dansimp
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
-ms.openlocfilehash: 0ef80e2aaccbf25a79083c2f95ea7399e30ea651
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: 7ade1ae1e045cb52f48d231acbc1712e753b6bc3
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764315"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841844"
 ---
 # <a name="onboard-windows-10-multi-session-devices-in-windows-virtual-desktop"></a>Onboarden Windows 10 multi-sessie apparaten in Windows Virtual Desktop (Virtuele bureaubladversie) 
 6 minuten om te lezen 
@@ -28,17 +28,17 @@ ms.locfileid: "51764315"
 Van toepassing op: 
 - Windows 10 multi-session running on Windows Virtual Desktop (WVD) 
 
-Microsoft Defender voor Eindpunt ondersteunt het controleren van zowel VDI- als Windows Virtual Desktop-sessies. Afhankelijk van de behoeften van uw organisatie, moet u mogelijk VDI- of Windows Virtual Desktop-sessies implementeren om uw werknemers toegang te geven tot bedrijfsgegevens en apps vanaf een niet-beheerd apparaat, externe locatie of vergelijkbaar scenario. Met Microsoft Defender voor Eindpunt kunt u deze virtuele machines controleren op afwijkende activiteiten.
+Microsoft Defender voor Eindpunt ondersteunt het controleren van VDI- en Windows Virtual Desktop-sessies. Afhankelijk van de behoeften van uw organisatie, moet u mogelijk VDI- of Windows Virtual Desktop-sessies implementeren om uw werknemers toegang te geven tot bedrijfsgegevens en -apps vanaf een niet-beheerd apparaat, externe locatie of vergelijkbaar scenario. Met Microsoft Defender voor Eindpunt kunt u deze virtuele machines controleren op afwijkende activiteiten.
 
  ## <a name="before-you-begin"></a>Voordat u begint
-Vertrouwd raken met de [overwegingen voor niet-permanente VDI.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-vdi#onboard-non-persistent-virtual-desktop-infrastructure-vdi-devices-1) Hoewel [Windows Virtual Desktop](https://docs.microsoft.com/azure/virtual-desktop/overview) geen niet-persistente opties biedt, biedt het wel manieren om een gouden Windows-afbeelding te gebruiken die kan worden gebruikt voor het inrichten van nieuwe hosts en herdeploy-machines. Dit verhoogt de vluchtigheid in de omgeving en is dus van invloed op de items die worden gemaakt en onderhouden in de Microsoft Defender for Endpoint-portal, waardoor de zichtbaarheid voor uw beveiligingsanalisten mogelijk wordt verkleind.
+Vertrouwd raken met de [overwegingen voor niet-permanente VDI.](/microsoft-365/security/defender-endpoint/configure-endpoints-vdi#onboard-non-persistent-virtual-desktop-infrastructure-vdi-devices-1) Hoewel [Windows Virtual Desktop](/azure/virtual-desktop/overview) geen niet-persistente opties biedt, biedt het wel manieren om een gouden Windows-afbeelding te gebruiken die kan worden gebruikt voor het inrichten van nieuwe hosts en herdeploy-machines. Dit verhoogt de vluchtigheid in de omgeving en is dus van invloed op de items die worden gemaakt en onderhouden in de Microsoft Defender for Endpoint-portal, waardoor de zichtbaarheid voor uw beveiligingsanalisten mogelijk wordt verkleind.
 
 > [!NOTE]
 > Afhankelijk van de keuze van de onboarding-methode, kunnen apparaten als een van beide worden weergegeven in de Microsoft Defender voor Endpoint-portal: 
 > - Eén invoer voor elk virtueel bureaublad 
 > - Meerdere items voor elk virtueel bureaublad 
 
-Microsoft raadt onboarding van Windows Virtual Desktop aan als één item per virtueel bureaublad. Dit zorgt ervoor dat de onderzoekservaring in de Microsoft Defender Endpoint-portal binnen de context van één apparaat valt op basis van de computernaam. Organisaties die vaak WVD-hosts verwijderen en opnieuw deployeren, moeten deze methode sterk overwegen omdat hiermee wordt voorkomen dat meerdere objecten voor dezelfde computer worden gemaakt in de Microsoft Defender voor Eindpunt-portal. Dit kan leiden tot verwarring bij het onderzoeken van incidenten. Voor test- of niet-vluchtige omgevingen kunt u ervoor kiezen om anders te kiezen. 
+Microsoft raadt onboarding Windows Virtual Desktop aan als één item per virtueel bureaublad. Dit zorgt ervoor dat de onderzoekservaring in de Microsoft Defender Endpoint-portal binnen de context van één apparaat valt op basis van de computernaam. Organisaties die vaak WVD-hosts verwijderen en opnieuw deployeren, moeten deze methode sterk overwegen omdat hiermee wordt voorkomen dat meerdere objecten voor dezelfde computer worden gemaakt in de Microsoft Defender voor Eindpunt-portal. Dit kan leiden tot verwarring bij het onderzoeken van incidenten. Voor test- of niet-vluchtige omgevingen kunt u ervoor kiezen om anders te kiezen. 
 
 Microsoft raadt aan het onboardingscript van Microsoft Defender voor eindpunt toe te voegen aan de gouden afbeelding van WVD. Op deze manier kunt u er zeker van zijn dat dit onboarding-script direct bij het opstarten wordt uitgevoerd. Het wordt uitgevoerd als een opstartscript bij het opstarten op alle WVD-machines die zijn ingericht vanuit de gouden afbeelding van WVD. Als u echter een van de galerieafbeeldingen zonder wijziging gebruikt, zet u het script op een gedeelde locatie en belt u het vanuit lokaal of domeingroepsbeleid. 
 
@@ -61,16 +61,16 @@ Volg de instructies voor één vermelding voor elk apparaat.
 #### <a name="scenario-2-using-domain-group-policy"></a>*Scenario 2: Domeingroepsbeleid gebruiken*
 In dit scenario wordt een centraal gelegen script gebruikt en wordt het uitgevoerd met een groepsbeleid op basis van een domein. U kunt het script ook in de gouden afbeelding plaatsen en op dezelfde manier uitvoeren.
 
-**Het WindowsDefenderATPOnboardingPackage.zip downloaden van het Windows Defender-beveiligingscentrum**
+**Het WindowsDefenderATPOnboardingPackage.zip downloaden van het Windows Defender beveiligingscentrum**
 
-1. Open het VDI-configuratiepakket .zip-bestand (WindowsDefenderATPOnboardingPackage.zip)  
+1. Het VDI-configuratiepakket .zip bestand (WindowsDefenderATPOnboardingPackage.zip)  
 
-    1. Selecteer in het navigatiedeelvenster van het Microsoft Defender-beveiligingscentrum **de** optie  >  **Instellingen Onboarding**. 
+    1. Selecteer in Microsoft Defender-beveiligingscentrum navigatiedeelvenster **Instellingen**  >  **Onboarding.** 
     1. Selecteer Windows 10 als het besturingssysteem. 
     1. Selecteer in **het veld** Implementatiemethode VDI-onboarding-scripts voor niet-permanente eindpunten. 
-    1. Klik **op Pakket downloaden** en sla het ZIP-bestand op. 
+    1. Klik **op Pakket downloaden** en sla het .zip op. 
 
-2. Haal de inhoud van het ZIP-bestand op naar een gedeelde, alleen-lezen locatie die toegankelijk is voor het apparaat. U hebt een map met de naam **OptionalParamsPolicy** en de bestanden **WindowsDefenderATPOnboardingScript.cmd** en **Onboard-NonPersistentMachine.ps1.**
+2. Haal de inhoud van het .zip naar een gedeelde, alleen-lezen locatie die toegankelijk is voor het apparaat. U hebt een map met de naam **OptionalParamsPolicy** en de bestanden **WindowsDefenderATPOnboardingScript.cmd** en **Onboard-NonPersistentMachine.ps1.**
 
 **Groepsbeleidsbeheerconsole gebruiken om het script uit te voeren wanneer de virtuele machine wordt gestart**
 
@@ -78,7 +78,7 @@ In dit scenario wordt een centraal gelegen script gebruikt en wordt het uitgevoe
 
 2. Ga in de Editor voor groepsbeleidsbeheer naar Instellingen van het **Configuratiescherm voor** \>  \> **computerconfiguratie**. 
 
-3. Klik met de **rechtermuisknop op Geplande taken,** klik **op Nieuw** en klik vervolgens op **Onmiddellijke taak** (ten minste Windows 7). 
+3. Klik met de rechtermuisknop **op Geplande taken,** klik op **Nieuw** en klik vervolgens op **Onmiddellijke taak** (ten minste Windows 7). 
 
 4. Ga in het venster Taak dat wordt geopend naar het **tabblad** Algemeen. Klik **onder Beveiligingsopties** **op Gebruiker of Groep wijzigen en** typ SYSTEEM. Klik **op Namen controleren** en klik vervolgens op OK. NT AUTHORITY\SYSTEM wordt weergegeven als het gebruikersaccount dat de taak als wordt uitgevoerd. 
 
@@ -96,12 +96,12 @@ In dit scenario wordt een centraal gelegen script gebruikt en wordt het uitgevoe
 
 #### <a name="scenario-3-onboarding-using-management-tools"></a>*Scenario 3: Onboarding met behulp van beheerhulpmiddelen*
 
-Als u van plan bent om uw machines te beheren met behulp van een beheerhulpmiddel, kunt u apparaten onboarden met Microsoft Endpoint Configuration Manager.
+Als u van plan bent om uw machines te beheren met behulp van een beheerhulpmiddel, kunt u apparaten met een Microsoft Endpoint Configuration Manager.
 
-Zie Onboard [Windows 10-apparaten](configure-endpoints-sccm.md)met Configuration Manager voor meer informatie.
+Zie Onboard Windows 10 met Configuration Manager voor [meer informatie.](configure-endpoints-sccm.md)
 
 > [!WARNING]
-> Als u van plan bent [Om De Surface-beperkingsregels](attack-surface-reduction.md)voor aanvallen te gebruiken, moet u de regel 'Procescreaties blokkeren die afkomstig zijn van[PSExec-](attack-surface-reduction.md#block-process-creations-originating-from-psexec-and-wmi-commands)en WMI-opdrachten' niet gebruiken, omdat deze regel niet compatibel is met het beheer via Microsoft Endpoint Configuration Manager. De regel blokkeert WMI-opdrachten die door de Configuration Manager-client worden gebruikt om correct te werken. 
+> Als u van plan bent om [Attack Surface-beperkingsregels](attack-surface-reduction.md)te gebruiken, moet u de regel 'Procescreaties blokkeren die afkomstig zijn van[PSExec-](attack-surface-reduction.md#block-process-creations-originating-from-psexec-and-wmi-commands)en WMI-opdrachten' niet gebruiken, omdat deze regel niet compatibel is met het beheer via Microsoft Endpoint Configuration Manager. De regel blokkeert WMI-opdrachten die door de Configuration Manager-client worden gebruikt om correct te werken. 
 
 > [!TIP]
 > Nadat u het apparaat hebt onboarding, kunt u ervoor kiezen om een detectietest uit te voeren om te controleren of het apparaat correct is aan boord van de service. Zie Een detectietest uitvoeren op een nieuw ingebouwde [Microsoft Defender voor eindpuntapparaat](run-detection-test.md)voor meer informatie. 
@@ -146,5 +146,5 @@ Als u FSlogix-gebruikersprofielen gebruikt, raden we u aan de volgende bestanden
 
 #### <a name="licensing-requirements"></a>Licentievereisten 
 
-Opmerking over licenties: Wanneer u meerdere sessies met Windows 10 Enterprise gebruikt, afhankelijk van uw vereisten, kunt u ervoor kiezen om alle gebruikers een licentie te geven via Microsoft Defender voor Eindpunt (per gebruiker), Windows Enterprise E5, Microsoft 365 Security of Microsoft 365 E5, of om de VM te laten gelicentieerd via Azure Defender.
+Opmerking over licenties: Wanneer u Windows 10 Enterprise meerdere sessies gebruikt, afhankelijk van uw vereisten, kunt u ervoor kiezen om alle gebruikers een licentie te geven via Microsoft Defender voor Eindpunt (per gebruiker), Windows Enterprise E5, Microsoft 365 Security of Microsoft 365 E5, of om de VM te laten gelicentieerd via Azure Defender.
 Licentievereisten voor Microsoft Defender voor eindpunten vindt u op: [Licentievereisten.](minimum-requirements.md#licensing-requirements)

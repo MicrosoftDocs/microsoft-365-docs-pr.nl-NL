@@ -13,12 +13,12 @@ ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: f996a8fdaf630c8ea389ac9648369cc955a6e95d
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: 15ea4696052a6c987314e3c7b0dd282a49ed4df8
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51569903"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842912"
 ---
 # <a name="evaluate-controlled-folder-access"></a>Beheerde maptoegang evalueren
 
@@ -31,7 +31,7 @@ ms.locfileid: "51569903"
 >Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-enablesiem-abovefoldlink)
 
 
-[Gecontroleerde maptoegang](controlled-folders.md) is een functie waarmee u uw documenten en bestanden kunt beschermen tegen wijzigingen door verdachte of schadelijke apps. Gecontroleerde maptoegang wordt ondersteund op Windows Server 2019- en Windows 10-clients.
+[Gecontroleerde maptoegang](controlled-folders.md) is een functie waarmee u uw documenten en bestanden kunt beschermen tegen wijzigingen door verdachte of schadelijke apps. Gecontroleerde maptoegang wordt ondersteund op Windows Server 2019 en Windows 10 clients.
 
 Het is vooral handig om te beschermen tegen [ransomware](https://www.microsoft.com/wdsi/threats/ransomware) die probeert uw bestanden te versleutelen en ze te laten gegijzeld.
 
@@ -52,20 +52,20 @@ Set-MpPreference -EnableControlledFolderAccess AuditMode
 
 > [!TIP]
 > Als u volledig wilt controleren hoe beheerde maptoegang in uw organisatie werkt, moet u een beheerhulpmiddel gebruiken om deze instelling te implementeren op apparaten in uw netwerk(en).
-U kunt ook Groepsbeleid, Intune, MDM (Mobile Device Management) of Microsoft Endpoint Manager gebruiken om de instelling te configureren en te implementeren, zoals wordt beschreven in het onderwerp Toegang tot hoofdbeheer van [mappen.](controlled-folders.md)
+U kunt ook Groepsbeleid, Intune, MDM (Mobile Device Management) of Microsoft Endpoint Manager gebruiken om de instelling te configureren en te implementeren, zoals wordt beschreven in het onderwerp Hoofdbeheer voor [maptoegang.](controlled-folders.md)
 
-## <a name="review-controlled-folder-access-events-in-windows-event-viewer"></a>Gecontroleerde maptoegangsgebeurtenissen bekijken in Windows Event Viewer
+## <a name="review-controlled-folder-access-events-in-windows-event-viewer"></a>Gecontroleerde maptoegangsgebeurtenissen controleren in Windows Gebeurtenisviewer
 
-De volgende beheerde maptoegangsgebeurtenissen worden weergegeven in Windows Event Viewer onder De map Microsoft/Windows/Windows Defender/Operational.
+De volgende gecontroleerde toegangsgebeurtenissen voor mappen worden weergegeven in Windows Gebeurtenisviewer onder Microsoft/Windows/Windows Defender/Operationele map.
 
-Gebeurtenis-id | Omschrijving
+Gebeurtenis-id | Beschrijving
 -|-
  5007 | Gebeurtenis wanneer instellingen worden gewijzigd
  1124 | Gecontroleerde gecontroleerde maptoegangsgebeurtenis
  1123 | Gebeurtenis Geblokkeerde gecontroleerde maptoegang
 
 > [!TIP]
-> U kunt een [Windows Event Forwarding-abonnement configureren om](https://docs.microsoft.com/windows/win32/wec/setting-up-a-source-initiated-subscription) de logboeken centraal te verzamelen. 
+> U kunt een abonnement [Windows gebeurtenis doorsturen configureren](/windows/win32/wec/setting-up-a-source-initiated-subscription) om de logboeken centraal te verzamelen. 
 
 ## <a name="customize-protected-folders-and-apps"></a>Beveiligde mappen en apps aanpassen
 

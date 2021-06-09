@@ -19,12 +19,12 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: fdaa4d7cbc24ae2ebe28d0856b413f4982fe6b01
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 00ed505b153e5af4d89038bdc53e988ee763827b
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51929047"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845640"
 ---
 # <a name="behavioral-blocking-and-containment"></a>Gedragsblokkering en -insluiting
 
@@ -38,19 +38,19 @@ ms.locfileid: "51929047"
 
 ## <a name="overview"></a>Overzicht
 
-Het huidige bedreigingslandschap wordt overlopen door bestandsloze [malware](https://docs.microsoft.com/windows/security/threat-protection/intelligence/fileless-threats) en die buiten het land leeft, zeer polymorfe bedreigingen die sneller muteren dan traditionele oplossingen, en door mensen beheerde aanvallen die zich aanpassen aan wat tegenstanders vinden op gecompromitteerde apparaten. Traditionele beveiligingsoplossingen zijn niet voldoende om dergelijke aanvallen te stoppen. u kunstmatige intelligentie (AI) en mogelijkheden voor het leren van apparaten (ML) nodig hebt, zoals het blokkeren en inperking van gedrag, opgenomen in [Defender voor Eindpunt.](https://docs.microsoft.com/windows/security) 
+Het huidige bedreigingslandschap wordt overlopen door bestandsloze [malware](/windows/security/threat-protection/intelligence/fileless-threats) en die buiten het land leeft, zeer polymorfe bedreigingen die sneller muteren dan traditionele oplossingen, en door mensen beheerde aanvallen die zich aanpassen aan wat tegenstanders vinden op gecompromitteerde apparaten. Traditionele beveiligingsoplossingen zijn niet voldoende om dergelijke aanvallen te stoppen. u hebt kunstmatige intelligentie (AI) en apparaatleren (ML) back-mogelijkheden nodig, zoals gedragsblokkering en insluiting, opgenomen in [Defender voor Eindpunt.](/windows/security) 
 
-Mogelijkheden voor het blokkeren en inperken van gedrag kunnen helpen bij het identificeren en stoppen van bedreigingen, op basis van hun gedrag en procesbomen, zelfs wanneer de bedreiging is gestart met de uitvoering. De volgende generatie beveiliging, EDR en Defender for Endpoint-onderdelen en -functies werken samen in de mogelijkheden voor het blokkeren en inperking van gedrag. 
+Mogelijkheden voor het blokkeren en inperken van gedrag kunnen helpen bij het identificeren en stoppen van bedreigingen, op basis van hun gedrag en procesbomen, zelfs wanneer de bedreiging is gestart met de uitvoering. De volgende generatie beveiliging, EDR en Defender voor endpoint-onderdelen en -functies werken samen in de mogelijkheden voor het blokkeren en inperking van gedrag. 
 
 :::image type="content" source="images/mdatp-next-gen-EDR-behavblockcontain.png" alt-text="Gedragsblokkering en -insluiting":::
 
 Functies voor het blokkeren en inperken van gedrag werken met meerdere onderdelen en functies van Defender voor Eindpunt om aanvallen onmiddellijk te stoppen en te voorkomen dat er aanvallen worden uitgevoerd.
 
-- [Beveiliging van de volgende generatie](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) (waaronder Microsoft Defender Antivirus) kan bedreigingen detecteren door gedrag te analyseren en bedreigingen te stoppen die zijn gestart.
+- [Beveiliging van de volgende generatie](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) (inclusief Microsoft Defender Antivirus) kan bedreigingen detecteren door gedrag te analyseren en bedreigingen te stoppen die zijn gestart.
 
-- [Endpoint detection and response](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response) (EDR) ontvangt beveiligingssignalen in uw netwerk, apparaten en kernelgedrag. Wanneer er bedreigingen worden gedetecteerd, worden waarschuwingen gemaakt. Meerdere waarschuwingen van hetzelfde type worden samengevoegd tot incidenten, waardoor uw team voor beveiligingsbewerkingen gemakkelijker kan onderzoeken en reageren.
+- [Eindpuntdetectie en -antwoord](/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response) (EDR) ontvangt beveiligingssignalen in uw netwerk, apparaten en kernelgedrag. Wanneer er bedreigingen worden gedetecteerd, worden waarschuwingen gemaakt. Meerdere waarschuwingen van hetzelfde type worden samengevoegd tot incidenten, waardoor uw team voor beveiligingsbewerkingen gemakkelijker kan onderzoeken en reageren.
 
-- [Defender voor Eindpunt](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response) heeft een breed scala aan optiek voor identiteiten, e-mail, gegevens en apps, naast de netwerk-, eindpunt- en kernelgedragssignalen die via EDR worden ontvangen. Een onderdeel van [Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/defender/microsoft-threat-protection), Defender for Endpoint verwerkt en correleert deze signalen, verhoogt detectiewaarschuwingen en verbindt gerelateerde waarschuwingen bij incidenten.
+- [Defender for Endpoint](/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response) heeft een breed scala aan optiek in identiteiten, e-mail, gegevens en apps, naast de netwerk-, eindpunt- en kernelgedragssignalen die via de EDR. Een onderdeel van [Microsoft 365 Defender](/microsoft-365/security/defender/microsoft-threat-protection), Defender voor eindpunt verwerkt en correleert deze signalen, verhoogt detectiewaarschuwingen en verbindt gerelateerde waarschuwingen bij incidenten.
 
 Met deze mogelijkheden kunnen meer bedreigingen worden voorkomen of geblokkeerd, zelfs als ze worden uitgevoerd. Wanneer verdacht gedrag wordt gedetecteerd, is de bedreiging opgenomen, worden waarschuwingen gemaakt en worden bedreigingen op hun sporen gestopt. 
 
@@ -60,15 +60,15 @@ In de volgende afbeelding ziet u een voorbeeld van een waarschuwing die is geact
 
 ## <a name="components-of-behavioral-blocking-and-containment"></a>Onderdelen van het blokkeren en inperking van gedrag
 
-- **On-client, policy-driven [attack surface reduction rules](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/attack-surface-reduction)** Vooraf gedefinieerde veelvoorkomende aanvalsgedrag kan niet worden uitgevoerd volgens de surface reduction-regels voor uw aanval. Wanneer dergelijke gedragingen worden uitgevoerd, kunnen ze in het Microsoft Defender-beveiligingscentrum worden gezien [https://securitycenter.windows.com](https://securitycenter.windows.com) als informatiewaarschuwingen. (Surface-beperkingsregels voor aanvallen zijn standaard niet ingeschakeld; u configureert uw beleid in het Microsoft Defender-beveiligingscentrum.)
+- **On-client, policy-driven [attack surface reduction rules](/microsoft-365/security/defender-endpoint/attack-surface-reduction)** Vooraf gedefinieerde veelvoorkomende aanvalsgedrag kan niet worden uitgevoerd volgens de surface reduction-regels voor uw aanval. Wanneer dergelijke gedragingen worden uitgevoerd, kunnen ze in de Microsoft Defender-beveiligingscentrum worden gezien [https://securitycenter.windows.com](https://securitycenter.windows.com) als informatiewaarschuwingen. (Surface-beperkingsregels voor aanvallen zijn standaard niet ingeschakeld; u configureert uw beleid in de Microsoft Defender-beveiligingscentrum.)
 
 - **[Clientgedragsblokkering](client-behavioral-blocking.md)** Bedreigingen op eindpunten worden gedetecteerd via machine learning en worden vervolgens automatisch geblokkeerd en gesaneerd. (Clientgedragsblokkering is standaard ingeschakeld.) 
 
 - **[Het blokkeren van feedbackluss](feedback-loop-blocking.md)** (ook wel snelle beveiliging genoemd) Detecties van bedreigingen worden waargenomen via gedragsinformatie. Bedreigingen worden gestopt en worden niet uitgevoerd op andere eindpunten. (Het blokkeren van feedbacklussen is standaard ingeschakeld.) 
 
-- **[Endpoint detection and response (EDR) in block mode](edr-in-block-mode.md)** Schadelijke artefacten of gedragingen die worden waargenomen via bescherming na inbreuk, worden geblokkeerd en opgenomen. EDR in de blokmodus werkt zelfs als Microsoft Defender Antivirus niet de primaire antivirusoplossing is. (EDR in de blokmodus is standaard niet ingeschakeld; u zet deze in in het Microsoft Defender-beveiligingscentrum.) 
+- **[Eindpuntdetectie en -antwoord (EDR) in de blokmodus](edr-in-block-mode.md)** Schadelijke artefacten of gedragingen die worden waargenomen via bescherming na inbreuk, worden geblokkeerd en opgenomen. EDR in de blokmodus werkt zelfs als Microsoft Defender Antivirus niet de primaire antivirusoplossing is. (EDR in de blokmodus is standaard niet ingeschakeld; u zet deze in de Microsoft Defender-beveiligingscentrum.) 
 
-Verwacht meer op het gebied van het blokkeren en inperking van gedrag, omdat Microsoft de functies en mogelijkheden voor bedreigingsbeveiliging blijft verbeteren. Als u wilt zien wat er nu is gepland en uitgerold, gaat u naar de routekaart voor [Microsoft 365.](https://www.microsoft.com/microsoft-365/roadmap)
+Verwacht meer op het gebied van het blokkeren en inperking van gedrag, omdat Microsoft de functies en mogelijkheden voor bedreigingsbeveiliging blijft verbeteren. Als u wilt zien wat er nu wordt gepland en uitgerold, gaat u [naar Microsoft 365 routekaart.](https://www.microsoft.com/microsoft-365/roadmap)
 
 ## <a name="examples-of-behavioral-blocking-and-containment-in-action"></a>Voorbeelden van gedrag blokkeren en inperking in actie
 
@@ -96,9 +96,9 @@ Op gedrag gebaseerde apparaatlerende modellen in Defender voor Eindpunt zijn op 
 - De eerste beveiligingslaag heeft het gedrag van de exploit gedetecteerd. Leerclassifiers voor apparaten in de cloud hebben de bedreiging correct geïdentificeerd als en hebben het clientapparaat onmiddellijk geïnstrueerd de aanval te blokkeren.
 - De tweede beveiligingslaag, waarmee de gevallen van de aanval voorbij de eerste laag werden gestopt, procesverholding werd gedetecteerd, dat proces werd gestopt en de bijbehorende bestanden (zoals Lokibot) werden verwijderd. 
 
-Terwijl de aanval werd gedetecteerd en gestopt, werden waarschuwingen, zoals een 'eerste toegangsmelding', geactiveerd en verschenen in het Microsoft Defender-beveiligingscentrum ( [https://securitycenter.windows.com](https://securitycenter.windows.com) ):
+Terwijl de aanval werd gedetecteerd en gestopt, werden waarschuwingen, zoals een 'eerste toegangsmelding', geactiveerd en in de Microsoft Defender-beveiligingscentrum ( [https://securitycenter.windows.com](https://securitycenter.windows.com) ):
 
-:::image type="content" source="images/behavblockcontain-initialaccessalert.png" alt-text="Waarschuwing voor eerste toegang in het Microsoft Defender-beveiligingscentrum":::
+:::image type="content" source="images/behavblockcontain-initialaccessalert.png" alt-text="Eerste toegangsmelding in de Microsoft Defender-beveiligingscentrum":::
 
 In dit voorbeeld ziet u hoe op gedrag gebaseerde leermodellen voor apparaten in de cloud nieuwe beveiligingslagen tegen aanvallen toevoegen, zelfs nadat ze zijn gestart met uitvoeren.
 
@@ -120,12 +120,12 @@ In dit voorbeeld ziet u dat met mogelijkheden voor het blokkeren en inperking va
 
 ## <a name="next-steps"></a>Volgende stappen
 
-- [Meer informatie over Defender voor Eindpunt](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response)
+- [Meer informatie over Defender voor Eindpunt](/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response)
 
 - [De surface reduction-regels voor aanvallen configureren](attack-surface-reduction.md)
 
-- [EDR inschakelen in de blokmodus](edr-in-block-mode.md)
+- [De EDR in de blokmodus inschakelen](edr-in-block-mode.md)
 
 - [Recente wereldwijde bedreigingsactiviteit bekijken](https://www.microsoft.com/wdsi/threats)
 
-- [Een overzicht van Microsoft 365 Defender ](https://docs.microsoft.com/microsoft-365/security/defender/microsoft-threat-protection)
+- [Een overzicht van Microsoft 365 Defender](/microsoft-365/security/defender/microsoft-threat-protection)

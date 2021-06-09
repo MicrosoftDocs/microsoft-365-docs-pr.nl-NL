@@ -12,12 +12,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: a107c6364e6766094724972e931606003e0c87f7
-ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
+ms.openlocfilehash: 3346f6b4d05eb514bf680f87eb8452d9fd4bab38
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51445194"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841988"
 ---
 # <a name="microsoft-managed-desktop-service-description"></a>Servicebeschrijving van Microsoft Managed Desktop
 
@@ -27,7 +27,7 @@ Microsoft Managed Desktop is een service die uw gebruikers een veilige, moderne 
 - Configuratie van apparaten
 - Functies om gebruikers en apparaten te beveiligen, inclusief Windows Hello, BitLocker, SecureBoot en beveiliging op basis van virtualisatie volgens de aanbevolen procedures van Microsoft
 - Beveiligingscontrole- en herstelservices voor apparaten
-- App-compatibiliteit via [App Assure](https://docs.microsoft.com/fasttrack/products-and-capabilities#app-assure)
+- App-compatibiliteit via [App Assure](/fasttrack/products-and-capabilities#app-assure)
 - Updatemanagement voor Windows 10-apps en Microsoft 365-apps voor ondernemingen
 - Analytische gegevens over apparaat- en app-gebruik
 - IT-ondersteuning voor uw gebruikers

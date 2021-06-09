@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: abb538972b48f8790286c0a546eecdd69fc83fb5
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: c86b53abf54788740c8c78cb0ecf9251b10ea8f7
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51862137"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842336"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-incidents"></a>Microsoft Defender voor eindpuntincidenten beheren
 
@@ -81,6 +81,6 @@ Toegevoegde opmerkingen worden direct weergegeven in het deelvenster.
 
 
 ## <a name="related-topics"></a>Verwante onderwerpen
-- [Incidentenwachtrij](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/view-incidents-queue)
+- [Incidentenwachtrij](/microsoft-365/security/defender-endpoint/view-incidents-queue)
 - [De incidentenwachtrij weergeven en organiseren](view-incidents-queue.md)
 - [Incidenten onderzoeken](investigate-incidents.md)

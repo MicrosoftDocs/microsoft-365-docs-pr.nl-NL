@@ -15,12 +15,12 @@ localization_priority: None
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b245a0f7ca0845024fec0c498aca4c7d447f14ad
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: ce387799a2f9e6d6cdffe063d3adf7310d7e7757
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "52162262"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842720"
 ---
 # <a name="define-information-barrier-policies"></a>Beleid voor informatiebelemmering definiëren
 
@@ -71,12 +71,12 @@ Zorg er naast [de vereiste licenties en machtigingen](information-barriers.md#re
 - Geen adresboekbeleid: voordat u beleidsregels voor informatiebarrières definieert en toe te passen, moet Exchange adresboekbeleid zijn toegepast. Informatiebarrières zijn gebaseerd op adresboekbeleid, maar de twee soorten beleidsregels zijn niet compatibel. Als u dergelijke beleidsregels hebt, moet u eerst [uw adresboekbeleid verwijderen.](/exchange/address-books/address-book-policies/remove-an-address-book-policy) Wanneer beleidsregels voor informatiebarrière zijn ingeschakeld en u een hiërarchisch adresboek hebt ingeschakeld, zien alle gebruikers die niet zijn opgenomen ***in*** een informatiebarrièresegment het hiërarchische adresboek [in](/exchange/address-books/hierarchical-address-books/hierarchical-address-books) Exchange online.
 
 - PowerShell: op dit moment worden beleidsregels voor informatiebarrières gedefinieerd en beheerd in het Office 365 Beveiligingscentrum & PowerShell-cmdlets. Hoewel in dit artikel verschillende voorbeelden worden gegeven, moet u bekend zijn met PowerShell-cmdlets en -parameters. U hebt ook de module Azure PowerShell nodig.
-    - [Verbinding maken beveiligingscentrum & PowerShell](/powershell/exchange/connect-to-scc-powershell)
+    - [Verbinding maken met Beveiligings- en compliancecentrum van Powershell](/powershell/exchange/connect-to-scc-powershell)
     - [De module Azure PowerShell installeren](/powershell/azure/install-az-ps?view=azps-2.3.2)
 
 - Toestemming van beheerder voor informatiebarrières in Microsoft Teams: wanneer uw IB-beleid van de hand is, kunnen niet-IB-compliancegebruikers worden verwijderd uit groepen (dat wil zeggen Teams-kanalen, die zijn gebaseerd op groepen). Met deze configuratie kunt u ervoor zorgen dat uw organisatie voldoet aan beleidsregels en voorschriften. Gebruik de volgende procedure om het beleid voor informatiebarrières te laten werken zoals verwacht in Microsoft Teams.
 
-   1. Voorwaarde: Installatie Azure PowerShell installatie van [Azure PowerShell.](https://docs.microsoft.com/powershell/azure/install-az-ps)
+   1. Voorwaarde: Installatie Azure PowerShell installatie van [Azure PowerShell.](/powershell/azure/install-az-ps)
 
    1. Voer de volgende PowerShell-cmdlets uit:
 

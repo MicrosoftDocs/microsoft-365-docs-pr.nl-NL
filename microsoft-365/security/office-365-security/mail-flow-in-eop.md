@@ -15,12 +15,12 @@ ms.custom:
 description: Beheerder kan meer informatie krijgen over de opties voor het configureren van e-mailstroom en routering in Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2ad80c4176c1b8b1c47b6b9ecafd34b4ca301f3f
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 9636025796aee1ba2027edff38a16f131974134f
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52623415"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842492"
 ---
 # <a name="mail-flow-in-eop"></a>E-mailstroom in EOP
 
@@ -39,7 +39,7 @@ EOP biedt flexibiliteit in de manier waarop uw berichten worden gerouteerd. In d
 
 [Randblokkering op basis van adreslijst gebruiken om berichten te weigeren die naar ongeldige geadresseerden zijn verzonden](/exchange/mail-flow-best-practices/use-directory-based-edge-blocking) Beschrijft de functie Randblokkering op basis van adreslijst waarmee u berichten voor ongeldige geadresseerden kunt weigeren in de perimeter van het servicenetwerk.
 
-[In Beheerde domeinen weergeven](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains) of bewerken in EOP wordt beschreven hoe u domeinen beheert die zijn gekoppeld aan uw EOP-service.
+[Geaccepteerde domeinen weergeven of bewerken in EOP](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains) beschrijft hoe u domeinen beheert die zijn gekoppeld aan uw EOP-service.
 
 Als u subdomeinen toevoegt aan uw organisatie, kan uw EOP-service u helpen deze ook te beheren. Meer informatie over subdomeinen bij [E-mailstroom inschakelen voor subdomeinen in](/exchange/mail-flow-best-practices/manage-accepted-domains/enable-mail-flow-for-subdomains)Exchange Online.
 
@@ -47,7 +47,7 @@ Als u subdomeinen toevoegt aan uw organisatie, kan uw EOP-service u helpen deze 
 
 [Verbeterde filtering voor verbindingslijnen](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors) beschrijft hoe u verbindingslijnen configureert als uw e-mail wordt doorgestuurd naar een service of apparaat vóór EOP.
 
-In hybride omgevingen waarin EOP on-premises Exchange-postvakken beschermt, moet u regels voor e-mailstroom (ook wel transportregels genoemd) configureren in on-premises Exchange om de uitspraak voor EOP-spamfilters te vertalen, zodat de regel voor ongewenste e-mail het bericht naar de map Ongewenste e-mail kan verplaatsen. Zie [EOP configureren voor spam](/exchange/standalone-eop/configure-eop-spam-protection-hybrid)in de map Ongewenste e-mail in hybride omgevingen voor meer informatie. Als u berichten niet naar de map Ongewenste e-mail van elke gebruiker wilt verplaatsen, kunt u een andere actie kiezen door uw antispambeleid te bewerken (ook wel bekend als beleid voor inhoudsfilters). Zie [Antispambeleid configureren](configure-your-spam-filter-policies.md) voor meer informatie.
+In hybride omgevingen waar EOP on-premises Exchange-postvakken beschermt, moet u regels voor e-mailstroom (ook wel transportregels genoemd) configureren in on-premises Exchange om de EOP-spamfilterbeoordeling te vertalen, zodat de regel voor ongewenste e-mail het bericht kan verplaatsen naar de map Ongewenste e-mail. Zie [EOP configureren om in hybride omgevingen spam te bezorgen in de map Ongewenste e-mail](/exchange/standalone-eop/configure-eop-spam-protection-hybrid) voor meer informatie.  Als u berichten niet naar de map Ongewenste e-mail van elke gebruiker wilt verplaatsen, kunt u een andere actie kiezen door uw antispambeleid te bewerken (ook wel bekend als beleid voor inhoudsfilters). Zie [Antispambeleid configureren](configure-your-spam-filter-policies.md) voor meer informatie.
 
 ## <a name="verify-mail-flow"></a>E-mailstroom controleren
 

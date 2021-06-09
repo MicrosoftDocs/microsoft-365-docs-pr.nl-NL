@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 91295135c833c6b403078bdfd517c7b84ec7d630
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: a5590e62e7838bb9f611320b6d0e5c573b2be084
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932845"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841556"
 ---
 # <a name="optimize-asr-rule-deployment-and-detections"></a>Asr-regelimplementatie en -detecties optimaliseren
 
@@ -38,21 +38,21 @@ ms.locfileid: "51932845"
 ![Surface-beheerkaart voor aanvallen](images/secconmgmt_asr_card.png)<br>
 *Surface-beheerkaart voor aanvallen*
 
-De *Surface Management-kaart Attack* is een toegangspunt voor hulpprogramma's in het Microsoft 365-beveiligingscentrum waarmee u het volgende kunt doen:
+De *Surface Management-kaart Attack* is een toegangspunt voor hulpmiddelen in Microsoft 365 beveiligingscentrum waarmee u het volgende kunt doen:
 
 * Meer inzicht in de manier waarop ASR-regels momenteel worden geïmplementeerd in uw organisatie.
 * Controleer ASR-detecties en identificeer mogelijke onjuiste detecties.
 * Analyseer de impact van uitsluitingen en genereer de lijst met bestandspaden die u wilt uitsluiten.
 
-Selecteer **Ga naar aanval op surface management** Monitoring & rapporten > Attack surface reduction rules > Add  >  **exclusions**. Hier kunt u naar andere secties van het Microsoft 365-beveiligingscentrum navigeren.
+Selecteer **Ga naar aanval op surface management** Monitoring & rapporten > Attack surface reduction rules > Add  >  **exclusions**. Hier kunt u naar andere secties van het Microsoft 365 gaan.
 
-![Tabblad Uitsluitingen toevoegen op de pagina Surface-regels voor aanvallen in het Microsoft 365-beveiligingscentrum](images/secconmgmt_asr_m365exlusions.png)<br>
-Het ***tabblad Uitsluitingen toevoegen** op de pagina Surface-regels voor aanvallen in het Microsoft 365-beveiligingscentrum*
+![Tabblad Uitsluitingen toevoegen op de pagina Surface-regels voor aanvallen in Microsoft 365 beveiligingscentrum](images/secconmgmt_asr_m365exlusions.png)<br>
+Het ***tabblad Uitsluitingen toevoegen** op de pagina Surface-regels voor aanvallen in Microsoft 365 beveiligingscentrum*
 
 > [!NOTE]
-> Als u toegang wilt tot het Microsoft 365-beveiligingscentrum, hebt u een Microsoft 365 E3- of E5-licentie en een account met bepaalde rollen in Azure Active Directory nodig. [Lees meer over vereiste licenties en machtigingen.](https://docs.microsoft.com/office365/securitycompliance/microsoft-security-and-compliance#required-licenses-and-permissions)
+> Als u Microsoft 365 beveiligingscentrum wilt openen, hebt u een Microsoft 365 E3 of E5-licentie en een account met bepaalde rollen in Azure Active Directory. [Lees meer over vereiste licenties en machtigingen.](/office365/securitycompliance/microsoft-security-and-compliance#required-licenses-and-permissions)
 
-Zie Asr-regelimplementatie en -detecties bewaken en beheren voor meer informatie over de implementatie van [ASR-regels](https://docs.microsoft.com/office365/securitycompliance/monitor-devices#monitor-and-manage-asr-rule-deployment-and-detections)in het Microsoft 365-beveiligingscentrum.
+Zie ASR-regelimplementatie en -detecties bewaken en beheren voor meer informatie over de implementatie van ASR-regels in Microsoft 365 [beveiligingscentrum.](/office365/securitycompliance/monitor-devices#monitor-and-manage-asr-rule-deployment-and-detections)
 
 **Verwante onderwerpen**
 

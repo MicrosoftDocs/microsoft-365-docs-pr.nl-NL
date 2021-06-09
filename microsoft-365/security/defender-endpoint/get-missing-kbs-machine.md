@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 97cad51938c4ff3498234dbf2e9d69fd48a52367
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 63400295061cd7adc58a4ddebf73f4c82b0cc969
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52771871"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845232"
 ---
 # <a name="get-missing-kbs-by-device-id"></a>Ontbrekende KBs op apparaat-id krijgen
 
@@ -45,7 +45,7 @@ GET /api/machines/{machineId}/getmissingkbs
 
 ## <a name="request-header"></a>Koptekst aanvragen
 
-Naam | Type | Omschrijving
+Naam | Type | Beschrijving
 :---|:---|:---
 Autorisatie | Tekenreeks | Bearer {token}. **Vereist**.
 
@@ -95,5 +95,5 @@ Hier is een voorbeeld van het antwoord.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-- [Risicogebaseerd bedreigingsbeheer & kwetsbaarheidsbeheer](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
-- [Inventaris van & beveiligingsprobleemsoftware](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-software-inventory)
+- [Risicogebaseerd bedreigingsbeheer & kwetsbaarheidsbeheer](/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
+- [Inventaris van & beveiligingsprobleemsoftware](/microsoft-365/security/defender-endpoint/tvm-software-inventory)

@@ -21,12 +21,12 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: f025f23242c28f698e6f67755cc59d21c4463914
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: c8d3838194c25ba49b2611dc355b21e228291b01
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782943"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842525"
 ---
 # <a name="remediation-actions-in-microsoft-365-defender"></a>Herstelacties in Microsoft 365 Defender
 
@@ -74,7 +74,7 @@ Naast herstelacties die volgen op geautomatiseerde onderzoeken, kan uw beveiligi
 - Handmatige e-mailactie, zoals het verwijderen van e-mailberichten 
 - [Geavanceerde zoekactie](../defender-endpoint/advanced-hunting-overview.md) op apparaten of e-mail
 - [Explorer-actie](../office-365-security/threat-explorer.md) voor e-mailinhoud, zoals het verplaatsen van e-mail naar ongewenste e-mail, zacht verwijderen van e-mail of moeilijk verwijderen van e-mail
-- Handmatige [livereactieactie,](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/live-response) zoals het verwijderen van een bestand, het stoppen van een proces en het verwijderen van een geplande taak
+- Handmatige [livereactieactie,](/windows/security/threat-protection/microsoft-defender-atp/live-response) zoals het verwijderen van een bestand, het stoppen van een proces en het verwijderen van een geplande taak
 - Live response action with [Microsoft Defender for Endpoint API's](../defender-endpoint/management-apis.md#microsoft-defender-for-endpoint-apis), such as isolating a device, running a antivirus scan, and getting information about a file
 
 ## <a name="next-steps"></a>Volgende stappen

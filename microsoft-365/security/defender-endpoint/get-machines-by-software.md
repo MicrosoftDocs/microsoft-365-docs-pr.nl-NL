@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: e1adf28823d6b86417c32578a89480958946c50d
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 8312818fe06b5a25ae32bf1f9585a51fe8848de6
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770551"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845376"
 ---
 # <a name="list-devices-by-software"></a>Apparaten per softwarelijst maken
 
@@ -54,7 +54,7 @@ GET /api/Software/{Id}/machineReferences
 
 ## <a name="request-headers"></a>Kopteksten aanvragen
 
-| Naam        | Type | Omschrijving
+| Naam        | Type | Beschrijving
 |:--------------|:-------|:--------------|
 | Autorisatie | Tekenreeks | Bearer {token}. **Vereist**.
 
@@ -102,5 +102,5 @@ Hier is een voorbeeld van het antwoord.
 ```
 
 ## <a name="related-topics"></a>Verwante onderwerpen
-- [Risicogebaseerd bedreigingsbeheer & kwetsbaarheidsbeheer](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
-- [Inventaris van & beveiligingsprobleemsoftware](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-software-inventory)
+- [Risicogebaseerd bedreigingsbeheer & kwetsbaarheidsbeheer](/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
+- [Inventaris van & beveiligingsprobleemsoftware](/microsoft-365/security/defender-endpoint/tvm-software-inventory)

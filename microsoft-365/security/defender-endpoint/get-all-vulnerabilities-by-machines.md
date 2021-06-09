@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 3aa58f3df4a4c3562cbd4dfbf6113c30816e2a0f
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 01e14be20cee2b8644ebe5d1d1212f921a2fb9b5
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769195"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841520"
 ---
 # <a name="list-vulnerabilities-by-machine-and-software"></a>Lijst van beveiligingsproblemen per computer en software
 
@@ -61,7 +61,7 @@ GET /api/vulnerabilities/machinesVulnerabilities
 
 ## <a name="request-headers"></a>Kopteksten aanvragen
 
-Naam | Type | Omschrijving
+Naam | Type | Beschrijving
 :---|:---|:---
 Autorisatie | Tekenreeks | Bearer {token}. **Vereist**.
 
@@ -120,5 +120,5 @@ Hier is een voorbeeld van het antwoord.
 
 ## <a name="see-also"></a>Zie ook
 
-- [Risicogebaseerde Threat and Vulnerability Management](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
-- [Beveiligingslekken in uw organisatie](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-weaknesses)
+- [Risicogebaseerde Threat and Vulnerability Management](/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
+- [Beveiligingslekken in uw organisatie](/microsoft-365/security/defender-endpoint/tvm-weaknesses)

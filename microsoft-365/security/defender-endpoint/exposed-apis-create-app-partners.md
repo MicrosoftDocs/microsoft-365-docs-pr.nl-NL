@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 6182b4cb0d1f648f33c3a7fc4da4c648d8996bcd
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 5546b69fa924025491e1762d199678fa549a9c7c
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770611"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842144"
 ---
 # <a name="partner-access-through-microsoft-defender-for-endpoint-apis"></a>Partnertoegang via Microsoft Defender voor eindpunt-API's
 
@@ -40,7 +40,7 @@ ms.locfileid: "52770611"
 Op deze pagina wordt beschreven hoe u een Azure Active Directory (Azure AD) maakt om programmatische toegang te krijgen tot Microsoft Defender voor Eindpunt namens uw klanten.
 
 
-In Microsoft Defender voor Eindpunt worden veel van de gegevens en acties via een set programmatische API's beschikbaar. Met deze API's kunt u werkstromen automatiseren en innoveren op basis van de mogelijkheden van Microsoft Defender voor eindpunten. Voor de API-toegang is OAuth2.0-verificatie vereist. Zie [OAuth 2.0 Autorisatiecode](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)voor Flow.
+In Microsoft Defender voor Eindpunt worden veel van de gegevens en acties via een set programmatische API's beschikbaar. Met deze API's kunt u werkstromen automatiseren en innoveren op basis van de mogelijkheden van Microsoft Defender voor eindpunten. Voor de API-toegang is OAuth2.0-verificatie vereist. Zie [OAuth 2.0 Autorisatiecode](/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)voor Flow.
 
 Over het algemeen moet u de volgende stappen nemen om de API's te gebruiken:
 - Maak een **Azure AD-toepassing met** meerdere tenants.
@@ -139,7 +139,7 @@ In de volgende stappen vindt u informatie over het maken van een Azure AD-toepas
 
 **Opmerking:** Als u namens uw klant toegang wilt krijgen tot het token, gebruikt u de tenant-id van de klant voor de volgende tokenovernames.
 
-<br>Zie AAD-zelfstudie voor meer informatie over [AAD-token](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds)
+<br>Zie AAD-zelfstudie voor meer informatie over [AAD-token](/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds)
 
 ### <a name="using-powershell"></a>PowerShell gebruiken
 

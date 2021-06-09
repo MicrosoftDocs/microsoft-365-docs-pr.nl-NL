@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 8fc9bb53fd2cfe768710129704c13ee751a695a2
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: d5a59c3cd57aa369b1edb46eebddffb84a2b8c78
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770443"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845148"
 ---
 # <a name="list-vulnerabilities-by-recommendation"></a>Lijst van beveiligingsproblemen per aanbeveling
 
@@ -54,7 +54,7 @@ GET /api/recommendations/{id}/vulnerabilities
 
 ## <a name="request-headers"></a>Kopteksten aanvragen
 
-Naam | Type | Omschrijving
+Naam | Type | Beschrijving
 :---|:---|:---
 Autorisatie | Tekenreeks | Bearer {token}. **Vereist**.
 
@@ -105,5 +105,5 @@ Hier is een voorbeeld van het antwoord.
 ```
 
 ## <a name="related-topics"></a>Verwante onderwerpen
-- [Risicogebaseerd bedreigingsbeheer & kwetsbaarheidsbeheer](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
-- [Aanbeveling & beveiligingsaanbeveling voor bedreigingen](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-security-recommendation)
+- [Risicogebaseerd bedreigingsbeheer & kwetsbaarheidsbeheer](/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
+- [Aanbeveling & beveiligingsaanbeveling voor bedreigingen](/microsoft-365/security/defender-endpoint/tvm-security-recommendation)

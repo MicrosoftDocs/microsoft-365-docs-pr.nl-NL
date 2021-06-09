@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 87305f28975b8997afce211ffa4de3711d26be6b
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 7fd9ec25c21b2d70238bd5b0d6b58b60731088ea
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52246366"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845472"
 ---
 # <a name="configure-advanced-features-in-defender-for-endpoint"></a>Geavanceerde functies configureren in Defender voor Eindpunt
 
@@ -167,7 +167,7 @@ Wanneer u deze functie in gebruik neemt, kunt u gegevens van Microsoft Defender 
 > [!NOTE]
 > U moet over de juiste licentie beschikken om deze functie in te stellen.
 
-Als u contextuele apparaatintegratie wilt ontvangen in Office 365 Threat Intelligence, moet u de instellingen van Defender voor Eindpunt inschakelen in het dashboard & Compliance. Zie Bedreigingsonderzoek [en -antwoord voor meer informatie.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-ti)
+Als u contextuele apparaatintegratie wilt ontvangen in Office 365 Threat Intelligence, moet u de instellingen van Defender voor Eindpunt inschakelen in het dashboard & Compliance. Zie Bedreigingsonderzoek [en -antwoord voor meer informatie.](/microsoft-365/security/office-365-security/office-365-ti)
 
 ## <a name="microsoft-threat-experts---targeted-attack-notifications"></a>Microsoft Threat Experts - Meldingen van gerichte aanvallen
 
@@ -212,7 +212,7 @@ Nadat u [](/microsoft-365/compliance/insider-risk-management-settings#indicators
 
 ## <a name="microsoft-intune-connection"></a>Microsoft Intune verbinding
 
-Defender for Endpoint kan worden geïntegreerd [met](https://docs.microsoft.com/intune/what-is-intune) Microsoft Intune om voorwaardelijke toegang op basis van [apparaatrisico's in te stellen.](https://docs.microsoft.com/intune/advanced-threat-protection#enable-windows-defender-atp-in-intune) Wanneer u [deze functie in gebruikt,](configure-conditional-access.md)kunt u de apparaatgegevens van Defender voor eindpunt delen met Intune, waardoor de handhaving van het beleid wordt vergroot.
+Defender for Endpoint kan worden geïntegreerd [met](/intune/what-is-intune) Microsoft Intune om voorwaardelijke toegang op basis van [apparaatrisico's in te stellen.](/intune/advanced-threat-protection#enable-windows-defender-atp-in-intune) Wanneer u [deze functie in gebruikt,](configure-conditional-access.md)kunt u de apparaatgegevens van Defender voor eindpunt delen met Intune, waardoor de handhaving van het beleid wordt vergroot.
 
 > [!IMPORTANT]
 > U moet de integratie van zowel Intune als Defender voor Endpoint inschakelen om deze functie te kunnen gebruiken. Zie Voorwaardelijke toegang [configureren in Defender voor eindpunt](configure-conditional-access.md)voor meer informatie over specifieke stappen.
@@ -220,7 +220,7 @@ Defender for Endpoint kan worden geïntegreerd [met](https://docs.microsoft.com/
 Deze functie is alleen beschikbaar als u het volgende hebt:
 
 - Een licentie tenant voor Enterprise Mobility + Security E3 en Windows E5 (of Microsoft 365 Enterprise E5)
-- Een actieve Microsoft Intune omgeving, met intune beheerde Windows 10 [Azure AD-joined](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-ad-join/).
+- Een actieve Microsoft Intune omgeving, met intune beheerde Windows 10 [Azure AD-joined](/azure/active-directory/devices/concept-azure-ad-join/).
 
 
 ### <a name="conditional-access-policy"></a>Beleid voor voorwaardelijke toegang
@@ -228,7 +228,7 @@ Deze functie is alleen beschikbaar als u het volgende hebt:
 Wanneer u Intune-integratie inschakelen, wordt in Intune automatisch een klassiek CA-beleid (Conditional Access) aan het maken. Dit klassieke CA-beleid is een vereiste voor het instellen van statusrapporten op Intune. Het moet niet worden verwijderd.
 
 > [!NOTE]
-> Het klassieke CA-beleid dat door Intune is gemaakt, verschilt van het moderne beleid voor Voorwaardelijke [toegang,](https://docs.microsoft.com/azure/active-directory/conditional-access/overview/)dat wordt gebruikt voor het configureren van eindpunten.
+> Het klassieke CA-beleid dat door Intune is gemaakt, verschilt van het moderne beleid voor Voorwaardelijke [toegang,](/azure/active-directory/conditional-access/overview/)dat wordt gebruikt voor het configureren van eindpunten.
 
 
 ## <a name="device-discovery"></a>Apparaatdetectie

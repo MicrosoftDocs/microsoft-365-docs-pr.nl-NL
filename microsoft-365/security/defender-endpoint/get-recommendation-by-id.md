@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 4ec4758453f43cb211143918ed5fe8fe83e91c3f
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 66eb9c838e351a75ff68f40e9179cfeeb9bf9d4e
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52771799"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845184"
 ---
 # <a name="get-recommendation-by-id"></a>Aanbevelingen per id ophalen
 
@@ -55,7 +55,7 @@ GET /api/recommendations/{id}
 
 ## <a name="request-headers"></a>Kopteksten aanvragen
 
-Naam | Type | Omschrijving
+Naam | Type | Beschrijving
 :---|:---|:---
 Autorisatie | Tekenreeks | Bearer {token}. **Vereist**.
 
@@ -108,5 +108,5 @@ Hier is een voorbeeld van het antwoord.
 ```
 
 ## <a name="related-topics"></a>Verwante onderwerpen
-- [Risicogebaseerd bedreigingsbeheer & kwetsbaarheidsbeheer](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
-- [Aanbeveling & beveiligingsaanbeveling voor bedreigingen](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-security-recommendation)
+- [Risicogebaseerd bedreigingsbeheer & kwetsbaarheidsbeheer](/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
+- [Aanbeveling & beveiligingsaanbeveling voor bedreigingen](/microsoft-365/security/defender-endpoint/tvm-security-recommendation)
