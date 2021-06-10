@@ -234,7 +234,7 @@ De AVG verleent personen (of, betrokkenen) bepaalde rechten met betrekking tot d
     
 Zie [DSR (Data Subject Requests) voor AVG voor](https://www.trustcenter.cn/privacy/gdpr-office365.mdl)meer informatie en instructies.
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Probeer of koop een abonnement Microsoft 365 voor bedrijven](../../commerce/try-or-buy-microsoft-365.md) (artikel)\
 [Ondersteuning voor Azure Information Protection voor Office 365 beheerd door 21Vianet](parity-between-azure-information-protection.md) (artikel)\

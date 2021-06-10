@@ -29,7 +29,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 99bfbf81-e719-4630-9b0f-c187edfa1f8a
-description: Met AutoPilot-profielen kunt u bepalen hoe Windows wordt geïnstalleerd op gebruikersapparaten. De profielen bevatten standaardinstellingen en optionele instellingen, zoals Cortana-installatie overslaan.
+description: Met AutoPilot-profielen kunt u bepalen hoe Windows worden geïnstalleerd op gebruikersapparaten. De profielen bevatten standaardinstellingen en optionele instellingen, zoals Cortana-installatie overslaan.
 ms.openlocfilehash: 86f8718131f0a0b93e18e65e39e02e7d65aded1a
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -47,9 +47,9 @@ U kunt AutoPilot-profielen gebruiken om te bepalen hoe Windows is geïnstalleerd
   
 |**Instelling**|**Beschrijving**|
 |:-----|:-----|
-|Cortana-, OneDrive- en OEM-registratie overslaan  <br/> |Het installeren van consumentenapplicaties zoals Cortana en persoonlijke OneDrive wordt overgeslagen. De apparaatgebruiker kan deze later installeren zolang de gebruiker een lokale beheerder op het apparaat is. De oorspronkelijke fabrikantregistratie wordt overgeslagen omdat het apparaat wordt beheerd door Microsoft 365 Business Premium.  <br/> |
-|Aanmeldervaring met de huisstijl van uw bedrijf  <br/> |Als uw bedrijf de naam [Add your company branding to Microsoft 365 Sign In page](../admin/setup/customize-sign-in-page.md)heeft, krijgt de apparaatgebruiker die ervaring bij het aanmelden.  <br/> |
-|Automatische inschrijving van MDM met geconfigureerde AAD-accounts.  <br/> |De gebruikersidentiteit wordt beheerd door Azure Active Directory en gebruikers melden zich aan bij Windows en Microsoft 365 met hun Microsoft 365 Business Premium-referenties.  <br/> |
+|Cortana, OneDrive en OEM-registratie overslaan  <br/> |Het installeren van consumentenapplicaties zoals Cortana en persoonlijke OneDrive wordt overgeslagen. De apparaatgebruiker kan deze later installeren zolang de gebruiker een lokale beheerder op het apparaat is. De oorspronkelijke registratie van de fabrikant wordt overgeslagen omdat het apparaat wordt beheerd door Microsoft 365 Business Premium.  <br/> |
+|Aanmeldervaring met de huisstijl van uw bedrijf  <br/> |Als uw bedrijf de naam [Add your company branding to Microsoft 365 Sign In page](../admin/setup/customize-sign-in-page.md)heeft, krijgt de apparaatgebruiker deze ervaring bij het aanmelden.  <br/> |
+|Automatische inschrijving van MDM met geconfigureerde AAD-accounts.  <br/> |De gebruikersidentiteit wordt beheerd door Azure Active Directory en gebruikers melden zich aan bij Windows en Microsoft 365 met hun Microsoft 365 Business Premium referenties.  <br/> |
    
  **Optionele instellingen:**
   

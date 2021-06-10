@@ -35,19 +35,19 @@ ms.locfileid: "50909284"
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-Als u Office 2007-producten en -services gebruikt, moet u er rekening mee houden dat de ondersteuning voor deze toepassingen is beëindigd. Overweeg om over te gaan naar de Microsoft-cloud, te beginnen met Microsoft 365. Gebruik dit artikel als uitgangspunt om uw opties te bekijken en de upgrade te plannen.
+Als u gebruik maakt van Office 2007-producten en -services, moet u er rekening mee houden dat de ondersteuning voor deze toepassingen is beëindigd. Overweeg om over te gaan naar de Microsoft-cloud, te beginnen met Microsoft 365. Gebruik dit artikel als uitgangspunt om uw opties te bekijken en de upgrade te plannen.
       
-## <a name="office-2007-planning-roadmaps"></a>Planningsplannen voor Office 2007
+## <a name="office-2007-planning-roadmaps"></a>Office planningsplannen voor 2007
   
-De ondersteuning voor Office 2007-producten en -services is beëindigd. Met de volgende routekaarten kunt u uw upgrade nu plannen.
+De ondersteuning is beëindigd voor Office 2007-producten en -services. Met de volgende routekaarten kunt u uw upgrade nu plannen.
 
 |**Inhoud plannen**|**Datumondersteuning beëindigd**|
 |:-----|:-----|
-|[Routekaart voor het einde van ondersteuning van Office 2007](/DeployOffice/office-2007-end-support-roadmap) <br/> |10 oktober 2017  <br/> |
+|[Office 2007 einde van de ondersteuningsroutekaart](/DeployOffice/office-2007-end-support-roadmap) <br/> |10 oktober 2017  <br/> |
 |[Roadmap voor einde van ondersteuning voor Exchange 2007](exchange-2007-end-of-support.md) <br/> |11 april 2017  <br/> |
 |[Roadmap voor het einde van de levensduur van SharePoint Server 2007](sharepoint-2007-end-of-support.md) <br/> |10 oktober 2017  <br/> |
 |[Roadmap voor einde van ondersteuning voor Project Server 2007](project-server-2007-end-of-support.md) <br/> |10 oktober 2017  <br/> |
-|[Upgrade van Office Communications Server](/SkypeForBusiness/plan-your-deployment/upgrade) <br/> |8 januari 2018  <br/> |
+|[Upgraden van Office Communications Server](/SkypeForBusiness/plan-your-deployment/upgrade) <br/> |8 januari 2018  <br/> |
 |[Roadmap voor einde van ondersteuning voor PerformancePoint Server 2007](pps-2007-end-of-support.md) <br/> |9 januari 2018  <br/> |
    
 Nadat de ondersteuning voor een Microsoft-product is beëindigd, zijn er geen meer:
@@ -60,7 +60,7 @@ Of u nu een ondernemingsorganisatie of een individuele thuisgebruiker bent, u he
 
 ## <a name="im-a-home-user-what-do-i-do"></a>Ik ben een thuisgebruiker. Wat moet ik doen?
 
-Zie deze informatie als u Office 2007-producten en -toepassingen thuis [gebruikt.](plan-upgrade-previous-versions-office.md#im-a-home-user-what-do-i-do)
+Als u thuis Office 2007-producten en -toepassingen gebruikt, bekijkt u [deze informatie.](plan-upgrade-previous-versions-office.md#im-a-home-user-what-do-i-do)
      
 ## <a name="related-topics"></a>Verwante onderwerpen
 
@@ -68,4 +68,4 @@ Zie deze informatie als u Office 2007-producten en -toepassingen thuis [gebruikt
   
 [Levenscyclusbeleid van Microsoft](/lifecycle/)
 
-[Uw upgrade plannen vanaf office 2007- of Office 2010-servers en -clients](plan-upgrade-previous-versions-office.md)
+[Uw upgrade plannen Office 2007 of Office 2010-servers en -clients](plan-upgrade-previous-versions-office.md)

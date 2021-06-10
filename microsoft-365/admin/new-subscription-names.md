@@ -34,7 +34,7 @@ We hebben enkele namen van de Office 365- en Microsoft 365-abonnementen gewijzig
 
 [Meer informatie!](https://go.microsoft.com/fwlink/?linkid=2120533)
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Abonnementen en facturering](../commerce/index.yml) (koppelingen)\
 [Uw rekening of factuur bekijken](../commerce/billing-and-payments/view-your-bill-or-invoice.md) (artikel)\

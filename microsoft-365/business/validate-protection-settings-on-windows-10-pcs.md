@@ -22,7 +22,7 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
-description: Valideer de beveiligingsinstellingen van Microsoft 365 Business Premium-apps op Windows 10-apparaten en controleer of gebruikers bedrijfsgegevens niet kunnen kopiëren naar persoonlijke bestanden of niet-beheerde apps.
+description: Valideer Microsoft 365 Business Premium instellingen voor app-beveiliging op Windows 10 apparaten en controleer of gebruikers geen bedrijfsgegevens kunnen kopiëren naar persoonlijke bestanden of niet-beheerde apps.
 ms.openlocfilehash: e319ffa5149f055b5de45078facc8899acffc223
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -34,11 +34,11 @@ ms.locfileid: "51579857"
 
 ## <a name="verify-that-users-cannot-copy-company-data-to-personal-files-on-corporate-devices"></a>Controleren of gebruikers geen bedrijfsgegevens kunnen kopiëren naar persoonlijke bestanden op bedrijfsapparaten
 
-Nadat u [beveiligingsbeleid voor apps hebt ingesteld](protection-settings-for-windows-10-devices.md), kan het enkele uren duren voordat het beleid van kracht wordt op apparaten van gebruikers. Als u  De instelling Voorkomen dat gebruikers bedrijfsgegevens kopiëren naar persoonlijke bestanden hebt ingeschakeld en ze dwingt om werkbestanden op te slaan in **OneDrive voor** Bedrijven voor apparaten die eigendom zijn van het bedrijf, kunt u dit controleren op het apparaat van de gebruiker nadat ze verbinding hebben gemaakt met Azure AD en zich hebben aangemeld. 
+Nadat u [beveiligingsbeleid voor apps hebt ingesteld](protection-settings-for-windows-10-devices.md), kan het enkele uren duren voordat het beleid van kracht wordt op apparaten van gebruikers. Als u  De instelling Voorkomen dat gebruikers bedrijfsgegevens kopiëren naar persoonlijke bestanden hebt ingeschakeld en ze dwingt om werkbestanden op te slaan **in OneDrive voor Bedrijven-instelling** voor apparaten van het bedrijf, kunt u dit controleren op het apparaat van de gebruiker nadat ze verbinding hebben gemaakt met Azure AD en zich hebben aangemeld. 
   
  **Verbindingsinstellingen controleren**
   
-1. Nadat u zich hebt aanmelden met Microsoft 365 Business Premium-referenties en verbinding hebt met Azure AD, zoals beschreven in Windows-apparaten instellen voor [Microsoft 365 Business](set-up-windows-devices.md)Premium-gebruikers, gaat u naar **Windows Settings** Accounts Access werk of \>  \> **school.** Kies **Verbonden met Azure \<tenant name\> AD** en kies vervolgens **Info.**
+1. Nadat u zich hebt aanmelden met Microsoft 365 Business Premium-referenties en verbinding hebt met Azure AD, zoals beschreven in [Windows-apparaten](set-up-windows-devices.md)instellen voor Microsoft 365 Business Premium-gebruikers, gaat u naar **Windows Instellingen Werk-** of \>  \> **schoolaccounttoegang.** Kies **Verbonden met Azure \<tenant name\> AD** en kies vervolgens **Info.**
     
     ![Click or tap Info on the Connected to Azure AD dialog.](../media/a36ede2b-d1a0-4d4e-8ea7-af39b4b63890.png)
   
@@ -64,11 +64,11 @@ Nadat u [beveiligingsbeleid voor apps hebt ingesteld](protection-settings-for-wi
 
  **Verbindingsinstellingen controleren**
   
-1. Ga op uw persoonlijke Windows 10-apparaat waar u bent aangemeld als lokale gebruiker naar **Windows-instellingen** en klik of tik op Werk of school  \> **accountstoegang.**
+1. Ga op Windows 10 apparaat waar u bent aangemeld als lokale gebruiker naar Windows Instellingen **en** klik of tik op **Werk** of \> **school accountstoegang.**
     
 2. Kies **Verbinden** onder **Toegang tot werk of school**.
     
-3. Voer uw Microsoft 365 Business Premium-referenties in in het dialoogvenster Een werk- of **schoolaccount** \> **instellen Aanmelden.**
+3. Voer uw Microsoft 365 Business Premium in het dialoogvenster Een werk- of **schoolaccount** \> **instellen Aanmelden**.
     
 4. Kies op de pagina **Toegang tot werk of school** de optie **Werk- of schoolaccount** en vervolgens **Info**.
     
@@ -80,7 +80,7 @@ Nadat u [beveiligingsbeleid voor apps hebt ingesteld](protection-settings-for-wi
   
  **Controleren of u geen bedrijfsgegevens in een niet-beheerde app kunt plakken**
   
-1. Open Outlook 2016 en voeg zo nodig uw Microsoft 365 Business Premium-account toe en meld u aan met uw Microsoft 365 Business Premium-referenties.
+1. Open Outlook 2016 en voeg uw Microsoft 365 Business Premium account toe en meld u aan met uw Microsoft 365 Business Premium referenties.
     
 2. Open een e-mail en kopieer er een deel van de inhoud van.
     

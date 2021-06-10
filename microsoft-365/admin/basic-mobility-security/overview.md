@@ -59,7 +59,7 @@ Nadat u Basismobiliteit en Beveiliging hebt ingesteld en uw gebruikers hun appar
 
 Als u alleen mobile app management (MAM) nodig hebt, misschien voor personen die werkprojecten bijwerken op hun eigen apparaten, biedt Intune een andere optie dan het registreren en beheren van apparaten. Met een Intune-abonnement kunt u MAM-beleid instellen via de Azure-portal, zelfs als de apparaten van personen niet zijn geregistreerd in Intune. Zie Overzicht van [app-beveiligingsbeleid voor meer informatie.](/mem/intune/apps/app-protection-policy)
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Basismobiliteit en beveiliging instellen](set-up.md) (artikel)\
 [Uw mobiele apparaat registreren met basismobiliteit en beveiliging](enroll-your-mobile-device.md) (artikel)\

@@ -35,13 +35,13 @@ ms.locfileid: "51578589"
 
 U kunt Microsoft Teams gebruiken om samen te werken aan een project met uw werknemers en personen buiten het bedrijf, zoals uw klanten.
 
-1. Kies in Teams de **optie Teams** in de linkernavigatie en kies vervolgens **Team maken.**
+1. Kies Teams **in** Teams linkernavigatie en kies vervolgens **Team maken.**
 2. Voer in  **het vak Uw team**  maken een teamnaam in, geef een korte beschrijving op, kies een privacy-instelling en kies  **volgende**.
 3. Voer in  **het vak**  Leden toevoegen de namen in van andere werknemers in uw organisatie. Voer voor externe gasten hun e-mailadres in.
 
-    Als u een bericht krijgt dat u geen gast kunt toevoegen, gaat u naar het Teams- en Skype-beheercentrum om gasttoegang in te zetten.
+    Als u een bericht krijgt dat u geen gast kunt toevoegen, gaat u naar het Teams en Skype-beheercentrum om gasttoegang in te zetten.
 
 1. Kies **Toevoegen** en kies **vervolgens Sluiten.**
 2. Voer onder aan de pagina een kort welkomstbericht in voor uw nieuwe team en kies :::image type="icon" source="../media/teams-send-icon.png" border="false"::: verzenden.   
 
-Uw klant ontvangt een e-mailuitnodiging van Teams, waarmee hij of zij wordt op de hoogte gehouden van het feit dat hij of zij een gratis Microsoft-account nodig heeft om deel te nemen aan het team. Ze kunnen een account maken met hun bestaande e-mailadres door de opgegeven instructies te volgen. Vervolgens kunnen ze teams op het web gebruiken of de Teams-app installeren op hun computer.
+Uw klant ontvangt een e-mailuitnodiging van Teams, zodat hij of zij een gratis Microsoft-account nodig heeft om deel te nemen aan het team. Ze kunnen een account maken met hun bestaande e-mailadres door de opgegeven instructies te volgen. Vervolgens kunnen ze Teams op internet gebruiken of de app Teams installeren op hun computer.

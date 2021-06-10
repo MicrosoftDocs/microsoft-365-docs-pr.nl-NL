@@ -70,7 +70,7 @@ Hier volgen enkele andere informatiebronnen die Windows bieden, om de gevolgen e
 
 ### <a name="querying-which-rules-are-active"></a>Query's uitvoeren welke regels actief zijn
 Een van de eenvoudigste manieren om te bepalen of ASR-regels al zijn ingeschakeld, en is via een PowerShell-cmdlet, Get-MpPreference.
-Hier is een voorbeeld:
+Hier volgt een voorbeeld:
 
 :::image type="content" source="images/getmpreferencescriptnew.png" alt-text="mppreference-script krijgen":::
 

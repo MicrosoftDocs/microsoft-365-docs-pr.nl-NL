@@ -1,5 +1,5 @@
 ---
-title: Windows 10 Home upgraden naar Windows 10 Pro
+title: Upgrade Windows 10 Home naar Windows 10 Pro
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -19,7 +19,7 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Meer informatie over het upgraden van Windows 10 Home naar Windows 10 Pro.
+description: Meer informatie over het upgraden Windows 10 Home naar Windows 10 Pro.
 ms.openlocfilehash: 319152f8a587c123b25907db060b0572ec3a7cf3
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -33,12 +33,12 @@ ms.locfileid: "51578565"
 
 ## <a name="try-it"></a>Probeer het zelf!
 
-Voor Microsoft 365 Business is Windows 10 Pro vereist om uw gegevens te beveiligen. Als u een computer hebt met Windows 10 Home, volgt u deze stappen om een upgrade uit te voeren naar Windows 10 Pro.
+Microsoft 365 vereist Windows 10 Pro om uw gegevens te beveiligen. Als u een computer hebt die Windows 10 Home, volgt u deze stappen om een upgrade uit te voeren naar Windows 10 Pro.
 
-1. Kies op uw bureaublad het  **menu Start,**  zoek naar  **Microsoft Store** en selecteer het.
-2. Klik in de Microsoft Store op de zoekbalk, typ **Windows 10 Pro** en kies vervolgens Upgraden naar **Windows 10 Pro.**
+1. Kies op uw bureaublad het **menu Start,** zoek **naar** Microsoft Store en selecteer het.
+2. Klik in Microsoft Store op de zoekbalk, **typ** Windows 10 Pro en kies **vervolgens Upgrade naar Windows 10 Pro.**
 3. Kies **onder Upgrade naar Windows 10 Pro** de optie Meer **informatie** en kies **vervolgens Kopen.**
-4. Voer in  **het vak Windows-beveiliging**  uw pincode in om uw identiteit te verifiëren.
+4. Voer in **Windows-beveiliging** vakje uw pincode in om uw identiteit te verifiëren.
 5. Bekijk de betalingspagina, lees de verkoopvoorwaarden, wijzig uw betalingswijze indien u wilt en kies **Vervolgens Kopen.**
 6. Kies **onder Upgrade naar Windows 10 Pro** de optie **Installeren.**
-7. Sla eventuele bestanden op en kies vervolgens  **Ja, laat&#39;gaan om**  Windows te installeren.
+7. Sla eventuele bestanden op en kies vervolgens **Ja, laat&#39;gaan om** te beginnen met het installeren van Windows.

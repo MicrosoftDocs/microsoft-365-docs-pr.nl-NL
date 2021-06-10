@@ -28,11 +28,11 @@ ms.locfileid: "51579168"
 ---
 # <a name="privacy-controls-for-productivity-score"></a>Privacybesturingselementen voor productiviteitsscore
 
-Productiviteitsscore biedt inzicht in de digitale transformatie van uw organisatie via het gebruik van Microsoft 365 en de technologieervaringen die dit ondersteunen.  De score van uw organisatie weerspiegelt metingen voor mensen en technologieervaringen en kan worden vergeleken met benchmarks van organisaties die vergelijkbaar zijn met die van u. Bekijk het overzicht productiviteitsscore voor meer [informatie.](productivity-score.md)
+Productiviteitsscore biedt inzicht in de digitale transformatie van uw organisatie door het gebruik van Microsoft 365 en de technologieervaringen die deze ondersteunen.  De score van uw organisatie weerspiegelt metingen voor mensen en technologieervaringen en kan worden vergeleken met benchmarks van organisaties die vergelijkbaar zijn met die van u. Bekijk het overzicht productiviteitsscore voor meer [informatie.](productivity-score.md)
 
 Uw privacy is belangrijk voor Microsoft. Zie de privacyverklaring van Microsoft voor meer informatie over het beschermen [van uw privacy.](https://privacy.microsoft.com/privacystatement) Productiviteitsscore biedt u, als IT-beheerder van uw organisatie, toegang tot privacy-instellingen om ervoor te zorgen dat de productiviteitsscoregegevens die u bekijkt, kunnen worden gebruikt, zonder dat dit ten koste gaat van het vertrouwen dat uw organisatie in Microsoft stelt.
 
-In het gebied met ervaringen van personen zijn alleen meetwaarden beschikbaar op organisatieniveau. In dit gebied wordt bekeken hoe mensen Microsoft 365 gebruiken door te kijken naar de categorieën samenwerking, mobiliteit, vergaderingen, teamwerk en communicatie. We stellen u in staat met verschillende niveaus van besturingselementen om u te helpen aan uw interne privacybeleidsbehoeften te voldoen.
+In het gebied met ervaringen van personen zijn alleen meetwaarden beschikbaar op organisatieniveau. In dit gebied wordt bekeken hoe Microsoft 365 gebruiken door te kijken naar de categorieën samenwerking, mobiliteit, vergaderingen, teamwerk en communicatie. We stellen u in staat met verschillende niveaus van besturingselementen om u te helpen aan uw interne privacybeleidsbehoeften te voldoen.
 De besturingselementen geven u het volgende:
 
 - Flexibele beheerdersrollen om te bepalen wie de informatie kan zien in productiviteitsscore.
@@ -51,9 +51,9 @@ Als u de volledige productiviteitsscore wilt weergeven, moet u een van de volgen
 - Rapportenlezer
 - Gebruiksoverzicht rapportenlezer
 
-Wijs de rol Rapportenlezer of de rol Overzichtsrapporten voor gebruik toe aan iedereen die verantwoordelijk is voor wijzigingsbeheer en -acceptatie, maar niet per se een IT-beheerder. Met deze rol hebben ze toegang tot de volledige productiviteitsscore in het Microsoft 365-beheercentrum.
+Wijs de rol Rapportenlezer of de rol Overzichtsrapporten voor gebruik toe aan iedereen die verantwoordelijk is voor wijzigingsbeheer en -acceptatie, maar niet per se een IT-beheerder. Met deze rol hebben ze toegang tot de volledige productiviteitsscore in het Microsoft 365 beheercentrum.
 
-De rol Gebruikersoverzichtsrapportenlezer moet worden toegewezen via PowerShell-cmdlets totdat deze later in 2020 vanuit het Microsoft 365-beheercentrum kan worden toegewezen.
+De rol Gebruikersoverzichtsrapportenlezer moet worden toegewezen via PowerShell-cmdlets totdat deze later in 2020 kan worden toegewezen vanuit het Microsoft 365-beheercentrum.
 
 De rol Overzichtsrapporten voor gebruik toewijzen met PowerShell:
 
@@ -77,8 +77,8 @@ U kunt zich ook voor het gebied van productiviteitsscore voor personen afkissen.
 
 Als u zich wilt opt-outen:
 
-1. Ga in het beheercentrum naar **Instellingen**   >   **Organisatie-instellingen**  >  **Productiviteitsscore**.
-2. Vink het selectievakje uit met de tekst  **Toestaan dat Microsoft 365-gebruiksgegevens** worden gebruikt voor mensen die inzichten ervaren. Als u wilt weten hoe u instellingen voor het delen van gegevens wijzigt voor Endpoint Analytics in de Configuratiebeheer van Intune, selecteert u **Meer informatie.**
+1. Ga in het beheercentrum naar **Instellingen**   >   **Organisatie Instellingen**  >  **Productiviteitsscore.**
+2. Vink het selectievakje uit met de tekst Toestaan dat Microsoft 365 gebruiksgegevens worden **gebruikt voor gebruikerservaringen.** Als u wilt weten hoe u instellingen voor het delen van gegevens wijzigt voor Endpoint Analytics in de Configuratiebeheer van Intune, selecteert u **Meer informatie.**
 3. Selecteer **Opslaan.**
 
 :::image type="content" source="../../media/orgsettingspageoptout.png" alt-text="Pagina met organisatieinstellingen waar u zich kunt afkissen van ervaringen met personen.":::

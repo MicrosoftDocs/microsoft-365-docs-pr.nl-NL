@@ -1,5 +1,5 @@
 ---
-title: Mogelijkheden voor het verlagen van de Surface-aanval configureren
+title: Mogelijkheden voor het verminderen van kwetsbaarheid voor aanvallen configureren
 description: Gebruik Microsoft Intune, Microsoft Endpoint Configuration Manager, PowerShell-cmdlets en Groepsbeleid om de oppervlakbeperking van aanvallen te configureren.
 keywords: asr, attack surface reduction, windows defender, microsoft defender, antivirus, av
 search.product: eADQiWindows 10XVcnh
@@ -24,7 +24,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 06/04/2021
 ms.locfileid: "52770959"
 ---
-# <a name="configure-attack-surface-reduction-capabilities"></a>Mogelijkheden voor het verlagen van de Surface-aanval configureren
+# <a name="configure-attack-surface-reduction-capabilities"></a>Mogelijkheden voor het verminderen van kwetsbaarheid voor aanvallen configureren
 
 **Van toepassing op:**
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)

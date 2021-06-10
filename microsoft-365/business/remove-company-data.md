@@ -23,7 +23,7 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 80bdae57-f8bc-4e40-a58c-956007117ecb
-description: Ontdek hoe u Microsoft 365 voor Bedrijven gebruikt om bedrijfsgegevens te verwijderen die uw gebruikers hebben op hun apparaten of Windows-pc's.
+description: Ontdek hoe u Microsoft 365 voor bedrijven kunt gebruiken om bedrijfsgegevens te verwijderen die uw gebruikers hebben op hun apparaten of Windows pc's.
 ms.openlocfilehash: 2e1af384d83937d65fd5c8ae655d228df48422cd
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -37,7 +37,7 @@ Dit artikel is van toepassing op Microsoft 365 Business Premium.
 
 ## <a name="remove-company-data"></a>Bedrijfsgegevens verwijderen
 
-U kunt Microsoft 365 voor Bedrijven gebruiken om bedrijfsgegevens te verwijderen die uw gebruikers hebben op hun apparaten of [Windows-pc's](protection-settings-for-windows-10-devices.md) die zijn beveiligd door Microsoft 365. [](app-protection-settings-for-android-and-ios.md) **Als u bedrijfsgegevens van een apparaat verwijdert, kunt u dit later niet herstellen**. 
+U kunt Microsoft 365 voor bedrijven gebruiken om bedrijfsgegevens te [](app-protection-settings-for-android-and-ios.md) verwijderen die uw gebruikers hebben op hun apparaten of Windows [pc's](protection-settings-for-windows-10-devices.md) die zijn beveiligd door Microsoft 365. **Als u bedrijfsgegevens van een apparaat verwijdert, kunt u dit later niet herstellen**. 
   
 1. Ga naar het beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
     

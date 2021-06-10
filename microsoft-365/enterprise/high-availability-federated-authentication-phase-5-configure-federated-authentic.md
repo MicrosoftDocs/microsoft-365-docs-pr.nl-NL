@@ -1,5 +1,5 @@
 ---
-title: Federatieverificatie met hoge beschikbaarheid Fase 5 Federatief verificatie configureren voor Microsoft 365
+title: Federatief hoge beschikbaarheid fase 5 Federatief verificatie configureren voor Microsoft 365
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,7 +13,7 @@ f1.keywords:
 - CSH
 ms.custom: Ent_Solutions
 ms.assetid: 0f1dbf52-5bff-44cc-a264-1b48641af98f
-description: 'Overzicht: Configureer Azure AD Connect voor uw federatief hoge beschikbaarheid voor Microsoft 365 in Microsoft Azure.'
+description: 'Overzicht: Configureer Azure AD Verbinding maken voor uw federatief hoge beschikbaarheid voor Microsoft 365 in Microsoft Azure.'
 ms.openlocfilehash: 2bca2b758486b85d185870e2e14b495b8f084cb7
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -23,9 +23,9 @@ ms.locfileid: "50929406"
 ---
 # <a name="high-availability-federated-authentication-phase-5-configure-federated-authentication-for-microsoft-365"></a>Federatief hoge beschikbaarheid fase 5: Federatief verificatie configureren voor Microsoft 365
 
-In deze laatste fase van het implementeren van federatieverificatie met hoge beschikbaarheid voor Microsoft 365 in Azure-infrastructuurservices, krijgt en installeert u een certificaat dat is uitgegeven door een openbare certificeringsinstantie, controleert u de configuratie en installeert en vervolgens Azure AD Connect op de adreslijstsynchronisatieserver installeert en uit. Azure AD Connect configureert uw Microsoft 365-abonnement en uw Active Directory Federation Services (AD FS) en proxyservers voor webtoepassing voor federatief verificatie.
+In deze laatste fase van het implementeren van federatieverificatie met hoge beschikbaarheid voor Microsoft 365 in Azure-infrastructuurservices, krijgt en installeert u een certificaat dat is uitgegeven door een openbare certificeringsinstantie, controleert u uw configuratie en installeert en uitgevoerd Azure AD Verbinding maken op de adreslijstsynchronisatieserver. Azure AD Verbinding maken configureert uw Microsoft 365 en uw Active Directory Federation Services (AD FS) en proxyservers voor webtoepassing voor federatief verificatie.
   
-Zie [Federatieverificatie met hoge beschikbaarheid implementeren voor Microsoft 365 in Azure](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) voor alle fasen.
+Zie [Federatieverificatie met hoge](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) beschikbaarheid implementeren voor Microsoft 365 in Azure voor alle fasen.
   
 ## <a name="get-a-public-certificate-and-copy-it-to-the-directory-synchronization-server"></a>Een openbaar certificaat downloaden en kopiëren naar de adreslijstsynchronisatieserver
 
@@ -37,7 +37,7 @@ Ontvang een digitaal certificaat van een openbare certificeringsinstantie met de
     
 - Het certificaat moet de persoonlijke sleutel hebben en worden opgeslagen in DE PFX-indeling.
     
-Bovendien moeten computers en apparaten van uw organisatie vertrouwen op de openbare certificeringsinstantie die het digitale certificaat uitvaardigt. Deze vertrouwensrelatie wordt tot stand gebracht door een hoofdcertificaat van de openbare certificeringsinstantie te laten installeren in de vertrouwde hoofdcertificeringsinstanties op uw computers en apparaten. Computers waarop Microsoft Windows wordt uitgevoerd, hebben meestal een set van deze typen certificaten geïnstalleerd van veelgebruikte certificeringsinstanties. Als het hoofdcertificaat van uw openbare certificeringsinstantie nog niet is geïnstalleerd, moet u dit implementeren op de computers en apparaten van uw organisatie.
+Bovendien moeten computers en apparaten van uw organisatie vertrouwen op de openbare certificeringsinstantie die het digitale certificaat uitvaardigt. Deze vertrouwensrelatie wordt tot stand gebracht door een hoofdcertificaat van de openbare certificeringsinstantie te laten installeren in de vertrouwde hoofdcertificeringsinstanties op uw computers en apparaten. Computers met Microsoft Windows hebben meestal een set van deze typen certificaten geïnstalleerd van veelgebruikte certificeringsinstanties. Als het hoofdcertificaat van uw openbare certificeringsinstantie nog niet is geïnstalleerd, moet u dit implementeren op de computers en apparaten van uw organisatie.
   
 Zie Vereisten voor federatie-installatie [en configuratie](/azure/active-directory/connect/active-directory-aadconnect-prerequisites#prerequisites-for-federation-installation-and-configuration)voor meer informatie over certificaatvereisten voor federatieverificatie.
   
@@ -45,11 +45,11 @@ Wanneer u het certificaat ontvangt, kopieert u het naar een map op het station C
   
 ## <a name="verify-your-configuration"></a>Uw configuratie verifiëren
 
-U moet nu klaar zijn om Azure AD Connect en federatief verificatie voor Microsoft 365 te configureren. Om ervoor te zorgen dat u dat bent, is hier een controlelijst:
+U moet nu klaar zijn om Azure AD-Verbinding maken en federatief verificatie te configureren voor Microsoft 365. Om ervoor te zorgen dat u dat bent, is hier een controlelijst:
   
-- Het openbare domein van uw organisatie wordt toegevoegd aan uw Microsoft 365-abonnement.
+- Het openbare domein van uw organisatie wordt toegevoegd aan uw Microsoft 365 abonnement.
     
-- De Microsoft 365-gebruikersaccounts van uw organisatie zijn geconfigureerd op de openbare domeinnaam van uw organisatie en kunnen zich met succes aanmelden.
+- De Microsoft 365 gebruikersaccounts van uw organisatie zijn geconfigureerd op de openbare domeinnaam van uw organisatie en kunnen zich met succes aanmelden.
     
 - U hebt een federatieservice FQDN bepaald op basis van uw openbare domeinnaam.
     
@@ -67,27 +67,27 @@ Hier is een voorbeeld voor de Contoso-organisatie:
 
 ![Een voorbeeldconfiguratie van de hoge beschikbaarheid van Microsoft 365 federatief verificatie-infrastructuur in Azure](../media/ac1a6a0d-0156-4407-9336-6e4cd6db8633.png)
   
-## <a name="run-azure-ad-connect-to-configure-federated-authentication"></a>Azure AD Connect uitvoeren om federatief verificatie te configureren
+## <a name="run-azure-ad-connect-to-configure-federated-authentication"></a>Azure AD-Verbinding maken uitvoeren om federatief verificatie te configureren
 
-Met het hulpprogramma Azure AD Connect worden de AD FS-servers, de proxyservers van de webtoepassing en Microsoft 365 geconfigureerd voor federatief verificatie met de volgende stappen:
+Het hulpprogramma Azure AD Verbinding maken configureert de AD FS-servers, de proxyservers van de webtoepassing en Microsoft 365 voor federatief verificatie met de volgende stappen:
   
 1. Maak een externe bureaubladverbinding met uw adreslijstsynchronisatieserver met een domeinaccount met lokale beheerdersbevoegdheden.
     
 2. Open Internet Explorer op het bureaublad van de adreslijstsynchronisatieserver en ga naar [https://aka.ms/aadconnect](https://aka.ms/aadconnect) .
     
-3. Klik op **de pagina Microsoft Azure Active Directory Connect** op **Downloaden** en klik vervolgens op **Uitvoeren.**
+3. Klik op **Microsoft Azure Active Directory Verbinding maken** pagina op **Downloaden** en klik vervolgens op **Uitvoeren.**
     
-4. Klik op **de pagina Welkom bij Azure AD Connect** op **Ik** ga akkoord en klik vervolgens op **Doorgaan.**
+4. Klik op **de pagina Welkom bij Azure AD Verbinding maken** op **Ik** ga akkoord en klik vervolgens op **Doorgaan.**
     
-5. Klik op **de pagina Express-instellingen** op **Aanpassen.**
+5. Klik op **de Instellingen** Express op **Aanpassen.**
     
 6. Klik op **de pagina Vereiste onderdelen installeren** op **Installeren.**
     
 7. Klik op de pagina **gebruikersaanmelding** op **federatie met AD FS** en klik vervolgens op **volgende**.
     
-8. Typ op **de pagina Verbinding** maken met Azure AD de naam en het wachtwoord van een globale beheerdersaccount voor uw Microsoft 365-abonnement en klik vervolgens op **Volgende**.
+8. Typ op **Verbinding maken pagina Naar Azure AD** de naam en het wachtwoord van een globale beheerdersaccount voor uw Microsoft 365 en klik vervolgens op **Volgende.**
     
-9. Controleer  op de pagina Uw mappen verbinden of uw on-premises AD DS-forest (Active Directory Domain Services) is geselecteerd in **Forest,** typ de naam en het wachtwoord van een domeinbeheerderaccount, klik op **Adreslijst** toevoegen en klik vervolgens op **Volgende**.
+9. Controleer **op de Verbinding maken** uw mappenpagina of uw on-premises AD DS-forest (Active Directory Domain Services) is geselecteerd in **Forest,** typ de naam en het wachtwoord van een domeinbeheerderaccount, klik op **Adreslijst** toevoegen en klik vervolgens op **Volgende**.
     
 10. Klik op **de configuratiepagina voor** aanmelding van Azure AD op **Volgende.**
     
@@ -135,15 +135,15 @@ Hier is de definitieve configuratie, met namen van tijdelijke aanduidingen voor 
   
 **Fase 5: De uiteindelijke configuratie van een federatief verificatie-infrastructuur met hoge beschikbaarheid in Azure**
 
-![De uiteindelijke configuratie van de microsoft 365 federatie-infrastructuur voor federatieverificatie met hoge beschikbaarheid in Azure](../media/c5da470a-f2aa-489a-a050-df09b4d641df.png)
+![De uiteindelijke configuratie van de hoge beschikbaarheid Microsoft 365 federatief verificatie-infrastructuur in Azure](../media/c5da470a-f2aa-489a-a050-df09b4d641df.png)
   
-Uw federatief verificatie-infrastructuur met hoge beschikbaarheid voor Microsoft 365 in Azure is voltooid.
+Uw federatief verificatie-infrastructuur voor hoge beschikbaarheid voor Microsoft 365 in Azure is voltooid.
   
 ## <a name="see-also"></a>Zie ook
 
 [Federatieverificatie met hoge beschikbaarheid implementeren voor Microsoft 365 in Azure](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md)
   
-[Federatief identiteit voor uw Microsoft 365-dev/testomgeving](federated-identity-for-your-microsoft-365-dev-test-environment.md)
+[Federatief identiteit voor uw Microsoft 365 v/testomgeving](federated-identity-for-your-microsoft-365-dev-test-environment.md)
   
 [Microsoft 365-oplossings- en -architectuurcentrum](../solutions/index.yml)
 

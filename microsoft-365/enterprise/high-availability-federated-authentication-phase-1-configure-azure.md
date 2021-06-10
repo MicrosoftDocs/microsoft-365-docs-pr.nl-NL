@@ -13,7 +13,7 @@ f1.keywords:
 - CSH
 ms.custom: Ent_Solutions
 ms.assetid: 91266aac-4d00-4b5f-b424-86a1a837792c
-description: 'Overzicht: Configureer de Microsoft Azure-infrastructuur om federatief hoge beschikbaarheid te hosten voor Microsoft 365.'
+description: 'Overzicht: Configureer de Microsoft Azure infrastructuur om federatief hoge beschikbaarheid te hosten voor Microsoft 365.'
 ms.openlocfilehash: 7f9a935648fedd2c6235c443f7398f97c0a06e06
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "50929106"
 ---
 # <a name="high-availability-federated-authentication-phase-1-configure-azure"></a>Federatief hoge beschikbaarheid fase 1: Azure configureren
 
-In deze fase maakt u de resourcegroepen, virtuele netwerken (VNet) en beschikbaarheidssets in Azure die de virtuele machines hosten in fasen 2, 3 en 4. U moet deze fase voltooien voordat u verder gaat [met fase 2: Domeincontrollers configureren.](high-availability-federated-authentication-phase-2-configure-domain-controllers.md) Zie [Federatieverificatie met hoge beschikbaarheid implementeren voor Microsoft 365 in Azure](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) voor alle fasen.
+In deze fase maakt u de resourcegroepen, virtuele netwerken (VNet) en beschikbaarheidssets in Azure die de virtuele machines hosten in fasen 2, 3 en 4. U moet deze fase voltooien voordat u verder gaat [met fase 2: Domeincontrollers configureren.](high-availability-federated-authentication-phase-2-configure-domain-controllers.md) Zie [Federatieverificatie met hoge](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) beschikbaarheid implementeren voor Microsoft 365 in Azure voor alle fasen.
   
 Azure moet zijn ingericht met deze basisonderdelen:
   
@@ -106,19 +106,19 @@ Vul tabel L in voor de set lokale netwerkadressen. Houd er rekening mee dat er d
    
  **Tabel L: Adres voorvoegsels voor het lokale netwerk**
   
-Laten we nu beginnen met het bouwen van de Azure-infrastructuur om uw federatiele verificatie voor Microsoft 365 te hosten.
+Laten we nu beginnen met het bouwen van de Azure-infrastructuur om uw federatiele verificatie te hosten voor Microsoft 365.
   
 > [!NOTE]
-> Met de volgende opdrachtsets wordt de meest recente versie van Azure PowerShell gebruikt. Zie [Aan de slag met Azure PowerShell](/powershell/azure/get-started-azureps). 
+> Met de volgende opdrachtsets wordt de meest recente versie van Azure PowerShell gebruikt. Zie [Aan de slag met Azure PowerShell.](/powershell/azure/get-started-azureps) 
   
-Start eerst een Azure PowerShell-prompt en meld u aan bij uw account.
+Start eerst een Azure PowerShell en meld u aan bij uw account.
   
 ```powershell
 Connect-AzAccount
 ```
 
 > [!TIP]
-> Als u kant-en-klaar PowerShell-opdrachtblokken wilt genereren op basis van uw aangepaste instellingen, gebruikt u deze [Configuratiewerkboek van Microsoft Excel.](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx) 
+> Als u kant-en-klaar PowerShell-opdrachtblokken wilt genereren op basis van uw aangepaste instellingen, gebruikt u [deze Microsoft Excel configuratiewerkboek.](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx) 
 
 Haal de naam van uw abonnement op met de volgende opdracht.
   
@@ -126,7 +126,7 @@ Haal de naam van uw abonnement op met de volgende opdracht.
 Get-AzSubscription | Sort Name | Select Name
 ```
 
-Gebruik deze opdracht voor oudere versies van Azure PowerShell.
+Voor oudere versies van Azure PowerShell gebruikt u deze opdracht.
   
 ```powershell
 Get-AzSubscription | Sort Name | Select SubscriptionName
@@ -159,25 +159,25 @@ Vul de volgende tabel in voor de set unieke resourcegroepnamen.
 Maak uw nieuwe resourcegroepen met deze opdrachten.
   
 ```powershell
-$locName="<an Azure location, such as West US>"
-$rgName="<Table R - Item 1 - Name column>"
+$locName="<an Azure location, such as West US>&quot;
+$rgName=&quot;<Table R - Item 1 - Name column>&quot;
 New-AzResourceGroup -Name $rgName -Location $locName
-$rgName="<Table R - Item 2 - Name column>"
+$rgName=&quot;<Table R - Item 2 - Name column>&quot;
 New-AzResourceGroup -Name $rgName -Location $locName
-$rgName="<Table R - Item 3 - Name column>"
+$rgName=&quot;<Table R - Item 3 - Name column>&quot;
 New-AzResourceGroup -Name $rgName -Location $locName
-$rgName="<Table R - Item 4 - Name column>"
+$rgName=&quot;<Table R - Item 4 - Name column>&quot;
 New-AzResourceGroup -Name $rgName -Location $locName
 ```
 
 Vervolgens maakt u het virtuele Azure-netwerk en de subnetten.
   
 ```powershell
-$rgName="<Table R - Item 4 - Resource group name column>"
-$locName="<your Azure location>"
-$vnetName="<Table V - Item 1 - Value column>"
-$vnetAddrPrefix="<Table V - Item 4 - Value column>"
-$dnsServers=@( "<Table D - Item 1 - DNS server IP address column>", "<Table D - Item 2 - DNS server IP address column>" )
+$rgName=&quot;<Table R - Item 4 - Resource group name column>&quot;
+$locName=&quot;<your Azure location>&quot;
+$vnetName=&quot;<Table V - Item 1 - Value column>&quot;
+$vnetAddrPrefix=&quot;<Table V - Item 4 - Value column>&quot;
+$dnsServers=@( &quot;<Table D - Item 1 - DNS server IP address column>&quot;, &quot;<Table D - Item 2 - DNS server IP address column>" )
 # Get the shortened version of the location
 $locShortName=(Get-AzResourceGroup -Name $rgName).Location
 
@@ -283,7 +283,7 @@ Definieer vervolgens de namen van drie beschikbaarheidssets. Vul tabel A in.
   
 U hebt deze namen nodig wanneer u de virtuele machines maakt in fasen 2, 3 en 4.
   
-Maak de nieuwe beschikbaarheidssets met deze Azure PowerShell-opdrachten.
+Maak de nieuwe beschikbaarheidssets met deze Azure PowerShell opdrachten.
   
 ```powershell
 $locName="<the Azure location for your new resource group>"
@@ -300,9 +300,9 @@ New-AzAvailabilitySet -ResourceGroupName $rgName -Name $avName -Location $locNam
 
 Dit is de configuratie die het resultaat is van de succesvolle voltooiing van deze fase.
   
-**Fase 1: De Azure-infrastructuur voor federatief hoge beschikbaarheid voor Microsoft 365**
+**Fase 1: De Azure-infrastructuur voor federatieverificatie met hoge beschikbaarheid voor Microsoft 365**
 
-![Fase 1 van de hoge beschikbaarheid van Microsoft 365 federatieverificatie in Azure met de Azure-infrastructuur](../media/4e7ba678-07df-40ce-b372-021bf7fc91fa.png)
+![Fase 1 van de hoge beschikbaarheid Microsoft 365 federatief verificatie in Azure met de Azure-infrastructuur](../media/4e7ba678-07df-40ce-b372-021bf7fc91fa.png)
   
 ## <a name="next-step"></a>Volgende stap
 
@@ -312,8 +312,8 @@ Fase [2 gebruiken: Domeincontrollers configureren](high-availability-federated-a
 
 [Federatieverificatie met hoge beschikbaarheid implementeren voor Microsoft 365 in Azure](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md)
   
-[Federatief identiteit voor uw Microsoft 365-dev/testomgeving](federated-identity-for-your-microsoft-365-dev-test-environment.md)
+[Federatief identiteit voor uw Microsoft 365 v/testomgeving](federated-identity-for-your-microsoft-365-dev-test-environment.md)
   
 [Microsoft 365-oplossings- en -architectuurcentrum](../solutions/index.yml)
 
-[Microsoft 365-identiteit en Azure Active Directory begrijpen](about-microsoft-365-identity.md)
+[Inzicht Microsoft 365 identiteit en Azure Active Directory](about-microsoft-365-identity.md)

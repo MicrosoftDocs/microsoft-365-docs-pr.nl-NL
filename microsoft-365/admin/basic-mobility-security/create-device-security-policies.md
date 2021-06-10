@@ -148,7 +148,7 @@ Het beleid wordt verwijderd van het mobiele apparaat voor elke gebruiker. Het be
 
 U kunt een apparaat ook volledig wissen of organisatiegegevens selectief wissen vanaf het apparaat. Zie Een mobiel apparaat [wissen in Basismobiliteit en Beveiliging voor meer informatie.](wipe-mobile-device.md)
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Overzicht van basismobiliteit en beveiliging](overview.md) (artikel)\
 [Mogelijkheden van basismobiliteit en beveiliging](capabilities.md) (artikel)

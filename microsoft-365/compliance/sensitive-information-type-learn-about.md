@@ -37,8 +37,8 @@ Gevoelige informatietypen zijn classificaties op basis van patronen. Ze detecter
 
 - [Preventiebeleid voor gegevensverlies](dlp-learn-about-dlp.md) 
 - [Gevoeligheidslabels](sensitivity-labels.md)
-- [Bewaarlabels](retention.md)
-- [Insider-risicobeheer](insider-risk-management.md)
+- [Retentielabels](retention.md)
+- [Intern risicobeheer](insider-risk-management.md)
 - [Communicatiecompliance](communication-compliance.md)
 - [Beleid voor automatisch labelen](apply-sensitivity-label-automatically.md#how-to-configure-auto-labeling-for-office-apps)
 
@@ -54,7 +54,7 @@ Elke entiteit van het type gevoelige informatie wordt gedefinieerd door deze vel
     - Betrouwbaarheidsniveau: betrouwbaarheidsniveaus (hoog, gemiddeld, laag) geven aan hoeveel ondersteunend bewijs samen met het primaire element is gevonden. Hoe meer ondersteunend bewijs een item bevat, hoe groter het vertrouwen dat een overeenkomend item de gevoelige informatie bevat die u zoekt.
     - Nabijheid: aantal tekens tussen primair en ondersteunend element
 
-![Diagram van bevestigend bewijs en nabijheidsvenster](../media/dc68e38e-dfa1-45b8-b204-89c8ba121f96.png)
+![Diagram van ondersteunende gegevens en nabijheidsmarge](../media/dc68e38e-dfa1-45b8-b204-89c8ba121f96.png)
 
 Meer informatie over betrouwbaarheidsniveaus in deze video
 
@@ -147,15 +147,15 @@ Als u aangepaste gevoelige informatietypen wilt maken in het beveiligings- & com
 > Verbeterde betrouwbaarheidsniveaus zijn beschikbaar voor direct gebruik in preventie van gegevensverlies voor Microsoft 365-services, Microsoft Information Protection voor Microsoft 365-services, Communicatie compliance, informatiebeheer en recordsbeheer.
 
 > Microsoft 365 Information Protection ondersteunt nu in voorbeeldtalen voor dubbele bytetekensets voor:
-> - Chinees (vereenvoudigd)
-> - Chinees (traditioneel)
-> - Koreaans
+> - Vereenvoudigd Chinees
+> - Traditioneel Chinees
+> - Koreaks
 > - Japans
 
->Deze ondersteuning is beschikbaar voor gevoelige informatietypen. Zie [Informatiebeveiligingsondersteuning voor dubbele bytetekensets releasenotities (preview)](mip-dbcs-relnotes.md) voor meer informatie.
+>Deze ondersteuning is beschikbaar voor typen gevoelige informatie. Zie [Ondersteuning voor Information Protection voor releaseopmerkingen bij dubbel-bytetekensets (preview)](mip-dbcs-relnotes.md) voor meer informatie.
 
 ## <a name="for-further-information"></a>Voor meer informatie
-- [Definities van entiteiten van het type Gevoelige informatie](sensitive-information-type-entity-definitions.md)
+- [Entiteitsdefinities voor het type gevoelige informatie](sensitive-information-type-entity-definitions.md)
 - [Een aangepast type gevoelige informatie maken](create-a-custom-sensitive-information-type.md)
 - [Een aangepast type gevoelige informatie maken in PowerShell](create-a-custom-sensitive-information-type-in-scc-powershell.md)
 

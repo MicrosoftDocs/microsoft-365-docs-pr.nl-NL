@@ -22,7 +22,7 @@ search.appverid:
 - MOE150
 ms.assetid: 932e3676-2491-49f0-9177-d893d2f5276e
 ROBOTS: NOINDEX
-description: Meer informatie over het maken van een CSV-bestand voor AutoPilot in Microsoft 365 voor Bedrijven.
+description: Meer informatie over het maken van een CSV-bestand voor AutoPilot in Microsoft 365 voor bedrijven.
 ms.openlocfilehash: 13d7fbffd8d6fbe1af0dde55a4e98688060d9da8
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -48,10 +48,10 @@ U kunt deze informatie van uw hardwareleverancier krijgen of u kunt het [Get-Win
 
 Wanneer u apparaten toevoegt, moet u ze ook toevoegen aan een profiel. Een profiel wordt gebruikt om AutoPilot-implementatieprofielen toe te passen op een apparaat of een groep apparaten.
   
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-articles"></a>Aanverwante artikelen
 
-[Microsoft 365 voor bedrijven-documentatie en -bronnen](../../business/index.yml)
+[Microsoft 365 voor zakelijke documentatie en resources](../../business/index.yml)
   
-[Aan de slag met Microsoft 365 voor Bedrijven](../../business/microsoft-365-business-overview.md)
+[Aan de slag met Microsoft 365 voor bedrijven](../../business/microsoft-365-business-overview.md)
   
-[Microsoft 365 voor Bedrijven beheren](../../business/manage.md)
+[Beheer Microsoft 365 voor bedrijven](../../business/manage.md)

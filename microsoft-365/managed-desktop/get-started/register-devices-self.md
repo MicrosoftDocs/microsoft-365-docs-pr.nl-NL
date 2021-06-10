@@ -100,7 +100,7 @@ Volg deze stappen:
 
 U kunt de voortgang van apparaatregistratie op de hoofdpagina controleren. Mogelijke staten die daar zijn gerapporteerd, zijn:
 
-| Status | Omschrijving |
+| Status | Beschrijving |
 |---------------|-------------|
 | Registratie in behandeling | Registratie is nog niet klaar. Controleer het later opnieuw. |
 | Registratie is mislukt | Registratie kan niet worden voltooid. Raadpleeg [Apparaatregistratie oplossen voor](#troubleshooting-device-registration) meer informatie. |

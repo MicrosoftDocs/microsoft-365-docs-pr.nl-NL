@@ -24,7 +24,7 @@ Microsoft Managed Desktop biedt een samengestelde [apparaatlijst,](device-polici
 
 Een uitzondering is elke toevoeging of wijziging in de Microsoft Managed Desktop basisconfiguratie; Voorbeelden variëren van configuratie van USB-poorten tot het implementeren van een nieuw apparaatt stuurprogramma. We groepeert verschillende uitzonderingen als volgt:
 
-|Type  |Omschrijving  |
+|Type  |Beschrijving  |
 |---------|---------|
 |Productiviteitssoftware     |  Voorgrondsoftware die nodig is voor gebruikers, beperkt door de [toepassingsvereisten](mmd-app-requirements.md)       |
 |Beveiligingsagenten & VPN's     |  Software die wordt gebruikt om het gedrag van het apparaat of netwerk te beveiligen, te bewaken of te wijzigen       |

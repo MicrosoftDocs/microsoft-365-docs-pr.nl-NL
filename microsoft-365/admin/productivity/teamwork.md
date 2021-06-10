@@ -28,7 +28,7 @@ ms.locfileid: "51579156"
 ---
 # <a name="teamwork--people-experiences"></a>Teamwerk : ervaringen met personen
 
-Productiviteitsscore biedt inzicht in de digitale transformatie van uw organisatie via het gebruik van Microsoft 365 en de technologieervaringen die dit ondersteunen. De score van uw organisatie weerspiegelt metingen voor mensen en technologieervaringen en kan worden vergeleken met benchmarks van organisaties die vergelijkbaar zijn met die van u. De teamwerkcategorie maakt deel uit van de afmetingen die vallen onder de ervaringen van personen. Voor meer informatie raadpleegt u het overzicht [productiviteitsscore](productivity-score.md) en leest u de [privacyverklaring van Microsoft.](https://privacy.microsoft.com/privacystatement)
+Productiviteitsscore biedt inzicht in de digitale transformatie van uw organisatie door het gebruik van Microsoft 365 en de technologieervaringen die deze ondersteunen. De score van uw organisatie weerspiegelt metingen voor mensen en technologieervaringen en kan worden vergeleken met benchmarks van organisaties die vergelijkbaar zijn met die van u. De teamwerkcategorie maakt deel uit van de afmetingen die vallen onder de ervaringen van personen. Voor meer informatie raadpleegt u het overzicht [productiviteitsscore](productivity-score.md) en leest u de [privacyverklaring van Microsoft.](https://privacy.microsoft.com/privacystatement)
 
 ## <a name="prerequisites"></a>Vereisten
 
@@ -52,28 +52,28 @@ We bieden een primair inzicht in de ervaring die de belangrijkste metrische gege
 
 ### <a name="primary-insight"></a>Primair inzicht
 
-Het primaire inzicht is dat alle personen die communiceren met behulp van e-mail en berichten in Microsoft Teams, worden gecommuniceerd met inhoud in de cloud in gedeelde werkruimten. In Microsoft 365 vormen Microsoft 365-groepen de basis voor personen om samen te komen in een gedeelde werkruimte met de mogelijkheid om e-mailberichten te verzenden naar het groepspostvak, bestanden te delen op de SharePoint-teamsite en kanaalberichten te verzenden via Microsoft Teams.
+In het primaire inzicht wordt gekijkt naar alle personen die communiceren met behulp van e-mail en berichten op Microsoft Teams en interactie met inhoud in de cloud in gedeelde werkruimten. Binnen Microsoft 365 vormen Microsoft 365 Groepen de basis voor personen om samen te komen in een gedeelde werkruimte met de mogelijkheid om e-mailberichten te verzenden naar het groepspostvak, bestanden te delen op de teamsite van SharePoint en kanaalberichten te verzenden via Microsoft Teams.
 
 :::image type="content" source="../../media/teamwork-score.png" alt-text="Grafiek met primaire inzichten in de teamwerkscore.":::
 
 1. **Koptekst:** Geeft de belangrijkste metriek van personen in uw organisatie die een van de volgende activiteiten uitvoeren:
       - E-mail verzenden naar een groepspostvak via Exchange.
       - Kanaalberichten verzenden via Teams
-      - Inhoud lezen en maken (wat we gezamenlijk inhoudsinteractie noemen) op SharePoint-teamsites.
+      - Inhoud lezen en maken (wat we gezamenlijk inhoudsinteractie noemen) in SharePoint teamsites.
 
         Als percentage van alle personen in uw organisatie die een van de volgende activiteiten uitvoeren (binnen of buiten gedeelde werkruimten):
         - E-mail verzenden via Exchange.
-        - Berichten verzenden (chat- of kanaalberichten) in Microsoft Teams.
-        - Inhoud lezen en maken in OneDrive of SharePoint.
+        - Berichten (chat- of kanaalberichten) verzenden op Microsoft Teams.
+        - Inhoud lezen en maken op OneDrive of SharePoint.
 
-            En toegang hebben tot ten minste een van de volgende services: Exchange, Microsoft Teams of SharePoint
+            En u hebt toegang tot ten minste één van de volgende services: Exchange, Microsoft Teams of SharePoint
 
 1. **Body:** Biedt meer informatie over hoe communiceren en communiceren met inhoud, wanneer dit binnen een gedeelde werkruimte gebeurt, positieve resultaten kan hebben voor de productiviteit in uw organisatie.
 2. **Visualisatie (huidige status):**
       - Horizontale balk waarin het blauwe gedeelte het percentage vertegenwoordigt dat in de koptekst wordt uitgedrukt
-      - Markeert de breuk (teller/noemer) die wordt gebruikt voor het berekenen van het percentage dat wordt weergegeven in de koptekst
-        - Teller: Het aantal personen in uw organisatie dat e-mail verzendt naar een groepspostvak via Exchange, OF die kanaalberichten verzenden via Teams of inhoud lezen en maken op SharePoint-teamsites.
-        - Noemer: Het aantal personen in uw organisatie dat e-mailberichten verzendt via Exchange, OF berichten (chat- of kanaalberichten) verzendt in Microsoft Teams of inhoud in OneDrive of SharePoint leest en maakt, EN heeft toegang tot ten minste een van de volgende services: Exchange, Microsoft Teams of SharePoint.
+      - Momenten de breuk (teller/noemer) die wordt gebruikt voor het berekenen van het percentage dat wordt weergegeven in de koptekst
+        - Teller: Het aantal personen in uw organisatie dat e-mail naar een groepspostvak verzendt via Exchange, OF die kanaalberichten verzenden via Teams, OF die inhoud lezen en maken op SharePoint teamsites.
+        - Noemer: Het aantal personen in uw organisatie dat e-mailberichten verzendt via Exchange, OF berichten (chat- of kanaalberichten) verzendt op Microsoft Teams, OF inhoud op OneDrive of SharePoint leest en maakt, EN heeft toegang tot ten minste een van de volgende services: Exchange, Microsoft Teams of SharePoint.
    - De peer benchmarkwaarde van de sleutelmetrische waarde wordt ook weergegeven als een percentage.
 3. **Informatiebronnen over teamwerk weergeven:** Selecteer deze koppeling om Help-inhoud weer te geven.
 
@@ -106,9 +106,9 @@ We bieden ook aanvullende informatie over hoe personen in uw organisatie samenwe
       - **Berichten verzenden:** Het gekleurde gedeelte en de breuk vertegenwoordigen het percentage personen dat berichten verstuurt in kanalen in Microsoft Teams. De breuk bestaat uit:
         - Numerieke waarde: Personen die kanaalberichten verzenden binnen de afgelopen 28 dagen.
         - Noemer: Personen die chat- of kanaalberichten verzenden in de afgelopen 28 dagen. Dit is dezelfde groep personen die zijn gemarkeerd als het verzenden van berichten in Microsoft Teams in het primaire inzicht van de communicatiecategorie in Productiviteitsscore.
-    - **Inhoud maken:** Het gekleurde gedeelte en de breuk vertegenwoordigen het percentage personen dat inhoud leest of maakt op Microsoft 365 SharePoint-teamsites.
-        - Teller: Aantal personen dat inhoud leest of maakt op teamsites die zijn verbonden met een Microsoft 365-groep.
-        - Noemer: Het aantal personen met toegang tot SharePoint, dat in de afgelopen 28 dagen inhoud van welke aard dan ook heeft gelezen of gemaakt op OneDrive- of SharePoint-sites.
+    - **Inhoud maken:** Het gekleurde gedeelte en de breuk vertegenwoordigen het percentage personen dat inhoud leest of maakt op Microsoft 365 SharePoint teamsites.
+        - Teller: Aantal personen dat inhoud leest of maakt op Microsoft 365 verbonden teamsites.
+        - Noemer: Aantal personen met toegang tot SharePoint, die inhoud van welke aard dan ook hebben gelezen of gemaakt op OneDrive of SharePoint sites in de afgelopen 28 dagen.
 4. **Gerelateerde inhoud weergeven:** Selecteer deze koppeling om Help-inhoud weer te geven.
 
 ### <a name="breakdown-of-workspace-engagement-by-size-and-age"></a>Uitsplitsing van werkruimteafspraak op grootte en leeftijd
@@ -141,23 +141,23 @@ We bieden ook aanvullende informatie over hoe personen in uw organisatie samenwe
       - **Inhoud lezen of maken:** Percentage werkruimten zonder dagen/1 dag/2-3 dagen/4+ dagen lezen of maken van inhoud per week in de afgelopen 28 dagen.
 4. **Gerelateerde inhoud weergeven:** Selecteer deze koppeling om Help-inhoud weer te geven.
 
-### <a name="use-of-teams-within-microsoft-teams"></a>Gebruik van teams in Microsoft Teams
+### <a name="use-of-teams-within-microsoft-teams"></a>Gebruik van teams binnen Microsoft Teams
 
 :::image type="content" source="../../media/useof-teams-within-teams.png" alt-text="Grafiek die laat zien hoeveel werkruimten voor delen worden gebruikt door Microsoft Teams.":::
 
-1. **Koptekst:** Toont het aantal gedeelde werkruimten waar een Microsoft Teams-team aan is gekoppeld.
-2. **Body:** Geeft informatie over de waarde van het koppelen van een Microsoft Teams-team aan de gedeelde werkruimten, om mensen die eraan zijn gekoppeld effectiever te maken in teamwerk.
-3. **Visualisatie:** Het gekleurde deel van de donutgrafiek geeft het percentage werkruimten weer waar een Microsoft Teams-team aan is gekoppeld. Het percentage wordt als volgt berekend:
+1. **Koptekst:** Hiermee wordt het aantal gedeelde werkruimten met een Microsoft Teams team dat aan deze werkruimten is gekoppeld.
+2. **Body:** Geeft informatie over de waarde van het koppelen Microsoft Teams team aan de gedeelde werkruimten, om mensen die aan hen zijn gekoppeld effectiever te maken in teamwerk.
+3. **Visualisatie:** Het gekleurde deel van de donutgrafiek geeft het percentage werkruimten weer dat is gekoppeld Microsoft Teams team. Het percentage wordt als volgt berekend:
 
-      - Teller: het aantal gedeelde werkruimten in uw organisatie dat de afgelopen 28 dagen aan een Microsoft Teams-team is gekoppeld
+      - Teller: het aantal gedeelde werkruimten in uw organisatie dat in de afgelopen 28 dagen Microsoft Teams team aan deze werkruimten is gekoppeld
       - Noemer: Het aantal gedeelde werkruimten in uw organisatie in de afgelopen 28 dagen
 
-        Het getal in het midden van het donutdiagram geeft het totale aantal gedeelde werkruimten aan waar een Microsoft Teams-team aan is gekoppeld.
+        Het getal in het midden van de donutgrafiek vertegenwoordigt het totale aantal gedeelde werkruimten met een Microsoft Teams team dat aan deze werkruimten is gekoppeld.
 4. **Gerelateerde inhoud weergeven:** Selecteer deze koppeling om Help-inhoud weer te geven.
 
 ## <a name="related-content"></a>Verwante onderwerpen
 
-[Status van Microsoft 365-apps – Technologie-ervaringen](apps-health.md) (artikel)\
+[Microsoft 365 apps health – Technology experiences](apps-health.md) (article)\
 [Communicatie – Ervaringen met personen](communication.md) (artikel)\
 [Samenwerking met inhoud: ervaringen met personen](content-collaboration.md) (artikel)\
 [Vergaderingen – Ervaringen van personen](meetings.md) (artikel)\

@@ -13,7 +13,7 @@ f1.keywords:
 - CSH
 ms.custom: Ent_Solutions
 ms.assetid: 1c903173-67cd-47da-86d9-d333972dda80
-description: 'Overzicht: Configureer de proxyservers voor webtoepassing voor uw federatief hoge beschikbaarheid voor Microsoft 365 in Microsoft Azure.'
+description: 'Overzicht: Configureer de proxyservers van de webtoepassing voor uw federatief hoge beschikbaarheid voor Microsoft 365 in Microsoft Azure.'
 ms.openlocfilehash: 95d73d05f2eef087e606df14db180b24c69d5932
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -25,19 +25,19 @@ ms.locfileid: "50929070"
 
 In deze fase van het implementeren van hoge beschikbaarheid voor Microsoft 365 federatieve verificatie in Azure-infrastructuurservices, maakt u een interne load balancer en twee AD FS-servers.
   
-U moet deze fase voltooien voordat u verder gaat [met fase 5: Federatief verificatie configureren voor Microsoft 365.](high-availability-federated-authentication-phase-5-configure-federated-authentic.md) Zie [Federatieverificatie met hoge beschikbaarheid implementeren voor Microsoft 365 in Azure](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) voor alle fasen.
+U moet deze fase voltooien voordat u verder gaat [met fase 5: Federatief verificatie configureren voor Microsoft 365.](high-availability-federated-authentication-phase-5-configure-federated-authentic.md) Zie [Federatieverificatie met hoge](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) beschikbaarheid implementeren voor Microsoft 365 in Azure voor alle fasen.
   
 ## <a name="create-the-internet-facing-load-balancer-in-azure"></a>De op internet gerichte laadsaldor maken in Azure
 
 U moet een op internet gerichte load balancer maken, zodat Azure het inkomende clientverificatieverkeer van internet gelijkmatig distribueert over de twee proxyservers van de webtoepassing.
   
 > [!NOTE]
-> Met de volgende opdrachtsets wordt de meest recente versie van Azure PowerShell gebruikt. Zie [Aan de slag met Azure PowerShell](/powershell/azure/get-started-azureps). 
+> Met de volgende opdrachtsets wordt de meest recente versie van Azure PowerShell gebruikt. Zie [Aan de slag met Azure PowerShell.](/powershell/azure/get-started-azureps) 
   
-Wanneer u locatie- en resourcegroepwaarden hebt opgegeven, kunt u het resulterende blok uitvoeren op de opdrachtprompt van Azure PowerShell of in de PowerShell-ise.
+Wanneer u waarden voor locatie en resourcegroep hebt opgegeven, moet u het resulterende blok uitvoeren op de opdrachtprompt Azure PowerShell powershell of in de PowerShell-ise.
   
 > [!TIP]
-> Als u kant-en-klaar PowerShell-opdrachtblokken wilt genereren op basis van uw aangepaste instellingen, gebruikt u deze [Configuratiewerkboek van Microsoft Excel.](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx) 
+> Als u kant-en-klaar PowerShell-opdrachtblokken wilt genereren op basis van uw aangepaste instellingen, gebruikt u [deze Microsoft Excel configuratiewerkboek.](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx) 
 
 ```powershell
 # Set up key variables
@@ -52,7 +52,7 @@ $lbrule=New-AzLoadBalancerRuleConfig -Name "WebTraffic" -FrontendIpConfiguration
 New-AzLoadBalancer -ResourceGroupName $rgName -Name "WebAppProxyServers" -Location $locName -LoadBalancingRule $lbrule -BackendAddressPool $beAddressPool -Probe $healthProbe -FrontendIpConfiguration $frontendIP
 ```
 
-Als u het openbare IP-adres wilt weergeven dat is toegewezen aan uw op internet gerichte laadbalans, voert u deze opdrachten uit op de opdrachtprompt van Azure PowerShell op uw lokale computer:
+Als u het openbare IP-adres wilt weergeven dat is toegewezen aan uw laadsaldor op internet, voert u deze opdrachten uit op de opdrachtprompt Azure PowerShell uw lokale computer:
   
 ```powershell
 Write-Host (Get-AzPublicIpaddress -Name "WebProxyPublicIP" -ResourceGroup $rgName).IPAddress
@@ -60,7 +60,7 @@ Write-Host (Get-AzPublicIpaddress -Name "WebProxyPublicIP" -ResourceGroup $rgNam
 
 ## <a name="determine-your-federation-service-fqdn-and-create-dns-records"></a>Uw federatieservice FQDN bepalen en DNS-records maken
 
-U moet de DNS-naam bepalen om de naam van uw federatieservice op internet te identificeren. Azure AD Connect configureert Microsoft 365 met deze naam in fase 5, die deel gaat uitmaken van de URL die Microsoft 365 naar verbindings clients verzendt om een beveiligings-token te krijgen. Een voorbeeld is fs.contoso.com (fs staat voor federatieservice).
+U moet de DNS-naam bepalen om de naam van uw federatieservice op internet te identificeren. Azure AD Verbinding maken configureert Microsoft 365 met deze naam in fase 5, die deel gaat uitmaken van de URL die Microsoft 365 verzendt naar verbindings clients om een beveiligings-token te krijgen. Een voorbeeld is fs.contoso.com (fs staat voor federatieservice).
   
 Wanneer u uw federatieservice FDQN hebt, maakt u een openbaar DNS-domein A-record voor de federatieservice FDQN die wordt opgelost naar het openbare IP-adres van de azure internet-facing load balancer.
   
@@ -78,9 +78,9 @@ Voeg vervolgens een DNS-adresrecord toe aan de persoonlijke DNS-naamruimte van u
   
 ## <a name="create-the-web-application-proxy-server-virtual-machines-in-azure"></a>Virtuele machines voor webtoepassingsproxyserver maken in Azure
 
-Gebruik het volgende blok met Azure PowerShell-opdrachten om de virtuele machines voor de twee proxyservers voor webtoepassing te maken. 
+Gebruik het volgende blok met Azure PowerShell om de virtuele machines voor de twee proxyservers voor webtoepassing te maken. 
   
-In de volgende Azure PowerShell-opdrachtsets worden waarden uit de volgende tabellen gebruikt:
+In de volgende Azure PowerShell opdrachtenets worden waarden uit de volgende tabellen gebruikt:
   
 - Tabel M, voor uw virtuele machines
     
@@ -96,7 +96,7 @@ In de volgende Azure PowerShell-opdrachtsets worden waarden uit de volgende tabe
     
 U hebt tabel M gedefinieerd in [fase 2: Domeincontrollers](high-availability-federated-authentication-phase-2-configure-domain-controllers.md) en tabellen R, V, S, I en A configureren in [fase 1: Azure configureren.](high-availability-federated-authentication-phase-1-configure-azure.md)
   
-Wanneer u alle juiste waarden hebt opgegeven, kunt u het resulterende blok uitvoeren op de opdrachtprompt van Azure PowerShell of in de PowerShell-ise.
+Wanneer u alle juiste waarden hebt opgegeven, kunt u het resulterende blok uitvoeren bij de opdrachtprompt Azure PowerShell powershell of in de PowerShell-ise.
   
 ```powershell
 # Set up variables common to both virtual machines
@@ -150,22 +150,22 @@ New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
 ```
 
 > [!NOTE]
-> Omdat deze virtuele machines voor een intranettoepassing zijn, krijgen ze geen openbaar IP-adres of een DNS-domeinnaamlabel toegewezen en worden ze blootgesteld aan internet. Dit betekent echter ook dat u geen verbinding met ze kunt maken vanuit de Azure-portal. De **optie** Verbinding maken is niet beschikbaar wanneer u de eigenschappen van de virtuele computer bekijkt. Gebruik het accessoire Extern bureaublad-verbinding of een ander hulpprogramma voor extern bureaublad om verbinding te maken met de virtuele computer met de persoonlijke DNS-naam van het IP-adres of intranet en de referenties van het lokale beheerdersaccount.
+> Omdat deze virtuele machines voor een intranettoepassing zijn, krijgen ze geen openbaar IP-adres of een DNS-domeinnaamlabel toegewezen en worden ze blootgesteld aan internet. Dit betekent echter ook dat u geen verbinding met ze kunt maken vanuit de Azure-portal. De **Verbinding maken** optie is niet beschikbaar wanneer u de eigenschappen van de virtuele computer bekijkt. Gebruik het accessoire Extern bureaublad-verbinding of een ander hulpprogramma voor extern bureaublad om verbinding te maken met de virtuele computer met de persoonlijke DNS-naam van het IP-adres of intranet en de referenties van het lokale beheerdersaccount.
   
 Hier is de configuratie die het resultaat is van de succesvolle voltooiing van deze fase, met computernamen van tijdelijke aanduidingen.
   
 **Fase 4: De op internet gerichte load balancer en proxyservers voor webtoepassing voor uw federatieve verificatieinfrastructuur met hoge beschikbaarheid in Azure**
 
-![Fase 4 van de hoge beschikbaarheid van Microsoft 365 federatief verificatie-infrastructuur in Azure met de proxyservers voor webtoepassing](../media/7e03183f-3b3b-4cbe-9028-89cc3f195a63.png)
+![Fase 4 van de hoge beschikbaarheid Microsoft 365 federatief verificatie-infrastructuur in Azure met de proxyservers voor webtoepassing](../media/7e03183f-3b3b-4cbe-9028-89cc3f195a63.png)
   
 ## <a name="next-step"></a>Volgende stap
 
-Fase [5: Federatief verificatie](high-availability-federated-authentication-phase-5-configure-federated-authentic.md) configureren voor Microsoft 365 om deze werkbelasting te blijven configureren.
+Fase [5 gebruiken: Federatief verificatie](high-availability-federated-authentication-phase-5-configure-federated-authentic.md) configureren voor Microsoft 365 om deze werkbelasting te blijven configureren.
   
 ## <a name="see-also"></a>Zie ook
 
 [Federatieverificatie met hoge beschikbaarheid implementeren voor Microsoft 365 in Azure](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md)
   
-[Federatief identiteit voor uw Microsoft 365-dev/testomgeving](federated-identity-for-your-microsoft-365-dev-test-environment.md)
+[Federatief identiteit voor uw Microsoft 365 v/testomgeving](federated-identity-for-your-microsoft-365-dev-test-environment.md)
   
 [Microsoft 365-oplossings- en -architectuurcentrum](../solutions/index.yml)

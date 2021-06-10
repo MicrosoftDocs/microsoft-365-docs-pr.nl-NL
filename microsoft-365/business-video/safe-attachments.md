@@ -32,7 +32,7 @@ ms.locfileid: "51578709"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtn3I?autoplay=false]
 
-Microsoft Defender voor Office 365 , voorheen Microsoft 365 ATP of Advanced Threat Protection genoemd, helpt uw bedrijf te beschermen tegen bestanden die schadelijke inhoud bevatten in Outlook, OneDrive, SharePoint en Teams.
+Microsoft Defender voor Office 365 , voorheen atp Microsoft 365 genoemd, of Advanced Threat Protection, helpt uw bedrijf te beschermen tegen bestanden die schadelijke inhoud bevatten in Outlook, OneDrive, SharePoint en Teams.
 
 ## <a name="try-it"></a>Probeer het zelf!
 
@@ -43,7 +43,7 @@ Microsoft Defender voor Office 365 , voorheen Microsoft 365 ATP of Advanced Thre
 1. Schuif omlaag. Kies **Omleiding inschakelen** en voer uw e-mailadres of het adres in van de persoon die u de geblokkeerde bijlagen wilt controleren.
 1. Selecteer **toegepast op** en selecteer vervolgens uw domeinnaam.
 1. Kies eventuele extra domeinen die u bezit (zoals uw onmicrosoft.com domein) waar u de regel op wilt toepassen. Selecteer **Toevoegen** en vervolgens **OK.**
-1. Kies **Opslaan**.
+1. Klik op **Opslaan**.
 
 De regel veilige bijlagen van ATP is bijgewerkt.
 

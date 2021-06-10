@@ -63,7 +63,7 @@ Af en toe moet u mogelijk de naam of het e-mailadres van een gebruiker wijzigen.
 
     Als gevolg van deze wijziging moet de gebruiker zich aanmelden bij Microsoft 365 met deze nieuwe gebruikersnaam en het nieuwe e-mailaccount toevoegen aan Outlook.
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Postvakmachtigingen geven aan een andere gebruiker](../admin/add-users/give-mailbox-permissions-to-another-user.md) (artikel)\
 [Het postvak van een gebruiker converteren naar een gedeeld postvak](../admin/email/convert-user-mailbox-to-shared-mailbox.md) (artikel)\

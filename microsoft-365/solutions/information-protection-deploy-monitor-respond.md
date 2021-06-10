@@ -26,7 +26,7 @@ ms.locfileid: "50928422"
 ---
 # <a name="monitor-and-respond-to-data-privacy-incidents-in-your-organization"></a>Incidenten met gegevensbescherming in uw organisatie bewaken en hierop reageren
 
-Microsoft 365-functies zijn beschikbaar om u te helpen bij het bewaken, onderzoeken en reageren op incidenten met gegevensbescherming in uw organisatie terwijl u gerelateerde mogelijkheden operationeel maakt. Het hebben van processen, procedures en andere documentatie voor elk van deze procedures kan ook belangrijk zijn om naleving van regelgevende instanties aan te tonen.
+Microsoft 365 functies zijn beschikbaar om u te helpen bij het bewaken, onderzoeken en reageren op incidenten met gegevensbescherming in uw organisatie terwijl u gerelateerde mogelijkheden operationeel kunt maken. Het hebben van processen, procedures en andere documentatie voor elk van deze procedures kan ook belangrijk zijn om naleving van regelgevende instanties aan te tonen.
 
 Dit zijn onder andere: 
 
@@ -76,8 +76,8 @@ Zie [Verzoeken van gegevensonderwerpen voor de AVG en CTPA](/compliance/regulato
 
 ## <a name="manage-deleted-users-in-microsoft-stream"></a>Verwijderde gebruikers beheren in Microsoft Stream
 
-Als een gebruiker voor Microsoft Stream wordt verwijderd uit Azure Active Directory (Azure AD), als zijn naam is gekoppeld aan een geposte Stream-video vóór dat punt, blijft het e-mailadres van de gebruiker gekoppeld aan de video. Zie [Verwijderde gebruikers beheren uit Microsoft Stream om](/stream/managing-deleted-users) deze te verwijderen.
+Als een gebruiker voor Microsoft Stream is verwijderd uit Azure Active Directory (Azure AD), als zijn naam is gekoppeld aan een geposte Stream-video vóór dat punt, blijft het e-mailadres van de gebruiker gekoppeld aan de video. Zie [Verwijderde gebruikers beheren uit Microsoft Stream om](/stream/managing-deleted-users) deze te verwijderen.
 
 ## <a name="insider-risk-management-as-an-investigative-tool"></a>Insider risk management als een onderzoekshulpmiddel
 
-[Insider-risicobeheer in Microsoft 365](../compliance/insider-risk-management.md) is een functie van het Microsoft Compliance-beheercentrum om u te helpen interne risico's te minimaliseren door u in staat te stellen risicovolle activiteiten in uw organisatie te detecteren, te onderzoeken en actie te ondernemen.
+[Insider risk management in Microsoft 365](../compliance/insider-risk-management.md) is een functie van het Microsoft Compliance-beheercentrum om u te helpen interne risico's te minimaliseren door u in staat te stellen risicovolle activiteiten in uw organisatie te detecteren, te onderzoeken en actie te ondernemen.

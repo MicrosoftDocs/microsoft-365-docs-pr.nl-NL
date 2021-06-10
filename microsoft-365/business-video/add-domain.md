@@ -54,7 +54,7 @@ Als u e-mail wilt ontvangen op uw nieuwe domein, moet u een nieuwe e-mailalias v
 1. Selecteer **Wijzigingen opslaan** en sluit het venster.
 1. Herhaal deze stappen voor elke gebruiker die e-mail moet ontvangen bij het nieuwe domein.
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Een domein toevoegen aan Microsoft 365](../admin/setup/add-domain.md) (artikel)\
 [DNS-records toevoegen om uw domein te verbinden](../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md) (artikel)\

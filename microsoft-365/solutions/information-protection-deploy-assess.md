@@ -16,7 +16,7 @@ ms.collection:
 - m365solution-infoprotection
 - m365solution-scenario
 ms.custom: ''
-description: Bepaal de privacyregels voor gegevens, de relevante scenario's, uw gereedheid en de gevoelige informatietypen in uw Microsoft 365-omgeving.
+description: Bepaal de privacyregels voor gegevens, de relevante scenario's, uw gereedheid en de gevoelige informatietypen in uw Microsoft 365 omgeving.
 ms.openlocfilehash: 6801f0af70e08d2b4efdc9e27f1cb1f1d636b821
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -26,7 +26,7 @@ ms.locfileid: "50929166"
 ---
 # <a name="assess-data-privacy-risks-and-identify-sensitive-items-with-microsoft-365"></a>Privacyrisico's voor gegevens beoordelen en gevoelige items identificeren met Microsoft 365
 
-Het beoordelen van de privacyregels en risico's voor uw organisatie is een belangrijke eerste stap voordat u gerelateerde verbeteringsacties implementeert, inclusief acties die kunnen worden uitgevoerd met Microsoft 365-functies en -services. 
+Het beoordelen van de privacyregels en risico's voor uw organisatie is een belangrijke eerste stap voordat u gerelateerde verbeteringsacties implementeert, waaronder acties die kunnen worden uitgevoerd met Microsoft 365 functies en services. 
 
 ## <a name="potentially-applicable-data-privacy-regulations"></a>Mogelijk toepasselijke privacyregels voor gegevens
 
@@ -52,7 +52,7 @@ In de Verenigde Staten zijn dit de California Consumer Protection Act[(CTPA),](/
 
 Over de hele wereld zijn er nog meer voorbeelden van de National GDPR Implementation Act (BDSG) van Duitsland, de Brazil Data Protection Act (LGPD) en vele andere.
 
-## <a name="regulation-mapping-to-microsoft-365-technical-control-categories"></a>Verordening toewijzen aan technische beheercategorieën van Microsoft 365
+## <a name="regulation-mapping-to-microsoft-365-technical-control-categories"></a>Toewijzing van regelgeving aan Microsoft 365 categorieën voor technisch beheer
 
 Veel van de privacygerelateerde voorschriften voor gegevens hebben overlappende vereisten, dus u moet begrijpen aan welke voorschriften ze zijn onderworpen voordat u een technisch beheerschema ontwikkelt. 
 
@@ -63,7 +63,7 @@ Voor latere verwijzingen in de artikelen van deze algemene oplossing bevat deze 
 | AVG | Artikel 5, lid 1, onder f) | Persoonsgegevens worden op een wijze verwerkt die de juiste beveiliging van de persoonsgegevens garandeert, met inbegrip van bescherming tegen ongeoorloofde of onrechtmatige verwerking en tegen onbedoeld verlies, vernieling of schade, met behulp van passende technische of organisatorische maatregelen ('integriteit en vertrouwelijkheid'.  |  (Alle) <br> Identiteit <br> Apparaat <br> Bedreigingsbeveiliging <br> Gegevens beveiligen <br> Informatie bepalen <br> Ontdekken en reageren |
 |  | Artikel (32)(1)(a) | Rekening houdend met de stand van de techniek, de kosten van de implementatie en de aard, het bereik, de context en de doeleinden van de verwerking, evenals het risico van verschillende waarschijnlijkheid en ernst voor de rechten en vrijheid van natuurlijke personen, implementeren de controller en de verwerker passende technische en organisatorische maatregelen om een beveiligingsniveau te waarborgen dat geschikt is voor het risico , met inbegrip van onder meer: (a) de pseudonimisering en versleuteling van persoonlijke gegevens. | Gegevens beveiligen |
 |  | Artikel (13)(2)(a) | "... de verantwoordelijke voor de verwerking verstrekt de persoon op het moment dat persoonsgegevens worden verkregen de volgende verdere informatie die nodig is om een eerlijke en transparante verwerking te garanderen: a) de periode waarvoor de persoonsgegevens worden opgeslagen of, indien dit niet mogelijk is, de criteria die worden gebruikt om die periode te bepalen. | Informatie bepalen |
-|  | Artikel (15)(1)(e) | De gegevenspersoon heeft het recht om bij de controller te bevestigen of er al dan niet persoonlijke gegevens over hem of haar worden verwerkt, en in dat geval toegang tot de persoonsgegevens en de volgende gegevens: (e) het bestaan van het recht om bij de controller om rectificatie of wissen van persoonsgegevens te vragen of beperking van de verwerking van persoonsgegevens met betrekking tot de betreffende persoon of om bezwaar te maken tegen deze verwerking | Ontdekken en reageren |
+|  | Artikel (15)(1)(e) | De gegevenspersoon heeft het recht om van de controller te bevestigen of er al dan niet persoonlijke gegevens over hem of haar worden verwerkt, en in dat geval toegang tot de persoonsgegevens en de volgende gegevens: (e) het bestaan van het recht om bij de controller om rectificatie of wissen van persoonsgegevens te vragen of beperking van de verwerking van persoonsgegevens met betrekking tot de betreffende persoon of om bezwaar te maken tegen dergelijke gegevens verwerken | Ontdekken en reageren |
 | LGPD | Artikel 46 | Verwerkingsagenten nemen beveiligings-, technische en administratieve maatregelen die persoonsgegevens kunnen beschermen tegen ongeautoriseerde toegang en onbedoelde of onrechtmatige situaties van vernieling, verlies, wijziging, communicatie of elk type onjuiste of onrechtmatige verwerking. | Gegevens beveiligen <br> Informatie bepalen <br> Ontdekken en reageren|
 |  | Artikel 48 | De controller moet aan de nationale autoriteit en aan de betrokkene het optreden van een beveiligingsincident melden dat risico's of relevante schade kan veroorzaken voor de betrokken personen. | Ontdekken en reageren |
 | HIPPA-HITECH | 45 CFR 164.312(e)(1) | Implementeert technische beveiligingsmaatregelen om te voorkomen dat onbevoegden toegang krijgen tot elektronisch beveiligde gezondheidsgegevens die via een elektronisch communicatienetwerk worden verzonden. | Gegevens beveiligen |
@@ -96,7 +96,7 @@ Gegevens worden ook verplaatst in de tijd terwijl deze worden verwerkt, verfijnd
  
 ### <a name="where-the-personal-data-is"></a>Waar de persoonsgegevens zich
 
-Als u privacyregels voor gegevens wilt aanpakken, kunt u niet vertrouwen op algemene ideeën over waar u denkt dat persoonlijke gegevens kunnen bestaan, nu of in de toekomst. Voor de privacyregels voor gegevens moeten organisaties aantonen dat ze weten waar persoonsgegevens zich voortdurend vinden. Dit maakt het belangrijk om een eerste momentopname te maken van al uw gegevensbronnen voor mogelijke opslag van persoonlijke gegevens, inclusief uw Microsoft 365-omgeving, en mechanismen in te stellen voor het voortdurend controleren en opsporen.
+Als u privacyregels voor gegevens wilt aanpakken, kunt u niet vertrouwen op algemene ideeën over waar u denkt dat persoonlijke gegevens kunnen bestaan, nu of in de toekomst. Voor de privacyregels voor gegevens moeten organisaties aantonen dat ze weten waar persoonsgegevens zich voortdurend vinden. Dit maakt het belangrijk om een eerste momentopname te maken van al uw gegevensbronnen voor mogelijke opslag van persoonlijke gegevens, inclusief uw Microsoft 365-omgeving, en mechanismen vast te stellen voor doorlopend toezicht en detectie.
 
 Als u uw algehele gereedheid en risico's die zijn gekoppeld aan privacyregels voor gegevens nog niet hebt beoordeeld, gebruikt u het volgende 3-stappenkader om aan de slag te gaan. 
 
@@ -110,7 +110,7 @@ Als u uw algehele gereedheid en risico's die zijn gekoppeld aan privacyregels vo
 
 U moet de blootstelling aan privacyrisico's voor gegevens meten op basis van het type persoonlijke gegevens dat momenteel wordt beheerd, waar deze worden opgeslagen, welke besturingselementen er worden geplaatst, hoe de levenscyclus wordt beheerd en wie er toegang toe heeft. 
 
-Als uitgangspunt is het belangrijk om te inventariseren welke typen persoonlijke gegevens er bestaan in uw Microsoft 365-omgeving. Gebruik deze categorieën:
+Als uitgangspunt is het belangrijk om te inventariseren welke typen persoonlijke gegevens er in uw Microsoft 365 voorkomen. Gebruik deze categorieën:
 
 - Werknemersgegevens die nodig zijn voor het uitvoeren van dagelijkse bedrijfsfuncties
 - Gegevens die de organisatie heeft over zakelijke klanten, partners en andere relaties in het B2B-scenario (business-to-business)
@@ -120,9 +120,9 @@ Hier volgen een voorbeeld van de verschillende typen gegevens voor normale afdel
 
 ![Typen persoonlijke gegevens](../media/information-protection-deploy-assess/information-protection-deploy-assess-data-types.png)
 
-Een groot deel van de persoonsgegevens die onderworpen zijn aan de privacyregel voor gegevens, wordt meestal verzameld en opgeslagen buiten Microsoft 365. Alle persoonlijke gegevens van web- of mobiele toepassingen die op consumenten zijn gericht, moeten zijn geëxporteerd van dergelijke toepassingen naar Microsoft 365 om binnen Microsoft 365 te kunnen worden gecontroleerd op gegevensbescherming. 
+Een groot deel van de persoonsgegevens die onderworpen zijn aan privacyregels voor gegevens, wordt meestal verzameld en opgeslagen buiten Microsoft 365. Alle persoonlijke gegevens van web- of mobiele toepassingen die op consumenten zijn gericht, moeten zijn geëxporteerd van dergelijke toepassingen naar Microsoft 365 om binnen de app onderworpen te zijn aan gegevensbeschermingsonderzoek Microsoft 365. 
 
-Uw blootstelling aan gegevensbescherming in Microsoft 365 is mogelijk beperkter ten opzichte van uw webtoepassingen en CRM-systemen, waar deze oplossing niet op is gericht.
+Uw blootstelling aan gegevensbescherming in Microsoft 365 mogelijk beperkter ten opzichte van uw webtoepassingen en CRM-systemen, waar deze oplossing niet op is gericht.
 
 Het is ook belangrijk om na te denken over de volgende veelvoorkomende uitdagingen op het gebied van naleving van gegevensbescherming bij het evalueren van uw risicoprofiel:
 
@@ -143,7 +143,7 @@ Als een persoon een bedrijf verlaat, hebben organisaties meestal processen, proc
 Om aan dergelijke behoeften te voldoen, moeten organisaties processen en procedures hebben die gericht zijn op preventief, recherche- en herstelbehoeften om dergelijke aanvragen te vergemakkelijken, met de aandacht dat bepaalde informatie over een werknemer redelijkerwijs als essentieel kan worden beschouwd voor bedrijfscontinuïteit. Bijvoorbeeld informatie dat een persoon een bestand heeft geschreven of een functie heeft uitgevoerd. 
 
 >[!Note]
->Zie het artikel Controleren en reageren voor onderzoeks- en hersteltechnieken voor persoonlijke [gegevens](information-protection-deploy-monitor-respond.md)in Microsoft 365. Mogelijk wilt u ook geautomatiseerde classificatie- en beveiligingsschema's gebruiken om ervoor te zorgen dat persoonlijke gegevens binnen de organisatie worden beheerd en om te voorkomen dat deze de organisatie in schadelijke situaties verlaten. Zie het [artikel Informatie beveiligen voor](information-protection-deploy-protect-information.md) meer informatie.
+>Zie voor onderzoeks- en hersteltechnieken voor persoonlijke gegevens in Microsoft 365 het [artikel controleren en reageren.](information-protection-deploy-monitor-respond.md) Mogelijk wilt u ook geautomatiseerde classificatie- en beveiligingsschema's gebruiken om ervoor te zorgen dat persoonlijke gegevens binnen de organisatie worden beheerd en om te voorkomen dat deze de organisatie in schadelijke situaties verlaten. Zie het [artikel Informatie beveiligen voor](information-protection-deploy-protect-information.md) meer informatie.
 >
  
 ### <a name="data-the-organization-has-about-its-business-customers-in-the-b2b-scenario"></a>Gegevens van de organisatie over haar zakelijke klanten in het B2B-scenario
@@ -167,7 +167,7 @@ Als uw organisatie niet veel direct-from-consumer-gegevensverzameling doet, is d
 
 Inzicht in uw blootstelling aan risico' s en privacyregels voor gegevens is een belangrijke eerste stap die is gebaseerd op een basiskennis van de scenario's voor persoonlijke gegevens van uw organisatie.
 
-Als u geen persoonlijke gegevens van consumenten hebt in uw Microsoft 365-omgeving of als deze beperkt is tot bepaalde delen van de omgeving en de noodzaak van een technische controle is gebaseerd op blootstelling aan gegevens van het type consument, hoeft die technische controle mogelijk alleen te worden gebruikt in gebieden met een hoog risico, niet overal.
+Als u geen persoonlijke gegevens van consumenten hebt in uw Microsoft 365-omgeving of als deze beperkt is tot bepaalde delen van de omgeving en de noodzaak van een technische controle is gebaseerd op de blootstelling van gegevens van het type consument, hoeft die technische controle mogelijk alleen te worden gebruikt in gebieden met een hoog risico, niet overal.
 
 Hoewel een aanbeveling voor een externe organisatie of standaardbeheerset, zoals van Compliance Manager in Microsoft 365, kan helpen bij het informeren van uw beheerstrategie, moet uw keuze voor implementatie worden aangestuurd door gegevensinventarisatie om uw werkelijke risicoblootstelling te kwantificeren.
 
@@ -189,9 +189,9 @@ Avg-beoordeling bestaat uit deze secties:
 | Beleidsbeheer | <ol><li>Hoe beheert u uw bindende bedrijfsregels (BCR's)? </li><li>Houdt u de toestemming voor gegevens bij? </li><li> Hebben uw contracten betrekking op gegevensclassificaties en verwerkingsvereisten op een schaal van 1 tot en met 5, met 5 die volledig worden gedekt? </li><li>Hebt u en test u regelmatig een incidentresponsplan? </li><li>Welk beleid gebruikt u om toegang te beheren? </li></ol>|
 |||
  
-## <a name="step-3-identify-sensitive-information-types-that-occur-in-your-microsoft-365-environment"></a>Stap 3: Identificeer gevoelige informatietypen die voorkomen in uw Microsoft 365-omgeving. 
+## <a name="step-3-identify-sensitive-information-types-that-occur-in-your-microsoft-365-environment"></a>Stap 3: Identificeer gevoelige informatietypen die voorkomen in uw Microsoft 365 omgeving. 
 
-Deze stap omvat de identificatie van bepaalde typen gevoelige informatie die onderworpen zijn aan specifieke wettelijke controles, evenals het voorkomen ervan in uw Microsoft 365-omgeving. 
+Deze stap omvat de identificatie van bepaalde typen gevoelige informatie die onderworpen zijn aan specifieke wettelijke controles, evenals het voorkomen ervan in uw Microsoft 365 omgeving. 
 
 Het vinden van inhoud in uw omgeving met persoonlijke inhoud kan een formidabele taak zijn, waarbij voorheen een combinatie van compliance zoeken, eDiscovery, Advanced eDiscovery, DLP en auditing werd gebruikt. 
 
@@ -214,16 +214,16 @@ Zie deze artikelen voor meer informatie:
 - [Een ingebouwd type gevoelige informatie aanpassen](../compliance/customize-a-built-in-sensitive-information-type.md)
 - [Meer informatie over typen gevoelige informatie](../compliance/sensitive-information-type-learn-about.md)
 - [Een aangepast type gevoelige informatie maken in het beveiligings- & compliancecentrum](../compliance/create-a-custom-sensitive-information-type.md)
-- [Een aangepast type gevoelige informatie maken in PowerShell & Beveiligingscentrum](../compliance/create-a-custom-sensitive-information-type-in-scc-powershell.md)
+- [Een aangepast type gevoelige informatie maken in het Beveiligings- en compliancecentrum PowerShell](../compliance/create-a-custom-sensitive-information-type-in-scc-powershell.md)
 - [Aangepaste gevoelige informatietypen maken met een classificatie op basis van Exacte gegevensmatch](../compliance/create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)
 
 ### <a name="content-explorer"></a>Inhoudsverkenner
 
-Een belangrijk hulpmiddel voor het bepalen van het voorkomen van gevoelige items in uw omgeving is de nieuwe [Inhoudsverkenner](../compliance/data-classification-content-explorer.md) in het Microsoft 365 Compliance-beheercentrum. Het is een geautomatiseerd hulpmiddel voor het initiële en doorlopende scannen van uw volledige Microsoft 365-abonnement voor het voorkomen van gevoelige informatietypen en het weergeven van de resultaten.
+Een belangrijk hulpmiddel voor het bepalen van het voorkomen [](../compliance/data-classification-content-explorer.md) van gevoelige items in uw omgeving is de nieuwe Inhoudsverkenner in het Microsoft 365 Compliance-beheercentrum. Het is een geautomatiseerd hulpmiddel voor het initiële en doorlopende scannen van uw Microsoft 365 voor het voorkomen van gevoelige informatietypen en het weergeven van de resultaten.
  
 Met het nieuwe hulpmiddel Inhoudverkenner kunt u snel de locaties van gevoelige items in uw omgeving identificeren, met ingebouwde gevoelige informatietypen of aangepaste informatietypen. Dit kan betekenen dat een proces tot stand wordt brengen en dat de verantwoordelijkheid wordt toegewezen om regelmatig de aanwezigheid en locatie van gevoelige items te onderzoeken.
 
-Samen met de andere stappen die in dit artikel worden beschreven, biedt dit een beginpunt voor het identificeren van uw algehele blootstelling aan risico's, gereedheid en locatie van gevoelige items die u wilt beveiligen via geplande Configuratie en controle van Microsoft 365. 
+Samen met de andere stappen die in dit artikel worden beschreven, biedt dit een beginpunt voor het identificeren van uw algehele blootstelling aan risico's, gereedheid en locatie van gevoelige items die u wilt beveiligen via geplande Microsoft 365 configuratie en monitoring. 
 
 ### <a name="other-methods-to-identify-personal-data-in-your-environment"></a>Andere methoden om persoonlijke gegevens in uw omgeving te identificeren
 
@@ -231,7 +231,7 @@ Naast de Inhoudsverkenner hebben organisaties toegang tot de functie Inhoud zoek
 
 Gedetailleerde richtlijnen voor het gebruik van Inhoud zoeken naar het vinden van persoonlijke gegevens worden in [dit artikel beschreven.](/compliance/regulatory/gdpr) Inhoud zoeken en andere detectietechnieken worden ook verkend in [DSR's voor de AVG en CTPA.](/compliance/regulatory/gdpr-dsr-Office365#introduction-to-dsrs)
 
-Aanvullende inzichten over onderzoeks- en hersteltechnieken voor persoonlijke gegevens in Microsoft 365 worden in het [artikel monitor en antwoord gegeven.](information-protection-deploy-monitor-respond.md)
+Aanvullende inzichten over onderzoeks- en hersteltechnieken voor persoonsgegevens in Microsoft 365 worden in het [artikel monitor en antwoord gegeven.](information-protection-deploy-monitor-respond.md)
 
 > [!NOTE]
 > Als u wilt weten welke gevoelige informatie u hebt in bestanden die on-premises zijn opgeslagen, raadpleegt u [Azure Information Protection](/azure/information-protection/quickstart-findsensitiveinfo).

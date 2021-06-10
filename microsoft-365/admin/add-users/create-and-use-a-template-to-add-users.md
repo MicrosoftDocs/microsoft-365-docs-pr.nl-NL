@@ -44,7 +44,7 @@ Wanneer u een sjabloon maakt nadat u een gebruiker hebt toegevoegd, worden de wa
 - Licentieopties
 - Toepassingsopties
 - Rol
-- De meeste profielgegevens, zoals **Functieprofiel,** **Afdeling,** **Office,** **Office-telefoon** en **Adres van straat** 
+- De meeste profielgegevens, zoals **Functieprofiel,** **Afdeling,** **Office,** **Office telefoon** en **Adres van straat** 
 
 De volgende informatie is specifiek voor de gebruiker en wordt niet opgeslagen in de sjabloon:
 
@@ -87,7 +87,7 @@ U kunt alleen sjablonen verwijderen die u niet meer nodig hebt en nieuwe sjablon
     - Selecteer de drie puntjes rechts van de naam van de sjabloon en selecteer **vervolgens Verwijderen.**
     - Selecteer de naam van de sjabloon. Wanneer de sjabloondetails aan de rechterkant van het scherm worden weergegeven, selecteert u **Sjabloon verwijderen.**
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-articles"></a>Aanverwante artikelen
 
 [Tegelijkertijd gebruikers toevoegen en licenties toewijzen](add-users.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Wat is een beheerder in Microsoft 365 voor Bedrijven
+title: Wat is een beheerder in Microsoft 365 voor bedrijven
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -27,11 +27,11 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 04/02/2021
 ms.locfileid: "51578553"
 ---
-# <a name="what-is-a-microsoft-365-admin"></a>Wat is een Microsoft 365-beheerder?
+# <a name="what-is-a-microsoft-365-admin"></a>Wat is een Microsoft 365 beheerder?
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1SRc0?autoplay=false]
 
-In elk Microsoft 365 Business-abonnement moet er ten minste één beheerdersaccount zijn. De beheerder beheert de service, gebruikersaccounts en apparaten. Als u zich hebt aangemeld voor het abonnement, bent u de globale beheerder voor uw abonnement. U kunt ook beheerder worden als een andere beheerder u een beheerder maakt.
+In elk Microsoft 365 Business moet er ten minste één beheerdersaccount zijn. De beheerder beheert de service, gebruikersaccounts en apparaten. Als u zich hebt aangemeld voor het abonnement, bent u de globale beheerder voor uw abonnement. U kunt ook beheerder worden als een andere beheerder u een beheerder maakt.
 
 Hoewel u altijd ten minste één beheerdersrol voor uw abonnement nodig hebt, kan dit een beveiligingsrisico zijn als het beheerdersaccount wordt gecompromitteerd door een externe partij. We raden u aan alleen de beheerdersrol toe te wijzen aan degenen die deze echt nodig hebben en de gebruikersrol aan de meeste personen toe te wijzen.
 
@@ -41,8 +41,8 @@ Hoewel u altijd ten minste één beheerdersrol voor uw abonnement nodig hebt, ka
 
 U kunt als volgende een gebruikersrol wijzigen in een beheerdersrol:
 
-1. Wanneer u bent aangemeld bij Microsoft 365, selecteert u het start programma voor apps. Als u de knop Beheerder ziet, bent u een beheerder.
-1. Selecteer **Beheerder** om naar het Microsoft 365-beheercentrum te gaan.
+1. Wanneer u bent aangemeld bij Microsoft 365, selecteert u het start- en start start- en gebruiksdatum voor apps. Als u de knop Beheerder ziet, bent u een beheerder.
+1. Selecteer **Beheerder** om naar het Microsoft 365 te gaan.
 1. Selecteer in het linkernavigatiedeelvenster **Gebruikers** en vervolgens **Actieve gebruikers.**
 1. Selecteer de persoon die u een beheerder wilt maken. De details van de gebruiker worden weergegeven in het dialoogvenster rechts.
 1. Kies **Rollen beheren.**
@@ -53,8 +53,8 @@ U kunt als volgende een gebruikersrol wijzigen in een beheerdersrol:
 
 U kunt ook een speciaal beheerdersaccount maken voor een IT-persoon of -service:
 
-1. Wanneer u bent aangemeld bij Microsoft 365, selecteert u het start programma voor apps.
-1. Selecteer **Beheerder** om naar het Microsoft 365-beheercentrum te gaan.
+1. Wanneer u bent aangemeld bij Microsoft 365, selecteert u het start- en start start- en gebruiksdatum voor apps.
+1. Selecteer **Beheerder** om naar het Microsoft 365 te gaan.
 1. Selecteer in het linkernavigatiedeelvenster **Gebruikers** en vervolgens **Actieve gebruikers.**
 1. Selecteer **Een gebruiker toevoegen.**
 1. Voer de voornaam en **achternaam** **van** de gebruiker, **Weergavenaam** en Gebruikersnaam in **en** selecteer **Volgende.**

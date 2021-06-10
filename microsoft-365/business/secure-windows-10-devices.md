@@ -26,7 +26,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 21e5551f-fa35-4f13-9418-f80d668b6a2b
-description: Meer informatie over het configureren van de instellingen van het standaardapparaatbeleid dat een Windows 10-apparaat ontvangt bij het aanmelden bij hun werk- of schoolaccount.
+description: Meer informatie over het configureren van de instellingen van het standaardapparaatbeleid dat Windows 10 apparaat ontvangt bij het aanmelden bij hun werk- of schoolaccount.
 ms.openlocfilehash: 86db1c152f9f6ac1fe6093b4a55a74b69fbd8b0f
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -38,7 +38,7 @@ ms.locfileid: "51579969"
 
 Dit artikel is van toepassing op Microsoft 365 Business Premium.
 
-De instellingen die u hier configureert, maken deel uit van het standaardapparaatbeleid voor Windows 10. Alle gebruikers die een Windows 10-apparaat, inclusief mobiele apparaten en pc's, verbinden door zich aan te melden met hun werkaccount, ontvangen automatisch deze instellingen. Het is raadzaam om het standaardbeleid tijdens de installatie te accepteren en later beleidsregels toe te voegen die zijn afgestemd op specifieke groepen gebruikers.
+De instellingen die u hier configureert, maken deel uit van het standaardapparaatbeleid voor Windows 10. Alle gebruikers die een apparaat Windows 10, inclusief mobiele apparaten en pc's, door zich aan te melden met hun werkaccount, ontvangen deze instellingen automatisch. Het is raadzaam om het standaardbeleid tijdens de installatie te accepteren en later beleidsregels toe te voegen die zijn afgestemd op specifieke groepen gebruikers.
   
 ## <a name="settings-to-secure-windows-10-devices"></a>Instellingen voor het beveiligen van Windows 10-apparaten
 

@@ -33,7 +33,7 @@ ms.locfileid: "51579804"
 
 Uw bedrijf of campagne kan het voor wetshandhavers gemakkelijker maken om juridische kosten in te dienen tegen onlinecriminelen door een privacy- en toestemmingsverklaring toe te voegen aan uw aanmeldingspagina.
 
-U kunt uw aanmeldingspagina aanpassen met uw huisstijl. U kunt ook tekst toevoegen om uw gebruikers te helpen zich aan te melden of om juridische vereisten of beperkingen aan te wijzen voor het verkrijgen van toegang tot Microsoft 365-resources.
+U kunt uw aanmeldingspagina aanpassen met uw huisstijl. U kunt ook tekst toevoegen om uw gebruikers te helpen zich aan te melden, of om juridische vereisten of beperkingen aan te wijzen voor het verkrijgen van toegang tot Microsoft 365 resources.
 
 ## <a name="design-customization-the-text-on-your-sign-in-page"></a>De tekst op de aanmeldingspagina aanpassen
 

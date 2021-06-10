@@ -43,9 +43,9 @@ Apparaten moeten aan deze vereisten voldoen:
   
 - Windows 10, versie 1703 of hoger
     
-- Nieuwe apparaten die niet out-of-box-ervaring met Windows hebben gehad
+- Nieuwe apparaten die nog niet zijn Windows-out-of-box-ervaring
 
-1. Kies in het Microsoft 365-beheercentrum de optie **Apparaten** \> **AutoPilot**.
+1. Kies in Microsoft 365 beheercentrum de optie **Apparaten** \> **AutoPilot**.
   
 2. Kies op **de pagina AutoPilot** het tabblad **Apparaten apparaten** \> **toevoegen.**
     
@@ -57,7 +57,7 @@ Apparaten moeten aan deze vereisten voldoen:
     
 ## <a name="assign-a-profile-to-a-device-or-a-group-of-devices"></a>Een profiel toewijzen aan een apparaat of een groep apparaten
 
-1. Kies op **de pagina Windows** voorbereiden het tabblad **Apparaten** en schakel het selectievakje naast een of meer apparaten in. 
+1. Kies op **de Windows** het tabblad  Apparaten en schakel het selectievakje naast een of meer apparaten in. 
     
 2. Selecteer in het deelvenster **Apparaat** een profiel in de vervolgkeuzelijst **Toegewezen profiel**. 
     

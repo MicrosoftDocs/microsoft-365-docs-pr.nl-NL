@@ -46,7 +46,7 @@ Dit artikel is van toepassing op Microsoft 365 Business Premium.
     
 4. Kies **onder Type** beleid de optie **Toepassingsbeheer** voor Android of Toepassingsbeheer voor **iOS,** afhankelijk van de set beleidsregels die u wilt maken. 
     
-5. Vouw **Werkbestanden beveiligen uit wanneer apparaten verloren gaan of worden gestolen** en Beheer hoe gebruikers Toegang krijgen tot **Office-bestanden op mobiele apparaten.** Configureer de instellingen zoals u wilt. **Beheren hoe gebruikers Toegang krijgen** tot Office-bestanden op mobiele apparaten  is standaard **uitgeschakeld,** maar we raden u aan deze in te schakelen en de standaardwaarden te accepteren. Zie Beschikbare instellingen [voor meer informatie.](#available-settings) 
+5. Vouw **Werkbestanden beveiligen uit wanneer apparaten verloren** gaan of worden gestolen en Beheer hoe gebruikers toegang hebben tot Office bestanden op mobiele **apparaten.** Configureer de instellingen zoals u wilt. **Beheren hoe gebruikers toegang Office bestanden op** mobiele apparaten is standaard  **uitgeschakeld,** maar we raden u aan deze in te schakelen en de standaardwaarden te accepteren. Zie Beschikbare instellingen [voor meer informatie.](#available-settings) 
     
     U kunt altijd de koppeling **Standaardwaarden herstellen** gebruiken om terug te keren naar de standaardinstelling. 
     
@@ -74,9 +74,9 @@ Dit artikel is van toepassing op Microsoft 365 Business Premium.
     
 ## <a name="available-settings"></a>Beschikbare instellingen
 
-In de volgende tabellen vindt u gedetailleerde informatie over de instellingen die beschikbaar zijn om werkbestanden op apparaten te beveiligen en de instellingen die bepalen hoe gebruikers Office-bestanden openen vanaf hun mobiele apparaten.
+In de volgende tabellen vindt u gedetailleerde informatie over de instellingen die beschikbaar zijn om werkbestanden op apparaten te beveiligen en de instellingen die bepalen hoe gebruikers toegang hebben tot Office bestanden vanaf hun mobiele apparaten.
   
- Zie Beveiligingsfuncties [in Microsoft 365 Business Premium](map-protection-features-to-intune-settings.md)in kaart brengen naar Intune-instellingen voor meer informatie. 
+ Zie Hoe kunnen beveiligingsfuncties [in Microsoft 365 Business Premium Intune-instellingen voor meer informatie.](map-protection-features-to-intune-settings.md) 
   
 ### <a name="settings-that-protect-work-files"></a>Instellingen voor het beveiligen van werkbestanden
 
@@ -86,7 +86,7 @@ De volgende instellingen zijn beschikbaar voor het beveiligen van werkbestanden 
 |:-----|:-----|
 |Instelling  <br/> |Beschrijving  <br/> |
 |Werkbestanden van een inactief apparaat verwijderen na zoveel dagen  <br/> |Als een apparaat niet wordt gebruikt voor het aantal dagen dat u hier opgeeft, worden alle werkbestanden die op het apparaat zijn opgeslagen, automatisch verwijderd.  <br/> |
-|Gebruikers dwingen om alle werkbestanden op te slaan in OneDrive voor Bedrijven  <br/> |Als deze instelling **Aan** is, is OneDrive voor Bedrijven de enige beschikbare locatie voor het opslaan van werkbestanden.  <br/> |
+|Gebruikers dwingen om alle werkbestanden op te slaan in OneDrive voor Bedrijven  <br/> |Als deze instelling **Aan** is, is de enige beschikbare locatie voor het opslaan van werkbestanden OneDrive voor Bedrijven.  <br/> |
 |Werkbestanden versleutelen  <br/> |Laat deze instelling **ingeschakeld** zodat werkbestanden worden beveiligd door versleuteling. Zelfs als het apparaat verloren of gestolen is, kan niemand uw bedrijfsgegevens lezen.  <br/> |
    
 ### <a name="settings-that-control-how-users-access-office-files-on-mobile-devices"></a>Instellingen die bepalen hoe gebruikers Office-bestanden op mobiele apparaten kunnen openen
@@ -96,8 +96,8 @@ De volgende instellingen zijn beschikbaar om te bepalen hoe gebruikers toegang t
 |||
 |:-----|:-----|
 |Instelling  <br/> |Beschrijving  <br/> |
-|Een pincode of vingerafdruk vereisen om toegang te krijgen tot Office-apps  <br/> |Als deze instelling **On** is, moeten gebruikers naast hun gebruikersnaam en wachtwoord ook een andere vorm van verificatie opgeven voordat ze Office-apps op hun mobiele apparaten kunnen gebruiken.<br/> |
+|Een pincode of vingerafdruk vereisen om toegang te krijgen tot Office-apps  <br/> |Als deze instelling **On** is, moeten gebruikers naast hun gebruikersnaam en wachtwoord een andere vorm van verificatie opgeven voordat ze Office apps op hun mobiele apparaten kunnen gebruiken.<br/> |
 |Pincode opnieuw instellen wanneer het aanmelden ... keer mislukt  <br/> |Om te voorkomen dat een niet-geautoriseerde gebruiker een pincode kan raden, wordt de pincode opnieuw ingesteld na het aantal door u opgegeven verkeerde aanmeldpogingen.  <br/> |
 |Vereisen dat gebruikers zich opnieuw aanmelden als Office-apps inactief zijn geweest gedurende  <br/> |Met deze instelling wordt bepaald hoelang een gebruiker inactief kan zijn voordat hij of zij wordt gevraagd zich opnieuw aan te melden.  <br/> |
 |Toegang weigeren tot werkbestanden op jailbroken of geroote apparaten  <br/> |Slimme gebruikers hebben mogelijk een jailbroken of geroot apparaat. Dit betekent dat de gebruiker het besturingssysteem kan aanpassen, waardoor het apparaat gevoeliger zou kunnen worden voor malware. Deze apparaten worden geblokkeerd wanneer deze instelling is **ingeschakeld**.  <br/> |
-|Gebruikers mogen geen inhoud van Office-apps kopiëren naar persoonlijke apps  <br/> |Dit is standaard toegestaan, maar als de instelling **Aan** is, kan de gebruiker gegevens uit een werkbestand kopiëren naar een persoonlijk bestand. Als de instelling **Uit** is, kan de gebruiker geen gegevens uit een werkbestand kopiëren naar een persoonlijke app of persoonlijk account.  <br/> |
+|Gebruikers mogen geen inhoud kopiëren van Office apps naar persoonlijke apps  <br/> |Dit is standaard toegestaan, maar als de instelling **Aan** is, kan de gebruiker gegevens uit een werkbestand kopiëren naar een persoonlijk bestand. Als de instelling **Uit** is, kan de gebruiker geen gegevens uit een werkbestand kopiëren naar een persoonlijke app of persoonlijk account.  <br/> |

@@ -1,5 +1,5 @@
 ---
-title: Prestaties van SharePoint Online afstemmen
+title: Prestaties SharePoint online afstemmen
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -18,7 +18,7 @@ f1.keywords:
 - CSH
 ms.custom: Adm_O365
 ms.assetid: f0522d4a-fbf4-41f9-854e-c9b59555091d
-description: Bevat koppelingen naar andere artikelen over het verbeteren van de prestaties van de downloadtijden voor pagina's voor SharePoint Online.
+description: Bevat koppelingen naar andere artikelen over het verbeteren van de prestaties van pagina downloadtijden voor SharePoint Online.
 ms.openlocfilehash: 9ce463898b81e1653932864276be2fa8d6ce830b
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -26,13 +26,13 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50909332"
 ---
-# <a name="tune-sharepoint-online-performance"></a>Prestaties van SharePoint Online afstemmen
+# <a name="tune-sharepoint-online-performance"></a>Prestaties SharePoint online afstemmen
 
-Dit artikel bevat koppelingen naar andere artikelen waarin wordt beschreven hoe u de prestaties van de downloadtijden van pagina's voor SharePoint Online kunt verbeteren. Dit artikel maakt deel uit van [de netwerkplanning en prestatieafstemming voor Office 365-project.](./network-planning-and-performance.md)
+Dit artikel bevat koppelingen naar andere artikelen waarin wordt beschreven hoe u de prestaties van pagina-downloadtijden voor SharePoint Online kunt verbeteren. Dit artikel maakt deel uit van de [netwerkplanning en prestatieafstemming voor Office 365](./network-planning-and-performance.md) project.
 
-## <a name="articles-about-fine-tuning-sharepoint-online-performance"></a>Artikelen over het optimaliseren van de prestaties van SharePoint Online
+## <a name="articles-about-fine-tuning-sharepoint-online-performance"></a>Artikelen over het afstemmen SharePoint onlineprestaties
 
-Gebruik deze artikelen om de prestaties van SharePoint Online af te stemmen.
+Gebruik deze artikelen om de prestaties van SharePoint online af te stemmen.
   
 - [Inleiding tot prestatieafstemming voor SharePoint Online](introduction-to-performance-tuning-for-sharepoint-online.md)
 
@@ -40,7 +40,7 @@ Gebruik deze artikelen om de prestaties van SharePoint Online af te stemmen.
 
 - [Navigatieopties voor SharePoint Online](navigation-options-for-sharepoint-online.md)
 
-- [Prestatie-richtlijnen voor SharePoint Online-portals](/sharepoint/dev/solution-guidance/portal-performance)
+- [Prestatie-richtlijnen SharePoint onlineportalen](/sharepoint/dev/solution-guidance/portal-performance)
 
 - [Afbeeldingsoptimalisatie voor SharePoint Online](image-optimization-for-sharepoint-online.md)
 
@@ -48,24 +48,24 @@ Gebruik deze artikelen om de prestaties van SharePoint Online af te stemmen.
 
 - [Minificatie en bundeling in SharePoint Online](minification-and-bundling-in-sharepoint-online.md)
 
-- [Het Office 365 Content Delivery Network (CDN) gebruiken met SharePoint Online](use-microsoft-365-cdn-with-spo.md)
+- [De Office 365 Content Delivery Network (CDN) gebruiken met SharePoint Online](use-microsoft-365-cdn-with-spo.md)
 
-- [Webonderdeel Inhoud zoeken gebruiken in plaats van webonderdeel Inhoudsquery om de prestaties in SharePoint Online te verbeteren](using-content-search-web-part-instead-of-content-query-web-part-to-improve-perfo.md)
+- [Webonderdeel Inhoud zoeken gebruiken in plaats van webonderdeel Inhoudsquery om de prestaties in SharePoint Online](using-content-search-web-part-instead-of-content-query-web-part-to-improve-perfo.md)
 
 - [Capaciteitsplanning en belastingtest van SharePoint Online](capacity-planning-and-load-testing-sharepoint-online.md)
 
-- [Prestatieproblemen met SharePoint Online diagnosticeren](diagnosing-performance-issues-with-sharepoint-online.md)
+- [Prestatieproblemen diagnosticeren met SharePoint Online](diagnosing-performance-issues-with-sharepoint-online.md)
 
 - [De objectcache gebruiken met SharePoint Online](using-the-object-cache-with-sharepoint-online.md)
 
 - [How to: Voorkomen dat u wordt beperkt of geblokkeerd in SharePoint Online](/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online)
 
-- [IFrames optimaliseren in moderne portalpagina's van SharePoint Online](modern-iframe-optimization.md)
+- [IFrames optimaliseren in SharePoint moderne portalpagina's van Online](modern-iframe-optimization.md)
 
-- [Prestaties van webonderdeel optimaliseren in moderne portalpagina's van SharePoint Online](modern-web-part-optimization.md)
+- [Prestaties van webonderdeel optimaliseren in SharePoint moderne portalpagina's online](modern-web-part-optimization.md)
 
-- [Paginagesprekken optimaliseren in moderne portalpagina's van SharePoint Online](modern-page-call-optimization.md)
+- [Paginagesprekken optimaliseren in SharePoint moderne portalpagina's van Online](modern-page-call-optimization.md)
 
-- [Paginagewicht optimaliseren in moderne portalpagina's van SharePoint Online](modern-page-weight-optimization.md)
+- [Paginagewicht optimaliseren in SharePoint moderne portalpagina's van Online](modern-page-weight-optimization.md)
 
-- [Afbeeldingen optimaliseren in moderne portalpagina's van SharePoint Online](modern-image-optimization.md)
+- [Afbeeldingen optimaliseren in SharePoint moderne portalpagina's online](modern-image-optimization.md)

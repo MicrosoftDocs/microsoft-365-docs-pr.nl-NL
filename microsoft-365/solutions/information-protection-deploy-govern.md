@@ -16,7 +16,7 @@ ms.collection:
 - m365solution-infoprotection
 - m365solution-scenario
 ms.custom: ''
-description: Gebruik microsoft 365 bewaarlabels en -beleid om persoonlijke gegevens te beheren in uw Microsoft 365-omgeving.
+description: Gebruik Microsoft 365 labels en beleidsregels voor het beheren van persoonlijke gegevens in uw Microsoft 365 omgeving.
 ms.openlocfilehash: 62c2386ac8f9c5b31650df8be2c2a411d8b75959
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -31,7 +31,7 @@ Informatiebeheerbesturingselementen kunnen worden gebruikt in uw omgeving om te 
 Deze besturingselementen vallen voornamelijk onder de volgende oplossingsgebieden:
 
 - Bewaarbeleid
-- Bewaarlabels
+- Retentielabels
 - Records Management
 
 ## <a name="data-privacy-regulations-impacting-information-governance-controls"></a>Privacyregels voor gegevens die van invloed zijn op besturingselementen voor informatiebeheer
@@ -66,9 +66,9 @@ Een belangrijke vraag die u moet beantwoorden is:
 
 Ongeacht de juridische en zakelijke redenen voor het bewaren van persoonlijke gegevens of het verwijderen ervan, biedt Microsoft een aantal mogelijkheden voor het implementeren van uw gegevensbeheerschema in Microsoft 365.
 
-## <a name="managing-information-governance-in-microsoft-365"></a>Informatiebeheer beheren in Microsoft 365
+## <a name="managing-information-governance-in-microsoft-365"></a>Beheer van informatiebeheer in Microsoft 365
 
-Zie Informatiebeheer en [gegevensretentie,](../compliance/manage-information-governance.md) verwijdering en vernietiging beheren [in Microsoft 365](/office365/Enterprise/office-365-data-retention-deletion-and-destruction-overview)om te beginnen.
+Zie Informatiebeheer en [Gegevensretentie,](../compliance/manage-information-governance.md) Verwijdering en Vernietiging beheren [in](/office365/Enterprise/office-365-data-retention-deletion-and-destruction-overview)Microsoft 365.
 
 ### <a name="develop-data-retention-schedules-for-containers-email-and-content"></a>Planningen voor het bewaren van gegevens ontwikkelen voor containers, e-mail en inhoud
 
@@ -84,10 +84,10 @@ Houd het volgende in gedachten:
 
 ### <a name="retention-policies-and-retention-labels"></a>Bewaarbeleid en retentielabels
 
-Gebruik [bewaarbeleid en bewaarlabels om](../compliance/retention.md) inhoud in Microsoft 365 te behouden of te verwijderen die persoonlijke gegevens bevat of naar verwachting bevat.
+Gebruik [bewaarbeleid en bewaarlabels om](../compliance/retention.md) inhoud te behouden of te verwijderen in Microsoft 365 inhoud die persoonlijke gegevens bevat of naar verwachting bevat.
 
 ### <a name="records-management"></a>Records Management
 
-Gebruik bewaarlabels die inhoud als record declareeren om een [recordbeheeroplossing](../compliance/records-management.md) voor gegevens in Microsoft 365 te implementeren.
+Gebruik bewaarlabels die inhoud als record declareeren om een [recordbeheeroplossing](../compliance/records-management.md) voor gegevens in Microsoft 365.
 
 Voor gegevensbescherming worden verzoeken van gegevensonderwerpen (DSR's) die door de juridische afdeling zijn ontvangen, als record gedeclareerd en kunnen ze voor onbepaalde tijd worden opgeslagen of met bewijs worden verwijderd, om te voldoen aan de bewaarspecificaties voor regelgevingsactiviteit.

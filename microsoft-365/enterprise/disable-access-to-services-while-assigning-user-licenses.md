@@ -1,5 +1,5 @@
 ---
-title: Toegang tot Microsoft 365-services uitschakelen tijdens het toewijzen van gebruikerslicenties
+title: De toegang tot Microsoft 365 uitschakelen tijdens het toewijzen van gebruikerslicenties
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -17,7 +17,7 @@ ms.custom:
 - PowerShell
 - Ent_Office_Other
 ms.assetid: bb003bdb-3c22-4141-ae3b-f0656fc23b9c
-description: Meer informatie over het toewijzen van licenties aan gebruikersaccounts en het tegelijk uitschakelen van specifieke serviceplannen met PowerShell voor Microsoft 365.
+description: Informatie over het toewijzen van licenties aan gebruikersaccounts en het tegelijk uitschakelen van specifieke serviceplannen met PowerShell voor Microsoft 365.
 ms.openlocfilehash: 7486968f6f4822047a1697ee1e05129277fd11a8
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -25,15 +25,15 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50929430"
 ---
-# <a name="disable-access-to-microsoft-365-services-while-assigning-user-licenses"></a>Toegang tot Microsoft 365-services uitschakelen tijdens het toewijzen van gebruikerslicenties
+# <a name="disable-access-to-microsoft-365-services-while-assigning-user-licenses"></a>De toegang tot Microsoft 365 uitschakelen tijdens het toewijzen van gebruikerslicenties
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-Microsoft 365-abonnementen worden aangeboden met serviceabonnementen voor afzonderlijke services. Microsoft 365-beheerders moeten vaak bepaalde abonnementen uitschakelen bij het toewijzen van licenties aan gebruikers. Met de instructies in dit artikel kunt u een Microsoft 365-licentie toewijzen terwijl u specifieke serviceplannen uitwijst met PowerShell voor een afzonderlijk gebruikersaccount of meerdere gebruikersaccounts.
+Microsoft 365 abonnementen worden aangeboden met serviceabonnementen voor afzonderlijke services. Microsoft 365 beheerders moeten vaak bepaalde abonnementen uitschakelen bij het toewijzen van licenties aan gebruikers. Met de instructies in dit artikel kunt u een Microsoft 365 toewijzen terwijl u specifieke serviceplannen uitwijst met PowerShell voor een afzonderlijk gebruikersaccount of meerdere gebruikersaccounts.
 
-## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>De Azure Active Directory PowerShell voor Graph-module gebruiken
+## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>De powershell Azure Active Directory powershell gebruiken voor Graph module
 
-Maak eerst [verbinding met uw Microsoft 365-tenant.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
+Maak eerst [verbinding met uw Microsoft 365 tenant.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
   
 
 Vermeld vervolgens de licentieplannen voor uw tenant met deze opdracht.
@@ -65,9 +65,9 @@ $LicensesToAssign.AddLicenses = $License
 Set-AzureADUserLicense -ObjectId $user.ObjectId -AssignedLicenses $LicensesToAssign
 ```
 
-## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>De Microsoft Azure Active Directory-module voor Windows PowerShell gebruiken
+## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Gebruik de Microsoft Azure Active Directory module voor Windows PowerShell
 
-Maak eerst [verbinding met uw Microsoft 365-tenant.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
+Maak eerst [verbinding met uw Microsoft 365 tenant.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
 Voer vervolgens deze opdracht uit om uw huidige abonnementen te bekijken:
   
@@ -81,7 +81,7 @@ Get-MsolAccountSku
 
 In de weergave van de  `Get-MsolAccountSku` opdracht:
   
-- **AccountSkuId** is een abonnement voor uw organisatie in \<OrganizationName> : \<Subscription> indeling. Dit is de waarde die u hebt opgegeven toen u zich in Microsoft 365 hebt geregistreerd \<OrganizationName> en uniek is voor uw organisatie. De \<Subscription> waarde is voor een specifiek abonnement. Voor litwareinc:ENTERPRISEPACK is de naam van de organisatie bijvoorbeeld litwareinc en is de abonnementsnaam ENTERPRISEPACK (Office 365 Enterprise E3).
+- **AccountSkuId** is een abonnement voor uw organisatie in \<OrganizationName> : \<Subscription> indeling. Dit \<OrganizationName> is de waarde die u hebt opgegeven bij het Microsoft 365 en is uniek voor uw organisatie. De \<Subscription> waarde is voor een specifiek abonnement. Voor litwareinc:ENTERPRISEPACK is de naam van de organisatie bijvoorbeeld litwareinc en is de abonnementsnaam ENTERPRISEPACK (Office 365 Enterprise E3).
     
 - **ActiveUnits** is het aantal licenties dat u voor het abonnement hebt gekocht.
     
@@ -89,9 +89,9 @@ In de weergave van de  `Get-MsolAccountSku` opdracht:
     
 - **ConsumedUnits** is het aantal licenties dat u hebt toegewezen aan gebruikers voor het abonnement.
     
-Let op de AccountSkuId voor uw Microsoft 365-abonnement met de gebruikers die u een licentie wilt geven. Zorg er ook voor dat er voldoende licenties zijn om toe te wijzen **(consumedUnits aftrekken** van **ActiveUnits).**
+Let op accountSkuId voor uw Microsoft 365 die de gebruikers bevat die u wilt gebruiken. Zorg er ook voor dat er voldoende licenties zijn om toe te wijzen **(consumedUnits aftrekken** van **ActiveUnits).**
   
-Voer vervolgens deze opdracht uit om de details te zien van de Microsoft 365-serviceabonnementen die beschikbaar zijn in al uw abonnementen:
+Voer vervolgens deze opdracht uit om de details te zien van de Microsoft 365 serviceabonnementen die beschikbaar zijn in al uw abonnementen:
   
 ```powershell
 Get-MsolAccountSku | Select -ExpandProperty ServiceStatus
@@ -99,9 +99,9 @@ Get-MsolAccountSku | Select -ExpandProperty ServiceStatus
 
 Bepaal in de weergave van deze opdracht welke serviceplannen u wilt uitschakelen wanneer u licenties toewijst aan gebruikers.
   
-Hier is een gedeeltelijke lijst met serviceplannen en de bijbehorende Microsoft 365-services.
+Hier is een gedeeltelijke lijst met serviceplannen en de bijbehorende Microsoft 365 services.
 
-In de volgende tabel ziet u de Microsoft 365-serviceplannen en hun vriendelijke namen voor de meest voorkomende services. Uw lijst met serviceplannen kan anders zijn. 
+In de volgende tabel ziet u Microsoft 365 serviceplannen en hun vriendelijke namen voor de meest voorkomende services. Uw lijst met serviceplannen kan anders zijn. 
   
 |**Serviceplan**|**Beschrijving**|
 |:-----|:-----|
@@ -109,7 +109,7 @@ In de volgende tabel ziet u de Microsoft 365-serviceplannen en hun vriendelijke 
 | `TEAMS1` <br/> |Microsoft Teams  <br/> |
 | `YAMMER_ENTERPRISE` <br/> |Yammer  <br/> |
 | `RMS_S_ENTERPRISE` <br/> |Azure Rights Management (RMS)  <br/> |
-| `OFFICESUBSCRIPTION` <br/> |Microsoft 365 Apps voor ondernemingen *(voorheen Office 365 ProPlus genoemd)*  <br/> |
+| `OFFICESUBSCRIPTION` <br/> |Microsoft 365-apps voor ondernemingen *(eerder benoemd Office 365 ProPlus)*  <br/> |
 | `MCOSTANDARD` <br/> |Skype voor Bedrijven Online  <br/> |
 | `SHAREPOINTWAC` <br/> |Office   <br/> |
 | `SHAREPOINTENTERPRISE` <br/> |SharePoint Online  <br/> |

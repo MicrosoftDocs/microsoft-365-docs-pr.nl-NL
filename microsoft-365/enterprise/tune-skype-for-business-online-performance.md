@@ -30,19 +30,19 @@ ms.locfileid: "50909320"
 ---
 # <a name="tune-skype-for-business-online-performance"></a>Prestaties van Skype voor Bedrijven Online afstemmen
 
-Dit artikel bevat koppelingen voor systeembeheerders die de netwerkbandbreedtevereisten willen plannen of die de prestaties van Skype voor Bedrijven Online moeten verbeteren. 
+Dit artikel bevat koppelingen voor systeembeheerders die de netwerkbandbreedtevereisten willen plannen of die de prestaties van Skype voor Bedrijven Online willen verbeteren. 
   
-## <a name="fine-tuning-skype-for-business-online-performance"></a>Prestaties van Skype voor Bedrijven Online optimaliseren
+## <a name="fine-tuning-skype-for-business-online-performance"></a>De prestaties van Skype voor Bedrijven online verbeteren
 
-- **Voor meer informatie over de instellingen** en metrische gegevens voor het behoud van de gesprekskwaliteit voor uw organisatie, is het belangrijk om mediakwaliteit en netwerkconnectiviteitsprestaties te lezen in Skype voor Bedrijven [Online.](/skypeforbusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) In dit artikel vindt u informatie, als u ExpressRoute wilt gebruiken, over de implementatietypen en andere informatie die u nodig hebt.
+- **Als u meer wilt weten** over de instellingen en metrische gegevens voor het behoud van de gesprekskwaliteit voor uw organisatie, is het belangrijk om mediakwaliteit en netwerkconnectiviteitsprestaties te lezen in Skype voor Bedrijven [Online.](/skypeforbusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) In dit artikel vindt u informatie, als u ExpressRoute wilt gebruiken, over de implementatietypen en andere informatie die u nodig hebt.
     
-- **Voor on-premises** en hybride implementaties kunt u de bandbreedtevereisten voor Skype voor Bedrijven Server inbelvergaderingen zien, zie Inbelvergaderingen plannen in Skype voor Bedrijven [Server 2015.](/skypeforbusiness/plan-your-deployment/conferencing/dial-in-conferencing)
+- Voor **on-premises** en hybride implementaties kunt u de bandbreedtevereisten voor Skype voor Bedrijven Server inbelvergaderingen zien, zie Plannen voor inbelvergaderingen [in Skype voor Bedrijven Server 2015.](/skypeforbusiness/plan-your-deployment/conferencing/dial-in-conferencing)
     
-## <a name="more-ways-to-improve-skype-for-business-online-performance"></a>Meer manieren om de prestaties van Skype voor Bedrijven Online te verbeteren
+## <a name="more-ways-to-improve-skype-for-business-online-performance"></a>Meer manieren om de onlineprestaties Skype voor Bedrijven verbeteren
 
-- [ExpressRoute en QoS in Skype voor](/skypeforbusiness/optimizing-your-network/expressroute-and-qos-in-skype-for-business-online)Bedrijven Online: Maak verbinding met Office 365 via een speciale netwerkverbinding met Azure ExpressRoute voor Office 365 en Skype voor Bedrijven Online. 
+- [ExpressRoute en QoS in Skype voor Bedrijven Online:](/skypeforbusiness/optimizing-your-network/expressroute-and-qos-in-skype-for-business-online)Verbinding maken Office 365 via een speciale netwerkverbinding via Azure ExpressRoute voor Office 365 en Skype voor Bedrijven Online. 
     
-- Gesprekskwaliteitsdashboard in- en uitschakelen in Skype voor Bedrijven [Online:](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard)met het Dashboard Gesprekskwaliteit (CQD) kunt u de kwaliteit van gesprekken die worden gemaakt met Skype voor Bedrijven-services controleren en er inzicht in krijgen. 
+- Gesprekskwaliteitsdashboard in- en uitschakelen [in Skype voor Bedrijven Online:](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard)met het dashboard gesprekskwaliteit (CQD) kunt u de kwaliteit van gesprekken die met Skype voor Bedrijven worden gemaakt, controleren en bekijken. 
     
 ## <a name="articles-on-setting-up-skype-for-business-online"></a>Artikelen over het instellen van Skype voor Bedrijven Online
 

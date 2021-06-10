@@ -40,7 +40,7 @@ ms.locfileid: "51580249"
 
 Een profiel geldt voor een apparaat of een groep apparaten.
   
-1. Kies in het Microsoft 365-beheercentrum de optie **Apparaten** \> **AutoPilot**.
+1. Kies in Microsoft 365 beheercentrum de optie **Apparaten** \> **AutoPilot**.
   
 2. Kies op **de pagina AutoPilot** het tabblad **Profielen** profiel \> **maken.**
     

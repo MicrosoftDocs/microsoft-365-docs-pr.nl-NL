@@ -41,7 +41,7 @@ ms.locfileid: "52706453"
 
 Microsoft 365 voor bedrijven is een uitgebreide set hulpprogramma's voor bedrijfsproductiviteit en samenwerking, zoals Outlook, Word, Excel en andere Office-producten, die altijd up-to-date zijn. U kunt uw werkbestanden op al uw iOS-, Android- en Windows 10-apparaten beveiligen met bedrijfsbeveiliging die eenvoudig te beheren is.
 
-## <a name="watch-what-is-microsoft-365-business-premium"></a>Kijken: Wat is Microsoft 365 Business Premium
+## <a name="watch-what-is-microsoft-365-business-premium"></a>Bekijken: Wat is Microsoft 365 Business Premium?
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   
@@ -65,7 +65,7 @@ In het volgende diagram wordt beschreven hoe beheerders Microsoft 365 voor bedri
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FYSM] 
 
-Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../business-video/index.yml).
+Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../business-video/index.yml).
 
   
 ### <a name="1-set-up-microsoft-365-for-business-admin"></a>1: Een Microsoft 365 voor bedrijven instellen (beheerder)
@@ -107,7 +107,7 @@ Als u een lokale Active Directory met enkele on-premises bronnen (zoals bestands
     
 - Als beheerder Microsoft 365 voor bedrijven hebt u toegang tot ons klantenserviceteam: Contact opnemen met ondersteuning voor **[zakelijke producten - Help voor beheerders](../business-video/get-help-support.md)**
     
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Microsoft 365 voor zakelijke documentatie en resources](./index.yml) (koppelingspagina)\
 [Beheer Microsoft 365 voor bedrijven](manage.md) (artikel)\

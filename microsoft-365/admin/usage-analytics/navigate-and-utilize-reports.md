@@ -69,9 +69,9 @@ Voor meer informatie over het aanpassen van rapporten raadpleegt u [Rapporten na
 
 U kunt uitgebreide informatie vinden in de Help van Power BI:
 
-- [Basisconcepten van Power BI](/power-bi/service-basic-concepts)
+- [Power BI basisconcepten](/power-bi/service-basic-concepts)
 
-    Meer informatie over dashboards, gegevenssets, rapporten en andere Power BI-concepten.
+    Meer informatie over dashboards, gegevenssets, rapporten en andere Power BI concepten.
 
 - [Get started with Power BI service](/power-bi/service-get-started?wt.mc_id=O365_Reports_PBI_contentpack) (Aan de slag met de Power BI-service)
 

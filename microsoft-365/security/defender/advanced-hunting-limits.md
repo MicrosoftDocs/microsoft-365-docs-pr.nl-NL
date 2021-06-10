@@ -39,7 +39,7 @@ Als u de service performant en responsief wilt houden, stelt geavanceerd zoeken 
 
 Raadpleeg de volgende tabel om inzicht te krijgen in bestaande quota en gebruiksparameters.
 
-| Quotum of parameter | Grootte | Vernieuwingscyclus | Omschrijving |
+| Quotum of parameter | Grootte | Vernieuwingscyclus | Beschrijving |
 |--|--|--|--|
 | Gegevensbereik | 30 dagen | Elke query | Elke query kan gegevens opvragen van maximaal de afgelopen 30 dagen. |
 | Resultatenset | 10.000 rijen | Elke query | Elke query kan maximaal 10.000 records retourneren. |
