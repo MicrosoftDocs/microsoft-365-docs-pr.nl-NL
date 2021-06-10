@@ -20,16 +20,16 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52536224"
 ---
-# <a name="payment-information-for-uruguay"></a><span data-ttu-id="ca1f7-103">Betalingsgegevens voor Uruguay</span><span class="sxs-lookup"><span data-stu-id="ca1f7-103">Payment information for Uruguay</span></span>
+# <a name="payment-information-for-uruguay"></a><span data-ttu-id="0182e-103">Betalingsgegevens voor Uruguay</span><span class="sxs-lookup"><span data-stu-id="0182e-103">Payment information for Uruguay</span></span>
 
-<span data-ttu-id="ca1f7-104">[Zoek een ander land of een andere regio.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="ca1f7-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="0182e-104">[Zoek een ander land of een andere regio.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="0182e-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="ca1f7-105">Betaal alleen in USD en verwijs naar het factuurnummer(en) bij de overboeking van uw betaling.</span><span class="sxs-lookup"><span data-stu-id="ca1f7-105">Please pay in USD only and reference invoice number(s) on your payment remittance.</span></span>
+<span data-ttu-id="0182e-105">Betaal alleen in USD en verwijs naar het factuurnummer(en) bij de overboeking van uw betaling.</span><span class="sxs-lookup"><span data-stu-id="0182e-105">Please pay in USD only and reference invoice number(s) on your payment remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="ca1f7-106">Elektronische betaling</span><span class="sxs-lookup"><span data-stu-id="ca1f7-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="0182e-106">Elektronische betaling</span><span class="sxs-lookup"><span data-stu-id="0182e-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="ca1f7-107">**Bank:** Citibank, Londen</span><span class="sxs-lookup"><span data-stu-id="ca1f7-107">**Bank:** Citibank, London</span></span>  
-<span data-ttu-id="ca1f7-108">**SWIFT-code:** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="ca1f7-108">**SWIFT Code:** CITIGB2L</span></span>  
-<span data-ttu-id="ca1f7-109">**IBAN:** GB95CITI18500812510049</span><span class="sxs-lookup"><span data-stu-id="ca1f7-109">**IBAN:** GB95CITI18500812510049</span></span>  
-<span data-ttu-id="ca1f7-110">**Accountnummer:** 12510049</span><span class="sxs-lookup"><span data-stu-id="ca1f7-110">**Account Number:** 12510049</span></span>  
-<span data-ttu-id="ca1f7-111">**Accountnaam:** MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="ca1f7-111">**Account Name:** MICROSOFT</span></span>
+<span data-ttu-id="0182e-107">**Bank:** Citibank, Londen</span><span class="sxs-lookup"><span data-stu-id="0182e-107">**Bank:** Citibank, London</span></span>  
+<span data-ttu-id="0182e-108">**SWIFT-code:** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="0182e-108">**SWIFT Code:** CITIGB2L</span></span>  
+<span data-ttu-id="0182e-109">**IBAN:** GB95CITI18500812510049</span><span class="sxs-lookup"><span data-stu-id="0182e-109">**IBAN:** GB95CITI18500812510049</span></span>  
+<span data-ttu-id="0182e-110">**Accountnummer:** 12510049</span><span class="sxs-lookup"><span data-stu-id="0182e-110">**Account Number:** 12510049</span></span>  
+<span data-ttu-id="0182e-111">**Accountnaam:** MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="0182e-111">**Account Name:** MICROSOFT</span></span>

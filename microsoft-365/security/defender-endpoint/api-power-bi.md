@@ -24,38 +24,38 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 06/08/2021
 ms.locfileid: "52843780"
 ---
-# <a name="create-custom-reports-using-power-bi"></a><span data-ttu-id="5e619-104">Aangepaste rapporten maken met Power BI</span><span class="sxs-lookup"><span data-stu-id="5e619-104">Create custom reports using Power BI</span></span>
+# <a name="create-custom-reports-using-power-bi"></a><span data-ttu-id="e13c1-104">Aangepaste rapporten maken met Power BI</span><span class="sxs-lookup"><span data-stu-id="e13c1-104">Create custom reports using Power BI</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-<span data-ttu-id="5e619-105">**Van toepassing op:**</span><span class="sxs-lookup"><span data-stu-id="5e619-105">**Applies to:**</span></span>
-- [<span data-ttu-id="5e619-106">Microsoft Defender voor Eindpunt</span><span class="sxs-lookup"><span data-stu-id="5e619-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
-- [<span data-ttu-id="5e619-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="5e619-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
+<span data-ttu-id="e13c1-105">**Van toepassing op:**</span><span class="sxs-lookup"><span data-stu-id="e13c1-105">**Applies to:**</span></span>
+- [<span data-ttu-id="e13c1-106">Microsoft Defender voor Eindpunt</span><span class="sxs-lookup"><span data-stu-id="e13c1-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [<span data-ttu-id="e13c1-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="e13c1-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
-- <span data-ttu-id="5e619-108">Wilt u Microsoft Defender voor Eindpunt ervaren?</span><span class="sxs-lookup"><span data-stu-id="5e619-108">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="5e619-109">Meld u aan voor een gratis proefabonnement.</span><span class="sxs-lookup"><span data-stu-id="5e619-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+- <span data-ttu-id="e13c1-108">Wilt u Microsoft Defender voor Eindpunt ervaren?</span><span class="sxs-lookup"><span data-stu-id="e13c1-108">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="e13c1-109">Meld u aan voor een gratis proefabonnement.</span><span class="sxs-lookup"><span data-stu-id="e13c1-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
-<span data-ttu-id="5e619-110">In deze sectie leert u een rapport Power BI maken boven op API's van Defender voor eindpunten.</span><span class="sxs-lookup"><span data-stu-id="5e619-110">In this section you will learn create a Power BI report on top of Defender for Endpoint APIs.</span></span>
+<span data-ttu-id="e13c1-110">In deze sectie leert u een rapport Power BI maken boven op API's van Defender voor eindpunten.</span><span class="sxs-lookup"><span data-stu-id="e13c1-110">In this section you will learn create a Power BI report on top of Defender for Endpoint APIs.</span></span>
 
-<span data-ttu-id="5e619-111">In het eerste voorbeeld wordt gedemonstreerd hoe u verbinding maakt Power BI Advanced Hunting API en in het tweede voorbeeld wordt een verbinding met onze OData-API's gedemonstreerd, zoals MachineActies of Waarschuwingen.</span><span class="sxs-lookup"><span data-stu-id="5e619-111">The first example demonstrates how to connect Power BI to Advanced Hunting API and the second example demonstrates a connection to our OData APIs, such as Machine Actions or Alerts.</span></span>
+<span data-ttu-id="e13c1-111">In het eerste voorbeeld wordt gedemonstreerd hoe u verbinding maakt Power BI Advanced Hunting API en in het tweede voorbeeld wordt een verbinding met onze OData-API's gedemonstreerd, zoals MachineActies of Waarschuwingen.</span><span class="sxs-lookup"><span data-stu-id="e13c1-111">The first example demonstrates how to connect Power BI to Advanced Hunting API and the second example demonstrates a connection to our OData APIs, such as Machine Actions or Alerts.</span></span>
 
-## <a name="connect-power-bi-to-advanced-hunting-api"></a><span data-ttu-id="5e619-112">Verbinding maken Power BI naar Advanced Hunting API</span><span class="sxs-lookup"><span data-stu-id="5e619-112">Connect Power BI to Advanced Hunting API</span></span>
+## <a name="connect-power-bi-to-advanced-hunting-api"></a><span data-ttu-id="e13c1-112">Verbinding maken Power BI naar Advanced Hunting API</span><span class="sxs-lookup"><span data-stu-id="e13c1-112">Connect Power BI to Advanced Hunting API</span></span>
 
-- <span data-ttu-id="5e619-113">Microsoft-Power BI</span><span class="sxs-lookup"><span data-stu-id="5e619-113">Open Microsoft Power BI</span></span>
+- <span data-ttu-id="e13c1-113">Microsoft-Power BI</span><span class="sxs-lookup"><span data-stu-id="e13c1-113">Open Microsoft Power BI</span></span>
 
-- <span data-ttu-id="5e619-114">Klik **op Lege**  >  **gegevensquery opvragen**</span><span class="sxs-lookup"><span data-stu-id="5e619-114">Click **Get Data** > **Blank Query**</span></span>
+- <span data-ttu-id="e13c1-114">Klik **op Lege**  >  **gegevensquery opvragen**</span><span class="sxs-lookup"><span data-stu-id="e13c1-114">Click **Get Data** > **Blank Query**</span></span>
 
     ![Afbeelding van lege query maken](images/power-bi-create-blank-query.png)
 
-- <span data-ttu-id="5e619-116">Klik **op Geavanceerde editor**</span><span class="sxs-lookup"><span data-stu-id="5e619-116">Click **Advanced Editor**</span></span>
+- <span data-ttu-id="e13c1-116">Klik **op Geavanceerde editor**</span><span class="sxs-lookup"><span data-stu-id="e13c1-116">Click **Advanced Editor**</span></span>
 
     ![Afbeelding van geopende geavanceerde editor](images/power-bi-open-advanced-editor.png)
 
-- <span data-ttu-id="5e619-118">Kopieer het onderstaande en plak deze in de editor:</span><span class="sxs-lookup"><span data-stu-id="5e619-118">Copy the below and paste it in the editor:</span></span>
+- <span data-ttu-id="e13c1-118">Kopieer het onderstaande en plak deze in de editor:</span><span class="sxs-lookup"><span data-stu-id="e13c1-118">Copy the below and paste it in the editor:</span></span>
 
 ```
     let 
@@ -96,31 +96,31 @@ ms.locfileid: "52843780"
 
 ```
 
-- <span data-ttu-id="5e619-119">Klik **op Klaar**</span><span class="sxs-lookup"><span data-stu-id="5e619-119">Click **Done**</span></span>
+- <span data-ttu-id="e13c1-119">Klik **op Klaar**</span><span class="sxs-lookup"><span data-stu-id="e13c1-119">Click **Done**</span></span>
 
-- <span data-ttu-id="5e619-120">Klik **op Referenties bewerken**</span><span class="sxs-lookup"><span data-stu-id="5e619-120">Click **Edit Credentials**</span></span>
+- <span data-ttu-id="e13c1-120">Klik **op Referenties bewerken**</span><span class="sxs-lookup"><span data-stu-id="e13c1-120">Click **Edit Credentials**</span></span>
 
     ![Afbeelding van referenties bewerken0](images/power-bi-edit-credentials.png)
 
-- <span data-ttu-id="5e619-122">Organisatieaccount **selecteren**  >  **Aanmelden**</span><span class="sxs-lookup"><span data-stu-id="5e619-122">Select **Organizational account** > **Sign in**</span></span>
+- <span data-ttu-id="e13c1-122">Organisatieaccount **selecteren**  >  **Aanmelden**</span><span class="sxs-lookup"><span data-stu-id="e13c1-122">Select **Organizational account** > **Sign in**</span></span>
 
     ![Afbeelding van setreferenties1](images/power-bi-set-credentials-organizational.png)
 
-- <span data-ttu-id="5e619-124">Voer uw referenties in en wacht totdat u bent aangemeld</span><span class="sxs-lookup"><span data-stu-id="5e619-124">Enter your credentials and wait to be signed in</span></span>
+- <span data-ttu-id="e13c1-124">Voer uw referenties in en wacht totdat u bent aangemeld</span><span class="sxs-lookup"><span data-stu-id="e13c1-124">Enter your credentials and wait to be signed in</span></span>
 
-- <span data-ttu-id="5e619-125">Klik **Verbinding maken**</span><span class="sxs-lookup"><span data-stu-id="5e619-125">Click **Connect**</span></span>
+- <span data-ttu-id="e13c1-125">Klik **Verbinding maken**</span><span class="sxs-lookup"><span data-stu-id="e13c1-125">Click **Connect**</span></span>
 
     ![Afbeelding van setreferenties2](images/power-bi-set-credentials-organizational-cont.png)
 
-- <span data-ttu-id="5e619-127">De resultaten van de query worden nu weergegeven als tabel en u kunt er visualisaties op maken.</span><span class="sxs-lookup"><span data-stu-id="5e619-127">Now the results of your query will appear as table and you can start build visualizations on top of it!</span></span>
+- <span data-ttu-id="e13c1-127">De resultaten van de query worden nu weergegeven als tabel en u kunt er visualisaties op maken.</span><span class="sxs-lookup"><span data-stu-id="e13c1-127">Now the results of your query will appear as table and you can start build visualizations on top of it!</span></span>
 
-- <span data-ttu-id="5e619-128">U kunt deze tabel dupliceren, de naam ervan wijzigen en de query Geavanceerd zoeken binnen bewerken om eventuele gegevens op te halen.</span><span class="sxs-lookup"><span data-stu-id="5e619-128">You can duplicate this table, rename it and edit the Advanced Hunting query inside to get any data you would like.</span></span>
+- <span data-ttu-id="e13c1-128">U kunt deze tabel dupliceren, de naam ervan wijzigen en de query Geavanceerd zoeken binnen bewerken om eventuele gegevens op te halen.</span><span class="sxs-lookup"><span data-stu-id="e13c1-128">You can duplicate this table, rename it and edit the Advanced Hunting query inside to get any data you would like.</span></span>
 
-## <a name="connect-power-bi-to-odata-apis"></a><span data-ttu-id="5e619-129">Verbinding maken Power BI naar OData-API's</span><span class="sxs-lookup"><span data-stu-id="5e619-129">Connect Power BI to OData APIs</span></span>
+## <a name="connect-power-bi-to-odata-apis"></a><span data-ttu-id="e13c1-129">Verbinding maken Power BI naar OData-API's</span><span class="sxs-lookup"><span data-stu-id="e13c1-129">Connect Power BI to OData APIs</span></span>
 
-- <span data-ttu-id="5e619-130">Het enige verschil met het bovenstaande voorbeeld is de query in de editor.</span><span class="sxs-lookup"><span data-stu-id="5e619-130">The only difference from the above example is the query inside the editor.</span></span> 
+- <span data-ttu-id="e13c1-130">Het enige verschil met het bovenstaande voorbeeld is de query in de editor.</span><span class="sxs-lookup"><span data-stu-id="e13c1-130">The only difference from the above example is the query inside the editor.</span></span> 
 
-- <span data-ttu-id="5e619-131">Kopieer het onderstaande en plak deze in de editor om alle **machineacties uit** uw organisatie te halen:</span><span class="sxs-lookup"><span data-stu-id="5e619-131">Copy the below and paste it in the editor to pull all **Machine Actions** from your organization:</span></span>
+- <span data-ttu-id="e13c1-131">Kopieer het onderstaande en plak deze in de editor om alle **machineacties uit** uw organisatie te halen:</span><span class="sxs-lookup"><span data-stu-id="e13c1-131">Copy the below and paste it in the editor to pull all **Machine Actions** from your organization:</span></span>
 
 ```
     let
@@ -133,19 +133,19 @@ ms.locfileid: "52843780"
 
 ```
 
-- <span data-ttu-id="5e619-132">U kunt hetzelfde doen voor **waarschuwingen** en **machines.**</span><span class="sxs-lookup"><span data-stu-id="5e619-132">You can do the same for **Alerts** and **Machines**.</span></span>
+- <span data-ttu-id="e13c1-132">U kunt hetzelfde doen voor **waarschuwingen** en **machines.**</span><span class="sxs-lookup"><span data-stu-id="e13c1-132">You can do the same for **Alerts** and **Machines**.</span></span>
 
-- <span data-ttu-id="5e619-133">U kunt OData-query's ook gebruiken voor queryfilters, zie [OData-query's gebruiken](exposed-apis-odata-samples.md)</span><span class="sxs-lookup"><span data-stu-id="5e619-133">You also can use OData queries for queries filters, see [Using OData Queries](exposed-apis-odata-samples.md)</span></span>
-
-
-## <a name="power-bi-dashboard-samples-in-github"></a><span data-ttu-id="5e619-134">Power BI dashboardvoorbeelden in GitHub</span><span class="sxs-lookup"><span data-stu-id="5e619-134">Power BI dashboard samples in GitHub</span></span>
-<span data-ttu-id="5e619-135">Zie de sjablonen voor [Power BI rapport voor meer informatie.](https://github.com/microsoft/MicrosoftDefenderATP-PowerBI)</span><span class="sxs-lookup"><span data-stu-id="5e619-135">For more information see the [Power BI report templates](https://github.com/microsoft/MicrosoftDefenderATP-PowerBI).</span></span>
-
-## <a name="sample-reports"></a><span data-ttu-id="5e619-136">Voorbeeldrapporten</span><span class="sxs-lookup"><span data-stu-id="5e619-136">Sample reports</span></span>
-<span data-ttu-id="5e619-137">Bekijk de voorbeelden van microsoft Defender voor eindpunten Power BI rapport.</span><span class="sxs-lookup"><span data-stu-id="5e619-137">View the Microsoft Defender for Endpoint Power BI report samples.</span></span> <span data-ttu-id="5e619-138">Zie Door codevoorbeelden bladeren voor [meer informatie.](/samples/browse/?products=mdatp)</span><span class="sxs-lookup"><span data-stu-id="5e619-138">For more information, see [Browse code samples](/samples/browse/?products=mdatp).</span></span>
+- <span data-ttu-id="e13c1-133">U kunt OData-query's ook gebruiken voor queryfilters, zie [OData-query's gebruiken](exposed-apis-odata-samples.md)</span><span class="sxs-lookup"><span data-stu-id="e13c1-133">You also can use OData queries for queries filters, see [Using OData Queries](exposed-apis-odata-samples.md)</span></span>
 
 
-## <a name="related-topic"></a><span data-ttu-id="5e619-139">Verwant onderwerp</span><span class="sxs-lookup"><span data-stu-id="5e619-139">Related topic</span></span>
-- [<span data-ttu-id="5e619-140">Defender voor eindpunt-API's</span><span class="sxs-lookup"><span data-stu-id="5e619-140">Defender for Endpoint APIs</span></span>](apis-intro.md)
-- [<span data-ttu-id="5e619-141">Geavanceerde API voor opsporing</span><span class="sxs-lookup"><span data-stu-id="5e619-141">Advanced Hunting API</span></span>](run-advanced-query-api.md)
-- [<span data-ttu-id="5e619-142">OData-query's gebruiken</span><span class="sxs-lookup"><span data-stu-id="5e619-142">Using OData Queries</span></span>](exposed-apis-odata-samples.md)
+## <a name="power-bi-dashboard-samples-in-github"></a><span data-ttu-id="e13c1-134">Power BI dashboardvoorbeelden in GitHub</span><span class="sxs-lookup"><span data-stu-id="e13c1-134">Power BI dashboard samples in GitHub</span></span>
+<span data-ttu-id="e13c1-135">Zie de sjablonen voor [Power BI rapport voor meer informatie.](https://github.com/microsoft/MicrosoftDefenderATP-PowerBI)</span><span class="sxs-lookup"><span data-stu-id="e13c1-135">For more information see the [Power BI report templates](https://github.com/microsoft/MicrosoftDefenderATP-PowerBI).</span></span>
+
+## <a name="sample-reports"></a><span data-ttu-id="e13c1-136">Voorbeeldrapporten</span><span class="sxs-lookup"><span data-stu-id="e13c1-136">Sample reports</span></span>
+<span data-ttu-id="e13c1-137">Bekijk de voorbeelden van microsoft Defender voor eindpunten Power BI rapport.</span><span class="sxs-lookup"><span data-stu-id="e13c1-137">View the Microsoft Defender for Endpoint Power BI report samples.</span></span> <span data-ttu-id="e13c1-138">Zie Door codevoorbeelden bladeren voor [meer informatie.](/samples/browse/?products=mdatp)</span><span class="sxs-lookup"><span data-stu-id="e13c1-138">For more information, see [Browse code samples](/samples/browse/?products=mdatp).</span></span>
+
+
+## <a name="related-topic"></a><span data-ttu-id="e13c1-139">Verwant onderwerp</span><span class="sxs-lookup"><span data-stu-id="e13c1-139">Related topic</span></span>
+- [<span data-ttu-id="e13c1-140">Defender voor eindpunt-API's</span><span class="sxs-lookup"><span data-stu-id="e13c1-140">Defender for Endpoint APIs</span></span>](apis-intro.md)
+- [<span data-ttu-id="e13c1-141">Geavanceerde API voor opsporing</span><span class="sxs-lookup"><span data-stu-id="e13c1-141">Advanced Hunting API</span></span>](run-advanced-query-api.md)
+- [<span data-ttu-id="e13c1-142">OData-query's gebruiken</span><span class="sxs-lookup"><span data-stu-id="e13c1-142">Using OData Queries</span></span>](exposed-apis-odata-samples.md)

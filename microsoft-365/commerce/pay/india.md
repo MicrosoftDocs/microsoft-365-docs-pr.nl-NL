@@ -20,8 +20,8 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52536644"
 ---
-# <a name="payment-information-for-india"></a><span data-ttu-id="8a2c5-103">Betalingsgegevens voor India</span><span class="sxs-lookup"><span data-stu-id="8a2c5-103">Payment information for India</span></span>
+# <a name="payment-information-for-india"></a><span data-ttu-id="995a9-103">Betalingsgegevens voor India</span><span class="sxs-lookup"><span data-stu-id="995a9-103">Payment information for India</span></span>
 
-<span data-ttu-id="8a2c5-104">[Zoek een ander land of een andere regio.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="8a2c5-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="995a9-104">[Zoek een ander land of een andere regio.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="995a9-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="8a2c5-105">Volg betalingsinstructies op uw factuur en verwijs naar factuurnummer(en) bij uw overboeking van betaling.</span><span class="sxs-lookup"><span data-stu-id="8a2c5-105">Please follow payment instructions on your invoice and reference invoice number(s) on your payment remittance.</span></span>
+<span data-ttu-id="995a9-105">Volg betalingsinstructies op uw factuur en verwijs naar factuurnummer(en) bij uw overboeking van betaling.</span><span class="sxs-lookup"><span data-stu-id="995a9-105">Please follow payment instructions on your invoice and reference invoice number(s) on your payment remittance.</span></span>

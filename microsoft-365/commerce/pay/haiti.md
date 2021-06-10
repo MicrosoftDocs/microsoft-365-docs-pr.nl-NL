@@ -20,16 +20,16 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52536728"
 ---
-# <a name="payment-information-for-haiti"></a><span data-ttu-id="ebb84-103">Betalingsgegevens voor Haïti</span><span class="sxs-lookup"><span data-stu-id="ebb84-103">Payment information for Haiti</span></span>
+# <a name="payment-information-for-haiti"></a><span data-ttu-id="6a2f1-103">Betalingsgegevens voor Haïti</span><span class="sxs-lookup"><span data-stu-id="6a2f1-103">Payment information for Haiti</span></span>
 
-<span data-ttu-id="ebb84-104">[Zoek een ander land of een andere regio.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="ebb84-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="6a2f1-104">[Zoek een ander land of een andere regio.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="6a2f1-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="ebb84-105">Betaal alleen in USD en vermeld uw factuurnummer(en) op uw factuuroverboeking.</span><span class="sxs-lookup"><span data-stu-id="ebb84-105">Please pay in USD only and reference your invoice number(s) on your invoice remittance.</span></span>
+<span data-ttu-id="6a2f1-105">Betaal alleen in USD en vermeld uw factuurnummer(en) op uw factuuroverboeking.</span><span class="sxs-lookup"><span data-stu-id="6a2f1-105">Please pay in USD only and reference your invoice number(s) on your invoice remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="ebb84-106">Elektronische betaling</span><span class="sxs-lookup"><span data-stu-id="ebb84-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="6a2f1-106">Elektronische betaling</span><span class="sxs-lookup"><span data-stu-id="6a2f1-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="ebb84-107">**Bank:** Bank of America</span><span class="sxs-lookup"><span data-stu-id="ebb84-107">**Bank:** Bank of America</span></span>  
-<span data-ttu-id="ebb84-108">**Vertakking** Dallas</span><span class="sxs-lookup"><span data-stu-id="ebb84-108">**Branch** Dallas</span></span>  
-<span data-ttu-id="ebb84-109">**SWIFT-code:** BOFAUS3N</span><span class="sxs-lookup"><span data-stu-id="ebb84-109">**SWIFT Code:** BOFAUS3N</span></span>  
-<span data-ttu-id="ebb84-110">**Accountnummer:** 4426587954</span><span class="sxs-lookup"><span data-stu-id="ebb84-110">**Account Number:** 4426587954</span></span>  
-<span data-ttu-id="ebb84-111">**Accountnaam:** Microsoft</span><span class="sxs-lookup"><span data-stu-id="ebb84-111">**Account Name:** Microsoft</span></span>
+<span data-ttu-id="6a2f1-107">**Bank:** Bank of America</span><span class="sxs-lookup"><span data-stu-id="6a2f1-107">**Bank:** Bank of America</span></span>  
+<span data-ttu-id="6a2f1-108">**Vertakking** Dallas</span><span class="sxs-lookup"><span data-stu-id="6a2f1-108">**Branch** Dallas</span></span>  
+<span data-ttu-id="6a2f1-109">**SWIFT-code:** BOFAUS3N</span><span class="sxs-lookup"><span data-stu-id="6a2f1-109">**SWIFT Code:** BOFAUS3N</span></span>  
+<span data-ttu-id="6a2f1-110">**Accountnummer:** 4426587954</span><span class="sxs-lookup"><span data-stu-id="6a2f1-110">**Account Number:** 4426587954</span></span>  
+<span data-ttu-id="6a2f1-111">**Accountnaam:** Microsoft</span><span class="sxs-lookup"><span data-stu-id="6a2f1-111">**Account Name:** Microsoft</span></span>

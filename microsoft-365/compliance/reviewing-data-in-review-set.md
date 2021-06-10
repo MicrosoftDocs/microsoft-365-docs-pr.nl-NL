@@ -24,6 +24,6 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 09/26/2020
 ms.locfileid: "52161529"
 ---
-# <a name="review-case-data-in-advanced-ediscovery"></a><span data-ttu-id="60b1d-103">Casegegevens controleren in Advanced eDiscovery</span><span class="sxs-lookup"><span data-stu-id="60b1d-103">Review case data in Advanced eDiscovery</span></span>
+# <a name="review-case-data-in-advanced-ediscovery"></a><span data-ttu-id="3b619-103">Casegegevens controleren in Advanced eDiscovery</span><span class="sxs-lookup"><span data-stu-id="3b619-103">Review case data in Advanced eDiscovery</span></span>
 
-<span data-ttu-id="60b1d-104">Binnenkort beschikbaar.</span><span class="sxs-lookup"><span data-stu-id="60b1d-104">Coming soon.</span></span>
+<span data-ttu-id="3b619-104">Binnenkort beschikbaar.</span><span class="sxs-lookup"><span data-stu-id="3b619-104">Coming soon.</span></span>
