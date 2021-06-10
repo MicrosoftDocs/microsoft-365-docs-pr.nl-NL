@@ -19,29 +19,29 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52537124"
 ---
-# <a name="payment-information-for-belgium"></a><span data-ttu-id="8fb02-103">Betalingsgegevens voor België</span><span class="sxs-lookup"><span data-stu-id="8fb02-103">Payment information for Belgium</span></span>
+# <a name="payment-information-for-belgium"></a><span data-ttu-id="d9fa4-103">Betalingsgegevens voor België</span><span class="sxs-lookup"><span data-stu-id="d9fa4-103">Payment information for Belgium</span></span>
 
-<span data-ttu-id="8fb02-104">[Zoek een ander land of een andere regio.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="8fb02-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="d9fa4-104">[Zoek een ander land of een andere regio.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="d9fa4-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="8fb02-105">Elektronische betaling</span><span class="sxs-lookup"><span data-stu-id="8fb02-105">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="d9fa4-105">Elektronische betaling</span><span class="sxs-lookup"><span data-stu-id="d9fa4-105">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="8fb02-106">**Betaal in EURO en verwijs naar het factuurnummer(en) voor uw overboeking van de betaling.**</span><span class="sxs-lookup"><span data-stu-id="8fb02-106">**Please pay in EUR and reference invoice number(s) on your payment remittance.**</span></span>
+<span data-ttu-id="d9fa4-106">**Betaal in EURO en verwijs naar het factuurnummer(en) voor uw overboeking van de betaling.**</span><span class="sxs-lookup"><span data-stu-id="d9fa4-106">**Please pay in EUR and reference invoice number(s) on your payment remittance.**</span></span>
 
-<span data-ttu-id="8fb02-107">Als u een factuur hebt gefactureerd door **Microsoft Ireland Operations Limited,** gebruikt u deze bankgegevens:</span><span class="sxs-lookup"><span data-stu-id="8fb02-107">If you have an invoice billed by **Microsoft Ireland Operations Limited**, use this bank information:</span></span>
+<span data-ttu-id="d9fa4-107">Als u een factuur hebt gefactureerd door **Microsoft Ireland Operations Limited,** gebruikt u deze bankgegevens:</span><span class="sxs-lookup"><span data-stu-id="d9fa4-107">If you have an invoice billed by **Microsoft Ireland Operations Limited**, use this bank information:</span></span>
 
-<span data-ttu-id="8fb02-108">**Bank:** Citibank, Londen</span><span class="sxs-lookup"><span data-stu-id="8fb02-108">**Bank:** Citibank, London</span></span>  
-<span data-ttu-id="8fb02-109">**SWIFT-code:** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="8fb02-109">**SWIFT Code:** CITIGB2L</span></span>  
-<span data-ttu-id="8fb02-110">**IBAN-code:** GB31CITI18500812207591</span><span class="sxs-lookup"><span data-stu-id="8fb02-110">**IBAN Code:** GB31CITI18500812207591</span></span>  
-<span data-ttu-id="8fb02-111">**SORT-code:** 185008</span><span class="sxs-lookup"><span data-stu-id="8fb02-111">**SORT Code:** 185008</span></span>  
-<span data-ttu-id="8fb02-112">**Accountnummer:** 12207591</span><span class="sxs-lookup"><span data-stu-id="8fb02-112">**Account Number:** 12207591</span></span>  
-<span data-ttu-id="8fb02-113">**Accountnaam:** MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="8fb02-113">**Account Name:** MICROSOFT</span></span>
+<span data-ttu-id="d9fa4-108">**Bank:** Citibank, Londen</span><span class="sxs-lookup"><span data-stu-id="d9fa4-108">**Bank:** Citibank, London</span></span>  
+<span data-ttu-id="d9fa4-109">**SWIFT-code:** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="d9fa4-109">**SWIFT Code:** CITIGB2L</span></span>  
+<span data-ttu-id="d9fa4-110">**IBAN-code:** GB31CITI18500812207591</span><span class="sxs-lookup"><span data-stu-id="d9fa4-110">**IBAN Code:** GB31CITI18500812207591</span></span>  
+<span data-ttu-id="d9fa4-111">**SORT-code:** 185008</span><span class="sxs-lookup"><span data-stu-id="d9fa4-111">**SORT Code:** 185008</span></span>  
+<span data-ttu-id="d9fa4-112">**Accountnummer:** 12207591</span><span class="sxs-lookup"><span data-stu-id="d9fa4-112">**Account Number:** 12207591</span></span>  
+<span data-ttu-id="d9fa4-113">**Accountnaam:** MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="d9fa4-113">**Account Name:** MICROSOFT</span></span>
 
-<span data-ttu-id="8fb02-114">Als u vanaf 1 maart 2021 een factuur hebt gefactureerd door **Microsoft NV** voor bestellingen en verbruik, gebruikt u deze bankgegevens:</span><span class="sxs-lookup"><span data-stu-id="8fb02-114">If you have an invoice billed by **Microsoft NV** for orders and consumption starting March 1, 2021, use this bank information:</span></span>
+<span data-ttu-id="d9fa4-114">Als u vanaf 1 maart 2021 een factuur hebt gefactureerd door **Microsoft NV** voor bestellingen en verbruik, gebruikt u deze bankgegevens:</span><span class="sxs-lookup"><span data-stu-id="d9fa4-114">If you have an invoice billed by **Microsoft NV** for orders and consumption starting March 1, 2021, use this bank information:</span></span>
 
-<span data-ttu-id="8fb02-115">**Bank:** Citibank Europe plc</span><span class="sxs-lookup"><span data-stu-id="8fb02-115">**Bank:** Citibank Europe plc</span></span>  
-<span data-ttu-id="8fb02-116">**SWIFT-code:** CITIIE2</span><span class="sxs-lookup"><span data-stu-id="8fb02-116">**SWIFT Code:** CITIIE2</span></span>  
-<span data-ttu-id="8fb02-117">**IBAN-code:** IE54CITI99005170000125</span><span class="sxs-lookup"><span data-stu-id="8fb02-117">**IBAN Code:** IE54CITI99005170000125</span></span>  
-<span data-ttu-id="8fb02-118">**Accountnummer:** 70000125</span><span class="sxs-lookup"><span data-stu-id="8fb02-118">**Account Number:** 70000125</span></span>  
-<span data-ttu-id="8fb02-119">**Accountnaam:** MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="8fb02-119">**Account Name:** MICROSOFT</span></span>
+<span data-ttu-id="d9fa4-115">**Bank:** Citibank Europe plc</span><span class="sxs-lookup"><span data-stu-id="d9fa4-115">**Bank:** Citibank Europe plc</span></span>  
+<span data-ttu-id="d9fa4-116">**SWIFT-code:** CITIIE2</span><span class="sxs-lookup"><span data-stu-id="d9fa4-116">**SWIFT Code:** CITIIE2</span></span>  
+<span data-ttu-id="d9fa4-117">**IBAN-code:** IE54CITI99005170000125</span><span class="sxs-lookup"><span data-stu-id="d9fa4-117">**IBAN Code:** IE54CITI99005170000125</span></span>  
+<span data-ttu-id="d9fa4-118">**Accountnummer:** 70000125</span><span class="sxs-lookup"><span data-stu-id="d9fa4-118">**Account Number:** 70000125</span></span>  
+<span data-ttu-id="d9fa4-119">**Accountnaam:** MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="d9fa4-119">**Account Name:** MICROSOFT</span></span>
 
-<span data-ttu-id="8fb02-120">Facturen die zijn uitgegeven vanuit een lokale Microsoft-dochteronderneming, worden uitgegeven met het standaardtarief btw/btw/btw en worden beschouwd als een binnenlandse levering van diensten voor btw/btw/btw-doeleinden.</span><span class="sxs-lookup"><span data-stu-id="8fb02-120">Invoices issued from a local Microsoft Subsidiary are issued with the standard rate of VAT/Sales Tax/GST and deemed a domestic supply of services for VAT/Sales Tax/GST purposes.</span></span>
+<span data-ttu-id="d9fa4-120">Facturen die zijn uitgegeven vanuit een lokale Microsoft-dochteronderneming, worden uitgegeven met het standaardtarief btw/btw/btw en worden beschouwd als een binnenlandse levering van diensten voor btw/btw/btw-doeleinden.</span><span class="sxs-lookup"><span data-stu-id="d9fa4-120">Invoices issued from a local Microsoft Subsidiary are issued with the standard rate of VAT/Sales Tax/GST and deemed a domestic supply of services for VAT/Sales Tax/GST purposes.</span></span>

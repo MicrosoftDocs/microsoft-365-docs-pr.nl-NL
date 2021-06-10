@@ -20,16 +20,16 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52536308"
 ---
-# <a name="payment-information-for-puerto-rico"></a><span data-ttu-id="30441-103">Betalingsgegevens voor Puerto Rico</span><span class="sxs-lookup"><span data-stu-id="30441-103">Payment information for Puerto Rico</span></span>
+# <a name="payment-information-for-puerto-rico"></a><span data-ttu-id="68d29-103">Betalingsgegevens voor Puerto Rico</span><span class="sxs-lookup"><span data-stu-id="68d29-103">Payment information for Puerto Rico</span></span>
 
-<span data-ttu-id="30441-104">[Zoek een ander land of een andere regio.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="30441-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="68d29-104">[Zoek een ander land of een andere regio.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="68d29-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="30441-105">Betaal alleen in USD en verwijs naar het factuurnummer(en) bij de overboeking van uw betaling.</span><span class="sxs-lookup"><span data-stu-id="30441-105">Please pay in USD only and reference invoice number(s) on your payment remittance.</span></span>
+<span data-ttu-id="68d29-105">Betaal alleen in USD en verwijs naar het factuurnummer(en) bij de overboeking van uw betaling.</span><span class="sxs-lookup"><span data-stu-id="68d29-105">Please pay in USD only and reference invoice number(s) on your payment remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="30441-106">Elektronische betaling</span><span class="sxs-lookup"><span data-stu-id="30441-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="68d29-106">Elektronische betaling</span><span class="sxs-lookup"><span data-stu-id="68d29-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="30441-107">**Bank:** Bank of America</span><span class="sxs-lookup"><span data-stu-id="30441-107">**Bank:** Bank of America</span></span>  
-<span data-ttu-id="30441-108">**Vertakking:** Dallas</span><span class="sxs-lookup"><span data-stu-id="30441-108">**Branch:** Dallas</span></span>  
-<span data-ttu-id="30441-109">**SWIFT-code:** BOFAUS3N</span><span class="sxs-lookup"><span data-stu-id="30441-109">**SWIFT Code:** BOFAUS3N</span></span>  
-<span data-ttu-id="30441-110">**Accountnummer:** 4426587954</span><span class="sxs-lookup"><span data-stu-id="30441-110">**Account Number:** 4426587954</span></span>  
-<span data-ttu-id="30441-111">**Accountnaam:** Microsoft</span><span class="sxs-lookup"><span data-stu-id="30441-111">**Account Name:** Microsoft</span></span>
+<span data-ttu-id="68d29-107">**Bank:** Bank of America</span><span class="sxs-lookup"><span data-stu-id="68d29-107">**Bank:** Bank of America</span></span>  
+<span data-ttu-id="68d29-108">**Vertakking:** Dallas</span><span class="sxs-lookup"><span data-stu-id="68d29-108">**Branch:** Dallas</span></span>  
+<span data-ttu-id="68d29-109">**SWIFT-code:** BOFAUS3N</span><span class="sxs-lookup"><span data-stu-id="68d29-109">**SWIFT Code:** BOFAUS3N</span></span>  
+<span data-ttu-id="68d29-110">**Accountnummer:** 4426587954</span><span class="sxs-lookup"><span data-stu-id="68d29-110">**Account Number:** 4426587954</span></span>  
+<span data-ttu-id="68d29-111">**Accountnaam:** Microsoft</span><span class="sxs-lookup"><span data-stu-id="68d29-111">**Account Name:** Microsoft</span></span>

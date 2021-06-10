@@ -20,16 +20,16 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52537064"
 ---
-# <a name="payment-information-for-botswana"></a><span data-ttu-id="11dac-103">Betalingsgegevens voor Botswana</span><span class="sxs-lookup"><span data-stu-id="11dac-103">Payment information for Botswana</span></span>
+# <a name="payment-information-for-botswana"></a><span data-ttu-id="de2eb-103">Betalingsgegevens voor Botswana</span><span class="sxs-lookup"><span data-stu-id="de2eb-103">Payment information for Botswana</span></span>
 
-<span data-ttu-id="11dac-104">[Zoek een ander land of een andere regio.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="11dac-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="de2eb-104">[Zoek een ander land of een andere regio.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="de2eb-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="11dac-105">Betaal alleen in USD en vermeld uw factuurnummer(en) op uw factuuroverboeking.</span><span class="sxs-lookup"><span data-stu-id="11dac-105">Please pay in USD only and reference your invoice number(s) on your invoice remittance.</span></span>
+<span data-ttu-id="de2eb-105">Betaal alleen in USD en vermeld uw factuurnummer(en) op uw factuuroverboeking.</span><span class="sxs-lookup"><span data-stu-id="de2eb-105">Please pay in USD only and reference your invoice number(s) on your invoice remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="11dac-106">Elektronische betaling</span><span class="sxs-lookup"><span data-stu-id="11dac-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="de2eb-106">Elektronische betaling</span><span class="sxs-lookup"><span data-stu-id="de2eb-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="11dac-107">**Bank:** Citibank, Londen</span><span class="sxs-lookup"><span data-stu-id="11dac-107">**Bank:** Citibank, London</span></span>  
-<span data-ttu-id="11dac-108">**SWIFT-code:** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="11dac-108">**SWIFT Code:** CITIGB2L</span></span>  
-<span data-ttu-id="11dac-109">**IBAN:** GB95CITI18500812510049</span><span class="sxs-lookup"><span data-stu-id="11dac-109">**IBAN:** GB95CITI18500812510049</span></span>  
-<span data-ttu-id="11dac-110">**Accountnummer:** 12510049</span><span class="sxs-lookup"><span data-stu-id="11dac-110">**Account Number:** 12510049</span></span>  
-<span data-ttu-id="11dac-111">**Accountnaam:** MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="11dac-111">**Account Name:** MICROSOFT</span></span>
+<span data-ttu-id="de2eb-107">**Bank:** Citibank, Londen</span><span class="sxs-lookup"><span data-stu-id="de2eb-107">**Bank:** Citibank, London</span></span>  
+<span data-ttu-id="de2eb-108">**SWIFT-code:** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="de2eb-108">**SWIFT Code:** CITIGB2L</span></span>  
+<span data-ttu-id="de2eb-109">**IBAN:** GB95CITI18500812510049</span><span class="sxs-lookup"><span data-stu-id="de2eb-109">**IBAN:** GB95CITI18500812510049</span></span>  
+<span data-ttu-id="de2eb-110">**Accountnummer:** 12510049</span><span class="sxs-lookup"><span data-stu-id="de2eb-110">**Account Number:** 12510049</span></span>  
+<span data-ttu-id="de2eb-111">**Accountnaam:** MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="de2eb-111">**Account Name:** MICROSOFT</span></span>
