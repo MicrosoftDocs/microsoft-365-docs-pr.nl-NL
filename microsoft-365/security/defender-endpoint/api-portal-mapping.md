@@ -1,6 +1,6 @@
 ---
 title: API-velden van Microsoft Defender voor eindpuntdetecties
-description: Meer informatie over de manier waarop de API-velden detecties aan de waarden in het Microsoft Defender-beveiligingscentrum toekenen
+description: Meer informatie over de manier waarop de API-velden detecties aan de waarden in Microsoft Defender-beveiligingscentrum
 keywords: detecties, detectievelden, velden, api, velden, pull Detecties, rest api, aanvraag, antwoord
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -33,11 +33,11 @@ ms.locfileid: "51933635"
 
 >Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-apiportalmapping-abovefoldlink)
 
-Meer informatie over de gegevensvelden die worden weergegeven als onderdeel van de API voor detecties en hoe ze worden toebedeeld aan het Microsoft Defender-beveiligingscentrum.
+Meer informatie over welke gegevensvelden worden weergegeven als onderdeel van de DETECTIE-API en hoe ze worden Microsoft Defender-beveiligingscentrum.
 
 >[!Note]
 >- [Defender for Endpoint Alert](alerts.md) is samengesteld uit een of meer detecties.
->- **Microsoft Defender ATP Detection** is samengesteld uit de verdachte gebeurtenis op het apparaat en de bijbehorende **waarschuwingsgegevens.**
+>- **Microsoft Defender ATP Detectie** is samengesteld uit de verdachte gebeurtenis die zich heeft voorgedaan op het apparaat en de bijbehorende **waarschuwingsgegevens.**
 >- De Microsoft Defender for Endpoint Alert API is de nieuwste API voor waarschuwingsverbruik en bevat een gedetailleerde lijst met verwante gegevens voor elke waarschuwing. Zie Waarschuwingsmethoden en [-eigenschappen](alerts.md) en [Lijstwaarschuwingen](get-alerts.md)voor meer informatie.
 
 ## <a name="detections-api-fields-and-portal-mapping"></a>Detecties API-velden en portaltoewijzing
@@ -74,7 +74,7 @@ Veldnummers komen overeen met de getallen in de onderstaande afbeeldingen.
 > | 21               | MachineDomain             | sourceDnsDomain     | contoso.com                                                                        | Domeinnaam is niet relevant voor AAD-apparaten die lid zijn van AAD. Waarde die beschikbaar is voor elke detectie.                                                                                           |
 > | 22               | Actor                     | deviceCustomString4 | BORON                                                                                   | Beschikbaar voor waarschuwingen met betrekking tot een bekende actorgroep.                                                                                                                         |
 > | 21+5             | ComputerDnsName           | Geen toewijzing          | liz-bean.contoso.com                                                               | De volledig gekwalificeerde domeinnaam van het apparaat. Waarde die beschikbaar is voor elke detectie.                                                                                                    |
-> |                  | LogOnUsers                | sourceUserId        | contoso\liz-bean;   contoso\jay-hardee                                             | Het domein en de gebruiker van de interactieve aanmeldingsgebruiker/gebruikers op het moment van de gebeurtenis. Opmerking: Voor apparaten in Windows 10 versie 1607 zijn de domeingegevens niet beschikbaar. |
+> |                  | LogOnUsers                | sourceUserId        | contoso\liz-bean;   contoso\jay-hardee                                             | Het domein en de gebruiker van de interactieve aanmeldingsgebruiker/gebruikers op het moment van de gebeurtenis. Opmerking: Voor apparaten op Windows 10 versie 1607 zijn de domeingegevens niet beschikbaar. |
 > |                  | InternalIPv4List          | Geen toewijzing          | 192.168.1.7, 10.1.14.1                                                             | Lijst met interne IPV4-IPs voor actieve netwerkinterfaces.                                                                                                                                                                               |
 > |                  | InternalIPv6List          | Geen toewijzing          | fd30:0000:0000:0001:ff4e:003e:0009:000e, FE80:CD00:0000:0CDE:1257:0000:211E:729C | Lijst met interne IPV6-IPs voor actieve netwerkinterfaces.                                                                                                                                                                               |
 | | LinkToMTP | Geen toewijzing | `https://security.microsoft.com/alert/da637370718981685665_16349121` | Waarde die beschikbaar is voor elke detectie.

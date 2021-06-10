@@ -59,7 +59,7 @@ U kunt de volgende filters toepassen om de lijst met waarschuwingen te beperken 
 Ernst van waarschuwing | Beschrijving
 :---|:---
 Hoog </br>(Rood) | Waarschuwingen die vaak worden gezien in verband met geavanceerde permanente bedreigingen (APT). Deze waarschuwingen geven een hoog risico aan vanwege de ernst van de schade die ze kunnen toebrengen aan apparaten. Enkele voorbeelden zijn: activiteiten van referentiediefstalhulpmiddelen, ransomwareactiviteiten die niet aan een groep zijn gekoppeld, geknoei met beveiligingssensoren of schadelijke activiteiten die wijzen op een menselijke tegenstrever.
-Gemiddeld </br>(Oranje) | Waarschuwingen van endpointdetectie en reactie na inbreukgedrag dat deel kan uitmaken van een geavanceerde permanente bedreiging (APT). Dit omvat waargenomen gedrag dat typisch is voor aanvalsfasen, afwijkende registerwijziging, uitvoering van verdachte bestanden, enzovoort. Hoewel sommige mogelijk deel uitmaken van interne beveiligingstests, is onderzoek vereist, omdat het mogelijk ook deel uitmaakt van een geavanceerde aanval.
+Gemiddeld </br>(Oranje) | Waarschuwingen van eindpuntdetectie en -respons gedragingen na inbreuk die mogelijk deel uitmaken van een geavanceerde permanente bedreiging (APT). Dit omvat waargenomen gedrag dat typisch is voor aanvalsfasen, afwijkende registerwijziging, uitvoering van verdachte bestanden, enzovoort. Hoewel sommige mogelijk deel uitmaken van interne beveiligingstests, is onderzoek vereist, omdat het mogelijk ook deel uitmaakt van een geavanceerde aanval.
 Laag </br>(Geel) | Waarschuwingen over bedreigingen die zijn gekoppeld aan voorkomende malware. Denk bijvoorbeeld aan hackprogramma's, hulpprogramma's voor niet-malware hacken, zoals het uitvoeren van verkenningsopdrachten, het wissen van logboeken, enzovoort, die vaak geen geavanceerde bedreiging aangeven die zich op de organisatie richt. Het kan ook afkomstig zijn van een geïsoleerd beveiligingsprogramma dat is getest door een gebruiker in uw organisatie.
 Informatief </br>(Grijs) | Waarschuwingen die mogelijk niet als schadelijk voor het netwerk worden beschouwd, maar die de organisatie meer bewust kunnen maken van mogelijke beveiligingsproblemen.
 
@@ -121,10 +121,10 @@ U kunt kiezen tussen het weergeven van waarschuwingen die aan u zijn toegewezen 
 
 ### <a name="detection-source"></a>Detectiebron
 
-Selecteer de bron die de waarschuwingsdetectie heeft geactiveerd. Microsoft Threat Experts preview-deelnemers kunnen nu detecties filteren en zien van de nieuwe door bedreigingsdeskundigen beheerde huntingservice.
+Selecteer de bron die de waarschuwingsdetectie heeft geactiveerd. Microsoft Threat Experts voorbeeld van deelnemers kunnen nu detecties filteren en zien van de nieuwe door bedreigingsdeskundigen beheerde huntingservice.
 
 >[!NOTE]
->Het antivirusfilter wordt alleen weergegeven als apparaten Microsoft Defender Antivirus gebruiken als het standaard antimalwareproduct voor realtimebeveiliging.
+>Het antivirusfilter wordt alleen weergegeven als apparaten Microsoft Defender Antivirus als het standaard antimalware-product voor realtimebeveiliging.
 
 | Detectiebron                  | API-waarde                  |
 |-----------------------------------|----------------------------|

@@ -76,7 +76,7 @@ Met de volgende ASF-instellingen wordt het betrouwbaarheidsniveau voor spam (SCL
 
 ****
 
-|Antispambeleidsinstelling|Omschrijving|X-header toegevoegd|
+|Antispambeleidsinstelling|Beschrijving|X-header toegevoegd|
 |---|---|---|
 |**Afbeeldingskoppelingen naar externe websites** <p> *IncreaseScoreWithImageLinks*|Berichten met `<Img>` HTML-tagkoppelingen naar externe sites (bijvoorbeeld http) worden gemarkeerd als spam.|`X-CustomSpam: Image links to remote sites`|
 |**Numeriek IP-adres in URL** <p> *IncreaseScoreWithNumericIps*|Berichten met numerieke URL's (meestal IP-adressen) worden gemarkeerd als spam.|`X-CustomSpam: Numeric IP in URL`|
@@ -92,7 +92,7 @@ Met de volgende ASF-instellingen wordt de SCL van gedetecteerde  berichten inges
 
 ****
 
-|Antispambeleidsinstelling|Omschrijving|X-header toegevoegd|
+|Antispambeleidsinstelling|Beschrijving|X-header toegevoegd|
 |---|---|---|
 |**Berichten leeg maken** <p> *MarkAsSpamEmptyMessages*|Berichten zonder onderwerp, geen inhoud in de berichtinhoud en geen bijlagen worden gemarkeerd als spam met hoog vertrouwen.|`X-CustomSpam: Empty Message`|
 |**Ingesloten tags in HTML** <p> *MarkAsSpamEmbedTagsInHtml*|Berichten met `<embed>` HTML-tags worden gemarkeerd als spam met veel vertrouwen. <p> Met deze tag kunt u verschillende soorten documenten insluiten in een HTML-document (bijvoorbeeld geluiden, video's of afbeeldingen).|`X-CustomSpam: Embed tag in html`|

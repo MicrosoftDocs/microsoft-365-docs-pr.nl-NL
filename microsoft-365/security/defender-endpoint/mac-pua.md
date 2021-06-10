@@ -53,8 +53,8 @@ Wanneer een PUA wordt gedetecteerd op een eindpunt, wordt in Microsoft Defender 
 PUA-beveiliging in Microsoft Defender voor Eindpunt op macOS kan op een van de volgende manieren worden geconfigureerd:
 
 - **Uit:** PUA-beveiliging is uitgeschakeld.
-- **Audit:** PUA-bestanden worden gerapporteerd in de productlogboeken, maar niet in het Microsoft Defender-beveiligingscentrum. Er wordt geen melding weergegeven aan de gebruiker en er wordt geen actie ondernomen door het product.
-- **Blokkeren:** PUA-bestanden worden gerapporteerd in de productlogboeken en in het Microsoft Defender-beveiligingscentrum. De gebruiker krijgt een melding te zien en er wordt actie ondernomen door het product.
+- **Audit:** PUA-bestanden worden gerapporteerd in de productlogboeken, maar niet in Microsoft Defender-beveiligingscentrum. Er wordt geen melding weergegeven aan de gebruiker en er wordt geen actie ondernomen door het product.
+- **Blokkeren:** PUA-bestanden worden gerapporteerd in de productlogboeken en in Microsoft Defender-beveiligingscentrum. De gebruiker krijgt een melding te zien en er wordt actie ondernomen door het product.
 
 >[!WARNING]
 >Pua-beveiliging is standaard geconfigureerd in de **auditmodus.**

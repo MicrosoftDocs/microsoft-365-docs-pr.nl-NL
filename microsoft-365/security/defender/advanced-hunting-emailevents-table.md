@@ -1,6 +1,6 @@
 ---
 title: E-mailEvents-tabel in het geavanceerde schema voor de jacht
-description: Meer informatie over gebeurtenissen die zijn gekoppeld aan Microsoft 365-e-mailberichten in de tabel EmailEvents van het geavanceerde schema voor de jacht
+description: Meer informatie over gebeurtenissen die zijn gekoppeld Microsoft 365 e-mailberichten in de tabel EmailEvents van het geavanceerde schema voor de jacht
 keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, microsoft 365, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, EmailEvents, network message id, sender, recipient, attachment id, attachment name, malware verdict, phishing verdict, attachment count, link count, url count
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -35,7 +35,7 @@ ms.locfileid: "51935483"
 
 - Microsoft 365 Defender
 
-De tabel in het geavanceerde schema bevat informatie over gebeurtenissen met betrekking tot het verwerken van `EmailEvents` e-mailberichten op Microsoft Defender voor Office 365. [](advanced-hunting-overview.md) Gebruik deze verwijzing om query's te maken die gegevens uit deze tabel retourneren.
+De tabel in het geavanceerde schema bevat informatie over gebeurtenissen met betrekking tot het verwerken van e-mailberichten op `EmailEvents` Microsoft Defender voor Office 365. [](advanced-hunting-overview.md) Gebruik deze verwijzing om query's te maken die gegevens uit deze tabel retourneren.
 
 >[!TIP]
 > Voor gedetailleerde informatie over de gebeurtenissentypen (waarden) die door een tabel worden ondersteund, gebruikt u de `ActionType` ingebouwde schemaverwijzing die beschikbaar is in het beveiligingscentrum.
@@ -45,7 +45,7 @@ Zie de geavanceerde zoekverwijzing voor meer informatie over andere tabellen in 
 | Kolomnaam | Gegevenstype | Beschrijving |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | Datum en tijd waarop de gebeurtenis is opgenomen |
-| `NetworkMessageId` | tekenreeks | Unieke id voor het e-mailbericht, gegenereerd door Microsoft 365 |
+| `NetworkMessageId` | tekenreeks | Unieke id voor de e-mail, gegenereerd door Microsoft 365 |
 | `InternetMessageId` | tekenreeks | Openbare id voor de e-mail die is ingesteld door het verzendende e-mailsysteem |
 | `SenderMailFromAddress` | tekenreeks | E-mailadres van afzender in de koptekst MAIL FROM, ook wel de afzender van de envelop of het Return-Path genoemd |
 | `SenderFromAddress` | tekenreeks | E-mailadres van afzender in de FROM-koptekst, die zichtbaar is voor e-mailontvangers op hun e-mail clients |

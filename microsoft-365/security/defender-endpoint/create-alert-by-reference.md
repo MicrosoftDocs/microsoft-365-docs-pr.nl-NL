@@ -73,7 +73,7 @@ POST https://api.securitycenter.microsoft.com/api/alerts/CreateAlertByReference
 
 ## <a name="request-headers"></a>Kopteksten aanvragen
 
-Naam | Type | Omschrijving
+Naam | Type | Beschrijving
 :---|:---|:---
 Autorisatie | Tekenreeks | Bearer {token}. **Vereist**.
 Inhoudstype | Tekenreeks | toepassing/json. **Vereist**.
@@ -82,7 +82,7 @@ Inhoudstype | Tekenreeks | toepassing/json. **Vereist**.
 
 In de aanvraag-body moet u de volgende waarden leveren (alle waarden zijn vereist):
 
-Eigenschap | Type | Omschrijving
+Eigenschap | Type | Beschrijving
 :---|:---|:---
 eventTime | DateTime(UTC) | De exacte tijd van de gebeurtenis als tekenreeks, zoals verkregen uit geavanceerde jacht. bijvoorbeeld Vereist ```2018-08-03T16:45:21.7115183Z``` .
 reportId | Tekenreeks | Het rapportId of the event, as obtained from advanced hunting. **Vereist**.

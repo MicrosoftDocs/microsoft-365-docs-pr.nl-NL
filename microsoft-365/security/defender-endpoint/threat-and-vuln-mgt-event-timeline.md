@@ -1,7 +1,7 @@
 ---
-title: Tijdlijn van gebeurtenissen in bedreigings- en kwetsbaarheidsbeheer
+title: Tijdlijn van gebeurtenis in Threat and Vulnerability Management
 description: Gebeurtenistijdlijn is een nieuwsfeed voor risico's waarmee u kunt interpreteren hoe risico's in de organisatie worden ingevoerd en welke risico's zijn beperkt.
-keywords: gebeurtenistijdlijn, Microsoft Defender voor eindpuntgebeurtenistijdlijn, Microsoft Defender voor endpoint tvm-gebeurtenistijdlijn, bedreigings- en kwetsbaarheidsbeheer, Microsoft Defender voor Eindpunt
+keywords: gebeurtenistijdlijn, Microsoft Defender voor eindpuntgebeurtenistijdlijn, Microsoft Defender voor endpoint tvm-gebeurtenistijdlijn, Threat and Vulnerability Management, Microsoft Defender voor Eindpunt
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -25,7 +25,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51933479"
 ---
-# <a name="event-timeline---threat-and-vulnerability-management"></a>Gebeurtenistijdlijn - bedreigings- en kwetsbaarheidsbeheer
+# <a name="event-timeline---threat-and-vulnerability-management"></a>Tijdlijn van gebeurtenis - Threat and Vulnerability Management
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -45,7 +45,7 @@ Gebeurtenistijdlijn vertelt ook het verhaal van uw [blootstellingsscore](tvm-exp
 
 ## <a name="navigate-to-the-event-timeline-page"></a>Naar de tijdlijnpagina van gebeurtenis navigeren
 
-Er zijn ook drie toegangspunten uit het [dashboard bedreigings- en kwetsbaarheidsbeheer:](tvm-dashboard-insights.md)
+Er zijn ook drie invoerpunten uit het [Threat and Vulnerability Management dashboard:](tvm-dashboard-insights.md)
 
 - **Score voor organisatieblootstelling:** Plaats de muisaanwijzer op de gebeurtenispunten in de grafiek 'Blootstellingsscore in de tijd' en selecteer 'Alle gebeurtenissen van deze dag bekijken'. De gebeurtenissen vertegenwoordigen softwareproblemen.
 - **Microsoft Secure Score for Devices:** Plaats de muisaanwijzer op de gebeurtenispunten in de grafiek 'Uw score voor apparaten in de tijd' en selecteer 'Alle gebeurtenissen vanaf deze dag bekijken'. De gebeurtenissen vertegenwoordigen nieuwe configuratiebeoordelingen.
@@ -53,7 +53,7 @@ Er zijn ook drie toegangspunten uit het [dashboard bedreigings- en kwetsbaarheid
 
 ### <a name="exposure-score-and-microsoft-secure-score-for-devices-graphs"></a>Blootstellingsscore en Microsoft Secure Score voor apparatengrafieken
 
-Plaats in het dashboard bedreigings- en kwetsbaarheidsbeheer de muisaanwijzer op de grafiek Blootstellingsscore om de belangrijkste beveiligingsleedgebeurtenissen van die dag te bekijken die van invloed waren op uw apparaten. Plaats de muisaanwijzer op de grafiek Microsoft Secure Score voor apparaten om nieuwe beveiligingsconfiguratiebeoordelingen weer te geven die van invloed zijn op uw score.
+Plaats in Threat and Vulnerability Management het dashboard de muisaanwijzer op de grafiek Blootstellingsscore om de belangrijkste beveiligingsleedgebeurtenissen van die dag te bekijken die van invloed waren op uw apparaten. Plaats de muisaanwijzer op de grafiek Microsoft Secure Score voor apparaten om nieuwe beveiligingsconfiguratiebeoordelingen weer te geven die van invloed zijn op uw score.
 
 Als er geen gebeurtenissen zijn die van invloed zijn op uw apparaten of uw score voor apparaten, worden er geen gebeurtenissen weergegeven.
 
@@ -132,7 +132,7 @@ Navigeer naar het tabblad tijdlijn van de gebeurtenis om alle gebeurtenissen wee
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-- [Overzicht van bedreigings- en kwetsbaarheidsbeheer](next-gen-threat-and-vuln-mgt.md)
+- [Overzicht van bedreigingen en vulnerability management](next-gen-threat-and-vuln-mgt.md)
 - [Dashboard](tvm-dashboard-insights.md)
 - [Blootstellingsscore](tvm-exposure-score.md)
 - [Beveiligingsaanbevelingen](tvm-security-recommendation.md)

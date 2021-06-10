@@ -1,6 +1,6 @@
 ---
 title: E-mailPostDeliveryEvents-tabel in het geavanceerde schema voor de jacht
-description: Meer informatie over acties na levering die zijn ondernomen op Microsoft 365-e-mailberichten in de tabel EmailPostDeliveryEvents van het geavanceerde schema voor de jacht
+description: Meer informatie over acties na bezorging die zijn Microsoft 365 e-mailberichten in de tabel EmailPostDeliveryEvents van het geavanceerde schema voor de jacht
 keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, microsoft 365, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, EmailPostDeliveryEvents, network message id, sender, recipient, attachment id, attachment name, malware verdict, phishing, attachment count, link count, url count, url count
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -35,7 +35,7 @@ ms.locfileid: "51935471"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-De tabel in het geavanceerde schema bevat informatie over acties na bezorging die zijn uitgevoerd op e-mailberichten die zijn verwerkt `EmailPostDeliveryEvents` door Microsoft [](advanced-hunting-overview.md) 365. Gebruik deze verwijzing om query's te maken die gegevens uit deze tabel retourneren.
+De tabel in het geavanceerde schema bevat informatie over acties na bezorging die zijn uitgevoerd op e-mailberichten die door de `EmailPostDeliveryEvents` Microsoft 365. [](advanced-hunting-overview.md) Gebruik deze verwijzing om query's te maken die gegevens uit deze tabel retourneren.
 
 >[!TIP]
 > Voor gedetailleerde informatie over de gebeurtenissentypen (waarden) die door een tabel worden ondersteund, gebruikt u de `ActionType` ingebouwde schemaverwijzing die beschikbaar is in het beveiligingscentrum.
@@ -45,7 +45,7 @@ Voor meer informatie over afzonderlijke e-mailberichten kunt u ook de [`EmailEve
 | Kolomnaam | Gegevenstype | Beschrijving |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | Datum en tijd waarop de gebeurtenis is opgenomen |
-| `NetworkMessageId` | tekenreeks | Unieke id voor het e-mailbericht, gegenereerd door Microsoft 365 |
+| `NetworkMessageId` | tekenreeks | Unieke id voor de e-mail, gegenereerd door Microsoft 365 |
 | `InternetMessageId` | tekenreeks | Openbare id voor de e-mail die is ingesteld door het verzendende e-mailsysteem |
 | `Action` | tekenreeks | Actie ondernomen op de entiteit |
 | `ActionType` | tekenreeks | Type activiteit dat de gebeurtenis heeft geactiveerd: Handmatig herstellen, Phish ZAP, Malware ZAP |

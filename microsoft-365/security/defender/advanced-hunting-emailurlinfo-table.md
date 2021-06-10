@@ -35,14 +35,14 @@ ms.locfileid: "51935459"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-De tabel in het geavanceerde schema bevat informatie over URL's voor e-mailberichten en bijlagen die zijn verwerkt door `EmailUrlInfo` Microsoft Defender voor Office 365. [](advanced-hunting-overview.md) Gebruik deze verwijzing om query's te maken die gegevens uit deze tabel retourneren. 
+De `EmailUrlInfo` tabel in het geavanceerde schema [bevat](advanced-hunting-overview.md) informatie over URL's voor e-mailberichten en bijlagen die door Microsoft Defender zijn verwerkt voor Office 365. Gebruik deze verwijzing om query's te maken die gegevens uit deze tabel retourneren. 
 
 Zie de geavanceerde zoekverwijzing voor meer informatie over andere tabellen in het geavanceerde schema voor [de jacht.](advanced-hunting-schema-tables.md)
 
 | Kolomnaam | Gegevenstype | Beschrijving |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | Datum en tijd waarop de gebeurtenis is opgenomen |
-| `NetworkMessageId` | tekenreeks | Unieke id voor het e-mailbericht, gegenereerd door Microsoft 365 |
+| `NetworkMessageId` | tekenreeks | Unieke id voor de e-mail, gegenereerd door Microsoft 365 |
 | `Url` | tekenreeks | Volledige URL in het onderwerp, de bijlage of de bijlage van het e-mailbericht |
 | `UrlDomain` | tekenreeks | Domeinnaam of hostnaam van de URL |
 | `ReportId` | lang | Gebeurtenis-id op basis van een herhalende teller. Als u unieke gebeurtenissen wilt identificeren, moet deze kolom worden gebruikt in combinatie met de kolommen DeviceName en Timestamp |

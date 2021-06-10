@@ -47,14 +47,14 @@ Voordat u aan de slag gaat, bekijkt u de hoofdpagina van Microsoft Defender voor
 
 ## <a name="download-installation-and-onboarding-packages"></a>Installatie- en onboarding-pakketten downloaden
 
-Download de installatie- en onboarding-pakketten van het Microsoft Defender-beveiligingscentrum:
+Download de installatie- en onboardingpakketten van Microsoft Defender-beveiligingscentrum:
 
-1. Ga in het Microsoft Defender-beveiligingscentrum naar **Instellingen > Apparaatbeheer > Onboarding.**
+1. Ga Microsoft Defender-beveiligingscentrum naar Instellingen > **Device Management > Onboarding.**
 2. Stel in sectie 1 van de pagina het besturingssysteem in op **macOS** en Implementatiemethode op **Lokaal script.**
 3. Selecteer installatiepakket downloaden in sectie 2 van **de pagina.** Sla deze op als wdav.pkg in een lokale adreslijst.
 4. Selecteer **onboardingpakket** downloaden in sectie 2 van de pagina. Sla deze op als WindowsDefenderATPOnboardingPackage.zip in dezelfde adreslijst.
 
-    ![Schermafbeelding van het Microsoft Defender-beveiligingscentrum](images/atp-portal-onboarding-page.png)
+    ![Microsoft Defender-beveiligingscentrum schermafbeelding](images/atp-portal-onboarding-page.png)
 
 5. Controleer in een opdrachtprompt of u de twee bestanden hebt.
     
@@ -107,11 +107,11 @@ Als u dit proces wilt voltooien, moet u beheerdersbevoegdheden hebben op het app
 
 5. Herhaal stap 3 & 4 voor alle systeemextensies die zijn gedistribueerd met Microsoft Defender voor Eindpunt op Mac.
 
-6. Als onderdeel van de mogelijkheden voor het detecteren en beantwoorden van eindpunten controleert Microsoft Defender voor Eindpunt op Mac socketverkeer en rapporteert deze informatie aan de microsoft Defender-beveiligingscentrumportal. Wanneer u wordt gevraagd Microsoft Defender te verlenen voor eindpuntmachtigingen voor het filteren van netwerkverkeer, selecteert u **Toestaan.**
+6. Als onderdeel van de mogelijkheden voor endpointdetectie en -antwoord controleert Microsoft Defender voor Eindpunt op Mac het socketverkeer en rapporteert deze informatie aan de Microsoft Defender-beveiligingscentrum portal. Wanneer u wordt gevraagd Microsoft Defender te verlenen voor eindpuntmachtigingen voor het filteren van netwerkverkeer, selecteert u **Toestaan.**
 
     ![Beveiligingsvoorkeuren voor systeemextensie2](images/big-sur-install-4.png)
 
-7. Open **Systeemvoorkeuren**& privacy en ga naar het tabblad Privacy. Verleen volledige schijftoegangsmachtigingen aan Microsoft Defender  >   **ATP** en Microsoft **Defender ATP-eindpuntbeveiligingsextensie**.  
+7. Open **Systeemvoorkeuren**& privacy en ga naar het tabblad Privacy. Verleen volledige schijftoegangsmachtigingen voor Microsoft Defender ATP en  >   Microsoft Defender ATP **Endpoint Security Extension**.   
 
     ![Volledige schijftoegang](images/big-sur-install-5.png)
 
@@ -170,11 +170,11 @@ Als u dit proces wilt voltooien, moet u beheerdersbevoegdheden hebben op het app
         mdatp threat list
         ```
 
-3. Voer een EDR-detectietest uit om te controleren of het apparaat correct is onboarded en rapporteert aan de service. Voer de volgende stappen uit op het nieuwe onboarded-apparaat:
+3. Voer een EDR detectietest uit om te controleren of het apparaat correct is onboarded en rapporteert aan de service. Voer de volgende stappen uit op het nieuwe onboarded-apparaat:
 
    1. In uw browser, zoals Microsoft Edge voor Mac of Safari.
 
-   1. Download MDATP MacOS DIY.zip en https://aka.ms/mdatpmacosdiy haal deze uit.
+   1. Download MDATP MacOS-DIY.zip uit https://aka.ms/mdatpmacosdiy en haal deze uit.
 
       Mogelijk wordt u gevraagd:
 
@@ -185,7 +185,7 @@ Als u dit proces wilt voltooien, moet u beheerdersbevoegdheden hebben op het app
 
 5. Download **openen.**
 
-6. U ziet **MDATP MacOS DIY**.
+6. U ziet MDATP **MacOS DIY.**
 
    > [!TIP]
    > Als u dubbelklikt, krijgt u het volgende bericht:
@@ -196,29 +196,29 @@ Als u dit proces wilt voltooien, moet u beheerdersbevoegdheden hebben op het app
   
 7. Klik op **Cancel**.
 
-8. Klik met de rechtermuisknop **op MDATP MacOS DIY** en klik vervolgens op **Openen.** 
+8. Klik met de **rechtermuisknop MDATP MacOS DIY** en klik vervolgens op **Openen.** 
 
     In het systeem moet het volgende bericht worden weergegeven:
 
-    > **macOS kan de ontwikkelaar van **MDATP MacOS DIY niet verifiëren.** Weet u zeker dat u het wilt openen?**<br/>
+    > **macOS kan de ontwikkelaar van macOS MDATP **macOS DIY niet verifiëren.** Weet u zeker dat u het wilt openen?**<br/>
     > Door deze app te openen, overteert u de systeembeveiliging, waardoor uw computer en persoonlijke gegevens kunnen worden blootstellen aan malware die uw Mac kan schaden of uw privacy in gevaar kan brengen.
 
 10. Klik **op Openen.**
 
     In het systeem moet het volgende bericht worden weergegeven:
 
-    > Microsoft Defender voor Eindpunt - macOS EDR DIY-testbestand<br/>
-    > De bijbehorende waarschuwing is beschikbaar in de MDATP-portal.
+    > Microsoft Defender for Endpoint - macOS EDR DIY-testbestand<br/>
+    > De bijbehorende waarschuwing is beschikbaar in de MDATP portal.
 
 11. Klik **op Openen.**
 
     In een paar minuten moet een waarschuwing met de naam 'macOS EDR Test Alert' worden verhoogd.
 
-12. Ga naar Microsoft Defender Security Center ( https://SecurityCenter.microsoft.com) .
+12. Ga naar Microsoft Defender-beveiligingscentrum ( https://SecurityCenter.microsoft.com) .
 
 13. Ga naar de waarschuwingswachtrij.
 
-    :::image type="content" source="images/b8db76c2-c368-49ad-970f-dcb87534d9be.png" alt-text="Voorbeeld van een macOS EDR-testmelding met ernst, categorie, detectiebron en een samengevouwen menu met acties.":::
+    :::image type="content" source="images/b8db76c2-c368-49ad-970f-dcb87534d9be.png" alt-text="Voorbeeld van een macOS-EDR testwaarschuwing met ernst, categorie, detectiebron en een samengevouwen menu met acties.":::
     
     Bekijk de details van de waarschuwing en de tijdlijn van het apparaat en voer de normale onderzoeksstappen uit.
 

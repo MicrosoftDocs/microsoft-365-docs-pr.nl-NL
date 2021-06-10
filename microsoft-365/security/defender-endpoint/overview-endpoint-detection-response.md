@@ -1,8 +1,8 @@
 ---
-title: Overzicht van de mogelijkheden voor eindpuntdetectie en -antwoorden
+title: Overzicht van eindpuntdetectie en -respons mogelijkheden
 ms.reviewer: ''
-description: Meer informatie over de mogelijkheden voor het detecteren en reageren van eindpunten in Microsoft Defender voor Eindpunt
-keywords: Microsoft Defender voor eindpunten, eindpuntdetectie en -reactie, antwoord, detectie, cyberbeveiliging, beveiliging
+description: Meer informatie over eindpuntdetectie en -respons mogelijkheden in Microsoft Defender voor Eindpunt
+keywords: Microsoft Defender voor Eindpunt, eindpuntdetectie en -respons, antwoord, detectie, cyberbeveiliging, beveiliging
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -24,7 +24,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51933515"
 ---
-# <a name="overview-of-endpoint-detection-and-response"></a>Overzicht van eindpuntdetectie en -antwoord
+# <a name="overview-of-endpoint-detection-and-response"></a>Overzicht van eindpuntdetectie en -respons
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -35,7 +35,7 @@ ms.locfileid: "51933515"
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-De detectie- en antwoordmogelijkheden van Defender voor eindpunten bieden geavanceerde aanvalsdetecties die bijna realtime zijn en actie kunnen worden ondernomen. Beveiligingsanalisten kunnen waarschuwingen effectief prioriteit geven, zichtbaarheid krijgen in het volledige bereik van een beveiligingsschending en reactieacties ondernemen om bedreigingen te herstellen.
+Defender voor Endpoint-eindpuntdetectie en -respons bieden geavanceerde detecties voor aanvallen die in realtime en actie kunnen worden ondernomen. Beveiligingsanalisten kunnen waarschuwingen effectief prioriteit geven, zichtbaarheid krijgen in het volledige bereik van een beveiligingsschending en reactieacties ondernemen om bedreigingen te herstellen.
 
 Wanneer een bedreiging wordt gedetecteerd, worden waarschuwingen gemaakt in het systeem die een analist kan onderzoeken. Waarschuwingen met dezelfde aanvalstechnieken of die worden toegeschreven aan dezelfde aanvaller, worden samengevoegd tot een entiteit die een _incident wordt genoemd._ Door waarschuwingen op deze manier te aggregeren, kunnen analisten gemakkelijk gezamenlijk bedreigingen onderzoeken en beantwoorden.
 

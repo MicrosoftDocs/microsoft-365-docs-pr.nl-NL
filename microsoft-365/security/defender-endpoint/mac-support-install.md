@@ -58,9 +58,9 @@ preinstall com.microsoft.wdav end [2020-03-11 13:08:49 -0700] 804 => 1
 In dit voorbeeld wordt de werkelijke reden voorafgevoegd met `[ERROR]` .
 De installatie is mislukt omdat een downgrade tussen deze versies niet wordt ondersteund.
 
-## <a name="mdatp-install-log-missing-or-not-updated"></a>MDATP-installatielogboek ontbreekt of wordt niet bijgewerkt
+## <a name="mdatp-install-log-missing-or-not-updated"></a>MDATP logboek installeren ontbreekt of niet wordt bijgewerkt
 
-In zeldzame gevallen laat de installatie geen spoor achter in het bestand /Library/Logs/Microsoft/mdatp/install.log van MDATP.
+In zeldzame gevallen laat de installatie geen spoor achter in MDATP /Library/Logs/Microsoft/mdatp/install.log-bestand.
 U kunt controleren of er een installatie is uitgevoerd en mogelijke fouten analyseren door macOS-logboeken te query's uit te voeren (dit is handig in de MDM-implementatie, wanneer er geen client-gebruikersinterface is). U wordt aangeraden een smal tijdvenster te gebruiken om een query uit te voeren en te filteren op de naam van het logboekregistratieproces, omdat er een grote hoeveelheid informatie beschikbaar is.
 
 ```bash

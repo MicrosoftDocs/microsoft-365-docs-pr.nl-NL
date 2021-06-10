@@ -45,15 +45,15 @@ Deze toepassingen kunnen het risico vergroten dat uw netwerk wordt geïnfecteerd
 
 Defender for Endpoint op Linux kan PUA-bestanden detecteren en rapporteren. Wanneer het bestand is geconfigureerd in de blokkeringsmodus, worden PUA-bestanden verplaatst naar de quarantaine.
 
-Wanneer een PUA wordt gedetecteerd op een eindpunt, houdt Defender voor Eindpunt op Linux een record bij van de infectie in de bedreigingsgeschiedenis. De geschiedenis kan worden gevisualiseerd vanuit de Microsoft Defender-beveiligingscentrumportal of via het `mdatp` opdrachtregelprogramma. De bedreigingsnaam bevat het woord 'Toepassing'.
+Wanneer een PUA wordt gedetecteerd op een eindpunt, houdt Defender voor Eindpunt op Linux een record bij van de infectie in de bedreigingsgeschiedenis. De geschiedenis kan worden gevisualiseerd vanuit de Microsoft Defender-beveiligingscentrum portal of via het `mdatp` opdrachtregelprogramma. De bedreigingsnaam bevat het woord 'Toepassing'.
 
 ## <a name="configure-pua-protection"></a>PUA-beveiliging configureren
 
 PUA-beveiliging in Defender voor Endpoint op Linux kan op een van de volgende manieren worden geconfigureerd:
 
 - **Uit:** PUA-beveiliging is uitgeschakeld.
-- **Audit:** PUA-bestanden worden gerapporteerd in de productlogboeken, maar niet in het Microsoft Defender-beveiligingscentrum. Er wordt geen record van de infectie opgeslagen in de bedreigingsgeschiedenis en er wordt geen actie ondernomen door het product.
-- **Blokkeren:** PUA-bestanden worden gerapporteerd in de productlogboeken en in het Microsoft Defender-beveiligingscentrum. Een record van de infectie wordt opgeslagen in de bedreigingsgeschiedenis en er wordt actie ondernomen door het product.
+- **Audit:** PUA-bestanden worden gerapporteerd in de productlogboeken, maar niet in Microsoft Defender-beveiligingscentrum. Er wordt geen record van de infectie opgeslagen in de bedreigingsgeschiedenis en er wordt geen actie ondernomen door het product.
+- **Blokkeren:** PUA-bestanden worden gerapporteerd in de productlogboeken en in Microsoft Defender-beveiligingscentrum. Een record van de infectie wordt opgeslagen in de bedreigingsgeschiedenis en er wordt actie ondernomen door het product.
 
 >[!WARNING]
 >Pua-beveiliging is standaard geconfigureerd in de **auditmodus.**
@@ -72,6 +72,6 @@ mdatp threat policy set --type potentially_unwanted_application --action [off|au
 
 In uw bedrijf kunt u PUA-beveiliging configureren vanuit een beheerconsole, zoals Poppenkast of Ansible, net zoals andere productinstellingen zijn geconfigureerd. Zie de sectie Instellingen voor [bedreigingstype](linux-preferences.md#threat-type-settings) van het artikel Voorkeuren instellen voor [Defender voor eindpunt op Linux voor](linux-preferences.md) meer informatie.
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-articles"></a>Aanverwante artikelen
 
 - [Voorkeuren instellen voor Defender voor Endpoint op Linux](linux-preferences.md)

@@ -38,7 +38,7 @@ Ransomware heeft zich snel ontwikkeld van eenvoudige malware op basis van goeder
 
 > [Meer informatie over door mensen beheerde ransomware](https://www.microsoft.com/security/blog/2020/03/05/human-operated-ransomware-attacks-a-preventable-disaster/)
 
-Met [geavanceerde zoekactiviteiten](advanced-hunting-overview.md) in Microsoft 365 Defender kunt u query's maken waarin afzonderlijke artefacten worden gevonden die zijn gekoppeld aan ransomware-activiteiten. U kunt ook geavanceerdere query's uitvoeren die tekenen van activiteit kunnen zoeken en deze borden kunnen wegen om apparaten te vinden die direct aandacht vereisen.
+Met [geavanceerde zoekactiviteiten](advanced-hunting-overview.md) in Microsoft 365 Defender kunt u query's maken waarin afzonderlijke artefacten worden gevonden die zijn gekoppeld aan ransomware-activiteit. U kunt ook geavanceerdere query's uitvoeren die tekenen van activiteit kunnen zoeken en deze borden kunnen wegen om apparaten te vinden die direct aandacht vereisen.
 
 ## <a name="signs-of-ransomware-activity"></a>Tekenen van ransomware-activiteit
 Beveiligingsonderzoekers van Microsoft hebben verschillende veelvoorkomende maar subtiele artefacten waargenomen in veel ransomware-campagnes die zijn gestart door geavanceerde indringers. Deze tekens bestaan voornamelijk uit het gebruik van systeemhulpmiddelen voor het voorbereiden van versleuteling, het voorkomen van detectie en het vrijmaken van bewijsmateriaal.

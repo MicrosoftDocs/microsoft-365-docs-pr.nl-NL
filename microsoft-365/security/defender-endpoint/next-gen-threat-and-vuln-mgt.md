@@ -1,7 +1,7 @@
 ---
-title: Bedreigings- en kwetsbaarheidsbeheer
+title: Bedreiging en vulnerability management
 description: Deze nieuwe mogelijkheid maakt gebruik van een spelveranderende risicobenadering voor het vinden, prioriteren en herstellen van eindpuntproblemen en onjuiste configuraties.
-keywords: threat & vulnerability management, threat and vulnerability management, Microsoft Defender for Endpoint TVM, Microsoft Defender for Endpoint-TVM, vulnerability management, vulnerability assessment, threat and vulnerability scanning, secure configuration assessment, Microsoft Defender for Endpoint, endpoint vulnerabilities, next generation
+keywords: threat & vulnerability management, Threat and Vulnerability Management, Microsoft Defender for Endpoint TVM, Microsoft Defender for Endpoint-TVM, vulnerability management, vulnerability assessment, threat and vulnerability scanning, secure configuration assessment, Microsoft Defender for Endpoint, endpoint vulnerabilities, next generation
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -23,7 +23,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51934163"
 ---
-# <a name="threat-and-vulnerability-management"></a>Bedreigings- en kwetsbaarheidsbeheer
+# <a name="threat-and-vulnerability-management"></a>Bedreiging en vulnerability management
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -34,23 +34,23 @@ ms.locfileid: "51934163"
 
 >Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
 
-Het effectief identificeren, beoordelen en herstellen van tekortkomingen in eindpunten is essentieel bij het uitvoeren van een gezond beveiligingsprogramma en het verminderen van organisatierisico's. Bedreigings- en kwetsbaarheidsbeheer fungeert als een infrastructuur voor het verminderen van de blootstelling van organisaties, het uitharden van het eindpuntoppervlak en het vergroten van de tolerantie van de organisatie.
+Het effectief identificeren, beoordelen en herstellen van tekortkomingen in eindpunten is essentieel bij het uitvoeren van een gezond beveiligingsprogramma en het verminderen van organisatierisico's. Bedreiging en vulnerability management fungeert als een infrastructuur voor het verminderen van de blootstelling van organisaties, het uitharden van het eindpuntoppervlak en het vergroten van de tolerantie van de organisatie.
 
 Ontdek beveiligingslekken en onjuiste configuraties in realtime met sensoren, zonder dat er agenten of periodieke scans nodig zijn. Het geeft prioriteit aan beveiligingslekken op basis van het bedreigingslandschap, detecties in uw organisatie, gevoelige informatie op kwetsbare apparaten en zakelijke context.
 
-Bekijk deze video voor een kort overzicht van bedreigings- en kwetsbaarheidsbeheer.
+Bekijk deze video voor een kort overzicht van Threat and Vulnerability Management.
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4mLsn]
 
 ## <a name="bridging-the-workflow-gaps"></a>De werkstroomhiaten overbruggen
 
-Bedreigings- en kwetsbaarheidsbeheer is ingebouwd, in realtime en in de cloud mogelijk. Het is volledig geïntegreerd met microsoft-endpointbeveiligingsstack, de Microsoft Intelligent Security Graph en de kennisbasis voor toepassingsanalyse.  
+Bedreiging en vulnerability management is ingebouwd, in realtime en in de cloud mogelijk. Het is volledig geïntegreerd met microsoft-endpointbeveiligingsstack, de Microsoft Intelligent Security-Graph en de kennisbasis voor toepassingsanalyse.  
 
 Kwetsbaarheidsbeheer is de eerste oplossing in de branche die de kloof tussen beveiligingsbeheer en IT-beheer tijdens herstelproces overbrugt. Maak een beveiligingstaak of ticket door te integreren met Microsoft Intune en Microsoft Endpoint Configuration Manager.
 
 ### <a name="real-time-discovery"></a>Real-time detectie
 
-Als u beveiligingslekken en onjuiste configuratie van eindpunten wilt ontdekken, worden voor bedreigings- en kwetsbaarheidsbeheer dezelfde agentless ingebouwde Defender voor Eindpunt-sensoren gebruikt om omslachtige netwerkscans en IT-overhead te beperken.
+Om beveiligingslekken en onjuiste configuratie van eindpunten te ontdekken, gebruikt Threat and Vulnerability Management dezelfde ingebouwde Defender for Endpoint-sensoren zonder agent om hinderlijke netwerkscans en IT-overhead te beperken.
 
 Het bevat ook:
 
@@ -61,23 +61,23 @@ Het bevat ook:
 
 ### <a name="intelligence-driven-prioritization"></a>Prioriteit op basis van intelligentie
 
-Bedreigings- en kwetsbaarheidsbeheer helpt klanten prioriteiten te stellen en zich te concentreren op de zwakke punten die het meest urgente en hoogste risico vormen voor de organisatie. Het combineert beveiligingsaanbevelingen met dynamische bedreigingen en bedrijfscontext:
+Bedreiging en vulnerability management helpt klanten prioriteiten te stellen en zich te concentreren op de zwakke punten die het meest urgente en hoogste risico voor de organisatie vormen. Het combineert beveiligingsaanbevelingen met dynamische bedreigingen en bedrijfscontext:
 
-- **Nieuwe aanvallen in het wild blootstellen:** hiermee wordt de prioriteit van beveiligingsaanbevelingen dynamisch uitgelijnd. Bedreigings- en kwetsbaarheidsbeheer richt zich op beveiligingslekken die momenteel worden gebruikt in de wilde en nieuwe bedreigingen die het hoogste risico vormen.
-- **Het aanwijzen van actieve** inbreuken- Correleert bedreigings- en kwetsbaarheidsbeheer en EDR-inzichten om prioriteit te geven aan beveiligingslekken die worden misbruikt bij een actieve inbreuk binnen de organisatie.
+- **Nieuwe aanvallen in het wild blootstellen:** hiermee wordt de prioriteit van beveiligingsaanbevelingen dynamisch uitgelijnd. Bedreiging en vulnerability management is gericht op beveiligingslekken die momenteel worden misbruikt in de wilde en nieuwe bedreigingen die het hoogste risico vormen.
+- **Actieve inbreuken aanwijzen:** correleert Threat and Vulnerability Management en EDR om prioriteit te geven aan beveiligingslekken die worden misbruikt bij een actieve inbreuk binnen de organisatie.
 - **Hoogwaardige activa** beschermen: identificeer de blootgestelde apparaten met bedrijfskritische toepassingen, vertrouwelijke gegevens of hoogwaardige gebruikers.
 
 ### <a name="seamless-remediation"></a>Naadloze herstel
 
-Met bedreigings- en kwetsbaarheidsbeheer kunnen beveiligingsbeheerders en IT-beheerders naadloos samenwerken om problemen op te lossen.
+Bedreigingen vulnerability management beveiligingsbeheerders en IT-beheerders kunnen naadloos samenwerken om problemen op te lossen.
 
-- **Herstelaanvragen die naar IT** zijn verzonden: maak een hersteltaak in Microsoft Intune op een specifieke beveiligingsaanbeveling. We zijn van plan deze mogelijkheid uit te breiden naar andere IT-beveiligingsbeheerplatforms.
+- **Herstelaanvragen die naar IT** zijn verzonden: maak een hersteltaak in Microsoft Intune van een specifieke beveiligingsaanbeveling. We zijn van plan deze mogelijkheid uit te breiden naar andere IT-beveiligingsbeheerplatforms.
 - **Alternatieve mitigaties:** krijg inzicht in aanvullende risicobeperking, zoals configuratiewijzigingen die de risico's van softwareproblemen kunnen beperken.
 - **Real-time herstelstatus** : realtime monitoring van de status en voortgang van herstelactiviteiten in de hele organisatie.
 
-## <a name="threat-and-vulnerability-management-walk-through"></a>Walk-through voor bedreigings- en kwetsbaarheidsbeheer
+## <a name="threat-and-vulnerability-management-walk-through"></a>Bedreiging en vulnerability management doorloop
 
-Bekijk deze video voor een uitgebreide doorloop van bedreigings- en kwetsbaarheidsbeheer.
+Bekijk deze video voor een uitgebreide doorloop van Threat and Vulnerability Management.
 
 >[!VIDEO https://aka.ms/MDATP-TVM-Interactive-Guide]
 
@@ -94,7 +94,7 @@ Gebied | Beschrijving
 
 ## <a name="apis"></a>API‘s
 
-Voer API-oproepen voor bedreigings- en kwetsbaarheidsbeheer uit om werkstromen voor beveiligingsprobleembeheer te automatiseren. Meer informatie in dit [blogbericht van de Microsoft Tech Community.](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/threat-amp-vulnerability-management-apis-are-now-generally/ba-p/1304615)
+Voer Threat and Vulnerability Management API-oproepen uit om de vulnerability management te automatiseren. Meer informatie in dit [blogbericht van de Microsoft Tech Community.](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/threat-amp-vulnerability-management-apis-are-now-generally/ba-p/1304615)
 
 Zie de volgende artikelen voor gerelateerde API's:
 
@@ -109,5 +109,5 @@ Zie de volgende artikelen voor gerelateerde API's:
 ## <a name="see-also"></a>Zie ook
 
 - [Ondersteunde besturingssystemen en -platforms](tvm-supported-os.md)
-- [Dashboard Bedreigings- en kwetsbaarheidsbeheer](tvm-dashboard-insights.md)
+- [Bedreiging en vulnerability management dashboard](tvm-dashboard-insights.md)
 - [BLOG: Microsoft's Threat & Vulnerability Management helpt nu duizenden klanten om in realtime beveiligingsproblemen te ontdekken, prioriteit te geven en te herstellen](https://www.microsoft.com/security/blog/2019/07/02/microsofts-threat-vulnerability-management-now-helps-thousands-of-customers-to-discover-prioritize-and-remediate-vulnerabilities-in-real-time/)

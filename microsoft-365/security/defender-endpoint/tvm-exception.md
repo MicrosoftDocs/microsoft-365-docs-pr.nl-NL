@@ -1,7 +1,7 @@
 ---
-title: Uitzonderingen maken en weergeven voor beveiligingsaanbevelingen - bedreigings- en kwetsbaarheidsbeheer
-description: Maak en controleer uitzonderingen voor beveiligingsaanbevelingen in bedreigings- en kwetsbaarheidsbeheer.
-keywords: Microsoft Defender for Endpoint tvm remediation, Microsoft Defender for Endpoint tvm, threat and vulnerability management, threat & vulnerability management, threat & vulnerability management remediation, tvm remediation intune, tvm remediation sccm
+title: Uitzonderingen maken en weergeven voor beveiligingsaanbevelingen - Threat and Vulnerability Management
+description: Maak en controleer uitzonderingen voor beveiligingsaanbevelingen in Threat and Vulnerability Management.
+keywords: Microsoft Defender for Endpoint tvm remediation, Microsoft Defender for Endpoint tvm, Threat and Vulnerability Management, threat & vulnerability management, threat & vulnerability management remediation, tvm remediation intune, tvm remediation sccm
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -25,14 +25,14 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51933743"
 ---
-# <a name="create-and-view-exceptions-for-security-recommendations---threat-and-vulnerability-management"></a>Uitzonderingen maken en weergeven voor beveiligingsaanbevelingen - bedreigings- en kwetsbaarheidsbeheer
+# <a name="create-and-view-exceptions-for-security-recommendations---threat-and-vulnerability-management"></a>Uitzonderingen maken en weergeven voor beveiligingsaanbevelingen - Threat and Vulnerability Management
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
 
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [Bedreigings- en kwetsbaarheidsbeheer](next-gen-threat-and-vuln-mgt.md)
+- [Bedreiging en vulnerability management](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -62,9 +62,9 @@ Pas de uitzondering toe op alle huidige apparaatgroepen of kies specifieke appar
 
 #### <a name="filtered-views"></a>Gefilterde weergaven
 
-Als u op een van de pagina's voor bedreigings- en kwetsbaarheidsbeheer op apparaatgroep hebt gefilterd, worden alleen de gefilterde apparaatgroepen weergegeven als opties.
+Als u hebt gefilterd op apparaatgroep op een van de Threat and Vulnerability Management pagina's, worden alleen de gefilterde apparaatgroepen weergegeven als opties.
 
-Dit is de knop om te filteren op apparaatgroep op een van de pagina's voor bedreigings- en kwetsbaarheidsbeheer: 
+Dit is de knop om te filteren op apparaatgroep op een van de Threat and Vulnerability Management pagina's: 
 
 ![Filter geselecteerde apparaatgroepen weergeven.](images/tvm-selected-device-groups.png)
 
@@ -128,7 +128,7 @@ Selecteer de specifieke apparaatgroep om de uitzondering te annuleren. Er wordt 
 
 ## <a name="view-impact-after-exceptions-are-applied"></a>Impact weergeven nadat uitzonderingen zijn toegepast
 
-Selecteer op de pagina  Beveiligingsaanbevelingen de optie Kolommen aanpassen en schakel de selectievakjes Voor Blootgestelde apparaten **(na uitzonderingen)** en **Impact (na uitzonderingen) in.**
+Selecteer op de pagina Aanbevelingen  kolommen aanpassen en schakel de selectievakjes voor Blootgestelde apparaten **(na uitzonderingen)** en **Impact (na uitzonderingen) in.**
 
 ![Opties voor kolommen aanpassen weergeven.](images/tvm-after-exceptions.png)
 
@@ -140,7 +140,7 @@ Het effect (na uitzonderingen) toont de resterende invloed op de blootstellingss
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-- [Overzicht van bedreigings- en kwetsbaarheidsbeheer](next-gen-threat-and-vuln-mgt.md)
+- [Overzicht van bedreigingen en vulnerability management](next-gen-threat-and-vuln-mgt.md)
 - [Beveiligingsproblemen verhelpen](tvm-remediation.md)
 - [Beveiligingsaanbevelingen](tvm-security-recommendation.md)
 - [Blootstellingsscore](tvm-exposure-score.md)

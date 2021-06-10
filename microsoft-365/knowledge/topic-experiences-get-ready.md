@@ -26,16 +26,16 @@ Als u viva-onderwerpen wilt plannen, moet u het volgende doen:
 ![Stappen voor onboarding voor kennisbeheer migreren, verbinden, moderniseren, beveiligen en identificeren](../media/knowledge-management/km-adoption-onboarding-checklist.png)
 
 1. [Inhoud migreren naar SharePoint](#1-migrate-content-to-microsoft-365)
-    - Onderwerpindexering bevat alleen inhoud op SharePoint-sites.
-      - Migreert waar mogelijk waardevolle inhoud vanuit externe bronnen naar SharePoint Online.
+    - Onderwerpindexering bevat alleen inhoud op SharePoint sites.
+      - Migreert waar mogelijk waardevolle inhoud naar SharePoint Online vanuit externe bronnen.
       - Geef prioriteit aan inhoudsbronnen met een hoog potentieel voor stilzwijgende kennis.
-      - Belicht de voordelen van kennisbeheer om gebruikers aan te moedigen om inhoud van OneDrive naar SharePoint-sites te verplaatsen.
+      - Belicht de voordelen van kennisbeheer om gebruikers aan te moedigen om inhoud te verplaatsen van OneDrive naar SharePoint sites.
 
-2. [Informatie verbinden met Microsoft Graph](#2-connect-information-to-microsoft-graph)
+2. [Verbinding maken informatie naar Microsoft Graph](#2-connect-information-to-microsoft-graph)
     - In de toekomst kan externe inhoud in de kennisgrafiek worden gebracht en beschikbaar komen.
-    - Voor inhoud die niet kan worden verplaatst, kunt u Graph Connectors gebruiken om het zoeken te verbeteren en u voor te bereiden op toekomstige opname.
+    - Voor inhoud die niet kan worden verplaatst, kunt u Graph connectors gebruiken om het zoeken te verbeteren en u voor te bereiden op toekomstige opname.
 
-3. [SharePoint-pagina's moderniseren](#3-modernize-sharepoint-pages)
+3. [Pagina's SharePoint moderniseren](#3-modernize-sharepoint-pages)
     - Onderwerpkaarten kunnen alleen op moderne pagina's worden weergegeven.
     - Identificeer klassieke pagina's met een hoog profiel die kandidaten voor de modernisatie zijn.
 
@@ -45,8 +45,8 @@ Als u viva-onderwerpen wilt plannen, moet u het volgende doen:
       - Site-eigenaren aanmoedigen om de rapporten delen te gebruiken om machtigingen te controleren
       - Beheerders laten breed gedeelde inhoud controleren met behulp van Zoeken
       - Moedig eigenaren van inhoud aan om inhoud te delen die niet gevoelig is en die mogelijk een breder voordeel voor de organisatie heeft.
-    - Bekijk uw Microsoft Graph-configuratie voor gebruikers en inhoud:
-      - Topic indexing honors configuration excluding content from Search or Delve (bijvoorbeeld NOINDEX). Controleer of deze configuraties nog steeds relevant zijn.
+    - Controleer uw Microsoft-Graph gebruikers en inhoud:
+      - Onderwerpindexering honors configuration excluding content from Search or Delve (example, NOINDEX). Controleer of deze configuraties nog steeds relevant zijn.
 
 5. [Kennismanagers en -onderwerpen identificeren](#5-identify-knowledge-managers-and-topics)
     - Gebruik bestaande taxonomie om handmatig onderwerpen te maken of help bij het bevestigen van AI-voorgestelde onderwerpen.
@@ -56,29 +56,29 @@ Als u viva-onderwerpen wilt plannen, moet u het volgende doen:
 
 ## <a name="1-migrate-content-to-microsoft-365"></a>1. Inhoud migreren naar Microsoft 365
 
-Er zijn verschillende hulpprogramma's en services die u kunt helpen bij uw migratie: u kunt een overzicht en informatie krijgen over het migreren van uw inhoud naar [Microsoft 365.](/sharepointmigration/migrate-to-sharepoint-online) Migratiehulpprogramma's zijn:
+Er zijn verschillende hulpprogramma's en services die u kunt helpen bij uw migratie: u kunt een overzicht en informatie krijgen over hoe u migreert bij Uw inhoud migreren naar [Microsoft 365.](/sharepointmigration/migrate-to-sharepoint-online) Migratiehulpprogramma's zijn:
 
 - [Migratiebeheer](/sharepointmigration/mm-get-started)
-- [SharePoint-migratiehulpmiddel (SPMT)](/sharepointmigration/introducing-the-sharepoint-migration-tool)
+- [SharePoint Migratiehulpmiddel (SPMT)](/sharepointmigration/introducing-the-sharepoint-migration-tool)
 - [Microsoft 365 FastTrack](https://www.microsoft.com/fasttrack/microsoft-365)
 - [Hulpprogramma's en services voor partnermigratie](https://www.microsoft.com/solution-providers)
 
 Maak het meeste uit uw migratie:
 
-- Migreren naar een moderne site, inclusief Microsoft Teams. Hoewel indexering kan plaatsvinden op een SharePoint-site (klassiek of modern), vindt het weergeven van onderwerpen aan gebruikers via highlights en kaarten alleen plaats op moderne pagina's.
+- Migreren naar een moderne site, inclusief Microsoft Teams. Hoewel indexeren kan plaatsvinden op SharePoint site (klassiek of modern), worden onderwerpen aan gebruikers weergegeven via highlights en kaarten alleen op moderne pagina's.
 - Gebruikersnamen behouden: met de meeste migratiehulpprogramma's kunt u gebruikersidentiteiten in de migratie in kaart brengen, zodat eigenschappen zoals Gemaakt door of Gewijzigd door na de migratie worden behouden. Dit is belangrijk voor onderwerpen, omdat het auteurschap van bestanden wordt gebruikt om de experts te identificeren die zijn toegevoegd aan een onderwerppagina of -kaart. 
 - Namen van serviceaccounts beschrijven: in sommige gevallen is het niet mogelijk gebruikersnamen te onderhouden. Als u bijvoorbeeld inhoud migreert die is gemaakt door iemand die geen werknemer meer van de organisatie is. In dit geval worden met de meeste migratiehulpmiddelen een bestand verplaatst alsof het is gemaakt door een beheerdersaccount of een serviceaccount. Als dit vaak gebeurt, kan dat serviceaccount vervolgens als expert worden weergegeven tegen onderwerpen. Hier wordt de naamgeving van dat account echt belangrijk. Als u het beschrijvend maakt, is de aanwezigheid van deze niet-menselijke accounts begrijpelijk voor gebruikers die onderwerpen consumeren.
 
-## <a name="2-connect-information-to-microsoft-graph"></a>2. Gegevens verbinden met Microsoft Graph
+## <a name="2-connect-information-to-microsoft-graph"></a>2. Verbinding maken naar Microsoft-Graph
 
-Als u bepaalde inhoud niet kunt migreren, maakt u deze verbinding met Microsoft Graph:
+Als u bepaalde inhoud niet kunt migreren, verbindt u deze met de Microsoft-Graph:
 
-- Overweeg om [Graph Content Connectors te implementeren.](/microsoftsearch/connectors-overview) Met behulp van connectors kan externe inhoud worden geïndexeerd in Microsoft Graph, waar gebruikers deze vervolgens kunnen ontdekken via Microsoft Search.
+- Overweeg om Graph [connectors voor inhoud te implementeren.](/microsoftsearch/connectors-overview) Met behulp van verbindingslijnen kan externe inhoud worden geïndexeerd in de Microsoft-Graph, waar gebruikers deze vervolgens kunnen ontdekken via Microsoft Search.
 - Toekomstige ontwikkelingen brengen externe gegevens naar Viva-onderwerpen.
 
-## <a name="3-modernize-sharepoint-pages"></a>3. SharePoint-pagina's moderniseren
+## <a name="3-modernize-sharepoint-pages"></a>3. De pagina'SharePoint moderniseren
 
-Omdat onderwerpkaarten en highlights alleen op moderne pagina's kunnen worden weergegeven, kunt u pagina's die u wilt opnemen in Viva-onderwerpen bijwerken van klassiek naar modern. Zie [Uw klassieke SharePoint-sites moderniseren.](/sharepoint/dev/transform/modernize-classic-sites) U kunt de [SharePoint-modernisatiescanner gebruiken om](/sharepoint/dev/transform/modernize-scanner) uw klassieke sites voor te bereiden op de modernisatie.
+Omdat onderwerpkaarten en highlights alleen op moderne pagina's kunnen worden weergegeven, kunt u pagina's die u wilt opnemen in Viva-onderwerpen bijwerken van klassiek naar modern. Zie [Uw klassieke sites SharePoint moderniseren.](/sharepoint/dev/transform/modernize-classic-sites) U kunt de scanner voor [SharePoint moderne versie gebruiken](/sharepoint/dev/transform/modernize-scanner) om uw klassieke sites voor te bereiden op de modernisatie.
 
 Als u veel klassieke sites hebt, geeft u prioriteit aan pagina's met een hoog profiel om te converteren naar modern.
 
@@ -89,14 +89,14 @@ Goed machtigingsbeheer is hierbij essentieel. En goed machtigingsbeheer is gebas
 
 - Moedig site-eigenaren aan om delen en machtigingen te controleren.
 
-  SharePoint-site-eigenaren kunnen een rapport voor delen voor hun site bekijken met volledige details van alle machtigingen en koppelingen voor delen die zijn geconfigureerd op de site, zie [Rapporten delen.](/sharepoint/sharing-reports) Hier worden interne en externe (gast)gebruikers vermeld.
+  SharePoint site-eigenaren kunnen een rapport voor delen voor hun site bekijken met volledige details van alle machtigingen en koppelingen voor delen die zijn geconfigureerd op de site, zie [Rapporten delen.](/sharepoint/sharing-reports) Hier worden interne en externe (gast)gebruikers vermeld.
 
-  Site-eigenaren kunnen ook zien wie machtigingen heeft voor de site door naar de **pagina's** Sitemachtigingen en Geavanceerde **machtigingeninstellingen te** gaan.
+  Site-eigenaren kunnen ook zien wie machtigingen heeft voor de site door naar de **pagina's Sitemachtigingen** en Geavanceerde **machtigingen Instellingen** gaan.
 
-  1. Kies instellingen sitemachtigingen op   >  **uw site.** Controleer wie wordt weergegeven onder Site-eigenaren, Siteleden en Sitebezoekers. Controleer op gastgebruikers.
-  2. Kies op **de pagina** Machtigingen de optie **Geavanceerde machtigingeninstellingen.** U kunt controleren op unieke machtigingen en zien wie beperkte toegang heeft tot items op de site.
+  1. Kies op uw site de **Instellingen**  >  **Sitemachtigingen.** Controleer wie wordt weergegeven onder Site-eigenaren, Siteleden en Sitebezoekers. Controleer op gastgebruikers.
+  2. Kies op **de pagina** Machtigingen de optie **Geavanceerde machtigingen Instellingen.** U kunt controleren op unieke machtigingen en zien wie beperkte toegang heeft tot items op de site.
 
-- Controleer Microsoft 365 Groepen en Teams om ervoor te zorgen dat ze op de juiste manier zijn ingesteld als openbare of privégroepen of teams. Nieuwe Teams en Microsoft 365-groepen zijn standaard ingesteld op privé, maar wanneer ze voor het eerst werden uitgebracht, waren ze standaard openbaar. Als u eerder deze technologieën hebt gebruikt, kunt u dit controleren. Bovendien ontwikkelt de functie van een team zich vaak gedurende de levenscyclus en moet de instelling mogelijk worden bijgewerkt om het huidige gebruik van het team weer te geven.
+- Controleer Microsoft 365 groepen en Teams om ervoor te zorgen dat ze op de juiste manier zijn ingesteld als openbare of persoonlijke groepen of teams. Nieuwe Teams en Microsoft 365 groepen zijn standaard ingesteld op privé, maar wanneer ze voor het eerst werden uitgebracht, waren ze standaard openbaar. Als u eerder deze technologieën hebt gebruikt, kunt u dit controleren. Bovendien ontwikkelt de functie van een team zich vaak gedurende de levenscyclus en moet de instelling mogelijk worden bijgewerkt om het huidige gebruik van het team weer te geven.
 - Controleer het gebruik van 'iedereen', 'iedereen behalve externe gebruikers' of brede beveiligingsgroepen. Inhoud kan onjuist worden gedeeld met deze waarden. Als u het gebruik van deze groepen wilt bekijken, kunt u het volgende doen:
   - Een account maken zonder groepslidmaatschap
   - Gebruik zoeken met dit account om inhoud te ontdekken die breed wordt gedeeld.
@@ -104,16 +104,16 @@ Goed machtigingsbeheer is hierbij essentieel. En goed machtigingsbeheer is gebas
 
 Naast machtigingen kunt u ook het bereik bepalen van wat er kan worden ontdekt via onderwerpen. U hebt altijd de controle over wat wordt geïndexeerd.
 
-Beheerders kunnen indexering configureren in het Microsoft 365-beheercentrum. Wanneer u Knowledge [Management in stelt,](set-up-topic-experiences.md)kunt u het volgende doen:
+Beheerders kunnen indexering configureren in het Microsoft 365 beheercentrum. Wanneer u Knowledge [Management in stelt,](set-up-topic-experiences.md)kunt u het volgende doen:
 
-- Sta detectie toe op alle SharePoint-sites of geef sites op om deze op te nemen of uit te sluiten als onderwerpbronnen.
+- Sta detectie toe op alle SharePoint sites of geef sites op die u wilt opnemen of uitsluiten als onderwerpbronnen.
 - Waar u gevoelige termen hebt, kunt u ook onderwerpen uitsluiten op naam. Als u bijvoorbeeld de naam van een gevoelig project hebt, waarbij u niet wilt dat een markering of kaart wordt weergegeven, ongeacht de machtigingen van de gebruiker, kunt u die projectnaam uitsluiten.
 
 Op inhoudsniveau kunt u ook bepalen wat er kan worden ontdekt. Elke configuratie die u hebt uitgevoerd om inhoud uit te sluiten van zoeken, wordt ook gebruikt door inhoudsdetectie. Als u bijvoorbeeld hebt uitgesloten dat een bepaalde documentbibliotheek wordt weergegeven in zoekresultaten, wordt deze documentbibliotheek niet gebruikt voor onderwerpdetectie.
 
 ## <a name="5-identify-knowledge-managers-and-topics"></a>5. Kennismanagers en onderwerpen identificeren
 
-Bij het beheren van onderwerpen zijn drie belangrijke rollen opgenomen, waaronder twee nieuwe AAD-rollen (Azure Active Directory): Knowledge Administrator en Knowledge Manager:
+Het beheren van onderwerpen omvat drie belangrijke rollen, waaronder twee nieuwe Azure Active Directory (AAD)-rollen: Knowledge Administrator en Knowledge Manager:
 
 - De Kennisbeheerder (KA) is een technische rol, meestal in DE IT. Met deze rol kunt u de Viva-onderwerpen instellen in het M365-beheercentrum, evenals de configuratie van onderwerpdetectie en zichtbaarheid.
 - De Knowledge Manager (KM) werkt zelf met de onderwerpen en houdt toezicht op de kwaliteit en volledigheid.
@@ -128,9 +128,9 @@ Afhankelijk van uw organisatie zijn er mogelijk weinig of veel personen die in d
 | Viva-onderwerpen in stellen | Eigenaar van beheer en kwaliteit van onderwerpen | Draagt bij aan onderwerpen op basis van hun expertise. |
 | Zorgt ervoor dat beveiligings- en compliancestandaarden worden afgedwongen en begrijpt de licentieovereenkomst.| Voert onderwerpbeheertaken uit, zoals het maken, bewerken, verwijderen en weigeren van onderwerpen. Ondersteunt inzenders van onderwerpen bij hun taken. | Curseert de informatie en inhoud op onderwerppagina's, inclusief welke personen en resources aan dat onderwerp zijn vastgemaakt. |
 
-Highlights en kaarten worden weergegeven voor gebruikers in de context van hun werk, bijvoorbeeld wanneer ze door moderne pagina's in SharePoint bladeren. U kunt de ervaring van de eindgebruiker bepalen voor onderwerpen.
+Momenten en kaarten worden weergegeven voor gebruikers in de context van hun werk, bijvoorbeeld wanneer ze door moderne pagina's bladeren in SharePoint. U kunt de ervaring van de eindgebruiker bepalen voor onderwerpen.
 
-- Wie kan Onderwerpen zien? Onderwerpzichtbaarheid is geconfigureerd in het Microsoft 365-beheercentrum. Kies welke groepen u wilt toestaan om onderwerpen te bekijken:
+- Wie kunt u Onderwerpen zien? De zichtbaarheid van het onderwerp is geconfigureerd in het Microsoft 365 beheercentrum. Kies welke groepen u wilt toestaan om onderwerpen te bekijken:
   - Iedereen in mijn organisatie. 'Iedereen' bevat geen gasten, het zijn allemaal interne gebruikers in uw adreslijst
   - Alleen geselecteerde personen of beveiligingsgroepen (deze optie is goed terwijl u nog Steeds Viva-onderwerpen uitrolt, zodat u kunt testen met een subset gebruikers). Als u wilt dat gasten Onderwerpen bekijken, moet u de optie 'geselecteerde personen of beveiligingsgroepen' gebruiken en hen een licentie verlenen.
   - Niemand.
@@ -144,4 +144,4 @@ Highlights en kaarten worden weergegeven voor gebruikers in de context van hun w
 Nu we de managers, experts en gebruikers hebben, kunnen we de onderwerpen zelf bespreken.
 
 - Het is een goede gewoonte om onderwerpen in uw onderwerplijst te plaatsen. De kwaliteit en hoeveelheid onderwerpen is gebaseerd op uw inhoud. Deze wordt alleen als onderwerp gemaakt als deze is opgenomen in de inhoud die binnen het bereik valt. Als er voldoende informatie en bewijs voor het onderwerp is, wordt deze gemaakt door de AI. Seeding topics is where the Knowledge Manager and subject-matter experts can help. Het combineren van menselijke kennis met de AI is de beste route voor kwaliteitsonderwerpen. Dus als er onderwerpen zijn die u verwacht, kunt u deze handmatig maken in het onderwerpcentrum. Als u dit doet, geeft de AI een sterk signaal van de relevantie van dat onderwerp en worden resources en personen aan dat onderwerp verbonden.
-- Gebruik bestaande taxonomie om uw onderwerp te plannen, vanuit SharePoint of ergens anders. Bestaande taxonomieën bevatten vaak organisatievoorwaarden, producten, onderwerpgebieden, en meer. Bronnen voor onderwerpen kunnen ook afkomstig zijn van lijsten met projecten, bestaande zoekwijzers, en meer.
+- Gebruik bestaande taxonomie om uw onderwerp te plannen, van SharePoint of ergens anders. Bestaande taxonomieën bevatten vaak organisatievoorwaarden, producten, onderwerpgebieden, en meer. Bronnen voor onderwerpen kunnen ook afkomstig zijn van lijsten met projecten, bestaande zoekwijzers, en meer.

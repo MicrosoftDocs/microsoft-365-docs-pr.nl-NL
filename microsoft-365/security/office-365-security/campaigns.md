@@ -214,7 +214,7 @@ Het diagram bevat de volgende informatie:
 
   ****
 
-  |Waarde|Uitspraak over spamfilter|Omschrijving|
+  |Waarde|Uitspraak over spamfilter|Beschrijving|
   |---|---|---|
   |**Toegestaan**|`SFV:SKN` <p> `SFV:SKI`|Het bericht is gemarkeerd als geen spam en/of is niet gefilterd voordat het door spamfilters wordt geëvalueerd. Het bericht is bijvoorbeeld gemarkeerd als geen spam door een regel voor de e-mailstroom (ook wel een transportregel genoemd). <p> Het bericht heeft spamfilters om andere redenen overgeslagen. De afzender en geadresseerde lijken zich bijvoorbeeld in dezelfde organisatie te hebben.|
   |**Geblokkeerd**|`SFV:SKS`|Het bericht is gemarkeerd als spam voordat het werd geëvalueerd door spamfilters. Bijvoorbeeld door een regel voor de e-mailstroom.|

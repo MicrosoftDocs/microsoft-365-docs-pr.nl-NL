@@ -1,7 +1,7 @@
 ---
 title: Microsoft Secure Score voor apparaten
 description: Uw score voor apparaten toont de collectieve beveiligingsconfiguratie van uw apparaten in toepassings-, besturingssysteem-, netwerk-, accounts- en beveiligingsbesturingselementen.
-keywords: Microsoft Secure Score for Devices, Microsoft Defender for Endpoint Microsoft Secure Score for Devices, secure score, configuration score, threat and vulnerability management, security controls, improvement opportunities, security configuration score over time, security posture, baseline
+keywords: Microsoft Secure Score for Devices, Microsoft Defender for Endpoint Microsoft Secure Score for Devices, secure score, configuration score, Threat and Vulnerability Management, security controls, improvement opportunities, security configuration score over time, security posture, baseline
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -32,16 +32,16 @@ ms.locfileid: "51934079"
 **Van toepassing op:**
 
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [Bedreigings- en kwetsbaarheidsbeheer](next-gen-threat-and-vuln-mgt.md)
+- [Bedreiging en vulnerability management](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 
 
 
 >[!NOTE]
-> Configuratiescore maakt nu deel uit van bedreigings- en kwetsbaarheidsbeheer als Microsoft Secure Score voor apparaten.
+> Configuratiescore maakt nu deel uit van Threat and Vulnerability Management als Microsoft Secure Score voor apparaten.
 
-Uw score voor apparaten is zichtbaar in het dashboard [bedreigings- en kwetsbaarheidsbeheer](tvm-dashboard-insights.md) van het Microsoft Defender-beveiligingscentrum. Een hogere Microsoft Secure Score voor apparaten betekent dat uw eindpunten beter bestand zijn tegen cyberbeveiligingsaanvallen. Het geeft de status van de collectieve beveiligingsconfiguratie van uw apparaten weer in de volgende categorieën:
+Uw score voor apparaten is zichtbaar in [het Threat and Vulnerability Management dashboard](tvm-dashboard-insights.md) van de Microsoft Defender-beveiligingscentrum. Een hogere Microsoft Secure Score voor apparaten betekent dat uw eindpunten beter bestand zijn tegen cyberbeveiligingsaanvallen. Het geeft de status van de collectieve beveiligingsconfiguratie van uw apparaten weer in de volgende categorieën:
 
 - Toepassing
 - Besturingssysteem
@@ -57,7 +57,7 @@ Doorsturen van Microsoft Defender voor eindpuntsignalen, zodat Microsoft Secure 
 
 Het kan enkele uren duren voordat wijzigingen worden doorgevoerd in het dashboard.
 
-1. Ga in het navigatiedeelvenster naar **Geavanceerde**  >  **functies instellingen** 
+1. Ga in het navigatiedeelvenster naar **Instellingen**  >  **Geavanceerde functies** 
 
 2. Schuif omlaag naar **Microsoft Secure Score** en zet de instelling in op **Aan.**
 
@@ -79,7 +79,7 @@ De gegevens in de Kaart Microsoft Secure Score voor apparaten zijn het product v
 
 Verbeter uw beveiligingsconfiguratie door problemen op te lossen vanuit de lijst met beveiligingsaanbevelingen. Terwijl u dit doet, verbetert uw Microsoft Secure Score voor apparaten en wordt uw organisatie beter bestand tegen cyberbeveiligingsdreigingen en -beveiligingslekken.
 
-1. Selecteer in de kaart Microsoft Secure Score voor apparaten in het dashboard bedreigings- en kwetsbaarheidsbeheer de categorieën. U ziet de lijst met aanbevelingen die betrekking hebben op die categorie. U gaat naar de pagina [**Beveiligingsaanbevelingen.**](tvm-security-recommendation.md) Als u alle beveiligingsaanbevelingen wilt zien, kunt u het zoekveld verwijderen zodra u bij de pagina Beveiligingsaanbevelingen bent.
+1. Selecteer in de kaart Microsoft Secure Score voor apparaten in Threat and Vulnerability Management dashboard een van de categorieën. U ziet de lijst met aanbevelingen die betrekking hebben op die categorie. U gaat naar de pagina [**Beveiligingsaanbevelingen.**](tvm-security-recommendation.md) Als u alle beveiligingsaanbevelingen wilt zien, kunt u het zoekveld verwijderen zodra u bij de pagina Beveiligingsaanbevelingen bent.
 
 2. Selecteer een item in de lijst. Het flyout-deelvenster wordt geopend met informatie over de aanbeveling. Selecteer **Herstelopties.**
 
@@ -110,7 +110,7 @@ Verbeter uw beveiligingsconfiguratie door problemen op te lossen vanuit de lijst
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-- [Overzicht van bedreigings- en kwetsbaarheidsbeheer](next-gen-threat-and-vuln-mgt.md)
+- [Overzicht van bedreigingen en vulnerability management](next-gen-threat-and-vuln-mgt.md)
 - [Dashboard](tvm-dashboard-insights.md)
 - [Blootstellingsscore](tvm-exposure-score.md)
 - [Beveiligingsaanbevelingen](tvm-security-recommendation.md)

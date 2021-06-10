@@ -1,5 +1,5 @@
 ---
-title: Apparaatprofiel in microsoft 365-beveiligingsportal
+title: Apparaatprofiel in Microsoft 365 beveiligingsportal
 description: Bekijk de risico- en blootstellingsniveaus voor een apparaat in uw organisatie. Analyseer eerdere en huidige bedreigingen en bescherm het apparaat met de meest recente updates.
 keywords: beveiliging, malware, Microsoft 365, M365, Microsoft 365 Defender, beveiligingscentrum, Microsoft Defender voor Eindpunt, Microsoft Defender voor Office 365, Microsoft Defender voor identiteit, apparaatpagina, apparaatprofiel, machinepagina, machineprofiel
 ms.prod: m365-security
@@ -25,7 +25,7 @@ ms.locfileid: "51935663"
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-De beveiligingsportal van Microsoft 365 biedt u apparaatprofielpagina's, zodat u snel de status en status van apparaten in uw netwerk kunt beoordelen.
+De Microsoft 365 beveiligingsportal biedt u apparaatprofielpagina's, zodat u snel de status en status van apparaten in uw netwerk kunt beoordelen.
 
 > [!IMPORTANT]
 > De pagina apparaatprofiel ziet er mogelijk iets anders uit, afhankelijk van of het apparaat is geregistreerd bij Microsoft Defender voor Eindpunt, Microsoft Defender voor identiteit of beide.
@@ -75,10 +75,10 @@ Reactieacties bieden een snelle manier om bedreigingen te beschermen en te analy
 Acties die beschikbaar zijn op de pagina apparaatprofiel zijn:
 
 * **Tags beheren:** hiermee worden aangepaste tags bijgewerkt die u op dit apparaat hebt toegepast.
-* **Apparaat isoleren:** isoleert het apparaat van het netwerk van uw organisatie terwijl het verbonden blijft met Microsoft Defender voor Eindpunt. U kunt ervoor kiezen outlook, Teams en Skype voor Bedrijven uit te voeren terwijl het apparaat is geïsoleerd, voor communicatiedoeleinden.
+* **Apparaat isoleren:** isoleert het apparaat van het netwerk van uw organisatie terwijl het verbonden blijft met Microsoft Defender voor Eindpunt. U kunt ervoor kiezen om Outlook, Teams en Skype voor Bedrijven te laten uitvoeren terwijl het apparaat is geïsoleerd, voor communicatiedoeleinden.
 * **Actiecentrum:** de status van ingediende acties weergeven. Alleen beschikbaar als er al een andere actie is geselecteerd.
 * **De uitvoering van apps beperken:** voorkomt dat toepassingen die niet door Microsoft zijn ondertekend, worden uitgevoerd.
-* **Antivirusscan uitvoeren-** Updates Windows Defender Antivirusdefinities en voert onmiddellijk een antivirusscan uit. Kies tussen Snel scannen of Volledige scan.
+* **Antivirusscan uitvoeren:** updates Windows Defender Antivirus definities en voert onmiddellijk een antivirusscan uit. Kies tussen Snel scannen of Volledige scan.
 * **Onderzoekspakket verzamelen:** verzamelt informatie over het apparaat. Wanneer het onderzoek is voltooid, kunt u het downloaden.
 * **Live-antwoordsessie starten:** laadt een externe shell op het apparaat voor [uitgebreide beveiligingsonderzoeken.](/microsoft-365/security/defender-endpoint/live-response)
 * **Automatisch onderzoek starten:** automatisch bedreigingen onderzoeken en [corrigeren.](../office-365-security/office-365-air.md) Hoewel u handmatig automatische onderzoeken kunt activeren om vanaf deze pagina uit te [voeren,](../../compliance/alert-policies.md?view=o365-worldwide#default-alert-policies) worden bepaalde waarschuwingsbeleidsregels automatisch uitgevoerd.
@@ -180,7 +180,7 @@ Als u een item selecteert, wordt een flyout geopend die naar de update wordt kop
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-* [Overzicht van Microsoft 365 Defender](microsoft-365-defender.md)
+* [Microsoft 365 Overzicht van Defender](microsoft-365-defender.md)
 * [Microsoft 365 Defender inschakelen](m365d-enable.md)
 * [Entiteiten op apparaten onderzoeken met livereactie](../defender-endpoint/live-response.md)
 * [Automatisch onderzoek en antwoord (AIR) in Office 365](../office-365-security/office-365-air.md)

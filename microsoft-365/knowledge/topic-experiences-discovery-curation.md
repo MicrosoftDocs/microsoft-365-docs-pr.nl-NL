@@ -22,7 +22,7 @@ ms.locfileid: "50917426"
 ---
 # <a name="microsoft-viva-topics-discovery-and-curation"></a>Microsoft Viva Onderwerpen ontdekken en cureren 
 
-Viva Topics organiseert informatie voor kennis in uw Microsoft 365-omgeving. We hebben allemaal ervaring met het lezen van documenten en sitepagina's waar we termen tegenkomen die we niet kennen. Vaak stoppen we met wat we doen om kostbare tijd te besteden aan het zoeken naar meer informatie.
+Viva Topics organiseert informatie voor kennis in uw Microsoft 365 omgeving. We hebben allemaal ervaring met het lezen van documenten en sitepagina's waar we termen tegenkomen die we niet kennen. Vaak stoppen we met wat we doen om kostbare tijd te besteden aan het zoeken naar meer informatie.
 
 Viva Topics gebruikt Microsoft Graph en AI om onderwerpen **in** uw organisatie te identificeren.  Een onderwerp is een woordgroep of term die een specifieke betekenis heeft voor de organisatie en die resources heeft die mensen kunnen helpen te begrijpen wat het is en meer informatie over het onderwerp te vinden. Er is een groot aantal verschillende soorten onderwerpen dat belangrijk is voor je organisatie. In eerste instantie kunnen de volgende typen onderwerpen worden geïdentificeerd:
 - Project
@@ -43,7 +43,7 @@ De eigenschappen worden geïdentificeerd op basis van de bestanden en pagina's d
 
 Niet elk geïdentificeerd onderwerp is nuttig voor uw organisatie. Het kan zijn dat er geen van de juiste alternatieve namen, beschrijvingen, de juiste personen of inhoud zijn geïdentificeerd. De mogelijkheid om onderwerpen toe te voegen die niet zijn geïdentificeerd, voorgestelde onderwerpen te behouden en onderwerpen te curaçeren, is dus essentieel voor het verbeteren van de kwaliteit van de onderwerpen die in uw organisatie kunnen worden gevonden.
 
-Als de context geschikt is, worden deze onderwerpen vervolgens gemarkeerd op alle moderne SharePoint-sitepagina's in uw tenant. Een paginaauteur kan ook rechtstreeks naar het onderwerp op de moderne SharePoint-sitepagina verwijzen. Wanneer een gebruiker nieuwsgierig is naar meer informatie over een onderwerp, kan deze het gemarkeerde onderwerp selecteren om een overzichtskaart onderwerp weer te geven met een korte beschrijving.  En als ze meer willen weten, kunnen ze een koppeling **Onderwerpdetails** selecteren in de samenvatting om de gedetailleerde onderwerppagina te openen.
+Als de context geschikt is, worden deze onderwerpen vervolgens gemarkeerd op alle moderne sitepagina's SharePoint tenant. Het onderwerp kan ook rechtstreeks door een paginaauteur op de SharePoint sitepagina worden verwezen. Wanneer een gebruiker nieuwsgierig is naar meer informatie over een onderwerp, kan deze het gemarkeerde onderwerp selecteren om een overzichtskaart onderwerp weer te geven met een korte beschrijving.  En als ze meer willen weten, kunnen ze een koppeling **Onderwerpdetails** selecteren in de samenvatting om de gedetailleerde onderwerppagina te openen.
 
 ![Belangrijke kenmerken van Topics](../media/knowledge-management/saturn.png) </br>
 
@@ -59,7 +59,7 @@ Viva Topics is blij met de menselijke bijdrage om de kwaliteit van uw onderwerpe
 
 - Zelfs gebruikers die alleen toegang hebben tot onderwerp (onderwerpkijkers) worden gevraagd het nut van specifieke onderwerpen te controleren. Feedbackvragen worden gesteld op de **overzichtskaart Onderwerp** om de waarde van het onderwerp en de informatie te verbeteren. Vragen over de kwaliteit en het nut van de AI-suggesties worden een voor een aan gebruikers gepresenteerd. Vragen zijn:</br>
 
-    1. Of het identificeren van het onderwerp op de SharePoint-pagina nuttig was. Er is een mogelijkheid om de markering te verwijderen als deze niet nauwkeurig of nuttig is. Als voldoende personen aangeven dat een onderwerp niet correct is geïdentificeerd op een bepaalde pagina, wordt deze markering uiteindelijk verwijderd voor alle gebruikers. 
+    1. Of het identificeren van het onderwerp op SharePoint pagina nuttig was. Er is een mogelijkheid om de markering te verwijderen als deze niet nauwkeurig of nuttig is. Als voldoende personen aangeven dat een onderwerp niet correct is geïdentificeerd op een bepaalde pagina, wordt deze markering uiteindelijk verwijderd voor alle gebruikers. 
 
     2. Of het voorgestelde onderwerp waardevol is voor de organisatie. Als voldoende personen aangeven dat het voorgestelde onderwerp waardevol is, wordt het onderwerp automatisch bevestigd. Als het voorgestelde onderwerp niet waardevol is, wordt het onderwerp ook automatisch geweigerd. Knowledge Manager kan deze activiteit waarnemen in de weergave Onderwerpen beheren.
 

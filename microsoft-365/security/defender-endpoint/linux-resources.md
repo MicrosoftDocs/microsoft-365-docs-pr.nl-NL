@@ -52,7 +52,7 @@ Als u een probleem kunt reproduceren, moet u eerst het logboekregistratieniveau 
 
 2. Reproduceer het probleem.
 
-3. Voer de volgende opdracht uit om een back-up te maken van de logboeken van Defender voor eindpunten. De bestanden worden opgeslagen in een ZIP-archief.
+3. Voer de volgende opdracht uit om een back-up te maken van de logboeken van Defender voor eindpunten. De bestanden worden opgeslagen in een .zip archief.
 
    ```bash
    sudo mdatp diagnostic create
@@ -163,8 +163,8 @@ In de portal Defender voor eindpunt ziet u twee categorieën met informatie:
 
 ### <a name="known-issues"></a>Bekende problemen
 
-- Mogelijk ziet u 'Geen sensorgegevens, communicatie met verminderde werking' op de pagina met computergegevens van de portal van het Microsoft Defender-beveiligingscentrum, ook al werkt het product zoals verwacht. We werken aan een oplossing voor dit probleem.
-- Aangemelde gebruikers worden niet weergegeven in de microsoft Defender-beveiligingscentrumportal.
+- Mogelijk ziet u 'Geen sensorgegevens, beperkte communicatie' op de pagina computergegevens van de Microsoft Defender-beveiligingscentrum portal, ook al werkt het product zoals verwacht. We werken aan een oplossing voor dit probleem.
+- Aangemelde gebruikers worden niet weergegeven in de Microsoft Defender-beveiligingscentrum portal.
 - Als de installatie van *libatomic1* mislukt in SUSE-distributies, moet u controleren of uw besturingssysteem is geregistreerd:
 
    ```bash

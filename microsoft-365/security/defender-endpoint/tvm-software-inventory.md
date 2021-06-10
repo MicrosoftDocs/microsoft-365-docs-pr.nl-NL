@@ -1,7 +1,7 @@
 ---
-title: Softwarevoorraad in bedreigings- en kwetsbaarheidsbeheer
-description: Op de pagina softwarevoorraad voor het bedreigings- en kwetsbaarheidsbeheer van Microsoft Defender voor Endpoint wordt weergegeven hoeveel zwakke punten en beveiligingslekken zijn gedetecteerd in software.
-keywords: threat and vulnerability management, Microsoft Defender for Endpoint, Microsoft Defender for Endpoint software inventory, Microsoft Defender for Endpoint threat & vulnerability management, Microsoft Defender for Endpoint threat & vulnerability management software inventory, Microsoft Defender for Endpoint tvm software inventory, tvm software inventory
+title: Softwarevoorraad in Threat and Vulnerability Management
+description: Op de pagina met softwarevoorraad voor de Threat and Vulnerability Management van Microsoft Defender voor Endpoint wordt weergegeven hoeveel zwakke punten en beveiligingslekken zijn gedetecteerd in software.
+keywords: Threat and Vulnerability Management, Microsoft Defender for Endpoint, Microsoft Defender for Endpoint software inventory, Microsoft Defender for Endpoint threat & vulnerability management, Microsoft Defender for Endpoint threat & vulnerability management software inventory, Microsoft Defender for Endpoint tvm software inventory, tvm software inventory
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -25,18 +25,18 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51933719"
 ---
-# <a name="software-inventory---threat-and-vulnerability-management"></a>Softwarevoorraad : bedreigings- en kwetsbaarheidsbeheer
+# <a name="software-inventory---threat-and-vulnerability-management"></a>Softwarevoorraad - Threat and Vulnerability Management
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [Bedreigings- en kwetsbaarheidsbeheer](next-gen-threat-and-vuln-mgt.md)
+- [Bedreiging en vulnerability management](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
 
-De softwarevoorraad in bedreigings- en kwetsbaarheidsbeheer is een lijst met bekende software in uw organisatie met de officiële [Common Platform Enumerations (CPE)](https://nvd.nist.gov/products/cpe). Softwareproducten zonder een officiële CPE hebben geen beveiligingslekken gepubliceerd. Het bevat ook details, zoals de naam van de leverancier, het aantal zwakke punten, bedreigingen en het aantal blootgestelde apparaten.
+De softwarevoorraad in Threat and Vulnerability Management is een lijst met bekende software in uw organisatie met officiële Algemene Platform-opsommingen [(CPE).](https://nvd.nist.gov/products/cpe) Softwareproducten zonder een officiële CPE hebben geen beveiligingslekken gepubliceerd. Het bevat ook details, zoals de naam van de leverancier, het aantal zwakke punten, bedreigingen en het aantal blootgestelde apparaten.
 
 ## <a name="how-it-works"></a>Hoe het werkt
 
@@ -46,7 +46,7 @@ Aangezien het in realtime is, ziet u binnen enkele minuten informatie over de kw
 
 ## <a name="navigate-to-the-software-inventory-page"></a>Ga naar de pagina Softwarevoorraad
 
-Toegang tot de pagina Softwarevoorraad door **Softwarevoorraad te selecteren** in het navigatiemenu bedreigings- en beveiligingsprobleembeheer in het [Microsoft Defender-beveiligingscentrum.](portal-overview.md)
+Toegang tot de pagina Softwarevoorraad door **Softwarevoorraad** te selecteren in het Threat and Vulnerability Management navigatiemenu in [de Microsoft Defender-beveiligingscentrum.](portal-overview.md)
 
 Bekijk software op specifieke apparaten op de pagina's met afzonderlijke apparaten in [de lijst met apparaten.](machines-view-overview.md)
 
@@ -65,7 +65,7 @@ Selecteer de software die u wilt onderzoeken. Er wordt een flyoutvenster geopend
 
 ### <a name="software-that-isnt-supported"></a>Software die niet wordt ondersteund
 
-Software die momenteel niet wordt ondersteund door & beveiligingsprobleembeheer kan aanwezig zijn op de pagina Softwarevoorraad. Omdat deze niet wordt ondersteund, zijn er slechts beperkte gegevens beschikbaar. Filter op niet-ondersteunde software met de optie 'Niet beschikbaar' in de sectie 'Zwakheid'.
+Software die momenteel niet wordt ondersteund door bedreigingen & vulnerability management kan aanwezig zijn op de inventarispagina software. Omdat deze niet wordt ondersteund, zijn er slechts beperkte gegevens beschikbaar. Filter op niet-ondersteunde software met de optie 'Niet beschikbaar' in de sectie 'Zwakheid'.
 
 ![Niet-ondersteund softwarefilter.](images/tvm-unsupported-software-filter.png)
 
@@ -80,9 +80,9 @@ Momenteel worden producten zonder CPE niet weergegeven op de pagina softwarevoor
 
 ## <a name="software-inventory-on-devices"></a>Softwarevoorraad op apparaten
 
-Ga vanuit het navigatievenster van het Microsoft Defender-beveiligingscentrum naar de **[lijst Apparaten.](machines-view-overview.md)** Selecteer de naam van een apparaat om de apparaatpagina te openen (zoals Computer1) en selecteer vervolgens het tabblad **Softwarevoorraad** om een lijst weer te geven met alle bekende software die op het apparaat aanwezig is. Selecteer een specifieke software-vermelding om de flyout te openen met meer informatie.
+Ga vanuit Microsoft Defender-beveiligingscentrum navigatiescherm naar de lijst **[Apparaten.](machines-view-overview.md)** Selecteer de naam van een apparaat om de apparaatpagina te openen (zoals Computer1) en selecteer vervolgens het tabblad **Softwarevoorraad** om een lijst weer te geven met alle bekende software die op het apparaat aanwezig is. Selecteer een specifieke software-vermelding om de flyout te openen met meer informatie.
 
-Software kan zichtbaar zijn op apparaatniveau, zelfs als deze momenteel niet wordt ondersteund door bedreigings- en kwetsbaarheidsbeheer. Er zijn echter slechts beperkte gegevens beschikbaar. U weet of software niet wordt ondersteund, omdat er 'Niet beschikbaar' wordt gezegd in de kolom 'Zwakheid'.
+Software is mogelijk zichtbaar op apparaatniveau, zelfs als deze momenteel niet wordt ondersteund door Threat and Vulnerability Management. Er zijn echter slechts beperkte gegevens beschikbaar. U weet of software niet wordt ondersteund, omdat er 'Niet beschikbaar' wordt gezegd in de kolom 'Zwakheid'.
 
 Software zonder CPE kan ook worden gebruikt onder deze apparaatspecifieke softwarevoorraad.
 
@@ -92,7 +92,7 @@ Bekijk waar we een specifieke software op een apparaat hebben gedetecteerd vanui
 
 Selecteer een softwarenaam om de flyout te openen en zoek naar de sectie 'Software evidence'.
 
-![Voorbeeld van softwaregegevens van Windows 10 uit de lijst met apparaten, met het registerpad voor softwaregegevens.](images/tvm-software-evidence.png)
+![Software evidence example of Windows 10 from the devices list, showing software evidence registry path.](images/tvm-software-evidence.png)
 
 ## <a name="software-pages"></a>Softwarepagina's
 
@@ -100,7 +100,7 @@ U kunt softwarepagina's op verschillende manieren bekijken:
 
 - Pagina softwarevoorraad > Selecteer een softwarenaam > Selecteer **Softwarepagina openen** in de flyout
 - [Pagina Met beveiligingsaanbevelingen](tvm-security-recommendation.md) > Selecteer een aanbeveling > Selecteer **Softwarepagina openen** in de flyout
-- [Pagina tijdlijn van](threat-and-vuln-mgt-event-timeline.md) gebeurtenis > Selecteer een gebeurtenis > Selecteer de naam van de hyperlinksoftware (zoals Visual Studio 2017) in de sectie 'Gerelateerd onderdeel' in de flyout
+- [Pagina tijdlijn](threat-and-vuln-mgt-event-timeline.md) van gebeurtenis > Selecteer een gebeurtenis > Selecteer de softwarenaam met hyperlinks (zoals Visual Studio 2017) in de sectie 'Gerelateerd onderdeel' in het flyout
 
  Er wordt een volledige pagina weergegeven met alle details van een specifieke software en de volgende informatie:
 
@@ -112,7 +112,7 @@ U kunt softwarepagina's op verschillende manieren bekijken:
     - Apparaten die de software hebben geïnstalleerd (samen met de naam van het apparaat, domein, besturingssysteem en meer).
     - Lijst met softwareversies (inclusief het aantal apparaten waar de versie op is geïnstalleerd, het aantal gevonden beveiligingslekken en de namen van de geïnstalleerde apparaten).
 
-    ![Pagina met softwarevoorbeelden voor Visual Studio 2017 met de softwaredetails, zwakke punten, blootgestelde apparaten en meer.](images/tvm-software-page-example.png)
+    ![Pagina softwarevoorbeeld voor Visual Studio 2017 met de softwaredetails, zwakke punten, blootgestelde apparaten en meer.](images/tvm-software-page-example.png)
 
 ## <a name="report-inaccuracy"></a>Onnauwkeurigheid van rapport
 
@@ -121,11 +121,11 @@ Meld een onwaar positief wanneer u vage, onnauwkeurige of onvolledige informatie
 1. Open de software flyout op de pagina Softwarevoorraad.
 2. Selecteer **Onnauwkeurigheid van rapport**.
 3. Selecteer in het deelvenster Flyout de onnauwkeurigheidscategorie in de vervolgkeuzelijst, vul uw e-mailadres in en details over de onnauwkeurigheid.
-4. Selecteer **Verzenden**. Uw feedback wordt onmiddellijk verzonden naar de experts voor bedreigings- en kwetsbaarheidsbeheer.
+4. Selecteer **Verzenden**. Uw feedback wordt onmiddellijk verzonden naar de Threat and Vulnerability Management experts.
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-articles"></a>Aanverwante artikelen
 
-- [Overzicht van bedreigings- en kwetsbaarheidsbeheer](next-gen-threat-and-vuln-mgt.md)
+- [Overzicht van bedreigingen en vulnerability management](next-gen-threat-and-vuln-mgt.md)
 - [Beveiligingsaanbevelingen](tvm-security-recommendation.md)
 - [Tijdlijn van het evenement](threat-and-vuln-mgt-event-timeline.md)
 - [De lijst Met Microsoft Defender voor eindpuntapparaten weergeven en organiseren](machines-view-overview.md)

@@ -51,13 +51,13 @@ Daarnaast moet u voor de implementatie van Poppenspel bekend zijn met beheertake
 
 ## <a name="download-the-onboarding-package"></a>Het onboarding-pakket downloaden
 
-Download het onboarding-pakket van het Microsoft Defender-beveiligingscentrum:
+Download het onboarding-pakket van Microsoft Defender-beveiligingscentrum:
 
-1. Ga in het Microsoft Defender-beveiligingscentrum naar **Instellingen > Apparaatbeheer > Onboarding.**
+1. Ga Microsoft Defender-beveiligingscentrum naar Instellingen > **Device Management > Onboarding.**
 2. Selecteer in de eerste vervolgkeuzelijst **Linux Server** als besturingssysteem. Selecteer in de tweede vervolgkeuzelijst **Uw voorkeursprogramma** voor configuratiebeheer voor Linux als implementatiemethode.
 3. Selecteer **Onboarding-pakket downloaden.** Sla het bestand op als WindowsDefenderATPOnboardingPackage.zip.
 
-    ![Schermafbeelding van het Microsoft Defender-beveiligingscentrum](images/atp-portal-onboarding-linux-2.png)
+    ![Microsoft Defender-beveiligingscentrum schermafbeelding](images/atp-portal-onboarding-linux-2.png)
 
 4. Controleer in een opdrachtprompt of u het bestand hebt. 
 

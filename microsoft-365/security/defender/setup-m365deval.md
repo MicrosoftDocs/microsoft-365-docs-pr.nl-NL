@@ -1,6 +1,6 @@
 ---
-title: Uw proeflaboratorium of testomgeving voor Microsoft 365 Defender instellen
-description: Access Microsoft 365-beveiligingscentrum en stel vervolgens uw proeflabomgeving van Microsoft 365 Defender in
+title: Uw proeflaboratorium of testomgeving Microsoft 365 Defender instellen
+description: Access Microsoft 365 Beveiligingscentrum en stel vervolgens uw proeflabomgeving Microsoft 365 Defender in
 keywords: Microsoft 365 Defender trial setup, Microsoft 365 Defender pilot setup, try Microsoft 365 Defender, Microsoft 365 Defender evaluation lab setup
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -26,7 +26,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51935423"
 ---
-# <a name="set-up-your-microsoft-365-defender-trial-lab-environment"></a>Uw proeflabomgeving voor Microsoft 365 Defender instellen 
+# <a name="set-up-your-microsoft-365-defender-trial-lab-environment"></a>Uw proeflabomgeving Microsoft 365 Defender instellen 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -35,28 +35,28 @@ ms.locfileid: "51935423"
 - Microsoft 365 Defender 
 
 
-Het maken van een proeflaboratorium of testomgeving van Microsoft 365 Defender en de implementatie ervan is een proces in drie fasen:
+Het maken Microsoft 365 proeflaboratorium of testomgeving van Defender en deze implementeren is een proces in drie fasen:
 
 |[![Fase 1: Voorbereiden](../../media/phase-diagrams/prepare.png)](prepare-m365d-eval.md)<br/>[Fase 1: Voorbereiden](prepare-m365d-eval.md) |![Fase 2: Instellen](../../media/phase-diagrams/setup.png)<br/>Fase 2: Instellen |[![Fase 3: Onboarden](../../media/phase-diagrams/onboard.png)](config-m365d-eval.md)<br/>[Fase 3: Onboarden](config-m365d-eval.md) | [![Terug naar pilot](../../media/phase-diagrams/backtopilot.png)](m365d-pilot.md)<br/>[Terug naar pilot playbook](m365d-pilot.md) |
 |--|--|--|--|
 ||*U bent er!*  | | |
 
 
-U bent momenteel in de set-upfase. Neem de eerste stappen om toegang te krijgen tot het Microsoft 365-beveiligingscentrum en stel vervolgens uw proeflaboratorium of testomgeving in.
+U bent momenteel in de set-upfase. Neem de eerste stappen om toegang te Microsoft 365 beveiligingscentrum en stel vervolgens uw proeflaboratorium of testomgeving in.
 
-Meld u aan voor een Office 365- of Azure Active *Directory-abonnement* om een .onmicrosoft.com-tenant te genereren die u kunt gebruiken om u aan te melden voor uw Microsoft 365 E5-licentie. 
+Meld u aan voor een Office 365- of Azure Active Directory-abonnement om een *.onmicrosoft.com-tenant* te genereren die u kunt gebruiken om u aan te melden voor uw Microsoft 365 E5 licentie. 
 
 >[!NOTE]
->Als u al een bestaand Office 365- of Azure Active Directory-abonnement hebt, kunt u de proefversie of proefversie van Office 365 E5 overslaan.
+>Als u al een bestaand abonnement Office 365 of Azure Active Directory hebt, kunt u de stappen voor het maken van E5-proefversies Office 365 pilot tenant overslaan.
 
 In deze fase wordt u begeleid naar:
-- Een proefversie van Office 365 E5 maken
-- Proefabonnement op Microsoft 365 inschakelen
+- Een E5 Office 365 E5-proef tenant maken
+- Proefabonnement Microsoft 365 inschakelen
 
 
-## <a name="create-an-office-365-e5-trial-tenant"></a>Een proefversie van Office 365 E5 maken
+## <a name="create-an-office-365-e5-trial-tenant"></a>Een E5 Office 365 E5-proef tenant maken
 >[!NOTE]
->Als u al een bestaand Office 365- of Azure Active Directory-abonnement hebt, kunt u de stappen voor het maken van proefversies van Office 365 E5 overslaan.
+>Als u al een bestaand Office 365 of Azure Active Directory hebt, kunt u de stappen Office 365 E5-proefversie van tenants overslaan.
 
 1. Ga naar de [Office 365 E5-productportal](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e5-business-software?activetab=pivot%3aoverviewtab) en selecteer **Gratis proefabonnement.**
 
@@ -71,7 +71,7 @@ In deze fase wordt u begeleid naar:
    ![Afbeelding of_Office 365 E5-proefregistratiepagina waarin wordt gevraagd om naam, telefoon en bedrijfsgegevens](../../media/mtp-eval-11.png)
    
    > [!NOTE]
-   > Het land of de regio die u hier hebt ingesteld, bepaalt de datacenterregio waar uw Office 365 wordt gehost.
+   > Het land of de regio die u hier hebt ingesteld, bepaalt de datacenterregio waar Office 365 wordt gehost.
   
 4. Kies uw verificatievoorkeur: via een sms-bericht of oproep. Klik **op Verificatiecode verzenden.** 
 
@@ -85,11 +85,11 @@ In deze fase wordt u begeleid naar:
 
    ![Afbeelding of_Office 365 E5-proefregistratiepagina waar u uw bedrijfsidentiteit kunt instellen](../../media/mtp-eval-14.png)
 
-7. Klik **op Ga naar Setup om** de inrichting van de proefversie van Office 365 E5 te voltooien.
+7. Klik **op Ga naar Setup om** de Office 365 E5-proefversie van tenants te voltooien.
 
-   ![Afbeelding van de installatiepagina voor proefregistratie van Office 365 E5 met de vraag of u op de knop Installatie starten wilt klikken](../../media/mtp-eval-15.png)
+   ![Afbeelding van Office 365 E5-proefregistratiepagina met de vraag of u op de knop Installatie starten wilt klikken](../../media/mtp-eval-15.png)
 
-8. Verbind uw bedrijfsdomein met de Office 365-tenant. [Optioneel] Kies **Verbinding maken met een domein dat u al hebt** en typ uw domeinnaam. Klik op **Volgende**.
+8. Verbinding maken uw bedrijfsdomein aan de Office 365 tenant. [Optioneel] Kies **Verbinding maken domein dat u al hebt en** typ uw domeinnaam. Klik op **Volgende**.
 
    ![Afbeelding of_Office 365 E5 Setup-pagina waar u uw aanmelding en e-mail moet personaliseren](../../media/mtp-eval-16.png)
  
@@ -101,9 +101,9 @@ In deze fase wordt u begeleid naar:
 
     ![Afbeelding of_Office 365 E5-installatiepagina waar u meer gebruikers kunt toevoegen](../../media/mtp-eval-18.png)
  
-11. [Optioneel] Office-apps downloaden. Klik **op Volgende** om deze stap over te slaan. 
+11. [Optioneel] Download Office apps. Klik **op Volgende** om deze stap over te slaan. 
 
-    ![Afbeelding of_Office 365 E5-pagina waar u uw Office-apps kunt installeren](../../media/mtp-eval-19.png)
+    ![Afbeelding of_Office 365 E5-pagina waar u uw apps Office installeren](../../media/mtp-eval-19.png)
 
 12. [Optioneel] E-mailberichten migreren. Nogmaals, u kunt deze stap overslaan.
 
@@ -117,18 +117,18 @@ In deze fase wordt u begeleid naar:
 
     ![Afbeelding of_Office 365 E5 hier kunt u uw DNS-records toevoegen](../../media/mtp-eval-22.png)
  
-15. Gefeliciteerd, u hebt de inrichting van uw Office 365-tenant voltooid.
+15. Gefeliciteerd, u hebt de inrichting van uw Office 365 voltooid.
 
     ![Bevestigingspagina of_Office installatie van 365 E5](../../media/mtp-eval-23.png)
 
-## <a name="enable-microsoft-365-trial-subscription"></a>Proefabonnement op Microsoft 365 inschakelen
+## <a name="enable-microsoft-365-trial-subscription"></a>Proefabonnement Microsoft 365 inschakelen
 
 >[!NOTE]
 >Als u zich aanmeldt voor een proefabonnement, krijgt u 25 gebruikerslicenties voor een maand. Zie [Een M365-abonnement](../../commerce/try-or-buy-microsoft-365.md) proberen of kopen voor meer informatie.
 
-1. Klik [in het Microsoft 365-beheercentrum](https://admin.microsoft.com/)op **Facturering** en ga naar **Services aanschaffen.**
+1. Klik [Microsoft 365 beheercentrum](https://admin.microsoft.com/)op **Facturering** en navigeer vervolgens naar **Services aanschaffen.**
 
-2. Selecteer **Microsoft 365 E5 en** klik op Gratis **proefabonnement starten.** 
+2. Selecteer **Microsoft 365 E5** en klik op **Gratis proefabonnement starten.** 
 
    ![Afbeelding of_Microsoft 365 E5 Gratis proefversiepagina starten](../../media/mtp-eval-24.png)
 
@@ -140,13 +140,13 @@ In deze fase wordt u begeleid naar:
 
    ![Afbeelding of_Microsoft 365 E5 Start gratis proefversiepagina waar u verificatiecode kunt invullen die het systeem heeft verzonden om te bewijzen dat u geen robot bent](../../media/mtp-eval-26.png)
 
-5. Klik **op Nu proberen** om uw proefversie van Microsoft 365 E5 te bevestigen.
+5. Klik **op Nu proberen** om uw proefabonnement Microsoft 365 E5 bevestigen.
 
    ![Afbeelding of_Microsoft 365 E5 Start gratis proefversiepagina waar u de knop Nu proberen moet kloken om te beginnen](../../media/mtp-eval-27.png)
  
-6. Ga naar het **Microsoft 365-beheercentrum**  >  **Gebruikers Actieve**  >  **gebruikers**. Selecteer uw gebruikersaccount, selecteer **Productlicenties beheren** en verwissel de licentie van Office 365 E5 naar **Microsoft 365 E5.** Klik op **Opslaan**.
+6. Ga naar het **Microsoft 365 gebruikers van het**  >  **beheercentrum**  >  **Actieve gebruikers**. Selecteer uw gebruikersaccount, selecteer **Productlicenties beheren** en verwissel de licentie van Office 365 E5 naar **Microsoft 365 E5.** Klik op **Opslaan**.
 
-   ![Afbeelding of_Microsoft pagina 365-beheercentrum waar u Microsoft 365 E5-licentie kunt selecteren](../../media/mtp-eval-28.png)
+   ![Afbeelding of_Microsoft pagina 365-beheercentrum waar u een licentie Microsoft 365 E5 selecteren](../../media/mtp-eval-28.png)
  
 7. Selecteer nogmaals het globale beheerdersaccount en klik **op Gebruikersnaam beheren.**
 
@@ -159,5 +159,5 @@ In deze fase wordt u begeleid naar:
 
 
 ## <a name="next-step"></a>Volgende stap
-|[Fase 3: Configureren & Onboard](config-m365d-eval.md) | Configureer elke Microsoft 365 Defender-pijler voor uw proeflaboratorium of testomgeving van Microsoft 365 Defender en gebruik uw eindpunten.
+|[Fase 3: Configureren & Onboard](config-m365d-eval.md) | Configureer elke Microsoft 365 Defender-pijler voor uw Microsoft 365 defender-proeflaboratorium of testomgeving en aan boord van uw eindpunten.
 |:-------|:-----|

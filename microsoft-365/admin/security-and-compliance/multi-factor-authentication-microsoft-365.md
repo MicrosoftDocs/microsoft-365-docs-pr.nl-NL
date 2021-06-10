@@ -176,5 +176,5 @@ In het Microsoft 365-beheercentrum kunt u MFA-instellingen per gebruiker en serv
 
 ## <a name="related-content"></a>Verwante onderwerpen
 
-[Meervoudige verificatie](../../business-video/turn-on-mfa.md) (video)\ inschakelen
+[Video: Meervoudige verificatie inschakelen](../../business-video/turn-on-mfa.md) (video)\
 [Video: Meervoudige verificatie inschakelen voor uw telefoon](../../business-video/set-up-mfa.md) (video)

@@ -105,7 +105,7 @@ voor deze toepassing, tenzij deze items vergezeld gaan van andere voorwaarden. A
 
     2.  De betreffende provider van het toepassingsopslagbedrijf en haar dochterondernemingen zijn begunstigden van deze Voorwaarden van derden en na uw acceptatie van deze Voorwaarden hebben de provider(s) van het toepassingsopslagbedrijf het recht om deze voorwaarden rechtstreeks af te dwingen en erop te vertrouwen dat deze voorwaarden hen een voordeel of rechten verlenen.
 
-9.  **MERKINMERKINGEN.** Microsoft, Microsoft Defender voor Eindpunt en Microsoft 365 zijn geregistreerde of algemeenrechtse handelsmerken van Microsoft Corporation in de Verenigde Staten en/of andere landen.
+9.  **MERKINMERKINGEN.** Microsoft, Microsoft Defender voor Eindpunt en Microsoft 365 zijn geregistreerde of algemene handelsmerken van Microsoft Corporation in de Verenigde Staten en/of andere landen.
 
 10. **ENTIRE AGREEMENT.** Deze overeenkomst en de voorwaarden voor aanvullingen, updates, internetservices en ondersteuningsservices die u gebruikt, zijn de volledige overeenkomst voor de toepassings- en ondersteuningsservices.
 

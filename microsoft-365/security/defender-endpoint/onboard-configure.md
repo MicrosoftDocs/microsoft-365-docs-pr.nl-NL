@@ -1,6 +1,6 @@
 ---
 title: Onboard devices to the Microsoft Defender for Endpoint service
-description: Onboard Windows 10-apparaten, servers, niet-Windows-apparaten en leer hoe u een detectietest kunt uitvoeren.
+description: Onboard Windows 10 apparaten, servers, niet-Windows apparaten en leer hoe u een detectietest kunt uitvoeren.
 keywords: onboarding, Microsoft Defender for Endpoint onboarding, sccm, group policy, mdm, local script, detection test
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -52,7 +52,7 @@ In de volgende tabel ziet u de beschikbare hulpprogramma's op basis van het eind
 | Eindpunt     | Opties voor hulpprogramma's                       |
 |--------------|------------------------------------------|
 | **Windows**  |  [Lokaal script (maximaal 10 apparaten)](configure-endpoints-script.md) <br>  [Groepsbeleid](configure-endpoints-gp.md) <br>  [Microsoft Endpoint Manager/ Mobile Device Manager](configure-endpoints-mdm.md) <br>   [Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md) <br> [VDI-scripts](configure-endpoints-vdi.md)   |
-| **macOS**    | [Lokale scripts](mac-install-manually.md) <br> [Microsoft Endpoint Manager](mac-install-with-intune.md) <br> [JAMF Pro](mac-install-with-jamf.md) <br> [Mobile Device Management](mac-install-with-other-mdm.md) |
+| **macOS**    | [Lokale scripts](mac-install-manually.md) <br> [Microsoft Endpoint Manager](mac-install-with-intune.md) <br> [JAMF-Pro](mac-install-with-jamf.md) <br> [Mobile Device Management](mac-install-with-other-mdm.md) |
 | **Linux Server** | [Lokaal script](linux-install-manually.md) <br> [Poppop](linux-install-with-puppet.md) <br> [Ansible](linux-install-with-ansible.md)|
 | **iOS**      | [App-gebaseerde](ios-install.md)                                |
 | **Android**  | [Microsoft Endpoint Manager](android-intune.md)               | 
@@ -66,7 +66,7 @@ Onderwerp | Beschrijving
 [Onboarden eerdere versies van Windows](onboard-downlevel.md)| Onboard Windows 7 en Windows 8.1-apparaten naar Defender voor Eindpunt. 
 [Onboarden Windows 10-apparaten](configure-endpoints.md) | U moet apparaten aan boord hebben om deze te kunnen rapporteren bij de Service Defender voor eindpunt. Meer informatie over de hulpprogramma's en methoden die u kunt gebruiken om apparaten in uw bedrijf te configureren.
 [Onboard-servers](configure-server-endpoints.md) |  Onboard Windows Server 2008 R2 SP1, Windows Server 2012 R2, Windows Server 2016, Windows Server (SAC) versie 1803 en hoger, Windows Server 2019 en hoger en Windows Server 2019 core edition naar Defender voor Eindpunt.
-[Onboarden niet-Windows-apparaten](configure-endpoints-non-windows.md) | Defender voor Eindpunt biedt een gecentraliseerde beveiligingsbewerkingservaring voor Windows en niet-Windows-platforms. U kunt waarschuwingen van verschillende ondersteunde besturingssystemen (OS) zien in het Microsoft Defender-beveiligingscentrum en het netwerk van uw organisatie beter beveiligen. Deze ervaring maakt gebruik van de sensorgegevens van een beveiligingsproducten van derden. 
+[Niet-Windows-apparaten onboarden](configure-endpoints-non-windows.md) | Defender voor Eindpunt biedt een gecentraliseerde beveiligingsbewerkingservaring voor Windows en niet-Windows platforms. U kunt waarschuwingen van verschillende ondersteunde besturingssystemen (OS) zien in Microsoft Defender-beveiligingscentrum en het netwerk van uw organisatie beter beveiligen. Deze ervaring maakt gebruik van de sensorgegevens van een beveiligingsproducten van derden. 
 [Een detectietest uitvoeren op een nieuw geonboard apparaat](run-detection-test.md) | Voer een script uit op een nieuw onboarded apparaat om te controleren of het correct rapporteert aan de Defender for Endpoint-service.
 [Proxy- en internetinstellingen configureren](configure-proxy-internet.md)| Schakel communicatie met de Defender voor Endpoint-cloudservice in door de proxy- en internetverbindingsinstellingen te configureren.
 [Problemen met onboarden oplossen](troubleshoot-onboarding.md) | Meer informatie over het oplossen van problemen die zich kunnen voordoen tijdens onboarding.

@@ -37,14 +37,14 @@ ms.locfileid: "51935495"
 
 
 
-De tabel in het geavanceerde schema bevat informatie over bijlagen in e-mailberichten die zijn verwerkt door `EmailAttachmentInfo` Microsoft Defender voor Office 365. [](advanced-hunting-overview.md) Gebruik deze verwijzing om query's te maken die gegevens uit deze tabel retourneren.
+De tabel in het geavanceerde schema bevat informatie over bijlagen in e-mailberichten die door Microsoft Defender zijn verwerkt voor `EmailAttachmentInfo` Office 365. [](advanced-hunting-overview.md) Gebruik deze verwijzing om query's te maken die gegevens uit deze tabel retourneren.
 
 Zie de geavanceerde zoekverwijzing voor meer informatie over andere tabellen in het geavanceerde schema voor [de jacht.](advanced-hunting-schema-tables.md)
 
 | Kolomnaam | Gegevenstype | Beschrijving |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | Datum en tijd waarop de gebeurtenis is opgenomen |
-| `NetworkMessageId` | tekenreeks | Unieke id voor het e-mailbericht, gegenereerd door Microsoft 365 |
+| `NetworkMessageId` | tekenreeks | Unieke id voor de e-mail, gegenereerd door Microsoft 365 |
 | `SenderFromAddress` | tekenreeks | E-mailadres van afzender in de FROM-koptekst, die zichtbaar is voor e-mailontvangers op hun e-mail clients |
 | `SenderDisplayName` | tekenreeks | Naam van de afzender die wordt weergegeven in het adresboek, meestal een combinatie van een gegeven of voornaam, een middelste initiale en een achternaam of achternaam |
 | `SenderObjectId` | tekenreeks | Unieke id voor het account van de afzender in Azure AD |

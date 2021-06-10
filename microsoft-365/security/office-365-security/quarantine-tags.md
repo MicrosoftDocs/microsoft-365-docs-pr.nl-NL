@@ -29,7 +29,7 @@ ms.locfileid: "52274458"
 > [!NOTE]
 > De functies die in dit artikel worden beschreven, zijn momenteel beschikbaar in Preview, zijn niet voor iedereen beschikbaar en kunnen worden gewijzigd.
 
-Met quarantainelabels in Exchange Online Protection (EOP) kunnen beheerders bepalen wat gebruikers kunnen doen met hun in quarantaine geplaatste berichten op basis van de manier waarop het bericht in quarantaine is geplaatst.
+Met quarantainelabels in Exchange Online Protection (EOP) kunnen beheerders bepalen wat gebruikers kunnen doen met hun in quarantaine geplaatste berichten op basis van hoe het bericht in quarantaine is geplaatst.
 
 EOP heeft vanouds bepaalde interactiviteitsniveaus toegestaan of voorkomen voor berichten in [quarantaine](find-and-release-quarantined-messages-as-a-user.md) en in [spammeldingen van eindgebruikers.](use-spam-notifications-to-release-and-report-quarantined-messages.md) Eindgebruikers kunnen bijvoorbeeld berichten bekijken en vrijgeven die in quarantaine zijn geplaatst door antispamfilters als spam of bulksgewijs, maar ze kunnen berichten die in quarantaine zijn geplaatst, niet weergeven of vrijgeven als phishing met veel vertrouwen.
 
@@ -59,7 +59,7 @@ De beschikbare afzonderlijke machtigingen en wat al dan niet is opgenomen in de 
 
 Als de standaardmachtigingen in de vooraf ingestelde machtigingsgroepen u niet be staan, kunt u aangepaste machtigingen gebruiken wanneer u aangepaste quarantainelabels maakt of wijzigt. Zie de sectie Machtigingsgegevens voor [](#quarantine-tag-permission-details) quarantainelabels verder in dit artikel voor meer informatie over wat elke machtiging doet.
 
-U maakt en wijst quarantainelabels toe in het Beveiligings- & Compliancecentrum of in PowerShell (Exchange Online PowerShell voor Microsoft 365-organisaties met Exchange Online-postvakken; zelfstandige EOP PowerShell in EOP-organisaties zonder Exchange Online-postvakken).
+U maakt en wijst quarantainelabels toe in het Beveiligings- & Compliancecentrum of in PowerShell (Exchange Online PowerShell voor Microsoft 365-organisaties met Exchange Online Postvakken; zelfstandige EOP PowerShell in EOP-organisaties zonder Exchange Online-postvakken).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
@@ -75,7 +75,7 @@ U maakt en wijst quarantainelabels toe in het Beveiligings- & Compliancecentrum 
 
 2. Selecteer op **de pagina Quarantainelabels** **de optie Aangepaste tag toevoegen.**
 
-3. De **wizard Nieuwe tag** wordt geopend. Voer op **de pagina Tagnaam** een korte, maar unieke naam in het veld **Naam van** tag in. U moet de tag identificeren en selecteren op naam in de komende stappen. Wanneer u klaar bent, klikt u op **Volgende.**
+3. De **wizard Nieuwe tag** wordt geopend. Voer op **de pagina Tagnaam** een korte, maar unieke naam in het veld **Naam van** tag in. U moet de tag identificeren en selecteren op naam in de komende stappen. Wanneer u gereed bent, klikt u op **Volgende**.
 
 4. Selecteer op **de pagina Berichttoegang** van geadresseerde een van de volgende waarden:
    - **Geen toegang**
@@ -99,7 +99,7 @@ U maakt en wijst quarantainelabels toe in het Beveiligings- & Compliancecentrum 
 
    Deze machtigingen en het effect ervan op in quarantaine geplaatste [](#quarantine-tag-permission-details) berichten en in spammeldingen van eindgebruikers worden beschreven in de sectie Machtigingsgegevens van quarantainelabels verder in dit artikel.
 
-   Wanneer u klaar bent, klikt u op **Volgende.**
+   Wanneer u gereed bent, klikt u op **Volgende**.
 
 5. Controleer de **instellingen** op de pagina Overzicht die wordt weergegeven. U kunt op **Bewerken op elke** instelling klikken om deze te wijzigen.
 
@@ -111,7 +111,7 @@ U bent nu klaar om de quarantainetag toe te wijzen aan een quarantainefunctie, z
 
 ### <a name="create-quarantine-tags-in-powershell"></a>Quarantainelabels maken in PowerShell
 
-Als u Liever PowerShell gebruikt om quarantainelabels te maken, maakt u verbinding met Exchange Online PowerShell of Exchange Online Protection PowerShell en gebruikt u de **cmdlet New-QuarantineTag.** U kunt kiezen uit twee verschillende methoden:
+Als u Liever PowerShell gebruikt om quarantainelabels te maken, maakt u verbinding met Exchange Online PowerShell of Exchange Online Protection PowerShell en gebruikt u de cmdlet **New-QuarantineTag.** U kunt kiezen uit twee verschillende methoden:
 
 - Gebruik de _parameter EndUserQuarantinePermissionsValue._
 - Gebruik de _parameter EndUserQuarantinePermissions._
@@ -245,7 +245,7 @@ In _ondersteunde_ beveiligingsfuncties die berichten of bestanden in quarantaine
 |[Regels voor e-mailstroom](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) (ook wel transportregels genoemd) met de actie: Het bericht verzenden **naar de gehoste quarantaine** _(Quarantaine)._|Nee|n/a|
 |
 
-<sup>\*</sup> Instellingen voor imitatiebeveiliging zijn alleen beschikbaar in anti-phishingbeleid in Microsoft Defender voor Office 365.
+<sup>\*</sup>Instellingen voor imitatiebeveiliging zijn alleen beschikbaar in anti-phishingbeleid in Microsoft Defender voor Office 365.
 
 Als u tevreden bent met de machtigingen voor eindgebruikers die worden geleverd door de standaard quarantainelabels, hoeft u niets te doen. Als u de mogelijkheden van eindgebruikers (beschikbare knoppen) wilt aanpassen in spammeldingen van eindgebruikers of in in quarantaine geplaatste berichtgegevens, kunt u een aangepaste quarantainetag toewijzen.
 
@@ -269,7 +269,7 @@ Volledige instructies voor het maken en wijzigen van antispambeleid worden besch
 
 #### <a name="assign-quarantine-tags-in-anti-spam-policies-in-powershell"></a>Quarantainelabels toewijzen in antispambeleid in PowerShell
 
-Als u Liever PowerShell gebruikt om quarantainelabels toe te wijzen in antispambeleid, maakt u verbinding met Exchange Online PowerShell of Exchange Online Protection PowerShell en gebruikt u de volgende syntaxis:
+Als u Liever PowerShell gebruikt om quarantainelabels toe te wijzen in antispambeleid, maakt u verbinding met Exchange Online PowerShell Exchange Online Protection PowerShell en gebruikt u de volgende syntaxis:
 
 ```powershell
 <New-HostedContentFilterPolicy -Name "<Unique name>" | Set-HostedContentFilterPolicy -Identity "<Policy name>">  [-SpamAction Quarantine] [-SpamQuarantineTag <QuarantineTagName>] [-HighConfidenceSpamAction Quarantine] [-HighConfidenceSpamQuarantineTag <QuarantineTagName>] [-PhishSpamAction Quarantine] [-PhishQuarantineTag <QuarantineTagName>] [-HighConfidencePhishQuarantineTag <QuarantineTagName>] [-BulkSpamAction Quarantine] [-BulkQuarantineTag <QuarantineTagName>] ...
@@ -320,7 +320,7 @@ Met de algemene instellingen voor quarantainelabels kunt u de spammeldingen van 
 
 3. Configureer **enkele** of alle volgende instellingen in het flyout Quarantainemeldingsinstellingen dat wordt geopend:
 
-   - **Mijn bedrijfslogo gebruiken:** Selecteer deze optie om het standaard Microsoft-logo te vervangen dat boven aan spammeldingen van eindgebruikers wordt gebruikt. Voordat u dit doet, moet u de instructies volgen in [Het Microsoft 365-thema](../../admin/setup/customize-your-organization-theme.md) aanpassen voor uw organisatie om uw aangepaste logo te uploaden.
+   - **Mijn bedrijfslogo gebruiken:** Selecteer deze optie om het standaard Microsoft-logo te vervangen dat boven aan spammeldingen van eindgebruikers wordt gebruikt. Voordat u dit doet, moet u de instructies volgen in Het thema [Microsoft 365](../../admin/setup/customize-your-organization-theme.md) uw organisatie aanpassen om uw aangepaste logo te uploaden.
 
      In de volgende schermafbeelding ziet u een aangepast logo in een spammelding voor eindgebruikers:
 

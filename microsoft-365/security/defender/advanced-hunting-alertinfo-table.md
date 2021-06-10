@@ -1,7 +1,7 @@
 ---
 title: Tabel AlertInfo in het geavanceerde schema voor de jacht
 description: Meer informatie over gebeurtenissen bij het genereren van waarschuwingen in de tabel AlertInfo van het geavanceerde schema voor de jacht
-keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, microsoft 365, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, AlertInfo, alert, ernst, category, MITRE, ATT&CK, Microsoft Defender for Endpoint, Microsoft Defender for Office 365, Microsoft Cloud App Security, MCAS en Microsoft Defender for Identity
+keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, microsoft 365, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, AlertInfo, alert, ernst, category, MITRE, ATT&CK, Microsoft Defender for Endpoint, Microsoft Defender for Office 365, Microsoft Cloud App Security, MCAS, and Microsoft Defender for Identity
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -37,7 +37,7 @@ ms.locfileid: "51933695"
 
 
 
-De tabel in het geavanceerde schema bevat informatie over waarschuwingen van Microsoft Defender voor Eindpunt, Microsoft Defender voor `AlertInfo` Office 365, Microsoft Cloud App Security en Microsoft Defender voor identiteit. [](advanced-hunting-overview.md) Gebruik deze verwijzing om query's te maken die gegevens uit deze tabel retourneren.
+De tabel in het geavanceerde schema bevat informatie over waarschuwingen van Microsoft Defender voor `AlertInfo` Eindpunt, Microsoft Defender voor Office 365, [](advanced-hunting-overview.md) Microsoft Cloud App Security en Microsoft Defender voor identiteit. Gebruik deze verwijzing om query's te maken die gegevens uit deze tabel retourneren.
 
 Zie de geavanceerde zoekverwijzing voor meer informatie over andere tabellen in het geavanceerde schema voor [de jacht.](advanced-hunting-schema-tables.md)
 

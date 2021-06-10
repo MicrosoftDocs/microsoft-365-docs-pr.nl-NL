@@ -51,7 +51,7 @@ De e-mailmelding bevat basisinformatie over de waarschuwing en een koppeling naa
 U kunt regels maken om de ernst van de apparaten en waarschuwingen te bepalen voor het verzenden van e-mailmeldingen voor en de geadresseerden van de melding.
 
 
-1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **E-mailmeldingen**.
+1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **e-mailmeldingen.**
 
 2. Klik **op Item toevoegen.**
 

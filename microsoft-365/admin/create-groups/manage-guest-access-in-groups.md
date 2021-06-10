@@ -61,7 +61,7 @@ Als de gast al aanwezig is in uw adreslijst, kunt u deze toevoegen aan uw groepe
   
 4. Selecteer **Leden toevoegen** en kies de naam van de gast die u wilt toevoegen.
     
-5. Selecteer **Opslaan**.
+5. Klik op **Opslaan**.
 
 Als u een gast rechtstreeks aan de adreslijst wilt toevoegen, kunt u Azure Active Directory [B2B-samenwerkingsgebruikers toevoegen in de Azure-portal.](/azure/active-directory/b2b/add-users-administrator)
 

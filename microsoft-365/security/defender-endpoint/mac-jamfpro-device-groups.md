@@ -25,7 +25,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51933803"
 ---
-# <a name="set-up-microsoft-defender-for-endpoint-on-macos-device-groups-in-jamf-pro"></a>Microsoft Defender voor eindpunt instellen voor macOS-apparaatgroepen in Jamf Pro
+# <a name="set-up-microsoft-defender-for-endpoint-on-macos-device-groups-in-jamf-pro"></a>Microsoft Defender voor Eindpunt instellen voor macOS-apparaatgroepen in Jamf Pro
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -35,7 +35,7 @@ ms.locfileid: "51933803"
 
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
-Stel de apparaatgroepen in die lijken op Group policy organizational unite (OUs), de apparaatverzameling van Microsoft Endpoint Configuration Manager en de apparaatgroepen van Intune.
+Stel de apparaatgroepen in die lijken op OUs (Group policy organizational unite), Microsoft Endpoint Configuration Manager de apparaatverzameling van Microsoft Endpoint Configuration Manager en de apparaatgroepen van Intune.
 
 1. **Navigeer naar statische computergroepen.**
 
@@ -52,4 +52,4 @@ Stel de apparaatgroepen in die lijken op Group policy organizational unite (OUs)
     ![Afbeelding van Jamf Pro3](images/contoso-machine-group.png)
 
 ## <a name="next-step"></a>Volgende stap
-- [Microsoft Defender voor eindpunt instellen voor macOS-beleid in Jamf Pro](mac-jamfpro-policies.md)
+- [Microsoft Defender voor Eindpunt instellen voor macOS-beleid in Jamf Pro](mac-jamfpro-policies.md)

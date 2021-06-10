@@ -1,6 +1,6 @@
 ---
-title: Microsoft Defender voor eindpunt op macOS-apparaten registreren bij Jamf Pro
-description: Microsoft Defender voor eindpunt op macOS-apparaten registreren bij Jamf Pro
+title: Microsoft Defender voor Eindpunt registreren op macOS-apparaten in Jamf Pro
+description: Microsoft Defender voor Eindpunt registreren op macOS-apparaten in Jamf Pro
 keywords: microsoft, defender, Microsoft Defender for Endpoint, mac, installation, deploy, uninstallation, intune, jamfpro, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -25,7 +25,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51933095"
 ---
-# <a name="enroll-microsoft-defender-for-endpoint-on-macos-devices-into-jamf-pro"></a>Microsoft Defender voor eindpunt op macOS-apparaten registreren bij Jamf Pro 
+# <a name="enroll-microsoft-defender-for-endpoint-on-macos-devices-into-jamf-pro"></a>Microsoft Defender voor Eindpunt registreren op macOS-apparaten in Jamf Pro 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -50,7 +50,7 @@ Zie Over [computerinschrijving](https://docs.jamf.com/9.9/casper-suite/administr
 
 ## <a name="enrollment-method-1-enrollment-invitations"></a>Inschrijvingsmethode 1: Uitnodigingen voor inschrijving
 
-1. Navigeer in het dashboard Van Jamf Pro naar **Uitnodigingen voor inschrijving.**
+1. Navigeer in het Pro Jamf naar **Uitnodigingen voor inschrijving.**
 
     ![Afbeelding van configuratie-instellingen1](images/a347307458d6a9bbfa88df7dbe15398f.png)
 
@@ -80,7 +80,7 @@ Zie Over [computerinschrijving](https://docs.jamf.com/9.9/casper-suite/administr
 
 ## <a name="enrollment-method-2-prestage-enrollments"></a>Inschrijvingsmethode 2: Inschrijving vooraf
 
-1. Navigeer in het Dashboard van Jamf Pro naar **Inschrijvingen vooraf.**
+1. Navigeer in het Pro Jamf naar **Inschrijvingen vooraf.**
 
     ![Afbeelding van configuratie-instellingen9](images/6fd0cb2bbb0e60a623829c91fd0826ab.png)
 
@@ -90,24 +90,24 @@ Zie Over [computerinschrijving](https://docs.jamf.com/9.9/casper-suite/administr
 
 1. Selecteer **Doorgaan** en installeer het CA-certificaat in een **venster Systeemvoorkeuren.**
 
-    ![Afbeelding van de registratie van Jamf Pro1](images/jamfpro-ca-certificate.png)
+    ![Afbeelding van Jamf Pro inschrijving1](images/jamfpro-ca-certificate.png)
 
 2. Nadat het CA-certificaat is geïnstalleerd, gaat u terug naar het browservenster en **selecteert u Doorgaan** en installeert u het MDM-profiel. 
 
-    ![Afbeelding van de registratie van Jamf Pro2](images/jamfpro-install-mdm-profile.png)
+    ![Afbeelding van jamf Pro inschrijving2](images/jamfpro-install-mdm-profile.png)
 
 3. Selecteer **Toestaan** om te downloaden van JAMF.
 
-    ![Afbeelding van de registratie van Jamf Pro3](images/jamfpro-download.png)
+    ![Afbeelding van Jamf Pro inschrijving3](images/jamfpro-download.png)
 
 4. Selecteer **Doorgaan om** door te gaan met de installatie van het MDM-profiel. 
 
-    ![Afbeelding van de registratie van Jamf Pro4](images/jamfpro-install-mdm.png)
+    ![Afbeelding van Jamf Pro inschrijving4](images/jamfpro-install-mdm.png)
 
 5. Selecteer **Doorgaan** om het MDM-profiel te installeren.
 
-    ![Afbeelding van de registratie van Jamf Pro5](images/jamfpro-mdm-unverified.png)
+    ![Afbeelding van Jamf Pro inschrijving5](images/jamfpro-mdm-unverified.png)
 
 6. Selecteer **Doorgaan**  om de configuratie te voltooien. 
 
-    ![Afbeelding van de registratie van Jamf Pro6](images/jamfpro-mdm-profile.png)
+    ![Afbeelding van Jamf Pro inschrijving6](images/jamfpro-mdm-profile.png)

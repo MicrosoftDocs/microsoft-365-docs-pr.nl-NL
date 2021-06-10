@@ -41,7 +41,7 @@ ms.locfileid: "52772075"
 
 ## <a name="methods"></a>Methoden
 
-Methode|Retourtype |Omschrijving
+Methode|Retourtype |Beschrijving
 :---|:---|:---
 [Lijst van computers](get-machines.md) | [machineverzameling](machine.md) | Lijstset [met machine-entiteiten](machine.md) in de organisatie.
 [Machine kopen](get-machine-by-id.md) | [computer](machine.md) | Een [computer op](machine.md) de identiteit van de computer krijgen.
@@ -58,7 +58,7 @@ Methode|Retourtype |Omschrijving
 
 ## <a name="properties"></a>Eigenschappen
 
-Eigenschap |   Type   |   Omschrijving
+Eigenschap |   Type   |   Beschrijving
 :---|:---|:---
 id | Tekenreeks | [](machine.md) computeridentiteit.
 computerDnsName | Tekenreeks | [computer](machine.md) volledig gekwalificeerde naam.

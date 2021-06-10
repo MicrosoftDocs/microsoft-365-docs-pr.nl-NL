@@ -1,5 +1,5 @@
 ---
-title: Gebruikerstoegang toewijzen aan microsoft Defender-beveiligingscentrum
+title: Gebruikerstoegang toewijzen aan Microsoft Defender-beveiligingscentrum
 description: Wijs alleen lees- en schrijf- of leestoegang toe aan de Microsoft Defender for Endpoint-portal.
 keywords: gebruikersrollen toewijzen, lees- en schrijftoegang toewijzen, alleen-lezentoegang toewijzen, gebruiker, gebruikersrollen, rollen
 search.product: eADQiWindows 10XVcnh
@@ -24,7 +24,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/24/2021
 ms.locfileid: "51164753"
 ---
-# <a name="assign-user-access-to-microsoft-defender-security-center"></a>Gebruikerstoegang toewijzen aan microsoft Defender-beveiligingscentrum
+# <a name="assign-user-access-to-microsoft-defender-security-center"></a>Gebruikerstoegang toewijzen aan Microsoft Defender-beveiligingscentrum
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -32,7 +32,7 @@ ms.locfileid: "51164753"
 **Van toepassing op:**
 - Microsoft Azure Active Directory
 - Office 365
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -52,5 +52,5 @@ Defender voor Eindpunt ondersteunt twee manieren om machtigingen te beheren:
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-- [Basismachtigingen gebruiken om toegang te krijgen tot de portal](basic-permissions.md)
+- [Basismachtigingen gebruiken voor toegang tot de portal](basic-permissions.md)
 - [Portaltoegang beheren met RBAC](rbac.md)

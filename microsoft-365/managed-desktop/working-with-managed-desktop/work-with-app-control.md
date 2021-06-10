@@ -19,14 +19,14 @@ ms.locfileid: "50917638"
 ---
 # <a name="work-with-app-control"></a>Werken met App-beheer
 
-Nadat app-beheer is geïmplementeerd in uw omgeving, hebben zowel u als Microsoft Managed Desktop Operations permanente verantwoordelijkheden. U kunt bijvoorbeeld een nieuwe app in de omgeving toevoegen of een vertrouwde ondertekenaar toevoegen (of verwijderen). Om de beveiliging te verbeteren, moeten alle apps code-ondertekend zijn voordat u ze aan gebruikers los laat. De uitgeverdetails van een app bevatten informatie over de ondertekenaar.
+Nadat app-beheer is geïmplementeerd in uw omgeving, hebben zowel u als Microsoft Managed Desktop Operations lopende verantwoordelijkheden. U kunt bijvoorbeeld een nieuwe app in de omgeving toevoegen of een vertrouwde ondertekenaar toevoegen (of verwijderen). Om de beveiliging te verbeteren, moeten alle apps code-ondertekend zijn voordat u ze aan gebruikers los laat. De uitgeverdetails van een app bevatten informatie over de ondertekenaar.
 
 
 ## <a name="add-a-new-app"></a>Een nieuwe app toevoegen
 
 Als u een nieuwe app wilt toevoegen, volgt u de volgende stappen:
 
-1. Voeg de app toe aan [Microsoft Intune](/mem/intune/apps/apps-win32-app-management).
+1. Voeg de app toe aan [Microsoft Intune.](/mem/intune/apps/apps-win32-app-management)
 2. Implementeer de app op elk apparaat in de testring. 
 3. Test uw app op basis van uw standaard bedrijfsprocessen. 
 4. Controleer Gebeurtenisviewer onder **Toepassings- en serviceslogboeken\Microsoft\Windows\AppLocker**, op zoek naar **8003** of **8006 gebeurtenissen.** Deze gebeurtenissen geven aan dat de app wordt geblokkeerd. Zie [Gebeurtenisviewer gebruiken met AppLocker](/windows/security/threat-protection/windows-defender-application-control/applocker/using-event-viewer-with-applocker)voor meer informatie over alle gebeurtenissen in App Locker en hun betekenis.
@@ -42,7 +42,7 @@ Wanneer u een aanvraag voor een ondertekenaar opent, moet u eerst enkele belangr
     - Toepassingsversie 
     - Beschrijving 
     - Type wijzigen ("toevoegen" of "verwijderen")  
-    - Publisher-details (bijvoorbeeld: "O= <publisher name> ,L= <location> ,S=State,C=Country") 
+    - Publisher details (bijvoorbeeld: "O= <publisher name> ,L= <location> ,S=State,C=Country") 
 
 > [!NOTE]
 > Als u vertrouwen voor een app wilt verwijderen, volgt u dezelfde stappen, maar stelt u **Type wijzigen in** om deze te *verwijderen.*
@@ -67,7 +67,7 @@ U kunt de implementatie op elk moment tijdens de implementatie onderbreken of te
 
 Als u de publisher-gegevens voor een app wilt openen, gaat u als volgt te werk:
 
-1. Zoek een Microsoft Managed Desktop-apparaat in de testring waarin een auditmodusbeleid is toegepast. 
+1. Zoek een Microsoft Managed Desktop apparaat in de testring waarin een auditmodusbeleid is toegepast. 
 2. Probeer de app op het apparaat te installeren.
 3. Open Gebeurtenisviewer op dat apparaat. 
 4. Ga in Gebeurtenisviewer naar **Toepassings- en serviceslogboeken\Microsoft\Windows** en selecteer **Vervolgens AppLocker.** 
@@ -75,4 +75,4 @@ Als u de publisher-gegevens voor een app wilt openen, gaat u als volgt te werk:
     - Naam van toepassing 
     - Toepassingsversie 
     - Beschrijving 
-    - Publisher-details (bijvoorbeeld: "O= <publisher name> , L= <location> , S=State, C=Country")
+    - Publisher details (bijvoorbeeld: "O= <publisher name> , L= <location> , S=State, C=Country")

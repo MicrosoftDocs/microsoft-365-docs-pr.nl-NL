@@ -38,7 +38,7 @@ Als de opslagruimte voor uw SharePoint Online-siteverzamelingen begint vol te ra
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
-U moet een globale beheerder of SharePoint zijn om de taken in dit artikel uit te voeren. Raadpleeg [Over beheerdersrollen](../admin/add-users/about-admin-roles.md) voor meer informatie.
+U moet een globale beheerder of SharePoint zijn om de taken in dit artikel uit te voeren. Zie[Over beheerdersrollen](../admin/add-users/about-admin-roles.md) voor meer informatie.
 
 ## <a name="view-available-storage"></a>Beschikbare opslag weergeven
 
@@ -76,7 +76,7 @@ Als u al extra bestandsopslag  hebt gekocht via de Office 365 Extra Bestandsopsl
 3. Selecteer op de pagina productdetails in **de** sectie Invoegtoepassingen de optie **Invoegtoepassingen beheren.**
 4. Kies in **het deelvenster Invoegtoepassingen beheren** in de lijst **Invoegtoepassingen** de **optie Office 365 Extra Bestandsopslag.**
 5. Voer in **het** tekstvak Hoeveelheid het aantal GB's opslagruimte in dat u voor het abonnement wilt gebruiken.
-6. Selecteer **Opslaan**.
+6. Klik op **Opslaan**.
 
 ## <a name="is-my-plan-eligible-for-office-365-extra-file-storage"></a>Komt mijn abonnement in aanmerking voor Office 365 Extra Bestandsopslag?
 

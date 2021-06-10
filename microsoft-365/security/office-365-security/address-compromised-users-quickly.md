@@ -12,7 +12,7 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 ms.date: 02/25/2020
-description: Lees hoe u het proces voor het opsporen en aanpakken van gecompromitteerde gebruikersaccounts kunt versnellen met geautomatiseerde onderzoeks- en antwoordmogelijkheden in Microsoft Defender voor Office 365-abonnement 2.
+description: Lees hoe u het proces voor het opsporen en aanpakken van gecompromitteerde gebruikersaccounts kunt versnellen met geautomatiseerde onderzoeks- en antwoordmogelijkheden in Microsoft Defender voor Office 365 plan 2.
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: c500221a10c00cc3b8d9d99c102ce8ec54fa2a48
@@ -32,7 +32,7 @@ ms.locfileid: "51934691"
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 
-[Microsoft Defender voor Office 365 Plan 2](defender-for-office-365.md#microsoft-defender-for-office-365-plan-1-and-plan-2) bevat krachtige air-mogelijkheden [(Automated Investigation and Response).](office-365-air.md) Dergelijke mogelijkheden kunnen uw beveiligingsbewerkingsteam veel tijd en moeite besparen bij het omgaan met bedreigingen. Microsoft blijft de beveiligingsmogelijkheden verbeteren. Onlangs zijn de AIR-mogelijkheden uitgebreid met een gecompromitteerde playbook voor gebruikersbeveiliging (momenteel in preview). Lees dit artikel voor meer informatie over de gecompromitteerde playbook voor gebruikersbeveiliging. En zie het blogbericht Beperk de tijd om gebruikerscompromitteerdheden op te sporen en te beantwoorden en het bereik van inbreuken met Microsoft Defender voor [Office 365](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Speed-up-time-to-detect-and-respond-to-user-compromise-and-limit/ba-p/977053) te beperken voor meer informatie.
+[Microsoft Defender voor Office 365 Plan 2](defender-for-office-365.md#microsoft-defender-for-office-365-plan-1-and-plan-2) bevat krachtige air-mogelijkheden (Automated [Investigation and Response).](office-365-air.md) Dergelijke mogelijkheden kunnen uw beveiligingsbewerkingsteam veel tijd en moeite besparen bij het omgaan met bedreigingen. Microsoft blijft de beveiligingsmogelijkheden verbeteren. Onlangs zijn de AIR-mogelijkheden uitgebreid met een gecompromitteerde playbook voor gebruikersbeveiliging (momenteel in preview). Lees dit artikel voor meer informatie over de gecompromitteerde playbook voor gebruikersbeveiliging. En zie het blogbericht [Beperk](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Speed-up-time-to-detect-and-respond-to-user-compromise-and-limit/ba-p/977053) de tijd om gebruikerscompromitteerd gedrag op te sporen en te beantwoorden en het bereik van inbreuken met Microsoft Defender te beperken Office 365 voor meer informatie.
 
 ![Geautomatiseerd onderzoek voor een gecompromitteerde gebruiker](/microsoft-365/media/office365atp-compduserinvestigation.jpg)
 
@@ -46,7 +46,7 @@ Met de gecompromitteerde playbook voor gebruikersbeveiliging kan het beveiliging
 
 ## <a name="compromised-user-alerts"></a>Meldingen van gecompromitteerde gebruikers
 
-Wanneer een gebruikersaccount wordt gecompromitteerd, treden atypische of afwijkende gedragingen op. Phishing- en spamberichten kunnen bijvoorbeeld intern worden verzonden vanuit een vertrouwd gebruikersaccount. Defender voor Office 365 kan dergelijke afwijkingen in e-mailpatronen en samenwerkingsactiviteit in Office 365 detecteren. Wanneer dit gebeurt, worden waarschuwingen geactiveerd en wordt het risicobeperkingsproces gestart.
+Wanneer een gebruikersaccount wordt gecompromitteerd, treden atypische of afwijkende gedragingen op. Phishing- en spamberichten kunnen bijvoorbeeld intern worden verzonden vanuit een vertrouwd gebruikersaccount. Defender voor Office 365 dergelijke afwijkingen in e-mailpatronen en samenwerkingsactiviteit binnen de Office 365. Wanneer dit gebeurt, worden waarschuwingen geactiveerd en wordt het risicobeperkingsproces gestart.
 
 Hier ziet u bijvoorbeeld een waarschuwing die is geactiveerd vanwege verdachte e-mail verzenden:
 
@@ -107,4 +107,4 @@ Zie Details van een onderzoek weergeven voor [meer informatie.](air-view-investi
 
 - [Meer informatie over AIR in Microsoft Defender voor Eindpunt](/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
 
-- [Ga naar de Routekaart voor Microsoft 365 om te zien wat er binnenkort komt en uit te rollen](https://www.microsoft.com/microsoft-365/roadmap?filters=)
+- [Ga naar Microsoft 365 routekaart om te zien wat er binnenkort komt en uit te rollen](https://www.microsoft.com/microsoft-365/roadmap?filters=)

@@ -58,7 +58,7 @@ U configureert de volgende instellingen:
 
 Locatie | Instelling | Artikel
 ---|---|---|---
-KAARTEN | Lokale instelling overschrijven voor rapportage naar Microsoft MAPS configureren | [Beveiliging via de cloud inschakelen](enable-cloud-protection-microsoft-defender-antivirus.md)
+KAARTEN | Lokale instelling overschrijven voor rapportage naar Microsoft MAPS configureren | [Cloudbeveiliging inschakelen](enable-cloud-protection-microsoft-defender-antivirus.md)
 Quarantaine | Lokale instelling overschrijven configureren voor het verwijderen van items uit de map Quarantaine | [Herstel configureren voor scans](configure-remediation-microsoft-defender-antivirus.md)
 Realtime beveiliging | Lokale instelling overschrijven configureren voor het controleren van bestands- en programmaactiviteit op uw computer | [Beveiliging en Microsoft Defender Antivirus altijd ingeschakeld inschakelen en configureren](configure-real-time-protection-microsoft-defender-antivirus.md)
 Realtime beveiliging | Lokale instelling overschrijven configureren voor het controleren op activiteiten inkomende en uitgaande bestanden | [Beveiliging en Microsoft Defender Antivirus altijd ingeschakeld inschakelen en configureren](configure-real-time-protection-microsoft-defender-antivirus.md)

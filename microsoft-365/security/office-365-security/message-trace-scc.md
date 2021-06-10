@@ -30,15 +30,15 @@ ms.locfileid: "52274470"
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Berichten traceren in het Beveiligings- & compliancecentrum volgt e-mailberichten terwijl ze door uw Exchange Online-organisatie reizen. U kunt bepalen of een bericht is ontvangen, geweigerd, uitgesteld of bezorgd door de service. Ook wordt weergegeven welke acties zijn uitgevoerd op het bericht voordat het de uiteindelijke status heeft bereikt.
+Bericht traceren in het Beveiligings- & compliancecentrum volgt e-mailberichten terwijl ze door uw Exchange Online reizen. U kunt bepalen of een bericht is ontvangen, geweigerd, uitgesteld of bezorgd door de service. Ook wordt weergegeven welke acties zijn uitgevoerd op het bericht voordat het de uiteindelijke status heeft bereikt.
 
 U kunt de informatie uit bericht traceren gebruiken om gebruikersvragen efficiënt te beantwoorden over wat er met berichten is gebeurd, problemen met de e-mailstroom op te lossen en beleidswijzigingen te valideren.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U moet lid zijn van de rollengroepen **Organisatiebeheer,** **Compliancebeheer** of **Helpdesk** in **Exchange Online** om bericht traceren te kunnen gebruiken. Zie [Machtigingen in Exchange Online](/exchange/permissions-exo/permissions-exo) voor meer informatie.
+- U moet lid zijn van de rollengroepen **Organisatiebeheer,** **Compliancebeheer** of **Helpdesk** **in** Exchange Online om bericht traceren te gebruiken. Zie [Machtigingen in Exchange Online](/exchange/permissions-exo/permissions-exo) voor meer informatie.
 
-  **Opmerkingen:** Lidmaatschap van de bijbehorende Azure Active Directory-rol in het Microsoft  365-beheercentrum biedt gebruikers de vereiste machtigingen en machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
+  **Opmerkingen:** Lidmaatschap van de bijbehorende Azure Active Directory rol in het Microsoft 365-beheercentrum  geeft gebruikers de vereiste machtigingen en machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
 
 - Het maximum aantal berichten dat wordt weergegeven in de resultaten van een berichtspoor, is afhankelijk van het rapporttype dat u hebt geselecteerd (zie de sectie [Rapporttype](#choose-report-type) kiezen voor meer informatie). De [cmdlet Get-HistoricalSearch](/powershell/module/exchange/get-historicalsearch) in Exchange Online PowerShell of zelfstandige EOP PowerShell retourneert alle berichten in de resultaten.
 
@@ -52,7 +52,7 @@ Als u rechtstreeks naar de pagina **Bericht traceren wilt** gaan, opent u <https
 
 Vanaf hier kunt u een nieuwe standaard trace starten door op de **knop Een trace starten te** klikken. Hiermee wordt gezocht naar alle berichten voor alle afzenders en geadresseerden van de afgelopen twee dagen. U kunt ook een van de opgeslagen query's uit de beschikbare querycategorieën gebruiken en deze als uitgangspunt gebruiken voor uw eigen query's:
 
-- **Standaardquery's:** Ingebouwde query's die worden geleverd door Microsoft 365.
+- **Standaardquery's:** ingebouwde query's die worden geleverd door Microsoft 365.
 - **Aangepaste query's:** query's die zijn opgeslagen door beheerders in uw organisatie voor toekomstig gebruik.
 - **Automatisch opgeslagen query's:** de laatste tien laatst uitgevoerd query's. Met deze lijst kunt u eenvoudig gaan waar u gebleven was.
 
@@ -114,7 +114,7 @@ U kunt de standaardwaarde **Alles** geselecteerd laten of u kunt een van de volg
 
 Dit is de internetbericht-id (ook wel client-id genoemd) die wordt gevonden in het veld **Bericht-id:** koptekst in de berichtkoptekst. Gebruikers kunnen u deze waarde geven om specifieke berichten te onderzoeken.
 
-Deze waarde is constant voor de levensduur van het bericht. Voor berichten die zijn gemaakt in Microsoft 365 of Exchange, is de waarde in de notatie , inclusief `<GUID@ServerFQDN>` de hoekhaken ( \< \> ). Bijvoorbeeld `<d9683b4c-127b-413a-ae2e-fa7dfb32c69d@DM3NAM06BG401.Eop-nam06.prod.protection.outlook.com>`. In andere berichtensystemen kunnen verschillende syntaxis of waarden worden gebruikt. Deze waarde moet uniek zijn, maar niet alle e-mailsystemen voldoen strikt aan deze vereiste. Als het **bericht-id:** koptekstveld niet bestaat of leeg is voor binnenkomende berichten uit externe bronnen, wordt een willekeurige waarde toegewezen.
+Deze waarde is constant voor de levensduur van het bericht. Voor berichten die in Microsoft 365 of Exchange worden gemaakt, is de waarde in de notatie , inclusief de `<GUID@ServerFQDN>` hoekhaken ( \< \> ). Bijvoorbeeld `<d9683b4c-127b-413a-ae2e-fa7dfb32c69d@DM3NAM06BG401.Eop-nam06.prod.protection.outlook.com>`. In andere berichtensystemen kunnen verschillende syntaxis of waarden worden gebruikt. Deze waarde moet uniek zijn, maar niet alle e-mailsystemen voldoen strikt aan deze vereiste. Als het **bericht-id:** koptekstveld niet bestaat of leeg is voor binnenkomende berichten uit externe bronnen, wordt een willekeurige waarde toegewezen.
 
 Wanneer u **Bericht-id gebruikt om** de resultaten te filteren, moet u de volledige tekenreeks opnemen, inclusief eventuele hoekhaken.
 
@@ -204,13 +204,13 @@ De details van de berichtspoorgegevens bevatten de volgende aanvullende informat
   > [!NOTE]
   >
   > - Een onregelmatig bericht dat is bezorgd, genereert meerdere **gebeurtenisgegevens** in de berichtspoor.
-  > - Deze lijst is niet bedoeld om volledig te zijn. Zie Gebeurtenistypen in het logboek voor het bijhouden [van berichten voor beschrijvingen van meer gebeurtenissen.](/Exchange/mail-flow/transport-logs/message-tracking#event-types-in-the-message-tracking-log) Houd er rekening mee dat deze koppeling een Exchange Server-onderwerp (on-premises Exchange) is.
+  > - Deze lijst is niet bedoeld om volledig te zijn. Zie Gebeurtenistypen in het logboek voor het bijhouden [van berichten voor beschrijvingen van meer gebeurtenissen.](/Exchange/mail-flow/transport-logs/message-tracking#event-types-in-the-message-tracking-log) Houd er rekening mee dat deze koppeling een Exchange Server (on-premises Exchange) onderwerp is.
 
 - **Meer informatie:** Deze sectie bevat de volgende details:
   - **Bericht-id:** deze waarde wordt beschreven in de [sectie Bericht-id](#message-id) eerder in dit artikel. Bijvoorbeeld `<d9683b4c-127b-413a-ae2e-fa7dfb32c69d@DM3NAM06BG401.Eop-nam06.prod.protection.outlook.com>`.
   - **Berichtgrootte**
-  - **Van IP:** het IP-adres van de computer die het bericht heeft verzonden. Voor uitgaande berichten die vanuit Exchange Online worden verzonden, is deze waarde leeg.
-  - **Ip:** het IP-adres of de adressen waarop de service het bericht heeft geprobeerd te bezorgen. Als het bericht meerdere geadresseerden heeft, worden deze weergegeven. Voor binnenkomende berichten die naar Exchange Online worden verzonden, is deze waarde leeg.
+  - **Van IP:** het IP-adres van de computer die het bericht heeft verzonden. Voor uitgaande berichten die vanaf Exchange Online verzonden, is deze waarde leeg.
+  - **Ip:** het IP-adres of de adressen waarop de service het bericht heeft geprobeerd te bezorgen. Als het bericht meerdere geadresseerden heeft, worden deze weergegeven. Voor binnenkomende berichten die naar Exchange Online verzonden, is deze waarde leeg.
 
 ### <a name="enhanced-summary-reports"></a>Uitgebreide overzichtsrapporten
 
@@ -228,7 +228,7 @@ Beschikbare (voltooide) Uitgebreide overzichtsrapporten zijn beschikbaar in de s
 - **network_message_id:** een unieke bericht-id-waarde die blijft bestaan in alle exemplaren van het bericht die mogelijk worden gemaakt als gevolg van de uitbreiding van de distributiegroep. Een voorbeeldwaarde is `1341ac7b13fb42ab4d4408cf7f55890f` .
 - **original_client_ip**: Het IP-adres van de client van de afzender.
 - **directionaliteit:** geeft aan of het bericht binnenkomende (1) naar uw organisatie is verzonden of dat het uitgaande bericht (2) vanuit uw organisatie is verzonden.
-- **connector_id:** De naam van de bron- of doelconnector. Zie E-mailstroom configureren met [connectors in Office 365](/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)voor meer informatie over verbindingslijnen in Exchange Online.
+- **connector_id:** De naam van de bron- of doelconnector. Zie E-mailstroom configureren met behulp van verbindingslijnen in Office 365 voor meer informatie over [verbindingslijnen in Exchange Online](/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow).
 - **delivery_priority:** <sup>*</sup> Of het bericht is verzonden met **hoge,** **lage** of **normale** prioriteit.
 
 <sup>*</sup> Deze eigenschappen zijn alleen beschikbaar in uitgebreide overzichtsrapporten.
@@ -244,12 +244,12 @@ Beschikbare (voltooide) uitgebreide rapporten zijn beschikbaar in de sectie **Do
 - **source_context:** Extra informatie die is gekoppeld aan het **bronveld.** Bijvoorbeeld:
   - `Protocol Filter Agent`
   - `3489061114359050000`
-- **bron:** het Exchange Online-onderdeel dat verantwoordelijk is voor de gebeurtenis. Bijvoorbeeld:
+- **bron:** het Exchange Online onderdeel dat verantwoordelijk is voor de gebeurtenis. Bijvoorbeeld:
   - `AGENT`
   - `MAILBOXRULE`
   - `SMTP`
 - **event_id:** Deze komen overeen met de **waarden voor berichtgebeurtenissen** die worden uitgelegd in de sectie Gerelateerde [records zoeken voor dit bericht.](#find-related-records-for-this-message)
-- **internal_message_id:** een berichtaanduiding die is toegewezen door de Exchange Online-server die het bericht momenteel verwerkt.
+- **internal_message_id:** een berichtaanduiding die is toegewezen door de Exchange Online server die momenteel het bericht verwerkt.
 - **recipient_address:** De e-mailadressen van de geadresseerden van het bericht. Meerdere e-mailadressen worden gescheiden door het puntkommateken (;).
 - **recipient_count:** Het totale aantal geadresseerden in het bericht.
 - **related_recipient_address:** Gebruikt met , en gebeurtenissen om andere e-mailadressen van geadresseerden weer te geven `EXPAND` die aan het bericht zijn `REDIRECT` `RESOLVE` gekoppeld.
@@ -262,15 +262,15 @@ Beschikbare (voltooide) uitgebreide rapporten zijn beschikbaar in de sectie **Do
   - **POSTVAKREGEL:** bevat **de internal_message_id** waarde van het binnenkomende bericht waardoor de regel Postvak IN het uitgaande bericht heeft gegenereerd. Voor andere typen gebeurtenissen is dit veld meestal leeg.
 - **return_path:** het e-mailadres retourneert dat is opgegeven door de **opdracht MAIL FROM** die het bericht heeft verzonden. Hoewel dit veld nooit leeg is, kan de adreswaarde van de null-afzender worden weergegeven als `<>` .
 - **message_info:** Aanvullende informatie over het bericht. Bijvoorbeeld:
-  - De datum-tijd van de bericht origination in UTC `DELIVER` voor en `SEND` gebeurtenissen. De origination date-time is de tijd waarop het bericht voor het eerst de Exchange Online-organisatie heeft ingevoerd. De UTC-datum-tijd wordt weergegeven in de datum-tijdnotatie ISO 8601: , waarbij = jaar, = maand, = dag, het begin van de tijdcomponent `yyyy-mm-ddThh:mm:ss.fffZ` `yyyy` `mm` `dd` `T` aangeeft, `hh` = uur, `mm` = minuut, = tweede, `ss` = `fff` `Z` `Zulu` breuken van een seconde, en betekent , wat een andere manier is om UTC aan te duiden.
+  - De datum-tijd van de bericht origination in UTC `DELIVER` voor en `SEND` gebeurtenissen. De origination date-time is de tijd waarop het bericht voor het eerst de Exchange Online heeft ingevoerd. De UTC-datum-tijd wordt weergegeven in de datum-tijdnotatie ISO 8601: , waarbij = jaar, = maand, = dag, het begin van de tijdcomponent `yyyy-mm-ddThh:mm:ss.fffZ` `yyyy` `mm` `dd` `T` aangeeft, `hh` = uur, `mm` = minuut, = tweede, `ss` = `fff` `Z` `Zulu` breuken van een seconde, en betekent , wat een andere manier is om UTC aan te duiden.
   - Verificatiefouten. U ziet bijvoorbeeld de waarde en het type verificatie dat is gebruikt `11a` toen de verificatiefout plaatsvond.
-- **tenant_id:** een GUID-waarde die de Exchange Online-organisatie vertegenwoordigt `39238e87-b5ab-4ef6-a559-af54c6b07b42` (bijvoorbeeld).
+- **tenant_id:** een GUID-waarde die de Exchange Online vertegenwoordigt `39238e87-b5ab-4ef6-a559-af54c6b07b42` (bijvoorbeeld).
 - **original_server_ip:** Het IP-adres van de oorspronkelijke server.
 - **custom_data:** bevat gegevens die betrekking hebben op specifieke gebeurtenistypen. Zie de volgende secties voor meer informatie.
 
 #### <a name="custom_data-values"></a>custom_data waarden
 
-Het **custom_data** veld voor een gebeurtenis wordt door verschillende `AGENTINFO` Exchange Online-agenten gebruikt om gegevens over berichtverwerking te logboeken. Enkele van de interessantere agenten worden in de volgende secties beschreven.
+Het **custom_data** veld voor een gebeurtenis wordt door verschillende Exchange Online gebruikt om gegevens over berichtverwerking `AGENTINFO` te logboeken. Enkele van de interessantere agenten worden in de volgende secties beschreven.
 
 #### <a name="spam-filter-agent"></a>Spamfilteragent
 
@@ -280,7 +280,7 @@ Een **custom_data** die begint met `S:SFA` is afkomstig van de spamfilteragent. 
 
 ****
 
-|Waarde|Omschrijving|
+|Waarde|Beschrijving|
 |---|---|
 |`SFV=NSPM`|Het bericht is gemarkeerd als niet-spam en is verzonden naar de beoogde geadresseerden.|
 |`SFV=SPM`|Het bericht is gemarkeerd als spam door antispamfiltering (ook wel inhoudsfilter genoemd).|
@@ -312,7 +312,7 @@ Een **custom_data** waarde die begint met `S:AMA` is afkomstig van de malwarefil
 
 ****
 
-|Waarde|Omschrijving|
+|Waarde|Beschrijving|
 |---|---|
 |`AMA=SUM|v=1|` of `AMA=EV|v=1`|Het bericht is vastgesteld dat het malware bevat. `SUM` geeft aan dat de malware kan zijn gedetecteerd door een aantal engines. `EV` geeft aan dat de malware is gedetecteerd door een specifieke engine. Wanneer malware wordt gedetecteerd door een engine, worden de volgende acties veroorzaakt.|
 |`Action=r`|Het bericht is vervangen.|
@@ -340,12 +340,12 @@ Een **custom_data** waarde die begint met is afkomstig van de `S:TRA` transportr
 
 ****
 
-|Waarde|Omschrijving|
+|Waarde|Beschrijving|
 |---|---|
 |`ETR|ruleId=<guid>`|De regel-id die is overeenkomen.|
 |`St=<datetime>`|De datum en tijd in UTC wanneer de regel overeenkomst heeft plaatsgevonden.|
-|`Action=<ActionDefinition>`|De actie die is toegepast. Zie Acties voor [e-mailstroomregelen in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)voor een lijst met beschikbare acties.|
-|`Mode=<Mode>`|De modus van de regel. Geldige waarden zijn:<ul><li>**Afdwingen:** Alle acties op de regel worden afgedwongen.</li><li>**Test met beleidstips:** Alle acties voor beleidstips worden verzonden, maar andere handhavingsacties worden niet uitgevoerd.</li><li>**Test zonder beleidstips:** acties worden weergegeven in een logboekbestand, maar afzenders worden op geen enkele manier op de hoogte gesteld en er wordt geen actie ondernomen.</li></ul>|
+|`Action=<ActionDefinition>`|De actie die is toegepast. Zie Acties voor e-mailstroomregelacties in Exchange Online voor [een lijst met beschikbare acties.](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)|
+|`Mode=<Mode>`|De modus van de regel. Geldige waarden zijn:<ul><li>**Afdwingen:** Alle acties op de regel worden afgedwongen.</li><li>**Test met beleid Tips: Er** worden beleidstipacties verzonden, maar andere handhavingsacties worden niet uitgevoerd.</li><li>**Test zonder beleid Tips:** acties worden weergegeven in een logboekbestand, maar afzenders worden op geen enkele manier op de hoogte gesteld en er wordt geen actie ondernomen.</li></ul>|
 |
 
 Een voorbeeld **custom_data** waarde voor berichten die overeenkomt met de voorwaarden van een e-mailstroomregel, ziet er als volgende uit:

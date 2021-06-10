@@ -68,7 +68,7 @@ De meeste MDM-oplossingen gebruiken hetzelfde model voor het beheren van macOS-a
 
 ### <a name="package"></a>Pakket
 
-Configureer de implementatie [van een vereist toepassingspakket,](mac-install-with-jamf.md)met het installatiepakket (wdav.pkg) gedownload van het Microsoft Defender Security [Center](mac-install-with-jamf.md).
+Configureer de implementatie [van een vereist toepassingspakket,](mac-install-with-jamf.md)met het installatiepakket (wdav.pkg) gedownload van [Microsoft Defender-beveiligingscentrum.](mac-install-with-jamf.md)
 
 Als u het pakket wilt implementeren in uw bedrijf, gebruikt u de instructies die zijn gekoppeld aan uw MDM-oplossing.
 
@@ -76,9 +76,9 @@ Als u het pakket wilt implementeren in uw bedrijf, gebruikt u de instructies die
 
 Een [systeemconfiguratieprofiel instellen.](mac-install-with-jamf.md) 
 
-Uw MDM-oplossing kan dit zoiets noemen als 'Profiel aangepaste instellingen', omdat Microsoft Defender voor Eindpunt op macOS geen deel uitmaakt van macOS.
+Uw MDM-oplossing kan dit zoiets noemen als 'Aangepast Instellingen profiel', omdat Microsoft Defender voor Eindpunt op macOS geen deel uitmaakt van macOS.
 
-Gebruik de lijst met eigenschappen, jamf/WindowsDefenderATPOnboarding.plist, die kan worden gehaald uit een onboarding-pakket dat is gedownload van [het Microsoft Defender-beveiligingscentrum.](mac-install-with-jamf.md)
+Gebruik de lijst met eigenschappen, jamf/WindowsDefenderATPOnboarding.plist, die kan worden geëxtraheerd uit een onboarding-pakket dat is [gedownload van Microsoft Defender-beveiligingscentrum.](mac-install-with-jamf.md)
 Uw systeem ondersteunt mogelijk een lijst met willekeurige eigenschappen in XML-indeling. U kunt het bestand jamf/WindowsDefenderATPOnboarding.plist zoals in dat geval uploaden.
 U moet de lijst met eigenschappen mogelijk eerst converteren naar een andere indeling.
 
@@ -116,7 +116,7 @@ Volledige schijftoegang verlenen aan de volgende onderdelen:
 
 ### <a name="network-extension-policy"></a>Beleid voor netwerkextensie
 
-Als onderdeel van de mogelijkheden voor endpointdetectie en -antwoorden controleert Microsoft Defender voor Eindpunt op macOS het socketverkeer en rapporteert deze informatie aan de microsoft Defender-beveiligingscentrumportal. Met het volgende beleid kan de netwerkextensie deze functionaliteit uitvoeren.
+Als onderdeel van de mogelijkheden voor endpointdetectie en -antwoord controleert Microsoft Defender voor Eindpunt op macOS het socketverkeer en rapporteert deze informatie aan de Microsoft Defender-beveiligingscentrum portal. Met het volgende beleid kan de netwerkextensie deze functionaliteit uitvoeren.
 
 - Filtertype: Invoegvoeginvoeging
 - Id van de invoegbundel: `com.microsoft.wdav`

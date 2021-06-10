@@ -152,7 +152,7 @@ Als u een regel voor e-mailtransport wilt maken, bekijkt u een [korte trainingsv
 
 5. Pas de instellingen in de volgende tabel toe voor elke regel. Laat de overige instellingen standaard staan, tenzij u deze wilt wijzigen.
 
-6. Selecteer **Opslaan**.
+6. Klik op **Opslaan**.
     
 | Instelling | Gebruikers waarschuwen voordat ze bijlagen van Office openen | Bestandstypen blokkeren die ransomware of andere schadelijke code kunnen bevatten |
 |:-----|:-----|:-----|
@@ -188,7 +188,7 @@ Een regel voor e-mailtransport maken:
 
 5. Pas de instellingen in de volgende tabel toe. Laat de overige instellingen standaard staan, tenzij u deze wilt wijzigen.
 
-6. Selecteer **Opslaan**.
+6. Klik op **Opslaan**.
 
 |Instelling|Automatisch doorsturen van e-mailberichten naar externe domeinen weigeren|
 |---|---|
@@ -326,7 +326,7 @@ Het standaardbeleid wijzigen:
 
 3. Selecteer **Office 365** toepassingen onder Instellingen die van toepassing zijn op inhoud, behalve **e-mail,** niet bijhouden wanneer gebruikers op veilige koppelingen klikken en Gebruikers niet door veilige koppelingen naar de oorspronkelijke URL laten **klikken.**
 
-4. Selecteer **Opslaan**.
+4. Klik op **Opslaan**.
 
 Een nieuw beleid maken dat is gericht op alle geadresseerden in uw domein:
 
@@ -334,7 +334,7 @@ Een nieuw beleid maken dat is gericht op alle geadresseerden in uw domein:
 
 2. Pas de instellingen toe die in de volgende tabel worden vermeld.
 
-3. Selecteer **Opslaan**.
+3. Klik op **Opslaan**.
 
 |Instelling of optie|Aanbevolen instelling|
 |---|---|

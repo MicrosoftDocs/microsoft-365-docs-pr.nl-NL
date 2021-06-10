@@ -61,7 +61,7 @@ Gedelegeerd (werk- of schoolaccount) | RemediationTask.Read.Read | \'Informatie 
 
 ## <a name="properties"></a>Eigenschappen
 
-Eigenschap (id) | Gegevenstype | Omschrijving | Voorbeeld van een geretourneerde waarde
+Eigenschap (id) | Gegevenstype | Beschrijving | Voorbeeld van een geretourneerde waarde
 :---|:---|:---|:---
 categorie | Tekenreeks | Categorie van de herstelactiviteit (software-/beveiligingsconfiguratie) | Software
 completerEmail | Tekenreeks | Als de herstelactiviteit handmatig is voltooid door iemand, bevat deze kolom zijn of haar e-mail | null

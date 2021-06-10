@@ -42,11 +42,11 @@ Als apparaten bijvoorbeeld niet worden weergegeven in de lijst **Apparaten,** mo
 
 **Open Gebeurtenisviewer en zoek het gebeurtenislogboek van de Microsoft Defender for Endpoint-service:**
 
-1. Klik **op Start** in het Windows-menu, typ **Gebeurtenisviewer** en druk op **Enter.**
+1. Klik **op Start** in het Windows menu, typ **Gebeurtenisviewer** en druk op **Enter.**
 
 2. Schuif in de logboeklijst onder **Logboekoverzicht** door totdat u **Microsoft-Windows-SENSE/Operationeel ziet.** Dubbelklik op het item om het logboek te openen.
 
-   a.  U kunt het logboek ook openen door toepassingen en **serviceslogboeken** van Microsoft Windows SENSE uit te breiden  >    >    >   en op Operationeel **te klikken.**
+   a.  U kunt het logboek ook openen door toepassingen en **serviceslogboeken** uit te breiden  >  **Windows**  >    >  **SENSE** en op **Operationeel te klikken.**
 
    > [!NOTE]
    > SENSE is de interne naam die wordt gebruikt om te verwijzen naar de gedrags sensor die Microsoft Defender voor Eindpunt aandreed.
@@ -99,14 +99,14 @@ De service kan geen contact opnemen met de externe verwerkingsservers op die URL
 <td>Het apparaat is niet correct aan boord en rapporteert niet aan de portal.</td>
 <td>Onboarding moet worden uitgevoerd voordat u de service start.<br>
 Controleer of de onboarding-instellingen en scripts correct zijn geïmplementeerd. Probeer de configuratiepakketten opnieuw te configureren.<br>
-Zie <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Onboard Windows 10-apparaten</a>.</td>
+Zie <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Onboard Windows 10 apparaten</a>.</td>
 </tr>
 <tr>
 <td>7</td>
 <td>Microsoft Defender voor Endpoint-service kan de onboarding-parameters niet lezen. Fout: <code>variable</code> .</td>
 <td>Variabele = gedetailleerde foutbeschrijving. Het apparaat is niet correct aan boord en rapporteert niet aan de portal.</td>
 <td>Controleer of de onboarding-instellingen en scripts correct zijn geïmplementeerd. Probeer de configuratiepakketten opnieuw te configureren.<br>
-Zie <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Onboard Windows 10-apparaten</a>.</td>
+Zie <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Onboard Windows 10 apparaten</a>.</td>
 </tr>
 <tr>
 <td>8</td>
@@ -114,21 +114,21 @@ Zie <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 device
 <td><b>Tijdens onboarding:</b> De service heeft de configuratie tijdens de onboarding niet schoon kunnen maken. Het onboardingproces wordt voortgezet. <br><br> <b>Tijdens offboarding:</b> De service heeft de configuratie tijdens het offboarden niet schoon kunnen maken. Het offboarding-proces is voltooid, maar de service blijft actief.
  </td>
 <td><b>Onboarding:</b> Geen actie vereist. <br><br> <b>Offboarding:</b> Start het systeem opnieuw op.<br>
-Zie <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Onboard Windows 10-apparaten</a>.</td>
+Zie <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Onboard Windows 10 apparaten</a>.</td>
 </tr>
 <tr>
 <td>9</td>
 <td>Het begintype van de Microsoft Defender voor Eindpunt-service is niet gewijzigd. Foutcode: <code>variable</code> .</td>
 <td><b>Tijdens onboarding:</b> Het apparaat is niet correct aan boord en rapporteert niet aan de portal. <br><br><b>Tijdens offboarding:</b> Kan het begintype van de service niet wijzigen. Het offboardingproces wordt voortgezet. </td>
 <td>Controleer of de onboarding-instellingen en scripts correct zijn geïmplementeerd. Probeer de configuratiepakketten opnieuw te configureren.<br>
-Zie <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Onboard Windows 10-apparaten</a>.</td>
+Zie <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Onboard Windows 10 apparaten</a>.</td>
 </tr>
 <tr>
 <td>10</td>
 <td>Microsoft Defender voor Endpoint-service kan de onboarding-informatie niet blijven gebruiken. Foutcode: <code>variable</code> .</td>
 <td>Het apparaat is niet correct aan boord en rapporteert niet aan de portal.</td>
 <td>Controleer of de onboarding-instellingen en scripts correct zijn geïmplementeerd. Probeer de configuratiepakketten opnieuw te configureren.<br>
-Zie <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Onboard Windows 10-apparaten</a>.</td>
+Zie <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Onboard Windows 10 apparaten</a>.</td>
 </tr>
 <tr>
 <td>11</td>
@@ -159,29 +159,29 @@ De service kan geen contact opnemen met de externe verwerkingsservers op die URL
 <tr>
 <td>17</td>
 <td>Microsoft Defender voor Endpoint-service kan de verbonden gebruikerservaringen en telemetrieservicelocatie niet wijzigen. Foutcode: <code>variable</code> .</td>
-<td>Er is een fout opgetreden bij de Windows-telemetrieservice.</td>
+<td>Er is een fout opgetreden bij Windows telemetrieservice.</td>
 <td><a href="troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy" data-raw-source="[Ensure the diagnostic data service is enabled](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy)">Controleer of de diagnostische gegevensservice is ingeschakeld.</a><br>
 Controleer of de onboarding-instellingen en scripts correct zijn geïmplementeerd. Probeer de configuratiepakketten opnieuw te configureren.<br>
-Zie <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Onboard Windows 10-apparaten</a>.</td>
+Zie <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Onboard Windows 10 apparaten</a>.</td>
 </tr>
 <tr>
 <td>18</td>
 <td>OOBE (Windows Welkom) is voltooid.</td>
-<td>De service wordt pas begonnen nadat alle Windows-updates zijn geïnstalleerd.</td>
+<td>De service wordt pas van start Windows updates zijn geïnstalleerd.</td>
 <td>Normale bedrijfsmelding; geen actie vereist.</td>
 </tr>
 <tr>
 <td>19</td>
-<td>OOBE (Windows Welcome) is nog niet voltooid.</td>
-<td>De service wordt pas begonnen nadat alle Windows-updates zijn geïnstalleerd.</td>
+<td>OOBE (Windows Welkom) is nog niet voltooid.</td>
+<td>De service wordt pas van start Windows updates zijn geïnstalleerd.</td>
 <td>Normale bedrijfsmelding; geen actie vereist.<br>
-Als deze fout blijft bestaan nadat een systeem opnieuw is gestart, moet u ervoor zorgen dat alle Windows-updates volledig zijn geïnstalleerd.</td>
+Als deze fout blijft bestaan nadat een systeem opnieuw is gestart, controleert u of Windows alle updates volledig zijn geïnstalleerd.</td>
 </tr>
 <tr>
 <td>20</td>
-<td>Kan niet wachten totdat OOBE (Windows Welcome) is voltooid. Foutcode: <code>variable</code> .</td>
+<td>Kan niet wachten totdat OOBE (Windows Welkom) is voltooid. Foutcode: <code>variable</code> .</td>
 <td>Interne fout.</td>
-<td>Als deze fout blijft bestaan nadat een systeem opnieuw is gestart, moet u ervoor zorgen dat alle Windows-updates volledig zijn geïnstalleerd.</td>
+<td>Als deze fout blijft bestaan nadat een systeem opnieuw is gestart, controleert u of Windows alle updates volledig zijn geïnstalleerd.</td>
 </tr>
 <tr>
 <td>25</td>
@@ -189,7 +189,7 @@ Als deze fout blijft bestaan nadat een systeem opnieuw is gestart, moet u ervoor
 <td>Het apparaat is niet correct aan boord.
 De service rapporteert aan de portal, maar de service wordt mogelijk niet weergegeven als geregistreerd in SCCM of het register.</td>
 <td>Controleer of de onboarding-instellingen en scripts correct zijn geïmplementeerd. Probeer de configuratiepakketten opnieuw te configureren.<br>
-Zie <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Onboard Windows 10-apparaten</a>.</td>
+Zie <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Onboard Windows 10 apparaten</a>.</td>
 </tr>
 <tr>
 <td>26</td>
@@ -197,23 +197,23 @@ Zie <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 device
 <td>Het apparaat is niet correct aan boord.<br>
 De service rapporteert aan de portal, maar de service wordt mogelijk niet weergegeven als geregistreerd in SCCM of het register.</td>
 <td>Controleer of de onboarding-instellingen en scripts correct zijn geïmplementeerd. Probeer de configuratiepakketten opnieuw te configureren.<br>
-Zie <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Onboard Windows 10-apparaten</a>.</td>
+Zie <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Onboard Windows 10 apparaten</a>.</td>
 </tr>
 <tr>
 <td>27</td>
 <td>Microsoft Defender for Endpoint-service kan de sense aware-modus niet inschakelen in Microsoft Defender Antivirus. Onboarding is mislukt. Foutcode: <code>variable</code> .</td>
-<td>Normaal gesproken voert Microsoft Defender Antivirus een speciale passieve status in als een ander antimalwareproduct in realtime correct wordt uitgevoerd op het apparaat en het apparaat rapporteert aan Defender voor Eindpunt.</td>
+<td>Normaal gesproken Microsoft Defender Antivirus een speciale passieve status als een ander antimalwareproduct in realtime correct wordt uitgevoerd op het apparaat en het apparaat rapporteert aan Defender voor Eindpunt.</td>
 <td>Controleer of de onboarding-instellingen en scripts correct zijn geïmplementeerd. Probeer de configuratiepakketten opnieuw te configureren.<br>
-Zie <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Onboard Windows 10-apparaten</a>.<br>
+Zie <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Onboard Windows 10 apparaten</a>.<br>
 Zorg ervoor dat antimalwarebeveiliging in realtime correct wordt uitgevoerd.</td>
 </tr>
 <tr>
 <td>28</td>
 <td>Microsoft Defender for Endpoint Connected User Experiences and Telemetry service registration failed. Foutcode: <code>variable</code> .</td>
-<td>Er is een fout opgetreden bij de Windows-telemetrieservice.</td>
+<td>Er is een fout opgetreden bij Windows telemetrieservice.</td>
 <td><a href="troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy" data-raw-source="[Ensure the diagnostic data service is enabled](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy)">Controleer of de diagnostische gegevensservice is ingeschakeld.</a><br>
 Controleer of de onboarding-instellingen en scripts correct zijn geïmplementeerd. Probeer de configuratiepakketten opnieuw te configureren.<br>
-Zie <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Onboard Windows 10-apparaten</a>.</td>
+Zie <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Onboard Windows 10 apparaten</a>.</td>
 </tr>
 <tr>
 <td>29</td>
@@ -224,16 +224,16 @@ Zie <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 device
 <tr>
 <td>30</td>
 <td>Microsoft Defender for Endpoint-service kan de sense aware-modus niet uitschakelen in Microsoft Defender Antivirus. Foutcode: <code>variable</code> .</td>
-<td>Normaal gesproken voert Microsoft Defender Antivirus een speciale passieve status in als een ander antimalwareproduct in realtime correct wordt uitgevoerd op het apparaat en het apparaat rapporteert aan Defender voor Eindpunt.</td>
+<td>Normaal gesproken Microsoft Defender Antivirus een speciale passieve status als een ander antimalwareproduct in realtime correct wordt uitgevoerd op het apparaat en het apparaat rapporteert aan Defender voor Eindpunt.</td>
 <td>Controleer of de onboarding-instellingen en scripts correct zijn geïmplementeerd. Probeer de configuratiepakketten opnieuw te configureren.<br>
-Zie <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Onboard Windows 10-apparaten</a><br>
+Zie <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Onboard Windows 10 apparaten</a><br>
 Zorg ervoor dat antimalwarebeveiliging in realtime correct wordt uitgevoerd.</td>
 </tr>
 <tr>
 <td>31</td>
 <td>Microsoft Defender for Endpoint Connected User Experiences and Telemetry service unregistration failed.Microsoft Defender for Endpoint Connected User Experiences and Telemetry service unregistration failed. Foutcode: <code>variable</code> .</td>
-<td>Er is een fout opgetreden bij de Windows-telemetrieservice tijdens onboarding. Het offboardingproces wordt voortgezet.</td>
-<td><a href="troubleshoot-onboarding.md#ensure-the-diagnostic-data-service-is-enabled" data-raw-source="[Check for errors with the Windows telemetry service](troubleshoot-onboarding.md#ensure-the-diagnostic-data-service-is-enabled)">Controleer op fouten met de Windows-telemetrieservice.</a></td>
+<td>Er is een fout opgetreden bij Windows telemetrieservice tijdens onboarding. Het offboardingproces wordt voortgezet.</td>
+<td><a href="troubleshoot-onboarding.md#ensure-the-diagnostic-data-service-is-enabled" data-raw-source="[Check for errors with the Windows telemetry service](troubleshoot-onboarding.md#ensure-the-diagnostic-data-service-is-enabled)">Controleer op fouten met de Windows telemetrieservice.</a></td>
 </tr>
 <tr>
 <td>32</td>
@@ -251,17 +251,17 @@ Als de id niet blijft bestaan, wordt hetzelfde apparaat mogelijk tweemaal weerge
 <tr>
 <td>34</td>
 <td>Microsoft Defender voor Endpoint-service kan zichzelf niet toevoegen als afhankelijkheid van de verbonden gebruikerservaringen en telemetrieservice, waardoor het onboardingproces mislukt. Foutcode: <code>variable</code> .</td>
-<td>Er is een fout opgetreden bij de Windows-telemetrieservice.</td>
+<td>Er is een fout opgetreden bij Windows telemetrieservice.</td>
 <td><a href="troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy" data-raw-source="[Ensure the diagnostic data service is enabled](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy)">Controleer of de diagnostische gegevensservice is ingeschakeld.</a><br>
 Controleer of de onboarding-instellingen en scripts correct zijn geïmplementeerd. Probeer de configuratiepakketten opnieuw te configureren.<br>
-Zie <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Onboard Windows 10-apparaten</a>.</td>
+Zie <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Onboard Windows 10 apparaten</a>.</td>
 </tr>
 <tr>
 <td>35</td>
 <td>Microsoft Defender for Endpoint-service kan zichzelf niet verwijderen als afhankelijkheid van de verbonden gebruikerservaringen en telemetrieservice. Foutcode: <code>variable</code> .</td>
-<td>Er is een fout opgetreden bij de Windows-telemetrieservice tijdens het offboarden. Het offboardingproces wordt voortgezet.
+<td>Er is een fout opgetreden bij Windows telemetrieservice tijdens het offboarden. Het offboardingproces wordt voortgezet.
 </td>
-<td>Controleer op fouten met de Windows-diagnostische gegevensservice.</td>
+<td>Controleer op fouten met de Windows diagnostische gegevensservice.</td>
 </tr>
 <tr>
 <td>36</td>
@@ -494,7 +494,7 @@ Zie <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 device
 </tr>
 <tr>
    <td>84</td>
-   <td>Windows Defender Antivirus-modus instellen. Passieve modus forceer: %1, resultaatcode: %2.</td>
+   <td>De Windows Defender Antivirus modus instellen. Passieve modus forceer: %1, resultaatcode: %2.</td>
    <td>De modus Defender Running Instellen (actief of passief).</td>
    <td>Normale bedrijfsmelding; geen actie vereist.</td>
 </tr>
@@ -614,4 +614,4 @@ Zie <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 device
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Onboarden Windows 10-apparaten](configure-endpoints.md)
 - [Instellingen voor apparaatproxy en internetverbinding configureren](configure-proxy-internet.md)
-- [Problemen met Microsoft Defender voor Eindpunt oplossen](troubleshoot-onboarding.md)
+- [Problemen met Microsoft Defender voor Eindpunt oplossen](troubleshoot-onboarding.md)

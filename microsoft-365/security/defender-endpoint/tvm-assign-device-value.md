@@ -1,7 +1,7 @@
 ---
-title: Apparaatwaarde toewijzen - bedreigings- en kwetsbaarheidsbeheer
+title: Apparaatwaarde toewijzen - Threat and Vulnerability Management
 description: Meer informatie over het toewijzen van een lage, normale of hoge waarde aan een apparaat om onderscheid te maken tussen activumprioriteiten.
-keywords: Microsoft Defender for Endpoint device value, threat and vulnerability management device value, high value devices, device value exposure score
+keywords: Microsoft Defender for Endpoint device value, Threat and Vulnerability Management device value, high value devices, device value exposure score
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -25,21 +25,21 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51935195"
 ---
-# <a name="assign-device-value---threat-and-vulnerability-management"></a>Apparaatwaarde toewijzen - bedreigings- en kwetsbaarheidsbeheer
+# <a name="assign-device-value---threat-and-vulnerability-management"></a>Apparaatwaarde toewijzen - Threat and Vulnerability Management
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
 
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [Bedreigings- en kwetsbaarheidsbeheer](next-gen-threat-and-vuln-mgt.md)
+- [Bedreiging en vulnerability management](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
 
 [!include[Prerelease information](../../includes/prerelease.md)]
 
-Als u de waarde van een apparaat definieert, kunt u onderscheid maken tussen activumprioriteiten. De apparaatwaarde wordt gebruikt om de risicobereidheid van een afzonderlijk activum op te nemen in de berekening van blootstellingsscores voor bedreigings- en kwetsbaarheidsbeheer. Apparaten die zijn toegewezen als 'hoge waarde' krijgen meer gewicht.
+Als u de waarde van een apparaat definieert, kunt u onderscheid maken tussen activumprioriteiten. De apparaatwaarde wordt gebruikt om de risicobereidheid van een afzonderlijk activum op te nemen in Threat and Vulnerability Management berekening van de blootstellingsscore. Apparaten die zijn toegewezen als 'hoge waarde' krijgen meer gewicht.
 
 U kunt ook de [set device value API gebruiken.](set-device-value.md)
 
@@ -78,6 +78,6 @@ De blootstellingsscore is een gewogen gemiddelde op alle apparaten. Als u appara
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-- [Overzicht van bedreigings- en kwetsbaarheidsbeheer](next-gen-threat-and-vuln-mgt.md)
+- [Overzicht van bedreigingen en vulnerability management](next-gen-threat-and-vuln-mgt.md)
 - [Blootstellingsscore](tvm-exposure-score.md)
 - [API‘s](next-gen-threat-and-vuln-mgt.md#apis)

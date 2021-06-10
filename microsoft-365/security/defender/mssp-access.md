@@ -1,7 +1,7 @@
 ---
 title: MsSP-toegang (Managed Security Service Provider) bieden
-description: Meer informatie over wijzigingen van het Microsoft Defender-beveiligingscentrum in het Microsoft 365-beveiligingscentrum
-keywords: Aan de slag met het Microsoft 365-beveiligingscentrum, Microsoft Defender voor Office 365, Microsoft Defender voor Eindpunt, MDO, MDE, enkel deelvenster glas, geconvergeerde portal, beveiligingsportal, defender security portal
+description: Meer informatie over wijzigingen van de Microsoft Defender-beveiligingscentrum naar het Microsoft 365 beveiligingscentrum
+keywords: Aan de slag met het Microsoft 365-beveiligingscentrum, Microsoft Defender voor Office 365, Microsoft Defender voor Eindpunt, MDO, MDE, enkel deelvenster glas, geconvergeerde portal, beveiligingsportal, defender-beveiligingsportal
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 localization_priority: Normal
@@ -38,26 +38,26 @@ ms.locfileid: "51935351"
 
 Als u een oplossing voor gedelegeerde toegang met meerdere tenants wilt implementeren, voert u de volgende stappen uit:
 
-1. Schakel [op rollen gebaseerde toegangsbeheer](/windows/security/threat-protection/microsoft-defender-atp/rbac) in Defender voor Eindpunt in microsoft 365-beveiligingscentrum in en maak verbinding met Azure Active Directory -groepen (Azure AD).
+1. Schakel [op rollen gebaseerde toegangsbeheer](/windows/security/threat-protection/microsoft-defender-atp/rbac) in Defender voor Eindpunt in Microsoft 365 beveiligingscentrum in en maak verbinding met Azure Active Directory (Azure AD) groepen.
 
 2. [Beheertoegangspakketten configureren voor toegangsaanvraag](/azure/active-directory/governance/identity-governance-overview) en inrichting.
 
 3. Toegangsaanvragen en -audits beheren in [Microsoft Myaccess](/azure/active-directory/governance/entitlement-management-request-approve).
 
-## <a name="enable-role-based-access-controls-in-microsoft-defender-for-endpoint-in-microsoft-365-security-center"></a>Op rollen gebaseerde toegangsbesturingselementen inschakelen in Microsoft Defender voor Eindpunt in microsoft 365-beveiligingscentrum
+## <a name="enable-role-based-access-controls-in-microsoft-defender-for-endpoint-in-microsoft-365-security-center"></a>Op rollen gebaseerde toegangsbesturingselementen inschakelen in Microsoft Defender voor Eindpunt in Microsoft 365 beveiligingscentrum
 
 1. **Toegangsgroepen maken voor MSSP-resources in Klant-AAD: Groepen**
 
-    Deze groepen worden gekoppeld aan de rollen die u maakt in Defender voor Eindpunt in het Microsoft 365-beveiligingscentrum. Maak in de ad-tenant van de klant drie groepen om dit te doen. In onze voorbeeldbenadering maken we de volgende groepen:
+    Deze groepen worden gekoppeld aan de rollen die u maakt in Defender voor Eindpunt in Microsoft 365 beveiligingscentrum. Maak in de ad-tenant van de klant drie groepen om dit te doen. In onze voorbeeldbenadering maken we de volgende groepen:
 
     - Tier 1 Analyst 
     - Tier 2 Analyst 
     - MSSP-analist-goedkeurders  
 
 
-2. Maak Defender voor eindpuntrollen voor de juiste toegangsniveaus in Customer Defender voor Eindpunt in microsoft 365 beveiligingscentrumrollen en -groepen.
+2. Maak Defender voor eindpuntrollen voor de juiste toegangsniveaus in Customer Defender voor Eindpunt in Microsoft 365 beveiligingscentrumrollen en -groepen.
 
-    Als u RBAC wilt inschakelen in het microsoft 365-beveiligingscentrum van de klant, hebt u toegang tot machtigingen > eindpunten rollen & groepen > Rollen met een gebruikersaccount met globale **beheerders- of** beveiligingsbeheerdersrechten.
+    Als u RBAC wilt inschakelen in het Microsoft 365 beveiligingscentrum van de klant, hebt u toegang tot Machtigingen > Eindpunten-rollen & groepen > Rollen met een gebruikersaccount met globale **beheerders- >** Beveiligingsbeheerdersrechten.
 
     ![Afbeelding van MSSP-toegang](../../media/mssp-access.png)
 
@@ -130,9 +130,9 @@ Als u een oplossing voor gedelegeerde toegang met meerdere tenants wilt implemen
     Voorbeeld:  `https://myaccess.microsoft.com/@M365x440XXX.onmicrosoft.com#/`   
 2. Aanvragen goedkeuren of weigeren in **de sectie Goedkeuringen** van de gebruikersinterface.
 
-     Op dit moment is de toegang tot analisten ingericht en moet elke analist toegang hebben tot het Microsoft 365-beveiligingscentrum van de klant: 
+     Op dit moment is de toegang tot analisten ingericht en moet elke analist toegang hebben tot het Microsoft 365 beveiligingscentrum van de klant: 
 
     `https://security.microsoft.com/?tid=<CustomerTenantId>` met de machtigingen en rollen die aan hen zijn toegewezen.
 
 > [!IMPORTANT]
-> Gedelegeerde toegang tot Microsoft Defender voor Eindpunt in het Microsoft 365-beveiligingscentrum biedt momenteel toegang tot één tenant per browservenster.
+> Gedelegeerde toegang tot Microsoft Defender voor Eindpunt in het Microsoft 365 beveiligingscentrum biedt momenteel toegang tot één tenant per browservenster.

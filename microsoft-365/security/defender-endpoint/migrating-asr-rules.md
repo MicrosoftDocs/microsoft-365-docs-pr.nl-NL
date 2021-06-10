@@ -60,34 +60,34 @@ In dit artikel kunt u algemene regels aan Microsoft Defender voor eindpunten toe
 - **Processen**- mshta.exe
 - **Bewerking**- Procesuitvoering
 - **Voorbeelden van Bestanden/mappen, Registersleutels/Waarden, Processen, Services**- powershell.exe, cmd.exe, regsvr32.exe
-- **Surface Reduction-regels aanvallen:** ASR-regels bevatten geen specifieke regel om te voorkomen dat onderliggende processen 'mshta.exe'. Dit besturingselement valt onder de bevoegdheid van Exploit Protection of Windows Defender Application Control.
-- **Andere aanbevolen functies:** Schakel Windows Defender Application Control in om te voorkomen dat mshta.exe worden uitgevoerd. Als uw organisatie 'mshta.exe' voor zakelijke apps vereist, configureert u een specifieke Windows Defender Exploit Protection-regel om te voorkomen dat mshta.exe onderliggende processen start.
+- **Surface Reduction-regels aanvallen:** ASR-regels bevatten geen specifieke regel om te voorkomen dat onderliggende processen 'mshta.exe'. Dit besturingselement valt onder de taak van Exploit Protection of Windows Defender Application Control.
+- **Andere aanbevolen functies:** schakel Windows Defender toepassingsbeheer in om te voorkomen dat mshta.exe worden uitgevoerd. Als uw organisatie 'mshta.exe' voor zakelijke apps vereist, configureert u een specifieke Windows Defender Exploit Protection-regel om te voorkomen dat mshta.exe onderliggende processen start.
 
-### <a name="block-outlook-from-launching-child-processes"></a>Outlook blokkeren om onderliggende processen te starten
+### <a name="block-outlook-from-launching-child-processes"></a>Het starten Outlook onderliggende processen blokkeren
 
-- **Van toepassing op**- Outlook
+- **Is van toepassing op**- Outlook
 - **Processen**- outlook.exe
 - **Bewerking**- Procesuitvoering
 - **Voorbeelden van Bestanden/mappen, Registersleutels/Waarden, Processen, Services**- powershell.exe
-- **Surface Reduction-regels** aanvallen: ASR-regels hebben een ingebouwde regel om te voorkomen dat office-communicatie-apps (Outlook, Skype en Teams) onderliggende processen starten: 'Office-communicatietoepassing blokkeren om onderliggende processen te maken', GUID "26190899-1602-49e8-8b27-eb1d0a1ce869".
+- Surface **Reduction-regels** aanvallen: ASR-regels hebben een ingebouwde regel om te voorkomen dat Office communicatie-apps (Outlook, Skype en Teams) onderliggende processen starten: 'Block Office communication application from creating child processes', GUID "26190899-1602-49e8-8b27-eb1d0a1ce869".
 - **Andere aanbevolen functies:** u wordt aangeraden de taalmodus voor beperkte PowerShell in te schakelen om het aanvalsoppervlak van PowerShell te minimaliseren.
 
 
-### <a name="block-office-apps-from-launching-child-processes-and-from-creating-executable-content"></a>Voorkomen dat office-apps onderliggende processen starten en uitvoerbare inhoud maken
+### <a name="block-office-apps-from-launching-child-processes-and-from-creating-executable-content"></a>Voorkomen Office apps om onderliggende processen te starten en uitvoerbare inhoud te maken
 
-- **Van toepassing op**- Office  
+- **Is van toepassing op**- Office  
 - **Processen**: winword.exe, powerpnt.exe, excel.exe
 - **Bewerking**- Procesuitvoering
 - **Voorbeelden van Bestanden/mappen, Registersleutels/Waarden, Processen, Services**- powershell.exe, cmd.exe, wscript.exe, mshta.exe, EQNEDT32.EXE, regsrv32.exe
 - **Surface Reduction-regels** aanvallen: ASR-regels hebben een ingebouwde regel om te voorkomen dat Office-apps onderliggende processen starten: 'Alle Office-toepassingen blokkeren om onderliggende processen te maken', GUID "D4F940AB-401B-4EFC-AADC-AD5F3C50688A".
 - **Andere aanbevolen functies**- N/B
     
-### <a name="block-office-apps-from-launching-child-processes-and-from-creating-executable-content"></a>Voorkomen dat office-apps onderliggende processen starten en uitvoerbare inhoud maken
+### <a name="block-office-apps-from-launching-child-processes-and-from-creating-executable-content"></a>Voorkomen Office apps om onderliggende processen te starten en uitvoerbare inhoud te maken
 
-- **Van toepassing op**- Office
+- **Is van toepassing op**- Office
 - **Processen**: winword.exe, powerpnt.exe, excel.exe
 - **Bewerking**- Bestandscreatie
-- **Voorbeelden van bestanden/mappen, Registersleutels/waarden, processen, services**- C:\Gebruikers *\AppData **.exe, C:\ProgramData**.exe, C:\ProgramData**.com, C:\Users* AppData\Local\Temp **.com, C:\Users*\Downloads**.exe, C:\Users *\AppData **.scf, C:\ProgramData**.scf, C:\Users\Public*.exe, C:\Users*\Desktop****exe
+- **Voorbeelden van bestanden/mappen, registersleutels/waarden, Processen,** Services - C:\Gebruikers *\AppData **.exe, C:\ProgramData**.exe, C:\ProgramData**.com, C:\Users* AppData\Local\Temp **.com, C:\Users*\Downloads**.exe, C:\Users *\AppData **.scf, C:\ProgramData**.scf, C:\Users\Public*.exe, C:\Users*\Desktop***.exe
 - **Attack Surface Reduction rules**- N/A.
 
 ### <a name="block-wscript-from-reading-certain-types-of-files"></a>Wscript blokkeren om bepaalde typen bestanden te lezen
@@ -95,7 +95,7 @@ In dit artikel kunt u algemene regels aan Microsoft Defender voor eindpunten toe
 - **Van toepassing op**- Wscript
 - **Processen**- wscript.exe
 - **Bewerking**- Bestand gelezen
-- **Voorbeelden van bestanden/mappen, registersleutels/waarden, processen, services**- C:\Gebruikers *\AppData**.js, C:\Gebruikers*\Downloads**.js
+- **Voorbeelden van Bestanden/mappen, Registersleutels/Waarden, Processen, Services**- C:\Gebruikers *\AppData**.js, C:\Gebruikers*\Downloads**.js
 - **Surface Reduction-regels aanvallen:** vanwege betrouwbaarheids- en prestatieproblemen kunnen ASR-regels niet voorkomen dat een bepaald proces een bepaald scriptbestandstype leest. Er is wel een regel om te voorkomen dat aanvalsvectoren afkomstig zijn van deze scenario's. De regelnaam is 'JavaScript of VBScript blokkeren om gedownloade uitvoerbare inhoud te starten' (GUID "D3E037E1-3EB8-44C8-A917-57927947596D") en de 'Blokuitvoering van mogelijk obfuscated scripts' (GUID " 5BEB7EFE-FD9A-4556-801D-275E5FFC04CC").
 - Andere aanbevolen **functies:** hoewel er specifieke ASR-regels zijn die bepaalde aanvalsvectoren in deze scenario's beperken, is het belangrijk om te vermelden dat AV standaard scripts (PowerShell, Windows Script Host, JavaScript, VBScript en meer) in realtime kan controleren via de Antimalware Scan Interface (AMSI). Meer informatie vindt u hier: [Antimalware Scan Interface (AMSI)](/windows/win32/amsi/antimalware-scan-interface-portal).
 
@@ -115,7 +115,7 @@ In dit artikel kunt u algemene regels aan Microsoft Defender voor eindpunten toe
 - **Processen**- certutil.exe
 - **Bewerking**- Bestandscreatie
 - **Voorbeelden van Bestanden/mappen, Registersleutels/Waarden, Processen, Services**- *.exe
-- **Surface Reduction-regels aanvallen:** ASR-regels ondersteunen deze scenario's niet omdat ze deel uitmaken van Microsoft Defender Antivirus protection.
+- **Surface Reduction-regels aanvallen:** ASR-regels ondersteunen deze scenario's niet omdat ze deel uitmaken van Microsoft Defender Antivirus beveiliging.
 - **Andere aanbevolen functies:** Microsoft Defender AV voorkomt dat CertUtil uitvoerbare inhoud maakt of downloadt.
 
 
@@ -125,7 +125,7 @@ In dit artikel kunt u algemene regels aan Microsoft Defender voor eindpunten toe
 - **Processen**- *
 - **Bewerking**- Procesbeëindiging
 - Voorbeelden van **Bestanden/mappen, Registersleutels/Waarden, Processen, Services**- MsSense.exe, MsMpEng.exe, NisSrv.exe, svchost.exe*, services.exe, csrss.exe, smss.exe, wininit.exe en meer.
-- **Surface Reduction-regels aanvallen:** ASR-regels ondersteunen deze scenario's niet omdat ze zijn beveiligd met ingebouwde beveiligingsbeveiligingen van Windows 10.
+- **Surface Reduction-regels aanvallen:** ASR-regels ondersteunen deze scenario's niet omdat ze zijn beveiligd met Windows 10 ingebouwde beveiligingsbeveiliging.
 - **Andere aanbevolen functies:** ELAM (Early Launch AntiMalware), PPL (Protection Process Light), PPL AntiMalware Light en System Guard.
 
 ### <a name="block-specific-launch-process-attempt"></a>Specifieke procespoging voor starten blokkeren
@@ -135,9 +135,9 @@ In dit artikel kunt u algemene regels aan Microsoft Defender voor eindpunten toe
 - **Bewerking**- Procesuitvoering
 - **Voorbeelden van bestanden/mappen, registersleutels/waarden, processen, services**- tor.exe, bittorrent.exe, cmd.exe, powershell.exe en meer
 - **Surface Reduction-regels aanvallen:** over het algemeen zijn ASR-regels niet ontworpen om te functioneren als toepassingsbeheer.
-- **Andere aanbevolen functies:** als u wilt voorkomen dat gebruikers specifieke processen of programma's starten, wordt u aangeraden Windows Defender Application Control te gebruiken. Microsoft Defender for Endpoint File and Cert indicators, can be used in a Incident Response scenario (shouldn't be seen as an application control mechanism).
+- **Andere aanbevolen functies:** als u wilt voorkomen dat gebruikers specifieke processen of programma's starten, wordt u aangeraden om de toepassingsbeheer Windows Defender gebruiken. Microsoft Defender for Endpoint File and Cert indicators, can be used in a Incident Response scenario (shouldn't be seen as an application control mechanism).
     
-### <a name="block-unauthorized-changes-to-microsoft-defender-antivirus-configurations"></a>Niet-geautoriseerde wijzigingen in Microsoft Defender Antivirus-configuraties blokkeren
+### <a name="block-unauthorized-changes-to-microsoft-defender-antivirus-configurations"></a>Niet-geautoriseerde wijzigingen in Microsoft Defender Antivirus blokkeren
 
 - **Van toepassing op**- Alle processen
 - **Processen**- *
@@ -148,6 +148,6 @@ In dit artikel kunt u algemene regels aan Microsoft Defender voor eindpunten toe
 
 Zie ook
 
-- [Veelgestelde vragen over kwetsbaarheid voor aanvallen verminderen](attack-surface-reduction-faq.md)
+- [Veelgestelde vragen over het verminderen van kwetsbaarheid voor aanvallen](attack-surface-reduction-faq.md)
 - [Regels voor het verminderen van aanvalsoppervlakken inschakelen](enable-attack-surface-reduction.md)
-- [Regels voor het verminderen van aanvalsoppervlakken evalueren](evaluate-attack-surface-reduction.md)
+- [Regels voor het verminderen van kwetsbaarheid voor aanvallen evalueren](evaluate-attack-surface-reduction.md)

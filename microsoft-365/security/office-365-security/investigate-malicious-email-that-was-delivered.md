@@ -27,7 +27,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51933371"
 ---
-# <a name="investigate-malicious-email-that-was-delivered-in-office-365"></a>Schadelijke e-mail onderzoeken die is bezorgd in Office 365
+# <a name="investigate-malicious-email-that-was-delivered-in-office-365"></a>Onderzoek naar schadelijke e-mail die is bezorgd in Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -45,7 +45,7 @@ ms.locfileid: "51933371"
 
 Zorg ervoor dat aan de volgende vereisten wordt voldaan:
 
-- Uw organisatie heeft [Microsoft Defender voor Office 365](defender-for-office-365.md) en licenties zijn toegewezen aan [gebruikers.](../../admin/manage/assign-licenses-to-users.md)
+- Uw organisatie heeft [Microsoft Defender voor Office 365](defender-for-office-365.md) en licenties worden toegewezen aan [gebruikers.](../../admin/manage/assign-licenses-to-users.md)
 
 - [auditregistratie](../../compliance/turn-audit-log-search-on-or-off.md) is ingeschakeld voor uw organisatie.
 
@@ -70,7 +70,7 @@ Als u bepaalde acties wilt uitvoeren, zoals het weergeven van berichtkoppen of h
 > *Voorbeeld* is een rol en geen rollengroep. de voorbeeldrol moet worden toegevoegd aan een bestaande rollengroep voor Office 365 (op <https://protection.office.com> ). Ga naar **Machtigingen** en bewerk vervolgens een bestaande rollengroep of voeg een nieuwe rollengroep toe met de **toegewezen voorbeeldrol.**
 > De rol Globale beheerder wordt toegewezen aan het Microsoft 365-beheercentrum () en de rollen Beveiligingsbeheerder en Beveiligingslezer worden toegewezen in het <https://admin.microsoft.com> Beveiligings- & Compliancecentrum ( <https://protection.office.com> ). Zie Machtigingen in het Beveiligings- & Compliancecentrum voor meer informatie over rollen [en machtigingen.](permissions-in-the-security-and-compliance-center.md)
 
-We begrijpen dat het bekijken en downloaden van e-mail gevoelige activiteiten zijn en daarom is auditing ingeschakeld voor deze activiteiten. Wanneer een beheerder deze activiteiten uitvoert op e-mailberichten, worden auditlogboeken voor hetzelfde gegenereerd en kan deze worden gezien in het Office 365-beveiligings- & Compliancecentrum ( <https://protection.office.com> ). Ga naar **Zoeken in**  >  **het auditlogboek en** filter op de naam van de beheerder in de sectie Zoeken. In de gefilterde resultaten wordt activiteit **AdminMailAccess weer te geven.** Selecteer een rij om details weer te geven in de sectie **Meer informatie** over voorbeeld van of gedownloade e-mail.
+We begrijpen dat het bekijken en downloaden van e-mail gevoelige activiteiten zijn en daarom is auditing ingeschakeld voor deze activiteiten. Wanneer een beheerder deze activiteiten uitvoert op e-mailberichten, worden auditlogboeken voor hetzelfde gegenereerd en kunnen ze worden gezien in het Office 365 Security & Compliance Center ( <https://protection.office.com> ). Ga naar **Zoeken in**  >  **het auditlogboek en** filter op de naam van de beheerder in de sectie Zoeken. In de gefilterde resultaten wordt activiteit **AdminMailAccess weer te geven.** Selecteer een rij om details weer te geven in de sectie **Meer informatie** over voorbeeld van of gedownloade e-mail.
 
 ## <a name="find-suspicious-email-that-was-delivered"></a>Verdachte e-mail zoeken die is bezorgd
 
@@ -79,7 +79,7 @@ Threat Explorer is een krachtig rapport dat meerdere doeleinden kan dienen, zoal
 > [!NOTE]
 > Standaardzoek zoekopdrachten in Explorer bevatten momenteel geen Zapped-items.  Dit geldt voor alle weergaven, bijvoorbeeld malware- of phish-weergaven. Als u Zapped-items wilt opnemen, moet u een actieset **Bezorging** toevoegen om **Verwijderd door ZAP op te nemen.** Als u alle opties opneemt, ziet u alle resultaten van de bezorgingsactie, inclusief Zapped-items.
 
-1. **Ga naar Threat Explorer:** Ga naar en meld u aan <https://protection.office.com> met uw werk- of schoolaccount voor Office 365. Dit brengt u naar het Beveiligings- & compliancecentrum.
+1. **Ga naar Threat Explorer:** Ga naar en meld u aan met uw werk- of <https://protection.office.com> schoolaccount voor Office 365. Dit brengt u naar het Beveiligings- & compliancecentrum.
 
 2. Kies in de linkernavigatie quick-launch de optie **Threat management** \> **Explorer**.
 
@@ -93,7 +93,7 @@ Threat Explorer is een krachtig rapport dat meerdere doeleinden kan dienen, zoal
 
     De *weergave Malware* is momenteel de standaardweergave en legt e-mailberichten vast waarin een malwaredreiging wordt gedetecteerd. De *phish-weergave* werkt op dezelfde manier, voor Phish.
 
-    Alle *e-mailweergave* bevat echter elke e-mail die door de organisatie is ontvangen, ongeacht of er bedreigingen zijn gedetecteerd of niet. Zoals u zich kunt voorstellen, is dit een groot aantal gegevens. Daarom wordt in deze weergave een tijdelijke aanduiding voor het toepassen van een filter voorgesteld. (Deze weergave is alleen beschikbaar voor Klanten van Defender voor Office 365 P2.)
+    Alle *e-mailweergave* bevat echter elke e-mail die door de organisatie is ontvangen, ongeacht of er bedreigingen zijn gedetecteerd of niet. Zoals u zich kunt voorstellen, is dit een groot aantal gegevens. Daarom wordt in deze weergave een tijdelijke aanduiding voor het toepassen van een filter voorgesteld. (Deze weergave is alleen beschikbaar voor Defender voor Office 365 P2-klanten.)
 
     *De weergave* Inzendingen toont alle e-mails die zijn verzonden door een beheerder of gebruiker die zijn gerapporteerd bij Microsoft.
 
@@ -122,7 +122,7 @@ Threat Explorer is een krachtig rapport dat meerdere doeleinden kan dienen, zoal
     - **Bezorgd:** e-mail is bezorgd in het Postvak IN of de map van een gebruiker en de gebruiker heeft rechtstreeks toegang tot de e-mail.
     - **Ongewenste e-mail** (bezorgd bij ongewenste e-mail): e-mail is verzonden naar de map Ongewenste e-mail of verwijderde map van de gebruiker en de gebruiker heeft toegang tot e-mailberichten in de map Ongewenste e-mail of Verwijderd.
     - **Geblokkeerd:** e-mailberichten die in quarantaine zijn geplaatst, die zijn mislukt of die zijn gedropt. (Dit is volledig ontoegankelijk voor de gebruiker.)
-    - **Vervangen:** e-mailberichten waarin schadelijke bijlagen worden vervangen door .txt-bestanden waarin staat dat de bijlage schadelijk was
+    - **Vervangen:** e-mailberichten waarin schadelijke bijlagen worden vervangen door .txt waarin staat dat de bijlage schadelijk was
 
     **Bezorgingslocatie:** het filter Bezorgingslocatie is beschikbaar om beheerders te helpen begrijpen waar verdachte schadelijke e-mail is terecht gekomen en welke acties er zijn ondernomen. De resulterende gegevens kunnen worden geëxporteerd naar een spreadsheet. Mogelijke bezorgingslocaties zijn:
 
@@ -179,7 +179,7 @@ Bezorgingsactie is de actie die is ondernomen op een e-mail vanwege bestaand bel
 
 - **Geblokkeerd:** e-mailberichten die in quarantaine zijn geplaatst, die zijn mislukt of die zijn gedropt. (Dit is volledig ontoegankelijk voor de gebruiker.)
 
-- **Vervangen:** elk e-mailbericht waarin schadelijke bijlagen worden vervangen door .txt-bestanden waarin staat dat de bijlage schadelijk was.
+- **Vervangen:** e-mailberichten waarin schadelijke bijlagen worden vervangen door .txt waarin staat dat de bijlage schadelijk was.
 
 Bezorgingslocatie toont de resultaten van beleidsregels en detecties die na de bezorging worden uitgevoerd. Deze is gekoppeld aan een bezorgactie. Dit veld is toegevoegd om inzicht te geven in de actie die is ondernomen wanneer een probleemmail wordt gevonden. Hier zijn de mogelijke waarden van de bezorgingslocatie:
 
@@ -206,7 +206,7 @@ Bezorgingslocatie toont de resultaten van beleidsregels en detecties die na de b
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Schadelijke e-mail herstellen die is bezorgd in Office 365](remediate-malicious-email-delivered-office-365.md)
+[Herstel schadelijke e-mail die is bezorgd in Office 365](remediate-malicious-email-delivered-office-365.md)
 
 [Microsoft Defender voor Office 365](office-365-ti.md)
 

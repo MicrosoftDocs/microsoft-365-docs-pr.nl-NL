@@ -30,7 +30,7 @@ ms.locfileid: "51165163"
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
@@ -50,8 +50,8 @@ Elke sectie komt overeen met een afzonderlijk artikel in deze oplossing.
 |Fase | Beschrijving | 
 |:-------|:-----|
 | [Fase 1: Voorbereiden](prepare-deployment.md)| Meer informatie over waar u rekening mee moet houden bij het implementeren van Defender voor eindpunten, zoals goedkeuringen van belanghebbenden, milieuoverwegingen, toegangsmachtigingen en acceptatieorder van mogelijkheden. 
-| [Fase 2: Setup](production-deployment.md)|  Krijg richtlijnen voor de eerste stappen die u moet uitvoeren, zodat u toegang hebt tot de portal, zoals het valideren van licenties, het voltooien van de installatiewizard en de netwerkconfiguratie. 
-| [Fase 3: Onboard](onboarding.md) | Meer informatie over het gebruik van implementatieringen, ondersteunde onboarding-hulpprogramma's op basis van het type eindpunt en het configureren van beschikbare mogelijkheden. 
+| [Fase 2: Instellen](production-deployment.md)|  Krijg richtlijnen voor de eerste stappen die u moet uitvoeren, zodat u toegang hebt tot de portal, zoals het valideren van licenties, het voltooien van de installatiewizard en de netwerkconfiguratie. 
+| [Fase 3: Onboarden](onboarding.md) | Meer informatie over het gebruik van implementatieringen, ondersteunde onboarding-hulpprogramma's op basis van het type eindpunt en het configureren van beschikbare mogelijkheden. 
 
 
 Nadat u deze handleiding hebt voltooid, wordt u ingesteld met de juiste toegangsmachtigingen, worden uw eindpunten onboarded en worden sensorgegevens aan de service gemeld, en zijn er mogelijkheden zoals bescherming van de volgende generatie en de beperking van het aanvalsoppervlak aanwezig.
@@ -75,9 +75,9 @@ Hoewel Microsoft Defender voor Endpoint veel mogelijkheden biedt, is het primair
 
 Mogelijkheid | Beschrijving 
 :---|:---
-Eindpuntdetectie en -antwoord | De mogelijkheden voor eindpuntdetectie en -reactie worden gebruikt om inbraakpogingen en actieve inbreuken op te sporen, te onderzoeken en te reageren.
+Detectie van en reactie op eindpunt | De mogelijkheden voor eindpuntdetectie en -reactie worden gebruikt om inbraakpogingen en actieve inbreuken op te sporen, te onderzoeken en te reageren.
 Beveiliging van de volgende generatie | Om de beveiligingsperimeter van uw netwerk verder te versterken, gebruikt Microsoft Defender voor Eindpunt de volgende generatie beveiliging die is ontworpen om alle soorten nieuwe bedreigingen op te vangen.
-Surface-beperking voor aanvallen |  Geef de eerste verdedigingslinie in de stapel op. Door ervoor te zorgen dat configuratie-instellingen correct zijn ingesteld en technieken voor risicobeperking worden toegepast, zijn deze mogelijkheden bestand tegen aanvallen en misbruik.
+Kwetsbaarheid voor aanvallen verminderen |  Geef de eerste verdedigingslinie in de stapel op. Door ervoor te zorgen dat configuratie-instellingen correct zijn ingesteld en technieken voor risicobeperking worden toegepast, zijn deze mogelijkheden bestand tegen aanvallen en misbruik.
 
 Al deze mogelijkheden zijn beschikbaar voor licentiehouders van Microsoft Defender voor eindpunten. Zie Licentievereisten voor [meer informatie.](minimum-requirements.md#licensing-requirements)
 
@@ -85,15 +85,15 @@ Al deze mogelijkheden zijn beschikbaar voor licentiehouders van Microsoft Defend
 
 ### <a name="in-scope"></a>In bereik
 
--   Gebruik van Microsoft Endpoint Manager en Microsoft Endpoint Manager om eindpunten aan te nemen in de service en mogelijkheden te configureren
+-   Gebruik van Microsoft Endpoint Manager en Microsoft Endpoint Manager eindpunten aan boord van de service en configureer mogelijkheden
 
--   EDR-mogelijkheden (Defender for Endpoint Endpoint Detection and Response) inschakelen
+-   Defender voor endpoint-eindpuntdetectie en -respons (EDR) inschakelen
 
 -   De mogelijkheden van Defender voor Endpoint Endpoint Protection Platform (EPP) inschakelen
 
     -   Beveiliging van de volgende generatie
 
-    -   Surface-beperking voor aanvallen
+    -   Kwetsbaarheid voor aanvallen verminderen
 
 
 ### <a name="out-of-scope"></a>Buiten bereik
@@ -110,5 +110,5 @@ De volgende opties vallen buiten het bereik van deze implementatiehandleiding:
 ## <a name="see-also"></a>Zie ook
 - [Fase 1: Voorbereiden](prepare-deployment.md)
 - [Fase 2: Instellen](production-deployment.md)
-- [Fase 3: Onboard](onboarding.md)
+- [Fase 3: Onboarden](onboarding.md)
 - [Implementatie plannen](deployment-strategy.md)

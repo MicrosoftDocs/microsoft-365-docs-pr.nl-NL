@@ -37,9 +37,9 @@ ms.locfileid: "51934415"
 
 
 
-Microsoft 365 Defender kan datum- en tijdgegevens weergeven met uw lokale tijdzone of UTC. De geselecteerde tijdzone is van toepassing op alle datum- en tijdgegevens die worden weergegeven in de volgende functies in het Microsoft 365-beveiligingscentrum:
+Microsoft 365 Defender kan datum- en tijdgegevens weergeven met uw lokale tijdzone of UTC. De geselecteerde tijdzone is van toepassing op alle datum- en tijdgegevens die worden weergegeven in de volgende functies in het Microsoft 365 beveiligingscentrum:
 - Incidenten
 - Geautomatiseerd onderzoek en herstel, inclusief het actiecentrum
 - Geavanceerd opsporen
 
-Als u de tijdzone voor deze functies wilt instellen, gaat u naar  >  **Instellingen Microsoft 365 Defender** Time  >  **zone**.
+Als u de tijdzone voor deze functies wilt instellen, gaat u **naar Instellingen**  >  **Microsoft 365 Defender** Time  >  **zone**.

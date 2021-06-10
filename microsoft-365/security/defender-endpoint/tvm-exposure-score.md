@@ -1,7 +1,7 @@
 ---
-title: Blootstellingsscore bij bedreigings- en kwetsbaarheidsbeheer
-description: De blootstellingsscore voor bedreigings- en kwetsbaarheidsbeheer geeft aan hoe kwetsbaar uw organisatie is voor cyberbeveiligingsdreigingen.
-keywords: exposure score, Microsoft Defender for Endpoint exposure score, Microsoft Defender for Endpoint tvm exposure score, organization exposure score, tvm organization exposure score, threat and vulnerability management, Microsoft Defender for Endpoint
+title: Blootstellingsscore in Threat and Vulnerability Management
+description: De Threat and Vulnerability Management blootstellingsscore geeft aan hoe kwetsbaar uw organisatie is voor cyberbeveiligingsdreigingen.
+keywords: exposure score, Microsoft Defender for Endpoint exposure score, Microsoft Defender for Endpoint tvm exposure score, organization exposure score, tvm organization exposure score, Threat and Vulnerability Management, Microsoft Defender for Endpoint
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -25,19 +25,19 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51934103"
 ---
-# <a name="exposure-score---threat-and-vulnerability-management"></a>Blootstellingsscore - bedreigings- en kwetsbaarheidsbeheer
+# <a name="exposure-score---threat-and-vulnerability-management"></a>Blootstellingsscore - Threat and Vulnerability Management
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
 
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [Bedreigings- en kwetsbaarheidsbeheer](next-gen-threat-and-vuln-mgt.md)
+- [Bedreiging en vulnerability management](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
 
-Uw blootstellingsscore is zichtbaar in het dashboard [Bedreigings- en kwetsbaarheidsbeheer](tvm-dashboard-insights.md) van het Microsoft Defender-beveiligingscentrum. Het geeft aan hoe kwetsbaar uw organisatie is voor cyberbeveiligingsdreigingen. Lage blootstellingsscore betekent dat uw apparaten minder kwetsbaar zijn voor gebruik.
+Uw blootstellingsscore is zichtbaar in het [dashboard Bedreiging en vulnerability management van](tvm-dashboard-insights.md) de Microsoft Defender-beveiligingscentrum. Het geeft aan hoe kwetsbaar uw organisatie is voor cyberbeveiligingsdreigingen. Lage blootstellingsscore betekent dat uw apparaten minder kwetsbaar zijn voor gebruik.
 
 - Snel inzicht krijgen in en identificeren van take-aways op hoog niveau over de staat van beveiliging in uw organisatie.
 - Detecteer en reageer op gebieden waarvoor onderzoek of actie moet worden ondernomen om de huidige status te verbeteren.
@@ -59,11 +59,11 @@ U kunt de problemen oplossen op basis van beveiligingsaanbevelingen met priorite
 
 ## <a name="reduce-your-threat-and-vulnerability-exposure"></a>Uw blootstelling aan bedreigingen en kwetsbaarheid verminderen
 
-Vererk de blootstelling aan bedreigingen en kwetsbaarheid door beveiligingsaanbevelingen [te corrigeren.](tvm-security-recommendation.md) Maak de meeste impact op uw blootstellingsscore door de belangrijkste beveiligingsaanbevelingen te corrigeren, die kunnen worden bekeken in het dashboard bedreigings- en [kwetsbaarheidsbeheer.](tvm-dashboard-insights.md)
+Vererk de blootstelling aan bedreigingen en kwetsbaarheid door beveiligingsaanbevelingen [te corrigeren.](tvm-security-recommendation.md) Maak de meeste impact op uw blootstellingsscore door de belangrijkste beveiligingsaanbevelingen te corrigeren, die kunnen worden bekeken in [het Threat and Vulnerability Management dashboard.](tvm-dashboard-insights.md)
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-- [Overzicht van bedreigings- en kwetsbaarheidsbeheer](next-gen-threat-and-vuln-mgt.md)
+- [Overzicht van bedreigingen en vulnerability management](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft Secure Score voor apparaten](tvm-microsoft-secure-score-devices.md)
 - [Beveiligingsaanbevelingen](tvm-security-recommendation.md)
 - [Tijdlijn van het evenement](threat-and-vuln-mgt-event-timeline.md)

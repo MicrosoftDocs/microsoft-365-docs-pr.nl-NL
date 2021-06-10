@@ -45,7 +45,7 @@ Een inactief apparaat wordt niet per se gemarkeerd vanwege een probleem. De volg
 Als het apparaat om welke reden dan ook niet langer dan zeven dagen is gebruikt, blijft het in de portal de status 'Inactief'.
 
 ### <a name="device-was-reinstalled-or-renamed"></a>Apparaat is opnieuw geïnstalleerd of hernoemd
-Een opnieuw geïnstalleerd of hernoemd apparaat genereert een nieuwe apparaatentiteit in het Microsoft Defender-beveiligingscentrum. De vorige apparaatentiteit blijft behouden met de status 'Inactief' in de portal. Als u een apparaat opnieuw hebt geïnstalleerd en het Defender for Endpoint-pakket hebt geïmplementeerd, zoekt u naar de naam van het nieuwe apparaat om te controleren of het apparaat normaal rapporteert.
+Een opnieuw geïnstalleerd of hernoemd apparaat genereert een nieuwe apparaatentiteit in Microsoft Defender-beveiligingscentrum. De vorige apparaatentiteit blijft behouden met de status 'Inactief' in de portal. Als u een apparaat opnieuw hebt geïnstalleerd en het Defender for Endpoint-pakket hebt geïmplementeerd, zoekt u naar de naam van het nieuwe apparaat om te controleren of het apparaat normaal rapporteert.
 
 ### <a name="device-was-offboarded"></a>Apparaat is offboarded
 Als het apparaat buiten het bord is geplaatst, wordt het nog steeds weergegeven in de lijst met apparaten. Na zeven dagen moet de status van het apparaat worden gewijzigd in inactief.
@@ -66,7 +66,7 @@ Deze status geeft aan dat er beperkte communicatie is tussen het apparaat en de 
 De volgende voorgestelde acties kunnen helpen bij het oplossen van problemen met een verkeerd geconfigureerd apparaat met communicatieproblemen:
 
 - [Controleer of het apparaat een internetverbinding heeft](troubleshoot-onboarding.md#troubleshoot-onboarding-issues-on-the-device)</br>
-  Voor de Microsoft Defender voor eindpunten-sensor moet Microsoft Windows HTTP (WinHTTP) sensorgegevens rapporteren en communiceren met de Microsoft Defender voor Eindpunt-service.
+  Voor de Microsoft Defender for Endpoint-sensor moet Microsoft Windows HTTP (WinHTTP) sensorgegevens rapporteren en communiceren met de Microsoft Defender for Endpoint-service.
 
 - [Clientconnectiviteit verifiëren met URL's van Microsoft Defender voor endpoint-service](configure-proxy-internet.md#verify-client-connectivity-to-microsoft-defender-for-endpoint-service-urls)</br>
   Controleer of de proxyconfiguratie is voltooid, of WinHTTP kan ontdekken en communiceren via de proxyserver in uw omgeving, en of de proxyserver verkeer toestaat naar de URL's van de Microsoft Defender-service voor eindpunten.
@@ -78,16 +78,16 @@ Een verkeerd geconfigureerd apparaat met de status 'Geen sensorgegevens' heeft c
 Volg theses actions to correct known issues related to a misconfigured device with status 'No sensor data':
 
 - [Controleer of het apparaat een internetverbinding heeft](troubleshoot-onboarding.md#troubleshoot-onboarding-issues-on-the-device)</br>
-  Voor de Microsoft Defender voor eindpunten-sensor moet Microsoft Windows HTTP (WinHTTP) sensorgegevens rapporteren en communiceren met de Microsoft Defender voor Eindpunt-service.
+  Voor de Microsoft Defender for Endpoint-sensor moet Microsoft Windows HTTP (WinHTTP) sensorgegevens rapporteren en communiceren met de Microsoft Defender for Endpoint-service.
 
 - [Clientconnectiviteit verifiëren met URL's van Microsoft Defender voor endpoint-service](configure-proxy-internet.md#verify-client-connectivity-to-microsoft-defender-for-endpoint-service-urls)</br>
   Controleer of de proxyconfiguratie is voltooid, of WinHTTP kan ontdekken en communiceren via de proxyserver in uw omgeving, en of de proxyserver verkeer toestaat naar de URL's van de Microsoft Defender-service voor eindpunten.
 
 - [Controleren of de diagnostische gegevensservice is ingeschakeld](troubleshoot-onboarding.md#ensure-the-diagnostics-service-is-enabled)</br>
-Als de apparaten niet correct rapporteren, moet u mogelijk controleren of de diagnostische gegevensservice van Windows 10 is ingesteld op automatisch starten en wordt uitgevoerd op het eindpunt.
+Als de apparaten niet correct rapporteren, moet u mogelijk controleren of de diagnostische Windows 10 is ingesteld op automatisch starten en wordt uitgevoerd op het eindpunt.
 
 - [Ervoor zorgen dat Microsoft Defender Antivirus niet is uitgeschakeld door beleid](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy)</br>
-Als op uw apparaten een antimalwareclient van derden wordt uitgevoerd, moet het ELAM-stuurprogramma (Antimalware) van Microsoft Defender Antivirus Early Launch (ELAM) worden ingeschakeld.
+Als op uw apparaten een antimalwareclient van derden wordt uitgevoerd, moet het elmalware-stuurprogramma (Early Launch Antimalware Microsoft Defender Antivirus Early Launch Antimalware( ELAM) van Defender for Endpoint worden ingeschakeld.
 
 Als u corrigerende acties hebt ondernomen en de apparaatstatus nog steeds niet is geconfigureerd, [opent u een ondersteuningsticket](https://go.microsoft.com/fwlink/?LinkID=761093&clcid=0x409).
 

@@ -38,7 +38,7 @@ ms.locfileid: "52772135"
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
 
-Methode|Retourtype |Omschrijving
+Methode|Retourtype |Beschrijving
 :---|:---|:---
 [Gebruikersgerelateerde waarschuwingen lijst](get-user-related-alerts.md) | [waarschuwingsverzameling](alerts.md) |  Vermeld alle waarschuwingen die aan een gebruiker [zijn gekoppeld.](user.md)
 [Gebruikersgerelateerde apparaten lijst](get-user-related-machines.md) | [machineverzameling](machine.md) | Vermeld alle apparaten die door een gebruiker zijn [aangemeld.](user.md)
