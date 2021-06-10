@@ -1,5 +1,5 @@
 ---
-title: Opt-in voor migratie van Microsoft Cloud Germany (Microsoft Cloud Deutschland) naar Office 365-services in de nieuwe Duitse datacenterregio's
+title: Opt-in voor migratie van Microsoft Cloud Germany (Microsoft Cloud Deutschland) naar Office 365 services in de nieuwe Duitse datacenterregio's
 ms.author: andyber
 author: andybergen
 manager: laurawi
@@ -26,7 +26,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 04/06/2021
 ms.locfileid: "51592070"
 ---
-# <a name="how-to-opt-in-for-new-migration-from-microsoft-cloud-germany-microsoft-cloud-deutschland-to-office-365-services-in-the-new-german-datacenter-regions"></a>Opt-in voor nieuwe migratie van Microsoft Cloud Germany (Microsoft Cloud Deutschland) naar Office 365-services in de nieuwe Duitse datacenterregio's
+# <a name="how-to-opt-in-for-new-migration-from-microsoft-cloud-germany-microsoft-cloud-deutschland-to-office-365-services-in-the-new-german-datacenter-regions"></a>Opt-in voor nieuwe migratie van Microsoft Cloud Germany (Microsoft Cloud Deutschland) naar Office 365 in de nieuwe Duitse datacenterregio's
 
 > [!NOTE]
 > Dit artikel is alleen van toepassing op klanten van Microsoft Cloud Germany (Microsoft Cloud Deutschland).
@@ -36,11 +36,11 @@ ms.locfileid: "51592070"
 
 Als u een in aanmerking komende klant bent met uw service die is ingericht in Microsoft Cloud Germany (Microsoft Cloud Deutschland) en u zich hebt aangemeld als tenantbeheerder (globale) beheerder, kunt u zich op een pagina in het Microsoft 365-beheercentrum voor migratie kiezen.
 
-Als u de pagina wilt openen, **vouwt** u Instellingen uit in het navigatiedeelvenster aan de linkerkant en klikt u vervolgens op **Organisatieprofiel.**
+Als u de pagina wilt openen, **vouwt u Instellingen** uit in het navigatiedeelvenster aan de linkerkant en klikt u vervolgens op **Organisatieprofiel.**
 
-Schuif op **de pagina Organisatieprofiel** omlaag naar de sectie Migreren van **Microsoft Cloud Germany (Microsoft Cloud Deutschland) naar Office 365-services in** de sectie Nieuwe Duitse datacenterregio's.
+Schuif op **de pagina Organisatieprofiel** omlaag naar de sectie Migreren van **Microsoft Cloud Germany (Microsoft Cloud Deutschland)** naar Office 365 services in de nieuwe duitse datacenterregio's.
 
-Als u uw service wilt migreren van Microsoft Cloud Germany (Microsoft Cloud Deutschland) naar Office 365-services in de nieuwe Duitse datacenterregio's, klikt u op **Opt-in.**
+Als u uw service wilt migreren van Microsoft Cloud Germany (Microsoft Cloud Deutschland) naar Office 365 services in de nieuwe Duitse datacenterregio's, klikt u op **Opt-in.**
  
 ![Introductie van opt-in](../media/ms-cloud-germany-migration-opt-in/tenant-migration.png)
 
@@ -48,7 +48,7 @@ Aan de rechterkant van het scherm wordt een nieuwe sectie weergegeven om uw beve
  
 ![Acceptatie van opt-in](../media/ms-cloud-germany-migration-opt-in/tenant-migration-new-regions.png)
 
-Wanneer u zich hebt opgeslagen namens uw tenant, zien alle beheerders de bevestiging in Migreren van **Microsoft Cloud Germany (Microsoft Cloud Deutschland) naar Office 365-services in** de sectie nieuwe Duitse datacenterregio's, inclusief de datum van opt-in. Beheerders ontvangen ook een bevestiging in het Berichtencentrum van het Microsoft 365-beheercentrum. 
+Wanneer u zich hebt opgeslagen namens uw tenant, zien alle beheerders de bevestiging in Migreren van **Microsoft Cloud Germany (Microsoft Cloud Deutschland) naar Office 365-services in** de sectie nieuwe Duitse datacenterregio's, inclusief de datum van opt-in. Beheerders ontvangen ook een bevestiging in het Berichtencentrum van het Microsoft 365 beheercentrum. 
  
 ![Bevestiging van opt-in](../media/ms-cloud-germany-migration-opt-in/tenant-migration2.png)
 
@@ -58,7 +58,7 @@ Migraties beginnen begin 2021 voor organisaties die zich hebben voor de microsof
 
 ## <a name="what-happens-if-you-do-not-opt-in-for-migration-in-admin-center"></a>Wat gebeurt er als u zich niet opt-in voor migratie in het beheercentrum?
 
-De Voorwaarden voor onlineservices zijn gewijzigd in termen waarmee Microsoft uw Microsoft 365-, Dynamics 365- en Power BI-gegevens en -abonnementen kan migreren van Microsoft Cloud Deutschland naar een nieuw datacenter. Deze voorwaarden worden van kracht op elk Microsoft Cloud Germany -abonnement (Microsoft Cloud Deutschland) dat is verlengd met ingang van 1 mei 2020. 
+De Voorwaarden voor onlineservices zijn gewijzigd in termen waarmee Microsoft uw Microsoft 365, Dynamics 365 en Power BI-gegevens en -abonnementen van Microsoft Cloud Deutschland kan migreren naar een nieuw datacenter. Deze voorwaarden worden van kracht op elk Microsoft Cloud Germany -abonnement (Microsoft Cloud Deutschland) dat is verlengd met ingang van 1 mei 2020. 
 
 De beheerder van de klanttender ontvangt een melding in e-mail en het Berichtencentrum adviseert dat de aanmelding voor migratie automatisch zal plaatsvinden voor een migratie die door Microsoft wordt ondersteund. Deze melding wordt ten minste 30 dagen vóór de automatische opt-in verzonden. Na de migratieopt-in worden alle communicatie- en statusupdates verzonden naar tenantbeheerders van klanten in het Berichtencentrum.
 
@@ -72,7 +72,7 @@ Beheerders van klant- en partnerten tenants worden aangeraden zich aan te geven 
 
 Aan de slag:
 
-- [Migratie van Microsoft Cloud Deutschland naar Office 365-services in de nieuwe Duitse datacenterregio's](ms-cloud-germany-transition.md)
+- [Migratie van Microsoft Cloud Deutschland naar Office 365 services in de nieuwe Duitse datacenterregio's](ms-cloud-germany-transition.md)
 - [Microsoft Cloud Deutschland-migratiehulp](https://aka.ms/germanymigrateassist)
 - [Klantervaring tijdens de migratie](ms-cloud-germany-transition-experience.md)
 
@@ -85,5 +85,5 @@ Door de overgang lopen:
 Cloud-apps:
 
 - [Dynamics 365-migratieprogrammagegevens](/dynamics365/get-started/migrate-data-german-region)
-- [Informatie over power bi-migratieprogramma's](/power-bi/admin/service-admin-migrate-data-germany)
-- [Aan de slag met uw Microsoft Teams-upgrade](/microsoftteams/upgrade-start-here)
+- [Power BI migratieprogrammagegevens](/power-bi/admin/service-admin-migrate-data-germany)
+- [Aan de slag met uw Microsoft Teams upgrade](/microsoftteams/upgrade-start-here)

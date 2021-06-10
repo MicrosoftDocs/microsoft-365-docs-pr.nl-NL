@@ -1,5 +1,5 @@
 ---
-title: Gebruikers toegang geven tot het beveiligings- & compliancecentrum
+title: Gebruikers toegang geven tot het Beveiligings- en compliancecentrum
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -16,7 +16,7 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 2cfce2c8-20c5-47f9-afc4-24b059c1bd76
-description: Gebruikers moeten machtigingen krijgen toegewezen in het Microsoft 365 Security & Compliance Center voordat ze een van de beveiligings- of compliancefuncties kunnen beheren.
+description: Gebruikers moeten machtigingen krijgen toegewezen in het Microsoft 365 beveiligingscentrum & compliancecentrum voordat ze een van de beveiligings- of compliancefuncties kunnen beheren.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
@@ -27,7 +27,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 04/06/2021
 ms.locfileid: "51599921"
 ---
-# <a name="give-users-access-to-the-security--compliance-center"></a>Gebruikers toegang geven tot het beveiligings- & compliancecentrum
+# <a name="give-users-access-to-the-security--compliance-center"></a>Gebruikers toegang geven tot het Beveiligings- en compliancecentrum
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -44,9 +44,9 @@ Voor meer informatie over de verschillende machtigingen die u aan gebruikers kun
 
 - U moet een globale beheerder zijn of lid zijn van de rollengroep Organisatiebeheer in het beveiligings- & compliancecentrum, om de stappen in dit artikel uit te voeren.
 
-- Rollengroepen voor het beveiligings- & compliancecentrum hebben mogelijk vergelijkbare namen als de rollengroepen in Exchange Online, maar ze zijn niet hetzelfde.
+- Rollengroepen voor het Beveiligings- & compliancecentrum hebben mogelijk vergelijkbare namen als de rollengroepen in Exchange Online, maar ze zijn niet hetzelfde.
 
-- Lidmaatschappen van rollengroep worden niet gedeeld tussen Exchange Online en het Beveiligings- & Compliancecentrum.
+- Lidmaatschappen van rollengroep worden niet gedeeld tussen Exchange Online en & Compliancecentrum.
 
 - DAP-partners (Gedelegeerde Toegangsmachtiging) met machtigingen voor Beheer namens (AOBO) hebben geen toegang tot het Beveiligings- & Compliancecentrum.
 
@@ -64,7 +64,7 @@ Voor meer informatie over de verschillende machtigingen die u aan gebruikers kun
 
 ## <a name="use-security--compliance-center-powershell-to-give-another-user-access-to-the-security--compliance-center"></a>Gebruik Security & Compliance Center PowerShell om een andere gebruiker toegang te geven tot het & Compliance Center
 
-1. [Maak verbinding met & Compliance Center PowerShell.](/powershell/exchange/connect-to-scc-powershell)
+1. [Verbinding maken met Beveiligings- en compliancecentrum van Powershell](/powershell/exchange/connect-to-scc-powershell).
 
 2. Gebruik de volgende syntaxis:
 

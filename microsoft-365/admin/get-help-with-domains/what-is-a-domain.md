@@ -59,7 +59,7 @@ U kunt een standaarddomein zoals  *uwbedrijf.onmicrosoft gebruiken. <span> com* 
 
 Microsoft Support bellen : [hulp bij het instellen van een domein](../../business-video/get-help-support.md)
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Een domein kopen](buy-a-domain-name.md) (artikel)
 

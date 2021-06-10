@@ -96,7 +96,7 @@ Zie Antimalware-beleid maken en implementeren voor meer informatie over het conf
 
 4. Vouw de boom uit Windows **onderdelen > Microsoft Defender Antivirus > KAARTEN**
 
-5. Dubbelklik op **Deelnemen aan Microsoft MAPS.** Controleer of de optie is ingeschakeld en ingesteld op **BasisKAARTEN** of **Geavanceerde KAARTEN.** Selecteer **OK**.
+5. Dubbelklik op **Deelnemen aan Microsoft MAPS.** Controleer of de optie is ingeschakeld en ingesteld op **BasisKAARTEN** of **Geavanceerde KAARTEN.** Selecteer **OK**.
 
 6. Dubbelklik op **Bestandsvoorbeelden verzenden wanneer verdere analyse vereist is.** Controleer of de eerste optie is ingesteld op **Ingeschakeld** en of de andere opties zijn ingesteld op:
 
@@ -107,7 +107,7 @@ Zie Antimalware-beleid maken en implementeren voor meer informatie over het conf
         > De **optie Veilige steekproeven** verzenden (1) betekent dat de meeste steekproeven automatisch worden verzonden. Bestanden die waarschijnlijk persoonlijke gegevens bevatten, worden nog steeds gevraagd en moeten extra worden bevestigd.
         > Als u de optie Altijd **vragen** (0) instelt, wordt de beveiligingstoestand van het apparaat lager. Als u dit **instelt op** [](configure-block-at-first-sight-microsoft-defender-antivirus.md) Nooit verzenden (2) betekent dit dat de functie Blokkeren op het eerste gezicht van Microsoft Defender voor Eindpunt niet werkt.
 
-7. Selecteer **OK**.
+7. Selecteer **OK**.
 
 ## <a name="use-powershell-cmdlets-to-turn-on-cloud-delivered-protection"></a>PowerShell-cmdlets gebruiken om beveiliging via de cloud in te zetten
 
@@ -153,7 +153,7 @@ Zie [WMIv2-API'Windows Defender](/previous-versions/windows/desktop/defender/win
 > [!NOTE]
 > Als automatische voorbeeldinzending is geconfigureerd met Groepsbeleid, is de instelling grijs en niet beschikbaar.
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-articles"></a>Aanverwante artikelen
 
 - [De time-outperiode voor cloudblokkering configureren](configure-cloud-block-timeout-period-microsoft-defender-antivirus.md)
 - [Blok configureren op het eerste gezicht](configure-block-at-first-sight-microsoft-defender-antivirus.md)

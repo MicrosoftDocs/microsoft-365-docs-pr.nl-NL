@@ -75,7 +75,7 @@ POST https://api.securitycenter.microsoft.com/api/machines/{machineId}/setDevice
 
 ## <a name="request-headers"></a>Kopteksten aanvragen
 
-Naam | Type | Omschrijving
+Naam | Type | Beschrijving
 :---|:---|:---
 Autorisatie | Tekenreeks | Bearer {token}. **Vereist**.
 Inhoudstype | tekenreeks | toepassing/json. **Vereist**.
@@ -84,7 +84,7 @@ Inhoudstype | tekenreeks | toepassing/json. **Vereist**.
 
 In de objectaanvraag moet u een JSON-object de volgende parameters geven:
 
-Parameter |    Type    | Omschrijving
+Parameter |    Type    | Beschrijving
 :---|:---|:---
 Apparaatwaarde |    Enum |    Apparaatwaarde. Toegestane waarden zijn: 'Normaal', 'Laag' en 'Hoog'. **Vereist**.
 

@@ -27,7 +27,7 @@ ms.locfileid: "52840992"
 > [!TIP]
 > Laat uw gebruikers eenvoudig toegang krijgen tot cloudservices en on-premises toepassingen en schakel moderne beheermogelijkheden voor alle apparaten in. Zie Uw externe werknemers beveiligen voor [meer informatie.](/enterprise-mobility-security/remote-work/) 
 
-<center><h2>Microsoft Defender for Endpoint</center></h2>
+<center><h2>Microsoft Defender voor Eindpunt</center></h2>
 <table>
 <tr>
 <td><a href="#tvm"><center><img src="images/TVM_icon.png" alt="threat and vulnerability icon"> <br><b>Bedreiging & vulnerability management</b></center></a></td>

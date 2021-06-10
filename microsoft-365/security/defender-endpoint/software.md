@@ -44,7 +44,7 @@ ms.locfileid: "52771396"
 
 ## <a name="methods"></a>Methoden
 
-Methode |Retourtype |Omschrijving
+Methode |Retourtype |Beschrijving
 :---|:---|:---
 [Lijst van software](get-software.md) | Softwareverzameling | Vermeld de inventaris van de organisatiesoftware.
 [Software per id ophalen](get-software-by-id.md) | Software | Een specifieke software downloaden op de software-id.
@@ -55,7 +55,7 @@ Methode |Retourtype |Omschrijving
 
 ## <a name="properties"></a>Eigenschappen
 
-Eigenschap |   Type   |   Omschrijving
+Eigenschap |   Type   |   Beschrijving
 :---|:---|:---
 id | Tekenreeks | Software-id
 Naam | Tekenreeks | Softwarenaam

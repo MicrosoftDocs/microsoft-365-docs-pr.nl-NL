@@ -1,5 +1,5 @@
 ---
-title: Een SharePoint-site verplaatsen naar een andere geografische locatie
+title: Een site SharePoint naar een andere geografische locatie verplaatsen
 ms.reviewer: adwood
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -13,7 +13,7 @@ ms.collection:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: Meer informatie over het verplaatsen van een SharePoint-site naar een andere geografische locatie in uw multi-geoomgeving en het communiceren van de verwachtingen van de wijzigingen aan uw gebruikers.
+description: Meer informatie over het verplaatsen van een SharePoint naar een andere geografische locatie in uw multi-geo-omgeving en de verwachtingen van de wijzigingen aan uw gebruikers communiceren.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: eed323b2e2b8f68a4a603052657e17495bb17690
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
@@ -22,31 +22,31 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50910928"
 ---
-# <a name="move-a-sharepoint-site-to-a-different-geo-location"></a>Een SharePoint-site verplaatsen naar een andere geografische locatie
+# <a name="move-a-sharepoint-site-to-a-different-geo-location"></a>Een site SharePoint naar een andere geografische locatie verplaatsen
 
-Met sharePoint-site geoverplaatsing kunt u SharePoint-sites verplaatsen naar andere geografische locaties in uw multi-geo-omgeving.
+Met SharePoint site geoverplaatsing kunt u SharePoint sites verplaatsen naar andere geografische locaties in uw multi-geo-omgeving.
 
 De volgende typen site kunnen worden verplaatst tussen geografische locaties:
 
-- Microsoft 365 Met de groep verbonden sites
-- Moderne sites zonder microsoft 365-groep
-- Klassieke SharePoint-sites
+- Microsoft 365 Sites met groepsconnectie
+- Moderne sites zonder een Microsoft 365 groep
+- Klassieke SharePoint sites
 - Communicatiesites
 
-U moet een globale beheerder of SharePoint-beheerder zijn om een site tussen geografische locaties te verplaatsen.
+U moet een globale beheerder of beheerder SharePoint om een site tussen geografische locaties te verplaatsen.
 
-Er is een venster alleen-lezen tijdens de geoverplaatsing van de SharePoint-site van ongeveer 4-6 uur, afhankelijk van de site-inhoud.
+Er is een venster alleen-lezen tijdens de SharePoint site geoverplaatsing van ongeveer 4-6 uur, afhankelijk van de site-inhoud.
 
 ## <a name="best-practices"></a>Aanbevolen procedures
 
-- Probeer een SharePoint-site te verplaatsen op een testsite om vertrouwd te raken met de procedure.
+- Probeer een SharePoint site verplaatsen op een testsite om vertrouwd te raken met de procedure.
 - Controleer of de site kan worden verplaatst vóór het plannen of uitvoeren van de verhuizing.
 - Indien mogelijk worden cross-geosites verplaatst voor buiten de werkuren om de impact van de gebruiker te beperken.
 - Communiceer met beïnvloede gebruikers voordat de sites worden verplaatst.
 
 ## <a name="communicating-to-your-users"></a>Communiceren met uw gebruikers
 
-Wanneer u SharePoint-sites verplaatst tussen geografische locaties, is het belangrijk om te communiceren met de gebruikers van de sites (meestal iedereen met de mogelijkheid om de site te bewerken) wat u kunt verwachten. Dit kan gebruikersverwarring en oproepen naar uw helpdesk helpen verminderen. E-mail de gebruikers van uw sites vóór de verhuizing en laat ze de volgende informatie weten:
+Wanneer u SharePoint sites verplaatst tussen geografische locaties, is het belangrijk om te communiceren met de gebruikers van de sites (meestal iedereen met de mogelijkheid om de site te bewerken) wat u kunt verwachten. Dit kan gebruikersverwarring en oproepen naar uw helpdesk helpen verminderen. E-mail de gebruikers van uw sites vóór de verhuizing en laat ze de volgende informatie weten:
 
 - Wanneer de overstap wordt verwacht en hoe lang deze naar verwachting zal duren
 - Naar welke geografische locatie de site wordt verplaatst en de URL voor toegang tot de nieuwe locatie
@@ -56,14 +56,14 @@ Wanneer u SharePoint-sites verplaatst tussen geografische locaties, is het belan
 
 Zorg ervoor dat u de gebruikers van uw sites een e-mail stuurt wanneer de overstap is voltooid, zodat ze kunnen hervatten met werken op hun sites.
 
-## <a name="scheduling-sharepoint-site-moves"></a>SharePoint-site verplaatsen plannen
+## <a name="scheduling-sharepoint-site-moves"></a>Site-SharePoint plannen
 
-U kunt sharePoint-sitebewegingen van tevoren plannen (verder in dit artikel beschreven). U kunt bewegingen als volgt plannen:
+U kunt de SharePoint van tevoren plannen (verder in dit artikel beschreven). U kunt bewegingen als volgt plannen:
 
 - U kunt maximaal 4.000 bewegingen tegelijk plannen.
 - Wanneer de bewegingen beginnen, kunt u meer plannen, met een maximum van 4.000 in behandeling zijnde bewegingen in de wachtrij en een bepaalde tijd.
 
-Als u een geo-move van een SharePoint-site voor een later tijdstip wilt plannen, moet u een van de volgende parameters opnemen wanneer u de move start:
+Als u een SharePoint site geo-move voor een later tijdstip wilt plannen, moet u een van de volgende parameters opnemen wanneer u de move start:
 
 - `PreferredMoveBeginDate` – De verhuizing begint waarschijnlijk op dit opgegeven tijdstip.
 - `PreferredMoveEndDate` – De verhuizing wordt waarschijnlijk voltooid op deze opgegeven tijd, op basis van de beste inspanning.
@@ -72,15 +72,15 @@ Tijd moet worden opgegeven in UTC (Coordinated Universal Time) voor beide parame
 
 ## <a name="moving-the-site"></a>De site verplaatsen
 
-Voor geo-verplaatsen van SharePoint-site moet u verbinding maken en de overstap uitvoeren vanaf de URL van SharePoint-beheerder op de geografische locatie waar de site zich bevindt.
+SharePoint site geo-move vereist dat u verbinding maakt en de overstap maakt van de url van de beheerder SharePoint de geografische locatie waar de site zich bevindt.
 
-Als de url van de site bijvoorbeeld de URL van de site is, maakt u verbinding met de URL van <https://contosohealthcare.sharepoint.com/sites/Turbines> de SharePoint-beheerder op <https://contosohealthcare-admin.sharepoint.com> :
+Als de url van de site bijvoorbeeld de URL van de site is, maakt u verbinding met <https://contosohealthcare.sharepoint.com/sites/Turbines> de url SharePoint beheerder op <https://contosohealthcare-admin.sharepoint.com> :
 
 ```powershell
 Connect-SPOService -Url https://contosohealthcare-admin.sharepoint.com
 ```
 
-![SharePoint Online Management Shell-venster met de Connect-SPOService opdracht](../media/move-onedrive-between-geo-locations-image1.png)
+![SharePoint Venster Onlinebeheershell met de Connect-SPOService opdracht](../media/move-onedrive-between-geo-locations-image1.png)
 
 ### <a name="validating-the-environment"></a>De omgeving valideren
 
@@ -102,13 +102,13 @@ Start-SPOSiteContentMove -SourceSiteUrl <SourceSiteUrl> -ValidationOnly -Destina
 
 Dit geeft succes *als* de site klaar is om te worden verplaatst of *Mislukken* als er een van de geblokkeerde voorwaarden aanwezig is.
 
-### <a name="start-a-sharepoint-site-geo-move-for-a-site-with-no-associated-microsoft-365-group"></a>Een sharePoint-site geo-move starten voor een site zonder gekoppelde Microsoft 365-groep
+### <a name="start-a-sharepoint-site-geo-move-for-a-site-with-no-associated-microsoft-365-group"></a>Een geografische SharePoint site starten voor een site zonder gekoppelde Microsoft 365 Groep
 
 Standaard wordt de oorspronkelijke URL voor de site gewijzigd in de URL van de doellocatie. Bijvoorbeeld:
 
 <https://Contoso.sharepoint.com/sites/projectx> Aan <https://ContosoEUR.sharepoint.com/sites/projectx>
 
-Voor sites zonder Microsoft 365-groep kunt u de naam van de site ook wijzigen met de `-DestinationUrl` parameter. Bijvoorbeeld:
+Voor sites zonder Microsoft 365 groep kunt u de naam van de site ook wijzigen met de `-DestinationUrl` parameter. Bijvoorbeeld:
 
 <https://Contoso.sharepoint.com/sites/projectx> Aan <https://ContosoEUR.sharepoint.com/sites/projecty>
 
@@ -120,11 +120,11 @@ Start-SPOSiteContentMove -SourceSiteUrl <siteURL> -DestinationDataLocation <Dest
 
 ![Schermafbeelding van PowerShell-venster met Start-SPOSiteContentMove cmdlet](../media/multi-geo-sharepoint-site-move-powershell.png)
 
-### <a name="start-a-sharepoint-site-geo-move-for-a-microsoft-365-group-connected-site"></a>Een geoverplaatsing van een SharePoint-site starten voor een site met microsoft 365-groep
+### <a name="start-a-sharepoint-site-geo-move-for-a-microsoft-365-group-connected-site"></a>Een geoverplaatsing SharePoint site starten voor een Microsoft 365 met groep verbonden site
 
-Als u een met Office 365 Groep verbonden site wilt verplaatsen, moet de globale beheerder of SharePoint-beheerder eerst het kenmerk Voorkeursgegevenslocatie (PDL) voor de Office 365-groep wijzigen.
+Als u een Office 365 groep verbonden site wilt verplaatsen, moet de globale beheerder of SharePoint-beheerder eerst het kenmerk Voorkeursgegevenslocatie (PDL) voor de groep Office 365 wijzigen.
 
-De PDL voor een Microsoft 365-groep instellen:
+De PDL voor een groep Microsoft 365 instellen:
 
 ```PowerShell
 Set-SPOUnifiedGroup -PreferredDataLocation <PDL> -GroupAlias <GroupAlias>
@@ -137,11 +137,11 @@ Nadat u het PDF-bericht hebt bijgewerkt, kunt u de site verplaatsen:
 Start-SPOUnifiedGroupMove -GroupAlias <GroupAlias> -DestinationDataLocation <DestinationDataLocation>
 ```
 
-## <a name="cancel-a-sharepoint-site-geo-move"></a>Een geo-move van een SharePoint-site annuleren
+## <a name="cancel-a-sharepoint-site-geo-move"></a>Een geo-SharePoint site annuleren
 
-U kunt een geoverplaatsing van een SharePoint-site stoppen, mits de beweging niet wordt uitgevoerd of voltooid met de `Stop-SPOSiteContentMove` cmdlet.
+U kunt een SharePoint site geoverplaatsing stoppen, mits de beweging niet wordt uitgevoerd of voltooid met behulp van de `Stop-SPOSiteContentMove` cmdlet.
 
-## <a name="determining-the-status-of-a-sharepoint-site-geo-move"></a>De status van een geo-move van een SharePoint-site bepalen
+## <a name="determining-the-status-of-a-sharepoint-site-geo-move"></a>De status van een geo-SharePoint van een site bepalen
 
 Met de volgende cmdlets kunt u de status van een site verplaatsen in de geo waar u mee verbonden bent bepalen:
 
@@ -185,39 +185,39 @@ Als een gebruiker een bestand bij werkt terwijl de overstap wordt uitgevoerd, on
 
 ### <a name="sharing-links"></a>Koppelingen voor delen
 
-Wanneer de geoverplaatsing van de SharePoint-site is voltooid, worden de bestaande gedeelde koppelingen voor de bestanden die zijn verplaatst, automatisch omgeleid naar de nieuwe geografische locatie.
+Wanneer de SharePoint site geoverplaatsing is voltooid, worden de bestaande gedeelde koppelingen voor de bestanden die zijn verplaatst, automatisch omgeleid naar de nieuwe geografische locatie.
 
 ### <a name="most-recently-used-files-in-office-mru"></a>Meest recent gebruikte bestanden in Office (MRU)
 
 De MRU-service wordt bijgewerkt met de url van de site en de inhouds-URL's van de site zodra de overstap is voltooid. Dit geldt voor Word, Excel en PowerPoint.
 
-### <a name="onenote-experience"></a>OneNote-ervaring
+### <a name="onenote-experience"></a>OneNote ervaring
 
-OneNote win32-client en UWP-app (Universal) worden notitieblokken automatisch gedetecteerd en naadloos gesynchroniseerd naar de nieuwe sitelocatie zodra de site is verplaatst. De gebruiker hoeft zich niet opnieuw aan te melden of een andere actie uit te voeren. De enige zichtbare indicator voor de gebruiker is dat de synchronisatie van notitieblokken mislukt wanneer de site wordt verplaatst. Deze ervaring is beschikbaar in de volgende OneNote-clientversies:
+OneNote win32-client en uwp-app (Universal) worden notitieblokken automatisch gedetecteerd en naadloos gesynchroniseerd met de nieuwe sitelocatie zodra de site is verplaatst. De gebruiker hoeft zich niet opnieuw aan te melden of een andere actie uit te voeren. De enige zichtbare indicator voor de gebruiker is dat de synchronisatie van notitieblokken mislukt wanneer de site wordt verplaatst. Deze ervaring is beschikbaar in de volgende OneNote clientversies:
 
 - OneNote win32 – Versie 16.0.8326.2096 (en hoger)
 - OneNote UWP – Versie 16.0.8431.1006 (en hoger)
-- OneNote Mobile App – Versie 16.0.8431.1011 (en hoger)
+- OneNote Mobiele app : versie 16.0.8431.1011 (en hoger)
 
-### <a name="teams-applicable-to-microsoft-365-group-connected-sites"></a>Teams (van toepassing op verbonden sites van Microsoft 365 Group)
+### <a name="teams-applicable-to-microsoft-365-group-connected-sites"></a>Teams (van toepassing op verbonden Microsoft 365 groep)
 
-Wanneer de geo-move van de SharePoint-site is voltooid, hebben gebruikers toegang tot hun Microsoft 365 Group-sitebestanden in de Teams-app. Bovendien blijven bestanden die worden gedeeld via Teams-chat vanaf hun site vóór geo-move, werken nadat de overstap is voltooid.
+Wanneer de SharePoint site geo move is voltooid, hebben gebruikers toegang tot hun Microsoft 365 Groepssitebestanden in de Teams app. Bovendien blijven bestanden die worden gedeeld via Teams chat vanaf hun site vóór geo-move, werken nadat de move is voltooid.
 
-### <a name="sharepoint-mobile-app-iosandroid"></a>SharePoint Mobile App (iOS/Android)
+### <a name="sharepoint-mobile-app-iosandroid"></a>SharePoint Mobiele app (iOS/Android)
 
-De Mobiele SharePoint-app is compatibel met cross-geo en kan de nieuwe geografische locatie van de site detecteren.
+De SharePoint mobiele app is compatibel met cross geo en kan de nieuwe geografische locatie van de site detecteren.
 
-### <a name="sharepoint-workflows"></a>SharePoint-werkstromen
+### <a name="sharepoint-workflows"></a>SharePoint werkstromen
 
-SharePoint 2013-werkstromen moeten opnieuw worden gepubliceerd na de siteverplaatsing. SharePoint 2010-werkstromen moeten normaal blijven werken.
+SharePoint 2013-werkstromen moeten opnieuw worden gepubliceerd nadat de site is verplaatst. SharePoint 2010-werkstromen moeten normaal blijven werken.
 
 ### <a name="apps"></a>Apps
 
 Als u een site met apps verplaatst, moet u de app opnieuw instantieren op de nieuwe geografische locatie van de site, omdat de app en de verbindingen mogelijk niet beschikbaar zijn op de geografische locatie van de bestemming.
 
-### <a name="flow"></a>Stroom
+### <a name="flow"></a>Flow
 
-In de meeste gevallen blijven stromen werken na een geo-move van een SharePoint-site. U wordt aangeraden ze te testen zodra de verhuizing is voltooid.
+In de meeste gevallen blijven stromen werken na een SharePoint site geo-move. U wordt aangeraden ze te testen zodra de verhuizing is voltooid.
 
 ### <a name="powerapps"></a>PowerApps
 
@@ -225,4 +225,4 @@ PowerApps moeten opnieuw worden gemaakt op de doellocatie.
 
 ### <a name="data-movement-between-geo-locations"></a>Gegevensbewegingen tussen geografische locaties
 
-SharePoint gebruikt Azure Blob-opslag voor de inhoud, terwijl de metagegevens die zijn gekoppeld aan sites en de bijbehorende bestanden, worden opgeslagen in SharePoint. Nadat de site is verplaatst van de bronlocatie naar de geografische locatie van de bestemming, wordt de bijbehorende blobopslag ook door de service verplaatst. BlobOpslag wordt in ongeveer 40 dagen voltooid.
+SharePoint gebruikt Azure Blob-opslag voor de inhoud ervan, terwijl de metagegevens die zijn gekoppeld aan sites en de bijbehorende bestanden, worden opgeslagen in SharePoint. Nadat de site is verplaatst van de bronlocatie naar de geografische locatie van de bestemming, wordt ook de bijbehorende Blob-locatie Storage. Blob Storage wordt in ongeveer 40 dagen voltooid verplaatst.

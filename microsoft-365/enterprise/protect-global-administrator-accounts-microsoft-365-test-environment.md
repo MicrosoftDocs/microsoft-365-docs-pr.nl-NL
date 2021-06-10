@@ -1,5 +1,5 @@
 ---
-title: Globale beheerdersaccounts beveiligen in uw testomgeving van Microsoft 365 voor bedrijven
+title: Globale beheerdersaccounts beveiligen in uw Microsoft 365 voor ondernemingstestomgeving
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -14,7 +14,7 @@ ms.collection: M365-identity-device-management
 ms.custom:
 - TLG
 - Ent_TLGs
-description: Gebruik deze stappen om globale beheerdersaccounts te beveiligen in uw testomgeving van Microsoft 365 voor ondernemingen.
+description: Gebruik deze stappen om globale beheerdersaccounts in uw Microsoft 365 voor ondernemingstestomgeving te beveiligen.
 ms.openlocfilehash: 3eab538b59e460857e2fa195aaacf51051f94d6b
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -22,24 +22,24 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50918880"
 ---
-# <a name="protect-global-administrator-accounts-in-your-microsoft-365-for-enterprise-test-environment"></a>Globale beheerdersaccounts beveiligen in uw testomgeving van Microsoft 365 voor bedrijven
+# <a name="protect-global-administrator-accounts-in-your-microsoft-365-for-enterprise-test-environment"></a>Globale beheerdersaccounts beveiligen in uw Microsoft 365 voor ondernemingstestomgeving
 
-*Deze testlaborator kan alleen worden gebruikt voor Microsoft 365 voor testomgevingen voor ondernemingen.*
+*Deze testlaborator kan alleen worden gebruikt Microsoft 365 voor bedrijfstestomgevingen.*
 
 U kunt digitale aanvallen op uw organisatie voorkomen door ervoor te zorgen dat uw beheerdersaccounts zo veilig mogelijk zijn. 
 
-In dit artikel wordt beschreven hoe u beleid voor voorwaardelijke toegang van Azure Active Directory (Azure AD) gebruikt om globale beheerdersaccounts te beschermen.
+In dit artikel wordt beschreven hoe u Azure Active Directory (Azure AD) beleid voor voorwaardelijke toegang gebruikt om globale beheerdersaccounts te beveiligen.
 
-Het beveiligen van globale beheerdersaccounts in uw testomgeving van Microsoft 365 voor ondernemingen bestaat uit twee fasen:
-- [Fase 1: Uw Microsoft 365 voor ondernemingstestomgeving opbouwen](#phase-1-build-out-your-microsoft-365-for-enterprise-test-environment)
+Voor het beveiligen van globale beheerdersaccounts in Microsoft 365 testomgeving voor ondernemingen zijn twee fasen vereist:
+- [Fase 1: uw Microsoft 365 voor bedrijfstestomgeving](#phase-1-build-out-your-microsoft-365-for-enterprise-test-environment)
 - [Fase 2: Beleid voor voorwaardelijke toegang configureren](#phase-2-configure-conditional-access-policies)
 
 ![Testlabrichtlijnen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
-> Ga naar [Microsoft 365 for enterprise Test Lab Guide](../downloads/Microsoft365EnterpriseTLGStack.pdf)Stack voor een visuele kaart voor alle artikelen in de Microsoft 365 voor enterprise Test Lab Guide Stack.
+> Voor een visuele kaart van alle artikelen in de Microsoft 365 voor enterprise Test Lab Guide stack, gaat u naar Microsoft 365 voor [enterprise Test Lab Guide Stack.](../downloads/Microsoft365EnterpriseTLGStack.pdf)
 
-## <a name="phase-1-build-out-your-microsoft-365-for-enterprise-test-environment"></a>Fase 1: Uw Microsoft 365 voor ondernemingstestomgeving opbouwen
+## <a name="phase-1-build-out-your-microsoft-365-for-enterprise-test-environment"></a>Fase 1: uw Microsoft 365 voor bedrijfstestomgeving
 
 Als u de beveiliging van globale beheerdersaccounts op een lichtgewicht manier wilt testen met de minimumvereisten, volgt u de instructies in [Lichtgewicht basisconfiguratie.](lightweight-base-configuration-microsoft-365-enterprise.md)
   
@@ -52,18 +52,18 @@ Als u de beveiliging van globale beheerdersaccounts in een gesimuleerde ondernem
 
 Maak eerst een nieuw gebruikersaccount als een toegewezen globale beheerder.
 
-1. Open op een apart tabblad het [Microsoft 365-beheercentrum.](https://admin.microsoft.com/)
+1. Open op een afzonderlijk tabblad het [Microsoft 365 beheercentrum](https://admin.microsoft.com/).
 2. Selecteer **Gebruikers**  >  **Actieve gebruikers** en selecteer vervolgens Een gebruiker **toevoegen.**
 3. Voer in **het deelvenster** Gebruiker toevoegen **DedicatedAdmin** in de vakken **Voornaam,** **Weergavenaam** en **Gebruikersnaam** in.
 4. Selecteer **Wachtwoord,** selecteer **Laat me het wachtwoord maken** en voer een sterk wachtwoord in. Neem het wachtwoord voor dit nieuwe account op een veilige locatie op.
 5. Selecteer **Volgende**.
-6. Selecteer in **het deelvenster Productlicenties** toewijzen de optie **Microsoft 365 E5** en selecteer **vervolgens Volgende**.
+6. Selecteer in **het deelvenster Productlicenties** toewijzen **Microsoft 365 E5** en selecteer **volgende**.
 7. Selecteer in **het deelvenster Optionele** instellingen de optie   >  **Rollenbeheerder toegang tot** Globale  >  **beheerder**  >  **Volgende.**
 8. Selecteer in **het deelvenster U bent bijna klaar** de optie Toevoegen **voltooien** en selecteer **vervolgens Sluiten.**
 
 Maak vervolgens een nieuwe groep met de naam GlobalAdmins en voeg het DedicatedAdmin-account hieraan toe.
 
-1. Selecteer Op **het tabblad Microsoft 365-beheercentrum** de optie **Groepen** in de linkernavigatie en selecteer vervolgens **Groepen**.
+1. Selecteer op **Microsoft 365 tabblad Beheercentrum** de optie **Groepen** in de linkernavigatie en selecteer **vervolgens Groepen**.
 2. Selecteer **Een groep toevoegen.**
 3. Selecteer in **het deelvenster Een groeptype** kiezen de optie **Beveiliging** en selecteer vervolgens **Volgende.**
 4. Selecteer in **het deelvenster De basisbeginselen** instellen de optie Groep **maken** en selecteer vervolgens **Sluiten.**
@@ -77,7 +77,7 @@ Maak vervolgens beleid voor voorwaardelijke toegang om meervoudige verificatie v
 Dit eerste beleid vereist dat alle globale beheerdersaccounts MFA gebruiken.
 
 1. Ga op een nieuw tabblad van uw browser naar [https://portal.azure.com](https://portal.azure.com) .
-2. Klik **op Azure Active Directory**  >  **Security** Conditional  >  **Access**.
+2. Klik **Azure Active Directory**  >    >  **Voorwaardelijke toegang voor beveiliging**.
 3. Selecteer in **het deelvenster Voorwaardelijke** toegang - Beleid de optie **Basislijnbeleid: MFA vereisen voor beheerders (voorbeeld)**.
 4. Selecteer in **het deelvenster** Basislijnbeleid de optie Beleid direct gebruiken **> Opslaan.**
 
@@ -93,7 +93,7 @@ Dit tweede beleid blokkeert de toegang tot globale verificatie van beheerdersacc
 8. Selecteer in **de sectie Besturingselementen** van Access **van het** deelvenster Nieuw de optie **Grant**.
 9. Selecteer in **het** deelvenster Verlenen de optie **Toegang blokkeren** en selecteer **vervolgens Selecteren**.
 10. Selecteer in **het** deelvenster Nieuw **de optie Aan** voor Beleid **inschakelen** en selecteer vervolgens **Maken.**
-11. Sluit de **tabbladen Azure Portal** en **Microsoft 365-beheercentrum.**
+11. Sluit de **Azure-portal** en **Microsoft 365 tabbladen van het** beheercentrum.
 
 Als u het eerste beleid wilt testen, meld u zich af en meld u aan met het DedicatedAdmin-account. U moet worden gevraagd om MFA te configureren. Dit laat zien dat het eerste beleid wordt toegepast.
 

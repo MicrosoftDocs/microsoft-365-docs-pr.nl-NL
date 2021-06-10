@@ -13,7 +13,7 @@ ms.collection:
 - Adm_O365
 - Adm_TOC
 ms.custom: AdminSurgePortfolio
-description: IOS-apparaten beheren in eenvoudige mobiliteit en beveiliging.
+description: IOS-apparaten beheren in Basismobiliteit en Beveiliging.
 ms.openlocfilehash: 85baef2defa79255d560f848e57120353fd4fa2e
 ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
 ms.translationtype: MT
@@ -23,40 +23,40 @@ ms.locfileid: "49877078"
 ---
 # <a name="create-an-apns-certificate-for-ios-devices"></a>Een APNs-certificaat voor iOS-apparaten maken
 
-Als u iOS-apparaten zoals iPads en iPhones wilt beheren in basis mobiliteit en beveiliging, maakt u een APNs-certificaat.
+Als u iOS-apparaten, zoals iPads en iPhones in Basismobiliteit en Beveiliging, wilt beheren, maakt u een APN-certificaat.
 
 1. Meld u aan bij Microsoft 365 met uw globale beheerdersaccount.
 
 2. Typ in uw browser  [https://protection.office.com](https://protection.office.com/) .
 
-3. Selecteer  **preventie van gegevensverlies**   > in  **Apparaatbeheer** en kies **APNs-certificaat voor IOS-apparaten**.
+3. Selecteer  **Preventie van gegevensverlies**   >  **Apparaatbeheer** en kies **APN's-certificaat voor iOS-apparaten.**
 
-4. Kies **volgende** op de pagina Apple Push Notification Certificate Settings.
+4. Kies op de pagina Apple Push Notification Certificate Instellingen de optie **Volgende**.
 
-5. Selecteer Download Your CSR file en sla de aanvraag voor certificaatondertekening op uw computer op een locatie op die u kunt onthouden. Selecteer  **volgende**.
+5. Selecteer Uw MVO-bestand downloaden en sla het certificaat ondertekeningsverzoek op ergens op uw computer op dat u zich zult herinneren. Selecteer  **Volgende**.
 
-6. Op de pagina Create a APNs Certificate:  
+6. Op de pagina Een APN-certificaat maken:  
 
-    1. Selecteer Apple APNS-Portal om de Apple Push Certificate-portal te openen.
+    1. Selecteer Apple APNS Portal om de Apple Push Certificates Portal te openen.
 
-    2. Meld u aan met een Apple-ID.
+    2. Meld u aan met een Apple ID.
 
     >[!IMPORTANT]
-    >Gebruik een netwerkapple-ID die is gekoppeld aan een e-mailaccount dat bij uw organisatie hoort, zelfs als de gebruiker die het account beheert de account blad houdt. Sla deze ID op omdat u de ID van het certificaat moet verlengen wanneer u dit tijdstip moet gebruiken.
+    >Gebruik een Apple-id van het bedrijf die is gekoppeld aan een e-mailaccount dat bij uw organisatie blijft, zelfs als de gebruiker die het account beheert, weggaat. Sla deze id op omdat u dezelfde id moet gebruiken wanneer het tijd is om het certificaat te verlengen.
 
-    3. Selecteer  **een certificaat maken**   en accepteer de gebruiksvoorwaarden.
+    3. Selecteer  **Een certificaat maken** en accepteer de   gebruiksvoorwaarden.
 
-    4. Blader naar de aanvraag voor certificaatondertekening die u naar uw computer hebt gedownload vanuit Microsoft 365 en selecteer **uploaden**.
+    4. Blader naar het certificaat ondertekeningsverzoek dat u hebt gedownload naar uw computer Microsoft 365 en selecteer **Upload.**
 
-        Download het APNs-certificaat dat met de Apple Push Certificate-Portal is gemaakt naar uw computer.
+        Download het APN-certificaat dat is gemaakt door de Apple Push Certificate Portal naar uw computer.
 
        >[!TIP]
-       >Als u problemen ondervindt bij het downloaden van het certificaat, vernieuwt u de browser.
+       >Als u problemen hebt met het downloaden van het certificaat, vernieuwt u de browser.
 
-7. Ga terug naar Microsoft 365 en selecteer **volgende**   om naar de pagina   **Upload APNS Certificate** te gaan   .
+7. Ga terug naar Microsoft 365 en selecteer **Volgende** om naar de pagina Upload     **APNS-certificaat te**   gaan.
 
-8. Blader naar het APN-certificaat dat u hebt gedownload van de Apple Push Certificate-Portal.
+8. Blader naar het APN-certificaat dat u hebt gedownload van de Apple Push Certificates Portal.
 
 9. Selecteer  **Voltooien**.
 
-Om de installatie te voltooien, gaat u terug naar het beveiligings  ****& compliance >  >  **beleids**   >  **instellingen** voor het beheren van beveiligingsbeleidsregels.
+Als u de installatie wilt voltooien, gaat u terug naar het Beveiligings- & compliancecentrum > **Beveiligingsbeleid** Instellingen voor   >  ****   >  **apparaatbeheer beheren.**

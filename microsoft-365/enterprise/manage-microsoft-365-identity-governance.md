@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365-identiteitsbeheer beheren
+title: Beheer Microsoft 365 identiteitsbeheer
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -21,7 +21,7 @@ search.appverid:
 - MED150
 - BCS160
 ms.assetid: 98ca5b3f-f720-4d8e-91be-fe656548a25a
-description: Meer informatie over het gebruik van microsoft 365-functies voor identiteitsbeheer.
+description: Meer informatie over het gebruik van Microsoft 365 functies voor identiteitsbeheer.
 ms.openlocfilehash: 6a97ca24c609724a2cab93feec9e90f25d3361e3
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -29,11 +29,11 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50910952"
 ---
-# <a name="manage-microsoft-365-identity-governance"></a>Microsoft 365-identiteitsbeheer beheren
+# <a name="manage-microsoft-365-identity-governance"></a>Beheer Microsoft 365 identiteitsbeheer
 
 Identiteitsbeheer draait om het beschermen, bewaken en controleren van toegang tot kritieke bedrijfsmiddelen en tegelijkertijd de productiviteit van medewerkers waarborgen. Met identiteitsbeheer kunt u er bijvoorbeeld voor zorgen dat de juiste gebruikers toegang hebben tot de juiste resources en bepalen of de toegang mettertijd wordt aangepast.
 
-Zie dit overzicht van identiteitsbeheer voor [Azure Active Directory (Azure AD) voor meer informatie.](/azure/active-directory/governance/identity-governance-overview)
+Zie dit overzicht van identiteitsbeheer voor Azure Active Directory [(Azure AD) voor meer informatie.](/azure/active-directory/governance/identity-governance-overview)
 
 ## <a name="set-up-azure-ad-access-reviews"></a>Azure Active Directory toegangsbeoordelingen instellen
 
@@ -59,6 +59,6 @@ Wiht Azure AD entitlement management, you can manage the identity and access lif
 
 Uw werknemers hebben toegang nodig tot verschillende groepen, toepassingen en sites om hun taak uit te voeren. Het beheren van deze toegang kan lastig zijn omdat vereisten veranderen, nieuwe toepassingen worden toegevoegd of gebruikers extra toegangsrechten nodig hebben. Wanneer u samenwerkt met andere organisaties, weet u mogelijk niet wie in de andere organisatie toegang nodig heeft tot de resources van uw organisatie en weten externe gebruikers niet welke toepassingen, groepen of sites uw organisatie gebruikt.
 
-Azure AD entitlement management kan u helpen om de toegang tot groepen, toepassingen en SharePoint-sites efficiënter te beheren voor interne en externe gebruikers.
+Azure AD entitlement management kan u helpen bij het efficiënter beheren van toegang tot groepen, toepassingen en SharePoint sites voor interne en externe gebruikers.
  
 Zie het overzicht van azure [AD-rechtbeheer](/azure/active-directory/governance/entitlement-management-overview)voor meer informatie.

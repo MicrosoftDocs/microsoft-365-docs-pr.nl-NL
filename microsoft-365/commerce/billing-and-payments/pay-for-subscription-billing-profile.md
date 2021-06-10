@@ -219,7 +219,7 @@ Als uw factureringsprofiel wordt gebacked door een factuur, ontvangt u een e-mai
 
 ## <a name="can-i-pay-my-invoice-online"></a>Kan ik mijn factuur online betalen?
 
-Als terugkerende facturering is uitgeschakeld voor uw factureringsprofiel, kunt u een creditcard gebruiken om uw factuur online te betalen. Als u een betaling wilt doen, gebruikt **u de knop Nu** betalen op uw factuur in het Microsoft 365-beheercentrum. Zie Uw factuur of factuur weergeven om [uw factuur te vinden.](view-your-bill-or-invoice.md)
+Als terugkerende facturering is uitgeschakeld voor uw factureringsprofiel, kunt u een creditcard gebruiken om uw factuur online te betalen. Als u een betaling wilt doen, gebruikt u de knop **Nu** betalen op uw factuur in het Microsoft 365 beheercentrum. Zie Uw factuur of factuur weergeven om [uw factuur te vinden.](view-your-bill-or-invoice.md)
 
 ## <a name="can-i-change-from-my-current-payment-method-to-paying-by-invoice"></a>Kan ik mijn huidige betalingsmethode veranderen naar betalen per factuur?
 

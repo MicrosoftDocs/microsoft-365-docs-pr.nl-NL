@@ -21,7 +21,7 @@ search.appverid:
 - MED150
 - BCS160
 ms.assetid: 98ca5b3f-f720-4d8e-91be-fe656548a25a
-description: Meer informatie over het beheren van Microsoft 365-groepen.
+description: Meer informatie over het beheren van Microsoft 365 groepen.
 ms.openlocfilehash: 529bdb874661329497b103a1207b90625ad33a4b
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -33,7 +33,7 @@ ms.locfileid: "50911005"
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-U kunt Microsoft 365-groepen op verschillende manieren beheren, afhankelijk van uw configuratie. U kunt gebruikersaccounts beheren in het [Microsoft 365-beheercentrum](../admin/add-users/index.yml), PowerShell, in Ad DS (Active Directory Domain Services) of in het [Azure Active Directory -beheercentrum (Azure AD).](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal) 
+U kunt Microsoft 365 groepen op verschillende manieren beheren, afhankelijk van uw configuratie. U kunt gebruikersaccounts beheren in [het Microsoft 365-beheercentrum](../admin/add-users/index.yml), PowerShell, in Ad DS (Active Directory Domain Services) of in het Azure Active Directory [(Azure AD) -beheercentrum.](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal) 
 
 ## <a name="plan-for-where-and-how-you-will-manage-your-groups"></a>Plannen voor waar en hoe u uw groepen gaat beheren
 
@@ -49,7 +49,7 @@ U maakt en beheert groepen met:
     
 ### <a name="hybrid"></a>Hybride
 
-AD DS-groepen worden gesynchroniseerd met Microsoft 365 vanuit AD DS, dus u moet on-premises AD DS-hulpprogramma's gebruiken om deze groepen te beheren.
+AD DS-groepen worden gesynchroniseerd met Microsoft 365 ad DS, dus u moet on-premises AD DS-hulpprogramma's gebruiken om deze groepen te beheren.
 
 U kunt ook Azure AD-groepen maken en beheren die los staan van AD DS-groepen, maar die gebruikers en groepen van AD DS kunnen bevatten. In dit geval kunt u het volgende gebruiken:
 

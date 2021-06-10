@@ -1,5 +1,5 @@
 ---
-title: Beleid voor identiteits- en apparaattoegang voor het toestaan van gast- en externe gebruiker B2B-toegang - Microsoft 365 voor bedrijven | Microsoft Docs
+title: Beleid voor identiteits- en apparaattoegang voor het toestaan van B2B-toegang voor gasten en externe gebruikers - Microsoft 365 voor zakelijke | Microsoft Docs
 description: Beschrijft het aanbevolen beleid voor voorwaardelijke toegang en verwante beleidsregels voor het beschermen van de toegang van gasten en externe gebruikers.
 ms.prod: m365-security
 ms.topic: article
@@ -28,7 +28,7 @@ ms.locfileid: "51615493"
 ---
 # <a name="policies-for-allowing-guest-access-and-b2b-external-user-access"></a>Beleid voor het toestaan van gasttoegang en B2B-externe gebruikerstoegang
 
-In dit artikel wordt beschreven hoe u het aanbevolen beleid voor apparaat- en identiteitstoegang aanpast om toegang te verlenen aan gasten en externe gebruikers die een Azure Active Directory-account (Azure AD) Business-to-Business (B2B) hebben. Deze richtlijnen zijn gebaseerd op [het algemene beleid voor identiteits- en apparaattoegang.](identity-access-policies.md)
+In dit artikel wordt beschreven hoe u het aanbevolen beleid voor apparaat- en identiteitstoegang aanpast om toegang te verlenen aan gasten en externe gebruikers met een Azure Active Directory-account (Azure AD) Business-to-Business (B2B). Deze richtlijnen zijn gebaseerd op [het algemene beleid voor identiteits- en apparaattoegang.](identity-access-policies.md)
 
 Deze aanbevelingen zijn bedoeld om  van toepassing te zijn op de basislijnbeveiligingslaag. Maar u kunt de aanbevelingen ook aanpassen op basis van uw specifieke behoeften voor **gevoelige** en sterk **gereguleerde** beveiliging.
 
@@ -64,7 +64,7 @@ Microsoft Teams definieert de volgende gebruikers:
 
 Zie de vergelijking tussen gasten en externe gebruikerstoegang voor [teams voor meer informatie.](/microsoftteams/communicate-with-users-from-other-organizations#compare-external-and-guest-access)
 
-Zie Beleidsaanbevelingen voor het beveiligen van [Teams-chats, groepen en bestanden](teams-access-policies.md)voor meer informatie over het beveiligen van identiteits- en apparaattoegangsbeleid voor Teams.
+Zie Beleidsaanbevelingen voor het beveiligen van Teams chats, groepen en bestanden voor meer informatie over het beveiligen van [identiteits- en apparaattoegangsbeleid voor Teams.](teams-access-policies.md)
 
 ### <a name="require-mfa-always-for-guest-and-external-users"></a>MFA altijd vereisen voor gast- en externe gebruikers
 
@@ -82,7 +82,7 @@ Slechts één organisatie kan een apparaat beheren. Als u gasten en externe gebr
 
 ## <a name="next-step"></a>Volgende stap
 
-![Stap 4: Beleid voor Microsoft 365-cloud-apps en Microsoft Cloud App-beveiliging](../../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-4.png)
+![Stap 4: Beleid voor Microsoft 365 cloud-apps en Microsoft Cloud App Security](../../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-4.png)
 
 Beleid voor voorwaardelijke toegang configureren voor:
 

@@ -43,7 +43,7 @@ ms.locfileid: "52771427"
 
 ## <a name="methods"></a>Methoden
 
-Methode |Retourtype |Omschrijving
+Methode |Retourtype |Beschrijving
 :---|:---|:---
 [Blootstellingsscore ophalen](get-exposure-score.md) | [Score](score.md) | De score voor de blootstelling van de organisatie krijgen.
 [Secure Score voor apparaten ophalen](get-device-secure-score.md) | [Score](score.md) | Haal de secure score van het organisatieapparaat.
@@ -51,7 +51,7 @@ Methode |Retourtype |Omschrijving
 
 ## <a name="properties"></a>Eigenschappen
 
-Eigenschap |  Type    |   Omschrijving
+Eigenschap |  Type    |   Beschrijving
 :---|:---|:---
 Score | Dubbel | De huidige score.
 Tijd | DateTime | De datum en tijd waarin de oproep voor deze API is gedaan.

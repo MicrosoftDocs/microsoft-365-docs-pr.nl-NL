@@ -31,14 +31,14 @@ Microsoft Compliance Manager kan u helpen bij het beheren van verbeteringen met 
 Dit artikel bevat richtlijnen voor het gebruik van dit hulpprogramma voor privacydoeleinden voor gegevens.
 
 >[!Note]
->Aanbevelingen van Compliancebeheer mogen niet worden geïnterpreteerd als een garantie voor naleving. Het is aan u om de effectiviteit van klantbesturingselementen per regelgevingsomgeving te evalueren en te valideren. Deze services zijn onderworpen aan de voorwaarden in de [Voorwaarden voor onlineservices.](https://go.microsoft.com/fwlink/?linkid=2108910) Zie ook [Microsoft 365-licentie-richtlijnen voor beveiliging en naleving](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#compliance-manager)
+>Aanbevelingen van Compliancebeheer mogen niet worden geïnterpreteerd als een garantie voor naleving. Het is aan u om de effectiviteit van klantbesturingselementen per regelgevingsomgeving te evalueren en te valideren. Deze services zijn onderworpen aan de voorwaarden in de [Voorwaarden voor onlineservices.](https://go.microsoft.com/fwlink/?linkid=2108910) Zie ook [Microsoft 365 richtlijnen voor licenties voor beveiliging en naleving](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#compliance-manager)
 >
 
 ## <a name="getting-started-with-compliance-manager"></a>Aan de slag met Compliance Manager
 
 #### <a name="what-is-compliance-manager"></a>Wat is Compliance Manager
 
-[Compliance Manager](../compliance/compliance-manager.md) is een op werkstroom gebaseerd hulpprogramma voor het beoordelen van risico's in het Microsoft 365-compliancecentrum voor het beheren van nalevingsactiviteiten voor regelgeving met betrekking tot Microsoft-cloudservices. Als onderdeel van uw Microsoft 365- of Azure Active Directory-abonnement (Azure AD) helpt Compliance Manager u bij het beheren van naleving van regelgeving binnen het gedeelde verantwoordelijkheidsmodel voor Microsoft-cloudservices.
+[Compliance Manager](../compliance/compliance-manager.md) is een op werkstroom gebaseerd hulpprogramma voor risicoanalyse in het Microsoft 365 compliancecentrum voor het beheren van complianceactiviteiten voor regelgeving met betrekking tot Microsoft-cloudservices. Als onderdeel van uw Microsoft 365 of Azure Active Directory (Azure AD)-abonnement, helpt Compliance Manager u bij het beheren van naleving van regelgeving binnen het gedeelde verantwoordelijkheidsmodel voor Microsoft-cloudservices.
 
 **Klaar om evaluaties te gebruiken**
 
@@ -66,7 +66,7 @@ De [handleiding Aan de slag met Compliance Manager](../compliance/compliance-man
     - Uitvoeren van implementatie- en testwerk voor verbeteracties om besturingselementen in uw beoordelingen te voltooien
     - Inzicht in de invloed van verschillende acties op de nalevingsscore
 - [Schaalvergroting: gebruik geavanceerde functionaliteit om aan uw aangepaste behoeften te voldoen](../compliance/compliance-manager-quickstart.md#scaling-up-use-advanced-functionality-to-meet-your-custom-needs)
-    - Aangepaste beoordelingen maken om niet-Microsoft 365-producten bij te houden
+    - Aangepaste beoordelingen maken om niet-Microsoft 365 bijhouden
     - Bestaande sjablonen wijzigen om besturingselementen toe te voegen of te verwijderen
     - Het automatisch testen van verbeteracties instellen
 

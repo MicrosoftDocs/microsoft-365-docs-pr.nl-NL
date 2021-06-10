@@ -42,10 +42,10 @@ Microsoft Managed Desktop heeft de volgende certificeringen bereikt:
 
 ## <a name="auditor-reports-and-compliance-certificates"></a>Auditrapporten en compliancecertificaten
 
-U vindt relevante informatie, waaronder beheer en technische vereisten, in de [Service Trust Portal (STP),](https://servicetrust.microsoft.com/)de centrale opslagplaats voor dergelijke informatie over Microsoft Cloud Service-aanbiedingen. U kunt auditrapporten, compliancecertificaten en meer downloaden uit de sectie [Auditrapporten](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide) van de STP.
+U vindt relevante informatie, inclusief beheer- en technische vereisten, in de [Service Trust Portal (STP),](https://servicetrust.microsoft.com/)de centrale opslagplaats voor dergelijke informatie over Microsoft Cloud Service aanbiedingen. U kunt auditrapporten, compliancecertificaten en meer downloaden uit de sectie [Auditrapporten](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide) van de STP.
 
 > [!NOTE]
-> Omdat Microsoft Managed Desktop wordt uitgevoerd op Azure, bevatten relevante documenten meestal bestandsnamen zoals 'Microsoft Azure, Dynamics 365 en andere onlineservices'. In deze documenten kunt u Microsoft Managed Desktop meestal vinden onder de categorie 'Microsoft Online Services' of 'Monitoring + Management'.
+> Omdat Microsoft Managed Desktop azure wordt uitgevoerd, bevatten relevante documenten meestal bestandsnamen zoals 'Microsoft Azure, Dynamics 365 en andere onlineservices'. In deze documenten vindt u meestal Microsoft Managed Desktop onder de categorie 'Microsoft Online Services' of 'Monitoring + Management'.
 
 ## <a name="shared-responsibility"></a>Gedeelde verantwoordelijkheid
 

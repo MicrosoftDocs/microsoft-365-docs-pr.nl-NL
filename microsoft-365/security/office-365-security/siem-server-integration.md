@@ -1,5 +1,5 @@
 ---
-title: SIEM-serverintegratie met Microsoft 365-services en -toepassingen
+title: SIEM-serverintegratie met Microsoft 365 services en toepassingen
 f1.keywords:
 - NOCSH
 ms.author: deniseb
@@ -15,7 +15,7 @@ ms.custom:
 - Ent_Solutions
 - SIEM
 - seo-marvel-apr2020
-description: Een overzicht krijgen van de siem-serverintegratie (Security Information and Event Management) met uw Microsoft 365-cloudservices en -toepassingen
+description: Een overzicht krijgen van de siem-serverintegratie (Security Information and Event Management) met uw Microsoft 365 cloudservices en -toepassingen
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: bea8aa3914da4b813f3928eddbb6df9c98ef6605
@@ -25,7 +25,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 04/06/2021
 ms.locfileid: "51599945"
 ---
-# <a name="security-information-and-event-management-siem-server-integration-with-microsoft-365-services-and-applications"></a>SiEM-serverintegratie (Security Information and Event Management) met Microsoft 365-services en -toepassingen
+# <a name="security-information-and-event-management-siem-server-integration-with-microsoft-365-services-and-applications"></a>Siem-serverintegratie (Security Information and Event Management) met Microsoft 365 services en toepassingen
 
 **Van toepassing op**
 - [Exchange Online Protection](exchange-online-protection-overview.md)
@@ -36,10 +36,10 @@ ms.locfileid: "51599945"
 
 ## <a name="summary"></a>Samenvatting
 
-Gebruikt of plant uw organisatie een SIEM-server (Security Information and Event Management) te krijgen? U vraagt zich misschien af hoe het wordt geïntegreerd met Microsoft 365 of Office 365. Dit artikel bevat een lijst met bronnen die u kunt gebruiken om uw SIEM-server te integreren met Microsoft 365-services en -toepassingen.
+Gebruikt of plant uw organisatie een SIEM-server (Security Information and Event Management) te krijgen? U vraagt zich misschien af hoe het wordt geïntegreerd met Microsoft 365 of Office 365. Dit artikel bevat een lijst met bronnen die u kunt gebruiken om uw SIEM-server te integreren met Microsoft 365 services en toepassingen.
 
 > [!TIP]
-> Als u nog geen SIEM-server hebt en uw opties verkent, kunt u **[microsoft Azure Sentinel overwegen.](/azure/sentinel/overview)**
+> Als u nog geen SIEM-server hebt en uw opties verkent, kunt u het Microsoft Azure **[Schildwacht.](/azure/sentinel/overview)**
 
 ## <a name="do-i-need-a-siem-server"></a>Heb ik een SIEM-server nodig?
 
@@ -51,11 +51,11 @@ Of u een SIEM-server nodig hebt, hangt af van veel factoren, zoals de beveiligin
 
 ## <a name="siem-server-integration-with-microsoft-365"></a>SIEM-serverintegratie met Microsoft 365
 
-Een SIEM-server kan gegevens ontvangen van een groot aantal Microsoft 365-services en -toepassingen. De volgende tabel bevat verschillende Microsoft 365-services en -toepassingen, samen met SIEM-serverinvoer en -bronnen voor meer informatie.
+Een SIEM-server kan gegevens ontvangen van een groot aantal Microsoft 365 services en toepassingen. In de volgende tabel vindt u Microsoft 365 services en toepassingen, samen met SIEM-serverinvoer en -resources voor meer informatie.
 
 ****
 
-|Microsoft 365-service of -toepassing|SIEM-serverinvoer/-methoden|Informatiebronnen|
+|Microsoft 365 Service of Toepassing|SIEM-serverinvoer/-methoden|Informatiebronnen|
 |---|---|---|
 |[Microsoft Defender voor Office 365](defender-for-office-365.md)|Auditlogboeken|[SIEM-integratie met Microsoft Defender voor Office 365](siem-integration-with-office-365-ti.md)|
 |[Microsoft Defender voor Eindpunt](/windows/security/threat-protection/)|HTTPS-eindpunt dat wordt gehost in Azure <p> REST-API|[Waarschuwingen naar uw SIEM-hulpprogramma's trekken](../defender-endpoint/configure-siem.md)|
@@ -63,18 +63,18 @@ Een SIEM-server kan gegevens ontvangen van een groot aantal Microsoft 365-servic
 |
 
 > [!TIP]
-> Bekijk Azure [Sentinel.](/azure/sentinel/overview) Azure Sentinel wordt geleverd met connectors voor Microsoft-oplossingen. Deze connectors zijn 'out of the box' beschikbaar en bieden realtime integratie. U kunt Azure Sentinel gebruiken met uw Microsoft 365 Defender-oplossingen en Microsoft 365-services, waaronder Office 365, Azure AD, Microsoft Defender voor identiteit, Microsoft Cloud App-beveiliging en meer.
+> Bekijk Azure [Sentinel.](/azure/sentinel/overview) Azure Sentinel wordt geleverd met connectors voor Microsoft-oplossingen. Deze connectors zijn 'out of the box' beschikbaar en bieden realtime integratie. U kunt Azure Sentinel gebruiken met uw Microsoft 365 Defender-oplossingen en Microsoft 365-services, waaronder Office 365, Azure AD, Microsoft Defender voor identiteit, Microsoft Cloud App Security en meer.
 
 ### <a name="audit-logging-must-be-turned-on"></a>Auditregistratie moet zijn ingeschakeld
 
 Controleer of auditregistratie is ingeschakeld voordat u de SIEM-serverintegratie configureert.
 
-- Voor SharePoint Online, OneDrive voor Bedrijven en Azure Active Directory is auditlogboekregistratie ingeschakeld in het Beveiligings- [& Compliancecentrum.](../../compliance/turn-audit-log-search-on-or-off.md)
+- Voor SharePoint Online, OneDrive voor Bedrijven en Azure Active Directory is auditregistratie ingeschakeld in het [Beveiligings- & Compliancecentrum.](../../compliance/turn-audit-log-search-on-or-off.md)
 
-- Zie Postvakcontrole [beheren](../../compliance/enable-mailbox-auditing.md)voor Exchange Online.
+- Zie Exchange Online controle van postvakken beheren voor [meer Exchange Online.](../../compliance/enable-mailbox-auditing.md)
 
 ## <a name="more-resources"></a>Meer informatie
 
 [Beveiligingsoplossingen integreren in Azure Defender](/azure/security-center/security-center-partner-integration#exporting-data-to-a-siem)
 
-[Microsoft Graph-beveiligings-API-waarschuwingen integreren met een SIEM](/graph/security-integration)
+[Microsoft-Graph beveiligings-API-waarschuwingen integreren met een SIEM](/graph/security-integration)

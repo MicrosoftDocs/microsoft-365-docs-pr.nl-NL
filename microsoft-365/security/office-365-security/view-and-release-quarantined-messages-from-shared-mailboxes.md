@@ -29,7 +29,7 @@ ms.locfileid: "51599509"
 > [!NOTE]
 > De functies die in dit artikel worden beschreven, zijn momenteel beschikbaar in Preview, zijn niet voor iedereen beschikbaar en kunnen worden gewijzigd.
 
-Gebruikers kunnen berichten in quarantaine beheren waarbij ze een van de geadresseerden zijn, zoals beschreven in Berichten in quarantaine zoeken en vrijgeven als gebruiker [in EOP.](find-and-release-quarantined-messages-as-a-user.md) Maar hoe zit het met gedeelde postvakken waarin de gebruiker de machtigingEn Volledige toegang en Verzenden als of Verzenden namens voor het postvak heeft, zoals beschreven in Gedeelde postvakken [in Exchange Online?](/exchange/collaboration-exo/shared-mailboxes)
+Gebruikers kunnen berichten in quarantaine beheren waarbij ze een van de geadresseerden zijn, zoals beschreven in Berichten in quarantaine zoeken en vrijgeven als gebruiker [in EOP.](find-and-release-quarantined-messages-as-a-user.md) Maar hoe zit het met gedeelde postvakken waarin de gebruiker de machtigingen Volledige toegang en Verzenden als of Verzenden namens voor het postvak heeft, zoals beschreven in Gedeelde postvakken [in](/exchange/collaboration-exo/shared-mailboxes)Exchange Online?
 
 Voorheen moesten beheerders door de mogelijkheid voor gebruikers om in quarantaine geplaatste berichten te beheren die naar een gedeeld postvak zijn verzonden, automapping ingeschakeld laten voor het gedeelde postvak (dit is standaard ingeschakeld wanneer een beheerder een gebruiker toegang geeft tot een ander postvak). Afhankelijk van de grootte en het aantal postvakken waar de gebruiker toegang toe heeft, kunnen de prestaties echter worden vertraagd wanneer Outlooks alle postvakken probeert te openen die de gebruiker heeft.  Daarom kiezen veel beheerders ervoor om automatisch maken voor gedeelde postvakken [te verwijderen.](/outlook/troubleshoot/profiles-and-accounts/remove-automapping-for-shared-mailbox)
 
@@ -53,7 +53,7 @@ Ongeacht de methode kunnen gebruikers verwarring voorkomen door de kolom **Geadr
 
 - Als u geneste beveiligingsgroepen gebruikt om toegang te verlenen tot een gedeeld postvak, raden we ten aanzien van quarantainebewerkingen voor gedeelde postvakken niet meer dan twee niveaus van geneste groepen aan. Groep A is bijvoorbeeld lid van groep B, dat lid is van groep C. Als u machtigingen wilt toewijzen aan een gedeeld postvak, voegt u de gebruiker niet toe aan Groep A en wijst u vervolgens Groep C toe aan het gedeelde postvak.  
 
-- Als u in quarantaine geplaatste berichten voor het gedeelde postvak in [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell)wilt beheren, moet de eindgebruiker de [cmdlet Get-QuarantineMessage](/powershell/module/exchange/get-quarantinemessage) gebruiken met een gedeeld e-mailadres voor het postvak voor de waarde van de _parameter RecipientAddress_ om de berichten te identificeren. Bijvoorbeeld:
+- Als u in quarantaine geplaatste berichten voor het gedeelde postvak in [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell)wilt beheren, moet de eindgebruiker de [cmdlet Get-QuarantineMessage](/powershell/module/exchange/get-quarantinemessage) met het e-mailadres van het gedeelde postvak gebruiken voor de waarde van de _parameter RecipientAddress_ om de berichten te identificeren. Bijvoorbeeld:
 
   ```powershell
   Get-QuarantinedMessage -RecipientAddress officeparty@contoso.com

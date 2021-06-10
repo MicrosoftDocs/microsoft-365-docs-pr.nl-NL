@@ -58,7 +58,7 @@ De factureringsmeldingen van uw organisatie worden verzonden naar het primaire e
 3. Selecteer in het rechterdeelvenster op het tabblad Toegewezen **beheerders** de optie **Toevoegen.**
 4. Typ in **het deelvenster** Beheerders toevoegen de weergavenaam of gebruikersnaam van de gebruiker en selecteer de gebruiker in de lijst met suggesties.
 5. Voeg meerdere gebruikers toe totdat u klaar bent.
-6. Selecteer **Opslaan**. De gebruiker wordt toegevoegd aan de lijst met toegewezen beheerders.
+6. Klik op **Opslaan**. De gebruiker wordt toegevoegd aan de lijst met toegewezen beheerders.
 
 ### <a name="remove-admin-roles-by-using-the-billing-notifications-page"></a>Beheerdersrollen verwijderen met behulp van de pagina Factureringsmeldingen
 
@@ -127,7 +127,7 @@ Als u uw facturen wilt ontvangen als bijlagen bij uw factuurmeldingen, gebruikt 
 2. Selecteer het **tabblad Factureringsprofielen** en selecteer vervolgens een factureringsprofiel in de lijst.
 3. Schakel op de pagina met **factureringsprofielgegevens** onder Facturen in e-mailbijlagen downloaden de wisselknop over op **Aan.**
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Uw rekening of factuur bekijken](view-your-bill-or-invoice.md) (artikel)\
 [Uw factuur of factuur voor Microsoft 365 voor bedrijven](understand-your-invoice2.md) (artikel)\

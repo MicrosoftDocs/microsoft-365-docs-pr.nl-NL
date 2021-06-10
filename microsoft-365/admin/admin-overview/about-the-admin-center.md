@@ -83,6 +83,6 @@ Hier vindt u de functies en instellingen die in het linkernavigatievenster van h
 
 - [Een groep Microsoft 365 beheren](../create-groups/manage-groups.md)
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Microsoft 365 voor zakelijke trainingsvideo's](../../business-video/index.yml) (koppelingspagina)

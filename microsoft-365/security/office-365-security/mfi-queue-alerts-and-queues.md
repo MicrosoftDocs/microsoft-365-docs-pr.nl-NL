@@ -28,12 +28,12 @@ ms.locfileid: "51599981"
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Wanneer berichten niet kunnen worden verzonden vanuit uw organisatie naar uw on-premises e-mailservers of partner-e-mailservers met connectors, worden de berichten in de wachtrij geplaatst in Microsoft 365. Veelvoorkomende voorbeelden die deze voorwaarde veroorzaken zijn:
+Wanneer berichten van uw organisatie niet kunnen worden verzonden naar uw on-premises e-mailservers of partner-e-mailservers met connectors, worden de berichten in de wachtrij Microsoft 365. Veelvoorkomende voorbeelden die deze voorwaarde veroorzaken zijn:
 
 - De verbindingslijn is onjuist geconfigureerd.
 - Er zijn netwerk- of firewallwijzigingen aangebracht in uw on-premises omgeving.
 
-Microsoft 365 blijft 24 uur lang proberen om te leveren. Na 24 uur verlopen de berichten en worden ze geretourneerd aan de afzenders in niet-bezorgingsrapporten (ook wel bekend als een NDR of bounce-berichten).
+Microsoft 365 wordt 24 uur lang opnieuw geleverd. Na 24 uur verlopen de berichten en worden ze geretourneerd aan de afzenders in niet-bezorgingsrapporten (ook wel bekend als een NDR of bounce-berichten).
 
 Als het e-mailvolume in de wachtrij de vooraf gedefinieerde drempel overschrijdt (de standaardwaarde is 200 berichten), is de informatie beschikbaar op de volgende locaties:
 
@@ -81,7 +81,7 @@ Zelfs als het berichtvolume in de wachtrij de drempelwaarde niet heeft  overschr
 Als u op het aantal berichten in de widget klikt, wordt er een fly-out met berichten **in** de wachtrij weergegeven met de volgende informatie:
 
 - **Aantal in de wachtrij geplaatste berichten**
-- **Naam van** verbindingslijn: Klik op de naam van de verbindingslijn om de verbindingslijn te beheren in het Exchange-beheercentrum (EAC).
+- **Naam van** verbindingslijn: Klik op de naam van de verbindingslijn om de verbindingslijn te beheren in Exchange beheercentrum (EAC).
 - **De begintijd van de wachtrij**
 - **Oudste berichten verlopen**
 - **Doelserver**

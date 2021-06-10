@@ -85,7 +85,7 @@ Als u uw abonnement bij GoDaddy of een andere partner hebt aangeschaft, moet u n
 
 In april 2021 wordt een nieuwe functie uitgerold waarmee gebruikers eenvoudig vanuit hun aliassen kunnen verzenden wanneer ze Outlook op internet. Wanneer de functie wordt uitrolt naar een tenancy waarbij de tenantbeheerder de cmdlet gebruikt, krijgen gebruikers binnen de huurperiode toegang tot een lijst met selectievakjes waarin elke vermelding overeenkomt met een alias in de Outlook `Set-OrganizationConfig -SendFromAliasEnabled $true` instellingen. Als u een alias selecteert, wordt deze weergegeven in de vervolgkeuzekeuze in het formulier Opstellen.
   
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [E-mail verzenden vanaf een ander adres](https://support.microsoft.com/office/ccba89cb-141c-4a36-8c56-6d16a8556d2e) (artikel)
 

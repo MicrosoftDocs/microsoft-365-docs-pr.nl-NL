@@ -1,5 +1,5 @@
 ---
-title: Regels voor het verminderen van aanvalsoppervlakken evalueren
+title: Regels voor het verminderen van kwetsbaarheid voor aanvallen evalueren
 description: Bekijk hoe aanvalsoppervlakverkorting aanvallen zou blokkeren en voorkomen met het aangepaste demoprogramma.
 keywords: Aanvalsoppervlakverminking, hips, host intrusion prevention system, protection rules, anti-exploit, anti-exploit, exploit, infection prevention, evaluate, test, demo
 search.product: eADQiWindows 10XVcnh
@@ -21,7 +21,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 06/04/2021
 ms.locfileid: "52771319"
 ---
-# <a name="evaluate-attack-surface-reduction-rules"></a>Regels voor het verminderen van aanvalsoppervlakken evalueren
+# <a name="evaluate-attack-surface-reduction-rules"></a>Regels voor het verminderen van kwetsbaarheid voor aanvallen evalueren
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -74,7 +74,7 @@ U kunt ook configuratieserviceproviders (MDM) (Group Policy, Intune) of Mobile D
 
 Als u apps wilt bekijken die zijn geblokkeerd, opent u Gebeurtenisviewer en filtert u op Gebeurtenis-id 1121 in het Microsoft-Windows-Windows Defender/Operationeel logboek. In de volgende tabel worden alle netwerkbeveiligingsgebeurtenissen vermeld.
 
-Gebeurtenis-id | Omschrijving
+Gebeurtenis-id | Beschrijving
 -|-
  5007 | Gebeurtenis wanneer instellingen worden gewijzigd
  1121 | Gebeurtenis wanneer een regel voor het verminderen van het aanvalsoppervlak wordt gebruikt in de blokmodus
@@ -90,4 +90,4 @@ Zie [Attack Surface Reduction Rules aanpassen](customize-attack-surface-reductio
 
 * [Aanvalsoppervlakken verminderen met regels voor het beperken van de surface van de aanval](attack-surface-reduction.md)
 * [Controlemodus gebruiken om de controlemodus te Windows Defender](audit-windows-defender.md)
-* [Veelgestelde vragen over kwetsbaarheid voor aanvallen verminderen](attack-surface-reduction.md)
+* [Veelgestelde vragen over het verminderen van kwetsbaarheid voor aanvallen](attack-surface-reduction.md)

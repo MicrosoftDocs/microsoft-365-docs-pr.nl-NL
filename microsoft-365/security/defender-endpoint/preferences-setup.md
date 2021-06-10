@@ -1,5 +1,5 @@
 ---
-title: Instellingen van het Microsoft Defender-beveiligingscentrum configureren
+title: Instellingen Microsoft Defender-beveiligingscentrum configureren
 description: Gebruik de pagina Instellingen om algemene instellingen, machtigingen, api's en regels te configureren.
 keywords: instellingen, algemene instellingen, machtigingen, api's, regels
 search.product: eADQiWindows 10XVcnh
@@ -23,7 +23,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 04/07/2021
 ms.locfileid: "51604343"
 ---
-# <a name="configure-microsoft-defender-security-center-settings"></a>Instellingen van het Microsoft Defender-beveiligingscentrum configureren
+# <a name="configure-microsoft-defender-security-center-settings"></a>Instellingen Microsoft Defender-beveiligingscentrum configureren
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -33,11 +33,11 @@ ms.locfileid: "51604343"
 
 >Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-prefsettings-abovefoldlink)
 
-Gebruik het **menu Instellingen** om algemene instellingen, geavanceerde functies te wijzigen, de preview-ervaring, e-mailmeldingen en de aangepaste functie bedreigingsinformatie in te stellen.
+Gebruik het **Instellingen** menu om algemene instellingen, geavanceerde functies te wijzigen, de preview-ervaring, e-mailmeldingen en de aangepaste functie voor bedreigingsinformatie in te stellen.
 
 ## <a name="in-this-section"></a>In deze sectie
 
-Onderwerp | Omschrijving
+Onderwerp | Beschrijving
 :---|:---
 Algemene instellingen | Wijzig de algemene instellingen die eerder zijn gedefinieerd als onderdeel van het onboardingproces.
 Machtigingen | Portaltoegang beheren met RBAC en apparaatgroepen.

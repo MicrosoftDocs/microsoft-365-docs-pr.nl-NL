@@ -41,7 +41,7 @@ ms.locfileid: "52771379"
 
 - Zie de [bijbehorende pagina Indicatoren](https://securitycenter.windows.com/preferences2/custom_ti_indicators/files) in de portal. 
 
-Methode|Retourtype |Omschrijving
+Methode|Retourtype |Beschrijving
 :---|:---|:---
 [Lijst van indicatoren](get-ti-indicators-collection.md) | [Indicator](ti-indicator.md) Verzameling | Lijstindicatorentiteiten. [](ti-indicator.md)
 [Indicator verzenden](post-ti-indicator.md) | [Indicator](ti-indicator.md) | Entiteit Indicator [verzenden of](ti-indicator.md) bijwerken.
@@ -50,7 +50,7 @@ Methode|Retourtype |Omschrijving
 
 
 ## <a name="properties"></a>Eigenschappen
-Eigenschap |  Type    |   Omschrijving
+Eigenschap |  Type    |   Beschrijving
 :---|:---|:---
 id | Tekenreeks | Identiteit van de [entiteit Indicator.](ti-indicator.md)
 indicatorValue | Tekenreeks | De waarde van de [indicator](ti-indicator.md).

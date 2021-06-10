@@ -23,18 +23,18 @@ ms.locfileid: "50909808"
 ---
 # <a name="high-availability-federated-authentication-phase-2-configure-domain-controllers"></a>Federatief hoge beschikbaarheid fase 2: domeincontrollers configureren
 
-In deze fase van het implementeren van hoge beschikbaarheid voor Federatieverificatie van Microsoft 365 in Azure-infrastructuurservices configureert u twee domeincontrollers en de adreslijstsynchronisatieserver in het virtuele Azure-netwerk. Clientwebaanvragen voor verificatie kunnen vervolgens worden geverifieerd in het virtuele Azure-netwerk, in plaats van dat verificatieverkeer via de SITE-naar-site VPN-verbinding naar uw on-premises netwerk te verzenden.
+In deze fase van het implementeren van hoge beschikbaarheid voor Microsoft 365 federatief verificatie in Azure-infrastructuurservices, configureert u twee domeincontrollers en de adreslijstsynchronisatieserver in het virtuele Azure-netwerk. Clientwebaanvragen voor verificatie kunnen vervolgens worden geverifieerd in het virtuele Azure-netwerk, in plaats van dat verificatieverkeer via de SITE-naar-site VPN-verbinding naar uw on-premises netwerk te verzenden.
   
 > [!NOTE]
 > Active Directory Federation Services (AD FS) kan Azure Active Directory (Azure AD) niet gebruiken als vervanging voor AD DS-domeincontrollers (Active Directory Domain Services). 
   
-U moet deze fase voltooien voordat u verder gaat [met fase 3: AD FS-servers configureren.](high-availability-federated-authentication-phase-3-configure-ad-fs-servers.md) Zie [Federatieverificatie met hoge beschikbaarheid implementeren voor Microsoft 365 in Azure](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) voor alle fasen.
+U moet deze fase voltooien voordat u verder gaat [met fase 3: AD FS-servers configureren.](high-availability-federated-authentication-phase-3-configure-ad-fs-servers.md) Zie [Federatieverificatie met hoge](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) beschikbaarheid implementeren voor Microsoft 365 in Azure voor alle fasen.
   
 ## <a name="create-the-domain-controller-virtual-machines-in-azure"></a>Virtuele machines voor domeincontrollers maken in Azure
 
 Eerst moet u de kolom Virtuele **machinenaam** van tabel M invullen en de grootte van virtuele machines zo nodig wijzigen in de **kolom Minimumgrootte.**
   
-|**Item**|**Naam virtuele machine**|**Galerieafbeelding**|**Opslagtype**|**Minimumgrootte**|
+|**Item**|**Naam virtuele machine**|**Galerieafbeelding**|**Storage type**|**Minimumgrootte**|
 |:-----|:-----|:-----|:-----|:-----|
 |1.  <br/> |![regel](../media/Common-Images/TableLine.png) (eerste domeincontroller, voorbeeld DC1)  <br/> |Windows Server 2016 Datacenter  <br/> |Standard_LRS  <br/> |Standard_D2  <br/> |
 |2.  <br/> |![regel](../media/Common-Images/TableLine.png) (tweede domeincontroller, voorbeeld DC2)  <br/> |Windows Server 2016 Datacenter  <br/> |Standard_LRS  <br/> |Standard_D2  <br/> |
@@ -48,7 +48,7 @@ Eerst moet u de kolom Virtuele **machinenaam** van tabel M invullen en de groott
   
 Zie Groottes voor virtuele machines voor de volledige lijst met virtuele [machineformaten.](/azure/virtual-machines/virtual-machines-windows-sizes)
   
-Met het volgende Azure PowerShell-opdrachtblok worden de virtuele machines voor de twee domeincontrollers gemaakt. Geef de waarden op voor de variabelen en verwijder de \< and > tekens. In dit opdrachtblok van Azure PowerShell worden waarden uit de volgende tabellen gebruikt:
+Met de Azure PowerShell opdrachtblok worden de virtuele machines voor de twee domeincontrollers gemaakt. Geef de waarden op voor de variabelen en verwijder de \< and > tekens. In dit Azure PowerShell opdrachtblok worden waarden uit de volgende tabellen gebruikt:
   
 - Tabel M, voor uw virtuele machines
     
@@ -65,12 +65,12 @@ Met het volgende Azure PowerShell-opdrachtblok worden de virtuele machines voor 
 U hebt tabellen R, V, S, I en A gedefinieerd in [fase 1: Azure configureren.](high-availability-federated-authentication-phase-1-configure-azure.md)
   
 > [!NOTE]
-> Met de volgende opdrachtsets wordt de meest recente versie van Azure PowerShell gebruikt. Zie [Aan de slag met Azure PowerShell](/powershell/azure/get-started-azureps). 
+> Met de volgende opdrachtsets wordt de meest recente versie van Azure PowerShell gebruikt. Zie [Aan de slag met Azure PowerShell.](/powershell/azure/get-started-azureps) 
   
-Wanneer u alle juiste waarden hebt opgegeven, moet u het resulterende blok uitvoeren op de Azure PowerShell-prompt of in de Ise (Integrated Script Environment) van PowerShell op uw lokale computer.
+Wanneer u alle juiste waarden hebt opgegeven, kunt u het resulterende blok uitvoeren op de Azure PowerShell prompt of in de Geïntegreerde scriptomgeving van PowerShell (ISE) op uw lokale computer.
   
 > [!TIP]
-> Als u kant-en-klaar PowerShell-opdrachtblokken wilt genereren op basis van uw aangepaste instellingen, gebruikt u deze [Configuratiewerkboek van Microsoft Excel.](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx) 
+> Als u kant-en-klaar PowerShell-opdrachtblokken wilt genereren op basis van uw aangepaste instellingen, gebruikt u [deze Microsoft Excel configuratiewerkboek.](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx) 
 
 ```powershell
 # Set up variables common to both virtual machines
@@ -144,13 +144,13 @@ New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
 ```
 
 > [!NOTE]
-> Omdat deze virtuele machines voor een intranettoepassing zijn, krijgen ze geen openbaar IP-adres of een DNS-domeinnaamlabel toegewezen en worden ze blootgesteld aan internet. Dit betekent echter ook dat u geen verbinding met ze kunt maken vanuit de Azure-portal. De **optie** Verbinding maken is niet beschikbaar wanneer u de eigenschappen van de virtuele computer bekijkt. Gebruik het accessoire Extern bureaublad-verbinding of een ander hulpprogramma voor extern bureaublad om verbinding te maken met de virtuele computer met de dns-naam van het privé-IP-adres of intranet.
+> Omdat deze virtuele machines voor een intranettoepassing zijn, krijgen ze geen openbaar IP-adres of een DNS-domeinnaamlabel toegewezen en worden ze blootgesteld aan internet. Dit betekent echter ook dat u geen verbinding met ze kunt maken vanuit de Azure-portal. De **Verbinding maken** optie is niet beschikbaar wanneer u de eigenschappen van de virtuele computer bekijkt. Gebruik het accessoire Extern bureaublad-verbinding of een ander hulpprogramma voor extern bureaublad om verbinding te maken met de virtuele computer met de dns-naam van het privé-IP-adres of intranet.
   
 ## <a name="configure-the-first-domain-controller"></a>De eerste domeincontroller configureren
 
 Gebruik de externe bureaubladclient van uw keuze en maak een externe bureaubladverbinding met de eerste virtuele domeincontroller. Gebruik de intranet DNS- of computernaam en de referenties van het lokale beheerdersaccount.
   
-Voeg vervolgens de extra gegevensschijf toe aan de eerste domeincontroller met deze opdracht vanuit een Windows PowerShell-opdrachtprompt op de eerste virtuele **domeincontroller:**
+Voeg vervolgens de extra gegevensschijf toe aan de eerste domeincontroller met deze opdracht vanaf Windows PowerShell opdrachtprompt op de eerste virtuele **domeincontroller:**
   
 ```powershell
 Get-Disk | Where PartitionStyle -eq "RAW" | Initialize-Disk -PartitionStyle MBR -PassThru | New-Partition -AssignDriveLetter -UseMaximumSize | Format-Volume -FileSystem NTFS -NewFileSystemLabel "WSAD Data"
@@ -160,7 +160,7 @@ Test vervolgens de connectiviteit van de eerste domeincontroller met locaties in
   
 Deze procedure zorgt ervoor dat de DNS-naamresolutie correct werkt (dat de virtuele machine correct is geconfigureerd met on-premises DNS-servers) en dat pakketten van en naar het cross-premises virtuele netwerk kunnen worden verzonden. Als deze basistest mislukt, neem dan contact op met uw IT-afdeling om de problemen met dns-naamoplossing en pakketbezorging op te lossen.
   
-Voer vervolgens vanuit de opdrachtprompt van Windows PowerShell op de eerste domeincontroller de volgende opdrachten uit:
+Voer vervolgens vanuit de opdrachtprompt Windows PowerShell de eerste domeincontroller de volgende opdrachten uit:
   
 ```powershell
 $domname="<DNS domain name of the domain for which this computer will be a domain controller, such as corp.contoso.com>"
@@ -175,7 +175,7 @@ U wordt gevraagd de referenties van een domeinbeheerderaccount op te leveren. De
 
 Gebruik de externe bureaubladclient van uw keuze en maak een externe bureaubladverbinding met de virtuele machine van de tweede domeincontroller. Gebruik de intranet DNS- of computernaam en de referenties van het lokale beheerdersaccount.
   
-Vervolgens moet u de extra gegevensschijf toevoegen aan de tweede domeincontroller met deze opdracht vanuit een Windows PowerShell-opdrachtprompt op de virtuele machine van de tweede **domeincontroller:**
+Vervolgens moet u de extra gegevensschijf toevoegen aan de tweede domeincontroller met deze opdracht vanuit een opdrachtprompt Windows PowerShell op de virtuele machine van de tweede **domeincontroller:**
   
 ```powershell
 Get-Disk | Where PartitionStyle -eq "RAW" | Initialize-Disk -PartitionStyle MBR -PassThru | New-Partition -AssignDriveLetter -UseMaximumSize | Format-Volume -FileSystem NTFS -NewFileSystemLabel "WSAD Data"
@@ -193,7 +193,7 @@ Install-ADDSDomainController -InstallDns -DomainName $domname  -DatabasePath "F:
 
 U wordt gevraagd de referenties van een domeinbeheerderaccount op te leveren. De computer wordt opnieuw gestart.
   
-Vervolgens moet u de DNS-servers voor uw virtuele netwerk bijwerken, zodat Azure virtuele machines de IP-adressen van de twee nieuwe domeincontrollers toewijst om te gebruiken als hun DNS-servers. Vul de variabelen in en voer deze opdrachten uit vanuit een Windows PowerShell-opdrachtprompt op uw lokale computer:
+Vervolgens moet u de DNS-servers voor uw virtuele netwerk bijwerken, zodat Azure virtuele machines de IP-adressen van de twee nieuwe domeincontrollers toewijst om te gebruiken als hun DNS-servers. Vul de variabelen in en voer deze opdrachten uit vanaf Windows PowerShell opdrachtprompt op uw lokale computer:
   
 ```powershell
 $rgName="<Table R - Item 4 - Resource group name column>"
@@ -219,7 +219,7 @@ Restart-AzVM -ResourceGroupName $adrgName -Name $secondDCName
 
 Houd er rekening mee dat we de twee domeincontrollers opnieuw starten, zodat ze niet zijn geconfigureerd met de on-premises DNS-servers als DNS-servers. Omdat ze beide DNS-servers zelf zijn, zijn ze automatisch geconfigureerd met de on-premises DNS-servers als DNS-doorsturende servers toen ze werden gepromoveerd naar domeincontrollers.
   
-Vervolgens moeten we een Active Directory-replicatiesite maken om ervoor te zorgen dat servers in het virtuele Azure-netwerk gebruikmaken van de lokale domeincontrollers. Maak verbinding met een domeincontroller met een domeinbeheerderaccount en voer de volgende opdrachten uit vanuit een Windows PowerShell-prompt op beheerdersniveau:
+Vervolgens moeten we een Active Directory-replicatiesite maken om ervoor te zorgen dat servers in het virtuele Azure-netwerk gebruikmaken van de lokale domeincontrollers. Verbinding maken domeincontroller met een domeinbeheerderaccount en voer de volgende opdrachten uit vanaf een administratorniveau Windows PowerShell prompt:
   
 ```powershell
 $vnet="<Table V - Item 1 - Value column>"
@@ -232,7 +232,7 @@ New-ADReplicationSubnet -Name $vnetSpace -Site $vnet
 
 Gebruik de externe bureaubladclient van uw keuze en maak een externe bureaubladverbinding met de virtuele computer van de adreslijstsynchronisatieserver. Gebruik de intranet DNS- of computernaam en de referenties van het lokale beheerdersaccount.
   
-Sluit u vervolgens aan bij het juiste AD DS-domein met deze opdrachten op de Windows PowerShell-prompt.
+Sluit u vervolgens aan bij het juiste AD DS-domein met deze opdrachten op de Windows PowerShell prompt.
   
 ```powershell
 $domName="<AD DS domain name to join, such as corp.contoso.com>"
@@ -245,7 +245,7 @@ Hier is de configuratie die het resultaat is van de succesvolle voltooiing van d
   
 **Fase 2: De domeincontrollers en adreslijstsynchronisatieserver voor uw federatief verificatie-infrastructuur met hoge beschikbaarheid in Azure**
 
-![Fase 2 van de hoge beschikbaarheid van Microsoft 365 federatief verificatie-infrastructuur in Azure met domeincontrollers](../media/b0c1013b-3fb4-499e-93c1-bf310d8f4c32.png)
+![Fase 2 van de hoge beschikbaarheid Microsoft 365 federatief verificatie-infrastructuur in Azure met domeincontrollers](../media/b0c1013b-3fb4-499e-93c1-bf310d8f4c32.png)
   
 ## <a name="next-step"></a>Volgende stap
 
@@ -255,6 +255,6 @@ Fase [3: AD FS-servers configureren om](high-availability-federated-authenticati
 
 [Federatieverificatie met hoge beschikbaarheid implementeren voor Microsoft 365 in Azure](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md)
   
-[Federatief identiteit voor uw Microsoft 365-dev/testomgeving](federated-identity-for-your-microsoft-365-dev-test-environment.md)
+[Federatief identiteit voor uw Microsoft 365 v/testomgeving](federated-identity-for-your-microsoft-365-dev-test-environment.md)
   
 [Microsoft 365-oplossings- en -architectuurcentrum](../solutions/index.yml)
