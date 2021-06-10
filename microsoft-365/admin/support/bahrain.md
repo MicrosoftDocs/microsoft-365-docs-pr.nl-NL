@@ -19,22 +19,22 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52296946"
 ---
-# <a name="contact-support-for-bahrain-kingdom-of"></a><span data-ttu-id="dcbf2-103">Neem contact op met de ondersteuning voor Bahrein, Koninkrijk</span><span class="sxs-lookup"><span data-stu-id="dcbf2-103">Contact support for Bahrain, Kingdom of</span></span>
+# <a name="contact-support-for-bahrain-kingdom-of"></a><span data-ttu-id="8994e-103">Neem contact op met de ondersteuning voor Bahrein, Koninkrijk</span><span class="sxs-lookup"><span data-stu-id="8994e-103">Contact support for Bahrain, Kingdom of</span></span>
 
-<span data-ttu-id="dcbf2-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="dcbf2-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="8994e-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="8994e-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="dcbf2-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="dcbf2-105">Phone number</span></span>
-<span data-ttu-id="dcbf2-106">800 81 250</span><span class="sxs-lookup"><span data-stu-id="dcbf2-106">800 81 250</span></span>
+## <a name="phone-number"></a><span data-ttu-id="8994e-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="8994e-105">Phone number</span></span>
+<span data-ttu-id="8994e-106">800 81 250</span><span class="sxs-lookup"><span data-stu-id="8994e-106">800 81 250</span></span>
 
-## <a name="hours"></a><span data-ttu-id="dcbf2-107">Uren</span><span class="sxs-lookup"><span data-stu-id="dcbf2-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="dcbf2-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="dcbf2-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="8994e-107">Uren</span><span class="sxs-lookup"><span data-stu-id="8994e-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="8994e-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="8994e-108">Billing Support:</span></span>
 
-<span data-ttu-id="dcbf2-109">Arabisch: Sun-Thu 10:00-18:00</span><span class="sxs-lookup"><span data-stu-id="dcbf2-109">Arabic: Sun-Thu 10 AM-6 PM</span></span>
+<span data-ttu-id="8994e-109">Arabisch: Sun-Thu 10:00-18:00</span><span class="sxs-lookup"><span data-stu-id="8994e-109">Arabic: Sun-Thu 10 AM-6 PM</span></span>
 
-<span data-ttu-id="dcbf2-110">Engels: Mon-Fri 10.00-18.00 uur</span><span class="sxs-lookup"><span data-stu-id="dcbf2-110">English: Mon-Fri 10 AM-6 PM</span></span>
+<span data-ttu-id="8994e-110">Engels: Mon-Fri 10.00-18.00 uur</span><span class="sxs-lookup"><span data-stu-id="8994e-110">English: Mon-Fri 10 AM-6 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="dcbf2-111">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="dcbf2-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="8994e-111">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="8994e-111">Technical Support:</span></span>
 
-<span data-ttu-id="dcbf2-112">Arabisch: Sun-Thu 10:00-18:00</span><span class="sxs-lookup"><span data-stu-id="dcbf2-112">Arabic: Sun-Thu 10 AM-6 PM</span></span>
+<span data-ttu-id="8994e-112">Arabisch: Sun-Thu 10:00-18:00</span><span class="sxs-lookup"><span data-stu-id="8994e-112">Arabic: Sun-Thu 10 AM-6 PM</span></span>
 
-<span data-ttu-id="dcbf2-113">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="dcbf2-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="8994e-113">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="8994e-113">English: 24 hours a day, 7 days a week</span></span>

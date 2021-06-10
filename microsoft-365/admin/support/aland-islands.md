@@ -19,20 +19,20 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52296681"
 ---
-# <a name="contact-support-for-aland-islands"></a><span data-ttu-id="e0545-103">Neem contact op met de ondersteuning voor Alandeilanden</span><span class="sxs-lookup"><span data-stu-id="e0545-103">Contact support for Aland Islands</span></span>
+# <a name="contact-support-for-aland-islands"></a><span data-ttu-id="20eae-103">Neem contact op met de ondersteuning voor Alandeilanden</span><span class="sxs-lookup"><span data-stu-id="20eae-103">Contact support for Aland Islands</span></span>
 
-<span data-ttu-id="e0545-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="e0545-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="20eae-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="20eae-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="e0545-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="e0545-105">Phone number</span></span>
-<span data-ttu-id="e0545-106">08009 8462</span><span class="sxs-lookup"><span data-stu-id="e0545-106">08009 8462</span></span>
+## <a name="phone-number"></a><span data-ttu-id="20eae-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="20eae-105">Phone number</span></span>
+<span data-ttu-id="20eae-106">08009 8462</span><span class="sxs-lookup"><span data-stu-id="20eae-106">08009 8462</span></span>
 
-## <a name="hours"></a><span data-ttu-id="e0545-107">Uren</span><span class="sxs-lookup"><span data-stu-id="e0545-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="e0545-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="e0545-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="20eae-107">Uren</span><span class="sxs-lookup"><span data-stu-id="20eae-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="20eae-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="20eae-108">Billing Support:</span></span>
 
-<span data-ttu-id="e0545-109">Engels: Mon-Fri 10.00-18.00 uur</span><span class="sxs-lookup"><span data-stu-id="e0545-109">English: Mon-Fri 10 AM-6 PM</span></span>
+<span data-ttu-id="20eae-109">Engels: Mon-Fri 10.00-18.00 uur</span><span class="sxs-lookup"><span data-stu-id="20eae-109">English: Mon-Fri 10 AM-6 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="e0545-110">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="e0545-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="20eae-110">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="20eae-110">Technical Support:</span></span>
 
-<span data-ttu-id="e0545-111">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="e0545-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="20eae-111">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="20eae-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="e0545-112">Lokale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="e0545-112">Local call charges apply</span></span>
+<span data-ttu-id="20eae-112">Lokale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="20eae-112">Local call charges apply</span></span>

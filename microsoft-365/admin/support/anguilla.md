@@ -19,20 +19,20 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52296645"
 ---
-# <a name="contact-support-for-anguilla"></a><span data-ttu-id="5012b-103">Neem contact op met ondersteuning voor Anguilla</span><span class="sxs-lookup"><span data-stu-id="5012b-103">Contact support for Anguilla</span></span>
+# <a name="contact-support-for-anguilla"></a><span data-ttu-id="7ddba-103">Neem contact op met ondersteuning voor Anguilla</span><span class="sxs-lookup"><span data-stu-id="7ddba-103">Contact support for Anguilla</span></span>
 
-<span data-ttu-id="5012b-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="5012b-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="7ddba-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="7ddba-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="5012b-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="5012b-105">Phone number</span></span>
-<span data-ttu-id="5012b-106">+1 312 843 5145</span><span class="sxs-lookup"><span data-stu-id="5012b-106">+1 312 843 5145</span></span>
+## <a name="phone-number"></a><span data-ttu-id="7ddba-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="7ddba-105">Phone number</span></span>
+<span data-ttu-id="7ddba-106">+1 312 843 5145</span><span class="sxs-lookup"><span data-stu-id="7ddba-106">+1 312 843 5145</span></span>
 
-## <a name="hours"></a><span data-ttu-id="5012b-107">Uren</span><span class="sxs-lookup"><span data-stu-id="5012b-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="5012b-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="5012b-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="7ddba-107">Uren</span><span class="sxs-lookup"><span data-stu-id="7ddba-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="7ddba-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="7ddba-108">Billing Support:</span></span>
 
-<span data-ttu-id="5012b-109">Engels: Mon-Fri 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="5012b-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="7ddba-109">Engels: Mon-Fri 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="7ddba-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="5012b-110">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="5012b-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="7ddba-110">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="7ddba-110">Technical Support:</span></span>
 
-<span data-ttu-id="5012b-111">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="5012b-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="7ddba-111">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="7ddba-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="5012b-112">Internationale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="5012b-112">International call charges apply</span></span>
+<span data-ttu-id="7ddba-112">Internationale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="7ddba-112">International call charges apply</span></span>

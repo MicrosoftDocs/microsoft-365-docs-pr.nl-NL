@@ -19,20 +19,20 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52296297"
 ---
-# <a name="contact-support-for-dominica"></a><span data-ttu-id="d325f-103">Neem contact op met ondersteuning voor Dominica</span><span class="sxs-lookup"><span data-stu-id="d325f-103">Contact support for Dominica</span></span>
+# <a name="contact-support-for-dominica"></a><span data-ttu-id="08925-103">Neem contact op met ondersteuning voor Dominica</span><span class="sxs-lookup"><span data-stu-id="08925-103">Contact support for Dominica</span></span>
 
-<span data-ttu-id="d325f-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="d325f-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="08925-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="08925-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="d325f-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="d325f-105">Phone number</span></span>
-<span data-ttu-id="d325f-106">+1 312 843 5150</span><span class="sxs-lookup"><span data-stu-id="d325f-106">+1 312 843 5150</span></span>
+## <a name="phone-number"></a><span data-ttu-id="08925-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="08925-105">Phone number</span></span>
+<span data-ttu-id="08925-106">+1 312 843 5150</span><span class="sxs-lookup"><span data-stu-id="08925-106">+1 312 843 5150</span></span>
 
-## <a name="hours"></a><span data-ttu-id="d325f-107">Uren</span><span class="sxs-lookup"><span data-stu-id="d325f-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="d325f-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="d325f-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="08925-107">Uren</span><span class="sxs-lookup"><span data-stu-id="08925-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="08925-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="08925-108">Billing Support:</span></span>
 
-<span data-ttu-id="d325f-109">Spaans: Mon-Fri 11.00-19.00 uur</span><span class="sxs-lookup"><span data-stu-id="d325f-109">Spanish: Mon-Fri 11 AM-7 PM</span></span>
+<span data-ttu-id="08925-109">Spaans: Mon-Fri 11.00-19.00 uur</span><span class="sxs-lookup"><span data-stu-id="08925-109">Spanish: Mon-Fri 11 AM-7 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="d325f-110">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="d325f-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="08925-110">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="08925-110">Technical Support:</span></span>
 
-<span data-ttu-id="d325f-111">Spaans: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="d325f-111">Spanish: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="08925-111">Spaans: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="08925-111">Spanish: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="d325f-112">Internationale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="d325f-112">International call charges apply</span></span>
+<span data-ttu-id="08925-112">Internationale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="08925-112">International call charges apply</span></span>

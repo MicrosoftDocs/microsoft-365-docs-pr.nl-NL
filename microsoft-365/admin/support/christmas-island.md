@@ -19,20 +19,20 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52296790"
 ---
-# <a name="contact-support-for-christmas-island"></a><span data-ttu-id="dc938-103">Neem contact op met de ondersteuning voor Christmas Island</span><span class="sxs-lookup"><span data-stu-id="dc938-103">Contact support for Christmas Island</span></span>
+# <a name="contact-support-for-christmas-island"></a><span data-ttu-id="1dd33-103">Neem contact op met de ondersteuning voor Christmas Island</span><span class="sxs-lookup"><span data-stu-id="1dd33-103">Contact support for Christmas Island</span></span>
 
-<span data-ttu-id="dc938-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="dc938-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="1dd33-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="1dd33-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="dc938-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="dc938-105">Phone number</span></span>
-<span data-ttu-id="dc938-106">+1 312 843 5148</span><span class="sxs-lookup"><span data-stu-id="dc938-106">+1 312 843 5148</span></span>
+## <a name="phone-number"></a><span data-ttu-id="1dd33-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="1dd33-105">Phone number</span></span>
+<span data-ttu-id="1dd33-106">+1 312 843 5148</span><span class="sxs-lookup"><span data-stu-id="1dd33-106">+1 312 843 5148</span></span>
 
-## <a name="hours"></a><span data-ttu-id="dc938-107">Uren</span><span class="sxs-lookup"><span data-stu-id="dc938-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="dc938-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="dc938-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="1dd33-107">Uren</span><span class="sxs-lookup"><span data-stu-id="1dd33-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="1dd33-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="1dd33-108">Billing Support:</span></span>
 
-<span data-ttu-id="dc938-109">Engels: Mon-Fri 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="dc938-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="1dd33-109">Engels: Mon-Fri 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="1dd33-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="dc938-110">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="dc938-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="1dd33-110">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="1dd33-110">Technical Support:</span></span>
 
-<span data-ttu-id="dc938-111">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="dc938-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="1dd33-111">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="1dd33-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="dc938-112">Internationale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="dc938-112">International call charges apply</span></span>
+<span data-ttu-id="1dd33-112">Internationale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="1dd33-112">International call charges apply</span></span>

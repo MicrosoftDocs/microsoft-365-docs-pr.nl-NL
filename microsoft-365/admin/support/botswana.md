@@ -19,20 +19,20 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52296874"
 ---
-# <a name="contact-support-for-botswana"></a><span data-ttu-id="e46ba-103">Neem contact op met de ondersteuning voor Botswana</span><span class="sxs-lookup"><span data-stu-id="e46ba-103">Contact support for Botswana</span></span>
+# <a name="contact-support-for-botswana"></a><span data-ttu-id="a62bb-103">Neem contact op met de ondersteuning voor Botswana</span><span class="sxs-lookup"><span data-stu-id="a62bb-103">Contact support for Botswana</span></span>
 
-<span data-ttu-id="e46ba-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="e46ba-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="a62bb-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="a62bb-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="e46ba-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="e46ba-105">Phone number</span></span>
-<span data-ttu-id="e46ba-106">+27 21 427 3315</span><span class="sxs-lookup"><span data-stu-id="e46ba-106">+27 21 427 3315</span></span>
+## <a name="phone-number"></a><span data-ttu-id="a62bb-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="a62bb-105">Phone number</span></span>
+<span data-ttu-id="a62bb-106">+27 21 427 3315</span><span class="sxs-lookup"><span data-stu-id="a62bb-106">+27 21 427 3315</span></span>
 
-## <a name="hours"></a><span data-ttu-id="e46ba-107">Uren</span><span class="sxs-lookup"><span data-stu-id="e46ba-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="e46ba-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="e46ba-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="a62bb-107">Uren</span><span class="sxs-lookup"><span data-stu-id="a62bb-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="a62bb-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="a62bb-108">Billing Support:</span></span>
 
-<span data-ttu-id="e46ba-109">Engels: Mon-Fri 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="e46ba-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="a62bb-109">Engels: Mon-Fri 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="a62bb-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="e46ba-110">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="e46ba-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="a62bb-110">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="a62bb-110">Technical Support:</span></span>
 
-<span data-ttu-id="e46ba-111">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="e46ba-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="a62bb-111">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="a62bb-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="e46ba-112">Internationale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="e46ba-112">International call charges apply</span></span>
+<span data-ttu-id="a62bb-112">Internationale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="a62bb-112">International call charges apply</span></span>

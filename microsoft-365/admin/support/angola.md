@@ -19,22 +19,22 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52296982"
 ---
-# <a name="contact-support-for-angola"></a><span data-ttu-id="af99f-103">Contact opnemen met ondersteuning voor Angola</span><span class="sxs-lookup"><span data-stu-id="af99f-103">Contact support for Angola</span></span>
+# <a name="contact-support-for-angola"></a><span data-ttu-id="a0f15-103">Contact opnemen met ondersteuning voor Angola</span><span class="sxs-lookup"><span data-stu-id="a0f15-103">Contact support for Angola</span></span>
 
-<span data-ttu-id="af99f-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="af99f-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="a0f15-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="a0f15-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="af99f-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="af99f-105">Phone number</span></span>
-<span data-ttu-id="af99f-106">+351 21 366 5030</span><span class="sxs-lookup"><span data-stu-id="af99f-106">+351 21 366 5030</span></span>
+## <a name="phone-number"></a><span data-ttu-id="a0f15-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="a0f15-105">Phone number</span></span>
+<span data-ttu-id="a0f15-106">+351 21 366 5030</span><span class="sxs-lookup"><span data-stu-id="a0f15-106">+351 21 366 5030</span></span>
 
-## <a name="hours"></a><span data-ttu-id="af99f-107">Uren</span><span class="sxs-lookup"><span data-stu-id="af99f-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="af99f-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="af99f-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="a0f15-107">Uren</span><span class="sxs-lookup"><span data-stu-id="a0f15-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="a0f15-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="a0f15-108">Billing Support:</span></span>
 
-<span data-ttu-id="af99f-109">Engels: Mon-Fri 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="af99f-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="a0f15-109">Engels: Mon-Fri 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="a0f15-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="af99f-110">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="af99f-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="a0f15-110">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="a0f15-110">Technical Support:</span></span>
 
-<span data-ttu-id="af99f-111">Portugees: Mon-Fri 9:00-22:00</span><span class="sxs-lookup"><span data-stu-id="af99f-111">Portuguese: Mon-Fri 9 AM-10 PM</span></span>
+<span data-ttu-id="a0f15-111">Portugees: Mon-Fri 9:00-22:00</span><span class="sxs-lookup"><span data-stu-id="a0f15-111">Portuguese: Mon-Fri 9 AM-10 PM</span></span>
 
-<span data-ttu-id="af99f-112">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="af99f-112">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="a0f15-112">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="a0f15-112">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="af99f-113">Internationale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="af99f-113">International call charges apply</span></span>
+<span data-ttu-id="a0f15-113">Internationale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="a0f15-113">International call charges apply</span></span>
