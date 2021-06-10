@@ -1,5 +1,5 @@
 ---
-title: Machtigingen in het Microsoft 365 compliancecentrum
+title: Machtigingen in het Microsoft 365-compliancecentrum
 f1.keywords:
 - NOCSH
 ms.author: robmazz
@@ -18,7 +18,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 06/05/2021
 ms.locfileid: "52782847"
 ---
-# <a name="permissions-in-the-microsoft-365-compliance-center"></a>Machtigingen in het Microsoft 365 compliancecentrum
+# <a name="permissions-in-the-microsoft-365-compliance-center"></a>Machtigingen in het Microsoft 365-compliancecentrum
 
 Het Microsoft 365 compliancecentrum is onlangs bijgewerkt en ondersteunt nu rechtstreeks het beheren van machtigingen voor gebruikers die compliancetaken uitvoeren in Microsoft 365. Deze update betekent dat u het beveiligings- Office 365 compliancecentrum & niet meer hoeft te gebruiken om machtigingen voor complianceoplossingen te beheren. Met de  nieuwe pagina Machtigingen in het Microsoft 365 compliancecentrum kunt u machtigingen voor gebruikers beheren voor compliancetaken in functies zoals apparaatbeheer, preventie van gegevensverlies, eDiscovery, insiderrisicobeheer, bewaring en vele andere. Gebruikers kunnen alleen de nalevingstaken uitvoeren die u hen expliciet toegang verleent.
 
@@ -55,8 +55,8 @@ De rollen die worden weergegeven in de **sectie Azure AD** Roles op de pagina ma
 |**Beveiligingslezer**|Bekijk en onderzoek actieve bedreigingen voor uw Microsoft 365-gebruikers, -apparaten en -inhoud, maar u hebt (in tegenstelling tot de beveiligingsoperator) geen machtiging om te reageren door actie te ondernemen. Zie [Beveiligingslezer](/azure/active-directory/roles/permissions-reference#security-reader) voor meer informatie.|
 |**Beveiligingsbeheerder**|Controleer de algehele beveiliging van uw organisatie door beveiligingsbeleid te beheren, de beveiligingsanalyse en rapporten in de Microsoft 365-producten te evalueren en op de hoogte te blijven van mogelijke dreigingen. Zie [Beveiligingsbeheerder](/azure/active-directory/roles/permissions-reference#security-administrator) voor meer informatie.|
 |**Globale lezer**|De alleen-lezen versie van de rol **Globale beheerder**. Bekijk alle instellingen en administratieve informatie in Microsoft 365. Zie [Globale lezer](/azure/active-directory/roles/permissions-reference#global-reader) voor meer informatie.|
-|**Aanvalssimulatiebeheerder**|Maak en beheer alle aspecten van het maken van een aanvalssimulatie, het starten/plannen van een simulatie en het bekijken van de resultaten van de simulatie. Zie Aanvalssimulatiebeheerder voor meer [informatie.](/azure/active-directory/roles/permissions-reference#attack-simulation-administrator)|
-|**Auteur van aanvalslading**|Maak aanvalsladingen, maar start ze niet echt of plan ze niet. Zie Attack Payload Author voor [meer informatie.](/azure/active-directory/roles/permissions-reference#attack-payload-author)|
+|**Beheerder voor aanvalssimulatie**|Creëer en beheer alle aspecten van het maken van aanvalssimulaties, het starten/plannen van een simulatie en het beoordelen van simulatieresultaten. Zie voor meer informatie de [Simulatiebeheerder voor aanvallen](/azure/active-directory/roles/permissions-reference#attack-simulation-administrator).|
+|**Auteur nettolading aanvallen**|Maak nettoladingen voor aanvallen, maar start of plan ze niet. Zie voor meer informatie [Auteur nettolading aanvallen](/azure/active-directory/roles/permissions-reference#attack-payload-author).|
 |
 
 ## <a name="add-users-to-a-compliance-role-group"></a>Gebruikers toevoegen aan een compliancerolgroep

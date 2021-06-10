@@ -27,7 +27,7 @@ ms.locfileid: "51187383"
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
@@ -42,17 +42,17 @@ ms.locfileid: "51187383"
 
 | Methode                                                            | Retourtype                        | Beschrijving                                                 |
 |:------------------------------------------------------------------|:-----------------------------------|:------------------------------------------------------------|
-| [Lijst MachineActions](get-machineactions-collection.md)           | [Machineactie](machineaction.md) | List [Machine Action-entiteiten.](machineaction.md)           |
-| [MachineAction krijgen](get-machineaction-object.md)                  | [Machineactie](machineaction.md) | Eén entiteit [Machineactie](machineaction.md) krijgen.     |
-| [Onderzoekspakket verzamelen](collect-investigation-package.md) | [Machineactie](machineaction.md) | Verzamel het onderzoekspakket van een [computer.](machine.md) |
-| [Onderzoekspakket SAS URI krijgen](get-package-sas-uri.md)       | [Machineactie](machineaction.md) | Download URI voor het downloaden van het onderzoekspakket.          |
-| [Machine isoleren](isolate-machine.md)                             | [Machineactie](machineaction.md) | De [machine isoleren](machine.md) van het netwerk.                 |
-| [Loszetapparaat uit isolatie](unisolate-machine.md)            | [Machineactie](machineaction.md) | Laat [de machine los](machine.md) uit Isolatie.               |
-| [De uitvoering van apps beperken](restrict-code-execution.md)              | [Machineactie](machineaction.md) | Toepassingsuitvoering beperken.                             |
-| [App-beperking verwijderen](unrestrict-code-execution.md)            | [Machineactie](machineaction.md) | Beperking voor toepassingsuitvoering verwijderen.                   |
-| [Antivirusscan uitvoeren](run-av-scan.md)                              | [Machineactie](machineaction.md) | Voer een AV-scan uit met Windows Defender (indien van toepassing).    |
-| [Offboard-machine](offboard-machine-api.md)                       | [Machineactie](machineaction.md) | Offboard [machine](machine.md) from Microsoft Defender for Endpoint. |
-| [Bestand stoppen en in quarantaine plaatsen](stop-and-quarantine-file.md)           | [Machineactie](machineaction.md) | De uitvoering van een bestand op een computer stoppen en verwijderen.        |
+| [Lijst MachineActions](get-machineactions-collection.md)           | [Computeractie](machineaction.md) | List [Machine Action-entiteiten.](machineaction.md)           |
+| [MachineAction krijgen](get-machineaction-object.md)                  | [Computeractie](machineaction.md) | Eén entiteit [Machineactie](machineaction.md) krijgen.     |
+| [Onderzoekspakket verzamelen](collect-investigation-package.md) | [Computeractie](machineaction.md) | Verzamel het onderzoekspakket van een [computer.](machine.md) |
+| [Onderzoekspakket SAS URI ophalen](get-package-sas-uri.md)       | [Computeractie](machineaction.md) | Download URI voor het downloaden van het onderzoekspakket.          |
+| [Computer isoleren](isolate-machine.md)                             | [Computeractie](machineaction.md) | De [machine isoleren](machine.md) van het netwerk.                 |
+| [Computer loslaten uit isolatie](unisolate-machine.md)            | [Computeractie](machineaction.md) | Laat [de machine los](machine.md) uit Isolatie.               |
+| [Het uitvoeren van apps beperken](restrict-code-execution.md)              | [Computeractie](machineaction.md) | Toepassingsuitvoering beperken.                             |
+| [App-beperking verwijderen](unrestrict-code-execution.md)            | [Computeractie](machineaction.md) | Beperking voor toepassingsuitvoering verwijderen.                   |
+| [Antivirusscan uitvoeren](run-av-scan.md)                              | [Computeractie](machineaction.md) | Voer een AV-scan uit Windows Defender (indien van toepassing).    |
+| [Computer offboarden](offboard-machine-api.md)                       | [Computeractie](machineaction.md) | Offboard [machine](machine.md) from Microsoft Defender for Endpoint. |
+| [Bestand stoppen en in quarantaine plaatsen](stop-and-quarantine-file.md)           | [Computeractie](machineaction.md) | De uitvoering van een bestand op een computer stoppen en verwijderen.        |
 
 <br>
 

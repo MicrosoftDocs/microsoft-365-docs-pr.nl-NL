@@ -1,7 +1,7 @@
 ---
 title: DeviceTvmSecureConfigurationAssessment table in the advanced hunting schema
-description: Meer informatie over beveiligingsbeoordelingsgebeurtenissen in de tabel DeviceTvmSecureConfigurationAssessment van het geavanceerde schema voor de jacht. Deze bedreigingen & beveiligingsrisico's bevatten apparaatgegevens, evenals beveiligingsconfiguratiegegevens, impact- en compliancegegevens.
-keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, microsoft 365, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, threat & vulnerability management, TVM, device management, security configuration, DeviceTvmSecureConfigurationAssessment
+description: Meer informatie over beveiligingsbeoordelingsgebeurtenissen in de tabel DeviceTvmSecureConfigurationAssessment van het geavanceerde schema voor de jacht. Deze bedreigingsgebeurtenissen & vulnerability management apparaatgegevens, evenals beveiligingsconfiguratiegegevens, impact- en compliancegegevens.
+keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, microsoft 365, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, threat & vulnerability management, TVM, device management, security configuration, DeviceTvmSecureConfigurationAssesment
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security

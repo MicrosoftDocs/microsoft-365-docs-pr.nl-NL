@@ -23,11 +23,11 @@ ms.locfileid: "51199439"
 ---
 # <a name="identity-and-device-access-prerequisites-for-password-hash-synchronization-in-your-microsoft-365-test-environment"></a>Vereisten voor identiteits- en apparaattoegang voor wachtwoord-hash-synchronisatie in uw Microsoft 365-testomgeving.
 
-*Deze testlaborator kan alleen worden gebruikt voor Microsoft 365 voor testomgevingen voor ondernemingen.*
+*Deze testlaborator kan alleen worden gebruikt Microsoft 365 voor bedrijfstestomgevingen.*
 
-[Configuraties voor identiteits-](../security/office-365-security/microsoft-365-policies-configurations.md) en apparaattoegang zijn een set configuraties en beleid voor voorwaardelijke toegang om de toegang tot alle services in Microsoft 365 voor ondernemingen te beschermen die zijn geïntegreerd met Azure Active Directory (Azure AD).
+[Configuraties voor identiteits-](../security/office-365-security/microsoft-365-policies-configurations.md) en apparaattoegang zijn een set configuraties en beleid voor voorwaardelijke toegang om de toegang tot alle services in Microsoft 365 voor ondernemingen die zijn geïntegreerd met Azure Active Directory (Azure AD) te beschermen.
 
-In dit artikel wordt beschreven hoe u een Microsoft 365-testomgeving configureert die voldoet aan de vereisten van de hybride configuratie met verificatie van wachtwoordhashsynchronisatie voor identiteit en apparaattoegang. [](../security/office-365-security/identity-access-prerequisites.md#prerequisites)
+In dit artikel wordt beschreven hoe u een Microsoft 365-testomgeving configureert die voldoet aan de vereisten van de hybride configuratie met wachtwoordhashsynchronisatievereisten voor identiteits- en apparaattoegang. [](../security/office-365-security/identity-access-prerequisites.md#prerequisites)
 
 Er zijn tien fasen voor het instellen van deze testomgeving:
 
@@ -37,7 +37,7 @@ Er zijn tien fasen voor het instellen van deze testomgeving:
 4. Wachtwoord terugschrijven configureren
 5. Self-service voor wachtwoordherstel configureren voor alle gebruikersaccounts
 6. Meervoudige verificatie configureren voor alle gebruikersaccounts
-7. Automatische apparaatregistratie van windows-computers met een domein inschakelen
+7. Automatische apparaatregistratie van domeingevoegde Windows inschakelen
 8. Azure AD-wachtwoordbeveiliging configureren 
 9. Azure AD Identity Protection inschakelen
 10. Moderne verificatie inschakelen voor Exchange Online en Skype voor Bedrijven Online
@@ -87,9 +87,9 @@ Volg de instructies in [Fase 2 van testlabrichtlijn Meervoudige verificatie](mul
 
 Test meervoudige verificatie alleen voor het Gebruiker 2-account.
 
-## <a name="phase-7-enable-automatic-device-registration-of-domain-joined-windows-computers"></a>Fase 7: Automatische apparaatregistratie van windows-computers met een domein inschakelen 
+## <a name="phase-7-enable-automatic-device-registration-of-domain-joined-windows-computers"></a>Fase 7: Automatische apparaatregistratie van domeingevoegde Windows inschakelen 
 
-Volg [deze instructies om](/azure/active-directory/devices/hybrid-azuread-join-plan) automatische apparaatregistratie van windows-computers met een domein in te stellen.
+Volg [deze instructies om](/azure/active-directory/devices/hybrid-azuread-join-plan) automatische apparaatregistratie van domeingevoegde Windows inschakelen.
 
 ## <a name="phase-8-configure-azure-ad-password-protection"></a>Fase 8: Azure AD-wachtwoordbeveiliging configureren 
 

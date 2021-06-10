@@ -23,7 +23,7 @@ ms.locfileid: "51197873"
 ---
 # <a name="identity-and-device-access-for-your-microsoft-365-test-environment"></a>Identiteit en apparaattoegang voor uw Microsoft 365-testomgeving
 
-*Deze testlaborator kan alleen worden gebruikt voor Microsoft 365 voor testomgevingen voor ondernemingen.*
+*Deze testlaborator kan alleen worden gebruikt Microsoft 365 voor bedrijfstestomgevingen.*
 
 [Configuraties voor identiteits-](../security/office-365-security/microsoft-365-policies-configurations.md) en apparaattoegang zijn een reeks aanbevolen configuraties en beleid voor voorwaardelijke toegang om de toegang tot alle services te beschermen die zijn geïntegreerd met Azure Active Directory (Azure AD).
 

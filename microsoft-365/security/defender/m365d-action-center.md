@@ -73,7 +73,7 @@ U kunt het geïntegreerde actiecentrum gebruiken als u de juiste machtigingen en
 
 Wanneer u het Actiecentrum bezoekt, ziet u twee tabbladen: **Acties in behandeling** en **Geschiedenis.** De volgende tabel bevat een overzicht van wat u op elk tabblad ziet:
 
-|Tab  |Omschrijving  |
+|Tab  |Beschrijving  |
 |---------|---------|
 |**In behandeling**     | Hiermee wordt een lijst weergegeven met acties die aandacht vereisen. U kunt acties één voor één goedkeuren of weigeren of meerdere acties selecteren als ze hetzelfde type actie hebben (zoals Quarantainebestand). <p>**TIP:** Controleer en keur in behandeling zijnde acties zo snel mogelijk goed (of weiger) zodat uw geautomatiseerde onderzoeken tijdig kunnen worden voltooid.       |
 |**Geschiedenis**     | Fungeert als een auditlogboek voor acties die zijn uitgevoerd, zoals: <br/>- Herstelacties die zijn ondernomen als gevolg van geautomatiseerde onderzoeken <br/>- Herstelacties die zijn ondernomen op verdachte of schadelijke e-mailberichten, bestanden of URL's<br/>- Herstelacties die zijn goedgekeurd door uw beveiligingsteam <br/>- Opdrachten die zijn uitgevoerd en herstelacties die zijn toegepast tijdens livereactiesessies<br/>- Herstelacties die zijn ondernomen door uw antivirusbeveiliging <p>Biedt een manier om bepaalde acties ongedaan te maken (zie [Voltooide acties ongedaan maken).](m365d-autoir-actions.md#undo-completed-actions)        |
@@ -109,7 +109,7 @@ Naast herstelacties die automatisch worden ondernomen als gevolg van geautomatis
 
 (**NIEUW!**) Het verbeterde Actiecentrum bevat nu een **kolom Actiebron** waarin wordt be informatie over waar elke actie vandaan komt. In de volgende tabel worden mogelijke **actiebronwaarden** beschreven:
 
-| Actiebronwaarde | Omschrijving |
+| Actiebronwaarde | Beschrijving |
 |:-----|:---|
 | **Handmatige apparaatactie** | Een handmatige actie op een apparaat. Voorbeelden hiervan [zijn apparaatisolatie](../defender-endpoint/respond-machine-alerts.md#isolate-devices-from-the-network) [of bestands quarantaine.](../defender-endpoint/respond-file-alerts.md#stop-and-quarantine-files) |
 | **Handmatige e-mailactie** | Een handmatige actie voor e-mail. Een voorbeeld hiervan is het verwijderen van e-mailberichten of [het herstellen van een e-mailbericht.](../office-365-security/remediate-malicious-email-delivered-office-365.md) |

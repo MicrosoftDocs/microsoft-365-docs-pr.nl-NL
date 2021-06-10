@@ -65,7 +65,7 @@ Zie de geavanceerde zoekverwijzing voor meer informatie over andere tabellen in 
 | `ProcessVersionInfoFileDescription` | tekenreeks | Beschrijving van de versiegegevens van het nieuw gemaakte proces |
 | `ProcessId` | int | Proces-id (PID) van het nieuw gemaakte proces |
 | `ProcessCommandLine` | tekenreeks | Opdrachtregel die wordt gebruikt om het nieuwe proces te maken |
-| `ProcessIntegrityLevel` | tekenreeks | Integriteitsniveau van het nieuwe proces. Windows wijst integriteitsniveaus toe aan processen op basis van bepaalde kenmerken, bijvoorbeeld als ze zijn gestart vanaf een internet gedownload. Deze integriteitsniveaus zijn van invloed op machtigingen voor resources |
+| `ProcessIntegrityLevel` | tekenreeks | Integriteitsniveau van het nieuwe proces. Windows integriteitsniveaus toe aan processen op basis van bepaalde kenmerken, bijvoorbeeld als ze zijn gestart vanaf een gedownload internet. Deze integriteitsniveaus zijn van invloed op machtigingen voor resources |
 | `ProcessTokenElevation` | tekenreeks | Geeft het type tokenhoogte aan dat is toegepast op het nieuwe proces. Mogelijke waarden: TokenElevationTypeLimited (beperkt), TokenElevationTypeDefault (standaard) en TokenElevationTypeFull (verhoogd) |
 | `ProcessCreationTime` | datetime | Datum en tijd waarop het proces is gemaakt |
 | `AccountDomain` | tekenreeks | Domein van het account |
@@ -80,7 +80,7 @@ Zie de geavanceerde zoekverwijzing voor meer informatie over andere tabellen in 
 | `InitiatingProcessAccountUpn` | tekenreeks | User principal name (UPN) of the account that ran the process responsible for the event |
 | `InitiatingProcessAccountObjectId` | tekenreeks | Azure AD-object-id van het gebruikersaccount dat het proces heeft uitgevoerd dat verantwoordelijk is voor de gebeurtenis |
 | `InitiatingProcessLogonId` | tekenreeks | Id voor een aanmeldingssessie van het proces dat de gebeurtenis heeft gestart. Deze id is alleen uniek op dezelfde computer tussen herstarten. |
-| `InitiatingProcessIntegrityLevel` | tekenreeks | Integriteitsniveau van het proces dat de gebeurtenis heeft gestart. Windows wijst integriteitsniveaus toe aan processen op basis van bepaalde kenmerken, bijvoorbeeld als ze zijn gestart via een internet-download. Deze integriteitsniveaus zijn van invloed op machtigingen voor resources |
+| `InitiatingProcessIntegrityLevel` | tekenreeks | Integriteitsniveau van het proces dat de gebeurtenis heeft gestart. Windows worden integriteitsniveaus toegewezen aan processen op basis van bepaalde kenmerken, bijvoorbeeld als ze zijn gestart via een internet-download. Deze integriteitsniveaus zijn van invloed op machtigingen voor resources |
 | `InitiatingProcessTokenElevation` | tekenreeks | Tokentype dat aangeeft dat de aanwezigheid of afwezigheid van UAC-bevoegdheden (User Access Control) is toegepast op het proces waarmee de gebeurtenis is gestart |
 | `InitiatingProcessSHA1` | tekenreeks | SHA-1 van het proces (afbeeldingsbestand) dat de gebeurtenis heeft gestart |
 | `InitiatingProcessSHA256` | tekenreeks | SHA-256 van het proces (afbeeldingsbestand) dat de gebeurtenis heeft gestart. Dit veld wordt meestal niet ingevuld: gebruik de kolom SHA1 wanneer deze beschikbaar is. |

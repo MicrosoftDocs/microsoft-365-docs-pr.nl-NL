@@ -55,4 +55,4 @@ Met deze opties worden basishandhaving voor mobiliteit en beveiliging voor appar
 3.  Selecteer ja in het dialoogvenster **Waarschuwing.**
 
 >[!NOTE]
->Zie het blogbericht Access Control verwijderen van Mobile Device Management voor [Office 365](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/Removing-Access-Control-from-Mobile-Device-Management-for-Office/ba-p/279934)voor meer stappen om de blokkering van apparaten te deblokkeren als uw organisatieapparaten nog steeds in een geblokkeerde staat staan.
+>Zie het blogbericht Access Control verwijderen uit Mobile Device Management voor Office 365 voor meer stappen om de blokkering van apparaten te [deblokkeren als](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/Removing-Access-Control-from-Mobile-Device-Management-for-Office/ba-p/279934)uw organisatieapparaten nog steeds in een geblokkeerde staat staan.

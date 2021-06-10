@@ -23,7 +23,7 @@ ms.locfileid: "51199547"
 ---
 # <a name="identity-and-device-access-prerequisites-for-cloud-only-in-your-microsoft-365-test-environment"></a>Vereisten voor identiteits- en apparaattoegang voor de cloud alleen in uw Microsoft 365-testomgeving.
 
-*Deze testlaborator kan alleen worden gebruikt voor Microsoft 365 voor testomgevingen voor ondernemingen.*
+*Deze testlaborator kan alleen worden gebruikt Microsoft 365 voor bedrijfstestomgevingen.*
 
 [Configuraties voor identiteits-](../security/office-365-security/microsoft-365-policies-configurations.md) en apparaattoegang zijn een reeks aanbevolen configuraties en beleid voor voorwaardelijke toegang om de toegang tot alle services te beschermen die zijn geïntegreerd met Azure Active Directory (Azure AD).
 
@@ -35,7 +35,7 @@ Er zijn acht fasen om deze testomgeving in te stellen:
 2. Benoemde locaties configureren
 3. Self-service voor wachtwoordherstel configureren
 4. Meervoudige verificatie configureren
-5. Automatische apparaatregistratie van windows-computers met een domein inschakelen
+5. Automatische apparaatregistratie van domeingevoegde Windows inschakelen
 6. Azure AD-wachtwoordbeveiliging configureren 
 7. Azure AD Identity Protection inschakelen
 8. Moderne verificatie inschakelen voor Exchange Online en Skype voor Bedrijven Online
@@ -77,9 +77,9 @@ Volg de instructies in [Fase 2 van testlabrichtlijn Meervoudige verificatie](mul
 
 Test meervoudige verificatie alleen voor het Gebruiker 2-account.
 
-## <a name="phase-5-enable-automatic-device-registration-of-domain-joined-windows-computers"></a>Fase 5: Automatische apparaatregistratie van windows-computers met een domein inschakelen 
+## <a name="phase-5-enable-automatic-device-registration-of-domain-joined-windows-computers"></a>Fase 5: Automatische apparaatregistratie van domeingevoegde Windows inschakelen 
 
-Volg [deze instructies om](/azure/active-directory/devices/hybrid-azuread-join-plan) automatische apparaatregistratie van windows-computers met een domein in te stellen.
+Volg [deze instructies om](/azure/active-directory/devices/hybrid-azuread-join-plan) automatische apparaatregistratie van domeingevoegde Windows inschakelen.
 
 ## <a name="phase-6-configure-azure-ad-password-protection"></a>Fase 6: Azure AD-wachtwoordbeveiliging configureren 
 

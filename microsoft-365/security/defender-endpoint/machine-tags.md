@@ -1,5 +1,5 @@
 ---
-title: Apparaatlabels maken en beheren
+title: Apparaattags maken en beheren
 description: Apparaatlabels gebruiken om apparaten te groepen om context vast te leggen en het maken van dynamische lijst in te stellen als onderdeel van een incident
 keywords: tags, apparaatlabels, apparaatgroepen, groepen, herstel, niveau, regels, aadgroep, rol, toewijzen, rang
 search.product: eADQiWindows 10XVcnh
@@ -23,12 +23,12 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/24/2021
 ms.locfileid: "51187587"
 ---
-# <a name="create-and-manage-device-tags"></a>Apparaatlabels maken en beheren
+# <a name="create-and-manage-device-tags"></a>Apparaattags maken en beheren
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)

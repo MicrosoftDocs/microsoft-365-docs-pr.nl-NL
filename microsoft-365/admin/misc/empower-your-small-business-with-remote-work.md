@@ -14,7 +14,7 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
-description: Vind de meest recente informatie, tips, bronnen en richtlijnen over extern werk voor bedrijven die Microsoft 365 gebruiken.
+description: Vind de meest recente informatie, tips, bronnen en richtlijnen over extern werk voor bedrijven die gebruikmaken van Microsoft 365.
 ms.openlocfilehash: 5bdff59f3d07c59951c6da87d7b28432fb7c5878
 ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
@@ -24,7 +24,7 @@ ms.locfileid: "52023735"
 ---
 # <a name="empower-your-small-business-with-remote-work"></a>Uw kleine bedrijven in staat stellen om extern werk te doen
 
-Wanneer bedrijven zich aanpassen aan de toegenomen behoefte om mensen op afstand te laten werken en virtueel contact te maken met hun klanten, wordt deze site bijgewerkt met de meest recente informatie over hoe u dit doet, tips, resources en richtlijnen voor extern werk voor bedrijven die Microsoft 365 gebruiken.
+Wanneer bedrijven zich aanpassen aan de toegenomen behoefte om mensen op afstand te laten werken en virtueel contact te leggen met hun klanten, wordt deze site bijgewerkt met de meest recente informatie over hoe u informatie, tips, resources en richtlijnen voor extern werk voor bedrijven met behulp van Microsoft 365.
 
 >[!TIP]
 >Hebt u geen Microsoft_Teams? Ontvang gratis 6 maanden Microsoft Teams in Office (wanneer u zich voor 1 jaar registreert). Krijg de technologieën die in dit artikel worden beschreven als onderdeel van de aanbieding. Zie 1 maand gratis uitproberen [voor meer informatie.](https://aka.ms/SMBTeamsOffer)
@@ -37,9 +37,9 @@ Wanneer bedrijven zich aanpassen aan de toegenomen behoefte om mensen op afstand
 
 In het licht van de COVID-19-epidemie (Novel Coronavirus) hebben veel bedrijfseigenaren te maken met een volledig op afstand werkend personeel. Dit kunt u doen om een overgang te maken naar veilig, veilig en productief werken op afstand.
 
-Zie Aan de slag [met Microsoft Teams in uw kleine bedrijf voor meer informatie.](../../business-video/get-started-teams-small-business.md)
+Zie Aan de slag met Microsoft Teams in uw kleine bedrijf voor [meer informatie.](../../business-video/get-started-teams-small-business.md)
 
-Hebt u al een abonnement, maar moet u dit instellen? Zie [Training voor Microsoft 365 voor kleine bedrijven](../../business-video/index.yml).
+Hebt u al een abonnement, maar moet u dit instellen? Zie [Microsoft 365 training voor kleine bedrijven](../../business-video/index.yml).
 
 ## <a name="connect-with-employees-and-customers"></a>Verbinding maken met werknemers en klanten
 
@@ -55,7 +55,7 @@ Zie Onlinevergaderingen [hosten](../../business-video/start-and-pin-chats.md) en
 
 Plaats uw zakelijke documenten in de cloud en deel ze veilig, zowel intern als extern.
 
-Zie dit overzicht van het delen van zakelijke bestanden [en](../../business-video/overview-file-sharing.md) Het uploaden en delen van bestanden voor [meer informatie.](https://support.microsoft.com/office/upload-and-share-files-57b669db-678e-424e-b0a0-15d19215cb12)
+Zie dit overzicht van het delen van zakelijke [bestanden en](../../business-video/overview-file-sharing.md) het Upload en delen van bestanden voor [meer informatie.](https://support.microsoft.com/office/upload-and-share-files-57b669db-678e-424e-b0a0-15d19215cb12)
 
 ### <a name="collaborate-with-customers"></a>Samenwerken met klanten
 
@@ -75,7 +75,7 @@ Zie Meervoudige verificatie inschakelen voor meer [informatie.](../../business-v
 
 ### <a name="secure-your-devices"></a>Je apparaten beveiligen
 
-Beheer pc's en telefoons op afstand en zorg ervoor dat ze beveiligd en up-to-date zijn. Hiervoor is Microsoft 365 Business vereist.
+Beheer pc's en telefoons op afstand en zorg ervoor dat ze beveiligd en up-to-date zijn. Vereist Microsoft 365 Business.
 
 Zie Apparaten [beheren voor meer informatie.](../../business-video/secure-win-10-pro-devices.md)
 
@@ -83,11 +83,11 @@ Zie Apparaten [beheren voor meer informatie.](../../business-video/secure-win-10
 
 Technische documentatiehub voor Microsoft 365 Business wordt bijgewerkt met nieuwe richtlijnen voor veilig extern werk.
 
-Zie Microsoft [365 Business resources voor meer informatie.](https://docs.microsoft.com/microsoft-365/business)
+Zie voor meer [informatie Microsoft 365 Business resources.](https://docs.microsoft.com/microsoft-365/business)
 
 ## <a name="need-to-ask-a-question"></a>Wilt u een vraag stellen? 
 
-Vraag het in [het Teams-forum](https://answers.microsoft.com/msteams/forum) of [het Office-beheerforum.](https://answers.microsoft.com)
+Vraag het in [het Teams forum](https://answers.microsoft.com/msteams/forum) of het Office [beheerdersforum.](https://answers.microsoft.com)
 
 > [!NOTE]
 > De meeste taken in dit artikel en video kunnen worden uitgevoerd met een abonnement op Microsoft 365 Business Basic (voorheen Office 365 Business Essentials), maar voor sommige taken is een premium-abonnement vereist. 

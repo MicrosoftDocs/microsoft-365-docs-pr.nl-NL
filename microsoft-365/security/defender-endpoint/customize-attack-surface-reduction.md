@@ -121,5 +121,5 @@ U kunt de melding aanpassen voor wanneer een regel wordt geactiveerd en een app 
 
 * [Aanvalsoppervlakken verminderen met regels voor het beperken van de surface van de aanval](attack-surface-reduction.md)
 * [Regels voor het verminderen van aanvalsoppervlakken inschakelen](enable-attack-surface-reduction.md)
-* [Regels voor het verminderen van aanvalsoppervlakken evalueren](evaluate-attack-surface-reduction.md)
-* [Veelgestelde vragen over kwetsbaarheid voor aanvallen verminderen](attack-surface-reduction.md)
+* [Regels voor het verminderen van kwetsbaarheid voor aanvallen evalueren](evaluate-attack-surface-reduction.md)
+* [Veelgestelde vragen over het verminderen van kwetsbaarheid voor aanvallen](attack-surface-reduction.md)

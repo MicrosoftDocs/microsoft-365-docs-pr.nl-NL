@@ -35,7 +35,7 @@ ms.locfileid: "52023197"
 - Microsoft 365 Defender
 - Microsoft Defender voor Eindpunt
 
-De diverse apparaatgebeurtenissen of -tabel in het geavanceerde schema bevat informatie over verschillende gebeurtenistypen, waaronder gebeurtenissen die worden veroorzaakt door beveiligingsbesturingselementen, zoals Windows Defender Antivirus en `DeviceEvents` bescherming tegen misbruik. [](advanced-hunting-overview.md) Gebruik deze verwijzing om query's te maken die gegevens uit deze tabel retourneren.
+De diverse apparaatgebeurtenissen of -tabel in het geavanceerde schema voor de jacht bevat informatie over verschillende gebeurtenistypen, waaronder gebeurtenissen die worden veroorzaakt door beveiligingsbesturingselementen, zoals Windows Defender Antivirus `DeviceEvents` en bescherming tegen misbruik. [](advanced-hunting-overview.md) Gebruik deze verwijzing om query's te maken die gegevens uit deze tabel retourneren.
 
 >[!TIP]
 > Voor gedetailleerde informatie over de gebeurtenissentypen (waarden) die door een tabel worden ondersteund, gebruikt u de `ActionType` ingebouwde schemaverwijzing die beschikbaar is in het beveiligingscentrum.

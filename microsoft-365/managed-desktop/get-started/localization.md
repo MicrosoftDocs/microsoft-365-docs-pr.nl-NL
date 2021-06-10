@@ -21,18 +21,18 @@ ms.locfileid: "52023259"
 ---
 # <a name="localize-the-user-experience"></a>De gebruikerservaring lokaliseren
 
-Gebruikers van Microsoft Managed Desktop-apparaten kunnen de taal van hun keuze selecteren tijdens het installatieproces (de 'out of box experience') of daarna.
+Gebruikers van Microsoft Managed Desktop apparaten kunnen de taal van hun keuze selecteren tijdens het installatieproces (de 'out of box experience') of daarna.
 
 ## <a name="during-setup-the-out-of-box-experience"></a>Tijdens de installatie (de 'out-of-box-ervaring')
 
 Tijdens het voltooien van de installatie kunnen gebruikers de taal van hun keuze selecteren. Deze selectie is van invloed op deze kenmerken:
 
-- Taalfuncties voor Windows 10:
+- Windows 10 taalfuncties:
     - Weergavetaal
     - Toetsenbordtaal
     - Taalgerelateerde functies op aanvraag
 
-- Taalfuncties voor Microsoft 365 Apps voor Enterprise:
+- Microsoft 365-apps voor enterprise-taalfuncties:
     - Weergavetaal
     - Controle- en ontwerphulpmiddelen
 
@@ -41,17 +41,17 @@ Tijdens het voltooien van de installatie kunnen gebruikers de taal van hun keuze
 
 ## <a name="after-completing-setup"></a>Na het voltooien van de installatie
 
-Gebruikers kunnen de taal van hun keuze voor Windows 10 en Microsoft 365 Apps voor Enterprise op elk gewenst moment selecteren nadat het installatieproces is voltooid. Met name:
+Gebruikers kunnen de taal van hun keuze voor Windows 10 en Microsoft 365-apps enterprise selecteren wanneer het installatieproces is voltooid. Met name:
 
-- Taalfuncties voor Windows 10:
+- Windows 10 taalfuncties:
     - Weergavetaal
     - Toetsenbordtaal
 
-- Taalfuncties voor Microsoft 365 Apps voor Enterprise:
+- Microsoft 365-apps voor enterprise-taalfuncties:
     - Weergavetaal
     - Controle- en ontwerphulpmiddelen
 
-Als u de [ondersteunde talen voor](#supported-languages) Microsoft 365 Apps voor Enterprise beschikbaar wilt maken voor uw gebruikers, voegt u de gebruikers toe aan de groep Modern **Workplace-Office-Language_Packs.** De talen zijn beschikbaar in de Intune Company Portal.
+Als u de [ondersteunde talen](#supported-languages) voor Microsoft 365-apps voor Enterprise beschikbaar wilt maken voor uw gebruikers, voegt u de gebruikers toe aan de groep Modern **Workplace-Office-Language_Packs.** De talen zijn beschikbaar in de Intune-bedrijfsportal.
 
 
 ## <a name="supported-languages"></a>Ondersteunde talen
@@ -80,8 +80,8 @@ De [universele afbeelding van](../service-description/device-images.md#universal
 - Hungarian
 - Indonesian
 - Italian
-- Japanese
-- Korean
+- Japans
+- Koreaks
 - Latvian
 - Lithuanian
 - Noors (Bokmål)
@@ -100,14 +100,14 @@ De [universele afbeelding van](../service-description/device-images.md#universal
 - Ukrainian
 - Vietnamese
 
-Microsoft 365 Apps voor Enterprise ondersteunt mogelijk een iets andere lijst.
+Microsoft 365-apps voor Enterprise kan een iets andere lijst ondersteunen.
 
 Als uw gebruikers een andere taal nodig hebben dan de taal die hier wordt vermeld, dient u een [ondersteuningsaanvraag](../working-with-managed-desktop/admin-support.md) in via de [beheerportal.](access-admin-portal.md)
 
 ## <a name="languages-for-support-and-operations"></a>Talen voor ondersteuning en bewerkingen
 
 ### <a name="user-support"></a>Ondersteuning voor gebruikers
-Microsoft Managed Desktop biedt alleen ondersteuning in het Engels. Als gebruikers een andere taal kiezen in de App Help krijgen, krijgen ze ondersteuning van de algemene Ondersteuningskanalen van Microsoft, in plaats van rechtstreeks ondersteuning van Microsoft Managed Desktop. Zie Hulp krijgen [voor gebruikers voor meer informatie.](../working-with-managed-desktop/end-user-support.md)
+Microsoft Managed Desktop biedt alleen ondersteuning in het Engels. Als gebruikers een andere taal kiezen in de Hulp vragen app, krijgen ze ondersteuning van de algemene Ondersteuningskanalen van Microsoft, in plaats van rechtstreeks vanuit Microsoft Managed Desktop. Zie Hulp krijgen [voor gebruikers voor meer informatie.](../working-with-managed-desktop/end-user-support.md)
 
 Als uw gebruikers ondersteuning nodig hebben in andere talen, moet u deze bieden via niet-Microsoft-ondersteuningsbronnen of vanuit uw eigen organisatie.
 
