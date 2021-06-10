@@ -42,13 +42,13 @@ Na het voltooien van de onboarding kunt u uw selectie verifiëren op de pagina i
 ## <a name="verify-data-storage-location"></a>Locatie voor gegevensopslag verifiëren
 Tijdens de [fase Instellen](production-deployment.md)zou u de locatie hebben geselecteerd om uw gegevens op te slaan. 
 
-U kunt de gegevenslocatie verifiëren door naar Instellingen Gegevensretentie  >  **te navigeren.**
+U kunt de gegevenslocatie verifiëren door te navigeren naar **Instellingen**  >  **gegevensretentie.**
 
 ## <a name="update-data-retention-settings"></a>Instellingen voor gegevensretentie bijwerken
 
 U kunt de instellingen voor het bewaren van gegevens bijwerken. De bewaarperiode is standaard 180 dagen. 
 
-1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **Gegevensretentie**.
+1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **gegevensretentie**.
 
 2. Selecteer de duur van de gegevensretentie in de vervolgkeuzelijst.
 

@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: Lees hoe u compliancegrenzen kunt gebruiken om logische grenzen te maken die bepalen welke gebruikersinhoudslocaties een eDiscovery-manager kan zoeken in Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 02e2e2f048ab521ad5640003cb127ed7bfa19641
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: 1a84bc77cb78a9da3cfe873849a4148e55501137
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706604"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878026"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations"></a>Compliancegrenzen instellen voor eDiscovery-onderzoeken
 
@@ -92,6 +92,9 @@ Hier ziet u een lijst met Azure AD-gebruikerskenmerken die u kunt gebruiken voor
 Hoewel er meer gebruikerskenmerken beschikbaar zijn, met name voor Exchange postvakken, zijn de bovenstaande kenmerken de enige kenmerken die momenteel worden ondersteund door OneDrive.
   
 ## <a name="step-2-file-a-request-with-microsoft-support-to-synchronize-the-user-attribute-to-onedrive-accounts"></a>Stap 2: Een aanvraag indienen bij Microsoft Support om het gebruikerskenmerk te synchroniseren met OneDrive accounts
+
+> [!IMPORTANT]
+> Deze stap is niet meer vereist. Vanaf juni 2021 zijn postvakfilters van toepassing op OneDrive voor Bedrijven. Ondersteuningsaanvragen voor het synchroniseren van het kenmerk OneDrive worden geweigerd omdat dit niet meer nodig is. Dit artikel wordt in de nabije toekomst bijgewerkt.
 
 De volgende stap is een aanvraag indienen bij Microsoft Support om het Azure AD-kenmerk dat u in stap 1 hebt gekozen, te synchroniseren met alle OneDrive accounts in uw organisatie. Nadat deze synchronisatie is gebeurd, wordt het kenmerk (en de waarde) dat u hebt gekozen in stap 1, in kaart gebracht aan een verborgen beheerde eigenschap met de naam `ComplianceAttribute` . U gebruikt dit kenmerk om het filter voor zoekmachtigingen voor OneDrive maken in stap 4.
   

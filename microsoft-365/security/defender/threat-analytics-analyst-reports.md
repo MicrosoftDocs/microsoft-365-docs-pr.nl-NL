@@ -49,7 +49,7 @@ _Rapportsectie van een analyserapport voor bedreigingen_
 ## <a name="scan-the-analyst-report"></a>Het analistrapport scannen 
 Elke sectie van het analyticusrapport is ontworpen om actie-informatie te verstrekken. Hoewel rapporten variëren, bevatten de meeste rapporten de secties die in de volgende tabel worden beschreven.
 
-| Rapportsectie | Omschrijving |
+| Rapportsectie | Beschrijving |
 |--|--|
 | Samenvatting van leidinggevenden | Overzicht van de bedreiging, inclusief wanneer deze voor het eerst werd gezien, de motivaties, belangrijke gebeurtenissen, belangrijke doelen en verschillende hulpmiddelen en technieken. U kunt deze informatie gebruiken om verder te beoordelen hoe u prioriteit kunt geven aan de bedreiging in de context van uw branche, geografische locatie en netwerk. |
 | Analyse | Technische informatie over de bedreigingen, waaronder de details van een aanval en hoe aanvallers een nieuwe techniek of aanvalsoppervlak kunnen gebruiken | 
@@ -73,7 +73,7 @@ Naast deze bij te houden risicobeperking, worden in het analyserapport ook risic
 Hoewel u het tabblad **Mitigaties** kunt gebruiken om uw beveiligingshouding tegen een bedreiging te beoordelen, kunt u met deze aanbevelingen extra stappen ondernemen om uw beveiligingshouding te verbeteren. Lees alle mitigatie-richtlijnen in het analistenrapport zorgvuldig en pas deze waar mogelijk toe.
 
 ## <a name="understand-how-each-threat-can-be-detected"></a>Begrijpen hoe elke bedreiging kan worden gedetecteerd
-Het analistrapport bevat ook de detecties van Microsoft Defender voor endpoint-antivirus- en _eindpuntdetectie-_ en antwoordmogelijkheden (EDR).
+Het analistrapport bevat ook de detecties van Microsoft Defender voor endpoint-antivirus- en _eindpuntdetectie en -respons_ (EDR) mogelijkheden.
 
 ### <a name="antivirus-detections"></a>Antivirusdetecties
 Deze detecties zijn beschikbaar op apparaten met [Microsoft Defender Antivirus](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) ingeschakeld. Wanneer deze detecties plaatsvinden op apparaten die zijn onboarded bij Microsoft Defender voor Eindpunt, worden er ook waarschuwingen uitgevoerd die de grafieken in het rapport aanlichten.
@@ -81,13 +81,13 @@ Deze detecties zijn beschikbaar op apparaten met [Microsoft Defender Antivirus](
 >[!NOTE]
 >Het analistrapport bevat ook **algemene detecties** die een breed scala aan bedreigingen kunnen identificeren, naast onderdelen of gedragingen die specifiek zijn voor de bijgespoorde bedreiging. Deze algemene detecties worden niet weergegeven in de grafieken.
 
-### <a name="endpoint-detection-and-response-edr-alerts"></a>EDR-waarschuwingen (Endpoint Detection and Response)
-EDR-waarschuwingen worden verhoogd voor [apparaten die zijn aan boord van Microsoft Defender voor Eindpunt](/windows/security/threat-protection/microsoft-defender-atp/onboard-configure). Deze waarschuwingen zijn in het algemeen afhankelijk van beveiligingssignalen die zijn verzameld door de Microsoft Defender voor eindpunten-sensor en andere mogelijkheden voor eindpunten, zoals antivirusprogramma's, netwerkbeveiliging, tamperbeveiliging, die fungeren als krachtige signaalbronnen.
+### <a name="endpoint-detection-and-response-edr-alerts"></a>Waarschuwingen voor eindpuntdetectie en antwoord (EDR)
+EDR waarschuwingen worden opgeheven voor [apparaten die zijn aan boord van Microsoft Defender voor Eindpunt](/windows/security/threat-protection/microsoft-defender-atp/onboard-configure). Deze waarschuwingen zijn in het algemeen afhankelijk van beveiligingssignalen die zijn verzameld door de Microsoft Defender voor eindpunten-sensor en andere mogelijkheden voor eindpunten, zoals antivirusprogramma's, netwerkbeveiliging, tamperbeveiliging, die fungeren als krachtige signaalbronnen.
 
-Net als de lijst met antivirusdetecties zijn sommige EDR-waarschuwingen ontworpen om een algemene vlag te geven voor verdacht gedrag dat mogelijk niet is gekoppeld aan de bijgespoorde bedreiging. In dergelijke gevallen wordt in het rapport duidelijk aangegeven dat de waarschuwing 'algemeen' is en dat dit geen invloed heeft op een van de grafieken in het rapport.
+Net als de lijst met antivirusdetecties zijn sommige EDR ontworpen om verdacht gedrag te markeren dat mogelijk niet is gekoppeld aan de bijgespoorde bedreiging. In dergelijke gevallen wordt in het rapport duidelijk aangegeven dat de waarschuwing 'algemeen' is en dat dit geen invloed heeft op een van de grafieken in het rapport.
 
 ### <a name="email-related-detections-and-mitigations"></a>E-mailgerelateerde detecties en mitigaties
-E-mailgerelateerde detecties en mitigaties van Microsoft Defender voor Office 365 worden opgenomen in analistenrapporten, naast de eindpuntgegevens die al beschikbaar zijn van Microsoft Defender voor Eindpunt. 
+E-mailgerelateerde detecties en mitigaties van Microsoft Defender voor Office 365, worden opgenomen in analistenrapporten, naast de eindpuntgegevens die al beschikbaar zijn van Microsoft Defender voor Eindpunt. 
 
 Informatie over mislukte e-mailpogingen geeft u inzicht in de vraag of uw organisatie het doel was van de bedreiging die in het analyserapport is aangepakt, zelfs als de aanval effectief is geblokkeerd vóór de bezorging of in de map ongewenste e-mail is afgeleverd.
 
@@ -100,7 +100,7 @@ Geavanceerde zoekquery's in de analistenrapporten zijn door Microsoft-analisten 
 
 
 >[!NOTE]
-> Bedreigingsanalyse is ook beschikbaar in [Microsoft Defender voor Eindpunt.](/windows/security/threat-protection/microsoft-defender-atp/threat-analytics) Het beschikt echter niet over de gegevensintegratie tussen Microsoft Defender voor Office en Microsoft Defender voor Eindpunt die microsoft 365 Defender threat analytics heeft.
+> Bedreigingsanalyse is ook beschikbaar in [Microsoft Defender voor Eindpunt.](/windows/security/threat-protection/microsoft-defender-atp/threat-analytics) Het heeft echter niet de gegevensintegratie tussen Microsoft Defender voor Office en Microsoft Defender voor Eindpunt die Microsoft 365 Defender threat analytics heeft.
 
 
 ## <a name="related-topics"></a>Verwante onderwerpen

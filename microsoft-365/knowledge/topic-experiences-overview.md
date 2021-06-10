@@ -14,12 +14,12 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Overzicht van Viva Topics.
-ms.openlocfilehash: c7a5af9d2a038c2b9cc5f26d851eb3776a00c71f
-ms.sourcegitcommit: 2cf7293d610a676726ac891b89366e23810d9142
+ms.openlocfilehash: c95e611a98609ff13a41854a6fb25b6ae88b43d8
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 06/10/2021
-ms.locfileid: "52866689"
+ms.locfileid: "52877810"
 ---
 # <a name="microsoft-viva-topics-overview"></a>Overzicht van Microsoft Viva Topics 
 
@@ -70,7 +70,7 @@ Wanneer een onderwerp wordt geïdentificeerd en AI bepaalt dat het voldoende inf
 
 Je kennisbeheerders kunnen ervoor kiezen om alle SharePoint-sites in je tenant te verkennen voor onderwerpen, of om alleen bepaalde sites te selecteren.
 
-Zie [Onderwerpdetectie en curatie](./topic-experiences-discovery-curation.md).
+Zie Onderwerpdetectie en [curatie voor meer informatie.](./topic-experiences-discovery-curation.md)
 
 ## <a name="roles"></a>Rollen
 
@@ -80,7 +80,7 @@ Als je Viva Topics gebruikt in je Microsoft 365-omgeving, dan hebben je gebruike
 
 - Inzenders: gebruikers die recht hebben op het bewerken of maken van nieuwe onderwerpen. Kennisbeheerders wijzen inzendermachtigingen toe aan gebruikers via Viva Topics-instellingen in het Microsoft 365-beheercentrum. Je kunt er ook voor kiezen om alle personen die onderwerpen bekijken toestemming te geven om onderwerpen te bewerken en te maken, zodat iedereen kan bijdragen aan onderwerpen die ze zien.
 
-- Kennisbeheerders: gebruikers die onderwerpen door de levenscyclus van onderwerpen leiden. Kennisbeheerders gebruiken  de pagina Onderwerpen beheren in het onderwerpcentrum om ai-voorgestelde onderwerpen te bevestigen, onderwerpen te verwijderen die niet meer relevant zijn, bestaande onderwerpen te bewerken of nieuwe onderwerpen te maken, en zijn de enige gebruikers die er toegang toe hebben. Kennisbeheerders wijzen kennisbeheerders toe aan gebruikers via Viva Topics-beheerinstellingen in het Microsoft 365-beheercentrum. 
+- Kennisbeheerders: gebruikers die onderwerpen door de levenscyclus van onderwerpen leiden. Kennisbeheerders gebruiken  de pagina Onderwerpen beheren in het onderwerpcentrum om ai-voorgestelde onderwerpen te bevestigen, onderwerpen te verwijderen die niet meer relevant zijn, bestaande onderwerpen te bewerken of nieuwe onderwerpen te maken en zijn de enige gebruikers die er toegang toe hebben. Kennisbeheerders wijzen kennisbeheerders toe aan gebruikers via Viva Topics-beheerinstellingen in het Microsoft 365-beheercentrum. 
 
 - Kennisbeheerders: beheerders stellen Viva-onderwerpen in en beheren deze via de beheerbesturingselementen in het Microsoft 365 beheercentrum. Op dit moment kan een globale beheerder of SharePoint-beheerder van Microsoft 365 fungeren als een kennisbeheerder.
 
@@ -96,7 +96,7 @@ Kennisbeheerders kunnen:
 
 - Onderwerpen bevestigen of verwijderen die zijn ontdekt in uw tenant.
 - Indien nodig nieuwe onderwerpen maken (als er bijvoorbeeld onvoldoende informatie beschikbaar is om deze via AI te vinden).
-- Bestaande onderwerppagina's bewerken.<br/>
+- Bestaande onderwerppagina's bewerken.
 
 Zie Onderwerpen beheren [in het onderwerpcentrum voor meer informatie.](manage-topics.md)  
 

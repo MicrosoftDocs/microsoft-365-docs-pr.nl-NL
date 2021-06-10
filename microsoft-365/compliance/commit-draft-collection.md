@@ -1,5 +1,5 @@
 ---
-title: Een conceptverzameling aan een revisieset verbinden
+title: Een conceptverzameling toewijzen aan een beoordelingsset
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -27,7 +27,7 @@ ms.locfileid: "52161732"
 
 Wanneer u tevreden bent over de items die u hebt verzameld in een conceptverzameling en klaar bent om deze te analyseren, te taggen en te controleren, kunt u een verzameling toevoegen aan een revisieset in de zaak. Wanneer u een conceptverzameling verbindt aan een revisieset, worden verzamelde items gekopieerd van de oorspronkelijke inhoudslocatie in Microsoft 365 naar een revisieset. Een revisieset is een veilige, door Microsoft verstrekte Azure Storage in de Microsoft-cloud.
 
-## <a name="commit-a-draft-collection-to-a-review-set"></a>Een conceptverzameling aan een revisieset verbinden
+## <a name="commit-a-draft-collection-to-a-review-set"></a>Een conceptverzameling toewijzen aan een beoordelingsset
 
 1. Open in Microsoft 365 compliancecentrum het hoofd- Advanced eDiscovery en selecteer vervolgens  het tabblad Verzamelingen om een lijst met de verzamelingen in de zaak weer te geven.
 

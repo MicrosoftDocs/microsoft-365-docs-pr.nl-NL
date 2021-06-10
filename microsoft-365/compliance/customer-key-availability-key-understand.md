@@ -198,7 +198,7 @@ Microsoft 365 de beschikbaarheidssleutel gebruikt om de laag met sleutels lager 
 
 ![Versleutelingscodes voor SharePoint Online Customer Key](../media/customerkeyencryptionhierarchiessharepointonedriveteamsfiles.png)
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-articles"></a>Aanverwante artikelen
 
 - [Serviceversleuteling met klantsleutel](customer-key-overview.md)
 

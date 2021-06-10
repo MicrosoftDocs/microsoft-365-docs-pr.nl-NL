@@ -419,7 +419,7 @@ Als u het pad voor het verwijderen van gegevens voor SharePoint Online, OneDrive
 
    Zodra Microsoft het juridische document heeft ontvangen, worden cmdlets uitgevoerd om de gegevens te verwijderen waarmee de tenantsleutel, sitesleutel en alle afzonderlijke sleutels per document worden verwijderd, waardoor de sleutelhiërarchie onherroepelijk wordt gebroken. Nadat de cmdlets voor het verwijderen van gegevens zijn voltooid, zijn uw gegevens verwijderd.
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-articles"></a>Aanverwante artikelen
 
 - [Serviceversleuteling met klantsleutel](customer-key-overview.md)
 

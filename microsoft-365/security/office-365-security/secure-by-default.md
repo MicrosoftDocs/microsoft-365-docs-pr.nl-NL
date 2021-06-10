@@ -17,12 +17,12 @@ ms.collection:
 description: Meer informatie over de standaardinstelling voor beveiliging in Exchange Online Protection (EOP)
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2d5cdc8f8faa9c2d5772fd1572134ea49cdd77da
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: f197556426171b867b49781b38ea5f5116f80aa2
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624047"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861525"
 ---
 # <a name="secure-by-default-in-office-365"></a>Standaard beveiligd in Office 365
 
@@ -58,7 +58,7 @@ Omdat Microsoft onze klanten standaard veilig wil houden, worden sommige tenants
 Meer informatie over deze overschrijven vindt u in Lijsten met veilige [afzenders maken.](create-safe-sender-lists-in-office-365.md)
 
 > [!NOTE]
-> We zijn bezig om de actie  Bericht verplaatsen naar map Ongewenste e-mail af te zetten voor een hoge betrouwbaarheid van phishing-e-mail in het antispambeleid van EOP.  Antispambeleid dat deze actie gebruikt voor phishingberichten met veel vertrouwen, wordt geconverteerd naar **quarantainebericht.** De **actie Bericht omleiden naar e-mailadres** voor phishingberichten met veel vertrouwen wordt niet beïnvloed.
+> We hebben de actie  Bericht verplaatsen naar map Ongewenste e-mail afgeschaft voor een uitspraak over phishing-e-mail met veel vertrouwen in het antispambeleid van EOP.  Antispambeleid dat deze actie gebruikt voor phishingberichten met veel vertrouwen, wordt geconverteerd naar **quarantainebericht.** De **actie Bericht omleiden naar e-mailadres** voor phishingberichten met veel vertrouwen wordt niet beïnvloed.
 
 Beveiliging is standaard geen instelling die kan worden in- of uitgeschakeld, maar is de manier waarop onze filtering werkt uit het vak om potentieel gevaarlijke of ongewenste berichten uit uw postvakken te houden. Malware en phishingberichten met veel vertrouwen moeten in quarantaine worden geplaatst. Alleen beheerders kunnen berichten beheren die in quarantaine zijn geplaatst als malware of phishing met veel vertrouwen, en ze kunnen ook van hier naar Microsoft onwaar positieven rapporteren. Zie Berichten en bestanden in quarantaine beheren als [beheerder in EOP](manage-quarantined-messages-and-files.md) voor meer informatie.
 

@@ -19,7 +19,7 @@ ms.assetid: 5c47c07d-f9b6-4b78-a329-bfdc1b6da7a0
 ms.custom: seo-marvel-apr2020
 f1.keywords:
 - NOCSH
-description: In dit artikel worden de URL's en IP-adresbereiken voor Office 365 vermeld wanneer deze worden beheerd door 21Vianet in China.
+description: In dit artikel worden de URL's en IP-adresbereiken voor Office 365 gebruikt door 21Vianet in China.
 hideEdit: true
 ms.openlocfilehash: ed9b6fdbef1ca121ccf53b635768ebdaab89763a
 ms.sourcegitcommit: b56a8ff9bb496bf2bc1991000afca3d251f45b72
@@ -30,11 +30,11 @@ ms.locfileid: "51418045"
 ---
 # <a name="urls-and-ip-address-ranges-for-office-365-operated-by-21vianet"></a>URL's en IP-adresbereiken voor Office 365 beheerd door 21Vianet
 
- *Van toepassing op: Office 365 beheerd door 21Vianet - Beheerder voor Kleine Bedrijven, Office 365 beheerd door 21Vianet - Beheerder*
+ *Van toepassing op: Office 365 beheerd door 21Vianet - Beheerder voor kleine bedrijven, Office 365 beheerd door 21Vianet - Beheerder*
 
 **Overzicht:** De volgende eindpunten (FQDN's, poorten, URL's, IPv4- en IPv6-voorvoegsels) zijn van toepassing op Office 365 beheerd door 21 Vianet en zijn ontworpen om productiviteitsservices te leveren aan organisaties die alleen deze abonnementen gebruiken.
   
- **Office 365-eindpunten:** Wereldwijd [(inclusief GCC)](urls-and-ip-address-ranges.md)Office 365 beheerd door   |  *21 Vianet*  |  [Office 365 Germany](microsoft-365-germany-endpoints.md)Office  |  [365 U.S. Government DoD](microsoft-365-u-s-government-dod-endpoints.md)Office  |  [365 U.S. Government GCC High](microsoft-365-u-s-government-gcc-high-endpoints.md) |
+ **Office 365 eindpunten:** [Worldwide (including GCC)](urls-and-ip-address-ranges.md)Office 365 operated   |  *by 21 Vianet* Office 365  |  [Germany](microsoft-365-germany-endpoints.md)  |  [Office 365 U.S. Government DoD](microsoft-365-u-s-government-dod-endpoints.md)Office 365  |  [U.S. Government GCC High](microsoft-365-u-s-government-gcc-high-endpoints.md) |
   
 |||
 |:-----|:-----|
@@ -42,7 +42,7 @@ ms.locfileid: "51418045"
 
 Begin met [Het beheren van Office 365-eindpunten](managing-office-365-endpoints.md) om onze aanbevelingen voor het beheren van netwerkverbindingen met deze gegevens te begrijpen. Eindpuntgegevens worden aan het begin van elke maand bijgewerkt zoals vereist met nieuwe IP-adressen en URL's die worden gepubliceerd 30 dagen voordat ze actief worden. Dit maakt het voor klanten die nog geen geautomatiseerde updates hebben mogelijk om hun processen te voltooien voordat er een nieuwe verbinding is vereist. Eindpuntgegevens kunnen ook gedurende de maand worden bijgewerkt indien nodig om escalaties van ondersteuningen, beveiligingsincidenten of andere directe operationele vereisten aan te pakken. De gegevens die op deze pagina worden weergegeven, zijn allemaal gegenereerd op basis van de REST-webservice. Als u gebruikmaakt van een script of netwerkapparaat voor toegang tot deze gegevens, gaat u rechtstreeks naar de [Webservice](microsoft-365-ip-web-service.md).
 
-Eindpuntgegevens hieronder bevat vereisten voor connectiviteit van de computer van een gebruiker met Office 365. Het omvat geen netwerkverbindingen van Microsoft naar een klantennetwerk, ook wel hybride of inkomende netwerkverbindingen genoemd.
+Eindpuntgegevens hieronder bevat vereisten voor connectiviteit van de computer van een gebruiker naar Office 365. Het omvat geen netwerkverbindingen van Microsoft naar een klantennetwerk, ook wel hybride of inkomende netwerkverbindingen genoemd.
 
 De eindpunten worden ingedeeld in vier servicegebieden. De eerste drie servicegebieden kunnen afzonderlijk worden geselecteerd om verbinding te maken. Het vierde servicegebied is een gangbare afhankelijkheid (met de naam Microsoft 365 Common en Office) en moet altijd een netwerkverbinding hebben.
 

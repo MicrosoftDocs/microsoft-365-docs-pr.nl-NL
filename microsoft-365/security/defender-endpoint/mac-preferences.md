@@ -153,7 +153,7 @@ Proces | Een specifiek proces (opgegeven door het volledige pad of de bestandsna
 
 Bestands-, map- en procesuitsluitingen ondersteunen de volgende jokertekens:
 
-Jokerteken | Omschrijving | Voorbeeld | Overeenkomsten | Komt niet overeen met
+Jokerteken | Beschrijving | Voorbeeld | Overeenkomsten | Komt niet overeen met
 ---|---|---|---|---
 \* |    Komt overeen met een aantal tekens, inclusief geen tekens (houd er rekening mee dat wanneer dit jokerteken binnen een pad wordt gebruikt, dit slechts één map vervangt) | `/var/\*/\*.log` | `/var/log/system.log` | `/var/log/nested/system.log`
 ? | Komt overeen met een enkel teken | `file?.log` | `file1.log`<br/>`file2.log` | `file123.log`
@@ -866,7 +866,7 @@ Open in de JAMF-console **De configuratieprofielen** van computers, navigeer naa
 
 5. Open het configuratieprofiel en upload het `com.microsoft.wdav.xml` bestand. (Dit bestand is gemaakt in stap 3.)
 
-6. Kies **OK**.
+6. Selecteer **OK**.
 
 7. Selecteer **Opdrachten**  >  **beheren.** Selecteer op **het** tabblad Opnemen de optie Toewijzen aan **alle & alle apparaten.**
 

@@ -13,12 +13,12 @@ ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 6afdcc16493839e83771ac831831fdbb121663a1
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: b62659360e990467524ec632968dfea313d0b164
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841772"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861669"
 ---
 # <a name="turn-on-network-protection"></a>Netwerkbeveiliging inschakelen
 
@@ -43,7 +43,7 @@ Controleer of netwerkbeveiliging is ingeschakeld op een lokaal apparaat met behu
 
 2. Kies **HKEY_LOCAL_MACHINE** in het zijmenu
 
-3. Navigeren door de geneste menu's naar  >  **SOFTWARE-beleid**  >  **van Microsoft**  >  **Windows Defender**  >  **Policy Manager** 
+3. Navigeren door de geneste menu's naar **SOFTWARE**  >  **Microsoft**  >  **Windows Defender**  >  **Windows Defender Exploit Guard Network**  >  **Protection**
 
 4. Selecteer **EnableNetworkProtection om** de huidige status van netwerkbeveiliging op het apparaat te bekijken
 
@@ -120,7 +120,7 @@ Bevestig dat netwerkbeveiliging is ingeschakeld op een lokale computer met behul
 
 1. Selecteer **Start** en typ **regedit om** registereditor te **openen.**
 
-2. Navigeer naar **HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Policy Manager\EnableNetworkProtection**
+2. Navigeer naar **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Windows Defender Exploit Guard\Network Protection\EnableNetworkProtection**
 
 3. Selecteer **EnableNetworkProtection en** bevestig de waarde:
    * 0=Uit

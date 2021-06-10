@@ -122,7 +122,7 @@ Voordat u het auditlogboek kunt gebruiken om aanvragen voor Klantenvergrendeling
 
     ![Zoekpagina auditlogboek](../media/auditlogsearch1.png)
   
-4. De volgende zoekcriteria configureren:
+4. Configureer de volgende zoekcriteria: 
 
     1. **Activiteiten:** Laat dit veld leeg zodat de zoekopdracht auditrecords retourneert voor alle activiteiten. Dit is nodig om controlerecords te retourneren die betrekking hebben op aanvragen voor Klantenvergrendeling en bijbehorende activiteiten die door Microsoft-technici zijn uitgevoerd.
 
@@ -132,7 +132,7 @@ Voordat u het auditlogboek kunt gebruiken om aanvragen voor Klantenvergrendeling
 
     1. **Bestand, map of site:** laat dit veld leeg.
 
-5. Klik **op Zoeken** om de zoekopdracht uit te voeren met behulp van uw zoekcriteria.
+5. Klik op **Zoeken** om de zoekopdracht met uw zoekcriteria uit te voeren. 
 
     De zoekresultaten worden geladen en na enkele ogenblikken worden ze weergegeven onder Resultaten **op** de **zoekpagina** auditlogboek.
 

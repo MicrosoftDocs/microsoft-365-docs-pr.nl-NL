@@ -53,7 +53,7 @@ De kenmerken in dit artikel kunnen worden gebruikt om segmenten van gebruikers t
     > [!TIP]
     > Wanneer u segmenten definieert, gebruikt u hetzelfde kenmerk voor al uw segmenten. Als u bijvoorbeeld bepaalde segmenten definieert met *Afdeling,* definieert u alle segmenten met behulp van *Afdeling.* Definieer sommige segmenten niet met *Behulp van Afdeling* en andere segmenten met *MemberOf.* Zorg ervoor dat de segmenten elkaar niet overlappen. elke gebruiker moet aan precies één segment worden toegewezen.
 
-## <a name="reference"></a>Referentiematerialen
+## <a name="reference"></a>Verwijzing
 
 De volgende tabel bevat de kenmerken die u kunt gebruiken met informatiebarrières.
 

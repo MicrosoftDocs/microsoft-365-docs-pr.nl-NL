@@ -47,7 +47,7 @@ Waarom worden inhoudszoekingen gekloond?
     
 - In dit script wordt rekening gehouden met de vraag of het zoeken naar inhoud dat u kloont, is gekoppeld aan een eDiscovery-zaak. Als de zoekopdracht is gekoppeld aan een zaak, wordt de nieuwe zoekopdracht ook gekoppeld aan hetzelfde geval. Als de bestaande zoekopdracht niet aan een zaak is gekoppeld,  wordt de nieuwe zoekopdracht weergegeven op de pagina Inhoud zoeken in het compliancecentrum. 
     
-- Het voorbeeldscript in dit onderwerp wordt niet ondersteund onder een standaardondersteuningsprogramma of -service van Microsoft. Het voorbeeldscript wordt geleverd als IS zonder enige garantie. Microsoft wijst alle impliciete garanties verder af, inclusief, zonder beperking, impliciete garanties van verkoopbaarheid of geschiktheid voor een bepaald doel. Het volledige risico dat voortvloeit uit het gebruik of de prestaties van het voorbeeldscript en de documentatie blijft bij u. In geen geval zijn Microsoft, de auteurs of anderen die betrokken zijn bij het maken, produceren of leveren van de scripts aansprakelijk voor enige schade (met inbegrip van, zonder beperking, schade voor verlies van bedrijfswinsten, bedrijfsonderbreking, verlies van bedrijfsgegevens of ander geldverlies) als gevolg van het gebruik van of het onvermogen om de voorbeeldscripts of documentatie te gebruiken, zelfs als Microsoft op de hoogte is gesteld van de mogelijkheid van dergelijke schade.
+- Het voorbeeldscript in dit onderwerp wordt niet ondersteund onder een standaardondersteuningsprogramma of -service van Microsoft. Het voorbeeldscripts wordt zonder enige garantie ONGEWIJZIGD verstrekt. Microsoft wijst alle impliciete garanties met inbegrip van, maar niet beperkt tot, impliciete garanties van verkoopbaarheid en geschiktheid voor een bepaald doel af. Het risico dat ontstaat als gevolg van het gebruik of prestaties van het voorbeeldscript ligt geheel bij u. In geen geval kan Microsoft, haar auteurs of anderen die bij het maken, produceren of leveren van de scripts zijn betrokken, aansprakelijk worden gehouden voor enige schade om welke reden dan ook (met inbegrip van maar niet beperkt tot schade door verlies van bedrijfswinsten, belemmering van de bedrijfsuitvoering, verlies van bedrijfsinformatie of andere geldelijke verliezen) voortvloeiend uit het gebruik of de onmogelijkheid van het gebruik van de voorbeeldscripts, zelfs als Microsoft op de hoogte is gesteld van de mogelijkheid van dergelijke schade.
   
 ## <a name="step-1-run-the-script-to-clone-a-search"></a>Stap 1: Het script uitvoeren om een zoekopdracht te kloonen
 
@@ -143,7 +143,7 @@ Een zoekopdracht kloonen:
 
 Nadat u het script hebt uitgevoerd om een bestaande inhoudszoekactie te kloonen, gaat u naar het compliancecentrum om de nieuwe zoekopdracht te bewerken en uit te voeren. Zoals eerder vermeld, kunt u een zoekopdracht bewerken door de trefwoordzoekquery te wijzigen en zoekvoorwaarden toe te voegen of te verwijderen. Zie voor meer informatie:
   
-- [Zoeken naar inhoud in Office 365](content-search.md)
+- [Inhoud zoeken in Office 365 ](content-search.md)
     
 - [Trefwoordquery's en zoekvoorwaarden voor Zoeken naar inhoud](keyword-queries-and-search-conditions.md)
     

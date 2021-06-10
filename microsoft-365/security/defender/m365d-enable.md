@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 3d7564b5d509190c8c8e799c541bb0ca583097f1
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 3f05cc8c9b2509f8c95b802f56905e2859221cd2
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636228"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861597"
 ---
 # <a name="turn-on-microsoft-365-defender"></a>Microsoft 365 Defender inschakelen
 
@@ -65,7 +65,7 @@ Microsoft 365 Defender zal gegevens opslaan en verwerken op [dezelfde locatie di
 Selecteer **Hulp nodig?** in het Microsoft 365 beveiligingscentrum om contact op te nemen met microsoft-ondersteuning over het inrichten van Microsoft 365 Defender op een andere datacenterlocatie.
 
 > [!NOTE]
-> Microsoft Defender voor Eindpunt biedt automatisch voorzieningen in datacenters van de Europese Unie (EU) wanneer deze zijn ingeschakeld via Azure Defender. Microsoft 365 Defender wordt automatisch ingericht in hetzelfde EU-datacenter voor klanten die Defender op deze manier voor Eindpunt hebben ingericht.
+> In het verleden is Microsoft Defender voor Eindpunt automatisch ingericht in datacenters van de Europese Unie (EU) wanneer deze zijn ingeschakeld via Azure Defender. Microsoft 365 Defender wordt automatisch ingericht in hetzelfde EU-datacenter voor klanten die Defender in het verleden op deze manier voor Eindpunt hebben ingericht.
 
 ### <a name="confirm-that-the-service-is-on"></a>Controleren of de service is aan
 

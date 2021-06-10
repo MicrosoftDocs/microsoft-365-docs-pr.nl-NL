@@ -118,7 +118,7 @@ Als u het voorstel na controle wilt wijzigen, neem dan contact op met uw Microso
 
 Het voorstel bevat de volgende informatie:
 
-| Sectie | Omschrijving |
+| Sectie | Beschrijving |
 |---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Organisatienaam | De naam van de organisatie voor wie het voorstel is voorbereid. |
 | Geldig tot datum | De datum waarop de aanbieding verloopt. Als u deze vervaldatum mist, neem dan contact op met uw Microsoft-vertegenwoordiger om hen te laten weten dat u nog steeds geïnteresseerd bent in het voorstel. |

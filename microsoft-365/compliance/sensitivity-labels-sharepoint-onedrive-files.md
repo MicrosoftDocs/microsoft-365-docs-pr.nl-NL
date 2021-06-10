@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Beheerders kunnen ondersteuning voor gevoeligheidslabels inschakelen voor Word Excel en PowerPoint bestanden in SharePoint en OneDrive.
-ms.openlocfilehash: 8007f085e7bcba7f055f616954e2f0549f6f125a
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 695084443ee10de87f091d358b63fad079e03093
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770395"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861513"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>Vertrouwelijkheidslabels inschakelen voor Office-bestanden in SharePoint en OneDrive
 
@@ -220,7 +220,11 @@ Gebruik de beheerde eigenschap **InformationProtectionLabelId** om alle document
 
 Als u bijvoorbeeld wilt zoeken naar alle documenten die zijn gelabeld als 'Vertrouwelijk', en dat label een GUID heeft van '8faca7b8-8d20-48a3-8ea2-0f96310a848e', typt u in het zoekvak:
 
-`InformationProtectionLabelId: 8faca7b8-8d20-48a3-8ea2-0f96310a848e`    
+```
+InformationProtectionLabelId:8faca7b8-8d20-48a3-8ea2-0f96310a848e
+```
+
+Zoeken vindt geen gelabelde documenten in een gecomprimeerd bestand, zoals een .zip bestand.
 
 Gebruik de [cmdlet Get-Label](/powershell/module/exchange/get-label) om de GUID's voor uw gevoeligheidslabels op te halen:    
 

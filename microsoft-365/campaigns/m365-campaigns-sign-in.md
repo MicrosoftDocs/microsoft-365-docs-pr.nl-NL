@@ -1,5 +1,5 @@
 ---
-title: Aanmelden bij Microsoft 365
+title: Meld u aan bij Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: sharik
@@ -30,14 +30,14 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/27/2021
 ms.locfileid: "51398160"
 ---
-# <a name="sign-in-to-microsoft-365"></a>Aanmelden bij Microsoft 365
+# <a name="sign-in-to-microsoft-365"></a>Meld u aan bij Microsoft 365
 
 ## <a name="for-business-or-campaign-admins"></a>Voor bedrijfs- of campagnebeheerders
 
-Als u zich hebt aangemeld voor Microsoft 365, bent u de Microsoft 365-beheerder. Meld u als volgende aan:
+Als u zich hebt aangemeld voor Microsoft 365, bent u de Microsoft 365 beheerder. Meld u als volgende aan:
 
 1. Zoek de gebruikersnaam en het wachtwoord dat we naar het e-mailadres hebben gestuurd dat u ons hebt gegeven in stap 2 van [Stappen om u aan te melden.](m365-campaigns-sign-up.md#steps-to-sign-up)
-2. Ga in de browser naar het Microsoft 365-beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> .
+2. Ga in de browser naar het Microsoft 365 beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> .
 3. Typ uw gebruikersnaam en wachtwoord. Selecteer **Aanmelden.**
 4. Zoek rechtsboven op de pagina het besturingselement **Voorbeeld.** Selecteer **Voorbeeld op,** zodat u alle besturingselementen kunt gebruiken die worden beschreven in [Bump up protection voor uw campagne.](m365-campaigns-security-overview.md)
 

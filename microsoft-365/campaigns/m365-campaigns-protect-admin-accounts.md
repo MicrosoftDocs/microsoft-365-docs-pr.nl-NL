@@ -40,7 +40,7 @@ Wanneer u zich registreert voor Microsoft 365 en uw gegevens in typt, wordt u au
 
 ## <a name="create-additional-admin-accounts"></a>Extra beheerdersaccounts maken
 
-Beheeraccounts alleen gebruiken voor beheer. Beheerders moeten een afzonderlijk gebruikersaccount hebben voor regelmatig gebruik van Office-apps en hun beheeraccount alleen gebruiken wanneer dat nodig is voor het beheren van accounts en apparaten en tijdens het werken aan andere beheerfuncties. Het is ook een goed idee om de Microsoft 365-licentie te verwijderen uit de beheerdersaccounts, zodat u er niet voor hoeft te betalen.
+Beheeraccounts alleen gebruiken voor beheer. Beheerders moeten een afzonderlijk gebruikersaccount hebben voor regelmatig gebruik van Office-apps en hun beheeraccount alleen gebruiken wanneer dat nodig is voor het beheren van accounts en apparaten en tijdens het werken aan andere beheerfuncties. Het is ook een goed idee om de licentie Microsoft 365 de beheerdersaccounts te verwijderen, zodat u er niet voor hoeft te betalen.
 
 U wilt ten minste één extra globale beheerdersaccount instellen om beheerder toegang te geven tot een andere vertrouwde werknemer. U kunt ook afzonderlijke beheerdersaccounts maken voor gebruikersbeheer (deze rol wordt **beheerder gebruikersbeheer genoemd).** Zie beheerdersrollen [voor meer informatie.](/office365/admin/add-users/about-admin-roles)
 
@@ -57,7 +57,7 @@ Extra beheerdersaccounts maken:
 
     ![De beheerdersrol kiezen](../media/adminroles.png)
 
- 4. Verplaats in **de sectie Productlicenties** de selector voor **Microsoft 365 Business** naar **Uit** en de gebruiker **zonder productlicentie** maken naar **Aan.**
+ 4. Verplaats in **de sectie Productlicenties** de selector **voor** Microsoft 365 Business **naar Uit** en de gebruiker zonder **productlicentie** maken naar **Aan.**
 
     ![De productlicentie kiezen](../media/productlicense.png)
 
@@ -74,7 +74,7 @@ Een nieuw gebruikersaccount maken:
 1. Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">beheercentrum en</a> kies **gebruikers actieve** \> **gebruikers** in het linkernavigatienavigatiepunt.
 2. Selecteer op **de pagina** Actieve gebruikers de optie Een gebruiker  **toevoegen** boven aan de pagina en voer in het deelvenster Nieuwe gebruiker de naam en andere informatie in.
 3. Vouw de **sectie Rollen** uit en kies **Gebruiker (geen beheerderstoegang).**
-4. Verplaats in **de sectie Productlicenties** de selector voor **Microsoft 365 Business** naar **Aan.**
+4. Verplaats in **de sectie Productlicenties** de selector **voor** Microsoft 365 Business naar **Aan.**
 
 ## <a name="turn-on-security-defaults"></a>Beveiligingsinstellingen in- en uit-
 

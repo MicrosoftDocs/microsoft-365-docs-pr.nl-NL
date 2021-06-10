@@ -65,7 +65,7 @@ Communicatie compliance helpt communicatierisico's te minimaliseren door u te he
 - Microsoft 365 G5-abonnement + de Microsoft 365 G5 Insider Risk Management-invoegvoegvoeging
 - Office 365 Enterprise E5-abonnement (betaalde of proefversie)
 - Office 365 A5 (betaalde of proefversie)
-- Office 365 Enterprise E3-abonnement + Office 365 Advanced Compliance -invoegabonnement (niet meer beschikbaar voor nieuwe abonnementen)
+- Office 365 Enterprise E3-abonnement + de invoegtoepassing Office 365 Advanced Compliance (niet meer beschikbaar voor nieuwe abonnementen)
 
 ### <a name="insider-risk-management"></a>Intern risicobeheer
 

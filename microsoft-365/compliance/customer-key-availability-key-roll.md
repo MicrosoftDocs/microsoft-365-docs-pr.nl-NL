@@ -101,7 +101,7 @@ SharePoint Online kunt u maar één toets tegelijk rollen. Als u beide sleutels 
    Get-SPODataEncryptionPolicy -Identity <SPOAdminSiteUrl>
    ```
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-articles"></a>Aanverwante artikelen
 
 - [Serviceversleuteling met klantsleutel voor Office 365](customer-key-overview.md)
 

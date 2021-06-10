@@ -2,7 +2,7 @@
 title: Nieuwe bedreigingen bijhouden en beantwoorden met bedreigingsanalyse
 ms.reviewer: ''
 description: Meer informatie over nieuwe bedreigingen en aanvalstechnieken en hoe u deze kunt stoppen. Beoordeel de impact ervan op uw organisatie en evalueer uw organisatiebestendigheid.
-keywords: bedreigingsanalyse, risicoanalyse, Microsoft 365 Defender, M365D, mitigatiestatus, veilige configuratie, Microsoft Defender voor Office 365, Microsoft Defender voor Office 365 threat analytics, MDO threat analytics, geïntegreerde MDE en MDO threat analytics data, threat analytics data integration, integrated Microsoft 365 Defender threat analytics
+keywords: bedreigingsanalyse, risicoanalyse, Microsoft 365 Defender, M365D, mitigatiestatus, veilige configuratie, Microsoft Defender voor Office 365, Microsoft Defender voor Office 365 bedreigingsanalyse, MDO-bedreigingsanalyse, geïntegreerde MDE- en MDO-bedreigingsanalysegegevens, integratie van bedreigingsanalysegegevens, geïntegreerde Microsoft 365 Defender threat analytics
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -53,7 +53,7 @@ Bekijk deze korte video voor meer informatie over hoe u met bedreigingsanalyse d
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWwJfU]
 
-U hebt toegang tot bedreigingsanalyse via de linkerbovenhoek van de navigatiebalk van de Microsoft 365-beveiligingsportal of via een speciale dashboardkaart met de belangrijkste bedreigingen in uw organisatie. Als u inzicht krijgt in actieve of lopende campagnes en weet wat u moet doen via bedreigingsanalyses, kunt u uw beveiligingsteam voorzien van weloverwogen beslissingen. 
+U kunt bedreigingsanalyse openen vanaf de linkerbovenhoek van de navigatiebalk van Microsoft 365 beveiligingsportal of via een speciale dashboardkaart met de belangrijkste bedreigingen in uw organisatie. Als u inzicht krijgt in actieve of lopende campagnes en weet wat u moet doen via bedreigingsanalyses, kunt u uw beveiligingsteam voorzien van weloverwogen beslissingen. 
 
 ![Afbeelding van het dashboard bedreigingsanalyse](../../media/threat-analytics/ta_inlandingpage_mtp.png)
 
@@ -131,7 +131,7 @@ _Sectie Verwante incidenten van een rapport over bedreigingsanalyse_
 ### <a name="impacted-assets-get-list-of-impacted-devices-and-mailboxes"></a>Beïnvloede activa: Lijst met beïnvloede apparaten en postvakken
 Een activum wordt als beïnvloed beschouwd als het wordt beïnvloed door een actieve, niet-opgeloste waarschuwing. Het **tabblad Beïnvloede activa** bevat de volgende typen beïnvloede activa:
 - **Beïnvloede apparaten:** eindpunten met niet-opgeloste waarschuwingen van Microsoft Defender voor eindpunten. Deze waarschuwingen worden meestal gebruikt voor waarnemingen van bekende bedreigingsindicatoren en -activiteiten.
-- **Beïnvloede postvakken:** postvakken die e-mailberichten hebben ontvangen die microsoft Defender voor Office 365-waarschuwingen hebben geactiveerd. Hoewel de meeste berichten die waarschuwingen activeren meestal worden geblokkeerd, kunnen beleidsregels op gebruikers- of organisatieniveau filters overschrijven.
+- **Beïnvloede postvakken:** postvakken die e-mailberichten hebben ontvangen die Microsoft Defender hebben geactiveerd voor Office 365 waarschuwingen. Hoewel de meeste berichten die waarschuwingen activeren meestal worden geblokkeerd, kunnen beleidsregels op gebruikers- of organisatieniveau filters overschrijven.
 
 ![Afbeelding van de sectie beïnvloede activa van een bedreigingsanalyserapport](../../media/threat-analytics/ta_impacted_assets_mtp.png)
 
@@ -140,7 +140,7 @@ _Sectie Beïnvloede activa van een rapport voor bedreigingsanalyse_
 ### <a name="prevented-email-attempts-view-blocked-or-junked-threat-emails"></a>E-mailpogingen voorkomen: geblokkeerde of ongewenste e-mailberichten weergeven
 Microsoft Defender voor Office 365 blokkeert meestal e-mailberichten met bekende bedreigingsindicatoren, waaronder schadelijke koppelingen of bijlagen. In sommige gevallen worden met proactieve filtermechanismen die controleren op verdachte inhoud, in plaats daarvan e-mailberichten met bedreigingen naar de map ongewenste e-mail verzonden. In beide gevallen is de kans op het starten van malwarecode voor bedreigingen op het apparaat kleiner.
 
-Op **het tabblad Pogingen voor e-mail** voorkomen worden alle e-mailberichten weergegeven die vóór de bezorging zijn geblokkeerd of die door Microsoft Defender voor Office 365 naar de map ongewenste e-mail zijn verzonden. 
+Op **het tabblad E-mailpogingen** voorkomen worden alle e-mailberichten weergegeven die vóór de bezorging zijn geblokkeerd of die door Microsoft Defender zijn verzonden naar de map ongewenste e-mail voor Office 365. 
 
 ![Afbeelding van de sectie verhinderde e-mailpogingen van een rapport voor bedreigingsanalyse](../../media/threat-analytics/ta_prevented_email_attempts_mtp.png)
 
@@ -151,11 +151,11 @@ Bekijk in **de sectie Mitigaties** de lijst met specifieke actie-aanbevelingen d
 
 - **Beveiligingsupdates**: implementatie van ondersteunde softwarebeveiligingsupdates voor beveiligingsproblemen die zijn gevonden op onboarded-apparaten
 - **Ondersteunde beveiligingsconfiguraties**
-  - Beveiliging in de cloud  
+  - Cloudbeveiliging  
   - Potentieel ongewenste toepassingsbeveiliging (PUA)
   - Realtime beveiliging
  
-Mitigatiegegevens in deze [](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)sectie bevatten gegevens van bedreigings- en kwetsbaarheidsbeheer, die ook gedetailleerde inzoomgegevens bevatten van verschillende koppelingen in het rapport.
+Mitigatiegegevens in deze sectie bevatten gegevens uit [Threat and Vulnerability Management](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt), die ook gedetailleerde inzoomgegevens bevatten van verschillende koppelingen in het rapport.
 
 ![Afbeelding van de sectie risicobeperking van een bedreigingsanalyserapport met veilige configuratiegegevens Afbeelding van de sectie risicobeperking van een rapport met ](../../media/threat-analytics/ta_mitigations_mtp.png)
  ![ beveiligingsdetails](../../media/threat-analytics/ta_mitigations_mtp2.png)
@@ -164,19 +164,19 @@ _Sectie Risicobeperking van een rapport voor bedreigingsanalyse_
 
 ## <a name="additional-report-details-and-limitations"></a>Aanvullende rapportdetails en -beperkingen
 >[!NOTE]
->Als onderdeel van de geïntegreerde beveiligingservaring is bedreigingsanalyse nu niet alleen beschikbaar voor Microsoft Defender voor Eindpunt, maar ook voor licentiehouders van Microsoft Defender voor Office E5.
->Als u de Microsoft 365-beveiligingsportal (Microsoft 365 Defender) niet gebruikt, kunt u ook de rapportdetails (zonder de Microsoft Defender voor Office-gegevens) zien in de Microsoft Defender-beveiligingscentrumportal (Microsoft Defender voor Eindpunt). 
+>Als onderdeel van de geïntegreerde beveiligingservaring is bedreigingsanalyse nu niet alleen beschikbaar voor Microsoft Defender voor Eindpunt, maar ook voor Microsoft Defender voor Office E5-licentiehouders.
+>Als u de Microsoft 365-beveiligingsportal (Microsoft 365 Defender) niet gebruikt, kunt u ook de rapportdetails (zonder de Microsoft Defender voor Office-gegevens) zien in de Microsoft Defender-beveiligingscentrum-portal (Microsoft Defender voor Eindpunt). 
 
-Voor toegang tot het rapport Bedreigingsanalyse hebt u bepaalde rollen en machtigingen nodig. Zie [Aangepaste rollen in op rollen gebaseerd toegangsbeheer voor Microsoft 365 Defender voor](custom-roles.md) meer informatie.
+Voor toegang tot het rapport Bedreigingsanalyse hebt u bepaalde rollen en machtigingen nodig. Zie [Aangepaste rollen in op rollen gebaseerd toegangsbeheer voor Microsoft 365 Defender](custom-roles.md) voor meer informatie.
   - Als u waarschuwingen, incidenten of beïnvloede activagegevens wilt weergeven, moet u machtigingen hebben voor Microsoft Defender voor Office of Microsoft Defender voor eindpuntwaarschuwingen, of beide.
-  - Als u verhinderde e-mailpogingen wilt bekijken, moet u machtigingen hebben voor microsoft Defender voor Office-gegevens. 
-  - Als u risicobeperking wilt weergeven, moet u over machtigingen voor gegevens voor bedreigings- en kwetsbaarheidsbeheer in Microsoft Defender voor Eindpunt zijn.
+  - Als u verhinderde e-mailpogingen wilt weergeven, moet u over machtigingen voor Microsoft Defender Office gegevens. 
+  - Als u beperking wilt weergeven, moet u over machtigingen voor het Threat and Vulnerability Management gegevens in Microsoft Defender voor Eindpunt.
 
 Houd rekening met de volgende factoren bij het bekijken van de bedreigingsanalysegegevens:
 - Grafieken geven alleen risico's weer die worden bijgespoord. Controleer het rapportoverzicht op aanvullende risico's die niet in de grafieken worden weergegeven.
 - Risicobeperking garandeert geen volledige tolerantie. De geleverde risico's weerspiegelen de best mogelijke acties die nodig zijn om de tolerantie te verbeteren.
 - Apparaten worden geteld als 'niet beschikbaar' als ze geen gegevens naar de service hebben verzonden.
-- Antivirusgerelateerde statistieken zijn gebaseerd op de antivirusinstellingen van Microsoft Defender. Apparaten met antivirusoplossingen van derden kunnen worden weergegeven als 'blootgesteld'.
+- Antivirusgerelateerde statistieken zijn gebaseerd op Microsoft Defender Antivirus instellingen. Apparaten met antivirusoplossingen van derden kunnen worden weergegeven als 'blootgesteld'.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Proactief bedreigingen zoeken met geavanceerde jacht](advanced-hunting-overview.md) 

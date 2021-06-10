@@ -48,7 +48,7 @@ De eerste stap is het zoeken in het auditlogboek en vervolgens de resultaten in 
    ![Bericht weergegeven wanneer het CSV-bestand is gedownload](../media/ExportAuditSearchResultsFinish.png)
 
 > [!NOTE]
-  > U kunt maximaal 50.000 items naar een CSV-bestand downloaden vanuit één zoekopdracht in een auditlogboek. Als 50.000 items worden gedownload naar het CSV-bestand, kunt u er waarschijnlijk van uitgaan dat er meer dan 50.000 gebeurtenissen zijn die voldoen aan de zoekcriteria. Als u meer dan deze limiet wilt exporteren, gebruikt u een datumbereik om het aantal auditlogboekrecords te verminderen. Mogelijk moet u meerdere zoekopdrachten uitvoeren met kleinere datumbereiken om meer dan 50.000 items te exporteren.
+  > U kunt maximaal 50.000 vermeldingen (als gevolg van één zoekopdracht) in een CSV-bestand downloaden. Als er 50.000 resultaten in het CSV-bestand zijn gedownload, kunt u aannemen dat er meer dan 50.000 gebeurtenissen zijn die aan de zoekcriteria voldoen. Als u meer dan deze limiet wilt exporteren, gebruikt u een datumbereik om het aantal auditlogboekrecords te verminderen. Mogelijk moet u meerdere zoekopdrachten uitvoeren met kleinere datumbereiken als u meer dan 50.000 vermeldingen wilt exporteren.
 
 ## <a name="step-2-format-the-exported-audit-log-using-the-power-query-editor"></a>Stap 2: Het geëxporteerde auditlogboek opmaken met de Power Query-editor
 

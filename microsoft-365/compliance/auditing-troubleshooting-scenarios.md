@@ -43,7 +43,7 @@ Elk van de scenario's voor het oplossen van problemen die in dit artikel worden 
 
 ### <a name="permissions-required-to-use-the-audit-log-search-tool"></a>Machtigingen die nodig zijn voor het gebruik van het zoekprogramma voor het auditlogboek
 
-U moet de rol auditlogboeken View-Only auditlogboeken in Exchange Online toegewezen om het auditlogboek te doorzoeken. Deze rollen worden standaard toegewezen aan de rollengroepen Compliancebeheer  en Organisatiebeheer op de pagina Machtigingen in het Exchange beheercentrum. Globale beheerders in Office 365 en Microsoft 365 worden automatisch toegevoegd als leden van de rollengroep Organisatiebeheer in Exchange Online. Zie Rollengroepen beheren [in](/Exchange/permissions-exo/role-groups)Exchange Online.
+U moet de rol auditlogboeken View-Only auditlogboeken in Exchange Online toegewezen om het auditlogboek te doorzoeken. Deze rollen worden standaard toegewezen aan de rollengroepen Compliancebeheer en Organisatiebeheer op de pagina **Machtigingen** in het Exchange-beheercentrum. Globale beheerders in Office 365 en Microsoft 365 worden automatisch toegevoegd als leden van de rollengroep Organisatiebeheer in Exchange Online. Zie voor meer informatie [Rollengroepen beheren in Exchange Online](/Exchange/permissions-exo/role-groups).
 
 ### <a name="running-audit-log-searches"></a>Zoekopdrachten in auditlogboek uitvoeren
 
@@ -51,7 +51,7 @@ In deze sectie worden de basisbeginselen beschreven voor het maken en uitvoeren 
 
 1. Ga naar [https://protection.office.com/unifiedauditlog](https://protection.office.com/unifiedauditlog) en meld u aan met uw werk- of schoolaccount.
     
-    De **zoekpagina auditlogboek** wordt weergegeven. 
+    De pagina **Zoeken in het auditlogboek** wordt weergegeven. 
     
     ![Criteria configureren en vervolgens Zoeken selecteren om de zoekopdracht uit te voeren](../media/8639d09c-2843-44e4-8b4b-9f45974ff7f1.png)
   
@@ -59,11 +59,11 @@ In deze sectie worden de basisbeginselen beschreven voor het maken en uitvoeren 
     
     a. **Activiteiten:** Selecteer de vervolgkeuzelijst om de activiteiten weer te geven die u kunt zoeken. Nadat u de zoekopdracht hebt uitgevoerd, worden alleen de auditrecords voor de geselecteerde activiteiten weergegeven. Als **u Resultaten voor alle activiteiten tonen selecteert,** worden resultaten weergegeven voor alle activiteiten die voldoen aan de andere zoekcriteria. U moet dit veld ook leeg laten in sommige scenario's voor het oplossen van problemen.
     
-    b. **Begindatum** en **einddatum:** Selecteer een datum en tijdbereik om de gebeurtenissen weer te geven die binnen die periode hebben plaatsgevonden. De laatste zeven dagen zijn standaard geselecteerd. De datum en tijd worden weergegeven in de UTC-indeling (Coordinated Universal Time). Het maximumdatumbereik dat u kunt opgeven, is 90 dagen.
+    b. **Begindatum** en **einddatum:** Selecteer een datum en tijdbereik om de gebeurtenissen weer te geven die binnen die periode hebben plaatsgevonden. De laatste zeven dagen zijn standaard geselecteerd. De datum en tijd worden weergegeven in de UTC-indeling (Coordinated Universal Time). Het grootste datumbereik dat u kunt opgeven is 90 dagen.
 
-    c. **Gebruikers:** Klik in dit vak en selecteer een of meer gebruikers om zoekresultaten weer te geven. Auditrecords voor de geselecteerde activiteit die wordt uitgevoerd door de gebruikers die u in dit vak selecteert, worden weergegeven in de lijst met resultaten. Laat dit vak leeg als u items wilt retourneren voor alle gebruikers (en serviceaccounts) in uw organisatie.
+    c. **Gebruikers:** Klik in dit vak en selecteer een of meer gebruikers om zoekresultaten weer te geven. Auditrecords voor de geselecteerde activiteit die wordt uitgevoerd door de gebruikers die u in dit vak selecteert, worden weergegeven in de lijst met resultaten. Laat dit vak leeg als u vermeldingen wilt zien voor alle gebruikers (en serviceaccounts) in uw organisatie.
     
-    d. **Bestand, map of site:** Typ een of meer bestanden of mappen om te zoeken naar activiteiten die betrekking hebben op het mapbestand dat het opgegeven trefwoord bevat. U kunt ook een URL opgeven van een bestand of map. Als u een URL gebruikt, moet u het volledige URL-pad typen of als u slechts een deel van de URL typt, geen speciale tekens of spaties bevatten. Laat dit vak leeg als u items wilt retourneren voor alle bestanden en mappen in uw organisatie. Dit veld is leeg in alle scenario's voor probleemoplossing in dit artikel.
+    d. **Bestand, map of site:** Typ een of meer bestanden of mappen om te zoeken naar activiteiten die betrekking hebben op het mapbestand dat het opgegeven trefwoord bevat. U kunt ook een URL van een bestand of map opgeven. Als u een URL gebruikt, moet u het volledige URL-pad typen of als u slechts een deel van de URL typt, geen speciale tekens of spaties bevatten. Laat dit vak leeg als u vermeldingen wilt zien voor alle bestanden en mappen in uw organisatie. Dit veld is leeg in alle scenario's voor probleemoplossing in dit artikel.
     
 5. Selecteer **Zoeken** om de zoekopdracht uit te voeren met behulp van uw zoekcriteria. 
     
@@ -239,7 +239,7 @@ Hier volgen twee voorbeelden van scenario's die resulteren in een geslaagde gebr
 
     Naast de  aangemelde activiteiten van de gebruiker kunnen andere auditrecords worden geretourneerd, zoals records die aangeven dat een gebruiker in uw organisatie resources heeft gedeeld met de externe gebruiker en of de externe gebruiker een document heeft bekeken, gewijzigd of gedownload dat met hen is gedeeld.
 
-- Zoek naar SharePoint delen van activiteiten die aangeven dat een bestand is gedeeld met de externe gebruiker die is geïdentificeerd door een gebruiker **die is** aangemeld bij de auditrecord. Zie Delen controleren gebruiken in het [auditlogboek](use-sharing-auditing.md)voor meer informatie.
+- Zoek naar SharePoint delen van activiteiten die aangeven dat een bestand is gedeeld met de externe gebruiker die is geïdentificeerd door een gebruiker **die is** aangemeld bij de auditrecord. Zie [Auditing voor delen gebruiken in het auditlogboek](use-sharing-auditing.md) voor meer informatie.
 
 - Exporteert de zoekresultaten van het auditlogboek die records bevatten die relevant zijn voor uw onderzoek, zodat u Excel kunt zoeken naar andere activiteiten met betrekking tot de externe gebruiker. Zie Auditlogboekrecords  [exporteren, configureren](export-view-audit-log-records.md)en weergeven voor meer informatie.
 

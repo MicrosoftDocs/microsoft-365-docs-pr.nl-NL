@@ -16,12 +16,12 @@ ms.collection:
 description: Beveiliging in Office 365, van EOP tot Defender voor Office 365-abonnementen 1 en 2, standaard- en strikte beveiligingsconfiguraties en meer. Begrijpen wat u hebt en hoe u uw eigendommen kunt beveiligen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: db37718ce2feae9c79ff6b323eb22e30f24e72b2
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 29602d5fe62c84b9293522a94b71c550d360b3e3
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204365"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52877798"
 ---
 # <a name="office-365-security-overview"></a>Overzicht van Office 365-beveiliging
 
@@ -117,7 +117,7 @@ Voordelen van **Defender voor Office 365, abonnement 2** (tot nu toe):
 
 Microsoft Defender voor Office 365 P2 voegt dus toe aan de kant van ***onderzoek en reactie*** en voegt nieuwe opsporingskracht toe. Automatisering.
 
-In Microsoft Defender voor Office 365 P2 wordt het primaire opsporingshulpprogramma **Threat Explorer** genoemd in plaats van realtime-detectie. Als Threat Explorer wordt weergegeven wanneer u naar het beveiligingscentrum navigeert, bevindt u zich in Microsoft Defender voor Office 365 P2.
+In Microsoft Defender voor Office 365 P2 wordt het primaire opsporingshulpprogramma **Threat Explorer** genoemd in plaats van realtime-detectie. Als u Threat Explorer ziet wanneer u naar de Microsoft 365 Defender-portal navigeert, bent u in Microsoft Defender voor Office 365 P2.
 
 Als u meer wilt weten over Microsoft Defender voor Office 365 P1 en P2, **[gaat u naar dit artikel](defender-for-office-365.md)**.
 

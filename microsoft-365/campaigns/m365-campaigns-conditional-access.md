@@ -39,17 +39,17 @@ Zie Wat [zijn beveiligings defaults?](/azure/active-directory/fundamentals/conce
 
 Als uw abonnement is gemaakt op of na 22 oktober 2019, zijn beveiligingsinstellingen mogelijk automatisch ingeschakeld voor u. Controleer de instellingen om dit te &mdash; bevestigen.
 
-Als u beveiligingsinstellingen wilt inschakelen in uw Azure Active Directory (Azure AD) of wilt controleren of deze al zijn ingeschakeld:
+Als u beveiligingsinstellingen in uw Azure Active Directory (Azure AD) wilt inschakelen of wilt controleren of deze al zijn ingeschakeld:
 
-1. Meld u aan bij <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">het Microsoft 365-beheercentrum</a> met globale beheerdersreferenties.
+1. Meld u aan bij <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">het Microsoft 365 beheercentrum</a> met globale beheerdersreferenties.
 
-2. Selecteer in het linkerdeelvenster **Alles weergeven en** selecteer vervolgens onder **Beheercentra** **de optie Azure Active Directory.**
+2. Selecteer in het linkerdeelvenster **Alles weergeven en** selecteer vervolgens onder **Beheercentra** **Azure Active Directory.**
 
-3. Selecteer Azure Active Directory in het **linkerdeelvenster** van het Azure Active **Directory-beheercentrum.**
+3. Selecteer in het linkerdeelvenster **Azure Active Directory het beheercentrum** **Azure Active Directory.**
 
 4. Selecteer eigenschappen in het linkermenu van het dashboard in **de** sectie **Beheren.**
 
-    :::image type="content" source="../media/m365-campaigns-conditional-access/azure-ad-properties.png" alt-text="Schermafbeelding van het Azure Active Directory-beheercentrum met de locatie van het menu-item Eigenschappen.":::
+    :::image type="content" source="../media/m365-campaigns-conditional-access/azure-ad-properties.png" alt-text="Schermafbeelding van het Azure Active Directory beheercentrum met de locatie van het menu-item Eigenschappen.":::
 
 5. Selecteer onder aan de pagina **Eigenschappen** de optie **Beveiligingsinstellingen beheren.**
 
@@ -79,7 +79,7 @@ Als u Voorwaardelijke toegang wilt gebruiken om beleid te configureren dat overe
 - [MFA vereisen voor Azure-beheer](/azure/active-directory/conditional-access/howto-conditional-access-policy-azure-management)
 - [Verouderde verificatie blokkeren](/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)
 - [MFA vereisen voor alle gebruikers](/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa)
-- [Azure AD MFA-registratie vereisen](/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy) : hiervoor is Azure AD Identity Protection vereist, dat deel uitmaakt van Azure Active Directory Premium P2
+- [Azure AD MFA-registratie vereisen:](/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy) hiervoor is Azure AD Identity Protection vereist, dat deel uitmaakt van Azure Active Directory Premium P2
 
 Zie Wat [is Voorwaardelijke toegang? voor meer informatie over voorwaardelijke toegang.](/azure/active-directory/conditional-access/overview) Zie Een beleid voor voorwaardelijke toegang maken voor meer informatie over het maken van beleid voor voorwaardelijke [toegang.](/azure/active-directory/authentication/tutorial-enable-azure-mfa#create-a-conditional-access-policy)
 

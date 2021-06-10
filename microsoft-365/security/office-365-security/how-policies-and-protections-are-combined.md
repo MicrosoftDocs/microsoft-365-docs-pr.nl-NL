@@ -1,6 +1,6 @@
 ---
 title: Volgorde en prioriteit van e-mailbeveiliging
-keywords: beveiliging, malware, Microsoft 365, M365, beveiligingscentrum, Microsoft Defender voor Eindpunt, Microsoft Defender voor Office 365, Microsoft Defender voor identiteit
+keywords: beveiliging, malware, Microsoft 365, M365, beveiligingscentrum, Microsoft 365 Defender-portal, Microsoft Defender voor eindpunt, Microsoft Defender voor Office 365, Microsoft Defender voor identiteit
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -17,12 +17,12 @@ ms.custom:
 description: Beheerders kunnen meer informatie krijgen over de toepassingsorde van beveiligingen in Exchange Online Protection (EOP) en hoe de prioriteitswaarde in beveiligingsbeleid bepaalt welk beleid wordt toegepast.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 24d43aeb70e2cdef4bdf65fd3943cdfda9ec3862
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 7243fd79287e19528e999774dbd0dd018fa86759
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52539009"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52877846"
 ---
 # <a name="order-and-precedence-of-email-protection"></a>Volgorde en prioriteit van e-mailbeveiliging
 

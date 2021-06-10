@@ -35,7 +35,7 @@ ms.locfileid: "51204937"
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige EOP-organisaties (Exchange Online Protection) zonder Exchange Online-postvakken, vragen klanten soms: 'Wat is het verschil tussen ongewenste e-mail en bulk-e-mail?' In dit onderwerp wordt het verschil uitgelegd en worden de besturingselementen beschreven die beschikbaar zijn in EOP.
+In Microsoft 365 organisaties met postvakken in Exchange Online of zelfstandige Exchange Online Protection (EOP)-organisaties zonder Exchange Online-postvakken, vragen klanten soms: 'Wat is het verschil tussen ongewenste e-mail en bulk-e-mail?' In dit onderwerp wordt het verschil uitgelegd en worden de besturingselementen beschreven die beschikbaar zijn in EOP.
 
 - **Ongewenste e-mail** is spam, wat ongevraagde en universeel ongewenste berichten zijn (indien correct geïdentificeerd). Standaard wordt spam door de EOP afgewezen op basis van de reputatie van de bron-e-mailserver. Als een bericht de bron-IP-inspectie doorstaat, wordt het verzonden naar spamfilters. Als het bericht is geclassificeerd als spam door spamfilters, wordt het bericht (standaard) bezorgd bij de beoogde geadresseerden en verplaatst naar de map Ongewenste e-mail.
 

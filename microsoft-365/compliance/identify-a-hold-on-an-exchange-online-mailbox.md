@@ -1,5 +1,5 @@
 ---
-title: Het type wacht in een postvak Exchange Online identificeren
+title: Bepalen welk type bewaring geldt voor een Exchange Online-postvak
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -24,7 +24,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "52161902"
 ---
-# <a name="how-to-identify-the-type-of-hold-placed-on-an-exchange-online-mailbox"></a>Het type wacht in een postvak Exchange Online identificeren
+# <a name="how-to-identify-the-type-of-hold-placed-on-an-exchange-online-mailbox"></a>Bepalen welk type bewaring geldt voor een Exchange Online-postvak
 
 In dit artikel wordt uitgelegd hoe u in postvakken in Exchange Online postvakken in Microsoft 365.
 
@@ -125,7 +125,7 @@ Zie de sectie Inhoud behouden voor een bepaalde periode voor meer informatie ove
 
 Nadat u de GUID hebt ontvangen voor een hold die is toegepast op een postvak, is de volgende stap het gebruik van deze GUID om de wacht te identificeren. In de volgende secties wordt be informatie gegeven over het identificeren van de naam van de wacht (en andere informatie) met behulp van de hold-GUID.
 
-### <a name="ediscovery-holds"></a>eDiscovery-bezit
+### <a name="ediscovery-holds"></a>eDiscovery-bewaring
 
 Voer de volgende opdrachten uit in & Compliance center PowerShell om een eDiscovery-hold te identificeren die is toegepast op het postvak. Gebruik de GUID (niet inclusief het UniH-voorvoegsel) voor de eDiscovery-hold die u hebt geïdentificeerd in stap 1. 
 

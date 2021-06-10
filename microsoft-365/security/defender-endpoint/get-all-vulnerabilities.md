@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 4be87e296739020c80babb864c57bc803f10d3e0
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 6def1b64430ad70dc4b4898ba2b914288826873e
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843684"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861489"
 ---
 # <a name="list-vulnerabilities"></a>Lijst van beveiligingsproblemen
 
@@ -39,7 +39,7 @@ ms.locfileid: "52843684"
 
 [!include[Prerelease information](../../includes/prerelease.md)]
 
-Hiermee wordt een lijst opgehaald met alle beveiligingslekken die van invloed zijn op de organisatie.
+Hiermee wordt een lijst met alle beveiligingslekken opgehaald.
 
 ## <a name="permissions"></a>Machtigingen
 Een van de volgende machtigingen is vereist om deze API te bellen. Zie Microsoft Defender voor [eindpunt-API's](apis-intro.md) gebruiken voor meer informatie, inclusief het kiezen van machtigingen.
@@ -56,7 +56,7 @@ GET /api/vulnerabilities
 
 ## <a name="request-headers"></a>Kopteksten aanvragen
 
-Naam | Type | Beschrijving
+Naam | Type | Omschrijving
 :---|:---|:---
 Autorisatie | Tekenreeks | Bearer {token}. **Vereist**.
 

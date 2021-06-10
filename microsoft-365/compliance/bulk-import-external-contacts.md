@@ -71,7 +71,7 @@ De eerste stap is het maken van een CSV-bestand met informatie over elke externe
 
 De volgende stap is om het CSV-bestand dat u hebt gemaakt in stap 1 en PowerShell te gebruiken om de externe contactpersonen die in het CSV-bestand worden vermeld, bulksgewijs te importeren in Exchange Online. 
   
-1.  Verbinding maken PowerShell voor uw Exchange Online organisatie. Zie voor stapsgewijs instructies de [Verbinding maken powershell Exchange Online gebruiken.](/powershell/exchange/connect-to-exchange-online-powershell) Gebruik de gebruikersnaam en het wachtwoord voor uw globale beheerdersaccount wanneer u verbinding maakt met Exchange Online PowerShell. 
+1.  Verbinding maken PowerShell voor uw Exchange Online organisatie. Zie [Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) (Verbinding maken met Exchange Online PowerShell) voor stapsgewijze instructies. Gebruik de gebruikersnaam en het wachtwoord voor uw globale beheerdersaccount wanneer u verbinding maakt met Exchange Online PowerShell. 
     
 2. Nadat u PowerShell hebt verbonden met Exchange Online, gaat u naar de bureaubladmap waar u het CSV-bestand hebt opgeslagen in stap 1. bijvoorbeeld `C:\Users\Administrator\desktop` .
     
@@ -99,7 +99,7 @@ De volgende stap is om het CSV-bestand dat u hebt gemaakt in stap 1 en PowerShel
 
 Nadat u de opdracht hebt uitgevoerd in stap 2, worden de externe contactpersonen gemaakt, maar ze bevatten geen van de contactgegevens of organisatiegegevens, wat de gegevens zijn van de meeste cellen in het CSV-bestand. Dit komt omdat wanneer u nieuwe externe contactpersonen maakt, alleen de vereiste eigenschappen worden ingevuld. Maak u geen zorgen als u niet alle gegevens hebt ingevuld in het CSV-bestand. Als deze er niet is, wordt deze niet toegevoegd.
   
-1.  Verbinding maken PowerShell voor uw Exchange Online organisatie. Zie voor stapsgewijs instructies de [Verbinding maken powershell Exchange Online gebruiken.](/powershell/exchange/connect-to-exchange-online-powershell)
+1.  Verbinding maken PowerShell voor uw Exchange Online organisatie. Zie [Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) (Verbinding maken met Exchange Online PowerShell) voor stapsgewijze instructies.
     
 2. Ga naar de bureaubladmap waar u het CSV-bestand hebt opgeslagen in stap 1; `C:\Users\Administrator\desktop`bijvoorbeeld.
     
@@ -138,7 +138,7 @@ U kunt stap 1 tot en met stap 3 herhalen om nieuwe externe contactpersonen toe t
 
 Sommige bedrijven gebruiken alleen externe contactpersonen, zodat ze kunnen worden toegevoegd als leden van distributiegroepen. In dit scenario willen ze mogelijk externe contactpersonen verbergen in het gedeelde adresboek. Hier ziet u hoe dat gaat:
   
-1.  Verbinding maken PowerShell voor uw Exchange Online organisatie. Zie voor stapsgewijs instructies de [Verbinding maken powershell Exchange Online gebruiken.](/powershell/exchange/connect-to-exchange-online-powershell)
+1.  Verbinding maken PowerShell voor uw Exchange Online organisatie. Zie [Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) (Verbinding maken met Exchange Online PowerShell) voor stapsgewijze instructies.
     
 2. Als u één externe contactpersoon wilt verbergen, moet u de volgende opdracht uitvoeren.
     

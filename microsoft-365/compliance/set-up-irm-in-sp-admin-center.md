@@ -1,5 +1,5 @@
 ---
-title: Set up Information Rights Management (IRM) in SharePoint admin center
+title: IRM (Information Rights Management) instellen in het SharePoint-beheercentrum
 f1.keywords:
 - NOCSH
 ms.author: krowley
@@ -25,7 +25,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "52161967"
 ---
-# <a name="set-up-information-rights-management-irm-in-sharepoint-admin-center"></a>Set up Information Rights Management (IRM) in SharePoint admin center
+# <a name="set-up-information-rights-management-irm-in-sharepoint-admin-center"></a>IRM (Information Rights Management) instellen in het SharePoint-beheercentrum
 
 Binnen SharePoint Online wordt IRM-beveiliging toegepast op bestanden op lijst- en bibliotheekniveau. Voordat uw organisatie IRM-beveiliging kan gebruiken, moet u eerst Rights Management instellen. IRM is afhankelijk van de Azure Rights Management Azure Information Protection om gebruiksbeperkingen te versleutelen en toe te wijzen. Sommige Microsoft 365 zijn Azure Rights Management, maar niet alle. Voor meer informatie leest u Hoe Office toepassingen en services ondersteuning bieden [Azure Rights Management.](/azure/information-protection/understand-explore/office-apps-services-support)
   

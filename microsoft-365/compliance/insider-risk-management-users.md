@@ -1,7 +1,7 @@
 ---
 title: Insider risk management Users dashboard
 description: Meer informatie over insider risk management Gebruikers dashboard in Microsoft 365
-keywords: Microsoft 365, insider risk management, risk management, compliance
+keywords: Microsoft 365, intern risicobeheer, risicobeheer, naleving
 localization_priority: Normal
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -46,7 +46,7 @@ Het **dashboard Gebruikers** bevat gebruikers die zijn toegevoegd aan beleid voo
 Wanneer een gebruiker handmatig wordt toegevoegd aan een beleid, worden de gebruikersactiviteiten van de afgelopen 90 dagen gescored en toegevoegd aan de tijdlijn **gebruikersactiviteit.** U hebt bijvoorbeeld een gebruiker die momenteel geen risicoscores heeft toegewezen voor een insiderrisicobeleid en de gebruiker heeft activiteiten met gegevenslekken gerapporteerd bij de juridische afdeling in uw organisatie. De juridische afdeling raadt u aan om nieuwe vereisten voor korte termijncontrole voor de gebruiker te configureren. U kunt de gebruiker tijdelijk toewijzen aan uw beleid voor gegevenslekken voor een bepaalde periode *(activeringsvenster).* Alle gebruikers die tijdelijk zijn toegevoegd, worden weergegeven in het **dashboard Gebruikers,** omdat triggeringgebeurtenisvereisten worden opgehefd.
 
 >[!NOTE]
->Het kan enkele uren duren voordat nieuwe gebruikers die handmatig zijn toegevoegd, worden weergegeven in het **dashboard Gebruikers.** Het kan maximaal 24 uur duren voordat activiteiten voor deze gebruikers worden weergegeven. Als u activiteiten wilt weergeven voor handmatig toegevoegde gebruikers, selecteert u de gebruiker op het **dashboard** Gebruikers en opent u het tabblad **Gebruikersactiviteit** in het detailvenster.
+>Het kan enkele uren duren voordat nieuwe gebruikers die handmatig zijn toegevoegd, worden weergegeven in het **dashboard Gebruikers.** Het kan tot 24 uur duren voordat de activiteiten van de afgelopen 90 dagen voor deze gebruikers worden weergegeven. Als u activiteiten wilt weergeven voor handmatig toegevoegde gebruikers, selecteert u de gebruiker op het **dashboard** Gebruikers en opent u het tabblad **Gebruikersactiviteit** in het detailvenster.
 
 De gebruiker wordt automatisch verwijderd uit het **gebruikersdashboard** en de score wordt gestopt wanneer de tijd die is gedefinieerd in het activeringsvenster **verloopt** als:
 

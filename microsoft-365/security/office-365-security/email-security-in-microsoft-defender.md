@@ -16,12 +16,12 @@ description: Malware phishingpogingen bekijken en onderzoeken.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a2a6d3d10cfa21c0ad2da948bff130cb9336ebd8
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: f0326a51f14b402b9a579e8668ef2c026f9de789
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297621"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52877894"
 ---
 # <a name="email-security-with-threat-explorer-in-microsoft-defender-for-office-365"></a>E-mailbeveiliging met Threat Explorer in Microsoft Defender voor Office 365
 
@@ -45,7 +45,9 @@ In dit artikel wordt uitgelegd hoe u malware- en phishingpogingen kunt bekijken 
 
 Als u malware wilt zien die is gedetecteerd in e-mail die is gesorteerd op Microsoft 365 technologie, gebruikt u de weergave E-mail [> Malware](threat-explorer-views.md#email--malware) van Explorer (of Realtime detecties). Malware is de standaardweergave, dus deze kan worden geselecteerd zodra u Verkenner opent.
 
-1. Kies in & Beveiligingscentrum <https://protection.office.com> () **de** optie Threat Management \> **Explorer** (of **Realtime detecties).** (In dit voorbeeld wordt Verkenner gebruikt.) Als u zich in het geconvergeerde beveiligingscentrum Microsoft 365 ( https://security.microsoft.com/) schuif naar **E-mail & Explorer samenwerking**  >  .
+1. Kies in & Beveiligingscentrum <https://protection.office.com> () **de** optie Threat Management \> **Explorer** (of **Realtime detecties).** (In dit voorbeeld wordt Verkenner gebruikt.)
+
+   Als u zich in de geconvergeerde portal Microsoft 365 Defender () schuift u naar <https://security.microsoft.com> **E-mail**& Explorer voor  >  **samenwerking.**
 
    Vanaf hier begint u bij de weergave, kiest u een bepaald tijdsbestek om het te onderzoeken (indien nodig) en richt u de filters op de [verkenner.](threat-hunting-in-threat-explorer.md#threat-explorer-walk-through)
 

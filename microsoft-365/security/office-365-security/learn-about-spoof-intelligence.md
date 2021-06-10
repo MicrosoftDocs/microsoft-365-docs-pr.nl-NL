@@ -20,12 +20,12 @@ ms.custom:
 description: Beheerders kunnen meer informatie krijgen over het inzicht in spoof intelligence in Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2fc591bbaf2ecc6f59c2b569acde521453887c2a
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: 280743e87ce6039f456cec0b89bff57a31d75691
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822347"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52877822"
 ---
 # <a name="spoof-intelligence-insight-in-eop"></a>Inzicht in spoof intelligence in EOP
 
@@ -53,13 +53,13 @@ Wanneer een afzender een e-mailadres vervalst, lijkt deze een gebruiker te zijn 
   - De afzender staat op een adressenlijst (ook wel een discussielijst genoemd) en de adressenlijst geeft e-mail door van de oorspronkelijke afzender naar alle deelnemers op de adressenlijst.
   - Een extern bedrijf verzendt e-mail namens een ander bedrijf (bijvoorbeeld een geautomatiseerd rapport of een software-as-a-servicebedrijf).
 
-U kunt het inzicht in spoof intelligence **in** het Microsoft 365-beveiligingscentrum gebruiken om snel vervalste afzenders te identificeren die u legitiem niet-genauteerde e-mail verzenden (berichten van domeinen die niet door SPF-, DKIM- of DMARC-controles worden verzonden) en deze afzenders handmatig toestaan.
+U kunt het inzicht in spoof intelligence **in** de Microsoft 365 Defender-portal gebruiken om snel vervalste afzenders te identificeren die u legitiem niet-genauteerde e-mail verzenden (berichten van domeinen die niet door SPF-, DKIM- of DMARC-controles worden verzonden) en deze afzenders handmatig toestaan.
 
 Door bekende afzenders toe te staan vervalste berichten te verzenden vanaf bekende locaties, kunt u fout-positieven verminderen (goede e-mail die als slecht is gemarkeerd). Door de toegestane vervalste afzenders te controleren, biedt u een extra beveiligingslaag om te voorkomen dat onveilige berichten in uw organisatie aankomen.
 
 U kunt ook vervalste afzenders controleren die door spoofinformatie zijn toegestaan en deze afzenders handmatig blokkeren van het inzicht in spoof intelligence.
 
-In de rest van dit artikel wordt uitgelegd hoe u het inzicht in spoof intelligence kunt gebruiken in het beveiligingscentrum en in PowerShell (Exchange Online PowerShell voor Microsoft 365-organisaties met postvakken in Exchange Online; zelfstandige EOP PowerShell voor organisaties zonder Exchange Online-postvakken).
+In de rest van dit artikel wordt uitgelegd hoe u het inzicht in spoof intelligence kunt gebruiken in de Microsoft 365 Defender-portal en in PowerShell (Exchange Online PowerShell voor Microsoft 365-organisaties met postvakken in Exchange Online; zelfstandige EOP PowerShell voor organisaties zonder Exchange Online-postvakken).
 
 > [!NOTE]
 >
@@ -71,7 +71,7 @@ In de rest van dit artikel wordt uitgelegd hoe u het inzicht in spoof intelligen
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent het beveiligingscentrum in <https://security.microsoft.com/>. Als u rechtstreeks naar de **pagina Anti-phishing wilt** gaan, gebruikt u <https://security.microsoft.com/antiphishing> . Als u rechtstreeks naar de **pagina Inzicht in spoofinformatie wilt** gaan, gebruikt u <https://security.microsoft.com/spoofintelligence> .
+- U opent de Microsoft 365 Defender-portal op <https://security.microsoft.com/> . Als u rechtstreeks naar de **pagina Anti-phishing wilt** gaan, gebruikt u <https://security.microsoft.com/antiphishing> . Als u rechtstreeks naar de **pagina Inzicht in spoofinformatie wilt** gaan, gebruikt u <https://security.microsoft.com/spoofintelligence> .
 
 - Zie [Verbinding maken met Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](/powershell/exchange/connect-to-exchange-online-protection-powershell) als je verbinding wilt maken met zelfstandige EOP PowerShell.
 
@@ -90,9 +90,9 @@ In de rest van dit artikel wordt uitgelegd hoe u het inzicht in spoof intelligen
 
 - Zie [EOP anti-phishingbeleidsinstellingen](recommended-settings-for-eop-and-office365-atp.md#eop-anti-phishing-policy-settings)voor onze aanbevolen instellingen voor spoofinformatie.
 
-## <a name="open-the-spoof-intelligence-insight-in-the-security-center"></a>Het inzicht in spoof intelligence openen in het beveiligingscentrum
+## <a name="open-the-spoof-intelligence-insight-in-the-microsoft-365-defender-portal"></a>Het inzicht in spoof intelligence openen in Microsoft 365 Defender-portal
 
-1. Ga in het beveiligingscentrum naar **E-mail & samenwerkingsbeleid** & sectie Beleidsregels voor bedreigingsbeleid \>  \>  \>  \> **Anti-phishing**.
+1. Ga in Microsoft 365 Defender-portal naar **E-mail & Samenwerkingsbeleid** & sectie Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Anti-phishing**.
 
 2. Op de **pagina Anti-phishing** ziet het inzicht in spoof intelligence er zo uit:
 

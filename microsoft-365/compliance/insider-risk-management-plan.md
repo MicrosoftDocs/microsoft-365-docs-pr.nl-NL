@@ -32,7 +32,7 @@ Identificeer de juiste belanghebbenden in uw organisatie om samen te werken voor
 - Privacy
 - Beveiliging
 - Personeelszaken
-- Wettelijk
+- Juridisch
 
 ## <a name="determine-any-regional-compliance-requirements"></a>Eventuele vereisten voor regionale naleving bepalen
 
@@ -64,10 +64,10 @@ Als u geen bestaand Microsoft 365 Enterprise E5-abonnement hebt en insider risk 
 
 **Vereisten voor beleidssjabloon:** Afhankelijk van de beleidssjabloon die u kiest, zijn er vereisten die u moet begrijpen en plannen voordat u insider risk management in uw organisatie configureert:
 
-- Wanneer u de sjabloon **Gegevensdiefstal** door vertrekkende gebruikers gebruikt, moet u een Microsoft 365 HR-connector configureren om regelmatig informatie over afzegging en beëindigingsdatum te importeren voor gebruikers in uw organisatie. Zie het [artikel Gegevens importeren met het HR-connectorartikel](import-hr-data.md) voor stapsgewijs richtlijnen voor het configureren van de Microsoft 365 HR-connector voor uw organisatie.
-- Wanneer u **gegevenslekkensjablonen** gebruikt, moet u ten minste één DLP-beleid (Data Loss Prevention) configureren om gevoelige informatie in uw organisatie te definiëren en insiderrisicowaarschuwingen te ontvangen voor DLP-beleidswaarschuwingen met hoge ernst. Zie het [artikel DLP-beleid maken,](create-test-tune-dlp-policy.md) testen en afstemmen voor stapsgewijs richtlijnen voor het configureren van DLP-beleid voor uw organisatie.
+- Wanneer u de sjabloon **Gegevensdiefstal** door vertrekkende gebruikers gebruikt, moet u een Microsoft 365 HR-connector configureren om regelmatig informatie over afzegging en beëindigingsdatum te importeren voor gebruikers in uw organisatie. Zie het artikel [Gegevens importeren met de HR-connector](import-hr-data.md) voor stapsgewijze richtlijnen voor het configureren van de Microsoft 365 HR-connector voor uw organisatie.
+- Wanneer u **gegevenslekkensjablonen** gebruikt, moet u ten minste één DLP-beleid (Data Loss Prevention) configureren om gevoelige informatie in uw organisatie te definiëren en insiderrisicowaarschuwingen te ontvangen voor DLP-beleidswaarschuwingen met hoge ernst. Zie het artikel [DLP-beleid maken, testen en afstemmen](create-test-tune-dlp-policy.md) voor stapsgewijze instructies voor het configureren van DLP-beleid voor uw organisatie.
 - Wanneer u **sjablonen voor beveiligingsbeleidsovertreding** gebruikt, moet u Microsoft Defender voor Eindpunt inschakelen voor integratie van insiderrisicobeheer in het Defender-beveiligingscentrum om waarschuwingen voor beveiligingsovertreding te importeren. Zie het [artikel Geavanceerde functies configureren in Microsoft Defender](/windows/security/threat-protection/microsoft-defender-atp/advanced-features) voor stapsgewijs richtlijnen voor het inschakelen van Defender voor endpoint-integratie met insiderrisicobeheer.
-- Wanneer u **ontevreden gebruikerssjablonen** gebruikt, moet u een Microsoft 365 HR-connector configureren om regelmatig prestatie- of degradatiestatusgegevens te importeren voor gebruikers in uw organisatie. Zie het [artikel Gegevens importeren met het HR-connectorartikel](import-hr-data.md) voor stapsgewijs richtlijnen voor het configureren van de Microsoft 365 HR-connector voor uw organisatie.
+- Wanneer u **ontevreden gebruikerssjablonen** gebruikt, moet u een Microsoft 365 HR-connector configureren om regelmatig prestatie- of degradatiestatusgegevens te importeren voor gebruikers in uw organisatie. Zie het artikel [Gegevens importeren met de HR-connector](import-hr-data.md) voor stapsgewijze richtlijnen voor het configureren van de Microsoft 365 HR-connector voor uw organisatie.
 
 ## <a name="test-with-a-small-group-of-users-in-a-production-environment"></a>Testen met een kleine groep gebruikers in een productieomgeving
 

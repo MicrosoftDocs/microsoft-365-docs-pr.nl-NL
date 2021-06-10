@@ -74,7 +74,7 @@ Nu u een nieuw abonnement Microsoft 365 voor bedrijven, kunt u licenties toewijz
 4. Zoek in **het deelvenster** Bestaande producten vervangen de Microsoft 365 voor bedrijven die u hebt gekocht en schakel de wisselknop over naar **Aan.**
 5. Selecteer **Vervangen** en selecteer **vervolgens Sluiten.**
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Welkom bij Microsoft Teams gratis](https://support.microsoft.com/office/6d79a648-6913-4696-9237-ed13de64ae3c) (artikel)\
 [Upgrade Microsoft Teams gratis naar abonnementsversie](/microsoftteams/upgrade-freemium) (artikel)\

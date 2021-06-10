@@ -88,6 +88,6 @@ Niet alle query's worden gelijk gemaakt. In de volgende tabel worden voorbeelden
    
 ## <a name="for-more-information"></a>Voor meer informatie
 
-- [Definities van entiteiten van het type Gevoelige informatie](sensitive-information-type-entity-definitions.md)
+- [Entiteitsdefinities voor het type gevoelige informatie](sensitive-information-type-entity-definitions.md)
 - [Een inhoudszoekactie uitvoeren](content-search.md)
 - [Trefwoordquery's en zoekvoorwaarden voor Zoeken naar inhoud](keyword-queries-and-search-conditions.md)

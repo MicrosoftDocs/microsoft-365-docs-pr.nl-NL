@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: e3b445b2f9612f0113f353450ca7bf0b8a1a2bb2
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: b50fe4672dd4cd721464c7414297efcc4a4921b7
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730856"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861501"
 ---
 # <a name="update-incidents-api"></a>Api voor incidenten bijwerken
 
@@ -69,7 +69,7 @@ PATCH /api/incidents/{id}
 
 ## <a name="request-headers"></a>Kopteksten aanvragen
 
-Naam | Type | Beschrijving
+Naam | Type | Omschrijving
 -|-|-
 Autorisatie | Tekenreeks | Bearer {token}. **Vereist**.
 Inhoudstype | Tekenreeks | toepassing/json. **Vereist**.
@@ -78,7 +78,7 @@ Inhoudstype | Tekenreeks | toepassing/json. **Vereist**.
 
 In de aanvraagt u de waarden voor de velden die moeten worden bijgewerkt. Bestaande eigenschappen die niet in de aanvraag worden opgenomen, behouden hun waarden, tenzij ze opnieuw moeten worden berekend vanwege wijzigingen in gerelateerde waarden. Voor de beste prestaties moet u bestaande waarden weglaten die niet zijn gewijzigd.
 
-Eigenschap | Type | Beschrijving
+Eigenschap | Type | Omschrijving
 -|-|-
 status | Enum | Hiermee geeft u de huidige status van het incident op. Mogelijke waarden zijn: ```Active``` ```Resolved``` , en ```Redirected``` .
 toegewezenTo | tekenreeks | Eigenaar van het incident.

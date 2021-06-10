@@ -33,7 +33,7 @@ ms.locfileid: "51398251"
 ---
 # <a name="protect-unmanaged-windows-10-pcs-and-macs"></a>Niet-beheerde Windows 10 pc's en Macs beveiligen
 
-U kunt Windows 10-pc's en Macs beheren door ze in te schrijven in Microsoft Intune, zodat u ervoor kunt zorgen dat ze gezond en veilig zijn voordat u toegang krijgt tot gegevens in uw omgeving. Veel campagnes en kleine bedrijven bevatten echter medewerkers die hun eigen apparaten (BYOD) meenemen, die niet door de organisatie worden beheerd. Voor deze niet-bemande pc's en Macs gebruikt u dit artikel om ervoor te zorgen dat minimale beveiligingsmogelijkheden zijn geconfigureerd.
+U kunt Windows 10 pc's en Macs beheren door ze in te schrijven in Microsoft Intune, zodat u ervoor kunt zorgen dat ze gezond en veilig zijn voordat u toegang krijgt tot gegevens in uw omgeving. Veel campagnes en kleine bedrijven bevatten echter medewerkers die hun eigen apparaten (BYOD) meenemen, die niet door de organisatie worden beheerd. Voor deze niet-bemande pc's en Macs gebruikt u dit artikel om ervoor te zorgen dat minimale beveiligingsmogelijkheden zijn geconfigureerd.
 
 <!--A Windows 10 PC is considered managed after you have completed the following two steps:
 
@@ -42,29 +42,29 @@ U kunt Windows 10-pc's en Macs beheren door ze in te schrijven in Microsoft Intu
 2. You have [connected your computer to Azure Active Directory](../business/set-up-windows-devices.md) and use your Microsoft 365 username and password to sign in.
 3. --> 
 
-## <a name="protect-a-computer-running-windows-10-or-a-mac"></a>Een computer met Windows 10 of een Mac beveiligen
+## <a name="protect-a-computer-running-windows-10-or-a-mac"></a>Een computer met een mac Windows 10 of een Mac beveiligen
 
 <!--If you have a PC that is running Windows 10 that is not connected to Microsoft 365, or a Mac, the Microsoft 365 protections do not apply to it, but here are some things you can do to keep your data secure on these devices as well:
 -->
-Als uw Windows 10-pc of Mac niet wordt beheerd door uw organisatie, moet u deze beveiligingsmogelijkheden configureren.
+Als uw Windows 10 pc of Mac niet wordt beheerd door uw organisatie, moet u deze beveiligingsmogelijkheden configureren.
 
 ## <a name="windows-10"></a>[Windows 10](#tab/Windows10)
 
 **Apparaatversleuteling in- en uit-**<p>
 
-Apparaatversleuteling is beschikbaar op een groot aantal Windows-apparaten en helpt uw gegevens te beschermen door deze te versleutelen. Als u apparaatversleuteling in bedrijf neemt, hebben alleen geautoriseerde personen toegang tot uw apparaat en gegevens. Zie [Apparaatversleuteling in- en](https://support.microsoft.com/help/4028713/windows-10-turn-on-device-encryption) uit te zetten voor instructies.
+Apparaatversleuteling is beschikbaar op een groot aantal Windows apparaten en helpt uw gegevens te beschermen door deze te versleutelen. Als u apparaatversleuteling in bedrijf neemt, hebben alleen geautoriseerde personen toegang tot uw apparaat en gegevens. Zie [Apparaatversleuteling in- en](https://support.microsoft.com/help/4028713/windows-10-turn-on-device-encryption) uit te zetten voor instructies.
 
- Als apparaatversleuteling niet beschikbaar is op uw apparaat, kunt u in plaats daarvan standaard [BitLocker-versleuteling in.](https://support.microsoft.com/help/4028713/windows-10-turn-on-device-encryption) (BitLocker is niet beschikbaar in windows 10 Home edition.) 
+ Als apparaatversleuteling niet beschikbaar is op uw apparaat, kunt u in plaats daarvan standaardversleuteling [BitLocker in.](https://support.microsoft.com/help/4028713/windows-10-turn-on-device-encryption) (BitLocker is niet beschikbaar op Windows 10 Home editie.) 
 
 **Uw apparaat beveiligen met Windows-beveiliging**<p>
-Als u Windows 10 hebt, krijgt u de nieuwste antivirusbeveiliging met Windows Security. Wanneer u Windows 10 voor de eerste keer start, is Windows Security actief om uw pc te beschermen door te scannen op malware (schadelijke software), virussen en beveiligingsrisico's. Windows Security gebruikt realtime beveiliging om alles te scannen wat u downloadt of op uw pc uit te voeren.
+Als u Windows 10 hebt, krijgt u de nieuwste antivirusbeveiliging met Windows-beveiliging. Wanneer u de Windows 10 voor het eerst start, is Windows-beveiliging actief bezig met het beschermen van uw pc door te scannen op malware (schadelijke software), virussen en beveiligingsrisico's. Windows-beveiliging realtime beveiliging gebruikt om alles wat u downloadt of op uw pc uit te voeren, te scannen.
 
-Windows Update downloadt automatisch updates voor Windows Security om uw pc te beschermen tegen bedreigingen.
+Windows Updates voor downloads voor Windows-beveiliging automatisch bijwerken om uw pc veilig te houden en te beschermen tegen bedreigingen.
 
-Als u een eerdere versie van Windows hebt en Microsoft Security Essentials gebruikt, is het een goed idee om naar Windows Security te gaan. Zie Mijn apparaat beschermen met [Windows-beveiliging voor meer informatie.](https://support.microsoft.com/help/17464/windows-10-help-protect-my-device-with-windows-security)
+Als u een eerdere versie van Windows en Microsoft Security Essentials gebruikt, is het een goed idee om naar een andere Windows-beveiliging. Zie Voor meer informatie help [mijn apparaat te beveiligen met Windows-beveiliging.](https://support.microsoft.com/help/17464/windows-10-help-protect-my-device-with-windows-security)
 
-**Windows Firewall in-**<p>
-U moet Altijd Windows Firewall uitvoeren, zelfs als u een andere firewall hebt ingeschakeld. Als u Windows Firewall uitstijt, worden uw apparaat (en uw netwerk, als u er een hebt) kwetsbaarder voor onbevoegde toegang. Zie [Windows Firewall in- of uitschakelen voor](https://support.microsoft.com/help/4028544/windows-10-turn-windows-defender-firewall-on-or-off) instructies.
+**De firewall Windows in-**<p>
+U moet altijd Windows Firewall uitvoeren, zelfs als u een andere firewall hebt ingeschakeld. Als u Windows firewall uitschakelen, is uw apparaat (en uw netwerk, als u er een hebt) kwetsbaarder voor onbevoegde toegang. Zie [Firewall Windows in- of uitschakelen voor](https://support.microsoft.com/help/4028544/windows-10-turn-windows-defender-firewall-on-or-off) instructies.
 
 ## <a name="mac"></a>[Mac](#tab/Mac)
 

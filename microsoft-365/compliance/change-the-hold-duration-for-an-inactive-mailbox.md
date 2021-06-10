@@ -42,7 +42,7 @@ Een inactief postvak wordt gebruikt om de e-mail van een voormalige werknemer te
     
   - [Verbinding maken powershell Exchange Online gebruiken](/powershell/exchange/connect-to-exchange-online-powershell)
     
-  - [Verbinding maken beveiligingscentrum & PowerShell](/powershell/exchange/connect-to-scc-powershell)
+  - [Verbinding maken met Beveiligings- en compliancecentrum van Powershell](/powershell/exchange/connect-to-scc-powershell)
     
 - Aan eDiscovery-zaken gekoppelde wacht houdt oneindig vast, wat betekent dat er geen duur van de wacht kan worden gewijzigd. Items worden voor altijd of totdat de wacht wordt verwijderd en het inactieve postvak wordt verwijderd.
     

@@ -55,7 +55,7 @@ Insider risk management is gecentreerd rond de volgende principes:
 
 ## <a name="identifying-potential-risks-with-analytics-preview"></a>Potentiële risico's identificeren met analyse (voorbeeld)
 
-Met insider risk analytics kunt u een evaluatie uitvoeren van potentiële insiderrisico's in uw organisatie zonder dat u beleidsregels voor insiderrisico's configureert. Deze evaluatie kan uw organisatie helpen bij het identificeren van mogelijke gebieden met een hoger gebruikersrisico en het bepalen van het type en het bereik van beleidsregels voor insiderrisicobeheer dat u mogelijk wilt configureren. Deze evaluatie kan u ook helpen bij het bepalen van de behoeften voor aanvullende licenties of toekomstige optimalisatie van bestaande beleidsregels voor insiderrisico's.
+Met risicoanalyses voor insiders kunt u een evaluatie uitvoeren van potentiële interne risico's in uw organisatie zonder dat u een intern risicobeleid configureert. Aan de hand van deze evaluatie kan uw organisatie potentiële gebieden met een hoger gebruikersrisico identificeren en bepalen welk type en bereik van het beleid voor intern risicobeheer u wilt configureren. Deze evaluatie kan u ook helpen bij het bepalen van de behoeften voor aanvullende licenties of toekomstige optimalisatie van bestaande beleidsregels voor insiderrisico's.
 
 Zie Insider-instellingen voor risicobeheer voor meer informatie over [insiderrisicoanalyses: Analytics.](insider-risk-management-settings.md#analytics-preview)
 
@@ -76,13 +76,13 @@ U kunt kiezen uit de volgende beleidssjablonen om snel aan de slag te gaan met i
 - [Gegevensdiefstal door vertrekkende gebruikers](insider-risk-management-policies.md#data-theft-by-departing-users)
 - [Algemene gegevenslekken](insider-risk-management-policies.md#general-data-leaks)
 - [Gegevenslekken door prioriteitsgebruikers (voorbeeld)](insider-risk-management-policies.md#data-leaks-by-priority-users-preview)
-- [Gegevenslekken door ontevreden gebruikers (preview)](insider-risk-management-policies.md#data-leaks-by-disgruntled-users-preview)
-- [Schendingen van het algemene beveiligingsbeleid (voorbeeld)](insider-risk-management-policies.md#general-security-policy-violations-preview)
-- [Schendingen van het beveiligingsbeleid door vertrekkende gebruikers (voorbeeld)](insider-risk-management-policies.md#security-policy-violations-by-departing-users-preview)
-- [Schendingen van beveiligingsbeleid door prioriteitsgebruikers (voorbeeld)](insider-risk-management-policies.md#security-policy-violations-by-priority-users-preview)
+- [Gegevenslekken door ontevreden gebruikers (voorbeeld)](insider-risk-management-policies.md#data-leaks-by-disgruntled-users-preview)
+- [Algemene schendingen van het beveiligingsbeleid (voorbeeld)](insider-risk-management-policies.md#general-security-policy-violations-preview)
+- [Schendingen van beveiligingsbeleid door vertrekkende werknemers (voorbeeld)](insider-risk-management-policies.md#security-policy-violations-by-departing-users-preview)
+- [Schendingen van het beveiligingsbeleid door prioriteitsgebruikers (voorbeeld)](insider-risk-management-policies.md#security-policy-violations-by-priority-users-preview)
 - [Schendingen van beveiligingsbeleid door ontevreden gebruikers (voorbeeld)](insider-risk-management-policies.md#security-policy-violations-by-disgruntled-users-preview)
 
-![Dashboard voor insiderrisicobeheerbeleid](../media/insider-risk-policy-dashboard.png)
+![Dashboard voor beleid voor intern risicobeheer](../media/insider-risk-policy-dashboard.png)
 
 ### <a name="alerts"></a>Waarschuwingen
 
@@ -144,29 +144,29 @@ In de meeste gevallen doen gebruikers hun best om gevoelige of vertrouwelijke in
 
 - [Algemene gegevenslekken](insider-risk-management-policies.md#general-data-leaks)
 - [Gegevenslekken door prioriteitsgebruikers (voorbeeld)](insider-risk-management-policies.md#data-leaks-by-priority-users-preview)
-- [Gegevenslekken door ontevreden gebruikers (preview)](insider-risk-management-policies.md#data-leaks-by-disgruntled-users-preview)
+- [Gegevenslekken door ontevreden gebruikers (voorbeeld)](insider-risk-management-policies.md#data-leaks-by-disgruntled-users-preview)
 
 ## <a name="intentional-or-unintentional-security-policy-violations-preview"></a>Opzettelijke of onbedoelde schendingen van het beveiligingsbeleid (voorbeeld)
 
 Gebruikers hebben meestal een grote mate van controle bij het beheren van hun apparaten op de moderne werkplek. Dit besturingselement kan machtigingen bevatten voor het installeren of verwijderen van toepassingen die nodig zijn voor de uitvoering van hun taken of de mogelijkheid om beveiligingsfuncties van apparaten tijdelijk uit te schakelen. Of deze activiteit per ongeluk, per ongeluk of schadelijk is, dit gedrag kan risico's opleveren voor uw organisatie en is belangrijk om te identificeren en te handelen om dit te minimaliseren. Om deze risicovolle beveiligingsactiviteiten identiteit te geven, worden in de volgende sjablonen voor beveiligingsbeleidsovertredingen van insiders beveiligingsrisico's beoordeeld en worden Microsoft Defender voor eindpuntwaarschuwingen gebruikt om inzichten te geven voor beveiligingsgerelateerde activiteiten:
 
-- [Schendingen van het algemene beveiligingsbeleid (voorbeeld)](insider-risk-management-policies.md#general-security-policy-violations-preview)
-- [Schendingen van het beveiligingsbeleid door vertrekkende gebruikers (voorbeeld)](insider-risk-management-policies.md#security-policy-violations-by-departing-users-preview)
-- [Schendingen van beveiligingsbeleid door prioriteitsgebruikers (voorbeeld)](insider-risk-management-policies.md#security-policy-violations-by-priority-users-preview)
+- [Algemene schendingen van het beveiligingsbeleid (voorbeeld)](insider-risk-management-policies.md#general-security-policy-violations-preview)
+- [Schendingen van beveiligingsbeleid door vertrekkende werknemers (voorbeeld)](insider-risk-management-policies.md#security-policy-violations-by-departing-users-preview)
+- [Schendingen van het beveiligingsbeleid door prioriteitsgebruikers (voorbeeld)](insider-risk-management-policies.md#security-policy-violations-by-priority-users-preview)
 - [Schendingen van beveiligingsbeleid door ontevreden gebruikers (voorbeeld)](insider-risk-management-policies.md#security-policy-violations-by-disgruntled-users-preview)
 
 ## <a name="policies-for-users-based-on-position-access-level-or-risk-history-preview"></a>Beleid voor gebruikers op basis van positie, toegangsniveau of risicogeschiedenis (voorbeeld)
 
 Gebruikers in uw organisatie kunnen verschillende risiconiveaus hebben, afhankelijk van hun positie, toegangsniveau tot gevoelige informatie of risicogeschiedenis. Deze structuur kan bestaan uit leden van het leidinggevend leiderschapsteam van uw organisatie, IT-beheerders met uitgebreide bevoegdheden voor gegevens- en netwerktoegang, of gebruikers met een verleden van riskante activiteiten. In deze omstandigheden zijn een nauwere controle en een agressievere risicoscore belangrijk om waarschuwingen voor onderzoek en snelle actie aan de oppervlakte te brengen. Als u risicovolle activiteiten voor deze typen gebruikers wilt identificeren, kunt u gebruikersgroepen met prioriteit maken en beleid maken op basis van de volgende beleidssjablonen:
 
-- [Schendingen van beveiligingsbeleid door prioriteitsgebruikers (voorbeeld)](insider-risk-management-policies.md#security-policy-violations-by-priority-users-preview)
+- [Schendingen van het beveiligingsbeleid door prioriteitsgebruikers (voorbeeld)](insider-risk-management-policies.md#security-policy-violations-by-priority-users-preview)
 - [Gegevenslekken door prioriteitsgebruikers (voorbeeld)](insider-risk-management-policies.md#data-leaks-by-priority-users-preview)
 
 ## <a name="actions-and-behaviors-by-disgruntled-users-preview"></a>Acties en gedragingen van ontevreden gebruikers (voorbeeld)
 
 Arbeidsvoorwaarden benadrukken dat gebeurtenissen invloed kunnen hebben op het gedrag van gebruikers op verschillende manieren die betrekking hebben op insiderrisico's. Deze stressoren kunnen een slechte prestatiebeoordeling zijn, een positiedegradatie of de gebruiker die in een prestatiebeoordelingsplan wordt geplaatst. Hoewel de meeste gebruikers niet kwaadwillig reageren op deze gebeurtenissen, kan de stress van deze acties ertoe leiden dat sommige gebruikers acties uitvoeren die ze normaal gesproken niet overwegen in normale omstandigheden. Om deze typen risicovolle activiteiten te identiteiten te helpen, worden in de volgende beleidssjablonen voor insiderrisicobeheer de Microsoft 365 HR-connector gebruikt en worden risicoindicatoren voor gedragingen in de buurt van stress of gebeurtenissen in de buurt van werknemers beoordeeld:
 
-- [Gegevenslekken door ontevreden gebruikers (preview)](insider-risk-management-policies.md#data-leaks-by-disgruntled-users-preview)
+- [Gegevenslekken door ontevreden gebruikers (voorbeeld)](insider-risk-management-policies.md#data-leaks-by-disgruntled-users-preview)
 - [Schendingen van beveiligingsbeleid door ontevreden gebruikers (voorbeeld)](insider-risk-management-policies.md#security-policy-violations-by-disgruntled-users-preview)
 
 ## <a name="ready-to-get-started"></a>Klaar om aan de slag te gaan?

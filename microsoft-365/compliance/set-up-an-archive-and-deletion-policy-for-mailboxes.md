@@ -1,5 +1,5 @@
 ---
-title: Een archief- en verwijderingsbeleid instellen voor postvakken in uw organisatie
+title: Een archief en een verwijderingsbeleid instellen voor postvakken in uw organisatie
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -28,7 +28,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "52161975"
 ---
-# <a name="set-up-an-archive-and-deletion-policy-for-mailboxes-in-your-organization"></a>Een archief- en verwijderingsbeleid instellen voor postvakken in uw organisatie
+# <a name="set-up-an-archive-and-deletion-policy-for-mailboxes-in-your-organization"></a>Een archief en een verwijderingsbeleid instellen voor postvakken in uw organisatie
 
 In Microsoft 365 kunnen beheerders een archiverings- en verwijderingsbeleid maken dat automatisch items naar het archiefpostvak van een gebruiker verplaatst en automatisch items uit het postvak verwijdert. De beheerder doet dit door een bewaarbeleid te maken dat is toegewezen aan postvakken en items na een bepaalde periode naar het archiefpostvak van een gebruiker te verplaatsten en items ook uit het postvak te verwijderen nadat ze een bepaalde leeftijdslimiet hebben bereikt. De werkelijke regels die bepalen welke items worden verplaatst of verwijderd en wanneer dat gebeurt, worden bewaarlabels genoemd. Bewaarlabels zijn gekoppeld aan een bewaarbeleid, dat op zijn beurt is toegewezen aan het postvak van een gebruiker. Met een bewaarlabel worden bewaarinstellingen toegepast op afzonderlijke berichten en mappen in het postvak van een gebruiker. Hiermee wordt bepaald hoelang een bericht in het postvak blijft staan en welke actie er wordt ondernomen wanneer het bericht de opgegeven bewaarleeftijd bereikt. Wanneer een bericht de bewaarleeftijd bereikt, wordt het verplaatst naar het archiefpostvak van de gebruiker of wordt het verwijderd.
   

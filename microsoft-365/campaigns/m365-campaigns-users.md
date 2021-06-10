@@ -42,8 +42,8 @@ De beveiligingsaanbevelingen voor Microsoft 365 in deze oplossing maken het voor
 Alle gebruikers moeten op de hoogte zijn van deze e-mailpraktijken en deze gebruiken om hun e-mail veilig te houden:
 
 - Stel e-mail in om meervoudige verificatie te gebruiken met de authenticator-app.
-- Controleer legitieme e-mailberichten en zoek naar veiligheidstips van Advanced Phishing in Defender voor Office 365 Protection.
-- Open alleen veilige koppelingen en bijlagen, zoals geverifieerd door Veilige koppelingen en Veilige bijlagen.
+- Controleer legitieme e-mailberichten en zoek naar veiligheidstips van Advanced Phishing in Defender Office 365 Protection.
+- Open alleen veilige koppelingen en bijlagen, zoals geverifieerd door Safe Koppelingen en Safe bijlagen.
 
 Meer informatie over [meervoudige verificatie en](m365-campaigns-multifactor-authenication.md) [phishing en andere aanvallen.](m365-campaigns-phishing-and-attacks.md)
 
@@ -59,27 +59,27 @@ Alle gebruikers die u aan uw omgeving toevoegt, moeten enkele minuten de tijd ne
 
 Na het instellen van deze instellingen worden uw gebruikers gevraagd de authenticator-app te gebruiken wanneer ze toegang hebben tot uw organisatiegegevens op deze apparaten, inclusief e-mail.
 
-## <a name="keep-byod-macs-and-windows-10-pcs-fresh"></a>BYOD Macs en Windows 10-pc's fris houden
+## <a name="keep-byod-macs-and-windows-10-pcs-fresh"></a>BYOD Macs en Windows 10 pc's fris houden
 
 Het is ook belangrijk dat gebruikers hun primaire werkapparaat up-to-date houden:
 
-- Installeer de nieuwste versies van Office-bureaublad-apps en houd deze bijgewerkt wanneer u daarom wordt gevraagd.
-- Blijf op de hoogte van updates van het besturingssysteem, zoals Windows-updates.
+- Installeer de nieuwste versies van Office desktop-apps en houd deze bijgewerkt wanneer u daarom wordt gevraagd.
+- Blijf op de hoogte van updates van het besturingssysteem, zoals Windows updates.
 
-Voor [niet-bemande Windows 10- en Mac-apparaten](m365-campaigns-protect-pcs-macs.md)hebben gebruikers de verantwoordelijkheid ervoor te zorgen dat basisbeveiligingsfuncties zijn ingeschakeld.
+Voor [niet-Windows 10 en Mac-apparaten](m365-campaigns-protect-pcs-macs.md)hebben gebruikers de verantwoordelijkheid ervoor te zorgen dat basisbeveiligingsfuncties zijn ingeschakeld.
 
-**Basisbeveiligingsmogelijkheden inschakelen op BYOD Windows 10- en Mac-apparaten**
+**Basisbeveiligingsfuncties inschakelen op BYOD-Windows 10 Mac-apparaten**
 
 | |**Windows 10**|**Mac**|
 |:-----|:-----|:------|
-|Beveiligingsmogelijkheden|BitLocker-apparaatbeveiliging in-<p><p> Ervoor zorgen dat Windows Defender blijft staan <p>Windows Firewall in-| FileVault gebruiken om de Mac-schijf te versleutelen <p><p>Een betrouwbare antivirussoftware gebruiken <p>Firewallbeveiliging in- en uit-|
+|Beveiligingsmogelijkheden|Apparaatbeveiliging BitLocker in-<p><p> Controleer of Windows Defender blijft staan <p>De firewall Windows in-| FileVault gebruiken om de Mac-schijf te versleutelen <p><p>Een betrouwbare antivirussoftware gebruiken <p>Firewallbeveiliging in- en uit-|
 
 Zie Uw account en apparaten beschermen tegen hackers en malware voor meer [informatie over deze aanbevelingen.](https://support.office.com/article/Protect-your-account-and-devices-from-hackers-and-malware-066d6216-a56b-4f90-9af3-b3a1e9a327d6#ID0EAABAAA=Windows_10)
 
 ## <a name="collaborate-using-microsoft-teams-onedrive-sharepoint-online-and-other-tools"></a>Samenwerken met Microsoft Teams, OneDrive, SharePoint Online en andere hulpprogramma's
 
-Uw gebruikers kunnen in de verleiding komen om uw organisatiebestanden te delen en op te slaan op andere locaties dan Microsoft 365. Microsoft 365 maakt het zo eenvoudig mogelijk om veilig samen te werken en te delen. U kunt [bestanden en video's](share-files-and-videos.md) rechtstreeks vanuit Microsoft Teams, OneDrive, Stream en zelfs vanuit een bestand delen. Delen vanuit deze hulpprogramma's helpt voorkomen dat uw gegevens lekken. U kunt extra beveiliging toevoegen aan gevoelige gegevens om delen buiten uw organisatie te voorkomen.
+Uw gebruikers zijn mogelijk geneigd om uw organisatiebestanden te delen en op te slaan op andere plaatsen dan Microsoft 365. Microsoft 365 maakt het zo eenvoudig mogelijk om veilig samen te werken en te delen. U kunt [bestanden en video's](share-files-and-videos.md) rechtstreeks vanuit Microsoft Teams, OneDrive, Stream en zelfs vanuit een bestand delen. Delen vanuit deze hulpprogramma's helpt voorkomen dat uw gegevens lekken. U kunt extra beveiliging toevoegen aan gevoelige gegevens om delen buiten uw organisatie te voorkomen.
 
-## <a name="set-up-managed-windows-10-devices"></a>Beheerde Windows 10-apparaten instellen
+## <a name="set-up-managed-windows-10-devices"></a>Beheerde Windows 10 instellen
 
-Het is raadzaam dat uw belangrijkste personeelsleden nieuwe Windows 10-apparaten gebruiken die u beheert. We laten u zien hoe u deze apparaten kunt beheren [en beveiligen.](../business/set-up-windows-devices.md?toc=/microsoft-365/campaigns/toc.json) Dit zorgt ervoor dat personeelsleden die het hoogste doel voor hackers zijn, de meeste bescherming krijgen.
+Het is raadzaam dat uw belangrijkste personeelsleden nieuwe apparaten Windows 10 die u beheert. We laten u zien hoe u deze apparaten kunt beheren [en beveiligen.](../business/set-up-windows-devices.md?toc=/microsoft-365/campaigns/toc.json) Dit zorgt ervoor dat personeelsleden die het hoogste doel voor hackers zijn, de meeste bescherming krijgen.
