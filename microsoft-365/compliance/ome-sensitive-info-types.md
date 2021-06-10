@@ -35,7 +35,7 @@ Meld u aan bij het Exchange-beheercentrum (EAC) en ga naar **E-mailstroomregels.
 
 ### <a name="to-create-the-policy-by-using-mail-flow-rules-in-powershell"></a>Het beleid maken met behulp van e-mailstroomregels in PowerShell
 
-Gebruik een werk- of schoolaccount met globale beheerdersmachtigingen in uw organisatie, start een Windows PowerShell en maak verbinding met Exchange Online. Zie Verbinding maken [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell)voor instructies. Gebruik de Set-IRMConfiguration en New-TransportRule cmdlets om het beleid te maken.
+Gebruik een werk- of schoolaccount met globale beheerdersmachtigingen in uw organisatie, start een Windows PowerShell en maak verbinding met Exchange Online. Zie [Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) (Verbinding maken met Exchange Online PowerShell) voor instructies. Gebruik de Set-IRMConfiguration en New-TransportRule cmdlets om het beleid te maken.
 
 ## <a name="example-mail-flow-rule-created-with-powershell"></a>Voorbeeld van een e-mailstroomregel die is gemaakt met PowerShell
 

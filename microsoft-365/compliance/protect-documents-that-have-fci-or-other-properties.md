@@ -142,7 +142,7 @@ Als u inhoud met die eigenschap overal wilt detecteren, kunt u handmatig vragen 
 > [!CAUTION]
 > Als u een site opnieuw indexeert, kan dit leiden tot een enorme belasting van het zoeksysteem. Pas opnieuw indexeren als uw scenario dit absoluut vereist.
 
-Zie Handmatig aanvragen voor het crawlen en opnieuw indexeren van een [site, bibliotheek of lijst](/sharepoint/crawl-site-content)voor meer informatie.
+Zie voor meer informatie [Het verkennen en opnieuw indexeren van een site, bibliotheek of lijst handmatig aanvragen](/sharepoint/crawl-site-content).
 
 ### <a name="reindex-a-site-optional"></a>Een site opnieuw indexeren (optioneel)
 
@@ -160,4 +160,4 @@ Zie Handmatig aanvragen voor het crawlen en opnieuw indexeren van een [site, bib
 
 - [Wat zijn de DLP-beleidssjablonen?](what-the-dlp-policy-templates-include.md)
 
-- [Definities van entiteiten van het type Gevoelige informatie](sensitive-information-type-entity-definitions.md)
+- [Definities van entiteiten van het type vertrouwelijke gegevens](sensitive-information-type-entity-definitions.md)

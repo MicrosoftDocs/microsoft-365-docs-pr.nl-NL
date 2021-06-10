@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Leer hoe u de wizard voor het schema voor exacte gegevensovereenkomst en het type gevoelige informatie gebruikt.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d9d6f870239b963ee7483b9f08e93e40b10f4f0b
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 5fdf289c403d8c09342a1eac1434c4219bb7b13c
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878002"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861657"
 ---
 # <a name="use-the-exact-data-match-schema-and-sensitive-information-type-wizard"></a>De wizard voor het schema voor exacte gegevensovereenkomst en het type gevoelige informatie gebruiken
 
@@ -42,7 +42,7 @@ stappen in [Deel 1: EDM-gebaseerde classificatie instellen](create-custom-sensit
 
 1. Maak uzelf bekend met de stappen voor het maken van een aangepast type gevoelige informatie met EDM [werkstroom in een oogopslag](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md#the-work-flow-at-a-glance).
 
-2. Voer de stappen uit in [Gevoelige gegevens opslaan in .csv of .tsv-indeling.](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md#save-sensitive-data-in-csv-or-tsv-format)
+2. Voer de stappen uit in de sectie [Gevoelige gegevens opslaan in CSV-indeling](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md#save-sensitive-data-in-csv-format).
 
 ## <a name="use-the-exact-data-match-schema-and-sensitive-information-type-pattern-wizard"></a>De wizard voor het schema voor exacte gegevensovereenkomst en het patroon voor het type gevoelige informatie gebruiken
 

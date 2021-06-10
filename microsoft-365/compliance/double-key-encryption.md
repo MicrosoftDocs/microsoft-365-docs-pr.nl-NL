@@ -250,7 +250,7 @@ Zoek de `JwtAudience` . Vervang `<yourhostname>` deze door de hostnaam van de co
   > [!IMPORTANT]
   > De waarde voor `JwtAudience` moet exact overeenkomen met de naam van uw host. U kunt **localhost:5001 gebruiken** tijdens debuggen. Als u echter klaar bent met debuggen, moet u deze waarde bijwerken naar de hostnaam van de server.
 
-- `TestKeys:Name`. Voer een naam voor uw sleutel in. Bijvoorbeeld: `TestKey1`
+- `TestKeys:Name`. Voer een naam voor uw sleutel in. Bijvoorbeeld:`TestKey1`
 - `TestKeys:Id`. Maak een GUID en voer deze in als de `TestKeys:ID` waarde. Bijvoorbeeld `DCE1CC21-FF9B-4424-8FF4-9914BD19A1BE`. U kunt een site zoals [Online GUID Generator](https://guidgenerator.com/) gebruiken om willekeurig een GUID te genereren.
 
 In deze afbeelding ziet u de juiste indeling voor tenant- en toetseninstellingen in **appsettings.jsop**. `LDAPPath` is geconfigureerd voor rolautorisatie.
@@ -399,7 +399,7 @@ Als u het sleutelopslagopslag wilt publiceren, maakt u een Azure App Service-exe
 
 1. Ga naar `https://<WebAppInstanceName>.scm.azurewebsites.net/ZipDeployUI`.
 
-   Bijvoorbeeld: https://dkeservice.scm.azurewebsites.net/ZipDeployUI
+   Bijvoorbeeld:https://dkeservice.scm.azurewebsites.net/ZipDeployUI
 
 2. Ga in de codebase voor de sleutelwinkel naar de map **customer-key-store\src\customer-key-store** en controleer of deze map het **bestand customerkeystore.csproj** bevat.
 
@@ -407,11 +407,11 @@ Als u het sleutelopslagopslag wilt publiceren, maakt u een Azure App Service-exe
 
    In het uitvoervenster wordt de adreslijst weergegeven waar de publicatie is geïmplementeerd.
 
-   Bijvoorbeeld: `customer-key-store\src\customer-key-store\bin\Debug\netcoreapp3.1\publish\`
+   Bijvoorbeeld:`customer-key-store\src\customer-key-store\bin\Debug\netcoreapp3.1\publish\`
 
 4. Verzend alle bestanden in de adreslijst publiceren naar een .zip bestand. Wanneer u het .zip bestand maakt, moet u ervoor zorgen dat alle bestanden in de adreslijst zich op het hoofdniveau van het .zip bestand.
 
-5. Sleep en zet het .zip bestand dat u maakt naar de ZipDeployUI-site die u hierboven hebt geopend. Bijvoorbeeld: https://dkeservice.scm.azurewebsites.net/ZipDeployUI
+5. Sleep en zet het .zip bestand dat u maakt naar de ZipDeployUI-site die u hierboven hebt geopend. Bijvoorbeeld:https://dkeservice.scm.azurewebsites.net/ZipDeployUI
 
 DKE wordt geïmplementeerd en u kunt naar de testtoetsen bladeren die u hebt gemaakt. Ga verder [met Uw implementatie valideren](#validate-your-deployment) hieronder.
 
@@ -435,7 +435,7 @@ DKE wordt geïmplementeerd en u kunt naar de testtoetsen bladeren die u hebt gem
 
    De uitvoer bevat de adreslijst waar de publicatie is geïmplementeerd.
 
-   Bijvoorbeeld: `customer-key-store\src\customer-key-store\bin\Debug\netcoreapp3.1\publish\`
+   Bijvoorbeeld:`customer-key-store\src\customer-key-store\bin\Debug\netcoreapp3.1\publish\`
 
 6. Verzend alle bestanden in de adreslijst publiceren naar een zip-bestand. Wanneer u het .zip bestand maakt, moet u ervoor zorgen dat alle bestanden in de adreslijst zich op het hoofdniveau van het .zip bestand.
 
@@ -492,7 +492,7 @@ De DKE-service registreren:
 
 8. Voer **onder Omleidings-URL's** de URI in van uw dubbele-sleutelversleutelingsservice. Voer de URL van de App-service in, inclusief zowel de hostnaam als het domein.
 
-   Bijvoorbeeld: https://mydkeservicetest.com
+   Bijvoorbeeld:https://mydkeservicetest.com
 
    - De URL die u typt, moet overeenkomen met de hostnaam waar uw DKE-service is geïmplementeerd.
    - Als u lokaal test met Visual Studio, gebruikt u **https://localhost:5001** .

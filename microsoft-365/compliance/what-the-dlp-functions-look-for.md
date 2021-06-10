@@ -37,7 +37,7 @@ In dit artikel wordt uitgelegd waar deze functies naar zoeken, om u te helpen be
 |functienaam  |functieactie  |is een validator|
 |---------|---------|---------|
 |Func_Argentina_Unique_Tax_Key|detecteert en valideert Argentina Unique tax key|nee|
-|Func_aba_routing|detecteert ABA-routeringsnummer| Ja|
+|Func_aba_routing|detecteert ABA-routeringsnummer| ja|
 |Func_alabama_drivers_license_number|detecteert het nummer van het rijbewijs van Alabama|nee|
 |Func_alaska_delaware_oregon_drivers_license_number|detecteert het nummer van het rijbewijs van Alaska, Delaware, Oregon|nee|
 |Func_alaska_drivers_license_number|detecteert het nummer van het rijbewijs van Alaska|nee|
@@ -48,30 +48,30 @@ In dit artikel wordt uitgelegd waar deze functies naar zoeken, om u te helpen be
 |Func_australian_business_number|detecteert het australische bedrijfsnummer|nee|
 |Func_Australian_Company_Number|detecteert het bedrijfsnummer van Australië|nee|
 |Func_australian_medical_account_number|detecteert het nummer van het medische account van Australië|nee|
-|Func_australian_tax_file_number|detecteert belastingbestandsnummer van Australië|Ja|
+|Func_australian_tax_file_number|detecteert belastingbestandsnummer van Australië|ja|
 |Func_austria_eu_ssn_or_equivalent|detecteert Oostenrijks sociaal-zekerheidsnummer|nee|
 |Func_austria_eu_tax_file_number|detecteert oostenrijks belastingbestandsnummer|nee|
 |Func_Austria_Value_Added_Tax|detecteert Oostenrijks belasting over toegevoegde waarde|nee|
 |Func_belgium_national_number|detecteert het nationale nummer van België|nee|
 |Func_belgium_value_added_tax_number|detecteert belgië btw-nummer|nee|
-|Func_brazil_cnpj|detecteert brazil legal entity number (CNPJ)|Ja|
-|Func_brazil_cpf|detecteert Brazilië CPF|Ja|
+|Func_brazil_cnpj|detecteert brazil legal entity number (CNPJ)|ja|
+|Func_brazil_cpf|detecteert Brazilië CPF|ja|
 |Func_brazil_rg|detecteert Brazilië RG|nee|
 |Func_british_columbia_drivers_license_number|detecteert het nummer van het rijbewijs van British Columbia|nee|
 |Func_bulgaria_eu_national_id_card|detecteert een uniform burgerlijk nummer van Bulgarije|nee|
 |Func_california_drivers_license_number|detecteert het nummer van het rijbewijs van Californië|nee|
-|Func_canadian_sin|detecteert Canada sin|Ja|
+|Func_canadian_sin|detecteert Canada sin|ja|
 |Func_chile_id_card|detecteert Chili-id-kaart|nee|
 |Func_china_resident_id|detecteert in China woonachtige id|nee|
 |Func_colorado_drivers_license_number|detecteert het rijbewijsnummer van Colorado|nee|
 |Func_connecticut_drivers_license_number|detecteert het nummer van het rijbewijs van Connecticut|nee|
-|Func_credit_card|detecteert creditcard|Ja|nee|
+|Func_credit_card|detecteert creditcard|ja|nee|
 |Func_croatia_id_card|detecteert Kroatië-id-kaart|nee|
 |Func_croatia_oib_number|detecteert Het OIB-nummer van Kroatië|nee|
 |Func_cyprus_eu_tax_file_number|detecteert cyprus belastingbestandsnummer|nee|
 |Func_czech_id_card|detecteert Tsjechische id-kaart|nee|
 |Func_czech_id_card_new_format|detecteert Tsjechische id-kaart in nieuwe indeling|nee|
-|Func_dea_number|detecteert DEA-getal|Ja|
+|Func_dea_number|detecteert DEA-getal|ja|
 |Func_denmark_eu_tax_file_number|detecteert het persoonlijke identificatienummer van Denemarken|nee|
 |Func_district_of_columbia_drivers_license_number|detecteert het rijbewijsnummer van District of Columbia|nee|
 |Func_estonia_eu_national_id_card|detecteert estlandse persoonlijke identificatiecode|nee|
@@ -79,7 +79,7 @@ In dit artikel wordt uitgelegd waar deze functies naar zoeken, om u te helpen be
 |Func_finnish_national_id|detecteert finse nationale id|nee|
 |Func_florida_drivers_license_number|detecteert het nummer van het rijbewijs van Florida|nee|
 |Func_florida_maryland_michigan_minnesota_drivers_license_number|detecteert Het rijbewijsnummer van Florida, Maryland, Michigan en Minnesota|nee|
-|Func_formatted_itin|detecteert opgemaakte US ITIN|Ja|
+|Func_formatted_itin|detecteert opgemaakte US ITIN|ja|
 |Func_fr_insee|detecteert France INSEE|nee|
 |Func_fr_passport|detecteert Frankrijk-paspoort|nee|
 |Func_france_eu_tax_file_number|detecteert frankrijks belastingbestandsnummer|nee|
@@ -99,18 +99,18 @@ In dit artikel wordt uitgelegd waar deze functies naar zoeken, om u te helpen be
 |Func_hungary_eu_national_id_card|detecteert het persoonlijke identificatienummer van Hongarije|nee|
 |Func_hungary_eu_ssn_or_equivalent|detecteert hongarijese sociale zekerheidsnummer|nee|
 |Func_hungary_eu_tax_file_number|detecteert het belastingbestandsnummer van Hongarije|nee|
-|Func_iban|detecteert IBAN|Ja|
+|Func_iban|detecteert IBAN|ja|
 |Func_idaho_drivers_license_number|detecteert het nummer van het Idaho-rijbewijs|nee|
 |Func_illinois_drivers_license_number|detecteert het rijbewijsnummer van Illinois|nee|
-|Func_india_aadhaar|detecteert India aadhaar|Ja|
+|Func_india_aadhaar|detecteert India aadhaar|ja|
 |Func_indiana_drivers_license_number|detecteert het nummer van het Rijbewijs van Indiana|nee|
 |Func_iowa_drivers_license_number|detecteert het nummer van het rijbewijs van Iowa|nee|
 |Func_ireland_pps|detecteert Ireland PPS|nee|
 |Func_israeli_national_id_number|detecteert het nationale id-nummer van Israël|nee|
 |Func_italy_eu_national_id_card |detecteert fiscale code van Italië|nee|
 |Func_italy_value_added_tax_number|detecteert italië btw-nummer|nee|
-|Func_japanese_my_number_corporate|detecteert Japan mijn nummer bedrijf|Ja|
-|Func_japanese_my_number_personal|detecteert Japan mijn nummer persoonlijk|Ja|
+|Func_japanese_my_number_corporate|detecteert Japan mijn nummer bedrijf|ja|
+|Func_japanese_my_number_personal|detecteert Japan mijn nummer persoonlijk|ja|
 |Func_jp_bank_account|detecteert japanse bankrekening|nee|
 |Func_jp_bank_account_branch_code|detecteert de Japanse bankaccount branch code|nee|
 |Func_jp_drivers_license_number|detecteert japans rijbewijsnummer|nee|
@@ -167,15 +167,15 @@ In dit artikel wordt uitgelegd waar deze functies naar zoeken, om u te helpen be
 |Func_portugal_eu_tax_file_number|detecteert Portugal Tax Identification Number|nee|
 |Func_prince_edward_island_drivers_license_number|detecteert het rijbewijsnummer van Prince Edward Island|nee|
 |Func_quebec_drivers_license_number |detecteert het rijbewijsnummer van Quebec|nee|
-|Func_randomized_formatted_ssn  |detecteert gerandomiseerde opgemaakte US SSN|Ja|
-|Func_randomized_unformatted_ssn|detecteert gerandomiseerde, niet-opgemaakte US SSN|Ja|
+|Func_randomized_formatted_ssn  |detecteert gerandomiseerde opgemaakte US SSN|ja|
+|Func_randomized_unformatted_ssn|detecteert gerandomiseerde, niet-opgemaakte US SSN|ja|
 |Func_rhode_island_drivers_license_number|detecteert het nummer van het rijbewijs van Rhode Island|nee|
 |Func_romania_eu_national_id_card   |detecteert roemenië persoonlijke numerieke code (CNP)|nee|
 |Func_saskatchewan_drivers_license_number|detecteert saskatchewan-rijbewijsnummer|nee|
 |Func_slovakia_eu_national_id_card  |detecteert het persoonlijke nummer van Slowakije|nee|
 |Func_slovenia_eu_national_id_card  |detecteert Slovenië Unique Master Citizen Number|nee|
 |Func_slovenia_eu_tax_file_number   |detecteert het belastingbestandsnummer van Slovenië|nee|
-|Func_south_africa_identification_number|detecteert het identificatienummer van Zuid-Afrika|Ja|
+|Func_south_africa_identification_number|detecteert het identificatienummer van Zuid-Afrika|ja|
 |Func_south_carolina_drivers_license_number|detecteert het nummer van het rijbewijs van South Carolina|nee|
 |Func_south_dakota_drivers_license_number|detecteert het nummer van het rijbewijs van South Dakota|nee|
 |Func_south_korea_resident_number   |detecteert het ingezetenenummer van Zuid-Korea|nee|
@@ -184,23 +184,23 @@ In dit artikel wordt uitgelegd waar deze functies naar zoeken, om u te helpen be
 |Func_spain_eu_driver is s_license_number  |detecteert het spaanse nummer van het rijbewijs|nee|
 |Func_spain_eu_tax_file_number  |detecteert het belastingbestandsnummer van Spanje|nee|
 |Func_spanish_social_security_number|detecteert Spaans sociaal-zekerheidsnummer|nee|
-|Func_ssn   |Functie om niet-gerandomiseerde opgemaakte US SSN te detecteren|Ja|
+|Func_ssn   |Functie om niet-gerandomiseerde opgemaakte US SSN te detecteren|ja|
 |Func_sweden_eu_tax_file_number|detecteert belastingbestandsnummer zweden|nee|
-|Func_swedish_national_identifier|detecteert Zweedse nationale id|Ja|
+|Func_swedish_national_identifier|detecteert Zweedse nationale id|ja|
 |Func_swiss_social_security_number_ahv|detecteert Het Zwitserse sociale zekerheidsnummer AHV|nee|
 |Func_taiwanese_national_id |detecteert een Taiwanese nationale id|nee|
 |Func_tennessee_drivers_license_number|detecteert het nummer van het rijbewijs van Tennessee|nee|
 |Func_texas_drivers_license_number  |detecteert het nummer van het rijbewijs van Texas|nee|
 |Func_Thai_Citizen_Id   |detecteert Thaise burger-id|nee|
-|Func_Turkish_National_Id|detecteert Turkse nationale id|Ja|
+|Func_Turkish_National_Id|detecteert Turkse nationale id|ja|
 |Func_uk_drivers_license|detecteert vk-rijbewijs|nee|
 |Func_uk_eu_tax_file_number|detecteert het unieke nummer van de Britse belastingbetaler|nee|
-|Func_uk_nhs_number |detecteert UK NHS-nummer|Ja|
+|Func_uk_nhs_number |detecteert UK NHS-nummer|ja|
 |Func_uk_nino   |detecteert UK NINO|nee|
 |Func_unformatted_canadian_sin|detecteert niet-opgemaakte Canadese SIN|nee|
-|Func_unformatted_itin  |detecteert unformatted US ITIN|Ja|
-|Func_unformatted_ssn   |detecteert niet-gerandomiseerde, niet-opgemaakte US SSN|Ja|
-|Func_usa_uk_passport   |detecteert vs- en Vk-paspoort|Ja|
+|Func_unformatted_itin  |detecteert unformatted US ITIN|ja|
+|Func_unformatted_ssn   |detecteert niet-gerandomiseerde, niet-opgemaakte US SSN|ja|
+|Func_usa_uk_passport   |detecteert vs- en Vk-paspoort|ja|
 |Func_utah_drivers_license_number|detecteert het nummer van het rijbewijs van Utah|nee|
 |Func_vermont_drivers_license_number|detecteert het nummer van het rijbewijs van Vermont|nee|
 |Func_virginia_drivers_license_number|detecteert het nummer van het rijbewijs van Virginia|nee|

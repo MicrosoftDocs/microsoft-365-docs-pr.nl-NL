@@ -190,4 +190,4 @@ Bovendien kunt u elke regel afzonderlijk uitschakelen door het beleid te bewerke
 - [Meldingen verzenden en beleidstips voor DLP-beleid tonen](use-notifications-and-policy-tips.md)
 - [Een DLP-beleid maken om documenten te beveiligen met FCI of andere eigenschappen](protect-documents-that-have-fci-or-other-properties.md)
 - [Wat zijn de DLP-beleidssjablonen?](what-the-dlp-policy-templates-include.md)
-- [Definities van entiteiten van het type Gevoelige informatie](sensitive-information-type-entity-definitions.md)
+- [Definities van entiteiten van het type vertrouwelijke gegevens](sensitive-information-type-entity-definitions.md)

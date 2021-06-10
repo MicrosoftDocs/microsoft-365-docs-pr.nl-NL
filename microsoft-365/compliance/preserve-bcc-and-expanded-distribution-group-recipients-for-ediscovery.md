@@ -21,7 +21,7 @@ ms.locfileid: "52162180"
 ---
 # <a name="preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery"></a>BCC- en uitgebreide geadresseerden van distributiegroep behouden voor eDiscovery
   
-In-Place bewaarbeleid voor bewaring, bewaring van rechtszaken en [Microsoft 365](./retention.md) (gemaakt in het beveiligings- & compliancecentrum) kunt u postvakinhoud behouden om te voldoen aan de vereisten voor naleving van regelgeving en eDiscovery. Informatie over geadresseerden die rechtstreeks zijn geadresseerd in de velden Aan en CC van een bericht, is standaard opgenomen in alle berichten. Het is echter mogelijk dat uw organisatie de mogelijkheid nodig heeft om details over alle geadresseerden van een bericht te zoeken en te reproduceren. Dit omvat:
+In-Place bewaarbeleid voor bewaring, bewaring van rechtszaken en [Microsoft 365](./retention.md) (gemaakt in het beveiligings- & compliancecentrum) kunt u postvakinhoud behouden om te voldoen aan de vereisten voor naleving van regelgeving en eDiscovery. Informatie over geadresseerden die rechtstreeks zijn geadresseerd in de velden Aan en CC van een bericht, is standaard opgenomen in alle berichten. Het is echter mogelijk dat uw organisatie de mogelijkheid nodig heeft om details over alle geadresseerden van een bericht te zoeken en te reproduceren. Dit zijn:
   
 - **Geadresseerden met het veld BCC van een bericht:** BCC-geadresseerden worden opgeslagen in het bericht in het postvak van de afzender, maar niet opgenomen in kopteksten van het bericht dat bij geadresseerden wordt bezorgd. 
     

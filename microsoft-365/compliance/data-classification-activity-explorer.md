@@ -46,12 +46,12 @@ Er zijn meer dan 30 verschillende filters beschikbaar voor gebruik, sommige zijn
 
 ## <a name="prerequisites"></a>Vereisten
 
-Elk account dat toegang heeft tot en gegevensclassificatie gebruikt, moet een licentie hebben die aan het account is toegewezen via een van deze abonnementen:
+Aan elk account dat toegang krijgt tot en gebruikmaakt van gegevensclassificatie moet een licentie zijn toegewezen vanuit een van deze abonnementen:
 
-- Microsoft 365 (E5)
-- Office 365 (E5)
-- Advanced Compliance (E5) add-on
-- Advanced Threat Intelligence (E5) add-on
+- Microsoft 365 E5
+- Office 365 E5
+- Geavanceerde hulpprogramma's voor compliance (E5) invoegtoepassing
+- Geavanceerde bedreigingsinformatie (E5) invoegtoepassing
 - Microsoft 365 E5/A5 Info Protection & Governance
 - Microsoft 365 E5/A5 Compliance
 
@@ -63,7 +63,7 @@ Elk account dat toegang heeft tot en gegevensclassificatie gebruikt, moet een li
 > [!IMPORTANT]
 > Access to Activity explorer via the Security reader or Device Management role groups or other has been removed-->
 
-**Microsoft 365 rollengroepen**
+**Microsoft 365-rollengroepen**
 
 - Globale beheerder
 - Beheerder voor naleving
@@ -113,6 +113,6 @@ De waarde van het begrijpen van de acties die worden ondernomen met uw gevoelige
 ## <a name="see-also"></a>Zie ook
 
 - [Meer informatie over vertrouwelijkheidslabels](sensitivity-labels.md)
-- [Meer informatie over bewaarbeleid en bewaarlabels](retention.md)
+- [Meer informatie over bewaarbeleid en retentielabels](retention.md)
 - [Meer informatie over typen gevoelige informatie](sensitive-information-type-learn-about.md)
 - [Meer informatie over gegevensclassificatie](data-classification-overview.md)

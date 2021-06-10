@@ -103,7 +103,7 @@ Als u wilt controleren of u een bericht kunt intrekken, controleert u of het vel
 
 Als u wilt controleren of u een bepaald e-mailbericht kunt intrekken met Windows PowerShell, moet u deze stappen voltooien.
 
-1. Als u een werk- of schoolaccount gebruikt met globale beheerdersmachtigingen in uw organisatie, start u een Windows PowerShell en maakt u verbinding met Exchange Online. Zie Verbinding maken [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell)voor instructies.
+1. Als u een werk- of schoolaccount gebruikt met globale beheerdersmachtigingen in uw organisatie, start u een Windows PowerShell en maakt u verbinding met Exchange Online. Zie [Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) (Verbinding maken met Exchange Online PowerShell) voor instructies.
 
 2. Voer de Get-OMEMessageStatus als volgt uit:
 

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: fba74990d8e4465f957acda83e66e1dc43a317e8
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: cf8e74a6886d7086da062d6258e3e1e1a1cbd730
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841184"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861717"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-access-control"></a>Microsoft Defender voor Endpoint Device Control Verwisselbare Storage Access Control
 
@@ -42,13 +42,17 @@ Met Microsoft Defender voor Endpoint Device Control Verwisselbaar Storage Access
 ## <a name="prepare-your-endpoints"></a>Uw eindpunten voorbereiden
 
 Verwisselbare Storage Access Control implementeren op Windows 10 apparaten met Anti-malware Client versie **4.18.2103.3 of hoger.**
-1. **4.18.2104 of hoger:** Seriële nummering toevoegen, VID_PID, ondersteuning voor bestandspaden
+1. **4.18.2104 of hoger:** SerialNumberId, VID_PID, filepath-based GPO support, ComputerSid
 
 2. **4.18.2105** of hoger : Jokertekenondersteuning toevoegen voor HardwareId/DeviceId/InstancePathId/FriendlyNameId/SerialNumberId, de combinatie van specifieke gebruiker op een specifieke computer, verwijderbare SSD (een SanDisk Extreme SSD)/USB Attached SCSI (UAS) ondersteuning
 
 :::image type="content" source="images/powershell.png" alt-text="De PowerShell-interface":::
 
+   > [!NOTE]
+   > Geen van Windows-beveiliging onderdelen hoeft actief te zijn, u kunt Verwisselbaar Storage Access Control uitvoeren, onafhankelijk van Windows-beveiliging status.
+
 ## <a name="policy-properties"></a>Beleidseigenschappen
+
 
 U kunt de volgende eigenschappen gebruiken om een verwisselbare opslaggroep te maken:
 
@@ -87,6 +91,8 @@ Zie voor elke apparaateigenschappen de sectie **Apparaateigenschappen** hierbove
 
     - MatchAny: De kenmerken onder de DescriptorIdList zijn **Of-relatie;** Als de beheerder bijvoorbeeld DeviceID en InstancePathID plaatst, voert het systeem voor elke aangesloten  USB de afdwinging uit, zolang de USB een identieke Apparaat-id- of Exemplaar-id-waarde heeft. 
 
+
+
 Hieronder volgen de eigenschappen van het toegangsbeheerbeleid:
 
 **Naam van eigenschap: PolicyRuleId**
@@ -124,6 +130,14 @@ In het volgende voorbeeld ziet u het gebruik van GroupID:
     - AuditDenied: Definieert melding en gebeurtenis wanneer toegang wordt geweigerd; moet samenwerken met **Vermelding weigeren.**
 
 Wanneer er conflicttypen voor dezelfde media zijn, wordt het eerste conflict in het beleid toegepast. Een voorbeeld van een conflicttype is **Toestaan** en **Weigeren.**
+
+**Naam van eigenschap: Sid**
+
+1. Beschrijving: Hiermee bepaalt u of u dit beleid moet toepassen op specifieke gebruikers of gebruikersgroep; een vermelding kan maximaal één Sid hebben en een vermelding zonder dat sid betekent dat het beleid op de computer wordt toegepast.
+
+**Naam van eigenschap: ComputerSid**
+
+1. Beschrijving: Hiermee bepaalt u of u dit beleid moet toepassen op een specifieke machine- of machinegroep; één invoer kan maximaal één ComputerSid hebben en een vermelding zonder computerSid betekent dat u het beleid op de computer moet toepassen. Als u een vermelding wilt toepassen op een specifieke gebruiker en specifieke computer, voegt u zowel Sid als ComputerSid toe aan dezelfde vermelding.
 
 **Eigenschapsnaam: Opties**
 

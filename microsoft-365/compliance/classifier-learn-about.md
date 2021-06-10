@@ -135,9 +135,9 @@ U kunt de nauwkeurigheid van alle aangepaste classificaties en sommige vooraf ge
 
 ## <a name="see-also"></a>Zie ook
 
-- [Bewaarlabels](retention.md)
+- [Retentielabels](retention.md)
 - [Meer informatie over preventie van gegevensverlies](dlp-learn-about-dlp.md)
-- [Vertrouwelijkheidslabels](sensitivity-labels.md)
-- [Definities van entiteiten van het type Gevoelige informatie](sensitive-information-type-entity-definitions.md)
+- [Gevoeligheidslabels](sensitivity-labels.md)
+- [Definities van entiteiten van het type vertrouwelijke gegevens](sensitive-information-type-entity-definitions.md)
 - [Afdrukken met documentvinger](document-fingerprinting.md)
 - [Exacte gegevensmatch](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)

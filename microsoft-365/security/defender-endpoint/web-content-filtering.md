@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a16e3eb8f6f7eae9fbaa82c9fd978f4fef429818
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: c7b39b600af2fed130a0b78a590740a8bc063f50
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822320"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861693"
 ---
 # <a name="web-content-filtering"></a>Filteren van webinhoud
 
@@ -61,7 +61,9 @@ Voordat u deze functie uit probeert, moet u aan de volgende vereisten voldoen:
 
 - Windows 10 Enterprise E5, Microsoft 365 E5, Microsoft 365 E5 Security, Microsoft 365 E3 + Microsoft 365 E5 Security of de zelfstandige licentie van Microsoft Defender voor Eindpunt. 
 - Toegang tot Microsoft Defender-beveiligingscentrum portal ( https://securitycenter.windows.com) .
-- Apparaten met Windows 10 Jubileumupdate (versie 1607) of hoger met de nieuwste antimalware-engineupdate van Microsoft Defender.
+- Apparaten met Windows 10 jubileumupdate (versie 1607) of hoger met de nieuwste MoCAMP-update.
+- Windows Defender SmartScreen- en netwerkbeveiliging ingeschakeld.
+
 
 ## <a name="data-handling"></a>Gegevensverwerking
 
@@ -162,4 +164,11 @@ Gebruik het tijdbereikfilter linksboven op de pagina om een periode te selectere
 
 - Rapporten voor webinhoudsfilters zijn momenteel beperkt tot het weergeven van de 5000 beste records. In het rapport Domeinen wordt bijvoorbeeld alleen een maximum van de bovenste 5000 domeinen voor een bepaalde filterquery, indien van toepassing, gegeven. 
 
+
+
+- [Overzicht webbeveiliging](web-protection-overview.md)
+- [Webbedreigingsbeveiliging](web-threat-protection.md)
+- [Webbeveiliging monitoren](web-protection-monitoring.md)
+- [Reageren op webbedreigingen](web-protection-response.md)
+- [Vereisten voor netwerkbeveiliging](web-content-filtering.md)
 

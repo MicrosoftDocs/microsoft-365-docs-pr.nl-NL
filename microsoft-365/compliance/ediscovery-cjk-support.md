@@ -41,7 +41,7 @@ U kunt CJK-tekens gebruiken [](keyword-queries-and-search-conditions.md) voor [z
 
 We bieden CJK-ondersteuning voor [](keyword-queries-and-search-conditions.md#search-conditions)alle [zoekoperatoren](keyword-queries-and-search-conditions.md#search-operators) en **zoekvoorwaarden,** inclusief de booleaanse operatoren **AND,** **OR,** **NOT** en NEAR.
 
-Als u er zeker van bent dat inhoudslocaties of -items CJK-tekens bevatten, maar zoekopdrachten geen resultaten opleveren, klikt u op het pictogram querytaal/regio ![Pictogram Querytaal/regio in zoeken naar inhoud](../media/8d4b60c8-e1f1-40f9-88ae-ee2a7eca0886.png) en selecteer de bijbehorende cultuurcodewaarde voor taalland voor de zoekopdracht. De standaardtaal/regio is neutraal.
+Als u er zeker van bent dat inhoudslocaties of -items CJK-tekens bevatten, maar zoekopdrachten geen resultaten opleveren, klikt u op het pictogram querytaal/regio ![Pictogram Querytaal/regio in zoeken naar inhoud](../media/8d4b60c8-e1f1-40f9-88ae-ee2a7eca0886.png) en selecteer de bijbehorende cultuurcodewaarde voor taalland voor de zoekopdracht. De standaardtaal/-regio is neutraal.
 
 **Kan ik meerdere talen tegelijk zoeken?**
 

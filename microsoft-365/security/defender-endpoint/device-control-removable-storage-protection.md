@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c9b97c2157ba8090628af23b2ab54cf38f04d8c6
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 55171429d3ea447de32eb7e2ec12b8b2c3542e95
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538385"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861705"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-protection"></a>Microsoft Defender voor Endpoint Device Control Verwisselbare Storage beveiliging
 
@@ -35,7 +35,7 @@ Microsoft Defender voor Endpoint Device Control Verwisselbare Storage beveiligin
 
 **Mogelijkheden:** voorkom installatie met of zonder uitsluiting op basis van verschillende apparaateigenschappen.
 
-**Beschrijving**
+**Windows 10 ondersteuningsgegevens**
 - Toegepast op machineniveau: hetzelfde beleid geldt voor aangemelde gebruikers.
 - Ondersteunt MEM en GPO.
 - Ondersteunde '[Apparaateigenschappen'](#device-properties)zoals vermeld.
@@ -43,7 +43,7 @@ Microsoft Defender voor Endpoint Device Control Verwisselbare Storage beveiligin
 
 **Ondersteund platform** - Windows 10
 
-**Beschrijving**
+**MacOS-ondersteuningsdetails**
 - Toegepast op machineniveau: hetzelfde beleid geldt voor aangemelde gebruikers
 - Zie Apparaatbesturingselement voor macOS voor specifieke informatie [over macOS.](mac-device-control-overview.md)
  
@@ -55,7 +55,7 @@ Microsoft Defender voor Endpoint Device Control Verwisselbare Storage beveiligin
 - *Controle* Lees of Schrijf of Voer toegang tot verwisselbare opslag uit op basis van verschillende apparaateigenschappen, met of zonder uitsluiting.
 - *Voorkomen* Lees- of schrijf- of uitvoertoegang met of zonder uitsluiting - Specifiek apparaat toestaan op basis van verschillende apparaateigenschappen.
 
-**Beschrijving**
+**Windows 10 ondersteuningsgegevens**
 - Toegepast op een computer of gebruiker of beide: sta alleen specifieke personen toe die lees-/schrijf-/uitvoertoegang tot specifieke verwisselbare opslag op een bepaalde computer uitvoeren.
 - Ondersteuning voor MEM OMA-URI en GPO.
 - Ondersteunde '[Apparaateigenschappen'](#device-properties)zoals vermeld.
@@ -63,7 +63,7 @@ Microsoft Defender voor Endpoint Device Control Verwisselbare Storage beveiligin
 
 **Ondersteund platform** - Windows 10
 
-**Beschrijving**
+**MacOS-ondersteuningsdetails**
 - Toegepast op machineniveau: hetzelfde beleid geldt voor aangemelde gebruikers.
 - Zie Apparaatbesturingselement voor macOS voor specifieke informatie [over macOS.](mac-device-control-overview.md)
  

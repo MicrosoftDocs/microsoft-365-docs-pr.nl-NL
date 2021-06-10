@@ -68,7 +68,7 @@ Zie de volgende bronnen voor meer informatie:
 
 - [Rights Management activeren in het beheercentrum](../enterprise/activate-rms-in-microsoft-365.md)
 
-- [Set up Information Rights Management (IRM) in SharePoint admin center](set-up-irm-in-sp-admin-center.md)
+- [IRM (Information Rights Management) instellen in het SharePoint-beheercentrum](set-up-irm-in-sp-admin-center.md)
 
 - [Serviceversleuteling met klantsleutel in Office 365](customer-key-overview.md)
 

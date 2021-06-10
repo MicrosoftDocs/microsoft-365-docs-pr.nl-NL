@@ -82,7 +82,7 @@ Als u berichten wilt openen die zijn opgeslagen in een automatisch uitgebouwd ar
 
 - Outlook 2016 of Outlook 2019 voor Windows
 
-- Outlook op het web
+- Webversie van Outlook
 
 - Outlook 2016 of Outlook 2019 voor Mac
 

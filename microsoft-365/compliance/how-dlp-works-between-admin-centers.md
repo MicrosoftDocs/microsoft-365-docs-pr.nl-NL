@@ -43,7 +43,7 @@ Nadat u een DLP-beleid hebt opgesteld in het Beveiligings- & Compliancecentrum, 
   
 Als u DLP-beleid hebt gemaakt in het Exchange-beheercentrum, blijven deze beleidsregels naast elk beleid voor e-mail werken dat u maakt in het beveiligings- & Compliancecentrum. Houd er echter rekening mee dat regels die zijn gemaakt in het Exchange beheercentrum voorrang hebben. Alle Exchange e-mailstroomregels worden eerst verwerkt en vervolgens worden de DLP-regels van & compliancecentrum verwerkt.
   
-Dit betekent dat:
+Dit betekent:
   
 - Berichten die worden geblokkeerd door Exchange regels voor e-mailstroom, worden niet gescand door DLP-regels die zijn gemaakt in het beveiligings- & Compliancecentrum.
     

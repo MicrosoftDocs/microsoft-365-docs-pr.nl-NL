@@ -72,7 +72,7 @@ U kunt verschillende functies in een huisstijlsjabloon wijzigen. U kunt de stand
 
 Gebruik Windows PowerShell om één huisstijlsjabloon tegelijk te wijzigen. Als u geavanceerde berichtversleuteling hebt, kunt u ook aangepaste sjablonen maken, wijzigen en verwijderen.
 
-1. Als u een werk- of schoolaccount gebruikt met globale beheerdersmachtigingen in uw organisatie, start u een Windows PowerShell en maakt u verbinding met Exchange Online. Zie Verbinding maken [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell)voor instructies.
+1. Als u een werk- of schoolaccount gebruikt met globale beheerdersmachtigingen in uw organisatie, start u een Windows PowerShell en maakt u verbinding met Exchange Online. Zie [Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) (Verbinding maken met Exchange Online PowerShell) voor instructies.
 
 2. Gebruik de Set-OMEConfiguration cmdlet zoals beschreven in [Set-OMEConfiguration](/powershell/module/exchange/Set-OMEConfiguration) of gebruik de volgende afbeelding en tabel voor richtlijnen.
 
@@ -97,7 +97,7 @@ Als u een Office 365 Advanced Message Encryption, kunt u aangepaste huisstijlsja
 
 Een nieuwe sjabloon voor aangepaste huisstijl maken:
 
-1. Als u een werk- of schoolaccount gebruikt met globale beheerdersmachtigingen in uw organisatie, start u een Windows PowerShell en maakt u verbinding met Exchange Online. Zie Verbinding maken [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell)voor instructies.
+1. Als u een werk- of schoolaccount gebruikt met globale beheerdersmachtigingen in uw organisatie, start u een Windows PowerShell en maakt u verbinding met Exchange Online. Zie [Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) (Verbinding maken met Exchange Online PowerShell) voor instructies.
 
 2. Gebruik de [cmdlet Nieuw-OMEConfiguratie](/powershell/module/exchange/new-omeconfiguration) om een nieuwe sjabloon te maken.
 
@@ -115,7 +115,7 @@ Een nieuwe sjabloon voor aangepaste huisstijl maken:
 
 Als u alle wijzigingen uit de standaardsjabloon wilt verwijderen, inclusief merkaanpassingen, en dergelijke, gaat u als volgende stappen te werk:
   
-1. Als u een werk- of schoolaccount gebruikt met globale beheerdersmachtigingen in uw organisatie, start u een Windows PowerShell en maakt u verbinding met Exchange Online. Zie Verbinding maken [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell)voor instructies.
+1. Als u een werk- of schoolaccount gebruikt met globale beheerdersmachtigingen in uw organisatie, start u een Windows PowerShell en maakt u verbinding met Exchange Online. Zie [Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) (Verbinding maken met Exchange Online PowerShell) voor instructies.
 
 2. Gebruik de **cmdlet Set-OMEConfiguration** zoals beschreven in [Set-OMEConfiguration](/powershell/module/exchange/Set-OMEConfiguration). Als u de merkaanpassingen van uw organisatie wilt verwijderen uit de waarden DisclaimerTekst, E-mailtekst en PortalTekst, stelt u de waarde in op een lege `""` tekenreeks, . Voor alle afbeeldingswaarden, zoals Logo, stelt u de waarde in op  `"$null"` .
 
@@ -135,7 +135,7 @@ U kunt alleen merksjablonen verwijderen of verwijderen die u hebt gemaakt. U kun
 
 Een aangepaste huisstijlsjabloon verwijderen:
   
-1. Als u een werk- of schoolaccount gebruikt met globale beheerdersmachtigingen in uw organisatie, start u een Windows PowerShell en maakt u verbinding met Exchange Online. Zie Verbinding maken [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell)voor instructies.
+1. Als u een werk- of schoolaccount gebruikt met globale beheerdersmachtigingen in uw organisatie, start u een Windows PowerShell en maakt u verbinding met Exchange Online. Zie [Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) (Verbinding maken met Exchange Online PowerShell) voor instructies.
 
 2. Gebruik de **cmdlet Remove-OMEConfiguration** als volgt:
 

@@ -82,7 +82,7 @@ Met de vorige opdracht blijven items voor onbepaalde tijd behouden omdat de duur
 Set-Mailbox <username> -LitigationHoldEnabled $true -LitigationHoldDuration <number of days>
 ```
 
-Zie Postvak [instellen voor meer informatie.](/powershell/module/exchange/set-mailbox)
+Zie [Set-Mailbox](/powershell/module/exchange/set-mailbox) voor meer informatie.
 
 ## <a name="how-does-litigation-hold-work"></a>Hoe werkt Litigation Hold?
 

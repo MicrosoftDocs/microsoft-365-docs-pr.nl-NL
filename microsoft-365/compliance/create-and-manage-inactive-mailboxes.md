@@ -58,7 +58,7 @@ Zie het volgende voor stapsgewijs procedures voor het plaatsen van een postvak i
   
 - [Een postvak in de wacht houden voor rechtszaken plaatsen](create-a-litigation-hold.md)
 
-- [Meer informatie over bewaarbeleid en bewaarlabels](retention.md)
+- [Meer informatie over bewaarbeleid en retentielabels](retention.md)
 
 > [!NOTE]
 > Voor beleidsregels voor bewaring en bewaring van rechtszaken kunt u een bewaring voor onbepaalde tijd of een bewaring voor onbepaalde tijd maken. In een onbepaalde periode blijft de inhoud van het inactieve postvak voor altijd behouden, of totdat de wacht wordt verwijderd of totdat de duur van de wacht wordt gewijzigd. Nadat het bewaringsbeleid is verwijderd (ervan uitgaande dat het postvak meer dan 183 dagen geleden is verwijderd), wordt het inactieve postvak gemarkeerd voor permanent verwijderen en wordt de inhoud van het postvak niet meer bewaard of gedetecteerd. In een op tijd gebaseerd bewaringsbeleid of bewaarbeleid geeft u de duur van de bewaring op. Deze duur is per item en wordt berekend vanaf de datum waarop een postvakitem is ontvangen of gemaakt. Nadat de bewaring voor een postvakitem is verlopen en het item is verplaatst naar of zich bevindt in de map Herstelbare items in het inactieve postvak, wordt het item definitief verwijderd (verwijderd) uit het inactieve postvak nadat de bewaarperiode van het verwijderde item is verlopen. 
@@ -74,7 +74,7 @@ Nadat het postvak in bewaring is geplaatst of er een bewaarbeleid op is toegepas
 
 Een lijst met de inactieve postvakken in uw organisatie weergeven:
 
-1. Ga naar <https://compliance.microsoft.com> en meld u aan met de referenties voor een beheerdersaccount in uw organisatie.
+1. Ga naar <https://compliance.microsoft.com> en meld u aan met de referenties van een beheerdersaccount in uw organisatie.
 
 2. Klik in het linkernavigatiedeelvenster van het Microsoft 365 compliancecentrum op Alles weergeven **en** klik vervolgens op **Informatiebeheer > Bewaring.**
 
@@ -111,13 +111,13 @@ U hebt toegang tot de inhoud van het inactieve postvak met behulp van het hulppr
 
 - [Zoekresultaten exporteren](export-search-results.md)
 
-Hier zijn een paar dingen waar u rekening mee moet houden bij het zoeken naar inactieve postvakken.
+Houd u rekening met de volgende zaken bij het zoeken in inactieve postvakken.
   
 - Als een inhoudszoekactie een gebruikerspostvak bevat en dat postvak inactief is gemaakt, blijft de inhoudszoekactie het inactieve postvak doorzoeken wanneer u de zoekopdracht opnieuw uitzoekt nadat deze inactief is.
 
 - In sommige gevallen heeft een gebruiker mogelijk een actief postvak en een inactief postvak met hetzelfde SMTP-adres. In dit geval wordt alleen gezocht naar het specifieke postvak dat u selecteert als locatie voor een inhoudszoekactie. Met andere woorden: als u het postvak van een gebruiker toevoegt aan een zoekopdracht, kunt u er niet van uitgaan dat zowel de actieve als de inactieve postvakken worden doorzocht. alleen het postvak dat u expliciet aan de zoekopdracht toevoegt, wordt doorzocht.
 
-- We raden u ten zeerste aan geen actief postvak en inactief postvak met hetzelfde SMTP-adres te hebben. Als u het SMTP-adres dat momenteel is toegewezen aan een inactief postvak opnieuw moet gebruiken, raden we u aan het inactieve postvak te herstellen of de inhoud van een inactief postvak te herstellen naar een actief postvak (of het archief van een actief postvak) en het inactieve postvak te verwijderen.
+- Het wordt ten zeerste aangeraden dat u geen actief postvak en inactief postvak met hetzelfde SMTP-adres gebruikt. Als u het SMTP-adres dat momenteel is toegewezen aan een inactief postvak opnieuw moet gebruiken, raden we u aan het inactieve postvak te herstellen of de inhoud van een inactief postvak te herstellen naar een actief postvak (of het archief van een actief postvak) en het inactieve postvak te verwijderen.
 
 ## <a name="change-the-hold-duration-for-an-inactive-mailbox"></a>De duur van bewaring van een inactief postvak wijzigen
 

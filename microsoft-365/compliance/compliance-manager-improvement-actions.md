@@ -46,8 +46,8 @@ U kunt de volgende of vorige verbeteringsactie in de lijst eenvoudig bekijken do
 
 Als u wilt beginnen met de implementatie van een verbeteringsactie, kunt u het werk zelf uitvoeren of aan een andere gebruiker toewijzen. De toegewezen persoon kan het volgende zijn:
 
-- Een eigenaar van het bedrijfsbeleid
-- Een IT-implementatie
+- Een eigenaar van bedrijfsbeleid
+- Een IT-medewerker die verantwoordelijk is voor implementaties
 - Een andere werknemer die verantwoordelijk is voor het uitvoeren van de taak
 
 Nadat u de juiste toegewezene hebt aangewezen, moet u ervoor zorgen dat deze een voldoende [compliancemanagerrol](compliance-manager-setup.md#set-user-permissions-and-assign-roles) heeft om het werk uit te voeren. Volg vervolgens de onderstaande stappen om de verbeteringsactie toe te wijzen:

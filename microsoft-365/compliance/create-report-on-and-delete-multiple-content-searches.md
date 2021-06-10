@@ -40,7 +40,7 @@ ms.locfileid: "52162731"
 
 - De scripts bevatten minimale foutafhandeling. Het primaire doel is om snel meerdere inhoudszoekingen te maken, te rapporteren en te verwijderen.
 
-- De voorbeeldscripts in dit onderwerp worden niet ondersteund onder een standaardondersteuningsprogramma of -service van Microsoft. De voorbeeldscripts worden geleverd als IS zonder enige garantie. Microsoft wijst alle impliciete garanties verder af, inclusief, zonder beperking, impliciete garanties van verkoopbaarheid of geschiktheid voor een bepaald doel. Het volledige risico dat voortvloeit uit het gebruik of de prestaties van de voorbeeldscripts en documentatie blijft bij u. In geen geval zijn Microsoft, de auteurs of anderen die betrokken zijn bij het maken, produceren of leveren van de scripts aansprakelijk voor enige schade (met inbegrip van, zonder beperking, schade voor verlies van bedrijfswinsten, bedrijfsonderbreking, verlies van bedrijfsgegevens of ander geldverlies) als gevolg van het gebruik van of het onvermogen om de voorbeeldscripts of documentatie te gebruiken, zelfs als Microsoft op de hoogte is gesteld van de mogelijkheid van dergelijke schade.
+- De voorbeeldscripts in dit onderwerp worden niet ondersteund onder een standaardondersteuningsprogramma of -service van Microsoft. De voorbeeldscripts worden zonder enige garantie ONGEWIJZIGD verstrekt. Microsoft wijst alle impliciete garanties met inbegrip van, maar niet beperkt tot, impliciete garanties van verkoopbaarheid en geschiktheid voor een bepaald doel af. Het risico dat ontstaat als gevolg van het gebruik of prestaties van de voorbeeldscripts ligt geheel bij u. In geen geval kan Microsoft, haar auteurs of anderen die bij het maken, produceren of leveren van de scripts zijn betrokken, aansprakelijk worden gehouden voor enige schade om welke reden dan ook (met inbegrip van maar niet beperkt tot schade door verlies van bedrijfswinsten, belemmering van de bedrijfsuitvoering, verlies van bedrijfsinformatie of andere geldelijke verliezen) voortvloeiend uit het gebruik of de onmogelijkheid van het gebruik van de voorbeeldscripts, zelfs als Microsoft op de hoogte is gesteld van de mogelijkheid van dergelijke schade.
 
 ## <a name="step-1-create-a-csv-file-that-contains-information-about-the-searches-you-want-to-run"></a>Stap 1: Een CSV-bestand maken met informatie over de zoekopdrachten die u wilt uitvoeren
 
@@ -58,7 +58,7 @@ Het door komma's gescheiden waardebestand (CSV) dat u in deze stap maakt, bevat 
    ,https://contoso-my.sharepoint.com/personal/janets_contoso_onmicrosoft_com,,1/1/2015,
    ```
 
-   De eerste rij of veldnamenrij van het bestand bevat de parameters die worden gebruikt door de cmdlet **New-ComplianceSearch** (in het script in stap 3) om een nieuwe inhoudszoekactie te maken. Elke parameternaam wordt gescheiden door een komma. Zorg ervoor dat er geen spaties in de veldnamenrij staan. Elke rij onder de veldnamenrij vertegenwoordigt de parameterwaarden voor elke zoekopdracht. Zorg ervoor dat u de tijdelijke aanduidingsgegevens in het CSV-bestand vervangt door uw werkelijke gegevens.
+   De eerste rij of veldnamenrij van het bestand bevat de parameters die worden gebruikt door de cmdlet **New-ComplianceSearch** (in het script in stap 3) om een nieuwe inhoudszoekactie te maken. De namen van parameters worden gescheiden door een komma. Zorg ervoor dat er geen spaties in de veldnamenrij staan. Elke rij onder de veldnamenrij vertegenwoordigt de parameterwaarden voor elke zoekopdracht. Zorg ervoor dat u de tijdelijke aanduidingsgegevens in het CSV-bestand vervangt door uw werkelijke gegevens.
 
 2. Open het .txt in Excel en gebruik de gegevens in de volgende tabel om het bestand te bewerken met informatie voor elke zoekopdracht.
 
@@ -75,9 +75,9 @@ Het door komma's gescheiden waardebestand (CSV) dat u in deze stap maakt, bevat 
 
 3. Sla het Excel bestand op als een CSV-bestand in een map op uw lokale computer. Het script dat u in stap 3 maakt, gebruikt de informatie in dit CSV-bestand om de zoekopdrachten te maken.
 
-## <a name="step-2-connect-to-security--compliance-center-powershell"></a>Stap 2: Verbinding maken beveiliging & Compliance center PowerShell
+## <a name="step-2-connect-to-security--compliance-center-powershell"></a>Stap 2: Verbinding maken met PowerShell van het beveiligings- en compliancecentrum
 
-De volgende stap is om verbinding te maken met Security & Compliance Center PowerShell voor uw organisatie. Zie voor stapsgewijs instructies Verbinding maken [Beveiligingscentrum & PowerShell](/powershell/exchange/connect-to-scc-powershell).
+De volgende stap is het maken van verbinding met PowerShell voor het beveiligings- en compliancecentrum voor uw organisatie. Zie [Verbinding maken met Exchange Online PowerShell](/powershell/exchange/connect-to-scc-powershell) voor stapsgewijze instructies.
 
 ## <a name="step-3-run-the-script-to-create-and-start-the-searches"></a>Stap 3: Het script uitvoeren om de zoekopdrachten te maken en te starten
 

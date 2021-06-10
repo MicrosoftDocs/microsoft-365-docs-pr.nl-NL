@@ -135,7 +135,7 @@ Wanneer uw e-mailgebruikers versleutelde berichten verzenden, kunnen geadresseer
 
 7. Selecteer **in Ga als volgt** te werk en selecteer De **berichtbeveiliging wijzigen** De vorige versie van \> **OME verwijderen.**
 
-8. Kies **Opslaan**.
+8. Klik op **Opslaan**.
 
 #### <a name="use-exchange-online-powershell-to-create-a-rule-to-remove-encryption-from-email-replies-encrypted-without-the-new-ome-capabilities"></a>Gebruik Exchange Online PowerShell om een regel te maken om versleuteling te verwijderen uit e-mailantwoorden die zijn versleuteld zonder de nieuwe OME-mogelijkheden
 
@@ -193,10 +193,10 @@ In het volgende voorbeeld ziet u een aangepast logo voor ContosoPharma in de e-m
 
    | Deze functie van de versleutelingservaring aanpassen | Gebruik deze Windows PowerShell opdrachten |
    |:-----|:-----|
-   |Standaardtekst die versleutelde e-mailberichten begeleidt  <br/> De standaardtekst wordt weergegeven boven de instructies voor het weergeven van versleutelde berichten  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -EmailText "<string of up to 1024 characters>"` <br/> **Voorbeeld:** `Set-OMEConfiguration -Identity "OME Configuration" -EmailText "Encrypted message from ContosoPharma secure messaging system"` <br/> |
-   |Vrijwaringsverklaring in het e-mailbericht met het versleutelde bericht  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> DisclaimerText "<your disclaimer statement, string of up to 1024 characters>"` <br/> **Voorbeeld:** `Set-OMEConfiguration -Identity "OME Configuration" -DisclaimerText "This message is confidential for the use of the addressee only"` <br/> |
-   |Tekst die boven aan de portal voor het weergeven van versleutelde e-mail wordt weergegeven  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -PortalText "<text for your portal, string of up to 128 characters>"` <br/> **Voorbeeld:** `Set-OMEConfiguration -Identity "OME Configuration" -PortalText "ContosoPharma secure email portal"` <br/> |
-   |Logo  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -Image <Byte[]>` <br/> **Voorbeeld:** `Set-OMEConfiguration -Identity "OME configuration" -Image (Get-Content "C:\Temp\contosologo.png" -Encoding byte)` <br/> Ondersteunde bestandsindelingen: .png, .jpg, .bmp of .tiff  <br/> Optimale grootte van het logobestand: minder dan 40 KB  <br/> Optimale grootte van de afbeelding van het logo: 170x70 pixels  <br/> |
+   |Standaardtekst die versleutelde e-mailberichten begeleidt  <br/> De standaardtekst wordt weergegeven boven de instructies voor het weergeven van versleutelde berichten  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -EmailText "<string of up to 1024 characters>"` <br/> **Voorbeeld:**`Set-OMEConfiguration -Identity "OME Configuration" -EmailText "Encrypted message from ContosoPharma secure messaging system"` <br/> |
+   |Vrijwaringsverklaring in het e-mailbericht met het versleutelde bericht  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> DisclaimerText "<your disclaimer statement, string of up to 1024 characters>"` <br/> **Voorbeeld:**`Set-OMEConfiguration -Identity "OME Configuration" -DisclaimerText "This message is confidential for the use of the addressee only"` <br/> |
+   |Tekst die boven aan de portal voor het weergeven van versleutelde e-mail wordt weergegeven  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -PortalText "<text for your portal, string of up to 128 characters>"` <br/> **Voorbeeld:**`Set-OMEConfiguration -Identity "OME Configuration" -PortalText "ContosoPharma secure email portal"` <br/> |
+   |Logo  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -Image <Byte[]>` <br/> **Voorbeeld:**`Set-OMEConfiguration -Identity "OME configuration" -Image (Get-Content "C:\Temp\contosologo.png" -Encoding byte)` <br/> Ondersteunde bestandsindelingen: .png, .jpg, .bmp of .tiff  <br/> Optimale grootte van het logobestand: minder dan 40 KB  <br/> Optimale grootte van de afbeelding van het logo: 170x70 pixels  <br/> |
 
 **Merkaanpassingen verwijderen uit versleutelings-e-mailberichten en de versleutelingsportal**
   
@@ -208,8 +208,8 @@ In het volgende voorbeeld ziet u een aangepast logo voor ContosoPharma in de e-m
 
    | Deze functie van de versleutelingservaring terugdraaien naar de standaardtekst en afbeelding | Gebruik deze Windows PowerShell opdrachten |
    |:-----|:-----|
-   |Standaardtekst die versleutelde e-mailberichten begeleidt  <br/> De standaardtekst wordt weergegeven boven de instructies voor het weergeven van versleutelde berichten  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -EmailText "<empty string>"` <br/> **Voorbeeld:** `Set-OMEConfiguration -Identity "OME Configuration" -EmailText ""` <br/> |
-   |Vrijwaringsverklaring in het e-mailbericht met het versleutelde bericht  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> DisclaimerText "<empty string>"` <br/> **Voorbeeld:** `Set-OMEConfiguration -Identity "OME Configuration" -DisclaimerText ""` <br/> |
+   |Standaardtekst die versleutelde e-mailberichten begeleidt  <br/> De standaardtekst wordt weergegeven boven de instructies voor het weergeven van versleutelde berichten  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -EmailText "<empty string>"` <br/> **Voorbeeld:**`Set-OMEConfiguration -Identity "OME Configuration" -EmailText ""` <br/> |
+   |Vrijwaringsverklaring in het e-mailbericht met het versleutelde bericht  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> DisclaimerText "<empty string>"` <br/> **Voorbeeld:**`Set-OMEConfiguration -Identity "OME Configuration" -DisclaimerText ""` <br/> |
    |Tekst die boven aan de portal voor het weergeven van versleutelde e-mail wordt weergegeven  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -PortalText "<empty string>"` <br/> **Voorbeeld om terug te keren naar standaard:**`Set-OMEConfiguration -Identity "OME Configuration" -PortalText ""` <br/> |
    |Logo  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -Image <"$null">` <br/> **Voorbeeld om terug te keren naar standaard:**`Set-OMEConfiguration -Identity "OME configuration" -Image $null` <br/> |
 

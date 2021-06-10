@@ -49,5 +49,5 @@ Bedankt voor uw waardevolle feedback over OneDrive integratie tijdens ons previe
 - [Labelactiviteit weergeven (voorbeeld)](data-classification-activity-explorer.md)
 - [Gelabelde inhoud weergeven (voorbeeld)](data-classification-content-explorer.md)
 - [Meer informatie over vertrouwelijkheidslabels](sensitivity-labels.md)
-- [Meer informatie over bewaarbeleid en bewaarlabels](retention.md)
-- [Definities van entiteiten van het type Gevoelige informatie](sensitive-information-type-entity-definitions.md)
+- [Meer informatie over bewaarbeleid en retentielabels](retention.md)
+- [Definities van entiteiten van het type vertrouwelijke gegevens](sensitive-information-type-entity-definitions.md)

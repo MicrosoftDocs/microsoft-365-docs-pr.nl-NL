@@ -112,18 +112,18 @@ Als u een activiteitsmelding weer wilt inschakelen, herhaalt u deze stappen en k
     
     |**Wanneer een gebruiker dit doet...**|**Een waarschuwing voor deze activiteit maken**|**Activiteitsgroep**|
     |:-----|:-----|:-----|
-    |Een document op een site wordt bekeken.  <br/> |Accessed file  <br/> |Bestands- en mapactiviteiten  <br/> |
-    |Een document bewerken of wijzigen.  <br/> |Gewijzigd bestand  <br/> |Bestands- en mapactiviteiten  <br/> |
-    |Deelt een document met een gebruiker buiten uw organisatie.  <br/> |Bestand, map of site delen  <br/> En  <br/> Uitnodiging voor delen gemaakt  <br/> Zie Delen controleren gebruiken in het [auditlogboek](use-sharing-auditing.md)voor meer informatie.  <br/> |Activiteiten voor het delen en openen van aanvragen  <br/> |
-    |Uploadt of downloadt een document.  <br/> |Geüpload bestand  <br/> En/of  <br/> Gedownload bestand  <br/> |Bestands- en mapactiviteiten  <br/> |
-    |Wijzigt de toegangsmachtigingen voor een site.  <br/> |Gewijzigde sitemachtigingen  <br/> |Activiteiten voor sitebeheer  <br/> |
+    |Een document op een site wordt bekeken.  <br/> |Bestand geopend  <br/> |Bestands- en mapactiviteiten  <br/> |
+    |Een document bewerken of wijzigen.  <br/> |Bestand gewijzigd  <br/> |Bestands- en mapactiviteiten  <br/> |
+    |Deelt een document met een gebruiker buiten uw organisatie.  <br/> |Bestand, map of site delen  <br/> En  <br/> Uitnodiging voor delen gemaakt  <br/> Zie [Auditing voor delen gebruiken in het auditlogboek](use-sharing-auditing.md) voor meer informatie.  <br/> |Activiteiten in verband met delen en aanvragen voor toegang  <br/> |
+    |Uploadt of downloadt een document.  <br/> |Bestand geüpload  <br/> En/of  <br/> Bestand gedownload  <br/> |Bestands- en mapactiviteiten  <br/> |
+    |Wijzigt de toegangsmachtigingen voor een site.  <br/> |Sitemachtigingen gewijzigd  <br/> |Activiteiten in verband met sitebeheer  <br/> |
 
     In de volgende tabel vindt u enkele algemene e-mailgerelateerde activiteiten in Exchange Online.
 
     |**Wanneer een gebruiker dit doet...**|**Een waarschuwing voor deze activiteit maken**|**Activiteitsgroep**|
     |:-----|:-----|:-----|
-    |Een e-mailbericht definitief verwijderen (verwijderen) uit het postvak.  <br/> |Verwijderde berichten uit postvak  <br/> | Exchange postvakactiviteiten  <br/> |
-    |Hiermee wordt een e-mailbericht verzonden vanuit een gedeeld postvak.  <br/> |Verzonden bericht met de machtiging Verzenden als  <br/> En  <br/> Verzonden bericht met machtigingen voor Verzenden namens  <br/> | Exchange postvakactiviteiten  <br/> |
+    |Een e-mailbericht definitief verwijderen (verwijderen) uit het postvak.  <br/> |Verwijderde berichten uit postvak  <br/> | Activiteiten in verband met Exchange-postvakken  <br/> |
+    |Hiermee wordt een e-mailbericht verzonden vanuit een gedeeld postvak.  <br/> |Bericht verzonden met machtiging Verzenden als   <br/> En  <br/> Bericht verzonden met machtiging Verzenden namens  <br/> | Activiteiten in verband met Exchange-postvakken  <br/> |
    
 - U kunt ook de **cmdlets New-ActivityAlert** en **Set-ActivityAlert** in Security & Compliance Center PowerShell gebruiken om activiteitswaarschuwingen te maken en te bewerken. Houd rekening met de volgende zaken als u deze cmdlets gebruikt om activiteitswaarschuwingen te maken of te bewerken: 
     

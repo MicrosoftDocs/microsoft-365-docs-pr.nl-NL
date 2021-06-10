@@ -35,7 +35,7 @@ U kunt DLP-beleid gebruiken om niet-Microsoft-cloud-apps te controleren en te de
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
-### <a name="skusubscriptions-licensing"></a>Licenties voor SKU/abonnementen
+### <a name="skusubscriptions-licensing"></a>SKU/abonnementenlicenties
 
 Voordat u DLP-beleid gaat gebruiken voor niet-Microsoft-cloud-apps, bevestigt u uw Microsoft 365 [en](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1) eventuele invoegtoepassingen. Als u deze functionaliteit wilt openen en gebruiken, moet u een van deze abonnementen of invoegtoepassingen hebben:
 

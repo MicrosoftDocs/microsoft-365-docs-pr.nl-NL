@@ -280,8 +280,6 @@
 #### [Uw antivirus- en antimalwareupdates downloaden](manage-updates-baselines-microsoft-defender-antivirus.md)
 ##### [De bronnen beheren voor updates voor de Microsoft Defender Antivirus-beveiliging](manage-protection-updates-microsoft-defender-antivirus.md)
 ##### [Het schema beheren voor wanneer beveiligingsupdates moeten worden gedownload en toegepast](manage-protection-update-schedule-microsoft-defender-antivirus.md)
-#####  [Geleidelijk implementatieproces voor Microsoft Defender-updates beheren](updates.md)
-#####  [Geleidelijk implementatieproces voor Microsoft Defender-updates configureren](configure-updates.md)
 ##### [Microsoft Defender Antivirus-updates en scans beheren voor verouderde eindpunten](manage-outdated-endpoints-microsoft-defender-antivirus.md)
 ##### [Op basis van gebeurtenissen afgedwongen updates beheren](manage-event-based-updates-microsoft-defender-antivirus.md)
 ##### [Updates beheren voor mobiele apparaten en virtuele machines (VM's)](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)
@@ -513,8 +511,9 @@
 
 ###### [Indicatoren]()
 ####### [Methoden en eigenschappen van indicatoren](ti-indicator.md)
-####### [Indicator verzenden](post-ti-indicator.md)
 ####### [Lijst van indicatoren](get-ti-indicators-collection.md)
+####### [Indicator verzenden](post-ti-indicator.md)
+####### [Indicatoren importeren](import-ti-indicators.md)
 ####### [Indicator verwijderen](delete-ti-indicator-by-id.md)
 
 ###### [IP]()

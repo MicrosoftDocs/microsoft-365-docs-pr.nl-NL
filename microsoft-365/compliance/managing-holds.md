@@ -70,15 +70,15 @@ Als u een niet-bewaarder wilt maken voor een Advanced eDiscovery geval:
   
 8. Kies de inhoudslocaties die u in de wacht wilt zetten. U kunt postvakken, sites en openbare mappen in de wacht zetten.
 
-   1. **Exchange** e-mail: klik op **Gebruikers, groepen** of teams kiezen en klik vervolgens nogmaals op **Gebruikers,** groepen of teams kiezen om postvakken op te geven die in de wacht moeten worden gezet. Gebruik het zoekvak om gebruikerspostvakken en distributiegroepen te zoeken (om de postvakken van groepsleden in de wacht te zetten) om deze in de wacht te zetten. U kunt ook het bijbehorende postvak in de wacht zetten voor een Microsoft 365 of een Microsoft-team. Schakel het selectievakje gebruiker, groep, team in, klik **op Kiezen** en klik vervolgens op **Klaar.**
+   1. **Exchange** e-mail: klik op **Gebruikers, groepen** of teams kiezen en klik vervolgens nogmaals op **Gebruikers,** groepen of teams kiezen om postvakken op te geven die in de wacht moeten worden gezet. Gebruik het zoekvak om gebruikerspostvakken en distributiegroepen te zoeken (om de postvakken van groepsleden vast te zetten) die u vast wilt zetten. U kunt ook het bijbehorende postvak in de wacht zetten voor een Microsoft 365 of een Microsoft-team. Schakel het selectievakje gebruiker, groep, team in, klik **op Kiezen** en klik vervolgens op **Klaar.**
  
       > [!NOTE]
       > Wanneer u op **Gebruikers, groepen** of teams kiezen klikt om postvakken op te geven die in de wacht moeten worden gezet, is de weergegeven postvak picker leeg. Dit is een ontwerp om de prestaties te verbeteren. Als u personen aan deze lijst wilt toevoegen, typt u een naam (minimaal 3 tekens) in het zoekvak.
 
-   1. **SharePoint Sites:** **klik** op Sites kiezen  en klik vervolgens nogmaals op Sites kiezen om SharePoint en OneDrive voor Bedrijven sites in de wacht te zetten. Typ de URL voor elke site die u in de wacht wilt zetten. U kunt ook de URL voor de SharePoint toevoegen voor een Microsoft 365 groep of een Microsoft-team. Klik **op** Kiezen en klik vervolgens op **Klaar.**
+   1. **SharePoint Sites:** **klik** op Sites kiezen  en klik vervolgens nogmaals op Sites kiezen om SharePoint en OneDrive voor Bedrijven sites in de wacht te zetten. Typ de URL voor elke site die u vast wilt zetten. U kunt ook de URL voor de SharePoint toevoegen voor een Microsoft 365 groep of een Microsoft-team. Klik **op** Kiezen en klik vervolgens op **Klaar.**
 
       > [!NOTE]
-      > De URL voor het OneDrive account van een gebruiker bevat de naam van de gebruikershoofdnaam (UPN) `https://alpinehouse-my.sharepoint.com/personal/sarad_alpinehouse_onmicrosoft_com` (bijvoorbeeld). In het zeldzame geval dat de UPN van een persoon wordt gewijzigd, wordt OneDrive URL ook gewijzigd om de nieuwe UPN in te nemen. Als het account OneDrive van een gebruiker deel uitmaakt van een niet-bewaarder en de UPN wordt gewijzigd, moet u de wacht houden bijwerken en de nieuwe URL OneDrive aanwijzers. Zie Hoe UPN-wijzigingen van invloed zijn op de [OneDrive URL voor meer informatie.](/onedrive/upn-changes)
+      > De URL voor het OneDrive account van een gebruiker bevat de naam van de gebruikershoofdnaam (UPN) `https://alpinehouse-my.sharepoint.com/personal/sarad_alpinehouse_onmicrosoft_com` (bijvoorbeeld). In het zeldzame geval dat de UPN van een persoon wordt gewijzigd, wordt OneDrive URL ook gewijzigd om de nieuwe UPN in te nemen. Als het account OneDrive van een gebruiker deel uitmaakt van een niet-bewaarder en de UPN wordt gewijzigd, moet u de wacht houden bijwerken en de nieuwe URL OneDrive aanwijzers. Zie [De invloed van wijzigingen aan de UPN op de URL van OneDrive](/onedrive/upn-changes) voor meer informatie.
 
    1. **Exchange openbare mappen:** verplaats de wisselknop naar de positie Alles om alle openbare mappen in uw Exchange Online in de wachtstand te zetten. Houd er rekening mee dat u geen specifieke openbare mappen kunt kiezen om in de wacht te zetten. Laat de wisselknop ingesteld op **Geen** als u openbare mappen niet in de wacht wilt zetten.
 
@@ -133,7 +133,7 @@ Microsoft Teams zijn gebaseerd op Office 365 Groepen. Daarom lijkt het plaatsen 
     ```
 
     > [!NOTE]
-    > Als u de Get-UnifiedGroup-cmdlet wilt uitvoeren, moet u de rol View-Only Geadresseerden toegewezen krijgen in Exchange Online of lid zijn van een rollengroep die de rol View-Only Geadresseerden heeft toegewezen.
+    > Als u de cmdlet Get-UnifiedGroup wilt uitvoeren, moet u de rol View-Only Recipients toegewezen krijgen in Exchange Online of lid zijn van een rollengroep aan wie de rol View-Only Recipients is toegewezen.
 
  - Wanneer het postvak van een gebruiker wordt doorzocht, wordt Microsoft 365 groep of Microsoft-team waar de gebruiker lid van is, niet doorzocht. Wanneer u een groeps- Microsoft 365 Microsoft-team in de wacht houdt, worden alleen het groepspostvak en de groepssite in de wacht gezet. de postvakken en OneDrive voor Bedrijven sites van groepsleden worden niet in de wacht gezet, tenzij u ze expliciet toevoegt als bewaarders of hun gegevensbronnen in de wacht houdt. Als u daarom een Microsoft 365-groep of Microsoft-team in de wacht moet zetten voor een specifieke voogd, kunt u overwegen om de groepssite en het groepspostvak toe tewijsen aan de beheerder (zie Beheerders beheren in Advanced eDiscovery). Als de Microsoft 365 groep of Microsoft-team niet kan worden toegeschreven aan één bewaarder, kunt u overwegen de bron toe te voegen aan een niet-bewaarder. 
  
@@ -144,13 +144,13 @@ Microsoft Teams zijn gebaseerd op Office 365 Groepen. Daarom lijkt het plaatsen 
    ```
 
     > [!NOTE]
-    > Als u de **cmdlet Get-UnifiedGroupLinks** wilt uitvoeren, moet u de rol View-Only Geadresseerden in Exchange Online krijgen of lid zijn van een rollengroep die de rol View-Only Geadresseerden heeft toegewezen.
+    > Als u de cmdlet **Get-UnifiedGroupLinks** wilt uitvoeren, moet u de rol View-Only Recipients toegewezen krijgen in Exchange Online of lid zijn van een rollengroep aan wie de rol View-Only Recipients is toegewezen.
 
-- Kanaalgesprekken die deel uitmaken van een Microsoft Teams kanaal, worden opgeslagen in het postvak dat is gekoppeld aan het team. Op dezelfde manier worden bestanden die teamleden delen in een kanaal opgeslagen op de SharePoint teamsite. Daarom moet u het Microsoft Team-postvak en de SharePoint in de wacht zetten om gesprekken en bestanden in een kanaal te behouden.
+- Kanaalgesprekken die deel uitmaken van een Microsoft Teams kanaal, worden opgeslagen in het postvak dat is gekoppeld aan het team. En bestanden die teamleden delen in een kanaal, worden opgeslagen op de SharePoint-site van het team. Daarom moet u het Microsoft Team-postvak en de SharePoint in de wacht zetten om gesprekken en bestanden in een kanaal te behouden.
   
 - U kunt ook gesprekken die deel uitmaken van de chatlijst in Microsoft Teams worden opgeslagen in het postvak van de gebruiker die deelneemt aan de chat.  Bestanden die een gebruiker in Chatgesprekken deelt, worden opgeslagen op OneDrive voor Bedrijven site van de gebruiker die het bestand deelt. Daarom moet u de afzonderlijke gebruikerspostvakken en -OneDrive voor Bedrijven in de wacht zetten om gesprekken en bestanden in de chatlijst te behouden. 
   
-- Elk Microsoft-team- of teamkanaal bevat een Wiki voor het maken van notitie en samenwerking. De Wiki-inhoud wordt automatisch opgeslagen in een bestand met een MHT-indeling. Dit bestand wordt opgeslagen in de Teams wikigegevens op de teamsite SharePoint wikigegevens. U kunt de inhoud in de Wiki in de wacht zetten door de site van het team SharePoint in de wacht te zetten.
+- Elk Microsoft-team- of teamkanaal bevat een Wiki voor het maken van notitie en samenwerking. De Wiki-inhoud wordt automatisch opgeslagen in een bestand met de MHT-indeling. Dit bestand wordt op de SharePoint-site van het team opgeslagen in de documentbibliotheek voor Wiki-gegevens van Teams. U kunt de inhoud in de Wiki in de wacht zetten door de site van het team SharePoint in de wacht te zetten.
 
   > [!NOTE]
   > De mogelijkheid om Wiki-inhoud te behouden voor een Microsoft-team- of teamkanaal (wanneer u de SharePoint-site van het team in de wacht zet) is uitgebracht op 22 juni 2017. Als een teamsite in de wacht staat, blijft de Wiki-inhoud behouden vanaf die datum. Als een teamsite echter in de wacht staat en de Wiki-inhoud vóór 22 juni 2017 is verwijderd, blijft de Wiki-inhoud niet behouden.

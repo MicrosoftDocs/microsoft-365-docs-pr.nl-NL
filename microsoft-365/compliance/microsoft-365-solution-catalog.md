@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365-oplossingscatalogus
+title: Microsoft 365-oplossingencatalogus
 f1.keywords:
 - NOCSH
 ms.author: robmazz
@@ -18,7 +18,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 04/30/2021
 ms.locfileid: "52162976"
 ---
-# <a name="microsoft-365-solution-catalog"></a>Microsoft 365-oplossingscatalogus
+# <a name="microsoft-365-solution-catalog"></a>Microsoft 365-oplossingencatalogus
 
 Zoekt u een manier om snel aan de slag te gaan met compliancetaken in Microsoft 365? Bekijk de [Microsoft 365-oplossingscatalogus](https://compliance.microsoft.com/solutioncatalog) om compliance- en risicobeheeroplossingen te ontdekken, te leren en snel aan de slag te gaan.
 

@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Wanneer u een vertrouwelijkheidslabel maakt, kunt u automatisch een label toewijzen aan bestanden en e-mailberichten of gebruikers vragen om het label te selecteren dat u aanbeveelt.
-ms.openlocfilehash: 4c39e5895c3315d77d7bfc211f0ba3e65f06659b
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: ad095db005421a58806d2775d4958cf3be5f474e
+ms.sourcegitcommit: 2cf7293d610a676726ac891b89366e23810d9142
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769291"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52866737"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Een vertrouwelijkheidslabel automatisch toepassen op inhoud
 
@@ -61,6 +61,7 @@ Er zijn twee verschillende methoden voor het automatisch toepassen van een vertr
     Specifiek voor automatisch labelen voor SharePoint en OneDrive:
     - Office-bestanden voor Word, PowerPoint en Excel worden ondersteund. Open XML-indeling wordt ondersteund (zoals .docx en .xlsx), maar niet de Microsoft Office 97-2003-indeling (zoals .doc en .xls).
         - Deze bestanden kunnen automatisch at rest worden gelabeld voor of nadat de beleidsregels voor automatisch labelen worden gemaakt. Bestanden kunnen niet automatisch worden gelabeld als ze deel uitmaken van een geopende sessie (het bestand is geopend).
+        - Momenteel worden bijlagen bij lijstitems niet ondersteund en niet automatisch gelabeld.
     - Maximaal 25.000 automatisch gelabelde bestanden in uw tenant per dag.
     - Maximaal tien beleidsregels voor automatisch labelen per tenant, elk voorzien voor maximaal tien sites (SharePoint of OneDrive).
     - Bestaande waarden voor gewijzigd, gewijzigd door en de datum worden niet gewijzigd als gevolg van beleidsregels voor automatisch labelen, voor de simulatiemodus en wanneer labels worden toegepast.
@@ -189,7 +190,7 @@ Specifiek voor ingebouwd labelen:
 
 - Voor aanbevolen labels in de desktopversies van Word wordt de vertrouwelijke inhoud die de aanbeveling heeft geactiveerd, gemarkeerd, zodat gebruikers de gevoelige inhoud kunnen beoordelen en verwijderen in plaats van het aanbevolen vertrouwelijkheidslabel toe te passen.
 
-- Zie [Automatisch vertrouwelijkheidslabels toepassen op of aanbevelen voor uw bestanden en e-mailberichten in Office](https://support.office.com/en-us/article/automatically-apply-or-recommend-sensitivity-labels-to-your-files-and-emails-in-office-622e0d9c-f38c-470a-bcdb-9e90b24d71a1) voor meer informatie over hoe deze labels worden toegepast in Office-apps, voorbeelden van schermafbeeldingen en hoe vertrouwelijke informatie wordt gedetecteerd.
+- Zie [Automatisch vertrouwelijkheidslabels toepassen op of aanbevelen voor uw bestanden en e-mailberichten in Office](https://support.office.com/nl-NL/article/automatically-apply-or-recommend-sensitivity-labels-to-your-files-and-emails-in-office-622e0d9c-f38c-470a-bcdb-9e90b24d71a1) voor meer informatie over hoe deze labels worden toegepast in Office-apps, voorbeelden van schermafbeeldingen en hoe vertrouwelijke informatie wordt gedetecteerd.
 
 Specifiek voor de geïntegreerde Azure Information Protection-labelclient:
 

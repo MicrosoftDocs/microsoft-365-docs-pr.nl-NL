@@ -115,7 +115,7 @@ Werken met het DLP-dashboard voor waarschuwingsbeheer:
     
     | Categorie          | Eigenschapsnaam                 | Beschrijving                                                                | Toepasselijke gebeurtenistypen                   |
     |-------------------|-------------------------------|----------------------------------------------------------------------------|------------------------------------------|
-    |*Gebeurtenisdetails*||
+    |*Details van de gebeurtenis*||
     |      | Id                            | Unieke id die is gekoppeld aan de gebeurtenis                                        | Alle gebeurtenissen                               |
     |                   | Locatie                      | Werkbelasting waarbij de gebeurtenis is gedetecteerd                                      | Alle gebeurtenissen                               |
     |                   | Tijd van activiteit              | Tijd van de gebruikersactiviteit die de DLP-schending heeft veroorzaakt                    | Alle gebeurtenissen                               |

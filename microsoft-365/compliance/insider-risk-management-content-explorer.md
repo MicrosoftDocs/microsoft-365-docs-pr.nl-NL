@@ -1,7 +1,7 @@
 ---
 title: Insider risk management Content explorer
 description: Meer informatie over insider risk management Content explorer in Microsoft 365
-keywords: Microsoft 365, insider risk management, risk management, compliance
+keywords: Microsoft 365, intern risicobeheer, risicobeheer, naleving
 localization_priority: Normal
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -68,7 +68,7 @@ Als u kolomkoppen voor de inhoudswachtrij wilt toevoegen of verwijderen, gebruik
 | **Afzender** | De afzender van een e-mailbericht. |
 | **Afzender/auteur** | Voor e-mail, de persoon die een bericht heeft verzonden. Voor documenten, de persoon die in het auteursveld wordt geciteerd uit Office documenten. U kunt meerdere namen typen, gescheiden door komma's. Twee of meer waarden zijn logisch verbonden door de operator OF. |
 | **Gevoelige informatietypen** | De gevoelige informatietypen die zijn geïdentificeerd in inhoud. |
-| **Vertrouwelijkheidslabels** | De gevoeligheidslabels die op de inhoud zijn toegepast. |
+| **Gevoeligheidslabels** | De gevoeligheidslabels die op de inhoud zijn toegepast. |
 | **Verzonden** | De datum waarop een e-mailbericht is verzonden door de afzender. Dit veld is dezelfde eigenschap als de eigenschap Verzonden e-mail. |
 | **Grootte** | Voor zowel e-mail als documenten, de grootte van het item (in bytes). |
 | **Onderwerp** | De tekst in de onderwerpregel van een e-mailbericht. |

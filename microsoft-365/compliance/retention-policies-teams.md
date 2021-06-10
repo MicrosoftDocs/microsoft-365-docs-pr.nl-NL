@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Lees meer over bewaarbeleid dat van toepassing is op Microsoft Teams.
-ms.openlocfilehash: db167894f32bcc1e30054b9cc4738af300b6d704
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 607fbdd02cfaccfee79df67c4946c178ff3eb383
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280797"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861573"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Meer informatie over retentie voor Microsoft Teams
 
@@ -48,9 +48,9 @@ Teams kunnen chatberichten en kanaalberichten verwijderen met behulp van bewaarb
 > [!NOTE]
 > Het opnemen van inhoud van kaarten in een bewaarbeleid voor Teams is een vrij recente toevoeging. Zie [Microsoft 365 compliance capabilities for Adaptive Card content through apps in Teams now available (Nalevingsmogelijkheden van Microsoft 365 voor inhoud van Adaptive Card via apps in Teams nu beschikbaar)](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-365-compliance-capabilities-for-adaptive-card-content/ba-p/2095869) voor meer informatie.
 
-Berichten van Teams in privékanalen worden momenteel niet ondersteund voor bewaarbeleid. Codefragmenten, opgenomen gesproken memo's van de mobiele Teams-client, miniaturen, aankondigingsafbeeldingen en reacties van anderen in de vorm van emoticons blijven niet behouden wanneer u bewaarbeleid voor Teams gebruikt.
+Berichten van teams in privékanalen worden momenteel niet ondersteund voor bewaarbeleid. Codefragmenten, opgenomen gesproken memo's van de mobiele Teams-client, miniaturen, aankondigingsafbeeldingen en reacties van anderen in de vorm van emoticons blijven niet behouden wanneer u bewaarbeleid voor Teams gebruikt.
 
-E-mailberichten en bestanden die u gebruikt in Teams, zijn niet opgenomen in bewaarbeleid voor Teams. Voor deze items gelden aparte bewaarbeleidsregels.
+E-mailberichten en bestanden die u gebruikt in Teams zijn niet opgenomen in bewaarbeleid voor Teams. Deze items hebben hun eigen bewaarbeleid.
 
 ## <a name="how-retention-works-with-microsoft-teams"></a>Hoe bewaarbeleid werkt met Microsoft Teams
 
@@ -76,6 +76,9 @@ Hoewel deze gegevens van Teams-chats en -kanaalberichten in postvakken worden op
 Nadat een bewaarbeleid voor chatberichten en kanaalberichten is geconfigureerd, controleert een timer voor de Exchange-service regelmatig items in de verborgen map waarin deze Teams-berichten zijn opgeslagen. Het duurt meestal 1-7 dagen voordat de timer wordt uitgevoerd. Wanneer de retentieperiode voor deze items is verstreken, worden ze verplaatst naar de map SubstrateHolds. Dit is een andere verborgen map in het postvak van elke gebruiker of groep waarin 'soft-verwijderde' items worden opgeslagen voordat ze definitief worden verwijderd. 
 
 Berichten blijven ten minste één dag in de map in de map SubstrateHolds staan. Als ze in aanmerking komen voor verwijdering, worden deze bij de volgende uitvoering definitief verwijderd door de timer.
+
+> [!NOTE]
+> Vanwege het [eerste bewaarprincipe](retention.md#the-principles-of-retention-or-what-takes-precedence) wordt een permanente verwijdering altijd opgeschort als hetzelfde item moet worden bewaard vanwege een ander bewaarbeleid of als het om juridische of onderzoeksredenen onder een eDiscovery-bewaring valt.
 
 Nadat een bewaarbeleid voor chat- en kanaalberichten is geconfigureerd, zijn de paden die de inhoud aflegt afhankelijk van of het bewaarbeleid bestaat uit het behouden en vervolgens verwijderen of alleen uit het behouden of verwijderen ervan.
 
@@ -187,7 +190,7 @@ Wanneer externe gebruikers worden opgenomen in een vergadering die uw organisati
 
 - Als een externe gebruiker deelneemt met behulp van een gastaccount in uw tenant, heeft deze gebruiker een schaduwpostvak dat kan worden onderworpen aan het bewaarbeleid van uw organisatie voor Teams. Alle berichten van de vergadering worden opgeslagen in het postvak van de gebruikers en in het schaduwpostvak. 
 
-- Als een externe gebruiker lid wordt van een account van een andere Microsoft 365-organisatie kunnen berichten voor deze gebruiker niet worden verwijderd door uw bewaarbeleid, omdat deze zijn opgeslagen in het postvak van die gebruiker in een andere tenant. Uw bewaarbeleid kan echter voor dezelfde vergadering berichten voor uw gebruikers verwijderen.
+- Als een externe gebruiker lid wordt van een account van een andere Microsoft 365-organisatie kunnen berichten voor deze gebruiker niet worden verwijderd door uw bewaarbeleid, omdat deze zijn opgeslagen in het postvak van die gebruiker in een andere tenant. Voor dezelfde vergadering kunnen berichten echter door uw bewaarbeleid worden verwijderd voor uw gebruikers.
 
 ## <a name="when-a-user-leaves-the-organization"></a>Wanneer een gebruiker de organisatie verlaat 
 
@@ -197,7 +200,7 @@ Raadpleeg de [equivalente sectie](retention-policies-sharepoint.md#when-a-user-l
 
 ## <a name="limitations"></a>Beperkingen
 
-We werken voortdurend aan het optimaliseren van retentiefunctionaliteit in Teams. Houd u in de tussentijd rekening met de volgende beperking wanneer u bewaarbeleid gebruikt voor kanaalberichten en chats in Teams:
+We werken voortdurend aan het optimaliseren van functionaliteit voor bewaren in Teams. In de tussentijd moet u rekening houden met de volgende beperking wanneer u bewaarbeleid gebruikt voor kanaalberichten en chats van Teams:
 
 - **Foutieve weergave in Outlook**. Als u bewaarbeleid voor Skype- of Teams-locaties maakt, wordt een van deze beleidsregels weergegeven als het standaardmapbeleid wanneer een gebruiker de eigenschappen van een postvakmap in de Outlook-bureaubladclient bekijkt. Dit is een foutieve weergave in Outlook; het [probleem is bekend](https://support.microsoft.com/help/4491013/outlook-client-displays-teams-or-skype-for-business-retention-policies). In plaats daarvan zou u het bewaarbeleid voor postvakken moeten zien dat wordt toegepast op de map. Het bewaarbeleid voor Skype of Teams wordt niet toegepast op het postvak van de gebruiker.
 

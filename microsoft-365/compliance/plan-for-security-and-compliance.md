@@ -80,6 +80,6 @@ Uw beveiligings- en compliance-instellingen configureren in deze beheercentra en
   
 |**Abonnement**|**Beheer-URL**|**Dashboards en beheercentra**|
 |:-----|:-----|:-----|
-|Microsoft 365  <br/> |`https://admin.microsoft.com`  <br/> | Microsoft 365-beheercentrum  <br/>  Beveiligings &amp; compliancecentrum  <br/>  Exchange beheercentrum  <br/>  SharePoint beheercentrum en OneDrive voor Bedrijven-beheercentrum  <br/> |
+|Microsoft 365  <br/> |`https://admin.microsoft.com`  <br/> | Microsoft 365-beheercentrum  <br/>  Beveiligings &amp; compliancecentrum  <br/>  Exchange-beheercentrum  <br/>  SharePoint beheercentrum en OneDrive voor Bedrijven-beheercentrum  <br/> |
 |Enterprise Mobility + Security  <br/> |`https://portal.azure.com`  <br/> | Microsoft Azure Active Directory  <br/>  Microsoft Mobile Application Management  <br/>  Microsoft Intune  <br/> |
 |Enterprise Mobility + Security  <br/> |`https://portal.cloudappsecurity.com`  <br/> | Cloud App Security  <br/> |

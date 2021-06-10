@@ -43,7 +43,7 @@ Het instellen van een fysieke verbindingslijn voor slechten bestaat uit de volge
 
 - U moet bepalen hoe u de gegevens op haalt of exporteert uit het fysieke systeem voor slecht werken van uw organisatie (dagelijks) en een JSON-bestand maakt dat wordt beschreven in stap 2. Met het script dat u in stap 4 hebt uitgevoerd, worden de gegevens in het JSON-bestand naar het API-eindpunt geleid.
 
-- Met het voorbeeldscript dat u in stap 4 hebt uitgevoerd, worden de fysieke gegevens van het JSON-bestand naar de connector-API geleid, zodat deze kunnen worden gebruikt door de oplossing voor insiderrisicobeheer. Dit voorbeeldscript wordt niet ondersteund onder een standaardondersteuningsprogramma of -service van Microsoft. Het voorbeeldscript wordt geleverd als IS zonder enige garantie. Microsoft wijst alle impliciete garanties verder af, inclusief, zonder beperking, impliciete garanties van verkoopbaarheid of geschiktheid voor een bepaald doel. Het volledige risico dat voortvloeit uit het gebruik of de prestaties van het voorbeeldscript en de documentatie blijft bij u. In geen geval zijn Microsoft, de auteurs of anderen die betrokken zijn bij het maken, produceren of leveren van de scripts aansprakelijk voor enige schade (met inbegrip van, zonder beperking, schade voor verlies van bedrijfswinsten, bedrijfsonderbreking, verlies van bedrijfsgegevens of ander geldverlies) als gevolg van het gebruik van of het onvermogen om de voorbeeldscripts of documentatie te gebruiken, zelfs als Microsoft op de hoogte is gesteld van de mogelijkheid van dergelijke schade.
+- Met het voorbeeldscript dat u in stap 4 hebt uitgevoerd, worden de fysieke gegevens van het JSON-bestand naar de connector-API geleid, zodat deze kunnen worden gebruikt door de oplossing voor insiderrisicobeheer. Dit voorbeeldscript wordt niet ondersteund onder een standaardondersteuningsprogramma of -service van Microsoft. Het voorbeeldscripts wordt zonder enige garantie ONGEWIJZIGD verstrekt. Microsoft wijst alle impliciete garanties met inbegrip van, maar niet beperkt tot, impliciete garanties van verkoopbaarheid en geschiktheid voor een bepaald doel af. Het risico dat ontstaat als gevolg van het gebruik of prestaties van het voorbeeldscript ligt geheel bij u. In geen geval kan Microsoft, haar auteurs of anderen die bij het maken, produceren of leveren van de scripts zijn betrokken, aansprakelijk worden gehouden voor enige schade om welke reden dan ook (met inbegrip van maar niet beperkt tot schade door verlies van bedrijfswinsten, belemmering van de bedrijfsuitvoering, verlies van bedrijfsinformatie of andere geldelijke verliezen) voortvloeiend uit het gebruik of de onmogelijkheid van het gebruik van de voorbeeldscripts, zelfs als Microsoft op de hoogte is gesteld van de mogelijkheid van dergelijke schade.
 
 ## <a name="step-1-create-an-app-in-azure-active-directory"></a>Stap 1: Een app maken in Azure Active Directory
 
@@ -63,9 +63,9 @@ De volgende stap is het maken van een JSON-bestand met informatie over de fysiek
 
 Het JSON-bestand moet voldoen aan de schemadefinitie die door de verbindingslijn is vereist. Hier zijn beschrijvingen van de vereiste schemaeigenschappen voor het JSON-bestand:
 
-|Eigenschap|Beschrijving|Gegevenstype|
+|Eigenschap|Omschrijving|Gegevenstype|
 |---|---|---|
-|UserId|Een werknemer kan meerdere digitale identiteiten hebben in de systemen. De invoer moet de Azure AD-id al zijn opgelost door het bronsysteem.|UPN of e-mailadres|
+|UserID|Een werknemer kan meerdere digitale identiteiten hebben in de systemen. De invoer moet de Azure AD-id al zijn opgelost door het bronsysteem.|UPN of e-mailadres|
 |AssetId|De verwijzings-id van het fysieke activum of het fysieke toegangspunt.|Alfanumerieke tekenreeks|
 |AssetName|De vriendelijke naam van het fysieke activum of het fysieke toegangspunt.|Alfanumerieke tekenreeks|
 |EventTime|Het tijdstempel van toegang.|Datum en tijd, in UTC-indeling|

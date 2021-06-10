@@ -16,13 +16,13 @@ ms.custom: nextgen
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.date: 06/08/2021
-ms.openlocfilehash: ccbb57d781196e352e0fed456a1f7cb43eb17300
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.date: 06/09/2021
+ms.openlocfilehash: 05b2b2af87e423058d18651571d52a97ac387506
+ms.sourcegitcommit: 3584c1fe59d12512d67faf3efc955e1d67e2baa0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822272"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52862145"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>Updates Microsoft Defender Antivirus en basislijnen toepassen
 
@@ -86,7 +86,7 @@ Al onze updates bevatten
 <summary> Mei-2021 (Platform: 4.18.2105.4 | Motor: 1.1.18200.4)</summary>
 
 &ensp;Versie van beveiligingsinformatieupdate: **1.341.8.0**  
-&ensp;Uitgebracht: **4 juni 2021**  
+&ensp;Uitgebracht: **3 juni 2021**  
 &ensp;Platform: **4.18.2105.4**  
 &ensp;Motor: **1.1.18200.4**  
 &ensp;Ondersteuningsfase: **Beveiligings- en kritieke updates**
@@ -102,15 +102,13 @@ Geen bekende problemen
 <summary> April-2021 (Platform: 4.18.2104.14 | Engine: 1.1.18100.5)</summary>
 
 &ensp;Versie van beveiligingsinformatieupdate: **1.337.2.0**  
-&ensp;Uitgebracht: **1 april 2021**  
-&ensp;Platform: **4.18.2104.14**  
+&ensp;Uitgebracht: **26 april 2021**  (Engine: 1.1.18100.6 uitgebracht op 5 mei 2021) &ensp; Platform: **4.18.2104.14**  
 &ensp;Motor: **1.1.18100.5**  
 &ensp;Ondersteuningsfase: **Beveiligings- en kritieke updates**
     
 ### <a name="whats-new"></a>Wat is er nieuw
 - Aanvullende logica voor gedragscontrole
 - Verbeterde detectie van keylogger in de kernelmodus
-- Nieuwe besturingselementen toegevoegd om het geleidelijke implementatieproces voor [Microsoft Defender-updates te beheren](updates.md)
 
 ### <a name="known-issues"></a>Bekende problemen
 Geen bekende problemen  
@@ -119,7 +117,7 @@ Geen bekende problemen
 <summary> Maart-2021 (Platform: 4.18.2103.7 | Motor: 1.1.18000.5)</summary>
 
 &ensp;Versie van beveiligingsinformatieupdate: **1.335.36.0**  
-&ensp;Uitgebracht: **1 april 2021**  
+&ensp;Uitgebracht: **2 april 2021**  
 &ensp;Platform: **4.18.2103.7**  
 &ensp;Motor: **1.1.18000.5**  
 &ensp;Ondersteuningsfase: **Beveiligings- en kritieke updates**
@@ -623,7 +621,7 @@ Zie Microsoft Defender update voor Windows [installatieafbeeldingen](https://sup
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-| Artikel | Beschrijving  |
+| Artikel | Omschrijving  |
 |:---|:---|
 |[Microsoft Defender-update voor Windows installatieafbeeldingen van besturingssysteem](https://support.microsoft.com/help/4568292/defender-update-for-windows-operating-system-installation-images)  | Controleer antimalware-updatepakketten voor installatieafbeeldingen van uw besturingssysteem (WIM- en VHD-bestanden). Ontvang Microsoft Defender Antivirus updates voor Windows 10 (Enterprise, Pro en Home editions), Windows Server 2019 en Windows Server 2016 installatieafbeeldingen.  |
 |[Beheren hoe beveiligingsupdates worden gedownload en toegepast](manage-protection-updates-microsoft-defender-antivirus.md) | Beveiligingsupdates kunnen via veel bronnen worden geleverd. |

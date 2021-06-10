@@ -1,7 +1,7 @@
 ---
 title: Cases voor insiderrisicobeheer
 description: Meer informatie over gevallen van insiderrisicobeheer in Microsoft 365
-keywords: Microsoft 365, insider risk management, risk management, compliance
+keywords: Microsoft 365, intern risicobeheer, risicobeheer, naleving
 localization_priority: Normal
 ms.prod: microsoft-365-enterprise
 ms.topic: article

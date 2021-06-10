@@ -87,7 +87,7 @@ Als u uw eigen nieuwe sjabloon wilt maken (die wordt gebruikt voor het maken van
 2. Selecteer **Nieuwe sjabloon maken.** Er wordt een wizard voor het maken van een sjabloon geopend.
 3. Kies het type sjabloon dat u wilt maken. Selecteer in dit geval **Een aangepaste sjabloon maken** en selecteer vervolgens **Volgende.**
 4. Selecteer **op Upload** scherm Bladeren  om het opgemaakte Excel-bestand met alle vereiste sjabloongegevens te zoeken en te uploaden (zie instructies voor het correct opmaken van [het bestand).](#formatting-your-template-data-with-excel)
-5. Als er geen problemen zijn met uw bestand, wordt de naam van het geüploade bestand weergegeven. Selecteer **Volgende om** door te gaan. (Als u het bestand wilt wijzigen, selecteert **u Upload een ander bestand**).
+5. Als er geen problemen zijn met uw bestand, wordt de naam van het geüploade bestand weergegeven. Selecteer **Volgende** om door te gaan. (Als u het bestand wilt wijzigen, selecteert **u Upload een ander bestand**).
     - Als er een fout met het bestand is, wordt in een foutbericht bovenaan uitgelegd wat er mis is. U moet het bestand herstellen en opnieuw uploaden. Er ontstaan fouten als uw spreadsheet onjuist is opgemaakt of als er ongeldige informatie in bepaalde velden staat (raadpleeg nogmaals de [opmaakinstructies).](#formatting-your-template-data-with-excel)  
     
 6. In **het scherm Controleren en** voltooien ziet u het aantal verbeteracties en besturingselementen en de maximale score voor de sjabloon. Wanneer u klaar bent om het goed te keuren, **selecteert u Sjabloon maken.** (Als u wijzigingen wilt aanbrengen, selecteert u **Terug**.)

@@ -36,7 +36,7 @@ Zie de [sectie Meer informatie](#more-information) voor een beschrijving van wat
   
 ## <a name="before-you-delete-an-inactive-mailbox"></a>Voordat u een inactief postvak verwijdert
 
-- U moet powershell Exchange Online gebruiken om een geschil in een inactief postvak te verwijderen. U kunt het beheercentrum Exchange (EAC) niet gebruiken. Zie voor stapsgewijs instructies de [Verbinding maken powershell Exchange Online gebruiken.](/powershell/exchange/connect-to-exchange-online-powershell)
+- U moet powershell Exchange Online gebruiken om een geschil in een inactief postvak te verwijderen. U kunt het beheercentrum Exchange (EAC) niet gebruiken. Zie [Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) (Verbinding maken met Exchange Online PowerShell) voor stapsgewijze instructies.
 
 - U kunt de inhoud van een inactief postvak naar een ander postvak kopiëren voordat u de wacht houdt en een inactief postvak verwijdert. Zie Een [inactief postvak terugzetten in](restore-an-inactive-mailbox.md)Office 365 voor meer Office 365.
 

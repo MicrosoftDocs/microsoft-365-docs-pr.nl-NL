@@ -56,7 +56,7 @@ Nadat u uw DLP-beleid (Data Loss Prevention) heeft gemaakt, moet u controleren o
     
   - Ontdek waar DLP-beleid strijdig is met geldige bedrijfsprocessen door een groot aantal gebruikers te overschrijven.
     
-Alle DLP-rapporten kunnen gegevens uit de meest recente periode van vier maanden laten zien. Het kan 24 uur duren voordat de meest recente gegevens in de rapporten worden weergegeven.
+Alle DLP-rapporten kunnen gegevens uit de meest recente periode van vier maanden laten zien. Het kan tot 24 uur duren voordat de meest recente gegevens worden weergegeven in het rapport.
   
 U vindt deze rapporten in het dashboard Rapporten van het &amp; Beveiligings \>  \> **compliancecentrum.**
   

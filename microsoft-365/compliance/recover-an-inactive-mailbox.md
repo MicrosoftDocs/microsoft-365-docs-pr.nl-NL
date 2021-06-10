@@ -42,7 +42,7 @@ Zie de [sectie Meer](#more-information) informatie voor meer informatie over de 
 
 ## <a name="requirements-to-recover-an-inactive-mailbox"></a>Vereisten voor het herstellen van een inactief postvak
 
-- U moet powershell Exchange Online gebruiken om een inactief postvak te herstellen. U kunt het beheercentrum Exchange (EAC) niet gebruiken. Zie voor stapsgewijs instructies de [Verbinding maken powershell Exchange Online gebruiken.](/powershell/exchange/connect-to-exchange-online-powershell)
+- U moet powershell Exchange Online gebruiken om een inactief postvak te herstellen. U kunt het beheercentrum Exchange (EAC) niet gebruiken. Zie [Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) (Verbinding maken met Exchange Online PowerShell) voor stapsgewijze instructies.
 
 - Voer de volgende opdracht uit om identiteitsgegevens op te halen voor de inactieve postvakken in uw organisatie.
 

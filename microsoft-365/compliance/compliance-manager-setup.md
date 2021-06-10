@@ -89,9 +89,9 @@ In de onderstaande tabel ziet u de functies die door elke rol in Compliance Mana
 
 | Gebruiker kan: | Rol compliancebeheer | Azure AD-rol | 
 | :------------- | :-------------: | :------------: |
-| **Gegevens lezen, maar niet bewerken**| Lezer compliancebeheer  | Azure AD Global Reader, Beveiligingslezer | 
+| **Gegevens lezen, maar niet bewerken**| Compliancebeheer - Lezer  | Azure AD Global Reader, Beveiligingslezer | 
 | **Gegevens bewerken**| Bijdrage compliancebeheer | Compliancebeheerder | 
-| **Testresultaten bewerken**| Compliance manager-beoordelaar | Compliancebeheerder | 
+| **Testresultaten bewerken**| Compliancebeheer - Beoordelaar | Compliancebeheerder | 
 | **Evaluaties en sjabloon- en tenantgegevens beheren**| Beheer van compliancebeheer | Compliancebeheerder, compliancegegevensbeheerder, beveiligingsbeheerder  | 
 | **Gebruikers toewijzen**| Globale beheerder | Globale beheerder | 
 

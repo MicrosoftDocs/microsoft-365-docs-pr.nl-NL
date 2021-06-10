@@ -70,7 +70,7 @@ Zie Waarschuwingsbeleid in het beveiligings- en compliancecentrum voor stapsgewi
 
 ## <a name="task-5-classify-and-protect-sensitive-data"></a>Taak 5: gevoelige gegevens classificeren en beveiligen
 
-Om hun werk gedaan te krijgen, werken personen in uw organisatie samen met anderen, zowel binnen als buiten de organisatie. Dit betekent dat inhoud niet langer achter een firewall blijft, maar overal kan worden gebruikt, op verschillende apparaten, apps en services. En wanneer deze roamt, wilt u dit doen op een veilige, beveiligde manier die voldoet aan het bedrijfs- en compliancebeleid van uw organisatie.
+Om hun werk af te krijgen, werken personen in uw organisatie samen met anderen binnen de organisatie, maar ook met externe personen. Dit betekent dat de inhoud niet langer achter een firewall blijft. De inhoud kan overal worden gebruikt, op verschillende apparaten, apps en services. Wanneer de inhoud elders wordt gebruikt, wilt u dat dat gebeurt in een veilige, beschermde manier die voldoet aan het bedrijfs- en nalevingsbeleid van uw organisatie.
 
 [Met gevoeligheidslabels](sensitivity-labels.md) kunt u de gegevens van uw organisatie classificeren en beveiligen, terwijl u ervoor zorgt dat de productiviteit van gebruikers en de mogelijkheid om samen te werken niet wordt gehinderd. Gebruik gevoeligheidslabels om versleuteling af te dwingen en gebruiksbeperkingen visuele markeringen toe te passen en informatie te beveiligen op platforms en apparaten, on-premises en in de cloud.
 
@@ -84,7 +84,7 @@ Wanneer inhoud is onderworpen aan een bewaarbeleid, kunnen personen de inhoud bl
 
 U kunt snel een bewaarbeleid voeren voor meerdere locaties in uw Microsoft 365-omgeving, zoals Exchange-e-mail, SharePoint-sites, OneDrive-accounts en Microsoft 365-groepen. Er zijn geen limieten voor het aantal postvakken of sites dat dit beleid automatisch kan bevatten. Maar als u selectiever wilt worden, kunt u dit doen door een bewaarbeleid voor specifieke locaties te configureren en sites of gebruikers op te nemen of uit te sluiten.
 
-Zie Bewaarbeleid maken en configureren voor stapsgewijs richtlijnen voor het configureren van een [bewaarbeleid.](create-retention-policies.md) Zie Aan de slag met bewaarbeleid en bewaarlabels als u het bewaren in Microsoft 365 nieuw [bent.](get-started-with-retention.md)
+Zie Bewaarbeleid maken en configureren voor stapsgewijs richtlijnen voor het configureren van een [bewaarbeleid.](create-retention-policies.md) Zie [Aan de slag met bewaarbeleid en retentielabels](get-started-with-retention.md) als het configureren van retentie in Microsoft 365 nieuw voor u is.
 
 ## <a name="task-7-configure-sensitive-information-and-offensive-language-policies"></a>Taak 7: Gevoelige informatie en aanstootgevend taalbeleid configureren
 
@@ -105,7 +105,7 @@ Gevoeligheidslabels, gevoelige informatietypen, bewaarlabels en beleidsregels en
 
 Zie Uw gegevens [kennen -](data-classification-overview.md)overzicht van gegevensclassificatie en Aan de slag met inhoudsverkenner voor stapsgewijse richtlijnen voor het gebruik [van inhoudsverkenner.](data-classification-content-explorer.md)
 
-### <a name="activity-explorer"></a>Activiteitsverkenner
+### <a name="activity-explorer"></a>Activiteitenverkenner
 Met Activity Explorer kunt u controleren wat er wordt gedaan met uw geclassificeerde en gelabelde gevoelige items in:
 - SharePoint
 - Exchange
