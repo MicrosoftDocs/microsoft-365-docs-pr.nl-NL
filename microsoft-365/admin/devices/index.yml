@@ -32,7 +32,7 @@ landingContent:
       url: /mem/intune/enrollment/device-enrollment
   - linkListType: how-to-guide
     links:
-    - text: Automatische inschrijving instellen voor Windows 10-apparaten
+    - text: Automatische inschrijving instellen voor Windows 10 apparaten
       url: /mem/intune/enrollment/quickstart-setup-auto-enrollment
     - text: Android-inschrijving instellen
       url: /mem/intune/enrollment/android-enroll
@@ -46,7 +46,7 @@ landingContent:
       url: ../../business/view-policies-and-devices.md
     - text: Bedrijfsgegevens van apparaten verwijderen
       url: ../../business/remove-company-data.md
-    - text: Windows-apparaten opnieuw instellen op fabrieksinstellingen
+    - text: Apparaten Windows fabrieksinstellingen opnieuw instellen
       url: ../../business/reset-devices-to-factory-settings.md
 - title: Apparaten en app-gegevens beheren met Microsoft 365 voor bedrijven
   linkLists:

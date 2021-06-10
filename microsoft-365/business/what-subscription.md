@@ -18,7 +18,7 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Bepaal of Office 365 E3, Microsoft 365 Business Standard of Microsoft 365 Business Premium juist is voor uw bedrijf.
+description: Bepaal of Office 365 E3, Microsoft 365 Business Standard of Microsoft 365 Business Premium voor uw bedrijf is.
 ms.openlocfilehash: 2f8c59e0af619730060862fc8ee24a702ca00343
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -26,6 +26,6 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 04/02/2021
 ms.locfileid: "51579817"
 ---
-# <a name="what-subscription-is-right-for-your-small-business"></a><span data-ttu-id="cf725-103">Welk abonnement is het juiste voor uw kleine bedrijf?</span><span class="sxs-lookup"><span data-stu-id="cf725-103">What subscription is right for your small business?</span></span>
+# <a name="what-subscription-is-right-for-your-small-business"></a><span data-ttu-id="dd42b-103">Welk abonnement is het juiste voor uw kleine bedrijf?</span><span class="sxs-lookup"><span data-stu-id="dd42b-103">What subscription is right for your small business?</span></span>
 
-<span data-ttu-id="cf725-104">Microsoft biedt verschillende abonnementen voor kleine bedrijven.</span><span class="sxs-lookup"><span data-stu-id="cf725-104">Microsoft offers several plans for small businesses.</span></span> <span data-ttu-id="cf725-105">De aanbevolen abonnementen zijn Microsoft 365 Business Standard of Microsoft 365 Business Premium met maximaal 300 gebruikers.</span><span class="sxs-lookup"><span data-stu-id="cf725-105">The recommended subscriptions are either Microsoft 365 Business Standard or Microsoft 365 Business Premium with up to 300 users.</span></span> <span data-ttu-id="cf725-106">Microsoft 365 Business Premium biedt meer beveiligingsfuncties dan Microsoft 365 Business Standard voor extra kosten.</span><span class="sxs-lookup"><span data-stu-id="cf725-106">Microsoft 365 Business Premium offers more security features than Microsoft 365 Business Standard for an added cost.</span></span>
+<span data-ttu-id="dd42b-104">Microsoft biedt verschillende abonnementen voor kleine bedrijven.</span><span class="sxs-lookup"><span data-stu-id="dd42b-104">Microsoft offers several plans for small businesses.</span></span> <span data-ttu-id="dd42b-105">De aanbevolen abonnementen zijn Microsoft 365 Business Standard of Microsoft 365 Business Premium maximaal 300 gebruikers.</span><span class="sxs-lookup"><span data-stu-id="dd42b-105">The recommended subscriptions are either Microsoft 365 Business Standard or Microsoft 365 Business Premium with up to 300 users.</span></span> <span data-ttu-id="dd42b-106">Microsoft 365 Business Premium biedt meer beveiligingsfuncties dan Microsoft 365 Business Standard extra kosten.</span><span class="sxs-lookup"><span data-stu-id="dd42b-106">Microsoft 365 Business Premium offers more security features than Microsoft 365 Business Standard for an added cost.</span></span>
