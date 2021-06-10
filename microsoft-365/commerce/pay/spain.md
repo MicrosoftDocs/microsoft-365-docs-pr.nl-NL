@@ -20,17 +20,17 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52534892"
 ---
-# <a name="payment-information-for-spain"></a><span data-ttu-id="1518b-103">Betalingsgegevens voor Spanje</span><span class="sxs-lookup"><span data-stu-id="1518b-103">Payment information for Spain</span></span>
+# <a name="payment-information-for-spain"></a><span data-ttu-id="0e3d4-103">Betalingsgegevens voor Spanje</span><span class="sxs-lookup"><span data-stu-id="0e3d4-103">Payment information for Spain</span></span>
 
-<span data-ttu-id="1518b-104">[Zoek een ander land of een andere regio.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="1518b-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="0e3d4-104">[Zoek een ander land of een andere regio.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="0e3d4-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="1518b-105">Betaal alleen in EUR en vermeld het factuurnummer(en) bij de overboeking van uw betaling.</span><span class="sxs-lookup"><span data-stu-id="1518b-105">Please pay in EUR only and reference invoice number(s) on your payment remittance.</span></span>
+<span data-ttu-id="0e3d4-105">Betaal alleen in EUR en vermeld het factuurnummer(en) bij de overboeking van uw betaling.</span><span class="sxs-lookup"><span data-stu-id="0e3d4-105">Please pay in EUR only and reference invoice number(s) on your payment remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="1518b-106">Elektronische betaling</span><span class="sxs-lookup"><span data-stu-id="1518b-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="0e3d4-106">Elektronische betaling</span><span class="sxs-lookup"><span data-stu-id="0e3d4-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="1518b-107">**Bank:** Citibank, Londen</span><span class="sxs-lookup"><span data-stu-id="1518b-107">**Bank:** Citibank, London</span></span>  
-<span data-ttu-id="1518b-108">**SWIFT-code/BIC:** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="1518b-108">**SWIFT Code/BIC:** CITIGB2L</span></span>  
-<span data-ttu-id="1518b-109">**IBAN:** GB31CITI18500812207591</span><span class="sxs-lookup"><span data-stu-id="1518b-109">**IBAN:** GB31CITI18500812207591</span></span>  
-<span data-ttu-id="1518b-110">**SORT-code:** 185008</span><span class="sxs-lookup"><span data-stu-id="1518b-110">**SORT Code:** 185008</span></span>  
-<span data-ttu-id="1518b-111">**Accountnummer:** 12207591</span><span class="sxs-lookup"><span data-stu-id="1518b-111">**Account Number:** 12207591</span></span>  
-<span data-ttu-id="1518b-112">**Accountnaam:** MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="1518b-112">**Account Name:** MICROSOFT</span></span>
+<span data-ttu-id="0e3d4-107">**Bank:** Citibank, Londen</span><span class="sxs-lookup"><span data-stu-id="0e3d4-107">**Bank:** Citibank, London</span></span>  
+<span data-ttu-id="0e3d4-108">**SWIFT-code/BIC:** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="0e3d4-108">**SWIFT Code/BIC:** CITIGB2L</span></span>  
+<span data-ttu-id="0e3d4-109">**IBAN:** GB31CITI18500812207591</span><span class="sxs-lookup"><span data-stu-id="0e3d4-109">**IBAN:** GB31CITI18500812207591</span></span>  
+<span data-ttu-id="0e3d4-110">**SORT-code:** 185008</span><span class="sxs-lookup"><span data-stu-id="0e3d4-110">**SORT Code:** 185008</span></span>  
+<span data-ttu-id="0e3d4-111">**Accountnummer:** 12207591</span><span class="sxs-lookup"><span data-stu-id="0e3d4-111">**Account Number:** 12207591</span></span>  
+<span data-ttu-id="0e3d4-112">**Accountnaam:** MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="0e3d4-112">**Account Name:** MICROSOFT</span></span>
