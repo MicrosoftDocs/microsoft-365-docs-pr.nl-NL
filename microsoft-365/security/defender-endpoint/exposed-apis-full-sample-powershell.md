@@ -24,48 +24,48 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 06/08/2021
 ms.locfileid: "52842060"
 ---
-# <a name="microsoft-defender-for-endpoint-apis-using-powershell"></a><span data-ttu-id="24859-104">Microsoft Defender voor eindpunt-API's met PowerShell</span><span class="sxs-lookup"><span data-stu-id="24859-104">Microsoft Defender for Endpoint APIs using PowerShell</span></span>
+# <a name="microsoft-defender-for-endpoint-apis-using-powershell"></a><span data-ttu-id="7a81a-104">Microsoft Defender voor eindpunt-API's met PowerShell</span><span class="sxs-lookup"><span data-stu-id="7a81a-104">Microsoft Defender for Endpoint APIs using PowerShell</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-<span data-ttu-id="24859-105">**Van toepassing op:** [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)</span><span class="sxs-lookup"><span data-stu-id="24859-105">**Applies to:** [Microsoft Defender for Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)</span></span>
+<span data-ttu-id="7a81a-105">**Van toepassing op:** [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)</span><span class="sxs-lookup"><span data-stu-id="7a81a-105">**Applies to:** [Microsoft Defender for Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)</span></span>
 
-> <span data-ttu-id="24859-106">Wilt u Microsoft Defender voor Eindpunt ervaren?</span><span class="sxs-lookup"><span data-stu-id="24859-106">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="24859-107">Meld u aan voor een gratis proefabonnement.</span><span class="sxs-lookup"><span data-stu-id="24859-107">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+> <span data-ttu-id="7a81a-106">Wilt u Microsoft Defender voor Eindpunt ervaren?</span><span class="sxs-lookup"><span data-stu-id="7a81a-106">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="7a81a-107">Meld u aan voor een gratis proefabonnement.</span><span class="sxs-lookup"><span data-stu-id="7a81a-107">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
-><span data-ttu-id="24859-108">Wilt u Microsoft Defender voor Eindpunt ervaren?</span><span class="sxs-lookup"><span data-stu-id="24859-108">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="24859-109">Meld u aan voor een gratis proefabonnement.</span><span class="sxs-lookup"><span data-stu-id="24859-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-enablesiem-abovefoldlink)
+><span data-ttu-id="7a81a-108">Wilt u Microsoft Defender voor Eindpunt ervaren?</span><span class="sxs-lookup"><span data-stu-id="7a81a-108">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="7a81a-109">Meld u aan voor een gratis proefabonnement.</span><span class="sxs-lookup"><span data-stu-id="7a81a-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-enablesiem-abovefoldlink)
 
-<span data-ttu-id="24859-110">Volledig scenario met meerdere API's van Microsoft Defender voor Eindpunt.</span><span class="sxs-lookup"><span data-stu-id="24859-110">Full scenario using multiple APIs from Microsoft Defender for Endpoint.</span></span>
+<span data-ttu-id="7a81a-110">Volledig scenario met meerdere API's van Microsoft Defender voor Eindpunt.</span><span class="sxs-lookup"><span data-stu-id="7a81a-110">Full scenario using multiple APIs from Microsoft Defender for Endpoint.</span></span>
 
-<span data-ttu-id="24859-111">In deze sectie delen we PowerShell-voorbeelden met</span><span class="sxs-lookup"><span data-stu-id="24859-111">In this section, we share PowerShell samples to</span></span> 
-- <span data-ttu-id="24859-112">Een token ophalen</span><span class="sxs-lookup"><span data-stu-id="24859-112">Retrieve a token</span></span> 
-- <span data-ttu-id="24859-113">Token gebruiken om de meest recente waarschuwingen in Microsoft Defender voor Eindpunt op te halen</span><span class="sxs-lookup"><span data-stu-id="24859-113">Use token to retrieve the latest alerts in Microsoft Defender for Endpoint</span></span>
-- <span data-ttu-id="24859-114">Controleer voor elke waarschuwing, als de waarschuwing een gemiddelde of hoge prioriteit heeft en nog steeds wordt uitgevoerd, hoe vaak het apparaat is verbonden met verdachte URL.</span><span class="sxs-lookup"><span data-stu-id="24859-114">For each alert, if the alert has medium or high priority and is still in progress, check how many times the device has connected to suspicious URL.</span></span>
+<span data-ttu-id="7a81a-111">In deze sectie delen we PowerShell-voorbeelden met</span><span class="sxs-lookup"><span data-stu-id="7a81a-111">In this section, we share PowerShell samples to</span></span> 
+- <span data-ttu-id="7a81a-112">Een token ophalen</span><span class="sxs-lookup"><span data-stu-id="7a81a-112">Retrieve a token</span></span> 
+- <span data-ttu-id="7a81a-113">Token gebruiken om de meest recente waarschuwingen in Microsoft Defender voor Eindpunt op te halen</span><span class="sxs-lookup"><span data-stu-id="7a81a-113">Use token to retrieve the latest alerts in Microsoft Defender for Endpoint</span></span>
+- <span data-ttu-id="7a81a-114">Controleer voor elke waarschuwing, als de waarschuwing een gemiddelde of hoge prioriteit heeft en nog steeds wordt uitgevoerd, hoe vaak het apparaat is verbonden met verdachte URL.</span><span class="sxs-lookup"><span data-stu-id="7a81a-114">For each alert, if the alert has medium or high priority and is still in progress, check how many times the device has connected to suspicious URL.</span></span>
 
-<span data-ttu-id="24859-115">**Vereiste:** u moet eerst [een app maken.](apis-intro.md)</span><span class="sxs-lookup"><span data-stu-id="24859-115">**Prerequisite**: You first need to [create an app](apis-intro.md).</span></span>
+<span data-ttu-id="7a81a-115">**Vereiste:** u moet eerst [een app maken.](apis-intro.md)</span><span class="sxs-lookup"><span data-stu-id="7a81a-115">**Prerequisite**: You first need to [create an app](apis-intro.md).</span></span>
 
-## <a name="preparation-instructions"></a><span data-ttu-id="24859-116">Voorbereidingsinstructies</span><span class="sxs-lookup"><span data-stu-id="24859-116">Preparation instructions</span></span>
+## <a name="preparation-instructions"></a><span data-ttu-id="7a81a-116">Voorbereidingsinstructies</span><span class="sxs-lookup"><span data-stu-id="7a81a-116">Preparation instructions</span></span>
 
-- <span data-ttu-id="24859-117">Open een PowerShell-venster.</span><span class="sxs-lookup"><span data-stu-id="24859-117">Open a PowerShell window.</span></span>
-- <span data-ttu-id="24859-118">Als u de PowerShell-opdrachten niet kunt uitvoeren in uw beleid, kunt u de onderstaande opdracht uitvoeren:</span><span class="sxs-lookup"><span data-stu-id="24859-118">If your policy does not allow you to run the PowerShell commands, you can run the below command:</span></span>
+- <span data-ttu-id="7a81a-117">Open een PowerShell-venster.</span><span class="sxs-lookup"><span data-stu-id="7a81a-117">Open a PowerShell window.</span></span>
+- <span data-ttu-id="7a81a-118">Als u de PowerShell-opdrachten niet kunt uitvoeren in uw beleid, kunt u de onderstaande opdracht uitvoeren:</span><span class="sxs-lookup"><span data-stu-id="7a81a-118">If your policy does not allow you to run the PowerShell commands, you can run the below command:</span></span>
   ```
   Set-ExecutionPolicy -ExecutionPolicy Bypass
   ```
 
-<span data-ttu-id="24859-119">Zie [PowerShell-documentatie](/powershell/module/microsoft.powershell.security/set-executionpolicy) voor meer informatie</span><span class="sxs-lookup"><span data-stu-id="24859-119">For more information, see [PowerShell documentation](/powershell/module/microsoft.powershell.security/set-executionpolicy)</span></span>
+<span data-ttu-id="7a81a-119">Zie [PowerShell-documentatie](/powershell/module/microsoft.powershell.security/set-executionpolicy) voor meer informatie</span><span class="sxs-lookup"><span data-stu-id="7a81a-119">For more information, see [PowerShell documentation](/powershell/module/microsoft.powershell.security/set-executionpolicy)</span></span>
 
-## <a name="get-token"></a><span data-ttu-id="24859-120">Token krijgen</span><span class="sxs-lookup"><span data-stu-id="24859-120">Get token</span></span>
+## <a name="get-token"></a><span data-ttu-id="7a81a-120">Token krijgen</span><span class="sxs-lookup"><span data-stu-id="7a81a-120">Get token</span></span>
 
-<span data-ttu-id="24859-121">Voer het volgende uit:</span><span class="sxs-lookup"><span data-stu-id="24859-121">Run the below:</span></span>
+<span data-ttu-id="7a81a-121">Voer het volgende uit:</span><span class="sxs-lookup"><span data-stu-id="7a81a-121">Run the below:</span></span>
 
-- <span data-ttu-id="24859-122">$tenantId: id van de tenant namens wie u de query wilt uitvoeren (dat wil zeggen dat de query wordt uitgevoerd op de gegevens van deze tenant)</span><span class="sxs-lookup"><span data-stu-id="24859-122">$tenantId: ID of the tenant on behalf of which you want to run the query (i.e., the query will be run on the data of this tenant)</span></span>
-- <span data-ttu-id="24859-123">$appId: id van uw AAD-app (de app moet de machtiging Geavanceerde query's uitvoeren hebben voor Defender voor Eindpunt)</span><span class="sxs-lookup"><span data-stu-id="24859-123">$appId: ID of your AAD app (the app must have 'Run advanced queries' permission to Defender for Endpoint)</span></span>
-- <span data-ttu-id="24859-124">$appSecret: Geheim van uw Azure AD-app</span><span class="sxs-lookup"><span data-stu-id="24859-124">$appSecret: Secret of your Azure AD app</span></span>
+- <span data-ttu-id="7a81a-122">$tenantId: id van de tenant namens wie u de query wilt uitvoeren (dat wil zeggen dat de query wordt uitgevoerd op de gegevens van deze tenant)</span><span class="sxs-lookup"><span data-stu-id="7a81a-122">$tenantId: ID of the tenant on behalf of which you want to run the query (i.e., the query will be run on the data of this tenant)</span></span>
+- <span data-ttu-id="7a81a-123">$appId: id van uw AAD-app (de app moet de machtiging Geavanceerde query's uitvoeren hebben voor Defender voor Eindpunt)</span><span class="sxs-lookup"><span data-stu-id="7a81a-123">$appId: ID of your AAD app (the app must have 'Run advanced queries' permission to Defender for Endpoint)</span></span>
+- <span data-ttu-id="7a81a-124">$appSecret: Geheim van uw Azure AD-app</span><span class="sxs-lookup"><span data-stu-id="7a81a-124">$appSecret: Secret of your Azure AD app</span></span>
 
-- <span data-ttu-id="24859-125">$suspiciousUrl: De URL</span><span class="sxs-lookup"><span data-stu-id="24859-125">$suspiciousUrl: The URL</span></span>
+- <span data-ttu-id="7a81a-125">$suspiciousUrl: De URL</span><span class="sxs-lookup"><span data-stu-id="7a81a-125">$suspiciousUrl: The URL</span></span>
 
 
 ```
@@ -129,7 +129,7 @@ $response
 ```
 
 
-## <a name="see-also"></a><span data-ttu-id="24859-126">Zie ook</span><span class="sxs-lookup"><span data-stu-id="24859-126">See also</span></span>
-- [<span data-ttu-id="24859-127">Microsoft Defender voor eindpunt-API's</span><span class="sxs-lookup"><span data-stu-id="24859-127">Microsoft Defender for Endpoint APIs</span></span>](apis-intro.md)
-- [<span data-ttu-id="24859-128">Geavanceerde API voor opsporing</span><span class="sxs-lookup"><span data-stu-id="24859-128">Advanced Hunting API</span></span>](run-advanced-query-api.md)
-- [<span data-ttu-id="24859-129">Geavanceerde opsporing met behulp van Python</span><span class="sxs-lookup"><span data-stu-id="24859-129">Advanced Hunting using Python</span></span>](run-advanced-query-sample-python.md)
+## <a name="see-also"></a><span data-ttu-id="7a81a-126">Zie ook</span><span class="sxs-lookup"><span data-stu-id="7a81a-126">See also</span></span>
+- [<span data-ttu-id="7a81a-127">Microsoft Defender voor eindpunt-API's</span><span class="sxs-lookup"><span data-stu-id="7a81a-127">Microsoft Defender for Endpoint APIs</span></span>](apis-intro.md)
+- [<span data-ttu-id="7a81a-128">Geavanceerde API voor opsporing</span><span class="sxs-lookup"><span data-stu-id="7a81a-128">Advanced Hunting API</span></span>](run-advanced-query-api.md)
+- [<span data-ttu-id="7a81a-129">Geavanceerde opsporing met behulp van Python</span><span class="sxs-lookup"><span data-stu-id="7a81a-129">Advanced Hunting using Python</span></span>](run-advanced-query-sample-python.md)
