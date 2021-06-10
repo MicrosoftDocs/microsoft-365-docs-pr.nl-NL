@@ -34,7 +34,7 @@ ms.locfileid: "52065139"
 
 - [Zakelijke e-mail instellen met een bestaand domein](#set-up-business-email-with-an-existing-domain)
 
-Wanneer u Microsoft 365 voor uw bedrijf in stelt, kunt u een aangepast e-mailadres maken met uw bedrijfsnaam. Dit maakt het adres gemakkelijker te onthouden, biedt u en uw werknemers dezelfde e-mail met hetzelfde merk en biedt meer beveiliging in de Microsoft Cloud. 
+Wanneer u een Microsoft 365 voor uw bedrijf, kunt u een aangepast e-mailadres maken met uw bedrijfsnaam. Dit maakt het adres gemakkelijker te onthouden, biedt u en uw werknemers dezelfde e-mail met hetzelfde merk en biedt meer beveiliging in de Microsoft Cloud. 
 
 ## <a name="set-up-business-email-with-a-new-domain"></a>Zakelijke e-mail instellen met een nieuw domein
 
@@ -61,4 +61,4 @@ Gebruik een domeinnaam die u al hebt, ongeacht of u deze gebruikt voor een websi
 1. Pas het e-mailadres aan of laat het zoals het is. 
 1. Meld u af bij Microsoft 365 en meld u vervolgens weer aan met uw nieuwe e-mailadres. Uw e-mailadressen van werknemers worden bijgewerkt met het nieuwe domein. 
 1. Deel de nieuwe e-mailadressen met uw werknemers door de lijst te exporteren.
-1. Verbind uw domein met Microsoft 365 door stap 1 hierboven te herhalen. 
+1. Verbinding maken domein te Microsoft 365 door stap 1 hierboven te herhalen. 

@@ -44,7 +44,7 @@ Wanneer u op de widget klikt, wordt er een flyout weergegeven waar u meer inform
 
 U kunt ook naar deze detailspagina gaan wanneer u het inzicht selecteert nadat u op Alles weergeven hebt geklikt **in** het gebied Top **insights & aanbevelingen** op ( \> **Rapportendashboard** of <https://protection.office.com/insightdashboard> ).
 
-Als u wilt voorkomen dat berichten automatisch worden doorgestuurd naar externe domeinen, configureert u een extern domein voor sommige of alle externe domeinen. Zie Externe domeinen beheren in Exchange Online voor [meer informatie.](/Exchange/mail-flow-best-practices/remote-domains/manage-remote-domains)
+Als u wilt voorkomen dat berichten automatisch worden doorgestuurd naar externe domeinen, configureert u een extern domein voor sommige of alle externe domeinen. Zie Externe domeinen beheren in Exchange Online voor [meer Exchange Online.](/Exchange/mail-flow-best-practices/remote-domains/manage-remote-domains)
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 

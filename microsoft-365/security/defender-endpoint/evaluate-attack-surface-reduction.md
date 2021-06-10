@@ -14,12 +14,12 @@ ms.author: deniseb
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: c2dea22cc8a0ebb875f83ebd5a3e42f723e5f254
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 5d3cd7893af4c91807782c269231a280b413733e
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52771319"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861213"
 ---
 # <a name="evaluate-attack-surface-reduction-rules"></a>Regels voor het verminderen van kwetsbaarheid voor aanvallen evalueren
 
@@ -41,6 +41,9 @@ Stel regels voor het verminderen van aanvallen in voor apparaten met een van de 
 - Windows 10 Enterprise, versie [1709](/windows/whats-new/whats-new-windows-10-version-1709) of hoger
 - Windows Server, [versie 1803 (halfjaarlijks kanaal)](/windows-server/get-started/whats-new-in-windows-server-1803) of hoger
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
+
+> [!WARNING]
+> Het inschakelen van regels voor het beperken van aanvallen op Windows Server 2016 kan leiden tot onverwachte resultaten en invloed hebben op de serverprestaties. We raden u af om regels voor het verlagen van de surface voor aanvallen in te stellen of te implementeren op niet-ondersteunde platforms.
 
 Lees hoe u regels voor het verminderen van aanvallen kunt evalueren door de auditmodus in te schakelen om de functie rechtstreeks in uw organisatie te testen.
 
@@ -74,7 +77,7 @@ U kunt ook configuratieserviceproviders (MDM) (Group Policy, Intune) of Mobile D
 
 Als u apps wilt bekijken die zijn geblokkeerd, opent u Gebeurtenisviewer en filtert u op Gebeurtenis-id 1121 in het Microsoft-Windows-Windows Defender/Operationeel logboek. In de volgende tabel worden alle netwerkbeveiligingsgebeurtenissen vermeld.
 
-Gebeurtenis-id | Beschrijving
+Gebeurtenis-id | Omschrijving
 -|-
  5007 | Gebeurtenis wanneer instellingen worden gewijzigd
  1121 | Gebeurtenis wanneer een regel voor het verminderen van het aanvalsoppervlak wordt gebruikt in de blokmodus

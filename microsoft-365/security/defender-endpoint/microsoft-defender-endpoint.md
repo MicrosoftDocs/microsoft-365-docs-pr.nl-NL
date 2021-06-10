@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender for Endpoint
+title: Microsoft Defender voor Eindpunt
 description: Microsoft Defender voor Eindpunt is een beveiligingsplatform voor zakelijke eindpunten dat helpt bij het beschermen tegen geavanceerde permanente bedreigingen.
 keywords: inleiding tot Microsoft Defender voor Eindpunt, inleiding tot Microsoft Defender voor Eindpunt, cyberbeveiliging, geavanceerde permanente bedreiging, bedrijfsbeveiliging, machine-gedrags sensor, cloudbeveiliging, analyse, bedreigingsinformatie, beperking van het oppervlak van de aanval, bescherming van de volgende generatie, geautomatiseerd onderzoek en herstel, microsoft threat experts, secure score, advanced hunting, Microsoft 365 Defender, cyber threat hunting
 search.product: eADQiWindows 10XVcnh
@@ -23,7 +23,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 06/08/2021
 ms.locfileid: "52843552"
 ---
-# <a name="microsoft-defender-for-endpoint"></a>Microsoft Defender for Endpoint
+# <a name="microsoft-defender-for-endpoint"></a>Microsoft Defender voor Eindpunt
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -49,7 +49,7 @@ Defender voor Eindpunt gebruikt de volgende combinatie van technologie die is in
 
 -   **Bedreigingsinformatie:** Gegenereerd door Microsoft-jagers, beveiligingsteams en aangevuld met bedreigingsinformatie die door partners wordt geleverd, stelt Threat Intelligence Defender voor Eindpunt in staat om hulpprogramma's, technieken en procedures voor aanvallers te identificeren en waarschuwingen te genereren wanneer ze worden waargenomen in verzamelde sensorgegevens.
 
-<center><h2>Microsoft Defender for Endpoint</center></h2>
+<center><h2>Microsoft Defender voor Eindpunt</center></h2>
 <table>
 <tr>
 <td><a href="#tvm"><center><img src="images/TVM_icon.png" alt="Threat & Vulnerability Management"> <br><b>Threat & Vulnerability Management</b></center></a></td>

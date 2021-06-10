@@ -16,7 +16,7 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: Lees hoe Microsoft 365 de TXT-record (Sender Policy Framework) in DNS gebruikt om ervoor te zorgen dat doel-e-mailsystemen berichten vertrouwen die zijn verzonden vanuit uw aangepaste domein.
+description: Lees hoe Microsoft 365 TXT-record (Sender Policy Framework) gebruikt in DNS om ervoor te zorgen dat doel-e-mailsystemen berichten vertrouwen die zijn verzonden vanuit uw aangepaste domein.
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: 972f283f6138bafcebd877a19f0bfc429e0eed03
@@ -35,19 +35,19 @@ ms.locfileid: "51204189"
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
- **Overzicht:** In dit artikel wordt beschreven hoe Microsoft 365 de TXT-record (Sender Policy Framework) in DNS gebruikt om ervoor te zorgen dat doel-e-mailsystemen berichten vertrouwen die zijn verzonden vanuit uw aangepaste domein. Dit geldt voor uitgaande e-mail die is verzonden vanuit Microsoft 365. Berichten die van Microsoft 365 naar een geadresseerde binnen Microsoft 365 worden verzonden, worden altijd door SPF verzonden.
+ **Overzicht:** In dit artikel wordt beschreven Microsoft 365 de TXT-record (Sender Policy Framework) in DNS gebruikt om ervoor te zorgen dat doel-e-mailsystemen berichten vertrouwen die zijn verzonden vanuit uw aangepaste domein. Dit geldt voor uitgaande e-mail die is verzonden vanaf Microsoft 365. Berichten die van Microsoft 365 naar een geadresseerde binnen Microsoft 365 worden altijd door SPF verzonden.
 
 Een SPF TXT-record is een DNS-record die spoofing en phishing helpt voorkomen door de domeinnaam te verifiëren waaruit e-mailberichten worden verzonden. SPF valideert de oorsprong van e-mailberichten door het IP-adres van de afzender te verifiëren ten opzichte van de vermeende eigenaar van het verzendende domein.
 
 > [!NOTE]
 > SPF-recordtypen zijn in 2014 afgeschaft door de Internet Engineering Task Force (IETF). Zorg er in plaats daarvan voor dat u TXT-records in DNS gebruikt om uw SPF-gegevens te publiceren. De rest van dit artikel gebruikt de term SPF TXT-record voor duidelijkheid.
 
-Domeinbeheerders publiceren SPF-informatie in TXT-records in DNS. De SPF-informatie identificeert geautoriseerde uitgaande e-mailservers. Doel-e-mailsystemen controleren of berichten afkomstig zijn van geautoriseerde uitgaande e-mailservers. Als u al bekend bent met SPF of als u een eenvoudige implementatie hebt en alleen wilt weten wat u moet opnemen in uw SPF TXT-record in DNS voor Microsoft 365, kunt u naar [SPF instellen in Microsoft 365](set-up-spf-in-office-365-to-help-prevent-spoofing.md)gaan om spoofing te voorkomen. Als u geen implementatie hebt die volledig wordt gehost in Microsoft 365, of als u meer informatie wilt over hoe SPF werkt of hoe u SPF voor Microsoft 365 kunt oplossen, blijft u lezen.
+Domeinbeheerders publiceren SPF-informatie in TXT-records in DNS. De SPF-informatie identificeert geautoriseerde uitgaande e-mailservers. Doel-e-mailsystemen controleren of berichten afkomstig zijn van geautoriseerde uitgaande e-mailservers. Als u al bekend bent met SPF of als u een eenvoudige implementatie hebt en alleen wilt weten wat u moet opnemen in uw SPF TXT-record in DNS voor Microsoft 365, kunt u naar [SPF instellen in Microsoft 365](set-up-spf-in-office-365-to-help-prevent-spoofing.md)gaan om spoofing te voorkomen. Als u geen implementatie hebt die volledig wordt gehost in Microsoft 365, of als u meer informatie wilt over hoe SPF werkt of hoe u SPF voor Microsoft 365 kunt oplossen, leest u verder.
 
 > [!NOTE]
-> Voorheen moest u een andere SPF TXT-record toevoegen aan uw aangepaste domein als u ook SharePoint Online hebt gebruikt. Dit is niet meer nodig. Deze wijziging moet het risico verkleinen dat SharePoint Online-meldingsberichten in de map Ongewenste e-mail terechtkomen. U hoeft niet onmiddellijk wijzigingen aan te brengen, maar als u de fout 'te veel zoekactie' ontvangt, wijzigt u de SPF TXT-record zoals beschreven [in SPF instellen in Microsoft 365](set-up-spf-in-office-365-to-help-prevent-spoofing.md)om spoofing te voorkomen.
+> Voorheen moest u een andere SPF TXT-record toevoegen aan uw aangepaste domein als u ook SharePoint Online. Dit is niet meer nodig. Deze wijziging moet het risico verkleinen dat SharePoint Online-meldingsberichten in de map Ongewenste e-mail terechtkomen. U hoeft niet onmiddellijk wijzigingen aan te brengen, maar als u de fout 'te veel zoekactie' ontvangt, wijzigt u de SPF TXT-record zoals beschreven [in SPF instellen in Microsoft 365](set-up-spf-in-office-365-to-help-prevent-spoofing.md)om spoofing te voorkomen.
 
-## <a name="how-spf-works-to-prevent-spoofing-and-phishing-in-microsoft-365"></a>Hoe SPF werkt om spoofing en phishing te voorkomen in Microsoft 365
+## <a name="how-spf-works-to-prevent-spoofing-and-phishing-in-microsoft-365"></a>Hoe SPF werkt om spoofing en phishing in Microsoft 365
 <a name="HowSPFWorks"> </a>
 
 SPF bepaalt of een afzender namens een domein mag verzenden. Als dit niet is toegestaan voor de afzender, dat wil zeggen als de E-mail de SPF-controle op de ontvangende server mislukt, bepaalt het spambeleid dat op die server is geconfigureerd, wat er met het bericht moet worden uitgevoerd.
@@ -119,12 +119,12 @@ Naast IP-adressen kunt u ook uw SPF TXT-record zo configureren dat domeinen als 
 v=spf1 include:contoso.net include:contoso.org -all
 ```
 
-Wanneer de ontvangende server deze record in DNS ziet, wordt ook een DNS-opzoekactie uitgevoerd op de SPF TXT-record voor contoso.net en vervolgens voor contoso.org. Als er een aanvullende instructie voor opnemen in de records wordt gevonden voor contoso.net of contoso.org, volgt deze ook. Om denial of service-aanvallen te voorkomen, is het maximum aantal DNS-opzoekingen voor één e-mailbericht 10. Elke instructie include vertegenwoordigt een extra DNS-opzoekactie. Als een bericht de limiet van 10 overschrijdt, mislukt het bericht SPF. Zodra een bericht deze limiet heeft bereikt, kan de afzender, afhankelijk van de manier waarop de ontvangende server is geconfigureerd, een bericht ontvangen met de melding dat het bericht 'te veel opzoekingen' heeft gegenereerd of dat het 'maximum aantal hops voor het bericht is overschreden' (dat kan gebeuren wanneer de opzoekingen de DNS-time-out overschrijden). Zie [Probleemoplossing: Best practices voor SPF in Microsoft 365](how-office-365-uses-spf-to-prevent-spoofing.md#SPFTroubleshoot)voor tips over hoe u dit kunt voorkomen.
+Wanneer de ontvangende server deze record in DNS ziet, wordt ook een DNS-opzoekactie uitgevoerd op de SPF TXT-record voor contoso.net en vervolgens voor contoso.org. Als er een aanvullende instructie voor opnemen in de records wordt gevonden voor contoso.net of contoso.org, volgt deze ook. Om denial of service-aanvallen te voorkomen, is het maximum aantal DNS-opzoekingen voor één e-mailbericht 10. Elke instructie include vertegenwoordigt een extra DNS-opzoekactie. Als een bericht de limiet van 10 overschrijdt, mislukt het bericht SPF. Zodra een bericht deze limiet heeft bereikt, kan de afzender, afhankelijk van de manier waarop de ontvangende server is geconfigureerd, een bericht ontvangen met de melding dat het bericht 'te veel opzoekingen' heeft gegenereerd of dat het 'maximum aantal hops voor het bericht is overschreden' (dat kan gebeuren wanneer de opzoekingen de DNS-time-out overschrijden). Zie Probleemoplossing: Best practices voor [SPF in](how-office-365-uses-spf-to-prevent-spoofing.md#SPFTroubleshoot)Microsoft 365.
 
-## <a name="requirements-for-your-spf-txt-record-and-microsoft-365"></a>Vereisten voor uw SPF TXT-record en Microsoft 365
+## <a name="requirements-for-your-spf-txt-record-and-microsoft-365"></a>Vereisten voor uw SPF TXT-record en -Microsoft 365
 <a name="SPFReqsinO365"> </a>
 
-Als u e-mail in stelt bij het instellen van Microsoft 365, hebt u al een SPF TXT-record gemaakt die de Microsoft-berichtenservers identificeert als een legitieme bron van e-mail voor uw domein. Deze record ziet er waarschijnlijk als volgende uit:
+Als u e-mail in stelt wanneer u Microsoft 365, hebt u al een SPF TXT-record gemaakt die de Microsoft-berichtenservers identificeert als een legitieme bron van e-mail voor uw domein. Deze record ziet er waarschijnlijk als volgende uit:
 
 ```text
 v=spf1 include:spf.protection.outlook.com -all
@@ -132,16 +132,16 @@ v=spf1 include:spf.protection.outlook.com -all
 
 Als u een volledig gehoste klant bent, dat wil zeggen dat u geen on-premises e-mailservers hebt die uitgaande e-mail verzenden, is dit de enige SPF TXT-record die u moet publiceren voor Office 365.
 
-Als u een hybride implementatie hebt (dat wil zeggen, u hebt een aantal postvakken on-premises en sommige gehost in Microsoft 365) of als u een zelfstandige EOP-klant bent (dat wil zeggen dat uw organisatie EOP gebruikt om uw on-premises postvakken te beschermen), moet u het uitgaande IP-adres voor elk van uw on-premises edge mailservers toevoegen aan de SPF TXT-record in DNS.
+Als u een hybride implementatie hebt (dat wil zeggen dat sommige postvakken on-premises zijn en sommige worden gehost in Microsoft 365), of als u een zelfstandige klant van Exchange Online Protection (EOP) bent (dat wil zeggen dat uw organisatie EOP gebruikt om uw on-premises postvakken te beschermen), moet u het uitgaande IP-adres voor elk van uw on-premises edge mailservers toevoegen aan de SPF TXT-record in DNS.
 
-## <a name="form-your-spf-txt-record-for-microsoft-365"></a>Uw SPF TXT-record voor Microsoft 365 maken
+## <a name="form-your-spf-txt-record-for-microsoft-365"></a>Uw SPF TXT-record voor Microsoft 365
 <a name="FormYourSPF"> </a>
 
 Gebruik de syntaxisgegevens in dit artikel om de SPF TXT-record voor uw aangepaste domein te vormen. Hoewel er andere syntaxisopties zijn die hier niet worden vermeld, zijn dit de meest gebruikte opties. Wanneer u het record hebt gemaakt, moet u het record bij uw domeinregistrar bijwerken.
 
-Zie Externe [DNS-records](../../enterprise/external-domain-name-system-records.md)vereist voor SPF voor informatie over de domeinen die u moet opnemen voor Microsoft 365. Gebruik de [stapsgewijse instructies voor](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md#add-or-edit-an-spf-txt-record-to-help-prevent-email-spam-outlook-exchange-online) het bijwerken van SPF-records (TXT) voor uw domeinregistrar.
+Zie Externe [DNS-records](../../enterprise/external-domain-name-system-records.md)die vereist zijn voor SPF voor informatie over de domeinen die u voor Microsoft 365 moet opnemen. Gebruik de [stapsgewijse instructies voor](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md#add-or-edit-an-spf-txt-record-to-help-prevent-email-spam-outlook-exchange-online) het bijwerken van SPF-records (TXT) voor uw domeinregistrar.
 
-### <a name="spf-txt-record-syntax-for-microsoft-365"></a>Syntaxis van SPF TXT-record voor Microsoft 365
+### <a name="spf-txt-record-syntax-for-microsoft-365"></a>SPF TXT-record syntaxis voor Microsoft 365
 <a name="SPFSyntaxO365"> </a>
 
 Een normale SPF TXT-record voor Microsoft 365 heeft de volgende syntaxis:
@@ -162,9 +162,9 @@ waarbij:
 
 - **ip4** geeft aan dat u IP versie 4-adressen gebruikt. **ip6** geeft aan dat u IP-adressen van versie 6 gebruikt. Als u IPv6-IP-adressen gebruikt, vervangt u **ip4** door **ip6** in de voorbeelden in dit artikel. U kunt ook IP-adresbereiken opgeven met cidr-notatie, bijvoorbeeld **ip4:192.168.0.1/26.**
 
-- _IP-adres_ is het IP-adres dat u wilt toevoegen aan de SPF TXT-record. Meestal is dit het IP-adres van de uitgaande e-mailserver voor uw organisatie. U kunt meerdere uitgaande e-mailservers op een lijst zetten. Zie [Voorbeeld: SPF TXT-record voor meerdere uitgaande on-premises e-mailservers en Microsoft 365](how-office-365-uses-spf-to-prevent-spoofing.md#ExampleSPFMultipleMailServerO365)voor meer informatie.
+- _IP-adres_ is het IP-adres dat u wilt toevoegen aan de SPF TXT-record. Meestal is dit het IP-adres van de uitgaande e-mailserver voor uw organisatie. U kunt meerdere uitgaande e-mailservers op een lijst zetten. Zie [Voorbeeld: SPF TXT-record](how-office-365-uses-spf-to-prevent-spoofing.md#ExampleSPFMultipleMailServerO365)voor meerdere uitgaande on-premises e-mailservers en -Microsoft 365.
 
-- _domeinnaam_ is het domein dat u wilt toevoegen als een legitieme afzender. Zie Externe [DNS-records](../../enterprise/external-domain-name-system-records.md)die vereist zijn voor SPF voor een lijst met domeinnamen die u voor Microsoft 365 moet opnemen.
+- _domeinnaam_ is het domein dat u wilt toevoegen als een legitieme afzender. Zie Externe [DNS-records](../../enterprise/external-domain-name-system-records.md)die vereist zijn voor SPF voor een lijst met domeinnamen die u Microsoft 365.
 
 - Handhavingsregel is meestal een van de volgende:
 
@@ -180,10 +180,10 @@ waarbij:
 
     Geeft neutraal aan. Dit wordt gebruikt bij het testen van SPF. We raden u af deze kwalificatie te gebruiken in uw live-implementatie.
 
-### <a name="example-spf-txt-record-to-use-when-all-of-your-mail-is-sent-by-microsoft-365"></a>Voorbeeld: SPF TXT-record die u kunt gebruiken wanneer al uw e-mail wordt verzonden door Microsoft 365
+### <a name="example-spf-txt-record-to-use-when-all-of-your-mail-is-sent-by-microsoft-365"></a>Voorbeeld: SPF TXT-record die u wilt gebruiken wanneer al uw e-mailberichten per e-mail worden Microsoft 365
 <a name="ExampleSPFNoSP"> </a>
 
-Als al uw e-mail wordt verzonden door Microsoft 365, gebruikt u dit in uw SPF TXT-record:
+Als al uw e-mail per e-mail wordt Microsoft 365, gebruikt u dit in uw SPF TXT-record:
 
 ```text
 v=spf1 include:spf.protection.outlook.com -all
@@ -192,13 +192,13 @@ v=spf1 include:spf.protection.outlook.com -all
 ### <a name="example-spf-txt-record-for-a-hybrid-scenario-with-one-on-premises-exchange-server-and-microsoft-365"></a>Voorbeeld: SPF TXT-record voor een hybride scenario met één on-premises Exchange Server en Microsoft 365
 <a name="ExampleSPFHybridOneExchangeServer"> </a>
 
-Als in een hybride omgeving het IP-adres van uw on-premises Exchange Server 192.168.0.1 is, vormt u de SPF TXT-record als volgt om de SPF-afdwingingsregel in te stellen:
+Als het IP-adres van uw on-premises Exchange Server in een hybride omgeving 192.168.0.1 is, vormt u de SPF TXT-record als volgt om de SPF-afdwingingsregel in te stellen:
 
 ```text
 v=spf1 ip4:192.168.0.1 include:spf.protection.outlook.com -all
 ```
 
-### <a name="example-spf-txt-record-for-multiple-outbound-on-premises-mail-servers-and-microsoft-365"></a>Voorbeeld: SPF TXT-record voor meerdere uitgaande on-premises e-mailservers en Microsoft 365
+### <a name="example-spf-txt-record-for-multiple-outbound-on-premises-mail-servers-and-microsoft-365"></a>Voorbeeld: SPF TXT-record voor meerdere uitgaande on-premises e-mailservers en -Microsoft 365
 <a name="ExampleSPFMultipleMailServerO365"> </a>
 
 Als u meerdere uitgaande e-mailservers hebt, moet u het IP-adres voor elke e-mailserver opnemen in de SPF TXT-record en elk IP-adres scheiden met een spatie gevolgd door een ip4:-instructie. Bijvoorbeeld:
@@ -210,9 +210,9 @@ v=spf1 ip4:192.168.0.1 ip4:192.168.0.2 ip4:192.168.0.3 include:spf.protection.ou
 ## <a name="next-steps-set-up-spf-for-microsoft-365"></a>Volgende stappen: SPF instellen voor Microsoft 365
 <a name="SPFNextSteps"> </a>
 
-Nadat u uw SPF TXT-record hebt geformuleerd, volgt u de stappen [in SPF instellen in Microsoft 365](set-up-spf-in-office-365-to-help-prevent-spoofing.md) om spoofing te voorkomen om deze toe te voegen aan uw domein.
+Nadat u uw SPF TXT-record hebt geformuleerd, volgt u de stappen in [SPF instellen in Microsoft 365](set-up-spf-in-office-365-to-help-prevent-spoofing.md) om spoofing te voorkomen om deze toe te voegen aan uw domein.
 
-Hoewel SPF is ontworpen om spoofing te voorkomen, zijn er echter spoofingtechnieken die SPF niet kan beschermen. Als u zich hiertegen wilt beschermen, moet u na het instellen van SPF ook DKIM en DMARC voor Microsoft 365 configureren. Zie DKIM gebruiken om uitgaande e-mail te valideren die is verzonden vanuit uw [aangepaste domein in Microsoft 365](use-dkim-to-validate-outbound-email.md)om aan de slag te gaan. Zie vervolgens [DMARC gebruiken om e-mail in Microsoft 365 te valideren](use-dmarc-to-validate-email.md).
+Hoewel SPF is ontworpen om spoofing te voorkomen, zijn er echter spoofingtechnieken die SPF niet kan beschermen. Als u zich hiertegen wilt beschermen, moet u na het instellen van SPF ook DKIM en DMARC configureren voor Microsoft 365. Zie [DKIM](use-dkim-to-validate-outbound-email.md)gebruiken om uitgaande e-mail te valideren die is verzonden vanuit uw aangepaste domein in Microsoft 365. Zie vervolgens [DMARC gebruiken om e-mail in Microsoft 365 te valideren](use-dmarc-to-validate-email.md).
 
 ## <a name="troubleshooting-best-practices-for-spf-in-microsoft-365"></a>Probleemoplossing: Best practices voor SPF in Microsoft 365
 <a name="SPFTroubleshoot"> </a>
@@ -225,7 +225,7 @@ Als een e-mailbericht meer dan 10 DNS-opzoekingen veroorzaakt voordat het wordt 
 
 - Het bericht vereist te veel opzoekingen.
 
-## <a name="avoiding-the-too-many-lookups-error-when-you-use-third-party-domains-with-microsoft-365"></a>De fout 'te veel zoekactie' vermijden wanneer u domeinen van derden gebruikt met Microsoft 365
+## <a name="avoiding-the-too-many-lookups-error-when-you-use-third-party-domains-with-microsoft-365"></a>De fout 'te veel opzoekingen' vermijden wanneer u domeinen van derden gebruikt met Microsoft 365
 <a name="SPFTroubleshoot"> </a>
 
 Sommige SPF TXT-records voor domeinen van derden leiden de ontvangende server naar een groot aantal DNS-opzoekingen. Op het moment van schrijven bevat Salesforce.com bijvoorbeeld 5 instructies in de record:
@@ -256,4 +256,4 @@ U kunt nslookup gebruiken om uw DNS-records weer te geven, inclusief uw SPF TXT-
 ## <a name="for-more-information"></a>Voor meer informatie
 <a name="SPFTroubleshoot"> </a>
 
-Hulp nodig bij het toevoegen van de SPF TXT-record? Lees het artikel DNS-records maken bij een [DNS-hostingprovider voor Microsoft 365](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md#add-or-edit-an-spf-txt-record-to-help-prevent-email-spam-outlook-exchange-online) voor gedetailleerde informatie over het gebruik van Sender Policy Framework met uw aangepaste domein in Microsoft 365. [Antispamberichtkoppen bevatten](anti-spam-message-headers.md) de syntaxis- en koptekstvelden die door Microsoft 365 worden gebruikt voor SPF-controles.
+Hulp nodig bij het toevoegen van de SPF TXT-record? Lees het artikel DNS-records maken bij een [DNS-hostingprovider voor Microsoft 365](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md#add-or-edit-an-spf-txt-record-to-help-prevent-email-spam-outlook-exchange-online) voor gedetailleerde informatie over het gebruik van Sender Policy Framework met uw aangepaste domein in Microsoft 365. [Antispamberichtkoppen bevatten](anti-spam-message-headers.md) de syntaxis- en koptekstvelden die door Microsoft 365 voor SPF-controles.

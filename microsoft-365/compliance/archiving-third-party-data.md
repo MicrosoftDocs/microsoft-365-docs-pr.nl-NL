@@ -22,12 +22,12 @@ ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 ms.custom:
 - seo-marvel-apr2020
 description: Meer informatie over het importeren van gegevens van derden van sociale mediaplatforms, chatplatforms en platformen voor documentsamenwerking om postvakken Microsoft 365 maken.
-ms.openlocfilehash: 17172daa60721523bbfb97ab81f7a57078eb1b1c
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: a51b298b934431a1be8a416dac1f831ddaca5ffe
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822151"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861201"
 ---
 # <a name="archive-third-party-data"></a>Gegevens van derden archiveren
 
@@ -77,6 +77,7 @@ De volgende tabel bevat de gegevensconnectors van derden die beschikbaar zijn in
 |[Verizon Network <sup>1</sup>](archive-verizon-network-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
 |[Webex Teams <sup>2</sup>](archive-webexteams-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
 |[<sup>Webpagina's 2</sup>](archive-webpagecapture-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|||
+|[WeChat <sup>1</sup>](archive-wechat-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
 |[WhatsApp <sup>1</sup>](archive-whatsapp-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
 |[Workplace from Facebook <sup>2</sup>](archive-workplacefromfacebook-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
 |[XIP <sup>2</sup>](archive-xip-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
@@ -139,6 +140,7 @@ Zoals eerder vermeld, zijn gegevensconnectoren die door TeleMessage worden gelev
 |O2 Sms en Voice Network Archiver | Ja         | Nee | Nee |
 |TELUS Sms Network Archiver | Ja | Nee | Nee |
 |Verizon Sms/MMS Network Archiver | Ja | Nee | Nee |
+|WeChat Archiver | Ja | Nee | Nee |
 |WhatsApp Archiver | Ja | Nee | Nee |
 |||||
 

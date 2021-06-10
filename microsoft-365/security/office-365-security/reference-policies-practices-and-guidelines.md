@@ -39,7 +39,7 @@ Als u niet voldoet aan deze beleidsregels en richtlijnen, is het mogelijk dat on
 
 ## <a name="general-microsoft-policies"></a>Algemeen Microsoft-beleid
 
-E-mail die naar Microsoft 365-gebruikers wordt verzonden, moet voldoen aan alle Microsoft-beleidsregels voor het verzenden van e-mail en het gebruik van Microsoft 365.
+E-mail die naar Microsoft 365 gebruikers worden verzonden, moet voldoen aan alle Microsoft-beleidsregels voor e-mailoverdracht en het gebruik van Microsoft 365.
 
 - Servicesvoorwaarden die van toepassing zijn op Microsoft 365; in het bijzonder het verbod op het gebruik van de service voor spam of het distribueren van malware.
 
@@ -47,7 +47,7 @@ E-mail die naar Microsoft 365-gebruikers wordt verzonden, moet voldoen aan alle 
 
 ## <a name="governmental-regulations"></a>Overheidsvoorschriften
 
-E-mail die naar Microsoft 365-gebruikers wordt verzonden, moet voldoen aan alle toepasselijke wetten en voorschriften voor e-mailcommunicatie in de toepasselijke jurisdictie.
+E-mail die Microsoft 365 gebruikers moeten voldoen aan alle toepasselijke wetten en voorschriften voor e-mailcommunicatie in de toepasselijke jurisdictie.
 
 - [CAN-SPAM Act: A Compliance Guide for Business](https://www.ftc.gov/tips-advice/business-center/guidance/can-spam-act-compliance-guide-business)
 
@@ -55,9 +55,9 @@ E-mail die naar Microsoft 365-gebruikers wordt verzonden, moet voldoen aan alle 
 
 ## <a name="technical-guidelines"></a>Technische richtlijnen
 
-E-mail die naar Microsoft 365 wordt verzonden, moet voldoen aan de toepasselijke aanbevelingen die in de onderstaande documenten worden vermeld (sommige koppelingen zijn alleen beschikbaar in het Engels).
+E-mail die naar Microsoft 365 moet voldoen aan de toepasselijke aanbevelingen die in de onderstaande documenten worden vermeld (sommige koppelingen zijn alleen beschikbaar in het Engels).
 
-- [RFC 2505: Aanbevelingen voor antispam voor SMTP-MTAs](https://www.ietf.org/rfc/rfc2505.txt)
+- [RFC 2505: Anti-Spam Aanbevelingen voor SMTP MTAs](https://www.ietf.org/rfc/rfc2505.txt)
 
 - [RFC 2920: SMTP-serviceextensie voor command pipelining](https://www.ietf.org/rfc/rfc2920.txt)
 
@@ -81,9 +81,9 @@ Daarnaast moeten e-mailservers die verbinding maken met Microsoft 365 voldoen aa
 
 Afzenders, internetproviders en andere serviceproviders moeten de reputatie van uw uitgaande IP-adressen actief beheren.
 
-## <a name="microsoft-365-limits"></a>Microsoft 365-limieten
+## <a name="microsoft-365-limits"></a>Microsoft 365 limieten
 
-Afzenders moeten zich houden aan Microsoft 365-limieten die worden vermeld in [Exchange Online Protection Limits.](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-limits)
+Afzenders moeten zich houden aan Microsoft 365 limieten die worden vermeld in [Exchange Online Protection limieten.](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-limits)
 
 ## <a name="email-delivery-resources-and-organizations"></a>E-mailbezorgingsbronnen en -organisaties
 
@@ -101,4 +101,4 @@ Zie Berichten en bestanden rapporteren aan Microsoft als u onrechtmatige, onrech
 
 ## <a name="law-enforcement"></a>Rechtshandhaving
 
-Als u lid bent van de wetshandhaving en Microsoft Corporation wilt dienen met juridische documentatie over Office 365 of als u vragen hebt over juridische documentatie die u hebt ingediend bij Microsoft, kunt u bellen met (1) (425) 722-1299.
+Als u lid bent van de wetshandhaving en Microsoft Corporation wilt dienen met juridische documentatie met betrekking tot Office 365, of als u vragen hebt over juridische documentatie die u hebt ingediend bij Microsoft, kunt u bellen met (1) (425) 722-1299.

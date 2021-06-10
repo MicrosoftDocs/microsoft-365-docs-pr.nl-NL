@@ -4,6 +4,7 @@ keywords: Gecontroleerde maptoegang, windows 10, Windows Defender, ransomware, b
 description: Informatie over het beveiligen van uw belangrijke bestanden door gecontroleerde maptoegang in te stellen
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
+ms.topic: article
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
@@ -14,12 +15,12 @@ ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 1d09eaf04999478a0cd0b4907667a522a23fb39f
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 5a90a12457597fa38c648fd44bf194d2322a26af
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841976"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861218"
 ---
 # <a name="enable-controlled-folder-access"></a>Beheerde maptoegang inschakelen
 
@@ -36,7 +37,7 @@ ms.locfileid: "52841976"
 U kunt beheerde maptoegang inschakelen met behulp van een van de volgende methoden:
 
 * [Windows-beveiliging app](#windows-security-app)
-* [Microsoft Intune](#intune)
+* [Microsoft Endpoint Manager](#endpoint-manager)
 * [Mobile Device Management (MDM)](#mobile-device-management-mdm)
 * [Microsoft Endpoint Configuration Manager](#microsoft-endpoint-configuration-manager)
 * [Groepsbeleid](#group-policy)
@@ -64,24 +65,30 @@ Zie Voorkomen of toestaan dat gebruikers lokaal microsoft Defender AV-beleidsins
 > Als de functie is ingesteld op **auditmodus** met een van deze hulpprogramma's, Windows-beveiliging de app de status **Uit.**
 > Als u gebruikersprofielgegevens beschermt, raden we aan dat het gebruikersprofiel zich op het standaardstation Windows installeren.
 
-## <a name="intune"></a>Intune
+## <a name="endpoint-manager"></a>Endpoint Manager
 
-1. Meld u aan bij [de Azure-portal](https://portal.azure.com) en open Intune.
+1. Meld u aan bij de [Endpoint Manager](https://endpoint.microsoft.com) en open **Endpoint Security**.
 
-2. Ga naar **Apparaatconfiguratieprofielen**  >    >  **Profiel maken.**
+2. Ga naar **Attack Surface Reduction**  >  **Policy**.
 
-3. Noem het profiel een naam, kies **Windows 10 en hoger en** **Endpoint-beveiliging.** <br/> ![Eindpuntbeveiligingsprofiel maken](/microsoft-365/security/defender-endpoint/images/create-endpoint-protection-profile) <br/>
+3. Selecteer **Platform,** kies **Windows 10 en hoger** en selecteer het profiel Attack Surface Reduction **rules**  >  **Create**.
 
-4. Ga naar **Configure**  >  **Windows Defender Exploit Guard Controlled** map  >  **access**  >  **Enable**.
+4.  Geef het beleid een naam en voeg een beschrijving toe. Selecteer **Volgende**.
 
-5. Typ het pad naar elke toepassing die toegang heeft tot beveiligde mappen en het pad naar een andere map die bescherming nodig heeft. Kies **Toevoegen**.<br/> ![Gecontroleerde maptoegang inschakelen in Intune](/microsoft-365/security/defender-endpoint/images/enable-cfa-intune)<br/>
+5.  Schuif omlaag naar de onderkant, selecteer **de vervolgkeuzekeuzeknop** Mapbeveiliging inschakelen en kies **Inschakelen.**
+
+6.  Selecteer **Lijst met extra mappen die moeten worden beveiligd** en voeg de mappen toe die moeten worden beveiligd.
+
+7.  Selecteer **Lijst met apps die toegang hebben tot beveiligde** mappen en voeg de apps toe die toegang hebben tot beveiligde mappen.
+
+8.  Selecteer **Bestanden en paden uitsluiten van regels** voor het verlagen van het aanvalsoppervlak en voeg de bestanden en paden toe die moeten worden uitgesloten van de regels voor het verminderen van het aanvalsoppervlak.
+
+9.  Selecteer de **profieltoewijzingen, wijs** alle & **alle** apparaten toe en selecteer **Opslaan.**
+
+10.  Selecteer **Volgende om** elk geopend blad op te slaan en vervolgens **Maken.**
 
    > [!NOTE]
-   > Wilcard wordt ondersteund voor toepassingen, maar niet voor mappen. Submappen zijn niet beveiligd. Toegestane apps blijven gebeurtenissen activeren totdat ze opnieuw worden gestart.
-
-6. Selecteer **OK om** elk geopend blad op te slaan en Te **maken.**
-
-7. Selecteer de **profieltoewijzingen, wijs** **alle gebruikers & alle apparaten** en Opslaan **aan.**
+   > Jokertekens worden ondersteund voor toepassingen, maar niet voor mappen. Submappen zijn niet beveiligd. Toegestane apps blijven gebeurtenissen activeren totdat ze opnieuw worden gestart.
 
 ## <a name="mobile-device-management-mdm"></a>Mobile Device Management (MDM)
 

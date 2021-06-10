@@ -17,7 +17,7 @@ ms.collection:
 - m365initiative-defender-office365
 ms.custom:
 - seo-marvel-apr2020
-description: In dit artikel leert u hoe u de portal voor het verwijderen van lijsten kunt gebruiken om uzelf te verwijderen uit de lijst met geblokkeerde afzenders van Microsoft 365.
+description: In dit artikel leert u hoe u de portal voor het verwijderen van de lijst kunt gebruiken om uzelf te verwijderen uit de lijst Microsoft 365 geblokkeerde afzenders.
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: c4488f5e5607d71da35b2921e863fb02195467e2
@@ -40,11 +40,11 @@ Krijgt u een foutbericht wanneer u een e-mailbericht probeert te verzenden naar 
 
 ## <a name="what-is-the-blocked-senders-list"></a>Wat is de lijst met geblokkeerde afzenders?
 
-Microsoft gebruikt de lijst met geblokkeerde afzenders om haar klanten te beschermen tegen spam-, spoofing- en phishingaanvallen. Het IP-adres van uw e-mailserver, dat wil zeggen het adres dat uw e-mailserver gebruikt om zich op internet te identificeren, is om verschillende redenen gelabeld als een mogelijke bedreiging voor Microsoft 365. Wanneer Microsoft 365 het IP-adres aan de lijst toevoegt, wordt alle verdere communicatie tussen het IP-adres en een van onze klanten via onze datacenters voorkomen.
+Microsoft gebruikt de lijst met geblokkeerde afzenders om haar klanten te beschermen tegen spam-, spoofing- en phishingaanvallen. Het IP-adres van uw e-mailserver, dat wil zeggen het adres dat uw e-mailserver gebruikt om zich op internet te identificeren, is om verschillende redenen gelabeld als een mogelijke bedreiging voor Microsoft 365. Wanneer Microsoft 365 ip-adres aan de lijst toevoegt, voorkomt dit alle verdere communicatie tussen het IP-adres en een van onze klanten via onze datacenters.
 
 U weet dat u aan de lijst bent toegevoegd wanneer u een antwoord ontvangt op een e-mailbericht met een fout die er zo uitziet:
 
-> 550 5.7.606-649 Access geweigerd, ip-adres verzenden verboden [_IP-adres_]; Als u verwijdering uit deze lijst wilt aanvragen, gaat u naar <https://sender.office.com/> de routebeschrijving en volgt u deze. Zie Rapporten over [niet-bezorgde e-mail in Exchange Online voor meer informatie.](/Exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/non-delivery-reports-in-exchange-online)
+> 550 5.7.606-649 Access geweigerd, ip-adres verzenden verboden [_IP-adres_]; Als u verwijdering uit deze lijst wilt aanvragen, gaat u naar <https://sender.office.com/> de routebeschrijving en volgt u deze. Zie [E-mailrapporten voor niet-bezorging in](/Exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/non-delivery-reports-in-exchange-online)Exchange Online.
 
 waarbij  _IP-adres_ het IP-adres is van de computer waarop de e-mailserver wordt uitgevoerd.
 
@@ -64,7 +64,7 @@ waarbij  _IP-adres_ het IP-adres is van de computer waarop de e-mailserver wordt
 
 5. Klik in de lijstportal op **IP-lijst delisten.**
 
-    Nadat het IP-adres is verwijderd uit de lijst met geblokkeerde afzenders, worden e-mailberichten van dat IP-adres bezorgd bij geadresseerden die Microsoft 365 gebruiken. Zorg er dus voor dat u er zeker van bent dat e-mail die vanaf dat IP-adres wordt verzonden, niet aanstootgevend of schadelijk is. anders wordt het IP-adres mogelijk opnieuw geblokkeerd.
+    Nadat het IP-adres is verwijderd uit de lijst met geblokkeerde afzenders, worden e-mailberichten van dat IP-adres bezorgd bij geadresseerden die Microsoft 365. Zorg er dus voor dat u er zeker van bent dat e-mail die vanaf dat IP-adres wordt verzonden, niet aanstootgevend of schadelijk is. anders wordt het IP-adres mogelijk opnieuw geblokkeerd.
 
     > [!NOTE]
     > Het kan tot 24 uur duren of de resultaten kunnen sterk variëren voordat beperkingen worden verwijderd.

@@ -1,5 +1,5 @@
 ---
-title: De invoegversie voor het rapporteren van ongewenste e-mail voor Microsoft Outlook installeren en gebruiken
+title: Installeer en gebruik de invoegmap Voor het rapporteren van ongewenste e-mail voor Microsoft Outlook
 f1.keywords:
 - NOCSH
 ms.author: siosulli
@@ -22,7 +22,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/25/2021
 ms.locfileid: "51204237"
 ---
-# <a name="install-and-use-the-junk-email-reporting-add-in-for-microsoft-outlook"></a>De invoegversie voor het rapporteren van ongewenste e-mail voor Microsoft Outlook installeren en gebruiken
+# <a name="install-and-use-the-junk-email-reporting-add-in-for-microsoft-outlook"></a>Installeer en gebruik de invoegmap Voor het rapporteren van ongewenste e-mail voor Microsoft Outlook
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -34,7 +34,7 @@ ms.locfileid: "51204237"
 > [!NOTE]
 > Als u momenteel geen gebruik maakt van de invoegapp [](enable-the-report-message-add-in.md) Ongewenste e-mailrapportage, raden we u de invoegvoeging Bericht melden of de invoeging [Phishing melden aan.](enable-the-report-phish-add-in.md) Zie voor meer informatie [berichten en bestanden rapporteren aan Microsoft](report-junk-email-messages-to-microsoft.md).
 
-Met de invoegversie voor rapportage van ongewenste e-mail voor Microsoft Outlook kunnen gebruikers fout-positieven (goede e-mail die is gemarkeerd als spam), onwaar negatieven (slechte e-mail toegestaan) en phishingberichten indienen bij Microsoft. Als uw organisatie geen gebruik maakt van Exchange Online Protection (bijvoorbeeld on-premises Exchange- of e-mailservices anders dan Exchange Online), heeft het indienen van een rapport over ongewenste e-mail geen invloed op uw spamfilters.
+Met de invoegvoegmap Voor rapportage van ongewenste e-mail voor Microsoft Outlook kunnen gebruikers fout-positieven (goede e-mail die is gemarkeerd als spam), fout-negatieven (slechte e-mail toegestaan) en phishingberichten indienen bij Microsoft. Als uw organisatie geen gebruik maakt van Exchange Online Protection (bijvoorbeeld on-premises Exchange- of e-mailservices anders dan Exchange Online), heeft het indienen van ongewenste e-mail geen invloed op uw spamfilters.
 
 In dit onderwerp wordt uitgelegd hoe u de invoegvoegmap Voor het rapporteren van ongewenste e-mail installeert en gebruikt.
 
@@ -45,7 +45,7 @@ In dit onderwerp wordt uitgelegd hoe u de invoegvoegmap Voor het rapporteren van
 - De invoegversie voor rapportage van ongewenste e-mail werkt met de volgende versies van Outlook:
 
   - Outlook 2013 of hoger
-  - Outlook inbegrepen bij Microsoft 365 Apps voor bedrijven
+  - Outlook inbegrepen bij Microsoft 365-apps voor ondernemingen
 
 - Zie Berichten en bestanden rapporteren aan Microsoft voor meer informatie over het rapporteren van berichten [aan Microsoft.](report-junk-email-messages-to-microsoft.md)
 
@@ -111,20 +111,20 @@ In dit onderwerp wordt uitgelegd hoe u de invoegvoegmap Voor het rapporteren van
 
 - U moet beheerdersbevoegdheden hebben op de computer waarop u de invoeging installeert.
 
-- Ga naar <https://www.microsoft.com/download/details.aspx?id=18275> en download het juiste MSI-bestand voor uw versie van Office naar een locatie die gemakkelijk te vinden is:
+- Ga naar en download het .msi bestand voor uw versie van Office naar een locatie die <https://www.microsoft.com/download/details.aspx?id=18275> u gemakkelijk kunt vinden:
 
   - **32-bits:**`Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (32-bit).msi`
   - **64-bits:**`Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (64-bit).msi`
 
-- Voor Outlook 2013 of hoger is microsoft .NET Framework 2.0 de enige vereiste. In Windows 10 installeert u de .NET Framework 2.0 niet via een download.
+- Voor Outlook 2013 of hoger is de microsoft-.NET Framework 2.0 de enige vereiste. In Windows 10 installeert u de .NET Framework 2.0 niet via een download.
 
 ### <a name="install-the-junk-email-reporting-add-in-using-the-setup-wizard"></a>De invoeginstallatie voor rapportage van ongewenste e-mail installeren met behulp van de wizard Instellen
 
-1. Sluit Outlook op uw computer.
+1. Sluit op uw computer de Outlook.
 
-2. Controleer in Windows 10 of .NET Framework 2.0 is ingeschakeld. Zie Het [.NET Framework 3.5 in het Configuratiescherm inschakelen](/dotnet/framework/install/dotnet-35-windows-10#enable-the-net-framework-35-in-control-panel)voor instructies.
+2. Controleer Windows 10 de .NET Framework 2.0 is ingeschakeld. Zie De .NET Framework [3.5 in het Configuratiescherm inschakelen](/dotnet/framework/install/dotnet-35-windows-10#enable-the-net-framework-35-in-control-panel)voor instructies.
 
-3. Zoek het MSI-bestand dat u hebt gedownload en dubbelklik erop.
+3. Zoek het .msi bestand dat u hebt gedownload en dubbelklik erop.
 
 4. Klik op **de pagina Welcome to Microsoft Junk Email Reporting Add-in Setup** op **Volgende.**
 
@@ -134,15 +134,15 @@ In dit onderwerp wordt uitgelegd hoe u de invoegvoegmap Voor het rapporteren van
 
 Start Outlook.
 
-Zoek naar de **knop Ongewenste e-mail** op het Lint van Outlook. U kunt nu ongewenste e-mailberichten rapporteren aan Microsoft door de ongewenste e-mailberichten in uw Postvak IN te selecteren en op de knop **Ongewenste e-mail rapporteren te** klikken.
+Zoek naar de **knop Ongewenste e-mail** op Outlook lint. U kunt nu ongewenste e-mailberichten rapporteren aan Microsoft door de ongewenste e-mailberichten in uw Postvak IN te selecteren en op de knop **Ongewenste e-mail rapporteren te** klikken.
 
 Kies de pijl-omlaag naast **Ongewenste** e-mail voor meer opties, zoals Rapporteren als **Phishing** als u phishingberichten wilt melden bij Microsoft. In de map ongewenste e-mail kunt u ook Rapporteren geen ongewenste e-mail **selecteren** als een e-mail onjuist is geïdentificeerd als ongewenste e-mail.
 
 ### <a name="install-the-junk-email-reporting-add-in-using-silent-mode"></a>De meldingsmodus voor ongewenste Add-In installeren met behulp van de stille modus
 
-1. Sluit Outlook op uw computer.
+1. Sluit op uw computer de Outlook.
 
-2. Installeer in Windows 10 de .NET Framework 2.0 door de volgende opdracht uit te voeren:
+2. Installeer Windows 10 2.0 .NET Framework 2.0 door de volgende opdracht uit te voeren:
 
    ```dos
    DISM /Online /Enable-Feature /FeatureName:NetFx3 /All
@@ -175,7 +175,7 @@ Kies de pijl-omlaag naast **Ongewenste** e-mail voor meer opties, zoals Rapporte
 
 ### <a name="how-do-you-know-this-worked"></a>Hoe weet u of dit heeft gewerkt?
 
-Ga als volgt te werk om te controleren of u de invoegvoegversie voor ongewenste e-mailrapportage hebt geïnstalleerd:
+Ga als volgt te werk als u wilt controleren of u de invoegvoegmap Voor rapportage van ongewenste e-mail hebt Outlook:
 
 - Selecteer het bericht of open het bericht. Klik op **het tabblad** Start **of** Bericht op het lint op **Ongewenste e-mail** en controleer of de volgende opties beschikbaar zijn:
 
@@ -212,21 +212,21 @@ Ga als volgt te werk om te controleren of u de invoegvoegversie voor ongewenste 
 
 ## <a name="uninstall-the-junk-email-reporting-add-in"></a>De invoegvoegmap Voor het rapporteren van ongewenste e-mail verwijderen
 
-Nadat u Outlook hebt gesloten, gebruikt u een van de volgende procedures om de invoegversie voor rapportage van ongewenste e-mail te verwijderen:
+Nadat u de Outlook hebt gesloten, gebruikt u een van de volgende procedures om de invoegvoegprocedure voor het rapporteren van ongewenste e-mail te verwijderen:
 
-- **Configuratiescherm:** Druk op de Windows-toets + R. Typ in **het dialoogvenster** Uitvoeren dat wordt geopend en klik vervolgens `control appwiz.cpl` op **OK.**
+- **Configuratiescherm:** Druk op Windows +R. Typ in **het dialoogvenster** Uitvoeren dat wordt geopend en klik vervolgens `control appwiz.cpl` op **OK.**
 
   Zoek en selecteer **Microsoft Junk Email Reporting Add-in in** de lijst en klik vervolgens op **Verwijderen.**
 
-- **Windows Installer-pakket:** zoek of download het juiste MSI-bestand en dubbelklik erop.
+- **Windows Installer-pakket:** Zoek of download het juiste .msi bestand en dubbelklik erop.
 
   - **32-bits:**`Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (32-bit).msi`
 
   - **64-bits:**`Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (64-bit).msi`
 
-  Selecteer in het dialoogvenster dat wordt weergegeven de optie **Microsoft Junk Email Reporting Add-in** for Outlook verwijderen en klik vervolgens op **Volgende.**
+  Selecteer in het dialoogvenster dat wordt weergegeven de optie **Microsoft Junk Email Reporting Add-in** for Outlook en klik vervolgens op **Volgende**.
 
-- **Stille modus:** zoek of download het juiste MSI-bestand. Vervang in een opdrachtpromptvenster door de locatie van het \<PathToFile\> MSI-bestand en voer een van de volgende opdrachten uit:
+- **Stille modus:** zoek of download het juiste .msi bestand. Vervang in een opdrachtpromptvenster door de locatie van het .msi bestand en voer een van de \<PathToFile\> volgende opdrachten uit:
 
   - **32-bits:**
 
@@ -240,11 +240,11 @@ Nadat u Outlook hebt gesloten, gebruikt u een van de volgende procedures om de i
     msiexec /x "<PathToFile>\Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (64-bit).msi" /qn MSIRESTARTMANAGERCONTROL="DisableShutdown"
     ```
 
-Wanneer u Outlook opent na het verwijderen, moeten de opties voor ongewenste e-mail, geen ongewenste e-mail en phishingrapportage zijn verdwenen.
+Wanneer u de Outlook na het verwijderen, moeten de opties voor ongewenste e-mail, geen ongewenste e-mail en phishingrapportage zijn verdwenen.
 
 ## <a name="troubleshooting-the-junk-email-reporting-add-in"></a>Problemen met de invoegmap Voor het rapporteren van ongewenste e-mail oplossen
 
-Af en toe kan er problemen zijn met Outlook na het toevoegen van de invoegversie voor rapportage van ongewenste e-mail. In deze sectie worden problemen beschreven die u mogelijk ondervindt, samen met tips voor het oplossen van deze problemen.
+Af en toe kunt u problemen met Outlook na het toevoegen van de invoeging voor rapportage van ongewenste e-mail. In deze sectie worden problemen beschreven die u mogelijk ondervindt, samen met tips voor het oplossen van deze problemen.
 
 ### <a name="troubleshooting-for-users"></a>Probleemoplossing voor gebruikers
 
@@ -256,7 +256,7 @@ U ervaart een of meer van de volgende problemen:
 
 Ga als volgt te werk om dit probleem op te lossen:
 
-1. Sluit Outlook en start deze opnieuw.
+1. Sluit de Outlook.
 2. Maak en verzend een testbericht en controleer of de geadresseerde het bericht heeft ontvangen.
 3. Als het probleem zich blijft voordoen, neem dan contact op met de beheerder.
 
@@ -268,7 +268,7 @@ Zie Berichten en bestanden rapporteren bij Microsoft voor andere methoden die u 
 
 1. Controleer of stel de `LoggingLevel` registersleutel in op de waarde 'Verbose':
 
-   - **32-bits Outlook in 32-bits Windows:**
+   - **32-bits Outlook 32-bits Windows:**
 
      ```text
      Windows Registry Editor Version 5.00
@@ -277,7 +277,7 @@ Zie Berichten en bestanden rapporteren bij Microsoft voor andere methoden die u 
      "LoggingLevel"="Verbose"
      ```
 
-   - **32-bits Outlook op 64-bits Windows:**
+   - **32-bits Outlook 64-bits Windows:**
 
      ```text
      Windows Registry Editor Version 5.00
@@ -295,13 +295,13 @@ Zie Berichten en bestanden rapporteren bij Microsoft voor andere methoden die u 
      "LoggingLevel"="Verbose"
      ```
 
-2. Start Outlook opnieuw en vraag gebruikers om terug te rapporteren wanneer ze het foutbericht zien.
+2. Start Outlook en vraag gebruikers om het rapport terug te geven wanneer ze het foutbericht zien.
 
 3. Verzamel de logboekgegevens die op de volgende locatie zijn gevonden:
 
    `%LOCALAPPDATA%\Microsoft\Junk Email Reporting Add-in\SpamReporterAddinLog.txt`
 
-4. Neem contact op met de technische ondersteuning van Exchange Online Protection en geef ze de logboekgegevens.
+4. Neem contact Exchange Online Protection technische ondersteuning op en geef ze de logboekgegevens.
 
 #### <a name="problem-users-selected-not-to-receive-a-confirmation-prompt-when-they-report-messages-and-now-they-want-the-prompt-back"></a>Probleem: Gebruikers hebben geselecteerd om geen bevestigingsprompt te ontvangen wanneer ze berichten rapporteren, en nu willen ze de prompt terug
 

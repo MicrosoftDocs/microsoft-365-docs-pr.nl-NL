@@ -19,7 +19,7 @@ search.appverid:
 - MET150
 - BCS160
 ms.assetid: f5ee6c33-bcd7-4b0b-b0f8-dc1d9fb8d132
-description: Dit artikel bevat informatie over Telemetrie van Microsoft 365 Connectivity.
+description: Dit artikel bevat informatie over Microsoft 365 Connectivity Telemetry.
 ms.openlocfilehash: 9ad7abbabc293e1b283d6742966982b09f0bffa1
 ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
 ms.translationtype: MT

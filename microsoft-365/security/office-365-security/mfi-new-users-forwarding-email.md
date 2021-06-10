@@ -106,7 +106,7 @@ Als u een rij in de tabel selecteert, wordt een fly-out **Details** weergegeven 
 - **Details**
 - **Aantal**
 - **Begindatum**
-- **Aanbeveling:** Vanaf hier kunt u op de koppeling klikken om de gebruiker te beheren in het Microsoft 365-beheercentrum.
+- **Aanbeveling:** Vanaf hier kunt u op de koppeling klikken om de gebruiker te beheren in het Microsoft 365 beheercentrum.
 
 ![Details flyout from the details table of the New forwarding users view in the Forwarding modifications report](../../media/mfi-forwarding-modifications-report-new-forwarding-users-view-details-table-details.png)
 

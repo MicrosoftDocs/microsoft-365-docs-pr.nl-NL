@@ -35,7 +35,7 @@ ms.locfileid: "51204183"
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Phishingaanvallen vormen een constante bedreiging voor elke e-mailorganisatie. Naast het gebruik van [vervalste e-mailadressen van (vervalste) afzenders](anti-spoofing-protection.md)gebruiken aanvallers vaak waarden in het Van-adres die in strijd zijn met internetstandaarden. Om dit type phishing te voorkomen, hebben Exchange Online Protection (EOP) en Outlook.com nu inkomende berichten nodig om een RFC-compatibel Van-adres op te nemen, zoals beschreven in dit artikel. Deze handhaving is ingeschakeld in november 2017.
+Phishingaanvallen vormen een constante bedreiging voor elke e-mailorganisatie. Naast het gebruik van [vervalste e-mailadressen van (vervalste) afzenders](anti-spoofing-protection.md)gebruiken aanvallers vaak waarden in het Van-adres die in strijd zijn met internetstandaarden. Om dit type phishing te voorkomen, vereisen Exchange Online Protection (EOP) en Outlook.com nu inkomende berichten om een RFC-compatibel Van-adres op te nemen, zoals beschreven in dit artikel. Deze handhaving is ingeschakeld in november 2017.
 
 **Opmerkingen**:
 
@@ -90,7 +90,7 @@ De volgende Van e-mailadressen zijn geldig:
 
 De volgende Van e-mailadressen zijn ongeldig:
 
-- **Nee van-adres:** Sommige geautomatiseerde berichten bevatten geen Van-adres. In het verleden, wanneer Microsoft 365 of Outlook.com een bericht zonder een Van-adres heeft ontvangen, heeft de service de volgende standaard van: adres toegevoegd om het bericht te leveren:
+- **Nee van-adres:** Sommige geautomatiseerde berichten bevatten geen Van-adres. In het verleden, wanneer Microsoft 365 of Outlook.com een bericht zonder een Van-adres ontving, heeft de service de volgende standaard van: adres toegevoegd om het bericht te leveren:
 
   `From: <>`
 
@@ -124,7 +124,7 @@ Bijvoorbeeld:
 noreply.contoso.com IN MX .
 ```
 
-Zie DNS-records maken bij een [DNS-hostingprovider voor Microsoft 365](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)voor meer informatie over het instellen van MX-records.
+Zie DNS-records maken bij een [DNS-hostingprovider](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)voor Microsoft 365 voor meer informatie over het instellen van MX-records.
 
 Zie [RFC 7505](https://tools.ietf.org/html/rfc7505)voor meer informatie over het publiceren van een null MX.
 
@@ -132,8 +132,8 @@ Zie [RFC 7505](https://tools.ietf.org/html/rfc7505)voor meer informatie over het
 
 Als u de van-adresvereisten voor binnenkomende e-mail wilt omzeilen, kunt u de regels ip-toestaan (verbindingsfilters) of e-mailstroomregels (ook wel transportregels genoemd) gebruiken, zoals beschreven in Lijsten met veilige afzenders maken [in Microsoft 365.](create-safe-sender-lists-in-office-365.md)
 
-U kunt de Vereisten voor Van-adres niet overschrijven voor uitgaande e-mail die u verzendt vanuit Microsoft 365. Bovendien worden Outlook.com geen overschrijvingen van welke aard dan ook toegestaan, zelfs niet via ondersteuning.
+U kunt de Vereisten voor Van-adres niet overschrijven voor uitgaande e-mail die u verzendt vanaf Microsoft 365. Bovendien worden Outlook.com geen overschrijvingen van welke aard dan ook toegestaan, zelfs niet via ondersteuning.
 
-## <a name="other-ways-to-prevent-and-protect-against-cybercrimes-in-microsoft-365"></a>Andere manieren om cybercriminaliteit te voorkomen en te beschermen in Microsoft 365
+## <a name="other-ways-to-prevent-and-protect-against-cybercrimes-in-microsoft-365"></a>Andere manieren om te voorkomen en te beschermen tegen cybercriminaliteit in Microsoft 365
 
-Zie Top 10 manieren om [Microsoft 365](../../admin/security-and-compliance/secure-your-business-data.md)voor Bedrijven-abonnementen te beveiligen voor meer informatie over hoe u uw organisatie kunt versterken tegen phishing, spam, datalekken en andere bedreigingen.
+Zie Top [1 Microsoft 365 0](../../admin/security-and-compliance/secure-your-business-data.md)manieren om uw organisatie te beveiligen tegen phishing, spam, datalekken en andere bedreigingen voor meer informatie over hoe u uw organisatie kunt versterken tegen phishing, spam, datalekken en andere bedreigingen.

@@ -10,7 +10,7 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Beheerders kunnen leren hoe ze aangepaste payloads kunnen maken voor de trainingstraining aanvalssimulatie in Microsoft Defender voor Office 365.
+description: Beheerders kunnen leren hoe u aangepaste payloads kunt maken voor de training voor de aanvalssimulatie in Microsoft Defender voor Office 365.
 ms.technology: mdo
 ms.openlocfilehash: 6cc5dd4a48ab89193133cfaf823d0a1b1868fa79
 ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
@@ -21,7 +21,7 @@ ms.locfileid: "51204074"
 ---
 # <a name="create-a-custom-payload-for-attack-simulation-training"></a>Een aangepaste nettolading maken voor aanvalssimulatietraining
 
-Microsoft biedt een krachtige payloadcatalogus voor diverse social engineering-technieken die u kunt koppelen aan uw trainingstraining voor aanvalssimulaties. U kunt echter aangepaste payloads maken die beter werken voor uw organisatie. In dit artikel wordt beschreven hoe u een payload kunt maken in de trainingstraining Aanvalssimulatie in Microsoft Defender voor Office 365.
+Microsoft biedt een krachtige payloadcatalogus voor diverse social engineering-technieken die u kunt koppelen aan uw trainingstraining voor aanvalssimulaties. U kunt echter aangepaste payloads maken die beter werken voor uw organisatie. In dit artikel wordt beschreven hoe u een payload kunt maken in De training voor de aanvalssimulatie in Microsoft Defender voor Office 365.
 
 U kunt een payload maken door op Een payload maken **te** klikken op het speciale tabblad [ **Payloads**](https://security.microsoft.com/attacksimulator?viewid=payload) of in de wizard voor het maken [van de simulatie.](attack-simulation-training.md#selecting-a-payload)
 
@@ -40,7 +40,7 @@ Nu is het tijd om uw laadvermogen te bouwen. Voer de naam, het e-mailadres en he
 
 Er is een rich text editor beschikbaar om uw payload te maken. U kunt ook een e-mailbericht importeren dat u van tevoren hebt gemaakt. Gebruik de dynamische **tags** om de e-mail aan uw doelen te personaliseren terwijl u de hoofding van de e-mail maakt. Klik **op Phishing-koppeling** om de eerder geselecteerde phishing-URL toe te voegen aan de tekst van het bericht.
 
-![Phishingkoppeling en dynamische tags gemarkeerd in het maken van laadvermogen voor Microsoft Defender voor Office 365](../../media/attack-sim-preview-payload-email-body.png)
+![Phishingkoppeling en dynamische tags gemarkeerd in het maken van payloads voor Microsoft Defender voor Office 365](../../media/attack-sim-preview-payload-email-body.png)
 
 > [!TIP]
 > Als u tijd wilt besparen, schakelt u de optie in om alle koppelingen in het e-mailbericht te vervangen **door de phishingkoppeling.**

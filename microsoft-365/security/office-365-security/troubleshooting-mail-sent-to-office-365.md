@@ -16,7 +16,7 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: Dit artikel bevat informatie over het oplossen van problemen met het verzenden van e-mail naar Postvak IN in Microsoft 365 & procedures voor bulkmailing naar Microsoft 365-klanten.
+description: Dit artikel bevat informatie over het oplossen van problemen met het verzenden van e-mail naar Postvak IN in Microsoft 365 & procedures voor bulkmailing naar Microsoft 365 klanten.
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: c3017b0e7d0c583c9038f695f9f47010ff92c18a
@@ -34,11 +34,11 @@ ms.locfileid: "51204473"
 - [Exchange Online Protection](exchange-online-protection-overview.md)
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
 
-Dit artikel bevat informatie over probleemoplossing voor afzenders die problemen ondervinden bij het verzenden van e-mail naar Postvak IN in Microsoft 365 en beste procedures voor bulkmailing naar klanten.
+Dit artikel bevat informatie over probleemoplossing voor afzenders die problemen ondervinden bij het verzenden van e-mail naar Postvak IN in Microsoft 365 en best practices voor bulkmailing naar klanten.
 
 ## <a name="are-you-managing-your-ip-and-domains-sending-reputation"></a>Beheert u de verzendende reputatie van uw IP en domein?
 
-EOP-filtertechnologieën zijn ontworpen om bescherming tegen spam te bieden voor Microsoft 365 en andere Microsoft-producten, zoals Exchange Server. We maken ook gebruik van SPF, DKIM en DMARC; E-mailverificatietechnologieën die helpen bij het oplossen van het probleem van spoofing en phishing door te controleren of het domein dat de e-mail verstuurt, gemachtigd is om dit te doen. EOP-filtering wordt beïnvloed door een aantal factoren met betrekking tot het verzenden van IP, domein, verificatie, lijstnauwkeurigheid, klachttarieven, inhoud en meer. Een van deze factoren is een van de belangrijkste factoren bij het in de weg zitten van de reputatie van een afzender en hun mogelijkheid om e-mail te leveren, is het percentage ongewenste e-mail dat wordt geklaagd.
+EOP-filtertechnologieën zijn ontworpen om antispambeveiliging te bieden voor Microsoft 365 en andere Microsoft-producten zoals Exchange Server. We maken ook gebruik van SPF, DKIM en DMARC; E-mailverificatietechnologieën die helpen bij het oplossen van het probleem van spoofing en phishing door te controleren of het domein dat de e-mail verstuurt, gemachtigd is om dit te doen. EOP-filtering wordt beïnvloed door een aantal factoren met betrekking tot het verzenden van IP, domein, verificatie, lijstnauwkeurigheid, klachttarieven, inhoud en meer. Een van deze factoren is een van de belangrijkste factoren bij het in de weg zitten van de reputatie van een afzender en hun mogelijkheid om e-mail te leveren, is het percentage ongewenste e-mail dat wordt geklaagd.
 
 ## <a name="are-you-sending-email-from-new-ip-addresses"></a>Verstuurt u e-mail van nieuwe IP-adressen?
 
@@ -62,7 +62,7 @@ Het is mogelijk dat we geen e-mail accepteren van afzenders die een reverse-DNS-
 
 Sommige bezorgingsproblemen zijn het gevolg van het blokkeren van het IP-adres van de afzender door Microsoft of omdat het gebruikersaccount is geïdentificeerd als geblokkeerde afzender vanwege eerdere spamactiviteiten. Als u denkt dat u de NDR fout hebt ontvangen, volgt u eerst de instructies in het NDR-bericht om het probleem op te lossen.
 
-Zie de lijst met foutcodes in rapporten over [niet-bezorgde e-mail in Exchange Online](/exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/non-delivery-reports-in-exchange-online)voor meer informatie over de fout die u hebt ontvangen.
+Zie de lijst met foutcodes in rapporten over [niet-bezorgde e-mail in](/exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/non-delivery-reports-in-exchange-online)Exchange Online.
 
  Als u bijvoorbeeld de volgende NDR ontvangt, geeft dit aan dat het verzendende IP-adres is geblokkeerd door Microsoft:
 
@@ -84,11 +84,11 @@ U hebt de NDR ontvangen omdat verdachte activiteit is gedetecteerd vanaf het IP-
 
 ## <a name="i-cant-receive-email-from-senders-in-microsoft-365"></a>Ik kan geen e-mail ontvangen van afzenders in Microsoft 365
 
- Als u berichten van onze gebruikers wilt ontvangen, moet u ervoor zorgen dat uw netwerk verbindingen toestaat van de IP-adressen die door EOP in onze datacenters worden gebruikt. Zie IP-adressen [voor Exchange Online Protection voor meer informatie.](../../enterprise/urls-and-ip-address-ranges.md)
+ Als u berichten van onze gebruikers wilt ontvangen, moet u ervoor zorgen dat uw netwerk verbindingen toestaat van de IP-adressen die door EOP in onze datacenters worden gebruikt. Zie Exchange Online Protection [IP-adressen voor meer informatie.](../../enterprise/urls-and-ip-address-ranges.md)
 
-## <a name="best-practices-for-bulk-emailing-to-microsoft-365-users"></a>Best practices voor bulksgewijs e-mailen naar Microsoft 365-gebruikers
+## <a name="best-practices-for-bulk-emailing-to-microsoft-365-users"></a>Best practices voor bulksgewijs e-mailen naar Microsoft 365 gebruikers
 
-Als u vaak bulk-e-mailcampagnes voert naar Microsoft 365-gebruikers en ervoor wilt zorgen dat uw e-mailberichten op een veilige en tijdige manier binnenkomen, volgt u de tips in deze sectie.
+Als u vaak bulksgewijs e-mailcampagnes voert Microsoft 365 gebruikers en ervoor wilt zorgen dat uw e-mailberichten op een veilige en tijdige manier binnenkomen, volgt u de tips in deze sectie.
 
 ### <a name="ensure-that-the-from-name-reflects-who-is-sending-the-message"></a>Controleer of de van-naam weerspiegelt wie het bericht verstuurt
 

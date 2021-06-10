@@ -29,7 +29,7 @@ ms.locfileid: "51204086"
 ---
 # <a name="attack-simulation-training-deployment-considerations-and-faq"></a>Aanvalssimulatie traningimplementatieoverwegingen en veelgestelde vragen
 
-Training voor aanvalssimulatie is [nu algemeen beschikbaar.](https://techcommunity.microsoft.com/t5/microsoft-security-and/attack-simulation-training-in-microsoft-defender-for-office-365/ba-p/2037291) Met trainingstrainingen voor aanvalssimulaties kunnen organisaties van Microsoft 365 E5 of Microsoft Defender voor Office 365 Plan 2 sociaal-technische risico's meten en beheren door het maken en beheren van phishingsimulaties toe te staan die worden aangedreven door real-world, ontwapende phishing-payloads. Hypergerichte training, geleverd in samenwerking met De beveiliging van Terranova, helpt de kennis te verbeteren en het gedrag van werknemers te wijzigen.
+Training voor aanvalssimulatie is [nu algemeen beschikbaar.](https://techcommunity.microsoft.com/t5/microsoft-security-and/attack-simulation-training-in-microsoft-defender-for-office-365/ba-p/2037291) Met training voor aanvalssimulatie kunnen Microsoft 365 E5- of Microsoft Defender voor Office 365 Plan 2-organisaties risico's voor sociale technologie meten en beheren door het maken en beheren van phishingsimulaties die worden mogelijk gemaakt door real-world, ontwapende phishing-payloads. Hypergerichte training, geleverd in samenwerking met De beveiliging van Terranova, helpt de kennis te verbeteren en het gedrag van werknemers te wijzigen.
 
 Zie Aan de slag met de trainingstraining Aanvalssimulatie voor meer informatie over aan de slag gaan met de trainingstraining [aanvalssimulatie.](attack-simulation-training-get-started.md)
 
@@ -37,15 +37,15 @@ Hoewel de hele ervaring voor het maken en plannen van simulaties is ontworpen om
 
 ## <a name="issues-with-end-user-experiences"></a>Problemen met eindgebruikerservaringen
 
-### <a name="phishing-simulation-urls-blocked-by-google-safe-browsing"></a>URL's voor phishingsimulatie die zijn geblokkeerd door Google Safe Browsing
+### <a name="phishing-simulation-urls-blocked-by-google-safe-browsing"></a>URL's voor phishingsimulatie die zijn geblokkeerd door Google Safe Browsen
 
-Een URL-reputatieservice kan een of meer URL's identificeren die door de training voor de aanvalssimulatie worden gebruikt als onveilig. Google Safe Browsing in Google Chrome blokkeert enkele gesimuleerde phishing-URL's met een bericht van **de misleidende site.** Hoewel we met veel URL-reputatieleveranciers werken om altijd onze url's voor simulatie toe te staan, hebben we niet altijd volledige dekking.
+Een URL-reputatieservice kan een of meer URL's identificeren die door de training voor de aanvalssimulatie worden gebruikt als onveilig. Google Safe browsen in Google Chrome blokkeert enkele gesimuleerde phishing-URL's met een bericht van **de misleidende site.** Hoewel we met veel URL-reputatieleveranciers werken om altijd onze url's voor simulatie toe te staan, hebben we niet altijd volledige dekking.
 
 ![Waarschuwing voor misleidende site in Google Chrome](../../media/attack-sim-chrome-deceptive-site-message.png)
 
-Houd er rekening mee dat dit probleem niet van invloed is op Microsoft Edge.
+Houd er rekening mee dat dit probleem geen invloed heeft op Microsoft Edge.
 
-Als onderdeel van de planningsfase moet u de beschikbaarheid van de URL in uw ondersteunde webbrowsers controleren voordat u de URL gebruikt in een phishingcampagne. Als de URL's worden geblokkeerd door Google Safe [Browsing,](https://support.google.com/chrome/a/answer/7532419) volgt u deze richtlijnen van Google om toegang tot de URL's toe te staan.
+Als onderdeel van de planningsfase moet u de beschikbaarheid van de URL in uw ondersteunde webbrowsers controleren voordat u de URL gebruikt in een phishingcampagne. Als de URL's worden geblokkeerd door Google Safe [browsen,](https://support.google.com/chrome/a/answer/7532419) volgt u deze richtlijnen van Google om toegang tot de URL's toe te staan.
 
 Raadpleeg [Aan de slag met training voor aanvalssimulatie](attack-simulation-training-get-started.md) voor de lijst met URL's die momenteel worden gebruikt door de training voor de aanvalssimulatie.
 
@@ -72,7 +72,7 @@ Het is mogelijk dat het aantal gebruikers dat de e-mailberichten voor de simulat
 - Gastgebruikers.
 - Gebruikers die niet meer actief zijn in Azure Active Directory (Azure AD).
 
-Alleen geldige, niet-gastgebruikers met een geldig postvak worden opgenomen in de simulaties. Als u distributiegroepen of beveiligingsgroepen met e-mail gebruikt om gebruikers te targeten, kunt u de [cmdlet Get-DistributionGroupMember](/powershell/module/exchange/get-distributiongroupmember) in [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) gebruiken om leden van distributiegroepen te bekijken en te valideren.
+Alleen geldige, niet-gastgebruikers met een geldig postvak worden opgenomen in de simulaties. Als u distributiegroepen of beveiligingsgroepen met e-mail gebruikt om gebruikers te targeten, kunt u de cmdlet [Get-DistributionGroupMember](/powershell/module/exchange/get-distributiongroupmember) in [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) gebruiken om leden van de distributiegroep weer te geven en te valideren.
 
 ## <a name="issues-with-attack-simulation-training-reporting"></a>Problemen met de rapportage van training voor de aanvalssimulatie
 
@@ -124,7 +124,7 @@ Simulatierapporten in de training Aanvalssimulator geven informatie over gebruik
 - Gebruikers die hun referenties hebben opgeslagen.
 - Gebruikers die het bericht als phishing hebben gerapporteerd.
 
-Als berichten die gebruikers als phishing hebben gerapporteerd, niet worden vastgelegd in trainingssimulatierapporten voor aanvallen, is er mogelijk een Exchange-e-mailstroomregel (ook wel een transportregel genoemd) die de bezorging van de gerapporteerde berichten aan Microsoft blokkeert. Controleer of e-mailstroomregels de bezorging van de volgende e-mailadressen niet blokkeren:
+Als berichten die gebruikers als phishing hebben gerapporteerd, niet worden vastgelegd in trainingssimulatierapporten voor aanvallen, is er mogelijk een Exchange-regel voor de e-mailstroom (ook wel een transportregel genoemd) die de bezorging van de gerapporteerde berichten aan Microsoft blokkeert. Controleer of e-mailstroomregels de bezorging van de volgende e-mailadressen niet blokkeren:
 
 - junk@office365.microsoft.com
 - abuse@messaging.microsoft.com
@@ -160,7 +160,7 @@ Dat gezegd hebbende, kunt u uw eigen payload maken in de taal van uw keuze met b
 
 ### <a name="q-how-can-i-switch-to-other-languages-for-my-admin-portal-and-training-experience"></a>V: Hoe kan ik overschakelen naar andere talen voor mijn beheerportal en trainingservaring?
 
-A: In Microsoft 365 of Office 365 is taalconfiguratie specifiek en gecentraliseerd voor elk gebruikersaccount. Zie Uw weergavetaal en tijdzone [wijzigen in Microsoft 365 voor Bedrijven](https://support.microsoft.com/office/6f238bff-5252-441e-b32b-655d5d85d15b)voor instructies over het wijzigen van de taalinstelling.
+A: In Microsoft 365 of Office 365 is taalconfiguratie specifiek en gecentraliseerd voor elk gebruikersaccount. Zie Uw weergavetaal en tijdzone wijzigen in Microsoft 365 voor Bedrijven voor instructies over het wijzigen [van de taalinstelling.](https://support.microsoft.com/office/6f238bff-5252-441e-b32b-655d5d85d15b)
 
 Houd er rekening mee dat het 30 minuten kan duren voordat de configuratiewijziging voor alle services wordt gesynchroniseerd.
 

@@ -1,6 +1,6 @@
 ---
 title: Overzicht - Geavanceerd zoeken
-description: Meer informatie over geavanceerde zoekquery's in Microsoft 365 en hoe u deze kunt gebruiken om proactief bedreigingen en zwakke punten in uw netwerk te vinden
+description: Meer informatie over geavanceerde zoekquery's in Microsoft 365 en hoe u ze proactief kunt gebruiken om bedreigingen en zwakke punten in uw netwerk op te zoeken
 keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, microsoft 365, m365, search, query, telemetry, custom detections, schema, kusto
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -28,7 +28,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 04/28/2021
 ms.locfileid: "52073959"
 ---
-# <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-365-defender"></a>Proactief op bedreigingen zoeken met geavanceerde jacht in Microsoft 365 Defender
+# <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-365-defender"></a>Proactief op bedreigingen zoeken met geavanceerde Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -46,14 +46,14 @@ Geavanceerd zoeken is een op query's gebaseerd hulpprogramma voor bedreigingsjac
 
 U kunt dezelfde query's voor het zoeken naar bedreigingen gebruiken om aangepaste detectieregels te maken. Deze regels worden automatisch uitgevoerd om te controleren of en vervolgens te reageren op verdachte inbreukactiviteiten, verkeerd geconfigureerde machines en andere bevindingen.
 
-Deze mogelijkheid is vergelijkbaar met [geavanceerde jacht in Microsoft Defender voor eindpunt.](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview) Deze functie is beschikbaar in het Microsoft 365-beveiligingscentrum en ondersteunt query's die een bredere gegevensset controleren op basis van:
+Deze mogelijkheid is vergelijkbaar met [geavanceerde jacht in Microsoft Defender voor eindpunt.](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview) Deze Microsoft 365 beschikbaar in het beveiligingscentrum en ondersteunt query's die een bredere gegevensset controleren op basis van:
 
 - Microsoft Defender voor Eindpunt
 - Microsoft Defender voor Office 365
 - Microsoft Cloud App Security
 - Microsoft Defender for Identity
 
-Als u geavanceerde jacht wilt gebruiken, [schakelt u Microsoft 365 Defender in.](m365d-enable.md)
+Als u geavanceerde jacht wilt gebruiken, [zet u Microsoft 365 Defender](m365d-enable.md)in.
 
 ## <a name="get-started-with-advanced-hunting"></a>Aan de slag met geavanceerde jacht
 
@@ -69,7 +69,7 @@ Het is raadzaam om verschillende stappen uit te voeren om snel aan de slag te ga
 | **Aangepaste detectieregels maken** | Meer informatie over hoe u geavanceerde zoekquery's kunt gebruiken om waarschuwingen te activeren en automatisch antwoordacties uit te voeren. | - [Overzicht van aangepaste detecties](custom-detections-overview.md) <br />- [Aangepaste detectieregels](custom-detection-rules.md) |
 
 ## <a name="get-access"></a>Toegang krijgen
-Als u geavanceerde zoekmogelijkheden of andere [Microsoft 365 Defender-mogelijkheden](microsoft-365-defender.md) wilt gebruiken, hebt u een geschikte rol nodig in Azure Active Directory. [Lees meer over vereiste rollen en machtigingen voor geavanceerde jacht](custom-roles.md).
+Als u geavanceerde jacht- of andere [Microsoft 365 Defender-mogelijkheden](microsoft-365-defender.md) wilt gebruiken, hebt u een passende rol nodig in Azure Active Directory. [Lees meer over vereiste rollen en machtigingen voor geavanceerde jacht](custom-roles.md).
 
 Uw toegang tot eindpuntgegevens wordt ook bepaald door RBAC-instellingen (Role-Based Access Control) in Microsoft Defender for Endpoint. [Lees meer over het beheren van toegang tot Microsoft 365 Defender.](m365d-permissions.md)
 

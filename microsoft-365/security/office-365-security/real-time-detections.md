@@ -23,7 +23,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52300123"
 ---
-# <a name="threat-explorer-and-real-time-detections-basics"></a>Basisbeginselen bedreigingsverkenner en realtimedetectie
+# <a name="threat-explorer-and-real-time-detections-basics"></a>Bedreigingsverkenner en basisbeginselen van realtime detecties
 
 In dit artikel:
 

@@ -1,5 +1,5 @@
 ---
-title: Meer informatie over factureringsaccounts
+title: Meer inzicht in het factureringsaccount
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -26,7 +26,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52535636"
 ---
-# <a name="understand-billing-accounts"></a>Meer informatie over factureringsaccounts
+# <a name="understand-billing-accounts"></a>Meer inzicht in het factureringsaccount
 
 Er wordt een factureringsaccount gemaakt wanneer u zich abonneert om Microsoft-producten te proberen of te kopen. U gebruikt uw factureringsaccount om uw accountinstellingen, facturen, betalingsmethoden en aankopen te beheren. U hebt toegang tot meerdere factureringsaccounts. U hebt zich bijvoorbeeld rechtstreeks aangemeld voor Microsoft 365 of u hebt toegang tot de Enterprise Agreement, Microsoft Product & Services Agreement of Microsoft Customer Agreement van uw organisatie. Voor elk van deze scenario's hebt u een afzonderlijk factureringsaccount.
 
@@ -44,7 +44,7 @@ De bovenkant van de **detailpagina factureringsaccounts** is uw accountprofiel e
 
 De volgende tabel bevat de belangrijke termen die u ziet op de detailpagina **Factureringsaccounts.**
 
-| Veldnaam | Omschrijving |
+| Veldnaam | Beschrijving |
 |------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Verkocht adres | De rechtspersoon die verantwoordelijk is voor de betaling en die is geïdentificeerd op de factuur. Het hier opgegeven adres wordt gebruikt om het belastingtarief vast te stellen, tenzij je tijdens je aankoop een alternatief verzendadres opgeeft. Bekijk [Belastinginformatie](billing-and-payments/tax-information.md) voor meer informatie. |
 | Segment | Een veld alleen-lezen dat het zakelijke segment van uw organisatie identificeert (Commercieel, Onderwijs, Overheid of Non-profit). |

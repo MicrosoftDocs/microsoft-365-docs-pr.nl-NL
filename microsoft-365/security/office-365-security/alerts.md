@@ -17,7 +17,7 @@ ms.assetid: 2bb4e7c0-5f7f-4144-b647-cc6a956aaa53
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Meer informatie over het gebruik van de waarschuwingenfuncties in het Office 365-beveiligings- & compliancecentrum voor het weergeven en beheren van waarschuwingen, waaronder het beheren van geavanceerde waarschuwingen.
+description: Meer informatie over het gebruik van de waarschuwingenfuncties in Office 365 beveiligingscentrum & compliancecentrum voor het weergeven en beheren van waarschuwingen, waaronder het beheren van geavanceerde waarschuwingen.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
@@ -36,7 +36,7 @@ ms.locfileid: "51204261"
 - [Exchange Online Protection](exchange-online-protection-overview.md)
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
 
-Gebruik de waarschuwingenfuncties in het Beveiligings- & Compliancecentrum om waarschuwingen voor uw organisatie weer te geven en te beheren, waaronder het beheren van geavanceerde waarschuwingen als onderdeel van het overzicht van [Microsoft Cloud App-beveiliging.](/cloud-app-security/what-is-cloud-app-security)
+Gebruik de waarschuwingenfuncties in het Beveiligings- & Compliancecentrum om waarschuwingen voor uw organisatie weer te geven en te beheren, inclusief het beheren van geavanceerde waarschuwingen als onderdeel van [Microsoft Cloud App Security overzicht.](/cloud-app-security/what-is-cloud-app-security)
 
 ## <a name="how-to-get-to-the-alerts-features"></a>De functies voor waarschuwingen gebruiken
 
@@ -69,5 +69,5 @@ In de volgende tabel worden de hulpprogramma's beschreven die beschikbaar zijn o
 |Hulpmiddel|Beschrijving|
 |---|---|
 |[Waarschuwingen beheren](../../compliance/create-activity-alerts.md)|Gebruik activiteitswaarschuwingen om e-mailmeldingen naar uzelf of andere beheerders te verzenden wanneer gebruikers specifieke activiteiten uitvoeren in Microsoft 365. Activiteitswaarschuwingen zijn vergelijkbaar met het zoeken in het auditlogboek naar gebeurtenissen, behalve dat u een e-mailbericht ontvangt wanneer er een gebeurtenis plaatsvindt waarop u een waarschuwing hebt gemaakt.|
-|[Geavanceerde waarschuwingen beheren](/cloud-app-security/what-is-cloud-app-security)|Gebruik de functie Geavanceerde waarschuwingen **beheren** van Microsoft 365 Cloud App Security om beleidsregels in te stellen waarmee u wordt gewaarschuwd voor verdachte en afwijkende activiteiten in Microsoft 365. Nadat u een waarschuwing hebt ontvangen, kunt u situaties onderzoeken die mogelijk problematisch zijn en zo nodig actie ondernemen om beveiligingsproblemen op te lossen.|
+|[Geavanceerde waarschuwingen beheren](/cloud-app-security/what-is-cloud-app-security)|Gebruik de **functie Geavanceerde waarschuwingen beheren** van Microsoft 365 Cloud App Security om beleid in te stellen waarmee u wordt gewaarschuwd voor verdachte en afwijkende activiteiten in Microsoft 365. Nadat u een waarschuwing hebt ontvangen, kunt u situaties onderzoeken die mogelijk problematisch zijn en zo nodig actie ondernemen om beveiligingsproblemen op te lossen.|
 |

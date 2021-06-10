@@ -15,12 +15,12 @@ ms.author: dansimp
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
-ms.openlocfilehash: 7ade1ae1e045cb52f48d231acbc1712e753b6bc3
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 5bf9f856e93ae1424373a917490a264c04e07feb
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841844"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861177"
 ---
 # <a name="onboard-windows-10-multi-session-devices-in-windows-virtual-desktop"></a>Onboarden Windows 10 multi-sessie apparaten in Windows Virtual Desktop (Virtuele bureaubladversie) 
 6 minuten om te lezen 
@@ -148,3 +148,7 @@ Als u FSlogix-gebruikersprofielen gebruikt, raden we u aan de volgende bestanden
 
 Opmerking over licenties: Wanneer u Windows 10 Enterprise meerdere sessies gebruikt, afhankelijk van uw vereisten, kunt u ervoor kiezen om alle gebruikers een licentie te geven via Microsoft Defender voor Eindpunt (per gebruiker), Windows Enterprise E5, Microsoft 365 Security of Microsoft 365 E5, of om de VM te laten gelicentieerd via Azure Defender.
 Licentievereisten voor Microsoft Defender voor eindpunten vindt u op: [Licentievereisten.](minimum-requirements.md#licensing-requirements)
+
+#### <a name="related-links"></a>Gerelateerde koppelingen
+
+[Uitsluitingen voor Microsoft Defender toevoegen met PowerShell](/azure/architecture/example-scenario/wvd/windows-virtual-desktop-fslogix#add-exclusions-for-windows-defender-by-using-powershell)

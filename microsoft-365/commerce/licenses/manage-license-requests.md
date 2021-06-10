@@ -53,7 +53,7 @@ Als uw organisatie een eigen aanvraagprocedure heeft, kunt u deze in plaats daar
 1. Ga in het beheercentrum naar de pagina   >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Factureringslicenties</a> en selecteer vervolgens het **tabblad Aanvragen.**
 2. Selecteer **In plaats daarvan uw bestaande aanvraagproces gebruiken.**
 3. Typ in het rechterdeelvenster in **het** vak Bericht het bericht dat gebruikers moeten zien wanneer ze een licentie aanvragen. Als u ook een koppeling naar uw organisatiebeleid of andere documentatie wilt opnemen, voert u de URL in het tekstvak Koppeling naar **documentatie (optioneel)** in.
-4. Selecteer **Opslaan**.
+4. Klik op **Opslaan**.
 
 Wanneer u terugkeert naar de lijst **Aanvragen,** ziet u het bericht **U gebruikt uw eigen licentieaanvraagproces.** Als u wijzigingen wilt aanbrengen in het bericht dat naar gebruikers wordt verzonden, selecteert u In plaats daarvan **Uw bestaande aanvraagproces gebruiken.**
 
@@ -62,7 +62,7 @@ Wanneer u terugkeert naar de lijst **Aanvragen,** ziet u het bericht **U gebruik
 1. Ga in het beheercentrum naar de pagina   >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Factureringslicenties</a> en selecteer vervolgens het **tabblad Aanvragen.**
 2. Selecteer **In plaats daarvan uw bestaande aanvraagproces gebruiken.**
 3. In het rechterdeelvenster kunt u het selectievakje **Aanvraagproces** van mijn organisatie gebruiken uitschakelen.
-4. Selecteer **Opslaan**.
+4. Klik op **Opslaan**.
 
 ## <a name="approve-or-deny-a-license-request"></a>Een licentieaanvraag goedkeuren of weigeren
 

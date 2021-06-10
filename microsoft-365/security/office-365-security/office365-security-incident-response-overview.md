@@ -67,7 +67,7 @@ Bekijk hier maandelijks hoe meer artikelen in de tijd worden toegevoegd.
 
 ## <a name="secure-microsoft-365-like-a-cybersecurity-pro"></a>Microsoft 365 beveiligen als een cybersecurity pro
 
-Uw Microsoft 365-abonnement heeft een krachtige reeks aan beveiligingsmogelijkheden die u kunt gebruiken om uw gegevens en gebruikers te beschermen.  Gebruik de microsoft 365-beveiligingsroutekaart - De belangrijkste prioriteiten voor de eerste [30 dagen, 90](security-roadmap.md) dagen en daarna om aanbevolen aanbevolen procedures van Microsoft te implementeren voor het beveiligen van uw Microsoft 365-organisatie.
+Uw Microsoft 365-abonnement heeft een krachtige reeks aan beveiligingsmogelijkheden die u kunt gebruiken om uw gegevens en gebruikers te beschermen.  Gebruik de Microsoft 365-routekaart voor beveiliging: de belangrijkste prioriteiten voor de eerste [30 dagen, 90](security-roadmap.md) dagen en daarna om aanbevolen procedures van Microsoft voor het beveiligen van uw Microsoft 365 implementeren.
 
 - Taken die in de eerste 30 dagen moeten worden uitgevoerd.  Deze hebben direct effect en weinig invloed op uw gebruikers.
 
