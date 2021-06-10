@@ -20,15 +20,15 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52535516"
 ---
-# <a name="payment-information-for-fiji"></a><span data-ttu-id="02bff-103">Betalingsgegevens voor Fiji</span><span class="sxs-lookup"><span data-stu-id="02bff-103">Payment information for Fiji</span></span>
+# <a name="payment-information-for-fiji"></a><span data-ttu-id="56890-103">Betalingsgegevens voor Fiji</span><span class="sxs-lookup"><span data-stu-id="56890-103">Payment information for Fiji</span></span>
 
-<span data-ttu-id="02bff-104">[Zoek een ander land of een andere regio.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="02bff-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="56890-104">[Zoek een ander land of een andere regio.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="56890-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="02bff-105">Betaal alleen in USD en verwijs naar het factuurnummer(en) bij de overboeking van uw betaling.</span><span class="sxs-lookup"><span data-stu-id="02bff-105">Please pay in USD only and reference invoice number(s) on your payment remittance.</span></span>
+<span data-ttu-id="56890-105">Betaal alleen in USD en verwijs naar het factuurnummer(en) bij de overboeking van uw betaling.</span><span class="sxs-lookup"><span data-stu-id="56890-105">Please pay in USD only and reference invoice number(s) on your payment remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="02bff-106">Elektronische betaling</span><span class="sxs-lookup"><span data-stu-id="02bff-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="56890-106">Elektronische betaling</span><span class="sxs-lookup"><span data-stu-id="56890-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="02bff-107">**Bank:** Citibank, Singapore</span><span class="sxs-lookup"><span data-stu-id="02bff-107">**Bank:** Citibank, Singapore</span></span>  
-<span data-ttu-id="02bff-108">**SWIFT-code:** CITISGSG</span><span class="sxs-lookup"><span data-stu-id="02bff-108">**SWIFT Code:** CITISGSG</span></span>  
-<span data-ttu-id="02bff-109">**Accountnummer:** 0-817543-138</span><span class="sxs-lookup"><span data-stu-id="02bff-109">**Account Number:** 0-817543-138</span></span>  
-<span data-ttu-id="02bff-110">**Accountnaam:** MICROSOFT REGIONAL SALE CORP</span><span class="sxs-lookup"><span data-stu-id="02bff-110">**Account Name:** MICROSOFT REGIONAL SALE CORP</span></span>
+<span data-ttu-id="56890-107">**Bank:** Citibank, Singapore</span><span class="sxs-lookup"><span data-stu-id="56890-107">**Bank:** Citibank, Singapore</span></span>  
+<span data-ttu-id="56890-108">**SWIFT-code:** CITISGSG</span><span class="sxs-lookup"><span data-stu-id="56890-108">**SWIFT Code:** CITISGSG</span></span>  
+<span data-ttu-id="56890-109">**Accountnummer:** 0-817543-138</span><span class="sxs-lookup"><span data-stu-id="56890-109">**Account Number:** 0-817543-138</span></span>  
+<span data-ttu-id="56890-110">**Accountnaam:** MICROSOFT REGIONAL SALE CORP</span><span class="sxs-lookup"><span data-stu-id="56890-110">**Account Name:** MICROSOFT REGIONAL SALE CORP</span></span>
