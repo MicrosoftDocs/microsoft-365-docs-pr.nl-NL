@@ -19,22 +19,22 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52298936"
 ---
-# <a name="contact-support-for-denmark"></a><span data-ttu-id="5a17a-103">Neem contact op met ondersteuning voor Denemarken</span><span class="sxs-lookup"><span data-stu-id="5a17a-103">Contact support for Denmark</span></span>
+# <a name="contact-support-for-denmark"></a><span data-ttu-id="52db3-103">Neem contact op met ondersteuning voor Denemarken</span><span class="sxs-lookup"><span data-stu-id="52db3-103">Contact support for Denmark</span></span>
 
-<span data-ttu-id="5a17a-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="5a17a-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="52db3-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="52db3-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="5a17a-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="5a17a-105">Phone number</span></span>
-<span data-ttu-id="5a17a-106">80 34 76 23</span><span class="sxs-lookup"><span data-stu-id="5a17a-106">80 34 76 23</span></span>
+## <a name="phone-number"></a><span data-ttu-id="52db3-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="52db3-105">Phone number</span></span>
+<span data-ttu-id="52db3-106">80 34 76 23</span><span class="sxs-lookup"><span data-stu-id="52db3-106">80 34 76 23</span></span>
 
-## <a name="hours"></a><span data-ttu-id="5a17a-107">Uren</span><span class="sxs-lookup"><span data-stu-id="5a17a-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="5a17a-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="5a17a-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="52db3-107">Uren</span><span class="sxs-lookup"><span data-stu-id="52db3-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="52db3-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="52db3-108">Billing Support:</span></span>
 
-<span data-ttu-id="5a17a-109">Engels: Mon-Fri 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="5a17a-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="52db3-109">Engels: Mon-Fri 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="52db3-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="5a17a-110">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="5a17a-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="52db3-110">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="52db3-110">Technical Support:</span></span>
 
-<span data-ttu-id="5a17a-111">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="5a17a-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="52db3-111">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="52db3-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="5a17a-112">Alternatief Telefoon getal: 38 48 70 67</span><span class="sxs-lookup"><span data-stu-id="5a17a-112">Alternative Phone Number: 38 48 70 67</span></span>
+<span data-ttu-id="52db3-112">Alternatief Telefoon getal: 38 48 70 67</span><span class="sxs-lookup"><span data-stu-id="52db3-112">Alternative Phone Number: 38 48 70 67</span></span>
 
-<span data-ttu-id="5a17a-113">Lokale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="5a17a-113">Local call charges apply</span></span>
+<span data-ttu-id="52db3-113">Lokale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="52db3-113">Local call charges apply</span></span>

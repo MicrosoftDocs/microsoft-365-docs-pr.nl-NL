@@ -19,18 +19,18 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52298407"
 ---
-# <a name="contact-support-for-lithuania"></a><span data-ttu-id="a8139-103">Neem contact op met ondersteuning voor Litouwen</span><span class="sxs-lookup"><span data-stu-id="a8139-103">Contact support for Lithuania</span></span>
+# <a name="contact-support-for-lithuania"></a><span data-ttu-id="dbe8f-103">Neem contact op met ondersteuning voor Litouwen</span><span class="sxs-lookup"><span data-stu-id="dbe8f-103">Contact support for Lithuania</span></span>
 
-<span data-ttu-id="a8139-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="a8139-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="dbe8f-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="dbe8f-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="a8139-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="a8139-105">Phone number</span></span>
-<span data-ttu-id="a8139-106">8800 30 960</span><span class="sxs-lookup"><span data-stu-id="a8139-106">8800 30 960</span></span>
+## <a name="phone-number"></a><span data-ttu-id="dbe8f-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="dbe8f-105">Phone number</span></span>
+<span data-ttu-id="dbe8f-106">8800 30 960</span><span class="sxs-lookup"><span data-stu-id="dbe8f-106">8800 30 960</span></span>
 
-## <a name="hours"></a><span data-ttu-id="a8139-107">Uren</span><span class="sxs-lookup"><span data-stu-id="a8139-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="a8139-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="a8139-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="dbe8f-107">Uren</span><span class="sxs-lookup"><span data-stu-id="dbe8f-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="dbe8f-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="dbe8f-108">Billing Support:</span></span>
 
-<span data-ttu-id="a8139-109">Engels: Mon-Fri 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="a8139-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="dbe8f-109">Engels: Mon-Fri 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="dbe8f-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="a8139-110">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="a8139-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="dbe8f-110">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="dbe8f-110">Technical Support:</span></span>
 
-<span data-ttu-id="a8139-111">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="a8139-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="dbe8f-111">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="dbe8f-111">English: 24 hours a day, 7 days a week</span></span>

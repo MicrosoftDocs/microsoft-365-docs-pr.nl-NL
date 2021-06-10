@@ -19,20 +19,20 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52297882"
 ---
-# <a name="contact-support-for-papua-new-guinea"></a><span data-ttu-id="27d79-103">Neem contact op met ondersteuning voor Papoea-Nieuw-Guinea</span><span class="sxs-lookup"><span data-stu-id="27d79-103">Contact support for Papua New Guinea</span></span>
+# <a name="contact-support-for-papua-new-guinea"></a><span data-ttu-id="bfac3-103">Neem contact op met ondersteuning voor Papoea-Nieuw-Guinea</span><span class="sxs-lookup"><span data-stu-id="bfac3-103">Contact support for Papua New Guinea</span></span>
 
-<span data-ttu-id="27d79-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="27d79-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="bfac3-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="bfac3-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="27d79-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="27d79-105">Phone number</span></span>
-<span data-ttu-id="27d79-106">+1 312 843 5148</span><span class="sxs-lookup"><span data-stu-id="27d79-106">+1 312 843 5148</span></span>
+## <a name="phone-number"></a><span data-ttu-id="bfac3-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="bfac3-105">Phone number</span></span>
+<span data-ttu-id="bfac3-106">+1 312 843 5148</span><span class="sxs-lookup"><span data-stu-id="bfac3-106">+1 312 843 5148</span></span>
 
-## <a name="hours"></a><span data-ttu-id="27d79-107">Uren</span><span class="sxs-lookup"><span data-stu-id="27d79-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="27d79-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="27d79-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="bfac3-107">Uren</span><span class="sxs-lookup"><span data-stu-id="bfac3-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="bfac3-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="bfac3-108">Billing Support:</span></span>
 
-<span data-ttu-id="27d79-109">Engels: Mon-Fri 11:00-19:00</span><span class="sxs-lookup"><span data-stu-id="27d79-109">English: Mon-Fri 11 AM-7 PM</span></span>
+<span data-ttu-id="bfac3-109">Engels: Mon-Fri 11:00-19:00</span><span class="sxs-lookup"><span data-stu-id="bfac3-109">English: Mon-Fri 11 AM-7 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="27d79-110">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="27d79-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="bfac3-110">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="bfac3-110">Technical Support:</span></span>
 
-<span data-ttu-id="27d79-111">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="27d79-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="bfac3-111">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="bfac3-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="27d79-112">Internationale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="27d79-112">International call charges apply</span></span>
+<span data-ttu-id="bfac3-112">Internationale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="bfac3-112">International call charges apply</span></span>

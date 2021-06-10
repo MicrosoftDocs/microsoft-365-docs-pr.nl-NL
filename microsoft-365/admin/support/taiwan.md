@@ -19,26 +19,26 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52297582"
 ---
-# <a name="contact-support-for-taiwan"></a><span data-ttu-id="e3f06-103">Neem contact op met de ondersteuning voor Taiwan</span><span class="sxs-lookup"><span data-stu-id="e3f06-103">Contact support for Taiwan</span></span>
+# <a name="contact-support-for-taiwan"></a><span data-ttu-id="0fd9d-103">Neem contact op met de ondersteuning voor Taiwan</span><span class="sxs-lookup"><span data-stu-id="0fd9d-103">Contact support for Taiwan</span></span>
 
-<span data-ttu-id="e3f06-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="e3f06-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="0fd9d-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="0fd9d-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="e3f06-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="e3f06-105">Phone number</span></span>
-<span data-ttu-id="e3f06-106">0800 666 802</span><span class="sxs-lookup"><span data-stu-id="e3f06-106">0800 666 802</span></span>
+## <a name="phone-number"></a><span data-ttu-id="0fd9d-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="0fd9d-105">Phone number</span></span>
+<span data-ttu-id="0fd9d-106">0800 666 802</span><span class="sxs-lookup"><span data-stu-id="0fd9d-106">0800 666 802</span></span>
 
-## <a name="hours"></a><span data-ttu-id="e3f06-107">Uren</span><span class="sxs-lookup"><span data-stu-id="e3f06-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="e3f06-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="e3f06-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="0fd9d-107">Uren</span><span class="sxs-lookup"><span data-stu-id="0fd9d-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="0fd9d-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="0fd9d-108">Billing Support:</span></span>
 
-<span data-ttu-id="e3f06-109">Chinees (Mandarijn): Mon-Fri 9:00-18:00</span><span class="sxs-lookup"><span data-stu-id="e3f06-109">Chinese (Mandarin): Mon-Fri 9 AM-6 PM</span></span>
+<span data-ttu-id="0fd9d-109">Chinees (Mandarijn): Mon-Fri 9:00-18:00</span><span class="sxs-lookup"><span data-stu-id="0fd9d-109">Chinese (Mandarin): Mon-Fri 9 AM-6 PM</span></span>
 
-<span data-ttu-id="e3f06-110">Engels: Mon-Fri 9:00-18:00 lokaal</span><span class="sxs-lookup"><span data-stu-id="e3f06-110">English: Mon-Fri 9 AM-6 PM Local</span></span>
+<span data-ttu-id="0fd9d-110">Engels: Mon-Fri 9:00-18:00 lokaal</span><span class="sxs-lookup"><span data-stu-id="0fd9d-110">English: Mon-Fri 9 AM-6 PM Local</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="e3f06-111">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="e3f06-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="0fd9d-111">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="0fd9d-111">Technical Support:</span></span>
 
-<span data-ttu-id="e3f06-112">Chinees (Mandarijn): Mon-Fri 9:00-18:00</span><span class="sxs-lookup"><span data-stu-id="e3f06-112">Chinese (Mandarin): Mon-Fri 9 AM-6 PM</span></span>
+<span data-ttu-id="0fd9d-112">Chinees (Mandarijn): Mon-Fri 9:00-18:00</span><span class="sxs-lookup"><span data-stu-id="0fd9d-112">Chinese (Mandarin): Mon-Fri 9 AM-6 PM</span></span>
 
-<span data-ttu-id="e3f06-113">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="e3f06-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="0fd9d-113">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="0fd9d-113">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="e3f06-114">Alternatief Telefoon getal: 02 2656 7301</span><span class="sxs-lookup"><span data-stu-id="e3f06-114">Alternative Phone Number: 02 2656 7301</span></span>
+<span data-ttu-id="0fd9d-114">Alternatief Telefoon getal: 02 2656 7301</span><span class="sxs-lookup"><span data-stu-id="0fd9d-114">Alternative Phone Number: 02 2656 7301</span></span>
 
-<span data-ttu-id="e3f06-115">Lokale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="e3f06-115">Local call charges apply</span></span>
+<span data-ttu-id="0fd9d-115">Lokale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="0fd9d-115">Local call charges apply</span></span>

@@ -19,24 +19,24 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52297558"
 ---
-# <a name="contact-support-for-timor-leste"></a><span data-ttu-id="61507-103">Neem contact op met ondersteuning voor Timor-Leste</span><span class="sxs-lookup"><span data-stu-id="61507-103">Contact support for Timor-Leste</span></span>
+# <a name="contact-support-for-timor-leste"></a><span data-ttu-id="9ce82-103">Neem contact op met ondersteuning voor Timor-Leste</span><span class="sxs-lookup"><span data-stu-id="9ce82-103">Contact support for Timor-Leste</span></span>
 
-<span data-ttu-id="61507-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="61507-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="9ce82-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="9ce82-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="61507-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="61507-105">Phone number</span></span>
-<span data-ttu-id="61507-106">+1 312 843 5155</span><span class="sxs-lookup"><span data-stu-id="61507-106">+1 312 843 5155</span></span>
+## <a name="phone-number"></a><span data-ttu-id="9ce82-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="9ce82-105">Phone number</span></span>
+<span data-ttu-id="9ce82-106">+1 312 843 5155</span><span class="sxs-lookup"><span data-stu-id="9ce82-106">+1 312 843 5155</span></span>
 
-## <a name="hours"></a><span data-ttu-id="61507-107">Uren</span><span class="sxs-lookup"><span data-stu-id="61507-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="61507-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="61507-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="9ce82-107">Uren</span><span class="sxs-lookup"><span data-stu-id="9ce82-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="9ce82-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="9ce82-108">Billing Support:</span></span>
 
-<span data-ttu-id="61507-109">Portugees: Mon-Fri 21.00-05.00 uur</span><span class="sxs-lookup"><span data-stu-id="61507-109">Portuguese: Mon-Fri 9 PM-5 AM</span></span>
+<span data-ttu-id="9ce82-109">Portugees: Mon-Fri 21.00-05.00 uur</span><span class="sxs-lookup"><span data-stu-id="9ce82-109">Portuguese: Mon-Fri 9 PM-5 AM</span></span>
 
-<span data-ttu-id="61507-110">Engels: Mon-Fri 21.00-05.00 uur</span><span class="sxs-lookup"><span data-stu-id="61507-110">English: Mon-Fri 9 PM-5 AM</span></span>
+<span data-ttu-id="9ce82-110">Engels: Mon-Fri 21.00-05.00 uur</span><span class="sxs-lookup"><span data-stu-id="9ce82-110">English: Mon-Fri 9 PM-5 AM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="61507-111">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="61507-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="9ce82-111">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="9ce82-111">Technical Support:</span></span>
 
-<span data-ttu-id="61507-112">Portugees: 24 uur per dag, tussen 12.00 en 12.00 uur</span><span class="sxs-lookup"><span data-stu-id="61507-112">Portuguese: 24 hours a day, between Mon noon and Sat noon</span></span>
+<span data-ttu-id="9ce82-112">Portugees: 24 uur per dag, tussen 12.00 en 12.00 uur</span><span class="sxs-lookup"><span data-stu-id="9ce82-112">Portuguese: 24 hours a day, between Mon noon and Sat noon</span></span>
 
-<span data-ttu-id="61507-113">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="61507-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="9ce82-113">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="9ce82-113">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="61507-114">Internationale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="61507-114">International call charges apply</span></span>
+<span data-ttu-id="9ce82-114">Internationale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="9ce82-114">International call charges apply</span></span>

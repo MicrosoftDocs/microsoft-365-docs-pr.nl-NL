@@ -19,30 +19,30 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52298419"
 ---
-# <a name="contact-support-for-libya"></a><span data-ttu-id="71080-103">Neem contact op met de ondersteuning voor Libië</span><span class="sxs-lookup"><span data-stu-id="71080-103">Contact support for Libya</span></span>
+# <a name="contact-support-for-libya"></a><span data-ttu-id="c7485-103">Neem contact op met de ondersteuning voor Libië</span><span class="sxs-lookup"><span data-stu-id="c7485-103">Contact support for Libya</span></span>
 
-<span data-ttu-id="71080-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="71080-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="c7485-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="c7485-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="71080-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="71080-105">Phone number</span></span>
-<span data-ttu-id="71080-106">+965 2243 1071</span><span class="sxs-lookup"><span data-stu-id="71080-106">+965 2243 1071</span></span>
+## <a name="phone-number"></a><span data-ttu-id="c7485-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="c7485-105">Phone number</span></span>
+<span data-ttu-id="c7485-106">+965 2243 1071</span><span class="sxs-lookup"><span data-stu-id="c7485-106">+965 2243 1071</span></span>
 
-<span data-ttu-id="71080-107">Optie 2 selecteren</span><span class="sxs-lookup"><span data-stu-id="71080-107">Select option 2</span></span>
+<span data-ttu-id="c7485-107">Optie 2 selecteren</span><span class="sxs-lookup"><span data-stu-id="c7485-107">Select option 2</span></span>
 
-<span data-ttu-id="71080-108">Optie 9 selecteren</span><span class="sxs-lookup"><span data-stu-id="71080-108">Select option 9</span></span>
+<span data-ttu-id="c7485-108">Optie 9 selecteren</span><span class="sxs-lookup"><span data-stu-id="c7485-108">Select option 9</span></span>
 
-<span data-ttu-id="71080-109">Code 7701 invoeren</span><span class="sxs-lookup"><span data-stu-id="71080-109">Enter code 7701</span></span>
+<span data-ttu-id="c7485-109">Code 7701 invoeren</span><span class="sxs-lookup"><span data-stu-id="c7485-109">Enter code 7701</span></span>
 
-## <a name="hours"></a><span data-ttu-id="71080-110">Uren</span><span class="sxs-lookup"><span data-stu-id="71080-110">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="71080-111">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="71080-111">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="c7485-110">Uren</span><span class="sxs-lookup"><span data-stu-id="c7485-110">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="c7485-111">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="c7485-111">Billing Support:</span></span>
 
-<span data-ttu-id="71080-112">Arabisch: Sun-Thu 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="71080-112">Arabic: Sun-Thu 9 AM-5 PM</span></span>
+<span data-ttu-id="c7485-112">Arabisch: Sun-Thu 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="c7485-112">Arabic: Sun-Thu 9 AM-5 PM</span></span>
 
-<span data-ttu-id="71080-113">Engels: Mon-Fri 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="71080-113">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="c7485-113">Engels: Mon-Fri 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="c7485-113">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="71080-114">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="71080-114">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="c7485-114">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="c7485-114">Technical Support:</span></span>
 
-<span data-ttu-id="71080-115">Arabisch: Sun-Thu 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="71080-115">Arabic: Sun-Thu 9 AM-5 PM</span></span>
+<span data-ttu-id="c7485-115">Arabisch: Sun-Thu 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="c7485-115">Arabic: Sun-Thu 9 AM-5 PM</span></span>
 
-<span data-ttu-id="71080-116">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="71080-116">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="c7485-116">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="c7485-116">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="71080-117">Internationale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="71080-117">International call charges apply</span></span>
+<span data-ttu-id="c7485-117">Internationale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="c7485-117">International call charges apply</span></span>

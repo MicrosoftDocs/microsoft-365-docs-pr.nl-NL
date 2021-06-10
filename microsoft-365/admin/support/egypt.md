@@ -19,22 +19,22 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52298912"
 ---
-# <a name="contact-support-for-egypt"></a><span data-ttu-id="938cb-103">Contact opnemen met ondersteuning voor Egypte</span><span class="sxs-lookup"><span data-stu-id="938cb-103">Contact support for Egypt</span></span>
+# <a name="contact-support-for-egypt"></a><span data-ttu-id="de26e-103">Contact opnemen met ondersteuning voor Egypte</span><span class="sxs-lookup"><span data-stu-id="de26e-103">Contact support for Egypt</span></span>
 
-<span data-ttu-id="938cb-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="938cb-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="de26e-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="de26e-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="938cb-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="938cb-105">Phone number</span></span>
-<span data-ttu-id="938cb-106">0800 000 0325</span><span class="sxs-lookup"><span data-stu-id="938cb-106">0800 000 0325</span></span>
+## <a name="phone-number"></a><span data-ttu-id="de26e-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="de26e-105">Phone number</span></span>
+<span data-ttu-id="de26e-106">0800 000 0325</span><span class="sxs-lookup"><span data-stu-id="de26e-106">0800 000 0325</span></span>
 
-## <a name="hours"></a><span data-ttu-id="938cb-107">Uren</span><span class="sxs-lookup"><span data-stu-id="938cb-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="938cb-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="938cb-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="de26e-107">Uren</span><span class="sxs-lookup"><span data-stu-id="de26e-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="de26e-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="de26e-108">Billing Support:</span></span>
 
-<span data-ttu-id="938cb-109">Arabisch: Sun-Thu 10:00-18:00</span><span class="sxs-lookup"><span data-stu-id="938cb-109">Arabic: Sun-Thu 10 AM-6 PM</span></span>
+<span data-ttu-id="de26e-109">Arabisch: Sun-Thu 10:00-18:00</span><span class="sxs-lookup"><span data-stu-id="de26e-109">Arabic: Sun-Thu 10 AM-6 PM</span></span>
 
-<span data-ttu-id="938cb-110">Engels: Mon-Fri 10.00-18.00 uur</span><span class="sxs-lookup"><span data-stu-id="938cb-110">English: Mon-Fri 10 AM-6 PM</span></span>
+<span data-ttu-id="de26e-110">Engels: Mon-Fri 10.00-18.00 uur</span><span class="sxs-lookup"><span data-stu-id="de26e-110">English: Mon-Fri 10 AM-6 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="938cb-111">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="938cb-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="de26e-111">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="de26e-111">Technical Support:</span></span>
 
-<span data-ttu-id="938cb-112">Arabisch: Sun-Thu 10:00-18:00</span><span class="sxs-lookup"><span data-stu-id="938cb-112">Arabic: Sun-Thu 10 AM-6 PM</span></span>
+<span data-ttu-id="de26e-112">Arabisch: Sun-Thu 10:00-18:00</span><span class="sxs-lookup"><span data-stu-id="de26e-112">Arabic: Sun-Thu 10 AM-6 PM</span></span>
 
-<span data-ttu-id="938cb-113">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="938cb-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="de26e-113">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="de26e-113">English: 24 hours a day, 7 days a week</span></span>

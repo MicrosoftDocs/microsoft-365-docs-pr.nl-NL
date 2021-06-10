@@ -19,20 +19,20 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52298756"
 ---
-# <a name="contact-support-for-guernsey"></a><span data-ttu-id="2cda0-103">Contact opnemen met ondersteuning voor Guernsey</span><span class="sxs-lookup"><span data-stu-id="2cda0-103">Contact support for Guernsey</span></span>
+# <a name="contact-support-for-guernsey"></a><span data-ttu-id="386c8-103">Contact opnemen met ondersteuning voor Guernsey</span><span class="sxs-lookup"><span data-stu-id="386c8-103">Contact support for Guernsey</span></span>
 
-<span data-ttu-id="2cda0-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="2cda0-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="386c8-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="386c8-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="2cda0-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="2cda0-105">Phone number</span></span>
-<span data-ttu-id="2cda0-106">+1 312 843 5151</span><span class="sxs-lookup"><span data-stu-id="2cda0-106">+1 312 843 5151</span></span>
+## <a name="phone-number"></a><span data-ttu-id="386c8-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="386c8-105">Phone number</span></span>
+<span data-ttu-id="386c8-106">+1 312 843 5151</span><span class="sxs-lookup"><span data-stu-id="386c8-106">+1 312 843 5151</span></span>
 
-## <a name="hours"></a><span data-ttu-id="2cda0-107">Uren</span><span class="sxs-lookup"><span data-stu-id="2cda0-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="2cda0-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="2cda0-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="386c8-107">Uren</span><span class="sxs-lookup"><span data-stu-id="386c8-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="386c8-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="386c8-108">Billing Support:</span></span>
 
-<span data-ttu-id="2cda0-109">Engels: Mon-Fri 10.00-18.00 uur</span><span class="sxs-lookup"><span data-stu-id="2cda0-109">English: Mon-Fri 10 AM-6 PM</span></span>
+<span data-ttu-id="386c8-109">Engels: Mon-Fri 10.00-18.00 uur</span><span class="sxs-lookup"><span data-stu-id="386c8-109">English: Mon-Fri 10 AM-6 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="2cda0-110">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="2cda0-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="386c8-110">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="386c8-110">Technical Support:</span></span>
 
-<span data-ttu-id="2cda0-111">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="2cda0-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="386c8-111">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="386c8-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="2cda0-112">Internationale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="2cda0-112">International call charges apply</span></span>
+<span data-ttu-id="386c8-112">Internationale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="386c8-112">International call charges apply</span></span>

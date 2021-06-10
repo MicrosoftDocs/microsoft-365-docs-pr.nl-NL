@@ -19,7 +19,7 @@ search.appverid:
 - MET150
 - BCS160
 ms.assetid: f5ee6c33-bcd7-4b0b-b0f8-dc1d9fb8d132
-description: Dit artikel bevat informatie over Telemetrie van Microsoft 365 Connectivity.
+description: Dit artikel bevat informatie over Microsoft 365 Connectivity Telemetry.
 ms.openlocfilehash: 9ad7abbabc293e1b283d6742966982b09f0bffa1
 ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
 ms.translationtype: MT
@@ -27,7 +27,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 04/26/2021
 ms.locfileid: "52029147"
 ---
-# <a name="microsoft-365-connectivity-telemetry"></a><span data-ttu-id="84b7f-103">Microsoft 365 Connectivity Telemetry</span><span class="sxs-lookup"><span data-stu-id="84b7f-103">Microsoft 365 Connectivity Telemetry</span></span>
+# <a name="microsoft-365-connectivity-telemetry"></a><span data-ttu-id="769b1-103">Microsoft 365 Connectivity Telemetry</span><span class="sxs-lookup"><span data-stu-id="769b1-103">Microsoft 365 Connectivity Telemetry</span></span>
 
-<span data-ttu-id="84b7f-104">Dit artikel wordt uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="84b7f-104">This article is in progress.</span></span>
+<span data-ttu-id="769b1-104">Dit artikel wordt uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="769b1-104">This article is in progress.</span></span>
 

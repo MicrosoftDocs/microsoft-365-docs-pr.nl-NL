@@ -19,18 +19,18 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52297534"
 ---
-# <a name="contact-support-for-trinidad-amp-tobago"></a><span data-ttu-id="b7892-103">Neem contact op met ondersteuning voor Trinidad &amp; Tobago</span><span class="sxs-lookup"><span data-stu-id="b7892-103">Contact support for Trinidad &amp; Tobago</span></span>
+# <a name="contact-support-for-trinidad-amp-tobago"></a><span data-ttu-id="a78a4-103">Neem contact op met ondersteuning voor Trinidad &amp; Tobago</span><span class="sxs-lookup"><span data-stu-id="a78a4-103">Contact support for Trinidad &amp; Tobago</span></span>
 
-<span data-ttu-id="b7892-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="b7892-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="a78a4-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="a78a4-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="b7892-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="b7892-105">Phone number</span></span>
-<span data-ttu-id="b7892-106">1 855 214 7711</span><span class="sxs-lookup"><span data-stu-id="b7892-106">1 855 214 7711</span></span>
+## <a name="phone-number"></a><span data-ttu-id="a78a4-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="a78a4-105">Phone number</span></span>
+<span data-ttu-id="a78a4-106">1 855 214 7711</span><span class="sxs-lookup"><span data-stu-id="a78a4-106">1 855 214 7711</span></span>
 
-## <a name="hours"></a><span data-ttu-id="b7892-107">Uren</span><span class="sxs-lookup"><span data-stu-id="b7892-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="b7892-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="b7892-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="a78a4-107">Uren</span><span class="sxs-lookup"><span data-stu-id="a78a4-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="a78a4-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="a78a4-108">Billing Support:</span></span>
 
-<span data-ttu-id="b7892-109">Engels: Mon-Fri 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="b7892-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="a78a4-109">Engels: Mon-Fri 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="a78a4-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="b7892-110">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="b7892-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="a78a4-110">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="a78a4-110">Technical Support:</span></span>
 
-<span data-ttu-id="b7892-111">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="b7892-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="a78a4-111">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="a78a4-111">English: 24 hours a day, 7 days a week</span></span>

@@ -19,18 +19,18 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52298443"
 ---
-# <a name="contact-support-for-latvia"></a><span data-ttu-id="648de-103">Neem contact op met de ondersteuning voor Letland</span><span class="sxs-lookup"><span data-stu-id="648de-103">Contact support for Latvia</span></span>
+# <a name="contact-support-for-latvia"></a><span data-ttu-id="06093-103">Neem contact op met de ondersteuning voor Letland</span><span class="sxs-lookup"><span data-stu-id="06093-103">Contact support for Latvia</span></span>
 
-<span data-ttu-id="648de-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="648de-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="06093-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="06093-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="648de-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="648de-105">Phone number</span></span>
-<span data-ttu-id="648de-106">8000 42 33</span><span class="sxs-lookup"><span data-stu-id="648de-106">8000 42 33</span></span>
+## <a name="phone-number"></a><span data-ttu-id="06093-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="06093-105">Phone number</span></span>
+<span data-ttu-id="06093-106">8000 42 33</span><span class="sxs-lookup"><span data-stu-id="06093-106">8000 42 33</span></span>
 
-## <a name="hours"></a><span data-ttu-id="648de-107">Uren</span><span class="sxs-lookup"><span data-stu-id="648de-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="648de-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="648de-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="06093-107">Uren</span><span class="sxs-lookup"><span data-stu-id="06093-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="06093-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="06093-108">Billing Support:</span></span>
 
-<span data-ttu-id="648de-109">Engels: Mon-Fri 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="648de-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="06093-109">Engels: Mon-Fri 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="06093-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="648de-110">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="648de-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="06093-110">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="06093-110">Technical Support:</span></span>
 
-<span data-ttu-id="648de-111">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="648de-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="06093-111">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="06093-111">English: 24 hours a day, 7 days a week</span></span>

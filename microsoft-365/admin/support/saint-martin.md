@@ -19,24 +19,24 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52297786"
 ---
-# <a name="contact-support-for-saint-martin"></a><span data-ttu-id="1c996-103">Neem contact op met ondersteuning voor Sint Maarten</span><span class="sxs-lookup"><span data-stu-id="1c996-103">Contact support for Saint Martin</span></span>
+# <a name="contact-support-for-saint-martin"></a><span data-ttu-id="c5290-103">Neem contact op met ondersteuning voor Sint Maarten</span><span class="sxs-lookup"><span data-stu-id="c5290-103">Contact support for Saint Martin</span></span>
 
-<span data-ttu-id="1c996-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="1c996-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="c5290-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="c5290-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="1c996-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="1c996-105">Phone number</span></span>
-<span data-ttu-id="1c996-106">+1 312 843 5147</span><span class="sxs-lookup"><span data-stu-id="1c996-106">+1 312 843 5147</span></span>
+## <a name="phone-number"></a><span data-ttu-id="c5290-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="c5290-105">Phone number</span></span>
+<span data-ttu-id="c5290-106">+1 312 843 5147</span><span class="sxs-lookup"><span data-stu-id="c5290-106">+1 312 843 5147</span></span>
 
-## <a name="hours"></a><span data-ttu-id="1c996-107">Uren</span><span class="sxs-lookup"><span data-stu-id="1c996-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="1c996-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="1c996-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="c5290-107">Uren</span><span class="sxs-lookup"><span data-stu-id="c5290-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="c5290-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="c5290-108">Billing Support:</span></span>
 
-<span data-ttu-id="1c996-109">Frans: Mon-Fri 04:00-12:00</span><span class="sxs-lookup"><span data-stu-id="1c996-109">French: Mon-Fri 4 AM-noon</span></span>
+<span data-ttu-id="c5290-109">Frans: Mon-Fri 04:00-12:00</span><span class="sxs-lookup"><span data-stu-id="c5290-109">French: Mon-Fri 4 AM-noon</span></span>
 
-<span data-ttu-id="1c996-110">Engels: Mon-Fri 04:00-12:00</span><span class="sxs-lookup"><span data-stu-id="1c996-110">English: Mon-Fri 4 AM-noon</span></span>
+<span data-ttu-id="c5290-110">Engels: Mon-Fri 04:00-12:00</span><span class="sxs-lookup"><span data-stu-id="c5290-110">English: Mon-Fri 4 AM-noon</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="1c996-111">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="1c996-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="c5290-111">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="c5290-111">Technical Support:</span></span>
 
-<span data-ttu-id="1c996-112">Frans: Mon-Fri 03:00-16:00</span><span class="sxs-lookup"><span data-stu-id="1c996-112">French: Mon-Fri 3 AM-4 PM</span></span>
+<span data-ttu-id="c5290-112">Frans: Mon-Fri 03:00-16:00</span><span class="sxs-lookup"><span data-stu-id="c5290-112">French: Mon-Fri 3 AM-4 PM</span></span>
 
-<span data-ttu-id="1c996-113">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="1c996-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="c5290-113">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="c5290-113">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="1c996-114">Internationale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="1c996-114">International call charges apply</span></span>
+<span data-ttu-id="c5290-114">Internationale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="c5290-114">International call charges apply</span></span>

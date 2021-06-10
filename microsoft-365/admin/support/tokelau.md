@@ -19,20 +19,20 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52297546"
 ---
-# <a name="contact-support-for-tokelau"></a><span data-ttu-id="b2ccc-103">Neem contact op met de ondersteuning voor Tokelau</span><span class="sxs-lookup"><span data-stu-id="b2ccc-103">Contact support for Tokelau</span></span>
+# <a name="contact-support-for-tokelau"></a><span data-ttu-id="eed02-103">Neem contact op met de ondersteuning voor Tokelau</span><span class="sxs-lookup"><span data-stu-id="eed02-103">Contact support for Tokelau</span></span>
 
-<span data-ttu-id="b2ccc-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="b2ccc-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="eed02-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="eed02-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="b2ccc-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="b2ccc-105">Phone number</span></span>
-<span data-ttu-id="b2ccc-106">+1 312 843 5148</span><span class="sxs-lookup"><span data-stu-id="b2ccc-106">+1 312 843 5148</span></span>
+## <a name="phone-number"></a><span data-ttu-id="eed02-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="eed02-105">Phone number</span></span>
+<span data-ttu-id="eed02-106">+1 312 843 5148</span><span class="sxs-lookup"><span data-stu-id="eed02-106">+1 312 843 5148</span></span>
 
-## <a name="hours"></a><span data-ttu-id="b2ccc-107">Uren</span><span class="sxs-lookup"><span data-stu-id="b2ccc-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="b2ccc-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="b2ccc-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="eed02-107">Uren</span><span class="sxs-lookup"><span data-stu-id="eed02-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="eed02-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="eed02-108">Billing Support:</span></span>
 
-<span data-ttu-id="b2ccc-109">Engels: Mon-Fri 14.00-22.00 uur</span><span class="sxs-lookup"><span data-stu-id="b2ccc-109">English: Mon-Fri 2 PM-10 PM</span></span>
+<span data-ttu-id="eed02-109">Engels: Mon-Fri 14.00-22.00 uur</span><span class="sxs-lookup"><span data-stu-id="eed02-109">English: Mon-Fri 2 PM-10 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="b2ccc-110">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="b2ccc-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="eed02-110">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="eed02-110">Technical Support:</span></span>
 
-<span data-ttu-id="b2ccc-111">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="b2ccc-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="eed02-111">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="eed02-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="b2ccc-112">Internationale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="b2ccc-112">International call charges apply</span></span>
+<span data-ttu-id="eed02-112">Internationale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="eed02-112">International call charges apply</span></span>
