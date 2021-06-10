@@ -30,9 +30,9 @@ ms.locfileid: "51204553"
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-In het rapport **Niet-geaccepteerd** domein in het [e-mailstroomdashboard](mail-flow-insights-v2.md) in het [beveiligings- &](https://protection.office.com) compliancecentrum wordt informatie weergegeven over berichten van uw on-premises e-mailorganisatie waarin het domein van de afzender niet is geconfigureerd als een geaccepteerd domein in uw Microsoft 365-organisatie.
+In het rapport **Niet-geaccepteerd** domein in het [e-mailstroomdashboard](mail-flow-insights-v2.md) in het [beveiligings- & compliancecentrum](https://protection.office.com) wordt informatie weergegeven over berichten van uw on-premises e-mailorganisatie waarin het domein van de afzender niet is geconfigureerd als een geaccepteerd domein in uw Microsoft 365 organisatie.
 
-Microsoft 365 kan deze berichten in de weg staan als we gegevens hebben om aan te tonen dat de bedoeling van deze berichten schadelijk is. Daarom is het belangrijk dat u begrijpt wat er gebeurt en dat u het probleem kunt oplossen.
+Microsoft 365 kunnen deze berichten in de weg staan als we gegevens hebben om aan te tonen dat de bedoeling van deze berichten schadelijk is. Daarom is het belangrijk dat u begrijpt wat er gebeurt en dat u het probleem kunt oplossen.
 
 ![Niet-geaccepteerde domeinwidget in het e-mailstroomdashboard in & Beveiligingscentrum](../../media/mfi-non-accepted-domain-report-widget.png)
 

@@ -46,7 +46,7 @@ De **functie Accountbeveiliging prioriteit** die in dit onderwerp wordt beschrev
 De **functie Premium Mail Flow monitoring** die in dit onderwerp wordt beschreven, is alleen beschikbaar voor organisaties die voldoen aan de volgende vereisten:
 
 - Uw organisatie moet een licentie tellen van ten minste 10.000, van een van of een combinatie van de volgende producten: Office 365 E3, Microsoft 365 E3, Office 365 E5, Microsoft 365 E5. Uw organisatie kan bijvoorbeeld 3000 Office 365 E3-licenties en 8500 Microsoft 365 E5 hebben, voor in totaal 11.500 licenties van de in aanmerking komende producten.
-- Je organisatie heeft ten minste 50 maandelijks actieve Exchange Online-gebruikers nodig.
+- Uw organisatie heeft ten minste vijftig maandelijks actieve Exchange Online-gebruikers nodig.
 
 > [!NOTE]
 > U kunt maximaal 250 prioriteitsaccounts controleren.
@@ -73,7 +73,7 @@ U kunt ook prioriteitsaccounts toevoegen vanaf de pagina Actieve gebruikers.
 
 Voeg prioriteitsaccounts toe vanaf de pagina Actieve gebruikers.
 
-1. Ga naar het beheercentrum via <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.
+1. Ga naar het beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.
 
 2. Ga naar **Gebruikers**  >  **Actieve gebruikers** en selecteer de drie puntjes (meer acties) boven aan de pagina. Selecteer **Prioriteitsaccounts beheren.**
 

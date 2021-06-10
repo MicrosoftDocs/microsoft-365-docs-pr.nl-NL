@@ -173,7 +173,7 @@ Ze moeten een nieuwe groep maken om alle Contoso-gebruikers op te nemen, zodat z
 
 3. Nadat de nieuwe groep is gemaakt, moeten ze alle Contoso-gebruikers toevoegen aan de nieuwe groep. Ze openen het **Exchange beheercentrum** [(en https://outlook.office365.com/ecp)](https://outlook.office365.com/ecp) navigeren naar Exchange **groepen** geadresseerden van  >  **het**  >  **beheercentrum.** De IT-beheerders van Contoso selecteren  het gebied Lidmaatschap en  de nieuwe groep Alle werknemers die ze hebben gemaakt en selecteer het besturingselement Bewerken om alle Contoso-gebruikers toe te voegen aan de nieuwe groep in de wizard.
 
-    ![Exchange beheercentrum](../media/communication-compliance-case-eac.png)
+    ![Exchange-beheercentrum](../media/communication-compliance-case-eac.png)
 
 ### <a name="creating-the-policy-to-monitor-for-offensive-language"></a>Het beleid maken om te controleren op aanstootgevende taal
 

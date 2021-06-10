@@ -19,18 +19,16 @@ ms.custom:
 search.appverid: MET150
 description: Meer informatie over het activeren en beheren van apps van derden in Microsoft 365 beheercentrum.
 ms.date: 04/15/2021
-ms.openlocfilehash: 5a486dba03fbd34fe2e409bba8ba41c1f9873141
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: f061137270416d13db1f1cd32aa17f50f2f8c5d2
+ms.sourcegitcommit: 2cf7293d610a676726ac891b89366e23810d9142
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52331620"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52866605"
 ---
 # <a name="manage-third-party-app-subscriptions-for-your-organization"></a>App-abonnementen van derden beheren voor uw organisatie
 
 U kunt licenties en facturering voor apps van derden beheren in het nieuwe Microsoft 365 beheercentrum. Bijgewerkte functies zijn verbeterd abonnementsbeheer, verbeterde toegang tot factureringsgegevens en verbeterde flexibiliteit voor het beheren van facturen. Abonnementsbeheer is gebaseerd op het bijgewerkte commerceplatform van Microsoft. Dit geldt voor software-as-a-service-apps die klanten rechtstreeks kopen of bij een externe provider.
-
-U kunt licenties en facturering voor apps van derden beheren in Microsoft 365 beheercentrum met de preview-modus ingeschakeld. Bijgewerkte functies zijn verbeterd abonnementsbeheer, verbeterde toegang tot factureringsgegevens en verbeterde flexibiliteit voor het beheren van facturen. Abonnementsbeheer is gebaseerd op het bijgewerkte commerceplatform van Microsoft. Dit geldt voor software-as-a-service-apps die klanten rechtstreeks kopen of bij externe provider.
 
 ## <a name="how-to-get-software-as-a-service-apps"></a>Software-as-a-service-apps downloaden
 

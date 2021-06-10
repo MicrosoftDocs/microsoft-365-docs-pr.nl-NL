@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7257cb50-0d5c-4f7a-ac2e-9fe5d13bb5cb
 description: Gebruikers met geldige werk- of schoolaccounts kunnen Cortana krijgen in Microsoft 365 ervaring die voldoet aan Office 365 beveiligingsbeloften op ondernemingsniveau.
-ms.openlocfilehash: f626ba0d0295655dcdb3d4df2b332dcf05f1a6b5
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: e4b934a8991837637869074d43df89e70b09924d
+ms.sourcegitcommit: 2cf7293d610a676726ac891b89366e23810d9142
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635796"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52866617"
 ---
 # <a name="cortana-in-microsoft-365"></a>Cortana in Microsoft 365
 
@@ -54,7 +54,7 @@ In overeenstemming met andere Office 365 services, zijn Cortana enterprise servi
 
 In de onderstaande tabel wordt de gegevensafhandeling voor Cortana Enterprise Services beschreven.
 
-| Naam | Beschrijving |
+| Naam | Omschrijving |
 |:-----|:-----|
 |**Storage**  <br/> |Klantgegevens worden opgeslagen op Microsoft-servers in de Office 365 cloud. Uw gegevens maken deel uit van uw tenant. <br/><br/>Spraakaudio blijft niet behouden.  <br/> |
 |**Blijft in Geo**  <br/> |Klantgegevens worden opgeslagen op Microsoft-servers in de Office 365 cloud in Geo. Uw gegevens maken deel uit van uw tenant.  <br/> |
@@ -89,19 +89,17 @@ Met Cortana-spraakondersteuning in Teams mobiele app en op Microsoft Teams beeld
 
 **Beheerbeheer**
 
-Cortana-spraakondersteuning is standaard ingeschakeld voor tenants. Beheerders kunnen bepalen wie in hun tenant Cortana spraakondersteuning kan gebruiken in Teams via een beleid (TeamsCortanaPolicy). Dit beleid kan worden ingesteld op gebruikersaccountniveau of tenantniveau. Beheerders kunnen ook het veld CortanaVoiceInvocationMode in dit beleidsbesturingselement gebruiken om te bepalen of Cortana is uitgeschakeld, alleen is ingeschakeld met inroeping van de drukknop of is ingeschakeld met inroeping van wake word (van toepassing op apparaten die dit ondersteunen, zoals de Microsoft Teams-weergave). Houd er rekening mee dat op het moment van de eerste release voor Microsoft 365 Enterprise-gebruikers in de Verenigde Staten in het Engels, de mobiele app Teams geen activering van wake word ondersteunt, maar dat deze in de toekomst wel wordt ondersteund.
+Cortana-spraakondersteuning is standaard ingeschakeld voor tenants. Beheerders kunnen bepalen wie in hun tenant Cortana spraakondersteuning kan gebruiken in Teams via een beleid (TeamsCortanaPolicy). Dit beleid kan worden ingesteld op gebruikersaccountniveau of tenantniveau. Beheerders kunnen ook het veld CortanaVoiceInvocationMode in dit beleidsbesturingselement gebruiken om te bepalen of Cortana is uitgeschakeld, alleen is ingeschakeld met inroeping van de drukknop of is ingeschakeld met inroeping van wake word (van toepassing op apparaten die dit ondersteunen, zoals de Microsoft Teams-weergave). 
 
 **Gebruikersbesturingselement**
 
-Individuele gebruikers kunnen Cortana-spraakassistentie uitproberen in Teams mobiele app door op de microfoonknop te klikken. Ze kunnen Cortana-spraakassistentie uitproberen op Microsoft Teams-weergaveapparaten door gewoon te zeggen &#8220;Cortana.&#8221; Ze kunnen ook bepalen of Cortana in Teams is ingeschakeld voor hun apparaat via een instelling in de mobiele app Teams of op de Microsoft Teams-weergave: 
+Individuele gebruikers kunnen Cortana-spraakassistentie uitproberen in Teams mobiele app door op de microfoonknop te klikken. Ze kunnen Cortana spraakassistentie uitproberen op Microsoft Teams-weergaveapparaten door gewoon te zeggen &#8220;Cortana.&#8221; Ze kunnen ook bepalen of Cortana reageert op de aanroep van het wakewoord. 
 
-1. Open de Teams mobiele app of ga naar het omgevingsscherm (startscherm) van het Microsoft Teams weergave.
+1.  Mobiele Teams openen
+2.  Ga naar Instellingen
+3.  Selecteer Cortana
+4.  Schakel de wisselknop Spraakactivering in
 
-2. Ga in Teams mobiele app naar **Instellingen.** Selecteer in Microsoft Teams weergave de avatar van de gebruiker en selecteer vervolgens Instellingen. Als Cortana is ingeschakeld, bijvoorbeeld &#8220;Cortana, gaat u naar Instellingen.&#8221;
-
-3. Selecteer **Cortana**.
-
-4. Verplaats de schakelaar naar **Aan** of **Uit,** afhankelijk van of u Cortana-spraakassistentie op het apparaat wilt gebruiken.
 
 [Meer informatie over Cortana-spraakondersteuning in Teams](/microsoftteams/cortana-in-teams)
 
@@ -185,7 +183,7 @@ Cortana-toegang tot de gehoste microsoft-gegevens van uw organisatie uitschakele
 Voor services die vallen onder de [Microsoft Services-overeenkomst](https://go.microsoft.com/fwlink/p/?LinkId=2109174) en [de Privacyverklaring](https://privacy.microsoft.com/privacystatement)van Microsoft, is Microsoft de gegevenscontroller. Als gegevenscontroller gebruikt Microsoft gegevens om producten en services te verbeteren in overeenstemming met de [Privacyverklaring van Microsoft.](https://privacy.microsoft.com/privacystatement)
 
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Cortana voice assistance in Teams](/microsoftteams/cortana-in-teams) (article)\
 [Cortana configureren in Windows 10](/windows/configuration/cortana-at-work/cortana-at-work-overview) (artikel)\

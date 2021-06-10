@@ -115,13 +115,13 @@ Ga naar **Meer > beheerder voor** toegang tot beheerfuncties die alleen beschikb
 
 Klik op het vergrootglas in de rechterbovenhoek van de pagina Service Trust Portal om het vak uit te vouwen, uw zoektermen in te voeren en op **Enter te drukken.** De **pagina** Zoeken wordt weergegeven, met de zoekterm weergegeven in het zoekvak en de zoekresultaten hieronder.
 
-![Service Trust Portal - Zoeken op documenten met filter toegepast](../media/86b754e1-c63c-4514-89ac-d014bf334140.png)
+![Service Trust Portal - Zoeken naar documenten met een toegepast filter](../media/86b754e1-c63c-4514-89ac-d014bf334140.png)
 
-De zoekactie retourneert standaard documentresultaten. U kunt de resultaten filteren met behulp van de vervolgkeuzelijsten om de lijst met weergegeven documenten te verfijnen. U kunt meerdere filters gebruiken om de lijst met documenten te beperken. Filters omvatten de specifieke cloudservices, categorieën nalevings- of beveiligingspraktijken, regio's en bedrijfstakken. Klik op de koppeling documentnaam om het document te downloaden.
+De zoekactie retourneert standaard documentresultaten. U kunt de resultaten filteren met behulp van de vervolgkeuzelijsten om de lijst met weergegeven documenten te verfijnen. U kunt meerdere filters gebruiken om de lijst met documenten te beperken. Filters omvatten de specifieke cloudservices, categorieën nalevings- of beveiligingspraktijken, regio's en bedrijfstakken. Klik op een documentnaamkoppeling om het document te downloaden.
 
 Als u besturingselementen uit beoordelingen in compliancebeheer (klassiek) wilt gebruiken die betrekking hebben op uw zoektermen, klikt u op **Compliancebeheer.** De zoekresultaten geven de datum weer waarop de beoordeling is gemaakt, de naam van de beoordelingsgroep, de toepasselijke Microsoft Cloud-service en of het besturingselement Microsoft of Customer Managed is. Klik op de naam van het besturingselement om het besturingselement weer te geven in de evaluatie in compliancebeheer (klassiek).
 
-![Service Trust Portal - Zoeken in Compliance Manager-besturingselementen](../media/bafb811a-68ce-40b5-ad16-058498fe5439.png)
+![Service Trust Portal - Zoeken in controles van Compliancebeheer](../media/bafb811a-68ce-40b5-ad16-058498fe5439.png)
 
 > [!NOTE]
 > Service Trust Portal-rapporten en -documenten kunnen minimaal 12 maanden na publicatie worden gedownload of totdat er een nieuwe versie van het document beschikbaar komt.
@@ -148,9 +148,9 @@ Als u toegang wilt tot deze starterspakketten, gaat u naar **Service Trust Porta
 
 ## <a name="localization-support"></a>Ondersteuning voor lokalisatie
 
-Met de Service Trust Portal kunt u de pagina-inhoud in verschillende talen bekijken. Als u de paginataal wilt wijzigen, klikt u op het wereldbolpictogram in de linkerbenedenhoek van de pagina en selecteert u de taal van uw keuze.
+Met de Service Trust Portal kunt u de pagina-inhoud in verschillende talen bekijken. Als u de taal van de pagina wilt wijzigen, klikt u op het wereldbolpictogram linksonder op de pagina en selecteert u de gewenste taal.
 
-![Service Trust Portal - Gelokaliseerde inhoudsopties](../media/b50c677e-a886-4267-9eca-915d880ead7a.png)
+![Service Trust Portal - Opties voor gelokaliseerde inhoud](../media/b50c677e-a886-4267-9eca-915d880ead7a.png)
 
 ## <a name="give-feedback"></a>Feedback geven
 

@@ -69,7 +69,7 @@ Om u te helpen aan de slag te gaan met een informatiebeveiligingsschema in Micro
 
 - [Serviceversleuteling met klantsleutel](../compliance/customer-key-overview.md)
 - [Gevoelige informatietypen](../compliance/sensitive-information-type-entity-definitions.md) (beschreven in het [artikel Privacyrisico's voor gegevens](information-protection-deploy-assess.md)beoordelen en gevoelige items identificeren)
-- [Vertrouwelijkheidslabels](../compliance/sensitivity-labels.md) 
+- [Gevoeligheidslabels](../compliance/sensitivity-labels.md) 
   - Service/containerniveau
   - Client-side/content-level
   - Geautomatiseerd voor gegevens-at-rest in SharePoint en OneDrive
@@ -156,9 +156,9 @@ Met gevoeligheidslabels die zijn toegepast op bestanden, kunt u de inhoud ervan 
 
 Wanneer u klaar bent om de gegevens van uw organisatie te gaan beveiligen met gevoeligheidslabels:
 
-1. **Maak de etiketten.** Maak en noem uw gevoeligheidslabels op basis van de classificatie taxonomie van uw organisatie voor verschillende gevoeligheidsniveaus van inhoud. Zie het white paper Data Classification and [Sensitivity Label Taxonomie voor](https://aka.ms/dataclassificationwhitepaper)meer informatie over het ontwikkelen van een classificatie taxonomie.
-2. **Definieer wat elk label kan doen.** Configureer de beveiligingsinstellingen die aan elk label zijn gekoppeld. U wilt bijvoorbeeld dat inhoud met een lagere gevoeligheid (zoals een label Algemeen) alleen een kop- of voettekst heeft toegepast, terwijl inhoud met een hogere gevoeligheid (zoals een label vertrouwelijk) een watermerk moet hebben en versleuteling moet zijn ingeschakeld.
-3. **Publiceer de etiketten.** Nadat uw gevoeligheidslabels zijn geconfigureerd, publiceert u deze met behulp van een labelbeleid. Bepaal welke gebruikers en groepen de labels moeten hebben en welke beleidsinstellingen moeten worden gebruikt. Eén label is herbruikbaar. U definieert het eenmaal en vervolgens kunt u het opnemen in verschillende labelbeleidsregels die aan verschillende gebruikers zijn toegewezen.
+1. **Maak de labels.** Maak en benoem uw gevoeligheidslabels volgens de classificatie-taxonomie van uw organisatie voor verschillende gevoeligheidsniveaus voor inhoud. Zie het white paper Data Classification and [Sensitivity Label Taxonomie voor](https://aka.ms/dataclassificationwhitepaper)meer informatie over het ontwikkelen van een classificatie taxonomie.
+2. **Bepalen wat elk label kan doen.** Configureer de beveiligingsinstellingen die u aan elk label wilt koppelen. U wilt bijvoorbeeld dat inhoud met een lagere gevoeligheid (zoals een label Algemeen) alleen een kop- of voettekst heeft toegepast, terwijl inhoud met een hogere gevoeligheid (zoals een label vertrouwelijk) een watermerk moet hebben en versleuteling moet zijn ingeschakeld.
+3. **De labels publiceren.** Wanneer uw gevoeligheidslabels zijn geconfigureerd, kunt u deze publiceren met een labelbeleid. Bepaal welke gebruikers en groepen de labels moeten hebben en welke beleidsinstellingen u wilt gebruiken. Eén label is herbruikbaar. U definieert het eenmaal en vervolgens kunt u het opnemen in verschillende labelbeleidsregels die aan verschillende gebruikers zijn toegewezen.
 
 Wanneer u gevoeligheidslabels publiceert vanuit het Microsoft 365 compliancecentrum, worden ze weergegeven in [Office-apps,](../compliance/sensitivity-labels-office-apps.md) zodat gebruikers inhoud kunnen classificeren en beveiligen terwijl deze wordt gemaakt of bewerkt.
 
@@ -175,13 +175,13 @@ Wanneer u een gevoeligheidslabel maakt, kunt u dat [label](../compliance/apply-s
 
 De mogelijkheid om automatisch gevoeligheidslabels toe te passen op inhoud is belangrijk omdat:
 
-- U hoeft uw gebruikers niet te trainen wanneer u al uw classificaties wilt gebruiken.
-- U hoeft niet op gebruikers te vertrouwen om alle inhoud correct te classificeren.
-- Gebruikers hoeven niets meer te weten over uw beleid. Ze kunnen zich in plaats daarvan concentreren op hun werk.
+- Het is niet nodig om uw gebruikers te trainen wanneer ze een van uw classificaties moeten gebruiken.
+- U hoeft niet te vertrouwen op gebruikers om alle inhoud op de juiste manier te classificeren.
+- Gebruikers hoeven niet meer op de hoogte te zijn van uw beleid, maar kunnen zich op hun werk richten.
 
-Autolabeling ondersteunt het aanbevelen van een label aan gebruikers en het automatisch toepassen van een label. Maar in beide gevallen bepaalt de gebruiker of hij of zij het label accepteert of weigert om ervoor te zorgen dat de inhoud correct wordt gelabeld.
+Autolabeling ondersteunt het aanbevelen van een label aan gebruikers en het automatisch toepassen van een label. Maar in beide gevallen besluit de gebruiker of het label wordt geaccepteerd of geweigerd, om ervoor te zorgen dat inhoud beter wordt gelabeld.
 
-Deze clientlabels hebben minimale vertraging voor documenten, omdat het label zelfs kan worden toegepast voordat het document wordt opgeslagen. Niet alle client-apps ondersteunen echter automatische labeling. Deze mogelijkheid wordt ondersteund door de geïntegreerde labelingclient van Azure Information Protection en sommige versies van Office [apps.](../compliance/sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps)
+Dit labelen aan clientzijde heeft een minimale vertraging voor documenten tot gevolg, omdat het label kan worden aangebracht voordat het document wordt opgeslagen. Niet alle client-apps ondersteunen echter automatisch labelen. Deze mogelijkheid wordt ondersteund door de geïntegreerde labelingclient van Azure Information Protection en sommige versies van Office [apps.](../compliance/sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps)
 
 Zie Autolabeling configureren [voor Office voor configuratie-instructies.](../compliance/sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps)
 
@@ -191,7 +191,7 @@ Voor gegevensbescherming kunt u gevoeligheidslabels automatisch toepassen op inh
 
 Deze methode wordt autoclassificatie met gevoeligheidslabels genoemd. U hoort het ook wel autolabeling voor gegevens in rust (voor documenten in SharePoint en OneDrive) en gegevens die onderweg zijn (voor e-mail die wordt verzonden of ontvangen door Exchange). Voor Exchange bevat het geen e-mailberichten in postvakken die in rust staan.
  
-Omdat deze labeling wordt toegepast door de service zelf in plaats van door de gebruikerstoepassing, hoeft u zich geen zorgen te maken over welke apps gebruikers hebben en welke versie. Hierdoor is deze mogelijkheid direct beschikbaar in uw organisatie en geschikt voor labeling op schaal. Autolabelingbeleid biedt geen ondersteuning voor aanbevolen labeling omdat de gebruiker geen interactie heeft met het labelingsproces. In plaats daarvan voert de beheerder het beleid uit in de simulatiemodus om ervoor te zorgen dat inhoud correct wordt gelabeld voordat het label daadwerkelijk wordt toegepast.
+Omdat deze labeling wordt toegepast door de service zelf in plaats van door de gebruikerstoepassing, hoeft u zich geen zorgen te maken over welke apps gebruikers hebben en welke versie. Hierdoor is deze functionaliteit direct beschikbaar binnen uw gehele organisatie en geschikt om op schaal te labelen. Beleid voor automatisch labelen ondersteunt geen aanbevolen labels, omdat de gebruiker geen interactie heeft met het labelproces. In plaats daarvan voert de beheerder het beleid in de simulatiemodus uit, om ervoor te zorgen dat de inhoud juist wordt gelabeld voordat het label werkelijk wordt toegepast.
 
 Zie Beleidsregels voor automatisch labelen [configureren voor SharePoint, OneDrive en Exchange voor configuratie-instructies.](../compliance/apply-sensitivity-label-automatically.md#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange)
 

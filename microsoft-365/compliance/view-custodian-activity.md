@@ -26,14 +26,14 @@ ms.locfileid: "52161481"
 ---
 # <a name="view-custodian-audit-activity"></a>Controleactiviteit voor beheerders weergeven
 
-Wilt u weten of een gebruiker een specifiek document heeft bekeken of een item uit zijn postvak heeft verwijderd? Advanced eDiscovery is nu geïntegreerd met het bestaande zoekprogramma voor auditlogboek in & Compliancecentrum. Met deze ingesloten ervaring kunt u het hulpprogramma Advanced eDiscovery bewaarderbeheer gebruiken om uw onderzoek te vergemakkelijken door eenvoudig toegang te krijgen tot de activiteit en te zoeken naar beheerders in uw zaak.
+Wilt u weten of een gebruiker een bepaald document heeft bekeken of een item uit zijn of haar postvak heeft verwijderd? Advanced eDiscovery is nu geïntegreerd met het bestaande zoekprogramma voor auditlogboek in & Compliancecentrum. Met deze ingesloten ervaring kunt u het hulpprogramma Advanced eDiscovery bewaarderbeheer gebruiken om uw onderzoek te vergemakkelijken door eenvoudig toegang te krijgen tot de activiteit en te zoeken naar beheerders in uw zaak.
 
 ## <a name="get-permissions"></a>Machtigingen krijgen
 
-U moet de rol auditlogboeken View-Only auditlogboeken in Exchange Online om het auditlogboek te doorzoeken. Deze rollen worden standaard toegewezen aan de rollengroepen Compliancebeheer en Organisatiebeheer op de pagina Machtigingen in het Exchange beheercentrum. Als u een gebruiker de mogelijkheid wilt geven om het Advanced eDiscovery-auditlogboek te doorzoeken met het minimumniveau van bevoegdheden, kunt u een aangepaste rollengroep maken in Exchange Online, de rol View-Only Auditlogboeken of Auditlogboeken toevoegen en vervolgens de gebruiker toevoegen als lid van de nieuwe rollengroep. Zie Rollengroepen beheren in Exchange Online voor meer Exchange Online.
+Als u auditlogboeken wilt doorzoeken, moet aan u de rol Auditlogboeken alleen-weergeven of Auditlogboeken in Exchange Online zijn toegewezen. Deze rollen worden standaard toegewezen aan de rollengroepen Compliancebeheer en Organisatiebeheer op de pagina Machtigingen in het Exchange-beheercentrum. Als u een gebruiker de mogelijkheid wilt geven om het Advanced eDiscovery-auditlogboek te doorzoeken met het minimumniveau van bevoegdheden, kunt u een aangepaste rollengroep maken in Exchange Online, de rol View-Only Auditlogboeken of Auditlogboeken toevoegen en vervolgens de gebruiker toevoegen als lid van de nieuwe rollengroep. Zie voor meer informatie Rollengroepen beheren in Exchange Online.
 
 > [!IMPORTANT]
-> Als u een gebruiker de rol View-Only auditlogboeken of auditlogboeken toewijst op de pagina Machtigingen in het beveiligings- & compliancecentrum, kunnen ze niet in het auditlogboek zoeken. U moet de machtigingen toewijzen in Exchange Online. Dit komt omdat de onderliggende cmdlet die wordt gebruikt om het auditlogboek te doorzoeken een Exchange Online cmdlet is.
+> Als u een gebruiker de rol View-Only auditlogboeken of auditlogboeken toewijst op de pagina Machtigingen in het beveiligings- & compliancecentrum, kunnen ze niet in het auditlogboek zoeken. U moet deze machtigingen toewijzen in Exchange Online. Dat komt omdat de onderliggende cmdlet voor het doorzoeken van het auditlogboek een Exchange Online-cmdlet is.
 
 ## <a name="step-1-search-the-audit-log-for-activities-performed-by-a-custodian"></a>Stap 1: het auditlogboek doorzoeken op activiteiten die door een bewaarder worden uitgevoerd
 
@@ -47,7 +47,7 @@ U moet de rol auditlogboeken View-Only auditlogboeken in Exchange Online om het 
 
     ![Zoekpagina voor beheerdersactiviteiten](../media/AeDCustodianActivities1.png)
    
-4. De volgende zoekcriteria configureren:
+4. Configureer de volgende zoekcriteria: 
       
    1. **Activiteiten:** klik op de vervolgkeuzelijst om de activiteiten weer te geven die u kunt zoeken. Nadat u de zoekopdracht hebt uitgevoerd, worden alleen de auditrecords voor de geselecteerde activiteiten weergegeven. Als **u Resultaten weergeven voor alle activiteiten selecteert,** worden resultaten weergegeven voor alle activiteiten die worden uitgevoerd door de bewaarder die voldoen aan de andere zoekcriteria.
 
@@ -61,34 +61,34 @@ U moet de rol auditlogboeken View-Only auditlogboeken in Exchange Online om het 
 
 ## <a name="step-2-view-the-audit-log-search-results"></a>Stap 2: De zoekresultaten van het auditlogboek weergeven
 
-De resultaten van een zoekopdracht in een auditlogboek worden weergegeven onder Resultaten op de pagina Bewaarcontrolelogboek. Maximaal 5.000 (nieuwste) gebeurtenissen worden weergegeven in stappen van 150 gebeurtenissen. Als u meer gebeurtenissen wilt weergeven, kunt u de schuifbalk gebruiken in het deelvenster Resultaten of u kunt op Shift+ End drukken om de volgende 150 gebeurtenissen weer te geven.
+De resultaten van een zoekopdracht in een auditlogboek worden weergegeven onder Resultaten op de pagina Bewaarcontrolelogboek. Maximaal 5.000 (nieuwste) gebeurtenissen worden weergegeven in stappen van 150 gebeurtenissen. Om meer gebeurtenissen weer te geven, kunt u de schuifbalk in het deelvenster Resultaten gebruiken of u kunt op Shift + End drukken om de volgende 150 gebeurtenissen weer te geven.
 
 De resultaten bevatten de volgende informatie over elke gebeurtenis die door de zoekopdracht wordt geretourneerd.
 - **Datum:** De datum en tijd (in UTC-indeling) wanneer de gebeurtenis heeft plaatsgevonden.
 
-- **IP-adres:** het IP-adres van het apparaat dat is gebruikt toen de activiteit werd geregistreerd. Het IP-adres wordt weergegeven in een IPv4- of IPv6-adresindeling.
+- **IP-adres**: het IP-adres van het apparaat dat is gebruikt toen de activiteit in het logboek werd vastgelegd. Het IP-adres wordt weergegeven in een IPv4- of IPv6-adresindeling.
 
-- **Gebruiker:** de gebruiker (of het serviceaccount) die de actie heeft uitgevoerd die de gebeurtenis heeft veroorzaakt.
+- **Gebruiker**: de gebruiker (of serviceaccount) die de actie heeft uitgevoerd die de gebeurtenis heeft veroorzaakt.
 
-- **Activiteit:** De activiteit die door de gebruiker wordt uitgevoerd. Deze waarde komt overeen met de activiteiten die u hebt geselecteerd in de vervolgkeuzelijst Activiteiten. Voor een gebeurtenis uit het auditlogboek Exchange beheerder, is de waarde in deze kolom een Exchange cmdlet.
+- **Activiteit**: de activiteit die door de gebruiker is uitgevoerd. Deze waarde komt overeen met de activiteiten die u hebt geselecteerd in de vervolgkeuzelijst Activiteiten. Voor een gebeurtenis uit het auditlogboek voor Exchange-beheerders is de waarde in deze kolom een Exchange-cmdlet.
 
-- **Item:** Het object dat is gemaakt of gewijzigd als gevolg van de bijbehorende activiteit. Bijvoorbeeld het bestand dat is bekeken of gewijzigd of het gebruikersaccount dat is bijgewerkt. Niet alle activiteiten hebben een waarde in deze kolom.
+- **Item**: het object dat is gemaakt of gewijzigd als gevolg van de bijbehorende activiteit. Bijvoorbeeld het bestand dat is bekeken of gewijzigd of het gebruikersaccount dat is bijgewerkt. Niet alle activiteiten hebben een waarde in deze kolom.
 
 - **Detail:** Meer informatie over een activiteit. Nogmaals, niet alle activiteiten hebben een waarde.
 
-## <a name="step-3-filter-the-search-results"></a>Stap 3: De zoekresultaten filteren
+## <a name="step-3-filter-the-search-results"></a>Stap 3: de zoekresultaten filteren
 
-U kunt niet alleen sorteren, maar ook de resultaten van een zoekopdracht in een auditlogboek filteren. Dit kan u helpen om snel de resultaten te filteren voor een specifieke gebruiker of activiteit. 
+Behalve sorteren kunt u de resultaten van een zoekopdracht in het auditlogboek ook filteren. Dit kan u helpen om snel de resultaten te filteren voor een specifieke gebruiker of activiteit. 
 
-De resultaten filteren:
+U filtert de resultaten als volgt:
 
  1. Een auditlogboek zoeken maken en uitvoeren.
   
-2. Wanneer de resultaten worden weergegeven, klikt u op **Resultaten filteren.**
+2. Klik op **Resultaten filteren** wanneer de resultaten worden weergegeven.
  
-3. Trefwoordvakken worden weergegeven onder elke kolomkop.
+3. Onder elke kolomkop wordt een vak met trefwoorden weergegeven.
   
-4. Klik op een van de vakken onder een kolomkop en typ een woord of woordgroep, afhankelijk van de kolom waar u op filtert. De resultaten worden dynamisch aangepast om de gebeurtenissen weer te geven die overeenkomen met uw filter.
+4. Klik op een van de vakken onder een kolomkop en typ een woord of zinsdeel, afhankelijk van de kolom die u filtert. De resultaten worden dynamisch aangepast en de gebeurtenissen die met het filter overeenkomen, worden weergegeven.
   
 5. Als u een filter wilt verwijderen, klikt u op **de X** in het filtervak of klikt u op **Filteren verbergen.**
 
@@ -96,16 +96,16 @@ De resultaten filteren:
 
 U kunt de resultaten van een zoekopdracht in een auditlogboek exporteren naar een door komma's gescheiden waardebestand (CSV) op uw lokale computer. U kunt dit bestand openen in Microsoft Excel en functies gebruiken zoals zoeken, sorteren, filteren en splitsen van één kolom (die cellen met meerdere waarden bevat) in meerdere kolommen.
 
-1. Voer een zoekopdracht uit in een auditlogboek en pas de zoekcriteria aan totdat u de gewenste resultaten hebt.
+1. Voer een zoekopdracht in een auditlogboek uit en pas de zoekcriteria aan tot u de gewenste resultaten hebt.
   
 2. Klik op Resultaten exporteren en selecteer een van de volgende opties:
 
-    - **Geladen resultaten opslaan:** Kies deze optie om alleen de items te exporteren die worden weergegeven onder **Resultaten** op de zoekpagina van het logboek **van de bewaardercontrole.** Het CSV-bestand dat wordt gedownload, bevat dezelfde kolommen (en gegevens) die op de pagina worden weergegeven (Datum, Gebruiker, Activiteit, Item en Details). Er wordt een extra kolom (met de naam **Meer)** opgenomen in het CSV-bestand met meer informatie uit de vermelding van het auditlogboek. Omdat u dezelfde resultaten exporteert die zijn geladen (en kunnen worden weergegeven) op de zoekpagina auditlogboek, worden maximaal 5.000 items geëxporteerd.
+    - **Geladen resultaten opslaan:** Kies deze optie om alleen de items te exporteren die worden weergegeven onder **Resultaten** op de zoekpagina van het logboek **van de bewaardercontrole.** Het CSV-bestand dat wordt gedownload bevat dezelfde kolommen (en gegevens) die worden weergegeven op de pagina (Datum, Gebruiker, Activiteit, Item en Details). Er wordt een extra kolom (met de naam **Meer)** opgenomen in het CSV-bestand met meer informatie uit de vermelding van het auditlogboek. Omdat u dezelfde resultaten exporteert die zijn geladen (en kunnen worden weergegeven) op de pagina Zoeken in auditlogboek, worden er maximaal 5000 vermeldingen geëxporteerd.
         
-    - **Alle resultaten downloaden:** Kies deze optie om alle items uit het auditlogboek te exporteren die voldoen aan de zoekcriteria. Kies voor een grote set zoekresultaten deze optie om alle items uit het auditlogboek te downloaden, naast de 5.000 resultaten die kunnen worden weergegeven op de zoekpagina **Van** controlelogboek voor beheerders. Met deze optie worden de onbewerkte gegevens uit het auditlogboek gedownload naar een CSV-bestand en worden aanvullende gegevens uit de vermelding van het auditlogboek in een kolom met de naam AuditData toegevoegd. Het kan langer duren om het bestand te downloaden als u deze exportoptie kiest, omdat het bestand mogelijk veel groter is dan het bestand dat wordt gedownload als u de andere optie kiest.
+    - **Alle resultaten downloaden:** Kies deze optie om alle items uit het auditlogboek te exporteren die voldoen aan de zoekcriteria. Kies voor een grote set zoekresultaten deze optie om alle items uit het auditlogboek te downloaden, naast de 5.000 resultaten die kunnen worden weergegeven op de zoekpagina **Van** controlelogboek voor beheerders. Met deze optie worden de onbewerkte gegevens uit het auditlogboek gedownload naar een CSV-bestand en worden aanvullende gegevens uit de vermelding van het auditlogboek in een kolom met de naam AuditData toegevoegd. Het downloaden van het bestand kan langer duren als u deze exportoptie kiest, omdat het bestand veel groter kan zijn dan het bestand dat wordt gedownload als u de andere optie kiest.
     
       > [!IMPORTANT]
-      > U kunt maximaal 50.000 items naar een CSV-bestand downloaden vanuit één zoekopdracht in een auditlogboek. Als 50.000 items worden gedownload naar het CSV-bestand, kunt u er waarschijnlijk van uitgaan dat er meer dan 50.000 gebeurtenissen zijn die voldoen aan de zoekcriteria. Als u meer dan deze limiet wilt exporteren, gebruikt u een datumbereik om het aantal controlelogboekgegevens te verminderen. Mogelijk moet u meerdere zoekopdrachten uitvoeren met kleinere datumbereiken om meer dan 50.000 items te exporteren.
+      > U kunt maximaal 50.000 vermeldingen (als gevolg van één zoekopdracht) in een CSV-bestand downloaden. Als er 50.000 resultaten in het CSV-bestand zijn gedownload, kunt u aannemen dat er meer dan 50.000 gebeurtenissen zijn die aan de zoekcriteria voldoen. Als u meer wilt exporteren, kunt u een datumbereik kiezen om het aantal vermeldingen in het auditlogboek te verminderen. Mogelijk moet u meerdere zoekopdrachten uitvoeren met kleinere datumbereiken als u meer dan 50.000 vermeldingen wilt exporteren.
         
 
 3. Nadat u een exportoptie hebt geselecteerd, wordt onder aan het venster een bericht weergegeven waarin u wordt gevraagd het CSV-bestand te openen, op te slaan in de map Downloads of het op te slaan in een specifieke map

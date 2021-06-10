@@ -21,13 +21,13 @@ search.appverid:
 ms.assetid: c4639c2e-7223-4302-8e0d-b6e10f1c3be3
 ms.custom:
 - seo-marvel-apr2020
-description: Meer informatie over e-mail- en bestandseigenschappen die u kunt zoeken met behulp van de eDiscovery-zoekhulpmiddelen in Microsoft 365.
-ms.openlocfilehash: 390477012c6a2a57c5e305641ba5b79ff10f4ea7
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+description: Meer informatie over e-mail- en documenteigenschappen die u kunt zoeken met behulp van de eDiscovery-zoekhulpmiddelen in Microsoft 365.
+ms.openlocfilehash: 1e6612d658ff2fbcbee36b64dab9d352663f75b2
+ms.sourcegitcommit: 2cf7293d610a676726ac891b89366e23810d9142
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538433"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52866701"
 ---
 # <a name="keyword-queries-and-search-conditions-for-ediscovery"></a>Trefwoordquery's en zoekvoorwaarden voor eDiscovery
 
@@ -252,7 +252,7 @@ Maak een voorwaarde met behulp van documenteigenschappen bij het zoeken naar doc
 |Title|De titel van het document. De eigenschap Titel is metagegevens die zijn opgegeven in Office documenten. Deze is anders dan de bestandsnaam van het document.|
 |Gemaakt|De datum waarop een document wordt gemaakt.|
 |Laatst gewijzigd|De datum waarop een document voor het laatst is gewijzigd.|
-|Bestandstype|De uitbreiding van een bestand; bijvoorbeeld docx, one, pptx of xlsx. Dit is dezelfde eigenschap als de site-eigenschap FileExtension.|
+|Bestandstype|De uitbreiding van een bestand; bijvoorbeeld docx, one, pptx of xlsx. Dit is dezelfde eigenschap als de site-eigenschap FileExtension. <br/><br/> **Opmerking:** Als u een voorwaarde bestandstype op neemt met behulp van de operator Gelijk aan **of** Gelijk aan een operator in een zoekquery, kunt u geen voorvoegsel zoeken (door het jokerteken ( * ) aan het einde van het bestandstype op te nemen) om alle versies van een bestandstype te retourneren.  Als u dit doet, wordt het jokerteken genegeerd. Als u bijvoorbeeld de voorwaarde op `Equals any of doc*` neemt, worden alleen bestanden met een extensie van `.doc` geretourneerd. Bestanden met een extensie van `.docx` worden niet geretourneerd. Als u alle versies van een bestandstype wilt retourneren, gebruikt u het *eigenschap:waardepaar* in een trefwoordquery. `filetype:doc*`bijvoorbeeld.|
 |||
   
 ### <a name="operators-used-with-conditions"></a>Operatoren die worden gebruikt met voorwaarden
@@ -283,21 +283,21 @@ Wanneer u een voorwaarde toevoegt, kunt u een operator selecteren die relevant i
 
 Houd rekening met het volgende bij het gebruik van zoekvoorwaarden.
   
-- Een voorwaarde is logisch verbonden met de trefwoordquery (opgegeven in het trefwoordvak) door de **operator AND.** Dit betekent dat items moeten voldoen aan zowel de trefwoordquery als de voorwaarde die in de resultaten moet worden opgenomen. Op die manier kunt u door middel van voorwaarden de resultaten beperken. 
-    
-- Als u twee of meer unieke voorwaarden toevoegt aan een zoekquery (voorwaarden die verschillende eigenschappen opgeven), worden deze voorwaarden logisch verbonden door de **operator AND.** Dat betekent dat alleen items die voldoen aan alle voorwaarden (naast een trefwoordquery) worden geretourneerd. 
-    
+- Een voorwaarde is logisch verbonden met de trefwoordquery (opgegeven in het trefwoordvak) door de **operator AND.** Dit betekent dat items moeten voldoen aan zowel de trefwoordquery als de voorwaarde die in de resultaten moet worden opgenomen. Op die manier kunt u door middel van voorwaarden de resultaten beperken.
+  
+- Als u twee of meer unieke voorwaarden toevoegt aan een zoekquery (voorwaarden die verschillende eigenschappen opgeven), worden deze voorwaarden logisch verbonden door de **operator AND.** Dat betekent dat alleen items die voldoen aan alle voorwaarden (naast een trefwoordquery) worden geretourneerd.
+  
 - Als u meer dan één voorwaarde toevoegt voor dezelfde eigenschap, worden deze voorwaarden logisch verbonden door de **operator OF.** Dit betekent dat items die voldoen aan de trefwoordquery en een van de voorwaarden worden geretourneerd. Groepen met dezelfde voorwaarden worden dus met elkaar verbonden door de **operator OF** en vervolgens worden sets met unieke voorwaarden verbonden door de **operator AND.** 
-    
+  
 - Als u meerdere waarden (gescheiden door komma's of puntma's) toevoegt aan één voorwaarde, worden deze waarden verbonden door de **operator OF.** Dit betekent dat items worden geretourneerd als ze een van de opgegeven waarden voor de eigenschap in de voorwaarde bevatten. 
-    
-- De zoekquery die wordt gemaakt met behulp van het  vak trefwoorden en de voorwaarden, wordt weergegeven op de pagina Zoeken, in het detailvenster voor de geselecteerde zoekopdracht. In een query geeft alles rechts van de notatie voorwaarden aan  `(c:c)` die aan de query worden toegevoegd. 
-    
-- Voorwaarden voegen alleen eigenschappen toe aan de zoekquery. de operatoren niet toevoegen. Daarom worden in de query die in het detailvenster wordt weergegeven, geen operatoren rechts van de  `(c:c)` notatie weergegeven. KQL voegt de logische operatoren toe (volgens de eerder uitgelegde regels) wanneer de query wordt uitgevoerd. 
-    
+  
+- De zoekquery die wordt gemaakt met behulp van het  vak trefwoorden en de voorwaarden, wordt weergegeven op de pagina Zoeken, in het detailvenster voor de geselecteerde zoekopdracht. In een query geeft alles rechts van de notatie voorwaarden aan  `(c:c)` die aan de query worden toegevoegd.
+  
+- Voorwaarden voegen alleen eigenschappen toe aan de zoekquery. de operatoren niet toevoegen. Daarom worden in de query die in het detailvenster wordt weergegeven, geen operatoren rechts van de  `(c:c)` notatie weergegeven. KQL voegt de logische operatoren toe (volgens de eerder uitgelegde regels) wanneer de query wordt uitgevoerd.
+  
 - U kunt het besturingselement Slepen en neerzetten gebruiken om de volgorde van de voorwaarden te herstellen. Klik op het besturingselement voor een voorwaarde en verplaats het naar boven of omlaag.
-    
-- Zoals eerder is uitgelegd, kunt u met bepaalde eigenschappen van de voorwaarde meerdere waarden typen (gescheiden door punt-dubbele punt). Elke waarde is logisch verbonden door de **operator OF** en resulteert in de `(filetype:docx) OR (filetype:pptx) OR (filetype:xlsx)` query. In de volgende afbeelding ziet u een voorbeeld van een voorwaarde met meerdere waarden.
+  
+- Zoals eerder is uitgelegd, kunt u met bepaalde eigenschappen van de voorwaarde meerdere waarden typen (gescheiden door punt-dubbele punt). Elke waarde is logisch verbonden door de **operator OF** en resulteert in de `(filetype=docx) OR (filetype=pptx) OR (filetype=xlsx)` query. In de volgende afbeelding ziet u een voorbeeld van een voorwaarde met meerdere waarden.
 
     ![Eén voorwaarde met meerdere waarden](../media/SearchConditions1.png)
   

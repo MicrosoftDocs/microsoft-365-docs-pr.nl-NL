@@ -269,7 +269,7 @@ Ga zo nodig verder met de volgende stappen:
 
 De volgende tabel bevat PowerShell-cmdlets die relevant zijn voor het installeren van de scanner en het beheren van uw inhoudsscantaken:
 
-| Cmdlet | Omschrijving |
+| Cmdlet | Beschrijving |
 |--|--|
 | [Add-AIPScannerRepository](/powershell/module/azureinformationprotection/add-aipscannerrepository) | Hiermee voegt u een nieuwe opslagplaats toe aan uw inhoudsscan. |
 | [Get-AIPScannerConfiguration](/powershell/module/azureinformationprotection/get-aipscannerconfiguration)|Retourneert details over uw cluster. |

@@ -37,19 +37,19 @@ ms.locfileid: "51204606"
 
 [Threat Explorer](threat-explorer.md) (en het realtimedetectierapport) is een krachtig, bijna realtime hulpprogramma waarmee beveiligingsteams bedreigingen kunnen onderzoeken en beantwoorden in het Beveiligings- & Compliancecentrum. Explorer (en het realtimedetectierapport) geeft informatie weer over verdachte malware en phish in e-mail en bestanden in Office 365, evenals andere beveiligingsrisico's en risico's voor uw organisatie.
 
-- Als u [Microsoft Defender voor Office 365](defender-for-office-365.md) Abonnement 2 hebt, hebt u Explorer.
-- Als u Microsoft Defender voor Office 365 Abonnement 1 hebt, hebt u realtime detecties.
+- Als u [Microsoft Defender hebt voor Office 365](defender-for-office-365.md) abonnement 2, hebt u Explorer.
+- Als u Microsoft Defender hebt voor Office 365 abonnement 1, hebt u realtime detecties.
 
-Wanneer u Explorer (of het realtimedetectierapport) voor het eerst opent, worden in de standaardweergave detecties van e-mail malware voor de afgelopen 7 dagen weergegeven. Dit rapport kan ook Microsoft Defender voor Office 365-detecties tonen, zoals schadelijke URL's die zijn gedetecteerd door veilige koppelingen [en](safe-links.md)schadelijke bestanden die zijn gedetecteerd door [veilige bijlagen.](safe-attachments.md) Dit rapport kan worden gewijzigd om gegevens van de afgelopen 30 dagen weer te geven (met een betaald Abonnement op Microsoft Defender voor Office 365 P2). Proefabonnementen bevatten alleen gegevens over de afgelopen zeven dagen.
+Wanneer u Explorer (of het realtimedetectierapport) voor het eerst opent, worden in de standaardweergave detecties van e-mail malware voor de afgelopen 7 dagen weergegeven. Dit rapport kan ook Microsoft Defender voor Office 365-detecties, zoals kwaadaardige URL's die zijn gedetecteerd door [Safe Koppelingen,](safe-links.md)en schadelijke bestanden die zijn gedetecteerd door [Safe Bijlagen.](safe-attachments.md) Dit rapport kan worden gewijzigd om gegevens van de afgelopen 30 dagen weer te geven (met een Microsoft Defender voor Office 365 P2-abonnement). Proefabonnementen bevatten alleen gegevens over de afgelopen zeven dagen.
 
 ****
 
 |Abonnement|Hulpprogramma|Dagen van gegevens|
 |---|---|---|
-|Proefversie van Microsoft Defender voor Office 365 P1|Detecties in realtime|7|
+|Proefversie van Microsoft Defender Office 365 P1|Detecties in realtime|7|
 |Microsoft Defender voor Office 365 P1 betaald|Detecties in realtime|30|
-|Microsoft Defender voor Office 365 P1 betaalde proefversie van Defender voor Office 365 P2|Bedreigingsverkenner|7|
-|Proefversie van Microsoft Defender voor Office 365 P2|Bedreigingsverkenner|7|
+|Microsoft Defender for Office 365 P1 paid testing Defender for Office 365 P2 trial|Bedreigingsverkenner|7|
+|Proefversie van Microsoft Defender Office 365 P2|Bedreigingsverkenner|7|
 |Microsoft Defender voor Office 365 P2 betaald|Bedreigingsverkenner|30|
 |
 
@@ -123,7 +123,7 @@ Als u dit rapport wilt bekijken, kiest u in Verkenner **De optie** \> **E-mail**
 > [!NOTE]
 > Als u een foutmelding krijgt met te veel gegevens om weer te **geven,** voegt u een filter toe en beperkt u zo nodig het datumbereik dat u bekijkt.
 
-Als u een filter wilt toepassen, kiest u **Afzender,** selecteert u een item in de lijst en klikt u vervolgens op de knop Vernieuwen. In ons voorbeeld hebben we **detectietechnologie gebruikt** als filter (er zijn verschillende opties beschikbaar). Gegevens weergeven per afzender, het domein van de afzender, geadresseerden, onderwerp, bijlagebestandsnaam, malwarefamilie, beveiligingsstatus (acties die zijn ondernomen door uw beveiligingsfuncties en beleidsregels voor bedreigingen in Office 365), detectietechnologie (hoe de malware is gedetecteerd) en meer.
+Als u een filter wilt toepassen, kiest u **Afzender,** selecteert u een item in de lijst en klikt u vervolgens op de knop Vernieuwen. In ons voorbeeld hebben we **detectietechnologie gebruikt** als filter (er zijn verschillende opties beschikbaar). Gegevens weergeven per afzender, het domein van de afzender, geadresseerden, onderwerp, bestandsnaam van bijlage, malwarefamilie, beveiligingsstatus (acties die zijn ondernomen door de functies en beleidsregels voor bedreigingsbeveiliging in Office 365), detectietechnologie (hoe de malware is gedetecteerd) en meer.
 
 ![Gegevens over gedetecteerde e-mail weergeven met detectietechnologie](../../media/0c032eb3-6021-4174-9f06-ff8f30c245ca.png)
 
@@ -131,7 +131,7 @@ Bekijk onder de grafiek meer informatie over specifieke e-mailberichten, zoals o
 
 ## <a name="content--malware"></a>Inhoud > Malware
 
-Als u dit rapport wilt bekijken, kiest u in Explorer (of realtime detecties) de optie  \> **Inhoudsmalware** \> **weergeven.** In deze weergave ziet u bestanden die zijn geïdentificeerd als schadelijk door Microsoft Defender voor [Office 365 in SharePoint Online, OneDrive voor](mdo-for-spo-odb-and-teams.md)Bedrijven en Microsoft Teams.
+Als u dit rapport wilt bekijken, kiest u in Explorer (of realtime detecties) de optie  \> **Inhoudsmalware** \> **weergeven.** In deze weergave ziet u bestanden die door Microsoft Defender zijn geïdentificeerd als schadelijk voor Office 365 [in SharePoint Online, OneDrive voor Bedrijven en Microsoft Teams.](mdo-for-spo-odb-and-teams.md)
 
 Informatie weergeven via malwarefamilie, detectietechnologie (hoe de malware is gedetecteerd) en werkbelasting (OneDrive, SharePoint of Teams).
 
@@ -147,9 +147,9 @@ Met Explorer (en realtimedetecties) kunt u met één klik een filter toepassen. 
 
 Als u in **deze grafiek op ATP-detonatie** klikt, ziet u de volgende weergave:
 
-![Explorer gefilterd om alleen Detonatieresultaten van Defender voor Office 365 weer te geven](../../media/7241d7dd-27bc-467d-9db8-6e806c49df14.png)
+![Explorer gefilterd om alleen Defender weer te geven Office 365 detonatieresultaten](../../media/7241d7dd-27bc-467d-9db8-6e806c49df14.png)
 
-In deze weergave bekijken we nu gegevens voor bestanden die zijn tot leven gebracht door [veilige bijlagen.](safe-attachments.md) Onder de grafiek ziet u details over specifieke e-mailberichten met bijlagen die zijn gedetecteerd door veilige bijlagen.
+In deze weergave bekijken we nu gegevens voor bestanden die zijn ontploft door Safe [Bijlagen.](safe-attachments.md) Onder de grafiek ziet u details over specifieke e-mailberichten met bijlagen die zijn gedetecteerd door Safe Bijlagen.
 
 ![Specifieke details over e-mailberichten met gedetecteerde bijlagen](../../media/c91fb05c-d1d4-4085-acc6-f7008a415c2a.png)
 

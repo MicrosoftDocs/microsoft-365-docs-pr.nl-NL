@@ -70,14 +70,14 @@ Retourneert alle configuraties en hun status, per apparaat.
 
 ### <a name="11-methods"></a>1.1 Methoden
 
-Methode | Gegevenstype | Omschrijving
+Methode | Gegevenstype | Beschrijving
 :---|:---|:---
 Veilige configuratiebeoordeling **exporteren (OData)** | Veilige configuratie per apparaatverzameling. Zie: [1,2 eigenschappen (OData)](#12-properties-odata) | Retourneert een tabel met een vermelding voor elke unieke combinatie van DeviceId, ConfigurationId. De API haalt alle gegevens in uw organisatie op als Json-antwoorden, volgens het OData-protocol. Deze methode is het beste voor kleine organisaties met minder dan 100 K-apparaten. Het antwoord is paginated, zodat u het veld @odata.nextLink uit het antwoord kunt gebruiken om de volgende resultaten op te halen.
 Beveiligde configuratiebeoordeling **exporteren (via bestanden)** | Veilige configuratie per apparaatverzameling. Zie: [1,2 eigenschappen (OData)](#12-properties-odata) | Retourneert een tabel met een vermelding voor elke unieke combinatie van DeviceId, ConfigurationId. Met deze API-oplossing kunt u sneller en betrouwbaarder grotere hoeveelheden gegevens verzamelen. Daarom wordt het aanbevolen voor grote organisaties, met meer dan 100 K-apparaten. Met deze API worden alle gegevens in uw organisatie als downloadbestanden opgeslagen. Het antwoord bevat URL's om alle gegevens uit de Azure Storage. Met deze API kunt u al uw gegevens als volgt Azure Storage downloaden: 1.  Bel de API om een lijst met url's te downloaden met al uw organisatiegegevens. 2.  Download alle bestanden met de download-URL's en verwerkt de gegevens naar eigen goed gebruik.
 
 ### <a name="12-properties-odata"></a>1.2 Eigenschappen (OData)
 
-Eigenschap (id) | Gegevenstype | Omschrijving
+Eigenschap (id) | Gegevenstype | Beschrijving
 :---|:---|:---
 ConfigurationCategory | tekenreeks | Categorie of groepering waarvan de configuratie deel uitmaken: Toepassing, BE, Netwerk, Accounts, Beveiligingsbesturingselementen
 ConfigurationId | tekenreeks | Unieke id voor een specifieke configuratie
@@ -96,7 +96,7 @@ Tijdstempel | tekenreeks | De laatste keer dat de configuratie op het apparaat i
 
 ### <a name="13-properties-via-files"></a>1.3 Eigenschappen (via bestanden)
 
-Eigenschap (id) | Gegevenstype | Omschrijving
+Eigenschap (id) | Gegevenstype | Beschrijving
 :---|:---|:---
 Bestanden exporteren | \[matrixreeks\] | Een lijst met download-URL's voor bestanden met de huidige momentopname van de organisatie.
 GeneratedTime | tekenreeks | De tijd dat de export is gegenereerd.
@@ -107,14 +107,14 @@ Retourneert alle geïnstalleerde software en de gegevens op elk apparaat.
 
 ### <a name="21-methods"></a>2.1 Methoden
 
-Methode | Gegevenstype | Omschrijving
+Methode | Gegevenstype | Beschrijving
 :---|:---|:---
 Beoordeling van de softwarevoorraad **exporteren (OData)** | Softwarevoorraad per apparaatverzameling. Zie: [2.2 Eigenschappen (OData)](#22-properties-odata) | Retourneert een tabel met een vermelding voor elke unieke combinatie van DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion. De API haalt alle gegevens in uw organisatie op als Json-antwoorden, volgens het OData-protocol. Deze methode is het beste voor kleine organisaties met minder dan 100 K-apparaten. Het antwoord is paginated, zodat u het veld @odata.nextLink uit het antwoord kunt gebruiken om de volgende resultaten op te halen.
 Beoordeling van softwarevoorraad **exporteren (via bestanden)** | Softwarevoorraad per apparaatbestanden. Zie: [2.3 Eigenschappen (via bestanden)](#23-properties-via-files) | Retourneert een tabel met een vermelding voor elke unieke combinatie van DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion. Met deze API-oplossing kunt u sneller en betrouwbaarder grotere hoeveelheden gegevens verzamelen. Daarom wordt het aanbevolen voor grote organisaties, met meer dan 100 K-apparaten. Met deze API worden alle gegevens in uw organisatie als downloadbestanden opgeslagen. Het antwoord bevat URL's om alle gegevens uit de Azure Storage. Met deze API kunt u al uw gegevens als volgt Azure Storage downloaden: 1.  Bel de API om een lijst met url's te downloaden met al uw organisatiegegevens. 2.  Download alle bestanden met de download-URL's en verwerkt de gegevens naar eigen goed gebruik.
 
 ### <a name="22-properties-odata"></a>2.2 Eigenschappen (OData)
 
-Eigenschap (id) | Gegevenstype | Omschrijving
+Eigenschap (id) | Gegevenstype | Beschrijving
 :---|:---|:---
 DeviceId | tekenreeks | Unieke id voor het apparaat in de service.
 Apparaatnaam | tekenreeks | Volledig gekwalificeerde domeinnaam (FQDN) van het apparaat.
@@ -133,7 +133,7 @@ SoftwareVersion | tekenreeks | Versienummer van het softwareproduct.
 
 ### <a name="23-properties-via-files"></a>2.3 Eigenschappen (via bestanden)
 
-Eigenschap (id) | Gegevenstype | Omschrijving
+Eigenschap (id) | Gegevenstype | Beschrijving
 :---|:---|:---
 Bestanden exporteren | \[matrixreeks\] | Een lijst met download-URL's voor bestanden met de huidige momentopname van de organisatie.
 GeneratedTime | tekenreeks | De tijd dat de export is gegenereerd.
@@ -144,14 +144,14 @@ Retourneert alle bekende beveiligingslekken op een apparaat en de details, voor 
 
 ### <a name="31-methods"></a>3.1 Methoden
 
-Methode | Gegevenstype | Omschrijving
+Methode | Gegevenstype | Beschrijving
 :---|:---|:---
 Beoordeling van beveiligingsproblemen met software **exporteren (OData)** | Onderzoeksverzameling Zie: [3.2 Eigenschappen (OData)](#32-properties-odata) | Retourneert een tabel met een vermelding voor elke unieke combinatie van DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion, CveId. De API haalt alle gegevens in uw organisatie op als Json-antwoorden, volgens het OData-protocol. Deze methode is het beste voor kleine organisaties met minder dan 100 K-apparaten. Het antwoord is paginated, zodat u het veld @odata.nextLink uit het antwoord kunt gebruiken om de volgende resultaten op te halen.
 Beoordeling van beveiligingsproblemen met software **exporteren (via bestanden)** | Onderzoeksentiteit Zie: [3.3 Eigenschappen (via bestanden)](#33-properties-via-files) | Retourneert een tabel met een vermelding voor elke unieke combinatie van DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion, CveId. Met deze API-oplossing kunt u sneller en betrouwbaarder grotere hoeveelheden gegevens verzamelen. Daarom wordt het aanbevolen voor grote organisaties, met meer dan 100 K-apparaten. Met deze API worden alle gegevens in uw organisatie als downloadbestanden opgeslagen. Het antwoord bevat URL's om alle gegevens uit de Azure Storage. Met deze API kunt u al uw gegevens als volgt Azure Storage downloaden: 1.  Bel de API om een lijst met url's te downloaden met al uw organisatiegegevens. 2.  Download alle bestanden met de download-URL's en verwerkt de gegevens naar eigen goed gebruik.
 
 ### <a name="32-properties-odata"></a>3.2 Eigenschappen (OData)
 
-Eigenschap (id) | Gegevenstype | Omschrijving
+Eigenschap (id) | Gegevenstype | Beschrijving
 :---|:---|:---
 CveId | tekenreeks | Unieke id die is toegewezen aan het beveiligingsprobleem onder het CVE-systeem (Common Vulnerabilities and Exposures).
 CvssScore | tekenreeks | De CVSS-score van de CVE.
@@ -175,7 +175,7 @@ VulnerabilitySeverityLevel | tekenreeks | Ernstniveau dat is toegewezen aan het 
 
 ### <a name="33-properties-via-files"></a>3.3 Eigenschappen (via bestanden)
 
-Eigenschap (id) | Gegevenstype | Omschrijving
+Eigenschap (id) | Gegevenstype | Beschrijving
 :---|:---|:---
 Bestanden exporteren | \[matrixreeks\]  | Een lijst met download-URL's voor bestanden met de huidige momentopname van de organisatie.
 GeneratedTime | tekenreeks | De tijd dat de export is gegenereerd.

@@ -19,12 +19,12 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: 00ed505b153e5af4d89038bdc53e988ee763827b
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: a6271c1bd3714cfdffc606b7ada9b027e394216d
+ms.sourcegitcommit: 2cf7293d610a676726ac891b89366e23810d9142
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52845640"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52866725"
 ---
 # <a name="behavioral-blocking-and-containment"></a>Gedragsblokkering en -insluiting
 
@@ -46,11 +46,11 @@ Mogelijkheden voor het blokkeren en inperken van gedrag kunnen helpen bij het id
 
 Functies voor het blokkeren en inperken van gedrag werken met meerdere onderdelen en functies van Defender voor Eindpunt om aanvallen onmiddellijk te stoppen en te voorkomen dat er aanvallen worden uitgevoerd.
 
-- [Beveiliging van de volgende generatie](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) (inclusief Microsoft Defender Antivirus) kan bedreigingen detecteren door gedrag te analyseren en bedreigingen te stoppen die zijn gestart.
+- [Beveiliging van de volgende generatie](microsoft-defender-antivirus-in-windows-10.md) (inclusief Microsoft Defender Antivirus) kan bedreigingen detecteren door gedrag te analyseren en bedreigingen te stoppen die zijn gestart.
 
-- [Eindpuntdetectie en -antwoord](/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response) (EDR) ontvangt beveiligingssignalen in uw netwerk, apparaten en kernelgedrag. Wanneer er bedreigingen worden gedetecteerd, worden waarschuwingen gemaakt. Meerdere waarschuwingen van hetzelfde type worden samengevoegd tot incidenten, waardoor uw team voor beveiligingsbewerkingen gemakkelijker kan onderzoeken en reageren.
+- [Eindpuntdetectie en -antwoord](overview-endpoint-detection-response.md) (EDR) ontvangt beveiligingssignalen in uw netwerk, apparaten en kernelgedrag. Wanneer er bedreigingen worden gedetecteerd, worden waarschuwingen gemaakt. Meerdere waarschuwingen van hetzelfde type worden samengevoegd tot incidenten, waardoor uw team voor beveiligingsbewerkingen gemakkelijker kan onderzoeken en reageren.
 
-- [Defender for Endpoint](/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response) heeft een breed scala aan optiek in identiteiten, e-mail, gegevens en apps, naast de netwerk-, eindpunt- en kernelgedragssignalen die via de EDR. Een onderdeel van [Microsoft 365 Defender](/microsoft-365/security/defender/microsoft-threat-protection), Defender voor eindpunt verwerkt en correleert deze signalen, verhoogt detectiewaarschuwingen en verbindt gerelateerde waarschuwingen bij incidenten.
+- [Defender for Endpoint](overview-endpoint-detection-response.md) heeft een breed scala aan optiek in identiteiten, e-mail, gegevens en apps, naast de netwerk-, eindpunt- en kernelgedragssignalen die via de EDR. Een onderdeel van [Microsoft 365 Defender](../defender/microsoft-365-defender.md), Defender voor eindpunt verwerkt en correleert deze signalen, verhoogt detectiewaarschuwingen en verbindt gerelateerde waarschuwingen bij incidenten.
 
 Met deze mogelijkheden kunnen meer bedreigingen worden voorkomen of geblokkeerd, zelfs als ze worden uitgevoerd. Wanneer verdacht gedrag wordt gedetecteerd, is de bedreiging opgenomen, worden waarschuwingen gemaakt en worden bedreigingen op hun sporen gestopt. 
 
@@ -60,7 +60,7 @@ In de volgende afbeelding ziet u een voorbeeld van een waarschuwing die is geact
 
 ## <a name="components-of-behavioral-blocking-and-containment"></a>Onderdelen van het blokkeren en inperking van gedrag
 
-- **On-client, policy-driven [attack surface reduction rules](/microsoft-365/security/defender-endpoint/attack-surface-reduction)** Vooraf gedefinieerde veelvoorkomende aanvalsgedrag kan niet worden uitgevoerd volgens de surface reduction-regels voor uw aanval. Wanneer dergelijke gedragingen worden uitgevoerd, kunnen ze in de Microsoft Defender-beveiligingscentrum worden gezien [https://securitycenter.windows.com](https://securitycenter.windows.com) als informatiewaarschuwingen. (Surface-beperkingsregels voor aanvallen zijn standaard niet ingeschakeld; u configureert uw beleid in de Microsoft Defender-beveiligingscentrum.)
+- **On-client, policy-driven [attack surface reduction rules](attack-surface-reduction.md)** Vooraf gedefinieerde veelvoorkomende aanvalsgedrag kan niet worden uitgevoerd volgens de surface reduction-regels voor uw aanval. Wanneer dergelijke gedragingen worden uitgevoerd, kunnen ze in de Microsoft Defender-beveiligingscentrum worden gezien [https://securitycenter.windows.com](https://securitycenter.windows.com) als informatiewaarschuwingen. (Surface-beperkingsregels voor aanvallen zijn standaard niet ingeschakeld; u configureert uw beleid in de Microsoft Defender-beveiligingscentrum.)
 
 - **[Clientgedragsblokkering](client-behavioral-blocking.md)** Bedreigingen op eindpunten worden gedetecteerd via machine learning en worden vervolgens automatisch geblokkeerd en gesaneerd. (Clientgedragsblokkering is standaard ingeschakeld.) 
 
@@ -93,6 +93,7 @@ Hieronder vindt u twee praktijkvoorbeelden van het blokkeren en inperking van ge
 Zoals wordt beschreven in In hot pursuit of ongrijpbare bedreigingen: door [AI-gestuurde](https://www.microsoft.com/security/blog/2019/10/08/in-hot-pursuit-of-elusive-threats-ai-driven-behavior-based-blocking-stops-attacks-in-their-tracks)blokkering op basis van gedrag worden aanvallen in hun sporen gestopt, werd een aanval op referentiesdiefstal tegen 100 organisaties over de hele wereld gestopt door de mogelijkheden voor het blokkeren en inperken van gedrag. E-mailberichten met een lokmiddel zijn verzonden naar de beoogde organisaties. Als een geadresseerde de bijlage heeft geopend, kon een gerelateerd extern document code uitvoeren op het apparaat van de gebruiker en Lokibot-malware laden, waardoor referenties werden gestolen, gestolen gegevens werden geëfiltreerd en werd gewacht op verdere instructies van een command-and-control-server. 
 
 Op gedrag gebaseerde apparaatlerende modellen in Defender voor Eindpunt zijn op twee punten in de aanvalsketen vastgelegd en gestopt:
+
 - De eerste beveiligingslaag heeft het gedrag van de exploit gedetecteerd. Leerclassifiers voor apparaten in de cloud hebben de bedreiging correct geïdentificeerd als en hebben het clientapparaat onmiddellijk geïnstrueerd de aanval te blokkeren.
 - De tweede beveiligingslaag, waarmee de gevallen van de aanval voorbij de eerste laag werden gestopt, procesverholding werd gedetecteerd, dat proces werd gestopt en de bijbehorende bestanden (zoals Lokibot) werden verwijderd. 
 
@@ -120,7 +121,7 @@ In dit voorbeeld ziet u dat met mogelijkheden voor het blokkeren en inperking va
 
 ## <a name="next-steps"></a>Volgende stappen
 
-- [Meer informatie over Defender voor Eindpunt](/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response)
+- [Meer informatie over Defender voor Eindpunt](overview-endpoint-detection-response.md)
 
 - [De surface reduction-regels voor aanvallen configureren](attack-surface-reduction.md)
 
@@ -128,4 +129,4 @@ In dit voorbeeld ziet u dat met mogelijkheden voor het blokkeren en inperking va
 
 - [Recente wereldwijde bedreigingsactiviteit bekijken](https://www.microsoft.com/wdsi/threats)
 
-- [Een overzicht van Microsoft 365 Defender](/microsoft-365/security/defender/microsoft-threat-protection)
+- [Een overzicht van Microsoft 365 Defender](../defender/microsoft-365-defender.md)

@@ -97,7 +97,7 @@ GET /api/machines/SecureConfigurationsAssessmentByMachine
 >- Sommige extra kolommen kunnen worden geretourneerd in het antwoord. Deze kolommen zijn tijdelijk en kunnen worden verwijderd, gebruik alleen de gedocumenteerde kolommen.
 >
 
-Eigenschap (id) | Gegevenstype | Omschrijving | Voorbeeld van een geretourneerde waarde
+Eigenschap (id) | Gegevenstype | Beschrijving | Voorbeeld van een geretourneerde waarde
 :---|:---|:---|:---
 ConfigurationCategory | tekenreeks | Categorie of groepering waarvan de configuratie deel uitmaken: Toepassing, BE, Netwerk, Accounts, Beveiligingsbesturingselementen | Beveiligingsbesturingselementen
 ConfigurationId | tekenreeks | Unieke id voor een specifieke configuratie | scid-10000
@@ -257,7 +257,7 @@ GET /api/machines/SecureConfigurationsAssessmentExport
 >
 >- Voor maximale downloadsnelheid van uw gegevens kunt u ervoor zorgen dat u downloadt vanuit dezelfde Azure-regio waarin uw gegevens zich bevinden.
 >
-Eigenschap (id) | Gegevenstype | Omschrijving | Voorbeeld van een geretourneerde waarde
+Eigenschap (id) | Gegevenstype | Beschrijving | Voorbeeld van een geretourneerde waarde
 :---|:---|:---|:---
 Bestanden exporteren | \[matrixreeks\] | Een lijst met DOWNLOAD-URL's voor bestanden met de huidige momentopname van de organisatie | [  Https://tvmexportstrstgeus.blob.core.windows.net/tvm-export...1”, “https://tvmexportstrstgeus.blob.core.windows.net/tvm-export...2” ]
 GeneratedTime | tekenreeks | De tijd dat de export is gegenereerd. | 2021-05-20T08:00:00Z ]

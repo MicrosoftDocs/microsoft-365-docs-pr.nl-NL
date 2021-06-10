@@ -98,7 +98,7 @@ GET /api/machines/SoftwareVulnerabilitiesByMachine
 >- De eigenschappen die in de volgende tabel zijn gedefinieerd, worden alfabetisch weergegeven op eigenschap-id.  Bij het uitvoeren van deze API wordt de resulterende uitvoer niet noodzakelijkerwijs geretourneerd in dezelfde volgorde als in deze tabel.
 >
 
-Eigenschap (id) | Gegevenstype | Omschrijving | Voorbeeld van een geretourneerde waarde
+Eigenschap (id) | Gegevenstype | Beschrijving | Voorbeeld van een geretourneerde waarde
 :---|:---|:---|:---
 CveId | tekenreeks | Unieke id die is toegewezen aan het beveiligingsprobleem onder het CVE-systeem (Common Vulnerabilities and Exposures). | CVE-2020-15992
 CvssScore | tekenreeks | De CVSS-score van de CVE. | 6.2
@@ -307,7 +307,7 @@ GET /api/machines/SoftwareVulnerabilitiesExport
 >- Sommige extra kolommen kunnen worden geretourneerd in het antwoord. Deze kolommen zijn tijdelijk en kunnen worden verwijderd, gebruik alleen de gedocumenteerde kolommen.
 >
 
-Eigenschap (id) | Gegevenstype | Omschrijving | Voorbeeld van een geretourneerde waarde
+Eigenschap (id) | Gegevenstype | Beschrijving | Voorbeeld van een geretourneerde waarde
 :---|:---|:---|:---
 Bestanden exporteren | \[matrixreeks\]  | Een lijst met download-URL's voor bestanden met de huidige momentopname van de organisatie. | [  “https://tvmexportstrstgeus.blob.core.windows.net/tvm-export...1”, “https://tvmexportstrstgeus.blob.core.windows.net/tvm-export...2”  ]
 GeneratedTime | tekenreeks | De tijd dat de export is gegenereerd. | 2021-05-20T08:00:00Z

@@ -42,7 +42,7 @@ In vier stappen kunt u beheerders in Advanced eDiscovery toevoegen en beheren:
 
 ## <a name="make-sure-you-have-the-necessary-permissions"></a>Zorg ervoor dat u de benodigde machtigingen hebt
 
-Als u beheerders aan een zaak wilt toevoegen, moet u lid zijn van de rollengroep eDiscovery Manager. Hiermee beschikt u over de benodigde machtigingen om beheerders toe te voegen aan een zaak en de bewaargegevensbronnen in de wacht te zetten. Zie [eDiscovery-machtigingen](get-started-with-advanced-ediscovery.md#step-2-assign-ediscovery-permissions)toewijzen voor meer informatie.
+Als u beheerders aan een zaak wilt toevoegen, moet u lid zijn van de rollengroep eDiscovery Manager. Hiermee beschikt u over de benodigde machtigingen om beheerders toe te voegen aan een zaak en de bewaargegevensbronnen in de wacht te zetten. Zie [eDiscovery-machtigingen toewijzen](get-started-with-advanced-ediscovery.md#step-2-assign-ediscovery-permissions) voor meer informatie.
 
 ## <a name="step-1-identify-custodians"></a>Stap 1: beheerders identificeren
 

@@ -102,7 +102,7 @@ De eerste stap is het zoeken in het auditlogboek voor het delen van gebeurteniss
     
 3. Klik in het linkerdeelvenster van & compliancecentrum op **Zoeken in**   >  **het auditlogboek**.
     
-    De **zoekpagina auditlogboek** wordt weergegeven. 
+    De pagina **Zoeken in het auditlogboek** wordt weergegeven. 
     
 4. Klik **onder Activiteiten** op Activiteiten en klik op Activiteiten voor delen en **toegang** aanvragen om te zoeken naar gebeurtenissen die betrekking hebben op delen. 
     
@@ -122,7 +122,7 @@ De eerste stap is het zoeken in het auditlogboek voor het delen van gebeurteniss
 
 De volgende stap is het gebruik van de JSON-transformatiefunctie in de Power Query Editor in Excel om elke eigenschap in de **kolom AuditData** (die bestaat uit een JSON-object met meerdere eigenschappen) te splitsen in een eigen kolom. Hiermee kunt u kolommen filteren om records te bekijken die betrekking hebben op delen
 
-Zie 'Stap 2: Het geëxporteerde auditlogboek opmaken met behulp van power queryeditor' in Records voor auditlogboek exporteren, configureren en weergeven voor [stapsgewijse instructies.](export-view-audit-log-records.md#step-2-format-the-exported-audit-log-using-the-power-query-editor)
+Zie "Stap 2: de geëxporteerde autditlogboeken opmaken met de Power Query Editor'  voor stapsgewijze instructies in [Auditlogboekrecords exporteren, configureren en bekijken](export-view-audit-log-records.md#step-2-format-the-exported-audit-log-using-the-power-query-editor).
 
 ### <a name="step-3-filter-the-csv-file-for-resources-shared-with-external-users"></a>Stap 3: Het CSV-bestand filteren op resources die met externe gebruikers zijn gedeeld
 

@@ -18,167 +18,93 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Overzicht: Aanvullende apparaatinformatie over services wanneer u van Microsoft Cloud Germany (Microsoft Cloud Deutschland) naar Office 365 services in de nieuwe Duitse datacenterregio gaat.'
-ms.openlocfilehash: 21188372f03af394fe1c0e227c1adeabbad02a85
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 27426a26befab85bf62a0a143861e447dd722724
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50928154"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861300"
 ---
 # <a name="additional-device-information-for-the-migration-from-microsoft-cloud-deutschland"></a>Aanvullende apparaatgegevens voor de migratie van Microsoft Cloud Deutschland
+
+Verbonden en geregistreerde Azure AD-apparaten die zijn verbonden met Microsoft Cloud Deutschland, moeten worden gemigreerd na fase 9 en vóór fase 10. De migratie van een apparaat is afhankelijk van het type apparaten, het besturingssysteem en de AAD-relatie. 
 
 ## <a name="frequently-asked-questions"></a>Veelgestelde vragen
 
 **Hoe weet ik of mijn organisatie is beïnvloed?**
 
-Beheerders moeten controleren of ze geregistreerde apparaten `https://portal.microsoftazure.de` hebben. Als uw organisatie geregistreerde apparaten heeft, is dit van invloed op u.
+Beheerders moeten controleren of ze geregistreerde of `https://portal.microsoftazure.de` Azure AD-apparaten hebben. Als uw organisatie geregistreerde apparaten heeft, is dit van invloed op u.
 
 **Wat zijn de gevolgen voor mijn gebruikers?**
 
-Gebruikers vanaf een geregistreerd apparaat kunnen zich niet meer aanmelden nadat uw migratie de [Azure AD-migratiefase](ms-cloud-germany-transition.md#how-is-the-migration-organized) definitief heeft bereikt.  
+Gebruikers van een geregistreerd apparaat kunnen zich niet meer aanmelden nadat [migratiefase 10](ms-cloud-germany-transition-phases.md#phase-9--10-azure-ad-finalization) is voltooid en de eindpunten voor Microsoft Cloud Deutschland zijn uitgeschakeld.  
 
 Zorg ervoor dat al uw apparaten zijn geregistreerd bij het wereldwijde eindpunt voordat uw organisatie is losgekoppeld van Microsoft Cloud Deutschland.
   
 **Wanneer registreren mijn gebruikers hun apparaten opnieuw?**
 
-Het is essentieel voor uw succes dat u uw apparaten alleen uitschrijft en opnieuw registreert tijdens de migratiefase Scheiden van [Microsoft Cloud Deutschland.](ms-cloud-germany-transition.md#how-is-the-migration-organized)
+Het is essentieel voor uw succes dat u uw apparaten alleen uitschrijft en opnieuw registreert nadat [fase 9](ms-cloud-germany-transition-phases.md#phase-9--10-azure-ad-finalization) is voltooid. U moet de herregistratie voltooien voordat fase 10 wordt gestart, anders hebt u geen toegang meer tot uw apparaat.
 
 **Hoe herstel ik de status van mijn apparaat na de migratie?**
 
-Voor hybride Azure AD-apparaten en Windows-apparaten die zijn geregistreerd bij Azure AD, kunnen beheerders de migratie van deze apparaten beheren via op afstand geactiveerde werkstromen die de registratie van de oude apparaatstatussen ongedaan maken.
+Voor bedrijfsapparaten Windows die zijn geregistreerd bij Azure AD, kunnen beheerders de migratie van deze apparaten beheren via op afstand geactiveerde werkstromen die de registratie van de oude apparaatstatussen ongedaan maken.
   
 Voor alle andere apparaten, waaronder persoonlijke apparaten Windows die zijn geregistreerd in Azure AD, moet de eindgebruiker deze stappen handmatig uitvoeren. Voor apparaten die zijn verbonden met Azure AD, moeten gebruikers een lokaal beheerdersaccount hebben om de registratie uit te schrijven en vervolgens hun apparaten opnieuw te registreren.
 
-Microsoft publiceert instructies voor het herstellen van de apparaattoestand. 
+Raadpleeg hieronder gedetailleerde instructies voor het herstellen van apparaatstaten. 
  
 **Hoe weet ik dat al mijn apparaten zijn geregistreerd in de openbare cloud?**
 
 Als u wilt controleren of uw apparaten zijn geregistreerd in de openbare cloud, moet u de lijst met apparaten exporteren en downloaden van de Azure AD-portal naar een Excel spreadsheet. Filter vervolgens de apparaten die zijn geregistreerd (met behulp van de kolom _registeredTime)_ na de migratiefase Scheiden [van Microsoft Cloud Deutschland.](ms-cloud-germany-transition.md#how-is-the-migration-organized)
 
-Apparaatregistratie wordt gedeactiveerd na de migratie van de tenant en kan niet worden ingeschakeld of uitgeschakeld. Als Intune niet wordt gebruikt, meld u dan aan bij uw abonnement en voer deze opdracht uit om de optie opnieuw te activeren:
+## <a name="additional-considerations"></a>Aanvullende overwegingen
+Apparaatregistratie wordt gedeactiveerd na de migratie van de tenant en kan niet worden ingeschakeld of uitgeschakeld. 
+
+Als Intune niet wordt gebruikt, meld u dan aan bij uw abonnement en voer deze opdracht uit om de optie opnieuw te activeren:
 
 ```powershell
 Get-AzureADServicePrincipal -All:$true |Where-object -Property AppId -eq "0000000a-0000-0000-c000-000000000000" | Set-AzureADServicePrincipal -AccountEnabled:$false
 ```
-
-## <a name="hybrid-azure-ad-join"></a>Hybride Azure AD-join
-
-### <a name="windows-down-level"></a>Windows down-level
-
-_Windows_ apparaten op downniveau zijn Windows-apparaten die momenteel eerdere versies van Windows uitvoeren (zoals Windows 8.1 of Windows 7), of die eerder dan 2019 en 2016 Windows Server-versies uitvoeren. Als dergelijke apparaten eerder zijn geregistreerd, moet u de registratie van deze apparaten ongedaan maken en opnieuw registreren. 
-
-Gebruik de volgende opdracht op het apparaat om te bepalen Windows een apparaat met een lager niveau eerder is verbonden met Azure AD:
-
-```console
-%programfiles%\Microsoft Workplace Join\autoworkplace /status
-```
-
-Als het apparaat eerder is verbonden met Azure AD en als het apparaat netwerkconnectiviteit heeft met globale Azure AD-eindpunten, ziet u de volgende uitvoer:
-
-```console
-+----------------------------------------------------------------------+
-| Device Details                                                       |
-+----------------------------------------------------------------------+
-         DeviceId : AEE2B956-DA62-48D0-BB47-046DD992A110
-       Thumbprint : 00fdfa2de5c32feae57489873a13aa6a3ff7433b
-             User : user1@<tenantname>.de
-Private key state : Okay
-     Device state : Unknown
-```
-
-De betreffende apparaten hebben de 'Apparaattoestand' met de waarde 'Onbekend'. Als de uitvoer 'Apparaat niet is samengevoegd' is of waarvan de waarde 'Apparaatstaat' 'Ok' is, negeert u de volgende richtlijnen.
-
-Alleen voor apparaten waaruit blijkt dat het apparaat is verbonden (op basis van apparaatId, duimafdruk, en dergelijke) en waarvan de waarde 'Apparaatstaat' onbekend is, moeten beheerders de volgende opdracht uitvoeren in de context van een domeingebruiker die zich aanmeldt op een dergelijk apparaat op een lager niveau:
-
-```console
-"%programfiles%\Microsoft Workplace Join\autoworkplace /leave"
-```
-
-De vorige opdracht hoeft slechts één keer te worden uitgevoerd per domeingebruiker die zich aanmeldt op het Windows apparaat op downniveau. Deze opdracht moet worden uitgevoerd in de context van de domeingebruiker die zich aanmeldt. 
-
-Er moet voldoende aandacht aan worden gegeven om deze opdracht niet uit te voeren wanneer de gebruiker zich vervolgens aan meldt. Wanneer de vorige opdracht wordt uitgevoerd, wordt de samengevoegde status van de lokale hybride Azure AD-computer geweken voor de gebruiker die zich heeft aangemeld. En als de computer nog steeds is geconfigureerd voor hybride Azure AD-join in de tenant, wordt geprobeerd deel te nemen wanneer de gebruiker zich opnieuw meldt.
-
-### <a name="windows-current"></a>Windows Huidige
-
-#### <a name="unjoin"></a>Unjoin
-
-Voer de volgende opdracht uit op het apparaat om te bepalen Windows 10 het apparaat eerder is verbonden met Azure AD:
-
-```console
-%SystemRoot%\system32\dsregcmd.exe /status
-```
-
-Als het apparaat hybride Azure AD-lid is, ziet de beheerder de volgende uitvoer:
-
-```console
-+----------------------------------------------------------------------+
-| Device State                                                         |
-+----------------------------------------------------------------------+
- 
-             AzureAdJoined : YES
-          EnterpriseJoined : NO
-              DomainJoined : YES
-```
-
-Als de uitvoer 'AzureAdJoined: Nee' is, negeert u de volgende richtlijnen.
-
-Voer als beheerder alleen de volgende opdracht uit als beheerder om de samengevoegde status van het apparaat te verwijderen voor apparaten die aantonen dat het apparaat is verbonden met Azure AD.
-
-```console
-%SystemRoot%\system32\dsregcmd.exe /leave
-```
-
-De vorige opdracht hoeft slechts eenmaal in een administratieve context op het Windows worden uitgevoerd.
-
-#### <a name="hybrid-ad-joinre-registration"></a>Hybride AD Join\Re-Registration
-
-Het apparaat wordt automatisch zonder tussenkomst van de gebruiker of beheerder aan Azure AD verbonden, zolang het apparaat netwerkconnectiviteit heeft met globale Azure AD-eindpunten. 
-
-
-## <a name="azure-ad-join"></a>Azure AD Join
-
 **BELANGRIJK:** De Intune-service principal wordt ingeschakeld na de migratie van commerce, wat de activering van Azure AD Device Registration impliceert. Als u Azure AD Device Registration vóór de migratie hebt geblokkeerd, moet u de Intune-service principal met PowerShell uitschakelen om Azure AD Device Registration weer uit te schakelen met de Azure AD-portal. U kunt de Intune-service principal uitschakelen met deze opdracht in Azure Active Directory PowerShell voor Graph module.
 
 ```powershell
 Get-AzureADServicePrincipal -All:$true |Where-object -Property AppId -eq "0000000a-0000-0000-c000-000000000000" | Set-AzureADServicePrincipal -AccountEnabled:$false
 ```
 
-### <a name="unjoin"></a>Unjoin
 
-Als u wilt bepalen of het Windows 10 eerder is verbonden met Azure AD, kan de gebruiker of beheerder de volgende opdracht uitvoeren op het apparaat:
+## <a name="azure-ad-join"></a>Azure AD Join
+Dit geldt voor Windows 10 apparaten. 
 
-```console
-%SystemRoot%\system32\dsregcmd.exe /status
-```
+Als een apparaat is gekoppeld aan Azure AD, moet de verbinding met Azure AD zijn verbroken en opnieuw worden verbonden. 
 
-Als het apparaat is verbonden met Azure AD, ziet de gebruiker of beheerder de volgende uitvoer:
+[![Azure AD Device Re-Join Flow ](../media/ms-cloud-germany-migration-opt-in/AAD-ReJoin-flow.png)](../media/ms-cloud-germany-migration-opt-in/AAD-ReJoin-flow.png#lightbox)
 
-```console
-+----------------------------------------------------------------------+
-| Device State                                                         |
-+----------------------------------------------------------------------+
- 
-             AzureAdJoined : YES
-          EnterpriseJoined : NO
-              DomainJoined : NO
-```
 
-Als de uitvoer 'AzureAdJoined: NO' is, negeert u de volgende richtlijnen.
+Als de gebruiker een beheerder is op het Windows 10 apparaat, kan de gebruiker de registratie van het apparaat uit Azure AD ongedaan maken en opnieuw deelnemen. Als hij geen beheerdersbevoegdheden heeft, heeft de gebruiker referenties nodig van een lokaal beheerdersaccount op deze computer. 
 
-Gebruiker: Als het apparaat is verbonden met Azure AD, kan een gebruiker de toegang tot het apparaat ontvoegen via de instellingen. Controleer of er een lokaal beheerdersaccount op het apparaat is voordat u het apparaat losvoegt vanuit Azure AD. Het lokale beheerdersaccount is vereist om u weer aan te melden bij het apparaat.
 
-Beheerder: Als de beheerder van de organisatie de apparaten van de gebruikers wil ontvoegen die zijn verbonden met Azure AD, kunnen ze dit doen door de volgende opdracht uit te voeren op elk van de apparaten met behulp van een mechanisme zoals Groepsbeleid. De beheerder moet controleren of er een lokaal beheerdersaccount op het apparaat is voordat het apparaat wordt ontvoegd vanuit Azure AD. Het lokale beheerdersaccount is nodig om u weer aan te melden bij het apparaat.
+Een beheerder kan een lokaal beheerdersaccount op het apparaat maken op basis van dit configuratiepad:
 
-```console
-%SystemRoot%\system32\dsregcmd.exe /leave
-```
+*Instellingen > Accounts > Andere accounts > referenties onbekend > Gebruiker toevoegen zonder Microsoft-account*
 
-De vorige opdracht hoeft slechts eenmaal in een administratieve context op het Windows worden uitgevoerd. 
-
-### <a name="azure-ad-joinre-registration"></a>Azure AD Join/Re-Registration
-
-De gebruiker kan het apparaat koppelen aan Azure AD via Windows instellingen: **Instellingen > Accounts > Access Work or School > Verbinding maken**.
- 
+### <a name="step-1-determine-if-the-device-is-azure-id-joined"></a>Stap 1: bepalen of het apparaat is verbonden met Azure-id
+1.  Meld u aan met e-mail en wachtwoord van gebruikers.
+2.  Ga naar Instellingen > accounts > Toegang tot werk of school. 
+3.  Zoek een gebruiker in de lijst met **verbonden met ... 's Azure AD**. 
+4.  Als er een verbonden gebruiker bestaat, gaat u verder met stap 2. Zo niet, dan is er geen verdere actie vereist.
+### <a name="step-2-disconnect-the-device-from-azure-ad"></a>Stap 2: Het apparaat loskoppelen van Azure AD
+1.  Tik **op Loskoppelen** op het verbonden werk- of schoolaccount. 
+2.  Bevestig de verbinding tweemaal. 
+3.  Voer de gebruikersnaam en het wachtwoord van de lokale beheerder in. Het apparaat is losgekoppeld.
+4.  Start het apparaat opnieuw op.
+### <a name="step-3-join-the-device-to-azure-ad"></a>Stap 3: Deelnemen aan het apparaat aan Azure AD
+1.  de gebruiker zich aanmeld met de referenties van de lokale beheerder
+2.  Ga naar **Instellingen** accounts **en** vervolgens Toegang tot werk **of school**
+3.  Tik **Verbinding maken**
+4.  **BELANGRIJK:** Tik op **Deelnemen aan Azure AD**
+5.  Voer het e-mailadres en wachtwoord van de gebruiker in. Het apparaat is verbonden
+6.  Het apparaat opnieuw starten 
+7.  ondertekenen met uw e-mailadres en wachtwoord
 
 ## <a name="azure-ad-registered-company-owned"></a>Azure AD Registered (eigendom van het bedrijf)
 

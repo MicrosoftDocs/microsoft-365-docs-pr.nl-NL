@@ -32,7 +32,7 @@ ms.locfileid: "51204630"
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Exchange Online Protection (EOP) en Exchange Online ondersteunen beide inkomende validatie van[DKIM-berichten](https://www.rfc-editor.org/rfc/rfc6376.txt)(Domain Keys Identified Mail).
+Exchange Online Protection (EOP) en Exchange Online ondersteunen zowel inkomende validatie van[DKIM-berichten](https://www.rfc-editor.org/rfc/rfc6376.txt)(Domain Keys Identified Mail).
 
 DKIM valideert dat een e-mailbericht niet is vervalst door iemand anders en is verzonden vanuit het domein *waar* het vandaan komt.  Er wordt een e-mailbericht aan de organisatie verbonden die het heeft verzonden. DKIM-verificatie wordt automatisch gebruikt voor alle berichten die met IPv6 worden verzonden. Microsoft 365 ondersteunt ook DKIM wanneer e-mail wordt verzonden via IPv4. (Zie Ondersteuning voor anonieme inkomende e-mailberichten [via IPv6](support-for-anonymous-inbound-email-messages-over-ipv6.md)voor meer informatie over IPv6-ondersteuning .)
 
@@ -43,4 +43,4 @@ DKIM valideert een digitaal ondertekend bericht dat wordt weergegeven in de DKIM
 > [!NOTE]
 > Zie RFC 7001 (Veld voor berichtkoptekst voor het aangeven van de status van berichtverificatie) voor meer informatie over de Authentication-Results[koptekst.](https://www.rfc-editor.org/rfc/rfc7001.txt) De DKIM-implementatie van Microsoft voldoet aan deze RFC.
 
-Beheerders kunnen [Exchange-regels](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) voor e-mailstroom (ook wel transportregels genoemd) maken op de resultaten van DKIM-validatie. Met deze regels voor e-mailstroom kunnen beheerders berichten zo nodig filteren of doorgestuurd worden.
+Beheerders kunnen Exchange [regels](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) voor e-mailstroom (ook wel transportregels genoemd) maken op de resultaten van DKIM-validatie. Met deze regels voor e-mailstroom kunnen beheerders berichten zo nodig filteren of doorgestuurd worden.

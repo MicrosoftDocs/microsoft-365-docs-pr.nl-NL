@@ -69,12 +69,12 @@ Het e-mailstroomdashboard is beschikbaar voor leden van de volgende rollengroepe
 
 - **Organisatiebeheer** in het Beveiligings- & Compliancecentrum (globale beheerders).
 
-- **[Exchange-beheerder](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#exchange-administrator)** in Azure Active Directory.
+- **[Exchange beheerder](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#exchange-administrator)** in Azure Active Directory.
 
-- **MailFlow-beheerder** in het beveiligings- & compliancecentrum. Als het account niet ook lid is van de rollengroepen Organisatiebeheer of Exchange-beheerder, moet u rekening houden met de volgende problemen:
+- **MailFlow-beheerder** in het beveiligings- & compliancecentrum. Als het account niet ook lid is van de rollengroepen Organisatiebeheer of Exchange beheerders, moet u rekening houden met de volgende problemen:
   - De gebruiker moet zich rechtstreeks aanmelden bij het Beveiligings- & compliancecentrum bij <https://protection.office.com> .
   - De gebruiker heeft alleen de machtiging Alleen-lezen voor het e-mailstroomdashboard.
-  - De gebruiker heeft geen toegang tot het Microsoft 365-beheercentrum.
+  - De gebruiker heeft geen toegang tot het Microsoft 365 beheercentrum.
 
 Zie Machtigingen in het Beveiligings- & [Compliancecentrum](permissions-in-the-security-and-compliance-center.md) en Gebruikers toegang geven tot het beveiligings- & compliancecentrum voor meer [informatie over machtigingen.](grant-access-to-the-security-and-compliance-center.md)
 

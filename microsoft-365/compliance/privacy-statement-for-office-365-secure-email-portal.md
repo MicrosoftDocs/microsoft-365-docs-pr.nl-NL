@@ -37,7 +37,7 @@ Uw referenties voor het Microsoft-account, het werk- of schoolaccount of het Gma
   
 Tijdens het ontsleutelingsproces worden de versleutelde e-mail die u ontvangt, niet opgeslagen door de nieuwe OME-mogelijkhedenPortal. het wordt op geen enkel moment verzonden buiten de nieuwe OME-mogelijkhedenportal.
   
-De nieuwe OME-mogelijkheden Portal kan in sommige gevallen gegevenspunten verzamelen over het gebruik en de prestaties van de nieuwe OME-mogelijkheden (bijvoorbeeld hoe vaak versleutelde berichten worden bekeken, de gebruikte browser of app en eventuele fouten die worden aangetroffen), die kunnen worden geanalyseerd in aggregaat om de kwaliteit, beveiliging en integriteit van deze en andere Microsoft-apps, producten te verbeteren of services. Deze informatie wordt niet gebruikt om u te identificeren, contact op te nemen of om reclame voor u te targeten.
+De nieuwe OME-mogelijkheden Portal kan in sommige gevallen gegevenspunten verzamelen over het gebruik en de prestaties van de nieuwe OME-mogelijkheden (bijvoorbeeld hoe vaak versleutelde berichten worden bekeken, de gebruikte browser of app en eventuele fouten die worden aangetroffen), die kunnen worden geanalyseerd met het oog op het verbeteren van de kwaliteit, beveiliging en integriteit van deze en andere Microsoft-apps , producten of services. Deze informatie wordt niet gebruikt om u te identificeren, contact op te nemen of om reclame voor u te targeten.
   
 ## <a name="for-more-information"></a>Voor meer informatie
 

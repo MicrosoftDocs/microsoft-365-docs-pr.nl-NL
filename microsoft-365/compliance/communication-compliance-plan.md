@@ -38,7 +38,7 @@ Identificeer de juiste belanghebbenden in uw organisatie om samen te werken voor
 - Privacy
 - Beveiliging
 - Personeelszaken
-- Wettelijk
+- Juridisch
 
 ## <a name="plan-for-the-investigation-and-remediation-workflow"></a>De werkstroom voor onderzoek en herstel plannen
 
