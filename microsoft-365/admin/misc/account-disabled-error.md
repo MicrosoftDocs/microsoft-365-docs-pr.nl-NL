@@ -1,5 +1,5 @@
 ---
-title: Krijgt u een foutmelding voor een account uitgeschakeld in de webversie van Outlook?
+title: Krijgt u een foutmelding met een account Outlook op internet?
 f1.keywords:
 - CSH
 ms.author: pebaum
@@ -24,8 +24,8 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50914940"
 ---
-# <a name="getting-an-account-disabled-error-in-outlook-on-the-web"></a><span data-ttu-id="3f8e7-103">Fout bij het verwijderen van een account uitgeschakeld in de webversie van Outlook</span><span class="sxs-lookup"><span data-stu-id="3f8e7-103">Getting an account disabled error in Outlook on the web</span></span>
+# <a name="getting-an-account-disabled-error-in-outlook-on-the-web"></a><span data-ttu-id="1f138-103">Een account met een uitgeschakelde fout in Outlook op internet</span><span class="sxs-lookup"><span data-stu-id="1f138-103">Getting an account disabled error in Outlook on the web</span></span>
 
-<span data-ttu-id="3f8e7-104">Als u de foutmelding krijgt Waarmee uw **account** is uitgeschakeld wanneer u de webversie van Outlook probeert te openen (voorheen Bekend als Outlook Web App), heeft uw beheerder mogelijk uw toegang tot de webversie van `X-OWA-Error: Microsoft.Exchange.Data.Storage.AccountDisabledException` Outlook uitgeschakeld.</span><span class="sxs-lookup"><span data-stu-id="3f8e7-104">If you get the error **Your account has been disabled** with `X-OWA-Error: Microsoft.Exchange.Data.Storage.AccountDisabledException` when you try to open Outlook on the web (formerly known as Outlook Web App), your admin might have disabled your access to Outlook on the web.</span></span>
+<span data-ttu-id="1f138-104">Als u de foutmelding krijgt Met uw **account** is uitgeschakeld wanneer u Outlook op internet probeert te openen (voorheen bekend als Outlook Web App), heeft uw beheerder mogelijk uw toegang tot Outlook op het `X-OWA-Error: Microsoft.Exchange.Data.Storage.AccountDisabledException` web uitgeschakeld.</span><span class="sxs-lookup"><span data-stu-id="1f138-104">If you get the error **Your account has been disabled** with `X-OWA-Error: Microsoft.Exchange.Data.Storage.AccountDisabledException` when you try to open Outlook on the web (formerly known as Outlook Web App), your admin might have disabled your access to Outlook on the web.</span></span>
 
-<span data-ttu-id="3f8e7-105">Uw beheerder kan deze fout oplossen door de stappen in het onderwerp Outlook Web App voor een postvak in- of uit [te schakelen.](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app)</span><span class="sxs-lookup"><span data-stu-id="3f8e7-105">Your admin can fix this error by following the steps in the topic [Enable or disable Outlook Web App for a mailbox](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app).</span></span>
+<span data-ttu-id="1f138-105">Uw beheerder kan deze fout oplossen door de stappen in het onderwerp In- of uitschakelen [Outlook Web App voor een postvak.](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app)</span><span class="sxs-lookup"><span data-stu-id="1f138-105">Your admin can fix this error by following the steps in the topic [Enable or disable Outlook Web App for a mailbox](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app).</span></span>

@@ -1,6 +1,6 @@
 ---
-title: Nieuwe functies in microsoft 365-beveiliging
-description: Meer informatie over nieuwe mogelijkheden in Microsoft 365-beveiliging
+title: Nieuwe functies in Microsoft 365 beveiliging
+description: Meer informatie over nieuwe mogelijkheden in Microsoft 365 beveiliging
 keywords: nieuw, m365-beveiliging, beveiliging, 365, mogelijkheden
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -27,18 +27,18 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51058613"
 ---
-# <a name="whats-new-in-microsoft-365-security"></a><span data-ttu-id="40def-104">Nieuwe functies in Microsoft 365-beveiliging</span><span class="sxs-lookup"><span data-stu-id="40def-104">What's new in Microsoft 365 Security</span></span>
+# <a name="whats-new-in-microsoft-365-security"></a><span data-ttu-id="bfbfb-104">Nieuwe functies in Microsoft 365 Beveiliging</span><span class="sxs-lookup"><span data-stu-id="bfbfb-104">What's new in Microsoft 365 Security</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="40def-105">**Van toepassing op:**</span><span class="sxs-lookup"><span data-stu-id="40def-105">**Applies to:**</span></span>
-- <span data-ttu-id="40def-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="40def-106">Microsoft 365 Defender</span></span>
+<span data-ttu-id="bfbfb-105">**Van toepassing op:**</span><span class="sxs-lookup"><span data-stu-id="bfbfb-105">**Applies to:**</span></span>
+- <span data-ttu-id="bfbfb-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="bfbfb-106">Microsoft 365 Defender</span></span>
 
 
 
-<span data-ttu-id="40def-107">Dit onderwerp gaat over mogelijkheden die over het algemeen beschikbaar zijn (GA) in de nieuwste versie van Microsoft 365 Security.</span><span class="sxs-lookup"><span data-stu-id="40def-107">This topic will cover capabilities that are generally available (GA) in the latest release of Microsoft 365 Security.</span></span> 
+<span data-ttu-id="bfbfb-107">Dit onderwerp gaat over de mogelijkheden die over het algemeen beschikbaar zijn (GA) in de meest recente release van Microsoft 365 Beveiliging.</span><span class="sxs-lookup"><span data-stu-id="bfbfb-107">This topic will cover capabilities that are generally available (GA) in the latest release of Microsoft 365 Security.</span></span> 
 
-<span data-ttu-id="40def-108">Zie Voorbeeldfuncties voor meer informatie over [voorbeeldfuncties.](preview.md)</span><span class="sxs-lookup"><span data-stu-id="40def-108">For more information on preview features, see [Preview features](preview.md)</span></span>
+<span data-ttu-id="bfbfb-108">Zie Voorbeeldfuncties voor meer informatie over [voorbeeldfuncties.](preview.md)</span><span class="sxs-lookup"><span data-stu-id="bfbfb-108">For more information on preview features, see [Preview features](preview.md)</span></span>
 
 
