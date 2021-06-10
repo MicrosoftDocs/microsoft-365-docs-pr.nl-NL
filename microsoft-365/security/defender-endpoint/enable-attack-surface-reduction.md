@@ -315,4 +315,4 @@ Voorbeeld:
 
 - [De beperking van het oppervlak van de aanval evalueren](evaluate-attack-surface-reduction.md)
 
-- [Veelgestelde vragen over kwetsbaarheid voor aanvallen verminderen](attack-surface-reduction.md)
+- [Veelgestelde vragen over het verminderen van kwetsbaarheid voor aanvallen](attack-surface-reduction.md)

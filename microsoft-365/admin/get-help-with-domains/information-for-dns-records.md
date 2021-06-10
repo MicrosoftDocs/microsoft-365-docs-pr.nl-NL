@@ -98,8 +98,8 @@ ms.locfileid: "52635724"
     
 5. Volg de stappen voor het maken van de records bij uw DNS-host.
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Veelgestelde vragen over domeinen](../setup/domains-faq.yml) (artikel)\
-[Problemen zoeken en oplossen na het toevoegen van uw domein of DNS-records](find-and-fix-issues.md) (artikel)\
+[Problemen opsporen en oplossen nadat u uw domein of DNS-records hebt toegevoegd](find-and-fix-issues.md) (artikel)\
 [Domeinen beheren](index.yml) (koppelingspagina)

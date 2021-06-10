@@ -1,7 +1,7 @@
 ---
-title: 'Beveiligingslekken in mijn organisatie : bedreigings- en kwetsbaarheidsbeheer'
-description: Hier vindt u de algemene beveiligingslekken en blootstellings-id (CVE) van zwakke punten in de software die in uw organisatie wordt uitgevoerd. Ontdekt door de Microsoft Defender for Endpoint threat and vulnerability management capability.
-keywords: Microsoft Defender for Endpoint threat & vulnerability management, threat and vulnerability management, Microsoft Defender for Endpoint tvm weaknesses page, finding weaknesses through tvm, tvm vulnerability list, vulnerability details in tvm
+title: Beveiligingsproblemen in mijn organisatie - Threat and Vulnerability Management
+description: Hier vindt u de algemene beveiligingslekken en blootstellings-id (CVE) van zwakke punten in de software die in uw organisatie wordt uitgevoerd. Ontdekt door de Microsoft Defender voor Endpoint Threat and Vulnerability Management mogelijkheid.
+keywords: Microsoft Defender for Endpoint threat & vulnerability management, Threat and Vulnerability Management, Microsoft Defender for Endpoint tvm weaknesses page, finding weaknesses through tvm, tvm vulnerability list, vulnerability details in tvm
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -25,23 +25,23 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51933071"
 ---
-# <a name="vulnerabilities-in-my-organization---threat-and-vulnerability-management"></a>Beveiligingslekken in mijn organisatie : bedreigings- en kwetsbaarheidsbeheer
+# <a name="vulnerabilities-in-my-organization---threat-and-vulnerability-management"></a>Beveiligingsproblemen in mijn organisatie - Threat and Vulnerability Management
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [Bedreigings- en kwetsbaarheidsbeheer](next-gen-threat-and-vuln-mgt.md)
+- [Bedreiging en vulnerability management](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
 
-Bedreigings- en kwetsbaarheidsbeheer gebruikt dezelfde signalen in de endpointbeveiliging van Defender voor eindpuntbeveiliging om beveiligingsproblemen te scannen en op te sporen.
+Bedreiging en vulnerability management gebruikt dezelfde signalen in Defender voor endpoint-beveiliging voor het scannen en opsporen van beveiligingsproblemen.
 
 Op **de pagina Zwakke** punten worden de beveiligingslekken vermeld waar uw apparaten aan worden blootgesteld door de CVE-id (Common Vulnerabilities and Exposures) te noteren. U kunt ook de ernst, cvss-classificatie (Common Vulnerability Scoring System), de prevalentie in uw organisatie, de bijbehorende inbreuk, bedreigingsinzichten en meer bekijken.
 
 >[!NOTE]
->Als er geen officiële CVE-ID is toegewezen aan een beveiligingsprobleem, wordt de naam van de kwetsbaarheid toegewezen door bedreigings- en kwetsbaarheidsbeheer.
+>Als er geen officiële CVE-ID is toegewezen aan een beveiligingsprobleem, wordt de naam van het beveiligingsprobleem toegewezen door Threat and Vulnerability Management.
 
 >[!TIP]
 >Zie E-mailmeldingen voor kwetsbaarheid configureren in Microsoft Defender voor Eindpunt voor e-mailberichten over [nieuwe beveiligingsprobleemgebeurtenissen](configure-vulnerability-email-notifications.md)
@@ -50,12 +50,12 @@ Op **de pagina Zwakke** punten worden de beveiligingslekken vermeld waar uw appa
 
 Toegang tot de pagina Zwakheden op een aantal verschillende manieren:
 
-- Zwakke **punten selecteren** in het navigatiemenu bedreigings- en kwetsbaarheidsbeheer in het Microsoft [Defender-beveiligingscentrum](portal-overview.md)
+- Zwakke **punten selecteren** in het Threat and Vulnerability Management navigatiemenu in de [Microsoft Defender-beveiligingscentrum](portal-overview.md)
 - Algemene zoekactie
 
 ### <a name="navigation-menu"></a>Navigatiemenu
 
-Ga naar het navigatiemenu bedreigings- en beveiligingsprobleembeheer en selecteer **Zwakke punten om** de lijst met CVE's te openen.
+Ga naar het Threat and Vulnerability Management navigatiemenu en selecteer **Zwakke punten om** de lijst met CVE's te openen.
 
 ### <a name="vulnerabilities-in-global-search"></a>Beveiligingslekken in globale zoekopdrachten
 
@@ -97,7 +97,7 @@ Als u een CVE selecteert, wordt er een flyoutvenster geopend met meer informatie
 
 ### <a name="software-that-isnt-supported"></a>Software die niet wordt ondersteund
 
-CVE's voor software die momenteel niet wordt ondersteund door & kwetsbaarheidsbeheer is nog steeds aanwezig op de pagina Zwakke punten. Omdat de software niet wordt ondersteund, zijn er slechts beperkte gegevens beschikbaar.
+CVE's voor software die momenteel niet wordt ondersteund door bedreigingen & vulnerability management is nog steeds aanwezig op de pagina Zwakheden. Omdat de software niet wordt ondersteund, zijn er slechts beperkte gegevens beschikbaar.
 
 Blootgestelde apparaatgegevens zijn niet beschikbaar voor CVE's met niet-ondersteunde software. Filter op niet-ondersteunde software door de optie 'Niet beschikbaar' te selecteren in de sectie 'Blootgestelde apparaten'.
 
@@ -107,7 +107,7 @@ Blootgestelde apparaatgegevens zijn niet beschikbaar voor CVE's met niet-onderst
 
 ### <a name="top-vulnerable-software-in-the-dashboard"></a>Meest kwetsbare software in het dashboard
 
-1. Ga naar het [dashboard bedreigings- en kwetsbaarheidsbeheer](tvm-dashboard-insights.md) en schuif omlaag naar de widget Top vulnerable **software.** U ziet het aantal beveiligingsproblemen in elke software, samen met bedreigingsgegevens en een weergave op hoog niveau van blootstelling aan apparaten in de tijd.
+1. Ga naar het [Threat and Vulnerability Management dashboard en](tvm-dashboard-insights.md) schuif omlaag naar de widget Top vulnerable **software.** U ziet het aantal beveiligingsproblemen in elke software, samen met bedreigingsgegevens en een weergave op hoog niveau van blootstelling aan apparaten in de tijd.
 
     ![Top kwetsbaar softwarekaart met vier kolommen: software, zwakke punten, bedreigingen, blootgestelde apparaten.](images/tvm-top-vulnerable-software500.png)
 
@@ -115,13 +115,13 @@ Blootgestelde apparaatgegevens zijn niet beschikbaar voor CVE's met niet-onderst
 3. Selecteer het **tabblad Gevonden beveiligingslekken.**
 4. Selecteer het beveiligingsprobleem dat u wilt onderzoeken voor meer informatie over beveiligingsdetails
 
-    ![Overzicht van Windows Server 2019 inzoomen.](images/windows-server-drilldown.png)
+    ![Windows Overzicht van server 2019 inzoomen.](images/windows-server-drilldown.png)
 
 ### <a name="discover-vulnerabilities-in-the-device-page"></a>Beveiligingslekken ontdekken op de apparaatpagina
 
 Informatie over gerelateerde zwakke punten weergeven op de apparaatpagina.
 
-1. Ga naar de navigatiemenubalk van het Microsoft Defender-beveiligingscentrum en selecteer vervolgens het apparaatpictogram. De **lijstpagina Apparaten** wordt geopend.
+1. Ga naar de Microsoft Defender-beveiligingscentrum navigatiemenubalk en selecteer vervolgens het apparaatpictogram. De **lijstpagina Apparaten** wordt geopend.
 2. Selecteer op **de pagina Apparatenlijst** de apparaatnaam die u wilt onderzoeken.
 
     ![Apparaatlijst met geselecteerd apparaat om te onderzoeken.](images/tvm_machinetoinvestigate.png)
@@ -137,7 +137,7 @@ Informatie over gerelateerde zwakke punten weergeven op de apparaatpagina.
 
 Net als bij de software wordt nu de detectielogica we toegepast op een apparaat om aan te geven dat het kwetsbaar is. De nieuwe sectie heet 'Detectielogica' (in een gedetecteerd beveiligingsprobleem op de apparaatpagina) en toont de detectielogica en -bron.
 
-De categorie 'OS-functie' wordt ook weergegeven in relevante scenario's. Een CVE is alleen van invloed op apparaten met een kwetsbaar besturingssysteem als een specifiek besturingssysteemonderdeel is ingeschakeld. Stel dat Windows Server 2019 een kwetsbaarheid heeft in het DNS-onderdeel. Met deze nieuwe mogelijkheid voegen we deze CVE alleen toe aan de Windows Server 2019-apparaten met de DNS-mogelijkheid die is ingeschakeld in het besturingssysteem.
+De categorie 'OS-functie' wordt ook weergegeven in relevante scenario's. Een CVE is alleen van invloed op apparaten met een kwetsbaar besturingssysteem als een specifiek besturingssysteemonderdeel is ingeschakeld. Stel dat Windows server 2019 een kwetsbaarheid heeft in het DNS-onderdeel. Met deze nieuwe mogelijkheid voegen we deze CVE alleen toe aan de Windows Server 2019-apparaten met de DNS-mogelijkheid die is ingeschakeld in het besturingssysteem.
 
 ![Voorbeeld van detectielogica waarin de software wordt vermeld die is gedetecteerd op het apparaat en de KBs.](images/tvm-cve-detection-logic.png)
 
@@ -148,11 +148,11 @@ Meld een onwaar positief wanneer u vage, onnauwkeurige of onvolledige informatie
 1. Open de CVE op de pagina Zwakke punten.
 2. Selecteer **Onnauwkeurigheid melden en** er wordt een flyoutvenster geopend.
 3. Selecteer de onnauwkeurigheidscategorie in de vervolgkeuzelijst en vul uw e-mailadres en onnauwkeurigheidsdetails in.
-4. Selecteer **Verzenden**. Uw feedback wordt onmiddellijk verzonden naar de experts voor bedreigings- en kwetsbaarheidsbeheer.
+4. Selecteer **Verzenden**. Uw feedback wordt onmiddellijk verzonden naar de Threat and Vulnerability Management experts.
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-articles"></a>Aanverwante artikelen
 
-- [Overzicht van bedreigings- en kwetsbaarheidsbeheer](next-gen-threat-and-vuln-mgt.md)
+- [Overzicht van bedreigingen en vulnerability management](next-gen-threat-and-vuln-mgt.md)
 - [Beveiligingsaanbevelingen](tvm-security-recommendation.md)
 - [Software-inventaris](tvm-software-inventory.md)
 - [Dashboardinzichten](tvm-dashboard-insights.md)

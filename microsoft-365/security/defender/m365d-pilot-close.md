@@ -1,7 +1,7 @@
 ---
-title: Uw testresultaten van Microsoft 365 Defender samenvatten
-description: Sluit uw testproject microsoft 365 Defender af door uw scorecard te voltooien, uw rapport te analyseren en te bepalen hoe u verder wilt gaan.
-keywords: Microsoft 365 Defender pilot, beslissen wat te doen na pilot Microsoft 365 Defender project, wat te doen na de evaluatie van Microsoft 365 Defender in productie, overgang van Microsoft 365 Defender pilot naar implementatie, cyberbeveiliging, geavanceerde permanente bedreiging, bedrijfsbeveiliging, apparaten, apparaat, identiteit, gebruikers, gegevens, toepassingen, incidenten, geautomatiseerd onderzoek en herstel, geavanceerde jacht
+title: De resultaten van uw pilot Microsoft 365 Defender-project samenvatten
+description: Sluit uw pilot Microsoft 365 Defender-project af door uw scorecard te voltooien, uw rapport bevindingen te analyseren en te bepalen hoe u verder wilt gaan.
+keywords: Microsoft 365 Defender pilot, decide what to do next after pilot Microsoft 365 Defender project, what to do after evaluating Microsoft 365 Defender in production, transition from Microsoft 365 Defender pilot to deployment, cyber security, advanced persistent threat, enterprise security, devices, device, identity, users, data, applications, incidents, automated investigation and remediation, advanced hunting
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -45,7 +45,7 @@ ms.locfileid: "51932867"
 
 U bent momenteel bezig met het sluiten en samenvatten van de fase.
 
-U hebt zojuist een geavanceerde geheugen-alleen-aanvalssimulatie uitgevoerd die code op afstand heeft uitgevoerd op een domeincontroller. U hebt gezien hoe Microsoft Defender voor Eindpunt en Microsoft Defender voor identiteit waarschuwingen detecteren en maken voor verborgen schadelijke activiteiten. U hebt ook gezien hoe waarschuwingen uit verschillende bronnen samen met andere contextuele informatie worden bezorgd in één incident in de microsoft 365-beveiligingscentrumportal. Als u dergelijke integratie ondervindt, kunnen SOC-analisten de benodigde actie onderzoeken en ondernemen. U hebt ook een geavanceerde query gemaakt om inkomende e-mailberichten te identificeren waarin de gebruiker de bijlage heeft geopend of opgeslagen en detectie heeft gemaakt op basis van die query.
+U hebt zojuist een geavanceerde geheugen-alleen-aanvalssimulatie uitgevoerd die code op afstand heeft uitgevoerd op een domeincontroller. U hebt gezien hoe Microsoft Defender voor Eindpunt en Microsoft Defender voor identiteit waarschuwingen detecteren en maken voor verborgen schadelijke activiteiten. U hebt ook gezien hoe waarschuwingen uit verschillende bronnen samen met andere contextuele informatie worden bezorgd in één incident in de Microsoft 365 beveiligingscentrumportal. Als u dergelijke integratie ondervindt, kunnen SOC-analisten de benodigde actie onderzoeken en ondernemen. U hebt ook een geavanceerde query gemaakt om inkomende e-mailberichten te identificeren waarin de gebruiker de bijlage heeft geopend of opgeslagen en detectie heeft gemaakt op basis van die query.
 
 U hebt het einde van het proces bereikt nadat alle tests zijn afgerond.
 
@@ -63,5 +63,5 @@ We hopen dat u genoten hebt van deze simulatie. Begin met het implementeren van 
 Meer informatie over de Microsoft 365 Defender-pilaren via de volgende interactieve handleidingen:
 - [Uw organisatie beveiligen met Microsoft Defender voor Office 365](https://aka.ms/O365ATP-Interactive-Guide)
 - [Verdachte activiteiten en mogelijke aanvallen detecteren met Microsoft Defender voor identiteit](https://aka.ms/AATP-Interactive-Guide)
-- [Bedreigingen detecteren en waarschuwingen beheren met Microsoft Cloud App Security](https://aka.ms/DetectThreatsAndAlertsMCAS-InteractiveGuide)
+- [Detecteer bedreigingen en beheer waarschuwingen met Microsoft Cloud App Security](https://aka.ms/DetectThreatsAndAlertsMCAS-InteractiveGuide)
 - [Bedreigingen onderzoeken en corrigeren met Microsoft Defender voor Eindpunt](https://aka.ms/MDATP-IR-Interactive-Guide)

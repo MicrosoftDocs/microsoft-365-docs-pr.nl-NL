@@ -17,7 +17,7 @@ ms.collection:
 - M365-security-compliance
 - m365solution-overview
 - m365solution-protecthve
-description: Beheerders kunnen leren hoe ze de beveiligingsinstellingen kunnen verbeteren en rapporten, waarschuwingen en onderzoeken kunnen gebruiken voor prioriteitsaccounts in hun Microsoft 365-organisaties.
+description: Beheerders kunnen leren hoe ze de beveiligingsinstellingen kunnen verbeteren en rapporten, waarschuwingen en onderzoeken kunnen gebruiken voor prioriteitsaccounts in hun Microsoft 365 organisaties.
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: 73be3832b2391b6f47e4c796daf76c884a17dcdd
@@ -39,7 +39,7 @@ Microsoft 365 en Microsoft Defender voor Office 365 bevatten verschillende belan
 
 ****
 
-|Taak|Alle Office 365 Enterprise-abonnementen|Microsoft 365 E3|Microsoft 365 E5|
+|Taak|Alle Office 365 Enterprise abonnementen|Microsoft 365 E3|Microsoft 365 E5|
 |---|:---:|:---:|:---:|
 |[Aanmeldingsbeveiliging voor prioriteitsaccounts verhogen](#increase-sign-in-security-for-priority-accounts)|![Inbegrepen](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Inbegrepen](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Inbegrepen](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |[Strikt vooraf ingesteld beveiligingsbeleid gebruiken voor prioriteitsaccounts](#use-strict-preset-security-policies-for-priority-accounts)|![Inbegrepen](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Inbegrepen](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Inbegrepen](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
@@ -57,7 +57,7 @@ Prioriteitsaccounts vereisen meer aanmeldingsbeveiliging. U kunt de aanmeldingsb
 
 Zie Stap [1 voor instructies. De aanmeldingsbeveiliging voor externe werknemers verhogen met MFA.](../../solutions/empower-people-to-work-remotely-secure-sign-in.md) Hoewel dit artikel over externe werknemers gaat, gelden dezelfde concepten voor gebruikers met prioriteit.
 
-**Opmerking:** We raden u ten zeerste aan oudere verificatieprotocollen voor alle prioriteitsgebruikers uit te schakelen, zoals in het vorige artikel is beschreven. Als u dit niet kunt doen door uw zakelijke vereisten, biedt Exchange Online de volgende besturingselementen om het bereik van oudere verificatieprotocollen te beperken:
+**Opmerking:** We raden u ten zeerste aan oudere verificatieprotocollen voor alle prioriteitsgebruikers uit te schakelen, zoals in het vorige artikel is beschreven. Als u dit niet kunt doen door uw bedrijfsvereisten, Exchange Online u de volgende besturingselementen om het bereik van oudere verificatieprotocollen te beperken:
 
 - U kunt [verificatiebeleid](/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online) en [Clienttoegangsregels](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) in Exchange Online gebruiken om basisverificatie- en oudere verificatieprotocollen zoals POP3, IMAP4 en geverifieerde SMTP voor specifieke gebruikers te blokkeren of toe te staan.
 
@@ -69,19 +69,19 @@ Het is ook vermeldenswaard dat basisverificatie wordt afgeschaft in Exchange Onl
 
 ## <a name="use-strict-preset-security-policies-for-priority-accounts"></a>Strikt vooraf ingesteld beveiligingsbeleid gebruiken voor prioriteitsaccounts
 
-Gebruikers met prioriteit vereisen strengere acties voor de verschillende beveiligingen die beschikbaar zijn in Exchange Online Protection (EOP) en Defender voor Office 365.
+Prioriteitsgebruikers vereisen strengere acties voor de verschillende beveiligingen die beschikbaar zijn in Exchange Online Protection (EOP) en Defender voor Office 365.
 
 In plaats van berichten te verzenden die als spam zijn geclassificeerd in de map Ongewenste e-mail, moet u dezelfde berichten in quarantaine plaatsen als ze zijn bedoeld voor prioriteitsaccounts.
 
 U kunt deze strikte benadering voor prioriteitsaccounts implementeren met behulp van het profiel Strikt in vooraf ingestelde beveiligingsbeleidsregels.
 
-Vooraf ingestelde beveiligingsbeleidsregels zijn een handige en centrale locatie om onze aanbevolen strikte beleidsinstellingen toe te passen voor alle beveiligingen in EOP en Defender voor Office 365. Zie Vooraf ingestelde beveiligingsbeleidsregels [in EOP en Microsoft Defender voor Office 365](preset-security-policies.md)voor meer informatie.
+Vooraf ingestelde beveiligingsbeleidsregels zijn een handige en centrale locatie om onze aanbevolen strikte beleidsinstellingen toe te passen voor alle beveiligingen in EOP en Defender voor Office 365. Zie Vooraf ingestelde beveiligingsbeleidsregels [in EOP en Microsoft Defender](preset-security-policies.md)voor Office 365.
 
-Zie Aanbevolen instellingen voor EOP en Microsoft Defender voor [Office 365-beveiliging](recommended-settings-for-eop-and-office365.md)voor meer informatie over hoe de strikte beleidsinstellingen verschillen van de standaard- en standaardbeleidsinstellingen.
+Zie Aanbevolen instellingen voor EOP en Microsoft Defender voor Office 365 beveiliging voor meer informatie over hoe de strikte beleidsinstellingen verschillen van de standaard- en [standaardbeleidsinstellingen.](recommended-settings-for-eop-and-office365.md)
 
 ## <a name="apply-user-tags-to-priority-accounts"></a>Gebruikerslabels toepassen op prioriteitsaccounts
 
-Gebruikerslabels in Microsoft Defender voor Office 365 Plan 2 (als onderdeel van Microsoft 365 E5 of een invoegabonnement) zijn een manier om specifieke gebruikers of groepen gebruikers snel te identificeren en te classificeren in rapporten en incidenten.
+Gebruikerslabels in Microsoft Defender voor Office 365 Plan 2 (als onderdeel van Microsoft 365 E5 of een invoegabonnement) zijn een manier om specifieke gebruikers of groepen gebruikers snel te identificeren en te classificeren in rapporten en incidentenonderzoeken.
 
 **Prioriteitsaccounts** is een type ingebouwde gebruikerstag (ook wel een _systeemlabel_ genoemd) dat u kunt gebruiken om incidenten en waarschuwingen te identificeren die betrekking hebben op prioriteitsaccounts. Zie Prioriteitsaccounts **beheren** en controleren voor meer informatie over [prioriteitsaccounts.](../../admin/setup/priority-accounts.md)
 
@@ -89,7 +89,7 @@ U kunt ook aangepaste tags maken om uw prioriteitsaccounts verder te identificer
 
 ## <a name="monitor-priority-accounts-in-alerts-reports-and-detections"></a>Prioriteitsaccounts controleren in waarschuwingen, rapporten en detecties
 
-Nadat u uw prioriteitsgebruikers hebt beveiligd en taggen, kunt u de beschikbare rapporten, waarschuwingen en onderzoeken in EOP en Defender voor Office 365 gebruiken om snel incidenten of detecties te identificeren die betrekking hebben op prioriteitsaccounts. De functies die gebruikerslabels ondersteunen, worden beschreven in de volgende tabel.
+Nadat u uw prioriteitsgebruikers hebt beveiligd en gelabeld, kunt u de beschikbare rapporten, waarschuwingen en onderzoeken in EOP en Defender voor Office 365 gebruiken om snel incidenten of detecties te identificeren waarbij prioriteitsaccounts zijn betrokken. De functies die gebruikerslabels ondersteunen, worden beschreven in de volgende tabel.
 
 <br>
 
@@ -98,8 +98,8 @@ Nadat u uw prioriteitsgebruikers hebt beveiligd en taggen, kunt u de beschikbare
 |Functie|Beschrijving|
 |---|---|
 |Waarschuwingen|De gebruikerslabels van getroffen gebruikers zijn zichtbaar en beschikbaar als filters op de **pagina** Waarschuwingen weergeven in het beveiligings- & Compliancecentrum. Zie Waarschuwingen [weergeven voor meer informatie.](../../compliance/alert-policies.md#viewing-alerts)|
-|Bedreigingsverkenner <p> Detecties in realtime|In **Threat Explorer** (Microsoft Defender voor Office 365-abonnement 2) of realtimedetecties (Microsoft Defender voor Office 365 Abonnement 1) zijn gebruikerslabels zichtbaar in de weergave E-mailraster en de flyout **E-maildetails.** Gebruikerslabels zijn ook beschikbaar als een filterbare eigenschap. Zie Tags [in Threat Explorer voor meer informatie.](threat-explorer.md#tags-in-threat-explorer)|
-|Campagneweergaven|Gebruikerslabels zijn een van de vele filterbare eigenschappen in campagneweergaven in Microsoft Defender voor Office 365 Plan 2. Zie [Campagneweergaven voor meer informatie.](campaigns.md)|
+|Bedreigingsverkenner <p> Detecties in realtime|In **Threat Explorer** (Microsoft Defender voor Office 365 Plan 2) of realtime detecties (Microsoft Defender voor Office 365 Plan 1) zijn gebruikerslabels zichtbaar in de weergave E-mailraster en de flyout **E-maildetails.** Gebruikerslabels zijn ook beschikbaar als een filterbare eigenschap. Zie Tags [in Threat Explorer voor meer informatie.](threat-explorer.md#tags-in-threat-explorer)|
+|Campagneweergaven|Gebruikerslabels zijn een van de vele filterbare eigenschappen in campagneweergaven in Microsoft Defender Office 365 plan 2. Zie [Campagneweergaven voor meer informatie.](campaigns.md)|
 |Statusrapport bedreigingsbeveiliging|In vrijwel alle weergaven en detailtabellen in het statusrapport Bedreigingsbeveiliging **kunt** u de resultaten filteren op **prioriteitsaccounts.** Zie Rapport [bedreigingsbeveiligingsstatus voor](view-email-security-reports.md#threat-protection-status-report)meer informatie.|
 |E-mailproblemen voor het rapport Prioriteitsaccounts|Het **rapport E-mailproblemen** voor prioriteitsaccounts in het Exchange-beheercentrum (EAC) bevat informatie over niet-bezorgde en vertraagde berichten voor **prioriteitsaccounts.** Zie E-mailproblemen [voor het rapport Prioriteitsaccounts](/exchange/monitoring/mail-flow-reports/mfr-email-issues-for-priority-accounts-report)voor meer informatie.|
 |
@@ -110,24 +110,24 @@ Gebruikers met prioriteitsaccounts trainen kan deze gebruikers en uw beveiliging
 
 De Harvard Kennedy School [Cyberbeveiligingscampagnehandboek](https://www.belfercenter.org/CyberPlaybook) biedt uitstekende richtlijnen voor het tot stand brengen van een sterke cultuur van beveiligingsbewustzijn binnen uw organisatie, inclusief training voor gebruikers om phishingaanvallen te identificeren.
 
-Microsoft 365 bevat de volgende bronnen om gebruikers in uw organisatie te informeren:
+Microsoft 365 bevat de volgende bronnen om gebruikers in uw organisatie op de hoogte te stellen:
 
 <br>
 
 ****
 
-|Concept|Resources|Omschrijving|
+|Concept|Resources|Beschrijving|
 |---|---|---|
 |Microsoft 365|[Aanpasbare leerpaden](/office365/customlearning/)|Deze bronnen kunnen u helpen bij het maken van trainingen voor gebruikers in uw organisatie.|
-|Microsoft 365-beveiliging|[Leermodule: Uw organisatie beveiligen met ingebouwde, intelligente beveiliging van Microsoft 365](/learn/modules/security-with-microsoft-365)|Met deze module kunt u beschrijven hoe beveiligingsfuncties van Microsoft 365 samenwerken en de voordelen van deze beveiligingsfuncties duidelijk maken.|
+|Microsoft 365-beveiliging|[Leermodule: Beveilig uw organisatie met ingebouwde, intelligente beveiliging van Microsoft 365](/learn/modules/security-with-microsoft-365)|Met deze module kunt u beschrijven hoe Microsoft 365 beveiligingsfuncties samenwerken en de voordelen van deze beveiligingsfuncties duidelijk maken.|
 |Meervoudige verificatie|[Verificatie in twee stappen: Wat is de extra verificatiepagina?](/azure/active-directory/user-help/multi-factor-authentication-end-user-first-time)|In dit artikel kunnen eindgebruikers begrijpen wat meervoudige verificatie is en waarom het wordt gebruikt in uw organisatie.|
-|Training voor aanvalssimulatie|[Aan de slag met aanvalssimulatietraining](attack-simulation-training-get-started.md)|Met training voor aanvalssimulatie in Microsoft Defender voor Office 365 Plan 2 kan de beheerder gesimuleerde phishingaanvallen configureren, starten en bijhouden tegen specifieke groepen gebruikers.|
+|Training voor aanvalssimulatie|[Aan de slag met aanvalssimulatietraining](attack-simulation-training-get-started.md)|Met training voor aanvalssimulatie in Microsoft Defender Office 365 plan 2 kan de beheerder gesimuleerde phishingaanvallen configureren, starten en bijhouden tegen specifieke groepen gebruikers.|
 
 Daarnaast raadt Microsoft aan dat gebruikers de acties uitvoeren die in dit artikel worden beschreven: Bescherm uw account en [apparaten tegen hackers en malware.](https://support.microsoft.com/office/066d6216-a56b-4f90-9af3-b3a1e9a327d6) Deze acties omvatten:
 
 - Sterke wachtwoorden gebruiken
 - Apparaten beveiligen
-- Beveiligingsfuncties inschakelen op Windows 10- en Mac-pc's (voor niet-verantwoordelijke apparaten)
+- Beveiligingsfuncties inschakelen op Windows 10 en Mac-pc's (voor niet-verantwoordelijke apparaten)
 
 ## <a name="see-also"></a>Zie ook
 

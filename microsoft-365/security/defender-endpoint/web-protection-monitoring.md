@@ -33,7 +33,7 @@ ms.locfileid: "51687421"
 
 >Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-main-abovefoldlink&rtc=1)
 
-Met webbeveiliging kunt u de browsebeveiliging van uw organisatie controleren via rapporten onder **Rapporten > webbeveiliging** in het Microsoft Defender-beveiligingscentrum. Het rapport bevat kaarten die statistieken over detectie van bedreigingen voor het web bieden.
+Met webbeveiliging kunt u de beveiliging van surfen in uw organisatie controleren via rapporten onder **Rapporten > webbeveiliging** in de Microsoft Defender-beveiligingscentrum. Het rapport bevat kaarten die statistieken over detectie van bedreigingen voor het web bieden.
 
 - **Detectie van webdreigingsbeveiliging** in de loop van de tijd: deze trending card geeft het aantal webbedreigingen weer dat tijdens de geselecteerde periode per type is gedetecteerd (Last 30 days, Last 3 months, Last 6 months)
  

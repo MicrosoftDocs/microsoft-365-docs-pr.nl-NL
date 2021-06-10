@@ -1,6 +1,6 @@
 ---
-title: Veelgebruikte MICROSOFT 365 Defender REST API-foutcodes
-description: Meer informatie over de veelgebruikte MICROSOFT 365 Defender REST API-foutcodes
+title: Veelgebruikte Microsoft 365 Defender REST API-foutcodes
+description: Meer informatie over de algemene Microsoft 365 Defender REST API-foutcodes
 keywords: api, fout, codes, veelvoorkomende fouten, Microsoft 365 Defender, api-foutcodes
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -27,7 +27,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51932879"
 ---
-# <a name="common-microsoft-365-defender-rest-api-error-codes"></a>Veelgebruikte MICROSOFT 365 Defender REST API-foutcodes
+# <a name="common-microsoft-365-defender-rest-api-error-codes"></a>Veelgebruikte Microsoft 365 Defender REST API-foutcodes
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -97,9 +97,9 @@ Als er een fout is opgetreden bij *InvalidRequestBody* of *MissingRequiredParame
 
 Elke foutreactie bevat een unieke id-parameter voor het bijhouden. De eigenschapsnaam van deze parameter is *doel*. Wanneer u contact met ons op neemt over een fout, kunnen we met deze id de hoofdoorzaak van het probleem vinden.
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-articles"></a>Aanverwante artikelen
 
-- [Overzicht van Microsoft 365 Defender-API's](api-overview.md)
+- [Microsoft 365 Overzicht van DEFENDER-API's](api-overview.md)
 - [Ondersteunde Microsoft 365 Defender-API's](api-supported.md)
-- [De Microsoft 365 Defender-API's openen](api-access.md)
+- [Toegang tot Microsoft 365 Defender-API's](api-access.md)
 - [Meer informatie over API-limieten en -licenties](api-terms.md)

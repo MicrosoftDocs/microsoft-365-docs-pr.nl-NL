@@ -21,13 +21,13 @@ ms.locfileid: "50913764"
 Boekingen kunnen worden in- of uitgeschakeld voor uw hele organisatie of voor specifieke gebruikers. Wanneer u Bookings voor gebruikers int, kunnen ze een bookings-pagina maken, een agenda maken en andere personen toestaan om tijd met hen te boeken.
 
 > [!NOTE]
-> De beheerbesturingselementen die in deze secties worden beschreven, zijn niet beschikbaar voor Office 365 Beheerd door klanten van 21Vianet (China).
+> De beheerbesturingselementen die in deze secties worden beschreven, zijn niet beschikbaar voor Office 365 beheerd door klanten van 21Vianet (China).
 
-## <a name="turn-bookings-on-or-off-for-your-organization-using-the-microsoft-365-admin-center"></a>Bookings in- of uitschakelen voor uw organisatie met behulp van het Microsoft 365-beheercentrum
+## <a name="turn-bookings-on-or-off-for-your-organization-using-the-microsoft-365-admin-center"></a>Bookings in- of uitschakelen voor uw organisatie met het Microsoft 365 beheercentrum
 
-1. Meld u als globale beheerder aan bij het Microsoft 365-beheercentrum.
+1. Meld u aan bij Microsoft 365 beheercentrum als globale beheerder.
 
-2. Ga in het beheercentrum naar  **Instellingen**   \> **Organisatie-instellingen** en selecteer **Bookings**.
+2. Ga in het beheercentrum naar  **Instellingen**   \> **Organisatie Instellingen** en selecteer **Bookings.**
 
 3. Schakel het selectievakje in voor **Toestaan dat uw organisatie Bookings** gebruikt om Bookings voor uw organisatie in of uit te schakelen.
 
@@ -38,7 +38,7 @@ Boekingen kunnen worden in- of uitgeschakeld voor uw hele organisatie of voor sp
 
 ## <a name="turn-bookings-on-or-off-for-your-organization-using-powershell"></a>Bookings in- of uitschakelen voor uw organisatie met PowerShell
 
-Als u Bookings voor uw organisatie wilt in- of uitschakelen met behulp van de PowerShell-cmdlet [Set-OrganizationConfig,](/powershell/module/exchange/set-organizationconfig)Verbinding maken met [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) en de volgende opdracht uitvoeren:
+Als u Bookings voor uw organisatie wilt in- of uitschakelen met behulp van de PowerShell-cmdlet [Set-OrganizationConfig,](/powershell/module/exchange/set-organizationconfig)Verbinding maken naar [Exchange Online PowerShell en](/powershell/exchange/connect-to-exchange-online-powershell) voer de volgende opdracht uit:
 
 ```PowerShell
    Set-OrganizationConfig -BookingsEnabled $false
@@ -48,7 +48,7 @@ Als u Bookings voor uw organisatie wilt in- of uitschakelen met behulp van de Po
 
 U kunt Bookings uitschakelen voor afzonderlijke gebruikers.
 
-1. Ga naar het Microsoft 365-beheercentrum en selecteer **gebruikers** \> **actieve gebruikers.**
+1. Ga naar het Microsoft 365 beheercentrum en selecteer **gebruikers** \> **actieve gebruikers.**
 
 1. Selecteer de gewenste gebruiker en selecteer **vervolgens Licenties en apps.**
 
@@ -56,17 +56,17 @@ U kunt Bookings uitschakelen voor afzonderlijke gebruikers.
 
 ## <a name="require-staff-approvals-before-sharing-freebusy-information"></a>Goedkeuring van personeel vereisen voordat u gratis/drukke informatie deelt
 
-Beheerders kunnen werknemers in hun organisatie verplichten zich aan te geven voordat hun beschikbaarheidsgegevens worden gedeeld via Bookings en voordat ze kunnen worden geboekt via een boekingspagina. Deze instelling is beschikbaar in het Microsoft 365-beheercentrum onder **Instellingen** \> **Instellingen** \> **Bookings**.
+Beheerders kunnen werknemers in hun organisatie verplichten zich aan te geven voordat hun beschikbaarheidsgegevens worden gedeeld via Bookings en voordat ze kunnen worden geboekt via een boekingspagina. Deze instelling is beschikbaar in het Microsoft 365 beheercentrum **onder Instellingen** \> **Instellingen** \> **Bookings.**
 
 Wanneer deze instelling is ingeschakeld, vinden werknemers die zijn toegevoegd als personeel in boekingsagenda's een koppeling Goedkeuren/weigeren in de e-mailmelding die ze ontvangen.
 
-Deze functie wordt geleidelijk wereldwijd uitgerold voor Klanten van Microsoft 365. Als u deze optie niet ziet in het Microsoft 365-beheercentrum, gaat u snel terug.
+Deze functie wordt geleidelijk wereldwijd uitgerold voor Microsoft 365 klanten. Als u deze optie niet ziet in het Microsoft 365 beheercentrum, gaat u snel terug.
 
 ## <a name="block-social-sharing-options"></a>Opties voor sociaal delen blokkeren
 
-Beheerders kunnen bepalen hoe boekingspagina's worden gedeeld op sociale netwerken. Deze instelling is beschikbaar in het Microsoft 365-beheercentrum onder **Instellingen** \> **Instellingen** \> **Bookings**.
+Beheerders kunnen bepalen hoe boekingspagina's worden gedeeld op sociale netwerken. Deze instelling is beschikbaar in het Microsoft 365 beheercentrum **onder Instellingen** \> **Instellingen** \> **Bookings.**
 
-Deze functie wordt geleidelijk wereldwijd uitgerold voor Klanten van Microsoft 365. Als u deze optie niet ziet in het Microsoft 365-beheercentrum, gaat u snel terug.
+Deze functie wordt geleidelijk wereldwijd uitgerold voor Microsoft 365 klanten. Als u deze optie niet ziet in het Microsoft 365 beheercentrum, gaat u snel terug.
 
 ## <a name="allow-only-selected-users-to-create-bookings-calendars"></a>Alleen geselecteerde gebruikers toestaan Bookings-agenda's te maken
 
@@ -74,10 +74,10 @@ Met beleidsbeperkingen kunt u voorkomen dat gebruikers met een licentie Bookings
 
 Gebruikers die in dit beleid zijn opgenomen, kunnen nieuwe Bookings-agenda's maken en kunnen als personeel in elke capaciteit (inclusief de beheerdersrol) worden toegevoegd aan bestaande Bookings-agenda's. Gebruikers die niet in dit beleid zijn opgenomen, kunnen geen nieuwe Bookings-agenda's maken en ontvangen een foutbericht als ze dit proberen.
 
-U moet de volgende opdrachten uitvoeren met Exchange Online PowerShell. Zie Verbinding maken met Exchange Online [PowerShell](/powershell/exchange/connect-to-exchange-online-powershell)voor meer informatie over het uitvoeren van Exchange Online-cmdlets.
+U moet de volgende opdrachten uitvoeren met Exchange Online PowerShell. Zie voor meer informatie over het Exchange Online cmdlets [Verbinding maken powershell Exchange Online gebruiken.](/powershell/exchange/connect-to-exchange-online-powershell)
 
 > [!IMPORTANT]
-> In de onderstaande stappen wordt ervan uitgenomen dat er geen ander OWA-postvakbeleid (Outlook Web App) is gemaakt in uw organisatie.
+> In de onderstaande stappen wordt ervan uit Outlook Web App beleidsregels voor OWA-postvakken zijn gemaakt in uw organisatie.
 
 1. Maak een nieuw postvakbeleid voor gebruikers die Bookings-agenda's mogen maken. (Het maken van een Boekingskalender is standaard toegestaan door nieuw postvakbeleid.)
 
@@ -105,6 +105,6 @@ U moet de volgende opdrachten uitvoeren met Exchange Online PowerShell. Zie Verb
 
 Zie de volgende onderwerpen voor meer informatie over OWA-postvakbeleid:
 
-- [Een beleid voor postvak in Outlook op het web maken in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/create-outlook-web-app-mailbox-policy)
+- [Een Outlook maken op het webpostvakbeleid in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/create-outlook-web-app-mailbox-policy)
 
-- [Een beleid voor outlook op het webpostvak toepassen of verwijderen op een postvak in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/create-outlook-web-app-mailbox-policy)
+- [Een webpostvakbeleid toepassen Outlook verwijderen op een postvak in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/create-outlook-web-app-mailbox-policy)

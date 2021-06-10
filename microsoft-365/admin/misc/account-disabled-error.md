@@ -1,5 +1,5 @@
 ---
-title: Krijgt u een foutmelding voor een account uitgeschakeld in de webversie van Outlook?
+title: Krijgt u een foutmelding met een account Outlook op internet?
 f1.keywords:
 - CSH
 ms.author: pebaum
@@ -24,8 +24,8 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50914940"
 ---
-# <a name="getting-an-account-disabled-error-in-outlook-on-the-web"></a>Fout bij het verwijderen van een account uitgeschakeld in de webversie van Outlook
+# <a name="getting-an-account-disabled-error-in-outlook-on-the-web"></a>Een account met een uitgeschakelde fout in Outlook op internet
 
-Als u de foutmelding krijgt Waarmee uw **account** is uitgeschakeld wanneer u de webversie van Outlook probeert te openen (voorheen Bekend als Outlook Web App), heeft uw beheerder mogelijk uw toegang tot de webversie van `X-OWA-Error: Microsoft.Exchange.Data.Storage.AccountDisabledException` Outlook uitgeschakeld.
+Als u de foutmelding krijgt Met uw **account** is uitgeschakeld wanneer u Outlook op internet probeert te openen (voorheen bekend als Outlook Web App), heeft uw beheerder mogelijk uw toegang tot Outlook op het `X-OWA-Error: Microsoft.Exchange.Data.Storage.AccountDisabledException` web uitgeschakeld.
 
-Uw beheerder kan deze fout oplossen door de stappen in het onderwerp Outlook Web App voor een postvak in- of uit [te schakelen.](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app)
+Uw beheerder kan deze fout oplossen door de stappen in het onderwerp In- of uitschakelen [Outlook Web App voor een postvak.](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app)

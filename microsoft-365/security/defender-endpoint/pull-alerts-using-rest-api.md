@@ -112,7 +112,7 @@ Methode | URI aanvragen
 Toevoegen| Gebruik de URI die van toepassing is op uw regio. <br><br> **Voor de EU**: `https://wdatp-alertexporter-eu.windows.com/api/alerts` </br> **Voor ons:**`https://wdatp-alertexporter-us.windows.com/api/alerts` <br> **Voor Groot-Brittannië:**`https://wdatp-alertexporter-uk.windows.com/api/alerts` 
 
 ### <a name="request-header"></a>Koptekst aanvragen
-Koptekst | Type | Omschrijving|
+Koptekst | Type | Beschrijving|
 :--|:--|:--
 Autorisatie | tekenreeks | Vereist. Het Azure AD access-token in het formulier  &lt; *Bearer-token* &gt; . |
 
@@ -120,7 +120,7 @@ Autorisatie | tekenreeks | Vereist. Het Azure AD access-token in het formulier  
 
 Gebruik optionele queryparameters om de hoeveelheid gegevens op te geven en te bepalen die in een antwoord worden geretourneerd. Als u deze methode zonder parameters noemt, bevat het antwoord alle waarschuwingen in uw organisatie in de afgelopen 2 uur.
 
-Name | Value| Omschrijving
+Name | Value| Beschrijving
 :---|:---|:---
 sinceTimeUtc | DateTime | Hiermee definieert u de waarschuwingen met een lagere tijd die worden opgehaald op basis van het veld: <br> `LastProcessedTimeUtc` <br> Het tijdbereik is: van sinceTimeUtc-tijd tot huidige tijd. <br><br> **OPMERKING:** Als dit niet is opgegeven, worden alle waarschuwingen die in de afgelopen twee uur zijn gegenereerd, opgehaald.
 untilTimeUtc | DateTime | Hiermee definieert u de waarschuwingen voor de hoogste tijdsgebonden waarschuwingen die worden opgehaald. <br> Het tijdbereik is: van `sinceTimeUtc` tijd tot `untilTimeUtc` tijd. <br><br> **OPMERKING:** Wanneer dit niet is opgegeven, is de standaardwaarde de huidige tijd.
@@ -329,7 +329,7 @@ echo $apiResponse
 ## <a name="error-codes"></a>Foutcodes
 De REST-API van Microsoft Defender voor eindpunt retourneert de volgende foutcodes die zijn veroorzaakt door een ongeldige aanvraag.
 
-HTTP-foutcode | Omschrijving
+HTTP-foutcode | Beschrijving
 :---|:---
 401 | Ongeldige aanvraag of ongeldig token.
 403 | Niet-geautoriseerde uitzondering: een van de domeinen wordt niet beheerd door de tenantbeheerder of tenantstaat wordt verwijderd.

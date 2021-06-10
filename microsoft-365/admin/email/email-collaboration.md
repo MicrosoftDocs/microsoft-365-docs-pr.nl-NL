@@ -35,7 +35,7 @@ ms.locfileid: "50915732"
 ---
 # <a name="email-collaboration"></a>Samenwerking via e-mail
 
-Microsoft 365 stimuleert samenwerking via Groepen in Outlook, distributielijsten (ook wel distributiegroepen genoemd), gedeelde postvakken en openbare mappen. Het doel, de gebruikerservaring en de functieset verschillen voor elk van deze opties. De te gebruiken optie is afhankelijk van de taken van de gebruiker en de beschikbare hulpmiddelen in uw organisatie.
+Microsoft 365 samenwerking via Groepen in Outlook, distributielijsten (ook wel distributiegroepen genoemd), gedeelde postvakken en openbare mappen. Het doel, de gebruikerservaring en de functieset verschillen voor elk van deze opties. De te gebruiken optie is afhankelijk van de taken van de gebruiker en de beschikbare hulpmiddelen in uw organisatie.
   
 ## <a name="summary-of-collaboration-options"></a>Overzicht van samenwerkingsopties
 <a name="BKMK_SUMMARYOFCOLLABORATIONOPTIONS"> </a>
@@ -46,10 +46,10 @@ In deze tabel worden de verschillende samenwerkingsopties voor u uitgelegd.
 
 |**Samenwerkingsprogramma**|**Beschrijving**|
 |:-----|:-----|
-|Groepen in Outlook  <br/> |Een gedeelde werkruimte die werkt voor alle toepassingen in Microsoft 365. De werkruimte bevat een gedeeld Postvak IN, een agenda en een OneDrive voor Bedrijven-site voor het opslaan van bestanden. Gebruikers kunnen groepen in Outlook maken, zoeken en deelnemen vanuit hun e-mail of agenda. Nieuwe en bestaande gebruikers met een Exchange Online- of Microsoft 365-abonnement kunnen Groepen gebruiken in Outlook.  <br/> |
+|Groepen in Outlook  <br/> |Een gedeelde werkruimte die werkt voor alle toepassingen in Microsoft 365. De werkruimte bevat een gedeeld Postvak IN, een agenda en een OneDrive voor Bedrijven-site voor het opslaan van bestanden. Gebruikers kunnen groepen maken, zoeken en deelnemen aan groepen in Outlook vanuit hun e-mail of agenda. Nieuwe en bestaande gebruikers met een Exchange Online of een Microsoft 365 kunnen Groepen in Outlook.  <br/> |
 |Gedeeld postvak  <br/> |Een postvak voor bepaalde gebruikers voor het lezen en verzenden van e-mailberichten en het delen van een gemeenschappelijke agenda. Gedeelde postvakken kunnen ook fungeren als een algemeen e-mailadres (zoals info@contoso.com of sales@contoso.com) waarmee klanten informatie over uw bedrijf kunnen opvragen. Wanneer de machtiging Verzenden als is ingeschakeld voor het gedeelde postvak, wordt het algemene adres (bijvoorbeeld sales@contoso.com) gebruikt voor e-mail die is verzonden vanuit het postvak.  <br/> |
-|Distributielijst (ook wel distributiegroep genoemd)  <br/> |Hiermee kunt u e-mailberichten verzenden naar twee of meer personen tegelijk. Distributiegroepen worden ook wel distributiegroepen met e-mail genoemd. Een variant van de distributiegroep, de dynamische distributiegroep, is een Active Directory-groepsobject met e-mail waarmee e-mail kan worden verzonden naar een grote groep geadresseerden. De exacte geadresseerden worden bepaald door de filters en voorwaarden die u opgeeft, zoals alle leden van een bepaalde landinstelling of alle fulltimewerknemers.<br/><br/> Microsoft 365 Groepen in Outlook bieden een krachtigere oplossing voor samenwerking dan distributiegroepen. Zie Waarom u distributielijsten moet [upgraden](https://support.microsoft.com/office/7fb3d880-593b-4909-aafa-950dd50ce188) naar groepen in Outlook en Distributielijsten migreren naar [Microsoft 365 Groepen](../manage/upgrade-distribution-lists.md)voor meer informatie.  <br/> |
-|Openbare map  <br/> |Openbare mappen zijn ontworpen voor gedeelde toegang en bieden een eenvoudige en effectieve manier om gegevens te verzamelen, te ordenen en te delen met andere personen in uw organisatie. Openbare mappen organiseren inhoud in een diepe hiërarchie die gemakkelijk te bladeren is en altijd zichtbaar is in de outlook-mapweergave. Een openbare map kan worden ingeschakeld voor e-mail en worden toegevoegd als lid van de distributiegroep. E-mail die naar de distributiegroep wordt verzonden, wordt automatisch toegevoegd aan de openbare map voor archivering of latere verwijzing. Openbare mappen bieden ook eenvoudige documenten delen als u geen SharePoint Online-abonnement hebt.  <br/> |
+|Distributielijst (ook wel distributiegroep genoemd)  <br/> |Hiermee kunt u e-mailberichten verzenden naar twee of meer personen tegelijk. Distributiegroepen worden ook wel distributiegroepen met e-mail genoemd. Een variant van de distributiegroep, de dynamische distributiegroep, is een Active Directory-groepsobject met e-mail waarmee e-mail kan worden verzonden naar een grote groep geadresseerden. De exacte geadresseerden worden bepaald door de filters en voorwaarden die u opgeeft, zoals alle leden van een bepaalde landinstelling of alle fulltimewerknemers.<br/><br/> Microsoft 365 Groepen in Outlook bieden een krachtigere oplossing voor samenwerking dan distributiegroepen. Zie Waarom u uw distributielijsten moet [upgraden](https://support.microsoft.com/office/7fb3d880-593b-4909-aafa-950dd50ce188) naar groepen in Outlook en Distributielijsten migreren naar [Microsoft 365 groepen voor meer informatie.](../manage/upgrade-distribution-lists.md)  <br/> |
+|Openbare map  <br/> |Openbare mappen zijn ontworpen voor gedeelde toegang en bieden een eenvoudige en effectieve manier om gegevens te verzamelen, te ordenen en te delen met andere personen in uw organisatie. Openbare mappen organiseren inhoud in een diepe hiërarchie die gemakkelijk te bladeren is en altijd zichtbaar is in de Outlook mapweergave. Een openbare map kan worden ingeschakeld voor e-mail en worden toegevoegd als lid van de distributiegroep. E-mail die naar de distributiegroep wordt verzonden, wordt automatisch toegevoegd aan de openbare map voor archivering of latere verwijzing. Openbare mappen bieden ook eenvoudig document delen als u geen abonnement SharePoint Online.  <br/> |
    
 ## <a name="which-collaboration-tool-to-use"></a>Welk samenwerkingsprogramma moet ik gebruiken?
 <a name="BKMK_SUMMARYOFCOLLABORATIONOPTIONS"> </a>
@@ -67,11 +67,11 @@ In de volgende tabel ziet u snel de verschillende typen groepen en wordt uitgele
 |**Ondersteunde clients** <br/> | Outlook 2016  <br/>  Outlook 2013 (doorsturen nadat u een abonnement hebt)  <br/>  Outlook Web App  <br/>  Outlook 2010 (doorsturen nadat u een abonnement hebt)  <br/>  Outlook 2007 (doorsturen nadat u een abonnement hebt)  <br/> | Outlook 2016  <br/>  Outlook 2013  <br/>  Outlook Web App  <br/>  Outlook 2010  <br/>  Outlook 2007  <br/> | Outlook 2016  <br/>  Outlook 2013  <br/>  Outlook Web App  <br/>  Outlook 2010  <br/>  Outlook 2007  <br/> | Outlook 2016  <br/>  Outlook 2013  <br/>  Outlook Web App  <br/>  Outlook 2010  <br/>  Outlook 2007  <br/> |
 
   
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-articles"></a>Aanverwante artikelen
 
 [Distributiegroepen beheren](/exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups)
     
-[Microsoft 365 Groepen gebruiken in plaats van Teampostvakken](https://support.microsoft.com/office/737d6b1f-67cc-41fe-8db8-f2d09dd1673b)
+[Groepen Microsoft 365 in plaats van teampostvakken gebruiken](https://support.microsoft.com/office/737d6b1f-67cc-41fe-8db8-f2d09dd1673b)
     
 [Gedeelde postvakken maken in Microsoft 365](create-a-shared-mailbox.md)
     

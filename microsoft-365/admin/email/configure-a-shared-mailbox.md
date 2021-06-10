@@ -40,7 +40,7 @@ Nadat u een [gedeeld postvak hebt](create-a-shared-mailbox.md)gemaakt, wilt u en
 
 3. Voer een nieuwe naam in of voeg een andere alias toe. Als u het primaire e-mailadres wilt wijzigen, moet uw postvak meerdere e-mailalias hebben.
 
-4. Selecteer **Opslaan**.
+4. Klik op **Opslaan**.
 
 ## <a name="forward-emails-that-are-sent-to-a-shared-mailbox"></a>E-mailberichten doorsturen die zijn verzonden naar een gedeeld postvak
 
@@ -52,7 +52,7 @@ U hoeft geen licentie toe te wijzen aan het gedeelde postvak om e-mail door te s
     
 3. Stel de schakelknop in **op Aan** en voer één e-mailadres in om de berichten door te sturen naar. Het kan elk geldig e-mailadres zijn. Als u naar meerdere adressen [](/office365/admin/setup/create-distribution-lists) wilt doorsturen, moet u een distributiegroep voor de adressen maken en vervolgens de naam van de groep invoeren in dit vak.
     
-4. Selecteer **Opslaan**.
+4. Klik op **Opslaan**.
 
 ## <a name="send-automatic-replies-from-a-shared-mailbox"></a>Automatische antwoorden verzenden vanuit een gedeeld postvak
 
@@ -66,7 +66,7 @@ U hoeft geen licentie toe te wijzen aan het gedeelde postvak om e-mail door te s
 
 5. Als u ook een *antwoord wilt* verzenden naar personen buiten uw organisatie, selecteert u het selectievakje, wie u het antwoord wilt ontvangen en typt u de tekst. Het is niet mogelijk om een bericht alleen naar personen buiten uw organisatie te verzenden, zonder datzelfde bericht ook naar personen binnen uw organisatie te verzenden.
 
-6. Selecteer **Opslaan**.
+6. Klik op **Opslaan**.
 
 ## <a name="allow-everyone-to-see-the-sent-email-the-replies"></a>Iedereen toestaan Verzonden items (de antwoorden) te zien
 
@@ -83,7 +83,7 @@ Als u wilt dat iedereen het verzonden e-mailbericht kan zien, bewerkt u in het b
 
 3. Stel de schakelknop in **op Aan** voor alle apps die leden moeten kunnen gebruiken om toegang te krijgen tot het gedeelde postvak. Stel de schakelknop in **op Uit** voor apps die u niet wilt gebruiken. 
 
-4. Selecteer **Opslaan**.
+4. Klik op **Opslaan**.
 
 
 ## <a name="put-a-shared-mailbox-on-litigation-hold"></a>Een gedeeld postvak in de wacht zetten
@@ -98,7 +98,7 @@ Zie Een proces in de wacht houden voor meer informatie over het in de wacht [hou
 
 4. U kunt desgewenst een duur invoeren, een notitie over de wacht houden en een URL met meer informatie.  
 
-5. Selecteer **Opslaan**.
+5. Klik op **Opslaan**.
 
 
 ## <a name="add-or-remove-members"></a>Leden toevoegen of verwijderen
@@ -137,15 +137,15 @@ Als u ervoor kiest het gedeelde postvak niet weer te geven in de algemene adresl
 
 3. Stel de schakelknop in **op Aan** of **Uit.** 
 
-4. Selecteer **Opslaan**.
+4. Klik op **Opslaan**.
 
 > [!NOTE]
 > Als u een gedeeld postvak verbergt in de adreslijst, kunnen nieuwe leden van het gedeelde postvak het verborgen postvak niet toevoegen aan hun Outlook-profiel totdat het gedeelde postvak opnieuw wordt weergegeven in de adreslijst. 
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
-[Over gedeelde postvakken](about-shared-mailboxes.md) (artikel)\
+[Info over gedeelde postvakken](about-shared-mailboxes.md) (artikel)\
 [Een gedeeld postvak](create-a-shared-mailbox.md) maken (artikel)\
-[Een gebruikerspostvak converteren naar een gedeeld postvak](convert-user-mailbox-to-shared-mailbox.md) (artikel)\
-[Een licentie verwijderen uit een gedeeld postvak](remove-license-from-shared-mailbox.md) (artikel)\
+[Het postvak van een gebruiker converteren naar een gedeeld postvak](convert-user-mailbox-to-shared-mailbox.md) (artikel)\
+[Een licentie uit een gedeeld postvak verwijderen](remove-license-from-shared-mailbox.md) (artikel)\
 [Problemen oplossen met gedeelde postvakken](resolve-issues-with-shared-mailboxes.md) (artikel)

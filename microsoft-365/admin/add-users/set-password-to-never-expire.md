@@ -128,6 +128,6 @@ Voer een van de volgende opdrachten uit:
 
 ## <a name="related-content"></a>Verwante onderwerpen
 
-[Gebruikers hun eigen wachtwoorden opnieuw laten instellen](../add-users/let-users-reset-passwords.md) (artikel)\
+[Gebruikers toestaan hun eigen wachtwoord opnieuw in te stellen](../add-users/let-users-reset-passwords.md) (artikel)\
 [Wachtwoorden opnieuw instellen](../add-users/reset-passwords.md) (artikel)\
 [Het wachtwoordverloopbeleid voor uw organisatie instellen](../manage/set-password-expiration-policy.md) (artikel)

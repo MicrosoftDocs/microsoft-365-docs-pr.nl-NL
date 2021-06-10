@@ -69,6 +69,6 @@ Voordat u [een gedeeld postvak maakt,](create-a-shared-mailbox.md)zijn hier enke
 
 [Een gedeeld postvak](create-a-shared-mailbox.md) maken (artikel)\
 [Een gedeeld postvak configureren](configure-a-shared-mailbox.md) (artikel)\
-[Een gebruikerspostvak converteren naar een gedeeld postvak](convert-user-mailbox-to-shared-mailbox.md) (artikel)\
-[Een licentie verwijderen uit een gedeeld postvak](remove-license-from-shared-mailbox.md) (artikel)\
+[Het postvak van een gebruiker converteren naar een gedeeld postvak](convert-user-mailbox-to-shared-mailbox.md) (artikel)\
+[Een licentie uit een gedeeld postvak verwijderen](remove-license-from-shared-mailbox.md) (artikel)\
 [Problemen oplossen met gedeelde postvakken](resolve-issues-with-shared-mailboxes.md) (artikel)

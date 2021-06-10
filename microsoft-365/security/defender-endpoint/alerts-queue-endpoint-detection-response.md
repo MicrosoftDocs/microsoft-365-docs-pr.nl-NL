@@ -1,7 +1,7 @@
 ---
 title: Waarschuwingenwachtrij in Microsoft Defender-beveiligingscentrum
 ms.reviewer: ''
-description: De waarschuwingen weergeven en beheren die zijn opgedoken in het Microsoft Defender-beveiligingscentrum
+description: De waarschuwingen weergeven en beheren die zijn opgedoken in Microsoft Defender-beveiligingscentrum
 keywords: ''
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -30,7 +30,7 @@ ms.locfileid: "51059962"
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
@@ -39,7 +39,7 @@ Lees hoe u de wachtrij kunt bekijken en beheren, zodat u bedreigingen die worden
 ## <a name="in-this-section"></a>In deze sectie
 Onderwerp | Beschrijving 
 :---|:---
-[De wachtrij Waarschuwingen weergeven en ordenen](alerts-queue.md) | Toont een lijst met waarschuwingen die zijn gemarkeerd in uw netwerk.
+[De waarschuwingenwachtrij weergeven en organiseren](alerts-queue.md) | Toont een lijst met waarschuwingen die zijn gemarkeerd in uw netwerk.
 [Waarschuwingen beheren](manage-alerts.md) | Meer informatie over hoe u waarschuwingen kunt beheren, zoals de status wijzigen, deze toewijzen aan een lid van beveiligingsbewerkingen en de geschiedenis van een waarschuwing bekijken.
 [Waarschuwingen onderzoeken](investigate-alerts.md)| Onderzoek waarschuwingen die van invloed zijn op uw netwerk, begrijpen wat ze betekenen en hoe u deze kunt oplossen.
 [Bestanden onderzoeken](investigate-files.md)| Onderzoek de details van een bestand dat is gekoppeld aan een specifieke waarschuwing, gedrag of gebeurtenis. 

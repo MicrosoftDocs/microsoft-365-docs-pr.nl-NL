@@ -64,7 +64,7 @@ POST https://api.securitycenter.microsoft.com/api/indicators
 
 ## <a name="request-headers"></a>Kopteksten aanvragen
 
-Naam | Type | Omschrijving
+Naam | Type | Beschrijving
 :---|:---|:---
 Autorisatie | Tekenreeks | Bearer {token}. **Vereist**.
 Inhoudstype | tekenreeks | toepassing/json. **Vereist**.
@@ -72,7 +72,7 @@ Inhoudstype | tekenreeks | toepassing/json. **Vereist**.
 ## <a name="request-body"></a>Body aanvragen
 In de objectaanvraag moet u een JSON-object de volgende parameters geven:
 
-Parameter | Type    | Omschrijving
+Parameter | Type    | Beschrijving
 :---|:---|:---
 indicatorValue | Tekenreeks | Identiteit van de [entiteit Indicator.](ti-indicator.md) **Vereist**
 indicatorType | Enum | Type indicator. Mogelijke waarden zijn: "FileSha1", "FileSha256", "IpAddress", "DomainName" en "Url". **Vereist**

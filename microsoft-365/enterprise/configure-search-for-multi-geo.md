@@ -1,5 +1,5 @@
 ---
-title: Zoeken naar Microsoft 365 Multi-Geo configureren
+title: Zoeken naar Microsoft 365 multi-geo configureren
 ms.reviewer: adwood
 ms.author: tlarsen
 author: tklarsen
@@ -20,7 +20,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50911160"
 ---
-# <a name="configure-search-for-microsoft-365-multi-geo"></a>Zoeken naar Microsoft 365 Multi-Geo configureren
+# <a name="configure-search-for-microsoft-365-multi-geo"></a>Zoeken naar Microsoft 365 multi-geo configureren
 
 In een multi-geoomgeving heeft elke geografische locatie een eigen zoekindex en zoekcentrum. Wanneer een gebruiker zoekt, wordt de query uitgewaakt naar alle indexen en worden de geretourneerde resultaten samengevoegd.
 
@@ -32,7 +32,7 @@ Deze clients kunnen resultaten van alle geografische locaties retourneren:
 
 - OneDrive voor Bedrijven
 - Delve
-- De startpagina van SharePoint
+- De SharePoint startpagina
 - Het zoekcentrum
 - Aangepaste zoektoepassingen die gebruikmaken van de SharePoint Search API
 
@@ -44,11 +44,11 @@ Zodra de multi-geo-omgeving is ingesteld, krijgen gebruikers die zoeken in OneDr
 
 Zodra de multi-geo-omgeving is ingesteld, krijgen gebruikers die zoeken in Delve resultaten van alle geografische locaties.
 
-In de Delve-feed en de profielkaart worden alleen voorbeelden weergegeven van bestanden die zijn opgeslagen op de centrale locatie. Voor bestanden die zijn opgeslagen op satellietlocaties, wordt in plaats daarvan het pictogram voor het bestandstype weergegeven.
+De Delve en de profielkaart geven alleen voorbeelden weer van bestanden die zijn opgeslagen op de centrale locatie. Voor bestanden die zijn opgeslagen op satellietlocaties, wordt in plaats daarvan het pictogram voor het bestandstype weergegeven.
 
-### <a name="the-sharepoint-home-page"></a>De startpagina van SharePoint
+### <a name="the-sharepoint-home-page"></a>De SharePoint startpagina
 
-Zodra de multi-geo-omgeving is ingesteld, zien gebruikers nieuws, recente en gevolgde sites van meerdere geografische locaties op hun SharePoint-startpagina. Als ze het zoekvak op de Startpagina van SharePoint gebruiken, krijgen ze samengevoegde resultaten van meerdere geografische locaties.
+Zodra de multi-geo-omgeving is ingesteld, zien gebruikers nieuws, recente en gevolgde sites van meerdere geografische locaties op hun SharePoint startpagina. Als ze het zoekvak op de SharePoint startpagina gebruiken, krijgen ze samengevoegde resultaten van meerdere geografische locaties.
 
 ### <a name="the-search-center"></a>Het zoekcentrum
 
@@ -56,7 +56,7 @@ Nadat de multi-geo-omgeving is ingesteld, worden in elk zoekcentrum alleen resul
 
 ### <a name="custom-search-applications"></a>Aangepaste zoektoepassingen
 
-Zoals gebruikelijk werken aangepaste zoektoepassingen samen met de zoekindexen met behulp van de bestaande SHAREPoint Search REST-API's. Als u resultaten wilt krijgen van alle of bepaalde geografische locaties, moet de toepassing de API bellen en de nieuwe [multi-geoqueryparameters](#_Get_custom_search) in de aanvraag opnemen. Hiermee wordt een ventilator uit de query naar alle geografische locaties triggers.
+Zoals gewoonlijk werken aangepaste zoektoepassingen samen met de zoekindexen met behulp van de bestaande SharePoint SEARCH REST-API's. Als u resultaten wilt krijgen van alle of bepaalde geografische locaties, moet de toepassing de API bellen en de nieuwe [multi-geoqueryparameters](#_Get_custom_search) in de aanvraag opnemen. Hiermee wordt een ventilator uit de query naar alle geografische locaties triggers.
 
 ## <a name="whats-different-about-search-in-a-multi-geo-environment"></a>Wat is er anders aan zoeken in een multi-geo-omgeving?
 
@@ -99,7 +99,7 @@ Sommige zoekfuncties die u mogelijk kent, werken anders in een multi-geoomgeving
 </tr>
 <tr class="even">
 <td align="left">Hybride zoekopdracht</td>
-<td align="left">In een hybride SharePoint-omgeving met <a href="/sharepoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint">hybride zoeken in</a>de cloud wordt on-premises inhoud toegevoegd aan de Microsoft 365-index van de centrale locatie.</td>
+<td align="left">In een hybride SharePoint omgeving met hybride zoeken in de <a href="/sharepoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint">cloud,</a>wordt on-premises inhoud toegevoegd aan de Microsoft 365 index van de centrale locatie.</td>
 <td align="left"></td>
 </tr>
 </tbody>
@@ -119,7 +119,7 @@ Sommige zoekfuncties die u mogelijk kent, worden niet ondersteund in een multi-g
 <tbody>
 <tr class="odd">
 <td align="left">Alleen-app-verificatie</td>
-<td align="left">App-only verificatie (privileged access from services) wordt niet ondersteund in multi-geo search.</td>
+<td align="left">App-only verificatie (privileged access from services) wordt niet ondersteund in multi-geo-zoekopdracht.</td>
 </tr>
 <tr class="even">
 <td align="left">Gastgebruikers</td>
@@ -130,9 +130,9 @@ Sommige zoekfuncties die u mogelijk kent, worden niet ondersteund in een multi-g
 
 ## <a name="how-does-search-work-in-a-multi-geo-environment"></a>Hoe werkt zoeken in een multi-geo-omgeving?
 
-Alle zoek clients gebruiken de bestaande SharePoint Search REST API's om te werken met de zoekindexen.
+Alle zoek clients gebruiken de bestaande SharePoint SEARCH REST API's om te werken met de zoekindexen.
 
-![Diagram met de interactie tussen SharePoint Search REST-API's en de zoekindexen](../media/configure-search-for-multi-geo-image1-1.png)
+![Diagram waarin wordt SharePoint de interactie tussen zoek-REST-API's en de zoekindexen](../media/configure-search-for-multi-geo-image1-1.png)
 
 1. Een zoekclient noemt het eindpunt Rest zoeken met de query-eigenschap EnableMultiGeoSearch= waar.
 2. De query wordt verzonden naar alle geografische locaties in de tenant.
@@ -150,7 +150,7 @@ Elk zoekcentrum heeft verschillende verticaalen en u moet elke verticaal afzonde
 
 2. Ga naar de pagina met zoekresultaten (zie de [lijst](https://support.office.com/article/174d36e0-2f85-461a-ad9a-8b3f434a4213) met pagina's met zoekresultaten)
 
-3. Selecteer de verticaal die u wilt instellen, **klik** in de rechterbovenhoek op Tandwielpictogram Instellingen en klik vervolgens op **Pagina bewerken.** De pagina met zoekresultaten wordt geopend in de bewerkingsmodus.
+3. Selecteer de verticale positie die u wilt instellen, klik **Instellingen** tandwielpictogram in de rechterbovenhoek en klik vervolgens op **Pagina bewerken.** De pagina met zoekresultaten wordt geopend in de bewerkingsmodus.
 
    ![Paginaselectie bewerken in Instellingen](../media/configure-search-for-multi-geo-image2.png)
 
@@ -158,7 +158,7 @@ Elk zoekcentrum heeft verschillende verticaalen en u moet elke verticaal afzonde
 
    ![Selectie webonderdeel bewerken](../media/configure-search-for-multi-geo-image3.png)
 
-5. Selecteer in het taakvenster van het webonderdeel in  de sectie Instellingen onder Instellingen voor resultatenbesturingselementen de optie Resultaten met meerdere geografische velden weergeven om het webonderdeel Zoekresultaten weer te geven om resultaten van alle geografische locaties weer te geven. 
+5. Selecteer in het taakvenster van het **webonderdeel in** de sectie Instellingen onder Instellingen voor resultatenbesturingselement de optie  **Multi-Geo-resultaten** weergeven om het webonderdeel Zoekresultaten weer te geven om resultaten van alle geografische locaties weer te geven.
 
 6. Klik **op OK** om de wijziging op te slaan en het taakvenster van het webonderdeel te sluiten.
 
@@ -169,7 +169,7 @@ Elk zoekcentrum heeft verschillende verticaalen en u moet elke verticaal afzonde
 <span id="_Get_custom_search" class="anchor"><span id="_Ref501388387" class="anchor"></span></span>
 ## <a name="get-custom-search-applications-to-show-results-from-all-or-some-geo-locations"></a>Aangepaste zoektoepassingen gebruiken om resultaten van alle of sommige geografische locaties weer te geven
 
-Aangepaste zoektoepassingen krijgen resultaten van alle of sommige geografische locaties door queryparameters op te geven met de aanvraag voor de SharePoint Search REST API. Afhankelijk van de queryparameters wordt de query uitgewaakt naar alle geografische locaties of naar bepaalde geografische locaties. Als u bijvoorbeeld alleen een subset met geografische locaties hoeft te query's uitvoeren om relevante informatie te vinden, kunt u de ventilator alleen naar deze locaties uitbesturing geven. Als de aanvraag slaagt, retourneert de SHAREPoint Search REST API antwoordgegevens.
+Aangepaste zoektoepassingen krijgen resultaten van alle of sommige geografische locaties door queryparameters op te geven met de aanvraag voor de SharePoint SEARCH REST API. Afhankelijk van de queryparameters wordt de query uitgewaakt naar alle geografische locaties of naar bepaalde geografische locaties. Als u bijvoorbeeld alleen een subset met geografische locaties hoeft te query's uitvoeren om relevante informatie te vinden, kunt u de ventilator alleen naar deze locaties uitbesturing geven. Als de aanvraag slaagt, retourneert SharePoint SEARCH REST API antwoordgegevens.
 
 ### <a name="requirement"></a>Vereiste
 
@@ -210,12 +210,12 @@ Als u DataLocation of EndPoint weglaat of als een DataLocation wordt gedupliceer
 
 ### <a name="response-data"></a>Antwoordgegevens
 
-MultiGeoSearchStatus: dit is een eigenschap die de SharePoint Search API retourneert als antwoord op een aanvraag. De waarde van de eigenschap is een tekenreeks en geeft de volgende informatie over de resultaten die de SharePoint Search API retourneert:
+MultiGeoSearchStatus: dit is een eigenschap die SharePoint zoek-API retourneert als antwoord op een aanvraag. De waarde van de eigenschap is een tekenreeks en geeft de volgende informatie over de resultaten die SharePoint Zoek-API retourneert:
 
 <table>
 <thead>
 <tr class="header">
-<th align="left">Value</th>
+<th align="left">Waarde</th>
 <th align="left">Beschrijving</th>
 </tr>
 </thead>

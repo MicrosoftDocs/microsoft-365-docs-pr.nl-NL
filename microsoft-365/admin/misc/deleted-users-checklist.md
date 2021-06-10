@@ -20,7 +20,7 @@ search.appverid:
 - MOE150
 ms.assetid: 6016b50e-2b6e-4164-b565-2fde401fda3a
 ROBOTS: NOINDEX
-description: Volg deze controlelijst terwijl u het Microsoft 365-account van een gebruiker verwijderd.
+description: Volg deze controlelijst terwijl u het account van een gebruiker Microsoft 365 verwijderen.
 ms.openlocfilehash: de0c69c0a785787491d60f5fe6d17c0129b929db
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -32,7 +32,7 @@ ms.locfileid: "50914760"
 
 U hebt dus besloten een gebruiker uit uw organisatie te verwijderen. U kunt bijvoorbeeld een gebruiker verwijderen als deze persoon uw organisatie verlaat. Zowel voor- als nadat u de gebruiker gaat verwijderen, is er aan aantal dingen dat u moet doen. Deze snelle controlelijst helpt u bij deze stappen.
   
-## <a name="remove-the-microsoft-365-license-from-the-user"></a>De Microsoft 365-licentie van de gebruiker verwijderen
+## <a name="remove-the-microsoft-365-license-from-the-user"></a>De licentie Microsoft 365 de gebruiker verwijderen
 
 U kunt een licentie van een gebruiker verwijderen door te zoeken  naar de gebruiker op de startpagina of op de pagina Actieve gebruikers en deze vervolgens te selecteren. Op het **tabblad Licenties en apps** het selectievakje uit voor de licentie die u van de gebruiker wilt verwijderen. [Lees het hele artikel.](../manage/remove-licenses-from-users.md)
   
@@ -50,7 +50,7 @@ U kunt de gebruiker verwijderen door de gebruiker te zoeken op de startpagina of
   
 ## <a name="what-to-do-with-the-unassigned-license"></a>Wat doe ik met de niet-toegewezen licentie?
 
-Als u een nieuwe werknemer of persoon hebt die deel gaat nemen aan uw organisatie, kunt u deze licentie toewijzen, zodat deze microsoft 365 kan gebruiken. Zoek de gebruiker op de startpagina of ga naar de pagina **Actieve gebruikers** en selecteer de persoon. Schakel op **het tabblad Licenties en apps** het selectievakje in voor de licentie die u wilt toevoegen aan de nieuwe gebruiker. [Lees het hele artikel.](../manage/assign-licenses-to-users.md)
+Als u een nieuwe werknemer of persoon hebt die deel gaat nemen aan uw organisatie, kunt u deze licentie toewijzen, zodat hij of zij deze licentie Microsoft 365. Zoek de gebruiker op de startpagina of ga naar de pagina **Actieve gebruikers** en selecteer de persoon. Schakel op **het tabblad Licenties en apps** het selectievakje in voor de licentie die u wilt toevoegen aan de nieuwe gebruiker. [Lees het hele artikel.](../manage/assign-licenses-to-users.md)
   
 ## <a name="remove-license-so-you-dont-have-to-pay-for-it"></a>De licentie verwijderen, zodat u hiervoor niet hoeft te betalen
 

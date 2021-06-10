@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender Security Center Security Operations Dashboard
+title: Microsoft Defender-beveiligingscentrum Dashboard Beveiligingsbewerkingen
 description: Gebruik het dashboard om risicovolle apparaten te identificeren, de status van de service bij te houden en statistieken en informatie over apparaten en waarschuwingen te bekijken.
 keywords: dashboard, waarschuwingen, nieuw, in uitvoering, opgelost, risico, apparaten met risico, infecties, rapportage, statistieken, grafieken, grafieken, gezondheid, actieve malwaredetecties, bedreigingscategorie, categorieën, wachtwoord stealer, ransomware, exploit, bedreiging, lage ernst, actieve malware
 search.product: eADQiWindows 10XVcnh
@@ -23,17 +23,17 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51058718"
 ---
-# <a name="microsoft-defender-security-center-security-operations-dashboard"></a>Microsoft Defender Security Center Security Operations Dashboard
+# <a name="microsoft-defender-security-center-security-operations-dashboard"></a>Microsoft Defender-beveiligingscentrum Dashboard Beveiligingsbewerkingen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 
 >Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-secopsdashboard-abovefoldlink) 
 
-In **het dashboard Beveiligingsbewerkingen** worden de mogelijkheden voor het detecteren en reageren van eindpunten opgedoken. Het biedt een overzicht op hoog niveau van waar detecties zijn gezien en markeert waar reactieacties nodig zijn. 
+In **het dashboard Beveiligingsbewerkingen** worden eindpuntdetectie en -respons functies opgedoken. Het biedt een overzicht op hoog niveau van waar detecties zijn gezien en markeert waar reactieacties nodig zijn. 
 
 In het dashboard ziet u een momentopname van:
 

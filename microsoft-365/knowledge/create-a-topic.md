@@ -33,7 +33,7 @@ In Viva-onderwerpen kunt u een nieuw onderwerp maken als een onderwerp niet word
 
 Als u een nieuw onderwerp wilt maken, moet u het volgende doen:
 - Een licentie voor Viva-onderwerpen hebben.
-- Machtigingen hebben voor [**Wie kan onderwerpen maken of bewerken.**](./topic-experiences-user-permissions.md) Kennisbeheerders kunnen gebruikers deze machtiging geven in de instellingen voor onderwerpmachtigingen van Viva Topics. 
+- Machtigingen hebben om te [**Wie onderwerpen kunnen maken of bewerken.**](./topic-experiences-user-permissions.md) Kennisbeheerders kunnen gebruikers deze machtiging geven in de instellingen voor onderwerpmachtigingen van Viva Topics. 
 
 > [!Note] 
 > Gebruikers die zijn machtigingen voor het beheren van onderwerpen in het onderwerpcentrum (kennisbeheerders) hebben al machtigingen voor het maken en bewerken van onderwerpen.
@@ -42,11 +42,11 @@ Als u een nieuw onderwerp wilt maken, moet u het volgende doen:
 
 U kunt een nieuw onderwerp maken op twee locaties:
 
-- Startpagina onderwerpcentrum: Elke gelicentieerde gebruiker met de machtiging Wie kan onderwerpen maken of bewerken (inzenders) kan een nieuw onderwerp maken vanuit het onderwerpcentrum door het **menu** Nieuw te selecteren en onderwerppagina **te selecteren.**  
+- Startpagina onderwerpcentrum: Elke gelicentieerde gebruiker met de **Wie** kan onderwerpenmachtigingen (inzenders) maken  of bewerken door het menu Nieuw te selecteren en de pagina Onderwerp te **selecteren.** 
 
     ![Nieuw onderwerp van het onderwerpcentrum](../media/knowledge-management/new-topic.png)  
 
-- Pagina Onderwerpen beheren: Elke  gelicentieerde gebruiker met de machtiging Wie kan onderwerpen beheren (kennisbeheerders) kan een nieuw onderwerp maken op de pagina Onderwerpen beheren in het onderwerpcentrum door Nieuwe **onderwerppagina te selecteren.** 
+- Pagina Onderwerpen beheren: Elke gelicentieerde gebruiker met **Wie** kan de machtiging onderwerpen (kennisbeheerders) beheren door een nieuw onderwerp te maken op de pagina Onderwerpen beheren in het onderwerpcentrum door Nieuwe onderwerppagina **te selecteren.** 
 
     ![Nieuw onderwerp van onderwerpen beheren](../media/knowledge-management/new-topic-topic-center.png)  
 
@@ -70,16 +70,16 @@ U kunt een nieuw onderwerp maken op twee locaties:
  
     ![Vastgemaakte personen](../media/knowledge-management/pinned-people.png)
 
-5. In de **sectie Vastgemaakte bestanden** en pagina's kunt u een bestand of SharePoint-sitepagina die aan het onderwerp is gekoppeld, toevoegen of 'vastmaken'.
+5. In de **sectie Vastgemaakte** bestanden en pagina's kunt u een bestand of SharePoint sitepagina toevoegen of 'vastmaken' die aan het onderwerp is gekoppeld.
 
    ![Vastgemaakte bestanden en pagina's](../media/knowledge-management/pinned-files-and-pages.png)
  
-    Als u een nieuw bestand wilt toevoegen, selecteert u **Toevoegen,** selecteert u de SharePoint-site op uw sites Frequent of Gevolgd en selecteert u het bestand in de documentbibliotheek van de site.
+    Als u een nieuw bestand wilt toevoegen, selecteert u **Toevoegen,** selecteert u de SharePoint site op uw sites Frequent of Gevolgd en selecteert u het bestand in de documentbibliotheek van de site.
 
     U kunt ook de optie **Van een koppeling gebruiken** om een bestand of pagina toe te voegen door de URL op te geven. 
 
     > [!Note] 
-    > Bestanden en pagina's die u toevoegt, moeten zich bevinden in dezelfde Microsoft 365-tenant. Als u een koppeling wilt toevoegen naar een externe resource in het onderwerp, kunt u deze toevoegen via het canvaspictogram in stap 8.
+    > Bestanden en pagina's die u toevoegt, moeten zich binnen dezelfde tenant Microsoft 365 bevinden. Als u een koppeling wilt toevoegen naar een externe resource in het onderwerp, kunt u deze toevoegen via het canvaspictogram in stap 8.
 
 
 6.  In **de sectie Gerelateerde sites** ziet u sites met informatie over het onderwerp. 
@@ -90,7 +90,7 @@ U kunt een nieuw onderwerp maken op twee locaties:
     
     ![Site selecteren](../media/knowledge-management/sites.png)
 
-7. In **de sectie Gerelateerde** onderwerpen ziet u verbindingen tussen onderwerpen. U kunt een verbinding met een ander onderwerp toevoegen door de knop Verbinding maken met een gerelateerd **onderwerp** te selecteren en vervolgens de naam van het gerelateerde onderwerp te typen en deze te selecteren in de zoekresultaten. 
+7. In **de sectie Gerelateerde** onderwerpen ziet u verbindingen tussen onderwerpen. U kunt een verbinding met een ander onderwerp toevoegen door de Verbinding maken te selecteren op een gerelateerde **onderwerpknop** en vervolgens de naam van het gerelateerde onderwerp te typen en deze te selecteren in de zoekresultaten. 
 
    ![Verwante onderwerpen](../media/knowledge-management/related-topic.png)  
 
@@ -110,13 +110,13 @@ U kunt een nieuw onderwerp maken op twee locaties:
 
    ![Verwijderen bevestigen](../media/knowledge-management/remove-related-confirm.png) 
 
-8. U kunt ook statische items toevoegen aan de pagina (zoals tekst, afbeeldingen of koppelingen) door het canvaspictogram te selecteren, dat u onder de korte beschrijving kunt vinden. Als u deze optie selecteert, wordt de SharePoint-werkset geopend waaruit u het item kunt kiezen dat u aan de pagina wilt toevoegen.
+8. U kunt ook statische items toevoegen aan de pagina (zoals tekst, afbeeldingen of koppelingen) door het canvaspictogram te selecteren, dat u onder de korte beschrijving kunt vinden. Als u dit selecteert, wordt SharePoint de werkset geopend waaruit u het item kunt kiezen dat u aan de pagina wilt toevoegen.
 
    ![Pictogram Canvas](../media/knowledge-management/webpart-library.png) 
 
 9. Selecteer **Publiceren om** uw wijzigingen op te slaan. 
 
-Nadat u de pagina hebt gepubliceerd, worden de onderwerpnaam, alternatieve naam, beschrijving en vastgemaakte personen weergegeven voor alle gelicentieerde gebruikers die het onderwerp bekijken. Specifieke bestanden, pagina's en sites worden alleen weergegeven op de onderwerppagina als de viewer office 365-machtigingen voor het item heeft. 
+Nadat u de pagina hebt gepubliceerd, worden de onderwerpnaam, alternatieve naam, beschrijving en vastgemaakte personen weergegeven voor alle gelicentieerde gebruikers die het onderwerp bekijken. Specifieke bestanden, pagina's en sites worden alleen weergegeven op de onderwerppagina als de viewer Office 365 machtigingen voor het item heeft. 
 
 
 

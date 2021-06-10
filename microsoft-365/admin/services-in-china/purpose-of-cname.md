@@ -39,7 +39,7 @@ Technische informatie: wanneer u een clienttoepassing uitvoert die werkt met Off
   
 Als deze CNAME-record voor uw domein ontbreekt, wordt door deze toepassingen een standaardeindpunt voor verificatie in de Verenigde Staten gebruikt. Hierdoor verloopt de verificatie mogelijk trager. Als deze CNAME-record niet correct wordt geconfigureerd, bijvoorbeeld wanneer het adres bij **Adres waarnaar wordt verwezen** een typefout bevat, kan er geen verificatie worden uitgevoerd.
   
- **Als Office 365 de DNS-records** van uw domein beheert, Office 365 stelt deze CNAME-record voor u in. 
+ **Als Office 365 dns-records** van uw domein beheert, Office 365 deze CNAME-record voor u in. 
   
  **Als u DNS-records voor uw domein** bij uw DNS-host beheert, maakt u deze record zelf door de instructies voor uw [DNS-host te volgen.](../get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)
   

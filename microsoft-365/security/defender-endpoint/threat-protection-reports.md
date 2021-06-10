@@ -41,7 +41,7 @@ Het dashboard is gestructureerd in twee secties:
 
 ![Afbeelding van het rapport bedreigingsbeveiliging](images/threat-protection-reports.png)
 
-Sectie | Omschrijving 
+Sectie | Beschrijving 
 :---|:---
 1 | Trends in waarschuwingen
 2 | Overzicht van waarschuwingen
@@ -61,7 +61,7 @@ Standaard worden in de waarschuwingstrends waarschuwingsgegevens weergegeven uit
 ## <a name="alert-summary"></a>Overzicht van waarschuwingen
 Terwijl de waarschuwingstrends trending waarschuwingsgegevens laten zien, worden in de overzichtsoverzicht van waarschuwingen waarschuwingsinformatie voor de huidige dag gegeven.
 
- Met het overzicht van waarschuwingen kunt u inzoomen op een bepaalde waarschuwingswachtrij waarbij het bijbehorende filter erop is toegepast. Als u bijvoorbeeld op de EDR-balk in de kaart Detectiebronnen klikt, wordt de wachtrij voor waarschuwingen weergegeven met alleen waarschuwingen die zijn gegenereerd op basis van EDR-detecties. 
+ Met het overzicht van waarschuwingen kunt u inzoomen op een bepaalde waarschuwingswachtrij waarbij het bijbehorende filter erop is toegepast. Als u bijvoorbeeld op de EDR in de kaart Detectiebronnen klikt, wordt de wachtrij voor waarschuwingen weergegeven met alleen waarschuwingen die zijn gegenereerd EDR detecties. 
 
 >[!NOTE]
 >De gegevens die in de samenvattingssectie worden weergegeven, hebben een bereik van 180 dagen vóór de huidige datum. Als de datum van vandaag bijvoorbeeld 5 november 2019 is, worden in de gegevens in de samenvattingssectie getallen weergegeven die beginnen van 5 mei 2019 tot en met 5 november 2019.<br>
@@ -94,7 +94,7 @@ Als u bijvoorbeeld alleen gegevens wilt weergeven over waarschuwingen met hoge e
 
 1. Selecteer **onder Filters > Ernst** de optie **Hoog**
 2. Zorg ervoor dat alle andere opties onder **Ernst** worden uitgeschakeld.
-3. Selecteer **Toepassen.** 
+3. Selecteer **Toepassen**. 
 
 ## <a name="related-topic"></a>Verwant onderwerp
 - [Rapport apparaattoestand en naleving](machine-reports.md)

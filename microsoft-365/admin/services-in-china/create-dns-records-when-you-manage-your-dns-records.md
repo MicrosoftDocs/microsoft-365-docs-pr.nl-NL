@@ -30,7 +30,7 @@ ms.locfileid: "50914352"
 ---
 # <a name="create-dns-records-for-office-365-when-you-manage-your-dns-records"></a>DNS-records maken voor Office 365 wanneer u uw DNS-records beheert
 
-Zie DNS-records maken bij een DNS-hostingprovider voor [Office 365](../get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)voor gedetailleerde instructies over het maken van DNS-records voor Office 365 beheerd door 21Vianet, inclusief de MX-record die vereist is voor het routeren van e-mail. 
+Zie [DNS-records maken](../get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)bij een DNS-hostingprovider voor Office 365 voor gedetailleerde instructies over het maken van DNS-records voor Office 365 beheerd door 21Vianet, inclusief de MX-record die vereist is voor het routeren van e-mail. 
   
   
 Meer opties en een aantal dingen waar u rekening mee moet houden:
@@ -39,4 +39,4 @@ Meer opties en een aantal dingen waar u rekening mee moet houden:
     
 -  Bij sommige DNS-hostingproviders kunt u niet alle vereiste recordtypen maken, waardoor servicebeperkingen worden veroorzaakt wanneer uw hostingprovider geen ondersteuning biedt voor [SRV, CNAME, TXT of omleiding.](https://support.microsoft.com/office/dfbb03e3-08c1-4c4e-b2f0-891665b29b77) Als uw provider geen SRV-, TXT- of CNAME-records ondersteunt, raden we u aan uw domein over te dragen aan een provider die alle vereiste [recordtypen ondersteunt.](https://support.microsoft.com/office/dfbb03e3-08c1-4c4e-b2f0-891665b29b77) [](../get-help-with-domains/buy-a-domain-name.md) 
     
-- Zie De benodigde gegevens verzamelen om DNS-records van [Office 365](../get-help-with-domains/information-for-dns-records.md)te maken als u wilt zien welke DNS-records nodig zijn en welke waarden voor elke record moeten worden gebruikt, inclusief de MX-record voor e-mail. Zie DNS-basisbeginselen voor beschrijvingen van wat de [DNS-records doen.](../get-help-with-domains/dns-basics.md)
+- Als u wilt zien welke DNS-records vereist zijn en welke waarden u voor elke record wilt gebruiken, inclusief de MX-record voor e-mail, gaat u naar De gegevens verzamelen die u nodig hebt om Office 365 [DNS-records te maken.](../get-help-with-domains/information-for-dns-records.md) Zie DNS-basisbeginselen voor beschrijvingen van wat de [DNS-records doen.](../get-help-with-domains/dns-basics.md)

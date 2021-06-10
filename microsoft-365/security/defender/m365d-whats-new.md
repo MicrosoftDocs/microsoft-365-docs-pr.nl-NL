@@ -1,6 +1,6 @@
 ---
-title: Nieuwe functies in microsoft 365-beveiliging
-description: Meer informatie over nieuwe mogelijkheden in Microsoft 365-beveiliging
+title: Nieuwe functies in Microsoft 365 beveiliging
+description: Meer informatie over nieuwe mogelijkheden in Microsoft 365 beveiliging
 keywords: nieuw, m365-beveiliging, beveiliging, 365, mogelijkheden
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -27,7 +27,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51058613"
 ---
-# <a name="whats-new-in-microsoft-365-security"></a>Nieuwe functies in Microsoft 365-beveiliging
+# <a name="whats-new-in-microsoft-365-security"></a>Nieuwe functies in Microsoft 365 Beveiliging
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -37,7 +37,7 @@ ms.locfileid: "51058613"
 
 
 
-Dit onderwerp gaat over mogelijkheden die over het algemeen beschikbaar zijn (GA) in de nieuwste versie van Microsoft 365 Security. 
+Dit onderwerp gaat over de mogelijkheden die over het algemeen beschikbaar zijn (GA) in de meest recente release van Microsoft 365 Beveiliging. 
 
 Zie Voorbeeldfuncties voor meer informatie over [voorbeeldfuncties.](preview.md)
 

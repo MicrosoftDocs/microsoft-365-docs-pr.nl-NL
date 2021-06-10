@@ -23,12 +23,12 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51059302"
 ---
-# <a name="understand-threat-intelligence-concepts"></a>Concepten voor bedreigingsinformatie begrijpen
+# <a name="understand-threat-intelligence-concepts"></a>Bedreigingsinformatieconcepten begrijpen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -64,10 +64,10 @@ IOC's hebben een veel-op-een-relatie met waarschuwingsdefinities, zodat een waar
 Onderwerp | Beschrijving
 :---|:---
 [Detecties naar uw SIEM-hulpprogramma's trekken](configure-siem.md)| Meer informatie over verschillende manieren om detecties te trekken.
-[SIEM-integratie inschakelen in Microsoft Defender voor Eindpunt](enable-siem-integration.md)| Meer informatie over het inschakelen  van de siem-integratiefunctie op de pagina Instellingen in de portal, zodat u de vereiste informatie kunt gebruiken en genereren om ondersteunde SIEM-hulpprogramma's te configureren.
+[SIEM-integratie inschakelen in Microsoft Defender voor Eindpunt](enable-siem-integration.md)| Meer informatie over het inschakelen  van de siem-integratiefunctie op Instellingen pagina in de portal, zodat u de vereiste informatie kunt gebruiken en genereren om ondersteunde SIEM-hulpprogramma's te configureren.
 [Splunk configureren om Microsoft Defender voor eindpuntdetecties op te halen](configure-siem.md)| Meer informatie over het installeren van de REST API Modular Input App en andere configuratie-instellingen om Splunk in staat te stellen Microsoft Defender te gebruiken voor eindpuntdetecties.
 [HP ArcSight configureren om Microsoft Defender te gebruiken voor eindpuntdetecties](configure-arcsight.md)| Meer informatie over het installeren van het HP ArcSight REST FlexConnector-pakket en de bestanden die u nodig hebt om ArcSight te configureren om Microsoft Defender te gebruiken voor eindpuntdetecties.
-[Microsoft Defender voor eindpuntdetectievelden](api-portal-mapping.md) | Meer informatie over de gegevensvelden die worden weergegeven als onderdeel van de API voor waarschuwingen en hoe deze worden toebedeeld aan het Microsoft Defender-beveiligingscentrum.
+[Microsoft Defender voor eindpuntdetectievelden](api-portal-mapping.md) | Meer informatie over de gegevensvelden die worden weergegeven als onderdeel van de WAARSCHUWINGEN-API en hoe ze worden Microsoft Defender-beveiligingscentrum.
 [Microsoft Defender voor eindpuntdetecties trekken met REST API](pull-alerts-using-rest-api.md) | Gebruik de OAuth 2.0-stroom Clientreferenties om detecties van Microsoft Defender voor Eindpunt op te halen met REST API.
 [Problemen met de integratie van SIEM-hulpprogramma's oplossen](troubleshoot-siem.md) | Problemen oplossen die u mogelijk ondervindt bij het gebruik van de SIEM-integratiefunctie.
 

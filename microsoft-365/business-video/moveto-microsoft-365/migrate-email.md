@@ -20,7 +20,7 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Meer informatie over het migreren van e-mail, contactpersonen en agenda van Google Workspace naar Microsoft 365 voor Bedrijven.
+description: Meer informatie over het migreren van e-mail, contactpersonen en agenda van Google Workspace naar Microsoft 365 voor bedrijven.
 ms.openlocfilehash: d6639032b379a2cd632b6ab6ee7e4082b1e7be0b
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -32,7 +32,7 @@ ms.locfileid: "50913620"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4LPt6?autoplay=false]
 
-U kunt een migratie van een beheerder naar Exchange Online vanuit Google Workspace gebruiken. U kunt de e-mail in één keer of in fasen migreren. De volgende stappen laten zien hoe u de e-mailgegevens in één keer kunt migreren. Zie Een [G Suite-migratie uitvoeren](/exchange/mailbox-migration/perform-g-suite-migration)voor meer informatie.
+U kunt een migratie die door de beheerder wordt Exchange Online vanuit Google Workspace. U kunt de e-mail in één keer of in fasen migreren. De volgende stappen laten zien hoe u de e-mailgegevens in één keer kunt migreren. Zie Een [G Suite-migratie uitvoeren](/exchange/mailbox-migration/perform-g-suite-migration)voor meer informatie.
 
 Het migratieproces neemt verschillende stappen en kan enkele uren tot een paar dagen duren, afhankelijk van de hoeveelheid gegevens die u migreert.
 
@@ -77,7 +77,7 @@ Het migratieproces neemt verschillende stappen en kan enkele uren tot een paar d
  
 1. Kies **Autor.** 
 
-### <a name="create-a-sub-domain-for-mail-going-to-microsoft-365"></a>Een subdomein maken voor e-mail die naar Microsoft 365 gaat
+### <a name="create-a-sub-domain-for-mail-going-to-microsoft-365"></a>Een subdomein maken voor e-mail die wordt Microsoft 365
 
 1. Ga terug naar de **beheerconsole van Google Workspace.**
 1. Selecteer Domeinen , **Domeinen beheren** en voeg vervolgens **een domeinalias toe.**  
@@ -86,8 +86,8 @@ Het migratieproces neemt verschillende stappen en kan enkele uren tot een paar d
 
     Domeinverificatie duurt meestal slechts enkele minuten, maar het kan tot 48 uur duren.
 
-1. Ga naar het [Microsoft 365-beheercentrum.](https://admin.microsoft.com)
-1. Selecteer in **het Microsoft 365-beheercentrum**, in het linkernavigatiemenu, **Alles** **tonen**, Instellingen **,** Domeinen en vervolgens Domein **toevoegen**. 
+1. Ga naar het [Microsoft 365 beheercentrum.](https://admin.microsoft.com)
+1. Selecteer in **Microsoft 365 linkernavigatiecentrum** de optie Alle **,** **Instellingen** **,** Domeinen en domein **toevoegen.** 
 1. Voer het subdomein in dat u eerder hebt gemaakt en selecteer **Dit domein gebruiken.** 
 1. Als u het domein wilt verbinden, selecteert u **Doorgaan.** 
 1. Schuif omlaag en noteer de MX-records, CNAME-records en TXT-records. 
@@ -99,7 +99,7 @@ Het migratieproces neemt verschillende stappen en kan enkele uren tot een paar d
 
     Het kan enige tijd duren voor deze wijzigingen van kracht worden.  
 
-1. Ga terug naar de plek waar u was gebleven in **het Microsoft 365-beheercentrum** en selecteer **Doorgaan.** 
+1. Ga terug naar de plek waar u was gebleven in **Microsoft 365 beheercentrum** en selecteer **Doorgaan.** 
 
 Uw domein is nu ingesteld.  
 
@@ -107,7 +107,7 @@ Uw domein is nu ingesteld.
 
 Voordat de migratie kan beginnen, moet u e-mailalias maken voor uw gebruikers met het nieuwe subdomein. 
 
-1. Als u de volgende stap wilt starten, selecteert u in de **wizard** Domeinen toevoegen in het Microsoft 365-beheercentrum de optie Ga naar **Actieve gebruikers.** 
+1. Als u de volgende stap wilt starten, **selecteert** u in de wizard Domeinen toevoegen in het Microsoft 365 beheercentrum de optie **Ga naar Actieve gebruikers.** 
 1. Selecteer vervolgens een gebruiker, **gebruikersnaam en e-mail beheren.** 
 1. Selecteer in **de vervolgkeuzekeuzegroep** Domeinen het subdomein dat u eerder hebt gemaakt. 
 1. Voer een gebruikersnaam in, **selecteer Toevoegen**, **Wijzigingen opslaan** en sluit het venster. 
@@ -118,8 +118,8 @@ Voordat de migratie kan beginnen, moet u e-mailalias maken voor uw gebruikers me
 
 Wanneer u klaar bent, kunt u migreren. 
 
-1. Schuif in de linkernavigatie van het **Microsoft 365-beheercentrum** omlaag naar **Beheercentra** en selecteer **Exchange.** 
-1. Kies **onder geadresseerden** **migratie**, selecteer **Nieuw**, Migreren naar **Exchange Online**, kies G **Suite-migratie** en vervolgens **Volgende**. 
+1. Schuif in de linkernavigatie van **het Microsoft 365 beheercentrum** omlaag naar **Beheercentra** en selecteer **Exchange.** 
+1. Kies **onder geadresseerden** **migratie**, selecteer **Nieuw**, Migreren **naar Exchange Online**, kies G **Suite-migratie** en vervolgens **Volgende**. 
 1. Maak een CSV-bestand met een lijst met de postvakken die u wilt migreren. Zorg ervoor dat het bestand deze indeling volgt: 
 
     ```CSV

@@ -39,14 +39,14 @@ Webbedreigingsbeveiliging maakt deel uit [van webbeveiliging](web-protection-ove
 >Het kan tot een uur duren voordat apparaten nieuwe aangepaste indicatoren ontvangen.
 
 ## <a name="prerequisites"></a>Vereisten
-Webbeveiliging maakt gebruik van netwerkbeveiliging om webbrowserbeveiliging te bieden in Microsoft Edge en webbrowsers van derden.
+Webbeveiliging gebruikt netwerkbeveiliging om webbrowserbeveiliging te bieden in Microsoft Edge webbrowsers van derden.
 
 Netwerkbeveiliging op uw apparaten in- en uit te zetten:
 - Bewerk de beveiligingslijn Defender voor Eindpunt onder **Web & Netwerkbeveiliging** om netwerkbeveiliging in te stellen voordat u deze implementeert of opnieuw implementeert. [Meer informatie over het controleren en toewijzen van de beveiligingslijn defender voor eindpunt](configure-machines-security-baseline.md#review-and-assign-the-microsoft-defender-for-endpoint-security-baseline)
 - Schakel netwerkbeveiliging in met de configuratie van Intune-apparaten, SCCM, Groepsbeleid of uw MDM-oplossing. [Meer informatie over het inschakelen van netwerkbeveiliging](enable-network-protection.md)  
 
 >[!Note]
->Als u netwerkbeveiliging in stelt op **Alleen controleren,** is blokkeren niet beschikbaar. U kunt ook pogingen om schadelijke en ongewenste websites alleen op Microsoft Edge te openen detecteren en aanmelden.
+>Als u netwerkbeveiliging in stelt op **Alleen controleren,** is blokkeren niet beschikbaar. U kunt ook pogingen om toegang tot schadelijke en ongewenste websites op Microsoft Edge detecteren en loggen.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 

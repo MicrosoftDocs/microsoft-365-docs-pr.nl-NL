@@ -1,6 +1,6 @@
 ---
-title: Tijdzone-instellingen voor microsoft Defender Security Center
-description: Gebruik de informatie hier om de tijdzone-instellingen van het Microsoft Defender-beveiligingscentrum te configureren en licentiegegevens weer te geven.
+title: Microsoft Defender-beveiligingscentrum tijdzone-instellingen
+description: Gebruik de informatie hier om de instellingen voor de Microsoft Defender-beveiligingscentrum tijdzone te configureren en licentiegegevens weer te geven.
 keywords: instellingen, Microsoft Defender, cyberbeveiligingsbedreigingsinformatie, Microsoft Defender voor eindpunt, tijdzone, utc, lokale tijd, licentie
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -23,7 +23,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51932629"
 ---
-# <a name="microsoft-defender-security-center-time-zone-settings"></a>Tijdzone-instellingen voor microsoft Defender Security Center
+# <a name="microsoft-defender-security-center-time-zone-settings"></a>Microsoft Defender-beveiligingscentrum tijdzone-instellingen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -73,7 +73,7 @@ Als u verschillende datumindelingen wilt toepassen voor Microsoft Defender voor 
 
 **Internet Explorer (IE) en Microsoft Edge**
 
-IE en Microsoft Edge gebruiken de **regio-instellingen** die zijn geconfigureerd in de optie **Klokken, Taal** en Regio in het Configuratiescherm. 
+IE en Microsoft Edge de **regio-instellingen** gebruiken die zijn geconfigureerd in de optie **Klokken, Taal** en Regio in het configuratiescherm. 
 
 
 #### <a name="known-issues-with-regional-formats"></a>Bekende problemen met regionale indelingen

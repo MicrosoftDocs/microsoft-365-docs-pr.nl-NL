@@ -122,8 +122,8 @@ Kijk eens naar dit artikel: [Ik weet de gebruikersnaam of het wachtwoord niet me
   
 ## <a name="related-content"></a>Verwante onderwerpen
   
-[Gebruikers hun eigen wachtwoorden opnieuw laten instellen](../add-users/let-users-reset-passwords.md) (artikel)\
+[Gebruikers toestaan hun eigen wachtwoord opnieuw in te stellen](../add-users/let-users-reset-passwords.md) (artikel)\
 [Wachtwoorden opnieuw instellen](../add-users/reset-passwords.md) (artikel)\
-[Het wachtwoord van een afzonderlijke gebruiker instellen op nooit verlopen](set-password-to-never-expire.md) (artikel)\
+[Het wachtwoord van een individuele gebruiker zo instellen dat het nooit verloopt](set-password-to-never-expire.md) (artikel)\
 [Het wachtwoordverloopbeleid voor uw organisatie](../manage/set-password-expiration-policy.md) instellen (artikel)\
 [Microsoft 365 voor zakelijke trainingsvideo's](../../business-video/index.yml) (koppelingspagina)

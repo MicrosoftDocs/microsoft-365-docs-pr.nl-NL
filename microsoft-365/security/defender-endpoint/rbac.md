@@ -1,5 +1,5 @@
 ---
-title: Op rollen gebaseerde toegangsbeheer gebruiken om fijnkorrelige toegang te verlenen tot het Microsoft Defender-beveiligingscentrum
+title: Gebruik op rollen gebaseerd toegangsbeheer om fijnkorrelige toegang te verlenen tot Microsoft Defender-beveiligingscentrum
 description: Maak rollen en groepen binnen uw beveiligingsbewerkingen om toegang te verlenen tot de portal.
 keywords: rbac, rol, gebaseerd, toegang, besturingselement, groepen, besturingselement, laag, aad
 search.product: eADQiWindows 10XVcnh
@@ -63,12 +63,12 @@ Voordat u RBAC gebruikt, is het belangrijk dat u de rollen begrijpt die machtigi
 > [!WARNING]
 > Voordat u de functie inschakelen, is het belangrijk dat u een rol voor globale beheerder of beveiligingsbeheerder hebt in Azure AD en dat uw Azure AD-groepen klaar zijn om het risico te beperken dat u buiten de portal wordt vergrendeld. 
 
-Wanneer u zich voor het eerst aanmeldt bij het Microsoft Defender-beveiligingscentrum, krijgt u volledige toegang of alleen-lezentoegang. Volledige toegangsrechten worden verleend aan gebruikers met beveiligingsbeheerder- of globale beheerdersrollen in Azure AD. Alleen-lezen wordt verleend aan gebruikers met een beveiligingslezerrol in Azure AD. 
+Wanneer u zich voor het eerst aanmeldt bij Microsoft Defender-beveiligingscentrum, krijgt u volledige toegang of alleen-lezentoegang. Volledige toegangsrechten worden verleend aan gebruikers met beveiligingsbeheerder- of globale beheerdersrollen in Azure AD. Alleen-lezen wordt verleend aan gebruikers met een beveiligingslezerrol in Azure AD. 
 
 Iemand met een rol van globale beheerder van Defender voor Eindpunt heeft onbeperkte toegang tot alle apparaten, ongeacht de apparaatgroepsorganisatie en de toewijzingen voor Azure AD-gebruikersgroepen
 
 > [!WARNING]
-> In eerste instantie kunnen alleen personen met globale beheerders- of beveiligingsbeheerdersrechten van Azure AD rollen maken en toewijzen in het Microsoft Defender-beveiligingscentrum. Daarom is het belangrijk dat de juiste groepen klaar zijn in Azure AD.
+> In eerste instantie kunnen alleen personen met globale beheerders- of beveiligingsbeheerdersrechten van Azure AD rollen maken en toewijzen in Microsoft Defender-beveiligingscentrum, daarom is het belangrijk dat de juiste groepen klaar zijn in Azure AD.
 >
 > **Als u toegangsbeheer op basis van rollen invoegt, kunnen gebruikers met alleen-lezen-machtigingen (bijvoorbeeld gebruikers die zijn toegewezen aan de lezerrol van Azure AD Security) de toegang verliezen totdat ze aan een rol zijn toegewezen.** 
 >
@@ -78,5 +78,5 @@ Iemand met een rol van globale beheerder van Defender voor Eindpunt heeft onbepe
 
 
 
-## <a name="related-topic"></a>Gerelateerd onderwerp
+## <a name="related-topic"></a>Verwant onderwerp
 - [Apparaatgroepen maken en beheren in Microsoft Defender voor Eindpunt](machine-groups.md)

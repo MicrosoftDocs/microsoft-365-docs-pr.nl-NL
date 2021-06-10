@@ -30,7 +30,7 @@ Voordat u de registratie voor een klant voltooit, moet u eerst een relatie met d
 
 
 > [!NOTE]
-> Deze documentatie is alleen voor Partners en OEM's. Het proces voor zelfregistratie wordt gedocumenteerd in [Register-apparaten in Microsoft Managed Desktop zelf.](register-devices-self.md)
+> Deze documentatie is alleen voor Partners en OEM's. Het proces voor zelfregistratie wordt gedocumenteerd in [Apparaten registreren in Microsoft Managed Desktop zelf.](register-devices-self.md)
 
 
 ## <a name="register-devices-by-using-partner-center"></a>Apparaten registreren met partnercentrum
@@ -41,7 +41,7 @@ Nadat u de relatie met uw klanten hebt vastgesteld, kunt u partnercentrum gebrui
 2. Selecteer **Klanten** in het menu Partnercentrum en selecteer vervolgens de klant van wie u de apparaten wilt beheren.
 3. Selecteer Apparaten op de detailpagina van **de klant.**
 4. Selecteer **onder Profielen toepassen** op apparaten de optie Apparaten **toevoegen.**
-5. Voer de juiste groepstag in voor het apparaatprofiel dat u hebt  geselecteerd (zoals wordt weergegeven in de volgende tabel) en selecteer Bladeren om de lijst van de klant te uploaden (in CSV-bestandsindeling) naar Partnercentrum.
+5. Voer de juiste groepstag in voor het apparaatprofiel dat u hebt  geselecteerd (zoals wordt weergegeven in de volgende tabel) en selecteer Bladeren om de lijst van de klant te uploaden (in .csv bestandsindeling) naar Partnercentrum.
 
 |[Apparaatprofiel](../service-description/profiles.md)  |Groepstag  |
 |---------|---------|
@@ -53,9 +53,9 @@ Nadat u de relatie met uw klanten hebt vastgesteld, kunt u partnercentrum gebrui
 > De groepsnaam moet exact overeenkomen met die in de tabel, inclusief hoofdletters en speciale tekens. Hierdoor kunnen de nieuw geregistreerde apparaten worden toegewezen aan het Microsoft Managed Desktop Autopilot-profiel.
 
 >[!NOTE]
-> U had dit CSV-bestand moeten ontvangen bij de aankoop van uw apparaat. Als u geen CSV-bestand hebt ontvangen, kunt u er zelf een maken door de stappen in Apparaten toevoegen [aan Windows Autopilot te volgen.](/windows/deployment/windows-autopilot/add-devices#collecting-the-hardware-id-from-existing-devices-using-powershell) Het Windows PowerShell-script verschilt van het script dat wordt gebruikt voor de [Microsoft Managed Desktop Admin portal.](./register-devices-self.md#obtain-the-hardware-hash) Partners moeten [Get-WindowsAutoPilotInfo](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) gebruiken om apparaten te registreren voor Microsoft Managed Desktop-apparaten in partnercentrum.
+> U had dit bestand .csv ontvangen bij de aankoop van uw apparaat. Als u geen .csv hebt ontvangen, kunt u er zelf een maken door de stappen in Apparaten toevoegen aan Windows [Autopilot.](/windows/deployment/windows-autopilot/add-devices#collecting-the-hardware-id-from-existing-devices-using-powershell) Het Windows PowerShell script verschilt van het script dat wordt gebruikt voor de [Microsoft Managed Desktop Admin portal.](./register-devices-self.md#obtain-the-hardware-hash) Partners moeten [Get-WindowsAutoPilotInfo](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) gebruiken om apparaten te registreren Microsoft Managed Desktop apparaten in partnercentrum.
 
-Als u een foutbericht krijgt terwijl u het CSV-bestand probeert te uploaden, controleert u de opmaak van het bestand. Zorg ervoor dat de kolomorder overeenkomt met wat wordt beschreven in Windows Autopilot-profielen gebruiken op nieuwe apparaten om de [out-of-box-ervaring](/partner-center/autopilot#add-devices-to-a-customers-account)van een klant aan te passen. U kunt ook het csv-voorbeeldbestand van de koppeling naast **Apparaten toevoegen** gebruiken om een lijst met apparaten te maken. 
+Als u een foutbericht krijgt tijdens het uploaden van het .csv bestand, controleert u de opmaak van het bestand. Zorg ervoor dat de kolomorder overeenkomt met wat wordt beschreven in Gebruik Windows Autopilot-profielen op nieuwe apparaten om de [out-of-box-ervaring](/partner-center/autopilot#add-devices-to-a-customers-account)van een klant aan te passen. U kunt ook het voorbeeldbestand .csv de koppeling naast **Apparaten toevoegen** gebruiken om een lijst met apparaten te maken. 
 
 Zie Apparaten toevoegen aan het account van een klant voor meer informatie over Autopilot in [partnerscenario's.](/partner-center/autopilot#add-devices-to-a-customers-account)
 

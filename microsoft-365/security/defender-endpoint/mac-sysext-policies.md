@@ -69,7 +69,7 @@ Voeg de volgende JAMF-payload toe om Volledige schijftoegang toe te staan aan de
 
 ### <a name="network-extension-policy"></a>Netwerkextensiebeleid
 
-Als onderdeel van de mogelijkheden voor endpointdetectie en -antwoorden controleert Microsoft Defender voor Eindpunt op macOS het socketverkeer en rapporteert deze informatie aan de microsoft Defender-beveiligingscentrumportal. Met het volgende beleid kan de netwerkextensie deze functionaliteit uitvoeren.
+Als onderdeel van de mogelijkheden voor endpointdetectie en -antwoord controleert Microsoft Defender voor Eindpunt op macOS het socketverkeer en rapporteert deze informatie aan de Microsoft Defender-beveiligingscentrum portal. Met het volgende beleid kan de netwerkextensie deze functionaliteit uitvoeren.
 
 >[!NOTE]
 >JAMF heeft geen ingebouwde ondersteuning voor inhoudsfilterbeleid, wat een vereiste is voor het inschakelen van de netwerkextensies die Microsoft Defender voor Eindpunt op macOS op het apparaat installeert. Bovendien verandert JAMF soms de inhoud van het beleid dat wordt geïmplementeerd.
@@ -170,7 +170,7 @@ Als onderdeel van de mogelijkheden voor endpointdetectie en -antwoorden controle
     $ security cms -S -N "SigningCertificate" -i ~/Documents/com.microsoft.network-extension.mobileconfig -o ~/Documents/com.microsoft.network-extension.signed.mobileconfig
     ```
     
-5. Ga vanuit de JAMF-portal naar **Configuratieprofielen** en klik op de **knop** Uploaden. Selecteer `com.microsoft.network-extension.signed.mobileconfig` wanneer u om het bestand wordt gevraagd.
+5. Navigeer vanuit de JAMF-portal naar **Configuratieprofielen** en klik op **Upload** knop. Selecteer `com.microsoft.network-extension.signed.mobileconfig` wanneer u om het bestand wordt gevraagd.
 
 ## <a name="intune"></a>Intune
 

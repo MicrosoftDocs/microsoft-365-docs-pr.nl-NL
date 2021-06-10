@@ -1,6 +1,6 @@
 ---
 title: Rollen maken en beheren voor toegangsbeheer op basis van rollen
-description: Rollen maken en de machtigingen definiëren die aan de rol zijn toegewezen als onderdeel van de implementatie van toegangsbeheer op basis van rollen in het Microsoft Defender-beveiligingscentrum
+description: Maak rollen en definieert de machtigingen die aan de rol zijn toegewezen als onderdeel van de implementatie van het toegangsbeheer op basis van rollen in de Microsoft Defender-beveiligingscentrum
 keywords: gebruikersrollen, rollen, toegangs-rbac
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -28,18 +28,18 @@ ms.locfileid: "51059237"
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-roles-abovefoldlink)
 
 [!include[Prerelease information](../../includes/prerelease.md)]
 
-## <a name="create-roles-and-assign-the-role-to-an-azure-active-directory-group"></a>Rollen maken en de rol toewijzen aan een Azure Active Directory-groep
+## <a name="create-roles-and-assign-the-role-to-an-azure-active-directory-group"></a>Rollen maken en de rol toewijzen aan een Azure Active Directory groep
 
-In de volgende stappen vindt u informatie over het maken van rollen in het Microsoft Defender-beveiligingscentrum. Er wordt ervan uitgenomen dat u al Azure Active Directory-gebruikersgroepen hebt gemaakt.
+In de volgende stappen vindt u informatie over het maken van rollen in Microsoft Defender-beveiligingscentrum. Er wordt ervan uitgenomen dat u al Azure Active Directory gebruikersgroepen hebt gemaakt.
 
-1. Meld u aan [bij het Microsoft Defender-beveiligingscentrum](https://securitycenter.windows.com/) met behulp van een account met een beveiligingsbeheerder of globale beheerdersrol toegewezen.
+1. Meld u aan [bij Microsoft Defender-beveiligingscentrum](https://securitycenter.windows.com/) account met een beveiligingsbeheerder of globale beheerdersrol toegewezen.
 
 2. Selecteer in het navigatiedeelvenster **Instellingen > Rollen.**
 
@@ -62,12 +62,12 @@ In de volgende stappen vindt u informatie over het maken van rollen in het Micro
 
 - **Gegevens weergeven**
     - **Beveiligingsbewerkingen:** alle gegevens over beveiligingsbewerkingen weergeven in de portal
-    - **Bedreigings- en kwetsbaarheidsbeheer** : gegevens over bedreigings- en kwetsbaarheidsbeheer weergeven in de portal
+    - **Bedreiging en vulnerability management** - Bekijk Threat and Vulnerability Management gegevens in de portal
 
 - **Actieve herstelacties**
     - **Beveiligingsbewerkingen:** actie ondernemen, in behandeling zijnde herstelacties goedkeuren of afwijzen, toegestane/geblokkeerde lijsten voor automatisering en indicatoren beheren
-    - **Bedreigings- en kwetsbaarheidsbeheer - Afhandeling van uitzonderingen** - Nieuwe uitzonderingen maken en actieve uitzonderingen beheren
-    - **Bedreigings- en kwetsbaarheidsbeheer - Herstelafhandeling** - Nieuwe herstelaanvragen indienen, tickets maken en bestaande herstelactiviteiten beheren
+    - **Bedreiging en vulnerability management - Afhandeling van uitzonderingen** - Nieuwe uitzonderingen maken en actieve uitzonderingen beheren
+    - **Bedreiging en vulnerability management -** Herstelafhandeling - Nieuwe herstelaanvragen indienen, tickets maken en bestaande herstelactiviteiten beheren
 
 - **Onderzoek naar waarschuwingen:** waarschuwingen beheren, geautomatiseerde onderzoeken starten, scans uitvoeren, onderzoekspakketten verzamelen, apparaatlabels beheren en alleen draagbare uitvoerbare (PE)-bestanden downloaden 
 
@@ -85,7 +85,7 @@ In de volgende stappen vindt u informatie over het maken van rollen in het Micro
     - **Geavanceerde** opdrachten:
         - Een bestand downloaden van het externe apparaat via livereactie
         - PE- en niet-PE-bestanden downloaden van de bestandspagina
-        - Een bestand uploaden naar het externe apparaat
+        - Upload bestand naar het externe apparaat
         - Een script weergeven vanuit de bestandenbibliotheek
         - Een script uitvoeren op het externe apparaat vanuit de bestandenbibliotheek
 
@@ -93,7 +93,7 @@ Zie Apparaten onderzoeken met livereactie voor meer informatie over de beschikba
   
 ## <a name="edit-roles"></a>Rollen bewerken
 
-1. Meld u aan [bij het Microsoft Defender-beveiligingscentrum](https://securitycenter.windows.com/) met een account aan beveiligingsbeheerder of globale beheerdersrol toegewezen.
+1. Meld u aan [bij Microsoft Defender-beveiligingscentrum](https://securitycenter.windows.com/) account met beveiligingsbeheerder of globale beheerdersrol toegewezen.
 
 2. Selecteer in het navigatiedeelvenster **Instellingen > Rollen.**
 
@@ -107,7 +107,7 @@ Zie Apparaten onderzoeken met livereactie voor meer informatie over de beschikba
 
 ## <a name="delete-roles"></a>Rollen verwijderen
 
-1. Meld u aan [bij het Microsoft Defender-beveiligingscentrum](https://securitycenter.windows.com/) met een account aan beveiligingsbeheerder of globale beheerdersrol toegewezen.
+1. Meld u aan [bij Microsoft Defender-beveiligingscentrum](https://securitycenter.windows.com/) account met beveiligingsbeheerder of globale beheerdersrol toegewezen.
 
 2. Selecteer in het navigatiedeelvenster **Instellingen > Rollen.**
 
@@ -115,7 +115,7 @@ Zie Apparaten onderzoeken met livereactie voor meer informatie over de beschikba
 
 4. Klik op de vervolgkeuzeknop en selecteer **Rol verwijderen.**
 
-## <a name="related-topic"></a>Gerelateerd onderwerp
+## <a name="related-topic"></a>Verwant onderwerp
 
 - [Basismachtigingen voor gebruikers voor toegang tot de portal](basic-permissions.md)
 - [Apparaatgroepen maken en beheren](machine-groups.md)

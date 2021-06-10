@@ -72,8 +72,8 @@ De HTTP-antwoordstatuscode die aangeeft dat beperking is `429` .
 
 Als uw aanvraag is beperkt, geeft de hoofdreactie het tijdstip aan waarop u opnieuw kunt beginnen met het indienen van aanvragen.
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-articles"></a>Aanverwante artikelen
 
-- [Overzicht van Microsoft 365 Defender-API's](api-overview.md)
+- [Microsoft 365 Overzicht van DEFENDER-API's](api-overview.md)
 - [Ondersteunde Microsoft 365 Defender-API's](api-supported.md)
-- [De Microsoft 365 Defender-API's openen](api-access.md)
+- [Toegang tot Microsoft 365 Defender-API's](api-access.md)

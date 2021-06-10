@@ -35,7 +35,7 @@ ms.locfileid: "51932581"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-De tabel in het geavanceerde schema bevat informatie over verschillende entiteiten, zoals `AlertEvidence` bestanden, IP-adressen, URL's, gebruikers of apparaten, die zijn gekoppeld aan waarschuwingen van Microsoft Defender voor Eindpunt, Microsoft Defender voor Office 365, Microsoft Cloud App Security en Microsoft [](advanced-hunting-overview.md) Defender voor identiteit. Gebruik deze verwijzing om query's te maken die gegevens uit deze tabel retourneren.
+De tabel in het geavanceerde schema bevat informatie over verschillende entiteiten, zoals `AlertEvidence` bestanden, IP-adressen, URL's, gebruikers of apparaten, die zijn gekoppeld aan waarschuwingen van Microsoft Defender voor Eindpunt, Microsoft Defender voor Office 365, Microsoft Cloud App Security en Microsoft Defender voor identiteit. [](advanced-hunting-overview.md) Gebruik deze verwijzing om query's te maken die gegevens uit deze tabel retourneren.
 
 Zie de geavanceerde zoekverwijzing voor meer informatie over andere tabellen in het geavanceerde schema voor [de jacht.](advanced-hunting-schema-tables.md)
 
@@ -63,7 +63,7 @@ Zie de geavanceerde zoekverwijzing voor meer informatie over andere tabellen in 
 | `DeviceId` | tekenreeks | Unieke id voor het apparaat in de service |
 | `DeviceName` | tekenreeks | Volledig gekwalificeerde domeinnaam (FQDN) van de computer |
 | `LocalIP` | tekenreeks | IP-adres dat is toegewezen aan het lokale apparaat dat tijdens communicatie wordt gebruikt |
-| `NetworkMessageId` | tekenreeks | Unieke id voor het e-mailbericht, gegenereerd door Office 365 |
+| `NetworkMessageId` | tekenreeks | Unieke id voor de e-mail, gegenereerd door Office 365 |
 | `EmailSubject` | tekenreeks | Onderwerp van het e-mailbericht |
 | `ApplicationId` | tekenreeks | Unieke id voor de toepassing |
 | `Application` | tekenreeks | Toepassing die de opgenomen actie heeft uitgevoerd |

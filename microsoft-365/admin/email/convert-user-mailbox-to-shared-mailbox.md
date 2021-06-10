@@ -102,10 +102,10 @@ Zie voor meer informatie over het converteren van een gebruikerspostvak naar een
 > [!NOTE]
 > Als u lid bent van de rollengroep Organisatiebeheer of Geadresseerdenbeheer, kunt u de Exchange Management Shell gebruiken om een gebruikerspostvak te wijzigen in een gedeeld postvak on-premises. Bijvoorbeeld `Set-Mailbox -Identity mailbox1@contoso.com -Type Shared`.
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
-[Over gedeelde postvakken](about-shared-mailboxes.md) (artikel)\
+[Info over gedeelde postvakken](about-shared-mailboxes.md) (artikel)\
 [Een gedeeld postvak](create-a-shared-mailbox.md) maken (artikel)\
 [Een gedeeld postvak configureren](configure-a-shared-mailbox.md) (artikel)\
-[Een licentie verwijderen uit een gedeeld postvak](remove-license-from-shared-mailbox.md) (artikel)\
+[Een licentie uit een gedeeld postvak verwijderen](remove-license-from-shared-mailbox.md) (artikel)\
 [Problemen oplossen met gedeelde postvakken](resolve-issues-with-shared-mailboxes.md) (artikel)

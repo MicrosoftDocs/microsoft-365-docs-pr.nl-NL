@@ -1,7 +1,7 @@
 ---
 title: Op bedreigingen zoeken op verschillende apparaten, e-mailberichten, apps en identiteiten met geavanceerde jacht
 description: Bestudeer veelvoorkomende scenario's en voorbeeldquery's die betrekking hebben op apparaten, e-mailberichten, apps en identiteiten.
-keywords: geavanceerde zoekactie, Office365-gegevens, Windows-apparaten, Office365-e-mailberichten normaliseren, e-mails, apps, identiteiten, bedreigingsjacht, zoeken, query, telemetrie, Microsoft 365, Microsoft 365 Defender
+keywords: geavanceerde jacht, Office365-gegevens, Windows-apparaten, Office365-e-mails normaliseren, e-mails, apps, identiteiten, bedreigingsjacht, cyberdreigingsjacht, zoeken, query, telemetrie, Microsoft 365, Microsoft 365 Defender
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -35,10 +35,10 @@ ms.locfileid: "51932963"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-[Met geavanceerd zoeken](advanced-hunting-overview.md) in Microsoft 365 Defender kunt u proactief op bedreigingen zoeken:
+[Met geavanceerde Microsoft 365](advanced-hunting-overview.md) Defender kunt u proactief op bedreigingen zoeken:
 - Apparaten die worden beheerd door Microsoft Defender voor Eindpunt
-- E-mailberichten die zijn verwerkt door Microsoft 365
-- Activiteiten in cloud-apps, verificatiegebeurtenissen en domeincontrolleractiviteiten die worden bijgespoord door Microsoft Cloud App Security en Microsoft Defender voor identiteit
+- E-mailberichten die door Microsoft 365
+- Activiteiten van cloud-apps, verificatiegebeurtenissen en activiteiten van domeincontrollers die worden bij Microsoft Cloud App Security en Microsoft Defender voor identiteit
 
 Met dit niveau van zichtbaarheid kunt u snel zoeken naar bedreigingen die door secties van uw netwerk lopen, zoals geavanceerde inbraken die binnenkomen op e-mail of internet, lokale bevoegdheden verhogen, geprivilegieerde domeinreferenties verkrijgen en lateraal naar uw apparaten gaan. 
 

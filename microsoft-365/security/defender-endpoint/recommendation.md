@@ -40,7 +40,7 @@ ms.locfileid: "52771595"
 [!include[Prerelease information](../../includes/prerelease.md)]
 
 ## <a name="methods"></a>Methoden
-Methode |Retourtype |Omschrijving
+Methode |Retourtype |Beschrijving
 :---|:---|:---
 [Lijst van alle aanbevelingen](get-all-recommendations.md) | Aanbevelingsverzameling | Hiermee wordt een lijst opgehaald met alle beveiligingsaanbevelingen die van invloed zijn op de organisatie
 [Aanbevelingen per id ophalen](get-recommendation-by-id.md) | Aanbeveling | Haalt een beveiligingsaanbeveling op met de id
@@ -50,7 +50,7 @@ Methode |Retourtype |Omschrijving
 
 
 ## <a name="properties"></a>Eigenschappen
-Eigenschap |   Type   |   Omschrijving
+Eigenschap |   Type   |   Beschrijving
 :---|:---|:---
 id | Tekenreeks | Aanbevelings-id
 productNaam | Tekenreeks | Gerelateerde softwarenaam  

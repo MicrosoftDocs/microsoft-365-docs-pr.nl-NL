@@ -28,7 +28,7 @@ U kunt de [apparaatprofielen wijzigen die](../service-description/profiles.md) a
 
 Het apparaatprofiel dat u selecteert, wordt toegepast op alle apparaten die u selecteert in de eerste stap. Als u afzonderlijke apparaten naar verschillende profielen wilt verplaatsen, moet u dit proces herhalen voor elk apparaatprofiel. 
 
-1. Selecteer apparaten in het **** linkerdeelvenster in Microsoft Endpoint   Manager. Selecteer apparaten in **de sectie Microsoft Managed Desktop** van het menu. ****  
+1. Selecteer Microsoft Endpoint Manager in **het linkerdeelvenster**   apparaten. Selecteer apparaten **in Microsoft Managed Desktop** sectie van  **het** menu.  
 2. Schakel de selectievakjes in voor de apparaten die u wilt wijzigen. 
 3. Selecteer **Apparaatprofiel wijzigen;** er wordt een fly-in geopend.
 4. Gebruik de vervolgkeuzelijst om het nieuwe apparaatprofiel te selecteren.

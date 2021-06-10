@@ -1,6 +1,6 @@
 ---
 title: Reageren op webbedreigingen in Microsoft Defender voor Eindpunt
-description: Reageren op waarschuwingen met betrekking tot schadelijke en ongewenste websites. Meer informatie over de manier waarop webbedreigingsbeveiliging eindgebruikers informeert via hun webbrowsers en Windows-meldingen
+description: Reageren op waarschuwingen met betrekking tot schadelijke en ongewenste websites. Meer informatie over de manier waarop webbedreigingsbeveiliging eindgebruikers informeert via hun webbrowsers en Windows meldingen
 keywords: webbeveiliging, bescherming tegen webdreigingen, surfen op het web, waarschuwingen, reactie, beveiliging, phishing, malware, exploit, websites, netwerkbeveiliging, Edge, Internet Explorer, Chrome, Firefox, webbrowser, meldingen, eindgebruikers, Windows-meldingen, blokkeringspagina,
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -66,15 +66,15 @@ U kunt ook het apparaat controleren dat heeft geprobeerd toegang te krijgen tot 
 
 [Meer informatie over pagina's met apparaatentiteit](investigate-machines.md)
 
-## <a name="web-browser-and-windows-notifications-for-end-users"></a>Webbrowser en Windows-meldingen voor eindgebruikers
+## <a name="web-browser-and-windows-notifications-for-end-users"></a>Webbrowser en Windows voor eindgebruikers
 
-Met webbeveiliging in Microsoft Defender voor Eindpunt kunnen uw eindgebruikers geen schadelijke of ongewenste websites bezoeken met Microsoft Edge of andere browsers. Omdat blokkeren wordt uitgevoerd door [netwerkbeveiliging,](network-protection.md)zien ze een algemene fout in de webbrowser. Ze zien ook een melding van Windows.
+Met webbeveiliging in Microsoft Defender voor Eindpunt kunnen uw eindgebruikers geen schadelijke of ongewenste websites bezoeken met behulp van Microsoft Edge of andere browsers. Omdat blokkeren wordt uitgevoerd door [netwerkbeveiliging,](network-protection.md)zien ze een algemene fout in de webbrowser. Ze zien ook een melding van Windows.
 
-![Afbeelding van Microsoft Edge met een 403-fout en de ](images/wtp-browser-blocking-page.png)
- *Windows-meldingswebdreiging geblokkeerd op Microsoft Edge*
+![Afbeelding van Microsoft Edge met een 403-fout en de Windows ](images/wtp-browser-blocking-page.png)
+ *melding webbedreiging* geblokkeerd op Microsoft Edge
 
-![Afbeelding van de webbrowser Chrome met een waarschuwing voor een beveiligde verbinding en de ](images/wtp-chrome-browser-blocking-page.png)
- *Windows-meldingswebdreiging geblokkeerd in Chrome*
+![Afbeelding van chrome-webbrowser met een waarschuwing voor een beveiligde verbinding en de Windows ](images/wtp-chrome-browser-blocking-page.png)
+ *melding webbedreiging geblokkeerd in Chrome*
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht webbeveiliging](web-protection-overview.md)

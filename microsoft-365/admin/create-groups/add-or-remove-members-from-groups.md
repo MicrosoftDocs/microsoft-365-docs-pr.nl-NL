@@ -42,7 +42,7 @@ In Microsoft 365 maken groepsleden meestal hun eigen groepen, voegen ze zichzelf
 
 4. Zoek of selecteer de naam van het lid dat u wilt toevoegen.
 
-5. Selecteer **Opslaan**.
+5. Klik op **Opslaan**.
 
 ## <a name="add-a-group-to-a-member-in-the-admin-center"></a>Een groep toevoegen aan een lid in het beheercentrum
 
@@ -54,7 +54,7 @@ In Microsoft 365 maken groepsleden meestal hun eigen groepen, voegen ze zichzelf
 
 4. Zoek of selecteer de naam van de groep die u wilt toevoegen.
 
-5. Selecteer **Opslaan**.
+5. Klik op **Opslaan**.
 
 ## <a name="remove-a-member-from-a-group-in-the-admin-center"></a>Een lid verwijderen uit een groep in het beheercentrum
 

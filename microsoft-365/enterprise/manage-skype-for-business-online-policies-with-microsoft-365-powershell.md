@@ -13,7 +13,7 @@ f1.keywords:
 - NOCSH
 ms.custom: ''
 ms.assetid: ff93a341-6f0f-4f06-9690-726052e1be64
-description: 'Overzicht: Gebruik PowerShell om uw gebruikersaccounteigenschappen van Skype voor Bedrijven Online te beheren met beleidsregels.'
+description: 'Overzicht: Gebruik PowerShell om de eigenschappen Skype voor Bedrijven onlinegebruikersaccount met beleid te beheren.'
 ms.openlocfilehash: a10929bbdce499ad26f9714127f675beeef58765
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -44,11 +44,11 @@ Gebruik deze instructies om de opdrachten uit te voeren (sla de stappen over die
    Connect-MicrosoftTeams -Credential $userCredential
    ```
 
-   Wanneer u daarom wordt gevraagd, voert u de naam en het wachtwoord van uw Skype voor Bedrijven Online-beheerdersaccount in.
+   Wanneer u hier om wordt gevraagd, voert u Skype voor Bedrijven naam en wachtwoord van uw onlinebeheerdersaccount in.
     
 ## <a name="manage-user-account-policies"></a>Beleidsregels voor gebruikersaccounts beheren
 
-Veel gebruikersaccounteigenschappen van Skype voor Bedrijven Online worden geconfigureerd met beleidsregels. Beleidsregels zijn gewoon verzamelingen met instellingen die kunnen worden toegepast op een of meer gebruikers. Als u wilt bekijken hoe het beleid is geconfigureerd, kunt u deze voorbeeldopdracht uitvoeren voor het FederationAndPICDefault-beleid:
+Veel Skype voor Bedrijven eigenschappen van onlinegebruikersaccounts worden geconfigureerd met behulp van beleidsregels. Beleidsregels zijn gewoon verzamelingen met instellingen die kunnen worden toegepast op een of meer gebruikers. Als u wilt bekijken hoe het beleid is geconfigureerd, kunt u deze voorbeeldopdracht uitvoeren voor het FederationAndPICDefault-beleid:
   
 ```powershell
 Get-CsExternalAccessPolicy -Identity "FederationAndPICDefault"
@@ -66,7 +66,7 @@ EnablePublicCloudAudioVideoAccess : True
 EnableOutsideAccess               : True
 ```
 
-In dit voorbeeld bepalen de waarden in dit beleid wat een gebruik wel of niet kan doen als het gaat om communiceren met federatief gebruikers. De eigenschap EnableOutsideAccess moet bijvoorbeeld zijn ingesteld op Waar zodat een gebruiker kan communiceren met personen buiten de organisatie. Houd er rekening mee dat deze eigenschap niet wordt weergegeven in het Microsoft 365-beheercentrum. In plaats daarvan wordt de eigenschap automatisch ingesteld op Waar of Onwaar op basis van de andere selecties die u maakt. De andere twee eigenschappen van belang zijn:
+In dit voorbeeld bepalen de waarden in dit beleid wat een gebruik wel of niet kan doen als het gaat om communiceren met federatief gebruikers. De eigenschap EnableOutsideAccess moet bijvoorbeeld zijn ingesteld op Waar zodat een gebruiker kan communiceren met personen buiten de organisatie. Houd er rekening mee dat deze eigenschap niet wordt weergegeven in het Microsoft 365 beheercentrum. In plaats daarvan wordt de eigenschap automatisch ingesteld op Waar of Onwaar op basis van de andere selecties die u maakt. De andere twee eigenschappen van belang zijn:
   
 - **EnableFederationAccess** geeft aan of de gebruiker kan communiceren met personen uit federatief domeinen.
     
@@ -88,7 +88,7 @@ Get-CsOnlineUser -Identity "Alex Darrow" | ForEach {Get-CsExternalAccessPolicy -
 
 Met deze opdracht wordt het beleid gevonden dat aan de gebruiker is toegewezen en worden vervolgens de mogelijkheden gevonden die in dat beleid zijn ingeschakeld of uitgeschakeld.
   
-Als u skype voor Bedrijven Online-beleid wilt beheren met PowerShell, bekijkt u de cmdlets voor:
+Zie de cmdlets voor Skype voor Bedrijven onlinebeleid beheren met PowerShell:
 
 - [Clientbeleid](/previous-versions//mt228132(v=technet.10)#client-policy-cmdlets)
 - [Conferencingbeleid](/previous-versions//mt228132(v=technet.10)#conferencing-policy-cmdlets)

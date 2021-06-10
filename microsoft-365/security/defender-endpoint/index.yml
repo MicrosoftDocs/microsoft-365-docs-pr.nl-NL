@@ -78,7 +78,7 @@ landingContent:
     links:
     - text: Microsoft Defender voor Eindpunt op Mac
       url: microsoft-defender-endpoint-mac.md
-    - text: Microsoft Defender voor Eindpunt in iOS
+    - text: Microsoft Defender voor Eindpunt op iOS
       url: microsoft-defender-endpoint-ios.md
     - text: Microsoft Defender voor Eindpunt op Linux
       url: microsoft-defender-endpoint-linux.md

@@ -45,7 +45,7 @@ Uw aanvalsoppervlakken zijn alle plaatsen waar uw organisatie kwetsbaar is voor 
 
 Zoals in de video wordt vermeld, bevat Defender voor Eindpunt verschillende mogelijkheden voor het verminderen van de surface van de aanval. Gebruik de volgende bronnen voor meer informatie:
 
-| Artikel | Omschrijving |
+| Artikel | Beschrijving |
 |:---|:---|
 | [Hardwaregebaseerde isolatie](/windows/security/threat-protection/microsoft-defender-application-guard/md-app-guard-overview) | Bescherm en behoudt de integriteit van een systeem terwijl het wordt gestart en terwijl het wordt uitgevoerd. Systeemintegriteit valideren via lokale en externe bevestiging. En gebruik containerisolatie voor Microsoft Edge om te beschermen tegen schadelijke websites. |
 | [Toepassingsbeheer](/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control) | Gebruik toepassingsbesturingselement zodat uw toepassingen vertrouwen moeten winnen om ze uit te voeren. |

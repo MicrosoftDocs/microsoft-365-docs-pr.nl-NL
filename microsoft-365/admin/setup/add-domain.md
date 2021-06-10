@@ -103,7 +103,7 @@ Volg de onderstaande stappen om een aangepaste record toe te voegen voor een web
 
 5. Selecteer het type DNS-record dat u wilt toevoegen en typ de gegevens voor de nieuwe record.
     
-6. Selecteer **Opslaan**.
+6. Klik op **Opslaan**.
 
 ## <a name="registrars-with-domain-connect"></a>Registrars met domein Verbinding maken
 
@@ -134,7 +134,7 @@ Nadat u de installatie hebt voltooien, wordt de MX-record voor uw domein bijgewe
   
 Als uw bedrijf een website heeft, blijft die gewoon werken. De stappen Verbinding maken Domeininstellingen hebben geen invloed op uw website.
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Veelgestelde vragen over domeinen](domains-faq.yml) (artikel)\
 [Wat is een domein?](../get-help-with-domains/what-is-a-domain.md) (artikel)\

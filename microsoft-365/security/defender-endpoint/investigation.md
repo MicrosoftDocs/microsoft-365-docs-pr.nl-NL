@@ -43,7 +43,7 @@ Vertegenwoordig een entiteit geautomatiseerd onderzoek in Defender voor Eindpunt
 <br> Zie [Overzicht van geautomatiseerde onderzoeken voor](automated-investigations.md) meer informatie.
 
 ## <a name="methods"></a>Methoden
-Methode|Retourtype |Omschrijving
+Methode|Retourtype |Beschrijving
 :---|:---|:---
 [Lijstonderzoeken](get-investigation-collection.md) | Onderzoeksverzameling | Verzameling van onderzoek ophalen
 [Eén onderzoek krijgen](get-investigation-object.md) | Onderzoeksentiteit | Krijgt één onderzoeksentiteit.
@@ -51,7 +51,7 @@ Methode|Retourtype |Omschrijving
 
 
 ## <a name="properties"></a>Eigenschappen
-Eigenschap |  Type    |   Omschrijving
+Eigenschap |  Type    |   Beschrijving
 :---|:---|:---
 id | Tekenreeks | Identiteit van de onderzoeksentiteit. 
 startTime | DateTime Nullable | De datum en tijd waarop het onderzoek is gemaakt. 

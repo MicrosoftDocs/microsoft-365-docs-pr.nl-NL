@@ -1,6 +1,6 @@
 ---
 title: Hello World voor Microsoft 365 Defender REST API
-description: Meer informatie over het maken van een app en het gebruik van een token voor toegang tot de Microsoft 365 Defender-API's
+description: Meer informatie over het maken van een app en het gebruik van een token om toegang te krijgen tot de Microsoft 365 Defender-API's
 keywords: app, token, access, aad, app, application registration, powershell, script, global administrator, permission, microsoft 365 defender
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -46,13 +46,13 @@ Het duurt 5 tot 10 minuten om dit project te voltooien. Deze tijdschatting omvat
 
 1. Meld u aan [bij Azure](https://portal.azure.com) als gebruiker met de rol **globale beheerder.**
 
-2. **Navigeer naar Azure Active Directory**  >  **App-registraties** Nieuwe  >  **registratie**.
+2. Navigeer **naar Azure Active Directory**  >  **app-registraties Nieuwe**  >  **registratie**.
 
    ![Afbeelding van Microsoft Azure en navigatie naar toepassingsregistratie](../../media/atp-azure-new-app2.png)
 
 3. Kies in het registratieformulier een naam voor uw toepassing en selecteer **vervolgens Registreren.** Het selecteren van een omleidings-URI is optioneel. U hebt er geen nodig om dit voorbeeld te voltooien.
 
-4. Selecteer op uw **toepassingspagina API-machtigingen** Machtigingen toevoegen Machtiging-API's die mijn organisatie gebruikt  >    >   >, typ **Microsoft Threat Protection** en selecteer Microsoft **Threat Protection.** Uw app heeft nu toegang tot Microsoft 365 Defender.
+4. Selecteer op uw **toepassingspagina API-machtigingen** Machtigingen toevoegen Api's die mijn organisatie gebruikt, > gebruiken, typ Microsoft Threat Protection  >    >   en selecteer **Microsoft Threat Protection.**  Uw app heeft nu toegang tot Microsoft 365 Defender.
 
    > [!TIP]
    > *Microsoft Threat Protection* is een voormalige naam voor Microsoft 365 Defender en wordt niet weergegeven in de oorspronkelijke lijst. U moet beginnen met het schrijven van de naam in het tekstvak om deze weer te geven.
@@ -79,7 +79,7 @@ Het duurt 5 tot 10 minuten om dit project te voltooien. Deze tijdschatting omvat
 
 ### <a name="get-a-token-using-the-app-and-use-the-token-to-access-the-api"></a>Een token downloaden met de app en het token gebruiken om toegang te krijgen tot de API
 
-Zie de [zelfstudie Azure AD](/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds)voor meer informatie over Azure Active Directory-tokens.
+Zie de Azure AD-zelfstudie voor meer Azure Active Directory over uw [tokens.](/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds)
 
 > [!IMPORTANT]
 > Hoewel het voorbeeld in deze demo-app u aanmoedigt om in uw geheime waarde te plakken voor testdoeleinden, moet u nooit geheimen **hardcoderen** in een toepassing die in productie wordt uitgevoerd. Een derde partij kan uw geheim gebruiken om toegang te krijgen tot bronnen. U kunt de geheimen van uw app beveiligen met Behulp van [Azure Key Vault.](/azure/key-vault/general/about-keys-secrets-certificates) Zie Geheimen beheren in uw server-apps met Azure Key Vault voor een praktisch voorbeeld van hoe u uw app [kunt beveiligen.](/learn/modules/manage-secrets-with-azure-key-vault/)
@@ -170,12 +170,12 @@ U bent klaar. U hebt het volgende gedaan:
 - Verbonden met de API.
 - Een PowerShell-script gebruikt om incidenten te retourneren die in de afgelopen 48 uur zijn bijgewerkt.
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-articles"></a>Aanverwante artikelen
 
-- [Overzicht van Microsoft 365 Defender-API's](api-overview.md)
-- [De Microsoft 365 Defender-API's openen](api-access.md)
-- [Een app maken voor toegang tot Microsoft 365 Defender zonder een gebruiker](api-create-app-web.md)
-- [Een app maken voor toegang tot Microsoft 365 Defender-API's namens een gebruiker](api-create-app-user-context.md)
-- [Een app maken met partnertoegang voor meerdere tenants tot Microsoft 365 Defender-API's](api-partner-access.md)
+- [Microsoft 365 Overzicht van DEFENDER-API's](api-overview.md)
+- [Toegang tot Microsoft 365 Defender-API's](api-access.md)
+- [Een app maken voor toegang Microsoft 365 Defender zonder een gebruiker](api-create-app-web.md)
+- [Een app maken voor toegang Microsoft 365 Defender-API's namens een gebruiker](api-create-app-user-context.md)
+- [Een app maken met partnertoegang voor meerdere tenants Microsoft 365 Defender-API's](api-partner-access.md)
 - [Geheimen beheren in uw server-apps met Azure Key Vault](/learn/modules/manage-secrets-with-azure-key-vault/)
 - [OAuth 2.0 Autorisatie voor gebruikers aanmelden en API-toegang](/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)

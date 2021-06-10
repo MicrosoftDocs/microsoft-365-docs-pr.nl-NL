@@ -99,13 +99,13 @@ Ga naar de **sectie Analistrapport** om de gedetailleerde expert write-up te lez
 Bekijk in **de sectie Mitigaties** de lijst met specifieke actie-aanbevelingen die u kunnen helpen uw organisatieweerbaarheid tegen de bedreiging te vergroten. De lijst met bijgespoorde risico's bevat:
 
 - **Beveiligingsupdates**: implementatie van beveiligingsupdates of patches voor beveiligingsproblemen
-- **Microsoft Defender Antivirus-instellingen**
+- **Microsoft Defender Antivirus instellingen**
   - Versie van beveiligingsinformatie
-  - Beveiliging in de cloud  
+  - Cloudbeveiliging  
   - Potentieel ongewenste toepassingsbeveiliging (PUA)
   - Realtime beveiliging
  
-Mitigatiegegevens in deze [](next-gen-threat-and-vuln-mgt.md)sectie bevatten gegevens van bedreigings- en kwetsbaarheidsbeheer, die ook gedetailleerde inzoomgegevens bevatten van verschillende koppelingen in het rapport.
+Mitigatiegegevens in deze sectie bevatten gegevens uit [Threat and Vulnerability Management](next-gen-threat-and-vuln-mgt.md), die ook gedetailleerde inzoomgegevens bevatten van verschillende koppelingen in het rapport.
 
 ![Afbeelding van de sectie risicobeperking van een sectie ](images/ta-mitigations.png)
  _Risicoanalyse-sectie Mitigatie van een bedreigingsanalyserapport_
@@ -117,7 +117,7 @@ Houd bij het gebruik van de rapporten rekening met het volgende:
 - Grafieken geven alleen risico's weer die worden bijgespoord. Controleer het rapportoverzicht op aanvullende risico's die niet in de grafieken worden weergegeven.
 - Risicobeperking garandeert geen volledige tolerantie. De geleverde risico's weerspiegelen de best mogelijke acties die nodig zijn om de tolerantie te verbeteren.
 - Apparaten worden geteld als 'niet beschikbaar' als ze geen gegevens naar de service hebben verzonden.
-- Antivirusgerelateerde statistieken zijn gebaseerd op de antivirusinstellingen van Microsoft Defender. Apparaten met antivirusoplossingen van derden kunnen worden weergegeven als 'blootgesteld'.
+- Antivirusgerelateerde statistieken zijn gebaseerd op Microsoft Defender Antivirus instellingen. Apparaten met antivirusoplossingen van derden kunnen worden weergegeven als 'blootgesteld'.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Proactief bedreigingen zoeken met geavanceerde jacht](advanced-hunting-overview.md) 
