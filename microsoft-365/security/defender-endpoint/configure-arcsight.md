@@ -1,6 +1,6 @@
 ---
 title: MicroFocus ArcSight configureren om Microsoft Defender voor eindpuntdetecties op te halen
-description: MicroFocus ArcSight configureren voor het ontvangen en trekken van detecties vanuit het Microsoft Defender-beveiligingscentrum
+description: MicroFocus ArcSight configureren voor het ontvangen en trekken van detecties van Microsoft Defender-beveiligingscentrum
 keywords: MicroFocus ArcSight, beveiligingsinformatie- en evenementenbeheerhulpmiddelen configureren, boogsight
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -28,7 +28,7 @@ ms.locfileid: "51166183"
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -42,11 +42,11 @@ U moet sommige bestanden en hulpprogramma's installeren en configureren om Micro
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
-Voor het configureren van het hulpprogramma Micro Focus ArcSight Connector zijn verschillende configuratiebestanden nodig om detecties uit uw AAD-toepassing (Azure Active Directory) te halen en te parseren.
+Voor het configureren van het hulpprogramma Micro Focus ArcSight Connector zijn verschillende configuratiebestanden nodig om detecties uit uw Azure Active Directory (AAD)-toepassing te halen en te parseren.
 
 In deze sectie wordt u begeleid bij het verkrijgen van de benodigde informatie om de vereiste configuratiebestanden correct in te stellen en te gebruiken.
 
-- Zorg ervoor dat u de siem-integratiefunctie hebt ingeschakeld in **het** menu Instellingen. Zie [SiEM-integratie inschakelen in Defender voor eindpunt](enable-siem-integration.md)voor meer informatie.
+- Zorg ervoor dat u de siem-integratiefunctie hebt ingeschakeld in het **Instellingen** menu. Zie [SiEM-integratie inschakelen in Defender voor eindpunt](enable-siem-integration.md)voor meer informatie.
 
 - Het bestand dat u hebt opgeslagen om de SIEM-integratiefunctie in te stellen, klaar hebben. U moet de volgende waarden krijgen:
   - Url voor vernieuwen van OAuth 2.0 Token
@@ -57,7 +57,7 @@ In deze sectie wordt u begeleid bij het verkrijgen van de benodigde informatie o
   - WDATP-connector.properties
   - WDATP-connector.jsonparser.properties
 
-    U zou een ZIP-bestand met deze twee bestanden hebben opgeslagen wanneer u Micro Focus ArcSight hebt gekozen als het SIEM-type dat u in uw organisatie gebruikt.
+    U zou een .zip bestand met deze twee bestanden hebben opgeslagen wanneer u Micro Focus ArcSight hebt gekozen als het SIEM-type dat u in uw organisatie gebruikt.
 
 - Zorg ervoor dat u de volgende tokens genereert en klaar hebt:
   - Access-token
@@ -69,7 +69,7 @@ In deze sectie wordt u begeleid bij het verkrijgen van de benodigde informatie o
 
 In de volgende stappen wordt ervan uitgenomen dat u alle vereiste stappen hebt voltooid in [Voordat u begint.](#before-you-begin)
 
-1. Installeer het nieuwste 32-bits Windows FlexConnector-installatieprogramma. U vindt dit in het HPE-softwarecentrum. Het hulpprogramma wordt meestal geïnstalleerd op de volgende standaardlocatie: `C:\Program Files\ArcSightFlexConnectors\current\bin` .</br></br>U kunt kiezen waar u het hulpprogramma wilt opslaan, bijvoorbeeld C: \\ *folder_location*\current\bin waar folder_location de installatielocatie vertegenwoordigt. 
+1. Installeer de nieuwste 32-bits Windows FlexConnector-installatieprogramma. U vindt dit in het HPE-softwarecentrum. Het hulpprogramma wordt meestal geïnstalleerd op de volgende standaardlocatie: `C:\Program Files\ArcSightFlexConnectors\current\bin` .</br></br>U kunt kiezen waar u het hulpprogramma wilt opslaan, bijvoorbeeld C: \\ *folder_location*\current\bin waar folder_location de installatielocatie vertegenwoordigt. 
 
 2. Volg de installatiewizard door de volgende taken:
    - Inleiding
@@ -101,11 +101,11 @@ In de volgende stappen wordt ervan uitgenomen dat u alle vereiste stappen hebt v
     <tbody style="vertical-align:top;">
     <tr>
     <th>Veld</th>
-    <th>Value</th>
+    <th>Waarde</th>
     </tr>
     <tr>
     <td>Configuratiebestand</td>
-    <td>Typ de naam van het eigenschapsbestand van de client. De naam moet overeenkomen met het bestand in de ZIP die u hebt gedownload.
+    <td>Typ de naam van het eigenschapsbestand van de client. De naam moet overeenkomen met het bestand dat is opgegeven in de .zip die u hebt gedownload.
 Als het configuratiebestand in de flexagentmap bijvoorbeeld de naam &quot; &quot;WDATP-Connector.js&quot; onparser.properties, moet u &quot; &quot; WDATP-Connector typen als de naam van het &quot; clienteigenschappenbestand.</td>
     </tr>
     <td>GEBEURTENIS-URL</td>
@@ -116,7 +116,7 @@ Als het configuratiebestand in de flexagentmap bijvoorbeeld de naam &quot; &quot
     <td>OAuth 2</td>
     </tr>
     <td>OAuth 2 Clienteigenschappenbestand</td>
-    <td>Blader naar de locatie van het <em>bestand wdatp-connector.properties.</em> De naam moet overeenkomen met het bestand in de ZIP die u hebt gedownload.</td>
+    <td>Blader naar de locatie van het <em>bestand wdatp-connector.properties.</em> De naam moet overeenkomen met het bestand dat is opgegeven in de .zip die u hebt gedownload.</td>
     <tr>
     <td>Token vernieuwen</td>
     <td>U kunt een vernieuwings-token op twee manieren verkrijgen: door een vernieuwings-token te genereren vanaf de <b>pagina SIEM-instellingen</b> of door het hulpprogramma restutil te gebruiken. <br><br> Zie <a href="enable-siem-integration.md" data-raw-source="[Enable SIEM integration in Defender for Endpoint](enable-siem-integration.md)">SiEM-integratie in defender</a>voor <b></b> eindpunt inschakelen voor meer informatie over het genereren van een vernieuwingsken van de instelling Voorkeuren. </br> </br><b>Haal uw vernieuwings-token op met behulp van het hulpmiddel Restutil:</b> </br> a. Een opdrachtprompt openen. Ga naar C:\<em>folder_location</em>\current\bin <em>folder_location</em> de locatie waar u het hulpprogramma hebt geïnstalleerd. </br></br> b. Type: <code>arcsight restutil token -config</code> vanuit de adreslijst van de bin. Bijvoorbeeld: <b>arcsight restutil boxtoken -proxy proxy.location.hp.com:8080</b> Een webbrowservenster wordt geopend. </br> </br>c. Typ uw referenties en klik op het wachtwoordveld om de pagina om te leiden. Voer in de aanmeldingsprompt uw referenties in. </br> </br>d. In de opdrachtprompt wordt een vernieuwend token weergegeven. </br></br> e. Kopieer en plak het in het <b>veld Token</b> vernieuwen.
@@ -177,11 +177,11 @@ Als het configuratiebestand in de flexagentmap bijvoorbeeld de naam &quot; &quot
 
 9. **Navigeer naar Active channel set** New  >  **Condition**  >  **Device**  >  **Device Product**.
 
-10. Apparaatproduct **instellen = Microsoft Defender ATP**. Wanneer u hebt geverifieerd dat gebeurtenissen naar het hulpprogramma lopen, stopt u het proces opnieuw en gaat u naar Windows Services en start u de ArcSight FlexConnector REST.
+10. Apparaatproduct **= Microsoft Defender ATP.** Wanneer u hebt geverifieerd dat gebeurtenissen naar het hulpprogramma lopen, stopt u het proces opnieuw en gaat u naar Windows Services en start u de ArcSight FlexConnector REST.
 
 U kunt nu query's uitvoeren in de Micro Focus ArcSight-console.
 
-Defender for Endpoint detections will appear as discrete events, with "Microsoft" as the vendor and "Windows Defender ATP" as the device name.
+Detecties van Defender voor eindpunten worden weergegeven als afzonderlijke gebeurtenissen, met 'Microsoft' als leverancier en 'Windows Defender ATP' als apparaatnaam.
 
 
 ## <a name="troubleshooting-micro-focus-arcsight-connection"></a>Problemen met Micro Focus ArcSight-verbinding oplossen

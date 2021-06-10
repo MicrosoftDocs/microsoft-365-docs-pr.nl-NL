@@ -91,7 +91,7 @@ Hiervoor moet [u beheerdersmachtigingen](about-admin-roles.md) Microsoft 365.
     
 4. Controleer het resultaat en selecteer vervolgens **Sluiten**.
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Een gebruiker verwijderen](delete-a-user.md) (artikel)\
 [Beheerdersrollen toewijzen](assign-admin-roles.md) (video)\

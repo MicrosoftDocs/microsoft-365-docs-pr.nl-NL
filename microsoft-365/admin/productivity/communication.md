@@ -180,7 +180,7 @@ We bieden u ook informatie waarmee u inzicht krijgt in de manier waarop uw organ
       
 4. **Gerelateerde inhoud weergeven:** Selecteer deze koppeling om gesorteerde video's en andere gerelateerde Help-inhoud weer te geven.
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Microsoft 365 apps health – Technology experiences](apps-health.md) (article)\
 [Samenwerking met inhoud: ervaringen met personen](content-collaboration.md) (artikel)\

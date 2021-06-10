@@ -1,5 +1,5 @@
 ---
-title: Afbeeldingen optimaliseren op moderne sitepagina's van SharePoint Online
+title: Afbeeldingen optimaliseren in SharePoint moderne onlinesitepagina's
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -20,7 +20,7 @@ ms.custom:
 ms.reviewer: sstewart
 search.appverid:
 - MET150
-description: Lees hoe u de hulpmiddelen in SharePoint Online kunt gebruiken om afbeeldingen te optimaliseren op moderne sitepagina's van SharePoint Online.
+description: Lees hoe u de hulpprogramma's in SharePoint Online kunt gebruiken om afbeeldingen in SharePoint moderne sitepagina's online te optimaliseren.
 ms.openlocfilehash: a4f2def86e1378a9fb76ae9ecbe6a55da75ecffc
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -28,23 +28,23 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50923014"
 ---
-# <a name="optimize-images-in-sharepoint-online-modern-site-pages"></a>Afbeeldingen optimaliseren op moderne sitepagina's van SharePoint Online
+# <a name="optimize-images-in-sharepoint-online-modern-site-pages"></a>Afbeeldingen optimaliseren in SharePoint moderne onlinesitepagina's
 
-In dit artikel vindt u meer informatie over het optimaliseren van afbeeldingen op moderne sitepagina's van SharePoint Online.
+In dit artikel vindt u meer inzicht in het optimaliseren van afbeeldingen in SharePoint moderne sitepagina's van Online.
 
-Zie Afbeeldingsoptimalisatie voor [SharePoint Online](image-optimization-for-sharepoint-online.md)voor informatie over het optimaliseren van afbeeldingen in klassieke publicatiesites.
+Zie Afbeeldingsoptimalisatie voor SharePoint Online voor informatie over het optimaliseren van afbeeldingen [in klassieke publicatiesites.](image-optimization-for-sharepoint-online.md)
 
 >[!NOTE]
->Zie Prestaties in de [moderne SharePoint-ervaring](/sharepoint/modern-experience-performance)voor meer informatie over de prestaties in moderne SharePoint Online-portals.
+>Zie Prestaties in de moderne SharePoint voor meer informatie over prestaties in SharePoint moderne [onlineportalen.](/sharepoint/modern-experience-performance)
 
 ## <a name="use-the-page-diagnostics-for-sharepoint-tool-to-analyze-image-optimization"></a>Het hulpprogramma Paginadiagnose voor SharePoint gebruiken om afbeeldingsoptimalisatie te analyseren
 
-Het hulpprogramma Paginadiagnose voor SharePoint is een browserextensie voor de nieuwe Microsoft Edge - en Chrome-browsers waarmee zowel moderne portals van SharePoint Online als klassieke https://www.microsoft.com/edge) publicerende sitepagina's worden geanalyseerd. Het hulpprogramma bevat een rapport voor elke geanalyseerde pagina die laat zien hoe de pagina presteert op basis van een gedefinieerde set prestatiecriteria. Als u het hulpprogramma Paginadiagnose voor SharePoint wilt installeren en meer wilt weten, gaat u naar Het hulpprogramma [Paginadiagnose gebruiken voor SharePoint Online.](page-diagnostics-for-spo.md)
+Het hulpprogramma Paginadiagnose voor SharePoint is een browserextensie voor de nieuwe Microsoft Edge ( en Chrome-browsers die zowel SharePoint Moderne portal online als klassieke https://www.microsoft.com/edge) publicerende sitepagina's analyseren. Het hulpprogramma bevat een rapport voor elke geanalyseerde pagina die laat zien hoe de pagina presteert op basis van een gedefinieerde set prestatiecriteria. Als u het hulpprogramma Paginadiagnose voor SharePoint wilt installeren en meer wilt weten, gaat u naar Het hulpprogramma [Paginadiagnose gebruiken](page-diagnostics-for-spo.md)voor SharePoint Online.
 
 >[!NOTE]
->Het hulpprogramma Paginadiagnose werkt alleen voor SharePoint Online en kan niet worden gebruikt op een SharePoint-systeempagina.
+>Het hulpprogramma Paginadiagnose werkt alleen SharePoint Online en kan niet worden gebruikt op een SharePoint systeempagina.
 
-Wanneer u een moderne SharePoint-site analyseert met het hulpprogramma Paginadiagnose voor SharePoint, ziet u informatie over grote afbeeldingen in het deelvenster _Diagnostische tests._
+Wanneer u een moderne site SharePoint met het hulpprogramma Paginadiagnose voor SharePoint, kunt u informatie over grote afbeeldingen bekijken in het deelvenster _Diagnostische_ tests.
 
 Mogelijke resultaten zijn:
 
@@ -57,7 +57,7 @@ Als het **gedetecteerde resultaat Grote**  afbeeldingen wordt weergegeven in de 
 
 ## <a name="remediate-large-image-issues"></a>Grote problemen met afbeeldingen oplossen
 
-Als een pagina afbeeldingen van meer dan 300 KB groot bevat, selecteert u het resultaat Grote afbeeldingen gedetecteerd om te zien welke afbeeldingen te groot zijn.  Op moderne SharePoint Online-pagina's worden afbeeldingen automatisch weergegeven en de grootte is afhankelijk van de grootte van het browservenster en de resolutie van de clientmonitor. U moet afbeeldingen altijd optimaliseren voor webgebruik voordat u ze uploadt naar SharePoint Online. Zeer grote afbeeldingen worden automatisch verkleind in grootte en resolutie, wat kan leiden tot onverwachte weergavekenmerken.
+Als een pagina afbeeldingen van meer dan 300 KB groot bevat, selecteert u het resultaat Grote afbeeldingen gedetecteerd om te zien welke afbeeldingen te groot zijn.  In moderne SharePoint onlinepagina's worden weergaven van afbeeldingen automatisch verstrekt en grootte, afhankelijk van de grootte van het browservenster en de resolutie van de clientmonitor. U moet afbeeldingen altijd optimaliseren voor webgebruik voordat u ze uploadt SharePoint Online. Zeer grote afbeeldingen worden automatisch verkleind in grootte en resolutie, wat kan leiden tot onverwachte weergavekenmerken.
 
 Voordat u paginaherzieningen maakt om prestatieproblemen op te lossen, noteert u de laadtijd van de pagina in de analyseresultaten. Voer het hulpprogramma na de revisie opnieuw uit om te zien of het nieuwe resultaat binnen de basislijnstandaard valt en controleer de laadtijd van de nieuwe pagina om te zien of er een verbetering is.
 
@@ -68,12 +68,12 @@ Voordat u paginaherzieningen maakt om prestatieproblemen op te lossen, noteert u
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Prestaties van SharePoint Online afstemmen](tune-sharepoint-online-performance.md)
+[Prestaties SharePoint online afstemmen](tune-sharepoint-online-performance.md)
 
-[Prestaties van Office 365 afstemmen](tune-microsoft-365-performance.md)
+[Prestaties Office 365 afstemmen](tune-microsoft-365-performance.md)
 
-[Prestaties in de moderne SharePoint-ervaring](/sharepoint/modern-experience-performance)
+[Prestaties in de moderne SharePoint ervaring](/sharepoint/modern-experience-performance)
 
 [Netwerken voor contentlevering](content-delivery-networks.md)
 
-[Het Office 365 Content Delivery Network (CDN) gebruiken met SharePoint Online](use-microsoft-365-cdn-with-spo.md)
+[De Office 365 Content Delivery Network (CDN) gebruiken met SharePoint Online](use-microsoft-365-cdn-with-spo.md)

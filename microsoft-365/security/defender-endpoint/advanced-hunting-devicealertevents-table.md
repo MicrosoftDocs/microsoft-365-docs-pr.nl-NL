@@ -35,7 +35,7 @@ ms.locfileid: "51939646"
 
 >Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-advancedhuntingref-abovefoldlink)
 
-De `DeviceAlertEvents` tabel in het geavanceerde schema [bevat](advanced-hunting-overview.md) informatie over waarschuwingen in het Microsoft Defender-beveiligingscentrum. Gebruik deze verwijzing om query's te maken die gegevens uit de tabel retourneren.
+De `DeviceAlertEvents` tabel in het geavanceerde schema [bevat](advanced-hunting-overview.md) informatie over waarschuwingen in Microsoft Defender-beveiligingscentrum. Gebruik deze verwijzing om query's te maken die gegevens uit de tabel retourneren.
 
 Zie de geavanceerde verwijzing naar het schema voor de jacht voor meer informatie over andere tabellen in het geavanceerde schema voor [de jacht.](advanced-hunting-schema-reference.md)
 

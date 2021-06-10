@@ -1,6 +1,6 @@
 ---
 title: Microsoft 365 infographics voor gebruikers
-description: Met deze Infographics van Microsoft 365 kunnen gebruikers in uw organisatie de best practices voor het werken in Microsoft 365 begrijpen.
+description: Deze Microsoft 365 infographics kunnen de gebruikers in uw organisatie helpen bij het begrijpen van best practices voor het werken in Microsoft 365.
 ms.author: samanro
 author: samanro
 manager: pamgreen
@@ -23,7 +23,7 @@ ms.locfileid: "51939787"
 
 Deze infographics vertegenwoordigen best practices voor het werken en samenwerken in Microsoft 365. Deel ze met uw gebruikers om ervoor te zorgen dat ze profiteren van veilige opslag en delen van bestanden, gezamenlijke vergaderingen houden en meer.
 
-Meer [downloadbare Office-infographics vindt](https://support.microsoft.com/office/great-ways-to-work-with-office-6fe70269-b9a4-4ef0-a96e-7a5858b3bd5a) u op de [Microsoft 365-trainingssite.](https://support.microsoft.com/training)
+Vind meer [downloadbare Office infographics op](https://support.microsoft.com/office/great-ways-to-work-with-office-6fe70269-b9a4-4ef0-a96e-7a5858b3bd5a) de [Microsoft 365 trainingssite.](https://support.microsoft.com/training)
 
 <a name="securitytips"></a>
 ## <a name="security-tips"></a>Beveiligingstips
@@ -32,7 +32,7 @@ Download deze infographic met beveiligingstips voor de leden van uw team, of uw 
 
 | Item | Beschrijving |
 |:-----|:-----|
-|[![De afbeelding van uw campagnegegevens beveiligen](../media/M365-Campaigns-WhatCanUsersDoToSecure-358x201.png)](../campaigns/downloads/M365CampaignsWhatCanUsersDoToSecure.pdf) <br/> [Downloaden als PDF](../campaigns/downloads/M365CampaignsWhatCanUsersDoToSecure.pdf)  \  [Downloaden als een PowerPoint](../campaigns/downloads/M365CampaignsWhatCanUsersDoToSecure.pptx)| Deel deze best practices voor het beveiligen van de gegevens van uw organisatie. Deze infographic is gemaakt ter ondersteuning van het personeel van politieke campagnes, omdat deze zijn gericht op geavanceerde hackers. U bent van harte welkom om de PowerPoint-infographic te gebruiken om deze infographic aan te passen voor uw eigen organisatie. Gerelateerd artikel: [Hoe de beveiligingsaanbevelingen voor Microsoft 365 van invloed zijn op uw gebruikers](../campaigns/m365-campaigns-users.md)|
+|[![De afbeelding van uw campagnegegevens beveiligen](../media/M365-Campaigns-WhatCanUsersDoToSecure-358x201.png)](../campaigns/downloads/M365CampaignsWhatCanUsersDoToSecure.pdf) <br/> [Downloaden als PDF](../campaigns/downloads/M365CampaignsWhatCanUsersDoToSecure.pdf)  \  [Downloaden als een PowerPoint](../campaigns/downloads/M365CampaignsWhatCanUsersDoToSecure.pptx)| Deel deze best practices voor het beveiligen van de gegevens van uw organisatie. Deze infographic is gemaakt ter ondersteuning van het personeel van politieke campagnes, omdat deze zijn gericht op geavanceerde hackers. U bent van harte welkom om de PowerPoint gebruiken om deze infographic aan te passen voor uw eigen organisatie. Gerelateerd artikel: [Wat zijn de beveiligingsaanbevelingen](../campaigns/m365-campaigns-users.md) voor Microsoft 365 van invloed op uw gebruikers|
 
 <a name="sharefiles"></a>
 ## <a name="share-your-business-files"></a>Uw zakelijke bestanden delen

@@ -1,6 +1,6 @@
 ---
 title: Uitsluitingen configureren en valideren op basis van extensie, naam of locatie
-description: Bestanden uitsluiten van Microsoft Defender Antivirus scans op basis van de bestandsextensie, bestandsnaam of locatie.
+description: Sluit bestanden uit van Microsoft Defender Antivirus scans op basis van de bestandsextensie, bestandsnaam of locatie.
 keywords: uitsluitingen, bestanden, extensie, bestandstype, mapnaam, bestandsnaam, scans
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -31,17 +31,17 @@ ms.locfileid: "52274530"
 - [Microsoft Defender voor Eindpunt](/microsoft-365/security/defender-endpoint/)
 
 > [!IMPORTANT]
-> Microsoft Defender Antivirus-uitsluitingen zijn niet van toepassing op andere Mogelijkheden van Microsoft Defender voor eindpunten, zoals eindpuntdetectie en -antwoord [(EDR), ASR-regels](/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response) [(Attack Surface Reduction)](/microsoft-365/security/defender-endpoint/attack-surface-reduction)en gecontroleerde maptoegang [.](/microsoft-365/security/defender-endpoint/controlled-folders) Bestanden die u uitsluit met de methoden die in dit artikel worden beschreven, kunnen nog steeds EDR-waarschuwingen en andere detecties activeren. Als u bestanden breed wilt uitsluiten, voegt u deze toe aan de aangepaste indicatoren van Microsoft Defender [voor Eindpunt.](/microsoft-365/security/defender-endpoint/manage-indicators)
+> Microsoft Defender Antivirus uitsluitingen zijn niet van toepassing op andere Mogelijkheden van Microsoft Defender voor eindpunten, zoals [eindpuntdetectie en -respons (EDR),](/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response) [ASR-regels (Attack Surface Reduction)](/microsoft-365/security/defender-endpoint/attack-surface-reduction)en gecontroleerde [maptoegang](/microsoft-365/security/defender-endpoint/controlled-folders). Bestanden die u uitsluit met de methoden die in dit artikel worden beschreven, kunnen nog steeds EDR waarschuwingen en andere detecties activeren. Als u bestanden breed wilt uitsluiten, voegt u deze toe aan de aangepaste indicatoren van Microsoft Defender [voor Eindpunt.](/microsoft-365/security/defender-endpoint/manage-indicators)
 
 ## <a name="exclusion-lists"></a>Uitsluitingslijsten
 
-U kunt bepaalde bestanden uitsluiten van Microsoft Defender Antivirus-scans door uitsluitingslijsten te wijzigen. **Over het algemeen hoeft u geen uitsluitingen toe te passen.** Microsoft Defender Antivirus bevat veel automatische uitsluitingen op basis van bekende gedragingen van het besturingssysteem en normale beheerbestanden, zoals bestanden die worden gebruikt in ondernemingsbeheer, databasebeheer en andere ondernemingsscenario's en -situaties.
+U kunt bepaalde bestanden uitsluiten van Microsoft Defender Antivirus scans door uitsluitingslijsten te wijzigen. **Over het algemeen hoeft u geen uitsluitingen toe te passen.** Microsoft Defender Antivirus omvat veel automatische uitsluitingen op basis van bekende gedragingen van het besturingssysteem en gebruikelijke beheerbestanden, zoals die worden gebruikt in ondernemingsbeheer, databasebeheer en andere ondernemingsscenario's en -situaties.
 
 > [!NOTE]
 > Uitsluitingen zijn ook van toepassing op pua-detecties (Potentially Unwanted Apps).
 
 > [!NOTE]
-> Automatische uitsluitingen zijn alleen van toepassing op Windows Server 2016 en hoger. Deze uitsluitingen zijn niet zichtbaar in de Windows Security-app en in PowerShell.
+> Automatische uitsluitingen zijn alleen van toepassing op Windows Server 2016 en hoger. Deze uitsluitingen zijn niet zichtbaar in de Windows-beveiliging app en in PowerShell.
 
 In dit artikel wordt beschreven hoe u uitsluitingslijsten configureert voor de bestanden en mappen. Zie Aanbevelingen voor het definiëren van uitsluitingen voordat u uw [uitsluitingslijsten](configure-exclusions-microsoft-defender-antivirus.md#recommendations-for-defining-exclusions) definieert.
 
@@ -60,15 +60,15 @@ Uitsluitingslijsten hebben de volgende kenmerken:
 > [!IMPORTANT]
 > - Als u jokertekens zoals het sterretje () gebruikt, wordt de interpretatie van \* de uitsluitingsregels gewijzigd. Zie de [sectie Jokertekens gebruiken in](#use-wildcards-in-the-file-name-and-folder-path-or-extension-exclusion-lists) de sectie bestandsnaam- en mappad- of extensieuitsluitingslijsten voor belangrijke informatie over hoe jokertekens werken.
 > - U kunt netwerkstations niet uitsluiten. U moet het werkelijke netwerkpad opgeven.
-> - Mappen die reparse-punten zijn die worden gemaakt nadat de Microsoft Defender Antivirus-service is gestart en die zijn toegevoegd aan de uitsluitingslijst, worden niet opgenomen. U moet de service opnieuw starten (door Windows opnieuw te starten) om nieuwe herstelpunten te kunnen herkennen als een geldig uitsluitingsdoel.
+> - Mappen die reparse-punten zijn die worden gemaakt nadat de Microsoft Defender Antivirus service wordt gestart en die zijn toegevoegd aan de uitsluitingslijst, worden niet opgenomen. U moet de service opnieuw starten (door de Windows opnieuw op te starten) om nieuwe reparse-punten te kunnen herkennen als een geldig uitsluitingsdoel.
 
 Zie Uitsluitingen configureren en valideren voor bestanden die door processen worden geopend als u bestanden wilt uitsluiten die door een specifiek proces [worden geopend.](configure-process-opened-file-exclusions-microsoft-defender-antivirus.md)
 
 De uitsluitingen zijn van [toepassing op geplande scans,](scheduled-catch-up-scans-microsoft-defender-antivirus.md) [scans](run-scan-microsoft-defender-antivirus.md)op aanvraag en [real-time beveiliging.](configure-real-time-protection-microsoft-defender-antivirus.md)
 
 > [!IMPORTANT]
-> Wijzigingen in de uitsluitingslijst die met **groepsbeleid** zijn aangebracht, worden weergegeven in de lijsten in de [Windows-beveiligings-app.](microsoft-defender-security-center-antivirus.md)
-> Wijzigingen die zijn aangebracht in de Windows Security-app, **worden niet in** de lijsten met groepsbeleidslijsten vermeld.
+> Wijzigingen in de uitsluitingslijst die zijn aangebracht **met** groepsbeleid, worden weergegeven in de lijsten in [de Windows-beveiliging app](microsoft-defender-security-center-antivirus.md).
+> Wijzigingen die zijn aangebracht in Windows-beveiliging **app, worden niet in** de lijsten met groepsbeleidslijsten vermeld.
 
 Lokale wijzigingen die zijn aangebracht in de lijsten (door gebruikers met beheerdersbevoegdheden, inclusief wijzigingen die zijn aangebracht met PowerShell en WMI), worden standaard samengevoegd met de lijsten zoals gedefinieerd (en geïmplementeerd) door Groepsbeleid, Configuratiebeheer of Intune. De lijsten met groepsbeleid hebben voorrang wanneer er conflicten zijn.
 
@@ -80,11 +80,11 @@ U kunt [configureren hoe lijsten met](configure-local-policy-overrides-microsoft
 
 Zie de volgende artikelen:
 - [Instellingen voor apparaatbeperkingen configureren in Microsoft Intune](/intune/device-restrictions-configure)
-- [Microsoft Defender Antivirus device restriction settings for Windows 10 in Intune](/intune/device-restrictions-windows-10#microsoft-defender-antivirus)
+- [Microsoft Defender Antivirus instellingen voor apparaatbeperkingen voor Windows 10 in Intune](/intune/device-restrictions-windows-10#microsoft-defender-antivirus)
 
 ### <a name="use-configuration-manager-to-configure-file-name-folder-or-file-extension-exclusions"></a>Configuration Manager gebruiken om uitsluitingen van bestandsnaam, map of bestandsextensie te configureren
 
-Zie [Antimalware-beleid](/configmgr/protect/deploy-use/endpoint-antimalware-policies#exclusion-settings) maken en implementeren: Uitsluitingsinstellingen voor meer informatie over het configureren van Microsoft Endpoint Manager (huidige branch).
+Zie [Antimalware-beleid](/configmgr/protect/deploy-use/endpoint-antimalware-policies#exclusion-settings) maken en implementeren: Uitsluitingsinstellingen voor meer informatie over het configureren van Microsoft Endpoint Manager (huidige vertakking).
 
 ### <a name="use-group-policy-to-configure-folder-or-file-extension-exclusions"></a>Groepsbeleid gebruiken om uitsluitingen van mappen of bestandsextensie te configureren
 
@@ -95,7 +95,7 @@ Zie [Antimalware-beleid](/configmgr/protect/deploy-use/endpoint-antimalware-poli
 
 2. Ga in **de Editor voor groepsbeleidsbeheer** naar **Computerconfiguratie** en selecteer **Beheersjablonen.**
 
-3. Vouw de boom uit naar **Windows-onderdelen**  >  **Microsoft Defender Antivirus**  >  **Exclusions**.
+3. Vouw de boom uit Windows **onderdelen**  >  **Microsoft Defender Antivirus**  >  **Uitsluitingen.**
 
 4. Open de **instelling Paduitsluitingen** voor bewerken en voeg uw uitsluitingen toe.
 
@@ -144,15 +144,15 @@ De volgende opties zijn toegestaan `<exclusion list>` als:
 > [!IMPORTANT]
 > Als u een lijst hebt gemaakt, met of , wordt de bestaande lijst opnieuw overschreven door de `Set-MpPreference` `Add-MpPreference` `Set-MpPreference` cmdlet te gebruiken.
 
-Met het volgende codefragment wordt bijvoorbeeld een bestand met de bestandsextensie uitgesloten door Microsoft Defender `.test` Antivirus-scans:
+Het volgende codefragment zorgt er bijvoorbeeld voor dat Microsoft Defender Antivirus bestand met de bestandsextensie `.test` uitsluit:
 
 ```PowerShell
 Add-MpPreference -ExclusionExtension ".test"
 ```
 
-Zie [PowerShell-cmdlets](use-powershell-cmdlets-microsoft-defender-antivirus.md) gebruiken om Microsoft Defender Antivirus- en [Defender-cmdlets](/powershell/module/defender/)te configureren en uit te voeren voor meer informatie.
+Zie [PowerShell-cmdlets gebruiken om Microsoft Defender Antivirus te configureren en uit te voeren](use-powershell-cmdlets-microsoft-defender-antivirus.md) en [Defender-cmdlets](/powershell/module/defender/) voor meer informatie.
 
-### <a name="use-windows-management-instruction-wmi-to-configure-file-name-folder-or-file-extension-exclusions"></a>Windows Management Instruction (WMI) gebruiken om uitsluitingen voor bestandsnaam, map of bestandsextensie te configureren
+### <a name="use-windows-management-instruction-wmi-to-configure-file-name-folder-or-file-extension-exclusions"></a>Gebruik Windows Management Instruction (WMI) om uitsluitingen van bestandsnaam, map of bestandsextensie te configureren
 
 Gebruik de [ **methoden Set,** **Add** en **Remove** van](/previous-versions/windows/desktop/legacy/dn455323(v=vs.85)) de MSFT_MpPreference voor de volgende eigenschappen:
 
@@ -163,13 +163,13 @@ ExclusionPath
 
 Het gebruik van **Set,** **Add** en **Remove** is vergelijkbaar met hun tegenhangers in PowerShell: `Set-MpPreference` , en `Add-MpPreference` `Remove-MpPreference` .
 
-Zie Windows [Defender WMIv2 API's](/previous-versions/windows/desktop/defender/windows-defender-wmiv2-apis-portal)voor meer informatie.
+Zie voor meer informatie [Windows Defender WMIv2 API's](/previous-versions/windows/desktop/defender/windows-defender-wmiv2-apis-portal).
 
 <a id="man-tools"></a>
 
-### <a name="use-the-windows-security-app-to-configure-file-name-folder-or-file-extension-exclusions"></a>De Windows Security-app gebruiken om uitsluitingen van bestandsnaam, map of bestandsextensie te configureren
+### <a name="use-the-windows-security-app-to-configure-file-name-folder-or-file-extension-exclusions"></a>Gebruik de Windows-beveiliging-app om uitsluitingen voor bestandsnaam, map of bestandsextensie te configureren
 
-Zie [Uitsluitingen toevoegen in de Windows Security-app](microsoft-defender-security-center-antivirus.md) voor instructies.
+Zie [Uitsluitingen toevoegen in de Windows-beveiliging app](microsoft-defender-security-center-antivirus.md) voor instructies.
 
 <a id="wildcards"></a>
 
@@ -275,16 +275,16 @@ U kunt de items in de uitsluitingslijst op een van de volgende manieren ophalen:
 - [Microsoft Endpoint Configuration Manager](/configmgr/protect/deploy-use/endpoint-antimalware-policies)
 - MpCmdRun
 - PowerShell
-- [Windows-beveiligingsapp](microsoft-defender-security-center-antivirus.md)
+- [Windows-beveiliging app](microsoft-defender-security-center-antivirus.md)
 
 >[!IMPORTANT]
->Wijzigingen in de uitsluitingslijst die met **groepsbeleid** zijn aangebracht, worden weergegeven in de lijsten in de [Windows-beveiligings-app.](microsoft-defender-security-center-antivirus.md)
+>Wijzigingen in de uitsluitingslijst die zijn aangebracht **met** groepsbeleid, worden weergegeven in de lijsten in [de Windows-beveiliging app](microsoft-defender-security-center-antivirus.md).
 >
->Wijzigingen die zijn aangebracht in de Windows Security-app, **worden niet in** de lijsten met groepsbeleidslijsten vermeld.
+>Wijzigingen die zijn aangebracht in Windows-beveiliging **app, worden niet in** de lijsten met groepsbeleidslijsten vermeld.
 
 Als u PowerShell gebruikt, kunt u de lijst op twee manieren ophalen:
 
-- De status van alle Microsoft Defender Antivirusvoorkeuren ophalen. Elke lijst wordt weergegeven op afzonderlijke regels, maar de items in elke lijst worden gecombineerd tot dezelfde regel.
+- De status van alle Microsoft Defender Antivirus ophalen. Elke lijst wordt weergegeven op afzonderlijke regels, maar de items in elke lijst worden gecombineerd tot dezelfde regel.
 - Schrijf de status van alle voorkeuren op een variabele en gebruik deze variabele om alleen de specifieke lijst te bellen waarin u geïnteresseerd bent. Elk gebruik van `Add-MpPreference` is geschreven naar een nieuwe regel.
 
 ### <a name="validate-the-exclusion-list-by-using-mpcmdrun"></a>De uitsluitingslijst valideren met MpCmdRun
@@ -299,9 +299,9 @@ MpCmdRun.exe -CheckExclusion -path <path>
 ```
 
 >[!NOTE]
->Voor het controleren van uitsluitingen met MpCmdRun is Microsoft Defender Antivirus CAMP versie 4.18.1812.3 (uitgebracht in december 2018) of hoger vereist.
+>Voor het controleren van uitsluitingen met MpCmdRun Microsoft Defender Antivirus CAMP-versie 4.18.1812.3 (uitgebracht in december 2018) of hoger.
 
-### <a name="review-the-list-of-exclusions-alongside-all-other-microsoft-defender-antivirus-preferences-by-using-powershell"></a>Bekijk de lijst met uitsluitingen naast alle andere Antivirusvoorkeuren van Microsoft Defender met PowerShell
+### <a name="review-the-list-of-exclusions-alongside-all-other-microsoft-defender-antivirus-preferences-by-using-powershell"></a>Bekijk de lijst met uitsluitingen naast alle andere Microsoft Defender Antivirus met PowerShell
 
 Gebruik de volgende cmdlet:
 
@@ -313,7 +313,7 @@ In het volgende voorbeeld zijn de items in de `ExclusionExtension` lijst gemarke
 
 ![PowerShell-uitvoer voor Get-MpPreference met de uitsluitingslijst naast andere voorkeuren](images/defender/wdav-powershell-get-exclusions-all.png)
 
-Zie [PowerShell-cmdlets](use-powershell-cmdlets-microsoft-defender-antivirus.md) gebruiken om Microsoft Defender Antivirus- en [Defender-cmdlets](/powershell/module/defender/)te configureren en uit te voeren voor meer informatie.
+Zie [PowerShell-cmdlets gebruiken om Microsoft Defender Antivirus te configureren en uit te voeren](use-powershell-cmdlets-microsoft-defender-antivirus.md) en [Defender-cmdlets](/powershell/module/defender/) voor meer informatie.
 
 ### <a name="retrieve-a-specific-exclusions-list-by-using-powershell"></a>Een specifieke lijst met uitsluitingen ophalen met PowerShell
 
@@ -329,7 +329,7 @@ In het volgende voorbeeld wordt de lijst gesplitst in nieuwe regels voor elk geb
 
 ![PowerShell-uitvoer met alleen de vermeldingen in de uitsluitingslijst](images/defender/wdav-powershell-get-exclusions-variable.png)
 
-Zie [PowerShell-cmdlets](use-powershell-cmdlets-microsoft-defender-antivirus.md) gebruiken om Microsoft Defender Antivirus- en [Defender-cmdlets](/powershell/module/defender/)te configureren en uit te voeren voor meer informatie.
+Zie [PowerShell-cmdlets gebruiken om Microsoft Defender Antivirus te configureren en uit te voeren](use-powershell-cmdlets-microsoft-defender-antivirus.md) en [Defender-cmdlets](/powershell/module/defender/) voor meer informatie.
 
 <a id="validate"></a>
 
@@ -364,5 +364,5 @@ U kunt de tekenreeks ook kopiëren naar een leeg tekstbestand en proberen deze o
 
 - [Uitsluitingen configureren en valideren in Microsoft Defender Antivirus scans](configure-exclusions-microsoft-defender-antivirus.md)
 - [Uitsluitingen configureren en valideren voor bestanden die zijn geopend door processen](configure-process-opened-file-exclusions-microsoft-defender-antivirus.md)
-- [Microsoft Defender Antivirus-uitsluitingen configureren op Windows Server](configure-server-exclusions-microsoft-defender-antivirus.md)
+- [Uitsluitingen Microsoft Defender Antivirus configureren op Windows Server](configure-server-exclusions-microsoft-defender-antivirus.md)
 - [Veelvoorkomende fouten bij het definiëren van uitsluitingen voorkomen](common-exclusion-mistakes-microsoft-defender-antivirus.md)

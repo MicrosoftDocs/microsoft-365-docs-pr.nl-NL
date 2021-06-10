@@ -54,11 +54,11 @@ Als u snel toegang wilt tot de schemaverwijzing, selecteert u de actie Verwijzin
 
 In de volgende verwijzing vindt u alle tabellen in het geavanceerde schema voor de jacht. Elke tabelnaam wordt koppelingen naar een pagina met de kolomnamen voor die tabel.
 
-Tabel- en kolomnamen worden ook weergegeven in het Microsoft Defender-beveiligingscentrum, in de schemaweergave op het geavanceerde zoekscherm.
+Tabel- en kolomnamen worden ook weergegeven in de Microsoft Defender-beveiligingscentrum, in de schemaweergave op het geavanceerde zoekscherm.
 
 | Tabelnaam | Beschrijving |
 |------------|-------------|
-| **[DeviceAlertEvents](advanced-hunting-devicealertevents-table.md)** | Waarschuwingen in het Microsoft Defender-beveiligingscentrum |
+| **[DeviceAlertEvents](advanced-hunting-devicealertevents-table.md)** | Waarschuwingen op Microsoft Defender-beveiligingscentrum |
 | **[DeviceInfo](advanced-hunting-deviceinfo-table.md)** | Apparaatgegevens, inclusief OS-informatie |
 | **[DeviceNetworkInfo](advanced-hunting-devicenetworkinfo-table.md)** | Netwerkeigenschappen van apparaten, waaronder adapters, IP- en MAC-adressen, evenals verbonden netwerken en domeinen |
 | **[DeviceProcessEvents](advanced-hunting-deviceprocessevents-table.md)** | Procescreatie en gerelateerde gebeurtenissen |
@@ -77,7 +77,7 @@ Tabel- en kolomnamen worden ook weergegeven in het Microsoft Defender-beveiligin
 
 >[!TIP]
 >Gebruik [geavanceerde jacht in Microsoft 365 Defender](/microsoft-365/security/defender/advanced-hunting-overview) om te zoeken naar bedreigingen met behulp van gegevens van Defender voor Eindpunt, Microsoft Defender voor Office 365, Microsoft Cloud App Security en Microsoft Defender voor identiteit. [Microsoft 365 Defender inschakelen](/microsoft-365/security/defender/m365d-enable)<br><br>
-Meer informatie over het verplaatsen van uw geavanceerde zoekwerkstromen van Microsoft Defender voor Eindpunt naar Microsoft 365 Defender in Geavanceerde zoekquery's migreren van [Microsoft Defender voor Eindpunt.](/microsoft-365/security/defender/advanced-hunting-migrate-from-mde)
+Meer informatie over het verplaatsen van uw geavanceerde zoekwerkstromen van Microsoft Defender voor Eindpunt naar Microsoft 365 Defender in Geavanceerde zoekquery's migreren vanuit [Microsoft Defender voor Eindpunt.](/microsoft-365/security/defender/advanced-hunting-migrate-from-mde)
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)

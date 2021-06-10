@@ -28,7 +28,7 @@ ms.locfileid: "51166051"
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-mssp-support-abovefoldlink)
@@ -51,4 +51,4 @@ Deze selectievakjes moeten zijn ingeschakeld:
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [MSSP-toegang verlenen tot de portal](grant-mssp-access.md)
 - [Toegang tot de MSSP-klantportal](access-mssp-portal.md)
-- [Waarschuwingen ophalen van klant tenant](fetch-alerts-mssp.md)
+- [Waarschuwingen ophalen van de klant-tenant](fetch-alerts-mssp.md)

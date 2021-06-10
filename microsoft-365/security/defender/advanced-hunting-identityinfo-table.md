@@ -35,7 +35,7 @@ ms.locfileid: "51935819"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-De tabel in het geavanceerde schema bevat informatie over gebruikersaccounts die zijn verkregen `IdentityInfo` uit verschillende services, waaronder Azure Active [](advanced-hunting-overview.md) Directory. Gebruik deze verwijzing om query's te maken die gegevens uit deze tabel retourneren.
+De `IdentityInfo` tabel in het geavanceerde schema [bevat](advanced-hunting-overview.md) informatie over gebruikersaccounts die zijn verkregen uit verschillende services, waaronder Azure Active Directory. Gebruik deze verwijzing om query's te maken die gegevens uit deze tabel retourneren.
 
 >[!NOTE]
 >De naam van deze tabel is gewijzigd in `AccountInfo` . Tijdens de naamsnoemingen worden alle query's die in de portal zijn opgeslagen, automatisch bijgewerkt. Controleer query's die u ergens anders hebt opgeslagen.

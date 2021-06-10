@@ -38,7 +38,7 @@ ms.locfileid: "51935747"
 > [!IMPORTANT]
 > Sommige informatie is gerelateerd aan voorlopige productversies die mogelijk aanzienlijk gewijzigd worden voordat ze commercieel gepubliceerd worden. Microsoft geeft geen garantie, uitdrukkelijk of impliciet, met betrekking tot de informatie die hier wordt beschreven.
 
-De volgende bronnen bevatten meer informatie over API's die beschikbaar zijn voor andere Microsoft-beveiligingsoplossingen, buiten de Microsoft 365 Defender-API.
+De volgende bronnen bieden meer informatie over API's die beschikbaar zijn voor andere Microsoft-beveiligingsoplossingen, buiten de Microsoft 365 Defender API.
 
 - [Microsoft Defender voor Endpoint](/windows/security/threat-protection/microsoft-defender-atp/apis-intro)
 - [Microsoft Defender voor Office 365](/office/office-365-management-api/)

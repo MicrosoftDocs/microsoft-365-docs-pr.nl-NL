@@ -34,12 +34,12 @@ De twee primaire doelen voor het behoud van tenantisolatie in een omgeving met m
 1.    Het voorkomen van lekkage van of ongeautoriseerde toegang tot klantinhoud in tenants; en
 2.    Voorkomen dat de acties van een tenant de service voor een andere tenant nadelig beïnvloeden
 
-Er zijn meerdere vormen van beveiliging geïmplementeerd in Microsoft 365 om te voorkomen dat klanten microsoft 365-services of -toepassingen in gevaar brengen of onbevoegde toegang krijgen tot de informatie van andere tenants of het Microsoft 365-systeem zelf, waaronder:
+Er zijn meerdere vormen van beveiliging geïmplementeerd in Microsoft 365 om te voorkomen dat klanten Microsoft 365 services of toepassingen in gevaar brengen of onbevoegde toegang krijgen tot de informatie van andere tenants of het Microsoft 365-systeem zelf, waaronder:
 
-- Logische isolatie van klantinhoud binnen elke tenant voor Microsoft 365-services wordt bereikt via Azure Active Directory-autorisatie en toegangsbeheer op basis van rollen.
-- SharePoint Online biedt mechanismen voor gegevensisolatie op opslagniveau.
-- Microsoft gebruikt strikte fysieke beveiliging, achtergrondscreening en een versleutelingsstrategie met meerdere lagen om de vertrouwelijkheid en integriteit van klantinhoud te beschermen. Alle Microsoft 365-datacenters hebben biometrische toegangsbesturingselementen, met de meeste handpalmafdrukken om fysieke toegang te krijgen. Bovendien moeten alle Werknemers van Microsoft in de Verenigde Staten een standaardachtergrondcontrole voltooien als onderdeel van het wervingsproces. Zie Beheertoegangsbesturingselementen voor Microsoft 365 voor meer informatie over de besturingselementen die worden gebruikt voor beheertoegang in Microsoft [365.](/compliance/assurance/assurance-administrative-access-controls-overview)
-- Microsoft 365 gebruikt servicetechnologieën die klantinhoud in rust en onderweg versleutelen, waaronder BitLocker, versleuteling per bestand, Transport Layer Security (TLS) en Internet Protocol Security (IPsec). Zie Gegevensversleutelingstechnologieën in Microsoft 365 voor meer informatie over [versleuteling in Microsoft 365.](../compliance/office-365-encryption-in-the-microsoft-cloud-overview.md)
+- Logische isolatie van klantinhoud binnen elke tenant voor Microsoft 365 services wordt bereikt Azure Active Directory autorisatie en toegangsbeheer op basis van rollen.
+- SharePoint Online biedt gegevensisolatiemechanismen op opslagniveau.
+- Microsoft gebruikt strikte fysieke beveiliging, achtergrondscreening en een versleutelingsstrategie met meerdere lagen om de vertrouwelijkheid en integriteit van klantinhoud te beschermen. Alle Microsoft 365 datacenters hebben biometrische toegangsbesturingselementen, waarbij de meeste handpalmafdrukken nodig zijn om fysieke toegang te krijgen. Bovendien moeten alle Werknemers van Microsoft in de Verenigde Staten een standaardachtergrondcontrole voltooien als onderdeel van het wervingsproces. Zie voor meer informatie over de besturingselementen die worden gebruikt voor beheertoegang in Microsoft 365 beheertoegang [Microsoft 365 Beheertoegangsbesturingselementen.](/compliance/assurance/assurance-administrative-access-controls-overview)
+- Microsoft 365 gebruikt servicetechnologieën die klantinhoud in rust en doorvoer versleutelen, waaronder BitLocker, versleuteling per bestand, Transport Layer Security (TLS) en Internet Protocol Security (IPsec). Zie Gegevensversleutelingstechnologieën in Microsoft 365 voor meer informatie over versleuteling [in Microsoft 365.](../compliance/office-365-encryption-in-the-microsoft-cloud-overview.md)
 
 Samen bieden de bovenstaande beveiligingen krachtige logische isolatiebesturingselementen die bedreigingsbeveiliging en -beperking bieden die vergelijkbaar zijn met die van alleen fysieke isolatie.
 
@@ -47,7 +47,7 @@ Samen bieden de bovenstaande beveiligingen krachtige logische isolatiebesturings
 
 - [Isolatie en toegankelijkheid beheren in Azure Active Directory](microsoft-365-isolation-in-azure-active-directory.md)
 - [Tenant isolatie in Office Graph en Delve](microsoft-365-isolation-in-graph-and-delve.md)
-- [Tenantisolatie in Microsoft 365 Search](microsoft-365-isolation-in-microsoft-365-search.md)
+- [Tenantisolatie in Microsoft 365 Zoeken](microsoft-365-isolation-in-microsoft-365-search.md)
 - [Tenantisolatie in Office 365 Video](microsoft-365-isolation-in-microsoft-365-video.md)
 - [Resourcelimieten](/compliance/assurance/assurance-resource-limits)
 - [Tenant grenzen controleren en testen](/compliance/assurance/assurance-monitoring-and-testing)

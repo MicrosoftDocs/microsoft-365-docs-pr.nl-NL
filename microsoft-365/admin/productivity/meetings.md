@@ -140,7 +140,7 @@ We bieden u ook ondersteunende informatie om te begrijpen hoe personen in uw org
         - Teller: Het aantal personen dat in de afgelopen 28 dagen terugkerende vergaderingen in de agenda bijwoont (gepland)
         - Noemer: Het aantal personen dat online deel Microsoft Teams de afgelopen 28 dagen
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Microsoft 365 apps health – Technology experiences](apps-health.md) (article)\
 [Communicatie – Ervaringen met personen](communication.md) (artikel)\

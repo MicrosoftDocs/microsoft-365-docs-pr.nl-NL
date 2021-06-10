@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365-gebruikersaccounts verwijderen met PowerShell
+title: Gebruikersaccounts Microsoft 365 verwijderen met PowerShell
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -19,7 +19,7 @@ ms.custom:
 - O365ITProTrain
 - seo-marvel-apr2020
 ms.assetid: 209c9868-448c-49bc-baae-11e28b923a39
-description: Meer informatie over het gebruik van verschillende modules in PowerShell om Microsoft 365-gebruikersaccounts te verwijderen.
+description: Meer informatie over het gebruik van verschillende modules in PowerShell om Microsoft 365 gebruikersaccounts te verwijderen.
 ms.openlocfilehash: 32081d1ce0cbc7aac89b337cf8b5d08bc8e43dfa
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -27,19 +27,19 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50919138"
 ---
-# <a name="delete-microsoft-365-user-accounts-with-powershell"></a>Microsoft 365-gebruikersaccounts verwijderen met PowerShell
+# <a name="delete-microsoft-365-user-accounts-with-powershell"></a>Gebruikersaccounts Microsoft 365 verwijderen met PowerShell
 
-U kunt PowerShell voor Microsoft 365 gebruiken om gebruikersaccounts te verwijderen en te herstellen.
+U kunt PowerShell gebruiken om Microsoft 365 gebruikersaccounts te verwijderen en te herstellen.
 
 >[!Note]
->Meer informatie over het [herstellen van een gebruikersaccount](../admin/add-users/restore-user.md) via het Microsoft 365-beheercentrum.
+>Meer informatie over het [herstellen van een gebruikersaccount](../admin/add-users/restore-user.md) via het Microsoft 365 beheercentrum.
 >
 >Zie Gebruikers en groepen beheren voor een lijst met [aanvullende bronnen.](../admin/add-users/index.yml)
 >   
    
-## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>De Azure Active Directory PowerShell voor Graph-module gebruiken
+## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>De powershell Azure Active Directory powershell gebruiken voor Graph module
 
-Maak eerst [verbinding met uw Microsoft 365-tenant.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
+Maak eerst [verbinding met uw Microsoft 365 tenant.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
 
 Nadat u verbinding hebt gemaakt, gebruikt u de volgende syntaxis om een afzonderlijk gebruikersaccount te verwijderen:
   
@@ -77,11 +77,11 @@ $userName="<display name>"
 Remove-AzureADUser -ObjectID (Get-AzureADUser | where {$_.DisplayName -eq $userName}).UserPrincipalName
 ```
 
-## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>De Microsoft Azure Active Directory-module voor Windows PowerShell gebruiken
+## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Gebruik de Microsoft Azure Active Directory module voor Windows PowerShell
 
-Wanneer u een gebruikersaccount verwijdert via de Microsoft Azure Active Directory-module voor Windows PowerShell, wordt het account niet definitief verwijderd. U kunt het verwijderde gebruikersaccount binnen 30 dagen herstellen.
+Wanneer u een gebruikersaccount verwijdert via Microsoft Azure Active Directory module voor Windows PowerShell, wordt het account niet definitief verwijderd. U kunt het verwijderde gebruikersaccount binnen 30 dagen herstellen.
 
-Maak eerst [verbinding met uw Microsoft 365-tenant.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
+Maak eerst [verbinding met uw Microsoft 365 tenant.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
 Als u een gebruikersaccount wilt verwijderen, gebruikt u de volgende syntaxis:
   

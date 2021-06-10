@@ -31,7 +31,7 @@ ms.locfileid: "52274608"
 
 - [Microsoft Defender voor Eindpunt](/microsoft-365/security/defender-endpoint/)
 
-U kunt bestanden die door specifieke processen zijn geopend, uitsluiten van Microsoft Defender Antivirus-scans. Zie Aanbevelingen voor het definiëren van uitsluitingen voordat u uw [uitsluitingslijsten](configure-exclusions-microsoft-defender-antivirus.md#recommendations-for-defining-exclusions) definieert.
+U kunt bestanden die door specifieke processen zijn geopend, uitsluiten van Microsoft Defender Antivirus scans. Zie Aanbevelingen voor het definiëren van uitsluitingen voordat u uw [uitsluitingslijsten](configure-exclusions-microsoft-defender-antivirus.md#recommendations-for-defining-exclusions) definieert.
 
 In dit artikel wordt beschreven hoe u uitsluitingslijsten configureert. 
 
@@ -44,13 +44,13 @@ In dit artikel wordt beschreven hoe u uitsluitingslijsten configureert.
 |Een bestand op de computer dat wordt geopend door een specifiek proces in een specifieke map | Als u `c:\test\process.exe` opgeeft, worden bestanden alleen geopend door `c:\test\process.exe` |
 
 
-Wanneer u een proces toevoegt aan de lijst met procesuitsluitingen, scant Microsoft Defender Antivirus geen bestanden die door dat proces worden geopend, ongeacht waar de bestanden zich bevinden. Het proces zelf wordt echter gescand, tenzij het ook is toegevoegd aan de lijst met [bestandsuitsluitingen.](configure-extension-file-exclusions-microsoft-defender-antivirus.md)
+Wanneer u een proces toevoegt aan de lijst met procesuitsluitingen, worden Microsoft Defender Antivirus bestanden die door dat proces worden geopend niet gescand, ongeacht waar de bestanden zich bevinden. Het proces zelf wordt echter gescand, tenzij het ook is toegevoegd aan de lijst met [bestandsuitsluitingen.](configure-extension-file-exclusions-microsoft-defender-antivirus.md)
 
 De uitsluitingen zijn alleen van toepassing op realtime-beveiliging en -monitoring in [realtime.](configure-real-time-protection-microsoft-defender-antivirus.md) Ze zijn niet van toepassing op geplande of on-demand scans.
 
-Wijzigingen die zijn aangebracht met groepsbeleid in de uitsluitingslijsten, worden **in** de lijsten in de [Windows-beveiligingsapp vermeld.](microsoft-defender-security-center-antivirus.md) Wijzigingen die zijn aangebracht in de Windows-beveiligings-app, **worden echter niet in** de lijsten met groepsbeleidslijsten vermeld.
+Wijzigingen die zijn aangebracht met groepsbeleid in de uitsluitingslijsten, worden **in** de lijsten in de [Windows-beveiliging app.](microsoft-defender-security-center-antivirus.md) Wijzigingen die zijn aangebracht in de Windows-beveiliging worden **echter niet in** de lijsten met groepsbeleidslijsten vermeld.
 
-U kunt lijsten toevoegen, verwijderen en controleren op uitsluitingen in groepsbeleid, Microsoft Endpoint Configuration Manager, Microsoft Intune en met de Windows Security-app. U kunt jokertekens gebruiken om de lijsten verder aan te passen.
+U kunt lijsten toevoegen, verwijderen en controleren op uitsluitingen in groepsbeleid, Microsoft Endpoint Configuration Manager, Microsoft Intune en met de Windows-beveiliging-app en u kunt jokertekens gebruiken om de lijsten verder aan te passen.
 
 U kunt ook PowerShell-cmdlets en WMI gebruiken om de uitsluitingslijsten te configureren, inclusief het controleren van uw lijsten.
 
@@ -60,13 +60,13 @@ U kunt [configureren hoe lijsten met](configure-local-policy-overrides-microsoft
 
 ## <a name="configure-the-list-of-exclusions-for-files-opened-by-specified-processes"></a>De lijst met uitsluitingen configureren voor bestanden die zijn geopend met opgegeven processen
 
-### <a name="use-microsoft-intune-to-exclude-files-that-have-been-opened-by-specified-processes-from-scans"></a>Microsoft Intune gebruiken om bestanden die zijn geopend door opgegeven processen uit scans uit te sluiten
+### <a name="use-microsoft-intune-to-exclude-files-that-have-been-opened-by-specified-processes-from-scans"></a>Gebruik Microsoft Intune om bestanden die zijn geopend door opgegeven processen uit scans uit te sluiten
 
-Zie [Instellingen voor apparaatbeperkingen configureren in Microsoft Intune](/intune/device-restrictions-configure) en Microsoft Defender Antivirus apparaatbeperkingen voor [Windows 10 in Intune](/intune/device-restrictions-windows-10#microsoft-defender-antivirus) voor meer informatie.
+Zie [Instellingen voor apparaatbeperkingen configureren in Microsoft Intune](/intune/device-restrictions-configure) en [Microsoft Defender Antivirus-apparaatbeperkingsinstellingen voor Windows 10 in Intune](/intune/device-restrictions-windows-10#microsoft-defender-antivirus) voor meer informatie.
 
-### <a name="use-microsoft-endpoint-manager-to-exclude-files-that-have-been-opened-by-specified-processes-from-scans"></a>Microsoft Endpoint Manager gebruiken om bestanden die zijn geopend door opgegeven processen uit scans uit te sluiten
+### <a name="use-microsoft-endpoint-manager-to-exclude-files-that-have-been-opened-by-specified-processes-from-scans"></a>Gebruik Microsoft Endpoint Manager om bestanden die zijn geopend door opgegeven processen uit scans uit te sluiten
 
-Zie [Antimalware-beleid](/configmgr/protect/deploy-use/endpoint-antimalware-policies#exclusion-settings) maken en implementeren: Uitsluitingsinstellingen voor meer informatie over het configureren van Microsoft Endpoint Manager (huidige branch).
+Zie [Antimalware-beleid](/configmgr/protect/deploy-use/endpoint-antimalware-policies#exclusion-settings) maken en implementeren: Uitsluitingsinstellingen voor meer informatie over het configureren van Microsoft Endpoint Manager (huidige vertakking).
 
 ### <a name="use-group-policy-to-exclude-files-that-have-been-opened-by-specified-processes-from-scans"></a>Groepsbeleid gebruiken om bestanden die zijn geopend door opgegeven processen uit scans uit te sluiten
 
@@ -74,7 +74,7 @@ Zie [Antimalware-beleid](/configmgr/protect/deploy-use/endpoint-antimalware-poli
 
 2. Ga in **groepsbeleidseditor** naar **Computerconfiguratie** en klik op **Beheersjablonen.**
 
-3. Vouw de structuur uit naar **Windows-onderdelen > Microsoft Defender Antivirus > Exclusions**.
+3. Vouw de boom uit **Windows onderdelen > Microsoft Defender Antivirus > Uitsluitingen.**
 
 4. Dubbelklik op **Uitsluitingen verwerken** en voeg de uitsluitingen toe:
 
@@ -111,9 +111,9 @@ Het volgende codefragment zorgt er bijvoorbeeld voor dat microsoft Defender AV-s
 Add-MpPreference -ExclusionProcess "c:\internal\test.exe"
 ```
 
-Zie Antivirus beheren met PowerShell-cmdlets en [Microsoft Defender Antivirus-cmdlets](/powershell/module/defender)voor meer informatie over het gebruik van PowerShell met Microsoft Defender Antivirus.
+Zie Antivirus beheren met PowerShell-cmdlets en Microsoft Defender Antivirus [cmdlets](/powershell/module/defender)voor meer informatie over het gebruik Microsoft Defender Antivirus PowerShell.
 
-### <a name="use-windows-management-instruction-wmi-to-exclude-files-that-have-been-opened-by-specified-processes-from-scans"></a>Windows Management Instruction (WMI) gebruiken om bestanden die zijn geopend door opgegeven processen uit scans uit te sluiten
+### <a name="use-windows-management-instruction-wmi-to-exclude-files-that-have-been-opened-by-specified-processes-from-scans"></a>Gebruik Windows Management Instruction (WMI) om bestanden die zijn geopend door opgegeven processen uit scans uit te sluiten
 
 Gebruik de [ **methoden Set,** **Add** en **Remove** van](/previous-versions/windows/desktop/legacy/dn455323(v=vs.85)) de MSFT_MpPreference voor de volgende eigenschappen:
 
@@ -123,11 +123,11 @@ ExclusionProcess
 
 Het gebruik van **Set,** **Add** en **Remove** is vergelijkbaar met hun tegenhangers in PowerShell: `Set-MpPreference` , en `Add-MpPreference` `Remove-MpPreference` .
 
-Zie  [Windows Defender WMIv2 API's](/previous-versions/windows/desktop/defender/windows-defender-wmiv2-apis-portal)voor meer informatie en toegestane parameters.
+Zie voor meer informatie en toegestane parameters [Windows Defender WMIv2 API's](/previous-versions/windows/desktop/defender/windows-defender-wmiv2-apis-portal).
 
-### <a name="use-the-windows-security-app-to-exclude-files-that-have-been-opened-by-specified-processes-from-scans"></a>Gebruik de Windows Security-app om bestanden die zijn geopend door opgegeven processen uit scans uit te sluiten
+### <a name="use-the-windows-security-app-to-exclude-files-that-have-been-opened-by-specified-processes-from-scans"></a>Gebruik de Windows-beveiliging app om bestanden die zijn geopend door opgegeven processen uit scans uit te sluiten
 
-Zie [Uitsluitingen toevoegen in de Windows Security-app](microsoft-defender-security-center-antivirus.md) voor instructies.
+Zie [Uitsluitingen toevoegen in de Windows-beveiliging app](microsoft-defender-security-center-antivirus.md) voor instructies.
 
 ## <a name="use-wildcards-in-the-process-exclusion-list"></a>Jokertekens gebruiken in de lijst met procesuitsluitingen
 
@@ -144,11 +144,11 @@ In de volgende tabel wordt beschreven hoe de jokertekens kunnen worden gebruikt 
 
 ## <a name="review-the-list-of-exclusions"></a>De lijst met uitsluitingen bekijken
 
-U kunt de items in de uitsluitingslijst ophalen met MpCmdRun, PowerShell, [Microsoft Endpoint Configuration Manager,](/configmgr/protect/deploy-use/endpoint-antimalware-policies#exclusion-settings) [Intune](/intune/device-restrictions-configure)of de [Windows Security-app.](microsoft-defender-security-center-antivirus.md)
+U kunt de items in de uitsluitingslijst ophalen met MpCmdRun, PowerShell, [Microsoft Endpoint Configuration Manager,](/configmgr/protect/deploy-use/endpoint-antimalware-policies#exclusion-settings) [Intune](/intune/device-restrictions-configure)of de [Windows-beveiliging app.](microsoft-defender-security-center-antivirus.md)
 
 Als u PowerShell gebruikt, kunt u de lijst op twee manieren ophalen:
 
-- De status van alle Microsoft Defender Antivirusvoorkeuren ophalen. Elk van de lijsten wordt weergegeven op afzonderlijke regels, maar de items in elke lijst worden gecombineerd tot dezelfde regel.
+- De status van alle Microsoft Defender Antivirus ophalen. Elk van de lijsten wordt weergegeven op afzonderlijke regels, maar de items in elke lijst worden gecombineerd tot dezelfde regel.
 - Schrijf de status van alle voorkeuren op een variabele en gebruik deze variabele om alleen de specifieke lijst te bellen waarin u geïnteresseerd bent. Elk gebruik van `Add-MpPreference` is geschreven naar een nieuwe regel.
 
 ### <a name="validate-the-exclusion-list-by-using-mpcmdrun"></a>De uitsluitingslijst valideren met MpCmdRun
@@ -160,10 +160,10 @@ MpCmdRun.exe -CheckExclusion -path <path>
 ```
 
 > [!NOTE]
-> Voor het controleren van uitsluitingen met MpCmdRun is Microsoft Defender Antivirus CAMP versie 4.18.1812.3 (uitgebracht in december 2018) of hoger vereist.
+> Voor het controleren van uitsluitingen met MpCmdRun Microsoft Defender Antivirus CAMP-versie 4.18.1812.3 (uitgebracht in december 2018) of hoger.
 
 
-### <a name="review-the-list-of-exclusions-alongside-all-other-microsoft-defender-antivirus-preferences-by-using-powershell"></a>Bekijk de lijst met uitsluitingen naast alle andere Antivirusvoorkeuren van Microsoft Defender met PowerShell
+### <a name="review-the-list-of-exclusions-alongside-all-other-microsoft-defender-antivirus-preferences-by-using-powershell"></a>Bekijk de lijst met uitsluitingen naast alle andere Microsoft Defender Antivirus met PowerShell
 
 Gebruik de volgende cmdlet:
 
@@ -171,7 +171,7 @@ Gebruik de volgende cmdlet:
 Get-MpPreference
 ```
 
-Zie [PowerShell-cmdlets](use-powershell-cmdlets-microsoft-defender-antivirus.md) gebruiken om Microsoft Defender Antivirus- en [Defender-cmdlets](/powershell/module/defender) te configureren en uit te voeren voor meer informatie over het gebruik van PowerShell met Microsoft Defender Antivirus.
+Zie [PowerShell-cmdlets](use-powershell-cmdlets-microsoft-defender-antivirus.md) gebruiken om Microsoft Defender Antivirus en [Defender-cmdlets](/powershell/module/defender) te configureren en uit te voeren voor meer informatie over het gebruik van PowerShell met Microsoft Defender Antivirus.
 
 ### <a name="retrieve-a-specific-exclusions-list-by-using-powershell"></a>Een specifieke lijst met uitsluitingen ophalen met PowerShell
 
@@ -182,13 +182,13 @@ $WDAVprefs = Get-MpPreference
 $WDAVprefs.ExclusionProcess
 ```
 
-Zie [PowerShell-cmdlets](use-powershell-cmdlets-microsoft-defender-antivirus.md) gebruiken om Microsoft Defender Antivirus- en [Defender-cmdlets](/powershell/module/defender) te configureren en uit te voeren voor meer informatie over het gebruik van PowerShell met Microsoft Defender Antivirus.
+Zie [PowerShell-cmdlets](use-powershell-cmdlets-microsoft-defender-antivirus.md) gebruiken om Microsoft Defender Antivirus en [Defender-cmdlets](/powershell/module/defender) te configureren en uit te voeren voor meer informatie over het gebruik van PowerShell met Microsoft Defender Antivirus.
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-articles"></a>Aanverwante artikelen
 
 - [Uitsluitingen configureren en valideren in Microsoft Defender Antivirus scans](configure-exclusions-microsoft-defender-antivirus.md)
 - [Uitsluitingen configureren en valideren op basis van bestandsnaam, extensie en maplocatie](configure-extension-file-exclusions-microsoft-defender-antivirus.md)
-- [Microsoft Defender Antivirus-uitsluitingen configureren op Windows Server](configure-server-exclusions-microsoft-defender-antivirus.md)
+- [Uitsluitingen Microsoft Defender Antivirus configureren op Windows Server](configure-server-exclusions-microsoft-defender-antivirus.md)
 - [Veelvoorkomende fouten bij het definiëren van uitsluitingen voorkomen](common-exclusion-mistakes-microsoft-defender-antivirus.md)
-- [De resultaten van Microsoft Defender Antivirus scans en herstel aanpassen, starten en controleren](customize-run-review-remediate-scans-microsoft-defender-antivirus.md)
+- [De resultaten van scans en herstel van Microsoft Defender Antivirus aanpassen, starten en controleren](customize-run-review-remediate-scans-microsoft-defender-antivirus.md)
 - [Microsoft Defender Antivirus in Windows 10](microsoft-defender-antivirus-in-windows-10.md)

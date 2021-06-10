@@ -28,7 +28,7 @@ ms.locfileid: "51166195"
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-conditionalaccess-abovefoldlink)
@@ -41,7 +41,7 @@ Met Voorwaardelijke toegang kunt u de toegang tot bedrijfsgegevens bepalen op ba
 
 U kunt beveiligingsvoorwaarden definiëren waaronder apparaten en toepassingen gegevens vanuit uw netwerk kunnen uitvoeren en openen door beleidsregels uit te voeren om te voorkomen dat toepassingen worden uitgevoerd totdat een apparaat weer compatibel is. 
 
-De implementatie van Voorwaardelijke toegang in Defender voor Eindpunt is gebaseerd op microsoft Intune (Intune) beleid voor apparaat compliance en Azure Active Directory (Azure AD) beleid voor voorwaardelijke toegang. 
+De implementatie van Voorwaardelijke toegang in Defender voor Eindpunt is gebaseerd op Microsoft Intune (Intune) beleid voor apparaat compliance en Azure Active Directory (Azure AD) beleid voor voorwaardelijke toegang. 
 
 Het compliancebeleid wordt gebruikt met Voorwaardelijke toegang om alleen apparaten die voldoen aan een of meer regels voor apparaat compliancebeleid toegang te geven tot toepassingen. 
 

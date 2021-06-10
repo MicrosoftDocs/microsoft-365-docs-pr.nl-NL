@@ -1,5 +1,5 @@
 ---
-title: Gedeelde query's gebruiken in geavanceerde microsoft 365 Defender-zoekopdrachten
+title: Gedeelde query's gebruiken in Microsoft 365 defender advanced hunting
 description: Begin onmiddellijk met het zoeken naar bedreigingen met vooraf gedefinieerde en gedeelde query's. Deel uw query's met het publiek of met uw organisatie.
 keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, microsoft 365, m365, search, query, telemetry, custom detections, schema, kusto, github repo, my queries, shared queries
 search.product: eADQiWindows 10XVcnh
@@ -57,7 +57,7 @@ U kunt een nieuwe of bestaande query opslaan, zodat deze alleen toegankelijk is 
     - **Gedeelde query's:** gedeeld met alle gebruikers van uw organisatie
     - **Mijn query's,** die alleen voor u toegankelijk zijn
     
-5. Selecteer **Opslaan**. 
+5. Klik op **Opslaan**. 
 
 ## <a name="delete-or-rename-a-query"></a>Een query verwijderen of de naam wijzigen
 1. Klik met de rechtermuisknop op een query die u wilt wijzigen of verwijderen.
@@ -69,14 +69,14 @@ U kunt een nieuwe of bestaande query opslaan, zodat deze alleen toegankelijk is 
 ## <a name="create-a-direct-link-to-a-query"></a>Een directe koppeling naar een query maken
 Als u een koppeling wilt genereren die uw query rechtstreeks opent in de geavanceerde queryeditor, rondt u de query af en selecteert u **Koppeling delen.**
 
-## <a name="access-queries-in-the-github-repository"></a>Access-query's in de GitHub-opslagplaats  
-Microsoft-beveiligingsonderzoekers delen regelmatig geavanceerde zoekquery's in een aangewezen [openbare opslagplaats op GitHub.](https://aka.ms/hunting-queries) Deze opslagplaats staat open voor bijdragen. Als u wilt bijdragen, [kunt u gratis deelnemen aan GitHub.](https://github.com/)
+## <a name="access-queries-in-the-github-repository"></a>Access-query's in de GitHub archief  
+Microsoft-beveiligingsonderzoekers delen regelmatig geavanceerde zoekquery's in een aangewezen [openbare opslagplaats op GitHub.](https://aka.ms/hunting-queries) Deze opslagplaats staat open voor bijdragen. Als u wilt bijdragen, [kunt GitHub gratis deelnemen.](https://github.com/)
 
 >[!tip]
->Beveiligingsonderzoekers van Microsoft bieden ook geavanceerde zoekquery's die u kunt gebruiken om activiteiten en indicatoren te vinden die zijn gekoppeld aan nieuwe bedreigingen. Deze query's worden geleverd als onderdeel van de [bedreigingsanalyserapporten](/windows/security/threat-protection/microsoft-defender-atp/threat-analytics) in het Microsoft Defender-beveiligingscentrum.
+>Beveiligingsonderzoekers van Microsoft bieden ook geavanceerde zoekquery's die u kunt gebruiken om activiteiten en indicatoren te vinden die zijn gekoppeld aan nieuwe bedreigingen. Deze query's worden geleverd als onderdeel van de [bedreigingsanalyserapporten](/windows/security/threat-protection/microsoft-defender-atp/threat-analytics) in Microsoft Defender-beveiligingscentrum.
 
 >[!NOTE]
->Sommige tabellen in dit artikel zijn mogelijk niet beschikbaar in Microsoft Defender voor Eindpunt. [Schakel Microsoft 365 Defender in om](m365d-enable.md) te zoeken naar bedreigingen met meer gegevensbronnen. U kunt uw geavanceerde zoekwerkstromen verplaatsen van Microsoft Defender voor Eindpunt naar Microsoft 365 Defender door de stappen te volgen in Geavanceerde zoekquery's migreren van [Microsoft Defender voor Eindpunt.](advanced-hunting-migrate-from-mde.md)
+>Sommige tabellen in dit artikel zijn mogelijk niet beschikbaar in Microsoft Defender voor Eindpunt. [Schakel de Microsoft 365 Defender in om](m365d-enable.md) te zoeken naar bedreigingen met behulp van meer gegevensbronnen. U kunt uw geavanceerde zoekwerkstromen verplaatsen van Microsoft Defender voor Eindpunt naar Microsoft 365 Defender door de stappen in Geavanceerde zoekquery's migreren uit [Microsoft Defender voor Eindpunt te volgen.](advanced-hunting-migrate-from-mde.md)
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)

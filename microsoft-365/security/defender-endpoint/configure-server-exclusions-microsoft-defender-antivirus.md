@@ -62,7 +62,7 @@ U kunt de automatische uitsluitingslijsten uitschakelen met groepsbeleid, PowerS
 
 ### <a name="use-group-policy-to-disable-the-auto-exclusions-list-on-windows-server-2016-and-windows-server-2019"></a>Groepsbeleid gebruiken om de lijst met automatische uitsluitingen op Windows Server 2016 en Windows Server 2019 uit te schakelen
 
-1. Open op uw computer voor groepsbeleidsbeheer de [console Groepsbeleidsbeheer](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc725752(v=ws.11)). Klik met de rechtermuisknop op het groepsbeleidsobject dat u wilt configureren en klik vervolgens op **Bewerken.**
+1. Open op uw computer voor groepsbeleidsbeheer de [Console groepsbeleidsbeheer](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc725752(v=ws.11)). Klik met de rechtermuisknop op het groepsbeleidsobject dat u wilt configureren en klik vervolgens op **Bewerken.**
 2. Ga in **de Editor voor groepsbeleidsbeheer** naar **Computerconfiguratie** en klik vervolgens op **Beheersjablonen.**
 3. Vouw de boom uit Windows **onderdelen**  >  **Microsoft Defender Antivirus**  >  **Uitsluitingen.**
 4. Dubbelklik op **Automatische uitsluitingen uitschakelen** en stel de optie in op **Ingeschakeld.** Klik daarna op **OK**. 

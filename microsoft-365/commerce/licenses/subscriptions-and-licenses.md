@@ -80,7 +80,7 @@ Verschillende typen beheerders kunnen op verschillende manieren met licenties we
 |Serviceondersteuningsbeheer  <br/> |Nee  <br/> |Nee  <br/> |Nee  <br/> |Nee  <br/> |
 |Gebruikersbeheerder  <br/> |Ja  <br/> |Ja  <br/> |Nee  <br/> |Ja  <br/> |
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Licenties kopen of verwijderen voor uw zakelijke abonnement](buy-licenses.md) (artikel)\
 [Licenties toewijzen aan gebruikers](../../admin/manage/assign-licenses-to-users.md) (artikel)\

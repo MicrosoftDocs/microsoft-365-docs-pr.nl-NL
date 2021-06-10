@@ -28,11 +28,11 @@ ms.locfileid: "50921502"
 ---
 # <a name="password-hash-synchronization-for-your-microsoft-365-test-environment"></a>Wachtwoord-hash-synchronisatie voor uw Microsoft 365-testomgeving
 
-*Deze testlaborator kan worden gebruikt voor testomgevingen van Microsoft 365 voor bedrijven en Office 365 Enterprise.*
+*Deze testlaborator kan worden gebruikt voor zowel Microsoft 365 voor bedrijven als Office 365 Enterprise testomgevingen.*
 
 Veel organisaties maken gebruik van Azure AD Connect en wachtwoord-hash-synchronisatie om de accounts in hun AD DS-forest (Active Directory Domain Services) op locatie te synchroniseren met de accounts in de Azure AD-tenant van hun Microsoft 365-abonnement. 
 
-In dit artikel wordt beschreven hoe u wachtwoordhashsynchronisatie kunt toevoegen aan uw Microsoft 365-testomgeving, wat resulteert in deze configuratie:
+In dit artikel wordt beschreven hoe u wachtwoordhashsynchronisatie kunt toevoegen aan uw Microsoft 365 testomgeving, wat resulteert in deze configuratie:
   
 ![De gesimuleerde onderneming in een testomgeving met wachtwoord-hash-synchronisatie](../media/password-hash-sync-m365-ent-test-environment/Phase3.png)
   
@@ -42,7 +42,7 @@ Het instellen van deze testomgeving bestaat uit drie fasen:
 - [Fase 3: Azure AD Connect op APP1 installeren](#phase-3-install-azure-ad-connect-on-app1)
     
 > [!TIP]
-> Ga naar [Microsoft 365 for enterprise Test Lab Guide](../downloads/Microsoft365EnterpriseTLGStack.pdf)Stack voor een visuele kaart voor alle artikelen in de Microsoft 365 voor enterprise Test Lab Guide Stack.
+> Voor een visuele kaart van alle artikelen in de Microsoft 365 voor enterprise Test Lab Guide stack, gaat u naar Microsoft 365 voor [enterprise Test Lab Guide Stack.](../downloads/Microsoft365EnterpriseTLGStack.pdf)
   
 ## <a name="phase-1-create-the-microsoft-365-simulated-enterprise-test-environment"></a>Fase 1: De Microsoft 365-testomgeving voor een gesimuleerde onderneming maken
 
@@ -61,7 +61,7 @@ Voeg in deze fase een openbaar DNS-domein toe en voeg het vervolgens toe aan uw 
 
 Werk eerst samen met uw openbare DNS-registratieprovider om een nieuwe openbare DNS-domeinnaam te maken die is gebaseerd op uw huidige domeinnaam en voeg deze vervolgens toe aan uw abonnement. Het is raadzaam om de naam **testlab.<*uw openbare domein te gebruiken.* >** Als uw openbare domeinnaam bijvoorbeeld **<span>contoso</span>.com** is, voegt u de openbare domeinnaam toe: **<span>testlab</span>.contoso.com.**
   
-Voeg vervolgens het **testlab.< >** uw openbare domeindomein toe aan uw proefabonnement of betaald abonnement van Microsoft 365 door het domeinregistratieproces te doorlopen. Dit bestaat uit het toevoegen van extra DNS-records aan het **testlab.<*uw openbare domeindomein.* >** Zie Een domein toevoegen aan [Microsoft 365](../admin/setup/add-domain.md)voor meer informatie.
+Voeg vervolgens het **testlab.< >** uw openbare domeindomein toe aan uw Microsoft 365 proefabonnement of betaald abonnement door het domeinregistratieproces te doorlopen. Dit bestaat uit het toevoegen van extra DNS-records aan het **testlab.<*uw openbare domeindomein.* >** Zie Een domein toevoegen [aan Microsoft 365.](../admin/setup/add-domain.md)
 
 De resulterende configuratie ziet er als volgende uit:
   
@@ -69,7 +69,7 @@ De resulterende configuratie ziet er als volgende uit:
   
 Deze configuratie bestaat uit:
 
-- Een proefabonnement of betaald abonnement op Microsoft 365 E5 met het DNS-domein testlab.<*uw* openbare domeinnaam> geregistreerd.
+- Een Microsoft 365 E5 of betaald abonnement met het DNS-domein testlab.<*uw openbare* domeinnaam> geregistreerd.
 - Een vereenvoudigd intranet van de organisatie dat is verbonden met internet, bestaande uit de virtuele DC1-, APP1- en CLIENT1-machines op een subnet van een virtueel Azure-netwerk.
 
 U ziet hoe het testlab.<*uw openbare* domeinnaam> nu is:
@@ -80,9 +80,9 @@ U ziet hoe het testlab.<*uw openbare* domeinnaam> nu is:
      
 ## <a name="phase-3-install-azure-ad-connect-on-app1"></a>Fase 3: Azure AD Connect op APP1 installeren
 
-In deze fase installeert en configureert u het hulpprogramma Azure AD Connect op APP1 en controleert u of het werkt.
+In deze fase installeert en configureert u de Azure AD Verbinding maken app1 en controleert u of het werkt.
   
-Installeer en configureer Eerst Azure AD Connect op APP1.
+Installeer eerst Azure AD-Verbinding maken op APP1.
 
 1. Ga naar het [Azure-portal](https://portal.azure.com), meld u aan met uw globale beheerdersaccount en maak vervolgens verbinding met APP1 via het TESTLAB\\Gebruiker1-account.
     
@@ -96,15 +96,15 @@ Installeer en configureer Eerst Azure AD Connect op APP1.
 
 3. Selecteer Internet **Explorer** op de taakbalk en ga naar [https://aka.ms/aadconnect](https://aka.ms/aadconnect) .
     
-4. Selecteer op de pagina Microsoft Azure Active Directory Connect de optie **Downloaden** en selecteer vervolgens **Uitvoeren.**
+4. Selecteer op Microsoft Azure Active Directory Verbinding maken pagina **Downloaden** en selecteer vervolgens **Uitvoeren.**
     
-5. Selecteer op **de pagina Welkom bij Azure AD Connect** de optie **Ik** ga akkoord en selecteer vervolgens **Doorgaan.**
+5. Selecteer op **de pagina Welkom bij Azure AD Verbinding maken** ik ga akkoord en selecteer vervolgens **Doorgaan.** 
     
-6. Selecteer op **de pagina Express-instellingen** **de optie Express-instellingen gebruiken.**
+6. Selecteer op **de Instellingen** Express-instellingen **gebruiken.**
     
-7. Voer op **de pagina Verbinding maken** met Azure AD de naam van uw globale beheerdersaccount in Gebruikersnaam **in,** voer het wachtwoord in **Wachtwoord** in en selecteer **Volgende.**
+7. Voer op **Verbinding maken pagina Naar Azure AD** de naam van uw globale beheerdersaccount in Gebruikersnaam **in,** voer het wachtwoord **in** Wachtwoord in en selecteer **Volgende.**
     
-8. Voer op de pagina Verbinding maken met **AD DS** **\\ testlabgebruiker1** in **Gebruikersnaam in,** voer het wachtwoord in **Wachtwoord** in en selecteer **volgende**.
+8. Voer op **Verbinding maken pagina NAAR AD DS** **TESTLAB \\ User1** in **Gebruikersnaam in,** voer het wachtwoord **in** Wachtwoord in en selecteer **Volgende.**
     
 9. Selecteer installeren **op de pagina** Gereed om te **configureren.**
     
@@ -118,7 +118,7 @@ Installeer en configureer Eerst Azure AD Connect op APP1.
     
 13. Selecteer het **User1-account** en selecteer vervolgens **Licenties en apps.**
     
-14. In **Productlicenties**, selecteert u uw locatie (indien nodig), schakelt u de **Office 365 E5-licentie** uit en schakelt u vervolgens de **Microsoft 365 E5-licentie** in. 
+14. In **Productlicenties**, selecteert u uw locatie (indien nodig), schakelt u de **Office 365 E5-licentie** uit en schakelt u de Microsoft 365 E5 **in.** 
 
 15. Selecteer **Opslaan** onder aan de pagina en selecteer **sluiten.**
     
@@ -136,8 +136,8 @@ De resulterende configuratie ziet er als volgende uit:
 
 Deze configuratie bestaat uit: 
   
-- Proefversie of betaalde abonnementen van Microsoft 365 E5 of Office 365 E5 met het DNS-domein TESTLAB.<*uw* domeinnaam> geregistreerd.
-- Een vereenvoudigd intranet van de organisatie dat is verbonden met internet, bestaande uit de virtuele DC1-, APP1- en CLIENT1-machines op een subnet van een virtueel Azure-netwerk. Azure AD Connect wordt uitgevoerd op APP1 om het TESTLAB AD DS-domein regelmatig te synchroniseren met de Azure AD-tenant van uw Microsoft 365-abonnement.
+- Microsoft 365 E5 of Office 365 E5-proefabonnement of betaalde abonnementen met het DNS-domein TESTLAB.<*uw* domeinnaam> geregistreerd.
+- Een vereenvoudigd intranet van de organisatie dat is verbonden met internet, bestaande uit de virtuele DC1-, APP1- en CLIENT1-machines op een subnet van een virtueel Azure-netwerk. Azure AD Verbinding maken wordt uitgevoerd op APP1 om het TESTLAB AD DS-domein regelmatig te synchroniseren met de Azure AD-tenant van uw Microsoft 365 abonnement.
 - Het Gebruiker1-account in het TESTLAB AD DS-domein is gesynchroniseerd met de Azure AD-tenant.
 
 ## <a name="next-step"></a>Volgende stap

@@ -1,6 +1,6 @@
 ---
-title: Navigatietips voor Microsoft 365-documenten
-description: 'Tips en trucs voor het navigeren door de technische documentatie van Microsoft 365: hier wordt uitgelegd hoe u de hubpagina, de inhoudsopgave, de koptekst en hoe u de breadcrumbs gebruikt en hoe u het versiefilter gebruikt.'
+title: Microsoft 365 navigatietips voor documenten
+description: Tips en trucs voor het navigeren door de technische documentatie van het Microsoft 365- worden zaken als de hubpagina, de inhoudsopgave, de koptekst en het gebruik van de breadcrumbs en het gebruik van het versiefilter uitgelegd.
 ms.date: 08/12/2020
 ms.prod: sql
 ms.technology: release-landing
@@ -16,21 +16,21 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50922422"
 ---
-# <a name="microsoft-365-docs-navigation-guide"></a>Navigatiehandleiding voor Microsoft 365-documenten
+# <a name="microsoft-365-docs-navigation-guide"></a>Microsoft 365 navigatiehandleiding voor documenten
 
-Dit onderwerp bevat enkele tips en trucs voor het navigeren door de technische documentatieruimte van Microsoft 365.  
+In dit onderwerp vindt u enkele tips en trucs voor het navigeren door Microsoft 365 technische documentatieruimte.  
 
 ## <a name="hub-page"></a>Hubpagina
 
-De microsoft 365-hubpagina vindt u op en is het toegangspunt voor het vinden van [https://aka.ms/microsoft365docs](./index.yml) relevante Microsoft 365-inhoud.
+De Microsoft 365 hubpagina vindt u op en is het toegangspunt voor het vinden [https://aka.ms/microsoft365docs](./index.yml) van relevante Microsoft 365 inhoud.
 
-U kunt altijd teruggaan naar deze pagina door **Microsoft 365** te selecteren in de koptekst boven aan elke pagina in de technische documentatieset van Microsoft 365:
+U kunt altijd teruggaan naar deze pagina door **Microsoft 365** te selecteren in de koptekst boven aan elke pagina in de Microsoft 365 technische documentatieset:
 
 ![Microsoft 365 in koptekst](media/m365-header-cursor.png)
 
 ## <a name="offline-documentation"></a>Offlinedocumentatie
 
-Als u de Microsoft 365-documentatie op een offlinesysteem wilt bekijken, kunt u een PDF-bestand maken waar u zich ook in de technische documentatie van Microsoft 365 kunt vinden.
+Als u de documentatie Microsoft 365 offline wilt bekijken, kunt u een PDF-bestand maken waar u zich ook in de Microsoft 365 technische documentatie.
 
 Als u een PDF-bestand wilt maken, selecteert u de koppeling **PDF downloaden** onder aan elke inhoudsopgave.
 
@@ -42,11 +42,11 @@ Op docs.microsoft.com kunt u de inhoud in de inhoudsopgave doorzoeken met behulp
 ![Filtervak gebruiken](media/m365-filter-by-title.png)
 
 ## <a name="version-filter"></a>Versiefilter
-De technische documentatie van Microsoft 365 bevat inhoud voor aanvullende producten, waaronder Office 365 Germany en Office 365 beheerd door 21 Vianet (China). Functies kunnen variëren tussen deze versies, en als zodanig kan de inhoud zelf soms variëren.
+De Microsoft 365 technische documentatie bevat inhoud voor aanvullende producten, Office 365 Duitsland en Office 365 beheerd door 21 Vianet (China). Functies kunnen variëren tussen deze versies, en als zodanig kan de inhoud zelf soms variëren.
 
 U kunt het versiefilter gebruiken om ervoor te zorgen dat u inhoud ziet voor de juiste versie van Microsoft 365:
 
-![Microsoft 365-versiefilter](media/m365-version-filter.png)
+![Microsoft 365 versiefilter](media/m365-version-filter.png)
 
 ## <a name="breadcrumbs"></a>Breadcrumbs
 
@@ -62,11 +62,11 @@ In het rechternavigatiedeelvenster kunt u snel naar secties in een artikel navig
 
 ## <a name="submit-docs-feedback"></a>Feedback over documenten verzenden
 
-Als er iets mis is in een artikel, kunt u feedback sturen naar het SQL Content-team voor dat artikel door omlaag te schuiven naar de onderkant van de pagina en Feedback over inhoud **te selecteren.**
+Als er iets mis is in een artikel, kunt u feedback verzenden naar het SQL Content-team voor dat artikel door omlaag te schuiven naar de onderkant van de pagina en Inhoudsfeedback **te selecteren.**
 
 ![Feedback over Git Issue-inhoud](media/m365-article-feedback.png)
 
-## <a name="contribute-to-microsoft-365-documentation"></a>Bijdragen aan Microsoft 365-documentatie
+## <a name="contribute-to-microsoft-365-documentation"></a>Bijdragen aan Microsoft 365 documentatie
 
 Wist u dat u de inhoud op uw docs.microsoft.com bewerken? Als u dit doet, wordt onze documentatie niet alleen verbeterd, maar wordt u ook gecrediteerd als bijdrager aan de pagina. Zie het volgende om aan de slag te gaan:
 
@@ -74,4 +74,4 @@ Wist u dat u de inhoud op uw docs.microsoft.com bewerken? Als u dit doet, wordt 
 
 ## <a name="next-steps"></a>Volgende stappen
 
-- Aan de slag met de [technische documentatie van Microsoft 365.](index.yml)
+- Aan de slag met [de Microsoft 365 technische documentatie.](index.yml)

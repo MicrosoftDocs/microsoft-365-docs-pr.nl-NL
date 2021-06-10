@@ -38,14 +38,14 @@ In Viva-onderwerpen kunt u een bestaand onderwerp bewerken. Mogelijk moet u dit 
 
 Als u een bestaand onderwerp wilt bewerken, moet u het volgende doen:
 - Een licentie voor Viva-onderwerpen hebben.
-- Machtigingen hebben voor [**Wie kan onderwerpen maken of bewerken.**](./topic-experiences-user-permissions.md) Kennisbeheerders kunnen gebruikers deze machtiging geven in de instellingen voor onderwerpmachtigingen van Viva Topics. 
+- Machtigingen hebben om te [**Wie onderwerpen kunnen maken of bewerken.**](./topic-experiences-user-permissions.md) Kennisbeheerders kunnen gebruikers deze machtiging geven in de instellingen voor onderwerpmachtigingen van Viva Topics. 
 
 > [!Note] 
 > Gebruikers die zijn machtigingen voor het beheren van onderwerpen in het Onderwerpcentrum (kennisbeheerders) hebben al machtigingen voor het maken en bewerken van onderwerpen.
 
 ## <a name="how-to-edit-a-topic-page"></a>Een onderwerppagina bewerken
 
-Gebruikers met de machtiging **Wie** kan onderwerpen maken of bewerken, kunnen een onderwerp bewerken <b></b> door de onderwerppagina te openen vanuit een onderwerp markeren en vervolgens de knop Bewerken rechtsboven op de onderwerppagina te selecteren. De onderwerppagina kan ook worden geopend vanaf de startpagina van het onderwerpcentrum, waar u alle onderwerpen kunt vinden waar u verbinding mee hebt.
+Gebruikers met de **Wie** kunnen onderwerpenmachtigingen maken of bewerken, kunnen een onderwerp bewerken door <b></b> de onderwerppagina te openen vanuit een onderwerp markeren en vervolgens de knop Bewerken rechtsboven op de onderwerppagina te selecteren. De onderwerppagina kan ook worden geopend vanaf de startpagina van het onderwerpcentrum, waar u alle onderwerpen kunt vinden waar u verbinding mee hebt.
 
    ![Knop Bewerken](../media/knowledge-management/edit-button.png) </br> 
 
@@ -75,16 +75,16 @@ Kennisbeheerders kunnen onderwerpen ook rechtstreeks bewerken vanaf de pagina On
 
    ![Een voorgestelde personen vastmaken](../media/knowledge-management/suggested-people.png)</br>
 
-5. In de <b>sectie Vastgemaakte bestanden</b> en pagina's kunt u een bestand of SharePoint-sitepagina die aan het onderwerp is gekoppeld, toevoegen of 'vastmaken'.
+5. In de <b>sectie Vastgemaakte</b> bestanden en pagina's kunt u een bestand of SharePoint sitepagina toevoegen of 'vastmaken' die aan het onderwerp is gekoppeld.
 
    ![Sectie Vastgemaakte bestanden en pagina's](../media/knowledge-management/pinned-files-and-pages.png)</br>
  
-    Als u een nieuw bestand wilt toevoegen, selecteert u <b>Toevoegen,</b>selecteert u de SharePoint-site op uw sites Frequent of Gevolgd en selecteert u het bestand in de documentbibliotheek van de site.
+    Als u een nieuw bestand wilt toevoegen, selecteert u <b>Toevoegen,</b>selecteert u de SharePoint site op uw sites Frequent of Gevolgd en selecteert u het bestand in de documentbibliotheek van de site.
 
     U kunt ook de optie <b>Van een koppeling gebruiken</b> om een bestand of pagina toe te voegen door de URL op te geven. 
 
    > [!Note] 
-   > Bestanden en pagina's die u toevoegt, moeten zich bevinden in dezelfde Microsoft 365-tenant. Als u een koppeling wilt toevoegen naar een externe resource in het onderwerp, kunt u deze toevoegen via het canvaspictogram in stap 9.
+   > Bestanden en pagina's die u toevoegt, moeten zich binnen dezelfde tenant Microsoft 365 bevinden. Als u een koppeling wilt toevoegen naar een externe resource in het onderwerp, kunt u deze toevoegen via het canvaspictogram in stap 9.
 
 6. In <b>de sectie Voorgestelde bestanden en</b> pagina's worden bestanden en pagina's weergegeven die volgens AI aan het onderwerp zijn gekoppeld.
 
@@ -100,7 +100,7 @@ Kennisbeheerders kunnen onderwerpen ook rechtstreeks bewerken vanaf de pagina On
     
     ![Een site selecteren](../media/knowledge-management/sites.png)</br>
 
-8. In <b>de sectie Gerelateerde</b> onderwerpen ziet u verbindingen tussen onderwerpen. U kunt een verbinding met een ander onderwerp toevoegen door de knop Verbinding maken met een gerelateerd <b>onderwerp</b> te selecteren en vervolgens de naam van het gerelateerde onderwerp te typen en deze te selecteren in de zoekresultaten. 
+8. In <b>de sectie Gerelateerde</b> onderwerpen ziet u verbindingen tussen onderwerpen. U kunt een verbinding met een ander onderwerp toevoegen door de Verbinding maken te selecteren op een gerelateerde <b>onderwerpknop</b> en vervolgens de naam van het gerelateerde onderwerp te typen en deze te selecteren in de zoekresultaten. 
 
    ![Sectie Verwante onderwerpen](../media/knowledge-management/related-topic.png)</br>  
 
@@ -121,7 +121,7 @@ Kennisbeheerders kunnen onderwerpen ook rechtstreeks bewerken vanaf de pagina On
    ![Verwijderen bevestigen](../media/knowledge-management/remove-related-confirm.png)</br> 
 
 
-9. U kunt ook statische items toevoegen aan de pagina, zoals tekst, afbeeldingen of koppelingen, door het canvaspictogram te selecteren, dat u onder de korte beschrijving kunt vinden. Als u deze optie selecteert, wordt de SharePoint-werkset geopend waaruit u het item kunt kiezen dat u aan de pagina wilt toevoegen.
+9. U kunt ook statische items toevoegen aan de pagina, zoals tekst, afbeeldingen of koppelingen, door het canvaspictogram te selecteren, dat u onder de korte beschrijving kunt vinden. Als u dit selecteert, wordt SharePoint de werkset geopend waaruit u het item kunt kiezen dat u aan de pagina wilt toevoegen.
 
    ![Pictogram Canvas](../media/knowledge-management/webpart-library.png)</br> 
 

@@ -1,6 +1,6 @@
 ---
 title: Apps implementeren op apparaten
-description: Informatie voor het toevoegen en implementeren van apps op Microsoft Managed Desktop-apparaten.
+description: Informatie voor het toevoegen en implementeren van apps Microsoft Managed Desktop apparaten.
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie, apps, line-of-business-apps, LOB-apps
 ms.service: m365-md
 author: jaimeo
@@ -17,56 +17,56 @@ ms.lasthandoff: 03/19/2021
 ms.locfileid: "50922024"
 ---
 # <a name="deploy-apps-to-devices"></a>Apps implementeren op apparaten
-Onderdeel van onboarding bij Microsoft Managed Desktop is het toevoegen en implementeren van apps op de apparaten van uw gebruiker. Wanneer u de Microsoft Managed Desktop-portal gebruikt, kunt u uw apps toevoegen en implementeren. 
+Onderdeel van onboarding naar Microsoft Managed Desktop omvat het toevoegen en implementeren van apps op de apparaten van uw gebruiker. Wanneer u de portal Microsoft Managed Desktop, kunt u uw apps toevoegen en implementeren. 
 
 Het totale proces ziet er als volgende uit:
-1. [Apps toevoegen aan Microsoft Managed Desktop Portal:](#1) dit kunnen bestaande LOB-apps (Line-of-Business) zijn of apps uit de Microsoft Store voor Bedrijven die u hebt gesynchroniseerd met Intune. 
-2. [Ad-groepen (Azure Active Directory) maken voor](#2) app-toewijzing: u gebruikt deze groepen om app-toewijzing te beheren.
+1. [Apps toevoegen aan Microsoft Managed Desktop portal:](#1) dit kunnen bestaande LOB-apps (Line of Business) zijn of apps van Microsoft Store voor Bedrijven die u hebt gesynchroniseerd met Intune. 
+2. [Maak Azure Active Directory (AD) groepen voor](#2) app-toewijzing: u gebruikt deze groepen om app-toewijzing te beheren.
 3. [Apps toewijzen aan uw gebruikers](#3)
 
 <span id="1" />
 
-## <a name="step-1-add-apps-to-microsoft-managed-desktop-portal"></a>Stap 1: Apps toevoegen aan Microsoft Managed Desktop Portal
-U kunt [Win32- of Windows MSI-apps](#lob-apps)of Microsoft Store voor Bedrijven-apps toevoegen aan Microsoft Managed Desktop en deze vervolgens implementeren op Microsoft Managed Desktop-apparaten. [](#msfb-apps)
+## <a name="step-1-add-apps-to-microsoft-managed-desktop-portal"></a>Stap 1: Apps toevoegen aan Microsoft Managed Desktop portal
+U kunt [Win32- of Windows MSI-apps](#lob-apps)of [Microsoft Store voor Bedrijven-apps](#msfb-apps) toevoegen aan Microsoft Managed Desktop en vervolgens implementeren naar Microsoft Managed Desktop apparaten.
 
 <span id="lob-apps">
 
-###  <a name="win32-or-windows-msi-based-apps-to-microsoft-managed-desktop"></a>Win32- of Windows MSI-apps naar Microsoft Managed Desktop
+###  <a name="win32-or-windows-msi-based-apps-to-microsoft-managed-desktop"></a>Win32- of Windows MSI-gebaseerde apps Microsoft Managed Desktop
 
-U kunt uw LOB-apps (Line-of-Business) toevoegen aan de Microsoft Managed Desktop-portal. Zie [Microsoft Managed Desktop-appvereisten](../service-description/mmd-app-requirements.md)voor informatie over vereisten voor apps die zijn geïnstalleerd op Microsoft Managed Desktop-apparaten.
+U kunt uw LOB-apps (Line-of-Business) toevoegen aan Microsoft Managed Desktop portal. Zie voor informatie over vereisten voor apps die op Microsoft Managed Desktop apparaten zijn [geïnstalleerd, Microsoft Managed Desktop app-vereisten.](../service-description/mmd-app-requirements.md)
 
 In deze procedure selecteert u welk type app u wilt toevoegen en configureert en uploadt u de app-bron. 
 
-**Uw LOB-app of Windows-app toevoegen aan microsoft managed desktopportal**
+**Uw LOB-app of -Windows toevoegen aan Microsoft Managed Desktop portal**
 
-U kunt zich aanmelden bij de Microsoft Managed Desktop Portal of u aanmelden bij Intune en vervolgens zoeken naar Microsoft Managed Desktop. We laten zien dat u zich aanmeldt bij de Microsoft Managed Desktop-portal. 
+U kunt zich aanmelden bij Microsoft Managed Desktop portal of u aanmelden bij Intune en vervolgens zoeken naar Microsoft Managed Desktop. We laten zien dat u zich aanmeldt bij Microsoft Managed Desktop portal. 
 
-1.    Meld u aan bij [de Microsoft Managed Desktop Admin Portal](https://aka.ms/mmdportal). 
+1.    Meld u aan [bij Microsoft Managed Desktop beheerportal.](https://aka.ms/mmdportal) 
 2.    Selecteer **onder Inventaris** de optie **Apps.**
 3.    Selecteer toevoegen in de werkbelasting **apps.**
-4.    Selecteer **in App toevoegen** de optie **Line-of-Business-app of Windows-app** **(Win32)**.
-    - Als u **line-of-business-app** hebt geselecteerd, zie [Een Windows-line-of-business-app](/intune/lob-apps-windows) toevoegen aan Microsoft Intune voor instructies over het toevoegen en configureren van line-of-business-apps.
-    - Als u **Windows-app (Win32)** hebt geselecteerd, zie [Win32-appbeheer](/intune/apps-win32-app-management) voor instructies over het toevoegen en configureren van Windows-apps.
+4.    Selecteer **in App toevoegen** de optie **Line-of-business-app of** Windows app **(Win32)**.
+    - Als u **line-of-business-app** hebt geselecteerd, zie [Een Windows line-of-business-app](/intune/lob-apps-windows) toevoegen aan Microsoft Intune voor instructies over het toevoegen en configureren van line-of-business-apps.
+    - Als u een **Windows (Win32)** hebt geselecteerd, zie [Win32-appbeheer](/intune/apps-win32-app-management) voor instructies over het toevoegen en configureren van Windows apps.
 
 <span id="msfb-apps">
 
-### <a name="microsoft-store-for-business-apps"></a>Microsoft Store voor Bedrijven-apps
-Als u zich nog niet hebt aangemeld bij de Microsoft Store voor Bedrijven, kunt u zich registreren wanneer u naar apps winkelt. Nadat u uw apps hebt, kunt u deze synchroniseren met Microsoft Managed Desktop. 
+### <a name="microsoft-store-for-business-apps"></a>Microsoft Store voor Bedrijven apps
+Als u zich nog niet hebt aangemeld bij Microsoft Store voor Bedrijven, kunt u zich registreren wanneer u naar apps winkelt. Nadat u uw apps hebt, kunt u deze synchroniseren met Microsoft Managed Desktop. 
 
-**Apps kopen in de Microsoft Store voor Bedrijven**
+**Apps kopen via de Microsoft Store voor Bedrijven**
 
-1. Meld u aan [bij de Microsoft Store voor Bedrijven met](https://businessstore.microsoft.com) uw Microsoft Store voor Bedrijven-account.
+1. Meld u aan [bij Microsoft Store voor Bedrijven](https://businessstore.microsoft.com) met uw Microsoft Store voor Bedrijven-beheerdersaccount.
 2. Selecteer **Winkelen voor mijn groep.**
 3. Gebruik Zoeken om te zoeken naar de beste app en selecteer de app.
-4. Selecteer in de **productdetails De app downloaden.** Microsoft Store voegt de app toe aan **Uw producten** voor uw organisatie.
+4. Selecteer in de **productdetails De app downloaden.** Microsoft Store app wordt toegevoegd aan **Uw producten** voor uw organisatie.
 
-**Een synchronisatie forceer tussen Intune en Microsoft Store voor Bedrijven**
-1. Meld u aan bij [het Microsoft Endpoint Manager-beheercentrum.](https://go.microsoft.com/fwlink/?linkid=2109431)
-2. Selecteer **Tenantbeheer**  >  **connectors en tokens** Microsoft Store voor  >  **Bedrijven**.
-3. Selecteer **Synchroniseren** om de apps die u hebt gekocht in de Microsoft Store in Intune te krijgen.
+**Een synchronisatie tussen Intune en Microsoft Store voor Bedrijven**
+1. Meld u aan bij [het Microsoft Endpoint Manager beheercentrum.](https://go.microsoft.com/fwlink/?linkid=2109431)
+2. Selecteer **Tenantbeheer**  >  **Connectors en tokens**  >  **Microsoft Store voor Bedrijven.**
+3. Selecteer **Synchroniseren** om de apps te downloaden die u hebt gekocht van de Microsoft Store in Intune.
 
 **Controleren of een synchronisatie tussen Intune en Microsoft Store voor Bedrijven actief is**
-1. Meld u aan [bij de Microsoft Store voor Bedrijven met](https://businessstore.microsoft.com) uw Microsoft Store voor Bedrijven-account.
+1. Meld u aan [bij Microsoft Store voor Bedrijven](https://businessstore.microsoft.com) met uw Microsoft Store voor Bedrijven-beheerdersaccount.
 2. Selecteer **Beheren.**
 3. Selecteer **Instellingen** en selecteer vervolgens **Distribueren.**
 4. Controleer **onder Beheerhulpmiddelen** of Intune wordt vermeld en of de status **Actief** is.  
@@ -79,11 +79,11 @@ Maak drie Azure AD-groepen voor elke app. In deze tabel worden de groepen beschr
 
 App-toewijzingstype |    Groepsgebruik    | Voorbeeld Azure AD-naam
 --- | --- | ---
-Beschikbaar |  De app is beschikbaar via de bedrijfsportal-app of -website. | MMD – *naam van app* – Beschikbaar
+Beschikbaar |  De app is beschikbaar vanaf Bedrijfsportal app of website. | MMD – *naam van app* – Beschikbaar
 Vereist |  De app is geïnstalleerd op apparaten in de geselecteerde groepen. | MMD – *naam van app* – Vereist
 Verwijderen |  De app wordt verwijderd van apparaten in de geselecteerde groepen. | MMD – *naam van app* – Verwijderen
 
-Voeg uw gebruikers toe aan deze groepen om de app beschikbaar te maken, de app te installeren of de app te verwijderen van hun Microsoft Managed Desktop-apparaat. 
+Voeg uw gebruikers toe aan deze groepen om de app beschikbaar te maken, de app te installeren of de app van hun Microsoft Managed Desktop verwijderen. 
 
 <span id="3" />
 
@@ -91,7 +91,7 @@ Voeg uw gebruikers toe aan deze groepen om de app beschikbaar te maken, de app t
 
 **De app toewijzen aan uw gebruikers**
 
-1. Meld u aan bij [de Microsoft Managed Desktop Admin Portal](https://aka.ms/mmdportal).
+1. Meld u aan [bij Microsoft Managed Desktop beheerportal.](https://aka.ms/mmdportal)
 2. Selecteer apps in het deelvenster Beheerd **bureaublad.**
 3. Selecteer in de werkbelasting Apps de app aan wie u gebruikers wilt toewijzen en selecteer **Gebruikersgroepen toewijzen.**
 4. Selecteer voor de specifieke app een toewijzingstype (Beschikbaar, Vereist, Verwijderen) en wijs de juiste groep toe.

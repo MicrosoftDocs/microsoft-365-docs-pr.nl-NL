@@ -1,5 +1,5 @@
 ---
-title: Paginagesprekken optimaliseren in moderne en klassieke publicatiesitepagina's van SharePoint Online
+title: Paginagesprekken optimaliseren in SharePoint moderne en klassieke publicatiesitepagina's online
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -18,7 +18,7 @@ ms.custom: Adm_O365
 ms.reviewer: sstewart
 search.appverid:
 - MET150
-description: Meer informatie over het optimaliseren van moderne en klassieke publicatiesitepagina's in SharePoint Online door het aantal oproepen naar SharePoint Online-service-eindpunten te beperken.
+description: Meer informatie over het optimaliseren van moderne en klassieke publicatiesitepagina's in SharePoint Online door het aantal oproepen te beperken tot SharePoint Online service-eindpunten.
 ms.openlocfilehash: cab0f6a020bd1148a0e852b5a393a6ad907f9771
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -26,23 +26,23 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50921616"
 ---
-# <a name="optimize-page-calls-in-sharepoint-online-modern-and-classic-publishing-site-pages"></a>Paginagesprekken optimaliseren in moderne en klassieke publicatiesitepagina's van SharePoint Online
+# <a name="optimize-page-calls-in-sharepoint-online-modern-and-classic-publishing-site-pages"></a>Paginagesprekken optimaliseren in SharePoint moderne en klassieke publicatiesitepagina's online
 
-Zowel moderne als klassieke publicatiesites van SharePoint Online bevatten koppelingen die gegevens laden van (of bellen naar) SharePoint-functies en CDN's. Hoe meer oproepen door een pagina worden gedaan, hoe langer de pagina duurt om te laden. Dit staat bekend als **de waargenomen latentie van eindgebruikers of** **EUPL.**
+Zowel SharePoint moderne als klassieke publicatiesites van Online bevatten koppelingen die gegevens laden van (of bellen naar) SharePoint en CDN's. Hoe meer oproepen door een pagina worden gedaan, hoe langer de pagina duurt om te laden. Dit staat bekend als **de waargenomen latentie van eindgebruikers of** **EUPL.**
 
 In dit artikel wordt beschreven hoe u het aantal en de impact van oproepen naar externe eindpunten kunt bepalen vanaf uw moderne en klassieke publicerende sitepagina's en hoe u het effect ervan op de waargenomen latentie van de eindgebruiker kunt beperken.
 
 >[!NOTE]
->Zie Prestaties in de [moderne SharePoint-ervaring](/sharepoint/modern-experience-performance)voor meer informatie over de prestaties in moderne SharePoint Online-portals.
+>Zie Prestaties in de moderne SharePoint voor meer informatie over prestaties in SharePoint moderne [onlineportalen.](/sharepoint/modern-experience-performance)
 
-## <a name="use-the-page-diagnostics-for-sharepoint-tool-to-analyze-page-calls"></a>Het hulpprogramma Paginadiagnose voor SharePoint gebruiken om paginagesprekken te analyseren
+## <a name="use-the-page-diagnostics-for-sharepoint-tool-to-analyze-page-calls"></a>Het hulpprogramma Paginadiagnose SharePoint gebruiken om paginagesprekken te analyseren
 
-Het hulpprogramma Paginadiagnose voor SharePoint is een browserextensie voor de nieuwe Microsoft Edge - en Chrome-browsers waarmee zowel moderne portals van SharePoint Online als klassieke https://www.microsoft.com/edge) publicerende sitepagina's worden geanalyseerd. Het hulpprogramma bevat een rapport voor elke geanalyseerde pagina die laat zien hoe de pagina presteert op basis van een gedefinieerde set prestatiecriteria. Als u het hulpprogramma Paginadiagnose voor SharePoint wilt installeren en meer wilt weten, gaat u naar Het hulpprogramma [Paginadiagnose gebruiken voor SharePoint Online.](page-diagnostics-for-spo.md)
+Het hulpprogramma Paginadiagnose voor SharePoint is een browserextensie voor de nieuwe Microsoft Edge ( en Chrome-browsers die zowel SharePoint Moderne portal online als klassieke https://www.microsoft.com/edge) publicerende sitepagina's analyseren. Het hulpprogramma bevat een rapport voor elke geanalyseerde pagina die laat zien hoe de pagina presteert op basis van een gedefinieerde set prestatiecriteria. Als u het hulpprogramma Paginadiagnose voor SharePoint wilt installeren en meer wilt weten, gaat u naar Het hulpprogramma [Paginadiagnose gebruiken](page-diagnostics-for-spo.md)voor SharePoint Online.
 
 >[!NOTE]
->Het hulpprogramma Paginadiagnose werkt alleen voor SharePoint Online en kan niet worden gebruikt op een SharePoint-systeempagina.
+>Het hulpprogramma Paginadiagnose werkt alleen SharePoint Online en kan niet worden gebruikt op een SharePoint systeempagina.
 
-Wanneer u een SharePoint-sitepagina analyseert met het hulpprogramma Paginadiagnose voor SharePoint, ziet u informatie over externe oproepen in het resultaat Aanvragen naar **SharePoint** in het deelvenster _Diagnostische_ tests. De regel wordt groen weergegeven als de sitepagina minder dan het basislijnaantal oproepen bevat en rood als de pagina het basislijnnummer overschrijdt. Het basislijnnummer is anders voor moderne en klassieke pagina's omdat klassieke sitepagina's HTTP1.1 gebruiken en moderne pagina's HTTP2.0 gebruiken:
+Wanneer u een SharePoint sitepagina analyseert met het hulpprogramma Paginadiagnose voor SharePoint, ziet u informatie over externe oproepen in het deelvenster Aanvragen SharePoint resultaten in het deelvenster **Diagnostische** _tests._ De regel wordt groen weergegeven als de sitepagina minder dan het basislijnaantal oproepen bevat en rood als de pagina het basislijnnummer overschrijdt. Het basislijnnummer is anders voor moderne en klassieke pagina's omdat klassieke sitepagina's HTTP1.1 gebruiken en moderne pagina's HTTP2.0 gebruiken:
 
 - Moderne sitepagina's mogen niet meer dan **25 oproepen** bevatten
 - Klassieke publicatiepagina's mogen niet meer dan **6 oproepen** bevatten
@@ -52,9 +52,9 @@ Mogelijke resultaten zijn:
 - **Aandacht vereist** (rood): De pagina overschrijdt het aantal oproepen volgens de basislijn
 - **Geen actie vereist** (groen): De pagina bevat minder dan het basislijnaantal oproepen
 
-Als het resultaat Aanvragen naar **SharePoint** wordt weergegeven in de sectie Aandacht vereist, kunt u op het resultaat klikken voor meer informatie, inclusief het totale aantal oproepen op de pagina en een lijst met URL's. 
+Als het resultaat **Aanvragen SharePoint** wordt weergegeven  in de sectie Aandacht vereist, kunt u op het resultaat klikken voor meer informatie, inclusief het totale aantal oproepen op de pagina en een lijst met URL's.
 
-![Aanvragen voor SharePoint-resultaten](../media/modern-portal-optimization/pagediag-requests.png)
+![Aanvragen om SharePoint resultaten](../media/modern-portal-optimization/pagediag-requests.png)
 
 ## <a name="remediate-performance-issues-related-to-too-many-calls-on-a-page"></a>Prestatieproblemen met te veel oproepen op een pagina oplossen
 
@@ -73,12 +73,12 @@ Voordat u paginaherzieningen maakt om prestatieproblemen op te lossen, noteert u
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Prestaties van SharePoint Online afstemmen](tune-sharepoint-online-performance.md)
+[Prestaties SharePoint online afstemmen](tune-sharepoint-online-performance.md)
 
-[Prestaties van Office 365 afstemmen](tune-microsoft-365-performance.md)
+[Prestaties Office 365 afstemmen](tune-microsoft-365-performance.md)
 
-[Prestaties in de moderne SharePoint-ervaring](/sharepoint/modern-experience-performance)
+[Prestaties in de moderne SharePoint ervaring](/sharepoint/modern-experience-performance)
 
 [Netwerken voor contentlevering](content-delivery-networks.md)
 
-[Het Office 365 Content Delivery Network (CDN) gebruiken met SharePoint Online](use-microsoft-365-cdn-with-spo.md)
+[De Office 365 Content Delivery Network (CDN) gebruiken met SharePoint Online](use-microsoft-365-cdn-with-spo.md)

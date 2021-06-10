@@ -192,7 +192,7 @@ We bieden u ook informatie waarmee u inzicht krijgt in de manier waarop uw organ
       - **21-40:** Het rode (gekleurde) gedeelte van de balk vertegenwoordigt het percentage apparaten met een netwerkprestatiescore tussen 20-40. 
       - **0-20:** Het donkerrood (gekleurde) gedeelte van de balk vertegenwoordigt het percentage apparaten met de slechtste netwerkprestatiescore tussen 0-20. 
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Microsoft 365 apps health – Technology experiences](apps-health.md) (article)\
 [Communicatie – Ervaringen met personen](communication.md) (artikel)\

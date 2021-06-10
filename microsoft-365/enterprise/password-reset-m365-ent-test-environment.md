@@ -27,11 +27,11 @@ ms.locfileid: "50921490"
 ---
 # <a name="password-reset-for-your-microsoft-365-test-environment"></a>Opnieuw instellen van het wachtwoord voor uw Microsoft 365-testomgeving
 
-*Deze testlaborator kan alleen worden gebruikt voor Microsoft 365 voor testomgevingen voor ondernemingen.*
+*Deze testlaborator kan alleen worden gebruikt Microsoft 365 voor bedrijfstestomgevingen.*
 
 Met de Azure Active Directory (Azure AD) selfservice voor het opnieuw instellen van wachtwoorden (SSPR) kunnen gebruikers hun wachtwoorden of accounts opnieuw instellen of ontgrendelen.
 
-In dit artikel wordt beschreven hoe u wachtwoordinstellingen configureert en test in uw Microsoft 365-testomgeving.
+In dit artikel wordt beschreven hoe u wachtwoordinstellingen configureert en test in uw Microsoft 365 testomgeving.
 
 Het instellen van SSPR bestaat uit drie fasen:
 - [Fase 1: wachtwoord-hash-synchronisatie configureren voor uw Microsoft 365-testomgeving](#phase-1-configure-password-hash-synchronization-for-your-microsoft-365-test-environment)
@@ -41,7 +41,7 @@ Het instellen van SSPR bestaat uit drie fasen:
 ![Testlabrichtlijnen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
-> Ga naar [Microsoft 365 for enterprise Test Lab Guide](../downloads/Microsoft365EnterpriseTLGStack.pdf)Stack voor een visuele kaart voor alle artikelen in de Microsoft 365 voor enterprise Test Lab Guide Stack.
+> Voor een visuele kaart van alle artikelen in de Microsoft 365 voor enterprise Test Lab Guide stack, gaat u naar Microsoft 365 voor [enterprise Test Lab Guide Stack.](../downloads/Microsoft365EnterpriseTLGStack.pdf)
 
 ## <a name="phase-1-configure-password-hash-synchronization-for-your-microsoft-365-test-environment"></a>Fase 1: configureer wachtwoord-hash-synchronisatie voor uw Microsoft 365-testomgeving
 
@@ -70,11 +70,11 @@ Configureer in deze fase het opnieuw instellen van wachtwoorden in de Azure AD-t
 Schakel eerst het opnieuw instellen van het wachtwoord in voor de accounts in een specifieke groep van Azure AD.
 
 1. Open [https://portal.azure.com](https://portal.azure.com)in een privévenster van uw browser en meld u aan met de referenties van uw globale beheerdersaccount.
-2. Selecteer in de Azure-portal **de optie Nieuwe groep Azure Active Directory**  >  **Groups**  >  **New**.
+2. Selecteer in de Azure-portal **Azure Active Directory**  >  **nieuwe groep**  >  **Groepen.**
 3. Stel het **groepstype** in op **beveiliging**, **groepsnaam** op **PWReset** en het **lidmaatschapstype** op **toegewezen**.
 4. Selecteer **Leden,** zoek en selecteer **Gebruiker 3,** **selecteer Selecteren** en selecteer vervolgens **Maken.**
 5. Sluit het **deelvenster** groepen.
-6. Selecteer in het deelvenster Azure Active Directory de optie **Wachtwoord opnieuw instellen** in de linkernavigatie.
+6. Selecteer in Azure Active Directory deelvenster Wachtwoord **opnieuw instellen** in de linkernavigatie.
 7. Kies in het deelvenster **wachtwoordherstel-eigenschappen** onder de optie **selfservice wachtwoord opnieuw instellen ingeschakeld****geselecteerd**.
 8. Selecteer **Groep selecteren,** selecteer de **groep PWReset** en selecteer **vervolgens Opslaan**  >  **selecteren.**
 9. Sluit het privévenster in uw browser.

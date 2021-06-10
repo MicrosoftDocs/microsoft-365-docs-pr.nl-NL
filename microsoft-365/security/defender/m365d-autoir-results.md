@@ -35,17 +35,17 @@ ms.locfileid: "52274674"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-Wanneer een geautomatiseerd onderzoek wordt [](m365d-autoir.md) uitgevoerd met Microsoft 365 Defender, zijn details over dat onderzoek beschikbaar, zowel tijdens als na het geautomatiseerde onderzoeksproces. Als u de [benodigde machtigingen hebt,](m365d-action-center.md#required-permissions-for-action-center-tasks)kunt u deze details bekijken in een weergave met onderzoeksdetails. Deze weergave biedt u de actuele status en de mogelijkheid om eventuele in behandeling zijnde acties goed te keuren. 
+Met Microsoft 365 Defender, wanneer [een](m365d-autoir.md) geautomatiseerd onderzoek wordt uitgevoerd, zijn details over dat onderzoek beschikbaar, zowel tijdens als na het geautomatiseerde onderzoeksproces. Als u de [benodigde machtigingen hebt,](m365d-action-center.md#required-permissions-for-action-center-tasks)kunt u deze details bekijken in een weergave met onderzoeksdetails. Deze weergave biedt u de actuele status en de mogelijkheid om eventuele in behandeling zijnde acties goed te keuren. 
 
 ![Details van het onderzoek](../../media/mtp-air-investdetails.png)
 
 ## <a name="new-unified-investigation-page"></a>(NIEUW!) Geïntegreerde onderzoekspagina
 
-De onderzoekspagina is onlangs bijgewerkt met informatie op uw apparaten, e-mail en samenwerkingsinhoud. De nieuwe, geïntegreerde onderzoekspagina definieert een gemeenschappelijke taal en biedt een geïntegreerde ervaring voor automatische onderzoeken in [Microsoft Defender](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) voor Eindpunt en Microsoft Defender voor [Office 365.](../office-365-security/defender-for-office-365.md) Als u toegang wilt tot de geïntegreerde onderzoekspagina, selecteert u de koppeling in de gele banner die u ziet op:
+De onderzoekspagina is onlangs bijgewerkt met informatie op uw apparaten, e-mail en samenwerkingsinhoud. De nieuwe, geïntegreerde onderzoekspagina definieert een gemeenschappelijke taal en biedt een geïntegreerde ervaring voor automatische onderzoeken in [Microsoft Defender](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) voor Eindpunt en Microsoft Defender [voor Office 365.](../office-365-security/defender-for-office-365.md) Als u toegang wilt tot de geïntegreerde onderzoekspagina, selecteert u de koppeling in de gele banner die u ziet op:
 
-- Een onderzoekspagina in het Office 365-beveiligings- & Compliancecentrum ( [https://protection.office.com](https://protection.office.com) )
-- Een onderzoekspagina in het Microsoft Defender-beveiligingscentrum ( [https://securitycenter.windows.com](https://securitycenter.windows.com) )
-- Elk incident of actiecentrum in het Microsoft 365-beveiligingscentrum ( [https://security.microsoft.com](https://security.microsoft.com) )
+- Een onderzoekspagina in het Office 365 Beveiligings- & Compliancecentrum ( [https://protection.office.com](https://protection.office.com) )
+- Een onderzoekspagina in de Microsoft Defender-beveiligingscentrum ( [https://securitycenter.windows.com](https://securitycenter.windows.com) )
+- Elk incident of actiecentrum in het Microsoft 365 beveiligingscentrum ( [https://security.microsoft.com](https://security.microsoft.com) )
 
 ## <a name="open-the-investigation-details-view"></a>De weergave onderzoeksdetails openen
 
@@ -100,12 +100,12 @@ Gebruik de weergave onderzoeksdetails om eerdere, huidige en in behandeling zijn
 In de weergave Details van onderzoek kunt u informatie zien op de tabbladen **Onderzoek**,  **Waarschuwingen**, Apparaten , **Identiteiten**, **Belangrijke** bevindingen **,** Entiteiten , **Logboek** en Acties in behandeling , beschreven in de volgende tabel. 
 
 > [!NOTE]
-> De specifieke tabbladen die u op een pagina met onderzoeksdetails ziet, zijn afhankelijk van wat uw abonnement bevat. Als uw abonnement bijvoorbeeld geen Microsoft Defender voor Office 365-abonnement 2 bevat, ziet u geen tabblad **Postvakken.**
+> De specifieke tabbladen die u op een pagina met onderzoeksdetails ziet, zijn afhankelijk van wat uw abonnement bevat. Als uw abonnement bijvoorbeeld geen Microsoft Defender bevat voor Office 365 abonnement 2, ziet u geen tabblad **Postvakken.**
 
-| Tab | Omschrijving |
+| Tab | Beschrijving |
 |:--------|:--------|
 | **Onderzoeksgrafiek**   | Geeft een visuele weergave van het onderzoek. Hiermee worden entiteiten en lijsten weergegeven die zijn gevonden, samen met waarschuwingen en of er nog acties moeten worden goedgekeurd.<br/>U kunt een item in de grafiek selecteren om meer details weer te geven. Als u bijvoorbeeld het pictogram **Bewijs** selecteert, gaat u naar het tabblad Bewijs, waar u gedetecteerde entiteiten en hun vonnissen kunt zien.  |
-| **Waarschuwingen**    | Hiermee worden waarschuwingen vermeld die aan het onderzoek zijn gekoppeld. Waarschuwingen kunnen afkomstig zijn van beveiligingsfuncties voor bedreigingen op het apparaat van een gebruiker, in Office-apps, Microsoft Cloud App-beveiliging en andere Microsoft 365 Defender-functies.|
+| **Waarschuwingen**    | Hiermee worden waarschuwingen vermeld die aan het onderzoek zijn gekoppeld. Waarschuwingen kunnen afkomstig zijn van beveiligingsfuncties voor bedreigingen op het apparaat van een gebruiker, in Office apps, Microsoft Cloud App Security en andere Microsoft 365 Defender-functies.|
 | **Apparaten** | Hiermee worden apparaten vermeld die zijn opgenomen in het onderzoek, samen met het herstelniveau. (Herstelniveaus komen overeen met het [automatiseringsniveau voor apparaatgroepen](m365d-configure-auto-investigation-response.md#review-or-change-the-automation-level-for-device-groups).) |
 | **Postvakken** |Hiermee worden postvakken vermeld die worden beïnvloed door gedetecteerde bedreigingen.  |
 | **Gebruikers**  | Hiermee worden gebruikersaccounts vermeld die worden beïnvloed door gedetecteerde bedreigingen. |

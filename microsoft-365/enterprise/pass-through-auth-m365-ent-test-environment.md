@@ -27,7 +27,7 @@ ms.locfileid: "50921526"
 ---
 # <a name="pass-through-authentication-for-your-microsoft-365-test-environment"></a>Pass Through-verificatie voor uw Microsoft 365-testomgeving
 
-*Deze testlaborator kan worden gebruikt voor testomgevingen van Microsoft 365 voor bedrijven en Office 365 Enterprise.*
+*Deze testlaborator kan worden gebruikt voor zowel Microsoft 365 voor bedrijven als Office 365 Enterprise testomgevingen.*
 
 Organisaties die rechtstreeks gebruik willen maken van hun on-premises infrastructuur met Active Directory Domain Services (AD DS) voor verificatie bij Microsoft-cloudservices en -toepassingen, kunnen Pass Through-verificatie gebruiken. In dit artikel wordt beschreven hoe u uw Microsoft 365-testomgeving kunt configureren voor Pass Through-verificatie, met de volgende configuratie als resultaat:
   
@@ -51,7 +51,7 @@ Volg de instructies in [wachtwoord-hash-synchronisatie voor Microsoft 365](passw
   
 Deze configuratie bestaat uit: 
   
-- Proefversie of betaald abonnement van Microsoft 365 E5.
+- Microsoft 365 E5 proefabonnement of betaald abonnement.
 - Een vereenvoudigd intranet van de organisatie verbonden met internet en bestaande uit de virtuele machines DC1, APP1 en CLIENT1 op een subnet van een virtueel Azure-netwerk. Azure AD Connect wordt uitgevoerd op APP1 om het AD DS-domein TESTLAB te synchroniseren met de Azure AD-tenant van uw Microsoft 365-abonnement.
 
 ## <a name="phase-2-configure-azure-ad-connect-on-app1-for-pass-through-authentication"></a>Fase 2: Azure AD Connect op APP1 configureren voor Pass Through-verificatie
@@ -94,7 +94,7 @@ Dit is de resulterende configuratie:
  
 Deze configuratie bestaat uit:
 
-- Een proefversie van Microsoft 365 E5 of betaalde abonnementen met het DNS-domeintestlab.\<your domain name> geregistreerd.
+- Een Microsoft 365 E5 of betaalde abonnementen met het DNS-domeintestlab.\<your domain name> geregistreerd.
 - Een vereenvoudigd intranet van de organisatie verbonden met internet en bestaande uit de virtuele machines DC1, APP1 en CLIENT1 op een subnet van een virtueel Azure-netwerk. Er wordt een verificatieagent uitgevoerd op APP1 voor het verwerken van Pass Through-verificatieaanvragen van de Azure AD-tenant van uw Microsoft 365-abonnement.
 
 ## <a name="next-step"></a>Volgende stap

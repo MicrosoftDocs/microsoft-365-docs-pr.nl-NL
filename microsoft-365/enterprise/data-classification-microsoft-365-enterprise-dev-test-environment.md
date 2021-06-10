@@ -1,5 +1,5 @@
 ---
-title: Gegevensclassificatie voor uw Microsoft 365 voor ondernemingstestomgeving
+title: Gegevensclassificatie voor uw Microsoft 365 voor bedrijfstestomgeving
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -13,7 +13,7 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
-description: Gebruik deze testlaboratoriumhandleiding om bewaarlabels voor documenten te maken en te gebruiken in uw Microsoft 365 voor ondernemingstestomgeving.
+description: Gebruik deze Test Lab Guide om bewaarlabels te maken en te gebruiken op documenten in uw Microsoft 365 voor bedrijfstestomgeving.
 ms.openlocfilehash: 613aa3713b4d72eed1bc0b2d88f70a817d0e7cff
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -21,23 +21,23 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50919186"
 ---
-# <a name="data-classification-for-your-microsoft-365-for-enterprise-test-environment"></a>Gegevensclassificatie voor uw Microsoft 365 voor ondernemingstestomgeving
+# <a name="data-classification-for-your-microsoft-365-for-enterprise-test-environment"></a>Gegevensclassificatie voor uw Microsoft 365 voor bedrijfstestomgeving
 
-*Deze testlaborator kan worden gebruikt voor testomgevingen van Microsoft 365 voor bedrijven en Office 365 Enterprise.*
+*Deze testlaborator kan worden gebruikt voor zowel Microsoft 365 voor bedrijven als Office 365 Enterprise testomgevingen.*
 
-In dit artikel wordt beschreven hoe u gegevensclassificatie configureert met bewaarlabels in uw Microsoft 365 voor ondernemingstestomgeving.
+In dit artikel wordt beschreven hoe u gegevensclassificatie configureert met behulp van bewaarlabels in uw Microsoft 365 voor bedrijfstestomgeving.
 
 Het classificeren van gegevens in uw testomgeving bestaat uit drie fasen:
-- [Fase 1: Uw Microsoft 365 voor ondernemingstestomgeving opbouwen](#phase-1-build-out-your-microsoft-365-for-enterprise-test-environment)
+- [Fase 1: uw Microsoft 365 voor bedrijfstestomgeving](#phase-1-build-out-your-microsoft-365-for-enterprise-test-environment)
 - [Fase 2: Bewaarlabels maken](#phase-2-create-retention-labels)
 - [Fase 3: Bewaarlabels toepassen op documenten](#phase-3-apply-retention-labels-to-documents)
 
 ![Testlabrichtlijnen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
-> Ga naar [Microsoft 365 for enterprise Test Lab Guide](../downloads/Microsoft365EnterpriseTLGStack.pdf)Stack voor een visuele kaart voor alle artikelen in de Microsoft 365 voor enterprise Test Lab Guide Stack.
+> Voor een visuele kaart van alle artikelen in de Microsoft 365 voor enterprise Test Lab Guide stack, gaat u naar Microsoft 365 voor [enterprise Test Lab Guide Stack.](../downloads/Microsoft365EnterpriseTLGStack.pdf)
   
-## <a name="phase-1-build-out-your-microsoft-365-for-enterprise-test-environment"></a>Fase 1: Uw Microsoft 365 voor ondernemingstestomgeving opbouwen
+## <a name="phase-1-build-out-your-microsoft-365-for-enterprise-test-environment"></a>Fase 1: uw Microsoft 365 voor bedrijfstestomgeving
 
 Als u alleen de bewaarlabels op een lichtgewicht manier wilt configureren met de minimumvereisten, volgt u de instructies in [de lichtgewicht basisconfiguratie.](lightweight-base-configuration-microsoft-365-enterprise.md)
   
@@ -48,10 +48,10 @@ Als u bewaarlabels wilt configureren in een gesimuleerde onderneming, volgt u de
 
 ## <a name="phase-2-create-retention-labels"></a>Fase 2: Bewaarlabels maken
 
-Maak in deze fase de bewaarlabels voor de verschillende bewaarniveaus voor SharePoint Online-documentenmappen:
+Maak in deze fase de bewaarlabels voor de verschillende bewaarniveaus voor SharePoint onlinedocumentenmappen:
 
-1. Meld u aan bij [het Microsoft 365-beveiligingscentrum](https://security.microsoft.com/homepage) met uw globale beheerdersaccount.
-1. Selecteer classificatiebewaringslabels op het **tabblad Start - Microsoft 365-beveiliging** van   >  **uw** browser.
+1. Meld u aan bij [het Microsoft 365 beveiligingscentrum](https://security.microsoft.com/homepage) met uw globale beheerdersaccount.
+1. Selecteer op **het tabblad Start Microsoft 365 beveiligingstabblad** van uw browser de optie **Classificatiebewaringslabels.**  >  
 1. Selecteer **Een label maken.**
 1. Voer in **het deelvenster** Naam uw label interne **openbare** naam in naam van uw **label** in en selecteer **volgende**.
 1. Selecteer volgende in het deelvenster  **Bestandsplandescriptors.**
@@ -76,23 +76,23 @@ Het kan enkele minuten duren voordat de bewaarlabels zijn gepubliceerd.
 
 In deze fase ontdekt u het standaardgedrag van bewaarlabels voor bestanden in de map Documenten van een SharePoint Online-site en wijzigt u handmatig het bewaarlabel van een document.
 
-Maak eerst een SharePoint Online-teamsite op gevoelig niveau:
+Maak eerst een teamsite op gevoelig niveau SharePoint Online:
   
-1. Meld u met een privé-exemplaar van uw browser aan bij het [Microsoft 365-beheercentrum](https://admin.microsoft.com) met uw globale beheerdersaccount.
-1. Selecteer SharePoint in de lijst met **tegels.**
-1. Selecteer site maken op het **nieuwe tabblad SharePoint** in **uw browser.**
+1. Als u een privé-exemplaar van uw browser gebruikt, meld u zich aan [bij het Microsoft 365 beheercentrum](https://admin.microsoft.com) met uw globale beheerdersaccount.
+1. Selecteer in de lijst met tegels **SharePoint.**
+1. Selecteer op het **SharePoint** in uw browser de optie **Site maken.**
 1. Selecteer teamsite **op de pagina** Een **site maken.**
 1. Voer in **het vak Teamsitenaam** **SensitiveFiles in.**
-1. Voer in **het vak Teamsitebeschrijving** **SharePoint-site voor gevoelige bestanden in.**
+1. Typ in **het vak Teamsitebeschrijving** de **SharePoint voor gevoelige bestanden.**
 1. Selecteer **in Privacy-instellingen** de optie **Privé- alleen leden** hebben toegang tot deze site en selecteren vervolgens **Volgende.**
-1. Selecteer voltooien in het deelvenster Wie wilt **u toevoegen?** **.**
+1. Selecteer voltooien Wie het deelvenster Wilt u **toevoegen?** 
     
 Configureer vervolgens de map Documenten van de teamsite SensitiveFiles voor het label Gevoelige bewaring.
   
 1. Selecteer documenten **op het tabblad SensitiveFiles** van **uw** browser.
-1. Selecteer het **pictogram** Instellingen en selecteer vervolgens **Bibliotheekinstellingen.**
+1. Selecteer het **Instellingen** pictogram en selecteer vervolgens **Bibliotheekinstellingen.**
 1. Selecteer **onder Machtigingen en beheer** de optie Label toepassen op items in deze lijst of **bibliotheek.** Als deze optie niet wordt weergegeven, zijn uw bewaarlabels nog niet gepubliceerd. Probeer deze stap op een later tijdstip.
-1. Selecteer **in Instellingen-label** toepassen de optie **Gevoelig** in de vervolgkeuzekeuzemenu en selecteer **vervolgens Opslaan.**
+1. In **Instellingen-Label toepassen,** **selecteert** u Gevoelig in de vervolgkeuzevak en selecteert u **Vervolgens Opslaan.**
 
 Maak vervolgens een nieuw document op de site SensitiveFiles en wijzig het bewaarlabel.
     

@@ -18,7 +18,7 @@ f1.keywords:
 ms.custom:
 - Ent_Solutions
 ms.assetid: 34b1ab9c-814c-434d-8fd0-e5a82cd9bff6
-description: 'Overzicht: Configureer federatief hoge beschikbaarheidsverificatie voor uw Microsoft 365-abonnement in Microsoft Azure.'
+description: 'Overzicht: Configureer federatief hoge beschikbaarheidsverificatie voor uw Microsoft 365 abonnement in Microsoft Azure.'
 ms.openlocfilehash: 3989ebb06b4ac5dfa1cded5e07c086c4778f94e7
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -28,7 +28,7 @@ ms.locfileid: "50919150"
 ---
 # <a name="deploy-high-availability-federated-authentication-for-microsoft-365-in-azure"></a>Federatieverificatie met hoge beschikbaarheid implementeren voor Microsoft 365 in Azure
 
-Dit artikel bevat koppelingen naar de stapsgewijs instructies voor het implementeren van federatieverificatie met hoge beschikbaarheid voor Microsoft Microsoft 365 in Azure-infrastructuurservices met deze virtuele machines:
+Dit artikel bevat koppelingen naar de stapsgewijs instructies voor het implementeren van federatieverificatie met hoge beschikbaarheid voor Microsoft-Microsoft 365 in Azure-infrastructuurservices met deze virtuele machines:
   
 - Twee proxyservers voor webtoepassing
     
@@ -36,13 +36,13 @@ Dit artikel bevat koppelingen naar de stapsgewijs instructies voor het implement
     
 - Twee replicadomeincontrollers
     
-- Eén adreslijstsynchronisatieserver met Azure AD Connect
+- Eén adreslijstsynchronisatieserver met Azure AD-Verbinding maken
     
 Hier is de configuratie, met namen van tijdelijke aanduidingen voor elke server.
   
-**Een federatief hoge beschikbaarheid voor Microsoft 365-infrastructuur in Azure**
+**Een federatief hoge beschikbaarheid van verificatie voor Microsoft 365-infrastructuur in Azure**
 
-![De uiteindelijke configuratie van de microsoft 365 federatie-infrastructuur voor federatieverificatie met hoge beschikbaarheid in Azure](../media/c5da470a-f2aa-489a-a050-df09b4d641df.png)
+![De uiteindelijke configuratie van de hoge beschikbaarheid Microsoft 365 federatief verificatie-infrastructuur in Azure](../media/c5da470a-f2aa-489a-a050-df09b4d641df.png)
   
 Alle virtuele machines maken deel uit van één lokaal virtueel Azure-netwerk (VNet). 
   
@@ -52,9 +52,9 @@ Alle virtuele machines maken deel uit van één lokaal virtueel Azure-netwerk (V
 Elk paar virtuele machines voor een specifieke rol heeft een eigen subnet en beschikbaarheidsset.
   
 > [!NOTE]
-> Omdat dit VNet is verbonden met het on-premises netwerk, bevat deze configuratie geen jumpbox of het bewaken van virtuele machines op een beheerssubnet. Zie Windows [VM's uitvoeren voor een N-tier-architectuur](/azure/guidance/guidance-compute-n-tier-vm)voor meer informatie. 
+> Omdat dit VNet is verbonden met het on-premises netwerk, bevat deze configuratie geen jumpbox of het bewaken van virtuele machines op een beheerssubnet. Zie VM's uitvoeren [Windows N-laagarchitectuur](/azure/guidance/guidance-compute-n-tier-vm)voor meer informatie. 
   
-Het resultaat van deze configuratie is dat u federatief verificatie hebt voor al uw Microsoft 365-gebruikers, waarin ze hun AD DS-referenties kunnen gebruiken om zich aan te melden in plaats van hun Microsoft 365-account. De federatief verificatie-infrastructuur maakt gebruik van een redundante set servers die gemakkelijker kunnen worden geïmplementeerd in Azure-infrastructuurservices, in plaats van in uw on-premises edge-netwerk.
+Het resultaat van deze configuratie is dat u federatief verificatie hebt voor al uw Microsoft 365-gebruikers, waarin ze hun AD DS-referenties kunnen gebruiken om zich aan te melden in plaats van hun Microsoft 365 account. De federatief verificatie-infrastructuur maakt gebruik van een redundante set servers die gemakkelijker kunnen worden geïmplementeerd in Azure-infrastructuurservices, in plaats van in uw on-premises edge-netwerk.
   
 ## <a name="bill-of-materials"></a>Factuur van materialen
 
@@ -76,7 +76,7 @@ Hier zijn de virtuele machines en de standaardgrootten voor deze configuratie.
 |:-----|:-----|:-----|:-----|
 |1.  <br/> |Eerste domeincontroller  <br/> |Windows Server 2016 Datacenter  <br/> |D2  <br/> |
 |2.  <br/> |Tweede domeincontroller  <br/> |Windows Server 2016 Datacenter  <br/> |D2  <br/> |
-|3.  <br/> |Azure AD Connect-server  <br/> |Windows Server 2016 Datacenter  <br/> |D2  <br/> |
+|3.  <br/> |Azure AD Verbinding maken server  <br/> |Windows Server 2016 Datacenter  <br/> |D2  <br/> |
 |4.  <br/> |Eerste AD FS-server  <br/> |Windows Server 2016 Datacenter  <br/> |D2  <br/> |
 |5.  <br/> |Tweede AD FS-server  <br/> |Windows Server 2016 Datacenter  <br/> |D2  <br/> |
 |6.  <br/> |Eerste proxyserver voor webtoepassing  <br/> |Windows Server 2016 Datacenter  <br/> |D2  <br/> |
@@ -96,7 +96,7 @@ U implementeert deze werkbelasting in de volgende fasen:
     
 - [Fase 4: Webtoepassingsproxies configureren.](high-availability-federated-authentication-phase-4-configure-web-application-pro.md) De twee proxyservers voor webtoepassing maken en configureren.
     
-- [Fase 5: Federatief verificatie configureren voor Microsoft 365](high-availability-federated-authentication-phase-5-configure-federated-authentic.md). Federatief verificatie configureren voor uw Microsoft 365-abonnement.
+- [Fase 5: Federatief verificatie configureren voor Microsoft 365.](high-availability-federated-authentication-phase-5-configure-federated-authentic.md) Federatief verificatie configureren voor uw Microsoft 365 abonnement.
     
 Deze artikelen bevatten een prescriptieve, fase-voor-fase-handleiding voor een vooraf gedefinieerde architectuur om een functionele federatieve verificatie met hoge beschikbaarheid te maken voor Microsoft 365 in Azure-infrastructuurservices. Houd het volgende in gedachten:
   
@@ -104,7 +104,7 @@ Deze artikelen bevatten een prescriptieve, fase-voor-fase-handleiding voor een v
     
 - Als u al een bestaande hybride Azure-cloudimplementatie met een bestaand cross-premises virtueel netwerk hebt, kunt u de instructies in fasen 1 en 2 aanpassen of overslaan en de proxyservers voor AD FS en webtoepassing op de juiste subnetten plaatsen.
     
-Zie Federatief identiteit voor uw [Microsoft 365-dev-/testomgeving](federated-identity-for-your-microsoft-365-dev-test-environment.md)voor het bouwen van een dev/testomgeving of een proof-of-concept van deze configuratie.
+Als u een dev/testomgeving of een proof-of-concept van deze configuratie wilt maken, zie Federatief identiteit voor uw [Microsoft 365 v/testomgeving.](federated-identity-for-your-microsoft-365-dev-test-environment.md)
   
 ## <a name="next-step"></a>Volgende stap
 

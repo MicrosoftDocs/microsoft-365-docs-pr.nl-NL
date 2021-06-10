@@ -20,7 +20,7 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 74d327e5-755f-4135-b9a5-7b79578c1bf9
-description: Lees hoe u de laadtijd voor SharePoint Online-pagina's kunt verminderen door JavaScript te gebruiken om het laden van afbeeldingen en niet-essentiële JavaScript uit te stellen.
+description: Lees hoe u de laadtijd voor onlinepagina'SharePoint kunt verminderen door JavaScript te gebruiken om het laden van afbeeldingen en niet-essentiële JavaScript uit te stellen.
 ms.openlocfilehash: 86b93c4e1e102132bb0c1bfb9a413233529adecb
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -32,9 +32,9 @@ ms.locfileid: "50919162"
 
 In dit artikel wordt beschreven hoe u de laadtijd voor SharePoint Online-pagina's kunt verminderen door JavaScript te gebruiken om het laden van afbeeldingen uit te stellen en ook door te wachten op het laden van niet-essentiële JavaScript tot nadat de pagina is geladen.
   
-Afbeeldingen kunnen een negatieve invloed hebben op de laadsnelheid van pagina's in SharePoint Online. Standaard worden in de meeste moderne internetbrowsers afbeeldingen vooraf opgehaald bij het laden van een HTML-pagina. Hierdoor kan de pagina onnodig traag worden geladen als de afbeeldingen niet zichtbaar zijn op het scherm totdat de gebruiker omlaag schuift. De afbeeldingen kunnen blokkeren dat de browser het zichtbare deel van de pagina laadt. Als u dit probleem wilt oplossen, kunt u JavaScript gebruiken om het laden van de afbeeldingen eerst over te slaan. Bovendien kan het laden van niet-essentiële JavaScript ook de downloadtijden op uw SharePoint-pagina's vertragen. In dit onderwerp worden enkele methoden beschreven die u kunt gebruiken om de laadtijden van pagina's te verbeteren met JavaScript in SharePoint Online.
+Afbeeldingen kunnen een negatieve invloed hebben op de laadsnelheid van pagina's SharePoint Online. Standaard worden in de meeste moderne internetbrowsers afbeeldingen vooraf opgehaald bij het laden van een HTML-pagina. Hierdoor kan de pagina onnodig traag worden geladen als de afbeeldingen niet zichtbaar zijn op het scherm totdat de gebruiker omlaag schuift. De afbeeldingen kunnen blokkeren dat de browser het zichtbare deel van de pagina laadt. Als u dit probleem wilt oplossen, kunt u JavaScript gebruiken om het laden van de afbeeldingen eerst over te slaan. Bovendien kan het laden van niet-essentiële JavaScript ook de downloadtijden op uw SharePoint pagina's vertragen. In dit onderwerp worden enkele methoden beschreven die u kunt gebruiken om de laadtijden van pagina's te verbeteren met JavaScript in SharePoint Online.
   
-## <a name="improve-page-load-times-by-delaying-image-loading-in-sharepoint-online-pages-by-using-javascript"></a>Laadtijden van pagina's verbeteren door het laden van afbeeldingen in SharePoint Online-pagina's uit te stellen met JavaScript
+## <a name="improve-page-load-times-by-delaying-image-loading-in-sharepoint-online-pages-by-using-javascript"></a>Laadtijden van pagina's verbeteren door het laden van afbeeldingen in SharePoint onlinepagina's uit te stellen met JavaScript
 
 U kunt JavaScript gebruiken om te voorkomen dat afbeeldingen vooraf worden opgehaald door een webbrowser. Dit versnelt de algehele weergave van documenten. Hiervoor verwijdert u de waarde van het src-kenmerk uit de tag en vervangt u het door het pad naar een bestand in een gegevenskenmerk, \<img\> zoals: gegevens-src. Bijvoorbeeld:
   
@@ -99,13 +99,13 @@ $('#s4-workspace').on("scroll", function () {
 
 Sla het tekstbestand op als een JavaScript-bestand met de extensie .js, bijvoorbeeld delayLoadImages.js.
   
-Wanneer u klaar bent met het schrijven delayLoadImages.js, kunt u de inhoud van het bestand toevoegen aan een basispagina in SharePoint Online. U doet dit door een scriptkoppeling toe te voegen aan de koptekst op de basispagina. Zodra het op een basispagina staat, wordt JavaScript toegepast op alle pagina's op uw SharePoint Online-site die gebruikmaken van die basispagina-indeling. Als u dit alleen op één pagina van uw site wilt gebruiken, gebruikt u het webonderdeel scripteditor om JavaScript in tesluiten in de pagina. Zie deze onderwerpen voor meer informatie:
+Wanneer u klaar bent met het schrijven delayLoadImages.js, kunt u de inhoud van het bestand toevoegen aan een basispagina in SharePoint Online. U doet dit door een scriptkoppeling toe te voegen aan de koptekst op de basispagina. Zodra het op een basispagina staat, wordt JavaScript toegepast op alle pagina's in uw SharePoint Online-site die die basispagina-indeling gebruiken. Als u dit alleen op één pagina van uw site wilt gebruiken, gebruikt u het webonderdeel scripteditor om JavaScript in tesluiten in de pagina. Zie deze onderwerpen voor meer informatie:
   
 - [How to: Een basispagina toepassen op een site in SharePoint 2013](/sharepoint/dev/general-development/how-to-apply-a-master-page-to-a-site-in-sharepoint)
 
-- [How to: Een pagina-indeling maken in SharePoint 2013](/sharepoint/dev/general-development/how-to-create-a-page-layout-in-sharepoint)
+- [How to: Create a page layout in SharePoint 2013](/sharepoint/dev/general-development/how-to-create-a-page-layout-in-sharepoint)
 
-### <a name="example-referencing-the-javascript-delayloadimagesjs-file-from-a-master-page-in-sharepoint-online"></a>Voorbeeld: Het JavaScript-delayLoadImages.js verwijzen vanaf een basispagina in SharePoint Online
+### <a name="example-referencing-the-javascript-delayloadimagesjs-file-from-a-master-page-in-sharepoint-online"></a>Voorbeeld: Het JavaScript-bestand verwijzen delayLoadImages.js een basispagina in SharePoint Online
   
 Om dit te laten werken, moet u ook verwijzen naar jQuery op de basispagina. In het volgende voorbeeld ziet u in de eerste paginabelasting dat er slechts één afbeelding is geladen, maar er zijn er meerdere op de pagina.
   
@@ -117,14 +117,14 @@ In de volgende schermafbeelding ziet u de rest van de afbeeldingen die zijn gedo
   
 Het uitstellen van het laden van afbeeldingen met Behulp van JavaScript kan een effectieve techniek zijn om de prestaties te verbeteren. Als de techniek echter wordt toegepast op een openbare website, kunnen zoekmachines de afbeeldingen niet op dezelfde manier crawlen als een regelmatig gevormde afbeelding. Dit kan van invloed zijn op de classificaties in zoekmachines, omdat metagegevens op de afbeelding zelf er pas staan als de pagina wordt geladen. Zoekmachinecrawlers lezen alleen de HTML en zien de afbeeldingen daarom niet als inhoud op de pagina. Afbeeldingen zijn een van de factoren die worden gebruikt om pagina's in zoekresultaten te rangschikken. U kunt hier onder andere omheen werken door inleidende tekst voor uw afbeeldingen te gebruiken.
   
-## <a name="github-code-sample-injecting-javascript-to-improve-performance"></a>Voorbeeld van GitHub-code: JavaScript injecteren om de prestaties te verbeteren
+## <a name="github-code-sample-injecting-javascript-to-improve-performance"></a>GitHub codevoorbeeld: JavaScript injecteren om de prestaties te verbeteren
 
-Mis het artikel en het codevoorbeeld over [JavaScript-injectie](https://go.microsoft.com/fwlink/p/?LinkId=524759) op GitHub niet.
+Mis het artikel en het codevoorbeeld over [JavaScript-injectie](https://go.microsoft.com/fwlink/p/?LinkId=524759) niet op GitHub.
   
 ## <a name="see-also"></a>Zie ook
 
-[Ondersteunde browsers in Office 2013 en Microsoft 365 Apps voor bedrijven](https://support.office.com/article/57342811-0dc4-4316-b773-20082ced8a82)
+[Ondersteunde browsers in Office 2013 en Microsoft 365-apps voor ondernemingen](https://support.office.com/article/57342811-0dc4-4316-b773-20082ced8a82)
   
 [How to: Een basispagina toepassen op een site in SharePoint 2013](/sharepoint/dev/general-development/how-to-apply-a-master-page-to-a-site-in-sharepoint)
   
-[How to: Een pagina-indeling maken in SharePoint 2013](/sharepoint/dev/general-development/how-to-create-a-page-layout-in-sharepoint)
+[How to: Create a page layout in SharePoint 2013](/sharepoint/dev/general-development/how-to-create-a-page-layout-in-sharepoint)

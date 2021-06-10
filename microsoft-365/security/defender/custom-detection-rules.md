@@ -42,14 +42,14 @@ Aangepaste detectieregels zijn regels die u kunt ontwerpen en aanpassen met behu
 
 Als u aangepaste detecties wilt beheren, moet u een van de volgende rollen krijgen:
 
-- **Beveiligingsbeheerder:** gebruikers met deze [Azure Active Directory-rol](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#security-administrator) kunnen beveiligingsinstellingen beheren in het Microsoft 365-beveiligingscentrum en andere portals en services.
+- **Beveiligingsbeheerder:** gebruikers met deze Azure Active Directory [kunnen](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#security-administrator) beveiligingsinstellingen beheren in Microsoft 365 beveiligingscentrum en andere portals en services.
 
-- **Beveiligingsoperator:** gebruikers met deze [Azure Active Directory-rol](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#security-administrator) kunnen waarschuwingen beheren en hebben globale alleen-lezen toegang tot beveiligingsfuncties, inclusief alle informatie in het Microsoft 365-beveiligingscentrum. Deze rol is alleen voldoende voor het beheren van aangepaste detecties als RBAC (Role Based Access Control) is uitgeschakeld in Microsoft Defender voor Eindpunt. Als u RBAC hebt geconfigureerd,  hebt u ook de machtiging beveiligingsinstellingen voor Defender voor Eindpunt nodig.
+- **Beveiligingsoperator:** gebruikers met deze [Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#security-administrator) kunnen waarschuwingen beheren en hebben globale alleen-lezen toegang tot beveiligingsfuncties, inclusief alle informatie in Microsoft 365 beveiligingscentrum. Deze rol is alleen voldoende voor het beheren van aangepaste detecties als RBAC (Role Based Access Control) is uitgeschakeld in Microsoft Defender voor Eindpunt. Als u RBAC hebt geconfigureerd,  hebt u ook de machtiging beveiligingsinstellingen voor Defender voor Eindpunt nodig.
 
 Als u vereiste machtigingen wilt beheren, kan een **globale beheerder** het volgende doen:
 
-- Wijs de **rol van de** beveiligingsbeheerder of **beveiligingsoperator** toe in [het Microsoft 365-beheercentrum](https://admin.microsoft.com/) onder   >  **Rollenbeveiligingsbeheerder.**
-- Controleer RBAC-instellingen voor Microsoft Defender voor Eindpunt in [het Microsoft Defender-beveiligingscentrum](https://securitycenter.windows.com/) onder **Instellingen**  >  **Machtigingen**  >  **Rollen**. Selecteer de bijbehorende rol om de machtiging **beveiligingsinstellingen beheren toe te** wijzen.
+- Wijs de **rol van de** beveiligingsbeheerder of beveiligingsoperator toe in Microsoft 365 [beheercentrum](https://admin.microsoft.com/) onder    >  **Rollenbeveiligingsbeheerder.**
+- Controleer RBAC-instellingen voor Microsoft Defender voor Eindpunt [in](https://securitycenter.windows.com/) Microsoft Defender-beveiligingscentrum onder **Instellingen**  >  **Machtigingen**  >  **Rollen**. Selecteer de bijbehorende rol om de machtiging **beveiligingsinstellingen beheren toe te** wijzen.
 
 > [!NOTE]
 > Als u aangepaste detecties wilt  beheren, hebben **beveiligingsoperatoren** de machtiging beveiligingsinstellingen in Microsoft Defender voor Eindpunt nodig als RBAC is ingeschakeld.
@@ -57,7 +57,7 @@ Als u vereiste machtigingen wilt beheren, kan een **globale beheerder** het volg
 ## <a name="create-a-custom-detection-rule"></a>Een aangepaste detectieregel maken
 ### <a name="1-prepare-the-query"></a>1. De query voorbereiden.
 
-Ga in het Microsoft 365-beveiligingscentrum naar Geavanceerd **zoeken** en selecteer een bestaande query of maak een nieuwe query. Wanneer u een nieuwe query gebruikt, moet u de query uitvoeren om fouten te identificeren en mogelijke resultaten te begrijpen.
+Ga Microsoft 365 in het beveiligingscentrum naar Geavanceerd **zoeken** en selecteer een bestaande query of maak een nieuwe query. Wanneer u een nieuwe query gebruikt, moet u de query uitvoeren om fouten te identificeren en mogelijke resultaten te begrijpen.
 
 >[!IMPORTANT]
 >Als u wilt voorkomen dat de service te veel waarschuwingen retourneert, is elke regel beperkt tot het genereren van slechts 100 waarschuwingen wanneer deze wordt uitgevoerd. Voordat u een regel maakt, kunt u de query aanpassen om te voorkomen dat u een waarschuwing voor normale, dagelijkse activiteiten uitvoert.
@@ -145,7 +145,7 @@ Uw aangepaste detectieregel kan automatisch acties uitvoeren op apparaten, besta
 Deze acties worden toegepast op apparaten in de `DeviceId` kolom van de queryresultaten:
 - **Apparaat isoleren:** hiermee wordt Microsoft Defender voor Eindpunt gebruikt om volledige netwerkisolatie toe te passen, waardoor het apparaat geen verbinding kan maken met een toepassing of service. [Meer informatie over machineisolatie van Microsoft Defender voor eindpunten](/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#isolate-devices-from-the-network)
 - **Verzamel onderzoekspakket:** verzamelt apparaatgegevens in een ZIP-bestand. [Meer informatie over het Microsoft Defender for Endpoint-onderzoekspakket](/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#collect-investigation-package-from-devices)
-- **Antivirusscan uitvoeren**: voert een volledige Windows Defender Antivirus-scan uit op het apparaat
+- **Antivirusscan uitvoeren**: voert een volledige scan Windows Defender Antivirus op het apparaat uit
 - **Onderzoek starten**: start een [geautomatiseerd onderzoek](m365d-autoir.md) op het apparaat
 - **De uitvoering van apps** beperken: hiermee stelt u beperkingen in op het apparaat om alleen bestanden toe te staan die zijn ondertekend met een door Microsoft uitgegeven certificaat. [Meer informatie over app-beperkingen met Microsoft Defender voor Eindpunt](/microsoft-365/security/defender-endpoint/respond-machine-alerts#restrict-app-execution)
 
@@ -153,10 +153,10 @@ Deze acties worden toegepast op apparaten in de `DeviceId` kolom van de queryres
 Wanneer geselecteerd, kunt u ervoor kiezen om de actie **Quarantainebestand** toe te passen op bestanden in `SHA1` de , of kolom van de `InitiatingProcessSHA1` `SHA256` `InitiatingProcessSHA256` queryresultaten. Met deze actie wordt het bestand van de huidige locatie verwijderd en wordt een kopie in quarantaine geplaatst.
 
 #### <a name="actions-on-users"></a>Acties voor gebruikers
-Wanneer deze optie **is** geselecteerd, wordt de actie Gebruiker markeren als gecompromitteerd uitgevoerd op gebruikers in de , of kolom van de `AccountObjectId` `InitiatingProcessAccountObjectId` `RecipientObjectId` queryresultaten. Met deze actie wordt het risiconiveau voor gebruikers in Azure Active Directory op 'hoog' gebracht, wat het [bijbehorende identiteitsbeveiligingsbeleid activeert.](/azure/active-directory/identity-protection/overview-identity-protection)
+Wanneer deze optie **is** geselecteerd, wordt de actie Gebruiker markeren als gecompromitteerd uitgevoerd op gebruikers in de , of kolom van de `AccountObjectId` `InitiatingProcessAccountObjectId` `RecipientObjectId` queryresultaten. Met deze actie wordt het risiconiveau voor gebruikers op 'hoog' in Azure Active Directory, wat het [bijbehorende identiteitsbeveiligingsbeleid activeert.](/azure/active-directory/identity-protection/overview-identity-protection)
 
 > [!NOTE]
-> De actie toestaan of blokkeren voor aangepaste detectieregels wordt momenteel niet ondersteund in Microsoft 365 Defender.
+> De actie toestaan of blokkeren voor aangepaste detectieregels wordt momenteel niet ondersteund op Microsoft 365 Defender.
 
 ### <a name="5-set-the-rule-scope"></a>5. Stel het regelbereik in.
 Stel het bereik in om op te geven welke apparaten onder de regel vallen. Het bereik is van invloed op regels die apparaten controleren en hebben geen invloed op regels die alleen postvakken en gebruikersaccounts of identiteiten controleren.
@@ -181,7 +181,7 @@ U behoudt de controle over de breedheid of specificiteit van uw aangepaste detec
 U kunt de lijst met bestaande aangepaste detectieregels bekijken, de eerdere versies controleren en de waarschuwingen bekijken die ze hebben geactiveerd. U kunt ook een regel op aanvraag uitvoeren en deze wijzigen.
 
 >[!TIP]
-> Waarschuwingen die door aangepaste detecties worden opgehaald, zijn beschikbaar via waarschuwingen en incident-API's. Zie Ondersteunde [Microsoft 365 Defender-API's](api-supported.md)voor meer informatie.
+> Waarschuwingen die door aangepaste detecties worden opgehaald, zijn beschikbaar via waarschuwingen en incident-API's. Zie Ondersteunde [api's Microsoft 365 Defender voor meer informatie.](api-supported.md)
 
 ### <a name="view-existing-rules"></a>Bestaande regels weergeven
 
@@ -222,7 +222,7 @@ Ga in het scherm Met regeldetails **(Op** zoek naar aangepaste  >  **detecties**
 >Als u snel informatie wilt weergeven en actie wilt ondernemen voor een item in een tabel, gebruikt u de selectiekolom [&#10003;] links van de tabel.
 
 >[!NOTE]
->Sommige kolommen in dit artikel zijn mogelijk niet beschikbaar in Microsoft Defender voor Eindpunt. [Schakel Microsoft 365 Defender in om](m365d-enable.md) te zoeken naar bedreigingen met meer gegevensbronnen. U kunt uw geavanceerde zoekwerkstromen verplaatsen van Microsoft Defender voor Eindpunt naar Microsoft 365 Defender door de stappen te volgen in Geavanceerde zoekquery's migreren van [Microsoft Defender voor Eindpunt.](advanced-hunting-migrate-from-mde.md)
+>Sommige kolommen in dit artikel zijn mogelijk niet beschikbaar in Microsoft Defender voor Eindpunt. [Schakel de Microsoft 365 Defender in om](m365d-enable.md) te zoeken naar bedreigingen met behulp van meer gegevensbronnen. U kunt uw geavanceerde zoekwerkstromen verplaatsen van Microsoft Defender voor Eindpunt naar Microsoft 365 Defender door de stappen in Geavanceerde zoekquery's migreren uit [Microsoft Defender voor Eindpunt te volgen.](advanced-hunting-migrate-from-mde.md)
 
 ## <a name="see-also"></a>Zie ook
 - [Overzicht van aangepaste detectie](custom-detections-overview.md)

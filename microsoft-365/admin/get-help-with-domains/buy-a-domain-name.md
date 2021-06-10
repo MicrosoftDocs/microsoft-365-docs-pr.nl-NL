@@ -116,7 +116,7 @@ Nadat u uw domein hebt geregistreerd (bij een domeinregistrar), meld u zich aan 
     
 ::: moniker-end
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Een domein toevoegen aan Microsoft 365](../setup/add-domain.md) (artikel)\
 [Veelgestelde vragen over domeinen](../setup/domains-faq.yml) (artikel)\

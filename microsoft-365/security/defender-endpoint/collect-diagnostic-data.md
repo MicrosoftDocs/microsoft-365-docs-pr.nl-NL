@@ -91,7 +91,7 @@ Wanneer de parameter SupportLogLocation wordt gebruikt, wordt een mapstructuur a
 <path>\<MMDD>\MpSupport-<hostname>-<HHMM>.cab
 ```
 
-| veld  | Omschrijving   |
+| veld  | Beschrijving   |
 |:----|:----|
 | pad | Het pad zoals opgegeven op de opdrachtregel of opgehaald uit configuratie
 | MMDD | Maand en dag waarop de diagnostische gegevens zijn verzameld (bijvoorbeeld 0530)

@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365-licenties verwijderen uit gebruikersaccounts met PowerShell
+title: Licenties Microsoft 365 gebruikersaccounts verwijderen met PowerShell
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -19,7 +19,7 @@ ms.custom:
 - LIL_Placement
 - O365ITProTrain
 ms.assetid: e7e4dc5e-e299-482c-9414-c265e145134f
-description: Hier wordt uitgelegd hoe u PowerShell gebruikt om Microsoft 365-licenties te verwijderen die eerder aan gebruikers zijn toegewezen.
+description: Hier wordt uitgelegd hoe u PowerShell kunt gebruiken om Microsoft 365 licenties te verwijderen die eerder aan gebruikers zijn toegewezen.
 ms.openlocfilehash: 9944d1ab056d109b6bf71a44fe01acef78ce1f14
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -27,17 +27,17 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50920666"
 ---
-# <a name="remove-microsoft-365-licenses-from-user-accounts-with-powershell"></a>Microsoft 365-licenties verwijderen uit gebruikersaccounts met PowerShell
+# <a name="remove-microsoft-365-licenses-from-user-accounts-with-powershell"></a>Licenties Microsoft 365 gebruikersaccounts verwijderen met PowerShell
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
 >[!Note]
->[Meer informatie over het verwijderen van licenties uit gebruikersaccounts](../admin/manage/remove-licenses-from-users.md) met het Microsoft 365-beheercentrum. Zie Gebruikers en groepen beheren voor een lijst met [aanvullende bronnen.](../admin/add-users/index.yml)
+>[Meer informatie over het verwijderen van licenties uit gebruikersaccounts](../admin/manage/remove-licenses-from-users.md) met het Microsoft 365 beheercentrum. Zie Gebruikers en groepen beheren voor een lijst met [aanvullende bronnen.](../admin/add-users/index.yml)
 >
 
-## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>De Azure Active Directory PowerShell voor Graph-module gebruiken
+## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>De powershell Azure Active Directory powershell gebruiken voor Graph module
 
-Maak eerst [verbinding met uw Microsoft 365-tenant.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
+Maak eerst [verbinding met uw Microsoft 365 tenant.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
 
 Vermeld vervolgens de licentieplannen voor uw tenant met deze opdracht.
 
@@ -79,9 +79,9 @@ if($userList.Count -ne 0) {
 }
 ```
 
-## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>De Microsoft Azure Active Directory-module voor Windows PowerShell gebruiken
+## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Gebruik de Microsoft Azure Active Directory module voor Windows PowerShell
 
-Maak eerst [verbinding met uw Microsoft 365-tenant.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
+Maak eerst [verbinding met uw Microsoft 365 tenant.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
    
 Zie de volgende onderwerpen als u de informatie over het licentieplan **(AccountSkuID)** in uw organisatie wilt bekijken:
     
@@ -110,7 +110,7 @@ Set-MsolUserLicense -UserPrincipalName belindan@litwareinc.com -RemoveLicenses "
 ```
 
 >[!Note]
->U kunt de `Set-MsolUserLicense` cmdlet niet gebruiken om gebruikers te ontzeggen van *geannuleerde* licenties. U moet dit afzonderlijk doen voor elk gebruikersaccount in het Microsoft 365-beheercentrum.
+>U kunt de `Set-MsolUserLicense` cmdlet niet gebruiken om gebruikers te ontzeggen van *geannuleerde* licenties. U moet dit afzonderlijk doen voor elk gebruikersaccount in het Microsoft 365 beheercentrum.
 >
 
 Als u alle licenties wilt verwijderen uit een groep bestaande gebruikers met een licentie, gebruikt u een van de volgende methoden:

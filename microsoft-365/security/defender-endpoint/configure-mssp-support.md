@@ -23,12 +23,12 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/24/2021
 ms.locfileid: "51165247"
 ---
-# <a name="configure-managed-security-service-provider-integration"></a>Integratie van beheerde beveiligingsproviders configureren
+# <a name="configure-managed-security-service-provider-integration"></a>MSSP-integratie (Managed Security Service Provider) configureren
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-mssp-support-abovefoldlink)
@@ -44,7 +44,7 @@ U moet de volgende configuratiestappen nemen om de MSSP-integratie (Managed Secu
 
 Met de integratie kunnen MSSP's de volgende acties uitvoeren:
 
-- Toegang krijgen tot de Microsoft Defender-beveiligingscentrumportal van MSSP-klanten
+- Toegang krijgen tot de mssp-portal van Microsoft Defender-beveiligingscentrum klant
 - E-mailmeldingen ontvangen en 
 - Waarschuwingen ophalen via hulpprogramma's voor beveiligingsgegevens en gebeurtenisbeheer (SIEM)
 
@@ -57,7 +57,7 @@ MsSP-klanten nemen meestal de eerste configuratiestappen om MSSP's toegang te ve
 In het algemeen moeten de volgende configuratiestappen worden ondernomen:
 
 
-- **MsSP-toegang verlenen tot Microsoft Defender-beveiligingscentrum** <br>
+- **De MSSP-toegang verlenen tot Microsoft Defender-beveiligingscentrum** <br>
 Deze actie moet worden uitgevoerd door de MSSP-klant. Het verleent de MSSP-toegang tot de Defender for Endpoint-tenant van de MSSP-klant.
  
 
@@ -78,5 +78,5 @@ Zie [Multi-tenant access for Managed Security Service Providers (Multi-tenant ac
 - [MSSP-toegang verlenen tot de portal](grant-mssp-access.md)
 - [Toegang tot de MSSP-klantportal](access-mssp-portal.md)
 - [Waarschuwingsmeldingen configureren](configure-mssp-notifications.md)
-- [Waarschuwingen ophalen van klant tenant](fetch-alerts-mssp.md)
+- [Waarschuwingen ophalen van de klant-tenant](fetch-alerts-mssp.md)
 

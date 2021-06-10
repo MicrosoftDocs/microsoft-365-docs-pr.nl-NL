@@ -28,7 +28,7 @@ ms.locfileid: "51165655"
 # <a name="ad-fs-migration-steps-for-the-migration-from-microsoft-cloud-deutschland"></a>AD FS-migratiestappen voor de migratie van Microsoft Cloud Deutschland
 
 Deze configuratiewijziging moet op elk moment worden toegepast voordat fase 2 begint.
-Wanneer fase 2 is voltooid, werkt de configuratiewijziging en kunt u zich aanmelden via globale eindpunten van Office 365, zoals `https://portal.office.com` . Als u de configuratiewijziging implementeert vóór fase 2, werken  de globale eindpunten van Office 365 nog niet, maar maakt het vertrouwen van de nieuwe vertrouwensrelatie van de vertrouwenspartij nog steeds deel uit van uw AD FS-configuratie (Active Directory Federation Services).
+Wanneer fase 2 is voltooid, werkt de configuratiewijziging en kunt u zich aanmelden via Office 365 algemene eindpunten zoals `https://portal.office.com` . Als u de configuratiewijziging vóór fase 2 implementeert,  werken de algemene eindpunten van Office 365 nog niet, maar het vertrouwen van de nieuwe vertrouwensrelatie van de afhankelijke partij maakt nog steeds deel uit van uw AD FS-configuratie (Active Directory Federation Services).
 
 Klanten die federatieverificatie met AD FS (Active Directory Federation Services) gebruiken, mogen tijdens de migratie geen wijzigingen aanbrengen in url's van uitgevende gebruikers die worden gebruikt voor alle verificaties met on-premises Active Directory Domain Services (AD DS). Als u url's voor uitgevende gebruikers verandert, kan dit leiden tot verificatiefouten voor gebruikers in het domein. Url's voor uitgevende uitgevende uri's kunnen  rechtstreeks worden gewijzigd in AD FS of wanneer een domein wordt geconverteerd van beheerd naar _federatief_ en omgekeerd. U wordt aangeraden een federatief domein niet toe te voegen, te verwijderen of te converteren in de Azure AD-tenant die is gemigreerd. U kunt URL's voor uitgevende uri's wijzigen nadat de migratie volledig is voltooid.
 
@@ -37,7 +37,7 @@ Voer de volgende stappen uit om uw AD FS-farm voor te bereiden op de migratie va
 1. Een back-up maken van uw AD FS-instellingen, inclusief het bestaande vertrouwen van Microsoft Cloud Deutschland Relying Party, met [deze stappen.](#backup) Geef de back-up **van MicrosoftCloudDeutschlandOnly een** naam om aan te geven dat alleen de tenantgegevens van Microsoft Cloud Deutschland beschikbaar zijn.
 
    > [!NOTE]
-   > De back-up bevat niet alleen de bestaande Vertrouwensrelatie van Office 365 Relying Party voor Microsoft Cloud Deutschland, maar ook alle andere Vertrouwensrelatie voor afhankelijke partijen die aanwezig zijn op de betreffende AD FS-farm.
+   > De back-up bevat niet alleen de bestaande Office 365 Relying Party Trust voor Microsoft Cloud Deutschland, maar ook alle andere Relying Party Trusts die aanwezig zijn op de betreffende AD FS-farm.
 
 2. Test het herstel met behulp van de MicrosoftCloudDeutschlandOnly-back-up, de AD FS-farm moet alleen blijven werken als Microsoft Cloud Deutschland.
 
@@ -53,7 +53,7 @@ Nadat u de AD FS-back-up hebt voltooid en getest, voert u de volgende stappen ui
 
 5. Selecteer op **de pagina Gegevensbron** selecteren de optie Gegevens importeren over de afhankelijke partij die online of **op een lokaal netwerk is gepubliceerd.** De **waarde federatie metagegevens (hostnaam of URL)** moet zijn ingesteld op `https://nexus.microsoftonline-p.com/federationmetadata/2007-06/federationmetadata.xml` . Klik op **Volgende**.
 
-6. Typ op **de pagina Weergavenaam** opgeven de weergavenaam zoals **Microsoft Office 365 Identity Platform WorldWide**. Klik op **Volgende**.
+6. Typ op **de pagina Weergavenaam** opgeven de weergavenaam, **zoals Microsoft Office 365 Identity Platform WorldWide.** Klik op **Volgende**.
 
 7. Als u ADFS gebruikt in Windows Server 2012, selecteert u op de wizardpagina Meervoudige verificatie **nu configureren?** de juiste keuze op basis van uw verificatievereisten. Als u zich aan de standaardinstelling houdt, selecteert u Ik wil op dit moment geen instellingen voor meervoudige verificatie configureren voor dit vertrouwen van afhankelijke **partijen.** U kunt deze instelling later wijzigen als u dat wilt.
 
@@ -65,7 +65,7 @@ Nadat u de AD FS-back-up hebt voltooid en getest, voert u de volgende stappen ui
 
 11. Klik **op Sluiten** op de **pagina** Voltooien.
 
-Als u de wizard sluit, wordt de vertrouwensrelatie van relying party met de globale office 365-service ingesteld. Er zijn echter nog geen regels voor uitgiftetransformator geconfigureerd.
+Door de wizard te sluiten, wordt het vertrouwen van afhankelijke partijen met de Office 365 globale service ingesteld. Er zijn echter nog geen regels voor uitgiftetransformator geconfigureerd.
 
 U kunt [AD FS Help gebruiken om](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator) de juiste regels voor uitgiftetransformator te genereren. De gegenereerde claimregels die zijn gemaakt met AD FS Help, kunnen handmatig worden toegevoegd via de AD FS-beheerconsole of met PowerShell. Ad FS Help genereert de benodigde PowerShell-scripts die moeten worden uitgevoerd.  
 
@@ -88,7 +88,7 @@ U kunt [AD FS Help gebruiken om](https://adfshelp.microsoft.com/AadTrustClaims/C
    Set-AdfsRelyingPartyTrust -TargetIdentifier urn:federation:MicrosoftOnline -IssuanceTransformRules $RuleSet.ClaimRulesString;
    ```
 
-3. Controleer of er twee Relying PartyTtrusts aanwezig zijn. een voor Microsoft Cloud Deutschland en een voor de Globale Office 365-service. De volgende opdracht kan worden gebruikt voor de controle. Het moet twee rijen en de respectievelijke namen en id's retourneren.
+3. Controleer of er twee Relying PartyTtrusts aanwezig zijn. een voor Microsoft Cloud Deutschland en een voor de Office 365 Globale service. De volgende opdracht kan worden gebruikt voor de controle. Het moet twee rijen en de respectievelijke namen en id's retourneren.
 
    ```powershell
    Get-AdfsRelyingPartyTrust | Where-Object {$_.Identifier -like 'urn:federation:MicrosoftOnline*'} | Select-Object Name, Identifier
@@ -140,7 +140,7 @@ Als uw farm volledig is mislukt en er geen manier is om terug te keren naar de o
 
 Aan de slag:
 
-- [Migratie van Microsoft Cloud Deutschland naar Office 365-services in de nieuwe Duitse datacenterregio's](ms-cloud-germany-transition.md)
+- [Migratie van Microsoft Cloud Deutschland naar Office 365 services in de nieuwe Duitse datacenterregio's](ms-cloud-germany-transition.md)
 - [Microsoft Cloud Deutschland-migratiehulp](https://aka.ms/germanymigrateassist)
 - [Opt-in voor migratie](ms-cloud-germany-migration-opt-in.md)
 - [Klantervaring tijdens de migratie](ms-cloud-germany-transition-experience.md)
@@ -154,5 +154,5 @@ Door de overgang lopen:
 Cloud-apps:
 
 - [Dynamics 365-migratieprogrammagegevens](/dynamics365/get-started/migrate-data-german-region)
-- [Informatie over power bi-migratieprogramma's](/power-bi/admin/service-admin-migrate-data-germany)
-- [Aan de slag met uw Microsoft Teams-upgrade](/microsoftteams/upgrade-start-here)
+- [Power BI migratieprogrammagegevens](/power-bi/admin/service-admin-migrate-data-germany)
+- [Aan de slag met uw Microsoft Teams upgrade](/microsoftteams/upgrade-start-here)

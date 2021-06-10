@@ -34,7 +34,7 @@ Voor beheerders van onderwijsorganisaties met minderjarige kinderen is een ouder
 
 Deze functie is niet beschikbaar voor gebruikers van de overheid. Beheerders moeten ervoor zorgen dat het compliancebeleid van hun organisatie het gebruik van persoonlijke Microsoft Rewards-accounts met zoekopdrachten op het werk mogelijk maakt.
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Microsoft Search instellen](/microsoftsearch/setup-microsoft-search) (artikel)
 

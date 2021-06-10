@@ -21,12 +21,12 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: fcb7283faed6fe8c5af59cedeeb90577b557ab34
-ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
+ms.openlocfilehash: 976a79be98efcbb5d7fd3749ddb0cdb282b1e3e3
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52259533"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274566"
 ---
 # <a name="automated-investigation-and-response-in-microsoft-365-defender"></a>Geautomatiseerd onderzoek en antwoord in Microsoft 365 Defender
 
@@ -35,7 +35,7 @@ ms.locfileid: "52259533"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-Als uw organisatie Microsoft 365 [Defender](microsoft-365-defender.md)gebruikt, ontvangt uw beveiligingsteam een waarschuwing in het Microsoft 365-beveiligingscentrum wanneer een schadelijke of verdachte activiteit of artefact wordt gedetecteerd. Gezien de schijnbaar eindeloze stroom van bedreigingen die kunnen binnenstromen, worden beveiligingsteams vaak geconfronteerd met de uitdaging om het grote aantal waarschuwingen aan te pakken. Gelukkig bevat Microsoft 365 Defender geautomatiseerde mogelijkheden voor onderzoek en herstel (AIR) die uw beveiligingsteam kunnen helpen om bedreigingen efficiënter en effectiever aan te pakken.
+Als uw organisatie Microsoft 365 [Defender](microsoft-365-defender.md)gebruikt, ontvangt uw beveiligingsteam een waarschuwing in het Microsoft 365-beveiligingscentrum wanneer een schadelijke of verdachte activiteit of artefact wordt gedetecteerd. Gezien de schijnbaar eindeloze stroom van bedreigingen die kunnen binnenstromen, worden beveiligingsteams vaak geconfronteerd met de uitdaging om het grote aantal waarschuwingen aan te pakken. Gelukkig bevat Microsoft 365 Defender geautomatiseerde onderzoeks- en antwoordmogelijkheden (AIR) die uw beveiligingsteam kunnen helpen bij het efficiënter en effectiever aanpakken van bedreigingen.
 
 Dit artikel bevat een overzicht van AIR en bevat koppelingen naar de volgende stappen en aanvullende bronnen.
 
@@ -59,7 +59,7 @@ In Microsoft 365 Defender werkt automatisch onderzoek en antwoord met self-helen
 
 Imagine virtuele analist in uw beveiligingsteam van Tier 1 of Tier 2. De virtuele analist bootst de ideale stappen na die beveiligingsbewerkingen zouden ondernemen om bedreigingen te onderzoeken en te corrigeren. De virtuele analist kan 24x7 werken, met onbeperkte capaciteit, en een aanzienlijke belasting van onderzoeken en bedreigingsremediatie op zich nemen. Een dergelijke virtuele analist kan de tijd om te reageren aanzienlijk verminderen, waardoor uw team voor beveiligingsactiviteiten vrij komt voor andere belangrijke bedreigingen of strategische projecten. Als dit scenario klinkt als sciencefiction, is dat niet zo. Een dergelijke virtuele analist maakt deel uit van Microsoft 365 Defender-suite en de naam is *geautomatiseerd onderzoek en antwoord.*
 
-Met geautomatiseerde onderzoeks- en antwoordmogelijkheden kan uw beveiligingsteam de capaciteit van uw organisatie voor beveiligingswaarschuwingen en incidenten aanzienlijk vergroten. Met geautomatiseerde onderzoeken en antwoorden kunt u de kosten van het omgaan met onderzoek- en herstelactiviteiten verlagen en het beste uit uw suite voor bedreigingsbeveiliging halen. Geautomatiseerde onderzoeks- en antwoordmogelijkheden helpen uw team voor beveiligingsbewerkingen door:
+Met geautomatiseerde onderzoeks- en antwoordmogelijkheden kan uw beveiligingsteam de capaciteit van uw organisatie voor beveiligingswaarschuwingen en incidenten aanzienlijk vergroten. Met geautomatiseerde onderzoeken en antwoorden kunt u de kosten van het omgaan met onderzoek- en antwoordactiviteiten verlagen en het beste uit uw suite voor bedreigingsbeveiliging halen. Geautomatiseerde onderzoeks- en antwoordmogelijkheden helpen uw team voor beveiligingsbewerkingen door:
 
 1. Bepalen of een bedreiging actie vereist.
 2. Het nemen (of aanbevelen van) de benodigde herstelacties.
@@ -69,7 +69,7 @@ Met geautomatiseerde onderzoeks- en antwoordmogelijkheden kan uw beveiligingstea
 ## <a name="the-automated-investigation-process"></a>Het geautomatiseerde onderzoeksproces
 
 Met een waarschuwing wordt een incident gemaakt dat een geautomatiseerd onderzoek kan starten. Het geautomatiseerde onderzoek resulteert in een vonnis voor elk bewijs. Vonnissen kunnen zijn:
-- *Schadelijk*
+- *Kwaadaardig*
 - *Verdacht* 
 - *Geen bedreigingen gevonden* 
 

@@ -74,7 +74,7 @@ invoke FileProfile(x,y)
 
 ## <a name="examples"></a>Voorbeelden
 
-### <a name="project-only-the-sha1-column-and-enrich-it"></a>Project alleen de kolom SHA1 en verrijk deze
+### <a name="project-only-the-sha1-column-and-enrich-it"></a>Project alleen de kolom SHA1 en verrijken deze
 
 ```kusto
 DeviceFileEvents
