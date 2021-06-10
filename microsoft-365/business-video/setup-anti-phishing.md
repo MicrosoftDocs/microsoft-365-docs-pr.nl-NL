@@ -32,7 +32,7 @@ ms.locfileid: "51580412"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWvt9r?autoplay=false]
 
-Phishing is een kwaadaardige aanval waarbij een e-mailbericht lijkt te zijn verzonden vanuit een vertrouwde bron, maar probeert uw persoonlijke gegevens te verzamelen. Standaard bevat Microsoft 365 een aantal anti-phishingbeveiliging, maar u kunt deze beveiliging verhogen door de instellingen te verfijnen. Laten we eens kijken.
+Phishing is een kwaadaardige aanval waarbij een e-mailbericht lijkt te zijn verzonden vanuit een vertrouwde bron, maar probeert uw persoonlijke gegevens te verzamelen. Standaard bevat Microsoft 365 bescherming tegen phishing, maar u kunt deze beveiliging vergroten door de instellingen te verfijnen. Laten we eens kijken.
 
 ## <a name="try-it"></a>Probeer het zelf!
 
@@ -43,7 +43,7 @@ Phishing is een kwaadaardige aanval waarbij een e-mailbericht lijkt te zijn verz
 1. Ga naar **Acties,** open de vervolgkeuzekeuze als **e-mail wordt** verzonden door een nagebootsde gebruiker en kies de juiste actie.
 
     Open de vervolgkeuzekeuze **als e-mail wordt verzonden door een nagebootsd domein** en kies de juiste actie.
-1. Selecteer **Veiligheidstips voor imitatie in- en uit.** Kies of gebruikers tips moeten krijgen wanneer het systeem nagebootsde gebruikers, domeinen of ongebruikelijke tekens detecteert. Kies **Opslaan**.
+1. Selecteer **Veiligheidstips voor imitatie in- en uit.** Kies of gebruikers tips moeten krijgen wanneer het systeem nagebootsde gebruikers, domeinen of ongebruikelijke tekens detecteert. Klik op **Opslaan**.
 1. Selecteer **Postvakintelligentie** en controleer of deze is ingeschakeld. Hierdoor kan uw e-mail efficiënter zijn door gebruikspatronen te leren.
 1. Kies **Vertrouwde afzenders en domeinen toevoegen.** Hier kunt u e-mailadressen of domeinen toevoegen die niet als imitatie moeten worden geclassificeerd.
 1. Kies **Uw instellingen controleren,** controleer of alles juist is, selecteer **Opslaan** en vervolgens **Sluiten.**

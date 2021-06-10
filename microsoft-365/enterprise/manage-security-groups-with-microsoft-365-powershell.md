@@ -28,21 +28,21 @@ ms.locfileid: "50909500"
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-U kunt PowerShell voor Microsoft 365 gebruiken als alternatief voor het Microsoft 365-beheercentrum om beveiligingsgroepen te beheren. 
+U kunt PowerShell voor Microsoft 365 gebruiken als alternatief voor het Microsoft 365 beheercentrum voor het beheren van beveiligingsgroepen. 
 
 In dit artikel wordt beschreven hoe u beveiligingsgroepen kunt maken, maken, wijzigen en verwijderen. 
 
 Als voor een opdrachtblok in dit artikel variabele waarden moeten worden opgegeven, gebruikt u deze stappen.
 
-1. Kopieer het opdrachtblok naar het klembord en plak het in Kladblok of de Geïntegreerde scriptomgeving van PowerShell (ISE).
+1. Kopieer het opdrachtblok naar het klembord en plak het in Kladblok of de Geïntegreerde Scriptomgeving (ISE) van PowerShell.
 2. Vul de variabele waarden in en verwijder de tekens '<' en '>'.
 3. Voer de opdrachten uit in het PowerShell-venster of de PowerShell-ise.
 
 Zie [Lidmaatschap van beveiligingsgroep behouden om](maintain-group-membership-with-microsoft-365-powershell.md) het groepslidmaatschap met PowerShell te beheren.
 
-## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>De Azure Active Directory PowerShell voor Graph-module gebruiken
+## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>De powershell Azure Active Directory powershell gebruiken voor Graph module
 
-Maak eerst [verbinding met uw Microsoft 365-tenant.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
+Maak eerst [verbinding met uw Microsoft 365 tenant.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
 
 ### <a name="list-your-groups"></a>Uw groepen op een lijst zetten
 
@@ -124,9 +124,9 @@ $groupName="<display name of the group>"
 Remove-AzureADGroupOwner -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq $groupName }).ObjectId -OwnerId (Get-AzureADUser | Where { $_.DisplayName -eq $userName }).ObjectId
 ```
 
-## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>De Microsoft Azure Active Directory-module voor Windows PowerShell gebruiken
+## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Gebruik de Microsoft Azure Active Directory module voor Windows PowerShell
 
-Maak eerst [verbinding met uw Microsoft 365-tenant.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
+Maak eerst [verbinding met uw Microsoft 365 tenant.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
 ### <a name="list-your-groups"></a>Uw groepen op een lijst zetten
 

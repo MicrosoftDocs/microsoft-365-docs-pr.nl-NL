@@ -36,7 +36,7 @@ Microsoft 365 helpt uw bedrijf te beschermen tegen ransomware door te voorkomen 
 
 ## <a name="try-it"></a>Probeer het zelf!
 
-1. Kies exchange in het beheercentrum [https://admin.microsoft.com](https://admin.microsoft.com) bij **, onder** **Beheercentra.**
+1. Kies in het beheercentrum op [https://admin.microsoft.com](https://admin.microsoft.com) , Exchange onder **Beheercentra.** 
 1. Kies e-mailstroom in het menu aan **de linkerkant.**
 1. Kies op het tabblad Regels de pijl naast het plusteken (+) en kies **vervolgens Een nieuwe regel maken.**
 1. Voer op **de nieuwe regelpagina** een naam voor de regel in, schuif naar de onderkant en kies **meer opties.**

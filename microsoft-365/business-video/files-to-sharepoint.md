@@ -31,18 +31,18 @@ ms.locfileid: "51580604"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/65ec460e-296c-458f-b004-906756dfb3d0?autoplay=false]
 
-Nadat u zich hebt registreren voor Microsoft 365 Business Premium, wilt u&#39;bedrijfswerkbestanden kopiëren naar SharePoint. SharePoint is een goede plek om gedeelde bedrijfsbestanden op te slaan waar iedereen toegang toe nodig heeft. Dit vervangt meestal het gebruik van een bestands- of netwerkstation.
+Nadat u zich hebt Microsoft 365 Business Premium, wilt u&#39;bedrijfswerkbestanden kopiëren naar SharePoint. SharePoint is een goede plek om gedeelde bedrijfsbestanden op te slaan waar iedereen toegang toe nodig heeft. Dit vervangt meestal het gebruik van een bestands- of netwerkstation.
 
 ## <a name="try-it"></a>Probeer het zelf!
 
 1. Open Microsoft Teams en open een team waar iedereen in uw bedrijf toegang toe heeft.
 2. Selecteer **Bestanden** en selecteer **vervolgens Openen in SharePoint.**
 3. Selecteer  **Documenten** om naar de locatie te gaan waar alles op de site is opgeslagen.
-4. Selecteer **Synchroniseren** en selecteer vervolgens **Ja.** Hiermee worden de bestanden van de SharePoint-site gesynchroniseerd met uw computer.
-5. In Verkenner ziet&#39;nu de map gesynchroniseerde documenten van uw bedrijf&#39;SharePoint-site. Als u extra SharePoint-sites synchroniseert, worden deze boven of onder deze weergegeven. Klik met de rechtermuisknop op de map gesynchroniseerde documenten en open deze in een nieuw venster om deze naast de bedrijfsbestanden te zien die u wilt verplaatsen.
-6. Selecteer alle bestanden die u wilt verplaatsen en sleep deze naar de gesynchroniseerde SharePoint-map. Blauwe cirkelpijlen naast uw bestanden betekenen dat ze&#39;worden gesynchroniseerd met de SharePoint-site. Wanneer ze&#39;klaar zijn met synchroniseren, worden groene vinkjes weergegeven.
-7. Ga terug naar uw SharePoint-site om de bestanden te zien die zijn gesynchroniseerd met de cloud.
+4. Selecteer **Synchroniseren** en selecteer vervolgens **Ja.** Hiermee worden de bestanden van de SharePoint naar uw computer gesynchroniseerd.
+5. In Verkenner ziet&#39;nu de map met gesynchroniseerde documenten van uw bedrijf&#39;de SharePoint site. Als u extra SharePoint sites synchroniseert, worden deze boven of onder deze weergegeven. Klik met de rechtermuisknop op de map gesynchroniseerde documenten en open deze in een nieuw venster om deze naast de bedrijfsbestanden te zien die u wilt verplaatsen.
+6. Selecteer alle bestanden die u wilt verplaatsen en sleep deze naar de gesynchroniseerde SharePoint map. Blauwe cirkelpijlen naast uw bestanden betekenen dat ze&#39;worden gesynchroniseerd met de SharePoint site. Wanneer ze&#39;klaar zijn met synchroniseren, worden groene vinkjes weergegeven.
+7. Ga terug naar SharePoint site om de bestanden te zien die zijn gesynchroniseerd met de cloud.
 
 U kunt niet alleen rechtstreeks vanaf uw computer aan uw bestanden werken, maar ook in een webbrowser op elke computer.
 
-U hebt nu toegang tot uw bestanden vanaf uw SharePoint-site of Teams.
+U hebt nu toegang tot uw bestanden vanaf uw SharePoint site of Teams.

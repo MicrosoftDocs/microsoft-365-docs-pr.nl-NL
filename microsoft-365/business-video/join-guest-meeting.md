@@ -1,5 +1,5 @@
 ---
-title: Deelnemen aan een Microsoft Teams-vergadering met gasten
+title: Deelnemen aan Microsoft Teams vergadering met gasten
 f1.keywords:
 - NOCSH
 ms.author: efrene
@@ -19,7 +19,7 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Meer informatie over het deelnemen aan een Teams-vergadering met gasten.
+description: Lees hoe u deel kunt nemen aan Teams vergadering met gasten.
 ms.openlocfilehash: 781e1aa242270588ba50a025ca0dd71c06354ad0
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -35,11 +35,11 @@ Met Microsoft Teams kunt u eenvoudig deelnemen aan vergaderingen met zowel inter
 
 ## <a name="try-it"></a>Probeer het zelf!
 
-1. Kies agenda in Microsoft Teams **en** zoek uw vergadering.
+1. Kies Microsoft Teams agenda **en** zoek uw vergadering.
 1. Selecteer **Deelnemen,** bepaal of u uw camera en microfoon wilt in- of uitschakelen en selecteer **Nu deelnemen.**
-1. Als u een externe gast bent, opent u het e-mailbericht dat u hebt ontvangen over de vergadering en selecteert u **Deelnemen aan Microsoft Teams-vergadering**.
+1. Als u een externe gast bent, opent u het e-mailbericht dat u hebt ontvangen over de vergadering en **selecteert** u Deelnemen Microsoft Teams Vergadering .
 
     Als u de app niet wilt downloaden, kiest u **in plaats daarvan Deelnemen op internet.**
 1. Voer uw naam in en selecteer **Nu deelnemen.**
-1. Zodra iedereen is aangekomen, kunt u de vergadering starten door uw bureaublad, een monitor of een app zoals PowerPoint te delen.
+1. Zodra iedereen is aangekomen, kunt u de vergadering starten door uw bureaublad, een monitor of een app zoals PowerPoint.
 1. Wanneer de vergadering is afgelopen, selecteert u **Ophangen.**

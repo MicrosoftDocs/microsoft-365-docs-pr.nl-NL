@@ -27,31 +27,31 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 04/02/2021
 ms.locfileid: "51580652"
 ---
-# <a name="connect-your-pc-to-microsoft-365-business-premium"></a>Uw pc verbinden met Microsoft 365 Business Premium
+# <a name="connect-your-pc-to-microsoft-365-business-premium"></a>Verbinding maken pc naar Microsoft 365 Business Premium
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3yXh3?autoplay=false]
 
 ## <a name="try-it"></a>Probeer het zelf!
-Nadat u Microsoft 365 Business Premium (voorheen Bekend als Microsoft 365 Business) hebt ingesteld, moeten u en uw werknemers enkele stappen ondernemen om optimaal te profiteren van de beveiligings- en beheerfuncties. Hier&#39;hoe u dit doet.
+Nadat u een Microsoft 365 Business Premium hebt ingesteld (voorheen bekend als Microsoft 365 Business), moeten u en uw werknemers een paar stappen ondernemen om optimaal te profiteren van de beveiligings- en beheerfuncties. Hier&#39;hoe u dit doet.
 
-Controleer eerst of Windows 10 Pro is geïnstalleerd:
+Controleer eerst of u Windows 10 Pro hebt geïnstalleerd:
 
 1. Kies  **Start,** zoek naar  **Configuratiescherm** en selecteer het.
-2. Kies **Systeem en**   >   **beveiligingssysteem** en bevestig uw Windows-versie.
+2. Kies **Systeem en**   >   **beveiligingssysteem** en bevestig uw Windows versie.
 
 Maak vervolgens verbinding met Microsoft 365 Business:
 
-1. Selecteer  **Start** en selecteer vervolgens het  **pictogram** Instellingen.
-2. Selecteer **Accounts**  >   **Access werk of school**   >   **Connect**.
-3. Selecteer **Deelnemen aan dit apparaat bij Azure Active Directory.**
-4. Voer het e-mailadres in voor uw Microsoft 365-account en selecteer  **Volgende**.
+1. Selecteer **Start** en selecteer vervolgens **het** Instellingen pictogram.
+2. Selecteer **Accounts**  >   **Toegang tot werk of school**   >   **Verbinding maken.**
+3. Selecteer **Deelnemen aan dit apparaat om Azure Active Directory.**
+4. Voer het e-mailadres voor uw Microsoft 365 account in en selecteer **Volgende.**
 5. Voer uw wachtwoord in, selecteer  **Aanmelden** en controleer of u deel wilt nemen aan de juiste organisatie.
 6. Selecteer **Deelnemen** en selecteer vervolgens **Klaar.**
 
-Afhankelijk van hoe uw bedrijf Microsoft 365 Business heeft ingesteld, ziet u mogelijk een melding om uw pc te versleutelen. Uw pc versleutelen:
+Afhankelijk van hoe uw bedrijf uw Microsoft 365 Business, ziet u mogelijk een melding om uw pc te versleutelen. Uw pc versleutelen:
 
 1. Selecteer het  **bericht Versleuteling dat nodig**  is.
-2. Selecteer Ik heb&#39;andere schijfversleutelingssoftware **geïnstalleerd,** versleutel al mijn schijven en selecteer **vervolgens Ja.** U ziet een  **venster BitLocker**  starten met een voortgangsbalk.
+2. Selecteer Ik heb&#39;andere schijfversleutelingssoftware **geïnstalleerd,** versleutel al mijn schijven en selecteer **vervolgens Ja.** U ziet een **venster BitLocker** met een voortgangsbalk.
 3. Selecteer in **het venster Kiezen hoe u het station ontgrendelt** bij het opstarten de optie Een pincode invoeren **(aanbevolen).**
 4. Voer uw pincode in en voer deze opnieuw in om deze te verifiëren. Selecteer **Pincode instellen.**
 5. Kies een methode om een versleutelingsherstelsleutel op te slaan en selecteer vervolgens **Volgende.**

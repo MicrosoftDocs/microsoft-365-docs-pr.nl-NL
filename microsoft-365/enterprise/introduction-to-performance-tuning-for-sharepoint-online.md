@@ -28,9 +28,9 @@ ms.locfileid: "50909736"
 
 In dit artikel wordt uitgelegd welke specifieke aspecten u moet overwegen bij het ontwerpen van pagina's voor de beste prestaties in SharePoint Online.
      
-## <a name="sharepoint-online-metrics"></a>SharePoint Online-statistieken
+## <a name="sharepoint-online-metrics"></a>SharePoint Onlinegegevens
 
-De volgende algemene metrische gegevens voor SharePoint Online bieden gegevens over prestaties in de echte wereld:
+De volgende algemene statistieken voor SharePoint Online bieden gegevens over prestaties in de echte wereld:
   
 - Hoe snel pagina's worden geladen
     
@@ -44,27 +44,27 @@ De volgende algemene metrische gegevens voor SharePoint Online bieden gegevens o
 
 De gegevens vertellen ons:
   
-- De meeste pagina's presteren goed in SharePoint Online.
+- De meeste pagina's presteren goed op SharePoint Online.
     
 - Niet-aangepaste pagina's worden zeer snel geladen.
     
-- OneDrive voor Bedrijven, teamsites en systeempagina's, zoals _layouts, enzovoort, zijn allemaal snel te laden.
+- OneDrive voor Bedrijven, teamsites en systeempagina's, zoals _layouts, zijn allemaal snel te laden.
     
-- De traagste 1% van de SharePoint Online-pagina's duurt meer dan 5.000 milliseconden om te laden.
+- De traagste 1% van SharePoint onlinepagina's duurt meer dan 5.000 milliseconden om te laden.
     
-Een eenvoudige benchmarktest die u kunt gebruiken, is het meten van de prestaties door de laadtijd van uw eigen portal te vergelijken met de laadtijd van de startpagina van OneDrive voor Bedrijven, omdat er weinig aangepaste functies worden gebruikt. Dit is vaak de eerste stap Die ondersteuning vraagt u om in te vullen bij het oplossen van problemen met netwerkprestaties.
+Een eenvoudige benchmarktest die u kunt gebruiken, is het meten van de prestaties door de laadtijd van uw eigen portal te vergelijken met de laadtijd van de startpagina van OneDrive voor Bedrijven omdat er weinig aangepaste functies worden gebruikt. Dit is vaak de eerste stap Die ondersteuning vraagt u om in te vullen bij het oplossen van problemen met netwerkprestaties.
   
 ## <a name="use-a-standard-user-account-when-checking-performance"></a>Een standaardgebruikersaccount gebruiken bij het controleren van de prestaties
 
-Een beheerder van de siteverzameling, site-eigenaar, editor of inzender behoren tot extra beveiligingsgroepen, hebben extra machtigingen en hebben daarom extra elementen die door SharePoint op een pagina worden geladen.
+Een beheerder van de siteverzameling, site-eigenaar, editor of inzender behoren tot extra beveiligingsgroepen, hebben extra machtigingen en hebben daarom extra elementen die SharePoint op een pagina worden geladen.
   
-Dit is van toepassing op on-premises SharePoint en SharePoint Online, maar in een on-premises scenario zijn de verschillen niet zo gemakkelijk op te merken als in SharePoint Online.
+Dit is van toepassing op SharePoint on-premises en SharePoint Online, maar in een on-premises scenario worden de verschillen niet zo gemakkelijk opgemerkt als in SharePoint Online.
   
 Als u de prestaties van een pagina voor gebruikers correct wilt evalueren, moet u een standaardgebruikersaccount gebruiken om te voorkomen dat de ontwerpbesturingselementen en extra verkeer met betrekking tot beveiligingsgroepen worden geladen.
   
 ## <a name="connection-categories-for-performance-tuning"></a>Verbindingscategorieën voor prestatieafstemming
 
-U kunt de verbindingen tussen de server en de gebruiker categoriseren in drie hoofdonderdelen. Houd hier rekening mee bij het ontwerpen van SharePoint Online-pagina's voor inzicht in laadtijden.
+U kunt de verbindingen tussen de server en de gebruiker categoriseren in drie hoofdonderdelen. Houd hier rekening mee bij het ontwerpen SharePoint onlinepagina's voor inzicht in laadtijden.
   
 - **Server** De servers die microsoft host in datacenters.
     
@@ -86,11 +86,11 @@ Binnen deze drie verbindingen zijn er meestal vijf redenen die 95% van de trage 
     
 ### <a name="server-connection"></a>Serververbinding
 
-Veel van de problemen die van invloed zijn op de prestaties met on-premises SharePoint zijn ook van toepassing op SharePoint Online.
+Veel van de problemen die van invloed zijn op de prestaties SharePoint on-premises, zijn ook van toepassing op SharePoint Online.
   
-Zoals u zou verwachten, hebt u veel meer controle over de manier waarop servers presteren met on-premises SharePoint. Met SharePoint Online zijn dingen iets anders. Hoe meer werk een server moet doen, hoe langer het duurt om een pagina weer te geven. In SharePoint zijn complexe pagina's met meerdere webonderdelen de grootste boosdoener in dit opzicht.
+Zoals u zou verwachten, hebt u veel meer controle over hoe servers presteren met on-premises SharePoint. Met SharePoint Online zijn dingen iets anders. Hoe meer werk een server moet doen, hoe langer het duurt om een pagina weer te geven. Met SharePoint zijn complexe pagina's met meerdere webonderdelen de grootste boosdoener in dit opzicht.
   
-On-premises SharePoint Server
+SharePoint Server on-premises
   
 ![Schermafbeelding van server on premises](../media/a8e9b646-cdff-4131-976a-b5f891da44ac.png)
   
@@ -102,15 +102,15 @@ Met SharePoint Online kunnen bepaalde paginaaanvragen uiteindelijk meerdere serv
   
 Voorbeelden van deze server- en serverinteracties zijn:
   
-- Web naar SQL-servers
+- Web to SQL Servers
     
 - Web-to-application servers
     
-Het andere wat serverinteracties kan vertragen, is cache-missers. In tegenstelling tot on-premises SharePoint is de kans zeer klein dat u dezelfde server gebruikt voor een pagina die u eerder hebt bezocht. Dit maakt object caching verouderd.
+Het andere wat serverinteracties kan vertragen, is cache-missers. In tegenstelling tot on-premises SharePoint, is de kans zeer klein dat u dezelfde server gebruikt voor een pagina die u eerder hebt bezocht. Dit maakt object caching verouderd.
   
 ### <a name="network-connection"></a>Netwerkverbinding
 
-Met on-premises SharePoint die geen gebruik maakt van een WAN, kunt u een snelle verbinding tussen datacenter en eindgebruikers gebruiken. Over het algemeen zijn de zaken eenvoudig te beheren vanuit een netwerkperspectief.
+Met on-premises SharePoint die geen gebruik maken van een WAN, kunt u een snelle verbinding tussen datacenter en eindgebruikers gebruiken. Over het algemeen zijn de zaken eenvoudig te beheren vanuit een netwerkperspectief.
   
 Met SharePoint Online zijn er nog een paar factoren waar u rekening mee moet houden. bijvoorbeeld:
   
@@ -120,7 +120,7 @@ Met SharePoint Online zijn er nog een paar factoren waar u rekening mee moet hou
     
 - De isp
     
-Ongeacht welke versie van SharePoint (en welk netwerk) u gebruikt, zijn de volgende zaken waardoor het netwerk bezet is:
+Ongeacht welke versie van SharePoint (en welk netwerk) u gebruikt, zijn de volgende zaken waardoor het netwerk meestal bezet is:
   
 - Grote laadvermogen
     
@@ -128,7 +128,7 @@ Ongeacht welke versie van SharePoint (en welk netwerk) u gebruikt, zijn de volge
     
 - Grote fysieke afstand tot de server
     
-Een functie die u kunt gebruiken in SharePoint Online is het Microsoft CDN (Content Delivery Network). Een CDN is in feite een gedistribueerde verzameling servers die is geïmplementeerd in meerdere datacenters. Met een CDN kan inhoud op pagina's worden gehost op een server dicht bij de client, zelfs als de client ver van de oorspronkelijke SharePoint Server ligt. Microsoft gebruikt dit in de toekomst meer om lokale exemplaren op te slaan van pagina's die niet kunnen worden aangepast, bijvoorbeeld de startpagina van de SharePoint Online-beheerder. Zie Inhoudsleveringsnetwerken voor meer informatie over [CDN's.](content-delivery-networks.md)
+Een functie die u kunt gebruiken in SharePoint Online is de Microsoft-CDN (Content Delivery Network). Een CDN is in feite een gedistribueerde verzameling servers die is geïmplementeerd in meerdere datacenters. Met een CDN kunnen inhoud op pagina's worden gehost op een server dicht bij de client, zelfs als de client ver weg is van de oorspronkelijke SharePoint Server. Microsoft gebruikt dit in de toekomst meer om lokale exemplaren op te slaan van pagina's die niet kunnen worden aangepast, bijvoorbeeld de startpagina SharePoint onlinebeheerder. Zie Inhoudsleveringsnetwerken voor meer informatie over [CDN's.](content-delivery-networks.md)
   
 Iets waar u rekening mee moet houden, maar waar u mogelijk niet veel aan kunt doen, is de verbindingssnelheid van uw internetprovider. Met een eenvoudig snelheidstestprogramma ziet u de verbindingssnelheid.
   
@@ -138,9 +138,9 @@ Er zijn een paar factoren waar u rekening mee moet houden met webbrowsers vanuit
   
 Het bezoeken van complexe pagina's is van invloed op de prestaties. De meeste browsers hebben slechts een kleine cache (ongeveer 90 MB), terwijl de gemiddelde webpagina meestal rond de 1,6 MB ligt. Dit duurt niet lang om te wennen.
   
-Bandbreedte kan ook een probleem zijn. Als een gebruiker bijvoorbeeld video's bekijkt in een andere sessie, is dit van invloed op de prestaties van uw SharePoint-pagina. Hoewel u niet kunt voorkomen dat gebruikers media streamen, kunt u bepalen hoe een pagina wordt geladen voor gebruikers.
+Bandbreedte kan ook een probleem zijn. Als een gebruiker bijvoorbeeld video's bekijkt in een andere sessie, is dit van invloed op de prestaties van uw SharePoint pagina. Hoewel u niet kunt voorkomen dat gebruikers media streamen, kunt u bepalen hoe een pagina wordt geladen voor gebruikers.
   
-Bekijk de volgende artikelen voor verschillende aanpassingstechnieken voor sharePoint Online-pagina's en andere best practices om optimale prestaties te bereiken.
+Bekijk de volgende artikelen voor verschillende SharePoint online paginaaanpassingstechnieken en andere best practices om u te helpen optimale prestaties te bereiken.
   
 - [Navigatieopties voor SharePoint Online](navigation-options-for-sharepoint-online.md)
     
@@ -152,13 +152,13 @@ Bekijk de volgende artikelen voor verschillende aanpassingstechnieken voor share
     
 - [Minificatie en bundeling in SharePoint Online](minification-and-bundling-in-sharepoint-online.md)
     
-- [Het Office 365 Content Delivery Network (CDN) gebruiken met SharePoint Online](use-microsoft-365-cdn-with-spo.md)
+- [De Office 365 Content Delivery Network (CDN) gebruiken met SharePoint Online](use-microsoft-365-cdn-with-spo.md)
     
-- [Webonderdeel Inhoud zoeken gebruiken in plaats van webonderdeel Inhoudsquery om de prestaties in SharePoint Online te verbeteren](using-content-search-web-part-instead-of-content-query-web-part-to-improve-perfo.md)
+- [Webonderdeel Inhoud zoeken gebruiken in plaats van webonderdeel Inhoudsquery om de prestaties in SharePoint Online](using-content-search-web-part-instead-of-content-query-web-part-to-improve-perfo.md)
     
 - [Capaciteitsplanning en belastingtest van SharePoint Online](capacity-planning-and-load-testing-sharepoint-online.md)
     
-- [Prestatieproblemen met SharePoint Online diagnosticeren](diagnosing-performance-issues-with-sharepoint-online.md)
+- [Prestatieproblemen diagnosticeren met SharePoint Online](diagnosing-performance-issues-with-sharepoint-online.md)
     
 - [De objectcache gebruiken met SharePoint Online](using-the-object-cache-with-sharepoint-online.md)
     

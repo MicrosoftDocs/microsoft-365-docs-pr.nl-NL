@@ -23,7 +23,7 @@ ms.locfileid: "51051518"
 ---
 # <a name="identity-for-the-contoso-corporation"></a>Identiteit voor Contoso Corporation
 
-Microsoft biedt Identity as a Service (IDaaS) in de cloud via Azure Active Directory (Azure AD). Als u Microsoft 365 voor ondernemingen wilt gebruiken, moet de Contoso IDaaS-oplossing hun on-premises identiteitsprovider gebruiken en federatief verificatie opnemen met hun bestaande vertrouwde, externe identiteitsproviders.
+Microsoft biedt Identity as a Service (IDaaS) via de cloudaanbiedingen via Azure Active Directory (Azure AD). Als u Microsoft 365 voor ondernemingen wilt gebruiken, moest de Contoso IDaaS-oplossing hun on-premises identiteitsprovider gebruiken en federatief verificatie opnemen met hun bestaande vertrouwde, externe identiteitsproviders.
 
 ## <a name="the-contoso-active-directory-domain-services-forest"></a>Het Contoso Active Directory Domain Services-forest
 
@@ -33,7 +33,7 @@ Hier is het Contoso-bos met regionale domeinen voor de verschillende delen van d
 
 ![Het forest en de domeinen van Contoso wereldwijd](../media/contoso-identity/contoso-identity-fig1.png)
  
-Contoso heeft besloten om de accounts en groepen in het contoso-combos te gebruiken voor verificatie en autorisatie voor de Werkbelasting en services van \. Microsoft 365.
+Contoso heeft besloten de accounts en groepen in het contoso-combos te gebruiken voor verificatie en autorisatie voor de Microsoft 365 \. werkbelasting en services.
 
 ## <a name="the-contoso-federated-authentication-infrastructure"></a>De contoso-federatief verificatie-infrastructuur
 
@@ -52,13 +52,13 @@ Contoso heeft besloten deze infrastructuur te behouden en deze te wijden aan kla
 
 ## <a name="hybrid-identity-with-password-hash-synchronization-for-cloud-based-authentication"></a>Hybride identiteit met wachtwoord-hash-synchronisatie voor cloud-based verificatie
 
-Contoso wilde de on-premises AD DS-forest gebruiken voor verificatie naar Microsoft 365-cloudbronnen. Er is besloten om wachtwoordhashsynchronisatie (PHS) te gebruiken.
+Contoso wilde de on-premises AD DS-forest gebruiken voor verificatie om Microsoft 365 cloudbronnen. Er is besloten om wachtwoordhashsynchronisatie (PHS) te gebruiken.
 
-PHS synchroniseert het on-premises AD DS-forest met de Azure AD-tenant van hun Microsoft 365 voor enterprise-abonnement, het kopiëren van gebruikers- en groepsaccounts en een gehashte versie van wachtwoorden voor gebruikersaccounts.
+PHS synchroniseert het on-premises AD DS-forest met de Azure AD-tenant van hun Microsoft 365 voor ondernemingsabonnement, het kopiëren van gebruikers- en groepsaccounts en een gehashte versie van wachtwoorden voor gebruikersaccounts.
 
-Als u adreslijstsynchronisatie wilt uitvoeren, heeft Contoso het hulpprogramma Azure AD Connect geïmplementeerd op een server in het parijse datacenter.
+Als u adreslijstsynchronisatie wilt uitvoeren, heeft Contoso het hulpprogramma Azure AD Verbinding maken geïmplementeerd op een server in het parijse datacenter.
 
-Hier is de server met Azure AD Connect die het Contoso AD DS-forest peilt naar wijzigingen en deze wijzigingen vervolgens synchroniseert met de Azure AD-tenant.
+Hier is de server met Azure AD Verbinding maken het Contoso AD DS-forest peilen naar wijzigingen en deze wijzigingen vervolgens synchroniseren met de Azure AD-tenant.
 
 ![De contoso PHS-adreslijstsynchronisatie-infrastructuur](../media/contoso-identity/contoso-identity-fig4.png)
  
@@ -76,7 +76,7 @@ Hier is de resulterende set beleidsregels voor Contoso-identiteit en apparaat Vo
  
 ## <a name="next-step"></a>Volgende stap
 
-Lees hoe Contoso de Microsoft Endpoint Configuration Manager-infrastructuur gebruikt om de huidige [Windows 10 Enterprise](contoso-win10.md) binnen de organisatie te implementeren en te behouden.
+Lees hoe Contoso de Microsoft Endpoint Configuration Manager gebruikt [](contoso-win10.md) om de huidige Windows 10 Enterprise binnen de organisatie te implementeren en te behouden.
 
 ## <a name="see-also"></a>Zie ook
 

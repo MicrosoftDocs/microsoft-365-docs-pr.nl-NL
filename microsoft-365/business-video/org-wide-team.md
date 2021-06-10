@@ -35,12 +35,12 @@ ms.locfileid: "51580532"
 
 Maak een organisatiebreed team in Microsoft Teams waar iedereen in uw bedrijf deel van kan uitmaken. Wanneer u meer gebruikers toevoegt aan Microsoft 365, worden ze automatisch toegevoegd aan dit team.
 
-1. Selecteer in Microsoft Teams  **Teams** en vervolgens **Team maken.**
+1. Selecteer Microsoft Teams **in** Teams en vervolgens **Team maken.**
 2. Kies **Een team vanaf het begin opbouwen.**
 3. Selecteer **Een organisatiebreed team maken.**
 
 > [!NOTE]
-> U moet een Microsoft 365-beheerder zijn om deze optie te kunnen bekijken.
+> U moet een beheerder Microsoft 365 om deze optie te kunnen bekijken.
 
 1. Geef uw team een naam, voeg een beschrijving toe en selecteer **vervolgens Maken.**
 
@@ -49,6 +49,6 @@ Binnen uw team zijn kanalen. Het kanaal Algemeen wordt automatisch gemaakt. U ku
 Probeer een van de volgende opties:
 
 - Gebruik het  **tabblad Berichten** voor gesprekken en aankondigingen voor de hele organisatie, zoals een welkomstbericht voor iedereen.
-- Op het  **tabblad** Bestanden kunt u nieuwe documenten maken waar iedereen aan kan bijdragen, zoals een Microsoft Word-document. U kunt ook bestaande documenten naar het tabblad Bestanden slepen  **en** neerzetten.
+- Op het **tabblad** Bestanden kunt u nieuwe documenten maken waar iedereen aan kan bijdragen, zoals een Microsoft Word document. U kunt ook bestaande documenten naar het tabblad Bestanden slepen  **en** neerzetten.
 - Gebruik het  **tabblad Wiki** om snelle notities te maken. En selecteer het plusteken **+** () om apps of bestanden toe te voegen als extra tabbladen.
 - Met de tabbladen aan de linkerkant kunt u recente activiteiten bekijken, chatten met andere teamleden, de teams bekijken die u behoort en uw agenda. U kunt spraak- en videogesprekken voeren met andere teamgebruikers en bestanden bekijken waar u onlangs aan hebt gewerkt.

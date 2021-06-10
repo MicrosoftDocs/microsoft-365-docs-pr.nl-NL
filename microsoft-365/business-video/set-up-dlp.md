@@ -39,10 +39,10 @@ Preventiebeleid voor gegevensverlies helpt bij het identificeren en beveiligen v
 1. Als u wilt beginnen, gaat u naar het [beheercentrum](https://admin.microsoft.com)en selecteert u **Setup**.
 1. Schuif omlaag naar **Preventie van gegevensverlies instellen** en selecteer vervolgens **Weergeven** en vervolgens **Beheren.**
 1. Als u een beleid wilt bewerken, selecteert u dit, kiest **u Beleid bewerken** en selecteert u wat u wilt wijzigen. Selecteer bijvoorbeeld Locaties **om** te wijzigen wat wordt gescand.
-1. Als u het scannen van inhoud in Microsoft Teams wilt inschakelen, schakelt u de wisselknop in op de positie **Aan** en selecteert u **Opslaan**.
+1. Als u het scannen van inhoud in Microsoft Teams wilt  inschakelen, schakelt u de wisselknop in op de positie Aan en selecteert u **Opslaan**.
 1. Als u beleidsinstellingen wilt bewerken, selecteert u **Bewerken.**
 1. U moet afzonderlijke regels instellen die van toepassing zijn op kleine en grote hoeveelheden gedetecteerde gevoelige inhoud. Vouw de regel voor laag volume uit. Kies **Regel bewerken.**
-1. Controleer uw instellingen en pas ze zo nodig aan. U kunt er bijvoorbeeld voor kiezen om **de e-mailtekst** aan te passen en **de tekst van de beleidstip aan te passen.** Kies **Opslaan**.
+1. Controleer uw instellingen en pas ze zo nodig aan. U kunt er bijvoorbeeld voor kiezen om **de e-mailtekst** aan te passen en **de tekst van de beleidstip aan te passen.** Klik op **Opslaan**.
 1. Herhaal dit voor de regel met hoog volume. Selecteer **Opslaan** en vervolgens **Sluiten.**
 1. Als u een nieuw beleid wilt maken, **selecteert u Een beleid maken.**
 1. U kunt een aangepast beleid maken of beginnen met een sjabloon. Als u bijvoorbeeld een HIPAA-beleid  wilt maken, selecteert u de sjabloon Medisch en gezondheidsbeleid en selecteert u de Amerikaanse **Health Insurance Act (HIPAA).** Selecteer **Volgende**.

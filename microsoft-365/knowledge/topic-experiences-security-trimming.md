@@ -21,7 +21,7 @@ ms.locfileid: "50939621"
 ---
 # <a name="microsoft-viva-topics-security-trimming"></a>Beveiliging van Microsoft Viva-onderwerpen 
 
-Gebruikers van Viva-onderwerpen kunnen geen informatie weergeven in onderwerpen die door hun bestaande Office 365-machtigingen niet kunnen worden bekeken. Alles wat een gebruiker ziet op een onderwerppagina (bijvoorbeeld SharePoint-sites, documenten, bestanden) zijn gegevens die ze al mogen zien. Viva-onderwerpen brengen geen wijzigingen aan in bestaande machtigingen.
+Gebruikers van Viva-onderwerpen kunnen geen informatie weergeven in onderwerpen die hun bestaande Office 365 voorkomen dat ze deze kunnen zien. Alles wat een gebruiker ziet op een onderwerppagina (bijvoorbeeld SharePoint sites, documenten, bestanden) zijn gegevens die ze al mogen zien. Viva-onderwerpen brengen geen wijzigingen aan in bestaande machtigingen.
 
 ## <a name="why-two-users-may-have-different-views-of-the-same-topic"></a>Waarom twee gebruikers verschillende weergaven van hetzelfde onderwerp hebben
 
@@ -35,7 +35,7 @@ Wanneer gebruiker 2 echter naar dezelfde onderwerppagina van Neptunus kijkt, ver
 
 ![Onderwerp Van Den Oudsten voor gebruiker 2](../media/knowledge-management/user1-topic-view.png) </br> 
 
-Het verschil in wat gebruikers over hetzelfde onderwerp kunnen zien, is omdat gebruikers mogelijk niet de machtigingen van Office 365 hebben om een gerelateerde site of bestand te bekijken.  Viva-onderwerpen respecteert de machtigingen die zijn ingesteld voor items in een onderwerp en kunnen de toegang tot items niet wijzigen. In ons voorbeeld kan gebruiker 1 het *BESTAND DG-2000 Productoverzicht* niet weergeven op de onderwerppagina voor Neptunus, omdat gebruiker 1 geen Office 365-machtigingen heeft om het bestand te bekijken.
+Het verschil in wat gebruikers over hetzelfde onderwerp kunnen zien, is omdat gebruikers mogelijk niet de Office 365 hebben om een gerelateerde site of bestand te bekijken.  Viva-onderwerpen respecteert de machtigingen die zijn ingesteld voor items in een onderwerp en kunnen de toegang tot items niet wijzigen. In ons voorbeeld kan gebruiker 1 het *BESTAND VAN DG-2000 Productoverzicht* niet weergeven op de onderwerppagina voor Neptunus, omdat gebruiker 1 geen Office 365 machtigingen heeft om het bestand te bekijken.
 
 Als een gebruiker onvoldoende informatie in een onderwerp kan zien om het nuttig te maken, is het onderwerp niet beschikbaar voor de gebruiker. Wanneer dit gebeurt, ziet de gebruiker het gemarkeerde onderwerp niet. Een andere gebruiker die machtigingen heeft voor meer informatie in het onderwerp, kan het onderwerp zien.
 

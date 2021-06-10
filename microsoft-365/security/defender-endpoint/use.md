@@ -1,6 +1,6 @@
 ---
 title: Overzicht van Microsoft Defender-beveiligingscentrum
-description: Meer informatie over de functies in het Microsoft Defender-beveiligingscentrum, waaronder hoe waarschuwingen werken, en suggesties voor het onderzoeken van mogelijke inbreuken en aanvallen.
+description: Meer informatie over de functies op Microsoft Defender-beveiligingscentrum, waaronder hoe waarschuwingen werken, en suggesties voor het onderzoeken van mogelijke inbreuken en aanvallen.
 keywords: dashboard, waarschuwingenwachtrij, waarschuwingen beheren, onderzoeken, waarschuwingen onderzoeken, apparaten onderzoeken, bestanden verzenden, diepe analyse, hoog, gemiddeld, laag, ernst, ioc, ioa
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -35,7 +35,7 @@ ms.locfileid: "51581092"
 
 >Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-usewdatp-abovefoldlink)
 
-Microsoft Defender Security Center is de portal waar u toegang hebt tot Microsoft Defender voor endpoint-mogelijkheden.
+Microsoft Defender-beveiligingscentrum is de portal waar u toegang hebt tot Microsoft Defender voor endpoint-mogelijkheden.
 
 Gebruik het **dashboard Beveiligingsbewerkingen** om inzicht te krijgen in de verschillende waarschuwingen op apparaten en gebruikers in uw netwerk.
 
@@ -50,7 +50,7 @@ In deze interactieve handleiding leert u hoe u bedreigingen voor uw organisatie 
 
 ### <a name="in-this-section"></a>In deze sectie
 
-Onderwerp | Omschrijving
+Onderwerp | Beschrijving
 :---|:---
 [Portaloverzicht](portal-overview.md) | Meer informatie over de portalindeling en gebiedsbeschrijvingen.
 [Het dashboard Beveiligingsbewerkingen weergeven](security-operations-dashboard.md) | Het dashboard Microsoft Defender for Endpoint  **Security operations biedt** een momentopname van uw netwerk. U kunt aggregaten van waarschuwingen bekijken, de algehele status van de service van de apparaten in uw netwerk, apparaten, bestanden en URL's onderzoeken en momentopnamen bekijken van bedreigingen die op apparaten worden gezien.

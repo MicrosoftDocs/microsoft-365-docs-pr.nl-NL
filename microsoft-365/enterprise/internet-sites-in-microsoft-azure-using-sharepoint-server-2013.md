@@ -25,7 +25,7 @@ ms.locfileid: "50909760"
 ---
 # <a name="internet-sites-in-microsoft-azure-using-sharepoint-server-2013"></a>Internetsites in Microsoft Azure met SharePoint Server 2013
 
- Internetsites die SharePoint Server 2013 gebruiken, profiteren door te worden gehost in Azure Infrastructure Services. Dit artikel bevat informatiebronnen voor het ontwerpen en implementeren van deze oplossing.
+ Internetsites die gebruikmaken SharePoint Server 2013 profiteren door te worden gehost in Azure Infrastructure Services. Dit artikel bevat informatiebronnen voor het ontwerpen en implementeren van deze oplossing.
 
 ## <a name="using-azure-infrastructure-services-for-internet-sites"></a>Azure Infrastructure Services gebruiken voor internetsites
 
@@ -49,7 +49,7 @@ In de volgende technische illustraties en artikelen vindt u informatie over het 
 |---|---|
 |**SharePoint Server 2013-internetsites in Azure** <br/> [![Afbeelding van internetsites in Azure met SharePoint](../media/MS-AZ-SPInternetSites.jpg)](https://go.microsoft.com/fwlink/p/?LinkId=392552) <br/> [PDF](https://go.microsoft.com/fwlink/p/?LinkId=392552) \| [Visio](https://go.microsoft.com/fwlink/p/?LinkId=392551)|In dit architectuurmodel worden belangrijke ontwerpactiviteiten en aanbevolen architectuurkeuzen voor internetsites in Azure beschreven.|
 |**Ontwerpvoorbeeld: Internetsites in Azure voor SharePoint Server 2013** <br/> [ ![ Afbeelding van het ontwerpvoorbeeld: internetsites in Microsoft Azure voor SharePoint 2013 ](../media/MS-AZ-InternetSitesDesignSample.jpg) ] <br/> [PDF](https://go.microsoft.com/fwlink/p/?LinkId=392549) \| [Visio](https://go.microsoft.com/fwlink/p/?LinkId=392548)|Gebruik dit ontwerpvoorbeeld als uitgangspunt voor uw eigen architectuur.|
-|**[Microsoft Azure Architectures voor SharePoint 2013](microsoft-azure-architectures-for-sharepoint-2013.md)** <br/> |In dit artikel wordt beschreven hoe u Azure-architecturen ontwerpt om SharePoint-oplossingen te hosten.|
+|**[Microsoft Azure Architecturen voor SharePoint 2013](microsoft-azure-architectures-for-sharepoint-2013.md)** <br/> |In dit artikel wordt beschreven hoe u Azure-architecturen kunt ontwerpen om SharePoint hosten.|
 |
 
 ## <a name="see-also"></a>Zie ook

@@ -17,7 +17,7 @@ ms.custom:
 - Ent_Office_Other
 - O365ITProTrain
 ms.assetid: 6770c5fa-b886-4512-8c67-ffd53226589e
-description: Meer informatie over het gebruik van PowerShell om het lidmaatschap in Microsoft 365-groepen te behouden.
+description: Meer informatie over het gebruik van PowerShell om het lidmaatschap van Microsoft 365 behouden.
 ms.openlocfilehash: 9696c9093ae6f24a2edaf544e80794bde45d18d1
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -29,14 +29,14 @@ ms.locfileid: "50909572"
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-U kunt PowerShell voor Microsoft 365 gebruiken als alternatief voor het Microsoft 365-beheercentrum om het lidmaatschap van de beveiligingsgroep in Microsoft 365 te behouden. 
+U kunt PowerShell voor Microsoft 365 gebruiken als alternatief voor het Microsoft 365-beheercentrum om het lidmaatschap van beveiligingsgroep in Microsoft 365. 
 
 >[!Note]
->[Lees hoe u het lidmaatschap van microsoft 365-groepen kunt](../admin/create-groups/add-or-remove-members-from-groups.md) behouden met het Microsoft 365-beheercentrum. Zie Gebruikers en groepen beheren voor een lijst met [aanvullende bronnen.](../admin/add-users/index.yml)
+>[Lees hoe u het lidmaatschap van Microsoft 365 groep kunt behouden](../admin/create-groups/add-or-remove-members-from-groups.md) met het Microsoft 365 beheercentrum. Zie Gebruikers en groepen beheren voor een lijst met [aanvullende bronnen.](../admin/add-users/index.yml)
 >
 
-## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>De Azure Active Directory PowerShell voor Graph-module gebruiken
-Maak eerst [verbinding met uw Microsoft 365-tenant.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
+## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>De powershell Azure Active Directory powershell gebruiken voor Graph module
+Maak eerst [verbinding met uw Microsoft 365 tenant.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
 
 ### <a name="add-or-remove-user-accounts-as-members-of-a-group"></a>Gebruikersaccounts toevoegen of verwijderen als leden van een groep
 
@@ -74,7 +74,7 @@ Remove-AzureADGroupMember -MemberId (Get-AzureADUser | Where { $_.DisplayName -e
 
 ### <a name="add-or-remove-groups-as-members-of-a-group"></a>Groepen toevoegen of verwijderen als leden van een groep
 
-Beveiligingsgroepen kunnen andere groepen als leden bevatten. Microsoft 365-groepen kunnen echter niet. Deze sectie bevat PowerShell-opdrachten om groepen alleen voor een beveiligingsgroep toe te voegen of te verwijderen.
+Beveiligingsgroepen kunnen andere groepen als leden bevatten. Microsoft 365 groepen kunnen echter niet. Deze sectie bevat PowerShell-opdrachten om groepen alleen voor een beveiligingsgroep toe te voegen of te verwijderen.
 
 Als u een groep wilt toevoegen op de weergavenaam, vult u de weergavenaam in van de groep die u gaat toevoegen en de weergavenaam van de groep die de ledengroep bevat en voert u deze opdrachten uit in het PowerShell-venster of de PowerShell-ise.
 
@@ -92,9 +92,9 @@ $groupName="<display name of the group that will contain the member group>"
 Remove-AzureADGroupMember -MemberId (Get-AzureADGroup | Where { $_.DisplayName -eq $groupMemberName }).ObjectID -ObjectID (Get-AzureADGroup | Where { $_.DisplayName -eq $groupName }).ObjectID
 ```
 
-## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>De Microsoft Azure Active Directory-module voor Windows PowerShell gebruiken
+## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Gebruik de Microsoft Azure Active Directory module voor Windows PowerShell
 
-Maak eerst [verbinding met uw Microsoft 365-tenant.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
+Maak eerst [verbinding met uw Microsoft 365 tenant.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
 
 ### <a name="add-or-remove-user-accounts-as-members-of-a-group"></a>Gebruikersaccounts toevoegen of verwijderen als leden van een groep
@@ -133,7 +133,7 @@ Remove-MsolGroupMember -GroupMemberObjectId (Get-MsolUser | Where { $_.DisplayNa
 
 ### <a name="add-or-remove-groups-as-members-of-a-group"></a>Groepen toevoegen of verwijderen als leden van een groep
 
-Beveiligingsgroepen kunnen andere groepen als leden bevatten. Microsoft 365-groepen kunnen echter niet. Deze sectie bevat PowerShell-opdrachten om groepen alleen voor een beveiligingsgroep toe te voegen of te verwijderen.
+Beveiligingsgroepen kunnen andere groepen als leden bevatten. Microsoft 365 groepen kunnen echter niet. Deze sectie bevat PowerShell-opdrachten om groepen alleen voor een beveiligingsgroep toe te voegen of te verwijderen.
 
 Als u een groep wilt toevoegen op de weergavenaam, vult u de weergavenaam in van de groep die u gaat toevoegen en de weergavenaam van de groep die de ledengroep bevat en voert u deze opdrachten uit in het PowerShell-venster of de PowerShell-ise.
 

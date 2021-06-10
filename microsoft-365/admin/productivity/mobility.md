@@ -28,7 +28,7 @@ ms.locfileid: "51580844"
 ---
 # <a name="mobility--people-experiences"></a>Mobiliteit : ervaringen van personen
 
-Productiviteitsscore biedt inzicht in de digitale transformatie van uw organisatie via het gebruik van Microsoft 365 en de technologieervaringen die dit ondersteunen. De score van uw organisatie weerspiegelt metingen voor mensen en technologieervaringen en kan worden vergeleken met benchmarks van organisaties die vergelijkbaar zijn met die van u. De mobiliteitscategorie maakt deel uit van de metingen die mensen ervaren. Voor meer informatie raadpleegt u het overzicht [productiviteitsscore](productivity-score.md) en leest u de [privacyverklaring van Microsoft.](https://privacy.microsoft.com/privacystatement)
+Productiviteitsscore biedt inzicht in de digitale transformatie van uw organisatie door het gebruik van Microsoft 365 en de technologieervaringen die deze ondersteunen. De score van uw organisatie weerspiegelt metingen voor mensen en technologieervaringen en kan worden vergeleken met benchmarks van organisaties die vergelijkbaar zijn met die van u. De mobiliteitscategorie maakt deel uit van de metingen die mensen ervaren. Voor meer informatie raadpleegt u het overzicht [productiviteitsscore](productivity-score.md) en leest u de [privacyverklaring van Microsoft.](https://privacy.microsoft.com/privacystatement)
 
 ## <a name="prerequisites"></a>Vereisten
 
@@ -47,7 +47,7 @@ Nadat personen de afgelopen 28 dagen ten minste eenmaal in de bovenstaande produ
 
 ## <a name="why-your-organization39s-mobility-score-matters"></a>Waarom de mobiliteitsscore van&#39;organisatie belangrijk is
 
-Een belangrijke pijler van de productiviteit van organisaties is hoe goed mensen flexibel kunnen werken, waar ze ook zijn. Met Microsoft 365 kunnen personen verbonden blijven met Outlook, Microsoft Teams en Yammer. Personen kunnen ook naadloos samenwerken aan inhoud door Word, Excel, PowerPoint en OneNote te gebruiken vanaf elke locatie en platforms.
+Een belangrijke pijler van de productiviteit van organisaties is hoe goed mensen flexibel kunnen werken, waar ze ook zijn. Met Microsoft 365 kunnen mensen verbonden blijven met Outlook, Microsoft Teams en Yammer. Personen kunnen ook naadloos samenwerken aan inhoud met Behulp van Word, Excel, PowerPoint en OneNote vanaf elke locatie en platforms.
 
 ## <a name="how-we-calculate-the-score"></a>De berekening van de score
 
@@ -55,7 +55,7 @@ We bieden een primair inzicht in de ervaring die de belangrijkste metrische gege
 
 ### <a name="primary-insight"></a>Primair inzicht
 
-Met Microsoft 365 kunnen personen flexibel werken in verschillende apps, waaronder Microsoft Outlook, Word, Excel, PowerPoint, OneNote, Microsoft Teams, Yammer en Skype voor Bedrijven. Mensen kunnen ook overal werken met een naadloze ervaring op desktop-, web- en mobiele platforms. Het primaire inzicht gaat over de producten die zijn ingeschakeld voor personen in uw organisatie en hoeveel van deze personen actief zijn op ten minste twee platforms.
+Microsoft 365 kunnen personen flexibel werken in verschillende apps, waaronder Microsoft Outlook, Word, Excel, PowerPoint, OneNote, Microsoft Teams, Yammer en Skype voor Bedrijven. Mensen kunnen ook overal werken met een naadloze ervaring op desktop-, web- en mobiele platforms. Het primaire inzicht gaat over de producten die zijn ingeschakeld voor personen in uw organisatie en hoeveel van deze personen actief zijn op ten minste twee platforms.
 
 :::image type="content" source="../../media/primary-mobility.png" alt-text="Grafiek met primair inzicht voor mobiliteit: personen ervaren productiviteitsscore.":::
 
@@ -64,7 +64,7 @@ Met Microsoft 365 kunnen personen flexibel werken in verschillende apps, waarond
 3. **Visualisatie (huidige status):** Laat zien hoeveel personen meer dan één platform gebruiken op desktop, mobiel en web voor ten minste één Microsoft 365 (onderstaande lijst) als volgt:
     - **Horizontale balk** waarin het blauwe (gekleurde) gedeelte het percentage vertegenwoordigt dat in de koptekst wordt uitgedrukt.
     - **De breuk** op de balk markeert de waarde (teller/noemer) die wordt gebruikt voor het berekenen van het percentage in de koptekst.
-        - Teller: Het aantal personen in uw organisatie dat een toepassing gebruikt in Microsoft Outlook, Word, Excel, PowerPoint, OneNote en Microsoft Teams, Yammer en Skype op meer dan één platform vanaf desktop, web en mobiel in de afgelopen 28 dagen.
+        - Teller: Het aantal personen in uw organisatie dat een toepassing gebruikt binnen Microsoft Outlook, Word, Excel, PowerPoint, OneNote en Microsoft Teams, Yammer en Skype op meer dan één platform vanaf desktop, web en mobiel in de afgelopen 28 dagen.
         - Noemer: Het aantal personen met een licentie voor Microsoft 365-apps, Exchange, Yammer, Microsoft Teams of Skype voor ten minste 1 van de afgelopen 28 dagen.
     - De **peer benchmarkwaarde** voor de sleutelmetrische waarde wordt ook weergegeven als een percentage.
 4. **Mobiliteitsbronnen weergeven:** Selecteer deze koppeling om Help-inhoud weer te geven.
@@ -77,7 +77,7 @@ In deze grafiek ziet u de trendlijn, waarbij de teller het aantal personen is da
 
 ### <a name="scoring-framework"></a>Scorekader
 
-De mobiliteitsscore voor uw organisatie meet op organisatieniveau (aggregatie) of personen Microsoft 365-apps - Outlook, Teams, Word, Excel, PowerPoint, OneNote, Yammer en Skype - gebruiken op de verschillende platforms - desktop, web en mobiel.
+De mobiliteitsscore voor uw organisatie meet op organisatieniveau (aggregatie) of personen Microsoft 365-apps - Outlook, Teams, Word, Excel, PowerPoint, OneNote, Yammer en Skype - gebruiken op de verschillende platforms: desktop, web en mobiel.
 
 De scores worden niet op individueel gebruikersniveau gegeven.
 
@@ -85,53 +85,53 @@ De scores worden niet op individueel gebruikersniveau gegeven.
 
 We bieden u ook informatie waarmee u inzicht krijgt in de manier waarop personen in uw organisatie op verschillende platforms werken. Deze extra metrische gegevens dragen niet rechtstreeks bij aan uw productiviteitsscore, maar helpen u bij het maken van een actieplan als onderdeel van uw digitale transformatie.  
 
-### <a name="use-of-outlook-across-platforms"></a>Gebruik van Outlook op verschillende platforms
+### <a name="use-of-outlook-across-platforms"></a>Gebruik van Outlook verschillende platforms
 
-:::image type="content" source="../../media/outlook-across-platforms.png" alt-text="Grafiek die laat zien hoeveel personen Outlook op meerdere platforms gebruiken.":::
+:::image type="content" source="../../media/outlook-across-platforms.png" alt-text="Grafiek die laat zien hoeveel personen gebruik maken van Outlook op meerdere platforms.":::
 
-1. **Koptekst:** Geeft het percentage personen weer dat actief is in Outlook en Outlook op meerdere platforms gebruikt.
-2. **Body:** Hier vindt u informatie over de waarde van het gebruik van Outlook op mobiele apparaten om vanaf elke locatie via e-mail verbonden te blijven.
-3. **Visualisatie:** Geeft het percentage personen weer dat actief is in Outlook en een of meer platformen gebruikt:
+1. **Koptekst:** Toont het percentage personen dat actief is op Outlook die Outlook op meerdere platforms.
+2. **Body:** Geeft informatie over de waarde van het gebruik Outlook mobiele apparaten om vanaf elke locatie via e-mail verbonden te blijven.
+3. **Visualisatie:** Geeft het percentage personen weer dat actief is op Outlook en een of meer platformen gebruikt:
       - **Meerdere platforms:**
-        - Teller: Het aantal personen dat Outlook in de afgelopen 28 dagen op ten minste twee platforms heeft gebruikt vanaf desktop, mobiel of web.
-        - Noemer: Het aantal personen dat Outlook ten minste eenmaal in de afgelopen 28 dagen heeft gebruikt.
+        - Teller: Het aantal personen dat de afgelopen 28 dagen Outlook op ten minste twee platforms heeft gebruikt op desktop, mobiel of web.
+        - Noemer: Het aantal personen dat de afgelopen 28 dagen Outlook hebt gebruikt.
       - **Alleen bureaublad:**
-        - Teller: het aantal personen dat Outlook de afgelopen 28 dagen alleen op een bureaubladplatform heeft gebruikt.
-        - Noemer: Het aantal personen dat Outlook ten minste eenmaal in de afgelopen 28 dagen heeft gebruikt
+        - Teller: Het aantal personen dat de afgelopen 28 dagen Outlook op een desktopplatform heeft gebruikt.
+        - Noemer: Het aantal personen dat de afgelopen 28 dagen Outlook hebt gebruikt
       - **Alleen web:**
-        - Teller: het aantal personen dat Outlook de afgelopen 28 dagen alleen op een webplatform heeft gebruikt.
-        - Noemer: Het aantal personen dat Outlook ten minste eenmaal in de afgelopen 28 dagen heeft gebruikt.
+        - Teller: Het aantal personen dat de afgelopen 28 dagen Outlook op een webplatform heeft gebruikt.
+        - Noemer: Het aantal personen dat de afgelopen 28 dagen Outlook hebt gebruikt.
       - **Alleen mobiel:**
-        - Teller: Het aantal personen dat Outlook de afgelopen 28 dagen alleen op een mobiel platform heeft gebruikt.
-        - *Noemer: Het aantal personen dat Outlook ten minste eenmaal in de afgelopen 28 dagen heeft gebruikt.
+        - Teller: Het aantal personen dat de afgelopen 28 Outlook op een mobiel platform heeft gebruikt.
+        - *Noemer: Het aantal personen dat de afgelopen 28 dagen Outlook hebt gebruikt.
 
-### <a name="use-of-teams-across-platforms"></a>Gebruik van Teams op verschillende platforms
+### <a name="use-of-teams-across-platforms"></a>Gebruik van Teams verschillende platforms
 
-:::image type="content" source="../../media/teams-across-platforms.png" alt-text="Grafiek die laat zien hoeveel personen Teams gebruiken op meer dan één of één platform.":::
+:::image type="content" source="../../media/teams-across-platforms.png" alt-text="Grafiek die laat zien hoeveel personen Teams op meer dan één of één platform.":::
 
 1. **Koptekst:** Hier ziet u welk percentage van de personen die actief zijn op Microsoft Teams het op meerdere platforms gebruikt.
-2. **Body:** Geeft informatie over de waarde van het gebruik van Teams op mobiele apparaten om mensen op de hoogte te houden van berichten terwijl ze vanaf elke locatie werken.
-3. **Visualisatie:** Geeft het percentage personen weer dat actief is op Microsoft Teams die het gebruiken op één platform of meerdere: 
+2. **Body:** Geeft informatie over de waarde van het gebruik Teams mobiele apparaten om mensen op de hoogte te houden van berichten terwijl ze vanaf elke locatie werken.
+3. **Visualisatie:** Geeft het percentage personen weer dat actief Microsoft Teams personen die het gebruiken op één platform of meerdere: 
     - **Meerdere platforms:**
-        - Teller: Het aantal personen dat Teams in de afgelopen 28 dagen heeft gebruikt op 2 of meer van de volgende platforms: desktop, mobiel of web.
-        - Noemer: Het aantal personen dat Microsoft Teams ten minste eenmaal in de afgelopen 28 dagen heeft gebruikt.
+        - Teller: Het aantal personen dat de afgelopen 28 Teams heeft gebruikt op 2 of meer van de volgende platforms: desktop, mobiel of web.
+        - Noemer: Het aantal personen dat de afgelopen 28 dagen Microsoft Teams hebt gebruikt.
     - **Alleen bureaublad:**
-        - Teller: Het aantal personen dat Microsoft Teams de afgelopen 28 dagen alleen op een desktopplatform heeft gebruikt
-        - Noemer: Het aantal personen dat Teams ten minste eenmaal in de afgelopen 28 dagen heeft gebruikt
+        - Teller: Het aantal personen dat de afgelopen 28 dagen alleen Microsoft Teams een bureaubladplatform heeft gebruikt
+        - Noemer: Het aantal personen dat de afgelopen 28 dagen Teams gebruikt
     - **Alleen web:**
-        - Teller: Het aantal personen dat Microsoft Teams de afgelopen 28 dagen alleen op een webplatform heeft gebruikt
-        - Noemer: Het aantal personen dat Microsoft Teams ten minste eenmaal in de afgelopen 28 dagen heeft gebruikt
+        - Teller: het aantal personen dat de afgelopen 28 dagen Microsoft Teams alleen op een webplatform heeft gebruikt
+        - Noemer: Het aantal personen dat de afgelopen 28 dagen Microsoft Teams minimaal één keer heeft gebruikt
     - **Alleen mobiel:**
-        - Teller: Het aantal personen dat Microsoft Teams de afgelopen 28 dagen alleen op een mobiel platform heeft gebruikt
-        - Noemer: Het aantal personen dat Teams ten minste eenmaal in de afgelopen 28 dagen heeft gebruikt
+        - Teller: het aantal personen dat de afgelopen 28 dagen alleen Microsoft Teams een mobiel platform heeft gebruikt
+        - Noemer: Het aantal personen dat de afgelopen 28 dagen Teams gebruikt
 
-### <a name="use-of-microsoft-365-apps-across-platforms"></a>Gebruik van Microsoft 365-apps op verschillende platforms
+### <a name="use-of-microsoft-365-apps-across-platforms"></a>Gebruik van Microsoft 365-apps verschillende platforms
 
-:::image type="content" source="../../media/microsoft365apps-platforms.png" alt-text="Grafiek met het aantal personen dat Microsoft 365-apps op meerdere of afzonderlijke platforms gebruikt.":::
+:::image type="content" source="../../media/microsoft365apps-platforms.png" alt-text="Grafiek met het aantal personen dat apps gebruikt Microsoft 365 meerdere of afzonderlijke platforms.":::
 
-1. **Koptekst:** Toont het percentage personen dat actief is op Microsoft 365-apps (Word, Excel, PowerPoint en OneNote) op meerdere platforms.
+1. **Koptekst:** Geeft het percentage personen weer dat actief Microsoft 365-apps (Word, Excel, PowerPoint en OneNote) op meerdere platforms.
 2. **Body:** Geeft informatie over de waarde van het bieden van flexibiliteit aan personen in uw organisatie om hun bestanden vanaf elke locatie te openen.
-3. **Visualisatie:** De gegroepeerde verticale indeling is bedoeld om het aantal personen weer te geven dat gebruik maakt van elk van de apps die worden beschouwd als Word, Excel, PowerPoint en OneNote, op één of meerdere platforms. Voor elk van deze toepassingen vertegenwoordigen balken het volgende:
+3. **Visualisatie:** De gegroepeerde verticale lijn is bedoeld om het aantal personen weer te geven dat gebruik maakt van elk van de apps die worden beschouwd als Word, Excel, PowerPoint en OneNote- op één of meerdere platforms. Voor elk van deze toepassingen vertegenwoordigen balken het volgende:
       - **Meerdere platforms:** Het aantal gebruikers dat actief is op een app op ten minste twee platforms in de afgelopen 28 dagen.
       - **Alleen bureaublad:** Het aantal gebruikers dat de afgelopen 28 dagen actief is op de app op het bureaubladplatform.
       - **Alleen web:** Het aantal gebruikers dat de afgelopen 28 dagen actief is op een app op het webplatform.
@@ -142,12 +142,12 @@ We bieden u ook informatie waarmee u inzicht krijgt in de manier waarop personen
 :::image type="content" source="../../media/remotework-trend.png" alt-text="Grafiek die laat zien hoeveel personen op afstand, on-site of beide werken.":::
 
 1. **Koptekst:** Geeft het percentage personen weer dat alleen thuis of op een locatie buiten het netwerk van het bedrijf werkt.
-2. **Body:** Onderstreept het belang van het vergemakkelijken van extern werk voor personen zonder toegang tot de fysieke kantoren van uw organisatie.
-3. **Visualisatie:** Toont trendlijn voor het dagelijkse percentage personen dat alleen op afstand werkt, evenals het dagelijkse percentage personen dat ook ter plaatse werkt. Gebruikers worden beschouwd als on-site als ze ten minste drie uur per dag activiteiten uitvoeren in Microsoft 365-apps.
+2. **Body:** Momenten belang van het vergemakkelijken van extern werk voor personen zonder toegang tot de fysieke kantoren van uw organisatie.
+3. **Visualisatie:** Toont trendlijn voor het dagelijkse percentage personen dat alleen op afstand werkt, evenals het dagelijkse percentage personen dat ook ter plaatse werkt. Gebruikers worden beschouwd als onsite als ze ten minste drie uur per dag Microsoft 365-apps activiteiten uitvoeren.
 
 ## <a name="related-content"></a>Verwante onderwerpen
 
-[Status van Microsoft 365-apps – Technologie-ervaringen](apps-health.md) (artikel)\
+[Microsoft 365 apps health – Technology experiences](apps-health.md) (article)\
 [Communicatie – Ervaringen met personen](communication.md) (artikel)\
 [Samenwerking met inhoud: ervaringen met personen](content-collaboration.md) (artikel)\
 [Vergaderingen – Ervaringen van personen](meetings.md) (artikel)\

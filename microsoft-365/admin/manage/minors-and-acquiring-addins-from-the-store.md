@@ -43,8 +43,8 @@ Als u wilt dat uw school of organisatie voldoet aan de AVG-vereisten voor minder
 
 |**Platform** <br/> |**Buildnummer** <br/> |
 |:-----|:-----|
-|Microsoft 365 Apps for enterprise (Current Channel)  <br/> |9001.2138   <br/> |
-|Microsoft 365 Apps for enterprise (Semi-Annual Enterprise Channel)  <br/> |8431.2159  <br/> |
+|Microsoft 365-apps voor ondernemingen (huidig kanaal)  <br/> |9001.2138   <br/> |
+|Microsoft 365-apps voor ondernemingen (Semi-Annual Enterprise Channel)  <br/> |8431.2159  <br/> |
 |Office 2016 voor Windows  <br/> |16.0.4672.1000  <br/> |
 |Office 2013 voor Windows  <br/> |15.0.5023.1000  <br/> |
 |Office 2016 voor Mac  <br/> |16.11.18020200  <br/> |
@@ -65,15 +65,15 @@ Als u wilt dat uw school of organisatie voldoet aan de AVG-vereisten voor minder
   
 Word, Excel en PowerPoint 2013 voor Windows ondersteunen dezelfde secundaire controles als Active Directory Authentication Library (ADAL) is ingeschakeld. Er zijn twee opties voor naleving, zoals hierna wordt beschreven.
   
-- **ADAL inschakelen**. In dit artikel wordt uitgelegd hoe u ADAL voor Office 2013 kunt inschakelen: Moderne verificatie van [Microsoft 365 gebruiken met Office-clients.](../../enterprise/modern-auth-for-office-2013-and-2016.md)<br/>U hebt ook de registersleutels nodig om ADAL in te schakelen, zoals wordt beschreven in [Moderne verificatie inschakelen voor Office 2013 op Windows-apparaten](../security-and-compliance/enable-modern-authentication.md).<br/>Daarnaast moet u deze updates van april voor Office 2013 installeren:
+- **ADAL inschakelen**. In dit artikel wordt uitgelegd hoe u ADAL kunt inschakelen voor Office 2013: Gebruik Microsoft 365 moderne verificatie [met Office clients.](../../enterprise/modern-auth-for-office-2013-and-2016.md)<br/>U hebt ook de registersleutels nodig om ADAL in te schakelen, zoals wordt beschreven in [Moderne verificatie inschakelen voor Office 2013 op Windows-apparaten](../security-and-compliance/enable-modern-authentication.md).<br/>Daarnaast moet u deze updates van april voor Office 2013 installeren:
     
   - [Beschrijving van de beveiligingsupdate voor Outlook 2013: 10 april 2018](https://support.microsoft.com/help/4018330/description-of-the-security-update-for-office-2013-april-10-2018)
     
   - [3 april 2018, update voor Office 2013 (KB4018333)](https://support.microsoft.com/help/4018333/april-3-2018-update-for-office-2013-kb4018333)
     
-- **Schakel ADAL niet in.** Als u ADAL niet kunt inschakelen in Office 2013, is het onze aanbeveling om groepsbeleid te gebruiken om de Store voor de Office-clients uit te schakelen. Informatie over het uitschakelen van de app voor Office-instellingen vindt u [hier](/previous-versions/office/office-2013-resource-kit/cc178992(v=office.15)).
+- **Schakel ADAL niet in.** Als u ADAL niet kunt inschakelen in Office 2013, is het onze aanbeveling om groepsbeleid te gebruiken om de Store uit te schakelen voor de Office clients. Informatie over het uitschakelen van de app voor Office-instellingen vindt u [hier](/previous-versions/office/office-2013-resource-kit/cc178992(v=office.15)).
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-articles"></a>Aanverwante artikelen
 
 [Invoegtoepassingen implementeren in het beheercentrum](./manage-deployment-of-add-ins.md)
 

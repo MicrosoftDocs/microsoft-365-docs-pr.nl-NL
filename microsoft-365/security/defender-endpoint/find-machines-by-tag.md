@@ -68,13 +68,13 @@ GET /api/machines/findbytag?tag={tag}&useStartsWithFilter={true/false}
 
 ## <a name="request-headers"></a>Kopteksten aanvragen
 
-Naam | Type | Omschrijving
+Naam | Type | Beschrijving
 :---|:---|:---
 Autorisatie | Tekenreeks | Bearer {token}. **Vereist**.
 
 ## <a name="request-uri-parameters"></a>URI-parameters aanvragen
 
-Naam | Type | Omschrijving
+Naam | Type | Beschrijving
 :---|:---|:---
 tag | Tekenreeks | De naam van de tag. **Vereist**.
 useStartsWithFilter | Booleaanse waarde | Wanneer de zoekopdracht is ingesteld op waar, worden alle apparaten met de naam van de tag gevonden die beginnen met de opgegeven tag in de query. Standaardwaarden voor onwaar. **Optioneel**.

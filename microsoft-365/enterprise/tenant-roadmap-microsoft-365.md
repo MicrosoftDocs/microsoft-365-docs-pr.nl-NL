@@ -23,26 +23,26 @@ ms.locfileid: "50909452"
 ---
 # <a name="tenant-roadmap-for-microsoft-365"></a>Tenant roadmap voor Microsoft 365
 
-Uw Microsoft 365-tenant is de set services die aan uw organisatie is toegewezen. Deze tenant is meestal gekoppeld aan een of meer van uw openbare DNS-domeinnamen en fungeert als een centrale en geïsoleerde container voor verschillende abonnementen en de licenties die u aan gebruikersaccounts toewijst. Zie [Abonnementen, licenties, accounts](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md)en tenants voor het cloudaanbod van Microsoft voor meer informatie.
+Uw Microsoft 365 tenant is de set services die aan uw organisatie is toegewezen. Deze tenant is meestal gekoppeld aan een of meer van uw openbare DNS-domeinnamen en fungeert als een centrale en geïsoleerde container voor verschillende abonnementen en de licenties die u aan gebruikersaccounts toewijst. Zie [Abonnementen, licenties, accounts](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md)en tenants voor het cloudaanbod van Microsoft voor meer informatie.
 
-Wanneer u een Microsoft 365-tenant maakt, wijst u deze toe aan een specifieke geografische locatie. U kunt ook een tenant met meerdere geografische locaties hebben en uw tenant van de ene locatie naar de andere verplaatsen.
+Wanneer u een Microsoft 365 maakt, wijst u deze toe aan een specifieke geografische locatie. U kunt ook een tenant met meerdere geografische locaties hebben en uw tenant van de ene locatie naar de andere verplaatsen.
 
 Als u uw tenant wilt voorbereiden op gebruikers,groepen, licenties en cloud-apps, is het essentieel om de tenantconfiguratie zorgvuldig te plannen en uit te voeren.
 
-## <a name="set-up-your-microsoft-365-tenant"></a>Uw Microsoft 365-tenant instellen
+## <a name="set-up-your-microsoft-365-tenant"></a>Uw tenant Microsoft 365 instellen
 
 Nadat u ervoor hebt gezorgd dat uw netwerk is geoptimaliseerd voor toegang tot Microsoft 365 voor zowel on-premises als externe werknemers, zijn uw volgende grote taken van plan om uw Microsoft 365-tenant te configureren voor DNS-domeinnamen, algemene services en voor die identiteitsinfrastructuur die veilige aanmelding van gebruikers ondersteunt.
 
-### <a name="plan"></a>Plannen
+### <a name="plan"></a>Abonnement
 
 Plannen voor de implementatie van uw tenant:
 
-- [Meer inzicht in abonnementen, licenties en Azure Active Directory -tenants (Azure AD)](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md)
+- [Meer inzicht in abonnementen, licenties en Azure Active Directory (Azure AD)-tenants](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md)
 - [Meer informatie over het gebruik van SSL-certificaten van derden](plan-for-third-party-ssl-certificates.md)
-- [Inzicht in de manieren waarop een Microsoft 365-tenant is geïntegreerd met Azure AD-services](integrated-apps-and-azure-ads.md)
+- [Inzicht in de manieren waarop een Microsoft 365 tenant is geïntegreerd met Azure AD-services](integrated-apps-and-azure-ads.md)
 - [Ondersteuning voor client-apps plannen](microsoft-365-client-support-certificate-based-authentication.md)
 - [Bepalen hoe u hybride moderne verificatie gebruikt](hybrid-modern-auth-overview.md)
-- [Office 2007- en Office 2010-upgrades plannen](plan-upgrade-previous-versions-office.md)
+- [Upgrades voor Office 2007 en Office 2010 plannen](plan-upgrade-previous-versions-office.md)
 - [Tenantisolatie begrijpen](microsoft-365-tenant-isolation-overview.md)
 
 ### <a name="deploy"></a>Implementeren
@@ -50,27 +50,27 @@ Plannen voor de implementatie van uw tenant:
 Uw tenant implementeren: 
 
 - Voeg de [DNS-domeinen voor](../admin/setup/add-domain.md) uw organisatie toe.
-- Gebruik de [installatiehulplijnen in het Microsoft 365-beheercentrum.](setup-guides-for-microsoft-365.md)
+- Gebruik de [installatiehulplijnen in het Microsoft 365 beheercentrum.](setup-guides-for-microsoft-365.md)
 - Bouw uw [identiteitsinfrastructuur uit en](identity-roadmap-microsoft-365.md) [beveilig uw aanmeldingen voor gebruikers.](microsoft-365-secure-sign-in.md)
 
 ### <a name="move-a-tenants-geographic-locations"></a>Geografische locaties van een tenant verplaatsen
 
-Microsoft blijft nieuwe geografische datacenterlocaties (geos) openen voor Microsoft 365-services. Deze nieuwe datacenter-geo's voegen capaciteits- en rekenbronnen toe om de vraag van klanten en de groei van het gebruik te ondersteunen. Bovendien bieden de nieuwe datacentergeo's in-geogegevenslocatie voor basisgegevens van klanten.
+Microsoft blijft nieuwe geografische datacenterlocaties (geos) openen voor Microsoft 365 services. Deze nieuwe datacenter-geo's voegen capaciteits- en rekenbronnen toe om de vraag van klanten en de groei van het gebruik te ondersteunen. Bovendien bieden de nieuwe datacentergeo's in-geogegevenslocatie voor basisgegevens van klanten.
 
-Zie Kerngegevens verplaatsen naar nieuwe [Microsoft 365-datacenter-geo's voor meer informatie.](moving-data-to-new-datacenter-geos.md)
+Zie Kerngegevens verplaatsen [naar nieuwe Microsoft 365 datacenter geos voor meer informatie.](moving-data-to-new-datacenter-geos.md)
 
 
-## <a name="deploy-microsoft-365-multi-geo"></a>Microsoft 365 Multi-Geo implementeren
+## <a name="deploy-microsoft-365-multi-geo"></a>Meerdere Microsoft 365 implementeren
 
 Met Microsoft 365 Multi-Geo kan uw organisatie de aanwezigheid van Microsoft 365 uitbreiden naar meerdere geografische regio's en/of landen binnen uw bestaande tenant.
 
-Zie Microsoft [365 Multi-Geo](microsoft-365-multi-geo.md)voor meer informatie.
+Zie [Microsoft 365 Multi-Geo](microsoft-365-multi-geo.md) voor meer informatie.
 
-## <a name="manage-multiple-microsoft-365-tenants"></a>Meerdere Microsoft 365-tenants beheren 
+## <a name="manage-multiple-microsoft-365-tenants"></a>Meerdere Microsoft 365 beheren 
 
 Hoewel één tenant voor uw oganisatie ideaal is, kunt u een van de vele organisaties zijn die meerdere tenants hebben. Redenen kunnen fusies en overnames zijn, u wilt administratieve isolatie of u hebt een gedecentraliseerde IT.
 
-Als u meerdere Microsoft 365-tenants hebt, bekijkt u deze artikelen voor meer informatie over:
+Als u meerdere tenants Microsoft 365, bekijkt u deze artikelen voor meer informatie over:
 
 - [Samenwerking tussen verschillende tenants](microsoft-365-inter-tenant-collaboration.md)
 - [Migratie van postvakken tussen tenants](cross-tenant-mailbox-migration.md)

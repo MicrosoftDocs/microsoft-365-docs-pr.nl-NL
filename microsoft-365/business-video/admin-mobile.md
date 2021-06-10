@@ -19,7 +19,7 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Meer informatie over het installeren van de mobiele app Microsoft 365 Admin op uw telefoon.
+description: Meer informatie over het installeren van Microsoft 365 mobiele app beheerder op uw telefoon.
 ms.openlocfilehash: 0367123e9bd74ab79c17b38eb49cc31fc6fba8e4
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -27,15 +27,15 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 04/02/2021
 ms.locfileid: "51580700"
 ---
-# <a name="install-the-microsoft-365-admin-mobile-app-on-your-phone"></a>De mobiele app Microsoft 365 Admin installeren op uw telefoon
+# <a name="install-the-microsoft-365-admin-mobile-app-on-your-phone"></a>De mobiele Microsoft 365 admin installeren op uw telefoon
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWe8Kw?autoplay=false]
 
-U kunt de mobiele app Microsoft 365 Admin gebruiken om gebruikers te beheren, de servicetoestand te controleren en andere beheertaken vanaf uw telefoon uit te voeren.
+U kunt de mobiele Microsoft 365 beheerder gebruiken om gebruikers te beheren, de servicetoestand te controleren en andere beheertaken vanaf uw telefoon uit te voeren.
 
 ## <a name="try-it"></a>Probeer het zelf!
 
-1. Als u de mobiele app Microsoft 365 Admin wilt downloaden, zoekt u naar  **Microsoft 365-beheerder**  in de App Store voor uw apparaat en installeert u deze.
+1. Als u de mobiele Microsoft 365 beheerder wilt downloaden, zoekt u naar **Microsoft 365 beheerder** in de App Store voor uw apparaat en installeert u deze.
 2. Meld u aan met het e-mailadres van uw globale beheerder en bekijk het dashboard om de servicetoestand te bekijken, gebruikerslicenties te controleren en berichten en serviceaanvragen te bekijken.
 3. Hier zijn enkele veelvoorkomende taken die u met de app kunt uitvoeren:
 
@@ -56,6 +56,6 @@ U kunt de mobiele app Microsoft 365 Admin gebruiken om gebruikers te beheren, de
 
 ### <a name="turn-on-notifications"></a>Meldingen in- en uit-
 
-1. Kies instellingen in het **hoofdmenu.**
+1. Kies in het hoofdmenu **Instellingen.**
 2. Kies **onder App-instellingen** de **optie Meldingen.**
 3. Schakel de selectievakjes in naast **Service-status** en **Berichtencentrum.**

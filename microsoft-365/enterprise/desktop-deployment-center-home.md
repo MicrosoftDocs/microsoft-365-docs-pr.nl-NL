@@ -26,7 +26,7 @@ De inhoudsinhoud van het bureaubladimplementatiecentrum is afgeschaft.
 
 Gebruik deze bronnen om moderne bureaubladen te implementeren:
 
-- [Windows 10-implementatie](/windows/deployment/)
+- [Windows 10 implementatie](/windows/deployment/)
 - [Microsoft 365-apps implementeren](/deployoffice/deployment-guide-microsoft-365-apps)
 - [Microsoft Intune](/mem/intune/fundamentals/planning-guide)
 - [Beleid voor identiteiten en apparaattoegang](../security/defender-365-security/microsoft-365-policies-configurations.md)
@@ -37,6 +37,6 @@ U kunt ook hulp vinden voor uw bureaubladimplementatie van Microsoft-partners en
 
 ## <a name="windows-and-office-deployment-lab-kit"></a>Windows en Office Deployment Lab Kit
 
-Met deze kit kunt u uw implementatie en beheer van bureaubladen met Windows 10 Enterprise en Microsoft 365 Apps voor ondernemingen plannen, testen en valideren. De labs behandelen het gebruik van Microsoft Endpoint Configuration Manager, Desktop Analytics, Office Customization Tool, OneDrive, Windows Autopilot en meer.
+Met deze kit kunt u uw implementatie en beheer van bureaubladen met Windows 10 Enterprise en Microsoft 365-apps voor ondernemingen. De labs omvatten het gebruik Microsoft Endpoint Configuration Manager, Desktop Analytics, Office Aanpassingshulpmiddel, OneDrive, Windows Autopilot en meer.
 
 Zie [Windows en Office Deployment Lab Kit voor](modern-desktop-deployment-and-management-lab.md) meer informatie.

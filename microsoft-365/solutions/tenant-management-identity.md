@@ -1,5 +1,5 @@
 ---
-title: Stap 3. Identiteit voor uw Microsoft 365 voor enterprise tenants
+title: Stap 3. Identiteit voor uw Microsoft 365 voor zakelijke tenants
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -15,7 +15,7 @@ ms.collection:
 - m365solution-scenario
 ms.custom:
 - Ent_Solutions
-description: Implementeer het juiste identiteitsmodel voor uw Microsoft 365-tenants en dwing sterke aanmeldingen van gebruikers af.
+description: Implementeer het juiste identiteitsmodel voor uw Microsoft 365 en dwing sterke aanmeldingen van gebruikers af.
 ms.openlocfilehash: 57e84b38715c4fbe29f9aa362e363663b0401f91
 ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
@@ -23,36 +23,36 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51052360"
 ---
-# <a name="step-3-identity-for-your-microsoft-365-for-enterprise-tenants"></a>Stap 3. Identiteit voor uw Microsoft 365 voor enterprise tenants
+# <a name="step-3-identity-for-your-microsoft-365-for-enterprise-tenants"></a>Stap 3. Identiteit voor uw Microsoft 365 voor zakelijke tenants
 
-Uw Microsoft 365-tenant bevat een Azure Active Directory-tenant (Azure AD) om identiteiten en verificatie voor aanmeldingen te beheren. Het correct configureren van uw identiteitsinfrastructuur is essentieel voor het beheren van microsoft 365-gebruikerstoegang en -machtigingen voor uw organisatie.
+Uw Microsoft 365 tenant bevat een Azure Active Directory (Azure AD) tenant voor het beheren van identiteiten en verificatie voor aanmeldingen. Het correct configureren van uw identiteitsinfrastructuur is essentieel voor het beheren Microsoft 365 gebruikerstoegang en machtigingen voor uw organisatie.
 
 ## <a name="cloud-only-vs-hybrid"></a>Cloud-only versus hybride
 
 Hier zijn de twee typen identiteitsmodellen en de beste pasvorm en voordelen.
 
 
-| Model | Beschrijving | Hoe microsoft 365 gebruikersreferenties verifieert | Het beste voor | Grootste voordeel |
+| Model | Beschrijving | Hoe Microsoft 365 gebruikersreferenties verifieert | Het beste voor | Grootste voordeel |
 |:-------|:-----|:-----|:-----|:-----|
-| Alleen in de cloud | Gebruikersaccount bestaat alleen in de Azure AD-tenant voor uw Microsoft 365-tenant. | De Azure AD-tenant voor uw Microsoft 365-tenant voert de verificatie uit met het cloudidentiteitsaccount. | Organisaties die geen on-premises AD DS hebben of nodig hebben. | Eenvoudig te gebruiken. Er zijn geen extra adreslijsthulpmiddelen of -servers vereist. |
-| Hybride |  Gebruikersaccount bestaat in uw on-premises Active Directory Domain Services (AD DS) en een kopie bevindt zich ook in de Azure AD-tenant voor uw Microsoft 365-tenant. Azure AD Connect wordt uitgevoerd op een on-premises server om AD DS-wijzigingen te synchroniseren met uw Azure AD-tenant. Het gebruikersaccount in Azure AD kan ook een gehashte versie van het wachtwoord van het al gehashte AD DS-gebruikersaccount bevatten. | De Azure AD-tenant voor uw Microsoft 365-tenant verwerkt het verificatieproces of leidt de gebruiker om naar een andere identiteitsprovider. | Organisaties die AD DS of een andere identiteitsprovider gebruiken. | Gebruikers kunnen dezelfde referenties gebruiken bij het openen van on-premises of cloudbronnen. |
+| Alleen in de cloud | Gebruikersaccount bestaat alleen in de Azure AD-tenant voor uw Microsoft 365 tenant. | De Azure AD-tenant voor uw Microsoft 365 tenant voert de verificatie uit met het cloudidentiteitsaccount. | Organisaties die geen on-premises AD DS hebben of nodig hebben. | Eenvoudig te gebruiken. Er zijn geen extra adreslijsthulpmiddelen of -servers vereist. |
+| Hybride |  Gebruikersaccount bestaat in uw on-premises Active Directory Domain Services (AD DS) en een kopie bevindt zich ook in de Azure AD-tenant voor uw Microsoft 365 tenant. Azure AD Verbinding maken wordt uitgevoerd op een on-premises server om AD DS-wijzigingen te synchroniseren met uw Azure AD-tenant. Het gebruikersaccount in Azure AD kan ook een gehashte versie van het wachtwoord van het al gehashte AD DS-gebruikersaccount bevatten. | De Azure AD-tenant voor Microsoft 365 tenant verwerkt het verificatieproces of leidt de gebruiker om naar een andere identiteitsprovider. | Organisaties die AD DS of een andere identiteitsprovider gebruiken. | Gebruikers kunnen dezelfde referenties gebruiken bij het openen van on-premises of cloudbronnen. |
 ||||||
 
 Hier zijn de basisonderdelen van alleen-cloudidentiteit.
  
 ![Basisonderdelen van alleen-cloudidentiteit](../media/about-microsoft-365-identity/cloud-only-identity.png)
 
-In deze afbeelding melden on-premises en externe gebruikers zich aan met accounts in de Azure AD-tenant van hun Microsoft 365-tenant.
+In deze afbeelding melden on-premises en externe gebruikers zich aan met accounts in de Azure AD-tenant van hun Microsoft 365 tenant.
 
 Hier zijn de basisonderdelen van hybride identiteit.
 
 ![Basisonderdelen van hybride identiteit](../media/about-microsoft-365-identity/hybrid-identity.png)
 
-In deze afbeelding melden on-premises en externe gebruikers zich aan bij hun Microsoft 365-tenant met accounts in de Azure AD-tenant die zijn gekopieerd vanuit hun on-premises AD DS.
+In deze afbeelding melden on-premises en externe gebruikers zich aan bij hun Microsoft 365 tenant met accounts in de Azure AD-tenant die zijn gekopieerd uit hun on-premises AD DS.
 
 ## <a name="synchronizing-your-on-premises-ad-ds"></a>Uw on-premises AD DS synchroniseren
 
-Afhankelijk van uw zakelijke behoeften en technische vereisten, is het hybride identiteitsmodel en adreslijstsynchronisatie de meest voorkomende keuze voor zakelijke klanten die Microsoft 365 gebruiken. Met adreslijstsynchronisatie kunt u identiteiten beheren in uw AD DS en worden alle updates voor gebruikersaccounts, groepen en contactpersonen gesynchroniseerd met de Azure AD-tenant van uw Microsoft 365-tenant.
+Afhankelijk van uw zakelijke behoeften en technische vereisten zijn het hybride identiteitsmodel en adreslijstsynchronisatie de meest voorkomende keuze voor zakelijke klanten die een Microsoft 365. Met adreslijstsynchronisatie kunt u identiteiten beheren in uw AD DS en worden alle updates voor gebruikersaccounts, groepen en contactpersonen gesynchroniseerd met de Azure AD-tenant van uw Microsoft 365 tenant.
 
 >[!Note]
 >Wanneer AD DS-gebruikersaccounts voor de eerste keer worden gesynchroniseerd, krijgen ze niet automatisch een Microsoft 365-licentie toegewezen en hebben ze geen toegang tot Microsoft 365-services, zoals e-mail. U moet ze eerst een gebruikslocatie toewijzen. Wijs vervolgens een licentie toe aan deze gebruikersaccounts, afzonderlijk of dynamisch via groepslidmaatschap.
@@ -74,7 +74,7 @@ Als u de beveiliging van aanmeldingen van gebruikers wilt verhogen, gebruikt u d
 
 | Mogelijkheid | Beschrijving | Meer informatie | Licentievereisten |
 |:-------|:-----|:-----|:-----|:-----|
-| Windows Hello voor Bedrijven | Vervangt wachtwoorden door sterke tweestapsverificatie wanneer u zich aanmeldt op een Windows-apparaat. De twee factoren zijn een nieuw type gebruikersreferentie dat is gekoppeld aan een apparaat en een biometrisch kenmerk of een pincode. | [Overzicht van Windows Hello voor Bedrijven](/windows/security/identity-protection/hello-for-business/hello-overview) | Microsoft 365 E3 of E5 |
+| Windows Hello voor Bedrijven | Vervangt wachtwoorden door sterke tweestapsverificatie wanneer u zich aanmeldt op een Windows apparaat. De twee factoren zijn een nieuw type gebruikersreferentie dat is gekoppeld aan een apparaat en een biometrisch kenmerk of een pincode. | [Windows Overzicht van Hallo voor Bedrijven](/windows/security/identity-protection/hello-for-business/hello-overview) | Microsoft 365 E3 of E5 |
 | Azure AD-wachtwoordbeveiliging | Detecteert en blokkeert bekende zwakke wachtwoorden en hun varianten en kan ook aanvullende zwakke termen blokkeren die specifiek zijn voor uw organisatie. | [Azure AD-wachtwoordbeveiliging configureren](/azure/active-directory/authentication/concept-password-ban-bad) | Microsoft 365 E3 of E5 |
 | Meervoudige verificatie (MFA) gebruiken | MFA vereist dat gebruikersmeldingen worden onderworpen aan een extra verificatie buiten het wachtwoord van het gebruikersaccount, zoals verificatie met een smartphone-app of een sms-bericht dat naar een smartphone is verzonden. Zie [deze video voor](https://support.microsoft.com/office/set-up-multi-factor-authentication-in-microsoft-365-business-a32541df-079c-420d-9395-9d59354f7225) instructies over hoe gebruikers MFA instellen. | [MFA voor Microsoft 365 voor ondernemingen](../enterprise/microsoft-365-secure-sign-in.md#mfa) | Microsoft 365 E3 of E5 |
 | Configuratie van identiteiten en apparaattoegang | Instellingen en beleidsregels die bestaan uit aanbevolen vereiste functies en hun instellingen in combinatie met beleidsregels voor Voorwaardelijke toegang, Intune en Azure AD Identity Protection die bepalen of een bepaald toegangsverzoek moet worden verleend en onder welke voorwaarden.  | [Configuratie van identiteiten en apparaattoegang](../security/defender-365-security/microsoft-365-policies-configurations.md) | Microsoft 365 E3 of E5 |
@@ -85,7 +85,7 @@ Als u de beveiliging van aanmeldingen van gebruikers wilt verhogen, gebruikt u d
 
 ## <a name="results-of-step-3"></a>Resultaten van stap 3
 
-Voor identiteit voor uw Microsoft 365-tenant hebt u het volgende bepaald:
+Voor identiteit voor uw Microsoft 365 tenant hebt u het volgende bepaald:
 
 - Welk identiteitsmodel u wilt gebruiken.
 - Hoe u sterke gebruikers- en apparaattoegang afdwingt.
@@ -96,7 +96,7 @@ Hier is een voorbeeld van een tenant met de nieuwe hybride identiteitselementen 
 
 In deze afbeelding heeft de tenant:
 
-- Een AD DS-forest dat wordt gesynchroniseerd met de Azure AD-tenant met een DirSync-server en Azure AD Connect.
+- Een AD DS-forest dat wordt gesynchroniseerd met de Azure AD-tenant met een DirSync-server en Azure AD-Verbinding maken.
 - Een kopie van de AD DS-gebruikersaccounts en andere objecten uit het AD DS-forest.
 - Een set beleidsregels voor voorwaardelijke toegang om veilige aanmeldingen en toegang van gebruikers af te dwingen op basis van het gebruikersaccount. 
 
@@ -109,6 +109,6 @@ Op permanente basis moet u mogelijk het volgende doen:
 
 ## <a name="next-step"></a>Volgende stap
 
-[![Stap 4. Uw on-premises Office-servers en -gegevens migreren](../media/tenant-management-overview/tenant-management-step-grid-migration.png)](tenant-management-migration.md)
+[![Stap 4. Uw on-premises Office servers en gegevens migreren](../media/tenant-management-overview/tenant-management-step-grid-migration.png)](tenant-management-migration.md)
 
-Ga verder [met de migratie](tenant-management-migration.md) om uw on-premises Office-servers en hun gegevens te migreren naar Microsoft 365.
+Ga verder [met de migratie](tenant-management-migration.md) om uw on-premises Office servers en hun gegevens te migreren naar Microsoft 365.

@@ -40,7 +40,7 @@ ms.locfileid: "52771187"
 Vertegenwoordig een bestandsentiteit in Defender voor Eindpunt.
 
 ## <a name="methods"></a>Methoden
-Methode|Retourtype |Omschrijving
+Methode|Retourtype |Beschrijving
 :---|:---|:---
 [Bestand downloaden](get-file-information.md) | [bestand](files.md) | Eén bestand downloaden 
 [Gerelateerde waarschuwingen voor lijstbestand](get-file-related-alerts.md) | [waarschuwingsverzameling](alerts.md) | Haal [](alerts.md) de waarschuwingsentiteiten op die aan het bestand zijn gekoppeld.
@@ -49,7 +49,7 @@ Methode|Retourtype |Omschrijving
 
 
 ## <a name="properties"></a>Eigenschappen
-|Eigenschap | Type    |   Omschrijving |
+|Eigenschap | Type    |   Beschrijving |
 |:---|:---|:---|
 |sha1 | Tekenreeks | Sha1 hash van de bestandsinhoud |
 |sha256 | Tekenreeks | Sha256-hash van de bestandsinhoud |

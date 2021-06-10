@@ -32,19 +32,19 @@ Voor elke controle rapporteert het hulpprogramma een van de drie mogelijke resul
 
 ## <a name="obtain-the-checker"></a>De controle verkrijgen
 
-Download het ZIP-bestand van https://aka.ms/mmddratoolv0 .
+Download het .zip bestand van https://aka.ms/mmddratoolv0 .
 
 > [!NOTE]
 > De gebruiker die het hulpprogramma gebruikt, moet de lokale beheerdersrechten hebben op het apparaat waarop de functie wordt uitgevoerd.
 
  Voer het hulpprogramma vervolgens uit door de volgende stappen uit te voeren:
 
-1. Kopieer het gedownloade ZIP-bestand naar elk apparaat dat u wilt controleren.
+1. Kopieer het gedownloade .zip naar elk apparaat dat u wilt controleren.
 2. Haal alle bestanden in de gecomprimeerde download op.
 3. Voer **Microsoft.MMD.DeviceReadinessAssessmentTool.exe** uit.
 4. Wanneer de prompt Gebruikerstoegangsbesturingselement wordt weergegeven, selecteert u **Ja**. Het hulpprogramma wordt uitgevoerd en opent een rapport in uw standaardbrowser.
 
-U kunt het zip-archief ook downloaden en uitpakken naar een gedeelde locatie, toegang **Microsoft.MMD.DeviceReadinessAssessmentTool.exe** elk apparaat en vervolgens lokaal uitvoeren.
+U kunt het archief ook downloaden en .zip naar een gedeelde locatie, toegang **tot** Microsoft.MMD.DeviceReadinessAssessmentTool.exeelk apparaat en vervolgens lokaal uitvoeren.
 
 
 ## <a name="checks"></a>Controles
@@ -55,7 +55,7 @@ Met het downloadbare hulpprogramma worden deze apparaat- en netwerkgerelateerde 
 
 Apparaten moeten voldoen aan specifieke hardwarevereisten voor gebruik met Microsoft Managed Desktop. Op dit moment mogen alleen specifieke [goedgekeurde](../service-description/device-list.md) apparaten zich registreren. 
 
-Als een van de controles op uw apparaat mislukt, is het niet compatibel met Beheerd bureaublad van Microsoft.
+Als uw apparaat een van de controles mislukt, is het niet compatibel met Microsoft Managed Desktop.
 
 ### <a name="network-endpoints"></a>Netwerk-eindpunten
 
@@ -71,21 +71,21 @@ Een **adviesresultaat** betekent dat u bepaalde wi-fi-profielen gebruikt die cer
 
 #### <a name="lan-profiles"></a>LAN-profielen
 
-Een **adviesresultaat** betekent dat u LN's hebt die certificaten en profielen nodig hebben om goed te kunnen werken. Zie Certificaten en netwerkprofielen voorbereiden voor Microsoft Managed Desktop voor [meer informatie.](certs-wifi-lan.md)
+Een **adviesresultaat** betekent dat u LN's hebt die certificaten en profielen nodig hebben om goed te kunnen werken. Zie Certificaten en netwerkprofielen voorbereiden [voor](certs-wifi-lan.md)Microsoft Managed Desktop.
 
 #### <a name="vpn-profiles"></a>VPN-profielen
 
-Een **adviesresultaat** betekent dat u een virtueel privénetwerk (VPN) gebruikt. Maak een VPN-profiel waarin certificaten worden geïmplementeerd die zijn geïntegreerd met Microsoft Intune. Zie Certificaten en netwerkprofielen voorbereiden voor Microsoft Managed Desktop voor [meer informatie.](certs-wifi-lan.md)
+Een **adviesresultaat** betekent dat u een virtueel privénetwerk (VPN) gebruikt. Maak een VPN-profiel dat certificaten implementeert die zijn geïntegreerd met Microsoft Intune. Zie Certificaten en netwerkprofielen voorbereiden [voor](certs-wifi-lan.md)Microsoft Managed Desktop.
 
 #### <a name="mapped-drives"></a>In kaart gebrachte stations
 
-Een **Advisory-resultaat** betekent dat u bepaalde in kaart gebrachte stations hebt, die niet worden aanbevolen. Zie Kaartstations voorbereiden voor [Microsoft Managed Desktop voor meer informatie.](mapped-drives.md)
+Een **Advisory-resultaat** betekent dat u bepaalde in kaart gebrachte stations hebt, die niet worden aanbevolen. Zie Kaartstations voorbereiden [voor](mapped-drives.md)Microsoft Managed Desktop.
 
 #### <a name="print-queues"></a>Wachtrijen afdrukken
 
-Een **adviesresultaat** betekent dat u een aantal openstaande afdrukwachtrijen hebt, die niet worden aanbevolen. Eén oplossing is het gebruik van cloudafdrukken. Zie Afdrukresources voorbereiden voor Microsoft Managed Desktop voor [meer informatie.](printing.md)
+Een **adviesresultaat** betekent dat u een aantal openstaande afdrukwachtrijen hebt, die niet worden aanbevolen. Eén oplossing is het gebruik van cloudafdrukken. Zie Afdrukresources voorbereiden [voor](printing.md)Microsoft Managed Desktop.
 
 #### <a name="proxies"></a>Proxies
 
-Een **adviesresultaat** betekent dat u een proxyserver in gebruik hebt. Zie Netwerkconfiguratie voor Microsoft Managed Desktop voor [meer informatie.](network.md)
+Een **adviesresultaat** betekent dat u een proxyserver in gebruik hebt. Zie Netwerkconfiguratie voor [Microsoft Managed Desktop.](network.md)
 

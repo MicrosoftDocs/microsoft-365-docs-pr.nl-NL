@@ -37,13 +37,13 @@ U kunt ook TLGs gebruiken om representatieve omgevingen te maken voor het ontwik
   
 ![Testlabrichtlijnen voor de Microsoft-cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
-Vouw de volgende afbeelding uit of ga naar Microsoft 365 for enterprise Test Lab Guide Stack voor een visuele kaart voor alle artikelen in de Stapel testlaboratoren voor [Microsoft 365 voor bedrijven.](../downloads/Microsoft365EnterpriseTLGStack.pdf)
+Voor een visuele kaart van alle artikelen in de Microsoft 365 voor enterprise Test Lab Guide stack, vouwt u de volgende afbeelding uit of gaat u naar Microsoft 365 voor de enterprise [Test Lab Guide Stack](../downloads/Microsoft365EnterpriseTLGStack.pdf).
 
 [![Microsoft 365 Enterprise-testlabrichtlijnen-stack](../media/m365-enterprise-test-lab-guides/microsoft-365-enterprise-tlg-stack.png)](../downloads/Microsoft365EnterpriseTLGStack.pdf)
 
 ## <a name="base-configuration"></a>Basisconfiguratie
 
-Maak eerst een testomgeving voor [Microsoft 365 voor bedrijven.](/microsoft-365-enterprise/) U kunt twee soorten basisconfiguraties maken:
+Maak eerst een testomgeving voor Microsoft 365 [voor ondernemingen.](/microsoft-365-enterprise/) U kunt twee soorten basisconfiguraties maken:
 
 - [Lichtgewicht basisconfiguratie:](lightweight-base-configuration-microsoft-365-enterprise.md) gebruik deze configuratie wanneer u Microsoft 365 wilt configureren en demonstreren voor bedrijfsfuncties en -mogelijkheden in een cloudomgeving, die geen on-premises onderdelen bevat.
 

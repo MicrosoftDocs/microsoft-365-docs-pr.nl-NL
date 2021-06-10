@@ -33,11 +33,11 @@ ms.locfileid: "51580640"
 
 ## <a name="try-it"></a>Probeer het zelf!
 
-Microsoft 365 bevat geen openbare website voor uw bedrijf. Als u er een wilt instellen, kunt u overwegen een webhostingbedrijf zoals GoDaddy, Wix of WordPress te gebruiken.
+Microsoft 365 geen openbare website voor uw bedrijf. Als u er een wilt instellen, kunt u overwegen een webhostingbedrijf zoals GoDaddy, Wix of WordPress te gebruiken.
 
 1. Zoek naar een webhostingprovider waar u uw website kunt bouwen.
 
      U vindt het misschien het gemakkelijkst om de opbouwer van de website te kiezen in hetzelfde bedrijf waar uw domeinnaam is geregistreerd.
 1. Ontwerp uw zakelijke website, zorg ervoor dat uw bedrijfslogo, bedrijfsdoel, tekst, afbeeldingen en koppelingen worden vermeld.
-1. Als u de website wilt integreren met Microsoft 365, kunt u uw zakelijke e-mail toevoegen aan de website en een koppeling naar Microsoft Teams, SharePoint of een ander samenwerkingshulpmiddel.
-1. Zorg ervoor dat u uw website koppelt aan uw domeinnaam,&#39;ook gebruikt voor e-mail op Microsoft 365.
+1. Als u de website wilt integreren met Microsoft 365, kunt u uw zakelijke e-mail toevoegen aan de website en een koppeling naar Microsoft Teams, SharePoint of ander samenwerkingshulpmiddel.
+1. Zorg ervoor dat u uw website koppelt aan uw domeinnaam, die u&#39;ook gebruikt voor e-mail op Microsoft 365.
