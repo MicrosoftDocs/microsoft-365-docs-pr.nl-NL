@@ -27,7 +27,7 @@ ms.locfileid: "51185465"
 
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 
 
 U kunt meer inzicht krijgen in een onderzoek door de gebeurtenissen op een bepaald apparaat te analyseren. Selecteer eerst het apparaat van belang in de [lijst Apparaten.](machines-view-overview.md) Op de apparaatpagina kunt u het tabblad **Tijdlijn** selecteren om alle gebeurtenissen op het apparaat weer te geven.
@@ -96,7 +96,7 @@ Als u alleen gebeurtenissen of technieken wilt weergeven, **selecteert** u Filte
 
 
 ## <a name="see-also"></a>Zie ook
-- [De lijst Apparaten weergeven en ordenen](machines-view-overview.md)
+- [De lijst met apparaten weergeven en organiseren](machines-view-overview.md)
 - [Gebeurtenisvlaggen van Microsoft Defender voor eindpuntapparaat](device-timeline-event-flag.md) 
 
 

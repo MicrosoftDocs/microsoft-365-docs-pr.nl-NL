@@ -1,5 +1,5 @@
 ---
-title: Gevoeligheidslabels gebruiken om prioriteit te geven aan de reactie op incidenten
+title: Gevoeligheidslabels gebruiken om prioriteit te geven aan de respons op incidenten
 description: Informatie over het gebruik van gevoeligheidslabels om prioriteit te geven aan incidenten en incidenten te onderzoeken
 keywords: informatie, beveiliging, gegevens, verlies, preventie,etiketten, dlp, incident, onderzoek, onderzoek
 search.product: eADQiWindows 10XVcnh
@@ -22,12 +22,12 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/24/2021
 ms.locfileid: "51186123"
 ---
-# <a name="use-sensitivity-labels-to-prioritize-incident-response"></a>Gevoeligheidslabels gebruiken om prioriteit te geven aan de reactie op incidenten  
+# <a name="use-sensitivity-labels-to-prioritize-incident-response"></a>Gevoeligheidslabels gebruiken om prioriteit te geven aan de respons op incidenten  
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
@@ -43,7 +43,7 @@ Meer informatie over het gebruik van gegevensgevoeligheidslabels om prioriteit t
 >[!NOTE]
 >Labels worden gedetecteerd voor Windows 10, versie 1809 of hoger.
 
-1. Selecteer incidenten in het Microsoft **Defender-beveiligingscentrum.** 
+1. Selecteer Microsoft Defender-beveiligingscentrum **incidenten**. 
 
 2. Schuif naar rechts om de kolom **Gegevensgevoeligheid te** zien. Deze kolom geeft gevoeligheidslabels weer die zijn waargenomen op apparaten die betrekking hebben op de incidenten, zodat wordt aangegeven of gevoelige bestanden mogelijk worden beïnvloed door het incident.
 

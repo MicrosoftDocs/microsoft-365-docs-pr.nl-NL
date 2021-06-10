@@ -30,14 +30,14 @@ ms.locfileid: "51185943"
 
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
 >Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/en-us/WindowsForBusiness/windows-atp?ocid=docs-wdatp-automationexclusionlist-abovefoldlink)
 
 
-1. Selecteer instellingenindicatoren in het  >  **navigatiedeelvenster.**
+1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **Indicatoren.**
 
 2. Selecteer het tabblad van het entiteitstype dat u wilt beheren.  
 
@@ -49,7 +49,7 @@ U kunt er ook voor kiezen om een CSV-bestand te uploaden dat de kenmerken van in
 
 Download de voorbeeld-CSV om de ondersteunde kolomkenmerken te kennen.
 
-1. Selecteer instellingenindicatoren in het  >  **navigatiedeelvenster.**
+1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **Indicatoren.**
 
 2. Selecteer het tabblad van het entiteitstype waar u indicatoren voor wilt importeren.
 
@@ -81,5 +81,5 @@ Zie Waarschuwingscategorieën van Microsoft Defender voor eindpunten zijn nu uit
 ## <a name="see-also"></a>Zie ook
 - [Indicatoren maken](manage-indicators.md)
 - [Indicatoren voor bestanden maken](indicator-file.md)
-- [Indicatoren maken voor IPs en URL's/domeinen](indicator-ip-domain.md)
+- [Indicatoren maken voor IP's en URL's/domeinen](indicator-ip-domain.md)
 - [Indicatoren maken op basis van certificaten](indicator-certificates.md)

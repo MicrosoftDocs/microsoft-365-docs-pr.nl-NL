@@ -36,7 +36,7 @@ U kunt Groepsbeleid, PowerShell en Windows Management Instrumentation (WMI) gebr
 
 ## <a name="in-this-section"></a>In deze sectie
 
-Onderwerp | Omschrijving
+Onderwerp | Beschrijving
 ---|---
 [Bestands-, map- en proces-geopende bestandsuitsluitingen configureren en valideren in Microsoft Defender Antivirus scans](configure-exclusions-microsoft-defender-antivirus.md) | U kunt bestanden (inclusief bestanden die zijn gewijzigd door opgegeven processen) en mappen uitsluiten van scans op aanvraag, geplande scans en altijd in realtime beveiligingscontrole en scannen
 [Microsoft Defender Antivirus-scanopties configureren](configure-advanced-scan-types-microsoft-defender-antivirus.md) | U kunt Microsoft Defender Antivirus instellen dat bepaalde typen e-mailopslagbestanden, back-up- of reparse-punten en gearchiveerde bestanden (zoals .zip bestanden) in scans worden opgeslagen. U kunt ook netwerkbestandsscans inschakelen

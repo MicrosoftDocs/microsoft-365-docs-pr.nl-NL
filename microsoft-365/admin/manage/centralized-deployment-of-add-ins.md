@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: Bepaal of uw tenant en gebruikers aan de vereisten voldoen, zodat u gecentraliseerde implementatie kunt gebruiken om Office te implementeren.
-ms.openlocfilehash: 531281eba6accfb2e1ffdab1e662a03b077869bd
-ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
+ms.openlocfilehash: 63775ed6bab2d595ae87085e1607be5818b355e2
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 06/05/2021
-ms.locfileid: "52779756"
+ms.locfileid: "52782484"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>Bepalen of gecentraliseerde implementatie van invoegvoegingen werkt voor uw organisatie
 
@@ -121,7 +121,7 @@ Als het hulpprogramma is uitgevoerd, wordt een uitvoerbestand gegenereerd in een
 - Ondersteund postvak (als er een OAuth-postvak wordt gebruikt)
 
 > [!NOTE]
-> Meervoudige verificatie wordt niet ondersteund wanneer u de PowerShell-module voor centrale implementatie gebruikt.
+> Meervoudige verificatie wordt niet ondersteund wanneer u de PowerShell-module voor centrale implementatie gebruikt. De module werkt alleen met Basisverificatie.
   
 ## <a name="user-and-group-assignments"></a>Toewijzingen van gebruikers en groepen
 
@@ -158,7 +158,7 @@ Als u of uw gebruikers problemen ondervinden bij het laden van de invoegservice 
 |Office  <br/> | Charles/Fiddler-logboeken  <br/>  Tenant-ID ( [meer informatie over hoe](/onedrive/find-your-office-365-tenant-id))  <br/>  CorrelationID. Bekijk de bron van een van de office-pagina's en zoek naar de waarde Correlatie-id en stuur deze naar ondersteuning:  <br/>`<input name=" **wdCorrelationId**" type="hidden" value=" **{BC17079E-505F-3000-C177-26A8E27EB623}**">`  <br/>  `<input name="user_id" type="hidden" value="1003bffd96933623"></form>`  <br/> |
 |Uitgebreide clients (Windows, Mac)  <br/> | Charles/Fiddler-logboeken  <br/>  Build numbers of the client app (preferably as a screenshot from **File/Account**)  <br/> |
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Invoegvoegingen implementeren in het beheercentrum](../manage/manage-deployment-of-add-ins.md) (artikel)\
 [Invoegvoegingen beheren in het beheercentrum](manage-addins-in-the-admin-center.md) (artikel)\

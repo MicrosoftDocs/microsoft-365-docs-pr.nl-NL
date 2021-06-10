@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: fad3dd64c9acf079bd8da778d417240c44031569
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 21a83c4876a90a231eb2a78d10a290be2dca2fa0
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52772439"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782475"
 ---
 # <a name="streaming-api"></a>Streaming-API
 
@@ -34,7 +34,7 @@ ms.locfileid: "52772439"
 
 ## <a name="stream-advanced-hunting-events-to-event-hubs-andor-azure-storage-account"></a>Stream Advanced Hunting-gebeurtenissen naar Event Hubs en/of Azure-opslagaccount.
 
-Microsoft 365 Defender ondersteunt het streamen van alle gebeurtenissen die beschikbaar zijn via [Advanced Hunting](../defender/advanced-hunting-overview.md) naar een [Event Hubs](/azure/event-hubs/) en/of [Azure-opslagaccount.](/azure/event-hubs/)
+Microsoft 365 Defender ondersteunt streaminggebeurtenissen [via Advanced Hunting](../defender/advanced-hunting-overview.md) naar een Event [Hubs](/azure/event-hubs/) en/of [Azure-opslagaccount.](/azure/event-hubs/)
 
 
 

@@ -20,7 +20,7 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: adb92b80-b342-4ecb-99a1-da2a2b4782eb
-description: In dit artikel worden sites met navigatieopties beschreven waarin SharePoint Publishing is ingeschakeld in SharePoint Online.
+description: In dit artikel worden sites met navigatieopties beschreven SharePoint Publiceren is ingeschakeld in SharePoint Online.
 ms.openlocfilehash: b5989bf26ebf7bb1452f983af89a6e6739821d53
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -30,22 +30,22 @@ ms.locfileid: "50923622"
 ---
 # <a name="navigation-options-for-sharepoint-online"></a>Navigatieopties voor SharePoint Online
 
-In dit artikel worden sites met navigatieopties beschreven waarin SharePoint Publishing is ingeschakeld in SharePoint Online. De keuze en configuratie van navigatie zijn aanzienlijk van invloed op de prestaties en schaalbaarheid van sites in SharePoint Online. De SharePoint Publishing-sitesjabloon mag alleen worden gebruikt als dit vereist is voor een gecentraliseerde portal en de publicatiefunctie mag alleen worden ingeschakeld op specifieke sites en alleen wanneer dit absoluut vereist is, omdat deze van invloed kan zijn op de prestaties wanneer deze onjuist worden gebruikt.
+In dit artikel worden sites met navigatieopties beschreven SharePoint Publiceren is ingeschakeld in SharePoint Online. De keuze en configuratie van navigatie zijn aanzienlijk van invloed op de prestaties en schaalbaarheid van sites in SharePoint Online. De SharePoint Publicerende sitesjabloon mag alleen worden gebruikt als dit vereist is voor een gecentraliseerde portal en de publicatiefunctie mag alleen worden ingeschakeld op specifieke sites en alleen wanneer dit absoluut vereist is, omdat deze van invloed kan zijn op de prestaties wanneer deze onjuist worden gebruikt.
 
 >[!NOTE]
->Als u moderne SharePoint-navigatieopties gebruikt, zoals megamenu, trapsgevatte navigatie of hubnavigatie, is dit artikel niet van toepassing op uw site. Moderne SharePoint-sitearchitectuur maakt gebruik van een meer afgeplatte sitehiërarchie en een hub-and-spoke-model. Hierdoor kunnen veel scenario's worden bereikt waarvoor geen gebruik hoeft te worden gemaakt van de SharePoint-publicatiefunctie.
+>Als u moderne navigatieopties SharePoint, zoals megamenu, trapsgevatte navigatie of hubnavigatie, is dit artikel niet van toepassing op uw site. Moderne SharePoint sitearchitectuur maken gebruik van een meer afgeplatte sitehiërarchie en een hub- en spaakmodel. Hierdoor kunnen veel scenario's worden bereikt waarvoor geen gebruik hoeft te worden SharePoint publicatiefunctie.
 
 ## <a name="overview-of-navigation-options"></a>Overzicht van navigatieopties
 
-De configuratie van navigatieproviders kan aanzienlijk van invloed zijn op de prestaties van de hele site en er moet zorgvuldig rekening mee worden gehouden om een navigatieprovider en configuratie te kiezen die effectief schaalt voor de vereisten van een SharePoint-site. Er zijn twee out-of-the-box navigatieproviders, evenals aangepaste navigatie-implementaties.
+De configuratie van navigatieproviders kan aanzienlijk van invloed zijn op de prestaties van de hele site en er moet zorgvuldig rekening mee worden gehouden om een navigatieprovider en configuratie te kiezen die effectief wordt geschaald voor de vereisten van een SharePoint site. Er zijn twee out-of-the-box navigatieproviders, evenals aangepaste navigatie-implementaties.
 
-De eerste optie, [**Structurele navigatie,**](#using-structural-navigation-in-sharepoint-online)is de aanbevolen navigatieoptie in SharePoint Online voor klassieke Sharepoint-sites, als u structurele **navigatie-caching voor uw site in- of uitkeert.** Deze navigatieprovider geeft de navigatie-items weer onder de huidige site, en eventueel de huidige site en de huidige locatie. Het biedt extra mogelijkheden, zoals beveiliging bijsnijden en het opsnoemen van sitestructuur. Als caching is uitgeschakeld, heeft dit een negatieve invloed op de prestaties en schaalbaarheid en kan de beperking van de caching van invloed zijn.
+De eerste optie, [**Structurele navigatie,**](#using-structural-navigation-in-sharepoint-online)is de aanbevolen navigatieoptie in SharePoint Online voor klassieke Sharepoint-sites, als u structurele **navigatie-caching** voor uw site in- of uitkeert. Deze navigatieprovider geeft de navigatie-items weer onder de huidige site, en eventueel de huidige site en de huidige locatie. Het biedt extra mogelijkheden, zoals beveiliging bijsnijden en het opsnoemen van sitestructuur. Als caching is uitgeschakeld, heeft dit een negatieve invloed op de prestaties en schaalbaarheid en kan de beperking van de caching van invloed zijn.
 
 De tweede optie, [**Beheerde navigatie (metagegevens),**](#using-managed-navigation-and-metadata-in-sharepoint-online)vertegenwoordigt navigatie-items met behulp van een termset beheerde metagegevens. U wordt aangeraden beveiligingssnijding uit te staan, tenzij dit vereist is. Beveiligingssnijding is ingeschakeld als een standaardinstelling voor deze navigatieprovider. Voor veel sites hoeft echter niet de beveiliging te worden bijgesneden, omdat navigatie-elementen vaak consistent zijn voor alle gebruikers van de site. Met de aanbevolen configuratie om beveiligingsscheiding uit te schakelen, hoeft deze navigatieprovider geen sitestructuur op te geven en is deze zeer schaalbaar met acceptabele prestatie-effecten.
 
 Naast de out-of-the-box navigatieproviders hebben veel klanten ook alternatieve aangepaste navigatie-implementaties geïmplementeerd. Zie [Op zoek gebaseerde clientscripting](#using-search-driven-client-side-scripting) in dit artikel.
   
-## <a name="pros-and-cons-of-sharepoint-online-navigation-options"></a>Voor- en nadelen van navigatieopties voor SharePoint Online
+## <a name="pros-and-cons-of-sharepoint-online-navigation-options"></a>Voor- en nadelen van SharePoint onlinenavigatieopties
 
 In de volgende tabel worden de voor- en nadelen van elke optie samengevat.
 
@@ -57,15 +57,15 @@ In de volgende tabel worden de voor- en nadelen van elke optie samengevat.
 De meest geschikte optie voor uw site is afhankelijk van uw sitevereisten en van uw technische mogelijkheden. Als u een eenvoudig te configureren navigatieprovider wilt die automatisch wordt bijgewerkt wanneer inhoud wordt gewijzigd, is structurele navigatie met [ingeschakelde caching](https://support.office.com/article/structural-navigation-and-performance-f163053f-8eca-4b9c-b973-36b395093b43) een goede optie.
 
 >[!NOTE]
->Het toepassen van hetzelfde principe als moderne SharePoint-sites door de algehele sitestructuur te vereenvoudigen naar een vlakkere, niet-hiërarchische structuur, verbetert de prestaties en vereenvoudigt de overstap naar moderne SharePoint-sites. Dit betekent dat in plaats van één siteverzameling met honderden sites (subwebs) veel siteverzamelingen met zeer weinig subsites (subwebs) te hebben.
+>Het toepassen van hetzelfde principe als moderne SharePoint sites door de algehele sitestructuur te vereenvoudigen naar een vlakkere, niet-hiërarchische structuur, verbetert de prestaties en vereenvoudigt het verplaatsen naar moderne SharePoint sites. Dit betekent dat in plaats van één siteverzameling met honderden sites (subwebs) veel siteverzamelingen met zeer weinig subsites (subwebs) te hebben.
 
 ## <a name="analyzing-navigation-performance-in-sharepoint-online"></a>Navigatieprestaties analyseren in SharePoint Online
 
-Het [hulpprogramma Paginadiagnose](./page-diagnostics-for-spo.md) voor SharePoint is een browserextensie voor Microsoft Edge- en Chrome-browsers waarmee zowel moderne portals van SharePoint Online als klassieke publicerende sitepagina's worden geanalyseerd. Dit hulpprogramma werkt alleen voor SharePoint Online en kan niet worden gebruikt op een SharePoint-systeempagina.
+Het [hulpprogramma Paginadiagnose voor SharePoint](./page-diagnostics-for-spo.md) is een browserextensie voor Microsoft Edge- en Chrome-browsers die zowel SharePoint moderne portal van Online als klassieke publicerende sitepagina's analyseert. Dit hulpprogramma werkt alleen voor SharePoint Online en kan niet worden gebruikt op een SharePoint systeempagina.
 
-Het hulpprogramma genereert een rapport voor elke geanalyseerde pagina waarin wordt weergegeven hoe de pagina presteert ten opzichte van een vooraf gedefinieerde set regels en gedetailleerde informatie wekt wanneer de resultaten voor een test buiten de basislijnwaarde vallen. Beheerders en ontwerpers van SharePoint Online kunnen het hulpprogramma gebruiken om prestatieproblemen op te lossen om ervoor te zorgen dat nieuwe pagina's worden geoptimaliseerd voordat ze worden gepubliceerd.
+Het hulpprogramma genereert een rapport voor elke geanalyseerde pagina waarin wordt weergegeven hoe de pagina presteert ten opzichte van een vooraf gedefinieerde set regels en gedetailleerde informatie wekt wanneer de resultaten voor een test buiten de basislijnwaarde vallen. SharePoint Onlinebeheerders en ontwerpers kunnen het hulpprogramma gebruiken om prestatieproblemen op te lossen om ervoor te zorgen dat nieuwe pagina's worden geoptimaliseerd voordat ze worden gepubliceerd.
 
-**SPRequestDuration** is met name de tijd die nodig is om de pagina te verwerken in SharePoint. Zware navigatie (zoals pagina's in navigatie), complexe sitehiërarchieën en andere configuratie- en topologieopties kunnen allemaal aanzienlijk bijdragen aan langere duur.
+**SPRequestDuration** is met name de tijd die nodig is om de SharePoint te verwerken. Zware navigatie (zoals pagina's in navigatie), complexe sitehiërarchieën en andere configuratie- en topologieopties kunnen allemaal aanzienlijk bijdragen aan langere duur.
 
 ## <a name="using-structural-navigation-in-sharepoint-online"></a>Structurele navigatie gebruiken in SharePoint Online
 
@@ -73,15 +73,15 @@ Dit is de standaard gebruikte standaardnavigatie en is de meest eenvoudige oplos
 
 ### <a name="how-to-implement-structural-navigation-caching"></a>Structurele navigatie caching implementeren
 
-Onder **Site-instellingen** Navigatie zoeken en voelen kunt u valideren of structurele navigatie is geselecteerd voor globale navigatie  >    >  of huidige navigatie. Als **u Pagina's** tonen selecteert, heeft dit een negatief effect op de prestaties.
+Onder **Site Instellingen** Navigatie zoeken en voelen kunt u valideren of structurele navigatie is geselecteerd voor globale navigatie of huidige  >    >  navigatie. Als **u Pagina's** tonen selecteert, heeft dit een negatief effect op de prestaties.
 
 ![Structurele navigatie met Subsites weergeven geselecteerd](../media/SPONavOptionsStructuredShowSubsites.png)
 
-Caching kan worden ingeschakeld of uitgeschakeld op siteverzamelingsniveau en op siteniveau en is standaard ingeschakeld voor beide. Als u op het niveau van de siteverzameling wilt inschakelen, schakel u onder  >  **Site-instellingen Siteverzamelingsbeheer** siteverzamelingsnavigatie  >  het selectievakje **Caching inschakelen in.**
+Caching kan worden ingeschakeld of uitgeschakeld op siteverzamelingsniveau en op siteniveau en is standaard ingeschakeld voor beide. Als u op het niveau van de siteverzameling wilt inschakelen, schakel Instellingen Siteverzamelingsbeheersiteverzamelingsnavigatie het selectievakje  >    >   **Caching inschakelen in.**
 
 ![Caching op siteniveau inschakelen](../media/structural-nav/structural-nav-caching-site-coll.png)
 
-Als u op siteniveau wilt inschakelen, schakel onder **Navigatie site-instellingen**  >  het selectievakje **Caching inschakelen in.**
+Schakel onder Site-Instellingen Navigatie het selectievakje  >   **Caching inschakelen** in als u het siteniveau wilt inschakelen.
 
 ![Caching op siteniveau inschakelen](../media/structural-nav/structural-nav-caching-site.png)
 
@@ -99,11 +99,11 @@ Voor veel sites is geen beveiliging nodig, omdat de navigatiestructuur vaak cons
 
 ### <a name="how-to-implement-managed-navigation-and-the-results"></a>Beheerde navigatie en de resultaten implementeren
 
-Er zijn verschillende artikelen over docs.microsoft.com over de details van beheerde navigatie. Zie Bijvoorbeeld Overzicht [van beheerde navigatie in SharePoint Server.](/sharepoint/administration/overview-of-managed-navigation)
+Er zijn verschillende artikelen over docs.microsoft.com over de details van beheerde navigatie. Zie Bijvoorbeeld Overzicht van [beheerde navigatie in SharePoint Server.](/sharepoint/administration/overview-of-managed-navigation)
 
 Als u beheerde navigatie wilt implementeren, stelt u voorwaarden in met URL's die overeenkomen met de navigatiestructuur van de site. Beheerde navigatie kan zelfs handmatig worden samengesteld om structurele navigatie in veel gevallen te vervangen. Bijvoorbeeld:
 
-![SharePoint Online-sitestructuur](../media/SPONavOptionsListOfSites.png))
+![SharePoint Onlinesitestructuur](../media/SPONavOptionsListOfSites.png))
 
 ## <a name="using-search-driven-client-side-scripting"></a>Scripting op basis van zoekgestuurde client
 
@@ -125,7 +125,7 @@ Bij deze benadering moet u een aangepaste basispagina maken en de out-of-the-box
 
 ### <a name="example-replace-the-out-of-the-box-navigation-code-in-a-master-page"></a>Voorbeeld: De out-of-the-box-navigatiecode op een basispagina vervangen
 
-1. Ga naar de pagina Site-instellingen.
+1. Ga naar de pagina Site Instellingen site.
 2. Open de galerie met basispagina's door op **Basispagina's te klikken.**
 3. Vanaf hier kunt u door de bibliotheek navigeren en het bestand `seattle.master` downloaden.
 4. Bewerk de code met een teksteditor en verwijder het codeblok in de volgende schermafbeelding.<br/>![Het weergegeven codeblok verwijderen](../media/SPONavOptionsDeleteCodeBlock.png)<br/>
@@ -221,7 +221,7 @@ In ons complexe navigatievoorbeeld wordt met een nieuwe paginabelasting zonder d
 ### <a name="about-the-javascript-file"></a>Over het JavaScript-bestand...
 
 >[!NOTE]
->Als u aangepaste JavaScript gebruikt, controleert u of openbaar CDN is ingeschakeld en dat het bestand zich op een CDN-locatie bevindt.
+>Als u aangepaste JavaScript gebruikt, controleert u of openbare CDN is ingeschakeld en dat het bestand zich op een CDN bevindt.
 
 Het hele JavaScript-bestand is als volgt:
 

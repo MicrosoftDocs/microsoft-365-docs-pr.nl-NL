@@ -1,7 +1,7 @@
 ---
 title: Nuttige Microsoft Defender voor eindpuntbronnen
 description: Toegang krijgen tot nuttige bronnen, zoals koppelingen naar blogs en andere bronnen met betrekking tot Microsoft Defender voor Eindpunt
-keywords: Microsoft Defender Security Center, product kort, kort, mogelijkheden, licenties
+keywords: Microsoft Defender-beveiligingscentrum, product kort, kort, mogelijkheden, licenties
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 727576ab75d77d12be0595c081586f411887da49
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 5ecee4a71ef0b6f607a284766163a90f16bc27dc
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165439"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843062"
 ---
 # <a name="helpful-microsoft-defender-for-endpoint-resources"></a>Nuttige Microsoft Defender voor eindpuntbronnen
 
@@ -29,7 +29,7 @@ ms.locfileid: "51165439"
 
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
@@ -37,7 +37,7 @@ ms.locfileid: "51165439"
 Toegang tot nuttige bronnen, zoals koppelingen naar blogs en andere bronnen met betrekking tot Microsoft Defender voor Eindpunt.
 
 ## <a name="endpoint-protection-platform"></a>Platform voor eindpuntbeveiliging
-- [Hoogste score in industrietests](https://docs.microsoft.com/windows/security/threat-protection/intelligence/top-scoring-industry-antivirus-tests)
+- [Hoogste score in industrietests](/windows/security/threat-protection/intelligence/top-scoring-industry-antivirus-tests)
 
 - [Inside out: Maak gebruik van de geavanceerde technologieën in de kern van Defender voor Endpoint next generation protection](https://www.microsoft.com/security/blog/2019/06/24/inside-out-get-to-know-the-advanced-technologies-at-the-core-of-microsoft-defender-atp-next-generation-protection/)
 
@@ -61,4 +61,4 @@ Toegang tot nuttige bronnen, zoals koppelingen naar blogs en andere bronnen met 
 
 - [Hoe automatisering waarde oplevert voor uw beveiligingsteams](https://techcommunity.microsoft.com/t5/Microsoft-Defender-ATP/How-automation-brings-value-to-your-security-teams/ba-p/729297)
 
-- [False positives/negatives in Microsoft Defender for Endpoint adresseert](defender-endpoint-false-positives-negatives.md)
+- [Actie ondernemen voor fout-positieven/-negatieven in Microsoft Defender voor Eindpunt](defender-endpoint-false-positives-negatives.md)

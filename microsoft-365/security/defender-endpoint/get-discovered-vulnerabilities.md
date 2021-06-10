@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: ac7a9ef932f2640bbc5325f0154c0ceb48ae3018
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 73d9803736df546f2381b7a84c9089d2460c4c44
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52772291"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843080"
 ---
 # <a name="get-discovered-vulnerabilities"></a>Gevonden beveiligingsproblemen ophalen
 
@@ -60,7 +60,7 @@ GET /api/machines/{machineId}/vulnerabilities
 
 ## <a name="request-headers"></a>Kopteksten aanvragen
 
-Naam | Type | Omschrijving
+Naam | Type | Beschrijving
 :---|:---|:---
 Autorisatie | Tekenreeks | Bearer {token}. **Vereist**.
 
@@ -110,5 +110,5 @@ Hier is een voorbeeld van het antwoord.
 
 ## <a name="see-also"></a>Zie ook
 
-- [Risicogebaseerd bedreigingsbeheer & kwetsbaarheidsbeheer](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
-- [Beveiligingslekken in uw organisatie](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-weaknesses)
+- [Risicogebaseerd bedreigingsbeheer & kwetsbaarheidsbeheer](/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
+- [Beveiligingslekken in uw organisatie](/microsoft-365/security/defender-endpoint/tvm-weaknesses)

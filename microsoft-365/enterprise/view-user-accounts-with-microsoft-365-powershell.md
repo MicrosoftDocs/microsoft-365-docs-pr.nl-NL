@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365-gebruikersaccounts weergeven met PowerShell
+title: Gebruikersaccounts Microsoft 365 weergeven met PowerShell
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -19,7 +19,7 @@ ms.custom:
 - Ent_Office_Other
 - seo-marvel-apr2020
 ms.assetid: bb12f49d-a85d-4f3b-ada2-5c4e33977b10
-description: Meer informatie over het weergeven, weergeven of weergeven van uw Microsoft 365-gebruikersaccounts op verschillende manieren met PowerShell.
+description: Meer informatie over het weergeven, weergeven of weergeven van uw Microsoft 365 gebruikersaccounts op verschillende manieren met PowerShell.
 ms.openlocfilehash: de91195afeb8480bf231d9536e4b3a94502a6da1
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -27,15 +27,15 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50924646"
 ---
-# <a name="view-microsoft-365-user-accounts-with-powershell"></a>Microsoft 365-gebruikersaccounts weergeven met PowerShell
+# <a name="view-microsoft-365-user-accounts-with-powershell"></a>Gebruikersaccounts Microsoft 365 weergeven met PowerShell
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-U kunt het Microsoft 365-beheercentrum gebruiken om de accounts voor uw Microsoft 365-tenant te bekijken. PowerShell voor Microsoft 365 maakt dit mogelijk, maar biedt ook extra functionaliteit.
+U kunt het beheercentrum Microsoft 365 gebruiken om de accounts voor uw Microsoft 365 weergeven. PowerShell voor Microsoft 365 maakt dit mogelijk, maar biedt ook extra functionaliteit.
   
-## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>De Azure Active Directory PowerShell voor Graph-module gebruiken
+## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>De powershell Azure Active Directory powershell gebruiken voor Graph module
 
-Maak eerst [verbinding met uw Microsoft 365-tenant.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
+Maak eerst [verbinding met uw Microsoft 365 tenant.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
   
 ### <a name="view-all-accounts"></a>Alle accounts weergeven
 
@@ -66,7 +66,7 @@ Voer de volgende opdracht uit om een specifiek gebruikersaccount weer te geven. 
 Get-AzureADUser -ObjectID <sign-in name of the user account>
 ```
 
-Hier is een voorbeeld:
+Hier volgt een voorbeeld:
   
 ```powershell
 Get-AzureADUser -ObjectID BelindaN@litwareinc.onmicosoft.com
@@ -76,7 +76,7 @@ Get-AzureADUser -ObjectID BelindaN@litwareinc.onmicosoft.com
 
 Standaard worden in **de get-AzureADUser-cmdlet** alleen de *eigenschappen ObjectID,* *DisplayName* en *UserPrincipalName van* accounts weergegeven.
 
-Als u selectiever wilt zijn over  de eigenschappen die moeten worden weergegeven, gebruikt u de cmdlet Selecteren in combinatie met de **cmdlet Get-AzureADUser.** Als u de twee cmdlets wilt combineren, gebruikt u het teken 'pipe' ('|'), waarmee Azure Active Directory PowerShell voor Graph de resultaten van één opdracht krijgt en deze naar de volgende opdracht verzendt. Hier ziet u een voorbeeldopdracht met de *weergavenaam,* *afdeling* en *Gebruikslocatie* voor elk gebruikersaccount:
+Als u selectiever wilt zijn over  de eigenschappen die moeten worden weergegeven, gebruikt u de cmdlet Selecteren in combinatie met de **cmdlet Get-AzureADUser.** Als u de twee cmdlets wilt combineren, gebruikt u het teken 'pipe' ("|"), waarmee Azure Active Directory PowerShell voor Graph de resultaten van een opdracht moet uitvoeren en naar de volgende opdracht moet verzenden. Hier ziet u een voorbeeldopdracht met de *weergavenaam,* *afdeling* en *Gebruikslocatie* voor elk gebruikersaccount:
   
 ```powershell
 Get-AzureADUser | Select DisplayName,Department,UsageLocation
@@ -88,7 +88,7 @@ Met deze opdracht wordt PowerShell instructies gegeven voor:
     
 1.  Alleen de gebruikersnaam, de afdeling en de gebruikslocatie weergeven **(Selecteer DisplayName, Afdeling, UsageLocation).**
   
-Als u alle eigenschappen voor een specifiek gebruikersaccount wilt zien, gebruikt u **de** cmdlet Selecteren en het jokerteken (*). Hier is een voorbeeld:
+Als u alle eigenschappen voor een specifiek gebruikersaccount wilt zien, gebruikt u **de** cmdlet Selecteren en het jokerteken (*). Hier volgt een voorbeeld:
   
 ```powershell
 Get-AzureADUser -ObjectID BelindaN@litwareinc.onmicosoft.com | Select *
@@ -106,7 +106,7 @@ Gebruikersaccounts hebben twee bronnen:
 
 - Windows Server Active Directory (AD), accounts die worden gesynchroniseerd van on-premises AD naar de cloud.
 
-- Azure Active Directory(Azure AD) AD-accounts, die rechtstreeks in de cloud worden gemaakt.
+- Azure Active Directory AD-accounts (Azure AD) die rechtstreeks in de cloud worden gemaakt.
 
 
 De volgende opdracht geeft PowerShell opdracht om alle gebruikers te krijgen die het kenmerk *DirSyncEnabled* hebben ingesteld op *Waar.* U kunt het gebruiken om accounts te zoeken die worden gesynchroniseerd vanuit on-premises AD.
@@ -123,19 +123,19 @@ Get-AzureADUser | Where {$_.DirSyncEnabled -ne $false}
 
 ### <a name="view-accounts-based-on-a-common-property"></a>Accounts weergeven op basis van een gemeenschappelijke eigenschap
 
-Als u selectiever wilt zijn over de lijst met accounts die u wilt weergeven, kunt u de cmdlet **Where** gebruiken in combinatie met de **get-AzureADUser-cmdlet.** Als u de twee cmdlets wilt combineren, gebruikt u het teken 'pipe' ('|'), waarmee Azure Active Directory PowerShell voor Graph de resultaten van één opdracht krijgt en deze naar de volgende opdracht verzendt. Hier ziet u een voorbeeldopdracht die alleen de gebruikersaccounts wekt die een niet-gespecificeerde gebruikslocatie hebben:
+Als u selectiever wilt zijn over de lijst met accounts die u wilt weergeven, kunt u de cmdlet **Where** gebruiken in combinatie met de **get-AzureADUser-cmdlet.** Als u de twee cmdlets wilt combineren, gebruikt u het teken 'pipe' ("|"), waarmee Azure Active Directory PowerShell voor Graph de resultaten van een opdracht moet uitvoeren en naar de volgende opdracht moet verzenden. Hier ziet u een voorbeeldopdracht die alleen de gebruikersaccounts wekt die een niet-gespecificeerde gebruikslocatie hebben:
   
 ```powershell
 Get-AzureADUser | Where {$_.UsageLocation -eq $Null}
 ```
 
-Met deze opdracht geeft Azure Active Directory PowerShell voor Graph instructies voor:
+Met deze opdracht kunt u Azure Active Directory PowerShell Graph:
   
 1. Ontvang alle informatie over de gebruikersaccounts **(Get-AzureADUser)** en stuur deze naar de volgende opdracht ( **|** ).
     
 1. Zoek alle gebruikersaccounts met een niet-gespecificeerde gebruikslocatie (**Where {$ \_ . UsageLocation -eq $Null}**). In de accolades geeft de opdracht PowerShell de opdracht alleen de set accounts te vinden waarvoor de eigenschap Gebruikersaccount UsageLocation **$ \_ (. UsageLocation**) is niet opgegeven (**-eq $Null).**
     
-De **eigenschap UsageLocation** is slechts een van de vele eigenschappen die zijn gekoppeld aan een gebruikersaccount. Als u alle eigenschappen voor een specifiek gebruikersaccount wilt weergeven, gebruikt u **de** cmdlet Selecteren en het jokerteken (*). Hier is een voorbeeld:
+De **eigenschap UsageLocation** is slechts een van de vele eigenschappen die zijn gekoppeld aan een gebruikersaccount. Als u alle eigenschappen voor een specifiek gebruikersaccount wilt weergeven, gebruikt u **de** cmdlet Selecteren en het jokerteken (*). Hier volgt een voorbeeld:
   
 ```powershell
 Get-AzureADUser -ObjectID BelindaN@litwareinc.onmicosoft.com | Select *
@@ -151,9 +151,9 @@ Get-AzureADUser | Where {$_.City -eq "London"}
 >  De syntaxis voor de **cmdlet** Where in deze voorbeelden is **Where {$ \_ .** [naam van de eigenschap gebruikersaccount] [vergelijkingsoperator] [waarde] **}**.> [vergelijkingsoperator] is **-eq** voor gelijken, **-ne** voor niet gelijk aan, **-lt** voor minder dan, **-gt** voor groter dan en andere.  [waarde] is meestal een tekenreeks (een reeks letters, getallen en andere  tekens), een numerieke waarde of $Null voor niet-gespecificeerde tekens. Zie Where [.](/powershell/module/microsoft.powershell.core/where-object?view=powershell-7)
   
 
-## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>De Microsoft Azure Active Directory-module voor Windows PowerShell gebruiken
+## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Gebruik de Microsoft Azure Active Directory module voor Windows PowerShell
 
-Maak eerst [verbinding met uw Microsoft 365-tenant.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
+Maak eerst [verbinding met uw Microsoft 365 tenant.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
 ### <a name="view-all-accounts"></a>Alle accounts weergeven
 
@@ -179,7 +179,7 @@ AnneWlitwareinc.onmicrosoft.com       Anne Wallace          True
 ScottW@litwareinc.onmicrosoft.com     Scott Wallace         False
 ```
 
-De **get-MsolUser-cmdlet** bevat ook een set parameters om de weergegeven set gebruikersaccounts te filteren. Voer bijvoorbeeld de volgende opdracht uit voor de lijst met gebruikers zonder licentie (gebruikers die zijn toegevoegd aan Microsoft 365, maar nog geen licentie hebben gekregen om een van de services te gebruiken:
+De **get-MsolUser-cmdlet** bevat ook een set parameters om de weergegeven set gebruikersaccounts te filteren. Voer bijvoorbeeld de volgende opdracht uit voor de lijst met gebruikers zonder licentie (gebruikers die zijn toegevoegd aan Microsoft 365 maar nog geen licentie hebben om een van de services te gebruiken:
   
 ```powershell
 Get-MsolUser -UnlicensedUsersOnly
@@ -228,7 +228,7 @@ ScottW@litwareinc.onmicrosoft.com     Scott Wallace         False
 
 ```
 
-De *eigenschap UsageLocation* is slechts een van de vele eigenschappen die zijn gekoppeld aan een gebruikersaccount. Als u alle eigenschappen voor gebruikersaccounts wilt zien, gebruikt u de **cmdlet** Selecteren en het jokerteken (*) om ze allemaal weer te geven voor een specifiek gebruikersaccount. Hier is een voorbeeld:
+De *eigenschap UsageLocation* is slechts een van de vele eigenschappen die zijn gekoppeld aan een gebruikersaccount. Als u alle eigenschappen voor gebruikersaccounts wilt zien, gebruikt u de **cmdlet** Selecteren en het jokerteken (*) om ze allemaal weer te geven voor een specifiek gebruikersaccount. Hier volgt een voorbeeld:
   
 ```powershell
 Get-MsolUser -UserPrincipalName BelindaN@litwareinc.onmicosoft.com | Select *
@@ -259,7 +259,7 @@ Standaard worden deze drie eigenschappen van gebruikersaccounts weergegeven op d
     
 - isLicensed
     
-Als u extra eigenschappen nodig hebt, zoals de afdeling waar de gebruiker werkt en het land/de regio waar de gebruiker  Microsoft 365-services gebruikt, kunt u **Get-MsolUser** uitvoeren in combinatie met de cmdlet Selecteren om de lijst met gebruikersaccounteigenschappen op te geven. Hier is een voorbeeld:
+Als u extra eigenschappen nodig hebt, zoals de afdeling waar de gebruiker werkt en het land/de regio waar de  gebruiker Microsoft 365-services gebruikt, kunt u **Get-MsolUser** uitvoeren in combinatie met de cmdlet Selecteren om de lijst met gebruikersaccounteigenschappen op te geven. Hier volgt een voorbeeld:
   
 ```powershell
 Get-MsolUser | Select DisplayName, Department, UsageLocation
@@ -284,7 +284,7 @@ Alex Darrow             Sales & Marketing                    US
 Scott Wallace           Operations
 ```
 
-Met **de** cmdlet Selecteren kunt u kiezen welke eigenschappen u wilt weergeven. Als u alle eigenschappen voor een specifiek gebruikersaccount wilt weergeven, gebruikt u het jokerteken (*). Hier is een voorbeeld:
+Met **de** cmdlet Selecteren kunt u kiezen welke eigenschappen u wilt weergeven. Als u alle eigenschappen voor een specifiek gebruikersaccount wilt weergeven, gebruikt u het jokerteken (*). Hier volgt een voorbeeld:
   
 ```powershell
 Get-MsolUser -UserPrincipalName BelindaN@litwareinc.onmicosoft.com | Select *
@@ -313,9 +313,9 @@ Brian Johnson
 Scott Wallace            Operations
 ```
 
-Als u adreslijstsynchronisatie gebruikt om uw Microsoft 365-gebruikers te maken en te beheren, kunt u het lokale account weergeven waaruit een Microsoft 365-gebruiker is geprojecteerd. In het volgende voorbeeld wordt ervan uitgenomen dat:
+Als u adreslijstsynchronisatie gebruikt om uw Microsoft 365-gebruikers te maken en te beheren, kunt u het lokale account weergeven waaruit een Microsoft 365 gebruiker is geprojecteerd. In het volgende voorbeeld wordt ervan uitgenomen dat:
 
-- Azure AD Connect is geconfigureerd om het standaardbronanker van ObjectGUID te gebruiken. (Zie [Azure AD Connect: Ontwerpconcepten](/azure/active-directory/hybrid/plan-connect-design-concepts)voor meer informatie over het configureren van een bronanker.
+- Azure AD Verbinding maken is geconfigureerd om het standaardbronanker van ObjectGUID te gebruiken. (Zie [Azure AD-Verbinding maken: Ontwerpconcepten](/azure/active-directory/hybrid/plan-connect-design-concepts)voor meer informatie over het configureren van een bronanker.
 - De Active Directory Domain Services-module voor PowerShell is geïnstalleerd (zie [RSAT-hulpprogramma's).](https://www.microsoft.com/en-gb/download/details.aspx?id=45520)
 
 ```powershell

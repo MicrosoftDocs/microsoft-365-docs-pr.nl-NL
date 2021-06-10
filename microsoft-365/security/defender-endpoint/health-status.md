@@ -1,5 +1,5 @@
 ---
-title: Problemen met de status van agent onderzoeken
+title: Statusproblemen van agent onderzoeken
 description: Meer informatie over de waarden die worden geretourneerd bij het uitvoeren van de opdracht mdatp-status
 keywords: mdatp-status, opdracht, status, status, opdracht, onboardingstatus
 search.product: eADQiWindows 10XVcnh
@@ -23,7 +23,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/07/2021
 ms.locfileid: "52281112"
 ---
-# <a name="investigate-agent-health-issues"></a>Problemen met de status van agent onderzoeken
+# <a name="investigate-agent-health-issues"></a>Statusproblemen van agent onderzoeken
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -34,7 +34,7 @@ ms.locfileid: "52281112"
 
 In de volgende tabel vindt u informatie over de waarden die worden geretourneerd wanneer u de `mdatp health` opdracht en de bijbehorende beschrijvingen uit te voeren.
 
-| Waarde | Omschrijving |
+| Waarde | Beschrijving |
 |-|-|
 | automatic_definition_update_enabled | Is waar als automatische antivirusdefinitie-updates zijn ingeschakeld, anders onwaar. |
 |  cloud_automatic_sample_submission_consent | Huidige voorbeeldinzendingsniveau. Kan een van de volgende waarden zijn:     <br><br>  - **Geen:** Er worden geen verdachte steekproeven ingediend bij Microsoft.  <br> <br>     - **Safe:** Alleen verdachte steekproeven die geen persoonsgegevens bevatten, worden automatisch verzonden. Dit is de standaardwaarde voor deze instelling.    <br> <br>   - **Alle**: Alle verdachte steekproeven worden verzonden naar Microsoft.   |

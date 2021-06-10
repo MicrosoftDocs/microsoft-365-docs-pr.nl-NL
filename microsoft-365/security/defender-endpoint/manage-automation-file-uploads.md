@@ -1,5 +1,5 @@
 ---
-title: Uploads van automatiseringsbestand beheren
+title: Automatiseringsbestandsuploads beheren
 description: Inhoudsanalyse inschakelen en de bestandsextensies en e-mailbijlageextensies configureren die voor analyse worden ingediend
 keywords: automatisering, bestand, uploads, inhoud, analyse, bestand, extensie, e-mail, bijlage
 search.product: eADQiWindows 10XVcnh
@@ -23,12 +23,12 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/24/2021
 ms.locfileid: "51185847"
 ---
-# <a name="manage-automation-file-uploads"></a>Uploads van automatiseringsbestand beheren
+# <a name="manage-automation-file-uploads"></a>Automatiseringsbestandsuploads beheren
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-automationefileuploads-abovefoldlink)
@@ -41,7 +41,7 @@ Als u bijvoorbeeld *exe* en *bat* toevoegt als bestands- of bijlageextensienamen
 
 ## <a name="add-file-extension-names-and-attachment-extension-names"></a>Bestandsextensienamen en naam van bijlageextensie toevoegen.
 
-1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **Automatiseringsbestand uploaden**. 
+1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **Automatiseringsbestand uploadt.** 
 
 2. Schakel de instelling voor inhoudsanalyse in **tussen Aan** en **Uit.**
 

@@ -87,7 +87,7 @@ Microsoft Azure|Implementeer Microsoft Antimalware azure in de Azure-portal, met
 
 ## <a name="in-this-section"></a>In deze sectie
 
-Onderwerp | Omschrijving
+Onderwerp | Beschrijving
 ---|---
 [Beveiliging implementeren en Microsoft Defender Antivirus inschakelen](deploy-microsoft-defender-antivirus.md) | Hoewel de client is geïnstalleerd als een belangrijk onderdeel van Windows 10 en traditionele implementatie niet van toepassing is, moet u de client op uw eindpunten nog steeds inschakelen met Microsoft Endpoint Configuration Manager, Microsoft Intune of Groepsbeleidsobjecten. 
 [Updates Microsoft Defender Antivirus en basislijnen toepassen](manage-updates-baselines-microsoft-defender-antivirus.md) | Er zijn twee onderdelen voor het bijwerken Microsoft Defender Antivirus: het bijwerken van de client op eindpunten (productupdates) en het bijwerken van beveiligingsinformatie (beveiligingsupdates). U kunt beveiligingsinformatie op verschillende manieren bijwerken met Microsoft Endpoint Configuration Manager, Groepsbeleid, PowerShell en WMI.

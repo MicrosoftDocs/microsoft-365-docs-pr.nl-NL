@@ -150,4 +150,4 @@ De volgende stappen kunnen worden gebruikt om deze problemen op te lossen en te 
     Zie Uitsluitingen [configureren en valideren](linux-exclusions.md)voor Microsoft Defender voor Eindpunt op Linux voor meer informatie.
 
 ## <a name="see-also"></a>Zie ook
-- [Problemen met de status van agent onderzoeken](health-status.md)
+- [Statusproblemen van agent onderzoeken](health-status.md)

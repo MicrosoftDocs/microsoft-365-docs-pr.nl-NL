@@ -139,7 +139,7 @@ Zie het volgende voor meer informatie:
 Microsoft Defender Offline scanresultaten worden weergegeven in de sectie [Scangeschiedenis van de Windows-beveiliging app.](microsoft-defender-security-center-antivirus.md) 
 
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-articles"></a>Aanverwante artikelen
 
 - [De resultaten van scans en herstel aanpassen, starten en controleren](customize-run-review-remediate-scans-microsoft-defender-antivirus.md)
 - [Microsoft Defender Antivirus in Windows 10](microsoft-defender-antivirus-in-windows-10.md)

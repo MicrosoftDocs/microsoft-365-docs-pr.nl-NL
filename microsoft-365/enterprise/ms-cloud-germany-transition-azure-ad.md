@@ -1,5 +1,5 @@
 ---
-title: Aanvullende Azure Active Directory-informatie voor de migratie van Microsoft Cloud Deutschland
+title: Aanvullende Azure Active Directory voor de migratie van Microsoft Cloud Deutschland
 ms.author: andyber
 author: andybergen
 manager: laurawi
@@ -17,7 +17,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - Ent_TLGs
-description: 'Overzicht: Aanvullende Azure Active Directory-informatie bij het verplaatsen van Microsoft Cloud Germany (Microsoft Cloud Deutschland) naar Office 365-services in de nieuwe Duitse datacenterregio.'
+description: 'Overzicht: Aanvullende Azure Active Directory informatie bij het verplaatsen van Microsoft Cloud Germany (Microsoft Cloud Deutschland) naar Office 365 services in de nieuwe Duitse datacenterregio.'
 ms.openlocfilehash: 1e3871dc5a8a8a9ecbef29df21431aa3707871d0
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -25,19 +25,19 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50923848"
 ---
-# <a name="additional-azure-active-directory-information-for-the-migration-from-microsoft-cloud-deutschland"></a>Aanvullende Azure Active Directory-informatie voor de migratie van Microsoft Cloud Deutschland
+# <a name="additional-azure-active-directory-information-for-the-migration-from-microsoft-cloud-deutschland"></a>Aanvullende Azure Active Directory voor de migratie van Microsoft Cloud Deutschland
 
-Als u de overstap van de Azure German-cloud naar de openbare Azure-cloud wilt voltooien, wordt u aangeraden dat het eindpunt voor verificatie, Azure Active Directory (Azure AD) Graph en MS Graph voor uw toepassingen worden bijgewerkt naar die van de commerciële cloud wanneer het OIDC-eindpunt (OpenID Connect) commerciële cloud-eindpunten begint te `https://login.microsoftonline.com/\<TenantIdOrDomain\>/.well-known/openid-configuration` rapporteren. 
+Als u de overstap van de Azure German-cloud naar de openbare Azure-cloud wilt voltooien, raden we u aan dat het eindpunt voor verificatie, Azure Active Directory (Azure AD) Graph en MS Graph-eindpunten voor uw toepassingen worden bijgewerkt naar die van de commerciële cloud wanneer het OpenID Verbinding maken-eindpunt (OIDC) (OpenID) wordt gestart met het rapporteren van commerciële `https://login.microsoftonline.com/\<TenantIdOrDomain\>/.well-known/openid-configuration` cloud-eindpunten. 
  
 **Wanneer moet ik deze wijziging aan brengen?**
 
-U ontvangt een melding in de Azure/Office-portal wanneer uw tenant de migratie van de Duitse cloud naar de commerciële cloud voltooit. U hebt 30 dagen na het ontvangen van deze melding de tijd om deze updates te voltooien, zodat uw app blijft werken voor tenants die zijn gemigreerd vanuit de Azure Germany-cloud naar Azure Public Cloud.
+U ontvangt een melding in Azure/Office portal wanneer uw tenant de migratie van de Duitse cloud naar de commerciële cloud voltooit. U hebt 30 dagen na het ontvangen van deze melding de tijd om deze updates te voltooien, zodat uw app blijft werken voor tenants die zijn gemigreerd vanuit de Azure Germany-cloud naar Azure Public Cloud.
  
 Er zijn drie voorwaarden voor het bijwerken van uw aanmeldingsinstantie:
 
  - OIDC discovery endpoint for your tenant returns Azure AD public cloud endpoints.OIDC discovery endpoint for your tenant `https://login.microsoftonline.com/\<TenantIdOrDomain\>/.well-known/openid-configuration` returns Azure AD public cloud endpoints.
 
- - Als uw tenant is ingesteld voor federatie, wordt Active Directory Federation Services (AD FS) bijgewerkt om te synchroniseren met Azure AD Public. U kunt instructies volgen voor het bijwerken van azure AD Connect-instellingen om deze wijziging aan te brengen.
+ - Als uw tenant is ingesteld voor federatie, wordt Active Directory Federation Services (AD FS) bijgewerkt om te synchroniseren met Azure AD Public. U kunt instructies volgen voor het bijwerken van Azure AD-Verbinding maken instellingen voor het maken van deze wijziging.
 
  - Resourcetoepassingen die door uw toepassingen worden gebruikt, worden gewijzigd om tokens te accepteren die zijn ondertekend door zowel Azure AD Germany als Azure AD Public.
  
@@ -59,16 +59,16 @@ Een toepassing kan een van de volgende opties zijn:
 
 **Wat moet ik bijwerken?**
 
-1. Als u een toepassing host in Azure Germany die wordt gebruikt om Gebruikers van Azure Germany of Office 365 Germany te verifiëren, moet u ervoor zorgen dat deze wordt gebruikt als de autoriteit in de `https://login.microsoftonline.com` verificatiecontext.
+1. Als u een toepassing host in Azure Germany die wordt gebruikt om Gebruikers van Azure Germany Office 365 Duitsland te verifiëren, moet u ervoor zorgen dat deze wordt gebruikt als de autoriteit in de `https://login.microsoftonline.com` verificatiecontext.
 
     - Zie Azure AD-verificatiecontexten.
     - Dit geldt zowel voor verificatie voor uw toepassing als voor verificatie voor api's die door uw toepassing worden gebeld (dat wil zeggen Microsoft Graph, Azure AD Graph, Azure Resource Manager).
 
-2. Update Azure AD Graph endpoint to be `https://graph.windows.net` .
+2. Werk Azure AD Graph eindpunt bij `https://graph.windows.net` als .
 
-3. Ms Graph-eindpunt bijwerken als `https://graph.microsoft.com` .
+3. Ms-Graph eindpunt bijwerken als `https://graph.microsoft.com` .
 
-4. Werk alle Duitse cloud-eindpunten bij (zoals die voor Exchange Online en SharePoint Online) die door uw toepassingen worden gebruikt om die van de openbare cloud te zijn.
+4. Werk alle Duitse cloud-eindpunten bij (zoals die voor Exchange Online en SharePoint Online) die door uw toepassingen worden gebruikt als die van de openbare cloud.
 
 5. Omgevingsparameters bijwerken `AzurePublic` die moeten worden `AzureGermany` (in plaats van) in beheerhulpmiddelen en scripts voor:
 
@@ -95,35 +95,35 @@ Hier zijn enkele extra aandachtspunten voor Azure AD:
 
   - Het maken van IPv6-netwerken werkt niet in de Azure-portal, `http://portal.microsoftazure.de/` . Gebruik de Azure-portal bij `https://portal.azure.com` om IPv6-netwerken te maken.
  
-   - U kunt geen vertrouwde IP-adresbereiken maken voor MFA-serviceinstellingen (Azure Multi-Factor Authentication) vanuit de Microsoft Cloud Deutschland-portal. Gebruik de Azure AD-portal voor Office 365-services om vertrouwde IP-adresbereiken voor Azure MFA te maken.
+   - U kunt geen vertrouwde IP-adresbereiken maken voor MFA-serviceinstellingen (Azure Multi-Factor Authentication) vanuit de Microsoft Cloud Deutschland-portal. Gebruik de Azure AD-portal voor Office 365 services om vertrouwde IP-adresbereiken voor Azure MFA te maken.
 
 
 - Voor voorwaardelijke toegang: 
 
-  - Beleid voor voorwaardelijke toegang met de volgende grant-besturingselementen wordt pas ondersteund nadat de migratie naar Office 365-services is voltooid (na de fase [Azure AD-migratie](ms-cloud-germany-transition.md#how-is-the-migration-organized) voltooien):
+  - Beleid voor voorwaardelijke toegang met de volgende grant-besturingselementen wordt pas ondersteund nadat de migratie naar Office 365 services is voltooid (na de fase [Azure AD-migratie](ms-cloud-germany-transition.md#how-is-the-migration-organized) voltooien):
 
     - Compatibel apparaat vereisen
     - Goedgekeurde app vereisen
     - App-beveiligingsbeleid vereisen
     
-  - De beleidsinterface Voorwaardelijke toegang geeft een foutieve waarschuwing over beveiligings defaults die zijn ingeschakeld voor de tenant, zelfs wanneer deze is uitgeschakeld en beleid voor voorwaardelijke toegang al bestaat voor de tenant. U moet de waarschuwing negeren of de Office 365-servicesportal gebruiken om beleidsregels voor voorwaardelijke toegang te beheren. 
+  - De beleidsinterface Voorwaardelijke toegang geeft een foutieve waarschuwing over beveiligings defaults die zijn ingeschakeld voor de tenant, zelfs wanneer deze is uitgeschakeld en beleid voor voorwaardelijke toegang al bestaat voor de tenant. U moet de waarschuwing negeren of de serviceportal Office 365 gebruiken om beleidsregels voor voorwaardelijke toegang te beheren. 
 
 - Intune-scenario's worden alleen ondersteund tegen wereldwijde eindpunten nadat de tenantmigratie is voltooid, inclusief alle migraties van office-werkbelastingen.
 
-- Gebruikers van Microsoft Cloud Deutschland die de methode Mobile App Notification gebruiken voor MFA-aanvragen, zien de ObjectId (een GUID) van de gebruiker in plaats van de gebruikersnaam (UPN) in de Microsoft Authenticator-app. Nadat de migratie van de Azure AD-tenant is voltooid en wordt gehost in Office 365-services, worden de UPN's van gebruikers weergegeven met nieuwe Microsoft Authenticator-activeringen. Bestaande Microsoft Authenticator-accounts blijven de gebruiker ObjectId weergeven, maar ze blijven werken voor meldingen van mobiele apps. 
+- Gebruikers van Microsoft Cloud Deutschland die de methode Mobile App Notification gebruiken voor MFA-aanvragen, zien de ObjectId (een GUID) van de gebruiker in plaats van de naam van de gebruikershoofdnaam (UPN) in de Microsoft Authenticator app. Nadat de migratie van de Azure AD-tenant is voltooid en wordt gehost in Office 365 services, worden Microsoft Authenticator activeringen van gebruikers weergegeven. Bestaande Microsoft Authenticator accounts blijven de gebruiker ObjectId weergeven, maar ze blijven werken voor meldingen van mobiele apps. 
 
-- Voor tenants die na 22 oktober 2019 zijn gemaakt, zijn beveiligingsinstellingen mogelijk automatisch ingeschakeld voor de tenant wanneer deze wordt gemigreerd naar de Office 365-service. Tenantbeheerders kunnen ervoor kiezen om beveiligingsinstellingen ingeschakeld te laten en zich te registreren voor MFA, of ze kunnen de functie uitschakelen. Zie Beveiligingsinstellingen uitschakelen voor meer [informatie.](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults#disabling-security-defaults) 
+- Voor tenants die na 22 oktober 2019 zijn gemaakt, kunnen beveiligings defaults automatisch worden ingeschakeld voor de tenant wanneer deze wordt gemigreerd naar de Office 365 service. Tenantbeheerders kunnen ervoor kiezen om beveiligingsinstellingen ingeschakeld te laten en zich te registreren voor MFA, of ze kunnen de functie uitschakelen. Zie Beveiligingsinstellingen uitschakelen voor meer [informatie.](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults#disabling-security-defaults) 
 
   > [!NOTE]
-  > Organisaties die niet automatisch zijn ingeschakeld tijdens de migratie, kunnen in de toekomst nog steeds automatisch worden geregistreerd, omdat de functie voor het inschakelen van beveiligings defaults wordt uitgerold in de Office 365-service. Beheerders die ervoor kiezen om beveiligingsinstellingen expliciet uit te schakelen of in te schakelen, kunnen dit doen door de functie bij te werken onder **Azure Active Directory > Properties**. Nadat de functie expliciet is ingeschakeld door de beheerder, wordt deze niet automatisch ingeschakeld.
+  > Organisaties die niet automatisch zijn ingeschakeld tijdens de migratie, kunnen in de toekomst nog steeds automatisch worden geregistreerd, omdat de functie voor het inschakelen van beveiligings defaults wordt uitgerold in de Office 365 service. Beheerders die ervoor kiezen om beveiligingsinstellingen expliciet uit te schakelen of in te schakelen, kunnen dit doen door de functie bij te werken onder **Azure Active Directory > Eigenschappen.** Nadat de functie expliciet is ingeschakeld door de beheerder, wordt deze niet automatisch ingeschakeld.
 
-- Er wordt een waarschuwing gegeven over de versie van Azure AD Connect in de Office 365 Germany-portal en in de Office 365-portal zodra de tenant is gemigratied. Dit kan worden genegeerd als de waarschuwing voor de versie niet meer wordt weergegeven nadat de migratie is voltooid. Als er een waarschuwing is, vóór of na de migratie, moet Azure AD Connect in een van de portalen worden bijgewerkt. In het waarschuwingsbericht staat: 'We hebben gedetecteerd dat u een verouderd hulpprogramma voor adreslijstsynchronisatie gebruikt. U wordt aangeraden naar het Microsoft Downloadcentrum te gaan om de nieuwste versie van Azure AD Connect te downloaden.
+- Er wordt een waarschuwing gegeven over de versie van Azure AD Verbinding maken in de Office 365 Germany-portal en in de Office 365 portal zodra de tenant is gemigratied. Dit kan worden genegeerd als de waarschuwing voor de versie niet meer wordt weergegeven nadat de migratie is voltooid. Als er een waarschuwing is, vóór of na de migratie, moet Azure AD Verbinding maken worden bijgewerkt. In het waarschuwingsbericht staat: 'We hebben gedetecteerd dat u een verouderd hulpprogramma voor adreslijstsynchronisatie gebruikt. We raden u aan naar het Microsoft Downloadcentrum te gaan om de nieuwste versie van Azure AD-Verbinding maken.
 
 ## <a name="more-information"></a>Meer informatie
 
 Aan de slag:
 
-- [Migratie van Microsoft Cloud Deutschland naar Office 365-services in de nieuwe Duitse datacenterregio's](ms-cloud-germany-transition.md)
+- [Migratie van Microsoft Cloud Deutschland naar Office 365 services in de nieuwe Duitse datacenterregio's](ms-cloud-germany-transition.md)
 - [Microsoft Cloud Deutschland-migratiehulp](https://aka.ms/germanymigrateassist)
 - [Opt-in voor migratie](ms-cloud-germany-migration-opt-in.md)
 - [Klantervaring tijdens de migratie](ms-cloud-germany-transition-experience.md)
@@ -137,5 +137,5 @@ Door de overgang lopen:
 Cloud-apps:
 
 - [Dynamics 365-migratieprogrammagegevens](/dynamics365/get-started/migrate-data-german-region)
-- [Informatie over power bi-migratieprogramma's](/power-bi/admin/service-admin-migrate-data-germany)
-- [Aan de slag met uw Microsoft Teams-upgrade](/microsoftteams/upgrade-start-here)
+- [Power BI migratieprogrammagegevens](/power-bi/admin/service-admin-migrate-data-germany)
+- [Aan de slag met uw Microsoft Teams upgrade](/microsoftteams/upgrade-start-here)

@@ -117,7 +117,7 @@ Microsoft 365 groepen werken met Azure Active Directory. Welke groepsfuncties u 
 > Als u een Azure AD-Premium-abonnement hebt voor alle groepen, kunnen gebruikers deelnemen aan de groep, ongeacht of ze een AAD P1-licentie hebben toegewezen. Licenties worden niet afgedwongen.
 > Periodiek genereren we gebruiksrapporten waarin wordt verteld welke gebruikers een licentie missen en hebben we er een nodig die aan hen is toegewezen om te voldoen aan de licentievereisten. Stel dat een gebruiker geen licentie heeft en wordt toegevoegd aan een groep waarin het naamgevingsbeleid wordt afgedwongen. Het rapport geeft aan dat ze een licentie nodig hebben.
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Meer informatie over Microsoft 365 Groepen](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2) (artikel)\
 [Distributielijsten upgraden naar Microsoft 365 Groepen](../manage/upgrade-distribution-lists.md) (artikel)\

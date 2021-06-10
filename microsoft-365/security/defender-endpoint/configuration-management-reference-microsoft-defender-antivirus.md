@@ -43,7 +43,7 @@ U kunt uw Microsoft Defender Antivirus met de volgende hulpmiddelen beheren en c
 
 De volgende artikelen bevatten meer informatie, koppelingen en bronnen voor het gebruik van deze hulpprogramma's voor het beheren en configureren van Microsoft Defender Antivirus.
 
-| Artikel | Omschrijving |
+| Artikel | Beschrijving |
 |:---|:---|
 |[Beheer Microsoft Defender Antivirus met Microsoft Intune en Microsoft Endpoint Configuration Manager](use-intune-config-manager-microsoft-defender-antivirus.md)|Informatie over het gebruik van Intune en Configuration Manager voor het implementeren, beheren, rapporteren en configureren van Microsoft Defender Antivirus |
 |[Beheer Microsoft Defender Antivirus met groepsbeleidsinstellingen](use-group-policy-microsoft-defender-antivirus.md)|Lijst met alle groepsbeleidsinstellingen in ADMX-sjablonen |

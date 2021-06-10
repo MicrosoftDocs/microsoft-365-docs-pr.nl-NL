@@ -48,7 +48,7 @@ De Windows-beveiliging app is een clientinterface op Windows 10, versie 1703 en 
 
 ## <a name="review-virus-and-threat-protection-settings-in-the-windows-security-app"></a>Instellingen voor virus- en bedreigingsbeveiliging in de Windows-beveiliging controleren
 
-![Schermafbeelding van het label & beveiligingsinstellingen voor virussen in de Windows-beveiliging app](images/defender/wdav-protection-settings-wdsc.png)
+![Schermafbeelding van het instellingenlabel voor virus- en bedreigingsbeveiliging in de app voor Windows-beveiliging](images/defender/wdav-protection-settings-wdsc.png)
 
 1. Open de Windows-beveiliging app door op het schildpictogram in de taakbalk te klikken of door te zoeken in het startmenu voor **Defender.**
 
@@ -57,7 +57,7 @@ De Windows-beveiliging app is een clientinterface op Windows 10, versie 1703 en 
 In de volgende secties wordt beschreven hoe u enkele van de meest voorkomende taken uitvoert bij het controleren of werken met de bedreigingsbeveiliging die door Microsoft Defender Antivirus in de Windows-beveiliging app.
 
 > [!NOTE]
-> Als deze instellingen zijn geconfigureerd en geïmplementeerd met groepsbeleid, zijn de instellingen die in deze sectie worden beschreven grijs en niet beschikbaar voor gebruik op afzonderlijke eindpunten. Wijzigingen die zijn aangebracht via een groepsbeleidsobject, moeten eerst worden geïmplementeerd op afzonderlijke eindpunten voordat de instelling wordt bijgewerkt in Windows Instellingen. In [het onderwerp Interactie tussen eindgebruikers configureren Microsoft Defender Antivirus](configure-end-user-interaction-microsoft-defender-antivirus.md) wordt beschreven hoe lokale beleidsinstellingen kunnen worden geconfigureerd.
+> Als deze instellingen zijn geconfigureerd en geïmplementeerd met groepsbeleid, zijn de instellingen die in deze sectie worden beschreven grijs en niet beschikbaar voor gebruik op afzonderlijke eindpunten. Wijzigingen die zijn aangebracht via een groepsbeleidsobject, moeten eerst worden geïmplementeerd op afzonderlijke eindpunten voordat de instelling wordt bijgewerkt in de Windows-instellingen. In [het onderwerp Interactie tussen eindgebruikers configureren Microsoft Defender Antivirus](configure-end-user-interaction-microsoft-defender-antivirus.md) wordt beschreven hoe lokale beleidsinstellingen kunnen worden geconfigureerd.
 
 ## <a name="run-a-scan-with-the-windows-security-app"></a>Een scan uitvoeren met de Windows-beveiliging app
 

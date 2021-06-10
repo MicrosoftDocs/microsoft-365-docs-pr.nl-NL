@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 3ca429ca1fea125450fdbb8d1f3a0e3a745513d8
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 56d4ac95ab49310cc5fc74168158672e7a0d65d1
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245694"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843220"
 ---
 # <a name="attack-surface-reduction-frequently-asked-questions-faq"></a>Veelgestelde vragen over surface reduction attack
 
@@ -127,7 +127,7 @@ Houd de regel ongeveer 30 dagen in de auditmodus om een goede basislijn te krijg
 
 ## <a name="im-making-the-switch-from-a-third-party-security-solution-to-defender-for-endpoint-is-there-an-easy-way-to-export-rules-from-another-security-solution-to-asr"></a>Ik maak de overstap van een beveiligingsoplossing van derden naar Defender voor Eindpunt. Is er een 'eenvoudige' manier om regels van een andere beveiligingsoplossing naar ASR te exporteren?
 
-In de meeste gevallen is het gemakkelijker en beter om te beginnen met de basislijnaanbevelingen die [door Defender](https://docs.microsoft.com/windows/security/threat-protection) voor Eindpunt worden voorgesteld, dan om te proberen regels te importeren uit een andere beveiligingsoplossing. Gebruik vervolgens hulpprogramma's zoals auditmodus, monitoring en analyse om uw nieuwe oplossing te configureren die aan uw unieke behoeften is aangepast. 
+In de meeste gevallen is het gemakkelijker en beter om te beginnen met de basislijnaanbevelingen die [door Defender](/windows/security/threat-protection) voor Eindpunt worden voorgesteld, dan om te proberen regels te importeren uit een andere beveiligingsoplossing. Gebruik vervolgens hulpprogramma's zoals auditmodus, monitoring en analyse om uw nieuwe oplossing te configureren die aan uw unieke behoeften is aangepast. 
 
 De standaardconfiguratie voor de meeste ASR-regels, gecombineerd met de real-time beveiliging van Defender voor Endpoint, beschermt tegen een groot aantal exploits en beveiligingslekken.
 
@@ -135,7 +135,7 @@ Vanuit Defender voor Eindpunt kunt u uw verdediging bijwerken met aangepaste ind
 
 ## <a name="does-asr-support-file-or-folder-exclusions-that-include-system-variables-and-wildcards-in-the-path"></a>Ondersteunt ASR bestands- of mapuitsluitingen die systeemvariabelen en jokertekens in het pad bevatten?
 
-Ja. Zie Bestanden en mappen uitsluiten van [ASR-regels](enable-attack-surface-reduction.md#exclude-files-and-folders-from-asr-rules) voor meer informatie over het uitsluiten van bestanden of mappen van ASR-regels en Het configureren en valideren van uitsluitingen op basis van bestandsextensie en maplocatie voor meer informatie over het gebruik van systeemvariabelen en jokertekens in uitgesloten [bestandspaden.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-extension-file-exclusions-microsoft-defender-antivirus#use-wildcards-in-the-file-name-and-folder-path-or-extension-exclusion-lists)
+Ja. Zie Bestanden en mappen uitsluiten van [ASR-regels](enable-attack-surface-reduction.md#exclude-files-and-folders-from-asr-rules) voor meer informatie over het uitsluiten van bestanden of mappen van ASR-regels en Het configureren en valideren van uitsluitingen op basis van bestandsextensie en maplocatie voor meer informatie over het gebruik van systeemvariabelen en jokertekens in uitgesloten [bestandspaden.](/windows/security/threat-protection/microsoft-defender-antivirus/configure-extension-file-exclusions-microsoft-defender-antivirus#use-wildcards-in-the-file-name-and-folder-path-or-extension-exclusion-lists)
 
 ## <a name="do-asr-rules-cover-all-applications-by-default"></a>Gelden ASR-regels standaard voor alle toepassingen?
 
@@ -175,14 +175,14 @@ Omdat veel legitieme processen gedurende een normale dag een beroep doen op lsas
 
 ## <a name="is-it-a-good-idea-to-enable-the-rule-block-credential-stealing-from-the-windows-local-security-authority-subsystem-lsassexe-alongside-lsa-protection"></a>Is het een goed idee om de regel, Het stelen van referenties blokkeren van het Windows subsysteem van de lokale beveiligingsinstantie *(lsass.exe)* in te stellen, naast LSA-beveiliging?
 
-Het inschakelen van deze regel biedt geen extra beveiliging als [U ook LSA-beveiliging](https://docs.microsoft.com/windows-server/security/credentials-protection-and-management/configuring-additional-lsa-protection#BKMK_HowToConfigure) hebt ingeschakeld. Zowel de regel als de LSA-beveiliging werken op vrijwel dezelfde manier, dus beide tegelijk uitvoeren is overbodig. Soms kunt u echter geen LSA-beveiliging inschakelen. In die gevallen kunt u deze regel inschakelen om vergelijkbare bescherming te bieden tegen malware die lsass.exe.
+Het inschakelen van deze regel biedt geen extra beveiliging als [U ook LSA-beveiliging](/windows-server/security/credentials-protection-and-management/configuring-additional-lsa-protection#BKMK_HowToConfigure) hebt ingeschakeld. Zowel de regel als de LSA-beveiliging werken op vrijwel dezelfde manier, dus beide tegelijk uitvoeren is overbodig. Soms kunt u echter geen LSA-beveiliging inschakelen. In die gevallen kunt u deze regel inschakelen om vergelijkbare bescherming te bieden tegen malware die lsass.exe.
 
 ## <a name="see-also"></a>Zie ook
 
 * [Overzicht van de surface reduction van attack](attack-surface-reduction.md)
-* [Regels voor het verminderen van aanvalsoppervlakken evalueren](evaluate-attack-surface-reduction.md)
+* [Regels voor het verminderen van kwetsbaarheid voor aanvallen evalueren](evaluate-attack-surface-reduction.md)
 * [Regels voor het verminderen van aanvalsoppervlakken aanpassen](customize-attack-surface-reduction.md)
 * [Regels voor het verminderen van aanvalsoppervlakken inschakelen](enable-attack-surface-reduction.md)
-* [Compatibiliteit van Microsoft Defender met andere antivirus-/antimalware](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)
+* [Compatibiliteit van Microsoft Defender met andere antivirus-/antimalware](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)
 
 

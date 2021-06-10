@@ -159,9 +159,9 @@ U kunt het type scan opgeven dat moet worden uitgevoerd tijdens een geplande sca
 
 3. Stel het beleid in **op Ingeschakeld** en selecteer onder **Opties** de optie **Snel scannen.**
 
-4. Selecteer **OK**. 
+4. Kies **OK**. 
 
-5. Implementeer het groepsbeleidsobject zoals u gewoonlijk doet.
+5. Implementeer uw groepsbeleidsobject zoals u dat gewoonlijk doet.
 
 ## <a name="prevent-notifications"></a>Meldingen voorkomen
 
@@ -173,7 +173,7 @@ Soms kunnen Microsoft Defender Antivirus meldingen worden verzonden naar of blij
 
 3. Stel het beleid in **op Ingeschakeld** en selecteer **OK.**
 
-4. Implementeer het groepsbeleidsobject zoals u gewoonlijk doet.
+4. Implementeer uw groepsbeleidsobject zoals u dat gewoonlijk doet.
 
 Het onderdrukken van meldingen voorkomt dat meldingen Microsoft Defender Antivirus worden weergegeven in het Actiecentrum op Windows 10 wanneer scans worden uitgevoerd of herstelacties worden uitgevoerd. Uw beveiligingsbewerkingsteam ziet echter de resultaten van de scan in de Microsoft Defender-beveiligingscentrum ( [https://securitycenter.windows.com](https://securitycenter.windows.com) ).
 
@@ -196,9 +196,9 @@ Als u een scan na een update uit kunt uitschakelen, wordt voorkomen dat er een s
 
 3. Stel het beleid in op **Uitgeschakeld.**
 
-4. Selecteer **OK**.
+4. Kies **OK**.
 
-5. Implementeer het groepsbeleidsobject zoals u gewoonlijk doet.
+5. Implementeer uw groepsbeleidsobject zoals u dat gewoonlijk doet.
 
 Met dit beleid wordt voorkomen dat een scan direct na een update wordt uitgevoerd.
 

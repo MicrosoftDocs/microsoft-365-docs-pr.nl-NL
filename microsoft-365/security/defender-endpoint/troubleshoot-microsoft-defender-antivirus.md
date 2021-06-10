@@ -812,10 +812,10 @@ Microsoft Defender Antivirus heeft een verdacht gedrag gedetecteerd.<br/>Zie de 
 <dt>Domein &lt; &gt; \& lt; Naam &gt; </dt>
 <dt>van gebruikersproces: &lt; proces &gt; in de PID-handtekening-id:</dt>de ernst van de gegevens die
 <dt>overeenkomen met de ernst van de gegevens.</dt> 
-<dt>Handtekeningversie: &lt; Definition &gt; version</dt>
-<dt>Engine Version: &lt; Antimalware Engine version &gt; </dt>
+<dt>Handtekeningversie: &lt; Definitieversie &gt; </dt>
+<dt>Engine Version: &lt; Antimalware Engine &gt; versie</dt>
 <dt>Fidelity Label:</dt>
-<dt>Target File Name: File name of the &lt; &gt; file.</dt>
+<dt>Doelbestandsnaam: &lt; &gt; Bestandsnaam van het bestand.</dt>
 </dl>
 </td>
 </tr>
@@ -842,7 +842,7 @@ Bericht:
 Beschrijving:
 </td>
 <td >
-Microsoft Defender Antivirus heeft malware of andere mogelijk ongewenste software gedetecteerd.<br/>Zie de volgende onderwerpen voor meer informatie:
+Microsoft Defender Antivirus malware of andere mogelijk ongewenste software heeft gedetecteerd.<br/>Zie de volgende onderwerpen voor meer informatie:
 <dl>
 <dt>Naam: &lt; Bedreigingsnaam-id: &gt; </dt>Ernst van
 <dt> &lt; &gt; bedreigings-id:</dt> 
@@ -885,8 +885,8 @@ Microsoft Defender Antivirus heeft malware of andere mogelijk ongewenste softwar
 </dt>
 <dt>UAC-gebruiker: &lt; Domein &gt; \& lt; &gt;Gebruikersnaam:</dt>
 <dt>Proces in de &lt; &gt; pid-handtekeningversie:</dt>
-<dt> &lt; &gt; Engine-versie</dt>van
-<dt>definitieversie: Versie &lt; antimalware-engine &gt; </dt>
+<dt> &lt; engineversie van &gt; </dt>
+<dt>definitieversie: Antimalware Engine &lt; versie &gt; </dt>
 </dl>
 </td>
 </tr>
@@ -895,7 +895,7 @@ Microsoft Defender Antivirus heeft malware of andere mogelijk ongewenste softwar
 Gebruikersactie:
 </td>
 <td >
-Er is geen actie vereist. Microsoft Defender Antivirus kan deze bedreiging opschorten en routinematige actie ondernemen. Als u de bedreiging handmatig wilt verwijderen, klikt u in de Microsoft Defender Antivirus-interface op <b>Computer reinigen.</b>
+Er is geen actie vereist. Microsoft Defender Antivirus kan deze bedreiging opschorten en routinematige actie ondernemen. Als u de bedreiging handmatig wilt verwijderen, klikt u in Microsoft Defender Antivirus interface op <b>Computer reinigen.</b>
 </td>
 </tr>
 <tr>
@@ -1355,18 +1355,18 @@ Rapport over de status van de antivirusclient.
 <dt>Platformversie: &lt; Huidige platformversie &gt; </dt>Engine
 <dt>Version: &lt; Antimalware Engine &gt; </dt>version
 <dt>Network Realtime Inspection engine &lt; &gt; version: Network Realtime Inspection</dt>engine Antivirus signature
-<dt>version: Antivirus &lt; signature &gt; </dt>version
+<dt>version: Antivirus &lt; &gt; signature</dt>version
 <dt>Antispyware signature version: &lt; &gt; </dt>
 <dt> &lt; &gt; </dt>Antispyware signature version Network Realtime Inspection signature version: Network Realtime Inspection signature version
-<dt>RTP state: &lt; Realtime protection state &gt; (Enabled or Disabled)</dt>
-<dt>OA state: On Access state &lt; &gt; (Enabled</dt>or Disabled)
-<dt>IOAV state: IE Downloads and IE Downloads and &lt; Outlook Express Attachments state &gt; (Enabled</dt>or Disabled) BM
-<dt>state: Behavior Monitoring state &lt; &gt; (Enabled or Disabled)</dt>Antivirus signature
-<dt>age: Antivirus signature age &lt; &gt; (in days)</dt>
-<dt>Antispyware signature age: Antispyware signature age &lt; &gt; (in days)</dt>Last quick scan age(in days) Last quick scan age
-<dt> &lt; &gt; (in days)</dt>Last full scan age: Last full scan age
-<dt> &lt; &gt; (in days)</dt>Antivirus signature creation
-<dt>time: ? &lt; Tijd voor &gt; het maken van</dt>
+<dt>RTP state: &lt; Realtime protection state &gt; (Enabled of Uitgeschakeld)</dt>OA-status: Status VAN Access (ingeschakeld of
+<dt> &lt; &gt; uitgeschakeld)</dt>
+<dt>IOAV-status: IE Downloads and Outlook Express Attachments state &lt; &gt; (Enabled</dt>or Disabled) BM
+<dt>state: Behavior Monitoring state &lt; &gt; (Enabled</dt>or Disabled) Antivirus signature age: Antivirus signature
+<dt>age &lt; &gt; (in days) </dt> 
+<dt>Antispyware signature age: &lt; Antispyware signature age &gt; (in days)</dt>Last quick scan age: Last
+<dt>quick scan age &lt; &gt; (in days)</dt>
+<dt>Last full scan age: Last full scan &lt; age &gt; (in days)</dt>
+<dt>Antivirus signature creation time: ? &lt; Tijd voor &gt; het maken van</dt>
 <dt>antivirushandtekeningen Antispyware-handtekening: ? &lt; Antispyware signature &gt; creation time Last</dt>
 <dt>quick scan start time: ? &lt; Laatste begintijd &gt; snelle scan Laatste</dt>
 <dt>eindtijd snelle scan: ? &lt; &gt;</dt>Laatste eindtijd snelle scan Laatste snelle scanbron: Laatste snelle scanbron
@@ -3115,5 +3115,5 @@ Dit is een interne fout. Het kan zijn geactiveerd wanneer een scan niet kan word
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-- [Rapport over Microsoft Defender Antivirusbeveiliging](report-monitor-microsoft-defender-antivirus.md)
+- [Rapport over Microsoft Defender Antivirus beveiliging](report-monitor-microsoft-defender-antivirus.md)
 - [Microsoft Defender Antivirus in Windows 10](microsoft-defender-antivirus-in-windows-10.md)

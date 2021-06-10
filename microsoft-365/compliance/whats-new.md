@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Of het nu gaat om het toevoegen van nieuwe oplossingen aan het compliancecentrum, het bijwerken van bestaande functies op basis van uw feedback of het implementeren van nieuwe en bijgewerkte documentatie, met Microsoft 365 kunt u het steeds veranderende compliancelandschap in de hand houden. Ontdek wat we deze maand hebben gedaan.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f249108dba279e255efd57ecd56159d3c71dcb4b
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: d312b3ac3c2cb43e05a09936f1e5c07b32c22ef1
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706616"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843244"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Wat is er nieuw in Microsoft 365-compliance
 
@@ -75,7 +75,7 @@ Hier zijn een paar van de wijzigingen in Microsoft 365 complianceoplossingen en 
 
 ### <a name="advanced-ediscovery"></a>Advanced eDiscovery
 
-- **Advanced eDiscovery verzamelingen** ondersteunt nu het [nieuwe hulpprogramma voor verzamelingen en werkstroom.](/microsoft-365/compliance/collections-overview) Andere nieuwe onderwerpen zijn [het maken van een conceptverzameling,](https://docs.microsoft.com/microsoft-365/compliance/create-draft-collection)het maken van een conceptverzameling aan een [revisieset](/microsoft-365/compliance/commit-draft-collection)en [verzamelingsstatistieken en -rapporten.](/microsoft-365/compliance/collection-statistics-reports)
+- **Advanced eDiscovery verzamelingen** ondersteunt nu het [nieuwe hulpprogramma voor verzamelingen en werkstroom.](/microsoft-365/compliance/collections-overview) Andere nieuwe onderwerpen zijn [het maken van een conceptverzameling,](/microsoft-365/compliance/create-draft-collection)het maken van een conceptverzameling aan een [revisieset](/microsoft-365/compliance/commit-draft-collection)en [verzamelingsstatistieken en -rapporten.](/microsoft-365/compliance/collection-statistics-reports)
 - **Documenten in** een revisieset exporteren naar een [Azure Storage](/microsoft-365/compliance/download-export-jobs) account.
 - **Module voor voorspellende codering voor Advanced eDiscovery.** Bekijk eerst de nieuwe [functie voor voorspellende codering](/microsoft-365/compliance/predictive-coding-overview) die de niet-bestaande relevantiemodule vervangt.
 
@@ -169,22 +169,22 @@ Inhoud is toegevoegd of bijgewerkt in de volgende onderwerpen:
 
 Inhoud is toegevoegd of bijgewerkt in de volgende onderwerpen:
 
-- [Meer informatie over Endpoint DLP](https://docs.microsoft.com/microsoft-365/compliance/endpoint-dlp-learn-about)
-- [Send email notifications and show policy tips for DLP policies](https://docs.microsoft.com/microsoft-365/compliance/use-notifications-and-policy-tips) (E-mailmeldingen verzenden en beleidstips tonen voor DLP-beleid)
-- [Meer informatie over Microsoft 365 on-premises scanner voor preventie van gegevensverlies](https://docs.microsoft.com/microsoft-365/compliance/dlp-on-premises-scanner-learn)
-- [Aan de slag met de on-premises scanner voor preventie van gegevensverlies](https://docs.microsoft.com/microsoft-365/compliance/dlp-on-premises-scanner-get-started)
-- [Een DLP-beleid maken om documenten te beveiligen met FCI of andere eigenschappen](https://docs.microsoft.com/microsoft-365/compliance/protect-documents-that-have-fci-or-other-properties)
-- [Preventie van gegevensverlies van eindpunten gebruiken](https://docs.microsoft.com/microsoft-365/compliance/endpoint-dlp-using)
-- [Aan de slag met Eindpunt-DLP (gegevensverlies voor eindpunten)](https://docs.microsoft.com/microsoft-365/compliance/endpoint-dlp-getting-started)
+- [Meer informatie over Endpoint DLP](/microsoft-365/compliance/endpoint-dlp-learn-about)
+- [Send email notifications and show policy tips for DLP policies](/microsoft-365/compliance/use-notifications-and-policy-tips) (E-mailmeldingen verzenden en beleidstips tonen voor DLP-beleid)
+- [Meer informatie over Microsoft 365 on-premises scanner voor preventie van gegevensverlies](/microsoft-365/compliance/dlp-on-premises-scanner-learn)
+- [Aan de slag met de on-premises scanner voor preventie van gegevensverlies](/microsoft-365/compliance/dlp-on-premises-scanner-get-started)
+- [Een DLP-beleid maken om documenten te beveiligen met FCI of andere eigenschappen](/microsoft-365/compliance/protect-documents-that-have-fci-or-other-properties)
+- [Preventie van gegevensverlies van eindpunten gebruiken](/microsoft-365/compliance/endpoint-dlp-using)
+- [Aan de slag met preventie van gegevensverlies van eindpunten](/microsoft-365/compliance/endpoint-dlp-getting-started)
 
 ### <a name="ediscovery"></a>eDiscovery
 
 Inhoud is toegevoegd of bijgewerkt in de volgende onderwerpen:
 
-- [Ontsleuteling in Microsoft 365 eDiscovery-hulpprogramma's](https://docs.microsoft.com/microsoft-365/compliance/ediscovery-decryption)
-- [Trefwoordquery's en zoekvoorwaarden](https://docs.microsoft.com/microsoft-365/compliance/keyword-queries-and-search-conditions#limitations-for-searching-sensitive-data-types)
-- [De uittreding van de module Relevantie in Advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/relevance-module-retirement)
-- [Een script gebruiken om gebruikers toe te voegen aan een wacht in een Hoofd-eDiscovery-zaak](https://docs.microsoft.com/microsoft-365/compliance/use-a-script-to-add-users-to-a-hold-in-ediscovery)
+- [Ontsleuteling in Microsoft 365 eDiscovery-hulpprogramma's](/microsoft-365/compliance/ediscovery-decryption)
+- [Trefwoordquery's en zoekvoorwaarden](/microsoft-365/compliance/keyword-queries-and-search-conditions#limitations-for-searching-sensitive-data-types)
+- [De uittreding van de module Relevantie in Advanced eDiscovery](/microsoft-365/compliance/relevance-module-retirement)
+- [Een script gebruiken om gebruikers toe te voegen aan een wacht in een Hoofd-eDiscovery-zaak](/microsoft-365/compliance/use-a-script-to-add-users-to-a-hold-in-ediscovery)
 
 ### <a name="encryption"></a>Versleuteling
 
@@ -192,30 +192,30 @@ Inhoud is toegevoegd of bijgewerkt in de volgende onderwerpen:
 
 #### <a name="azure-rights-management-service-rms"></a>Azure Rights Management Service (RMS)
 
-- [Door de klant beheerde versleutelingsfuncties](https://docs.microsoft.com/microsoft-365/compliance/office-365-customer-managed-encryption-features)
-- [Exchange Online e-mailversleuteling met AD RMS](https://docs.microsoft.com/microsoft-365/compliance/information-rights-management-in-exchange-online). Ondersteuning voor deze service is afgeschaft. U kunt AD RMS niet meer gebruiken in een Exchange hybride omgeving. In plaats daarvan migreert u naar Azure RMS.
+- [Door de klant beheerde versleutelingsfuncties](/microsoft-365/compliance/office-365-customer-managed-encryption-features)
+- [Exchange Online e-mailversleuteling met AD RMS](/microsoft-365/compliance/information-rights-management-in-exchange-online). Ondersteuning voor deze service is afgeschaft. U kunt AD RMS niet meer gebruiken in een Exchange hybride omgeving. In plaats daarvan migreert u naar Azure RMS.
 
 #### <a name="customer-key"></a>Klantsleutel
 
-- [Klantcode voor Microsoft 365 op tenantniveau](https://docs.microsoft.com/microsoft-365/compliance/customer-key-tenant-level)
-- [Overzicht van beveiliging en naleving](https://docs.microsoft.com/microsoftteams/security-compliance-overview)
+- [Klantcode voor Microsoft 365 op tenantniveau](/microsoft-365/compliance/customer-key-tenant-level)
+- [Overzicht van beveiliging en naleving](/microsoftteams/security-compliance-overview)
 
 #### <a name="information-rights-management-irm"></a>Information Rights Management (IRM)
 
-- [IRM (Information Rights Management) toepassen op een lijst of bibliotheek.](https://docs.microsoft.com/microsoft-365/compliance/configure-irm-to-use-an-on-premises-ad-rms-server) Deze nationale wolken ondersteunen deze instelling niet:
+- [IRM (Information Rights Management) toepassen op een lijst of bibliotheek.](/microsoft-365/compliance/configure-irm-to-use-an-on-premises-ad-rms-server) Deze nationale wolken ondersteunen deze instelling niet:
     - Microsoft Cloud for US Government
     - Microsoft Cloud Germany
     - Azure en Microsoft 365 beheerd door 21Vianet in China)
-- [Configureer IRM om een on-premises AD RMS-server te gebruiken.](https://docs.microsoft.com/microsoft-365/compliance/configure-irm-to-use-an-on-premises-ad-rms-server) Ondersteuning voor deze service in een Exchange hybride omgeving is afgeschaft.
+- [Configureer IRM om een on-premises AD RMS-server te gebruiken.](/microsoft-365/compliance/configure-irm-to-use-an-on-premises-ad-rms-server) Ondersteuning voor deze service in een Exchange hybride omgeving is afgeschaft.
 
 ### <a name="sensitive-information-types"></a>Gevoelige informatietypen
 
 Inhoud is toegevoegd of bijgewerkt in de volgende onderwerpen:
 
-- [Meer informatie over typen gevoelige informatie](https://docs.microsoft.com/microsoft-365/compliance/sensitive-information-type-learn-about)
-- [Een aangepast type voor vertrouwelijke gegevens maken met PowerShell](https://docs.microsoft.com/microsoft-365/compliance/create-a-custom-sensitive-information-type-in-scc-powershell)
-- [Een aangepaste gevoelige informatietypen maken met een classificatie op basis van Exacte gegevensmatch](https://docs.microsoft.com/microsoft-365/compliance/create-custom-sensitive-information-types-with-exact-data-match-based-classification)
-- [Definities van entiteiten van het type vertrouwelijke gegevens](https://docs.microsoft.com/microsoft-365/compliance/sensitive-information-type-entity-definitions)
+- [Meer informatie over typen gevoelige informatie](/microsoft-365/compliance/sensitive-information-type-learn-about)
+- [Een aangepast type voor vertrouwelijke gegevens maken met PowerShell](/microsoft-365/compliance/create-a-custom-sensitive-information-type-in-scc-powershell)
+- [Een aangepaste gevoelige informatietypen maken met een classificatie op basis van Exacte gegevensmatch](/microsoft-365/compliance/create-custom-sensitive-information-types-with-exact-data-match-based-classification)
+- [Definities van entiteiten van het type vertrouwelijke gegevens](/microsoft-365/compliance/sensitive-information-type-entity-definitions)
 
 
 ### <a name="sensitivity-labels"></a>Vertrouwelijkheidslabels

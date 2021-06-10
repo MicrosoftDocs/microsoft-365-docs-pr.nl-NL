@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender voor eindpunt evalueren
+title: Microsoft Defender voor Eindpunt evalueren
 ms.reviewer: ''
 description: Evalueer de verschillende beveiligingsmogelijkheden in Microsoft Defender voor Eindpunt.
 keywords: attack surface reduction, evaluate, next, generation, protection
@@ -17,19 +17,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: d13f13872954978a14454d8f3c0e66970606bd21
-ms.sourcegitcommit: 8685b0f7d53c99577fa65144ab60295dfa60f46f
+ms.openlocfilehash: e7f065c5f42b62885c3c0fde7b402490f86ec2ba
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51218781"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843196"
 ---
-# <a name="evaluate-microsoft-defender-for-endpoint"></a>Microsoft Defender voor eindpunt evalueren 
+# <a name="evaluate-microsoft-defender-for-endpoint"></a>Microsoft Defender voor Eindpunt evalueren 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-enablesiem-abovefoldlink)
@@ -48,14 +48,14 @@ Deze mogelijkheden helpen voorkomen dat aanvallen en misbruik uw organisatie kun
 - [Exploitbeveiliging evalueren](./evaluate-exploit-protection.md)
 - [Netwerkbeveiliging evalueren](./evaluate-exploit-protection.md)
 - [Beheerde maptoegang evalueren](./evaluate-controlled-folder-access.md)
-- [Toepassingsbeveiliger evalueren](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-application-guard/test-scenarios-md-app-guard)
-- [Netwerkfirewall evalueren](https://docs.microsoft.com/windows/security/threat-protection/windows-firewall/evaluating-windows-firewall-with-advanced-security-design-examples)
+- [Toepassingsbeveiliger evalueren](/windows/security/threat-protection/microsoft-defender-application-guard/test-scenarios-md-app-guard)
+- [Netwerkfirewall evalueren](/windows/security/threat-protection/windows-firewall/evaluating-windows-firewall-with-advanced-security-design-examples)
 
 ## <a name="evaluate-next-generation-protection"></a>Beveiliging van de volgende generatie evalueren
 
 Beveiligingen van de volgende generatie helpen bij het opsporen en blokkeren van de meest recente bedreigingen.
 
-- [Antivirus evalueren](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/evaluate-microsoft-defender-antivirus)
+- [Antivirus evalueren](/windows/security/threat-protection/microsoft-defender-antivirus/evaluate-microsoft-defender-antivirus)
 
 ## <a name="see-also"></a>Zie ook
 

@@ -187,7 +187,7 @@ De [samenvattende operator](/azure/data-explorer/kusto/query/summarizeoperator) 
 ## <a name="query-scenarios"></a>Queryscenario's
 
 ### <a name="identify-unique-processes-with-process-ids"></a>Unieke processen identificeren met proces-eds
-Proces-ID's (PID's) worden in Windows hergebruikt en opnieuw gebruikt voor nieuwe processen. Op zichzelf kunnen ze niet fungeren als unieke id's voor specifieke processen.
+Proces-ID's (PID's) worden in de Windows hergebruikt voor nieuwe processen. Op zichzelf kunnen ze niet fungeren als unieke id's voor specifieke processen.
 
 Als u een unieke id wilt krijgen voor een proces op een specifieke computer, gebruikt u de proces-id samen met de tijd voor het maken van het proces. Wanneer u gegevens rond processen bij elkaar voegt of samenvatten, kunt u kolommen opnemen voor de machine-id (of), de proces-id (of), en de tijd voor het maken `DeviceId` `DeviceName` van het proces `ProcessId` `InitiatingProcessId` `ProcessCreationTime` (of `InitiatingProcessCreationTime` )
 
@@ -265,7 +265,7 @@ Er zijn verschillende functies die u kunt gebruiken om efficiënt om te gaan met
 Als u meer wilt weten over alle ondersteunde parsingsfuncties, [leest u meer over kusto-tekenreeksfuncties.](/azure/data-explorer/kusto/query/scalarfunctions#string-functions) 
 
 >[!NOTE]
->Sommige tabellen in dit artikel zijn mogelijk niet beschikbaar in Microsoft Defender voor Eindpunt. [Schakel Microsoft 365 Defender in om](m365d-enable.md) te zoeken naar bedreigingen met meer gegevensbronnen. U kunt uw geavanceerde zoekwerkstromen verplaatsen van Microsoft Defender voor Eindpunt naar Microsoft 365 Defender door de stappen te volgen in Geavanceerde zoekquery's migreren van [Microsoft Defender voor Eindpunt.](advanced-hunting-migrate-from-mde.md)
+>Sommige tabellen in dit artikel zijn mogelijk niet beschikbaar in Microsoft Defender voor Eindpunt. [Schakel de Microsoft 365 Defender in om](m365d-enable.md) te zoeken naar bedreigingen met behulp van meer gegevensbronnen. U kunt uw geavanceerde zoekwerkstromen verplaatsen van Microsoft Defender voor Eindpunt naar Microsoft 365 Defender door de stappen in Geavanceerde zoekquery's migreren uit [Microsoft Defender voor Eindpunt te volgen.](advanced-hunting-migrate-from-mde.md)
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Documentatie van kustoquerytaal](/azure/data-explorer/kusto/query/)

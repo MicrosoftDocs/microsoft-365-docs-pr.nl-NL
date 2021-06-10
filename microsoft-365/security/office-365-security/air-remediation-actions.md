@@ -72,7 +72,7 @@ Microsoft Defender voor Office 365 bevat herstelacties om verschillende bedreigi
 - [Details en resultaten van een geautomatiseerd onderzoek weergeven in Microsoft Defender voor Office 365](air-view-investigation-results.md)
 - [Lopende of voltooide herstelacties weergeven na een geautomatiseerd onderzoek in Microsoft Defender voor Office 365](air-review-approve-pending-completed-actions.md)
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-articles"></a>Aanverwante artikelen
 
 - [Meer informatie over geautomatiseerd onderzoek in Microsoft Defender voor Eindpunt](/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
 - [Meer informatie over mogelijkheden in Microsoft 365 Defender](/microsoft-365/security/defender/microsoft-365-defender)

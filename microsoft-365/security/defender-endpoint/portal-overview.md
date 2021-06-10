@@ -1,7 +1,7 @@
 ---
 title: Overzicht van de Portal van Microsoft Defender voor Eindpunt
-description: Microsoft Defender Security Center kan uw bedrijfsnetwerk controleren en helpen bij het reageren op mogelijke geavanceerde permanente bedreigingen (APT) of datalekken.
-keywords: Microsoft Defender Security Center, portal, cyberbeveiligingsbedreigingsinformatie, dashboard, waarschuwingenwachtrij, apparatenlijst, instellingen, apparaatbeheer, geavanceerde aanvallen
+description: Microsoft Defender-beveiligingscentrum kunt uw bedrijfsnetwerk controleren en helpen bij het reageren op mogelijke geavanceerde permanente bedreigingen (APT) of datalekken.
+keywords: Microsoft Defender-beveiligingscentrum, portal, cyberbeveiligingsbedreigingsinformatie, dashboard, waarschuwingenwachtrij, apparatenlijst, instellingen, apparaatbeheer, geavanceerde aanvallen
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -23,21 +23,21 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/24/2021
 ms.locfileid: "51186219"
 ---
-# <a name="microsoft-defender-security-center-portal-overview"></a>Overzicht van microsoft Defender Security Center-portal
+# <a name="microsoft-defender-security-center-portal-overview"></a>Portaloverzicht van Microsoft Defender-beveiligingscentrum
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
 >Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink) 
 
-Beveiligingsteams voor ondernemingen kunnen Microsoft Defender-beveiligingscentrum gebruiken om waarschuwingen van potentiële geavanceerde permanente bedreigingsactiviteit of datalekken te controleren en te helpen.
+Beveiligingsteams in het bedrijf kunnen Microsoft Defender-beveiligingscentrum om te controleren en te helpen bij het reageren op waarschuwingen van mogelijke geavanceerde permanente bedreigingsactiviteit of gegevensinbreuken.
 
-U kunt Microsoft [Defender-beveiligingscentrum gebruiken](https://securitycenter.windows.com/) om:
+U kunt de volgende [Microsoft Defender-beveiligingscentrum](https://securitycenter.windows.com/) gebruiken:
 
 - Waarschuwingen weergeven, sorteren en triagen vanaf uw eindpunten
 - Meer informatie zoeken over waargenomen indicatoren, zoals bestanden en IP-adressen
@@ -53,21 +53,21 @@ Wanneer u de portal opent, ziet u:
  ![Microsoft Defender voor endpoint-portal](images/mdatp-portal-overview.png)
 
 > [!NOTE]
-> Malwaregerelateerde detecties worden alleen weergegeven als uw apparaten Microsoft Defender Antivirus gebruiken als het standaard antimalware-product voor realtimebeveiliging.
+> Malwaregerelateerde detecties worden alleen weergegeven als uw apparaten Microsoft Defender Antivirus als het standaard antimalware-product voor realtimebeveiliging.
 
 U kunt door de portal navigeren met de menuopties die beschikbaar zijn in alle secties. Raadpleeg de volgende tabel voor een beschrijving van elke sectie.
 
 Gebied | Beschrijving
 :---|:---
-**(1) Navigatiedeelvenster** | Gebruik het navigatiedeelvenster om te navigeren tussen **Dashboards** **,** Incidenten **,** Lijst apparaten **,** **Waarschuwingenwachtrij**, Geautomatiseerde onderzoeken **,** Geavanceerd zoeken **,** Rapporten , Partners & **API's**, Threat & **Vulnerability Management**, Evaluatie en **zelfstudies**, **Service health**, **Configuratiebeheer** en **Instellingen**. Selecteer de horizontale lijnen boven aan het navigatiedeelvenster om deze weer te geven of te verbergen.
+**(1) Navigatiedeelvenster** | Gebruik het navigatiedeelvenster om te navigeren tussen **Dashboards** **,** Incidenten **,** Lijst apparaten **,** **Waarschuwingenwachtrij**, Geautomatiseerde onderzoeken **,** Geavanceerd zoeken **,** Rapporten , Partners & **API's**, **Threat & Vulnerability Management**, Evaluatie en **zelfstudies**, **Service health**, **Configuratiebeheer** en **Instellingen**. Selecteer de horizontale lijnen boven aan het navigatiedeelvenster om deze weer te geven of te verbergen.
 **Dashboards** | Krijg toegang tot actieve geautomatiseerde onderzoeken, actieve waarschuwingen, statistieken van geautomatiseerde onderzoeken, apparaten met risico's, risicogebruikers, apparaten met sensorproblemen, servicetoestand, detectiebronnen en dashboards voor dagelijkse apparatenrapportage.
 **Incidenten** | Waarschuwingen weergeven die zijn samengevoegd als incidenten.
-**Lijst apparaten** | Hiermee wordt de lijst weergegeven met apparaten die zijn onboarded bij Defender for Endpoint, wat informatie over de apparaten en de blootstellings- en risiconiveaus.
+**Lijst met apparaten** | Hiermee wordt de lijst weergegeven met apparaten die zijn onboarded bij Defender for Endpoint, wat informatie over de apparaten en de blootstellings- en risiconiveaus.
 **Waarschuwingenwachtrij** | Waarschuwingen weergeven die zijn gegenereerd op apparaten in uw organisatie.
 **Geautomatiseerde onderzoeken** | Hiermee worden geautomatiseerde onderzoeken weergegeven die zijn uitgevoerd in het netwerk, met een waarschuwing, de status van elk onderzoek en andere details, zoals wanneer het onderzoek is gestart en de duur van het onderzoek.
 **Geavanceerd opsporen** | Met geavanceerd zoeken kunt u proactief zoeken en onderzoeken in uw organisatie met behulp van een krachtig zoek- en queryhulpmiddel.
 **Rapporten** | Bekijk grafieken met informatie over bedreigingsbeveiliging, apparaattoestand en -naleving, webbeveiliging en kwetsbaarheid.
-**Partners & API's** | Ondersteunde partnerverbindingen weergeven, waarmee de mogelijkheden voor detectie, onderzoek en bedreigingsinformatie van het platform worden verbeterd. U kunt ook verbonden toepassingen, de API-verkenner, het API-gebruiksoverzicht en de instellingen voor gegevensexport bekijken.
+**Partners en API's** | Ondersteunde partnerverbindingen weergeven, waarmee de mogelijkheden voor detectie, onderzoek en bedreigingsinformatie van het platform worden verbeterd. U kunt ook verbonden toepassingen, de API-verkenner, het API-gebruiksoverzicht en de instellingen voor gegevensexport bekijken.
 **Bedreiging & beveiligingsprobleembeheer** | Bekijk uw Microsoft Secure Score voor apparaten, blootstellingsscore, blootgestelde apparaten, kwetsbare software en onderneemt actie op de belangrijkste beveiligingsaanbevelingen.
 **Evaluatie en zelfstudies** | Testapparaten, aanvalssimulaties en rapporten beheren. Leer en ervaar de mogelijkheden van Defender voor eindpunten tijdens een begeleide rondleiding in een proefomgeving.
 **Servicestatus** | Geeft informatie over de huidige status van de Defender for Endpoint-service. U kunt controleren of de service-status gezond is of dat er actuele problemen zijn.
@@ -76,7 +76,7 @@ Gebied | Beschrijving
 **(2) Zoeken, Communitycentrum, Lokalisatie, Help en ondersteuning, Feedback** | **Zoeken:** zoeken op apparaat, bestand, gebruiker, URL, IP, kwetsbaarheid, software en aanbeveling. </br></br> **Communitycentrum:** toegang tot het Communitycentrum om te leren, samen te werken en ervaringen over het product te delen. </br></br>  **Lokalisatie:** tijdzones instellen. </br></br>  **Help en ondersteuning:** raadpleeg de Defender for Endpoint-handleiding, ondersteuning van Microsoft en Microsoft Premier, licentiegegevens, simulaties & zelfstudies, Het evaluatielaboratorium van Defender voor eindpunten en raadpleeg een bedreigingsexpert.</br></br> **Feedback:** geef opmerkingen over wat u leuk vindt of wat we beter kunnen doen.
 
 > [!NOTE]
-> Zie Problemen met de schaal van Windows voor [high-DPI-apparaten](https://support.microsoft.com/help/3025083/windows-scaling-issues-for-high-dpi-devices) voor mogelijke oplossingen voor apparaten met een hoge resolutie voor DPI-schaalproblemen.
+> Voor apparaten met hoge resolutie DPI-schaalproblemen raadpleegt u Windows schaalproblemen voor [high-DPI-apparaten](https://support.microsoft.com/help/3025083/windows-scaling-issues-for-high-dpi-devices) voor mogelijke oplossingen.
 
 ## <a name="microsoft-defender-for-endpoint-icons"></a>Pictogrammen voor Microsoft Defender voor eindpunten
 
@@ -92,12 +92,12 @@ Pictogram | Beschrijving
 ![Pictogram Niet gesaneerd](images/not-remediated-icon.png)| Niet gesaneerd: bedreiging wordt niet van het apparaat verwijderd.
 ![Thunderbolt-pictogram](images/atp-thunderbolt-icon.png)| Geeft gebeurtenissen aan die een waarschuwing hebben geactiveerd in de **processtructuur Waarschuwing.**
 ![Apparaatpictogram](images/atp-machine-icon.png)| Apparaatpictogram
-![Pictogram Av-gebeurtenissen van Microsoft Defender](images/atp-windows-defender-av-events-icon.png)| Microsoft Defender Antivirus-gebeurtenissen
-![Pictogram Gebeurtenissen van Application Guard](images/atp-Application-Guard-events-icon.png)| Windows Defender Application Guard-gebeurtenissen
-![Pictogram Apparaatwachtgebeurtenissen](images/atp-Device-Guard-events-icon.png)| Windows Defender Device Guard-gebeurtenissen
-![Pictogram Beveiligingsgebeurtenissen uitbuiten](images/atp-Exploit-Guard-events-icon.png)| Windows Defender Exploit Guard-gebeurtenissen
+![Pictogram Av-gebeurtenissen van Microsoft Defender](images/atp-windows-defender-av-events-icon.png)| Microsoft Defender Antivirus gebeurtenissen
+![Pictogram Gebeurtenissen van Application Guard](images/atp-Application-Guard-events-icon.png)| Windows Defender Application Guard gebeurtenissen
+![Pictogram Apparaatwachtgebeurtenissen](images/atp-Device-Guard-events-icon.png)| Windows Defender Device Guard gebeurtenissen
+![Pictogram Beveiligingsgebeurtenissen uitbuiten](images/atp-Exploit-Guard-events-icon.png)| Windows Defender Gebeurtenissen van Guard uitbuiten
 ![Pictogram SmartScreen-gebeurtenissen](images/atp-Smart-Screen-events-icon.png)| Windows Defender SmartScreen-gebeurtenissen
-![Pictogram Firewallgebeurtenissen](images/atp-Firewall-events-icon.png)| Windows Firewall-gebeurtenissen
+![Pictogram Firewallgebeurtenissen](images/atp-Firewall-events-icon.png)| Windows Firewallgebeurtenissen
 ![Pictogram Reactieactie](images/atp-respond-action-icon.png)| Reactieactie
 ![Pictogram Procesgebeurtenissen](images/atp-process-event-icon.png)| Procesgebeurtenissen
 ![Pictogram netwerkcommunicatiegebeurtenissen](images/atp-network-communications-icon.png)| Netwerkgebeurtenissen

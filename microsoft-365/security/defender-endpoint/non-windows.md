@@ -1,6 +1,6 @@
 ---
 title: Microsoft Defender voor Eindpunt voor niet-Windows-platforms
-description: Meer informatie over de mogelijkheden van Microsoft Defender voor eindpunten voor niet-Windows-platforms
+description: Meer informatie over de mogelijkheden van Microsoft Defender voor eindpunten voor niet-Windows platforms
 keywords: niet-windows, mac, macos, linux, android
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -35,15 +35,15 @@ ms.locfileid: "51957501"
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-Microsoft is op weg om de toonaangevende beveiligingsmogelijkheden voor eindpunten buiten Windows en Windows Server uit te breiden naar macOS, Linux, Android en binnenkort iOS.
+Microsoft is op weg om de toonaangevende beveiligingsmogelijkheden voor eindpunten uit te breiden buiten Windows en Windows Server naar macOS, Linux, Android en binnenkort iOS.
 
 Organisaties worden geconfronteerd met bedreigingen op verschillende platforms en apparaten. Onze teams hebben zich ertoe verbonden om beveiligingsoplossingen te bouwen, niet alleen voor *Microsoft,* maar ook voor *Microsoft* om onze klanten in staat te stellen hun heterogene omgevingen te beschermen en te beveiligen. We luisteren naar feedback van klanten en werken nauw samen met onze klanten om oplossingen te bouwen die aan hun behoeften voldoen.
 
-Met Microsoft Defender voor Eindpunt profiteren klanten van een geïntegreerde weergave van alle bedreigingen en waarschuwingen in het Microsoft Defender-beveiligingscentrum, op windows- en niet-Windows-platforms, zodat ze een volledig beeld krijgen van wat er in hun omgeving gebeurt, zodat ze sneller bedreigingen kunnen beoordelen en beantwoorden.
+Met Microsoft Defender voor Eindpunt profiteren klanten van een geïntegreerde weergave van alle bedreigingen en waarschuwingen in de Microsoft Defender-beveiligingscentrum, op Windows- en niet-Windows-platforms, zodat ze een volledig beeld krijgen van wat er in hun omgeving gebeurt, zodat ze sneller bedreigingen kunnen beoordelen en beantwoorden.
 
 ## <a name="microsoft-defender-for-endpoint-on-macos"></a>Microsoft Defender voor Eindpunt op macOS 
 
-Microsoft Defender voor Eindpunt op macOS biedt antivirus- en eindpuntdetectie- en antwoordmogelijkheden (EDR) voor de drie meest recente versies van macOS. Klanten kunnen de oplossing implementeren en beheren via Microsoft Endpoint Manager en Jamf. Net als bij Microsoft Office-toepassingen op macOS, wordt Microsoft Auto Update gebruikt voor het beheren van Microsoft Defender voor Endpoint op Mac-updates. Lees onze aankondigingen voor meer informatie over de belangrijkste functies [en voordelen.](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/macOS)
+Microsoft Defender voor Eindpunt op macOS biedt antivirus- en eindpuntdetectie en -respons (EDR) mogelijkheden voor de drie meest recente versies van macOS. Klanten kunnen de oplossing implementeren en beheren via Microsoft Endpoint Manager en Jamf. Net als bij Microsoft Office toepassingen in macOS, wordt Microsoft Auto Update gebruikt voor het beheren van Microsoft Defender voor endpoint op Mac-updates. Lees onze aankondigingen voor meer informatie over de belangrijkste functies [en voordelen.](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/macOS)
 
 Voor meer informatie over hoe u aan de slag kunt gaan, gaat u naar de Documentatie van Defender voor Eindpunt voor [macOS.](microsoft-defender-endpoint-mac.md)
 
@@ -67,9 +67,9 @@ Voor meer informatie over hoe u aan de slag kunt gaan, gaat u naar de Microsoft 
 
 ## <a name="licensing-requirements"></a>Licentievereisten 
 
-In aanmerking komende gebruikers met een licentie kunnen Microsoft Defender voor Eindpunt gebruiken op maximaal vijf gelijktijdige apparaten. Microsoft Defender voor Eindpunt is ook beschikbaar voor aankoop bij een Cloud Solution Provider (CSP).
+In aanmerking komende gebruikers met een licentie kunnen Microsoft Defender voor Eindpunt gebruiken op maximaal vijf gelijktijdige apparaten. Microsoft Defender voor Eindpunt is ook beschikbaar voor aankoop via een Cloud Solution Provider (CSP).
 
-Klanten kunnen Microsoft Defender voor Eindpunt op macOS verkrijgen via een zelfstandige Licentie voor Microsoft Defender voor Eindpunt, als onderdeel van Microsoft 365 A5/E5 of Microsoft 365 Security.
+Klanten kunnen Microsoft Defender voor Eindpunt op macOS verkrijgen via een zelfstandige licentie voor Microsoft Defender voor Eindpunt, als onderdeel van Microsoft 365 A5/E5 of Microsoft 365 Beveiliging.
 
 Onlangs aangekondigde mogelijkheden van Microsoft Defender voor Eindpunt voor Android en iOS zijn opgenomen in de bovenstaande aanbiedingen als onderdeel van de vijf gekwalificeerde apparaten voor in aanmerking komende gebruikers met een licentie.
 

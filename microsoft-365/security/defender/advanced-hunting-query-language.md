@@ -1,5 +1,5 @@
 ---
-title: De geavanceerde zoekquerytaal in Microsoft 365 Defender leren
+title: De geavanceerde zoekquerytaal in Microsoft 365 Defender
 description: Maak uw eerste zoekquery voor bedreigingen en leer meer over veelgebruikte operatoren en andere aspecten van de geavanceerde zoekquerytaal
 keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, microsoft 365, m365, search, query, language, learn, first query, telemetry, events, telemetry, custom detections, schema, kusto, operators, data types, powershell download, query example
 search.product: eADQiWindows 10XVcnh
@@ -40,7 +40,7 @@ Geavanceerd zoeken is gebaseerd op de [querytaal Kusto.](/azure/kusto/query/) U 
 
 ## <a name="try-your-first-query"></a>Probeer uw eerste query
 
-Ga in het Microsoft 365-beveiligingscentrum naar **Hunting** om uw eerste query uit te voeren. Gebruik het volgende voorbeeld:
+Ga in Microsoft 365 beveiligingscentrum naar **Hunting** om uw eerste query uit te voeren. Gebruik het volgende voorbeeld:
 
 ```kusto
 // Finds PowerShell execution events that could involve a download
@@ -176,14 +176,14 @@ De **sectie Aan de** slag bevat een paar eenvoudige query's met veelgebruikte op
 ![Afbeelding van geavanceerd zoekvenster](../../media/advanced-hunting-get-started.png)
 
 >[!NOTE]
->Naast de basisqueryvoorbeelden hebt u ook toegang tot gedeelde [query's](advanced-hunting-shared-queries.md) voor specifieke scenario's voor het zoeken naar bedreigingen. Verken de gedeelde query's aan de linkerkant van de pagina of de [GitHub-queryopslagplaats.](https://aka.ms/hunting-queries)
+>Naast de basisqueryvoorbeelden hebt u ook toegang tot gedeelde [query's](advanced-hunting-shared-queries.md) voor specifieke scenario's voor het zoeken naar bedreigingen. Verken de gedeelde query's aan de linkerkant van de pagina of de [GitHub queryopslagplaats.](https://aka.ms/hunting-queries)
 
 ## <a name="access-query-language-documentation"></a>Documentatie van access-querytaal
 
 Zie [Kusto querytaaldocumentatie](/azure/kusto/query/)voor meer informatie over kusto-querytaal en ondersteunde operatoren.
 
 >[!NOTE]
->Sommige tabellen in dit artikel zijn mogelijk niet beschikbaar in Microsoft Defender voor Eindpunt. [Schakel Microsoft 365 Defender in om](m365d-enable.md) te zoeken naar bedreigingen met meer gegevensbronnen. U kunt uw geavanceerde zoekwerkstromen verplaatsen van Microsoft Defender voor Eindpunt naar Microsoft 365 Defender door de stappen te volgen in Geavanceerde zoekquery's migreren van [Microsoft Defender voor Eindpunt.](advanced-hunting-migrate-from-mde.md)
+>Sommige tabellen in dit artikel zijn mogelijk niet beschikbaar in Microsoft Defender voor Eindpunt. [Schakel de Microsoft 365 Defender in om](m365d-enable.md) te zoeken naar bedreigingen met behulp van meer gegevensbronnen. U kunt uw geavanceerde zoekwerkstromen verplaatsen van Microsoft Defender voor Eindpunt naar Microsoft 365 Defender door de stappen in Geavanceerde zoekquery's migreren uit [Microsoft Defender voor Eindpunt te volgen.](advanced-hunting-migrate-from-mde.md)
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)

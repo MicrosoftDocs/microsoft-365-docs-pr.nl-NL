@@ -31,7 +31,7 @@ ms.locfileid: "51186063"
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -61,7 +61,7 @@ Boven aan de profielpagina, boven de bestandsgegevenskaarten. Acties die u hier 
 - Stoppen en in quarantaine plaatsen
 - Indicator Toevoegen/bewerken
 - Downloadbestand
-- Een bedreigingsexpert raadplegen
+- Contact opnemen met een risicodeskundige
 - Actiecentrum
 
 Zie Actie ondernemen voor een bestand voor meer [informatie over deze acties.](respond-file-alerts.md)
@@ -117,4 +117,4 @@ Het **tabblad Bestandsnamen** bevat alle namen die het bestand heeft waargenomen
 - [Een IP-adres onderzoeken dat is gekoppeld aan een waarschuwing van Microsoft Defender voor eindpunt](investigate-ip.md)
 - [Een domein onderzoeken dat is gekoppeld aan een waarschuwing van Microsoft Defender voor eindpunt](investigate-domain.md)
 - [Een gebruikersaccount onderzoeken in Microsoft Defender voor Eindpunt](investigate-user.md)
-- [Antwoordacties uitvoeren op een bestand](respond-file-alerts.md)
+- [Acties ondernemen op een bestand](respond-file-alerts.md)

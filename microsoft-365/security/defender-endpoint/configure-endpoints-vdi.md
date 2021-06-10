@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/16/2020
 ms.technology: mde
-ms.openlocfilehash: 3872be343e51c4e28f946192256932b048a23791
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: d09967a18848365702f52f65a7f0624d2b2ae3d6
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933899"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843208"
 ---
 # <a name="onboard-non-persistent-virtual-desktop-infrastructure-vdi-devices"></a>Onboarden niet-permanente virtual desktop infrastructure (VDI)-apparaten
 
@@ -63,17 +63,17 @@ De volgende stappen helpen u bij het onboarden van VDI-apparaten en markeren sta
 
 ### <a name="for-windows-10-or-windows-server-2019"></a>Voor Windows 10 of Windows Server 2019
 
-1.  Open het VDI-configuratiepakket .zip-bestand *(WindowsDefenderATPOnboardingPackage.zip)* dat u hebt gedownload van de wizard Service onboarding. U kunt het pakket ook in [het Microsoft Defender-beveiligingscentrum kopen:](https://securitycenter.windows.com/)
+1.  Open het VDI-configuratiepakket .zip bestand *(WindowsDefenderATPOnboardingPackage.zip)* dat u hebt gedownload van de wizard Service onboarding. U kunt het pakket ook van [Microsoft Defender-beveiligingscentrum:](https://securitycenter.windows.com/)
 
-    1.  Selecteer in het navigatiedeelvenster **Instellingen**  >  **Onboarding**.
+    1.  Selecteer in het navigatiedeelvenster **Instellingen**  >  **Onboarding.**
 
     1. Selecteer Windows 10 als het besturingssysteem.
 
     1.  Selecteer in **het veld** Implementatiemethode **VDI-onboarding-scripts voor niet-permanente eindpunten.**
 
-    1. Klik **op Pakket downloaden** en sla het ZIP-bestand op.
+    1. Klik **op Pakket downloaden** en sla het .zip op.
 
-2. Kopieer de bestanden uit de map WindowsDefenderATPOnboardingPackage die is geëxtraheerd uit het ZIP-bestand naar de `golden/master` afbeelding onder het `C:\WINDOWS\System32\GroupPolicy\Machine\Scripts\Startup` pad. 
+2. Kopieer de bestanden uit de map WindowsDefenderATPOnboardingPackage uit het .zip bestand naar de `golden/master` afbeelding onder het `C:\WINDOWS\System32\GroupPolicy\Machine\Scripts\Startup` pad. 
 
     1. Als u geen enkele vermelding voor elk apparaat implementeert, kopieert u WindowsDefenderATPOnboardingScript.cmd.
 
@@ -82,7 +82,7 @@ De volgende stappen helpen u bij het onboarden van VDI-apparaten en markeren sta
     > [!NOTE]
     > Als u de map niet `C:\WINDOWS\System32\GroupPolicy\Machine\Scripts\Startup` ziet, is deze mogelijk verborgen. U moet de optie  Verborgen bestanden en mappen weergeven kiezen in Verkenner.
 
-3. Open een venster Lokaal groepsbeleidseditor en navigeer naar **Computerconfiguratie**  >  **Windows Settings** Scripts  >    >  **Opstarten**.
+3. Open een venster Van lokale groepsbeleidseditor en navigeer naar **Computerconfiguratie**  >  **Windows Instellingen**  >  **scripts**  >  **opstarten.**
 
    > [!NOTE]
    > Domeingroepsbeleid kan ook worden gebruikt voor onboarding van niet-permanente VDI-apparaten.
@@ -91,11 +91,11 @@ De volgende stappen helpen u bij het onboarden van VDI-apparaten en markeren sta
 
    - Voor één invoer voor elk apparaat:
    
-     Selecteer het **tabblad PowerShell-scripts** en klik vervolgens op Toevoegen **(Windows** Verkenner wordt rechtstreeks geopend in het pad waar u het onboarding-script eerder hebt gekopieerd). Navigeer naar onboarding PowerShell-script `Onboard-NonPersistentMachine.ps1` . U hoeft het andere bestand niet op te geven, omdat het automatisch wordt geactiveerd.
+     Selecteer het **tabblad PowerShell-scripts** en klik vervolgens op Toevoegen **(Windows** Explorer wordt rechtstreeks geopend in het pad waar u het onboarding-script eerder hebt gekopieerd). Navigeer naar onboarding PowerShell-script `Onboard-NonPersistentMachine.ps1` . U hoeft het andere bestand niet op te geven, omdat het automatisch wordt geactiveerd.
    
    - Voor meerdere vermeldingen voor elk apparaat:
    
-     Selecteer het **tabblad Scripts** en klik vervolgens **op Toevoegen** (Windows Verkenner wordt rechtstreeks geopend in het pad waar u het onboarding-script eerder hebt gekopieerd). Ga naar het onboarding `WindowsDefenderATPOnboardingScript.cmd` bash-script.
+     Selecteer het **tabblad Scripts** en klik vervolgens op **Toevoegen** (Windows Explorer wordt rechtstreeks geopend in het pad waar u het onboarding-script eerder hebt gekopieerd). Ga naar het onboarding `WindowsDefenderATPOnboardingScript.cmd` bash-script.
 
 5. Test uw oplossing:
 
@@ -111,11 +111,11 @@ De volgende stappen helpen u bij het onboarden van VDI-apparaten en markeren sta
    
       - Voor één invoer voor elk apparaat: 
     
-        Controleer slechts één item in het Microsoft Defender-beveiligingscentrum.
+        Controleer slechts één item in Microsoft Defender-beveiligingscentrum.
 
       - Voor meerdere vermeldingen voor elk apparaat: 
        
-        Controleer meerdere items in het Microsoft Defender-beveiligingscentrum.
+        Controleer meerdere vermeldingen in Microsoft Defender-beveiligingscentrum.
 
 6. Klik **op De lijst Apparaten** in het navigatiedeelvenster.
 
@@ -155,9 +155,9 @@ DISM /Unmount-Image /MountDir:"C:\Temp\OfflineServicing" /commit
 ```
 
 Zie de artikelen hieronder voor meer informatie over DISM-opdrachten en offlineonderhoud:
-- [Een Windows-afbeelding wijzigen met DISM](https://docs.microsoft.com/windows-hardware/manufacture/desktop/mount-and-modify-a-windows-image-using-dism)
-- [DISM Image Management Command-Line Opties](https://docs.microsoft.com/windows-hardware/manufacture/desktop/dism-image-management-command-line-options-s14)
-- [De grootte van de onderdelenwinkel in een offline-Windows-afbeelding verkleinen](https://docs.microsoft.com/windows-hardware/manufacture/desktop/reduce-the-size-of-the-component-store-in-an-offline-windows-image)
+- [Een afbeelding Windows DISM wijzigen](/windows-hardware/manufacture/desktop/mount-and-modify-a-windows-image-using-dism)
+- [DISM Image Management Command-Line Opties](/windows-hardware/manufacture/desktop/dism-image-management-command-line-options-s14)
+- [De grootte van het onderdelenbestand in een offline-Windows verkleinen](/windows-hardware/manufacture/desktop/reduce-the-size-of-the-component-store-in-an-offline-windows-image)
 
 Als offline service geen haalbare optie is voor uw niet-permanente VDI-omgeving, moeten de volgende stappen worden genomen om consistentie en sensortoestand te waarborgen:
 
@@ -184,8 +184,8 @@ Als offline service geen haalbare optie is voor uw niet-permanente VDI-omgeving,
 5. Verzegel de afbeelding van het gouden/hoofdmodel opnieuw zoals u dat normaal zou doen.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
-- [Onboard Windows 10-apparaten met groepsbeleid](configure-endpoints-gp.md)
-- [Onboard Windows 10-apparaten met Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
+- [Onboard Windows 10 apparaten met groepsbeleid](configure-endpoints-gp.md)
+- [Onboard Windows 10 apparaten met Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
 - [Onboarden Windows 10-apparaten met hulpmiddelen voor Mobile Device Management](configure-endpoints-mdm.md)
 - [Onboarden Windows 10-apparaten met een lokaal script](configure-endpoints-script.md)
 - [Problemen met de onboarding van Microsoft Defender voor eindpunten oplossen](troubleshoot-onboarding.md)

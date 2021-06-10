@@ -42,7 +42,7 @@ Als Microsoft Defender Antivirus is geconfigureerd voor het opsporen en herstell
 > [!TIP]
 > Het herstellen van een bestand vanuit quarantaine kan ook worden uitgevoerd met opdrachtprompt. Zie [Een bestand terugzetten vanuit quarantaine](/windows/security/threat-protection/microsoft-defender-atp/respond-file-alerts#restore-file-from-quarantine). 
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-articles"></a>Aanverwante artikelen
 
 - [Herstel configureren voor scans](configure-remediation-microsoft-defender-antivirus.md)
 - [Scanresultaten controleren](review-scan-results-microsoft-defender-antivirus.md)

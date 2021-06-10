@@ -38,7 +38,7 @@ Met [Microsoft Defender voor Office 365](defender-for-office-365.md)krijgt u ged
 
 Met [Microsoft Defender voor Office 365](defender-for-office-365.md)krijgt u gedetailleerde informatie over [geautomatiseerde onderzoeken.](air-view-investigation-results.md) Sommige organisaties gebruiken echter ook een aangepaste of externe rapportageoplossing. Als uw organisatie informatie over geautomatiseerde onderzoeken met een dergelijke oplossing wil integreren, kunt u de Office 365 Management Activity API gebruiken.
 
-|Resource|Omschrijving|
+|Resource|Beschrijving|
 |:---|:---|
 |[Office 365 Overzicht van beheer-API's](/office/office-365-management-api/office-365-management-apis-overview)|De Office 365 Management Activity API bevat informatie over verschillende gebruikers-, beheerders-, systeem- en beleidsacties en -gebeurtenissen uit Microsoft 365 en Azure Active Directory activiteitenlogboeken.|
 |[Aan de slag met Office 365 management-API's](/office/office-365-management-api/get-started-with-office-365-management-apis)|De Office 365 Management API gebruikt Azure AD om verificatieservices aan te bieden voor uw toepassing om toegang te krijgen tot Microsoft 365 gegevens. Volg de stappen in dit artikel om dit in te stellen.|

@@ -43,7 +43,7 @@ Microsoft Defender voor Eindpunt ondersteunt streaminggebeurtenissen die beschik
 
 ## <a name="in-this-section"></a>In deze sectie
 
-Onderwerp | Omschrijving
+Onderwerp | Beschrijving
 :---|:---
 [Microsoft Defender voor eindpuntgebeurtenissen streamen naar Azure Event Hubs](raw-data-export-event-hub.md)| Meer informatie over het inschakelen van de streaming-API in uw tenant en het configureren van Defender voor Eindpunt om [Advanced Hunting te](advanced-hunting-overview.md) streamen naar Event Hubs.
 [Stream Defender voor eindpuntgebeurtenissen naar uw Azure-opslagaccount](raw-data-export-storage.md)| Meer informatie over het inschakelen van de streaming-API in uw tenant en het configureren van Defender voor Eindpunt om [Advanced Hunting](advanced-hunting-overview.md) te streamen naar uw Azure-opslagaccount.

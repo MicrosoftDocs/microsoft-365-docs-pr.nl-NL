@@ -41,7 +41,7 @@ Wanneer een [geautomatiseerd onderzoek](office-365-air.md) plaatsvindt in Micros
 
 De onderzoeksstatus geeft de voortgang van de analyse en acties aan. Terwijl het onderzoek wordt uitgevoerd, wordt de status gewijzigd om aan te geven of er bedreigingen zijn gevonden en of acties zijn goedgekeurd.
 
-|Status|Omschrijving|
+|Status|Beschrijving|
 |:---|:---|
 |**Starten**|Het onderzoek is gestart en het wachten is om te starten.|
 |**Uitvoeren**|Het onderzoeksproces is gestart en is aan de gang. Deze status treedt ook op wanneer [acties in behandeling](air-review-approve-pending-completed-actions.md#approve-or-reject-pending-actions) zijn goedgekeurd.|

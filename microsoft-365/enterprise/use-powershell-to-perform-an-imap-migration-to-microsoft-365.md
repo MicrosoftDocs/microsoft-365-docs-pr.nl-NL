@@ -15,7 +15,7 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 ms.assetid: c28de4a5-1e8e-4491-9421-af066cde7cdd
-description: Meer informatie over het gebruik van PowerShell om een IMAP-migratie (Internet Mail Access Protocol) naar Microsoft 365 uit te voeren.
+description: Meer informatie over het gebruik van PowerShell om een IMAP-migratie (Internet Mail Access Protocol) uit te voeren naar Microsoft 365.
 ms.openlocfilehash: fbfc0340e80ce70aa8a706d89a4d27729b91535b
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -30,15 +30,15 @@ ms.locfileid: "50924766"
 Als onderdeel van het implementatieproces van Microsoft 365 kunt u ervoor kiezen om de inhoud van gebruikerspostvakken te migreren van een IMAP-e-mailservice (Internet Mail Access Protocol) naar Microsoft 365. In dit artikel vindt u een overzicht van de taken voor een E-mail-IMAP-migratie met Exchange Online PowerShell. 
   
 > [!NOTE]
-> U kunt ook het Exchange-beheercentrum gebruiken om een IMAP-migratie uit te voeren. Zie [Uw IMAP-postvakken migreren.](/Exchange/mailbox-migration/migrating-imap-mailboxes/migrating-imap-mailboxes) 
+> U kunt ook het Exchange gebruiken om een IMAP-migratie uit te voeren. Zie [Uw IMAP-postvakken migreren.](/Exchange/mailbox-migration/migrating-imap-mailboxes/migrating-imap-mailboxes) 
   
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-Geschatte tijd om deze taak te voltooien: 2-5 minuten om een migratiebatch te maken. Nadat de migratiebatch is gestart, is de duur van de migratie afhankelijk van het aantal postvakken in de batch, de grootte van elk postvak en de beschikbare netwerkcapaciteit. Zie Migratieprestaties voor informatie over andere factoren die van invloed zijn [](/Exchange/mailbox-migration/office-365-migration-best-practices)op hoe lang het duurt om postvakken te migreren naar Microsoft 365.
+Geschatte tijd om deze taak te voltooien: 2-5 minuten om een migratiebatch te maken. Nadat de migratiebatch is gestart, is de duur van de migratie afhankelijk van het aantal postvakken in de batch, de grootte van elk postvak en de beschikbare netwerkcapaciteit. Zie Migratieprestaties voor informatie over andere factoren die van invloed zijn op hoe lang het duurt om postvakken naar Microsoft 365 [te migreren.](/Exchange/mailbox-migration/office-365-migration-best-practices)
   
 U moet beschikken over bepaalde machtigingen om deze procedure of procedures te kunnen uitvoeren. Als u wilt zien welke machtigingen u nodig hebt, ziet u de vermelding 'Migratie' in een tabel in het onderwerp [Machtigingen geadresseerden.](/exchange/recipients-permissions-exchange-2013-help)
   
-Als u de Exchange Online PowerShell-cmdlets wilt gebruiken, moet u zich aanmelden en de cmdlets importeren in uw lokale Windows PowerShell-sessie. Zie [Verbinding maken met Exchange Online met behulp van externe PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) voor instructies.
+Als u de Exchange Online PowerShell-cmdlets wilt gebruiken, moet u zich aanmelden en de cmdlets importeren in uw lokale Windows PowerShell sessie. Zie [Verbinding maken om Exchange Online externe PowerShell te gebruiken voor](/powershell/exchange/connect-to-exchange-online-powershell) instructies.
   
 Zie Cmdlets verplaatsen en migreren voor een volledige lijst met [migratieopdrachten.](/powershell/exchange/)
   
@@ -55,21 +55,21 @@ De volgende beperkingen zijn van toepassing op IMAP-migraties:
 ### <a name="step-1-prepare-for-an-imap-migration"></a>Stap 1: Voorbereiden op een IMAP-migratie
 <a name="BK_Step1"> </a>
 
-- **Als u een domein voor uw IMAP-organisatie hebt, voegt u dit toe als een geaccepteerd domein van uw Microsoft 365-organisatie.** Als u hetzelfde domein wilt gebruiken dat u al hebt voor uw Microsoft 365-postvakken, moet u dit eerst als geaccepteerd domein toevoegen aan Microsoft 365. Nadat u deze hebt toegevoegd, kunt u uw gebruikers maken in Microsoft 365. Zie Uw domein verifiëren[voor meer informatie.](../admin/setup/add-domain.md)
+- **Als u een domein voor uw IMAP-organisatie hebt, voegt u dit toe als een geaccepteerd domein van uw Microsoft 365 organisatie.** Als u hetzelfde domein wilt gebruiken dat u al hebt voor uw Microsoft 365 postvakken, moet u dit eerst als geaccepteerd domein toevoegen aan Microsoft 365. Nadat u het hebt toegevoegd, kunt u uw gebruikers maken in Microsoft 365. Zie Uw domein verifiëren[voor meer informatie.](../admin/setup/add-domain.md)
     
-- **Voeg elke gebruiker toe aan Microsoft 365, zodat deze een postvak heeft.** Zie Gebruikers toevoegen[aan Microsoft 365 voor Bedrijven](../admin/add-users/add-users.md)voor instructies.
+- **Voeg elke gebruiker toe aan Microsoft 365 zodat deze een postvak heeft.** Zie Gebruikers toevoegen[aan Microsoft 365 voor bedrijven voor instructies.](../admin/add-users/add-users.md)
     
 - **Verkrijg de FQDN van de IMAP-server.** U moet de volledig gekwalificeerde domeinnaam (FQDN) (ook wel de volledige computernaam genoemd) van de IMAP-server verstrekken waar u postvakgegevens van migreert wanneer u een IMAP-migratie-eindpunt maakt. Gebruik een IMAP-client of de opdracht PING om te controleren of u de FQDN kunt gebruiken om met de IMAP-server op internet te communiceren.
     
-- **Configureer de firewall om IMAP-verbindingen toe te staan.** Mogelijk moet u poorten openen in de firewall van de organisatie die de IMAP-server host, zodat netwerkverkeer dat afkomstig is uit het Microsoft-datacenter tijdens de migratie, de organisatie kan invoeren die de IMAP-server host. Zie URL's en IP-adresbereiken van Exchange Online voor een lijst met IP-adressen die door Microsoft-datacenters [worden gebruikt.](./urls-and-ip-address-ranges.md)
+- **Configureer de firewall om IMAP-verbindingen toe te staan.** Mogelijk moet u poorten openen in de firewall van de organisatie die de IMAP-server host, zodat netwerkverkeer dat afkomstig is uit het Microsoft-datacenter tijdens de migratie, de organisatie kan invoeren die de IMAP-server host. Zie voor een lijst met IP-adressen die door Microsoft-datacenters worden gebruikt [Exchange Online URL's en IP-adresbereiken.](./urls-and-ip-address-ranges.md)
     
 - **Wijs de beheerdersaccountmachtigingen toe voor toegang tot postvakken in uw IMAP-organisatie.** Als u beheerdersreferenties in het CSV-bestand gebruikt, moet de account die u gebruikt beschikken over de vereiste machtigingen om toegang te kunnen krijgen tot de lokale postvakken. De machtigingen die nodig zijn voor toegang tot gebruikerspostvakken, worden bepaald door de specifieke IMAP-server. 
     
-- **Als u de Exchange Online PowerShell-cmdlets** wilt gebruiken, moet u zich aanmelden en de cmdlets importeren in uw lokale Windows PowerShell-sessie. Zie [Verbinding maken met Exchange Online met behulp van externe PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) voor instructies.
+- **Als u de Exchange Online PowerShell-cmdlets** wilt gebruiken, moet u zich aanmelden en de cmdlets importeren in uw lokale Windows PowerShell sessie. Zie [Verbinding maken om Exchange Online externe PowerShell te gebruiken voor](/powershell/exchange/connect-to-exchange-online-powershell) instructies.
     
     Zie Cmdlets verplaatsen en migreren voor een volledige lijst met [migratieopdrachten.](/powershell/exchange/)
     
-- **Controleer of u verbinding kunt maken met uw IMAP-server.** Voer de volgende opdracht uit in Exchange Online PowerShell om de verbindingsinstellingen naar uw IMAP-server te testen.
+- **Controleer of u verbinding kunt maken met uw IMAP-server.** Voer de volgende opdracht uit in Exchange Online PowerShell om de verbindingsinstellingen met uw IMAP-server te testen.
     
   ```powershell
   Test-MigrationServerAvailability -IMAP -RemoteServer <FQDN of IMAP server> -Port <143 or 993> -Security <None, Ssl, or Tls>
@@ -84,7 +84,7 @@ Identificeer de groep gebruikers van wie u postvakken wilt migreren in een IMAP-
   
 Hier volgen de vereiste kenmerken voor elke gebruiker: 
   
-- **EmailAddress** geeft de gebruikers-id voor het Microsoft 365-postvak van de gebruiker aan.
+- **In EmailAddress** wordt de gebruikers-id opgegeven voor het postvak van Microsoft 365 gebruiker.
     
 - **UserName** geeft de aanmeldingsnaam op die het account moet gebruiken om toegang te krijgen tot het postvak op de IMAP-server.
     
@@ -152,18 +152,18 @@ paulc@contoso.edu,mailadmin,P@ssw0rd,/users/paul.cannon
 ### <a name="step-3-create-an-imap-migration-endpoint"></a>Stap 3: Een IMAP-migratie-eindpunt maken
 <a name="BK_Step3"> </a>
 
-Als u e-mail wilt migreren, moet Microsoft 365 verbinding maken met en communiceren met het bron-e-mailsysteem. Hiervoor gebruikt Microsoft 365 een migratie-eindpunt. Het migratie-eindpunt definieert ook het aantal postvakken dat tegelijk moet worden gemigreerd en het aantal postvakken dat tegelijk moet worden gesynchroniseerd tijdens incrementele synchronisatie, wat eenmaal per 24 uur plaatsvindt. Als u een migratie-eindpunt wilt maken voor IMAP-migratie, maakt u [eerst verbinding met Exchange Online.](/powershell/exchange/connect-to-exchange-online-powershell) 
+Als u e-mail wilt migreren, Microsoft 365 verbinding maken met en communiceren met het bron-e-mailsysteem. Hiervoor wordt Microsoft 365 een migratie-eindpunt gebruikt. Het migratie-eindpunt definieert ook het aantal postvakken dat tegelijk moet worden gemigreerd en het aantal postvakken dat tegelijk moet worden gesynchroniseerd tijdens incrementele synchronisatie, wat eenmaal per 24 uur plaatsvindt. Als u een migratie-eindpunt wilt maken voor IMAP-migratie, maakt u eerst [verbinding met Exchange Online.](/powershell/exchange/connect-to-exchange-online-powershell) 
   
 Zie Cmdlets verplaatsen en migreren voor een volledige lijst met [migratieopdrachten.](/powershell/exchange/)
   
-Voer de volgende opdracht uit als u het IMAP-migratie-eindpunt 'IMAPEndpoint' wilt maken in Exchange Online PowerShell:
+Voer de volgende opdracht uit als u het IMAP-migratie-eindpunt IMAPEndpoint wilt maken in Exchange Online PowerShell:
   
 ```powershell
 New-MigrationEndpoint -IMAP -Name IMAPEndpoint -RemoteServer imap.contoso.com -Port 993 -Security Ssl
 
 ```
 
-U kunt ook parameters toevoegen om gelijktijdige migraties, gelijktijdige incrementele migraties en de te gebruiken poort op te geven. Met de volgende Exchange Online PowerShell-opdracht wordt een IMAP-migratie-eindpunt gemaakt met de naam 'IMAPEndpoint' dat 50 gelijktijdige migraties en maximaal 25 gelijktijdige incrementele synchronisaties ondersteunt. Het eindpunt wordt ook geconfigureerd voor het gebruik van poort 143 voor TLS-versleuteling.
+U kunt ook parameters toevoegen om gelijktijdige migraties, gelijktijdige incrementele migraties en de te gebruiken poort op te geven. Met de Exchange Online PowerShell wordt een IMAP-migratie-eindpunt gemaakt met de naam 'IMAPEndpoint' dat 50 gelijktijdige migraties en maximaal 25 gelijktijdige incrementele synchronisaties ondersteunt. Het eindpunt wordt ook geconfigureerd voor het gebruik van poort 143 voor TLS-versleuteling.
   
 ```powershell
 New-MigrationEndpoint -IMAP -Name IMAPEndpoint -RemoteServer imap.contoso.com -Port 143 -Security Tls -MaxConcurrentMigrations
@@ -185,7 +185,7 @@ Get-MigrationEndpoint IMAPEndpoint | Format-List EndpointType,RemoteServer,Port,
 
 U kunt de [cmdlet New-MigrationBatch](/powershell/module/exchange/new-migrationbatch) gebruiken om een migratiebatch te maken voor een IMAP-migratie. U kunt een migratiebatch maken en deze automatisch starten door de _parameter AutoStart op te_ nemen. U kunt ook de migratiebatch maken en daarna starten met de[cmdlet Start-MigrationBatch.](/powershell/module/exchange/start-migrationbatch)
   
-Met de volgende Exchange Online PowerShell-opdracht wordt automatisch de migratiebatch met de naam 'IMAPBatch1' starten met het IMAP-eindpunt genaamd 'IMAPEndpoint':
+De volgende Exchange Online PowerShell-opdracht start automatisch de migratiebatch genaamd 'IMAPBatch1' met het IMAP-eindpunt genaamd 'IMAPEndpoint':
   
 ```powershell
 New-MigrationBatch -Name IMAPBatch1 -SourceEndpoint IMAPEndpoint -CSVData ([System.IO.File]::ReadAllBytes("C:\Users\Administrator\Desktop\IMAPmigration_1.csv")) -AutoStart
@@ -205,10 +205,10 @@ U kunt ook controleren of de batch is gestart door de volgende opdracht uit te v
 Get-MigrationBatch -Identity IMAPBatch1 | Format-List Status
 ```
 
-### <a name="step-5-route-your-email-to-microsoft-365"></a>Stap 5: Uw e-mail door sturen naar Microsoft 365
+### <a name="step-5-route-your-email-to-microsoft-365"></a>Stap 5: Uw e-mail door Microsoft 365
 <a name="BK_Step5"> </a>
 
-E-mailsystemen gebruiken een DNS-record, een zogenaamde MX-record, om te achterhalen waar e-mails moeten worden bezorgd. Tijdens het e-mailmigratieproces wijst de MX-record naar het bron-e-mailsysteem. Nu de e-mailmigratie naar Microsoft 365 is voltooid, is het tijd om uw MX-record aan te wijzen op Microsoft 365. Dit helpt ervoor te zorgen dat e-mail wordt bezorgd in uw Microsoft 365-postvakken. Door de MX-record te verplaatsen, kunt u ook uw oude e-mailsysteem uitschakelen wanneer u klaar bent. 
+E-mailsystemen gebruiken een DNS-record, een zogenaamde MX-record, om te achterhalen waar e-mails moeten worden bezorgd. Tijdens het e-mailmigratieproces wijst de MX-record naar het bron-e-mailsysteem. Nu de e-mailmigratie naar Microsoft 365 is voltooid, is het tijd om uw MX-record op Microsoft 365. Dit helpt ervoor te zorgen dat e-mail wordt bezorgd in Microsoft 365 postvakken. Door de MX-record te verplaatsen, kunt u ook uw oude e-mailsysteem uitschakelen wanneer u klaar bent. 
   
 Veel DNS-providers hebben specifieke instructies voor het wijzigen van uw MX-record. Als uw DNS-provider niet is opgenomen of als u een idee wilt krijgen van de algemene aanwijzingen, worden ook algemene [MX-recordinstructies ](https://go.microsoft.com/fwlink/?LinkId=397449) verstrekt.
   
@@ -217,13 +217,13 @@ Het kan tot 72 uur duren voordat in de e-mailsystemen van uw klanten en partners
 ### <a name="step-6-delete-imap-migration-batch"></a>Stap 6: IMAP-migratiebatch verwijderen
 <a name="BK_Step6"> </a>
 
-Nadat u de MX-record hebt gewijzigd en hebt gecontroleerd of alle e-mail wordt doorgestuurd naar Microsoft 365-postvakken, meldt u de gebruikers dat hun e-mail naar Microsoft 365 gaat. Hierna kunt u de IMAP-migratiebatch verwijderen. Controleer het volgende voordat u de migratiebatch verwijdert.
+Nadat u de MX-record hebt gewijzigd en hebt gecontroleerd of alle e-mail wordt doorgestuurd naar Microsoft 365 postvakken, meldt u de gebruikers dat hun e-mail wordt Microsoft 365. Hierna kunt u de IMAP-migratiebatch verwijderen. Controleer het volgende voordat u de migratiebatch verwijdert.
   
-- Alle gebruikers gebruiken Microsoft 365-postvakken. Nadat de batch is verwijderd, wordt e-mail die naar postvakken op de on-premises Exchange Server wordt verzonden, niet gekopieerd naar de bijbehorende Microsoft 365-postvakken.
+- Alle gebruikers gebruiken Microsoft 365 postvakken. Nadat de batch is verwijderd, wordt e-mail die naar postvakken op de on-premises Exchange Server verzonden, niet gekopieerd naar de bijbehorende Microsoft 365 postvakken.
     
-- Microsoft 365-postvakken zijn ten minste eenmaal gesynchroniseerd nadat e-mail rechtstreeks naar hen werd verzonden. Als u dit wilt doen, moet u ervoor zorgen dat de waarde in het vak Laatst gesynchroniseerde tijd voor de migratiebatch recenter is dan wanneer e-mail rechtstreeks naar Microsoft 365-postvakken is gerouteerd.
+- Microsoft 365 postvakken zijn ten minste eenmaal gesynchroniseerd nadat e-mail rechtstreeks naar deze postvakken werd verzonden. Als u dit wilt doen, moet u ervoor zorgen dat de waarde in het vak Laatst gesynchroniseerde tijd voor de migratiebatch recenter is dan toen e-mail rechtstreeks werd gerouteerd naar Microsoft 365 postvakken.
     
-Voer de volgende opdracht uit om de migratiebatch1 -batch IMAPBatch1 uit Exchange Online PowerShell te verwijderen:
+Voer de volgende opdracht uit om de migratiebatch1 van IMAPBatch1 uit Exchange Online PowerShell te verwijderen:
   
 ```powershell
 Remove-MigrationBatch -Identity IMAPBatch1

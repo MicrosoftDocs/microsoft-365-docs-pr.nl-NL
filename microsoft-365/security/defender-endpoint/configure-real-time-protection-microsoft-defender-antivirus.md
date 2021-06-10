@@ -136,7 +136,7 @@ Realtimebeveiliging uitschakelen in groepsbeleid:
 
 6. Sluit **Lokale groepsbeleidseditor**.
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-articles"></a>Aanverwante artikelen
 
 - [Gedrag, heuristiek en realtime bescherming configureren](configure-protection-features-microsoft-defender-antivirus.md)
 - [Microsoft Defender Antivirus in Windows 10](microsoft-defender-antivirus-in-windows-10.md)

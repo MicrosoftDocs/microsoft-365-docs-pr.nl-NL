@@ -1,7 +1,7 @@
 ---
-title: Actie ondernemen voor geavanceerde zoekqueryresultaten in Microsoft 365 Defender
+title: Actie ondernemen voor geavanceerde resultaten van query's in Microsoft 365 Defender
 description: Snel bedreigingen en beïnvloede activa in uw geavanceerde resultaten van de zoekquery aan te pakken
-keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, microsoft 365, m365, search, query, telemetry, action
+keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, microsoft 365, m365, search, query, telemetry, take action
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -46,7 +46,7 @@ Met krachtige en uitgebreide actieopties kunt u snel bedreigingen bevatten of ge
 ## <a name="required-permissions"></a>Vereiste machtigingen
 Als u actie wilt kunnen ondernemen via geavanceerde zoekacties, hebt u een rol nodig in Microsoft Defender voor Eindpunt met machtigingen voor het indienen van herstelacties [op apparaten.](/windows/security/threat-protection/microsoft-defender-atp/user-roles#permission-options) Als u geen actie kunt ondernemen, neemt u contact op met een globale beheerder over het verkrijgen van de volgende machtigingen:
 
-*Actieve herstelacties > bedreigings- en kwetsbaarheidsbeheer - Herstelafhandeling*
+*Actieve herstelacties > Bedreiging en vulnerability management - Herstelafhandeling*
 
 ## <a name="take-various-actions-on-devices"></a>Verschillende acties uitvoeren op apparaten
 U kunt de volgende acties uitvoeren op apparaten die zijn geïdentificeerd door de `DeviceId` kolom in de queryresultaten:
@@ -81,7 +81,7 @@ Als u een van de beschreven acties wilt uitvoeren, selecteert u een of meer reco
 Elke actie wordt afzonderlijk opgenomen in het [actiecentrum](m365d-action-center.md) onder **Actiecentrumgeschiedenis**  >   [(security.microsoft.com/action-center/history).](https://security.microsoft.com/action-center/history) Ga naar het actiecentrum om de status van elke actie te controleren.
  
 >[!NOTE]
->Sommige tabellen in dit artikel zijn mogelijk niet beschikbaar in Microsoft Defender voor Eindpunt. [Schakel Microsoft 365 Defender in om](m365d-enable.md) te zoeken naar bedreigingen met meer gegevensbronnen. U kunt uw geavanceerde zoekwerkstromen verplaatsen van Microsoft Defender voor Eindpunt naar Microsoft 365 Defender door de stappen te volgen in Geavanceerde zoekquery's migreren van [Microsoft Defender voor Eindpunt.](advanced-hunting-migrate-from-mde.md)
+>Sommige tabellen in dit artikel zijn mogelijk niet beschikbaar in Microsoft Defender voor Eindpunt. [Schakel de Microsoft 365 Defender in om](m365d-enable.md) te zoeken naar bedreigingen met behulp van meer gegevensbronnen. U kunt uw geavanceerde zoekwerkstromen verplaatsen van Microsoft Defender voor Eindpunt naar Microsoft 365 Defender door de stappen in Geavanceerde zoekquery's migreren uit [Microsoft Defender voor Eindpunt te volgen.](advanced-hunting-migrate-from-mde.md)
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)

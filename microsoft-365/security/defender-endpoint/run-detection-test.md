@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 2bb1fde1bfd8ddfa358d1141c3821843e532a8bf
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.openlocfilehash: 10090fdd1dff6b020d06c82afa8456d7a157ff91
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52311998"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843304"
 ---
 # <a name="run-a-detection-test-on-a-newly-onboarded-microsoft-defender-for-endpoint-device"></a>Een detectietest uitvoeren op een nieuw ingebouwde Microsoft Defender voor eindpuntapparaat 
 
@@ -46,7 +46,7 @@ Voer het volgende PowerShell-script uit op een nieuw onboarded apparaat om te co
 1. Een map maken: 'C:\test-MDATP-test'.
 2. Open een opdrachtregelprompt met verhoogde opdrachtregel op het apparaat en voer het script uit:
 
-   1. Ga naar **Start** en typ **cmd.**
+   1. Go to **Start** and type **cmd**.
 
    1. Klik met de rechtermuisknop **op Opdrachtprompt** en selecteer **Uitvoeren als beheerder.**
 
@@ -63,4 +63,4 @@ Het venster Opdrachtprompt wordt automatisch gesloten. Als dit is gelukt, wordt 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Onboarden Windows 10-apparaten](configure-endpoints.md)
 - [Onboard-servers](configure-server-endpoints.md)
-- [Problemen met de onboarding van Microsoft Defender voor eindpunten oplossen](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/troubleshoot-onboarding)
+- [Problemen met de onboarding van Microsoft Defender voor eindpunten oplossen](/microsoft-365/security/defender-endpoint/troubleshoot-onboarding)

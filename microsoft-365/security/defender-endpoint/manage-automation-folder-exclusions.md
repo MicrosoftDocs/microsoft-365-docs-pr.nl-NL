@@ -29,7 +29,7 @@ ms.locfileid: "51185835"
 
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-automationexclusionfolder-abovefoldlink)
@@ -59,7 +59,7 @@ U kunt de bestandsnamen opgeven die u wilt uitsluiten in een specifieke adreslij
 
 
 ## <a name="add-an-automation-folder-exclusion"></a>Een uitsluiting van automatiseringsmappen toevoegen
-1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **Automatiseringsmapuitsluitingen**.  
+1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **uitsluitingen van automatiseringsmappen.**  
 
 2. Klik **op Nieuwe mapuitsluiting.**  
 
@@ -77,17 +77,17 @@ U kunt de bestandsnamen opgeven die u wilt uitsluiten in een specifieke adreslij
 > Opdrachten voor livereactie om uitgesloten bestanden te verzamelen of te onderzoeken, mislukken met de fout: 'Bestand is uitgesloten'. Bovendien worden de uitgesloten items genegeerd door automatisch onderzoek.
 
 ## <a name="edit-an-automation-folder-exclusion"></a>Een uitsluiting van automatiseringsmappen bewerken 
-1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **Automatiseringsmapuitsluitingen**. 
+1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **uitsluitingen van automatiseringsmappen.** 
 
 2. Klik **op Bewerken** op de mapuitsluiting.  
 
 3. Werk de details van de regel bij en klik op **Opslaan.**
 
 ## <a name="remove-an-automation-folder-exclusion"></a>Een uitsluiting van automatiseringsmappen verwijderen 
-1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **Automatiseringsmapuitsluitingen**.  
+1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **uitsluitingen van automatiseringsmappen.**  
 2. Klik **op Uitsluiting verwijderen.** 
 
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Toegestane/geblokkeerde lijsten voor automatisering beheren](manage-indicators.md)
-- [Uploads van automatiseringsbestand beheren](manage-automation-file-uploads.md)
+- [Automatiseringsbestandsuploads beheren](manage-automation-file-uploads.md)

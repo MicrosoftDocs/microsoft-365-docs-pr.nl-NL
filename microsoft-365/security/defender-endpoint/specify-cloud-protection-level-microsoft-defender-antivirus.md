@@ -1,5 +1,5 @@
 ---
-title: Het door de cloud geleverde beveiligingsniveau opgeven voor Microsoft Defender Antivirus
+title: Geef het door de cloud geleverde beveiligingsniveau op voor Microsoft Defender Antivirus
 description: Stel uw niveau van beveiliging in de cloud in voor Microsoft Defender Antivirus.
 keywords: Microsoft Defender Antivirus, antimalware, beveiliging, defender, cloud, agressiviteit, beschermingsniveau
 search.product: eADQiWindows 10XVcnh
@@ -32,15 +32,15 @@ ms.locfileid: "52274902"
 
 - [Microsoft Defender voor Eindpunt](/microsoft-365/security/defender-endpoint/)
 
-U kunt uw niveau van beveiliging in de cloud opgeven dat wordt aangeboden door Microsoft Defender Antivirus met Behulp van Microsoft Endpoint Manager (aanbevolen) of Groepsbeleid.
+U kunt uw niveau van cloudbeveiliging opgeven dat wordt geboden door Microsoft Defender Antivirus met Microsoft Endpoint Manager (aanbevolen) of groepsbeleid.
 
 > [!TIP]
-> Cloudbeveiliging is niet alleen beveiliging voor bestanden die zijn opgeslagen in de cloud. De Microsoft Defender Antivirus-cloudservice is een mechanisme voor het leveren van bijgewerkte beveiliging op uw netwerk en apparaten (ook wel eindpunten genoemd). Cloudbeveiliging met Microsoft Defender Antivirus maakt gebruik van gedistribueerde resources en machine learning om uw eindpunten te beschermen tegen een snelheid die veel sneller is dan traditionele beveiligingsinformatie-updates. Microsoft Intune en Microsoft Endpoint Manager maken nu deel uit van [Microsoft Endpoint Manager.](/mem/endpoint-manager-overview) 
+> Cloudbeveiliging is niet alleen beveiliging voor bestanden die zijn opgeslagen in de cloud. De Microsoft Defender Antivirus cloudservice is een mechanisme voor het leveren van bijgewerkte beveiliging aan uw netwerk en apparaten (ook wel eindpunten genoemd). Cloudbeveiliging met Microsoft Defender Antivirus maakt gebruik van gedistribueerde resources en machine learning om uw eindpunten te beschermen tegen een snelheid die veel sneller is dan traditionele beveiligingsinformatie-updates. Microsoft Intune en Microsoft Endpoint Manager maken nu deel uit van [Microsoft Endpoint Manager.](/mem/endpoint-manager-overview) 
 
 
-## <a name="use-microsoft-endpoint-manager-to-specify-the-level-of-cloud-delivered-protection"></a>Microsoft Endpoint Manager gebruiken om het niveau van door de cloud geleverde beveiliging op te geven
+## <a name="use-microsoft-endpoint-manager-to-specify-the-level-of-cloud-delivered-protection"></a>Gebruik Microsoft Endpoint Manager om het niveau van door de cloud geleverde beveiliging op te geven
 
-1. Ga naar het Microsoft Endpoint Manager-beheercentrum [https://endpoint.microsoft.com](https://endpoint.microsoft.com) () en meld u aan.
+1. Ga naar het Microsoft Endpoint Manager beheercentrum [https://endpoint.microsoft.com](https://endpoint.microsoft.com) () en meld u aan.
 
 2. Kies **Endpoint Security**  >  **Antivirus**.
 
@@ -58,7 +58,7 @@ U kunt uw niveau van beveiliging in de cloud opgeven dat wordt aangeboden door M
 
 > [!TIP]
 > Hebt u hulp nodig? Zie de volgende bronnen:
-> - [Endpoint Protection configureren](/mem/configmgr/protect/deploy-use/endpoint-protection-configure)
+> - [Endpoint Protection](/mem/configmgr/protect/deploy-use/endpoint-protection-configure)
 > - [Instellingen voor eindpuntbeveiliging toevoegen in Intune](/mem/intune/protect/endpoint-protection-configure)
   
 
@@ -70,7 +70,7 @@ U kunt uw niveau van beveiliging in de cloud opgeven dat wordt aangeboden door M
 
 3.  Ga in **de Editor voor groepsbeleidsbeheer** naar **Beheersjablonen voor computerconfiguratie.**  >  
 
-4.  Vouw de boom uit **naar Windows Components** Microsoft Defender  >  **Antivirus**  >  **MpEngine**.
+4.  Vouw de boom uit Windows **onderdelen**  >  **Microsoft Defender Antivirus**  >  **MpEngine**.
 
 5.  Dubbelklik op de **instelling Beveiligingsniveau voor de cloud** selecteren en stel deze in op **Ingeschakeld.** Selecteer het beveiligingsniveau:
     - **Standaardblokkeringsniveau** biedt een sterke detectie zonder het risico op het detecteren van legitieme bestanden te vergroten.
@@ -89,8 +89,8 @@ U kunt uw niveau van beveiliging in de cloud opgeven dat wordt aangeboden door M
 > [!TIP]
 > Gebruikt u on-premises groepsbeleidsobjecten? Bekijk hoe ze vertalen in de cloud. [Analyseer uw on-premises groepsbeleidsobjecten met groepsbeleidsanalyse in Microsoft Endpoint Manager - Preview.](/mem/intune/configuration/group-policy-analytics) 
   
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-articles"></a>Aanverwante artikelen
 
 - [Microsoft Defender Antivirus in Windows 10](microsoft-defender-antivirus-in-windows-10.md)
-- [Beveiliging via de cloud inschakelen](enable-cloud-protection-microsoft-defender-antivirus.md)
+- [Cloudbeveiliging inschakelen](enable-cloud-protection-microsoft-defender-antivirus.md)
 - [Antimalware-beleid maken en implementeren: Cloudbeveiligingsservice](/configmgr/protect/deploy-use/endpoint-antimalware-policies#cloud-protection-service)

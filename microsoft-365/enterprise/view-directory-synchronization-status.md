@@ -34,25 +34,25 @@ Als u uw on-premises Active Directory Domain Services (AD DS) hebt geïntegreerd
   
 ## <a name="view-directory-synchronization-status"></a>De status van de adreslijstsynchronisatie bekijken
 
-- Meld u aan bij [het Microsoft 365-beheercentrum](https://admin.microsoft.com) en kies **DirSync-status** op de startpagina.
+- Meld u aan bij [het Microsoft 365 beheercentrum](https://admin.microsoft.com) en kies **DirSync-status** op de startpagina.
 - U kunt ook naar  Gebruikers Actieve gebruikers gaan en op de pagina Actieve gebruikers de optie \>  **Meer**  \> **adreslijstsynchronisatie kiezen.** Kies in **het deelvenster Adreslijstsynchronisatie** **de optie Ga naar DirSync-beheer.**
 
 ## <a name="information-on-the-manage-directory-synchronization-page"></a>Informatie op de pagina Adreslijstsynchronisatie beheren
 
 De volgende tabel bevat de functies waar u informatie over kunt krijgen op de pagina.
   
-Als er een probleem is met de adreslijstsynchronisatie, worden de fouten ook op deze pagina weergegeven. Zie Adreslijstsynchronisatiefouten identificeren [in Microsoft 365](identify-directory-synchronization-errors.md)voor meer informatie over verschillende fouten die u mogelijk ondervindt.
+Als er een probleem is met de adreslijstsynchronisatie, worden de fouten ook op deze pagina weergegeven. Zie Adreslijstsynchronisatiefouten identificeren [in](identify-directory-synchronization-errors.md)Microsoft 365.
   
 |Item|Doel|
 |:-----|:-----|
-|**Geverifieerde domeinen** | Het aantal domeinen in uw Microsoft 365-tenant dat u hebt geverifieerd. |
+|**Geverifieerde domeinen** | Het aantal domeinen in uw Microsoft 365 tenant dat u hebt geverifieerd. |
 |**Domeinen die niet zijn geverifieerd** | Domeinen die u hebt toegevoegd, maar die niet zijn geverifieerd. |
 |**Adreslijstsynchronisatie ingeschakeld** |Waar of Onwaar. Hiermee geeft u aan of u adreslijstsynchronisatie hebt ingeschakeld. |
 |**Meest recente adreslijstsynchronisatie** | De laatste keer dat adreslijstsynchronisatie is afgelopen. Er wordt een waarschuwing en een koppeling naar een hulpprogramma voor probleemoplossing weergegeven als de laatste synchronisatie meer dan drie dagen geleden was. |
-|**Wachtwoordsynchronisatie ingeschakeld** | Waar of Onwaar. Hiermee geeft u aan of u een wachtwoordhashsynchronisatie hebt tussen onze on-premises en uw Microsoft 365-tenant. |
+|**Wachtwoordsynchronisatie ingeschakeld** | Waar of Onwaar. Hiermee geeft u aan of u een wachtwoordhashsynchronisatie hebt tussen onze on-premises en uw Microsoft 365 tenant. |
 |**Laatste wachtwoordsynchronisatie** | De laatste keer dat wachtwoordhashsynchronisatie werd gebruikt. Er wordt een waarschuwing en een koppeling naar een hulpprogramma voor probleemoplossing weergegeven als de laatste synchronisatie meer dan drie dagen geleden was. |
-|**Clientversie adreslijstsynchronisatie** | Bevat een downloadkoppeling als er een nieuwe versie van Azure AD Connect is uitgebracht. |
-|**Adreslijstsynchronisatieserviceaccount** | Hiermee wordt de naam van uw Microsoft 365-adreslijstsynchronisatieserviceaccount weergegeven. |
+|**Clientversie adreslijstsynchronisatie** | Bevat een downloadkoppeling als er een nieuwe versie van Azure AD Verbinding maken is uitgebracht. |
+|**Adreslijstsynchronisatieserviceaccount** | Hiermee wordt de naam van uw Microsoft 365 adreslijstsynchronisatieserviceaccount weergegeven. |
 |||
 
 ## <a name="monitor-synchronization-health"></a>Synchronisatiestatus bewaken

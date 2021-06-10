@@ -1,7 +1,7 @@
 ---
-title: Fouten in geavanceerde zoek naar Microsoft 365 Defender verwerken
+title: Fouten verwerken in geavanceerde Microsoft 365 Defender
 description: Inzicht in fouten die worden weergegeven bij het gebruik van geavanceerde jacht
-keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, microsoft 365, m365, search, query, telemetry, schema, kusto, time-out, resources, errors, unknown error, limits, quota, parameter, allocation
+keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, microsoft 365, m365, search, query, telemetry, schema, kusto, time-out, resources, fouten, onbekende fout, limieten, quotum, parameter, toewijzing
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security

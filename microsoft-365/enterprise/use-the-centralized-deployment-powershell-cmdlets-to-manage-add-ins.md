@@ -19,7 +19,7 @@ f1.keywords:
 ms.assetid: 94f4e86d-b8e5-42dd-b558-e6092f830ec9
 ms.custom:
 - seo-marvel-apr2020
-description: Gebruik de Centralized Deployment PowerShell-cmdlets om u te helpen bij het implementeren en beheren van Office-invoegingen voor uw Microsoft 365-organisatie.
+description: Gebruik de PowerShell-cmdlets voor gecentraliseerde implementatie om u te helpen bij het implementeren en beheren van Office invoegingen voor uw Microsoft 365 organisatie.
 ms.openlocfilehash: 7872deedfcfe058f0a4ac63c489bbed139699d18
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -29,27 +29,27 @@ ms.locfileid: "50924670"
 ---
 # <a name="use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins"></a>Use the Centralized Deployment PowerShell cmdlets to manage add-ins
 
-Als globale beheerder van Microsoft 365 kunt u Office-invoegvoegingen implementeren voor gebruikers via de functie Gecentraliseerde implementatie (zie [Office-invoegvoegingen implementeren in het beheercentrum).](../admin/manage/manage-deployment-of-add-ins.md) Naast het implementeren van Office-invoegvoegingen via het Microsoft 365-beheercentrum, kunt u ook Microsoft PowerShell gebruiken. Installeer de [O365 Centralized Add-In Deployment Module voor Windows PowerShell.](https://www.powershellgallery.com/packages/O365CentralizedAddInDeployment) 
+Als Microsoft 365 globale beheerder kunt u Office-invoegvoegingen implementeren voor gebruikers via de functie Gecentraliseerde implementatie (zie Office-invoegvoegingen implementeren in het [beheercentrum).](../admin/manage/manage-deployment-of-add-ins.md) Naast het implementeren van Office via het Microsoft 365 beheercentrum, kunt u ook Microsoft PowerShell gebruiken. Installeer de [O365 Centralized Add-In Deployment Module voor Windows PowerShell.](https://www.powershellgallery.com/packages/O365CentralizedAddInDeployment) 
 
-Nadat u de module hebt gedownload, opent u een gewoon Windows PowerShell-venster en voer u de volgende cmdlet uit:
+Nadat u de module hebt gedownload, opent u een Windows PowerShell venster en voer u de volgende cmdlet uit:
 
 ```powershell
  Import-Module -Name O365CentralizedAddInDeployment
 ```
     
-## <a name="connect-using-your-admin-credentials"></a>Verbinding maken met uw beheerdersreferenties
+## <a name="connect-using-your-admin-credentials"></a>Verbinding maken beheerdersreferenties gebruiken
 
 Voordat u de cmdlets gecentraliseerde implementatie kunt gebruiken, moet u zich aanmelden.
   
 1. Start PowerShell.
     
-2. Maak verbinding met PowerShell met behulp van uw bedrijfsbeheerdersreferenties. Voer de volgende cmdlet uit.
+2. Verbinding maken powerShell met behulp van uw bedrijfsbeheerdersreferenties. Voer de volgende cmdlet uit.
     
   ```powershell
   Connect-OrganizationAddInService
   ```
 
-3. Voer op **de pagina Referenties** invoeren uw globale beheerdersreferenties van Microsoft 365 in. U kunt ook uw referenties rechtstreeks in de cmdlet invoeren. 
+3. Voer op **de pagina** Referenties invoeren uw Microsoft 365 globale beheerdersreferenties in. U kunt ook uw referenties rechtstreeks in de cmdlet invoeren. 
     
     Voer de volgende cmdlet uit die uw bedrijfsbeheerdersreferenties opgeeft als een PSCredential-object.
     
@@ -60,9 +60,9 @@ Voordat u de cmdlets gecentraliseerde implementatie kunt gebruiken, moet u zich 
   ```
 
 > [!NOTE]
-> Zie Verbinding maken met [Microsoft 365 met PowerShell](./connect-to-microsoft-365-powershell.md)voor meer informatie over het gebruik van PowerShell. 
+> Zie voor meer informatie over het gebruik van PowerShell [Verbinding maken om Microsoft 365 powershell te gebruiken.](./connect-to-microsoft-365-powershell.md) 
   
-## <a name="upload-an-add-in-manifest"></a>Een invoegingsmanifest uploaden
+## <a name="upload-an-add-in-manifest"></a>Upload invoegmanifest
 
 Voer de **cmdlet New-OrganizationAdd-In** uit om een invoegingsmanifest te uploaden vanaf een pad, dat een bestandslocatie of URL kan zijn. In het volgende voorbeeld ziet u een bestandslocatie voor de waarde van de _parameter ManifestPath._ 
   
@@ -76,7 +76,7 @@ U kunt ook de **cmdlet New-OrganizationAdd-In** uitvoeren om een invoegvoeging t
 New-OrganizationAddIn -ManifestPath 'C:\Users\Me\Desktop\taskpane.xml' -Locale 'en-US' -Members  'KathyBonner@contoso.com', 'MaxHargrave@contoso.com'
 ```
 
-## <a name="upload-an-add-in-from-the-office-store"></a>Een invoegvoeging uploaden vanuit de Office Store
+## <a name="upload-an-add-in-from-the-office-store"></a>Upload een invoeging uit de Office Store
 
 Voer de **cmdlet New-OrganizationAddIn** uit om een manifest te uploaden vanuit de Office Store.
   
@@ -86,12 +86,12 @@ In het volgende voorbeeld geeft de **cmdlet New-OrganizationAddIn** de AssetId o
 New-OrganizationAddIn -AssetId 'WA104099688' -Locale 'en-US' -ContentMarket 'en-US'
 ```
 
-Als u de waarde voor de  _parameter AssetId_ wilt bepalen, kunt u deze kopiëren vanuit de URL van de Office Store-webpagina voor de invoeg. AssetIds beginnen altijd met 'WA' gevolgd door een getal. In het vorige voorbeeld is de bron voor de AssetId-waarde van WA104099688 bijvoorbeeld de URL van de Office Store-webpagina voor de invoegvoegzaak: [https://store.office.com/en-001/app.aspx?assetid=WA104099688](https://store.office.com/en-001/app.aspx?assetid=WA104099688) .
+Als u de waarde voor de _parameter AssetId_ wilt bepalen, kunt u deze kopiëren vanuit de URL van de webpagina Office Store voor de invoeging. AssetIds beginnen altijd met 'WA' gevolgd door een getal. In het vorige voorbeeld is de bron voor de AssetId-waarde van WA104099688 bijvoorbeeld de URL van de webpagina van Office Store voor de invoegpagina: [https://store.office.com/en-001/app.aspx?assetid=WA104099688](https://store.office.com/en-001/app.aspx?assetid=WA104099688) .
   
 De waarden voor de parameter  _Locale_ en de parameter  _ContentMarket_ zijn identiek en geven het land/de regio aan waaruit u de invoegvoeging wilt installeren. De notatie is nl-NL, fr-FR. enzovoort. 
   
 > [!NOTE]
-> Invoegingen die vanuit de Office Store zijn geüpload, worden automatisch bijgewerkt binnen enkele dagen na de nieuwste update die beschikbaar is in de Office Store. 
+> Invoegvoegingen die zijn geüpload vanuit de Office Store worden automatisch bijgewerkt binnen enkele dagen na de nieuwste update die beschikbaar is in de Office Store. 
   
 ## <a name="get-details-of-an-add-in"></a>Meer informatie over een invoegvoegvoeging
 
@@ -162,7 +162,7 @@ Set-OrganizationAddIn -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122 -ManifestP
 ```
 
 > [!NOTE]
-> Invoegingen die vanuit de Office Store zijn geüpload, worden automatisch bijgewerkt binnen enkele dagen na de nieuwste update die beschikbaar is in de Office Store. 
+> Invoegvoegingen die zijn geüpload vanuit de Office Store worden automatisch bijgewerkt binnen enkele dagen na de nieuwste update die beschikbaar is in de Office Store. 
   
 ## <a name="delete-an-add-in"></a>Een invoeging verwijderen
 

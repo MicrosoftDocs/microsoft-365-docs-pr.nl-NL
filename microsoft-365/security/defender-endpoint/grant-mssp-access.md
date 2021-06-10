@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 320355f838db5dbb1540350e95e4cc0645acd805
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 311903cdd1409f4ab997641cc842ff199ce2500d
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932749"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843104"
 ---
 # <a name="grant-managed-security-service-provider-mssp-access-preview"></a>Toegang verlenen voor beheerde beveiligingsserviceproviders (MSSP) (preview)
 
@@ -41,9 +41,9 @@ Als u een oplossing voor gedelegeerde toegang met meerdere tenants wilt implemen
 
 1. Schakel [toegangsbeheer op basis van rollen](rbac.md) in defender voor eindpunt in en maak verbinding met Ad-groepen (Active Directory).
 
-2. [Beheertoegangspakketten configureren voor toegangsaanvraag](https://docs.microsoft.com/azure/active-directory/governance/identity-governance-overview) en inrichting.
+2. [Beheertoegangspakketten configureren voor toegangsaanvraag](/azure/active-directory/governance/identity-governance-overview) en inrichting.
 
-3. Toegangsaanvragen en -audits beheren in [Microsoft Myaccess](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-request-approve).
+3. Toegangsaanvragen en -audits beheren in [Microsoft Myaccess](/azure/active-directory/governance/entitlement-management-request-approve).
 
 ## <a name="enable-role-based-access-controls-in-microsoft-defender-for-endpoint"></a>Toegangsbesturingselementen op basis van rollen inschakelen in Microsoft Defender voor Eindpunt
 
@@ -58,7 +58,7 @@ Als u een oplossing voor gedelegeerde toegang met meerdere tenants wilt implemen
 
 2. Maak Defender voor eindpuntrollen voor de juiste toegangsniveaus in Customer Defender voor Eindpunt.
 
-    Als u RBAC wilt inschakelen in het Microsoft Defender-beveiligingscentrum van de klant, hebt u toegang tot Instellingen **> Machtigingen > Rollen** en 'Rollen inschakelen', vanuit een gebruikersaccount met globale beheerders- of beveiligingsbeheerdersrechten.
+    Als u RBAC wilt inschakelen in de Microsoft Defender-beveiligingscentrum, hebt u toegang tot **Instellingen > Machtigingen > Rollen** en 'Rollen inschakelen', vanuit een gebruikersaccount met globale beheerders- of beveiligingsbeheerdersrechten.
 
     ![Afbeelding van MSSP-toegang](images/mssp-access.png)
 
@@ -92,7 +92,7 @@ Als u een oplossing voor gedelegeerde toegang met meerdere tenants wilt implemen
 
     ![Afbeelding van nieuwe catalogus](images/goverance-catalog.png)
 
-    Zie Een catalogus met resources maken voor [meer informatie.](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-catalog-create)
+    Zie Een catalogus met resources maken voor [meer informatie.](/azure/active-directory/governance/entitlement-management-catalog-create)
 
 
 3. **Access-pakketten maken voor MSSP-resources Customer AAD: Identity Governance**
@@ -109,7 +109,7 @@ Als u een oplossing voor gedelegeerde toegang met meerdere tenants wilt implemen
     > [!div class="mx-imgBorder"]
     > ![Afbeelding van nieuw toegangspakket](images/new-access-package.png)
 
-    Zie Een nieuw [toegangspakket maken](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-access-package-create)voor meer informatie.
+    Zie Een nieuw [toegangspakket maken](/azure/active-directory/governance/entitlement-management-access-package-create)voor meer informatie.
 
 
 4. **Koppeling voor toegangsaanvraag naar MSSP-resources van Customer AAD: Identity Governance**
@@ -132,7 +132,7 @@ Als u een oplossing voor gedelegeerde toegang met meerdere tenants wilt implemen
     Voorbeeld:  `https://myaccess.microsoft.com/@M365x440XXX.onmicrosoft.com#/`   
 2. Aanvragen goedkeuren of weigeren in **de sectie Goedkeuringen** van de gebruikersinterface.
 
-    Op dit moment is de toegang tot analisten ingericht en moet elke analist toegang hebben tot het Microsoft Defender-beveiligingscentrum van de klant: `https://securitycenter.Microsoft.com/?tid=<CustomerTenantId>`
+    Op dit moment is de toegang tot analisten ingericht en moet elke analist toegang hebben tot de Microsoft Defender-beveiligingscentrum:`https://securitycenter.Microsoft.com/?tid=<CustomerTenantId>`
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Toegang tot de MSSP-klantportal](access-mssp-portal.md)

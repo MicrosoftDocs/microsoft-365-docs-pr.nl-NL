@@ -1,5 +1,5 @@
 ---
-title: Een meldingsregel voor onboarding of offboarding maken
+title: Een meldingsregel voor onboarden of offboarden maken
 description: Ontvang een melding wanneer een lokaal onboarding- of offboarding-script wordt gebruikt.
 keywords: onboarding, offboarding, lokaal, script, melding, regel
 search.product: eADQiWindows 10XVcnh
@@ -29,7 +29,7 @@ ms.locfileid: "51187118"
 
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -44,8 +44,8 @@ Maak een meldingsregel zodat wanneer een lokaal onboarding- of offboarding-scrip
 
 ## <a name="before-you-begin"></a>Voordat u begint
 U moet toegang hebben tot:
- - Microsoft Flow (minimaal Flow Plan 1). Zie de pagina [Stroomprijzen voor meer informatie.](https://flow.microsoft.com/pricing/)
- - Azure Table or SharePoint List or Library / SQL DB
+ - Microsoft Flow (Flow minimaal abonnement 1). Zie de pagina prijzen [Flow meer informatie.](https://flow.microsoft.com/pricing/)
+ - Azure Table of SharePoint List or Library /SQL DB
 
 ## <a name="create-the-notification-flow"></a>De meldingsstroom maken
 
@@ -73,9 +73,9 @@ U moet toegang hebben tot:
    - Methode: 'GET' als een waarde om de lijst met apparaten te krijgen.
    - URI: Enter `https://api.securitycenter.microsoft.com/api/machines` .
    - Verificatie: Selecteer 'Active Directory OAuth'.
-   - Tenant: Meld u aan bij https://portal.azure.com en navigeer naar **Azure Active Directory > app-registraties** en ontvang de tenant-id-waarde.
+   - Tenant: Meld u aan bij https://portal.azure.com en navigeer naar Azure Active Directory > **app-registraties** en krijg de tenant-id-waarde.
    - Doelgroep: `https://securitycenter.onmicrosoft.com/windowsatpservice\`
-   - Client-id: Meld u aan bij https://portal.azure.com en navigeer naar Azure Active Directory > **App-registraties** en ontvang de waarde client-id.
+   - Client-id: Meld u aan bij https://portal.azure.com en navigeer naar **Azure Active Directory > app-registraties** en ontvang de waarde Client-id.
    - Referentietype: Selecteer 'Geheim'.
    - Geheim: Meld u aan bij https://portal.azure.com en navigeer naar Azure Active Directory > **app-registraties** en ontvang de tenant-id-waarde.
 
@@ -176,9 +176,9 @@ U moet toegang hebben tot:
 
     ```
 
-10.  Haal de waarden op uit de JSON-oproep en controleer of het onboarded-apparaat(en) al is/zijn geregistreerd in de SharePoint-lijst als voorbeeld:
+10.  Haal de waarden op uit de JSON-oproep en controleer of het onboarded-apparaat(en) al is geregistreerd in de lijst SharePoint als voorbeeld:
 - Zo ja, dan wordt er geen melding geactiveerd
-- Als dit niet het probleem is, worden de nieuwe onboarded device(s) geregistreerd in de SharePoint-lijst en wordt er een melding verzonden naar de Defender for Endpoint-beheerder
+- Als dit niet het probleem is, worden de nieuwe onboarded device(s) geregistreerd in de SharePoint lijst en wordt er een melding verzonden naar de Defender for Endpoint-beheerder
 
     ![Afbeelding van toepassen op elk](images/flow-apply.png)
 

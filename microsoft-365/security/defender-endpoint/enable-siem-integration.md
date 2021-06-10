@@ -16,24 +16,24 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 337eb28b7e4b4a7c57b63ff45fb1cea81db43604
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 87078bb7bfc6b38788fea2a6a4c3c9108be1d5b4
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51060365"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842960"
 ---
 # <a name="enable-siem-integration-in-microsoft-defender-for-endpoint"></a>SIEM-integratie inschakelen in Microsoft Defender voor Eindpunt
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 
 
 >Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-enablesiem-abovefoldlink) 
 
-Schakel beveiligingsgegevens en SIEM-integratie (Security Information And Event Management) in, zodat u detecties kunt halen uit het Microsoft Defender-beveiligingscentrum. Detecties trekken met uw SIEM-oplossing of door rechtstreeks verbinding te maken met de REST-API voor detecties.
+Schakel de siem-integratie (Security Information and Event Management) in, zodat u detecties van Microsoft Defender-beveiligingscentrum. Detecties trekken met uw SIEM-oplossing of door rechtstreeks verbinding te maken met de REST-API voor detecties.
 
 >[!NOTE]
 >- [Microsoft Defender for Endpoint Alert](alerts.md) is samengesteld uit een of meer detecties.
@@ -54,18 +54,18 @@ Schakel beveiligingsgegevens en SIEM-integratie (Security Information And Event 
 ## <a name="enabling-siem-integration"></a>SIEM-integratie inschakelen 
 1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **SIEM**.
 
-    ![Afbeelding van SIEM-integratie in menu Instellingen1](images/enable_siem.png)
+    ![Afbeelding van SIEM-integratie uit Instellingen menu1](images/enable_siem.png)
 
     >[!TIP]
     >Als er een fout is opgetreden bij het inschakelen van de SIEM-verbindingstoepassing, controleert u de pop-upblokkeringsinstellingen van uw browser. Mogelijk wordt het nieuwe venster geblokkeerd wanneer u de functie inschakelen. 
 
-2. Selecteer **SIEM-integratie inschakelen.** Hiermee activeert u de sectie toegangsgegevens van **de SIEM-verbindingslijn** met vooraf ingevulde waarden en wordt er een toepassing gemaakt onder uw Azure Active Directory -tenant (Azure AD).
+2. Selecteer **SIEM-integratie inschakelen.** Hiermee activeert u de sectie toegangsdetails van de **SIEM-connector** met vooraf ingevulde waarden en wordt er een toepassing gemaakt onder uw Azure Active Directory (Azure AD)-tenant.
 
     > [!WARNING]
     >Het clientgeheim wordt slechts eenmaal weergegeven. Zorg ervoor dat u een kopie ervan op een veilige plaats houdt.<br>
      
 
-    ![Afbeelding van SIEM-integratie in het menu Instellingen2](images/siem_details.png)
+    ![Afbeelding van SIEM-integratie uit Instellingen menu2](images/siem_details.png)
 
 3. Kies het SIEM-type dat u in uw organisatie gebruikt.
 
@@ -83,9 +83,9 @@ Schakel beveiligingsgegevens en SIEM-integratie (Security Information And Event 
    > [!NOTE]
    > U moet elke 90 dagen een nieuw vernieuwingsken genereren. 
 
-6. Volg de instructies voor het [maken van een Azure AD-app-registratie](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/exposed-apis-create-app-webapp) voor Microsoft Defender voor Eindpunt en wijs de juiste machtigingen toe om waarschuwingen te lezen.
+6. Volg de instructies voor het [maken van een Azure AD-app-registratie](/microsoft-365/security/defender-endpoint/exposed-apis-create-app-webapp) voor Microsoft Defender voor Eindpunt en wijs de juiste machtigingen toe om waarschuwingen te lezen.
 
-U kunt nu doorgaan met het configureren van uw SIEM-oplossing of verbinding maken met de DETECTIES REST API via programmatische toegang. U moet de tokens gebruiken bij het configureren van uw SIEM-oplossing, zodat deze detecties kan ontvangen van het Microsoft Defender-beveiligingscentrum.
+U kunt nu doorgaan met het configureren van uw SIEM-oplossing of verbinding maken met de DETECTIES REST API via programmatische toegang. U moet de tokens gebruiken bij het configureren van uw SIEM-oplossing, zodat deze detecties kan ontvangen van Microsoft Defender-beveiligingscentrum.
 
 ## <a name="integrate-microsoft-defender-for-endpoint-with-ibm-qradar"></a>Microsoft Defender voor eindpunt integreren met IBM QRadar 
 U kunt IBM QRadar zo configureren dat detecties worden verzameld van Microsoft Defender voor Eindpunt. Zie IBM Knowledge Center voor [meer informatie.](https://www.ibm.com/support/knowledgecenter/SS42VS_DSM/c_dsm_guide_MS_Win_Defender_ATP_overview.html?cp=SS42VS_7.3.1)

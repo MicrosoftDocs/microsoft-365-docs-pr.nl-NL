@@ -28,7 +28,7 @@ ms.locfileid: "51186999"
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
-- [Microsoft Defender voor Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -50,7 +50,7 @@ Als er nog geen waarschuwing is toegewezen, kunt u Toewijzen aan **mij** selecte
 
 
 ## <a name="suppress-alerts"></a>Waarschuwingen onderdrukken
-Er kunnen scenario's zijn waarin u waarschuwingen wilt onderdrukken die worden weergegeven in het Microsoft Defender-beveiligingscentrum. Met Defender voor Eindpunt kunt u onderdrukkingsregels maken voor specifieke waarschuwingen die onschadelijk zijn, zoals bekende hulpmiddelen of processen in uw organisatie.
+Er kunnen scenario's zijn waarin u waarschuwingen moet onderdrukken om in de Microsoft Defender-beveiligingscentrum. Met Defender voor Eindpunt kunt u onderdrukkingsregels maken voor specifieke waarschuwingen die onschadelijk zijn, zoals bekende hulpmiddelen of processen in uw organisatie.
 
 Onderdrukkingsregels kunnen worden gemaakt op een bestaande waarschuwing. Ze kunnen zo nodig worden uitgeschakeld en opnieuw worden gebruikt.
 
@@ -98,7 +98,7 @@ Maak aangepaste regels om te bepalen wanneer waarschuwingen worden onderdrukt of
 
 #### <a name="view-the-list-of-suppression-rules"></a>De lijst met onderdrukkingsregels weergeven
 
-1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **Waarschuwingsonderdrukking**.
+1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **waarschuwingsonderdrukking.**
 
 2. De lijst met onderdrukkingsregels bevat alle regels die gebruikers in uw organisatie hebben gemaakt.
 
