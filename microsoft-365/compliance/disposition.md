@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Controleer en beheer het verwijderen van inhoud, ongeacht of u een verwijderingsbeoordeling of items gemarkeerd als record gebruikt, worden automatisch verwijderd volgens de instellingen die u hebt geconfigureerd.
-ms.openlocfilehash: 99ab789b99385af9ad2677995606d21ece54705c
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 577cf25ffc8735be19434496bd16202a8e383761
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52594071"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878122"
 ---
 # <a name="disposition-of-content"></a>Verwijdering van inhoud
 
@@ -38,7 +38,7 @@ Gebruik de pagina **Verwijdering** van **Recordbeheer** in het Microsoft 365-com
 
 ## <a name="prerequisites-for-viewing-content-dispositions"></a>Vereisten voor het weergeven van inhoudsverwijderingen
 
-Als u beoordelingen voor dispositioneringen wilt beheren en wilt controleren of de records zijn verwijderd, moet u over voldoende machtigingen te weten komen en moet de controle zijn ingeschakeld.
+Als u beoordelingen voor dispositioneringen wilt beheren en wilt controleren of de records zijn verwijderd, moet u over voldoende machtigingen te weten komen en moet de controle zijn ingeschakeld. Let ook op eventuele [beperkingen](retention-limits.md#maximum-number-of-items-for-disposition)voor verwijdering.
 
 ### <a name="permissions-for-disposition"></a>Machtigingen voor verwijdering
 
@@ -215,8 +215,6 @@ Gebruik het tabblad **Verwijdering** op de pagina **Recordbeheer** ter identific
 Deze items worden als **Records verwijderd** in de kolom **Type** weergegeven. Bijvoorbeeld:
 
 ![Items die zijn verwijderd zonder een verwijderingsbeoordeling](../media/records-disposed2.png)
-
-Items die worden weergegeven op het tabblad **Verwijderde items** worden tot zeven jaar bewaard nadat het item is verwijderd, met een limiet van één miljoen items per record voor die periode. Als het getal voor het **Aantal** bijna een miljoen heeft bereikt en u een bewijs van verwijdering nodig hebt voor uw administratie, neemt u contact op met [Microsoft Support](../business-video/get-help-support.md).
 
 > [!NOTE]
 > Deze functionaliteit maakt gebruik van gegevens uit de [unified audit log](search-the-audit-log-in-security-and-compliance.md) en daarom moet controle [ingeschakeld en doorzoekbaar](turn-audit-log-search-on-or-off.md) zodat de bijbehorende gebeurtenissen worden vastgelegd.

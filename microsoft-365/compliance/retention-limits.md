@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 hideEdit: true
 description: Meer informatie over het maximum aantal beleidsregels en items per beleid voor bewaarbeleid en bewaarlabelbeleid
-ms.openlocfilehash: 1ee2d07a42aaf4dff45ae22e9dfc005b3c4593d9
-ms.sourcegitcommit: 4bcac4cb4f9399ebbd7c8cff0abb4d6ecedb731e
+ms.openlocfilehash: 2dac852342c080c4f8334562dc76449d6963facc
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52698962"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878050"
 ---
 # <a name="limits-for-retention-policies-and-retention-label-policies"></a>Limieten voor bewaarbeleid en retentielabelbeleid
 
@@ -82,3 +82,13 @@ Voorbeeld met SharePoint:
 - **Oplossing**: maak 20 bewaarbeleidsregels voor SharePoint met een retentieperiode van 10 jaar waarin 100 specifieke sites zijn opgenomen en 80 bewaarbeleidsregels voor SharePoint met een retentieperiode van 4 jaar waarin 100 specifieke sites zijn opgenomen.
     
     Omdat u niet alle SharePoint-sites hoeft te behouden, maakt u bewaarbeleidsregels waarin specifieke sites zijn opgenomen. Omdat een bewaarbeleidsregel niet meer dan 100 specifieke sites ondersteunt, moet u meerdere beleidsregels maken voor beide retentieperiodes. Deze bewaarbeleidsregels hebben een maximaal aantal opgenomen sites, dus voor de volgende nieuwe site is er een nieuwe bewaarbeleidsregel nodig, ongeacht de retentieperiode.
+
+## <a name="maximum-number-of-items-for-disposition"></a>Maximum aantal te verwijderen items
+
+Voor het [verwijderen van inhoud](disposition.md) moet u rekening houden met de volgende beperkingen:
+
+- 1.000.000 items in afwachting van verwijdering per fase voor elk retentielabel
+
+- Bewijs van verwijdering tot zeven jaar nadat het item is verwijderd, met een limiet van 1.000.000 artikelen per retentielabel voor die periode. 
+    
+    Als u een bewijs van verwijdering nodig hebt dat hoger is dan deze limiet van 1.000.000 voor items die zijn gemarkeerd als records, neemt u contact op met [Microsoft-ondersteuning](../business-video/get-help-support.md).

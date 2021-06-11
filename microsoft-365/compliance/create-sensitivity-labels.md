@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Een vereiste voor alle Microsoft Information Protection-oplossingen: gevoelige labels maken, configureren en publiceren om de gegevens van uw organisatie te classificeren en te beveiligen.'
-ms.openlocfilehash: fc7debbe2fe1d59d4d172fd23587d0b2a1e6705e
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 328bf7bdac3a8de23820d861932ee20d71e911b4
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244622"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878182"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>Gevoeligheidslabels en hun beleid maken en configureren
 
@@ -180,7 +180,10 @@ Bewerk een bestaand labelbeleid door het te selecteren en selecteer vervolgens d
 
 Met deze knop start u de wizard **Beleid maken** , waarmee u de opgenomen labels en labelinstellingen kunt bewerken. Wanneer u de wizard voltooit, worden alle wijzigingen automatisch gerepliceerd naar de geselecteerde gebruikers en services.
 
-Wanneer u ingebouwde labeling voor Office-apps voor Windows, macOS, iOS en Android gebruikt, zien gebruikers binnen vier uur nieuwe labels; labels voor Word, Excel zijn binnen een uur zichtbaar en labels voor de webbrowser zijn zichtbaar wanneer u de browser vernieuwt. Het duurt echter maximaal 24 uur voordat wijzigingen naar alle apps en services zijn gerepliceerd.
+Wanneer u ingebouwde labeling gebruikt voor Office-apps op Windows, macOS, iOS en Android, zien gebruikers nieuwe labels binnen vier uur en binnen een uur voor de webversie van Word, Excel en PowerPoint wanneer u de browser vernieuwt. Het kan echter 24 uur duren voordat wijzigingen naar alle apps en services zijn gerepliceerd.
+
+> [!NOTE]
+> Andere apps en services die gevoeligheidslabels ondersteunen, worden mogelijk vaker dan 24 uur bijgewerkt met hun eigen updateschema's en triggers voor beleidsupdates. Raadpleeg de documentatie voor meer informatie. Zie bijvoorbeeld voor de Azure Information Protection Unified labeling-client de rij **Beleidsupdate** in de tabel [Gedetailleerde vergelijkingen voor de Azure Information Protection-clients](/azure/information-protection/rms-client/use-client#detailed-comparisons-for-the-azure-information-protection-clients).
 
 ### <a name="additional-label-policy-settings-with-security--compliance-center-powershell"></a>Aanvullende labelbeleidsinstellingen met Beveiligings- en compliancecentrum PowerShell
 

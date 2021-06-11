@@ -19,12 +19,12 @@ search.appverid:
 description: Meer informatie over drie hulpprogramma's die u kunt gebruiken om te controleren op lekkage van persoonlijke gegevens.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0976c0d1c0c8d3ebb25ebf423f1d9df2f71fc852
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 05d31ac36fbdc687c60ec3c03efac9be43da9c39
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538277"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878482"
 ---
 # <a name="monitor-for-leaks-of-personal-data"></a>Controleer op lekken van persoonlijke gegevens
 
@@ -50,33 +50,27 @@ Nadat u uw DLP-beleid (Data Loss Prevention) heeft gemaakt, moet u controleren o
 Met de DLP-rapporten kunt u het volgende doen:
 
 - Focus op specifieke tijdsperiodes en begrijp de redenen voor pieken en trends.
-
 - Ontdek bedrijfsprocessen die strijdig zijn met het DLP-beleid van uw organisatie.
-
 - Begrijp de zakelijke impact van het DLP-beleid.
-
 - Bekijk de redenen die door gebruikers zijn ingediend bij het oplossen van een beleidstip door het beleid te negeren of een fout-positief te melden.
-
 - Controleer de naleving van een specifiek DLP-beleid door alle overeenkomsten voor dat beleid weer te geven.
-
 - Bekijk een lijst met bestanden met gevoelige gegevens die overeenkomen met uw DLP-beleid in het detailvenster.
 
 Daarnaast kunt u met de DLP-rapporten uw DLP-beleid nauwkeurig afstemmen terwijl u ze in de testmodus uitvoert.
 
-DLP-rapporten zijn te vinden in het beveiligingscentrum en het compliancecentrum. Navigeer naar rapporten \> Rapporten weergeven. Ga onder preventie van gegevensverlies (DLP) naar DLP-beleid en regelovereenkomsten of DLP foute positieven en overschrijvingen.
+DLP-rapporten kunt u vinden in het Microsoft 365-compliancecentrum. Ga naar de sectie **Rapporten** \> **Organisatiegegevens** om de **DLP-beleidsovereenkomsten**, **DLP-incidenten** en rapporten voor **Fout-positieven en overschrijvingen voor DLP** te zoeken.
 
 Zie [de rapporten weergeven voor preventie van gegevensverlies](../../compliance/view-the-dlp-reports.md)voor meer informatie.
 
 ![Rapport met DLP-beleidsovereenkomsten](../../media/Monitor-for-leaks-of-personal-data-image2.png)
 
-## <a name="audit-log-and-alert-policies"></a>controlelogboek en waarschuwingsbeleid
+## <a name="audit-log-and-alert-policies"></a>Auditlogboek en waarschuwingsbeleid
 
 Het auditlogboek bevat gebeurtenissen van Exchange Online, SharePoint Online, OneDrive voor Bedrijven, Azure Active Directory, Microsoft Teams, Power BI, Sway en andere services.
 
-Het beveiligingscentrum en het compliancecentrum bieden twee manieren om het auditlogboek te controleren en erover te rapporteren:
+De Microsoft 365 Defender-portal en het Microsoft 365-compliancecentrum bieden twee manieren om het auditlogboek te controleren en erover te rapporteren:
 
-- Waarschuwingsbeleid instellen, waarschuwingen bekijken en trends volgen - Gebruik het waarschuwingsbeleid en de dashboardinstrumenten in het beveiligingscentrum of het compliancecentrum.
-
+- Waarschuwingsbeleid instellen, waarschuwingen bekijken en trends volgen - Gebruik het waarschuwingsbeleid en de dashboardinstrumenten in de Microsoft 365 Defender-portal of het Microsoft 365-compliancecentrum.
 - Direct in het auditlogboek zoeken: Zoek naar alle gebeurtenissen in een gespecificeerd datumbereik. U kunt de resultaten ook filteren op basis van specifieke criteria, zoals de gebruiker die de actie heeft uitgevoerd, de actie of het doelobject.
 
 Teams voor informatiebeveiliging en compliance kunnen deze hulpmiddelen gebruiken om proactief activiteiten te bekijken die worden uitgevoerd door zowel eindgebruikers als beheerders in services. Automatische waarschuwingen kunnen worden geconfigureerd om e-mailmeldingen te verzenden wanneer bepaalde activiteiten plaatsvinden op specifieke siteverzamelingen. Bijvoorbeeld wanneer inhoud wordt gedeeld van sites waarvan bekend is dat ze AVG-gerelateerde informatie bevatten. Hierdoor kunnen deze teams gebruikers opvolgen om ervoor te zorgen dat het beveiligingsbeleid van het bedrijf wordt gevolgd of om aanvullende training te geven.
@@ -88,15 +82,10 @@ Er zijn oplossingen beschikbaar die zich via de Microsoft Management Activity AP
 Meer informatie over het waarschuwingsbeleid en het doorzoeken van het auditlogboek:
 
 - [Waarschuwingsbeleid in Microsoft 365](../../compliance/alert-policies.md)
-
 - [Zoeken in het auditlogboek naar gebruikers- en beheerdersactiviteit in Office 365](../../compliance/search-the-audit-log-in-security-and-compliance.md) (Inleiding)
-
 - [Auditlogboeken zoeken in- of uitschakelen](../../compliance/turn-audit-log-search-on-or-off.md).
-
 - [Zoeken in het auditlogboek](../../compliance/search-the-audit-log-in-security-and-compliance.md)
-
 - [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog) (cmdlet)
-
 - [Gedetailleerde eigenschappen in het auditlogboek](../../compliance/detailed-properties-in-the-office-365-audit-log.md)
 
 ## <a name="microsoft-cloud-app-security"></a>Microsoft Cloud App Security
@@ -124,16 +113,15 @@ Deze kenmerktypen komen binnenkort beschikbaar in Cloud App Security:
 
 Als u de Cloud App Security nog niet gebruikt, begint u met het starten van de app. Voor toegang tot Cloud App Security: <https://portal.cloudappsecurity.com>.
 
-Opmerking: zorg ervoor dat u 'Bestanden automatisch scannen naar classificatielabels van Azure Information Protection' (in Algemene instellingen) inschakelt wanneer u aan de slag gaat met Cloud App Security of voordat u labels toewijst. Na de installatie worden bestaande bestanden niet opnieuw gescand door Cloud App Security totdat ze worden gewijzigd.
+> [!NOTE]
+> Zorg ervoor dat u 'Bestanden automatisch scannen naar classificatielabels van Azure Information Protection' (in Algemene instellingen) inschakelt wanneer u aan de slag gaat met Cloud App Security of voordat u labels toewijst. Na de installatie worden bestaande bestanden niet opnieuw gescand door Cloud App Security totdat ze worden gewijzigd.
 
 ![Dashboard met informatie over waarschuwingen](../../media/Monitor-for-leaks-of-personal-data-image4.png)
 
 Meer informatie:
 
 - [Cloud App Security implementeren](/cloud-app-security/getting-started-with-cloud-app-security)
-
 - [Meer informatie over Microsoft Cloud App Security](https://www.microsoft.com/cloud-platform/cloud-app-security)
-
 - [Blokkeer downloads van gevoelige informatie met behulp van de Microsoft Cloud App Security-proxy](/cloud-app-security/use-case-proxy-block-session-aad)
 
 ## <a name="example-file-and-activity-policies-to-detect-sharing-of-personal-data"></a>Voorbeeld van bestands- en activiteitenbeleid om het delen van persoonlijke gegevens te detecteren
@@ -141,6 +129,8 @@ Meer informatie:
 ### <a name="detect-sharing-of-files-containing-pii--credit-card-number"></a>Het delen van bestanden met PII opsporen: creditcardnummer
 
 Waarschuwen wanneer een bestand met een creditcardnummer wordt gedeeld vanuit een goedgekeurde cloud-app.
+
+<br>
 
 ****
 
@@ -170,6 +160,8 @@ Opmerkingen:
 
 - Voor het bewaken van Box moet een connector worden geconfigureerd met de API-connector SDK.
 - Dit beleid vereist functies die momenteel in de preview-versie privé zijn.
+
+<br>
 
 ****
 

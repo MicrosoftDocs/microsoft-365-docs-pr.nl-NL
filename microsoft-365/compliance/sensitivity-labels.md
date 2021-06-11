@@ -22,12 +22,12 @@ description: Gebruik vertrouwelijkheidslabels van Microsoft Information Protecti
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 42ac45fcea72d0ccdae69f6b7315cf31d38121d7
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: 5c54b9c9b9046a1c410418a9ae5a922bdad9c442
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730244"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878074"
 ---
 # <a name="learn-about-sensitivity-labels"></a>Meer informatie over vertrouwelijkheidslabels
 
@@ -196,8 +196,7 @@ Wanneer u labelbeleid configureert, kunt u:
 
     ![Prompt in Outlook waarin de gebruiker wordt gevraagd een verplicht label toe te passen](../media/sensitivity-labels-mandatory-prompt-aipv2-outlook.PNG)
     
-    > [!NOTE]
-    > Verplichte labels voor documenten en e-mailberichten zijn niet beschikbaar voor alle apps of alle platforms. Zie [Vereisen dat gebruikers een label toepassen op hun e-mail en documenten](sensitivity-labels-office-apps.md#require-users-to-apply-a-label-to-their-email-and-documents) voor meer informatie.
+    Zie [Vereisen dat gebruikers een label toepassen op hun e-mail en documenten](sensitivity-labels-office-apps.md#require-users-to-apply-a-label-to-their-email-and-documents) voor meer informatie.
     
     Aan containers moet een label worden toegewezen op het moment dat de groep of site wordt gemaakt.
     

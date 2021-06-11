@@ -20,12 +20,12 @@ ms.custom:
 description: Gebruikers kunnen meer informatie krijgen over het weergeven en beheren van berichten in quarantaine in Exchange Online Protection (EOP) die aan hun hadden moeten worden afgeleverd.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 68656d21b8c10157ebae5d030e56293ba1ce07f7
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 60b319b81362b9d88afcd734021db227969b04d0
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52539117"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52877870"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user-in-eop"></a>Berichten in quarantaine zoeken en vrijgeven als gebruiker in EOP
 
@@ -38,13 +38,26 @@ ms.locfileid: "52539117"
 
 In Microsoft 365-bedrijven met postvakken in Exchange Online of EOP-bedrijven (standalone Exchange Online Protection) zonder Exchange Online-postvakken worden potentieel gevaarlijke of ongewenste berichten in quarantaine geplaatst. Zie [Quarantaine in EOP](quarantine-email-messages.md) voor meer informatie.
 
-Als gebruiker kunt u uw berichten in quarantaine zien, vrijgeven en verwijderen, als u een ontvanger bent en het bericht in quarantaine is geplaatst als spam of bulkmail. Vanaf april 2020 kunt u phishingberichten (niet de e-mails met hoge waarschijnlijkheid) weergeven of verwijderen als u een ontvanger bent. U kunt uw in quarantaine geplaatste berichten weergeven en beheren in het beveiligings- en compliancecentrum of (als een beheerder dit heeft ingesteld) in [spammeldingen voor eindgebruikers](use-spam-notifications-to-release-and-report-quarantined-messages.md).
+Als ontvanger van een in quarantaine geplaatst bericht wordt in de volgende tabel beschreven wat u als gewone gebruiker met het bericht kunt doen:
+
+<br>
+
+****
+
+|Reden van quarantaine|Weergeven|Vrijgeven|Verwijderen|
+|---|:---:|:---:|:---:|
+|Bulk|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|
+|Spam|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|
+|Phishing (geen hoge phishingwaarschijnlijkheid)|![Vinkje](../../media/checkmark.png)||![Vinkje](../../media/checkmark.png)|
+|
+
+U kunt uw in quarantaine geplaatste berichten weergeven en beheren in de Microsoft 365 Defender-portal of (als een beheerder dit heeft ingesteld) in [spammeldingen voor eindgebruikers](use-spam-notifications-to-release-and-report-quarantined-messages.md).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- Ga naar <https://protection.office.com> om het Beveiligings- en compliancecentrum te openen. Ga naar <https://protection.office.com/quarantine> als u de quarantaine-pagina direct wilt openen.
+- Ga naar <https://security.microsoft.com> als u de Microsoft 365 Defender-portal wilt openen. Ga naar <https://security.microsoft.com/quarantine> als u de quarantaine-pagina direct wilt openen.
 
-- Beheerders kunnen instellen hoe lang berichten in quarantaine blijven voordat ze permanent worden verwijderd (antispambeleid). Berichten waarvan de quarantaine is verlopen, kunnen niet meer worden hersteld. Zie [Antispambeleid configureren in EOP](configure-your-spam-filter-policies.md) voor meer informatie.
+- Beheerders kunnen instellen hoelang berichten in quarantaine blijven voordat ze permanent worden verwijderd in het antispambeleid. Berichten waarvan de quarantaine is verlopen, kunnen niet meer worden hersteld. Zie [Antispambeleid configureren in EOP](configure-your-spam-filter-policies.md) voor meer informatie.
 
 - Beheerders kunnen ook [Spammeldingen voor eindgebruikers inschakelen](configure-your-spam-filter-policies.md#configure-end-user-spam-notifications) in antispambeleid. Gebruikers kunnen in quarantaine geplaatste ongewenste berichten rechtstreeks vanuit deze meldingen vrijgeven. Gebruikers kunnen in quarantaine geplaatste phishingberichten (niet phishingberichten van hoge waarschijnlijkheid) rechtstreeks vanuit deze meldingen controleren. Zie [Spammeldingen voor eindgebruikers in EOP](use-spam-notifications-to-release-and-report-quarantined-messages.md) voor meer informatie.
 
@@ -54,7 +67,7 @@ Als gebruiker kunt u uw berichten in quarantaine zien, vrijgeven en verwijderen,
 
 ## <a name="view-your-quarantined-messages"></a>Uw berichten in quarantaine bekijken
 
-1. Ga in het Beveiligings- en compliancecentrum naar **Bedreigingsbeheer** \> **Bekijken** \> **Quarantaine**.
+1. Ga in de Microsoft 365 Defender-portal naar **E-mail en samenwerking** \> **Beoordeling** \> **Quarantine**.
 
 2. U kunt de resultaten sorteren door op een beschikbare kolomkop te klikken. Klik op **Kolommen wijzigen** om maximaal zeven kolommen te laten zien. Standaardwaarden worden aangegeven met een sterretje (<sup>\*</sup>):
 
@@ -89,21 +102,22 @@ Als gebruiker kunt u uw berichten in quarantaine zien, vrijgeven en verwijderen,
      - **Phishing**
 
    - **Beleidstype**: berichten filteren op beleidstype:
+     - **Anti-malwarebeleid**
+     - **Beleid voor veilige bijlagen** (Defender voor Office 365)
      - **Beleid tegen phishing**
      - **Beleid voor gehoste inhoudsfilters** (antispambeleid)
+     - **Transportregel**
+
+     <sup>\*</sup>
 
    Als u het filter wilt wissen, drukt u op **Wissen**. Als u het filterdeelvenster wilt verbergen, klikt u opnieuw op **Filter**.
 
 4. Gebruik **Resultaten sorteren op** (standaard de knop **Bericht-ID**) en een bijbehorende waarde om naar specifieke berichten te zoeken. Jokertekens worden niet ondersteund. U kunt zoeken op een van de volgende waarden:
 
    - **Bericht-ID**: de wereldwijd unieke identificatie van het bericht. Als u een bericht selecteert in de lijst, verschijnt de waarde **Bericht-ID** in het deelvenster **Details** dat wordt weergegeven. Beheerders kunnen [berichttracering](message-trace-scc.md) gebruiken om naar berichten en de bijbehorende bericht-ID’s te zoeken.
-
    - **E-mailadres afzender**: een enkel e-mailadres van een afzender.
-
    - **Beleidsnaam**: gebruik de volledige Beleidsnaam van het bericht. De zoekopdracht is niet hoofdlettergevoelig.
-
    - **E-mailadres ontvanger**: een enkel e-mailadres van een ontvanger.
-
    - **Onderwerp**: gebruik het volledige onderwerp van het bericht. De zoekopdracht is niet hoofdlettergevoelig.
 
    Nadat u de zoekcriteria hebt opgegeven, klikt u op de ![Knop vernieuwen](../../media/scc-quarantine-refresh.png) **Vernieuwen** om de resultaten te filteren.
@@ -123,21 +137,13 @@ Nadat u een specifiek bericht in quarantaine hebt gevonden, selecteert u het ber
 Wanneer u een e-mailbericht selecteert in de lijst verschijnen de volgende berichtdetails in het deelvenster **Details**:
 
 - **Bericht-ID**: de wereldwijd unieke identificatie van het bericht.
-
 - **Adres afzender**
-
 - **Ontvangen op**: de datum/tijd waarop het bericht is ontvangen.
-
 - **Onderwerp**
-
 - **Reden van quarantaine**: wordt getoond als een bericht is geïdentificeerd als **Spam**, **Bulk** of **Phishing**.
-
 - **Ontvangers**: als het bericht naar meerdere ontvangers is gestuurd, moet u klikken op **Preview bericht** of **Berichtkop bekijken** om de volledige lijst met ontvangers te zien.
-
 - **Vervalt op**: de datum/tijd waarop het bericht automatisch en permanent wordt verwijderd uit quarantaine.
-
 - **Vrijgegeven aan**: alle e-mailadressen (indien aanwezig) waaraan het bericht is vrijgegeven.
-
 - **Nog niet vrijgegeven aan**: alle e-mailadressen (indien aanwezig) waaraan het bericht nog niet is vrijgegeven.
 
 ### <a name="take-action-on-quarantined-email"></a>Actie ondernemen op e-mail in quarantaine
@@ -169,7 +175,6 @@ Als u het bericht niet vrijgeeft of verwijdert, wordt het verwijderd nadat de st
 Wanneer u meerdere e-mailberichten in quarantaine selecteert (maximaal 100), verschijnt het deelvenster **Bulkopdrachten**, waar u de volgende acties kunt uitvoeren:
 
 - **Berichten vrijgeven**: de opties zijn dezelfde als wanneer u een enkel bericht vrijgeeft, behalve dat u **Berichten vrijgeven aan specifieke ontvangers** niet kunt selecteren. U kunt alleen **Bericht vrijgeven aan alle ontvangers** of **Berichten vrijgeven aan andere personen**.
-
 - **Berichten verwijderen**: nadat u op **Ja** hebt geklikt in de waarschuwing die wordt weergegeven, worden de berichten onmiddellijk verwijderd, zonder naar de originele ontvanger te worden verzonden.
 
 Klik op **Sluiten** wanneer u gereed bent.
