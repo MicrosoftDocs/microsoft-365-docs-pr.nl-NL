@@ -273,7 +273,10 @@
 #### [Mogelijk ongewenste toepassingen detecteren en blokkeren](detect-block-potentially-unwanted-apps-microsoft-defender-antivirus.md)
 #### [Always-on beveiliging van Microsoft Defender Antivirus inschakelen en configureren in Groepsbeleid](configure-real-time-protection-microsoft-defender-antivirus.md)
 #### [Herstel configureren voor Microsoft Defender Antivirus-detecties](configure-remediation-microsoft-defender-antivirus.md)
-#### [Geplande snelle of volledige Microsoft Defender Antivirus-scans configureren](scheduled-catch-up-scans-microsoft-defender-antivirus.md)
+#### [Microsoft Defender Antivirus-scans configureren](schedule-antivirus-scans.md)
+##### [Virusscans plannen met groepsbeleid](schedule-antivirus-scans-group-policy.md)
+##### [Virusscans plannen met PowerShell](schedule-antivirus-scans-powershell.md)
+##### [Virusscans plannen met Windows Management Instrumentation (WMI)](schedule-antivirus-scans-wmi.md)
 #### [Beperkt periodiek scannen gebruiken in Microsoft Defender Antivirus](limited-periodic-scanning-microsoft-defender-antivirus.md)
 #### [Compatibiliteit met andere beveiligingsproducten](microsoft-defender-antivirus-compatibility.md)
 
@@ -468,6 +471,8 @@
 ###### [Toegang krijgen tot toepassingscontext](exposed-apis-create-app-webapp.md)
 ###### [Toegang krijgen tot gebruikerscontext](exposed-apis-create-app-nativeapp.md)
 ###### [Toegang krijgen toegang tot partnertoepassingen](exposed-apis-create-app-partners.md)
+
+
 ##### [Schema van API's voor Microsoft Defender voor Eindpunt]()
 ###### [Ondersteunde API's voor Microsoft Defender voor Eindpunt](exposed-apis-list.md)
 ###### [Algemene REST API-foutcodes](common-errors.md)
@@ -520,6 +525,7 @@
 ####### [Waarschuwingen met betrekking tot IP ophalen](get-ip-related-alerts.md)
 ####### [IP-statistieken ophalen](get-ip-statistics.md)
 
+
 ###### [Computer]()
 ####### [Computermethoden en -eigenschappen](machine.md)
 ####### [Lijst van computers](get-machines.md)
@@ -535,19 +541,23 @@
 ####### [Ontbrekende KB's ophalen](get-missing-kbs-machine.md)
 ####### [Apparaatwaarde instellen](set-device-value.md)
 
+
 ###### [Computeractie]()
 ####### [Actiemethoden en -eigenschappen van computer](machineaction.md)
 ####### [Lijst van computeracties](get-machineactions-collection.md)
 ####### [Computeractie ophalen](get-machineaction-object.md)
 ####### [Onderzoekspakket verzamelen](collect-investigation-package.md)
 ####### [Onderzoekspakket SAS URI ophalen](get-package-sas-uri.md)
+####### [Resultaat van Live-reactie ophalen](get-live-response-result.md)
 ####### [Computer isoleren](isolate-machine.md)
 ####### [Computer loslaten uit isolatie](unisolate-machine.md)
 ####### [Het uitvoeren van apps beperken](restrict-code-execution.md)
 ####### [App-beperking verwijderen](unrestrict-code-execution.md)
 ####### [Antivirusscan uitvoeren](run-av-scan.md)
+####### [Live-reactie uitvoeren](run-live-response.md) 
 ####### [Computer offboarden](offboard-machine-api.md)
 ####### [Bestand stoppen en in quarantaine plaatsen](stop-and-quarantine-file.md)
+####### [Computeractie annuleren](cancel-machine-action.md)
 
 ###### [Aanbeveling]()
 ####### [Aanbevelingsmethoden en -eigenschappen](recommendation.md)

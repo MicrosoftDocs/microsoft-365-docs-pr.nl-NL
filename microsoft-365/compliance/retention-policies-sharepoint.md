@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Meer informatie over hoe retentie werkt voor SharePoint en OneDrive.
-ms.openlocfilehash: 90e94f4ff94b65860890ab65b451107d1d02963f
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 14b3bebab8b73b7b45c79a34903fed5d0f6ec9ca
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52625243"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861585"
 ---
 # <a name="learn-about-retention-for-sharepoint-and-onedrive"></a>Meer informatie over retentie voor SharePoint en OneDrive
 
@@ -91,6 +91,9 @@ Wanneer de retentie-instellingen voor bewaren en verwijderen zijn:
     > Om onbedoeld gegevensverlies te voorkomen, verwijderen we inhoud niet meer definitief uit de opslagbibliotheek. In plaats daarvan verwijderen we de inhoud alleen definitief uit de Prullenbak, zodat alle inhoud uit de opslagbibliotheek nu via de Prullenbak voor het tweede stadium gaat.
     
 2. **Als de inhoud niet wordt gewijzigd of verwijderd** tijdens de bewaarperiode, verplaatst de timertaak deze inhoud naar de Prullenbak voor het eerste stadium aan het einde van de bewaarperiode. Als een gebruiker de inhoud daar verwijdert of deze Prullenbak leegt (ook wel opschonen genoemd), wordt het document verplaatst naar de Prullenbak voor het tweede stadium. Een bewaarperiode van 93 dagen omvat de Prullenbakken voor het eerste en het tweede stadium. Aan het einde van 93 dagen wordt het document definitief verwijderd waar het zich ook bevindt, in de Prullenbak voor het eerste stadium of de Prullenbak voor het tweede stadium. De Prullenbak is niet geïndexeerd en dus niet beschikbaar voor zoeken. Daardoor kan een eDiscovery-zoekopdracht geen Prullenbak-inhoud vinden waarop bewaring moet worden toegepast.
+
+> [!NOTE]
+> Vanwege het [eerste bewaarprincipe](retention.md#the-principles-of-retention-or-what-takes-precedence) wordt een permanente verwijdering altijd opgeschort als hetzelfde item moet worden bewaard vanwege een ander bewaarbeleid of retentielabel of als het om juridische of onderzoeksredenen onder een eDiscovery-bewaring valt.
 
 Wanneer de retentie-instellingen alleen bewaren of alleen verwijderen zijn, zijn de inhoudspaden variaties van behouden en verwijderen:
 

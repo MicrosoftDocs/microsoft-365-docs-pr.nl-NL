@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Lees hoe retentie werkt voor Exchange.
-ms.openlocfilehash: 0763b8bdab75ac76197b8c89f187bb573a3e4bb1
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: efb95b22355bff292ef63c77fb77fb5a15d66722
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "52162081"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861129"
 ---
 # <a name="learn-about-retention-for-exchange"></a>Meer informatie over retentie voor Exchange
 
@@ -40,7 +40,7 @@ Agenda-items die een einddatum hebben, worden ondersteund voor bewaarbeleidsrege
 
 Contacten, en taken en agenda-items die geen einddatum hebben worden niet ondersteund.
 
-Andere items die zijn opgeslagen in een mailbox, zoals Skype- en Teams-berichten, vallen niet binnen het bewaarbeleid of -labels voor Exchange. Voor deze items gelden aparte bewaarbeleidsregels.
+Andere items die zijn opgeslagen in een postvak, zoals berichten van Skype en Teams, worden niet opgenomen in bewaarbeleid of retentielabels voor Exchange. Deze items hebben hun eigen bewaarbeleid.
 
 ## <a name="how-retention-works-for-exchange"></a>Hoe retentie werkt voor Exchange
 
@@ -48,7 +48,10 @@ Zowel postvakken als openbare mappen gebruiken de [map Herstelbare items](/excha
   
 Als iemand een bericht verwijdert in een andere map dan de map Verwijderde items, wordt het bericht standaard verplaatst naar de map Verwijderde items. Als iemand een bericht verwijdert in de map Verwijderde items, wordt het bericht standaard verplaatst naar de map Herstelbare items. Een gebruiker kan in iedere map echter een item voorlopig verwijderen (Shift+Delete) waardoor de map Verwijderde items wordt overgeslagen en het item direct naar de map Herstelbare items wordt verplaatst.
   
-Als u bewaarinstellingen toepast op Exchange-gegevens, worden de items in de map Herstelbare items regelmatig door een timeropdracht geanalyseerd. Als een item niet overeenkomt met de regels van ten minste één bewaarbeleidsregel of retentielabel, wordt het item permanent verwijderd (definitief verwijderd) uit de map Herstelbare items.
+Als u bewaarinstellingen toepast op Exchange-gegevens, worden de items in de map Herstelbare items regelmatig door een timeropdracht geanalyseerd. Als een item niet overeenkomt met de regels van ten minste één bewaarbeleid of retentielabel, wordt het item permanent verwijderd (definitief verwijderd) uit de map Herstelbare items.
+
+> [!NOTE]
+> Vanwege het [eerste bewaarprincipe](retention.md#the-principles-of-retention-or-what-takes-precedence) wordt een permanente verwijdering altijd opgeschort als hetzelfde item moet worden bewaard vanwege een ander bewaarbeleid of retentielabel of als het om juridische of onderzoeksredenen onder een eDiscovery-bewaring valt.
 
 Het uitvoeren van een timeropdracht kan tot zeven dagen duren en de Exchange-locatie moet ten minste 10 MB bevatten.
   
