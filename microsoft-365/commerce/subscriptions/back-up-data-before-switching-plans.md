@@ -21,7 +21,7 @@ search.appverid:
 - MET150
 - MOE150
 - BEA160
-description: Back-up maken van Outlook-, OneDrive-, Yammer- en SharePoint-inhoud voordat u Microsoft 365-abonnementen verandert.
+description: Back-Outlook, OneDrive, Yammer en SharePoint voordat u de Microsoft 365 wijzigen.
 ms.date: 03/17/2021
 ms.openlocfilehash: 86953f3235d8725ecdd6b5294611c0e5a378b17d
 ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
@@ -30,29 +30,29 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/12/2021
 ms.locfileid: "52333348"
 ---
-# <a name="back-up-data-before-switching-microsoft-365-for-business-plans"></a>Een back-up maken van gegevens voordat u overschakelt naar Microsoft 365 voor Bedrijven-abonnementen
+# <a name="back-up-data-before-switching-microsoft-365-for-business-plans"></a>Een back-up maken van gegevens voordat Microsoft 365 voor bedrijven-abonnementen
 
-Als een gebruiker wordt overgeschakeld naar een ander abonnement dat minder gegevensgerelateerde services heeft of als een gebruiker de organisatie verlaat, kan een kopie van de gegevens die zijn opgeslagen in Microsoft 365, worden gedownload voordat hij of zij overschakelt naar het nieuwe abonnement.
+Als een gebruiker wordt overgeschakeld naar een ander abonnement dat minder gegevensgerelateerde services heeft of als een gebruiker de organisatie verlaat, kan een kopie van de gegevens die zijn opgeslagen in Microsoft 365 worden gedownload voordat hij of zij overschakelt naar het nieuwe abonnement.
 
 Als u een gebruiker verplaatst naar een abonnement dat dezelfde of meer services heeft, hoeft u geen back-up te maken van gebruikersgegevens. Zie [Gebruikers verplaatsen naar een ander abonnement.](./move-users-different-subscription.md)
   
-## <a name="save-a-copy-of-outlook-information"></a>Een kopie van Outlook-gegevens opslaan
+## <a name="save-a-copy-of-outlook-information"></a>Een kopie van de Outlook opslaan
 
-Als gebruikers Outlook hebben, kunnen ze [e-mail,](https://support.microsoft.com/office/14252b52-3075-4e9b-be4e-ff9ef1068f91) contactpersonen en agenda exporteren of back-up maken naar een PST-bestand van Outlook voordat hun abonnement wordt overgeschakeld.
+Als gebruikers Outlook hebben, kunnen ze e-mail, contactpersonen en agenda exporteren of back-up maken naar een Outlook [PST-bestand](https://support.microsoft.com/office/14252b52-3075-4e9b-be4e-ff9ef1068f91) voordat hun abonnement wordt overgeschakeld.
   
-Nadat de overstap naar het nieuwe abonnement is voltooid, kunnen gebruikers e-mail, contactpersonen en agenda importeren [uit een PST-bestand](https://support.microsoft.com/office/431a8e9a-f99f-4d5f-ae48-ded54b3440ac)van Outlook.
+Nadat de overstap naar het nieuwe abonnement is voltooid, kunnen gebruikers e-mail, contactpersonen en agenda importeren uit een [Outlook PST-bestand.](https://support.microsoft.com/office/431a8e9a-f99f-4d5f-ae48-ded54b3440ac)
   
 ## <a name="save-files-stored-in-onedrive-for-business"></a>Bestanden opslaan die zijn opgeslagen in OneDrive voor Bedrijven
 
 Voordat gebruikers worden overgeschakeld naar een ander abonnement, kunnen gebruikers bestanden en mappen downloaden van OneDrive of SharePoint naar een andere locatie, zoals een map op de harde schijf van hun computer of een [bestands](https://support.microsoft.com/office/5c7397b7-19c7-4893-84fe-d02e8fa5df05) delen in het netwerk van de organisatie.
   
-## <a name="save-yammer-information"></a>Yammer-gegevens opslaan
+## <a name="save-yammer-information"></a>Gegevens Yammer opslaan
 
-Beheerders kunnen alle berichten, notities, bestanden, onderwerpen, gebruikers en groepen exporteren naar een ZIP-bestand. Zie Gegevens exporteren [vanuit Yammer Enterprise](/yammer/manage-security-and-compliance/export-yammer-enterprise-data)voor meer informatie. Ontwikkelaars kunnen hiervoor ook [de Yammer-API](https://go.microsoft.com/fwlink/p/?linkid=842495) gebruiken.
+Beheerders kunnen alle berichten, notities, bestanden, onderwerpen, gebruikers en groepen exporteren naar een ZIP-bestand. Zie Gegevens exporteren van [Yammer Enterprise.](/yammer/manage-security-and-compliance/export-yammer-enterprise-data) Ontwikkelaars kunnen de [Yammer API](https://go.microsoft.com/fwlink/p/?linkid=842495) ook gebruiken om dit te doen.
   
 ## <a name="how-to-save-sharepoint-information"></a>SharePoint-gegevens opslaan
 
-Als een gebruiker is overgeschakeld van een abonnement met SharePoint Online naar een abonnement dat deze niet heeft, wordt de **SharePoint-tegel** niet meer weergegeven in het Microsoft 365-menu.
+Als een gebruiker is overgeschakeld van een abonnement dat SharePoint Online heeft naar een abonnement dat deze niet heeft, wordt de **tegel SharePoint** niet meer weergegeven in het Microsoft 365 menu.
   
 Als het nieuwe abonnement zich echter binnen dezelfde organisatie bevindt als het vorige abonnement, hebben gebruikers nog steeds toegang tot de teamsite van SharePoint. Ze kunnen notitieblokken, documenten, taken en agenda's bekijken en bijwerken via de rechtstreekse URL naar de teamsite.
   

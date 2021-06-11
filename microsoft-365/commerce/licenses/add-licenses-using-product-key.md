@@ -87,6 +87,6 @@ Vooruitbetaalde gebruikerslicenties worden aan u verstrekt in de vorm van een al
     > Als u meerdere productcodes hebt, kunt u **Een andere productcode** toevoegen selecteren om deze in te voeren.
 6. Controleer uw ordergegevens en selecteer vervolgens **Inwisselen.**
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-articles"></a>Aanverwante artikelen
 
 [Licenties toewijzen aan gebruikers](../../admin/manage/assign-licenses-to-users.md)

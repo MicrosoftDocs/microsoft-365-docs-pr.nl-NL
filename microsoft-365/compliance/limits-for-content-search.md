@@ -89,7 +89,7 @@ In de volgende tabel worden de limieten vermeld bij het exporteren van de result
 
 In de volgende tabel worden de indexeringslimieten beschreven die ertoe kunnen leiden dat een e-mailbericht wordt geretourneerd als een niet-geïndexeerd item of een gedeeltelijk geïndexeerd item in de resultaten van een inhoudszoekactie.
   
-| Indexeringslimiet | Maximumwaarde | Omschrijving |
+| Indexeringslimiet | Maximumwaarde | Beschrijving |
 |:-----|:-----|:-----|
 |Maximale bijlagegrootte|150 MB  <br/> |De maximale grootte van een e-mailbijlage die wordt geparseerd voor indexering. Elke bijlage die groter is dan deze limiet, wordt niet geparseerd voor indexering en het bericht met de bijlage wordt gemarkeerd als gedeeltelijk geïndexeerd.  <br/> <br/>**Opmerking:** Parseren is het proces waarbij de indexeringsservice tekst uit de bijlage haalt, overbodige tekens zoals interpunctie en spaties verwijdert en vervolgens de tekst opsplitst in woorden (in een proces dat tokenisatie wordt genoemd), die vervolgens in de index worden opgeslagen.           |
 |Maximum aantal bijlagen  <br/> |250  <br/> |Het maximum aantal bestanden dat is gekoppeld aan een e-mailbericht dat wordt geparseerd voor indexering. Als een bericht meer dan 250 bijlagen heeft, worden de eerste 250 bijlagen geparseerd en geïndexeerd en wordt het bericht gemarkeerd als gedeeltelijk geïndexeerd omdat het extra bijlagen had die niet zijn geparseerd.  <br/> |

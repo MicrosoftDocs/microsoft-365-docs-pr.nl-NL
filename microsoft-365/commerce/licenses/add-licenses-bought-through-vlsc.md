@@ -18,7 +18,7 @@ ms.custom:
 - commerce_licensing
 search.appverid: MET150
 ROBOTS: NOINDEX
-description: Lees hoe u licenties toevoegt aan uw Microsoft 365-abonnement dat is gekocht via de externe partner, die door Microsoft wordt herkend.
+description: Lees hoe u licenties toevoegt aan uw Microsoft 365 abonnement dat is gekocht via de externe partner, die wordt herkend door Microsoft.
 ms.date: 04/07/2021
 ms.openlocfilehash: 0e2a3779ae7d93eaaea660209bbc86a6843b553c
 ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
@@ -29,7 +29,7 @@ ms.locfileid: "52331752"
 ---
 # <a name="add-licenses-to-a-subscription-purchased-through-the-volume-licensing-service-center"></a>Licenties toevoegen aan een abonnement dat is gekocht via het Volume Licensing Service Center
 
-Als u uw Microsoft 365 voor Bedrijven- of Office 365 Enterprise-abonnement hebt gekocht via een externe partner, moet u extra licenties kopen via die partner. Als het abonnement is gekocht van een partner die bekend is bij Microsoft, kunt u met behulp van de volgende procedure contact opnemen met uw partner.
+Als u uw abonnement voor Microsoft 365 voor bedrijven of Office 365 Enterprise via een externe partner hebt gekocht, moet u extra licenties kopen via die partner. Als het abonnement is gekocht van een partner die bekend is bij Microsoft, kunt u met behulp van de volgende procedure contact opnemen met uw partner.
   
 ::: moniker range="o365-worldwide"
 

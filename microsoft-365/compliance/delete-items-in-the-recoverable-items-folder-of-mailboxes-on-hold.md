@@ -48,7 +48,7 @@ In dit artikel wordt uitgelegd hoe beheerders items kunnen verwijderen uit de ma
   
 ## <a name="before-you-delete-items"></a>Voordat u items verwijdert
 
-- Als u een inhoudszoekactie wilt maken en uitvoeren, moet u lid zijn van de rollengroep eDiscovery Manager of moet u de rol Compliance Search-beheer toegewezen krijgen. Als u berichten wilt verwijderen, moet u lid zijn van de rollengroep Organisatiebeheer of moet u de functie Zoeken en wissen beheren toegewezen krijgen. Zie eDiscovery-machtigingen toewijzen in het beveiligings- & compliancecentrum voor informatie over het toevoegen van gebruikers [aan een rollengroep.](./assign-ediscovery-permissions.md)
+- Om inhoud te zoeken, moet u lid zijn van de rollengroep eDiscovery-beheerder of aan de beheerdersrol Compliance zoeken zijn toegewezen. Om berichten te verwijderen, moet u lid zijn van de rollengroep Organisatiebeheer of aan de rol Zoeken en opschonen zijn toegewezen. Zie [eDiscovery-machtigingen toewijzen in het Beveiligings- en compliancecentrum](./assign-ediscovery-permissions.md) voor informatie over het toevoegen van gebruikers aan een rollengroep.
 
 - De procedure die in dit artikel wordt beschreven, wordt niet ondersteund voor inactieve postvakken. Dat komt omdat u een bewaring (of bewaarbeleid) niet opnieuw kunt gebruiken in een inactief postvak nadat u het hebt verwijderd. Wanneer u een greep uit een inactief postvak verwijdert, wordt het gewijzigd in een normaal, zacht verwijderd postvak en wordt het definitief verwijderd uit uw organisatie nadat het is verwerkt door de Assistent voor beheerde mappen.
 
@@ -198,11 +198,11 @@ Voer de volgende opdracht uit in Exchange Online PowerShell om de In-Place te id
 Get-MailboxSearch -InPlaceHoldIdentity <hold GUID> | FL Name
 ```
 
-Nadat u de In-Place hebt gevonden, kunt u het Exchange-beheercentrum (EAC) of Exchange Online PowerShell gebruiken om het postvak uit de wacht te verwijderen. Zie Een In-Place [maken of verwijderen voor meer informatie.](/exchange/security-and-compliance/create-or-remove-in-place-holds)
+Nadat u de In-Place Hold hebt gevonden, kunt u het Exchange-beheercentrum (EAC) of Exchange Online PowerShell gebruiken om het postvak uit de wacht te verwijderen. Zie Een In-Place [maken of verwijderen voor meer informatie.](/exchange/security-and-compliance/create-or-remove-in-place-holds)
   
 ### <a name="retention-policies-applied-to-specific-mailboxes"></a>Bewaarbeleid toegepast op specifieke postvakken
   
-Voer de volgende opdracht uit in [Security & Compliance Center PowerShell](/powershell/exchange/exchange-online-powershell) om het bewaarbeleid te identificeren dat is toegepast op het postvak. Met deze opdracht worden ook alle Teams-gespreksretentiebeleidsregels die zijn toegepast op een postvak, als return gegeven. Gebruik de GUID (niet inclusief het of voorvoegsel) voor het bewaarbeleid dat `mbx` u hebt geïdentificeerd in stap `skp` 1.
+Voer de volgende opdracht uit in [Security & Compliance Center PowerShell](/powershell/exchange/exchange-online-powershell) om het bewaarbeleid te identificeren dat is toegepast op het postvak. Met deze opdracht worden ook alle Teams gespreksbewaringsbeleid dat op een postvak is toegepast, retourneerde. Gebruik de GUID (niet inclusief het of voorvoegsel) voor het bewaarbeleid dat `mbx` u hebt geïdentificeerd in stap `skp` 1.
 
 ```powershell
 Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name
@@ -212,7 +212,7 @@ Nadat u het bewaarbeleid hebt geïdentificeerd, gaat u naar de pagina Bewaring v
   
 ### <a name="organization-wide-retention-policies"></a>Bewaarbeleid voor de hele organisatie
   
-Bewaarbeleid voor de hele organisatie, exchange en Teams-breed wordt toegepast op elk postvak in de organisatie. Ze worden toegepast op organisatieniveau (niet op postvakniveau) en worden geretourneerd wanneer u de **cmdlet Get-OrganizationConfig** in stap 1 uit runt. Voer de volgende opdracht uit in [Security & Compliance Center PowerShell](/powershell/exchange/exchange-online-powershell) om het bewaarbeleid voor de hele organisatie te identificeren. Gebruik de GUID (exclusief het voorvoegsel) voor het bewaarbeleid voor de hele organisatie dat u  `mbx` hebt geïdentificeerd in stap 1.
+Bewaarbeleid voor Exchange hele organisatie en Teams voor de hele organisatie worden toegepast op elk postvak in de organisatie. Ze worden toegepast op organisatieniveau (niet op postvakniveau) en worden geretourneerd wanneer u de **cmdlet Get-OrganizationConfig** in stap 1 uit runt. Voer de volgende opdracht uit in [Security & Compliance Center PowerShell](/powershell/exchange/exchange-online-powershell) om het bewaarbeleid voor de hele organisatie te identificeren. Gebruik de GUID (exclusief het voorvoegsel) voor het bewaarbeleid voor de hele organisatie dat u  `mbx` hebt geïdentificeerd in stap 1.
 
 ```powershell
 Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name
@@ -220,11 +220,11 @@ Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name
 
 Nadat u het bewaarbeleid voor de hele organisatie hebt geïdentificeerd, gaat u naar de pagina Bewaring van informatiebeheer in het Compliancecentrum voor beveiliging &, bewerkt u elk bewaarbeleid voor de hele organisatie dat u hebt geïdentificeerd in de vorige stap en voegt u het postvak toe aan de lijst met uitgesloten  >   geadresseerden. Als u dit doet, wordt het postvak van de gebruiker verwijderd uit het bewaarbeleid. Het kan tot 24 uur duren voordat de wijziging wordt gerepliceerd.
 
-### <a name="retention-labels"></a>Bewaarlabels
+### <a name="retention-labels"></a>Retentielabels
 
 Wanneer een gebruiker een label gebruikt dat is geconfigureerd om inhoud te behouden of te behouden en vervolgens inhoud te verwijderen naar een map of item in het postvak, is de eigenschap *ComplianceTagHoldApplied-postvak* ingesteld op **Waar.** Wanneer dit gebeurt, wordt het postvak beschouwd als in bewaring, alsof het is geplaatst in de bewaring van rechtszaken of is toegewezen aan een bewaarbeleid.
 
-Voer de volgende opdracht uit in Exchange Online PowerShell om de waarde van de *eigenschap ComplianceTagHoldApplied* te bekijken:
+Als u de waarde van de eigenschap *ComplianceTagHoldApplied* wilt weergeven, moet u de volgende opdracht uitvoeren in Exchange Online PowerShell:
 
 ```powershell
 Get-Mailbox <username> |FL ComplianceTagHoldApplied
@@ -234,7 +234,7 @@ Nadat u hebt vastgesteld dat een postvak in bewaring staat omdat een bewaarlabel
 
 Zie Meer informatie over bewaarbeleid en bewaarlabels voor meer informatie over [etiketten.](retention.md)
 
-### <a name="ediscovery-holds"></a>eDiscovery-bezit
+### <a name="ediscovery-holds"></a>eDiscovery-bewaring
   
 Voer de volgende opdrachten uit in [Security & Compliance Center PowerShell](/powershell/exchange/connect-to-scc-powershell) om de wacht te identificeren die is gekoppeld aan een *eDiscovery-zaak (eDiscovery-bevat)* die is toegepast op het postvak. Gebruik de GUID (exclusief het  `UniH` voorvoegsel) voor de eDiscovery-hold die u hebt geïdentificeerd in stap 1. In de tweede opdracht wordt de naam weergegeven van de eDiscovery-zaak aan de wachtlijst; met de derde opdracht wordt de naam van de wacht in de wacht gezet.
   
@@ -250,11 +250,11 @@ Get-ComplianceCase $CaseHold.CaseId | FL Name
 $CaseHold.Name
 ```
 
-Nadat u de naam van de eDiscovery-zaak en de wacht hebt geïdentificeerd, gaat u naar de **eDiscovery** \> **eDiscovery-pagina** in het compliancecentrum, opent u de zaak en verwijdert u het postvak uit de wacht. Zie de sectie 'eDiscovery holds' in How to identify the type of hold placed on a Exchange Online mailbox (eDiscovery holds) in How to identify the type of hold placed on an Exchange Online mailbox (eDiscovery holds) in How to identify the type of hold placed on an Exchange Online mailbox ( eDiscovery holds) (eDiscovery holds) in How to identify the type of hold placed [on an Exchange Online mailbox](identify-a-hold-on-an-exchange-online-mailbox.md#ediscovery-holds)( eDiscovery holds) (eDiscovery holds) (e
+Nadat u de naam van de eDiscovery-zaak en de wacht hebt geïdentificeerd, gaat u naar de **eDiscovery** \> **eDiscovery-pagina** in het compliancecentrum, opent u de zaak en verwijdert u het postvak uit de wacht. Zie de sectie 'eDiscovery holds' in How to identify the type of hold placed on an Exchange Online mailbox (eDiscovery holds) voor meer informatie over het identificeren van eDiscovery-in- en [wachtvakken.](identify-a-hold-on-an-exchange-online-mailbox.md#ediscovery-holds)
   
 ## <a name="step-4-remove-the-delay-hold-from-the-mailbox"></a>Stap 4: De vertragingsvertraging uit het postvak verwijderen
 
-Nadat een type wachtstand uit een postvak is verwijderd, is de waarde van de eigenschap *DelayHoldApplied* of *DelayReleaseHoldApplied* ingesteld op **Waar.** Dit gebeurt de volgende keer dat de assistent voor beheerde mappen het postvak verwerkt en detecteert dat een wachtpost is verwijderd. Dit wordt  een vertragingsophoud genoemd en betekent dat de feitelijke verwijdering van de wachtstand 30 dagen wordt uitgesteld om te voorkomen dat gegevens definitief uit het postvak worden verwijderd. (Het doel van een vertragings hold is om beheerders de mogelijkheid te geven postvakitems te zoeken of te herstellen die worden verwijderd nadat een wachtstand is verwijderd.)  Wanneer een vertragingsvertraging in het postvak wordt geplaatst, wordt het postvak nog steeds beschouwd als in de wachtstand voor een onbeperkte duur, alsof het postvak in de wachtstand staat. Na 30 dagen verloopt de vertragingstermijn en probeert Microsoft 365 automatisch de vertragingstermijn te verwijderen (door de eigenschap *DelayHoldApplied* of *DelayReleaseHoldApplied* in te stellen op **Onwaar)** zodat de wachtstand wordt verwijderd. Zie de sectie 'Postvakken beheren bij vertragingsvertraging' in Het type wacht in een Exchange Online-postvak identificeren voor meer informatie over een [vertragingsvertraging.](identify-a-hold-on-an-exchange-online-mailbox.md#managing-mailboxes-on-delay-hold)
+Nadat een type wachtstand uit een postvak is verwijderd, is de waarde van de eigenschap *DelayHoldApplied* of *DelayReleaseHoldApplied* ingesteld op **Waar.** Dit gebeurt de volgende keer dat de assistent voor beheerde mappen het postvak verwerkt en detecteert dat een wachtpost is verwijderd. Dit wordt  een vertragingsophoud genoemd en betekent dat de feitelijke verwijdering van de wachtstand 30 dagen wordt uitgesteld om te voorkomen dat gegevens definitief uit het postvak worden verwijderd. (Het doel van een vertragings hold is om beheerders de mogelijkheid te geven postvakitems te zoeken of te herstellen die worden verwijderd nadat een wachtstand is verwijderd.)  Wanneer een vertragingsvertraging in het postvak wordt geplaatst, wordt het postvak nog steeds beschouwd als in de wachtstand voor een onbeperkte duur, alsof het postvak in de wachtstand staat. Na 30 dagen verloopt de vertragingstermijn en Microsoft 365 probeert automatisch de vertragingstermijn te verwijderen (door de eigenschap *DelayHoldApplied* of *DelayReleaseHoldApplied* in te stellen op **Onwaar)** zodat de wachtstand wordt verwijderd. Zie de sectie Postvakken beheren bij vertragingsvertraging voor meer informatie over een vertragingsvertraging in Het type wachtstand in een postvak Exchange Online [identificeren.](identify-a-hold-on-an-exchange-online-mailbox.md#managing-mailboxes-on-delay-hold)
 
 Als de waarde van de eigenschap *DelayHoldApplied* of *DelayReleaseHoldApplied* is ingesteld op **Waar,** voert u een van de volgende opdrachten uit om de vertragingsgreep te verwijderen:
 
@@ -268,7 +268,7 @@ Of
 Set-Mailbox <username> -RemoveDelayReleaseHoldApplied
 ```
 
-U moet de rol Legal Hold in Exchange Online krijgen toegewezen om de parameter *RemoveDelayHoldApplied* of *RemoveDelayReleaseHoldApplied te* gebruiken.
+U moet de rol Legal Hold in Exchange Online toegewezen krijgen om de parameter *RemoveDelayHoldApplied* of *RemoveDelayReleaseHoldApplied te* gebruiken.
 
 ## <a name="step-5-delete-items-in-the-recoverable-items-folder"></a>Stap 5: Items verwijderen in de map Herstelbare items
 
@@ -278,13 +278,13 @@ Als u wilt zoeken naar items die zich in de map Herstelbare items bevinden, rade
 
 Hier is een overzicht van het proces voor het zoeken naar en verwijderen van items in de map Herstelbare items van een gebruiker:
 
-1. Voer het doelverzamelingsscript uit dat de map-ed's retourneert voor alle mappen in het postvak van de doelgebruiker. Het script maakt verbinding met Exchange Online PowerShell en & Compliance PowerShell in dezelfde PowerShell-sessie. Zie Het script uitvoeren voor een lijst met [mappen voor een postvak voor meer informatie.](use-content-search-for-targeted-collections.md#step-1-run-the-script-to-get-a-list-of-folders-for-a-mailbox-or-site)
+1. Voer het doelverzamelingsscript uit dat de map-ed's retourneert voor alle mappen in het postvak van de doelgebruiker. Het script maakt verbinding met Exchange Online PowerShell en & PowerShell in dezelfde PowerShell-sessie. Zie Het script uitvoeren voor een lijst met [mappen voor een postvak voor meer informatie.](use-content-search-for-targeted-collections.md#step-1-run-the-script-to-get-a-list-of-folders-for-a-mailbox-or-site)
 
 2. Kopieer de map-eds voor alle submappen in de map Herstelbare items. U kunt ook de uitvoer van het script omleiden naar een tekstbestand.
 
    Hier ziet u een lijst en beschrijving van de submappen in de map Herstelbare items waar u items uit kunt zoeken en verwijderen:
 
-   - **Verwijderingen:** bevat items waarvan de bewaarperiode voor verwijderde items niet is verlopen. Gebruikers kunnen snel verwijderde items uit deze submap herstellen met het hulpprogramma Verwijderde items herstellen in Outlook.
+   - **Verwijderingen:** bevat items waarvan de bewaarperiode voor verwijderde items niet is verlopen. Gebruikers kunnen snel verwijderde items uit deze submap herstellen met behulp van het hulpprogramma Verwijderde items herstellen in Outlook.
 
    - **Purges**: Bevat hard-verwijderde items waarvan de bewaarperiode van het verwijderde item is verlopen. Gebruikers kunnen items ook hard verwijderen door items uit de map Herstelbare items te verwijderen. Als het postvak in de wacht staat, blijven hard verwijderde items behouden. Deze submap is niet zichtbaar voor eindgebruikers.
 
@@ -337,9 +337,9 @@ Get-MailboxFolderStatistics <username> -FolderScope RecoverableItems -Archive | 
 
 ## <a name="step-6-revert-the-mailbox-to-its-previous-state"></a>Stap 6: Het postvak terugdraaien naar de vorige status
 
-De laatste stap is om het postvak terug te zetten naar de vorige configuratie. Dit betekent dat u de eigenschappen die u hebt gewijzigd in stap 2, opnieuw in moet zetten en dat u de in stap 3 verwijderde ophoudt. Dit omvat:
+De laatste stap is om het postvak terug te zetten naar de vorige configuratie. Dit betekent dat u de eigenschappen die u hebt gewijzigd in stap 2, opnieuw in moet zetten en dat u de in stap 3 verwijderde ophoudt. Dit zijn:
   
-- De bewaarperiode van het verwijderde item weer wijzigen in de vorige waarde. U kunt deze set ook laten staan op 30 dagen, de maximumwaarde in Exchange Online.
+- De bewaarperiode van het verwijderde item weer wijzigen in de vorige waarde. U kunt deze set ook laten zitten op 30 dagen, de maximumwaarde in Exchange Online.
 
 - Herstel van één item opnieuw inschakelen.
 

@@ -109,6 +109,6 @@ U kunt de manier wijzigen waarop uw organisatie updates Microsoft 365 ontvangen 
 
 Ontdek hoe u [berichten beheert](/office365/admin/manage/message-center) in uw [Microsoft 365 berichtencentrum](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/MessageCenter) om meldingen te krijgen over toekomstige Microsoft 365 updates en releases.
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Deelnemen aan Office Insider-programma](https://insider.office.com/join/windows) (artikel)

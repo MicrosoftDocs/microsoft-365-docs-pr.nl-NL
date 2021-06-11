@@ -173,4 +173,4 @@ Zie [Waarschuwingsmeldingen](configure-email-notifications.md)configureren in Mi
 
 - [Belangrijke mappen beveiligen met gecontroleerde maptoegang](controlled-folders.md)
 - [Beheerde maptoegang inschakelen](enable-controlled-folders.md)
-- [Regels voor het verminderen van aanvalsoppervlakken evalueren](evaluate-attack-surface-reduction.md)
+- [Regels voor het verminderen van kwetsbaarheid voor aanvallen evalueren](evaluate-attack-surface-reduction.md)

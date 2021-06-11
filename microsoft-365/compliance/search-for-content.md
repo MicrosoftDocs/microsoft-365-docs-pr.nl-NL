@@ -22,7 +22,7 @@ ms.locfileid: "52333684"
 ---
 # <a name="search-for-content-using-the-content-search-tool"></a>Zoeken naar inhoud met behulp van het hulpprogramma Inhoud zoeken
 
-Gebruik het hulpprogramma Inhoud zoeken in het Beveiligings- & Compliancecentrum om snel e-mail te vinden in Exchange-postvakken, documenten op SharePoint-sites en OneDrive-locaties en chatgesprekken in Skype voor Bedrijven. U kunt het zoekprogramma voor inhoud gebruiken om te zoeken naar e-mail, documenten en chatgesprekken in samenwerkingshulpmiddelen zoals Microsoft Teams en Microsoft 365 Groepen.
+Gebruik het hulpprogramma Inhoud zoeken in het beveiligings- & compliancecentrum om snel e-mail te vinden in Exchange-postvakken, documenten op SharePoint-sites en OneDrive-locaties en chatgesprekken in Skype voor Bedrijven. U kunt het zoekprogramma voor inhoud gebruiken om te zoeken naar e-mail, documenten en chatgesprekken in samenwerkingshulpmiddelen zoals Microsoft Teams en Microsoft 365 Groepen.
   
 ## <a name="search-for-content"></a>Zoeken naar inhoud
 
@@ -38,7 +38,7 @@ De eerste stap is het gebruik van het hulpprogramma Inhoud zoeken om inhoudsloca
 
 - [Een id-lijst zoeken uitvoeren om](csv-file-for-an-id-list-content-search.md) te zoeken naar specifieke e-mailberichten 
 
-- [Zoeken in postvakken in de cloud voor ](search-cloud-based-mailboxes-for-on-premises-users.md) on-premises gebruikers in Microsoft 365
+- [Zoeken in postvakken in de cloud voor](search-cloud-based-mailboxes-for-on-premises-users.md) on-premises gebruikers in Microsoft 365
 
 - [Trefwoordstatistieken](view-keyword-statistics-for-content-search.md) weergeven voor de resultaten van een zoekopdracht en de query zo nodig verfijnen
 
@@ -80,7 +80,7 @@ Soms moet u geavanceerdere, complexere en terugkerende zoektaken voor inhoud uit
   
 - [Specifieke postvak- en sitemappen](use-content-search-for-targeted-collections.md) doorzoeken (een *targeted-verzameling genoemd) wanneer u zeker weet dat items die reageren op een zaak zich in die map bevinden
 
-- [Zoeken in het postvak en de OneDrive-locatie](search-the-mailbox-and-onedrive-for-business-for-a-list-of-users.md) voor een lijst met gebruikers 
+- [Zoeken in het postvak OneDrive een](search-the-mailbox-and-onedrive-for-business-for-a-list-of-users.md) lijst met gebruikers 
 
 - [Meerdere zoekopdrachten maken,](create-report-on-and-delete-multiple-content-searches.md) rapporteren en verwijderen om snel en efficiënt zoekgegevens te identificeren en te verwijderen 
 

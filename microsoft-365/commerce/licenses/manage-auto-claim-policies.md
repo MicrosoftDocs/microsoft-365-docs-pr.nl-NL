@@ -59,7 +59,7 @@ Standaard is de functie beleid voor automatisch claimen uitgeschakeld. Voordat u
 
 Alleen een globale beheerder kan een beleidsinstelling voor automatisch claimen uitschakelen.
 
-1. Ga in het beheercentrum naar de pagina **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">organisatie-instellingen.</a>
+1. Ga in het beheercentrum naar de **pagina Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">Organisatie-instellingen.</a>
 2. Selecteer apps en services die eigendom zijn van **gebruikers onder aan de tabel.**
 3. In het rechterdeelvenster kunt u het vakje uitschakelen voor Gebruikers automatisch licenties laten claimen wanneer ze zich de eerste keer **aanmelden.**
 
@@ -161,7 +161,7 @@ Als u back-upproducten hebt toegewezen aan het beleid, kunt u de volgorde wijzig
 
 U kunt regelmatig terugkeren naar het tabblad **Beleid** voor automatisch claimen om een lijst weer te geven met gebruikers die licenties hebben aangevraagd onder het beleid dat u hebt gemaakt.
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Licenties toewijzen aan gebruikers](../../admin/manage/assign-licenses-to-users.md) (artikel)\
 [Abonnementslicenties kopen](buy-licenses.md) of verwijderen (artikel)\

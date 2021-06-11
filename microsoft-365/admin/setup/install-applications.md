@@ -51,6 +51,6 @@ Als u Azure Active Directory Premium (AADP) Abonnement 1 of Abonnement 2 hebt ge
 
 ::: moniker-end
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
   
 [Problemen met het installeren Office en Microsoft 365](https://support.microsoft.com/office/35ff2def-e0b2-4dac-9784-4cf212c1f6c2) (artikel)

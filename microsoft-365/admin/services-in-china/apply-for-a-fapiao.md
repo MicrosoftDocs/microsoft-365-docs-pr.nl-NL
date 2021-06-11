@@ -45,12 +45,12 @@ Er zijn twee manieren om een Fapiao toe te passen:
 
 2. U kunt een Fapiao aanvragen vanuit het <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">beheercentrum.</a>
 
-    ![De pagina Facturen in het Microsoft 365-beheercentrum.](../../media/a6e3b953-abd4-46aa-a910-08c517915a21.png)
+    ![De pagina Facturen in het Microsoft 365 beheercentrum.](../../media/a6e3b953-abd4-46aa-a910-08c517915a21.png)
   
 ## <a name="step-2-register-with-the-21vianet-fapiao-management-system"></a>Stap 2: Registreren met het 21Vianet Fapiao-beheersysteem
 
 > [!NOTE]
-> U kunt dezelfde e-mailnaam en hetzelfde wachtwoord gebruiken als uw Office 365-account, of u kunt iets anders gebruiken.
+> U kunt dezelfde e-mailnaam en hetzelfde wachtwoord gebruiken als Office 365 account of u kunt iets anders gebruiken.
   
 1. Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=837466" target="_blank">21Vianet Fapiao-informatiebeheersysteem.</a>
 

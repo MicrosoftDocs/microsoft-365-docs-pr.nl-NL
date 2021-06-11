@@ -98,7 +98,7 @@ Als u vragen hebt over de academische geschiktheidsbeslissing van uw school, nee
 
 Als u wilt weten hoe u uw Microsoft 365 voor uw school implementeert, gaat u [naar Microsoft 365 Education documentatie en bronnen.](/microsoft-365/education/deploy/) Vervolgens kunt u gebruikers toevoegen en tegelijkertijd licenties [toewijzen.](../../admin/add-users/add-users.md) Als dat nodig is, kunt u [ook meer licenties kopen voor uw abonnement.](../licenses/buy-licenses.md)
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Microsoft 365 Education documentatie voor IT-beheerders](/education/itadmins) (artikelkoppelingen)\
 [Microsoft Teams voor onderwijs](https://microsoft.com/education/products/teams/default.aspx) (productpagina)\
