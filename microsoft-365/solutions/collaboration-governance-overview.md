@@ -54,7 +54,7 @@ Microsoft 365 groepen bevatten een suite met gekoppelde resources die gebruikers
 
 ![Diagram met Microsoft 365 groepen en gerelateerde services](../media/microsoft-365-groups-hub-spoke.png)
 
-|Resource|Omschrijving|
+|Resource|Beschrijving|
 |:------|:----------|
 |[Agenda](https://support.office.com/article/schedule-a-meeting-on-a-group-calendar-in-outlook-0cf1ad68-1034-4306-b367-d75e9818376a)|Voor het plannen van gebeurtenissen met betrekking tot de groep|
 |[Postvak IN](https://support.office.com/article/have-a-group-conversation-in-outlook-a0482e24-a769-4e39-a5ba-a7c56e828b22)|Voor e-mailgesprekken tussen groepsleden. Dit Postvak IN heeft een e-mailadres en kan worden ingesteld voor het accepteren van berichten van personen buiten de groep en zelfs van buiten uw organisatie, net als een traditionele distributielijst.|

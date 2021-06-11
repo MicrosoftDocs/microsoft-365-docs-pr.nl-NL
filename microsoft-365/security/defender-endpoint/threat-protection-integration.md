@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 8973a78787345532055161507e2d30f75b3b2cf1
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: aeb6d93017f138ce898d25f7d76e05cdcf3e90c5
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844968"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878566"
 ---
 # <a name="microsoft-defender-for-endpoint-and-other-microsoft-solutions"></a>Microsoft Defender voor Eindpunt en andere Microsoft-oplossingen
 
@@ -66,9 +66,9 @@ Verdachte activiteiten zijn processen die worden uitgevoerd onder een gebruikers
 De Skype voor Bedrijven biedt analisten een manier om te communiceren met een mogelijk gecompromitteerde gebruiker of apparaateigenaar via een eenvoudige knop vanuit de portal.
 
 ## <a name="microsoft-365-defender"></a>Microsoft 365 Defender
-Met Microsoft 365 Defender vormen Microsoft Defender voor Eindpunt en diverse microsoft-beveiligingsoplossingen een geïntegreerde suite voor bedrijfsdefensie vóór en na inbreuk die inheems is geïntegreerd in eindpunten, identiteit, e-mail en toepassingen om geavanceerde aanvallen op te sporen, te voorkomen, te onderzoeken en automatisch te beantwoorden. 
+Met Microsoft 365 Defender, Microsoft Defender voor Eindpunt en diverse microsoft-beveiligingsoplossingen vormen ze een geïntegreerde suite voor bedrijfsdefensie vóór en na inbreuk die inheems is geïntegreerd in eindpunten, identiteit, e-mail en toepassingen om geavanceerde aanvallen te detecteren, te voorkomen, te onderzoeken en automatisch te beantwoorden. 
  
-[Meer informatie over Microsoft 365 Defender](/microsoft-365/security/defender/microsoft-threat-protection)
+[Meer informatie over Microsoft 365 Defender](/microsoft-365/security/defender/microsoft-365-defender)
 
 
 ## <a name="related-topics"></a>Verwante onderwerpen

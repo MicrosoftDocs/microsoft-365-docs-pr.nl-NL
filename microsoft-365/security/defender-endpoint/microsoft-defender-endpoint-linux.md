@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: bd9d42ed85e9a489107a72ccbe841537a7e524d4
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 4175d3bedff86dc7f8cdafc1ff2366ca1c9cffc4
+ms.sourcegitcommit: d0c160e89e17f451199bc4a85699effd2d935213
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843516"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52893738"
 ---
 # <a name="microsoft-defender-for-endpoint-on-linux"></a>Microsoft Defender voor Eindpunt op Linux
 
@@ -101,7 +101,9 @@ Als er installatiefouten optreden, raadpleegt u [Installatiefouten oplossen in M
 
 - /opt/microsoft/mdatp/sbin/wdavdaemon vereist uitvoerbare machtigingen. Zie 'Controleer of de daemon uitvoerbare machtiging heeft' in Installatieproblemen oplossen voor Microsoft Defender voor Eindpunt op Linux voor meer [informatie.](/microsoft-365/security/defender-endpoint/linux-support-install)
 
-- Geheugen: 1 GB
+- Kernen: 2 minimum, 4 voorkeur
+
+- Geheugen: minimaal 1 GB, 4 voorkeur
 
     > [!NOTE]
     > Zorg ervoor dat u vrije schijfruimte hebt in /var.

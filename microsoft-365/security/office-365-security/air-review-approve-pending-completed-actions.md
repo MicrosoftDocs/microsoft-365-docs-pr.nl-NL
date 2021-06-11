@@ -19,16 +19,21 @@ description: Meer informatie over herstelacties in geautomatiseerde onderzoeks- 
 ms.technology: mdo
 ms.prod: m365-security
 ms.date: 01/29/2021
-ms.openlocfilehash: f0c42bef1b090412a7a6422fe029323b645e90df
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 525f6cf922f80067219f6c33a2c11559e9e58a39
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275070"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878770"
 ---
 # <a name="review-and-manage-remediation-actions-in-office-365"></a>Herstelacties controleren en beheren in Office 365
 
+**Van toepassing op**
+- [Abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
+- [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
+
 Aangezien geautomatiseerde onderzoeken op e-& samenwerkingsinhoud resulteren  in vonnissen, zoals Schadelijk of *Verdacht,* worden bepaalde herstelacties gemaakt. In Microsoft Defender voor Office 365 kunnen herstelacties bestaan uit:
+
 - Een URL blokkeren (time-of-click)
 - E-mailberichten of clusters verwijderen
 - E-mail- of e-mailbijlagen quarantining
@@ -36,13 +41,9 @@ Aangezien geautomatiseerde onderzoeken op e-& samenwerkingsinhoud resulteren  in
 
 Deze herstelacties worden alleen uitgevoerd als uw beveiligingsbewerkingsteam deze goedkeurt. We raden u aan alle lopende acties zo snel mogelijk te bekijken en goed te keuren, zodat uw geautomatiseerde onderzoeken tijdig worden voltooid. In sommige gevallen kunt u een herstelactie ongedaan maken.
 
-**Van toepassing op**
-- [Abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
-- [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
-
 ## <a name="approve-or-reject-pending-actions"></a>Acties in behandeling goedkeuren (of weigeren)
 
-1. Ga naar het Microsoft 365 beveiligingscentrum ( <https://security.microsoft.com> ) en meld u aan.
+1. Ga naar de Microsoft 365 Defender-portal <https://security.microsoft.com> () en meld u aan.
 2. Selecteer actiecentrum in het **navigatiedeelvenster.**
 3. Bekijk op **het** tabblad In behandeling de lijst met acties die wachten op goedkeuring.
 4. Selecteer een item in de lijst. Het deelvenster Flyout wordt geopend. 

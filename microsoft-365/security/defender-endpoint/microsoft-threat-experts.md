@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: ebde023db5196117a02a2372784a3110839c51fa
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 956fb591154df374c8010d875645e1122f3419b2
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843528"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52879238"
 ---
 # <a name="microsoft-threat-experts"></a>Microsoft Threat Experts
 
@@ -45,9 +45,9 @@ Deze beheerde bedreigingsjachtservice biedt op experts gebaseerde inzichten en g
 > [!NOTE]
 > Bespreek de geschiktheidsvereisten met uw Microsoft Technical Service-provider en -accountteam voordat u een aanvraag voor de beheerde bedreigingsjachtservice gaat indienen.
 
-Als u een klant bent van Microsoft Defender voor Eindpunt, moet u **Microsoft Threat Experts - Targeted Attack Notifications** aanvragen om speciale inzichten en analyses te krijgen die helpen bij het identificeren van de meest kritieke bedreigingen in uw omgeving, zodat u snel op deze bedreigingen kunt reageren
+Als u een klant van Microsoft Defender voor Eindpunt bent, moet u **Microsoft Threat Experts - Targeted Attack Notifications** aanvragen om speciale inzichten en analyses te krijgen die u helpen bij het identificeren van de meest kritieke bedreigingen in uw omgeving, zodat u er snel op kunt reageren.
 
-Als u zich wilt Microsoft Threat Experts - Voordelen voor gerichte aanvalsmeldingen, gaat u naar Instellingen algemene geavanceerde functies  >    >    >  **Microsoft Threat Experts - Targeted Attack Notifications** om toe te passen. Zodra deze is geaccepteerd, krijgt u de voordelen van Meldingen voor gerichte aanvallen.
+Als u zich wilt Microsoft Threat Experts - Voordelen voor gerichte aanvalsmeldingen, gaat u naar Instellingen  >  **Endpoints**  >  **General**  >  **Advanced-functies**  >  **Microsoft Threat Experts - Targeted Attack Notifications** om toe te passen. Zodra deze is geaccepteerd, krijgt u de voordelen van Meldingen voor gerichte aanvallen.
 
 Neem contact op met uw accountteam of Microsoft-vertegenwoordiger om u te abonneren op **Microsoft Threat Experts - Experts op** aanvraag om contact op te nemen met onze bedreigingsexperts over relevante detecties en tegenstand die uw organisatie te maken heeft.
 

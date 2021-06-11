@@ -38,7 +38,7 @@ ms.locfileid: "52333804"
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-In Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige EOP-organisaties (Exchange Online Protection) zonder Exchange Online-postvakken is quarantaine beschikbaar voor het vasthouden van potentieel gevaarlijke of ongewenste berichten.
+In Microsoft 365 organisaties met postvakken in Exchange Online of zelfstandige Exchange Online Protection (EOP)-organisaties zonder Exchange Online-postvakken is quarantaine beschikbaar voor het vasthouden van potentieel gevaarlijke of ongewenste berichten.
 
 Anti-malwarebeleid zet een bericht automatisch in quarantaine als *een* bijlage malware bevat. Zie [Anti-malwarebeleid configureren in EOP](configure-anti-malware-policies.md)voor meer informatie.
 

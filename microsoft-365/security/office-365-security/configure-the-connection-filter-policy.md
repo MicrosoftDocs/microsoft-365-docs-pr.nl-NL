@@ -19,12 +19,12 @@ ms.custom:
 description: Beheerders kunnen leren hoe u verbindingsfilters configureert in Exchange Online Protection (EOP) om e-mailberichten van e-mailservers toe te staan of te blokkeren.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b5eb24377dd9f9ac304e1df7b2902d29e4a738b9
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: 416fbd73d8412cf8697577df19f2fd2893b4ce96
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52821959"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878818"
 ---
 # <a name="configure-connection-filtering"></a>Filteren van verbinding configureren
 
@@ -44,14 +44,14 @@ Als u een Microsoft 365-klant bent met postvakken in Exchange Online of een zelf
 
 - **Safe lijst**: De *veilige lijst* is een dynamische lijst met toegestane gegevens in het Microsoft-datacenter die geen klantconfiguratie vereist. Microsoft identificeert deze vertrouwde e-mailbronnen van abonnementen tot diverse lijsten van derden. U schakelt het gebruik van de veilige lijst in of uit. u kunt de bron-e-mailservers niet configureren in de veilige lijst. Spamfilters worden overgeslagen op inkomende berichten van de e-mailservers in de veilige lijst.
 
-In dit artikel wordt beschreven hoe u het standaardbeleid voor verbindingsfilters configureert in het Microsoft 365-beveiligingscentrum of in PowerShell (Exchange Online PowerShell voor Microsoft 365-organisaties met postvakken in Exchange Online; zelfstandige EOP PowerShell voor organisaties zonder Exchange Online-postvakken). Zie [Anti-spambeveiliging](anti-spam-protection.md)voor meer informatie over hoe EOP verbindingsfilters gebruikt die deel uitmaken van de algemene antispaminstellingen van uw organisatie.
+In dit artikel wordt beschreven hoe u het standaardbeleid voor verbindingsfilter configureert in de Microsoft 365 Microsoft 365 Defender-portal of in PowerShell (Exchange Online PowerShell voor Microsoft 365-organisaties met postvakken in Exchange Online; zelfstandige EOP PowerShell voor organisaties zonder Exchange Online-postvakken). Zie [Anti-spambeveiliging](anti-spam-protection.md)voor meer informatie over hoe EOP verbindingsfilters gebruikt die deel uitmaken van de algemene antispaminstellingen van uw organisatie.
 
 > [!NOTE]
 > De lijst met IP-toestaan, de veilige lijst en de LIJST met IP-blokkeringen maken deel uit van uw algemene strategie om e-mail in uw organisatie toe te staan of te blokkeren. Zie Lijsten met veilige [afzenders](create-safe-sender-lists-in-office-365.md) maken en Lijsten met geblokkeerde afzenders maken voor [meer informatie.](create-block-sender-lists-in-office-365.md)
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent het beveiligingscentrum in <https://security.microsoft.com>. Gebruik <https://security.microsoft.com/antispam> om direct naar de pagina **Antispambeleid** te gaan.
+- U opent de Microsoft 365 Defender-portal op <https://security.microsoft.com> . Gebruik <https://security.microsoft.com/antispam> om direct naar de pagina **Antispambeleid** te gaan.
 
 - Zie [Verbinding maken met Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](/powershell/exchange/connect-to-exchange-online-protection-powershell) als je verbinding wilt maken met zelfstandige EOP PowerShell.
 
@@ -72,9 +72,9 @@ In dit artikel wordt beschreven hoe u het standaardbeleid voor verbindingsfilter
 
 - De LIJST MET IP-toestaan en de LIJST met IP-blokkeringen ondersteunen elk een maximum van 1273 items, waarbij een vermelding één IP-adres, een IP-adresbereik of een CIDR-IP (Classless InterDomain Routing) is.
 
-## <a name="use-the-security-center-to-modify-the-default-connection-filter-policy"></a>Het beveiligingscentrum gebruiken om het standaardbeleid voor verbindingsfilters te wijzigen
+## <a name="use-the-microsoft-365-defender-portal-to-modify-the-default-connection-filter-policy"></a>Gebruik de Microsoft 365 Defender-portal om het standaardbeleid voor verbindingsfilters te wijzigen
 
-1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
+1. Ga in Microsoft 365 Defender-portal naar **E-mail & Samenwerkingsbeleid** & de sectie Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Anti-spam.**
 
 2. Selecteer op **de pagina Antispambeleid** de optie Verbindingsfilterbeleid **(standaard)** in de lijst door op de naam van het beleid te klikken.
 
@@ -103,9 +103,9 @@ In dit artikel wordt beschreven hoe u het standaardbeleid voor verbindingsfilter
 
 4. Klik in de flyout met beleidsdetails weer op **Sluiten**.
 
-## <a name="use-the-security-center-to-view-the-default-connection-filter-policy"></a>Het beveiligingscentrum gebruiken om het standaardbeleid voor verbindingsfilters te bekijken
+## <a name="use-the-microsoft-365-defender-portal-to-view-the-default-connection-filter-policy"></a>Gebruik de Microsoft 365 Defender-portal om het standaardbeleid voor verbindingsfilters weer te
 
-1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
+1. Ga in Microsoft 365 Defender-portal naar **E-mail & Samenwerkingsbeleid** & de sectie Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Anti-spam.**
 
 2. Op de **pagina Antispambeleid** worden de volgende eigenschappen weergegeven in de lijst met beleidsregels:
 
@@ -152,7 +152,7 @@ Zie [Set-HostedConnectionFilterPolicy (Set-HostedConnectionFilterPolicy)](/power
 
 Als u wilt controleren of u het standaardbeleid voor verbindingsfilters hebt gewijzigd, gaat u als volgt te werk:
 
-- Ga in het beveiligingscentrum naar E-mail **&** Samenwerkingsbeleid & Beleidsregels Beleidsregels Bedreigingsbeleid \>  \>  \>  \> **Anti-spam** selecteer Verbindingsfilterbeleid \> **(standaard)** in de lijst door op de naam van het beleid te klikken en de instellingen te controleren.
+- Ga in de Microsoft 365 Defender-portal naar E-mail **&** Samenwerkingsbeleid & De sectie Beleidsregels voor bedreigingsregels Antispam selecteer Verbindingsfilterbeleid \>  \>  \>  \>  \> **(standaard)** in de lijst door op de naam van het beleid te klikken en de instellingen te controleren.
 
 - Voer in Exchange Online PowerShell of zelfstandige EOP PowerShell de volgende opdracht uit en controleer de instellingen:
 

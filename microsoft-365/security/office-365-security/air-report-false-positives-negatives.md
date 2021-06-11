@@ -22,12 +22,12 @@ ms.topic: how-to
 ms.custom:
 - autoir
 ms.technology: mdo
-ms.openlocfilehash: 036ef1c97788f310c5b906ae5f80076ca2359cdb
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 287bd9cd4dda6ccb152e93908a409e036eab9cc7
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275082"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878878"
 ---
 # <a name="how-to-report-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>Fout-positieven/negatieven rapporteren in geautomatiseerde onderzoeks- en antwoordmogelijkheden
 
@@ -68,17 +68,21 @@ Als er in de meeste gevallen een herstelactie is uitgevoerd op een e-mailbericht
 
 Met Threat Explorer kan uw beveiligingsteam een e-mail vinden die is beïnvloed door een actie en de actie mogelijk ongedaan maken.
 
+<br>
+
+****
+
 |Scenario|Opties voor ongedaan maken|Meer informatie|
 |---|---|---|
-|Een e-mailbericht is doorgeleid naar de map Ongewenste e-mail van een gebruiker|- Het bericht verplaatsen naar de map Verwijderde items van de gebruiker<br/>- Het bericht naar het Postvak IN van de gebruiker verplaatsen<br/>- Het bericht verwijderen|[Schadelijke e-mail zoeken en onderzoeken die is bezorgd in Office 365](investigate-malicious-email-that-was-delivered.md)|
-|Een e-mailbericht of bestand is in quarantaine geplaatst|- Het e-mailbericht of bestand vrijgeven<br/>- Het e-mailbericht of bestand verwijderen|[Berichten in quarantaine beheren als beheerder](manage-quarantined-messages-and-files.md)|
+|Een e-mailbericht is doorgeleid naar de map Ongewenste e-mail van een gebruiker|<ul><li>Het bericht verplaatsen naar de map Verwijderde items van de gebruiker</li><li>Het bericht naar het Postvak IN van de gebruiker verplaatsen</li><li>Het bericht verwijderen</li></ul>|[Schadelijke e-mail zoeken en onderzoeken die is bezorgd in Office 365](investigate-malicious-email-that-was-delivered.md)|
+|Een e-mailbericht of bestand is in quarantaine geplaatst|<ul><li>Het e-mailbericht of bestand vrijgeven</li><li> Het e-mailbericht of bestand verwijderen</li></ul>|[Berichten in quarantaine beheren als beheerder](manage-quarantined-messages-and-files.md)|
 |
 
 ### <a name="undo-an-action-in-the-action-center"></a>Een actie ongedaan maken in het actiecentrum
 
 In het Actiecentrum kunt u herstelacties zien die zijn ondernomen en de actie mogelijk ongedaan kunnen maken.
 
-1. Ga naar het Microsoft 365 beveiligingscentrum ( <https://security.microsoft.com> ).
+1. Ga naar de Microsoft 365 Defender-portal <https://security.microsoft.com> ().
 2. Selecteer actiecentrum in het **navigatiedeelvenster.**
 3. Selecteer het **tabblad Geschiedenis** om de lijst met voltooide acties te bekijken.
 4. Selecteer een item. Het deelvenster Flyout wordt geopend.

@@ -19,12 +19,12 @@ description: Beheerders kunnen leren hoe het nabootsingsinzicht werkt. Ze kunnen
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1b539cc50d3cf6ad637a749faa9d2cb5b2033b81
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: e1b99590d7ae96ad8371eb2a2fab5fb7e8f94d07
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52821321"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52879034"
 ---
 # <a name="impersonation-insight-in-defender-for-office-365"></a>Inzicht in imitatie in Defender voor Office 365
 
@@ -46,27 +46,27 @@ Domain impersonation is different from [domain spoofing](anti-spoofing-protectio
 
 Imitatiebeveiliging maakt deel uit van de instellingen voor anti-phishingbeleid die exclusief zijn voor Microsoft Defender voor Office 365. Zie Instellingen voor imitatie in [anti-phishingbeleid in Microsoft Defender](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)voor Office 365.
 
-U kunt het inzicht in imitatie gebruiken in het Microsoft 365 beveiligingscentrum om snel berichten te identificeren van nagebootsde afzenders of afzenderdomeinen die u hebt geconfigureerd voor imitatiebeveiliging.
+U kunt het inzicht in imitatie gebruiken in de Microsoft 365 Defender-portal om snel berichten te identificeren van nagebootsde afzenders of afzenderdomeinen die u hebt geconfigureerd voor imitatiebeveiliging.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent het beveiligingscentrum in <https://security.microsoft.com>. Als u rechtstreeks naar het inzicht voor imitatie op de **pagina Anti-phishing** wilt gaan, gebruikt u <https://security.microsoft.com/antiphishing> . Als u rechtstreeks naar de **pagina Imitatieinzicht wilt** gaan, gebruikt u <https://security.microsoft.com/impersonationinsight> .
+- U opent de Microsoft 365 Defender-portal op <https://security.microsoft.com> . Als u rechtstreeks naar het inzicht voor imitatie op de **pagina Anti-phishing** wilt gaan, gebruikt u <https://security.microsoft.com/antiphishing> . Als u rechtstreeks naar de **pagina Imitatieinzicht wilt** gaan, gebruikt u <https://security.microsoft.com/impersonationinsight> .
 
-- U moet machtigingen krijgen toegewezen in het beveiligingscentrum voordat u de procedures in dit artikel kunt uitvoeren:
+- U moet machtigingen krijgen toegewezen in de Microsoft 365 Defender-portal voordat u de procedures in dit artikel kunt uitvoeren:
   - **Organisatiebeheer**
   - **Beveiligingsbeheerder**
   - **Beveiligingslezer**
-  - **Algemene lezer**
+  - **Globale lezer**
 
-  Zie Machtigingen [in het beveiligingscentrum](permissions-in-the-security-and-compliance-center.md)voor meer informatie.
+  Zie Machtigingen [in de portal Microsoft 365 Defender voor meer informatie.](permissions-in-the-security-and-compliance-center.md)
 
-  **Opmerking:** Gebruikers toevoegen aan de bijbehorende Azure Active Directory rol in het Microsoft 365-beheercentrum geeft  gebruikers de vereiste machtigingen in het beveiligingscentrum en machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
+  **Opmerking:** Gebruikers toevoegen aan de bijbehorende Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de vereiste  machtigingen in de Microsoft 365 Defender-portal en machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
 
 - U kunt imitatiebeveiliging inschakelen en configureren in anti-phishingbeleid in Microsoft Defender voor Office 365. Imitatiebeveiliging is standaard niet ingeschakeld. Zie [Anti-phishingbeleid configureren in Microsoft Defender](configure-atp-anti-phishing-policies.md)voor Office 365.
 
-## <a name="open-the-impersonation-insight-in-the-security-center"></a>Het inzicht in imitatie openen in het beveiligingscentrum
+## <a name="open-the-impersonation-insight-in-the-microsoft-365-defender-portal"></a>Het inzicht in imitatie openen in de Microsoft 365 Defender-portal
 
-1. Ga in het beveiligingscentrum naar **E-mail & samenwerkingsbeleid** & sectie Beleidsregels voor bedreigingsbeleid \>  \>  \>  \> **Anti-phishing**.
+1. Ga in Microsoft 365 Defender-portal naar **E-mail & Samenwerkingsbeleid** & sectie Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Anti-phishing**.
 
 2. Op de **pagina Anti-phishing** ziet het nabootsingsinzicht er als volgende uit:
 

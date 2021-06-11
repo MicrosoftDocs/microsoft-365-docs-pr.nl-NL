@@ -20,25 +20,27 @@ ms.custom:
 description: Beheerders kunnen leren hoe ze training voor de aanvalssimulatie kunnen gebruiken om gesimuleerde phishing- en wachtwoordaanvallen uit te voeren in hun Microsoft 365 E5 of Microsoft Defender voor Office 365 Plan 2-organisaties.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c5d4b77204f207c31f2014df797f6209b92c9ccb
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: 182d3d3c1d3b7c0c43caa8a809e993933707af00
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822332"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878782"
 ---
 # <a name="get-started-using-attack-simulation-training"></a>Aan de slag met aanvalssimulatietraining
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-Als uw organisatie beschikt over Microsoft 365 E5 of Microsoft Defender voor Office 365 Plan 2, dat mogelijkheden voor bedreigingsonderzoek en antwoord [bevat,](office-365-ti.md)kunt u de trainingstraining Aanvalssimulatie in het Microsoft-beveiligingscentrum gebruiken om realistische aanvalsscenario's in uw organisatie uit te voeren. Deze gesimuleerde aanvallen kunnen u helpen bij het identificeren en vinden van kwetsbare gebruikers voordat een echte aanval van invloed is op uw bottom line. Lees dit artikel voor meer informatie.
+**Van toepassing op** [Microsoft Defender voor Office 365 abonnement 2](defender-for-office-365.md)
+
+Als uw organisatie Microsoft 365 E5 of Microsoft Defender voor Office 365 Plan 2 heeft, inclusief mogelijkheden voor bedreigingsonderzoek en [antwoord,](office-365-ti.md)kunt u de training voor de aanvalssimulatie gebruiken in de Microsoft 365 Defender-portal om realistische aanvalsscenario's in uw organisatie uit te voeren. Deze gesimuleerde aanvallen kunnen u helpen bij het identificeren en vinden van kwetsbare gebruikers voordat een echte aanval van invloed is op uw bottom line. Lees dit artikel voor meer informatie.
 
 > [!NOTE]
 > Aanvalssimulatietraining vervangt de oude Attack Simulator v1-ervaring die wordt beschreven in [Attack Simulator in Microsoft Defender voor Office 365.](attack-simulator.md)
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- Als u het Microsoft-beveiligingscentrum wilt openen, gaat u naar <https://security.microsoft.com> . Training voor aanvalssimulaties is beschikbaar op **training voor e-mail en** \> **samenwerkingssimulaties** voor aanvallen. Als u rechtstreeks naar de training Aanvalssimulatie wilt gaan, opent u <https://security.microsoft.com/attacksimulator> .
+- Als u de portal Microsoft 365 Defender wilt openen, gaat u naar <https://security.microsoft.com> . Training voor aanvalssimulaties is beschikbaar op **training voor e-mail en** \> **samenwerkingssimulaties** voor aanvallen. Als u rechtstreeks naar de training Aanvalssimulatie wilt gaan, opent u <https://security.microsoft.com/attacksimulator> .
 
 - Zie Microsoft Defender voor Office 365 servicebeschrijving voor meer informatie over de beschikbaarheid van training voor attack-Microsoft 365 [verschillende abonnementen.](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
 
@@ -52,7 +54,7 @@ Als uw organisatie beschikt over Microsoft 365 E5 of Microsoft Defender voor Off
 
 - Aanvalssimulatie en trainingsgerelateerde gegevens worden opgeslagen met andere klantgegevens voor Microsoft 365 services. Zie voor meer informatie [Microsoft 365 gegevenslocaties.](../../enterprise/o365-data-locations.md) Aanvalssimulatie is beschikbaar in de volgende regio's: NAM, APC, EUR, IND, CAN, AUS, FRA, GBR, JPN en KOR.
 
-- Vanaf 15 juni 2021 is training voor aanvalssimulatie beschikbaar in GCC. Als uw organisatie Office 365 G5 GCC of Microsoft Defender voor Office 365 (plan 2) voor de overheid heeft, kunt u de trainingstraining Aanvalssimulatie in het Microsoft-beveiligingscentrum gebruiken om realistische aanvalsscenario's uit te voeren in uw organisatie, zoals in dit artikel wordt beschreven. Training voor aanvalssimulaties is nog niet beschikbaar in GCC High- of DoD-omgevingen.
+- Vanaf 15 juni 2021 is training voor aanvalssimulatie beschikbaar in GCC. Als uw organisatie Office 365 G5 GCC of Microsoft Defender voor Office 365 (Plan 2) voor de overheid heeft, kunt u de training voor de aanvalssimulatie gebruiken in de Microsoft 365 Defender-portal om realistische aanvalsscenario's in uw organisatie uit te voeren, zoals in dit artikel wordt beschreven. Training voor aanvalssimulaties is nog niet beschikbaar in GCC High- of DoD-omgevingen.
 
 > [!NOTE]
 > Training voor aanvalssimulatie biedt een subset van mogelijkheden voor E3-klanten als proefversie. Het proefabonnement bevat de mogelijkheid om een Credential Harvest-payload te gebruiken en de mogelijkheid om trainingservaringen 'ISA Phishing' of 'Mass Market Phishing' te selecteren. Er maken geen andere mogelijkheden deel uit van de proefversie van E3.

@@ -19,12 +19,12 @@ ms.collection:
 description: Wat zijn best practices voor Exchange Online Protection (EOP) en Defender voor Office 365 beveiligingsinstellingen? Wat zijn de huidige aanbevelingen voor standaardbeveiliging? Wat moet u gebruiken als u strikter wilt zijn? En welke extra's krijgt u als u Ook Defender gebruikt voor Office 365?
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f00e1e2356839e70acafb0f98a5424a1311082e7
-ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
+ms.openlocfilehash: 6c126a777d50fae93efdc618a8ac474dcee7ed75
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52793218"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878986"
 ---
 # <a name="recommended-settings-for-eop-and-microsoft-defender-for-office-365-security"></a>Aanbevolen instellingen voor EOP en Microsoft Defender voor Office 365 beveiliging
 
@@ -44,7 +44,7 @@ Zie Vooraf ingestelde beveiligingsbeleidsregels [in EOP](preset-security-policie
 > [!NOTE]
 > De regel ongewenste e-mail moet zijn ingeschakeld in postvakken om te kunnen filteren op de juiste manier. Deze functie is standaard ingeschakeld, maar u moet controleren of filteren niet werkt. Zie [Instellingen voor ongewenste e-mail configureren voor Exchange Online-postvakken](configure-junk-email-settings-on-exo-mailboxes.md) voor meer informatie.
 
-In dit artikel worden de standaardinstellingen beschreven, en ook de aanbevolen standaard- en strikte instellingen om uw gebruikers te beschermen. De tabellen bevatten de instellingen in het Microsoft 365-beveiligingscentrum en PowerShell (Exchange Online PowerShell of zelfstandige Exchange Online Protection PowerShell voor organisaties zonder Exchange Online postvakken).
+In dit artikel worden de standaardinstellingen beschreven, en ook de aanbevolen standaard- en strikte instellingen om uw gebruikers te beschermen. De tabellen bevatten de instellingen in de Microsoft 365 Defender-portal en PowerShell (Exchange Online PowerShell of zelfstandige Exchange Online Protection PowerShell voor organisaties zonder Exchange Online postvakken).
 
 > [!TIP]
 > De Office 365 Advanced Threat Protection Recommended Configuration Analyzer (ORCA) module voor PowerShell kan u (beheerders) helpen de huidige waarden van deze instellingen te vinden. De **get-ORCAReport-cmdlet** genereert met name een beoordeling van antispam, anti-phishing en andere instellingen voor berichthygiëne. U kunt de ORCA-module downloaden op <https://www.powershellgallery.com/packages/ORCA/> .

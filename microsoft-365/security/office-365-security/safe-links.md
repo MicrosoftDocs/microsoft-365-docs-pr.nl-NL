@@ -27,12 +27,12 @@ ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: In dit artikel kunnen beheerders meer informatie krijgen over Safe koppelingen in Defender voor Office 365 om hun organisatie te beschermen tegen phishing en andere aanvallen die kwaadaardige URL's gebruiken.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d42d7563b5267f805756125d1764d506f1700e13
-ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
+ms.openlocfilehash: 406450752085817cb49e3cf08a90c0087af3d94b
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52793026"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52879286"
 ---
 # <a name="safe-links-in-microsoft-defender-for-office-365"></a>Safe Koppelingen in Microsoft Defender voor Office 365
 
@@ -220,7 +220,7 @@ De volgende Safe koppelingen zijn beschikbaar voor Office 365 apps:
 
 - **Laat gebruikers niet** door veilige koppelingen naar de oorspronkelijke URL klikken: hiermee kunnen gebruikers niet door de waarschuwingspagina klikken naar de oorspronkelijke URL in de bureaubladversies word, Excel, PowerPoint en Visio. [](#warning-pages-from-safe-links) De standaardwaarde en aanbevolen waarde is **Aan**.
 
-Als u de instellingen voor Safe koppelingen voor Office 365 apps wilt configureren, gaat u naar Beveiliging Safe koppelingen configureren [voor Office 365 apps.](configure-global-settings-for-safe-links.md#configure-safe-links-protection-for-office-365-apps-in-the-security-center)
+Als u de instellingen voor Safe koppelingen voor Office 365 apps wilt configureren, gaat u naar Beveiliging Safe koppelingen configureren [voor Office 365 apps.](configure-global-settings-for-safe-links.md#configure-safe-links-protection-for-office-365-apps-in-the-microsoft-365-defender-portal)
 
 Zie Algemene instellingen voor Safe koppelingen voor meer informatie over de aanbevolen waarden [voor standaard- en strikte beleidsinstellingen.](recommended-settings-for-eop-and-office365.md#global-settings-for-safe-links)
 
@@ -257,7 +257,7 @@ In **de lijst De volgende URL's** blokkeren worden de koppelingen definieerd die
 
 Wanneer een gebruiker in een actief Safe koppelingenbeleid op een geblokkeerde koppeling in een ondersteunde app klikt, worden deze naar de waarschuwingspagina voor geblokkeerde [URL's](#blocked-url-warning) geplaatst.
 
-U configureert de lijst met URL's in de algemene instellingen voor Safe koppelingen. Zie De lijst ['De volgende URL's blokkeren' configureren](configure-global-settings-for-safe-links.md#configure-the-block-the-following-urls-list-in-the-security-center)voor instructies.
+U configureert de lijst met URL's in de algemene instellingen voor Safe koppelingen. Zie De lijst ['De volgende URL's blokkeren' configureren](configure-global-settings-for-safe-links.md#configure-the-block-the-following-urls-list-in-the-microsoft-365-defender-portal)voor instructies.
 
 **Opmerkingen**:
 

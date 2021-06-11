@@ -17,12 +17,12 @@ ms.custom: ''
 description: Beheerders kunnen leren hoe ze het beleid voor geavanceerde bezorging in Exchange Online Protection (EOP) kunnen gebruiken om berichten te identificeren die niet moeten worden gefilterd in specifieke ondersteunde scenario's (phishingsimulaties van derden en berichten die worden bezorgd in postvakken van beveiligingsbewerkingen (SecOps).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a9c1c6f7635b87e25adcb121db79f67d4ec1988f
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: deaad11b6397cd53017c0972a624b67a9623887f
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52788992"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52879106"
 ---
 # <a name="configure-the-delivery-of-third-party-phishing-simulations-to-users-and-unfiltered-messages-to-secops-mailboxes"></a>De bezorging van phishingsimulaties van derden configureren voor gebruikers en ongefilterde berichten in SecOps-postvakken
 
@@ -62,20 +62,20 @@ Berichten die worden geïdentificeerd door het geavanceerde bezorgingsbeleid zij
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent het beveiligingscentrum in <https://security.microsoft.com>. Als u rechtstreeks naar de pagina **Geavanceerde bezorging wilt** gaan, opent u <https://security.microsoft.com/advanceddelivery> .
+- U opent de Microsoft 365 Defender-portal op <https://security.microsoft.com> . Als u rechtstreeks naar de pagina **Geavanceerde bezorging wilt** gaan, opent u <https://security.microsoft.com/advanceddelivery> .
 
 - U moet machtigingen hebben toegewezen voordat u de procedures in dit artikel kunt uitvoeren:
-  - Als u geconfigureerde instellingen wilt maken, wijzigen of verwijderen in het  geavanceerde bezorgingsbeleid, moet u lid  zijn van de rollengroep Beveiligingsbeheerder in het **beveiligingscentrum** en lid zijn van de rollengroep Organisatiebeheer in **Exchange Online.**  
+  - Als u geconfigureerde instellingen wilt maken, wijzigen of verwijderen in het  geavanceerde bezorgingsbeleid, moet u lid zijn van  de rollengroep Beveiligingsbeheerder in de **Microsoft 365 Defender-portal** en lid zijn van de rollengroep Organisatiebeheer in **Exchange Online.**  
   - Voor alleen-lezen toegang tot het geavanceerde bezorgingsbeleid moet u lid zijn van de rollengroepen **Globale** lezer of **Beveiligingslezer.**
 
-  Zie Machtigingen [in het](permissions-microsoft-365-security-center.md) Microsoft 365 beveiligingscentrum en [Machtigingen in](/exchange/permissions-exo/permissions-exo)Exchange Online.
+  Zie Machtigingen [in de](permissions-microsoft-365-security-center.md) Defender Microsoft 365 portal en [Machtigingen in](/exchange/permissions-exo/permissions-exo)Exchange Online.
 
   > [!NOTE]
-  > Gebruikers toevoegen aan de bijbehorende Azure Active Directory geeft gebruikers de vereiste machtigingen in het beveiligingscentrum en _machtigingen_ voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
+  > Gebruikers toevoegen aan de bijbehorende Azure Active Directory geeft gebruikers de vereiste machtigingen  in de Microsoft 365 Defender-portal en machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
 
-## <a name="use-the-security-center-to-configure-secops-mailboxes-in-the-advanced-delivery-policy"></a>Het beveiligingscentrum gebruiken om SecOps-postvakken te configureren in het beleid voor geavanceerde bezorging
+## <a name="use-the-microsoft-365-defender-portal-to-configure-secops-mailboxes-in-the-advanced-delivery-policy"></a>Gebruik de Microsoft 365 Defender-portal om SecOps-postvakken te configureren in het beleid voor geavanceerde bezorging
 
-1. Ga in het beveiligingscentrum naar **E-mail & samenwerkingsbeleid** & regels \>  \> **Bedreigingsbeleidsregels** \>  sectie \> **Geavanceerde bezorging**.
+1. Ga in Microsoft 365 Defender-portal naar **E-mail &** samenwerkingsbeleidsregels & \>  \> **regels Bedreigingsbeleidsregels** sectie Geavanceerde \>  \> **bezorging.**
 
 2. Controleer op **de pagina** Geavanceerde bezorging of het **tabblad SecOps-postvak** is geselecteerd en ga vervolgens op een van de volgende stappen te werk:
    - Klik ![ op Pictogram Bewerken ](../../media/m365-cc-sc-edit-icon.png) **Bewerken.**
@@ -93,9 +93,9 @@ Berichten die worden geïdentificeerd door het geavanceerde bezorgingsbeleid zij
 
 De secops-postvakinzendingen die u hebt geconfigureerd, worden weergegeven op het **tabblad SecOps-postvak.** Als u wijzigingen wilt aanbrengen, klikt ![ u op Het tabblad ](../../media/m365-cc-sc-edit-icon.png) **bewerken** op Pictogram Bewerken.
 
-## <a name="use-the-security-center-to-configure-third-party-phishing-simulations-in-the-advanced-delivery-policy"></a>Gebruik het beveiligingscentrum om phishingsimulaties van derden te configureren in het beleid voor geavanceerde bezorging
+## <a name="use-the-microsoft-365-defender-portal-to-configure-third-party-phishing-simulations-in-the-advanced-delivery-policy"></a>Gebruik de Microsoft 365 Defender-portal om phishingsimulaties van derden te configureren in het geavanceerde bezorgingsbeleid
 
-1. Ga in het beveiligingscentrum naar **E-mail & samenwerkingsbeleid** & regels \>  \> **Bedreigingsbeleidsregels** \>  sectie \> **Geavanceerde bezorging**.
+1. Ga in Microsoft 365 Defender-portal naar **E-mail &** samenwerkingsbeleidsregels & \>  \> **regels Bedreigingsbeleidsregels** sectie Geavanceerde \>  \> **bezorging.**
 
 2. Selecteer op **de pagina** Geavanceerde bezorging het **tabblad Phishingsimulatie** en ga vervolgens op een van de volgende stappen te werk:
    - Klik ![ op Pictogram Bewerken ](../../media/m365-cc-sc-edit-icon.png) **Bewerken.**

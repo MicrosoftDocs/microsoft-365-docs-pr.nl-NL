@@ -31,7 +31,7 @@ Sommige instellingen voor Microsoft 365 Groepen, Microsoft Teams en SharePoint i
 
 ## <a name="the-effects-of-sharepoint-settings-on-groups-and-teams"></a>De effecten van SharePoint instellingen voor groepen en teams
 
-|SharePoint instelling|Omschrijving|Effect op Microsoft 365 groepen en Teams|Aanbeveling|
+|SharePoint instelling|Beschrijving|Effect op Microsoft 365 groepen en Teams|Aanbeveling|
 |:-----------------|:----------|:---------------------------------------|:-------------|
 |Extern delen voor organisatie en site|Hiermee wordt bepaald of sites, bestanden en mappen kunnen worden gedeeld met personen buiten de organisatie.|Als SharePoint, groepen en Teams niet overeenkomen, kunnen gasten in het team worden geblokkeerd voor toegang tot de site of kan er onverwachte externe toegang optreden.|Als u de instellingen voor delen wilt wijzigen, controleert u De instellingen van groepen, Teams instellingen en SharePoint site-instellingen voor teamsites die met een groep zijn verbonden.<br><br> Zie [Samenwerken met gasten in een team](./collaborate-as-team.md)|
 |Domein toestaan/blokkeren|Hiermee kunt u voorkomen dat inhoud wordt gedeeld met opgegeven domeinen.|Groepen en Teams herkennen geen SharePoint toestaan of blokkeren. Gebruikers van domeinen die niet zijn toegestaan in SharePoint kunnen toegang krijgen tot SharePoint sites of inhoud via een team.|Manage domain allow/block lists for Azure AD and SharePoint together. Maak een organisatiebreed beheerproces voor het toestaan en blokkeren van domeinen.<br><br>Zie [SharePoint domeininstellingen en](/sharepoint/restricted-domains-sharing) Azure [AD-domeininstellingen](/azure/active-directory/b2b/allow-deny-list)|
@@ -41,7 +41,7 @@ Sommige instellingen voor Microsoft 365 Groepen, Microsoft Teams en SharePoint i
 
 ## <a name="the-effects-of-groups-settings-on-teams"></a>De effecten van groepen-instellingen op teams
 
-|Microsoft 365 groepen instellen|Omschrijving|Effect op Teams|Aanbeveling|
+|Microsoft 365 groepen instellen|Beschrijving|Effect op Teams|Aanbeveling|
 |:---------------------------|:----------|:--------------|:-------------|
 |Beleid voor naamgeving|Hiermee geeft u groepsnaamvoorvoegsels en achtervoegsels op en geblokkeerde woorden voor het maken van groepen|Beleidsregels worden afgedwongen voor gebruikers die teams maken.||
 |Groepstoegang voor gasten|Hiermee geeft u aan of personen buiten de organisatie kunnen worden toegevoegd aan groepen.|Als de instellingen voor het delen van Teams of groepen zijn uitgeschakeld, kan het team niet worden gedeeld met gasten.|Wanneer u de instellingen voor het delen van gasten verandert, controleert u de instellingen voor Teams, Groepen en de SharePoint site die is gekoppeld aan het team.<br><br> Zie [Samenwerken met gasten in een team](./collaborate-as-team.md)|

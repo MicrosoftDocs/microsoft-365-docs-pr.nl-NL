@@ -17,12 +17,12 @@ ms.collection:
 description: Beheerders kunnen leren hoe ze een postvak configureren voor het verzamelen van spam en phishing-e-mail die door gebruikers worden gerapporteerd.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 719bd2b86cae1c6a951cb34408ecb9d2b8da699a
-ms.sourcegitcommit: a3359982fea01339c7377e3ee89f223788cee0bf
+ms.openlocfilehash: f4337b29e0718e23f43b441526232ec6ef66be1d
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52696584"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52879202"
 ---
 # <a name="user-submissions-policy"></a>Beleid voor gebruikersinzendingen
 
@@ -56,9 +56,9 @@ Gebruik de volgende artikelen om de vereiste vereisten te configureren, zodat do
 
 - Schakel HET SCANNEN VAN URL's in berichten in het aangepaste postvak uit. Gebruik [Beleidsregels voor Safe koppelingen instellen in Defender](set-up-safe-links-policies.md) voor Office 365 om een Safe-koppelingsbeleid te maken met de instelling Uit voor Selecteer de actie voor onbekende potentieel schadelijke **URL's in berichten.** 
 
-- Maak een anti-malwarebeleid om Malware Zero-hour Auto Purge uit te schakelen. Zie [Het beveiligings- & compliancecentrum gebruiken om anti-malwarebeleid](configure-your-spam-filter-policies.md#use-the-security-center-to-create-anti-spam-policies) te maken om **Malware Zero-hour Auto Purge in te** stellen op **Uit.**
+- Maak een anti-malwarebeleid om Malware Zero-hour Auto Purge uit te schakelen. Zie [Het beveiligings- & compliancecentrum gebruiken om anti-malwarebeleid](configure-your-spam-filter-policies.md#use-the-microsoft-365-defender-portal-to-create-anti-spam-policies) te maken om **Malware Zero-hour Auto Purge in te** stellen op **Uit.**
 
-- Maak een spamfilterbeleid om automatisch verwijderen (ZAP) van nul uur uit te schakelen voor spam en phishing in het aangepaste postvak. Zie [Het beveiligings- & compliancecentrum gebruiken](configure-your-spam-filter-policies.md#use-the-security-center-to-create-anti-spam-policies) om antispambeleid te maken en de selectievakjes Aan voor Spam  **ZAP** en **Phish ZAP uit te 2013.**
+- Maak een spamfilterbeleid om automatisch verwijderen (ZAP) van nul uur uit te schakelen voor spam en phishing in het aangepaste postvak. Zie [Het beveiligings- & compliancecentrum gebruiken](configure-your-spam-filter-policies.md#use-the-microsoft-365-defender-portal-to-create-anti-spam-policies) om antispambeleid te maken en de selectievakjes Aan voor Spam  **ZAP** en **Phish ZAP uit te 2013.**
 
 - Schakel de regel ongewenste e-mail in het aangepaste postvak uit. Gebruik [Instellingen voor ongewenste e-mail configureren Exchange Online postvakken om](configure-junk-email-settings-on-exo-mailboxes.md) de regel ongewenste e-mail uit te schakelen. Nadat EOP is uitgeschakeld, kan EOP berichten niet verplaatsen naar  de map Ongewenste e-mail op basis van de actie Bericht verplaatsen naar de map Ongewenste e-mail of de safelistverzameling in het postvak.
 

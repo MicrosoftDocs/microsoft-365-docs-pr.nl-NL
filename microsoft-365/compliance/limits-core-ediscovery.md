@@ -31,7 +31,7 @@ In de volgende tabel worden de limieten voor kern-eDiscovery-zaken en -gegevens 
   | Beschrijving van limiet | Limiet |
   |:-----|:-----|
   |Maximum aantal zaken voor een organisatie.  <br/> |Geen limiet  <br/> |
-  |Maximum aantal case-holds voor een organisatie.  <br/> |10,000  <br/> |
+  |Maximum aantal case-holds voor een organisatie.  <br/> |10.000  <br/> |
   |Maximum aantal postvakken in één case hold. Deze limiet omvat het gecombineerde totaal van gebruikerspostvakken en de postvakken die zijn gekoppeld aan Microsoft 365 Groepen, Microsoft Teams en Yammer Groepen.  <br/> |1,000  <br/> |
   |Maximum aantal sites in één geval. Deze limiet omvat het gecombineerde totaal OneDrive voor Bedrijven sites, SharePoint sites en de sites die zijn gekoppeld aan Microsoft 365 Groepen, Microsoft Teams en Yammer Groepen.  <br/> |100  <br/> |
   |Het maximum aantal zaken dat wordt weergegeven op de basis-startpagina van eDiscovery en het maximum aantal items dat wordt weergegeven op de tabbladen Houdt, Zoekopdrachten en Exporteren in een zaak. <sup>1</sup> |1,000|

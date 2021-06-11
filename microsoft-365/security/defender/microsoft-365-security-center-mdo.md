@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.prod: m365-security
 ms.technology: m365d
-ms.openlocfilehash: 95471f444117e1a44abe8de76c95cda52d5f7930
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 3629df6dd88176f66ec6e0f1eeedb78771cc36ec
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842601"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52879226"
 ---
 # <a name="microsoft-defender-for-office-365-in-microsoft-365-defender"></a>Microsoft Defender voor Office 365 in Microsoft 365 Defender
 
@@ -78,7 +78,7 @@ Deze tabel is een snelle verwijzing naar gebieden van E-mail en Samenwerking waa
 |Gebied|Beschrijving van wijziging|
 |---|---|
 |[Entiteitspagina van e-mail](../office-365-security/mdo-email-entity-page.md)|Deze pagina **verenigt** e-mailgegevens die over verschillende pagina's of weergaves in het verleden zijn verspreid. E-mails onderzoeken voor bedreigingen en trends is *gecentraliseerd*. Koptekstinformatie en preview van e-mail zijn beschikbaar via dezelfde e-mailpagina, samen met andere handige informatie over e-mails. Ook de deactiveringsstatus voor schadelijke bestandsbijlagen of URL's kunnen teruggevonden worden op het tabblad op dezelfde pagina. De E-mailentiteitspagina geeft de beheerder en beveiligingsteams de mogelijkheid om de bedreiging van e-mails en de status hiervan te begrijpen en vervolgens snel te handelen.|
-|[Onderzoek](../office-365-security/office-365-air.md#changes-are-coming-soon-in-your-security-center)|Dit brengt AIR-functies samen in [Defender voor Office 365](/microsoft-365/security/office-365-security/defender-for-office-365) en [Defender voor eindpunt](../defender-endpoint/automated-investigations.md). Met deze updates en verbeteringen kan jouw beveiligingsteam informatie bekijken over geautomatiseerde onderzoeken en herstelacties in e-mail, samenwerkingsinhoud, gebruikersaccounts en apparaten, allemaal op één plaats.|
+|[Onderzoek](../office-365-security/office-365-air.md#changes-are-coming-soon-in-your-microsoft-365-defender-portal)|Dit brengt AIR-functies samen in [Defender voor Office 365](/microsoft-365/security/office-365-security/defender-for-office-365) en [Defender voor eindpunt](../defender-endpoint/automated-investigations.md). Met deze updates en verbeteringen kan jouw beveiligingsteam informatie bekijken over geautomatiseerde onderzoeken en herstelacties in e-mail, samenwerkingsinhoud, gebruikersaccounts en apparaten, allemaal op één plaats.|
 |[Waarschuwingsweergave](../../compliance/alert-policies.md)|Het **deelvenster Waarschuwingen weergeven** in het Office beveiligings- en compliancecentrum bevat nu koppelingen naar Microsoft 365 Defender. Klik op de **koppeling Waarschuwingspagina openen** en Microsoft 365 Defender wordt geopend. Klik op eender welke Office 365-waarschuwing in de Waarschingswachtrij om toegang te krijgen tot de pagina **Waarschuwingen weergeven**.|
 |[Aanvalssimulatietraining](../office-365-security/attack-simulation-training-insights.md)|Gebruik Aanvalssimulatietraining om realistische aanvalsscenario's uit te voeren in jouw organisatie. Met deze gesimuleerde aanvallen kan je jouw personeel trainen voordat een echte aanval jouw organisatie treft. Aanvalssimulatietraining bevat meer opties, geavanceerde rapporten en verbeterde trainingsstromen waardoor je de aanvalsscenario's en trainingsscenario's gemakkelijk kan leveren en beheren.|
 |

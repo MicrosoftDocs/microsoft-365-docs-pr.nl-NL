@@ -19,12 +19,12 @@ description: Tijdens en na een geautomatiseerd onderzoek in Microsoft 365, kunt 
 ms.date: 01/29/2021
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d2923a6375d54c663f20c440b1fa395bd529429d
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: fc7c61fae83f2d10f8b66cbfce86bcee6e3a5bd6
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275046"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878422"
 ---
 # <a name="details-and-results-of-an-automated-investigation-in-microsoft-365"></a>Details en resultaten van een geautomatiseerd onderzoek in Microsoft 365
 
@@ -32,17 +32,21 @@ ms.locfileid: "52275046"
 - [Abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Wanneer een [geautomatiseerd onderzoek](office-365-air.md) plaatsvindt in Microsoft Defender [voor Office 365,](defender-for-office-365.md)zijn details over dat onderzoek beschikbaar tijdens en na het geautomatiseerde onderzoeksproces. Als u de benodigde machtigingen hebt, kunt u deze gegevens bekijken in het Microsoft 365 beveiligingscentrum. Onderzoeksdetails bieden u de actuele status en de mogelijkheid om in behandeling zijnde acties goed te keuren.
+Wanneer een [geautomatiseerd onderzoek](office-365-air.md) plaatsvindt in Microsoft Defender [voor Office 365,](defender-for-office-365.md)zijn details over dat onderzoek beschikbaar tijdens en na het geautomatiseerde onderzoeksproces. Als u de benodigde machtigingen hebt, kunt u deze details bekijken in de Microsoft 365 Defender-portal. Onderzoeksdetails bieden u de actuele status en de mogelijkheid om in behandeling zijnde acties goed te keuren.
 
 > [!TIP]
-> Bekijk de nieuwe, geïntegreerde onderzoekspagina in het Microsoft 365 beveiligingscentrum. Zie [(NIEUW!) voor meer informatie. Geïntegreerde onderzoekspagina](../defender/m365d-autoir-results.md#new-unified-investigation-page).
+> Bekijk de nieuwe, geïntegreerde onderzoekspagina in de Microsoft 365 Defender-portal. Zie [(NIEUW!) voor meer informatie. Geïntegreerde onderzoekspagina](../defender/m365d-autoir-results.md#new-unified-investigation-page).
 
 ## <a name="investigation-status"></a>Onderzoeksstatus
 
 De onderzoeksstatus geeft de voortgang van de analyse en acties aan. Terwijl het onderzoek wordt uitgevoerd, wordt de status gewijzigd om aan te geven of er bedreigingen zijn gevonden en of acties zijn goedgekeurd.
 
-|Status|Beschrijving|
-|:---|:---|
+<br>
+
+****
+
+|Status|Omschrijving|
+|---|---|
 |**Starten**|Het onderzoek is gestart en het wachten is om te starten.|
 |**Uitvoeren**|Het onderzoeksproces is gestart en is aan de gang. Deze status treedt ook op wanneer [acties in behandeling](air-review-approve-pending-completed-actions.md#approve-or-reject-pending-actions) zijn goedgekeurd.|
 |**Geen bedreigingen gevonden**|Het onderzoek is voltooid en er zijn geen bedreigingen (gebruikersaccount, e-mailbericht, URL of bestand) geïdentificeerd. <p> **TIP**: Als u vermoedt dat er iets is gemist (zoals een onwaar negatief), kunt u actie ondernemen met [Threat Explorer.](threat-explorer.md)|
@@ -58,7 +62,7 @@ De onderzoeksstatus geeft de voortgang van de analyse en acties aan. Terwijl het
 
 ## <a name="view-details-of-an-investigation"></a>Details van een onderzoek weergeven
 
-1. Ga naar het Microsoft 365 beveiligingscentrum ( <https://security.microsoft.com> ) en meld u aan.
+1. Ga naar de Microsoft 365 Defender-portal <https://security.microsoft.com> () en meld u aan.
 2. Selecteer actiecentrum in het **navigatiedeelvenster.**
 3. Selecteer een actie **op de** **tabbladen** In behandeling of Geschiedenis. Het deelvenster Flyout wordt geopend.
 4. Selecteer in het deelvenster Flyout de optie **Onderzoekspagina openen.** 
@@ -68,10 +72,10 @@ De onderzoeksstatus geeft de voortgang van de analyse en acties aan. Terwijl het
 
 Bepaalde soorten waarschuwingen leiden tot automatisch onderzoek in Microsoft 365. Zie waarschuwingsbeleidsregels voor automatische onderzoeken voor [meer informatie.](office-365-air.md#which-alert-policies-trigger-automated-investigations)
 
-1. Ga naar het Microsoft 365 beveiligingscentrum ( <https://security.microsoft.com> ) en meld u aan.
+1. Ga naar de Microsoft 365 Defender-portal <https://security.microsoft.com> () en meld u aan.
 2. Selecteer actiecentrum in het **navigatiedeelvenster.**
 3. Selecteer een actie **op de** **tabbladen** In behandeling of Geschiedenis. Het deelvenster Flyout wordt geopend.
-4. Selecteer in het deelvenster Flyout de optie **Onderzoekspagina openen.** 
+4. Selecteer in het deelvenster Flyout de optie **Onderzoekspagina openen.**
 5. Selecteer het **tabblad Waarschuwingen** om een lijst weer te geven met alle waarschuwingen die aan dat onderzoek zijn gekoppeld.
 6. Selecteer een item in de lijst om het flyoutvenster te openen. Daar kunt u meer informatie over de waarschuwing bekijken.
 

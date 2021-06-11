@@ -12,14 +12,16 @@ ms.collection:
 - m365initiative-defender-office365
 description: Beheerders kunnen leren hoe u aangepaste payloads kunt maken voor de training voor de aanvalssimulatie in Microsoft Defender voor Office 365.
 ms.technology: mdo
-ms.openlocfilehash: 6cc5dd4a48ab89193133cfaf823d0a1b1868fa79
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: ac7963b71c466e8dfdc513a2563776cd4e10af95
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204074"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878758"
 ---
 # <a name="create-a-custom-payload-for-attack-simulation-training"></a>Een aangepaste nettolading maken voor aanvalssimulatietraining
+
+**Van toepassing op** [Microsoft Defender voor Office 365 abonnement 2](defender-for-office-365.md)
 
 Microsoft biedt een krachtige payloadcatalogus voor diverse social engineering-technieken die u kunt koppelen aan uw trainingstraining voor aanvalssimulaties. U kunt echter aangepaste payloads maken die beter werken voor uw organisatie. In dit artikel wordt beschreven hoe u een payload kunt maken in De training voor de aanvalssimulatie in Microsoft Defender voor Office 365.
 

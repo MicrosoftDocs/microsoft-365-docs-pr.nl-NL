@@ -20,12 +20,12 @@ ms.custom:
 description: Beheerders kunnen leren hoe ze Attack Simulator kunnen gebruiken om gesimuleerde phishing- en wachtwoordaanvallen uit te voeren in hun Microsoft 365 E5 of Microsoft Defender voor Office 365 Plan 2-organisaties.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 73ad3501ed9818261c9fbec6ba12b4dc884da84f
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 03e6c0077f13c85bfd20ac0583b64ce29e2535a1
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624823"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878674"
 ---
 # <a name="attack-simulator-in-microsoft-defender-for-office-365"></a>Attack Simulator in Microsoft Defender voor Office 365
 
@@ -37,9 +37,9 @@ Als uw organisatie Beschikt over Microsoft Defender voor Office 365 Plan 2, dat 
 
 > [!NOTE]
 >
-> Attack Simulator zoals beschreven in dit artikel is nu alleen-lezen en is vervangen door **attack-simulatietraining** in het e-mail- **&-samenwerkings** knooppunt in het Microsoft 365 [beveiligingscentrum.](https://security.microsoft.com) Zie Aan de slag [met de trainingstraining Aanvalssimulatie voor meer informatie.](attack-simulation-training-get-started.md)
+> Attack Simulator zoals beschreven in dit artikel is nu alleen-lezen en is vervangen door **Attack-simulatietraining** in het samenwerkings knooppunt **E-mail &** in de Microsoft 365 Defender-portal op <https://security.microsoft.com> . Zie Aan de slag [met de trainingstraining Aanvalssimulatie voor meer informatie.](attack-simulation-training-get-started.md)
 >
-> De mogelijkheid om nieuwe simulaties te starten vanuit deze versie van Attack Simulator is uitgeschakeld. Vanaf 24 januari 2021 hebt u echter nog steeds toegang tot rapporten voor maximaal 90 dagen.
+> De mogelijkheid om nieuwe simulaties te starten vanuit deze versie van Attack Simulator is uitgeschakeld. U hebt echter nog steeds toegang tot rapporten tot 24 april 2021.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 

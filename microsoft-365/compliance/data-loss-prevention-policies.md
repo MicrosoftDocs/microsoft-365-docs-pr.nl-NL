@@ -22,12 +22,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: referentiemateriaal voor preventie van gegevensverlies
-ms.openlocfilehash: 7e8494c0199d62951e7b5f01bb1b65e90e8584f2
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: a6dc0b2702899e05f78c54331fb33b87495672d8
+ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878158"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52572559"
 ---
 # <a name="data-loss-prevention-reference"></a>Verwijzing naar preventie van gegevensverlies
  
@@ -112,7 +112,7 @@ Als u ervoor kiest om specifieke sites op te nemen SharePoint uit te sluiten, ka
 Als u ervoor kiest om specifieke OneDrive accounts of groepen op te nemen of uit te sluiten, kan een DLP-beleid niet meer dan 100 gebruikersaccounts of 50 groepen bevatten als opname of uitsluiting.
 
 > [!NOTE]
-> OneDrive voor bedrijfsbeleidsscoping met behulp van gebruikersaccounts of groepen wordt weergegeven in een openbaar voorbeeld. 
+> OneDrive voor bedrijfsbeleidsscopie met behulp van accounts of groepen wordt weergegeven in een openbaar voorbeeld. In deze fase kunt u gebruikersaccounts en groepen opnemen of uitsluiten als onderdeel van een DLP-beleid. Inclusie en uitsluiting als onderdeel van hetzelfde beleid worden niet ondersteund.
   
 ### <a name="rules"></a>Regels
 
@@ -544,7 +544,7 @@ Wanneer u een DLP-beleid maakt dat Microsoft Teams als locatie bevat, wordt het 
  
 ## <a name="permissions"></a>Machtigingen
 
-Globale beheerders, beveiligingsbeheerders en compliancebeheerders hebben standaard toegang tot het maken en toepassen van een DLP-beleid. Andere leden van uw complianceteam die DLP-beleidsregels maken, hebben machtigingen nodig voor het Beveiligings &amp; compliancecentrum. Uw tenantbeheerder heeft standaard toegang tot deze locatie en kan compliancemedewerkers en andere personen toegang geven tot het Beveiligings compliancecentrum, zonder dat ze alle machtigingen van een &amp; tenantbeheerder hebben. U wordt aangeraden het volgende te doen:
+Leden van uw complianceteam die DLP-beleidsregels maken, hebben machtigingen nodig voor het Beveiligings &amp; compliancecentrum. Uw tenantbeheerder heeft standaard toegang tot deze locatie en kan compliancemedewerkers en andere personen toegang geven tot het Beveiligings compliancecentrum, zonder dat ze alle machtigingen van een &amp; tenantbeheerder hebben. U wordt aangeraden het volgende te doen:
   
 1. Maak een groep in Microsoft 365 en voeg compliance officers toe aan deze groep.
     

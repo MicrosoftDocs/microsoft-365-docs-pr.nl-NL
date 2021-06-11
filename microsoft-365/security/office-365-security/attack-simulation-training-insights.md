@@ -10,20 +10,22 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Beheerders kunnen leren hoe training voor de aanvalssimulatie in Microsoft 365 beveiligingscentrum van invloed is op werknemers en inzichten kunnen krijgen uit simulatie- en trainingsresultaten.
+description: Beheerders kunnen leren hoe training voor aanvalssimulaties in de Microsoft 365 Defender-portal werknemers beïnvloedt en inzichten kunnen krijgen uit simulatie- en trainingsresultaten.
 ms.technology: mdo
-ms.openlocfilehash: 0fcb88406558f73b587d8452375c33dbbec1c78b
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: e189864a42d025bb5ce720a6edb6c1c2c8c84623
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51600005"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878374"
 ---
 # <a name="gain-insights-through-attack-simulation-training"></a>Meer inzicht krijgen middels aanvalssimulatietraining
 
+**Van toepassing op** [Microsoft Defender voor Office 365 abonnement 2](defender-for-office-365.md)
+
 In de trainingstraining aanvalssimulatie biedt Microsoft u inzichten op basis van resultaten van simulaties en trainingen die werknemers hebben doormaakt. Deze inzichten helpen u op de hoogte te blijven van de voortgang van de bedreigingsbereidheid van uw werknemers en u kunt ook de volgende stappen aanbevelen om uw werknemers en uw omgeving beter voor te bereiden op aanvallen.
 
-We werken voortdurend aan het uitbreiden van de inzichten die voor u beschikbaar zijn. Gedrag en aanbevolen acties zijn momenteel beschikbaar. Om te beginnen gaat u naar De training voor de [aanvalssimulatie in Microsoft 365 beveiligingscentrum.](https://security.microsoft.com/attacksimulator?viewid=overview)
+We werken voortdurend aan het uitbreiden van de inzichten die voor u beschikbaar zijn. Gedrag en aanbevolen acties zijn momenteel beschikbaar. Om te beginnen gaat u naar De training voor de [aanvalssimulatie in Microsoft 365 Defender-portal.](https://security.microsoft.com/attacksimulator?viewid=overview)
 
 ## <a name="behavior-impact-on-compromise-rate"></a>Effect op het gedrag van compromissen
 

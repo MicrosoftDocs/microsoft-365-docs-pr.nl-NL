@@ -15,12 +15,12 @@ ms.collection:
 description: Beheerders kunnen leren hoe ze het anti-phishingbeleid kunnen maken, wijzigen en verwijderen dat beschikbaar is in Exchange Online Protection (EOP) organisaties met of zonder Exchange Online postvakken.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ee227fe622f21d5b0f520507e1d88e2bbd0f3b31
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: ec944a2bf6fa7600a9970a7354332d140293ab5e
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822308"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878542"
 ---
 # <a name="configure-anti-phishing-policies-in-eop"></a>Antiphishingbeleid configureren in EOP
 
@@ -33,7 +33,7 @@ In Microsoft 365 organisaties met postvakken in Exchange Online of zelfstandige 
 
 Beheerders kunnen het standaard anti-phishingbeleid weergeven, bewerken en configureren (maar niet verwijderen). Voor meer granulariteit kunt u ook aangepaste anti-phishingbeleidsregels maken die van toepassing zijn op specifieke gebruikers, groepen of domeinen in uw organisatie. Aangepast beleid heeft altijd voorrang op het standaardbeleid, maar u kunt de prioriteit (uitvoervolgorde) wijzigen van uw aangepaste beleid.
 
-Organisaties met Exchange Online postvakken kunnen anti-phishingbeleid configureren in het Microsoft 365 beveiligingscentrum of in Exchange Online PowerShell. Zelfstandige EOP-organisaties kunnen alleen gebruikmaken van het beveiligingscentrum.
+Organisaties met Exchange Online postvakken kunnen anti-phishingbeleid configureren in Microsoft 365 Defender-portal of in Exchange Online PowerShell. Zelfstandige EOP-organisaties kunnen alleen de portal Microsoft 365 Defender gebruiken.
 
 Zie Anti-phishingbeleid configureren in Microsoft Office 365 Defender voor Office 365 voor meer informatie over het maken en wijzigen van het meer geavanceerde [anti-phishingbeleid](configure-atp-anti-phishing-policies.md)dat beschikbaar is in Microsoft Defender voor Office 365.
 
@@ -42,7 +42,7 @@ De basiselementen van een anti-phishingbeleid zijn:
 - **Het anti-phish-beleid:** geeft de phishingbeveiligingen aan die u wilt in- of uitschakelen en de acties om opties toe te passen.
 - **De anti-phish-regel:** hiermee geeft u de prioriteits- en geadresseerdefilters op (op wie het beleid van toepassing is) voor een anti-phish-beleid.
 
-Het verschil tussen deze twee elementen is niet duidelijk wanneer u anti-phishingbeleid in het beveiligingscentrum beheert:
+Het verschil tussen deze twee elementen is niet duidelijk wanneer u anti-phishingbeleid beheert in Microsoft 365 Defender-portal:
 
 - Wanneer u een anti-phishingbeleid maakt, maakt u tegelijkertijd een anti-phish-regel en het bijbehorende anti-phish-beleid met dezelfde naam voor beide.
 - Wanneer u een anti-phishingbeleid wijzigt, wijzigen instellingen met betrekking tot de naam, prioriteit, ingeschakeld of uitgeschakeld en geadresseerdefilters de anti-phish-regel. Alle andere instellingen wijzigen het bijbehorende anti-phish-beleid.
@@ -60,7 +60,7 @@ Als u de effectiviteit van anti-phishingbeveiliging wilt vergroten, kunt u aange
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent het beveiligingscentrum in <https://security.microsoft.com>. Als u rechtstreeks naar de **pagina Anti-phishing wilt** gaan, gebruikt u <https://security.microsoft.com/antiphishing> .
+- U opent de Microsoft 365 Defender-portal op <https://security.microsoft.com> . Als u rechtstreeks naar de **pagina Anti-phishing wilt** gaan, gebruikt u <https://security.microsoft.com/antiphishing> .
 
 - Zie [Verbinding maken met Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell.
 
@@ -83,11 +83,11 @@ Als u de effectiviteit van anti-phishingbeveiliging wilt vergroten, kunt u aange
 
 - Zie Bestelling en prioriteit van e-mailbeveiliging voor informatie over de toepassing van anti-phishingbeleid in de [filterpijplijn.](how-policies-and-protections-are-combined.md)
 
-## <a name="use-the-security-center-to-create-anti-phishing-policies"></a>Gebruik het beveiligingscentrum om anti-phishingbeleid te maken
+## <a name="use-the-microsoft-365-defender-portal-to-create-anti-phishing-policies"></a>Gebruik de Microsoft 365 Defender-portal om anti-phishingbeleid te maken
 
-Als u een aangepast anti-phishingbeleid maakt in het beveiligingscentrum, worden de anti-phish-regel en het bijbehorende anti-phish-beleid tegelijkertijd gemaakt met dezelfde naam voor beide.
+Als u een aangepast anti-phishingbeleid maakt in de Microsoft 365 Defender-portal, worden de anti-phish-regel en het bijbehorende anti-phish-beleid tegelijkertijd gemaakt met dezelfde naam voor beide.
 
-1. Ga in het beveiligingscentrum naar **E-mail & samenwerkingsbeleid** & sectie Beleidsregels voor bedreigingsbeleid \>  \>  \>  \> **Anti-phishing**.
+1. Ga in Microsoft 365 Defender-portal naar **E-mail & Samenwerkingsbeleid** & sectie Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Anti-phishing**.
 
 2. Klik op **de pagina Anti-phishing** op ![ Pictogram Maken ](../../media/m365-cc-sc-create-icon.png) **maken.**
 
@@ -143,9 +143,9 @@ Als u een aangepast anti-phishingbeleid maakt in het beveiligingscentrum, worden
 
 8. Klik op de bevestigingspagina die wordt weergegeven op **Gereed**.
 
-## <a name="use-the-security-center-to-view-anti-phishing-policies"></a>Het beveiligingscentrum gebruiken om anti-phishingbeleid te bekijken
+## <a name="use-the-microsoft-365-defender-portal-to-view-anti-phishing-policies"></a>Gebruik de Microsoft 365 Defender-portal om anti-phishingbeleid te bekijken
 
-1. Ga in het beveiligingscentrum naar **E-mail & samenwerkingsbeleid** & sectie Beleidsregels voor bedreigingsbeleid \>  \>  \>  \> **Anti-phishing**.
+1. Ga in Microsoft 365 Defender-portal naar **E-mail & Samenwerkingsbeleid** & sectie Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Anti-phishing**.
 
 2. Op de **pagina Anti-phishing** worden de volgende eigenschappen weergegeven in de lijst met anti-phishingbeleidsregels:
 
@@ -156,13 +156,13 @@ Als u een aangepast anti-phishingbeleid maakt in het beveiligingscentrum, worden
 
 3. Wanneer u een beleid selecteert door op de naam te klikken, worden de beleidsinstellingen weergegeven in een flyout.
 
-## <a name="use-the-security-center-to-modify-anti-phishing-policies"></a>Gebruik het beveiligingscentrum om anti-phishingbeleid te wijzigen
+## <a name="use-the-microsoft-365-defender-portal-to-modify-anti-phishing-policies"></a>Gebruik de Microsoft 365 Defender-portal om anti-phishingbeleid te wijzigen
 
-1. Ga in het beveiligingscentrum naar **E-mail & samenwerkingsbeleid** & sectie Beleidsregels voor bedreigingsbeleid \>  \>  \>  \> **Anti-phishing**.
+1. Ga in Microsoft 365 Defender-portal naar **E-mail & Samenwerkingsbeleid** & sectie Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Anti-phishing**.
 
 2. Selecteer op **de pagina Anti-phishing** een beleid in de lijst door op de naam te klikken.
 
-3. U kunt in de flyout met beleidsdetails in elke sectie de optie **Bewerken** selecteren om de instellingen in de sectie te wijzigen. Zie Het beveiligingscentrum gebruiken om [anti-phishingbeleid](#use-the-security-center-to-create-anti-phishing-policies) te maken eerder in dit artikel voor meer informatie over de instellingen.  
+3. U kunt in de flyout met beleidsdetails in elke sectie de optie **Bewerken** selecteren om de instellingen in de sectie te wijzigen. Zie de portal Use [the Microsoft 365 Defender om anti-phishingbeleid](#use-the-microsoft-365-defender-portal-to-create-anti-phishing-policies) te maken eerder in dit artikel voor meer informatie over de instellingen.  
 
    Voor het standaard anti-phishingbeleid is de sectie **Gebruikers,** groepen en domeinen niet beschikbaar (het beleid is van toepassing op iedereen) en kunt u de naam van het beleid niet wijzigen.
 
@@ -172,7 +172,7 @@ Zie de volgende secties als u een beleid wilt in- of uitschakelen of de beleidsp
 
 U kunt het standaard anti-phishingbeleid niet uitschakelen.
 
-1. Ga in het beveiligingscentrum naar **E-mail & samenwerkingsbeleid** & sectie Beleidsregels voor bedreigingsbeleid \>  \>  \>  \> **Anti-phishing**.
+1. Ga in Microsoft 365 Defender-portal naar **E-mail & Samenwerkingsbeleid** & sectie Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Anti-phishing**.
 
 2. Selecteer op **de pagina Anti-phishing** een aangepast beleid in de lijst door op de naam te klikken.
 
@@ -190,14 +190,14 @@ Op de hoofdbeleidspagina wordt de waarde **Status** van het beleid weergegeven a
 
 Anti-phishingbeleid krijgt standaard een prioriteit die is gebaseerd op de volgorde waarin ze zijn gemaakt (nieuwere beleidsregels hebben een lagere prioriteit dan oudere beleidsregels). Een lager prioriteitsnummer geeft een hogere prioriteit aan voor het beleid (0 is de hoogste) en beleid word verwerkt in prioriteitsvolgorde (beleid met hogere prioriteit wordt verwerkt voor beleid met lagere prioriteit). Twee beleidsregels kunnen niet dezelfde prioriteit hebben en de verwerking van het beleid stopt nadat het eerste beleid is toegepast.
 
-Als u de prioriteit van een beleid wilt wijzigen, klikt u op **Prioriteit verhogen** of **Prioriteit verlagen** in de eigenschappen van het beleid (u kunt het **Prioriteitsnummer** niet rechtstreeks wijzigen in het beveiligingscentrum). Het wijzigen van de prioriteit van een beleid is alleen zinvol als u meerdere beleidsregels hebt.
+Als u de prioriteit van  een beleid wilt wijzigen, klikt u op Prioriteit verhogen  of Prioriteit verlagen **in** de eigenschappen van het beleid (u kunt het prioriteitsnummer niet rechtstreeks wijzigen in de portal Microsoft 365 Defender). Het wijzigen van de prioriteit van een beleid is alleen zinvol als u meerdere beleidsregels hebt.
 
  **Opmerkingen**:
 
-- In het beveiligingscentrum kunt u alleen de prioriteit van het anti-phishingbeleid wijzigen nadat u het hebt gemaakt. In PowerShell kunt u de standaardprioriteit overschrijven wanneer u de anti-phish-regel maakt (die van invloed kan zijn op de prioriteit van bestaande regels).
+- In de Microsoft 365 Defender-portal kunt u alleen de prioriteit van het anti-phishingbeleid wijzigen nadat u deze hebt gemaakt. In PowerShell kunt u de standaardprioriteit overschrijven wanneer u de anti-phish-regel maakt (die van invloed kan zijn op de prioriteit van bestaande regels).
 - Anti-phishingbeleid wordt verwerkt in de volgorde waarin ze worden weergegeven (het eerste beleid heeft de **prioriteitswaarde** 0). Het standaard anti-phishingbeleid heeft de prioriteitswaarde **Laag** en u kunt deze niet wijzigen.
 
-1. Ga in het beveiligingscentrum naar **E-mail & samenwerkingsbeleid** & sectie Beleidsregels voor bedreigingsbeleid \>  \>  \>  \> **Anti-phishing**.
+1. Ga in Microsoft 365 Defender-portal naar **E-mail & Samenwerkingsbeleid** & sectie Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Anti-phishing**.
 
 2. Selecteer op **de pagina Anti-phishing** een aangepast beleid in de lijst door op de naam te klikken.
 
@@ -210,11 +210,11 @@ Als u de prioriteit van een beleid wilt wijzigen, klikt u op **Prioriteit verhog
 
 4. Wanneer u klaar bent, klikt u in de flyout met beleidsdetails op **Sluiten**.
 
-## <a name="use-the-security-center-to-remove-custom-anti-phishing-policies"></a>Gebruik het beveiligingscentrum om aangepaste anti-phishingbeleidsregels te verwijderen
+## <a name="use-the-microsoft-365-defender-portal-to-remove-custom-anti-phishing-policies"></a>Gebruik de Microsoft 365 Defender-portal om aangepaste anti-phishingbeleidsregels te verwijderen
 
-Wanneer u het beveiligingscentrum gebruikt om een aangepast anti-phishingbeleid te verwijderen, worden de anti-phish-regel en het bijbehorende anti-phish-beleid beide verwijderd. U kunt het standaard anti-phishingbeleid niet verwijderen.
+Wanneer u de portal Microsoft 365 Defender gebruikt om een aangepast anti-phishingbeleid te verwijderen, worden de anti-phish-regel en het bijbehorende anti-phish-beleid beide verwijderd. U kunt het standaard anti-phishingbeleid niet verwijderen.
 
-1. Ga in het beveiligingscentrum naar **E-mail & samenwerkingsbeleid** & sectie Beleidsregels voor bedreigingsbeleid \>  \>  \>  \> **Anti-phishing**.
+1. Ga in Microsoft 365 Defender-portal naar **E-mail & Samenwerkingsbeleid** & sectie Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Anti-phishing**.
 
 2. Selecteer een aangepast beleid in de lijst door op de naam van het beleid te klikken. Klik boven aan de flyout met beleidsdetails die wordt weergegeven, op het ![pictogram Meer acties](../../media/m365-cc-sc-more-actions-icon.png) **Meer acties** \> ![Pictogram Beleid verwijderen](../../media/m365-cc-sc-delete-icon.png) **Beleid verwijderen**.
 
@@ -244,12 +244,12 @@ Het maken van een anti-phishingbeleid in PowerShell is een proces in twee stappe
 
 - U kunt een nieuwe anti-phish-regel maken en er een bestaand, niet-verbonden anti-phish-beleid aan toewijzen. Een anti-phish-regel kan niet worden gekoppeld aan meer dan één anti-phish-beleid.
 
-- U kunt de volgende instellingen configureren voor nieuwe anti-phish-beleidsregels in PowerShell die pas beschikbaar zijn in het beveiligingscentrum nadat u het beleid hebt gemaakt:
+- U kunt de volgende instellingen configureren voor nieuwe anti-phish-beleidsregels in PowerShell die pas beschikbaar zijn in de Microsoft 365 Defender-portal nadat u het beleid hebt gemaakt:
 
   - Het nieuwe beleid maken als uitgeschakeld (_ingeschakeld op_ `$false` de cmdlet **New-AntiPhishRule).**
   - Stel de prioriteit van het beleid in tijdens het maken _(Prioriteit)_ _\<Number\>_ op de cmdlet **Nieuw-AntiPhishRule).**
 
-- Een nieuw anti-phish-beleid dat u in PowerShell maakt, is pas zichtbaar in het beveiligingscentrum als u het beleid aan een anti-phish-regel toewijst.
+- Een nieuw anti-phish-beleid dat u maakt in PowerShell, is niet zichtbaar in de Microsoft 365 Defender-portal totdat u het beleid toewijst aan een anti-phish-regel.
 
 #### <a name="step-1-use-powershell-to-create-an-anti-phish-policy"></a>Stap 1: PowerShell gebruiken om een anti-phish-beleid te maken
 
@@ -349,7 +349,7 @@ Zie [Get-AntiPhishRule](/powershell/module/exchange/Get-AntiPhishrule)voor gedet
 Naast de volgende items zijn dezelfde instellingen beschikbaar wanneer u een anti-phish-beleid in PowerShell wijzigt als wanneer u een beleid maakt zoals beschreven in stap 1: PowerShell gebruiken om eerder in dit artikel een [anti-phish-beleid](#step-1-use-powershell-to-create-an-anti-phish-policy) te maken.
 
 - De _schakelknop MakeDefault_ die het opgegeven beleid verandert in  het standaardbeleid (toegepast op iedereen, altijd Laagste prioriteit en u kunt het niet verwijderen) is alleen beschikbaar wanneer u een anti-phish-beleid wijzigt in PowerShell.
-- U kunt de naam van een anti-phish-beleid niet wijzigen (de cmdlet **Set-AntiPhishPolicy** heeft geen _naamparameter)._ Wanneer u de naam van een anti-phishingbeleid in het beveiligingscentrum wijzigt, wijzigt u alleen de naam van de anti-phish-regel. 
+- U kunt de naam van een anti-phish-beleid niet wijzigen (de cmdlet **Set-AntiPhishPolicy** heeft geen _naamparameter)._ Wanneer u de naam van een anti-phishingbeleid wijzigt in Microsoft 365 Defender-portal, wijzigt u alleen de naam van de anti-phish-regel.
 
 Als u een anti-phish-beleid wilt wijzigen, gebruikt u de volgende syntaxis:
 
@@ -458,7 +458,7 @@ Zie [Remove-AntiPhishRule (Verwijderen-AntiPhishRule)](/powershell/module/exchan
 
 Als u wilt controleren of u anti-phishingbeleid hebt geconfigureerd in EOP, gaat u als volgt te werk:
 
-- Ga in het beveiligingscentrum naar **E-mail & samenwerkingsbeleid** & sectie Beleidsregels voor bedreigingsbeleid \>  \>  \>  \> **Anti-phishing**. Controleer de lijst met beleidsregels, de **statuswaarden** en de **prioriteitswaarden.** Als u meer details wilt weergeven, selecteert u het beleid in de lijst door op de naam te klikken en de details weer te geven in de flyout die wordt weergegeven.
+- Ga in Microsoft 365 Defender-portal naar **E-mail & Samenwerkingsbeleid** & sectie Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Anti-phishing**. Controleer de lijst met beleidsregels, de **statuswaarden** en de **prioriteitswaarden.** Als u meer details wilt weergeven, selecteert u het beleid in de lijst door op de naam te klikken en de details weer te geven in de flyout die wordt weergegeven.
 
 - Vervang Exchange Online PowerShell door de naam van het beleid of de regel, voer de volgende opdracht uit en \<Name\> controleer de instellingen:
 

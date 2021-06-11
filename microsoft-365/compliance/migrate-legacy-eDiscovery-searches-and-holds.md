@@ -152,7 +152,7 @@ Als u een In-Place eDiscovery-zoekopdracht migreert, maar deze niet koppelt aan 
   
   - [In-place eDiscovery](/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery)
 
-  - [In-Place Hold and Litigation Hold](/exchange/security-and-compliance/in-place-and-litigation-holds)
+  - [In-place bewaring en het bewaren van postvakgegevens vanwege juridische procedure](/exchange/security-and-compliance/in-place-and-litigation-holds)
 
 - Zie voor meer informatie over de PowerShell-cmdlets die in het artikel worden gebruikt:
 

@@ -17,12 +17,12 @@ ms.collection:
 description: Beheerders kunnen het antispambeleid in Exchange Online Protection (EOP) bekijken, maken, wijzigen en verwijderen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2214baa1c205d4e0f634c5a07f4d55522d2ad6b1
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: 78cfef52988e7da611edc0cc4d475e8a4624bc0e
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822019"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52879094"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Antispambeleid configureren in EOP
 
@@ -37,14 +37,14 @@ In Microsoft 365-organisaties met postvakken in Exchange Online of standalone EO
 
 Beheerders kunnen het standaardbeleid bekijken, bewerken en configureren (maar niet verwijderen). Voor grotere nauwkeurigheid kunt u ook aangepast antispambeleid maken dat wordt toegepast op specifieke gebruikers, groepen of domeinen binnen uw bedrijf. Aangepast beleid heeft altijd voorrang op het standaardbeleid, maar u kunt de prioriteit (uitvoervolgorde) wijzigen van uw aangepaste beleid.
 
-U kunt antispambeleid configureren in het Microsoft 365-beveiligingscentrum of in PowerShell (Exchange Online PowerShell voor Microsoft 365-organisaties met postvakken in Exchange Online; standalone EOP PowerShell voor organisaties zonder Exchange Online-postvakken).
+U kunt antispambeleid configureren in de Microsoft 365 Defender-portal of in PowerShell (Exchange Online PowerShell voor Microsoft 365-organisaties met postvakken in Exchange Online; standalone EOP PowerShell voor organisaties zonder Exchange Online-postvakken).
 
 De basiselementen van antispambeleid zijn: 
 
 - **Het spamfilterbeleid**: omschrijft de acties voor spamfilterbeoordelingen en de meldingsopties.
 - **De spamfilterregel**: omschrijft de prioriteits- en geadresseerdenfilters (waarop het beleid van toepassing is) voor spamfilterbeleid.
 
-Het verschil tussen deze twee elementen is niet overduidelijk wanneer u antispambeleid beheert in het beveiligingscentrum:
+Het verschil tussen deze twee elementen is niet overduidelijk wanneer u antispambeleid beheert in de Microsoft 365 Defender-portal:
 
 - Wanneer u antispambeleid maakt, maakt u in feite tegelijkertijd een spamfilterregel en het bijbehorende spamfilterbeleid met dezelfde naam voor beide.
 - Wanneer u antispambeleid wijzigt, wordt de spamfilterregel gewijzigd door instellingen met betrekking tot de naam, prioriteit, in- of uitgeschakeld en geadresseerdenfilters. Alle andere instellingen wijzigen het bijbehorende spamfilterbeleid.
@@ -62,7 +62,7 @@ Om de effectiviteit van spamfilters te verhogen, kunt u aangepast antispambeleid
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent het beveiligingscentrum in <https://security.microsoft.com>. Gebruik <https://security.microsoft.com/antispam> om direct naar de pagina **Antispambeleid** te gaan.
+- U opent de Microsoft 365 Defender-portal bij <https://security.microsoft.com>. Gebruik <https://security.microsoft.com/antispam> om direct naar de pagina **Antispambeleid** te gaan.
 
 - Zie [Verbinding maken met Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](/powershell/exchange/connect-to-exchange-online-protection-powershell) als je verbinding wilt maken met zelfstandige EOP PowerShell.
 
@@ -79,11 +79,11 @@ Om de effectiviteit van spamfilters te verhogen, kunt u aangepast antispambeleid
 
 - Zie [Instellingen voor antispambeleid in EOP](recommended-settings-for-eop-and-office365.md#eop-anti-spam-policy-settings)voor de aanbevolen instellingen voor antispambeleid.
 
-## <a name="use-the-security-center-to-create-anti-spam-policies"></a>Het beveiligingscentrum gebruiken om antispambeleid te maken
+## <a name="use-the-microsoft-365-defender-portal-to-create-anti-spam-policies"></a>De Microsoft 365 Defender-portal gebruiken om antispambeleid te maken
 
-Wanneer u antispambeleid maakt in het beveiligingscentrum worden tegelijkertijd een spamfilterregel en het bijbehorende spamfilterbeleid gemaakt met dezelfde naam voor beide.
+Wanneer u antispambeleid maakt in de Microsoft 365 Defender-portal worden tegelijkertijd een spamfilterregel en het bijbehorende spamfilterbeleid gemaakt met dezelfde naam voor beide.
 
-1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
+1. Ga in de Microsoft 365 Defender-portal naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
 
 2. Klik op de pagina **Antispambeleid** achtereenvolgens op ![Pictogram maken](../../media/m365-cc-sc-create-icon.png), **Beleid maken** en selecteer in de vervolgkeuzelijst de optie **Binnenkomend**.
 
@@ -240,9 +240,9 @@ Wanneer u antispambeleid maakt in het beveiligingscentrum worden tegelijkertijd 
 
 9. Klik op de bevestigingspagina die wordt weergegeven op **Gereed**.
 
-## <a name="use-the-security-center-to-view-anti-spam-policies"></a>Het beveiligingscentrum gebruiken om antispambeleid te bekijken
+## <a name="use-the-microsoft-365-defender-portal-to-view-anti-spam-policies"></a>De Microsoft 365 Defender-portal gebruiken om antispambeleid te bekijken
 
-1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
+1. Ga in de Microsoft 365 Defender-portal naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
 
 2. Zoek op de pagina **Antispambeleid** een van de volgende waarden:
    - De waarde **Type** is **Aangepast antispambeleid**
@@ -257,15 +257,15 @@ Wanneer u antispambeleid maakt in het beveiligingscentrum worden tegelijkertijd 
 
 3. Wanneer u een antispambeleid selecteert door op de naam te klikken, worden de beleidsinstellingen weergegeven in een flyout.
 
-## <a name="use-the-security-center-to-modify-anti-spam-policies"></a>Het beveiligingscentrum gebruiken om antispambeleid aan te passen
+## <a name="use-the-microsoft-365-defender-portal-to-modify-anti-spam-policies"></a>De Microsoft 365 Defender-portal gebruiken om antispambeleid te wijzigen
 
-1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
+1. Ga in de Microsoft 365 Defender-portal naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
 
 2. Selecteer op de pagina **Antispambeleidsregels** een antispambeleid in de lijst door op de naam te klikken:
    - Aangepast beleid dat u hebt gemaakt, waarvan de waarde in de kolom **Type**, **Aangepast antispambeleid** is.
    - Het standaardbeleid met de naam **Antispambeleid voor binnenkomende spam (standaard)**.
 
-3. U kunt in de flyout met beleidsdetails in elke sectie de optie **Bewerken** selecteren om de instellingen in de sectie te wijzigen. Zie de vorige sectie in dit artikel over [Het beveiligingscentrum gebruiken om antispambeleid te maken](#use-the-security-center-to-create-anti-spam-policies) voor meer informatie over de instellingen.
+3. U kunt in de flyout met beleidsdetails in elke sectie de optie **Bewerken** selecteren om de instellingen in de sectie te wijzigen. Zie de vorige sectie in dit artikel over [De Microsoft 365 Defender-portal gebruiken om antispambeleid te maken](#use-the-microsoft-365-defender-portal-to-create-anti-spam-policies) voor meer informatie over de instellingen.
 
    Voor het standaardantispambeleid is de sectie **Toegepast op** niet beschikbaar (het beleid is op iedereen van toepassing) en u kunt de naam van het beleid niet wijzigen.
 
@@ -275,7 +275,7 @@ Zie de volgende secties om beleid in- of uit te schakelen, de prioriteit van bel
 
 U kunt het standaardantispambeleid niet uitschakelen.
 
-1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
+1. Ga in de Microsoft 365 Defender-portal naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
 
 2. Selecteer op de pagina **Antispambeleid** een beleid met de **Waarde type** van **Aangepast antispambeleid** uit de lijst door op de naam de klikken.
 
@@ -293,14 +293,14 @@ Op de hoofdbeleidspagina wordt de waarde **Status** van het beleid weergegeven a
 
 Standaard krijgt antispambeleid een prioriteit op basis van de volgorde waarin het is gemaakt (nieuwer beleid heeft een hogere prioriteit dan ouder beleid). Een lager prioriteitsnummer geeft een hogere prioriteit aan voor het beleid (0 is de hoogste) en beleid word verwerkt in prioriteitsvolgorde (beleid met hogere prioriteit wordt verwerkt voor beleid met lagere prioriteit). Twee beleidsregels kunnen niet dezelfde prioriteit hebben en de verwerking van het beleid stopt nadat het eerste beleid is toegepast.
 
-Als u de prioriteit van een beleid wilt wijzigen, klikt u op **Prioriteit verhogen** of **Prioriteit verlagen** in de eigenschappen van het beleid (u kunt het **Prioriteitsnummer** niet rechtstreeks wijzigen in het beveiligingscentrum). Het wijzigen van de prioriteit van een beleid is alleen zinvol als u meerdere beleidsregels hebt.
+Als u de prioriteit van een beleid wilt wijzigen, klikt u op **Prioriteit verhogen** of **Prioriteit verlagen** in de eigenschappen van het beleid (u kunt het **Prioriteitsnummer** niet rechtstreeks wijzigen in de Microsoft 365 Defender-portal). Het wijzigen van de prioriteit van een beleid is alleen zinvol als u meerdere beleidsregels hebt.
 
  **Opmerkingen**:
 
-- In het beveiligingscentrum kunt u alleen de prioriteit wijzigen van het antispambeleid nadat u het hebt gemaakt. In PowerShell kunt u de standaardprioriteit vervangen wanneer u de spamfilterbeleidsregel maakt (die kan de prioriteit van bestaande regels beïnvloeden).
+- In de Microsoft 365 Defender-portal kunt u alleen de prioriteit wijzigen van het antispambeleid nadat u het hebt gemaakt. In PowerShell kunt u de standaardprioriteit vervangen wanneer u de spamfilterbeleidsregel maakt (die kan de prioriteit van bestaande regels beïnvloeden).
 - Antispambeleid wordt verwerkt in de volgorde waarin het wordt weergegeven (het eerste beleid heeft de **Prioriteitswaarde** 0). Het standaardantispambeleid heeft de prioriteitswaarde **Laagste** en dat kunt u niet wijzigen.
 
-1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
+1. Ga in de Microsoft 365 Defender-portal naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
 
 2. Selecteer op de pagina **Antispambeleid** een beleid met de **Waarde type** van **Aangepast antispambeleid** uit de lijst door op de naam de klikken.
 
@@ -317,7 +317,7 @@ Als u de prioriteit van een beleid wilt wijzigen, klikt u op **Prioriteit verhog
 
 Wanneer in een spamfilterbeoordeling een bericht in quarantaine wordt geplaatst, kunt u spammeldingen voor eindgebruikers configureren om geadresseerden te laten weten wat er is gebeurd met berichten die naar hen zijn verzonden. Zie [Spammeldingen voor eindgebruikers in EOP](use-spam-notifications-to-release-and-report-quarantined-messages.md) voor meer informatie over deze meldingen.
 
-1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
+1. Ga in de Microsoft 365 Defender-portal naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
 
 2. Selecteer op de pagina **Antispambeleidsregels** een antispambeleid in de lijst door op de naam te klikken:
    - Aangepast beleid dat u hebt gemaakt, waarvan de waarde in de kolom **Type**, **Aangepast antispambeleid** is.
@@ -340,11 +340,11 @@ Wanneer in een spamfilterbeoordeling een bericht in quarantaine wordt geplaatst,
 
 4. Klik in de flyout met beleidsdetails weer op **Sluiten**.
 
-## <a name="use-the-security-center-to-remove-custom-anti-spam-policies"></a>Het beveiligingscentrum gebruiken om aangepast antispambeleid te verwijderen
+## <a name="use-the-microsoft-365-defender-portal-to-remove-custom-anti-spam-policies"></a>De Microsoft 365 Defender-portal gebruiken om aangepast antispambeleid te verwijderen
 
-Wanneer u het beveiligingscentrum gebruikt om aangepast antispambeleid te verwijderen, worden de spamfilterregel en het bijbehorende spamfilterbeleid beide verwijderd. U kunt het standaardantispambeleid niet verwijderen.
+Wanneer u de Microsoft 365 Defender-portal gebruikt om aangepast antispambeleid te verwijderen, worden de spamfilterregel en het bijbehorende spamfilterbeleid beide verwijderd. U kunt het standaardantispambeleid niet verwijderen.
 
-1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
+1. Ga in de Microsoft 365 Defender-portal naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
 
 2. Selecteer op de pagina **Antispambeleid** een beleid met de **Waarde type** van **Aangepast antispambeleid** uit de lijst door op de naam de klikken. Klik boven aan de flyout met beleidsdetails die wordt weergegeven, op het ![pictogram Meer acties](../../media/m365-cc-sc-more-actions-icon.png) **Meer acties** \> ![Pictogram Beleid verwijderen](../../media/m365-cc-sc-delete-icon.png) **Beleid verwijderen**.
 
@@ -362,7 +362,7 @@ In Exchange Online PowerShell of standalone EOP PowerShell is het verschil tusse
 
 De volgende antispambeleidsinstellingen zijn alleen beschikbaar in PowerShell:
 
-- De parameter _MarkAsSpamBulkMail_, die standaard `On` is. De gevolgen van deze instelling zijn eerder in dit artikel uitgelegd in de sectie [Het beveiligingscentrum gebruiken om antispambeleid te maken](#use-the-security-center-to-create-anti-spam-policies).
+- De parameter _MarkAsSpamBulkMail_, die standaard `On` is. De gevolgen van deze instelling zijn eerder in dit artikel uitgelegd in de sectie [De Microsoft 365 Defender-portal gebruiken om antispambeleid te maken](#use-the-microsoft-365-defender-portal-to-create-anti-spam-policies).
 
 - De volgende instellingen voor quarantainemeldingen voor eindgebruikers:
   - De parameter _DownloadLink_ toont of verbergt de koppeling naar het rapportagehulpmiddel voor ongewenste e-mail voor Outlook.
@@ -378,7 +378,7 @@ Antispambeleid maken in PowerShell bestaat uit twee stappen:
  **Opmerkingen**:
 
 - U kunt een nieuwe spamfilterbeleidsregel maken en een bestaand, niet-gekoppeld spamfilterbeleid eraan toewijzen. Een spamfilterbeleidsregel kan niet worden gekoppeld aan meer dan één spamfilterbeleid.
-- U kunt de volgende instellingen voor nieuw spamfilterbeleid configureren in PowerShell die niet beschikbaar zijn in het beveiligingscentrum tot nadat u het beleid hebt gemaakt:
+- U kunt de volgende instellingen voor nieuw spamfilterbeleid configureren in PowerShell die niet beschikbaar zijn in de Microsoft 365 Defender-portal tot nadat u het beleid hebt gemaakt:
   - Schakel het nieuwe beleid uit (_Ingeschakeld_ `$false` in het cmdlet **New-HostedContentFilterRule**).
   - Stel de prioriteit van het beleid in tijdens het maken (_Prioriteit_ _\<Number\>_) in de cmdlet **New-HostedContentFilterRule**).
 
@@ -487,7 +487,7 @@ Zie [Get-HostedContentFilterRule](/powershell/module/exchange/get-hostedcontentf
 Voor het wijzigen van spamfilterbeleid in PowerShell zijn, behalve voor de volgende items, dezelfde instellingen beschikbaar als bij het maken van het beleid zoals eerder in dit artikel beschreven in de sectie [Stap 1: PowerShell gebruiken om spamfilterbeleid te maken](#step-1-use-powershell-to-create-a-spam-filter-policy).
 
 - De schakeloptie _MakeDefault_ die het specifieke beleid wijzigt in het standaardbeleid (toegepast op iedereen, altijd **Laagste** prioriteit en kan niet worden verwijderd) is alleen beschikbaar wanneer u spamfilterbeleid wijzigt in PowerShell.
-- U kunt de naam van het spamfilterbeleid niet wijzigen (het cmdlet **Set-HostedContentFilterPolicy** heeft geen parameter _Naam_). Wanneer u de naam van antispambeleid in het beveiligingscentrum wijzigt, wijzigt u alleen de naam van de spamfilter _regel_.
+- U kunt de naam van het spamfilterbeleid niet wijzigen (het cmdlet **Set-HostedContentFilterPolicy** heeft geen parameter _Naam_). Wanneer u de naam van een antispambeleid wijzigt in de Microsoft 365 Defender-portal, wijzigt u alleen de naam van de spamfilter _regel_.
 
 Gebruik de volgende syntaxis om spamfilterbeleid te wijzigen:
 

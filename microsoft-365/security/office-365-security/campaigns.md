@@ -19,12 +19,12 @@ ms.collection:
 description: Meer informatie over campagneweergaven in Microsoft Defender voor Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 04e3d76271e95d36d73dd473076029cb60c06900
-ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
+ms.openlocfilehash: ba619c5341913190bfb84dbc34b938deee8f42ca
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52779445"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52879130"
 ---
 # <a name="campaign-views-in-microsoft-defender-for-office-365"></a>Campagneweergaven in Microsoft Defender voor Office 365
 
@@ -33,7 +33,7 @@ ms.locfileid: "52779445"
 **Van toepassing op**
 - [Abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
 
-Campagneweergaven is een functie in Microsoft Defender voor Office 365 Plan 2 (bijvoorbeeld Microsoft 365 E5 of organisaties met een Defender voor Office 365 Abonnement 2-invoeging). Campagneweergaven in het Microsoft 365 beveiligingscentrum identificeren en categoriseren phishingaanvallen in de service. Campagneweergaven kunnen u helpen:
+Campagneweergaven is een functie in Microsoft Defender voor Office 365 Plan 2 (bijvoorbeeld Microsoft 365 E5 of organisaties met een Defender voor Office 365 Abonnement 2-invoeging). Campagneweergaven in de Microsoft 365 Defender-portal identificeert en categoriseert phishingaanvallen in de service. Campagneweergaven kunnen u helpen:
 
 - Efficiënt onderzoeken en reageren op phishing-aanvallen.
 - Beter inzicht in het bereik van de aanval.
@@ -54,11 +54,11 @@ Microsoft maakt gebruik van de enorme hoeveelheden anti-phishing-, antispam- en 
 
 Een campagne kan van korte duur zijn of meerdere dagen, weken of maanden duren met actieve en inactieve perioden. Er kan een campagne worden gestart tegen uw specifieke organisatie of uw organisatie maakt mogelijk deel uit van een grotere campagne voor meerdere bedrijven.
 
-## <a name="campaign-views-in-the-security-center"></a>Campagneweergaven in het beveiligingscentrum
+## <a name="campaign-views-in-the-microsoft-365-defender-portal"></a>Campagneweergaven in de Microsoft 365 Defender-portal
 
-Campagneweergaven zijn beschikbaar in [het Microsoft 365 beveiligingscentrum](https://security.microsoft.com) bij **E-mail** & \> **samenwerkingscampagnes** of rechtstreeks op <https://security.microsoft.com/campaigns> .
+Campagneweergaven zijn beschikbaar in de Microsoft 365 Defender portal () bij <https://security.microsoft.com> **E-mail** & \> **samenwerkingscampagnes** of rechtstreeks op <https://security.microsoft.com/campaigns> .
 
-![Overzicht van campagnes in het Microsoft 365 beveiligingscentrum](../../media/campaigns-overview.png)
+![Overzicht van campagnes in de Microsoft 365 Defender-portal](../../media/campaigns-overview.png)
 
 U kunt ook naar Campagneweergaven gaan via:
 
@@ -67,7 +67,7 @@ U kunt ook naar Campagneweergaven gaan via:
 - **Samenwerking via & e-mail** \> **Explorer** \> **Weergave** \> **Phish** \> **Tabblad Campagne**
 - **Samenwerking via & e-mail** \> **Explorer** \> **Weergave** \> **Malware** \> **Tabblad Campagne**
 
-Als u campagneweergaven wilt openen, moet u lid zijn van de rollengroepen **Organisatiebeheer,** **Beveiligingsbeheerder** of **Beveiligingslezer** in het beveiligingscentrum. Zie Machtigingen in het Microsoft 365 compliancecentrum en Microsoft 365 [beveiligingscentrum voor meer informatie.](permissions-microsoft-365-security-center.md)
+Als u toegang wilt tot campagneweergaven, moet u lid  zijn van de rollengroepen Organisatiebeheer, Beveiligingsbeheerder of Beveiligingslezer in de Microsoft 365 Defender-portal. Zie Machtigingen [in de portal Microsoft 365 Defender voor meer informatie.](permissions-microsoft-365-security-center.md)
 
 ## <a name="campaigns-overview"></a>Overzicht van campagnes
 
@@ -214,7 +214,7 @@ Het diagram bevat de volgende informatie:
 
   ****
 
-  |Waarde|Uitspraak over spamfilter|Beschrijving|
+  |Waarde|Uitspraak over spamfilter|Omschrijving|
   |---|---|---|
   |**Toegestaan**|`SFV:SKN` <p> `SFV:SKI`|Het bericht is gemarkeerd als geen spam en/of is niet gefilterd voordat het door spamfilters wordt geëvalueerd. Het bericht is bijvoorbeeld gemarkeerd als geen spam door een regel voor de e-mailstroom (ook wel een transportregel genoemd). <p> Het bericht heeft spamfilters om andere redenen overgeslagen. De afzender en geadresseerde lijken zich bijvoorbeeld in dezelfde organisatie te hebben.|
   |**Geblokkeerd**|`SFV:SKS`|Het bericht is gemarkeerd als spam voordat het werd geëvalueerd door spamfilters. Bijvoorbeeld door een regel voor de e-mailstroom.|

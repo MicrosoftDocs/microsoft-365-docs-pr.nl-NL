@@ -19,12 +19,12 @@ ms.custom:
 description: Beheerders kunnen informatie krijgen over het weergeven, maken, wijzigen en verwijderen van uitgaand spambeleid in Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9ebff0a93acd505532773fbf5d714268df220c9a
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: 13b25300b6e5b42c860c58546f9c084a244b5f1f
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822007"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878914"
 ---
 # <a name="configure-outbound-spam-filtering-in-eop"></a>Uitgaande spamfilters configureren in EOP
 
@@ -43,14 +43,14 @@ EOP gebruikt uitgaand spambeleid als onderdeel van de algemene verdediging van u
 
 Beheerders kunnen het standaardbeleid voor uitgaande spam weergeven, bewerken en configureren (maar niet verwijderen). Voor meer granulariteit kunt u ook aangepaste uitgaande spambeleidsregels maken die van toepassing zijn op specifieke gebruikers, groepen of domeinen in uw organisatie. Aangepast beleid heeft altijd voorrang op het standaardbeleid, maar u kunt de prioriteit (uitvoervolgorde) wijzigen van uw aangepaste beleid.
 
-U kunt uitgaand spambeleid configureren in het Microsoft 365-beveiligingscentrum of in PowerShell (Exchange Online PowerShell voor Microsoft 365-organisaties met postvakken in Exchange Online; zelfstandige EOP PowerShell voor organisaties zonder Exchange Online-postvakken).
+U kunt uitgaand spambeleid configureren in de Microsoft 365 Microsoft 365 Defender-portal of in PowerShell (Exchange Online PowerShell voor Microsoft 365-organisaties met postvakken in Exchange Online; zelfstandige EOP PowerShell voor organisaties zonder Exchange Online-postvakken).
 
 De basiselementen van een uitgaand spambeleid in EOP zijn:
 
 - **Het beleid voor uitgaand spamfilter:** geeft de acties voor uitgaande spamfilters en de meldingsopties op.
 - **De regel voor uitgaand spamfilter:** hiermee geeft u de prioriteits- en geadresseerdefilters op (op wie het beleid van toepassing is) voor een uitgaand spamfilterbeleid.
 
-Het verschil tussen deze twee elementen is niet duidelijk wanneer u uitgaande spam polices beheert in het beveiligingscentrum:
+Het verschil tussen deze twee elementen is niet duidelijk wanneer u uitgaande spam polices beheert in de Microsoft 365 Defender portal:
 
 - Wanneer u een beleid maakt, maakt u tegelijkertijd een regel voor uitgaand spamfilter en het bijbehorende beleid voor uitgaand spamfilter met dezelfde naam voor beide.
 - Wanneer u een beleid wijzigt, wijzigen instellingen met betrekking tot de naam, prioriteit, ingeschakeld of uitgeschakeld en adressenfilters de regel voor uitgaand spamfilter. Alle andere instellingen wijzigen het bijbehorende beleid voor uitgaand spamfilter.
@@ -68,7 +68,7 @@ Als u de effectiviteit van uitgaande spamfilters wilt vergroten, kunt u aangepas
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent het beveiligingscentrum in <https://security.microsoft.com>. Gebruik <https://security.microsoft.com/antispam> om direct naar de pagina **Antispaminstellingen** te gaan.
+- U opent de Microsoft 365 Defender-portal op <https://security.microsoft.com> . Gebruik <https://security.microsoft.com/antispam> om direct naar de pagina **Antispaminstellingen** te gaan.
 
 - Zie [Verbinding maken met Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](/powershell/exchange/connect-to-exchange-online-protection-powershell) als je verbinding wilt maken met zelfstandige EOP PowerShell.
 
@@ -87,11 +87,11 @@ Als u de effectiviteit van uitgaande spamfilters wilt vergroten, kunt u aangepas
 
 - De [](../../compliance/alert-policies.md) standaardwaarschuwingsbeleidsregels met de naam Verzendlimiet voor e-mail zijn **overschreden,** Verdachte patronen voor het verzenden van e-mail zijn gedetecteerd en gebruikers kunnen geen e-mailmeldingen verzenden naar leden van de **groep TenantAdmins** **(Globale** beheerders) over ongebruikelijke uitgaande e-mailactiviteit en geblokkeerde gebruikers vanwege uitgaande spam.  Zie De waarschuwingsinstellingen voor beperkte gebruikers controleren [voor meer informatie.](removing-user-from-restricted-users-portal-after-spam.md#verify-the-alert-settings-for-restricted-users) U wordt aangeraden dit waarschuwingsbeleid te gebruiken in plaats van de meldingsopties in uitgaand spambeleid.
 
-## <a name="use-the-security-center-to-create-outbound-spam-policies"></a>Het beveiligingscentrum gebruiken om uitgaand spambeleid te maken
+## <a name="use-the-microsoft-365-defender-portal-to-create-outbound-spam-policies"></a>Gebruik de Microsoft 365 Defender-portal om uitgaand spambeleid te maken
 
-Als u een aangepast uitgaand spambeleid maakt in het beveiligingscentrum, worden de filterregel voor spam en het bijbehorende spamfilterbeleid tegelijkertijd met dezelfde naam voor beide gemaakt.
+Als u een aangepast uitgaand spambeleid maakt in de Microsoft 365 Defender-portal, worden de filterregel voor spam en het bijbehorende spamfilterbeleid tegelijkertijd met dezelfde naam voor beide gemaakt.
 
-1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
+1. Ga in Microsoft 365 Defender-portal naar **E-mail & Samenwerkingsbeleid** & de sectie Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Anti-spam.**
 
 2. Klik op **de pagina Antispambeleid** op Pictogram Maken Beleid maken en selecteer vervolgens ![ ](../../media/m365-cc-sc-create-icon.png)  **Uitgaand** in de vervolgkeuzelijst.
 
@@ -134,7 +134,7 @@ Als u een aangepast uitgaand spambeleid maakt in het beveiligingscentrum, worden
        - De activiteitswaarschuwing **met de naam Gebruiker die geen e-mail** mag verzenden, meldt beheerders (via e-mail en op de pagina **Waarschuwingen** weergeven).
        - Geadresseerden die zijn opgegeven in de instelling Specifieke personen op de hoogte stellen als een afzender is geblokkeerd vanwege het verzenden van uitgaande **spam** in het beleid, worden ook op de hoogte gesteld.
        - De gebruiker kan geen berichten meer verzenden tot de volgende dag, op basis van UTC-tijd. De beheerder kan dit blok niet overschrijven.
-     - **De** gebruiker beperken van het verzenden van e-mail:  e-mailmeldingen worden verzonden, de gebruiker wordt toegevoegd aan Beperkte gebruikers in het beveiligingscentrum en de gebruiker kan geen e-mail verzenden totdat deze door een beheerder is verwijderd uit beperkte <https://security.microsoft.com/restrictedusers> gebruikers.  Nadat een beheerder de gebruiker uit de lijst heeft verwijderd, wordt de gebruiker die dag niet meer beperkt. Zie Een gebruiker verwijderen uit de portal Beperkte gebruikers na het verzenden van [spam-e-mail](removing-user-from-restricted-users-portal-after-spam.md)voor instructies.
+     - De gebruiker beperken van het verzenden van e-mail:  e-mailmeldingen worden verzonden, de gebruiker wordt toegevoegd aan Beperkte gebruikers in de Microsoft 365 Defender-portal en de gebruiker kan geen e-mail verzenden totdat deze door een beheerder is verwijderd uit beperkte <https://security.microsoft.com/restrictedusers> gebruikers.  Nadat een beheerder de gebruiker uit de lijst heeft verwijderd, wordt de gebruiker die dag niet meer beperkt. Zie Een gebruiker verwijderen uit de portal Beperkte gebruikers na het verzenden van [spam-e-mail](removing-user-from-restricted-users-portal-after-spam.md)voor instructies.
      - **Geen actie, alleen waarschuwing:** e-mailmeldingen worden verzonden.
 
    - **Regels voor doorsturen:** Gebruik de instellingen in deze sectie om automatische doorsturen van e-mail door postvakken Exchange Online **externe** afzenders te beheren. Zie Automatische externe e-mail doorsturen [in](external-email-forwarding.md)Microsoft 365.
@@ -175,9 +175,9 @@ Als u een aangepast uitgaand spambeleid maakt in het beveiligingscentrum, worden
 
 7. Klik op de bevestigingspagina die wordt weergegeven op **Gereed**.
 
-## <a name="use-the-security-center-to-view-outbound-spam-policies"></a>Het beveiligingscentrum gebruiken om uitgaand spambeleid te bekijken
+## <a name="use-the-microsoft-365-defender-portal-to-view-outbound-spam-policies"></a>Gebruik de Microsoft 365 Defender-portal om uitgaand spambeleid te bekijken
 
-1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
+1. Ga in Microsoft 365 Defender-portal naar **E-mail & Samenwerkingsbeleid** & de sectie Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Anti-spam.**
 
 2. Zoek op de pagina **Antispambeleid** een van de volgende waarden:
    - De **waarde Type** is Aangepast uitgaande **spambeleid**
@@ -192,15 +192,15 @@ Als u een aangepast uitgaand spambeleid maakt in het beveiligingscentrum, worden
 
 3. Wanneer u een uitgaand spambeleid selecteert door op de naam te klikken, worden de beleidsinstellingen weergegeven in een flyout.
 
-## <a name="use-the-security-center-to-modify-outbound-spam-policies"></a>Het beveiligingscentrum gebruiken om uitgaand spambeleid te wijzigen
+## <a name="use-the-microsoft-365-defender-portal-to-modify-outbound-spam-policies"></a>Gebruik de Microsoft 365 Defender-portal om uitgaand spambeleid te wijzigen
 
-1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
+1. Ga in Microsoft 365 Defender-portal naar **E-mail & Samenwerkingsbeleid** & de sectie Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Anti-spam.**
 
 2. Selecteer op **de pagina Anti-spambeleid** een uitgaand spambeleid in de lijst door op de naam te klikken:
    - Een aangepast beleid dat u hebt gemaakt waarbij de waarde in de kolom **Type** aangepast **uitgaande spambeleid is.**
    - Het standaardbeleid met de naam **Anti-spam uitgaande beleid (standaard)**.
 
-3. U kunt in de flyout met beleidsdetails in elke sectie de optie **Bewerken** selecteren om de instellingen in de sectie te wijzigen. Zie het vorige gedeelte Het beveiligingscentrum gebruiken om uitgaand [spambeleid](#use-the-security-center-to-create-outbound-spam-policies) te maken in dit artikel voor meer informatie over de instellingen.
+3. U kunt in de flyout met beleidsdetails in elke sectie de optie **Bewerken** selecteren om de instellingen in de sectie te wijzigen. Zie voor meer informatie over de instellingen de vorige Portal Microsoft 365 Defender gebruiken om de sectie [uitgaand spambeleid](#use-the-microsoft-365-defender-portal-to-create-outbound-spam-policies) te maken in dit artikel.
 
    Voor het standaardbeleid voor  uitgaande spam is de sectie Toegepast op niet beschikbaar (het beleid is van toepassing op iedereen) en kunt u de naam van het beleid niet wijzigen.
 
@@ -210,7 +210,7 @@ Zie de volgende secties om beleid in- of uit te schakelen, de prioriteit van bel
 
 U kunt het standaardbeleid voor uitgaande spam niet uitschakelen.
 
-1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
+1. Ga in Microsoft 365 Defender-portal naar **E-mail & Samenwerkingsbeleid** & de sectie Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Anti-spam.**
 
 2. Selecteer op **de pagina Antispambeleid** een beleid met de **waarde Type** van Aangepast uitgaande **spambeleid** in de lijst door op de naam te klikken.
 
@@ -228,14 +228,14 @@ Op de hoofdbeleidspagina wordt de waarde **Status** van het beleid weergegeven a
 
 Uitgaande spambeleidsregels krijgen standaard een prioriteit die is gebaseerd op de volgorde waarin ze zijn gemaakt (nieuwere beleidsregels hebben een lagere prioriteit dan oudere beleidsregels). Een lager prioriteitsnummer geeft een hogere prioriteit aan voor het beleid (0 is de hoogste) en beleid word verwerkt in prioriteitsvolgorde (beleid met hogere prioriteit wordt verwerkt voor beleid met lagere prioriteit). Twee beleidsregels kunnen niet dezelfde prioriteit hebben en de verwerking van het beleid stopt nadat het eerste beleid is toegepast.
 
-Als u de prioriteit van een beleid wilt wijzigen, klikt u op **Prioriteit verhogen** of **Prioriteit verlagen** in de eigenschappen van het beleid (u kunt het **Prioriteitsnummer** niet rechtstreeks wijzigen in het beveiligingscentrum). Het wijzigen van de prioriteit van een beleid is alleen zinvol als u meerdere beleidsregels hebt.
+Als u de prioriteit van  een beleid wilt wijzigen, klikt u op Prioriteit verhogen  of Prioriteit verlagen **in** de eigenschappen van het beleid (u kunt het prioriteitsnummer niet rechtstreeks wijzigen in de portal Microsoft 365 Defender). Het wijzigen van de prioriteit van een beleid is alleen zinvol als u meerdere beleidsregels hebt.
 
  **Opmerkingen**:
 
-- In het beveiligingscentrum kunt u alleen de prioriteit van het uitgaande spambeleid wijzigen nadat u het hebt gemaakt. In PowerShell kunt u de standaardprioriteit vervangen wanneer u de spamfilterbeleidsregel maakt (die kan de prioriteit van bestaande regels beïnvloeden).
+- In de Microsoft 365 Defender-portal kunt u alleen de prioriteit van het uitgaande spambeleid wijzigen nadat u deze hebt gemaakt. In PowerShell kunt u de standaardprioriteit vervangen wanneer u de spamfilterbeleidsregel maakt (die kan de prioriteit van bestaande regels beïnvloeden).
 - Uitgaande spambeleidsregels worden verwerkt in de volgorde waarin ze worden weergegeven (het eerste beleid heeft de **prioriteitswaarde** 0). Het standaardbeleid voor uitgaande spam heeft de **prioriteitswaarde Laag** en u kunt deze niet wijzigen.
 
-1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
+1. Ga in Microsoft 365 Defender-portal naar **E-mail & Samenwerkingsbeleid** & de sectie Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Anti-spam.**
 
 2. Selecteer op **de pagina Antispambeleid** een beleid met de **waarde Type** van Aangepast uitgaande **spambeleid** in de lijst door op de naam te klikken.
 
@@ -248,11 +248,11 @@ Als u de prioriteit van een beleid wilt wijzigen, klikt u op **Prioriteit verhog
 
 4. Wanneer u klaar bent, klikt u in de flyout met beleidsdetails op **Sluiten**.
 
-## <a name="use-the-security-center-to-remove-custom-outbound-spam-policies"></a>Het beveiligingscentrum gebruiken om aangepaste beleidsregels voor uitgaande spam te verwijderen
+## <a name="use-the-microsoft-365-defender-portal-to-remove-custom-outbound-spam-policies"></a>Gebruik de Microsoft 365 Defender-portal om aangepaste uitgaande spambeleidsregels te verwijderen
 
-Wanneer u het beveiligingscentrum gebruikt om een aangepast uitgaand spambeleid te verwijderen, worden de spamfilterregel en het bijbehorende spamfilterbeleid beide verwijderd. U kunt het standaardbeleid voor uitgaande spam niet verwijderen.
+Wanneer u de portal Microsoft 365 Defender gebruikt om een aangepast uitgaand spambeleid te verwijderen, worden de spamfilterregel en het bijbehorende spamfilterbeleid beide verwijderd. U kunt het standaardbeleid voor uitgaande spam niet verwijderen.
 
-1. Ga in het beveiligingscentrum naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
+1. Ga in Microsoft 365 Defender-portal naar **E-mail & Samenwerkingsbeleid** & de sectie Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Anti-spam.**
 
 2. Selecteer op **de pagina Antispambeleid** een beleid met de **waarde Type** van Aangepast uitgaande **spambeleid** in de lijst door op de naam te klikken. Klik boven aan de flyout met beleidsdetails die wordt weergegeven, op het ![pictogram Meer acties](../../media/m365-cc-sc-more-actions-icon.png) **Meer acties** \> ![Pictogram Beleid verwijderen](../../media/m365-cc-sc-delete-icon.png) **Beleid verwijderen**.
 
@@ -278,10 +278,10 @@ Het maken van een uitgaand spambeleid in PowerShell is een proces in twee stappe
    **Opmerkingen**:
 
    - U kunt een nieuwe regel voor uitgaand spamfilter maken en er een bestaand, niet-verbonden beleid voor uitgaand spamfilter aan toewijzen. Een regel voor uitgaand spamfilter kan niet worden gekoppeld aan meer dan één beleid voor uitgaand spamfilter.
-   - U kunt de volgende instellingen configureren voor nieuwe beleidsregels voor uitgaand spamfilter in PowerShell die pas beschikbaar zijn in het beveiligingscentrum nadat u het beleid hebt gemaakt:
+   - U kunt de volgende instellingen configureren voor nieuwe beleidsregels voor uitgaand spamfilter in PowerShell die pas beschikbaar zijn in de Microsoft 365 Defender-portal nadat u het beleid hebt gemaakt:
      - Het nieuwe beleid maken als uitgeschakeld (_ingeschakeld op_ de `$false` cmdlet **New-HostedOutboundSpamFilterRule).**
      - Stel de prioriteit van het beleid in tijdens het maken _(Prioriteit)_ op de _\<Number\>_ **cmdlet New-HostedOutboundSpamFilterRule).**
-   - Een nieuw beleid voor uitgaand spamfilter dat u in PowerShell maakt, is pas zichtbaar in het beveiligingscentrum als u het beleid toewijst aan een regel voor uitgaand spamfilter.
+   - Een nieuw beleid voor uitgaand spamfilter dat u in PowerShell maakt, is pas zichtbaar in de Microsoft 365 Defender-portal als u het beleid toewijst aan een regel voor uitgaand spamfilter.
 
 #### <a name="step-1-use-powershell-to-create-an-outbound-spam-filter-policy"></a>Stap 1: PowerShell gebruiken om een beleid voor uitgaand spamfilter te maken
 
@@ -387,7 +387,7 @@ Zie [Get-HostedOutboundSpamFilterRule voor](/powershell/module/exchange/get-host
 Dezelfde instellingen zijn beschikbaar wanneer u een malwarefilterbeleid in PowerShell wijzigt als wanneer u het beleid maakt zoals beschreven in stap [1: PowerShell](#step-1-use-powershell-to-create-an-outbound-spam-filter-policy) gebruiken om eerder in dit artikel een sectie voor uitgaand spamfilterbeleid te maken.
 
 > [!NOTE]
-> U kunt de naam van een uitgaand spamfilterbeleid niet wijzigen (de cmdlet **Set-HostedOutboundSpamFilterPolicy** heeft _geen naamparameter)._ Wanneer u de naam van een uitgaand spambeleid in het beveiligingscentrum wijzigt, wijzigt u alleen de naam van de regel voor uitgaand _spamfilter._
+> U kunt de naam van een uitgaand spamfilterbeleid niet wijzigen (de cmdlet **Set-HostedOutboundSpamFilterPolicy** heeft _geen naamparameter)._ Wanneer u de naam van een uitgaand spambeleid wijzigt in Microsoft 365 Defender-portal, wijzigt u alleen de naam van de regel voor uitgaand _spamfilter._
 
 Als u een beleid voor uitgaand spamfilter wilt wijzigen, gebruikt u de volgende syntaxis:
 

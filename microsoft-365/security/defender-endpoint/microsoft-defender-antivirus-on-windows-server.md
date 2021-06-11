@@ -129,7 +129,7 @@ Als u bijgewerkte antimalwarebeveiligingsinformatie wilt downloaden, moet de Win
 Standaard worden Windows Updates niet automatisch gedownload en geïnstalleerd op Windows Server 2019 of Windows Server 2016. U kunt deze configuratie wijzigen met behulp van een van de volgende methoden:
 
 
-|Methode  |Omschrijving  |
+|Methode  |Beschrijving  |
 |---------|---------|
 |**Windows Bijwerken** in configuratiescherm     | **Als u updates installeert,** worden alle updates automatisch geïnstalleerd, Windows Defender beveiligingsinformatieupdates. <p>**Updates downloaden, maar laat me kiezen** of u ze wilt installeren, Windows Defender beveiligingsinformatieupdates automatisch kunnen downloaden en installeren, maar andere updates worden niet automatisch geïnstalleerd.       |
 |**Groepsbeleid**     | U kunt Windows Bijwerken instellen en beheren met behulp van de instellingen die beschikbaar zijn in groepsbeleid, in het volgende pad: **Beheersjablonen\Windows Onderdelen\Windows Bijwerken\Automatische updates configureren**         |
@@ -143,7 +143,7 @@ Om ervoor te zorgen dat de beveiliging tegen malware wordt gehandhaafd, raden we
 
 De volgende tabel bevat de services voor Microsoft Defender Antivirus en de afhankelijke services.
 
-|Servicenaam|Bestandslocatie|Omschrijving|
+|Servicenaam|Bestandslocatie|Beschrijving|
 |--------|---------|--------|
 |Windows Defender Service (WinDefend)|`C:\Program Files\Windows Defender\MsMpEng.exe`|Dit is de belangrijkste Microsoft Defender Antivirus service die altijd moet worden uitgevoerd.|
 |Windows Foutrapportage Service (Wersvc)|`C:\WINDOWS\System32\svchost.exe -k WerSvcGroup`|Deze service stuurt foutrapporten terug naar Microsoft.|

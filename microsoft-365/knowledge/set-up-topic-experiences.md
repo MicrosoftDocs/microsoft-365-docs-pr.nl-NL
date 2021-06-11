@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Meer informatie over het instellen van Microsoft Viva-onderwerpen
-ms.openlocfilehash: 19395cf3a9ecc991f08f375425803cb81a2a1d35
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: c6997e5f5a6793468dfe3392ffc2037b319844ad
+ms.sourcegitcommit: d0c160e89e17f451199bc4a85699effd2d935213
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51930219"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52893762"
 ---
 # <a name="set-up-microsoft-viva-topics"></a>Microsoft Viva-onderwerpen instellen
 
@@ -60,8 +60,10 @@ Het kan tot een uur duren voordat gebruikers toegang hebben tot Onderwerpen nada
 
 ## <a name="set-up-topics"></a>Onderwerpen instellen
 
-Onderwerpen instellen
+> [!Note]
+> De eerste keer dat onderwerpdetectie is ingeschakeld, kan het maximaal twee weken duren voordat alle voorgestelde onderwerpen worden weergegeven in de weergave Onderwerpen beheren. Onderwerpdetectie wordt voortgezet wanneer er nieuwe inhoud of updates voor inhoud worden aangebracht. Het is normaal dat er fluctuaties zijn in het aantal voorgestelde onderwerpen in uw organisatie, aangezien Viva Topics nieuwe informatie evalueert.
 
+Onderwerpen instellen
 1. Selecteer in [Microsoft 365 beheercentrum](https://admin.microsoft.com)Setup **en** bekijk vervolgens de sectie Bestanden **en** inhoud.
 2. Klik in **de sectie Bestanden** en inhoud op Verbinding maken personen aan **kennis.**
 
@@ -143,8 +145,6 @@ Onderwerpen instellen
 12. U wordt teruggegeven aan uw Verbinding maken **naar de kennispagina.** Op deze pagina kunt u **Beheren** selecteren om wijzigingen aan te brengen in de configuratie-instellingen. 
 
     ![Instellingen toegepast](../media/ksetup7.png)    
-
-De eerste keer dat onderwerpdetectie is ingeschakeld, kan het maximaal twee weken duren voordat alle voorgestelde onderwerpen worden weergegeven in de weergave Onderwerpen beheren. Onderwerpdetectie wordt voortgezet wanneer er nieuwe inhoud of updates voor inhoud worden aangebracht. Het is normaal dat er fluctuaties zijn in het aantal voorgestelde onderwerpen in uw organisatie, aangezien Viva Topics nieuwe informatie evalueert.
 
 ## <a name="manage-topic-experiences"></a>Onderwerpervaringen beheren
 

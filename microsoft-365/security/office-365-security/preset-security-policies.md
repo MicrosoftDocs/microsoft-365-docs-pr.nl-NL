@@ -15,12 +15,12 @@ ms.collection:
 description: Beheerders kunnen leren hoe ze standaard- en striktbeleidsinstellingen kunnen toepassen op de beveiligingsfuncties van Exchange Online Protection (EOP) en Microsoft Defender voor Office 365
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 244364b423ee633a9131aabf93b5fc1e7cf756c0
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: 24fe67a7465ec71451b649dbc5963c28e0dc7cf3
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822284"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52879010"
 ---
 # <a name="preset-security-policies-in-eop-and-microsoft-defender-for-office-365"></a>Vooraf ingestelde beveiligingsbeleidsregels in EOP en Microsoft Defender voor Office 365
 
@@ -105,7 +105,7 @@ Met andere woorden, de  instellingen van het strikte beveiligingsbeleid overschr
 
 ### <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent het Microsoft 365 beveiligingscentrum op <https://security.microsoft.com> . Als u rechtstreeks naar de pagina Vooraf **ingestelde beveiligingsbeleidsregels wilt** gaan, gebruikt <https://security.microsoft.com/presetSecurityPolicies> u .
+- U opent de Microsoft 365 Defender-portal op <https://security.microsoft.com> . Als u rechtstreeks naar de pagina Vooraf **ingestelde beveiligingsbeleidsregels wilt** gaan, gebruikt <https://security.microsoft.com/presetSecurityPolicies> u .
 
 - Zie [Verbinding maken met Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) als je verbinding wilt maken met Exchange Online PowerShell.
 
@@ -117,9 +117,9 @@ Met andere woorden, de  instellingen van het strikte beveiligingsbeleid overschr
 
   **Opmerking:** Gebruikers toevoegen aan de bijbehorende Azure Active Directory rol in het Microsoft 365-beheercentrum  geeft gebruikers de vereiste machtigingen en machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
 
-### <a name="use-the-security-center-to-assign-preset-security-policies-to-users"></a>Het beveiligingscentrum gebruiken om vooraf ingestelde beveiligingsbeleidsregels toe te wijzen aan gebruikers
+### <a name="use-the-microsoft-365-defender-portal-to-assign-preset-security-policies-to-users"></a>Gebruik de Microsoft 365 Defender-portal om vooraf ingestelde beveiligingsbeleidsregels toe te wijzen aan gebruikers
 
-1. Ga in het beveiligingscentrum naar de sectie Beleidsregels voor **e-mail &** samenwerkingsbeleid & de sectie Beleidsregels voor bedreigingsbeleid met sjabloon vooraf ingestelde \>  \>  \>  \> **beveiligingsbeleidsregels.**
+1. Ga in Microsoft 365 Defender-portal naar Beleid voor **e-mail &** samenwerkingsbeleid & Sectie Beleidsregels voor bedreigingsbeleidssjabloonbeleid Vooraf ingesteld \>  \>  \>  \> **beveiligingsbeleid.**
 
 2. Klik **onder Standaardbeveiliging** **of Strikte beveiliging** op **Bewerken.**
 
@@ -144,9 +144,9 @@ Met andere woorden, de  instellingen van het strikte beveiligingsbeleid overschr
 
 5. Controleer uw **selecties** op de pagina Controleren en bevestig uw wijzigingen en klik vervolgens op **Bevestigen.**
 
-### <a name="use-the-security-center-to-modify-the-assignments-of-preset-security-policies"></a>Gebruik het beveiligingscentrum om de toewijzingen van vooraf ingestelde beveiligingsbeleidsregels te wijzigen
+### <a name="use-the-microsoft-365-defender-portal-to-modify-the-assignments-of-preset-security-policies"></a>Gebruik de Microsoft 365 Defender-portal om de toewijzingen van vooraf ingestelde beveiligingsbeleidsregels te wijzigen
 
-De stappen voor het  wijzigen van  de toewijzing van het beveiligingsbeleid Standaardbeveiliging of Strikt beveiligingsbeleid zijn hetzelfde als wanneer u het vooraf ingestelde beveiligingsbeleid in eerste instantie aan [gebruikers hebt toegewezen.](#use-the-security-center-to-assign-preset-security-policies-to-users)
+De stappen voor het  wijzigen van  de toewijzing van het beveiligingsbeleid Standaardbeveiliging of Strikt beveiligingsbeleid zijn hetzelfde als wanneer u het vooraf ingestelde beveiligingsbeleid in eerste instantie aan [gebruikers hebt toegewezen.](#use-the-microsoft-365-defender-portal-to-assign-preset-security-policies-to-users)
 
 Als u het beveiligingsbeleid **voor** **standaardbeveiliging** of Strikt beveiligingsbeleid wilt uitschakelen met behoud van de bestaande voorwaarden en uitzonderingen, schuift u de schakelknop naar **Uitgeschakeld** ![ In-/uitschakelen. ](../../media/scc-toggle-off.png) Als u het beleid wilt inschakelen, schuift u de schakelknop naar **Ingeschakeld** ![ ](../../media/scc-toggle-on.png) aan.
 

@@ -12,24 +12,26 @@ ms.collection:
 - m365initiative-defender-office365
 description: Beheerders kunnen leren hoe ze phishingaanvallen kunnen simuleren en hun gebruikers kunnen trainen op phishingpreventie met behulp van training voor aanvalssimulatie in Microsoft Defender voor Office 365.
 ms.technology: mdo
-ms.openlocfilehash: 27279f927a15ea94ae84112ffdc23d88ea42d2ff
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: d82e7544e6795e4514cf1949645107c53fc69c61
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204501"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878362"
 ---
 # <a name="simulate-a-phishing-attack"></a>Een phishing-aanval simuleren
+
+**Van toepassing op** [Microsoft Defender voor Office 365 abonnement 2](defender-for-office-365.md)
 
 Met training voor aanvalssimulatie in Microsoft Defender voor Office 365 kunt u goedaardige cyberaanvallensimulaties uitvoeren op uw organisatie om uw beveiligingsbeleid en -procedures te testen, en uw werknemers trainen om hun bekendheid te vergroten en hun gevoeligheid voor aanvallen te verminderen. In dit artikel wordt u beschreven hoe u een gesimuleerde phishing-aanval maakt met behulp van training voor een aanvalssimulatie.
 
 Zie Aan de slag met de trainingstraining [Aanvalssimulatie](attack-simulation-training-get-started.md)voor informatie over de training voor aanvalssimulaties.
 
-Als u een gesimuleerde phishing-aanval wilt starten, opent u het Microsoft 365 [beveiligingscentrum,](https://security.microsoft.com/)gaat u naar E-mail & **samenwerkingstraining** Aanvalssimulatie en schakelt u over naar het tabblad \>  [**Simulaties.**](https://security.microsoft.com/attacksimulator?viewid=simulations)
+Als u een gesimuleerde phishing-aanval wilt starten, opent u de Microsoft 365 Defender-portal (), gaat u naar E-mail & samenwerkingSsimulatietraining aanvallen en gaat u naar het tabblad <https://security.microsoft.com/>  \>  **[Simulaties.](https://security.microsoft.com/attacksimulator?viewid=simulations)**
 
 Selecteer **onder Simulaties** de **optie + Een simulatie starten.**
 
-![Een simulatieknop starten in Microsoft 365 beveiligingscentrum](../../media/attack-sim-preview-launch.png)
+![Een simulatieknop starten in de Microsoft 365 Defender-portal](../../media/attack-sim-preview-launch.png)
 
 > [!NOTE]
 > Op elk moment tijdens het maken van de simulatie kunt u opslaan en sluiten om de simulatie op een later tijdstip te blijven configureren.
@@ -47,7 +49,7 @@ Selecteer uit 4 verschillende technieken, samengesteld uit het [MITRE ATT-&CK® 
 > [!TIP]
 > Als u op **Details weergeven klikt** in de beschrijving van elke techniek, worden meer informatie en de simulatiestappen voor de techniek weergegeven.
 >
-> ![Simulatiestappen voor de oogst van referenties in de training voor de aanvalssimulatie in Microsoft 365 beveiligingscentrum](../../media/attack-sim-preview-sim-steps.png)
+> ![Simulatiestappen voor de oogst van referenties in de training voor aanvalssimulatie in Microsoft 365 Defender-portal](../../media/attack-sim-preview-sim-steps.png)
 
 Nadat u de techniek hebt geselecteerd en op Volgende hebt **geklikt,** geeft u de simulatie een naam en eventueel een beschrijving.
 
@@ -63,7 +65,7 @@ Payloads hebben een aantal gegevenspunten om u te helpen kiezen:
 - **Complexiteit ,** beschikbaar via **filters,** wordt berekend op basis van het aantal indicatoren binnen de payload waarin wordt aangestuurd op een aanval. Meer indicatoren leiden tot een lagere complexiteit.
 - **Bron**, beschikbaar via **filters**, geeft aan of de payload is gemaakt op uw tenant of deel uitmaakt van de bestaande payloadcatalogus van Microsoft (globaal).
 
-![Geselecteerde payload in training voor aanvalssimulatie in Microsoft 365 beveiligingscentrum](../../media/attack-sim-preview-select-payload.png)
+![Geselecteerde payload in de training voor aanvalssimulatie in Microsoft 365 Defender-portal](../../media/attack-sim-preview-select-payload.png)
 
 Selecteer een laadvermogen in de lijst om een voorbeeld van de payload te bekijken met aanvullende informatie.
 
@@ -76,7 +78,9 @@ Nu is het tijd om het publiek van deze simulatie te selecteren. U kunt ervoor ki
 Wanneer u ervoor kiest om **alleen specifieke gebruikers en groepen** op te nemen, kunt u het volgende doen:
 
 - **Voeg gebruikers** toe, waarmee u de zoekfunctie voor uw tenant kunt gebruiken, evenals geavanceerde zoek- en filtermogelijkheden, zoals gebruikers die de afgelopen drie maanden niet zijn getarget door een simulatie.
-  ![Gebruikersfilters in training voor aanvalssimulatie op Microsoft 365 beveiligingscentrum](../../media/attack-sim-preview-user-targeting.png)
+
+  ![Gebruikersfilters in training voor aanvalssimulatie in Microsoft 365 Defender-portal](../../media/attack-sim-preview-user-targeting.png)
+
 - **Met Importeren uit CSV** kunt u een vooraf gedefinieerde set gebruikers importeren voor deze simulatie.
 
 ## <a name="assigning-training"></a>Training toewijzen
@@ -90,7 +94,7 @@ Selecteer de **einddatum van de** training om ervoor te zorgen dat werknemers hu
 > [!NOTE]
 > Als u ervoor kiest om zelf cursussen en modules te selecteren, kunt u nog steeds de aanbevolen inhoud en alle beschikbare cursussen en modules zien.
 >
-> ![Aanbevolen training toevoegen in training voor aanvalssimulatie in Microsoft 365 beveiligingscentrum](../../media/attack-sim-preview-add-training.png)
+> ![Aanbevolen training toevoegen in de training voor aanvalssimulatie in Microsoft 365 Defender-portal](../../media/attack-sim-preview-add-training.png)
 
 In de volgende stappen moet  u trainingen toevoegen als u ervoor hebt gekozen om deze zelf te selecteren en uw trainingslandingspagina aan te passen. U kunt een voorbeeld van de landingspagina van de training bekijken en de koptekst en de hoofdtekst ervan wijzigen.
 
