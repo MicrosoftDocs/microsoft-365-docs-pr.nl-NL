@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Informatie voor IT-beheerders voor het beheren van vertrouwelijkheidslabels in Office-apps voor desktop, mobiele apparaten en internet.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3da3d971a1ef55d343ac1b61e6457981022c4c92
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 6e22ca460acf96151ff54e3b2bbbe03ad1a97a27
+ms.sourcegitcommit: 03aa8ed22d9ef685a851e28c7d0cfb725732fe4b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770376"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52888395"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Vertrouwelijkheidslabels in Office-apps beheren
 
@@ -61,7 +61,7 @@ De weergegeven nummers zijn de minimale versies van Office-toepassingen die voor
 |[Een geldige reden vereisen om een label te wijzigen](sensitivity-labels.md#what-label-policies-can-do)                     | 1910+          | 16.21+     | 2.21+ | 16.0.11231+ | [Ja, deelnemen](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Help-koppeling naar een aangepaste Help-pagina opgeven](sensitivity-labels.md#what-label-policies-can-do)                       | 1910+          | 16.21+     | 2.21+ | 16.0.11231+ | [Ja, deelnemen](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[De inhoud markeren](sensitivity-labels.md#what-sensitivity-labels-can-do)                                              | 1910+          | 16.21+     | 2.21+ | 16.0.11231+ | [Ja, deelnemen](sensitivity-labels-sharepoint-onedrive-files.md) |
-|[Dynamische markeringen met variabelen](#dynamic-markings-with-variables)                                              | 2010+           | 16.42+     | 2.42+ | 16.0.13328+ | Ter beoordeling |
+|[Dynamische markeringen met variabelen](#dynamic-markings-with-variables)                                              | 2010+           | 16.42+     | 2.42+ | 16.0.13328+ | Wordt geïmplementeerd |
 |[Nu machtigingen toewijzen](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910+          | 16.21+     | 2.21+ | 16.0.11231+ | [Ja, deelnemen](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Gebruikers machtigingen laten toewijzen: <br /> - Gebruikers vragen](encryption-sensitivity-labels.md#let-users-assign-permissions)                     |2004+ | 16.35+   | Ter beoordeling   | Ter beoordeling         | Ter beoordeling                                                        |
 |[Activiteit van gebruikers in verband met labels controleren](data-classification-activity-explorer.md)                      | 2011+ | 16.43+ | 2.46+ | Wordt geïmplementeerd: 16.0.13628+ | Ja <sup>\*</sup>                                                        |

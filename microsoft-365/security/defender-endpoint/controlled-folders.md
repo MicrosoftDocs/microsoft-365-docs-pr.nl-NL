@@ -11,18 +11,18 @@ localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 audience: ITPro
-ms.date: 02/03/2021
+ms.date: 06/10/2021
 ms.reviewer: v-maave
 manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: 7c471dc99a5deafcc60177812f60f1f884b10ee1
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: c60620d2a589c8473764b810d1fcb0e24f674451
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52845568"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52904054"
 ---
 # <a name="protect-important-folders-with-controlled-folder-access"></a>Belangrijke mappen beveiligen met gecontroleerde maptoegang
 
@@ -89,9 +89,9 @@ Windows systeemmappen zijn standaard beveiligd, samen met verschillende andere m
 
 Voor gecontroleerde maptoegang is het [inschakelen Microsoft Defender Antivirus realtime-beveiliging vereist.](/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus)
 
-## <a name="review-controlled-folder-access-events-in-the-microsoft-defender-security-center"></a>Gecontroleerde maptoegangsgebeurtenissen in de Microsoft Defender-beveiligingscentrum
+## <a name="review-controlled-folder-access-events-in-the-microsoft-365-defender-portal"></a>Gecontroleerde maptoegangsgebeurtenissen bekijken in Microsoft 365 Defender-portal
 
-Defender for Endpoint biedt gedetailleerde rapportage over gebeurtenissen en blokken als onderdeel van de [scenario's voor waarschuwingsonderzoek.](investigate-alerts.md)
+Defender voor Eindpunt biedt gedetailleerde rapportage over gebeurtenissen en blokken als onderdeel van de [scenario's](investigate-alerts.md) voor waarschuwingsonderzoek in Microsoft 365 Defender-portal. (Zie [Microsoft Defender voor Eindpunt in Microsoft 365 Defender](../defender/microsoft-365-security-center-mde.md).)
 
 U kunt Microsoft Defender opvragen voor eindpuntgegevens met behulp van [Geavanceerd zoeken.](/microsoft-365/security/defender-endpoint/advanced-hunting-windows-defender-advanced-threat-protection) Als u de [auditmodus gebruikt,](audit-windows-defender.md)kunt u geavanceerd zoeken gebruiken om te zien hoe de instellingen voor gecontroleerde maptoegang van invloed zijn op uw omgeving als deze zijn ingeschakeld. [](advanced-hunting-overview.md)
 
@@ -114,7 +114,7 @@ U kunt het Windows gebeurtenislogboek bekijken om gebeurtenissen te zien die wor
 
 In de volgende tabel ziet u gebeurtenissen met betrekking tot gecontroleerde maptoegang:
 
-|Gebeurtenis-id | Beschrijving |
+|Gebeurtenis-id | Omschrijving |
 |:---|:---|
 |5007 | Gebeurtenis wanneer instellingen worden gewijzigd |
 |1124 | Gecontroleerde gecontroleerde maptoegangsgebeurtenis | 
@@ -135,8 +135,4 @@ U kunt de app Windows-beveiliging gebruiken om de lijst met mappen weer te geven
 > [!NOTE]
 > [Windows systeemmappen](#windows-system-folders-are-protected-by-default) zijn standaard beveiligd en u kunt ze niet uit de lijst verwijderen.
 
-## <a name="see-also"></a>Zie ook
 
-- [Beheerde maptoegang evalueren](evaluate-controlled-folder-access.md)
-- [Beheerde maptoegang aanpassen](customize-controlled-folders.md)
-- [Meer mappen beveiligen](customize-controlled-folders.md#protect-additional-folders)

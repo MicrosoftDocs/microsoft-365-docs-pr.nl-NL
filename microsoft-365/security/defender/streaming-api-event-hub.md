@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c62f175fc8227f64b9f18de78a2a793b2201691c
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: 6f5d04d35c8c4fec18e1a689c51ecbc32d416adf
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782367"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52903814"
 ---
 # <a name="configure-microsoft-365-defender-to-stream-advanced-hunting-events-to-your-azure-event-hub"></a>Configureer Microsoft 365 Defender om Advanced Hunting-gebeurtenissen te streamen naar uw Azure Event Hub
 
@@ -42,9 +42,12 @@ ms.locfileid: "52782367"
 3. Maak een Event Hub Namespace, ga naar **Event Hub > Toevoegen** en selecteer de prijslaag, doorvoereenheden en Auto-Opdrijf geschikt voor verwachte belasting. Zie Prijzen - Event Hub | [ Microsoft Azure](https://azure.microsoft.com/en-us/pricing/details/event-hubs/).  
 
 ### <a name="add-contributor-permissions"></a>Machtigingen voor inzenders toevoegen 
-Wanneer de naamruimte van de gebeurtenishub is gemaakt, moet u de App Registration Service Principal toevoegen als lezer, Azure Event Hub Data Receiver en de gebruiker die zich als inzender bij Microsoft 365 Defender zal aanmelden (dit kan ook op resourcegroep- of abonnementsniveau). 
+Nadat de naamruimte van de gebeurtenishub is gemaakt, moet u het volgende doen:
+1. Definieer de gebruiker die zich als inzender Microsoft 365 Defender.
 
-Ga naar **Naamruimte voor gebeurtenishubs > Access-besturingselement (IAM) > Toevoegen** en verifiëren onder **Roltoewijzingen.**
+2. Als u verbinding maakt met een toepassing, voegt u de App Registration Service Principal toe als lezer, Azure Event Hub Data Receiver (dit kan ook op resourcegroep- of abonnementsniveau). 
+
+    Ga naar **Naamruimte voor gebeurtenishubs > Access-besturingselement (IAM) > Toevoegen** en verifiëren onder **Roltoewijzingen.**
 
 ## <a name="enable-raw-data-streaming"></a>Onbewerkte gegevensstreaming inschakelen
 
@@ -70,7 +73,7 @@ Ga naar **Naamruimte voor gebeurtenishubs > Access-besturingselement (IAM) > Toe
 
 ## <a name="the-schema-of-the-events-in-azure-event-hub"></a>Het schema van de gebeurtenissen in Azure Event Hub
 
-```
+```JSON
 {
     "records": [
                     {
@@ -103,7 +106,7 @@ Ga als volgt te werk om de gegevenstypen voor gebeurteniseigenschappen op te hal
 
 2. Voer de volgende query uit om de gegevenstypentoewijzing voor elke gebeurtenis te krijgen:
  
-   ```
+   ```kusto
    {EventType}
    | getschema
    | project ColumnName, ColumnType 

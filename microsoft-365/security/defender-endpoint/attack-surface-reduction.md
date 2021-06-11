@@ -16,16 +16,14 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 55b06ca25047fe615bd0011528fbdbe5112a4533
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 58c2230d3a2e3323f7b9a315ca5d2a049f5f44fb
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844980"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52903850"
 ---
 # <a name="use-attack-surface-reduction-rules-to-prevent-malware-infection"></a>Regels voor de beperking van de surface-aanval gebruiken om malware-infectie te voorkomen
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
 
@@ -97,7 +95,7 @@ Wanneer een surface reduction-regel voor aanvallen wordt geactiveerd, wordt er e
 
 Bovendien worden waarschuwingen gegenereerd wanneer bepaalde regels voor de beperking van het aanvalsoppervlak worden geactiveerd.
 
-Meldingen en eventuele waarschuwingen die worden gegenereerd, kunnen worden bekeken in het Microsoft Defender-beveiligingscentrum ( ) en [https://securitycenter.windows.com](https://securitycenter.windows.com) in het Microsoft 365 beveiligingscentrum ( [https://security.microsoft.com](https://security.microsoft.com) ).
+Meldingen en eventuele waarschuwingen die worden gegenereerd, kunnen worden bekeken in de Microsoft 365 Defender-portal () (voorheen de [https://security.microsoft.com](https://security.microsoft.com) [Microsoft Defender-beveiligingscentrum).](microsoft-defender-security-center.md)
 
 ## <a name="advanced-hunting-and-attack-surface-reduction-events"></a>Geavanceerde gebeurtenissen bij het zoeken en aanvallen van oppervlakten
 
@@ -116,13 +114,13 @@ U kunt regels voor de beperking van de surface voor aanvallen instellen voor app
 - Windows Server, [versie 1803 (halfjaarlijks kanaal)](/windows-server/get-started/whats-new-in-windows-server-1803) of hoger
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 
-Hoewel voor de regels voor het verminderen van aanvallen geen [E5-licentie](/windows/deployment/deploy-enterprise-licenses)Windows vereist, krijgt u geavanceerde beheermogelijkheden als u Windows E5 hebt. Deze mogelijkheden zijn alleen beschikbaar in Windows E5, zoals monitoring, analyse en werkstromen die beschikbaar zijn in [Defender voor](microsoft-defender-endpoint.md)Eindpunt, evenals rapportage- en configuratiemogelijkheden in het [Microsoft 365 beveiligingscentrum.](/microsoft-365/security/defender/overview-security-center) Deze geavanceerde mogelijkheden zijn niet beschikbaar met een Windows Professional- of Windows E3-licentie. Als u echter wel over deze licenties hebt, kunt u Gebeurtenisviewer en logboeken Microsoft Defender Antivirus om de gebeurtenissen in de surface reduction rule van uw aanval te bekijken.
+Hoewel voor de regels voor het verminderen van aanvallen geen [E5-licentie](/windows/deployment/deploy-enterprise-licenses)Windows vereist, krijgt u geavanceerde beheermogelijkheden als u Windows E5 hebt. Deze mogelijkheden zijn alleen beschikbaar in Windows E5, zoals monitoring, analyse en werkstromen die beschikbaar zijn in [Defender](microsoft-defender-endpoint.md)voor Eindpunt, evenals rapportage- en configuratiemogelijkheden in [Microsoft 365 Defender.](/microsoft-365/security/defender/overview-security-center) Deze geavanceerde mogelijkheden zijn niet beschikbaar met een Windows Professional- of Windows E3-licentie. Als u echter wel over deze licenties hebt, kunt u Gebeurtenisviewer en logboeken Microsoft Defender Antivirus om de gebeurtenissen in de surface reduction rule van uw aanval te bekijken.
 
-## <a name="review-attack-surface-reduction-events-in-the-microsoft-defender-security-center"></a>Gebeurtenissen in de surface reduction van de aanval in de Microsoft Defender-beveiligingscentrum
+## <a name="review-attack-surface-reduction-events-in-the-microsoft-365-defender-portal"></a>Gebeurtenissen in de surface reduction van aanvallen bekijken in Microsoft 365 Defender-portal
 
 Defender voor Eindpunt biedt gedetailleerde rapportage voor gebeurtenissen en blokken als onderdeel van scenario's voor waarschuwingsonderzoek.
 
-U kunt Defender voor eindpuntgegevens query's uitvoeren met [behulp van geavanceerd zoeken.](advanced-hunting-query-language.md) Als u de auditmodus [gebruikt,](audit-windows-defender.md)kunt u geavanceerde zoekwerkzaamheden gebruiken om te begrijpen hoe de regels voor het beperken van het oppervlak van de aanval van invloed kunnen zijn op uw omgeving.
+U kunt Defender voor eindpuntgegevens query's uitvoeren in [Microsoft 365 Defender](microsoft-defender-security-center.md) met behulp van [geavanceerde jacht](advanced-hunting-query-language.md). Als u de auditmodus [gebruikt,](audit-windows-defender.md)kunt u geavanceerde zoekwerkzaamheden gebruiken om te begrijpen hoe de regels voor het beperken van het oppervlak van de aanval van invloed kunnen zijn op uw omgeving.
 
 Hier is een voorbeeldquery:
 
@@ -136,14 +134,18 @@ DeviceEvents
 U kunt het logboek met Windows bekijken om gebeurtenissen weer te geven die zijn gegenereerd door regels voor het verminderen van het oppervlak van de aanval:
 
 1. Download het [evaluatiepakket en](https://aka.ms/mp7z2w) haal het *bestand* cfa-events.xmlnaar een gemakkelijk toegankelijke locatie op het apparaat.
+
 2. Voer de woorden, *Gebeurtenisviewer,* in het menu Start in om de Windows Gebeurtenisviewer te openen.
+
 3. Selecteer **onder Acties** de optie Aangepaste weergave **importeren...**.
+
 4. Selecteer de *bestandsindelingcfa-events.xml* waar het is geëxtraheerd. U kunt ook [de XML rechtstreeks kopiëren.](event-views.md)
+
 5. Selecteer **OK**.
 
 U kunt een aangepaste weergave maken waarmee gebeurtenissen worden gefilterd om alleen de volgende gebeurtenissen weer te geven, die allemaal betrekking hebben op gecontroleerde maptoegang:
 
-|Gebeurtenis-id|Beschrijving|
+|Gebeurtenis-id|Omschrijving|
 |---|---|
 |5007|Gebeurtenis wanneer instellingen worden gewijzigd|
 |1121|Gebeurtenis wanneer regel wordt branden in de blokmodus|
@@ -503,7 +505,7 @@ Deze regel biedt een extra beschermingslaag tegen ransomware. Er worden zowel cl
 De regel heeft de neiging om voorzichtig te zijn om ransomware te voorkomen.
 
 > [!NOTE]
-> U moet [beveiliging in de cloud inschakelen](/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus) om deze regel te kunnen gebruiken.
+> U moet [beveiliging in de cloud inschakelen](enable-cloud-protection-microsoft-defender-antivirus.md) om deze regel te kunnen gebruiken.
 
 Deze regel is geïntroduceerd in:
 
@@ -518,9 +520,4 @@ Naam van Configuration Manager: `Use advanced protection against ransomware`
 
 GUID: `c1db55ab-c21a-4637-bb3f-a12568109d35`
 
-## <a name="see-also"></a>Zie ook
 
-- [Veelgestelde vragen over het verminderen van kwetsbaarheid voor aanvallen](attack-surface-reduction-faq.md)
-- [Regels voor het verminderen van aanvalsoppervlakken inschakelen](enable-attack-surface-reduction.md)
-- [Regels voor het verminderen van kwetsbaarheid voor aanvallen evalueren](evaluate-attack-surface-reduction.md)
-- [Compatibiliteit van Microsoft Defender Antivirus met andere antivirus-/antimalwareoplossingen](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)

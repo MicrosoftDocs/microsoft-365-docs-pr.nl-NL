@@ -11,20 +11,18 @@ search.appverid:
 - MET150
 - MOE150
 ms.collection: M365-security-compliance
-ms.date: 02/25/2020
+ms.date: 06/10/2021
 description: Lees hoe u het proces voor het opsporen en aanpakken van gecompromitteerde gebruikersaccounts kunt versnellen met geautomatiseerde onderzoeks- en antwoordmogelijkheden in Microsoft Defender voor Office 365 plan 2.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c500221a10c00cc3b8d9d99c102ce8ec54fa2a48
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: cd84617230e774b92902ef3d11a365c1965ac814
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934691"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52904138"
 ---
 # <a name="address-compromised-user-accounts-with-automated-investigation-and-response"></a>Gecompromitteerde gebruikersaccounts adresseerde met geautomatiseerde onderzoeken en antwoorden
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Van toepassing op**
 - [Exchange Online Protection](exchange-online-protection-overview.md)
@@ -71,7 +69,7 @@ Wanneer een gebruikersaccount wordt gecompromitteerd, worden waarschuwingen geac
 
 U hebt een paar opties voor het navigeren naar een lijst met beperkte gebruikers. In het Beveiligings- & compliancecentrum kunt u bijvoorbeeld naar **Gebruikers** met beperkingen voor bedreigingsbeheer \>  \> **controleren.** In de volgende procedure wordt navigatie beschreven **met** behulp van het dashboard Waarschuwingen. Dit is een goede manier om verschillende soorten waarschuwingen te zien die mogelijk zijn geactiveerd.
 
-1. Ga naar <https://protection.office.com> en meld u aan.
+1. Ga naar [https://protection.office.com](https://protection.office.com) en meld u aan.
 
 2. Kies in het  navigatiedeelvenster \> **Waarschuwingendashboard.**
 

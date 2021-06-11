@@ -18,13 +18,13 @@ ms.collection:
 description: Meer informatie over herstelacties in geautomatiseerde onderzoeks- en antwoordmogelijkheden in Microsoft Defender voor Office 365 plan 2.
 ms.technology: mdo
 ms.prod: m365-security
-ms.date: 01/29/2021
-ms.openlocfilehash: 525f6cf922f80067219f6c33a2c11559e9e58a39
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.date: 06/10/2021
+ms.openlocfilehash: 7894a9aa38239bf661c809cce96ea2a2a96c3725
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878770"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52904126"
 ---
 # <a name="review-and-manage-remediation-actions-in-office-365"></a>Herstelacties controleren en beheren in Office 365
 
@@ -52,16 +52,16 @@ Deze herstelacties worden alleen uitgevoerd als uw beveiligingsbewerkingsteam de
    - Selecteer **Goedkeuren om** een actie in behandeling te starten.
    - Selecteer **Weigeren om** te voorkomen dat een actie in behandeling wordt ondernomen.
 
-## <a name="undo-one-remediation-action"></a>Eén herstelactie ongedaan maken
+## <a name="change-or-undo-one-remediation-action"></a>Eén herstelactie wijzigen of ongedaan maken
 
 1. Ga naar het Actiecentrum <https://security.microsoft.com/action-center> () en meld u aan.
-2. Selecteer op **het** tabblad Geschiedenis een actie die u ongedaan wilt maken.
+2. Selecteer op **het** tabblad Geschiedenis een actie die u wilt wijzigen of ongedaan wilt maken.
 3. Selecteer Ongedaan maken in het deelvenster aan de rechterkant van **het scherm.**
 
-## <a name="undo-multiple-remediation-actions"></a>Meerdere herstelacties ongedaan maken
+## <a name="change-or-undo-multiple-remediation-actions"></a>Meerdere herstelacties wijzigen of ongedaan maken
 
 1. Ga naar het Actiecentrum <https://security.microsoft.com/action-center> () en meld u aan.
-2. Selecteer op **het** tabblad Geschiedenis de acties die u ongedaan wilt maken. Selecteer items met hetzelfde actietype. Er wordt een flyoutvenster geopend.
+2. Selecteer op **het** tabblad Geschiedenis de acties die u wilt wijzigen of ongedaan wilt maken. Selecteer items met hetzelfde actietype. Er wordt een flyoutvenster geopend.
 3. Selecteer Ongedaan maken in het deelvenster Flyout.
 
 ## <a name="to-remove-a-file-from-quarantine-across-multiple-devices"></a>Een bestand verwijderen uit quarantaine op meerdere apparaten

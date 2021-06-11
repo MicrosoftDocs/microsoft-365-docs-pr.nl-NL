@@ -16,12 +16,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: ccf6da0e1bc91a29865868305b5333f7ef9c47cc
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 7686f28646135986a78b4c269e41e2fc3a70dff9
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274782"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52904042"
 ---
 # <a name="collect-microsoft-defender-av-diagnostic-data"></a>Diagnostische gegevens van Microsoft Defender AV verzamelen
 
@@ -43,9 +43,9 @@ Op ten minste twee apparaten die met hetzelfde probleem te maken hebben, kunt u 
 
     a. Open het **menu** Start.
 
-    b. Typ **cmd**. Klik met de rechtermuisknop op **Opdrachtprompt** en klik **op Uitvoeren als beheerder.**
+    b. Typ **cmd**. Klik met de rechtermuisknop op **Opdrachtprompt** en selecteer **vervolgens Uitvoeren als beheerder.**
 
-    c. Voer beheerdersreferenties in of keur de prompt goed.
+    c. Geef beheerdersreferenties op of keur de prompt goed.
 
 2. Ga naar de Microsoft Defender-adreslijst. Dit is standaard `C:\Program Files\Windows Defender` .
 
@@ -91,7 +91,7 @@ Wanneer de parameter SupportLogLocation wordt gebruikt, wordt een mapstructuur a
 <path>\<MMDD>\MpSupport-<hostname>-<HHMM>.cab
 ```
 
-| veld  | Beschrijving   |
+| veld  | Omschrijving   |
 |:----|:----|
 | pad | Het pad zoals opgegeven op de opdrachtregel of opgehaald uit configuratie
 | MMDD | Maand en dag waarop de diagnostische gegevens zijn verzameld (bijvoorbeeld 0530)

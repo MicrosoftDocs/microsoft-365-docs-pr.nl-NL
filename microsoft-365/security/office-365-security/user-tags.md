@@ -16,12 +16,12 @@ ms.collection:
 description: Beheerders kunnen leren hoe u specifieke groepen gebruikers kunt identificeren met gebruikerslabels in Microsoft Defender voor Office 365 plan 2. Tagfiltering is beschikbaar in waarschuwingen, rapporten en onderzoeken in Microsoft Defender voor Office 365 om snel de gelabelde gebruikers te identificeren.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1fb948d63f7bc42839d6fae8a2138d4ad48d81f6
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 105e927e50f7b1d1217587587b8d7ee3b7d6bd4c
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52879166"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52904102"
 ---
 # <a name="user-tags-in-microsoft-defender-for-office-365"></a>Gebruikerslabels in Microsoft Defender voor Office 365
 
@@ -41,7 +41,9 @@ Als uw organisatie Defender voor Office 365 abonnement 2 (inbegrepen in uw abonn
 Nadat u systeemlabels of aangepaste tags op gebruikers hebt toegepast, kunt u deze tags gebruiken als filters in waarschuwingen, rapporten en onderzoeken:
 
 - [Waarschuwingen](alerts.md)
+- [Aangepast waarschuwingsbeleid](../../compliance/alert-policies.md#viewing-alerts)
 - [Threat Explorer en realtime detecties](threat-explorer.md)
+- [Entiteitspagina van e-mail](mdo-email-entity-page.md#other-innovations)
 - [Statusrapport bedreigingsbeveiliging](view-email-security-reports.md#threat-protection-status-report)
 - [Campagneweergaven](campaigns.md)
 - Voor prioriteitsaccounts kunt u het rapport [E-mailproblemen voor prioriteitsaccounts](/exchange/monitoring/mail-flow-reports/mfr-email-issues-for-priority-accounts-report) gebruiken in Exchange beheercentrum (EAC).
@@ -52,7 +54,7 @@ Zie Beveiligingsaanbevelingen voor [prioriteitsaccounts in](security-recommendat
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent de Microsoft 365 Defender-portal op <https://security.microsoft.com/> . Als u rechtstreeks naar de pagina **Gebruikerslabels wilt** gaan, opent u <https://security.microsoft.com/securitysettings/userTags> .
+- U opent de Microsoft 365 Defender-portal bij <https://security.microsoft.com/>. Als u rechtstreeks naar de pagina **Gebruikerslabels wilt** gaan, opent u <https://security.microsoft.com/securitysettings/userTags> .
 
 - U moet machtigingen krijgen toegewezen in de Microsoft 365 Defender-portal voordat u de procedures in dit artikel kunt uitvoeren:
   - Als u gebruikerslabels wilt maken, wijzigen en verwijderen, moet  u lid zijn van de rollengroepen **Organisatiebeheer** of Beveiligingsbeheerder.

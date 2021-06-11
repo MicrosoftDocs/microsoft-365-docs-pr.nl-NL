@@ -13,12 +13,12 @@ ms.collection:
 - M365solutions
 ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
-ms.openlocfilehash: 73e29109a429d8a3fffc69b79939c8dff7ecb087
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 29d52ea4b40cb876c6e8b314ab2f3b07c3123c05
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769267"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52904018"
 ---
 # <a name="microsoft-cloud-for-it-architects-illustrations"></a>Illustraties voor Microsoft Cloud voor IT-architecten
 
@@ -68,7 +68,7 @@ Deze reeks onderwerpen illustreert verschillende architectuurbenaderingen voor f
 
 |**Item**|**Beschrijving**|
 |:-----|:-----|
-|[![Thumb image for Microsoft cloud tenant-to-tenant migrations](../media/solutions-architecture-center/msft-tenant-to-tenant-migration-thumb.png)](https://download.microsoft.com/download/b/a/1/ba19dfe7-96e2-4983-8783-4dcff9cebe7b/microsoft-365-tenant-to-tenant-migration.pdf) <br/> [PDF](https://download.microsoft.com/download/b/a/1/ba19dfe7-96e2-4983-8783-4dcff9cebe7b/microsoft-365-tenant-to-tenant-migration.pdf) \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.vsdx) <br>Bijgewerkt in februari 2021    |Dit model bevat: <ul><li>Een toewijzing van bedrijfsscenario's aan architectuurbenaderingen</li><li>Ontwerpoverwegingen</li><li>Voorbeeld van een migratiestroom met één gebeurtenis</li><li>Voorbeeld van gefaseerd migratiestroom</li><li>Voorbeeld van tenants verplaatsen of splitsen</li></ul>|
+|[![Thumb image for Microsoft cloud tenant-to-tenant migrations](../media/solutions-architecture-center/msft-tenant-to-tenant-migration-thumb.png)](https://download.microsoft.com/download/b/a/1/ba19dfe7-96e2-4983-8783-4dcff9cebe7b/microsoft-365-tenant-to-tenant-migration.pdf) <br/> [PDF](https://download.microsoft.com/download/b/a/1/ba19dfe7-96e2-4983-8783-4dcff9cebe7b/microsoft-365-tenant-to-tenant-migration.pdf) \| Bijgewerkt in februari 2021    |Dit model bevat: <ul><li>Een toewijzing van bedrijfsscenario's aan architectuurbenaderingen</li><li>Ontwerpoverwegingen</li><li>Voorbeeld van een migratiestroom met één gebeurtenis</li><li>Voorbeeld van gefaseerd migratiestroom</li><li>Voorbeeld van tenants verplaatsen of splitsen</li></ul>|
 
 <a name="attacks"></a>
 ### <a name="common-attacks-and-microsoft-capabilities-that-protect-your-organization"></a>Veelgebruikte aanvallen en Microsoft-mogelijkheden die uw organisatie beschermen
