@@ -336,6 +336,8 @@
                       href: api-list-incidents.md
                     - name: Incidenten bijwerken
                       href: api-update-incidents.md
+                    - name: Incident krijgen
+                      href: api-get-incident.md
     - name: Microsoft Defender voor Office 365
       href: ../office-365-security/index.yml
     - name: Microsoft Defender voor Eindpunt
