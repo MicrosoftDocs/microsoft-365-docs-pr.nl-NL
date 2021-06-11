@@ -19,26 +19,26 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52295173"
 ---
-# <a name="contact-support-for-spain"></a><span data-ttu-id="313f7-103">Neem contact op met de ondersteuning voor Spanje</span><span class="sxs-lookup"><span data-stu-id="313f7-103">Contact support for Spain</span></span>
+# <a name="contact-support-for-spain"></a><span data-ttu-id="2a635-103">Neem contact op met de ondersteuning voor Spanje</span><span class="sxs-lookup"><span data-stu-id="2a635-103">Contact support for Spain</span></span>
 
-<span data-ttu-id="313f7-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="313f7-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="2a635-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="2a635-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="313f7-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="313f7-105">Phone number</span></span>
-<span data-ttu-id="313f7-106">900 814 197</span><span class="sxs-lookup"><span data-stu-id="313f7-106">900 814 197</span></span>
+## <a name="phone-number"></a><span data-ttu-id="2a635-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="2a635-105">Phone number</span></span>
+<span data-ttu-id="2a635-106">900 814 197</span><span class="sxs-lookup"><span data-stu-id="2a635-106">900 814 197</span></span>
 
-## <a name="hours"></a><span data-ttu-id="313f7-107">Uren</span><span class="sxs-lookup"><span data-stu-id="313f7-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="313f7-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="313f7-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="2a635-107">Uren</span><span class="sxs-lookup"><span data-stu-id="2a635-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="2a635-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="2a635-108">Billing Support:</span></span>
 
-<span data-ttu-id="313f7-109">Spaans: Mon-Fri 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="313f7-109">Spanish: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="2a635-109">Spaans: Mon-Fri 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="2a635-109">Spanish: Mon-Fri 9 AM-5 PM</span></span>
 
-<span data-ttu-id="313f7-110">Engels: Mon-Fri 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="313f7-110">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="2a635-110">Engels: Mon-Fri 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="2a635-110">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="313f7-111">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="313f7-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="2a635-111">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="2a635-111">Technical Support:</span></span>
 
-<span data-ttu-id="313f7-112">Spaans: Mon-Fri 8:00-21:00 uur</span><span class="sxs-lookup"><span data-stu-id="313f7-112">Spanish: Mon-Fri 8 AM-9 PM</span></span>
+<span data-ttu-id="2a635-112">Spaans: Mon-Fri 8:00-21:00 uur</span><span class="sxs-lookup"><span data-stu-id="2a635-112">Spanish: Mon-Fri 8 AM-9 PM</span></span>
 
-<span data-ttu-id="313f7-113">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="313f7-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="2a635-113">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="2a635-113">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="313f7-114">Alternatief Telefoon getal: 912 718 160</span><span class="sxs-lookup"><span data-stu-id="313f7-114">Alternative Phone Number: 912 718 160</span></span>
+<span data-ttu-id="2a635-114">Alternatief Telefoon getal: 912 718 160</span><span class="sxs-lookup"><span data-stu-id="2a635-114">Alternative Phone Number: 912 718 160</span></span>
 
-<span data-ttu-id="313f7-115">Lokale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="313f7-115">Local call charges apply</span></span>
+<span data-ttu-id="2a635-115">Lokale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="2a635-115">Local call charges apply</span></span>

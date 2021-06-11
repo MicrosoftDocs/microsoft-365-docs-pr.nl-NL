@@ -19,18 +19,18 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52295557"
 ---
-# <a name="contact-support-for-paraguay"></a><span data-ttu-id="2c992-103">Neem contact op met de ondersteuning voor Paraguay</span><span class="sxs-lookup"><span data-stu-id="2c992-103">Contact support for Paraguay</span></span>
+# <a name="contact-support-for-paraguay"></a><span data-ttu-id="ab0a4-103">Neem contact op met de ondersteuning voor Paraguay</span><span class="sxs-lookup"><span data-stu-id="ab0a4-103">Contact support for Paraguay</span></span>
 
-<span data-ttu-id="2c992-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="2c992-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="ab0a4-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="ab0a4-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="2c992-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="2c992-105">Phone number</span></span>
-<span data-ttu-id="2c992-106">009 800 441 0088</span><span class="sxs-lookup"><span data-stu-id="2c992-106">009 800 441 0088</span></span>
+## <a name="phone-number"></a><span data-ttu-id="ab0a4-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="ab0a4-105">Phone number</span></span>
+<span data-ttu-id="ab0a4-106">009 800 441 0088</span><span class="sxs-lookup"><span data-stu-id="ab0a4-106">009 800 441 0088</span></span>
 
-## <a name="hours"></a><span data-ttu-id="2c992-107">Uren</span><span class="sxs-lookup"><span data-stu-id="2c992-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="2c992-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="2c992-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="ab0a4-107">Uren</span><span class="sxs-lookup"><span data-stu-id="ab0a4-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="ab0a4-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="ab0a4-108">Billing Support:</span></span>
 
-<span data-ttu-id="2c992-109">Spaans: Mon-Fri 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="2c992-109">Spanish: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="ab0a4-109">Spaans: Mon-Fri 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="ab0a4-109">Spanish: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="2c992-110">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="2c992-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="ab0a4-110">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="ab0a4-110">Technical Support:</span></span>
 
-<span data-ttu-id="2c992-111">Spaans: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="2c992-111">Spanish: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="ab0a4-111">Spaans: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="ab0a4-111">Spanish: 24 hours a day, 7 days a week</span></span>

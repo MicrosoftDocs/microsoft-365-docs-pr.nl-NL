@@ -19,24 +19,24 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52295671"
 ---
-# <a name="contact-support-for-netherlands"></a><span data-ttu-id="c0995-103">Neem contact op met ondersteuning voor Nederland</span><span class="sxs-lookup"><span data-stu-id="c0995-103">Contact support for Netherlands</span></span>
+# <a name="contact-support-for-netherlands"></a><span data-ttu-id="42a1b-103">Neem contact op met ondersteuning voor Nederland</span><span class="sxs-lookup"><span data-stu-id="42a1b-103">Contact support for Netherlands</span></span>
 
-<span data-ttu-id="c0995-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="c0995-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="42a1b-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="42a1b-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="c0995-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="c0995-105">Phone number</span></span>
-<span data-ttu-id="c0995-106">0800 020 2546</span><span class="sxs-lookup"><span data-stu-id="c0995-106">0800 020 2546</span></span>
+## <a name="phone-number"></a><span data-ttu-id="42a1b-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="42a1b-105">Phone number</span></span>
+<span data-ttu-id="42a1b-106">0800 020 2546</span><span class="sxs-lookup"><span data-stu-id="42a1b-106">0800 020 2546</span></span>
 
-## <a name="hours"></a><span data-ttu-id="c0995-107">Uren</span><span class="sxs-lookup"><span data-stu-id="c0995-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="c0995-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="c0995-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="42a1b-107">Uren</span><span class="sxs-lookup"><span data-stu-id="42a1b-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="42a1b-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="42a1b-108">Billing Support:</span></span>
 
-<span data-ttu-id="c0995-109">Nederlands: Mon-Fri 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="c0995-109">Dutch: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="42a1b-109">Nederlands: Mon-Fri 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="42a1b-109">Dutch: Mon-Fri 9 AM-5 PM</span></span>
 
-<span data-ttu-id="c0995-110">Engels: Mon-Fri 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="c0995-110">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="42a1b-110">Engels: Mon-Fri 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="42a1b-110">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="c0995-111">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="c0995-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="42a1b-111">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="42a1b-111">Technical Support:</span></span>
 
-<span data-ttu-id="c0995-112">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="c0995-112">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="42a1b-112">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="42a1b-112">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="c0995-113">Alternatief Telefoon getal: 020 203 5362</span><span class="sxs-lookup"><span data-stu-id="c0995-113">Alternative Phone Number: 020 203 5362</span></span>
+<span data-ttu-id="42a1b-113">Alternatief Telefoon getal: 020 203 5362</span><span class="sxs-lookup"><span data-stu-id="42a1b-113">Alternative Phone Number: 020 203 5362</span></span>
 
-<span data-ttu-id="c0995-114">Lokale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="c0995-114">Local call charges apply</span></span>
+<span data-ttu-id="42a1b-114">Lokale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="42a1b-114">Local call charges apply</span></span>

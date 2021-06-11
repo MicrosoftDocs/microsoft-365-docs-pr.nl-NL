@@ -19,22 +19,22 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52295661"
 ---
-# <a name="contact-support-for-new-zealand"></a><span data-ttu-id="9a3ff-103">Neem contact op met ondersteuning voor Nieuw-Zeeland</span><span class="sxs-lookup"><span data-stu-id="9a3ff-103">Contact support for New Zealand</span></span>
+# <a name="contact-support-for-new-zealand"></a><span data-ttu-id="60524-103">Neem contact op met ondersteuning voor Nieuw-Zeeland</span><span class="sxs-lookup"><span data-stu-id="60524-103">Contact support for New Zealand</span></span>
 
-<span data-ttu-id="9a3ff-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="9a3ff-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="60524-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="60524-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="9a3ff-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="9a3ff-105">Phone number</span></span>
-<span data-ttu-id="9a3ff-106">0800 194 197</span><span class="sxs-lookup"><span data-stu-id="9a3ff-106">0800 194 197</span></span>
+## <a name="phone-number"></a><span data-ttu-id="60524-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="60524-105">Phone number</span></span>
+<span data-ttu-id="60524-106">0800 194 197</span><span class="sxs-lookup"><span data-stu-id="60524-106">0800 194 197</span></span>
 
-## <a name="hours"></a><span data-ttu-id="9a3ff-107">Uren</span><span class="sxs-lookup"><span data-stu-id="9a3ff-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="9a3ff-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="9a3ff-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="60524-107">Uren</span><span class="sxs-lookup"><span data-stu-id="60524-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="60524-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="60524-108">Billing Support:</span></span>
 
-<span data-ttu-id="9a3ff-109">Engels: Mon-Fri 9:00-18:00</span><span class="sxs-lookup"><span data-stu-id="9a3ff-109">English: Mon-Fri 9 AM-6 PM</span></span>
+<span data-ttu-id="60524-109">Engels: Mon-Fri 9:00-18:00</span><span class="sxs-lookup"><span data-stu-id="60524-109">English: Mon-Fri 9 AM-6 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="9a3ff-110">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="9a3ff-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="60524-110">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="60524-110">Technical Support:</span></span>
 
-<span data-ttu-id="9a3ff-111">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="9a3ff-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="60524-111">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="60524-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="9a3ff-112">Alternatieve Telefoon nummer: 09 912 7298</span><span class="sxs-lookup"><span data-stu-id="9a3ff-112">Alternative Phone Number: 09 912 7298</span></span>
+<span data-ttu-id="60524-112">Alternatieve Telefoon nummer: 09 912 7298</span><span class="sxs-lookup"><span data-stu-id="60524-112">Alternative Phone Number: 09 912 7298</span></span>
 
-<span data-ttu-id="9a3ff-113">Lokale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="9a3ff-113">Local call charges apply</span></span>
+<span data-ttu-id="60524-113">Lokale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="60524-113">Local call charges apply</span></span>
