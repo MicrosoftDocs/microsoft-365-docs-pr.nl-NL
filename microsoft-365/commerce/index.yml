@@ -15,12 +15,12 @@ metadata:
   ms.date: 02/27/2020
   localization_priority: Normal
   search.appverid: MET150
-  ms.openlocfilehash: 2c048207d0528856924b348697e1f7c48114e82a
-  ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+  ms.openlocfilehash: ecf809c3fe771e38b6edc758d8f2654c0cb89ca6
+  ms.sourcegitcommit: 03aa8ed22d9ef685a851e28c7d0cfb725732fe4b
   ms.translationtype: HT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 05/19/2021
-  ms.locfileid: "52537281"
+  ms.lasthandoff: 06/10/2021
+  ms.locfileid: "52888335"
 landingContent:
 - title: Facturen en betalingen beheren
   linkLists:
@@ -28,26 +28,28 @@ landingContent:
     links:
     - text: Uw rekening of factuur bekijken
       url: billing-and-payments/view-your-bill-or-invoice.md
+    - text: Inzicht in uw rekening of factuur
+      url: billing-and-payments/understand-your-invoice2.md
+    - text: Betalen voor jouw abonnement
+      url: billing-and-payments/pay-for-your-subscription.md
     - text: Betalingswijzen beheren
       url: billing-and-payments/manage-payment-methods.md
-    - text: Inzicht in uw rekening of factuur
-      url: billing-and-payments/understand-your-invoice.md
-    - text: Factureringsprofielen beheren
-      url: billing-and-payments/manage-billing-profiles.md
-    - text: Factureringsaccounts beheren
-      url: manage-billing-accounts.md
+    - text: Uw factuuradressen wijzigen
+      url: billing-and-payments/change-your-billing-addresses.md
 - title: Licenties beheren
   linkLists:
   - linkListType: how-to-guide
     links:
+    - text: Licenties kopen of verwijderen
+      url: licenses/buy-licenses.md
     - text: Licenties aan gebruikers toewijzen
       url: ../admin/manage/assign-licenses-to-users.md
+    - text: Licenties van gebruikers verwijderen
+      url: ../admin/manage/remove-licenses-from-users.md
     - text: Inzicht in abonnementen en licenties
       url: licenses/subscriptions-and-licenses.md
-    - text: Licenties kopen voor uw abonnement
-      url: licenses/buy-licenses.md
-    - text: Licenties verwijderen uit uw abonnement
-      url: ./licenses/buy-licenses.md
+    - text: Sleutel van eeuwigdurende productlicentie downloaden
+      url: ../admin/setup/download-software-licenses-csp.md
 - title: Upgraden, verlengen of opzeggen
   linkLists:
   - linkListType: how-to-guide
@@ -56,10 +58,10 @@ landingContent:
       url: subscriptions/upgrade-to-different-plan.md
     - text: Uw abonnement verlengen
       url: subscriptions/renew-your-subscription.md
-    - text: Uw abonnement opzeggen
-      url: subscriptions/cancel-your-subscription.md
     - text: Uw abonnement opnieuw activeren
       url: subscriptions/reactivate-your-subscription.md
+    - text: Uw abonnement opzeggen
+      url: subscriptions/cancel-your-subscription.md
     - text: Uw account sluiten
       url: close-your-account.md
 - title: Uitproberen of kopen
@@ -69,8 +71,10 @@ landingContent:
     - text: Microsoft 365 uitproberen of kopen
       url: try-or-buy-microsoft-365.md
     - text: Een abonnement kopen vanuit uw gratis proefversie
-      url: ./try-or-buy-microsoft-365.md
+      url: ./try-or-buy-microsoft-365.md#buy-a-subscription-from-your-free-trial
     - text: Uw proefabonnement verlengen
-      url: extend-your-trial.md
+      url: extend-your-trial.md#extend-your-trial
+    - text: Opslagruimte toevoegen
+      url: add-storage-space.md
     - text: Een domeinnaam kopen
       url: ../admin/get-help-with-domains/buy-a-domain-name.md
