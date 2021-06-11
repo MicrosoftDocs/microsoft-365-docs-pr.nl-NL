@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Klanten van Microsoft Defender Office 365 E5 en P1 en P2 kunnen nu een 360-gradenweergave krijgen van elke e-mail met e-mailentiteitspagina.
-ms.openlocfilehash: aa5d7effb66c4805f6983fa1afac19255bc996e4
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: c45b45101c27e92dd0fa8776ca5d8ee9eb3af5b7
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52539093"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878458"
 ---
 # <a name="the-email-entity-page"></a>Entiteitspagina van e-mail
 
@@ -34,12 +34,17 @@ Beheerders van Microsoft Defender voor Office 365 (of MDO) E5 en MDO P1 en P2 he
 
 ## <a name="reach-the-email-entity-page"></a>De pagina e-mailentiteit bereiken
 
-In het bestaande beveiligings- & compliancecentrum (protection.office.com) of het nieuwe Microsoft 365-beveiligingscentrum (security.microsoft.com) kunt u de pagina e-mailentiteit bekijken en gebruiken..
+Met het bestaande beveiligingscentrum & of de nieuwe portal Microsoft 365 Defender kunt u de pagina e-mailentiteit zien en gebruiken.
+
+<br>
+
+****
 
 |Centreer|URL|Navigatie|
 |---|---|---|
-|Beveiligings- & compliance |protection.office.com|Threat Management \> Explorer|
-|Microsoft 365-beveiligingscentrum |security.microsoft.com|E-& \> Samenwerkingsverkenner|
+|Beveiligings- en compliancecentrum|<https://protection.office.com>|Threat Management \> Explorer|
+|Microsoft 365 Defender-portal|<https://security.microsoft.com>|E-& \> Samenwerkingsverkenner|
+|
 
 Selecteer in Threat Explorer het onderwerp van een e-mailbericht dat u onderzoekt. Er wordt een gouden balk weergegeven boven aan de e-mail fly-out voor die e-mail. In deze uitnodiging voor de nieuwe pagina leest u 'Try out our new email entity page with enriched data...'. Selecteer om de nieuwe pagina weer te geven.
 
@@ -89,17 +94,20 @@ Beheerders kunnen een voorbeeld van e-mailberichten bekijken in cloudpostvakken,
 
 ### <a name="detonation-details"></a>Detonatiedetails
 
-Deze details zijn specifiek voor e-mailbijlagen en URL's.
+Deze details zijn specifiek voor e-mailbijlagen en URL's. Gebruikers kunnen deze details zien door naar  Verkenner te gaan en de detectietechnologiefilterset toe te passen op bestandsonttoning of URL-detonatie. E-mailberichten die zijn gefilterd op bestandsdetonatie bevatten een schadelijk bestand met detonatiedetails en e-mailberichten die zijn gefilterd op URL's, bevatten een schadelijke URL en de detonatiedetails.
 
-Gebruikers zien verrijkte detonatiedetails voor bekende schadelijke bijlagen of hyperlinks in hun postvakken, zoals Detonation Chain, Detonation Summary, Screenshot en Observed behavior details om klanten te helpen begrijpen waarom de bijlage of URL als schadelijk en tot stand is gebracht.
+Gebruikers zien verrijkte detonatiedetails voor bekende schadelijke bijlagen of URL's in hun e-mailberichten, die zijn ontploft voor hun specifieke tenant. Het bestaat uit de detonatieketen, de samenvatting van de detonatie, Schermafbeelding en waargenomen gedragsgegevens om klanten te helpen begrijpen waarom de bijlage of URL als schadelijk en tot stand is gebracht.
 
-- *Detonatieketen:* één bestand of URL-detonatie kan meerdere detonaties veroorzaken. De detonatieketen houdt het pad van detonaties bij, inclusief het oorspronkelijke schadelijke bestand of de URL die de uitspraak heeft veroorzaakt, en alle andere bestanden of URL's die zijn veroorzaakt door de detonatie. Deze URL's of bijgevoegde bestanden zijn mogelijk niet rechtstreeks aanwezig in de e-mail, maar het is belangrijk om te bepalen waarom het bestand of de URL schadelijk is gevonden.
-- *Samenvatting van de detonatie:* Dit geeft informatie over:
-  - Detonatietijdbereik.
-  - Uitspraak van het bijgevoegde bestand of DE URL.
-  - Gerelateerde informatie (bestandsnummer, URL's, IPs of Domeinen), die andere entiteiten zijn die tijdens de detonatie worden onderzocht.
-- *Schermafbeelding van detonatie:* hier ziet u schermafbeeldingen die zijn gemaakt tijdens het detonatieproces.
-- *Detonatiedetails:* dit zijn de exacte gedragsdetails van elk proces dat plaatsvond tijdens de detonatie.
+1. *Detonatieketen*. Eén bestand of URL-detonatie kan meerdere detonaties veroorzaken. De detonatieketen houdt het pad van detonaties bij, inclusief het oorspronkelijke schadelijke bestand of de URL die de uitspraak heeft veroorzaakt, en alle andere bestanden of URL's die zijn veroorzaakt door de detonatie. Deze URL's of bijgevoegde bestanden zijn mogelijk niet rechtstreeks aanwezig in de e-mail, maar het is belangrijk om te bepalen waarom het bestand of de URL schadelijk is gevonden.  
+    > [!NOTE]
+    > Dit kan alleen het item op het hoogste niveau laten zien als geen van de entiteiten die aan het item zijn gekoppeld, problematisch zijn of zijn ontploft.
+
+1. *Detonatiesamenvatting* geeft een basisoverzicht voor de detonatie, zoals analysetijd, de tijd waarop de detonatie plaatsvond, besturingssysteem en toepassing, het besturingssysteem en de toepassing waarin de detonatie plaatsvond, de bestandsgrootte en de reden van de uitspraak.
+1. *Schermafbeeldingen* toont de schermafbeeldingen die zijn vastgelegd tijdens de detonatie. Er kunnen meerdere schermafbeeldingen zijn tijdens de detonatie. Er worden geen schermafbeeldingen gemaakt voor
+    - Containertype bestanden zoals .zip of .rar.
+    - Als een URL wordt geopend in een koppeling die rechtstreeks een bestand downloadt. U ziet echter het gedownloade bestand in de detonatieketen.
+1.  Gedragdetails zijn een export die gedragdetails wekt, zoals exacte gebeurtenissen die plaatsvonden tijdens de detonatie, en waarneembare gegevens die URL's, IPs, domeinen en bestanden bevatten die zijn gevonden tijdens de detonatie (en die problematisch of goedaardig kunnen zijn). Let op: er zijn mogelijk geen gedragsdetails voor:
+    - Containerbestanden zoals .zip of .rar die andere bestanden bevatten.
 
 :::image type="content" source="../../media/email-entities-6-detonation-page.png" alt-text="Schermafbeelding van de samenvatting van de detonatie met de ketting, samenvatting, detonatiedetails en schermafbeelding onder de kop *Deep Analysis*.":::
 
@@ -111,7 +119,7 @@ Gebruikers zien verrijkte detonatiedetails voor bekende schadelijke bijlagen of 
 
 *E-maildetails:* Details die nodig zijn voor een beter begrip van e-mail die beschikbaar is op *het tabblad* Analyse.
 
-- *Exchange Transportregels (ETR's of Mailflow-regels)*: Deze regels worden toegepast op een bericht in de transportlaag en hebben voorrang op phish- en spam-vonnissen. Deze kunnen alleen worden gemaakt en gewijzigd in het Exchange-beheercentrum, maar als een ETR van toepassing is op een bericht, worden de ETR-naam en GUID hier weergegeven. Waardevolle informatie voor het bijhouden van doeleinden.
+- *Exchange Transportregels (ETR's of e-mailstroomregels)*: Deze regels worden toegepast op een bericht op de transportlaag en hebben voorrang op phish- en spam-vonnissen. Deze kunnen alleen worden gemaakt en gewijzigd in het Exchange-beheercentrum, maar als een ETR van toepassing is op een bericht, worden de ETR-naam en GUID hier weergegeven. Waardevolle informatie voor het bijhouden van doeleinden.
 
 - *Systeem overschrijven:* Dit is een manier om uitzonderingen te maken op de bezorgingslocatie die is bedoeld voor een bericht door de bezorgingslocatie te overschrijven die door het systeem wordt gegeven (volgens de technologie voor bedreiging en detectie).
 

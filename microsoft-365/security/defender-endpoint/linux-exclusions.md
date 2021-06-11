@@ -63,7 +63,7 @@ Proces | Een specifiek proces (opgegeven door het volledige pad of de bestandsna
 
 Bestands-, map- en procesuitsluitingen ondersteunen de volgende jokertekens:
 
-Jokerteken | Omschrijving | Voorbeeld | Overeenkomsten | Komt niet overeen met
+Jokerteken | Beschrijving | Voorbeeld | Overeenkomsten | Komt niet overeen met
 ---|---|---|---|---
 \* |    Komt overeen met een aantal tekens, inclusief geen tekens (houd er rekening mee dat wanneer dit jokerteken binnen een pad wordt gebruikt, dit slechts één map vervangt) | `/var/\*/\*.log` | `/var/log/system.log` | `/var/log/nested/system.log`
 ? | Komt overeen met een enkel teken | `file?.log` | `file1.log`<br/>`file2.log` | `file123.log`
