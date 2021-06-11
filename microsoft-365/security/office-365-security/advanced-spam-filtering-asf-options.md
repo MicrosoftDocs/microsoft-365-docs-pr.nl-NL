@@ -19,12 +19,12 @@ ms.custom:
 description: Beheerders kunnen meer informatie krijgen over de asf-instellingen (Advanced Spam Filter) die beschikbaar zijn in antispambeleid in Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 12f193ef61205e8568341c774b957ce4a9dd7988
-ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
+ms.openlocfilehash: 77676277678bd6f8dcfade2b6929a9e1e113bf4b
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52779420"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878230"
 ---
 # <a name="advanced-spam-filter-asf-settings-in-eop"></a>Geavanceerde instellingen voor spamfilter (ASF) in EOP
 
@@ -47,7 +47,7 @@ In alle Microsoft 365 organisaties kunnen beheerders met de asf-instellingen (Ad
 > - De aanwezigheid van gefilterde berichten in quarantaine.
 > - De specifieke `X-CustomSpam:` X-headervelden die worden toegevoegd aan berichten, zoals beschreven in dit artikel.
 
-In de volgende secties worden de ASF-instellingen en -opties beschreven die beschikbaar zijn in antispambeleid in het Microsoft 365-beveiligingscentrum en in Exchange Online PowerShell Exchange Online zelfstandige EOP PowerShell[(New-HostedContentFilterPolicy](/powershell/module/exchange/new-hostedcontentfilterpolicy) en [Set-HostedContentFilterPolicy).](/powershell/module/exchange/set-hostedcontentfilterpolicy) Zie [Antispambeleid configureren in EOP](configure-your-spam-filter-policies.md) voor meer informatie.
+In de volgende secties worden de ASF-instellingen en -opties beschreven die beschikbaar zijn in antispambeleid in de Microsoft 365 Defender-portal en in Exchange Online PowerShell Exchange Online zelfstandige EOP PowerShell[(New-HostedContentFilterPolicy](/powershell/module/exchange/new-hostedcontentfilterpolicy) en [Set-HostedContentFilterPolicy).](/powershell/module/exchange/set-hostedcontentfilterpolicy) Zie [Antispambeleid configureren in EOP](configure-your-spam-filter-policies.md) voor meer informatie.
 
 ## <a name="enable-disable-or-test-asf-settings"></a>ASF-instellingen inschakelen, uitschakelen of testen
 
@@ -58,7 +58,7 @@ Voor elke ASF-instelling zijn de volgende opties beschikbaar in antispambeleid:
 - **Test:** ASF voegt het bijbehorende veld X-header toe aan het bericht. Wat er met het bericht gebeurt, wordt bepaald door de **waarde Testmodus** *(TestModeAction)*:
   - **Geen:** Berichtbezorging wordt niet beïnvloed door de ASF-detectie. Het bericht is nog steeds onderhevig aan andere typen filters en regels in EOP.
   - **Standaard X-headertekst toevoegen (*AddXHeader*)**: De X-headerwaarde `X-CustomSpam: This message was filtered by the custom spam filter option` wordt toegevoegd aan het bericht. U kunt deze waarde gebruiken in regels voor Postvak IN of regels voor e-mailstroom (ook wel transportregels genoemd) om de bezorging van het bericht te beïnvloeden.
-  - **BCC-bericht verzenden *(BccMessage)***: De opgegeven e-mailadressen (de *parameterwaarde TestModeBccToRecipients* in PowerShell) worden toegevoegd aan het BCC-veld van het bericht en het bericht wordt bezorgd bij de extra BCC-geadresseerden. In het beveiligingscentrum scheidt u meerdere e-mailadressen per puntkomma (;). In PowerShell scheidt u meerdere e-mailadressen door komma's.
+  - **BCC-bericht verzenden *(BccMessage)***: De opgegeven e-mailadressen (de *parameterwaarde TestModeBccToRecipients* in PowerShell) worden toegevoegd aan het BCC-veld van het bericht en het bericht wordt bezorgd bij de extra BCC-geadresseerden. In de Microsoft 365 Defender-portal scheidt u meerdere e-mailadressen per puntkomma (;). In PowerShell scheidt u meerdere e-mailadressen door komma's.
 
   **Opmerkingen**:
 
@@ -76,7 +76,7 @@ Met de volgende ASF-instellingen wordt het betrouwbaarheidsniveau voor spam (SCL
 
 ****
 
-|Antispambeleidsinstelling|Beschrijving|X-header toegevoegd|
+|Antispambeleidsinstelling|Omschrijving|X-header toegevoegd|
 |---|---|---|
 |**Afbeeldingskoppelingen naar externe websites** <p> *IncreaseScoreWithImageLinks*|Berichten met `<Img>` HTML-tagkoppelingen naar externe sites (bijvoorbeeld http) worden gemarkeerd als spam.|`X-CustomSpam: Image links to remote sites`|
 |**Numeriek IP-adres in URL** <p> *IncreaseScoreWithNumericIps*|Berichten met numerieke URL's (meestal IP-adressen) worden gemarkeerd als spam.|`X-CustomSpam: Numeric IP in URL`|
@@ -92,7 +92,7 @@ Met de volgende ASF-instellingen wordt de SCL van gedetecteerde  berichten inges
 
 ****
 
-|Antispambeleidsinstelling|Beschrijving|X-header toegevoegd|
+|Antispambeleidsinstelling|Omschrijving|X-header toegevoegd|
 |---|---|---|
 |**Berichten leeg maken** <p> *MarkAsSpamEmptyMessages*|Berichten zonder onderwerp, geen inhoud in de berichtinhoud en geen bijlagen worden gemarkeerd als spam met hoog vertrouwen.|`X-CustomSpam: Empty Message`|
 |**Ingesloten tags in HTML** <p> *MarkAsSpamEmbedTagsInHtml*|Berichten met `<embed>` HTML-tags worden gemarkeerd als spam met veel vertrouwen. <p> Met deze tag kunt u verschillende soorten documenten insluiten in een HTML-document (bijvoorbeeld geluiden, video's of afbeeldingen).|`X-CustomSpam: Embed tag in html`|

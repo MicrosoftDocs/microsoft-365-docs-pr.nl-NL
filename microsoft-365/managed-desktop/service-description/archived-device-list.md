@@ -1,5 +1,5 @@
 ---
-title: Gearchiveerde apparaten van Microsoft Managed Desktop
+title: Microsoft Managed Desktop gearchiveerde apparaten
 description: Apparaten die bijna met pensioen gaan en die u nog kunt registreren, maar die een kortere levensduur hebben
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
@@ -18,23 +18,23 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 03/25/2021
 ms.locfileid: "51218734"
 ---
-# <a name="microsoft-managed-desktop-archived-devices"></a>Gearchiveerde apparaten van Microsoft Managed Desktop
+# <a name="microsoft-managed-desktop-archived-devices"></a>Microsoft Managed Desktop gearchiveerde apparaten
 
-Om de beste gebruikerservaring te garanderen, wordt de ondersteuning voor apparaten op een bepaald moment ingetrokken door Microsoft Managed Desktop. In dit artikel worden apparaten vermeld die de komende jaren bijna met pensioen gaan, wat we 'gearchiveerd' noemen. Als u aan de slag gaat met Microsoft Managed Desktop met behulp van apparaten die u al hebt, moet u deze lijst zorgvuldig controleren.
+Om de beste gebruikerservaring te garanderen, Microsoft Managed Desktop op een bepaald moment geen ondersteuning meer voor apparaten. In dit artikel worden apparaten vermeld die de komende jaren bijna met pensioen gaan, wat we 'gearchiveerd' noemen. Als u aan de slag gaat met Microsoft Managed Desktop met apparaten die u al hebt, moet u deze lijst zorgvuldig controleren.
 
 >[!IMPORTANT]
 >U kunt deze apparaten nog steeds registreren, maar ze hebben een kortere levensduur met Microsoft Managed Desktop. Als u nieuwe apparaten koopt, moet u modellen gebruiken uit de [lijst met actieve apparaten.](./device-list.md)
 
 <!-- Microsoft 365 E5; Device as a Service -->
 <!-- Split from device & technologies topic. Destination topic for aka.ms/device-list  -->
-Als u zich wilt inschrijven voor Microsoft Managed Desktop, moet een apparaat een van de volgende modellen zijn en voldoen aan de vermelde specificaties voor RAM, processorfamilie en schijfruimte. Er wordt geen andere aanpassing ondersteund.
+Als u wilt worden Microsoft Managed Desktop, moet een apparaat een van de volgende modellen zijn en voldoen aan de vermelde specificaties voor RAM, processorfamilie en schijfruimte. Er wordt geen andere aanpassing ondersteund.
 
 
 
 >[!NOTE]
->In deze tabel is de 'pensioendatum' de datum waarop dit model helemaal niet meer wordt ondersteund door Microsoft Managed Desktop. Op die datum worden alle geregistreerde apparaten van dit model verwijderd uit Microsoft Managed Desktop, ongeacht wanneer ze zijn geregistreerd.
+>In deze tabel is de 'uittredingsdatum' de datum waarop dit model helemaal niet meer door de Microsoft Managed Desktop wordt ondersteund. Op die datum worden alle geregistreerde apparaten van dit model verwijderd uit Microsoft Managed Desktop, ongeacht wanneer ze zijn geregistreerd.
 
-#### <a name="microsoft-managed-desktop-archived-devices"></a>Gearchiveerde apparaten van Microsoft Managed Desktop
+#### <a name="microsoft-managed-desktop-archived-devices"></a>Microsoft Managed Desktop gearchiveerde apparaten
 
 | Model  | Minimumspecificaties  | Aanvullende vereisten  | Uittredingsdatum |
 |---------|---------|---------|---------|
@@ -77,8 +77,8 @@ Als u zich wilt inschrijven voor Microsoft Managed Desktop, moet een apparaat ee
 Daarnaast moet het apparaat ook:
 
 - Een afbeelding laten goedkeuren door Microsoft Managed Desktop. Wanneer u apparaten bestelt, moet u opgeven dat ze worden gebruikt met Microsoft Managed Desktop.
-- De windows first-run-ervaring is nog niet voltooid.
-- Geregistreerd zijn bij Microsoft Managed Desktop met de [functie Apparaatregistratie](../get-started/register-devices-self.md)
+- De eerste Windows nog niet voltooid.
+- Worden geregistreerd met Microsoft Managed Desktop met de [functie Apparaatregistratie](../get-started/register-devices-self.md)
 
 #### <a name="more-help"></a>Meer hulp
 

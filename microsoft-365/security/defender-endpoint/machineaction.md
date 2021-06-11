@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: da3722294957593fc9cb89abfaec13e45106eefc
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: a3b017a9a05964c15411668787b035f1052c68cf
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187383"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878278"
 ---
 # <a name="machineaction-resource-type"></a>MachineAction-resourcetype
 
@@ -40,7 +40,7 @@ ms.locfileid: "51187383"
 
 - Zie Reactieacties voor [meer informatie.](respond-machine-alerts.md) 
 
-| Methode                                                            | Retourtype                        | Beschrijving                                                 |
+| Methode                                                            | Retourtype                        | Omschrijving                                                 |
 |:------------------------------------------------------------------|:-----------------------------------|:------------------------------------------------------------|
 | [Lijst MachineActions](get-machineactions-collection.md)           | [Computeractie](machineaction.md) | List [Machine Action-entiteiten.](machineaction.md)           |
 | [MachineAction krijgen](get-machineaction-object.md)                  | [Computeractie](machineaction.md) | Eén entiteit [Machineactie](machineaction.md) krijgen.     |
@@ -53,12 +53,15 @@ ms.locfileid: "51187383"
 | [Antivirusscan uitvoeren](run-av-scan.md)                              | [Computeractie](machineaction.md) | Voer een AV-scan uit Windows Defender (indien van toepassing).    |
 | [Computer offboarden](offboard-machine-api.md)                       | [Computeractie](machineaction.md) | Offboard [machine](machine.md) from Microsoft Defender for Endpoint. |
 | [Bestand stoppen en in quarantaine plaatsen](stop-and-quarantine-file.md)           | [Computeractie](machineaction.md) | De uitvoering van een bestand op een computer stoppen en verwijderen.        |
+| [Livereactie uitvoeren](run-live-response.md)                     | [Computeractie](machineaction.md)  | Voert een reeks opdrachten voor livereacties uit op een apparaat                       |
+| [Live-antwoordresultaat ontvangen](get-live-response-result.md) | URL-entiteit      | Hiermee wordt de downloadkoppeling voor de specifieke liveresponsopdracht opgehaald op de index. |
+|[Computeractie annuleren](cancel-machine-action.md)                                | [Computeractie](machineaction.md)  | Een actieve machineactie annuleren.                                            |
 
 <br>
 
 ## <a name="properties"></a>Eigenschappen
 
-| Eigenschap            | Type           | Beschrijving                                                                                                                                                                                                    |
+| Eigenschap            | Type           | Omschrijving                                                                                                                                                                                                    |
 |:--------------------|:---------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ID                  | Guid           | Identiteit van de [entiteit Machineactie.](machineaction.md)                                                                                                                                                     |
 | type                | Enum           | Type van de actie. Mogelijke waarden zijn: "RunAntiVirusScan", "Offboard", "CollectInvestigationPackage", "Isolate", "Unisolate", "StopAndQuarantineFile", "RestrictCodeExecution" en "UnrestrictCodeExecution" |
@@ -71,6 +74,7 @@ ms.locfileid: "51187383"
 | creationDateTimeUtc | DateTimeOffset | De datum en tijd waarop de actie is gemaakt.                                                                                                                                                                 |
 | lastUpdateTimeUtc   | DateTimeOffset | De laatste datum en tijd waarop de actiestatus is bijgewerkt.                                                                                                                                                     |
 | relatedFileInfo     | Klas          | Bevat twee eigenschappen. tekenreeks ```fileIdentifier``` , Enum ```fileIdentifierType``` met de mogelijke waarden: 'Sha1', 'Sha256' en 'Md5'.                                                                         |
+
 
 
 ## <a name="json-representation"></a>Json-representatie

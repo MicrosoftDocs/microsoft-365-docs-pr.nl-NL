@@ -1,5 +1,5 @@
 ---
-title: Problemen met Microsoft Defender voor Eindpunt-service oplossen
+title: Problemen met Microsoft Defender voor Eindpunt-service oplossen
 description: Zoek oplossingen en tijdelijke oplossingen voor bekende problemen, zoals serverfouten bij het openen van de service.
 keywords: problemen met Microsoft Defender voor eindpunt, serverfout, toegang geweigerd, ongeldige referenties, geen gegevens, dashboardportal, toestaan, gebeurtenisviewer oplossen
 search.product: eADQiWindows 10XVcnh

@@ -92,7 +92,7 @@ ms.locfileid: "52572307"
 
     - Zie Office scripts uitvoeren met Power Automate voor meer informatie over het gebruik van Office [scripts met Power Automate](/office/dev/scripts/develop/power-automate-integration)scripts.
 
-8. Kies **Opslaan**.
+8. Klik op **Opslaan**.
 
     Het kan tot 48 uur duren voordat wijzigingen in de Office scripts worden doorgevoerd.
 
@@ -100,7 +100,7 @@ ms.locfileid: "52572307"
 
 Omdat Office Scripts werkt met Power Automate, raden we u aan uw bestaande DLP-beleid (Data Loss Prevention) te bekijken om ervoor te zorgen dat de gegevens van uw organisatie beveiligd blijven terwijl gebruikers scripts Office gebruiken. Zie [DLP-beleid (Data Loss Prevention) voor meer informatie.](/power-automate/prevent-data-loss)
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Office Scripts technische documentatie](/office/dev/scripts/) (koppelingspagina)\
 [Inleiding tot Office scripts in Excel](https://support.microsoft.com/office/9fbe283d-adb8-4f13-a75b-a81c6baf163a) (artikel)\

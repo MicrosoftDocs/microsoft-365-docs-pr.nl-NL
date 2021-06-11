@@ -1,5 +1,5 @@
 ---
-title: Preventie van gegevensverlies plannen
+title: Plan voor preventie van gegevensverlies
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -161,7 +161,7 @@ Verschillende groepen in uw organisatie hebben mogelijk verschillende weergaven 
 Voordat u bepaalde DLP-locaties kunt controleren, moet aan de vereisten worden voldaan. Zie de **secties Voordat u begint** de volgende secties:
 
 - [Aan de slag met de preventie van gegevensverlies on-premises scanner (preview)](dlp-on-premises-scanner-get-started.md#before-you-begin)
-- [Aan de slag met Eindpunt-DLP (gegevensverlies voor eindpunten)](endpoint-dlp-getting-started.md#before-you-begin)
+- [Aan de slag met preventie van gegevensverlies van eindpunten](endpoint-dlp-getting-started.md#before-you-begin)
 - [Aan de slag met de Microsoft-nalevingsextensie (preview)](dlp-chrome-get-started.md#before-you-begin)
 - [Beleid voor preventie van gegevensverlies gebruiken voor niet-Microsoft-cloud-apps (preview)](dlp-use-policies-non-microsoft-cloud-apps.md#before-you-begin)
 

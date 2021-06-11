@@ -21,12 +21,12 @@ ms.custom:
 search.appverid: MET150
 description: Interpreteer kosten, facturerings- en betalingsgegevens op uw Microsoft 365 voor zakelijke factuur of factuur en hoe u een aankoopordernummer wijzigt.
 ms.date: 05/04/2021
-ms.openlocfilehash: 63d532ddfb86eb80a1cdeb6001fff683c5999146
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: ba20e390e279d45d56671d49e32250d2db04c220
+ms.sourcegitcommit: 03aa8ed22d9ef685a851e28c7d0cfb725732fe4b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635832"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52888371"
 ---
 # <a name="understand-your-bill-or-invoice-for-microsoft-365-for-business"></a>Je rekening of factuur voor Microsoft 365 voor bedrijven bekijken
 
@@ -126,9 +126,10 @@ Als u per factuur betaalt, kunt u het IO-nummer (inkooporder) toevoegen aan of w
 
 1. Voer onderaan het deelvenster **Details bewerken voor** betalen via spraak in en selecteer opslaan. 
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Meer informatie over het zoeken en bekijken van uw factuur of factuur](view-your-bill-or-invoice.md) (artikel)\
+[Factureringsgegevens voor Microsoft 365 voor bedrijven in Mexico](/microsoft-365/commerce/billing-and-payments/mexico-billing-info) (artikel) \
 [Uw factureringsadressen](change-your-billing-addresses.md) wijzigen (artikel)\
 [Het adres, de e-mail](../../admin/manage/change-address-contact-and-more.md) van technische contactpersonen en andere informatie van uw organisatie wijzigen (artikel)\
 [Uw abonnement Microsoft 365 voor bedrijven](pay-for-your-subscription.md) betalen (artikel)\

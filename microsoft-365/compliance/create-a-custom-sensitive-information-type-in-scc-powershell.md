@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Informatie over het maken en importeren van een aangepast type voor vertrouwelijke gegevens voor beleid in het compliance.
-ms.openlocfilehash: 75e767b0ea5ebe4940af5ee0fbfa85f858f65e9c
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: deb29b768c136c9c952d2abe791b310f2fd1dbdd
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538700"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878242"
 ---
 # <a name="create-a-custom-sensitive-information-type-using-powershell"></a>Een aangepast type voor vertrouwelijke gegevens maken met PowerShell
 
@@ -38,6 +38,9 @@ Vanwege de verschillende klantomgevingen en vereisten voor inhoud kan Microsoft-
 Zie [Mogelijke validatieproblemen om rekening mee te houden](#potential-validation-issues-to-be-aware-of) in dit onderwerp.
 
 Zie [Boost.Regex 5.1.3](https://www.boost.org/doc/libs/1_68_0/libs/regex/doc/html/) voor meer informatie over de engine Boost.RegEx (voorheen bekend als RegEx++) die wordt gebruikt voor het verwerken van tekst.
+
+> [!NOTE]
+> Als u een ampersandteken (&) gebruikt als onderdeel van een trefwoord in uw aangepaste gevoelige informatietype, is er een bekend probleem. U moet een extra term toevoegen met spaties rond het teken om ervoor te zorgen dat het teken correct is geïdentificeerd, bijvoorbeeld L & P _niet_ L&P.
 
 ## <a name="sample-xml-of-a-rule-package"></a>Voorbeeld-XML van een regelpakket
 

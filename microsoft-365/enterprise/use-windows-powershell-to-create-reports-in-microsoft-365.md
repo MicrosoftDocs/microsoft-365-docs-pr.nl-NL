@@ -57,7 +57,7 @@ In deze artikelen wordt beschreven hoe u PowerShell gebruikt voor Microsoft 365 
   - [PowerShell Exchange Online gebruiken om postvak weer te geven](/exchange/recipients-in-exchange-online/manage-user-mailboxes/use-powershell-to-display-mailbox-information)
     
     
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-articles"></a>Aanverwante artikelen
 
 [Microsoft 365 beheren met PowerShell](manage-microsoft-365-with-microsoft-365-powershell.md)
   

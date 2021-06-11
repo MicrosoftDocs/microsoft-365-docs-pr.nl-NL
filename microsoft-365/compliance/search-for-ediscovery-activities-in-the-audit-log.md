@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: 67cc7f42-a53d-4751-b929-6005c80798f7
 description: Lees welke gebeurtenissen worden geregistreerd wanneer gebruikers die eDiscovery-machtigingen hebben toegewezen, inhoud zoeken, Core eDiscovery en Advanced eDiscovery uitvoeren in het Microsoft 365 compliancecentrum.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8b1f3f235f3411e2f637e4e32104c6179643757d
-ms.sourcegitcommit: 4f6ef4cd09c3ed36dc0be3702b0636bad6cff8a9
+ms.openlocfilehash: cca0cdc02e2c23231637acf6eba2b07144266e36
+ms.sourcegitcommit: 03aa8ed22d9ef685a851e28c7d0cfb725732fe4b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52657691"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52888407"
 ---
 # <a name="search-for-ediscovery-activities-in-the-audit-log"></a>Zoeken naar eDiscovery-activiteiten in het auditlogboek
 
@@ -48,7 +48,7 @@ Op dit moment moet u een paar specifieke dingen doen om eDiscovery-activiteiten 
   
 1. Ga naar <https://compliance.microsoft.com> en meld u aan met uw werk- of schoolaccount.
 
-2. Klik in het linkernavigatiedeelvenster van Microsoft 365 compliancecentrum op **Alles weergeven** en klik vervolgens op **Controleren.**
+2. Klik in het linkernavigatiedeelvenster van het Microsoft 365 compliancecentrum op **Controleren.**
 
 3. Klik in **de** vervolgkeuzelijst Activiteiten, onder **eDiscovery-activiteiten** Advanced eDiscovery **activiteiten,** op een of meer activiteiten om naar te zoeken.
 
@@ -71,10 +71,10 @@ Op dit moment moet u een paar specifieke dingen doen om eDiscovery-activiteiten 
 
 ## <a name="ediscovery-activities"></a>eDiscovery-activiteiten
 
-In de volgende tabel worden de activiteiten Inhoud zoeken en Core eDiscovery beschreven die worden geregistreerd wanneer een beheerder of eDiscovery-manager een eDiscovery-gerelateerde activiteit uitvoert met behulp van het compliancecentrum of de bijbehorende cmdlet uitvoert in Security & Compliance Center PowerShell. Houd er ook rekening mee dat sommige activiteiten die in Advanced eDiscovery worden uitgevoerd, kunnen worden geretourneerd wanneer u zoekt naar activiteiten in deze lijst.
+In de volgende tabel worden de activiteiten Inhoud zoeken en Core eDiscovery beschreven die worden geregistreerd wanneer een beheerder of eDiscovery-manager een eDiscovery-gerelateerde activiteit uitvoert met behulp van het Microsoft 365 compliancecentrum. Sommige activiteiten die in Advanced eDiscovery worden geretourneerd wanneer u naar activiteiten in deze lijst zoekt.
   
 > [!NOTE]
-> De eDiscovery-activiteiten die in deze sectie worden beschreven, bevatten vergelijkbare informatie als de eDiscovery-cmdletactiviteiten die in de volgende sectie worden beschreven. U wordt aangeraden de eDiscovery-activiteiten te gebruiken die in deze sectie worden beschreven, omdat deze binnen 30 minuten in de zoekresultaten van het auditlogboek worden weergegeven. Het duurt maximaal 24 uur voordat de eDiscovery-cmdletactiviteiten worden weergegeven in de zoekresultaten van het auditlogboek.
+> De eDiscovery-activiteiten die in deze sectie worden beschreven, bevatten vergelijkbare informatie als de eDiscovery-cmdletactiviteiten die in de volgende sectie worden beschreven. U wordt aangeraden de eDiscovery-activiteiten te gebruiken die in deze sectie worden beschreven, omdat deze binnen 30 minuten in de zoekresultaten van het auditlogboek worden weergegeven. Het kan tot 24 uur duren voordat eDiscovery-cmdletactiviteiten worden weergegeven in de zoekresultaten van het auditlogboek.
   
 |**Beschrijvende naam**|**Bewerking**|**Corresponderende cmdlet**|**Beschrijving**|
 |:-----|:-----|:-----|:-----|
@@ -86,7 +86,7 @@ In de volgende tabel worden de activiteiten Inhoud zoeken en Core eDiscovery bes
 |Filter voor gewijzigde zoekmachtigingen  <br/> |SearchPermissionUpdated  <br/> |Set-ComplianceSecurityFilter  <br/> |Er is een zoekmachtigingsfilter gewijzigd.  <br/> |
 |Gewijzigde zoekquery voor eDiscovery-case hold  <br/> |HoldUpdated  <br/> |Set-CaseHoldRule  <br/> |Een query-gebaseerde wacht die is gekoppeld aan een eDiscovery-zaak is gewijzigd. Mogelijke wijzigingen zijn het bewerken van de query of het datumbereik voor een op query's gebaseerde hold.  <br/> |
 |Inhoudszoekvoorbeelditem gedownload  <br/> |PreviewItemDownloaded  <br/> |N.v.t.  <br/> |Een gebruiker heeft een item gedownload naar de lokale computer (door te klikken op de koppeling Oorspronkelijk **item** downloaden) bij het bekijken van zoekresultaten.  <br/> |
-|Inhoudszoekvoorbeelditem weergegeven  <br/> |PreviewItemListed  <br/> |N.v.t.  <br/> |Een gebruiker heeft op **Voorbeeld van zoekresultaten geklikt** om de pagina met voorbeeldresultaten weer te geven, waarin maximaal 1000 items uit de resultaten van een inhoudszoekactie worden weergegeven.  <br/> |
+|Inhoudszoekvoorbeelditem weergegeven  <br/> |PreviewItemListed  <br/> |N.v.t.  <br/> |Een gebruiker heeft op **Voorbeeld van zoekresultaten geklikt** om de pagina met voorbeeldresultaten weer te geven, waarin maximaal 1.000 items uit de resultaten van een zoekopdracht worden weergegeven.  <br/> |
 |Inhoudszoekvoorbeelditem bekeken  <br/> |PreviewItemRendered  <br/> |N.v.t.  <br/> |Een eDiscovery-manager heeft een item bekeken door erop te klikken bij het bekijken van zoekresultaten.  <br/> |
 |Zoeken naar inhoud gemaakt  <br/> |SearchCreated  <br/> |New-ComplianceSearch  <br/> |Er is een nieuwe inhoudszoekactie gemaakt.  <br/> |
 |EDiscovery-beheerder gemaakt  <br/> |CaseAdminAdded  <br/> |Add-eDiscoveryCaseAdmin  <br/> |Een gebruiker is toegevoegd als eDiscovery-beheerder in de organisatie.  <br/> |
@@ -100,7 +100,7 @@ In de volgende tabel worden de activiteiten Inhoud zoeken en Core eDiscovery bes
 |Verwijderde zoekquery voor eDiscovery-case hold  <br/> |HoldRemoved  <br/> |Remove-CaseHoldRule  <br/> |Een op query's gebaseerde greep die is gekoppeld aan een eDiscovery-zaak, is verwijderd. Het verwijderen van de query uit de wacht is vaak het resultaat van het verwijderen van een wacht. Wanneer een wacht- of wachtquery wordt verwijderd, worden de inhoudslocaties die in de wacht stonden, vrijgegeven.  <br/> |
 |Gedownloade export van zoeken naar inhoud  <br/> |SearchExportDownloaded  <br/> |N.v.t.  <br/> |Een gebruiker heeft de resultaten van een inhoudszoekactie gedownload naar de lokale computer. Een **gestarte export van inhoudszoekactiviteit** moet worden gestart voordat zoekresultaten kunnen worden gedownload.  <br/> |
 |Voorbeeld van resultaten van zoeken naar inhoud  <br/> |SearchPreviewed  <br/> |N.v.t.  <br/> |Een gebruiker heeft een voorbeeld van de resultaten van een inhoudszoekactie bekeken.  <br/> |
-|Verwijderde resultaten van zoeken naar inhoud  <br/> |SearchResultsPurged  <br/> |New-ComplianceSearchAction  <br/> |Een gebruiker heeft de resultaten van een inhoudszoekactie verwijderd door de opdracht **New-ComplianceSearchAction -Purge uit te** voeren.  <br/> |
+|Verwijderde resultaten van zoeken naar inhoud  <br/> |SearchResultsPurged  <br/> |New-ComplianceSearchAction  <br/> |Een gebruiker heeft de resultaten van een zoekopdracht naar inhoud verwijderd door de opdracht **New-ComplianceSearchAction -Purge uit te** voeren.  <br/> |
 |Verwijderde analyse van zoeken naar inhoud  <br/> |RemovedSearchResultsSentToZoom  <br/> |Remove-ComplianceSearchAction  <br/> |Een actie voor het voorbereiden van inhoudszoekactie (om zoekresultaten voor te bereiden op Advanced eDiscovery) is verwijderd. Als de voorbereidingsactie minder dan twee weken oud was, zijn de zoekresultaten die zijn voorbereid op Advanced eDiscovery verwijderd uit het Microsoft Azure opslagruimte. Als de voorbereidingsactie ouder is dan 2 weken, geeft deze gebeurtenis aan dat alleen de bijbehorende voorbereidingsactie is verwijderd.  <br/> |
 |Verwijderde export van inhoud zoeken  <br/> |RemovedSearchExported  <br/> |Remove-ComplianceSearchAction  <br/> |Er is een exportactie voor inhoudszoekactie verwijderd. Als de exportactie minder dan twee weken oud was, zijn de zoekresultaten die zijn geüpload naar het Microsoft Azure verwijderd. Als de exportactie ouder is dan 2 weken, geeft deze gebeurtenis aan dat alleen de bijbehorende exportactie is verwijderd.  <br/> |
 |Verwijderd lid uit eDiscovery-zaak  <br/> |CaseMemberRemoved  <br/> |Remove-ComplianceCaseMember  <br/> |Een gebruiker is verwijderd als lid van een eDiscovery-zaak.  <br/> |
@@ -108,14 +108,14 @@ In de volgende tabel worden de activiteiten Inhoud zoeken en Core eDiscovery bes
 |Verwijderde actie voor het verwijderen van inhoudszoekactie  <br/> |RemovedSearchResultsPurged  <br/> |Remove-ComplianceSearchAction  <br/> |Er is een actie voor het verwijderen van inhoudszoekactie verwijderd.  <br/> |
 |Verwijderd zoekrapport  <br/> |SearchReportRemoved  <br/> |Remove-ComplianceSearchAction  <br/> |Er is een actie voor het exporteren van inhoudszoekrapport verwijderd.  <br/> |
 |Analyse van inhoud zoeken gestart  <br/> |SearchResultsSentToZoom  <br/> |New-ComplianceSearchAction  <br/> |De resultaten van een inhoudszoekactie zijn voorbereid voor analyse in Advanced eDiscovery.  <br/> |
-|Inhoud zoeken gestart  <br/> |SearchStarted  <br/> |Start-ComplianceSearch  <br/> |Er is een inhoudszoekactie gestart. Wanneer u een inhoudszoekactie maakt of wijzigt met de gui Microsoft 365 compliancecentrum, wordt de zoekopdracht automatisch gestart. Als u een zoekopdracht maakt of wijzigt met de cmdlet **New-ComplianceSearch** of **Set-ComplianceSearch,** moet u de **cmdlet Start-ComplianceSearch** uitvoeren om de zoekopdracht te starten.  <br/> |
+|Inhoud zoeken gestart  <br/> |SearchStarted  <br/> |Start-ComplianceSearch  <br/> |Er is een inhoudszoekactie gestart. Wanneer u een inhoudszoekactie maakt of wijzigt met het Microsoft 365 compliancecentrum, wordt de zoekopdracht automatisch gestart.<br/> |
 |De export van inhoud zoeken gestart  <br/> |SearchExported  <br/> |New-ComplianceSearchAction  <br/> |Een gebruiker heeft de resultaten van een inhoudszoekactie geëxporteerd.  <br/> |
 |Exportrapport gestart  <br/> |SearchReport  <br/> |New-ComplianceSearchAction  <br/> |Een gebruiker heeft een inhoudszoekrapport geëxporteerd.  <br/> |
 |Inhoud zoeken gestopt  <br/> |SearchStopped  <br/> |Stop-ComplianceSearch  <br/> |Een gebruiker heeft een inhoudszoekactie gestopt.  <br/> |
-|(geen)|CaseViewed|Get-ComplianceCase|Een gebruiker heeft de lijst met cases bekeken op de **pagina Core eDiscovery** of de **Advanced eDiscovery** in het compliancecentrum of door de Get-ComplianceCase uitvoeren.|
-|(geen)|SearchViewed|Get-ComplianceSearch|Een gebruiker heeft de lijst bekeken op inhoudszoekingen (weergegeven op het tabblad Zoekopdrachten) in het compliancecentrum of door de cmdlet uit te lopen.  Deze activiteit wordt ook geregistreerd wanneer een gebruiker de lijst met inhoudszoekingen bekijkt  die zijn gekoppeld aan een eDiscovery-zaak (door in een geval op het tabblad Zoekopdrachten te klikken) of door de opdracht **Get-ComplianceSearch -Case** uit te voeren.|
-|(geen)|ViewedSearchExported|Get-ComplianceSearchAction -Exporteren|Een gebruiker heeft de lijst met exporttaken voor  inhoud zoeken (weergegeven op het tabblad Export) bekeken in het compliancecentrum of door de cmdlet uit te voeren. Deze activiteit wordt ook geregistreerd wanneer een gebruiker de lijst met exporttaken in  een eDiscovery-zaak bekijkt (weergegeven op het tabblad Exporten in een zaak) of door de opdracht **Get-ComplianceSearchAction -Case -Export** uit te voeren.|
-|(geen)|ViewedSearchPreviewed|Get-ComplianceSearchAction -Preview|Een gebruiker bekijkt de resultaten van een inhoudszoekactie in het compliancecentrum of door de cmdlet uit te lopen.|
+|(geen)|CaseViewed|Get-ComplianceCase|Een gebruiker heeft een Hoofd-eDiscovery-zaak bekeken in het compliancecentrum. De auditrecord voor deze gebeurtenis bevat de naam van de zaak die is bekeken. |
+|(geen)|SearchViewed|Get-ComplianceSearch|Een gebruiker heeft een inhoudszoekactie in het compliancecentrum bekeken door toegang te krijgen tot de zoekopdracht op het tabblad Zoekopdrachten in een hoofd-eDiscovery-zaak of deze te openen op de pagina Inhoud **zoeken.**  De auditrecord voor deze gebeurtenis bevat de identiteit van de zoekopdracht die is bekeken.|
+|(geen)|ViewedSearchExported|Get-ComplianceSearchAction -Exporteren|Een gebruiker heeft een inhoudszoekexport in het compliancecentrum bekeken door toegang te krijgen tot de export op het **tabblad** Export op de **zoekpagina** Inhoud. Deze activiteit wordt ook geregistreerd wanneer een gebruiker een export wemelt die is gekoppeld aan een Core eDiscovery-zaak.|
+|(geen)|ViewedSearchPreviewed|Get-ComplianceSearchAction -Preview|Een gebruiker heeft een voorbeeld van de resultaten van een zoekopdracht naar inhoud in het compliancecentrum bekeken. Deze activiteit wordt ook vastgelegd wanneer een gebruiker een voorbeeld bekijkt van de resultaten van een zoekopdracht die is gekoppeld aan een Core eDiscovery-zaak.|
 |||||
   
 ## <a name="advanced-ediscovery-activities"></a>Geavanceerde eDiscovery-activiteiten
@@ -153,7 +153,7 @@ In de volgende tabel worden de Advanced eDiscovery activiteiten beschreven die z
 
 In de volgende tabel vindt u de cmdlet auditlogboekrecords die worden geregistreerd wanneer een beheerder of gebruiker een eDiscovery-gerelateerde activiteit uitvoert met behulp van het compliancecentrum of door de bijbehorende cmdlet uit te voeren in Security & Compliance Center PowerShell. De gedetailleerde informatie in de auditlogboekrecord verschilt voor de cmdletactiviteiten in deze tabel en de eDiscovery-activiteiten die in de vorige sectie worden beschreven.
   
-Zoals eerder vermeld, duurt het tot 24 uur voordat eDiscovery-cmdletactiviteiten worden weergegeven in de zoekresultaten van het auditlogboek.
+Zoals eerder vermeld, kan het tot 24 uur duren voordat eDiscovery-cmdletactiviteiten worden weergegeven in de zoekresultaten van het auditlogboek.
   
 > [!TIP]
 > De cmdlets in de **kolom Bewerking** in de volgende tabel zijn gekoppeld aan het bijbehorende helponderwerp voor cmdlet op TechNet. Ga naar het Help-onderwerp voor cmdlet voor een beschrijving van de beschikbare parameters voor elke cmdlet. De parameter en de parameterwaarde die met een cmdlet zijn gebruikt, worden opgenomen in de controlelogboekinvoer voor elke eDiscovery-cmdletactiviteit die is geregistreerd. 
@@ -185,6 +185,10 @@ Zoals eerder vermeld, duurt het tot 24 uur voordat eDiscovery-cmdletactiviteiten
 |EDiscovery-beheerder gemaakt  <br/> |[Add-eDiscoveryCaseAdmin](/powershell/module/exchange/add-ediscoverycaseadmin) <br/> |Een gebruiker is toegevoegd als eDiscovery-beheerder in uw organisatie.  <br/> |
 |Verwijderde eDiscovery-beheerder  <br/> |[Remove-eDiscoveryCaseAdmin](/powershell/module/exchange/remove-ediscoverycaseadmin) <br/> |Een eDiscovery-beheerder is uit uw organisatie verwijderd.  <br/> |
 |EDiscovery-beheerderslidmaatschap gewijzigd  <br/> |[Update-eDiscoveryCaseAdmin](/powershell/module/exchange/update-ediscoverycaseadmin) <br/> |De lijst met eDiscovery-beheerders in uw organisatie is gewijzigd. Deze activiteit wordt geregistreerd wanneer de lijst met eDiscovery-beheerders wordt vervangen door een groep nieuwe gebruikers. Als één gebruiker wordt toegevoegd of verwijderd, wordt de bewerking **Add-eDiscoveryCaseAdmin** of **Remove-eDiscoveryCaseAdmin** geregistreerd.  <br/> |
+|(geen)|[Get-ComplianceCase](/powershell/module/exchange/get-compliancecase) <br/>|Deze activiteit wordt geregistreerd wanneer een gebruiker een lijst met Core eDiscovery- of Advanced eDiscovery heeft bekeken. Deze activiteit wordt ook vastgelegd wanneer een gebruiker een specifiek geval bekijkt in Core eDiscovery. Wanneer een gebruiker een specifiek geval bekijkt, bevat de auditrecord de identiteit van de zaak die is bekeken. Als de gebruiker alleen een lijst met zaken heeft bekeken, bevat de auditrecord geen case-identiteit.|
+|(geen)|[Get-ComplianceSearch](/powershell/module/exchange/get-compliancesearch)|Deze activiteit wordt geregistreerd wanneer een gebruiker een lijst met inhoudszoekingen of zoekopdrachten heeft bekeken die zijn gekoppeld aan een Hoofd-eDiscovery-zaak. Deze activiteit wordt ook vastgelegd wanneer een gebruiker een specifieke inhoudszoekactie bekijkt of een specifieke zoekopdracht bekijkt die is gekoppeld aan een Hoofd-eDiscovery-zaak. Wanneer een gebruiker een specifieke zoekopdracht bekijkt, bevat de auditrecord de identiteit van de gezochte zoekopdracht. Als de gebruiker alleen een lijst met zoekopdrachten heeft bekeken, bevat de auditrecord geen zoekidentiteit.
+|(geen)|[Get-ComplianceSearchAction](/powershell/module/exchange/get-compliancesearchaction)|Deze activiteit wordt geregistreerd wanneer een gebruiker een lijst met nalevingszoekacties (zoals export, previews of purges) of acties heeft bekeken die zijn gekoppeld aan een Core eDiscovery-zaak. Deze activiteit wordt ook vastgelegd wanneer een gebruiker een specifieke actie voor compliancezoekactie (zoals een export) bekijkt of een specifieke actie bekijkt die is gekoppeld aan een Core eDiscovery-zaak. Wanneer een gebruiker een zoekactie bekijkt, bevat de auditrecord de identiteit van de zoekactie die is bekeken. Als de gebruiker alleen een lijst met acties heeft bekeken, bevat de auditrecord geen actie-identiteit.|
+||||
 
 ## <a name="detailed-properties-for-ediscovery-activities"></a>Gedetailleerde eigenschappen voor eDiscovery-activiteiten
 
@@ -207,7 +211,7 @@ In de volgende tabel worden de eigenschappen  beschreven die zijn opgenomen wann
 |ExtendedProperties  <br/> |Extra eigenschappen van een inhoudszoekactie, een actie voor het zoeken naar inhoud of het vasthouden van inhoud in een eDiscovery-zaak, zoals de object-GUID en de bijbehorende cmdlet- en cmdletparameters die zijn gebruikt toen de activiteit werd uitgevoerd.  <br/> |
 |Id  <br/> |De id van het rapportinvoer. De id identificeert de vermelding van het auditlogboek op unieke manier.  <br/> |
 |Niet-PIIParameters  <br/> |Een lijst met de parameters (zonder waarden) die zijn gebruikt met de cmdlet die is geïdentificeerd in de eigenschap Operation. De parameters die in deze eigenschap worden vermeld, zijn dezelfde als die in de eigenschap Parameters.  <br/> |
-|ObjectId  <br/> |De GUID of de naam van het object (bijvoorbeeld een inhoudszoekfunctie of een eDiscovery-zaak) die is gemaakt, gewijzigd of verwijderd door de activiteit die wordt vermeld in de eigenschap Bewerking. Dit object wordt ook geïdentificeerd in de kolom Item in de zoekresultaten van het auditlogboek.  <br/> |
+|ObjectId  <br/> |De GUID of de naam van het object (bijvoorbeeld een inhoudszoekactie of een core eDiscovery-zaak) die is gemaakt, toegankelijk, gewijzigd of verwijderd door de activiteit die wordt vermeld in de eigenschap Bewerking. Dit object wordt ook geïdentificeerd in de kolom Item in de zoekresultaten van het auditlogboek.  <br/> |
 |ObjectType  <br/> |Het type eDiscovery-object dat de gebruiker heeft gemaakt, verwijderd of gewijzigd; bijvoorbeeld een inhoudszoekactie (voorbeeld, export of purge), een eDiscovery-zaak of een inhoudszoekactie.  <br/> |
 |Bewerking  <br/> |De naam van de bewerking die overeenkomt met de eDiscovery-activiteit die is uitgevoerd.  <br/> |
 |OrganizationId  <br/> |De GUID voor uw Microsoft 365 organisatie.  <br/> |

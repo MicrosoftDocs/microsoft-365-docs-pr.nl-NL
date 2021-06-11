@@ -502,7 +502,7 @@ Hier volgen de stappen voor het maken en configureren van een gegevenspostvak va
     
       - [Een postvak in de wacht houden voor rechtszaken plaatsen](./create-a-litigation-hold.md)
     
-      - [Meer informatie over bewaarbeleid en bewaarlabels](retention.md)
+      - [Meer informatie over bewaarbeleid en retentielabels](retention.md)
     
     - Logboekregistratie voor postvakcontrole inschakelen voor toegang van eigenaar, gedelegeerde en beheerder tot het gegevenspostvak van derden; zie [Postvakcontrole inschakelen.](enable-mailbox-auditing.md) Hiermee kunt u alle activiteiten controleren die worden uitgevoerd door elke gebruiker die toegang heeft tot het gegevenspostvak van derden.
 
@@ -516,7 +516,7 @@ De volgende stap is het configureren van postvakken van gebruikers om gegevens v
     
     - [Een postvak in de wacht houden voor rechtszaken plaatsen](./create-a-litigation-hold.md)
     
-    - [Meer informatie over bewaarbeleid en bewaarlabels](retention.md)
+    - [Meer informatie over bewaarbeleid en retentielabels](retention.md)
     
     Zoals eerder is aangegeven, kunt u, wanneer u postvakken in de wacht houdt, een duur instellen voor de duur van het opslaan van items uit de gegevensbron van derden of u kunt ervoor kiezen items voor onbepaalde tijd vast te houden.
 

@@ -272,7 +272,7 @@ Microsoft Defender Antivirus Service wordt uitgevoerd in systeemcontext met behu
 
 Zie [Jokertekens gebruiken in de](configure-extension-file-exclusions-microsoft-defender-antivirus.md#use-wildcards-in-the-file-name-and-folder-path-or-extension-exclusion-lists) lijst met uitsluitingslijsten voor bestandsnaam en mappen of extensies voor informatie over het gebruik van jokertekens in uitsluitingslijsten.
 
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-articles"></a>Aanverwante artikelen
 
 - [Uitsluitingen configureren en valideren in Microsoft Defender Antivirus scans](configure-exclusions-microsoft-defender-antivirus.md)
 - [Uitsluitingen configureren en valideren op basis van bestandsextensie en maplocatie](configure-extension-file-exclusions-microsoft-defender-antivirus.md)

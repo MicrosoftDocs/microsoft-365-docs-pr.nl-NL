@@ -17,18 +17,18 @@ search.appverid:
 - MET150
 description: Meer informatie over het maken van aangepaste gevoelige informatietypen met op Exacte gegevens overeenkomende classificatie.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ff190fa85e631562a07dcecc1f75713ecacdf07e
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: 6839401bc1dd00acc45992f902a6360eb7f20120
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822115"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878194"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>Aangepaste gevoelige informatietypen maken met een classificatie op basis van Exacte gegevensmatch
 
 
 
-[Aangepaste gevoelige informatietypen worden](sensitive-information-type-learn-about.md) gebruikt om gevoelige items te identificeren, zodat u kunt voorkomen dat ze per ongeluk of ongepast worden gedeeld. U definieert een aangepast type gevoelige informatie op basis van:
+[Aangepaste gevoelige informatietypen worden](sensitive-information-type-learn-about.md) gebruikt om gevoelige items te identificeren, zodat u kunt voorkomen dat ze per ongeluk of ongepast worden gedeeld. U definieert een aangepast type gevoelige informatie (SIT)op basis van:
 
 - patronen
 - trefwoordbewijs, *zoals werknemer,* *badge* of *id*
@@ -93,21 +93,22 @@ EDM-gebaseerde classificatie is inbegrepen in deze abonnementen
 
 Het instellen en configureren van classificatie op basis van EDM houdt in:
 
-1. [Gevoelige gegevens opslaan in .csv indeling](#save-sensitive-data-in-csv-format)
+1. [Gevoelige gegevens opslaan in .csv of .tsv-indeling](#save-sensitive-data-in-csv-or-tsv-format)
 2. [Het databaseschema voor gevoelige informatie definiëren](#define-the-schema-for-your-database-of-sensitive-information)
 3. [Een regelpakket maken](#set-up-a-rule-package)
 
 
-#### <a name="save-sensitive-data-in-csv-format"></a>Gevoelige gegevens opslaan in .csv indeling
+#### <a name="save-sensitive-data-in-csv-or-tsv-format"></a>Gevoelige gegevens opslaan in .csv of .tsv-indeling
 
-1. Identificeer de gevoelige informatie die u wilt gebruiken. Exporteert de gegevens naar een app, zoals Microsoft Excel, en sla het bestand op in .csv indeling. Het gegevensbestand kan een maximum van:
+1. Identificeer de gevoelige informatie die u wilt gebruiken. Exporteert de gegevens naar een app, zoals Microsoft Excel, en sla het bestand op in een tekstbestand. Het bestand kan worden opgeslagen in .csv (door komma's gescheiden waarden), .tsv (door tabbladen gescheiden waarden) of door een |. De TSV-indeling wordt aanbevolen in gevallen waarin uw gegevenswaarden komma's kunnen bevatten, zoals straatadressen.
+Het gegevensbestand kan een maximum van:
       - Maximaal 100 miljoen rijen met gevoelige gegevens
       - Maximaal 32 kolommen (velden) per gegevensbron
       - Maximaal 5 kolommen (velden) gemarkeerd als doorzoekbaar
 
-2. Structureer de gevoelige gegevens in het .csv zodanig dat de eerste rij de namen bevat van de velden die voor de classificatie op basis van EDM worden gebruikt. In uw .csv hebt u mogelijk veldnamen, zoals 'ssn', 'geboortedatum', 'voornaam', 'achternaam'. De namen van de kolomkoppen kunnen geen spaties of onderstrepingstekens bevatten. Het voorbeeldbestand .csv dat we in dit artikel gebruiken, heeft bijvoorbeeld de naam *PatientRecords.csv* en de kolommen zijn *PatientID,* *MRN,* *LastName,* *FirstName,* *SSN* en meer.
+2. Structureer de gevoelige gegevens in het .csv of .tsv-bestand zodanig dat de eerste rij de namen bevat van de velden die worden gebruikt voor op EDM gebaseerde classificatie. In uw bestand hebt u mogelijk veldnamen zoals 'ssn', 'geboortedatum', 'voornaam', 'achternaam'. De namen van de kolomkoppen kunnen geen spaties of onderstrepingstekens bevatten. Het voorbeeldbestand .csv dat we in dit artikel gebruiken, heeft bijvoorbeeld de naam *PatientRecords.csv* en de kolommen zijn *PatientID,* *MRN,* *LastName,* *FirstName,* *SSN* en meer.
 
-3. Let op de opmaak van de gevoelige gegevensvelden. Met name velden die komma's in hun inhoud kunnen bevatten (bijvoorbeeld een adres met de waarde 'Seattle,WA') worden geparseerd als twee afzonderlijke velden wanneer ze worden geparseerd door het hulpmiddel EDM. Om dit te voorkomen, moet u ervoor zorgen dat dergelijke velden worden omgeven door enkele of dubbele aanhalingstekens in de gevoelige gegevenstabel. Als velden met komma's daarin ook spaties kunnen bevatten, moet u een aangepast type gevoelige informatie maken dat overeenkomt met de bijbehorende opmaak (bijvoorbeeld een tekenreeks met meerdere woorden met komma's en spaties daarin) om ervoor te zorgen dat de tekenreeks correct wordt aangepast wanneer het document wordt gescand.
+3. Let op de opmaak van de gevoelige gegevensvelden. Met name velden die komma's in hun inhoud kunnen bevatten, bijvoorbeeld een straatadres met de waarde 'Seattle,WA', worden geparseerd als twee afzonderlijke velden wanneer ze worden geparseerd als de .csv-indeling is geselecteerd. U kunt dit voorkomen door de TSV-indeling te gebruiken of de komma met waarden te omgeven door dubbele aanhalingstekens in de gevoelige gegevenstabel. Als komma's ook spaties bevatten, moet u een aangepaste SIT maken die overeenkomt met de bijbehorende indeling. Een SIT bijvoorbeeld die tekenreeks met meerdere woorden detecteert met komma's en spaties.
 
 #### <a name="define-the-schema-for-your-database-of-sensitive-information"></a>Het schema voor uw database met gevoelige informatie definiëren
 
@@ -205,7 +206,7 @@ In dit voorbeeld, waarin beide en worden gebruikt, worden `caseInsensitive` `ign
 
 1. Maak een regelpakket in XML-indeling (met Unicode-codering), vergelijkbaar met het volgende voorbeeld. (U kunt ons voorbeeld kopiëren, wijzigen en gebruiken.)
 
-      Wanneer u uw regelpakket in stelt, moet u de juiste verwijzing naar het .csv en het **edm.xml** maken. U kunt ons voorbeeld kopiëren, wijzigen en gebruiken. In deze voorbeeld-xml moeten de volgende velden worden aangepast om het gevoelige type EDM te maken:
+      Wanneer u het regelpakket in stelt, moet u uw .csv of .tsv-bestand en hetedm.xml **verwijzen.** U kunt ons voorbeeld kopiëren, wijzigen en gebruiken. In deze voorbeeld-xml moeten de volgende velden worden aangepast om het gevoelige type EDM te maken:
 
       - **RulePack-id & ExactMatch-id:** Gebruik [Nieuwe GUID](/powershell/module/microsoft.powershell.utility/new-guid?view=powershell-6) om een GUID te genereren.
 
@@ -385,7 +386,7 @@ Als u het gevoelige gegevensbestand met duidelijke tekst niet wilt onthullen, ku
 - een Windows 10 of Windows Server 2016 met .NET versie 4.6.2 voor het uitvoeren van de EDMUploadAgent
 - een adreslijst op uw uploadmachine voor het volgende:
     -  EDMUploadAgent
-    - uw gevoelige itembestand in csv-indeling **PatientRecords.csv** in onze voorbeelden
+    - uw gevoelige itembestand in .csv of .tsv-indeling, **PatientRecords.csv** in onze voorbeelden
     -  en de uitvoerhash- en zoutbestanden
     - de gegevensstorenaam uit **hetedm.xml** bestand, voor dit voorbeeld de naam `PatientRecords`
 - Als u de wizard Exacte gegevensmatch en de wizard [Gevoelige gegevenstype hebt gebruikt,](sit-edm-wizard.md) ***moet u het*** downloaden
@@ -404,7 +405,7 @@ Deze computer moet directe toegang hebben tot uw Microsoft 365 tenant.
 > Voordat u deze procedure start, moet u ervoor zorgen dat u lid bent van de **beveiligingsgroep EDM \_ DataUploaders.**
 
 > [!TIP]
-> U kunt eventueel een validatie uitvoeren voor het CSV-bestand voordat u het uploadt. Voer het volgende uit:
+> Desgewenst kunt u een validatie uitvoeren op uw .csv of .tsv-bestand voordat u het uploadt door het volgende uit te voeren:
 >
 >`EdmUploadAgent.exe /ValidateData /DataFile [data file] /Schema [schema file]`
 >
@@ -443,11 +444,12 @@ Deze computer moet directe toegang hebben tot uw Microsoft 365 tenant.
 
 4. Als u de gevoelige gegevens wilt hashen en uploaden, voer u de volgende opdracht uit in het venster Opdrachtprompt:
 
-   `EdmUploadAgent.exe /UploadData /DataStoreName [DS Name] /DataFile [data file] /HashLocation [hash file location] /Schema [Schema file]`
+   `EdmUploadAgent.exe /UploadData /DataStoreName [DS Name] /DataFile [data file] /HashLocation [hash file location] /Schema [Schema file] /ColumnSeparator ["{Tab}"|"|"]`
 
    Voorbeeld: **EdmUploadAgent.exe /UploadData /DataStoreName PatientRecords /DataFile C:\Edm\Hash\PatientRecords.csv /HashLocation C:\Edm\Hash /Schema edm.xml**
 
-   Hierdoor wordt automatisch een willekeurig gegenereerde zoutwaarde aan de hash opgewaardeerd voor meer beveiliging. Als u desgewenst uw eigen zoutwaarde wilt gebruiken, voegt u de **/Salt <saltvalue>** toe aan de opdracht. Deze waarde moet 64 tekens lang zijn en mag alleen de a-z-tekens en 0-9 tekens bevatten.
+   De standaardindeling voor het gevoelige gegevensbestand is door komma's gescheiden waarden. U kunt een bestand met tabs opgeven door de optie {Tab}" aan te geven met de parameter /ColumnSeparator, of u kunt een door een pijp gescheiden bestand opgeven door de optie '|' aan te geven.  
+   Deze opdracht voegt automatisch een willekeurig gegenereerde zoutwaarde toe aan de hash voor meer beveiliging. Als u desgewenst uw eigen zoutwaarde wilt gebruiken, voegt u de **/Salt <saltvalue>** toe aan de opdracht. Deze waarde moet 64 tekens lang zijn en mag alleen de a-z-tekens en 0-9 tekens bevatten.
 
 5. Controleer de uploadstatus door deze opdracht uit te voeren:
 
@@ -477,7 +479,7 @@ OPTIONEEL: Als u de wizard Exacte gegevensmatch en de wizard Gevoelige gegevenst
    - . EdmHash
    - . EdmSalt
 
-2. Kopieer deze bestanden op een veilige manier naar de computer die u gebruikt om uw csv-bestand met gevoelige items (PatientRecords) te uploaden naar uw tenant.
+2. Kopieer deze bestanden op een veilige manier naar de computer die u gebruikt om uw gevoelige items .csv of .tsv-bestand (PatientRecords) naar uw tenant te uploaden.
 
    Als u de gehashte gegevens wilt uploaden, moet u de volgende opdracht uitvoeren in Windows opdrachtprompt:
 
@@ -508,10 +510,10 @@ U kunt de database met gevoelige gegevens dagelijks vernieuwen en met het EDM-Up
 
 1. Bepaal uw proces en frequentie (dagelijks of wekelijks) voor het vernieuwen van de database met gevoelige informatie.
 
-2. Export de gevoelige gegevens opnieuw naar een app, zoals Microsoft Excel, en sla het bestand op in .csv indeling. Bewaar dezelfde bestandsnaam en locatie die u hebt gebruikt toen u de stappen in Hash hebt gevolgd [en de gevoelige gegevens uploadt.](#part-2-hash-and-upload-the-sensitive-data)
+2. Export de gevoelige gegevens opnieuw naar een app, zoals Microsoft Excel, en sla het bestand op in een .csv of .tsv-indeling. Bewaar dezelfde bestandsnaam en locatie die u hebt gebruikt toen u de stappen in Hash hebt gevolgd [en de gevoelige gegevens uploadt.](#part-2-hash-and-upload-the-sensitive-data)
 
       > [!NOTE]
-      > Als er geen wijzigingen zijn aangebracht in de structuur (veldnamen) van het .csv-bestand, hoeft u geen wijzigingen aan te brengen in het databaseschemabestand wanneer u de gegevens vernieuwt. Maar als u wijzigingen moet aanbrengen, moet u het databaseschema en het regelpakket dienovereenkomstig bewerken.
+      > Als er geen wijzigingen zijn aangebracht in de structuur (veldnamen) van het .csv- of TSV-bestand, hoeft u geen wijzigingen aan te brengen in het databaseschemabestand wanneer u de gegevens vernieuwt. Maar als u wijzigingen moet aanbrengen, moet u het databaseschema en het regelpakket dienovereenkomstig bewerken.
 
 3. Gebruik [Taakplanning om stap](/windows/desktop/TaskSchd/task-scheduler-start-page) 2 en 3 in de hash te automatiseren en de gevoelige [gegevensprocedure te](#part-2-hash-and-upload-the-sensitive-data) uploaden. U kunt taken op verschillende manieren plannen:
 
@@ -535,7 +537,7 @@ $edminstallpath = 'C:\\Program Files\\Microsoft\\EdmUploadAgent\\'
 $edmuploader = $edminstallpath + 'EdmUploadAgent.exe'
 $csvext = '.csv'
 $schemaext = '.xml'
-\# Assuming CSV file name is same as data store name
+\# Assuming file name is same as data store name and file is in .csv format
 $dataFile = "$fileLocation\\$dataStoreName$csvext"
 \# Assuming location to store hash file is same as the location of csv file
 $hashLocation = $fileLocation
@@ -571,7 +573,7 @@ $edmuploader = $edminstallpath + 'EdmUploadAgent.exe'
 $csvext = '.csv'
 $edmext = '.EdmHash'
 $schemaext = '.xml'
-\# Assuming CSV file name is same as data store name
+\# Assuming file name is same as data store name and file is in .csv format
 $dataFile = "$fileLocation\\$dataStoreName$csvext"
 $hashFile = "$fileLocation\\$dataStoreName$edmext"
 \# Assuming Schema file name is same as data store name

@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 description: Lees hoe u kunt beheren wie e-mailberichten voor factureringsmelding en factuurbijlagen ontvangt.
 ms.date: 03/17/2021
-ms.openlocfilehash: d4083dc5a9d70eb8c20b4107389ec5fec65749ad
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 75c75175930434619a01886b1096757bf04111c5
+ms.sourcegitcommit: 03aa8ed22d9ef685a851e28c7d0cfb725732fe4b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332136"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52888359"
 ---
 # <a name="manage-billing-notifications-and-invoice-attachments"></a>Factureringsmeldingen en bijlagen voor facturen beheren
 
@@ -127,8 +127,9 @@ Als u uw facturen wilt ontvangen als bijlagen bij uw factuurmeldingen, gebruikt 
 2. Selecteer het **tabblad Factureringsprofielen** en selecteer vervolgens een factureringsprofiel in de lijst.
 3. Schakel op de pagina met **factureringsprofielgegevens** onder Facturen in e-mailbijlagen downloaden de wisselknop over op **Aan.**
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Uw rekening of factuur bekijken](view-your-bill-or-invoice.md) (artikel)\
+[Factureringsgegevens voor Microsoft 365 voor bedrijven in Mexico](/microsoft-365/commerce/billing-and-payments/mexico-billing-info) (artikel) \
 [Uw factuur of factuur voor Microsoft 365 voor bedrijven](understand-your-invoice2.md) (artikel)\
 [Gebruikers toevoegen en tegelijkertijd licenties](../../admin/add-users/add-users.md) toewijzen (artikel)

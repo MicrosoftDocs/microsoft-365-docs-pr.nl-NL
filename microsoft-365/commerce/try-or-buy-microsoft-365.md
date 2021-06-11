@@ -141,7 +141,7 @@ Als u een nieuw account hebt en uw eerste abonnement instelt, kunt u de artikele
 
 Als u al een abonnement hebt en een nieuw abonnement toevoegt, kunt u gebruikers naar het abonnement verplaatsen. Zie Gebruikers verplaatsen [naar een ander abonnement voor meer informatie.](subscriptions/move-users-different-subscription.md)
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Microsoft 365 voor zakelijke trainingsvideo's](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816) (video)\
 [Gebruikers toevoegen en tegelijkertijd licenties](../admin/add-users/add-users.md) toewijzen (artikel)\

@@ -29,7 +29,7 @@ Microsoft 365 biedt een aantal besturingselementen om de communicatie in uw orga
 
 De volgende tabel bevat een beknopt overzicht van de communicatiebesturingselementen die beschikbaar zijn in Microsoft 365. Meer informatie vindt u in de volgende secties.
 
-|Categorie|Omschrijving|Verwijzing|
+|Categorie|Beschrijving|Verwijzing|
 |:-------|:----------|:--------|
 |Berichten|||
 ||Beheren wat gebruikers kunnen doen tijdens het chatten in Teams.|[Berichtenbeleid beheren in Teams](/microsoftteams/messaging-policies-in-teams)|

@@ -1,7 +1,7 @@
 ---
 title: Aan de slag met intern risicobeheer
 description: Configureer insider risk management in uw organisatie.
-keywords: Microsoft 365, insider risk management, risk management, compliance
+keywords: Microsoft 365, intern risicobeheer, risicobeheer, naleving
 localization_priority: Normal
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -96,7 +96,7 @@ Zie Zoeken in auditlogboek in- of uitschakelen voor stapsgewijs instructies voor
 
 ## <a name="step-3-enable-and-view-insider-risk-analytics-insights-optional"></a>Stap 3: Inzichten in insider risk analytics in- en weergeven (optioneel)
 
-Met insider risk management analytics kunt u een evaluatie uitvoeren van potentiële insiderrisico's in uw organisatie zonder dat u beleidsregels voor insiderrisico's configureert. Deze evaluatie kan uw organisatie helpen bij het identificeren van mogelijke gebieden met een hoger gebruikersrisico en het bepalen van het type en het bereik van beleidsregels voor insiderrisicobeheer dat u mogelijk wilt configureren. Deze evaluatie kan u ook helpen bij het bepalen van de behoeften voor aanvullende licenties of toekomstige optimalisatie van bestaande beleidsregels. Het kan tot 48 uur duren voordat inzichten beschikbaar zijn als rapporten om te worden beoordeeld. Zie Insider-instellingen voor risicobeheer voor meer informatie over analyseinzichten: Analytics [(preview)](insider-risk-management-settings.md#analytics-preview) en bekijk de [video Insider Risk Management Analytics](https://www.youtube.com/watch?v=5c0P5MCXNXk) om te begrijpen hoe analyses de identificatie van potentiële insiderrisico's kunnen versnellen en u kunnen helpen om snel actie te ondernemen.
+Met insider risk management analytics kunt u een evaluatie uitvoeren van potentiële insiderrisico's in uw organisatie zonder dat u beleidsregels voor insiderrisico's configureert. Aan de hand van deze evaluatie kan uw organisatie potentiële gebieden met een hoger gebruikersrisico identificeren en bepalen welk type en bereik van het beleid voor intern risicobeheer u wilt configureren. Deze evaluatie kan u ook helpen bij het bepalen van de behoeften voor aanvullende licenties of toekomstige optimalisatie van bestaande beleidsregels. Het kan tot 48 uur duren voordat inzichten beschikbaar zijn als rapporten om te worden beoordeeld. Zie Insider-instellingen voor risicobeheer voor meer informatie over analyseinzichten: Analytics [(preview)](insider-risk-management-settings.md#analytics-preview) en bekijk de [video Insider Risk Management Analytics](https://www.youtube.com/watch?v=5c0P5MCXNXk) om te begrijpen hoe analyses de identificatie van potentiële insiderrisico's kunnen versnellen en u kunnen helpen om snel actie te ondernemen.
 
 Als u insider risk Analytics wilt inschakelen, moet u lid zijn van de rollengroep *Insider Risk Management,* *Insider Risk Management* of Microsoft 365 Global *Admin.*
 
@@ -119,8 +119,8 @@ Insider-risicobeheer ondersteunt het importeren van gebruikers- en logboekgegeve
 De Microsoft 365 HR-connector is vereist wanneer u de volgende beleidssjablonen gebruikt:
 
 - Gegevensdiefstal van vertrekkende gebruikers
-- Schendingen van het beveiligingsbeleid door vertrekkende gebruikers
-- Schendingen van beveiligingsbeleid door ontevreden gebruikers
+- Schendingen van beveiligingsbeleid door vertrekkende gebruikers
+- Schendingen van het beveiligingsbeleid door een ontevreden gebruiker
 - Gegevenslekken door ontevreden gebruikers
 
 Zie het artikel Een [verbindingslijn instellen](import-hr-data.md) voor het importeren van HR-gegevens voor stapsgewijs richtlijnen voor het configureren van de Microsoft 365 HR-connector voor uw organisatie. Nadat u de HR-connector hebt geconfigureerd, gaat u terug naar deze configuratiestappen.
@@ -140,7 +140,7 @@ DLP-beleid helpt gebruikers bij het activeren van risicoscores in insider risk m
 Een DLP-beleid is vereist bij het gebruik van de volgende beleidssjablonen:
 
 - Algemene gegevenslekken
-- Gegevenslekken door prioriteitsgebruikers
+- Gegevenslekken per gebruiker met prioriteit
 
 Zie het [artikel DLP-beleid maken,](create-test-tune-dlp-policy.md) testen en afstemmen voor stapsgewijs richtlijnen voor het configureren van DLP-beleid voor uw organisatie. Nadat u een DLP-beleid hebt geconfigureerd, gaat u terug naar deze configuratiestappen.
 
@@ -150,8 +150,8 @@ Insider-risicobeheer omvat ondersteuning voor het toewijzen van prioriteitsgebru
 
 Een gebruikersgroep met prioriteit is vereist wanneer u de volgende beleidssjablonen gebruikt:
 
-- Schendingen van beveiligingsbeleid door gebruikers met prioriteit
-- Gegevenslekken door prioriteitsgebruikers
+- Schendingen van beveiligingsbeleid door gebruikers met een prioriteit
+- Gegevenslekken per gebruiker met prioriteit
 
 Zie het [artikel Aan de slag met insider-instellingen](insider-risk-management-settings.md#priority-user-groups-preview) voor risicobeheer voor stapsgewijs richtlijnen om een gebruikersgroep met prioriteit te maken. Nadat u een gebruikersgroep met prioriteit hebt geconfigureerd, gaat u terug naar deze configuratiestappen.
 
@@ -203,49 +203,49 @@ Voordat u een beleid configureert, definieert u de volgende instellingen voor in
 
 Insider-beleid voor risicobeheer omvat toegewezen gebruikers en definieer welke typen risico-indicatoren zijn geconfigureerd voor waarschuwingen. Voordat activiteiten waarschuwingen kunnen activeren, moet een beleid zijn geconfigureerd. Gebruik de beleidswizard om nieuw beleid voor insiderrisicobeheer te maken.
 
-1. Ga in [Microsoft 365 compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer het **tabblad** Beleid.
-2. Selecteer **Beleid maken om** de beleidswizard te openen.
-3. Kies op **de pagina** Beleidssjabloon een beleidscategorie en selecteer vervolgens de sjabloon voor het nieuwe beleid. Deze sjablonen zijn gemaakt van voorwaarden en indicatoren die de risicoactiviteiten definiëren die u wilt detecteren en onderzoeken. Controleer de vereisten voor de sjabloon, triggeringsgebeurtenissen en gedetecteerde activiteiten om te bevestigen dat deze beleidssjabloon aan uw behoeften voldoet.
+1. Ga in het [Compliancecentrum van Microsoft 365](https://compliance.microsoft.com)naar **Intern risicobeheer** en selecteer het tabblad **Beleid**.
+2. Selecteer **Beleid maken** om de wizard Beleid te openen.
+3. Kies op de pagina **Beleidssjabloon** een beleidscategorie en selecteer vervolgens de sjabloon voor het nieuwe beleid. Deze sjablonen bestaan uit voorwaarden en indicatoren waarmee de risicoactiviteiten worden gedefinieerd die u wilt detecteren en onderzoeken. Bekijk de vereisten voor de sjabloon, triggering van gebeurtenissen en gedetecteerde activiteiten om te controleren of deze beleidssjabloon aan uw wensen voldoet.
 
     >[!IMPORTANT]
-    >Sommige beleidssjablonen hebben vereisten die moeten worden geconfigureerd voor het beleid om relevante waarschuwingen te genereren. Zie Stap **4 hierboven** als u de toepasselijke beleidsvoorwaarde niet hebt geconfigureerd.
+    >Sommige beleidssjablonen hebben vereisten die moeten worden geconfigureerd voor het genereren van relevante waarschuwingen voor het beleid. Zie **stap 4** hierboven als u de toepasselijke beleidsvereisten niet hebt geconfigureerd.
 
-4. Selecteer **Volgende om** door te gaan.
-5. Vul op **de pagina Naam** en beschrijving de volgende velden in:
-    - **Naam (vereist)**: Voer een vriendelijke naam in voor het beleid. Deze naam kan niet worden gewijzigd nadat het beleid is gemaakt.
-    - **Beschrijving (optioneel)**: Voer een beschrijving in voor het beleid.
+4. Selecteer **Volgende** om door te gaan.
+5. Vul op de pagina **Naam en beschrijving** de volgende velden in:
+    - **Naam (vereist)**: geef een gebruiksvriendelijke naam voor het beleid op. Deze naam kan niet worden gewijzigd nadat het beleid is gemaakt.
+    - **Beschrijving (optioneel)**: voer een optionele beschrijving in voor het beleid.
 
-6. Selecteer **Volgende om** door te gaan.
-7. Selecteer op de pagina  Gebruikers en groepen  de optie Alle gebruikers en groepen opnemen of Specifieke gebruikers en groepen opnemen om te definiëren welke gebruikers of groepen zijn opgenomen in het beleid of als u een sjabloon met prioriteitsgebruikers hebt gekozen.  selecteer **Gebruikersgroepen met prioriteit toevoegen of bewerken.** Als **u Alle gebruikers en groepen opnemen** selecteert, wordt er naar triggeringgebeurtenissen voor alle gebruikers en groepen in uw organisatie op zoek om risicoscores voor het beleid toe te wijzen. Als **u Specifieke gebruikers en groepen opnemen selecteert,** kunt u definiëren welke gebruikers en groepen u wilt toewijzen aan het beleid.
-8. Selecteer **Volgende om** door te gaan.
-9. Op de **pagina** Inhoud om prioriteit te geven, kunt u (indien nodig) de bronnen toewijzen aan prioriteit, waardoor de kans op het genereren van een waarschuwing met hoge ernst voor deze bronnen groter wordt. Selecteer een van de volgende opties:
+6. Selecteer **Volgende** om door te gaan.
+7. Selecteer op de pagina **Gebruikers en groepen** de optie **Alle gebruikers en groepen opnemen** of **Neem specifieke gebruikers en groepen op** om te bepalen welke gebruikers of groepen in het beleid zijn opgenomen, of als u een sjabloon op basis van prioriteit voor gebruikers hebt gekozen; selecteer **Gebruikersgroepen met prioriteit toevoegen of bewerken**. Als u **Alle gebruikers en groepen opnemen** selecteert, wordt gezocht naar activeringsgebeurtenissen voor alle gebruikers en groepen in uw organisatie om te beginnen met het toewijzen van risicoscores voor het beleid. Als u **Specifieke gebruikers en groepen opnemen** selecteert, kunt u definiëren welke gebruikers en groepen moeten worden toegewezen aan het beleid.
+8. Selecteer **Volgende** om door te gaan.
+9. Op de pagina **Te prioriteren inhoud** kunt u (indien nodig) de bronnen toewijzen die prioriteit moeten krijgen, waardoor de kans op het genereren van een waarschuwing met een hoge ernst voor deze bronnen toeneemt. Selecteer een van de volgende opties:
 
-    - **Ik wil de SharePoint, gevoeligheidslabels en/of gevoelige informatietypen opgeven als prioriteitsinhoud.** Als u deze optie selecteert, kunnen detailpagina's in de wizard deze kanalen configureren.
-    - **Ik wil nu geen prioriteitsinhoud** opgeven (u kunt dit doen nadat het beleid is gemaakt) . Als u deze optie selecteert, worden de pagina's met kanaaldetails in de wizard overgeslagen.
+    - **Ja, ik wil SharePoint-sites, gevoeligheidslabels en/of gevoelige gegevenstypen als prioriteitsinhoud aanwijzen**. Als u deze optie selecteert, kunnen deze kanalen worden geconfigureerd op detailpagina's in de wizard.
+    - **Ik wil nu geen prioriteitsinhoud opgeven (u kunt dit doen nadat het beleid is gemaakt)**. Als u deze optie selecteert, worden de pagina's met kanaaldetails in de wizard overgeslagen.
 
-10. Selecteer **Volgende om** door te gaan.
+10. Selecteer **Volgende** om door te gaan.
 
-11. Als u in de vorige stap ik SharePoint sites, gevoeligheidslabels **en/of** gevoelige informatietypen als prioriteitsinhoud hebt geselecteerd, ziet u de detailpagina's voor *SharePoint-sites,* gevoelige *infotypen* en gevoeligheidslabels.  Gebruik deze detailpagina's om de SharePoint, gevoelige infotypen en gevoeligheidslabels te definiëren om prioriteit te geven aan het beleid.
+11. Als u in de vorige stap **Ik wil SharePoint-sites, gevoeligheidslabels en/of gevoelige informatietypen als prioriteitsinhoud** hebt geselecteerd, ziet u de detailpagina's voor *SharePoint-sites*, *Gevoelige informatietypen* en *Gevoeligheidslabels*. Gebruik deze detailpagina's om de SharePoint, typen gevoelige informatie en gevoeligheidslabels te definiëren die in het beleid prioriteit moeten krijgen.
 
-    - **SharePoint sites:** Selecteer **Toevoegen SharePoint site** en selecteer de SharePoint sites die u hebt en die u prioriteit wilt geven. Bijvoorbeeld *'group1@contoso.sharepoint.com/sites/group1'*.
-    - **Type gevoelige informatie:** Selecteer **Gevoelige informatietype toevoegen** en selecteer de gevoeligheidstypen die u wilt prioriteren. Bijvoorbeeld *'Amerikaans bankrekeningnummer'* en *'Creditcardnummer'.*
-    - **Gevoeligheidslabels:** Selecteer **Gevoeligheidslabel toevoegen** en selecteer de etiketten die u wilt prioriteren. Bijvoorbeeld *'Vertrouwelijk'* en *'Geheim'.*
+    - **SharePoint-sites**: selecteer **SharePoint-site toevoegen** en selecteer de SharePoint-sites waartoe u toegang hebt en die u prioriteit wilt geven. Bijvoorbeeld *'group1@contoso.sharepoint.com/sites/group1'*.
+    - **Type gevoelige informatie**: selecteer **Type gevoelige informatie toevoegen** en selecteer de gevoeligheidstypen die u prioriteit wilt geven. Bijvoorbeeld *'Amerikaans bankrekeningnummer'* *'Creditcardnummer'*.
+    - **Gevoeligheidslabels**: selecteer **Een gevoeligheidslabel toevoegen** en selecteer de labels aan wie u een prioriteit wilt toevoegen. Bijvoorbeeld *'Vertrouwelijk'* en *'Geheim'*.
 
-12. Selecteer **Volgende om** door te gaan.
-13. Op de **pagina Indicatoren en triggeringgebeurtenissen** ziet u de indicatoren die u hebt gedefinieerd als beschikbaar op de pagina Indicatoren voor [](insider-risk-management-settings.md#indicators)   >   insiderrisico-instellingen. Als u aan het begin van de wizard een sjabloon Gegevenslekken hebt geselecteerd, moet u een DLP-beleid selecteren in de vervolgkeuzelijst **DLP-beleid** om *triggeringindicatoren* voor het beleid in te stellen of de ingebouwde triggeringgebeurtenis te selecteren.
+12. Selecteer **Volgende** om door te gaan.
+13. Op de pagina **Indicatoren en activeringsgebeurtenissen** ziet u de [indicatoren](insider-risk-management-settings.md#indicators) die u hebt gedefinieerd als beschikbaar op de pagina **Indicatoren** voor **Insider-risico-instellingen** > . Als u aan het begin van de wizard een sjabloon voor *gegevenslekken* hebt geselecteerd, moet u een **DLP-beleid** selecteren in de vervolgkeuzelijst DLP-beleid om triggeringindicatoren voor het beleid in te schakelen of de ingebouwde activeringsgebeurtenis selecteren.
 
     >[!IMPORTANT]
-    >Als indicatoren op deze pagina niet kunnen worden geselecteerd, moet u de indicatoren selecteren die u wilt inschakelen voor alle beleidsregels. U kunt de knop **Indicatoren in de** wizard in-/uit- of indicatoren selecteren op de pagina **Insider-risicobeheer**  >  **Instellingen**  >  **beleidsindicatoren.**
+    >Als indicatoren op deze pagina niet kunnen worden geselecteerd, selecteert u de indicatoren die u voor alle beleidsregels wilt inschakelen. U kunt de knop **Indicatoren inschakelen** in de wizard gebruiken of indicatoren selecteren op de pagina **Intern risicobeheer** > **Instellingen** > **Beleidsindicatoren**.
 
-    Selecteer de indicatoren die u wilt toepassen op het beleid. Als u liever geen gebruik wilt maken van de standaardinstellingen voor drempelwaarden voor deze indicatoren, schakelt u de door Microsoft aanbevolen **standaarddrempels** gebruiken uit en voert u de drempelwaarden voor elke geselecteerde indicator in.
+    Selecteer de indicatoren die u wilt toepassen op het beleid. Als u liever geen gebruik wilt maken van de standaardinstellingen voor drempelwaarden voor deze indicatoren, schakelt u de optie **Standaard drempelwaarden gebruiken die door Microsoft worden aanbevolen** uit en voert u de drempelwaarden in voor elke geselecteerde indicator.
 
-    - Als u ten minste  één Office of *apparaatindicator* hebt geselecteerd, selecteert u de **risicoscore-verhogingen.** Risicoscore-verhogingen zijn alleen van toepassing op geselecteerde indicatoren.
-    - Als u een beleidssjabloon *Gegevensdiefstal* of Gegevenslekken hebt geselecteerd, selecteert u een of meer detectiemethoden voor reeksen en een methode voor cumulatieve **exfiltratie** die u wilt toepassen op het beleid.  
+    - Als u ten minste één *Office*- of *apparaat*-indicator hebt geselecteerd, selecteert u de **risicoscore-boosters** die van toepassing zijn. Risicoscore-boosters zijn alleen van toepassing op geselecteerde indicatoren.
+    - Als u een beleidssjabloon voor *gegevensdiefstal* of *gegevenslekken* hebt geselecteerd, selecteert u een of meer **sequentiedetectie**-methoden en een **cumulatieve exfiltratiedetectie**-methode om op het beleid toe te passen.
 
-14. Selecteer **Volgende om** door te gaan.
-15. Selecteer op **de pagina Indicatordrempels** de optie voor het gebruik van standaardindicatordrempels of om aangepaste drempelwaarden voor afzonderlijke indicatoren op te geven. Kies voor elke indicator het juiste niveau om het gewenste niveau van activiteitswaarschuwingen te genereren.
-16. Selecteer **Volgende om** door te gaan.
-17. Bekijk op **de** pagina Controleren de instellingen die u hebt gekozen voor het beleid en eventuele suggesties of waarschuwingen voor uw selecties. Selecteer **Bewerken om** een van de beleidswaarden te wijzigen of selecteer **Verzenden** om het beleid te maken en te activeren.
+14. Selecteer **Volgende** om door te gaan.
+15. Selecteer op de pagina **Indicatordrempels** de optie om standaardindicatordrempels te gebruiken of om aangepaste drempels voor individuele indicatoren op te geven. Kies voor elke indicator het juiste niveau om het gewenste niveau van activiteitswaarschuwingen te genereren.
+16. Selecteer **Volgende** om door te gaan.
+17. Bekijk op de pagina **Controleren** de instellingen die u voor het beleid heeft gekozen en eventuele suggesties of waarschuwingen voor uw selecties. Selecteer **Bewerken** om een van de beleidswaarden te wijzigen of selecteer **Verzenden** om het beleid te maken en te activeren.
 
 ## <a name="next-steps"></a>Volgende stappen
 

@@ -41,7 +41,7 @@ Bekijk de volgende scenario's voor best practices bij het migreren van de klassi
 
 Tabel 1. Gedrag van compatibele en niet-compatibele werkbelastingen: groepen maken, bewerken of verwijderen
 
-|Werkbelasting|Welke labellijst ziet de gebruiker in het groepsvenster?|Nieuwe groep maken |Groep bewerken |Groep verwijderen |
+|Workload|Welke labellijst ziet de gebruiker in het groepsvenster?|Nieuwe groep maken |Groep bewerken |Groep verwijderen |
 |:-------|:-------|:--------|:--------|:--------|   
 |Compatibel   |gevoeligheidslabels. |Geen wijziging in gedrag. |Geen wijziging in gedrag. |Geen wijziging in gedrag. |
 |Niet-compatibel |Er zijn geen gevoeligheidslabels zichtbaar. |Gebruiker kan een groep maken zonder gevoeligheidslabel te selecteren. <br><br> De beheerder kan cmdlets uitvoeren om gevoeligheidslabels op de achtergrond toe te passen. |**Case 1:** Geen gevoeligheidslabel dat eerder is geselecteerd. Gebruiker kan een groep bewerken.<br><br> **Case 2:** gevoeligheidslabel dat eerder op de achtergrond is toegepast met cmdlet. Gebruiker kan een groep bewerken, met uitzondering van het geval waarin de gebruiker een ongeldige combinatie van privacyinstelling selecteert met betrekking tot het label. |Geen wijziging in gedrag.|
@@ -71,7 +71,7 @@ Tabel 1. Gedrag van compatibele en niet-compatibele werkbelastingen: groepen mak
 
 Tabel 2. Gedrag van compatibele en niet-compatibele werkbelastingen: groepen maken, bewerken of verwijderen
 
-|Werkbelasting|Welke labellijst ziet de gebruiker in het groepsvenster?|Nieuwe groep maken |Groep bewerken |Groep verwijderen |
+|Workload|Welke labellijst ziet de gebruiker in het groepsvenster?|Nieuwe groep maken |Groep bewerken |Groep verwijderen |
 |:-------|:-------|:--------|:--------|:--------|   
 |Compatibel   |gevoeligheidslabels. |Geen wijziging in gedrag. |Geen wijziging in gedrag. |Geen wijziging in gedrag. |
 |Niet-compatibel |Oude klassieke AAD-labels. |Gebruiker kan een groep maken met het klassieke Azure AD-label geselecteerd. <br><br>De beheerder kan cmdlets uitvoeren om gevoeligheidslabels op de achtergrond toe te passen. |**Case 1:** Geen gevoeligheidslabel dat eerder is geselecteerd. Gebruiker kan een groep bewerken.<br><br> **Case 2:** Klassieke AAD-labels die eerder zijn geselecteerd. Gebruiker kan een groep bewerken.<br><br> **Case 3:** gevoeligheidslabel dat eerder op de achtergrond is toegepast met cmdlet. De gebruiker moet een groep kunnen bewerken, met uitzondering van één geval waarin de gebruiker een ongeldige combinatie van privacyinstelling selecteert met betrekking tot het label. |Gebruiker kan een groep verwijderen. |

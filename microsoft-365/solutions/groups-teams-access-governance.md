@@ -29,7 +29,7 @@ Er zijn veel besturingselementen waarmee u kunt bepalen hoe personen toegang kri
 
 De volgende tabel bevat een beknopt overzicht van de toegangsbesturingselementen die beschikbaar zijn in Microsoft 365. Meer informatie vindt u in de volgende secties.
 
-|Categorie|Omschrijving|Verwijzing|
+|Categorie|Beschrijving|Verwijzing|
 |:-------|:----------|:--------|
 |Lidmaatschap|||
 ||Ontdekking van privéteams|[Het ontdekken van privéteams in Microsoft Teams](/microsoftteams/manage-discovery-of-private-teams)|

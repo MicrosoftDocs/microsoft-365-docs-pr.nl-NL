@@ -29,7 +29,7 @@ Microsoft 365 biedt een volledige reeks hulpprogramma's om naleving te behouden 
 
 De volgende tabel bevat een beknopt overzicht van de nalevingsbesturingselementen die beschikbaar zijn in Microsoft 365. Meer informatie vindt u in de volgende secties.
 
-|Categorie|Omschrijving|Verwijzing|
+|Categorie|Beschrijving|Verwijzing|
 |:-------|:----------|:--------|
 |Bewaargegevens|||
 ||Groepen e-mail en SharePoint behouden|[Meer informatie over bewaarbeleid voor SharePoint en OneDrive](../compliance/retention-policies-sharepoint.md)|

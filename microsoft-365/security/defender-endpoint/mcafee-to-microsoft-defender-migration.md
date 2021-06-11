@@ -48,7 +48,7 @@ Wanneer u overschakelt van McAfee naar Microsoft Defender voor Eindpunt, volgt u
 
 ![Migratiefasen : setup aan boord voorbereiden](images/phase-diagrams/migration-phases.png)
 
-|Fase |Omschrijving |
+|Fase |Beschrijving |
 |--|--|
 |[Voorbereiden op uw migratie](mcafee-to-microsoft-defender-prepare.md) |Tijdens de [**fase**](mcafee-to-microsoft-defender-prepare.md) Voorbereiden werkt u de apparaten van uw organisatie bij, krijgt u Microsoft Defender voor Eindpunt, plant u uw rollen en machtigingen en verleent u toegang tot de Microsoft Defender-beveiligingscentrum. U configureert ook de apparaatproxy- en internetinstellingen om communicatie in te stellen tussen de apparaten van uw organisatie en Microsoft Defender voor Eindpunt. |
 |[Microsoft Defender voor Eindpunt instellen](mcafee-to-microsoft-defender-setup.md) |Tijdens de [**installatiefase**](mcafee-to-microsoft-defender-setup.md) stelt u de Microsoft Defender Antivirus in en stelt u deze in op de passieve modus. U configureert ook instellingen & uitsluitingen voor Microsoft Defender Antivirus en uw bestaande oplossing voor eindpuntbeveiliging. Vervolgens maakt u uw apparaatgroepen, verzamelingen en organisatie-eenheden. Ten slotte configureert u uw antimalwarebeleid en realtime beveiligingsinstellingen.|
@@ -58,7 +58,7 @@ Wanneer u overschakelt van McAfee naar Microsoft Defender voor Eindpunt, volgt u
 
 In deze migratiehandleiding [](microsoft-defender-antivirus-in-windows-10.md) richten we ons [](overview-endpoint-detection-response.md) op de volgende generatie beveiliging en eindpuntdetectie en -respons mogelijkheden als uitgangspunt voor de overstap naar Microsoft Defender voor Eindpunt. Microsoft Defender voor Eindpunt bevat echter veel meer dan antivirus- en eindpuntbeveiliging. Microsoft Defender voor Eindpunt is een geïntegreerd platform voor preventieve beveiliging, detectie na inbreuken, geautomatiseerd onderzoek en antwoord. In de volgende tabel worden functies en mogelijkheden in Microsoft Defender voor Eindpunt samengevat. 
 
-| Functie/mogelijkheid | Omschrijving |
+| Functie/mogelijkheid | Beschrijving |
 |---|---|
 | [Bedreigings- en risicobeheer](next-gen-threat-and-vuln-mgt.md) | Bedreigingsfuncties & vulnerability management helpen bij het identificeren, beoordelen en herstellen van zwakke punten in uw eindpunten (zoals apparaten). |
 | [Kwetsbaarheid voor aanvallen verminderen](overview-attack-surface-reduction.md) | Regels voor het verminderen van aanvallen helpen de apparaten en toepassingen van uw organisatie te beschermen tegen cyberaanvallen en aanvallen. |

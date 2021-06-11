@@ -31,7 +31,7 @@ Sommige instellingen voor Microsoft 365 groepen en SharePoint in Microsoft 365, 
 
 ## <a name="the-effects-of-sharepoint-settings-on-microsoft-365-groups"></a>De effecten van SharePoint-instellingen op Microsoft 365 groepen
 
-|SharePoint instelling|Omschrijving|Effect op Microsoft 365 groepen|Aanbeveling|
+|SharePoint instelling|Beschrijving|Effect op Microsoft 365 groepen|Aanbeveling|
 |:-----------------|:----------|:-----------------------------|:-------------|
 |Extern delen voor organisatie en site|Hiermee wordt bepaald of sites, bestanden en mappen kunnen worden gedeeld met personen buiten de organisatie.|Als SharePoint- en groepeninstellingen niet overeenkomen, kunnen gasten in de groep worden geblokkeerd voor toegang tot de site of is externe toegang mogelijk beschikbaar op de site, maar niet in de groep.|Als u de instellingen voor delen wilt wijzigen, controleert u de instellingen voor groepen en SharePoint site-instellingen voor teamsites die met de groep zijn verbonden.<br><br>Zie [Samenwerken met gasten op een site.](./collaborate-in-site.md)|
 |Domein toestaan/blokkeren|Hiermee kunt u voorkomen dat inhoud wordt gedeeld met opgegeven domeinen.|Groepen herkennen geen SharePoint lijsten toestaan of blokkeren. Gebruikers van domeinen die niet zijn toegestaan in SharePoint kunnen toegang krijgen tot SharePoint via een groep.|Manage domain allow/block lists for Azure AD and SharePoint together. Maak een organisatiebreed beheerproces voor het toestaan en blokkeren van domeinen.<br><br>Zie [SharePoint domeininstellingen en](/sharepoint/restricted-domains-sharing) Azure [AD-domeininstellingen](/azure/active-directory/b2b/allow-deny-list)|
@@ -41,7 +41,7 @@ Sommige instellingen voor Microsoft 365 groepen en SharePoint in Microsoft 365, 
 
 ## <a name="the-effects-of-microsoft-365-groups-setting-on-sharepoint"></a>De effecten van Microsoft 365 groepen op SharePoint
 
-|Microsoft 365 groepen instellen|Omschrijving|Effect op SharePoint|Aanbeveling|
+|Microsoft 365 groepen instellen|Beschrijving|Effect op SharePoint|Aanbeveling|
 |:---------------------------|:----------|:-------------------|:-------------|
 |Beleid voor naamgeving|Hiermee geeft u groepsnaamvoorvoegsels en achtervoegsels op en geblokkeerde woorden voor het maken van groepen|Beleidsregels worden afgedwongen voor gebruikers die teamsites met een groep maken, maar niet communicatiesites of sites met andere sjablonen.|Maak indien nodig afzonderlijke naamgevingslijnen voor communicatiesites.|
 |Groepstoegang voor gasten|Hiermee geeft u aan of personen buiten de organisatie kunnen worden toegevoegd aan groepen.|Als SharePoint- en groepeninstellingen niet overeenkomen, kunnen gasten in de groep worden geblokkeerd voor toegang tot de site of is externe toegang mogelijk beschikbaar op de site, maar niet in de groep.|Als u de instellingen voor delen wilt wijzigen, controleert u de instellingen voor groepen en SharePoint site-instellingen voor teamsites die met de groep zijn verbonden.<br><br>Zie [Samenwerken met gasten op een site](./collaborate-in-site.md)|

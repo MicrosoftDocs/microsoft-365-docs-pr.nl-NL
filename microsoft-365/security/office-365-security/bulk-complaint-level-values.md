@@ -45,7 +45,7 @@ De BCL-drempelwaarden worden beschreven in de volgende tabel.
 
 ****
 
-|BCL|Omschrijving|
+|BCL|Beschrijving|
 |:---:|---|
 |0|Het bericht is niet afkomstig van een bulksgewijs afzender.|
 |1, 2, 3|Het bericht is afkomstig van een bulksgewijs afzender die weinig klachten genereert.|
