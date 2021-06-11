@@ -19,20 +19,20 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52296177"
 ---
-# <a name="contact-support-for-gibraltar"></a><span data-ttu-id="9db30-103">Neem contact op met de ondersteuning voor Gibraltar</span><span class="sxs-lookup"><span data-stu-id="9db30-103">Contact support for Gibraltar</span></span>
+# <a name="contact-support-for-gibraltar"></a><span data-ttu-id="dfad8-103">Neem contact op met de ondersteuning voor Gibraltar</span><span class="sxs-lookup"><span data-stu-id="dfad8-103">Contact support for Gibraltar</span></span>
 
-<span data-ttu-id="9db30-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="9db30-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="dfad8-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="dfad8-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="9db30-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="9db30-105">Phone number</span></span>
-<span data-ttu-id="9db30-106">+1 312 843 5151</span><span class="sxs-lookup"><span data-stu-id="9db30-106">+1 312 843 5151</span></span>
+## <a name="phone-number"></a><span data-ttu-id="dfad8-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="dfad8-105">Phone number</span></span>
+<span data-ttu-id="dfad8-106">+1 312 843 5151</span><span class="sxs-lookup"><span data-stu-id="dfad8-106">+1 312 843 5151</span></span>
 
-## <a name="hours"></a><span data-ttu-id="9db30-107">Uren</span><span class="sxs-lookup"><span data-stu-id="9db30-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="9db30-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="9db30-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="dfad8-107">Uren</span><span class="sxs-lookup"><span data-stu-id="dfad8-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="dfad8-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="dfad8-108">Billing Support:</span></span>
 
-<span data-ttu-id="9db30-109">Engels: Mon-Fri 11:00-19:00</span><span class="sxs-lookup"><span data-stu-id="9db30-109">English: Mon-Fri 11 AM-7 PM</span></span>
+<span data-ttu-id="dfad8-109">Engels: Mon-Fri 11:00-19:00</span><span class="sxs-lookup"><span data-stu-id="dfad8-109">English: Mon-Fri 11 AM-7 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="9db30-110">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="9db30-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="dfad8-110">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="dfad8-110">Technical Support:</span></span>
 
-<span data-ttu-id="9db30-111">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="9db30-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="dfad8-111">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="dfad8-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="9db30-112">Internationale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="9db30-112">International call charges apply</span></span>
+<span data-ttu-id="dfad8-112">Internationale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="dfad8-112">International call charges apply</span></span>

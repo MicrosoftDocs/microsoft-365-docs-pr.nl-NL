@@ -16,7 +16,7 @@ metadata:
   ms.collection:
   - M365-security-compliance
   - m365initiative-defender-office365
-  description: Beheerders kunnen veelgestelde vragen en antwoorden over bescherming tegen spoofing bekijken in Exchange Online Protection (EOP).
+  description: Beheerders kunnen veelgestelde vragen en antwoorden bekijken over bescherming tegen spoofing in Exchange Online Protection (EOP).
   ms.technology: mdo
   ms.prod: m365-security
   ms.openlocfilehash: cab4af2dd359b878cdf417a2378c05d2aa706107
@@ -39,7 +39,7 @@ summary: >
   - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 
-  Dit artikel bevat veelgestelde vragen en antwoorden over bescherming tegen spoofing voor Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige EOP-organisaties (Exchange Online Protection) zonder Exchange Online-postvakken.
+  Dit artikel bevat veelgestelde vragen en antwoorden over bescherming tegen spoofing voor Microsoft 365-organisaties met postvakken in Exchange Online of zelfstandige Exchange Online Protection (EOP)-organisaties zonder Exchange Online postvakken.
 
 
   Zie Veelgestelde vragen over antispambeveiliging voor vragen en antwoorden over bescherming tegen [spam.](anti-spam-protection-faq.yml)
@@ -61,9 +61,9 @@ sections:
 
       Microsoft zelf heeft de nieuwe vereisten voor e-mailverificatie enkele weken voor de implementatie ervan voor klanten goedgekeurd. Hoewel er aanvankelijk sprake was van verstoring, nam deze geleidelijk af.
   - question: >
-      Is spoof intelligence beschikbaar voor Microsoft 365-klanten zonder Defender voor Office 365?
+      Is spoof intelligence beschikbaar voor klanten Microsoft 365 zonder Defender voor Office 365?
     answer: >
-      Ja. Vanaf oktober 2018 is spoof intelligence beschikbaar voor alle organisaties met postvakken in Exchange Online en zelfstandige EOP-organisaties zonder Exchange Online-postvakken.
+      Ja. Vanaf oktober 2018 is spoof intelligence beschikbaar voor alle organisaties met postvakken in Exchange Online en zelfstandige EOP-organisaties zonder Exchange Online postvakken.
   - question: >
       Hoe kan ik spam- of niet-spamberichten terugmelden bij Microsoft?
     answer: >

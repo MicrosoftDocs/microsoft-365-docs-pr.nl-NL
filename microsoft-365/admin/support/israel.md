@@ -19,22 +19,22 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52296033"
 ---
-# <a name="contact-support-for-israel"></a><span data-ttu-id="e6878-103">Neem contact op met de ondersteuning voor Israël</span><span class="sxs-lookup"><span data-stu-id="e6878-103">Contact support for Israel</span></span>
+# <a name="contact-support-for-israel"></a><span data-ttu-id="1be9c-103">Neem contact op met de ondersteuning voor Israël</span><span class="sxs-lookup"><span data-stu-id="1be9c-103">Contact support for Israel</span></span>
 
-<span data-ttu-id="e6878-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="e6878-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="1be9c-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="1be9c-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="e6878-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="e6878-105">Phone number</span></span>
-<span data-ttu-id="e6878-106">1 809 344 179</span><span class="sxs-lookup"><span data-stu-id="e6878-106">1 809 344 179</span></span>
+## <a name="phone-number"></a><span data-ttu-id="1be9c-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="1be9c-105">Phone number</span></span>
+<span data-ttu-id="1be9c-106">1 809 344 179</span><span class="sxs-lookup"><span data-stu-id="1be9c-106">1 809 344 179</span></span>
 
-## <a name="hours"></a><span data-ttu-id="e6878-107">Uren</span><span class="sxs-lookup"><span data-stu-id="e6878-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="e6878-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="e6878-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="1be9c-107">Uren</span><span class="sxs-lookup"><span data-stu-id="1be9c-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="1be9c-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="1be9c-108">Billing Support:</span></span>
 
-<span data-ttu-id="e6878-109">Hebreeuws: Sun-Thu 9:00-18:00</span><span class="sxs-lookup"><span data-stu-id="e6878-109">Hebrew: Sun-Thu 9 AM-6 PM</span></span>
+<span data-ttu-id="1be9c-109">Hebreeuws: Sun-Thu 9:00-18:00</span><span class="sxs-lookup"><span data-stu-id="1be9c-109">Hebrew: Sun-Thu 9 AM-6 PM</span></span>
 
-<span data-ttu-id="e6878-110">Engels: Mon-Fri 9:00-18:00</span><span class="sxs-lookup"><span data-stu-id="e6878-110">English: Mon-Fri 9 AM-6 PM</span></span>
+<span data-ttu-id="1be9c-110">Engels: Mon-Fri 9:00-18:00</span><span class="sxs-lookup"><span data-stu-id="1be9c-110">English: Mon-Fri 9 AM-6 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="e6878-111">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="e6878-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="1be9c-111">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="1be9c-111">Technical Support:</span></span>
 
-<span data-ttu-id="e6878-112">Hebreeuws: Sun-Thu 9:00-18:00</span><span class="sxs-lookup"><span data-stu-id="e6878-112">Hebrew: Sun-Thu 9 AM-6 PM</span></span>
+<span data-ttu-id="1be9c-112">Hebreeuws: Sun-Thu 9:00-18:00</span><span class="sxs-lookup"><span data-stu-id="1be9c-112">Hebrew: Sun-Thu 9 AM-6 PM</span></span>
 
-<span data-ttu-id="e6878-113">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="e6878-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="1be9c-113">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="1be9c-113">English: 24 hours a day, 7 days a week</span></span>

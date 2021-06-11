@@ -19,20 +19,20 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52296237"
 ---
-# <a name="contact-support-for-faroe-islands"></a><span data-ttu-id="8872d-103">Neem contact op met de ondersteuning voor de Faroe-eilanden</span><span class="sxs-lookup"><span data-stu-id="8872d-103">Contact support for Faroe Islands</span></span>
+# <a name="contact-support-for-faroe-islands"></a><span data-ttu-id="8d6c9-103">Neem contact op met de ondersteuning voor de Faroe-eilanden</span><span class="sxs-lookup"><span data-stu-id="8d6c9-103">Contact support for Faroe Islands</span></span>
 
-<span data-ttu-id="8872d-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="8872d-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="8d6c9-104">[Zoek een ander land of een andere regio.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="8d6c9-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="8872d-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="8872d-105">Phone number</span></span>
-<span data-ttu-id="8872d-106">+45 38 48 70 67</span><span class="sxs-lookup"><span data-stu-id="8872d-106">+45 38 48 70 67</span></span>
+## <a name="phone-number"></a><span data-ttu-id="8d6c9-105">Telefoonnummer</span><span class="sxs-lookup"><span data-stu-id="8d6c9-105">Phone number</span></span>
+<span data-ttu-id="8d6c9-106">+45 38 48 70 67</span><span class="sxs-lookup"><span data-stu-id="8d6c9-106">+45 38 48 70 67</span></span>
 
-## <a name="hours"></a><span data-ttu-id="8872d-107">Uren</span><span class="sxs-lookup"><span data-stu-id="8872d-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="8872d-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="8872d-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="8d6c9-107">Uren</span><span class="sxs-lookup"><span data-stu-id="8d6c9-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="8d6c9-108">Ondersteuning bij facturering:</span><span class="sxs-lookup"><span data-stu-id="8d6c9-108">Billing Support:</span></span>
 
-<span data-ttu-id="8872d-109">Engels: Mon-Fri 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="8872d-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="8d6c9-109">Engels: Mon-Fri 9:00-17:00</span><span class="sxs-lookup"><span data-stu-id="8d6c9-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="8872d-110">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="8872d-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="8d6c9-110">Technische ondersteuning:</span><span class="sxs-lookup"><span data-stu-id="8d6c9-110">Technical Support:</span></span>
 
-<span data-ttu-id="8872d-111">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="8872d-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="8d6c9-111">Engels: 24 uur per dag, 7 dagen per week</span><span class="sxs-lookup"><span data-stu-id="8d6c9-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="8872d-112">Internationale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="8872d-112">International call charges apply</span></span>
+<span data-ttu-id="8d6c9-112">Internationale oproepkosten zijn van toepassing</span><span class="sxs-lookup"><span data-stu-id="8d6c9-112">International call charges apply</span></span>
