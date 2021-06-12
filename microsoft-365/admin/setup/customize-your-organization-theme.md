@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: Informatie over het wijzigen van het standaardthema voor de bovenkant van de navigatiebalk in Microsoft 365 en aanpassen aan uw bedrijfslogo of -kleur.
-ms.openlocfilehash: 7dc1eb4df22cbd96b2370437991aee936243189e
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 130fda016961433342969c90e309e7d8b6a7051f
+ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841304"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52908159"
 ---
 # <a name="customize-the-microsoft-365-theme-for-your-organization"></a>Het thema Microsoft 365 uw organisatie aanpassen
 
@@ -89,6 +89,9 @@ Op de **pagina Logo's** kunt u uw logo's toevoegen en de URL opgeven waar gebrui
 Selecteer **Opslaan** om de wijzigingen op te slaan.
 
 U kunt uw logo's op elk moment verwijderen. Ga terug naar de **pagina Logo's** en selecteer **Verwijderen.**
+
+> [!NOTE]
+> Standaard worden eerst logoselecties weergegeven die door de meeste organisaties worden gebruikt. De uploadoptie is alleen van toepassing op standaardthema's en niet op groepsthema's.
   
 ## <a name="colors-choose-theme-colors"></a>Kleuren: Themakleuren kiezen
 

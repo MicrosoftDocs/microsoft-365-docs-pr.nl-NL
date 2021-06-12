@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Lees meer over bewaarbeleid dat van toepassing is op Microsoft Teams.
-ms.openlocfilehash: 607fbdd02cfaccfee79df67c4946c178ff3eb383
-ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
+ms.openlocfilehash: 908c6a1482761815995330b71f0d2d2f96677b64
+ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52861573"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52908267"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Meer informatie over retentie voor Microsoft Teams
 
@@ -44,9 +44,6 @@ Zie voor andere workloads:
 ## <a name="whats-included-for-retention-and-deletion"></a>Wat is inbegrepen voor retentie en verwijdering
 
 Teams kunnen chatberichten en kanaalberichten verwijderen met behulp van bewaarbeleid voor Teams. Naast de tekst in de berichten kunnen de volgende items vanwege nalevingsredenen worden bewaard: ingesloten afbeeldingen, tabellen, hypertekstkoppelingen, koppelingen naar andere berichten en bestanden in Teams, en [inhoud van kaarten](/microsoftteams/platform/task-modules-and-cards/what-are-cards). Chatberichten bevatten alle namen van de personen in de chat en kanaalberichten bevatten de teamnaam en de berichttitel (indien opgegeven). 
-
-> [!NOTE]
-> Het opnemen van inhoud van kaarten in een bewaarbeleid voor Teams is een vrij recente toevoeging. Zie [Microsoft 365 compliance capabilities for Adaptive Card content through apps in Teams now available (Nalevingsmogelijkheden van Microsoft 365 voor inhoud van Adaptive Card via apps in Teams nu beschikbaar)](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-365-compliance-capabilities-for-adaptive-card-content/ba-p/2095869) voor meer informatie.
 
 Berichten van teams in privékanalen worden momenteel niet ondersteund voor bewaarbeleid. Codefragmenten, opgenomen gesproken memo's van de mobiele Teams-client, miniaturen, aankondigingsafbeeldingen en reacties van anderen in de vorm van emoticons blijven niet behouden wanneer u bewaarbeleid voor Teams gebruikt.
 
@@ -71,7 +68,7 @@ Teams gebruikt een op Azure gebaseerd chatservice als primaire opslag voor alle 
 Hoewel deze gegevens van Teams-chats en -kanaalberichten in postvakken worden opgeslagen, moet u een bewaarbeleid configureren voor de locaties van **Teams-kanaalberichten** en **Teams-chats**. Teams-chats en -kanaalberichten worden niet opgenomen in bewaarbeleid dat is geconfigureerd voor Exchange-gebruikers- of groepspostvakken.
 
 > [!NOTE]
-> Als een gebruiker is opgenomen in een actief bewaarbeleid waarin Teamsberichten worden bewaard en u een postvak verwijdert van een gebruiker die in dit beleid is opgenomen, wordt het postvak omgezet naar een [inactief postvak](inactive-mailboxes-in-office-365.md) om de gegevens in Teams te behouden. Als u deze Teams-gegevens voor de gebruiker niet wilt bewaren, moet u het gebruikersaccount uitsluiten van het bewaarbeleid voordat u het postvak van de gebruiker verwijdert.
+> Als een gebruiker is opgenomen in een actief bewaarbeleid waarin Teams-berichten worden bewaard en u een postvak verwijdert van een gebruiker die in dit beleid is opgenomen, wordt het postvak omgezet naar een [inactief postvak](inactive-mailboxes-in-office-365.md) om de gegevens in Teams te behouden. Als u deze Teams-gegevens voor de gebruiker niet wilt bewaren, moet u het gebruikersaccount uitsluiten van het bewaarbeleid voordat u het postvak van de gebruiker verwijdert.
 
 Nadat een bewaarbeleid voor chatberichten en kanaalberichten is geconfigureerd, controleert een timer voor de Exchange-service regelmatig items in de verborgen map waarin deze Teams-berichten zijn opgeslagen. Het duurt meestal 1-7 dagen voordat de timer wordt uitgevoerd. Wanneer de retentieperiode voor deze items is verstreken, worden ze verplaatst naar de map SubstrateHolds. Dit is een andere verborgen map in het postvak van elke gebruiker of groep waarin 'soft-verwijderde' items worden opgeslagen voordat ze definitief worden verwijderd. 
 

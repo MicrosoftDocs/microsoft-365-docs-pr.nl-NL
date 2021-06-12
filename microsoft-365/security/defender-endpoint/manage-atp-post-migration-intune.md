@@ -18,14 +18,14 @@ ms.collection:
 - M365-security-compliance
 - m365solution-scenario
 ms.topic: article
-ms.date: 09/22/2020
+ms.date: 06/11/2021
 ms.reviewer: chventou
-ms.openlocfilehash: a8c5f5e04c629eb82a7e6f63f92d61030c544de4
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: ccbcbcb71d60dadf24b6f94bab126a1f1ca1c322
+ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841907"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52908279"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-with-intune"></a>Microsoft Defender voor eindpunt beheren met Intune
 
@@ -81,9 +81,7 @@ De volgende tabel bevat verschillende taken die u kunt uitvoeren om Microsoft De
 
 ## <a name="configure-your-microsoft-defender-security-center"></a>Uw Microsoft Defender-beveiligingscentrum
 
-Als u dit nog niet hebt gedaan, configureert u uw **Microsoft Defender-beveiligingscentrum** ( ) om waarschuwingen weer te geven, functies voor bedreigingsbeveiliging te configureren en gedetailleerde informatie weer te geven over de algehele beveiligingsstatus van uw [https://securitycenter.windows.com](https://securitycenter.windows.com) organisatie. 
-
-U kunt ook configureren of en welke functies eindgebruikers kunnen zien in de Microsoft Defender-beveiligingscentrum.
+Als u dit nog niet hebt gedaan, configureert u uw Microsoft 365 Defender-portal om waarschuwingen weer te geven, functies voor bedreigingsbeveiliging te configureren en gedetailleerde informatie weer te geven over de algehele beveiligingsstatus van uw organisatie. Zie [Microsoft Defender-beveiligingscentrum](microsoft-defender-security-center.md). U kunt ook configureren of en welke functies eindgebruikers kunnen zien in de Microsoft 365 Defender-portal.
 
 - [Overzicht van de Microsoft Defender-beveiligingscentrum](/microsoft-365/security/defender-endpoint/use)
 

@@ -21,12 +21,12 @@ ms.custom:
 description: Microsoft Defender voor Office 365 omvat veilige bijlagen, veilige koppelingen, geavanceerde hulpmiddelen tegen phishing, rapportagehulpmiddelen en functies voor bedreigingsinformatie.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e7570a925f4f24148874eada8a835ae473efaeb9
-ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
+ms.openlocfilehash: eab7cdbed592975739fdcfa1089e6f7d2c25d880
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51650348"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52904114"
 ---
 # <a name="microsoft-defender-for-office-365"></a>Microsoft Defender voor Office 365
 
@@ -39,7 +39,7 @@ ms.locfileid: "51650348"
 > [!IMPORTANT]
 > Dit artikel is bedoeld voor zakelijke klanten die [Microsoft Defender voor Office 365](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) hebben. Zie [Geavanceerde Outlook.com-beveiliging voor Microsoft 365-abonnees](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2) als u Outlook.com, Microsoft 365 Family of Microsoft 365 Personal gebruikt en u zoek informatie over veilige koppelingen of veilige bijlagen in Outlook.
 
-Microsoft Defender voor Office 365 beschermt je organisatie tegen kwaadwillende bedreigingen afkomstig van e-mailberichten, koppelingen (URL’s) en hulpmiddelen voor samenwerking. Defender voor Office 365 omvat:
+Microsoft Defender voor Office 365 beschermt uw organisatie tegen de risico’s van e-mailberichten, koppelingen (URL's) en samenwerkingsprogramma's. Defender voor Office 365 omvat:
 
 - **[Beleid voor bedreigingsbeveiliging](#configure-microsoft-defender-for-office-365-policies)**: definieer beleid voor bedreigingsbeveiliging om het juiste beveiligingsniveau in te stellen voor uw organisatie.
 
@@ -174,7 +174,7 @@ Microsoft Defender voor Office 365 is inbegrepen in bepaalde abonnementen, zoals
 
 Er worden doorlopend nieuwe functies aan Microsoft Defender voor Office 365 toegevoegd. Zie de volgende bronnen voor meer informatie:
 
-- [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=advanced%2Cthreat%2Cprotection) biedt een lijst met nieuwe functies die in ontwikkeling zijn en worden geïmplementeerd.
+- [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=Microsoft%2CDefender%2Cfor%2COffice%2C365) biedt een lijst met nieuwe functies die in ontwikkeling zijn en worden geïmplementeerd.
 
 - [Beschrijving van de service Microsoft Defender voor Office 365 ](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#whats-new-in-office-365-advanced-threat-protection-atp) beschrijft de functies en beschikbaarheid in de verschillende abonnementen voor Defender voor Office 365.
 

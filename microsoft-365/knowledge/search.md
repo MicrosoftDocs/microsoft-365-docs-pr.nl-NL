@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: ''
 localization_priority: None
 description: Meer informatie over hoe u kunt zoeken naar onderwerpen in Microsoft Viva.
-ms.openlocfilehash: bce9309d27b76854b927922f39389c18e1c09449
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 3bd247bfacc6a85bb19c8f4eeedb5aad8662e60e
+ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844729"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52908063"
 ---
 # <a name="use-microsoft-search-to-find-topics-in-microsoft-viva-topics"></a>Microsoft Search gebruiken om onderwerpen te zoeken in Microsoft Viva-onderwerpen
 
@@ -23,9 +23,10 @@ Hoewel Gebruikers van Viva-onderwerpen onderwerpen kunnen vinden via onderwerp h
 
 ## <a name="topic-answer"></a>Antwoord op onderwerp
 
-Wanneer u zoekt naar een specifiek onderwerp in Microsoft Search (bijvoorbeeld 'Saturnus'), als een onderwerp bestaat en wordt gevonden, wordt het resultaat weergegeven in de suggestienotatie voor het onderwerpantwoord.
+Wanneer u zoekt naar een specifiek onderwerp op de startpagina van SharePoint, op Office.com of op een SharePoint-site die is beperkt tot uw organisatie, als er een onderwerp bestaat en wordt gevonden, wordt het resultaat weergegeven in de suggestienotatie onderwerpantwoord.
 
 Het antwoord op het onderwerp wordt weergegeven:
+
 - Onderwerpnaam
 - Alternatieve namen: Alternatieve namen of acroniems voor het onderwerp.
 - Definitie: Beschrijving van het onderwerp dat door AI wordt geleverd of handmatig door een persoon is toegevoegd.
@@ -36,12 +37,11 @@ Het antwoord op het onderwerp wordt weergegeven:
 
 De onderwerppagina kan worden weergegeven in de zoekresultaten, zelfs als de antwoordkaart voor het onderwerp niet wordt weergegeven.
 
-In de zoekresultaten in Word, PowerPoint, Outlook en Excel wordt ook het antwoord op het onderwerp als er een wordt gevonden.
-
+De zoekresultaten in Word, PowerPoint, Outlook en Excel worden ook het antwoord op het onderwerp wanneer deze wordt gevonden.
 
 ## <a name="acronyms"></a>Acroniems
 
-In Viva-onderwerpen kunt u handmatig een onderwerp bewerken om er een acroniem voor op te nemen als <b>alternatieve naam.</b> Hierdoor kan een gebruiker die alleen zoekt op het acroniem van het onderwerp, het antwoord op het onderwerp vinden via Microsoft Search.
+In Viva-onderwerpen kunt u handmatig een onderwerp bewerken om er een acroniem voor op te nemen als *alternatieve naam.* Hierdoor kan een gebruiker die alleen zoekt op het acroniem van het onderwerp, het antwoord op het onderwerp vinden via Microsoft Search.
 
 [Acronym Answers](/microsoftsearch/manage-acronyms) is een functie die beschikbaar is via Microsoft Search en wordt afzonderlijk beheerd van Viva-onderwerpen.
 
@@ -52,8 +52,13 @@ In Viva-onderwerpen kunt u handmatig een onderwerp bewerken om er een acroniem v
 Voor gebruikers die op zoek zijn naar informatie over het boeken van een reis voor werk:
 
 - Als sommige gebruikers de naam van het reishulpmiddel kennen (bijvoorbeeld 'Concur'), kunt u gemakkelijker een bladwijzer maken om rechtstreeks naar de externe site te gaan.
+
 - Voor gebruikers die in het algemeen zoeken naar 'reizen', maakt u een onderwerp over 'Reizen' met de informatie die ze verwachten te zien. U kunt een koppeling toevoegen aan de externe site Concur in de beschrijving van het onderwerp. Als de koppeling is gekoppeld aan een interne boekingssite voor reizen die wordt gehost op de Microsoft 365 tenant, kunt u deze toevoegen aan de 'Vastgemaakte resources'.
  
 ### <a name="search-results-priority"></a>Prioriteit voor zoekresultaten 
 
 Wanneer een gebruiker in de zoekervaring van de gebruiker zoekt naar een term zoals 'reizen', wordt er een bladwijzer weergegeven in plaats van een onderwerp, als er een bladwijzer beschikbaar is.
+
+## <a name="see-also"></a>Zie ook
+
+[Overzicht van Viva-onderwerpen](topic-experiences-overview.md)

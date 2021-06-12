@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 description: Bestaande Office 365 klanten moeten vóór de deadline voor hun land een aanvraag indienen om hun Microsoft 365 services te laten verplaatst naar hun nieuwe geo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e68feeca842061c43c7be70d9b8b930f068d8e4e
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d4421b034c31adc3e8b0b017067b12086d364564
+ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50927310"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52908243"
 ---
 # <a name="how-to-request-your-data-move"></a>De verplaatsing van uw gegevens aanvragen
 
@@ -74,7 +74,7 @@ Vanaf januari 2020 kunnen klanten in in aanmerking komende Office 365 in aanmerk
 
 [Kerngegevens verplaatsen naar nieuwe Office 365 datacenter-geo's](moving-data-to-new-datacenter-geos.md)
 
-[Algemene veelgestelde vragen over het verplaatsen van gegevens](data-move-faq.md)
+[Algemene veelgestelde vragen over het verplaatsen van gegevens](data-move-faq.yml)
 
 [Nieuwe datacenter-geo's voor Microsoft Dynamics CRM Online](/power-platform/admin/new-datacenter-regions)
   

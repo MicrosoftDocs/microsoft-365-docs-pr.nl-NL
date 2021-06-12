@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
 description: Beheerdersrollen zoals de Servicebeheerder worden toegewezen aan bedrijfsfuncties en geven machtigingen om specifieke taken uit te voeren in het beheercentrum.
-ms.openlocfilehash: 68a5c92faa6f5cdbbd56678649441a45a600ed04
-ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
+ms.openlocfilehash: 1fea8720b174846dd95d9dd6aeee91f7ecfbc7fa
+ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52809033"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52908051"
 ---
 # <a name="about-admin-roles"></a>Informatie over beheerdersrollen
 
@@ -100,4 +100,5 @@ Voordat de partner deze rollen aan gebruikers kan toewijzen, moet u de partner a
 
 [Beheerdersrollen toewijzen](assign-admin-roles.md) (artikel)\
 [Informatie over Azure AD-rollen in het Microsoft 365-beheercentrum](azure-ad-roles-in-the-mac.md) (artikel)\
-[Exchange Online-beheerdersrol](about-exchange-online-admin-role.md) (artikel)\ [Activiteitenoverzichten in het Microsoft 365-beheercentrum](../activity-reports/activity-reports.md) (artikel)
+[Activiteitenoverzichten in het Microsoft 365-beheercentrum](../activity-reports/activity-reports.md) (artikel)\
+[Exchange Online-beheerdersrol](about-exchange-online-admin-role.md) (artikel)

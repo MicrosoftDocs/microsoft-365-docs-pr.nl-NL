@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: Gegevensvernieuwingen zijn back-endbewerkingen die plaatsvinden wanneer Microsoft services en bijbehorende gegevens voor uw tenant naar een nieuw datacentergeo verplaatst.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d3d44ffc1650989e5c39f5f79cb6a07065f9e9f1
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: c0ea94a80de993d4d1341b8f9b19850d7149583f
+ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52625255"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52908111"
 ---
 # <a name="during-and-after-your-data-move"></a>Tijdens en na het verplaatsen van uw gegevens
 
@@ -122,7 +122,7 @@ Skype voor Bedrijven zijn niet meer beschikbaar.  [Skype voor Bedrijven Online w
  
 [De verplaatsing van uw gegevens aanvragen](request-your-data-move.md)
     
-[Algemene veelgestelde vragen over het verplaatsen van gegevens](data-move-faq.md)
+[Algemene veelgestelde vragen over het verplaatsen van gegevens](data-move-faq.yml)
   
 [Nieuwe datacenter-geo's voor Microsoft Dynamics CRM Online](/power-platform/admin/new-datacenter-regions)
   

@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 description: Meer informatie over nieuwe Office 365 datacenter-geo's en hoe u de optie gegevenslocatie kunt gebruiken om een overgang van uw kerngegevens naar een nieuwe geo aan te vragen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 60e04525843e8e7557eab2f804680d6d5dddd4d8
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: 797ac69e2c60c2e4c3ece38b376406027ff65e36
+ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 06/11/2021
-ms.locfileid: "52904090"
+ms.locfileid: "52908303"
 ---
 # <a name="moving-core-data-to-new-microsoft-365-datacenter-geos"></a>Kerngegevens verplaatsen naar nieuwe Microsoft 365 datacenter-geo's
 
@@ -70,7 +70,7 @@ Gegevens die naar het nieuwe datacenter worden verplaatst, worden zonder extra k
  
 [De verplaatsing van uw gegevens aanvragen](request-your-data-move.md)
     
-[Algemene veelgestelde vragen over het verplaatsen van gegevens](data-move-faq.md)
+[Algemene veelgestelde vragen over het verplaatsen van gegevens](data-move-faq.yml)
   
 [Nieuwe datacenter-geo's voor Microsoft Dynamics CRM Online](/power-platform/admin/new-datacenter-regions)
   

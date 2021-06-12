@@ -10,22 +10,19 @@ localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 12/28/2020
+ms.date: 06/11/2021
 ms.reviewer: jesquive
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 4ecd14e055646804d81e22da7c192988cf1e6f6f
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: ce200ca12bacc3ae8d9f7b48d36274ca54322586
+ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275250"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52908027"
 ---
 # <a name="deployment-guide-for-microsoft-defender-antivirus-in-a-virtual-desktop-infrastructure-vdi-environment"></a>Implementatiehandleiding voor Microsoft Defender Antivirus in een VDI-omgeving (Virtual Desktop Infrastructure)
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
-
 
 **Van toepassing op:**
 
@@ -175,7 +172,7 @@ Soms kunnen Microsoft Defender Antivirus meldingen worden verzonden naar of blij
 
 4. Implementeer uw groepsbeleidsobject zoals u dat gewoonlijk doet.
 
-Het onderdrukken van meldingen voorkomt dat meldingen Microsoft Defender Antivirus worden weergegeven in het Actiecentrum op Windows 10 wanneer scans worden uitgevoerd of herstelacties worden uitgevoerd. Uw beveiligingsbewerkingsteam ziet echter de resultaten van de scan in de Microsoft Defender-beveiligingscentrum ( [https://securitycenter.windows.com](https://securitycenter.windows.com) ).
+Het onderdrukken van meldingen voorkomt dat meldingen Microsoft Defender Antivirus worden weergegeven in het Actiecentrum op Windows 10 wanneer scans worden uitgevoerd of herstelacties worden uitgevoerd. Uw beveiligingsbewerkingsteam ziet echter de resultaten van de scan in de [Microsoft 365 Defender-portal.](microsoft-defender-security-center.md)
 
 > [!TIP]
 > Als u het Actiecentrum op Windows 10 wilt openen, gaat u als volgt te werk:
