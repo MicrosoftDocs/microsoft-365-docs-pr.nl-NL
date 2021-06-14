@@ -34,7 +34,7 @@ landingContent:
       url: billing-and-payments/pay-for-your-subscription.md
     - text: Betalingswijzen beheren
       url: billing-and-payments/manage-payment-methods.md
-    - text: Uw factuuradressen wijzigen
+    - text: Je factuuradressen wijzigen
       url: billing-and-payments/change-your-billing-addresses.md
 - title: Licenties beheren
   linkLists:
@@ -48,7 +48,7 @@ landingContent:
       url: ../admin/manage/remove-licenses-from-users.md
     - text: Inzicht in abonnementen en licenties
       url: licenses/subscriptions-and-licenses.md
-    - text: Sleutel van eeuwigdurende productlicentie downloaden
+    - text: Onbeperkt geldige software- en productlicentiecode downloaden
       url: ../admin/setup/download-software-licenses-csp.md
 - title: Upgraden, verlengen of opzeggen
   linkLists:
@@ -70,9 +70,9 @@ landingContent:
     links:
     - text: Microsoft 365 uitproberen of kopen
       url: try-or-buy-microsoft-365.md
-    - text: Een abonnement kopen vanuit uw gratis proefversie
+    - text: Een abonnement kopen vanuit je gratis proefversie
       url: ./try-or-buy-microsoft-365.md#buy-a-subscription-from-your-free-trial
-    - text: Uw proefabonnement verlengen
+    - text: Je proefabonnement verlengen
       url: extend-your-trial.md#extend-your-trial
     - text: Opslagruimte toevoegen
       url: add-storage-space.md
