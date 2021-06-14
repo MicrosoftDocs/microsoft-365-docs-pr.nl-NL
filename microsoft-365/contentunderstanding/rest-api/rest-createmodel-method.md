@@ -10,7 +10,7 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
-description: Gebruik REST API om een model en het gekoppelde inhoudstype te maken.
+description: REST API gebruiken om een model en het gekoppelde inhoudstype te maken.
 ms.openlocfilehash: 4af980d0733fce63767c6570003342eadb079f26
 ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: HT
@@ -20,7 +20,7 @@ ms.locfileid: "52904186"
 ---
 # <a name="create-model"></a>Model maken
 
-Maakt een model en het gekoppelde inhoudstype. Merk op dat hierdoor alleen het model wordt gemaakt. Deze moet nog worden getraind in het inhoudscentrum (zie [voorbeeld](rest-createmodel-method.md#examples)).
+Een model en het gekoppelde inhoudstype maken. Hiermee wordt het model alleen gemaakt. Het moet nog wel worden getraind in het inhoudscentrum (zie [voorbeeld](rest-createmodel-method.md#examples)).
 
 ## <a name="http-request"></a>HTTP-aanvraag
 
@@ -33,21 +33,21 @@ Geen
 
 ## <a name="request-headers"></a>Aanvraagheaders
 
-| Koptekst | Waarde |
+| Header | Waarde |
 |--------|-------|
-|Accepteren|toepassing/json;odata=verbose|
-|Inhoudstype|toepassing/json;odata=verbose;charset=utf-8|
+|Accepteren|application/json;odata=verbose|
+|Content-Type|application/json;odata=verbose;charset=utf-8|
 |x-requestdigest|De juiste samenvatting voor deze site|
 
 ## <a name="request-body"></a>Aanvraagtekst
 
 |Naam    |Type   |Omschrijving |
 |--------|-------|------------|
-|_metagegevens|  |Stel de objectmeta in op de SPO. Gebruik altijd de waarde: {"type": "Microsoft.Office.Server.ContentCenter.SP MachineLearningModelEntityData"}. |
-|ContentTypeGroup|tekenreeks|De groep van het gekoppelde inhoudstype die aan het model is gekoppeld. Is standaard ingesteld op 'Intelligente documentinhoudtypen'.|
-|ContentTypeName|tekenreeks|De naam van het gekoppelde inhoudstype. Het gemaakte modelbestand krijgt dezelfde naam.|
+|_metadata|  |Stel de objectmeta in op de SPO. Gebruik altijd de waarde: {"type": "Microsoft.Office.Server.ContentCenter.SPMachineLearningModelEntityData"}. |
+|ContentTypeGroup|string|De groep van het gekoppelde inhoudstype die aan het model is gekoppeld. Is standaard ingesteld op 'Typen intelligente documentinhoud'.|
+|ContentTypeName|string|De naam van het gekoppelde inhoudstype. Het gemaakte modelbestand krijgt dezelfde naam.|
 
-## <a name="responses"></a>Antwoorden
+## <a name="responses"></a>Reacties
 
 | Naam   | Type  | Omschrijving|
 |--------|-------|------------|
@@ -55,7 +55,7 @@ Geen
 
 ## <a name="examples"></a>Voorbeelden
 
-### <a name="create-a-new-document-understanding-model-called-contoso-contract"></a>Een nieuw documentbegripsmodel maken met de naam 'Contoso-contract'
+### <a name="create-a-new-document-understanding-model-called-contoso-contract"></a>Een nieuw documentbegripmodel maken met de naam 'Contoso-contract'
 
 #### <a name="sample-request"></a>Voorbeeldaanvraag
 
@@ -75,4 +75,4 @@ Geen
 
 ## <a name="see-also"></a>Zie ook
 
-[RESET API Syntec-documentbegripmodel](syntex-model-rest-api.md)
+[REST API van Syntex-model voor documentbegrip](syntex-model-rest-api.md)

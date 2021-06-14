@@ -6,7 +6,7 @@
       items:
         - name: Wat is Microsoft 365 Defender?
           href: microsoft-365-defender.md
-        - name: Microsoft 365 Overzicht van Defender
+        - name: Overzicht van Microsoft 365 Defender
           href: overview-security-center.md
         - name: Wat is er nieuw in Microsoft 365 Defender
           href: whats-new.md
@@ -16,9 +16,9 @@
           href: microsoft-365-security-center-mdo.md
         - name: Defender voor Eindpunt omleiden naar Microsoft 365 Defender
           href: microsoft-365-security-mde-redirection.md
-        - name: Omleiden Office 365 beveiligings- en compliancecentrum naar Microsoft 365 Defender
+        - name: Beveiligings- en compliancecentrum van Office 365 omleiden naar Microsoft 365 Defender
           href: microsoft-365-security-mdo-redirection.md
-        - name: Microsoft 365 Defender-integratie met Azure Sentinel
+        - name: Integratie van Microsoft 365 Defender met Azure Sentinel
           href: microsoft-365-defender-integration-with-azure-sentinel.md
         - name: Preview-functies
           href: preview.md
@@ -110,9 +110,9 @@
                   href: first-incident-overview.md
                 - name: Voorbereiden
                   href: first-incident-prepare.md
-                - name: Stap 1. Triage en analyseren
+                - name: Stap 1. Triage en analyse
                   href: first-incident-analyze.md
-                - name: Stap 2. Herstel
+                - name: Stap 2. Oplossen
                   href: first-incident-remediate.md
                 - name: Stap 3. Beoordelen
                   href: first-incident-post.md
@@ -128,9 +128,9 @@
               href: get-incident-notifications.md
         - name: Dreigingsanalyse
           items:
-            - name: Nieuwe bedreigingen bijhouden en beantwoorden
+            - name: Nieuwe bedreigingen traceren en hierop reageren
               href: threat-analytics.md
-            - name: Het analistrapport begrijpen
+            - name: Het analistenrapport begrijpen
               href: threat-analytics-analyst-reports.md
         - name: Geautomatiseerd onderzoek en reactie
           items:
@@ -140,13 +140,13 @@
               href: m365d-configure-auto-investigation-response.md
             - name: Herstelacties
               href: m365d-remediation-actions.md
-            - name: Het actiecentrum gebruiken
+            - name: Het Actiecentrum gebruiken
               href: m365d-action-center.md
-            - name: Herstelacties weergeven en beheren
+            - name: Herstelacties bekijken en goedkeuren
               href: m365d-autoir-actions.md
             - name: Details en resultaten weergeven
               href: m365d-autoir-results.md
-            - name: Onwaar positieven en negatieven adresseert
+            - name: Fout-positieven en -negatieven afhandelen
               href: m365d-autoir-report-false-positives-negatives.md
         - name: Geavanceerd opsporen
           items:
@@ -320,23 +320,23 @@
                   href: api-error-codes.md
                 - name: Streaming-API
                   items:
-                    - name: Microsoft 365 Streaming-API
+                    - name: Streaming-API van Microsoft 365
                       href: streaming-api.md
-                    - name: Geavanceerde opsporingsevenementen streamen naar de Azure Events-hub
+                    - name: Geavanceerde opsporingsgebeurtenissen streamen naar Azure Events-hub
                       href: streaming-api-event-hub.md
-                    - name: Geavanceerde opsporingsevenementen streamen naar uw opslagaccount
+                    - name: Geavanceerde opsporingsgebeurtenissen streamen naar uw opslagaccount
                       href: streaming-api-storage.md
-                - name: Geavanceerde API voor opsporing
+                - name: API voor geavanceerde opsporing
                   href: api-advanced-hunting.md
-                - name: Api's voor incidenten
+                - name: Incident-API's
                   items:
                     - name: Methoden en eigenschappen van incidenten
                       href: api-incident.md
-                    - name: Lijst met incidenten
+                    - name: Incidenten weergeven
                       href: api-list-incidents.md
                     - name: Incidenten bijwerken
                       href: api-update-incidents.md
-                    - name: Incident krijgen
+                    - name: Incident opvragen
                       href: api-get-incident.md
     - name: Microsoft Defender voor Office 365
       href: ../office-365-security/index.yml

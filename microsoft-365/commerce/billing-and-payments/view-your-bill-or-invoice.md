@@ -105,5 +105,5 @@ Als u een saldo hebt en dit wilt betalen, kunt u dat online doen. Raadpleeg [Bet
 
 [Betalen met factuur, creditcard of via bankrekening](pay-for-your-subscription.md) (artikel) \
 [Betalingswijzen beheren](manage-payment-methods.md) (artikel) \
-[Factureringsgegevens voor Microsoft 365 voor Bedrijven in Mexico](/microsoft-365/commerce/billing-and-payments/mexico-billing-info) (artikel) \
+[Factureringsgegevens voor Microsoft 365 voor bedrijven in Mexico](/microsoft-365/commerce/billing-and-payments/mexico-billing-info) (artikel) \
 [Betalingsopties voor Minecraft: Education Edition](/education/windows/school-get-minecraft) (artikel)

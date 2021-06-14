@@ -39,7 +39,7 @@ ms.locfileid: "52904114"
 > [!IMPORTANT]
 > Dit artikel is bedoeld voor zakelijke klanten die [Microsoft Defender voor Office 365](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) hebben. Zie [Geavanceerde Outlook.com-beveiliging voor Microsoft 365-abonnees](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2) als u Outlook.com, Microsoft 365 Family of Microsoft 365 Personal gebruikt en u zoek informatie over veilige koppelingen of veilige bijlagen in Outlook.
 
-Microsoft Defender voor Office 365 beschermt uw organisatie tegen de risico’s van e-mailberichten, koppelingen (URL's) en samenwerkingsprogramma's. Defender voor Office 365 omvat:
+Microsoft Defender voor Office 365 beschermt je organisatie tegen de kwaadaardige dreigingen van e-mailberichten, koppelingen (URL's) en samenwerkingsprogramma's. Defender voor Office 365 omvat:
 
 - **[Beleid voor bedreigingsbeveiliging](#configure-microsoft-defender-for-office-365-policies)**: definieer beleid voor bedreigingsbeveiliging om het juiste beveiligingsniveau in te stellen voor uw organisatie.
 
@@ -147,7 +147,7 @@ Abonnement 2 van Microsoft Defender voor Office 365 bevat de beste [hulpmiddelen
 
 ## <a name="permissions-required-to-use-microsoft-defender-for-office-365-features"></a>Vereiste machtigingen voor het gebruik van de functies van Microsoft Defender voor Office 365
 
-U moet een passende rol zijn toegewezen om toegang te krijgen tot Microsoft Defender voor Office 365-functies in het Beveiligings- en compliancecentrum. De volgende tabel bevat enkele voorbeelden:
+Er moet een in aanmerking komende rol aan jou zijn toegewezen om toegang te krijgen tot Microsoft Defender voor Office 365-functies in het Beveiligings- en compliancecentrum. De volgende tabel bevat enkele voorbeelden:
 
 |Rol of rollengroep|Informatiebronnen|
 |---|---|

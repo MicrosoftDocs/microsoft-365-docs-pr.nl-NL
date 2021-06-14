@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 758759ad-63ee-4ea9-90a3-39f941897b7d
 description: Leden van een Microsoft 365-groep ontvangen een groeps e-mail en een gedeelde werkruimte voor gesprekken, bestanden, agenda-items, Stream en Planner.
-ms.openlocfilehash: 3e4fa36520247179b653f799f7b2a061b9d9f4a9
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 038c4b9f6d9d28e62c0fb9b8f117db96ac42ddfb
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635592"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52903838"
 ---
 # <a name="compare-groups"></a>Groepen vergelijken
 
@@ -89,7 +89,7 @@ Gedeelde postvakken kunnen een agenda bevatten die kan worden gebruikt om samen 
 
 Gebruikers met machtigingen voor het groepspostvak kunnen verzenden als of namens het groeps-e-mailadres als de beheerder die gebruiker daarvoor heeft gemachtigd. Dit is bijzonder handig voor helpdesk- en ondersteuningspostvakken, omdat gebruikers e-mails kunnen verzenden vanuit 'Contoso-ondersteuning' of 'Receptie gebouw A'.
 
-Momenteel is het niet mogelijk een gedeeld postvak te migreren naar een Microsoft 365-groep. Is dat iets dat u zou willen? Laat het ons weten. **[Stem hier](https://go.microsoft.com/fwlink/?linkid=871518)**
+Het is niet mogelijk een gedeeld postvak te migreren naar een Microsoft 365-groep. 
 
 ## <a name="related-content"></a>Verwante inhoud
 

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Records declareren met behulp van retentielabels
-ms.openlocfilehash: fed988d2f880e4c0af1321cfb6ef4a873bd4e7ab
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: b5114253c99533e890d66248529b4713700b9016
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730544"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52903898"
 ---
 # <a name="declare-records-by-using-retention-labels"></a>Records declareren met behulp van retentielabels
 
@@ -79,6 +79,18 @@ Wanneer retentielabels die items markeren als een record of regelgevingsrecord, 
 Voorbeeld van een document dat als record is gemarkeerd met een retentielabel:
 
 ![Detailvenster voor document met recordlabel](../media/recordversioning7.png)
+
+## <a name="searching-the-audit-log-for-labeled-items-that-were-declared-records"></a>Zoeken in het auditlogboek naar gelabelde items die als record zijn gedeclareerd
+
+De acties voor het toevoegen van labels om items als records te declareren worden geregistreerd in het auditlogboek.
+
+Voor SharePoint-items: 
+- Selecteer onder **Bestands- en pagina-activiteiten** de optie **Gewijzigd retentielabel voor een bestand**. Deze controlegebeurtenis is voor standaardretentielabels of voor retentielabels die worden gebruikt om items te markeren als records of wettelijke records.
+
+Voor Exchange-items:
+- Selecteer vanuit **Activiteiten in Exchange-postvakken** de optie **Bericht gelabeld als record**. Deze controlegebeurtenis is voor retentielabels die worden gebruikt om items te markeren als records of wettelijke records.
+
+Zie [Het auditlogboek doorzoeken in het beveiligings- en compliancecentrum](search-the-audit-log-in-security-and-compliance.md#file-and-page-activities) voor meer informatie over het zoeken naar deze gebeurtenissen.
 
 ## <a name="next-steps"></a>Volgende stappen
 

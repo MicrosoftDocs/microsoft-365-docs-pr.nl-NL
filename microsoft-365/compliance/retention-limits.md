@@ -85,10 +85,10 @@ Voorbeeld met SharePoint:
 
 ## <a name="maximum-number-of-items-for-disposition"></a>Maximum aantal te verwijderen items
 
-Voor het [verwijderen van inhoud](disposition.md) moet u rekening houden met de volgende beperkingen:
+Voor het [verwijderen van inhoud](disposition.md) moet je rekening houden met de volgende beperkingen:
 
-- 1.000.000 items in afwachting van verwijdering per fase voor elk retentielabel
+- 1.000.000 items in afwachting van verwijderen per fase voor elk retentielabel
 
-- Bewijs van verwijdering tot zeven jaar nadat het item is verwijderd, met een limiet van 1.000.000 artikelen per retentielabel voor die periode. 
+- Bewijs van verwijdering tot zeven jaar nadat het item is verwijderd, met een limiet van 1.000.000 items per retentielabel voor die periode. 
     
-    Als u een bewijs van verwijdering nodig hebt dat hoger is dan deze limiet van 1.000.000 voor items die zijn gemarkeerd als records, neemt u contact op met [Microsoft-ondersteuning](../business-video/get-help-support.md).
+    Als je een bewijs van verwijdering nodig hebt dat hoger is dan deze limiet van 1.000.000 voor items die zijn gemarkeerd als records, neem je contact op met [Microsoft-ondersteuning](../business-video/get-help-support.md).

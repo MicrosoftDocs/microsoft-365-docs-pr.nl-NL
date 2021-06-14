@@ -38,7 +38,7 @@ ms.locfileid: "52877870"
 
 In Microsoft 365-bedrijven met postvakken in Exchange Online of EOP-bedrijven (standalone Exchange Online Protection) zonder Exchange Online-postvakken worden potentieel gevaarlijke of ongewenste berichten in quarantaine geplaatst. Zie [Quarantaine in EOP](quarantine-email-messages.md) voor meer informatie.
 
-Als ontvanger van een in quarantaine geplaatst bericht wordt in de volgende tabel beschreven wat u als gewone gebruiker met het bericht kunt doen:
+Als ontvanger van een in quarantaine geplaatst bericht wordt in de volgende tabel beschreven wat je als gewone gebruiker met het bericht kunt doen:
 
 <br>
 
@@ -51,13 +51,13 @@ Als ontvanger van een in quarantaine geplaatst bericht wordt in de volgende tabe
 |Phishing (geen hoge phishingwaarschijnlijkheid)|![Vinkje](../../media/checkmark.png)||![Vinkje](../../media/checkmark.png)|
 |
 
-U kunt uw in quarantaine geplaatste berichten weergeven en beheren in de Microsoft 365 Defender-portal of (als een beheerder dit heeft ingesteld) in [spammeldingen voor eindgebruikers](use-spam-notifications-to-release-and-report-quarantined-messages.md).
+Je kunt je in quarantaine geplaatste berichten weergeven en beheren in de Microsoft 365 Defender-portal of (als een beheerder dit heeft ingesteld) in [spammeldingen voor eindgebruikers](use-spam-notifications-to-release-and-report-quarantined-messages.md).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet je weten voordat je begint?
 
-- Ga naar <https://security.microsoft.com> als u de Microsoft 365 Defender-portal wilt openen. Ga naar <https://security.microsoft.com/quarantine> als u de quarantaine-pagina direct wilt openen.
+- Ga naar <https://security.microsoft.com> als je de Microsoft 365 Defender-portal wilt openen. Ga naar <https://security.microsoft.com/quarantine> als je de Quarantaine-pagina direct wilt openen.
 
-- Beheerders kunnen instellen hoelang berichten in quarantaine blijven voordat ze permanent worden verwijderd in het antispambeleid. Berichten waarvan de quarantaine is verlopen, kunnen niet meer worden hersteld. Zie [Antispambeleid configureren in EOP](configure-your-spam-filter-policies.md) voor meer informatie.
+- Beheerders kunnen in het antispambeleid instellen hoelang berichten in quarantaine blijven voordat ze permanent worden verwijderd. Berichten waarvan de quarantaine is verlopen, kunnen niet meer worden hersteld. Zie [Antispambeleid configureren in EOP](configure-your-spam-filter-policies.md) voor meer informatie.
 
 - Beheerders kunnen ook [Spammeldingen voor eindgebruikers inschakelen](configure-your-spam-filter-policies.md#configure-end-user-spam-notifications) in antispambeleid. Gebruikers kunnen in quarantaine geplaatste ongewenste berichten rechtstreeks vanuit deze meldingen vrijgeven. Gebruikers kunnen in quarantaine geplaatste phishingberichten (niet phishingberichten van hoge waarschijnlijkheid) rechtstreeks vanuit deze meldingen controleren. Zie [Spammeldingen voor eindgebruikers in EOP](use-spam-notifications-to-release-and-report-quarantined-messages.md) voor meer informatie.
 
@@ -67,7 +67,7 @@ U kunt uw in quarantaine geplaatste berichten weergeven en beheren in de Microso
 
 ## <a name="view-your-quarantined-messages"></a>Uw berichten in quarantaine bekijken
 
-1. Ga in de Microsoft 365 Defender-portal naar **E-mail en samenwerking** \> **Beoordeling** \> **Quarantine**.
+1. Ga in de Microsoft 365 Defender-portal naar **E-mail en samenwerking** \> **Controleren** \> **Quarantine**.
 
 2. U kunt de resultaten sorteren door op een beschikbare kolomkop te klikken. Klik op **Kolommen wijzigen** om maximaal zeven kolommen te laten zien. Standaardwaarden worden aangegeven met een sterretje (<sup>\*</sup>):
 

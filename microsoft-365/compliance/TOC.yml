@@ -566,6 +566,8 @@
               href: configure-edge-to-export-search-results.md
             - name: Meerdere zoekopdrachten naar inhoud bulksgewijs bewerken
               href: bulk-edit-content-searches.md
+            - name: Zoeken naar eDiscovery-activiteiten in het auditlogboek
+              href: search-for-ediscovery-activities-in-the-audit-log.md
         - name: PowerShell-scripts voor inhoud zoeken
           items:
             - name: Inhoud zoeken gebruiken voor doelgerichte verzamelingen

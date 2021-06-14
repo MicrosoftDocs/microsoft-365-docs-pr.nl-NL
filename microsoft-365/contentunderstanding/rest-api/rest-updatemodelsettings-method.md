@@ -1,0 +1,78 @@
+---
+title: UpdateModelSettings
+ms.author: chucked
+author: chuckedmonson
+manager: pamgreen
+ms.reviewer: ssquires
+audience: admin
+ms.topic: reference
+ms.prod: microsoft-365-enterprise
+search.appverid: ''
+ms.collection: m365initiative-syntex
+localization_priority: Priority
+description: Gebruik REST API om de beschikbare modelinstellingen bij te werken voor een SharePoint Syntex-model voor documentbegrip.
+ms.openlocfilehash: f24fc8428adbf22ded2ca6d7a49cabc84b385770
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52904190"
+---
+# <a name="updatemodelsettings"></a>UpdateModelSettings
+
+Hiermee worden de beschikbare modelinstellingen (gekoppeld retentielabel en modelbeschrijving) bijgewerkt voor een SharePoint Syntex-model voor documentbegrip (zie [voorbeeld](rest-updatemodelsettings-method.md#examples)).
+
+## <a name="http-request"></a>HTTP-aanvraag
+
+```HTTP
+POST /_api/machinelearning/models/updatemodelsettings HTTP/1.1
+```
+
+## <a name="uri-parameters"></a>URI-parameters
+
+Geen
+
+## <a name="request-headers"></a>Aanvraagheaders
+
+| Koptekst | Waarde |
+|--------|-------|
+|Accepteren|application/json;odata=verbose|
+|Inhoudstype|application/json;odata=verbose;charset=utf-8|
+|x-requestdigest|De juiste samenvatting voor de huidige site.|
+
+## <a name="request-body"></a>Aanvraagtekst
+
+|Naam    |Type   |Beschrijving |
+|--------|-------|-------|
+|ModelSettings|tekenreeks|JSON van modelinstellingen.|
+|Beschrijving|tekenreeks|De beschrijving van het model.|
+|RetentionLabel| |Info voor het bijbehorende label (label-id en naam).|
+
+## <a name="responses"></a>Antwoorden
+
+| Naam   | Type  | Beschrijving|
+|--------|-------|------------|
+|200 OK| |Succes|
+
+## <a name="examples"></a>Voorbeelden
+
+### <a name="update-model-settings-for-contoso-contract"></a>Modelinstellingen bijwerken voor Contoso-contract
+
+In dit voorbeeld worden de modelbeschrijving en het retentielabel Standaard bewaring bijgewerkt. De id van het retentielabel is `27c5fcba-abfd-4c34-823d-0b4a48f7ffe6`.
+
+#### <a name="sample-request"></a>Voorbeeldaanvraag
+
+```HTTP
+{
+    "ModelSettings": "{\"Description\":\"This model is used to set files classified as Contoso Contracts with a standard hold retention.\", \"RetentionLabel\":{\"Id\":\"27c5fcba-abfd-4c34-823d-0b4a48f7ffe6\",\"Name\":\"Standard Hold\"}}"
+}
+
+```
+
+#### <a name="sample-response"></a>Voorbeeldantwoord
+
+**Statuscode:** 200
+
+## <a name="see-also"></a>Zie ook
+
+[REST API van Syntex-model voor documentbegrip](syntex-model-rest-api.md)

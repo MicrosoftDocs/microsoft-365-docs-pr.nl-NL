@@ -180,10 +180,10 @@ Bewerk een bestaand labelbeleid door het te selecteren en selecteer vervolgens d
 
 Met deze knop start u de wizard **Beleid maken** , waarmee u de opgenomen labels en labelinstellingen kunt bewerken. Wanneer u de wizard voltooit, worden alle wijzigingen automatisch gerepliceerd naar de geselecteerde gebruikers en services.
 
-Wanneer u ingebouwde labeling gebruikt voor Office-apps op Windows, macOS, iOS en Android, zien gebruikers nieuwe labels binnen vier uur en binnen een uur voor de webversie van Word, Excel en PowerPoint wanneer u de browser vernieuwt. Het kan echter 24 uur duren voordat wijzigingen naar alle apps en services zijn gerepliceerd.
+Wanneer je ingebouwde labeling gebruikt voor Office-apps in Windows, macOS, iOS en Android, zien gebruikers nieuwe labels binnen vier uur en binnen een uur voor de webversie van Word, Excel en PowerPoint wanneer je de browser vernieuwt. Het kan echter 24 uur duren voordat wijzigingen naar alle apps en services zijn gerepliceerd.
 
 > [!NOTE]
-> Andere apps en services die gevoeligheidslabels ondersteunen, worden mogelijk vaker dan 24 uur bijgewerkt met hun eigen updateschema's en triggers voor beleidsupdates. Raadpleeg de documentatie voor meer informatie. Zie bijvoorbeeld voor de Azure Information Protection Unified labeling-client de rij **Beleidsupdate** in de tabel [Gedetailleerde vergelijkingen voor de Azure Information Protection-clients](/azure/information-protection/rms-client/use-client#detailed-comparisons-for-the-azure-information-protection-clients).
+> Andere apps en services die vertrouwelijkheidslabels ondersteunen, worden mogelijk vaker dan per 24 uur bijgewerkt met hun eigen updateschema's en triggers voor beleidsupdates. Raadpleeg de documentatie voor meer informatie. Voor de unified labeling-client van Azure Information Protection raadpleeg je bijvoorbeeld de rij **Beleidsupdate** in de tabel [Gedetailleerde vergelijkingen voor de Azure Information Protection-clients](/azure/information-protection/rms-client/use-client#detailed-comparisons-for-the-azure-information-protection-clients).
 
 ### <a name="additional-label-policy-settings-with-security--compliance-center-powershell"></a>Aanvullende labelbeleidsinstellingen met Beveiligings- en compliancecentrum PowerShell
 

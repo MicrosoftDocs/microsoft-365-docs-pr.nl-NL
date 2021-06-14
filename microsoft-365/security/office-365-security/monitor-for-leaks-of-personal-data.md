@@ -58,7 +58,7 @@ Met de DLP-rapporten kunt u het volgende doen:
 
 Daarnaast kunt u met de DLP-rapporten uw DLP-beleid nauwkeurig afstemmen terwijl u ze in de testmodus uitvoert.
 
-DLP-rapporten kunt u vinden in het Microsoft 365-compliancecentrum. Ga naar de sectie **Rapporten** \> **Organisatiegegevens** om de **DLP-beleidsovereenkomsten**, **DLP-incidenten** en rapporten voor **Fout-positieven en overschrijvingen voor DLP** te zoeken.
+DLP-rapporten vind je in het Microsoft 365-compliancecentrum. Ga naar de sectie **Rapporten** \> **Organisatiegegevens** om de **DLP-beleidsovereenkomsten**, **DLP-incidenten** en rapporten voor **fout-positieven en overschrijvingen voor DLP** te zoeken.
 
 Zie [de rapporten weergeven voor preventie van gegevensverlies](../../compliance/view-the-dlp-reports.md)voor meer informatie.
 
@@ -114,7 +114,7 @@ Deze kenmerktypen komen binnenkort beschikbaar in Cloud App Security:
 Als u de Cloud App Security nog niet gebruikt, begint u met het starten van de app. Voor toegang tot Cloud App Security: <https://portal.cloudappsecurity.com>.
 
 > [!NOTE]
-> Zorg ervoor dat u 'Bestanden automatisch scannen naar classificatielabels van Azure Information Protection' (in Algemene instellingen) inschakelt wanneer u aan de slag gaat met Cloud App Security of voordat u labels toewijst. Na de installatie worden bestaande bestanden niet opnieuw gescand door Cloud App Security totdat ze worden gewijzigd.
+> Zorg ervoor dat je optie om bestanden automatisch te scannen op Azure Information Protection-classificatielabels inschakelt (in Algemene instellingen) wanneer je aan de slag gaat met Cloud App Security of voordat je labels toewijst. Na de installatie worden bestaande bestanden niet opnieuw gescand door Cloud App Security totdat ze worden gewijzigd.
 
 ![Dashboard met informatie over waarschuwingen](../../media/Monitor-for-leaks-of-personal-data-image4.png)
 

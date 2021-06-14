@@ -100,5 +100,5 @@ Voordat de partner deze rollen aan gebruikers kan toewijzen, moet u de partner a
 
 [Beheerdersrollen toewijzen](assign-admin-roles.md) (artikel)\
 [Informatie over Azure AD-rollen in het Microsoft 365-beheercentrum](azure-ad-roles-in-the-mac.md) (artikel)\
-[Activiteitenoverzichten in het Microsoft 365-beheercentrum](../activity-reports/activity-reports.md) (artikel)\
+[Activiteitenrapporten in het Microsoft 365-beheercentrum](../activity-reports/activity-reports.md) (artikel)\
 [Exchange Online-beheerdersrol](about-exchange-online-admin-role.md) (artikel)
