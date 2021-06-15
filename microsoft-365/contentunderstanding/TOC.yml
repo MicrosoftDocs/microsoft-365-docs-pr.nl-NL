@@ -70,3 +70,23 @@
       href: push-content-type-to-hub.md
     - name: Rapportage over termenarchief
       href: term-store-analytics.md
+- name: REST API
+  items:
+    - name: Overzicht
+      href: rest-api/syntex-model-rest-api.md
+    - name: Model maken
+      href: rest-api/rest-createmodel-method.md
+    - name: GetByUniqueId
+      href: rest-api/rest-getbyuniqueid-method.md
+    - name: GetByTitle
+      href: rest-api/rest-getbytitle-method.md
+    - name: Model toepassen
+      href: rest-api/rest-applymodel-method.md
+    - name: Model- en bibliotheekgegevens ophalen
+      href: rest-api/rest-getmodelandlibraryinfo.md
+    - name: UpdateModelSettings
+      href: rest-api/rest-updatemodelsettings-method.md
+    - name: BatchDelete
+      href: rest-api/rest-batchdelete-method.md
+    - name: Classificatieaanvraag maken
+      href: rest-api/rest-createclassificationrequest.md

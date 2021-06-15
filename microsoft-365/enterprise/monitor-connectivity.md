@@ -20,12 +20,12 @@ search.appverid:
 - BCS160
 ms.assetid: 53cdb60c-a6b2-4848-b3ff-e7b75dc3fd1f
 description: In dit artikel vindt u informatie over de hulpprogramma's en technieken die u kunt gebruiken om de Microsoft 365 bewaken en onderhouden.
-ms.openlocfilehash: dfba158085e6642856049d7894b4156f42353236
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 8fa0820cf9b7778001be5184041e5c96930a29dd
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538805"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924197"
 ---
 # <a name="monitor-microsoft-365-connectivity"></a>Microsoft 365-connectiviteit controleren
 
@@ -33,7 +33,7 @@ Nadat u een Microsoft 365 hebt geïmplementeerd, kunt u de Microsoft 365 met beh
   
 ## <a name="monitoring-microsoft-365-connectivity"></a>Monitoring Microsoft 365 Connectivity
 
-|||
+|Type controle |Omschrijving |
 |:-----|:-----|
 |**Op de hoogte worden gesteld van Microsoft 365 eindpunten** <br/> |Als u Microsoft 365 eindpunten [beheert,](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a)wilt u meldingen ontvangen wanneer we nieuwe eindpunten publiceren, kunt u zich abonneren op onze RSS-feed met uw favoriete RSS-lezer. U kunt zich als eerste [abonneren via Outlook](https://go.microsoft.com/fwlink/p/?LinkId=532416) of u kunt de [RSS-feedupdates](https://go.microsoft.com/fwlink/p/?LinkId=532417)per e-mail naar u sturen.  <br/> |
 |**Gebruik System Center om de Microsoft 365** <br/> |Als u Microsoft-System Center gebruikt, kunt u het System Center [Management Pack](https://www.microsoft.com/download/details.aspx?id=43708) voor Office 365 downloaden om de Microsoft 365 controleren. Zie de handleiding voor beheerpakketbewerkingen voor meer gedetailleerde richtlijnen. <br/> |

@@ -20,12 +20,12 @@ search.appverid:
 - BCS160
 ms.assetid: 77735c9d-8b80-4d2f-890e-a8598547dea6
 description: Lees hoe u ExpressRoute implementeert voor Office 365, die een alternatief routeringspad biedt naar veel internetservices Office 365 services.
-ms.openlocfilehash: d75fe3a6dab4926babeef61fc14894566ff819b0
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 3ad6102193a12325de0e4bb2ff16087738688587
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51051364"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924937"
 ---
 # <a name="implementing-expressroute-for-office-365"></a>ExpressRoute implementeren voor Office 365
 
@@ -103,10 +103,10 @@ Voor elke service die een inkomende verbinding vereist, hebt u aanvullende infor
   
 Binnenkomende verbindingen moeten worden gecontroleerd, ongeacht of ze verbinding maken via internet of ExpressRoute om ervoor te zorgen dat asymmetrische routering niet is geïntroduceerd. In sommige gevallen moeten on-premises eindpunten waar Office 365 services inkomende verbindingen naar starten, mogelijk ook worden gebruikt door andere Microsoft- en niet-Microsoft-services. Het is van het grootste belang dat het inschakelen van ExpressRoute-routering naar deze services Office 365 andere scenario's niet wordt doorgestuurd. In veel gevallen moeten klanten mogelijk specifieke wijzigingen doorvoeren in hun interne netwerk, zoals nat op basis van bron, om ervoor te zorgen dat binnenkomende stromen van Microsoft symmetrisch blijven nadat ExpressRoute is ingeschakeld.
   
-Hier is een voorbeeld van het vereiste detailniveau. In dit geval Exchange hybride route naar het on-premises systeem via ExpressRoute.
+Hier is een voorbeeld van het vereiste detailniveau. In dit geval Exchange hybride route naar het on-premises systeem via ExpressRoute. 
 
-|**Verbindings-eigenschap**|**Value**|
-|:-----|:-----|
+|Verbindings-eigenschap   |Waarde  |
+|----------|-----------|
 |**Netwerkverkeersrichting** <br/> |Binnenkomende  <br/> |
 |**Service** <br/> |Hybride versie van Exchange  <br/> |
 |**Openbaar Office 365 eindpunt (bron)** <br/> |Exchange Online (IP-adressen)  <br/> |
@@ -115,15 +115,15 @@ Hier is een voorbeeld van het vereiste detailniveau. In dit geval Exchange hybri
 |**Wordt dit on-premises eindpunt gebruikt voor andere (niet-Office 365) Microsoft-services** <br/> |Nee  <br/> |
 |**Wordt dit on-premises eindpunt gebruikt door gebruikers/systemen op internet** <br/> |Ja  <br/> |
 |**Interne systemen gepubliceerd via openbare eindpunten** <br/> |Exchange Server clienttoegangsrol (on-premises) 192.168.101, 192.168.102, 192.168.103  <br/> |
-|**IP-advertentie van het openbare eindpunt** <br/> |**Naar internet**: 5.5.0.0/16  <br/> **Naar ExpressRoute**: 5.5.5.0/24  <br/> |
-|**Beveiligings-/perimeterbesturingselementen** <br/> |**Internetpad:** DeviceID_002  <br/> **ExpressRoute-pad**: DeviceID_003  <br/> |
-|**Hoge beschikbaarheid** <br/> |Actief/actief in 2 geo-redundante  <br/> ExpressRoute-circuits - Chicago en Dallas  <br/> |
-|**Besturingselement padsymmetrie** <br/> |**Methode**: Bron NAT  <br/> **Internetpad:** Bron NAT-inkomende verbindingen naar 192.168.5.5  <br/> |**ExpressRoute-pad:** Bron NAT-verbindingen naar 192.168.1.0 (Chicago) en 192.168.2.0 (Dallas)  <br/> |
+|**IP-advertentie van het openbare eindpunt** <br/> |**Naar internet**: 5.5.0.0/16 **Naar ExpressRoute**: 5.5.5.0/24  <br/> |
+|**Beveiligings-/perimeterbesturingselementen** <br/> |**Internetpad:** DeviceID_002  **ExpressRoute-pad**: DeviceID_003  <br/> |
+|**Hoge beschikbaarheid** <br/> |Actief/actief in 2 geografische redundante / ExpressRoute-circuits - Chicago en Dallas  <br/> |
+|**Besturingselement padsymmetrie** <br/> |**Methode**: Bron **NAT-internetpad:** Bron NAT-inkomende verbindingen met 192.168.5.5 **ExpressRoute-pad:** Bron NAT-verbindingen met 192.168.1.0 (Chicago) en 192.168.2.0 (Dallas)  <br/> |
 
 Hier is een voorbeeld van een service die alleen uitgaand is:
 
 |**Verbindings-eigenschap**|**Value**|
-|:-----|:-----|
+|----------|-----------|
 |**Netwerkverkeersrichting** <br/> |Uitgaande  <br/> |
 |**Service** <br/> |SharePoint Online  <br/> |
 |**On-premises eindpunt (bron)** <br/> |Gebruikerswerkstation  <br/> |
@@ -189,9 +189,10 @@ Dit betekent dat de belangrijkste overweging die u moet maken bij het selecteren
   
 Vaak zijn er meerdere meet-me-locaties die kunnen worden geselecteerd in een regio met de relatieve nabijheid van uw gebruikers. Vul de volgende tabel in om uw beslissingen te begeleiden.
 
-|**Geplande ExpressRoute-meet-me-locaties in Californië en New York**||
-|:-----|:-----|
+**Geplande ExpressRoute-meet-me-locaties in Californië en New York**
+
 |Locatie  <br/> |Aantal personen  <br/> |Verwachte latentie voor Microsoft-netwerk via internet-egressie  <br/> |Verwachte latentie naar Microsoft-netwerk via ExpressRoute  <br/> |
+|----------|-----------|----------|-----------|
 |Los Angeles  <br/> |10.000  <br/> |~15 ms  <br/> |~10 ms (via Silicon Valley)  <br/> |
 |Washington DC  <br/> |15.000  <br/> |~20 ms  <br/> |~10 ms (via New York)  <br/> |
 |Dallas  <br/> |5,000  <br/> |~15 ms  <br/> |~40 ms (via New York)  <br/> |
@@ -225,7 +226,7 @@ Uw implementatieplan moet zowel de technische details van het configureren van E
 
 - Bepaal hoe ver ExpressRoute-routes worden aangekondigd in uw netwerk en wat is het mechanisme voor clients om internet- of ExpressRoute-pad te selecteren; bijvoorbeeld directe routering of toepassingsproxy.
 
-- Dns-recordwijzigingen plannen, inclusief [afzenderbeleidskadergegevens.](../security/defender-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing.md)
+- Dns-recordwijzigingen plannen, inclusief [afzenderbeleidskadergegevens.](../security/office-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing.md)
 
 - Plan NAT-strategie, inclusief uitgaande en inkomende bron NAT.
 

@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: 043807b2-21db-4d5c-b430-c8a6dee0e6ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: MFA (Multi-Factor Authentication) gebruikt zowel een wachtwoord, dat sterk moet zijn, als een extra verificatiemethode.
-ms.openlocfilehash: 6e1c43bdd66849a0043c0a1a927f48d925e0806e
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: d9af486cf5e53609557b519612f185a20729cf76
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635772"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924729"
 ---
 # <a name="multi-factor-authentication-for-microsoft-365"></a>Meervoudige verificatie instellen voor Microsoft 365
 
@@ -150,7 +150,7 @@ Wanneer de gebruiker zich de volgende keer aanmeldt, wordt hen gevraagd zich aan
 
 In deze tabel ziet u de resultaten van het inschakelen van MFA met de standaardinstellingen voor beveiliging, het beleid voor voorwaardelijke toegang en de instellingen per gebruikersaccount.
 
-||Ingeschakeld|Uitgeschakeld|Secundaire verificatiemethode|
+|*Item*|Ingeschakeld|Uitgeschakeld|Secundaire verificatiemethode|
 |---|---|---|---|
 |**Standaardinstellingen voor beveiliging**|Beleid voor voorwaardelijke toegang kan niet worden gebruikt|Kan beleid voor voorwaardelijke toegang gebruiken|De Microsoft Authenticator-app|
 |**Beleidsregels voor voorwaardelijke toegang**|Als deze zijn ingeschakeld, kunt u beveiligingsinstellingen niet inschakelen|Als ze allemaal zijn uitgeschakeld, kunt u de standaardinstellingen voor beveiliging inschakelen|Door gebruiker opgegeven tijdens MFA-registratie|

@@ -1,5 +1,5 @@
 ---
-title: Beveiligingsinstellingen voor apps op Windows 10-pc's valideren
+title: Instellingen voor app-beveiliging valideren voor Windows 10 pc's
 f1.keywords:
 - NOCSH
 ms.author: sharik
@@ -26,14 +26,14 @@ search.appverid:
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
 description: Lees hoe u kunt controleren of Microsoft 365 instellingen voor app-beveiliging voor bedrijven van kracht zijn geweest op de apparaten van Windows 10 gebruikers.
-ms.openlocfilehash: fcb463fd98f692f7d4802689e0c03fe4e3e648a1
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 464a246a0da65dcffeb70946287ce4fa0e67ae7c
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579837"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925254"
 ---
-# <a name="validate-device-protection-settings-on-windows-10-pcs"></a>Instellingen voor apparaatbeveiliging controleren op Windows 10-pc's
+# <a name="validate-device-protection-settings-for-windows-10-pcs"></a>Apparaatbeveiligingsinstellingen voor Windows 10 pc's valideren
 
 ## <a name="verify-that-windows-10-device-policies-are-set"></a>Controleren of Windows 10-apparaatbeleid is ingesteld
 

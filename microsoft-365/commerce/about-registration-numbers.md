@@ -20,12 +20,12 @@ ms.custom:
 - commerce_purchase
 description: Meer informatie over registratienummers en meldingen onder controle bij het kopen van Microsoft-producten of -services.
 ms.date: 03/17/2021
-ms.openlocfilehash: 93cba6c1eebf0b41a94d6a6e3aac83693218f407
-ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
+ms.openlocfilehash: ad1d4fe68ad42a33a2cdfa8b78c1bb5b168e9059
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52795968"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925221"
 ---
 # <a name="about-registration-numbers-and-under-review-notifications"></a>Informatie over registratienummers en onder controlemeldingen
 
@@ -69,31 +69,31 @@ In de volgende schermafbeelding ziet u de melding die wordt weergegeven op de pa
 
 De volgende tabel bevat voorbeelden van de registratienummers die voor elk land zijn verzameld.  In gevallen waarin meerdere ID's worden vermeld, is er slechts één vereist.
 
-| Land of regio | Details |  |  |  |  |
-|:--|:--|:--|:--|:--|:--|
-| **Armenië** | INN – Btw-nummer<br>BTW-nummer: ook wel btw-registratienummer genoemd. Dit is het unieke nummer dat een bebelastingspersoon (zakelijke) of niet-belastbare rechtspersoon identificeert die is geregistreerd voor btw.<br>Nummer van openbare service |  |  | |  |
-| **Azerbeidzjan**  | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Azerbaijan-TIN.pdf) – Btw-nummer<br>INN – Btw-nummer |  |  |  |  |
-| **Republiek Belarus**  | UNP: dit is een getal met negen cijfers (numeriek voor organisaties, alfanumeriek voor individuen) dat een regio-id, een seriële waarde per regio en een controlecijfer bevat. |  |  |  |  |
-|**Brazilië** | [CNPJ](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Brazil-TIN.pdf) – (Cadastro Nacional da Pessoa Jurídica, of National Registry of Legal Entities). Dit is een identificatienummer dat is uitgegeven aan Braziliaanse bedrijven door het Ministerie van Federale Belastingdienst van Brazilië  |  |  |  |  |
-| **China** | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/China-TIN.pdf) – Btw-nummer |  |  |  |  |
-| **Hongarije**  | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Hungary-TIN.pdf) – Btw-nummer |  |  |  |  |
-| **India** | Belasting-id<br>[PAN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/India-TIN.pdf) – (Presence Across Nation) PAN India Involvement betekent dat er één organisatie is die op verschillende locaties in India actief is. |  |  |  |  |
-| **Irak** | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/) – Btw-nummer |  |  |  |  |
-| **Kazachstan**  | BIN – Bankidentificatienummer<br>IIN – Nummer voor nummer van uitgifter |  |  |  |  |
-| **Kirgizië**  | INN – Btw-nummer |  |  |  |  |
-| **Moldavië**  | IDNO: het unieke nummer voor staatsidentificatie dat is toegewezen aan de rechtspersoon (ook wel bekend als. Fiscale code).<br>IDNP – Persoonlijke geboortedatumcode ("Numarul de Identificare") |  |  |  |  |
-| **Myanmar** | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/) – Btw-nummer |  |  |  |  |
-| **Polen**  | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Poland-TIN.pdf) – Btw-nummer<br>[PESEL](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Poland-TIN.pdf) – Het nationale identificatienummer dat in Polen wordt gebruikt (Pools Powszechny Elektroniczny System Ewidencji Ludności, Universal Electronic System for Registration of the Population) |  |  |  |  |
-| **Rusland**  | [INN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Russia-TIN.pdf) – Btw-nummer (Russisch "Individualiy Nomer Nalogoplatelshika") |  |  |  |  |
-| **Saoedi-Arabië** | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Saudi-Arabia-TIN.pdf) – Btw-nummer |  |  |  |  |
-| **South Africa** | TRN – btw-nummer |  |  |  |  |
-| **Zuid-Soedan** | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/) – Btw-nummer |  |  |  |  |
-| **Tadzjikistan**  | INN – Btw-nummer<br>EIN – Employer Identification number<br>KPP: dit is een code die de reden voor de organisatieregistratie wekt. |  |  |  |  |
-| **Thailand** | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/) – Btw-nummer |  |  |  |  |
-| **Turkije** | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Turkey-TIN.pdf) – Btw-nummer<br>NIN |  |  |  |  |
-| **Oekraïne**  | EGRPOU<br>EDRPOU – Lokale id |  |  |  |  |
-| **Verenigde Arabische Emiraten** | Belasting-id<br>[BTW-nummer](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/UAE-TIN.pdf) : ook wel btw-registratienummer genoemd. Dit is het unieke nummer dat een bebelastingspersoon (zakelijke) of niet-belastbare rechtspersoon identificeert die is geregistreerd voor btw. |  |  |  |  |
-| **Verenigde Staten** | [EIN](https://irs.ein-forms-gov.com/?keyword=employer%20identification%20number&source=Google&network=o&device=c&devicemodel=&mobile=&adposition%5d&targetid=kwd-81501461534755:loc-190&msclkid=458d3159f6051392f5286e8e75ed79ce) – Employer Identification number |  |  |  |  |
-| **Oezbekistan**  | INN – Btw-nummer |  |  |  |  |
-| **Vietnam** | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/) – Btw-nummer |  |  |  |  |
-| **Venezuela** | RIF : is een belastingnummer ("Registro de Identificación Fiscal") |  |  |  |  |
+| Land of regio | Details |
+|:--|:--|
+| **Armenië** | INN – Btw-nummer<br>BTW-nummer: ook wel btw-registratienummer genoemd. Dit is het unieke nummer dat een bebelastingspersoon (zakelijke) of niet-belastbare rechtspersoon identificeert die is geregistreerd voor btw.<br>Nummer van openbare service |
+| **Azerbeidzjan**  | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Azerbaijan-TIN.pdf) – Btw-nummer<br>INN – Btw-nummer |
+| **Republiek Belarus**  | UNP: dit is een getal met negen cijfers (numeriek voor organisaties, alfanumeriek voor individuen) dat een regio-id, een seriële waarde per regio en een controlecijfer bevat. |
+|**Brazilië** | [CNPJ](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Brazil-TIN.pdf) – (Cadastro Nacional da Pessoa Jurídica, of National Registry of Legal Entities). Dit is een identificatienummer dat is uitgegeven aan Braziliaanse bedrijven door het Ministerie van Federale Belastingdienst van Brazilië  |
+| **China** | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/China-TIN.pdf) – Btw-nummer |
+| **Hongarije**  | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Hungary-TIN.pdf) – Btw-nummer |
+| **India** | Belasting-id<br>[PAN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/India-TIN.pdf) – (Presence Across Nation) PAN India Involvement betekent dat er één organisatie is die op verschillende locaties in India actief is. |
+| **Irak** | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/) – Btw-nummer |
+| **Kazachstan**  | BIN – Bankidentificatienummer<br>IIN – Nummer voor nummer van uitgifter |
+| **Kirgizië**  | INN – Btw-nummer |
+| **Moldavië**  | IDNO: het unieke nummer voor staatsidentificatie dat is toegewezen aan de rechtspersoon (ook wel bekend als. Fiscale code).<br>IDNP – Persoonlijke geboortedatumcode ("Numarul de Identificare") |
+| **Myanmar** | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/) – Btw-nummer |
+| **Polen**  | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Poland-TIN.pdf) – Btw-nummer<br>[PESEL](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Poland-TIN.pdf) – Het nationale identificatienummer dat in Polen wordt gebruikt (Pools Powszechny Elektroniczny System Ewidencji Ludności, Universal Electronic System for Registration of the Population) |
+| **Rusland**  | [INN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Russia-TIN.pdf) – Btw-nummer (Russisch "Individualiy Nomer Nalogoplatelshika") |
+| **Saoedi-Arabië** | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Saudi-Arabia-TIN.pdf) – Btw-nummer |
+| **South Africa** | TRN – btw-nummer |
+| **Zuid-Soedan** | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/) – Btw-nummer |
+| **Tadzjikistan**  | INN – Btw-nummer<br>EIN – Employer Identification number<br>KPP: dit is een code die de reden voor de organisatieregistratie wekt. |
+| **Thailand** | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/) – Btw-nummer |
+| **Turkije** | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Turkey-TIN.pdf) – Btw-nummer<br>NIN |
+| **Oekraïne**  | EGRPOU<br>EDRPOU – Lokale id |
+| **Verenigde Arabische Emiraten** | Belasting-id<br>[BTW-nummer](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/UAE-TIN.pdf) : ook wel btw-registratienummer genoemd. Dit is het unieke nummer dat een bebelastingspersoon (zakelijke) of niet-belastbare rechtspersoon identificeert die is geregistreerd voor btw. |
+| **Verenigde Staten** | [EIN](https://irs.ein-forms-gov.com/?keyword=employer%20identification%20number&source=Google&network=o&device=c&devicemodel=&mobile=&adposition%5d&targetid=kwd-81501461534755:loc-190&msclkid=458d3159f6051392f5286e8e75ed79ce) – Employer Identification number |
+| **Oezbekistan**  | INN – Btw-nummer |
+| **Vietnam** | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/) – Btw-nummer |
+| **Venezuela** | RIF : is een belastingnummer ("Registro de Identificación Fiscal") |

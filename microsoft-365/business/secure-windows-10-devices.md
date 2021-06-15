@@ -27,12 +27,12 @@ search.appverid:
 - MOE150
 ms.assetid: 21e5551f-fa35-4f13-9418-f80d668b6a2b
 description: Meer informatie over het configureren van de instellingen van het standaardapparaatbeleid dat Windows 10 apparaat ontvangt bij het aanmelden bij hun werk- of schoolaccount.
-ms.openlocfilehash: 86db1c152f9f6ac1fe6093b4a55a74b69fbd8b0f
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 3f85549e722c9aa4196cf50fc02bee2e89506017
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579969"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925234"
 ---
 # <a name="secure-windows-10-devices"></a>Windows 10-apparaten beveiligen
 
@@ -44,9 +44,10 @@ De instellingen die u hier configureert, maken deel uit van het standaardapparaa
 
 Alle instellingen zijn standaard **ingeschakeld**. De volgende instellingen zijn beschikbaar:
   
-|||
-|:-----|:-----|
+
+
 |Instelling  <br/> |Beschrijving  <br/> |
+|:-----|:-----|
 |Bescherm pc's tegen virussen en andere bedreigingen met Windows Defender-antivirussoftware  <br/> |Daarvoor moet Windows Defender-antivirussoftware zijn ingeschakeld om pc's te beschermen tegen de gevaren die verbinding met internet met zich meebrengt.  <br/> |
 |Bescherm pc's tegen internetdreigingen in Microsoft Edge  <br/> |Hiermee worden instellingen in Edge ingeschakeld die gebruikers helpen beschermen tegen schadelijke websites en downloads.  <br/> |
 |Bestanden en mappen op pc's beschermen tegen onbevoegde toegang met BitLocker  <br/> |Bitlocker beschermt gegevens door de harde schijven van de computer te versleutelen en te beschermen tegen blootstelling van gegevens als een computer zoekraakt of wordt gestolen. Zie Veelgestelde vragen [over Bitlocker voor meer informatie.](/windows/security/information-protection/bitlocker/bitlocker-frequently-asked-questions)  <br/> |

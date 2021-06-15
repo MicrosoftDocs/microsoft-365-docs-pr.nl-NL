@@ -5,13 +5,15 @@ keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie, ITISM
 ms.service: m365-md
 author: jaimeo
 ms.author: jaimeo
+manager: laurawi
+ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: e545b64670bb92c40465f1c50b2cb46b9fd7a8d8
-ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
+ms.openlocfilehash: f51c99ed39e9f647f3e069c22eb3e37441f57be5
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49841433"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924469"
 ---
 # <a name="microsoft-managed-desktop-and-itil"></a>Microsoft Managed Desktop en ITIL
 
@@ -28,7 +30,7 @@ In deze tabel worden belangrijke ITIL-fasen en -processen Microsoft Managed Desk
 
 
 
-|ITIL-proces |Beschrijving  |Documentatie |
+|ITIL-proces |Omschrijving  |Documentatie |
 |---------|---------|---------|
 |Servicebeheer     | Reactietijden worden gedefinieerd voor ondersteuningsaanvragen en incidenten van beheerders.  |  [Ondersteuning voor beheerders voor Microsoft Managed Desktop](working-with-managed-desktop/admin-support.md)  |
 |Servicecatalogusbeheer     | Servicebeschrijving waarin onderdelen van de service worden beschreven, blijft trouw aan de status van de service, die beschikbaar is voor alle huidige en geïnteresseerde klanten.<br><br>Vereisten die gedetailleerd zijn om te begrijpen wat er nodig is om de service te kunnen gebruiken.  | - [Microsoft Managed Desktop servicebeschrijving](service-description/index.md)<br><br>- [Maak u klaar voor inschrijving in Microsoft Managed Desktop](get-ready/index.md)  |
@@ -40,7 +42,7 @@ In deze tabel worden belangrijke ITIL-fasen en -processen Microsoft Managed Desk
 ## <a name="service-transition"></a>Serviceovergang
 
 
-|ITIL-proces |Beschrijving  |Documentatie |
+|ITIL-proces |Omschrijving  |Documentatie |
 |---------|---------|---------|
 |Beheer wijzigen     | Gedefinieerde verantwoordelijkheidsbalans, procesoverzicht en typen met betrekking tot wijzigingsbeheer beschikbaar.  | [Microsoft Managed Desktop en monitoring](service-description/operations-and-monitoring.md#change-management) |
 |Release- en implementatiebeheer     |  Microsoft Managed Desktop beheert updates voor apparaten die zijn geregistreerd voor de service.  | [Hoe updates worden verwerkt in Microsoft Managed Desktop](service-description/updates.md)        |
@@ -52,7 +54,7 @@ In deze tabel worden belangrijke ITIL-fasen en -processen Microsoft Managed Desk
 ## <a name="service-operation"></a>Servicebewerking
 
 
-|ITIL-proces |Beschrijving  |Documentatie  |
+|ITIL-proces |Omschrijving  |Documentatie  |
 |---------|---------|---------|
 |Gebeurtenisbeheer     |  Details over het bewaken van apparaten worden verstrekt.<br><br>Standaardbesturingssystemen voor de Microsoft Managed Desktop service zijn gedetailleerd. |  - [Beveiliging in Microsoft Managed Desktop](service-description/security.md)<br>- [Microsoft Managed Desktop en monitoring](service-description/operations-and-monitoring.md)       |
 |Incidentbeheer  | Microsoft Managed Desktop incidenten per gedefinieerde ernstsdefinities onderzoeken en er actie op ondernemen.  |  [Definities van ernst van ondersteuningsverzoeken](working-with-managed-desktop/admin-support.md#support-request-severity-definitions)       |

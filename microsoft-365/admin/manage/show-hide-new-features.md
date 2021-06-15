@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Bepaal welke Office-functies moeten worden weergeven of verbergen wanneer een gebruiker Help kiest > Nieuw in hun Office-app op Windows met behulp van de functie Nieuw in Office in het Microsoft 365-beheercentrum.
-ms.openlocfilehash: b9d20e3df4a2de540316dce0e6a6905c07e65176
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 319d5c0aabb0a61b01872acaeeb3ad362b72de37
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915025"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924833"
 ---
 # <a name="manage-which-office-features-appear-in-whats-new"></a>Beheren welke Office functies worden weergegeven in Nieuwe functies
 
@@ -60,9 +60,8 @@ U kunt filteren welke functies worden weergegeven op de pagina Beheren **Office 
 
 Nieuwe functies worden weergegeven op de pagina op basis van de volgende planning:
 
-||||
+|Kanaal|Datum|Actie ondernemen|
 |:-----|:-----|:-----|
-|**Kanaal** <br/> |**Datum** <br/> |**Actie ondernemen** <br/> |
 |**Huidige** <br/> |15e van de maand  <br/> |1 - 3 weken vóór de maandelijkse release <br/> |
 |**Monthly Enterprise** <br/> |Eerste van de maand  <br/> |Twee weken vóór de belangrijkste release met nieuwe functies |
 |**Halfjaarlijkse onderneming (voorbeeld)** <br/> |1 september en 1 maart <br/> | 2 weken vóór de belangrijkste release met nieuwe functies|

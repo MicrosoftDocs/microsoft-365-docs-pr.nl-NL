@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: bd66c26c-73a4-45a8-8642-3ea4ee7cd89d
 description: Meer informatie over instellingen die beschikbaar zijn in Microsoft 365 voor bedrijven om uw Windows 10 beveiligen.
-ms.openlocfilehash: acfb27b2e4592d4ed1e446a63c9495ae07d916de
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 4859681d5e71a61b8a5dd58114bce899f485967a
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578222"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925314"
 ---
 # <a name="edit-or-create-device-protection-settings-for-windows-10-pcs"></a>Instellingen voor apparaatbeveiliging bewerken of maken voor Windows 10 pc's
 
@@ -67,10 +67,10 @@ Bekijk een video over het beveiligen van Windows 10 apparaten met Microsoft 365 
 Alle instellingen zijn standaard **ingeschakeld**. De volgende instellingen zijn beschikbaar.
   
 Zie Hoe kunnen beveiligingsfuncties [in Microsoft 365 Premium Intune-instellingen](map-protection-features-to-intune-settings.md)voor meer informatie. 
-  
-|||
-|:-----|:-----|
+
+
 |Instelling  <br/> |Beschrijving  <br/> |
+|:-----|:-----|
 |Bescherm pc's tegen virussen en andere bedreigingen met Windows Defender-antivirussoftware  <br/> |Daarvoor moet Windows Defender-antivirussoftware zijn ingeschakeld om pc's te beschermen tegen de gevaren die verbinding met internet met zich meebrengt.  <br/> |
 |Bescherm pc's tegen internetdreigingen in Microsoft Edge  <br/> |Hiermee worden instellingen in Edge ingeschakeld die gebruikers helpen beschermen tegen schadelijke websites en downloads.  <br/> |
 |Gebruik regels die de kwetsbaarheid voor aanvallen van apparaten verminderen  <br/> |Wanneer deze optie is ingeschakeld, kunnen hiermee acties en apps worden geblokkeerd die doorgaans door malware worden gebruikt om apparaten te infecteren. Deze instelling is alleen beschikbaar als Windows Defender Antivirus is ingesteld op Aan. Zie [Kwetsbaarheid voor aanvallen verminderen](/windows/security/threat-protection/microsoft-defender-atp/exploit-protection) voor meer informatie.  <br/> |

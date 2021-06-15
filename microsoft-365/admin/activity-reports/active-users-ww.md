@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Rapporten in het beheercentrum - Actieve gebruikers
+title: Het rapport Microsoft 365 actieve gebruikers beoordelen
 ms.author: pebaum
 author: pebaum
 manager: scotv
@@ -19,14 +19,14 @@ search.appverid:
 - GEA150
 ms.assetid: fc1cf1d0-cd84-43fd-adb7-a4c4dfa8112d
 description: Lees hoe u een rapport Actieve gebruikers kunt krijgen met behulp van het dashboard Microsoft 365 Rapporten in het Microsoft 365-beheercentrum en ontdek hoeveel productlicenties worden gebruikt.
-ms.openlocfilehash: 8ca9e32a36be068ada8b59ce0f456a82541be8d9
-ms.sourcegitcommit: 039205fdaaa2a233ff7e95cd91bace474b84b68c
+ms.openlocfilehash: 8ea9feeb18cb1885023ec14f1ffb4d77b2775877
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611888"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924369"
 ---
-# <a name="microsoft-365-reports-in-the-admin-center---active-users"></a>Microsoft 365 Rapporten in het beheercentrum - Actieve gebruikers
+# <a name="assess-the-microsoft-365-active-users-report"></a>Het rapport Microsoft 365 actieve gebruikers beoordelen
 
 In Microsoft 365 **dashboard Rapporten** ziet u het activiteitenoverzicht voor de producten in uw organisatie. U kunt inzoomen op rapporten op het niveau van afzonderlijke producten om een gedetailleerder inzicht te krijgen in de activiteiten binnen elk product. Bekijk [het overzichtsonderwerp over rapporten](activity-reports.md).
   
@@ -44,15 +44,25 @@ U kunt bijvoorbeeld het rapport **Actieve gebruikers** gebruiken om te kijken ho
 
 U kunt actieve gebruikers weergeven in het Office 365 rapport door het tabblad **Actieve gebruikers te** kiezen.<br/>![Microsoft 365 rapporten - Microsoft Office 365 actieve gebruikers.](../../media/56fe2e54-76ad-49e5-886f-1344c2697258.png)
 
-|||
-|:-----|:-----|
-|1.  <br/> |In het rapport **Actieve gebruikers** kunnen trends worden weergegeven voor de laatste 7, 30, 90 of 180 dagen. Als u echter een bepaalde dag in het rapport bekijkt, worden in de tabel (7) gegevens voor maximaal 28 dagen vanaf de huidige datum (niet de datum waarop het rapport is gegenereerd) weergeven.  <br/> |
-|2.  <br/> |De gegevens in elk rapport hebben meestal betrekking op de laatste 24 tot 48 uur.  <br/> |
-|3.  <br/> |In **de grafiek** Gebruikers ziet u dagelijks actieve gebruikers in de rapportageperiode gescheiden door product.  <br/> In **de grafiek** Activiteit ziet u het aantal dagelijkse activiteiten in de rapportageperiode, gescheiden door product. <br/> In de grafiek **Services** ziet u het aantal gebruikers per activiteitstype en service.  <br/> |
-|4.  <br/> | In de **grafiek Gebruikers** wordt op de x-as de geselecteerde rapportageperiode weergegeven en op de y-as worden de dagelijkse actieve gebruikers gescheiden en de kleur gecodeerd per licentietype weergegeven.  <br/>  In de **grafiek Activiteit** wordt op de x-as de geselecteerde rapportageperiode weergegeven en op de y-as wordt het aantal dagelijkse activiteiten gescheiden en de kleur gecodeerd   per licentietype weergegeven. <br/> Op de activiteitengrafiek **Services** worden op de x-as de afzonderlijke services weergegeven die voor uw gebruikers zijn ingeschakeld in de opgegeven periode. Op de y-as wordt het aantal gebruikers per activiteitsstatus weergegeven, voorzien van een kleurcodering per activiteitsstatus.      <br/> |
-|5.  <br/> |U kunt de reeks filteren die u in de grafiek ziet door een item in de legenda te selecteren. Door deze selectie te wijzigen, verandert de informatie in de rastertabel niet.  <br/> |
-|6.  <br/> |U kunt de rapportgegevens ook exporteren naar een Excel .csv bestand door de **koppeling Exporteren te** selecteren. Hiermee exporteert u de gegevens van alle gebruikers en kunt u eenvoudige sortering en filtering toepassen voor verdere analyse. Als u minder dan 2000 gebruikers hebt, kunt u de tabel in het rapport zelf sorteren en filteren. Als u meer dan 2000 gebruikers hebt, moet u de gegevens exporteren om te kunnen filteren en sorteren.  <br/> |
-|7.  <br/> |Gebruik de besturingselementen van een kolom om te wijzigen welke gegevens worden weergegeven in de rastertabel.  <br/> Als uw abonnement wordt beheerd door 21Vianet, ziet u geen Yammer. <br/> <br/> |
-|||
+- In het rapport Actieve gebruikers kunnen trends worden weergegeven voor de laatste 7, 30, 90 of 180 dagen. Als u echter een bepaalde dag in het rapport bekijkt, worden in de tabel (7) gegevens voor maximaal 28 dagen vanaf de huidige datum (niet de datum waarop het rapport is gegenereerd) weergeven.
+
+- De gegevens in elk rapport hebben meestal betrekking op de laatste 24 tot 48 uur.
+
+- In de grafiek Gebruikers ziet u dagelijks actieve gebruikers in de rapportageperiode gescheiden door product.
+In de grafiek Activiteit ziet u het aantal dagelijkse activiteiten in de rapportageperiode, gescheiden door product.
+In de grafiek Services ziet u het aantal gebruikers per activiteitstype en service.
+
+- In de grafiek Gebruikers wordt op de x-as de geselecteerde rapportageperiode weergegeven en op de y-as worden de dagelijkse actieve gebruikers gescheiden en de kleur gecodeerd per licentietype weergegeven.
+In de grafiek Activiteit wordt op de x-as de geselecteerde rapportageperiode weergegeven en op de y-as wordt het aantal dagelijkse activiteiten gescheiden en de kleur gecodeerd per licentietype weergegeven.
+Op de activiteitengrafiek Services worden op de x-as de afzonderlijke services weergegeven die voor uw gebruikers zijn ingeschakeld in de opgegeven periode. Op de y-as wordt het aantal gebruikers per activiteitsstatus weergegeven, voorzien van een kleurcodering per activiteitsstatus.    
+
+- U kunt de reeks filteren die u in de grafiek ziet door een item in de legenda te selecteren. Door deze selectie te wijzigen, verandert de informatie in de rastertabel niet.
+
+- U kunt de rapportgegevens ook exporteren naar een Excel .csv bestand door de koppeling Exporteren te selecteren. Hiermee exporteert u de gegevens van alle gebruikers en kunt u eenvoudige sortering en filtering toepassen voor verdere analyse. Als u minder dan 2000 gebruikers hebt, kunt u de tabel in het rapport zelf sorteren en filteren. Als u meer dan 2000 gebruikers hebt, moet u de gegevens exporteren om te kunnen filteren en sorteren.
+
+- Gebruik de besturingselementen van een kolom om te wijzigen welke gegevens worden weergegeven in de rastertabel.
+Als uw abonnement wordt beheerd door 21Vianet, ziet u geen Yammer.
+
+
 
 Als het beleid van uw organisatie verhindert dat u rapporten weergeeft waarin gebruikersgegevens kunnen worden geïdentificeerd, kunt u de privacy-instelling voor elk van deze rapporten wijzigen. Bekijk de sectie **Details op gebruikersniveau** verbergen in [Activiteitenrapporten in het Microsoft 365 beheercentrum.](activity-reports.md)  

@@ -21,13 +21,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
-description: Bescherm uw zakelijke e-mail en gegevens tegen cyberdreigingen, waaronder ransomware, phishing en schadelijke bijlagen.
-ms.openlocfilehash: b274bb6bcdf71641ff8b196921a501bae9cbba28
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+description: Uw zakelijke e-mail en gegevens beschermen tegen cyberdreigingen, zoals ransomware, phishing en schadelijke bijlagen.
+ms.openlocfilehash: a5d87c907d47be2d8edc12642ad4e93afb0eb142
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635960"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924621"
 ---
 # <a name="top-10-ways-to-secure-microsoft-365-for-business-plans"></a>Top 10 manieren om uw Microsoft 365 zakelijke abonnementen te beveiligen
 
@@ -35,7 +35,7 @@ Als u een kleine of middelgrote organisatie bent die een van de bedrijfsplannen 
 
 Microsoft raadt u aan om de taken uit te voeren die worden vermeld in de volgende tabel die van toepassing zijn op uw serviceplan.
 
-||Taak|Microsoft 365 Business Standard|Microsoft 365 Business Premium|
+|*Nummer*|Taak|Microsoft 365 Business Standard|Microsoft 365 Business Premium|
 |---|---|---|---|
 |1|[Meervoudige verificatie instellen](secure-your-business-data.md#setup)|![Inbegrepen](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Inbegrepen](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |2|[Uw gebruikers trainen](secure-your-business-data.md#train)|![Inbegrepen](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Inbegrepen](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
@@ -256,7 +256,7 @@ Als u een anti-phishingbeleid wilt maken in Defender Office 365, bekijkt u een k
 |Instelling of optie|Aanbevolen instelling|
 |---|---|
 |Naam|Domein en meest waardevolle campagnemedewerkers|
-|Beschrijving|Zorg ervoor dat het belangrijkste personeel en ons domein niet worden nagebootst.|
+|Omschrijving|Zorg ervoor dat het belangrijkste personeel en ons domein niet worden nagebootst.|
 |Gebruikers toevoegen om ze te beveiligen|Selecteer **+ Een voorwaarde toevoegen, De ontvanger is**. Typ gebruikersnamen of voer het e-mailadres in van de kandidaat, campagnemanager en andere belangrijke personeelsleden. U kunt maximaal 20 interne en externe adressen toevoegen die u wilt beschermen tegen imitatie.|
 |Domeinen toevoegen om te beveiligen|Selecteer **+ Een voorwaarde toevoegen, Het domein van de geadresseerde is**. Voer het aangepaste domein in dat is gekoppeld aan Microsoft 365-abonnement, als u er een hebt gedefinieerd. U kunt meer dan één domein invoeren.|
 |Acties kiezen|Als e-mail wordt verzonden door een nagebootste gebruiker: selecteer **Bericht omleiden** naar een ander e-mailadres en typ vervolgens het e-mailadres van de beveiligingsbeheerder. bijvoorbeeld securityadmin@contoso.com. <br/> Als e-mail wordt verzonden door een nagebootsd domein: selecteer **Quarantainebericht.**|
@@ -291,7 +291,7 @@ Als u een Safe wilt maken, bekijkt u een [korte trainingsvideo](../../business-v
 |Instelling of optie|Aanbevolen instelling|
 |---|---|
 |Naam|Huidige en toekomstige e-mailberichten blokkeren met gedetecteerde malware.|
-|Beschrijving|Blokkeer huidige en toekomstige e-mailberichten en bijlagen met gedetecteerde malware.|
+|Omschrijving|Blokkeer huidige en toekomstige e-mailberichten en bijlagen met gedetecteerde malware.|
 |Bijlages opslaan onbekende malwarereactie|Selecteer **Blokkeren: blokkeer de huidige en toekomstige e-mailberichten en bijlagen met gedetecteerde malware.**|
 |Bijlage omleiden bij detectie|Omleiding inschakelen (selecteer dit vak) <br/> Voer het beheerdersaccount of een postvakinstelling in voor quarantaine. <br/> Pas de bovenstaande selectie toe als er malware wordt gescand op bijlagen of als er een fout optreedt (schakel dit vakje in).|
 |Toegepast op|Het domein van de geadresseerde is . . . selecteer uw domein.|
@@ -346,7 +346,7 @@ Een nieuw beleid maken dat is gericht op alle geadresseerden in uw domein:
 
 Zie Koppelingen in Microsoft Defender voor Safe voor [meer Office 365.](../../security/office-365-security/atp-safe-links.md)
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Meervoudige verificatie voor Microsoft 365](multi-factor-authentication-microsoft-365.md) (artikel)\
 [Prioriteitsaccounts beheren](../setup/priority-accounts.md) en controleren (artikel)\

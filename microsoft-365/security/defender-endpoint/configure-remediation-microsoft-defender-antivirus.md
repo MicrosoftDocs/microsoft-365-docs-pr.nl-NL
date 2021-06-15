@@ -4,28 +4,26 @@ description: Configureren wat Microsoft Defender Antivirus moet doen wanneer er 
 keywords: herstel, oplossing, verwijderen, bedreigingen, quarantaine, scannen, herstellen
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
+ms.technology: mde
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
 localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
+ms.topic: article
 ms.custom: nextgen
 ms.date: 03/16/2021
 ms.reviewer: ''
 manager: dansimp
-ms.technology: mde
-ms.topic: article
-ms.openlocfilehash: 45886b94ec5ea11f01bfe23092eef4bd72691554
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 9b765d14e31d6c4890aeace41e4fe79bafdd889e
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274506"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925573"
 ---
 # <a name="configure-remediation-for-microsoft-defender-antivirus-detections"></a>Herstel configureren voor Microsoft Defender Antivirus-detecties
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
 **Van toepassing op:**
@@ -73,7 +71,7 @@ Zie Ook [Herstel-vereiste geplande volledige](scheduled-catch-up-scans-microsoft
 - [Microsoft Defender Antivirus-scanopties configureren](configure-advanced-scan-types-microsoft-defender-antivirus.md)
 - [Geplande scans Microsoft Defender Antivirus configureren](scheduled-catch-up-scans-microsoft-defender-antivirus.md)
 - [Microsoft Defender Antivirus-scans op aanvraag configureren en uitvoeren](run-scan-microsoft-defender-antivirus.md)
-- [De meldingen configureren die op eindpunten worden weergegeven](configure-notifications-microsoft-defender-antivirus.md)
+- [De meldingen configureren die worden weergegeven op eindpunten](configure-notifications-microsoft-defender-antivirus.md)
 - [Interactie tussen eindgebruikers Microsoft Defender Antivirus configureren](configure-end-user-interaction-microsoft-defender-antivirus.md)
 - [De resultaten van scans en herstel van Microsoft Defender Antivirus aanpassen, starten en controleren](customize-run-review-remediate-scans-microsoft-defender-antivirus.md)
 - [Microsoft Defender Antivirus in Windows 10](microsoft-defender-antivirus-in-windows-10.md)

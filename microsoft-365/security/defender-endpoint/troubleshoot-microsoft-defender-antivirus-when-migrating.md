@@ -7,6 +7,7 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 localization_priority: normal
+ms.topic: article
 author: martyav
 ms.author: v-maave
 ms.custom: nextgen
@@ -14,12 +15,12 @@ ms.date: 09/11/2018
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 3fcc79e767edb533a20402a2f92ba4abc7d8386a
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: 3eb4d01957383efc8df47e9fee6eb6394c80015a
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764589"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924381"
 ---
 # <a name="troubleshoot-microsoft-defender-antivirus-while-migrating-from-a-third-party-solution"></a>Problemen met Microsoft Defender Antivirus oplossen die optreden tijdens migratie vanuit een externe oplossing
 
@@ -48,7 +49,7 @@ Dit probleem kan zich manifesteert in de vorm van verschillende gebeurtenis-ID's
 
 ### <a name="associated-event-ids"></a>Gekoppelde gebeurtenis-IDs
 
- Gebeurtenis-id | Naam van logboek | Beschrijving | Source
+ Gebeurtenis-id | Naam van logboek | Omschrijving | Source
 -|-|-|-
 15 | Toepassing | Bijgewerkt Windows Defender status is bijgewerkt naar SECURITY_PRODUCT_STATE_OFF. | Beveiligingscentrum
 5007 | Microsoft-Windows-Windows Defender/Operational | Windows Defender Antivirus De configuratie is gewijzigd.  Als dit een onverwachte gebeurtenis is, moet u de instellingen controleren, omdat dit mogelijk het gevolg is van malware.<br /><br />**Oude waarde:** Standaard\IsServiceRunning = 0x0<br />**Nieuwe waarde:** HKLM\SOFTWARE\Microsoft\Windows Defender\IsServiceRunning = 0x1 | Windows Defender

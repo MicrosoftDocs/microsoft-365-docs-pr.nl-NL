@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Microsoft Defender instellen voor het Office 365 en gevoelige gegevens beschermen tegen phishing, malware en andere bedreigingen.
-ms.openlocfilehash: 4b5142efbf4392f017cd9b96f6a9c36ef2000bb7
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: a995063cef6fdc42ad62079d49d58edc9d07b52c
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245139"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924314"
 ---
 # <a name="increase-threat-protection"></a>Bedreigingsbeveiliging verbeteren
 
@@ -81,8 +81,8 @@ Een regel voor e-mailtransport maken:
 
 6. Klik op **Opslaan**.
 
-|Instelling|Gebruikers waarschuwen voordat ze bijlagen van Office openen||
-|---|---|---|
+|Instelling|Gebruikers waarschuwen voordat ze bijlagen van Office openen|
+|---|---|
 |Naam|Anti-ransomwareregel: gebruikers waarschuwen|
 |Pas deze regel toe als . . .|Elke bijlage . . . bestandsextensie komt overeen. . .|
 |Woorden of woordgroepen opgeven|Voeg deze bestandstypen toe:  <br/> dotm, docm, xlsm, sltm, xla, xlam, xll, pptm, potm, ppam, ppsm, sldm|
@@ -145,7 +145,7 @@ Als u een anti-phishingbeleid wilt maken in Microsoft Defender voor Office 365, 
 |Instelling of optie|Aanbevolen instelling|
 |---|---|
 |Naam|Domein en meest waardevolle campagnemedewerkers|
-|Beschrijving|Zorg ervoor dat het belangrijkste personeel en ons domein niet worden nagebootst.|
+|Omschrijving|Zorg ervoor dat het belangrijkste personeel en ons domein niet worden nagebootst.|
 |Gebruikers toevoegen om ze te beveiligen|Selecteer **+ Een voorwaarde toevoegen, De ontvanger is**. Typ gebruikersnamen of voer het e-mailadres in van de kandidaat, campagnemanager en andere belangrijke personeelsleden. U kunt maximaal 20 interne en externe adressen toevoegen die u wilt beschermen tegen imitatie.|
 |Domeinen toevoegen om te beveiligen|Selecteer **+ Een voorwaarde toevoegen, Het domein van de geadresseerde is**. Voer het aangepaste domein in dat is gekoppeld aan Microsoft 365-abonnement, als u er een hebt gedefinieerd. U kunt meer dan één domein invoeren.|
 |Acties kiezen|Als e-mail wordt verzonden door een nagebootste gebruiker: Kies **Bericht omleiden** naar een ander e-mailadres en typ vervolgens het e-mailadres van de beveiligingsbeheerder; bijvoorbeeld: *<span> <span> Els @contoso.com.* Als e-mail wordt verzonden door een nagebootsd domein: Kies **Quarantainebericht.**|
@@ -176,7 +176,7 @@ Als u een Safe bijlagebeleid wilt maken, bekijkt u [deze korte video](../busines
 |Instelling of optie|Aanbevolen instelling|
 |---|---|
 |Naam|Huidige en toekomstige e-mailberichten blokkeren met gedetecteerde malware.|
-|Beschrijving|Blokkeer huidige en toekomstige e-mailberichten en bijlagen met gedetecteerde malware.|
+|Omschrijving|Blokkeer huidige en toekomstige e-mailberichten en bijlagen met gedetecteerde malware.|
 |Bijlages opslaan onbekende malwarereactie|Selecteer **Blokkeren: blokkeer de huidige en toekomstige e-mailberichten en bijlagen met gedetecteerde malware.**|
 |Bijlage omleiden bij detectie|Omleiding inschakelen (selecteer dit vak) Voer het beheerdersaccount of een postvakinstelling in voor quarantaine.          Pas de bovenstaande selectie toe als er malware wordt gescand op bijlagen of als er een fout optreedt (schakel dit vakje in).|
 |Toegepast op|Het domein van de geadresseerde is . . . selecteer uw domein.|

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: df2d2660267c38dccf5ef09fa4955615d3a78141
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 07a49fcdcfa7ea401b16b293b4831244253d2b28
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636264"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925885"
 ---
 # <a name="prioritize-incidents-in-microsoft-365-defender"></a>Prioriteit geven aan incidenten in Microsoft 365 Defender
 
@@ -67,7 +67,7 @@ In de standaardwachtrij voor incidenten kunt u **Filters** selecteren om een dee
 
 In deze tabel worden de filternamen vermeld die beschikbaar zijn.
 
-| Filternaam | Beschrijving |
+| Filternaam | Omschrijving |
 |:-------|:-----|
 | Toegewezen aan | U kunt ervoor kiezen om waarschuwingen weer te geven die aan u zijn toegewezen of waarschuwingen die door automatisering worden verwerkt. |
 | Categorieën | Kies categorieën om zich te richten op specifieke tactieken, technieken of aanvalsonderdelen. |
@@ -82,6 +82,23 @@ In deze tabel worden de filternamen vermeld die beschikbaar zijn.
 | Ernst | De ernst van een incident is een indicatie van de invloed die het kan hebben op uw activa. Hoe hoger de ernst, hoe groter de impact en meestal de meest directe aandacht. |
 | Status | U kunt ervoor kiezen om de lijst met weergegeven incidenten te beperken op basis van hun status om te zien welke actief of opgelost zijn. |
 |||
+
+## <a name="save-defined-filters-as-urls"></a>Gedefinieerde filters opslaan als URL's
+
+Nadat u een handig filter hebt geconfigureerd in de wachtrij voor incidenten, kunt u de URL van het browsertabblad bladwijzer maken of op een andere manier opslaan als koppeling op een webpagina, een Word-document of een plaats naar keuze. Hierdoor hebt u met één klik toegang tot belangrijke weergaven van de incidentwachtrij, zoals:
+
+- Nieuwe incidenten
+- Incidenten met hoge ernst
+- Niet-toegewezen incidenten
+- Ernstige, niet-toegewezen incidenten
+- Incidenten die aan mij zijn toegewezen
+- Incidenten die aan mij en voor Microsoft Defender voor Eindpunt zijn toegewezen
+- Incidenten met een specifieke tag of tags
+- Incidenten met een specifieke bedreigingscategorie
+- Incidenten met een specifieke bijbehorende bedreiging
+- Incidenten met een specifieke actor
+
+Nadat u de lijst met nuttige filterweergaven hebt gecompileerd en opgeslagen als URL's, [](manage-incidents.md) kunt u deze snel verwerken en prioriteit geven aan de incidenten in uw wachtrij en deze beheren voor de volgende analyse.
 
 ## <a name="next-steps"></a>Volgende stappen
 

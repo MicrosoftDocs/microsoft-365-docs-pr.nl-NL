@@ -1,7 +1,7 @@
 ---
-title: De sectie analistrapport in bedreigingsanalyses begrijpen
+title: Meer inzicht in de sectie analistrapport in bedreigingsanalyse.
 ms.reviewer: ''
-description: Meer informatie over de sectie analistrapport van elk rapport voor bedreigingsanalyse. Meer informatie over bedreigingen, risicobeperking, detecties, geavanceerde zoekquery's en meer.
+description: Hoe de rapportsectie van bedreigingsanalyserapporten informatie biedt over bedreigingen, risicobeperking, detecties, geavanceerde query's voor het zoeken en meer.
 keywords: analistrapport, bedreigingsanalyse, detecties, geavanceerde zoekquery's, risicobeperking,
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,14 +17,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 2a442a642a71bd6bf3a52dbf3901c4367c2c10d8
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: e791249418503ada5d98b74c8ae273664851cc8e
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844992"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52926437"
 ---
-# <a name="understand-the-analyst-report-in-threat-analytics"></a>Het analistrapport in bedreigingsanalyses begrijpen
+# <a name="the-analyst-report-in-threat-analytics"></a>Het analistrapport in bedreigingsanalyse
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -43,7 +43,7 @@ _Rapportsectie van een analyserapport voor bedreigingen_
 ## <a name="scan-the-analyst-report"></a>Het analistrapport scannen 
 Elke sectie van het analyticusrapport is ontworpen om actie-informatie te verstrekken. Hoewel rapporten variëren, bevatten de meeste rapporten de secties die in de volgende tabel worden beschreven.
 
-| Rapportsectie | Beschrijving |
+| Rapportsectie | Omschrijving |
 |--|--|
 | Samenvatting van leidinggevenden | Overzicht van de bedreiging, inclusief wanneer deze voor het eerst werd gezien, de motivaties, belangrijke gebeurtenissen, belangrijke doelen en verschillende hulpmiddelen en technieken. U kunt deze informatie gebruiken om verder te beoordelen hoe u prioriteit kunt geven aan de bedreiging in de context van uw branche, geografische locatie en netwerk. |
 | Analyse | Technische informatie over de bedreigingen, waaronder de details van een aanval en hoe aanvallers een nieuwe techniek of aanvalsoppervlak kunnen gebruiken | 

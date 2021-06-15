@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 hideEdit: true
 description: Meer informatie over het maximum aantal beleidsregels en items per beleid voor bewaarbeleid en bewaarlabelbeleid
-ms.openlocfilehash: 2dac852342c080c4f8334562dc76449d6963facc
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 92647911cfc3435c2d88ce5caa0624a34467a60f
+ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878050"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52908099"
 ---
 # <a name="limits-for-retention-policies-and-retention-label-policies"></a>Limieten voor bewaarbeleid en retentielabelbeleid
 
@@ -37,7 +37,7 @@ Een enkele tenant kan maximaal 10.000 beleidsregels hebben (in iedere configurat
 
 Deze limiet van 10.000 beleidsregels omvat ook enkele limieten voor het maximumaantal beleidsregels voor gegevensretentie per workload:
 
-- Exchange Online (in iedere configuratie): 1.800
+- Exchange (in iedere configuratie): 1.800
 - SharePoint of OneDrive: (alle sites automatisch inbegrepen): 13
 - SharePoint of OneDrive (specifieke locaties inbegrepen of uitgesloten): 2.600
 
@@ -49,10 +49,16 @@ Als u de optionele configuratie gebruikt om uw bewaarinstellingen te beperken to
 
 Maximale aantal items per beleidsregel voor retentie:
 
-  - 1.000 postvakken (gebruikerspostvakken of groepspostvakken)
-  - 1.000 Microsoft 365-groepen
-  - 1.000 gebruikers voor privéchats in Teams
-  - 100 sites (OneDrive of SharePoint)
+- Exchange-postvakken: 1.000
+- Microsoft 365-groepen: 1.000
+- Berichten Teams-kanaal: 1.000
+- Teams-chats: 1.000
+- Berichten Yammer-community: 1.000
+- Berichten Yammer-gebruikers: 1.000
+- SharePoint-sites: 100
+- OneDrive-accounts: 100
+
+Skype voor Bedrijven moet worden beperkt tot specifieke gebruikers en het maximum aantal ondersteunde gebruikers per beleid is 1.000.
 
 Omdat deze limieten per beleid gelden, moet u mogelijk specifieke items opnemen of uitsluiten, waardoor u de limiet overschijdt. In dat geval kunt u aanvullende beleidsregels maken die dezelfde bewaarinstellingen hebben. Zie de volgende sectie voor [voorbeelden van scenario's en oplossingen](#examples-of-using-multiple-policies-to-avoid-exceeding-maximum-numbers) waarin om deze reden meerdere bewaarbeleidsregels zijn gebruikt.
 
@@ -85,10 +91,10 @@ Voorbeeld met SharePoint:
 
 ## <a name="maximum-number-of-items-for-disposition"></a>Maximum aantal te verwijderen items
 
-Voor het [verwijderen van inhoud](disposition.md) moet je rekening houden met de volgende beperkingen:
+Voor het [verwijderen van inhoud](disposition.md) moet u rekening houden met de volgende beperkingen:
 
-- 1.000.000 items in afwachting van verwijderen per fase voor elk retentielabel
+- 1.000.000 items in afwachting van verwijdering per fase voor elk retentielabel
 
-- Bewijs van verwijdering tot zeven jaar nadat het item is verwijderd, met een limiet van 1.000.000 items per retentielabel voor die periode. 
+- Bewijs van verwijdering tot zeven jaar nadat het item is verwijderd, met een limiet van 1.000.000 artikelen per retentielabel voor die periode. 
     
-    Als je een bewijs van verwijdering nodig hebt dat hoger is dan deze limiet van 1.000.000 voor items die zijn gemarkeerd als records, neem je contact op met [Microsoft-ondersteuning](../business-video/get-help-support.md).
+Als u een bewijs van verwijdering nodig hebt dat hoger is dan deze limiet van 1.000.000 voor items die zijn gemarkeerd als records, neemt u contact op met [Microsoft-ondersteuning](../business-video/get-help-support.md).

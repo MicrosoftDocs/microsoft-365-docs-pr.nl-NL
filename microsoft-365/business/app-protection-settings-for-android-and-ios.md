@@ -25,12 +25,12 @@ search.appverid:
 - MET150
 ms.assetid: 6f2b80b4-81c3-4714-a7bc-ae69313e8a33
 description: Informatie over het maken, bewerken of verwijderen van een app-beheerbeleid en het beveiligen van werkbestanden op Android- of iOS-apparaten.
-ms.openlocfilehash: 2e157737990c7aca6e87a676e90f62f0d40ad372
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 92dce1e8761e53b85df85f2a84f30ab307f63e6d
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580289"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925058"
 ---
 # <a name="set-app-protection-settings-for-android-or-ios-devices"></a>Instellingen voor app-beveiliging instellen voor Android- of iOS-apparaten
 
@@ -81,10 +81,10 @@ In de volgende tabellen vindt u gedetailleerde informatie over de instellingen d
 ### <a name="settings-that-protect-work-files"></a>Instellingen voor het beveiligen van werkbestanden
 
 De volgende instellingen zijn beschikbaar voor het beveiligen van werkbestanden bij verlies of diefstal van het apparaat van een gebruiker:
-  
-|||
-|:-----|:-----|
+
+
 |Instelling  <br/> |Beschrijving  <br/> |
+|:-----|:-----|
 |Werkbestanden van een inactief apparaat verwijderen na zoveel dagen  <br/> |Als een apparaat niet wordt gebruikt voor het aantal dagen dat u hier opgeeft, worden alle werkbestanden die op het apparaat zijn opgeslagen, automatisch verwijderd.  <br/> |
 |Gebruikers dwingen om alle werkbestanden op te slaan in OneDrive voor Bedrijven  <br/> |Als deze instelling **Aan** is, is de enige beschikbare locatie voor het opslaan van werkbestanden OneDrive voor Bedrijven.  <br/> |
 |Werkbestanden versleutelen  <br/> |Laat deze instelling **ingeschakeld** zodat werkbestanden worden beveiligd door versleuteling. Zelfs als het apparaat verloren of gestolen is, kan niemand uw bedrijfsgegevens lezen.  <br/> |
@@ -92,10 +92,10 @@ De volgende instellingen zijn beschikbaar voor het beveiligen van werkbestanden 
 ### <a name="settings-that-control-how-users-access-office-files-on-mobile-devices"></a>Instellingen die bepalen hoe gebruikers Office-bestanden op mobiele apparaten kunnen openen
 
 De volgende instellingen zijn beschikbaar om te bepalen hoe gebruikers toegang tot Office-werkbestanden hebben:
-  
-|||
-|:-----|:-----|
+
+
 |Instelling  <br/> |Beschrijving  <br/> |
+|:-----|:-----|
 |Een pincode of vingerafdruk vereisen om toegang te krijgen tot Office-apps  <br/> |Als deze instelling **On** is, moeten gebruikers naast hun gebruikersnaam en wachtwoord een andere vorm van verificatie opgeven voordat ze Office apps op hun mobiele apparaten kunnen gebruiken.<br/> |
 |Pincode opnieuw instellen wanneer het aanmelden ... keer mislukt  <br/> |Om te voorkomen dat een niet-geautoriseerde gebruiker een pincode kan raden, wordt de pincode opnieuw ingesteld na het aantal door u opgegeven verkeerde aanmeldpogingen.  <br/> |
 |Vereisen dat gebruikers zich opnieuw aanmelden als Office-apps inactief zijn geweest gedurende  <br/> |Met deze instelling wordt bepaald hoelang een gebruiker inactief kan zijn voordat hij of zij wordt gevraagd zich opnieuw aan te melden.  <br/> |

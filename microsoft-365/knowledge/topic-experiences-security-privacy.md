@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Meer informatie over het plannen van microsoft Viva-onderwerpen voor beveiliging en privacy
-ms.openlocfilehash: 587b6a2921e7d1a3cc8d4ab663ff199fdd36871d
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: b8c82b1914df739ea9086a4ce1585733a7b6d854
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114060"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925489"
 ---
 # <a name="microsoft-viva-topics-security-and-privacy"></a>Microsoft Viva-onderwerpen beveiliging en privacy
 
@@ -57,6 +57,10 @@ In de volgende tabel wordt beschreven wat gebruikers - kijkers van onderwerpen, 
 |Bestanden|Bestanden zijn alleen zichtbaar voor gebruikers die machtigingen hebben voor de broninhoud.|
 |Pagina's|Pagina's zijn alleen zichtbaar voor gebruikers die machtigingen hebben voor de broninhoud.|
 |Sites|Sites zijn alleen zichtbaar voor gebruikers die machtigingen hebben voor de broninhoud.|
+
+## <a name="users-personal-and-private-data"></a>Persoonlijke en persoonlijke gegevens van gebruikers
+
+Met Viva-onderwerpen worden alleen onderwerpen ontdekt in de SharePoint sites die u opgeeft. Persoonlijke opslag van gebruikers, zoals persoonlijke e-mail of OneDrive, is niet inbegrepen.
 
 ## <a name="best-practices"></a>Aanbevolen procedures
 

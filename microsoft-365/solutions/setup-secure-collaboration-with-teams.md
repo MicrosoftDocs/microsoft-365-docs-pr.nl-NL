@@ -17,12 +17,12 @@ ms.custom:
 f1.keywords: NOCSH
 recommendations: false
 description: Meer informatie over het instellen van veilige samenwerking met inhoud in Teams om uw gegevens te beveiligen op basis van de gevoeligheid.
-ms.openlocfilehash: 12c8bfd2c7c59e1cc4dcf149e394d2c7dc456530
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 7a5b8f58cc5e4a23d2d143419f99ecdd87b949c1
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52539057"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924357"
 ---
 # <a name="set-up-secure-collaboration-with-microsoft-365-and-microsoft-teams"></a>Veilige samenwerking instellen met Microsoft 365 en Microsoft Teams
 
@@ -178,7 +178,7 @@ Met deze trainingsmodules kunnen uw gebruikers Teams, groepen en SharePoint gebr
 |:---|:---|
 |![Uw teamtrainingspictogram instellen en aanpassen](../media/set-up-customize-team-training.png)<br>**[Uw team instellen en aanpassen](https://support.microsoft.com/office/702a2977-e662-4038-bef5-bdf8ee47b17b)**|![SharePoint trainingspictogram delen en synchroniseren](../media/sharepoint-share-sync-training.png)<br>**[Delen en synchroniseren](https://support.microsoft.com/office/98cb2ff2-c27e-42ea-b055-c2d895f8a5de)**|
 |![Teams pictogram voor het uploaden en zoeken van bestanden](../media/smc-teams-upload-find-files-training.png)<br>**[Upload en bestanden zoeken](https://support.microsoft.com/office/57b669db-678e-424e-b0a0-15d19215cb12)**||
-|![Pictogram Samenwerken in teams en kanalen](../media/teams-collaborate-channels-training.png)<br>**[Samenwerken in teams en kanalen](https://support.microsoft.com/office/c3d63c10-77d5-4204-a566-53ddcf723b46)**|||
+|![Pictogram Samenwerken in teams en kanalen](../media/teams-collaborate-channels-training.png)<br>**[Samenwerken in teams en kanalen](https://support.microsoft.com/office/c3d63c10-77d5-4204-a566-53ddcf723b46)**||
 
 ## <a name="illustrations"></a>Illustraties
 

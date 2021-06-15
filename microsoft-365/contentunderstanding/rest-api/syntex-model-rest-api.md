@@ -11,12 +11,12 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: Overzicht van de REST API voor model voor documentbegrip in SharePoint Syntex.
-ms.openlocfilehash: e661df76828db0d05f7c3492880259117b9f8bf1
-ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
+ms.openlocfilehash: 279c624bb818e5d8d33b476f997290269ff634cb
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 06/11/2021
-ms.locfileid: "52908087"
+ms.locfileid: "52904236"
 ---
 # <a name="sharepoint-syntex-document-understanding-model-rest-api"></a>REST API voor model voor documentbegrip in SharePoint Syntex
 
@@ -24,14 +24,14 @@ U kunt de SharePoint REST-interface gebruiken om een model voor documentbegrip t
 
 De SharePoint Online (en SharePoint 2016 en hoger on-premises) REST-service ondersteunt het combineren van meerdere aanvragen tot één oproep aan de service met behulp van de optie OData $batch query. 
 
-Zie voor meer informatie en koppelingen naar codevoorbeelden [Batchaanvragen maken met de REST API's](/sharepoint/dev/sp-add-ins/make-batch-requests-with-the-rest-apis).
+Zie voor meer informatie en koppelingen naar codevoorbeelden [Batchaanvragen maken met de REST API's](/sharepoint/dev/sp-add-ins/make-batch-requests-with-the-rest-apis.md).
 
 ## <a name="prerequisites"></a>Vereisten
 
 Zorg ervoor dat u bekend bent met het volgende voordat u aan de slag gaat:
 
-- [De SharePoint REST-service leren kennen](/sharepoint/dev/sp-add-ins/get-to-know-the-sharepoint-rest-service) 
-- [Basisbewerkingen uitvoeren met SharePoint REST-eindpunten](/sharepoint/dev/sp-add-ins/complete-basic-operations-using-sharepoint-rest-endpoints)
+- [De SharePoint REST-service leren kennen](/sharepoint/dev/sp-add-ins/get-to-know-the-sharepoint-rest-service.md) 
+- [Basisbewerkingen uitvoeren met SharePoint REST-eindpunten](/sharepoint/dev/sp-add-ins/complete-basic-operations-using-sharepoint-rest-endpoints.md)
 
 ## <a name="rest-commands"></a>REST-opdrachten
 

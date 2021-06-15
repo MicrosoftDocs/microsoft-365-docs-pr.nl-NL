@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: ed34fff3-2881-4ed4-9906-1ba6bb8dd804
 description: Meer informatie over het automatisch installeren van de 32-bits Office apps op Windows 10 computers en deze bijgewerkt houden.
-ms.openlocfilehash: 868d06fadfef0f55b41131b7fdfbb368b9128405
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 843be426d817da1173769b3b66dc4c054179f0fd
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580049"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924222"
 ---
 # <a name="prepare-for-office-client-deployment-by-microsoft-365-for-business"></a>Voorbereiden op Office clientimplementatie per Microsoft 365 voor bedrijven
 
@@ -59,14 +59,15 @@ De eindgebruiker waarvan de pc:
     
 - **geen** 2016 Windows Installer (MSI) zelfstandige apps (zoals Visio of Project) heeft. Microsoft 365 voor bedrijven upgrades Office de Klik-en-Klaar-versie van Office 2016 en dat werkt niet met zelfstandige Office 2016 MSI. 
     
-In de volgende tabel ziet u welke actie de eindgebruikers/beheerders mogelijk moeten ondernemen, afhankelijk van hun begintoestand, om een succesvolle 32-bits Klik-en-Werk-versie van Office-implementatie te hebben vanaf de Microsoft 365 voor zakelijke beheerconsole.
-  
-|**Beginstatus van de Office-installatie**|**Actie die moet worden ondernomen voordat Microsoft 365 voor bedrijven Office installeren**|**Eindstatus**|
+In de volgende tabel ziet u welke actie de eindgebruikers/beheerders mogelijk moeten ondernemen, afhankelijk van hun begintoestand, om een succesvolle 32-bits Klik-en-Werk-versie van Office-implementatie te hebben vanaf de Microsoft 365 voor zakelijke beheerconsole.<br/>
+
+
+|Beginstatus van de Office-installatie|Actie die moet worden ondernomen voordat Microsoft 365 voor bedrijven Office installeren|Eindstatus|
 |:-----|:-----|:-----|
 |Geen Office-suite geïnstalleerd  <br/> |Geen  <br/> |Office 32-bits 2016 is geïnstalleerd met behulp van Klik-en-Werk  <br/> |
 |Bestaande 32-bits Klik-en-klaar-versie van Office (2016 of lager) en geen zelfstandige apps  <br/> |Geen  <br/> |Er is, zo nodig **\***, een upgrade uitgevoerd naar de meest recente 32-bits Klik-en-klaar-versie van Office 2016 <br/> |
 |Bestaande 32-bits 32-bits versie van Office en 32 bits- of 64-bits zelfstandige Office-apps (bijvoorbeeld Visio, Project)  <br/> |Geen  <br/> |Zelfstandige apps worden niet beïnvloed. Suite is bijgewerkt naar de 32-bits Klik-en-klaar-versie van Office 2016  <br/> |
-|Bestaande 32-bits Klik-en-klaar-versie van Office en 32-bits of 64-bits (behalve 2016) MSI zelfstandige Office-apps  <br/> |Geen  <br/> |Zelfstandige apps worden niet beïnvloed. Suite is bijgewerkt naar de 32-bits Klik-en-klaar-versie van Office 2016  <br/> ||||
+|Bestaande 32-bits Klik-en-klaar-versie van Office en 32-bits of 64-bits (behalve 2016) MSI zelfstandige Office-apps  <br/> |Geen  <br/> |Zelfstandige apps worden niet beïnvloed. Suite is bijgewerkt naar de 32-bits Klik-en-klaar-versie van Office 2016  <br/> |
 |Een bestaande 64-bits Klik-en-klaar-versie van Office  <br/> |Verwijder de 64-bits Office apps, als u deze kunt vervangen door 32-bits Office apps  <br/> |Als 64-bits Office-apps worden verwijderd, wordt de 32-bits Klik-en-klaar-versie van Office 2016 geïnstalleerd  <br/> |
 |Een bestaande MSI-installatie van Office 2016 met of zonder zelfstandige apps  <br/> |Verwijder MSI Office 2016.  <br/> |32-bits Klik-en-klaar-versie van Office 2016 is geïnstalleerd. Geen wijziging van zelfstandige apps  <br/> |
 |Bestaande MSI-installatie van Office 2013 (of eerder) en/of zelfstandige Office-apps  <br/> |Geen  <br/> |32-bits Klik-en-klaar-versie van Office 2016 met de bestaande MSI-Office-installatie (en zelfstandige apps) bestaan naast elkaar  <br/> |

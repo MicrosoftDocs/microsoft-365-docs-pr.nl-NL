@@ -16,12 +16,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Meer informatie over het Business Assist-programma en hoe het uw organisatie kan helpen met verbeterde hulp en gebruik voor Microsoft 365 voor bedrijven.
-ms.openlocfilehash: ee0884ec1c95795a6a7847dfeaffdfcb2fac4beb
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 1df0be7d53f01b83e76dd70741d043f0a6a1e0e4
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52768979"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924585"
 ---
 # <a name="business-assist-for-microsoft-365"></a>Bedrijfsassistent voor Microsoft 365
 
@@ -33,7 +33,7 @@ Haal het meeste uit uw abonnement met deskundig advies van specialisten in klein
 
 |&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|
-|**Snel aan de weg** <br> Werk samen met een specialist in kleine bedrijven om Microsoft 365 functies in te stellen die uw bedrijf beschermen en het een professioneel uiterlijk geven. |**Iedereen in uw bedrijf machtigen** <br> Al uw werknemers, niet alleen de persoon die verantwoordelijk is voor IT, kunnen rechtstreeks naar Microsoft-experts gaan voor snellere doorlopende ondersteuning. |**Zakelijke mogelijkheden ontgrendelen** <br> Lees meer over onderbewaarde functies en krijg advies over manieren om meer waarde uit uw abonnement te halen. |
+|Werk samen met een specialist in kleine bedrijven om Microsoft 365 functies in te stellen die uw bedrijf beschermen en het een professioneel uiterlijk geven. |Al uw werknemers, niet alleen de persoon die verantwoordelijk is voor IT, kunnen rechtstreeks naar Microsoft-experts gaan voor snellere doorlopende ondersteuning. |Lees meer over onderbewaarde functies en krijg advies over manieren om meer waarde uit uw abonnement te halen. |
 |**Uw cloudmigratie versnellen** <br> Krijg persoonlijke hulp bij het verplaatsen van al uw huidige bestanden (e-mail, opslag, documenten en communicatie) naar Microsoft 365. |**Toegangsspecialisten met gemak** <br> Ons team neemt het gesprek op waar u het laatst hebt achtergelaten. Geen kaartjes om bij te houden, geen robots, geen lange wachttijden. |**Up-to-date blijven** <br> Regelmatige controles die u helpen op de hoogte te blijven wanneer er nieuwe servicemogelijkheden worden toegevoegd en de behoeften van uw bedrijf zich ontwikkelen. |
 | | | |
 

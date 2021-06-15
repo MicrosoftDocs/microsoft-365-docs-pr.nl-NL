@@ -18,12 +18,12 @@ ms.custom:
 search.appverid: MOE150
 ms.assetid: 99cab9d4-ef59-4207-9f2b-3728eb46bf9a
 description: Meer informatie over het beheren Office 365 eindpunten, zodat deze werken met de netwerkarchitectuur van uw ondernemingsorganisatie.
-ms.openlocfilehash: ea89c263b1d2c89ff49ec7263269afc6030292e8
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: fa727c5c80521b6ff67c50d202d0c11c643b021e
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905114"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925861"
 ---
 # <a name="managing-office-365-endpoints"></a>Office 365-eindpunten beheren
 
@@ -60,7 +60,7 @@ De algemene configuratie is om toe te staan zonder al het uitgaande verkeer te v
 
 Er zijn twee typen PAC-bestanden die door het Get-PacFile worden gegenereerd.
 
-| Type | Beschrijving |
+| Type | Omschrijving |
 |:-----|:-----|
 |**1** <br/> |Verzend Het endpoint-verkeer rechtstreeks optimaliseren en al het andere naar de proxyserver. <br/> |
 |**2** <br/> |Send Optimize and Allow endpoint traffic direct and everything else to the proxy server. Dit type kan ook worden gebruikt om alle ondersteunde ExpressRoute voor Office 365 naar ExpressRoute-netwerksegmenten en al het andere naar de proxyserver te verzenden. <br/> |
@@ -161,7 +161,7 @@ Deze CNAME-omleidingen zijn een normaal onderdeel van de DNS en zijn transparant
 
 Een proxyserver valideert de oorspronkelijke URL, die in het bovenstaande voorbeeld serviceA.office.com, en deze URL zou worden opgenomen in Office 365 publiceren. De proxyserver vraagt om DNS-resolutie van die URL naar een IP-adres en ontvangt deze IP_1. De tussenliggende CNAME-omleidingsrecords worden niet gevalideerd.
 
-Hard gecodeerde configuraties of whitelisting op basis van indirecte Office 365 FQDN's worden niet aanbevolen, worden niet ondersteund door Microsoft en zijn bekend dat ze problemen met de klantverbinding veroorzaken. DNS-oplossingen die de omleiding van CNAME blokkeren Office 365 die anders de DNS-vermeldingen onjuist oplossen, kunnen worden opgelost via DNS-doorst forwarders waarbij DNS-recursie is ingeschakeld of door DNS-hoofdhints te gebruiken. Veel externe netwerkperimeterproducten integreren inheems aanbevolen Office 365 whitelisting van eindpunten in hun configuratie met de [Office 365 IP-adres en URL-webservice.](microsoft-365-ip-web-service.md)
+Hard gecodeerde configuraties of het gebruik van een allowlist op basis van indirecte Office 365 FQDN's worden niet aanbevolen, worden niet ondersteund door Microsoft en zijn bekend dat ze problemen met de klantverbinding veroorzaken. DNS-oplossingen die de omleiding van CNAME blokkeren Office 365 die anders de DNS-vermeldingen onjuist oplossen, kunnen worden opgelost via DNS-doorst forwarders waarbij DNS-recursie is ingeschakeld of door DNS-hoofdhints te gebruiken. Veel externe netwerkperimeterproducten integreren inheems aanbevolen Office 365 eindpunt om een allowlist in hun configuratie op te nemen met behulp van de Office 365 IP-adres- en [URL-webservice.](microsoft-365-ip-web-service.md)
 
 <a name="bkmk_akamai"> </a>
 ### <a name="why-do-i-see-names-such-as-nsatcnet-or-akadnsnet-in-the-microsoft-domain-names"></a>Waarom zie ik namen zoals nsatc.net of akadns.net in de Microsoft-domeinnamen?
@@ -193,7 +193,7 @@ Aangezien Office 365 een suite met services is die zijn gebouwd voor gebruik via
 
 De Office 365 suite is onderverdeeld in belangrijke servicegebieden. Deze kunnen selectief worden ingeschakeld voor connectiviteit en er is een gemeenschappelijk gebied, dat een afhankelijkheid voor iedereen is en altijd vereist is.
 
-| Servicegebied | Beschrijving |
+| Servicegebied | Omschrijving |
 |:-----|:-----|
 |**Exchange** <br/> |Exchange Online en Exchange Online Protection <br/> |
 |**SharePoint** <br/> |SharePoint Online en OneDrive voor Bedrijven <br/> |

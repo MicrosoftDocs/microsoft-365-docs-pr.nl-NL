@@ -29,12 +29,12 @@ search.appverid:
 - ODB160
 ms.assetid: 7aa9cdc8-2245-4218-81ee-86fa7c35f1de
 description: Meer informatie over het gebruik OneDrive en een teamsite voor Microsoft 365 en Microsoft 365 delen van bestanden.
-ms.openlocfilehash: f94ff8a60b1b4691b36ec2e1bd04088d96b1af8c
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 3ededbf2899ffd45915ad25370d5e5c93906c862
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635640"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924609"
 ---
 # <a name="set-up-file-storage-and-sharing-in-microsoft-365"></a>Bestandsopslag en -delen instellen in Microsoft 365
 
@@ -56,12 +56,12 @@ Zowel OneDrive als teamsites bieden overal toegang voor u en uw werknemers.
   
 ![Een diagram dat laat zien hoe Microsoft 365 producten kunnen OneDrive of Teamsites](../../media/7493131e-665f-4dbd-9a60-f5612aea7e42.png)
   
-Hier volgen aanbevelingen voor wat u op elke locatie kunt opslaan wanneer u OneDrive en teamsites samen gebruikt:
+Hier volgen aanbevelingen voor wat u op elke locatie kunt opslaan wanneer u OneDrive en teamsites samen gebruikt:<br/>
+
   
-||||
+|Opslaglocatie|Waar is het voor|Wat ik hier moet opslaan|
 |:-----|:-----|:-----|
-|**Opslaglocatie** <br/> |**Doel** <br/> |**Wat ik hier moet opslaan** <br/> |
-|**OneDrive** <br/> |Het opslaan van inhoud in OneDrive is net als het opslaan van bestanden op uw computer. niemand anders kan er gemakkelijk toegang toe krijgen.  <br/> Zie Wat [is OneDrive voor Bedrijven?](https://support.microsoft.com/office/187f90af-056f-47c0-9656-cc0ddca7fdc2) voor meer OneDrive voor Bedrijven <br/> |Bestanden voor uw werk waaraan andere teamleden niet regelmatig hoeven te werken of toegang toe hoeven te hebben.  <br/> |
+|**OneDrive** |Het opslaan van inhoud in OneDrive is net als het opslaan van bestanden op uw computer. niemand anders kan er gemakkelijk toegang toe krijgen.<br/> Zie Wat [is OneDrive voor Bedrijven?](https://support.microsoft.com/office/187f90af-056f-47c0-9656-cc0ddca7fdc2) voor meer OneDrive voor Bedrijven <br/> |Bestanden voor uw werk waaraan andere teamleden niet regelmatig hoeven te werken of toegang toe hoeven te hebben.<br/> |
 |**SharePoint-teamsites** <br/> |Samenwerking. Wanneer u een Microsoft 365-groep maakt (bijvoorbeeld in het Microsoft 365-beheercentrum, in Outlook of door een team te maken in Microsoft Teams), wordt er een SharePoint-teamsite gemaakt voor die groep. Als u een nieuwe SharePoint teamsite maakt vanaf de startpagina van SharePoint of vanuit het nieuwe SharePoint-beheercentrum, wordt er ook een Microsoft 365 gemaakt. Zie Wat is een SharePoint [teamsite?](https://support.microsoft.com/office/75545757-36c3-46a7-beed-0aaa74f0401e) en [Een teamsite maken in SharePoint Online voor meer informatie.](https://support.microsoft.com/office/ef10c1e7-15f3-42a3-98aa-b5972711777d)  <br/> |Bestanden die gedeeld eigendom zijn. We raden u aan afzonderlijke teamsites te gebruiken voor elke werkeenheid in uw organisatie. Als u bijvoorbeeld personeel en financiële documenten privé wilt houden voor een klein team, maakt u een aparte teamsite.  <br/> |
 
 > [!NOTE]
@@ -205,7 +205,7 @@ U kunt opslag van derden inschakelen voor uw gebruikers in Microsoft 365 zodat z
 
   - [Een Office instellen op Windows Phone met Microsoft 365](https://support.microsoft.com/office/2b7c1b51-a717-45d6-90c9-ee1c1c5ee0b7)
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Opslagruimte toevoegen voor uw abonnement](../../commerce/add-storage-space.md) (artikel)\
 [Bestanden en mappen delen met Microsoft 365 Business](https://support.microsoft.com/office/share-files-and-folders-with-microsoft-365-business-72f26d6c-bf9e-432c-8b96-e3c2437f5b65) (video)\

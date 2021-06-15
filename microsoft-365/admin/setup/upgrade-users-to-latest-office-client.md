@@ -23,12 +23,13 @@ ms.custom:
 - AdminSurgePortfolio
 ms.assetid: f6b00895-b5fd-4af6-a656-b7788ea20cbb
 description: Meer informatie over het upgraden Microsoft Office naar de nieuwste Office client voor gebruikers in uw organisatie.
-ms.openlocfilehash: 3d2d5e54506d06662c6c2feef0d142f1e195163f
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.topic: article
+ms.openlocfilehash: 877659e420079ed607adc13e5bbe44bdc979f5ac
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860569"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924693"
 ---
 # <a name="upgrade-your-microsoft-365-for-business-users-to-the-latest-office-client"></a>Upgrade uw Microsoft 365 voor zakelijke gebruikers naar de nieuwste Office client
 

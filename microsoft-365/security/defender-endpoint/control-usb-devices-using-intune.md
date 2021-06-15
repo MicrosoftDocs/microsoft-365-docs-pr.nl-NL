@@ -11,13 +11,14 @@ author: dansimp
 ms.reviewer: dansimp
 manager: dansimp
 audience: ITPro
+ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: eb7043451c4d80e3eca8b0703703ac6d7a459161
-ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
+ms.openlocfilehash: ec5cd489cae21b9140463d4ede72813ec014b3bb
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52302086"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52926353"
 ---
 # <a name="how-to-control-usb-devices-and-other-removable-media-using-microsoft-defender-for-endpoint"></a>USB-apparaten en andere verwisselbare media beheren met Microsoft Defender voor Eindpunt
 
@@ -52,7 +53,7 @@ Voorbeeld Power BI rapportsjablonen zijn beschikbaar voor Microsoft Defender voo
 ## <a name="allow-or-block-removable-devices"></a>Verwisselbare apparaten toestaan of blokkeren
 In de volgende tabel worden de manieren beschreven waarop verwisselbare apparaten kunnen worden toegestaan of geblokkeerd op basis van een gedetailleerde configuratie.
 
-| Besturingselement  | Beschrijving |
+| Besturingselement  | Omschrijving |
 |----------|-------------|
 | [USB-stations en andere randapparatuur beperken](#restrict-usb-drives-and-other-peripherals) | U kunt toestaan/voorkomen dat gebruikers alleen de USB-stations en andere randapparatuur installeren die zijn opgenomen in een lijst met geautoriseerde/niet-geautoriseerde apparaten of apparaattypen. |
 | [Installatie en gebruik van verwisselbare opslag blokkeren](#block-installation-and-usage-of-removable-storage) | U kunt verwisselbare opslag niet installeren of gebruiken. |
@@ -67,7 +68,7 @@ In de volgende tabel worden de manieren beschreven waarop verwisselbare apparate
 
 Als u malware-infecties of gegevensverlies wilt voorkomen, kan een organisatie USB-stations en andere randapparatuur beperken. In de volgende tabel wordt beschreven op welke manieren Microsoft Defender voor Eindpunt kan helpen bij het voorkomen van de installatie en het gebruik van USB-stations en andere randapparatuur.
 
-| Besturingselement  | Beschrijving
+| Besturingselement  | Omschrijving
 |----------|-------------|
 | [Installatie en gebruik van USB-stations en andere randapparatuur toestaan](#allow-installation-and-usage-of-usb-drives-and-other-peripherals) | Gebruikers toestaan om alleen de USB-stations en andere randapparatuur te installeren die zijn opgenomen in een lijst met geautoriseerde apparaten of apparaattypen |
 | [Installatie en gebruik van USB-stations en andere randapparatuur voorkomen](#prevent-installation-and-usage-of-usb-drives-and-other-peripherals) | Voorkomen dat gebruikers USB-stations en andere randapparatuur installeren die zijn opgenomen in een lijst met niet-geautoriseerde apparaten en apparaattypen |
@@ -253,7 +254,7 @@ In de volgende tabel worden de manieren beschreven waarop Microsoft Defender voo
 
 Zie de Microsoft Defender for [Endpoint-blog](https://aka.ms/devicecontrolblog)voor meer informatie over het beheren van USB-apparaten.
 
-| Besturingselement  | Beschrijving |
+| Besturingselement  | Omschrijving |
 |----------|-------------|
 | [Scannen Microsoft Defender Antivirus inschakelen](#enable-microsoft-defender-antivirus-scanning) | Schakel Microsoft Defender Antivirus scannen in voor realtime beveiliging of geplande scans.|
 | [Niet-vertrouwde en niet-ondertekende processen blokkeren op USB-randapparatuur](#block-untrusted-and-unsigned-processes-on-usb-peripherals) | Blokkeer USB-bestanden die niet zijn ondertekend of niet worden vertrouwd. |

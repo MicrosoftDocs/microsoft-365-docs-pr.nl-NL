@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: a8b487a9-2a45-4581-9dc4-5d28a47010a2
 description: Meer informatie over het toevoegen en instellen van uw domein in Microsoft 365 zodat uw services zoals e-mail en Skype voor Bedrijven Online uw eigen domeinnaam gebruiken.
-ms.openlocfilehash: 7f1ade6cb3013126fb011fe9232b3b4c2e9a82d4
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 9c26f9afcf17857c4b3b8f05b89253272cf20e56
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683125"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924501"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-365-with-any-domain-registrar"></a>Naamservers wijzigen voor het instellen van Microsoft 365 domeinregistrar
 
@@ -66,18 +66,17 @@ Voer een van de volgende handelingen uit, afhankelijk van of u een TXT-record of
   
 **Als u een TXT-record maakt, gebruikt u deze waarden:**
     
-|||||
+
+|Record type<br/> |Alias of hostnaam <br/> |Waarde <br/> |TTL<br/> |
 |:-----|:-----|:-----|:-----|
-|**Recordtype** <br/> |**Alias** of **Hostnaam** <br/> |**Waarde** <br/> |**TTL** <br/> |
 |TXT  <br/> |Voer een van de volgende handelingen uit: Typ **@** of laat het veld leeg, of typ de naam van uw domein.  <br/> > [!NOTE]> Verschillende DNS-hosts hebben verschillende vereisten voor dit veld.           
-|MS=ms *XXXXXXXX*  <br/> > [!NOTE]> Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel in Microsoft 365.           [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |Stel deze waarde in op **1 uur** of op het equivalent in minuten ( **60** ), seconden ( **3600** ) enzovoort.  <br/> |
+|MS=ms *XXXXXXXX*  <br/>**Opmerking:** Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel in Microsoft 365.           [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |Stel deze waarde in op **1 uur** of op het equivalent in minuten ( **60** ), seconden ( **3600** ) enzovoort.  <br/> |
    
 **Als u een MX-record maakt, gebruikt u deze waarden:**
     
-||||||
+|Record type|Alias of hostnaam|Waarde|Priority|TTL|
 |:-----|:-----|:-----|:-----|:-----|
-|**Recordtype**|**Alias** of **Hostnaam**|**Value**|**Priority**|**TTL**|
-|MX|Typ **@** of uw domeinnaam. |MS=ms *XXXXXXXX* > [!NOTE]> Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel in Microsoft 365.           [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |Gebruik een lagere prioriteit dan de prioriteit voor bestaande MX-records voor **Prioriteit** om conflicten met de MX-record voor de e-mailstroom te voorkomen. Zie [Wat is MX-prioriteit?](../setup/domains-faq.yml) voor meer informatie over prioriteit. |Stel deze waarde in op **1 uur** of op het equivalent in minuten ( **60** ), seconden ( **3600** ) enzovoort. |
+|MX|Typ **@** of uw domeinnaam. |MS=ms *XXXXXXXX* **Opmerking:** Dit is een voorbeeld. Gebruik hier de specifieke waarde voor **Doel of adres waarnaar wordt verwezen** uit de tabel in Microsoft 365.           [Hoe kan ik dit vinden?](../get-help-with-domains/information-for-dns-records.md)          |Gebruik een lagere prioriteit dan de prioriteit voor bestaande MX-records voor **Prioriteit** om conflicten met de MX-record voor de e-mailstroom te voorkomen. Zie [Wat is MX-prioriteit?](../setup/domains-faq.yml) voor meer informatie over prioriteit. |Stel deze waarde in op **1 uur** of op het equivalent in minuten ( **60** ), seconden ( **3600** ) enzovoort. |
    
 ### <a name="save-the-record"></a>De record opslaan
 
@@ -110,13 +109,12 @@ Als u de naamservers van het domein zelf wilt wijzigen op de website van de dome
 1. Zoek het gebied op de website van de domeinregistrar waar u de naamservers voor uw domein of een gebied kunt wijzigen waar u aangepaste naamservers kunt gebruiken.
     
 2. Maak naamserverrecords of bewerk de bestaande naamserverrecords om aan de volgende waarden te komen:
-    
-|||
-|:-----|:-----|
-|Eerste naamserver  <br/> |ns1.bdm.microsoftonline.com  <br/> |
-|Tweede naamserver  <br/> |ns2.bdm.microsoftonline.com  <br/> |
-|Derde naamserver  <br/> |ns3.bdm.microsoftonline.com  <br/> |
-|Vierde naamserver  <br/> |ns4.bdm.microsoftonline.com  <br/> |
+
+    - Voornaamserver: ns1.bdm.microsoftonline.com
+    - Tweede naamserver: ns2.bdm.microsoftonline.com
+    - Derde naamserver: ns3.bdm.microsoftonline.com
+    - Vierde naamserver: ns4.bdm.microsoftonline.com
+      
    
    > [!TIP]
    > Het is het beste om alle vier records toe te voegen, maar als uw registrar slechts twee records ondersteunt, voegt u ns1.bdm.microsoftonline.com **en** **ns2.bdm.microsoftonline.com.** 
@@ -133,12 +131,10 @@ Als u de naamservers van het domein zelf wilt wijzigen op de website van de dome
 1. Zoek het gedeelte op de website van de domeinregistrar waarop u de naamservers voor uw domein kunt wijzigen.
     
 2. Maak twee naamserverrecords, of bewerk de bestaande naamserverrecords zodat ze overeenkomen met de volgende waarden:
+
+   - Voornaamserver: ns1.dns.partner.microsoftonline.cn
+   - Tweede naamserver: ns2.dns.partner.microsoftonline.cn
     
-|||
-|:-----|:-----|
-|Eerste naamserver  <br/> |ns1.dns.partner.microsoftonline.cn  <br/> |
-|Tweede naamserver  <br/> |ns2.dns.partner.microsoftonline.cn  <br/> |
-   
    > [!TIP]
    > U moet ten minste twee naamserverrecords gebruiken. Als er andere naamservers worden vermeld, kunt u deze verwijderen of wijzigen in ns3.dns.partner.microsoftonline.cn **en** **ns4.dns.partner.microsoftonline.cn.** 
   
@@ -191,7 +187,7 @@ Nadat de naamserverrecords zijn bijgewerkt om naar Microsoft te wijzen, is uw do
 > [!NOTE]
 > Het kan enige uren duren voordat de updates van uw naamserverrecords via het DNS-systeem op internet zijn doorgevoerd. Vervolgens zijn uw e-mail en andere services van Microsoft ingesteld voor gebruik met uw domein. 
   
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [DNS-records toevoegen om uw domein te verbinden](create-dns-records-at-any-dns-hosting-provider.md) (artikel)\
 [Problemen opsporen en oplossen nadat u uw domein of DNS-records hebt toegevoegd](find-and-fix-issues.md) (artikel)\

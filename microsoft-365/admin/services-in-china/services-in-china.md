@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: a8ab5061-3346-4da0-bb7c-5260822b53ae
 description: Meer informatie over Office 365 beheerd door 21Vianet dat is ontworpen om te voldoen aan de behoeften voor veilige, betrouwbare en schaalbare cloudservices in China.
 monikerRange: o365-21vianet
-ms.openlocfilehash: bc416ca253d26cc5d391d226039223eac02720b0
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: 75bf7c7a4d7e453fa2be711c7332878b8a8f1150
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706368"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924717"
 ---
 # <a name="office-365-operated-by-21vianet"></a>Office 365, beheerd door 21Vianet
 
@@ -53,7 +53,7 @@ Zie Aan de slag als u wilt weten hoe u aan de slag kunt met algemene Office 365 
   
 ## <a name="office-365-suite"></a>Office 365 Suite
 
-|||
+|Functie|Beschikbaarheid|
 |:-----|:-----|
 |Aangepaste domeinen  <br/> |Beheerders kunnen aangepaste domeinen maken en/of gebruiken die zijn geregistreerd via Chinese specifieke domeinproviders. Als u geen aangepast domein hebt, kunt u [Een](../get-help-with-domains/buy-a-domain-name.md) domeinnaam kopen bij een domeinnaamregistrar. Als u al een domeinregistrar of [DNS-hostingprovider hebt.](../get-help-with-domains/find-your-domain-registrar.md)  <br/> Als u een openbare website maakt met behulp van de Office 365 SharePoint Online-service, moet u een ICP-nummer (Internet Content Provider) krijgen voor het nalevingsbeleid van China.  **Opmerking:** Automatische validatie voor niet-toegestaan woorden in aangepaste domeinnamen is niet beschikbaar.           |
 |Abonnementen, facturering en technische ondersteuning  <br/> |Geleverd door 21Vianet. Zie Contact opnemen met Office 365 voor zakelijke ondersteuning voor meer informatie over het contact opnemen met [ondersteuning.](../../business-video/get-help-support.md)  <br/> |
@@ -72,7 +72,7 @@ Zie Aan de slag als u wilt weten hoe u aan de slag kunt met algemene Office 365 
   
 ## <a name="sharepoint-online"></a>SharePoint Online
 
-|||
+|Functie|Beschikbaarheid|
 |:-----|:-----|
 |Een document, bibliotheek of site per e-mail delen met iemand buiten uw organisatie  <br/> |Deze functie is beschikbaar, maar als u deze functie standaard gebruikt, kunnen bestanden die worden gedeeld, buiten uw land toegankelijk zijn. Beheerders hebben wel de mogelijkheid om deze in te zetten, maar krijgen een waarschuwingsbericht waarin wordt aangegeven dat bestanden die worden gedeeld, buiten uw land kunnen worden gedeeld. Gebruikers die proberen te delen met iemand buiten de organisatie, ontvangen ook een waarschuwing. Zie Bestanden SharePoint mappen delen in Office 365 [voor meer Office 365.](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c)  <br/> |
 |Access Services  <br/> |Access 2013 wordt ondersteund, maar het toevoegen van nieuwe Access-apps is mogelijk niet beschikbaar omdat deze functie wordt teruggetrokken uit Office 365 en SharePoint Online. Het maken van nieuwe Access-web-apps en Access-webdatabases in Office 365 en SharePoint Online stopt vanaf juni 2017 en alle resterende web-apps en webdatabases in april 2018. Bovendien wordt de functionaliteit van Access 2010 niet ondersteund en kan het gebruik van een Access 2010-database leiden tot fouten en mogelijk gegevensverlies.  <br/> |
@@ -91,7 +91,7 @@ Zie Aan de slag als u wilt weten hoe u aan de slag kunt met algemene Office 365 
   
 ## <a name="outlook-web-app"></a>Outlook Web App
 
-|||
+|Functie|Beschikbaarheid|
 |:-----|:-----|
 |Blackberry Business Cloud Services (BBCS)  <br/> |Niet beschikbaar, maar u kunt wel Exchange ActiveSync apparaten of een aanbieding van Research in Motion (RIM, de blackBerry-oplossing voor draadloze e-mail) gebruiken om Blackberry Enterprise Server (BES) uit te voeren.  <br/> |
 |Information Rights Management  <br/> |Binnenkort beschikbaar.  <br/> |
@@ -167,8 +167,8 @@ Zie de volgende onderwerpen voor meer informatie over het configureren van een h
 > [!IMPORTANT]
 >  De [Exchange Server Implementatieassistent](https://go.microsoft.com/fwlink/?LinkId=506768) is een gratis webhulpmiddel waarmee u een hybride implementatie kunt configureren tussen uw on-premises organisatie en Office 365, of om volledig te migreren naar Office 365. Het hulpprogramma stelt u een klein aantal eenvoudige vragen en maakt op basis van uw antwoorden een aangepaste controlelijst met instructies voor het configureren van uw hybride implementatie. We raden u ten zeerste aan de implementatieassistent te gebruiken om een hybride implementatie te configureren. > Voor organisaties die geen upgrade willen uitvoeren naar of Exchange 2013 CU5-servers willen toevoegen, kunnen Exchange 2013 SP1-organisaties gedeelde agenda gratis/bezet delen configureren tussen hun on-premises en Exchange Online-organisaties. Zie Het configureren van Exchange hybride implementatiefuncties met Office 365 [beheerd door 21Vianet](https://support.microsoft.com/office/26e7cc26-c980-4cc5-a082-c333de544b6d)om deze functie voor hybride implementatie te configureren. 
 
-|||  
-|---|---|
+|Functie|Beschikbaarheid|
+|:-----|:-----|
 |Coëxistentie en gratis/bezet delen|Het delen van gratis/drukke agendagegevens tussen twee of meer on-premises Exchange organisaties of delen tussen twee 21Vianet-Office 365 tenants wordt niet ondersteund. Deze functie is binnenkort beschikbaar. | 
 |Agenda delen|Exchange 2013 SP1 en hoger ondersteunt het handmatig configureren van het delen van internetagenda's met andere on-premises Exchange of Exchange Online organisaties. Zie Internetagenda publiceren inschakelen voor meer informatie over het handmatig configureren van [deze functie.](/exchange/enable-internet-calendar-publishing-exchange-2013-help) | 
 Het Exchange contactgegevens op mobiele Apple-apparaten delen met de Apple iCloud. |Deze instelling/functie is standaard ingeschakeld. Beheerders moeten deze functie uitschakelen om te voorkomen dat gebruikers gegevens Exchange buiten uw organisatie delen. |
@@ -177,7 +177,7 @@ Het Exchange contactgegevens op mobiele Apple-apparaten delen met de Apple iClou
    
 ## <a name="office"></a>Office
 
-|||
+|Functie|Beschikbaarheid|
 |:-----|:-----|
 |Een nieuwe Office openen vanuit het **bestand** \> **Openen in**... knop  <br/> |Beschikbaar. De mogelijkheid om dit te doen terwijl roaming binnenkort beschikbaar is.  <br/> |
 |Opslaan in OneDrive voor Bedrijven terwijl u bent aangemeld met een Microsoft-account  <br/> |Als u uw gegevens in uw land wilt bewaren, kunt u een document niet opslaan op uw organisatiesite (OneDrive voor Bedrijven) wanneer u bent aangemeld bij Office met een Microsoft-account.  <br/> |
@@ -185,13 +185,13 @@ Het Exchange contactgegevens op mobiele Apple-apparaten delen met de Apple iClou
    
 ## <a name="office-client"></a>Office client
 
-|||
+|Functie|Beschikbaarheid|
 |:-----|:-----|
 |Account beheren (vanuit de Office client)  <br/> |Deze functie en andere functies die bedoeld zijn om naar uw Office 365-portal te gaan, wijzen momenteel naar de portal voor wereldwijd Office 365 en u kunt zich niet aanmelden met uw Office 365 beheerd door 21Vianet-account. Dit is een bekend probleem dat wordt opgelost. In de tussentijd kunt u de URL gebruiken om u aan te melden bij https://portal.partner.microsoftonline.cn/ uw account en daar instellingen te beheren. Zie Uw Microsoft 365-apps voor ondernemingen beheren voor Office 365 [beheerd door 21Vianet voor meer informatie.](https://support.microsoft.com/office/fbe473d3-69de-4d0c-aecb-b9c2d0d45bc8)  <br/> |
    
 ## <a name="onenote"></a>OneNote
 
-|||
+|Functie|Beschikbaarheid|
 |:-----|:-----|
 |Onlinevideo invoegen en afspelen  <br/> |Niet beschikbaar.  <br/> |
 |Integratie van onderzoeksvensters Bing services  <br/> |Niet beschikbaar.  <br/> |
@@ -209,7 +209,7 @@ Het Exchange contactgegevens op mobiele Apple-apparaten delen met de Apple iClou
    
 ## <a name="skype-for-business"></a>Skype voor Bedrijven
 
-|||
+|Functie|Beschikbaarheid|
 |:-----|:-----|
 |Domeinproviders ter ondersteuning van Skype voor Bedrijven  <br/> |U moet uw domein registreren bij een Chinees-specifieke domeinprovider die SRV-records ondersteunt. Zie Uw domeinregistrar of [DNS-hostingprovider](../get-help-with-domains/find-your-domain-registrar.md)zoeken voor meer informatie over het registreren van domeinen.  <br/> |
 |Vergaderen via inbelvergaderingen (de mogelijkheid om telefonische toegang toe te voegen aan vergaderingen voor gebruikers die geen toegang hebben tot een computer)  <br/> |Mogelijk ziet u opties in Skype voor Bedrijven en in het Skype voor Bedrijven-beheercentrum voor inbelvergaderingen en providers, maar deze functies zijn nog niet beschikbaar. Ze zijn binnenkort beschikbaar.  <br/> |
@@ -234,7 +234,7 @@ De AVG verleent personen (of, betrokkenen) bepaalde rechten met betrekking tot d
     
 Zie [DSR (Data Subject Requests) voor AVG voor](https://www.trustcenter.cn/privacy/gdpr-office365.mdl)meer informatie en instructies.
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Probeer of koop een abonnement Microsoft 365 voor bedrijven](../../commerce/try-or-buy-microsoft-365.md) (artikel)\
 [Ondersteuning voor Azure Information Protection voor Office 365 beheerd door 21Vianet](parity-between-azure-information-protection.md) (artikel)\

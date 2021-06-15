@@ -27,12 +27,12 @@ search.appverid:
 - MOE150
 ms.assetid: aa31319c-9196-48c9-a90b-4057e0494c7a
 description: Meer informatie over beveiligingsbeleid waarmee u kunt beheren hoe gebruikers toegang hebben tot Office apps en bestanden werken vanaf mobiele apparaten.
-ms.openlocfilehash: a48aa241c9e70cf087da3f1701e859dae7238024
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 7602b712f2dfc3ba369fd76979baaaa8d5da5c5c
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578382"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925274"
 ---
 # <a name="manage-how-users-access-office-documents-on-mobile-devices"></a>Beheren hoe gebruikers Office-documenten op mobiele apparaten openen
 
@@ -43,10 +43,9 @@ Beleidsinstellingen die bepalen hoe gebruikers toegang hebben tot Office-bestand
 ## <a name="settings-that-control-how-users-access-office-files-on-mobile-devices"></a>Instellingen die bepalen hoe gebruikers Office-bestanden op mobiele apparaten kunnen openen
 
 De volgende instellingen zijn beschikbaar om te bepalen hoe gebruikers toegang tot Office-werkbestanden hebben:
-  
-|||
-|:-----|:-----|
+
 |Instelling  <br/> |Beschrijving  <br/> |
+|:-----|:-----|
 |Een pincode of vingerafdruk vereisen om toegang te krijgen tot Office-apps  <br/> |Als deze instelling **Aan** is, moeten gebruikers een andere vorm van verificatie opgeven, naast hun gebruikersnaam en wachtwoord, voordat ze Office apps op hun mobiele apparaat kunnen gebruiken.  <br/> |
 |Pincode opnieuw instellen wanneer het aanmelden ... keer mislukt  <br/> |Om te voorkomen dat een niet-geautoriseerde gebruiker een pincode kan raden, wordt de pincode opnieuw ingesteld na het aantal door u opgegeven verkeerde aanmeldpogingen.  <br/> |
 |Vereisen dat gebruikers zich opnieuw aanmelden als Office-apps inactief zijn geweest gedurende  <br/> |Met deze instelling wordt bepaald hoelang een gebruiker inactief kan zijn voordat hij of zij wordt gevraagd zich opnieuw aan te melden.  <br/> |

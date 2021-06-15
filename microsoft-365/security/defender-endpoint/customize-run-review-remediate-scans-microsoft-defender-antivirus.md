@@ -1,6 +1,6 @@
 ---
-title: Geplande en on-demand scans uitvoeren en aanpassen
-description: U kunt de Microsoft Defender Antivirus op eindpunten in uw netwerk aanpassen en starten.
+title: Geplande scans en scans op aanvraag uitvoeren en aanpassen.
+description: Het scannen van Microsoft Defender Antivirus eindpunten in uw netwerk aanpassen en starten
 keywords: scannen, plannen, aanpassen, uitsluitingen, bestanden uitsluiten, herstel, scanresultaten, quarantaine, bedreiging verwijderen, quick scan, volledige scan, Microsoft Defender Antivirus
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -16,12 +16,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 31dbfa2ac6d5537f6d42c0bad612be5ef059368d
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: bce3fe1b6490803cb571a1a8a2387c19cc589114
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275274"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52926245"
 ---
 # <a name="customize-initiate-and-review-the-results-of-microsoft-defender-antivirus-scans-and-remediation"></a>De resultaten van scans en herstel van Microsoft Defender Antivirus aanpassen, starten en controleren
 
@@ -36,7 +36,7 @@ U kunt Groepsbeleid, PowerShell en Windows Management Instrumentation (WMI) gebr
 
 ## <a name="in-this-section"></a>In deze sectie
 
-Onderwerp | Beschrijving
+Onderwerp | Omschrijving
 ---|---
 [Bestands-, map- en proces-geopende bestandsuitsluitingen configureren en valideren in Microsoft Defender Antivirus scans](configure-exclusions-microsoft-defender-antivirus.md) | U kunt bestanden (inclusief bestanden die zijn gewijzigd door opgegeven processen) en mappen uitsluiten van scans op aanvraag, geplande scans en altijd in realtime beveiligingscontrole en scannen
 [Microsoft Defender Antivirus-scanopties configureren](configure-advanced-scan-types-microsoft-defender-antivirus.md) | U kunt Microsoft Defender Antivirus instellen dat bepaalde typen e-mailopslagbestanden, back-up- of reparse-punten en gearchiveerde bestanden (zoals .zip bestanden) in scans worden opgeslagen. U kunt ook netwerkbestandsscans inschakelen

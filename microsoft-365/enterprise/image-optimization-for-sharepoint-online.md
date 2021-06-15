@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: c7edb02a-fdab-4f91-9a20-cba01dad28ef
 description: Meer informatie over het gebruik van weergaven en sprites om de prestaties van afbeeldingen op uw SharePoint klassieke publicatiesites van Online te verbeteren.
-ms.openlocfilehash: 0f0dd078ce28b86fc998b2f83ac19d04b1a3ab02
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 15885f1d8803332e24e2656a48b796dab28c665f
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50907478"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924573"
 ---
 # <a name="image-optimization-for-sharepoint-online-classic-publishing-sites"></a>Afbeeldingsoptimalisatie SharePoint klassieke publicatiesites online
 
@@ -35,9 +35,14 @@ De laadsnelheid van een webpagina is afhankelijk van de gecombineerde grootte va
   
 ## <a name="using-sprites-to-speed-up-image-loading"></a>Sprites gebruiken om het laden van afbeeldingen te versnellen
 
-|||
-|:-----|:-----|
-| Een afbeeldingsspite bevat veel kleinere afbeeldingen. Met CSS selecteert u een deel van de samengestelde afbeelding dat u wilt weergeven op een bepaald deel van de pagina met absolute plaatsing. In feite verplaatst u één afbeelding over de pagina in plaats van meerdere afbeeldingen te laden en maakt u een klein deel van die afbeelding zichtbaar via een klein venster waarin het vereiste deel van de sprite-afbeelding wordt weergegeven aan de eindgebruiker. SharePoint Online gebruikt sprites om de verschillende pictogrammen weer te geven in de sprite spcommon.png.  <br/>  Wat hier wordt bestreken:  <br/>  Afbeeldingscompressie  <br/>  Afbeeldingsoptimalisatie  <br/>  SharePoint afbeeldingsweergaven  <br/> |![Schermafbeelding van spcommon](../media/cc5cdee1-8e54-4537-9a8a-8854f4ee849f.png)|
+![Schermafbeelding van spcommon](../media/cc5cdee1-8e54-4537-9a8a-8854f4ee849f.png)
+
+Een afbeeldingsspite bevat veel kleinere afbeeldingen. Met CSS selecteert u een deel van de samengestelde afbeelding dat u wilt weergeven op een bepaald deel van de pagina met absolute plaatsing. In feite verplaatst u één afbeelding over de pagina in plaats van meerdere afbeeldingen te laden en maakt u een klein deel van die afbeelding zichtbaar via een klein venster waarin het vereiste deel van de sprite-afbeelding wordt weergegeven aan de eindgebruiker. SharePoint Online gebruikt sprites om de verschillende pictogrammen weer te geven in het sprite spcommon.png bestand.
+
+Wat hier wordt bestreken:
+- Afbeeldingscompressie
+- Afbeeldingsoptimalisatie
+- SharePoint afbeeldingsweergaven
    
 Dit kan de prestaties verhogen omdat u slechts één afbeelding downloadt in plaats van meerdere afbeeldingen en vervolgens de cache opneemt en deze afbeelding opnieuw gebruikt. Zelfs als de afbeelding niet in de cache blijft, door één afbeelding te hebben in plaats van meerdere afbeeldingen, wordt met deze methode het totale aantal HTTP-aanvragen naar de server beperkt, waardoor de laadtijden van pagina's worden beperkt. Dit is echt een vorm van afbeeldingsbundeling. Dit is een zeer handige techniek als de afbeeldingen niet erg vaak veranderen, bijvoorbeeld pictogrammen, zoals wordt weergegeven in SharePoint voorbeeld hierboven. U kunt Web [Essentials](https://vswebessentials.com/), een open-source, community-gebaseerd project van derden gebruiken om dit eenvoudig te bereiken in Microsoft Visual Studio. Zie [Minification en bundeling in SharePoint Online voor meer informatie.](./minification-and-bundling-in-sharepoint-online.md)
   

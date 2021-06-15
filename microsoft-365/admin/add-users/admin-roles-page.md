@@ -18,13 +18,13 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Beheerdersrollen worden toegewezen aan bedrijfsfuncties en geven machtigingen om specifieke taken uit te voeren in het Beheercentrum. De Servicebeheerder opent bijvoorbeeld supporttickets met Microsoft.
-ms.openlocfilehash: c1baf7fcd9189973864929550b19ca6e32d499ae
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+description: Beheerdersrollen worden aan zakelijke functies toewijzen en geven machtigingen voor het uitvoeren van specifieke taken in het beheercentrum. De Servicebeheerder opent bijvoorbeeld supporttickets met Microsoft.
+ms.openlocfilehash: 4e2b1db207a2a590855f7fb2d0bf2019d4b57ea5
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706200"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924561"
 ---
 # <a name="get-started-with-the-roles-page"></a>Aan de slag met de pagina Rollen
 
@@ -41,11 +41,12 @@ U kunt de lijst met beheerders exporteren en zoeken en filteren op rol.
 
 ![Beheerdersrollen filteren of importeren](../../media/admin-role-page-options.png)
 
-|||
-|:-----|:-----|
-|  <br/> |Gebruik **exportbeheerderlijst om** een volledige lijst te krijgen met alle beheerdersgebruikers in uw organisatie. De lijst wordt opgeslagen in een Excel .csv bestand.   <br/> |
-|  <br/> |Gebruik **Zoeken** om te zoeken naar een beheerdersrol en uw gebruikers te zien die aan die rol zijn toegewezen.   <br/> |
-|  <br/> |Gebruik **Filter om** de weergave van weergegeven beheerdersrollen te wijzigen.   <br/> |
+- Gebruik exportbeheerderlijst om een volledige lijst te krijgen met alle beheerdersgebruikers in uw organisatie. De lijst wordt opgeslagen in een Excel .csv bestand.
+
+- Gebruik Zoeken om te zoeken naar een beheerdersrol en uw gebruikers te zien die aan die rol zijn toegewezen.
+
+- Gebruik Filter om de weergave van weergegeven beheerdersrollen te wijzigen.
+
 
 ## <a name="get-the-most-out-of-the-roles"></a>Haal het meeste uit de rollen
 
@@ -58,7 +59,7 @@ Dit is geen volledige lijst met alle machtigingen die deze rollen hebben. Select
 
 Wijs de Exchange beheerdersrol toe aan gebruikers die de e-mailpostvakken, Microsoft 365 groepen en Exchange Online. Ze kunnen ook serviceaanvragen voor Microsoft-ondersteuning openen en beheren. [Meer informatie](/microsoft-365/admin/add-users/about-exchange-online-admin-role)
 
-### <a name="global-admin"></a>Algemeen beheerder
+### <a name="global-admin"></a>Algemene beheerder
 
 Wijs de rol van globale beheerder toe aan gebruikers die globale toegang nodig hebben tot de meeste beheerfuncties en gegevens in de onlineservices van Microsoft. Te veel gebruikers globale toegang geven is een beveiligingsrisico, we raden u dan ook aan om 2 tot 4 globale beheerders te hebben. Alleen globale beheerders kunnen wachtwoorden opnieuw instellen voor alle gebruikers en domeinen toevoegen en beheren. Ze kunnen ook serviceaanvragen voor Microsoft-ondersteuning openen en beheren. De persoon die zich heeft aangemeld voor Microsoft Online Services, wordt automatisch een globale beheerder. [Meer informatie](/microsoft-365/admin/add-users/about-admin-roles#roles-available-in-the-microsoft-365-admin-center)
 
@@ -96,7 +97,7 @@ In het beheercentrum:
 
 ![Een afbeelding met een vergelijking van beheerdersrollen](../../media/compare-roles-list.png)
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Over Microsoft 365 beheerdersrollen](about-admin-roles.md) (artikel)\
 [Beheerdersrollen toewijzen](assign-admin-roles.md) (artikel)

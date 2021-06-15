@@ -7,14 +7,16 @@ author: jaimeo
 f1.keywords:
 - NOCSH
 ms.author: jaimeo
+manager: laurawi
+ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 5961ac4eb16928754849f5f32ecd06d4d2e4650d
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 6d93bf492f7cfea5a1ff863205085d853c4bbadb
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50917714"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925429"
 ---
 # <a name="how-updates-are-handled-in-microsoft-managed-desktop"></a>Hoe updates worden verwerkt in Microsoft Managed Desktop
 
@@ -38,7 +40,7 @@ Microsoft Managed Desktop gebruikt vier Azure AD-groepen om updates te beheren:
 - **Breed:** Laatste groep om functie- en kwaliteitsupdates beschikbaar te hebben. Deze groep bevat de meeste gebruikers in de tenant en geeft daarom de voorkeur aan stabiliteit ten opzichte van de snelheid in de implementatie. Het testen van apps moet hier worden uitgevoerd, omdat de omgeving het meest stabiel is. 
 
 ### <a name="moving-devices-between-update-groups"></a>Apparaten verplaatsen tussen updategroepen
-Mogelijk wilt u dat sommige apparaten updates als laatste ontvangen en andere apparaten die u als eerste wilt gebruiken. Als u deze apparaten naar de juiste updategroep wilt verplaatsen, dient u [een ondersteuningsaanvraag](../working-with-managed-desktop/admin-support.md?view=o365-worldwide) voor beheerders in en worden de apparaten voor u verplaatst. 
+Mogelijk wilt u dat sommige apparaten updates als laatste ontvangen en andere apparaten die u als eerste wilt gebruiken. Als u deze apparaten naar de juiste updategroep wilt verplaatsen, dient u [een ondersteuningsaanvraag](../working-with-managed-desktop/admin-support.md) voor beheerders in en worden de apparaten voor u verplaatst. 
 
 > [!NOTE]
 > Als u een gebruiker naar een andere updategroep wilt verplaatsen, dient u een ondersteuningsaanvraag in. Verplaats apparaten niet zelf tussen updategroepen. Er zijn ernstige gevolgen als een apparaat onjuist wordt verplaatst. Het apparaat kan onverwacht worden bijgewerkt en beleid kan conflicteren en de apparaatconfiguratie wijzigen.
