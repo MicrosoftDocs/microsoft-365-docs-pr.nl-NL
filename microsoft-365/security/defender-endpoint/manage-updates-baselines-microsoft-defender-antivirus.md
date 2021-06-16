@@ -16,13 +16,13 @@ ms.custom: nextgen
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.date: 06/09/2021
-ms.openlocfilehash: 05b2b2af87e423058d18651571d52a97ac387506
-ms.sourcegitcommit: 3584c1fe59d12512d67faf3efc955e1d67e2baa0
+ms.date: 06/14/2021
+ms.openlocfilehash: 1c7ff52398e048aa34fd9c5ab3d8edd1004ea5ec
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52862145"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929441"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>Updates Microsoft Defender Antivirus en basislijnen toepassen
 
@@ -31,17 +31,13 @@ ms.locfileid: "52862145"
 - [Microsoft Defender voor Eindpunt](/microsoft-365/security/defender-endpoint/)
 - Microsoft Defender Antivirus
 
-Er zijn twee soorten updates die betrekking hebben op het up-to-date Microsoft Defender Antivirus houden:
+Het Microsoft Defender Antivirus up-to-date houden is essentieel om ervoor te zorgen dat uw apparaten de nieuwste technologie en functies hebben die nodig zijn om te beschermen tegen nieuwe malware en aanvalstechnieken. Zorg ervoor dat u uw antivirusbeveiliging bij werkt, zelfs als Microsoft Defender Antivirus actief is in [de passieve modus.](microsoft-defender-antivirus-compatibility.md) Er zijn twee soorten updates die betrekking hebben op het up-to-date Microsoft Defender Antivirus houden:
 
 - Beveiligingsintelligentie-updates
 - Productupdates
 
-> [!IMPORTANT]
-> Het Microsoft Defender Antivirus up-to-date houden is essentieel om ervoor te zorgen dat uw apparaten de nieuwste technologie en functies hebben die nodig zijn om te beschermen tegen nieuwe malware en aanvalstechnieken.
-> 
-> Zorg ervoor dat u uw antivirusbeveiliging bij werkt, zelfs als Microsoft Defender Antivirus actief is in [de passieve modus.](./microsoft-defender-antivirus-compatibility.md)
-> 
-> Als u de meest recente datum van de engine, het platform en de handtekening wilt zien, gaat u naar de beveiligingsintelligentie-updates voor Microsoft Defender Antivirus [en andere Microsoft-antimalware.](https://www.microsoft.com/en-us/wdsi/defenderupdates)
+> [!TIP]
+> Als u de meest recente engine, platform en handtekeningdatum wilt zien, gaat u naar de beveiligingsinformatieupdates voor Microsoft Defender Antivirus [en andere Microsoft-antimalware](https://www.microsoft.com/en-us/wdsi/defenderupdates)
 
 ## <a name="security-intelligence-updates"></a>Beveiligingsintelligentie-updates
 
@@ -81,7 +77,7 @@ Al onze updates bevatten
 - prestatieverbeteringen;
 - verbeteringen in de servicebaarheid; en 
 - integratieverbeteringen (Cloud, [Microsoft 365 Defender).](/microsoft-365/security/defender/microsoft-365-defender)
-<br/>
+<br/><br/>
 <details>
 <summary> Mei-2021 (Platform: 4.18.2105.4 | Motor: 1.1.18200.4)</summary>
 

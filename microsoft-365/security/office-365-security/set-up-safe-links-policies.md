@@ -18,12 +18,12 @@ ms.collection:
 description: Beheerders kunnen informatie krijgen over het weergeven, maken, wijzigen en verwijderen van Safe Koppelingenbeleid en algemene Safe Koppelingen-instellingen in Microsoft Defender voor Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 61cb4746289a8acbdd9af7f668010604de511902
-ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
+ms.openlocfilehash: 40ae52cfce53c3fa14253a94e72f1a2bccda9a86
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52694495"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929825"
 ---
 # <a name="set-up-safe-links-policies-in-microsoft-defender-for-office-365"></a>Beleidsregels Safe Koppelingen instellen in Microsoft Defender voor Office 365
 
@@ -43,7 +43,7 @@ Er is geen ingebouwd of standaardkoppelingsbeleid Safe koppelingen. Als u Safe k
 > [!NOTE]
 > U configureert de algemene instellingen voor Safe koppelingen **buiten** Safe koppelingenbeleid. Zie Algemene instellingen [configureren voor Safe koppelingen in Microsoft Defender](configure-global-settings-for-safe-links.md)voor Office 365.
 
-U kunt Safe Koppelingen-beleid configureren in het beveiligings- & compliancecentrum of in PowerShell (Exchange Online PowerShell voor in aanmerking komende Microsoft 365-organisaties met postvakken in Exchange Online; zelfstandige EOP PowerShell voor organisaties zonder Exchange Online-postvakken, maar met Microsoft Defender voor Office 365-invoegabonnementen).
+U kunt Safe Koppelingen-beleid configureren in de Microsoft 365 Defender-portal of in PowerShell (Exchange Online PowerShell voor in aanmerking komende Microsoft 365-organisaties met postvakken in Exchange Online; zelfstandige EOP PowerShell voor organisaties zonder Exchange Online-postvakken, maar met Microsoft Defender voor Office 365-invoegabonnementen).
 
 De basiselementen van een Safe koppelingenbeleid zijn:
 
@@ -53,7 +53,7 @@ De basiselementen van een Safe koppelingenbeleid zijn:
 > [!IMPORTANT]
 > Beheerders moeten rekening houden met de verschillende configuratie-instellingen voor SafeLinks. Een van de beschikbare opties is het opnemen van gebruikersgegevens in SafeLinks. Met deze functie kunnen *Beveiligingsops-teams* mogelijke gebruikerscompromitteerden onderzoeken, corrigerende actie ondernemen en dure inbreuken beperken.
 
-Het verschil tussen deze twee elementen is niet duidelijk wanneer u de Safe koppelingen in het beveiligings- & compliancecentrum beheert:
+Het verschil tussen deze twee elementen is niet duidelijk wanneer u de Safe koppelingen in de portal Microsoft 365 Defender beheert:
 
 - Wanneer u een Safe koppelingenbeleid maakt, maakt u tegelijkertijd een veilige koppelingsregel en het bijbehorende beleid voor veilige koppelingen met dezelfde naam voor beide.
 - Wanneer u een Safe koppelingenbeleid wijzigt, wijzigen instellingen met betrekking tot de naam, prioriteit, ingeschakeld of uitgeschakeld en geadresseerdefilters de regel voor veilige koppelingen. Alle andere instellingen wijzigen het beleid voor gekoppelde veilige koppelingen.
@@ -63,19 +63,19 @@ In Exchange Online PowerShell of standalone EOP PowerShell beheert u het beleid 
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de pagina Safe **koppelingen wilt** gaan, gebruikt <https://protection.office.com/safelinksv2> u .
+- U opent de Microsoft 365 Defender-portal bij <https://security.microsoft.com/>. Als u rechtstreeks naar de pagina Safe **koppelingen wilt** gaan, gebruikt <https://security.microsoft.com/safelinksv2> u .
 
 - Zie [Verbinding maken met Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](/powershell/exchange/connect-to-exchange-online-protection-powershell) als je verbinding wilt maken met zelfstandige EOP PowerShell.
 
 - U moet machtigingen hebben toegewezen voordat u de procedures in dit artikel kunt uitvoeren:
-  - Als u beleidsregels voor Safe koppelingen wilt maken, wijzigen en  verwijderen,  moet u lid zijn van de rollengroepen Organisatiebeheer  of Beveiligingsbeheerder in het beveiligings- & compliancecentrum en lid zijn van de rollengroep Organisatiebeheer in Exchange Online. 
+  - Als u beleidsregels voor Safe-koppelingen wilt maken, wijzigen en  verwijderen,  moet u lid zijn van de rollengroepen Organisatiebeheer  of Beveiligingsbeheerder in de Microsoft 365 Defender-portal  en lid zijn van de rollengroep Organisatiebeheer in Exchange Online.
   - Voor alleen-lezen toegang tot Safe koppelingenbeleid, moet u lid  zijn van de rollengroepen Globale lezer of **Beveiligingslezer.**
 
-  Zie Machtigingen [in het Beveiligings-](permissions-in-the-security-and-compliance-center.md) & Compliancecentrum en [Machtigingen in](/exchange/permissions-exo/permissions-exo)Exchange Online.
+  Zie Machtigingen [in de](permissions-in-the-security-and-compliance-center.md) Defender Microsoft 365 portal en [Machtigingen in](/exchange/permissions-exo/permissions-exo)Exchange Online.
 
   > [!NOTE]
   > 
-  > - Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen in het Beveiligings- en compliancecentrum _en_ machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
+  > - Als u gebruikers toevoegt aan de bijbehorende Azure Active Directory-rol in het Microsoft 365-beheercentrum, krijgen  gebruikers de vereiste machtigingen in de Microsoft 365 Defender-portal en machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
   . - De **rollengroep Alleen-weergeven voor** organisatiebeheer [in](/Exchange/permissions-exo/permissions-exo#role-groups) Exchange Online biedt ook alleen-lezen toegang tot de functie.
 
 - Zie voor onze aanbevolen instellingen voor Safe [Koppelingenbeleid Safe Beleidsinstellingen voor koppelingen.](recommended-settings-for-eop-and-office365.md#safe-links-policy-settings)
@@ -84,11 +84,11 @@ In Exchange Online PowerShell of standalone EOP PowerShell beheert u het beleid 
 
 - [Er worden voortdurend nieuwe functies toegevoegd aan Microsoft Defender voor Office 365.](defender-for-office-365.md#new-features-in-microsoft-defender-for-office-365) Als er nieuwe functies worden toegevoegd, moet u mogelijk uw bestaande Safe koppelingenbeleid aanpassen.
 
-## <a name="use-the-security--compliance-center-to-create-safe-links-policies"></a>Het beveiligings- & compliancecentrum gebruiken om Safe koppelingenbeleid te maken
+## <a name="use-the-microsoft-365-defender-portal-to-create-safe-links-policies"></a>Gebruik de Microsoft 365 Defender-portal om beleidsregels voor koppelingen Safe maken
 
-Als u een aangepast Safe-koppelingenbeleid maakt in het beveiligings- & compliancecentrum, worden de regel voor veilige koppelingen en het bijbehorende beleid voor veilige koppelingen tegelijk gemaakt met dezelfde naam voor beide.
+Als u een aangepast Safe-koppelingenbeleid maakt in de Microsoft 365 Defender-portal, worden de regel voor veilige koppelingen en het bijbehorende beleid voor veilige koppelingen tegelijk gemaakt met dezelfde naam voor beide.
 
-1. Ga in het & compliancecentrum naar  ATP-koppelingen voor \>  \> **bedreigingsbeheerbeleid Safe .**
+1. Ga in Microsoft 365 Defender-portal naar **Beleidsregels &** \> **bedreigingsbeleid Safe** \> **Koppelingen.**
 
 2. Klik op **Safe pagina Koppelingen** op **Maken.**
 
@@ -158,29 +158,29 @@ Als u een aangepast Safe-koppelingenbeleid maakt in het beveiligings- & complian
 
    Wanneer u klaar bent, klikt u op **Voltooien.**
 
-## <a name="use-the-security--compliance-center-to-view-safe-links-policies"></a>Het beveiligings- & compliancecentrum gebruiken om de Safe koppelingen weer te geven
+## <a name="use-the-microsoft-365-defender-portal-to-view-safe-links-policies"></a>Gebruik de Microsoft 365 Defender-portal om het beleid voor koppelingen Safe weergeven
 
-1. Ga in het & compliancecentrum naar  ATP-koppelingen voor \>  \> **bedreigingsbeheerbeleid Safe .**
+1. Ga in Microsoft 365 Defender-portal naar **Beleidsregels &** \> **bedreigingsbeleid Safe** \> **Koppelingen.**
 
 2. Selecteer op **Safe pagina Koppelingen** een beleid in de lijst en klik erop (schakel het selectievakje niet in).
 
    De beleidsdetails worden weergegeven in een fly-out
 
-## <a name="use-the-security--compliance-center-to-modify-safe-links-policies"></a>Gebruik het beveiligings- & compliancecentrum om het beleid voor koppelingen Safe wijzigen
+## <a name="use-the-microsoft-365-defender-portal-to-modify-safe-links-policies"></a>Gebruik de Microsoft 365 Defender-portal om het beleid voor koppelingen Safe wijzigen
 
-1. Ga in het & compliancecentrum naar  ATP-koppelingen voor \>  \> **bedreigingsbeheerbeleid Safe .**
+1. Ga in Microsoft 365 Defender-portal naar ***Beleidsregels &** \> **bedreigingsbeleid** \> **Safe Koppelingen.**
 
 2. Selecteer op **Safe pagina Koppelingen** een beleid in de lijst en klik erop (schakel het selectievakje niet in).
 
 3. Klik in de beleidsdetails die worden weergegeven op **Beleid bewerken.**
 
-De beschikbare instellingen in de fly-out die worden weergegeven, zijn identiek aan de instellingen die worden beschreven in het compliancecentrum & Beveiligingscentrum gebruiken om Safe [koppelingenbeleid te](#use-the-security--compliance-center-to-create-safe-links-policies) maken.
+De beschikbare instellingen in de fly-out die worden weergegeven, zijn identiek aan de instellingen die worden beschreven in de sectie Het Microsoft 365 Defender gebruiken om Safe [koppelingenbeleid te](#use-the-microsoft-365-defender-portal-to-create-safe-links-policies) maken.
 
 Zie de volgende secties als u een beleid wilt in- of uitschakelen of de beleidsprioriteitsvolgorde wilt instellen.
 
 ### <a name="enable-or-disable-safe-links-policies"></a>Beleidsregels voor koppelingen in- Safe uitschakelen
 
-1. Ga in het & compliancecentrum naar  ATP-koppelingen voor \>  \> **bedreigingsbeheerbeleid Safe .**
+1. Ga in Microsoft 365 Defender-portal naar **Beleidsregels &** \> **bedreigingsbeleid Safe** \> **Koppelingen.**
 
 2. Let op de waarde in de **kolom Status:**
 
@@ -197,11 +197,11 @@ Voor meer informatie over de prioriteitvolgorde en het evalueren en toepassen va
 Safe Koppelingenbeleid wordt weergegeven in de volgorde waarin ze worden verwerkt (het eerste beleid heeft de **waarde** Prioriteit 0).
 
 > [!NOTE]
-> In het Beveiligings- & compliancecentrum kunt u alleen de prioriteit van het Safe koppelingen wijzigen nadat u het hebt gemaakt. In PowerShell kunt u de standaardprioriteit overschrijven wanneer u de regel veilige koppelingen maakt (die van invloed kan zijn op de prioriteit van bestaande regels).
+> In de Microsoft 365 Defender-portal kunt u alleen de prioriteit van het Safe koppelingen wijzigen nadat u deze hebt gemaakt. In PowerShell kunt u de standaardprioriteit overschrijven wanneer u de regel veilige koppelingen maakt (die van invloed kan zijn op de prioriteit van bestaande regels).
 
-Om de prioriteit van beleid te wijzigen, kunt u het beleid naar boven of beneden verplaatsen in de lijst (u kunt het **Prioriteit** snummer in het Beveiligings en compliancecentrum niet rechtstreeks wijzigen).
+Als u de prioriteit van een beleid wilt wijzigen, verplaatst u het  beleid omhoog of omlaag in de lijst (u kunt het prioriteitsnummer niet rechtstreeks wijzigen in de portal Microsoft 365 Defender).
 
-1. Ga in het & compliancecentrum naar  ATP-koppelingen voor \>  \> **bedreigingsbeheerbeleid Safe .**
+1. Ga in Microsoft 365 Defender-portal naar **Beleidsregels &** \> **bedreigingsbeleid Safe** \> **Koppelingen.**
 
 2. Selecteer op **Safe pagina Koppelingen** een beleid in de lijst en klik erop (schakel het selectievakje niet in).
 
@@ -217,9 +217,9 @@ Om de prioriteit van beleid te wijzigen, kunt u het beleid naar boven of beneden
 
 5. Klik op **Sluiten** wanneer u gereed bent.
 
-## <a name="use-the-security--compliance-center-to-remove-safe-links-policies"></a>Het beveiligings- & compliancecentrum gebruiken om Safe koppelingen te verwijderen
+## <a name="use-the-microsoft-365-defender-portal-to-remove-safe-links-policies"></a>Gebruik de Microsoft 365 Defender-portal om het beleid voor koppelingen Safe verwijderen
 
-1. Ga in het & compliancecentrum naar  ATP-koppelingen voor \>  \> **bedreigingsbeheerbeleid Safe .**
+1. Ga in Microsoft 365 Defender-portal naar **Beleidsregels &** \> **bedreigingsbeleid Safe** \> **Koppelingen.**
 
 2. Selecteer op **Safe pagina Koppelingen** een beleid in de lijst en klik erop (schakel het selectievakje niet in).
 
@@ -246,12 +246,12 @@ Het maken Safe beleid voor koppelingen in PowerShell is een proces in twee stapp
 > 
 > - U kunt een nieuwe regel voor veilige koppelingen maken en er een bestaand, niet-verbonden beleid voor veilige koppelingen aan toewijzen. Een veilige koppelingsregel kan niet worden gekoppeld aan meer dan één beleid voor veilige koppelingen.
 > 
-> - U kunt de volgende instellingen configureren voor nieuwe beleidsregels voor veilige koppelingen in PowerShell die pas beschikbaar zijn in het Beveiligings- & Compliancecentrum nadat u het beleid hebt gemaakt:
+> - U kunt de volgende instellingen configureren voor nieuwe beleidsregels voor veilige koppelingen in PowerShell die pas beschikbaar zijn in de portal Microsoft 365 Defender nadat u het beleid hebt gemaakt:
 > 
 >   - Het nieuwe beleid maken als uitgeschakeld (_ingeschakeld op_ `$false` de cmdlet **Nieuw-SafeLinksRule).**
 >   - Stel de prioriteit van het beleid in tijdens het maken _(Prioriteit)_ _\<Number\>_ op de cmdlet **Nieuw-SafeLinksRule).**
 > 
-> - Een nieuw beleid voor veilige koppelingen dat u in PowerShell maakt, is pas zichtbaar in het beveiligings- & compliancecentrum als u het beleid aan een regel voor veilige koppelingen toewijst.
+> - Een nieuw beleid voor veilige koppelingen dat u in PowerShell maakt, is niet zichtbaar in de Microsoft 365 Defender-portal totdat u het beleid toewijst aan een regel voor veilige koppelingen.
 
 #### <a name="step-1-use-powershell-to-create-a-safe-links-policy"></a>Stap 1: PowerShell gebruiken om een beleid voor veilige koppelingen te maken
 
@@ -360,7 +360,7 @@ Zie [Get-SafeLinksRule](/powershell/module/exchange/get-safelinksrule)voor gedet
 
 ### <a name="use-powershell-to-modify-safe-links-policies"></a>PowerShell gebruiken om beleidsregels voor veilige koppelingen te wijzigen
 
-U kunt de naam van een beleid voor veilige koppelingen niet wijzigen in PowerShell (de cmdlet **Set-SafeLinksPolicy** heeft geen _naamparameter)._ Wanneer u de naam van een Safe koppelingenbeleid wijzigt in het beveiligings- & compliancecentrum, wijzigt u alleen de naam van de regel voor veilige _koppelingen._
+U kunt de naam van een beleid voor veilige koppelingen niet wijzigen in PowerShell (de cmdlet **Set-SafeLinksPolicy** heeft geen _naamparameter)._ Wanneer u de naam van een Safe koppelingenbeleid in de Microsoft 365 Defender-portal wijzigt, wijzigt u alleen de naam van de regel voor veilige _koppelingen._
 
 De enige extra overweging voor het wijzigen van beleidsregels voor veilige koppelingen in PowerShell is de beschikbare syntaxis voor de parameter _DoNotRewriteUrls_ (de lijst 'De volgende URL's niet [herschrijven'):](safe-links.md#do-not-rewrite-the-following-urls-lists-in-safe-links-policies)
 
@@ -472,13 +472,13 @@ Remove-SafeLinksRule -Identity "Marketing Department"
 
 Zie [Remove-SafeLinksRule voor](/powershell/module/exchange/remove-safelinksrule)gedetailleerde syntaxis- en parametergegevens.
 
-Als u wilt controleren Safe koppelingen berichten scannen, controleert u de beschikbare Microsoft Defender voor Office 365 rapporten. Zie Rapporten voor Defender voor Office 365 [en](view-reports-for-mdo.md) Explorer gebruiken in het beveiligings- [& compliancecentrum voor meer informatie.](threat-explorer.md)
+Als u wilt controleren Safe koppelingen berichten scannen, controleert u de beschikbare Microsoft Defender voor Office 365 rapporten. Zie Rapporten voor [Defender voor](view-reports-for-mdo.md) Office 365 en Explorer gebruiken in de portal Microsoft 365 Defender voor meer [informatie.](threat-explorer.md)
 
 ## <a name="how-do-you-know-these-procedures-worked"></a>Hoe weet ik of deze procedures zijn geslaagd?
 
 Als u wilt controleren of u beleidsregels voor koppelingen hebt gemaakt, gewijzigd of Safe hebt verwijderd, gaat u als volgt te werk:
 
-- Ga in het & compliancecentrum naar  ATP-koppelingen voor \>  \> **bedreigingsbeheerbeleid Safe .** Controleer de lijst met beleidsregels, de **statuswaarden** en de **prioriteitswaarden.** Als u meer details wilt weergeven, selecteert u het beleid in de lijst en bekijkt u de details in de fly-out.
+- Ga in Microsoft 365 Defender-portal naar **Beleidsregels &** \> **bedreigingsbeleid** \> **Safe Koppelingen.** Controleer de lijst met beleidsregels, de **statuswaarden** en de **prioriteitswaarden.** Als u meer details wilt weergeven, selecteert u het beleid in de lijst en bekijkt u de details in de fly-out.
 
 - Vervang Exchange Online PowerShell of Exchange Online Protection PowerShell door de naam van het beleid of de regel, voer de volgende opdracht uit en controleer \<Name\> de instellingen:
 

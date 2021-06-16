@@ -1,5 +1,5 @@
 ---
-title: Office 365-beveiliging, Microsoft Defender voor Office 365, EOP, MSDO
+title: Office 365 Beveiligingsoverzicht, Microsoft Defender voor Office 365, EOP, MSDO
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
@@ -13,17 +13,18 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Beveiliging in Office 365, van EOP tot Defender voor Office 365-abonnementen 1 en 2, standaard- en strikte beveiligingsconfiguraties en meer. Begrijpen wat u hebt en hoe u uw eigendommen kunt beveiligen.
+description: Beveiliging in Office 365, van EOP tot Defender voor Office 365-abonnementen 1 en 2, standaard- en strikte beveiligingsconfiguraties en meer. Lees wat u hebt en leer hoe u uw eigenschappen kunt beveiligen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: db37718ce2feae9c79ff6b323eb22e30f24e72b2
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 8040a6b7758e271d68af872bc2acf9ebac3af9d4
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204373"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52926485"
 ---
-# <a name="office-365-security-overview"></a>Overzicht van Office 365-beveiliging
+# <a name="office-365-security"></a>Office 365-beveiliging
+
 
 **Van toepassing op**
 - [Exchange Online Protection](exchange-online-protection-overview.md)

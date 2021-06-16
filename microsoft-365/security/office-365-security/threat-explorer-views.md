@@ -13,16 +13,16 @@ search.appverid: ''
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Meer informatie over het gebruik van Threat Explorer en het realtimedetectierapport om bedreigingen te onderzoeken en te beantwoorden in het Beveiligings- & Compliancecentrum.
+description: Meer informatie over het gebruik van Threat Explorer en het realtimedetectierapport voor het onderzoeken en beantwoorden van bedreigingen in Microsoft 365 Defender-portal.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 78c03b45063f4bc34b47ab003bcf00d2befab886
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 1c79cc717a2dbe345627f99830590c674fa02f09
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204606"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929619"
 ---
 # <a name="views-in-threat-explorer-and-real-time-detections"></a>Weergaven in Threat Explorer en realtime detecties
 
@@ -33,9 +33,9 @@ ms.locfileid: "51204606"
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 
-![Bedreigingsverkenner](../../media/ThreatExplorerFirstOpened.png)
+![Bedreigingsverkenner](../../media/explorer.png)
 
-[Threat Explorer](threat-explorer.md) (en het realtimedetectierapport) is een krachtig, bijna realtime hulpprogramma waarmee beveiligingsteams bedreigingen kunnen onderzoeken en beantwoorden in het Beveiligings- & Compliancecentrum. Explorer (en het realtimedetectierapport) geeft informatie weer over verdachte malware en phish in e-mail en bestanden in Office 365, evenals andere beveiligingsrisico's en risico's voor uw organisatie.
+[Threat Explorer](threat-explorer.md) (en het real-time detectierapport) is een krachtig, bijna realtime hulpprogramma waarmee beveiligingsteams bedreigingen kunnen onderzoeken en beantwoorden in de portal Microsoft 365 Defender. Explorer (en het realtimedetectierapport) geeft informatie weer over verdachte malware en phish in e-mail en bestanden in Office 365, evenals andere beveiligingsrisico's en risico's voor uw organisatie.
 
 - Als u [Microsoft Defender hebt voor Office 365](defender-for-office-365.md) abonnement 2, hebt u Explorer.
 - Als u Microsoft Defender hebt voor Office 365 abonnement 1, hebt u realtime detecties.
@@ -58,7 +58,7 @@ Wanneer u Explorer (of het realtimedetectierapport) voor het eerst opent, worden
 
 Gebruik **het** menu Beeld om te wijzigen welke gegevens worden weergegeven. Met knopinfo kunt u bepalen welke weergave u wilt gebruiken.
 
-![Menu Bedreigingsverkennerweergave](../../media/ThreatExplorerViewMenu.png)
+![Menu Bedreigingsverkennerweergave](../../media/all-email.png)
 
 Nadat u een weergave hebt geselecteerd, kunt u filters toepassen en query's instellen om verdere analyse uit te voeren. In de volgende secties ziet u een kort overzicht van de verschillende weergaven die beschikbaar zijn in Explorer (of realtime detecties).
 
@@ -66,7 +66,7 @@ Nadat u een weergave hebt geselecteerd, kunt u filters toepassen en query's inst
 
 Als u dit rapport wilt bekijken, kiest u in Explorer (of realtime detecties) **de optie E-mail malware** \>  \> **weergeven.** In deze weergave ziet u informatie over e-mailberichten die zijn geïdentificeerd als malware.
 
-![Gegevens weergeven over e-mail die is geïdentificeerd als malware](../../media/ExplorerEmailMalwareMenu.png)
+![Gegevens weergeven over e-mail die is geïdentificeerd als malware](../../media/detection-technology.png)
 
 Klik **op Afzender** om uw lijst met weergaveopties te openen. Gebruik deze lijst om gegevens weer te geven op afzender, geadresseerden, afzenderdomein, onderwerp, detectietechnologie, beveiligingsstatus en meer.
 
@@ -82,13 +82,13 @@ Bekijk onder de grafiek meer informatie over specifieke berichten. Wanneer u een
 
 Als u dit rapport wilt bekijken, kiest u in Explorer (of realtime detecties) **de** optie \> **E-mail** \> **phish weergeven.** In deze weergave ziet u e-mailberichten die zijn geïdentificeerd als phishingpogingen.
 
-![Gegevens weergeven over e-mail die is geïdentificeerd als phishingpogingen](../../media/ThreatExplorerEmailPhish.png)
+![Gegevens weergeven over e-mail die is geïdentificeerd als phishingpogingen](../../media/phish.png)
 
 Klik **op Afzender** om uw lijst met weergaveopties te openen. Gebruik deze lijst om gegevens te bekijken op afzender, geadresseerden, afzenderdomein, AFZENDER-IP, URL-domein, klik op vonnis en meer.
 
 Als u bijvoorbeeld wilt zien welke acties zijn ondernomen wanneer personen op URL's klikten die zijn geïdentificeerd als phishingpogingen, kiest u Op vonnis **klikken** in de lijst, selecteert u een of meer opties en klikt u vervolgens op de knop Vernieuwen.
 
-![Klik op opties voor vonnissen voor het Phish-rapport](../../media/ThreatExplorerEmailPhishClickVerdictOptions.png)
+![Klik op opties voor vonnissen voor het Phish-rapport](../../media/click-verdict.png)
 
 Bekijk onder de grafiek meer informatie over specifieke berichten, URL-klikken, URL's en e-mail origin.
 
@@ -135,7 +135,7 @@ Als u dit rapport wilt bekijken, kiest u in Explorer (of realtime detecties) de 
 
 Informatie weergeven via malwarefamilie, detectietechnologie (hoe de malware is gedetecteerd) en werkbelasting (OneDrive, SharePoint of Teams).
 
-![Gegevens over gedetecteerde malware weergeven](../../media/d11dc568-b091-4159-b261-df13d76b520b.png)
+![Gegevens over gedetecteerde malware weergeven](../../media/malware-family.png)
 
 Bekijk onder de grafiek meer informatie over specifieke bestanden, zoals bestandsnaam van bijlagen, werkbelasting, bestandsgrootte, wie het bestand het laatst heeft gewijzigd en meer.
 

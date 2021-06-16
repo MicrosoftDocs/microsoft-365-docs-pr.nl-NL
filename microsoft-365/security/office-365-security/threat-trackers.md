@@ -18,12 +18,12 @@ ms.collection:
 description: Meer informatie over Threat Trackers, waaronder nieuwe Noteworthy Trackers, om uw organisatie op de hoogte te houden van beveiligingsproblemen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: bd658edd12bb3cc88d5adce3a2cd16529833d8d2
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 6d7585df980fca322a3bc5ce28f2ef2f7f53284e
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204477"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929995"
 ---
 # <a name="threat-trackers---new-and-noteworthy"></a>Threat Trackers - Nieuw en Opmerkelijk
 
@@ -50,10 +50,10 @@ De meeste trackerpagina's bevatten trending numbers die regelmatig worden bijgew
 
 Trackers zijn slechts enkele van de vele geweldige functies die u krijgt met [Microsoft Defender voor Office 365 Plan 2.](office-365-ti.md) Bedreigingstrackers zijn [Noteworth-trackers,](#noteworthy-trackers) [Trending-trackers,](#trending-trackers)Bijgespoorde [query's](#tracked-queries)en [Opgeslagen query's.](#saved-queries)
 
-Als u uw Threat Trackers voor uw organisatie wilt bekijken en gebruiken, gaat u naar het Beveiligings- & Compliance center ( ) en kiest u <https://protection.office.com> **Threat Management** \> **Threat Tracker**.
+Als u uw Threat Trackers voor uw organisatie wilt bekijken en gebruiken, gaat u naar de Microsoft 365 Defender-portal () en kiest u <https://security.microsoft.com> **E-mail &** \> **samenwerkingsdreigingstracker.**
 
 > [!NOTE]
-> Als u Threat Trackers wilt gebruiken, moet u een globale beheerder, beveiligingsbeheerder of beveiligingslezer zijn. Zie [Machtigingen in het Beveiligings- & Compliancecentrum](permissions-in-the-security-and-compliance-center.md).
+> Als u Threat Trackers wilt gebruiken, moet u een globale beheerder, beveiligingsbeheerder of beveiligingslezer zijn. Zie [Machtigingen in de Microsoft 365 Defender-portal](permissions-in-the-security-and-compliance-center.md).
 
 ### <a name="noteworthy-trackers"></a>Opmerkelijke trackers
 
@@ -87,15 +87,15 @@ U kunt altijd een opmerkelijke trackerquery of een van uw eigen Verkenner-query'
 
 Of u nu e-mail, inhoud of Office bekijkt (binnenkort beschikbaar), Explorer en Trackers werken samen om u te helpen beveiligingsrisico's en bedreigingen te onderzoeken en bij te houden. Alles bij elkaar bieden trackers u informatie om uw gebruikers te beschermen door nieuwe, opvallende en veel gezochte problemen te markeren, zodat uw bedrijf beter wordt beveiligd wanneer het naar de cloud wordt verplaatst.
 
-En vergeet niet dat u ons altijd feedback kunt geven over deze of andere Microsoft 365-beveiligingsfuncties door te klikken op de **knop Feedback** in de rechterbenedenhoek van het overzicht van het beveiligings- [& compliancecentrum.](https://support.microsoft.com/office/a5f2fd18-b029-4257-b5a8-ae83e7768c85)
+En vergeet niet dat u ons altijd feedback kunt geven over deze of andere beveiligingsfuncties Microsoft 365 door te klikken op de **knop Feedback** in de rechterbenedenhoek.
 
-![Beveiligings- en compliancecentrum](../../media/86c330db-8132-4150-8475-220258fe04fb.png)
+![Microsoft 365 Defender-portal](../../media/microsoft-365-defender-portal.png)
 
 ## <a name="trackers-and-microsoft-defender-for-office-365"></a>Trackers en Microsoft Defender voor Office 365
 
 Met onze inaugurele opmerkelijke bedreiging markeren we geavanceerde malwaredreigingen die zijn gedetecteerd door Safe [Bijlagen.](safe-attachments.md) Als u een Office 365 Enterprise E5-klant bent en u [Microsoft Defender](defender-for-office-365.md)niet gebruikt voor Office 365, moet u dat wel zijn- het is opgenomen in uw abonnement. Defender voor Office 365 biedt waarde, zelfs als u andere beveiligingsprogramma's hebt die e-mailstroom filteren met uw Office 365 services. Antispam- en [Safe-koppelingen](safe-links.md) werken echter het beste wanneer uw belangrijkste e-mailbeveiligingsoplossing is Office 365.
 
-![Microsoft Defender voor Office 365 in het beveiligings- & compliancecentrum](../../media/cee70d07-f0c1-459b-843c-2d10c253349f.png)
+![Microsoft Defender voor Office 365 in de Microsoft 365 Defender-portal](../../media/policies.png)
 
 In de huidige wereld met bedreigingen betekent het uitvoeren van alleen traditionele anti-malwarescans dat u niet goed genoeg bent beveiligd tegen aanvallen. Modernere aanvallers gebruiken algemeen beschikbare hulpprogramma's om nieuwe, verduisteerde of vertraagde aanvallen te maken die niet worden herkend door traditionele anti-malwareprogramma's op basis van handtekeningen. Met Safe-functie Bijlagen worden e-mailbijlagen gebruikt en worden deze in een virtuele omgeving tot ontploffing brengen om te bepalen of ze veilig of schadelijk zijn. Met dit detonatieproces wordt elk bestand geopend in een virtuele computeromgeving en wordt vervolgens gekijkt wat er gebeurt nadat het bestand is geopend. Of het nu gaat om een PDF-bestand, een gecomprimeerd bestand of een Office-document, schadelijke code kan worden verborgen in een bestand en kan alleen worden geactiveerd wanneer het slachtoffer het op de computer opent. Door het bestand in de e-mailstroom te detoneren en te analyseren, vindt Defender voor Office 365-mogelijkheden deze bedreigingen op basis van gedrag, bestandsreputatie en een aantal heuristische regels.
 
@@ -105,8 +105,8 @@ Het nieuwe bedreigingsfilter Noteworthy markeert items die onlangs zijn gedetect
 
 - Als uw organisatie deze mogelijkheden Office 365 bedreigingsonderzoek en -antwoord nog niet heeft, zie Hoe krijgen we Office 365 mogelijkheden voor bedreigingsonderzoek en [-antwoord?](office-365-ti.md).
 
-- Zorg ervoor dat uw beveiligingsteam de juiste rollen en machtigingen heeft toegewezen. U moet een globale beheerder zijn of de beveiligingsbeheerder of de rol Zoeken en zuiveren hebben toegewezen in het beveiligings- & compliancecentrum. Zie [Machtigingen in het Beveiligings- & Compliancecentrum](permissions-in-the-security-and-compliance-center.md).
+- Zorg ervoor dat uw beveiligingsteam de juiste rollen en machtigingen heeft toegewezen. U moet een globale beheerder zijn of de beveiligingsbeheerder of de rol Zoeken en zuiveren hebben toegewezen in de portal Microsoft 365 Defender. Zie [Machtigingen in de Microsoft 365 Defender-portal](permissions-in-the-security-and-compliance-center.md).
 
-- Let op dat de nieuwe trackers in uw Microsoft 365 worden. Wanneer deze beschikbaar zijn, vindt u uw Trackers [hier.](https://protection.office.com/) Ga naar **Threat Management** \> **Threat trackers**.
+- Let op dat de nieuwe trackers in uw Microsoft 365 worden. Wanneer deze beschikbaar zijn, vindt u uw Trackers [hier.](https://https://security.microsoft.com/) Ga naar **E-mail & samenwerking** \> **Threat Tracker**.
 
 - Als u dit nog niet hebt gedaan, vindt u meer informatie over en configureert u [Microsoft Defender](defender-for-office-365.md) voor Office 365 voor uw organisatie, inclusief Safe [koppelingen](safe-links.md) en [Safe Bijlagen.](safe-attachments.md)

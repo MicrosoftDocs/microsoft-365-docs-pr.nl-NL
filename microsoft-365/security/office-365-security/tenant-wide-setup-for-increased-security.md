@@ -20,12 +20,12 @@ ms.custom:
 description: In dit onderwerp vindt u de aanbevolen configuratie voor instellingen voor tenants die van invloed zijn op de beveiliging van uw Microsoft 365 omgeving.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: fd9d07388386ecc3d5877736e588393cdc38e7bb
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 623ea316d1ad92790b8818504970a1d35401f617
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52879214"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929573"
 ---
 # <a name="configure-your-microsoft-365-tenant-for-increased-security"></a>Uw Microsoft 365 configureren voor meer beveiliging
 
@@ -63,9 +63,9 @@ De Microsoft 365 Defender-portal bevat mogelijkheden die uw omgeving beschermen.
 > [!NOTE]
 > Voor niet-standaardimplementaties van SPF, hybride implementaties en probleemoplossing: Hoe [Microsoft 365 Sender Policy Framework (SPF)](how-office-365-uses-spf-to-prevent-spoofing.md)gebruikt om spoofing te voorkomen.
 
-## <a name="view-dashboards-and-reports-in-the-security--compliance-center"></a>Dashboards en rapporten weergeven in het beveiligings- & compliancecentrum
+## <a name="view-dashboards-and-reports-in-the-microsoft-365-defender-portal"></a>Dashboards en rapporten weergeven in de Microsoft 365 Defender-portal
 
-Ga naar deze rapporten en dashboards voor meer informatie over de status van uw omgeving. De gegevens in deze rapporten worden uitgebreid naarmate uw organisatie gebruikmaakt van Office 365 services. Wees op dit moment vertrouwd met wat u kunt controleren en actie kunt ondernemen. Zie Rapporten in het beveiligings- & [compliancecentrum voor meer informatie.](../../compliance/reports-in-security-and-compliance.md)
+Ga naar deze rapporten en dashboards voor meer informatie over de status van uw omgeving. De gegevens in deze rapporten worden uitgebreid naarmate uw organisatie gebruikmaakt van Office 365 services. Wees op dit moment vertrouwd met wat u kunt controleren en actie kunt ondernemen. Zie Rapporten in de [portal Microsoft 365 Defender voor meer informatie.](../../compliance/reports-in-security-and-compliance.md)
 
 <br>
 

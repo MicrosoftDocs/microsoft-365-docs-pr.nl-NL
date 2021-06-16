@@ -17,12 +17,12 @@ search.appverid:
 - SPO160
 - MET150
 description: In dit artikel wordt beschreven hoe u uw portal kunt starten met de planning voor het starten van portals
-ms.openlocfilehash: bf01f6ae93b424543a6a509f89961a1b7a0c9ad7
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: fb092ea2500aaa139a34e511d224ec4419e04cb5
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841664"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930257"
 ---
 # <a name="launch-your-portal-using-the-sharepoint-portal-launch-scheduler"></a>Uw portal starten met de SharePoint portal launch scheduler
 
@@ -116,7 +116,10 @@ Voorheen konden portallanceringen alleen worden gepland via SharePoint PowerShel
 7. Bepaal wie de site direct moet bekijken en voer de gegevens in in **het veld Gebruikers die zijn vrijgesteld van golven.** Deze gebruikers worden uitgesloten van golven en worden niet omgeleid vóór, tijdens of na de lancering.
 
     > [!NOTE]
-    > Maximaal 50 afzonderlijke gebruikers of beveiligingsgroepen kunnen maximaal worden toegevoegd. Gebruik beveiligingsgroepen wanneer u meer dan 50 personen nodig hebt om toegang te krijgen tot de portal voordat de golven beginnen te starten.
+    > Maximaal 50 afzonderlijke gebruikers of beveiligingsgroepen kunnen maximaal worden gebruikt voor de hele lancering. Elke start is onafhankelijk van elkaar, dus als u een lancering in een andere portal plant, kunt u maximaal 50 gebruikers/beveiligingsgroepen gebruiken voor die start. Daarnaast kunt u maximaal 20 verschillende gebruikers of beveiligingsgroepen per golf gebruiken. 
+
+>De planning voor het starten van portals ondersteunt beveiligingsgroepen en beveiligingsgroepen met e-mail. 
+
 
 8. Bevestig de details van de portallancering en selecteer **Planning.** Nadat de start is gepland, moeten wijzigingen in de startpagina van de portal SharePoint een gezond diagnostisch resultaat ontvangen voordat de portal wordt geopend.
 

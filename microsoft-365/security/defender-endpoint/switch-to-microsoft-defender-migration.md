@@ -17,29 +17,27 @@ ms.collection:
 - M365-security-compliance
 - m365solution-migratetomdatp
 - m365solution-overview
+- m365solution-mcafeemigrate
+- m365solution-symantecmigrate
 ms.topic: conceptual
 ms.custom: migrationguides
-ms.date: 05/20/2021
+ms.date: 06/14/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
 ms.technology: mde
-ms.openlocfilehash: 2a2b78089486b432ebf9492de26396b2bb96f94d
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 2953103cb3812103740f98a6db5b8f4d369731e3
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593499"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930305"
 ---
 # <a name="make-the-switch-from-non-microsoft-endpoint-protection-to-microsoft-defender-for-endpoint"></a>De overstap maken van niet-Microsoft-eindpuntbeveiliging naar Microsoft Defender voor Eindpunt
 
-Als u wilt overstappen van uw niet-Microsoft-eindpuntbeveiliging naar [Microsoft Defender](microsoft-defender-endpoint.md) voor Eindpunt (Defender voor eindpunt), bent u op de juiste plaats. Gebruik dit artikel als handleiding.
+Als u wilt overstappen van een niet-Microsoft-oplossing voor eindpuntbeveiliging naar [Microsoft Defender](microsoft-defender-endpoint.md) voor Eindpunt (Defender voor Eindpunt), bent u op de juiste plaats. Gebruik dit artikel als handleiding.
 
 :::image type="content" source="images/nonms-mde-migration.png" alt-text="Overzicht van migreren naar Defender voor Eindpunt":::
 
-Wanneer u overschakelt naar Defender voor Eindpunt, begint u met uw niet-Microsoft-oplossing die in de actieve modus werkt, configureert u Defender voor Eindpunt in passieve modus, gaat u aan boord van Defender voor Eindpunt, stelt u Defender voor Endpoint in op actieve modus en verwijdert u de niet-Microsoft-oplossing.
-
-> [!TIP]
-> - Zie Migreren van McAfee naar Defender voor Eindpunt als u momenteel McAfee Endpoint Security [(McAfee) gebruikt.](mcafee-to-microsoft-defender-migration.md)
-> - Zie Migreren van Symantec naar Defender voor Eindpunt als u momenteel Gebruik Endpoint Protection [(Symantec).](symantec-to-microsoft-defender-endpoint-migration.md)
+Wanneer u overschakelt naar Defender voor Eindpunt, begint u met uw niet-Microsoft-oplossing die in de actieve modus werkt. Vervolgens configureert u Defender voor Eindpunt in de passieve modus en kunt u uw apparaten inschakelen bij Defender voor Eindpunt. Vervolgens stelt u Defender voor Eindpunt in op actieve modus. Ten slotte verwijdert u de niet-Microsoft-oplossing.
 
 ## <a name="the-migration-process"></a>Het migratieproces
 
@@ -47,7 +45,7 @@ Het migratieproces naar Defender voor Eindpunt kan worden onderverdeeld in drie 
 
 ![Migratiefasen : voorbereiden, instellen, aan boord](images/phase-diagrams/migration-phases.png)
 
-|Fase |Beschrijving |
+|Fase |Omschrijving |
 |--|--|
 |[Voorbereiden op uw migratie](switch-to-microsoft-defender-prepare.md) |Tijdens [de **fase Voorbereiden:**](switch-to-microsoft-defender-prepare.md) <p>1. Werk de apparaten van uw organisatie bij. <p>2. Krijg Defender voor eindpunt. <p>3. Plan uw rollen en machtigingen en verleen toegang tot de Microsoft Defender-beveiligingscentrum. <p>4. Configureer de apparaatproxy- en internetinstellingen om communicatie tussen de apparaten van uw organisatie en Defender voor Eindpunt in te stellen. |
 |[Defender voor eindpunt instellen](switch-to-microsoft-defender-setup.md) |Tijdens [de **installatiefase**](switch-to-microsoft-defender-setup.md): <p>1. De Microsoft Defender Antivirus. <p>2. Configure Defender for Endpoint. <p>3. Voeg Defender voor Eindpunt toe aan de lijst met uitsluitingen voor uw bestaande oplossing. <p>4. Voeg uw bestaande oplossing toe aan de uitsluitingslijst voor Microsoft Defender Antivirus. <p>5. Stel uw apparaatgroepen, verzamelingen en organisatie-eenheden in. <p>6. Configureer uw antimalwarebeleid en realtime beveiligingsinstellingen.|
@@ -57,7 +55,7 @@ Het migratieproces naar Defender voor Eindpunt kan worden onderverdeeld in drie 
 
 In deze migratiehandleiding [](microsoft-defender-antivirus-in-windows-10.md) richten we ons [](overview-endpoint-detection-response.md) op de volgende generatie beveiliging en eindpuntdetectie en -respons mogelijkheden als uitgangspunt voor de overstap naar Defender voor Eindpunt. Defender for Endpoint bevat echter veel meer dan antivirus- en eindpuntbeveiliging. Defender for Endpoint is een geïntegreerd platform voor preventieve beveiliging, detectie na inbreuken, geautomatiseerd onderzoek en antwoord. In de volgende tabel worden functies en mogelijkheden in Defender voor Eindpunt samengevat. 
 
-| Functie/mogelijkheid | Beschrijving |
+| Functie/mogelijkheid | Omschrijving |
 |---|---|
 | [Bedreigings- en risicobeheer](next-gen-threat-and-vuln-mgt.md) | Bedreigingsfuncties & vulnerability management helpen bij het identificeren, beoordelen en herstellen van zwakke punten in uw eindpunten (zoals apparaten). |
 | [Kwetsbaarheid voor aanvallen verminderen](overview-attack-surface-reduction.md) | Regels voor het verminderen van aanvallen helpen de apparaten en toepassingen van uw organisatie te beschermen tegen cyberaanvallen en aanvallen. |

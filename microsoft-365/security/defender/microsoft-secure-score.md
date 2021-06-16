@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 4a2c220cab15751671b9b38c3bb2fda3db12c9e1
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 1b03c2671939a3e8e3011b78b8f1484ef02979ea
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245373"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930185"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft Secure Score
 
@@ -111,7 +111,6 @@ Met lees- en schrijftoegang kunt u wijzigingen aanbrengen en rechtstreeks werken
 * Beveiligingsbeheerder
 * Exchange-beheerder
 * SharePoint-beheerder
-* Accountbeheerder
 
 ### <a name="read-only-roles"></a>Alleen-lezen rollen
 
@@ -119,7 +118,7 @@ Met alleen-lezen toegang kunt u de status of notities niet bewerken voor een ver
 
 * Helpdeskbeheerder
 * Gebruikersbeheerder
-* Servicebeheerder
+* Serviceondersteuningsbeheerder
 * Beveiligingslezer
 * Beveiligingsoperator
 * Algemene lezer
@@ -137,4 +136,4 @@ Als u problemen hebt, laat het ons weten door een bericht te plaatsen in de [bev
 - [Uw beveiligingspositie vaststellen](microsoft-secure-score-improvement-actions.md)
 - [Uw Microsoft Secure Score-geschiedenis bijhouden en doelstellingen behalen](microsoft-secure-score-history-metrics-trends.md)
 - [Binnenkort beschikbaar](microsoft-secure-score-whats-coming.md)
-- [Nieuwe functies](microsoft-secure-score-whats-new.md)
+- [Wat is er nieuw](microsoft-secure-score-whats-new.md)

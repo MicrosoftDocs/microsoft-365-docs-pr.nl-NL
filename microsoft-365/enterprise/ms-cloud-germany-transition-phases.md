@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Overzicht: Inzicht in de migratiefasen en de gevolgen van de overstap van Microsoft Cloud Germany (Microsoft Cloud Deutschland) naar Office 365 services in de nieuwe Duitse datacenterregio.'
-ms.openlocfilehash: 3a5b95bac74ae405f4e1d6fa91ba4ab51e4a9d05
-ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
+ms.openlocfilehash: c80a7cfc4f930011f65a07c4b46cdf4921766c34
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796040"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930449"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland"></a>Acties en effecten van migratiefasen voor de migratie vanuit Microsoft Cloud Deutschland
 
@@ -36,7 +36,7 @@ Het migratieproces wordt gedurende vele weken voltooid, afhankelijk van de total
 > [!NOTE]
 > De migratie van Azure-services maakt geen deel uit van deze documentatie. Zie Migratie-richtlijnen voor Azure Germany voor [deze informatie.](/azure/germany/germany-migration-main)
 
-|Stap|Duur|Verantwoordelijke partij|Beschrijving|
+|Stap|Duur|Verantwoordelijke partij|Omschrijving|
 |:--------|:--------|:--------|:--------|
 |Opt-In|Uren|Klant|Kies uw organisatie voor de migratie.|
 |Pre-Work|Dagen|Klant|Voltooi het werk dat nodig is om gebruikers, werkstations en netwerken voor te bereiden op migratie.|
@@ -60,7 +60,7 @@ De volgende secties bevatten acties en effecten voor werkbelastingen terwijl ze 
 
 **Van** toepassing op : Alle klanten met een Office 365 tenant die wordt gehost in de Microsoft Cloud Deutschland (MCD) Microsoft kan geen Office 365 tenants migreren die zonder toestemming in de MCD worden gehost.
 
-| Stap(en) | Beschrijving | Gevolg |
+| Stap(en) | Omschrijving | Gevolg |
 |:-------|:-----|:-------|
 |**Klanttaak:** toestemming verlenen voor migratie| Klant verleent toestemming voor de migratie, zodat Microsoft het recht krijgt om te migreren en de overgang van gegevens en services naar het Office 365 global services instance. Er zijn twee manieren <ol><li>De Office 365 tenantbeheerder kiest zich voor de microsoft-migratie. </li><li> Klanten hebben abonnementen in hun MCD-Office 365 verlengd na 1 mei 2020. Microsoft informeert deze klanten elke maand over het migratierecht, wacht 30 dagen om klanten de kans te geven om te annuleren en meld u vervolgens rechtstreeks aan.</li></ol> | <ul><li>Tenant is gemarkeerd als toestemming voor migratie en het beheercentrum geeft bevestiging weer. </li><li>Bevestiging wordt gepost in het Office 365 tenant Message Center. Serviceconfiguratie wordt voortgezet vanuit Microsoft Cloud Deutschland-eindpunten. </li><li> </li></ul>
 |**Tenantbeheerder:** Berichten controleren|De tenantbeheerder moet de Office 365 berichtencentrum controleren voor updates over de status van de migratiefase vanaf dit moment.|De klant kan de benodigde taken op tijd uitvoeren.
@@ -102,9 +102,7 @@ Als u deze taak niet voltooit, kan dit ertoe leiden dat hybride vrije-drukke aan
 
 **Is van toepassing** op : Alle klanten met een Office 365 tenant die wordt gehost in de Microsoft Cloud Deutschland (MCD)
 
-Partner Microsoft Cloud Deutschland-tenants worden niet gemigreerd. CSP-klanten worden gemigreerd naar Office 365 services onder de nieuwe Office 365 services tenant van dezelfde partner. Na de migratie van de klant kan de partner deze klant alleen beheren vanuit de Office 365 services tenant.
-
-| Stap(en) | Beschrijving | Gevolg |
+| Stap(en) | Omschrijving | Gevolg |
 |:-------|:-------|:-------|
 | Abonnementen worden overgezet| Het Microsoft Cloud Deutschland-abonnement wordt gemigreerd naar Office 365 global services-abonnement. <ul><li>De Office 365 globale services van dat abonnement wordt gedefinieerd door Microsoft (ook wel offer _mapping genoemd)._</li><li> Overeenkomstige Office 365 Globale services-abonnementen worden gekocht in het Office 365 global instance voor de overgedragen Microsoft Cloud Deutschland-abonnementen.</li><li>Oudere Microsoft Cloud Deutschland-abonnementen worden verwijderd uit de Office 365 servicesten tenant na voltooiing.</li></ul>| <ul><li>Wijzigingen in bestaande abonnementen worden geblokkeerd (bijvoorbeeld geen nieuwe abonnementen of wijzigingen in het aantal stoelen) tijdens deze fase.</li><li>Wijzigingen in licentietoewijzingen worden geblokkeerd.</li><li>Wanneer de migratie van abonnementen is voltooid, zijn zowel Office 365-services als Microsoft Cloud Deutschland-abonnementen zichtbaar in de Office 365 Admin-portal, met de status van Microsoft Cloud Deutschland-abonnementen als _gedeprovisioneerd._ </li><li>Alle klantprocessen die afhankelijk zijn van Microsoft Cloud Deutschland-abonnementen of SKU-GUID's, worden verbroken en moeten worden aangepast met de Office 365 services. </li><li>Nieuwe abonnementen in de Office 365-services worden gekocht met de nieuwe termijn (maandelijks/kwartaal/jaar) en de klant ontvangt een prorated refund voor het ongebruikte saldo van het Microsoft Cloud Deutschland-abonnement. </li></ul> |
 |Licenties worden opnieuw toegewezen|Gebruikers met toegewezen Microsoft Cloud Deutschland-licenties krijgen licenties toegewezen in het Office 365 globale exemplaar.|<ul><li>Gebruikers krijgen opnieuw toegewezen licenties die zijn gekoppeld aan de nieuwe Office 365 services-abonnementen. Gebruikerslicenties van alle gebruikers worden automatisch toegewezen aan de nieuwe functies.</li><li>Het aantal functies (serviceabonnementen) dat door Office 365 services wordt aangeboden, kan groter zijn dan in de oorspronkelijke Microsoft Cloud Deutschland-aanbieding. Gebruikerslicenties in Office 365 services worden op dezelfde manier toegewezen aan soortgelijke Microsoft Cloud Deutschland-functies (serviceplannen). </li></ul> 
@@ -116,6 +114,8 @@ Partner Microsoft Cloud Deutschland-tenants worden niet gemigreerd. CSP-klanten 
 
 Tussen fase 2 en fase 3 is partnerportal mogelijk niet toegankelijk. Gedurende deze periode heeft Partner mogelijk geen toegang tot de informatie van de tenant op de Partnerportal. Aangezien elke migratie anders is, kan de duur van de in-toegankelijkheid in uren zijn.
 
+Aanvullende informatie voor Cloud Solution Providers is beschikbaar in [partner tenantmigratie.](ms-cloud-germany-transition-add-csp.md#partner-tenant-migration)
+
 
 ## <a name="phase-4-sharepoint-online"></a>Fase 4: SharePoint Online
 
@@ -123,10 +123,10 @@ Tussen fase 2 en fase 3 is partnerportal mogelijk niet toegankelijk. Gedurende d
 
 Als u nog steeds werkstromen SharePoint 2013 gebruikt, beperkt u het gebruik van SharePoint 2013-werkstromen tijdens de SharePoint Online-migratie.
 
-| Stap(en) | Beschrijving | Gevolg |
+| Stap(en) | Omschrijving | Gevolg |
 |:-------|:-----|:-------|
 | SharePoint en OneDrive worden overge | SharePoint Online en OneDrive voor Bedrijven worden gemigreerd van Microsoft Cloud Deutschland naar Office 365 globale services in deze fase.<br><ul><li>Bestaande URL's van Microsoft Cloud Deutschland blijven behouden `contoso.sharepoint.de` (bijvoorbeeld).</li><li>Bestaande sites blijven behouden.</li><li>Clientverificatietokens die zijn uitgegeven door de Security Token Service (STS) in het exemplaar Microsoft Cloud Deutschland of Office 365 Global Services zijn geldig tijdens de overgang.</li></ul>|<ul><li>Inhoud is gedurende twee korte perioden tijdens de migratie alleen-lezen. Verwacht gedurende deze periode een banner 'u kunt inhoud niet bewerken' in SharePoint.</li><li>De zoekindex blijft niet behouden en het kan tien dagen duren voordat de zoekindex opnieuw wordt opgebouwd.</li><li>SharePoint Online en OneDrive voor Bedrijven inhoud is gedurende twee korte perioden tijdens de migratie alleen-lezen. Gebruikers zien in deze periode kort een banner 'u kunt inhoud niet bewerken'.</li><li>Wanneer de onlinemigratie SharePoint voltooid, zijn de zoekresultaten voor SharePoint Online en OneDrive voor Bedrijven mogelijk niet beschikbaar terwijl de index opnieuw wordt opgebouwd. Tijdens deze periode geven zoekquery's mogelijk geen volledige resultaten als resultaat. Functies die afhankelijk zijn van zoekindexen, zoals SharePoint onlinenieuws, kunnen worden beïnvloed tijdens het opnieuw indexeren.</li><li>SharePoint 2013-werkstromen worden verbroken tijdens de migratie en moeten opnieuw worden gepubliceerd na de migratie.</li></ul>
-|**SPO-beheerder:** werkstromen voor SharePoint 2013 opnieuw publiceren| Een SharePoint onlinebeheerder herpubliceert de SharePoint 2013-werkstromen na de migratie.|SharePoint 2013-werkstromen zijn beschikbaar.
+|**SPO-beheerder:** werkstromen voor SharePoint 2013 opnieuw publiceren| Een SharePoint onlinebeheerder herpubliceert de SharePoint 2013-werkstromen na de migratie.| Dit is een vereiste actie. Als u dit niet doet, kan dit leiden tot verwarring bij de gebruiker, helpdeskgesprekken en verminderde productiviteit.
 |**PowerShell-gebruiker:** Bijwerken naar nieuwe module| Alle gebruikers van de SharePoint Online PowerShell-module moeten module/Microsoft.SharePointOnline.CSOM bijwerken naar versie 16.0.20717.12000 of hoger nadat de SharePoint Online-migratie is voltooid. Voltooiing wordt gecommuniceerd in het berichtencentrum.| SharePoint Online via PowerShell of het objectmodel aan de clientzijde mislukt niet meer.
 ||||
 
@@ -189,6 +189,8 @@ Aanvullende aandachtspunten:
 - Gebruikers van Outlook Web App die toegang hebben tot een gedeeld postvak in de andere omgeving (bijvoorbeeld als een gebruiker in de MCD-omgeving toegang heeft tot een gedeeld postvak in de globale omgeving), wordt gevraagd een tweede keer te verifiëren. De gebruiker moet eerst zijn of haar postvak verifiëren en openen in `outlook.office.de` en vervolgens het gedeelde postvak openen dat zich in `outlook.office365.com` . Ze moeten zich een tweede keer verifiëren wanneer ze toegang hebben tot de gedeelde resources die worden gehost in de andere service.
 - Als een gedeeld postvak wordt toegevoegd aan Outlook met bestand **> Info > Account** toevoegen, kan het weergeven van agendamachtigingen mislukken (de Outlook-client probeert de Rest API te gebruiken). `https://outlook.office.de/api/v2.0/Me/Calendars` Klanten die een account willen toevoegen om agendamachtigingen weer te geven, kunnen de registersleutel toevoegen zoals beschreven in Gebruikerservaringswijzigingen voor het delen van een agenda [in Outlook](https://support.microsoft.com/office/user-experience-changes-for-sharing-a-calendar-in-outlook-5978620a-fe6c-422a-93b2-8f80e488fdec) om ervoor te zorgen dat deze actie zal slagen. Deze registersleutel kan voor de hele organisatie worden geïmplementeerd met behulp van groepsbeleid.
 - Alle klanten die een actieve Exchange hybride configuratie gebruiken, kunnen postvakken niet verplaatsen van on-premises Exchange Server naar Exchange Online, noch naar Microsoft Cloud Deutschland, noch naar de nieuwe datacenterregio in Duitsland. Klanten moeten ervoor zorgen dat de lopende postvakbewegingen zijn voltooid vóór fase 5 en na voltooiing van deze fase worden hervat.
+- Uitvoeren , een PowerShell-cmdlet, tijdens de migratie van Exchange van Microsoft Cloud Deutschland naar Office 365 services werken `Test-MigrationServerAvailabiilty` mogelijk niet. De migratie werkt echter correct nadat de migratie is voltooid.
+- Als clients problemen hebben met referenties of autorisatie nadat postvakken zijn gemigreerd, kunt u de on-premises beheerdersreferenties in het migratie-eindpunt opnieuw instellen door deze uit te voeren of door hetzelfde in te stellen met `Set-MigrationEndpoint -Identity <endpointName> -Credential $(Get-Credential)` Exchange Control Panel (ECP).
 - Zorg ervoor dat alle gebruikers die oudere protocollen (POP3/IMAP4/SMTP) voor hun apparaten gebruiken, bereid zijn om de eindpunten in hun client te wijzigen nadat hun [Exchange-postvak](ms-cloud-germany-transition-add-pre-work.md#exchange-online)is verplaatst naar het nieuwe Duitse datacentergebied, zoals beschreven in de stappen vóór de migratie voor Exchange Online .
 - Het plannen Skype voor Bedrijven vergaderingen in Outlook Web App is niet meer beschikbaar nadat het postvak is gemigreerd. Zo nodig moeten gebruikers in plaats daarvan Outlook gebruiken.
 
@@ -254,7 +256,7 @@ Zorg ervoor dat u bekend bent met het [prework voor uw Installatieprocedure voor
 
 Klanten met Dynamics 365 hebben extra betrokkenheid nodig om de Dynamics-organisaties van de organisatie onafhankelijk te migreren.
 
-| Stap(en) | Beschrijving | Gevolg |
+| Stap(en) | Omschrijving | Gevolg |
 |:-------|:-------|:-------|
 | Microsoft Dynamics-resources | Klanten met Microsoft Dynamics worden door Microsoft Engineering of Microsoft FastTrack ingeschakeld om Microsoft Dynamics 365 over te brengen naar het Office 365 global services-exemplaar.* |<ul><li>Na de migratie valideert de beheerder de organisatie. </li><li>De beheerder wijzigt werkstromen zo nodig. </li><li>De beheerder clears AdminOnly mode as appropriate.</li><li>De beheerder wijzigt het organisatietype in _Sandbox_, naar eigen goed</li><li>Eindgebruikers op de hoogte stellen van de nieuwe URL om toegang te krijgen tot het exemplaar (org).</li><li>Werk binnenkomende verbindingen bij met de url van het nieuwe eindpunt. </li><li>De Dynamics-service is niet beschikbaar voor gebruikers tijdens de overgang. </li><li>Gebruikers moeten de status en functies van de organisatie valideren na de migratie van elke organisatie.</li></ul>|
 ||||
@@ -265,7 +267,7 @@ Klanten met Dynamics 365 hebben extra betrokkenheid nodig om de Dynamics-organis
 
 **Van toepassing op:** Alle klanten die Microsoft Power BI (PBI)
 
-| Stap(en) | Beschrijving | Gevolg |
+| Stap(en) | Omschrijving | Gevolg |
 |:-------|:-------|:-------|
 | Migratie van Power BI resources | Klanten met Microsoft Power BI (PBI) worden ingeschakeld door Microsoft Engineering of Microsoft FastTrack nadat ze handmatig een bestaand PBI-migratiehulpmiddel hebben ingeschakeld om Power BI over te brengen naar het Office 365 Global Services-exemplaar.\*\* |<ul><li>De volgende Power BI items _worden_ niet overgemaakt en ze moeten opnieuw worden gemaakt: <</li><li>Realtime-gegevenssets (bijvoorbeeld streaming- of pushsets). </li><li>Power BI on-premises gegevensgatewayconfiguratie en gegevensbron. </li><li>Rapporten die bovenop de realtimesets zijn gebouwd, zijn niet beschikbaar na de migratie en moeten opnieuw worden gemaakt. </li><li>Power BI services zijn niet beschikbaar voor gebruikers tijdens de overgang. De beschikbaarheid van de service mag niet langer dan 24 uur duren.</li><li>Gebruikers moeten gegevensbronnen en hun on-premises gegevensgateways opnieuw configureren met de Power BI service na de migratie.  Totdat ze dit doen, kunnen gebruikers deze gegevensbronnen niet gebruiken om geplande vernieuwings- en/of directe query's uit te voeren op basis van deze gegevensbronnen. </li><li>Capaciteit en premiumwerkruimten kunnen niet worden gemigreerd. Klanten moeten alle capaciteit vóór de migratie verwijderen en deze opnieuw maken na de migratie. Verplaats werkruimten naar wens terug naar de gewenste capaciteit.</li></ul>  |
 ||||
@@ -309,17 +311,22 @@ Wanneer de Office 365 de laatste stap van de migratie voltooit (fase 9: Azure AD
 
 Microsoft Azure moeten hun Azure-werkbelastingen overstappen volgens de stappen die worden beschreven in de Azure-migraties [playbook](/azure/germany/germany-migration-main) zodra hun tenant de migratie naar de hele wereld voltooit (fase 9).  
 
-| Stap(en) | Beschrijving | Gevolg |
+| Stap(en) | Omschrijving | Gevolg |
 |:-------|:-------|:-------|
 | Gebruikers-eindpunten bijwerken | Zorg ervoor dat alle gebruikers toegang hebben tot de service met de juiste Microsoft-eindpunten voor de hele wereld |30 dagen nadat de migratie is afgelopen, worden de Microsoft Cloud Deutschland-eindpunten gestopt met het honoreren van aanvragen. client- of toepassingsverkeer mislukt.  |
 | Eindpunten van Azure AD-toepassingen bijwerken | U moet verificatie, Azure Active Directory (Azure AD) Graph en MS-Graph voor uw toepassingen bijwerken naar die van de Microsoft Worldwide-service. | 30 dagen nadat de migratie is afgelopen, worden de Microsoft Cloud Deutschland-eindpunten gestopt met het honoreren van aanvragen. client- of toepassingsverkeer mislukt. |
 | Azure Workloads migreren | Azure Services-klanten moeten nieuwe wereldwijde abonnementen voor Azure-services inrichten en migratie uitvoeren volgens de [Azure-migraties playbook.](/azure/germany/germany-migration-main) | Wanneer klanten volledig overstappen op de wereldwijde service (fase 10), hebben klanten geen toegang meer tot Azure-werkbelastingen die aanwezig zijn in de Azure-portal van Microsoft Cloud Deutschland. |
 ||||
 
+**Van toepassing op:** Klanten met Azure AD-geregistreerde of verbonden apparaten
+
+Nadat fase 9 is voltooid, moeten geregistreerde en gekoppelde Azure AD-apparaten zijn verbonden met het overgeslagen Azure AD-exemplaar in de nieuwe Duitse datacenterregio.
+Apparaten die niet opnieuw zijn verbonden met Azure AD, werken mogelijk niet meer aan het einde van fase 10. Raadpleeg de aanvullende informatie over apparaten voor gedetailleerde instructies [en meer informatie.](ms-cloud-germany-transition-add-devices.md)
+
 ### <a name="azure-ad-connect"></a>Azure AD Verbinding maken
 **Van toepassing op:** Alle klanten die identiteiten synchroniseren met Azure AD Connect
 
-| Stap(en) | Beschrijving | Gevolg |
+| Stap(en) | Omschrijving | Gevolg |
 |:-------|:-------|:-------|
 | Werk Azure AD-Verbinding maken. | Nadat de cut over naar Azure AD is voltooid, gebruikt de organisatie volledig Office 365 services en is ze niet meer verbonden met Microsoft Cloud Deutschland. Op dit moment moet de klant ervoor zorgen dat het deltasynchronisatieproces is afgerond en daarna de tekenreekswaarde van `AzureInstance` 3 (Microsoft Cloud Deutschland) wijzigen in 0 in het `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Azure AD Connect` registerpad. | Wijzig de waarde van `AzureInstance` de registersleutel. Als u dit niet doet, worden objecten niet gesynchroniseerd nadat de Microsoft Cloud Deutschland-eindpunten niet meer beschikbaar zijn. |
 |||||

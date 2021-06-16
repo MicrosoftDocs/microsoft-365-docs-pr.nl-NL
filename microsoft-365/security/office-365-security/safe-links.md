@@ -27,12 +27,12 @@ ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: In dit artikel kunnen beheerders meer informatie krijgen over Safe koppelingen in Defender voor Office 365 om hun organisatie te beschermen tegen phishing en andere aanvallen die kwaadaardige URL's gebruiken.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 406450752085817cb49e3cf08a90c0087af3d94b
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 9775c67a35d45595f68cd364dc4d70e9985b7e9e
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52879286"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930521"
 ---
 # <a name="safe-links-in-microsoft-defender-for-office-365"></a>Safe Koppelingen in Microsoft Defender voor Office 365
 
@@ -294,7 +294,7 @@ Voorbeelden van de waarden die u kunt invoeren en de resultaten daarvan worden i
 
 Elk Safe koppelingenbeleid bevat de volgende **URL's** die u kunt gebruiken om URL's op te geven die niet worden herschreven door het scannen Safe koppelingen. Met andere woorden, met de lijst kunnen gebruikers die zijn opgenomen in het beleid, toegang krijgen tot de opgegeven URL's die anders zouden worden geblokkeerd door Safe Koppelingen. U kunt verschillende lijsten configureren in verschillende Safe koppelingenbeleid. De beleidsverwerking stopt nadat het eerste beleid (waarschijnlijk de hoogste prioriteit) is toegepast op de gebruiker. De volgende  URL'slijst niet opnieuw schrijven, wordt dus toegepast op een gebruiker die is opgenomen in meerdere actieve Safe Koppelingenbeleid.
 
-Zie Beleidsregels voor koppelingen maken Safe Koppelingen maken of [](set-up-safe-links-policies.md#use-the-security--compliance-center-to-create-safe-links-policies) Beleidsregels wijzigen Safe koppelingen als u items wilt toevoegen aan de lijst in nieuwe of bestaande Safe [koppelingenbeleid.](set-up-safe-links-policies.md#use-the-security--compliance-center-to-modify-safe-links-policies)
+Zie De portal Microsoft 365 Defender gebruiken om [beleidsregels](set-up-safe-links-policies.md#use-the-microsoft-365-defender-portal-to-create-safe-links-policies) voor Safe Koppelingen te maken of De portal van [Microsoft 365 Defender](set-up-safe-links-policies.md#use-the-microsoft-365-defender-portal-to-modify-safe-links-policies)gebruiken om beleidsregels voor Safe Koppelingen te wijzigen als u items wilt toevoegen aan de lijst in nieuw of bestaand Safe-koppelingenbeleid.
 
 **Opmerkingen**:
 

@@ -20,12 +20,12 @@ ms.custom:
 description: Lees hoe u DKIM (DomainKeys Identified Mail) gebruikt in Microsoft 365 om ervoor te zorgen dat berichten die worden verzonden vanuit uw aangepaste domein worden vertrouwd door de ontvangende e-mailsystemen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2cd04911e3663bb6b9fa00d4946b26086dc8094d
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 12c7609635d9140f2e8efda3f6f1397619ce4790
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538265"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929899"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanuit uw aangepaste domein
 
@@ -213,18 +213,16 @@ Als u de CNAME-records in DNS hebt gepubliceerd, kunt u DKIM-ondertekening insch
 
 1. [Meld u aan bij Microsoft 365](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4) met uw werk- of schoolaccount.
 
-2. Ga afhankelijk van de portal die u gebruikt naar [protection.office.com](https://protection.office.com) of [security.microsoft.com](https://security.microsoft.com) en volg het onderstaande pad.
+2. Ga naar [security.microsoft.com](https://security.microsoft.com) en volg het onderstaande pad.
 
-|protection.office.com  |security.microsoft.com  |
-|---------|---------|
-| Bedreigingsbeheer > Beleid > Extra beleid > DKIM     | E-mail en samenwerking > Beleid en regels > Bedreigingsbeleid > Extra beleid > DKIM        | 
+3. Ga naar **E-mail en samenwerking > Beleid en regels > Bedreigingsbeleid > DKIM**.
 
-3. Selecteer het domein waarvoor u DKIM wilt inschakelen en kies vervolgens **Inschakelen** voor **Berichten voor dit domein ondertekenen met DKIM-handtekeningen**. Herhaal deze stap voor elk aangepast domein.
+4. Selecteer het domein waarvoor u DKIM wilt inschakelen en kies vervolgens **Inschakelen** voor **Berichten voor dit domein ondertekenen met DKIM-handtekeningen**. Herhaal deze stap voor elk aangepast domein.
 
 #### <a name="to-enable-dkim-signing-for-your-custom-domain-by-using-powershell"></a>DKIM-ondertekening voor uw aangepaste domein inschakelen met behulp van Windows PowerShell
 
 > [!IMPORTANT]
->:::image type="content" source="../../media/DKIMNoKeysSavedForThisDomain.PNG" alt-text="De 'geen DKIM-sleutels opgeslagen voor dit domein'-fout.":::
+>:::image type="content" source="../../media/dkim.png" alt-text="De 'geen DKIM-sleutels opgeslagen voor dit domein'-fout.":::
 > Als je DKIM voor de eerste keer configureert en de fout 'Geen DKIM-sleutels opgeslagen voor dit domein.' ziet voltooi de opdracht in stap 2, zie hieronder (bijvoorbeeld, *Set-DkimSigningConfig -Identiteit contoso.com -Enabled $true*) voor de sleutel.
 
 1. [Verbinding maken met Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).

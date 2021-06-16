@@ -18,12 +18,12 @@ ms.custom:
 description: Een overzicht krijgen van de siem-serverintegratie (Security Information and Event Management) met uw Microsoft 365 cloudservices en -toepassingen
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: bea8aa3914da4b813f3928eddbb6df9c98ef6605
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: 8b9c17ba2dcefa65b60a53ab8bff405de4850fc0
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599945"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929789"
 ---
 # <a name="security-information-and-event-management-siem-server-integration-with-microsoft-365-services-and-applications"></a>Siem-serverintegratie (Security Information and Event Management) met Microsoft 365 services en toepassingen
 
@@ -58,7 +58,7 @@ Een SIEM-server kan gegevens ontvangen van een groot aantal Microsoft 365 servic
 |Microsoft 365 Service of Toepassing|SIEM-serverinvoer/-methoden|Informatiebronnen|
 |---|---|---|
 |[Microsoft Defender voor Office 365](defender-for-office-365.md)|Auditlogboeken|[SIEM-integratie met Microsoft Defender voor Office 365](siem-integration-with-office-365-ti.md)|
-|[Microsoft Defender voor Eindpunt](/windows/security/threat-protection/)|HTTPS-eindpunt dat wordt gehost in Azure <p> REST-API|[Waarschuwingen naar uw SIEM-hulpprogramma's trekken](../defender-endpoint/configure-siem.md)|
+|[Microsoft Defender voor Eindpunt](/windows/security/threat-protection/)|HTTPS-eindpunt dat wordt gehost in Azure <p> REST API|[Waarschuwingen naar uw SIEM-hulpprogramma's trekken](../defender-endpoint/configure-siem.md)|
 |[Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security)|Logboekintegratie|[SIEM-integratie met Microsoft Cloud App Security](/cloud-app-security/siem)|
 |
 
@@ -69,7 +69,7 @@ Een SIEM-server kan gegevens ontvangen van een groot aantal Microsoft 365 servic
 
 Controleer of auditregistratie is ingeschakeld voordat u de SIEM-serverintegratie configureert.
 
-- Voor SharePoint Online, OneDrive voor Bedrijven en Azure Active Directory is auditregistratie ingeschakeld in het [Beveiligings- & Compliancecentrum.](../../compliance/turn-audit-log-search-on-or-off.md)
+- Voor SharePoint Online, OneDrive voor Bedrijven en Azure Active Directory is auditregistratie ingeschakeld in de [portal Microsoft 365 Defender.](../../compliance/turn-audit-log-search-on-or-off.md)
 
 - Zie Exchange Online controle van postvakken beheren voor [meer Exchange Online.](../../compliance/enable-mailbox-auditing.md)
 

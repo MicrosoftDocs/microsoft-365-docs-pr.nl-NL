@@ -17,21 +17,19 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Retentiebeleid voor auditlogboeken maakt deel uit van de nieuwe geavanceerde controlemogelijkheden in Microsoft 365. Met een bewaarbeleid voor controlelogboeken kunt u opgeven hoelang controlelogboeken in uw organisatie moeten worden bewaard.
-ms.openlocfilehash: b3534f5d0572b2656711850b483651270b9e3315
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: 8df2e240440ad33ac82d926b63cc495d1aaef692
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822139"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925149"
 ---
 # <a name="manage-audit-log-retention-policies"></a>Retentiebeleid voor auditlogboek beheren
 
 U kunt een bewaarbeleid voor auditlogboek maken en beheren in het beveiligings- en compliancecentrum. Retentiebeleid voor auditlogboeken maakt deel uit van de nieuwe geavanceerde controlemogelijkheden in Microsoft 365. Met een bewaarbeleid voor controlelogboeken kunt u opgeven hoelang controlelogboeken in uw organisatie moeten worden bewaard. U kunt auditlogboeken maximaal tien jaar bewaren. U kunt beleid maken op basis van de volgende criteria:
 
 - Alle activiteiten in een of meer Microsoft 365-services
-
 - Specifieke activiteiten (in een Microsoft 365-service) uitgevoerd door alle gebruikers of specifieke gebruikers
-
 - Een prioriteitsniveau dat aangeeft welk beleid prioriteit heeft bij meerdere beleidsregels in uw organisatie
 
 ## <a name="default-audit-log-retention-policy"></a>Standaard retentiebeleid voor auditlogboek
@@ -53,7 +51,7 @@ Geavanceerde audit in Microsoft 365 biedt een standaard retentiebeleid voor audi
 
 ## <a name="create-an-audit-log-retention-policy"></a>Een retentiebeleid voor het auditlogboek maken
 
-1. Ga naar [https://compliance.microsoft.com](https://compliance.microsoft.com) en meld u aan met een gebruikersaccount aan welke de rol Organisatieconfiguratie is toegewezen op de pagina Machtigingen in het Beveiligings- en compliancecentrum.
+1. Ga naar <https://compliance.microsoft.com> en meld u aan met een gebruikersaccount aan welke de rol Organisatieconfiguratie is toegewezen op de pagina Machtigingen in het Beveiligings- en compliancecentrum.
 
 2. Klik in het linkerdeelvenster van het Microsoft 365-compliancecentrum op **Alles weergeven** en klik vervolgens op **Audit**.
 
@@ -61,7 +59,7 @@ Geavanceerde audit in Microsoft 365 biedt een standaard retentiebeleid voor audi
 
 4. Klik **Retentiebeleidvoor audits maken** en vul de volgende velden in op de flyoutpagina:
 
-    ![Plyoutpagine nieuw retentiebeleid voor audit](../media/CreateAuditLogRetentionPolicy.png)
+   ![Plyoutpagine nieuw retentiebeleid voor audit](../media/CreateAuditLogRetentionPolicy.png)
 
    1. **Beleidsnaam:** de naam van het bewaarbeleid voor het auditlogboek. Deze naam moet uniek zijn in uw organisatie en kan niet meer worden gewijzigd nadat het beleid is gemaakt.
 
@@ -70,10 +68,8 @@ Geavanceerde audit in Microsoft 365 biedt een standaard retentiebeleid voor audi
    3. **Gebruikers:** selecteer een of meer gebruikers op welke u het beleid wilt toepassen. Als u dit vak leeg laat, wordt het beleid toegepast op alle gebruikers. Als u het **Recordtype** leeg laat moet u een gebruiker selecteren.
 
    4. **Recordtype:** Het auditrecordtype waarop het beleid van toepassing is. Als u deze eigenschap leeg laat, moet u een gebruiker selecteren in het vak **Gebruikers**. U kunt één recordtype of meerdere recordtypen selecteren:
-
-   - Als u één recordtype selecteert, wordt het veld **Activiteiten** dynamisch weergegeven. U kunt de vervolgkeuzelijst gebruiken om activiteiten te selecteren in het geselecteerde recordtype om het beleid toe te passen. Als u geen specifieke activiteiten kiest, wordt het beleid toegepast op alle activiteiten van het geselecteerde recordtype.
-
-   - Als u meerdere recordtypen selecteert, kunt u geen activiteiten selecteren. Het beleid wordt toegepast op alle activiteiten van de geselecteerde recordtypes.
+      - Als u één recordtype selecteert, wordt het veld **Activiteiten** dynamisch weergegeven. U kunt de vervolgkeuzelijst gebruiken om activiteiten te selecteren in het geselecteerde recordtype om het beleid toe te passen. Als u geen specifieke activiteiten kiest, wordt het beleid toegepast op alle activiteiten van het geselecteerde recordtype.
+      - Als u meerdere recordtypen selecteert, kunt u geen activiteiten selecteren. Het beleid wordt toegepast op alle activiteiten van de geselecteerde recordtypes.
 
    5. **Duur:** de hoeveelheid tijd die nodig is voor het bewaren van de auditlogboeken die voldoen aan de criteria van het beleid.
 
@@ -81,9 +77,9 @@ Geavanceerde audit in Microsoft 365 biedt een standaard retentiebeleid voor audi
 
 5. Klik op **Opslaan** om het nieuwe retentiebeleid voor het auditlogboek te maken.
 
-   Het nieuwe beleid wordt weergegeven in de lijst op het tabblad **Bewaarbeleid audit** tabblad.
+Het nieuwe beleid wordt weergegeven in de lijst op het tabblad **Bewaarbeleid audit** tabblad.
 
-## <a name="manage-audit-log-retention-policies"></a>Retentiebeleid voor auditlogboek beheren
+## <a name="manage-audit-log-retention-policies-in-the-microsoft-365-compliance-center"></a>Bewaarbeleid voor auditlogboeken beheren in het Microsoft 365-compliancecentrum
 
 Bewaarbeleid voor auditlogboekgegevens wordt weergegeven op het tabblad **Controle bewaarbeleid** (ook wel het *dashboard* genoemd). U kunt het dashboard gebruiken om auditbewaarbeleid weer te geven, te bewerken en te verwijderen.
 
@@ -102,9 +98,11 @@ U kunt ook een beleid selecteren om de instellingen ervan weer te geven op de fl
 
 Als u een beleid wilt bewerken, selecteert u het om de flyoutpagina weer te geven. U kunt een of meer instellingen wijzigen en uw wijzigingen vervolgens opslaan.
 
-
 > [!IMPORTANT]
-> Als u de cmdlet **New-UnifiedAuditLogRetentionPolicy** van  gebruikt, is het mogelijk om een bewaarbeleid voor auditlogboek te maken voor recordtypen of activiteiten die niet beschikbaar zijn in het hulpprogramma **Bewaarbeleid audit maken** in het dashboard. In dit geval kunt u het beleid niet bewerken (bijvoorbeeld de duur van het bewaren wijzigen of activiteiten toevoegen en verwijderen) uit het dashboard **Bewaarbeleid audit**. U kunt het beleid alleen weergeven en verwijderen in het compliancecentrum. Als u het beleid wilt bewerken, moet u de cmdlet [Set-UnifiedAuditLogRetentionPolicy](/powershell/module/exchange/set-unifiedauditlogretentionpolicy) in het Beveiligings- en compliancecentrum PowerShell gebruiken.<br/><br/>**Tip:** boven aan de flyoutpagina wordt een bericht weergegeven voor beleidsregels die moeten worden bewerkt met PowerShell.
+>
+> Als u de cmdlet **New-UnifiedAuditLogRetentionPolicy** van  gebruikt, is het mogelijk om een bewaarbeleid voor auditlogboek te maken voor recordtypen of activiteiten die niet beschikbaar zijn in het hulpprogramma **Bewaarbeleid audit maken** in het dashboard. In dit geval kunt u het beleid niet bewerken (bijvoorbeeld de duur van het bewaren wijzigen of activiteiten toevoegen en verwijderen) uit het dashboard **Bewaarbeleid audit**. U kunt het beleid alleen weergeven en verwijderen in het compliancecentrum. Als u de beleidsregel wilt bewerken, moet u de cmdlet [Set-UnifiedAuditLogRetentionPolicy](/powershell/module/exchange/set-unifiedauditlogretentionpolicy) in de Beveiligings- en compliancecentrum PowerShell gebruiken.>
+>
+> **Tip:** boven aan de flyoutpagina wordt een bericht weergegeven voor beleidsregels die moeten worden bewerkt met PowerShell.
 
 ### <a name="delete-policies-in-the-dashboard"></a>Beleid op het dashboard verwijderen
 
@@ -120,20 +118,17 @@ Volg deze stappen om een retentiebeleid voor het auditlogboek te maken in PowerS
 
 1. [Verbinding maken met Beveiligings- en compliancecentrum van Powershell](/powershell/exchange/connect-to-scc-powershell).
 
-2. Voer de volgende opdracht uit om een bewaarbeleid voor het auditlogboek te maken.
+2. Voer de volgende opdracht uit om een bewaarbeleid voor het auditlogboek te maken:
 
    ```powershell
    New-UnifiedAuditLogRetentionPolicy -Name "Microsoft Teams Audit Policy" -Description "One year retention policy for all Microsoft Teams activities" -RecordTypes MicrosoftTeams -RetentionDuration TenYears -Priority 100
    ```
 
-    In dit voorbeeld wordt een bewaarbeleid voor het auditlogboek met de naam 'Auditbeleid van Microsoft Teams' gemaakt met de volgende instellingen:
+   In dit voorbeeld wordt een bewaarbeleid voor het auditlogboek met de naam 'Auditbeleid van Microsoft Teams' gemaakt met de volgende instellingen:
 
    - Een korte beschrijving van het onderwerp.
-
    - Behoudt alle activiteiten van Microsoft Teams (zoals gedefinieerd door de *RecordType* parameter).
-
    - In dit programma worden auditlogboeken van Microsoft Teams 10 jaar bewaard.
-
    - Een prioriteit van 100.
 
 Hier is nog een voorbeeld van het maken van een bewaarbeleid voor auditlogboeken. Met dit beleid blijven auditlogboeken voor de activiteit 'Gebruiker aangemeld' zes maanden bewaard voor de admin@contoso.onmicrosoft.com.
@@ -169,8 +164,12 @@ Om bewaarbeleid voor auditlogboeken te verwijderen, moet u de cmdlet [Remove-Uni
 
 Zoals eerder vermeld, worden auditrecords voor bewerkingen in Azure Active Directory, Exchange Online, SharePoint Online en OneDrive voor Bedrijven standaard één jaar bewaard. De volgende tabel bevat alle recordtypen (voor elk van deze services) die zijn opgenomen in het standaard bewaarbeleid voor het auditlogboek. Dit betekent dat controlelogboeken voor elke bewerking met dit recordtype één jaar worden bewaard, tenzij een aangepast bewaarbeleid voor het auditlogboek prioriteit heeft voor een bepaald recordtype, een bepaalde bewerking of een specifieke gebruiker. De ENUM-waarde (die wordt weergegeven als de waarde voor de eigenschap RecordType in een controlerecord) voor elk recordtype wordt tussen haakjes weergegeven.
 
-|AzureActiveDirectory |Exchange  |SharePoint of OneDrive|
-|:---------|:---------|:---------|
+<br>
+
+****
+
+|AzureActiveDirectory|Exchange |SharePoint of OneDrive|
+|---|---|---|
 |AzureActiveDirectory (8)|ExchangeAdmin (1)|ComplianceDLPSharePoint (11)|
 |AzureActiveDirectoryAccountLogon (9)|ExchangeItem (2)|ComplianceDLPSharePointClassification (33)|
 |AzureActiveDirectoryStsLogon (15)|Campagne (62)|Project (35)|

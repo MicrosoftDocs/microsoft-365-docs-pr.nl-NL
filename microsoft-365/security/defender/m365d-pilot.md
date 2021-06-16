@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-pilotmtpproject
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: b1616b39597a90ff8e8f7b4c92f29f75c62fea18
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 3219b329c53c32e02cd29acdd41a48cd93b2e8bb
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934427"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930509"
 ---
 # <a name="run-your-pilot-microsoft-365-defender-project"></a>Uw pilot Microsoft 365 Defender-project uitvoeren 
 
@@ -42,7 +42,7 @@ Deze handleiding helpt u bij het uitvoeren van een pilotproject door aanwijzers 
 ![Fasen in het uitvoeren van een Microsoft 365 Defender-pilot](../../media/pilotphases.png)
 
 
-Met een pilot kunt u effectief bepalen wat het voordeel is van het gebruik van Microsoft 365 Defender. Voordat u Microsoft 365 Defender in uw productieomgeving inschakelen en uw gebruiksgevallen start, kunt u het beste de taken voor uw pilotproject bepalen en de succescriteria instellen. 
+Met het uitvoeren van een pilot kunt u effectief bepalen wat het voordeel is van het Microsoft 365 Defender. Voordat u Microsoft 365 Defender in uw productieomgeving inschakelen en uw gebruiksgevallen start, kunt u het beste de taken voor uw pilotproject bepalen en de succescriteria instellen. 
 
 
 ## <a name="how-to-use-this-pilot-playbook"></a>Deze test playbook gebruiken
@@ -73,7 +73,7 @@ De volgende voorbeeldtijdlijn is afhankelijk van de juiste resources in uw omgev
 
 Er zijn vier fasen in het uitvoeren van een Microsoft 365 Defender-pilot:
 
-|Fase | Beschrijving | 
+|Fase | Omschrijving | 
 |:-------|:-----|
 | [Planning](m365d-pilot-plan.md)<br> ~ 1 dag| Lees waar u rekening mee moet houden voordat u uw Microsoft 365 Defender-pilotproject gaat uitvoeren: <br><br>- Bereik <br> - Use cases <br>- Vereisten <br>- Testplan <br> - Succescriteria <br> - Scorecard 
 | [Voorbereiding](m365d-evaluation.md) <br>~2 dagen|  Access Microsoft 365 Beveiligingscentrum om uw Microsoft 365 Defender-testomgeving in te stellen. U wordt begeleid naar:<br><br>- Identificeer belanghebbenden en zoek aanmelding voor uw pilot <br> - Milieuoverwegingen <br>- Access <br>- Azure Active Directory instellen <br> - Configuratieorder <br> - Registreren voor Microsoft 365 E5 proefversie <br> - Domein configureren <br>- Licenties Microsoft 365 E5 toewijzen <br> - De installatiewizard in de portal voltooien|

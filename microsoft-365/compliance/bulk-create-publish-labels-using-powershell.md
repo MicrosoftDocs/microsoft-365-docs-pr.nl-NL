@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cabailey
 author: cabailey
 ms.date: ''
+manager: laurawi
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -18,12 +19,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Informatie over het gebruik van PowerShell om retentielabels te maken en te publiceren vanuit de opdrachtregel, onafhankelijk van het Microsoft 365-compliancecentrum.
-ms.openlocfilehash: 1c3a1e1b9e363659b276d2f11a929308f43737b3
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 6dc008784d46567bfa76b5bbcf9b3fa6ee8155a1
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "52161923"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924961"
 ---
 # <a name="create-and-publish-retention-labels-by-using-powershell"></a>PowerShell gebruiken om retentielabels te maken en publiceren
 
@@ -58,7 +59,7 @@ De voorbeeldscripts in dit artikel worden niet ondersteund door een standaardond
   
 Opmerkingen:
 
-- Als het CSV-bestand een retentielabel bevat met dezelfde naam als het bestaande label, wordt het maken van dit retentielabel overgeslagen. Er worden geen dubbele retentielabels gemaakt.
+- Als het CSV-bestand een retentielabel bevat met dezelfde naam als een reeds bestaand label, wordt het maken van dat retentielabel door het script overgeslagen. Er worden geen duplicaat retentielabels gemaakt.
     
 - Wijzig de kolomkoppen van het voorziene .csv-voorbeeldbestand niet of wijzig de naam niet, anders mislukt het script.
     
@@ -85,7 +86,7 @@ LabelName_t_4,Record label tag - financial,$true,Keep,730,CreationAgeInDays,
 
 Opmerkingen:
   
-- Als het CSV-bestand een retentielabelbeleid bevat met dezelfde naam als het bestaande label, wordt het maken van dit retentielabelbeleid overgeslagen. Er worden geen dubbele retentielabelbeleidsregels gemaakt.
+- Als het CSV-bestand een retentielabelbeleid bevat met dezelfde naam als een reeds bestaand beleid, wordt het maken van dat retentielabelbeleid overgeslagen. Er worden geen duplicaat beleidsregels voor retentielabels gemaakt.
     
 - Wijzig de kolomkoppen van het voorziene .csv-voorbeeldbestand niet of wijzig de naam niet, anders mislukt het script.
     

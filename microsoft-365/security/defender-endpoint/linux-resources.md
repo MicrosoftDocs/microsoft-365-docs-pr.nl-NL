@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 176ee89c8d60a1515855296e2565f0649f908a33
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: aaf9c0a8eef4e050ca034d1aee69d24c5adb909d
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933323"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930365"
 ---
 # <a name="resources"></a>Resources
 
@@ -31,6 +31,7 @@ ms.locfileid: "51933323"
 
 
 **Van toepassing op:**
+
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
@@ -69,6 +70,7 @@ Als u een probleem kunt reproduceren, moet u eerst het logboekregistratieniveau 
    ```bash
    mdatp log level set --level info
    ```
+
    ```Output
    Log level configured successfully
    ```
@@ -77,7 +79,8 @@ Als u een probleem kunt reproduceren, moet u eerst het logboekregistratieniveau 
 
 Als er een fout optreedt tijdens de installatie, meldt het installatieprogramma alleen een algemene fout.
 
-Het gedetailleerde logboek wordt opgeslagen in `/var/log/microsoft/mdatp_install.log` . Als u problemen ervaart tijdens de installatie, stuurt u ons dit bestand zodat we de oorzaak kunnen helpen opsporen.
+Het gedetailleerde logboek wordt opgeslagen in `/var/log/microsoft/mdatp/install.log` .
+Als u problemen ervaart tijdens de installatie, stuurt u ons dit bestand zodat we de oorzaak kunnen helpen opsporen.
 
 ## <a name="uninstall"></a>Verwijderen
 
@@ -104,7 +107,7 @@ De volgende tabel bevat opdrachten voor enkele van de meest voorkomende scenario
 |Groep                 |Scenario                                                |Opdracht                                                                |
 |----------------------|--------------------------------------------------------|-----------------------------------------------------------------------|
 |Configuratie         |Realtimebeveiliging in- of uitschakelen                        |`mdatp config real-time-protection --value [enabled\|disabled]`        |
-|Configuratie         |Gedragscontrole in-/uitschakelen                         |`mdatp config behavior-monitoring --value [enabled\|disabled]` 
+|Configuratie         |Gedragscontrole in-/uitschakelen                         |`mdatp config behavior-monitoring --value [enabled\|disabled]`
 |Configuratie         |Cloudbeveiliging in-/uitschakelen                            |`mdatp config cloud --value [enabled\|disabled]`                       |
 |Configuratie         |Productdiagnose in- of uitschakelen                         |`mdatp config cloud-diagnostic --value [enabled\|disabled]`            |
 |Configuratie         |Automatische voorbeeldinzending in- of uitschakelen                 |`mdatp config cloud-automatic-sample-submission [enabled\|disabled]`   |

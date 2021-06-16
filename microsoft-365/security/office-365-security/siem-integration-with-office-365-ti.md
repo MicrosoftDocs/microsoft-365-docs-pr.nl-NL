@@ -19,12 +19,12 @@ description: Integreer de SIEM-server van uw organisatie met Microsoft Defender 
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ca8f86c831df16568ae569e7b21c7e0a33475948
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: f3d6bbacb4a64060ecd03cbb28eee3256f41827e
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204063"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929777"
 ---
 # <a name="siem-integration-with-microsoft-defender-for-office-365"></a>SIEM-integratie met Microsoft Defender voor Office 365
 
@@ -58,7 +58,7 @@ De SIEM-server of een ander soortgelijk systeem peilt de **audit.general-werkbel
 
 In de volgende tabel worden de waarden van **AuditLogRecordType** samengevat die relevant zijn voor Microsoft Defender voor Office 365 gebeurtenissen:
 
-|Waarde|Lidnaam|Beschrijving|
+|Waarde|Lidnaam|Omschrijving|
 |---|---|---|
 |28|ThreatIntelligence|Phishing- en malwaregebeurtenissen van Exchange Online Protection en Microsoft Defender voor Office 365.|
 |41|ThreatIntelligenceUrl|Safe Koppelingen time-of-block en blokkeren overschrijven gebeurtenissen van Microsoft Defender voor Office 365.|
@@ -67,7 +67,7 @@ In de volgende tabel worden de waarden van **AuditLogRecordType** samengevat die
 |
 
 > [!IMPORTANT]
-> U moet een globale beheerder zijn of de rol van beveiligingsbeheerder hebben toegewezen voor het Beveiligings- & Compliancecentrum om SIEM-integratie met Microsoft Defender in te stellen voor Office 365.
+> U moet een globale beheerder zijn of de rol van beveiligingsbeheerder hebben toegewezen voor de Microsoft 365 Defender-portal om SIEM-integratie met Microsoft Defender in te stellen voor Office 365.
 >
 > Auditregistratie moet zijn ingeschakeld voor uw Microsoft 365 omgeving. Zie Zoeken in auditlogboek in- of uitschakelen voor [hulp bij dit alles.](../../compliance/turn-audit-log-search-on-or-off.md)
 

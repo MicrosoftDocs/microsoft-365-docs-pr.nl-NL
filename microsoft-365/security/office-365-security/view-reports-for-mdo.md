@@ -16,18 +16,18 @@ ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Rapporten zoeken en gebruiken voor Microsoft Defender voor Office 365 in het beveiligings- & compliancecentrum.
+description: Zoek en gebruik rapporten voor Microsoft Defender voor Office 365 in de Microsoft 365 Defender-portal.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0b3e1ddf48ccd74b36c594d232c6761b921dee8c
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: a5c45f58ee83de11712b198c85a8e423314289bf
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599897"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930205"
 ---
-# <a name="view-defender-for-office-365-reports-in-the-reports-dashboard-in-the-security--compliance-center"></a>Defender voor Office 365 rapporten weergeven in het dashboard Rapporten in het beveiligings- & compliancecentrum
+# <a name="view-defender-for-office-365-reports-in-the-reports-dashboard-in-the-microsoft-365-defender-portal"></a>Defender voor Office 365 rapporten weergeven in het dashboard Rapporten in Microsoft 365 Defender-portal
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -35,9 +35,9 @@ ms.locfileid: "51599897"
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Microsoft Defender voor Office 365-organisaties (bijvoorbeeld Microsoft 365 E5-abonnementen of Microsoft Defender voor Office 365 Plan 1 of Microsoft Defender voor Office 365 Abonnement 2-invoegtoepassingen) bevatten diverse beveiligingsgerelateerde rapporten. Als u de [benodigde machtigingen hebt,](#what-permissions-are-needed-to-view-the-defender-for-office-365-reports)kunt u deze rapporten bekijken in het Beveiligings- & compliancecentrum door naar  \> **Rapportendashboard** te gaan. Als u rechtstreeks naar het dashboard Rapporten wilt gaan, opent u <https://protection.office.com/insightdashboard> .
+Microsoft Defender voor Office 365-organisaties (bijvoorbeeld Microsoft 365 E5-abonnementen of Microsoft Defender voor Office 365 Plan 1 of Microsoft Defender voor Office 365 Abonnement 2-invoegtoepassingen) bevatten diverse beveiligingsgerelateerde rapporten. Als u de [benodigde machtigingen hebt,](#what-permissions-are-needed-to-view-the-defender-for-office-365-reports)kunt u deze rapporten bekijken  in de portal Microsoft 365 Defender door naar Rapporten E-mailsamenwerking e-mailsamenwerkingsrapporten \>  \> **te gaan.** Als u rechtstreeks naar het dashboard Rapporten wilt gaan, opent u <https://security.microsoft.com/emailandcollabreport> .
 
-![Het dashboard Rapporten in het beveiligings- & compliancecentrum](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
+![Het dashboard Rapporten in de Microsoft 365 Defender-portal](../../media/user-reported-messages.png)
 
 ## <a name="defender-for-office-365-file-types-report"></a>Rapport over bestandstypen voor Defender voor Office 365
 
@@ -45,7 +45,7 @@ Het **rapport Defender Office 365 bestandstypen** toont het type bestanden dat i
 
  Met de statistische weergave van het rapport kunt u 90 dagen filteren, terwijl de detailweergave slechts tien dagen filtert.
 
-Als u het rapport wilt bekijken, opent u  het [Beveiligings- & Compliancecentrum,](https://protection.office.com)gaat u naar \> **Rapportendashboard** en selecteert u **Defender voor Office 365 bestandstypen.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://protection.office.com/reportv2?id=ATPFileReport> .
+Als u het rapport wilt bekijken, opent [u de Microsoft 365 Defender-portal,](https://security.microsoft.com)gaat u naar  \> **Rapportendashboard** en selecteert u Defender voor Office 365 **bestandstypen.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://protection.office.com/reportv2?id=ATPFileReport> .
 
 ![Defender for Office 365 file types widget in the Reports dashboard](../../media/atp-file-types-report-widget.png)
 
@@ -127,7 +127,7 @@ Als u terug wilt naar de rapportweergave, klikt u op **Rapport weergeven.**
 
 In **het ATP-rapport Berichtafzetting** ziet u de acties die zijn uitgevoerd voor e-mailberichten die zijn gedetecteerd als schadelijke inhoud.
 
-Als u het rapport wilt bekijken, opent u  het [Beveiligings- & Compliancecentrum,](https://protection.office.com)gaat u naar \> **Rapportendashboard** en selecteert u **Defender Office 365 berichtweergave.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://protection.office.com/reportv2?id=ATPMessageReport> .
+Als u het rapport wilt bekijken, opent u  [de Microsoft 365 Defender-portal,](https://security.microsoft.com)gaat u naar Rapporten e-mail & samenwerking e-mail & samenwerkingsrapporten en selecteert u Defender voor Office 365 \>  \>  **berichtweergave.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://protection.office.com/reportv2?id=ATPMessageReport> .
 
 ![Defender for Office 365 message disposition widget in the Reports dashboard](../../media/atp-message-disposition-report-widget.png)
 
@@ -215,7 +215,7 @@ In **het rapport E-maillatentie** ziet u een statistische weergave van de latent
 
 Clientzijde en netwerklatentie zijn niet inbegrepen.
 
-Als u het rapport wilt bekijken, opent u  het [beveiligingscentrum & compliancecentrum,](https://protection.office.com)gaat u naar Het dashboard Rapporten en selecteert u \>  **E-maillatentierapport.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://protection.office.com/mailLatencyReport?viewid=P50> .
+Als u het rapport wilt bekijken, opent u  [de Microsoft 365 Defender-portal,](https://security.microsoft.com)gaat u naar Rapporten E-mail & samenwerking e-mail & samenwerkingsrapporten en klikt u op Details weergeven onder \>  \>  **E-maillatentierapport.**  Als u rechtstreeks naar het rapport wilt gaan, opent u <https://security.microsoft.com/mailLatencyReport> .
 
 ![Rapportwidget e-maillatentie in het dashboard Rapporten](../../media/mail-latency-report-widget.png)
 
@@ -268,7 +268,7 @@ Het rapport Status **van** bedreigingsbeveiliging is één weergave waarin infor
 
 Het **rapport URL-bedreigingsbeveiliging** bevat overzichts- en trendweergaven voor gedetecteerde bedreigingen en acties die zijn ondernomen op URL-klikken als onderdeel [van Safe Koppelingen.](safe-links.md) In dit rapport zijn geen klikgegevens van gebruikers waar Safe beleid voor koppelingen is toegepast, is de optie **Gebruikersklikken** niet bijhouden geselecteerd.
 
-Als u het rapport wilt bekijken, opent u het [Beveiligings- & Compliancecentrum,](https://protection.office.com)gaat u **naar** \> **Rapportendashboard** en selecteert u **URL-beveiligingsrapport**. Als u rechtstreeks naar het rapport wilt gaan, opent u <https://protection.office.com/reportv2?id=URLProtectionActionReport> .
+Als u het rapport wilt bekijken, opent  [u de Microsoft 365 Defender-portal,](https://security.microsoft.com)gaat u naar Rapporten E-mail & samenwerking e-mail & samenwerkingsrapporten en klikt u onder \>  \>  **URL-beveiligingsrapport** op **Details** weergeven. Als u rechtstreeks naar het rapport wilt gaan, opent u <https://security.microsoft.com/reports/URLProtectionActionReport> .
 
 ![Widget urlbeveiligingsrapport in het dashboard Rapporten](../../media/url-protection-report-widget.png)
 
@@ -336,8 +336,8 @@ Naast de rapporten die in dit artikel worden beschreven, zijn er verschillende a
 |Rapport|Onderwerp|
 |---|---|
 |**Explorer** (Microsoft Defender voor Office 365 plan 2) of **realtime detecties** (Microsoft Defender voor Office 365 abonnement 1)|[Bedreigingsverkenner (en realtime detecties)](threat-explorer.md)|
-|**E-mailbeveiligingsrapporten,** zoals het rapport Top senders and recipients, the Spoof mail report, and the Spam detections report.|[E-mailbeveiligingsrapporten weergeven in het beveiligings- & compliancecentrum](view-email-security-reports.md)|
-|**E-mailstroomrapporten,** zoals het rapport Doorsturen, het rapport Mailflow-status en het rapport Top senders and recipients.|[E-mailstroomrapporten weergeven in het beveiligings- & compliancecentrum](view-mail-flow-reports.md)|
+|**E-mailbeveiligingsrapporten,** zoals het rapport Top senders and recipients, the Spoof mail report, and the Spam detections report.|[E-mailbeveiligingsrapporten weergeven in Microsoft 365 Defender-portal](view-email-security-reports.md)|
+|**E-mailstroomrapporten,** zoals het rapport Doorsturen, het rapport Mailflow-status en het rapport Top senders and recipients.|[E-mailstroomrapporten weergeven in Microsoft 365 Defender-portal](view-mail-flow-reports.md)|
 |**URL-trace voor Safe koppelingen** (alleen PowerShell). In de uitvoer van deze cmdlet ziet u de resultaten van Safe koppelingen in de afgelopen zeven dagen.|[Get-UrlTrace](/powershell/module/exchange/get-urltrace)|
 |**Resultaten van e-mailverkeer voor EOP en Microsoft Defender voor Office 365** (alleen PowerShell). De uitvoer van deze cmdlet bevat informatie over Domein, Datum, Gebeurtenistype, Richting, Actie en Aantal berichten.|[Get-MailTrafficATPReport](/powershell/module/exchange/get-mailtrafficatpreport)|
 |**E-maildetailrapporten voor EOP en Defender Office 365 detecties** (alleen PowerShell). De uitvoer van deze cmdlet bevat details over schadelijke bestanden of URL's, phishingpogingen, imitatie en andere potentiële bedreigingen in e-mail of bestanden.|[Get-MailDetailATPReport](/powershell/module/exchange/get-maildetailatpreport)|
@@ -345,16 +345,16 @@ Naast de rapporten die in dit artikel worden beschreven, zijn er verschillende a
 
 ## <a name="what-permissions-are-needed-to-view-the-defender-for-office-365-reports"></a>Welke machtigingen zijn nodig om de Defender voor Office 365 weergeven?
 
-Als u de rapporten wilt bekijken en gebruiken die in dit artikel worden beschreven, moet u lid zijn van een van de volgende rollengroepen in het Compliancecentrum & Beveiliging:
+Als u de rapporten wilt bekijken en gebruiken die in dit artikel worden beschreven, moet u lid zijn van een van de volgende rollengroepen in de Microsoft 365 Defender-portal:
 
 - **Organisatiebeheer**
 - **Beveiligingsbeheerder**
 - **Beveiligingslezer**
-- **Algemene lezer**
+- **Globale lezer**
 
-Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
+Zie Machtigingen [in de portal Microsoft 365 Defender voor meer informatie.](permissions-in-the-security-and-compliance-center.md)
 
-**Opmerking:** Gebruikers toevoegen aan de bijbehorende Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de vereiste machtigingen in het Beveiligings- & _Compliancecentrum_ en machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
+**Opmerking:** Gebruikers toevoegen aan de bijbehorende Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de vereiste  machtigingen in de Microsoft 365 Defender-portal en machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
 
 ## <a name="what-if-the-reports-arent-showing-data"></a>Wat gebeurt er als er geen gegevens worden weergegeven in de rapporten?
 
@@ -362,6 +362,6 @@ Als u geen gegevens ziet in uw Defender voor Office 365 rapporten, controleert u
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Slimme rapporten en inzichten in het beveiligings- & compliancecentrum](reports-and-insights-in-security-and-compliance.md)
+[Slimme rapporten en inzichten in de Microsoft 365 Defender-portal](reports-and-insights-in-security-and-compliance.md)
 
 [Rolmachtigingen (Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#role-permissions)

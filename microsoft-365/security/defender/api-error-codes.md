@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: e621b79d37a2c3a22394bd51e0493334eff461c7
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: de24856e8ea7555a96de18cabca5ccadfe71b431
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932879"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930269"
 ---
 # <a name="common-microsoft-365-defender-rest-api-error-codes"></a>Veelgebruikte Microsoft 365 Defender REST API-foutcodes
 
@@ -62,7 +62,7 @@ DisabledFeature | Verboden (403) | Tenantfunctie is niet ingeschakeld.
 DisallowedOperation | Verboden (403) | \<the disallowed operation and the reason\>.
 NotFound | Niet gevonden (404) | Foutbericht Algemeen niet gevonden.
 ResourceNotFound | Niet gevonden (404) | Resource \<the requested resource\> is niet gevonden.
-InternalServerError | Interne serverfout (500) | *Opmerking: Geen foutbericht, de bewerking opnieuw uitvoeren of contact opnemen met Microsoft als dit niet wordt opgelost*
+InternalServerError | Interne serverfout (500) | *Opmerking: Geen foutbericht, de bewerking opnieuw uitvoeren of [contact opnemen met Microsoft](/microsoft-365/business-video/get-help-support) als dit niet wordt opgelost*
 
 ## <a name="examples"></a>Voorbeelden
 

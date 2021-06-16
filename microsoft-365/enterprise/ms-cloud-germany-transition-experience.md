@@ -19,12 +19,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: 'Samenvatting: Meer informatie over wat er is veranderd voor de overstap van Microsoft Cloud Germany (Microsoft Cloud Deutschland) naar Office 365 services in de nieuwe Duitse datacenterregio.'
-ms.openlocfilehash: 74ad9a662d3ea7a68ef1f82961864eb4468f6098
-ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
+ms.openlocfilehash: e503df16cfdbe0985e635b07cb6b4a45bc55d367
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51591778"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930401"
 ---
 # <a name="what-will-change-after-the-migration-to-office-365-services-in-the-new-german-datacenter-regions"></a>Wat verandert er na de migratie naar Office 365 services in de nieuwe Duitse datacenterregio's
 
@@ -75,6 +75,12 @@ Aandachtspunten:
 - Postvakken worden gemigreerd als back-mailproces. Gebruikers in uw organisatie kunnen tijdens de overgang in Microsoft Cloud Deutschland of de Duitse regio zijn en maken deel uit van dezelfde Exchange-organisatie (in dezelfde algemene adreslijst).
 
 - Gebruikers van de Outlook Web App die toegang hebben tot de service met behulp van een URL waar hun postvak zich niet bevindt, krijgen een extra verificatieprompt te zien. Als het postvak van de gebruiker zich bijvoorbeeld in de Office 365-services en de Outlook Web App-verbinding van de gebruiker het oude eindpunt gebruikt, wordt de gebruiker eerst geverifieerd bij en vervolgens op `outlook.office.de` `login.microsoftonline.de` `login.microsoftonline.com` . Wanneer de migratie is voltooid, heeft de gebruiker toegang tot de nieuwe URL ( ) en ziet hij of zij alleen de enige, verwachte `https://outlook.office365.com` aanmeldingsaanvraag. 
+
+## <a name="sharepoint-online"></a>SharePoint Online
+
+In SharePoint Online en OneDrive voor Bedrijven kunt u items delen via Outlook. Nadat u op Outlook knop hebt gedrukt, wordt er een deelbare koppeling gemaakt en in een nieuw bericht in de Outlook Web App.
+
+Items delen in SharePoint Online en OneDrive voor Bedrijven via Outlook werkt niet meer nadat de migratie van SharePoint Online is voltooid. We herkennen dat dit een bekend probleem is. Aangezien deze functie Outlook het pad van afzetting is, is het oplossen van het probleem echter niet gepland totdat de intrekking is uitgerold.
 
 ## <a name="office-services"></a>Office Services
 

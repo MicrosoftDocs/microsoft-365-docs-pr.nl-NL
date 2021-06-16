@@ -1,5 +1,5 @@
 ---
-title: E-mailbeveiligingsrapporten bekijken in het Beveiligings- en compliancecentrum
+title: E-mailbeveiligingsrapporten weergeven in Microsoft 365 Defender-portal
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -15,18 +15,18 @@ search.appverid:
 ms.assetid: 3a137e28-1174-42d5-99af-f18868b43e86
 ms.collection:
 - M365-security-compliance
-description: Meer informatie over het zoeken en gebruiken van e-mailbeveiligingsrapporten voor uw organisatie. E-mailbeveiligingsrapporten zijn beschikbaar in het & Compliancecentrum.
+description: Meer informatie over het zoeken en gebruiken van e-mailbeveiligingsrapporten voor uw organisatie. E-mailbeveiligingsrapporten zijn beschikbaar in Microsoft 365 Defender-portal.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 11fe6fd76d21b2dbd7a3e651d40efaa79f675a43
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: bb7570722fcc957ca86d68f6b42ef254578d7bd7
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52531011"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930319"
 ---
-# <a name="view-email-security-reports-in-the-security--compliance-center"></a>E-mailbeveiligingsrapporten bekijken in het Beveiligings- en compliancecentrum
+# <a name="view-email-security-reports-in-the-microsoft-365-defender-portal"></a>E-mailbeveiligingsrapporten weergeven in Microsoft 365 Defender-portal
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -35,9 +35,9 @@ ms.locfileid: "52531011"
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Er zijn diverse rapporten beschikbaar in het [beveiligings- & compliancecentrum](https://protection.office.com) om te zien hoe e-mailbeveiligingsfuncties, zoals antispam, anti-malware en versleutelingsfuncties in Microsoft 365 uw organisatie beschermen. Als u de [benodigde machtigingen hebt,](#what-permissions-are-needed-to-view-these-reports)kunt u deze rapporten bekijken in het Beveiligings- & compliancecentrum door naar  \> **Rapportendashboard** te gaan. Als u rechtstreeks naar het dashboard Rapporten wilt gaan, opent u <https://protection.office.com/insightdashboard> .
+Er zijn diverse rapporten beschikbaar in de [Microsoft 365 Defender-portal](https://security.microsoft.com) om te zien hoe e-mailbeveiligingsfuncties, zoals antispam, anti-malware en versleutelingsfuncties in Microsoft 365 uw organisatie beschermen. Als u de benodigde machtigingen [hebt,](#what-permissions-are-needed-to-view-these-reports)kunt u deze rapporten  bekijken in de Microsoft 365 Defender-portal door naar Rapporten \> **e-mail & samenwerking** e-mail- & \> **samenwerkingsrapporten.** Als u rechtstreeks naar het dashboard Rapporten wilt gaan, opent u <https://security.microsoft.com/emailandcollabreport> .
 
-![Rapportendashboard in het beveiligings- & compliancecentrum](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
+![Dashboard Rapporten in de Microsoft 365 Defender-portal](../../media/email-collaboration-reports.png)
 
 ## <a name="compromised-users-report"></a>Rapport over gecompromitteerde gebruikers
 
@@ -50,7 +50,7 @@ In **het rapport Gecompromitteerde** gebruikers ziet  u  het aantal gebruikersac
 
 De statistische weergave bevat gegevens van de afgelopen 90 dagen en de detailweergave bevat gegevens van de afgelopen 30 dagen.
 
-Als u het rapport wilt bekijken, opent u  het [beveiligingscentrum & compliancecentrum,](https://protection.office.com)gaat u naar Het \> **dashboard Rapporten** en selecteert u **Gecompromitteerde gebruikers.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://protection.office.com/reportv2?id=CompromisedUsers> .
+Als u het rapport wilt bekijken, opent  [u de Microsoft 365 Defender-portal,](https://security.microsoft.com)gaat u naar Rapporten e-mail & samenwerking e-mail & samenwerkingsrapporten en klikt u op Details weergeven onder Gecompromitteerde \>  \>  **gebruikers.**  Als u rechtstreeks naar het rapport wilt gaan, opent u <https://security.microsoft.com/reports/CompromisedUsers> .
 
 U kunt zowel de grafiek als de detailtabel filteren door op **Filters** te klikken en een of meer van de volgende waarden te selecteren:
 
@@ -80,7 +80,7 @@ Het **versleutelingsrapport** is beschikbaar in EOP (abonnementen met postvakken
 
 Met de statistische weergave kunt u filteren voor de afgelopen 90 dagen, terwijl in de detailweergave 10 dagen kan worden gefilterd.
 
-Als u het rapport wilt bekijken, opent u het [Beveiligings- & Compliancecentrum,](https://protection.office.com)gaat u **naar** \> **Rapportendashboard** en selecteert u **Versleutelingsrapport.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://protection.office.com/reportv2?id=EncryptionReport> .
+Als u het rapport wilt bekijken, opent  [u de Microsoft 365 Defender-portal,](https://security.microsoft.com)gaat u naar Rapporten e-mail & samenwerking e-mail & samenwerkingsrapporten en klikt u op Details weergeven onder \>  \>  **Versleutelingsrapport.**  Als u rechtstreeks naar het rapport wilt gaan, opent u <https://protection.office.com/reportv2?id=EncryptionReport> .
 
 Zie E-mailversleuteling in Microsoft 365 voor [meer informatie over versleuteling.](../../compliance/email-encryption.md)
 
@@ -153,7 +153,7 @@ Het **malwaredetectierapport in het** e-mailrapport bevat informatie over malwar
 
  Het filter voor de statistische weergave kan 90 dagen duren, terwijl het detailtabelfilter slechts 10 dagen toestaat.
 
-Als u het rapport wilt bekijken, opent u  het [Beveiligings- & Compliancecentrum,](https://protection.office.com)gaat u naar Rapportendashboard en selecteert u \>  **Malwaredetecties in e-mail.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://protection.office.com/reportv2?id=MalwareDetections> .
+Als u het rapport wilt bekijken, opent u  [de Microsoft 365 Defender-portal,](https://security.microsoft.com)gaat u naar Rapporten E-mail & samenwerking e-mail & samenwerkingsrapporten en klikt u op Details weergeven onder Malware gedetecteerd \>  \>  **in e-mail.**  Als u rechtstreeks naar het rapport wilt gaan, opent u <https://security.microsoft.com/reports/MalwareDetections> .
 
 ![Malwaredetecties in e-mailwidget in het dashboard Rapporten](../../media/malware-detections-widget.png)
 
@@ -191,7 +191,7 @@ In **het rapport Spamdetecties** ziet u spam-e-mailberichten die zijn geblokkeer
 
 In de statistische weergave kan 90 dagen worden gefilterd, terwijl in de detailtabel 10 dagen kan worden gefilterd.
 
-Als u het rapport wilt bekijken, opent u het [Beveiligings- & Compliancecentrum,](https://protection.office.com)gaat u naar  \> **Rapportendashboard** en selecteert u **Spamdetecties.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://protection.office.com/reportv2?id=SpamDetections> .
+Als u het rapport wilt bekijken, opent u  [de Microsoft 365 Defender-portal,](https://security.microsoft.com)gaat u naar Rapporten E-mail & samenwerking e-mail & samenwerkingsrapporten en klikt u op Details weergeven onder \>  \>  **Spamdetecties.**  Als u rechtstreeks naar het rapport wilt gaan, opent u <https://security.microsoft.com/reports/SpamDetections> .
 
 ![Widget Spamdetecties in het dashboard Rapporten](../../media/spam-detections-report-widget.png)
 
@@ -255,7 +255,7 @@ Met de statistische weergave van het rapport kunt u 45 dagen filteren, terwijl d
 
 <sup>\*</sup> Uiteindelijk kunt u maximaal 90 dagen filteren gebruiken.
 
-Als u het rapport wilt bekijken, opent u het [Beveiligings- & Compliancecentrum,](https://protection.office.com)gaat u naar  \> **Rapportendashboard** en selecteert u **Spoofdetecties.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://protection.office.com/reportv2?id=SpoofMailReport> .
+Als u het rapport wilt bekijken, opent u  [de Microsoft 365 Defender-portal,](https://security.microsoft.com)gaat u naar Rapporten e-mail & samenwerking e-mail & samenwerkingsrapporten en klikt u op Details weergeven onder \>  \>  **Spoofdetecties.**  Als u rechtstreeks naar het rapport wilt gaan, opent u <https://security.microsoft.com/reports/SpoofMailReport> .
 
 ![Widget Spoofdetecties in het dashboard Rapporten](../../media/spoof-detections-widget.png)
 
@@ -301,7 +301,7 @@ Het rapport bevat het aantal e-mailberichten met schadelijke inhoud, zoals besta
 
 **Opmerking:** Het is belangrijk om te begrijpen dat als een bericht naar vijf geadresseerden wordt verzonden, we het als vijf verschillende berichten tellen en niet één bericht.
 
-Als u het rapport wilt bekijken, opent u het [beveiligingscentrum & compliancecentrum,](https://protection.office.com)gaat u naar **Het** \> **dashboard Rapporten** en selecteert u **Status bedreigingsbeveiliging**. Open een van de volgende URL's om rechtstreeks naar het rapport te gaan:
+Als u het rapport wilt bekijken, opent u  [de Microsoft 365 Defender-portal,](https://security.microsoft.com)gaat u naar Rapporten e-mail & samenwerking e-mail & samenwerkingsrapporten en klikt u op Details weergeven onder Status \>  \>  **bedreigingsbeveiliging.**  Open een van de volgende URL's om rechtstreeks naar het rapport te gaan:
 
 - Microsoft Defender voor Office 365:<https://protection.office.com/reportv2?id=TPSAggregateReportATP>
 - EOP: <https://protection.office.com/reportv2?id=TPSAggregateReport>
@@ -479,7 +479,7 @@ Als u op **Detailstabel weergeven klikt,** is de weergegeven informatie afhankel
 
 Het **rapport Top malware** toont de verschillende soorten malware die zijn gedetecteerd door [anti-malwarebeveiliging in EOP.](anti-malware-protection.md)
 
-Als u het rapport wilt bekijken, opent u het [Beveiligingscentrum & Compliancecentrum,](https://protection.office.com)gaat u naar  \> **Rapportendashboard** en selecteert u **Top malware.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://protection.office.com/reportv2?id=TopMalware> .
+Als u het rapport wilt bekijken, opent  [u de Microsoft 365 Defender-portal,](https://security.microsoft.com)gaat u naar Rapporten E-mail & samenwerking e-mail \>  \> **& samenwerkingsrapporten**  en klikt u op Details weergeven onder **Top malware.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://security.microsoft.com/reports/TopMalware> .
 
 ![De belangrijkste malwarewidget in het dashboard Rapporten](../../media/top-malware-report-widget.png)
 
@@ -498,37 +498,35 @@ Als u in **de rapportweergave** of detailtabelweergave op Filters klikt, kunt u 
 
 Het **rapport URL-bedreigingsbeveiliging** is beschikbaar in Microsoft Defender voor Office 365. Zie het rapport [URL-bedreigingsbeveiliging voor meer informatie.](view-reports-for-mdo.md#url-threat-protection-report)
 
-## <a name="user-reported-messages-report"></a>Rapport met door de gebruiker gerapporteerde berichten
+## <a name="user-reported-messages-report"></a>Rapport met gerapporteerde berichten van gebruiker
 
-Het rapport Door de gebruiker gerapporteerde berichten bevat informatie over e-mailberichten die gebruikers hebben gerapporteerd als ongewenste e-mail, phishingpogingen of goede **e-mail** met behulp van de [invoeging](enable-the-report-message-add-in.md) Rapportbericht of de invoegmap [Rapport phishing.](enable-the-report-phish-add-in.md)
+Het **rapport Gerapporteerde** berichten van gebruiker bevat informatie over e-mailberichten die gebruikers hebben gerapporteerd als ongewenste e-mail, phishingpogingen of goede [e-mail](enable-the-report-message-add-in.md) met behulp van de invoeging Rapportbericht of de invoegmap [Rapport phishing.](enable-the-report-phish-add-in.md)
 
 Details zijn beschikbaar voor elk bericht, inclusief de bezorgingsreden, een dergelijke uitzondering voor spambeleid of e-mailstroomregel die is geconfigureerd voor uw organisatie. Als u details wilt weergeven, selecteert u een item in de  lijst met gebruikersrapporten en bekijkt u de gegevens op de tabbladen Overzicht **en** Details.
 
-![Het User-Reported berichtenrapport bevat berichten die gebruikers als ongewenste e-mail, geen ongewenste e-mail of phishingpogingen hebben aangeduid.](../../media/ad5e9a3d-b833-419c-bcc9-3425d9604ead.png)
+![In het rapport Gerapporteerde berichten van gebruiker ziet u berichten die gebruikers hebben gelabeld als ongewenste e-mail, geen ongewenste e-mail of phishingpogingen.](../../media/ad5e9a3d-b833-419c-bcc9-3425d9604ead.png)
 
-Ga op een van [](https://protection.office.com)de volgende & om dit rapport weer te geven:
+Als u dit rapport wilt bekijken, gaat u  in [Microsoft 365 Defender-portal](https://security.microsoft.com)naar Rapporten e-mail & samenwerking e-mail & \>  \> **samenwerkingsrapporten** \> **Gebruikers gerapporteerde berichten**.
 
-- Ga naar **Dashboard Bedreigingsbeheer** \>  \> **Door de gebruiker gerapporteerde berichten.**
+- Ga naar **Rapporten** \> **E-mail & samenwerking** \> **e-mail & samenwerkingsrapporten** Gebruiker \> **gerapporteerde berichten**.
 
-- Ga naar **Bedreigingsbeheer** \> **Door** \> **de gebruiker gerapporteerde berichten controleren.**
-
-![Kies in & Beveiligingscentrum de optie Meldingsberichten van gebruiker voor \> \> bedreigingsbeheer controleren](../../media/e372c57c-1414-4616-957b-bc933b8c8711.png)
+![Kies in Microsoft 365 Defender-portal Rapporten \> e-mail & samenwerking e-mail- & \> samenwerkingsrapporten \> Gebruiker gerapporteerde berichten](../../media/user-reported-messages.png)
 
 > [!IMPORTANT]
-> Als u wilt dat het rapport Door de gebruiker gerapporteerde berichten correct werkt, moet **auditregistratie** zijn ingeschakeld voor uw Office 365 omgeving. Dit wordt meestal gedaan door iemand die de rol Auditlogboeken heeft toegewezen in Exchange Online. Zie Het zoeken in Microsoft 365 [auditlogboek in- of uitschakelen](../../compliance/turn-audit-log-search-on-or-off.md)voor meer informatie.
+> Als het rapport Gerapporteerde berichten van de gebruiker correct werkt, moet **auditregistratie** zijn ingeschakeld voor uw Office 365 omgeving. Dit wordt meestal gedaan door iemand die de rol Auditlogboeken heeft toegewezen in Exchange Online. Zie Het zoeken in Microsoft 365 [auditlogboek in- of uitschakelen](../../compliance/turn-audit-log-search-on-or-off.md)voor meer informatie.
 
 ## <a name="what-permissions-are-needed-to-view-these-reports"></a>Welke machtigingen zijn nodig om deze rapporten weer te geven?
 
-Als u de rapporten wilt bekijken en gebruiken die in dit artikel worden beschreven, moet u lid zijn van een van de volgende rollengroepen in het Compliancecentrum & Beveiliging:
+Als u de rapporten wilt bekijken en gebruiken die in dit artikel worden beschreven, moet u lid zijn van een van de volgende rollengroepen in de Microsoft 365 Defender-portal:
 
 - **Organisatiebeheer**
 - **Beveiligingsbeheerder**
 - **Beveiligingslezer**
-- **Algemene lezer**
+- **Globale lezer**
 
-Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
+Zie Machtigingen [in de portal Microsoft 365 Defender voor meer informatie.](permissions-in-the-security-and-compliance-center.md)
 
-**Opmerking:** Gebruikers toevoegen aan de bijbehorende Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de vereiste machtigingen in het Beveiligings- & _Compliancecentrum_ en machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
+**Opmerking:** Gebruikers toevoegen aan de bijbehorende Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de vereiste  machtigingen in de Microsoft 365 Defender-portal en machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
 
 ## <a name="what-if-the-reports-arent-showing-data"></a>Wat gebeurt er als er geen gegevens worden weergegeven in de rapporten?
 
@@ -538,8 +536,8 @@ Als u geen gegevens in uw rapporten ziet, controleert u of uw beleid correct is 
 
 [Bescherming tegen spam en anti-malware in EOP](anti-spam-and-anti-malware-protection.md)
 
-[Slimme rapporten en inzichten in het beveiligings- & compliancecentrum](reports-and-insights-in-security-and-compliance.md)
+[Slimme rapporten en inzichten in de Microsoft 365 Defender-portal](reports-and-insights-in-security-and-compliance.md)
 
-[E-mailstroomrapporten weergeven in het beveiligings- & compliancecentrum](view-mail-flow-reports.md)
+[E-mailstroomrapporten weergeven in Microsoft 365 Defender-portal](view-mail-flow-reports.md)
 
 [Rapporten weergeven voor Defender voor Office 365](view-reports-for-mdo.md)

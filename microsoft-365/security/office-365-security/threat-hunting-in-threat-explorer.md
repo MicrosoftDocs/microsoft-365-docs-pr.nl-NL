@@ -12,16 +12,16 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Gebruik Threat Explorer of realtimedetecties in het Beveiligings compliancecentrum om bedreigingen efficiënt te onderzoeken &amp; en te beantwoorden.
+description: Gebruik Threat Explorer- of realtimedetecties in de Microsoft 365 Defender-portal om bedreigingen efficiënt te onderzoeken en te beantwoorden.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 65fe67103d9a380c63a0362594c23290457ea3aa
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 71052cc5a3874da250772bfa628417824ba51c63
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52295228"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930093"
 ---
 # <a name="threat-hunting-in-threat-explorer-for-microsoft-defender-for-office-365"></a>Bedreigingsjacht in Threat Explorer voor Microsoft Defender voor Office 365
 
@@ -42,7 +42,7 @@ In dit artikel:
 
 Als uw organisatie [Microsoft Defender](defender-for-office-365.md)heeft voor Office 365 en u beschikt over de [machtigingen,](#required-licenses-and-permissions)kunt u **Explorer** of **realtimedetecties** gebruiken om bedreigingen te detecteren en te corrigeren. 
 
-Ga in & **Beveiligingscentrum** naar **Bedreigingsbeheer** en kies **explorer**  of **realtime detecties.**
+Ga in **Microsoft 365 Defender-portal** naar **E-mail & samenwerking** en kies **Verkenner.**
 
 <br>
 
@@ -50,7 +50,7 @@ Ga in & **Beveiligingscentrum** naar **Bedreigingsbeheer** en kies **explorer** 
 
 |Met Microsoft Defender voor Office 365 Plan 2 ziet u:|Met Microsoft Defender voor Office 365 plan 1 ziet u:|
 |---|---|
-|![Bedreigingsverkenner](../../media/threatmgmt-explorer.png)|![Detecties in realtime](../../media/threatmgmt-realtimedetections.png)|
+|![Bedreigingsverkenner](../../media/path-to-explorer.png)|![Detecties in realtime](../../media/threatmgmt-realtimedetections.png)|
 |
 
 Met deze hulpmiddelen kunt u het volgende doen:
@@ -68,15 +68,15 @@ In Microsoft Defender voor Office 365 zijn er twee abonnementen: Abonnement 1 en
 
 Defender voor Office 365 Plan 1 maakt gebruik van *realtime detecties,* een subset van het *zoekprogramma Threat Explorer* (ook wel Verkenner genoemd) in Plan 2.  In deze reeks artikelen zijn de meeste voorbeelden gemaakt met de volledige Threat Explorer. Beheerders moeten alle stappen in realtimedetecties testen om te zien waar ze van toepassing zijn.
 
-Als u het hulpprogramma Explorer wilt openen, gaat u naar **Security & Compliance Center** Threat  >  **Management**  >  **Explorer** (of **Realtime detecties).** Standaard komt u op de pagina **Malware,**  maar gebruikt u de vervolgkeuzekeuzepagina Beeld om vertrouwd te raken met uw opties. Als u op Phish jaagt of een bedreigingscampagne bekijkt, kiest u deze weergaven.
+Als u het hulpprogramma Explorer wilt openen, gaat u **naar Microsoft 365 Defender-portal**  >  **E-mail & Explorer voor**  >  **samenwerking.** Standaard komt u op de pagina **Malware,**  maar gebruikt u de vervolgkeuzekeuzepagina Beeld om vertrouwd te raken met uw opties. Als u op Phish jaagt of een bedreigingscampagne bekijkt, kiest u deze weergaven.
 
 > [!div class="mx-imgBorder"]
-> ![Vervolgkeuzekeuzeweergave in Threat Explorer](../../media/threat-explorer-view-drop-down.png)
+> ![Vervolgkeuzekeuzeweergave in Threat Explorer](../../media/view-drop-down.png)
 
 Wanneer een persoon met beveiligingsbewerkingen (Sec Ops) de gegevens selecteert die hij of zij wil zien, of het bereik een smalle weergave is, zoals gebruikersinzendingen of een bredere weergave, zoals **Alle** e-mail, kunnen ze de knop **Afzender** gebruiken om verder te filteren. Selecteer Vernieuwen om uw filteracties te voltooien.
 
 > [!div class="mx-imgBorder"]
-> ![Knop Afzender in Threat Explorer](../../media/threat-explorer-sender-button.png)
+> ![Knop Afzender in Threat Explorer](../../media/sender-drop-down.png)
 
 U kunt de focus in Explorer of realtimedetectie in lagen verfijnen. De eerste is **Weergave.** De tweede kan worden gedacht als een *gefilterde focus.* U kunt bijvoorbeeld de stappen die u hebt genomen bij het vinden van een bedreiging, traceren door uw beslissingen op te nemen zoals deze: Als u het probleem wilt vinden in Explorer, heb ik de malwareweergave gekozen met de **filterfocus Geadresseerde.** Dit maakt het gemakkelijker om uw stappen te volgen.
 
@@ -86,7 +86,7 @@ U kunt de focus in Explorer of realtimedetectie in lagen verfijnen. De eerste is
 Verfijningen kunnen worden aangebracht op datumbereiken met behulp van de besturingselementen voor het datumbereik. Hier ziet u Verkenner in **de malwareweergave,** met de **filterfocus Detectietechnologie.** Maar het is de knop **Geavanceerd filter** waarmee Sec Ops-teams diep kunnen graven. 
 
 > [!div class="mx-imgBorder"]
-> ![Geavanceerd filter in Threat Explorer](../../media/threat-explorer-advanced-filter.png)
+> ![Geavanceerd filter in Threat Explorer](../../media/advanced-filter.png)
 
 Als u op het filter Geavanceerd **klikt,** wordt een deelvenster weergegeven waarmee sec ops-jagers zelf query's kunnen maken, zodat ze de informatie kunnen opnemen of uitsluiten die ze nodig hebben om te zien. Zowel de grafiek als de tabel op de pagina Explorer geven de resultaten weer. 
 
@@ -99,7 +99,7 @@ Gebruik de **knop Kolomopties** om het soort informatie in de tabel op te halen 
 > ![Knop Kolomopties gemarkeerd](../../media/threat-explorer-column-options.png)
 
 > [!div class="mx-imgBorder"]
-> ![Beschikbare opties in kolommen](../../media/threat-explorer-column-options-details.png)
+> ![Beschikbare opties in kolommen](../../media/column-options.png)
 
 Test in dezelfde mien de weergaveopties. Verschillende doelgroepen reageren goed op verschillende presentaties met dezelfde gegevens. Voor sommige gebruikers kan de **e-mail origins-kaart** laten zien  dat een bedreiging breder of discreter is dan de weergaveoptie Campagne direct er naast. Sec Ops kan gebruik maken van deze beeldschermen om de beste punten te maken die de noodzaak onderstrepen van beveiliging en beveiliging, of voor latere vergelijking, om de effectiviteit van hun acties aan te tonen. 
 
@@ -144,7 +144,7 @@ Hier kan de analist acties ondernemen, zoals het rapporteren van de e-mail als S
 
 Wanneer u vanuit een waarschuwing naar  Threat Explorer navigeert, wordt de weergave gefilterd op **waarschuwings-id.** Dit geldt ook voor realtimedetectie. Berichten die relevant zijn voor de specifieke waarschuwing en een e-mailtotaal (aantal) worden weergegeven. U kunt zien of een bericht deel uitmaakte van een waarschuwing en van dat bericht naar de bijbehorende waarschuwing navigeren.
 
-Ten slotte wordt de waarschuwings-id opgenomen in de URL, bijvoorbeeld: `https://protection.office.com/viewalerts?id=372c9b5b-a6c3-5847-fa00-08d8abb04ef1`
+Ten slotte wordt de waarschuwings-id opgenomen in de URL, bijvoorbeeld: `https://https://security.microsoft.com/viewalerts`
 
 > [!div class="mx-imgBorder"]
 > ![Filteren op waarschuwings-id](../../media/AlertID-Filter.png)
@@ -252,7 +252,7 @@ U moet [Microsoft Defender hebben om Office 365](defender-for-office-365.md) exp
 
 Als u Explorer- of realtimedetecties wilt bekijken en gebruiken, moet u het volgende hebben:
 
-- Voor het Beveiligings- & compliancecentrum:
+- Voor de Microsoft 365 Defender-portal:
 
   - Organisatiebeheer
   - Beveiligingsbeheerder (dit kan worden toegewezen in het Azure Active Directory beheercentrum ( <https://aad.portal.azure.com> )
@@ -267,7 +267,7 @@ Als u Explorer- of realtimedetecties wilt bekijken en gebruiken, moet u het volg
 
 Zie de volgende bronnen voor meer informatie over rollen en machtigingen:
 
-- [Machtigingen in het Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md)
+- [Machtigingen in de Microsoft 365 Defender-portal](permissions-in-the-security-and-compliance-center.md)
 - [Functiemachtigingen in Exchange Online](/exchange/permissions-exo/feature-permissions)
 - [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell)
 

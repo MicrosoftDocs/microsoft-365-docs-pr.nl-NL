@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: b9d6cd374a107a403269bc3babbe4220d69e1cce
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: cb4bebe3f6998b81a00d7fd15bc919f70381a933
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844872"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929693"
 ---
 # <a name="troubleshoot-microsoft-defender-for-endpoint-onboarding-issues"></a>Problemen met de onboarding van Microsoft Defender voor eindpunten oplossen
 
@@ -334,6 +334,8 @@ De onderstaande stappen geven richtlijnen voor het volgende scenario:
 - Apparaat is uitgeschakeld of opnieuw gestart voordat de eindgebruiker een eerste aanmelding uitvoert
 - In dit scenario start de SENSE-service niet automatisch, ook al is onboarding-pakket geïmplementeerd
 
+<div class="alert"><b>OPMERKING:</b> Gebruiker Aanmelding na OOBE is niet meer vereist voor SENSE-service om te beginnen met de volgende Windows-versies: Windows 10, versie 1809 of Windows Server 2019 met update-rollup van [22 april 2021](https://support.microsoft.com/kb/5001384) </br> Windows 10, versie 1909 met update-rollup van april [2021](https://support.microsoft.com/kb/5001396) </br> Windows 10, versie 2004/20H2 met [update-rollup van 28 april 2021](https://support.microsoft.com/kb/5001391) </div> 
+<br></br>
 > [!NOTE]
 > De volgende stappen zijn alleen relevant wanneer u Microsoft Endpoint Configuration Manager. Zie Microsoft Defender voor Eindpunt voor meer informatie over onboarding Microsoft Endpoint Configuration Manager gebruik [van Microsoft Endpoint Configuration Manager.](/mem/configmgr/protect/deploy-use/windows-defender-advanced-threat-protection)
 

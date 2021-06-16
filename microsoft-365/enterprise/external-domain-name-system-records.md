@@ -22,18 +22,24 @@ search.appverid:
 - BCS160
 ms.assetid: c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0
 description: Een lijst met externe DNS-records die moeten worden gebruikt bij de planning van een Office 365-implementatie.
-ms.openlocfilehash: 3aa6bf3362005eb0dae5bca40322fe2178d5d69f
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 2cbbbcb6105feccdaed1f7b6ce05a84b374024c0
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51051376"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52926261"
 ---
 # <a name="external-domain-name-system-records-for-office-365"></a>Externe DNS-records (Domain Name System) voor Office 365
 
-|||
-|:-----|:-----|
-|![Domein](../media/e05b1c78-1df0-4200-ba40-6e26b7ead68f.png)|**Wilt u een aangepaste lijst met DNS-records voor uw Office 365-organisatie zien?** U kunt de [informatie die u nodig hebt voor het maken van DNS-records](https://support.office.microsoft.com/article/Gather-the-information-you-need-to-create-Office-365-DNS-records-77f90d4a-dc7f-4f09-8972-c1b03ea85a67) in Office 365 voor uw domein vinden in Office 365.  <br/> **Stapsgewijze instructies nodig om deze records toe te voegen aan de DNS-host van uw domein, zoals GoDaddy of eNom?** [Hier vindt u koppelingen naar stapsgewijze instructies voor veel populaire DNS-hosts](../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md). <br/>  **Blijf u hier om de verwijzingenlijst voor uw eigen aangepaste implementatie te gebruiken?** Gebruik de onderstaande lijst als verwijzing voor uw aangepaste implementatie van Office 365. U moet de records selecteren die betrekking hebben op uw organisatie en de juiste waarden invullen. <br/> **Ga terug naar**[Netwerkplanning en prestaties optimaliseren voor Office 365](./network-planning-and-performance.md).  <br/> |
+![Domein](../media/e05b1c78-1df0-4200-ba40-6e26b7ead68f.png)
+
+**Wilt u een aangepaste lijst met DNS-records voor uw Office 365-organisatie zien?** U kunt de [informatie die u nodig hebt voor het maken van DNS-records](https://support.office.microsoft.com/article/Gather-the-information-you-need-to-create-Office-365-DNS-records-77f90d4a-dc7f-4f09-8972-c1b03ea85a67) in Office 365 voor uw domein vinden in Office 365.
+
+**Stapsgewijze instructies nodig om deze records toe te voegen aan de DNS-host van uw domein, zoals GoDaddy of eNom?** [Hier vindt u koppelingen naar stapsgewijze instructies voor veel populaire DNS-hosts](../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md).
+
+**Blijf u hier om de verwijzingenlijst voor uw eigen aangepaste implementatie te gebruiken?** Gebruik de onderstaande lijst als verwijzing voor uw aangepaste implementatie van Office 365. U moet de records selecteren die betrekking hebben op uw organisatie en de juiste waarden invullen.
+
+**Ga terug naar**[Netwerkplanning en prestaties optimaliseren voor Office 365](./network-planning-and-performance.md).
 
 De SPF-en MX-records zijn vaak het moeilijkst te vinden. Aan het eind van dit artikel zijn onze SPF-record richtlijnen bijgewerkt. Het is belangrijk om te onthouden dat _u slechts één SPF-record voor uw domein hebt_. U kunt meerdere MX-records hebben, maar dat kan problemen veroorzaken bij het afleveren van e-mail. Met een enkel MX-record waarmee e-mail naar een e-mailsysteem wordt omgeleid, worden veel van deze potentiële problemen weggenomen.
   
@@ -44,9 +50,8 @@ De volgende secties zijn ingedeeld op service in Office 365. Wilt u een aangepas
 
 Elke Office 365-klant moet twee records toevoegen aan de externe DNS. De eerste CNAME-record zorgt ervoor dat Office 365 werkstations voor verificatie naar het juiste identiteitsplatform kan verwijzen. De tweede vereiste record is om te bewijzen u de eigenaar bent van de domeinnaam.
   
-||||
-|:-----|:-----|:-----|
 |**DNS-record** <br/> |**Doel** <br/> |**Te gebruiken waarde** <br/> |
+|----------|-----------|------------|
 |**CNAME** <br/> **(Suite)** <br/> |Gebruikt door Office 365 om verificatie te verwijzen naar het juiste identiteitsplatform. [Meer informatie](../admin/services-in-china/purpose-of-cname.md?viewFallbackFrom=o365-worldwide) <br/> **Opmerking:** Deze CNAME is alleen van toepassing op Office 365 beheerd door 21Vianet. [Meer informatie](/office365/servicedescriptions/office-365-platform-service-description/office-365-operated-by-21vianet)  |**Alias:** msoid  <br/> **Target:** clientconfig.partner.microsoftonline-p.net.cn  <br/> |
 |**TXT** <br/> **(Domeinverificatie)** <br/> |Wordt gebruikt door Office 365 om alleen te verifiëren dat u de eigenaar bent van uw domein. Het heeft verder nergens invloed op.  <br/> |**Host:** @ (of, voor bepaalde DNS-hostingproviders, uw domeinnaam)  <br/> **TXT-waarde:** _een tekenreeks die door_ Office 365 geleverd wordt  <br/> De wizard **Office 365 Domeininstallatie** levert de waarden die u gebruikt om deze record te maken.   <br/> |
 
@@ -65,9 +70,8 @@ Wilt u slechts een paar e-mailadressen overbrengen naar Office 365? U kunt [Offi
 
 E-mailklanten die van Exchange-federatie gebruikmaken, hebben ook de extra CNAME- en TXT-records nodig die onder aan de tabel worden vermeld.
   
-||||
-|:-----|:-----|:-----|
 |**DNS-record** <br/> |**Doel** <br/> |**Te gebruiken waarde** <br/> |
+|----------|-----------|------------|
 |**CNAME** <br/> **(Exchange Online)** <br/> |Helpt Outlook-clients gemakkelijk verbinding maken met de Exchange Online-service via de Automatisch opsporen-service. Automatisch opsporen zoekt automatisch naar de juiste Exchange Server-host en configureert Outlook voor gebruikers.  <br/> |**Alias:** Autodiscover  <br/> **Doel:** autodiscover.outlook.com  <br/> |
 |**MX** <br/> **(Exchange Online)** <br/> |Verzendt inkomende e-mail voor uw domein naar de Exchange Online-service in Office 365.  <br/> [!NOTE] Wanneer e-mail eenmaal naar Exchange Online gaat, verwijdert u de MX-records die naar uw oude systeem verwijzen.   |**Domein:** Bijvoorbeeld contoso.com  <br/> **Target email server:**\<MX token\>.mail.protection.outlook.com  <br/> **Voorkeur/prioriteit:** lager dan de andere MX-records (dit zorgt ervoor dat e-mail wordt afgeleverd bij Exchange Online), bijvoorbeeld 1 of 'laag'  <br/>  Vindt uw \<MX token\>door deze stappen uit te voeren:  <br/>  Meld u aan bij Office 365 en ga naar Office 365-beheerder \> domeinen.  <br/>  Kies Problemen oplossen in de kolom Actie voor uw domein.  <br/>  Kies Wat kan ik oplossen? in de sectie MX-records.  <br/>  Volg de aanwijzingen op deze pagina om uw MX-record bij te werken.  <br/> [Wat is MX-prioriteit?](../admin/setup/domains-faq.yml) <br/> |
 |**SPF (TXT)** <br/> **(Exchange Online)**  <br/> |Helpt voorkomen dat anderen uw domein gebruiken om spam of andere schadelijke e-mail te verzenden. Met SPF-records (Sender Policy Framework) worden de servers geïdentificeerd die zijn geautoriseerd om e-mail te verzenden vanaf uw domein.  <br/> |[Externe DNS-records vereist voor SPF](external-domain-name-system-records.md#BKMK_SPFrecords) <br/> |
@@ -83,9 +87,8 @@ Er zijn specifieke stappen die u moet uitvoeren wanneer u [Office 365-URL's en I
 > [!NOTE]
 > Deze DNS-records zijn ook van toepassing op Teams, met name in een scenario met hybride Teams en een Skype voor bedrijven-scenario waarin bepaalde Federatie-zaken zich kunnen voordoen.
   
-||||
-|:-----|:-----|:-----|
 |**DNS-record** <br/> |**Doel** <br/> |**Te gebruiken waarde** <br/> |
+|----------|-----------|------------|
 |**SRV** <br/> **Skype voor Bedrijven Online** <br/> |Zorgt dat uw Office 365-domein functionaliteit voor chatberichten (IM) met externe clients kan delen door SIP-federatie in te schakelen. Zie [URL's en IP-adresbereiken voor Office 365](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2#BKMK_LYO) voor meer informatie.  <br/> |**Service:** sipfederationtls  <br/> **Protocol:** TCP  <br/> **Prioriteit:** 100  <br/> **Gewicht:** 1  <br/> **Poort:** 5061  <br/> **Target:** sipfed.online.lync.com  <br/> **Opmerking:** Als SRV-opzoekacties op een externe DNS door de firewall of proxyserver worden geblokkeerd, moet u deze record aan de interne DNS-record toevoegen.    |
 |**SRV** <br/> **Skype voor Bedrijven Online** <br/> |Wordt gebruikt door Skype voor Bedrijven om de informatiestroom tussen Lync-clients te coördineren.  <br/> |**Service:** sip  <br/> **Protocol:** TLS  <br/> **Prioriteit:** 100  <br/> **Gewicht:** 1  <br/> **Poort:** 443  <br/> **Target:** sipdir.online.lync.com  <br/> |
 |**CNAME** <br/> **Skype voor Bedrijven Online** <br/> |Wordt gebruikt door de Lync-client om de Skype voor Bedrijven Online-service te helpen vinden en aan te melden.  <br/> |**Alias:** sip  <br/> **Target:** sipdir.online.lync.com  <br/> Zie [URL's en IP-adresbereiken voor Office 365](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2#BKMK_LYO) voor meer informatie.  <br/> |
@@ -94,16 +97,15 @@ Er zijn specifieke stappen die u moet uitvoeren wanneer u [Office 365-URL's en I
 ## <a name="external-dns-records-required-for-office-365-single-sign-on"></a>Externe DNS-records vereist voor Office 365 SSO (Single Sign-On)
 <a name="BKMK_ReqdCore"> </a>
 
-||||
-|:-----|:-----|:-----|
 |**DNS-record** <br/> |**Doel** <br/> |**Te gebruiken waarde** <br/> |
-|**Host (A)** <br/> |Wordt gebruikt voor eenmalige aanmelding (SSO). Deze fungeert als eindpunt voor uw externe gebruikers (en on-premises gebruikers, indien gewenst) om verbinding te maken met uw Active Directory Federation Services (AD FS) -federatieserverproxy's of virtuele IP (VIP) met gelijke taakverdeling.  <br/> |**Target:** Bijvoorbeeld sts.contoso.com  <br/> |
+|----------|-----------|------------|
+|**Host (A)** <br/> |Gebruikt voor eenmalige aanmelding (SSO). Deze fungeert als eindpunt voor uw externe gebruikers (en on-premises gebruikers, indien gewenst) om verbinding te maken met uw AD FS-federatieserverproxy's (Active Directory Federation Services) of virtuele IP (VIP) met gelijke taakverdeling.  <br/> |**Target:** Bijvoorbeeld sts.contoso.com  <br/> |
 
 ## <a name="external-dns-records-required-for-spf"></a>Externe DNS-records vereist voor SPF
 <a name="BKMK_SPFrecords"> </a>
 
 > [!IMPORTANT]
-> SPF is ontworpen om spoofing te voorkomen, maar er zijn spoofing-technieken waartegen SPF geen bescherming kan bieden. Om u tegen deze technieken te beschermen, moet u, nadat u SPF hebt geconfigureerd, ook DKIM en DMARC voor Office 365 configureren. Raadpleeg [DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanaf uw domein in Office 365](../security/defender-365-security/use-dkim-to-validate-outbound-email.md). Zie vervolgens [DMARC gebruiken om e-mail in Office 365 te valideren](../security/defender-365-security/use-dmarc-to-validate-email.md).
+> SPF is ontworpen om spoofing te voorkomen, maar er zijn spoofing-technieken waartegen SPF geen bescherming kan bieden. Om u tegen deze technieken te beschermen, moet u, nadat u SPF hebt geconfigureerd, ook DKIM en DMARC voor Office 365 configureren. Raadpleeg [DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanaf uw domein in Office 365](../security/office-365-security/use-dkim-to-validate-outbound-email.md). Zie vervolgens [DMARC gebruiken om e-mail in Office 365 te valideren](../security/office-365-security/use-dmarc-to-validate-email.md).
   
 SPF-records die helpen voorkomen dat anderen uw domein gebruiken om spam of andere schadelijke e-mail te verzenden. Met SPF-records (Sender Policy Framework) worden de servers geïdentificeerd die zijn geautoriseerd om e-mail te verzenden vanaf uw domein.
   
@@ -125,7 +127,7 @@ Een e-mailsysteem dat een e-mailbericht vanaf uw domein ontvangt, bekijkt de SPF
 Voor scenario's waarin u niet alleen werkt met Exchange Online-e-mail voor Office 365 (bijvoorbeeld wanneer u ook e-mail gebruikt die afkomstig is van SharePoint Online), gebruikt u de volgende tabel om te bepalen wat u wilt opnemen in de waarde van de record.
   
 > [!NOTE]
-> Als u een ingewikkeld scenario hebt met bijvoorbeeld edge-mailservers voor het beheren van e-mailverkeer door uw firewall, moet u een meer gedetailleerde SPF-record instellen. Leer hoe: [SPF records instellen in Office 365 om vervalsing te helpen voorkomen](../security/defender-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing.md). In [How Office 365 uses Sender Policy Framework (SPF) to help prevent spoofing](../security/defender-365-security/how-office-365-uses-spf-to-prevent-spoofing.md) (Hoe Office 365 SPF (Sender Policy Framework) gebruikt om vervalsing te helpen voorkomen) kunt u ook veel meer informatie vinden over hoe SPF met Office 365 werkt.
+> Als u een ingewikkeld scenario hebt met bijvoorbeeld edge-mailservers voor het beheren van e-mailverkeer door uw firewall, moet u een meer gedetailleerde SPF-record instellen. Leer hoe: [SPF records instellen in Office 365 om vervalsing te helpen voorkomen](../security/office-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing.md). In [How Office 365 uses Sender Policy Framework (SPF) to help prevent spoofing](../security/office-365-security/how-office-365-uses-spf-to-prevent-spoofing.md) (Hoe Office 365 SPF (Sender Policy Framework) gebruikt om vervalsing te helpen voorkomen) kunt u ook veel meer informatie vinden over hoe SPF met Office 365 werkt.
   
 | Nummer|Als u werkt met...  <br/> |Doel  <br/> |Voegt u deze opnamen (includes) toe  <br/> |
 |:-----|:-----|:-----|:-----|
@@ -167,7 +169,7 @@ Values: v=spf1 include:spf.protection.outlook.com -all
 ### <a name="more-examples-of-common-spf-values"></a>Meer voorbeelden van SPF-waarden
 <a name="bkmk_addtospf"> </a>
 
-Als u de volledige Office 365-suite gebruikt en MailChimp gebruikt om namens u marketingmails te verzenden, kan uw SPF-record op contoso.com er als volgt uitzien, waarin de rijen 1, 3 en 5 van de bovenstaande tabel worden gebruikt. Let op: rij 1 en 5 zijn vereist.
+Als u de volledige Office 365-suite en MailChimp gebruikt om namens u marketingmails te verzenden, kan uw SPF-record op contoso.com er als volgt uitzien, waarin de rijen 1, 3 en 5 van de bovenstaande tabel worden gebruikt (rij 1 en 5 zijn immers vereist).
   
 ``` dns
 TXT Name @
@@ -181,6 +183,6 @@ TXT Name @
 Values: v=spf1 include:spf.protection.outlook.com include:mail.contoso.com -all
 ```
 
-Dit zijn enkele veelvoorkomende voorbeelden die u kunnen helpen uw bestaande SPF-record aan te passen wanneer u uw domein aan Office 365 voor e-mail toevoegt. Als u een ingewikkeld scenario hebt met bijvoorbeeld edge-mailservers voor het beheren van e-mailverkeer door uw firewall, moet u een meer gedetailleerde SPF-record instellen. Leer hoe: [SPF records instellen in Office 365 om vervalsing te helpen voorkomen](../security/defender-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing.md).
+Dit zijn enkele veelvoorkomende voorbeelden die u kunnen helpen uw bestaande SPF-record aan te passen wanneer u uw domein aan Office 365 voor e-mail toevoegt. Als u een ingewikkeld scenario hebt met bijvoorbeeld edge-mailservers voor het beheren van e-mailverkeer door uw firewall, moet u een meer gedetailleerde SPF-record instellen. Leer hoe: [SPF records instellen in Office 365 om vervalsing te helpen voorkomen](../security/office-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing.md).
   
 Met deze korte koppeling kunt u teruggaan: [https://aka.ms/o365edns]()

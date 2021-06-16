@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: ''
 description: 'Overzicht: Office 365 GCC High en DoD hebben extra netwerkbeveiligingsvereisten'
 hideEdit: true
-ms.openlocfilehash: 4817edfcea638324e26eb855d1ea33936be1bfb4
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: f4c03d364e84d89a1b12e4d858ab46eb3be6ae5e
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46689239"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52926557"
 ---
 # <a name="additional-network-security-requirements-for-office-365-gcc-high-and-dod"></a>Aanvullende vereisten voor netwerkbeveiliging voor Office 365 GCC High en DOD
 
@@ -33,7 +33,7 @@ ms.locfileid: "46689239"
 
 Office 365 GCC High en DOD zijn veilige cloudomgevingen om te voldoen aan de behoeften van de Amerikaanse overheid en haar leveranciers en contractanten.  Deze cloudomgevingen hebben extra netwerkbeperkingen waarvoor de services toegang hebben tot externe eindpunten.
 
-GCC Hoge en dod-klanten die federatief identiteiten of hybride co-bestaan willen gebruiken, kunnen microsoft verplichten om inkomende en/of uitgaande toegang toe te staan tot uw bestaande on-premises implementaties.  Voorbeelden van deze activiteiten zijn:
+GCC Hoge en dod-klanten die federatief identiteiten of hybride coëxistentie willen gebruiken, moeten mogelijk inkomende en/of uitgaande toegang toestaan tot uw bestaande on-premises implementaties.  Voorbeelden van deze activiteiten zijn:
 
 * Gebruik van federatief identiteiten (met Active Directory Federation Services of soortgelijke ondersteunde STS)
 * Hybride coëxistentie met een on-premises Exchange Server of Skype voor Bedrijven implementatie
@@ -44,18 +44,18 @@ Als u wilt toestaan dat de service met  uw on-premises eindpunten communiceert, 
 > [!WARNING]
 > Alle aanvragen hebben een SLA van drie **weken** en kunnen niet worden versneld vanwege de vereiste beveiligings- en compliancecontroles en implementatiepijplijnen.  Dit omvat initiële onboarding-netwerkaanvragen en eventuele wijzigingen nadat u naar de service bent gemigreerd.  Zorg ervoor dat uw netwerkteams op de hoogte zijn van deze tijdlijn en neem deze op in hun planningscyclus.
 
-Stuur een e-mail [naar Office 365 Government whitelist met](mailto:o365gwlt@microsoft.com) de volgende informatie:
+Stuur een [e-mail naar Office 365 Government Allow-List aanvragen](mailto:o365gwlt@microsoft.com) met de volgende informatie:
 
-* **Naar**: [Office 365 Government Whitelist voor netwerken](mailto:o365gwlt@microsoft.com)
+* **Om**: [Office 365 Government Allow-List aanvragen](mailto:o365gwlt@microsoft.com)
 * **Van**: Een tenantbeheerder: de e-mail verzenden **moet overeenkomen** met een globale beheerder in uw tenant
-* **E-mailonderwerp:** Office 365 GCC High Network Request - contoso.onmicrosoft.us (vervang dit door uw tenantnaam)
+* **Onderwerp** e-mail: Office 365 GCC High Network Request - contoso.onmicrosoft.us (vervangen door uw tenantnaam)
 
 De hoofd van het bericht moet de volgende gegevens bevatten:
 
-* Uw Microsoft Online Services-tenantnaam (dat wil zeggen contoso.onmicrosoft.com, fabrikam.onmicrosoft.us)
+* Uw Microsoft Online Services-tenantnaam (bijvoorbeeld contoso.onmicrosoft.com, fabrikam.onmicrosoft.us)
 * Een e-maildistributielijst met microsoft voor on-going communicatie met betrekking tot netwerkwijzigingen en/of opvolging van ongeldige subnetten
-* Geef aan of u van plan bent Microsoft Teams hybride co-existence te gebruiken met uw on-premises implementaties
-* Federatief identiteitssysteem voor extern toegankelijke URL (bijvoorbeeld sts.contoso.com) en IP-adresbereik in CIDR-notatie (bijvoorbeeld 10.1.1.0/28)
+* Aangeven of u van plan bent om Microsoft Teams hybride coëxistentie te gebruiken met uw on-premises implementaties
+* Federatief identiteitssysteem extern toegankelijke URL (bijvoorbeeld sts.contoso.com) en IP-adresbereik in CIDR-notatie (bijvoorbeeld. 10.1.1.0/28)
 * On-Premises PKI Certificate Revocation List URL and IP address range in CIDR notation
 * Extern toegankelijke URL en IP-adresbereik voor Exchange Server on-premises implementatie in CIDR-notatie
 * Extern toegankelijke URL en IP-adresbereik voor Skype voor Bedrijven on-premises implementatie in CIDR-notatie

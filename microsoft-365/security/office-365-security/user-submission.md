@@ -17,12 +17,12 @@ ms.collection:
 description: Beheerders kunnen leren hoe ze een postvak configureren voor het verzamelen van spam en phishing-e-mail die door gebruikers worden gerapporteerd.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f4337b29e0718e23f43b441526232ec6ef66be1d
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 4827ce149632d0e37dbe9c3dc5fc8325dbfa8afa
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52879202"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929873"
 ---
 # <a name="user-submissions-policy"></a>Beleid voor gebruikersinzendingen
 
@@ -56,21 +56,21 @@ Gebruik de volgende artikelen om de vereiste vereisten te configureren, zodat do
 
 - Schakel HET SCANNEN VAN URL's in berichten in het aangepaste postvak uit. Gebruik [Beleidsregels voor Safe koppelingen instellen in Defender](set-up-safe-links-policies.md) voor Office 365 om een Safe-koppelingsbeleid te maken met de instelling Uit voor Selecteer de actie voor onbekende potentieel schadelijke **URL's in berichten.** 
 
-- Maak een anti-malwarebeleid om Malware Zero-hour Auto Purge uit te schakelen. Zie [Het beveiligings- & compliancecentrum gebruiken om anti-malwarebeleid](configure-your-spam-filter-policies.md#use-the-microsoft-365-defender-portal-to-create-anti-spam-policies) te maken om **Malware Zero-hour Auto Purge in te** stellen op **Uit.**
+- Maak een anti-malwarebeleid om Malware Zero-hour Auto Purge uit te schakelen. Zie De portal Microsoft 365 Defender gebruiken om [antispambeleid](configure-your-spam-filter-policies.md#use-the-microsoft-365-defender-portal-to-create-anti-spam-policies) te maken om **Malware Zero-hour Auto Purge in te** stellen op **Uit.**
 
-- Maak een spamfilterbeleid om automatisch verwijderen (ZAP) van nul uur uit te schakelen voor spam en phishing in het aangepaste postvak. Zie [Het beveiligings- & compliancecentrum gebruiken](configure-your-spam-filter-policies.md#use-the-microsoft-365-defender-portal-to-create-anti-spam-policies) om antispambeleid te maken en de selectievakjes Aan voor Spam  **ZAP** en **Phish ZAP uit te 2013.**
+- Maak een spamfilterbeleid om automatisch verwijderen (ZAP) van nul uur uit te schakelen voor spam en phishing in het aangepaste postvak. Zie De portal Microsoft 365 Defender gebruiken om [antispambeleid](configure-your-spam-filter-policies.md#use-the-microsoft-365-defender-portal-to-create-anti-spam-policies) te maken en de selectievakjes Aan voor **Spam ZAP** en  **Phish ZAP uit te sluiten.**
 
 - Schakel de regel ongewenste e-mail in het aangepaste postvak uit. Gebruik [Instellingen voor ongewenste e-mail configureren Exchange Online postvakken om](configure-junk-email-settings-on-exo-mailboxes.md) de regel ongewenste e-mail uit te schakelen. Nadat EOP is uitgeschakeld, kan EOP berichten niet verplaatsen naar  de map Ongewenste e-mail op basis van de actie Bericht verplaatsen naar de map Ongewenste e-mail of de safelistverzameling in het postvak.
 
-Nadat u hebt geverifieerd dat uw postvak aan alle toepasselijke vereisten voldoet, gebruikt u het compliancecentrum voor beveiliging [&](#use-the-security--compliance-center-to-configure-the-user-submissions-mailbox) om het postvak met gebruikersinzendingen te configureren (in dit artikel).
+Nadat u hebt geverifieerd dat uw postvak aan alle toepasselijke vereisten voldoet, implementeert u de procedure die is opgegeven in De portal Microsoft 365 Defender gebruiken om het postvak voor gebruikersinzendingen [te configureren.](#use-the-microsoft-365-defender-portal-to-configure-the-user-submissions-mailbox)
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de **pagina Gebruikersinzendingen wilt** gaan, gebruikt u <https://protection.office.com/userSubmissionsReportMessage> .
+- U opent de Microsoft 365 Defender-portal bij <https://security.microsoft.com/>. Als u rechtstreeks naar de pagina **Inzendingen wilt** gaan, gebruikt u <https://security.microsoft.com/reportsubmission> .
 
 - Als u de configuratie voor gebruikersinzendingen wilt wijzigen, moet u lid zijn van een van de volgende rollengroepen:
 
-  - **Organisatiebeheer** of **Beveiligingsbeheerder** in het [Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md).
+  - **Organisatiebeheer** of **Beveiligingsbeheerder** in de [Microsoft 365 Defender-portal](permissions-in-the-security-and-compliance-center.md).
   - **Organisatiebeheer** in [Exchange Online.](/Exchange/permissions-exo/permissions-exo#role-groups)
 
 - U hebt toegang nodig tot Exchange Online PowerShell. Als het account dat u probeert te gebruiken geen toegang heeft tot Exchange Online PowerShell, krijgt u een foutmelding die er zo uitziet wanneer u het postvak voor inzendingen opgeeft:
@@ -82,9 +82,9 @@ Nadat u hebt geverifieerd dat uw postvak aan alle toepasselijke vereisten voldoe
   - [Toegang tot powershell in- Exchange Online uitschakelen](/powershell/exchange/disable-access-to-exchange-online-powershell) 
   - [Clienttoegangsregels in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules)
 
-## <a name="use-the-security--compliance-center-to-configure-the-user-submissions-mailbox"></a>Gebruik het beveiligings- & compliancecentrum om het postvak met gebruikersinzendingen te configureren
+## <a name="use-the-microsoft-365-defender-portal-to-configure-the-user-submissions-mailbox"></a>Gebruik de Microsoft 365 Defender-portal om het postvak met gebruikersinzendingen te configureren
 
-1. Ga in het & compliancecentrum naar **Gebruikersinzendingen voor** \>  \> **bedreigingsbeheerbeleid.**
+1. Ga in Microsoft 365 Defender-portal naar **Beleidsregels &** beleidsregels Bedreigingsbeleid \>  \> **Gebruiker gerapporteerde berichtinstellingen** \> **Gebruikersinzendingen**.
 
 2. Selecteer een **van de** volgende opties op de pagina Gebruikersinzendingen die wordt weergegeven:
 

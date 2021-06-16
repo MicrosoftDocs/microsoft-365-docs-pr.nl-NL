@@ -3,7 +3,7 @@ title: Office 365-beveiliging, Microsoft Defender voor Office 365, EOP, MSDO
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
-ms.date: 08/13/2020
+ms.date: 06/11/2021
 audience: Admin
 ms.topic: conceptual
 localization_priority: Normal
@@ -16,26 +16,25 @@ ms.collection:
 description: Beveiliging in Office 365, van EOP tot Defender voor Office 365-abonnementen 1 en 2, standaard- en strikte beveiligingsconfiguraties en meer. Begrijpen wat u hebt en hoe u uw eigendommen kunt beveiligen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 29602d5fe62c84b9293522a94b71c550d360b3e3
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 6ecdfe324ded6224745b0e2eac087e432ac76c83
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52877798"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930245"
 ---
-# <a name="office-365-security-overview"></a>Overzicht van Office 365-beveiliging
+# <a name="microsoft-defender-for-office-365-security-overview"></a>Microsoft Defender voor Office 365 beveiligingsoverzicht
 
 **Van toepassing op**
 - [Exchange Online Protection](exchange-online-protection-overview.md)
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
 
-
-In dit artikel worden de nieuwe beveiligingseigenschappen in de cloud beschreven. Of u nu deel uitmaakt van een beveiligingscentrum, u bent een nieuwe beveiligingsbeheerder of u wilt een opfrisser, laten we aan de slag gaan.
+In dit artikel wordt u kennis laten maken met uw nieuwe Microsoft Defender voor Office 365 beveiligingseigenschappen in de cloud. Of u nu deel uitmaakt van een beveiligingscentrum, u bent een nieuwe beveiligingsbeheerder of u wilt een opfrisser, laten we aan de slag gaan.
 
 > [!CAUTION]
 > Als u **Outlook.com**, **Microsoft 365 Family** of **Microsoft 365 Personal** gebruikt en *veilige koppelingen* of informatie over *veilige bijlagen* nodig hebt, ***klikt u op deze koppeling***: [geavanceerde Outlook.com-beveiliging voor Microsoft 365-abonnees](https://support.microsoft.com/office/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2).
 
-## <a name="office-365-security-spelled-out"></a>Alles over Office 365-beveiliging
+## <a name="what-is-defender-for-office-365-security"></a>Wat is Defender voor Office 365 beveiliging
 
 Elk Office 365-abonnement biedt beveiligingsmogelijkheden. De doelstellingen en acties die u kunt ondernemen, zijn afhankelijk van de focus van deze verschillende abonnementen. Office 365-beveiliging biedt drie belangrijke beveiligingsservices (of -producten) die zijn gekoppeld aan uw abonnementstype:
 
@@ -57,8 +56,6 @@ Misschien bent u gewend om deze drie onderdelen op de volgende manier te zien:
 
 Maar wat architectuur betreft, laten we beginnen door elk onderdeel te zien als cumulatieve beveiligingslagen, elk met een speciale nadruk op beveiliging. Ziet er als volgt uit:
 
-<!--:::image type="content" source="../../media/tp-EOPATPStack.PNG" alt-text="Placeholder graphic":::-->
-
 :::image type="content" source="../../media/tp_GraphicEOPATPP1P2_2.png" alt-text="EOP en Microsoft Defender voor Office 365 en hun relatie tot elkaar, met nadruk op de service, waaronder een notitie voor e-mailverificatie.":::
 
 Hoewel in elk van deze services de nadruk ligt op een doel uit de groep beveiligen, detecteren, onderzoeken en reageren, kunnen***alle** _ services *_elk_** van de doelstellingen bescherming, detectie, onderzoek en reactie uitvoeren.
@@ -73,8 +70,6 @@ Als u een Office 365 E3 of lager hebt, hebt u EOP, maar met de optie om zelfstan
 > Als uw abonnement geen Office 365 E3 of E5 is, kunt u nog steeds controleren of u de optie hebt om een upgrade uit te voeren naar Microsoft Defender voor Office 365 P1. Als u geïnteresseerd bent, vindt u [op deze webpagina](https://www.microsoft.com/microsoft-365/exchange/advance-threat-protection#coreui-contentrichblock-x07wids) abonnementen die in aanmerking komen voor de upgrade van Microsoft Defender voor Office 365 P1 (ga naar het einde van de pagina voor de kleine lettertjes).
 
 ## <a name="the-office-365-security-ladder-from-eop-to-microsoft-defender-for-office-365"></a>De Office 365-beveiligingsopbouw van EOP tot aan Microsoft Defender voor Office 365
-
-![EOP en Microsoft Defender voor Office 365 met hun nadruk op beveiliging, van beschermen en detecteren, naar onderzoek doen en reageren. Configuratie van e-mailverificatie (ten minste DKIM en DMARC) moet worden ingesteld voor EOP en hoger.](../../media/tp_EOPATPP1P2Take6.gif#lightbox)
 
 > [!IMPORTANT]
 > Informatie over de details op deze pagina's: [Exchange Online Protection](exchange-online-protection-overview.md)en [Defender voor Office 365](defender-for-office-365.md).
@@ -159,3 +154,4 @@ Op de hoogte blijven van [nieuwe functies in Microsoft Defender voor Office 365 
 [Threat Explorer of realtime detecties gebruiken](threat-explorer.md)
 
 De [Attack Simulator in Microsoft Defender voor Office 365](attack-simulator.md) gebruiken
+

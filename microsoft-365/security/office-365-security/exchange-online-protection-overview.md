@@ -15,12 +15,12 @@ ms.custom:
 description: Lees hoe Exchange Online Protection (EOP) uw on-premises e-mailorganisatie kan beschermen in zelfstandige en hybride omgevingen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ad083e828fbed27cce4b8929c1bee3081c983c17
-ms.sourcegitcommit: 76c91e7b0d3172de57988eb4576d2b91c2f9ce18
+ms.openlocfilehash: a925b251ff79aec5acaa0b2c1da2aee3f5a6d70d
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52707282"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930161"
 ---
 # <a name="exchange-online-protection-overview"></a>Overzicht Exchange Online Protection
 
@@ -34,7 +34,7 @@ ms.locfileid: "52707282"
 Exchange Online Protection (EOP) is de cloudfilterservice die uw organisatie beschermt tegen spam, malware en andere e-mailrisico's. EOP is opgenomen in alle Microsoft 365 organisaties met Exchange Online postvakken.
 
 > [!NOTE]
-> EOP is ook op zichzelf beschikbaar om on-premises postvakken en in hybride omgevingen te beveiligen om on-premises postvakken Exchange beschermen. Zie Zelfstandige Exchange Online Protection voor [meer informatie.](/exchange/standalone-eop/standaonline-eop)
+> EOP is ook op zichzelf beschikbaar om on-premises postvakken en in hybride omgevingen te beveiligen om on-premises postvakken Exchange beschermen. Zie Zelfstandige Exchange Online Protection voor [meer informatie.](/exchange/standalone-eop/standalone-eop)
 
 De stappen voor het instellen van EOP-beveiligingsfuncties en een vergelijking met de toegevoegde beveiliging die u krijgt in Microsoft Defender voor Office 365, zie Beschermen [tegen bedreigingen.](protect-against-threats.md) De aanbevolen instellingen voor EOP-functies zijn beschikbaar in aanbevolen instellingen voor EOP en Microsoft Defender voor [Office 365 beveiliging.](recommended-settings-for-eop-and-office365.md)
 

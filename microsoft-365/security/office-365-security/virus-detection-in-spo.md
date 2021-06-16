@@ -20,12 +20,12 @@ description: Meer informatie over hoe SharePoint online virussen detecteert in b
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: dd38b196c106a36fb1a1bfc0a441620b1c5b8ba5
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 2ab11d4c1e2a064ad0717e6619f72a38b0cbc831
+ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204158"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52932828"
 ---
 # <a name="built-in-virus-protection-in-sharepoint-online-onedrive-and-microsoft-teams"></a>Ingebouwde virusbeveiliging in SharePoint Online, OneDrive en Microsoft Teams
 
@@ -68,7 +68,7 @@ Dit is wat er gebeurt:
 
 ## <a name="what-happens-when-the-onedrive-sync-client-tries-to-sync-an-infected-file"></a>Wat gebeurt er wanneer de OneDrive synchronisatieclient een geïnfecteerd bestand probeert te synchroniseren?
 
-OneDrive synchronisatiecl clients worden geen bestanden gedownload die virussen bevatten. De synchronisatieclient geeft een melding weer dat het bestand niet kan worden gesynchroniseerd.
+Wanneer een schadelijk bestand wordt geüpload naar OneDrive, wordt het gesynchroniseerd met de lokale computer voordat het wordt gemarkeerd als malware. Nadat het is gemarkeerd als malware, kan de gebruiker het gesynchroniseerde bestand niet meer openen vanaf de lokale computer.
 
 ## <a name="extended-capabilities-with-microsoft-defender-for-office-365"></a>Uitgebreide mogelijkheden met Microsoft Defender voor Office 365
 
