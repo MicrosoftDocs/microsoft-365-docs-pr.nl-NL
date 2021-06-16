@@ -17,26 +17,25 @@ ROBOTS: NOINDEX
 description: Gebruikers kunnen leren hoe ze in quarantaine geplaatste berichten kunnen bekijken en handelen die zijn verzonden naar gedeelde postvakken waar ze machtigingen voor hebben.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4d6aed4a6e3bc725635558a5e8394b671d11f47c
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: 4b958bb07660f4e0c93865300e190c713148a21d
+ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52929849"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52933047"
 ---
 # <a name="view-and-release-quarantined-messages-from-shared-mailboxes"></a>In quarantaine geplaatste berichten uit gedeelde postvakken weergeven en vrijgeven
 
 > [!NOTE]
 > De functies die in dit artikel worden beschreven, zijn momenteel beschikbaar in Preview, zijn niet voor iedereen beschikbaar en kunnen worden gewijzigd.
 
-Gebruikers kunnen berichten in quarantaine beheren waarbij ze een van de geadresseerden zijn, zoals beschreven in Berichten in quarantaine zoeken en vrijgeven als gebruiker [in EOP.](find-and-release-quarantined-messages-as-a-user.md) Maar hoe zit het met gedeelde postvakken waarin de gebruiker de machtigingen Volledige toegang en Verzenden als of Verzenden namens voor het postvak heeft, zoals beschreven in Gedeelde postvakken [in](/exchange/collaboration-exo/shared-mailboxes)Exchange Online?
+Gebruikers kunnen berichten in quarantaine beheren waarbij ze een van de geadresseerden zijn, zoals beschreven in Berichten in quarantaine zoeken en vrijgeven als gebruiker [in EOP.](find-and-release-quarantined-messages-as-a-user.md) Maar hoe zit het **met gedeelde** postvakken waarin de gebruiker de machtigingen Volledige toegang en Verzenden als of Verzenden namens voor het postvak heeft, zoals beschreven in Gedeelde postvakken [in](/exchange/collaboration-exo/shared-mailboxes)Exchange Online?
 
 Voorheen moesten beheerders door de mogelijkheid voor gebruikers om in quarantaine geplaatste berichten te beheren die naar een gedeeld postvak zijn verzonden, automapping ingeschakeld laten voor het gedeelde postvak (dit is standaard ingeschakeld wanneer een beheerder een gebruiker toegang geeft tot een ander postvak). Afhankelijk van de grootte en het aantal postvakken waar de gebruiker toegang toe heeft, kunnen de prestaties echter worden vertraagd wanneer Outlooks alle postvakken probeert te openen die de gebruiker heeft.  Daarom kiezen veel beheerders ervoor om automatisch maken voor gedeelde postvakken [te verwijderen.](/outlook/troubleshoot/profiles-and-accounts/remove-automapping-for-shared-mailbox)
 
 Automapping is nu niet meer vereist voor gebruikers die in quarantaine geplaatste berichten beheren die naar gedeelde postvakken zijn verzonden. Het werkt gewoon. Er zijn twee verschillende methoden om in quarantaine geplaatste berichten te openen die naar een gedeeld postvak zijn verzonden:
 
 - Als de beheerder spammeldingen voor eindgebruikers heeft ingeschakeld [in antispambeleid,](configure-your-spam-filter-policies.md#configure-end-user-spam-notifications)kan elke gebruiker die toegang heeft  tot de spammeldingen van eindgebruikers in het gedeelde postvak op de knop Controleren in de melding klikken om naar quarantaine te gaan in de Microsoft 365 Defender-portal. Met deze methode kunnen gebruikers alleen in quarantaine geplaatste berichten beheren die naar het gedeelde postvak zijn verzonden. Gebruikers kunnen in deze context hun eigen quarantaineberichten niet beheren.
-
 - De gebruiker kan [naar de quarantaine gaan in de Microsoft 365 Defender-portal.](find-and-release-quarantined-messages-as-a-user.md) Standaard worden alleen berichten weergegeven die naar de gebruiker zijn verzonden. De gebruiker kan echter de resultaten  **sorteren** (standaard de knop Bericht-id) wijzigen in het  e-mailadres van geadresseerde, het e-mailadres van het gedeelde postvak invoeren en vervolgens op Vernieuwen klikken om de in quarantaine geplaatste berichten weer te geven die naar het gedeelde postvak zijn verzonden.
 
   ![In quarantaine geplaatste berichten sorteren op e-mailadres van geadresseerde.](../../media/quarantine-sort-results-by-recipient-email-address.png)

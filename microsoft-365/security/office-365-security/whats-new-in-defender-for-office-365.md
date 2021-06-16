@@ -21,12 +21,12 @@ ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0aa8e10545b43f6e0ee985ac11b161a3b21c3a91
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: 53e60578f575e94dfb51c1c5f44a3d7ffb91110b
+ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52929549"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52932816"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Nieuwe functies in Microsoft Defender voor Office 365
 
@@ -42,13 +42,13 @@ Meer informatie vindt u in [deze video](https://www.youtube.com/watch?v=Tdz6Kfru
 > [!TIP]
 > Hebt u nog geen Microsoft Defender voor Office 365? [Neem contact op met verkoop om een proefabonnement te starten.](https://info.microsoft.com/ww-landing-M365SMB-web-contact.html)
 
-## <a name="aprilmay-2021"></a>April/mei 2021 
+## <a name="aprilmay-2021"></a>April/mei 2021
 
 - [Pagina](mdo-email-entity-page.md)e-mailentiteit: een geïntegreerde weergave van 360 graden van een e-mail met uitgebreide informatie over bedreigingen, verificatie en detecties, detonatiedetails en een gloednieuwe e-mailvoorbeeldervaring.
 - [Office 365 Management API:](/office/office-365-management-api/office-365-management-activity-api-schema#email-message-events)Updates voor EmailEvents (RecordType 28) om bezorgingsactie, oorspronkelijke en meest recente bezorgingslocaties en bijgewerkte detectiedetails toe te voegen.
-- [Threat Analytics voor Defender voor Office 365:](/microsoft-365/security/defender/threat-analytics)Bekijk actieve bedreigingsacacteurs, populaire technieken en aanvalsoppervlakken, samen met uitgebreide rapportage van Microsoft-onderzoekers over lopende campagnes. 
+- [Threat Analytics voor Defender voor Office 365:](/microsoft-365/security/defender/threat-analytics)Bekijk actieve bedreigingsacacteurs, populaire technieken en aanvalsoppervlakken, samen met uitgebreide rapportage van Microsoft-onderzoekers over lopende campagnes.
 
-## <a name="februarymarch-2021"></a>Februari/maart 2021 
+## <a name="februarymarch-2021"></a>Februari/maart 2021
 
 - Integratie van waarschuwings-id 's (zoeken met waarschuwings-id en Alert-Explorer navigatie) in [de zoekervaringen](threat-explorer.md)
 - Het verhogen van de limieten voor het exporteren van records van 9990 naar 200.000 in [de jachtervaringen](threat-explorer.md)
@@ -89,7 +89,7 @@ Meer informatie vindt u in [deze video](https://www.youtube.com/watch?v=Tdz6Kfru
   - Geavanceerde NOT-filters (dit zijn geavanceerde filteropties die geen filteropties bevatten, die niet zijn vermeld, enzovoort).
   - Granulaire tijdfilters (dag, uur, half uur)
 
-- De **widget Incidenten** is nu de widget **Actiecentrum.** (Als u uw beveiligingswidgets wilt weergeven, gaat u in Microsoft 365 Defender-portal naar **E-mail & samenwerking** \> **Controleren**.) (Microsoft Defender voor Office 365 Plan 2)
+- De **widget Incidenten** is nu de widget **Actiecentrum.** (Als u uw beveiligingswidgets wilt weergeven in het Beveiligings- & Compliancecentrum, gaat u naar **Bedreigingsbeheer** \> **Controleren**.) (Microsoft Defender voor Office 365 Plan 2)
 
 - [Safe Documenten in Microsoft 365](safe-docs.md) **(voorbeeld)**
 

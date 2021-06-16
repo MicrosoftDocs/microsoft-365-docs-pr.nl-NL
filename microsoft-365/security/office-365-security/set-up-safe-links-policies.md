@@ -18,12 +18,12 @@ ms.collection:
 description: Beheerders kunnen informatie krijgen over het weergeven, maken, wijzigen en verwijderen van Safe Koppelingenbeleid en algemene Safe Koppelingen-instellingen in Microsoft Defender voor Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 40ae52cfce53c3fa14253a94e72f1a2bccda9a86
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: fb157792f0f9e80e4a974b59aebaa2e1991c5d0b
+ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52929825"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52933117"
 ---
 # <a name="set-up-safe-links-policies-in-microsoft-defender-for-office-365"></a>Beleidsregels Safe Koppelingen instellen in Microsoft Defender voor Office 365
 
@@ -36,12 +36,15 @@ ms.locfileid: "52929825"
 > [!IMPORTANT]
 > Dit artikel is bedoeld voor zakelijke klanten die [Microsoft Defender voor Office 365](defender-for-office-365.md) hebben. Als u een thuisgebruiker bent die informatie zoekt over Safelinks in Outlook, gaat u naar [Advanced Outlook.com-beveiliging.](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2)
 
-Safe Koppelingen is een functie in [Microsoft Defender voor Office 365](defender-for-office-365.md) waarmee url's worden gescand van binnenkomende e-mailberichten in de e-mailstroom en de tijd van klikverificatie van URL's en koppelingen in e-mailberichten en op andere locaties. Zie Koppelingen in Microsoft Defender voor Safe voor [meer Office 365.](safe-links.md)
+Safe Koppelingen in [Microsoft Defender voor Office 365](defender-for-office-365.md) biedt URL-scan van binnenkomende e-mailberichten in de e-mailstroom en het tijdstip van klikverificatie van URL's en koppelingen in e-mailberichten en op andere locaties. Zie Koppelingen in Microsoft Defender voor Safe voor [meer Office 365.](safe-links.md)
 
 Er is geen ingebouwd of standaardkoppelingsbeleid Safe koppelingen. Als u Safe koppelingen van URL's wilt scannen, moet u een of meer Safe Koppelingenbeleid maken, zoals in dit artikel wordt beschreven.
 
 > [!NOTE]
+>
 > U configureert de algemene instellingen voor Safe koppelingen **buiten** Safe koppelingenbeleid. Zie Algemene instellingen [configureren voor Safe koppelingen in Microsoft Defender](configure-global-settings-for-safe-links.md)voor Office 365.
+>
+> Beheerders moeten rekening houden met de verschillende configuratie-instellingen voor Safe koppelingen. Een van de beschikbare opties is het opnemen van gebruikersgegevens in Safe Koppelingen. Met deze functie kunnen *Beveiligingsops-teams* mogelijke gebruikerscompromitteerden onderzoeken, corrigerende actie ondernemen en dure inbreuken beperken.
 
 U kunt Safe Koppelingen-beleid configureren in de Microsoft 365 Defender-portal of in PowerShell (Exchange Online PowerShell voor in aanmerking komende Microsoft 365-organisaties met postvakken in Exchange Online; zelfstandige EOP PowerShell voor organisaties zonder Exchange Online-postvakken, maar met Microsoft Defender voor Office 365-invoegabonnementen).
 
@@ -49,9 +52,6 @@ De basiselementen van een Safe koppelingenbeleid zijn:
 
 - Het beleid voor veilige **koppelingen:** schakel Safe Koppelingenbeveiliging in, schakel realtime URL-scan in, geef op of het scannen in realtime moet worden voltooid voordat het bericht wordt verzonden, schakel het scannen van interne berichten in, geef op of gebruikers klikken op URL's moeten bijhouden en geef op of gebruikers mogen klikken op de oorspronkelijke URL.
 - **De regel veilige koppelingen:** hiermee geeft u de prioriteits- en geadresseerdefilters op (op wie het beleid van toepassing is).
-
-> [!IMPORTANT]
-> Beheerders moeten rekening houden met de verschillende configuratie-instellingen voor SafeLinks. Een van de beschikbare opties is het opnemen van gebruikersgegevens in SafeLinks. Met deze functie kunnen *Beveiligingsops-teams* mogelijke gebruikerscompromitteerden onderzoeken, corrigerende actie ondernemen en dure inbreuken beperken.
 
 Het verschil tussen deze twee elementen is niet duidelijk wanneer u de Safe koppelingen in de portal Microsoft 365 Defender beheert:
 
@@ -74,7 +74,7 @@ In Exchange Online PowerShell of standalone EOP PowerShell beheert u het beleid 
   Zie Machtigingen [in de](permissions-in-the-security-and-compliance-center.md) Defender Microsoft 365 portal en [Machtigingen in](/exchange/permissions-exo/permissions-exo)Exchange Online.
 
   > [!NOTE]
-  > 
+  >
   > - Als u gebruikers toevoegt aan de bijbehorende Azure Active Directory-rol in het Microsoft 365-beheercentrum, krijgen  gebruikers de vereiste machtigingen in de Microsoft 365 Defender-portal en machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
   . - De **rollengroep Alleen-weergeven voor** organisatiebeheer [in](/Exchange/permissions-exo/permissions-exo#role-groups) Exchange Online biedt ook alleen-lezen toegang tot de functie.
 
@@ -88,39 +88,45 @@ In Exchange Online PowerShell of standalone EOP PowerShell beheert u het beleid 
 
 Als u een aangepast Safe-koppelingenbeleid maakt in de Microsoft 365 Defender-portal, worden de regel voor veilige koppelingen en het bijbehorende beleid voor veilige koppelingen tegelijk gemaakt met dezelfde naam voor beide.
 
-1. Ga in Microsoft 365 Defender-portal naar **Beleidsregels &** \> **bedreigingsbeleid Safe** \> **Koppelingen.**
+1. Ga in Microsoft 365 Defender-portal naar de sectie **Beleidsregels & beleidsregels** voor bedreigingsbeleid \>  \>  \> **Safe Koppelingen.**
 
-2. Klik op **Safe pagina Koppelingen** op **Maken.**
+2. Klik op **Safe pagina Koppelingen** op Pictogram Maken ![ ](../../media/m365-cc-sc-create-icon.png) **maken.**
 
 3. De **wizard Nieuw Safe koppelingen wordt** geopend. Configureer **op de pagina** Naam uw beleid de volgende instellingen:
 
    - **Naam**: een unieke beschrijvende naam voor het beleid.
-
    - **Beschrijving**: voer een optionele beschrijving in voor het beleid.
 
    Wanneer u gereed bent, klikt u op **Volgende**.
 
-4. Configureer **op Instellingen** pagina die wordt weergegeven de volgende instellingen:
+4. Identificeer op **de pagina Gebruikers** en domeinen die wordt weergegeven de interne geadresseerden op wie het beleid van toepassing is (voorwaarden voor geadresseerden):
+   - **Gebruikers**: de opgegeven postvakken, e-mailgebruikers or e-mailcontactpersonen binnen uw organisatie.
+   - **Groepen**: de opgegeven distributiegroepen, beveiligingsgroepen met e-mail of Microsoft 365-groepen binnen uw organisatie.
+   - **Domeinen**: alle geadresseerden in de opgegeven [geaccepteerde domeinen](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains) binnen uw organisatie.
 
-   - **Selecteer de actie voor onbekende potentieel schadelijke URL's in** berichten: Selecteer **Aan** om Safe koppelingen in te stellen voor koppelingen in e-mailberichten.
+   Klik in het juiste vak, begin een waarde te typen en selecteer de gewenste waarde in de resultaten. Herhaal deze stap zo vaak als nodig is. Als u een bestaande waarde wilt verwijderen, klikt u op verwijderen ![Pictogram Verwijderen](../../media/m365-cc-sc-remove-selection-icon.png) naast de waarde.
 
+   Voor gebruikers of groepen kunt u de meeste id's (naam, weergavenaam, alias, e-mailadres, accountnaam, enzovoort) gebruiken, maar de bijbehorende weergavenaam wordt weergegeven in de resultaten. Voer voor gebruikers een enkel sterretje (\*) in om alle beschikbare waarden weer te geven.
+
+   Meerdere waarden in dezelfde voorwaarde: gebruik OF-logica (bijvoorbeeld: _\<recipient1\>_ of _\<recipient2\>_). Verschillende voorwaarden: gebruik EN-logica (bijvoorbeeld: _\<recipient1\>_ en _\<member of group 1\>_).
+
+   - **Deze gebruikers, groepen en domeinen uitsluiten**: als u uitzonderingen wilt toevoegen voor de interne geadresseerden op wie het beleid van toepassing is (uitzonderingen op ontvangers), selecteert u deze optie en configureert u de uitzonderingen. De instellingen en het gedrag zijn exact hetzelfde als bij de voorwaarden.
+
+   Wanneer u gereed bent, klikt u op **Volgende**.
+
+5. Configureer **de volgende** instellingen op de pagina Beveiligingsinstellingen die wordt weergegeven:
+   - **Selecteer de actie voor onbekende potentieel schadelijke URL's in** berichten: Selecteer **Aan** om Safe koppelingen in te stellen voor koppelingen in e-mailberichten. Als u deze instelling in wilt stellen, zijn de volgende instellingen beschikbaar:
+     - **Realtime URL-scan toepassen** op verdachte koppelingen en koppelingen die naar bestanden wijzen: Selecteer deze optie om het scannen van koppelingen in e-mailberichten in realtime in te stellen. Als u deze instelling in de volgende instelling in zet, is deze beschikbaar:
+       - **Wacht totdat URL-scannen is** voltooid voordat u het bericht bezorgt: Selecteer deze optie om te wachten totdat het scannen van url's in realtime is voltooid voordat het bericht wordt weergegeven.
+     - **De Safe koppelingen** toepassen op e-mailberichten die binnen de organisatie zijn verzonden: Selecteer deze optie om het Safe Koppelingen-beleid toe te passen op berichten tussen interne afzenders en interne geadresseerden.
    - Selecteer de actie voor onbekende of potentieel schadelijke **URL's** in Microsoft Teams : Selecteer **Aan** om de beveiliging van koppelingen in te Safe koppelingen in Teams.
-
-   - **Realtime URL-scan toepassen** op verdachte koppelingen en koppelingen die naar bestanden wijzen: Selecteer deze instelling om het scannen van koppelingen in e-mailberichten in realtime mogelijk te maken.
-
-   - **Wacht totdat URL-scannen is** voltooid voordat het bericht wordt weergegeven: Selecteer deze instelling om te wachten totdat het scannen van url's in realtime is voltooid voordat het bericht wordt weergegeven.
-
-   - **Gebruik Safe koppelingen naar** e-mailberichten die binnen de organisatie worden verzonden: Selecteer deze instelling om het Safe Koppelingen-beleid toe te passen op berichten tussen interne afzenders en interne geadresseerden.
-
    - **Gebruikersklikken niet bijhouden:** laat deze instelling niet geselecteerd om het bijhouden van gebruikersklikken op URL's in e-mailberichten in te stellen.
-
-   - **Gebruikers mogen niet doorklikken** naar de oorspronkelijke URL: Selecteer deze instelling om te blokkeren dat gebruikers doorklikken naar de oorspronkelijke URL op [waarschuwingspagina's.](safe-links.md#warning-pages-from-safe-links)
-
+   - **Gebruikers mogen niet doorklikken** naar de oorspronkelijke URL: Selecteer deze optie om te blokkeren dat gebruikers doorklikken naar de oorspronkelijke URL op [waarschuwingspagina's.](safe-links.md#warning-pages-from-safe-links)
    - **De volgende URL's niet** opnieuw schrijven: Hiermee krijgt u toegang tot de opgegeven URL's die anders door Safe worden geblokkeerd.
 
-     Typ in het vak de URL of waarde die u wilt gebruiken en klik op ![Knoppictogram toevoegen](../../media/ITPro-EAC-AddIcon.png).
+     Typ in het vak de URL of waarde die u wilt gebruiken en klik vervolgens op **Toevoegen.** Herhaal deze stap zo vaak als nodig is.
 
-     Als u een bestaand item wilt verwijderen, selecteert u deze en klikt u op ![Pictogram knop Verwijderen](../../media/ITPro-EAC-DeleteIcon.png).
+     Als u een bestaand item wilt verwijderen, klikt u op ![Pictogram Verwijderen](../../media/m365-cc-sc-remove-selection-icon.png) naast het item.
 
      Zie De syntaxis van de vermelding voor de lijst 'De volgende URL's niet opnieuw [schrijven'.](safe-links.md#entry-syntax-for-the-do-not-rewrite-the-following-urls-list)
 
@@ -130,100 +136,88 @@ Als u een aangepast Safe-koppelingenbeleid maakt in de Microsoft 365 Defender-po
 
    Wanneer u gereed bent, klikt u op **Volgende**.
 
-5. Op de **pagina Toegepast op** die wordt weergegeven, identificeert u de interne geadresseerden op wie het beleid van toepassing is.
-
-   U kunt een voorwaarde of uitzondering maar één keer gebruiken, maar u kunt meerdere waarden opgeven voor de voorwaarde of uitzondering. Meerdere waarden van dezelfde voorwaarde of uitzondering: gebruik OF-logica (bijvoorbeeld: _\<recipient1\>_ of _\<recipient2\>_). Verschillende voorwaarden of uitzonderingen: gebruik EN-logica (bijvoorbeeld: _\<recipient1\>_ en _\<member of group 1\>_).
-
-   Klik **op Een voorwaarde toevoegen.** Selecteer in de vervolgkeuzekeuze die wordt weergegeven een voorwaarde onder **Toegepast als:**
-
-   - **De geadresseerde is:** Hiermee geeft u een of meer postvakken, e-mailgebruikers of e-mailcontactcontacten in uw organisatie op.
-   - **De geadresseerde is lid van**: Hiermee geeft u een of meer groepen in uw organisatie op.
-   - **Het domein van de geadresseerde is**: specificeert geadresseerden in een of meer van de geconfigureerde domeinen in uw organisatie.
-
-   Nadat u de voorwaarde hebt geselecteerd, wordt er een bijbehorende vervolgkeuze weergegeven met een **Van deze vakjes.**
-
-   - Klik in het vak en blader door de lijst met waarden die u wilt selecteren.
-   - Klik in het vak en begin te typen om de lijst te filteren en selecteer een waarde.
-   - Als u extra waarden wilt toevoegen, klikt u in een leeg gebied in het vak.
-   - Als u afzonderlijke items wilt verwijderen, klikt **u op Pictogram** Verwijderen verwijderen op de ![ ](../../media/scc-remove-icon.png) waarde.
-   - Als u de hele voorwaarde wilt verwijderen, klikt **u op Pictogram** Verwijderen in de ![ ](../../media/scc-remove-icon.png) voorwaarde.
-
-   Als u een extra voorwaarde wilt toevoegen, klikt **u op Een voorwaarde toevoegen** en selecteert u een resterende waarde onder Toegepast **als**.
-
-   Als u uitzonderingen wilt toevoegen, klikt **u op Een voorwaarde toevoegen** en selecteert u een uitzondering onder Behalve **als**. De instellingen en het gedrag zijn exact hetzelfde als bij de voorwaarden.
+6. Selecteer op **de** pagina Melding die wordt weergegeven een van de volgende waarden voor Hoe wilt u uw gebruikers **op de hoogte stellen?**:
+   - **De standaardmeldingstekst gebruiken**
+   - **Aangepaste meldingstekst gebruiken:** als u deze waarde selecteert, worden de volgende instellingen weergegeven:
+     - **Microsoft-Vertalen voor automatische lokalisatie**
+     - **Aangepaste meldingstekst:** Voer de aangepaste meldingstekst in dit vak in.
 
    Wanneer u gereed bent, klikt u op **Volgende**.
 
-6. Controleer uw **instellingen op de** pagina Uw instellingen controleren die wordt weergegeven. U kunt op **Bewerken op elke** instelling klikken om deze te wijzigen.
+7. Controleer uw instellingen op de pagina **Controleren** die wordt weergegeven. U kunt in elke sectie **Bewerken** selecteren om de instellingen in de sectie te wijzigen. U kunt ook op **Terug** klikken of de specifieke pagina in de wizard selecteren.
 
-   Wanneer u klaar bent, klikt u op **Voltooien.**
+   Wanneer u klaar bent, klikt u op **Verzenden.**
+
+8. Klik op de bevestigingspagina die wordt weergegeven op **Gereed**.
 
 ## <a name="use-the-microsoft-365-defender-portal-to-view-safe-links-policies"></a>Gebruik de Microsoft 365 Defender-portal om het beleid voor koppelingen Safe weergeven
 
-1. Ga in Microsoft 365 Defender-portal naar **Beleidsregels &** \> **bedreigingsbeleid Safe** \> **Koppelingen.**
+1. Ga in Microsoft 365 Defender-portal naar de sectie **Beleidsregels & beleidsregels** voor bedreigingsbeleid \>  \>  \> **Safe Koppelingen.**
 
-2. Selecteer op **Safe pagina Koppelingen** een beleid in de lijst en klik erop (schakel het selectievakje niet in).
+2. Op de **Safe pagina Koppelingen** worden de volgende eigenschappen weergegeven in de lijst met Safe Koppelingenbeleid:
+   - **Naam**
+   - **Status**
+   - **Prioriteit**
 
-   De beleidsdetails worden weergegeven in een fly-out
+3. Wanneer u een beleid selecteert door op de naam te klikken, worden de beleidsinstellingen weergegeven in een flyout.
 
 ## <a name="use-the-microsoft-365-defender-portal-to-modify-safe-links-policies"></a>Gebruik de Microsoft 365 Defender-portal om het beleid voor koppelingen Safe wijzigen
 
-1. Ga in Microsoft 365 Defender-portal naar ***Beleidsregels &** \> **bedreigingsbeleid** \> **Safe Koppelingen.**
+1. Ga in Microsoft 365 Defender-portal naar de sectie **Beleidsregels & beleidsregels** voor bedreigingsbeleid \>  \>  \> **Safe Koppelingen.**
 
-2. Selecteer op **Safe pagina Koppelingen** een beleid in de lijst en klik erop (schakel het selectievakje niet in).
+2. Selecteer op **Safe pagina Koppelingen** een beleid in de lijst door op de naam te klikken.
 
-3. Klik in de beleidsdetails die worden weergegeven op **Beleid bewerken.**
-
-De beschikbare instellingen in de fly-out die worden weergegeven, zijn identiek aan de instellingen die worden beschreven in de sectie Het Microsoft 365 Defender gebruiken om Safe [koppelingenbeleid te](#use-the-microsoft-365-defender-portal-to-create-safe-links-policies) maken.
+3. U kunt in de flyout met beleidsdetails in elke sectie de optie **Bewerken** selecteren om de instellingen in de sectie te wijzigen. Zie de vorige Portal Microsoft 365 [Defender](#use-the-microsoft-365-defender-portal-to-create-safe-links-policies) gebruiken om Safe koppelingenbeleid te maken in dit artikel voor meer informatie over de instellingen.  
 
 Zie de volgende secties als u een beleid wilt in- of uitschakelen of de beleidsprioriteitsvolgorde wilt instellen.
 
 ### <a name="enable-or-disable-safe-links-policies"></a>Beleidsregels voor koppelingen in- Safe uitschakelen
 
-1. Ga in Microsoft 365 Defender-portal naar **Beleidsregels &** \> **bedreigingsbeleid Safe** \> **Koppelingen.**
+1. Ga in Microsoft 365 Defender-portal naar De sectie Beleidsregels voor **e-mail &** samenwerkingsbeleid & Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Safe Koppelingen.**
 
-2. Let op de waarde in de **kolom Status:**
+2. Selecteer op **Safe pagina Koppelingen** een beleid in de lijst door op de naam te klikken.
 
-   - Verplaats te wisselknop naar links om het beleid uit te schakelen: ![Beleid uitschakelen](../../media/scc-toggle-off.png).
+3. Boven aan de flyout met beleidsdetails die wordt weergegeven, ziet u een van de volgende waarden:
+   - **Beleid uitgeschakeld**: als u het beleid wilt inschakelen, klikt u op ![Pictogram inschakelen](../../media/m365-cc-sc-turn-on-off-icon.png) **Inschakelen** .
+   - **Beleid ingeschakeld**: als u het beleid wilt uitschakelen, klikt u op ![Pictogram uitschakelen](../../media/m365-cc-sc-turn-on-off-icon.png) **Uitschakelen**.
 
-   - Verplaats te wisselknop naar rechts om het beleid in te schakelen: ![Beleid in-/uit-](../../media/scc-toggle-on.png).
+4. Klik in het bevestigingsvenster dat wordt weergegeven op **Inschakelen** of **Uitschakelen**.
+
+5. Klik in de flyout met beleidsdetails op **Sluiten**.
+
+Op de hoofdbeleidspagina wordt de waarde **Status** van het beleid weergegeven als **Ingeschakeld** of **Uitgeschakeld**.
 
 ### <a name="set-the-priority-of-safe-links-policies"></a>De prioriteit instellen van Safe koppelingenbeleid
 
-Standaard krijgen Safe koppelingenbeleid een prioriteit die is gebaseerd op de volgorde waarin ze zijn gemaakt (nieuwere agenten hebben een lagere prioriteit dan oudere beleidsregels). Een lager prioriteitsnummer geeft een hogere prioriteit aan voor het beleid (0 is de hoogste) en beleid word verwerkt in prioriteitsvolgorde (beleid met hogere prioriteit wordt verwerkt voor beleid met lagere prioriteit). Twee beleidsregels kunnen niet dezelfde prioriteit hebben en de verwerking van het beleid stopt nadat het eerste beleid is toegepast.
+Standaard krijgen Safe koppelingen een prioriteit die is gebaseerd op de volgorde waarin ze zijn gemaakt (nieuwere beleidsregels hebben een lagere prioriteit dan oudere beleidsregels). Een lager prioriteitsnummer geeft een hogere prioriteit aan voor het beleid (0 is de hoogste) en beleid word verwerkt in prioriteitsvolgorde (beleid met hogere prioriteit wordt verwerkt voor beleid met lagere prioriteit). Twee beleidsregels kunnen niet dezelfde prioriteit hebben en de verwerking van het beleid stopt nadat het eerste beleid is toegepast.
 
-Voor meer informatie over de prioriteitvolgorde en het evalueren en toepassen van een beleid, raadpleegt u [volgorde en prioriteit van e-mailbeveiliging](how-policies-and-protections-are-combined.md).
+Als u de prioriteit van een beleid wilt wijzigen, klikt u op **Prioriteit verhogen** of **Prioriteit verlagen** in de eigenschappen van het beleid (u kunt het **Prioriteitsnummer** niet rechtstreeks wijzigen in de Microsoft 365 Defender-portal). Het wijzigen van de prioriteit van een beleid is alleen zinvol als u meerdere beleidsregels hebt.
 
-Safe Koppelingenbeleid wordt weergegeven in de volgorde waarin ze worden verwerkt (het eerste beleid heeft de **waarde** Prioriteit 0).
+**Opmerking**:
 
-> [!NOTE]
-> In de Microsoft 365 Defender-portal kunt u alleen de prioriteit van het Safe koppelingen wijzigen nadat u deze hebt gemaakt. In PowerShell kunt u de standaardprioriteit overschrijven wanneer u de regel veilige koppelingen maakt (die van invloed kan zijn op de prioriteit van bestaande regels).
+- In de Microsoft 365 Defender-portal kunt u alleen de prioriteit van het Safe koppelingen wijzigen nadat u deze hebt gemaakt. In PowerShell kunt u de standaardprioriteit overschrijven wanneer u de regel veilige koppelingen maakt (die van invloed kan zijn op de prioriteit van bestaande regels).
+- Safe Koppelingenbeleid wordt verwerkt in de volgorde waarin ze worden weergegeven (het eerste beleid heeft de **waarde** Prioriteit 0). Voor meer informatie over de prioriteitvolgorde en het evalueren en toepassen van een beleid, raadpleegt u [volgorde en prioriteit van e-mailbeveiliging](how-policies-and-protections-are-combined.md).
 
-Als u de prioriteit van een beleid wilt wijzigen, verplaatst u het  beleid omhoog of omlaag in de lijst (u kunt het prioriteitsnummer niet rechtstreeks wijzigen in de portal Microsoft 365 Defender).
+1. Ga in Microsoft 365 Defender-portal naar De sectie Beleidsregels voor **e-mail &** samenwerkingsbeleid & Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Safe Koppelingen.**
 
-1. Ga in Microsoft 365 Defender-portal naar **Beleidsregels &** \> **bedreigingsbeleid Safe** \> **Koppelingen.**
+2. Selecteer op **Safe pagina Koppelingen** een beleid in de lijst door op de naam te klikken.
 
-2. Selecteer op **Safe pagina Koppelingen** een beleid in de lijst en klik erop (schakel het selectievakje niet in).
+3. Boven aan de flyout met beleidsgegevens die wordt weergegeven, ziet u **Prioriteit verhogen** of **Prioriteit verlagen** op basis van de huidige prioriteitswaarde en het aantal aangepaste beleidsregels:
+   - Het beleid met **prioriteitswaarde** **0** heeft alleen de **optie Prioriteit verlagen** beschikbaar.
+   - Het beleid met de laagste **prioriteitswaarde** (bijvoorbeeld **3)** heeft alleen de optie **Prioriteit verhogen** beschikbaar.
+   - Als u drie of meer beleidsregels hebt, hebben de  beleidsregels  tussen de waarden met de hoogste en laagste prioriteit zowel de opties Prioriteit verhogen als Prioriteit verlagen beschikbaar.
 
-3. Klik in de beleidsdetails die worden weergegeven op de beschikbare prioriteitsknop:
+   Klik op het ![pictogram Prioriteit verhogen](../../media/m365-cc-sc-increase-icon.png) **Prioriteit verhogen** of ![Pictogram Prioriteit verlagen](../../media/m365-cc-sc-decrease-icon.png) **Prioriteit verlagen** om de **Prioriteitswaarde** te wijzigen.
 
-   - Het Safe koppelingenbeleid met **prioriteitswaarde** **0** heeft alleen de **knop Prioriteit verlagen** beschikbaar.
-
-   - Het Safe beleid met de  laagste prioriteitswaarde (bijvoorbeeld **3)** heeft alleen de knop **Prioriteit verhogen** beschikbaar.
-
-   - Als u drie of meer Safe koppelingenbeleid hebt, zijn beleidsregels tussen  de  waarden met de hoogste en laagste prioriteit zowel de knoppen Prioriteit verhogen als Prioriteit verlagen beschikbaar.
-
-4. Klik **op Prioriteit verhogen of** Prioriteit verlagen **om** de waarde Prioriteit **te** wijzigen.
-
-5. Klik op **Sluiten** wanneer u gereed bent.
+4. Wanneer u klaar bent, klikt u in de flyout met beleidsdetails op **Sluiten**.
 
 ## <a name="use-the-microsoft-365-defender-portal-to-remove-safe-links-policies"></a>Gebruik de Microsoft 365 Defender-portal om het beleid voor koppelingen Safe verwijderen
 
-1. Ga in Microsoft 365 Defender-portal naar **Beleidsregels &** \> **bedreigingsbeleid Safe** \> **Koppelingen.**
+1. Ga in Microsoft 365 Defender-portal naar De sectie Beleidsregels voor **e-mail &** samenwerkingsbeleid & Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Safe Koppelingen.**
 
-2. Selecteer op **Safe pagina Koppelingen** een beleid in de lijst en klik erop (schakel het selectievakje niet in).
+2. Selecteer op **Safe pagina Koppelingen** een beleid in de lijst door op de naam te klikken. Klik boven aan de flyout met beleidsdetails die wordt weergegeven, op het ![pictogram Meer acties](../../media/m365-cc-sc-more-actions-icon.png) **Meer acties** \> ![Pictogram Beleid verwijderen](../../media/m365-cc-sc-delete-icon.png) **Beleid verwijderen**.
 
-3. Klik in de beleidsdetails die worden weergegeven op Beleid verwijderen **en** klik vervolgens op **Ja** in het waarschuwingsdialoogvenster dat wordt weergegeven.
+3. Klik in het bevestigingsvenster dat wordt weergegeven op **Ja**.
 
 ## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-safe-links-policies"></a>Gebruik Exchange Online PowerShell of zelfstandige EOP PowerShell om Safe koppelingenbeleid te configureren
 
@@ -243,14 +237,13 @@ Het maken Safe beleid voor koppelingen in PowerShell is een proces in twee stapp
 2. Maak de regel veilige koppelingen die het beleid voor veilige koppelingen aangeeft waar de regel op van toepassing is.
 
 > [!NOTE]
-> 
+>
 > - U kunt een nieuwe regel voor veilige koppelingen maken en er een bestaand, niet-verbonden beleid voor veilige koppelingen aan toewijzen. Een veilige koppelingsregel kan niet worden gekoppeld aan meer dan één beleid voor veilige koppelingen.
-> 
+>
 > - U kunt de volgende instellingen configureren voor nieuwe beleidsregels voor veilige koppelingen in PowerShell die pas beschikbaar zijn in de portal Microsoft 365 Defender nadat u het beleid hebt gemaakt:
-> 
 >   - Het nieuwe beleid maken als uitgeschakeld (_ingeschakeld op_ `$false` de cmdlet **Nieuw-SafeLinksRule).**
 >   - Stel de prioriteit van het beleid in tijdens het maken _(Prioriteit)_ _\<Number\>_ op de cmdlet **Nieuw-SafeLinksRule).**
-> 
+>
 > - Een nieuw beleid voor veilige koppelingen dat u in PowerShell maakt, is niet zichtbaar in de Microsoft 365 Defender-portal totdat u het beleid toewijst aan een regel voor veilige koppelingen.
 
 #### <a name="step-1-use-powershell-to-create-a-safe-links-policy"></a>Stap 1: PowerShell gebruiken om een beleid voor veilige koppelingen te maken
@@ -262,9 +255,9 @@ New-SafeLinksPolicy -Name "<PolicyName>" [-AdminDisplayName "<Comments>"] [-IsEn
 ```
 
 > [!NOTE]
-> 
+>
 > - Zie De [syntaxis](safe-links.md#entry-syntax-for-the-do-not-rewrite-the-following-urls-list)van de vermelding voor de volgende URL's niet opnieuw schrijven voor meer informatie over de syntaxis van de invoer die u wilt gebruiken voor de parameter _DoNotRewriteUrls._
-> 
+>
 > - Zie de sectie [PowerShell](#use-powershell-to-modify-safe-links-policies) gebruiken om beleidsregels voor veilige koppelingen te wijzigen verderop in dit artikel voor aanvullende syntaxis die u kunt gebruiken voor de parameter _DoNotRewriteUrls_ wanneer u bestaande beleidsregels voor veilige koppelingen wijzigt met de cmdlet **Set-SafeLinksPolicy.**
 
 In dit voorbeeld wordt een beleid voor veilige koppelingen met de naam Contoso All gemaakt met de volgende waarden:

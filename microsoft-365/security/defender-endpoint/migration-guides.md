@@ -17,14 +17,14 @@ ms.reviewer: chriggs, depicker, yongrhee
 f1.keywords: NOCSH
 ms.date: 06/14/2021
 ms.technology: mde
-ms.openlocfilehash: 4d10de35358d528f004ee11e931fc6f41ce20482
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: a0b1f82ae26ba1103ed4cc7eb0be7e9c376b5f52
+ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52930497"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52933033"
 ---
-# <a name="make-the-switch-to-microsoft-defender-for-endpoint-and-microsoft-defender-antivirus"></a>De overstap maken naar Microsoft Defender voor Eindpunt en Microsoft Defender Antivirus
+# <a name="make-the-switch-to-microsoft-defender-for-endpoint"></a>De overstap maken naar Microsoft Defender voor Eindpunt
 
 **Van toepassing op:**
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
@@ -34,14 +34,14 @@ ms.locfileid: "52930497"
 
 ## <a name="migration-guides"></a>Migratiehandleidingen
 
-Als u overweegt om over te schakelen van een niet-Microsoft 365 Defender-oplossing naar Microsoft Defender voor Eindpunt met Microsoft Defender Antivirus, raadpleegt u onze migratie-richtlijnen. Selecteer het scenario dat het beste vertegenwoordigt waar u zich in uw implementatieproces kunt plaatsen en bekijk de richtlijnen.
+Als u overweegt over te gaan naar Defender voor Eindpunt, hebben we hulp nodig. Bekijk de scenario's in de volgende tabel. Selecteer het scenario dat het beste bij uw situatie past en bekijk de aanbevolen richtlijnen.
 
-|Scenario |Richtlijnen |
-|:--|:--|
-|U hebt nog geen oplossing voor eindpuntbeveiliging en u wilt meer weten over hoe Microsoft Defender voor eindpunten & Microsoft Defender Antivirus werken.  |[Microsoft Defender voor endpoint-evaluatielaboratorium](evaluation-lab.md)   |
-|U hebt Microsoft Defender voor Eindpunt & Microsoft Defender Antivirus en hebt hulp nodig bij het instellen en configureren van alles.  |[Implementatiehandleiding voor Microsoft Defender voor eindpunten](deployment-phases.md)  |
-|U wilt migreren van een niet-Microsoft-oplossing voor eindpuntbeveiliging naar Microsoft Defender voor eindpunten & Microsoft Defender Antivirus. |[De overstap maken naar Microsoft Defender voor Eindpunt](switch-to-microsoft-defender-migration.md)   |
-|U bent gemigreerd naar Microsoft Defender voor & Microsoft Defender Antivirus en u hebt hulp nodig bij de volgende stappen, zoals het configureren van extra functies of het aanpassen van uw beveiligingsinstellingen. | [Microsoft Defender voor Eindpunt beheren, na de migratie](manage-atp-post-migration.md) |
+| Scenario | Richtlijnen |
+|:----|:----|
+| U hebt nog geen oplossing voor eindpuntbeveiliging en u wilt meer weten over Defender voor Eindpunt. <p> U wilt zien hoe Defender voor Eindpunt werkt voordat u deze in uw omgeving uitrolt.  | [Microsoft Defender voor endpoint-evaluatielaboratorium](evaluation-lab.md)   |
+| U hebt Al Defender voor Eindpunt en u wilt hulp bij het instellen en configureren van alles.  | [Implementatiehandleiding voor Microsoft Defender voor eindpunten](deployment-phases.md)  |
+| U wilt overstappen van een niet-Microsoft-oplossing voor eindpuntbeveiliging naar Defender voor Eindpunt en Microsoft Defender Antivirus. <p> U wilt een overzicht van het migratieproces en hoe u de overstap kunt maken. |[De overstap maken naar Microsoft Defender voor Eindpunt](switch-to-microsoft-defender-migration.md)   |
+| U bent al gemigreerd of gemigreerd naar Defender voor Eindpunt. U wilt hulp bij de volgende stappen, zoals het beheren van uw beveiligingsinstellingen, het configureren van meer functies of het aanpassen van uw beveiligingsbeleid. | [Microsoft Defender voor Eindpunt beheren, na de migratie](manage-atp-post-migration.md) |
 
 
 ## <a name="do-you-have-feedback-for-us"></a>Hebt u feedback voor ons?

@@ -16,12 +16,12 @@ ms.collection:
 description: Beheerders kunnen informatie krijgen over het configureren van toestaan en blokkeren in de lijst Tenant toestaan/blokkeren in de beveiligingsportal.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4228bb8abb70bbd96605a7d0f021a1a483e8715c
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: 67c3badb86f1cfb9bf644cc202ed67e3163a6772
+ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52929729"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52933153"
 ---
 # <a name="manage-the-tenant-allowblock-list"></a>Tenant Toestaan/Blokkeren-lijst beheren
 
@@ -92,44 +92,36 @@ In dit artikel wordt beschreven hoe u vermeldingen configureert in de lijst Tena
 
 ## <a name="use-the-microsoft-365-defender-portal-to-create-block-url-entries-in-the-tenant-allowblock-list"></a>Gebruik de Microsoft 365 Defender-portal om url-items te maken in de lijst Tenant Allow/Block
 
-1. Ga in Microsoft 365 Defender-portal naar **Beleidsregels &** \> **regels Bedreigingsbeleid** tenant \> **toestaan/blokkeren Lijsten**.
+1. Ga in Microsoft 365 Defender-portal naar **Beleidsregels &** regels \> **Bedreigingsbeleidsregels** sectie \>  Tenant \> **Allow/Block Lists**.
 
-2. Controleer op de pagina Lijst met **tenants toestaan/blokkeren** of het tabblad **URL's** is geselecteerd en klik vervolgens op **Blokkeren**
+2. Controleer op de pagina Lijst met tenants **toestaan/blokkeren** of het tabblad **URL's** is geselecteerd en klik vervolgens op ![ Pictogram blokkeren ](../../media/m365-cc-sc-create-icon.png) **blokkeren.**
 
 3. Configureer **de volgende** instellingen in het flyout URL's blokkeren dat wordt weergegeven:
-
-   - **URL's toevoegen om te blokkeren:** Voer één URL per regel in, maximaal 20. Zie de syntaxis van de URL voor de sectie Lijst met tenants [toestaan/blokkeren](#url-syntax-for-the-tenant-allowblock-list) verderop in dit artikel voor meer informatie over de syntaxis van URL-vermeldingen.
-
+   - **URL's met jokertekens toevoegen:** Voer één URL per regel in, maximaal 20. Zie de syntaxis van de URL voor de sectie Lijst met tenants [toestaan/blokkeren](#url-syntax-for-the-tenant-allowblock-list) verderop in dit artikel voor meer informatie over de syntaxis van URL-vermeldingen.
    - **Nooit verlopen:** Ga op een van de volgende stappen te werk:
-
-     - Controleer of de instelling is uitgeschakeld (schakel uit) en gebruik het vak Verloopt aan om de vervaldatum voor de ![ ](../../media/scc-toggle-off.png) vermeldingen op te geven. 
+     - Controleer of de instelling is uitgeschakeld (schakel uit) en gebruik het vak Verwijderen aan om de vervaldatum voor de ![ ](../../media/scc-toggle-off.png) vermeldingen op te geven. 
 
        of
 
      - Verplaats de schakelknop naar rechts om de items zo te configureren dat ze nooit verlopen: ![Inschakelen](../../media/scc-toggle-on.png).
-
    - **Optionele opmerking:** Voer beschrijvende tekst in voor de vermeldingen.
 
 4. Wanneer u klaar bent, klikt u op **Toevoegen.**
 
 ## <a name="use-the-microsoft-365-defender-portal-to-create-block-file-entries-in-the-tenant-allowblock-list"></a>Gebruik de Microsoft 365 Defender-portal om blokbestandsgegevens te maken in de lijst Tenant Allow/Block
 
-1. Ga in de Microsoft 365 Defender-portal naar **Beleidsregels &** \> **Bedreigingsbeleid** \> **tenantlijsten toestaan/blokkeren**.
+1. Ga in Microsoft 365 Defender-portal naar **Beleidsregels &** regels \> **Bedreigingsbeleidsregels** sectie \>  Tenant \> **Allow/Block Lists**.
 
-2. Selecteer op de pagina Lijst met  **tenants toestaan/blokkeren** het tabblad Bestanden en klik vervolgens op **Blokkeren.**
+2. Selecteer op de pagina Lijst met  **tenants toestaan/blokkeren** het tabblad Bestanden en klik vervolgens op ![ Pictogram blokkeren ](../../media/m365-cc-sc-create-icon.png) **blokkeren.**
 
-3. Configureer **de volgende instellingen in het flyout** add files to block flyout that appears:
-
+3. Configureer **de volgende** instellingen in de flyout Bestanden blokkeren die wordt weergegeven:
    - **Bestandshashes toevoegen:** Voer één SHA256-hashwaarde per regel in, maximaal 20.
-
    - **Nooit verlopen:** Ga op een van de volgende stappen te werk:
-
-     - Controleer of de instelling is uitgeschakeld (schakel uit) en gebruik het vak Verloopt aan om de vervaldatum voor de ![ ](../../media/scc-toggle-off.png) vermeldingen op te geven. 
+     - Controleer of de instelling is uitgeschakeld (schakel uit) en gebruik het vak Verwijderen aan om de vervaldatum voor de ![ ](../../media/scc-toggle-off.png) vermeldingen op te geven. 
 
      of
 
      - Verplaats de schakelknop naar rechts om de items zo te configureren dat ze nooit verlopen: ![Inschakelen](../../media/scc-toggle-on.png).
-
    - **Optionele opmerking:** Voer beschrijvende tekst in voor de vermeldingen.
 
 4. Wanneer u klaar bent, klikt u op **Toevoegen.**
@@ -142,42 +134,37 @@ In dit artikel wordt beschreven hoe u vermeldingen configureert in de lijst Tena
 - Wanneer u een invoer toestaan of blokkeren configureert voor een domeinpaar, worden berichten van dat domeinpaar niet meer weergegeven in het inzicht van de spoof intelligence.
 - Vermeldingen voor vervalste afzenders verlopen nooit.
 
-1. Ga in de Microsoft 365 Defender-portal naar **Beleidsregels &** \> **Bedreigingsbeleid** \> **tenantlijsten toestaan/blokkeren**.
+1. Ga in Microsoft 365 Defender-portal naar **Beleidsregels &** regels \> **Bedreigingsbeleidsregels** sectie \>  Tenant \> **Allow/Block Lists**.
 
-2. Selecteer op de pagina Lijst met tenants **toestaan/blokkeren** het tabblad **Spoofing** en klik vervolgens op **Toevoegen.**
+2. Selecteer op de pagina Lijst met tenants **toestaan/blokkeren** het tabblad **Spoofing** en klik vervolgens op ![ Pictogram Toevoegen ](../../media/m365-cc-sc-create-icon.png) **blokkeren.**
 
 3. Configureer **de volgende** instellingen in het fly-out Nieuwe domeinparen toevoegen dat wordt weergegeven:
-
    - **Nieuwe domeinparen toevoegen met jokertekens:** Voer één domeinpaar per regel in, maximaal 20. Zie de syntaxis van het domeinpaar voor vervalste afzendergegevens in de sectie [Tenant Allow/Block List](#domain-pair-syntax-for-spoofed-sender-entries-in-the-tenant-allowblock-list) verderop in dit artikel voor meer informatie over de syntaxis van vervalste afzenders.
-
    - **Type spoof:** Selecteer een van de volgende waarden:
      - **Intern:** De vervalste afzender is een domein dat deel uitmaken van uw organisatie (een [geaccepteerd domein).](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)
      - **Extern:** De vervalste afzender is een extern domein.
-
    - **Actie:** Selecteer **Toestaan** of **Blokkeren.**
 
 4. Wanneer u klaar bent, klikt u op **Toevoegen.**
 
 ## <a name="use-the-microsoft-365-defender-portal-to-view-entries-in-the-tenant-allowblock-list"></a>Gebruik de Microsoft 365 Defender-portal om items in de tenantlijst toestaan/blokkeren weer te geven
 
-1. Ga in de Microsoft 365 Defender-portal naar **Beleidsregels &** \> **Bedreigingsbeleid** \> **tenantlijsten toestaan/blokkeren**.
+1. Ga in Microsoft 365 Defender-portal naar **Beleidsregels &** regels \> **Bedreigingsbeleidsregels** sectie \>  Tenant \> **Allow/Block Lists**.
 
 2. Selecteer het beste tabblad. De beschikbare kolommen zijn afhankelijk van het tabblad dat u hebt geselecteerd:
 
    - **URL's**:
      - **Waarde:** De URL.
      - **Actie**: Het **waardeblok**.
-     - **Laatst bijgewerkte datum**
-     - **Vervaldatum**
-     - **Opmerking**
-
+     - **Laatst bijgewerkt**
+     - **Verwijderen aan**
+     - **Opmerkingen**
    - **Bestanden**
      - **Waarde:** De bestandshash.
      - **Actie**: Het **waardeblok**.
-     - **Laatst bijgewerkte datum**
-     - **Vervaldatum**
-     - **Opmerking**
-
+     - **Laatst bijgewerkt**
+     - **Verwijderen aan**
+     - **Opmerkingen**
    - **Spoofing**
      - **Vervalste gebruiker**
      - **Verzendende infrastructuur**
@@ -190,10 +177,9 @@ In dit artikel wordt beschreven hoe u vermeldingen configureert in de lijst Tena
 
    - **URL's:** U kunt de resultaten groepen op **Actie.**
    - **Bestanden:** U kunt de resultaten groepren op **Actie.**
-   - **Afzenderdomeinen voor BCL-bypass:** **Groep** is niet beschikbaar op dit tabblad.
    - **Spoofing:** U kunt de resultaten groeperen op **Actie** of **Spooftype.**
 
-   Klik **op Zoeken,** voer een hele of een deel van een waarde in en druk vervolgens op Enter om een specifieke waarde te zoeken. Wanneer u klaar bent, klikt u op **Zoek verwijderen Zoekpictogram** ![ ](../../media/b6512677-5e7b-42b0-a8a3-3be1d7fa23ee.gif) verwijderen.
+   Klik **op Zoeken,** voer een hele of een deel van een waarde in en druk vervolgens op Enter om een specifieke waarde te zoeken. Wanneer u klaar bent, klikt u op ![ Zoekpictogram Zoeken ](../../media/m365-cc-sc-close-icon.png) **verwijderen.**
 
    Klik **op Filteren** om de resultaten te filteren. De waarden die beschikbaar zijn in **de flyout Filter** die wordt weergegeven, zijn afhankelijk van het tabblad dat u hebt geselecteerd:
 
@@ -201,19 +187,12 @@ In dit artikel wordt beschreven hoe u vermeldingen configureert in de lijst Tena
      - **Actie**
      - **Nooit verlopen**
      - **Laatst bijgewerkte datum**
-     - **Vervaldatum**
-
+     - **Verwijderen aan**
    - **Bestanden**
      - **Actie**
      - **Nooit verlopen**
-     - **Laatst bijgewerkte datum**
-     - **Vervaldatum**
-
-   - **Afzenderdomeinen voor BCL-bypass**
-     - **Nooit verlopen**
-     - **Laatst bijgewerkte datum**
-     - **Vervaldatum**
-
+     - **Laatst bijgewerkt**
+     - **Verwijderen aan**
    - **Spoofing**
      - **Actie**
      - **Spooftype**
@@ -222,43 +201,34 @@ In dit artikel wordt beschreven hoe u vermeldingen configureert in de lijst Tena
 
 ## <a name="use-the-microsoft-365-defender-portal-to-modify-entries-in-the-tenant-allowblock-list"></a>Gebruik de Microsoft 365 Defender-portal om items in de tenantlijst toestaan/blokkeren te wijzigen
 
-1. Ga in de Microsoft 365 Defender-portal naar **Beleidsregels &** \> **Bedreigingsbeleid** \> **tenantlijsten toestaan/blokkeren**.
+1. Ga in Microsoft 365 Defender-portal naar **Beleidsregels &** regels \> **Bedreigingsbeleidsregels** sectie \>  Tenant \> **Allow/Block Lists**.
 
 2. Selecteer het tabblad met het type vermelding dat u wilt wijzigen:
    - **URL's**
    - **Bestanden**
-   - **Afzenderdomeinen voor BCL-bypass**
    - **Spoofing**
 
-3. Selecteer het item dat u wilt wijzigen en klik vervolgens op **Pictogram** ![ Bewerken ](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) bewerken. De waarden die u kunt wijzigen in het flyout dat wordt weergegeven, zijn afhankelijk van het tabblad dat u in de vorige stap hebt geselecteerd:
-
+3. Selecteer het item dat u wilt wijzigen en klik vervolgens op ![ Pictogram ](../../media/m365-cc-sc-edit-icon.png) Bewerken. De waarden die u kunt wijzigen in het flyout dat wordt weergegeven, zijn afhankelijk van het tabblad dat u in de vorige stap hebt geselecteerd:
    - **URL's**
      - **Nooit verlopen** en/of vervaldatum.
      - **Optionele notitie**
-
    - **Bestanden**
      - **Nooit verlopen** en/of vervaldatum.
      - **Optionele notitie**
-
-   - **Afzenderdomeinen voor BCL-bypass**
-     - **Nooit verlopen** en/of vervaldatum.
-
    - **Spoofing**
      - **Actie:** U kunt de waarde wijzigen in **Toestaan** of **Blokkeren.**
-
 4. Klik op **Opslaan** wanneer u gereed bent.
 
 ## <a name="use-the-microsoft-365-defender-portal-to-remove-entries-from-the-tenant-allowblock-list"></a>Gebruik de Microsoft 365 Defender-portal om items te verwijderen uit de lijst Tenant Allow/Block
 
-1. Ga in Microsoft 365 Defender-portal naar Lijst met **bedreigingsbeheerbeleids** \>  \> **tenants toestaan/blokkeren.**
+1. Ga in Microsoft 365 Defender-portal naar **Beleidsregels &** regels \> **Bedreigingsbeleidsregels** sectie \>  Tenant \> **Allow/Block Lists**.
 
 2. Selecteer het tabblad met het type invoer dat u wilt verwijderen:
    - **URL's**
    - **Bestanden**
-   - **Afzenderdomeinen voor BCL-bypass**
    - **Spoofing**
 
-3. Selecteer het item dat u wilt verwijderen en klik vervolgens op **Pictogram** ![ Verwijderen ](../../media/87565fbb-5147-4f22-9ed7-1c18ce664392.png) verwijderen.
+3. Selecteer het item dat u wilt verwijderen en klik vervolgens op ![ Pictogram ](../../media/m365-cc-sc-delete-icon.png) **verwijderen**.
 
 4. Klik in het waarschuwingsvenster dat wordt weergegeven op **Verwijderen.**
 
@@ -662,7 +632,7 @@ Hier zijn enkele voorbeelden van geldige domeinparen om vervalste afzenders te i
 - `chris@contoso.com, fabrikam.com`
 - `*, contoso.net`
 
-Het maximum aantal vervalste afzenders is 1000. 
+Het maximum aantal vervalste afzenders is 1000.
 
 Als u een domeinpaar toevoegt, wordt  de *combinatie* van de vervalste gebruiker en de verzendende infrastructuur alleen mogelijk of blokkeert. E-mail van de vervalste gebruiker van welke bron dan ook is niet toegestaan en e-mail uit de bron van de verzendende infrastructuur wordt niet toegestaan voor vervalste gebruikers. 
 

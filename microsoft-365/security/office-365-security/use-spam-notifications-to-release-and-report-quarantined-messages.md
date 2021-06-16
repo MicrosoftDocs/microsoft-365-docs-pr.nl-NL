@@ -21,12 +21,12 @@ ms.custom:
 description: Beheerders kunnen meer informatie krijgen over spammeldingen van eindgebruikers voor in quarantaine geplaatste berichten in Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 30f82abc245a2f6022bd1a75b57e9d20e3e32a32
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: 71f2a33ad83f94895c396f92c18753bfca7f2905
+ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52929885"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52933165"
 ---
 # <a name="use-user-spam-notifications-to-release-and-report-quarantined-messages"></a>Gebruikersspammeldingen gebruiken om in quarantaine geplaatste berichten vrij te geven en te rapporteren
 
@@ -51,16 +51,11 @@ Spammeldingen van eindgebruikers worden niet ondersteund voor groepen.
 Een spammelding voor eindgebruikers bevat de volgende informatie voor elk in quarantaine geplaatst bericht:
 
 - **Afzender:** de verzendnaam en het e-mailadres van het in quarantaine geplaatste bericht.
-
 - **Onderwerp:** De onderwerpregeltekst van het in quarantaine geplaatste bericht.
-
 - **Datum:** De datum en tijd (in UTC) dat het bericht in quarantaine is geplaatst.
-
 - **Afzender blokkeren:** Klik op deze koppeling om de afzender toe te voegen aan de lijst Geblokkeerde afzenders in uw postvak. Raadpleeg [Afzender van e-mail blokkeren](https://support.microsoft.com/office/b29fd867-cac9-40d8-aed1-659e06a706e4) voor meer informatie.
-
-- **Release:** Voor spamberichten (geen phishingberichten) kunt u het bericht hier vrijgeven zonder dat u de portal van De Microsoft 365 Defender in quarantaine moet plaatsen.
-
-- **Controleren:** Klik op deze koppeling om naar Quarantaine te gaan in de Microsoft 365 Defender-portal, waar u (afhankelijk van waarom het bericht in quarantaine is geplaatst) uw in quarantaine geplaatste berichten kunt bekijken, vrijgeven, verwijderen of rapporteren. Zie Berichten in quarantaine zoeken en vrijgeven als [gebruiker in EOP](find-and-release-quarantined-messages-as-a-user.md)voor meer informatie.
+- **Release:** Voor spamberichten (geen phishingberichten) kunt u het bericht hier vrijgeven zonder naar **De** portal van de Microsoft 365 Defender te gaan.
+- **Controleren:** Klik op deze koppeling om naar **Quarantaine** te gaan in de Microsoft 365 Defender-portal, waar u (afhankelijk van waarom het bericht in quarantaine is geplaatst) uw in quarantaine geplaatste berichten kunt bekijken, vrijgeven, verwijderen of rapporteren. Zie Berichten in quarantaine zoeken en vrijgeven als [gebruiker in EOP](find-and-release-quarantined-messages-as-a-user.md)voor meer informatie.
 
 ![Voorbeeld van spammeldingen voor eindgebruikers](../../media/end-user-spam-notification.png)
 
