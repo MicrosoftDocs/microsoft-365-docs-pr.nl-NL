@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: overview
 ms.service: o365-administration
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -19,24 +19,31 @@ search.appverid:
 - MET150
 ms.assetid: 211c5c90-9719-4d73-9ad9-1925bb80f5f6
 description: Microsoft 365 voor bedrijven maakt het eenvoudiger voor u om te voldoen aan de Algemene verordening gegevensbescherming (AVG).
-ms.openlocfilehash: c00dec46e47bde8afef8ffb2cd67dfc00ea98950
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 147843fab8fcb8d2d1793a21f9bb897cb4a59672
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914496"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929465"
 ---
 # <a name="gdpr-simplified-a-guide-for-your-small-business"></a>AVG vereenvoudigd: Een handleiding voor kleine bedrijven
 
- *Microsoft 365 voor bedrijven gebruiken om AVG-naleving te vereenvoudigen en beheren* 
+ *Microsoft 365 voor bedrijven gebruiken om u te helpen de naleving van de AVG te beperken en te beheren* 
   
-De Algemene verordening gegevensbescherming (AVG) is een verordening van de Europese Unie (EU) waarin bepaald is hoe een organisatie met persoonlijke gegevens moet omgaan. De AVG is op 25 mei 2018 van kracht geworden. Als uw bedrijf producten of diensten levert aan burgers uit de Europese Unie, of burgers uit de EU in dienst heeft, geldt de [AVG](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en) ook voor u. 
-  
-In dit artikel wordt uitgelegd wat de AVG is, waarom deze wet is ingevoerd en hoe Microsoft 365 voor bedrijven het eenvoudiger kan maken voor uw organisatie om de AVG na te leven.
+De Algemene verordening gegevensbescherming (AVG) is een verordening van de Europese Unie (EU) waarin bepaald is hoe een organisatie met persoonlijke gegevens moet omgaan. Als uw bedrijf producten of diensten levert aan burgers in de Europese Unie, of deze in dienst heeft, geldt de [AVG](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en) voor u. 
+
+Als beheerder van een klein bedrijf vraagt u zich waarschijnlijk af "waar begin ik?" Dit kan vooral het geval zijn als uw bedrijf geen persoonsgegevens verwerkt als een kernactiviteit of als de AVG helemaal nieuw voor u is.
+
+U kunt aan de slag gaan door dit artikel te lezen, dat bedoeld is om u te helpen begrijpen wat de AVG is, waarom deze verordening is ingevoerd en hoe Microsoft 365 voor bedrijven uw organisatie kan helpen om te voldoen aan de AVG.
+
+Het bevat ook antwoorden op veelgestelde vragen over de AVG die kleine bedrijven kunnen hebben, en belicht stappen die een klein bedrijf kan nemen om zich voor te bereiden op de AVG.
+
+> [!IMPORTANT]
+> De Microsoft 365-oplossingen en -aanbevelingen in dit artikel zijn hulpmiddelen en bronnen die u kunnen helpen bij het beheren en beschermen van uw gegevens, maar zijn geen garantie voor naleving van de AVG. Het is aan u om uw eigen nalevingsstatus te beoordelen. Neem indien nodig contact op met uw eigen juridische en/of professionele adviseurs. 
   
 ## <a name="a-quick-overview-of-the-gdpr"></a>Een snel overzicht van de AVG
 
-De AVG is een EU-verordening die de eerder geldende Databeschermingsrichtlijn (DPD) uit 1995 actualiseert en uitbreidt. De AVG heeft betrekking op de privacy van gegevens van individuen, of dat nu gaat om een klant, werknemer of zakenpartner. Het doel van de AVG is verbeterde bescherming van persoonlijke gegevens voor Europese burgers, of ze nu in de EU of elders wonen. De verordening geeft aan wat er verwacht wordt en adviseert hoe aan die verwachtingen voldaan kan worden. Sinds de AVG van kracht is geworden eind mei 2018, zijn organisaties verplicht maatregelen te nemen om te kunnen voldoen aan de vereisten van de AVG.
+De AVG is een EU-verordening die de eerder geldende Databeschermingsrichtlijn (DPD) uit 1995 actualiseert en uitbreidt. De AVG heeft betrekking op de privacy van gegevens van individuen, of dat nu gaat om een klant, werknemer of zakenpartner. Het doel van de AVG is verbeterde bescherming van persoonlijke gegevens voor Europese burgers, of ze nu in de EU of elders wonen. De verordening geeft aan wat er verwacht wordt en adviseert hoe aan die verwachtingen voldaan kan worden. Organisaties zijn verplicht maatregelen te nemen om te kunnen voldoen aan de vereisten van de AVG.
   
 Bij de AVG gaat het om gegevens en hoe die worden verwerkt. Gegevens hebben een soort levenscyclus. Die cyclus begint op het moment dat de gegevens verzameld worden, gaat verder bij het opslaan en gebruiken (verwerken) ervan en eindigt als de gegevens volledig verwijderd worden uit uw systemen. 
   
@@ -73,6 +80,97 @@ De AVG vestigt rechten van betrokkene, wat betekent dat klanten, werknemers, zak
 - **Bezwaar:** Een persoon kan bezwaar maken tegen het gebruik van gegevens voor verschillende doeleinden, waaronder direct marketing. 
     
 - **Verzoek om niet te worden onderworpen aan automatische besluitvorming, waaronder profilering:** De AVG heeft strenge regels over gegevensgebruik voor profilering van mensen en geautomatiseerde besluitvorming op basis daarvan. 
+
+
+## <a name="steps-to-prepare-for-gdpr"></a>Stappen ter voorbereiding op de AVG
+
+In dit gedeelte worden de stappen beschreven die een klein bedrijf kan nemen om zich voor te bereiden op de AVG. Veel van de informatie voor deze stappen werd verstrekt via [Zeven stappen voor bedrijven om zich voor te bereiden op de Algemene Verordening Gegevensbescherming](https://ec.europa.eu/info/sites/default/files/ds-02-18-544-en-n.pdf), een publicatie die wordt aangeboden via het Publicatiebureau van de Europese Unie.
+
+Een goede manier voor een klein bedrijf om aan de slag te gaan met de AVG is door ervoor te zorgen dat de volgende belangrijke principes worden toegepast bij het verzamelen van persoonsgegevens:
+
+- Verzamel persoonsgegevens met duidelijk omschreven doeleinden waarvoor u ze gebruikt en gebruik ze nergens anders voor. Als u uw klanten bijvoorbeeld vertelt u hun e-mailadres te geven zodat ze uw nieuwe aanbiedingen of promoties kunnen ontvangen, kunt u hun e-mailadres alleen voor dat specifieke doel gebruiken.
+- Verzamel niet meer gegevens dan u nodig hebt. Als uw bedrijf bijvoorbeeld een postadres nodig heeft om goederen af te leveren, heeft u het adres en de naam van een klant nodig, maar hoeft u de burgerlijke staat van de persoon niet te weten.
+
+
+### <a name="step-1-know-the-personal-data-that-you-collect-and-use-within-your-business-and-the-reasons-you-need-it"></a>Stap 1: ken de persoonlijke gegevens die u verzamelt en gebruikt binnen uw bedrijf, en de redenen waarom u deze nodig heeft
+
+Een van de eerste stappen die u als klein bedrijf moet uitvoeren, is het inventariseren van de persoonsgegevens die u binnen uw bedrijf verzamelt en gebruikt en waarom deze nodig zijn. Dit omvat gegevens over zowel uw werknemers als uw klanten.
+
+U hebt bijvoorbeeld de persoonlijke gegevens van uw werknemer nodig op basis van de arbeidsovereenkomst en om juridische redenen (bijvoorbeeld het rapporteren van belastingen aan de Belastingdienst).
+
+Als een ander voorbeeld kunt u lijsten met individuele klanten beheren om hen mededelingen over speciale aanbiedingen te sturen, als ze hiermee hebben ingestemd.
+
+#### <a name="microsoft-365-features-that-can-help"></a>Microsoft 365 functies die u kunnen helpen
+[Microsoft Information Protection in Microsoft 365](/microsoft-365/compliance/information-protection) kan u helpen bij het ontdekken, classificeren en beschermen van gevoelige informatie in uw bedrijf. U kunt trainbare classificaties gebruiken om u te helpen bij het identificeren en labelen van documenttypen die persoonlijke gegevens bevatten. 
+
+### <a name="step-2-inform-your-customers-employees-and-other-individuals-when-you-need-to-collect-their-personal-data"></a>Stap 2: informeer uw klanten, werknemers en andere personen wanneer u hun persoonlijke gegevens moet verzamelen
+
+Personen moeten weten dat u hun persoonsgegevens verwerkt en voor welk doel. Als een klant bijvoorbeeld een klantprofiel moet maken om toegang te krijgen tot de online site van uw bedrijf, zorg er dan voor dat u specifiek aangeeft wat u van plan bent met hun gegevens te doen.
+
+Het is echter niet nodig om personen te informeren wanneer ze al weten hoe u de gegevens gaat gebruiken. Wanneer ze u bijvoorbeeld een huisadres geven voor een levering die ze hebben besteld.
+
+Ook moet u personen op verzoek kunnen informeren over de persoonsgegevens die u van hen heeft en hen toegang geven tot hun gegevens. Als u uw gegevens organiseert, is het gemakkelijker om ze, indien nodig, te leveren. 
+
+### <a name="step-3-keep-personal-data-for-only-as-long-as-necessary"></a>Stap 3: bewaar persoonsgegevens zo lang als nodig is
+
+Voor werknemersgegevens: bewaar deze zolang de arbeidsrelatie voortduurt en voor gerelateerde wettelijke verplichtingen.
+Bewaar deze voor klantgegevens zolang de klantrelatie duurt en voor gerelateerde wettelijke verplichtingen (bijvoorbeeld fiscale doeleinden).
+Verwijder de gegevens wanneer deze niet meer nodig zijn voor de doeleinden waarvoor u ze hebt verzameld.
+
+#### <a name="microsoft-365-features-that-can-help"></a>Microsoft 365 functies die u kunnen helpen
+[Bewaarbeleid en labels](/microsoft-365/compliance/retention) kunnen worden gebruikt om u te helpen persoonsgegevens een bepaalde tijd te bewaren en te verwijderen wanneer deze niet meer nodig zijn.
+
+
+### <a name="step-4-secure-the-personal-data-you-are-processing"></a>Stap 4: beveilig de persoonsgegevens die u verwerkt
+
+Als u persoonlijke gegevens opslaat op een IT-systeem, beperkt u de toegang tot de bestanden met de gegevens, bijvoorbeeld met een sterk wachtwoord. Werk regelmatig de beveiligingsinstellingen van uw systeem bij.
+
+> [!NOTE]
+> De AVG schrijft het gebruik van een specifiek IT-systeem niet voor, maar zorgt ervoor dat het systeem het juiste beveiligingsniveau heeft. Zie [AGV-artikel 32: Beveiliging van verwerking](https://gdpr.eu/article-32-security-of-processing/) voor meer informatie.
+
+Als u fysieke documenten met persoonlijke gegevens opslaat, moet u ervoor zorgen dat ze niet toegankelijk zijn voor onbevoegden.
+
+Als u ervoor kiest om persoonlijke gegevens op te slaan in de cloud, zoals via Microsoft 365, beschikt u over beveiligingsfuncties, zoals de mogelijkheid om machtigingen voor bestanden en mappen te beheren, gecentraliseerde beveiligde locaties om uw bestanden op te slaan (OneDrive of SharePoint-documentbibliotheken) en gegevensversleuteling bij het verzenden of ophalen van uw bestanden. 
+
+#### <a name="microsoft-365-features-that-can-help"></a>Microsoft 365 functies die u kunnen helpen
+U kunt [DLP (Preventie van gegevensverlies) van Microsoft](/microsoft-365/business-video/set-up-dlp) gebruiken om gevoelige gegevens van uw bedrijf te beschermen. U kunt [een DLP-beleid](/microsoft-365/compliance/create-a-dlp-policy-from-a-template) instellen die gebruikmaakt van de [AVG-sjabloon](/microsoft-365/compliance/what-the-dlp-policy-templates-include#general-data-protection-regulation-gdpr).
+
+### <a name="step-5-keep-documentation-on-your-data-processing-activities"></a>Stap 5: documentatie over uw gegevensverwerkingsactiviteiten bewaren
+
+Bereid een kort document voor waarin wordt uitgelegd welke persoonlijke gegevens u bewaart en om welke redenen. Mogelijk moet u de documentatie beschikbaar maken voor uw nationale gegevensbeschermingsinstantie, indien nodig.
+
+Dergelijke documenten moeten de hieronder vermelde informatie bevatten.
+
+| Informatie | Voorbeelden |
+|---|---|
+|Het doel van gegevensverwerking|Klanten informeren over speciale aanbiedingen zoals thuisbezorging; betalende leveranciers; salaris en sociale zekerheid voor werknemers|
+|De typen persoonsgegevens|Contactgegevens van klanten; contactgegevens van leveranciers; werknemersgegevens|
+|De categorieën betrokken gegevensonderwerpen|Werknemers; klanten; leveranciers|
+|De categorieën geadresseerden|Arbeidsautoriteiten; Belastingdienst|
+|De opslagperioden|Persoonsgegevens van medewerkers tot het einde van de arbeidsovereenkomst (en gerelateerde wettelijke verplichtingen); persoonsgegevens van klanten tot het einde van de klant-/contractuele relatie|
+|De technische en organisatorische beveiligingsmaatregelen ter bescherming van de persoonsgegevens|IT-systeemoplossingen worden regelmatig bijgewerkt; beveiligde locatie; toegangsbeheer; gegevensversleuteling; back-up van gegevens|
+|Of persoonsgegevens worden overgebracht naar geadresseerden buiten de EU|Gebruik van een processor buiten de EU (bijvoorbeeld opslag in de cloud); gegevenslocatie van de processor; contractuele verplichtingen|
+
+</br>
+
+U kunt de contractuele verplichtingen van Microsoft met betrekking tot de AVG vinden in het [Microsoft Online Services Data Protection Addendum](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&Keyword=DPA), dat de privacy- en beveiligingstoezeggingen van Microsoft, de gegevensverwerkingsvoorwaarden en de AVG-voorwaarden voor door Microsoft gehoste diensten biedt waarop klanten zich abonneren onder een volumelicentieovereenkomst. 
+
+
+### <a name="step-6-make-sure-your-subcontractors-respect-the-rules"></a>Stap 6: zorg ervoor dat uw toeleveranciers de regels naleven
+
+Als u de verwerking van persoonsgegevens bij een ander bedrijf onder contract hebt geplaatst, gebruikt u alleen een serviceprovider die de verwerking garandeert in overeenstemming met de vereisten van de AVG (bijvoorbeeld beveiligingsmaatregelen). 
+
+
+
+### <a name="step-7-assign-someone-to-oversee-personal-data-protection"></a>Stap 7: iemand toewijzen om toezicht te houden op de bescherming van persoonlijke gegevens
+ 
+Om persoonsgegevens beter te beveiligen, moeten organisaties mogelijk een <b>functionaris voor gegevensbescherming (DPO)</b>aanstellen. Mogelijk hoeft u echter geen functionaris voor gegevensbescherming aan te wijzen als de verwerking van persoonsgegevens geen kernonderdeel van uw bedrijf is of als u een klein bedrijf bent. Als uw bedrijf bijvoorbeeld alleen gegevens van uw klanten verzamelt voor thuisbezorging, hoeft u geen DPO aan te wijzen. Zelfs als u gebruik moet maken van een DPO, kunnen deze taken worden toegewezen aan een bestaande werknemer naast zijn/haar andere taken. U kunt er ook voor kiezen om indien nodig een externe consultant in te huren voor deze taak.
+
+Normaal gesproken hoeft u geen [impactbeoordeling voor gegevensbescherming](https://gdpr.eu/article-35-impact-assessment/) uit te voeren. Dit is voorbehouden aan bedrijven die meer risico vormen voor persoonsgegevens (bijvoorbeeld als ze grootschalig toezicht houden op een publiek toegankelijk gebied, zoals videobewaking).
+
+Als u een klein bedrijf bent dat werknemers beheert en een lijst met klanten, hoeft u doorgaans geen impactbeoordeling voor gegevensbescherming uit te voeren.  
+ 
+
     
 ## <a name="common-small-business-questions-about-the-gdpr"></a>Veelvoorkomende vragen van kleine bedrijven over de AVG
 
@@ -118,7 +216,7 @@ Als u gegevens verzamelt, heeft dit volgens de AVG tot op zekere hoogte gevolgen
 
 U moet ervoor zorgen dat klanten, ook als u die al jaren heeft, toestemming hebben gegeven voor het gebruik van hun gegevens voor marketing. Mogelijk heeft u al eerder toestemming hiervoor vastgelegd, en kunt u dat ook aantonen. Als dat zo is, hoeft u niets meer te doen en kunt u doorgaan met de marketing. Als dat niet zo is, moet u toestemming vragen aan de klant voordat u doorgaat met de marketing. Dit gebeurt meestal door de klant via een e-mail te vragen naar uw website te gaan en daar via een selectievakje toestemming te geven voor het ontvangen van toekomstige e-mails. 
   
-### <a name="do-i-have-to-worry-about-the-gdpr-when-i-recruit-new-employees-what-about-current-employees"></a>Moet ik me zorgen maken over de AVG als ik nieuwe werknemers werf? En hoe zit het met huidige werknemers?
+### <a name="do-i-have-to-worry-about-the-gdpr-when-i-recruit-new-employees-what-about-current-employees"></a>Moet ik me zorgen maken over de AVG als ik nieuwe werknemers aanneem? Hoe zit het met huidige werknemers?
 
 De AVG heeft niet alleen invloed op klantgegevens, maar ook op werknemersgegevens. Nieuwe werknemers worden vaak gevonden via socialemediaplatforms zoals LinkedIn. Zorg ervoor dat u geen gegevens van potentiële werknemers opslaat zonder hun uitdrukkelijke toestemming.
   
@@ -143,14 +241,16 @@ Microsoft 365 voor bedrijven kan op de volgende manier helpen met de AVG-procedu
     Via hulpprogramma's zoals auditlogboeken kunt u gegevensbewegingen traceren en rapporteren. Rapporten classificeren de gegevens die u verzamelt en opslaat, leggen vast wat u ermee doet en welke gegevensoverdracht er plaatsvindt. 
     
 Klanten en werknemers worden zich steeds meer bewust van het belang van gegevensbescherming en verwachten tegenwoordig dat een bedrijf of organisatie die privacy respecteert. Met Microsoft 365 voor bedrijven heeft u de middelen in handen om AVG-naleving te bereiken en behouden, zonder veel gedoe.
-  
+
+
+
 ## <a name="next-steps"></a>Volgende stappen
 
 Enkele stappen die u kunt zetten om ervoor te zorgen dat uw bedrijf voldoet aan de AVG:
   
 - Evalueer uw AVG-programma met [Controlelijsten voor verantwoordelijkheidsgereedheid](/compliance/regulatory/gdpr-arc).
     
-- Onderzoek [Microsoft 365 voor bedrijven](https://www.microsoft.com/microsoft-365/business) als een oplossing voor het bereiken en behouden van AVG-naleving. 
+- Onderzoek [Microsoft 365 voor bedrijven](/microsoft-365/business) als een oplossing voor het bereiken en behouden van AVG-naleving. 
    
 
 > [!IMPORTANT]
