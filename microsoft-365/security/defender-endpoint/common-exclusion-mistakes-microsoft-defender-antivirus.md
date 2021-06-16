@@ -15,21 +15,17 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.date: 05/17/2021
-ms.openlocfilehash: d10343538c995534878196cc57092c37fd2dcf7b
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.date: 06/15/2021
+ms.openlocfilehash: f9ca83fcfba4b79898a0fed527e38947a4c230d6
+ms.sourcegitcommit: 959c3c3633e40b7b0f5e2c8372409778005a24db
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538061"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52950129"
 ---
 # <a name="common-mistakes-to-avoid-when-defining-exclusions"></a>Veelvoorkomende fouten bij het definiëren van uitsluitingen voorkomen
 
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
-
-U kunt een uitsluitingslijst definiëren voor items die u niet wilt Microsoft Defender Antivirus scannen. Dergelijke uitgesloten items kunnen bedreigingen bevatten die uw apparaat kwetsbaar maken. 
-
-In dit artikel wordt een veelvoorkomende fout beschreven die u moet vermijden bij het definiëren van uitsluitingen. 
+U kunt een uitsluitingslijst definiëren voor items die u niet wilt Microsoft Defender Antivirus scannen. Dergelijke uitgesloten items kunnen bedreigingen bevatten die uw apparaat kwetsbaar maken. In dit artikel wordt een veelvoorkomende fout beschreven die u moet vermijden bij het definiëren van uitsluitingen. 
 
 Voordat u uw uitsluitingslijsten definieert, [Aanbevelingen voor het definiëren van uitsluitingen.](configure-exclusions-microsoft-defender-antivirus.md#recommendations-for-defining-exclusions)
 
@@ -231,7 +227,9 @@ Definieer over het algemeen geen uitsluitingen voor de volgende processen:
 
 `dbgsvc.exe`  
 
-`dnx.exe`  
+`dnx.exe`
+
+`dotnet.exe`
 
 `fsi.exe`  
 
@@ -272,9 +270,3 @@ Microsoft Defender Antivirus Service wordt uitgevoerd in systeemcontext met behu
 
 Zie [Jokertekens gebruiken in de](configure-extension-file-exclusions-microsoft-defender-antivirus.md#use-wildcards-in-the-file-name-and-folder-path-or-extension-exclusion-lists) lijst met uitsluitingslijsten voor bestandsnaam en mappen of extensies voor informatie over het gebruik van jokertekens in uitsluitingslijsten.
 
-## <a name="related-articles"></a>Aanverwante artikelen
-
-- [Uitsluitingen configureren en valideren in Microsoft Defender Antivirus scans](configure-exclusions-microsoft-defender-antivirus.md)
-- [Uitsluitingen configureren en valideren op basis van bestandsextensie en maplocatie](configure-extension-file-exclusions-microsoft-defender-antivirus.md)
-- [Uitsluitingen configureren en valideren voor bestanden die zijn geopend door processen](configure-process-opened-file-exclusions-microsoft-defender-antivirus.md)
-- [Uitsluitingen Microsoft Defender Antivirus configureren op Windows Server](configure-server-exclusions-microsoft-defender-antivirus.md)

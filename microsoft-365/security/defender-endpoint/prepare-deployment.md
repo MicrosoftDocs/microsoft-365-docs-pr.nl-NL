@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: fb10e65258f6264b21851f8325b97b1bad19bf16
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 7841197594941354b21bd2104cd27ef37a1a25c9
+ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52925645"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "52964594"
 ---
 # <a name="prepare-microsoft-defender-for-endpoint-deployment"></a>Microsoft Defender voorbereiden op de implementatie van eindpunten
 
@@ -74,7 +74,7 @@ Voeg belanghebbenden toe aan de onderstaande tabel voor uw organisatie.
 
 Deze sectie wordt gebruikt om ervoor te zorgen dat uw omgeving goed wordt begrepen door de belanghebbenden, zodat mogelijke afhankelijkheden en/of wijzigingen in technologieën of processen kunnen worden identificeren.
 
-| Wat                                  | Omschrijving |
+| Wat                                  | Beschrijving |
 |---------------------------------------|-------------|
 | Aantal eindpunten                        |    Totaal aantal eindpunten per besturingssysteem.         |
 | Aantal servers                          |    Totaal aantal servers per versie van het besturingssysteem.    |
@@ -109,7 +109,7 @@ U vindt hier meer informatie over machtigingsrichtlijnen: Rollen maken en de rol
 
 In de volgende voorbeeldtabel wordt de structuur van het Cyber Defense Operations Center in uw omgeving bepaald, zodat u de RBAC-structuur kunt bepalen die nodig is voor uw omgeving.
 
-| Laag   | Omschrijving                                                                                                                                                                                                 | Machtiging Vereist |
+| Laag   | Beschrijving                                                                                                                                                                                                 | Machtiging Vereist |
 |--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
 | Laag 1 | **Team voor lokale beveiligingsbewerkingen / IT-team**<br>Dit team triages and investigates alerts contained within their geocation and escalates to Tier 2 in cases where a active remediation is required.                                              |                     |
 | Laag 2 | **Team voor regionale beveiligingsbewerkingen**<br>Dit team kan alle apparaten voor hun regio zien en herstelacties uitvoeren.                                                                                                                        |        Gegevens weergeven               |
@@ -124,7 +124,7 @@ In het verleden was het vervangen van een beveiligingsoplossing tijdsintensief e
 
 Kies het onderdeel van Defender voor Eindpunt dat moet worden gebruikt en verwijder de onderdelen die niet van toepassing zijn. In de onderstaande tabel wordt aangegeven welke volgorde Microsoft aanbeveelt voor de manier waarop het eindpuntbeveiligingspakket moet worden ingeschakeld.
 
-| Onderdeel                               | Omschrijving                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Rang van acceptatieorders |
+| Onderdeel                               | Beschrijving                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Rang van acceptatieorders |
 |-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
 | Endpoint Detection & Response (EDR)     | Defender voor Endpoint-eindpuntdetectie en -respons bieden geavanceerde detecties voor aanvallen die in realtime en actie kunnen worden ondernomen. Beveiligingsanalisten kunnen waarschuwingen effectief prioriteit geven, zichtbaarheid krijgen in het volledige bereik van een beveiligingsschending en reactieacties ondernemen om bedreigingen te herstellen. <br> [Meer informatie.](/windows/security/threat-protection/windows-defender-atp/overview-endpoint-detection-response)                                                                                                                                                                                                                                             | 1                   |
 |Threat & Vulnerability Management (TVM)|Threat & Vulnerability Management is een onderdeel van Microsoft Defender voor Endpoint en biedt zowel beveiligingsbeheerders als beveiligingsbewerkingsteams unieke waarde, waaronder: <br> - Realtime eindpuntdetectie en -respons (EDR) die zijn gerelateerd aan eindpuntproblemen <br> - De kwetsbaarheidscontext van een apparaat van onschatbare waarde tijdens incidentonderzoeken <br> - Ingebouwde herstelprocessen via Microsoft Intune en Microsoft-System Center Configuration Manager <br> [Meer informatie](https://techcommunity.microsoft.com/t5/Windows-Defender-ATP/Introducing-a-risk-based-approach-to-threat-and-vulnerability/ba-p/377845).| 2 |
@@ -135,6 +135,7 @@ Kies het onderdeel van Defender voor Eindpunt dat moet worden gebruikt en verwij
 
 ## <a name="next-step"></a>Volgende stap
 
-|||
-|:-------|:-----|
-|![Fase 2: Instellen](images/setup.png) <br>[Fase 2: Instellen](production-deployment.md) | Microsoft Defender instellen voor endpoint-implementatie |
+
+![Fase 2: Instellen](images/setup.png) <br>[Fase 2: Instellen](production-deployment.md) 
+ 
+Microsoft Defender instellen voor endpoint-implementatie 

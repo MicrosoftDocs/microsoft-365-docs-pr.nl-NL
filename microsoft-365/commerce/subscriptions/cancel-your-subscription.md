@@ -19,17 +19,17 @@ ms.custom:
 search.appverid: MET150
 description: Als u minder dan 25 licenties hebt toegewezen aan gebruikers, kunt u uw proefabonnement op Microsoft 365 voor Bedrijven of uw betaalde abonnement annuleren in het beheercentrum.
 ms.date: 04/08/2021
-ms.openlocfilehash: 5c4ce1c00bfde4a895710d737fab0836998836c6
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: 18e7ca5cec91e1614808f2087ce0394f33a45c7a
+ms.sourcegitcommit: 959c3c3633e40b7b0f5e2c8372409778005a24db
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52929453"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52950081"
 ---
 # <a name="cancel-your-subscription"></a>Uw abonnement opzeggen
 
 > [!IMPORTANT]
-> Dit artikel is alleen van toepassing op Microsoft 365 voor bedrijven-abonnementen. Als u Microsoft 365 Family of Persoonlijk hebt, raadpleegt u [Een Microsoft 365-abonnement](https://support.microsoft.com/nl-NL/office/cancel-a-microsoft-365-subscription-46e2634c-c64b-4c65-94b9-2cc9c960e91b) annuleren.
+> Dit artikel is alleen van toepassing op Microsoft 365 voor bedrijven-abonnementen. Als u Microsoft 365 Family of Persoonlijk hebt, raadpleegt u [Een Microsoft 365-abonnement](https://support.microsoft.com/en-us/office/cancel-a-microsoft-365-subscription-46e2634c-c64b-4c65-94b9-2cc9c960e91b?OCID=M365_DocsCancel_Link) annuleren.
 
 *Komt in aanmerking?:* als u minder dan 25 licenties hebt toegewezen aan gebruikers, kunt u uw proefabonnement op Microsoft 365 voor Bedrijven of uw betaalde abonnement op elk moment online annuleren in het Microsoft 365-beheercentrum. Als u meer dan 25 licenties hebt toegewezen aan gebruikers, kunt u dit beperken tot minder dan 25 of [kunt u de ondersteuning bellen om uw abonnement op te zeggen](../../business-video/get-help-support.md).
 

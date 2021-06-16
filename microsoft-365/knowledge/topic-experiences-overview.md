@@ -14,16 +14,16 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Overzicht van Viva Topics.
-ms.openlocfilehash: 89f35062009372c2a44dddcb4e4d2934e494282f
-ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
+ms.openlocfilehash: 60c276e8850ed1b824810131a13bed19424a87fa
+ms.sourcegitcommit: 959c3c3633e40b7b0f5e2c8372409778005a24db
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52908318"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52950021"
 ---
 # <a name="microsoft-viva-topics-overview"></a>Overzicht van Microsoft Viva Topics 
 
-Viva Topics gebruikt Microsoft AI-technologie, Microsoft 365, Microsoft Graph, Zoeken en andere onderdelen en services om uw gebruikers kennis te brengen in de Microsoft 365-apps die ze dagelijks gebruiken, te beginnen met SharePoint moderne pagina's, Microsoft Zoeken en Zoeken in Word, PowerPoint, Outlook en Excel.
+Viva Topics gebruikt Microsoft AI-technologie, Microsoft 365, Microsoft Graph, Zoeken en andere onderdelen en services om uw gebruikers kennis te brengen in de Microsoft 365-apps die ze dagelijks gebruiken, te beginnen met SharePoint moderne pagina's, Microsoft Search en Zoeken in Word, PowerPoint, Outlook en Excel.
 
 <br/>
 
@@ -103,7 +103,7 @@ Als je Viva Topics gebruikt in je Microsoft 365-omgeving, dan hebben je gebruike
 
 - Kennisbeheerders: gebruikers die onderwerpen door de levenscyclus van onderwerpen leiden. Kennisbeheerders gebruiken  de pagina Onderwerpen beheren in het onderwerpcentrum om ai-voorgestelde onderwerpen te bevestigen, onderwerpen te verwijderen die niet meer relevant zijn, bestaande onderwerpen te bewerken of nieuwe onderwerpen te maken en zijn de enige gebruikers die er toegang toe hebben. Kennisbeheerders wijzen kennisbeheerders toe aan gebruikers via Viva Topics-beheerinstellingen in het Microsoft 365-beheercentrum. 
 
-- Kennisbeheerders: beheerders stellen Viva-onderwerpen in en beheren deze via de beheerbesturingselementen in het Microsoft 365 beheercentrum. Op dit moment kan een globale beheerder of SharePoint-beheerder van Microsoft 365 fungeren als een kennisbeheerder.
+- Kennisbeheerders: beheerders stellen Viva-onderwerpen in en beheren deze via de beheerbesturingselementen in de Microsoft 365-beheercentrum. Op dit moment kan een globale beheerder of SharePoint-beheerder van Microsoft 365 fungeren als een kennisbeheerder.
 
 Zie De rollen [van Viva-onderwerpen voor meer informatie.](topic-experiences-roles.md)
 
@@ -123,7 +123,7 @@ Zie Onderwerpen beheren [in het onderwerpcentrum voor meer informatie.](manage-t
 
 ## <a name="admin-controls"></a>Beheerdersinstellingen
 
-Met beheerbesturingselementen in Microsoft 365 beheercentrum kunt u Viva-onderwerpen beheren. Hiermee kan een globale beheerder of SharePoint-beheerder van Microsoft 365 het volgende doen:
+Met beheerbesturingselementen in Microsoft 365-beheercentrum kunt u Viva-onderwerpen beheren. Hiermee kan een globale beheerder of SharePoint-beheerder van Microsoft 365 het volgende doen:
 
 - Bepalen welke gebruikers in uw organisatie onderwerpen mogen zien op moderne SharePoint-pagina's of in zoekresultaten van SharePoint.
 - Bepalen welke SharePoint-sites worden verkend om onderwerpen te identificeren.
@@ -142,10 +142,8 @@ Gebruikers met machtigingen voor bewerken of het maken van onderwerpen kunnen on
 
 Gebruikers die je toegang geeft tot onderwerpen tijdens hun dagelijkse werkzaamheden, kunnen worden gevraagd of het onderwerp nuttig voor hen is. Het systeem bekijkt deze reacties en gebruikt het om de markering van onderwerpen te verbeteren, en helpt om te bepalen wat er wordt weergegeven over onderwerpsamenvattingen en in informatie over onderwerpen.
 
-Daarnaast kunnen gebruikers met de juiste machtigingen items labelen, zoals een Yammer-gesprek dat relevant is voor een onderwerp, en ze toevoegen aan een specifiek onderwerp. 
-
 Zie Onderwerpdetectie en [curatie voor meer informatie.](./topic-experiences-discovery-curation.md)
 
 ## <a name="see-also"></a>Zie ook
 
-[Microsoft Search gebruiken om onderwerpen te zoeken in Viva-onderwerpen](./search.md)
+[Gebruik Microsoft Search om onderwerpen te vinden in Viva-onderwerpen](./search.md)

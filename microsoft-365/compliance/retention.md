@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Lees meer over bewaarbeleid en retentielabels die u helpen te behouden wat u nodig hebt en wat u niet verwijdert.
-ms.openlocfilehash: ab02559a439899fe25a560aa52718045b730ebd4
-ms.sourcegitcommit: cebbdd393dcfd93ff43a1ab66ad70115853f83e7
+ms.openlocfilehash: 04c485db5f250dfc852faeeaeae669956b95a8c4
+ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/01/2021
-ms.locfileid: "52710716"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52932864"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Meer informatie over bewaarbeleid en retentielabels
 
@@ -116,7 +116,7 @@ Bewaarbeleid kan worden toegepast op de volgende locaties:
 - Teams-kanaalberichten
 - Teams-chats
 - Berichten in de Yammer-community
-- Yammer-gebruikersberichten
+- Berichten Yammer-gebruikers
 
 U kunt heel efficiënt één beleid toepassen op meerdere locaties of op specifieke locaties of gebruikers.
 
@@ -263,9 +263,16 @@ Gebruik de volgende tabel om te bepalen of een bewaarbeleid of retentielabel moe
 |Verwijderingsbeoordeling | Nee| Ja |
 |Bewijs van verwijdering voor maximaal zeven jaar | Nee |Ja, wanneer u een verwijderingsbeoordeling gebruikt of als het item is gemarkeerd als een record|
 |Activiteiten van auditbeheerders| Ja | Ja|
+|Bewaaracties controleren| Nee | Ja <sup>\*</sup> |
 |Items identificeren die moeten worden bewaard: <br /> - Inhoud zoeken <br /> - Pagina Gegevensclassificatie, Inhoudsverkenner, Activiteitenverkenner | <br /> Nee <br /> Nee | <br /> Ja <br /> Ja|
 
-Houd er rekening mee dat u zowel bewaarbeleid als retentielabels kunt gebruiken als aanvullende bewaarmethoden. Bijvoorbeeld:
+**Voetnoot:**
+
+<sup>\*</sup> Voor retentielabels die de inhoud niet markeren als record of wettelijke record, zijn er alleen controlegebeurtenissen wanneer er een label wordt toegepast, gewijzigd of verwijderd voor een item in SharePoint. Zie de sectie [Bewaaracties controleren](#auditing-retention-actions) op deze pagina voor details over controle voor retentielabels.
+
+### <a name="combining-retention-policies-and-retention-labels"></a>Bewaarbeleid en retentielabels combineren
+
+U hoeft niet te kiezen tussen het gebruik van alleen bewaarbeleid of alleen retentielabels. Beide methoden kunnen samen worden gebruikt en elkaar aanvullen voor een uitgebreidere oplossing. Bijvoorbeeld:
 
 1. U maakt en configureert een bewaarbeleid dat inhoud vijf jaar nadat deze voor het laatst is gewijzigd automatisch verwijdert en past het beleid toe op alle OneDrive-accounts.
 
@@ -374,9 +381,31 @@ Zie [Hoe retentie werkt voor SharePoint en OneDrive](retention-policies-sharepoi
 
 Vanwege het gedrag tijdens de respijtperiode wordt het beleid gedurende deze periode weer hervat zonder permanent gegevensverlies als u het beleid opnieuw inschakelt of de locatiestatus binnen 30 dagen wijzigt.
 
-## <a name="auditing-retention-configuration"></a>Configuratie van bewaren voor controle
+## <a name="auditing-retention-configuration-and-actions"></a>Retentieconfiguratie en -acties controleren
 
-Beheerdersacties voor bewaarbeleid en retentielabels worden opgeslagen in het auditlogboek wanneer [controle is ingeschakeld](turn-audit-log-search-on-or-off.md). Er wordt bijvoorbeeld een controlegebeurtenis gemaakt wanneer een bewaarbeleid of retentielabel wordt gemaakt, geconfigureerd of verwijderd. Zie [Activiteiten met bewaarbeleid en retentielabels](search-the-audit-log-in-security-and-compliance.md#retention-policy-and-retention-label-activities) voor een volledig overzicht.
+Wanneer [controle is ingeschakeld](turn-audit-log-search-on-or-off.md), worden controlegebeurtenissen voor retentie ondersteund voor zowel beheerconfiguratie (bewaarbeleid en retentielabels) als bewaaracties (alleen retentielabels).
+
+### <a name="auditing-retention-configuration"></a>Retentieconfiguratie controleren
+
+Beheerdersconfiguratie voor bewaarbeleid en retentielabels worden vastgelegd als controlegebeurtenissen wanneer een bewaarbeleid of retentielabel wordt gemaakt, opnieuw geconfigureerd of verwijderd.
+
+Zie [Activiteiten voor bewaarbeleid en retentielabels](search-the-audit-log-in-security-and-compliance.md#retention-policy-and-retention-label-activities) voor een volledig overzicht van controlegebeurtenissen.
+
+### <a name="auditing-retention-actions"></a>Bewaaracties controleren
+
+Bewaaracties die als controlegebeurtenissen worden vastgelegd, zijn alleen beschikbaar voor retentielabels en niet voor bewaarbeleid:
+
+- Wanneer een retentielabel wordt toegepast, gewijzigd of verwijderd uit een item in SharePoint:
+    - Selecteer onder **Bestands- en pagina-activiteiten** de optie **Gewijzigd retentielabel voor een bestand**. 
+
+- Wanneer een gelabeld item in SharePoint is gemarkeerd als een record en het wordt ontgrendeld of vergrendeld door een gebruiker:
+    - Selecteer onder **Bestands- en pagina-activiteiten** de optie **Recordstatus gewijzigd in vergrendeld** of **Recordstatus gewijzigd in ontgrendeld**.
+
+- Wanneer een retentielabel dat inhoud als record of wettelijke record markeert, wordt toegepast op een item in Exchange:
+    - Selecteer onder **Activiteiten in Exchange-postvakken** de optie **Bericht gelabeld als record**.
+
+- Wanneer een gelabeld item in SharePoint of Exchange is gemarkeerd als record of wettelijke record en het definitief wordt verwijderd:
+    - Selecteer onder **Bestands- en pagina-activiteiten** de optie **Verwijderd bestand gemarkeerd als record**
 
 ## <a name="powershell-cmdlets-for-retention-policies-and-retention-labels"></a>PowerShell-cmdlets voor bewaarbeleid en retentielabels
 

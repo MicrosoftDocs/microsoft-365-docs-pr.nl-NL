@@ -1,7 +1,7 @@
 ---
 title: Op bedreigingen zoeken op verschillende apparaten, e-mailberichten, apps en identiteiten met geavanceerde jacht
 description: Bestudeer veelvoorkomende scenario's en voorbeeldquery's die betrekking hebben op apparaten, e-mailberichten, apps en identiteiten.
-keywords: geavanceerde jacht, Office365-gegevens, Windows-apparaten, Office365-e-mails normaliseren, e-mails, apps, identiteiten, bedreigingsjacht, cyberdreigingsjacht, zoeken, query, telemetrie, Microsoft 365, Microsoft 365 Defender
+keywords: geavanceerde zoekactie, Office365-gegevens, Windows-apparaten, Office365-e-mails normaliseren, e-mails, apps, identiteiten, bedreigingsjacht, cyberdreigingsjacht, zoeken, query, telemetrie, Microsoft 365, Microsoft 365 Defender
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 8a811d60af281bb534776736e77c3eb54ab6a760
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: aacd0745ff507356035f8f460ed2b4307e9da6ed
+ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932963"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "52964871"
 ---
 # <a name="hunt-for-threats-across-devices-emails-apps-and-identities"></a>Dreigingen in apparaten, e-mailberichten, apps en identiteiten opsporen
 
@@ -35,7 +35,7 @@ ms.locfileid: "51932963"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-[Met geavanceerde Microsoft 365](advanced-hunting-overview.md) Defender kunt u proactief op bedreigingen zoeken:
+[Met geavanceerde Microsoft 365 Defender](advanced-hunting-overview.md) kunt u proactief op bedreigingen zoeken:
 - Apparaten die worden beheerd door Microsoft Defender voor Eindpunt
 - E-mailberichten die door Microsoft 365
 - Activiteiten van cloud-apps, verificatiegebeurtenissen en activiteiten van domeincontrollers die worden bij Microsoft Cloud App Security en Microsoft Defender voor identiteit
@@ -100,6 +100,90 @@ DeviceInfo
 | join AlertInfo on AlertId
 | project AlertId, Timestamp, Title, Severity, Category 
 ```
+
+
+### <a name="get-file-event-information"></a>Informatie over bestandsgebeurtenissen downloaden
+
+Gebruik de volgende query om informatie te krijgen over bestandsgerelateerde gebeurtenissen. 
+
+```kusto
+DeviceInfo
+| where Timestamp > ago(1d)
+| where ClientVersion startswith "20.1"
+| summarize by DeviceId
+| join kind=inner (
+    DeviceFileEvents 
+    | where Timestamp > ago(1d)
+) on DeviceId
+| take 10
+```
+
+
+### <a name="get-network-event-information"></a>Informatie over netwerkgebeurtenissen verkrijgen
+
+Gebruik de volgende query om informatie te krijgen over netwerkgerelateerde gebeurtenissen.
+
+```kusto
+DeviceInfo
+| where Timestamp > ago(1d)
+| where ClientVersion startswith "20.1"
+| summarize by DeviceId
+| join kind=inner (
+    DeviceNetworkEvents 
+    | where Timestamp > ago(1d)
+) on DeviceId
+| take 10
+```
+
+### <a name="get-device-agent-version-information"></a>Versiegegevens van apparaatagenten verkrijgen
+
+Gebruik de volgende query om de versie van de agent op een apparaat te laten uitvoeren.
+
+```kusto
+DeviceInfo
+| where Timestamp > ago(1d)
+| where ClientVersion startswith "20.1"
+| summarize by DeviceId
+| join kind=inner (
+    DeviceNetworkEvents 
+    | where Timestamp > ago(1d)
+) on DeviceId
+| take 10
+```
+
+
+### <a name="example-query-for-macos-devices"></a>Voorbeeldquery voor macOS-apparaten
+
+Gebruik de volgende voorbeeldquery om alle apparaten te zien met macOS met een versie die ouder is dan Catalina.
+
+```kusto
+DeviceInfo
+| where Timestamp > ago(1d)
+| where OSPlatform == "macOS" and  OSVersion !contains "10.15" and OSVersion !contains "11."
+| summarize by DeviceId
+| join kind=inner (
+    DeviceInfo
+    | where Timestamp > ago(1d)
+) on DeviceId
+| take 10
+```
+
+### <a name="get-device-status-info"></a>Informatie over apparaatstatussen
+
+Gebruik de volgende query om de status van een apparaat te krijgen. In het volgende voorbeeld wordt met de query gecontroleerd of het apparaat is onboarded.
+
+```kusto
+DeviceInfo
+| where Timestamp > ago(1d)
+| where OnboardingStatus != "Onboarded"
+| summarize by DeviceId
+| join kind=inner (
+    DeviceInfo
+    | where Timestamp > ago(1d)
+) on DeviceId
+| take 10
+```
+
 
 ## <a name="hunting-scenarios"></a>Scenario's voor jagen
 

@@ -16,15 +16,15 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - commerce_purchase
-search.appverid: MET150
+search.appverid: GEA150
 description: Meld u aan voor een gratis proefabonnement van 30 dagen voor Microsoft 365 Business Standard, Microsoft 365 Business Premium of Microsoft 365-apps voor bedrijven.
 ms.date: 08/07/2020
-ms.openlocfilehash: 20ceb683c6224e572a1c532330d45fa8fa5c8416
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: c53f9eb64463eeb7c647bc63123aaac02598fd4c
+ms.sourcegitcommit: 959c3c3633e40b7b0f5e2c8372409778005a24db
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583446"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52950045"
 ---
 # <a name="try-or-buy-a-microsoft-365-for-business-subscription"></a>Een abonnement voor Microsoft 365 voor bedrijven proberen of kopen
 
@@ -56,13 +56,13 @@ Bent u een nieuwe klant en hebt u nog geen account bij Microsoft? Gebruik deze s
 3. Volg op de volgende pagina de stappen om uw account in te stellen.
 4. Het kan enkele minuten duren voordat de aanmeldingsprocedure is voltooid. Nadat het \' is voltooid, kunt u de installatiewizard voor uw abonnement starten. Zie Volgende stappen voor meer informatie over het instellen [van uw abonnement.](#next-steps)
 
-## <a name="buy-a-subscription-from-your-free-trial"></a>Een abonnement kopen vanuit uw gratis proefversie
+## <a name="buy-a-subscription-from-your-free-trial"></a>Een abonnement kopen vanuit je gratis proefversie
 
 Aan het einde van de gratis proefperiode wordt uw proefabonnement automatisch omgezet in een betaald abonnement. Het betaalde abonnement is standaard ingesteld op het abonnement dat u momenteel hebt. U kunt een ander abonnement kopen door de stappen in [Een ander abonnement kopen te volgen.](#buy-a-different-subscription)
 
 Als u uw abonnement wilt kopen voordat uw proefabonnement is afgelopen, gebruikt u de volgende stappen:
 
-1. Ga in Microsoft 365 beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">van uw producten.</a>
+1. Ga in Microsoft 365-beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">van uw producten.</a>
 2. Zoek op **de pagina** Uw producten het abonnement dat u wilt kopen.
 3. Selecteer in **de sectie Licenties** de optie Abonnement **kopen.**
 4. Kies een maandelijkse of jaarlijkse verbintenis voor uw abonnement en selecteer **vervolgens Afrekenen.**
@@ -70,7 +70,7 @@ Als u uw abonnement wilt kopen voordat uw proefabonnement is afgelopen, gebruikt
 6. Controleer op de volgende pagina het adres **Verkocht** aan, de **gefactureerde** informatie en **Items in deze volgorde.** Als u wijzigingen wilt aanbrengen, **selecteert** u Wijzigen naast de betreffende sectie.
 7. Wanneer u \' klaar bent, selecteert u **Overeenkomst accepteren & bestelling plaatsen.**
 
-## <a name="extend-your-trial"></a>Uw proefabonnement verlengen
+## <a name="extend-your-trial"></a>Je proefabonnement verlengen
 
 Hebt u meer tijd nodig om de functies van Microsoft 365 voor bedrijven uit te proberen voordat u koopt? Als uw proefabonnement binnen vijftien dagen afloopt en het proefabonnement voor die datum nog niet is verlengd, kunt u het proefabonnement met dertig dagen verlengen. Dit is slechts één keer mogelijk.
 
@@ -83,13 +83,13 @@ Zie Uw proefversie kopen wanneer u klaar bent om te [kopen.](#buy-a-subscription
 
 ## <a name="cancel-your-free-trial-subscription"></a>Uw gratis proefabonnement opzeggen
 
-Als u besluit uw proefabonnement op te zeggen voordat de gratis proefperiode eindigt, gaat u naar het Microsoft 365 beheercentrum en schakelt u Terugkerende facturering [uit.](subscriptions/renew-your-subscription.md#turn-recurring-billing-off-or-on) De proefversie verloopt automatisch wanneer uw maand eindigt en uw creditcard \' wordt niet in rekening gebracht.
+Als u besluit om uw proefabonnement op te zeggen voordat de gratis proefperiode eindigt, gaat u naar het Microsoft 365-beheercentrum en schakelt u Terugkerende facturering [uit.](subscriptions/renew-your-subscription.md#turn-recurring-billing-off-or-on) De proefversie verloopt automatisch wanneer uw maand eindigt en uw creditcard \' wordt niet in rekening gebracht.
 
 ## <a name="try-a-different-subscription"></a>Probeer een ander abonnement
 
-Als u al een abonnement Microsoft 365 voor bedrijven, kunt u het beheercentrum Microsoft 365 gebruiken om een ander abonnement uit te proberen.
+Als u al een abonnement Microsoft 365 voor bedrijven, kunt u de Microsoft 365-beheercentrum gebruiken om een ander abonnement uit te proberen.
 
-Wanneer u een abonnement toevoegt via het Microsoft 365 beheercentrum, is het nieuwe abonnement gekoppeld aan dezelfde organisatie (domeinnaamruimte) als uw bestaande abonnement. Met deze vereniging kunt u gebruikers in uw organisatie gemakkelijker tussen abonnementen verplaatsen of een licentie toewijzen voor de extra producten die ze nodig hebben.
+Wanneer u een abonnement toevoegt via de Microsoft 365-beheercentrum, is het nieuwe abonnement gekoppeld aan dezelfde organisatie (domeinnaamruimte) als uw bestaande abonnement. Met deze vereniging kunt u gebruikers in uw organisatie gemakkelijker tussen abonnementen verplaatsen of een licentie toewijzen voor de extra producten die ze nodig hebben.
 
 1. Ga in het beheercentrum naar de pagina  \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Factureringsaankoopservices.</a>
 2. Op de **pagina Services aanschaffen** ziet u de abonnementen die beschikbaar zijn voor uw organisatie. Kies het Microsoft 365 plan dat u wilt proberen.
@@ -101,7 +101,7 @@ Wanneer u een abonnement toevoegt via het Microsoft 365 beheercentrum, is het ni
 
 ## <a name="buy-a-different-subscription"></a>Een ander abonnement kopen
 
-Als u al een abonnement Microsoft 365 voor bedrijven hebt, kunt u het beheercentrum Microsoft 365 om een ander abonnement voor uw organisatie te kopen.
+Als u al een abonnement Microsoft 365 voor bedrijven, kunt u de Microsoft 365-beheercentrum om een ander abonnement voor uw organisatie te kopen.
 
 Wanneer u een ander abonnement koopt via het beheercentrum, is het nieuwe abonnement gekoppeld aan dezelfde organisatie (domeinnaamruimte) als uw bestaande abonnement. Hierdoor kunt u gebruikers in uw organisatie gemakkelijker tussen abonnementen verplaatsen of een licentie toewijzen voor het extra abonnement dat ze nodig hebben.
 

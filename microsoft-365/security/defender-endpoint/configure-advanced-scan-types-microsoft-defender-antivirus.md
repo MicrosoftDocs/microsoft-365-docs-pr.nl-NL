@@ -16,12 +16,12 @@ manager: dansimp
 ms.technology: mde
 ms.date: 05/26/2021
 ms.topic: how-to
-ms.openlocfilehash: 34f423222068236271afdda13afb95cffa58b709
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 96e4dab96f8ceb149916c908991079bb2dfa866f
+ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683809"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "52964895"
 ---
 # <a name="configure-microsoft-defender-antivirus-scanning-options"></a>Microsoft Defender Antivirus-scanopties configureren
 
@@ -31,14 +31,11 @@ ms.locfileid: "52683809"
 
 ## <a name="use-microsoft-intune-to-configure-scanning-options"></a>Scanopties Microsoft Intune gebruiken om scanopties te configureren
 
-Zie de volgende bronnen: 
-
-- [Instellingen voor apparaatbeperkingen configureren in Microsoft Intune](/intune/device-restrictions-configure) 
-- [Microsoft Defender Antivirus instellingen voor apparaatbeperkingen voor Windows 10 in Intune](/intune/device-restrictions-windows-10#microsoft-defender-antivirus)
+Zie Instellingen voor apparaatbeperkingen configureren [in](/intune/device-restrictions-configure) Microsoft Intune en Microsoft Defender Antivirus instellingen voor apparaatbeperkingen voor Windows 10 [in Intune voor meer informatie.](/intune/device-restrictions-windows-10#microsoft-defender-antivirus) 
 
 ## <a name="use-microsoft-endpoint-manager-to-configure-scanning-options"></a>Gebruik Microsoft Endpoint Manager om scanopties te configureren
 
-Zie [Antimalware-beleid maken en implementeren: Scaninstellingen.](/configmgr/protect/deploy-use/endpoint-antimalware-policies#scan-settings)
+Zie [Antimalware-beleid](/configmgr/protect/deploy-use/endpoint-antimalware-policies#scan-settings)maken en implementeren voor meer informatie over het configureren Microsoft Endpoint Manager (huidige vertakking).
 
 ## <a name="use-group-policy-to-configure-scanning-options"></a>Groepsbeleid gebruiken om scanopties te configureren
 
@@ -49,6 +46,7 @@ Zie [Antimalware-beleid maken en implementeren: Scaninstellingen.](/configmgr/pr
 3. Ga in **groepsbeleidseditor** naar **Computerconfiguratie** en klik op **Beheersjablonen.**
 
 4. Vouw de boom uit **Windows onderdelen Microsoft Defender Antivirus** en selecteer vervolgens een locatie (zie Instellingen  >  en [locaties](#settings-and-locations) in dit artikel).
+
 
 5. Bewerk het beleidsobject. 
 
@@ -69,13 +67,15 @@ Zie [Antimalware-beleid maken en implementeren: Scaninstellingen.](/configmgr/pr
 | Geef de maximale CPU-belasting (als percentage) op tijdens een scan. <p> **Scannen**  >  **Het maximale percentage cpu-gebruik opgeven tijdens een scan** | 50 |  `-ScanAvgCPULoadFactor` <p>**OPMERKING:** De maximale CPU-belasting is geen harde limiet, maar is wel een richtlijn voor de scan-engine om het maximum niet te overschrijden. Handmatig scans uitvoeren negeert deze instelling en wordt uitgevoerd zonder CPU-limieten. |
 | Geef de maximale grootte (in kilobytes) op van archiefbestanden die moeten worden gescand. <p> **Scannen**  >  **De maximale grootte opgeven van archiefbestanden die moeten worden gescand** | Geen limiet | Niet beschikbaar <p>De standaardwaarde van 0 geldt geen limiet |
 | Lage CPU-prioriteit configureren voor geplande scans <p> **Scannen**  >  **Lage CPU-prioriteit configureren voor geplande scans** | Uitgeschakeld | Niet beschikbaar |
+
  
 > [!NOTE]
 > Als realtimebeveiliging is ingeschakeld, worden bestanden gescand voordat ze worden toegankelijk en uitgevoerd. Het scanbereik bevat alle bestanden, inclusief bestanden op opgeslagen verwisselbare media, zoals USB-stations. Als het apparaat dat de scan voert realtimebeveiliging of on-access-beveiliging heeft ingeschakeld, bevat de scan ook netwerkaandelen.
 
 ## <a name="use-powershell-to-configure-scanning-options"></a>PowerShell gebruiken om scanopties te configureren
 
-Zie de volgende bronnen:
+
+Zie voor meer informatie over het gebruik van PowerShell met Microsoft Defender Antivirus
 
 - [Beheer Microsoft Defender Antivirus met PowerShell-cmdlets](use-powershell-cmdlets-microsoft-defender-antivirus.md)
 - [Defender-cmdlets](/powershell/module/defender/)
@@ -99,7 +99,13 @@ Als Microsoft Defender Antivirus een bedreiging in een e-mailbericht detecteert,
 - E-mail onderwerp
 - Naam van bijlage
 
+
+## <a name="scanning-mapped-network-drives"></a>Netwerkstations scannen
+
+Op elk besturingssysteem worden alleen de netwerkstations gescand die op systeemniveau zijn in kaart gebracht. Netwerkstations op gebruikersniveau worden niet gescand. Netwerkstations op gebruikersniveau zijn netwerken die een gebruiker handmatig in zijn of haar sessie toewijst en zijn eigen referenties gebruikt.
+
 ## <a name="see-also"></a>Zie ook
+
 
 - [De resultaten van scans en herstel van Microsoft Defender Antivirus aanpassen, starten en controleren](customize-run-review-remediate-scans-microsoft-defender-antivirus.md)
 - [Microsoft Defender Antivirus-scans op aanvraag configureren en uitvoeren](run-scan-microsoft-defender-antivirus.md)
