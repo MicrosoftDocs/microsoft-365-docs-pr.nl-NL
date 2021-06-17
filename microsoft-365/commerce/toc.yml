@@ -40,7 +40,7 @@
       href: ../admin/manage/remove-licenses-from-users.md
     - name: Gebruikers naar een ander abonnement overzetten
       href: subscriptions/move-users-different-subscription.md
-    - name: Licenties van externe apps beheren
+    - name: Licenties van ISV-app beheren
       href: licenses/manage-third-party-app-licenses.md
     - name: Auto-claimbeleid beheren
       href: licenses/manage-auto-claim-policies.md
