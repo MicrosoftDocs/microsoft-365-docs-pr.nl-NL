@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 6063d29562be40aed3060e241b52b1a2936aa36d
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 826b2ff25363f1d9a6276e1a42a10c1cf4995904
+ms.sourcegitcommit: 787fb30fdae6d49347a87f4baae3cd140067e573
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770203"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52998810"
 ---
 # <a name="get-file-statistics-api"></a>API voor bestandsstatistieken downloaden
 
@@ -63,7 +63,7 @@ Gedelegeerd (werk- of schoolaccount) | File.Read.All | 'Bestandsprofielen lezen'
 GET /api/files/{id}/stats
 ```
 
-## <a name="request-headers"></a>Kopteksten aanvragen
+## <a name="request-headers"></a>Aanvraagheaders
 
 Naam | Type | Beschrijving
 :---|:---|:---
@@ -75,7 +75,7 @@ Naam | Type | Beschrijving
 :---|:---|:---
 lookBackHours | Int32 | Definieert de uren die we terug zoeken om de statistieken te krijgen. Standaard is dit 30 dagen. **Optioneel**.
 
-## <a name="request-body"></a>Body aanvragen
+## <a name="request-body"></a>Aanvraagtekst
 Leeg
 
 ## <a name="response"></a>Antwoord
@@ -101,10 +101,10 @@ Hier is een voorbeeld van het antwoord.
 {
     "@odata.context": "https://api.securitycenter.microsoft.com/api/$metadata#microsoft.windowsDefenderATP.api.InOrgFileStats",
     "sha1": "0991a395da64e1c5fbe8732ed11e6be064081d9f",
-    "orgPrevalence": "14850",
+    "organizationPrevalence": 14850,
     "orgFirstSeen": "2019-12-07T13:44:16Z",
     "orgLastSeen": "2020-01-06T13:39:36Z",
-    "globalPrevalence": "705012",
+    "globallyPrevalence": 705012,
     "globalFirstObserved": "2015-03-19T12:20:07.3432441Z",
     "globalLastObserved": "2020-01-06T13:39:36Z",
     "topFileNames": [

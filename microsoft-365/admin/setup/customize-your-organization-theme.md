@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: Informatie over het wijzigen van het standaardthema voor de bovenkant van de navigatiebalk in Microsoft 365 en aanpassen aan uw bedrijfslogo of -kleur.
-ms.openlocfilehash: 130fda016961433342969c90e309e7d8b6a7051f
-ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
+ms.openlocfilehash: 908a815346485066b7208d0ff791db813540485f
+ms.sourcegitcommit: 787fb30fdae6d49347a87f4baae3cd140067e573
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52908159"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52998798"
 ---
 # <a name="customize-the-microsoft-365-theme-for-your-organization"></a>Het thema Microsoft 365 uw organisatie aanpassen
 
@@ -74,7 +74,7 @@ U kunt maximaal vier extra groepsthema's maken.
 
 2. Onder **Groepen** kunt u maximaal 5 Microsoft 365 groepen selecteren die het groepsthema kunnen zien, in plaats van het standaardthema te gebruiken. U kunt ook voorkomen dat gebruikers hun thema overschrijven en de weergavenaam van de gebruiker weergeven.
 
-3. Klik op **Opslaan**.
+3. Kies **Opslaan**.
 
 :::image type="content" source="../../media/default-theme-general-users.png" alt-text="Schermafbeelding: tabblad Algemeen met het standaardthema voor een groep gebruikers in uw organisatie":::
 
@@ -82,16 +82,13 @@ U kunt maximaal vier extra groepsthema's maken.
 
 Op de **pagina Logo's** kunt u uw logo's toevoegen en de URL opgeven waar gebruikers naartoe gaan wanneer ze het logo selecteren.
 
-- **Standaardlogo:** Voeg een URL-locatie toe die naar uw logo wijst. Zorg ervoor dat de URL HTTPS gebruikt. Als u een logo uploadt, moet u ervoor zorgen dat het minder dan 10 kb is. Uw standaardlogo kan de JPG-, PNG-, GIF- of SVG-indeling hebben. Voor SVG-afbeeldingen worden ze zo breed gemaakt dat ze verticaal 24 pixels passen. JPG-, PNG-, GIF-afbeeldingen worden geschaald naar 200 x 48 pixels.
+- **Standaardlogo:** Voeg een URL-locatie toe die naar uw logo wijst. Zorg ervoor dat de URL HTTPS gebruikt. Voeg een URL van een HTTPS-afbeelding toe die anonieme toegang toestaat en geen verificatie vereist. Voor standaardthema hebt u ook een optie om een logoafbeelding te uploaden die kleiner is dan 10 kb. Uw standaardlogo kan de JPG-, PNG-, GIF- of SVG-indeling hebben. Voor SVG-afbeeldingen worden ze zo breed gemaakt dat ze verticaal 24 pixels passen. JPG-, PNG-, GIF-afbeeldingen worden geschaald naar 200 x 48 pixels. De beeldverhouding van het logo blijft altijd behouden.
 - **Alternatief logo:** Voeg een URL-locatie toe die naar uw logo wijst. Uw alternatieve logo moet zijn geoptimaliseerd voor gebruik in Office donkere thema's. Dezelfde vereisten als het standaardlogo.
 - **Koppeling bij klikken:** Voeg een URL-locatie toe die naar uw logo wijst. U kunt uw logo gebruiken als koppeling naar een bedrijfsresource, bijvoorbeeld de website van uw bedrijf.
 
 Selecteer **Opslaan** om de wijzigingen op te slaan.
 
 U kunt uw logo's op elk moment verwijderen. Ga terug naar de **pagina Logo's** en selecteer **Verwijderen.**
-
-> [!NOTE]
-> Standaard worden eerst logoselecties weergegeven die door de meeste organisaties worden gebruikt. De uploadoptie is alleen van toepassing op standaardthema's en niet op groepsthema's.
   
 ## <a name="colors-choose-theme-colors"></a>Kleuren: Themakleuren kiezen
 
@@ -150,7 +147,7 @@ De aanbevolen contrastverhouding tussen tekst, pictogram of knopkleur en achterg
 
 Elk thema wordt weergegeven in de bovenste navigatiebalk voor iedereen in de organisatie als onderdeel van de Microsoft 365 suitekoptekst.  
   
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Aangepaste tegels toevoegen aan de pagina Mijn apps en het start start-programma](../manage/customize-the-app-launcher.md) voor apps (artikel)\
 [Overzicht van Microsoft 365 groepen voor beheerders](../create-groups/office-365-groups.md) (artikel)

@@ -12,20 +12,17 @@ ms.author: deniseb
 ms.reviewer: marcmcc
 manager: dansimp
 ms.custom: nextgen
-ms.date: 04/28/2021
+ms.date: 06/15/2021
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: ba0f2184ced21aea60b172d44936e3e2d36e5270
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 3a5f766e21afcb29d3503345a49637061b5f0e38
+ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274950"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "52964697"
 ---
 # <a name="turn-on-block-at-first-sight"></a>Blokkeren bij eerste detectie inschakelen
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
-
 
 **Van toepassing op:**
 
@@ -149,7 +146,9 @@ U kunt met de app voor Windows-beveiliging bevestigen dat blokkeren bij eerste d
 
 ## <a name="validate-block-at-first-sight-is-working"></a>Controleren of blokkeren bij eerste detectie werkt
 
-Als u wilt controleren of de functie werkt, volgt u de richtlijnen in [Verbindingen tussen uw netwerk en de cloud valideren](configure-network-connections-microsoft-defender-antivirus.md#validate-connections-between-your-network-and-the-cloud).
+Als u wilt controleren of de functie werkt, downloadt u het voorbeeldbestand [Blokkeren bij eerste detectie](https://demo.wd.microsoft.com/Page/BAFS). Als u het bestand wilt downloaden, hebt u een account in Azure AD nodig waaraan de rol Beveiligingsbeheerder of Globale beheerder is toegewezen.
+
+Als u wilt controleren of de met de cloud ingeschakelde beveiliging werkt, volgt u de richtlijnen in [Verbindingen tussen uw netwerk en de cloud valideren](configure-network-connections-microsoft-defender-antivirus.md#validate-connections-between-your-network-and-the-cloud). 
 
 ## <a name="turn-off-block-at-first-sight"></a>Blokkeren bij eerste detectie uitschakelen
 

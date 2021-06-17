@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 55bf10d01093c17ba2d186ce0a1d1313db2c3a75
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 4919f082c115d8a57960ec49532b6cda6a63833f
+ms.sourcegitcommit: 787fb30fdae6d49347a87f4baae3cd140067e573
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770083"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52998726"
 ---
 # <a name="get-ip-statistics-api"></a>API voor IP-statistieken krijgen
 
@@ -61,7 +61,7 @@ Gedelegeerd (werk- of schoolaccount) | Ip.Read.All |  'Ip-adresprofielen lezen'
 GET /api/ips/{ip}/stats
 ```
 
-## <a name="request-headers"></a>Kopteksten aanvragen
+## <a name="request-headers"></a>Aanvraagheaders
 
 Naam | Type | Beschrijving
 :---|:---|:---
@@ -73,7 +73,7 @@ Naam | Type | Beschrijving
 :---|:---|:---
 lookBackHours | Int32 | Definieert de uren die we terug zoeken om de statistieken te krijgen. Standaard is dit 30 dagen. **Optioneel**.
 
-## <a name="request-body"></a>Body aanvragen
+## <a name="request-body"></a>Aanvraagtekst
 Leeg
 
 ## <a name="response"></a>Antwoord
@@ -99,7 +99,7 @@ Hier is een voorbeeld van het antwoord.
 {
     "@odata.context": "https://api.securitycenter.microsoft.com/api/$metadata#microsoft.windowsDefenderATP.api.InOrgIPStats",
     "ipAddress": "10.209.67.177",
-    "orgPrevalence": "63515",
+    "organizationPrevalence": 63515,
     "orgFirstSeen": "2017-07-30T13:36:06Z",
     "orgLastSeen": "2017-08-29T13:32:59Z"
 }
@@ -108,7 +108,7 @@ Hier is een voorbeeld van het antwoord.
 
 | Naam | Beschrijving |
 | :--- | :---------- |
-| Orgprepresensor | het duidelijke aantal apparaten dat de netwerkverbinding met dit IP-adres heeft geopend. |
+| Organisatieprepresenties | het duidelijke aantal apparaten dat de netwerkverbinding met dit IP-adres heeft geopend. |
 | Organisatie die voor het eerst is gezien | de eerste verbinding voor dit IP-adres in de organisatie. |
 | Org laatst gezien  | de laatste verbinding voor dit IP-adres in de organisatie. |
 

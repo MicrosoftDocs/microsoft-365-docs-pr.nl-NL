@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 description: Lees hoe u kunt beheren wie e-mailberichten voor factureringsmelding en factuurbijlagen ontvangt.
 ms.date: 03/17/2021
-ms.openlocfilehash: 75c75175930434619a01886b1096757bf04111c5
-ms.sourcegitcommit: 03aa8ed22d9ef685a851e28c7d0cfb725732fe4b
+ms.openlocfilehash: a0c7de8638a227d432ff2c5a0d4839fa8f66582c
+ms.sourcegitcommit: 787fb30fdae6d49347a87f4baae3cd140067e573
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52888359"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52998762"
 ---
 # <a name="manage-billing-notifications-and-invoice-attachments"></a>Factureringsmeldingen en bijlagen voor facturen beheren
 
@@ -43,7 +43,7 @@ U moet een globale beheerder zijn om de stappen uit te voeren die in dit artikel
 
 E-mailberichten met factureringsmeldingen worden verzonden in de voorkeurstaal van uw organisatie. Als u de voorkeurstaal wilt wijzigen, gebruikt u de volgende stappen.
 
-1. Ga in Microsoft 365 beheercentrum naar de pagina  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">Factureringsmeldingen.</a>
+1. Ga in Microsoft 365-beheercentrum naar de pagina  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">Factureringsmeldingen.</a>
 2. Selecteer in **de sectie Instellingen voor** factureringsmeldingen de optie **Meldingsinstellingen bewerken.**
 3. Selecteer in **het deelvenster Instellingen voor** factureringsmeldingen onder **Voorkeurstaal** de taal die u wilt gebruiken en selecteer **opslaan.**
 
@@ -58,7 +58,7 @@ De factureringsmeldingen van uw organisatie worden verzonden naar het primaire e
 3. Selecteer in het rechterdeelvenster op het tabblad Toegewezen **beheerders** de optie **Toevoegen.**
 4. Typ in **het deelvenster** Beheerders toevoegen de weergavenaam of gebruikersnaam van de gebruiker en selecteer de gebruiker in de lijst met suggesties.
 5. Voeg meerdere gebruikers toe totdat u klaar bent.
-6. Klik op **Opslaan**. De gebruiker wordt toegevoegd aan de lijst met toegewezen beheerders.
+6. Kies **Opslaan**. De gebruiker wordt toegevoegd aan de lijst met toegewezen beheerders.
 
 ### <a name="remove-admin-roles-by-using-the-billing-notifications-page"></a>Beheerdersrollen verwijderen met behulp van de pagina Factureringsmeldingen
 
@@ -87,9 +87,6 @@ Naast uw globale en factureringsbeheerders sturen we factureringsmeldingen naar 
 3. Typ in het rechterdeelvenster het e-mailadres dat u wilt gebruiken en selecteer **Opslaan.**
 
 ## <a name="receive-your-organizations-invoices-as-email-attachments"></a>Facturen van uw organisatie ontvangen als e-mailbijlagen
-
-> [!NOTE]
-> Factureringsbeheerders kunnen ook de stappen in deze sectie doen.
 
 U kunt een kopie van de factuur van uw organisatie als PDF-bestand toevoegen aan e-mailberichten met factuurmeldingen wanneer een nieuwe factuur gereed is. Gebruik de volgende stappen om facturen als bijlagen te ontvangen.
 

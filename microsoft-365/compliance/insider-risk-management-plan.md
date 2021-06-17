@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 8cd9e9a72cd7643238d118fe0aed519db9159470
-ms.sourcegitcommit: 8b1bd7ca8cd81e4270f0c1e06d2b6ca81804a6aa
+ms.openlocfilehash: fafd3eed63e077ded41259d25f0d8a1a89802925
+ms.sourcegitcommit: 787fb30fdae6d49347a87f4baae3cd140067e573
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "52161728"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52998738"
 ---
 # <a name="plan-for-insider-risk-management"></a>Intern risicobeheer plannen
 
@@ -42,25 +42,25 @@ Als u vereisten hebt voor specifieke belanghebbenden om betrokken te zijn bij ge
 
 ## <a name="plan-for-the-review-and-investigation-workflow"></a>De controle- en onderzoekswerkstroom plannen
 
-Selecteer speciale belanghebbenden om de waarschuwingen en gevallen op een regelmatige tijdsfrequentie in het Microsoft 365 [controleren.](https://compliance.microsoft.com/) Zorg ervoor dat u begrijpt hoe u verschillende belanghebbenden toewijst aan de verschillende rollengroepen die beschikbaar zijn in insider risk management.
+Selecteer speciale belanghebbenden om de waarschuwingen en gevallen op een regelmatige tijdsfrequentie in het [Microsoft 365-compliancecentrum](https://compliance.microsoft.com/)te controleren en te controleren. Zorg ervoor dat u begrijpt hoe u verschillende belanghebbenden toewijst aan de verschillende rollengroepen die beschikbaar zijn in insider risk management.
 
-Afhankelijk van de structuur van uw compliancebeheerteam hebt u opties om gebruikers toe te wijzen aan specifieke rollengroepen om verschillende sets functies voor insiderrisicobeheer te beheren. Als u  het tabblad Machtigingen wilt weergeven in het Office 365 Beveiligings- & Compliancecentrum en rollengroepen wilt beheren, moet u zijn toegewezen aan de rollengroep Organisatiebeheer of moet u de rol Rollenbeheer *toegewezen* krijgen.  Kies uit deze opties voor rollengroep bij het configureren van insiderrisicobeheer:
+Afhankelijk van de structuur van uw compliancebeheerteam hebt u opties om gebruikers toe te wijzen aan specifieke rollengroepen om verschillende sets functies voor insiderrisicobeheer te beheren. Als u  het tabblad Machtigingen wilt weergeven in het Office 365-beveiligings- & compliancecentrum  en rollengroepen wilt beheren, moet u zijn toegewezen aan de rollengroep Organisatiebeheer of moet u de rol Rollenbeheer toegewezen *krijgen.* Kies uit deze opties voor rollengroep bij het configureren van insiderrisicobeheer:
 
 | **Rollengroep** | **Rolmachtigingen** |
 | :------------- | :------------------- |
-| **Insider Risk Management** | Gebruik deze rollengroep om insiderrisicobeheer voor uw organisatie in één groep te beheren. Door alle gebruikersaccounts toe te voegen voor aangewezen beheerders, analisten, onderzoekers en auditors, kunt u machtigingen voor insiderrisicobeheer configureren in één groep. Deze rollengroep bevat alle machtigingen voor insiderrisicobeheer en bijbehorende machtigingen. Deze configuratie is de eenvoudigste manier om snel aan de slag te gaan met insider risk management en is geschikt voor organisaties die geen afzonderlijke machtigingen nodig hebben die zijn gedefinieerd voor afzonderlijke groepen gebruikers. |
-| **Insider Risk Management Admin** | Gebruik deze rollengroep om in eerste instantie insiderrisicobeheer te configureren en later om beheerders van insiderrisico's te scheiden in een gedefinieerde groep. Gebruikers in deze rollengroep kunnen analyseinzichten in- en weergeven en insiderrisicobeheerbeleid, globale instellingen en rolgroeptoewijzingen maken, lezen, bijwerken en verwijderen. |
+| **Insider Risk Management** | Gebruik deze rollengroep om insiderrisicobeheer voor uw organisatie in één groep te beheren. Door alle gebruikersaccounts toe te voegen voor aangewezen beheerders, analisten, onderzoekers en auditors, kunt u machtigingen voor insiderrisicobeheer configureren in één groep. Deze rollengroep bevat alle machtigingen voor insiderrisicobeheer en bijbehorende machtigingen. Deze configuratie is de eenvoudigste manier om snel aan de slag te gaan met insider risk management en is geschikt voor organisaties die geen afzonderlijke machtigingen nodig hebben die zijn gedefinieerd voor afzonderlijke groepen gebruikers. Wanneer u deze configuratie gebruikt, moet u ervoor zorgen dat er altijd ten minste één gebruiker aan deze rol is toegewezen om ervoor te zorgen dat uw beleid werkt zoals verwacht, zodat de gebruiker beleidsregels kan maken en bewerken, oplossingsinstellingen kan configureren en waarschuwingen voor beleidstoestanden kan controleren. |
+| **Insider Risk Management Admin** | Gebruik deze rollengroep om in eerste instantie insiderrisicobeheer te configureren en later om beheerders van insiderrisico's te scheiden in een gedefinieerde groep. Gebruikers in deze rollengroep kunnen analyseinzichten in- en weergeven en insiderrisicobeheerbeleid, globale instellingen en rolgroeptoewijzingen maken, lezen, bijwerken en verwijderen. Wanneer u deze configuratie gebruikt, moet u ervoor zorgen dat er altijd ten minste één gebruiker aan deze rol is toegewezen om ervoor te zorgen dat uw beleid werkt zoals verwacht, zodat de gebruiker beleidsregels kan maken en bewerken, oplossingsinstellingen kan configureren en waarschuwingen voor beleidstoestanden kan controleren. |
 | **Analist intern risicobeheer** | Gebruik deze groep om machtigingen toe te wijzen aan gebruikers die fungeren als insiderrisicocaseanalisten. Gebruikers in deze rollengroep hebben toegang tot alle insiderrisicobeheerwaarschuwingen, cases, analyseinzichten en kennisgevingssjablonen. Ze hebben geen toegang tot het insiderrisico Inhoudsverkenner. |
 | **Onderzoeker intern risicobeheer** | Gebruik deze groep om machtigingen toe te wijzen aan gebruikers die fungeren als insider-risicogegevensonderzoekers. Gebruikers in deze rollengroep hebben toegang tot alle waarschuwingen voor insiderrisicobeheer, cases, kennisgevingssjablonen en de Inhoudsverkenner voor alle gevallen. |
 | **Insider Risk Management Auditors** | Gebruik deze groep om machtigingen toe te wijzen aan gebruikers die activiteiten voor insiderrisicobeheer controleren. Gebruikers in deze rollengroep hebben toegang tot het auditlogboek voor insiderrisico's. |
 
 ## <a name="understand-requirements-and-dependencies"></a>Vereisten en afhankelijkheden begrijpen
 
-Afhankelijk van de manier waarop u beleid voor insiderrisicobeheer wilt implementeren, moet u over de juiste Microsoft 365 licenties en inzicht hebben in en plannen voor bepaalde vereisten voor oplossingen.
+Afhankelijk van de manier waarop u beleid voor insiderrisicobeheer wilt implementeren, moet u over de juiste Microsoft 365-licentieabonnementen gaan en bepaalde vereisten voor oplossingen begrijpen en plannen.
 
-**Licenties:** Insider risk management is beschikbaar als onderdeel van een uitgebreide selectie Microsoft 365 licenties. Zie het artikel Aan [de slag met insider risk management voor meer](insider-risk-management-configure.md#subscriptions-and-licensing) informatie.
+**Licenties:** Insider risk management is beschikbaar als onderdeel van een uitgebreide selectie van Microsoft 365-licentieabonnementen. Zie het artikel Aan [de slag met insider risk management voor meer](insider-risk-management-configure.md#subscriptions-and-licensing) informatie.
 
-Als u geen bestaand Microsoft 365 Enterprise E5-abonnement hebt en insider risk management wilt proberen, kunt u [Microsoft 365](/office365/admin/try-or-buy-microsoft-365) toevoegen aan uw bestaande abonnement [of](https://www.microsoft.com/microsoft-365/enterprise) u registreren voor een proefabonnement op Microsoft 365 Enterprise E5.
+Als u geen bestaand Microsoft 365 Enterprise E5-abonnement hebt en insider risk management wilt uitproberen, kunt u [Microsoft 365](/office365/admin/try-or-buy-microsoft-365) toevoegen aan uw bestaande abonnement [of](https://www.microsoft.com/microsoft-365/enterprise) u registreren voor een proefabonnement op Microsoft 365 Enterprise E5.
 
 **Vereisten voor beleidssjabloon:** Afhankelijk van de beleidssjabloon die u kiest, zijn er vereisten die u moet begrijpen en plannen voordat u insider risk management in uw organisatie configureert:
 

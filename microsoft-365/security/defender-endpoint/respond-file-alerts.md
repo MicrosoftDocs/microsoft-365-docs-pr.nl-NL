@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 1f189956d65e6d08d8e00272ba0d8db3ba59f6d4
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 388d71ce4606acabaafdb32ba1baff87286951f1
+ms.sourcegitcommit: 787fb30fdae6d49347a87f4baae3cd140067e573
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844068"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52998786"
 ---
 # <a name="take-response-actions-on-a-file"></a>Acties ondernemen op een bestand
 
@@ -68,7 +68,7 @@ U kunt een aanval in uw organisatie bevatten door het schadelijke proces te stop
 > U kunt deze actie alleen ondernemen als:
 >
 > - Het apparaat waar u de actie op onderneemt, wordt uitgevoerd Windows 10 versie 1703 of hoger
-> - Het bestand is niet eigendom van vertrouwde uitgevers van derden of niet ondertekend door Microsoft
+> - Het bestand is niet eigendom van vertrouwde uitgevers van derden of is niet ondertekend door Microsoft
 > - Microsoft Defender Antivirus moet ten minste actief zijn in de passieve modus. Zie Microsoft Defender Antivirus [compatibiliteit voor meer informatie.](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)
 
 De **actie Bestand stoppen en quarantaine** omvat het stoppen van lopende processen, het quarantineren van de bestanden en het verwijderen van permanente gegevens, zoals registersleutels.
@@ -82,7 +82,7 @@ Deze actie wordt van kracht op apparaten Windows 10, versie 1703 of hoger, waar 
 
 1. Selecteer het bestand dat u wilt stoppen en in quarantaine plaatsen. U kunt een bestand selecteren in een van de volgende weergaven of het vak Zoeken gebruiken:
 
-   - **Waarschuwingen:** klik op de bijbehorende koppelingen van de beschrijving of details in de artefacttijdlijn
+   - **Waarschuwingen:** klik op de bijbehorende koppelingen van de beschrijving of details in de tijdlijn Waarschuwingsverhaal
    - **Zoekvak:** selecteer **Bestand** in de vervolgkeuzelijst en voer de bestandsnaam in
 
    > [!NOTE]
@@ -128,14 +128,14 @@ U kunt een bestand terugdraaien en verwijderen uit quarantaine als u na een onde
 
 2. Voer de volgende opdracht in en druk op **Enter:**
 
-   ```powershell
+   ```console
    “%ProgramFiles%\Windows Defender\MpCmdRun.exe” –Restore –Name EUS:Win32/CustomEnterpriseBlock –All
    ```
 
-> [!NOTE]
-> In sommige scenario's kan **threatname** worden weergegeven als: EUS:Win32/CustomEnterpriseBlock!cl.
->
-> Defender voor Eindpunt herstelt alle aangepaste geblokkeerde bestanden die in quarantaine zijn geplaatst op dit apparaat in de afgelopen 30 dagen.
+   > [!NOTE]
+   > In sommige scenario's kan **threatname** worden weergegeven als: EUS:Win32/CustomEnterpriseBlock!cl.
+   >
+   > Defender voor Eindpunt herstelt alle aangepaste geblokkeerde bestanden die in quarantaine zijn geplaatst op dit apparaat in de afgelopen 30 dagen.
 
 > [!IMPORTANT]
 > Een bestand dat in quarantaine is geplaatst als een potentiële netwerkdreiging, kan mogelijk niet worden hersteld. Als een gebruiker het bestand na quarantaine probeert te herstellen, is dat bestand mogelijk niet toegankelijk. Dit kan worden veroorzaakt doordat het systeem geen netwerkreferenties meer heeft om toegang te krijgen tot het bestand. Dit is meestal het gevolg van een tijdelijk aanmelden bij een systeem of gedeelde map en de toegangstokens zijn verlopen.
@@ -234,15 +234,13 @@ U kunt ook een voorbeeld indienen via de [Microsoft Security Center Portal](http
 > [!NOTE]
 > Als gevolg van back-endverwerkingsstromen in de Microsoft Security Center Portal, kan er tot 10 minuten latentie zijn tussen bestandsinzending en beschikbaarheid van de deep analysis-functie in Defender voor Eindpunt.
 
-Wanneer het voorbeeld wordt verzameld, wordt het bestand in Defender voor Eindpunt uitgevoerd in een beveiligde omgeving. Vervolgens wordt een gedetailleerd rapport gemaakt van waargenomen gedragingen en bijbehorende artefacten, zoals bestanden die op apparaten zijn gedropt, communicatie met IPs en registerwijzigingen.
-
 ### <a name="submit-files-for-deep-analysis"></a>Bestanden verzenden voor uitgebreide analyse
 
 1. Selecteer het bestand dat u wilt verzenden voor uitgebreide analyse. U kunt een bestand in een van de volgende weergaven selecteren of doorzoeken:
 
-    - Waarschuwingen: selecteer de bestandskoppelingen in **de beschrijving of** **details** in de artefacttijdlijn
+    - **Waarschuwingen:** selecteer de bestandskoppelingen in **de beschrijving** of **details** in de tijdlijn Waarschuwingsverhaal
     - **Lijst Apparaten:** selecteer de bestandskoppelingen in **de sectie Beschrijving** of **Details** in de sectie **Apparaat in** organisatie
-    - Zoekvak: selecteer **Bestand** in de vervolgkeuzelijst en voer de bestandsnaam in
+    - **Zoekvak:** selecteer **Bestand** in de vervolgkeuzelijst en voer de bestandsnaam in
 
 2. Selecteer verzenden **op het tabblad** Diepe analyse van de bestandsweergave. 
 
@@ -251,7 +249,7 @@ Wanneer het voorbeeld wordt verzameld, wordt het bestand in Defender voor Eindpu
    > [!NOTE]
    > Alleen PE-bestanden worden ondersteund, _.exe_ en _.dll_ bestanden.
 
-Er wordt een voortgangsbalk weergegeven en informatie over de verschillende stadia van de analyse. U kunt het rapport vervolgens bekijken wanneer de analyse is uitgevoerd.
+   Er wordt een voortgangsbalk weergegeven en informatie over de verschillende stadia van de analyse. U kunt het rapport vervolgens bekijken wanneer de analyse is uitgevoerd.
 
 > [!NOTE]
 > Afhankelijk van de beschikbaarheid van het apparaat, kan de tijd van de steekproefverzameling variëren. Er is een time-out van 3 uur voor voorbeeldverzameling. De verzameling mislukt en de bewerking wordt afgebroken als er op dat moment geen online Windows 10 is. U kunt bestanden opnieuw indienen voor uitgebreide analyse om nieuwe gegevens in het bestand op te halen.
@@ -277,11 +275,14 @@ Met de details kunt u onderzoeken of er aanwijzingen zijn voor een mogelijke aan
 Als u een probleem tegenkomt bij het indienen van een bestand, probeert u de volgende stappen voor het oplossen van problemen.
 
 1. Controleer of het bestand in kwestie een PE-bestand is. PE-bestanden hebben meestal _.exe_ of _.dll_ extensies (uitvoerbare programma's of toepassingen).
+
 2. Zorg ervoor dat de service toegang heeft tot het bestand, dat het nog steeds bestaat en niet beschadigd of gewijzigd is.
+
 3. Wacht even en probeer het bestand opnieuw in te dienen. De wachtrij kan vol zijn of er is een tijdelijke verbinding of communicatiefout opgetreden.
+
 4. Als het voorbeeldverzamelingsbeleid niet is geconfigureerd, is het standaardgedrag om voorbeeldverzameling toe te staan. Als het bestand is geconfigureerd, controleert u of de beleidsinstelling voorbeeldverzameling toestaat voordat u het bestand opnieuw indient. Wanneer voorbeeldverzameling is geconfigureerd, controleert u de volgende registerwaarde:
 
-    ```powershell
+    ```console
     Path: HKLM\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection
     Name: AllowSampleCollection
     Type: DWORD
@@ -291,6 +292,7 @@ Als u een probleem tegenkomt bij het indienen van een bestand, probeert u de vol
     ```
 
 1. Wijzig de organisatie-eenheid via het groepsbeleid. Zie Configureren [met groepsbeleid voor meer informatie.](configure-endpoints-gp.md)
+
 1. Als het probleem niet wordt opgelost met deze stappen, neemt u contact [op met winatp@microsoft.com.](mailto:winatp@microsoft.com)
 
 ## <a name="related-topics"></a>Verwante onderwerpen
