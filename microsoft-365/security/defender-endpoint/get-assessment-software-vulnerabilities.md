@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.custom: api
-ms.openlocfilehash: 849d1ab2bbc3b8f6d883d6041adda5fe4577741d
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: ea05d37ebcd0953dd109f524775a55cf8d6b3683
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52789342"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984962"
 ---
 # <a name="export-software-vulnerabilities-assessment-per-device"></a>Beoordeling van beveiligingsproblemen met software per apparaat exporteren
 
@@ -34,20 +34,21 @@ ms.locfileid: "52789342"
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-[!include[Prerelease information](../../includes/prerelease.md)]
->
 >
 Retourneert alle bekende softwareproblemen en hun gegevens voor alle apparaten, per apparaat.
 
-Er zijn verschillende API-oproepen om verschillende typen gegevens op te halen. Omdat de hoeveelheid gegevens groot kan zijn, kunnen deze op twee manieren worden opgehaald:
+Er zijn verschillende API-oproepen om verschillende typen gegevens op te halen. Omdat de hoeveelheid gegevens erg groot kan zijn, kunnen deze op twee manieren worden opgehaald:
 
-- [Beoordeling van beveiligingsproblemen met software exporteren OData](#1-export-software-vulnerabilities-assessment-odata)  De API haalt alle gegevens in uw organisatie op als Json-antwoorden, volgens het OData-protocol. Deze methode is het beste _voor kleine organisaties met minder dan 100 K-apparaten._ Het antwoord is paginated, zodat u het veld odata.nextLink uit het antwoord kunt gebruiken \@ om de volgende resultaten op te halen.
+1. [Beoordeling van beveiligingsproblemen met software exporteren OData](#1-export-software-vulnerabilities-assessment-odata)  De API haalt alle gegevens in uw organisatie op als Json-antwoorden, volgens het OData-protocol. Deze methode is het beste _voor kleine organisaties met minder dan 100 K-apparaten._ Het antwoord is paginated, zodat u het veld odata.nextLink uit het antwoord kunt gebruiken \@ om de volgende resultaten op te halen.
 
-- [Beoordeling van beveiligingsproblemen met software via bestanden exporteren](#2-export-software-vulnerabilities-assessment-via-files) Met deze API-oplossing kunt u sneller en betrouwbaarder grotere hoeveelheden gegevens verzamelen. Daarom wordt het aanbevolen voor grote organisaties, met meer dan 100 K-apparaten. Met deze API worden alle gegevens in uw organisatie als downloadbestanden opgeslagen. Het antwoord bevat URL's om alle gegevens uit de Azure Storage. Met deze API kunt u al uw gegevens als volgt Azure Storage downloaden:
+2. [Beoordeling van beveiligingsproblemen met software via bestanden exporteren](#2-export-software-vulnerabilities-assessment-via-files) Met deze API-oplossing kunt u sneller en betrouwbaarder grotere hoeveelheden gegevens verzamelen. Via-bestanden wordt aanbevolen voor grote organisaties, met meer dan 100 K-apparaten. Met deze API worden alle gegevens in uw organisatie als downloadbestanden opgeslagen. Het antwoord bevat URL's om alle gegevens uit de Azure Storage. Met deze API kunt u al uw gegevens als volgt Azure Storage downloaden:
 
-  - Bel de API om een lijst met url's te downloaden met al uw organisatiegegevens.
+   - Bel de API om een lijst met url's te downloaden met al uw organisatiegegevens.
 
-  - Download alle bestanden met de download-URL's en verwerkt de gegevens naar eigen goed gebruik.
+   - Download alle bestanden met de download-URL's en verwerkt de gegevens naar eigen goed gebruik.
+
+3. [Evaluatie van beveiligingsproblemen bij Delta-exportsoftware OData](#3-delta-export-software-vulnerabilities-assessment-odata)  Retourneert een tabel met een vermelding voor elke unieke combinatie van: DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion, CveId en EventTimestamp.
+De API haalt gegevens in uw organisatie op als Json-antwoorden, volgens het OData-protocol. Het antwoord is paginated, zodat u het veld @odata.nextLink uit het antwoord kunt gebruiken om de volgende resultaten op te halen. <br><br> In tegenstelling tot de evaluatie van volledige softwareproblemen (OData) - die wordt gebruikt om een volledige momentopname van de beoordeling van de beveiligingsproblemen in de software van uw organisatie per apparaat te verkrijgen - wordt de delta export OData API-oproep gebruikt om alleen de wijzigingen op te halen die zijn gebeurd tussen een geselecteerde datum en de huidige datum (de delta-API-oproep). In plaats van elke keer een volledige export met een grote hoeveelheid gegevens te krijgen, krijgt u alleen specifieke informatie over nieuwe, opgeloste en bijgewerkte beveiligingslekken. Delta export OData API-oproep kan ook worden gebruikt om verschillende KPI's te berekenen, zoals 'hoeveel beveiligingslekken zijn opgelost?' of 'hoeveel nieuwe beveiligingslekken zijn toegevoegd aan mijn organisatie?' <br><br> Omdat de Delta Export OData API call for software vulnerabilities gegevens retourneert voor alleen een gericht datumbereik, wordt deze niet beschouwd als _een volledige export_.
 
 Gegevens die worden verzameld (met _OData_ of _via_ bestanden) zijn de huidige momentopname van de huidige status en bevatten geen historische gegevens. Om historische gegevens te verzamelen, moeten klanten de gegevens opslaan in hun eigen gegevensopslag.
 
@@ -100,25 +101,25 @@ GET /api/machines/SoftwareVulnerabilitiesByMachine
 
 Eigenschap (id) | Gegevenstype | Beschrijving | Voorbeeld van een geretourneerde waarde
 :---|:---|:---|:---
-CveId | tekenreeks | Unieke id die is toegewezen aan het beveiligingsprobleem onder het CVE-systeem (Common Vulnerabilities and Exposures). | CVE-2020-15992
-CvssScore | tekenreeks | De CVSS-score van de CVE. | 6.2
-DeviceId | tekenreeks | Unieke id voor het apparaat in de service. | 9eaf3a8b5962e0e6b1af9ec75664a9b823df2d1
-Apparaatnaam | tekenreeks | Volledig gekwalificeerde domeinnaam (FQDN) van het apparaat. | johnlaptop.europe.contoso.com
+CveId | string | Unieke id die is toegewezen aan het beveiligingsprobleem onder het CVE-systeem (Common Vulnerabilities and Exposures). | CVE-2020-15992
+CvssScore | string | De CVSS-score van de CVE. | 6.2
+DeviceId | string | Unieke id voor het apparaat in de service. | 9eaf3a8b5962e0e6b1af9ec75664a9b823df2d1
+Apparaatnaam | string | Volledig gekwalificeerde domeinnaam (FQDN) van het apparaat. | johnlaptop.europe.contoso.com
 DiskPaths  | \[Matrixreeks\] | Schijf bewijs dat het product is geïnstalleerd op het apparaat. | [ "C:\Program Files (x86)\Microsoft\Silverlight\Application\silverlight.exe" ]
-ExploitabilityLevel | tekenreeks | Het gebruiksniveau van dit beveiligingsprobleem (NoExploit, ExploitIsPublic, ExploitIsVerified, ExploitIsInKit) | ExploitIsInKit
-FirstSeenTimestamp | tekenreeks | De eerste keer dat de CVE van dit product op het apparaat werd gezien. | 2020-11-03 10:13:34.8476880
-Id | tekenreeks | Unieke id voor de record. | 123ABG55_573AG&mnp!
-LastSeenTimestamp | tekenreeks | De laatste keer dat de CVE werd gezien op het apparaat. | 2020-11-03 10:13:34.8476880
-OSPlatform | tekenreeks | Platform van het besturingssysteem dat op het apparaat wordt uitgevoerd. Dit geeft specifieke besturingssystemen aan, waaronder variaties binnen dezelfde familie, zoals Windows 10 en Windows 7. Zie ondersteunde besturingssystemen en platforms van tvm voor meer informatie. | Windows10
-RbacGroupName  | tekenreeks | De groep Toegangsbeheer (RBAC) op basis van rollen. Als dit apparaat niet is toegewezen aan een RBAC-groep, is de waarde 'Niet toegewezen'. Als de organisatie geen RBAC-groepen bevat, is de waarde 'Geen'. | Servers
-RecommendationReference | tekenreeks | Een verwijzing naar de aanbevelings-id met betrekking tot deze software. | va-_-microsoft-_-silverlight
-RecommendedSecurityUpdate (optioneel) | tekenreeks | Naam of beschrijving van de beveiligingsupdate die door de softwareleverancier wordt geleverd om het beveiligingsprobleem aan te pakken. | Beveiligingsupdates van april 2020
-AanbevolenSecurityUpdateId (optioneel) | tekenreeks | Id van de toepasselijke beveiligingsupdates of -id voor de bijbehorende richtlijnen of KB-artikelen (Knowledge Base) | 4550961
+ExploitabilityLevel | string | Het gebruiksniveau van dit beveiligingsprobleem (NoExploit, ExploitIsPublic, ExploitIsVerified, ExploitIsInKit) | ExploitIsInKit
+FirstSeenTimestamp | string | De eerste keer dat de CVE van dit product op het apparaat werd gezien. | 2020-11-03 10:13:34.8476880
+Id | string | Unieke id voor de record. | 123ABG55_573AG&mnp!
+LastSeenTimestamp | string | De laatste keer dat de CVE werd gezien op het apparaat. | 2020-11-03 10:13:34.8476880
+OSPlatform | string | Platform van het besturingssysteem dat op het apparaat wordt uitgevoerd. Deze eigenschap geeft specifieke besturingssystemen aan, waaronder variaties binnen dezelfde familie, zoals Windows 10 en Windows 7. Zie ondersteunde besturingssystemen en platforms van tvm voor meer informatie. | Windows10
+RbacGroupName  | string | De groep Toegangsbeheer (RBAC) op basis van rollen. Als dit apparaat niet is toegewezen aan een RBAC-groep, is de waarde 'Niet toegewezen'. Als de organisatie geen RBAC-groepen bevat, is de waarde 'Geen'. | Servers
+RecommendationReference | string | Een verwijzing naar de aanbevelings-id met betrekking tot deze software. | va-_-microsoft-_-silverlight
+RecommendedSecurityUpdate (optioneel) | string | Naam of beschrijving van de beveiligingsupdate die door de softwareleverancier wordt geleverd om het beveiligingsprobleem aan te pakken. | Beveiligingsupdates van april 2020
+AanbevolenSecurityUpdateId (optioneel) | string | Id van de toepasselijke beveiligingsupdates of -id voor de bijbehorende richtlijnen of KB-artikelen (Knowledge Base) | 4550961
 RegistryPaths  | \[Matrixreeks\] | Registergegevens dat het product op het apparaat is geïnstalleerd. | [ "HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\MicrosoftSilverlight" ]
-SoftwareName | tekenreeks | Naam van het softwareproduct. | chrome
-SoftwareVendor | tekenreeks | Naam van de softwareleverancier. | google
-SoftwareVersion | tekenreeks | Versienummer van het softwareproduct. | 81.0.4044.138
-VulnerabilitySeverityLevel  | tekenreeks | Ernstniveau dat is toegewezen aan het beveiligingsprobleem op basis van de CVSS-score en dynamische factoren die worden beïnvloed door het bedreigingslandschap. | Gemiddeld
+SoftwareName | string | Naam van het softwareproduct. | chrome
+SoftwareVendor | string | Naam van de softwareleverancier. | google
+SoftwareVersion | string | Versienummer van het softwareproduct. | 81.0.4044.138
+VulnerabilitySeverityLevel  | string | Ernstniveau dat is toegewezen aan het beveiligingsprobleem op basis van de CVSS-score en dynamische factoren die worden beïnvloed door het bedreigingslandschap. | Gemiddeld
 
 ### <a name="16-examples"></a>1.6 Voorbeelden
 
@@ -310,7 +311,7 @@ GET /api/machines/SoftwareVulnerabilitiesExport
 Eigenschap (id) | Gegevenstype | Beschrijving | Voorbeeld van een geretourneerde waarde
 :---|:---|:---|:---
 Bestanden exporteren | \[matrixreeks\]  | Een lijst met download-URL's voor bestanden met de huidige momentopname van de organisatie. | [  “https://tvmexportstrstgeus.blob.core.windows.net/tvm-export...1”, “https://tvmexportstrstgeus.blob.core.windows.net/tvm-export...2”  ]
-GeneratedTime | tekenreeks | De tijd dat de export is gegenereerd. | 2021-05-20T08:00:00Z
+GeneratedTime | string | De tijd dat de export is gegenereerd. | 2021-05-20T08:00:00Z
 
 ### <a name="26-examples"></a>2.6 Voorbeelden
 
@@ -332,6 +333,249 @@ GET https://api-us.securitycenter.contoso.com/api/machines/SoftwareVulnerabiliti
     ],
     "generatedTime": "2021-01-11T11:01:00Z"
 }
+```
+
+## <a name="3-delta-export-software-vulnerabilities-assessment-odata"></a>3. Delta Export software vulnerabilities assessment (OData)
+
+### <a name="31-api-method-description"></a>Beschrijving van API-methode 3.1
+
+Retourneert een tabel met een vermelding voor elke unieke combinatie van DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion, CveId. De API haalt gegevens in uw organisatie op als Json-antwoorden, volgens het OData-protocol. Het antwoord is paginated, zodat u het veld @odata.nextLink uit het antwoord kunt gebruiken om de volgende resultaten op te halen. In tegenstelling tot de evaluatie van volledige softwareproblemen (OData) - die wordt gebruikt om een volledige momentopname van de beoordeling van de beveiligingsproblemen in de software van uw organisatie per apparaat te verkrijgen - wordt de delta export OData API-oproep gebruikt om alleen de wijzigingen op te halen die zijn gebeurd tussen een geselecteerde datum en de huidige datum (de delta-API-oproep). In plaats van elke keer een volledige export met een grote hoeveelheid gegevens te krijgen, krijgt u alleen specifieke informatie over nieuwe, opgeloste en bijgewerkte beveiligingslekken. Delta export OData API-oproep kan ook worden gebruikt om verschillende KPI's te berekenen, zoals 'hoeveel beveiligingslekken zijn opgelost?' of 'hoeveel nieuwe beveiligingslekken zijn toegevoegd aan mijn organisatie?'
+
+>[!NOTE]
+>
+>Het wordt ten zeerste aangeraden om ten minste één keer per week de volledige evaluatie van beveiligingsproblemen met de exportsoftware te gebruiken per apparaat-API-oproep, en deze extra exportsoftwareproblemen worden op alle andere dagen van de week gewijzigd door de apparaat-API(delta)-API- oproep.  In tegenstelling tot de andere OData-API assessments is de 'delta-export' geen volledige export. De delta-export bevat alleen de wijzigingen tussen een geselecteerde datum en de huidige datum (de 'delta'-API-oproep).
+
+#### <a name="limitations"></a>Beperkingen
+
+- De maximale paginagrootte is 200.000.
+
+- De parameter sinceTime heeft een maximum van 14 dagen.
+
+- Tariefbeperkingen voor deze API zijn 30 oproepen per minuut en 1000 oproepen per uur.
+
+### <a name="32-permissions"></a>3.2 Machtigingen
+
+Een van de volgende machtigingen is vereist om deze API te bellen. Zie Microsoft Defender voor eindpunt-API's gebruiken voor meer informatie, inclusief het kiezen van [machtigingen.](apis-intro.md)
+
+Machtigingstype | Machtiging | Weergavenaam machtiging
+---|---|---
+Toepassing | Kwetsbaarheid.Read.All | 'Informatie over kwetsbaarheidsinformatie over bedreigings- en kwetsbaarheidsbeheer lezen'
+Gedelegeerd (werk- of schoolaccount) | Kwetsbaarheid.Lezen | 'Informatie over kwetsbaarheidsinformatie over bedreigings- en kwetsbaarheidsbeheer lezen'
+
+### <a name="33-url"></a>URL van 3,3
+
+```http
+GET /api/machines/SoftwareVulnerabilityChangesByMachine 
+```
+
+### <a name="34-parameters"></a>3.4 Parameters
+
+- sinceTime (vereist) – De gegevens tussen een geselecteerde tijd en vandaag.
+- pageSize (standaard = 50.000) – aantal resultaten in antwoord
+- $top – aantal resultaten dat moet worden retourneren (wordt niet als resultaat @odata.nextLink en dus niet alle gegevens)
+
+### <a name="35-properties"></a>3,5 eigenschappen
+
+Elke geretourneerde record bevat alle gegevens uit de volledige evaluatie van beveiligingsproblemen met software op het apparaat OData API, plus twee extra velden:  _**EventTimestamp**_ en _**Status**_.
+
+>[!NOTE]
+>-Sommige extra kolommen kunnen worden geretourneerd in het antwoord. Deze kolommen zijn tijdelijk en kunnen worden verwijderd, dus gebruik alleen de gedocumenteerde kolommen.
+>
+>-De eigenschappen die in de volgende tabel zijn gedefinieerd, worden alfabetisch weergegeven op eigenschap-id.  Bij het uitvoeren van deze API wordt de resulterende uitvoer niet noodzakelijkerwijs geretourneerd in dezelfde volgorde als in deze tabel.
+<br>
+
+Eigenschap (id) | Gegevenstype | Beschrijving | Voorbeeld van geretourneerde waarde
+:---|:---|:---|:---
+CveId | string | Unieke id die is toegewezen aan het beveiligingsprobleem onder het CVE-systeem (Common Vulnerabilities and Exposures). | CVE-2020-15992  
+CvssScore | string | De CVSS-score van de CVE. | 6.2  
+DeviceId | string | Unieke id voor het apparaat in de service. | 9eaf3a8b5962e0e6b1af9ec75664a9b823df2d1  
+Apparaatnaam | string | Volledig gekwalificeerde domeinnaam (FQDN) van het apparaat. | johnlaptop.europe.contoso.com  
+DiskPaths | Matrix[tekenreeks] | Schijf bewijs dat het product is geïnstalleerd op het apparaat. | [ "C:\Program Files (x86)\Microsoft\Silverlight\Application\silverlight.exe" ]  
+EventTimestamp | Tekenreeks | De tijd dat deze deltagebeurtenis is gevonden. | 2021-01-11T11:06:08.291Z
+ExploitabilityLevel | string | Het gebruiksniveau van dit beveiligingsprobleem (NoExploit, ExploitIsPublic, ExploitIsVerified, ExploitIsInKit) | ExploitIsInKit  
+FirstSeenTimestamp | string | De eerste keer dat de CVE van dit product op het apparaat werd gezien. | 2020-11-03 10:13:34.8476880  
+Id | string | Unieke id voor de record. | 123ABG55_573AG&mnp!  
+LastSeenTimestamp | string | De laatste keer dat de CVE werd gezien op het apparaat. | 2020-11-03 10:13:34.8476880  
+OSPlatform | string | Platform van het besturingssysteem dat op het apparaat wordt uitgevoerd. Dit geeft specifieke besturingssystemen aan, waaronder variaties binnen dezelfde familie, zoals Windows 10 en Windows 7. Zie ondersteunde besturingssystemen en platforms van tvm voor meer informatie. | Windows10  
+RbacGroupName | string | De groep Toegangsbeheer (RBAC) op basis van rollen. Als dit apparaat niet is toegewezen aan een RBAC-groep, is de waarde 'Niet toegewezen'. Als de organisatie geen RBAC-groepen bevat, is de waarde 'Geen'. | Servers  
+RecommendationReference | string | Een verwijzing naar de aanbevelings-id met betrekking tot deze software. | va--microsoft--silverlight  
+AanbevolenSecurityUpdate  | string | Naam of beschrijving van de beveiligingsupdate die door de softwareleverancier wordt geleverd om het beveiligingsprobleem aan te pakken. | Beveiligingsupdates van april 2020  
+AanbevolenSecurityUpdateId  | string | Id van de toepasselijke beveiligingsupdates of -id voor de bijbehorende richtlijnen of KB-artikelen (Knowledge Base) | 4550961  
+RegistryPaths  | Matrix[tekenreeks] | Registergegevens dat het product op het apparaat is geïnstalleerd. | [ "HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Google Chrome" ]  
+SoftwareName | string | Naam van het softwareproduct. | chrome  
+SoftwareVendor | string | Naam van de softwareleverancier. | google  
+SoftwareVersion | string | Versienummer van het softwareproduct. | 81.0.4044.138  
+Status | Tekenreeks | **Nieuw**   (voor een nieuw beveiligingsprobleem dat is geïntroduceerd op een apparaat)  (1) **Opgelost**(als dit beveiligingsprobleem niet meer bestaat op het apparaat, wat betekent dat het   is hersteld). (2)  **Bijgewerkt**   (als een beveiligingsprobleem op een apparaat is gewijzigd. De mogelijke wijzigingen zijn: CVSS-score, exploitabilityniveau, ernstniveau, DiskPaths, RegistryPaths, RecommendedSecurityUpdate). | Opgelost
+VulnerabilitySeverityLevel | string | Ernstniveau dat is toegewezen aan het beveiligingsprobleem op basis van de CVSS-score en dynamische factoren die worden beïnvloed door het bedreigingslandschap. | Gemiddeld  
+
+#### <a name="clarifications"></a>Verduidelijkingen
+
+- Als de software is bijgewerkt van versie 1.0 naar versie 2.0 en beide versies worden blootgesteld aan CVE-A, ontvangt u twee afzonderlijke gebeurtenissen:  
+   a. Opgelost : CVE-A op versie 1.0 is opgelost  
+   b. Nieuw : CVE-A op versie 2.0 is toegevoegd
+
+- Als een specifiek beveiligingsprobleem (bijvoorbeeld CVE-A) voor het eerst werd gezien op een specifiek tijdstip (bijvoorbeeld 10 januari) op software met versie 1.0 en een paar dagen later die software is bijgewerkt naar versie 2.0 die ook aan dezelfde CVE-A is blootgesteld, ontvangt u deze twee gescheiden gebeurtenissen:  
+   a. Opgelost: CVE-X, FirstSeenTimestamp 10 januari, versie 1,0.  
+   b. Nieuw : CVE-X, FirstSeenTimestamp 10 januari, versie 2.0.
+
+### <a name="36-examples"></a>3.6 Voorbeelden
+
+#### <a name="361-request-example"></a>3.6.1 Voorbeeld van aanvraag
+
+```http
+GET https://api.securitycenter.microsoft.com/api/machines/SoftwareVulnerabilityChangesByMachine?pageSize=5&sinceTime=2021-05-19T18%3A35%3A49.924Z
+```
+
+#### <a name="362-response-example"></a>3.6.2 Voorbeeld van antwoord
+
+```json
+{ 
+    "@odata.context": "https://api.securitycenter.microsoft.com/api/$metadata#Collection(microsoft.windowsDefenderATP.api.DeltaAssetVulnerability)", 
+    "value": [ 
+        { 
+            "id": "008198251234544f7dfa715e278d4cec0c16c171_chrome_87.0.4280.88__", 
+            "deviceId": "008198251234544f7dfa715e278b4cec0c19c171",  
+            "rbacGroupName": "hhh", 
+            "deviceName": "ComputerPII_1c8fee370690ca24b6a0d3f34d193b0424943a8b8.DomainPII_0dc1aee0fa366d175e514bd91a9e7a5b2b07ee8e.corp.contoso.com", 
+            "osPlatform": "Windows10", 
+            "osVersion": "10.0.19042.685", 
+            "osArchitecture": "x64", 
+            "softwareVendor": "google", 
+            "softwareName": "chrome", 
+            "softwareVersion": "87.0.4280.88", 
+            "cveId": null, 
+            "vulnerabilitySeverityLevel": null, 
+            "recommendedSecurityUpdate": null, 
+            "recommendedSecurityUpdateId": null, 
+            "recommendedSecurityUpdateUrl": null, 
+            "diskPaths": [ 
+                "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe" 
+            ], 
+            "registryPaths": [ 
+                "HKEY_LOCAL_MACHINE\\SOFTWARE\\WOW6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Google Chrome" 
+            ], 
+            "lastSeenTimestamp": "2021-01-04 00:29:42", 
+            "firstSeenTimestamp": "2020-11-06 03:12:44", 
+            "exploitabilityLevel": "NoExploit", 
+            "recommendationReference": "va-_-google-_-chrome", 
+            "status": "Fixed", 
+            "eventTimestamp": "2021-01-11T11:06:08.291Z" 
+        }, 
+        { 
+            "id": "00e59c61234533860738ecf488eec8abf296e41e_onedrive_20.64.329.3__", 
+            "deviceId": "00e56c91234533860738ecf488eec8abf296e41e",  
+            "rbacGroupName": "hhh", 
+            "deviceName": "ComputerPII_82c13a8ad8cf3dbaf7bf34fada9fa3aebc124116.DomainPII_21eeb80d086e79dbfa178eadfa25e8de9acfa346.corp.contoso.com", 
+            "osPlatform": "Windows10", 
+            "osVersion": "10.0.18363.1256", 
+            "osArchitecture": "x64", 
+            "softwareVendor": "microsoft", 
+            "softwareName": "onedrive", 
+            "softwareVersion": "20.64.329.3", 
+            "cveId": null, 
+            "vulnerabilitySeverityLevel": null, 
+            "recommendedSecurityUpdate": null, 
+            "recommendedSecurityUpdateId": null, 
+            "recommendedSecurityUpdateUrl": null, 
+            "diskPaths": [], 
+            "registryPaths": [ 
+                "HKEY_USERS\\S-1-5-21-2127521184-1604012920-1887927527-24918864\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\OneDriveSetup.exe" 
+            ], 
+            "lastSeenTimestamp": "2020-12-11 19:49:48", 
+            "firstSeenTimestamp": "2020-12-07 18:25:47", 
+            "exploitabilityLevel": "NoExploit", 
+            "recommendationReference": "va-_-microsoft-_-onedrive", 
+            "status": "Fixed", 
+            "eventTimestamp": "2021-01-11T11:06:08.291Z" 
+        }, 
+        { 
+            "id": "01aa8c73095bb12345918663f3f94ce322107d24_firefox_83.0.0.0_CVE-2020-26971_", 
+            "deviceId": "01aa8c73065bb12345918693f3f94ce322107d24", 
+            "rbacGroupName": "hhh", 
+            "deviceName": "ComputerPII_42684eb981bea2d670027e7ad2caafd3f2b381a3.DomainPII_21eed80b086e76dbfa178eabfa25e8de9acfa346.corp.contoso.com", 
+            "osPlatform": "Windows10", 
+            "osVersion": "10.0.19042.685", 
+            "osArchitecture": "x64", 
+            "softwareVendor": "mozilla", 
+            "softwareName": "firefox", 
+            "softwareVersion": "83.0.0.0", 
+            "cveId": "CVE-2020-26971", 
+            "vulnerabilitySeverityLevel": "High", 
+            "recommendedSecurityUpdate": "193220", 
+            "recommendedSecurityUpdateId": null, 
+            "recommendedSecurityUpdateUrl": null, 
+            "diskPaths": [ 
+                "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" 
+            ], 
+            "registryPaths": [ 
+                "HKEY_LOCAL_MACHINE\\SOFTWARE\\WOW6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Mozilla Firefox 83.0 (x86 en-US)" 
+            ], 
+            "lastSeenTimestamp": "2021-01-05 17:04:30", 
+            "firstSeenTimestamp": "2020-05-06 12:42:19", 
+            "exploitabilityLevel": "NoExploit", 
+            "recommendationReference": "va-_-mozilla-_-firefox", 
+            "status": "Fixed", 
+            "eventTimestamp": "2021-01-11T11:06:08.291Z" 
+        }, 
+        { 
+            "id": "026f0fcb12345fbd2decd1a339702131422d362e_project_16.0.13701.20000__", 
+            "deviceId": "029f0fcb13245fbd2decd1a336702131422d392e", 
+            "rbacGroupName": "hhh", 
+            "deviceName": "ComputerPII_a5706750acba75f15d69cd17f4a7fcd268d6422c.DomainPII_f290e982685f7e8eee168b4332e0ae5d2a069cd6.corp.contoso.com", 
+            "osPlatform": "Windows10", 
+            "osVersion": "10.0.19042.685", 
+            "osArchitecture": "x64", 
+            "softwareVendor": "microsoft", 
+            "softwareName": "project", 
+            "softwareVersion": "16.0.13701.20000", 
+            "cveId": null, 
+            "vulnerabilitySeverityLevel": null, 
+            "recommendedSecurityUpdate": null, 
+            "recommendedSecurityUpdateId": null, 
+            "recommendedSecurityUpdateUrl": null, 
+            "diskPaths": [], 
+            "registryPaths": [ 
+                "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\ProjectProRetail - en-us" 
+            ], 
+            "lastSeenTimestamp": "2021-01-03 23:38:03", 
+            "firstSeenTimestamp": "2019-08-01 22:56:12", 
+            "exploitabilityLevel": "NoExploit", 
+            "recommendationReference": "va-_-microsoft-_-project", 
+            "status": "Fixed", 
+            "eventTimestamp": "2021-01-11T11:06:08.291Z" 
+        }, 
+        { 
+            "id": "038df381234510b357ac19d0113ef622e4e212b3_chrome_81.0.4044.138_CVE-2020-16011_", 
+            "deviceId": "038df381234510d357ac19b0113ef922e4e212b3",  
+            "rbacGroupName": "hhh", 
+            "deviceName": "ComputerPII_365f5c0bb7202c163937dad3d017969b2d760eb4.DomainPII_29596a43a2ef2bbfa00f6a16c0cb1d108bc63e32.DomainPII_3c5fefd2e6fda2f36257359404f6c1092aa6d4b8.net", 
+            "osPlatform": "Windows10", 
+            "osVersion": "10.0.18363.1256", 
+            "osArchitecture": "x64", 
+            "softwareVendor": "google", 
+            "softwareName": "chrome", 
+            "softwareVersion": "81.0.4044.138", 
+            "cveId": "CVE-2020-16011", 
+            "vulnerabilitySeverityLevel": "High", 
+            "recommendedSecurityUpdate": "ADV 200002", 
+            "recommendedSecurityUpdateId": null, 
+            "recommendedSecurityUpdateUrl": null, 
+            "diskPaths": [ 
+                "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe" 
+            ], 
+            "registryPaths": [ 
+                "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{C4EBFDFD-0C55-3E5F-A919-E3C54949024A}" 
+            ], 
+            "lastSeenTimestamp": "2020-12-10 22:45:41", 
+            "firstSeenTimestamp": "2020-07-26 02:13:43", 
+            "exploitabilityLevel": "NoExploit", 
+            "recommendationReference": "va-_-google-_-chrome", 
+            "status": "Fixed", 
+            "eventTimestamp": "2021-01-11T11:06:08.291Z" 
+        } 
+    ], 
+    "@odata.nextLink": "https://wpatdadi-eus-stg.cloudapp.net/api/machines/SoftwareVulnerabilitiesTimeline?sincetime=2021-01-11&pagesize=5&$skiptoken=eyJFeHBvcnREZWZpbml0aW9uIjp7IlRpbWVQYXRoIjoiMjAyMS0wMS0xMS8xMTAxLyJ9LCJFeHBvcnRGaWxlSW5kZXgiOjAsIkxpbmVTdG9wcGVkQXQiOjV9" 
+} 
 ```
 
 ## <a name="see-also"></a>Zie ook

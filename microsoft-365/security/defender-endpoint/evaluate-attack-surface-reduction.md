@@ -14,17 +14,16 @@ ms.author: deniseb
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 5d3cd7893af4c91807782c269231a280b413733e
-ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
+ms.openlocfilehash: a5fa8e46de0a6561d3377ce77e38bd59aa97f3c4
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52861213"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984722"
 ---
 # <a name="evaluate-attack-surface-reduction-rules"></a>Regels voor het verminderen van kwetsbaarheid voor aanvallen evalueren
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
-
 
 **Van toepassing op:**
 
@@ -33,19 +32,19 @@ ms.locfileid: "52861213"
 
 >Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-enablesiem-abovefoldlink)
 
-Met de regels voor het verminderen van aanvallen kunt u voorkomen dat acties die gewoonlijk door malware worden gebruikt om apparaten of netwerken te compromitteerden. Met de regels voor het verminderen van aanvallen kunt u veel van de veelgebruikte toegangspunten sluiten die door malware en ransomware worden gebruikt. 
+Met de regels voor het verminderen van aanvallen kunt u voorkomen dat acties die gewoonlijk door malware worden gebruikt om apparaten of netwerken te compromitteerden. Met de regels voor het verminderen van aanvallen kunt u veel van de veelgebruikte toegangspunten sluiten die door malware en ransomware worden gebruikt.
 
 Stel regels voor het verminderen van aanvallen in voor apparaten met een van de volgende versies en versies van Windows:
 
-- Windows 10 Pro, versie [1709](/windows/whats-new/whats-new-windows-10-version-1709) of hoger
-- Windows 10 Enterprise, versie [1709](/windows/whats-new/whats-new-windows-10-version-1709) of hoger
+- Windows 10 Pro, [versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) of hoger
+- Windows 10 Enterprise, [versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) of hoger
 - Windows Server, [versie 1803 (halfjaarlijks kanaal)](/windows-server/get-started/whats-new-in-windows-server-1803) of hoger
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 
 > [!WARNING]
-> Het inschakelen van regels voor het beperken van aanvallen op Windows Server 2016 kan leiden tot onverwachte resultaten en invloed hebben op de serverprestaties. We raden u af om regels voor het verlagen van de surface voor aanvallen in te stellen of te implementeren op niet-ondersteunde platforms.
+> Het inschakelen van regels voor het beperken van aanvallen op Windows Server 2016 kan leiden tot onverwachte resultaten en gevolgen voor de serverprestaties. We raden u af om regels voor het verlagen van de surface voor aanvallen in te stellen of te implementeren op niet-ondersteunde platforms.
 
-Lees hoe u regels voor het verminderen van aanvallen kunt evalueren door de auditmodus in te schakelen om de functie rechtstreeks in uw organisatie te testen.
+Lees hoe u regels voor het verminderen van aanvallen kunt evalueren door [de auditmodus in](audit-windows-defender.md) te schakelen om de functie rechtstreeks in uw organisatie te testen.
 
 > [!TIP]
 > U kunt ook naar de website voor demoscenario's van Microsoft Defender voor [Eindpunt](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground) demo.wd.microsoft.com om te bevestigen dat de functie werkt en te zien hoe deze werkt.
@@ -73,11 +72,11 @@ Gebruik de volgende PowerShell-cmdlet als u alle extra regels voor het verlagen 
 
 U kunt ook configuratieserviceproviders (MDM) (Group Policy, Intune) of Mobile Device Management (MDM) gebruiken om de instelling te configureren en te implementeren. Meer informatie in het [hoofdartikel Van de surface-beperkingsregels van](attack-surface-reduction.md) Attack.
 
-## <a name="review-attack-surface-reduction-events-in-windows-event-viewer"></a>Gebeurtenissen voor het verminderen van aanvallen in Windows eventviewer bekijken
+## <a name="review-attack-surface-reduction-events-in-windows-event-viewer"></a>Gebeurtenissen voor het verminderen van aanvallen bekijken in Windows Event Viewer
 
 Als u apps wilt bekijken die zijn geblokkeerd, opent u Gebeurtenisviewer en filtert u op Gebeurtenis-id 1121 in het Microsoft-Windows-Windows Defender/Operationeel logboek. In de volgende tabel worden alle netwerkbeveiligingsgebeurtenissen vermeld.
 
-Gebeurtenis-id | Omschrijving
+Gebeurtenis-id | Beschrijving
 -|-
  5007 | Gebeurtenis wanneer instellingen worden gewijzigd
  1121 | Gebeurtenis wanneer een regel voor het verminderen van het aanvalsoppervlak wordt gebruikt in de blokmodus
@@ -91,6 +90,6 @@ Zie [Attack Surface Reduction Rules aanpassen](customize-attack-surface-reductio
 
 ## <a name="see-also"></a>Zie ook
 
-* [Aanvalsoppervlakken verminderen met regels voor het beperken van de surface van de aanval](attack-surface-reduction.md)
-* [Controlemodus gebruiken om de controlemodus te Windows Defender](audit-windows-defender.md)
-* [Veelgestelde vragen over het verminderen van kwetsbaarheid voor aanvallen](attack-surface-reduction.md)
+- [Aanvalsoppervlakken verminderen met regels voor het beperken van de surface van de aanval](attack-surface-reduction.md)
+- [Auditmodus gebruiken om Windows Defender te evalueren](audit-windows-defender.md)
+- [Veelgestelde vragen over het verminderen van kwetsbaarheid voor aanvallen](attack-surface-reduction.md)

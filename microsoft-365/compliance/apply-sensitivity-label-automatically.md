@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Wanneer u een vertrouwelijkheidslabel maakt, kunt u automatisch een label toewijzen aan bestanden en e-mailberichten of gebruikers vragen om het label te selecteren dat u aanbeveelt.
-ms.openlocfilehash: ad095db005421a58806d2775d4958cf3be5f474e
-ms.sourcegitcommit: 2cf7293d610a676726ac891b89366e23810d9142
+ms.openlocfilehash: 4215e6618c1cc6359755c2af1e7b9e93ca07b58d
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52866737"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984806"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Een vertrouwelijkheidslabel automatisch toepassen op inhoud
 
@@ -74,7 +74,7 @@ Er zijn twee verschillende methoden voor het automatisch toepassen van een vertr
     - Als u beschikt over regels voor de Exchange-e-mailstroom of beleidsregels voor preventie van gegevensverlies (DLP) waarmee IRM-versleuteling wordt toegepast: wanneer inhoud door deze regels of beleidsregels en een beleid voor automatisch labelen wordt geïdentificeerd, wordt het label toegepast. Als dit label versleuteling toepast, worden de IRM-instellingen van de regels voor de Exchange-e-mailstroom of de DLP-beleidsregels genegeerd. Als dit label echter geen versleuteling toepast, worden de IRM-instellingen van de regels voor de e-mailstroom of de DLP-beleidsregels ook toegepast.
     - E-mail met IRM-versleuteling zonder label wordt vervangen door een label met versleutelingsinstellingen wanneer er een overeenkomst is door gebruik te maken van automatisch labelen.
     - Binnenkomende e-mail wordt gelabeld wanneer er een overeenkomst is met de voorwaarden voor automatisch labelen:
-        - Als het label is geconfigureerd voor [versleuteling](encryption-sensitivity-labels.md), wordt deze versleuteling toegepast. Deze configuratie wordt momenteel echter niet ondersteund.
+        - Wordt geïmplementeerd: als het label is geconfigureerd voor [versleuteling](encryption-sensitivity-labels.md), wordt die versleuteling niet toegepast.
         - Als het label is geconfigureerd voor het toepassen van [dynamische markeringen](sensitivity-labels-office-apps.md#dynamic-markings-with-variables), moet u er rekening mee houden dat dit namen van personen van buiten uw organisatie kan opleveren.
     - Wanneer het label versleuteling toepast, is de [Rights Management-uitgever en -eigenaar](/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner) de persoon die het e-mailbericht verzendt. Er is momenteel geen manier om een Rights Manager-eigenaar in te stellen voor alle binnenkomende e-mailberichten die automatisch worden versleuteld.
     

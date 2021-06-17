@@ -18,23 +18,44 @@ ms.collection:
 - M365-security-compliance
 description: Of het nu gaat om het toevoegen van nieuwe oplossingen aan het compliancecentrum, het bijwerken van bestaande functies op basis van uw feedback of het implementeren van nieuwe en bijgewerkte documentatie, met Microsoft 365 kunt u het steeds veranderende compliancelandschap in de hand houden. Ontdek wat we deze maand hebben gedaan.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d312b3ac3c2cb43e05a09936f1e5c07b32c22ef1
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 1884989abba56a7da68a2a1372132015a81f5e03
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843244"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52985010"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Wat is er nieuw in Microsoft 365-compliance
 
-Of het nu gaat om het toevoegen van nieuwe oplossingen aan het [Microsoft 365 compliancecentrum,](microsoft-365-compliance-center.md)het bijwerken van bestaande functies op basis van uw feedback of het implementeren van nieuwe en bijgewerkte documentatie, met Microsoft 365 kunt u op de hoogte blijven van het steeds veranderende compliancelandschap. Bekijk hieronder wat er nieuw is in Microsoft 365 compliance.
+Of het nu gaat om het toevoegen van nieuwe oplossingen aan de [Microsoft 365-compliancecentrum,](microsoft-365-compliance-center.md)het bijwerken van bestaande functies op basis van uw feedback of het implementeren van nieuwe en bijgewerkte documentatie, met Microsoft 365 kunt u op de hoogte blijven van het steeds veranderende compliancelandschap. Bekijk hieronder wat er nieuw is in Microsoft 365 compliance.
 
 > [!NOTE]
 > Sommige compliancefuncties worden met verschillende snelheden uitgerold voor onze klanten. Als u nog geen functie ziet, kunt u proberen om uzelf toe te voegen aan [een gerichte release.](/office365/admin/manage/release-options-in-office-365)
 
 > [!TIP]
-> Bent u geïnteresseerd in wat er gebeurt in andere beheercentra? Bekijk deze artikelen:<br>[Nieuwe functies in het Microsoft 365 beheercentrum](/office365/admin/whats-new-in-preview)<br>[Nieuwe functies in het SharePoint beheercentrum](/sharepoint/what-s-new-in-admin-center)<br>[Wat is er nieuw in Microsoft 365 Defender](../security/defender/whats-new.md)<br><br>
+> Bent u geïnteresseerd in wat er gebeurt in andere beheercentra? Bekijk deze artikelen:<br>[Nieuwe functies in de Microsoft 365-beheercentrum](/office365/admin/whats-new-in-preview)<br>[Nieuwe functies in het SharePoint beheercentrum](/sharepoint/what-s-new-in-admin-center)<br>[Wat is er nieuw in Microsoft 365 Defender](../security/defender/whats-new.md)<br><br>
 En ga naar [Microsoft 365 routekaart](https://www.microsoft.com/microsoft-365/roadmap) voor meer Microsoft 365 functies die zijn gestart, worden uitgerold, in ontwikkeling zijn, zijn geannuleerd of eerder zijn uitgebracht.
+
+## <a name="may-2021"></a>Mei 2021
+
+### <a name="data-loss-prevention"></a>Preventie van gegevensverlies
+
+- Nieuwe richtlijnen voor [het plannen van uw strategie voor preventie van gegevensverlies.](dlp-overview-plan-for-dlp.md)
+
+### <a name="retention-and-records-management"></a>Bewaar- en recordbeheer
+
+- Als u een bewaarbeleid los laat van een SharePoint-site of OneDrive-account, hoeft u niet langer te wachten op de respijtperiode van 30 dagen voordat u de site of het account kunt verwijderen. Een populair verzoek van klanten, deze wijziging is nu voltooid voor alle tenants.
+- In preview, **multi-stage disposition review:** Een beheerder kan nu maximaal vijf opeenvolgende stadia van [disposition review](disposition.md) voor een bewaarlabel toevoegen en revisoren kunnen andere gebruikers toevoegen aan hun beoordelingsfase. U kunt ook de e-mailmeldingen en herinneringen aanpassen.
+
+### <a name="sensitive-information-types"></a>Gevoelige informatietypen
+
+- Nieuwe informatie toegevoegd om u te helpen [een woordenlijst met trefwoorden te wijzigen.](sit-modify-keyword-dictionary.md)
+
+### <a name="sensitivity-labels"></a>Vertrouwelijkheidslabels
+
+- In preview is er nu een nieuwe instelling voor **verificatiecontext** beschikbaar wanneer u een [gevoeligheidslabel]( sensitivity-labels-teams-groups-sites.md)configureert voor groepen en sites. Deze optie werkt in combinatie met beleidsregels voor Azure AD Conditional Access om strengere voorwaarden af te dwingen wanneer gebruikers toegang krijgen tot SharePoint sites waarop het label is toegepast. Zorg ervoor dat u de [afhankelijkheden en beperkingen leest](sensitivity-labels-teams-groups-sites.md#more-information-about-the-dependencies-for-the-authentication-context-option) voordat u deze instelling configureert.
+- [Beleidsregels voor](apply-sensitivity-label-automatically.md#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange) automatisch labelen die alleen zijn geconfigureerd voor Exchange ondersteunen nu **gevoeligheidslabels** die versleuteling toepassen met Gebruikers machtigingen laten toewijzen voor de opties Niet doorsturen of Encrypt-Only toewijzen.
+- [Verplichte labeling](sensitivity-labels-office-apps.md#require-users-to-apply-a-label-to-their-email-and-documents) is nu algemeen beschikbaar voor alle Office apps, op alle platforms.
 
 ## <a name="april-2021"></a>April 2021
 
@@ -131,7 +152,7 @@ De volgende onderwerpen zijn bijgewerkt of toegevoegd ter ondersteuning van deze
 - **Verbeteringen in bestandsplan.** Met een update [voor het bestandsplan](file-plan-manager.md) worden de vorige lengtebeperkingen voor importeren verwijderd of verbeterd.
 - **Bewaarlabels voor records verwijderen.** Een preview-release ondersteunt de mogelijkheid om [bewaarlabels te verwijderen die](create-apply-retention-labels.md#deleting-retention-labels) items markeren als records.
 
-### <a name="sensitive-information-types"></a>Typen gevoelige informatie
+### <a name="sensitive-information-types"></a>Gevoelige informatietypen
 
 Inhoud is toegevoegd of bijgewerkt in de volgende onderwerpen:
 
@@ -146,12 +167,12 @@ Inhoud is toegevoegd of bijgewerkt in de volgende onderwerpen:
 ### <a name="sensitivity-labels"></a>Vertrouwelijkheidslabels
 
 - **DoD-ondersteuning**. Ondersteuning voor Amerikaanse overheidsten tenants met DoD-omgevingen.
-- **Encrypt-Only voor Outlook.** Versleutelingsopties voor Outlook bevatten nu Encrypt-Only wanneer u [Gebruikers machtigingen laten toewijzen selecteert.](encryption-sensitivity-labels.md#let-users-assign-permissions)
-- **Ingebouwde labels afdwingen in** Office apps. Bijgewerkte [richtlijnen](sensitivity-labels-office-apps.md#office-built-in-labeling-client-and-the-azure-information-protection-client) voor het afdwingen van ingebouwde labels in Office apps wanneer de geïntegreerde labelingclient voor Azure Information Protection is geïnstalleerd.
+- **Alleen-versleutelen voor Outlook**. Versleutelingsopties voor Outlook bevatten nu Encrypt-Only wanneer u Gebruikers machtigingen laten [toewijzen selecteert.](encryption-sensitivity-labels.md#let-users-assign-permissions)
+- **Ingebouwde labels afdwingen in Office-apps.** Bijgewerkte [richtlijnen](sensitivity-labels-office-apps.md#office-built-in-labeling-client-and-the-azure-information-protection-client) voor het afdwingen van ingebouwde labels in Office-apps wanneer u de geïntegreerde labelingclient van Azure Information Protection hebt geïnstalleerd.
 
 ## <a name="february-2021"></a>Februari 2021
 
-Hier zijn een paar van de wijzigingen in Microsoft 365 complianceoplossingen en -inhoud voor de maand februari.
+Hier zijn enkele wijzigingen in microsoft 365-complianceoplossingen en -inhoud voor de maand februari.
 
 ### <a name="auditing"></a>Controleren
 
@@ -171,19 +192,19 @@ Inhoud is toegevoegd of bijgewerkt in de volgende onderwerpen:
 
 - [Meer informatie over Endpoint DLP](/microsoft-365/compliance/endpoint-dlp-learn-about)
 - [Send email notifications and show policy tips for DLP policies](/microsoft-365/compliance/use-notifications-and-policy-tips) (E-mailmeldingen verzenden en beleidstips tonen voor DLP-beleid)
-- [Meer informatie over Microsoft 365 on-premises scanner voor preventie van gegevensverlies](/microsoft-365/compliance/dlp-on-premises-scanner-learn)
+- [Meer informatie over de on-premises scanner voor preventie van gegevensverlies van Microsoft 365](/microsoft-365/compliance/dlp-on-premises-scanner-learn)
 - [Aan de slag met de on-premises scanner voor preventie van gegevensverlies](/microsoft-365/compliance/dlp-on-premises-scanner-get-started)
 - [Een DLP-beleid maken om documenten te beveiligen met FCI of andere eigenschappen](/microsoft-365/compliance/protect-documents-that-have-fci-or-other-properties)
 - [Preventie van gegevensverlies van eindpunten gebruiken](/microsoft-365/compliance/endpoint-dlp-using)
-- [Aan de slag met preventie van gegevensverlies van eindpunten](/microsoft-365/compliance/endpoint-dlp-getting-started)
+- [Aan de slag met Eindpunt-DLP (gegevensverlies voor eindpunten)](/microsoft-365/compliance/endpoint-dlp-getting-started)
 
 ### <a name="ediscovery"></a>eDiscovery
 
 Inhoud is toegevoegd of bijgewerkt in de volgende onderwerpen:
 
-- [Ontsleuteling in Microsoft 365 eDiscovery-hulpprogramma's](/microsoft-365/compliance/ediscovery-decryption)
+- [Ontsleuteling in microsoft 365 eDiscovery-hulpprogramma's](/microsoft-365/compliance/ediscovery-decryption)
 - [Trefwoordquery's en zoekvoorwaarden](/microsoft-365/compliance/keyword-queries-and-search-conditions#limitations-for-searching-sensitive-data-types)
-- [De uittreding van de module Relevantie in Advanced eDiscovery](/microsoft-365/compliance/relevance-module-retirement)
+- [Uittreding van de relevantiemodule in Advanced eDiscovery](/microsoft-365/compliance/relevance-module-retirement)
 - [Een script gebruiken om gebruikers toe te voegen aan een wacht in een Hoofd-eDiscovery-zaak](/microsoft-365/compliance/use-a-script-to-add-users-to-a-hold-in-ediscovery)
 
 ### <a name="encryption"></a>Versleuteling
@@ -193,7 +214,7 @@ Inhoud is toegevoegd of bijgewerkt in de volgende onderwerpen:
 #### <a name="azure-rights-management-service-rms"></a>Azure Rights Management Service (RMS)
 
 - [Door de klant beheerde versleutelingsfuncties](/microsoft-365/compliance/office-365-customer-managed-encryption-features)
-- [Exchange Online e-mailversleuteling met AD RMS](/microsoft-365/compliance/information-rights-management-in-exchange-online). Ondersteuning voor deze service is afgeschaft. U kunt AD RMS niet meer gebruiken in een Exchange hybride omgeving. In plaats daarvan migreert u naar Azure RMS.
+- [Exchange Online-e-mailversleuteling met AD RMS](/microsoft-365/compliance/information-rights-management-in-exchange-online). Ondersteuning voor deze service is afgeschaft. U kunt AD RMS niet meer gebruiken in een hybride Exchange-omgeving. In plaats daarvan migreert u naar Azure RMS.
 
 #### <a name="customer-key"></a>Klantsleutel
 
@@ -203,10 +224,10 @@ Inhoud is toegevoegd of bijgewerkt in de volgende onderwerpen:
 #### <a name="information-rights-management-irm"></a>Information Rights Management (IRM)
 
 - [IRM (Information Rights Management) toepassen op een lijst of bibliotheek.](/microsoft-365/compliance/configure-irm-to-use-an-on-premises-ad-rms-server) Deze nationale wolken ondersteunen deze instelling niet:
-    - Microsoft Cloud for US Government
+    - Microsoft Cloud voor amerikaanse overheid
     - Microsoft Cloud Germany
     - Azure en Microsoft 365 beheerd door 21Vianet in China)
-- [Configureer IRM om een on-premises AD RMS-server te gebruiken.](/microsoft-365/compliance/configure-irm-to-use-an-on-premises-ad-rms-server) Ondersteuning voor deze service in een Exchange hybride omgeving is afgeschaft.
+- [Configureer IRM om een on-premises AD RMS-server te gebruiken.](/microsoft-365/compliance/configure-irm-to-use-an-on-premises-ad-rms-server) Ondersteuning voor deze service in een hybride Exchange-omgeving is afgeschaft.
 
 ### <a name="sensitive-information-types"></a>Gevoelige informatietypen
 
@@ -222,16 +243,16 @@ Inhoud is toegevoegd of bijgewerkt in de volgende onderwerpen:
 
 Inhoud is toegevoegd of bijgewerkt in de volgende onderwerpen:
 
-- **SharePoint extern delen**. Voor [containerlabels](sensitivity-labels-teams-groups-sites.md) wordt de optie voor extern delen van SharePoint sites nu uitgebracht als algemeen beschikbaar. Daarnaast ondersteunen het Microsoft 365 en Planner nu het toepassen van deze gevoeligheidslabels. 
+- **Extern delen in SharePoint**. Voor [containerlabels](sensitivity-labels-teams-groups-sites.md) wordt de optie voor extern delen van SharePoint-sites nu uitgebracht als algemeen beschikbaar. Daarnaast ondersteunen het Microsoft 365-beheercentrum en Planner nu het toepassen van deze gevoeligheidslabels. 
 - **Coauteuring en Automatisch opslaan**. Ondersteuning voor [coauteuring en Automatisch opslaan](sensitivity-labels-coauthoring.md) voor versleutelde bestanden wordt uitgebracht als voorbeeld voor het testen in niet-productieten tenants.
 
 ## <a name="january-2021"></a>Januari 2021
 
 ### <a name="support-for-card-content-in-teams"></a>Ondersteuning voor kaartinhoud in Teams
 
-De volgende Microsoft 365 complianceoplossingen ondersteunen nu de detectie van [kaartinhoud](/microsoftteams/platform/task-modules-and-cards/what-are-cards) die wordt gegenereerd via apps in Teams berichten:
+De volgende microsoft 365-complianceoplossingen ondersteunen nu de detectie van [kaartinhoud](/microsoftteams/platform/task-modules-and-cards/what-are-cards) die wordt gegenereerd via apps in Teams-berichten:
 
-- **Kern en Advanced eDiscovery.** Kaartinhoud kan nu in [de wacht worden geplaatst](create-ediscovery-holds.md#preserve-card-content) of worden opgenomen in [zoekopdrachten](/microsoftteams/ediscovery-investigation#search-for-card-content) (ook van toepassing op zoeken naar inhoud).
+- **Core en Advanced eDiscovery**. Kaartinhoud kan nu in [de wacht worden geplaatst](create-ediscovery-holds.md#preserve-card-content) of worden opgenomen in [zoekopdrachten](/microsoftteams/ediscovery-investigation#search-for-card-content) (ook van toepassing op zoeken naar inhoud).
 - **Audit**. Kaartactiviteit wordt nu [opgenomen in het auditlogboek](/microsoftteams/audit-log-events#teams-activities).
 - **Bewaarbeleid**. Kan nu bewaarbeleid gebruiken om [kaartinhoud te behouden en te verwijderen.](retention-policies-teams.md#whats-included-for-retention-and-deletion)
 
@@ -248,7 +269,7 @@ De volgende Microsoft 365 complianceoplossingen ondersteunen nu de detectie van 
 
 ### <a name="spotlight-new-content-for-insider-risk-solutions"></a>Spotlight: Nieuwe inhoud voor oplossingen voor insiderrisico's
 
-Het Microsoft 365 compliance-inhoudsteam is hard bezig met het maken van documenten met inhoudsoplossing om te bevorderen hoe compliancemogelijkheden samen kunnen worden gebruikt om te voldoen aan uw compliancedoelstellingen.
+Het microsoft 365 compliance-inhoudsteam is hard bezig met het maken van documenten met 'inhoudsoplossing' om te bevorderen hoe compliancemogelijkheden samen kunnen worden gebruikt om uw nalevingsdoelstellingen te bereiken.
 
 Ten eerste is inhoud die onze insiderrisicooplossingen met elkaar verbindt: communicatie compliance, insider risk management, informatiebarrières en privileged access management. Hier ziet u wat u kunt vinden:
 
@@ -277,7 +298,7 @@ Maak kennis [met klantsleutel voor Microsoft 365 op tenantniveau.](customer-key-
 - Teams mediaberichten (afbeeldingen, codefragmenten, video's, wikiafbeeldingen)
 - Teams gespreks- en vergaderingsopnamen die zijn opgeslagen in Teams opslag
 - Teams chatmeldingen
-- Teams chatsuggesties van Cortana
+- Teams chatsuggesties per Cortana
 - Teams statusberichten
 - Gebruikers- en signaalgegevens voor Exchange Online
 

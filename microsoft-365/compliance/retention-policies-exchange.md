@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Lees hoe retentie werkt voor Exchange.
-ms.openlocfilehash: efb95b22355bff292ef63c77fb77fb5a15d66722
-ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
+ms.openlocfilehash: 29a07ca9c819939c32f9ec13205a821a45e03883
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52861129"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52985430"
 ---
 # <a name="learn-about-retention-for-exchange"></a>Meer informatie over retentie voor Exchange
 
@@ -34,7 +34,7 @@ De informatie in dit artikel is een aanvulling op [Meer informatie over retentie
 
 ## <a name="whats-included-for-retention-and-deletion"></a>Wat is inbegrepen voor retentie en verwijdering?
 
-De volgende Exchange-items kunnen worden behouden of verwijderd door het gebruiken van bewaarbeleid en retentielabels: e-mailberichten (inclusief concepten) met eventuele bijlagen, notities en taken als ze een einddatum hebben. 
+De volgende Exchange-items van postvakken van gebruikers en gedeelde postvakken kunnen worden behouden of verwijderd door gebruik te maken van bewaarbeleid en retentielabels: e-mailberichten (inclusief ontvangen berichten, concepten en verzonden berichten) met eventuele bijlagen, notities en taken als deze een einddatum hebben. 
 
 Agenda-items die een einddatum hebben, worden ondersteund voor bewaarbeleidsregels, maar niet voor retentielabels.
 

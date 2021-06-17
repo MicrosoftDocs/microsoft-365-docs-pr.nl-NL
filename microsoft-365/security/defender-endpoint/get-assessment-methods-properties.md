@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.custom: api
-ms.openlocfilehash: 63f8490984886b8b95e5c090865b5384a0ba04fb
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: ace9f55b0b083faaeeb620700a43a1216c4451c2
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52789338"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984866"
 ---
 # <a name="export-assessment-methods-and-properties-per-device"></a>Beoordelingsmethoden en -eigenschappen per apparaat exporteren
 
@@ -34,8 +34,6 @@ ms.locfileid: "52789338"
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-[!include[Prerelease information](../../includes/prerelease.md)]
-
 ## <a name="api-description"></a>API-beschrijving
 
 Hier vindt u methoden en eigenschapsgegevens over de API's die Threat and Vulnerability Management per apparaat verzamelen. Er zijn verschillende API-oproepen om verschillende typen gegevens op te halen. Over het algemeen bevat elke API-oproep de vereiste gegevens voor apparaten in uw organisatie.
@@ -44,13 +42,15 @@ Hier vindt u methoden en eigenschapsgegevens over de API's die Threat and Vulner
 >
 > Tenzij anders aangegeven, zijn alle vermelde exportbeoordelingsmethoden volledig **_geëxporteerd_** en **_per apparaat_** (ook wel per **_apparaat genoemd)._**
 
-Er zijn drie API-methoden die u kunt gebruiken om verschillende soorten gegevens op te halen (exporteren:
+U kunt de exportbeoordelings-API's gebruiken om verschillende soorten gegevens op te halen (exporteren:
 
-1. Evaluatie van beveiligde configuraties exporteren
+- [1. Secure configurations assessment exporteren](#1-export-secure-configurations-assessment)
 
-2. Software-inventarisbeoordeling exporteren
+- [2. Evaluatie van de softwarevoorraad exporteren](#2-export-software-inventory-assessment)
 
-3. Software-kwetsbaarhedenbeoordeling exporteren
+- [3. Beoordeling van beveiligingsproblemen met software exporteren](#3-export-software-vulnerabilities-assessment)
+
+De API's die overeenkomen met de exportgegevenstypen worden beschreven in de secties 1, 2 en 3.
 
 Voor elke methode zijn er verschillende API-oproepen om verschillende typen gegevens op te halen. Omdat de hoeveelheid gegevens groot kan zijn, kunnen deze op twee manieren worden opgehaald:
 
@@ -79,27 +79,27 @@ Beveiligde configuratiebeoordeling **exporteren (via bestanden)** | Veilige conf
 
 Eigenschap (id) | Gegevenstype | Beschrijving
 :---|:---|:---
-ConfigurationCategory | tekenreeks | Categorie of groepering waarvan de configuratie deel uitmaken: Toepassing, BE, Netwerk, Accounts, Beveiligingsbesturingselementen
-ConfigurationId | tekenreeks | Unieke id voor een specifieke configuratie
-ConfigurationImpact | tekenreeks | Beoordeelde invloed van de configuratie op de algemene configuratiescore (1-10)
-ConfigurationName | tekenreeks | Weergavenaam van de configuratie
-ConfigurationSubcategory | tekenreeks | Subcategorie of subgroepering waarvan de configuratie deel uitmaken. In veel gevallen worden hier specifieke mogelijkheden of functies beschreven.
-DeviceId | tekenreeks | Unieke id voor het apparaat in de service.
-Apparaatnaam | tekenreeks | Volledig gekwalificeerde domeinnaam (FQDN) van het apparaat.
+ConfigurationCategory | string | Categorie of groepering waarvan de configuratie deel uitmaken: Toepassing, BE, Netwerk, Accounts, Beveiligingsbesturingselementen
+ConfigurationId | string | Unieke id voor een specifieke configuratie
+ConfigurationImpact | string | Beoordeelde invloed van de configuratie op de algemene configuratiescore (1-10)
+ConfigurationName | string | Weergavenaam van de configuratie
+ConfigurationSubcategory | string | Subcategorie of subgroepering waarvan de configuratie deel uitmaken. In veel gevallen worden hier specifieke mogelijkheden of functies beschreven.
+DeviceId | string | Unieke id voor het apparaat in de service.
+Apparaatnaam | string | Volledig gekwalificeerde domeinnaam (FQDN) van het apparaat.
 IsApplicable | bool | Geeft aan of de configuratie of het beleid van toepassing is
 IsCompliant | bool | Geeft aan of de configuratie of het beleid juist is geconfigureerd
 IsExpectedUserImpact | bool | Geeft aan of er gevolgen voor de gebruiker zijn als de configuratie wordt toegepast
-OSPlatform | tekenreeks | Platform van het besturingssysteem dat op het apparaat wordt uitgevoerd. Dit geeft specifieke besturingssystemen aan, waaronder variaties binnen dezelfde familie, zoals Windows 10 en Windows 7. Zie ondersteunde besturingssystemen en platforms van tvm voor meer informatie.
-RbacGroupName | tekenreeks | De groep Toegangsbeheer (RBAC) op basis van rollen. Als dit apparaat niet is toegewezen aan een RBAC-groep, is de waarde 'Niet toegewezen'. Als de organisatie geen RBAC-groepen bevat, is de waarde 'Geen'.
-RecommendationReference | tekenreeks | Een verwijzing naar de aanbevelings-id met betrekking tot deze software.
-Tijdstempel | tekenreeks | De laatste keer dat de configuratie op het apparaat is gezien
+OSPlatform | string | Platform van het besturingssysteem dat op het apparaat wordt uitgevoerd. Dit geeft specifieke besturingssystemen aan, waaronder variaties binnen dezelfde familie, zoals Windows 10 en Windows 7. Zie ondersteunde besturingssystemen en platforms van tvm voor meer informatie.
+RbacGroupName | string | De groep Toegangsbeheer (RBAC) op basis van rollen. Als dit apparaat niet is toegewezen aan een RBAC-groep, is de waarde 'Niet toegewezen'. Als de organisatie geen RBAC-groepen bevat, is de waarde 'Geen'.
+RecommendationReference | string | Een verwijzing naar de aanbevelings-id met betrekking tot deze software.
+Tijdstempel | string | De laatste keer dat de configuratie op het apparaat is gezien
 
 ### <a name="13-properties-via-files"></a>1.3 Eigenschappen (via bestanden)
 
 Eigenschap (id) | Gegevenstype | Beschrijving
 :---|:---|:---
 Bestanden exporteren | \[matrixreeks\] | Een lijst met download-URL's voor bestanden met de huidige momentopname van de organisatie.
-GeneratedTime | tekenreeks | De tijd dat de export is gegenereerd.
+GeneratedTime | string | De tijd dat de export is gegenereerd.
 
 ## <a name="2-export-software-inventory-assessment"></a>2. Evaluatie van de softwarevoorraad exporteren
 
@@ -116,27 +116,27 @@ Beoordeling van softwarevoorraad **exporteren (via bestanden)** | Softwarevoorra
 
 Eigenschap (id) | Gegevenstype | Beschrijving
 :---|:---|:---
-DeviceId | tekenreeks | Unieke id voor het apparaat in de service.
-Apparaatnaam | tekenreeks | Volledig gekwalificeerde domeinnaam (FQDN) van het apparaat.
+DeviceId | string | Unieke id voor het apparaat in de service.
+Apparaatnaam | string | Volledig gekwalificeerde domeinnaam (FQDN) van het apparaat.
 DiskPaths | Matrix[tekenreeks]  | Schijf bewijs dat het product is geïnstalleerd op het apparaat.
-EndOfSupportDate | tekenreeks | De datum waarop de ondersteuning voor deze software is of eindigt.
-EndOfSupportStatus | tekenreeks | Einde van de ondersteuningsstatus. Kan deze mogelijke waarden bevatten: Geen, EOS-versie, aankomende EOS-versie, EOS-software, aankomende EOS-software.
-Id | tekenreeks | Unieke id voor de record.
+EndOfSupportDate | string | De datum waarop de ondersteuning voor deze software is of eindigt.
+EndOfSupportStatus | string | Einde van de ondersteuningsstatus. Kan deze mogelijke waarden bevatten: Geen, EOS-versie, aankomende EOS-versie, EOS-software, aankomende EOS-software.
+Id | string | Unieke id voor de record.
 NumberOfWeaknesses | int|Aantal zwakke punten in deze software op dit apparaat
-OSPlatform | tekenreeks | Platform van het besturingssysteem dat op het apparaat wordt uitgevoerd. Dit geeft specifieke besturingssystemen aan, waaronder variaties binnen dezelfde familie, zoals Windows 10 en Windows 7. Zie ondersteunde besturingssystemen en platforms van tvm voor meer informatie.
-RbacGroupName | tekenreeks | De groep Toegangsbeheer (RBAC) op basis van rollen. Als dit apparaat niet is toegewezen aan een RBAC-groep, is de waarde 'Niet toegewezen'. Als de organisatie geen RBAC-groepen bevat, is de waarde 'Geen'.
+OSPlatform | string | Platform van het besturingssysteem dat op het apparaat wordt uitgevoerd. Dit geeft specifieke besturingssystemen aan, waaronder variaties binnen dezelfde familie, zoals Windows 10 en Windows 7. Zie ondersteunde besturingssystemen en platforms van tvm voor meer informatie.
+RbacGroupName | string | De groep Toegangsbeheer (RBAC) op basis van rollen. Als dit apparaat niet is toegewezen aan een RBAC-groep, is de waarde 'Niet toegewezen'. Als de organisatie geen RBAC-groepen bevat, is de waarde 'Geen'.
 RegistryPaths | Matrix[tekenreeks] | Registergegevens dat het product op het apparaat is geïnstalleerd.
-SoftwareFirstSeenTimestamp | tekenreeks | De eerste keer dat deze software op het apparaat werd gezien.
-SoftwareName | tekenreeks | Naam van het softwareproduct.
-SoftwareVendor | tekenreeks | Naam van de softwareleverancier.
-SoftwareVersion | tekenreeks | Versienummer van het softwareproduct.
+SoftwareFirstSeenTimestamp | string | De eerste keer dat deze software op het apparaat werd gezien.
+SoftwareName | string | Naam van het softwareproduct.
+SoftwareVendor | string | Naam van de softwareleverancier.
+SoftwareVersion | string | Versienummer van het softwareproduct.
 
 ### <a name="23-properties-via-files"></a>2.3 Eigenschappen (via bestanden)
 
 Eigenschap (id) | Gegevenstype | Beschrijving
 :---|:---|:---
 Bestanden exporteren | \[matrixreeks\] | Een lijst met download-URL's voor bestanden met de huidige momentopname van de organisatie.
-GeneratedTime | tekenreeks | De tijd dat de export is gegenereerd.
+GeneratedTime | string | De tijd dat de export is gegenereerd.
 
 ## <a name="3-export-software-vulnerabilities-assessment"></a>3. Beoordeling van beveiligingsproblemen met software exporteren
 
@@ -148,37 +148,64 @@ Methode | Gegevenstype | Beschrijving
 :---|:---|:---
 Beoordeling van beveiligingsproblemen met software **exporteren (OData)** | Onderzoeksverzameling Zie: [3.2 Eigenschappen (OData)](#32-properties-odata) | Retourneert een tabel met een vermelding voor elke unieke combinatie van DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion, CveId. De API haalt alle gegevens in uw organisatie op als Json-antwoorden, volgens het OData-protocol. Deze methode is het beste voor kleine organisaties met minder dan 100 K-apparaten. Het antwoord is paginated, zodat u het veld @odata.nextLink uit het antwoord kunt gebruiken om de volgende resultaten op te halen.
 Beoordeling van beveiligingsproblemen met software **exporteren (via bestanden)** | Onderzoeksentiteit Zie: [3.3 Eigenschappen (via bestanden)](#33-properties-via-files) | Retourneert een tabel met een vermelding voor elke unieke combinatie van DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion, CveId. Met deze API-oplossing kunt u sneller en betrouwbaarder grotere hoeveelheden gegevens verzamelen. Daarom wordt het aanbevolen voor grote organisaties, met meer dan 100 K-apparaten. Met deze API worden alle gegevens in uw organisatie als downloadbestanden opgeslagen. Het antwoord bevat URL's om alle gegevens uit de Azure Storage. Met deze API kunt u al uw gegevens als volgt Azure Storage downloaden: 1.  Bel de API om een lijst met url's te downloaden met al uw organisatiegegevens. 2.  Download alle bestanden met de download-URL's en verwerkt de gegevens naar eigen goed gebruik.
+**Evaluatie van beveiligingsproblemen** bij Delta-exportsoftware **(OData)** | Onderzoeksverzameling Zie: [3.4 Eigenschappen Delta exporteren OData)](#34-properties-delta-export-odata) | Retourneert een tabel met een vermelding voor elke unieke combinatie van: DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion, CveId en EventTimestamp. <br><br> De API haalt gegevens in uw organisatie op als Json-antwoorden, volgens het OData-protocol. Het antwoord is paginated, zodat u het veld @odata.nextLink uit het antwoord kunt gebruiken om de volgende resultaten op te halen. In tegenstelling tot de evaluatie van volledige softwareproblemen (OData) - die wordt gebruikt om een volledige momentopname van de beoordeling van de beveiligingsproblemen in de software van uw organisatie per apparaat te verkrijgen - wordt de delta export OData API-oproep gebruikt om alleen de wijzigingen op te halen die zijn gebeurd tussen een geselecteerde datum en de huidige datum (de delta-API-oproep). In plaats van elke keer een volledige export met een grote hoeveelheid gegevens te krijgen, krijgt u alleen specifieke informatie over nieuwe, opgeloste en bijgewerkte beveiligingslekken. Delta export OData API-oproep kan ook worden gebruikt om verschillende KPI's te berekenen, zoals 'hoeveel beveiligingslekken zijn opgelost?' of 'hoeveel nieuwe beveiligingslekken zijn toegevoegd aan mijn organisatie?'  <br><br> Omdat de Delta Export OData API call for software vulnerabilities gegevens retourneert voor alleen een gericht datumbereik, wordt deze niet beschouwd als _een volledige export_.
 
 ### <a name="32-properties-odata"></a>3.2 Eigenschappen (OData)
 
 Eigenschap (id) | Gegevenstype | Beschrijving
 :---|:---|:---
-CveId | tekenreeks | Unieke id die is toegewezen aan het beveiligingsprobleem onder het CVE-systeem (Common Vulnerabilities and Exposures).
-CvssScore | tekenreeks | De CVSS-score van de CVE.
-DeviceId | tekenreeks | Unieke id voor het apparaat in de service.
-Apparaatnaam | tekenreeks | Volledig gekwalificeerde domeinnaam (FQDN) van het apparaat.
+CveId | string | Unieke id die is toegewezen aan het beveiligingsprobleem onder het CVE-systeem (Common Vulnerabilities and Exposures).
+CvssScore | string | De CVSS-score van de CVE.
+DeviceId | string | Unieke id voor het apparaat in de service.
+Apparaatnaam | string | Volledig gekwalificeerde domeinnaam (FQDN) van het apparaat.
 DiskPaths | \[Matrixreeks\] | Schijf bewijs dat het product is geïnstalleerd op het apparaat.
-ExploitabilityLevel | tekenreeks | Het gebruiksniveau van dit beveiligingsprobleem (NoExploit, ExploitIsPublic, ExploitIsVerified, ExploitIsInKit)
-FirstSeenTimestamp | tekenreeks | De eerste keer dat de CVE van dit product op het apparaat werd gezien.
-Id | tekenreeks | Unieke id voor de record.
-LastSeenTimestamp | tekenreeks | De laatste keer dat de CVE werd gezien op het apparaat.
-OSPlatform | tekenreeks | Platform van het besturingssysteem dat op het apparaat wordt uitgevoerd. Dit geeft specifieke besturingssystemen aan, waaronder variaties binnen dezelfde familie, zoals Windows 10 en Windows 7. Zie ondersteunde besturingssystemen en platforms van tvm voor meer informatie.
-RbacGroupName | tekenreeks | De groep Toegangsbeheer (RBAC) op basis van rollen. Als dit apparaat niet is toegewezen aan een RBAC-groep, is de waarde 'Niet toegewezen'. Als de organisatie geen RBAC-groepen bevat, is de waarde 'Geen'.
-RecommendationReference | tekenreeks | Een verwijzing naar de aanbevelings-id met betrekking tot deze software.
-AanbevolenSecurityUpdate | tekenreeks | Naam of beschrijving van de beveiligingsupdate die door de softwareleverancier wordt geleverd om het beveiligingsprobleem aan te pakken.
-AanbevolenSecurityUpdateId | tekenreeks | Id van de toepasselijke beveiligingsupdates of -id voor de bijbehorende richtlijnen of KB-artikelen (Knowledge Base)
+ExploitabilityLevel | string | Het gebruiksniveau van dit beveiligingsprobleem (NoExploit, ExploitIsPublic, ExploitIsVerified, ExploitIsInKit)
+FirstSeenTimestamp | string | De eerste keer dat de CVE van dit product op het apparaat werd gezien.
+Id | string | Unieke id voor de record.
+LastSeenTimestamp | string | De laatste keer dat de CVE werd gezien op het apparaat.
+OSPlatform | string | Platform van het besturingssysteem dat op het apparaat wordt uitgevoerd. Dit geeft specifieke besturingssystemen aan, waaronder variaties binnen dezelfde familie, zoals Windows 10 en Windows 7. Zie ondersteunde besturingssystemen en platforms van tvm voor meer informatie.
+RbacGroupName | string | De groep Toegangsbeheer (RBAC) op basis van rollen. Als dit apparaat niet is toegewezen aan een RBAC-groep, is de waarde 'Niet toegewezen'. Als de organisatie geen RBAC-groepen bevat, is de waarde 'Geen'.
+RecommendationReference | string | Een verwijzing naar de aanbevelings-id met betrekking tot deze software.
+AanbevolenSecurityUpdate | string | Naam of beschrijving van de beveiligingsupdate die door de softwareleverancier wordt geleverd om het beveiligingsprobleem aan te pakken.
+AanbevolenSecurityUpdateId | string | Id van de toepasselijke beveiligingsupdates of -id voor de bijbehorende richtlijnen of KB-artikelen (Knowledge Base)
 Matrixreeks \[ registerpaden\] | Registergegevens dat het product op het apparaat is geïnstalleerd.
-SoftwareName | tekenreeks | Naam van het softwareproduct.
-SoftwareVendor | tekenreeks | Naam van de softwareleverancier.
-SoftwareVersion | tekenreeks | Versienummer van het softwareproduct.
-VulnerabilitySeverityLevel | tekenreeks | Ernstniveau dat is toegewezen aan het beveiligingsprobleem op basis van de CVSS-score en dynamische factoren die worden beïnvloed door het bedreigingslandschap.
+SoftwareName | string | Naam van het softwareproduct.
+SoftwareVendor | string | Naam van de softwareleverancier.
+SoftwareVersion | string | Versienummer van het softwareproduct.
+VulnerabilitySeverityLevel | string | Ernstniveau dat is toegewezen aan het beveiligingsprobleem op basis van de CVSS-score en dynamische factoren die worden beïnvloed door het bedreigingslandschap.
 
 ### <a name="33-properties-via-files"></a>3.3 Eigenschappen (via bestanden)
 
 Eigenschap (id) | Gegevenstype | Beschrijving
 :---|:---|:---
 Bestanden exporteren | \[matrixreeks\]  | Een lijst met download-URL's voor bestanden met de huidige momentopname van de organisatie.
-GeneratedTime | tekenreeks | De tijd dat de export is gegenereerd.
+GeneratedTime | string | De tijd dat de export is gegenereerd.
+
+### <a name="34-properties-delta-export-odata"></a>3.4 Eigenschappen (delta-export OData)
+
+Eigenschap (id) | Gegevenstype | Beschrijving
+:---|:---|:---
+CveId | string | Unieke id die is toegewezen aan het beveiligingsprobleem onder het CVE-systeem (Common Vulnerabilities and Exposures).
+CvssScore | string | De CVSS-score van de CVE.
+DeviceId | string | Unieke id voor het apparaat in de service.
+Apparaatnaam | string | Volledig gekwalificeerde domeinnaam (FQDN) van het apparaat.
+DiskPaths | Matrix[tekenreeks] | Schijf bewijs dat het product is geïnstalleerd op het apparaat.
+EventTimestamp | Tekenreeks | De tijd dat deze deltagebeurtenis is gevonden.
+ExploitabilityLevel | string | Het gebruiksniveau van dit beveiligingsprobleem (NoExploit, ExploitIsPublic, ExploitIsVerified, ExploitIsInKit)
+FirstSeenTimestamp | string | De eerste keer dat de CVE van dit product op het apparaat werd gezien.
+Id | string | Unieke id voor de record.  
+LastSeenTimestamp | string | De laatste keer dat de CVE werd gezien op het apparaat.
+OSPlatform | string | Platform van het besturingssysteem dat op het apparaat wordt uitgevoerd. Dit geeft specifieke besturingssystemen aan, waaronder variaties binnen dezelfde familie, zoals Windows 10 en Windows 7. Zie ondersteunde besturingssystemen en platforms van tvm voor meer informatie.
+RbacGroupName | string | De groep Toegangsbeheer (RBAC) op basis van rollen. Als dit apparaat niet is toegewezen aan een RBAC-groep, is de waarde 'Niet toegewezen'. Als de organisatie geen RBAC-groepen bevat, is de waarde 'Geen'.
+RecommendationReference | string | Een verwijzing naar de aanbevelings-id met betrekking tot deze software.
+AanbevolenSecurityUpdate  | string | Naam of beschrijving van de beveiligingsupdate die door de softwareleverancier wordt geleverd om het beveiligingsprobleem aan te pakken.
+AanbevolenSecurityUpdateId  | string | Id van de toepasselijke beveiligingsupdates of -id voor de bijbehorende richtlijnen of KB-artikelen (Knowledge Base)
+RegistryPaths  | Matrix[tekenreeks] | Registergegevens dat het product op het apparaat is geïnstalleerd.
+SoftwareName | string | Naam van het softwareproduct.
+SoftwareVendor | string | Naam van de softwareleverancier.
+SoftwareVersion | string | Versienummer van het softwareproduct.
+Status | Tekenreeks | **Nieuw**   (voor een nieuw beveiligingsprobleem dat op een apparaat is geïntroduceerd).  **Opgelost**   (voor een beveiligingsprobleem dat niet meer bestaat op het apparaat, wat betekent dat het is opgelost). **Bijgewerkt**   (voor een beveiligingsprobleem op een apparaat dat is gewijzigd. De mogelijke wijzigingen zijn: CVSS-score, exploitabilityniveau, ernstniveau, DiskPaths, RegistryPaths, RecommendedSecurityUpdate).
+VulnerabilitySeverityLevel | string | Ernstniveau dat is toegewezen aan het beveiligingsprobleem op basis van de CVSS-score en dynamische factoren die worden beïnvloed door het bedreigingslandschap.
 
 ## <a name="see-also"></a>Zie ook
 

@@ -1,6 +1,6 @@
 ---
 title: Hoe updates worden verwerkt in Microsoft Managed Desktop
-description: Het Microsoft Managed Desktop up-to-date houden is een evenwicht tussen snelheid en stabiliteit.
+description: Het up-to-date houden van Microsoft Managed Desktop is een evenwicht tussen snelheid en stabiliteit.
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
 author: jaimeo
@@ -11,12 +11,12 @@ manager: laurawi
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 6d93bf492f7cfea5a1ff863205085d853c4bbadb
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 5d78f695785cd81b51e20b90cdefbb3790cf6197
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52925429"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984734"
 ---
 # <a name="how-updates-are-handled-in-microsoft-managed-desktop"></a>Hoe updates worden verwerkt in Microsoft Managed Desktop
 
@@ -25,42 +25,38 @@ ms.locfileid: "52925429"
 
 <!--Update management -->
 
-Microsoft Managed Desktop maakt verbinding met een moderne cloudinfrastructuur. Het up-Windows, Office, stuurprogramma's, firmware en Microsoft Store voor Bedrijven-toepassingen up-to-date houden is een evenwicht tussen snelheid en stabiliteit. Implementatiegroepen worden gebruikt om ervoor te zorgen dat updates en beleidsregels van het besturingssysteem op een veilige manier worden geïmplementeerd. Zie voor meer informatie de video [Microsoft Managed Desktop Change and Release Process](https://www.microsoft.com/videoplayer/embed/RE4mWqP).
+Microsoft Managed Desktop verbindt alle apparaten met een moderne cloudinfrastructuur. Het up-to-date houden van Windows-, Office-, stuurprogramma's, firmware- en Microsoft Store voor Bedrijven-toepassingen is een evenwicht tussen snelheid en stabiliteit. We gebruiken updategroepen om ervoor te zorgen dat updates en beleidsregels van het besturingssysteem op een veilige manier worden uitgerold. Zie de video Microsoft Managed Desktop Change and Release Process (Microsoft [Managed Desktop Change and Release Process) voor meer informatie.](https://www.microsoft.com/videoplayer/embed/RE4mWqP) 
 
 Updates die door Microsoft zijn uitgebracht, zijn cumulatief en worden gecategoriseerd als kwaliteits- of functie-updates.
-Zie voor meer informatie [Windows Update voor Bedrijven: Updatetypen.](/windows/deployment/update/waas-manage-updates-wufb#update-types) 
+Zie Windows [Update voor Bedrijven: Updatetypen](/windows/deployment/update/waas-manage-updates-wufb#update-types)voor meer informatie. 
 
 ## <a name="update-groups"></a>Groepen bijwerken
 
+
 Microsoft Managed Desktop gebruikt vier Azure AD-groepen om updates te beheren:
 
-- **Test:** Wordt gebruikt om Microsoft Managed Desktop wijzigingen in het beleid, updates van besturingssysteem, functie-updates en andere wijzigingen die naar de tenant worden doorgevoerd te valideren. Er mogen geen gebruikers in de testgroep worden geplaatst. De testgroep is vrijgesteld van bestaande serviceovereenkomsten en gebruikersondersteuning. Deze groep is beschikbaar voor gebruik voor het valideren van de compatibiliteit van toepassingen met nieuwe beleids- of besturingssysteemwijzigingen.  
+- **Test:** Wordt gebruikt om beleidswijzigingen van Microsoft Managed Desktop te valideren, updates van besturingssysteem, functie-updates en andere wijzigingen die zijn doorgevoerd in de Azure AD-organisatie ("tenant"). Het beste voor tests of gebruikers die vroegtijdig feedback kunnen geven. De testgroep is vrijgesteld van bestaande serviceovereenkomsten en gebruikersondersteuning. Deze groep is beschikbaar voor gebruik voor het valideren van de compatibiliteit van toepassingen met nieuwe beleids- of besturingssysteemwijzigingen.  
 - **Ten** eerste: Bevat early software adopters en apparaten die onderhevig kunnen zijn aan pre-release updates. Apparaten in deze groep kunnen uitval krijgen als er scenario's zijn die niet zijn behandeld tijdens het testen in de testring.
 - **Snel:** prioriteit geeft prioriteit aan snelheid boven stabiliteit. Handig om kwaliteitsproblemen op te sporen voordat ze worden aangeboden aan de groep Breed. Deze groep fungeert als een volgende laag validatie, maar is meestal stabieler dan de groepen Testen en Eerste. 
-- **Breed:** Laatste groep om functie- en kwaliteitsupdates beschikbaar te hebben. Deze groep bevat de meeste gebruikers in de tenant en geeft daarom de voorkeur aan stabiliteit ten opzichte van de snelheid in de implementatie. Het testen van apps moet hier worden uitgevoerd, omdat de omgeving het meest stabiel is. 
+- **Breed:** Laatste groep om functie- en kwaliteitsupdates beschikbaar te hebben. Deze groep bevat de meeste gebruikers in de Azure AD-organisatie en geeft daarom de voorkeur aan stabiliteit ten opzichte van de snelheid in de implementatie. Het testen van apps moet hier worden uitgevoerd, omdat de omgeving het meest stabiel is.
 
 ### <a name="moving-devices-between-update-groups"></a>Apparaten verplaatsen tussen updategroepen
-Mogelijk wilt u dat sommige apparaten updates als laatste ontvangen en andere apparaten die u als eerste wilt gebruiken. Als u deze apparaten naar de juiste updategroep wilt verplaatsen, dient u [een ondersteuningsaanvraag](../working-with-managed-desktop/admin-support.md) voor beheerders in en worden de apparaten voor u verplaatst. 
+Mogelijk wilt u dat sommige apparaten updates als laatste ontvangen en andere apparaten die u als eerste wilt gebruiken. Zie Apparaten toewijzen aan een implementatiegroep als u deze apparaten naar de juiste updategroep [wilt verplaatsen.](../working-with-managed-desktop/assign-deployment-group.md)
 
-> [!NOTE]
-> Als u een gebruiker naar een andere updategroep wilt verplaatsen, dient u een ondersteuningsaanvraag in. Verplaats apparaten niet zelf tussen updategroepen. Er zijn ernstige gevolgen als een apparaat onjuist wordt verplaatst. Het apparaat kan onverwacht worden bijgewerkt en beleid kan conflicteren en de apparaatconfiguratie wijzigen.
+Zie Microsoft Managed Desktop Roles and responsibilities (Microsoft [Managed Desktop Roles and responsibilities)](../intro/roles-and-responsibilities.md) voor meer informatie over rollen en verantwoordelijkheden binnen deze implementatiegroepen.
 
-Zie rollen en verantwoordelijkheden voor meer informatie over rollen en verantwoordelijkheden in [deze implementatiegroepen Microsoft Managed Desktop rollen en verantwoordelijkheden](../intro/roles-and-responsibilities.md)
-
-### <a name="using-microsoft-managed-desktop-update-groups"></a>Groepen Microsoft Managed Desktop bijwerken 
-Er zijn onderdelen van de service die u beheert, zoals app-implementatie, waar het mogelijk nodig is om alle beheerde apparaten te targeten. In deze gevallen is het zinvol om updategroepen te gebruiken om deze gebruikers te bereiken met de informatie dat u het lidmaatschap van deze groepen niet kunt toevoegen, verwijderen of wijzigen. 
+### <a name="using-microsoft-managed-desktop-update-groups"></a>Updategroepen voor Microsoft Managed Desktop gebruiken 
+Er zijn onderdelen van de service die u beheert, zoals app-implementatie, waar het mogelijk nodig is om alle beheerde apparaten te targeten.
 
 ## <a name="how-update-deployment-works"></a>Hoe update-implementatie werkt:
 1. Microsoft Managed Desktop implementeert een nieuwe functie of kwaliteitsupdate volgens de planning die is opgegeven in de volgende tabel.
-2. Tijdens de implementatie worden Microsoft Managed Desktop op tekenen van fouten of verstoringen op basis van diagnostische gegevens en het ondersteuningssysteem van de gebruiker. Als er een wordt gedetecteerd, wordt de implementatie onmiddellijk onderbroken voor alle huidige en toekomstige groepen.
+2. Tijdens de implementatie controleert Microsoft Managed Desktop op tekenen van fouten of verstoringen op basis van diagnostische gegevens en het ondersteuningssysteem van de gebruiker. Als er een wordt gedetecteerd, wordt de implementatie onmiddellijk onderbroken voor alle huidige en toekomstige groepen.
     - Voorbeeld: als er een probleem wordt ontdekt tijdens het implementeren van een kwaliteitsupdate naar de eerste groep, worden implementaties bijgewerkt naar First, Fast en Broad totdat het probleem is opgelost.
-    - U kunt compatibiliteitsproblemen melden door een ticket in te dienen in de Microsoft Managed Desktop Admin portal.
+    - U kunt compatibiliteitsproblemen melden door een ticket in te dienen in de Microsoft Managed Desktop Admin-portal.
     - Functie- en kwaliteitsupdates worden onafhankelijk van elkaar onderbroken. Pauze is standaard 35 dagen van kracht, maar kan worden verkleind of uitgebreid, afhankelijk van of het probleem is opgelost.
-3. Wanneer de groepen niet zijn onderbroken, wordt de implementatie hervat volgens de planning in de tabel.
+3. Wanneer de groepen niet worden opgebruikt, wordt de implementatie hervat volgens de planning in de tabel.
 
 Dit implementatieproces is van toepassing op zowel functie- als kwaliteitsupdates, maar de tijdlijn verschilt per functie.
-
-
 
 
 <table>
@@ -76,16 +72,16 @@ Dit implementatieproces is van toepassing op zowel functie- als kwaliteitsupdate
 </table>
 
 >[!NOTE]
->Deze uitstelperioden zijn opzettelijk ontworpen om hoge beveiligings- en prestatiestandaarden voor alle gebruikers te garanderen. Op basis van gegevens die zijn verzameld op alle Microsoft Managed Desktop-apparaten en het variërende bereik en de invloed van updates, behoudt Microsoft Managed Desktop zich bovendien flexibiliteit voor het wijzigen van de lengte van de bovenstaande uitstelperioden voor alle implementatiegroepen op ad-hocbasis.
+>Deze uitstelperioden zijn opzettelijk ontworpen om hoge beveiligings- en prestatiestandaarden voor alle gebruikers te garanderen. Bovendien behoudt Microsoft Managed Desktop flexibiliteit op basis van gegevens die zijn verzameld op alle beheerde bureaubladapparaten van Microsoft en het variërende bereik en de impact van updates, om de lengte van de bovenstaande uitstelperioden op ad-hocbasis te wijzigen voor alle implementatiegroepen.
 >
->Microsoft Managed Desktop voert een onafhankelijke beoordeling uit van Windows functiere release om de noodzaak en het nut ervan voor de beheerde tenants te evalueren. Daarom kunnen Microsoft Managed Desktop al dan niet alle functies Windows implementeren. 
+>Microsoft Managed Desktop voert een onafhankelijke beoordeling uit van elke Windows-functiere release om de noodzaak en het nut ervan voor de beheerde tenants te evalueren. Daarom kunnen alle Windows-functieupdates al dan niet worden geïmplementeerd door Microsoft Managed Desktop. 
 
 ## <a name="windows-insider-program"></a>Windows Insider-programma
 
-Microsoft Managed Desktop biedt geen ondersteuning voor apparaten die deel uitmaken van het Windows Insider-programma. Het Windows Insider-programma wordt gebruikt om pre-releasesoftware Windows te valideren en is bedoeld voor apparaten die niet essentieel zijn voor de missie. Hoewel het een belangrijk Microsoft-initiatief is, is het niet bedoeld voor een brede implementatie in productieomgevingen. 
+Microsoft Managed Desktop biedt geen ondersteuning voor apparaten die deel uitmaken van het Windows Insider-programma. Het Windows Insider-programma wordt gebruikt om pre-release Windows-software te valideren en is bedoeld voor apparaten die niet essentieel zijn voor de missie. Hoewel het een belangrijk Microsoft-initiatief is, is het niet bedoeld voor een brede implementatie in productieomgevingen. 
 
-Alle apparaten die met Windows Insider-builds worden gevonden, kunnen worden toegevoegd aan de groep Test en worden vrijgesteld van updateovereenkomsten op serviceniveau en gebruikersondersteuning van Microsoft Managed Desktop.
+Alle apparaten die worden gevonden met Windows Insider-builds, kunnen worden toegevoegd aan de testgroep en zijn vrijgesteld van overeenkomsten op serviceniveau en gebruikersondersteuning van Microsoft Managed Desktop.
 
 ## <a name="bandwidth-management"></a>Bandbreedtebeheer
 
-We gebruiken [Delivery Optimization voor](/windows/deployment/update/waas-delivery-optimization) alle besturingssysteem- en stuurprogramma-updates. Hierdoor wordt de downloadgrootte van de Windows Update-service geminimaliseerd door te zoeken naar updates van collega's binnen het bedrijfsnetwerk.
+We gebruiken [Delivery Optimization voor](/windows/deployment/update/waas-delivery-optimization) alle besturingssysteem- en stuurprogramma-updates. Leveringsoptimalisatie minimaliseert de downloadgrootte van de Windows Update-service door te zoeken naar updates van collega's binnen het bedrijfsnetwerk.

@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.custom: api
-ms.openlocfilehash: fe6a4604852965bdcc563ac0e410ca165bc5a088
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: 5742c121b73eb8709e770c9b2c4da6dbfd942276
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52789347"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984854"
 ---
 # <a name="export-secure-configuration-assessment-per-device"></a>Veilige configuratiebeoordeling per apparaat exporteren
 
@@ -34,8 +34,6 @@ ms.locfileid: "52789347"
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-[!include[Prerelease information](../../includes/prerelease.md)]
->
 >
 Retourneert alle configuraties en hun status, per apparaat.
 
@@ -99,20 +97,20 @@ GET /api/machines/SecureConfigurationsAssessmentByMachine
 
 Eigenschap (id) | Gegevenstype | Beschrijving | Voorbeeld van een geretourneerde waarde
 :---|:---|:---|:---
-ConfigurationCategory | tekenreeks | Categorie of groepering waarvan de configuratie deel uitmaken: Toepassing, BE, Netwerk, Accounts, Beveiligingsbesturingselementen | Beveiligingsbesturingselementen
-ConfigurationId | tekenreeks | Unieke id voor een specifieke configuratie | scid-10000
-ConfigurationImpact | tekenreeks | Beoordeelde invloed van de configuratie op de algemene configuratiescore (1-10) | 9
-ConfigurationName | tekenreeks | Weergavenaam van de configuratie | Onboarden apparaten naar Microsoft Defender voor Eindpunt
-ConfigurationSubcategory | tekenreeks | Subcategorie of subgroepering waarvan de configuratie deel uitmaken. In veel gevallen worden hier specifieke mogelijkheden of functies beschreven. | Onboard-apparaten
-DeviceId | tekenreeks | Unieke id voor het apparaat in de service. | 9eaf3a8b5962e0e6b1af9ec75664a9b823df2d1
-Apparaatnaam | tekenreeks | Volledig gekwalificeerde domeinnaam (FQDN) van het apparaat. | johnlaptop.europe.contoso.com
+ConfigurationCategory | string | Categorie of groepering waarvan de configuratie deel uitmaken: Toepassing, BE, Netwerk, Accounts, Beveiligingsbesturingselementen | Beveiligingsbesturingselementen
+ConfigurationId | string | Unieke id voor een specifieke configuratie | scid-10000
+ConfigurationImpact | string | Beoordeelde invloed van de configuratie op de algemene configuratiescore (1-10) | 9
+ConfigurationName | string | Weergavenaam van de configuratie | Onboarden apparaten naar Microsoft Defender voor Eindpunt
+ConfigurationSubcategory | string | Subcategorie of subgroepering waarvan de configuratie deel uitmaken. In veel gevallen worden hier specifieke mogelijkheden of functies beschreven. | Onboard-apparaten
+DeviceId | string | Unieke id voor het apparaat in de service. | 9eaf3a8b5962e0e6b1af9ec75664a9b823df2d1
+Apparaatnaam | string | Volledig gekwalificeerde domeinnaam (FQDN) van het apparaat. | johnlaptop.europe.contoso.com
 IsApplicable | bool | Geeft aan of de configuratie of het beleid van toepassing is | waar
 IsCompliant | bool | Geeft aan of de configuratie of het beleid juist is geconfigureerd | onwaar
 IsExpectedUserImpact | bool | Geeft aan of er gevolgen voor de gebruiker zijn als de configuratie wordt toegepast | waar
-OSPlatform | tekenreeks | Platform van het besturingssysteem dat op het apparaat wordt uitgevoerd. Dit geeft specifieke besturingssystemen aan, waaronder variaties binnen dezelfde familie, zoals Windows 10 en Windows 7. Zie ondersteunde besturingssystemen en platforms van tvm voor meer informatie. | Windows10
-RbacGroupName | tekenreeks | De groep Toegangsbeheer (RBAC) op basis van rollen. Als dit apparaat niet is toegewezen aan een RBAC-groep, is de waarde 'Niet toegewezen'. Als de organisatie geen RBAC-groepen bevat, is de waarde 'Geen'. | Servers
-RecommendationReference | tekenreeks | Een verwijzing naar de aanbevelings-id met betrekking tot deze software. | sca-_-scid-20000
-Tijdstempel | tekenreeks | De laatste keer dat de configuratie op het apparaat is gezien | 2020-11-03 10:13:34.8476880
+OSPlatform | string | Platform van het besturingssysteem dat op het apparaat wordt uitgevoerd. Dit geeft specifieke besturingssystemen aan, waaronder variaties binnen dezelfde familie, zoals Windows 10 en Windows 7. Zie ondersteunde besturingssystemen en platforms van tvm voor meer informatie. | Windows10
+RbacGroupName | string | De groep Toegangsbeheer (RBAC) op basis van rollen. Als dit apparaat niet is toegewezen aan een RBAC-groep, is de waarde 'Niet toegewezen'. Als de organisatie geen RBAC-groepen bevat, is de waarde 'Geen'. | Servers
+RecommendationReference | string | Een verwijzing naar de aanbevelings-id met betrekking tot deze software. | sca-_-scid-20000
+Tijdstempel | string | De laatste keer dat de configuratie op het apparaat is gezien | 2020-11-03 10:13:34.8476880
 
 ### <a name="16-examples"></a>1.6 Voorbeelden
 
@@ -260,7 +258,7 @@ GET /api/machines/SecureConfigurationsAssessmentExport
 Eigenschap (id) | Gegevenstype | Beschrijving | Voorbeeld van een geretourneerde waarde
 :---|:---|:---|:---
 Bestanden exporteren | \[matrixreeks\] | Een lijst met DOWNLOAD-URL's voor bestanden met de huidige momentopname van de organisatie | [  Https://tvmexportstrstgeus.blob.core.windows.net/tvm-export...1”, “https://tvmexportstrstgeus.blob.core.windows.net/tvm-export...2” ]
-GeneratedTime | tekenreeks | De tijd dat de export is gegenereerd. | 2021-05-20T08:00:00Z ]
+GeneratedTime | string | De tijd dat de export is gegenereerd. | 2021-05-20T08:00:00Z ]
 
 ### <a name="26-examples"></a>2.6 Voorbeelden
 

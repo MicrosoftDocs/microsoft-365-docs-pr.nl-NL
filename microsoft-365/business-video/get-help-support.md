@@ -8,7 +8,7 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Adm_O365
 ms.custom:
@@ -18,17 +18,17 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: U moet een beheerder voor een zakelijk abonnement zijn om hulp van beheerders of online of telefonische ondersteuning te krijgen in Microsoft 365 Business Premium.
-ms.openlocfilehash: e1250d5c291832e5a337f34e49ce0b7cf68fb08d
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
-ms.translationtype: MT
+description: U moet beheerder zijn van een zakelijk abonnement als u beheerdersondersteuning of online of telefonische ondersteuning wilt krijgen in Microsoft 365 Business Premium.
+ms.openlocfilehash: 254e01894f430bdf6a8f666d1425af8705968647
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
+ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635900"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984746"
 ---
 # <a name="get-support"></a>Ondersteuning krijgen
 
-## <a name="watch-get-help-or-support"></a>Kijken: Hulp of ondersteuning krijgen 
+## <a name="watch-get-help-or-support"></a>Bekijk: Hulp of ondersteuning krijgen 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOgo?autoplay=false]
 
@@ -257,8 +257,8 @@ U kunt ook [zoeken in de communityfora voor Microsoft 365 voor Bedrijven](https:
 ::: moniker-end
 
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Documenten en training zoeken](find-help-answers.md) (artikel)\
-[Snelle installatie van werknemer](employee-quick-setup.md) (artikel)\
-[Overzicht van Microsoft 365 Business Premium setup](setup-overview.md) (video)
+[Snelle installatie voor werknemers](employee-quick-setup.md) (artikel)\
+[Overzicht van de installatie van Microsoft 365 Business Premium](setup-overview.md) (video)

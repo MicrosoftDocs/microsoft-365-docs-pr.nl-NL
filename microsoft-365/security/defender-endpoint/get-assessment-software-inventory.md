@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.custom: api
-ms.openlocfilehash: 3a65fb6d5d3e5c6e68e100aa3ea2b4cf896dc281
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: 4f2e16acf474d6da8867a6bd392f9e90e0cf166e
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52789346"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984842"
 ---
 # <a name="export-software-inventory-assessment-per-device"></a>Beoordeling van de softwarevoorraad per apparaat exporteren
 
@@ -34,8 +34,6 @@ ms.locfileid: "52789346"
 
 > Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-[!include[Prerelease information](../../includes/prerelease.md)]
->
 >
 Er zijn verschillende API-oproepen om verschillende typen gegevens op te halen. Omdat de hoeveelheid gegevens groot kan zijn, kunnen deze op twee manieren worden opgehaald:
 
@@ -98,20 +96,20 @@ GET /api/machines/SoftwareInventoryByMachine
 
 Eigenschap (id) | Gegevenstype | Beschrijving | Voorbeeld van een geretourneerde waarde
 :---|:---|:---|:---
-DeviceId | tekenreeks | Unieke id voor het apparaat in de service. | 9eaf3a8b5962e0e6b1af9ec75664a9b823df2d1
-Apparaatnaam | tekenreeks | Volledig gekwalificeerde domeinnaam (FQDN) van het apparaat. | johnlaptop.europe.contoso.com
+DeviceId | string | Unieke id voor het apparaat in de service. | 9eaf3a8b5962e0e6b1af9ec75664a9b823df2d1
+Apparaatnaam | string | Volledig gekwalificeerde domeinnaam (FQDN) van het apparaat. | johnlaptop.europe.contoso.com
 DiskPaths | Matrix[tekenreeks]  | Schijf bewijs dat het product is geïnstalleerd op het apparaat. | [ "C: \\ Program Files (x86) \\ Microsoft \\ Silverlight \\ Application \\silverlight.exe" ]
-EndOfSupportDate | tekenreeks | De datum waarop de ondersteuning voor deze software is of eindigt. | 2020-12-30
-EndOfSupportStatus | tekenreeks | Einde van de ondersteuningsstatus. Kan deze mogelijke waarden bevatten: Geen, EOS-versie, aankomende EOS-versie, EOS-software, aankomende EOS-software. | Aankomende EOS
-Id | tekenreeks | Unieke id voor de record. | 123ABG55_573AG&mnp!
+EndOfSupportDate | string | De datum waarop de ondersteuning voor deze software is of eindigt. | 2020-12-30
+EndOfSupportStatus | string | Einde van de ondersteuningsstatus. Kan deze mogelijke waarden bevatten: Geen, EOS-versie, aankomende EOS-versie, EOS-software, aankomende EOS-software. | Aankomende EOS
+Id | string | Unieke id voor de record. | 123ABG55_573AG&mnp!
 NumberOfWeaknesses | int | Aantal zwakke punten in deze software op dit apparaat | 3
-OSPlatform | tekenreeks | Platform van het besturingssysteem dat op het apparaat wordt uitgevoerd. Dit geeft specifieke besturingssystemen aan, waaronder variaties binnen dezelfde familie, zoals Windows 10 en Windows 7. Zie ondersteunde besturingssystemen en platforms van tvm voor meer informatie. | Windows10
-RbacGroupName | tekenreeks | De groep Toegangsbeheer (RBAC) op basis van rollen. Als dit apparaat niet is toegewezen aan een RBAC-groep, is de waarde 'Niet toegewezen'. Als de organisatie geen RBAC-groepen bevat, is de waarde 'Geen'. | Servers
+OSPlatform | string | Platform van het besturingssysteem dat op het apparaat wordt uitgevoerd. Dit geeft specifieke besturingssystemen aan, waaronder variaties binnen dezelfde familie, zoals Windows 10 en Windows 7. Zie ondersteunde besturingssystemen en platforms van tvm voor meer informatie. | Windows10
+RbacGroupName | string | De groep Toegangsbeheer (RBAC) op basis van rollen. Als dit apparaat niet is toegewezen aan een RBAC-groep, is de waarde 'Niet toegewezen'. Als de organisatie geen RBAC-groepen bevat, is de waarde 'Geen'. | Servers
 RegistryPaths | Matrix[tekenreeks] | Registergegevens dat het product op het apparaat is geïnstalleerd. | [ "HKEY_LOCAL_MACHINE \\ SOFTWARE \\ WOW6432Node \\ Microsoft Windows \\ \\ CurrentVersion \\ Uninstall Microsoft \\ Silverlight" ]
-SoftwareFirstSeenTimestamp | tekenreeks | De eerste keer dat deze software op het apparaat werd gezien. | 2019-04-07 02:06:47
-SoftwareName | tekenreeks | Naam van het softwareproduct. | Silverlight
-SoftwareVendor | tekenreeks | Naam van de softwareleverancier. | microsoft
-SoftwareVersion | tekenreeks | Versienummer van het softwareproduct. | 81.0.4044.138
+SoftwareFirstSeenTimestamp | string | De eerste keer dat deze software op het apparaat werd gezien. | 2019-04-07 02:06:47
+SoftwareName | string | Naam van het softwareproduct. | Silverlight
+SoftwareVendor | string | Naam van de softwareleverancier. | microsoft
+SoftwareVersion | string | Versienummer van het softwareproduct. | 81.0.4044.138
 
 ### <a name="16-examples"></a>1.6 Voorbeelden
 
@@ -257,7 +255,7 @@ GET /api/machines/SoftwareInventoryExport
 Eigenschap (id) | Gegevenstype | Beschrijving | Voorbeeld van een geretourneerde waarde
 :---|:---|:---|:---
 Bestanden exporteren | \[matrixreeks\] | Een lijst met DOWNLOAD-URL's voor bestanden met de huidige momentopname van de organisatie | [  Https://tvmexportstrstgeus.blob.core.windows.net/tvm-export...1”, “https://tvmexportstrstgeus.blob.core.windows.net/tvm-export...2” ]
-GeneratedTime | tekenreeks | De tijd dat de export is gegenereerd. | 2021-05-20T08:00:00Z ]
+GeneratedTime | string | De tijd dat de export is gegenereerd. | 2021-05-20T08:00:00Z ]
 
 ### <a name="26-examples"></a>2.6 Voorbeelden
 

@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 58c2230d3a2e3323f7b9a315ca5d2a049f5f44fb
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: 409f6d0bbbcf9f8b50119e35bdb7852c4323bbf9
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52903850"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984986"
 ---
 # <a name="use-attack-surface-reduction-rules-to-prevent-malware-infection"></a>Regels voor de beperking van de surface-aanval gebruiken om malware-infectie te voorkomen
 
@@ -37,17 +37,17 @@ Het aanvalsoppervlak van uw organisatie bevat alle locaties waar een aanvaller d
 
 Attack surface reduction rules target certain software behaviors, such as:
 
-- Uitvoerbare bestanden en scripts starten die proberen bestanden te downloaden of uit te voeren;
-- Het uitvoeren van obfuscated of anderszins verdachte scripts; en
-- Het uitvoeren van gedragingen die apps meestal niet starten tijdens normale dagelijkse werkzaamheden.
+- Uitvoerbare bestanden en scripts starten die proberen bestanden te downloaden of uit te voeren
+- Obfuscated of anderszins verdachte scripts uitvoeren
+- Gedragingen uitvoeren dat apps meestal niet starten tijdens normale dagelijkse werkzaamheden
 
-Dergelijke softwaregedragingen worden soms gezien in legitieme toepassingen. Deze gedragingen worden echter vaak als riskant beschouwd omdat ze vaak worden misbruikt door aanvallers via malware. Regels voor het beperken van het oppervlak van aanvallen kunnen riskant gedrag beperken en uw organisatie helpen beschermen.
+Dergelijke softwaregedragingen worden soms gezien in legitieme toepassingen. Deze gedragingen worden echter vaak als riskant beschouwd omdat ze vaak worden misbruikt door aanvallers via malware. Regels voor het beperken van aanvallen kunnen risicovolle gedragingen op basis van software beperken en uw organisatie beschermen.
 
 Zie Voor meer informatie over het configureren van regels voor het configureren van de surface reduction-regels voor aanvallen De surface [reduction-regels inschakelen.](enable-attack-surface-reduction.md)
 
 ## <a name="assess-rule-impact-before-deployment"></a>Invloed van regel vóór implementatie beoordelen
 
-U kunt beoordelen hoe een surface reduction-regel voor aanvallen van invloed kan zijn op uw netwerk door de beveiligingsaanbeveling voor die regel te openen in [Threat and Vulnerability Management.](/windows/security/threat-protection/#tvm)
+U kunt beoordelen hoe een beperkingsregel voor een aanvalsoppervlak van invloed kan zijn op uw netwerk door de beveiligingsaanbeveling voor die regel te openen in [bedreigings- en kwetsbaarheidsbeheer.](/windows/security/threat-protection/#tvm)
 
 :::image type="content" source="images/asrrecommendation.png" alt-text="Beveiligingsherinding voor de surface reduction-regel voor aanvallen":::
 
@@ -55,7 +55,7 @@ Controleer in het deelvenster aanbevelingsdetails of de invloed van de gebruiker
 
 ## <a name="audit-mode-for-evaluation"></a>Controlemodus voor evaluatie
 
-Gebruik [de auditmodus](audit-windows-defender.md) om te evalueren hoe de regels voor de beperking van de surface van de aanval van invloed zijn op uw organisatie als deze zijn ingeschakeld. Voer eerst alle regels uit in de auditmodus, zodat u kunt begrijpen hoe deze van invloed zijn op uw bedrijfstoepassingen. Veel line-of-business-toepassingen zijn geschreven met beperkte beveiligingsproblemen en ze kunnen taken uitvoeren op manieren die lijken op malware. Door controlegegevens te controleren en [uitsluitingen toe te](enable-attack-surface-reduction.md#exclude-files-and-folders-from-asr-rules) voegen voor benodigde toepassingen, kunt u regels voor de beperking van de surface-aanval implementeren zonder de productiviteit te verlagen.
+Gebruik [de auditmodus](audit-windows-defender.md) om te evalueren hoe de regels voor de beperking van de surface van de aanval van invloed zijn op uw organisatie als deze is ingeschakeld. Voer eerst alle regels uit in de auditmodus, zodat u kunt begrijpen hoe deze van invloed zijn op uw bedrijfstoepassingen. Veel line-of-business-toepassingen zijn geschreven met beperkte beveiligingsproblemen en ze kunnen taken uitvoeren op manieren die lijken op malware. Door controlegegevens te controleren en [uitsluitingen toe te](enable-attack-surface-reduction.md#exclude-files-and-folders-from-asr-rules) voegen voor benodigde toepassingen, kunt u regels voor de beperking van de surface-aanval implementeren zonder de productiviteit te verlagen.
 
 ## <a name="warn-mode-for-users"></a>Waarschuwingsmodus voor gebruikers
 
@@ -70,9 +70,9 @@ De waarschuwingsmodus wordt ondersteund op apparaten met de volgende versies van
 - [Windows 10, versie 1809](/windows/whats-new/whats-new-windows-10-version-1809) of hoger
 - [Windows Server, versie 1809](/windows-server/get-started/whats-new-in-windows-server-1809) of hoger
 
-Microsoft Defender Antivirus moet worden uitgevoerd met realtime beveiliging in [de actieve modus.](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility#functionality-and-features-available-in-each-state)
+Microsoft Defender Antivirus moet worden uitgevoerd met realtime beveiliging in [de Actieve modus.](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility#functionality-and-features-available-in-each-state)
 
-Zorg er bovendien voor dat [Microsoft Defender Antivirus en antimalware-updates](/windows/security/threat-protection/microsoft-defender-antivirus/manage-updates-baselines-microsoft-defender-antivirus#monthly-platform-and-engine-versions) zijn geïnstalleerd.
+Zorg er bovendien voor dat [Microsoft Defender Antivirus- en antimalware-updates](/windows/security/threat-protection/microsoft-defender-antivirus/manage-updates-baselines-microsoft-defender-antivirus#monthly-platform-and-engine-versions) zijn geïnstalleerd.
 
 - Minimale vereiste voor het vrijgeven van platformen: `4.18.2008.9`
 - Minimale vereiste voor het vrijgeven van de motor: `1.1.17400.5`
@@ -81,7 +81,7 @@ Zie Update for Microsoft Defender [antimalware platform (Update voor Microsoft D
 
 ### <a name="cases-where-warn-mode-is-not-supported"></a>Gevallen waarin de waarschuwingsmodus niet wordt ondersteund
 
-De waarschuwingsmodus wordt niet ondersteund voor drie regels voor het verlagen van het aanvalsoppervlak wanneer u deze configureert in Microsoft Endpoint Manager. (Als u groepsbeleid gebruikt om de regels voor het verlagen van de aanvalsoppervlakken te configureren, wordt de waarschuwingsmodus ondersteund.) De drie regels die de waarschuwingsmodus niet ondersteunen wanneer u deze configureert in Microsoft Endpoint Manager zijn als volgt:
+De waarschuwingsmodus wordt niet ondersteund voor drie regels voor het verlagen van de surface voor aanvallen wanneer u deze configureert in Microsoft Endpoint Manager. (Als u groepsbeleid gebruikt om de regels voor het verlagen van de aanvalsoppervlakken te configureren, wordt de waarschuwingsmodus ondersteund.) De drie regels die de waarschuwingsmodus niet ondersteunen wanneer u deze configureert in Microsoft Endpoint Manager, zijn als volgt:
 
 - [JavaScript of VBScript blokkeren om gedownloade uitvoerbare inhoud](#block-javascript-or-vbscript-from-launching-downloaded-executable-content) (GUID) te starten `d3e037e1-3eb8-44c8-a917-57927947596d`
 - [Persistentie blokkeren via WMI-gebeurtenisabonnement](#block-persistence-through-wmi-event-subscription) `e6db77e5-3df2-4cf1-b95a-636979351e5b` (GUID)
@@ -95,7 +95,7 @@ Wanneer een surface reduction-regel voor aanvallen wordt geactiveerd, wordt er e
 
 Bovendien worden waarschuwingen gegenereerd wanneer bepaalde regels voor de beperking van het aanvalsoppervlak worden geactiveerd.
 
-Meldingen en eventuele waarschuwingen die worden gegenereerd, kunnen worden bekeken in de Microsoft 365 Defender-portal () (voorheen de [https://security.microsoft.com](https://security.microsoft.com) [Microsoft Defender-beveiligingscentrum).](microsoft-defender-security-center.md)
+Meldingen en waarschuwingen die worden gegenereerd, kunnen worden bekeken in de Microsoft 365 Defender-portal () (voorheen het [https://security.microsoft.com](https://security.microsoft.com) [Microsoft Defender-beveiligingscentrum genoemd).](microsoft-defender-security-center.md)
 
 ## <a name="advanced-hunting-and-attack-surface-reduction-events"></a>Geavanceerde gebeurtenissen bij het zoeken en aanvallen van oppervlakten
 
@@ -105,22 +105,27 @@ Stel dat een surface reduction-gebeurtenis voor aanvallen plaatsvindt op 10 appa
 
 Zie Proactief zoeken naar bedreigingen met geavanceerde jacht voor meer informatie over geavanceerde [jacht.](advanced-hunting-overview.md)
 
-## <a name="attack-surface-reduction-features-across-windows-versions"></a>Surface Reduction-functies voor aanvallen in Windows versies
+## <a name="attack-surface-reduction-features-across-windows-versions"></a>Surface Reduction-functies voor aanvallen in Windows-versies
 
-U kunt regels voor de beperking van de surface voor aanvallen instellen voor apparaten met een van de volgende versies en versies van Windows:
+U kunt regels voor het verminderen van aanvallen instellen voor apparaten met een van de volgende versies en versies van Windows:
 
-- Windows 10 Pro, versie [1709](/windows/whats-new/whats-new-windows-10-version-1709) of hoger
-- Windows 10 Enterprise, versie [1709](/windows/whats-new/whats-new-windows-10-version-1709) of hoger
+- Windows 10 Pro, [versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) of hoger
+- Windows 10 Enterprise, [versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) of hoger
 - Windows Server, [versie 1803 (halfjaarlijks kanaal)](/windows-server/get-started/whats-new-in-windows-server-1803) of hoger
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 
-Hoewel voor de regels voor het verminderen van aanvallen geen [E5-licentie](/windows/deployment/deploy-enterprise-licenses)Windows vereist, krijgt u geavanceerde beheermogelijkheden als u Windows E5 hebt. Deze mogelijkheden zijn alleen beschikbaar in Windows E5, zoals monitoring, analyse en werkstromen die beschikbaar zijn in [Defender](microsoft-defender-endpoint.md)voor Eindpunt, evenals rapportage- en configuratiemogelijkheden in [Microsoft 365 Defender.](/microsoft-365/security/defender/overview-security-center) Deze geavanceerde mogelijkheden zijn niet beschikbaar met een Windows Professional- of Windows E3-licentie. Als u echter wel over deze licenties hebt, kunt u Gebeurtenisviewer en logboeken Microsoft Defender Antivirus om de gebeurtenissen in de surface reduction rule van uw aanval te bekijken.
+Hoewel voor regels voor het verminderen van aanvallen geen [Windows E5-licentie](/windows/deployment/deploy-enterprise-licenses)is vereist, krijgt u geavanceerde beheermogelijkheden als u Windows E5 hebt. De geavanceerde mogelijkheden , die alleen beschikbaar zijn in Windows E5, zijn:
 
-## <a name="review-attack-surface-reduction-events-in-the-microsoft-365-defender-portal"></a>Gebeurtenissen in de surface reduction van aanvallen bekijken in Microsoft 365 Defender-portal
+- De monitoring, analyse en werkstromen die beschikbaar zijn in [Defender voor Eindpunt](microsoft-defender-endpoint.md)
+- De rapportage- en configuratiemogelijkheden in [Microsoft 365 Defender](/microsoft-365/security/defender/overview-security-center).
+
+Deze geavanceerde mogelijkheden zijn niet beschikbaar met een Windows Professional- of Windows E3-licentie. Als u echter wel over deze licenties hebt, kunt u logboeken eventviewer en Microsoft Defender Antivirus gebruiken om de gebeurtenissen in de Surface Reduction-regel voor aanvallen te bekijken.
+
+## <a name="review-attack-surface-reduction-events-in-the-microsoft-365-defender-portal"></a>Gebeurtenissen in de surface reduction van de aanval bekijken in de Microsoft 365 Defender-portal
 
 Defender voor Eindpunt biedt gedetailleerde rapportage voor gebeurtenissen en blokken als onderdeel van scenario's voor waarschuwingsonderzoek.
 
-U kunt Defender voor eindpuntgegevens query's uitvoeren in [Microsoft 365 Defender](microsoft-defender-security-center.md) met behulp van [geavanceerde jacht](advanced-hunting-query-language.md). Als u de auditmodus [gebruikt,](audit-windows-defender.md)kunt u geavanceerde zoekwerkzaamheden gebruiken om te begrijpen hoe de regels voor het beperken van het oppervlak van de aanval van invloed kunnen zijn op uw omgeving.
+U kunt Defender voor eindpuntgegevens query's uitvoeren in [Microsoft 365 Defender](microsoft-defender-security-center.md) met behulp van [geavanceerde jacht](advanced-hunting-query-language.md). Als u de auditmodus [gebruikt,](audit-windows-defender.md)kunt u geavanceerd zoeken gebruiken om te begrijpen wat de gevolgen zijn voor uw omgeving van de regels voor het beperken van het oppervlak.
 
 Hier is een voorbeeldquery:
 
@@ -129,13 +134,13 @@ DeviceEvents
 | where ActionType startswith 'Asr'
 ```
 
-## <a name="review-attack-surface-reduction-events-in-windows-event-viewer"></a>Gebeurtenissen voor het verminderen van aanvallen in Windows eventviewer bekijken
+## <a name="review-attack-surface-reduction-events-in-windows-event-viewer"></a>Gebeurtenissen voor het verminderen van aanvallen bekijken in Windows Event Viewer
 
-U kunt het logboek met Windows bekijken om gebeurtenissen weer te geven die zijn gegenereerd door regels voor het verminderen van het oppervlak van de aanval:
+U kunt het Windows-gebeurtenislogboek bekijken om gebeurtenissen weer te geven die zijn gegenereerd door regels voor het verminderen van het aanvalsoppervlak:
 
 1. Download het [evaluatiepakket en](https://aka.ms/mp7z2w) haal het *bestand* cfa-events.xmlnaar een gemakkelijk toegankelijke locatie op het apparaat.
 
-2. Voer de woorden, *Gebeurtenisviewer,* in het menu Start in om de Windows Gebeurtenisviewer te openen.
+2. Voer de woorden, *Gebeurtenisviewer,* in het menu Start in om de Windows Event Viewer te openen.
 
 3. Selecteer **onder Acties** de optie Aangepaste weergave **importeren...**.
 
@@ -145,7 +150,7 @@ U kunt het logboek met Windows bekijken om gebeurtenissen weer te geven die zijn
 
 U kunt een aangepaste weergave maken waarmee gebeurtenissen worden gefilterd om alleen de volgende gebeurtenissen weer te geven, die allemaal betrekking hebben op gecontroleerde maptoegang:
 
-|Gebeurtenis-id|Omschrijving|
+|Gebeurtenis-id|Beschrijving|
 |---|---|
 |5007|Gebeurtenis wanneer instellingen worden gewijzigd|
 |1121|Gebeurtenis wanneer regel wordt branden in de blokmodus|
@@ -157,47 +162,47 @@ De 'engine-versie' die wordt vermeld voor gebeurtenissen met een beperking van h
 
 In de volgende tabel en subsecties worden elk van de 15 regels voor het verminderen van het oppervlak beschreven. De regels voor de beperking van de aanvalsoppervlakken worden op naam van de regel in alfabetische volgorde weergegeven.
 
-Als u de regels voor het verlagen van de aanvalsoppervlakken configureert met groepsbeleid of PowerShell, hebt u de GUID's nodig. Als u echter een Microsoft Endpoint Manager of Microsoft Intune gebruikt, hebt u de GUID's niet nodig.
+Als u de regels voor het verlagen van de aanvalsoppervlakken configureert met groepsbeleid of PowerShell, hebt u de GUID's nodig. Als u echter Microsoft Endpoint Manager of Microsoft Intune gebruikt, hebt u de GUID's niet nodig.
 
 |Regelnaam|GUID|Bestand & mapuitsluitingen|Minimaal ondersteund besturingssysteem|
 |---|:---:|---|---|
 |[Misbruik van uitgebuite, kwetsbare ondertekende stuurprogramma's blokkeren](#block-abuse-of-exploited-vulnerable-signed-drivers)|`56a863a9-875e-4185-98a7-b882c64b5ce5`|Ondersteund|[Windows 10, versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) of hoger) |
-|[Adobe Reader blokkeren om onderliggende processen te maken](#block-adobe-reader-from-creating-child-processes)|`7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c`|Ondersteund|[Windows 10 versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) of hoger|
-|[Alle toepassingen Office voor het maken van onderliggende processen blokkeren](#block-all-office-applications-from-creating-child-processes)|`D4F940AB-401B-4EFC-AADC-AD5F3C50688A`|Ondersteund|[Windows 10 versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) of hoger|
-|[Referenties van het subsysteem van de Windows lokale beveiligingsinstantie blokkeren (lsass.exe)](#block-credential-stealing-from-the-windows-local-security-authority-subsystem)|`9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2`|Ondersteund|[Windows 10 versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) of hoger|
-|[Uitvoerbare inhoud van e-mailclient en webmail blokkeren](#block-executable-content-from-email-client-and-webmail)|`BE9BA2D9-53EA-4CDC-84E5-9B1EEEE46550`|Ondersteund|[Windows 10 versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) of hoger|
-|[Het uitvoeren van uitvoerbare bestanden blokkeren, tenzij ze voldoen aan een criterium voor gebruik, leeftijd of vertrouwde lijst](#block-executable-files-from-running-unless-they-meet-a-prevalence-age-or-trusted-list-criterion)|`01443614-cd74-433a-b99e-2ecdc07bfc25`|Ondersteund|[Windows 10 versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) of hoger|
-|[De uitvoering van mogelijk obfuscated scripts blokkeren](#block-execution-of-potentially-obfuscated-scripts)|`5BEB7EFE-FD9A-4556-801D-275E5FFC04CC`|Ondersteund|[Windows 10 versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) of hoger|
-|[JavaScript of VBScript blokkeren om gedownloade uitvoerbare inhoud te starten](#block-javascript-or-vbscript-from-launching-downloaded-executable-content)|`D3E037E1-3EB8-44C8-A917-57927947596D`|Ondersteund|[Windows 10 versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) of hoger|
-|[Voorkomen Office het maken van uitvoerbare inhoud](#block-office-applications-from-creating-executable-content)|`3B576869-A4EC-4529-8536-B80A7769E899`|Ondersteund|[Windows 10 versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) of hoger|
-|[Het Office blokkeren om code in andere processen te injecteren](#block-office-applications-from-injecting-code-into-other-processes)|`75668C1F-73B5-4CF0-BB93-3ECF5CB7CC84`|Ondersteund|[Windows 10 versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) of hoger|
-|[Blokkeren Office communicatietoepassing om onderliggende processen te maken](#block-office-communication-application-from-creating-child-processes)|`26190899-1602-49e8-8b27-eb1d0a1ce869`|Ondersteund|[Windows 10 versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) of hoger|
-|[Persistentie blokkeren via WMI-gebeurtenisabonnement](#block-persistence-through-wmi-event-subscription)|`e6db77e5-3df2-4cf1-b95a-636979351e5b`|Niet ondersteund|[Windows 10 versie 1903](/windows/whats-new/whats-new-windows-10-version-1903) (build 18362) of hoger|
-|[Procescreaties blokkeren die afkomstig zijn van PSExec- en WMI-opdrachten](#block-process-creations-originating-from-psexec-and-wmi-commands)|`d1e49aac-8f56-4280-b9ba-993a6d77406c`|Ondersteund|[Windows 10 versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) of hoger|
-|[Niet-vertrouwde en niet-ondertekende processen blokkeren die worden uitgevoerd via USB](#block-untrusted-and-unsigned-processes-that-run-from-usb)|`b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4`|Ondersteund|[Windows 10 versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) of hoger|
-|[Win32 API-oproepen blokkeren Office macro's](#block-win32-api-calls-from-office-macros)|`92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B`|Ondersteund|[Windows 10 versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) of hoger|
-|[Geavanceerde beveiliging tegen ransomware gebruiken](#use-advanced-protection-against-ransomware)|`c1db55ab-c21a-4637-bb3f-a12568109d35`|Ondersteund|[Windows 10 versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) of hoger|
+|[Adobe Reader blokkeren om onderliggende processen te maken](#block-adobe-reader-from-creating-child-processes)|`7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c`|Ondersteund|[Windows 10, versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) of hoger|
+|[Alle Office-toepassingen blokkeren om onderliggende processen te maken](#block-all-office-applications-from-creating-child-processes)|`D4F940AB-401B-4EFC-AADC-AD5F3C50688A`|Ondersteund|[Windows 10, versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) of hoger|
+|[Referenties van het windows-subsysteem van de lokale beveiligingsinstantie blokkeren (lsass.exe)](#block-credential-stealing-from-the-windows-local-security-authority-subsystem)|`9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2`|Ondersteund|[Windows 10, versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) of hoger|
+|[Uitvoerbare inhoud van e-mailclient en webmail blokkeren](#block-executable-content-from-email-client-and-webmail)|`BE9BA2D9-53EA-4CDC-84E5-9B1EEEE46550`|Ondersteund|[Windows 10, versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) of hoger|
+|[Het uitvoeren van uitvoerbare bestanden blokkeren, tenzij ze voldoen aan een criterium voor gebruik, leeftijd of vertrouwde lijst](#block-executable-files-from-running-unless-they-meet-a-prevalence-age-or-trusted-list-criterion)|`01443614-cd74-433a-b99e-2ecdc07bfc25`|Ondersteund|[Windows 10, versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) of hoger|
+|[De uitvoering van mogelijk obfuscated scripts blokkeren](#block-execution-of-potentially-obfuscated-scripts)|`5BEB7EFE-FD9A-4556-801D-275E5FFC04CC`|Ondersteund|[Windows 10, versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) of hoger|
+|[JavaScript of VBScript blokkeren om gedownloade uitvoerbare inhoud te starten](#block-javascript-or-vbscript-from-launching-downloaded-executable-content)|`D3E037E1-3EB8-44C8-A917-57927947596D`|Ondersteund|[Windows 10, versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) of hoger|
+|[Voorkomen dat Office-toepassingen uitvoerbare inhoud maken](#block-office-applications-from-creating-executable-content)|`3B576869-A4EC-4529-8536-B80A7769E899`|Ondersteund|[Windows 10, versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) of hoger|
+|[Office-toepassingen blokkeren om code in andere processen te injecteren](#block-office-applications-from-injecting-code-into-other-processes)|`75668C1F-73B5-4CF0-BB93-3ECF5CB7CC84`|Ondersteund|[Windows 10, versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) of hoger|
+|[Office-communicatietoepassing blokkeren om onderliggende processen te maken](#block-office-communication-application-from-creating-child-processes)|`26190899-1602-49e8-8b27-eb1d0a1ce869`|Ondersteund|[Windows 10, versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) of hoger|
+|[Persistentie blokkeren via WMI-gebeurtenisabonnement](#block-persistence-through-wmi-event-subscription)|`e6db77e5-3df2-4cf1-b95a-636979351e5b`|Niet ondersteund|[Windows 10, versie 1903](/windows/whats-new/whats-new-windows-10-version-1903) (build 18362) of hoger|
+|[Procescreaties blokkeren die afkomstig zijn van PSExec- en WMI-opdrachten](#block-process-creations-originating-from-psexec-and-wmi-commands)|`d1e49aac-8f56-4280-b9ba-993a6d77406c`|Ondersteund|[Windows 10, versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) of hoger|
+|[Niet-vertrouwde en niet-ondertekende processen blokkeren die worden uitgevoerd via USB](#block-untrusted-and-unsigned-processes-that-run-from-usb)|`b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4`|Ondersteund|[Windows 10, versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) of hoger|
+|[Win32 API-oproepen blokkeren vanuit Office-macro's](#block-win32-api-calls-from-office-macros)|`92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B`|Ondersteund|[Windows 10, versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) of hoger|
+|[Geavanceerde beveiliging tegen ransomware gebruiken](#use-advanced-protection-against-ransomware)|`c1db55ab-c21a-4637-bb3f-a12568109d35`|Ondersteund|[Windows 10, versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) of hoger|
 |
 
 ### <a name="block-abuse-of-exploited-vulnerable-signed-drivers"></a>Misbruik van uitgebuite, kwetsbare ondertekende stuurprogramma's blokkeren
 
-Met deze regel voorkomt u dat een toepassing een kwetsbaar, ondertekend stuurprogramma naar schijf schrijft. In-the-wild, kwetsbaar ondertekende stuurprogramma's kunnen worden gebruikt door lokale toepassingen die voldoende bevoegdheden hebben om toegang te \-  \- krijgen tot de kernel. Met kwetsbaar ondertekende stuurprogramma's kunnen aanvallers beveiligingsoplossingen uitschakelen of omzeilen, wat uiteindelijk leidt tot systeemcompromitteerdheid.
+Met deze regel voorkomt u dat een toepassing een kwetsbaar ondertekend stuurprogramma op schijf schrijft. In-the-wild, kwetsbaar ondertekende stuurprogramma's kunnen worden gebruikt door lokale toepassingen die voldoende bevoegdheden hebben om toegang te \-  \- krijgen tot de kernel. Met kwetsbaar ondertekende stuurprogramma's kunnen aanvallers beveiligingsoplossingen uitschakelen of omzeilen, wat uiteindelijk leidt tot systeemcompromitteerdheid.
 
-Met deze regel wordt niet geblokkeerd dat een stuurprogramma dat al in het systeem bestaat, wordt geladen.
+De **regel Misbruik van uitgebuite,** kwetsbaar ondertekende stuurprogramma's blokkeren, betekent niet dat een stuurprogramma dat al op het systeem bestaat, niet kan worden geladen.
 
 >[!NOTE]
 >
-> Deze regel kan worden geconfigureerd met [mem oma-URI](enable-attack-surface-reduction.md#mem) voor proceduregegevens voor aangepaste regels voor MEM OMA-URI.
+> U kunt deze regel configureren met [MEM OMA-URI](enable-attack-surface-reduction.md#mem) voor proceduregegevens voor aangepaste regels voor MEM OMA-URI.
 >
-> Deze regel kan ook worden geconfigureerd met [PowerShell.](enable-attack-surface-reduction.md#powershell)
+> U kunt deze regel ook configureren met [PowerShell.](enable-attack-surface-reduction.md#powershell)
 >
-> U kunt deze website gebruiken om een stuurprogramma [voor analyse in te dienen.](https://www.microsoft.com/en-us/wdsi/driversubmission)
+> Als u een stuurprogramma wilt laten onderzoeken, gebruikt u deze website om [een stuurprogramma voor analyse in te dienen.](https://www.microsoft.com/en-us/wdsi/driversubmission)
 
 Deze regel wordt ondersteund in alle versies waarin ASR wordt ondersteund. dat wil zeggen:
 
 - [Windows 10 Pro, versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) of hoger
 - [Windows 10 Enterprise, versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) of hoger
-- [Windows Server, versie 1803 (Semi-Annual Channel)](/windows-server/get-started/whats-new-in-windows-server-1803) of hoger
+- [Windows Server, versie 1803 (halfjaarlijks kanaal)](/windows-server/get-started/whats-new-in-windows-server-1803) of hoger
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 
 Intune-naam: `Block abuse of exploited vulnerable signed drivers`
@@ -222,11 +227,11 @@ Naam van Configuration Manager: Nog niet beschikbaar
 
 GUID: `7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c`
 
-### <a name="block-all-office-applications-from-creating-child-processes"></a>Alle toepassingen Office voor het maken van onderliggende processen blokkeren
+### <a name="block-all-office-applications-from-creating-child-processes"></a>Alle Office-toepassingen blokkeren om onderliggende processen te maken
 
-Met deze regel Office apps geen onderliggende processen maken. Office apps zijn Word, Excel, PowerPoint, OneNote en Access.
+Deze regel blokkeert het maken van onderliggende processen voor Office-apps. Office-apps zijn Word, Excel, PowerPoint, OneNote en Access.
 
-Het maken van schadelijke onderliggende processen is een veelgebruikte malwarestrategie. Malware die misbruik Office als vector, bevat vaak VBA-macro's en gebruikt code om meer payloads te downloaden en uit te voeren. Sommige legitieme line-of-business-toepassingen kunnen echter ook onderliggende processen genereren voor goedaardige doeleinden, zoals het genereren van een opdrachtprompt of het gebruik van PowerShell om registerinstellingen te configureren.
+Het maken van schadelijke onderliggende processen is een veelgebruikte malwarestrategie. Malware die Office als vector misbruikt, bevat vaak VBA-macro's en gebruikt code om meer payloads te downloaden en uit te voeren. Sommige legitieme line-of-businesstoepassingen kunnen echter ook onderliggende processen genereren voor goedaardige doeleinden. zoals het paaien van een opdrachtprompt of het gebruik van PowerShell om registerinstellingen te configureren.
 
 Deze regel is geïntroduceerd in:
 
@@ -241,9 +246,9 @@ Naam van Configuration Manager: `Block Office application from creating child pr
 
 GUID: `D4F940AB-401B-4EFC-AADC-AD5F3C50688A`
 
-### <a name="block-credential-stealing-from-the-windows-local-security-authority-subsystem"></a>Referenties van het subsysteem van de Windows lokale beveiligingsinstantie blokkeren
+### <a name="block-credential-stealing-from-the-windows-local-security-authority-subsystem"></a>Referenties van het windows-subsysteem van de lokale beveiligingsinstantie blokkeren
 
-Met deze regel voorkomt u het stelen van referenties door LSASS (Local Security Authority Subsystem Service) te vergrendelen.
+Met deze regel voorkomt u dat referenties worden gestolen door LSASS (Local Security Authority Subsystem Service) te vergrendelen.
 
 LSASS verifieert gebruikers die zich aanmelden op een Windows computer. Microsoft Defender Credential Guard in Windows 10 voorkomt gewoonlijk pogingen om referenties op te halen uit LSASS. Sommige organisaties kunnen Credential Guard echter niet op al hun computers inschakelen vanwege compatibiliteitsproblemen met aangepaste smartcard-stuurprogramma's of andere programma's die worden geladen in de LSA (Local Security Authority). In deze gevallen kunnen aanvallers hackhulpmiddelen zoals Mimikatz gebruiken om cleartext-wachtwoorden en NTLM-hashes van LSASS te schrapen.
 
@@ -360,7 +365,7 @@ GUID: `D3E037E1-3EB8-44C8-A917-57927947596D`
 
 Deze regel voorkomt dat Office apps, waaronder Word, Excel en PowerPoint, potentieel schadelijke uitvoerbare inhoud kunnen maken door te voorkomen dat schadelijke code op schijf wordt geschreven.
 
-Malware die misbruik maakt van Office vector kan proberen uit te breken Office schadelijke onderdelen op schijf op te slaan. Deze schadelijke onderdelen overleven een computer opnieuw opstarten en blijven op het systeem staan. Daarom wordt met deze regel een veelvoorkomende persistentietechniek gebruikt.
+Malware die misbruik maakt van Office als vector, kan proberen uit te breken Office schadelijke onderdelen op schijf op te slaan. Deze schadelijke onderdelen overleven een computer opnieuw opstarten en blijven op het systeem staan. Daarom wordt met deze regel een veelvoorkomende persistentietechniek gebruikt.
 
 Deze regel is geïntroduceerd in:
 
@@ -400,12 +405,12 @@ GUID: `75668C1F-73B5-4CF0-BB93-3ECF5CB7CC84`
 
 ### <a name="block-office-communication-application-from-creating-child-processes"></a>Blokkeren Office communicatietoepassing om onderliggende processen te maken
 
-Deze regel voorkomt dat Outlook onderliggende processen maakt, terwijl er nog steeds legitieme Outlook functies.
+Met deze regel voorkomt u dat Outlook onderliggende processen maakt, terwijl er nog steeds legitieme Outlook-functies worden gebruikt.
 
-Deze regel beschermt tegen social engineering-aanvallen en voorkomt dat misbruik van code misbruik maakt van beveiligingslekken in Outlook. Het beschermt ook tegen Outlook regels en formulieren [die aanvallers](https://blogs.technet.microsoft.com/office365security/defending-against-rules-and-forms-injection/) kunnen gebruiken wanneer de referenties van een gebruiker worden gehackt.
+Deze regel beschermt tegen social engineering-aanvallen en voorkomt dat misbruik van code misbruik maakt van beveiligingslekken in Outlook. Het beschermt ook tegen [Outlook-regels](https://blogs.technet.microsoft.com/office365security/defending-against-rules-and-forms-injection/) en formulieren die aanvallers kunnen gebruiken wanneer de referenties van een gebruiker worden gecompromitteerd.
 
 > [!NOTE]
-> Deze regel blokkeert DLP-beleidstips en ToolTips in Outlook. Deze regel is alleen van Outlook en Outlook.com. 
+> Deze regel blokkeert DLP-beleidstips en ToolTips in Outlook. Deze regel is alleen van toepassing Outlook.com Outlook.
 
 Deze regel is geïntroduceerd in:
 
@@ -444,7 +449,7 @@ GUID: `e6db77e5-3df2-4cf1-b95a-636979351e5b`
 Met deze regel worden processen die zijn gemaakt [via PsExec](/sysinternals/downloads/psexec) en [WMI,](/windows/win32/wmisdk/about-wmi) niet uitgevoerd. Zowel PsExec als WMI kunnen code op afstand uitvoeren, dus bestaat het risico dat deze functionaliteit wordt misbruikt voor opdracht- en beheerdoeleinden of om een infectie over het netwerk van een organisatie te verspreiden.
 
 > [!WARNING]
-> Gebruik deze regel alleen als u uw apparaten beheert met [Intune](/intune) of een andere MDM-oplossing. Deze regel is niet compatibel met beheer [via Microsoft Endpoint Configuration Manager](/configmgr) omdat deze regel WMI-opdrachten blokkeert die de Configuration Manager-client gebruikt om correct te werken.
+> Gebruik deze regel alleen als u uw apparaten beheert met [Intune](/intune) of een andere MDM-oplossing. Deze regel is niet compatibel met beheer via [Microsoft Endpoint Configuration Manager](/configmgr) omdat deze regel WMI-opdrachten blokkeert die de Configuration Manager-client gebruikt om correct te werken.
 
 Deze regel is geïntroduceerd in:
 
@@ -475,7 +480,7 @@ Naam van Configuration Manager: `Block untrusted and unsigned processes that run
 
 GUID: `b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4`
 
-### <a name="block-win32-api-calls-from-office-macros"></a>Win32 API-oproepen blokkeren Office macro's
+### <a name="block-win32-api-calls-from-office-macros"></a>Win32 API-oproepen blokkeren vanuit Office-macro's
 
 Met deze regel voorkomt u dat VBA-macro's Win32-API's bellen.
 
@@ -519,5 +524,3 @@ Intune-naam: `Advanced ransomware protection`
 Naam van Configuration Manager: `Use advanced protection against ransomware`
 
 GUID: `c1db55ab-c21a-4637-bb3f-a12568109d35`
-
-

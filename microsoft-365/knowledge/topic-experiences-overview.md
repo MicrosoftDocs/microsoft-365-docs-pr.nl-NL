@@ -14,12 +14,12 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Overzicht van Viva Topics.
-ms.openlocfilehash: 60c276e8850ed1b824810131a13bed19424a87fa
-ms.sourcegitcommit: 959c3c3633e40b7b0f5e2c8372409778005a24db
+ms.openlocfilehash: 785fddb7c951bb6f7c170971f0af4eb7ac8f9a83
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52950021"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984902"
 ---
 # <a name="microsoft-viva-topics-overview"></a>Overzicht van Microsoft Viva Topics 
 
@@ -39,14 +39,14 @@ In Viva Topics wordt AI gebruikt om automatisch te zoeken naar *onderwerpen* in 
 
 Onderwerpen worden weergegeven voor gebruikers via:
 
-- [Belangrijke onderwerpen](topic-experiences-overview.md#topic-highlights) op SharePoint pagina's
+- [Onderwerpen gemarkeerd](topic-experiences-overview.md#sharepoint-highlights) op SharePoint pagina's
 - Antwoorden over onderwerpen in [zoekresultaten](topic-experiences-overview.md#search-results)
 - Zoeken in [office-toepassingen](topic-experiences-overview.md#office-application-search)
 - [Startpagina onderwerpcentrum](topic-experiences-overview.md#topic-center)
 
-### <a name="topic-highlights"></a>Belangrijke kenmerken van Topics
+### <a name="sharepoint-highlights"></a>SharePoint highlights
 
-Wanneer een onderwerp wordt genoemd in nieuws en SharePoint-pagina's, dan wordt dit gemarkeerd. Je kunt het onderwerpoverzicht openen vanuit de markering. Open de onderwerpdetails in de titel van de samenvatting om de volledige onderwerppagina te bekijken. Het genoemde onderwerp kan automatisch worden geïdentificeerd of kan zijn toegevoegd aan de pagina met een directe verwijzing naar het onderwerp door de paginaauteur. 
+Wanneer een onderwerp wordt genoemd in nieuws en SharePoint-pagina's, dan wordt dit gemarkeerd. Je kunt het onderwerpoverzicht openen vanuit de markering. Open de onderwerpdetails in de titel van de samenvatting om de volledige onderwerppagina te bekijken. Het genoemde onderwerp kan automatisch worden geïdentificeerd of rechtstreeks door de paginaauteur zijn genoemd. 
 
    ![Schermafbeelding met de highlights van het onderwerp.](../media/knowledge-management/saturn.png) 
 

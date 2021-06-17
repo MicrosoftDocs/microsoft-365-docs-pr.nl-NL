@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 18823db8ca8d4bfa82b8ab6265ee8a0902a13e79
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 65d7647e9000152d2eeb8d6bf36e8d45a0d4fa90
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50925890"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984698"
 ---
 # <a name="add-and-verify-admin-contacts-in-the-admin-portal"></a>Contactpersonen voor beheer toevoegen en verifiëren in de beheerportal
 
@@ -51,15 +51,11 @@ Beheerderscontacten zijn vereist wanneer u [een ondersteuningsaanvraag indient.]
 
 **Beheerderscontacten toevoegen**
 
-1.  Meld u aan [bij Microsoft Managed Desktop beheerportal.](https://aka.ms/mwaasportal) 
+1.  Meld u aan [bij Microsoft Endpoint Manager.](https://endpoint.microsoft.com) 
 
-2.  Selecteer **onder Ondersteuning** de optie Contactpersonen **beheren.** 
-
-    ![Ondersteuningsmenu, Contactpersonen beheren in de buurt van de bovenste geselecteerde](../../media/admincontacts.png)
+2.  Zoek **onder Tenantbeheer** naar de **sectie Microsoft Managed Desktop** vervolgens **Beheerderscontacten.** 
 
 3. Kies **Toevoegen**.
-
-    ![Beheerportal, knop Toevoegen, links van Exporteren en vernieuwen](../../media/adminadd.png)
 
 4.  Selecteer een **gebied met focus** en voer de gegevens voor de contactpersoon in. 
 

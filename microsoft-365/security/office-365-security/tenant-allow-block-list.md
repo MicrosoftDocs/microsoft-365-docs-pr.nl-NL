@@ -16,12 +16,12 @@ ms.collection:
 description: Beheerders kunnen informatie krijgen over het configureren van toestaan en blokkeren in de lijst Tenant toestaan/blokkeren in de beveiligingsportal.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 67c3badb86f1cfb9bf644cc202ed67e3163a6772
-ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
+ms.openlocfilehash: 1548eda760b7b6b19214cb834d7fc43357dc0357
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52933153"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52985490"
 ---
 # <a name="manage-the-tenant-allowblock-list"></a>Tenant Toestaan/Blokkeren-lijst beheren
 
@@ -40,13 +40,13 @@ ms.locfileid: "52933153"
 
 In Microsoft 365 organisaties met postvakken in Exchange Online of zelfstandige Exchange Online Protection (EOP)-organisaties zonder Exchange Online-postvakken, kunt u het niet eens zijn met de uitspraak over EOP-filtering. Een goed bericht kan bijvoorbeeld worden gemarkeerd als slecht (een onwaar positief) of een slecht bericht kan worden toegestaan (een onwaar negatief).
 
-Met de Tenant Allow/Block List in Microsoft 365 Defender-portal kunt u handmatig de Microsoft 365 filteren. De lijst Tenant toestaan/blokkeren wordt gebruikt tijdens de e-mailstroom en op het moment dat de gebruiker klikt. U kunt de volgende typen overschrijven opgeven:
+Met de tenantlijst Toestaan/blokkeren in de Microsoft 365 Defender portal kunt u handmatig de Microsoft 365 filteren. De lijst Tenant toestaan/blokkeren wordt gebruikt tijdens de e-mailstroom en op het moment dat de gebruiker klikt. U kunt de volgende typen overschrijven opgeven:
 
 - URL's die u wilt blokkeren.
 - Bestanden die u wilt blokkeren.
 - Vervalste afzenders om dit toe te staan of te blokkeren. Als u de uitspraak toestaan of blokkeren overschrijven in het inzicht van spoof [intelligence,](learn-about-spoof-intelligence.md)wordt de vervalste afzender een handmatige invoer toestaan of blokkeren die alleen wordt weergegeven op het tabblad **Spoof** in de lijst Toestaan/blokkeren van tenants. U kunt hier ook handmatig vermeldingen voor vervalste afzenders maken of blokkeren voordat ze worden gedetecteerd door spoofinformatie.
 
-In dit artikel wordt beschreven hoe u vermeldingen configureert in de lijst Tenant toestaan/blokkeren in de portal van Microsoft 365 Defender of in PowerShell (Exchange Online PowerShell voor Microsoft 365-organisaties met postvakken in Exchange Online; zelfstandige EOP PowerShell voor organisaties zonder Exchange Online-postvakken).
+In dit artikel wordt beschreven hoe u vermeldingen configureert in de lijst Tenant toestaan/blokkeren in de Microsoft 365 Defender-portal of in PowerShell (Exchange Online PowerShell voor Microsoft 365-organisaties met postvakken in Exchange Online; zelfstandige EOP PowerShell voor organisaties zonder Exchange Online-postvakken).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
@@ -90,9 +90,9 @@ In dit artikel wordt beschreven hoe u vermeldingen configureert in de lijst Tena
   >
   > - De functiegroep **Alleen-lezen organisatiebeheer** in [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) geeft ook alleen-lezentoegang tot deze functie.
 
-## <a name="use-the-microsoft-365-defender-portal-to-create-block-url-entries-in-the-tenant-allowblock-list"></a>Gebruik de Microsoft 365 Defender-portal om url-items te maken in de lijst Tenant Allow/Block
+## <a name="use-the-microsoft-365-defender-portal-to-create-block-url-entries-in-the-tenant-allowblock-list"></a>Gebruik de Microsoft 365 Defender portal om blok-URL-vermeldingen te maken in de lijst Tenant Allow/Block
 
-1. Ga in Microsoft 365 Defender-portal naar **Beleidsregels &** regels \> **Bedreigingsbeleidsregels** sectie \>  Tenant \> **Allow/Block Lists**.
+1. Ga in Microsoft 365 Defender portal naar **Beleidsregels & sectie** \> **Bedreigingsbeleidsregels** \>  \> **tenantlijsten toestaan/blokkeren.**
 
 2. Controleer op de pagina Lijst met tenants **toestaan/blokkeren** of het tabblad **URL's** is geselecteerd en klik vervolgens op ![ Pictogram blokkeren ](../../media/m365-cc-sc-create-icon.png) **blokkeren.**
 
@@ -108,9 +108,9 @@ In dit artikel wordt beschreven hoe u vermeldingen configureert in de lijst Tena
 
 4. Wanneer u klaar bent, klikt u op **Toevoegen.**
 
-## <a name="use-the-microsoft-365-defender-portal-to-create-block-file-entries-in-the-tenant-allowblock-list"></a>Gebruik de Microsoft 365 Defender-portal om blokbestandsgegevens te maken in de lijst Tenant Allow/Block
+## <a name="use-the-microsoft-365-defender-portal-to-create-block-file-entries-in-the-tenant-allowblock-list"></a>Gebruik de Microsoft 365 Defender portal om blokbestandsgegevens te maken in de lijst Tenant Allow/Block
 
-1. Ga in Microsoft 365 Defender-portal naar **Beleidsregels &** regels \> **Bedreigingsbeleidsregels** sectie \>  Tenant \> **Allow/Block Lists**.
+1. Ga in Microsoft 365 Defender portal naar **Beleidsregels & sectie** \> **Bedreigingsbeleidsregels** \>  \> **tenantlijsten toestaan/blokkeren.**
 
 2. Selecteer op de pagina Lijst met  **tenants toestaan/blokkeren** het tabblad Bestanden en klik vervolgens op ![ Pictogram blokkeren ](../../media/m365-cc-sc-create-icon.png) **blokkeren.**
 
@@ -126,7 +126,7 @@ In dit artikel wordt beschreven hoe u vermeldingen configureert in de lijst Tena
 
 4. Wanneer u klaar bent, klikt u op **Toevoegen.**
 
-## <a name="use-the-microsoft-365-defender-portal-to-create-allow-or-block-spoofed-sender-entries-in-the-tenant-allowblock-list"></a>Gebruik de Microsoft 365 Defender-portal om vervalste afzenders toe te staan of te blokkeren in de lijst Tenant toestaan/blokkeren
+## <a name="use-the-microsoft-365-defender-portal-to-create-allow-or-block-spoofed-sender-entries-in-the-tenant-allowblock-list"></a>Gebruik de Microsoft 365 Defender portal om vervalste afzendergegevens in de lijst Toestaan/blokkeren van tenants toe te staan of te blokkeren
 
 **Opmerkingen**:
 
@@ -134,7 +134,7 @@ In dit artikel wordt beschreven hoe u vermeldingen configureert in de lijst Tena
 - Wanneer u een invoer toestaan of blokkeren configureert voor een domeinpaar, worden berichten van dat domeinpaar niet meer weergegeven in het inzicht van de spoof intelligence.
 - Vermeldingen voor vervalste afzenders verlopen nooit.
 
-1. Ga in Microsoft 365 Defender-portal naar **Beleidsregels &** regels \> **Bedreigingsbeleidsregels** sectie \>  Tenant \> **Allow/Block Lists**.
+1. Ga in Microsoft 365 Defender portal naar **Beleidsregels & sectie** \> **Bedreigingsbeleidsregels** \>  \> **tenantlijsten toestaan/blokkeren.**
 
 2. Selecteer op de pagina Lijst met tenants **toestaan/blokkeren** het tabblad **Spoofing** en klik vervolgens op ![ Pictogram Toevoegen ](../../media/m365-cc-sc-create-icon.png) **blokkeren.**
 
@@ -147,9 +147,9 @@ In dit artikel wordt beschreven hoe u vermeldingen configureert in de lijst Tena
 
 4. Wanneer u klaar bent, klikt u op **Toevoegen.**
 
-## <a name="use-the-microsoft-365-defender-portal-to-view-entries-in-the-tenant-allowblock-list"></a>Gebruik de Microsoft 365 Defender-portal om items in de tenantlijst toestaan/blokkeren weer te geven
+## <a name="use-the-microsoft-365-defender-portal-to-view-entries-in-the-tenant-allowblock-list"></a>Gebruik de Microsoft 365 Defender portal om items in de lijst Tenant toestaan/blokkeren weer te geven
 
-1. Ga in Microsoft 365 Defender-portal naar **Beleidsregels &** regels \> **Bedreigingsbeleidsregels** sectie \>  Tenant \> **Allow/Block Lists**.
+1. Ga in Microsoft 365 Defender portal naar **Beleidsregels & sectie** \> **Bedreigingsbeleidsregels** \>  \> **tenantlijsten toestaan/blokkeren.**
 
 2. Selecteer het beste tabblad. De beschikbare kolommen zijn afhankelijk van het tabblad dat u hebt geselecteerd:
 
@@ -199,9 +199,9 @@ In dit artikel wordt beschreven hoe u vermeldingen configureert in de lijst Tena
 
    Wanneer u klaar bent, klikt u op **Toepassen.** Als u bestaande filters wilt wissen, klikt u **op Filter** en klikt u in het **fly-out** Filter dat wordt weergegeven op Filters **wissen.**
 
-## <a name="use-the-microsoft-365-defender-portal-to-modify-entries-in-the-tenant-allowblock-list"></a>Gebruik de Microsoft 365 Defender-portal om items in de tenantlijst toestaan/blokkeren te wijzigen
+## <a name="use-the-microsoft-365-defender-portal-to-modify-entries-in-the-tenant-allowblock-list"></a>Gebruik de Microsoft 365 Defender portal om items in de lijst Tenant Allow/Block te wijzigen
 
-1. Ga in Microsoft 365 Defender-portal naar **Beleidsregels &** regels \> **Bedreigingsbeleidsregels** sectie \>  Tenant \> **Allow/Block Lists**.
+1. Ga in Microsoft 365 Defender portal naar **Beleidsregels & sectie** \> **Bedreigingsbeleidsregels** \>  \> **tenantlijsten toestaan/blokkeren.**
 
 2. Selecteer het tabblad met het type vermelding dat u wilt wijzigen:
    - **URL's**
@@ -219,9 +219,9 @@ In dit artikel wordt beschreven hoe u vermeldingen configureert in de lijst Tena
      - **Actie:** U kunt de waarde wijzigen in **Toestaan** of **Blokkeren.**
 4. Klik op **Opslaan** wanneer u gereed bent.
 
-## <a name="use-the-microsoft-365-defender-portal-to-remove-entries-from-the-tenant-allowblock-list"></a>Gebruik de Microsoft 365 Defender-portal om items te verwijderen uit de lijst Tenant Allow/Block
+## <a name="use-the-microsoft-365-defender-portal-to-remove-entries-from-the-tenant-allowblock-list"></a>Gebruik de Microsoft 365 Defender portal om items te verwijderen uit de lijst Tenant Allow/Block
 
-1. Ga in Microsoft 365 Defender-portal naar **Beleidsregels &** regels \> **Bedreigingsbeleidsregels** sectie \>  Tenant \> **Allow/Block Lists**.
+1. Ga in Microsoft 365 Defender portal naar **Beleidsregels & sectie** \> **Bedreigingsbeleidsregels** \>  \> **tenantlijsten toestaan/blokkeren.**
 
 2. Selecteer het tabblad met het type invoer dat u wilt verwijderen:
    - **URL's**
@@ -245,7 +245,7 @@ New-TenantAllowBlockListItems -ListType <FileHash | Url> -Block -Entries "Value1
 In dit voorbeeld wordt een blokbestandsinvoer toegevoegd voor de opgegeven bestanden die nooit verlopen.
 
 ```powershell
-New-TenantAllowBlockListItem -ListType FileHash -Block -Entries "768a813668695ef2483b2bde7cf5d1b2db0423a0d3e63e498f3ab6f2eb13ea3","2c0a35409ff0873cfa28b70b8224e9aca2362241c1f0ed6f622fef8d4722fd9a" -NoExpiration
+New-TenantAllowBlockListItems -ListType FileHash -Block -Entries "768a813668695ef2483b2bde7cf5d1b2db0423a0d3e63e498f3ab6f2eb13ea3","2c0a35409ff0873cfa28b70b8224e9aca2362241c1f0ed6f622fef8d4722fd9a" -NoExpiration
 ```
 
 In dit voorbeeld wordt een blok-URL-vermelding voor contoso.com en alle subdomeinen (bijvoorbeeld contoso.com, www.contoso.com en xyz.abc.contoso.com). Omdat we de parameters Vervaldatum of NoExpiration niet hebben gebruikt, verloopt de vermelding na 30 dagen.

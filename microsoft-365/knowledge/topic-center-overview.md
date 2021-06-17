@@ -1,6 +1,5 @@
 ---
-title: Overzicht van het onderwerpcentrum in Microsoft Viva-onderwerpen
-description: Meer informatie over het onderwerpcentrum in Microsoft Viva-onderwerpen.
+title: Overzicht van het onderwerpcentrum in Microsoft Viva Topics
 author: chuckedmonson
 ms.author: chucked
 manager: pamgreen
@@ -14,16 +13,17 @@ ms.collection:
 - m365initiative-viva-topics
 ROBOTS: ''
 localization_priority: None
-ms.openlocfilehash: 073c14f84f4858a1853da062bf87ae9e78c05cbd
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+description: Meer informatie over het onderwerpcentrum in Microsoft Viva Topics.
+ms.openlocfilehash: f782be90e6cd6fa12e57df87ebb1057e58bdca19
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583590"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984926"
 ---
-# <a name="topic-center-overview-in-microsoft-viva-topics"></a>Overzicht van het onderwerpcentrum in Microsoft Viva-onderwerpen
+# <a name="topic-center-overview-in-microsoft-viva-topics"></a>Overzicht van het onderwerpcentrum in Microsoft Viva Topics
 
-In Microsoft Viva Topics is het onderwerpcentrum een moderne SharePoint site die fungeert als een kenniscentrum voor uw organisatie. Deze wordt gemaakt tijdens [de installatie van Viva-onderwerpen](set-up-topic-experiences.md) in het Microsoft 365 beheercentrum.
+In Microsoft Viva Topics is het onderwerpcentrum een moderne SharePoint site die fungeert als een kenniscentrum voor uw organisatie. Deze wordt gemaakt tijdens [de installatie van Viva-onderwerpen](set-up-topic-experiences.md) in de Microsoft 365-beheercentrum.
 
 Het onderwerpcentrum heeft een standaard startpagina met het **webonderdeel** Onderwerpen waarin alle gelicentieerde gebruikers de onderwerpen kunnen zien waarmee ze een verbinding hebben. 
 
@@ -34,7 +34,7 @@ Hoewel alle gelicentieerde gebruikers die onderwerpen kunnen bekijken, toegang h
 Het onderwerpcentrum wordt gemaakt tijdens de installatie van Viva-onderwerpen. Nadat de installatie is voltooid, kan een beheerder de URL vinden op de [pagina Onderwerpcentrumbeheer.](./topic-experiences-administration.md#to-access-topics-management-settings)
 
 
-1. Selecteer in Microsoft 365 beheercentrum **Instellingen** en selecteer vervolgens **Organisatie-instellingen.**
+1. Selecteer in Microsoft 365-beheercentrum **de** Instellingen en selecteer vervolgens **Organisatie-instellingen.**
 2. Selecteer op **het tabblad** Services de optie **Onderwerpervaringen.**
 
     ![Verbinding maken mensen kennis te laten maken](../media/admin-org-knowledge-options-completed.png) 
@@ -69,7 +69,7 @@ Wanneer een gebruiker zijn of haar verbinding met een onderwerp bevestigt, kan d
 
 ## <a name="manage-topics-page"></a>Pagina Onderwerpen beheren
 
-Als u wilt werken aan **de pagina** Onderwerpen beheren van het onderwerpcentrum, moet u de vereiste machtigingen voor onderwerpen beheren hebben die nodig zijn voor de rol van knowledge manager. Uw beheerder kan deze machtigingen toewijzen aan gebruikers tijdens [](topic-experiences-knowledge-rules.md) het instellen van [kennisbeheer,](set-up-topic-experiences.md)of nieuwe gebruikers kunnen daarna worden toegevoegd door een beheerder via het Microsoft 365 beheercentrum.
+Als u wilt werken aan **de pagina** Onderwerpen beheren van het onderwerpcentrum, moet u de vereiste machtigingen voor onderwerpen beheren hebben die nodig zijn voor de rol van knowledge manager. Uw beheerder kan deze machtigingen toewijzen aan gebruikers tijdens [](topic-experiences-knowledge-rules.md) het instellen van [Viva-onderwerpen,](set-up-topic-experiences.md)of nieuwe gebruikers kunnen daarna worden toegevoegd door een beheerder via de Microsoft 365-beheercentrum.
 
 Op de **pagina Onderwerpen beheren** worden in het onderwerpdashboard alle onderwerpen weergegeven die u hebt, die zijn geïdentificeerd op basis van de opgegeven bronlocaties. In elk onderwerp wordt de datum van het onderwerp gevonden. Een gebruiker aan wie machtigingen voor onderwerpen beheren zijn toegewezen, kan de onbevestigde onderwerpen bekijken en ervoor kiezen om:
 

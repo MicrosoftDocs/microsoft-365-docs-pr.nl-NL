@@ -19,12 +19,12 @@ description: Beheerders kunnen meer informatie krijgen over de e-mailstroomrappo
 ms.custom: ''
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 38beac44af191a027db722ade25ca7fd0e505d9b
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: fd8f6c3da1c195fbd540638ae73674deccf2762a
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245670"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52985502"
 ---
 # <a name="view-mail-flow-reports-in-the-reports-dashboard-in-security--compliance-center"></a>E-mailstroomrapporten weergeven in het dashboard Rapporten in & Compliance center
 
@@ -35,7 +35,7 @@ ms.locfileid: "52245670"
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Naast de e-mailstroomrapporten die beschikbaar zijn in het e-mailstroomdashboard [in](mail-flow-insights-v2.md) het Beveiligings- & Compliancecentrum, zijn er diverse extra e-mailstroomrapporten beschikbaar in het dashboard Rapporten om u te helpen uw Microsoft 365 controleren.
+Naast de e-mailstroomrapporten die [](mail-flow-insights-v2.md) beschikbaar zijn in het e-mailstroomdashboard in het beveiligings- & compliancecentrum, zijn er diverse extra e-mailstroomrapporten beschikbaar in het dashboard Rapporten om u te helpen uw Microsoft 365-organisatie te controleren.
 
 Als u de [benodigde machtigingen hebt,](#what-permissions-are-needed-to-view-these-reports)kunt u deze rapporten bekijken in het Beveiligings- & [compliancecentrum](https://protection.office.com) door naar **Rapportendashboard te** \> **gaan.** Als u rechtstreeks naar het dashboard Rapporten wilt gaan, opent u <https://protection.office.com/insightdashboard> .
 
@@ -95,29 +95,29 @@ Als u in een detailtabelweergave op **Filters** klikt, kunt u een datumbereik op
 
 Als u terug wilt gaan naar de rapportweergave, klikt u op **Rapport weergeven.**
 
-## <a name="exchange-transport-rule-report"></a>Exchange rapport transportregel
+## <a name="exchange-transport-rule-report"></a>Rapport met exchange-transportregel
 
-In **Exchange rapport transportregel** ziet u het effect van e-mailstroomregels (ook wel transportregels genoemd) op binnenkomende en uitgaande berichten in uw organisatie.
+Het **rapport Exchange-transportregel toont** het effect van regels voor de e-mailstroom (ook wel transportregels genoemd) op binnenkomende en uitgaande berichten in uw organisatie.
 
-Als u het rapport wilt bekijken, opent u  het [Beveiligings- & Compliancecentrum,](https://protection.office.com)gaat u naar \> **Rapportendashboard** en selecteert **u Exchange Transportregel.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://protection.office.com/reportv2?id=ETRRuleReport> .
+Als u het rapport wilt bekijken, opent u het [Beveiligings- & Compliancecentrum,](https://protection.office.com)gaat u naar  \> **Rapportendashboard** en **selecteert u Exchange Transport-regel**. Als u rechtstreeks naar het rapport wilt gaan, opent u <https://protection.office.com/reportv2?id=ETRRuleReport> .
 
-![Exchange widget transportregel in het dashboard Rapporten](../../media/transport-rule-report-widget.png)
+![Exchange-transportregelwidget in het dashboard Rapporten](../../media/transport-rule-report-widget.png)
 
-### <a name="report-view-for-the-exchange-transport-rule-report"></a>Rapportweergave voor het rapport Exchange transportregel
+### <a name="report-view-for-the-exchange-transport-rule-report"></a>Rapportweergave voor het rapport Exchange-transportregel
 
 De volgende grafieken zijn beschikbaar in de rapportweergave:
 
-- **Gegevens weergeven op: Exchange transportregels** \> **Afbreed door: Richting:** In deze grafiek  ziet u het aantal **binnenkomende** en uitgaande berichten dat is beïnvloed door transportregels.
+- **Gegevens weergeven op: Exchange-transportregels** \> **Afbreed door: Richting:** In deze grafiek  ziet u het aantal **binnenkomende** en uitgaande berichten dat is beïnvloed door transportregels.
 
-- **Gegevens weergeven op: Exchange transportregels** \> **Afbreed door: Ernst:** In deze  grafiek ziet u het aantal berichten met hoge ernst en gemiddelde ernst **en** berichten met een **lage ernst.** U stelt het ernstniveau in als een actie in de regel ( Controleer deze regel met **ernstniveau** of _SetAuditSeverity_). Zie Acties voor [e-mailstroomregelacties in](//Exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)Exchange Online.
+- **Gegevens weergeven op: Exchange-transportregels** \> **Afbreed door: Ernst:** In deze  grafiek ziet u het aantal berichten met hoge ernst en gemiddelde ernst **en** berichten met een **lage ernst.** U stelt het ernstniveau in als een actie in de regel ( Controleer deze regel met **ernstniveau** of _SetAuditSeverity_). Zie Acties voor [e-mailstroomregelen in Exchange Online voor meer informatie.](//Exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)
 
-- **Gegevens weergeven op: DLP Exchange transportregels** \> **Afbreiding door: Richting:** In deze  grafiek ziet u het aantal **binnenkomende** en uitgaande berichten dat is beïnvloed door DLP-transportregels (Data Loss Prevention). U kunt de grafiek verder verfijnen door een van de volgende opties te selecteren:
+- **Gegevens weergeven op: DLP Exchange-transportregels** \> **Afbreiding door: Richting:** In deze  grafiek ziet u het aantal **binnenkomende** en uitgaande berichten dat is beïnvloed door DLP-transportregels (Data Loss Prevention). U kunt de grafiek verder verfijnen door een van de volgende opties te selecteren:
 
   - **Gegevens voor: Alle DLP-transportregels**
   - **Gegevens voor: Gecompromitteerd gebruikers**
   - **Gegevens voor: Laag volume aan gedetecteerde Amerikaanse Patriot Act**
 
-- **Gegevens weergeven op: DLP Exchange transportregels** \> **Afbreiding door: Richting:** In  deze weergave ziet u  het aantal berichten met hoge ernst en gemiddelde ernst **en** berichten met een lage ernst die zijn beïnvloed door DLP-transportregels. U kunt de grafiek verder verfijnen door een van de volgende opties te selecteren:
+- **Gegevens weergeven op: DLP Exchange-transportregels** \> **Afbreiding door: Richting:** In  deze weergave ziet u  het aantal berichten met hoge ernst en gemiddelde ernst **en** berichten met een lage ernst die zijn beïnvloed door DLP-transportregels. U kunt de grafiek verder verfijnen door een van de volgende opties te selecteren:
 
   - **Gegevens voor: Alle DLP-transportregels**
   - **Gegevens voor: Gecompromitteerd gebruikers**
@@ -129,13 +129,13 @@ Als u in **een rapportweergave** op Filters klikt, kunt u de resultaten wijzigen
 - Richtingswaarden
 - Ernstwaarden
 
-![Rapportweergave in het rapport Exchange transportregel](../../media/transport-rule-report-report-view.png)
+![Rapportweergave in het rapport Exchange-transportregel](../../media/transport-rule-report-report-view.png)
 
-### <a name="details-table-view-for-the-exchange-transport-rule-report"></a>Tabelweergave details voor het rapport Exchange transportregel
+### <a name="details-table-view-for-the-exchange-transport-rule-report"></a>Tabelweergave Details voor het rapport Exchange-transportregel
 
 Als u op **Detailstabel weergeven klikt,** is de weergegeven informatie afhankelijk van de grafiek die u hebt bekeken:
 
-- **Gegevens weergeven op: Exchange Transportregels:**
+- **Gegevens weergeven door: Exchange-transportregels:**
 
   - **Datum**
   - **Transportregel**
@@ -145,7 +145,7 @@ Als u op **Detailstabel weergeven klikt,** is de weergegeven informatie afhankel
   - **Ernst**
   - **Richting**
 
-- **Gegevens weergeven op: DLP Exchange transportregels:**
+- **Gegevens weergeven op: DLP Exchange-transportregels**:
 
   - **Datum**
   - **DLP-beleid**
@@ -166,7 +166,7 @@ Als u terug wilt gaan naar de rapportweergave, klikt u op **Rapport weergeven.**
 
 ## <a name="forwarding-report"></a>Doorsturen van rapport
 
-In **het rapport Doorsturen** ziet u de automatisch doorgestuurde berichten van uw organisatie naar externe domeinen vanuit Exchange Online postvakken. Doorgestuurde berichten kunnen een beveiligings- of compliancerisico opleveren en kunnen een gekromd account aangeven.
+In **het rapport Doorsturen** ziet u de automatisch doorgestuurde berichten van uw organisatie naar externe domeinen vanuit Exchange Online-postvakken. Doorgestuurde berichten kunnen een beveiligings- of compliancerisico opleveren en kunnen een gekromd account aangeven.
 
 Als u het rapport wilt bekijken, opent u  het [Beveiligings- & Compliancecentrum,](https://protection.office.com)gaat u naar \> **Rapportendashboard** en selecteert u **Rapport doorsturen.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://protection.office.com/reportv2?id=MailFlowForwarding> .
 
@@ -450,7 +450,7 @@ De volgende grafieken zijn beschikbaar in de rapportweergave:
 
   ![Richtingsweergave in het e-mailrapport Verzonden en ontvangen](../../media/sent-and-received-email-report-direction-view.png)
 
-- **Inzoomen op** \> **Malware (anti-malware)**: Met deze selectie gaat u naar de detecties van [malware in het e-mailrapport.](view-email-security-reports.md#malware-detections-in-email-report)
+- **Inzoomen op** \> **Malware (anti-malware)**: Met deze selectie gaat u naar het [rapport Malwaredetecties.](view-email-security-reports.md#malware-detections-report)
 
 - **Inzoomen op** \> **Spamdetecties)**: Met deze selectie gaat u naar het [rapport Spamdetecties.](view-email-security-reports.md#spam-detections-report)
 
@@ -545,7 +545,7 @@ Als u de rapporten wilt bekijken en gebruiken die in dit artikel worden beschrev
 - **Organisatiebeheer**
 - **Beveiligingsbeheerder**
 - **Beveiligingslezer**
-- **Algemene lezer**
+- **Globale lezer**
 
 Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
 

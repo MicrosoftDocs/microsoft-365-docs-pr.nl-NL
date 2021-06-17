@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 4843894638ccf119c0cadcf003e159e793c18368
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: a0191a52c64b32b314d4b2f2f36c85b060226ad6
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843732"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984650"
 ---
 # <a name="microsoft-defender-for-endpoint-api-release-notes"></a>Releasenotities van Microsoft Defender for Endpoint API
 
@@ -39,6 +39,10 @@ De volgende informatie bevat de updates die zijn aangebracht aan de API's van Mi
 > ```
 
 ## <a name="release-notes---newest-to-oldest-ddmmyyyy"></a>Releasenotities - nieuwste naar oudste (dd.mm.yyyy)
+
+### <a name="06102021"></a>06.10.2021
+
+- Nieuwe exportbeoordelings-API-methode toegevoegd - Delta Export software vulnerabilities assessment (OData) Export assessment methods and properties per device ( Export assessment API method - _Delta Export software vulnerabilities assessment (OData)_ Export assessment methods and properties per [device](get-assessment-methods-properties.md).
 
 ### <a name="05252021"></a>05.25.2021
 

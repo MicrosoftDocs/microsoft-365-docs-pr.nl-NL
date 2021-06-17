@@ -14,18 +14,19 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: ff82819f4e168fc57b649411fbe5e9136b0e36f4
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: f8de3d8b2d7c07f8d783ecbe85b7e4a9c612aae5
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769315"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52985451"
 ---
 # <a name="view-attack-surface-reduction-events"></a>Gebeurtenissen voor het verminderen van kwetsbaarheid voor aanvallen bekijken
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
+
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
@@ -38,7 +39,7 @@ Het controleren van gebeurtenissen is handig wanneer u de functies evalueert. U 
 
 In dit artikel worden alle gebeurtenissen, de bijbehorende functie of instelling beschreven en wordt beschreven hoe u aangepaste weergaven kunt maken om te filteren op specifieke gebeurtenissen.
 
-Krijg gedetailleerde rapportage over gebeurtenissen en blokken als onderdeel van Windows-beveiliging als u een E5-abonnement hebt en [Microsoft Defender voor Eindpunt gebruikt.](microsoft-defender-endpoint.md)
+Krijg gedetailleerde rapportage over gebeurtenissen, blokken en waarschuwingen als onderdeel van Windows-beveiliging als u een E5-abonnement hebt en [Microsoft Defender voor Eindpunt gebruikt.](microsoft-defender-endpoint.md)
 
 ## <a name="use-custom-views-to-review-attack-surface-reduction-capabilities"></a>Aangepaste weergaven gebruiken om de mogelijkheden voor het verminderen van de Surface-aanval te bekijken
 
@@ -54,11 +55,12 @@ U kunt ook handmatig naar het gebeurtenisgebied navigeren dat overeenkomt met de
     - Aangepaste weergave Voor surface reduction events van attack: *asr-events.xml*
     - Aangepaste weergave netwerk- en *beveiligingsgebeurtenissen:np-events.xml*
 
-2. Typ **gebeurtenisviewer** in het menu Start en open **Gebeurtenisviewer.**
+2. Typ **gebeurtenisviewer** in de Startmenu en open **Gebeurtenisviewer.**
 
 3. Selecteer **Aangepaste**  >  **weergave actie importeren...**
 
-    ![Animatie die aangepaste weergave importeren aan de linkerkant van het venster Even viewer markeert](/windows/security/threat-protection/images/events-import)
+  > [!div class="mx-imgBorder"]
+  > ![Animatie die aangepaste weergave importeren aan de linkerkant van het venster Even viewer markeert](images/events-import.gif)
 
 4. Ga naar de plaats waar u XML-bestand hebt geëxtraheerd voor de aangepaste weergave die u wilt gebruiken en selecteer het.
 
@@ -68,19 +70,18 @@ U kunt ook handmatig naar het gebeurtenisgebied navigeren dat overeenkomt met de
 
 ### <a name="copy-the-xml-directly"></a>De XML rechtstreeks kopiëren
 
-1. Typ **gebeurtenisviewer** in het menu Start en open de Windows **Viewer voor gebeurtenissen.**
+1. Typ **gebeurtenisviewer** in de Startmenu en open de Windows **Viewer voor gebeurtenissen.**
 
 2. Selecteer in het linkervenster onder **Acties** de optie **Aangepaste weergave maken...**
 
-    ![Animatie met de optie Aangepaste weergave maken in het venster Gebeurtenisviewer](/windows/security/threat-protection/images/events-create)
+  > [!div class="mx-imgBorder"]
+  > ![Animatie met de optie Aangepaste weergave maken in het venster Gebeurtenisviewer](images/events-create.gif)
 
 3. Ga naar het tabblad XML en selecteer **Query handmatig bewerken.** U ziet een waarschuwing dat u de query niet kunt bewerken met het tabblad **Filter** als u de optie XML gebruikt. Selecteer **Ja**.
 
 4. Plak de XML-code voor de functie die u wilt filteren op gebeurtenissen in de XML-sectie.
 
-5. Selecteer **OK**. Geef een naam op voor het filter.
-
-6. Er wordt een aangepaste weergave gemaakt waarmee alleen de gebeurtenissen met betrekking tot die functie worden gefilterd.
+5. Selecteer **OK**. Geef een naam op voor het filter. Hiermee wordt een aangepaste weergave gemaakt waarmee alleen de gebeurtenissen met betrekking tot die functie worden gefilterd.
 
 ### <a name="xml-for-attack-surface-reduction-rule-events"></a>XML voor regelgebeurtenissen voor aanvalsoppervlakbeperking
 
@@ -145,7 +146,7 @@ U hebt toegang tot deze gebeurtenissen in Windows Viewer voor gebeurtenissen:
 2. Vouw **toepassingen en serviceslogboeken > Microsoft > Windows** uit en ga naar de map die wordt weergegeven onder **Provider/bron** in de onderstaande tabel.
 3. Dubbelklik op het subitem om gebeurtenissen te zien. Blader door de gebeurtenissen om de gebeurtenissen te vinden die u zoekt.
 
-   ![Animatie met behulp van Gebeurtenisviewer](/windows/security/threat-protection/images/event-viewer)
+   ![Animatie met behulp van Gebeurtenisviewer](images/event-viewer.gif)
 
 Functie | Provider/bron | Gebeurtenis-id | Beschrijving
 :-|:-|:-:|:-

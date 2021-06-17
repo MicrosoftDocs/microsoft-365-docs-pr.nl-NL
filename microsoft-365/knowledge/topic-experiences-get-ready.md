@@ -1,6 +1,6 @@
 ---
-title: Uw omgeving voorbereiden op Microsoft Viva-onderwerpen
-description: Maak uw omgeving gereed, zodat u zo veel mogelijk inhoud voor uw gebruikers kunt bieden met Microsoft Viva-onderwerpen.
+title: Uw omgeving voorbereiden op Microsoft Viva Topics
+description: Maak uw omgeving gereed, zodat u zo veel mogelijk inhoud voor uw gebruikers kunt Microsoft Viva Topics.
 ms.author: samanro
 author: samanro
 manager: pamgreen
@@ -10,26 +10,26 @@ ms.prod: microsoft-365-enterprise
 ms.custom: Adopt
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: 2db8654bf7bb1bc5ef4759c1617a84ae2153553a
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 8e1da50c120d333812014f6720f1168d4afb9741
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50917390"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984878"
 ---
-# <a name="get-your-environment-ready-for-microsoft-viva-topics"></a>Uw omgeving voorbereiden op Microsoft Viva-onderwerpen
+# <a name="get-your-environment-ready-for-microsoft-viva-topics"></a>Uw omgeving voorbereiden op Microsoft Viva Topics
 
 Als u zoveel mogelijk gebruik wilt maken van Viva-onderwerpen, wilt u zo veel mogelijk inhoud hebben voor het ontdekken van onderwerpen, zodat u een uitgebreide set onderwerpen voor uw gebruikers kunt hebben. Maar welke inhoud moet worden gebruikt voor onderwerpdetectie? Hoe maximaliseert u de geïndexeerde inhoud terwijl u de controle hebt? Hoe meer inhoud binnen het bereik valt, hoe beter de inzichten die de kunstmatige intelligentie kan ontdekken. In dit artikel vindt u de planningsstappen om ervoor te zorgen dat u de juiste inhoud op neemt en dat u de juiste personen en resources hebt om een goede ervaring voor uw gebruikers te maken.
 
 Als u viva-onderwerpen wilt plannen, moet u het volgende doen:
 
-![Stappen voor onboarding voor kennisbeheer migreren, verbinden, moderniseren, beveiligen en identificeren](../media/knowledge-management/km-adoption-onboarding-checklist.png)
+![Migreren, verbinden, moderniseren, beveiligen en identificeren van stappen voor onboarding naar Viva-onderwerpen.](../media/knowledge-management/km-adoption-onboarding-checklist.png)
 
 1. [Inhoud migreren naar SharePoint](#1-migrate-content-to-microsoft-365)
     - Onderwerpindexering bevat alleen inhoud op SharePoint sites.
       - Migreert waar mogelijk waardevolle inhoud naar SharePoint Online vanuit externe bronnen.
       - Geef prioriteit aan inhoudsbronnen met een hoog potentieel voor stilzwijgende kennis.
-      - Belicht de voordelen van kennisbeheer om gebruikers aan te moedigen om inhoud te verplaatsen van OneDrive naar SharePoint sites.
+      - Markeer de voordelen van Viva-onderwerpen om gebruikers aan te moedigen inhoud te verplaatsen van OneDrive naar SharePoint sites.
 
 2. [Verbinding maken informatie naar Microsoft Graph](#2-connect-information-to-microsoft-graph)
     - In de toekomst kan externe inhoud in de kennisgrafiek worden gebracht en beschikbaar komen.
@@ -104,7 +104,7 @@ Goed machtigingsbeheer is hierbij essentieel. En goed machtigingsbeheer is gebas
 
 Naast machtigingen kunt u ook het bereik bepalen van wat er kan worden ontdekt via onderwerpen. U hebt altijd de controle over wat wordt geïndexeerd.
 
-Beheerders kunnen indexering configureren in het Microsoft 365 beheercentrum. Wanneer u Knowledge [Management in stelt,](set-up-topic-experiences.md)kunt u het volgende doen:
+Beheerders kunnen indexering configureren in het Microsoft 365-beheer Center. Wanneer u [Viva-onderwerpen in stelt,](set-up-topic-experiences.md)kunt u het volgende doen:
 
 - Sta detectie toe op alle SharePoint sites of geef sites op die u wilt opnemen of uitsluiten als onderwerpbronnen.
 - Waar u gevoelige termen hebt, kunt u ook onderwerpen uitsluiten op naam. Als u bijvoorbeeld de naam van een gevoelig project hebt, waarbij u niet wilt dat een markering of kaart wordt weergegeven, ongeacht de machtigingen van de gebruiker, kunt u die projectnaam uitsluiten.
@@ -128,9 +128,9 @@ Afhankelijk van uw organisatie zijn er mogelijk weinig of veel personen die in d
 | Viva-onderwerpen in stellen | Eigenaar van beheer en kwaliteit van onderwerpen | Draagt bij aan onderwerpen op basis van hun expertise. |
 | Zorgt ervoor dat beveiligings- en compliancestandaarden worden afgedwongen en begrijpt de licentieovereenkomst.| Voert onderwerpbeheertaken uit, zoals het maken, bewerken, verwijderen en weigeren van onderwerpen. Ondersteunt inzenders van onderwerpen bij hun taken. | Curseert de informatie en inhoud op onderwerppagina's, inclusief welke personen en resources aan dat onderwerp zijn vastgemaakt. |
 
-Momenten en kaarten worden weergegeven voor gebruikers in de context van hun werk, bijvoorbeeld wanneer ze door moderne pagina's bladeren in SharePoint. U kunt de ervaring van de eindgebruiker bepalen voor onderwerpen.
+Highlights en kaarten worden weergegeven voor gebruikers in de context van hun werk, bijvoorbeeld wanneer ze moderne pagina's in SharePoint. U kunt de ervaring van de eindgebruiker bepalen voor onderwerpen.
 
-- Wie kunt u Onderwerpen zien? De zichtbaarheid van het onderwerp is geconfigureerd in het Microsoft 365 beheercentrum. Kies welke groepen u wilt toestaan om onderwerpen te bekijken:
+- Wie kunt u Onderwerpen zien? De zichtbaarheid van het onderwerp is geconfigureerd in het Microsoft 365-beheer Center. Kies welke groepen u wilt toestaan om onderwerpen te bekijken:
   - Iedereen in mijn organisatie. 'Iedereen' bevat geen gasten, het zijn allemaal interne gebruikers in uw adreslijst
   - Alleen geselecteerde personen of beveiligingsgroepen (deze optie is goed terwijl u nog Steeds Viva-onderwerpen uitrolt, zodat u kunt testen met een subset gebruikers). Als u wilt dat gasten Onderwerpen bekijken, moet u de optie 'geselecteerde personen of beveiligingsgroepen' gebruiken en hen een licentie verlenen.
   - Niemand.

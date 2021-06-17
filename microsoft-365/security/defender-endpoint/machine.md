@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 7b95fc487a8ee3e82e0f215b34aa564e063534af
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 5ca147c9e69168b2f15aa69bba8728567b782fa9
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52772075"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984458"
 ---
 # <a name="machine-resource-type"></a>Type machineresource
 
@@ -55,6 +55,7 @@ Methode|Retourtype |Beschrijving
 [Computers zoeken op tag](find-machines-by-tag.md) | [machineverzameling](machine.md) | Machines zoeken op [tag](machine-tags.md).
 [Ontbrekende KB's ophalen](get-missing-kbs-machine.md) | KB-verzameling | Een lijst met ontbrekende KBs krijgen die zijn gekoppeld aan de computer-id
 [Apparaatwaarde instellen](set-device-value.md)| [machineverzameling](machine.md) | Stel de [waarde van een apparaat in.](tvm-assign-device-value.md)
+[Computer bijwerken](update-machine-method.md) |[machineverzameling](machine.md) | De updatestatus van een computer downloaden.
 
 ## <a name="properties"></a>Eigenschappen
 
