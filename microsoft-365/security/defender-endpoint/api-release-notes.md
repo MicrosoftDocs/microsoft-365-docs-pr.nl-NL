@@ -16,65 +16,69 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 4843894638ccf119c0cadcf003e159e793c18368
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: a0191a52c64b32b314d4b2f2f36c85b060226ad6
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843732"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984650"
 ---
-# <a name="microsoft-defender-for-endpoint-api-release-notes"></a><span data-ttu-id="9a0d6-104">Releasenotities van Microsoft Defender for Endpoint API</span><span class="sxs-lookup"><span data-stu-id="9a0d6-104">Microsoft Defender for Endpoint API release notes</span></span>
+# <a name="microsoft-defender-for-endpoint-api-release-notes"></a><span data-ttu-id="8c1d6-104">Releasenotities van Microsoft Defender for Endpoint API</span><span class="sxs-lookup"><span data-stu-id="8c1d6-104">Microsoft Defender for Endpoint API release notes</span></span>
 
-<span data-ttu-id="9a0d6-105">**Van toepassing op:** [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)</span><span class="sxs-lookup"><span data-stu-id="9a0d6-105">**Applies to:** [Microsoft Defender for Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)</span></span>
+<span data-ttu-id="8c1d6-105">**Van toepassing op:** [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)</span><span class="sxs-lookup"><span data-stu-id="8c1d6-105">**Applies to:** [Microsoft Defender for Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)</span></span>
 
-- <span data-ttu-id="9a0d6-106">Wilt u Microsoft Defender voor Eindpunt ervaren?</span><span class="sxs-lookup"><span data-stu-id="9a0d6-106">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="9a0d6-107">Meld u aan voor een gratis proefabonnement.</span><span class="sxs-lookup"><span data-stu-id="9a0d6-107">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+- <span data-ttu-id="8c1d6-106">Wilt u Microsoft Defender voor Eindpunt ervaren?</span><span class="sxs-lookup"><span data-stu-id="8c1d6-106">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="8c1d6-107">Meld u aan voor een gratis proefabonnement.</span><span class="sxs-lookup"><span data-stu-id="8c1d6-107">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-<span data-ttu-id="9a0d6-108">De volgende informatie bevat de updates die zijn aangebracht aan de API's van Microsoft Defender voor eindpunten en de datums waarop ze zijn gemaakt.</span><span class="sxs-lookup"><span data-stu-id="9a0d6-108">The following information lists the updates made to the Microsoft Defender for Endpoint APIs and the dates they were made.</span></span>
+<span data-ttu-id="8c1d6-108">De volgende informatie bevat de updates die zijn aangebracht aan de API's van Microsoft Defender voor eindpunten en de datums waarop ze zijn gemaakt.</span><span class="sxs-lookup"><span data-stu-id="8c1d6-108">The following information lists the updates made to the Microsoft Defender for Endpoint APIs and the dates they were made.</span></span>
 
 > [!TIP]
-> <span data-ttu-id="9a0d6-109">RSS-feed: Ontvang een melding wanneer deze pagina wordt bijgewerkt door de volgende URL in uw feedlezer te kopiëren en te kopiëren:</span><span class="sxs-lookup"><span data-stu-id="9a0d6-109">RSS feed: Get notified when this page is updated by copying and pasting the following URL into your feed reader:</span></span>
+> <span data-ttu-id="8c1d6-109">RSS-feed: Ontvang een melding wanneer deze pagina wordt bijgewerkt door de volgende URL in uw feedlezer te kopiëren en te kopiëren:</span><span class="sxs-lookup"><span data-stu-id="8c1d6-109">RSS feed: Get notified when this page is updated by copying and pasting the following URL into your feed reader:</span></span>
 >
 > ```http
 > /api/search/rss?search=%22Release+notes+for+updates+made+to+the+Microsoft+Defender+for+Endpoint+set+of+APIs%22&locale=en-us&facet=&%24filter=scopes%2Fany%28t%3A+t+eq+%27Windows+10%27%29
 > ```
 
-## <a name="release-notes---newest-to-oldest-ddmmyyyy"></a><span data-ttu-id="9a0d6-110">Releasenotities - nieuwste naar oudste (dd.mm.yyyy)</span><span class="sxs-lookup"><span data-stu-id="9a0d6-110">Release notes - newest to oldest (dd.mm.yyyy)</span></span>
+## <a name="release-notes---newest-to-oldest-ddmmyyyy"></a><span data-ttu-id="8c1d6-110">Releasenotities - nieuwste naar oudste (dd.mm.yyyy)</span><span class="sxs-lookup"><span data-stu-id="8c1d6-110">Release notes - newest to oldest (dd.mm.yyyy)</span></span>
 
-### <a name="05252021"></a><span data-ttu-id="9a0d6-111">05.25.2021</span><span class="sxs-lookup"><span data-stu-id="9a0d6-111">05.25.2021</span></span>
+### <a name="06102021"></a><span data-ttu-id="8c1d6-111">06.10.2021</span><span class="sxs-lookup"><span data-stu-id="8c1d6-111">06.10.2021</span></span>
 
-- <span data-ttu-id="9a0d6-112">Nieuwe API [Exportbeoordelingsmethoden en -eigenschappen per apparaat toegevoegd.](get-assessment-methods-properties.md)</span><span class="sxs-lookup"><span data-stu-id="9a0d6-112">Added new API [Export assessment methods and properties per device](get-assessment-methods-properties.md).</span></span>
+- <span data-ttu-id="8c1d6-112">Nieuwe exportbeoordelings-API-methode toegevoegd - Delta Export software vulnerabilities assessment (OData) Export assessment methods and properties per device ( Export assessment API method - _Delta Export software vulnerabilities assessment (OData)_ Export assessment methods and properties per [device](get-assessment-methods-properties.md).</span><span class="sxs-lookup"><span data-stu-id="8c1d6-112">Added new Export assessment API method  - _Delta Export software vulnerabilities assessment (OData)_ [Export assessment methods and properties per device](get-assessment-methods-properties.md).</span></span>
 
-### <a name="03052021"></a><span data-ttu-id="9a0d6-113">03.05.2021</span><span class="sxs-lookup"><span data-stu-id="9a0d6-113">03.05.2021</span></span>
+### <a name="05252021"></a><span data-ttu-id="8c1d6-113">05.25.2021</span><span class="sxs-lookup"><span data-stu-id="8c1d6-113">05.25.2021</span></span>
 
-- <span data-ttu-id="9a0d6-114">Nieuwe API toegevoegd: [herstelactiviteitsmethoden en -eigenschappen](get-remediation-methods-properties.md).</span><span class="sxs-lookup"><span data-stu-id="9a0d6-114">Added new API: [Remediation activity methods and properties](get-remediation-methods-properties.md).</span></span>
+- <span data-ttu-id="8c1d6-114">Nieuwe API [Exportbeoordelingsmethoden en -eigenschappen per apparaat toegevoegd.](get-assessment-methods-properties.md)</span><span class="sxs-lookup"><span data-stu-id="8c1d6-114">Added new API [Export assessment methods and properties per device](get-assessment-methods-properties.md).</span></span>
 
-### <a name="10022021"></a><span data-ttu-id="9a0d6-115">10.02.2021</span><span class="sxs-lookup"><span data-stu-id="9a0d6-115">10.02.2021</span></span>
+### <a name="03052021"></a><span data-ttu-id="8c1d6-115">03.05.2021</span><span class="sxs-lookup"><span data-stu-id="8c1d6-115">03.05.2021</span></span>
 
-- <span data-ttu-id="9a0d6-116">Nieuwe API toegevoegd: [waarschuwingen voor batchupdates.](batch-update-alerts.md)</span><span class="sxs-lookup"><span data-stu-id="9a0d6-116">Added new API: [Batch update alerts](batch-update-alerts.md).</span></span>
+- <span data-ttu-id="8c1d6-116">Nieuwe API toegevoegd: [herstelactiviteitsmethoden en -eigenschappen](get-remediation-methods-properties.md).</span><span class="sxs-lookup"><span data-stu-id="8c1d6-116">Added new API: [Remediation activity methods and properties](get-remediation-methods-properties.md).</span></span>
 
-### <a name="25012021"></a><span data-ttu-id="9a0d6-117">25.01.2021</span><span class="sxs-lookup"><span data-stu-id="9a0d6-117">25.01.2021</span></span>
+### <a name="10022021"></a><span data-ttu-id="8c1d6-117">10.02.2021</span><span class="sxs-lookup"><span data-stu-id="8c1d6-117">10.02.2021</span></span>
 
-- <span data-ttu-id="9a0d6-118">Bijgewerkte tariefbeperkingen voor [Advanced Hunting API](run-advanced-query-api.md) van 15 tot 45 aanvragen per minuut.</span><span class="sxs-lookup"><span data-stu-id="9a0d6-118">Updated rate limitations for [Advanced Hunting API](run-advanced-query-api.md) from 15 to 45 requests per minute.</span></span>
+- <span data-ttu-id="8c1d6-118">Nieuwe API toegevoegd: [waarschuwingen voor batchupdates.](batch-update-alerts.md)</span><span class="sxs-lookup"><span data-stu-id="8c1d6-118">Added new API: [Batch update alerts](batch-update-alerts.md).</span></span>
 
-### <a name="21012021"></a><span data-ttu-id="9a0d6-119">21.01.2021</span><span class="sxs-lookup"><span data-stu-id="9a0d6-119">21.01.2021</span></span>
+### <a name="25012021"></a><span data-ttu-id="8c1d6-119">25.01.2021</span><span class="sxs-lookup"><span data-stu-id="8c1d6-119">25.01.2021</span></span>
 
-- <span data-ttu-id="9a0d6-120">Nieuwe API toegevoegd: [Apparaten zoeken op tag](machine-tags.md).</span><span class="sxs-lookup"><span data-stu-id="9a0d6-120">Added new API: [Find devices by tag](machine-tags.md).</span></span>
-- <span data-ttu-id="9a0d6-121">Nieuwe API toegevoegd: [importindicatoren](import-ti-indicators.md).</span><span class="sxs-lookup"><span data-stu-id="9a0d6-121">Added new API: [Import Indicators](import-ti-indicators.md).</span></span>
+- <span data-ttu-id="8c1d6-120">Bijgewerkte tariefbeperkingen voor [Advanced Hunting API](run-advanced-query-api.md) van 15 tot 45 aanvragen per minuut.</span><span class="sxs-lookup"><span data-stu-id="8c1d6-120">Updated rate limitations for [Advanced Hunting API](run-advanced-query-api.md) from 15 to 45 requests per minute.</span></span>
 
-### <a name="03012021"></a><span data-ttu-id="9a0d6-122">03.01.2021</span><span class="sxs-lookup"><span data-stu-id="9a0d6-122">03.01.2021</span></span>
+### <a name="21012021"></a><span data-ttu-id="8c1d6-121">21.01.2021</span><span class="sxs-lookup"><span data-stu-id="8c1d6-121">21.01.2021</span></span>
 
-- <span data-ttu-id="9a0d6-123">Bijgewerkte waarschuwingen: toegevoegde eigenschappen ***detectieStatus** _, _*_bovenliggendeProcessFilePath_*_ en _ *_parentProcessFileName_** .</span><span class="sxs-lookup"><span data-stu-id="9a0d6-123">Updated Alert evidence: added ***detectionStatus** _, _*_parentProcessFilePath_*_ and _ *_parentProcessFileName_** properties.</span></span>
-- <span data-ttu-id="9a0d6-124">Bijgewerkte [waarschuwingsentiteit:](alerts.md) ***eigenschap melderid*** toegevoegd.</span><span class="sxs-lookup"><span data-stu-id="9a0d6-124">Updated [Alert entity](alerts.md): added ***detectorId*** property.</span></span>
+- <span data-ttu-id="8c1d6-122">Nieuwe API toegevoegd: [Apparaten zoeken op tag](machine-tags.md).</span><span class="sxs-lookup"><span data-stu-id="8c1d6-122">Added new API: [Find devices by tag](machine-tags.md).</span></span>
+- <span data-ttu-id="8c1d6-123">Nieuwe API toegevoegd: [importindicatoren](import-ti-indicators.md).</span><span class="sxs-lookup"><span data-stu-id="8c1d6-123">Added new API: [Import Indicators](import-ti-indicators.md).</span></span>
 
-### <a name="15122020"></a><span data-ttu-id="9a0d6-125">15.12.2020</span><span class="sxs-lookup"><span data-stu-id="9a0d6-125">15.12.2020</span></span>
+### <a name="03012021"></a><span data-ttu-id="8c1d6-124">03.01.2021</span><span class="sxs-lookup"><span data-stu-id="8c1d6-124">03.01.2021</span></span>
 
-- <span data-ttu-id="9a0d6-126">Bijgewerkte apparaatentiteit: ***lijst met IpInterfaces*** toegevoegd. [](machine.md)</span><span class="sxs-lookup"><span data-stu-id="9a0d6-126">Updated [Device](machine.md) entity: added ***IpInterfaces*** list.</span></span> <span data-ttu-id="9a0d6-127">Zie [Lijstapparaten](get-machines.md).</span><span class="sxs-lookup"><span data-stu-id="9a0d6-127">See [List devices](get-machines.md).</span></span>
+- <span data-ttu-id="8c1d6-125">Bijgewerkte waarschuwingen: toegevoegde eigenschappen ***detectieStatus** _, _*_bovenliggendeProcessFilePath_*_ en _ *_parentProcessFileName_** .</span><span class="sxs-lookup"><span data-stu-id="8c1d6-125">Updated Alert evidence: added ***detectionStatus** _, _*_parentProcessFilePath_*_ and _ *_parentProcessFileName_** properties.</span></span>
+- <span data-ttu-id="8c1d6-126">Bijgewerkte [waarschuwingsentiteit:](alerts.md) ***eigenschap melderid*** toegevoegd.</span><span class="sxs-lookup"><span data-stu-id="8c1d6-126">Updated [Alert entity](alerts.md): added ***detectorId*** property.</span></span>
 
-### <a name="04112020"></a><span data-ttu-id="9a0d6-128">04.11.2020</span><span class="sxs-lookup"><span data-stu-id="9a0d6-128">04.11.2020</span></span>
+### <a name="15122020"></a><span data-ttu-id="8c1d6-127">15.12.2020</span><span class="sxs-lookup"><span data-stu-id="8c1d6-127">15.12.2020</span></span>
 
-- <span data-ttu-id="9a0d6-129">Nieuwe API toegevoegd: [apparaatwaarde instellen.](set-device-value.md)</span><span class="sxs-lookup"><span data-stu-id="9a0d6-129">Added new API: [Set device value](set-device-value.md).</span></span>
-- <span data-ttu-id="9a0d6-130">Bijgewerkte apparaatentiteit: ***eigenschap apparaatwaarde*** toegevoegd. [](machine.md)</span><span class="sxs-lookup"><span data-stu-id="9a0d6-130">Updated [Device](machine.md) entity: added ***deviceValue*** property.</span></span>
+- <span data-ttu-id="8c1d6-128">Bijgewerkte apparaatentiteit: ***lijst met IpInterfaces*** toegevoegd. [](machine.md)</span><span class="sxs-lookup"><span data-stu-id="8c1d6-128">Updated [Device](machine.md) entity: added ***IpInterfaces*** list.</span></span> <span data-ttu-id="8c1d6-129">Zie [Lijstapparaten](get-machines.md).</span><span class="sxs-lookup"><span data-stu-id="8c1d6-129">See [List devices](get-machines.md).</span></span>
 
-### <a name="01092020"></a><span data-ttu-id="9a0d6-131">01.09.2020</span><span class="sxs-lookup"><span data-stu-id="9a0d6-131">01.09.2020</span></span>
+### <a name="04112020"></a><span data-ttu-id="8c1d6-130">04.11.2020</span><span class="sxs-lookup"><span data-stu-id="8c1d6-130">04.11.2020</span></span>
 
-- <span data-ttu-id="9a0d6-132">De optie Toegevoegd om de entiteit Waarschuwing uit te vouwen met het bijbehorende bewijs.</span><span class="sxs-lookup"><span data-stu-id="9a0d6-132">Added option to expand the Alert entity with its related Evidence.</span></span> <span data-ttu-id="9a0d6-133">Zie [Lijstwaarschuwingen](get-alerts.md).</span><span class="sxs-lookup"><span data-stu-id="9a0d6-133">See [List Alerts](get-alerts.md).</span></span>
+- <span data-ttu-id="8c1d6-131">Nieuwe API toegevoegd: [apparaatwaarde instellen.](set-device-value.md)</span><span class="sxs-lookup"><span data-stu-id="8c1d6-131">Added new API: [Set device value](set-device-value.md).</span></span>
+- <span data-ttu-id="8c1d6-132">Bijgewerkte apparaatentiteit: ***eigenschap apparaatwaarde*** toegevoegd. [](machine.md)</span><span class="sxs-lookup"><span data-stu-id="8c1d6-132">Updated [Device](machine.md) entity: added ***deviceValue*** property.</span></span>
+
+### <a name="01092020"></a><span data-ttu-id="8c1d6-133">01.09.2020</span><span class="sxs-lookup"><span data-stu-id="8c1d6-133">01.09.2020</span></span>
+
+- <span data-ttu-id="8c1d6-134">De optie Toegevoegd om de entiteit Waarschuwing uit te vouwen met het bijbehorende bewijs.</span><span class="sxs-lookup"><span data-stu-id="8c1d6-134">Added option to expand the Alert entity with its related Evidence.</span></span> <span data-ttu-id="8c1d6-135">Zie [Lijstwaarschuwingen](get-alerts.md).</span><span class="sxs-lookup"><span data-stu-id="8c1d6-135">See [List Alerts](get-alerts.md).</span></span>
