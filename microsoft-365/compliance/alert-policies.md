@@ -19,12 +19,12 @@ ms.assetid: 8927b8b9-c5bc-45a8-a9f9-96c732e58264
 ms.custom:
 - seo-marvel-apr2020
 description: Maak waarschuwingsbeleid in het beveiligings- en compliancecentrum in Office 365 en Microsoft 365 om mogelijke bedreigingen, gegevensverlies en machtigingsproblemen te controleren.
-ms.openlocfilehash: 2fe23f3e6d6889c3fc80b94be6a07095e06d3d68
-ms.sourcegitcommit: 959c3c3633e40b7b0f5e2c8372409778005a24db
+ms.openlocfilehash: 4bca7bb15900dbdd7caadb74ce7938b9483be03e
+ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52950117"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "52964726"
 ---
 # <a name="alert-policies-in-the-security-and-compliance-center"></a>Meldingsbeleid in het beveiligings- en compliancecentrum
 
@@ -285,11 +285,11 @@ Nadat waarschuwingen zijn gegenereerd en  weergegeven op de pagina Waarschuwinge
 
   - Het aantal keren dat de activiteit die door de waarschuwing is bijgespoord, is uitgevoerd. Dit aantal komt mogelijk niet overeen met het werkelijke aantal gerelateerde waarschuwingen dat wordt weergegeven op de pagina Waarschuwingen weergeven, omdat er mogelijk meer waarschuwingen zijn geactiveerd.
 
-  - Een koppeling naar een activiteitenlijst met een item voor elke activiteit die is uitgevoerd die de waarschuwing heeft geactiveerd. Elke vermelding in deze lijst geeft aan wanneer de activiteit heeft plaatsgevonden, de naam van de werkelijke bewerking (zoals 'FileDeleted') en de gebruiker die de activiteit heeft uitgevoerd, het object (zoals een bestand, een eDiscovery-zaak of een postvak) waarop de activiteit is uitgevoerd en het IP-adres van de computer van de gebruiker. Voor waarschuwingen die betrekking hebben op malware, wordt er een koppeling naar een berichtenlijst weergegeven.
+  - Een koppeling naar een activiteitenlijst met een item voor elke activiteit die is uitgevoerd die de waarschuwing heeft geactiveerd. Elke vermelding in deze lijst geeft aan wanneer de activiteit heeft plaatsgevonden, de naam van de werkelijke bewerking (zoals 'FileDeleted'), de gebruiker die de activiteit heeft uitgevoerd, het object (zoals een bestand, een eDiscovery-zaak of een postvak) waarop de activiteit is uitgevoerd en het IP-adres van de computer van de gebruiker. Voor waarschuwingen die betrekking hebben op malware, wordt er een koppeling naar een berichtenlijst weergegeven.
 
   - De naam (en koppeling) van het bijbehorende waarschuwingsbeleid.
 
-- **E-mailmeldingen onderdrukken.** U kunt e-mailmeldingen uitschakelen (of onderdrukken) vanaf de flyoutpagina voor een waarschuwing. Wanneer u e-mailmeldingen onderdrukt, verzendt Microsoft geen meldingen wanneer activiteiten of gebeurtenissen overeenkomen met de voorwaarden van het waarschuwingsbeleid. Waarschuwingen worden echter geactiveerd wanneer activiteiten die door gebruikers worden uitgevoerd, voldoen aan de voorwaarden van het waarschuwingsbeleid. U kunt e-mailmeldingen ook uitschakelen door het waarschuwingsbeleid te bewerken.
+- **E-mailmeldingen onderdrukken.** U kunt e-mailmeldingen uitschakelen (of onderdrukken) vanaf de flyoutpagina voor een waarschuwing. Wanneer u e-mailmeldingen onderdrukt, verzendt Microsoft geen meldingen wanneer activiteiten of gebeurtenissen plaatsvinden die voldoen aan de voorwaarden van het waarschuwingsbeleid. Waarschuwingen worden echter geactiveerd wanneer activiteiten die door gebruikers worden uitgevoerd, voldoen aan de voorwaarden van het waarschuwingsbeleid. U kunt e-mailmeldingen ook uitschakelen door het waarschuwingsbeleid te bewerken.
 
 - **Waarschuwingen oplossen.** U kunt een waarschuwing markeren als opgelost op de flyoutpagina voor een waarschuwing (waarmee de status van de waarschuwing wordt in stellen op **Opgelost).** Tenzij u het filter wijzigt, worden opgeloste waarschuwingen niet weergegeven op de **pagina Waarschuwingen** weergeven.
 
