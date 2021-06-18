@@ -13,12 +13,12 @@ ms.author: shmehta
 ms.reviewer: krowley
 appliesto:
 - Office 365 Business
-ms.openlocfilehash: 708e5dc68b777db42696c6791124b2a8dd1d3b87
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: cbd1ff5f2baf17e9a45a64e46d2e9f9f02e1fb68
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "52162260"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007427"
 ---
 # <a name="preparing-for-tls-12-in-office-365-and-office-365-gcc"></a>Voorbereiden op TLS 1.2 in Office 365 en Office 365 GCC
 
@@ -70,6 +70,7 @@ Als u een on-premises infrastructuur gebruikt voor hybride scenario's of Active 
 De volgende bronnen bieden richtlijnen om ervoor te zorgen dat uw clients TLS 1.2 of een latere versie gebruiken en om TLS 1.0 en 1.1 uit te schakelen.
 
 - Als u Windows 7-clients hebt die verbinding maken met Office 365, moet u ervoor zorgen dat TLS 1.2 het standaard beveiligde protocol is in WinHTTP in Windows. Voor meer informatie raadpleegt u [KB 3140245 - Update om TLS 1.1 en TLS 1.2 in te schakelen als standaard beveiligde protocollen in WinHTTP in Windows](https://support.microsoft.com/help/3140245/update-to-enable-tls-1-1-and-tls-1-2-as-a-default-secure-protocols-in).
+- [TLS-coderingssuites die worden ondersteund door Office 365](/microsoft-365/compliance/technical-reference-details-about-encryption?view=o365-worldwide#tls-cipher-suites-supported-by-office-365)
 - Raadpleeg [TLS 1.2-ondersteuning bij Microsoft](https://cloudblogs.microsoft.com/microsoftsecure/2017/06/20/tls-1-2-support-at-microsoft/) om zwak TLS-gebruik te corrigeren door TLS 1.0- en 1.1-afhankelijkheden te verwijderen.
 - De [Nieuwe IIS-functionaliteit](https://cloudblogs.microsoft.com/microsoftsecure/2017/09/07/new-iis-functionality-to-help-identify-weak-tls-usage/) maakt het gemakkelijker om clients te vinden op [Windows Server 2012 R2](https://support.microsoft.com/help/4025335/windows-8-1-windows-server-2012-r2-update-kb4025335) en [Windows Server 2016](https://support.microsoft.com/help/4025334/windows-10-update-kb4025334) die verbinding maken met de service met behulp van zwakke beveiligingsprotocollen.
 - Meer informatie over het oplossen van het [TLS 1.0-probleem.](https://www.microsoft.com/download/details.aspx?id=55266)

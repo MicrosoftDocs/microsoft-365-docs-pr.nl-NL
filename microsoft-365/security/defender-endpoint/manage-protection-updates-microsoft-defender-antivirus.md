@@ -1,6 +1,6 @@
 ---
-title: Beheren hoe en waar updates Microsoft Defender Antivirus ontvangen
-description: Beheer de fallback-volgorde voor hoe Microsoft Defender Antivirus beveiligingsupdates ontvangt.
+title: Beheren hoe en waar Microsoft Defender Antivirus updates ontvangt
+description: Beheer de terugvalorder voor de manier waarop Microsoft Defender Antivirus beveiligingsupdates ontvangt.
 keywords: updates, beveiligingslijnlijnen, beveiliging, fallback order, ADL, MMPC, UNC, bestandspad, delen, wsus
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -15,12 +15,12 @@ ms.reviewer: pahuijbr
 manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
-ms.openlocfilehash: 35873b371e773e793ae966a338150e2e5e256a42
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: d218e9dea58f064fd54dbd9bb976f512a721df91
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52926029"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007322"
 ---
 # <a name="manage-the-sources-for-microsoft-defender-antivirus-protection-updates"></a>De bronnen beheren voor updates voor de Microsoft Defender Antivirus-beveiliging
 
@@ -38,10 +38,10 @@ Het up-to-date houden van uw antivirusbeveiliging is essentieel. Er zijn twee on
 - *Waar* de updates van worden gedownload; en 
 - *Wanneer* updates worden gedownload en toegepast. 
 
-In dit artikel wordt beschreven hoe u kunt opgeven waar updates moeten worden gedownload (dit wordt ook wel de terugvalorder genoemd). Zie [Het Microsoft Defender Antivirus updates beheren](manage-updates-baselines-microsoft-defender-antivirus.md) en basislijnen toepassen voor een overzicht van hoe updates werken en hoe u andere aspecten van updates configureert (zoals het plannen van updates).
+In dit artikel wordt beschreven hoe u kunt opgeven waar updates moeten worden gedownload (dit wordt ook wel de terugvalorder genoemd). Zie [Microsoft Defender Antivirus-updates beheren](manage-updates-baselines-microsoft-defender-antivirus.md) en basislijnen toepassen voor een overzicht van hoe updates werken en hoe u andere aspecten van updates configureert (zoals het plannen van updates).
 
 > [!IMPORTANT]
-> Microsoft Defender Antivirus Beveiligingsintelligentie-updates worden geleverd Windows Update en vanaf maandag 21 oktober 2019 zijn alle beveiligingsintelligentie-updates exclusief ondertekend met SHA-2. Uw apparaten moeten worden bijgewerkt ter ondersteuning van SHA-2 om uw beveiligingsinformatie bij te werken. Zie [SHA-2 Code Signing Support 2019 voor Windows en WSUS voor](https://support.microsoft.com/help/4472027/2019-sha-2-code-signing-support-requirement-for-windows-and-wsus)meer informatie.  
+> Microsoft Defender Antivirus Security Intelligence-updates worden geleverd via Windows Update en vanaf maandag 21 oktober 2019 zijn alle beveiligingsinformatie-updates sha-2 exclusief ondertekend. Uw apparaten moeten worden bijgewerkt ter ondersteuning van SHA-2 om uw beveiligingsinformatie bij te werken. Zie [SHA-2 Code Signing Support requirement 2019 voor Windows en WSUS](https://support.microsoft.com/help/4472027/2019-sha-2-code-signing-support-requirement-for-windows-and-wsus)voor meer informatie.  
 
 
 <a id="fallback-order"></a>
@@ -59,32 +59,32 @@ Hoe ouder de updates op een eindpunt, hoe groter de download. U moet echter ook 
 Er zijn vijf locaties waar u kunt opgeven waar een eindpunt updates moet krijgen: 
 
 - [Microsoft Update](https://support.microsoft.com/help/12373/windows-update-faq)
-- [Windows Serverupdateservice](/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus)
+- [Windows Server Update Service](/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus)
 - [Microsoft Endpoint Configuration Manager](/configmgr/core/servers/manage/updates)
 - [Netwerkbestands delen](#unc-share)
-- [Beveiligingsintelligentie-updates voor Microsoft Defender Antivirus en andere Microsoft-antimalware](https://www.microsoft.com/en-us/wdsi/defenderupdates) (Uw beleid en register kunnen dit vermeld hebben als Microsoft Centrum voor beveiliging tegen schadelijke software (MMPC) beveiligingsinformatie, de voormalige naam.)
+- [Beveiligingsintelligentie-updates](https://www.microsoft.com/en-us/wdsi/defenderupdates) voor Microsoft Defender Antivirus en andere microsoft-antimalware (Uw beleid en register kunnen dit vermeld hebben als beveiligingsinformatie van Microsoft Malware Protection Center (MMPC), de voormalige naam.)
 
-Om het beste beschermingsniveau te garanderen, zorgt Microsoft Update voor snelle versies, wat betekent dat er regelmatig kleinere downloads worden gedownload. De Windows serverupdateservice, Microsoft Endpoint Configuration Manager en microsoft-beveiligingsinformatieupdates leveren minder frequente updates. De delta kan dus groter zijn, wat resulteert in grotere downloads. 
+Om het beste beschermingsniveau te garanderen, zorgt Microsoft Update voor snelle versies, wat betekent dat er regelmatig kleinere downloads worden gedownload. De Windows Server Update Service, Microsoft Endpoint Configuration Manager en microsoft beveiligingsinformatieupdates leveren minder frequente updates. De delta kan dus groter zijn, wat resulteert in grotere downloads. 
 
 > [!IMPORTANT]
-> Als u [](https://www.microsoft.com/security/portal/definitions/adl.aspx) microsoft beveiligingsinformatiepagina-updates hebt ingesteld als een terugvalbron na Windows Server Update Service of Microsoft Update, worden updates alleen gedownload van beveiligingsinformatie-updates wanneer de huidige update als verouderd wordt beschouwd. (Dit is standaard zeven opeenvolgende dagen dat u geen updates kunt toepassen van de Windows Server Update Service of Microsoft Update-services).
+> Als u [](https://www.microsoft.com/security/portal/definitions/adl.aspx) microsoft beveiligingsinformatiepagina-updates hebt ingesteld als een terugvalbron na Windows Server Update Service of Microsoft Update, worden updates alleen gedownload van beveiligingsinformatie-updates wanneer de huidige update als verouderd wordt beschouwd. (Dit is standaard zeven opeenvolgende dagen om geen updates van de Windows Server Update Service of Microsoft Update-services toe te passen).
 > U kunt echter wel het aantal dagen instellen voordat de beveiliging als verouderd [wordt gerapporteerd.](/windows/threat-protection/microsoft-defender-antivirus/manage-outdated-endpoints-microsoft-defender-antivirus#set-the-number-of-days-before-protection-is-reported-as-out-of-date)<p>
-> Vanaf maandag 21 oktober 2019 zijn beveiligingsintelligentie-updates uitsluitend SHA-2 ondertekend. Apparaten moeten worden bijgewerkt ter ondersteuning van SHA-2 om de meest recente beveiligingsinformatie-updates te krijgen. Zie [SHA-2 Code Signing Support 2019 voor Windows en WSUS voor](https://support.microsoft.com/help/4472027/2019-sha-2-code-signing-support-requirement-for-windows-and-wsus)meer informatie.
+> Vanaf maandag 21 oktober 2019 zijn beveiligingsintelligentie-updates uitsluitend SHA-2 ondertekend. Apparaten moeten worden bijgewerkt ter ondersteuning van SHA-2 om de meest recente beveiligingsinformatie-updates te krijgen. Zie [SHA-2 Code Signing Support requirement 2019 voor Windows en WSUS](https://support.microsoft.com/help/4472027/2019-sha-2-code-signing-support-requirement-for-windows-and-wsus)voor meer informatie.
 
 Elke bron heeft standaardscenario's die afhankelijk zijn van de configuratie van uw netwerk, naast hoe vaak updates worden gepubliceerd, zoals wordt beschreven in de volgende tabel:
 
 |Locatie | Voorbeeldscenario |
 |---|---|
-|Windows Serverupdateservice | U gebruikt Windows serverupdateservice om updates voor uw netwerk te beheren.|
-|Microsoft Update | U wilt dat uw eindpunten rechtstreeks verbinding maken met Microsoft Update. Dit kan handig zijn voor eindpunten die onregelmatig verbinding maken met uw bedrijfsnetwerk, of als u de serverupdateservice niet gebruikt om uw updates te beheren Windows serverupdateservice.|
+|Windows Server Update Service | U gebruikt Windows Server Update Service om updates voor uw netwerk te beheren.|
+|Microsoft Update | U wilt dat uw eindpunten rechtstreeks verbinding maken met Microsoft Update. Dit kan handig zijn voor eindpunten die onregelmatig verbinding maken met uw bedrijfsnetwerk of als u Windows Server Update Service niet gebruikt om uw updates te beheren.|
 |Bestands delen | U hebt apparaten die niet met internet zijn verbonden (zoals VM's). U kunt uw VM-host met internetverbinding gebruiken om de updates naar een netwerk delen te downloaden, waaruit de VM's de updates kunnen verkrijgen. Zie de [VDI-implementatiehandleiding](deployment-vdi-microsoft-defender-antivirus.md) voor de manier waarop bestandsaandelen kunnen worden gebruikt in VDI-omgevingen (Virtual Desktop Infrastructure).|
 |Microsoft Endpoint Manager | U gebruikt Microsoft Endpoint Manager om uw eindpunten bij te werken.|
-|Beveiligingsinformatieupdates voor Microsoft Defender Antivirus en andere Microsoft-antimalware (voorheen MMPC genoemd) |[Zorg ervoor dat uw apparaten worden bijgewerkt om SHA-2 te ondersteunen.](https://support.microsoft.com/help/4472027/2019-sha-2-code-signing-support-requirement-for-windows-and-wsus) Microsoft Defender Antivirus Beveiligingsintelligentie-updates worden geleverd Windows Update en vanaf maandag 21 oktober 2019 zijn beveiligingsinformatie-updates sha-2 exclusief ondertekend. <br/>Download de meest recente beveiligingsupdates vanwege een recente infectie of om een sterke basisafbeelding in te stellen voor [VDI-implementatie.](deployment-vdi-microsoft-defender-antivirus.md) Deze optie moet over het algemeen alleen worden gebruikt als een definitieve fallbackbron en niet als primaire bron. Deze wordt alleen gebruikt als updates niet kunnen worden gedownload van Windows Server Update Service of Microsoft Update voor een [bepaald aantal dagen.](/windows/threat-protection/microsoft-defender-antivirus/manage-outdated-endpoints-microsoft-defender-antivirus#set-the-number-of-days-before-protection-is-reported-as-out-of-date)|
+|Beveiligingsintelligentieupdates voor Microsoft Defender Antivirus en andere Microsoft-antimalware (voorheen MMPC genoemd) |[Zorg ervoor dat uw apparaten worden bijgewerkt om SHA-2 te ondersteunen.](https://support.microsoft.com/help/4472027/2019-sha-2-code-signing-support-requirement-for-windows-and-wsus) Microsoft Defender Antivirus Security Intelligence-updates worden geleverd via Windows Update en vanaf maandag 21 oktober 2019 zijn beveiligingsinformatie-updates sha-2 exclusief ondertekend. <br/>Download de meest recente beveiligingsupdates vanwege een recente infectie of om een sterke basisafbeelding in te stellen voor [VDI-implementatie.](deployment-vdi-microsoft-defender-antivirus.md) Deze optie moet over het algemeen alleen worden gebruikt als een definitieve fallbackbron en niet als primaire bron. Deze wordt alleen gebruikt als updates niet kunnen worden gedownload van Windows Server Update Service of Microsoft Update voor een [bepaald aantal dagen.](/windows/threat-protection/microsoft-defender-antivirus/manage-outdated-endpoints-microsoft-defender-antivirus#set-the-number-of-days-before-protection-is-reported-as-out-of-date)|
 
 U kunt de volgorde beheren waarin updatebronnen worden gebruikt met groepsbeleid, Microsoft Endpoint Configuration Manager, PowerShell-cmdlets en WMI.
 
 > [!IMPORTANT]
-> Als u de Windows serverupdateservice als downloadlocatie in stelt, moet u de updates goedkeuren, ongeacht het beheerprogramma dat u gebruikt om de locatie op te geven. U kunt een automatische goedkeuringsregel instellen Windows serverupdateservice, die handig kan zijn als updates minimaal eenmaal per dag binnenkomen. Zie Updates voor eindpuntbeveiliging [synchroniseren in zelfstandige Windows serverupdateservice voor meer informatie.](/configmgr/protect/deploy-use/endpoint-definitions-wsus#to-synchronize-endpoint-protection-definition-updates-in-standalone-wsus)
+> Als u Windows Server Update Service als downloadlocatie in stelt, moet u de updates goedkeuren, ongeacht het beheerprogramma dat u gebruikt om de locatie op te geven. U kunt een automatische goedkeuringsregel instellen met Windows Server Update Service, wat handig kan zijn als updates ten minste eenmaal per dag binnenkomen. Zie Updates voor eindpuntbeveiliging synchroniseren in zelfstandige Windows Server Update Service voor [meer informatie.](/configmgr/protect/deploy-use/endpoint-definitions-wsus#to-synchronize-endpoint-protection-definition-updates-in-standalone-wsus)
 
 In de procedures in dit artikel wordt eerst beschreven hoe  u de volgorde instelt en vervolgens hoe u de optie Bestands delen instelt als u deze hebt ingeschakeld.
 
@@ -96,28 +96,28 @@ In de procedures in dit artikel wordt eerst beschreven hoe  u de volgorde instel
 
 3. Klik **op Beleid** en vervolgens op **Beheersjablonen.**
 
-4. Vouw de structuur uit Windows **onderdelen > Windows Defender > handtekeningupdates** en configureer de volgende instellingen:
+4. Vouw de structuur uit naar **Windows-onderdelen**  >  **Windows Defender**  >  **Signature-updates** en configureer de volgende instellingen:
 
    1.  Dubbelklik op de instelling De volgorde van bronnen definiëren voor het downloaden van **beveiligingsinformatieupdates** en stel de optie in op **Ingeschakeld.**
 
    2.  Voer de volgorde van bronnen in, gescheiden door één pijp, bijvoorbeeld: `InternalDefinitionUpdateServer|MicrosoftUpdateServer|MMPC` , zoals wordt weergegeven in de volgende schermafbeelding.
 
-   ![Schermafbeelding van groepsbeleidsinstelling met de volgorde van bronnen](images/defender/wdav-order-update-sources.png)
+      :::image type="content" source="../../media/wdav-order-update-sources.png" alt-text="groepsbeleidsinstelling met de volgorde van bronnen":::
 
-   3. Klik op **OK**. Hiermee wordt de volgorde van beveiligingsupdatebronnen ingesteld.
+   3. Selecteer **OK**. Hiermee wordt de volgorde van beveiligingsupdatebronnen ingesteld.
 
    4. Dubbelklik op de **instelling Bestandsaandelen definiëren voor het downloaden van beveiligingsinformatieupdates** en stel de optie in op **Ingeschakeld.**
 
-   5. Voer de bestandsbestandsbron in. Als u meerdere bronnen hebt, voert u elke bron in in de volgorde waarin deze moet worden gebruikt, gescheiden door één pijp. Gebruik [standaard UNC-notatie om](/openspecs/windows_protocols/ms-dtyp/62e862f4-2a51-452e-8eeb-dc4ff5ee33cc) het pad aan te geven, bijvoorbeeld: `\\host-name1\share-name\object-name|\\host-name2\share-name\object-name` .  Als u geen paden typt, wordt deze bron overgeslagen wanneer de VM updates downloadt.
+   5. Geef de bestandsbestandsbron op. Als u meerdere bronnen hebt, voert u elke bron in in de volgorde waarin deze moet worden gebruikt, gescheiden door één pijp. Gebruik [standaard UNC-notatie om](/openspecs/windows_protocols/ms-dtyp/62e862f4-2a51-452e-8eeb-dc4ff5ee33cc) het pad aan te geven, bijvoorbeeld: `\\host-name1\share-name\object-name|\\host-name2\share-name\object-name` .  Als u geen paden typt, wordt deze bron overgeslagen wanneer de VM updates downloadt.
 
    6. Klik op **OK**. Hiermee wordt de volgorde van bestandsaandelen ingesteld wanneer naar die bron wordt verwezen in de groepsbeleidsinstelling De **volgorde van bronnen definiëren...**
 
 > [!NOTE]
-> Voor Windows 10, versies 1703 tot en met 1809, is het beleidspad **Windows Onderdelen > Microsoft Defender Antivirus >** Handtekeningupdates Voor Windows 10, versie 1903, is het beleidspad Windows Onderdelen > Microsoft Defender Antivirus > **Beveiligingsinformatieupdates**
+> Voor Windows 10, versies 1703 tot en met 1809, is het beleidspad **Windows Components > Microsoft Defender Antivirus > Signature Updates** For Windows 10, version 1903, the policy path is Windows Components > Microsoft Defender Antivirus > Security Intelligence **Updates**
 
 ## <a name="use-configuration-manager-to-manage-the-update-location"></a>Configuration Manager gebruiken om de updatelocatie te beheren
 
-Zie [Beveiligingsintelligentie-updates configureren Endpoint Protection](/configmgr/protect/deploy-use/endpoint-definition-updates) voor meer informatie over het configureren van Microsoft Endpoint Manager (huidige vertakking).
+Zie [Beveiligingsintelligentie-updates configureren voor Endpoint Protection](/configmgr/protect/deploy-use/endpoint-definition-updates) voor meer informatie over het configureren van Microsoft Endpoint Manager (huidige vertakking).
 
 
 ## <a name="use-powershell-cmdlets-to-manage-the-update-location"></a>PowerShell-cmdlets gebruiken om de updatelocatie te beheren
@@ -131,10 +131,10 @@ Set-MpPreference -SignatureDefinitionUpdateFileSharesSource {\\UNC SHARE PATH|\\
 Zie de volgende artikelen voor meer informatie:
 - [Set-MpPreference -SignatureFallbackOrder](/powershell/module/defender/set-mppreference)
 - [Set-MpPreference -SignatureDefinitionUpdateFileSharesSource](/powershell/module/defender/set-mppreference#-signaturedefinitionupdatefilesharessources)
-- [PowerShell-cmdlets gebruiken om powershell-cmdlets te configureren en Microsoft Defender Antivirus](use-powershell-cmdlets-microsoft-defender-antivirus.md)
+- [PowerShell-cmdlets gebruiken om Microsoft Defender Antivirus te configureren en uit te voeren](use-powershell-cmdlets-microsoft-defender-antivirus.md)
 - [Defender-cmdlets](/powershell/module/defender/index)
 
-## <a name="use-windows-management-instruction-wmi-to-manage-the-update-location"></a>Gebruik Windows Management Instruction (WMI) om de updatelocatie te beheren
+## <a name="use-windows-management-instruction-wmi-to-manage-the-update-location"></a>Windows Management Instruction (WMI) gebruiken om de updatelocatie te beheren
 
 Gebruik de [ **methode Set** of the **MSFT_MpPreference**](/previous-versions/windows/desktop/legacy/dn455323(v=vs.85)) class voor de volgende eigenschappen:
 
@@ -258,7 +258,7 @@ Stel een netwerkbestands delen (UNC/mapped station) in om beveiligingsinformatie
     > [!NOTE]
     > Voeg de map x64 (of x86) niet toe aan het pad. Het mpcmdrun.exe wordt automatisch toegevoegd.
 
-## <a name="related-articles"></a>Aanverwante artikelen
+## <a name="related-articles"></a>Verwante artikelen
 
 - [Implementatie van Microsoft Defender Antivirus](deploy-manage-report-microsoft-defender-antivirus.md)
 - [Updates Microsoft Defender Antivirus en basislijnen toepassen](manage-updates-baselines-microsoft-defender-antivirus.md)

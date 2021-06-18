@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: fafd3eed63e077ded41259d25f0d8a1a89802925
-ms.sourcegitcommit: 787fb30fdae6d49347a87f4baae3cd140067e573
+ms.openlocfilehash: 6884ec3b2bc7c24e4f7f6e62d9b24add3aeee2c0
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52998738"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007343"
 ---
 # <a name="plan-for-insider-risk-management"></a>Intern risicobeheer plannen
 
@@ -48,8 +48,8 @@ Afhankelijk van de structuur van uw compliancebeheerteam hebt u opties om gebrui
 
 | **Rollengroep** | **Rolmachtigingen** |
 | :------------- | :------------------- |
-| **Insider Risk Management** | Gebruik deze rollengroep om insiderrisicobeheer voor uw organisatie in één groep te beheren. Door alle gebruikersaccounts toe te voegen voor aangewezen beheerders, analisten, onderzoekers en auditors, kunt u machtigingen voor insiderrisicobeheer configureren in één groep. Deze rollengroep bevat alle machtigingen voor insiderrisicobeheer en bijbehorende machtigingen. Deze configuratie is de eenvoudigste manier om snel aan de slag te gaan met insider risk management en is geschikt voor organisaties die geen afzonderlijke machtigingen nodig hebben die zijn gedefinieerd voor afzonderlijke groepen gebruikers. Wanneer u deze configuratie gebruikt, moet u ervoor zorgen dat er altijd ten minste één gebruiker aan deze rol is toegewezen om ervoor te zorgen dat uw beleid werkt zoals verwacht, zodat de gebruiker beleidsregels kan maken en bewerken, oplossingsinstellingen kan configureren en waarschuwingen voor beleidstoestanden kan controleren. |
-| **Insider Risk Management Admin** | Gebruik deze rollengroep om in eerste instantie insiderrisicobeheer te configureren en later om beheerders van insiderrisico's te scheiden in een gedefinieerde groep. Gebruikers in deze rollengroep kunnen analyseinzichten in- en weergeven en insiderrisicobeheerbeleid, globale instellingen en rolgroeptoewijzingen maken, lezen, bijwerken en verwijderen. Wanneer u deze configuratie gebruikt, moet u ervoor zorgen dat er altijd ten minste één gebruiker aan deze rol is toegewezen om ervoor te zorgen dat uw beleid werkt zoals verwacht, zodat de gebruiker beleidsregels kan maken en bewerken, oplossingsinstellingen kan configureren en waarschuwingen voor beleidstoestanden kan controleren. |
+| **Insider Risk Management** | Gebruik deze rollengroep om insiderrisicobeheer voor uw organisatie in één groep te beheren. Door alle gebruikersaccounts toe te voegen voor aangewezen beheerders, analisten, onderzoekers en auditors, kunt u machtigingen voor insiderrisicobeheer configureren in één groep. Deze rollengroep bevat alle machtigingen voor insiderrisicobeheer en bijbehorende machtigingen. Deze configuratie is de eenvoudigste manier om snel aan de slag te gaan met insider risk management en is geschikt voor organisaties die geen afzonderlijke machtigingen nodig hebben die zijn gedefinieerd voor afzonderlijke groepen gebruikers. Wanneer u deze configuratie gebruikt, moet u ervoor zorgen dat er altijd ten minste één gebruiker aan deze rollengroep is toegewezen om ervoor te zorgen dat uw beleid werkt zoals verwacht, zodat de gebruiker beleidsregels kan maken en bewerken, oplossingsinstellingen kan configureren en waarschuwingen voor beleidstoestanden kan controleren. |
+| **Insider Risk Management Admin** | Gebruik deze rollengroep om in eerste instantie insiderrisicobeheer te configureren en later om beheerders van insiderrisico's te scheiden in een gedefinieerde groep. Gebruikers in deze rollengroep kunnen analyseinzichten in- en weergeven en insiderrisicobeheerbeleid, globale instellingen en rolgroeptoewijzingen maken, lezen, bijwerken en verwijderen. Wanneer u deze configuratie gebruikt, moet u ervoor zorgen dat er altijd ten minste één gebruiker aan deze rollengroep is toegewezen om ervoor te zorgen dat uw beleid werkt zoals verwacht, zodat de gebruiker beleidsregels kan maken en bewerken, oplossingsinstellingen kan configureren en waarschuwingen voor beleidstoestanden kan controleren. |
 | **Analist intern risicobeheer** | Gebruik deze groep om machtigingen toe te wijzen aan gebruikers die fungeren als insiderrisicocaseanalisten. Gebruikers in deze rollengroep hebben toegang tot alle insiderrisicobeheerwaarschuwingen, cases, analyseinzichten en kennisgevingssjablonen. Ze hebben geen toegang tot het insiderrisico Inhoudsverkenner. |
 | **Onderzoeker intern risicobeheer** | Gebruik deze groep om machtigingen toe te wijzen aan gebruikers die fungeren als insider-risicogegevensonderzoekers. Gebruikers in deze rollengroep hebben toegang tot alle waarschuwingen voor insiderrisicobeheer, cases, kennisgevingssjablonen en de Inhoudsverkenner voor alle gevallen. |
 | **Insider Risk Management Auditors** | Gebruik deze groep om machtigingen toe te wijzen aan gebruikers die activiteiten voor insiderrisicobeheer controleren. Gebruikers in deze rollengroep hebben toegang tot het auditlogboek voor insiderrisico's. |

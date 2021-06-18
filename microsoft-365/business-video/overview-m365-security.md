@@ -1,5 +1,5 @@
 ---
-title: Overzicht van Microsoft 365 Business Premium beveiliging
+title: Overzicht van Microsoft 365 Business Premium-beveiliging
 f1.keywords:
 - NOCSH
 ms.author: sharik
@@ -20,26 +20,26 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Meer informatie over de beveiligingsfuncties die zijn Microsoft 365 voor bedrijven.
-ms.openlocfilehash: 81b68bd4f41e53fb72dfee4345356c21a2040827
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+description: Meer informatie over de beveiligingsfuncties van Microsoft 365 voor Bedrijven.
+ms.openlocfilehash: c0890f097177848ef5a75c7c139c7dbc69e4eba1
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842396"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007091"
 ---
 # <a name="overview-of-security"></a>Overzicht van beveiliging
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4mzxI?autoplay=false]
 
-Microsoft 365 Business Premium biedt functies voor bedreigingsbeveiliging, gegevensbescherming en apparaatbeheer om u te helpen uw bedrijf te beschermen tegen onlinebedreigingen en ongeautoriseerde toegang, en om bedrijfsgegevens op uw telefoons, tablets en computers te beveiligen en te beheren.
+Microsoft 365 Business Premium biedt functies voor bedreigingsbeveiliging, gegevensbescherming en apparaatbeheer om u te helpen uw bedrijf te beschermen tegen onlinebedreigingen en ongeautoriseerde toegang, en om bedrijfsgegevens op uw telefoons, tablets en computers te beschermen en te beheren.
 
 |![Bedreigingsbeveiliging](../media/m365-business-security-threat-protection.png)<br/>[Bedreigingsbeveiliging](#threat-protection)|![Samenwerken met een client](../media/m365-business-security-data-protection.png) <br/>[Gegevensbescherming](#data-protection) | ![Apparaatbeheer](../media/m365-business-security-device-management.png) <br/>[Apparaatbeheer](#device-management) |
 |--|--|--|
 
 ## <a name="threat-protection"></a>Bedreigingsbeveiliging
 
-Microsoft 365 Business Premium bevat [Office 365 Advanced Threat Protection (ATP),](safe-links.md)een cloud-gebaseerde e-mailfilterservice die u beschermt tegen malware, ransomware, schadelijke koppelingen en meer. ATP Safe Koppelingen beschermt u tegen schadelijke URL's in e-mail of Office documenten. ATP Safe bijlagen beschermt u tegen malware en virussen die zijn gekoppeld aan berichten of documenten.
+Microsoft 365 Business Premium bevat [Office 365 Advanced Threat Protection (ATP),](safe-links.md)een cloud-e-mailfilterservice die u beschermt tegen malware, ransomware, schadelijke koppelingen en meer. ATP Safe Links beschermt u tegen schadelijke URL's in e-mail- of Office-documenten. ATP Safe Attachments beschermt u tegen malware en virussen die zijn gekoppeld aan berichten of documenten.
 
 Voor meervoudige verificatie [(MFA)](turn-on-mfa.md)of verificatie in twee stappen moet u een tweede vorm van verificatie presenteren, zoals een verificatiecode, om uw identiteit te bevestigen voordat u toegang hebt tot resources.
 
@@ -51,19 +51,19 @@ Gegevensbeveiligingsfuncties in Microsoft 365 Business Premium zorgen ervoor dat
 
 U kunt [DLP-beleid (Data Loss Prevention)](set-up-dlp.md) gebruiken om gevoelige informatie te identificeren en te beheren, zoals sociale zekerheid of creditcardnummers, zodat deze niet per ongeluk worden gedeeld.
 
-[Office 365-berichtversleuteling](/microsoft-365/compliance/ome) versleutelings- en toegangsrechten combineert om ervoor te zorgen dat alleen beoogde geadresseerden berichtinhoud kunnen bekijken. Office 365-berichtversleuteling werkt met Outlook.com, Yahoo! en Gmail en andere e-mailservices.
+[Office 365 Message Encryption](/microsoft-365/compliance/ome) combineert versleuteling en toegangsrechten om ervoor te zorgen dat alleen beoogde geadresseerden berichtinhoud kunnen bekijken. Office 365 Message Encryption werkt met Outlook.com, Yahoo! en Gmail en andere e-mailservices.
 
 [Exchange Online Archiving](/office365/servicedescriptions/exchange-online-archiving-service-description/exchange-online-archiving-service-description) is een op de cloud gebaseerde archiveringsoplossing die werkt met Microsoft Exchange of Exchange Online om geavanceerde archiveringsmogelijkheden te bieden, waaronder opslag en redundantie van gegevens. U kunt bewaarbeleid gebruiken om uw organisatie te helpen de verplichtingen voor e-mail en andere communicatie te beperken. Als uw bedrijf verplicht is om communicatie met betrekking tot rechtszaken te behouden, kunt u In-Place Bewaar- en procesprocedures gebruiken om gerelateerde e-mail te behouden.
 
 ## <a name="device-management"></a>Apparaatbeheer
 
-Microsoft 365 Business Premium geavanceerde apparaatbeheerfuncties kunt u controleren en bepalen wat gebruikers kunnen doen met geregistreerde apparaten. Deze functies omvatten voorwaardelijke toegang, [MDM (Mobile Device Management),](/microsoft-365/admin/basic-mobility-security/manage-enrolled-devices)BitLocker en automatische updates.
+Met geavanceerde apparaatbeheerfuncties van Microsoft 365 Business Premium kunt u controleren en bepalen wat gebruikers kunnen doen met geregistreerde apparaten. Deze functies omvatten voorwaardelijke toegang, [MDM (Mobile Device Management),](/microsoft-365/admin/basic-mobility-security/manage-enrolled-devices)BitLocker en automatische updates.
 
-U kunt beleid voor voorwaardelijke toegang gebruiken om extra beveiligingsmaatregelen voor bepaalde gebruikers en taken te vereisen. U kunt bijvoorbeeld meervoudige verificatie (MFA) vereisen of clients blokkeren die geen ondersteuning bieden voor voorwaardelijke toegang.
+U kunt beleid voor voorwaardelijke toegang gebruiken om extra beveiligingsmaatregelen voor bepaalde gebruikers en taken te vereisen. U kunt bijvoorbeeld meervoudige verificatie [(MFA)](/microsoft-365/business-video/turn-on-mfa) vereisen of clients blokkeren die geen ondersteuning bieden voor voorwaardelijke toegang.
 
-Met MDM kunt u helpen bij het beveiligen en beheren van mobiele apparaten van uw gebruikers, zoals iPhones, iPads, Androids en Windows telefoons. U kunt beveiligingsbeleid voor apparaten maken en beheren, op afstand een apparaat wissen om alle bedrijfsgegevens te verwijderen, een apparaat opnieuw instellen op fabrieksinstellingen en gedetailleerde apparaatrapporten bekijken.
+Met MDM kunt u de mobiele apparaten van uw gebruikers beveiligen en beheren, zoals iPhones, iPads, Androids en Windows-telefoons. U kunt beveiligingsbeleid voor apparaten maken en beheren, op afstand een apparaat wissen om alle bedrijfsgegevens te verwijderen, een apparaat opnieuw instellen op fabrieksinstellingen en gedetailleerde apparaatrapporten bekijken.
 
-U kunt een BitLocker gebruiken om gegevens te beschermen in geval van verlies of diefstal van een apparaat en u kunt Windows Exploit Guard inschakelen om geavanceerde beveiliging tegen ransomware te bieden.
+U kunt BitLocker-versleuteling inschakelen om gegevens te beschermen in geval van verlies of diefstal van een apparaat en Windows Exploit Guard inschakelen om geavanceerde beveiliging tegen ransomware te bieden.
 
 U kunt automatische updates zo configureren dat de nieuwste beveiligingsfuncties en -updates worden toegepast op alle gebruikersapparaten.
 

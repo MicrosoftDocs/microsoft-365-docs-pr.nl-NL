@@ -15,12 +15,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: a25a2ec513cd7c25f9f6ddf3d5e328928837bf2d
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: b2a6ee7c3f3ea2fb31b31d2f1db178bfd9847fbc
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275142"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007469"
 ---
 # <a name="run-and-review-the-results-of-a-microsoft-defender-offline-scan"></a>De resultaten van een Microsoft Defender Offline-scan uitvoeren en bekijken
 
@@ -57,7 +57,7 @@ Als u Microsoft Defender Offline vanaf het eindpunt wilt uitvoeren, moet de gebr
 Microsoft Defender Offline de meest recente beveiligingsupdates die beschikbaar zijn op het eindpunt. deze wordt bijgewerkt wanneer Windows Defender Antivirus wordt bijgewerkt. 
 
 > [!NOTE]
-> Voordat u een offlinescan uitwerkt, moet u proberen microsoft Defender AV-beveiliging bij te werken. U kunt een update met groepsbeleid forceeren of updates naar eindpunten implementeren, of u kunt de meest recente beveiligingsupdates handmatig downloaden en installeren vanaf [de Microsoft Centrum voor beveiliging tegen schadelijke software.](https://www.microsoft.com/security/portal/definitions/adl.aspx)
+> Voordat u een offlinescan uitwerkt, moet u proberen microsoft Defender AV-beveiliging bij te werken. U kunt een update met groepsbeleid forceeren of updates naar eindpunten implementeren, of u kunt de meest recente beveiligingsupdates handmatig downloaden en installeren vanaf de [Microsoft Malware Protection Center.](https://www.microsoft.com/security/portal/definitions/adl.aspx)
 
 Zie het [onderwerp Microsoft Defender Antivirus beveiligingsinformatieupdates](manage-protection-updates-microsoft-defender-antivirus.md) beheren voor meer informatie.
 
@@ -69,7 +69,7 @@ De noodzaak om een offlinescan uit te voeren, wordt ook in Microsoft Endpoint Ma
 
 De prompt kan optreden via een melding, vergelijkbaar met de volgende:
 
-![Windows melding met de vereiste om de Microsoft Defender Offline](images/defender/notification.png)
+:::image type="content" source="../../media/notification.png" alt-text="Melding voor het uitvoeren van Microsoft Defender Offline":::
 
 De gebruiker krijgt ook een melding binnen de Windows Defender client.
 
@@ -77,7 +77,7 @@ In Configuration Manager kunt u de status van eindpunten identificeren door te n
 
 Microsoft Defender Offline scans worden aangegeven onder **Malware herstelstatus** als **Offline scannen vereist**.
 
-![Microsoft Endpoint Manager die aangeeft dat een Microsoft Defender Offline scan is vereist](images/defender/sccm-wdo.png)
+:::image type="content" source="../../media/sccm-wdo.png" alt-text="Microsoft Defender Offline scan is vereist":::
 
 ## <a name="configure-notifications"></a>Meldingen configureren
 
@@ -139,7 +139,7 @@ Zie het volgende voor meer informatie:
 Microsoft Defender Offline scanresultaten worden weergegeven in de sectie [Scangeschiedenis van de Windows-beveiliging app.](microsoft-defender-security-center-antivirus.md) 
 
 
-## <a name="related-articles"></a>Aanverwante artikelen
+## <a name="related-articles"></a>Verwante artikelen
 
 - [De resultaten van scans en herstel aanpassen, starten en controleren](customize-run-review-remediate-scans-microsoft-defender-antivirus.md)
 - [Microsoft Defender Antivirus in Windows 10](microsoft-defender-antivirus-in-windows-10.md)

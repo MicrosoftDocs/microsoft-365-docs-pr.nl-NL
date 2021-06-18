@@ -10,17 +10,17 @@ localization_priority: normal
 ms.topic: conceptual
 author: denisebmsft
 ms.author: deniseb
-ms.date: 05/18/2021
+ms.date: 06/17/2021
 ms.reviewer: ''
 manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
-ms.openlocfilehash: e7b7a0ba5c301829633c27f3add8f7f7daa70dfd
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 694c09c5136f874550fa4a47586f3268ee2d0833
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52924705"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007178"
 ---
 # <a name="turn-on-cloud-delivered-protection"></a>Door cloud geleverde beveiliging inschakelen
 
@@ -146,14 +146,14 @@ Zie [WMIv2-API'Windows Defender](/previous-versions/windows/desktop/defender/win
 
 2. Selecteer de **tegel Virus & bedreigingsbeveiliging** (of het schildpictogram op de linkermenubalk) en vervolgens het label & instellingen voor **bedreigingsbeveiliging:**
 
-    ![Schermafbeelding van het instellingenlabel voor virus- en bedreigingsbeveiliging in de app voor Windows-beveiliging](images/defender/wdav-protection-settings-wdsc.png)
+    :::image type="content" source="../../media/wdav-protection-settings-wdsc.png" alt-text="Schermafbeelding van de instellingen & virusbeveiliging":::
 
 3. Controleer of **cloudbeveiliging en** automatische voorbeeldinzending zijn overgeschakeld op  **Aan.**
 
 > [!NOTE]
 > Als automatische voorbeeldinzending is geconfigureerd met Groepsbeleid, is de instelling grijs en niet beschikbaar.
 
-## <a name="related-articles"></a>Aanverwante artikelen
+## <a name="related-articles"></a>Verwante artikelen
 
 - [De time-outperiode voor cloudblokkering configureren](configure-cloud-block-timeout-period-microsoft-defender-antivirus.md)
 - [Blok configureren op het eerste gezicht](configure-block-at-first-sight-microsoft-defender-antivirus.md)

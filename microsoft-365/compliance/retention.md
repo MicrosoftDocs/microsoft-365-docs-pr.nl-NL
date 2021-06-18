@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Lees meer over bewaarbeleid en retentielabels die u helpen te behouden wat u nodig hebt en wat u niet verwijdert.
-ms.openlocfilehash: 04c485db5f250dfc852faeeaeae669956b95a8c4
-ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
+ms.openlocfilehash: 44761199eea1cf2649a15b6a36ccc08eda99c570
+ms.sourcegitcommit: 959c3c3633e40b7b0f5e2c8372409778005a24db
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 06/15/2021
-ms.locfileid: "52932864"
+ms.locfileid: "52950057"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Meer informatie over bewaarbeleid en retentielabels
 
@@ -268,7 +268,7 @@ Gebruik de volgende tabel om te bepalen of een bewaarbeleid of retentielabel moe
 
 **Voetnoot:**
 
-<sup>\*</sup> Voor retentielabels die de inhoud niet markeren als record of wettelijke record, zijn er alleen controlegebeurtenissen wanneer er een label wordt toegepast, gewijzigd of verwijderd voor een item in SharePoint. Zie de sectie [Bewaaracties controleren](#auditing-retention-actions) op deze pagina voor details over controle voor retentielabels.
+<sup>\*</sup> Voor retentielabels die de inhoud niet markeren als record of wettelijke record, zijn er alleen controlegebeurtenissen wanneer er een label wordt toegepast, gewijzigd of verwijderd voor een item in SharePoint of OneDrive. Zie de sectie [Bewaaracties controleren](#auditing-retention-actions) op deze pagina voor details over controle voor retentielabels.
 
 ### <a name="combining-retention-policies-and-retention-labels"></a>Bewaarbeleid en retentielabels combineren
 
@@ -395,7 +395,7 @@ Zie [Activiteiten voor bewaarbeleid en retentielabels](search-the-audit-log-in-s
 
 Bewaaracties die als controlegebeurtenissen worden vastgelegd, zijn alleen beschikbaar voor retentielabels en niet voor bewaarbeleid:
 
-- Wanneer een retentielabel wordt toegepast, gewijzigd of verwijderd uit een item in SharePoint:
+- Wanneer een retentielabel wordt toegepast, gewijzigd of verwijderd uit een item in SharePoint of OneDrive:
     - Selecteer onder **Bestands- en pagina-activiteiten** de optie **Gewijzigd retentielabel voor een bestand**. 
 
 - Wanneer een gelabeld item in SharePoint is gemarkeerd als een record en het wordt ontgrendeld of vergrendeld door een gebruiker:
@@ -404,7 +404,7 @@ Bewaaracties die als controlegebeurtenissen worden vastgelegd, zijn alleen besch
 - Wanneer een retentielabel dat inhoud als record of wettelijke record markeert, wordt toegepast op een item in Exchange:
     - Selecteer onder **Activiteiten in Exchange-postvakken** de optie **Bericht gelabeld als record**.
 
-- Wanneer een gelabeld item in SharePoint of Exchange is gemarkeerd als record of wettelijke record en het definitief wordt verwijderd:
+- Wanneer een gelabeld item in SharePoint, OneDrive of Exchange is gemarkeerd als record of wettelijke record en het definitief wordt verwijderd:
     - Selecteer onder **Bestands- en pagina-activiteiten** de optie **Verwijderd bestand gemarkeerd als record**
 
 ## <a name="powershell-cmdlets-for-retention-policies-and-retention-labels"></a>PowerShell-cmdlets voor bewaarbeleid en retentielabels

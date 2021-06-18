@@ -17,12 +17,12 @@ ms.collection:
 description: Beheerders kunnen het antispambeleid in Exchange Online Protection (EOP) bekijken, maken, wijzigen en verwijderen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 78cfef52988e7da611edc0cc4d475e8a4624bc0e
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: bb3e378c13507e354cdd1d739214c1c2d9d6aa98
+ms.sourcegitcommit: 959c3c3633e40b7b0f5e2c8372409778005a24db
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52879094"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52950093"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Antispambeleid configureren in EOP
 
@@ -307,7 +307,7 @@ Als u de prioriteit van een beleid wilt wijzigen, klikt u op **Prioriteit verhog
 3. Boven aan de flyout met beleidsgegevens die wordt weergegeven, ziet u **Prioriteit verhogen** of **Prioriteit verlagen** op basis van de huidige prioriteitswaarde en het aantal aangepaste beleidsregels:
    - Voor het antispambeleid met de **Prioriteitswaarde** **0** is alleen de optie **Prioriteit verlagen** beschikbaar.
    - Voor het antispambeleid met de laagste **Prioriteitswaarde** (bijvoorbeeld **3**) is alleen de optie **Prioriteit verhogen** beschikbaar.
-   - Als u drie of meer antispambeleidsregels hebt, zijn bij beleidsregels tussen de hoogste en laagste prioriteitswaarden zowel de optie **Prioriteit verhogen** als **Prioriteit verlagen** beschikbaar.
+   - Als u drie of meer antispambeleidsregels hebt, zijn bij de beleidsregels tussen de hoogste en laagste prioriteitswaarden zowel de optie **Prioriteit verhogen** als **Prioriteit verlagen** beschikbaar.
 
    Klik op het ![pictogram Prioriteit verhogen](../../media/m365-cc-sc-increase-icon.png) **Prioriteit verhogen** of ![Pictogram Prioriteit verlagen](../../media/m365-cc-sc-decrease-icon.png) **Prioriteit verlagen** om de **Prioriteitswaarde** te wijzigen.
 

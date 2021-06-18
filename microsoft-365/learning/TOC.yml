@@ -4,11 +4,11 @@
   items:
     - name: Overzicht van Viva Learning (preview)
       href: overview-viva-learning.md
-- name: Installatie en beheer
+- name: Configuratie en beheer
   items:
-    - name: Instellen in het Teams beheercentrum
+    - name: Configuratie in het Teams-beheercentrum
       href: set-up-teams-admin-center.md
-    - name: Bronnen voor leerinhoud configureren
+    - name: Bronnen van leerinhoud configureren
       href: content-sources-365-admin-center.md
-    - name: Een SharePoint als inhoudsbron configureren
+    - name: SharePoint configureren als inhoudsbron
       href: configure-sharepoint-content-source.md

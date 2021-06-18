@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 77ff780d-ab19-4553-adea-09cb65ad0f1f
 description: Krijg een overzicht van hoe uw organisatie gebruik maakt van Microsoft 365 services om te communiceren en samen te werken.
-ms.openlocfilehash: db61ed4d4c087b76895d08e43f6b1a2c00ed8172
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: da2ac5f68bedd064e426531a9cd3c6cbc33f8277
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635388"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007163"
 ---
 # <a name="microsoft-365-usage-analytics"></a>Microsoft 365 Gebruiksanalyse
 
@@ -105,7 +105,7 @@ Naast het aanpassen van de rapporten vanuit de Power BI-webinterface, kunnen geb
 
 ### <a name="how-can-i-get-the-pbit-file-that-this-dashboard-is-associated-with"></a>Hoe krijg ik het pbit-bestand waarmee dit dashboard is gekoppeld?
 
-U hebt toegang tot het pbit-bestand vanuit het [Microsoft Downloadcentrum.](https://download.microsoft.com/download/7/8/2/782ba8a7-8d89-4958-a315-dab04c3b620c/Microsoft%20365%20Usage%20Analytics.pbit)
+U hebt toegang tot het pbit-bestand vanuit het [Microsoft Downloadcentrum.](https://download.microsoft.com/download/7/8/2/782ba8a7-8d89-4958-a315-dab04c3b620c/Microsoft%20365%20Usage%20Analytics.pbit) 
 
 ### <a name="who-can-view-the-dashboards-and-reports"></a>Wie kunt u de dashboards en rapporten bekijken?
 
@@ -129,7 +129,7 @@ De gegevens in de sjabloon-app hebben momenteel betrekking op dezelfde set activ
 
 ### <a name="how-does-the-data-in-the-template-app-differ-from-the-data-in-the-usage-reports"></a>Hoe verschillen de gegevens in de sjabloon-app van de gegevens in de gebruiksrapporten?
 
-De onderliggende gegevens die u in de sjabloon-app ziet, komen overeen met de gegevens die u ziet in de activiteitenrapporten in het Microsoft 365 beheercentrum. De belangrijkste verschillen zijn dat in het beheercentrum gegevens beschikbaar zijn voor de laatste 30-90-180-dagen, terwijl de sjabloon-app gegevens op maandelijkse basis voor maximaal 12 maanden presenteert.
+De onderliggende gegevens die u in de sjabloon-app ziet, komen overeen met de gegevens die u ziet in de activiteitenrapporten in de Microsoft 365-beheercentrum. De belangrijkste verschillen zijn dat in het beheercentrum gegevens beschikbaar zijn voor de laatste 30-90-180-dagen, terwijl de sjabloon-app gegevens op maandelijkse basis voor maximaal 12 maanden presenteert.
 
 Daarnaast zijn details op gebruikersniveau in de sjabloon-app alleen beschikbaar voor de laatste volledige maand voor gebruikers die een productlicentie hebben gekregen en een activiteit hebben uitgevoerd.
 
@@ -211,7 +211,7 @@ Als een partner gedelegeerde beheerdersrechten heeft, kan hij of zij namens de k
 
 Ja, zie [De verzamelde gegevens anoniem maken.](enable-usage-analytics.md#make-the-collected-data-anonymous)
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Microsoft 365-gebruiksanalyse inschakelen](enable-usage-analytics.md) (artikel)\
 [Navigeer en gebruik de rapporten in Microsoft 365 gebruiksanalyse](navigate-and-utilize-reports.md) (artikel)\

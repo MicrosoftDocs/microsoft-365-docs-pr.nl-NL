@@ -15,17 +15,14 @@ ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 48ab72e9700e45cd4eab520a43d6f3d9ef18e227
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: c15e68a74c9bf518822fce211d6c7d5c4dbc3f2c
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52926533"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007442"
 ---
 # <a name="microsoft-defender-antivirus-in-the-windows-security-app"></a>Microsoft Defender Antivirus in de Windows-beveiliging app
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
-
 
 **Van toepassing op:**
 
@@ -48,7 +45,7 @@ De Windows-beveiliging app is een clientinterface op Windows 10, versie 1703 en 
 
 ## <a name="review-virus-and-threat-protection-settings-in-the-windows-security-app"></a>Instellingen voor virus- en bedreigingsbeveiliging in de Windows-beveiliging controleren
 
-![Schermafbeelding van het instellingenlabel voor virus- en bedreigingsbeveiliging in de app voor Windows-beveiliging](images/defender/wdav-protection-settings-wdsc.png)
+:::image type="content" source="../../media/wdav-protection-settings-wdsc.png" alt-text="Instellingen voor virus- en bedreigingsbeveiliging in Windows-beveiliging app":::
 
 1. Open de Windows-beveiliging app door op het schildpictogram in de taakbalk te klikken of door te zoeken in het startmenu voor **Defender.**
 
@@ -69,7 +66,7 @@ In de volgende secties wordt beschreven hoe u enkele van de meest voorkomende ta
 
 ## <a name="review-the-security-intelligence-update-version-and-download-the-latest-updates-in-the-windows-security-app"></a>Bekijk de versie van de beveiligingsinformatieupdate en download de meest recente updates in de Windows-beveiliging app
 
-![Versienummergegevens van beveiligingsinformatie](images/defender/wdav-wdsc-defs.png)
+:::image type="content" source="../../media/wdav-wdsc-defs.png" alt-text="Versienummer beveiligingsinformatie":::
 
 1. Open de Windows-beveiliging app door te zoeken in het startmenu *voor* Beveiliging en selecteer vervolgens **Windows-beveiliging.**
 

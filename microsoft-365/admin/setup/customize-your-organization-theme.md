@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: Informatie over het wijzigen van het standaardthema voor de bovenkant van de navigatiebalk in Microsoft 365 en aanpassen aan uw bedrijfslogo of -kleur.
-ms.openlocfilehash: 908a815346485066b7208d0ff791db813540485f
-ms.sourcegitcommit: 787fb30fdae6d49347a87f4baae3cd140067e573
+ms.openlocfilehash: b042090cf2cac9ac3bed705637bd03d721f76ad5
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52998798"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53006911"
 ---
 # <a name="customize-the-microsoft-365-theme-for-your-organization"></a>Het thema Microsoft 365 uw organisatie aanpassen
 
@@ -70,7 +70,7 @@ Het standaardthema is het eerste thema dat wordt weergegeven.
 
 U kunt maximaal vier extra groepsthema's maken.
 
-1. Voer op **de** pagina Algemeen een naam in voor uw thema.
+1. Voer op **de** pagina Algemeen een naam in voor het nieuwe thema.
 
 2. Onder **Groepen** kunt u maximaal 5 Microsoft 365 groepen selecteren die het groepsthema kunnen zien, in plaats van het standaardthema te gebruiken. U kunt ook voorkomen dat gebruikers hun thema overschrijven en de weergavenaam van de gebruiker weergeven.
 
