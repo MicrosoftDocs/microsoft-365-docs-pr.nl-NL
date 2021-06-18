@@ -164,6 +164,8 @@
                   href: advanced-hunting-query-emails-devices.md
                 - name: Ransomware opsporen
                   href: advanced-hunting-find-ransomware.md
+                - name: Voorbeeld van geavanceerd opsporen
+                  href: advanced-hunting-example.md
                 - name: Overstappen van Defender voor Eindpunt
                   href: advanced-hunting-migrate-from-mde.md
             - name: Werken met queryresultaten
