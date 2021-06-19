@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Lees meer over bewaarbeleid en retentielabels die u helpen te behouden wat u nodig hebt en wat u niet verwijdert.
-ms.openlocfilehash: 44761199eea1cf2649a15b6a36ccc08eda99c570
-ms.sourcegitcommit: 959c3c3633e40b7b0f5e2c8372409778005a24db
+ms.openlocfilehash: 65c9216e30c2db04b1981a17d73b3a9f0b5f1594
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52950057"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007499"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Meer informatie over bewaarbeleid en retentielabels
 
@@ -373,9 +373,11 @@ U kunt Behoudvergrendeling toepassen nadat het bewaarbeleid of retentielabelbele
 
 ## <a name="releasing-a-policy-for-retention"></a>Een bewaarbeleid opheffen
 
-Als u uw bewaarbeleid niet vergrendelt, kunt u uw beleid op elk moment verwijderen, waardoor de eerder toegepaste bewaarinstellingen worden uitgeschakeld. U kunt het beleid ook behouden, maar een SharePoint-site of een OneDrive-account verwijderen of de locatiestatus wijzigen en uitschakelen.
+Als u uw bewaarbeleid niet vergrendelt, kunt u uw beleid op elk moment verwijderen, waardoor de eerder toegepaste bewaarinstellingen worden uitgeschakeld. U kunt het beleid ook behouden, maar de locatiestatus wijzigen naar Uit of het beleid uitschakelen. Als uw beleid is geconfigureerd voor het opnemen van specifieke sites voor SharePoint of accounts voor OneDrive, kunt u het beleid ook bewerken om een of meer van deze vermeldingen te verwijderen om het beleid voor deze sites of accounts vrij te geven.
  
 Wanneer u een van deze acties uitvoert, blijft inhoud van SharePoint of OneDrive die op grond van het beleid moet worden bewaard nog 30 dagen bewaard om onbedoeld gegevensverlies te voorkomen. Tijdens deze respijtperiode van 30 dagen blijven verwijderde bestanden behouden (bestanden worden nog steeds toegevoegd aan de behoudbibliotheek), maar de timer die de bewaringsbibliotheek regelmatig opschoont, wordt voor deze bestanden opgeschort, zodat u ze indien nodig kunt terugzetten.
+
+Een uitzondering op deze respijtperiode van 30 dagen is wanneer u het beleid bijwerkt om een of meer sites voor SharePoint of accounts voor OneDrive uit te sluiten; in dit geval verwijdert de timeropdracht bestanden voor deze locaties in de opslagbibliotheek zonder de vertraging van 30 dagen.
 
 Zie [Hoe retentie werkt voor SharePoint en OneDrive](retention-policies-sharepoint.md#how-retention-works-for-sharepoint-and-onedrive) voor meer informatie over de opslagbibliotheek.
 

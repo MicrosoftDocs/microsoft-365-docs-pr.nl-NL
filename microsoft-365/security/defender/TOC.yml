@@ -328,6 +328,8 @@
                       href: streaming-api-event-hub.md
                     - name: Geavanceerde opsporingsgebeurtenissen streamen naar uw opslagaccount
                       href: streaming-api-storage.md
+                    - name: Uw Event-hub configureren
+                      href: configure-event-hub.md
                 - name: API voor geavanceerde opsporing
                   href: api-advanced-hunting.md
                 - name: Incident-API's
