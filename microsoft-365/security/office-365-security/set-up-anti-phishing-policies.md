@@ -17,12 +17,12 @@ ms.custom:
 description: Beheerders kunnen meer informatie krijgen over het anti-phishingbeleid dat beschikbaar is in Exchange Online Protection (EOP) en Microsoft Defender voor Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0a0c7e9ffa37c5154b8a10b9642d484011674d6a
-ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
+ms.openlocfilehash: 846043be72be741e60c09c85fba14dbf291612a1
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "52964883"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53029367"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Anti-phishingbeleid in Microsoft 365
 
@@ -62,7 +62,7 @@ Zie de volgende artikelen om anti-phishingbeleid te configureren:
 
 - [Antiphishingbeleid configureren in EOP](configure-anti-phishing-policies-eop.md)
 
-- [Anti-phishingbeleid configureren in Microsoft Defender voor Office 365](configure-atp-anti-phishing-policies.md)
+- [Anti-phishingbeleid configureren in Microsoft Defender voor Office 365](configure-mdo-anti-phishing-policies.md)
 
 In de rest van dit artikel worden de instellingen beschreven die beschikbaar zijn in anti-phishingbeleid in EOP en Defender voor Office 365.
 
@@ -131,9 +131,6 @@ Unauthenticated sender settings are part of the [Spoof settings](#spoof-settings
 - **Unauthenticated sender question mark (?)** symbol inschakelen? : Wanneer deze instelling is ingeschakeld, wordt er een vraagteken toegevoegd aan de foto  van de afzender in het vak Van als het bericht niet door SPF- of DKIM-controles wordt gestuurd en het bericht niet door DMARC of samengestelde verificatie wordt [uitgevoerd.](email-validation-and-authentication.md#composite-authentication) Wanneer deze instelling is uitgeschakeld, wordt het vraagteken niet toegevoegd aan de foto van de afzender.
 
 - Tag **'via' inschakelen?**: Wanneer deze instelling is ingeschakeld, wordt de via-tag (chris@contoso.com via fabrikam.com) toegevoegd aan het vak Van als het domein in het Van-adres (de afzender van het bericht die wordt weergegeven in e-mail clients) verschilt van het domein in de DKIM-handtekening of het <sup>\*</sup> **MAIL FROM-adres.** <u></u> Zie Een overzicht van de standaarden voor [e-mailberichten](how-office-365-validates-the-from-address.md#an-overview-of-email-message-standards)voor meer informatie over deze adressen.
-
-> [!NOTE]
-> Op dit moment is de instelling **'via' inschakelen?** niet beschikbaar in alle organisaties. Als u de instelling **'via'** niet hebt ingeschakeld,  worden het vraagteken en de via-tag beide bepaald door de instelling Niet-genautisch afzendersymbool **(?)** inschakelen in uw organisatie.
 
 Als u wilt voorkomen dat het vraagteken of via een tag wordt toegevoegd aan berichten van specifieke afzenders, hebt u de volgende opties:
 

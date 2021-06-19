@@ -19,12 +19,12 @@ description: Gebruik Explorer- en realtimedetecties in het Microsoft 365 beveili
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 12fb7f757912a8f1c87a57c386c6f698d777752a
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: a7e3620859dfbc5f3d55501a880cef233e0a0be3
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52930293"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53029583"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Bedreigingsverkenner en realtimedetecties
 
@@ -513,12 +513,12 @@ Stel dat u e-mailberichten wilt zien die gebruikers in uw organisatie hebben ger
    > [!div class="mx-imgBorder"]
    > ![Door de gebruiker gerapporteerde phish](../../media/EmailUserReportedReportType.png)
 
-Het rapport wordt vernieuwd om gegevens weer te geven over e-mailberichten die personen in uw organisatie hebben gerapporteerd als een phishingpoging. U kunt deze informatie gebruiken om verdere analyse uit te voeren en zo nodig uw [anti-phishingbeleid in Microsoft Defender](configure-atp-anti-phishing-policies.md)aan te passen voor Office 365.
+Het rapport wordt vernieuwd om gegevens weer te geven over e-mailberichten die personen in uw organisatie hebben gerapporteerd als een phishingpoging. U kunt deze informatie gebruiken om verdere analyse uit te voeren en zo nodig uw [anti-phishingbeleid in Microsoft Defender](configure-mdo-anti-phishing-policies.md)aan te passen voor Office 365.
 
 ## <a name="start-automated-investigation-and-response"></a>Geautomatiseerde onderzoeken en antwoorden starten
 
 > [!NOTE]
-> Geautomatiseerde onderzoeks- en antwoordmogelijkheden zijn beschikbaar in *Microsoft Defender voor Office 365 Plan 2* en Office 365 *E5.*
+> Geautomatiseerde onderzoeks- en antwoordmogelijkheden zijn beschikbaar in *Microsoft Defender voor Office 365 Plan 2* en *Office 365 E5.*
 
 [Geautomatiseerde onderzoeken en antwoorden kunnen](automated-investigation-response-office.md) uw teamtijd en inspanning voor beveiligingsactiviteiten besparen bij het onderzoeken en verminderen van cyberaanvallen. Naast het configureren van waarschuwingen die een beveiligingss playbook kunnen activeren, kunt u een geautomatiseerd onderzoek en antwoordproces starten vanuit een weergave in Explorer. Zie Voorbeeld: Een beveiligingsbeheerder activeert een onderzoek [vanuit Verkenner voor meer informatie.](automated-investigation-response-office.md#example-a-security-administrator-triggers-an-investigation-from-threat-explorer)
 
@@ -534,21 +534,21 @@ Naast de scenario's die in dit artikel worden beschreven, zijn er nog veel meer 
 
 ## <a name="required-licenses-and-permissions"></a>Vereiste licenties en machtigingen
 
-U moet [Microsoft Defender hebben om Office 365](defender-for-office-365.md) explorer of realtime detecties te kunnen gebruiken.
+U moet [Microsoft Defender voor Office 365](defender-for-office-365.md) hebben om Explorer- of realtimedetecties te kunnen gebruiken.
 
-- Explorer is opgenomen in Defender voor Office 365 Plan 2.
-- Het realtimedetectierapport is opgenomen in Defender voor Office 365 Plan 1.
-- Plan om licenties toe te wijzen voor alle gebruikers die moeten worden beveiligd door Defender voor Office 365. Explorer- en realtimedetecties tonen detectiegegevens voor gelicentieerde gebruikers.
+- Explorer is opgenomen in Defender voor Office 365-abonnement 2.
+- Het realtimedetectierapport is opgenomen in Defender voor Office 365-abonnement 1.
+- Plan het toewijzen van licenties voor alle gebruikers die moeten worden beveiligd door Defender voor Office 365. Explorer- en realtimedetecties tonen detectiegegevens voor gelicentieerde gebruikers.
 
 Als u Explorer- of realtimedetecties wilt bekijken en gebruiken, moet u over de juiste machtigingen zijn, zoals machtigingen die zijn verleend aan een beveiligingsbeheerder of beveiligingslezer.
 
 - Voor het beveiligings- & compliancecentrum moet u een van de volgende rollen hebben toegewezen:
 
   - Organisatiebeheer
-  - Beveiligingsbeheerder (dit kan worden toegewezen in het Azure Active Directory beheercentrum ( <https://aad.portal.azure.com> )
+  - Beveiligingsbeheerder (dit kan worden toegewezen in het Azure Active Directory-beheercentrum ( <https://aad.portal.azure.com> )
   - Beveiligingslezer
 
-- Voor Exchange Online moet u een van de volgende rollen hebben toegewezen in het Exchange beheercentrum () of <https://admin.protection.outlook.com/ecp/> [Exchange Online PowerShell:](/powershell/exchange/exchange-online-powershell)
+- Voor Exchange Online moet u een van de volgende rollen hebben toegewezen in het Exchange-beheercentrum () of <https://admin.protection.outlook.com/ecp/> [Exchange Online PowerShell:](/powershell/exchange/exchange-online-powershell)
 
   - Organisatiebeheer
   - View-Only Organisatiebeheer
@@ -562,10 +562,10 @@ Zie de volgende bronnen voor meer informatie over rollen en machtigingen:
 
 ## <a name="differences-between-threat-explorer-and-real-time-detections"></a>Verschillen tussen Threat Explorer en Realtime detecties
 
-- Het *realtimedetectierapport* is beschikbaar in Defender voor Office 365 plan 1. *Threat Explorer* is beschikbaar in Defender voor Office 365 Plan 2.
+- Het *realtimedetectierapport* is beschikbaar in Defender voor Office 365-abonnement 1. *Threat Explorer* is beschikbaar in Defender voor Office 365 Plan 2.
 - Met het rapport Realtimedetecties kunt u detecties in realtime bekijken. Threat Explorer doet dit ook, maar biedt ook extra details voor een bepaalde aanval.
 - Een *weergave Alle e-mail* is beschikbaar in Threat Explorer, maar niet in het rapport Realtimedetecties.
-- Meer filtermogelijkheden en beschikbare acties zijn opgenomen in Threat Explorer. Zie Microsoft Defender for [Office 365 Service Description: Feature availability across Defender for Office 365 plans voor meer informatie.](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans)
+- Meer filtermogelijkheden en beschikbare acties zijn opgenomen in Threat Explorer. Zie Microsoft Defender for [Office 365 Service Description: Feature availability across Defender for Office 365 plans (Beschikbaarheid van functies in Defender voor Office 365-abonnementen)](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans)voor meer informatie.
 
 ## <a name="other-articles"></a>Andere artikelen
 

@@ -16,12 +16,12 @@ ms.collection:
 description: Beheerders kunnen leren om de redenen te identificeren waarom en hoe een phishingbericht is binnen Microsoft 365 en wat ze moeten doen om in de toekomst meer phishingberichten te voorkomen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8d8f3f93b3fe1643467a12f90123b839addad2ed
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 5093981c5f0166d3f53c3b6c7d24371312633c99
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537845"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53029343"
 ---
 # <a name="tune-anti-phishing-protection"></a>Beveiliging tegen phishing afstemmen
 
@@ -44,7 +44,7 @@ Als uw abonnement Microsoft Defender voor Office 365 bevat, kunt u Office 365 [T
 
 - [Safe Bijlagen in Microsoft Defender voor Office 365](set-up-safe-attachments-policies.md)
 
-- [Anti-phishingbeleid in Microsoft Defender voor Office 365.](configure-atp-anti-phishing-policies.md) Houd er rekening mee dat u de drempelwaarden voor **geavanceerde phishing** in het beleid tijdelijk kunt verhogen van Standaard naar **Agressief,** **Agressiever** of **Meest agressief.** 
+- [Anti-phishingbeleid in Microsoft Defender voor Office 365.](configure-mdo-anti-phishing-policies.md) Houd er rekening mee dat u de drempelwaarden voor **geavanceerde phishing** in het beleid tijdelijk kunt verhogen van Standaard naar **Agressief,** **Agressiever** of **Meest agressief.** 
 
 Controleer of deze Defender voor Office 365 functies zijn ingeschakeld.
 
@@ -66,7 +66,7 @@ In het bijzonder moet u het **veld X-Forefront-Antispam-Report** in de berichtko
 
 - E-mail van vervalste afzenders (het Van-adres van het bericht komt niet overeen met de bron van het bericht) wordt geclassificeerd als phishing in Defender voor Office 365. Soms is spoofing goedaardig en willen gebruikers soms niet dat berichten van specifieke vervalste afzender in quarantaine worden geplaatst. Als u de gevolgen voor gebruikers wilt minimaliseren, controleert u regelmatig het inzicht in [spoofinformatie,](learn-about-spoof-intelligence.md)het tabblad **Spoof** in de [lijst Tenant toestaan/blokkeren](tenant-allow-block-list.md)en het [rapport Spoofdetecties.](view-email-security-reports.md#spoof-detections-report) Nadat u toegestane en geblokkeerde vervalste afzenders hebt gecontroleerd en de benodigde overschrijven hebt aangebracht, kunt u erop vertrouwen dat u spoofinformatie [in anti-phishingbeleid](set-up-anti-phishing-policies.md#spoof-settings) configureert in **Verdachte** berichten in quarantaine plaatsen in plaats van deze af te leveren in de map Ongewenste e-mail van de gebruiker.
 
-- U kunt de bovenstaande stap voor imitatie (domein of gebruiker) herhalen in Microsoft Defender voor Office 365. Het rapport Imitatie vindt u onder **Threat Management** \> **Dashboard** \> **Insights**.
+- U kunt de bovenstaande stap voor imitatie (domein of gebruiker) herhalen in Microsoft Defender voor Office 365. Het rapport Imitatie vindt u onder **Threat Management** \> **Dashboard** \> **Insights.**
 
 - Bekijk het rapport [Bedreigingsbeveiligingsstatus regelmatig.](view-reports-for-mdo.md#threat-protection-status-report)
 

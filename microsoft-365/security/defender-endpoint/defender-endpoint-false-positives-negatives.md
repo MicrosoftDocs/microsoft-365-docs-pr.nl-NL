@@ -22,12 +22,12 @@ ms.collection:
 ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs, yonghree, jcedola
 ms.custom: FPFN
-ms.openlocfilehash: b8060952960f89e274361bb6382f03d482346e0d
-ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
+ms.openlocfilehash: d3821f4f1f581da5353ee33bd406af8558c0e903
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 06/19/2021
-ms.locfileid: "53028849"
+ms.locfileid: "53029955"
 ---
 # <a name="address-false-positivesnegatives-in-microsoft-defender-for-endpoint"></a>Actie ondernemen voor fout-positieven/-negatieven in Microsoft Defender voor Eindpunt
 
@@ -43,11 +43,11 @@ In oplossingen voor eindpuntbeveiliging is een fout-positief een entiteit, zoals
 
 Gelukkig kunnen er stappen worden ondernomen om dit soort problemen op te lossen en te beperken. Als u false positives/negatives ziet [in](microsoft-defender-security-center.md) Microsoft 365 Defender (voorheen de Microsoft Defender-beveiligingscentrum), kunnen uw beveiligingsbewerkingen stappen ondernemen om deze aan te pakken met behulp van het volgende proces:
 
-1.  [Waarschuwingen controleren en classificeren](#part-1-review-and-classify-alerts) 
-2.  [Herstelacties bekijken die zijn ondernomen](#part-2-review-remediation-actions)
-3.  [Uitsluitingen controleren en definiëren](#part-3-review-or-define-exclusions)
-4.  [Een entiteit verzenden voor analyse](#part-4-submit-a-file-for-analysis)
-5.  [Uw instellingen voor bedreigingsbeveiliging controleren en aanpassen](#part-5-review-and-adjust-your-threat-protection-settings)
+1. [Waarschuwingen controleren en classificeren](#part-1-review-and-classify-alerts)
+2. [Herstelacties bekijken die zijn ondernomen](#part-2-review-remediation-actions)
+3. [Uitsluitingen controleren en definiëren](#part-3-review-or-define-exclusions)
+4. [Een entiteit verzenden voor analyse](#part-4-submit-a-file-for-analysis)
+5. [Uw instellingen voor bedreigingsbeveiliging controleren en aanpassen](#part-5-review-and-adjust-your-threat-protection-settings)
 
 U kunt hulp krijgen als u nog steeds problemen hebt met fout-positieve/negatieven na het uitvoeren van de taken die in dit artikel worden beschreven. Zie [Nog steeds hulp nodig?](#still-need-help)
 
@@ -58,7 +58,7 @@ U kunt hulp krijgen als u nog steeds problemen hebt met fout-positieve/negatieve
 
 ## <a name="part-1-review-and-classify-alerts"></a>Deel 1: Waarschuwingen controleren en classificeren
 
-Als u een [waarschuwing ziet](alerts.md) die is geactiveerd omdat er iets is gedetecteerd als schadelijk of verdacht dat niet had moeten zijn, kunt u de waarschuwing voor die entiteit onderdrukken. U kunt ook waarschuwingen onderdrukken die niet per se onwaar-positieven zijn, maar die niet belangrijk zijn. We raden u aan waarschuwingen ook te classificeren. 
+Als u een [waarschuwing ziet](alerts.md) die is geactiveerd omdat er iets is gedetecteerd als schadelijk of verdacht dat niet had moeten zijn, kunt u de waarschuwing voor die entiteit onderdrukken. U kunt ook waarschuwingen onderdrukken die niet per se onwaar-positieven zijn, maar die niet belangrijk zijn. We raden u aan waarschuwingen ook te classificeren.
 
 Het beheren van uw waarschuwingen en het classificeren van waar-/onwaar-positieven helpt bij het trainen van uw oplossing voor bedreigingsbeveiliging en kan het aantal fout-positieven of onwaar negatieven in de tijd verminderen. Als u deze stappen ondernomen, kunt u ook de ruis in het dashboard voor beveiligingsbewerkingen verminderen, zodat uw beveiligingsteam zich kan richten op werkitems met een hogere prioriteit.
 
@@ -66,25 +66,30 @@ Het beheren van uw waarschuwingen en het classificeren van waar-/onwaar-positiev
 
 Voordat u een waarschuwing classificeert of onderdrukt, bepaalt u of de waarschuwing juist, onwaar positief of goedaardig is.
 
-1. Ga naar de Microsoft 365 Defender portal [https://security.microsoft.com](https://security.microsoft.com) () en meld u aan.
+1. Ga naar de Microsoft 365 Defender portal <https://security.microsoft.com> () en meld u aan.
 
 2. Kies in het navigatiedeelvenster **de optie Waarschuwingenwachtrij**.
 
 3. Selecteer een waarschuwing voor meer informatie over de waarschuwing. (Zie [Waarschuwingen controleren in Microsoft Defender voor Eindpunt](review-alerts.md).)
 
-4. Volg de stappen die in de volgende tabel worden beschreven, afhankelijk van de status van de waarschuwing: 
+4. Volg de stappen die in de volgende tabel worden beschreven, afhankelijk van de status van de waarschuwing:
 
-| Status van waarschuwing | Wat moet u doen? |
-|:---|:---|
-| De waarschuwing is nauwkeurig | Wijs de waarschuwing toe en [onderzoek deze](investigate-alerts.md) verder. |
-| De waarschuwing is een onwaar positief | 1. [Classificeer de waarschuwing](#classify-an-alert) als een onwaar positief. <br/>2. [De waarschuwing onderdrukken](#suppress-an-alert). <br/> 3. [Maak een indicator voor](#indicators-for-microsoft-defender-for-endpoint) Microsoft Defender voor Eindpunt. <br/> 4. [Stuur een bestand naar Microsoft voor analyse](#part-4-submit-a-file-for-analysis). |
-| De waarschuwing is nauwkeurig, maar goedaardig (onbelangrijk) | [Classificeer de waarschuwing](#classify-an-alert) als een echte positieve en onderdrukt [de waarschuwing.](#suppress-an-alert) |
+<br>
+
+****
+
+|Status van waarschuwing|Wat moet u doen?|
+|---|---|
+|De waarschuwing is nauwkeurig|Wijs de waarschuwing toe en [onderzoek deze](investigate-alerts.md) verder.|
+|De waarschuwing is een onwaar positief|<ol><li>[Classificeer de waarschuwing](#classify-an-alert) als een onwaar positief.</li><li>[De waarschuwing onderdrukken.](#suppress-an-alert)</li><li>[Maak een indicator](#indicators-for-microsoft-defender-for-endpoint) voor Microsoft Defender voor Eindpunt.</li><li>[Stuur een bestand naar Microsoft voor analyse.](#part-4-submit-a-file-for-analysis)</li></ol>|
+|De waarschuwing is nauwkeurig, maar goedaardig (onbelangrijk)|[Classificeer de waarschuwing](#classify-an-alert) als een echte positieve en onderdrukt [de waarschuwing.](#suppress-an-alert)|
+|||
 
 ### <a name="classify-an-alert"></a>Een waarschuwing classificeren
 
 Waarschuwingen kunnen worden geclassificeerd als false positives of true positives in Microsoft 365 Defender. Als u waarschuwingen classificeert, kunt u Microsoft Defender voor Eindpunt trainen, zodat u na een tijd meer waargebeurde waarschuwingen en minder foutmeldingen ziet.
 
-1. Ga naar de Microsoft 365 Defender portal [https://security.microsoft.com](https://security.microsoft.com) () en meld u aan.
+1. Ga naar de Microsoft 365 Defender portal <https://security.microsoft.com> () en meld u aan.
 
 2. Selecteer **Waarschuwingenwachtrij** en selecteer vervolgens een waarschuwing.
 
@@ -93,13 +98,13 @@ Waarschuwingen kunnen worden geclassificeerd als false positives of true positiv
 4. Selecteer in **de sectie Waarschuwing** beheren de optie **Waarmelding** **of Foutmelding.** (Gebruik **een onwaar waarschuwing om** een onwaar positief te classificeren.)
 
 > [!TIP]
-> Zie Microsoft Defender voor eindpuntwaarschuwingen beheren voor meer informatie over het onderdrukken van [waarschuwingen.](/microsoft-365/security/defender-endpoint/manage-alerts) En als uw organisatie een SIEM-server (Security Information and Event Management) gebruikt, moet u daar ook een onderdrukkingsregel definiëren. 
+> Zie Microsoft Defender voor eindpuntwaarschuwingen beheren voor meer informatie over het onderdrukken van [waarschuwingen.](/microsoft-365/security/defender-endpoint/manage-alerts) En als uw organisatie een SIEM-server (Security Information and Event Management) gebruikt, moet u daar ook een onderdrukkingsregel definiëren.
 
 ### <a name="suppress-an-alert"></a>Een waarschuwing onderdrukken
 
-Als u waarschuwingen hebt die onwaar positieven zijn of die echte positieven zijn, maar voor onbelangrijke gebeurtenissen, kunt u deze waarschuwingen onderdrukken in Microsoft 365 Defender. Door waarschuwingen te onderdrukken, vermindert u ruis in het dashboard voor beveiligingsbewerkingen. 
+Als u waarschuwingen hebt die onwaar positieven zijn of die echte positieven zijn, maar voor onbelangrijke gebeurtenissen, kunt u deze waarschuwingen onderdrukken in Microsoft 365 Defender. Door waarschuwingen te onderdrukken, vermindert u ruis in het dashboard voor beveiligingsbewerkingen.
 
-1. Ga naar de Microsoft 365 Defender portal [https://security.microsoft.com](https://security.microsoft.com) () en meld u aan.
+1. Ga naar de Microsoft 365 Defender portal <https://security.microsoft.com> () en meld u aan.
 
 2. Selecteer waarschuwingenwachtrij in **het navigatiedeelvenster.**
 
@@ -114,7 +119,8 @@ Als u waarschuwingen hebt die onwaar positieven zijn of die echte positieven zij
 
 ## <a name="part-2-review-remediation-actions"></a>Deel 2: Herstelacties controleren
 
-[Herstelacties](manage-auto-investigation.md#remediation-actions), zoals het verzenden van een bestand naar quarantaine of het stoppen van een proces, worden ondernomen op entiteiten (zoals bestanden) die worden gedetecteerd als bedreigingen. Verschillende soorten herstelacties vinden automatisch plaats via automatisch onderzoek en Microsoft Defender Antivirus:   
+[Herstelacties](manage-auto-investigation.md#remediation-actions), zoals het verzenden van een bestand naar quarantaine of het stoppen van een proces, worden ondernomen op entiteiten (zoals bestanden) die worden gedetecteerd als bedreigingen. Verschillende soorten herstelacties vinden automatisch plaats via automatisch onderzoek en Microsoft Defender Antivirus:
+
 - Een bestand in quarantaine plaatsen
 - Een registersleutel verwijderen
 - Een proces om te laten gaan
@@ -128,22 +134,22 @@ Nadat u uw waarschuwingen hebt bekeken, is de volgende stap het controleren [van
 
 - [Een in quarantaine geplaatst bestand terugzetten vanuit het Actiecentrum](#restore-a-quarantined-file-from-the-action-center)
 - [Meerdere acties tegelijk ongedaan maken](#undo-multiple-actions-at-one-time)
-- [Verwijder een bestand uit quarantaine op meerdere apparaten.](#remove-a-file-from-quarantine-across-multiple-devices)  en 
+- [Verwijder een bestand uit quarantaine op meerdere apparaten.](#remove-a-file-from-quarantine-across-multiple-devices)  en
 - [Bestand in quarantaine herstellen](#restore-file-from-quarantine)
 
 Wanneer u klaar bent met het controleren en ongedaan maken van acties die zijn uitgevoerd als gevolg van onwaar positieven, gaat u verder met het controleren of [definiëren van uitsluitingen.](#part-3-review-or-define-exclusions)
 
 ### <a name="review-completed-actions"></a>Voltooide acties controleren
 
-1. Ga naar het Actiecentrum [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) () en meld u aan. 
+1. Ga naar het Actiecentrum <https://security.microsoft.com/action-center> () en meld u aan.
 
-2. Selecteer het **tabblad Geschiedenis** om een lijst met acties te bekijken die zijn ondernomen.  
+2. Selecteer het **tabblad Geschiedenis** om een lijst met acties te bekijken die zijn ondernomen.
 
 3. Selecteer een item om meer details weer te geven over de herstelactie die is ondernomen.
 
 ### <a name="restore-a-quarantined-file-from-the-action-center"></a>Een in quarantaine geplaatst bestand terugzetten vanuit het Actiecentrum
 
-1. Ga naar het Actiecentrum [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) () en meld u aan. 
+1. Ga naar het Actiecentrum <https://security.microsoft.com/action-center> () en meld u aan.
 
 2. Selecteer op **het** tabblad Geschiedenis een actie die u ongedaan wilt maken.
 
@@ -151,18 +157,18 @@ Wanneer u klaar bent met het controleren en ongedaan maken van acties die zijn u
 
 ### <a name="undo-multiple-actions-at-one-time"></a>Meerdere acties tegelijk ongedaan maken
 
-1. Ga naar het Actiecentrum [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) () en meld u aan. 
+1. Ga naar het Actiecentrum <https://security.microsoft.com/action-center> () en meld u aan.
 
 2. Selecteer op **het** tabblad Geschiedenis de acties die u ongedaan wilt maken.
 
 3. Selecteer Ongedaan maken in het deelvenster aan de rechterkant van **het scherm.**
 
-### <a name="remove-a-file-from-quarantine-across-multiple-devices"></a>Een bestand uit quarantaine verwijderen op meerdere apparaten 
+### <a name="remove-a-file-from-quarantine-across-multiple-devices"></a>Een bestand uit quarantaine verwijderen op meerdere apparaten
 
 > [!div class="mx-imgBorder"]
 > ![Quarantainebestand](images/autoir-quarantine-file-1.png)
 
-1. Ga naar het Actiecentrum [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) () en meld u aan. 
+1. Ga naar het Actiecentrum <https://security.microsoft.com/action-center> () en meld u aan.
 
 2. Selecteer op **het** tabblad Geschiedenis een bestand met het bestand Actietype **Quarantaine**.
 
@@ -173,10 +179,8 @@ Wanneer u klaar bent met het controleren en ongedaan maken van acties die zijn u
 U kunt een bestand terugdraaien en verwijderen uit quarantaine als u na een onderzoek hebt vastgesteld dat het bestand schoon is. Voer de volgende opdracht uit op elk apparaat waarop het bestand in quarantaine is geplaatst.
 
 1. Open een opdrachtregelprompt met verhoogde opdracht op het apparaat:
-
    1. Go to **Start** and type _cmd_.
-
-   1. Klik met de rechtermuisknop **op Opdrachtprompt** en selecteer **Uitvoeren als beheerder.**
+   2. Klik met de rechtermuisknop **op Opdrachtprompt** en selecteer **Uitvoeren als beheerder.**
 
 2. Voer de volgende opdracht in en druk op **Enter:**
 
@@ -185,17 +189,18 @@ U kunt een bestand terugdraaien en verwijderen uit quarantaine als u na een onde
     ```
 
     > [!IMPORTANT]
-    > In sommige scenario's kan **threatname** worden weergegeven als `EUS:Win32/
-      CustomEnterpriseBlock!cl` . Defender voor Eindpunt herstelt alle aangepaste geblokkeerde bestanden die in quarantaine zijn geplaatst op dit apparaat in de afgelopen 30 dagen.
+    > In sommige scenario's kan **threatname** worden weergegeven als `EUS:Win32/CustomEnterpriseBlock!cl` . Defender voor Eindpunt herstelt alle aangepaste geblokkeerde bestanden die in quarantaine zijn geplaatst op dit apparaat in de afgelopen 30 dagen.
+    >
     > Een bestand dat in quarantaine is geplaatst als een potentiële netwerkdreiging, kan mogelijk niet worden hersteld. Als een gebruiker het bestand na quarantaine probeert te herstellen, is dat bestand mogelijk niet toegankelijk. Dit kan worden veroorzaakt doordat het systeem geen netwerkreferenties meer heeft om toegang te krijgen tot het bestand. Dit is meestal het gevolg van een tijdelijk aanmelden bij een systeem of gedeelde map en de toegangstokens zijn verlopen.
 
-3. Selecteer in het deelvenster aan de rechterkant van het scherm meer exemplaren van dit bestand toepassen op **X** en selecteer **vervolgens Ongedaan maken.** 
+3. Selecteer in het deelvenster aan de rechterkant van het scherm meer exemplaren van dit bestand toepassen op **X** en selecteer **vervolgens Ongedaan maken.**
 
 ## <a name="part-3-review-or-define-exclusions"></a>Deel 3: Uitsluitingen controleren of definiëren
 
-Een uitsluiting is een entiteit, zoals een bestand of URL, die u opgeeft als uitzondering op herstelacties. De uitgesloten entiteit kan nog steeds worden gedetecteerd, maar er worden geen herstelacties voor die entiteit ondernomen. Dat wil zeggen dat het gedetecteerde bestand of proces niet wordt gestopt, naar quarantaine wordt verzonden, wordt verwijderd of anderszins wordt gewijzigd door Microsoft Defender voor Eindpunt. 
+Een uitsluiting is een entiteit, zoals een bestand of URL, die u opgeeft als uitzondering op herstelacties. De uitgesloten entiteit kan nog steeds worden gedetecteerd, maar er worden geen herstelacties voor die entiteit ondernomen. Dat wil zeggen dat het gedetecteerde bestand of proces niet wordt gestopt, naar quarantaine wordt verzonden, wordt verwijderd of anderszins wordt gewijzigd door Microsoft Defender voor Eindpunt.
 
 Als u uitsluitingen in Microsoft Defender voor Eindpunt wilt definiëren, voert u de volgende taken uit:
+
 - [Uitsluitingen definiëren voor Microsoft Defender Antivirus](#exclusions-for-microsoft-defender-antivirus)
 - [Indicatoren voor toestaan maken voor Microsoft Defender voor eindpunt](#indicators-for-microsoft-defender-for-endpoint)
 
@@ -213,7 +218,7 @@ Over het algemeen hoeft u geen uitsluitingen te definiëren voor Microsoft Defen
 
 #### <a name="use-microsoft-endpoint-manager-to-manage-antivirus-exclusions-for-existing-policies"></a>Gebruik Microsoft Endpoint Manager om antivirusuitsluitingen te beheren (voor bestaand beleid)
 
-1. Ga naar het Microsoft Endpoint Manager beheercentrum [https://endpoint.microsoft.com](https://endpoint.microsoft.com) () en meld u aan.
+1. Ga naar het Microsoft Endpoint Manager beheercentrum <https://endpoint.microsoft.com> () en meld u aan.
 
 2. Kies **Endpoint Security**  >  **Antivirus** en selecteer vervolgens een bestaand beleid. (Als u geen bestaand beleid hebt of als u een nieuw beleid wilt maken, gaat u verder [met de volgende procedure).](#use-microsoft-endpoint-manager-to-create-a-new-antivirus-policy-with-exclusions)
 
@@ -225,9 +230,9 @@ Over het algemeen hoeft u geen uitsluitingen te definiëren voor Microsoft Defen
 
 #### <a name="use-microsoft-endpoint-manager-to-create-a-new-antivirus-policy-with-exclusions"></a>Gebruik Microsoft Endpoint Manager om een nieuw antivirusbeleid te maken met uitsluitingen
 
-1. Ga naar het Microsoft Endpoint Manager beheercentrum [https://endpoint.microsoft.com](https://endpoint.microsoft.com) () en meld u aan.
+1. Ga naar het Microsoft Endpoint Manager beheercentrum <https://endpoint.microsoft.com> () en meld u aan.
 
-2. Kies **Endpoint security**  >  **Antivirus**  >  **+ Create Policy**. 
+2. Kies **Endpoint security**  >  **Antivirus**  >  **+ Create Policy**.
 
 3. Selecteer een platform (zoals Windows 10 **en hoger**, **macOS** of **Windows 10 en Windows Server).**
 
@@ -259,38 +264,40 @@ Als u entiteiten wilt opgeven als uitsluitingen voor Microsoft Defender voor Ein
 
 #### <a name="indicators-for-files"></a>Indicatoren voor bestanden
 
-Wanneer u [een indicator 'toestaan'](/microsoft-365/security/defender-endpoint/indicator-file)maakt voor een bestand, zoals een uitvoerbaar bestand, voorkomt u dat bestanden die uw organisatie gebruikt, worden geblokkeerd. Bestanden kunnen draagbare uitvoerbare (PE-) bestanden bevatten, zoals `.exe` en `.dll` bestanden. 
+Wanneer u [een indicator 'toestaan'](/microsoft-365/security/defender-endpoint/indicator-file)maakt voor een bestand, zoals een uitvoerbaar bestand, voorkomt u dat bestanden die uw organisatie gebruikt, worden geblokkeerd. Bestanden kunnen draagbare uitvoerbare (PE-) bestanden bevatten, zoals `.exe` en `.dll` bestanden.
 
 Voordat u indicatoren voor bestanden maakt, moet u ervoor zorgen dat aan de volgende vereisten wordt voldaan:
+
 - Microsoft Defender Antivirus is geconfigureerd met cloudbeveiliging ingeschakeld (zie [Beveiliging in de cloud beheren)](/windows/security/threat-protection/microsoft-defender-antivirus/deploy-manage-report-microsoft-defender-antivirus)
-- Antimalware-clientversie is 4.18.1901.x of hoger 
-- Apparaten worden Windows 10, versie 1703 of hoger. Windows Server 2016; of Windows Server 2019 
-- De [functie Blokkeren of toestaan is ingeschakeld](/microsoft-365/security/defender-endpoint/advanced-features) 
+- Antimalware-clientversie is 4.18.1901.x of hoger
+- Apparaten worden Windows 10, versie 1703 of hoger. Windows Server 2016; of Windows Server 2019
+- De [functie Blokkeren of toestaan is ingeschakeld](/microsoft-365/security/defender-endpoint/advanced-features)
 
 #### <a name="indicators-for-ip-addresses-urls-or-domains"></a>Indicatoren voor IP-adressen, URL's of domeinen
 
 Wanneer u een indicator 'toestaan' maakt voor een [IP-adres, URL](/microsoft-365/security/defender-endpoint/indicator-ip-domain)of domein, voorkomt u dat de sites of IP-adressen die uw organisatie gebruikt, worden geblokkeerd.
 
 Voordat u indicatoren maakt voor IP-adressen, URL's of domeinen, moet u ervoor zorgen dat aan de volgende vereisten wordt voldaan:
+
 - Netwerkbeveiliging in Defender voor Eindpunt is ingeschakeld in de blokmodus (zie [Netwerkbeveiliging inschakelen)](/microsoft-365/security/defender-endpoint/enable-network-protection)
-- Antimalware-clientversie is 4.18.1906.x of hoger 
-- Apparaten worden Windows 10, versie 1709 of hoger 
+- Antimalware-clientversie is 4.18.1906.x of hoger
+- Apparaten worden Windows 10, versie 1709 of hoger
 
 Aangepaste netwerkindicatoren zijn ingeschakeld in de [Microsoft 365 Defender.](microsoft-defender-security-center.md) Zie Geavanceerde functies voor [meer informatie.](/microsoft-365/security/defender-endpoint/advanced-features)
 
-#### <a name="indicators-for-application-certificates"></a>Indicatoren voor toepassingscertificaten 
+#### <a name="indicators-for-application-certificates"></a>Indicatoren voor toepassingscertificaten
 
-Wanneer u [een indicator 'toestaan'](/microsoft-365/security/defender-endpoint/indicator-certificates)maakt voor een toepassingscertificaat, voorkomt u dat toepassingen, zoals intern ontwikkelde toepassingen, die door uw organisatie worden gebruikt, worden geblokkeerd. `.CER` of `.PEM` bestandsextensies worden ondersteund.   
+Wanneer u [een indicator 'toestaan'](/microsoft-365/security/defender-endpoint/indicator-certificates)maakt voor een toepassingscertificaat, voorkomt u dat toepassingen, zoals intern ontwikkelde toepassingen, die door uw organisatie worden gebruikt, worden geblokkeerd. `.CER` of `.PEM` bestandsextensies worden ondersteund.
 
 Voordat u indicatoren voor toepassingscertificaten maakt, moet u ervoor zorgen dat aan de volgende vereisten wordt voldaan:
 
 - Microsoft Defender Antivirus is geconfigureerd met cloudbeveiliging ingeschakeld (zie [Beveiliging in de cloud beheren)](deploy-manage-report-microsoft-defender-antivirus.md)
-- Antimalware-clientversie is 4.18.1901.x of hoger 
-- Apparaten worden Windows 10, versie 1703 of hoger. Windows Server 2016; of Windows Server 2019 
-- Definities van virus- en bedreigingsbeveiliging zijn up-to-date  
+- Antimalware-clientversie is 4.18.1901.x of hoger
+- Apparaten worden Windows 10, versie 1703 of hoger. Windows Server 2016; of Windows Server 2019
+- Definities van virus- en bedreigingsbeveiliging zijn up-to-date
 
 > [!TIP]
-> Wanneer u indicatoren maakt, kunt u deze een voor een definiëren of meerdere items tegelijk importeren. Houd er rekening mee dat er een limiet is van 15.000 indicatoren voor één tenant. En mogelijk moet u eerst bepaalde details verzamelen, zoals informatie over bestandshash. Controleer de vereisten voordat u [indicatoren maakt.](manage-indicators.md) 
+> Wanneer u indicatoren maakt, kunt u deze een voor een definiëren of meerdere items tegelijk importeren. Houd er rekening mee dat er een limiet is van 15.000 indicatoren voor één tenant. En mogelijk moet u eerst bepaalde details verzamelen, zoals informatie over bestandshash. Controleer de vereisten voordat u [indicatoren maakt.](manage-indicators.md)
 
 ## <a name="part-4-submit-a-file-for-analysis"></a>Deel 4: Een bestand verzenden voor analyse
 
@@ -302,20 +309,21 @@ Als u een bestand hebt dat ten onrechte is gedetecteerd als schadelijk of is gem
 
 1. Bekijk hier de richtlijnen: [Bestanden indienen voor analyse.](/windows/security/threat-protection/intelligence/submission-guide)
 
-2. Ga naar Microsoft-beveiligingsinformatie inzendingssite [https://www.microsoft.com/wdsi/filesubmission](https://www.microsoft.com/wdsi/filesubmission) () en verzend uw bestand(en).
+2. Ga naar Microsoft-beveiligingsinformatie inzendingssite <https://www.microsoft.com/wdsi/filesubmission> () en verzend uw bestand(en).
 
 ### <a name="submit-a-fileless-detection-for-analysis"></a>Een bestandsloze detectie indienen voor analyse
 
 Als er iets is gedetecteerd als malware op basis van gedrag en u geen bestand hebt, kunt u uw bestand indienen `Mpsupport.cab` voor analyse. U kunt het bestand *.cab* downloaden met behulp van het hulpprogramma Microsoft Malware Protection Command-Line Utility (MPCmdRun.exe) op Windows 10.
 
-1.  Ga naar ` C:\ProgramData\Microsoft\Windows Defender\Platform\<version>` en voer vervolgens als beheerder `MpCmdRun.exe` uit.
+1. Ga naar ` C:\ProgramData\Microsoft\Windows Defender\Platform\<version>` en voer vervolgens als beheerder `MpCmdRun.exe` uit.
 
-2.  Typ `mpcmdrun.exe -GetFiles` en druk vervolgens op **Enter.**
+2. Typ `mpcmdrun.exe -GetFiles` en druk vervolgens op **Enter.**
+
    Er .cab een bestand gegenereerd dat verschillende diagnostische logboeken bevat. De locatie van het bestand wordt opgegeven in de uitvoer van de opdrachtprompt. Standaard is de locatie `C:\ProgramData\Microsoft\Microsoft Defender\Support\MpSupportFiles.cab` .
 
-3.  Bekijk hier de richtlijnen: [Bestanden indienen voor analyse.](/windows/security/threat-protection/intelligence/submission-guide)
+3. Bekijk hier de richtlijnen: [Bestanden indienen voor analyse.](/windows/security/threat-protection/intelligence/submission-guide)
 
-4.  Ga naar Microsoft-beveiligingsinformatie inzendingssite [https://www.microsoft.com/wdsi/filesubmission](https://www.microsoft.com/wdsi/filesubmission) () en verzend uw .cab bestanden.
+4. Ga naar Microsoft-beveiligingsinformatie inzendingssite <https://www.microsoft.com/wdsi/filesubmission> () en verzend uw .cab bestanden.
 
 ### <a name="what-happens-after-a-file-is-submitted"></a>Wat gebeurt er nadat een bestand is ingediend?
 
@@ -327,7 +335,7 @@ Voor inzendingen die nog niet zijn verwerkt, worden ze als volgt geprioriteerd v
 - Geverifieerde klanten, met name zakelijke klanten met geldige [Software Assurance-ID's (SAID's),](https://www.microsoft.com/licensing/licensing-programs/software-assurance-default.aspx)krijgen een hogere prioriteit.
 - Inzendingen die door SAID-houders als hoge prioriteit worden gemarkeerd, krijgen onmiddellijk de aandacht.
 
-Als u wilt controleren op updates met betrekking tot uw inzending, kunt u zich aanmelden [Microsoft-beveiligingsinformatie de inzendingssite.](https://www.microsoft.com/wdsi/filesubmission) 
+Als u wilt controleren op updates met betrekking tot uw inzending, kunt u zich aanmelden [Microsoft-beveiligingsinformatie de inzendingssite.](https://www.microsoft.com/wdsi/filesubmission)
 
 > [!TIP]
 > Zie Bestanden verzenden [voor analyse voor meer informatie.](/windows/security/threat-protection/intelligence/submission-guide#how-does-microsoft-prioritize-submissions)
@@ -351,7 +359,7 @@ We raden [u](/mem/endpoint-manager-overview) aan Microsoft Endpoint Manager beve
 
 #### <a name="use-microsoft-endpoint-manager-to-review-and-edit-cloud-delivered-protection-settings-for-existing-policies"></a>Gebruik Microsoft Endpoint Manager voor het controleren en bewerken van beveiligingsinstellingen in de cloud (voor bestaand beleid)
 
-1. Ga naar het Microsoft Endpoint Manager beheercentrum [https://endpoint.microsoft.com](https://endpoint.microsoft.com) () en meld u aan.
+1. Ga naar het Microsoft Endpoint Manager beheercentrum <https://endpoint.microsoft.com> () en meld u aan.
 
 2. Kies **Endpoint Security**  >  **Antivirus** en selecteer vervolgens een bestaand beleid. (Als u geen bestaand beleid hebt of als u een nieuw beleid wilt maken, gaat u verder [met de volgende procedure).](#use-microsoft-endpoint-manager-to-set-cloud-delivered-protection-settings-for-a-new-policy)
 
@@ -363,7 +371,7 @@ We raden [u](/mem/endpoint-manager-overview) aan Microsoft Endpoint Manager beve
 
 #### <a name="use-microsoft-endpoint-manager-to-set-cloud-delivered-protection-settings-for-a-new-policy"></a>Gebruik Microsoft Endpoint Manager voor het instellen van beveiligingsinstellingen in de cloud (voor een nieuw beleid)
 
-1. Ga naar het Microsoft Endpoint Manager beheercentrum [https://endpoint.microsoft.com](https://endpoint.microsoft.com) () en meld u aan.
+1. Ga naar het Microsoft Endpoint Manager beheercentrum <https://endpoint.microsoft.com> () en meld u aan.
 
 2. Kies **Endpoint security**  >  **Antivirus**  >  **+ Create policy**.
 
@@ -379,7 +387,7 @@ We raden [u](/mem/endpoint-manager-overview) aan Microsoft Endpoint Manager beve
 
 7. Geef op **het tabblad** Opdrachten de gebruikers en groepen op waarop uw beleid moet worden toegepast en kies **volgende**. (Zie Gebruikers- en apparaatprofielen toewijzen in Microsoft Intune [.)](/mem/intune/configuration/device-profile-assign)
 
-8. Controleer op **het tabblad Controleren +** maken de instellingen en kies vervolgens **Maken.**  
+8. Controleer op **het tabblad Controleren +** maken de instellingen en kies vervolgens **Maken.**
 
 ### <a name="remediation-for-potentially-unwanted-applications"></a>Herstel van potentieel ongewenste toepassingen
 
@@ -387,14 +395,14 @@ Potentieel ongewenste toepassingen (PUA) zijn een categorie software die ervoor 
 
 > [!TIP]
 > Zie Potentieel ongewenste toepassingen detecteren en [blokkeren](/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus)voor meer informatie over PUA.
- 
+
 Afhankelijk van de apps die uw organisatie gebruikt, krijgt u mogelijk onwaar positieven als gevolg van uw PUA-beveiligingsinstellingen. Als dat nodig is, kunt u overwegen om PUA-beveiliging een tijdje in de auditmodus uit te voeren of PUA-beveiliging toe te passen op een subset apparaten in uw organisatie. PUA-beveiliging kan worden geconfigureerd voor de Microsoft Edge browser en voor Microsoft Defender Antivirus.
 
 U wordt [aangeraden](/mem/endpoint-manager-overview) Microsoft Endpoint Manager puabeveiligingsinstellingen te bewerken of in te stellen. U kunt echter andere methoden gebruiken, zoals [Groepsbeleid](/azure/active-directory-domain-services/manage-group-policy) (zie [Microsoft Defender voor eindpunt beheren).](manage-atp-post-migration.md)
 
 #### <a name="use-microsoft-endpoint-manager-to-edit-pua-protection-for-existing-configuration-profiles"></a>Gebruik Microsoft Endpoint Manager voor het bewerken van PUA-beveiliging (voor bestaande configuratieprofielen)
 
-1. Ga naar het Microsoft Endpoint Manager beheercentrum [https://endpoint.microsoft.com](https://endpoint.microsoft.com) () en meld u aan.
+1. Ga naar het Microsoft Endpoint Manager beheercentrum <https://endpoint.microsoft.com> () en meld u aan.
 
 2. Kies   >  **Apparatenconfiguratieprofielen** en selecteer vervolgens een bestaand beleid. (Als u geen bestaand beleid hebt of als u een nieuw beleid wilt maken, gaat u verder [met de volgende procedure](#use-microsoft-endpoint-manager-to-set-pua-protection-for-a-new-configuration-profile).)
 
@@ -408,7 +416,7 @@ U wordt [aangeraden](/mem/endpoint-manager-overview) Microsoft Endpoint Manager 
 
 #### <a name="use-microsoft-endpoint-manager-to-set-pua-protection-for-a-new-configuration-profile"></a>Gebruik Microsoft Endpoint Manager om PUA-beveiliging in te stellen (voor een nieuw configuratieprofiel)
 
-1. Ga naar het Microsoft Endpoint Manager beheercentrum [https://endpoint.microsoft.com](https://endpoint.microsoft.com) () en meld u aan.
+1. Ga naar het Microsoft Endpoint Manager beheercentrum <https://endpoint.microsoft.com> () en meld u aan.
 
 2. Kies   >  **Apparatenconfiguratieprofielen**  >  **+ Profiel maken.**
 
@@ -428,28 +436,28 @@ U wordt [aangeraden](/mem/endpoint-manager-overview) Microsoft Endpoint Manager 
 
 ### <a name="automated-investigation-and-remediation"></a>Geautomatiseerd onderzoek en herstel
 
-[Geautomatiseerde mogelijkheden voor onderzoek en](automated-investigations.md) herstel (AIR) zijn ontworpen om waarschuwingen te onderzoeken en onmiddellijk actie te ondernemen om inbreuken op te lossen. Wanneer waarschuwingen worden geactiveerd en een geautomatiseerd onderzoek wordt uitgevoerd, wordt een vonnis gegenereerd voor elk bewijs dat wordt onderzocht. Vonnissen kunnen *Schadelijk,* *Verdacht* of *Geen bedreigingen zijn gevonden.* 
+[Geautomatiseerde mogelijkheden voor onderzoek en](automated-investigations.md) herstel (AIR) zijn ontworpen om waarschuwingen te onderzoeken en onmiddellijk actie te ondernemen om inbreuken op te lossen. Wanneer waarschuwingen worden geactiveerd en een geautomatiseerd onderzoek wordt uitgevoerd, wordt een vonnis gegenereerd voor elk bewijs dat wordt onderzocht. Vonnissen kunnen *Schadelijk,* *Verdacht* of *Geen bedreigingen zijn gevonden.*
 
-Afhankelijk van het [automatiseringsniveau](/microsoft-365/security/defender-endpoint/automation-levels) dat is ingesteld voor uw organisatie en andere beveiligingsinstellingen, worden  herstelacties ondernomen op artefacten die als schadelijk of verdacht *worden beschouwd.* In sommige gevallen worden herstelacties automatisch uitgevoerd. in andere gevallen worden herstelacties handmatig of alleen uitgevoerd na goedkeuring door uw beveiligingsteam. 
+Afhankelijk van het [automatiseringsniveau](/microsoft-365/security/defender-endpoint/automation-levels) dat is ingesteld voor uw organisatie en andere beveiligingsinstellingen, worden  herstelacties ondernomen op artefacten die als schadelijk of verdacht *worden beschouwd.* In sommige gevallen worden herstelacties automatisch uitgevoerd. in andere gevallen worden herstelacties handmatig of alleen uitgevoerd na goedkeuring door uw beveiligingsteam.
 
-- [Meer informatie over automatiseringsniveaus;](/microsoft-365/security/defender-endpoint/automation-levels) en vervolgens 
+- [Meer informatie over automatiseringsniveaus;](/microsoft-365/security/defender-endpoint/automation-levels) en vervolgens
 - [Air-mogelijkheden configureren in Defender voor Eindpunt.](/microsoft-365/security/defender-endpoint/configure-automated-investigations-remediation)
 
 > [!IMPORTANT]
-> We raden u aan *volledige automatisering te gebruiken* voor geautomatiseerd onderzoek en herstel. Schakel deze mogelijkheden niet uit vanwege een onwaar positief. Gebruik in plaats daarvan ['toestaan'-indicatoren](#indicators-for-microsoft-defender-for-endpoint)om uitzonderingen te definiëren en laat automatisch onderzoek en herstel instellen om automatisch de juiste acties uit te voeren. Als [u deze richtlijnen](automation-levels.md#levels-of-automation) volgt, vermindert u het aantal waarschuwingen dat uw beveiligingsbewerkingsteam moet verwerken. 
+> We raden u aan *volledige automatisering te gebruiken* voor geautomatiseerd onderzoek en herstel. Schakel deze mogelijkheden niet uit vanwege een onwaar positief. Gebruik in plaats daarvan ['toestaan'-indicatoren](#indicators-for-microsoft-defender-for-endpoint)om uitzonderingen te definiëren en laat automatisch onderzoek en herstel instellen om automatisch de juiste acties uit te voeren. Als [u deze richtlijnen](automation-levels.md#levels-of-automation) volgt, vermindert u het aantal waarschuwingen dat uw beveiligingsbewerkingsteam moet verwerken.
 
 ## <a name="still-need-help"></a>Meer hulp nodig?
 
 Als u alle stappen in dit artikel hebt doorlopen en nog steeds hulp nodig hebt, neemt u contact op met de technische ondersteuning.
 
-1. Ga naar Microsoft 365 Defender ( [https://security.microsoft.com](https://security.microsoft.com) ) en meld u aan.
+1. Ga naar Microsoft 365 Defender ( <https://security.microsoft.com> ) en meld u aan.
 
 2. Selecteer in de rechterbovenhoek het vraagteken (**?**) en selecteer **vervolgens Microsoft-ondersteuning.**
 
-3. Beschrijf het **probleem** in het venster Ondersteuningsassistent en verzend uw bericht. Hier kunt u een serviceaanvraag openen.  
+3. Beschrijf het **probleem** in het venster Ondersteuningsassistent en verzend uw bericht. Hier kunt u een serviceaanvraag openen.
 
 ## <a name="see-also"></a>Zie ook
 
 [Microsoft Defender voor eindpunt beheren](manage-atp-post-migration.md)
 
-[Overzicht van Microsoft 365 Defender portal](/microsoft-365/security/defender-endpoint/use) 
+[Overzicht van Microsoft 365 Defender portal](/microsoft-365/security/defender-endpoint/use)

@@ -14,16 +14,16 @@ ms.collection:
 localization_priority: Normal
 search.appverid:
 - MET150
-description: Meer informatie over het herkennen en herstellen van de illegale toestemmingsinfarcten in Microsoft Office 365.
+description: Meer informatie over het herkennen en herstellen van de illegale toestemmingsinfarcten in Microsoft 365.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4c3c3c06974feb2dab3985a60938fe7d543543c3
-ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
+ms.openlocfilehash: c0041c473f196dace893122c5c0543a06c1e6ff8
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 06/19/2021
-ms.locfileid: "53028917"
+ms.locfileid: "53029859"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants"></a>Illegale toestemmingsgelden detecteren en herstellen
 
@@ -33,9 +33,9 @@ ms.locfileid: "53028917"
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-**Overzicht**  Meer informatie over het herkennen en herstellen van de illegale toestemmingsinfarcten in Office 365.
+**Overzicht**  Meer informatie over het herkennen en herstellen van de illegale toestemmingsinfarcten in Microsoft 365.
 
-## <a name="what-is-the-illicit-consent-grant-attack-in-office-365"></a>Wat is de illegale toestemmingsinfarct in Office 365?
+## <a name="what-is-the-illicit-consent-grant-attack-in-microsoft-365"></a>Wat is de illegale toestemmingsinfarct in Microsoft 365?
 
 Bij een illegale toestemmingsaanvraag maakt de aanvaller een azure-geregistreerde toepassing waarin toegang wordt gevraagd tot gegevens, zoals contactgegevens, e-mail of documenten. De aanvaller trucs vervolgens een eindgebruiker om die toepassing toestemming te geven om toegang te krijgen tot hun gegevens via een phishing-aanval of door illegale code in te voeren op een vertrouwde website. Nadat toestemming is verleend voor de illegale toepassing, heeft deze toegang op accountniveau tot gegevens zonder dat er een organisatieaccount nodig is. Normale herstelstappen, zoals het opnieuw instellen van wachtwoorden voor inbreukmakende accounts of het vereisen van MFA (Multi-Factor Authentication) op accounts, zijn niet effectief tegen dit type aanval, omdat dit toepassingen van derden zijn en buiten de organisatie vallen.
 
@@ -44,21 +44,23 @@ Deze aanvallen maken gebruik van een interactiemodel dat ervan uit gaat dat de e
 > [!IMPORTANT]
 > Vermoedt u dat u op dit moment problemen ondervindt met illegale toestemmingsgelden vanuit een app? Microsoft Cloud App Security (MCAS) beschikt over hulpprogramma's voor het detecteren, onderzoeken en corrigeren van uw OAuth-apps. Dit MCAS-artikel bevat een zelfstudie over het onderzoeken van riskante [OAuth-apps.](/cloud-app-security/investigate-risky-oauth) U kunt ook [OAuth-appbeleid](/cloud-app-security/app-permission-policy) instellen om te onderzoeken welke machtigingen voor apps zijn aangevraagd, welke gebruikers deze apps mogen gebruiken en deze machtigingsaanvragen op grote schaal goed te keuren of te verbieden.
 
-## <a name="what-does-an-illicit-consent-grant-attack-look-like-in-office-365"></a>Hoe ziet een illegale toestemmingsinfarct eruit in Office 365?
+## <a name="what-does-an-illicit-consent-grant-attack-look-like-in-microsoft-365"></a>Hoe ziet een illegale toestemmingsinfarct eruit in Microsoft 365?
 
 U moet in het **auditlogboek** zoeken naar tekens, ook wel Indicatoren van compromis (IOC) van deze aanval genoemd. Voor organisaties met veel azure-geregistreerde toepassingen en een grote gebruikersbasis is het de beste manier om uw toestemmingsaanvragen voor organisaties wekelijks te bekijken.
 
 ### <a name="steps-for-finding-signs-of-this-attack"></a>Stappen voor het vinden van tekenen van deze aanval
 
-1. Open de **Microsoft 365 Defender** portal op <https://security.microsoft.com> .
+1. Open de **Microsoft 365 Defender** portal bij <https://security.microsoft.com> en selecteer audit. 
 
-2. **Navigeer naar Zoeken** en selecteer **Auditlogboek zoeken.**
+2. Controleer op **de pagina** Controle die wordt geopend of **het** tabblad Zoeken is geselecteerd en configureer de volgende instellingen:
+   - **Datum- en tijdbereik**
+   - **Activiteiten:** Controleer of **Resultaten voor alle activiteiten tonen** is geselecteerd.
 
-3. Zoek (alle activiteiten en alle gebruikers) en voer indien nodig de begin- en einddatum in en klik op **Zoeken.**
+   Wanneer u klaar bent, klikt u op **Zoeken**.
 
-4. Klik **op Resultaten filteren** en voer Toestemming voor toepassing in het veld **Activiteit** in.
+3. Klik op **de kolom** Activiteit om de resultaten te sorteren en te zoeken naar Toestemming **voor toepassing.**
 
-5. Klik op het resultaat om de details van de activiteit te bekijken. Klik **op Meer informatie** voor meer informatie over de activiteit. Controleer of IsAdminContent is ingesteld op Waar.
+4. Selecteer een item in de lijst om de details van de activiteit te bekijken. Controleer of IsAdminContent is ingesteld op Waar.
 
 > [!NOTE]
 >
@@ -73,9 +75,7 @@ U moet in het **auditlogboek** zoeken naar tekens, ook wel Indicatoren van compr
 Als u een of meer exemplaren van de IOC's hierboven hebt vermeld, moet u verder onderzoek doen om positief te bevestigen dat de aanval heeft plaatsgevonden. U kunt een van deze drie methoden gebruiken om de aanval te bevestigen:
 
 - Voorraadtoepassingen en hun machtigingen met de Azure Active Directory portal. Deze methode is grondig, maar u kunt slechts één gebruiker tegelijk controleren, wat erg tijdrovend kan zijn als u veel gebruikers hebt om te controleren.
-
 - Inventaristoepassingen en hun machtigingen met PowerShell. Dit is de snelste en meest grondige methode, met de minste hoeveelheid overhead.
-
 - Laat uw gebruikers afzonderlijk hun apps en machtigingen controleren en de resultaten rapporteren aan de beheerders voor herstel.
 
 ## <a name="inventory-apps-with-access-in-your-organization"></a>Inventaris-apps met toegang in uw organisatie
@@ -84,23 +84,19 @@ U kunt dit doen voor uw gebruikers met de Azure Active Directory Portal of Power
 
 ### <a name="steps-for-using-the-azure-active-directory-portal"></a>Stappen voor het gebruik van Azure Active Directory portal
 
-U kunt de toepassingen zoeken waaraan elke afzonderlijke gebruiker machtigingen heeft verleend met behulp van [de Azure Active Directory Portal.](https://portal.azure.com/)
+U kunt de toepassingen op zoeken waaraan elke afzonderlijke gebruiker machtigingen heeft verleend met behulp van de Azure Active Directory Portal op <https://portal.azure.com> .
 
 1. Meld u aan bij de Azure-portal met beheerdersrechten.
-
 2. Selecteer het Azure Active Directory blad.
-
 3. Selecteer **Gebruikers**.
-
 4. Selecteer de gebruiker die u wilt controleren.
-
 5. Selecteer **Toepassingen**.
 
 Hier ziet u de apps die aan de gebruiker zijn toegewezen en welke machtigingen de toepassingen hebben.
 
 ### <a name="steps-for-having-your-users-enumerate-their-application-access"></a>Stappen voor het opsnoemen van de toepassingstoegang van uw gebruikers
 
-Laten uw gebruikers hun https://myapps.microsoft.com eigen toepassingstoegang daar bekijken. Ze moeten alle apps met toegang kunnen zien, details ervan kunnen bekijken (inclusief het bereik van toegang) en bevoegdheden kunnen intrekken voor verdachte of illegale apps.
+Laten uw gebruikers hun <https://myapps.microsoft.com> eigen toepassingstoegang daar bekijken. Ze moeten alle apps met toegang kunnen zien, details ervan kunnen bekijken (inclusief het bereik van toegang) en bevoegdheden kunnen intrekken voor verdachte of illegale apps.
 
 ### <a name="steps-for-doing-this-with-powershell"></a>Stappen om dit te doen met PowerShell
 
@@ -109,9 +105,7 @@ De eenvoudigste manier om de aanval van de illegale toestemmingsbeurs te [ verif
 #### <a name="pre-requisites"></a>Vereisten
 
 - De Azure AD PowerShell-bibliotheek is geïnstalleerd.
-
 - Globale beheerdersrechten voor de tenant waar het script tegen wordt uitgevoerd.
-
 - Lokale beheerder op de computer waaruit de scripts worden uitgevoerd.
 
 > [!IMPORTANT]
@@ -121,7 +115,7 @@ De eenvoudigste manier om de aanval van de illegale toestemmingsbeurs te [ verif
 
 2. Download of kopieer het [Get-AzureADPSPermissions.ps1](https://gist.github.com/psignoret/41793f8c6211d2df5051d77ca3728c09) script van GitHub naar een map waaruit u het script gaat uitvoeren. Dit is dezelfde map waarop het uitvoerbestand 'permissions.csv' wordt geschreven.
 
-3. Open een PowerShell-exemplaar als beheerder en open de map waarin u het script hebt opgeslagen.
+3. Open een PowerShell-sessie als beheerder en open de map waarin u het script hebt opgeslagen.
 
 4. Verbinding maken naar uw adreslijst met de [Verbinding maken-AzureAD-cmdlet.](/powershell/module/azuread/connect-azuread)
 
@@ -153,14 +147,10 @@ Nadat u klaar bent met het inventariseren van toepassingstoegang, bekijkt u het 
 Nadat u een toepassing met illegale machtigingen hebt geïdentificeerd, kunt u deze toegang op verschillende manieren verwijderen.
 
 - U kunt de machtiging van de toepassing intrekken in de Azure Active Directory portal door:
-
-  - Ga naar de betreffende gebruiker in het **Azure Active Directory Gebruikersblad.**
-
-  - Selecteer **Toepassingen**.
-
-  - Selecteer de illegale toepassing.
-
-  - Klik **op Verwijderen** in de inzoomen.
+  1. Ga naar de betreffende gebruiker in het **Azure Active Directory Gebruikersblad.**
+  2. Selecteer **Toepassingen**.
+  3. Selecteer de illegale toepassing.
+  4. Klik **op Verwijderen** in de inzoomen.
 
 - U kunt de toestemmingslening voor OAuth met PowerShell intrekken door de stappen in [Remove-AzureADOAuth2PermissionGrant te volgen.](/powershell/module/azuread/Remove-AzureADOAuth2PermissionGrant)
 
@@ -175,19 +165,13 @@ Nadat u een toepassing met illegale machtigingen hebt geïdentificeerd, kunt u d
 Uw Microsoft 365-abonnement heeft een krachtige reeks aan beveiligingsmogelijkheden die u kunt gebruiken om uw gegevens en gebruikers te beschermen. Gebruik de [Microsoft 365-roadmap voor beveiliging - Topprioriteiten voor de eerste 30 dagen, 90 dagen en verder](security-roadmap.md) om door Microsoft aanbevolen procedures voor het beveiligen van uw Microsoft 365-tenant te implementeren.
 
 - Taken die in de eerste 30 dagen moeten worden uitgevoerd. Deze hebben direct effect en weinig invloed op uw gebruikers.
-
 - Taken die binnen 90 dagen moeten worden uitgevoerd. Deze nemen qua planning en implementatie iets meer tijd in beslag, maar zorgen voor aanzienlijke verbeteringen in uw beveiligingspostuur.
-
 - Na 90 dagen. Deze verbeteringen zijn gebaseerd op de eerste 90 dagen.
 
-## <a name="see-also"></a>Zie ook:
+## <a name="see-also"></a>Zie ook
 
 - [Onverwachte toepassing in mijn lijst met toepassingen](/azure/active-directory/application-access-unexpected-application) laat beheerders verschillende acties zien die ze mogelijk willen uitvoeren nadat ze zich realiseren dat er onverwachte toepassingen zijn met toegang tot gegevens.
-
 - [Het integreren van toepassingen Azure Active Directory](/azure/active-directory/active-directory-apps-permissions-consent) is een overzicht op hoog niveau van toestemming en machtigingen.
-
 - [Problemen met het ontwikkelen van mijn toepassing](/azure/active-directory/active-directory-application-dev-development-content-map) bevat koppelingen naar verschillende artikelen met betrekking tot toestemming.
-
 - [Toepassings- en serviceprincipaalobjecten in Azure Active Directory (Azure AD)](/azure/active-directory/develop/active-directory-application-objects) bieden een overzicht van de hoofdobjecten Toepassing en Service die de kern van het toepassingsmodel zijn.
-
 - [Toegang tot apps beheren](/azure/active-directory/active-directory-managing-access-to-apps) is een overzicht van de mogelijkheden die beheerders hebben om gebruikerstoegang tot apps te beheren.

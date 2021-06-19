@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 1ddb6da49e5e9f23aacf73caaeb91302ac9c19c9
-ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
+ms.openlocfilehash: 2ca601c3c68df9f9f1cc4fb90bcfbe907850ce91
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 06/19/2021
-ms.locfileid: "53028965"
+ms.locfileid: "53029727"
 ---
 # <a name="overview-of-microsoft-365-defender-apis"></a>Overzicht van Microsoft 365 Defender API's
 
@@ -48,13 +48,10 @@ Gebruik de Microsoft 365 Defender API's om werkstromen te automatiseren op basis
 
 Gebruik de [Streaming API om](../defender-endpoint/raw-data-export.md) realtimegebeurtenissen en waarschuwingen van exemplaren te verzenden terwijl deze binnen één gegevensstroom plaatsvinden.
 
-
 Naast deze Microsoft 365 Defender-specifieke API's, worden in elk [](api-articles.md) van onze andere beveiligingsproducten extra API's aan de man Microsoft 365 Defender om te profiteren van hun unieke mogelijkheden.
-
 
 > [!NOTE]
 > De overgang naar de geïntegreerde portal mag geen invloed hebben op de PowerBi-dashboards op basis van MICROSOFT Defender voor eindpunt-API's. U kunt blijven werken met de bestaande API's, ongeacht de interactieve portalovergang.
-
 
 ## <a name="learn-more"></a>Meer informatie
 

@@ -1,6 +1,6 @@
 ---
 title: Volgorde en prioriteit van e-mailbeveiliging
-keywords: beveiliging, malware, Microsoft 365, M365, beveiligingscentrum, Microsoft Defender voor Eindpunt, Microsoft Defender voor Office 365, Microsoft Defender voor identiteit
+keywords: beveiliging, malware, Microsoft 365, M365, beveiligingscentrum, Microsoft 365 Defender-portal, Microsoft Defender voor eindpunt, Microsoft Defender voor Office 365, Microsoft Defender voor identiteit
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -17,12 +17,12 @@ ms.custom:
 description: Beheerders kunnen meer informatie krijgen over de toepassingsorde van beveiligingen in Exchange Online Protection (EOP) en hoe de prioriteitswaarde in beveiligingsbeleid bepaalt welk beleid wordt toegepast.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 24d43aeb70e2cdef4bdf65fd3943cdfda9ec3862
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: df40ca6efaed5a1884e6dc453f2053f9bc1a84f1
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52539009"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53029283"
 ---
 # <a name="order-and-precedence-of-email-protection"></a>Volgorde en prioriteit van e-mailbeveiliging
 
@@ -51,8 +51,8 @@ Er zijn twee belangrijke factoren die bepalen welk beleid wordt toegepast op een
   |2|Phishing|CAT:PHSH|[Antispambeleid configureren in EOP](configure-your-spam-filter-policies.md)|
   |3|Hoogstwaarschijnlijk spam|CAT:HSPM|[Antispambeleid configureren in EOP](configure-your-spam-filter-policies.md)|
   |4|Spoofing|CAT:SPOOF|[Inzicht in spoof intelligence in EOP](learn-about-spoof-intelligence.md)|
-  |5<sup>\*</sup>|Gebruikers imitatie (beveiligde gebruikers)|UIMP|[Anti-phishingbeleid configureren in Microsoft Defender voor Office 365](configure-atp-anti-phishing-policies.md)|
-  |6<sup>\*</sup>|Domein-imitatie (beveiligde domeinen)|DIMP|[Anti-phishingbeleid configureren in Microsoft Defender voor Office 365](configure-atp-anti-phishing-policies.md)|
+  |5<sup>\*</sup>|Gebruikers imitatie (beveiligde gebruikers)|UIMP|[Anti-phishingbeleid configureren in Microsoft Defender voor Office 365](configure-mdo-anti-phishing-policies.md)|
+  |6<sup>\*</sup>|Domein-imitatie (beveiligde domeinen)|DIMP|[Anti-phishingbeleid configureren in Microsoft Defender voor Office 365](configure-mdo-anti-phishing-policies.md)|
   |7|Spam|CAT:SPM|[Antispambeleid configureren in EOP](configure-your-spam-filter-policies.md)|
   |8|Bulk|CAT:BULK|[Antispambeleid configureren in EOP](configure-your-spam-filter-policies.md)|
   |

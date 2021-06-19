@@ -19,12 +19,12 @@ ms.collection:
 description: Wat zijn best practices voor Exchange Online Protection (EOP) en Defender voor Office 365 beveiligingsinstellingen? Wat zijn de huidige aanbevelingen voor standaardbeveiliging? Wat moet u gebruiken als u strikter wilt zijn? En welke extra's krijgt u als u Ook Defender gebruikt voor Office 365?
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6c126a777d50fae93efdc618a8ac474dcee7ed75
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 031dd6ffe05c700b65fb56da90a49ed194c17321
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878986"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53029511"
 ---
 # <a name="recommended-settings-for-eop-and-microsoft-defender-for-office-365-security"></a>Aanbevolen instellingen voor EOP en Microsoft Defender voor Office 365 beveiliging
 
@@ -44,7 +44,7 @@ Zie Vooraf ingestelde beveiligingsbeleidsregels [in EOP](preset-security-policie
 > [!NOTE]
 > De regel ongewenste e-mail moet zijn ingeschakeld in postvakken om te kunnen filteren op de juiste manier. Deze functie is standaard ingeschakeld, maar u moet controleren of filteren niet werkt. Zie [Instellingen voor ongewenste e-mail configureren voor Exchange Online-postvakken](configure-junk-email-settings-on-exo-mailboxes.md) voor meer informatie.
 
-In dit artikel worden de standaardinstellingen beschreven, en ook de aanbevolen standaard- en strikte instellingen om uw gebruikers te beschermen. De tabellen bevatten de instellingen in de Microsoft 365 Defender-portal en PowerShell (Exchange Online PowerShell of zelfstandige Exchange Online Protection PowerShell voor organisaties zonder Exchange Online postvakken).
+In dit artikel worden de standaardinstellingen beschreven, en ook de aanbevolen standaard- en strikte instellingen om uw gebruikers te beschermen. De tabellen bevatten de instellingen in de Microsoft 365 Defender portal en PowerShell (Exchange Online PowerShell of zelfstandige Exchange Online Protection PowerShell voor organisaties zonder Exchange Online postvakken).
 
 > [!TIP]
 > De Office 365 Advanced Threat Protection Recommended Configuration Analyzer (ORCA) module voor PowerShell kan u (beheerders) helpen de huidige waarden van deze instellingen te vinden. De **get-ORCAReport-cmdlet** genereert met name een beoordeling van antispam, anti-phishing en andere instellingen voor berichthygiëne. U kunt de ORCA-module downloaden op <https://www.powershellgallery.com/packages/ORCA/> .
@@ -177,11 +177,11 @@ Als uw abonnement Microsoft Defender voor Office 365 bevat of als u Defender voo
 
 ### <a name="anti-phishing-policy-settings-in-microsoft-defender-for-office-365"></a>Anti-phishingbeleidsinstellingen in Microsoft Defender voor Office 365
 
-EOP-klanten krijgen standaard anti-phishing zoals eerder beschreven, maar Microsoft Defender voor Office 365 bevat meer functies en controle om aanvallen te voorkomen, te detecteren en te herstellen. Zie [Anti-phishingbeleid](configure-atp-anti-phishing-policies.md)configureren in Defender voor Office 365.
+EOP-klanten krijgen standaard anti-phishing zoals eerder beschreven, maar Microsoft Defender voor Office 365 bevat meer functies en controle om aanvallen te voorkomen, te detecteren en te herstellen. Zie [Anti-phishingbeleid](configure-mdo-anti-phishing-policies.md)configureren in Defender voor Office 365.
 
 #### <a name="impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Imitatie-instellingen in anti-phishingbeleid in Microsoft Defender voor Office 365
 
-Zie Instellingen voor imitatie in [anti-phishingbeleid in Microsoft Defender](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)voor Office 365. Zie [Anti-phishingbeleid](configure-atp-anti-phishing-policies.md)configureren in Defender voor Office 365.
+Zie Instellingen voor imitatie in [anti-phishingbeleid in Microsoft Defender](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)voor Office 365. Zie [Anti-phishingbeleid](configure-mdo-anti-phishing-policies.md)configureren in Defender voor Office 365.
 
 <br>
 
@@ -221,7 +221,7 @@ Houd er rekening mee dat dit dezelfde instellingen zijn die beschikbaar zijn in 
 
 #### <a name="advanced-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Geavanceerde instellingen in anti-phishingbeleid in Microsoft Defender voor Office 365
 
-Zie Advanced [phishing thresholds in anti-phishing policies in Microsoft Defender](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-anti-phishing-policies-in-microsoft-defender-for-office-365)for Office 365 voor meer informatie over deze instelling. Zie [Anti-phishingbeleid](configure-atp-anti-phishing-policies.md)configureren in Defender voor Office 365.
+Zie Advanced [phishing thresholds in anti-phishing policies in Microsoft Defender](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-anti-phishing-policies-in-microsoft-defender-for-office-365)for Office 365 voor meer informatie over deze instelling. Zie [Anti-phishingbeleid](configure-mdo-anti-phishing-policies.md)configureren in Defender voor Office 365.
 
 <br>
 
@@ -318,7 +318,7 @@ In PowerShell gebruikt u de [cmdlets New-SafeAttachmentPolicy](/powershell/modul
 |**Pas de bovenstaande selectie toe als er malware wordt gescand op bijlagen of als er een fout optreedt.** <p> _ActionOnError_|Aan <p> `$true`|Aan <p> `$true`|Aan <p> `$true`||
 |
 
-## <a name="related-articles"></a>Aanverwante artikelen
+## <a name="related-articles"></a>Verwante artikelen
 
 - Zoekt u best practices voor Exchange regels voor **e-mailstroom (ook** wel transportregels genoemd)? Zie [Best practices for configuring mail flow rules in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/configuration-best-practices).
 

@@ -19,12 +19,12 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: c480bb83465e6057cd1cf29f1f5077f2a0e165e8
-ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
+ms.openlocfilehash: 98ea631536bbfa9e1858f70ae3a0ea9de8743572
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 06/19/2021
-ms.locfileid: "53028821"
+ms.locfileid: "53029775"
 ---
 # <a name="behavioral-blocking-and-containment"></a>Gedragsblokkering en -insluiting
 
@@ -36,9 +36,9 @@ ms.locfileid: "53028821"
 
 ## <a name="overview"></a>Overzicht
 
-Het huidige bedreigingslandschap wordt overlopen door bestandsloze [malware](/windows/security/threat-protection/intelligence/fileless-threats) en die buiten het land leeft, zeer polymorfe bedreigingen die sneller muteren dan traditionele oplossingen, en door mensen beheerde aanvallen die zich aanpassen aan wat tegenstanders vinden op gecompromitteerde apparaten. Traditionele beveiligingsoplossingen zijn niet voldoende om dergelijke aanvallen te stoppen. u hebt kunstmatige intelligentie (AI) en apparaatleren (ML) back-mogelijkheden nodig, zoals gedragsblokkering en insluiting, opgenomen in [Defender voor Eindpunt.](/windows/security) 
+Het huidige bedreigingslandschap wordt overlopen door bestandsloze [malware](/windows/security/threat-protection/intelligence/fileless-threats) en die buiten het land leeft, zeer polymorfe bedreigingen die sneller muteren dan traditionele oplossingen, en door mensen beheerde aanvallen die zich aanpassen aan wat tegenstanders vinden op gecompromitteerde apparaten. Traditionele beveiligingsoplossingen zijn niet voldoende om dergelijke aanvallen te stoppen. u hebt kunstmatige intelligentie (AI) en apparaatleren (ML) back-mogelijkheden nodig, zoals gedragsblokkering en insluiting, opgenomen in [Defender voor Eindpunt.](/windows/security)
 
-Mogelijkheden voor het blokkeren en inperken van gedrag kunnen helpen bij het identificeren en stoppen van bedreigingen, op basis van hun gedrag en procesbomen, zelfs wanneer de bedreiging is gestart met de uitvoering. De volgende generatie beveiliging, EDR en Defender voor endpoint-onderdelen en -functies werken samen in de mogelijkheden voor het blokkeren en inperking van gedrag. 
+Mogelijkheden voor het blokkeren en inperken van gedrag kunnen helpen bij het identificeren en stoppen van bedreigingen, op basis van hun gedrag en procesbomen, zelfs wanneer de bedreiging is gestart met de uitvoering. De volgende generatie beveiliging, EDR en Defender voor endpoint-onderdelen en -functies werken samen in de mogelijkheden voor het blokkeren en inperking van gedrag.
 
 :::image type="content" source="images/mdatp-next-gen-EDR-behavblockcontain.png" alt-text="Gedragsblokkering en -insluiting":::
 
@@ -50,7 +50,7 @@ Functies voor het blokkeren en inperken van gedrag werken met meerdere onderdele
 
 - [Defender for Endpoint](overview-endpoint-detection-response.md) heeft een breed scala aan optiek in identiteiten, e-mail, gegevens en apps, naast de netwerk-, eindpunt- en kernelgedragssignalen die via de EDR. Een onderdeel van [Microsoft 365 Defender](../defender/microsoft-365-defender.md), Defender voor Eindpunt verwerkt en correleert deze signalen, verhoogt detectiewaarschuwingen en verbindt gerelateerde waarschuwingen bij incidenten.
 
-Met deze mogelijkheden kunnen meer bedreigingen worden voorkomen of geblokkeerd, zelfs als ze worden uitgevoerd. Wanneer verdacht gedrag wordt gedetecteerd, is de bedreiging opgenomen, worden waarschuwingen gemaakt en worden bedreigingen op hun sporen gestopt. 
+Met deze mogelijkheden kunnen meer bedreigingen worden voorkomen of geblokkeerd, zelfs als ze worden uitgevoerd. Wanneer verdacht gedrag wordt gedetecteerd, is de bedreiging opgenomen, worden waarschuwingen gemaakt en worden bedreigingen op hun sporen gestopt.
 
 In de volgende afbeelding ziet u een voorbeeld van een waarschuwing die is geactiveerd door mogelijkheden voor het blokkeren en inperking van gedrag:
 
@@ -58,13 +58,13 @@ In de volgende afbeelding ziet u een voorbeeld van een waarschuwing die is geact
 
 ## <a name="components-of-behavioral-blocking-and-containment"></a>Onderdelen van het blokkeren en inperking van gedrag
 
-- **On-client, policy-driven [attack surface reduction rules](attack-surface-reduction.md)** Vooraf gedefinieerde veelvoorkomende aanvalsgedrag kan niet worden uitgevoerd volgens de surface reduction-regels voor uw aanval. Wanneer dergelijke gedragingen worden uitgevoerd, kunnen ze in Microsoft 365 Defender ( ) worden gezien [https://security.microsoft.com](https://security.microsoft.com) als informatiewaarschuwingen. Surface-beperkingsregels voor aanvallen zijn standaard niet ingeschakeld. u configureert uw beleid in de [Microsoft 365 Defender.](microsoft-defender-security-center.md)
+- **On-client, policy-driven [attack surface reduction rules](attack-surface-reduction.md)** Vooraf gedefinieerde veelvoorkomende aanvalsgedrag kan niet worden uitgevoerd volgens de surface reduction-regels voor uw aanval. Wanneer dergelijke gedragingen worden uitgevoerd, kunnen ze in Microsoft 365 Defender worden gezien <https://security.microsoft.com> als informatiewaarschuwingen. Surface-beperkingsregels voor aanvallen zijn standaard niet ingeschakeld. u configureert uw beleid in de [Microsoft 365 Defender.](microsoft-defender-security-center.md)
 
-- **[Clientgedragsblokkering](client-behavioral-blocking.md)** Bedreigingen op eindpunten worden gedetecteerd via machine learning en worden vervolgens automatisch geblokkeerd en gesaneerd. (Clientgedragsblokkering is standaard ingeschakeld.) 
+- **[Clientgedragsblokkering](client-behavioral-blocking.md)** Bedreigingen op eindpunten worden gedetecteerd via machine learning en worden vervolgens automatisch geblokkeerd en gesaneerd. (Clientgedragsblokkering is standaard ingeschakeld.)
 
-- **[Het blokkeren van feedbackluss](feedback-loop-blocking.md)** (ook wel snelle beveiliging genoemd) Detecties van bedreigingen worden waargenomen via gedragsinformatie. Bedreigingen worden gestopt en worden niet uitgevoerd op andere eindpunten. (Het blokkeren van feedbacklussen is standaard ingeschakeld.) 
+- **[Het blokkeren van feedbackluss](feedback-loop-blocking.md)** (ook wel snelle beveiliging genoemd) Detecties van bedreigingen worden waargenomen via gedragsinformatie. Bedreigingen worden gestopt en worden niet uitgevoerd op andere eindpunten. (Het blokkeren van feedbacklussen is standaard ingeschakeld.)
 
-- **[Eindpuntdetectie en -antwoord (EDR) in de blokmodus](edr-in-block-mode.md)** Schadelijke artefacten of gedragingen die worden waargenomen via bescherming na inbreuk, worden geblokkeerd en opgenomen. EDR in de blokmodus werkt zelfs als Microsoft Defender Antivirus niet de primaire antivirusoplossing is. (EDR in de blokmodus is standaard niet ingeschakeld; u zet deze in Microsoft 365 Defender.) 
+- **[Eindpuntdetectie en -antwoord (EDR) in de blokmodus](edr-in-block-mode.md)** Schadelijke artefacten of gedragingen die worden waargenomen via bescherming na inbreuk, worden geblokkeerd en opgenomen. EDR in de blokmodus werkt zelfs als Microsoft Defender Antivirus niet de primaire antivirusoplossing is. (EDR in de blokmodus is standaard niet ingeschakeld; u zet deze in Microsoft 365 Defender.)
 
 Verwacht meer op het gebied van het blokkeren en inperking van gedrag, omdat Microsoft de functies en mogelijkheden voor bedreigingsbeveiliging blijft verbeteren. Als u wilt zien wat er nu wordt gepland en uitgerold, gaat u [naar Microsoft 365 routekaart.](https://www.microsoft.com/microsoft-365/roadmap)
 
@@ -88,12 +88,12 @@ Hieronder vindt u twee praktijkvoorbeelden van het blokkeren en inperking van ge
 
 ### <a name="example-1-credential-theft-attack-against-100-organizations"></a>Voorbeeld 1: Diefstal van referenties tegen 100 organisaties
 
-Zoals wordt beschreven in In hot pursuit of ongrijpbare bedreigingen: door [AI-gestuurde](https://www.microsoft.com/security/blog/2019/10/08/in-hot-pursuit-of-elusive-threats-ai-driven-behavior-based-blocking-stops-attacks-in-their-tracks)blokkering op basis van gedrag worden aanvallen in hun sporen gestopt, werd een aanval op referentiesdiefstal tegen 100 organisaties over de hele wereld gestopt door de mogelijkheden voor het blokkeren en inperken van gedrag. E-mailberichten met een lokmiddel zijn verzonden naar de beoogde organisaties. Als een geadresseerde de bijlage heeft geopend, kon een gerelateerd extern document code uitvoeren op het apparaat van de gebruiker en Lokibot-malware laden, waardoor referenties werden gestolen, gestolen gegevens werden geëfiltreerd en werd gewacht op verdere instructies van een command-and-control-server. 
+Zoals wordt beschreven in In hot pursuit of ongrijpbare bedreigingen: door [AI-gestuurde](https://www.microsoft.com/security/blog/2019/10/08/in-hot-pursuit-of-elusive-threats-ai-driven-behavior-based-blocking-stops-attacks-in-their-tracks)blokkering op basis van gedrag worden aanvallen in hun sporen gestopt, werd een aanval op referentiesdiefstal tegen 100 organisaties over de hele wereld gestopt door de mogelijkheden voor het blokkeren en inperken van gedrag. E-mailberichten met een lokmiddel zijn verzonden naar de beoogde organisaties. Als een geadresseerde de bijlage heeft geopend, kon een gerelateerd extern document code uitvoeren op het apparaat van de gebruiker en Lokibot-malware laden, waardoor referenties werden gestolen, gestolen gegevens werden geëfiltreerd en werd gewacht op verdere instructies van een command-and-control-server.
 
 Op gedrag gebaseerde apparaatlerende modellen in Defender voor Eindpunt zijn op twee punten in de aanvalsketen vastgelegd en gestopt:
 
 - De eerste beveiligingslaag heeft het gedrag van de exploit gedetecteerd. Leerclassifiers voor apparaten in de cloud hebben de bedreiging correct geïdentificeerd als en hebben het clientapparaat onmiddellijk geïnstrueerd de aanval te blokkeren.
-- De tweede beveiligingslaag, waarmee de gevallen van de aanval voorbij de eerste laag werden gestopt, procesverholding werd gedetecteerd, dat proces werd gestopt en de bijbehorende bestanden (zoals Lokibot) werden verwijderd. 
+- De tweede beveiligingslaag, waarmee de gevallen van de aanval voorbij de eerste laag werden gestopt, procesverholding werd gedetecteerd, dat proces werd gestopt en de bijbehorende bestanden (zoals Lokibot) werden verwijderd.
 
 Terwijl de aanval werd gedetecteerd en gestopt, werden waarschuwingen, zoals een 'eerste toegangsmelding', geactiveerd en verschenen in de [Microsoft 365 Defender-portal](microsoft-defender-security-center.md) (voorheen de Microsoft Defender-beveiligingscentrum):
 
@@ -107,15 +107,15 @@ Zoals in het recente blogbericht wordt beschreven, heeft Defender voor Eindpunt 
 
 :::image type="content" source="images/NTLMalertjuicypotato.png" alt-text="NTLM-waarschuwing voor malware met de naam Juicy Potato":::
 
-De bedreiging bleek malware te zijn. het was een nieuwe, niet-gezien-vóór variant van een berucht hackingprogramma genaamd Juicy Potato, dat door aanvallers wordt gebruikt om privilege escalatie op een apparaat te krijgen. 
+De bedreiging bleek malware te zijn. het was een nieuwe, niet-gezien-vóór variant van een berucht hackingprogramma genaamd Juicy Potato, dat door aanvallers wordt gebruikt om privilege escalatie op een apparaat te krijgen.
 
 Minuten nadat de waarschuwing is geactiveerd, is het bestand geanalyseerd en bevestigd dat het schadelijk is. Het proces is gestopt en geblokkeerd, zoals wordt weergegeven in de volgende afbeelding:
 
 :::image type="content" source="images/Artifactblockedjuicypotato.png" alt-text="Artefact geblokkeerd":::
 
-Enkele minuten nadat het artefact was geblokkeerd, werden meerdere exemplaren van hetzelfde bestand geblokkeerd op hetzelfde apparaat, waardoor extra aanvallers of andere malware niet op het apparaat konden worden geïmplementeerd. 
+Enkele minuten nadat het artefact was geblokkeerd, werden meerdere exemplaren van hetzelfde bestand geblokkeerd op hetzelfde apparaat, waardoor extra aanvallers of andere malware niet op het apparaat konden worden geïmplementeerd.
 
-In dit voorbeeld ziet u dat met mogelijkheden voor het blokkeren en inperking van gedrag, bedreigingen automatisch worden gedetecteerd, opgenomen en geblokkeerd. 
+In dit voorbeeld ziet u dat met mogelijkheden voor het blokkeren en inperking van gedrag, bedreigingen automatisch worden gedetecteerd, opgenomen en geblokkeerd.
 
 ## <a name="next-steps"></a>Volgende stappen
 

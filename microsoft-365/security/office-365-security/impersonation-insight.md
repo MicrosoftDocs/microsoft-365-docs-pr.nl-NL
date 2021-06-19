@@ -19,12 +19,12 @@ description: Beheerders kunnen leren hoe het nabootsingsinzicht werkt. Ze kunnen
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b6aab20cc9050152b7ba9f86baed887969ad4da0
-ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
+ms.openlocfilehash: 53baecd100851eb5ab05fe79751961baef3acd5c
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 06/19/2021
-ms.locfileid: "53029013"
+ms.locfileid: "53029667"
 ---
 # <a name="impersonation-insight-in-defender-for-office-365"></a>Inzicht in imitatie in Defender voor Office 365
 
@@ -53,7 +53,6 @@ U kunt het inzicht in imitatie in de Microsoft 365 Defender portal gebruiken om 
 - U opent de Microsoft 365 Defender-portal bij <https://security.microsoft.com>. Als u rechtstreeks naar het inzicht voor imitatie op de **pagina Anti-phishing** wilt gaan, gebruikt u <https://security.microsoft.com/antiphishing> . Als u rechtstreeks naar de **pagina Imitatieinzicht wilt** gaan, gebruikt u <https://security.microsoft.com/impersonationinsight> .
 
 - U moet machtigingen krijgen toegewezen in de Microsoft 365 Defender portal voordat u de procedures in dit artikel kunt uitvoeren:
-
   - **Organisatiebeheer**
   - **Beveiligingsbeheerder**
   - **Beveiligingslezer**
@@ -63,7 +62,7 @@ U kunt het inzicht in imitatie in de Microsoft 365 Defender portal gebruiken om 
 
   **Opmerking:** Gebruikers toevoegen aan de bijbehorende Azure Active Directory rol in de Microsoft 365-beheercentrum geeft gebruikers de vereiste machtigingen in de _Microsoft 365 Defender-portal_ en machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
 
-- U kunt imitatiebeveiliging inschakelen en configureren in anti-phishingbeleid in Microsoft Defender voor Office 365. Imitatiebeveiliging is standaard niet ingeschakeld. Zie [Anti-phishingbeleid configureren in Microsoft Defender](configure-atp-anti-phishing-policies.md)voor Office 365.
+- U kunt imitatiebeveiliging inschakelen en configureren in anti-phishingbeleid in Microsoft Defender voor Office 365. Imitatiebeveiliging is standaard niet ingeschakeld. Zie [Anti-phishingbeleid configureren in Microsoft Defender](configure-mdo-anti-phishing-policies.md)voor Office 365.
 
 ## <a name="open-the-impersonation-insight-in-the-microsoft-365-defender-portal"></a>Het inzicht in imitatie openen in de Microsoft 365 Defender portal
 

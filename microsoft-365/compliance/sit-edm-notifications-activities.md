@@ -1,5 +1,5 @@
 ---
-title: Meldingen maken voor activiteiten met exacte gegevensovereenkomst (preview)
+title: Meldingen maken voor activiteiten met exacte gegevensovereenkomst
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -17,14 +17,14 @@ search.appverid:
 - MET150
 description: Leer hoe u meldingen maakt voor activiteiten met exacte gegevensovereenkomst.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2e2f67ef0f276211483519bd5e246e4e041b2b15
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 15aa8f2bda76d56d3e35af8e884193193bb78d40
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "52161965"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007559"
 ---
-# <a name="create-notifications-for-exact-data-match-activities-preview"></a>Meldingen maken voor activiteiten met exacte gegevensovereenkomst (preview)
+# <a name="create-notifications-for-exact-data-match-activities"></a>Meldingen maken voor activiteiten met exacte gegevensovereenkomst
 
 Wanneer u [aangepaste typen gevoelige informatie maakt met exacte gegevensovereenkomst (EDM)](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md), zijn er een aantal activiteiten die in het [auditlogboek](search-the-audit-log-in-security-and-compliance.md#requirements-to-search-the-audit-log) worden gemaakt. U kunt de PowerShell-cmdlet [New-ProtectionAlert](/powershell/module/exchange/new-protectionalert?view=exchange-ps) gebruiken om meldingen te maken die u laten weten wanneer deze activiteiten plaatsvinden:
 
@@ -33,9 +33,6 @@ Wanneer u [aangepaste typen gevoelige informatie maakt met exacte gegevensoveree
 - RemoveSchema
 - UploadDataFailed
 - UploadDataCompleted
-
-> [!NOTE]
-> De mogelijkheid om meldingen voor EDM-activiteiten te maken, is alleen beschikbaar voor de wereldwijde en GCC-cloud.
 
 ## <a name="pre-requisites"></a>Vereisten
 

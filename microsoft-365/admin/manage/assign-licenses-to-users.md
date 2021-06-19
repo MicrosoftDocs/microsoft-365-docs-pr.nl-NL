@@ -23,12 +23,12 @@ ms.custom:
 search.appverid: MET150
 description: Wijs licenties toe afhankelijk van of u productlicenties wilt toewijzen aan specifieke gebruikers of gebruikerslicenties wilt toewijzen aan een specifiek product.
 ms.date: 04/26/2021
-ms.openlocfilehash: 707c1c952aa737f0aa91d886e9fa304eabe26321
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: c8e5c6a648f08aaba97fe05e19a5cfa0cada2174
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537533"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007007"
 ---
 # <a name="assign-licenses-to-users"></a>Licenties aan gebruikers toewijzen
 
@@ -129,11 +129,12 @@ Wanneer u de pagina **Actieve gebruikers** gebruikt om licenties toe te wijzen, 
 
 
 2. Selecteer de cirkels naast de namen van de gebruikers aan wie u licenties wilt toewijzen.
-3. Selecteer bovenaan de drie puntjes (meer opties) en selecteer vervolgens **Productlicenties beheren**.
-4. Selecteer in het deelvenster **Productlicenties beheren** **Toevoegen aan bestaande productlicentietoewijzingen** \> **Volgende**.
-5. Zet de wisselknop in het deelvenster **Toevoegen aan bestaande producten** op **Aan** voor de licentie die u wilt toewijzen aan de geselecteerde gebruikers.\
-    De standaardinstelling is dat alle services die zijn gekoppeld aan die licenties, automatisch worden toegewezen aan de gebruikers. U kunt beperken welke services beschikbaar zijn voor de gebruikers. Zet de wisselknoppen op **Uit** voor de services waarvan de gebruikers geen gebruik mogen maken.
-6. Selecteer onderaan het deelvenster **Toevoegen** \> **Sluiten**.  
+3. Selecteer bovenaan de optie **Productlicenties beheren**.
+4. Selecteer in het deelvenster **Productlicenties beheren** de optie **Meer toewijzen: De bestaande licenties behouden en meer toewijzen** \> **Volgende**.
+5. Schakel onder **Licenties** het selectievakje in voor de licenties die u beschikbaar wilt stellen voor de geselecteerde gebruikers.\
+    De standaardinstelling is dat alle services die zijn gekoppeld aan die licenties, automatisch worden toegewezen aan de gebruikers. Als u wilt beperken welke services beschikbaar zijn voor de gebruikers, schakelt u de selectievakjes uit voor de services die u niet beschikbaar wilt maken voor de gebruikers.
+6. Selecteer onderaan het deelvenster de optie **Wijzigingen opslaan**.  
+    Mogelijk moet u extra licenties kopen als u niet genoeg licenties voor iedereen hebt.
 
 
 > [!NOTE]

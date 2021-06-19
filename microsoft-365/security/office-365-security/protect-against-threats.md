@@ -20,12 +20,12 @@ description: Beheerders kunnen informatie krijgen over bedreigingsbeveiliging in
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5d61b17fc4575249bb592fc4ca865c34a628361a
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 407838c815a85ce7c73322a0de176970ee93e537
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878326"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53029607"
 ---
 # <a name="protect-against-threats"></a>Beveiligen tegen bedreigingen
 
@@ -139,11 +139,12 @@ In de volgende procedure wordt beschreven hoe u het standaard anti-phishingbelei
        - **Als postvakinformatie een** nagebootste gebruiker detecteert: Selecteer Bericht verplaatsen naar de mappen Ongewenste e-mail van de geadresseerden (Standaard) of Het bericht in quarantaine plaatsen <sup>\*</sup> (Strikt).  
        - **Als bericht wordt gedetecteerd als spoof:** Selecteer **Bericht verplaatsen** naar de mappen ongewenste e-mail van de geadresseerden (Standaard) of **Het** bericht in quarantaine plaatsen (Strikt).
      - **Veiligheidstips & de sectie** Indicatoren: De volgende instellingen configureren:
+       - **Eerste contactpersoon veiligheidstip**: Selecteren (in- of uit).
        - **Gebruikers imiteren veiligheidstip** <sup>\*</sup> : Selecteren (in- of uit).
        - **Domein-imitatie veiligheidstip** <sup>\*</sup> : Selecteren (in- of uit).
        - **Ongebruikelijke tekens voor gebruikers imiteren veiligheidstip** <sup>\*</sup> : Selecteren (in- of uit).
        - **Show (?) for unauthenticated senders for spoof**: Select (turn on).
-       - **Tag 'via' laten** zien: Selecteer (in) als deze instelling beschikbaar is.
+       - **Tag 'via' laten zien:** Selecteren (in- of uit).
 
      Klik op **Opslaan** wanneer u gereed bent.
 
@@ -151,7 +152,7 @@ In de volgende procedure wordt beschreven hoe u het standaard anti-phishingbelei
 
 4. Klik **op Opslaan** en klik vervolgens op **Sluiten**
 
-Zie [Anti-phishingbeleid configureren in EOP](configure-anti-phishing-policies-eop.md) en [Anti-phishingbeleid configureren in Microsoft Defender](configure-atp-anti-phishing-policies.md)voor meer informatie over het configureren van anti-phishingbeleid Office 365.
+Zie [Anti-phishingbeleid configureren in EOP](configure-anti-phishing-policies-eop.md) en [Anti-phishingbeleid configureren in Microsoft Defender](configure-mdo-anti-phishing-policies.md)voor meer informatie over het configureren van anti-phishingbeleid Office 365.
 
 ## <a name="part-3---anti-spam-protection-in-eop"></a>Deel 3 - Bescherming tegen spam in EOP
 
@@ -278,7 +279,7 @@ Zie Activiteitswaarschuwingen maken in het beveiligings- & [compliancecentrum vo
 > Wanneer u klaar bent met configureren, gebruikt u deze koppelingen om werkbelastingsonderzoeken te starten:
 >
 >- [Statusrapport bedreigingsbeveiliging](view-email-security-reports.md#threat-protection-status-report)
->- [Gebruik de Microsoft 365 Defender-portal om in quarantaine geplaatste bestanden in Defender te beheren voor Office 365](manage-quarantined-messages-and-files.md#use-the-microsoft-365-defender-portal-to-manage-quarantined-files-in-defender-for-office-365)
+>- [Gebruik de Microsoft 365 Defender portal voor het beheren van in quarantaine geplaatste bestanden in Defender voor Office 365](manage-quarantined-messages-and-files.md#use-the-microsoft-365-defender-portal-to-manage-quarantined-files-in-defender-for-office-365)
 >- [Wat moet u doen als er een schadelijk bestand wordt gevonden in SharePoint Online, OneDrive of Microsoft Teams](https://support.microsoft.com/office/01e902ad-a903-4e0f-b093-1e1ac0c37ad2)
 >- [In quarantaine geplaatste berichten en bestanden beheren als beheerder in Microsoft 365](manage-quarantined-messages-and-files.md)
 

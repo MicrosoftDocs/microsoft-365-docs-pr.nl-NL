@@ -19,12 +19,12 @@ description: Beheerders kunnen leren hoe ze de e-mailbeveiligingsrapporten kunne
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f3dcf533c232a89adf0dc1ff3fcc7c2ca4fc5d8f
-ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
+ms.openlocfilehash: ad5a9f0d87902deb1985daebfa61cd733d22cbec
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 06/19/2021
-ms.locfileid: "53022911"
+ms.locfileid: "53029545"
 ---
 # <a name="view-email-security-reports-in-the-microsoft-365-defender-portal"></a>E-mailbeveiligingsrapporten weergeven in de Microsoft 365 Defender-portal
 
@@ -157,7 +157,9 @@ Als u het rapport wilt bekijken in de  Microsoft 365 Defender-portal, gaat u naa
 
 ### <a name="type-view-for-the-mailflow-status-report"></a>Typweergave voor het rapport Mailflow-status
 
-Wanneer u het rapport opent, is **het tabblad Type** standaard geselecteerd. Deze weergave bevat standaard een grafiek en een detailtabel die is geconfigureerd met de volgende filters:
+![Weergave typen in het rapport Mailflow-status](../../media/mail-flow-status-report-type-view.png)
+
+Op de **pagina Mailflow-statusrapport** is het **tabblad Type** standaard geselecteerd. Deze weergave bevat standaard een grafiek en een detailtabel die is geconfigureerd met de volgende filters:
 
 - **Datum (UTC)** De afgelopen 7 dagen.
 - **E-mailrichting**:
@@ -175,7 +177,7 @@ Wanneer u het rapport opent, is **het tabblad Type** standaard geselecteerd. Dez
 
 De grafiek wordt ingedeeld op basis van **de waarden Type.**
 
-U kunt deze filters wijzigen door op **Filter te klikken of** door te klikken op een waarde in de grafieklegenda.
+U kunt deze filters wijzigen door op Filter te **klikken.**
 
 De volgende informatie wordt weergegeven in de detailtabel onder de grafiek:
 
@@ -200,9 +202,9 @@ Voor de detailweergave kunt u slechts één dag gegevens exporteren. Dus als u g
 
 Elk geëxporteerd .csv bestand is beperkt tot 150.000 rijen. Als de gegevens voor die dag meer dan 150.000 rijen bevatten, worden meerdere .csv gemaakt.
 
-![Weergave typen in het rapport Mailflow-status](../../media/mail-flow-status-report-type-view.png)
-
 ### <a name="direction-view-for-the-mailflow-status-report"></a>Richtingsweergave voor het rapport Mailflow-status
+
+![Richtingsweergave in het rapport Mailflow-status](../../media/mail-flow-status-report-direction-view.png)
 
 Als u op het tabblad **Richting** klikt, worden dezelfde standaardfilters uit de **weergave Type** gebruikt.
 
@@ -220,11 +222,11 @@ Voor de detailweergave kunt u slechts één dag gegevens exporteren. Dus als u g
 
 Elk geëxporteerd .csv bestand is beperkt tot 150.000 rijen. Als de gegevens voor die dag meer dan 150.000 rijen bevatten, worden meerdere .csv gemaakt.
 
-![Richtingsweergave in het rapport Mailflow-status](../../media/mail-flow-status-report-direction-view.png)
-
 ### <a name="funnel-view-for-the-mailflow-status-report"></a>Trechterweergave voor het rapport Mailflow-status
 
 In **de trechterweergave** ziet u hoe de beveiligingsfuncties voor e-mail van Microsoft inkomende en uitgaande e-mail in uw organisatie filteren. Het bevat informatie over het totale aantal e-mailberichten en hoe de geconfigureerde beveiligingsfuncties voor bedreigingen, zoals randbeveiliging, anti-malware, anti-phishing, antispam en anti-spoofing van invloed zijn op dit aantal.
+
+![Trechterweergave in het rapport Mailflow-status](../../media/mail-flow-status-report-funnel-view.png)
 
 Als u op **het** tabblad Trechter klikt, bevat deze weergave standaard een grafiek en een detailtabel die is geconfigureerd met de volgende filters:
 
@@ -289,8 +291,6 @@ Nadat u onder **Opties op Exporteren** hebt geklikt, kunt u een van de volgende 
 Kies **onder Datum** een bereik en klik vervolgens op **Toepassen.** Gegevens voor de huidige filters worden geëxporteerd naar een .csv bestand.
 
 Elk geëxporteerd .csv bestand is beperkt tot 150.000 rijen. Als de gegevens meer dan 150.000 rijen bevatten, worden meerdere .csv gemaakt.
-
-![Trechterweergave in het rapport Mailflow-status](../../media/mail-flow-status-report-funnel-view.png)
 
 ### <a name="tech-view-for-the-mailflow-status-report"></a>Technische weergave voor het mailflowstatusrapport
 
@@ -460,14 +460,23 @@ In de grafiek ziet u de volgende informatie:
 Op de **pagina Inzendingen** kunt u zowel de grafiek als de detailtabel filteren door op **Filter** te klikken en een of meer van de volgende waarden te selecteren:
 
 - **Datum gerapporteerd:** **Begintijd** en **eindtijd**
-- **Inzendingstype:** **E-mail,** **URL** of **Bestand**
+- **Inzendingstype**:
+  - **E-mail**
+  - **URL**
+  - **Bestand**
 - **Inzending-id**
 - **Netwerkbericht-id**
 - **Afzender**
 - **Naam**
 - **Ingediend door**
-- **Reden voor het indienen** van : **Geen ongewenste** e-mail, **Phish,** **Malware** of **Spam**
-- **Status opnieuw scannen:** **In behandeling** of **voltooid**
+- **Reden voor het indienen** van :
+  - **Geen ongewenste e-mail**
+  - **Phishing**
+  - **Malware**
+  - **Spam**
+- **Status opnieuw scannen:**
+  - **In behandeling**
+  - **Voltooid**
 
 De detailtabel onder de grafiek bevat dezelfde  informatie en heeft  dezelfde opties voor groepen of kolommen aanpassen als op het tabblad Ingediend voor analyse op  **E-mail &** \> **samenwerkingsinzendingen.** Zie Beheerdersinzendingen [weergeven bij Microsoft voor meer informatie.](admin-submission.md#view-admin-submissions-to-microsoft)
 
@@ -772,7 +781,7 @@ Als u op **Filter klikt,** kunt u een datumbereik opgeven met **Begindatum** en 
 
 ## <a name="url-threat-protection-report"></a>URL-bedreigingsbeveiligingsrapport
 
-Het **rapport URL-bedreigingsbeveiliging** is beschikbaar in Microsoft Defender voor Office 365. Zie het rapport [URL-bedreigingsbeveiliging voor meer informatie.](view-reports-for-mdo.md#url-threat-protection-report)
+Het **rapport URL-bedreigingsbeveiliging** is alleen beschikbaar in Microsoft Defender voor Office 365. Zie het rapport [URL-bedreigingsbeveiliging voor meer informatie.](view-reports-for-mdo.md#url-threat-protection-report)
 
 ## <a name="user-reported-messages-report"></a>Rapport met gerapporteerde berichten van gebruiker
 

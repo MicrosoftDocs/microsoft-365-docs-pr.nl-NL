@@ -20,12 +20,12 @@ ms.custom:
 description: Beheerders kunnen meer informatie krijgen over het inzicht in spoof intelligence in Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 94dc1e438f913c1103154afb8803ef4cf89f64af
-ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
+ms.openlocfilehash: 08b9586edf565c4f69c51f732511d3a0956ae500
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 06/19/2021
-ms.locfileid: "53028809"
+ms.locfileid: "53029247"
 ---
 # <a name="spoof-intelligence-insight-in-eop"></a>Inzicht in spoof intelligence in EOP
 
@@ -53,16 +53,13 @@ Wanneer een afzender een e-mailadres vervalst, lijkt deze een gebruiker te zijn 
   - De afzender staat op een adressenlijst (ook wel een discussielijst genoemd) en de adressenlijst geeft e-mail door van de oorspronkelijke afzender naar alle deelnemers op de adressenlijst.
   - Een extern bedrijf verzendt e-mail namens een ander bedrijf (bijvoorbeeld een geautomatiseerd rapport of een software-as-a-servicebedrijf).
 
-
 U kunt het inzicht in spoof intelligence **in** de Microsoft 365 Defender-portal gebruiken om snel vervalste afzenders te identificeren die u legitiem niet-genauteerde e-mail verzenden (berichten van domeinen die niet door SPF-, DKIM- of DMARC-controles worden verzonden) en deze afzenders handmatig toestaan.
-
 
 Door bekende afzenders toe te staan vervalste berichten te verzenden vanaf bekende locaties, kunt u fout-positieven verminderen (goede e-mail die als slecht is gemarkeerd). Door de toegestane vervalste afzenders te controleren, biedt u een extra beveiligingslaag om te voorkomen dat onveilige berichten in uw organisatie aankomen.
 
 U kunt ook vervalste afzenders controleren die door spoofinformatie zijn toegestaan en deze afzenders handmatig blokkeren van het inzicht in spoof intelligence.
 
 In de rest van dit artikel wordt uitgelegd hoe u het inzicht in spoof intelligence kunt gebruiken in de Microsoft 365 Defender-portal en in PowerShell (Exchange Online PowerShell voor Microsoft 365-organisaties met postvakken in Exchange Online; zelfstandige EOP PowerShell voor organisaties zonder Exchange Online-postvakken).
-
 
 > [!NOTE]
 >
@@ -89,7 +86,7 @@ In de rest van dit artikel wordt uitgelegd hoe u het inzicht in spoof intelligen
   - Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen _en_ machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
   - De functiegroep **Alleen-lezen organisatiebeheer** in [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) geeft ook alleen-lezentoegang tot deze functie.
 
-- U schakelt spoofinformatie in en uit in anti-phishingbeleid in EOP en Microsoft Defender voor Office 365. Spoofinformatie is standaard ingeschakeld. Zie [Anti-phishingbeleid configureren in EOP](configure-anti-phishing-policies-eop.md) of [Anti-phishingbeleid configureren in Microsoft Defender](configure-atp-anti-phishing-policies.md)voor Office 365.
+- U schakelt spoofinformatie in en uit in anti-phishingbeleid in EOP en Microsoft Defender voor Office 365. Spoofinformatie is standaard ingeschakeld. Zie [Anti-phishingbeleid configureren in EOP](configure-anti-phishing-policies-eop.md) of [Anti-phishingbeleid configureren in Microsoft Defender](configure-mdo-anti-phishing-policies.md)voor Office 365.
 
 - Zie [EOP anti-phishingbeleidsinstellingen](recommended-settings-for-eop-and-office365-atp.md#eop-anti-phishing-policy-settings)voor onze aanbevolen instellingen voor spoofinformatie.
 
@@ -126,7 +123,7 @@ Op de **pagina Inzicht in** spoof intelligence die wordt weergegeven nadat u op 
   - **Extern:** De vervalste afzender is een extern domein.
 - **Actie:** Deze waarde is **toegestaan** **of geblokkeerd:**
   - **Toegestaan:** Het domein is mislukt expliciete e-mailverificatie [controleert SPF,](how-office-365-uses-spf-to-prevent-spoofing.md) [DKIM](use-dkim-to-validate-outbound-email.md)en [DMARC](use-dmarc-to-validate-email.md)). Het domein is echter geslaagd voor onze impliciete e-mailverificatiecontroles[(samengestelde verificatie).](email-validation-and-authentication.md#composite-authentication) Hierdoor is er geen anti-spoofing actie ondernomen op het bericht.
-  - **Geblokkeerd:** Berichten uit de combinatie van het vervalste domein en de _verzendende_ infrastructuur worden als slecht gemarkeerd door spoofinformatie. De actie die wordt ondernomen op de vervalste berichten, wordt bepaald door het standaard anti-phishingbeleid of het aangepaste anti-phishingbeleid (de standaardwaarde is Bericht verplaatsen naar map **Ongewenste e-mail).** Zie [Anti-phishingbeleid configureren in Microsoft Defender](configure-atp-anti-phishing-policies.md)voor Office 365.
+  - **Geblokkeerd:** Berichten uit de combinatie van het vervalste domein en de _verzendende_ infrastructuur worden als slecht gemarkeerd door spoofinformatie. De actie die wordt ondernomen op de vervalste berichten, wordt bepaald door het standaard anti-phishingbeleid of het aangepaste anti-phishingbeleid (de standaardwaarde is Bericht verplaatsen naar map **Ongewenste e-mail).** Zie [Anti-phishingbeleid configureren in Microsoft Defender](configure-mdo-anti-phishing-policies.md)voor Office 365.
 
 U kunt op geselecteerde kolomkoppen klikken om de resultaten te sorteren.
 

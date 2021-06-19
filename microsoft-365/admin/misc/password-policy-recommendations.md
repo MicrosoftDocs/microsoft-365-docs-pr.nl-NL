@@ -21,16 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: 9fa2539a-2211-41fd-85a0-bc37b9619ca4
 description: Beveilig uw organisatie en tegen wachtwoordaanvallen en verbied veelgebruikte wachtwoorden en schakel op risico gebaseerde meervoudige verificatie in.
-ms.openlocfilehash: f42905c6bf7769e558581338fd122f26d530423e
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: f580ed957b8231bc68c5f21ea9af990808478382
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635972"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53006923"
 ---
 # <a name="password-policy-recommendations"></a>Aanbevelingen voor wachtwoordbeleid
 
-Als beheerder van een organisatie bent u verantwoordelijk voor het instellen van wachtwoordbeleid voor gebruikers in uw organisatie. Aangezien dit ingewikkeld en verwarrend kan zijn, biedt dit artikel aanbevelingen om uw organisatie beter te beschermen tegen wachtwoordaanvallen.
+Als beheerder van een organisatie bent u verantwoordelijk voor het instellen van het wachtwoordbeleid voor gebruikers in uw organisatie. Aangezien dit ingewikkeld en verwarrend kan zijn, biedt dit artikel aanbevelingen om uw organisatie beter te beschermen tegen wachtwoordaanvallen.
   
 Zie [Een wachtwoordverloopbeleid instellen voor Microsoft 365](../manage/set-password-expiration-policy.md) om te bepalen hoe vaak Microsoft 365-wachtwoorden moeten verlopen in uw organisatie.
 
@@ -112,7 +112,7 @@ Hier volgen enkele aanbevelingen voor het aanmoedigen van wachtwoorddiversiteit.
   
 ### <a name="ban-common-passwords"></a>Verbied algemene wachtwoorden
 
-De belangrijkste wachtwoordvereiste die u uw gebruikers moet opleggen wanneer ze wachtwoorden bedenken, is het gebruik van algemene wachtwoorden te verbieden om uw organisatie zo min mogelijk bloot te stellen aan beveiligingsaanvallen via wachtwoorden. Algemene gebruikerswachtwoorden zijn onder meer **abcdefg**, **wachtwoord** en **aap**.
+De belangrijkste wachtwoordvereiste die u uw gebruikers moet opleggen wanneer ze wachtwoorden bedenken, is het gebruik van algemene wachtwoorden te verbieden om uw organisatie zo min mogelijk bloot te stellen aan beveiligingsaanvallen via wachtwoorden. Algemene gebruikerswachtwoorden zijn onder meer: **abcdefg**, **wachtwoord** en **aap**.
   
 ### <a name="educate-users-to-not-re-use-organization-passwords-anywhere-else"></a>Vertel gebruikers organisatiewachtwoorden nergens anders te hergebruiken
 
@@ -131,6 +131,8 @@ Risicogebaseerde meervoudige verificatie verzekert dat wanneer ons systeem verda
 ## <a name="next-steps"></a>Volgende stappen
 
 Wilt u meer weten over het beheren van wachtwoorden? Hier volgen enkele aanbevolen artikelen:
+
+- [Richtlijnen voor Microsoft-wachtwoorden](https://www.microsoft.com/research/wp-content/uploads/2016/06/Microsoft_Password_Guidance-1.pdf)
 
 - [Do Strong Web Passwords Accomplish Anything?](https://go.microsoft.com/fwlink/p/?linkid=861008)
 

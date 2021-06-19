@@ -1,5 +1,5 @@
 ---
-title: Schadelijke e-mail onderzoeken die is bezorgd in Office 365, Schadelijke e-mail zoeken en onderzoeken
+title: Schadelijke e-mail onderzoeken die is bezorgd in Microsoft 365, Schadelijke e-mail zoeken en onderzoeken
 keywords: TIMailData-Inline, Beveiligingsincident, incident, Microsoft Defender voor Eindpunt PowerShell, e-mail malware, gecompromitteerde gebruikers, e-mail phish, e-mail malware, lees e-mailkoppen, leeskoppen, open e-mailkoppen, speciale acties
 f1.keywords:
 - NOCSH
@@ -20,18 +20,18 @@ description: Meer informatie over het gebruik van mogelijkheden voor het onderzo
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ef29493bd68166b88bba3ef5905f0427823b4015
-ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
+ms.openlocfilehash: e99cda906e97db72a440c3daf509a767181e5342
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 06/19/2021
-ms.locfileid: "53028847"
+ms.locfileid: "53029789"
 ---
-# <a name="investigate-malicious-email-that-was-delivered-in-office-365"></a>Onderzoek naar schadelijke e-mail die is bezorgd in Office 365
+# <a name="investigate-malicious-email-that-was-delivered-in-microsoft-365"></a>Schadelijke e-mail onderzoeken die is bezorgd in Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-**Van toepassing op**
+**Van toepassing op:**
 
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
@@ -47,45 +47,48 @@ Zorg ervoor dat aan de volgende vereisten wordt voldaan:
 
 - Uw organisatie heeft [Microsoft Defender voor Office 365](defender-for-office-365.md) en licenties worden toegewezen aan [gebruikers.](../../admin/manage/assign-licenses-to-users.md)
 
-- [auditregistratie](../../compliance/turn-audit-log-search-on-or-off.md) is ingeschakeld voor uw organisatie.
+- [Auditregistratie](../../compliance/turn-audit-log-search-on-or-off.md) is ingeschakeld voor uw organisatie.
 
 - Uw organisatie heeft beleidsregels gedefinieerd voor antispam, anti-malware, anti-phishing, en meer. Zie [Beschermen tegen bedreigingen in Office 365.](protect-against-threats.md)
 
-- U bent een globale beheerder of u hebt de beveiligingsbeheerder of de rol Zoeken en Microsoft 365 Defender. Zie [Machtigingen in de Microsoft 365 Defender.](permissions-in-the-security-and-compliance-center.md) Voor sommige acties moet er ook een nieuwe voorbeeldrol zijn toegewezen.
+- U bent een globale beheerder of u hebt de beveiligingsbeheerder of de rol Zoeken en zuiveren toegewezen in de Microsoft 365 Defender portal. Zie Machtigingen in de Microsoft 365 Defender [portal voor meer informatie.](permissions-microsoft-365-security-center.md) Voor sommige acties moet ook de voorbeeldrol zijn toegewezen.
 
 ### <a name="preview-role-permissions"></a>Voorbeeld van rolmachtigingen
 
-Als u bepaalde acties wilt uitvoeren, zoals het weergeven van berichtkoppen of het downloaden van e-mailberichtinhoud, moet u een nieuwe rol met de naam *Voorbeeld* toevoegen aan een andere geschikte rollengroep. In de volgende tabel worden vereiste rollen en machtigingen opgehelderd.
+Als u bepaalde acties wilt uitvoeren, zoals het weergeven van berichtkoppen of het downloaden van e-mailberichtinhoud, moet u de voorbeeldrol toevoegen aan een andere geschikte rollengroep.  In de volgende tabel worden vereiste rollen en machtigingen opgehelderd.
+
+<br>
 
 ****
 
 |Activiteit|Rollengroep|Voorbeeldrol nodig?|
 |---|---|---|
-|Threat Explorer (en realtime detecties) gebruiken om bedreigingen te analyseren |Globale beheerder <p> Beveiligingsbeheerder <p> Beveiligingslezer|Nee|
-|Threat Explorer (en realtime detecties) gebruiken om kopteksten voor e-mailberichten weer te geven en om in quarantaine geplaatste e-mailberichten te bekijken en te downloaden|Globale beheerder <p> Beveiligingsbeheerder <p> Beveiligingslezer|Nee|
+|Threat Explorer (en realtimedetecties) gebruiken om bedreigingen te analyseren |Globale beheerder <p> Beveiligingsbeheerder <p> Beveiligingslezer|Nee|
+|Bedreigingsverkenner (en realtimedetecties) gebruiken om kopteksten voor e-mailberichten weer te geven en om in quarantaine geplaatste e-mailberichten te bekijken en te downloaden|Globale beheerder <p> Beveiligingsbeheerder <p> Beveiligingslezer|Nee|
 |Threat Explorer gebruiken om kopteksten weer te geven, een voorbeeld van e-mail weer te geven (alleen op de pagina met e-mailentiteit) en e-mailberichten te downloaden die in postvakken zijn bezorgd|Globale beheerder <p> Beveiligingsbeheerder <p> Beveiligingslezer <p> Voorbeeld|Ja|
 |
 
 > [!NOTE]
-> *Voorbeeld* is een rol en geen rollengroep. de voorbeeldrol moet worden toegevoegd aan een bestaande rollengroep voor Office 365 (op <https://security.microsoft.com> ). Ga naar **Machtigingen** en bewerk vervolgens een bestaande rollengroep of voeg een nieuwe rollengroep toe met de **toegewezen voorbeeldrol.**
-> De rol Globale beheerder wordt toegewezen aan Microsoft 365-beheercentrum ( ) en de rollen Beveiligingsbeheerder en Beveiligingslezer worden <https://admin.microsoft.com> toegewezen in Microsoft 365 Defender ( <https://security.microsoft.com> ). Zie Machtigingen in het Microsoft 365 Defender voor [meer informatie over rollen en machtigingen.](permissions-in-the-security-and-compliance-center.md)
+> *Voorbeeld* is een rol, geen rollengroep. De voorbeeldrol moet worden toegevoegd aan een bestaande rollengroep in de Microsoft 365 Defender portal ( <https://security.microsoft.com> ). Ga naar **Machtigingen** en bewerk vervolgens een bestaande rollengroep of voeg een nieuwe rollengroep toe met de **toegewezen voorbeeldrol.**
+>
+> De rol Globale beheerder wordt toegewezen aan Microsoft 365-beheercentrum ( ) en de rollen Beveiligingsbeheerder en Beveiligingslezer worden <https://admin.microsoft.com> toegewezen in Microsoft 365 Defender ( <https://security.microsoft.com> ). Zie Machtigingen in de portal Microsoft 365 Defender voor meer informatie over rollen [en machtigingen.](permissions-microsoft-365-security-center.md)
 
-We begrijpen dat het bekijken en downloaden van e-mail gevoelige activiteiten zijn en daarom is auditing ingeschakeld voor deze activiteiten. Wanneer een beheerder deze activiteiten uitvoert op e-mailberichten, worden auditlogboeken voor hetzelfde gegenereerd en kan deze worden gezien in de Office 365 Microsoft 365 Defender ( <https://security.microsoft.com> ). Ga naar **Zoeken in**  >  **het auditlogboek en** filter op de naam van de beheerder in de sectie Zoeken. In de gefilterde resultaten wordt activiteit **AdminMailAccess weer te geven.** Selecteer een rij om details weer te geven in de sectie **Meer informatie** over voorbeeld van of gedownloade e-mail.
+We begrijpen dat het bekijken en downloaden van e-mail gevoelige activiteiten zijn en daarom is auditing ingeschakeld voor deze activiteiten. Wanneer een beheerder deze activiteiten uitvoert op e-mailberichten, worden auditlogboeken voor hetzelfde gegenereerd en kunnen ze worden gezien in het Office 365 Security & Compliance Center ( <https://protection.office.com> ). Ga naar **Zoeken in**  >  **het auditlogboek en** filter op de naam van de beheerder in de sectie Zoeken. In de gefilterde resultaten wordt activiteit **AdminMailAccess weer te geven.** Selecteer een rij om details weer te geven in de sectie **Meer informatie** over voorbeeld van of gedownloade e-mail.
 
 ## <a name="find-suspicious-email-that-was-delivered"></a>Verdachte e-mail zoeken die is bezorgd
 
 Threat Explorer is een krachtig rapport dat meerdere doeleinden kan dienen, zoals het vinden en verwijderen van berichten, het identificeren van het IP-adres van een kwaadaardige afzender van e-mail of het starten van een incident voor verder onderzoek. De volgende procedure is gericht op het gebruik van Verkenner om schadelijke e-mail te zoeken en te verwijderen uit de postvakken van de geadresseerde.
 
 > [!NOTE]
-> Standaardzoek zoekopdrachten in Explorer bevatten momenteel geen Zapped-items.  Dit geldt voor alle weergaven, bijvoorbeeld malware- of phish-weergaven. Als u Zapped-items wilt opnemen, moet u een actieset **Bezorging** toevoegen om **Verwijderd door ZAP op te nemen.** Als u alle opties opneemt, ziet u alle resultaten van de bezorgingsactie, inclusief Zapped-items.
+> Standaardzoekingen in Explorer bevatten momenteel geen geleverde items die zijn verwijderd uit het cloudpostvak door automatische beveiliging van nul uur (ZAP). Deze beperking is van toepassing op alle weergaven (bijvoorbeeld de weergaven **\> E-mail malware** of **\> E-mail phish).** Als u items wilt opnemen die door ZAP zijn verwijderd, moet u een actieset **Bezorging** toevoegen om **Verwijderd door ZAP op te nemen.** Als u alle opties opneemt, ziet u alle resultaten van de bezorgingsactie, inclusief items die door ZAP zijn verwijderd.
 
-1. **Ga naar Threat Explorer:** Ga naar en meld u aan met uw werk- of <https://security.microsoft.com> schoolaccount voor Office 365. Dit brengt u naar Microsoft 365 Defender.
+1. Open de Microsoft 365 Defender portal en meld u aan met uw werk- of <https://security.microsoft.com> schoolaccount voor Office 365.
 
-2. Kies in de linkernavigatieverkenner snel starten de optie **E-mail & Samenwerkingsverkenner** \> .
+2. Ga naar **Threat Explorer door** e-mail te & **Explorer** voor \> **samenwerking** in de linkernavigatie. Als u rechtstreeks naar **Threat Explorer wilt** gaan, gebruikt u <https://security.microsoft.com/threatexplorer> .
 
-      Mogelijk ziet u de nieuwe kolom **Speciale** acties. Deze functie is bedoeld om beheerders te vertellen wat het resultaat is van het verwerken van een e-mailbericht. De **kolom Speciale** acties kan worden gebruikt op dezelfde plaats als de bezorgingsactie en de  **bezorgingslocatie.** Speciale acties kunnen worden bijgewerkt aan het einde van de e-mailtijdlijn van Threat Explorer. Dit is een nieuwe functie waarmee beheerders de zoekervaring kunnen verbeteren.
+   Op de **pagina Verkenner** worden in de kolom **Aanvullende** acties beheerders het resultaat van het verwerken van een e-mailbericht weergegeven. De **kolom Extra** acties kan worden gebruikt op dezelfde plaats als de actie **Bezorging** en de **bezorgingslocatie.** Speciale acties kunnen worden bijgewerkt aan het einde van de e-mailtijdlijn van Threat Explorer. Dit is een nieuwe functie waarmee beheerders de zoekervaring kunnen verbeteren.
 
-3. **Weergaven in Threat Explorer:** kies in **het** menu Beeld de optie **Alle e-mail.**
+3. Kies in **het** menu Beeld de optie  \> **E-mail alle e-mail** in de vervolgkeuzelijst.
 
     ![Threat explorer View menu, and Email - Malware, Phish, Submissions and All Email options, also Content - Malware.](../../media/tp-InvestigateMalEmail-viewmenu.png)
 
@@ -105,11 +108,11 @@ Threat Explorer is een krachtig rapport dat meerdere doeleinden kan dienen, zoal
 
 5. **Geavanceerde filters:** met deze filters kunt u complexe query's maken en uw gegevensset filteren. Als u op Geavanceerde *filters klikt,* wordt een flyout met opties geopend.
 
-   Geavanceerd filteren is een geweldige aanvulling op zoekmogelijkheden. Er is een booleans **NOT-filter**  geïntroduceerd op het domein  *Geadresseerde,* Afzender en Afzender, zodat beheerders onderzoek kunnen doen door waarden uit te sluiten. Deze optie wordt weergegeven onder selectieparameter *Bevat geen van*. **NIET** laat beheerders waarschuwingspostvakken uitsluiten, standaard beantwoorden postvakken van hun onderzoeken, en is handig voor gevallen waarin beheerders zoeken naar een specifiek onderwerp (onderwerp="Aandacht") waar de geadresseerde kan worden ingesteld op geen van de *\@ standaardMail-contoso.com.* Dit is een exacte waardezoekactie.
+   Geavanceerd filteren is een geweldige aanvulling op zoekmogelijkheden. Met een booleaanse NOT op de domeinfilters **Geadresseerde,** **Afzender** en Afzender kunnen **beheerders** onderzoeken door waarden uit te sluiten. Deze optie is de **optie Is gelijk aan geen selectie.** Met deze optie kunnen beheerders ongewenste postvakken uitsluiten van onderzoeken (bijvoorbeeld waarschuwingspostvakken en standaardantwoordpostvakken) en is dit handig voor gevallen waarin beheerders zoeken naar een specifiek onderwerp (bijvoorbeeld Aandacht), waarbij de geadresseerde kan worden ingesteld op Geen *van: defaultMail@contoso.com.* Dit is een exacte waardezoekactie.
 
    ![Het filter Geadresseerden - 'Bevat geen van' Geavanceerd.](../../media/tp-InvestigateMalEmail-AdvancedFilter.png)
 
-   *Als u per uur filtert,* kan het beveiligingsteam van uw organisatie snel inzoomen. De kortste toegestane tijdsduur is 30 minuten. Als u de verdachte actie kunt beperken op tijdsframe (bijvoorbeeld 3 uur geleden), wordt de context beperkt en wordt het probleem aan het licht geholpen.
+   Als u een tijdfilter toevoegt aan de begin- en einddatum, kan uw beveiligingsteam snel inzoomen. De kortste toegestane tijdsduur is 30 minuten. Als u de verdachte actie kunt beperken op tijdsframe (bijvoorbeeld 3 uur geleden), wordt de context beperkt en wordt het probleem aan het licht geholpen.
 
    ![De optie filteren op uren om de hoeveelheid gegevensbeveiligingsteams te beperken die moet worden verwerkt en waarvan de kortste duur 30 minuten is.](../../media/tp-InvestigateMalEmail-FilterbyHours.png)
 
@@ -135,6 +138,8 @@ Threat Explorer is een krachtig rapport dat meerdere doeleinden kan dienen, zoal
     **Richtingsrichting:** met deze optie kan uw beveiligingsbewerkingsteam filteren op de 'richting' waar een e-mailbericht vandaan komt of die wordt verzonden. Directionality values are *Inbound,* Outbound , and *Intra-org* (correspond to mail coming into your org from outside, being sent out of your org, or being *sently* internally to your org, respectively). Met deze informatie kunnen beveiligingsbewerkingen teams spoofing en imitatie herkennen, omdat er een verkeerde match is tussen de richtingswaarde (bijvoorbeeld. *Binnenkomende*), en het domein van de afzender (dat *lijkt op* een intern domein) is duidelijk! De richtingswaarde is gescheiden en kan afwijken van de berichtspoorwaarde. Resultaten kunnen worden geëxporteerd naar spreadsheets.
 
     **Overschrijven:** Met dit filter wordt informatie overgenomen die wordt weergegeven op het tabblad Details van de e-mail en wordt deze gebruikt om aan te geven waar organisatie- of gebruikersbeleid is overgenomen voor het toestaan en blokkeren van e-mails.  Het belangrijkste aan dit filter is dat het beveiligingsteam van uw organisatie kan zien hoeveel verdachte e-mailberichten zijn bezorgd vanwege de configuratie. Dit biedt hen de mogelijkheid om de mogelijkheid om de mogelijkheden en blokken zo nodig aan te passen. Deze resultatenset van dit filter kan worden geëxporteerd naar een spreadsheet.
+
+    <br>
 
     ****
 
@@ -166,33 +171,23 @@ In [Threat Explorer (en realtimedetecties)](threat-explorer.md)hebt  u  nu de ko
 De bezorgingsstatus is nu onderverdeeld in twee kolommen:
 
 - **Bezorgingsactie:** wat is de status van dit e-mailbericht?
-
 - **Bezorgingslocatie:** waar is dit e-mailbericht als resultaat gerouteerd?
 
 Bezorgingsactie is de actie die is ondernomen op een e-mail vanwege bestaand beleid of detecties. Hier volgen de mogelijke acties die een e-mail kan uitvoeren:
 
 - **Bezorgd:** e-mail is bezorgd in het Postvak IN of de map van een gebruiker en de gebruiker heeft rechtstreeks toegang tot de e-mail.
-
 - **Ongewenste** e-mail: e-mail is verzonden naar de map Ongewenste e-mail of verwijderde map van de gebruiker en de gebruiker heeft toegang tot e-mailberichten in de map Ongewenste e-mail of Verwijderd.
-
 - **Geblokkeerd:** e-mailberichten die in quarantaine zijn geplaatst, die zijn mislukt of die zijn gedropt. (Dit is volledig ontoegankelijk voor de gebruiker.)
-
 - **Vervangen:** e-mailberichten waarin schadelijke bijlagen worden vervangen door .txt waarin staat dat de bijlage schadelijk was.
 
 Bezorgingslocatie toont de resultaten van beleidsregels en detecties die na de bezorging worden uitgevoerd. Deze is gekoppeld aan een bezorgactie. Dit veld is toegevoegd om inzicht te geven in de actie die is ondernomen wanneer een probleemmail wordt gevonden. Hier zijn de mogelijke waarden van de bezorgingslocatie:
 
 - **Postvak IN of map:** de e-mail staat in het Postvak IN of in een map (volgens uw e-mailregels).
-
 - **On-prem of extern:** het postvak bestaat niet in de cloud, maar is on-premises.
-
 - **Map Ongewenste** e-mail: de e-mail staat in de map Ongewenste e-mail van een gebruiker.
-
 - **Map Verwijderde items:** de e-mail staat in de map Verwijderde items van een gebruiker.
-
 - **Quarantaine:** de e-mail in quarantaine en niet in het postvak van een gebruiker.
-
 - **Mislukt:** het e-mailbericht kan het postvak niet bereiken.
-
 - **Gedropt:** de e-mail gaat ergens in de e-mailstroom verloren.
 
 ### <a name="view-the-timeline-of-your-email"></a>De tijdlijn van uw e-mail weergeven

@@ -19,12 +19,12 @@ description: Beheerders kunnen leren hoe ze het spoof intelligence-beleid en het
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f0e5c83bc50197e30c12f8f7aeedc83930d7ff5e
-ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
+ms.openlocfilehash: a683ed93e4e483e63fe01281b32661f0b803d1ce
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52793206"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53029295"
 ---
 # <a name="manage-spoofed-senders-using-the-spoof-intelligence-policy-and-spoof-intelligence-insight-in-eop"></a>Vervalste afzenders beheren met behulp van het spoof intelligence-beleid en het inzicht in spoof intelligence in EOP
 
@@ -67,7 +67,7 @@ U kunt spoofinformatie beheren in het beveiligings- & compliancecentrum of in Po
 - U kunt de instellingen voor spoof intelligence inschakelen, uitschakelen en configureren in anti-phishingbeleid. Zie een van de volgende onderwerpen voor instructies op basis van uw abonnement:
 
   - [Anti-phishingbeleid configureren in EOP](configure-anti-phishing-policies-eop.md).
-  - [Anti-phishingbeleid configureren in Microsoft Defender voor Office 365.](configure-atp-anti-phishing-policies.md)
+  - [Anti-phishingbeleid configureren in Microsoft Defender voor Office 365.](configure-mdo-anti-phishing-policies.md)
 
 - Zie [EOP anti-phishingbeleidsinstellingen](recommended-settings-for-eop-and-office365.md#eop-anti-phishing-policy-settings)voor onze aanbevolen instellingen voor spoofinformatie.
 
@@ -184,7 +184,7 @@ Zie [Set-PhishFilterPolicy](/powershell/module/exchange/set-phishfilterpolicy)vo
 
 1. Ga in het & Compliancecentrum naar **Threat Management** \> **Dashboard.**
 
-2. Zoek in **de rij** Inzichten naar een van de volgende items:
+2. Zoek in **Insights** rij naar een van de volgende items:
 
    - **Waarschijnlijk vervalste domeinen in** de afgelopen zeven dagen: Dit inzicht geeft aan dat spoof intelligence is ingeschakeld (deze is standaard ingeschakeld).
    - **Spoofbeveiliging inschakelen:** dit inzicht geeft aan dat spoofinformatie is uitgeschakeld en als u op het inzicht klikt, kunt u spoofinformatie inschakelen.
