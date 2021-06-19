@@ -35,7 +35,7 @@ ms.locfileid: "52949985"
 
 **Als u een Microsoft 365 voor Bedrijven-abonnement hebt gekocht EN u beheerdersmachtigingen hebt, hebt u toegang tot het beheercentrum**. Dit artikel is bedoeld voor u!
 
-**Als u een gebruiker bent of een Microsoft 365 Family-abonnement hebt, hebt u geen beheercentrum.** Ga naar [Microsoft 365 of Office 2019 op een pc of Mac downloaden en installeren of opnieuw installeren](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658) om Microsoft 365 te installeren.
+**Als u een gebruiker bent of een Microsoft 365 Family-abonnement hebt, hebt u geen beheercentrum.** Ga naar [Microsoft 365 of Office 2019 op een pc of Mac downloaden en (opnieuw) installeren](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658) om Microsoft 365 te configureren.
 
 U kunt het beheercentrum gebruiken voor het instellen van uw organisatie in de cloud, het beheren van gebruikers en abonnementen, en nog veel meer. In dit artikel leest u hoe u het beheercentrum kunt openen en welke functies en instellingen er beschikbaar zijn.
 
