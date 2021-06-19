@@ -255,7 +255,7 @@
           href: manage/pin-apps-to-app-launcher.md
         - name: Gebruikers upgraden naar de nieuwste apps
           href: setup/upgrade-users-to-latest-office-client.md
-        - name: Microsoft 365-apps testen en implementeren in het Microsoft 365-beheercentrum
+        - name: Geïntegreerde apps
           href: manage/test-and-deploy-microsoft-365-apps.md
         - name: Gecentraliseerde implementatie van invoegtoepassingen
           items:

@@ -1,11 +1,11 @@
 - name: Microsoft 365-compliance
   href: index.yml
+- name: Wat is er nieuw in Microsoft 365-compliance
+  href: whats-new.md
 - name: Aan de slag
   items:
     - name: Snelle taken om aan de slag te gaan met compliance
       href: compliance-quick-tasks.md
-    - name: Wat is er nieuw in Microsoft 365-compliance
-      href: whats-new.md
     - name: Microsoft 365-oplossingencatalogus
       href: microsoft-365-solution-catalog.md
     - name: Microsoft 365-compliancecentrum
