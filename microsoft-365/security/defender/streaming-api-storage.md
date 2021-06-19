@@ -1,6 +1,6 @@
 ---
-title: Gebeurtenissen Microsoft 365 Defender streamen naar uw Storage account
-description: Meer informatie over het configureren Microsoft 365 Defender om geavanceerde gebeurtenissen voor jagen te streamen naar uw Storage account.
+title: Gebeurtenissen Microsoft 365 Defender naar uw Storage-account
+description: Meer informatie over het configureren van Microsoft 365 Defender voor het streamen van Advanced Hunting-gebeurtenissen naar uw Storage account.
 keywords: raw data export, streaming API, API, Event Hubs, Azure storage, storage account, Advanced Hunting, raw data sharing
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a4e706bbb2246bd0629db721373ffcd4164d123d
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: fa61e2fd0591d375a17bad6e166a76c1ca40862e
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52772454"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028881"
 ---
-# <a name="configure--microsoft-365-defender-to-stream-advanced-hunting-events-to-your-storage-account"></a>Configureer Microsoft 365 Defender om Advanced Hunting-gebeurtenissen te streamen naar uw Storage account
+# <a name="configure-microsoft-365-defender-to-stream-advanced-hunting-events-to-your-storage-account"></a>Configureer Microsoft 365 Defender advanced hunting-gebeurtenissen te streamen naar uw Storage account
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -38,11 +38,11 @@ ms.locfileid: "52772454"
 
 1. Maak een [Storage account](/azure/storage/common/storage-account-overview) in uw tenant.
 
-2. Meld u aan bij [uw Azure-tenant,](https://ms.portal.azure.com/)ga naar Abonnementen > Uw > **Resource Providers > Registreren bij Microsoft.Insights.**
+2. Meld u aan bij [uw Azure-tenant](https://ms.portal.azure.com/), ga naar Abonnementen > Uw abonnement **> Resource Providers > Registreren bij Microsoft.Insights.**
 
 ## <a name="enable-raw-data-streaming"></a>Onbewerkte gegevensstreaming inschakelen:
 
-1. Meld u aan [bij Microsoft 365 Defender-beveiligingscentrum](https://security.microsoft.com) als een ***Globale beheerder** _ of _*_Beveiligingsbeheerder_**.
+1. Meld u aan [bij Microsoft 365 Defender beveiligingscentrum](https://security.microsoft.com) als een ***Globale beheerder** _ of _*_Beveiligingsbeheerder_**.
 
 2. Ga naar [de pagina Instellingen voor gegevensexport](https://security.microsoft.com/settings/mtp_settings/raw_data_export) in Microsoft Defender-beveiligingscentrum.
 
@@ -79,7 +79,7 @@ ms.locfileid: "52772454"
 
 - Elke rij bevat de naam van de gebeurtenis, de tijd dat Defender voor Eindpunt de gebeurtenis heeft ontvangen, de tenant waar deze deel van uitmaken (u ontvangt alleen gebeurtenissen van uw tenant) en de gebeurtenis in JSON-indeling in een eigenschap genaamd 'eigenschappen'.
 
-- Zie Geavanceerd overzicht van de Microsoft 365 Defender voor meer informatie over het schema van de gebeurtenissen [in Defender.](../defender/advanced-hunting-overview.md)
+- Zie Geavanceerd overzicht van de Microsoft 365 Defender voor meer informatie over het schema [van Microsoft 365 Defender gebeurtenissen.](../defender/advanced-hunting-overview.md)
 
 
 ## <a name="data-types-mapping"></a>Gegevenstypen toewijzen
@@ -102,6 +102,6 @@ Ga als volgt te werk om de gegevenstypen voor onze gebeurteniseigenschappen op t
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van geavanceerd jagen](../defender/advanced-hunting-overview.md)
-- [Microsoft 365 Defender Streaming API](streaming-api.md)
-- [Gebeurtenissen Microsoft 365 Defender streamen naar uw Azure-opslagaccount](streaming-api-storage.md)
+- [Microsoft 365 Defender Streaming-API](streaming-api.md)
+- [Gebeurtenissen Microsoft 365 Defender naar uw Azure-opslagaccount streamen](streaming-api-storage.md)
 - [Azure Storage Accountdocumentatie](/azure/storage/common/storage-account-overview)

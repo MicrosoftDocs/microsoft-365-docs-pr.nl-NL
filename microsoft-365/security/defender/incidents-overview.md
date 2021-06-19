@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 3dac22afb074a58ea2afdf842a9a62c6cee77dcc
-ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
+ms.openlocfilehash: b6830c77a0c5cc93ea202844a8793c5f69f07650
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 06/19/2021
-ms.locfileid: "53022768"
+ms.locfileid: "53028521"
 ---
 # <a name="incidents-in-microsoft-365-defender"></a>Incidenten in Microsoft 365 Defender
 
@@ -144,9 +144,11 @@ Identificeer doorlopend de incidenten met de hoogste prioriteit voor analyse en 
 
 Als u nog niet bekend bent met beveiligingsanalyse, bekijkt u de inleiding tot het reageren op uw eerste [incident](incidents-overview.md) voor meer informatie en een voorbeeldincident door te nemen.
 
+Zie dit artikel voor meer informatie over de reactie op incidenten [in Microsoft-producten.](/security/compass/incident-response-overview)
+
 ## <a name="example-security-operations-for-microsoft-365-defender"></a>Voorbeeld van beveiligingsbewerkingen voor Microsoft 365 Defender
 
-Hier volgen een voorbeeld van beveiligingsbewerkingen voor Microsoft 365 Defender.
+Hier volgen een voorbeeld van beveiligingsbewerkingen (SecOps) voor Microsoft 365 Defender.
 
 :::image type="content" source="../../media/incidents-overview/incidents-example-operations.png" alt-text="Een voorbeeld van beveiligingsbewerkingen voor Microsoft 365 Defender":::
 
@@ -169,11 +171,19 @@ Jaarlijkse taken kunnen bestaan uit het uitvoeren van een grote incident- of inb
 
 Dagelijkse, maandelijkse, kwartaal- en jaarlijkse taken kunnen worden gebruikt om processen, beleidsregels en beveiligingsconfiguraties bij te werken of te verfijnen.
 
+### <a name="secops-resources-across-microsoft-products"></a>SecOps-resources voor Microsoft-producten
+
+Zie de volgende bronnen voor meer informatie over SecOps voor alle Microsoft-producten:
+
+- [Mogelijkheden](/security/compass/security-operations-capabilities)
+- [Aanbevolen procedures](/security/compass/security-operations)
+- [Video's en dia's](/security/compass/security-operations-videos-and-decks)
+
 ## <a name="next-steps"></a>Volgende stappen
 
 **Als u nog niet bekend bent** met beveiligingsanalyse en incidentrespons:
 
-- Zie de [walkthrough](first-incident-overview.md) Reageren op uw eerste incident om een rondleiding te krijgen van een typisch proces van analyse, herstel en beoordeling na het incident in de Microsoft 365 Defender-portal met een voorbeeld van een aanval.
+- Zie de [walkthrough](first-incident-overview.md) Reageren op uw eerste incident om een rondleiding te krijgen van een typisch proces van analyse, herstel en beoordeling na het incident in de Microsoft 365 Defender portal met een voorbeeldaanval.
 
 **Als u ervaring hebt met** beveiligingsanalyse en incidentrespons:
 
@@ -181,7 +191,7 @@ Dagelijkse, maandelijkse, kwartaal- en jaarlijkse taken kunnen worden gebruikt o
 
   - Bekijk welke incidenten prioriteit [moeten krijgen op](incident-queue.md) basis van ernst en andere factoren. 
 
-  - [Beheer incidenten,](manage-incidents.md)waaronder het wijzigen van de naam, de toewijzing, het classificeren en het toevoegen van tags en opmerkingen op basis van uw werkstroom voor incidentbeheer.
+  - [Beheer incidenten,](manage-incidents.md)waaronder het wijzigen van de naam, het toewijzen, classificeren en toevoegen van tags en opmerkingen op basis van uw werkstroom voor incidentbeheer.
 
   - Voer [onderzoeken van](investigate-incidents.md) incidenten uit.
 

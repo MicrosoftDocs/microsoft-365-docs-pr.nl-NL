@@ -16,19 +16,18 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 409f6d0bbbcf9f8b50119e35bdb7852c4323bbf9
-ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
+ms.openlocfilehash: 7360087e1863e81e4dc9e8acc2817e1320d6f4d8
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52984986"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028785"
 ---
 # <a name="use-attack-surface-reduction-rules-to-prevent-malware-infection"></a>Regels voor de beperking van de surface-aanval gebruiken om malware-infectie te voorkomen
 
 **Van toepassing op:**
 
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
-
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 ## <a name="why-attack-surface-reduction-rules-are-important"></a>Waarom surface reduction-regels voor aanvallen belangrijk zijn
@@ -91,7 +90,7 @@ Bovendien wordt de waarschuwingsmodus niet ondersteund op apparaten met oudere v
 
 ## <a name="notifications-and-alerts"></a>Meldingen en waarschuwingen
 
-Wanneer een surface reduction-regel voor aanvallen wordt geactiveerd, wordt er een melding weergegeven op het apparaat. U kunt [de melding aanpassen met](customize-attack-surface-reduction.md#customize-the-notification) uw bedrijfsgegevens en contactgegevens.
+Wanneer een surface reduction-regel voor aanvallen wordt geactiveerd, wordt er een melding weergegeven op het apparaat. U kunt [de melding aanpassen](customize-attack-surface-reduction.md#customize-the-notification) met uw bedrijfs- en contactgegevens.
 
 Bovendien worden waarschuwingen gegenereerd wanneer bepaalde regels voor de beperking van het aanvalsoppervlak worden geactiveerd.
 
@@ -127,7 +126,7 @@ Defender voor Eindpunt biedt gedetailleerde rapportage voor gebeurtenissen en bl
 
 U kunt Defender voor eindpuntgegevens query's uitvoeren in [Microsoft 365 Defender](microsoft-defender-security-center.md) met behulp van [geavanceerde jacht](advanced-hunting-query-language.md). Als u de auditmodus [gebruikt,](audit-windows-defender.md)kunt u geavanceerd zoeken gebruiken om te begrijpen wat de gevolgen zijn voor uw omgeving van de regels voor het beperken van het oppervlak.
 
-Hier is een voorbeeldquery:
+Hier volgt een voorbeeldquery:
 
 ```kusto
 DeviceEvents
@@ -150,7 +149,7 @@ U kunt het Windows-gebeurtenislogboek bekijken om gebeurtenissen weer te geven d
 
 U kunt een aangepaste weergave maken waarmee gebeurtenissen worden gefilterd om alleen de volgende gebeurtenissen weer te geven, die allemaal betrekking hebben op gecontroleerde maptoegang:
 
-|Gebeurtenis-id|Beschrijving|
+|Gebeurtenis-id|Omschrijving|
 |---|---|
 |5007|Gebeurtenis wanneer instellingen worden gewijzigd|
 |1121|Gebeurtenis wanneer regel wordt branden in de blokmodus|
@@ -160,7 +159,7 @@ De 'engine-versie' die wordt vermeld voor gebeurtenissen met een beperking van h
 
 ## <a name="attack-surface-reduction-rules"></a>Regels voor het verminderen van kwetsbaarheid voor aanvallen
 
-In de volgende tabel en subsecties worden elk van de 15 regels voor het verminderen van het oppervlak beschreven. De regels voor de beperking van de aanvalsoppervlakken worden op naam van de regel in alfabetische volgorde weergegeven.
+In de volgende tabel en subsecties worden de 16 regels voor de beperking van het oppervlak van de aanval beschreven. De regels voor de beperking van de aanvalsoppervlakken worden op naam van de regel in alfabetische volgorde weergegeven.
 
 Als u de regels voor het verlagen van de aanvalsoppervlakken configureert met groepsbeleid of PowerShell, hebt u de GUID's nodig. Als u echter Microsoft Endpoint Manager of Microsoft Intune gebruikt, hebt u de GUID's niet nodig.
 

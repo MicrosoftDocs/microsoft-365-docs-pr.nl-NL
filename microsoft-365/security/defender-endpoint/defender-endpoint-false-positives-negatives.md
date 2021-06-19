@@ -22,12 +22,12 @@ ms.collection:
 ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs, yonghree, jcedola
 ms.custom: FPFN
-ms.openlocfilehash: 1cd29c3a631334ee3a2791cca3c7ac1c83a1692f
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: b8060952960f89e274361bb6382f03d482346e0d
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52903826"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028849"
 ---
 # <a name="address-false-positivesnegatives-in-microsoft-defender-for-endpoint"></a>Actie ondernemen voor fout-positieven/-negatieven in Microsoft Defender voor Eindpunt
 
@@ -41,7 +41,7 @@ In oplossingen voor eindpuntbeveiliging is een fout-positief een entiteit, zoals
 
 ![Definitie van onwaar-positieve en negatieven in Defender voor Eindpunt](images/false-positives-overview.png)
 
-Gelukkig kunnen er stappen worden ondernomen om dit soort problemen op te lossen en te beperken. Als u false positives/negatives ziet in [Microsoft 365 Defender](microsoft-defender-security-center.md) (voorheen de Microsoft Defender-beveiligingscentrum), kunnen uw beveiligingsbewerkingen stappen ondernemen om deze aan te pakken met behulp van het volgende proces:
+Gelukkig kunnen er stappen worden ondernomen om dit soort problemen op te lossen en te beperken. Als u false positives/negatives ziet [in](microsoft-defender-security-center.md) Microsoft 365 Defender (voorheen de Microsoft Defender-beveiligingscentrum), kunnen uw beveiligingsbewerkingen stappen ondernemen om deze aan te pakken met behulp van het volgende proces:
 
 1.  [Waarschuwingen controleren en classificeren](#part-1-review-and-classify-alerts) 
 2.  [Herstelacties bekijken die zijn ondernomen](#part-2-review-remediation-actions)
@@ -66,7 +66,7 @@ Het beheren van uw waarschuwingen en het classificeren van waar-/onwaar-positiev
 
 Voordat u een waarschuwing classificeert of onderdrukt, bepaalt u of de waarschuwing juist, onwaar positief of goedaardig is.
 
-1. Ga naar de Microsoft 365 Defender-portal [https://security.microsoft.com](https://security.microsoft.com) () en meld u aan.
+1. Ga naar de Microsoft 365 Defender portal [https://security.microsoft.com](https://security.microsoft.com) () en meld u aan.
 
 2. Kies in het navigatiedeelvenster **de optie Waarschuwingenwachtrij**.
 
@@ -82,9 +82,9 @@ Voordat u een waarschuwing classificeert of onderdrukt, bepaalt u of de waarschu
 
 ### <a name="classify-an-alert"></a>Een waarschuwing classificeren
 
-Waarschuwingen kunnen worden geclassificeerd als false positives of true positives in de Microsoft 365 Defender. Als u waarschuwingen classificeert, kunt u Microsoft Defender voor Eindpunt trainen, zodat u na een tijd meer waargebeurde waarschuwingen en minder foutmeldingen ziet.
+Waarschuwingen kunnen worden geclassificeerd als false positives of true positives in Microsoft 365 Defender. Als u waarschuwingen classificeert, kunt u Microsoft Defender voor Eindpunt trainen, zodat u na een tijd meer waargebeurde waarschuwingen en minder foutmeldingen ziet.
 
-1. Ga naar de Microsoft 365 Defender-portal [https://security.microsoft.com](https://security.microsoft.com) () en meld u aan.
+1. Ga naar de Microsoft 365 Defender portal [https://security.microsoft.com](https://security.microsoft.com) () en meld u aan.
 
 2. Selecteer **Waarschuwingenwachtrij** en selecteer vervolgens een waarschuwing.
 
@@ -97,9 +97,9 @@ Waarschuwingen kunnen worden geclassificeerd als false positives of true positiv
 
 ### <a name="suppress-an-alert"></a>Een waarschuwing onderdrukken
 
-Als u waarschuwingen hebt die onwaar-positieven zijn of die echte positieven zijn, maar voor onbelangrijke gebeurtenissen, kunt u deze waarschuwingen onderdrukken in de Microsoft 365 Defender. Door waarschuwingen te onderdrukken, vermindert u ruis in het dashboard voor beveiligingsbewerkingen. 
+Als u waarschuwingen hebt die onwaar positieven zijn of die echte positieven zijn, maar voor onbelangrijke gebeurtenissen, kunt u deze waarschuwingen onderdrukken in Microsoft 365 Defender. Door waarschuwingen te onderdrukken, vermindert u ruis in het dashboard voor beveiligingsbewerkingen. 
 
-1. Ga naar de Microsoft 365 Defender-portal [https://security.microsoft.com](https://security.microsoft.com) () en meld u aan.
+1. Ga naar de Microsoft 365 Defender portal [https://security.microsoft.com](https://security.microsoft.com) () en meld u aan.
 
 2. Selecteer waarschuwingenwachtrij in **het navigatiedeelvenster.**
 
@@ -442,7 +442,7 @@ Afhankelijk van het [automatiseringsniveau](/microsoft-365/security/defender-end
 
 Als u alle stappen in dit artikel hebt doorlopen en nog steeds hulp nodig hebt, neemt u contact op met de technische ondersteuning.
 
-1. Ga naar de Microsoft 365 Defender [https://security.microsoft.com](https://security.microsoft.com) () en meld u aan.
+1. Ga naar Microsoft 365 Defender ( [https://security.microsoft.com](https://security.microsoft.com) ) en meld u aan.
 
 2. Selecteer in de rechterbovenhoek het vraagteken (**?**) en selecteer **vervolgens Microsoft-ondersteuning.**
 
@@ -452,4 +452,4 @@ Als u alle stappen in dit artikel hebt doorlopen en nog steeds hulp nodig hebt, 
 
 [Microsoft Defender voor eindpunt beheren](manage-atp-post-migration.md)
 
-[Overzicht van Microsoft 365 Defender-portal](/microsoft-365/security/defender-endpoint/use) 
+[Overzicht van Microsoft 365 Defender portal](/microsoft-365/security/defender-endpoint/use) 

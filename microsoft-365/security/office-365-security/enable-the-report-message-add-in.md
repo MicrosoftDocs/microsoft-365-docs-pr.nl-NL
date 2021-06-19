@@ -14,15 +14,15 @@ search.appverid:
 ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
-description: Meer informatie over het inschakelen van het rapportbericht of de phishing-invoegvoegingen voor Outlook en Outlook op internet, voor individuele gebruikers of voor uw hele organisatie.
+description: Meer informatie over het inschakelen van het rapportbericht of de phishing-invoegvoegingen voor Outlook en de webversie van Outlook, voor individuele gebruikers of voor uw hele organisatie.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ff91cf4c99c9552ab5f5fecd7c6d2efee8d2d9a8
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: c7e5136e6d1a118df2e0e91f09a79a9a63e88052
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52789254"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028581"
 ---
 # <a name="enable-the-report-message-or-the-report-phishing-add-ins"></a>Het rapportbericht of de phishing-invoegvoegingen rapporteren inschakelen
 
@@ -34,9 +34,9 @@ ms.locfileid: "52789254"
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 > [!NOTE]
-> Als u een beheerder bent in een Microsoft 365 organisatie met Exchange Online postvakken, raden we u aan de portal Inzendingen te gebruiken in het Beveiligings- & Compliancecentrum. Zie Beheerdersinzending gebruiken om [verdachte spam, phish, URL's en](admin-submission.md)bestanden in te dienen bij Microsoft voor meer informatie.
+> Als u een beheerder bent in een Microsoft 365-organisatie met Exchange Online-postvakken, raden we u aan de portal Inzendingen te gebruiken in Microsoft 365 Defender. Zie Beheerdersinzending gebruiken om [verdachte spam, phish, URL's en](admin-submission.md)bestanden in te dienen bij Microsoft voor meer informatie.
 
-Met de invoegvoegingen Rapportbericht en Phishing melden voor Outlook en Outlook op het web (voorheen bekend als Outlook Web App) kunnen personen eenvoudig onwaar positieven (goede e-mail gemarkeerd als slecht) of onwaar negatieven (slechte e-mail toegestaan) rapporteren aan Microsoft en haar gelieerde bedrijven voor analyse. 
+Met de invoegvoegingen Rapportbericht en Rapport phishing voor de webversie van Outlook en Outlook (voorheen Bekend als Outlook Web App) kunnen personen eenvoudig onwaar-positieven (goede e-mail die als slecht is gemarkeerd) of onwaar negatieven (slechte e-mail toegestaan) rapporteren aan Microsoft en haar gelieerde bedrijven voor analyse. 
 
 Microsoft gebruikt deze inzendingen om de effectiviteit van e-mailbeveiligingstechnologieën te verbeteren. Stel dat mensen veel berichten rapporteren met de invoeging Phishing melden. Deze informatie wordt in het beveiligingsdashboard en andere rapporten opgedoken. Het beveiligingsteam van uw organisatie kan deze informatie gebruiken als een indicatie dat anti-phishingbeleid mogelijk moet worden bijgewerkt. 
 
@@ -52,25 +52,25 @@ Als u een globale beheerder of een Exchange Online-beheerder bent en Exchange is
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- Zowel de invoeging Rapportbericht als de invoeging Phishing-rapport werkt met de meeste Microsoft 365 en de volgende producten:
+- Zowel de invoeging Report Message als de invoeging Report Phishing werkt met de meeste Microsoft 365-abonnementen en de volgende producten:
   - Webversie van Outlook
   - Outlook 2013 SP1 of hoger
   - Outlook 2016 voor Mac
-  - Outlook opgenomen in Microsoft 365 apps voor Enterprise
-  - Outlook app voor iOS en Android
+  - Outlook inbegrepen bij Microsoft 365-apps voor Enterprise
+  - Outlook-app voor iOS en Android
 
-- Beide invoegvakken zijn niet beschikbaar voor gedeelde postvakken of postvakken in on-premises Exchange organisaties.
+- Beide invoegvakken zijn niet beschikbaar voor gedeelde postvakken of postvakken in on-premises Exchange-organisaties.
 
 - Uw bestaande webbrowser moet werken met zowel de invoegvoegingen Rapportbericht als Phishing melden. Maar als u merkt dat de invoegvoeging niet beschikbaar is of niet werkt zoals verwacht, probeert u een andere browser.
 
 - Voor organisatie-installaties moet de organisatie zijn geconfigureerd voor het gebruik van OAuth-verificatie. Zie Bepalen of gecentraliseerde implementatie van invoegvoegingen werkt [voor uw organisatie voor meer informatie.](../../admin/manage/centralized-deployment-of-add-ins.md)
 
-- Beheerders moeten lid zijn van de rollengroep Globale beheerders. Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
+- Beheerders moeten lid zijn van de rollengroep Globale beheerders. Zie Machtigingen in de [Microsoft 365 Defender](permissions-in-the-security-and-compliance-center.md)voor meer informatie.
 
-- Zie Fout-positieven en onwaar negatieven rapporteren in Outlook voor meer informatie over het rapporteren van een bericht met de [functie Rapportbericht.](report-false-positives-and-false-negatives.md)
+- Zie Fout-positieven en onwaar negatieven rapporteren in Outlook voor meer informatie over het rapporteren van een bericht met de functie [Rapportbericht.](report-false-positives-and-false-negatives.md)
 
 > [!IMPORTANT]
-> We raden u de ingebouwde rapportageervaring in Outlook omdat het beleid voor het indienen van gebruikers niet [kan worden gebruikt.](./user-submission.md) We raden u aan in plaats daarvan de invoeging Rapportbericht of de invoeging Phishing melden te gebruiken.
+> We raden de ingebouwde rapportageervaring in Outlook niet aan, omdat het beleid voor het indienen van gebruikers niet [kan worden gebruikt.](./user-submission.md) We raden u aan in plaats daarvan de invoeging Rapportbericht of de invoeging Phishing melden te gebruiken.
 
 ## <a name="get-the-report-message-add-in"></a>De invoegvoegvoegvoeging Rapportbericht ontvangen
 
@@ -93,21 +93,21 @@ Nadat de invoegvoegvoeging is geïnstalleerd en ingeschakeld, ziet u de volgende
   > [!div class="mx-imgBorder"]
   > ![Pictogram Berichtrapport voor Outlook](../../media/OutlookReportMessageIcon.png)
 
-- In Outlook op internet ziet het pictogram er als volgende uit:
+- In de webversie van Outlook ziet het pictogram er als volgende uit:
 
   > [!div class="mx-imgBorder"]
-  > ![Outlook invoegpictogram rapportbericht op het web](../../media/owa-report-message-icon.png)
+  > ![Pictogram Rapportbericht van Outlook op het web](../../media/owa-report-message-icon.png)
 
 ### <a name="get-the-add-in-for-your-organization"></a>De invoeging voor uw organisatie krijgen
 
 > [!NOTE]
 > Het kan tot 12 uur duren voordat de invoegvoeging wordt weergegeven in uw organisatie.
 
-1. Ga in Microsoft 365 beheercentrum naar de pagina  Instellingen \> **invoegingen** op <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns> . Als u de invoegpagina niet ziet, gaat u naar de **koppeling** Instellingen geïntegreerde  apps boven aan de pagina Geïntegreerde \>  \>  **apps.**
+1. Ga in het Microsoft 365-beheercentrum naar **de** pagina Instellingen \> **invoegvoegingen** op <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns> . Als u de invoegpagina niet ziet,  gaat u naar de koppeling Geïntegreerde apps met instellingen boven aan de pagina Geïntegreerde  \>  \>  **apps.**
 
 2. Selecteer **Invoegvoegvoeging implementeren** boven aan de pagina en selecteer vervolgens **Volgende.**
 
-   ![Pagina Services en invoegingen in het Microsoft 365 beheercentrum](../../media/ServicesAddInsPageNewM365AdminCenter.png)
+   ![Pagina Services en invoegvoegingen in het Microsoft 365-beheercentrum](../../media/ServicesAddInsPageNewM365AdminCenter.png)
 
 3. Controleer de informatie in het **fly-out Nieuwe invoegsel** implementeren dat wordt weergegeven en klik vervolgens op **Volgende.**
 
@@ -149,7 +149,7 @@ Nadat de invoegvoegvoeging is geïnstalleerd en ingeschakeld, ziet u de volgende
 
 ## <a name="review-or-edit-settings-for-the-report-message-add-in"></a>Instellingen controleren of bewerken voor de invoegvoegbewerking Rapportbericht
 
-1. Ga in Microsoft 365 beheercentrum naar de pagina  Instellingen \> **invoegingen** op <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns> . Als u de invoegpagina niet ziet, gaat u naar de **koppeling** Instellingen geïntegreerde  apps boven aan de pagina Geïntegreerde \>  \>  **apps.**
+1. Ga in het Microsoft 365-beheercentrum  naar de pagina Instellingen \> **invoegvoegingen** op <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns> . Als u de invoegpagina niet ziet,  gaat u naar de koppeling Geïntegreerde apps met instellingen boven aan de pagina Geïntegreerde  \>  \>  **apps.**
 
    ![Services en Add-Ins in het nieuwe Microsoft 365-beheercentrum](../../media/ServicesAddInsPageNewM365AdminCenter.png)
 
@@ -175,23 +175,23 @@ Nadat de invoegvoegvoeging is geïnstalleerd en ingeschakeld, ziet u de volgende
 
 - In Outlook ziet het pictogram er als volgende uit:
 
-  ![Pictogram Phishing-invoegvoeging melden voor Outlook](../../media/Outlook-ReportPhishing.png)
+  ![Pictogram Phishing-invoegversie van Outlook rapporteren](../../media/Outlook-ReportPhishing.png)
 
-- In Outlook op internet ziet het pictogram er als volgende uit:
+- In de webversie van Outlook ziet het pictogram er als volgende uit:
 
   > [!div class="mx-imgBorder"]
-  > ![Outlook het pictogram Phishing-invoegvoegbericht op het web](../../media/OWA-ReportPhishing.png)
+  > ![Pictogram Phishing-invoegversie van Outlook op het web](../../media/OWA-ReportPhishing.png)
 
 ### <a name="get-the-add-in-for-your-organization"></a>De invoeging voor uw organisatie krijgen
 
 > [!NOTE]
 > Het kan tot 12 uur duren voordat de invoegvoeging wordt weergegeven in uw organisatie.
 
-1. Ga in Microsoft 365 beheercentrum naar de pagina  Instellingen \> **invoegingen** op <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns> . Als u de invoegpagina niet ziet, gaat u naar de **koppeling** Instellingen geïntegreerde  apps boven aan de pagina Geïntegreerde \>  \>  **apps.**
+1. Ga in het Microsoft 365-beheercentrum  naar de pagina Instellingen \> **invoegvoegingen** op <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns> . Als u de invoegpagina niet ziet,  gaat u naar de koppeling Geïntegreerde apps met instellingen boven aan de pagina Geïntegreerde  \>  \>  **apps.**
 
 2. Selecteer **Invoegvoegvoeging implementeren** boven aan de pagina en selecteer vervolgens **Volgende.**
 
-   ![Pagina Services en invoegingen in het Microsoft 365 beheercentrum](../../media/ServicesAddInsPageNewM365AdminCenter.png)
+   ![Pagina Services en invoegvoegingen in het Microsoft 365-beheercentrum](../../media/ServicesAddInsPageNewM365AdminCenter.png)
 
 3. Controleer de informatie in het **fly-out Nieuwe invoegsel** implementeren dat wordt weergegeven en klik vervolgens op **Volgende.**
 
@@ -225,7 +225,7 @@ Nadat de invoegvoegvoeging is geïnstalleerd en ingeschakeld, ziet u de volgende
 
 ## <a name="review-or-edit-settings-for-the-report-phishing-add-in"></a>Instellingen controleren of bewerken voor de invoeging Phishingrapport
 
-1. Ga in Microsoft 365 beheercentrum naar de pagina  Instellingen \> **invoegingen** op <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns> . Als u de invoegpagina niet ziet, gaat u naar de **koppeling** Instellingen geïntegreerde  apps boven aan de pagina Geïntegreerde \>  \>  **apps.**
+1. Ga in het Microsoft 365-beheercentrum  naar de pagina Instellingen \> **invoegvoegingen** op <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns> . Als u de invoegpagina niet ziet,  gaat u naar de koppeling Geïntegreerde apps met instellingen boven aan de pagina Geïntegreerde  \>  \>  **apps.**
 
 2. Zoek en selecteer de **invoeging Phishing** melden.
 

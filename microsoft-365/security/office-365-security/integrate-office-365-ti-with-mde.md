@@ -19,12 +19,12 @@ description: Gebruik Microsoft Defender voor Office 365 samen met Microsoft Defe
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 63ae9f8c1136a973e4fccb63ecfbaee2639c3f6f
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: e59f608a6f732f58002dfd2ff34666865ab23f3d
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52904078"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028873"
 ---
 # <a name="use-microsoft-defender-for-office-365-together-with-microsoft-defender-for-endpoint"></a>Microsoft Defender gebruiken voor Office 365 samen met Microsoft Defender voor Eindpunt
 
@@ -42,13 +42,13 @@ In de volgende afbeelding ziet u hoe het tabblad **Apparaten** eruitziet wanneer
 In dit voorbeeld kunt u zien dat de geadresseerden van het gedetecteerde e-mailbericht vier apparaten hebben en één een waarschuwing heeft. Als u op de koppeling voor een apparaat klikt, wordt de pagina geopend in [Microsoft 365 Defender](../defender-endpoint/microsoft-defender-security-center.md) (voorheen de Microsoft Defender-beveiligingscentrum).
 
 > [!TIP]
-> De Microsoft 365 Defender-portal vervangt de Microsoft Defender-beveiligingscentrum. Zie [Microsoft Defender voor Eindpunt in Microsoft 365 Defender](../defender/microsoft-365-security-center-mde.md).
+> De Microsoft 365 Defender portal vervangt de Microsoft Defender-beveiligingscentrum. Zie [Microsoft Defender voor Eindpunt in Microsoft 365 Defender.](../defender/microsoft-365-security-center-mde.md)
 
 ## <a name="requirements"></a>Vereisten
 
 - Uw organisatie moet Microsoft Defender hebben voor Office 365 (of Office 365 E5) en Microsoft Defender voor Eindpunt.
 
-- U moet een globale beheerder zijn of een beveiligingsbeheerderrol (zoals beveiligingsbeheerder) hebben toegewezen in Microsoft 365. (Zie [Machtigingen in het beveiligings- & Compliancecentrum](permissions-in-the-security-and-compliance-center.md))
+- U moet een globale beheerder zijn of een beveiligingsbeheerderrol (zoals beveiligingsbeheerder) hebben toegewezen in Microsoft 365. (Zie [Machtigingen in de Microsoft 365 Defender](permissions-in-the-security-and-compliance-center.md))
 
 - U moet toegang hebben tot [Explorer (of realtimedetecties).](threat-explorer.md)
 
@@ -56,19 +56,17 @@ In dit voorbeeld kunt u zien dat de geadresseerden van het gedetecteerde e-mailb
 
 De integratie van Microsoft Defender voor Office 365 met Microsoft Defender voor Eindpunt is ingesteld in zowel Defender voor Eindpunt als Defender voor Office 365.
 
-1. Als globale beheerder of beveiligingsbeheerder gaat u naar [https://protection.office.com](https://protection.office.com) en meld u aan. (Hiermee gaat u naar het Office 365 beveiligings- & compliancecentrum.)
+1. Als globale beheerder of beveiligingsbeheerder gaat u naar [https://security.microsoft.com](https://security.microsoft.com) en meld u aan. (Hiermee gaat u naar de Microsoft 365 Defender portal.)
 
-2. Kies in het navigatiedeelvenster **Bedreigingsbeheer** \> **Explorer.**
+2. Kies in het navigatiedeelvenster **E-mail & Samenwerkingsverkenner** \> .
 
-   ![Explorer in het menu Bedreigingsbeheer](../../media/ThreatMgmt-Explorer-nav.png)
-
-3. Kies in de rechterbovenhoek van het scherm **De optie Defender voor eindpunten Instellingen (MDE Instellingen)**.
+3. Klik in de rechterbovenhoek van het scherm op **MDE-Instellingen.**
 
 4. Schakel in het dialoogvenster Verbinding met Microsoft Defender voor eindpunt de Verbinding maken **microsoft Defender voor eindpunt in.**
 
-   ![Verbinding met Microsoft Defender voor eindpunt](../../media/Explorer-WDATPConnection-dialog.png)
+    :::image type="content" source="../../media/explorer-mdeconnection-dialognew.png" alt-text="MDE-verbinding":::
 
-5. Ga naar de Microsoft 365 Defender-portal ( [https://security.microsoft.com](https://security.microsoft.com) .
+5. Ga naar de Microsoft 365 Defender portal ( [https://security.microsoft.com](https://security.microsoft.com) .
 
 6. Kies in de navigatiebalk **Instellingen.** Kies vervolgens onder **Algemeen** de optie **Geavanceerde functies.**
 
@@ -76,7 +74,7 @@ De integratie van Microsoft Defender voor Office 365 met Microsoft Defender voor
 
    ![Office 365 threat intelligence-verbinding](../../media/mdatp-oatptoggle.png)
 
-## <a name="related-articles"></a>Aanverwante artikelen
+## <a name="related-articles"></a>Verwante artikelen
 
 [Mogelijkheden voor het onderzoeken en reageren van bedreigingen in Office 365](office-365-ti.md)
 

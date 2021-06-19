@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.prod: m365-security
 ms.technology: m365d
-ms.openlocfilehash: decc991ef1d4a1b92f4e843fd39d595b9a1f7107
-ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
+ms.openlocfilehash: 15b1b152966c9c09bf77bea15b9b651f739c3566
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "52964822"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028953"
 ---
 # <a name="microsoft-defender-for-office-365-in-microsoft-365-defender"></a>Microsoft Defender voor Office 365 in Microsoft 365 Defender
 
@@ -34,7 +34,7 @@ ms.locfileid: "52964822"
 
 ## <a name="quick-reference"></a>Snelzoekverwijzing
 
-In de onderstaande tabel vindt u de wijzigingen in de navigatie tussen het Office 365 beveiligingscentrum & compliancecentrum en het Microsoft 365 Defender.
+In de onderstaande tabel vindt u de wijzigingen in de navigatie tussen het Office 365 beveiligingscentrum & compliancecentrum en Microsoft 365 Defender.
 
 <br>
 

@@ -16,12 +16,12 @@ description: Malware phishingpogingen bekijken en onderzoeken.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f0326a51f14b402b9a579e8668ef2c026f9de789
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 917ad3caf96a982df8b88058ff1c394b3d21dd75
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52877894"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028542"
 ---
 # <a name="email-security-with-threat-explorer-in-microsoft-defender-for-office-365"></a>E-mailbeveiliging met Threat Explorer in Microsoft Defender voor Office 365
 
@@ -45,28 +45,22 @@ In dit artikel wordt uitgelegd hoe u malware- en phishingpogingen kunt bekijken 
 
 Als u malware wilt zien die is gedetecteerd in e-mail die is gesorteerd op Microsoft 365 technologie, gebruikt u de weergave E-mail [> Malware](threat-explorer-views.md#email--malware) van Explorer (of Realtime detecties). Malware is de standaardweergave, dus deze kan worden geselecteerd zodra u Verkenner opent.
 
-1. Kies in & Beveiligingscentrum <https://protection.office.com> () **de** optie Threat Management \> **Explorer** (of **Realtime detecties).** (In dit voorbeeld wordt Verkenner gebruikt.)
-
-   Als u zich in de geconvergeerde portal Microsoft 365 Defender () schuift u naar <https://security.microsoft.com> **E-mail**& Explorer voor  >  **samenwerking.**
+1. Kies in Microsoft 365 Defender portal ( ) de optie <https://security.microsoft.com> **E-mail & Explorer** voor samenwerking \>  (of **Realtime detecties).** (In dit voorbeeld wordt Verkenner gebruikt.) Als u zich in de geconvergeerde portal Microsoft 365 Defender https://security.microsoft.com/) (schuif naar **E-mail en &**  >  **Explorer.**
 
    Vanaf hier begint u bij de weergave, kiest u een bepaald tijdsbestek om het te onderzoeken (indien nodig) en richt u de filters op de [verkenner.](threat-hunting-in-threat-explorer.md#threat-explorer-walk-through)
 
-2. Kies in **het** menu Beeld de optie **E-mail** \> **malware.**
-
-   > [!div class="mx-imgBorder"]
-   > ![Menu Weergeven voor Explorer](../../media/ExplorerViewEmailMalwareMenu.png)
+2. Kies malware onder **E-mail** in **het** menu **Beeld.**
 
 3. Klik **op Afzender** en kies vervolgens **Basisdetectietechnologie.** \> 
 
-   Uw detectietechnologieën zijn nu beschikbaar als filters voor het rapport.
+   
+   :::image type="content" source="../../media/exploreremailmalwaredetectiontech-newimg.png" alt-text="malwaredetectietechnologie":::
 
-   > [!div class="mx-imgBorder"]
-   > ![Technologieën voor malwaredetectie](../../media/ExplorerEmailMalwareDetectionTech.png)
+   Uw detectietechnologieën zijn nu beschikbaar als filters voor het rapport.
 
 4. Kies een optie. Selecteer vervolgens de **knop Vernieuwen** om dat filter toe te passen.
 
-   > [!div class="mx-imgBorder"]
-   > ![Geselecteerde detectietechnologie](../../media/ExplorerEmailMalwareDetectionTechATP.png)
+   :::image type="content" source="../../media/exploreremailmalwaredetectiontech2-new.png" alt-text="geselecteerde detectietechnologie"::: 
 
    Het rapport wordt vernieuwd om de resultaten weer te geven die malware heeft gedetecteerd in e-mail, met de technologieoptie die u hebt geselecteerd. Hier kunt u verdere analyse uitvoeren. 
 
@@ -76,7 +70,7 @@ U kunt phishingpogingen via URL's in e-mail bekijken, inclusief een lijst met UR
 
 Als u phish-URL's in berichten wilt bekijken en op URL's in phish-berichten wilt klikken, gebruikt u de weergave [ **E-mail**  >  **phish**](threat-explorer-views.md#email--phish) van Explorer of realtime detecties.
 
-1. Kies in & Beveiligingscentrum <https://protection.office.com> () **de** optie Threat Management \> **Explorer** (of **Realtime detecties).** (In dit voorbeeld wordt Verkenner gebruikt.)
+1. Kies in Microsoft 365 Defender portal ( ) de optie <https://security.microsoft.com> **E-mail & Explorer** voor samenwerking \>  (of **Realtime detecties).** (In dit voorbeeld wordt Verkenner gebruikt.)
 
 2. Kies in **het** menu Beeld de optie **E-mail** \> **phish**.
 
@@ -87,8 +81,7 @@ Als u phish-URL's in berichten wilt bekijken en op URL's in phish-berichten wilt
 
 4. Selecteer een of meer opties, zoals **Geblokkeerd** en Geblokkeerd,  en selecteer vervolgens de knop Vernieuwen op dezelfde regel als de opties om dat filter toe te passen. (Vernieuw het browservenster niet.)
 
-   > [!div class="mx-imgBorder"]
-   > ![URL's en klik op vonnissen](../../media/ThreatExplorerEmailPhishClickVerdictOptions.png)
+    :::image type="content" source="../../media/threatexploreremailphishclickverdict-new.png" alt-text="URL's en klik op vonnissen":::
 
    Het rapport wordt vernieuwd om twee verschillende URL-tabellen weer te geven op het tabblad URL onder het rapport:
 
@@ -122,7 +115,7 @@ In de fly-outs E-mail of URL, TopKlikken en in onze filterervaringen ziet u vers
 ## <a name="start-automated-investigation-and-response"></a>Geautomatiseerde onderzoeken en antwoorden starten
 
 > [!NOTE]
-> Geautomatiseerde onderzoeks- en antwoordmogelijkheden zijn beschikbaar in *Microsoft Defender voor Office 365 Plan 2* en Office 365 *E5.*
+> Geautomatiseerde onderzoeks- en antwoordmogelijkheden zijn beschikbaar in *Microsoft Defender voor Office 365 Plan 2* en *Office 365 E5.*
 
 [Geautomatiseerde onderzoeken en antwoorden kunnen](automated-investigation-response-office.md) uw teamtijd en inspanning voor beveiligingsactiviteiten besparen bij het onderzoeken en verminderen van cyberaanvallen. Naast het configureren van waarschuwingen die een beveiligingss playbook kunnen activeren, kunt u een geautomatiseerd onderzoek en antwoordproces starten vanuit een weergave in Explorer. Zie Voorbeeld: Een beveiligingsbeheerder activeert een onderzoek [vanuit Verkenner voor meer informatie.](automated-investigation-response-office.md#example-a-security-administrator-triggers-an-investigation-from-threat-explorer)
 

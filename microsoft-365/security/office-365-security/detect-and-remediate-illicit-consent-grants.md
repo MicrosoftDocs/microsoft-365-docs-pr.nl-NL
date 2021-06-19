@@ -18,12 +18,12 @@ description: Meer informatie over het herkennen en herstellen van de illegale to
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e5675a7a83bb62bae80f20e8e7c86fde38599ec6
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 4c3c3c06974feb2dab3985a60938fe7d543543c3
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538301"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028917"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants"></a>Illegale toestemmingsgelden detecteren en herstellen
 
@@ -50,7 +50,7 @@ U moet in het **auditlogboek** zoeken naar tekens, ook wel Indicatoren van compr
 
 ### <a name="steps-for-finding-signs-of-this-attack"></a>Stappen voor het vinden van tekenen van deze aanval
 
-1. Open het **beveiligingscentrum & compliancecentrum** op <https://protection.office.com> .
+1. Open de **Microsoft 365 Defender** portal op <https://security.microsoft.com> .
 
 2. **Navigeer naar Zoeken** en selecteer **Auditlogboek zoeken.**
 
@@ -143,7 +143,7 @@ Het script produceert één bestand met de naam Permissions.csv. Volg deze stapp
 
 ## <a name="determine-the-scope-of-the-attack"></a>Het bereik van de aanval bepalen
 
-Nadat u klaar bent met het inventariseren van toepassingstoegang, bekijkt u het **auditlogboek** om het volledige bereik van de inbreuk te bepalen. Zoek op de getroffen gebruikers, de tijdframes die de illegale toepassing toegang had tot uw organisatie en de machtigingen die de app had. U kunt het **auditlogboek doorzoeken** in het [beveiligings- & Compliancecentrum.](../../compliance/search-the-audit-log-in-security-and-compliance.md)
+Nadat u klaar bent met het inventariseren van toepassingstoegang, bekijkt u het **auditlogboek** om het volledige bereik van de inbreuk te bepalen. Zoek op de getroffen gebruikers, de tijdframes die de illegale toepassing toegang had tot uw organisatie en de machtigingen die de app had. U kunt het **auditlogboek doorzoeken** in de [Microsoft 365 Defender.](../../compliance/search-the-audit-log-in-security-and-compliance.md)
 
 > [!IMPORTANT]
 > [Postvakcontrole en](../../compliance/enable-mailbox-auditing.md) [Activiteitenaudit voor beheerders](../../compliance/turn-audit-log-search-on-or-off.md) en gebruikers moeten zijn ingeschakeld vóór de aanval, zodat u deze informatie kunt krijgen.

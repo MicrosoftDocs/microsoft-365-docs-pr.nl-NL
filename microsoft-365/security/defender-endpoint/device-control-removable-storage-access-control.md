@@ -8,20 +8,20 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: v-smandalika
-author: v-smandalika
+ms.author: dansimp
+author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: cf8e74a6886d7086da062d6258e3e1e1a1cbd730
-ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
+ms.openlocfilehash: cb23987600a5f87a99449510f7651c4fdcd45f66
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52861717"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028401"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-access-control"></a>Microsoft Defender voor Endpoint Device Control Verwisselbare Storage Access Control
 
@@ -41,18 +41,18 @@ Met Microsoft Defender voor Endpoint Device Control Verwisselbaar Storage Access
 
 ## <a name="prepare-your-endpoints"></a>Uw eindpunten voorbereiden
 
-Verwisselbare Storage Access Control implementeren op Windows 10 apparaten met Anti-malware Client versie **4.18.2103.3 of hoger.**
-1. **4.18.2104 of hoger:** SerialNumberId, VID_PID, filepath-based GPO support, ComputerSid
+Verwisselbare Storage Access Control implementeren op Windows 10 apparaten met antimalwareclient **versie 4.18.2103.3 of hoger.**
 
-2. **4.18.2105** of hoger : Jokertekenondersteuning toevoegen voor HardwareId/DeviceId/InstancePathId/FriendlyNameId/SerialNumberId, de combinatie van specifieke gebruiker op een specifieke computer, verwijderbare SSD (een SanDisk Extreme SSD)/USB Attached SCSI (UAS) ondersteuning
+- **4.18.2104 of hoger:** SerialNumberId, VID_PID, filepath-based GPO support, ComputerSid
+
+- **4.18.2105** of hoger : Jokertekenondersteuning toevoegen voor HardwareId/DeviceId/InstancePathId/FriendlyNameId/SerialNumberId, de combinatie van specifieke gebruiker op een specifieke computer, verwijderbare SSD (een SanDisk Extreme SSD)/USB Attached SCSI (UAS) ondersteuning
 
 :::image type="content" source="images/powershell.png" alt-text="De PowerShell-interface":::
 
-   > [!NOTE]
-   > Geen van Windows-beveiliging onderdelen hoeft actief te zijn, u kunt Verwisselbaar Storage Access Control uitvoeren, onafhankelijk van Windows-beveiliging status.
+> [!NOTE]
+> Geen van Windows-beveiliging onderdelen hoeft actief te zijn, u kunt Verwisselbaar Storage Access Control uitvoeren, onafhankelijk van Windows-beveiliging status.
 
 ## <a name="policy-properties"></a>Beleidseigenschappen
-
 
 U kunt de volgende eigenschappen gebruiken om een verwisselbare opslaggroep te maken:
 
@@ -67,6 +67,7 @@ Vermeld de apparaateigenschappen die u wilt gebruiken voor de groep.
 Zie voor elke apparaateigenschappen de sectie **Apparaateigenschappen** hierboven voor meer informatie.
 
 1. Opties:
+
     - Primaire id
         - VerwisselbareMediaDevices
         - CdRomDevices
@@ -87,11 +88,9 @@ Zie voor elke apparaateigenschappen de sectie **Apparaateigenschappen** hierbove
 1. Beschrijving: Wanneer er meerdere apparaateigenschappen worden gebruikt in de DescriptorIDList, definieert MatchType de relatie.
 
 1. Opties:
+
     - MatchAll: Alle kenmerken onder de DescriptorIdList zijn **En-relatie;** Als de beheerder bijvoorbeeld DeviceID en InstancePathID plaatst, controleert het systeem voor elke aangesloten USB of de USB aan beide waarden voldoet.
-
     - MatchAny: De kenmerken onder de DescriptorIdList zijn **Of-relatie;** Als de beheerder bijvoorbeeld DeviceID en InstancePathID plaatst, voert het systeem voor elke aangesloten  USB de afdwinging uit, zolang de USB een identieke Apparaat-id- of Exemplaar-id-waarde heeft. 
-
-
 
 Hieronder volgen de eigenschappen van het toegangsbeheerbeleid:
 
@@ -101,9 +100,9 @@ Hieronder volgen de eigenschappen van het toegangsbeheerbeleid:
 
 **Naam van eigenschap: IncludedIdList**
 
-1. Beschrijving: De groep(en) waar het beleid op wordt toegepast. Als er meerdere groepen worden toegevoegd, wordt het beleid toegepast op alle media in al deze groepen.
+2. Beschrijving: De groep(en) waar het beleid op wordt toegepast. Als er meerdere groepen worden toegevoegd, wordt het beleid toegepast op alle media in al deze groepen.
 
-1. Opties: De groeps-id/GUID moet in dit exemplaar worden gebruikt.
+3. Opties: De groeps-id/GUID moet in dit exemplaar worden gebruikt.
 
 In het volgende voorbeeld ziet u het gebruik van GroupID:
 
@@ -111,8 +110,9 @@ In het volgende voorbeeld ziet u het gebruik van GroupID:
 
 **Eigenschapsnaam: ExcludedIDList**
 
-1. Beschrijving: De groep(en) waar het beleid niet op wordt toegepast.
-1. Opties: De groeps-id/GUID moet in dit exemplaar worden gebruikt.
+Beschrijving: De groep(en) waar het beleid niet op wordt toegepast.
+
+Opties: De groeps-id/GUID moet in dit exemplaar worden gebruikt.
 
 **Naam van eigenschap: invoer-id**
 
@@ -123,7 +123,9 @@ In het volgende voorbeeld ziet u het gebruik van GroupID:
 1. Beschrijving: Definieert de actie voor de verwisselbare opslaggroepen in IncludedIDList.
     - Afdwinging: Toestaan of weigeren
     - Audit: AuditAllowed or AuditDenied 
-1. Opties:
+
+2. Opties:
+
     - Toestaan
     - Weigeren
     - AuditAllowed: Definieert melding en gebeurtenis wanneer toegang is toegestaan
@@ -133,19 +135,19 @@ Wanneer er conflicttypen voor dezelfde media zijn, wordt het eerste conflict in 
 
 **Naam van eigenschap: Sid**
 
-1. Beschrijving: Hiermee bepaalt u of u dit beleid moet toepassen op specifieke gebruikers of gebruikersgroep; een vermelding kan maximaal één Sid hebben en een vermelding zonder dat sid betekent dat het beleid op de computer wordt toegepast.
+Beschrijving: Hiermee bepaalt u of u dit beleid moet toepassen op specifieke gebruikers of gebruikersgroep; een vermelding kan maximaal één Sid hebben en een vermelding zonder dat sid betekent dat het beleid op de computer wordt toegepast.
 
 **Naam van eigenschap: ComputerSid**
 
-1. Beschrijving: Hiermee bepaalt u of u dit beleid moet toepassen op een specifieke machine- of machinegroep; één invoer kan maximaal één ComputerSid hebben en een vermelding zonder computerSid betekent dat u het beleid op de computer moet toepassen. Als u een vermelding wilt toepassen op een specifieke gebruiker en specifieke computer, voegt u zowel Sid als ComputerSid toe aan dezelfde vermelding.
+Beschrijving: Hiermee bepaalt u of u dit beleid moet toepassen op een specifieke machine- of machinegroep; één invoer kan maximaal één ComputerSid hebben en een vermelding zonder computerSid betekent dat u het beleid op de computer moet toepassen. Als u een vermelding wilt toepassen op een specifieke gebruiker en specifieke computer, voegt u zowel Sid als ComputerSid toe aan dezelfde vermelding.
 
 **Eigenschapsnaam: Opties**
 
-1. Beschrijving: Definieert of u een melding wilt weergeven of niet.
+Beschrijving: Definieert of u een melding wilt weergeven of niet.
 
    :::image type="content" source="images/device-status.png" alt-text="Het scherm waarop de status van het apparaat kan worden gezien":::
 
-1. Opties: 0-4. Wanneer Toestaan of Weigeren typen is geselecteerd:
+Opties: 0-4. Wanneer Toestaan of Weigeren typen is geselecteerd:
 
    - 0: niets
    - 4: Schakel **AuditAllowed en** **AuditDenied uit** voor deze vermelding. Zelfs als **Blokkering** wordt uitgevoerd en **de instelling AuditDenied** is geconfigureerd, wordt er geen melding in het systeem uitgevoerd.
@@ -159,16 +161,16 @@ Wanneer er conflicttypen voor dezelfde media zijn, wordt het eerste conflict in 
 
 **Naam van eigenschap: AccessMask**
 
-1. Beschrijving: Definieert de toegang.
+Beschrijving: Definieert de toegang.
 
-1. Opties: 1-7:
-    - 1: Lezen
-    - 2: Schrijven
-    - 3: Lezen en schrijven
-    - 4: Uitvoeren
-    - 5: Lezen en uitvoeren
-    - 6: Schrijven en uitvoeren
-    - 7: Lezen en schrijven en uitvoeren
+Opties 1-7:
+  - 1: Lezen
+  - 2: Schrijven
+  - 3: Lezen en schrijven
+  - 4: Uitvoeren
+  - 5: Lezen en uitvoeren
+  - 6: Schrijven en uitvoeren
+  - 7: Lezen en schrijven en uitvoeren
 
 ## <a name="common-removable-storage-access-control-scenarios"></a>Veelvoorkomende verwisselbare Storage Access Control-scenario's
 
@@ -177,6 +179,7 @@ Om u vertrouwd te maken met Microsoft Defender voor eindpuntverwisselbaar Storag
 ### <a name="scenario-1-prevent-write-and-execute-access-to-all-but-allow-specific-approved-usbs"></a>Scenario 1: Schrijf- en uitvoertoegang tot iedereen voorkomen, maar sta specifieke goedgekeurde USB's toe
 
 1. Groepen aanmaken
+
     1. Groep 1: Eventuele verwisselbare opslag en cd/dvd. Een voorbeeld van een verwisselbare opslag en cd/dvd is: Groep **9b28fae8-72f7-4267-a1a5-685f747a7146** in het voorbeeld Elk verwisselbaar Storage- en [cd-dvd-Group.xml-bestand.](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples)
     
     2. Groep 2: Goedgekeurde USB's op basis van apparaateigenschappen. Een voorbeeld van deze use case is: Instance ID – Group **65fa649a-a111-4912-9294-fb6337a25038** in the sample [Approved USBs Group.xml](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) file.
@@ -185,13 +188,15 @@ Om u vertrouwd te maken met Microsoft Defender voor eindpuntverwisselbaar Storag
     > U moet vervangen `&` door `&amp;` in de waarde.
 
 2. Beleid maken
-    1. Beleid 1: Schrijf- en uitvoertoegang blokkeren, maar goedgekeurde USB's toestaan. Een voorbeeld voor deze use case is: PolicyRule **c544a991-5786-4402-949e-a032cb790d0e** in het voorbeeld [scenario 1 Blokschrijven](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) en Access uitvoeren, maar goedgekeurde USB's .xml-bestand toestaan.
+
+    1. Beleid 1: Schrijf- en uitvoertoegang blokkeren, maar goedgekeurde USB's toestaan. Een voorbeeld van deze use case is: PolicyRule **c544a991-5786-4402-949e-a032cb790d0e** in het voorbeeld [scenario 1 Blokschrijven](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) en Access uitvoeren, maar goedgekeurd USBs.xml-bestand toestaan.
     
     2. Beleid 2: Controle schrijf- en uitvoertoegang tot toegestane USB's. Een voorbeeld van deze use case is: PolicyRule **36ae1037-a639-4cff-946b-b36c53089a4c** in het voorbeeld [van Scenario 1 Audit Write and Execute access to approved USBs.xml](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) file.
 
 ### <a name="scenario-2-audit-write-and-execute-access-to-all-but-block-specific-unapproved-usbs"></a>Scenario 2: Audit Write and Execute access to all but block specific unapproved USBs
 
 1. Groepen aanmaken
+
     1. Groep 1: Eventuele verwisselbare opslag en cd/dvd. Een voorbeeld van dit gebruiksvoorbeeld is: Groep **9b28fae8-72f7-4267-a1a5-685f747a7146** in het voorbeeld Een verwisselbaar Storage- en [cd-dvd-Group.xml-bestand.](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples)
     
     2. Groep 2: Niet-goedgekeurde USB's op basis van apparaateigenschappen, bijvoorbeeld Leverancier-id/product-id, vriendelijke naam – Groep **65fa649a-a111-4912-9294-fb6337a25038** in het voorbeeld Van niet-goedgekeurde [USB's Group.xml](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) bestand. 
@@ -200,6 +205,7 @@ Om u vertrouwd te maken met Microsoft Defender voor eindpuntverwisselbaar Storag
     > U moet vervangen `&` door `&amp;` in de waarde.
 
 2. Beleid maken
+
     1. Beleid 1: De toegang voor schrijven en uitvoeren blokkeren tot alle niet-goedgekeurde USB's, behalve blokkeren. Een voorbeeld van deze use case is: PolicyRule **23b8e437-66ac-4b32-b3d7-24044637fc98** in het voorbeeld van Scenario 2 Audit Write and Execute access to all but block specific [unapproved USBs.xml](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) file.
     
     2. Beleid 2: audit schrijf- en uitvoertoegang tot anderen. Een voorbeeld van deze use case is: PolicyRule **b58ab853-9a6f-405c-a194-740e69422b48** in het voorbeeld [van Scenario 2 Audit Write and Execute access to others.xmlfile.](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples)
@@ -314,3 +320,31 @@ DeviceEvents
 ```
 
 :::image type="content" source="images/block-removable-storage.png" alt-text="Het scherm met de blokkering van de verwisselbare opslag":::
+
+## <a name="frequently-asked-questions"></a>Veelgestelde vragen
+**Wat is de beperking van verwisselbare opslagmedia voor het maximum aantal USB's?**
+
+We hebben één USB-groep gevalideerd met 100.000 media- tot 7 MB groot. Het beleid werkt in zowel Intune als GPO zonder prestatieproblemen.
+
+**Waarom werkt het beleid niet?**
+
+De meest voorkomende reden is dat er geen [vereiste antimalwareclientversie is.](/microsoft-365/security/defender-endpoint/device-control-removable-storage-access-control?view=o365-worldwide#prepare-your-endpoints)
+
+Een andere reden kan zijn dat het XML-bestand niet correct is opgemaakt, bijvoorbeeld door de juiste markeringsopmaak voor het teken '&' in het XML-bestand niet te gebruiken, of dat de teksteditor een byteorderteken (BOM) 0xEF 0xBB 0xBF aan het begin van de bestanden toevoegt, waardoor de XML-parsing niet werkt. Een eenvoudige oplossing is om het voorbeeldbestand [te downloaden](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) (selecteer **Raw** en vervolgens **Opslaan als)** en vervolgens bij te werken.
+
+Als er een waarde is en het beleid wordt beheerd via groepsbeleid, controleert u of het clientapparaat toegang heeft tot het XML-pad voor beleid.
+
+**Hoe weet ik welke computer een verouderd antimalware-clientversie in de organisatie gebruikt?**
+
+U kunt volgende query gebruiken om de versie van de antimalwareclient op te halen in Microsoft 365 beveiligingsportal:
+```kusto
+//check the antimalware client version
+DeviceFileEvents
+| where FileName == "MsMpEng.exe"
+| where FolderPath contains @"C:\ProgramData\Microsoft\Windows Defender\Platform\"
+| extend PlatformVersion=tostring(split(FolderPath, "\\", 5))
+//| project DeviceName, PlatformVersion // check which machine is using legacy platformVersion
+| summarize dcount(DeviceName) by PlatformVersion // check how many machines are using which platformVersion
+| order by PlatformVersion desc
+```
+

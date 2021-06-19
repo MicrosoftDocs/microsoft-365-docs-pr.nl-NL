@@ -1,5 +1,5 @@
 ---
-title: Overzicht van Microsoft 365 Defender-API's
+title: Overzicht van Microsoft 365 Defender API's
 description: Meer informatie over de beschikbare API's in Microsoft 365 Defender
 keywords: api's, overzicht, incident, incidenten, bedreigingsjacht, microsoft 365 defender
 search.product: eADQiWindows 10XVcnh
@@ -20,14 +20,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: b19a6072be5f97b90c117f053ccae4593587c43d
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: 1ddb6da49e5e9f23aacf73caaeb91302ac9c19c9
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730892"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028965"
 ---
-# <a name="overview-of--microsoft-365-defender-apis"></a>Overzicht van Microsoft 365 Defender-API's
+# <a name="overview-of-microsoft-365-defender-apis"></a>Overzicht van Microsoft 365 Defender API's
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -40,7 +40,7 @@ ms.locfileid: "52730892"
 
 Microsoft 365 Defender is gebouwd op een platform dat klaar is voor integratie.
 
-Gebruik de Microsoft 365 Defender-API's om werkstromen te automatiseren op basis van het gedeelde incident en geavanceerde zoektabellen.
+Gebruik de Microsoft 365 Defender API's om werkstromen te automatiseren op basis van het gedeelde incident en geavanceerde zoektabellen.
 
 - **[Wachtrij gecombineerde](api-incident.md)** incidenten: focus op wat kritiek is door het volledige aanvalsbereik en alle beïnvloede activa te groeperen onder de incident-API.
 
@@ -49,7 +49,7 @@ Gebruik de Microsoft 365 Defender-API's om werkstromen te automatiseren op basis
 Gebruik de [Streaming API om](../defender-endpoint/raw-data-export.md) realtimegebeurtenissen en waarschuwingen van exemplaren te verzenden terwijl deze binnen één gegevensstroom plaatsvinden.
 
 
-Naast deze Microsoft 365 defender-specifieke API's, worden in elk [](api-articles.md) van onze andere beveiligingsproducten extra API's aan de man Microsoft 365 om te profiteren van hun unieke mogelijkheden.
+Naast deze Microsoft 365 Defender-specifieke API's, worden in elk [](api-articles.md) van onze andere beveiligingsproducten extra API's aan de man Microsoft 365 Defender om te profiteren van hun unieke mogelijkheden.
 
 
 > [!NOTE]
@@ -61,12 +61,12 @@ Naast deze Microsoft 365 defender-specifieke API's, worden in elk [](api-article
 | **Meer informatie over het openen van de API's** |
 |-|
 | [Meer informatie over API-quota en -licenties](api-terms.md) |
-| [Toegang tot Microsoft 365 Defender-API's](api-access.md) |
+| [Toegang tot de Microsoft 365 Defender API's](api-access.md) |
 | **Apps maken** |
 | [Een 'Hello world' app maken](api-hello-world.md) |
-| [Een app maken voor toegang Microsoft 365 Defender-API's namens een gebruiker](api-create-app-user-context.md) |
-| [Een app maken voor toegang Microsoft 365 Defender zonder een gebruiker](api-create-app-web.md) |
-| [Een app maken met partnertoegang voor meerdere tenants Microsoft 365 Defender-API's](api-partner-access.md) |
+| [Een app maken voor toegang Microsoft 365 Defender API's namens een gebruiker](api-create-app-user-context.md) |
+| [Een app maken voor toegang tot Microsoft 365 Defender zonder een gebruiker](api-create-app-web.md) |
+| [Een app maken met partnertoegang voor meerdere tenants Microsoft 365 Defender API's](api-partner-access.md) |
 | **Problemen met uw apps oplossen en onderhouden** |
 | [Api-foutcodes begrijpen](api-error-codes.md) |
 | [Geheimen beheren in uw apps met Azure Key Vault](/learn/modules/manage-secrets-with-azure-key-vault/) |

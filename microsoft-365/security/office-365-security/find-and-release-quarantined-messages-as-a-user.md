@@ -20,12 +20,12 @@ ms.custom:
 description: Gebruikers kunnen meer informatie krijgen over het weergeven en beheren van berichten in quarantaine in Exchange Online Protection (EOP) die aan hun hadden moeten worden afgeleverd.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 60b319b81362b9d88afcd734021db227969b04d0
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 02119130df847da48f0c25ba13cbb321c83f59dd
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52877870"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028389"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user-in-eop"></a>Berichten in quarantaine zoeken en vrijgeven als gebruiker in EOP
 
@@ -38,22 +38,10 @@ ms.locfileid: "52877870"
 
 In Microsoft 365-bedrijven met postvakken in Exchange Online of EOP-bedrijven (standalone Exchange Online Protection) zonder Exchange Online-postvakken worden potentieel gevaarlijke of ongewenste berichten in quarantaine geplaatst. Zie [Quarantaine in EOP](quarantine-email-messages.md) voor meer informatie.
 
-Als ontvanger van een in quarantaine geplaatst bericht wordt in de volgende tabel beschreven wat je als gewone gebruiker met het bericht kunt doen:
-
-<br>
-
-****
-
-|Reden van quarantaine|Weergeven|Vrijgeven|Verwijderen|
-|---|:---:|:---:|:---:|
-|Bulk|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|
-|Spam|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|
-|Phishing (geen hoge phishingwaarschijnlijkheid)|![Vinkje](../../media/checkmark.png)||![Vinkje](../../media/checkmark.png)|
-|
 
 Je kunt je in quarantaine geplaatste berichten weergeven en beheren in de Microsoft 365 Defender-portal of (als een beheerder dit heeft ingesteld) in [spammeldingen voor eindgebruikers](use-spam-notifications-to-release-and-report-quarantined-messages.md).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet je weten voordat je begint?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
 - Ga naar <https://security.microsoft.com> als je de Microsoft 365 Defender-portal wilt openen. Ga naar <https://security.microsoft.com/quarantine> als je de Quarantaine-pagina direct wilt openen.
 

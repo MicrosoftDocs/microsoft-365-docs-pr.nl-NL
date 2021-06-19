@@ -20,12 +20,12 @@ description: Meer informatie over het gebruik van mogelijkheden voor het onderzo
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 02e396cac060f2b8431b2b70e89c18950596d9c2
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: ef29493bd68166b88bba3ef5905f0427823b4015
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933371"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028847"
 ---
 # <a name="investigate-malicious-email-that-was-delivered-in-office-365"></a>Onderzoek naar schadelijke e-mail die is bezorgd in Office 365
 
@@ -51,7 +51,7 @@ Zorg ervoor dat aan de volgende vereisten wordt voldaan:
 
 - Uw organisatie heeft beleidsregels gedefinieerd voor antispam, anti-malware, anti-phishing, en meer. Zie [Beschermen tegen bedreigingen in Office 365.](protect-against-threats.md)
 
-- U bent een globale beheerder of u hebt de beveiligingsbeheerder of de rol Zoeken en zuiveren toegewezen in het beveiligings- & compliancecentrum. Zie [Machtigingen in het Beveiligings- & Compliancecentrum](permissions-in-the-security-and-compliance-center.md). Voor sommige acties moet er ook een nieuwe voorbeeldrol zijn toegewezen.
+- U bent een globale beheerder of u hebt de beveiligingsbeheerder of de rol Zoeken en Microsoft 365 Defender. Zie [Machtigingen in de Microsoft 365 Defender.](permissions-in-the-security-and-compliance-center.md) Voor sommige acties moet er ook een nieuwe voorbeeldrol zijn toegewezen.
 
 ### <a name="preview-role-permissions"></a>Voorbeeld van rolmachtigingen
 
@@ -67,10 +67,10 @@ Als u bepaalde acties wilt uitvoeren, zoals het weergeven van berichtkoppen of h
 |
 
 > [!NOTE]
-> *Voorbeeld* is een rol en geen rollengroep. de voorbeeldrol moet worden toegevoegd aan een bestaande rollengroep voor Office 365 (op <https://protection.office.com> ). Ga naar **Machtigingen** en bewerk vervolgens een bestaande rollengroep of voeg een nieuwe rollengroep toe met de **toegewezen voorbeeldrol.**
-> De rol Globale beheerder wordt toegewezen aan het Microsoft 365-beheercentrum () en de rollen Beveiligingsbeheerder en Beveiligingslezer worden toegewezen in het <https://admin.microsoft.com> Beveiligings- & Compliancecentrum ( <https://protection.office.com> ). Zie Machtigingen in het Beveiligings- & Compliancecentrum voor meer informatie over rollen [en machtigingen.](permissions-in-the-security-and-compliance-center.md)
+> *Voorbeeld* is een rol en geen rollengroep. de voorbeeldrol moet worden toegevoegd aan een bestaande rollengroep voor Office 365 (op <https://security.microsoft.com> ). Ga naar **Machtigingen** en bewerk vervolgens een bestaande rollengroep of voeg een nieuwe rollengroep toe met de **toegewezen voorbeeldrol.**
+> De rol Globale beheerder wordt toegewezen aan Microsoft 365-beheercentrum ( ) en de rollen Beveiligingsbeheerder en Beveiligingslezer worden <https://admin.microsoft.com> toegewezen in Microsoft 365 Defender ( <https://security.microsoft.com> ). Zie Machtigingen in het Microsoft 365 Defender voor [meer informatie over rollen en machtigingen.](permissions-in-the-security-and-compliance-center.md)
 
-We begrijpen dat het bekijken en downloaden van e-mail gevoelige activiteiten zijn en daarom is auditing ingeschakeld voor deze activiteiten. Wanneer een beheerder deze activiteiten uitvoert op e-mailberichten, worden auditlogboeken voor hetzelfde gegenereerd en kunnen ze worden gezien in het Office 365 Security & Compliance Center ( <https://protection.office.com> ). Ga naar **Zoeken in**  >  **het auditlogboek en** filter op de naam van de beheerder in de sectie Zoeken. In de gefilterde resultaten wordt activiteit **AdminMailAccess weer te geven.** Selecteer een rij om details weer te geven in de sectie **Meer informatie** over voorbeeld van of gedownloade e-mail.
+We begrijpen dat het bekijken en downloaden van e-mail gevoelige activiteiten zijn en daarom is auditing ingeschakeld voor deze activiteiten. Wanneer een beheerder deze activiteiten uitvoert op e-mailberichten, worden auditlogboeken voor hetzelfde gegenereerd en kan deze worden gezien in de Office 365 Microsoft 365 Defender ( <https://security.microsoft.com> ). Ga naar **Zoeken in**  >  **het auditlogboek en** filter op de naam van de beheerder in de sectie Zoeken. In de gefilterde resultaten wordt activiteit **AdminMailAccess weer te geven.** Selecteer een rij om details weer te geven in de sectie **Meer informatie** over voorbeeld van of gedownloade e-mail.
 
 ## <a name="find-suspicious-email-that-was-delivered"></a>Verdachte e-mail zoeken die is bezorgd
 
@@ -79,13 +79,11 @@ Threat Explorer is een krachtig rapport dat meerdere doeleinden kan dienen, zoal
 > [!NOTE]
 > Standaardzoek zoekopdrachten in Explorer bevatten momenteel geen Zapped-items.  Dit geldt voor alle weergaven, bijvoorbeeld malware- of phish-weergaven. Als u Zapped-items wilt opnemen, moet u een actieset **Bezorging** toevoegen om **Verwijderd door ZAP op te nemen.** Als u alle opties opneemt, ziet u alle resultaten van de bezorgingsactie, inclusief Zapped-items.
 
-1. **Ga naar Threat Explorer:** Ga naar en meld u aan met uw werk- of <https://protection.office.com> schoolaccount voor Office 365. Dit brengt u naar het Beveiligings- & compliancecentrum.
+1. **Ga naar Threat Explorer:** Ga naar en meld u aan met uw werk- of <https://security.microsoft.com> schoolaccount voor Office 365. Dit brengt u naar Microsoft 365 Defender.
 
-2. Kies in de linkernavigatie quick-launch de optie **Threat management** \> **Explorer**.
+2. Kies in de linkernavigatieverkenner snel starten de optie **E-mail & Samenwerkingsverkenner** \> .
 
-    ![Explorer met de velden Bezorgingsactie en Bezorgingslocatie.](../../media/ThreatExFields.PNG)
-
-    Mogelijk ziet u de nieuwe kolom **Speciale** acties. Deze functie is bedoeld om beheerders te vertellen wat het resultaat is van het verwerken van een e-mailbericht. De **kolom Speciale** acties kan worden gebruikt op dezelfde plaats als de bezorgingsactie en de  **bezorgingslocatie.** Speciale acties kunnen worden bijgewerkt aan het einde van de e-mailtijdlijn van Threat Explorer. Dit is een nieuwe functie waarmee beheerders de zoekervaring kunnen verbeteren.
+      Mogelijk ziet u de nieuwe kolom **Speciale** acties. Deze functie is bedoeld om beheerders te vertellen wat het resultaat is van het verwerken van een e-mailbericht. De **kolom Speciale** acties kan worden gebruikt op dezelfde plaats als de bezorgingsactie en de  **bezorgingslocatie.** Speciale acties kunnen worden bijgewerkt aan het einde van de e-mailtijdlijn van Threat Explorer. Dit is een nieuwe functie waarmee beheerders de zoekervaring kunnen verbeteren.
 
 3. **Weergaven in Threat Explorer:** kies in **het** menu Beeld de optie **Alle e-mail.**
 

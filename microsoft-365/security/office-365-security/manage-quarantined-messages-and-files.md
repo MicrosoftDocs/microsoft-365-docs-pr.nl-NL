@@ -19,12 +19,12 @@ ms.custom:
 description: Beheerders kunnen leren hoe u berichten in quarantaine kunt weergeven en beheren voor alle gebruikers in Exchange Online Protection (EOP). Beheerders in organisaties met Microsoft Defender voor Office 365 kunnen ook in quarantaine geplaatste bestanden beheren in SharePoint Online, OneDrive voor Bedrijven en Microsoft Teams.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 01d5011248d1c0fc0daab0d04e1cca39e26e34bd
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 59bdfdaddbc091467bfd2ccddc2c40377955fab3
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878890"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028989"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>Berichten en bestanden in quarantaine beheren als EOP-beheerder
 
@@ -45,7 +45,7 @@ U bekijkt en beheert in quarantaine geplaatste berichten in de Microsoft 365 Def
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- Als u de portal Microsoft 365 Defender wilt openen, gaat u naar <https://security.microsoft.com> . Ga naar <https://security.microsoft.com/quarantine> als u de quarantaine-pagina direct wilt openen.
+- Ga naar <https://security.microsoft.com> als je de Microsoft 365 Defender-portal wilt openen. Ga naar <https://security.microsoft.com/quarantine> als je de Quarantaine-pagina direct wilt openen.
 
 - Zie [Verbinding maken met Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](/powershell/exchange/connect-to-exchange-online-protection-powershell) als je verbinding wilt maken met zelfstandige EOP PowerShell.
 
@@ -68,11 +68,11 @@ U bekijkt en beheert in quarantaine geplaatste berichten in de Microsoft 365 Def
 
   Wanneer een bericht verloopt vanuit quarantaine, kunt u het bericht niet herstellen.
 
-## <a name="use-the-microsoft-365-defender-portal-to-manage-quarantined-email-messages"></a>Gebruik de Microsoft 365 Defender-portal om in quarantaine geplaatste e-mailberichten te beheren
+## <a name="use-the-microsoft-365-defender-portal-to-manage-quarantined-email-messages"></a>De portal Microsoft 365 Defender in quarantaine geplaatste e-mailberichten beheren
 
 ### <a name="view-quarantined-email"></a>In quarantaine geplaatste e-mail weergeven
 
-1. Ga in Microsoft 365 Defender-portal naar **E-mail & Samenwerking** Controleren \>  \> **quarantaine.**
+1. Ga in de Microsoft 365 Defender-portal naar **E-mail en samenwerking** \> **Controleren** \> **Quarantine**.
 
 2. Controleer op **de** pagina Quarantaine of **Weergave in quarantaine** is ingesteld op de standaardwaarde-e-mail. 
 
@@ -195,8 +195,7 @@ Wanneer u meerdere in quarantaine geplaatste berichten in de  lijst selecteert (
 
 Klik op **Sluiten** wanneer u gereed bent.
 
-## <a name="use-the-microsoft-365-defender-portal-to-manage-quarantined-files-in-defender-for-office-365"></a>Gebruik de Microsoft 365 Defender-portal om in quarantaine geplaatste bestanden in Defender te beheren voor Office 365
-
+## <a name="use-the-microsoft-365-defender-portal-to-manage-quarantined-files-in-defender-for-office-365"></a>Gebruik de Microsoft 365 Defender portal voor het beheren van in quarantaine geplaatste bestanden in Defender voor Office 365
 > [!NOTE]
 > De procedures voor in quarantaine geplaatste bestanden in deze sectie zijn alleen beschikbaar voor Abonnees Office 365 Abonnement 1 en Abonnement 2.
 
@@ -204,7 +203,8 @@ In organisaties met Defender voor Office 365 kunnen beheerders in quarantaine ge
 
 ### <a name="view-quarantined-files"></a>In quarantaine geplaatste bestanden weergeven
 
-1. Ga in Microsoft 365 Defender-portal naar **E-mail & Samenwerking** Controleren \>  \> **quarantaine.**
+1. Ga in de Microsoft 365 Defender-portal naar **E-mail en samenwerking** \> **Controleren** \> **Quarantine**.
+
 
 2. Op de **pagina Quarantaine** wijzigt u Weergave in **quarantaine in** de **waardebestanden.** U kunt sorteren op een veld door op een beschikbare kolomkop te klikken.
 

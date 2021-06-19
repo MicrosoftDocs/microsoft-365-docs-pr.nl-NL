@@ -17,35 +17,35 @@ search.appverid:
 - MOE150
 - BCS160
 ms.assetid: c08786fb-298e-437c-8222-dab7625fc815
-description: 'Overzicht: Beschrijft IPv6-ondersteuning in Microsoft Office 365 onderdelen en in Office 365 overheidsaanbiedingen.'
-ms.openlocfilehash: 7f06ed6f8df2c6552ee0a331ad958bca289d0a09
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: 'Overzicht: Beschrijft IPv6-ondersteuning in Microsoft Office 365-onderdelen en in office 365-overheidsaanbiedingen.'
+ms.openlocfilehash: a509b19711092bddf153a677c41860e7a4e5277a
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909680"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028905"
 ---
 # <a name="ipv6-support-in-office-365-services"></a>IPv6-ondersteuning in Office 365-services
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-Office 365 ondersteunt zowel IPv6 als IPv4; Niet alle functies Office 365 zijn echter volledig ingeschakeld met IPv6. Dit betekent dat u zowel IPv4 als IPv6 moet gebruiken om verbinding te maken met Office 365. Als u uw uitgaande verkeer filtert naar Office 365, vindt u de volledige lijst met IPv6-adressen die worden ondersteund door Office 365 in het artikel Office 365 URL's en [IP-adresbereiken.](urls-and-ip-address-ranges.md) Nadat uw netwerk is geconfigureerd en de juiste IPv6-adressen zijn toegestaan, kunt u het Office 365 [IPv6-testplan](https://go.microsoft.com/fwlink/?LinkId=293447) downloaden vanuit het Microsoft Downloadcentrum.
+Office 365 ondersteunt zowel IPv6 als IPv4. Niet alle Office 365-functies zijn echter volledig ingeschakeld met IPv6. Dit betekent dat u zowel IPv4 als IPv6 moet gebruiken om verbinding te maken met Office 365. Als u het uitgaande verkeer naar Office 365 filtert, vindt u de volledige lijst met IPv6-adressen die worden ondersteund door Office 365 in het artikel URL's en IP-adresbereiken van [Office 365.](urls-and-ip-address-ranges.md) Nadat uw netwerk is geconfigureerd en de juiste IPv6-adressen zijn toegestaan, kunt u het [Office 365 IPv6-testplan](https://go.microsoft.com/fwlink/?LinkId=293447) downloaden vanuit het Microsoft Downloadcentrum.
   
-## <a name="ipv6-support-in-office-365-subscription-service"></a>IPv6-ondersteuning in Office 365 abonnementsservice
+## <a name="ipv6-support-in-office-365-subscription-service"></a>IPv6-ondersteuning in office 365-abonnementsservice
 
 ### <a name="exchange-online-and-ipv6"></a>Exchange Online en IPv6
 
-Als het programma dat u gebruikt om verbinding te maken met Exchange Online IPv6 ondersteunt, wordt IPv6 standaard gebruikt op zowel bekabelde als draadloze netwerken. Als u de communicatie wilt Exchange Online, gebruikt u de IP-adresbereiken in Office 365 [URL's en IP-adresbereiken.](urls-and-ip-address-ranges.md)
+Als het programma dat u gebruikt om verbinding te maken met Exchange Online IPv6 ondersteunt, wordt IPv6 standaard gebruikt op zowel bekabelde als draadloze netwerken. Als u de communicatie met Exchange Online wilt controleren, gebruikt u de IP-adresbereiken in URL's en [IP-adresbereiken van Office 365.](urls-and-ip-address-ranges.md)
   
 ### <a name="sharepoint-online-and-ipv6"></a>SharePoint Online en IPv6
 
  **Office 365 Government G1/G3/G4/K1** Als het programma dat u gebruikt om verbinding te maken met SharePoint Online IPv6 ondersteunt, wordt standaard geprobeerd IPv6 te gebruiken.
   
- **Openbare cloud met meerdere tenants** Microsoft schakelt SharePoint online IPv6 op uw verzoek in. U moet de IP-adressen met cidr-noteerde ip-adressen voor de DNS-infrastructuur van uw organisatie verstrekken. Houd er rekening mee dat deze DNS-infrastructuur niet kan worden gedeeld door andere organisaties, zodat IPv6 kan worden ingeschakeld voor uw tenant. Nadat IPv6 is ingeschakeld en het programma dat u gebruikt om verbinding te maken met SharePoint Online IPv6 ondersteunt, wordt IPv6 standaard gebruikt.
+ **Openbare cloud met meerdere tenants** Microsoft schakelt op uw verzoek SharePoint Online IPv6 in. U moet de IP-adressen met cidr-noteerde ip-adressen voor de DNS-infrastructuur van uw organisatie verstrekken. Houd er rekening mee dat deze DNS-infrastructuur niet kan worden gedeeld door andere organisaties, zodat IPv6 kan worden ingeschakeld voor uw tenant. Nadat IPv6 is ingeschakeld en het programma dat u gebruikt om verbinding te maken met SharePoint Online IPv6 ondersteunt, wordt IPv6 standaard gebruikt.
   
-Als het programma dat u gebruikt om verbinding te maken met SharePoint Online IPv6 ondersteunt, wordt IPv6 standaard gebruikt op zowel bekabelde als draadloze netwerken. Als u de communicatie naar SharePoint Online wilt controleren, gebruikt u de IP-adresbereiken in Office 365 [URL's en IP-adresbereiken.](urls-and-ip-address-ranges.md)
+Als het programma dat u gebruikt om verbinding te maken met SharePoint Online IPv6 ondersteunt, wordt IPv6 standaard gebruikt op zowel bekabelde als draadloze netwerken. Als u de communicatie naar SharePoint Online wilt controleren, gebruikt u de IP-adresbereiken in URL's en [IP-adresbereiken van Office 365.](urls-and-ip-address-ranges.md)
   
- **Office 365 Government G1/G3/G4/K1** Als het programma dat u gebruikt om verbinding te maken met SharePoint Online IPv6 ondersteunt, wordt standaard geprobeerd IPv6 te gebruiken.
+ 
   
 ### <a name="skype-for-business-and-ipv6"></a>Skype voor Bedrijven en IPv6
 
@@ -53,21 +53,21 @@ Houd er rekening mee dat IPv6 niet wordt ondersteund in Skype voor Bedrijven en 
 
 ### <a name="microsoft-teams-and-ipv6"></a>Microsoft Teams en IPV6
 
-Microsoft Teams Directe routering ondersteunt alleen IPv4. De Microsoft Teams service en client ondersteunen zowel IPv4 als IPv6. Als u de communicatie wilt Microsoft Teams, gebruikt u de IP-adresbereiken in Office 365 [URL's en IP-adresbereiken.](urls-and-ip-address-ranges.md)
+Microsoft Teams Direct Routing ondersteunt alleen IPv4. De Microsoft Teams-service en client ondersteunen zowel IPv4 als IPv6. Als u de communicatie met Microsoft Teams wilt controleren, gebruikt u de IP-adresbereiken in URL's en [IP-adresbereiken van Office 365.](urls-and-ip-address-ranges.md)
   
 ### <a name="exchange-online-protection-and-ipv6"></a>Exchange Online Protection en IPv6
 
-Exchange Online Protection (EOP) ondersteunt IPv6 als de overdracht plaatsvindt via Transport Layer Security Protocol. Gebruik voor het EOP-bereik [Office 365 URL's en IP-adresbereiken.](urls-and-ip-address-ranges.md)
+Exchange Online Protection (EOP) ondersteunt IPv6 als de overdracht plaatsvindt via Transport Layer Security Protocol. Gebruik voor het EOP-bereik [Office 365-URL's en IP-adresbereiken.](urls-and-ip-address-ranges.md)
   
-### <a name="ipv6-support-for-office-365-government-offerings"></a>IPv6-ondersteuning voor Office 365 overheidsaanbiedingen
+### <a name="ipv6-support-for-office-365-government-offerings"></a>IPv6-ondersteuning voor office 365-overheidsaanbiedingen
 
-Office 365 IPv6-ondersteuning voor overheidsaanbiedingen voldoet aan de Office of Management and Budget (OMB) Memo for Chief Information Officers of Executive Departments and Agencies, evenals de federale overheid Adoption of Internet Protocol Version 6 (IPv6) memo. [Microsoft Office 365 voor overheid](https://go.microsoft.com/fwlink/p/?LinkId=325414) is een service met meerdere tenants die gegevens van de Amerikaanse overheid opgeslagen in een gescheiden communitycloud. Net als Office 365 biedt het product productiviteits- en samenwerkingsservices, zoals Exchange Online, Skype voor Bedrijven, SharePoint Online en Microsoft 365-apps voor ondernemingen. 
+Office 365 IPv6-ondersteuning voor overheidsaanbiedingen voldoet aan het Office of Management and Budget (OMB) Memo for Chief Information Officers of Executive Departments and Agencies, evenals de federale overheid Adoption of Internet Protocol Version 6 (IPv6) memo. [Microsoft Office 365 voor](https://go.microsoft.com/fwlink/p/?LinkId=325414) overheid is een service met meerdere tenants die amerikaanse overheidsgegevens opgeslagen in een gescheiden communitycloud. Net als andere Office 365-aanbiedingen biedt het bedrijf productiviteits- en samenwerkingsservices, zoals Exchange Online, Skype voor Bedrijven, SharePoint Online en Microsoft 365 Apps voor bedrijven. 
 
-De Microsoft Office 365 overheidsaanbiedingen zijn alleen van toepassing voor 2013 en hoger. Voor meer informatie over het Office 365 overheidsaanbiedingen, zie Aankondiging Office 365 voor de [overheid: Een](https://go.microsoft.com/fwlink/p/?LinkId=325414)Amerikaanse Government Community Cloud. International Traffic in Arms Regulations (ITAR) is een reeks Amerikaanse overheidsvoorschriften die de export en import van defensiegerelateerde artikelen en services op de United [States Munitions List (USML)](https://go.microsoft.com/fwlink/p/?LinkId=325415)bepalen. 
+De microsoft Office 365-overheidsaanbiedingen zijn alleen van toepassing voor 2013 en hoger. Zie Office 365 for Government: A US Government Community Cloud (Office 365 voor overheid) aankondigen voor meer informatie over het aanbod van de Office [365-overheid.](https://go.microsoft.com/fwlink/p/?LinkId=325414) International Traffic in Arms Regulations (ITAR) is een reeks Amerikaanse overheidsvoorschriften die de export en import van defensiegerelateerde artikelen en services op de United [States Munitions List (USML)](https://go.microsoft.com/fwlink/p/?LinkId=325415)bepalen. 
 
-Microsoft Office 365 for Enterprises biedt speciale hostingservices voor Microsoft-productiviteitsoplossingen ter ondersteuning van de beveiligings-, privacy- en nalevingsvereisten voor Amerikaanse federale agentschappen die een FISMA-certificering (Federal Information Security Management) vereisen en commerciële entiteiten die onderworpen zijn aan ITAR.
+Microsoft Office 365 voor Ondernemingen biedt speciale hostingservices voor Microsoft-productiviteitsoplossingen ter ondersteuning van de beveiligings-, privacy- en nalevingsvereisten voor Amerikaanse federale agentschappen waarvoor fisma-certificering (Federal Information Security Management) en commerciële entiteiten zijn vereist die onderworpen zijn aan ITAR.
   
-## <a name="things-to-consider-when-using-ipv6-and-office-365"></a>Dingen waar u rekening mee moet houden bij het gebruik van IPv6 en Office 365
+## <a name="things-to-consider-when-using-ipv6-and-office-365"></a>Waar u rekening mee moet houden bij het gebruik van IPv6 en Office 365
 
 U wordt aangeraden IPv6 niet uit te schakelen. Zie dit artikel met [richtlijnen voor meer informatie.](https://support.microsoft.com/help/929852/guidance-for-configuring-ipv6-in-windows-for-advanced-users) Als u wilt bepalen welke IP-versies in uw netwerk worden gebruikt, gaat u als volgt te werk:
   
@@ -77,13 +77,13 @@ U wordt aangeraden IPv6 niet uit te schakelen. Zie dit artikel met [richtlijnen 
 
 Deze overwegingen kunnen van toepassing zijn op uw netwerk:
   
-- De openbare abonnementsservice biedt geen ondersteuning voor aankopen met een creditcard via IPv6. Dit geldt niet voor de Government Community Cloud (GCC) omdat overheden Enterprise Agreement (EA) licenties hebben.
+- De openbare abonnementsservice biedt geen ondersteuning voor aankopen met een creditcard via IPv6. Dit is niet van toepassing op de Government Community Cloud (GCC), omdat overheden een EA-licentie (Enterprise Agreement) hebben.
 
 - IPv6 biedt geen ondersteuning voor sommige RMS-scenario's (Rights Management Services).
 
 - IPv6 biedt geen ondersteuning voor BlackBerry® Enterprise Server (BES), omdat BlackBerry geen ondersteuning biedt voor IPv6.
 
-- Als u Active Directory Federation Services (AD FS) gebruikt met Office 365, wordt reclame maken voor het AD FS-netwerk-eindpunt niet ondersteund Office 365 met IPv6. U moet AAAA-records niet opnemen in de AD FS DNS-vermelding bij het gebruik van Exchange Online. 
+- Als u Active Directory Federation Services (AD FS) gebruikt met Office 365, wordt reclame maken voor uw AD FS-netwerk-eindpunt naar Office 365 met IPv6 niet ondersteund. U moet AAAA-records niet opnemen in de AD FS DNS-vermelding wanneer u Exchange Online gebruikt. 
 
 Met deze korte koppeling kunt u teruggaan: [https://aka.ms/o365ip6]()
   
