@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.custom: api
-ms.openlocfilehash: ea05d37ebcd0953dd109f524775a55cf8d6b3683
-ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
+ms.openlocfilehash: 6243da415c5cc509be33eabffd12516367164bff
+ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52984962"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53022868"
 ---
 # <a name="export-software-vulnerabilities-assessment-per-device"></a>Beoordeling van beveiligingsproblemen met software per apparaat exporteren
 
@@ -32,23 +32,23 @@ ms.locfileid: "52984962"
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 >
 Retourneert alle bekende softwareproblemen en hun gegevens voor alle apparaten, per apparaat.
 
 Er zijn verschillende API-oproepen om verschillende typen gegevens op te halen. Omdat de hoeveelheid gegevens erg groot kan zijn, kunnen deze op twee manieren worden opgehaald:
 
-1. [Beoordeling van beveiligingsproblemen met software exporteren OData](#1-export-software-vulnerabilities-assessment-odata)  De API haalt alle gegevens in uw organisatie op als Json-antwoorden, volgens het OData-protocol. Deze methode is het beste _voor kleine organisaties met minder dan 100 K-apparaten._ Het antwoord is paginated, zodat u het veld odata.nextLink uit het antwoord kunt gebruiken \@ om de volgende resultaten op te halen.
+1. [Beoordeling van **JSON-reactie** bij](#1-export-software-vulnerabilities-assessment-json-response) het exporteren van softwareproblemen  De API haalt alle gegevens in uw organisatie op als Json-antwoorden. Deze methode is het beste _voor kleine organisaties met minder dan 100 K-apparaten._ Het antwoord is paginated, zodat u het veld odata.nextLink uit het antwoord kunt gebruiken \@ om de volgende resultaten op te halen.
 
-2. [Beoordeling van beveiligingsproblemen met software via bestanden exporteren](#2-export-software-vulnerabilities-assessment-via-files) Met deze API-oplossing kunt u sneller en betrouwbaarder grotere hoeveelheden gegevens verzamelen. Via-bestanden wordt aanbevolen voor grote organisaties, met meer dan 100 K-apparaten. Met deze API worden alle gegevens in uw organisatie als downloadbestanden opgeslagen. Het antwoord bevat URL's om alle gegevens uit de Azure Storage. Met deze API kunt u al uw gegevens als volgt Azure Storage downloaden:
+2. [Beoordeling van beveiligingsproblemen met software **via bestanden exporteren**](#2-export-software-vulnerabilities-assessment-via-files) Met deze API-oplossing kunt u sneller en betrouwbaarder grotere hoeveelheden gegevens verzamelen. Via-bestanden wordt aanbevolen voor grote organisaties, met meer dan 100 K-apparaten. Met deze API worden alle gegevens in uw organisatie als downloadbestanden opgeslagen. Het antwoord bevat URL's om alle gegevens uit de Azure Storage. Met deze API kunt u al uw gegevens als volgt Azure Storage downloaden:
 
    - Bel de API om een lijst met url's te downloaden met al uw organisatiegegevens.
 
    - Download alle bestanden met de download-URL's en verwerkt de gegevens naar eigen goed gebruik.
 
-3. [Evaluatie van beveiligingsproblemen bij Delta-exportsoftware OData](#3-delta-export-software-vulnerabilities-assessment-odata)  Retourneert een tabel met een vermelding voor elke unieke combinatie van: DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion, CveId en EventTimestamp.
-De API haalt gegevens in uw organisatie op als Json-antwoorden, volgens het OData-protocol. Het antwoord is paginated, zodat u het veld @odata.nextLink uit het antwoord kunt gebruiken om de volgende resultaten op te halen. <br><br> In tegenstelling tot de evaluatie van volledige softwareproblemen (OData) - die wordt gebruikt om een volledige momentopname van de beoordeling van de beveiligingsproblemen in de software van uw organisatie per apparaat te verkrijgen - wordt de delta export OData API-oproep gebruikt om alleen de wijzigingen op te halen die zijn gebeurd tussen een geselecteerde datum en de huidige datum (de delta-API-oproep). In plaats van elke keer een volledige export met een grote hoeveelheid gegevens te krijgen, krijgt u alleen specifieke informatie over nieuwe, opgeloste en bijgewerkte beveiligingslekken. Delta export OData API-oproep kan ook worden gebruikt om verschillende KPI's te berekenen, zoals 'hoeveel beveiligingslekken zijn opgelost?' of 'hoeveel nieuwe beveiligingslekken zijn toegevoegd aan mijn organisatie?' <br><br> Omdat de Delta Export OData API call for software vulnerabilities gegevens retourneert voor alleen een gericht datumbereik, wordt deze niet beschouwd als _een volledige export_.
+3. [Delta Export software vulnerabilities assessment **JSON response**](#3-delta-export-software-vulnerabilities-assessment-json-response)  Retourneert een tabel met een vermelding voor elke unieke combinatie van: DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion, CveId en EventTimestamp.
+De API haalt gegevens in uw organisatie op als Json-antwoorden. Het antwoord is paginated, zodat u het veld @odata.nextLink uit het antwoord kunt gebruiken om de volgende resultaten op te halen. <br><br> In tegenstelling tot de volledige beoordeling van softwareproblemen (JSON-antwoord) - die wordt gebruikt om een volledige momentopname van de beoordeling van de beveiligingsproblemen van de software van uw organisatie per apparaat te verkrijgen - wordt de delta export OData API-oproep gebruikt om alleen de wijzigingen op te halen die zijn gebeurd tussen een geselecteerde datum en de huidige datum (de delta-API-oproep). In plaats van elke keer een volledige export met een grote hoeveelheid gegevens te krijgen, krijgt u alleen specifieke informatie over nieuwe, opgeloste en bijgewerkte beveiligingslekken. Delta export JSON response API call can also be used to calculate different KPI's such as "how many vulnerabilities were fixed?" of 'hoeveel nieuwe beveiligingslekken zijn toegevoegd aan mijn organisatie?' <br><br> Omdat de Delta Export JSON response API call for software vulnerabilities data returns for only a targeted date range, it is not considered a _full export_.
 
 Gegevens die worden verzameld (met _OData_ of _via_ bestanden) zijn de huidige momentopname van de huidige status en bevatten geen historische gegevens. Om historische gegevens te verzamelen, moeten klanten de gegevens opslaan in hun eigen gegevensopslag.
 
@@ -56,17 +56,17 @@ Gegevens die worden verzameld (met _OData_ of _via_ bestanden) zijn de huidige m
 >
 > Tenzij anders aangegeven, zijn alle vermelde exportbeoordelingsmethoden volledig **_geëxporteerd_** en **_per apparaat_** (ook wel per **_apparaat genoemd)._**
 
-## <a name="1-export-software-vulnerabilities-assessment-odata"></a>1. Evaluatie van softwareproblemen exporteren (OData)
+## <a name="1-export-software-vulnerabilities-assessment-json-response"></a>1. Evaluatie van softwareproblemen exporteren (JSON-antwoord)
 
 ### <a name="11-api-method-description"></a>Beschrijving van API-methode 1.1
 
 Deze API-reactie bevat alle gegevens van geïnstalleerde software per apparaat. Retourneert een tabel met een vermelding voor elke unieke combinatie van DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion, CVEID.
 
-#### <a name="limitations"></a>Beperkingen
+#### <a name="111-limitations"></a>1.1.1 Beperkingen
 
->- De maximale paginagrootte is 200.000.
->
->- Tariefbeperkingen voor deze API zijn 30 oproepen per minuut en 1000 oproepen per uur.
+- De maximale paginagrootte is 200.000.
+
+- Tariefbeperkingen voor deze API zijn 30 oproepen per minuut en 1000 oproepen per uur.
 
 ### <a name="12-permissions"></a>1.2 Machtigingen
 
@@ -89,7 +89,7 @@ GET /api/machines/SoftwareVulnerabilitiesByMachine
 - $top – aantal resultaten dat moet worden retourneren (wordt niet als resultaat @odata.nextLink en dus niet alle gegevens)
 
 ### <a name="15-properties"></a>1,5 eigenschappen
->
+
 >[!Note]
 >
 >- Elke record is ongeveer 1 KB aan gegevens. U moet hiermee rekening houden bij het kiezen van de juiste paginaSize-parameter voor u.
@@ -97,7 +97,8 @@ GET /api/machines/SoftwareVulnerabilitiesByMachine
 >- Sommige extra kolommen kunnen worden geretourneerd in het antwoord. Deze kolommen zijn tijdelijk en kunnen worden verwijderd, gebruik alleen de gedocumenteerde kolommen.
 >
 >- De eigenschappen die in de volgende tabel zijn gedefinieerd, worden alfabetisch weergegeven op eigenschap-id.  Bij het uitvoeren van deze API wordt de resulterende uitvoer niet noodzakelijkerwijs geretourneerd in dezelfde volgorde als in deze tabel.
->
+
+<br/>
 
 Eigenschap (id) | Gegevenstype | Beschrijving | Voorbeeld van een geretourneerde waarde
 :---|:---|:---|:---
@@ -335,17 +336,17 @@ GET https://api-us.securitycenter.contoso.com/api/machines/SoftwareVulnerabiliti
 }
 ```
 
-## <a name="3-delta-export-software-vulnerabilities-assessment-odata"></a>3. Delta Export software vulnerabilities assessment (OData)
+## <a name="3-delta-export-software-vulnerabilities-assessment-json-response"></a>3. Evaluatie van beveiligingsproblemen bij Delta-exportsoftware (JSON-antwoord)
 
 ### <a name="31-api-method-description"></a>Beschrijving van API-methode 3.1
 
-Retourneert een tabel met een vermelding voor elke unieke combinatie van DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion, CveId. De API haalt gegevens in uw organisatie op als Json-antwoorden, volgens het OData-protocol. Het antwoord is paginated, zodat u het veld @odata.nextLink uit het antwoord kunt gebruiken om de volgende resultaten op te halen. In tegenstelling tot de evaluatie van volledige softwareproblemen (OData) - die wordt gebruikt om een volledige momentopname van de beoordeling van de beveiligingsproblemen in de software van uw organisatie per apparaat te verkrijgen - wordt de delta export OData API-oproep gebruikt om alleen de wijzigingen op te halen die zijn gebeurd tussen een geselecteerde datum en de huidige datum (de delta-API-oproep). In plaats van elke keer een volledige export met een grote hoeveelheid gegevens te krijgen, krijgt u alleen specifieke informatie over nieuwe, opgeloste en bijgewerkte beveiligingslekken. Delta export OData API-oproep kan ook worden gebruikt om verschillende KPI's te berekenen, zoals 'hoeveel beveiligingslekken zijn opgelost?' of 'hoeveel nieuwe beveiligingslekken zijn toegevoegd aan mijn organisatie?'
+Retourneert een tabel met een vermelding voor elke unieke combinatie van DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion, CveId. De API haalt gegevens in uw organisatie op als Json-antwoorden. Het antwoord is paginated, zodat u het veld @odata.nextLink uit het antwoord kunt gebruiken om de volgende resultaten op te halen. In tegenstelling tot de evaluatie van de volledige softwareproblemen (JSON-antwoord), die wordt gebruikt om een volledige momentopname van de beoordeling van de beveiligingsproblemen in de software van uw organisatie per apparaat te verkrijgen, wordt de delta export JSON-antwoord-API-oproep gebruikt om alleen de wijzigingen op te halen die zijn gebeurd tussen een geselecteerde datum en de huidige datum (de 'delta' API-oproep). In plaats van elke keer een volledige export met een grote hoeveelheid gegevens te krijgen, krijgt u alleen specifieke informatie over nieuwe, opgeloste en bijgewerkte beveiligingslekken. Delta export JSON response API call can also be used to calculate different KPI's such as "how many vulnerabilities were fixed?" of 'hoeveel nieuwe beveiligingslekken zijn toegevoegd aan mijn organisatie?'
 
 >[!NOTE]
 >
->Het wordt ten zeerste aangeraden om ten minste één keer per week de volledige evaluatie van beveiligingsproblemen met de exportsoftware te gebruiken per apparaat-API-oproep, en deze extra exportsoftwareproblemen worden op alle andere dagen van de week gewijzigd door de apparaat-API(delta)-API- oproep.  In tegenstelling tot de andere OData-API assessments is de 'delta-export' geen volledige export. De delta-export bevat alleen de wijzigingen tussen een geselecteerde datum en de huidige datum (de 'delta'-API-oproep).
+>Het wordt ten zeerste aangeraden om ten minste één keer per week de volledige evaluatie van beveiligingsproblemen met de exportsoftware te gebruiken per apparaat-API-oproep, en deze extra exportsoftwareproblemen worden op alle andere dagen van de week gewijzigd door de apparaat-API(delta)-API- oproep.  In tegenstelling tot de andere beoordelings-JSON-antwoord-API's, is de 'delta-export' geen volledige export. De delta-export bevat alleen de wijzigingen tussen een geselecteerde datum en de huidige datum (de 'delta'-API-oproep).
 
-#### <a name="limitations"></a>Beperkingen
+#### <a name="311-limitations"></a>3.1.1 Beperkingen
 
 - De maximale paginagrootte is 200.000.
 
@@ -379,10 +380,10 @@ GET /api/machines/SoftwareVulnerabilityChangesByMachine
 Elke geretourneerde record bevat alle gegevens uit de volledige evaluatie van beveiligingsproblemen met software op het apparaat OData API, plus twee extra velden:  _**EventTimestamp**_ en _**Status**_.
 
 >[!NOTE]
->-Sommige extra kolommen kunnen worden geretourneerd in het antwoord. Deze kolommen zijn tijdelijk en kunnen worden verwijderd, dus gebruik alleen de gedocumenteerde kolommen.
+>- Sommige extra kolommen kunnen worden geretourneerd in het antwoord. Deze kolommen zijn tijdelijk en kunnen worden verwijderd, dus gebruik alleen de gedocumenteerde kolommen.
 >
->-De eigenschappen die in de volgende tabel zijn gedefinieerd, worden alfabetisch weergegeven op eigenschap-id.  Bij het uitvoeren van deze API wordt de resulterende uitvoer niet noodzakelijkerwijs geretourneerd in dezelfde volgorde als in deze tabel.
-<br>
+>- De eigenschappen die in de volgende tabel zijn gedefinieerd, worden alfabetisch weergegeven op eigenschap-id.  Bij het uitvoeren van deze API wordt de resulterende uitvoer niet noodzakelijkerwijs geretourneerd in dezelfde volgorde als in deze tabel.
+<br><br/>
 
 Eigenschap (id) | Gegevenstype | Beschrijving | Voorbeeld van geretourneerde waarde
 :---|:---|:---|:---
@@ -411,12 +412,12 @@ VulnerabilitySeverityLevel | string | Ernstniveau dat is toegewezen aan het beve
 #### <a name="clarifications"></a>Verduidelijkingen
 
 - Als de software is bijgewerkt van versie 1.0 naar versie 2.0 en beide versies worden blootgesteld aan CVE-A, ontvangt u twee afzonderlijke gebeurtenissen:  
-   a. Opgelost : CVE-A op versie 1.0 is opgelost  
-   b. Nieuw : CVE-A op versie 2.0 is toegevoegd
+   1. Opgelost : CVE-A op versie 1.0 is opgelost  
+   1. Nieuw : CVE-A op versie 2.0 is toegevoegd
 
 - Als een specifiek beveiligingsprobleem (bijvoorbeeld CVE-A) voor het eerst werd gezien op een specifiek tijdstip (bijvoorbeeld 10 januari) op software met versie 1.0 en een paar dagen later die software is bijgewerkt naar versie 2.0 die ook aan dezelfde CVE-A is blootgesteld, ontvangt u deze twee gescheiden gebeurtenissen:  
-   a. Opgelost: CVE-X, FirstSeenTimestamp 10 januari, versie 1,0.  
-   b. Nieuw : CVE-X, FirstSeenTimestamp 10 januari, versie 2.0.
+   1. Opgelost: CVE-X, FirstSeenTimestamp 10 januari, versie 1,0.  
+   1. Nieuw : CVE-X, FirstSeenTimestamp 10 januari, versie 2.0.
 
 ### <a name="36-examples"></a>3.6 Voorbeelden
 

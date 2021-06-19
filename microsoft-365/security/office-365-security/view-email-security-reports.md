@@ -1,5 +1,5 @@
 ---
-title: E-mailbeveiligingsrapporten weergeven in de Microsoft 365 Defender-portal
+title: Beveiligingsrapporten voor e-mail weergeven
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -15,16 +15,16 @@ search.appverid:
 ms.assetid: 3a137e28-1174-42d5-99af-f18868b43e86
 ms.collection:
 - M365-security-compliance
-description: Meer informatie over het zoeken en gebruiken van e-mailbeveiligingsrapporten voor uw organisatie. E-mailbeveiligingsrapporten zijn beschikbaar in de Microsoft 365 Defender-portal.
+description: Beheerders kunnen leren hoe ze de e-mailbeveiligingsrapporten kunnen vinden en gebruiken die beschikbaar zijn in de Microsoft 365 Defender-portal.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d46aec8601d19234eed8682955ffef27b7e9b467
-ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
+ms.openlocfilehash: f3dcf533c232a89adf0dc1ff3fcc7c2ca4fc5d8f
+ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52985203"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53022911"
 ---
 # <a name="view-email-security-reports-in-the-microsoft-365-defender-portal"></a>E-mailbeveiligingsrapporten weergeven in de Microsoft 365 Defender-portal
 
@@ -56,20 +56,20 @@ In **het rapport Gecompromitteerde** gebruikers ziet  u  het aantal gebruikersac
 
 De statistische weergave bevat gegevens van de afgelopen 90 dagen en de detailweergave bevat gegevens van de afgelopen 30 dagen.
 
-Als u het rapport wilt bekijken in de  Microsoft 365 Defender-portal, gaat u naar Rapporten e-mail & \> **samenwerking** \> **e-mail & samenwerkingsrapporten**. Klik **op Gecompromitteerde** gebruikers op **Details weergeven.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://security.microsoft.com/reports/CompromisedUsers> .
+Als u het rapport wilt bekijken in de  Microsoft 365 Defender-portal, gaat u naar Rapporten e-mail & \> **samenwerking** \> **e-mail & samenwerkingsrapporten**. Zoek op **de pagina & samenwerkingsrapporten** naar Gecompromitteerde **gebruikers** en klik vervolgens op **Details weergeven.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://security.microsoft.com/reports/CompromisedUsers> .
 
-Nadat u op **Details weergeven** hebt geklikt, kunt u zowel de grafiek als de detailtabel filteren door op **Filter** te klikken en een of meer van de volgende waarden te selecteren in het flyout dat wordt weergegeven:
+Op de pagina Gecompromitteerd gebruikers kunt u zowel de grafiek als de detailtabel filteren door op **Filter** te klikken en een of meer van de volgende waarden te selecteren in het flyout dat wordt weergegeven: 
 
 - **Datum (UTC)**: **Begindatum** en **einddatum**.
 - **Activiteit**:
   - **Verdacht:** Het gebruikersaccount heeft verdachte e-mailberichten verzonden en loopt het risico dat het niet meer kan worden verzonden.
   - **Beperkt:** Het gebruikersaccount is beperkt tot het verzenden van e-mail vanwege zeer verdachte patronen.
 
-Wanneer u klaar bent met filteren, klikt u **op Toepassen of** **Annuleren.**
+Wanneer u klaar bent met het configureren van de filters, klikt u **op Toepassen,** **Annuleren** of **Filters wissen.**
 
 ![Rapportweergave in het rapport Gecompromitteerd gebruikers](../../media/compromised-users-report-activity-view.png)
 
-In de tabel onder de grafiek ziet u de volgende details:
+In de detailtabel onder de grafiek ziet u de volgende details:
 
 - **Aanmaaktijd**
 - **Gebruikers-id**
@@ -79,34 +79,25 @@ In de tabel onder de grafiek ziet u de volgende details:
 
 Het **rapport Exchange-transportregel** toont het effect van regels voor de e-mailstroom (ook wel transportregels genoemd) op binnenkomende en uitgaande berichten in uw organisatie.
 
-Als u het rapport wilt bekijken in de  Microsoft 365 Defender-portal, gaat u naar Rapporten e-mail & \> **samenwerking** \> **e-mail & samenwerkingsrapporten**. Klik **op Exchange-transportregel** op **Details weergeven.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://security.microsoft.com/reports/ETRRuleReport> .
+Als u het rapport wilt bekijken in de  Microsoft 365 Defender-portal, gaat u naar Rapporten e-mail & \> **samenwerking** \> **e-mail & samenwerkingsrapporten**. Zoek op **de pagina E-& samenwerkingsrapporten** **naar Exchange-transportregel** en klik vervolgens op **Details weergeven.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://security.microsoft.com/reports/ETRRuleReport> .
 
 ![Exchange-transportregelwidget op de pagina E-mail & samenwerkingsrapporten](../../media/transport-rule-report-widget.png)
 
-Nadat u op **Details weergeven hebt geklikt,** zijn de volgende grafieken en gegevens beschikbaar:
+Op de rapportpagina van de **Exchange-transportregel** worden de beschikbare grafieken en gegevens in de volgende secties beschreven.
 
-- **Gegevens weergeven op exchange-transportregels** \> **Grafiekuitsplitsing op richting:** in deze grafiek  ziet u het aantal **binnenkomende** en uitgaande berichten dat is beïnvloed door regels voor e-mailstroom.
+### <a name="chart-breakdown-by-direction"></a>Grafiek uitsplitsing op richting
 
-- **Gegevens weergeven op exchange-transportregels** \> **Uitsplitsing van grafieken op ernst:** in deze grafiek ziet u het aantal berichten met hoge **ernst,** gemiddelde ernst en **lage ernst.** U stelt het ernstniveau in als een actie in de regel ( Controleer deze regel met **ernstniveau** of _SetAuditSeverity_). Zie Acties voor [e-mailstroomregelen in Exchange Online voor meer informatie.](/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)
+![Richtingsweergave voor Exchange-transportregels in het rapport Exchange-transportregel](../../media/transport-rule-report-etr-direction-view.png)
 
-- **Gegevens weergeven op DLP Exchange-transportregels** \> **Grafiekuitsplitsing op richting:** in deze grafiek  ziet u het aantal **binnenkomende** en uitgaande berichten dat is beïnvloed door regels voor preventie van gegevensverlies (DLP).
+Als u Grafiek **uitsplitsing op richting selecteert,** zijn de volgende grafieken beschikbaar:
 
-- **Gegevens weergeven op DLP Exchange-transportregels** \> **Grafiekuitsplitsing op ernst:** in deze weergave ziet u het  aantal berichten met hoge **ernst,** gemiddelde ernst en lage ernst die zijn beïnvloed door DLP-regels voor e-mailstroom.
+- **Gegevens weergeven op exchange-transportregels:** het  aantal **binnenkomende** en uitgaande berichten dat is beïnvloed door regels voor e-mailstroom.
+- **Gegevens weergeven op DLP Exchange-transportregels:**  het aantal **binnenkomende** en uitgaande berichten dat is beïnvloed door DLP-regels (Data Loss Prevention).
 
-Voor **selecties van gegevens per Exchange-transportregels** worden de volgende gegevens weergegeven in de detailtabel onder de grafiek:
-
-- **Datum**
-- **Transportregel**
-- **Onderwerp**
-- **Adres afzender**
-- **Adres van geadresseerde**
-- **Ernst**
-- **Richting**
-
-Voor **selecties van gegevens per DLP Exchange-transportregels** worden de volgende gegevens weergegeven in de detailtabel onder de grafiek:
+De volgende informatie wordt weergegeven in de detailtabel onder de grafiek:
 
 - **Datum**
-- **DLP-beleid**
+- **DLP-beleid** (**Alleen gegevens weergeven op DLP Exchange-transportregels)**
 - **Transportregel**
 - **Onderwerp**
 - **Adres afzender**
@@ -116,25 +107,59 @@ Voor **selecties van gegevens per DLP Exchange-transportregels** worden de volge
 
 U kunt zowel de grafiek als de detailtabel filteren door op **Filter** te klikken en een of meer van de volgende waarden te selecteren in het flyout dat wordt weergegeven:
 
-- **Begindatum** en **einddatum**
+- **Datum (UTC)** **Begindatum** en **einddatum**
 - **Richting:** **Uitgaande en Inkomende** 
 - **Ernst:** **hoge ernst,** **gemiddelde ernst** en **lage ernst**
 
-![Rapportweergave in het rapport Exchange-transportregel](../../media/transport-rule-report-report-view.png)
+Wanneer u klaar bent met het configureren van de filters, klikt u **op Toepassen,** **Annuleren** of **Filters wissen.**
+
+### <a name="chart-breakdown-by-severity"></a>Uitsplitsing van grafieken op ernst
+
+![Ernstweergave voor Exchange-transportregels in het rapport Exchange-transportregel](../../media/transport-rule-report-etr-severity-view.png)
+
+Als u Grafiek **uitsplitsing op ernst selecteert,** zijn de volgende grafieken beschikbaar:
+
+- **Gegevens weergeven op exchange-transportregels:** het aantal berichten met hoge **ernst,** gemiddelde **ernst** en **berichten met lage ernst.** U stelt het ernstniveau in als een actie in de regel ( Controleer deze regel met **ernstniveau** of _SetAuditSeverity_). Zie Acties voor [e-mailstroomregelen in Exchange Online voor meer informatie.](/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)
+
+- **Gegevens weergeven op DLP Exchange-transportregels:** het aantal berichten  met hoge **ernst,** gemiddelde ernst en lage ernst die zijn beïnvloed door DLP-regels voor e-mailstroom.
+
+De volgende informatie wordt weergegeven in de detailtabel onder de grafiek:
+
+- **Datum**
+- **DLP-beleid** (**Alleen gegevens weergeven op DLP Exchange-transportregels)**
+- **Transportregel**
+- **Onderwerp**
+- **Adres afzender**
+- **Adres van geadresseerde**
+- **Ernst**
+- **Richting**
+
+U kunt zowel de grafiek als de detailtabel filteren door op **Filter** te klikken en een of meer van de volgende waarden te selecteren in het flyout dat wordt weergegeven:
+
+- **Datum (UTC)** **Begindatum** en **einddatum**
+- **Richting:** **Uitgaande en Inkomende** 
+- **Ernst:** **hoge ernst,** **gemiddelde ernst** en **lage ernst**
+
+Wanneer u klaar bent met het configureren van de filters, klikt u **op Toepassen,** **Annuleren** of **Filters wissen.**
+
+## <a name="forwarding-report"></a>Doorsturen van rapport
+
+> [!NOTE]
+> Het **rapport Doorsturen** is nu beschikbaar in het EAC. Zie Rapport Automatisch doorgestuurde berichten in het nieuwe EAC voor [meer informatie.](/exchange/monitoring/mail-flow-reports/mfr-auto-forwarded-messages-report)
 
 ## <a name="mailflow-status-report"></a>E-mailflowstatusrapport
 
 Het **mailflowstatusrapport** is een slim rapport met informatie over inkomende en uitgaande e-mail, spamdetecties, malware, e-mail die als 'goed' is geïdentificeerd en informatie over e-mail die is toegestaan of geblokkeerd op de rand. Dit is het enige rapport dat informatie over randbeveiliging bevat en laat zien hoeveel e-mail wordt geblokkeerd voordat e-mail wordt toegestaan in de service voor evaluatie door Exchange Online Protection (EOP). Het is belangrijk om te begrijpen dat als een bericht naar vijf geadresseerden wordt verzonden, we het als vijf verschillende berichten tellen en niet één bericht.
 
-Als u het rapport wilt bekijken in de  Microsoft 365 Defender-portal, gaat u naar Rapporten e-mail & \> **samenwerking** \> **e-mail & samenwerkingsrapporten**. Klik **in het overzicht mailflowstatus** op Details **weergeven.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://security.microsoft.com/reports/mailflowStatusReport> .
+Als u het rapport wilt bekijken in de  Microsoft 365 Defender-portal, gaat u naar Rapporten e-mail & \> **samenwerking** \> **e-mail & samenwerkingsrapporten**. Zoek op **de & e-mail met samenwerkingsrapporten** de **statusoverzicht van Mailflow** en klik vervolgens op **Details weergeven.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://security.microsoft.com/reports/mailflowStatusReport> .
 
 ![Overzichtswidget Mailflow-status op de pagina E-mail & samenwerkingsrapporten](../../media/mail-flow-status-report-widget.png)
 
 ### <a name="type-view-for-the-mailflow-status-report"></a>Typweergave voor het rapport Mailflow-status
 
-Wanneer u het rapport opent, is **het tabblad Type** standaard geselecteerd. Standaard bevat deze weergave een grafiek en een gegevenstabel die is geconfigureerd met de volgende filters:
+Wanneer u het rapport opent, is **het tabblad Type** standaard geselecteerd. Deze weergave bevat standaard een grafiek en een detailtabel die is geconfigureerd met de volgende filters:
 
-- **Datum:** De laatste 7 dagen.
+- **Datum (UTC)** De afgelopen 7 dagen.
 - **E-mailrichting**:
   - **Binnenkomende**
   - **Uitgaande**
@@ -152,7 +177,7 @@ De grafiek wordt ingedeeld op basis van **de waarden Type.**
 
 U kunt deze filters wijzigen door op **Filter te klikken of** door te klikken op een waarde in de grafieklegenda.
 
-De gegevenstabel bevat de volgende informatie:
+De volgende informatie wordt weergegeven in de detailtabel onder de grafiek:
 
 - **Richting**
 - **Type**
@@ -183,9 +208,9 @@ Als u op het tabblad **Richting** klikt, worden dezelfde standaardfilters uit de
 
 De grafiek is ingedeeld op **richtingswaarden.**
 
-U kunt deze filters wijzigen door op **Filter te klikken of** door te klikken op een waarde in de grafieklegenda. Dezelfde filters uit de **weergave Type** worden gebruikt.
+U kunt deze filters wijzigen door op Filter te **klikken.** Dezelfde filters uit de **weergave Type** worden gebruikt.
 
-De gegevenstabel bevat dezelfde informatie uit de **weergave Type.**
+De detailtabel bevat dezelfde informatie uit de **weergave Type.**
 
 De **categorie Kies een categorie voor meer informatie** beschikbare selecties en gedrag zijn hetzelfde als de **weergave** Type.
 
@@ -201,19 +226,18 @@ Elk geëxporteerd .csv bestand is beperkt tot 150.000 rijen. Als de gegevens voo
 
 In **de trechterweergave** ziet u hoe de beveiligingsfuncties voor e-mail van Microsoft inkomende en uitgaande e-mail in uw organisatie filteren. Het bevat informatie over het totale aantal e-mailberichten en hoe de geconfigureerde beveiligingsfuncties voor bedreigingen, zoals randbeveiliging, anti-malware, anti-phishing, antispam en anti-spoofing van invloed zijn op dit aantal.
 
-Als u op **het** tabblad Trechter klikt, bevat deze weergave standaard een grafiek en een gegevenstabel die is geconfigureerd met de volgende filters:
+Als u op **het** tabblad Trechter klikt, bevat deze weergave standaard een grafiek en een detailtabel die is geconfigureerd met de volgende filters:
 
 - **Datum:** De laatste 7 dagen.
 
 - **Richting**:
-
   - **Binnenkomende**
   - **Uitgaande**
   - **Intra-org:** Dit aantal is voor berichten die binnen een tenant worden verzonden; Dat wil zeggen dat afzenders abc@domain.com naar geadresseerden xyz@domain.com (afzonderlijk geteld van Binnenkomende en Uitgaande).
 
-De statistische weergave en gegevenstabelweergave kunnen 90 dagen worden gefilterd.
+De tabelweergave voor statistische weergave en details kan 90 dagen worden gefilterd.
 
-Als u op **Filteren klikt,** kunt u zowel de grafiek als de gegevenstabel filteren.
+U kunt deze filters wijzigen door op Filter te **klikken.** Dezelfde filters uit de **weergave Type** worden gebruikt.
 
 In deze grafiek ziet u het aantal e-mailberichten dat is ingedeeld op:
 
@@ -231,7 +255,7 @@ In deze grafiek ziet u het aantal e-mailberichten dat is ingedeeld op:
 
 Als u het e-mailbericht wilt weergeven dat is gefilterd op EOP of Defender Office 365 afzonderlijk, klikt u op de waarde in de grafieklegenda.
 
-De gegevenstabel bevat de volgende gegevens, weergegeven in aflopende datumvolgorde:
+De detailtabel bevat de volgende gegevens, weergegeven in aflopende datumvolgorde:
 
 - **Datum**
 - **Totaal aantal e-mail**
@@ -253,7 +277,7 @@ De gegevenstabel bevat de volgende gegevens, weergegeven in aflopende datumvolgo
   - **URL-detonatie:** bericht gefilterd door een Safe koppelingenbeleid.
 - **Bescherming na bezorging en ZAP (ATP) of ZAP (EOP)**: Automatische purge (ZAP) van nul uur voor malware, spam en phishing.
 
-Als u een rij in de gegevenstabel selecteert, wordt een verdere uitsplitsing van de e-mailtellingen weergegeven in de flyout.
+Als u een rij in de detailtabel selecteert, wordt een verdere uitsplitsing van de e-mailtellingen weergegeven in de flyout.
 
 #### <a name="export-from-funnel-view"></a>Exporteren vanuit de trechterweergave
 
@@ -272,19 +296,18 @@ Elk geëxporteerd .csv bestand is beperkt tot 150.000 rijen. Als de gegevens mee
 
 De **techweergave** is vergelijkbaar met de **trechterweergave,** met meer gedetailleerde details voor de geconfigureerde functies voor bedreigingsbeveiliging. In de grafiek kunt u zien hoe berichten worden gecategoriseerd in de verschillende stadia van bedreigingsbeveiliging.
 
-Als u op het **tabblad Technische** weergave klikt, bevat deze weergave standaard een grafiek en een gegevenstabel die is geconfigureerd met de volgende filters:
+Als u op het **tabblad Technische** weergave klikt, bevat deze weergave standaard een grafiek en een detailtabel die is geconfigureerd met de volgende filters:
 
 - **Datum:** De laatste 7 dagen.
 
 - **Richting**:
-
   - **Binnenkomende**
   - **Uitgaande**
   - **Intra-org:** dit aantal is voor berichten binnen een tenant, dat wil zeggen afzender abc@domain.com verzenden naar geadresseerde xyz@domain.com (afzonderlijk geteld van Binnenkomende en Uitgaande)
 
-De statistische weergave en gegevenstabelweergave kunnen 90 dagen worden gefilterd.
+De tabelweergave voor statistische weergave en details kan 90 dagen worden gefilterd.
 
-Als u op **Filteren klikt,** kunt u zowel de grafiek als de gegevenstabel filteren.
+U kunt deze filters wijzigen door op Filter te **klikken.** Dezelfde filters uit de **weergave Type** worden gebruikt.
 
 In deze grafiek ziet u berichten die zijn ingedeeld in de volgende categorieën:
 
@@ -301,9 +324,9 @@ In deze grafiek ziet u berichten die zijn ingedeeld in de volgende categorieën:
 
 Wanneer u de muisaanwijzer boven een categorie in de grafiek beweegt, kunt u het aantal berichten in die categorie zien.
 
-De gegevenstabel bevat de volgende gegevens, weergegeven in aflopende datumvolgorde:
+De detailtabel bevat de volgende gegevens, weergegeven in aflopende datumvolgorde:
 
-- **Datum**
+- **Datum (UTC)**
 - **Totaal aantal e-mail**
 - **Gefilterde rand**
 - **Regelberichten:** Berichten die zijn gefilterd vanwege regels voor e-mailstroom (ook wel transportregels genoemd).
@@ -317,7 +340,7 @@ De gegevenstabel bevat de volgende gegevens, weergegeven in aflopende datumvolgo
 
 <sup>\*</sup>Defender voor Office 365
 
-Als u een rij in de gegevenstabel selecteert, wordt een verdere uitsplitsing van de e-mailtellingen weergegeven in de flyout.
+Als u een rij in de detailtabel selecteert, wordt een verdere uitsplitsing van de e-mailtellingen weergegeven in de flyout.
 
 #### <a name="export-from-tech-view"></a>Exporteren vanuit de techweergave
 
@@ -338,13 +361,13 @@ Het **rapport Malwaredetecties bevat** informatie over malwaredetecties in inkom
 
 Het filter voor de statistische weergave kan 90 dagen duren, terwijl het detailtabelfilter slechts 10 dagen toestaat.
 
-Als u het rapport wilt weergeven in  de Microsoft 365 Defender portal, gaat u naar Rapporten e-mail & \> **samenwerking** \> **e-mail & samenwerkingsrapporten**. Klik **op Malware gedetecteerd in e-mail** op Details **weergeven.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://security.microsoft.com/reports/MalwareDetections> .
+Als u het rapport wilt weergeven in  de Microsoft 365 Defender portal, gaat u naar Rapporten e-mail & \> **samenwerking** \> **e-mail & samenwerkingsrapporten**. Zoek op **de pagina & samenwerkingsrapporten** malware die **is gedetecteerd in e-mail** en klik vervolgens op **Details weergeven.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://security.microsoft.com/reports/MalwareDetections> .
 
 ![Malwaredetecties in e-mailwidget op de pagina E-mail & samenwerkingsrapporten](../../media/malware-detections-widget.png)
 
-Nadat u op **Details weergeven hebt** geklikt, kunt u zowel de grafiek als de detailtabel filteren door te klikken op **Filteren** en te selecteren:
+Op de **rapportpagina Malwaredetecties** kunt u zowel de grafiek als de detailtabel filteren door op **Filter** te klikken en een van de volgende waarden te selecteren:
 
-- **Datum**: **Begindatum** en **einddatum**
+- **Datum (UTC)** **Begindatum** en **einddatum**
 - **Richting:** **Binnenkomende** en **uitgaande**
 
 ![Rapportweergave in het rapport Malwaredetectie in e-mailrapport](../../media/malware-detections-report-view.png)
@@ -366,7 +389,7 @@ Het **rapport E-maillatentie** in Defender voor Office 365 bevat informatie over
 ## <a name="spam-detections-report"></a>Rapport over spamdetectie
 
 > [!NOTE]
-> Het **rapport Spamdetecties** gaat op 30 juni 2021 weg. Dezelfde informatie is beschikbaar in het rapport [Bedreigingsbeveiligingsstatus.](#threat-protection-status-report)
+> Het **rapport Spamdetecties** gaat uiteindelijk weg. Dezelfde informatie is beschikbaar in het rapport [Bedreigingsbeveiligingsstatus.](#threat-protection-status-report)
 
 ## <a name="spoof-detections-report"></a>Rapport spoofdetecties
 
@@ -379,15 +402,23 @@ Met de statistische weergave van het rapport kunt u 45 dagen filteren, terwijl d
 
 <sup>\*</sup> Uiteindelijk kunt u maximaal 90 dagen filteren gebruiken.
 
-Als u het rapport wilt weergeven in  de Microsoft 365 Defender portal, gaat u naar Rapporten e-mail & \> **samenwerking** \> **e-mail & samenwerkingsrapporten**. Klik **bij Spoofdetecties** op **Details weergeven.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://security.microsoft.com/reports/SpoofMailReportV2> .
+Als u het rapport wilt weergeven in  de Microsoft 365 Defender portal, gaat u naar Rapporten e-mail & \> **samenwerking** \> **e-mail & samenwerkingsrapporten**. Zoek op **de pagina & samenwerkingsrapporten** naar **Spoofdetecties** en klik vervolgens op **Details weergeven.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://security.microsoft.com/reports/SpoofMailReportV2> .
 
 ![Widget Spoofdetecties op de pagina E-mail & samenwerkingsrapporten](../../media/spoof-detections-widget.png)
 
+In de grafiek ziet u de volgende informatie:
+
+- **Pass**
+- **Mislukken**
+- **SoftPass**
+- **Geen**
+- **Overige**
+
 Wanneer u de muisaanwijzer boven een dag (gegevenspunt) in de grafiek beweegt, kunt u zien hoeveel vervalste berichten zijn gedetecteerd en waarom.
 
-Nadat u op **Details weergeven hebt** geklikt, kunt u zowel de grafiek als de detailtabel filteren door op **Filter** te klikken en een of meer van de volgende waarden te selecteren:
+Op de **pagina Spoof-e-mailrapport** kunt u zowel de grafiek als de detailtabel filteren door op **Filter** te klikken en een of meer van de volgende waarden te selecteren:
 
-- **Datum**: **Begindatum** en **einddatum**
+- **Datum (UTC)** **Begindatum** en **einddatum**
 - **Resultaat**:
   - **Pass**
   - **Mislukken**
@@ -398,7 +429,7 @@ Nadat u op **Details weergeven hebt** geklikt, kunt u zowel de grafiek als de de
 
 ![Pagina spoof-e-mailrapport in de Microsoft 365 Defender portal](../../media/spoof-detections-report-page.png)
 
-In de tabel onder de grafiek ziet u de volgende details:
+In de detailtabel onder de grafiek ziet u de volgende details:
 
 - **Datum**
 - **Vervalste gebruiker**
@@ -413,6 +444,35 @@ In de tabel onder de grafiek ziet u de volgende details:
 
 Zie Kopteksten voor spamberichten in Microsoft 365 voor [meer informatie over resultaatcodes voor samengestelde verificatie.](anti-spam-message-headers.md)
 
+## <a name="submissions-report"></a>Rapport Inzendingen
+
+Het **rapport Inzendingen** bevat informatie over items die beheerders hebben gerapporteerd bij Microsoft voor analyse. Zie Beheerdersinzending gebruiken om [verdachte spam, phish, URL's en](admin-submission.md)bestanden in te dienen bij Microsoft voor meer informatie.
+
+Als u het rapport wilt weergeven in  de Microsoft 365 Defender portal, gaat u naar Rapporten e-mail & \> **samenwerking** \> **e-mail & samenwerkingsrapporten**. Zoek op **de pagina & samenwerkingsrapporten** naar **Inzendingen** en klik vervolgens op Details **weergeven.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://security.microsoft.com/adminSubmissionReport> . Als u wilt gaan [naar beheerdersinzendingen in de Microsoft 365 Defender portal,](admin-submission.md)klikt u **op Ga naar Inzendingen.**
+
+![Widget Inzendingen op de pagina E-& samenwerkingsrapporten](../../media/submissions-report-widget.png)
+
+In de grafiek ziet u de volgende informatie:
+
+- **In behandeling**
+- **Voltooid**
+
+Op de **pagina Inzendingen** kunt u zowel de grafiek als de detailtabel filteren door op **Filter** te klikken en een of meer van de volgende waarden te selecteren:
+
+- **Datum gerapporteerd:** **Begintijd** en **eindtijd**
+- **Inzendingstype:** **E-mail,** **URL** of **Bestand**
+- **Inzending-id**
+- **Netwerkbericht-id**
+- **Afzender**
+- **Naam**
+- **Ingediend door**
+- **Reden voor het indienen** van : **Geen ongewenste** e-mail, **Phish,** **Malware** of **Spam**
+- **Status opnieuw scannen:** **In behandeling** of **voltooid**
+
+De detailtabel onder de grafiek bevat dezelfde  informatie en heeft  dezelfde opties voor groepen of kolommen aanpassen als op het tabblad Ingediend voor analyse op  **E-mail &** \> **samenwerkingsinzendingen.** Zie Beheerdersinzendingen [weergeven bij Microsoft voor meer informatie.](admin-submission.md#view-admin-submissions-to-microsoft)
+
+![Rapportpagina Inzendingen in de Microsoft 365 Defender portal](../../media/submissions-report-page.png)
+
 ## <a name="threat-protection-status-report"></a>Statusrapport bedreigingsbeveiliging
 
 Het **rapport Bedreigingsbeveiligingsstatus** is beschikbaar in zowel EOP als Defender voor Office 365; De rapporten bevatten echter verschillende gegevens. EOP-klanten kunnen bijvoorbeeld informatie bekijken over malware die is gedetecteerd in e-mail, maar geen informatie over schadelijke bestanden die zijn gedetecteerd door Safe Bijlagen voor [SharePoint, OneDrive](mdo-for-spo-odb-and-teams.md)en Microsoft Teams.
@@ -421,14 +481,14 @@ Het rapport bevat het aantal e-mailberichten met schadelijke inhoud, zoals besta
 
 **Opmerking:** Het is belangrijk om te begrijpen dat als een bericht naar vijf geadresseerden wordt verzonden, we het als vijf verschillende berichten tellen en niet één bericht.
 
-Als u het rapport wilt weergeven in  de Microsoft 365 Defender portal, gaat u naar Rapporten e-mail & \> **samenwerking** \> **e-mail & samenwerkingsrapporten**. Klik **op Bedreigingsbeveiliging** op **Details weergeven.** Open een van de volgende URL's om rechtstreeks naar het rapport te gaan:
+Als u het rapport wilt weergeven in  de Microsoft 365 Defender portal, gaat u naar Rapporten e-mail & \> **samenwerking** \> **e-mail & samenwerkingsrapporten**. Zoek op **de pagina & samenwerkingsrapporten** naar Status van **bedreigingsbeveiliging** en klik vervolgens op **Details weergeven.** Open een van de volgende URL's om rechtstreeks naar het rapport te gaan:
 
 - Defender voor Office 365:<https://security.microsoft.com/reports/TPSAggregateReportATP>
 - EOP: <https://security.microsoft.com/reports/TPSAggregateReport>
 
 ![Statuswidget Bedreigingsbeveiliging op de pagina E-mail & samenwerkingsrapporten](../../media/threat-protection-status-report-widget.png)
 
-Nadat u op Details weergeven **hebt** geklikt, worden in de grafiek standaard gegevens van de afgelopen 7 dagen weergegeven. Als u op **Filter** klikt, kunt u een datumbereik van 90 dagen selecteren (proefabonnementen kunnen beperkt zijn tot 30 dagen). Met de detailtabel kunt u 30 dagen filteren.
+Standaard worden in de grafiek gegevens van de afgelopen 7 dagen weergegeven. Als u op  **Filter klikt** op de rapportpagina bedreigingsstatus, kunt u een datumbereik van 90 dagen selecteren (proefabonnementen kunnen beperkt zijn tot 30 dagen). Met de detailtabel kunt u 30 dagen filteren.
 
 De beschikbare weergaven worden in de volgende secties beschreven.
 
@@ -446,7 +506,7 @@ Er is geen detailtabel beschikbaar onder de grafiek.
 
 Als u op **Filter klikt,** zijn de volgende filters beschikbaar:
 
-- **Datum**: **Begindatum** en **einddatum**
+- **Datum (UTC)** **Begindatum** en **einddatum**
 - **Detectie:** **E-mail malware,** **E-mail phish** of **Inhoudsmalware**
 - **Beveiligd door**: **MDO** (Defender voor Office 365) of **EOP**
 - **Tag:** Filter de resultaten op gebruikers of groepen waarvan de opgegeven gebruikerstag is toegepast (inclusief prioriteitsaccounts). Zie Gebruikerslabels voor meer [informatie over gebruikerslabels.](user-tags.md)
@@ -493,7 +553,7 @@ In de detailtabel onder de grafiek zijn de volgende gegevens beschikbaar:
 
 Als u op **Filter klikt,** zijn de volgende filters beschikbaar:
 
-- **Datum**: **Begindatum** en **einddatum**
+- **Datum (UTC)** **Begindatum** en **einddatum**
 - **Detectie**
 - **Beveiligd door**: **MDO** (Defender voor Office 365) of **EOP**
 - **Richting**
@@ -534,7 +594,7 @@ In de detailtabel onder de grafiek zijn de volgende gegevens beschikbaar:
 
 Als u op **Filter klikt,** zijn de volgende filters beschikbaar:
 
-- **Datum**: **Begindatum** en **einddatum**
+- **Datum (UTC)** **Begindatum** en **einddatum**
 - **Detectie**
 - **Beveiligd door**: **MDO** (Defender voor Office 365) of **EOP**
 - **Richting**
@@ -572,7 +632,7 @@ In de detailtabel onder de grafiek zijn de volgende gegevens beschikbaar:
 
 Als u op **Filter klikt,** zijn de volgende filters beschikbaar:
 
-- **Datum**: **Begindatum** en **einddatum**
+- **Datum (UTC)** **Begindatum** en **einddatum**
 - **Detectie**
 - **Beveiligd door**: **MDO** (Defender voor Office 365) of **EOP**
 - **Richting**
@@ -613,7 +673,7 @@ In de detailtabel onder de grafiek zijn de volgende gegevens beschikbaar:
 
 Als u op **Filter klikt,** zijn de volgende filters beschikbaar:
 
-- **Datum**: **Begindatum** en **einddatum**
+- **Datum (UTC)** **Begindatum** en **einddatum**
 - **Detectie**
 - **Beveiligd door**: **MDO** (Defender voor Office 365) of **EOP**
 - **Richting**
@@ -636,14 +696,14 @@ In de **weergave Gegevens weergeven op \> inhoudsmalware** worden de volgende ge
 
 In de detailtabel onder de grafiek zijn de volgende gegevens beschikbaar:
 
-- **Datum**: **Begindatum** en **einddatum**
+- **Datum (UTC)** **Begindatum** en **einddatum**
 - **Locatie**
 - **Gedetecteerd door**
 - **Malwarenaam**
 
 Als u op **Filter klikt,** zijn de volgende filters beschikbaar:
 
-- **Datum**: **Begindatum** en **einddatum**
+- **Datum (UTC)** **Begindatum** en **einddatum**
 - **Detectie:** **Anti-malware-engine** of **Bestandsdetonatie**
 
 Wanneer u klaar bent met het configureren van de filters, klikt u **op Toepassen,** **Annuleren** of **Filters wissen.**
@@ -677,7 +737,7 @@ In de detailtabel onder de grafiek zijn de volgende gegevens beschikbaar:
 
 Als u op **Filter klikt,** zijn de volgende filters beschikbaar:
 
-- **Datum**: **Begindatum** en **einddatum**
+- **Datum (UTC)** **Begindatum** en **einddatum**
 - **Detectie**
 - **Beveiligd door**: **MDO** (Defender voor Office 365) of **EOP**
 - **Richting**
@@ -695,13 +755,13 @@ Wanneer u klaar bent met het configureren van de filters, klikt u **op Toepassen
 
 Het **rapport Top malware** toont de verschillende soorten malware die zijn gedetecteerd door [anti-malwarebeveiliging in EOP.](anti-malware-protection.md)
 
-Als u het rapport wilt weergeven in  de Microsoft 365 Defender portal, gaat u naar Rapporten e-mail & \> **samenwerking** \> **e-mail & samenwerkingsrapporten**. Klik **op Top malware** op Details **weergeven.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://security.microsoft.com/reports/TopMalware> .
+Als u het rapport wilt weergeven in  de Microsoft 365 Defender portal, gaat u naar Rapporten e-mail & \> **samenwerking** \> **e-mail & samenwerkingsrapporten**. Zoek op **de pagina & samenwerkingsrapporten** naar **Top malware** en klik vervolgens op **Details weergeven.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://security.microsoft.com/reports/TopMalware> .
 
 ![Top malware widget on the Email & collaboration reports page](../../media/top-malware-report-widget.png)
 
 Wanneer u de muisaanwijzer over een wig in het cirkeldiagram beweegt, ziet u de naam van een soort malware en hoeveel berichten zijn gedetecteerd als malware.
 
-Nadat u op **Details weergeven hebt** geklikt, wordt er een grotere versie van het cirkeldiagram weergegeven op de rapportpagina. In de detailtabel onder de grafiek ziet u de volgende informatie:
+Op de **pagina Top malwarerapport** wordt een grotere versie van het cirkeldiagram weergegeven op de rapportpagina. In de detailtabel onder de grafiek ziet u de volgende informatie:
 
 - **Top malware**
 - **Aantal**
@@ -721,11 +781,11 @@ Het **rapport URL-bedreigingsbeveiliging** is beschikbaar in Microsoft Defender 
 
 Het **rapport Gerapporteerde** berichten van gebruiker bevat informatie over e-mailberichten die gebruikers hebben gerapporteerd als ongewenste e-mail, phishingpogingen of goede [e-mail](enable-the-report-message-add-in.md) met behulp van de invoeging Rapportbericht of de invoeging [Phishing melden.](enable-the-report-phish-add-in.md)
 
-Als u het rapport wilt bekijken in  de Microsoft 365 Defender portal, gaat u naar Rapporten e-mail & samenwerking e-mail & \>  \> **samenwerkingsrapporten** \> **Gebruikers gerapporteerde berichten**. Klik **op Door gebruiker gerapporteerde** berichten op Details **weergeven.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://security.microsoft.com/reports/userSubmissionReport> . Als u wilt gaan [naar beheerdersinzendingen in de Microsoft 365 Defender portal,](admin-submission.md)klikt u **op Ga naar Inzendingen.**
+Als u het rapport wilt weergeven in  de Microsoft 365 Defender portal, gaat u naar Rapporten e-mail & \> **samenwerking** \> **e-mail & samenwerkingsrapporten**. Zoek op **de pagina E-& samenwerkingsrapporten** naar **Gerapporteerde** berichten van de gebruiker en klik vervolgens op **Details weergeven.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://security.microsoft.com/reports/userSubmissionReport> . Als u wilt gaan [naar beheerdersinzendingen in de Microsoft 365 Defender portal,](admin-submission.md)klikt u **op Ga naar Inzendingen.**
 
 ![Widget met gerapporteerde berichten van gebruiker op de pagina E-mail & samenwerkingsrapporten](../../media/user-reported-messages-widget.png)
 
-Nadat u op **Details weergeven** hebt geklikt, kunt u zowel de grafiek als de detailtabel filteren door op **Filter** te klikken en een of meer van de volgende waarden te selecteren in het flyout dat wordt weergegeven:
+Op de **pagina Gerapporteerde** berichten van gebruiker kunt u zowel de grafiek als de detailtabel filteren door op **Filter** te klikken en een of meer van de volgende waarden te selecteren in het flyout dat wordt weergegeven:
 
 - **Datum gerapporteerd:** **Begintijd** en **eindtijd**
 - **Gerapporteerd door**
@@ -752,7 +812,7 @@ Als u de items wilt groepeert, klikt u **op Groep** en selecteert u een van de v
 
 ![Rapport met gerapporteerde berichten van gebruiker](../../media/user-reported-messages-report.png)
 
-In de tabel onder de grafiek ziet u de volgende details:
+In de detailtabel onder de grafiek ziet u de volgende details:
 
 - **E-mail onderwerp**
 - **Gerapporteerd door**

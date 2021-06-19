@@ -1,5 +1,5 @@
 ---
-title: Defender weergeven voor Office 365 rapporten in het dashboard Rapporten
+title: Defender voor Office 365-rapporten weergeven
 f1.keywords:
 - CSH
 ms.author: tracyp
@@ -16,18 +16,18 @@ ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Zoek en gebruik rapporten voor Microsoft Defender voor Office 365 in de Microsoft 365 Defender-portal.
+description: Beheerders kunnen leren hoe ze de Defender kunnen vinden en gebruiken voor Office 365 rapporten die beschikbaar zijn in de Microsoft 365 Defender portal.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a5c45f58ee83de11712b198c85a8e423314289bf
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: 5b9279614571c123ad92f1684f86175b410c6c5c
+ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52930205"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53022818"
 ---
-# <a name="view-defender-for-office-365-reports-in-the-reports-dashboard-in-the-microsoft-365-defender-portal"></a>Defender voor Office 365 rapporten weergeven in het dashboard Rapporten in Microsoft 365 Defender-portal
+# <a name="view-defender-for-office-365-reports-in-the-microsoft-365-defender-portal"></a>Defender weergeven voor Office 365 rapporten in de Microsoft 365 Defender portal
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -35,230 +35,67 @@ ms.locfileid: "52930205"
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Microsoft Defender voor Office 365-organisaties (bijvoorbeeld Microsoft 365 E5-abonnementen of Microsoft Defender voor Office 365 Plan 1 of Microsoft Defender voor Office 365 Abonnement 2-invoegtoepassingen) bevatten diverse beveiligingsgerelateerde rapporten. Als u de [benodigde machtigingen hebt,](#what-permissions-are-needed-to-view-the-defender-for-office-365-reports)kunt u deze rapporten bekijken  in de portal Microsoft 365 Defender door naar Rapporten E-mailsamenwerking e-mailsamenwerkingsrapporten \>  \> **te gaan.** Als u rechtstreeks naar het dashboard Rapporten wilt gaan, opent u <https://security.microsoft.com/emailandcollabreport> .
+Microsoft Defender voor Office 365-organisaties (bijvoorbeeld Microsoft 365 E5-abonnementen of Microsoft Defender voor Office 365 Plan 1 of Microsoft Defender voor Office 365 Abonnement 2-invoegtoepassingen) bevatten diverse beveiligingsgerelateerde rapporten. Als u de [benodigde](#what-permissions-are-needed-to-view-the-defender-for-office-365-reports)machtigingen hebt, kunt u deze rapporten  bekijken in de Microsoft 365 Defender-portal door naar Rapporten e-mail & samenwerking e-mail & \>  \> **samenwerkingsrapporten.** Als u rechtstreeks naar de pagina **E-mail & samenwerkingsrapporten** wilt gaan, opent u <https://security.microsoft.com/emailandcollabreport> .
 
-![Het dashboard Rapporten in de Microsoft 365 Defender-portal](../../media/user-reported-messages.png)
-
-## <a name="defender-for-office-365-file-types-report"></a>Rapport over bestandstypen voor Defender voor Office 365
-
-Het **rapport Defender Office 365 bestandstypen** toont het type bestanden dat is gedetecteerd als schadelijk door Safe [Bijlagen.](safe-attachments.md)
-
- Met de statistische weergave van het rapport kunt u 90 dagen filteren, terwijl de detailweergave slechts tien dagen filtert.
-
-Als u het rapport wilt bekijken, opent [u de Microsoft 365 Defender-portal,](https://security.microsoft.com)gaat u naar  \> **Rapportendashboard** en selecteert u Defender voor Office 365 **bestandstypen.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://protection.office.com/reportv2?id=ATPFileReport> .
-
-![Defender for Office 365 file types widget in the Reports dashboard](../../media/atp-file-types-report-widget.png)
+![Pagina & samenwerkingsrapporten in de Microsoft 365 Defender portal](../../media/email-collaboration-reports.png)
 
 > [!NOTE]
-> De informatie in dit rapport is ook beschikbaar in het [defender for Office 365 message disposition report](#defender-for-office-365-message-disposition-report).
+>
+> E-mailbeveiligingsrapporten waarvoor Defender niet nodig is Office 365 worden beschreven in E-mailbeveiligingsrapporten [weergeven in de Microsoft 365 Defender portal.](view-email-security-reports.md)
+>
+> Rapporten die zijn gerelateerd aan de e-mailstroom, zijn nu in het Exchange beheercentrum (EAC). Zie E-mailstroomrapporten in het nieuwe Exchange [beheercentrum voor meer informatie over deze rapporten.](/exchange/monitoring/mail-flow-reports/mail-flow-reports)
 
-### <a name="report-view-for-the-defender-for-office-365-file-types-report"></a>Rapportweergave voor het rapport Defender Office 365 bestandstypen
-
-De volgende weergaven zijn beschikbaar:
-
-- **Gegevens weergeven op: Bestand:** De grafiek bevat de volgende informatie:
-
-  - **Schadelijke Excel bijlagen**
-  - **Schadelijke Flash-bijlagen**
-  - **Schadelijke PDF-bijlagen**
-  - **Schadelijke PowerPoint bijlagen**
-  - **Schadelijke URL's**
-  - **Schadelijke Word-bijlagen**
-  - **Schadelijke uitvoerbare bijlagen**
-  - **Anderen**
-
-  Wanneer u de muisaanwijzer op een bepaalde dag (gegevenspunt) beweegt, ziet u de uitsplitsing van typen schadelijke bestanden die zijn gedetecteerd door [Safe Bijlagen](safe-attachments.md) en [anti-malwarebeveiliging in EOP.](anti-malware-protection.md)
-
-  ![Bestandsweergave in het rapport Defender Office 365 bestandstypen](../../media/atp-file-types-report-file-view.png)
-
-  Als u op **Filters klikt,** kunt u het rapport met de volgende filters wijzigen:
-
-  - **Begindatum** en **einddatum**
-  - Dezelfde waarden van het bestandstype die zichtbaar zijn in de grafiek.
-
-- **Gegevens weergeven op: Bericht**: De grafiek bevat de volgende informatie:
-
-  - **Toegang blokkeren**
-  - **Berichten vervangen**
-  - **Berichten die worden gecontroleerd**
-  - **Vervangen door Dynamische e-mailbezorging**: Zie Dynamische bezorging in Safe [bijlagenbeleid voor meer informatie.](safe-attachments.md#dynamic-delivery-in-safe-attachments-policies)
-
-  ![Berichtweergave in het rapport Defender Office 365 bestandstypen](../../media/atp-file-types-report-message-view.png)
-
-  Als u op **Filters klikt,** kunt u het rapport met de volgende filters wijzigen:
-
-  - **Begindatum** en **einddatum**
-  - Dezelfde waarden voor berichtafzetting die beschikbaar zijn in de grafiek en de extra **waarde berichten die zijn** doorgegeven.
-
-### <a name="details-table-view-for-the-defender-for-office-365-file-types-report"></a>Detailtabelweergave voor het rapport Defender Office 365 bestandstypen
-
-Als u op **Detailstabel weergeven klikt,** biedt het rapport een bijna-realtime weergave van alle klikken die de afgelopen tien dagen binnen de organisatie plaatsvinden. De gegevens die worden weergegeven, zijn afhankelijk van de grafiek die u hebt bekeken:
-
-- **Gegevens weergeven op: Bestand**:
-
-  - **Datum**
-  - **Adres van geadresseerde**
-  - **Adres afzender**
-  - **Bericht-id:** Beschikbaar in het **veld Bericht-id** in de berichtkoptekst en moet uniek zijn. Een voorbeeldwaarde is `<08f1e0f6806a47b4ac103961109ae6ef@server.domain>` (let op de hoekhaken).
-  - **Bestand**
-
-  Als u op **Filters klikt,** kunt u het rapport met de volgende filters wijzigen:
-
-  - **Begindatum** en **einddatum**
-  - Dezelfde waarden van het bestandstype die zichtbaar zijn in de grafiek.
-
-- **Gegevens weergeven op: Bericht**:
-
-  - **Datum**
-  - **Adres van geadresseerde**
-  - **Adres afzender**
-  - **Bericht-ID**
-  - **Bestand**
-  - **Onderwerp**
-
-  Als u op **Filters klikt,** kunt u de resultaten wijzigen met de volgende filters:
-
-  - **Begindatum** en **einddatum**
-  - Dezelfde waarden voor berichtafzetting die beschikbaar zijn in de grafiek en de extra **waarde berichten die zijn** doorgegeven.
-
-Als u terug wilt naar de rapportweergave, klikt u op **Rapport weergeven.**
-
-## <a name="defender-for-office-365-message-disposition-report"></a>Rapport over berichtverwerking voor Defender voor Office 365
-
-In **het ATP-rapport Berichtafzetting** ziet u de acties die zijn uitgevoerd voor e-mailberichten die zijn gedetecteerd als schadelijke inhoud.
-
-Als u het rapport wilt bekijken, opent u  [de Microsoft 365 Defender-portal,](https://security.microsoft.com)gaat u naar Rapporten e-mail & samenwerking e-mail & samenwerkingsrapporten en selecteert u Defender voor Office 365 \>  \>  **berichtweergave.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://protection.office.com/reportv2?id=ATPMessageReport> .
-
-![Defender for Office 365 message disposition widget in the Reports dashboard](../../media/atp-message-disposition-report-widget.png)
+## <a name="safe-attachments-file-types-report"></a>Safe Rapport Bestandstypen bijlagen
 
 > [!NOTE]
-> De informatie in dit rapport is ook beschikbaar in het [defender for Office 365 bestandstypenrapport](#defender-for-office-365-file-types-report).
+> Het **Safe bestandstypen van** bijlagen wordt uiteindelijk verwijderd. Dezelfde informatie is beschikbaar in het rapport [Bedreigingsbeveiligingsstatus.](#threat-protection-status-report)
 
-### <a name="report-view-for-the-defender-for-office-365-message-disposition-report"></a>Rapportweergave voor het rapport Defender for Office 365 message disposition report
+## <a name="safe-attachments-message-disposition-report"></a>Safe Berichtbezettingsrapport bijlagen
 
-De volgende weergaven zijn beschikbaar:
-
-- **Gegevens weergeven op: Bericht**: De grafiek bevat de volgende informatie:
-
-  - **Toegang blokkeren**
-  - **Berichten vervangen**
-  - **Berichten die worden gecontroleerd**
-  - **Vervangen door Dynamische e-mailbezorging**: Zie Dynamische bezorging in Safe [bijlagenbeleid voor meer informatie.](safe-attachments.md#dynamic-delivery-in-safe-attachments-policies)
-
-  ![Berichtweergave in het rapport Defender Office 365 bestandstypen](../../media/atp-file-types-report-message-view.png)
-
-  Als u op **Filters klikt,** kunt u het rapport met de volgende filters wijzigen:
-
-  - **Begindatum** en **einddatum**
-  - Dezelfde waarden voor berichtafzetting die beschikbaar zijn in de grafiek en de extra **waarde berichten die zijn** doorgegeven.
-
-- **Gegevens weergeven op: Bestand:** De grafiek bevat de volgende informatie:
-
-  - **Schadelijke Excel bijlagen**
-  - **Schadelijke Flash-bijlagen**
-  - **Schadelijke PDF-bijlagen**
-  - **Schadelijke PowerPoint bijlagen**
-  - **Schadelijke URL's**
-  - **Schadelijke Word-bijlagen**
-  - **Schadelijke uitvoerbare bijlagen**
-  - **Anderen**
-
-  Wanneer u de muisaanwijzer op een bepaalde dag (gegevenspunt) beweegt, ziet u de uitsplitsing van typen schadelijke bestanden die zijn gedetecteerd door [Safe Bijlagen](safe-attachments.md) en [anti-malwarebeveiliging in EOP.](anti-malware-protection.md)
-
-  ![Bestandsweergave in het rapport Defender Office 365 bestandstypen](../../media/atp-file-types-report-file-view.png)
-
-  Als u op **Filters klikt,** kunt u het rapport met de volgende filters wijzigen:
-
-  - **Begindatum** en **einddatum**
-  - Dezelfde waarden van het bestandstype die zichtbaar zijn in de grafiek.
-
-### <a name="details-table-view-for-the-defender-for-office-365-message-disposition-report"></a>Detailtabelweergave voor het rapport Defender Office 365 berichtweergave
-
-Als u op **Detailstabel weergeven klikt,** biedt het rapport een bijna-realtime weergave van alle klikken die de afgelopen tien dagen binnen de organisatie plaatsvinden. De gegevens die worden weergegeven, zijn afhankelijk van de grafiek die u hebt bekeken:
-
-- **Gegevens weergeven op: Bericht**:
-
-  - **Datum**
-  - **Adres van geadresseerde**
-  - **Adres afzender**
-  - **Bericht-ID**
-  - **Bestand**
-  - **Onderwerp**
-
-  Als u op **Filters klikt,** kunt u de resultaten wijzigen met de volgende filters:
-
-  - **Begindatum** en **einddatum**
-  - Dezelfde waarden voor berichtafzetting die beschikbaar zijn in de grafiek en de extra **waarde berichten die zijn** doorgegeven.
-
-- **Gegevens weergeven op: Bestand**:
-
-  - **Datum**
-  - **Adres van geadresseerde**
-  - **Adres afzender**
-  - **Bericht-ID**
-  - **Bestand**
-
-  Als u op **Filters klikt,** kunt u het rapport met de volgende filters wijzigen:
-
-  - **Begindatum** en **einddatum**
-  - Dezelfde waarden van het bestandstype die zichtbaar zijn in de grafiek.
-
-Als u terug wilt naar de rapportweergave, klikt u op **Rapport weergeven.**
+> [!NOTE]
+> Het **Safe berichtbezettingsrapport** bijlagen wordt uiteindelijk verwijderd. Dezelfde informatie is beschikbaar in het rapport [Bedreigingsbeveiligingsstatus.](#threat-protection-status-report)
 
 ## <a name="mail-latency-report"></a>E-maillatentierapport
 
-In **het rapport E-maillatentie** ziet u een statistische weergave van de latentie van e-mailbezorging en detonatie binnen uw organisatie. E-mailbezorgingstijden in de service worden beïnvloed door een aantal factoren en de absolute levertijd in seconden is vaak geen goede indicator voor succes of een probleem. Een trage levertijd op één dag kan worden beschouwd als een gemiddelde levertijd op een andere dag, of omgekeerd. In **het rapport E-maillatentie** wordt geprobeerd berichtbezorging te kwalificeren op basis van statistische gegevens over de waargenomen bezorgingstijden van andere berichten:
-
-- **50e percentiel:** dit is het midden voor bezorgingstijden van berichten. U kunt deze waarde beschouwen als een gemiddelde levertijd.
-- **90e percentiel:** dit geeft een hoge latentie voor berichtbezorging aan. Slechts 10% van de berichten duurde langer dan deze waarde.
-- **99e percentiel:** dit geeft de hoogste latentie voor berichtbezorging aan.
+In **het rapport E-maillatentie** ziet u een statistische weergave van de latentie van e-mailbezorging en detonatie binnen uw organisatie. E-mailbezorgingstijden in de service worden beïnvloed door een aantal factoren en de absolute levertijd in seconden is vaak geen goede indicator voor succes of een probleem. Een trage levertijd op één dag kan worden beschouwd als een gemiddelde levertijd op een andere dag, of omgekeerd. Hiermee wordt geprobeerd berichtbezorging te kwalificeren op basis van statistische gegevens over de waargenomen levertijden van andere berichten.
 
 Clientzijde en netwerklatentie zijn niet inbegrepen.
 
-Als u het rapport wilt bekijken, opent u  [de Microsoft 365 Defender-portal,](https://security.microsoft.com)gaat u naar Rapporten E-mail & samenwerking e-mail & samenwerkingsrapporten en klikt u op Details weergeven onder \>  \>  **E-maillatentierapport.**  Als u rechtstreeks naar het rapport wilt gaan, opent u <https://security.microsoft.com/mailLatencyReport> .
+Als u het rapport wilt bekijken, opent  [u de Microsoft 365 Defender portal](https://security.microsoft.com), gaat u naar Rapporten e-mail & \> **samenwerking** \> **e-mail & samenwerkingsrapporten**. Zoek op **de pagina & e-mailsamenwerkingsrapporten** naar **het rapport E-maillatentie** en klik vervolgens op **Details weergeven.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://security.microsoft.com/mailLatencyReport> .
 
-![Rapportwidget e-maillatentie in het dashboard Rapporten](../../media/mail-latency-report-widget.png)
+![Rapportwidget e-maillatentie op de pagina E-mail & samenwerkingsrapporten](../../media/mail-latency-report-widget.png)
 
-### <a name="report-view-for-the-mail-latency-report"></a>Rapportweergave voor het rapport E-maillatentie
+Op de **pagina E-maillatentierapport** zijn de volgende tabbladen beschikbaar op de pagina **E-maillatentierapport:**
 
-Wanneer u het rapport opent, is het **tabblad 50e percentiel** standaard geselecteerd.
+- **50e percentiel:** dit is het midden voor bezorgingstijden van berichten. U kunt deze waarde beschouwen als een gemiddelde levertijd. Dit tabblad is standaard geselecteerd.
+- **90e percentiel:** dit geeft een hoge latentie voor berichtbezorging aan. Slechts 10% van de berichten duurde langer dan deze waarde.
+- **99e percentiel:** dit geeft de hoogste latentie voor berichtbezorging aan.
 
-Standaard bevat deze weergave een grafiek die is geconfigureerd met de volgende filters:
-
-- **Datum**: De laatste 7 dagen
-- **Berichtweergave:**
-  - Ontplofte berichten
-
-In deze grafiek ziet u berichten die zijn ingedeeld in de volgende categorieën:
+Ongeacht het tabblad dat u selecteert, worden in de grafiek berichten weergegeven die zijn ingedeeld in de volgende categorieën:
 
 - **Latentie voor e-mailbezorging**
-- **Detonatielatentie**
+- **Detonaties**
 
 Wanneer u de muisaanwijzer boven een categorie in de grafiek beweegt, ziet u een uitsplitsing van de latentie in elke categorie.
 
-![E-maillatentierapport](../../media/mail-latency-report.png)
+![50e percentielweergave van het rapport E-maillatentie](../../media/mail-latency-report-50th-percentile-view.png)
 
-Als u in de **rapportweergave** op Filter klikt, kunt u de resultaten met de volgende filters wijzigen:
+Als u op **Filter** klikt, kunt u zowel de grafiek als de detailtabel filteren op de volgende waarden:
 
-- Alle berichten
-- Berichten met bijlagen of URL's
+- **Datum (UTC)**: **Begindatum** en **einddatum**
+- **Berichtweergave:** Een van de volgende waarden:
+  - **Alle berichten**
+  - **Berichten met bijlagen of URL's**
+  - **Ontplofte berichten**
 
-Als u op het **tabblad 90e percentielen** of het **tabblad 99e percentielen** klikt, worden dezelfde standaardfilters uit de **weergave 50e percentielen** gebruikt.
+Wanneer u klaar bent met het configureren van de filters, klikt u **op Toepassen,** **Annuleren** of **Filters wissen.**
 
-### <a name="details-table-view-for-the-mail-latency-report"></a>Tabelweergave Details voor het rapport E-maillatentie
+In de detailtabel onder de grafiek zijn de volgende gegevens beschikbaar:
 
-De volgende informatie wordt weergegeven in de tabelweergave details:
-
-- **Datum**
-- **Percentielen**
+- **Datum (UTC)**
+- **Percentielen:** **50,** **90** of **99**
 - **Aantal berichten**
 - **Algehele latentie**
-
-![Details van het e-maillatentierapport](../../media/mail-latency-report-details.png)
-
-In het bovenstaande ziet u dat op 14 november de gemiddelde latentie voor alle verzonden en gedetoneerde berichten **108,033 seconden** was.
-
-De detailtabel bevat dezelfde informatie op elk tabblad.
 
 ## <a name="threat-protection-status-report"></a>Statusrapport bedreigingsbeveiliging
 
@@ -268,51 +105,42 @@ Het rapport Status **van** bedreigingsbeveiliging is één weergave waarin infor
 
 Het **rapport URL-bedreigingsbeveiliging** bevat overzichts- en trendweergaven voor gedetecteerde bedreigingen en acties die zijn ondernomen op URL-klikken als onderdeel [van Safe Koppelingen.](safe-links.md) In dit rapport zijn geen klikgegevens van gebruikers waar Safe beleid voor koppelingen is toegepast, is de optie **Gebruikersklikken** niet bijhouden geselecteerd.
 
-Als u het rapport wilt bekijken, opent  [u de Microsoft 365 Defender-portal,](https://security.microsoft.com)gaat u naar Rapporten E-mail & samenwerking e-mail & samenwerkingsrapporten en klikt u onder \>  \>  **URL-beveiligingsrapport** op **Details** weergeven. Als u rechtstreeks naar het rapport wilt gaan, opent u <https://security.microsoft.com/reports/URLProtectionActionReport> .
+Als u het rapport wilt bekijken, opent  [u de Microsoft 365 Defender portal](https://security.microsoft.com), gaat u naar Rapporten e-mail & \> **samenwerking** \> **e-mail & samenwerkingsrapporten**. Zoek op **de pagina & samenwerkingsrapporten** naar **de pagina URL-beveiliging** en klik vervolgens op **Details weergeven.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://security.microsoft.com/reports/URLProtectionActionReport> .
 
-![Widget urlbeveiligingsrapport in het dashboard Rapporten](../../media/url-protection-report-widget.png)
+![Widget urlbeveiligingsrapport op de pagina E-mail & samenwerkingsrapporten](../../media/url-protection-report-widget.png)
+
+De beschikbare weergaven op de **rapportpagina VOOR URL-bedreigingsbeveiliging** worden in de volgende secties beschreven.
 
 > [!NOTE]
-> Dit is een *beveiligingstrendrapport, wat* betekent dat gegevens trends vertegenwoordigen in een grotere gegevensset. Hierdoor zijn de gegevens in de statistische weergave hier niet in realtime beschikbaar, maar de gegevens in de detailtabelweergave zijn wel beschikbaar, zodat u mogelijk een kleine afwijking tussen de twee weergaven ziet.
+> Dit is een *beveiligingstrendrapport, wat* betekent dat gegevens trends vertegenwoordigen in een grotere gegevensset. Hierdoor zijn de gegevens in de grafieken hier niet in realtime beschikbaar, maar de gegevens in de detailtabel wel, zodat er mogelijk een kleine afwijking tussen de twee wordt gezien. De grafieken worden eenmaal per vier uur vernieuwd en bevatten gegevens voor de afgelopen 90 dagen.
 
-### <a name="report-view-for-the-url-threat-protection-report"></a>Rapportweergave voor het rapport URL-bedreigingsbeveiliging
+### <a name="view-data-by-url-click-protection-action"></a>Gegevens weergeven op URL klik op beveiligingsactie
 
-Het **rapport URL-bedreigingsbeveiliging** heeft twee samengevoegde weergaven die eenmaal per vier uur worden vernieuwd, met gegevens voor de afgelopen 90 dagen:
+![URL klik op beveiligingsactieweergave in het rapport URL-bedreigingsbeveiliging](../../media/url-threat-protection-report-url-click-protection-action-view.png)
 
-- **ACTIE VOOR URL-klikbeveiliging:** geeft het aantal URL-klikken weer van gebruikers in de organisatie en de resultaten van de klik:
+In **de weergave Gegevens per URL klikken op beveiligingsactieweergave** ziet u het aantal URL-klikken van gebruikers in de organisatie en de resultaten van de klik:
 
-  - **Geblokkeerd** (de gebruiker is geblokkeerd om naar de URL te navigeren)
-  - **Geblokkeerd en doorgeklikt** (de gebruiker heeft ervoor gekozen om door te gaan met navigeren naar de URL)
-  - **Doorgeklikt tijdens de scan** (de gebruiker heeft op de koppeling geklikt voordat de scan was voltooid)
+- **Toegestaan:** de gebruiker mocht naar de URL navigeren.
+- **Geblokkeerd:** De gebruiker is geblokkeerd voor het navigeren naar de URL.
+- **Geblokkeerd en doorgeklikt:** De gebruiker heeft ervoor gekozen om door te gaan met navigeren naar de URL.
+- **Doorgeklikt tijdens de scan:** De gebruiker heeft op de koppeling geklikt voordat de scan was voltooid.
 
-  Een klik geeft aan dat de gebruiker via de blokpagina naar de schadelijke website heeft geklikt (beheerders kunnen klikken uitschakelen in Safe Koppelingenbeleid).
+Een klik geeft aan dat de gebruiker via de blokpagina naar de schadelijke website heeft geklikt (beheerders kunnen klikken uitschakelen in Safe Koppelingenbeleid).
 
-  Als u op **Filters klikt,** kunt u het rapport met de volgende filters wijzigen:
+Als u op **Filters** klikt, kunt u het rapport en de detailtabel wijzigen door een of meer van de volgende waarden te selecteren in het flyout dat wordt weergegeven:
 
-  - **Begindatum** en **einddatum**
-  - De beschikbare klikbeveiligingsacties, plus de waarde **Toegestaan** (de gebruiker mocht naar de URL navigeren).
+- **Datum (UTC)**: **Begindatum** en **einddatum**
+- **Detectie**:
+  - **Toegestaan**
+  - **Geblokkeerd**
+  - **Geblokkeerd en doorgeklikt**
+  - **Doorgeklikt tijdens de scan**
+- **Domeinen:** de URL-domeinen die worden vermeld in de rapportresultaten.
+- **Geadresseerden**
 
-  ![URL klik op beveiligingsactieweergave in het rapport URL-bedreigingsbeveiliging](../../media/url-threat-protection-report-url-click-protection-action-view.png)
+Wanneer u klaar bent met het configureren van de filters, klikt u **op Toepassen,** **Annuleren** of **Filters wissen.**
 
-- **URL klikken op toepassing:** geeft het aantal URL-klikken weer van toepassingen die ondersteuning bieden Safe Koppelingen:
-
-  - **E-mailclient**
-  - **PowerPoint**
-  - **Word**
-  - **Excel**
-  - **OneNote**
-  - **Visio**
-  - **Teams**
-  - **Overige**
-
-  Als u op **Filters klikt,** kunt u het rapport met de volgende filters wijzigen:
-
-  - **Begindatum** en **einddatum**
-  - De beschikbare toepassingen.
-
-### <a name="details-table-view-for-the-url-threat-protection-report"></a>Gegevenstabelweergave voor het rapport URL-bedreigingsbeveiliging
-
-Als u op **Detailstabel weergeven** klikt, biedt het rapport een bijna-realtime weergave van alle klikken die de afgelopen 7 dagen binnen de organisatie plaatsvinden met de volgende details:
+De detailtabel onder de grafiek bevat de volgende bijna-realtime weergave van alle klikken die de afgelopen 7 dagen binnen de organisatie hebben plaatsgevonden:
 
 - **Klik op tijd**
 - **Gebruiker**
@@ -320,24 +148,51 @@ Als u op **Detailstabel weergeven** klikt, biedt het rapport een bijna-realtime 
 - **Actie**
 - **App**
 
-Als u in **de detailtabelweergave** op Filters klikt, kunt u filteren  op dezelfde  criteria als in de rapportweergave, en ook op Domeinen of Geadresseerden gescheiden door komma's.
+### <a name="view-data-by-url-click-by-application"></a>Gegevens weergeven op URL klik op toepassing
 
-> [!NOTE]
-> Het **filter Domeinen** verwijst naar het URL-domein dat wordt vermeld in de rapportresultaten. 
+![URL-klik op toepassingsweergave in het rapport URL-bedreigingsbeveiliging](../../media/url-threat-protection-report-url-click-by-application-view.png)
 
-Als u terug wilt naar de rapportweergave, klikt u op **Rapport weergeven.**
+In de weergave Gegevens **weergeven op URL op** toepassing wordt het aantal URL-klikken weergegeven door apps die ondersteuning bieden Safe Koppelingen:
+
+- **E-mailclient**
+- **PowerPoint**
+- **Word**
+- **Excel**
+- **OneNote**
+- **Visio**
+- **Teams**
+- **Anderen**
+
+Als u op **Filters** klikt, kunt u het rapport en de detailtabel wijzigen door een of meer van de volgende waarden te selecteren in het flyout dat wordt weergegeven:
+
+- **Datum (UTC)**: **Begindatum** en **einddatum**
+- **Detectie:** Beschikbare apps in de grafiek.
+- **Domeinen:** de URL-domeinen die worden vermeld in de rapportresultaten.
+- **Geadresseerden**
+
+Wanneer u klaar bent met het configureren van de filters, klikt u **op Toepassen,** **Annuleren** of **Filters wissen.**
+
+De detailtabel onder de grafiek bevat de volgende bijna-realtime weergave van alle klikken die de afgelopen 7 dagen binnen de organisatie hebben plaatsgevonden:
+
+- **Klik op tijd**
+- **Gebruiker**
+- **URL**
+- **Actie**
+- **App**
 
 ## <a name="additional-reports-to-view"></a>Aanvullende rapporten die u wilt weergeven
 
 Naast de rapporten die in dit artikel worden beschreven, zijn er verschillende andere rapporten beschikbaar, zoals beschreven in de volgende tabel:
+
+<br>
 
 ****
 
 |Rapport|Onderwerp|
 |---|---|
 |**Explorer** (Microsoft Defender voor Office 365 plan 2) of **realtime detecties** (Microsoft Defender voor Office 365 abonnement 1)|[Bedreigingsverkenner (en realtime detecties)](threat-explorer.md)|
-|**E-mailbeveiligingsrapporten,** zoals het rapport Top senders and recipients, the Spoof mail report, and the Spam detections report.|[E-mailbeveiligingsrapporten weergeven in Microsoft 365 Defender-portal](view-email-security-reports.md)|
-|**E-mailstroomrapporten,** zoals het rapport Doorsturen, het rapport Mailflow-status en het rapport Top senders and recipients.|[E-mailstroomrapporten weergeven in Microsoft 365 Defender-portal](view-mail-flow-reports.md)|
+|**E-mailbeveiligingsrapporten,** zoals het rapport Top senders and recipients, the Spoof mail report, and the Spam detections report.|[E-mailbeveiligingsrapporten weergeven in de Microsoft 365 Defender portal](view-email-security-reports.md)|
+|**E-mailstroomrapporten,** zoals het rapport Doorsturen, het rapport Mailflow-status en het rapport Top senders and recipients.|[E-mailstroomrapporten in het nieuwe Exchange beheercentrum](/exchange/monitoring/mail-flow-reports/mail-flow-reports)|
 |**URL-trace voor Safe koppelingen** (alleen PowerShell). In de uitvoer van deze cmdlet ziet u de resultaten van Safe koppelingen in de afgelopen zeven dagen.|[Get-UrlTrace](/powershell/module/exchange/get-urltrace)|
 |**Resultaten van e-mailverkeer voor EOP en Microsoft Defender voor Office 365** (alleen PowerShell). De uitvoer van deze cmdlet bevat informatie over Domein, Datum, Gebeurtenistype, Richting, Actie en Aantal berichten.|[Get-MailTrafficATPReport](/powershell/module/exchange/get-mailtrafficatpreport)|
 |**E-maildetailrapporten voor EOP en Defender Office 365 detecties** (alleen PowerShell). De uitvoer van deze cmdlet bevat details over schadelijke bestanden of URL's, phishingpogingen, imitatie en andere potentiële bedreigingen in e-mail of bestanden.|[Get-MailDetailATPReport](/powershell/module/exchange/get-maildetailatpreport)|
@@ -345,16 +200,16 @@ Naast de rapporten die in dit artikel worden beschreven, zijn er verschillende a
 
 ## <a name="what-permissions-are-needed-to-view-the-defender-for-office-365-reports"></a>Welke machtigingen zijn nodig om de Defender voor Office 365 weergeven?
 
-Als u de rapporten wilt bekijken en gebruiken die in dit artikel worden beschreven, moet u lid zijn van een van de volgende rollengroepen in de Microsoft 365 Defender-portal:
+Als u de rapporten wilt bekijken en gebruiken die in dit artikel worden beschreven, moet u lid zijn van een van de volgende rollengroepen in de Microsoft 365 Defender portal:
 
 - **Organisatiebeheer**
 - **Beveiligingsbeheerder**
 - **Beveiligingslezer**
 - **Globale lezer**
 
-Zie Machtigingen [in de portal Microsoft 365 Defender voor meer informatie.](permissions-in-the-security-and-compliance-center.md)
+Zie Machtigingen in de Microsoft 365 Defender [portal voor meer informatie.](permissions-in-the-security-and-compliance-center.md)
 
-**Opmerking:** Gebruikers toevoegen aan de bijbehorende Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de vereiste  machtigingen in de Microsoft 365 Defender-portal en machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
+**Opmerking:** Gebruikers toevoegen aan de bijbehorende Azure Active Directory rol in de Microsoft 365-beheercentrum geeft gebruikers de vereiste machtigingen in de _Microsoft 365 Defender-portal_ en machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
 
 ## <a name="what-if-the-reports-arent-showing-data"></a>Wat gebeurt er als er geen gegevens worden weergegeven in de rapporten?
 
@@ -362,6 +217,6 @@ Als u geen gegevens ziet in uw Defender voor Office 365 rapporten, controleert u
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Slimme rapporten en inzichten in de Microsoft 365 Defender-portal](reports-and-insights-in-security-and-compliance.md)
+[Slimme rapporten en inzichten in de Microsoft 365 Defender portal](reports-and-insights-in-security-and-compliance.md)
 
 [Rolmachtigingen (Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#role-permissions)

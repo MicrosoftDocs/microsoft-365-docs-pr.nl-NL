@@ -21,12 +21,12 @@ ms.custom:
 description: Microsoft Defender voor Office 365 omvat veilige bijlagen, veilige koppelingen, geavanceerde hulpmiddelen tegen phishing, rapportagehulpmiddelen en functies voor bedreigingsinformatie.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: eab7cdbed592975739fdcfa1089e6f7d2c25d880
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: 00dcd5d8f5d18b59de67318049cc1e5807451f14
+ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52904114"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53022352"
 ---
 # <a name="microsoft-defender-for-office-365"></a>Microsoft Defender voor Office 365
 
@@ -122,13 +122,7 @@ Microsoft Defender voor Office 365 bevat een geavanceerd [rapportagedashboard](v
 Rapporten worden in realtime bijgewerkt en voorzien u zo van de nieuwste inzichten. Deze rapporten bieden ook aanbevelingen en waarschuwen u tegen naderende bedreigingen. Vooraf gedefinieerde rapporten omvatten het volgende:
 
 - [Bedreigingsverkenner (of realtime detecties)](threat-explorer.md)
-
 - [Statusrapport bedreigingsbeveiliging](view-reports-for-mdo.md#threat-protection-status-report)
-
-- [Rapport over bestandstypen voor Defender voor Office 365](view-reports-for-mdo.md#defender-for-office-365-file-types-report)
-
-- [Rapport over berichtverwerking voor Defender voor Office 365](view-reports-for-mdo.md#defender-for-office-365-message-disposition-report)
-
 - ... en verschillende andere.
 
 ## <a name="use-threat-investigation-and-response-capabilities"></a>Functies gebruiken om bedreigingen te onderzoeken en erop te reageren

@@ -13,12 +13,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Meer informatie over het configureren van zoeken in een multi-geo-omgeving. Alleen sommige clients, zoals OneDrive voor Bedrijven, kunnen resultaten retourneren in een multi-geoomgeving.
-ms.openlocfilehash: b3a96b1d0652cb954c58ae410583befa078460d9
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 31e0c4ae3fe73f2f6e113dbc38989726eb1ca590
+ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911160"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53022328"
 ---
 # <a name="configure-search-for-microsoft-365-multi-geo"></a>Zoeken naar Microsoft 365 multi-geo configureren
 
@@ -210,7 +210,7 @@ Als u DataLocation of EndPoint weglaat of als een DataLocation wordt gedupliceer
 
 ### <a name="response-data"></a>Antwoordgegevens
 
-MultiGeoSearchStatus: dit is een eigenschap die SharePoint zoek-API retourneert als antwoord op een aanvraag. De waarde van de eigenschap is een tekenreeks en geeft de volgende informatie over de resultaten die SharePoint Zoek-API retourneert:
+MultiGeoSearchStatus: dit is een eigenschap die de SharePoint Search API retourneert als antwoord op een aanvraag. De waarde van de eigenschap is een tekenreeks en geeft de volgende informatie over de resultaten die de SharePoint Search API retourneert:
 
 <table>
 <thead>
@@ -235,7 +235,7 @@ MultiGeoSearchStatus: dit is een eigenschap die SharePoint zoek-API retourneert 
 
 Met een GET-aanvraag geeft u de queryparameters op in de URL. Met een POST-aanvraag passeert u de queryparameters in de body in de JSON-indeling (JavaScript Object Notation).
 
-#### <a name="request-headers"></a>Kopteksten aanvragen
+#### <a name="request-headers"></a>Aanvraagheaders
 
 <table>
 <thead>
@@ -246,7 +246,7 @@ Met een GET-aanvraag geeft u de queryparameters op in de URL. Met een POST-aanvr
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Inhoudstype</td>
+<td align="left">Content-Type</td>
 <td align="left">application/json;odata=verbose</td>
 </tr>
 </tbody>
@@ -325,5 +325,5 @@ Hier is een voorbeeld van een CSOM-query die is uitgewaakt naar **alle** geograf
 var keywordQuery = new KeywordQuery(ctx);
 keywordQuery.QueryText = query.SearchQueryText;
 keywordQuery.ClientType = <enter a string here>;
-keywordQuery["EnableMultiGeoSearch"] = true;
+keywordQuery.Properties["EnableMultiGeoSearch"] = true;
 ```

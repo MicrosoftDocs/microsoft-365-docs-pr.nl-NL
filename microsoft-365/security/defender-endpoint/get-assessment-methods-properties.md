@@ -1,6 +1,6 @@
 ---
 title: Beoordelingsmethoden en -eigenschappen per apparaat exporteren
-description: Hier vindt u informatie over de API's die 'Threat and Vulnerability Management' halen. Er zijn verschillende API-oproepen om verschillende typen gegevens op te halen. Over het algemeen bevat elke API-oproep de vereiste gegevens voor apparaten in uw organisatie. Aangezien de hoeveelheid gegevens groot kan zijn, kunnen deze op twee manieren worden opgehaald
+description: Hier vindt u informatie over de API's die 'Threat and Vulnerability Management' halen. Er zijn verschillende API-oproepen om verschillende typen gegevens op te halen. Over het algemeen bevat elke API-oproep de vereiste gegevens voor apparaten in uw organisatie.
 keywords: api's, api's, exportbeoordeling, per apparaatbeoordeling, per computerbeoordeling, kwetsbaarheidsbeoordelingsrapport, beoordeling van kwetsbaarheid van apparaten, rapport over apparaatproblemen, veilige configuratiebeoordeling, rapport over veilige configuratie, beoordeling van softwareproblemen, rapport over beveiligingsproblemen, kwetsbaarheidsrapport per computer,
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.custom: api
-ms.openlocfilehash: ace9f55b0b083faaeeb620700a43a1216c4451c2
-ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
+ms.openlocfilehash: 3e5a91a33a4207daa30f1054f03655c846d297ec
+ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52984866"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53022436"
 ---
 # <a name="export-assessment-methods-and-properties-per-device"></a>Beoordelingsmethoden en -eigenschappen per apparaat exporteren
 
@@ -32,7 +32,7 @@ ms.locfileid: "52984866"
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 ## <a name="api-description"></a>API-beschrijving
 
@@ -54,7 +54,7 @@ De API's die overeenkomen met de exportgegevenstypen worden beschreven in de sec
 
 Voor elke methode zijn er verschillende API-oproepen om verschillende typen gegevens op te halen. Omdat de hoeveelheid gegevens groot kan zijn, kunnen deze op twee manieren worden opgehaald:
 
-- **OData**  De API haalt alle gegevens in uw organisatie op als Json-antwoorden, volgens het OData-protocol. Deze methode is het beste _voor kleine organisaties met minder dan 100 K-apparaten._ Het antwoord is paginated, zodat u het veld odata.nextLink uit het antwoord kunt gebruiken \@ om de volgende resultaten op te halen.
+- **JSON-antwoord**  De API haalt alle gegevens in uw organisatie op als JSON-antwoorden. Deze methode is het beste _voor kleine organisaties met minder dan 100 K-apparaten._ Het antwoord is paginated, zodat u het veld odata.nextLink uit het antwoord kunt gebruiken \@ om de volgende resultaten op te halen.
 
 - **via bestanden** Met deze API-oplossing kunt u sneller en betrouwbaarder grotere hoeveelheden gegevens verzamelen. Daarom wordt het aanbevolen voor grote organisaties, met meer dan 100 K-apparaten. Met deze API worden alle gegevens in uw organisatie als downloadbestanden opgeslagen. Het antwoord bevat URL's om alle gegevens uit de Azure Storage. Met deze API kunt u al uw gegevens als volgt Azure Storage downloaden:
 
@@ -62,7 +62,7 @@ Voor elke methode zijn er verschillende API-oproepen om verschillende typen gege
 
   - Download alle bestanden met de download-URL's en verwerkt de gegevens naar eigen goed gebruik.
 
-Gegevens die worden verzameld (met _OData_ of _via_ bestanden) zijn de huidige momentopname van de huidige status en bevatten geen historische gegevens. Om historische gegevens te verzamelen, moeten klanten de gegevens opslaan in hun eigen gegevensopslag.
+Gegevens die worden verzameld (met _JSON-antwoord_ of _via_ bestanden) zijn de huidige momentopname van de huidige status en bevatten geen historische gegevens. Om historische gegevens te verzamelen, moeten klanten de gegevens opslaan in hun eigen gegevensopslag.
 
 ## <a name="1-export-secure-configurations-assessment"></a>1. Secure configurations assessment exporteren
 
@@ -72,10 +72,10 @@ Retourneert alle configuraties en hun status, per apparaat.
 
 Methode | Gegevenstype | Beschrijving
 :---|:---|:---
-Veilige configuratiebeoordeling **exporteren (OData)** | Veilige configuratie per apparaatverzameling. Zie: [1,2 eigenschappen (OData)](#12-properties-odata) | Retourneert een tabel met een vermelding voor elke unieke combinatie van DeviceId, ConfigurationId. De API haalt alle gegevens in uw organisatie op als Json-antwoorden, volgens het OData-protocol. Deze methode is het beste voor kleine organisaties met minder dan 100 K-apparaten. Het antwoord is paginated, zodat u het veld @odata.nextLink uit het antwoord kunt gebruiken om de volgende resultaten op te halen.
-Beveiligde configuratiebeoordeling **exporteren (via bestanden)** | Veilige configuratie per apparaatverzameling. Zie: [1,2 eigenschappen (OData)](#12-properties-odata) | Retourneert een tabel met een vermelding voor elke unieke combinatie van DeviceId, ConfigurationId. Met deze API-oplossing kunt u sneller en betrouwbaarder grotere hoeveelheden gegevens verzamelen. Daarom wordt het aanbevolen voor grote organisaties, met meer dan 100 K-apparaten. Met deze API worden alle gegevens in uw organisatie als downloadbestanden opgeslagen. Het antwoord bevat URL's om alle gegevens uit de Azure Storage. Met deze API kunt u al uw gegevens als volgt Azure Storage downloaden: 1.  Bel de API om een lijst met url's te downloaden met al uw organisatiegegevens. 2.  Download alle bestanden met de download-URL's en verwerkt de gegevens naar eigen goed gebruik.
+Veilige configuratiebeoordeling **exporteren (JSON-antwoord)** | Veilige configuratie per apparaatverzameling. Zie: [1.2 Eigenschappen (JSON-antwoord)](#12-properties-json-response) | Retourneert een tabel met een vermelding voor elke unieke combinatie van DeviceId, ConfigurationId. De API haalt alle gegevens in uw organisatie op als JSON-antwoorden. Deze methode is het beste voor kleine organisaties met minder dan 100 K-apparaten. Het antwoord is paginated, zodat u het veld @odata.nextLink uit het antwoord kunt gebruiken om de volgende resultaten op te halen.
+Beveiligde configuratiebeoordeling **exporteren (via bestanden)** | Veilige configuratie per apparaatverzameling. Zie: [1.3 Eigenschappen (via bestanden)](#13-properties-via-files) | Retourneert een tabel met een vermelding voor elke unieke combinatie van DeviceId, ConfigurationId. Met deze API-oplossing kunt u sneller en betrouwbaarder grotere hoeveelheden gegevens verzamelen. Daarom wordt het aanbevolen voor grote organisaties, met meer dan 100 K-apparaten. Met deze API worden alle gegevens in uw organisatie als downloadbestanden opgeslagen. Het antwoord bevat URL's om alle gegevens uit de Azure Storage. Met deze API kunt u al uw gegevens als volgt Azure Storage downloaden: 1.  Bel de API om een lijst met url's te downloaden met al uw organisatiegegevens. 2.  Download alle bestanden met de download-URL's en verwerkt de gegevens naar eigen goed gebruik.
 
-### <a name="12-properties-odata"></a>1.2 Eigenschappen (OData)
+### <a name="12-properties-json-response"></a>1.2 Eigenschappen (JSON-antwoord)
 
 Eigenschap (id) | Gegevenstype | Beschrijving
 :---|:---|:---
@@ -109,10 +109,10 @@ Retourneert alle geïnstalleerde software en de gegevens op elk apparaat.
 
 Methode | Gegevenstype | Beschrijving
 :---|:---|:---
-Beoordeling van de softwarevoorraad **exporteren (OData)** | Softwarevoorraad per apparaatverzameling. Zie: [2.2 Eigenschappen (OData)](#22-properties-odata) | Retourneert een tabel met een vermelding voor elke unieke combinatie van DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion. De API haalt alle gegevens in uw organisatie op als Json-antwoorden, volgens het OData-protocol. Deze methode is het beste voor kleine organisaties met minder dan 100 K-apparaten. Het antwoord is paginated, zodat u het veld @odata.nextLink uit het antwoord kunt gebruiken om de volgende resultaten op te halen.
+Beoordeling van de inventaris van software **exporteren (JSON-antwoord)** | Softwarevoorraad per apparaatverzameling. Zie: [2,2 eigenschappen (JSON-antwoord)](#22-properties-json-response) | Retourneert een tabel met een vermelding voor elke unieke combinatie van DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion. De API haalt alle gegevens in uw organisatie op als JSON-antwoorden. Deze methode is het beste voor kleine organisaties met minder dan 100 K-apparaten. Het antwoord is paginated, zodat u het veld @odata.nextLink uit het antwoord kunt gebruiken om de volgende resultaten op te halen.
 Beoordeling van softwarevoorraad **exporteren (via bestanden)** | Softwarevoorraad per apparaatbestanden. Zie: [2.3 Eigenschappen (via bestanden)](#23-properties-via-files) | Retourneert een tabel met een vermelding voor elke unieke combinatie van DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion. Met deze API-oplossing kunt u sneller en betrouwbaarder grotere hoeveelheden gegevens verzamelen. Daarom wordt het aanbevolen voor grote organisaties, met meer dan 100 K-apparaten. Met deze API worden alle gegevens in uw organisatie als downloadbestanden opgeslagen. Het antwoord bevat URL's om alle gegevens uit de Azure Storage. Met deze API kunt u al uw gegevens als volgt Azure Storage downloaden: 1.  Bel de API om een lijst met url's te downloaden met al uw organisatiegegevens. 2.  Download alle bestanden met de download-URL's en verwerkt de gegevens naar eigen goed gebruik.
 
-### <a name="22-properties-odata"></a>2.2 Eigenschappen (OData)
+### <a name="22-properties-json-response"></a>2.2 Eigenschappen (JSON-antwoord)
 
 Eigenschap (id) | Gegevenstype | Beschrijving
 :---|:---|:---
@@ -146,11 +146,11 @@ Retourneert alle bekende beveiligingslekken op een apparaat en de details, voor 
 
 Methode | Gegevenstype | Beschrijving
 :---|:---|:---
-Beoordeling van beveiligingsproblemen met software **exporteren (OData)** | Onderzoeksverzameling Zie: [3.2 Eigenschappen (OData)](#32-properties-odata) | Retourneert een tabel met een vermelding voor elke unieke combinatie van DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion, CveId. De API haalt alle gegevens in uw organisatie op als Json-antwoorden, volgens het OData-protocol. Deze methode is het beste voor kleine organisaties met minder dan 100 K-apparaten. Het antwoord is paginated, zodat u het veld @odata.nextLink uit het antwoord kunt gebruiken om de volgende resultaten op te halen.
+Beoordeling van beveiligingsproblemen met software **exporteren (JSON-antwoord)** | Onderzoeksverzameling Zie: [3.2 Eigenschappen (JSON-antwoord)](#32-properties-json-response) | Retourneert een tabel met een vermelding voor elke unieke combinatie van DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion, CveId. De API haalt alle gegevens in uw organisatie op als JSON-antwoorden. Deze methode is het beste voor kleine organisaties met minder dan 100 K-apparaten. Het antwoord is paginated, zodat u het veld @odata.nextLink uit het antwoord kunt gebruiken om de volgende resultaten op te halen.
 Beoordeling van beveiligingsproblemen met software **exporteren (via bestanden)** | Onderzoeksentiteit Zie: [3.3 Eigenschappen (via bestanden)](#33-properties-via-files) | Retourneert een tabel met een vermelding voor elke unieke combinatie van DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion, CveId. Met deze API-oplossing kunt u sneller en betrouwbaarder grotere hoeveelheden gegevens verzamelen. Daarom wordt het aanbevolen voor grote organisaties, met meer dan 100 K-apparaten. Met deze API worden alle gegevens in uw organisatie als downloadbestanden opgeslagen. Het antwoord bevat URL's om alle gegevens uit de Azure Storage. Met deze API kunt u al uw gegevens als volgt Azure Storage downloaden: 1.  Bel de API om een lijst met url's te downloaden met al uw organisatiegegevens. 2.  Download alle bestanden met de download-URL's en verwerkt de gegevens naar eigen goed gebruik.
-**Evaluatie van beveiligingsproblemen** bij Delta-exportsoftware **(OData)** | Onderzoeksverzameling Zie: [3.4 Eigenschappen Delta exporteren OData)](#34-properties-delta-export-odata) | Retourneert een tabel met een vermelding voor elke unieke combinatie van: DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion, CveId en EventTimestamp. <br><br> De API haalt gegevens in uw organisatie op als Json-antwoorden, volgens het OData-protocol. Het antwoord is paginated, zodat u het veld @odata.nextLink uit het antwoord kunt gebruiken om de volgende resultaten op te halen. In tegenstelling tot de evaluatie van volledige softwareproblemen (OData) - die wordt gebruikt om een volledige momentopname van de beoordeling van de beveiligingsproblemen in de software van uw organisatie per apparaat te verkrijgen - wordt de delta export OData API-oproep gebruikt om alleen de wijzigingen op te halen die zijn gebeurd tussen een geselecteerde datum en de huidige datum (de delta-API-oproep). In plaats van elke keer een volledige export met een grote hoeveelheid gegevens te krijgen, krijgt u alleen specifieke informatie over nieuwe, opgeloste en bijgewerkte beveiligingslekken. Delta export OData API-oproep kan ook worden gebruikt om verschillende KPI's te berekenen, zoals 'hoeveel beveiligingslekken zijn opgelost?' of 'hoeveel nieuwe beveiligingslekken zijn toegevoegd aan mijn organisatie?'  <br><br> Omdat de Delta Export OData API call for software vulnerabilities gegevens retourneert voor alleen een gericht datumbereik, wordt deze niet beschouwd als _een volledige export_.
+**Evaluatie van beveiligingsproblemen** met Delta-exportsoftware **(JSON-antwoord)** | Onderzoeksverzameling Zie: [3.4 Properties Delta export (JSON response)](#34-properties-delta-export-json-response) | Retourneert een tabel met een vermelding voor elke unieke combinatie van: DeviceId, SoftwareVendor, SoftwareName, SoftwareVersion, CveId en EventTimestamp. <br><br> De API haalt gegevens in uw organisatie op als JSON-antwoorden. Het antwoord is paginated, zodat u het veld @odata.nextLink uit het antwoord kunt gebruiken om de volgende resultaten op te halen. In tegenstelling tot de beoordeling van volledige softwareproblemen (JSON-antwoord) - die wordt gebruikt om een volledige momentopname van de beoordeling van de beveiligingsproblemen in de software van uw organisatie per apparaat te verkrijgen - wordt de delta export OData API-oproep gebruikt om alleen de wijzigingen op te halen die zijn gebeurd tussen een geselecteerde datum en de huidige datum (de delta-API-oproep). In plaats van elke keer een volledige export met een grote hoeveelheid gegevens te krijgen, krijgt u alleen specifieke informatie over nieuwe, opgeloste en bijgewerkte beveiligingslekken. Delta export OData API-oproep kan ook worden gebruikt om verschillende KPI's te berekenen, zoals 'hoeveel beveiligingslekken zijn opgelost?' of 'hoeveel nieuwe beveiligingslekken zijn toegevoegd aan mijn organisatie?'  <br><br> Omdat de Delta Export OData API call for software vulnerabilities gegevens retourneert voor alleen een gericht datumbereik, wordt deze niet beschouwd als _een volledige export_.
 
-### <a name="32-properties-odata"></a>3.2 Eigenschappen (OData)
+### <a name="32-properties-json-response"></a>3.2 Eigenschappen (JSON-antwoord)
 
 Eigenschap (id) | Gegevenstype | Beschrijving
 :---|:---|:---
@@ -181,7 +181,7 @@ Eigenschap (id) | Gegevenstype | Beschrijving
 Bestanden exporteren | \[matrixreeks\]  | Een lijst met download-URL's voor bestanden met de huidige momentopname van de organisatie.
 GeneratedTime | string | De tijd dat de export is gegenereerd.
 
-### <a name="34-properties-delta-export-odata"></a>3.4 Eigenschappen (delta-export OData)
+### <a name="34-properties-delta-export-json-response"></a>3.4 Eigenschappen (delta export JSON-antwoord)
 
 Eigenschap (id) | Gegevenstype | Beschrijving
 :---|:---|:---

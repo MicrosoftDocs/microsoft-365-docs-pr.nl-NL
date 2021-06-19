@@ -1,5 +1,5 @@
 ---
-title: Waarschuwingen onderzoeken in Microsoft 365 Defender
+title: Waarschuwingen in Microsoft 365 Defender
 description: Onderzoeken van waarschuwingen die worden gezien op apparaten, gebruikers en postvakken.
 keywords: incidenten, waarschuwingen, onderzoeken, analyseren, reactie, correlatie, aanval, machines, apparaten, gebruikers, identiteiten, identiteit, postvak, e-mail, 365, microsoft, m365
 search.product: eADQiWindows 10XVcnh
@@ -22,14 +22,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: a6e11aea14a7b8d99c0098b68951790328ec593e
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: 567916e9e1a1d96d77bc6c187b384a1ec3be72a5
+ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782907"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53022675"
 ---
-# <a name="investigate-alerts-in-microsoft-365-defender"></a>Waarschuwingen onderzoeken in Microsoft 365 Defender
+# <a name="investigate-alerts-in-microsoft-365-defender"></a>Waarschuwingen in Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -40,13 +40,13 @@ Waarschuwingen vormen de basis van alle incidenten en geven aan dat er schadelij
 
 In Microsoft 365 Defender worden gerelateerde waarschuwingen samengevoegd tot [incidenten.](incidents-overview.md) Incidenten bieden altijd de bredere context van een aanval, maar het analyseren van waarschuwingen kan waardevol zijn wanneer een diepere analyse is vereist. 
 
-In **de wachtrij Waarschuwingen** ziet u de huidige set waarschuwingen. U krijgt toegang tot de waarschuwingenwachtrij van **Incidenten & waarschuwingen > Waarschuwingen** bij de snelle start van het Microsoft 365 beveiligingscentrum [(security.microsoft.com).](https://security.microsoft.com)
+In **de wachtrij Waarschuwingen** ziet u de huidige set waarschuwingen. U krijgt toegang tot de waarschuwingenwachtrij van **Incidenten & waarschuwingen > Waarschuwingen** op de snelle start van de Microsoft 365 Defender portal [(security.microsoft.com).](https://security.microsoft.com)
 
-:::image type="content" source="../../media/investigate-alerts/alerts-ss-alerts-queue.png" alt-text="Voorbeeld van de waarschuwingenwachtrij":::
+:::image type="content" source="../../media/investigate-alerts/alerts-ss-alerts-queue.png" lightbox="../../media/investigate-alerts/alerts-ss-alerts-queue.png" alt-text="Voorbeeld van de waarschuwingenwachtrij":::
 
-Waarschuwingen van verschillende Microsoft-beveiligingsoplossingen, zoals Microsoft Defender voor Eindpunt, Microsoft Defender voor Office 365 en Microsoft 365 Defender, worden hier weergegeven.
+Waarschuwingen van verschillende Microsoft-beveiligingsoplossingen, zoals Microsoft Defender voor Eindpunt, Microsoft Defender voor Office 365 en Microsoft 365 Defender worden hier weergegeven.
 
-Standaard worden in de waarschuwingenwachtrij in Microsoft 365 beveiligingscentrum de nieuwe waarschuwingen van de afgelopen 30 dagen weergegeven. De meest recente waarschuwing staat boven aan de lijst, zodat u deze als eerste kunt zien. 
+Standaard worden in de waarschuwingenwachtrij in Microsoft 365 Defender portal de nieuwe en in uitvoering komende waarschuwingen van de afgelopen 30 dagen weergegeven. De meest recente waarschuwing staat boven aan de lijst, zodat u deze als eerste kunt zien. 
 
 In de wachtrij met standaardwaarschuwingen kunt u **Filters** selecteren om een deelvenster **Filters** te zien, waaruit u een subset van de waarschuwingen kunt opgeven. Hier is een voorbeeld.
 
@@ -66,7 +66,7 @@ U kunt waarschuwingen filteren op basis van deze criteria:
 
 Als u de hoofdwaarschuwingspagina wilt zien, selecteert u de naam van de waarschuwing. Hier is een voorbeeld.
 
-:::image type="content" source="../../media/investigate-alerts/alerts-ss-alerts-main.png" alt-text="Voorbeeld van de detailspagina van een waarschuwing in het Microsoft 365 beveiligingscentrum":::
+:::image type="content" source="../../media/investigate-alerts/alerts-ss-alerts-main.png" lightbox="../../media/investigate-alerts/alerts-ss-alerts-main.png" alt-text="Voorbeeld van de detailspagina van een waarschuwing in de Microsoft 365 Defender portal":::
 
 U kunt ook de actie **De hoofdwaarschuwingspagina openen** selecteren in **het deelvenster Waarschuwing** beheren.
 
@@ -75,12 +75,12 @@ Een waarschuwingspagina bestaat uit deze secties:
 - Waarschuwingsverhaal, de reeks gebeurtenissen en waarschuwingen met betrekking tot deze waarschuwing in chronologische volgorde
 - Overzichtsdetails
 
-:::image type="content" source="../../media/investigate-alerts/alerts-ss-alerts-main.png" alt-text="Voorbeeld van de detailspagina van een waarschuwing in het Microsoft 365 beveiligingscentrum":::
+:::image type="content" source="../../media/investigate-alerts/alerts-ss-alerts-main.png" lightbox="../../media/investigate-alerts/alerts-ss-alerts-main.png" alt-text="Voorbeeld van de detailspagina van een waarschuwing in de Microsoft 365 Defender portal":::
 
 Op een waarschuwingspagina kunt u de drie puntjes **(...)** naast een entiteit selecteren om beschikbare acties te bekijken, zoals het openen van de waarschuwingspagina of het koppelen van de waarschuwing aan een ander incident.
 
 ### <a name="alert-sources"></a>Waarschuwingsbronnen
-Microsoft 365 Defender-waarschuwingen kunnen afkomstig zijn van oplossingen zoals Microsoft Defender voor Eindpunt, Microsoft Defender voor Office 365 en Microsoft Cloud App Security. U ziet mogelijk waarschuwingen met voorbereide tekens in de waarschuwing. De volgende tabel bevat richtlijnen om inzicht te krijgen in de toewijzing van waarschuwingsbronnen op basis van het voorbereide teken op de waarschuwing.
+Microsoft 365 Defender waarschuwingen kunnen afkomstig zijn van oplossingen zoals Microsoft Defender voor Eindpunt, Microsoft Defender voor Office 365 en Microsoft Cloud App Security. U ziet mogelijk waarschuwingen met voorbereide tekens in de waarschuwing. De volgende tabel bevat richtlijnen om inzicht te krijgen in de toewijzing van waarschuwingsbronnen op basis van het voorbereide teken op de waarschuwing.
 
 > [!NOTE]
 > - De voorbereide GUID's zijn alleen specifiek voor geïntegreerde ervaringen, zoals unified alerts queue, unified alerts page, unified investigation en unified incident.<br>
@@ -94,13 +94,11 @@ Microsoft Defender voor Eindpunt | `da` of `ed` voor aangepaste detectiewaarschu
 Microsoft Defender for Identity | `aa{GUID}` <br> Voorbeeld: `aa123a456b-c789-1d2e-12f1g33h445h6i` 
 Microsoft Cloud App Security |`ca{GUID}` <br> Voorbeeld: `ca123a456b-c789-1d2e-12f1g33h445h6i` 
 
-
-
 ### <a name="analyze-affected-assets"></a>Beïnvloede activa analyseren
 
 De **sectie Acties ondernomen** heeft een lijst met beïnvloede activa, zoals postvakken, apparaten en gebruikers die door deze waarschuwing worden beïnvloed. 
 
-U kunt ook Weergeven in het  **actiecentrum** selecteren om het tabblad Geschiedenis van het **actiecentrum** in het Microsoft 365 te bekijken. 
+U kunt ook Weergeven in het  **actiecentrum selecteren** om het tabblad Geschiedenis van het **actiecentrum** in de Microsoft 365 Defender bekijken. 
 
 ### <a name="trace-an-alerts-role-in-the-alert-story"></a>De rol van een waarschuwing in het waarschuwingsverhaal traceren
 
@@ -143,7 +141,7 @@ In dit deelvenster kunt u ook de volgende aanvullende acties uitvoeren:
 
 Hier is een voorbeeld.
 
-:::image type="content" source="../../media/investigate-alerts/alerts-ss-alerts-actions.png" alt-text="Voorbeeld van de acties op een waarschuwing in het Microsoft 365 beveiligingscentrum":::
+:::image type="content" source="../../media/investigate-alerts/alerts-ss-alerts-actions.png" lightbox="../../media/investigate-alerts/alerts-ss-alerts-actions.png" alt-text="Voorbeeld van de acties op een waarschuwing in de Microsoft 365 Defender portal":::
 
 De lijst met aanvullende acties is afhankelijk van het type waarschuwing.
 
@@ -151,7 +149,7 @@ De lijst met aanvullende acties is afhankelijk van het type waarschuwing.
 
 Wanneer u klaar bent met het analyseren van een waarschuwing en deze kan worden opgelost,  gaat u naar het  deelvenster Waarschuwing beheren voor de waarschuwing en markeert u de status van de waarschuwing als Opgelost en classificeert u deze als een foutmelding of **True-waarschuwing.**  Geef voor echte waarschuwingen het bedreigingstype van de waarschuwing op in **het veld Bepaling.**
 
-Als u waarschuwingen classificeert en de bepaling opgeeft, Microsoft 365 Defender meer waar waarschuwingen en minder onwaar waarschuwingen.
+Als u waarschuwingen classificeert en de bepaling opgeeft, Microsoft 365 Defender u meer waargebeurde waarschuwingen en minder foutmeldingen.
 
 ## <a name="next-steps"></a>Volgende stappen
 

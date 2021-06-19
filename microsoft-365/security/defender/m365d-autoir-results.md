@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.openlocfilehash: ad774fc36f4f167cb7a4e695b9f572ceb55b968b
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 9ee2f0402e8cfd184e59dce5a382f835b706d6aa
+ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274674"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53022547"
 ---
 # <a name="details-and-results-of-an-automated-investigation"></a>Details en resultaten van een geautomatiseerd onderzoek
 
@@ -35,9 +35,9 @@ ms.locfileid: "52274674"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-Met Microsoft 365 Defender, wanneer [een](m365d-autoir.md) geautomatiseerd onderzoek wordt uitgevoerd, zijn details over dat onderzoek beschikbaar, zowel tijdens als na het geautomatiseerde onderzoeksproces. Als u de [benodigde machtigingen hebt,](m365d-action-center.md#required-permissions-for-action-center-tasks)kunt u deze details bekijken in een weergave met onderzoeksdetails. Deze weergave biedt u de actuele status en de mogelijkheid om eventuele in behandeling zijnde acties goed te keuren. 
+Wanneer Microsoft 365 Defender een geautomatiseerd [](m365d-autoir.md) onderzoek wordt uitgevoerd, zijn details over dat onderzoek beschikbaar, zowel tijdens als na het geautomatiseerde onderzoeksproces. Als u de [benodigde machtigingen hebt,](m365d-action-center.md#required-permissions-for-action-center-tasks)kunt u deze details bekijken in een weergave met onderzoeksdetails. Deze weergave biedt u de actuele status en de mogelijkheid om eventuele in behandeling zijnde acties goed te keuren. 
 
-![Details van het onderzoek](../../media/mtp-air-investdetails.png)
+:::image type="content" source="../../media/mtp-air-investdetails.png" alt-text="Details van het onderzoek":::
 
 ## <a name="new-unified-investigation-page"></a>(NIEUW!) Geïntegreerde onderzoekspagina
 
@@ -45,7 +45,7 @@ De onderzoekspagina is onlangs bijgewerkt met informatie op uw apparaten, e-mail
 
 - Een onderzoekspagina in het Office 365 Beveiligings- & Compliancecentrum ( [https://protection.office.com](https://protection.office.com) )
 - Een onderzoekspagina in de Microsoft Defender-beveiligingscentrum ( [https://securitycenter.windows.com](https://securitycenter.windows.com) )
-- Elk incident of actiecentrum in het Microsoft 365 beveiligingscentrum ( [https://security.microsoft.com](https://security.microsoft.com) )
+- Elk incident of actiecentrum in de Microsoft 365 Defender portal ( [https://security.microsoft.com](https://security.microsoft.com) )
 
 ## <a name="open-the-investigation-details-view"></a>De weergave onderzoeksdetails openen
 
@@ -89,13 +89,13 @@ Gebruik een pagina met incidentdetails om gedetailleerde informatie over een inc
 
 Hier is een voorbeeld.
 
-![Details van incidenten](../../media/mtp-incidentdetails-tabs.png)
+:::image type="content" source="../../media/mtp-incidentdetails-tabs.png" alt-text="Details van incidenten":::
 
 ## <a name="investigation-details"></a>Details van het onderzoek
 
 Gebruik de weergave onderzoeksdetails om eerdere, huidige en in behandeling zijnde activiteiten met betrekking tot een onderzoek te bekijken. Hier is een voorbeeld.
 
-![Details van het onderzoek](../../media/mtp-air-investdetails.png)
+:::image type="content" source="../../media/mtp-air-investdetails.png" alt-text="Details van het onderzoek":::
 
 In de weergave Details van onderzoek kunt u informatie zien op de tabbladen **Onderzoek**,  **Waarschuwingen**, Apparaten , **Identiteiten**, **Belangrijke** bevindingen **,** Entiteiten , **Logboek** en Acties in behandeling , beschreven in de volgende tabel. 
 
@@ -105,7 +105,7 @@ In de weergave Details van onderzoek kunt u informatie zien op de tabbladen **On
 | Tab | Beschrijving |
 |:--------|:--------|
 | **Onderzoeksgrafiek**   | Geeft een visuele weergave van het onderzoek. Hiermee worden entiteiten en lijsten weergegeven die zijn gevonden, samen met waarschuwingen en of er nog acties moeten worden goedgekeurd.<br/>U kunt een item in de grafiek selecteren om meer details weer te geven. Als u bijvoorbeeld het pictogram **Bewijs** selecteert, gaat u naar het tabblad Bewijs, waar u gedetecteerde entiteiten en hun vonnissen kunt zien.  |
-| **Waarschuwingen**    | Hiermee worden waarschuwingen vermeld die aan het onderzoek zijn gekoppeld. Waarschuwingen kunnen afkomstig zijn van beveiligingsfuncties voor bedreigingen op het apparaat van een gebruiker, in Office apps, Microsoft Cloud App Security en andere Microsoft 365 Defender-functies.|
+| **Waarschuwingen**    | Hiermee worden waarschuwingen vermeld die aan het onderzoek zijn gekoppeld. Waarschuwingen kunnen afkomstig zijn van functies voor bedreigingsbeveiliging op het apparaat van een gebruiker, in Office apps, Microsoft Cloud App Security en andere Microsoft 365 Defender functies.|
 | **Apparaten** | Hiermee worden apparaten vermeld die zijn opgenomen in het onderzoek, samen met het herstelniveau. (Herstelniveaus komen overeen met het [automatiseringsniveau voor apparaatgroepen](m365d-configure-auto-investigation-response.md#review-or-change-the-automation-level-for-device-groups).) |
 | **Postvakken** |Hiermee worden postvakken vermeld die worden beïnvloed door gedetecteerde bedreigingen.  |
 | **Gebruikers**  | Hiermee worden gebruikersaccounts vermeld die worden beïnvloed door gedetecteerde bedreigingen. |
@@ -116,5 +116,5 @@ In de weergave Details van onderzoek kunt u informatie zien op de tabbladen **On
 
 ## <a name="next-steps"></a>Volgende stappen
 
-- [Herstelacties weergeven en beheren](m365d-autoir-actions.md)
+- [Herstelacties bekijken en goedkeuren](m365d-autoir-actions.md)
 - [Meer informatie over herstelacties](m365d-remediation-actions.md)

@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: Lees hoe u compliancegrenzen kunt gebruiken om logische grenzen te maken die bepalen welke gebruikersinhoudslocaties een eDiscovery-manager kan zoeken in Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1a84bc77cb78a9da3cfe873849a4148e55501137
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 23ff50b9cd0ab0178962f7be9f1cedfbd6a7a1f7
+ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878026"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53022340"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations"></a>Compliancegrenzen instellen voor eDiscovery-onderzoeken
 
@@ -40,9 +40,9 @@ In dit voorbeeld is Contoso LTD een organisatie die bestaat uit twee dochteronde
   
 - De filterfunctionaliteit voor zoekmachtigingen in Inhoud zoeken bepaalt de inhoudslocaties die eDiscovery-managers en -onderzoekers kunnen zoeken. Dit betekent dat eDiscovery-managers en -onderzoekers in het bureau Fourth Coffee alleen inhoudslocaties kunnen zoeken in de dochteronderneming Fourth Coffee. Dezelfde beperking geldt voor de dochteronderneming van Coho Winery.
 
-- Rollengroepen bieden de volgende functies voor nalevingsgrenzen:
+- [Rollengroepen](assign-ediscovery-permissions.md#rbac-roles-related-to-ediscovery) bieden de volgende functies voor nalevingsgrenzen:
 
-  - Bepalen wie de eDiscovery-zaken kan zien in het & compliancecentrum. Dit betekent dat eDiscovery-managers en -onderzoekers alleen de eDiscovery-zaken in hun bureau kunnen zien.
+  - Bepalen wie de eDiscovery-zaken in de Microsoft 365-compliancecentrum. Dit betekent dat eDiscovery-managers en -onderzoekers alleen de eDiscovery-zaken in hun bureau kunnen zien.
 
   - Bepalen wie leden kan toewijzen aan een eDiscovery-zaak. Dit betekent dat eDiscovery-managers en -onderzoeker alleen leden kunnen toewijzen aan zaken waar ze zelf lid van zijn.
 
@@ -52,29 +52,21 @@ Dit is het proces voor het instellen van compliancegrenzen:
   
 [Stap 1: Een gebruikerskenmerk identificeren om uw bureaus te definiëren](#step-1-identify-a-user-attribute-to-define-your-agencies)
 
-[Stap 2: Een aanvraag indienen bij Microsoft Support om het gebruikerskenmerk te synchroniseren met OneDrive accounts](#step-2-file-a-request-with-microsoft-support-to-synchronize-the-user-attribute-to-onedrive-accounts)
+[Stap 2: Een rollengroep maken voor elk bureau](#step-2-create-a-role-group-for-each-agency)
 
-[Stap 3: Een rollengroep maken voor elk bureau](#step-3-create-a-role-group-for-each-agency)
+[Stap 3: Een zoekmachtigingsfilter maken om de nalevingsgrens af te dwingen](#step-3-create-a-search-permissions-filter-to-enforce-the-compliance-boundary)
 
-[Stap 4: Een zoekmachtigingsfilter maken om de nalevingsgrens af te dwingen](#step-4-create-a-search-permissions-filter-to-enforce-the-compliance-boundary)
-
-[Stap 5: een eDiscovery-zaak maken voor een onderzoek binnen een organisatie](#step-5-create-an-ediscovery-case-for-intra-agency-investigations)
+[Stap 4: een eDiscovery-zaak maken voor een onderzoek binnen een organisatie](#step-4-create-an-ediscovery-case-for-intra-agency-investigations)
 
 ## <a name="before-you-set-up-compliance-boundaries"></a>Voordat u compliancegrenzen in stelt
 
-U moet aan de volgende vereisten voldoen voordat het Azure Active Directory-kenmerk (Azure AD) dat u identiteit (in stap 1) kunt synchroniseren met het OneDrive-account van een gebruiker (in stap 2):
-
-- Gebruikers moeten een licentie voor Exchange Online en een SharePoint Online-licentie.
-
-- Gebruikerspostvakken moeten ten minste 10 MB groot zijn. Als het postvak van een gebruiker kleiner is dan 10 MB, wordt het kenmerk dat wordt gebruikt om uw bureaus te definiëren, niet gesynchroniseerd met het account van de gebruiker OneDrive account.
-
-- Compliancegrenzen en de kenmerken die worden gebruikt om zoekmachtigingenfilters te maken, vereisen dat Azure Active Directory (Azure AD) kenmerken worden gesynchroniseerd met gebruikerspostvakken. Als u wilt controleren of de kenmerken die u wilt gebruiken, zijn gesynchroniseerd, moet u de [cmdlet Get-User](/powershell/module/exchange/get-user) uitvoeren in Exchange Online PowerShell. In de uitvoer van deze cmdlet worden de Azure AD-kenmerken weergegeven die zijn gesynchroniseerd met Exchange Online.
+- Aan gebruikers moet een licentie Exchange Online toegewezen. Als u dit wilt controleren, gebruikt [u de cmdlet Get-User](/powershell/module/exchange/get-user) in Exchange Online PowerShell.
 
 ## <a name="step-1-identify-a-user-attribute-to-define-your-agencies"></a>Stap 1: Een gebruikerskenmerk identificeren om uw bureaus te definiëren
 
-De eerste stap is het kiezen van een Azure AD-kenmerk dat u wilt gebruiken om uw bureaus te definiëren. Dit kenmerk wordt gebruikt om het zoekmachtigingsfilter te maken dat een eDiscovery-manager beperkt tot alleen de inhoudslocaties van gebruikers die een specifieke waarde voor dit kenmerk hebben toegewezen. Stel dat Contoso besluit het kenmerk **Afdeling te** gebruiken. De waarde voor dit kenmerk voor gebruikers in de dochteronderneming Fourth Coffee zou zijn en de waarde voor gebruikers  `FourthCoffee`  in Coho Winery-dochteronderneming zou zijn `CohoWinery` . In stap 4 gebruikt u dit paar  `attribute:value`  (bijvoorbeeld *Department:FourthCoffee)* om de gebruikersinhoudslocaties te beperken die eDiscovery-beheerders kunnen zoeken. 
+De eerste stap is het kiezen van een kenmerk dat u wilt gebruiken om uw bureaus te definiëren. Dit kenmerk wordt gebruikt om het zoekmachtigingsfilter te maken dat een eDiscovery-manager beperkt tot alleen de inhoudslocaties van gebruikers die een specifieke waarde voor dit kenmerk hebben toegewezen. Stel dat Contoso besluit het kenmerk **Afdeling te** gebruiken. De waarde voor dit kenmerk voor gebruikers in de dochteronderneming Fourth Coffee zou zijn en de waarde voor gebruikers  `FourthCoffee`  in Coho Winery-dochteronderneming zou zijn `CohoWinery` . In stap 3 gebruikt u dit paar  `attribute:value`  (bijvoorbeeld *Department:FourthCoffee)* om de gebruikersinhoudslocaties te beperken die eDiscovery-beheerders kunnen zoeken. 
   
-Hier ziet u een lijst met Azure AD-gebruikerskenmerken die u kunt gebruiken voor nalevingsgrenzen:
+Hier zijn enkele voorbeelden van gebruikerskenmerken die u kunt gebruiken voor compliancegrenzen:
   
 - Company
 
@@ -84,34 +76,11 @@ Hier ziet u een lijst met Azure AD-gebruikerskenmerken die u kunt gebruiken voor
 
 - Office
 
-- C (landcode met twee letters) <sup>*</sup>
+- CountryOrRegion (landcode met twee letters)
 
-  > [!NOTE]
-  > <sup>*</sup>Dit kenmerk wordt toebehoord aan de eigenschap CountryOrRegion die wordt geretourneerd door de **cmdlet Get-User** uit te Exchange Online PowerShell. De cmdlet retourneert de gelokaliseerde landnaam, die wordt vertaald uit de landcode met twee letters. Zie de beschrijving van de parameter CountryOrRegion in het cmdletverwijzingsartikel [Set-User](/powershell/module/exchange/set-user) voor meer informatie.
+Zie de volledige lijst met ondersteunde postvakfilters voor een volledige [lijst.](/powershell/exchange/recipientfilter-properties#filterable-recipient-properties)
 
-Hoewel er meer gebruikerskenmerken beschikbaar zijn, met name voor Exchange postvakken, zijn de bovenstaande kenmerken de enige kenmerken die momenteel worden ondersteund door OneDrive.
-  
-## <a name="step-2-file-a-request-with-microsoft-support-to-synchronize-the-user-attribute-to-onedrive-accounts"></a>Stap 2: Een aanvraag indienen bij Microsoft Support om het gebruikerskenmerk te synchroniseren met OneDrive accounts
-
-> [!IMPORTANT]
-> Deze stap is niet meer vereist. Vanaf juni 2021 zijn postvakfilters van toepassing op OneDrive voor Bedrijven. Ondersteuningsaanvragen voor het synchroniseren van het kenmerk OneDrive worden geweigerd omdat dit niet meer nodig is. Dit artikel wordt in de nabije toekomst bijgewerkt.
-
-De volgende stap is een aanvraag indienen bij Microsoft Support om het Azure AD-kenmerk dat u in stap 1 hebt gekozen, te synchroniseren met alle OneDrive accounts in uw organisatie. Nadat deze synchronisatie is gebeurd, wordt het kenmerk (en de waarde) dat u hebt gekozen in stap 1, in kaart gebracht aan een verborgen beheerde eigenschap met de naam `ComplianceAttribute` . U gebruikt dit kenmerk om het filter voor zoekmachtigingen voor OneDrive maken in stap 4.
-  
-Voeg de volgende informatie toe wanneer u de aanvraag bij Microsoft-ondersteuning indient:
-  
-- De standaarddomeinnaam van uw organisatie
-
-- De naam van het Azure AD-kenmerk (van stap 1)
-
-- De volgende titel of beschrijving van het doel van de ondersteuningsaanvraag: 'Enable OneDrive voor Bedrijven Synchronization with Azure AD for Compliance Security Filters'. Dit helpt de aanvraag door te sturen naar het eDiscovery-technische team dat de aanvraag implementeert.
-
-Nadat de technische wijziging is aangebracht en het kenmerk is gesynchroniseerd met OneDrive, stuurt Microsoft Support u het buildnummer waarin de wijziging is aangebracht en een geschatte implementatiedatum. Het implementatieproces duurt meestal 4 tot 6 weken nadat u de ondersteuningsaanvraag hebt ingediend.
-  
-> [!IMPORTANT]
-> U kunt stap 3 tot en met stap 5 voltooien voordat deze kenmerkwijziging wordt geïmplementeerd. Bij het uitvoeren van inhoudszoekingen worden echter geen documenten OneDrive accounts die zijn opgegeven in een zoekmachtigingsfilter totdat de kenmerksynchronisatie is geïmplementeerd.
-  
-## <a name="step-3-create-a-role-group-for-each-agency"></a>Stap 3: Een rollengroep maken voor elk bureau
+## <a name="step-2-create-a-role-group-for-each-agency"></a>Stap 2: Een rollengroep maken voor elk bureau
 
 De volgende stap is het maken van de rollengroepen in het beveiligings- & compliancecentrum dat wordt uitgelijnd met uw agentschappen. U wordt aangeraden een rollengroep te maken door de ingebouwde eDiscovery-beheerdersgroep te kopiëren, de juiste leden toe te voegen en rollen te verwijderen die mogelijk niet van toepassing zijn op uw behoeften. Zie eDiscovery-machtigingen toewijzen voor meer informatie over [eDiscovery-gerelateerde rollen.](assign-ediscovery-permissions.md)
   
@@ -129,14 +98,14 @@ Met het scenario Contoso-compliancegrenzen moeten vier rollengroepen worden gema
   
 Als u wilt voldoen aan de vereisten van het contoso-compliancescenario, verwijdert u ook de rollen In- en exporteren uit de rollengroepen van de onderzoeker om te voorkomen dat onderzoekers inhoudslocaties in de wacht zetten en inhoud exporteren uit een zaak.  
 
-## <a name="step-4-create-a-search-permissions-filter-to-enforce-the-compliance-boundary"></a>Stap 4: Een zoekmachtigingsfilter maken om de nalevingsgrens af te dwingen
+## <a name="step-3-create-a-search-permissions-filter-to-enforce-the-compliance-boundary"></a>Stap 3: Een zoekmachtigingsfilter maken om de nalevingsgrens af te dwingen
 
 Nadat u rollengroepen voor elk bureau hebt gemaakt, is de volgende stap het maken van de zoekmachtigingenfilters die elke rollengroep koppelen aan het specifieke bureau en de compliancegrens zelf definieert. U moet één zoekmachtigingsfilter voor elk bureau maken. Zie Machtigingen filteren voor inhoud zoeken voor meer informatie over het maken van [beveiligingsmachtigingenfilters.](permissions-filtering-for-content-search.md)
   
 Hier is de syntaxis die wordt gebruikt om een zoekmachtigingsfilter te maken dat wordt gebruikt voor nalevingsgrenzen.
 
 ```powershell
-New-ComplianceSecurityFilter -FilterName <name of filter> -Users <role groups> -Filters "Mailbox_<ComplianceAttribute>  -eq '<AttributeVale> '", "Site_<ComplianceAttribute>  -eq '<AttributeValue>' -or Site_Path -like '<SharePointURL>*'" -Action <Action >
+New-ComplianceSecurityFilter -FilterName <name of filter> -Users <role groups> -Filters "Mailbox_<MailboxPropertyName>  -eq '<Value> '", "Site_Path -like '<SharePointURL>*'" -Action <Action>
 ```
 
 Hier is een beschrijving van elke parameter in de opdracht:
@@ -145,16 +114,14 @@ Hier is een beschrijving van elke parameter in de opdracht:
 
 - `Users`: Geeft de gebruikers of groepen aan die dit filter toepassen op de zoekacties die ze uitvoeren. Voor compliancegrenzen geeft deze parameter de rollengroepen op (die u hebt gemaakt in stap 3) in het bureau waar u het filter voor maakt. Let op: dit is een parameter met meerdere waarden, zodat u een of meer rollengroepen kunt opnemen, gescheiden door komma's.
 
-- `Filters`: Geeft de zoekcriteria voor het filter op. Voor de nalevingsgrenzen definieert u de volgende filters. Elke locatie is van toepassing op een inhoudslocatie. 
+- `Filters`: Geeft de zoekcriteria voor het filter op. Voor de nalevingsgrenzen definieert u de volgende filters. Elke locatie is van toepassing op een inhoudslocatie.
 
-    - `Mailbox`: Geeft de postvakken op die door de rollengroepen in de  `Users` parameter kunnen worden gezocht. *ComplianceAttribute* is voor nalevingsgrenzen hetzelfde kenmerk dat u hebt geïdentificeerd in stap 1 en *AttributeValue* geeft het bureau aan. Met dit filter kunnen leden van de rollengroep alleen zoeken in de postvakken in een specifiek bureau. `"Mailbox_Department -eq 'FourthCoffee'"`bijvoorbeeld. 
-
-    - `Site`: Geeft de OneDrive accounts op die kunnen worden gezocht in de rollengroepen die in de `Users` parameter zijn gedefinieerd. Gebruik voor OneDrive filter de werkelijke `ComplianceAttribute` tekenreeks. Dit wordt toe te schrijven aan hetzelfde kenmerk dat u hebt geïdentificeerd in stap 1 en dat is gesynchroniseerd met OneDrive-accounts als gevolg van het ondersteuningsverzoek dat u hebt ingediend in stap 2; *AttributeValue* geeft het bureau aan. Met dit filter kunnen leden van de rollengroep alleen zoeken in de OneDrive accounts in een specifiek bureau. `"Site_ComplianceAttribute -eq 'FourthCoffee'"`bijvoorbeeld.
+    - `Mailbox`: Hiermee geeft u de postvakken of OneDrive accounts op die door de rollengroepen in de `Users` parameter kunnen worden doorzocht. Met dit filter kunnen leden van de rollengroep alleen zoeken in de postvakken of OneDrive accounts in een specifiek bureau. `"Mailbox_Department -eq 'FourthCoffee'"`bijvoorbeeld.
 
     - `Site_Path`: Geeft de SharePoint sites op die kunnen worden gezocht in de rollengroepen die in de `Users` parameter zijn gedefinieerd. *SharePointURL* geeft de sites in het bureau op die leden van de rollengroep kunnen zoeken. Bijvoorbeeld. `"Site_Path -like 'https://contoso.sharepoint.com/sites/FourthCoffee*'"` U ziet `Site` dat de filters zijn verbonden door een operator of `Site_Path` **operator.**
 
      > [!NOTE]
-     > De syntaxis voor de `Filters` parameter bevat een lijst met *filters*. Een filterslijst is een filter met een postvakfilter en een sitefilter gescheiden door een komma. In het vorige voorbeeld ziet u dat een komma de Mailbox_ComplianceAttribute **en** **Site_ComplianceAttribute:** `-Filters "Mailbox_<ComplianceAttribute>  -eq '<AttributeVale> '", "Site_ComplianceAttribute  -eq '<AttributeValue>' -or Site_Path -like '<SharePointURL>*'"` . Wanneer dit filter wordt verwerkt tijdens het uitvoeren van een inhoudszoekactie, worden twee zoekmachtigingenfilters gemaakt uit de lijst met filters: één postvakfilter en één sitefilter. Een alternatief voor het gebruik van een filterslijst is het maken van twee afzonderlijke zoekmachtigingenfilters voor elk bureau: één filter voor zoekmachtigingen voor het postvakkenmerk en één filter voor de sitekenmerken. In beide gevallen zijn de resultaten hetzelfde. Het gebruik van een filterslijst of het maken van afzonderlijke zoekmachtigingenfilters is een kwestie van voorkeur.
+     > De syntaxis voor de `Filters` parameter bevat een lijst met *filters*. Een filterslijst is een filter met een postvakfilter en een sitepadfilter gescheiden door een komma. In het vorige voorbeeld ziet u dat een komma de Mailbox_MailboxPropertyName **en** **Site_Path:** `-Filters "Mailbox_<MailboxPropertyName>  -eq '<Value> '", "Site_Path -like '<SharePointURL>*'"` . Wanneer dit filter wordt verwerkt tijdens het uitvoeren van een inhoudszoekactie, worden twee zoekmachtigingenfilters gemaakt uit de lijst met filters: één postvakfilter en één SharePoint filter. Een alternatief voor het gebruik van een filterslijst is het maken van twee afzonderlijke zoekmachtigingenfilters voor elk bureau: één filter voor zoekmachtigingen voor het postvakkenmerk en één filter voor de SharePoint sitekenmerken. In beide gevallen zijn de resultaten hetzelfde. Het gebruik van een filterslijst of het maken van afzonderlijke zoekmachtigingenfilters is een kwestie van voorkeur.
 
 - `Action`: Geeft het type zoekactie op waar het filter op is toegepast. Het filter wordt bijvoorbeeld alleen toegepast wanneer leden van de rollengroep die in de parameter zijn  `-Action Search` `Users` gedefinieerd, een zoekopdracht uitvoeren. In dit geval wordt het filter niet toegepast bij het exporteren van zoekresultaten. Gebruik het filter voor nalevingsgrenzen  `-Action All` zodat het filter van toepassing is op alle zoekacties. 
 
@@ -165,26 +132,26 @@ Hier zijn voorbeelden van de twee zoekmachtigingenfilters die worden gemaakt ter
 ### <a name="fourth-coffee"></a>Vierde koffie
 
 ```powershell
-New-ComplianceSecurityFilter -FilterName "Fourth Coffee Security Filter" -Users "Fourth Coffee eDiscovery Managers", "Fourth Coffee Investigators" -Filters "Mailbox_Department -eq 'FourthCoffee'", "Site_ComplianceAttribute -eq 'FourthCoffee' -or Site_Path -like 'https://contoso.sharepoint.com/sites/FourthCoffee*'" -Action ALL
+New-ComplianceSecurityFilter -FilterName "Fourth Coffee Security Filter" -Users "Fourth Coffee eDiscovery Managers", "Fourth Coffee Investigators" -Filters "Mailbox_Department -eq 'FourthCoffee'", "Site_Path -like 'https://contoso.sharepoint.com/sites/FourthCoffee*'" -Action ALL
 ```
 
 ### <a name="coho-winery"></a>Coho-wijnmakerij
 
 ```powershell
-New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "Coho Winery eDiscovery Managers", "Coho Winery Investigators" -Filters "Mailbox_Department -eq 'CohoWinery'", "Site_ComplianceAttribute -eq 'CohoWinery' -or Site_Path -like 'https://contoso.sharepoint.com/sites/CohoWinery*'" -Action ALL
+New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "Coho Winery eDiscovery Managers", "Coho Winery Investigators" -Filters "Mailbox_Department -eq 'CohoWinery'", "Site_Path -like 'https://contoso.sharepoint.com/sites/CohoWinery*'" -Action ALL
 ```
 
-## <a name="step-5-create-an-ediscovery-case-for-intra-agency-investigations"></a>Stap 5: een eDiscovery-zaak maken voor onderzoeken binnen de organisatie
+## <a name="step-4-create-an-ediscovery-case-for-intra-agency-investigations"></a>Stap 4: een eDiscovery-zaak maken voor onderzoeken binnen de organisatie
 
-De laatste stap is het maken van een hoofd-eDiscovery-zaak of Advanced eDiscovery-geval in het Microsoft 365-compliancecentrum en vervolgens de rollengroep toevoegen die u in stap 3 hebt gemaakt als lid van de zaak. Dit resulteert in twee belangrijke kenmerken van het gebruik van compliancegrenzen:
+De laatste stap is het maken van een hoofd-eDiscovery-zaak of Advanced eDiscovery-geval in de Microsoft 365-compliancecentrum en vervolgens de rollengroep toevoegen die u in stap 2 hebt gemaakt als lid van de zaak. Dit resulteert in twee belangrijke kenmerken van het gebruik van compliancegrenzen:
   
 - Alleen leden van de rollengroep die aan de zaak zijn toegevoegd, kunnen de zaak zien en openen in het beveiligings- & compliancecentrum. Als bijvoorbeeld de rollengroep Vierde koffieonderzoekers het enige lid van een zaak is, kunnen leden van de rollengroep Fourth Coffee eDiscovery Managers (of leden van een andere rollengroep) de zaak niet zien of openen.
 
-- Wanneer een lid van de rollengroep die aan een zaak is toegewezen een zoekopdracht heeft uitgevoerd die aan de zaak is gekoppeld, kunnen ze alleen zoeken in de inhoudslocaties binnen hun bureau (die wordt gedefinieerd door het zoekmachtigingsfilter dat u hebt gemaakt in stap 4.)
+- Wanneer een lid van de rollengroep die aan een zaak is toegewezen een zoekopdracht heeft uitgevoerd die aan de zaak is gekoppeld, kunnen ze alleen zoeken in de inhoudslocaties binnen hun bureau (die wordt gedefinieerd door het zoekmachtigingsfilter dat u hebt gemaakt in stap 3.)
 
 Een zaak maken en leden toewijzen:
 
-1. Ga naar de **pagina Core eDiscovery** of **Advanced eDiscovery** in het Microsoft 365 compliancecentrum en maak een zaak.
+1. Ga naar de **pagina Core eDiscovery** **of Advanced eDiscovery** in de Microsoft 365-compliancecentrum en maak een zaak.
 
 2. Klik in de lijst met gevallen op de naam van de zaak die u hebt gemaakt.
 
@@ -243,16 +210,16 @@ Met zoekmachtigingenfilters kunt u ook bepalen waar inhoud wordt gerouteerd voor
 Hier zijn voorbeelden van het gebruik van de parameter **Regio** bij het maken van zoekmachtigingsfilters voor compliancegrenzen. Hier wordt ervan uitgenomen dat de dochteronderneming Fourth Coffee zich in Noord-Amerika bevindt en dat Coho Winery zich in Europa bevindt. 
   
 ```powershell
-New-ComplianceSecurityFilter -FilterName "Fourth Coffee Security Filter" -Users "Fourth Coffee eDiscovery Managers", "Fourth Coffee Investigators" -Filters "Mailbox_Department -eq 'FourthCoffee'", "Site_Department -eq 'FourthCoffee' -or Site_Path -like 'https://contoso.sharepoint.com/sites/FourthCoffee*'" -Action ALL -Region NAM
+New-ComplianceSecurityFilter -FilterName "Fourth Coffee Security Filter" -Users "Fourth Coffee eDiscovery Managers", "Fourth Coffee Investigators" -Filters "Mailbox_Department -eq 'FourthCoffee'" -or Site_Path -like 'https://contoso.sharepoint.com/sites/FourthCoffee*'" -Action ALL -Region NAM
 ```
 
 ```powershell
-New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "Coho Winery eDiscovery Managers", "Coho Winery Investigators" -Filters "Mailbox_Department -eq 'CohoWinery'", "Site_Department -eq 'CohoWinery' -or Site_Path -like 'https://contoso.sharepoint.com/sites/CohoWinery*'" -Action ALL -Region EUR
+New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "Coho Winery eDiscovery Managers", "Coho Winery Investigators" -Filters "Mailbox_Department -eq 'CohoWinery'" -or Site_Path -like 'https://contoso.sharepoint.com/sites/CohoWinery*'" -Action ALL -Region EUR
 ```
 
 Houd rekening met de volgende zaken bij het zoeken en exporteren van inhoud in multi-geo-omgevingen.
   
-- Met de parameter **Region** kunt u geen zoekopdrachten in Exchange-postvakken beheren. Alle datacenters worden doorzocht wanneer u postvakken zoekt. Gebruik de **parameter** Filters bij het maken of wijzigen van een zoekmachtigingsfilter als u het bereik van Exchange wilt beperken. 
+- Met de parameter **Region** kunt u geen zoekopdrachten in Exchange-postvakken beheren. Alle datacenters worden doorzocht wanneer u postvakken zoekt. Gebruik de **parameter** Filters bij het maken of wijzigen van een zoekmachtigingsfilter als u het bereik van Exchange wilt beperken.
 
 - Als een eDiscovery Manager moet zoeken in meerdere SharePoint-regio's, moet u een ander gebruikersaccount maken voor die eDiscovery-manager die u wilt gebruiken in het filter voor zoekmachtigingen om het gebied op te geven waar de SharePoint-sites of OneDrive-accounts zich bevinden. Zie de sectie 'Zoeken naar inhoud in een SharePoint Multi-Geo omgeving' in Inhoud zoeken voor meer informatie over het [instellen van deze instelling.](content-search-reference.md#searching-for-content-in-a-sharepoint-multi-geo-environment)
 
@@ -298,29 +265,23 @@ Houd rekening met de volgende beperkingen bij het beheren van eDiscovery-gevalle
 
 ## <a name="more-information"></a>Meer informatie
 
-- Als een postvak is gedelicentieerd of wordt verwijderd, worden Azure AD-kenmerken niet meer gesynchroniseerd met het postvak. Als er een bewaarfunctie in het postvak is geplaatst toen het werd verwijderd, is de inhoud die in het postvak is bewaard, nog steeds onderworpen aan een compliancegrens of zoekmachtigingsfilter op basis van de laatste keer dat de Azure AD-kenmerken zijn gesynchroniseerd voordat het postvak werd verwijderd. 
+- Als een postvak is gedelicentieerd of soft-verwijderd, wordt de gebruiker niet meer in aanmerking genomen binnen de compliancegrens. Als er een bewaarfunctie in het postvak is geplaatst toen het werd verwijderd, is de inhoud die in het postvak is bewaard, nog steeds onderworpen aan een compliancegrens of zoekmachtigingsfilter.
 
-    Bovendien wordt de synchronisatie tussen het postvak van de gebruiker en OneDrive account stopgezet als het postvak is gedelicentieerd of zacht wordt verwijderd. De laatst gestempelde waarde van het compliancekenmerk voor OneDrive account blijft van kracht.
+- Als compliancegrenzen en zoekmachtigingenfilters voor een gebruiker worden geïmplementeerd, raden we u aan het postvak van een gebruiker niet te verwijderen en niet het OneDrive account. Met andere woorden: als u het postvak van een gebruiker verwijdert, moet u ook het OneDrive-account van de gebruiker verwijderen omdat mailbox_RecipientFilter wordt gebruikt om het filter voor zoekmachtigingen af te dwingen voor OneDrive.
 
-- Het compliancekenmerk wordt elke zeven dagen gesynchroniseerd vanuit het postvak van Exchange gebruiker OneDrive account. Zoals eerder vermeld, vindt deze synchronisatie alleen plaats wanneer aan de gebruiker zowel een Exchange Online- als SharePoint Online-licentie is toegewezen en het postvak van de gebruiker ten minste 10 MB is.
+- Compliancegrenzen en zoekmachtigingenfilters zijn afhankelijk van kenmerken die worden gestempeld op inhoud in Exchange, OneDrive en SharePoint en de daaropvolgende indexering van deze gestempelde inhoud.
 
-- Als compliancegrenzen en zoekmachtigingenfilters worden geïmplementeerd voor zowel het postvak van een gebruiker als het OneDrive-account, raden we u aan het postvak van een gebruiker niet te verwijderen en niet het OneDrive account. Met andere woorden: als u het postvak van een gebruiker verwijdert, moet u ook het account van de gebruiker OneDrive verwijderen.
-
-- Er zijn situaties (zoals een terugkerende werknemer) waarbij een gebruiker mogelijk twee of meer accounts OneDrive heeft. In deze gevallen wordt alleen het primaire OneDrive account dat is gekoppeld aan de gebruiker in Azure AD gesynchroniseerd.
-
-- Compliancegrenzen en zoekmachtigingenfilters zijn afhankelijk van kenmerken die worden gestempeld op inhoud in Exchange, OneDrive en SharePoint en de daaropvolgende indexering van deze gestempelde inhoud. 
-
-- Het is niet raadzaam uitsluitingsfilters (zoals het gebruik in een zoekmachtigingsfilter) te gebruiken voor een nalevingsgrens op basis van `-not()` inhoud. Het gebruik van een uitsluitingsfilter kan onverwachte resultaten hebben als inhoud met onlangs bijgewerkte kenmerken niet is geïndexeerd. 
+- Het is niet raadzaam uitsluitingsfilters (zoals het gebruik in een zoekmachtigingsfilter) te gebruiken voor een nalevingsgrens op basis van `-not()` inhoud. Het gebruik van een uitsluitingsfilter kan onverwachte resultaten hebben als inhoud met onlangs bijgewerkte kenmerken niet is geïndexeerd.
 
 ## <a name="frequently-asked-questions"></a>Veelgestelde vragen
 
-**Wie kunt u zoekmachtigingenfilters maken en beheren (met New-ComplianceSecurityFilter en Set-ComplianceSecurityFilter cmdlets)?**
+**Wie kan zoekmachtigingenfilters maken en beheren (met New-ComplianceSecurityFilter en Set-ComplianceSecurityFilter cmdlets)?**
   
-Als u filters voor zoekmachtigingen wilt maken, weergeven en wijzigen, moet u lid zijn van de rollengroep Organisatiebeheer in het beveiligings- & Compliancecentrum.
+Als u filters voor zoekmachtigingen wilt maken, weergeven en wijzigen, moet u lid zijn van de rollengroep Organisatiebeheer in het Microsoft 365-compliancecentrum.
   
 **Als een eDiscovery-manager is toegewezen aan meer dan één rollengroep die meerdere agentschappen omvat, hoe zoeken ze dan naar inhoud in het ene of het andere bureau?**
   
-De eDiscovery-manager kan parameters toevoegen aan de zoekquery die de zoekopdracht beperken tot een specifiek bureau. Als een organisatie bijvoorbeeld de eigenschap **CustomAttribute10** heeft opgegeven om agentschappen van elkaar te onderscheiden, kunnen ze het volgende toevoegen aan hun zoekquery om postvakken en OneDrive-accounts in een specifiek bureau te doorzoeken: `CustomAttribute10:<value> AND Site_ComplianceAttribute:<value>` .
+De eDiscovery-manager kan parameters toevoegen aan de zoekquery die de zoekopdracht beperken tot een specifiek bureau. Als een organisatie bijvoorbeeld de eigenschap **CustomAttribute10** heeft opgegeven om agentschappen van elkaar te onderscheiden, kunnen ze het volgende toevoegen aan hun zoekquery om postvakken en OneDrive-accounts in een specifiek bureau te doorzoeken:  `CustomAttribute10:<value>` .
   
 **Wat gebeurt er als de waarde van het kenmerk dat wordt gebruikt als compliancekenmerk in een zoekmachtigingsfilter wordt gewijzigd?**
   
@@ -328,16 +289,16 @@ Het duurt maximaal drie dagen voordat een zoekmachtigingsfilter de nalevingsgren
   
 **Kan een eDiscovery-manager inhoud zien van twee afzonderlijke compliancegrenzen?**
   
-Ja, dit kan worden gedaan bij het zoeken Exchange postvakken door de eDiscovery-manager toe te voegen aan rollengroepen die zichtbaarheid hebben voor beide bureaus. Wanneer u echter SharePoint sites en OneDrive-accounts zoekt, kan een eDiscovery-manager alleen zoeken naar inhoud in verschillende compliancegrenzen als de agentschappen zich in dezelfde regio of dezelfde geografische locatie bevinden. **Opmerking:** Deze beperking voor sites is niet van toepassing op Advanced eDiscovery omdat het zoeken naar inhoud in SharePoint en OneDrive niet is gebonden door geografische locatie.
+Ja, dit kan worden gedaan bij het zoeken naar Exchange-postvakken door de eDiscovery-manager toe te voegen aan rollengroepen die zichtbaarheid hebben voor beide bureaus. Wanneer u echter naar SharePoint-sites en OneDrive-accounts zoekt, kan een eDiscovery-manager alleen zoeken naar inhoud in verschillende compliancegrenzen als de agentschappen zich in dezelfde regio of dezelfde geografische locatie bevinden. **Opmerking:** Deze beperking voor sites is niet van toepassing in Advanced eDiscovery omdat het zoeken naar inhoud in SharePoint en OneDrive niet is gebonden door geografische locatie.
   
-**Werken zoekmachtigingenfilters voor eDiscovery-case holds, Microsoft 365 bewaarbeleid of DLP?**
+**Werken zoekmachtigingenfilters voor eDiscovery-bewaarbeleid, Microsoft 365-bewaarbeleid of DLP?**
   
 Nee, op dit moment niet.
   
-**Als ik een regio opgeeft om te bepalen waar inhoud wordt geëxporteerd, maar ik heb geen SharePoint organisatie in die regio, kan ik dan nog steeds zoeken SharePoint?**
+**Als ik een regio opgeeft om te bepalen waar inhoud wordt geëxporteerd, maar ik geen SharePoint-organisatie in die regio heb, kan ik dan nog steeds zoeken in SharePoint?**
   
 Als het gebied dat is opgegeven in het filter voor zoekmachtigingen niet bestaat in uw organisatie, wordt het standaardgebied doorzocht.
   
 **Wat is het maximum aantal zoekmachtigingenfilters dat kan worden gemaakt in een organisatie?**
   
-Er is geen limiet voor het aantal zoekmachtigingenfilters dat in een organisatie kan worden gemaakt. De zoekprestaties worden echter beïnvloed wanneer er meer dan 100 zoekmachtigingenfilters zijn. Als u het aantal zoekmachtigingenfilters in uw organisatie zo klein mogelijk wilt houden, maakt u filters die regels voor Exchange, SharePoint en OneDrive zo veel mogelijk combineren tot één zoekmachtigingsfilter.
+Er is geen limiet voor het aantal zoekmachtigingenfilters dat in een organisatie kan worden gemaakt. De zoekprestaties worden echter beïnvloed wanneer er meer dan 100 zoekmachtigingenfilters zijn. Als u het aantal zoekmachtigingenfilters in uw organisatie zo klein mogelijk wilt houden, maakt u filters die regels voor Exchange, SharePoint en OneDrive zo veel mogelijk combineren tot één filter voor zoekmachtigingen.

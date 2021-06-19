@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 07a49fcdcfa7ea401b16b293b4831244253d2b28
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 1240fbb8fb24b7231733db25e9a1859b2a84fd41
+ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52925885"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53022727"
 ---
 # <a name="prioritize-incidents-in-microsoft-365-defender"></a>Prioriteit geven aan incidenten in Microsoft 365 Defender
 
@@ -36,17 +36,17 @@ ms.locfileid: "52925885"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-Microsoft 365 Defender past correlatieanalyse toe en aggregeert gerelateerde waarschuwingen en geautomatiseerde onderzoeken van verschillende producten in een incident. Microsoft 365 Defender activeert ook unieke waarschuwingen voor activiteiten die alleen kunnen worden geïdentificeerd als schadelijk, gezien de end-to-end zichtbaarheid die Microsoft 365 Defender heeft in de hele suite met producten. In deze weergave krijgen uw beveiligingsanalisten het bredere verhaal over aanvallen, waarmee ze complexe bedreigingen in uw organisatie beter kunnen begrijpen en kunnen omgaan.
+Microsoft 365 Defender past correlatieanalyse toe en aggregeert gerelateerde waarschuwingen en geautomatiseerde onderzoeken van verschillende producten in een incident. Microsoft 365 Defender worden ook unieke waarschuwingen voor activiteiten die alleen kunnen worden geïdentificeerd als schadelijk, gezien de end-to-end zichtbaarheid die Microsoft 365 Defender heeft in de hele reeks producten. In deze weergave krijgen uw beveiligingsanalisten het bredere verhaal over aanvallen, waarmee ze complexe bedreigingen in uw organisatie beter kunnen begrijpen en kunnen omgaan.
 
 In **de wachtrij Incident** ziet u een verzameling incidenten die zijn gemaakt op verschillende apparaten, gebruikers en postvakken. Het helpt u incidenten te sorteren om prioriteit te geven en een weloverwogen antwoordbesluit voor cyberbeveiliging te maken. 
 
-U komt bij de incidentenwachtrij van **Incidenten & waarschuwingen > Incidenten** op de snelle start van het Microsoft 365 beveiligingscentrum [(security.microsoft.com).](https://security.microsoft.com) Hier is een voorbeeld.
+U komt bij de incidentwachtrij van **Incidenten & waarschuwingen > Incidenten** op de snelle start van de Microsoft 365 Defender portal [(security.microsoft.com).](https://security.microsoft.com) Hier is een voorbeeld.
 
 :::image type="content" source="../../media/incidents-queue/incidents-ss-incidents.png" alt-text="Voorbeeld van de incidentwachtrij":::
 
 In **de sectie Meest recente incidenten en waarschuwingen** ziet u een grafiek van het aantal ontvangen waarschuwingen en incidenten die in de afgelopen 24 uur zijn gemaakt.
 
-Standaard worden in de wachtrij voor incidenten in het Microsoft 365 beveiligingscentrum incidenten weergegeven die de afgelopen zes maanden zijn gezien. Het meest recente incident staat bovenaan de lijst, zodat u het eerst kunt zien.
+Standaard worden in de wachtrij voor incidenten in de Microsoft 365 Defender portal incidenten weergegeven die de afgelopen zes maanden zijn gezien. Het meest recente incident staat bovenaan de lijst, zodat u het eerst kunt zien.
 
 De incidentwachtrij heeft aanpasbare kolommen (selecteer Kolommen **kiezen)** die u inzicht geven in de verschillende kenmerken van het incident of de beïnvloede entiteiten. Op deze manier kunt u een weloverwogen beslissing nemen over de prioriteit van incidenten voor analyse.
 
@@ -67,12 +67,12 @@ In de standaardwachtrij voor incidenten kunt u **Filters** selecteren om een dee
 
 In deze tabel worden de filternamen vermeld die beschikbaar zijn.
 
-| Filternaam | Omschrijving |
+| Filternaam | Beschrijving |
 |:-------|:-----|
 | Toegewezen aan | U kunt ervoor kiezen om waarschuwingen weer te geven die aan u zijn toegewezen of waarschuwingen die door automatisering worden verwerkt. |
 | Categorieën | Kies categorieën om zich te richten op specifieke tactieken, technieken of aanvalsonderdelen. |
 | Classificatie | Filter incidenten op basis van de setclassificaties van de gerelateerde waarschuwingen. De waarden omvatten waar waarschuwingen, onwaar waarschuwingen of niet ingesteld. |
-| Gegevensgevoeligheid | Sommige aanvallen richten zich op targeting om gevoelige of waardevolle gegevens te exfiltreren. Door een filter toe te passen om te zien of er gevoelige gegevens bij het incident betrokken zijn, kunt u snel bepalen of gevoelige informatie mogelijk is gehackt en kunt u prioriteit geven aan het oplossen van deze incidenten. <br><br> Alleen van toepassing als Microsoft Information Protection is ingeschakeld.|
+| Gegevensgevoeligheid | Sommige aanvallen richten zich op targeting om gevoelige of waardevolle gegevens te exfiltreren. Door een filter toe te passen om te zien of er gevoelige gegevens bij het incident betrokken zijn, kunt u snel bepalen of gevoelige informatie mogelijk is gehackt en kunt u prioriteit geven aan het oplossen van deze incidenten. <br><br> Alleen van toepassing als Microsoft-gegevensbescherming is ingeschakeld.|
 | Apparaatgroep | Filteren op gedefinieerde apparaatgroepen. |
 | Onderzoekstoestand | Filter incidenten op basis van de status van automatisch onderzoek.  |
 | Meerdere categorieën | U kunt ervoor kiezen om alleen incidenten te zien die zijn toegesneden op meerdere categorieën en zo mogelijk meer schade kunnen veroorzaken. |

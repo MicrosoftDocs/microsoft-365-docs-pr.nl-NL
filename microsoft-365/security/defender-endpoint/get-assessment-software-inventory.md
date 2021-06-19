@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.custom: api
-ms.openlocfilehash: 4f2e16acf474d6da8867a6bd392f9e90e0cf166e
-ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
+ms.openlocfilehash: 639f850119498222684c4b3804b32a29dda3eac4
+ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52984842"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53022880"
 ---
 # <a name="export-software-inventory-assessment-per-device"></a>Beoordeling van de softwarevoorraad per apparaat exporteren
 
@@ -32,12 +32,12 @@ ms.locfileid: "52984842"
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 >
 Er zijn verschillende API-oproepen om verschillende typen gegevens op te halen. Omdat de hoeveelheid gegevens groot kan zijn, kunnen deze op twee manieren worden opgehaald:
 
-- [OData-evaluatie van **softwarevoorraad exporteren**](#1-export-software-inventory-assessment-odata)  De API haalt alle gegevens in uw organisatie op als Json-antwoorden, volgens het OData-protocol. Deze methode is het beste _voor kleine organisaties met minder dan 100 K-apparaten._ Het antwoord is paginated, zodat u het veld odata.nextLink uit het antwoord kunt gebruiken \@ om de volgende resultaten op te halen.
+- [JSON-antwoord voor de beoordeling van **de softwarevoorraad exporteren**](#1-export-software-inventory-assessment-json-response) De API haalt alle gegevens in uw organisatie op als Json-antwoorden. Deze methode is het beste _voor kleine organisaties met minder dan 100 K-apparaten._ Het antwoord is paginated, zodat u het veld odata.nextLink uit het antwoord kunt gebruiken \@ om de volgende resultaten op te halen.
 
 - [Beoordeling van softwarevoorraad **exporteren via bestanden**](#2-export-software-inventory-assessment-via-files)  Met deze API-oplossing kunt u sneller en betrouwbaarder grotere hoeveelheden gegevens verzamelen. Daarom wordt het aanbevolen voor grote organisaties, met meer dan 100 K-apparaten. Met deze API worden alle gegevens in uw organisatie als downloadbestanden opgeslagen. Het antwoord bevat URL's om alle gegevens uit de Azure Storage. Met deze API kunt u al uw gegevens als volgt Azure Storage downloaden:
 
@@ -51,7 +51,7 @@ Gegevens die worden verzameld (met _OData_ of _via_ bestanden) zijn de huidige m
 >
 > Tenzij anders aangegeven, zijn alle vermelde exportbeoordelingsmethoden volledig **_geëxporteerd_** en **_per apparaat_** (ook wel per **_apparaat genoemd)._**
 
-## <a name="1-export-software-inventory-assessment-odata"></a>1. Evaluatie van de softwarevoorraad exporteren (OData)
+## <a name="1-export-software-inventory-assessment-json-response"></a>1. Evaluatie van de softwarevoorraad exporteren (JSON-antwoord)
 
 ### <a name="11-api-method-description"></a>Beschrijving van API-methode 1.1
 
@@ -88,11 +88,13 @@ GET /api/machines/SoftwareInventoryByMachine
 
 >[!NOTE]
 >
->-Elke record is ongeveer 0,5 KB aan gegevens. U moet hiermee rekening houden bij het kiezen van de juiste paginaSize-parameter voor u.
-
->-De eigenschappen die in de volgende tabel zijn gedefinieerd, worden alfabetisch weergegeven op eigenschap-id. Bij het uitvoeren van deze API wordt de resulterende uitvoer niet noodzakelijkerwijs geretourneerd in dezelfde volgorde als in deze tabel.
+>- Elke record is ongeveer 0,5 KB aan gegevens. U moet hiermee rekening houden bij het kiezen van de juiste paginaSize-parameter voor u.
 >
->-Sommige extra kolommen kunnen worden geretourneerd in het antwoord. Deze kolommen zijn tijdelijk en kunnen worden verwijderd, gebruik alleen de gedocumenteerde kolommen.
+>- De eigenschappen die in de volgende tabel zijn gedefinieerd, worden alfabetisch weergegeven op eigenschap-id. Bij het uitvoeren van deze API wordt de resulterende uitvoer niet noodzakelijkerwijs geretourneerd in dezelfde volgorde als in deze tabel.
+>
+>- Sommige extra kolommen kunnen worden geretourneerd in het antwoord. Deze kolommen zijn tijdelijk en kunnen worden verwijderd, gebruik alleen de gedocumenteerde kolommen.
+
+<br/>
 
 Eigenschap (id) | Gegevenstype | Beschrijving | Voorbeeld van een geretourneerde waarde
 :---|:---|:---|:---
@@ -246,12 +248,14 @@ GET /api/machines/SoftwareInventoryExport
 
 >[!Note]
 >
->- De bestanden zijn gzip gecomprimeerde & in de Json-indeling met meerdere lijnen.
+>- De bestanden zijn gzip gecomprimeerde & in de JSON-indeling met meerdere tekstlijnen.
 >
 >- De DOWNLOAD-URL's zijn slechts 3 uur geldig. Anders kunt u de parameter gebruiken.
 >
->_ Voor een maximale downloadsnelheid van uw gegevens kunt u ervoor zorgen dat u downloadt vanuit dezelfde Azure-regio als uw gegevens.
->
+>- Voor maximale downloadsnelheid van uw gegevens kunt u ervoor zorgen dat u downloadt vanuit dezelfde Azure-regio als uw gegevens.
+
+<br/><br/>
+
 Eigenschap (id) | Gegevenstype | Beschrijving | Voorbeeld van een geretourneerde waarde
 :---|:---|:---|:---
 Bestanden exporteren | \[matrixreeks\] | Een lijst met DOWNLOAD-URL's voor bestanden met de huidige momentopname van de organisatie | [  Https://tvmexportstrstgeus.blob.core.windows.net/tvm-export...1”, “https://tvmexportstrstgeus.blob.core.windows.net/tvm-export...2” ]

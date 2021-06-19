@@ -1,6 +1,6 @@
 ---
 title: Incidenten in Microsoft 365 Defender
-description: Onderzoek incidenten die worden gezien op verschillende apparaten, gebruikers en postvakken in het Microsoft 365 beveiligingscentrum.
+description: Incidenten op verschillende apparaten, gebruikers en postvakken in de Microsoft 365 Defender onderzoeken.
 keywords: incidenten, waarschuwingen, onderzoeken, analyseren, reactie, correlatie, aanval, machines, apparaten, gebruikers, identiteiten, identiteit, postvak, e-mail, 365, microsoft, m365, incidentrespons, cyberaanvallen
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 9970bb6d410f39ff5d796dec678a750342f0f599
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 3dac22afb074a58ea2afdf842a9a62c6cee77dcc
+ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842024"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53022768"
 ---
 # <a name="incidents-in-microsoft-365-defender"></a>Incidenten in Microsoft 365 Defender
 
@@ -40,11 +40,11 @@ ms.locfileid: "52842024"
 > Wilt u Microsoft 365 Defender ervaren? U kunt het [evalueren in een testomgeving](m365d-evaluation.md?ocid=cx-docs-MTPtriallab) of [uw pilotproject uitvoeren in een productieomgeving](m365d-pilot.md?ocid=cx-evalpilot).
 >
 
-Een incident in Microsoft 365 Defender is een verzameling gecorreleerde waarschuwingen en bijbehorende gegevens die het verhaal van een aanval bevatten. 
+Een incident in Microsoft 365 Defender is een verzameling van gecorreleerde waarschuwingen en bijbehorende gegevens die het verhaal van een aanval bevatten. 
 
 Microsoft 365 services en apps maken waarschuwingen wanneer ze een verdachte of schadelijke gebeurtenis of activiteit detecteren. Afzonderlijke waarschuwingen geven waardevolle aanwijzingen over een voltooide of lopende aanval. Aanvallen gebruiken echter meestal verschillende technieken voor verschillende typen entiteiten, zoals apparaten, gebruikers en postvakken. Het resultaat is meerdere waarschuwingen voor meerdere entiteiten in uw tenant. 
 
-Omdat het lastig en tijdrovend kan zijn om de afzonderlijke waarschuwingen samen te cirkelen om inzicht te krijgen in een aanval, worden de waarschuwingen en de bijbehorende informatie automatisch samengevoegd tot een incident door Microsoft 365 Defender.
+Omdat het lastig en tijdrovend kan zijn om de afzonderlijke waarschuwingen samen te cirkelen om inzicht te krijgen in een aanval Microsoft 365 Defender, worden de waarschuwingen en de bijbehorende informatie automatisch samengevoegd tot een incident.
 
 :::image type="content" source="../../media/incidents-overview/incidents.png" alt-text="Hoe Microsoft 365 Defender gebeurtenissen van entiteiten correleert in een incident":::
 
@@ -62,17 +62,17 @@ Door gerelateerde waarschuwingen in een incident te groeperen, krijgt u een uitg
 - Het bereik van de aanval, zoals het aantal apparaten, gebruikers en postvakken dat is beïnvloed. 
 - Alle gegevens die aan de aanval zijn gekoppeld.
 
-Als [dit is ingeschakeld,](m365d-enable.md)Microsoft 365 Defender [waarschuwingen](m365d-autoir.md) automatisch onderzoeken en oplossen via automatisering en kunstmatige intelligentie. U kunt ook aanvullende herstelstappen uitvoeren om de aanval op te lossen. 
+Als [dit is ingeschakeld,](m365d-enable.md)Microsoft 365 Defender [waarschuwingen automatisch](m365d-autoir.md) onderzoeken en oplossen via automatisering en kunstmatige intelligentie. U kunt ook aanvullende herstelstappen uitvoeren om de aanval op te lossen. 
 
-## <a name="incidents-and-alerts-in-the-microsoft-365-security-center"></a>Incidenten en waarschuwingen in het Microsoft 365 beveiligingscentrum
+## <a name="incidents-and-alerts-in-the-microsoft-365-defender-portal"></a>Incidenten en waarschuwingen in de Microsoft 365 Defender portal
 
-U beheert incidenten van **incidenten & waarschuwingen > incidenten** tijdens de snelle start van het Microsoft 365 beveiligingscentrum [(security.microsoft.com).](https://security.microsoft.com) Hier is een voorbeeld.
+U beheert incidenten vanuit **Incidenten & waarschuwingen > incidenten** op de snelle start van de Microsoft 365 Defender portal [(security.microsoft.com).](https://security.microsoft.com) Hier is een voorbeeld.
 
-:::image type="content" source="../../media/incidents-queue/incidents-ss-incidents.png" alt-text="De pagina Incidenten in het Microsoft 365 beveiligingscentrum":::
+:::image type="content" source="../../media/incidents-queue/incidents-ss-incidents.png" alt-text="De pagina Incidenten in de Microsoft 365 Defender portal":::
 
 Als u een incidentnaam selecteert, wordt een overzicht van het incident weergegeven en krijgt u toegang tot tabbladen met aanvullende informatie.
 
-:::image type="content" source="../../media/incidents-overview/incidents-ss-incident-summary.png" alt-text="Voorbeeld van de pagina Overzicht voor een incident in het Microsoft 365 beveiligingscentrum":::
+:::image type="content" source="../../media/incidents-overview/incidents-ss-incident-summary.png" alt-text="Voorbeeld van de pagina Overzicht voor een incident in de Microsoft 365 Defender portal":::
 
 De extra tabbladen voor een incident zijn:
 
@@ -104,13 +104,13 @@ De extra tabbladen voor een incident zijn:
 
   Een afbeelding met de verbinding van waarschuwingen met de beïnvloede activa in uw organisatie.
 
-Hier is de relatie tussen een incident en de gegevens en de tabbladen van een incident in het Microsoft 365 beveiligingscentrum.
+Hier is de relatie tussen een incident en de gegevens en de tabbladen van een incident in de Microsoft 365 Defender portal.
 
-:::image type="content" source="../../media/incidents-overview/incidents-security-center.png" alt-text="De relatie van een incident en de gegevens ervan met de tabbladen van een incident in het Microsoft 365 beveiligingscentrum":::
+:::image type="content" source="../../media/incidents-overview/incidents-security-center.png" alt-text="De relatie van een incident en de gegevens ervan met de tabbladen van een incident in de Microsoft 365 Defender portal":::
 
 ## <a name="example-incident-response-workflow-for-microsoft-365-defender"></a>Voorbeeld van de werkstroom incidentrespons voor Microsoft 365 Defender
 
-Hier is een voorbeeldwerkstroom voor het reageren op incidenten in Microsoft 365 met het Microsoft 365 beveiligingscentrum.
+Hier is een voorbeeldwerkstroom voor het reageren op incidenten in Microsoft 365 met de Microsoft 365 Defender portal.
 
 :::image type="content" source="../../media/incidents-overview/incidents-example-workflow.png" alt-text="Voorbeeld van een werkstroom voor incidentrespons voor Microsoft 365":::
 
@@ -121,15 +121,15 @@ Identificeer doorlopend de incidenten met de hoogste prioriteit voor analyse en 
 
 1. Voor elk incident start u een [aanval en een waarschuwingsonderzoek en -analyse:](investigate-incidents.md)
  
-   a. Bekijk de samenvatting van het incident om te begrijpen wat het bereik en de ernst is en welke entiteiten worden beïnvloed (het **tabblad** Overzicht).
+   1. Bekijk de samenvatting van het incident om te begrijpen wat het bereik en de ernst is en welke entiteiten worden beïnvloed (het **tabblad** Overzicht).
 
-   b. Begin met het analyseren van de waarschuwingen om de herkomst, het bereik en de ernst ervan te begrijpen (het **tabblad** Waarschuwingen).
+   1. Begin met het analyseren van de waarschuwingen om de herkomst, het bereik en de ernst ervan te begrijpen (het **tabblad** Waarschuwingen).
 
-   c. Verzamel zo nodig informatie over beïnvloede apparaten, gebruikers en postvakken **(de** tabbladen **Apparaten,** Gebruikers en **Postvakken).**
+   1. Verzamel zo nodig informatie over beïnvloede apparaten, gebruikers en postvakken **(de** tabbladen **Apparaten,** Gebruikers en **Postvakken).**
 
-   d. Bekijk hoe Microsoft 365 meldingen [automatisch](m365d-autoir.md) heeft opgelost (het **tabblad** Onderzoeken).
+   1. Bekijk hoe Microsoft 365 Defender [waarschuwingen automatisch](m365d-autoir.md) heeft opgelost (het **tabblad** Onderzoeken).
    
-   e. Gebruik zo nodig informatie in de gegevensset voor het incident voor meer informatie (het **tabblad Bewijs en** antwoord).
+   1. Gebruik zo nodig informatie in de gegevensset voor het incident voor meer informatie (het **tabblad Bewijs en** antwoord).
 
 2. Voer na of tijdens uw analyse insluiting uit om eventuele extra gevolgen van de aanval en de uitbanning van de beveiligingsrisico's te beperken.
 
@@ -173,11 +173,11 @@ Dagelijkse, maandelijkse, kwartaal- en jaarlijkse taken kunnen worden gebruikt o
 
 **Als u nog niet bekend bent** met beveiligingsanalyse en incidentrespons:
 
-- Zie de [walkthrough](first-incident-overview.md) Reageren op uw eerste incident om een rondleiding te krijgen van een typisch proces van analyse, herstel en beoordeling na het incident in het Microsoft 365-beveiligingscentrum met een voorbeeld van een aanval.
+- Zie de [walkthrough](first-incident-overview.md) Reageren op uw eerste incident om een rondleiding te krijgen van een typisch proces van analyse, herstel en beoordeling na het incident in de Microsoft 365 Defender-portal met een voorbeeld van een aanval.
 
 **Als u ervaring hebt met** beveiligingsanalyse en incidentrespons:
 
-- Ga aan de slag met de incidentenwachtrij vanaf **de** pagina Incidenten van het Microsoft 365 beveiligingscentrum. Hier kunt u het volgende doen:
+- Ga aan de slag met de incidentwachtrij vanaf **de pagina Incidenten** van de Microsoft 365 Defender portal. Hier kunt u het volgende doen:
 
   - Bekijk welke incidenten prioriteit [moeten krijgen op](incident-queue.md) basis van ernst en andere factoren. 
 

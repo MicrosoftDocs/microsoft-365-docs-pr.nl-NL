@@ -21,12 +21,12 @@ ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: 3cffa97d26b2b28de8d9e45d7030e0931a7ba072
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: f60208b06e66c1e9803e05ee1fc41376824e9b56
+ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52269574"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53022532"
 ---
 # <a name="address-false-positives-or-false-negatives-in-microsoft-365-defender"></a>Fout-positieven of onwaar negatieven in Microsoft 365 Defender
 
@@ -35,7 +35,7 @@ ms.locfileid: "52269574"
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-Onwaar positieven of negatieven kunnen af en toe optreden met een bedreigingsbeveiligingsoplossing. Als [geautomatiseerde onderzoeks- en antwoordmogelijkheden](m365d-autoir.md) in Microsoft 365 defender iets hebben gemist of ten onrechte zijn gedetecteerd, zijn er stappen die uw beveiligingsteam kan uitvoeren:
+Onwaar positieven of negatieven kunnen af en toe optreden met een bedreigingsbeveiligingsoplossing. Als [geautomatiseerde onderzoeks- en antwoordmogelijkheden](m365d-autoir.md) in Microsoft 365 Defender iets zijn gemist of ten onrechte zijn gedetecteerd, zijn er stappen die uw team voor beveiligingsbewerkingen kan uitvoeren:
 
 - [Een onwaar positief/negatief melden bij Microsoft](#report-a-false-positivenegative-to-microsoft-for-analysis)
 - [Uw waarschuwingen aanpassen](#adjust-an-alert-to-prevent-false-positives-from-recurring) (indien nodig)
@@ -72,5 +72,4 @@ Als er een herstelactie is uitgevoerd op een entiteit (zoals een apparaat of een
 ## <a name="see-also"></a>Zie ook
 
 - [De details en resultaten van een geautomatiseerd onderzoek weergeven](m365d-autoir-results.md)
-- [Proactief op bedreigingen zoeken met geavanceerde Microsoft 365 Defender](advanced-hunting-overview.md)
-- [Actie ondernemen voor fout-positieven/-negatieven in Microsoft Defender voor Eindpunt](/windows/security/threat-protection/microsoft-defender-atp/defender-endpoint-false-positives-negatives)
+- [Proactief op bedreigingen jagen met geavanceerde Microsoft 365 Defender](advanced-hunting-overview.md)

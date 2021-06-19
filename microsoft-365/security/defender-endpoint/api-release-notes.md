@@ -16,18 +16,18 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: a0191a52c64b32b314d4b2f2f36c85b060226ad6
-ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
+ms.openlocfilehash: 5e72db8d986ad096d6312f90530d9f9ff246afc3
+ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52984650"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53022292"
 ---
 # <a name="microsoft-defender-for-endpoint-api-release-notes"></a>Releasenotities van Microsoft Defender for Endpoint API
 
 **Van toepassing op:** [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 
-- Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+- Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 De volgende informatie bevat de updates die zijn aangebracht aan de API's van Microsoft Defender voor eindpunten en de datums waarop ze zijn gemaakt.
 
@@ -42,7 +42,7 @@ De volgende informatie bevat de updates die zijn aangebracht aan de API's van Mi
 
 ### <a name="06102021"></a>06.10.2021
 
-- Nieuwe exportbeoordelings-API-methode toegevoegd - Delta Export software vulnerabilities assessment (OData) Export assessment methods and properties per device ( Export assessment API method - _Delta Export software vulnerabilities assessment (OData)_ Export assessment methods and properties per [device](get-assessment-methods-properties.md).
+- Nieuwe exportbeoordelings-API-methode toegevoegd - Evaluatie van beveiligingsproblemen met _Delta Exportsoftware (JSON-antwoord) Exportbeoordelingsmethoden_ [en -eigenschappen per apparaat](get-assessment-methods-properties.md).
 
 ### <a name="05252021"></a>05.25.2021
 

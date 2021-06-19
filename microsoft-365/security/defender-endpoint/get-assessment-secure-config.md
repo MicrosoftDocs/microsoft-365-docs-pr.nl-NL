@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.custom: api
-ms.openlocfilehash: 5742c121b73eb8709e770c9b2c4da6dbfd942276
-ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
+ms.openlocfilehash: ad8b2030da4fb4815eb71ca53fb2dbac67a05d79
+ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52984854"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53022388"
 ---
 # <a name="export-secure-configuration-assessment-per-device"></a>Veilige configuratiebeoordeling per apparaat exporteren
 
@@ -32,14 +32,14 @@ ms.locfileid: "52984854"
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 >
 Retourneert alle configuraties en hun status, per apparaat.
 
 Er zijn verschillende API-oproepen om verschillende typen gegevens op te halen. Omdat de hoeveelheid gegevens groot kan zijn, kunnen deze op twee manieren worden opgehaald:
 
-- [Veilige configuratiebeoordeling **OData**](#1-export-secure-configuration-assessment-odata)exporteren: de API haalt alle gegevens in uw organisatie op als Json-antwoorden, volgens het OData-protocol. Deze methode is het beste _voor kleine organisaties met minder dan 100 K-apparaten._ Het antwoord is paginated, zodat u het veld odata.nextLink uit het antwoord kunt gebruiken \@ om de volgende resultaten op te halen.
+- [Veilige configuratiebeoordeling **JSON-antwoord exporteren:**](#1-export-secure-configuration-assessment-json-response)de API haalt alle gegevens in uw organisatie op als Json-antwoorden. Deze methode is het beste _voor kleine organisaties met minder dan 100 K-apparaten._ Het antwoord is paginated, zodat u het veld odata.nextLink uit het antwoord kunt gebruiken \@ om de volgende resultaten op te halen.
 
 - [Veilige configuratiebeoordeling **exporteren via bestanden:**](#2-export-secure-configuration-assessment-via-files)met deze API-oplossing kunt u sneller en betrouwbaarder grotere hoeveelheden gegevens verzamelen. Daarom wordt het aanbevolen voor grote organisaties, met meer dan 100 K-apparaten. Met deze API worden alle gegevens in uw organisatie als downloadbestanden opgeslagen. Het antwoord bevat URL's om alle gegevens uit de Azure Storage. Met deze API kunt u al uw gegevens als volgt Azure Storage downloaden:
 
@@ -53,7 +53,7 @@ Gegevens die worden verzameld (met _OData_ of _via_ bestanden) zijn de huidige m
 >
 > Tenzij anders aangegeven, zijn alle vermelde exportbeoordelingsmethoden volledig **_geëxporteerd_** en **_per apparaat_** (ook wel per **_apparaat genoemd)._**
 
-## <a name="1-export-secure-configuration-assessment-odata"></a>1. Beveiligde configuratiebeoordeling exporteren (OData)
+## <a name="1-export-secure-configuration-assessment-json-response"></a>1. Veilige configuratiebeoordeling exporteren (JSON-antwoord)
 
 ### <a name="11-api-method-description"></a>Beschrijving van API-methode 1.1
 
