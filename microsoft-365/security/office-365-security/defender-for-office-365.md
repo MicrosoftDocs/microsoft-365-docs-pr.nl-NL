@@ -21,12 +21,12 @@ ms.custom:
 description: Microsoft Defender voor Office 365 omvat veilige bijlagen, veilige koppelingen, geavanceerde hulpmiddelen tegen phishing, rapportagehulpmiddelen en functies voor bedreigingsinformatie.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 00dcd5d8f5d18b59de67318049cc1e5807451f14
-ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
+ms.openlocfilehash: 8bdb1e16c20b623934bb4fb994fcb8c6ef5f5ff0
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 06/19/2021
-ms.locfileid: "53022352"
+ms.locfileid: "53028453"
 ---
 # <a name="microsoft-defender-for-office-365"></a>Microsoft Defender voor Office 365
 
@@ -96,7 +96,7 @@ De volgende tabel bevat een overzicht van wat er is inbegrepen in elk abonnement
 
 ## <a name="configure-microsoft-defender-for-office-365-policies"></a>Beleid in Microsoft Defender voor Office 365 instellen
 
-Met Microsoft Defender voor Office 365 kan het beveiligingsteam van uw organisatie beveiliging configureren door beleid te definiëren in het Beveiligings- en compliancecentrum (Ga naar <https://protection.office.com> \> **Bedreigingsbeheer** \> **Beleid**).
+Met Microsoft Defender voor Office 365 kan het beveiligingsteam van uw organisatie beveiliging configureren door beleid te definiëren in Microsoft 365 Defender (Ga naar <https://security.microsoft.com> \> **E-mail en samenwerking** \> **Beleid en regels**.)
 
 Meer informatie vindt u in [deze video](https://www.youtube.com/watch?v=vivvTmWJ_3c). 
 
@@ -117,7 +117,7 @@ Het beleid dat wordt gedefinieerd voor uw organisatie bepaalt het gedrag en beve
 
 ## <a name="view-microsoft-defender-for-office-365-reports"></a>Microsoft Defender voor Office 365-rapporten weergeven
 
-Microsoft Defender voor Office 365 bevat een geavanceerd [rapportagedashboard](view-reports-for-mdo.md) voor het controleren van de prestaties van Defender voor Office 365. Je vindt het in het Beveiligings- en compliancecentrum bij **Rapporten**\>**Dashboard**.
+Microsoft Defender voor Office 365 bevat een geavanceerd [rapportagedashboard](view-reports-for-mdo.md) voor het controleren van de prestaties van Defender voor Office 365. U kunt het openen via **Rapporten** \> **Dashboard** in de Microsoft 365 Defender-portal.
 
 Rapporten worden in realtime bijgewerkt en voorzien u zo van de nieuwste inzichten. Deze rapporten bieden ook aanbevelingen en waarschuwen u tegen naderende bedreigingen. Vooraf gedefinieerde rapporten omvatten het volgende:
 
@@ -141,16 +141,16 @@ Abonnement 2 van Microsoft Defender voor Office 365 bevat de beste [hulpmiddelen
 
 ## <a name="permissions-required-to-use-microsoft-defender-for-office-365-features"></a>Vereiste machtigingen voor het gebruik van de functies van Microsoft Defender voor Office 365
 
-Er moet een in aanmerking komende rol aan jou zijn toegewezen om toegang te krijgen tot Microsoft Defender voor Office 365-functies in het Beveiligings- en compliancecentrum. De volgende tabel bevat enkele voorbeelden:
+Er moet een geschikte rol aan jou zijn toegewezen om toegang te krijgen tot Microsoft Defender voor Office 365-functies in Microsoft 365 Defender. De volgende tabel bevat enkele voorbeelden:
 
 |Rol of rollengroep|Informatiebronnen|
 |---|---|
-|Globale beheerder (die kan worden toegewezen in Azure Active Directory of in het beveiligings- en compliancecentrum)|[Over Microsoft 365-beheersrollen](../../admin/add-users/about-admin-roles.md)|
-|Beveiligingsbeheerder (die kan worden toegewezen in Azure Active Directory of in het beveiligings- en compliancecentrum)|[Machtigingen voor beheerdersrollen in Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) <p> [Rapporten in het beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md)|
+|globale beheerder (dit kan worden toegewezen in Azure Active Directory of in Microsoft 365 Defender)|[Over Microsoft 365-beheerdersrollen](../../admin/add-users/about-admin-roles.md)|
+|Beveiligingsadministrator (dit kan worden toegewezen in Azure Active Directory of Microsoft 365 Defender)|[Machtigingen voor beheerdersrollen in Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) <p> [Machtigingen in Microsoft 365 Defender](permissions-in-the-security-and-compliance-center.md)|
 |Exchange Online Organization Management (die wordt toegewezen in Exchange Online)|[Machtigingen in Exchange Online](/exchange/permissions-exo/permissions-exo) <p> [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell)|
-|Zoeken en opschonen (die wordt alleen toegewezen in het beveiligings- en compliancecentrum)|[Machtigingen in het Beveiligings- en compliancecentrum](permissions-in-the-security-and-compliance-center.md)|
+|Zoeken en opschonen (dit is alleen toegewezen in Microsoft 365 Defender)|[Machtigingen in Microsoft 365 Defender](permissions-in-the-security-and-compliance-center.md)|
 
-Zie [Machtigingen in het Beveiligings- & compliancecentrum](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
+Raadpleeg [Machtigingen in Microsoft 365 Defender](permissions-in-the-security-and-compliance-center.md) voor meer informatie.
 
 ## <a name="get-microsoft-defender-for-office-365"></a>Download Microsoft Defender voor Office 365
 
@@ -176,4 +176,5 @@ Er worden doorlopend nieuwe functies aan Microsoft Defender voor Office 365 toeg
 
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-- [Geautomatiseerde onderzoeken en reacties in Microsoft 365 Defender](../defender/m365d-autoir.md) 1
+- [Geautomatiseerd onderzoek en acties (AIR) in Microsoft 365 Defender](../defender/m365d-autoir.md)
+

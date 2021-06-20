@@ -19,12 +19,12 @@ ms.assetid: c2112ce8-1c4b-424f-b200-59e161db2d21
 description: 'Overzicht: Maak openbare, privé, gevoelige en zeer vertrouwelijke SharePoint Online-teamsites in een ontwikkel-/testomgeving voor uw politieke campagne.'
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4f680cfb30de5b6904e5fa489cca368550195b4f
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: ba0eb1e3ff0539f9aec6993fb25fe576f08f84d5
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204413"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028773"
 ---
 # <a name="create-team-sites-in-a-political-campaign-devtest-environment"></a>Maak teamsites in een ontwikkel- en testomgeving voor politieke campagnes
 
@@ -33,7 +33,7 @@ ms.locfileid: "51204413"
 **Van toepassing op**
 
 - [Abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
-- 
+
  **Overzicht:** Maak openbare, privé, gevoelige en zeer vertrouwelijke SharePoint Online-teamsites in een ontwikkel-/testomgeving voor uw politieke campagne. 
    
 Gebruik de instructies in dit artikel om een ontwikkel-/testomgeving te maken met vier verschillende soorten SharePoint Online-teamsites voor de [Microsoft-beveiligingsrichtlijnen voor politieke campagnes, non-profitorganisaties en andere agile organisaties](microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)-oplossing. Deze sites worden uitgebreid beschreven in onderwerp 10, getiteld **SharePoint en OneDrive voor Bedrijven**.
@@ -218,7 +218,7 @@ Configureer vervolgens de map met documenten van de teamsite van de marketing vo
 
 4. Selecteer bij **Instellingen-Label toepassen** de optie **Gevoelig** en klik vervolgens op **Opslaan**.
 
-Configureer vervolgens een beleid voor de preventie van gegevensverlies dat gebruikers een melding stuurt wanneer ze een document van de SharePoint Online-teamsite met het label Gevoelig buiten de organisatie delen. Dit DLP-beleid wordt toegepast op resources op de site van de marketing voor de campagne.
+Configureer vervolgens een DLP-beleid (preventie van gegevensverlies) dat gebruikers informeert wanneer ze een document op een SharePoint Online-teamsite delen met het label Gevoelig buiten de organisatie. Dit DLP-beleid is van toepassing op resources op de marketingsite van de campagne.
 
 1. Klik op het tabblad **Microsoft Office Home** van uw browser op de tegel **Beveiliging en compliance**.
 
@@ -326,7 +326,7 @@ Configureer vervolgens de documentenmap van de Campagnestrategie-teamsite voor h
 
 4. Selecteer in **Instellingen-Label toepassen** de optie **Zeer vertrouwelijk** en klik vervolgens op **Opslaan**.
 
-Configureer vervolgens een beleid voor de preventie van gegevensverlies dat gebruikers blokkeert wanneer ze een document van de SharePoint Online-teamsite met het label Zeer vertrouwelijk buiten de organisatie delen. Dit beleid wordt toegepast op resources op de site van de Campagnestrategie.
+Configureer vervolgens een DLP-beleid dat gebruikers blokkeert wanneer ze een document delen op een SharePoint Online-teamsite met het label Zeer vertrouwelijk buiten de organisatie. Dit DLP-beleid is van toepassing op resources op de strategiesite van de campagne.
 
 1. Gebruik indien nodig een browser op uw lokale computer en meld u aan bij het beheercentrum (<https://admin.microsoft.com>) met een account met de rol Beveiligingsbeheerder of Bedrijfsbeheerder.
 

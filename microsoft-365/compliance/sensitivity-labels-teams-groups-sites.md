@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Gebruik vertrouwelijkheidslabels om inhoud te beveiligen in SharePoint- en Microsoft Teams-sites en Microsoft 365 Groepen.
-ms.openlocfilehash: 6baca2e24e50bd3ee418da994adcfbe7fca8338c
-ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
+ms.openlocfilehash: 8c19853730376e36ffe7ac136e7fc6036b8b5f12
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52694399"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028977"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>Vertrouwelijkheidslabels gebruiken om inhoud te beveiligen in Microsoft Teams, Microsoft 365 Groepen en SharePoint-sites
 
@@ -163,20 +163,6 @@ Niet alle apps ondersteunen verificatiecontexten. Als een gebruiker met een niet
     - Android: nog niet ondersteund
 
 Bekende problemen in deze preview:
-
-- Deze functie wordt nog steeds uitgerold naar sommige tenants. Als het beleid voor voorwaardelijke toegang met de geselecteerde verificatiecontext niet van kracht wordt wanneer een gebruiker de site gebruikt, kunt u PowerShell gebruiken om te controleren of uw configuratie juist is en of aan alle vereisten wordt voldaan. U moet het gevoeligheidslabel van de site verwijderen en de site vervolgens configureren voor de verificatiecontext met behulp van de cmdlet [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) van de huidige [SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online). Als deze methode werkt, wacht u nog enkele dagen voordat u het gevoeligheidslabel opnieuw probeert toe te passen.
-    
-    De verificatiecontext testen met behulp van PowerShell:
-    
-    ```powershell
-    Set-SPOSite -Identity <site url> -ConditionalAccessPolicy AuthenticationContext -AuthenticationContextName "Name of authentication context"
-    ```
-    
-    De verificatiecontext verwijderen zodat u het gevoeligheidslabel opnieuw kunt toepassen:
-    
-    ```powershell
-    Set-SPOSite -Identity <site url> -ConditionalAccessPolicy AuthenticationContext -AuthenticationContextName ""
-    ```
 
 - De synchronisatie-app voor OneDrive wordt alleen ondersteund voor OneDrive en niet voor andere sites.
 
@@ -429,13 +415,19 @@ Zie [Azure Active Directory-classificatie en vertrouwelijkheidslabels voor Micro
 
 Als iemand een document uploadt naar een site die is beveiligd met een vertrouwelijkheidslabel en het document heeft een vertrouwelijkheidslabel met een [hogere prioriteit](sensitivity-labels.md#label-priority-order-matters) dan het vertrouwelijkheidslabel dat is toegepast op de site, wordt deze actie niet geblokkeerd. U hebt bijvoorbeeld het label **Algemeen** toegepast op een SharePoint-site en iemand uploadt een document naar deze site met het label **Vertrouwelijk**. Omdat een vertrouwelijkheidslabel met een hogere prioriteit inhoud identificeert die vertrouwelijker is dan inhoud met een lagere prioriteit, kan deze situatie een beveiligingsrisico zijn.
 
-Hoewel de actie niet wordt geblokkeerd, wordt deze gecontroleerd en genereert automatisch een e-mail naar de persoon die het document heeft geüpload en de sitebeheerder. Hierdoor kunnen zowel de gebruiker als de beheerders documenten identificeren waarbij de labelprioriteit niet overeenkomt en indien nodig actie ondernemen. Door bijvoorbeeld het geüploade document van de site te verwijderen of te verplaatsen.
+Hoewel de actie niet wordt geblokkeerd, wordt deze standaard gecontroleerd en genereert automatisch een e-mail naar de persoon die het document heeft geüpload en de sitebeheerder. Hierdoor kunnen zowel de gebruiker als de beheerders documenten identificeren waarbij de labelprioriteit niet overeenkomt en indien nodig actie ondernemen. Door bijvoorbeeld het geüploade document van de site te verwijderen of te verplaatsen.
 
 Het zou geen beveiligingsrisico zijn als het document een vertrouwelijkheidslabel met een lagere prioriteit heeft dan het vertrouwelijkheidslabel dat is toegepast op de site. Een document met het label **Algemeen** wordt bijvoorbeeld geüpload naar een site met het label **Vertrouwelijk**. In dit scenario worden er geen auditgebeurtenis en e-mail gegenereerd.
 
 Om het auditlogboek voor deze gebeurtenis te vinden, zoekt u naar **Niet-overeenkomende documentvertrouwelijkheid gedetecteerd** in de categorie **Bestands- en pagina-activiteiten**.
 
 De automatisch gegenereerde e-mail heeft als onderwerp **Niet-overeenkomende documentvertrouwelijkheid gedetecteerd** en in het e-mailbericht wordt uitgelegd dat de labels niet overeenkomen met een koppeling naar het geüploade document en de site. Het bericht bevat ook een documentatiekoppeling waarin wordt uitgelegd hoe gebruikers het vertrouwelijkheidslabel kunnen wijzigen. Momenteel kunnen deze geautomatiseerde e-mailberichten niet worden uitgeschakeld of aangepast.
+
+Als u deze automatisch gegenereerde e-mail wilt voorkomen, gebruikt u de volgende PowerShell-opdracht van [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite):
+
+```PowerShell
+Set-SPOTenant -BlockSendLabelMismatchEmail $True
+```
 
 Wanneer iemand een vertrouwelijkheidslabel toevoegt aan of verwijdert van een site of groep worden deze activiteiten ook gecontroleerd, maar zonder dat er automatisch een e-mail wordt gegenereerd.
 

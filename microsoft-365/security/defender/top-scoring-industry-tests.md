@@ -15,12 +15,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.technology: m365d
-ms.openlocfilehash: a49fb83f9186541094910ec8842a09b5121ffb5b
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: d7625c5a577ff01544a2602092c4ee34875efdb6
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934391"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028497"
 ---
 # <a name="top-scoring-in-industry-tests"></a>Hoogste score in branchetests
 
@@ -43,7 +43,7 @@ De kern van de testmethode van de MITRE is het testen van real-world aanvallen o
 
 - Evaluatie op basis van ATT&CK van Microsoft 365 Defender - mei 2020: [Voorloper op het gebied van real-world detectie](https://www.microsoft.com/security/blog/2020/05/01/microsoft-threat-protection-leads-real-world-detection-mitre-attck-evaluation/)
 
-    Microsoft 365 Defender biedt bijna 100 procent dekking in de keten van aanvallen. Het biedt toonaangevende, creatieve zichtbaarheid van de activiteiten van kwaadwillende gebruikers. De zichtbaarheid vermindert sterk de hoeveelheid handmatig werk voor het beveiligingscenter en de leveranciersoplossingen die afhankelijk waren van specifieke configuratiewijzigingen. Microsoft 365 Defender had ook de kleinste hiaten in zichtbaarheid, wat betekent dat de mogelijkheid van kwaadwillende gebruikers om onopgemerkt te werken afneemt.
+ Microsoft 365 Defender biedt bijna 100 procent dekking in de keten van aanvallen. Het biedt toonaangevende, creatieve zichtbaarheid van de activiteiten van kwaadwillende gebruikers. De zichtbaarheid vermindert sterk de hoeveelheid handmatig werk voor het beveiligingscenter en de leveranciersoplossingen die afhankelijk waren van specifieke configuratiewijzigingen. Microsoft 365 Defender had ook de kleinste hiaten in zichtbaarheid, wat betekent dat de mogelijkheid van kwaadwillende gebruikers om onopgemerkt te werken afneemt.
 
 ## <a name="next-generation-protection"></a>Beveiliging van de volgende generatie
 
@@ -89,7 +89,7 @@ SE Labs test een aantal oplossingen die door producten en diensten worden gebrui
 
 - Eindpunt-beveiliging voor ondernemingen oktober- december 2020: [AAA-prijs](https://selabs.uk/reports/enterprise-endpoint-protection-2020-q4/) <sup>**nieuwste**</sup>
 
-    Het volgende beveiligingsproduct van Microsoft heeft alle openbare en gerichte aanvallen gestopt. Microsoft Defender Antivirus heeft goede resultaten geleverd door het blokkeren van schadelijke URL's, het verwerken van aanvallen en het op de juiste manier classificeren van legitieme toepassingen en websites.
+    Het nieuwe-generatie beveiligingsproduct van Microsoft heeft alle openbare en gerichte aanvallen gestopt. Microsoft Defender Antivirus heeft dergelijke goede resultaten behaald met het vermogen om schadelijke URL's te blokkeren, misbruik op te lossen en legitieme toepassingen en websites correct te classificeren.
 
 - Eindpunt-beveiliging voor ondernemingen juli-september 2020: [AAA-prijs](https://selabs.uk/reports/epp-enterprise-20q3-security-testing/)
 
