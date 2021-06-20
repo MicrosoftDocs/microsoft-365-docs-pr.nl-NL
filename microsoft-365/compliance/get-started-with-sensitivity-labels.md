@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Bent u klaar voor het implementeren van gevoeligheidslabels om de gegevens van uw organisatie te beschermen, maar weet u niet zeker waar u moet beginnen? Lees enkele praktische richtlijnen om u op weg te helpen met labelen.
-ms.openlocfilehash: c87289fc7017e75db3b8a5b84a8af3a42dc16a10
-ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
+ms.openlocfilehash: 550a1a84df88340de14caff08284ef6a8cadc9e9
+ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52689119"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53022484"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>Aan de slag met vertrouwelijkheidslabels
 
@@ -86,7 +86,7 @@ Voor alle scenario's moet u [Gevoeligheidslabels en hun beleid maken en configur
 |Co authoring en automatisch opslaan gebruiken in Office-bureaublad-apps wanneer documenten zijn versleuteld | [Cocreatie inschakelen voor bestanden die zijn versleuteld met gevoeligheidslabels](sensitivity-labels-coauthoring.md)
 |Automatisch gevoeligheidslabels toepassen op uw documenten en e-mails | [Een vertrouwelijkheidslabel automatisch toepassen op inhoud](apply-sensitivity-label-automatically.md)|
 |Zie Gevoeligheidslabels gebruiken om inhoud te beveiligen in Microsoft Teams, Office 365-groepen en SharePoint-sites voor meer informatie. |[Vertrouwelijkheidslabels gebruiken met Microsoft Teams, Microsoft 365 Groepen en SharePoint-sites](sensitivity-labels-teams-groups-sites.md)|
-|Voorkomen of waarschuwen voor het delen van bestanden of e-mailberichten met een specifiek gevoeligheidslabel |[Vertrouwelijkheidslabels gebruiken als voorwaarden in DLP-beleid (preview)](dlp-sensitivity-label-as-condition.md) |
+|Voorkomen of waarschuwen voor het delen van bestanden of e-mailberichten met een specifiek gevoeligheidslabel |[Vertrouwelijkheidslabels gebruiken als voorwaarden in DLP-beleid](dlp-sensitivity-label-as-condition.md) |
 |Bestanden ontdekken, labelen en beveiligen die zijn opgeslagen in on-premises gegevensopslag |[De Azure Information Protection-scanner implementeren om bestanden automatisch te classificeren en te beveiligen](/azure/information-protection/deploy-aip-scanner)|
 |Bestanden ontdekken, labelen en beveiligen die zijn opgeslagen in de cloud gegevensopslag|[Ontdek, classificeer, label en bescherm gereguleeerde en vertrouwelijke gegevens die zijn opgeslagen in de cloud](/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)|
 |Labels toepassen en weergeven in Power BI en gegevens beveiligen wanneer deze buiten de service worden opgeslagen|[Gevoeligheidslabels in Power BI](/power-bi/admin/service-security-sensitivity-label-overview)|

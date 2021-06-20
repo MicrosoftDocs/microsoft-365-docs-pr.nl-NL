@@ -20,12 +20,12 @@ ms.custom:
 description: Gebruikers kunnen meer informatie krijgen over het weergeven en beheren van berichten in quarantaine in Exchange Online Protection (EOP) die aan hun hadden moeten worden afgeleverd.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 02119130df847da48f0c25ba13cbb321c83f59dd
-ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
+ms.openlocfilehash: c0f95561977c453d7040d84ba0c779c3d33e07f0
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 06/19/2021
-ms.locfileid: "53028389"
+ms.locfileid: "53029823"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user-in-eop"></a>Berichten in quarantaine zoeken en vrijgeven als gebruiker in EOP
 
@@ -38,6 +38,18 @@ ms.locfileid: "53028389"
 
 In Microsoft 365-bedrijven met postvakken in Exchange Online of EOP-bedrijven (standalone Exchange Online Protection) zonder Exchange Online-postvakken worden potentieel gevaarlijke of ongewenste berichten in quarantaine geplaatst. Zie [Quarantaine in EOP](quarantine-email-messages.md) voor meer informatie.
 
+In de volgende tabel wordt beschreven wat u kunt doen als u de ontvanger bent van een in quarantaine geplaatst bericht en u geen beheerder bent:
+
+<br>
+
+****
+
+|Reden van quarantaine|Weergeven|Vrijgeven|Verwijderen|
+|---|:---:|:---:|:---:|
+|Bulk|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|
+|Spam|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|
+|Phishing (geen hoge phishingwaarschijnlijkheid)|![Vinkje](../../media/checkmark.png)||![Vinkje](../../media/checkmark.png)|
+|
 
 Je kunt je in quarantaine geplaatste berichten weergeven en beheren in de Microsoft 365 Defender-portal of (als een beheerder dit heeft ingesteld) in [spammeldingen voor eindgebruikers](use-spam-notifications-to-release-and-report-quarantined-messages.md).
 
