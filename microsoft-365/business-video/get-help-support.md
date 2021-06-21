@@ -18,7 +18,7 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: U moet beheerder zijn van een zakelijk abonnement als u beheerdersondersteuning of online of telefonische ondersteuning wilt krijgen in Microsoft 365 Business Premium.
+description: Je moet beheerder zijn van een zakelijk abonnement als je beheerdersondersteuning of telefonische of onlineondersteuning wilt krijgen in Microsoft 365 Business Premium.
 ms.openlocfilehash: 254e01894f430bdf6a8f666d1425af8705968647
 ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: HT

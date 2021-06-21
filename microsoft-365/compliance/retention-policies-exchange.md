@@ -34,7 +34,7 @@ De informatie in dit artikel is een aanvulling op [Meer informatie over retentie
 
 ## <a name="whats-included-for-retention-and-deletion"></a>Wat is inbegrepen voor retentie en verwijdering?
 
-De volgende Exchange-items van postvakken van gebruikers en gedeelde postvakken kunnen worden behouden of verwijderd door gebruik te maken van bewaarbeleid en retentielabels: e-mailberichten (inclusief ontvangen berichten, concepten en verzonden berichten) met eventuele bijlagen, notities en taken als deze een einddatum hebben. 
+De volgende Exchange-items van postvakken van gebruikers en gedeelde postvakken kunnen worden behouden of verwijderd door gebruik te maken van bewaarbeleid en retentielabels: e-mailberichten (inclusief ontvangen berichten, concepten en verzonden berichten) met eventuele bijlagen, notities en taken (als de taken een einddatum hebben). 
 
 Agenda-items die een einddatum hebben, worden ondersteund voor bewaarbeleidsregels, maar niet voor retentielabels.
 
