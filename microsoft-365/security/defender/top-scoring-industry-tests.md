@@ -15,12 +15,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.technology: m365d
-ms.openlocfilehash: d7625c5a577ff01544a2602092c4ee34875efdb6
-ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
+ms.openlocfilehash: 4d49772eb3932ae98840d2be94c447183e94fade
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 06/19/2021
-ms.locfileid: "53028497"
+ms.locfileid: "53029619"
 ---
 # <a name="top-scoring-in-industry-tests"></a>Hoogste score in branchetests
 
@@ -39,7 +39,7 @@ Microsoft 365 Defender combineert de mogelijkheden van [Microsoft Defender voor 
 
 ### <a name="mitre-demonstrated-real-world-detection-response-and-protection-from-advanced-attacks"></a>MITRE: Gedemonstreerde real-world detectie, reactie en beveiliging tegen geavanceerde aanvallen
 
-De kern van de testmethode van de MITRE is het testen van real-world aanvallen om te begrijpen of er voldoende oplossingen zijn voor het detecteren en hierop te reageren. Hoewel de prioriteit van de test de detectie en reactie van eindpunten was, heeft de gesimuleerde APT29-aanvallen van MITRE meerdere aanvalsdomeinen, waardoor het mogelijk wordt om defenders meer te bieden dan alleen een eindpuntbeveiliging. Met Microsoft 365 Defender heeft Microsoft de zichtbaarheid van defenders buiten het eindpunt uitgebreid.
+De kern van de testmethode van MITRE bestaat uit het testen van real-world aanvallen om te begrijpen of de oplossingen er adequaat op kunnen reageren. Hoewel de test gericht was op eindpuntdetectie en -respons, omvat de gesimuleerde APT29-aanval van MITRE meerdere aanvalsdomeinen, waardoor er mogelijkheden worden geboden om defenders meer mogelijkheden te bieden dan slechts eindpuntbeveiliging. Met Microsoft 365 Defender heeft Microsoft de zichtbaarheid van defenders buiten het eindpunt uitgebreid.
 
 - Evaluatie op basis van ATT&CK van Microsoft 365 Defender - mei 2020: [Voorloper op het gebied van real-world detectie](https://www.microsoft.com/security/blog/2020/05/01/microsoft-threat-protection-leads-real-world-detection-mitre-attck-evaluation/)
 
@@ -79,7 +79,7 @@ De zakelijke beveiligingstest bestaat uit drie hoofdonderdelen: de real-world be
 
 - Zakelijke beveiligingstest 2020 (maart - juni): [Real-world beveiligingspercentage 99,7%](https://www.av-comparatives.org/tests/business-security-test-2020-march-june/)
 
-- Zakelijke beveiligingstest 2019 (augustus - november): [Real-world beveiligingspercentage 99,6%](https://www.av-comparatives.org/tests/business-security-test-2019-august-november/) 
+- Zakelijke beveiligingstest 2019 (augustus - november): [Real-world beveiligingspercentage 99,6%](https://www.av-comparatives.org/tests/business-security-test-2019-august-november/)
 
 - Zakelijke beveiligingstest 2019 (maart - juni): [Real-world beveiligingspercentage 99,9%](https://www.av-comparatives.org/tests/business-security-test-2019-march-june/)  | [analyse](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3Esbl)
 

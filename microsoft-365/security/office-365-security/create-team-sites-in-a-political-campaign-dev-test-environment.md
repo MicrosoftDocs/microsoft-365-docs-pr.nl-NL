@@ -19,12 +19,12 @@ ms.assetid: c2112ce8-1c4b-424f-b200-59e161db2d21
 description: 'Overzicht: Maak openbare, privé, gevoelige en zeer vertrouwelijke SharePoint Online-teamsites in een ontwikkel-/testomgeving voor uw politieke campagne.'
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ba0eb1e3ff0539f9aec6993fb25fe576f08f84d5
-ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
+ms.openlocfilehash: fcba6e2f3939115d6dfbaae80d322246bdeadee9
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 06/19/2021
-ms.locfileid: "53028773"
+ms.locfileid: "53029895"
 ---
 # <a name="create-team-sites-in-a-political-campaign-devtest-environment"></a>Maak teamsites in een ontwikkel- en testomgeving voor politieke campagnes
 
@@ -34,8 +34,8 @@ ms.locfileid: "53028773"
 
 - [Abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
 
- **Overzicht:** Maak openbare, privé, gevoelige en zeer vertrouwelijke SharePoint Online-teamsites in een ontwikkel-/testomgeving voor uw politieke campagne. 
-   
+ **Overzicht:** Maak openbare, privé, gevoelige en zeer vertrouwelijke SharePoint Online-teamsites in een ontwikkel-/testomgeving voor uw politieke campagne.
+
 Gebruik de instructies in dit artikel om een ontwikkel-/testomgeving te maken met vier verschillende soorten SharePoint Online-teamsites voor de [Microsoft-beveiligingsrichtlijnen voor politieke campagnes, non-profitorganisaties en andere agile organisaties](microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)-oplossing. Deze sites worden uitgebreid beschreven in onderwerp 10, getiteld **SharePoint en OneDrive voor Bedrijven**.
 
 ## <a name="phase-1-create-your-political-campaign-devtest-environment"></a>Fase 1: Een ontwikkel- en testomgeving voor uw politieke campagnes maken
@@ -46,43 +46,46 @@ Volg eerst de instructies in [Groepen en gebruikers configureren voor een ontwik
 
 In deze fase maakt u de labels voor de verschillende beveiligingsniveaus van documentenmappen op de SharePoint Online-teamsite.
 
-1. Indien nodig meldt u zich aan bij het beheercentrum met de inloggegevens van het algemene beheerdersaccount van uw proefabonnement. Zie [Waar kan ik me aanmelden in Microsoft 365?](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4) voor hulp.
+1. Indien nodig meldt u zich aan bij het Microsoft 365-beheercentrum (<https://admin.microsoft.com>) met de referenties van het globale beheerdersaccount van uw proefabonnement. Zie [Waar kan ik me aanmelden in Microsoft 365?](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4) voor hulp.
 
-2. Klik op het tabblad **Microsoft Office Home** op de tegel **Beheerder**.
+2. Klik op de **startpagina** waar u begint op **Alle weergeven**. Klik in de sectie **Beheercentra** die wordt weergegeven op **Naleving**.
 
-3. Klik op het nieuwe tabblad **Microsoft 365-beheercentrum** van uw browser op **Beheercentra > Beveiliging en compliance**.
+3. Ga op de **startpagina** van het Microsoft 365-compliancecentrum naar de sectie **Oplossingen** \> **Information Protection**. Via <https://compliance.microsoft.com//informationprotection> gaat u rechtstreeks naar de pagina **Information Protection**.
 
-4. Klik op het nieuwe tabblad **Start - Beveiliging en compliance** van uw browser op **Classificaties > Labels**.
+4. Controleer op de pagina **Information Protection** of de tag **Label** is geselecteerd en klik vervolgens op ![Een labelpictogram maken](../../media/m365-cc-sc-create-icon.png) **Een label maken**.
 
-5. Klik in het deelvenster **Start > Labels** op **Label maken**.
+5. De wizard **Nieuw vertrouwelijkheidslabel** wordt geopend. Voer in de stap **Naam en beschrijving** de volgende waarden in:
+   - **Naam**: type **Intern**.
+   - **Weergavenaam**
+   - **Beschrijving voor gebruikers**
 
-6. Typ in het deelvenster **Uw label een naam geven** **Intern** in en klik vervolgens op **Volgende**.
+   Wanneer u gereed bent, klikt u op **Volgende**.
 
-7. Klik in het deelvenster **Labelinstellingen** op **Volgende**.
+6. Klik in het deelvenster **Labelinstellingen** op **Volgende**.
 
-8. Klik in het deelvenster **Bekijk uw instellingen** op **Dit label maken** en klik vervolgens op **Afsluiten**.
+7. Klik in het deelvenster **Bekijk uw instellingen** op **Dit label maken** en klik vervolgens op **Afsluiten**.
 
-9. Herhaal de stappen 5-8 voor deze extra labels:
+8. Herhaal de stappen 5-8 voor deze extra labels:
 
    - Privé
    - Gevoelig
    - Zeer vertrouwelijk
 
-10. Klik in het deelvenster **Start > Labels** op **Labels publiceren**.
+9. Klik in het deelvenster **Start > Labels** op **Labels publiceren**.
 
-11. Klik in het deelvenster **Labels kiezen om te publiceren** op de optie **Labels kiezen om te publiceren**.
+10. Klik in het deelvenster **Labels kiezen om te publiceren** op de optie **Labels kiezen om te publiceren**.
 
-12. Klik op het deelvenster **Labels kiezen** op **Toevoegen** en selecteer alle vier de labels.
+11. Klik op het deelvenster **Labels kiezen** op **Toevoegen** en selecteer alle vier de labels.
 
-13. Klik op **Gereed**.
+12. Klik op **Gereed**.
 
-14. Klik in het deelvenster **Labels kiezen om te publiceren** op **Volgende**.
+13. Klik in het deelvenster **Labels kiezen om te publiceren** op **Volgende**.
 
-15. Klik in het deelvenster **Locaties kiezen** op **Volgende**.
+14. Klik in het deelvenster **Locaties kiezen** op **Volgende**.
 
-16. Typ in het deelvenster **Uw beleid een naam geven** **Campagne** in bij **Naam** en klik vervolgens op **Volgende**.
+15. Typ in het deelvenster **Uw beleid een naam geven** **Campagne** in bij **Naam** en klik vervolgens op **Volgende**.
 
-17. Klik in het deelvenster **Uw instellingen controleren** op **Labels publiceren** en klik vervolgens op **Afsluiten**.
+16. Klik in het deelvenster **Uw instellingen controleren** op **Labels publiceren** en klik vervolgens op **Afsluiten**.
 
 ## <a name="phase-3-create-your-sharepoint-online-team-sites"></a>Fase 3: Uw SharePoint Online-teamsites maken
 
