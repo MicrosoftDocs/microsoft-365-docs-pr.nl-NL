@@ -530,6 +530,8 @@
 ####### [Computers zoeken op tag](find-machines-by-tag.md)
 ####### [Ontbrekende KB's ophalen](get-missing-kbs-machine.md)
 ####### [Apparaatwaarde instellen](set-device-value.md)
+####### [Computer bijwerken](update-machine-method.md)
+
 
 
 ###### [Computeractie]()
