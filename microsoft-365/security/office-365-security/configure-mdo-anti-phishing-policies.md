@@ -15,12 +15,12 @@ ms.collection:
 description: Beheerders kunnen leren hoe ze geavanceerde anti-phishingbeleidsregels kunnen maken, wijzigen en verwijderen die beschikbaar zijn in organisaties met Microsoft Defender voor Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: bbf90f52127e96e08f1c176a23d5f5ab1d6d86c4
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: dd69e00b0e8929752341bf3d2b0abde88921066b
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054549"
+ms.locfileid: "53061882"
 ---
 # <a name="configure-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Anti-phishingbeleid configureren in Microsoft Defender voor Office 365
 
@@ -230,7 +230,7 @@ Als u een aangepast anti-phishingbeleid maakt in de Microsoft 365 Defender-porta
        - **Het bericht in quarantaine plaatsen**
 
    - **Veiligheidstips & indicatoren**: De volgende instellingen configureren:
-     - **Eerste contactpersoon veiligheidstip weergeven:** Deze veiligheidstip vervangt de noodzaak om e-mailstroomregels (ook wel transportregels genoemd) te maken die de **koptekst X-MS-Exchange-EnableFirstContactSafetyTip** toevoegen door de waarde **Inschakelen** voor berichten.
+     - **Eerste contactpersoon veiligheidstip**: Zie Eerste [contactpersoon](set-up-anti-phishing-policies.md#first-contact-safety-tip)veiligheidstip.
      - **Gebruikers imiteren veiligheidstip:** deze instelling is alleen beschikbaar als u **Gebruikers inschakelen** op de vorige pagina hebt geselecteerd.
      - **Domein nabootsing veiligheidstip:** deze instelling is alleen beschikbaar als u **Domeinen inschakelen** op de vorige pagina hebt geselecteerd.
      - **Ongebruikelijke tekens voor gebruikers imiteren veiligheidstip** Deze instelling is alleen beschikbaar als u Gebruikers inschakelen voor **het beveiligen** of **inschakelen van** domeinen op de vorige pagina hebt geselecteerd.

@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 6c77762de4dbd70922eb5623f801837bf6454ec7
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 65edf54ea0bf5cb0a0210dd306db07c756149f65
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842360"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53062135"
 ---
 # <a name="microsoft-defender-for-endpoint-preview-features"></a>Microsoft Defender voor endpoint preview-functies
 
@@ -36,7 +36,7 @@ ms.locfileid: "52842360"
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 
 De Defender voor Eindpunt-service wordt voortdurend bijgewerkt met nieuwe functieverbeteringen en -mogelijkheden.
@@ -62,15 +62,9 @@ Schakel de preview-ervaringsinstelling in om een van de eersten te zijn om nieuw
 
 De volgende functies zijn opgenomen in de preview-release:
 
-- [Apparaatdetectie](device-discovery.md) <br> Helpt u bij het vinden van niet-beheerbare apparaten die zijn verbonden met uw bedrijfsnetwerk zonder dat u extra apparaten of lastige proceswijzigingen nodig hebt. Met onboarded-apparaten kunt u onaangemande apparaten in uw netwerk vinden en beveiligingslekken en risico's beoordelen. U kunt vervolgens ontdekte apparaten aan boord nemen om de risico's te beperken die verbonden zijn aan het hebben van niet-gebouwde eindpunten in uw netwerk.
-
-   > [!IMPORTANT]
-   > Standaarddetectie is de standaardmodus voor alle klanten vanaf 19 juli 2021. U kunt ervoor kiezen om de basismodus te behouden via de pagina Instellingen. 
-
-
 - [Filteren op webinhoud](web-content-filtering.md) <br> Filteren van webinhoud maakt deel uit van de mogelijkheden voor webbeveiliging in Microsoft Defender voor Eindpunt. Hiermee kan uw organisatie de toegang tot websites bijhouden en reguleren op basis van hun inhoudscategorieën. Veel van deze websites, hoewel niet schadelijk, kunnen problematisch zijn vanwege nalevingsregels, bandbreedtegebruik of andere problemen.
 
 - [Rapport apparaattoestand en naleving](machine-reports.md) <br/> Het rapport apparaattoestand en compliance bevat informatie op hoog niveau over de apparaten in uw organisatie.
 
 > [!TIP] 
-> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-preview-belowfoldlink)  
+> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-preview-belowfoldlink)  

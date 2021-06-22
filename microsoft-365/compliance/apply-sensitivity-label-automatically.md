@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Wanneer u een vertrouwelijkheidslabel maakt, kunt u automatisch een label toewijzen aan bestanden en e-mailberichten of gebruikers vragen om het label te selecteren dat u aanbeveelt.
-ms.openlocfilehash: 4215e6618c1cc6359755c2af1e7b9e93ca07b58d
-ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
+ms.openlocfilehash: 49f50b99d6c1b46394e26447bd33b6bf93e2917f
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52984806"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53029001"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Een vertrouwelijkheidslabel automatisch toepassen op inhoud
 
@@ -369,3 +369,17 @@ Zie de volgende help voor cmdlets voor meer informatie over de PowerShell-cmdlet
 - [Remove-AutoSensitivityLabelRule](/powershell/module/exchange/remove-autosensitivitylabelrule)
 - [Set-AutoSensitivityLabelPolicy](/powershell/module/exchange/set-autosensitivitylabelpolicy)
 - [Set-AutoSensitivityLabelRule](/powershell/module/exchange/set-autosensitivitylabelrule)
+
+## <a name="tips-to-increase-labeling-reach"></a>Tips om het labelbereik te vergroten
+
+Hoewel automatisch labelen een van de meest efficiënte manieren is om Office-bestanden waarvan uw organisatie eigenaar is te classificeren, labelen en beveiligen, controleer of u deze kunt aanvullen met een van de aanvullende methoden om uw labelbereik te vergroten:
+
+- Als u de geïntegreerde [Azure Information Protection-labelclient](/azure/information-protection/rms-client/aip-clientv2) gebruikt:
+    
+    - Voor bestanden in on-premises gegevensarchieven, zoals netwerkshares en SharePoint Server-bibliotheken: gebruik de [scanner](/azure/information-protection/deploy-aip-scanner) om gevoelige informatie in deze bestanden te ontdekken en deze op de juiste wijze te labelen. Als u van plan bent om deze bestanden te migreren of uploaden naar SharePoint in Microsoft 365, gebruikt u de scanner om de bestanden te labelen voordat u ze naar de cloud verplaatst.
+    
+    - Als u een andere labeloplossing hebt gebruikt voordat u vertrouwelijkheidslabels gebruikt: gebruik PowerShell en [een geavanceerde instelling om labels opnieuw te gebruiken](/azure/information-protection/rms-client/clientv2-admin-guide-customizations#migrate-labels-from-secure-islands-and-other-labeling-solutions) uit deze oplossingen.
+
+- Stimuleer [handmatig labelen](https://support.microsoft.com/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9) nadat u gebruikers hebt getraind welke vertrouwelijkheidslabels moeten worden toegepast. Wanneer u zeker weet dat gebruikers begrijpen welk label ze moeten toepassen, kunt u overwegen om een standaardlabel en verplicht labelen te configureren als [beleidsinstellingen](sensitivity-labels.md#what-label-policies-can-do). 
+
+U kunt ook [nieuwe bestanden standaard markeren als gevoelig](/sharepoint/sensitive-by-default) in SharePoint om te voorkomen dat gasten toegang krijgen tot nieuw toegevoegde bestanden totdat ten minste één DLP-beleidsregel de inhoud van het bestand scant.

@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e87a7423d6d69968bdf4224938e10799dcb89d1b
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: ceca8ac76f63ef7da34f4222312e9e03a3b0e23a
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844188"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53062249"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint"></a>Wat is er nieuw in Microsoft Defender voor Eindpunt
 
@@ -32,7 +32,7 @@ ms.locfileid: "52844188"
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink)
+> Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink)
 
 De volgende functies zijn over het algemeen beschikbaar (GA) in de meest recente versie van Microsoft Defender voor Eindpunt, evenals beveiligingsfuncties in Windows 10 en Windows Server.
 
@@ -45,6 +45,16 @@ Zie Voorbeeldfuncties voor meer informatie over [voorbeeldfuncties.](preview.md)
 > ```https
 > /api/search/rss?search=%22features+are+generally+available+%28GA%29+in+the+latest+release+of+Microsoft+Defender+for+Endpoint%22&locale=en-us&facet=
 > ```
+
+## <a name="june-2021"></a>Juni 2021
+
+- [Apparaatdetectie](device-discovery.md) <br> Helpt u bij het vinden van niet-beheerbare apparaten die zijn verbonden met uw bedrijfsnetwerk zonder dat u extra apparaten of lastige proceswijzigingen nodig hebt. Met onboarded-apparaten kunt u onaangemande apparaten in uw netwerk vinden en beveiligingslekken en risico's beoordelen. U kunt vervolgens ontdekte apparaten aan boord nemen om de risico's te beperken die verbonden zijn aan het hebben van niet-gebouwde eindpunten in uw netwerk.
+
+   > [!IMPORTANT]
+   > Standaarddetectie is de standaardmodus voor alle klanten vanaf 19 juli 2021. U kunt ervoor kiezen om de basismodus te behouden via de pagina Instellingen. 
+
+
+- [Definities van apparaatgroepen](/microsoft-365/security/defender-endpoint/machine-groups) kunnen nu meerdere waarden voor elke voorwaarde bevatten. U kunt meerdere tags, apparaatnamen en domeinen instellen op de definitie van één apparaatgroep.
 
 ## <a name="march-2021"></a>Maart 2021
 - [Beveiliging van tamper beheren met behulp van de Microsoft Defender-beveiligingscentrum](prevent-changes-to-security-settings-with-tamper-protection.md#manage-tamper-protection-for-your-organization-using-the-microsoft-defender-security-center) <br> U kunt de beveiligingsinstellingen voor Windows 10, Windows Server 2016 en Windows Server 2019 beheren met behulp van de methode *tenant attach*. 

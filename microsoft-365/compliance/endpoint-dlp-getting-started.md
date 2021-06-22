@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Stel Microsoft 365 Preventie van gegevensverlies voor eindpunten in om bestandsactiviteiten te controleren en beschermende maatregelen voor deze bestanden naar eindpunten te implementeren.
-ms.openlocfilehash: bf607890fcae34e95da15954349e7190bdbb19ac
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 134c5426e428372670a50c76301a9e9e0c10b343
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878098"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53061671"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention"></a>Aan de slag met Preventie van gegevensverlies voor eindpunten
 
@@ -77,9 +77,6 @@ Gegevens uit DLP voor eindpunten kunnen worden weergegeven in [Activiteitenverke
 - Beheerder voor naleving
 - Beveiligingsbeheerder
 - Gegevensbeheerder voor naleving
-- Algemene lezer
-- Beveiligingslezer
-- Rapportenlezer
 
 ### <a name="prepare-your-endpoints"></a>Uw eindpunten voorbereiden
 

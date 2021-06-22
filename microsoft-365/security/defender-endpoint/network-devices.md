@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: da15519211599bfc248c20c36cfab456c1661caa
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 86b8a37fd6b2d6f9906321b5d74de0e21c45fca3
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51862065"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53062148"
 ---
 # <a name="network-device-discovery-and-vulnerability-management"></a>Netwerkapparaatdetectie en -vulnerability management
 
@@ -35,12 +35,7 @@ ms.locfileid: "51862065"
 - [Bedreiging en vulnerability management](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> [!IMPORTANT]
-> **Het scannen en beheren van netwerkapparaten wordt momenteel in een openbaar voorbeeld weergegeven**<br>
-> Deze preview-versie wordt geleverd zonder serviceovereenkomst en wordt niet aanbevolen voor productiebelastingen. Bepaalde functies worden mogelijk niet ondersteund of hebben mogelijk beperkte mogelijkheden.
-> Zie De preview-functies [van Microsoft Defender voor Eindpunt voor meer informatie.](preview.md)
-
->Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
+>Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
 
 > [!NOTE]  
 > De [netwerkapparaatdetectie-](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/network-device-discovery-and-vulnerability-assessments/ba-p/2267548) en kwetsbaarheidsbeoordelingen Blog \( gepubliceerd op 04-13-2021 biedt inzicht in de nieuwe mogelijkheden voor netwerkapparaatdetectie \) in Defender voor  Eindpunt. In dit artikel vindt u een overzicht van de uitdaging waarop netwerkapparaatdetectie **is** ontworpen en gedetailleerde informatie over hoe u aan de slag gaat met deze nieuwe mogelijkheden.
@@ -209,7 +204,7 @@ Probeer een andere browser of kopieer de aanmeldingskoppeling en -code naar een 
 
 Wijzig de instellingen voor de opdrachtregel op uw apparaat om het kopiëren en wijzigen van de tekstgrootte toe te staan.
 
-## <a name="related-articles"></a>Aanverwante artikelen
+## <a name="related-articles"></a>Verwante artikelen
 
 - [Apparaatvoorraad](machines-view-overview.md)
 - [Geavanceerde functies configureren](advanced-features.md)

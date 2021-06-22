@@ -18,12 +18,12 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 hideEdit: true
 ms.technology: mde
-ms.openlocfilehash: d73ddb3a8defb7697a995c2593d6a240a59c9cfe
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 7a5aa5e049159761c46e2103f7b1ecdd1499f3cd
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934619"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53061638"
 ---
 # <a name="microsoft-defender-for-endpoint-on-android-application-license-terms"></a>Licentievoorwaarden voor Microsoft Defender voor Eindpunt voor Android-toepassingen
 
@@ -33,7 +33,7 @@ ms.locfileid: "51934619"
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 
 ## <a name="microsoft-application-license-terms-microsoft-defender-for-endpoint"></a>LICENTIEVOORWAARDEN VOOR MICROSOFT-TOEPASSINGEN: MICROSOFT DEFENDER VOOR EINDPUNT
@@ -56,7 +56,7 @@ voor deze toepassing, tenzij deze items vergezeld gaan van andere voorwaarden. A
 
 1.  **INSTALLATION AND USE RIGHTS.**
 
-    1.  **Installatie en gebruik.** U kunt een aantal exemplaren van deze toepassing installeren en gebruiken op android-apparaten of apparaten die u bezit of bestuurt. U kunt deze toepassing gebruiken met het geldige abonnement van uw bedrijf op Microsoft Defender voor Eindpunt of een onlineservice met Microsoft Defender voor eindpuntfunctionaliteiten.
+    1.  **Installatie en gebruik.** U kunt een aantal exemplaren van deze toepassing installeren en gebruiken op android-apparaten of apparaten die u bezit of bestuurt. 
 
     2.  **Updates.** Mogelijk zijn updates of upgrades voor Microsoft Defender voor Eindpunt vereist voor volledige functionaliteit. Sommige functionaliteit is mogelijk niet in alle landen beschikbaar.
 

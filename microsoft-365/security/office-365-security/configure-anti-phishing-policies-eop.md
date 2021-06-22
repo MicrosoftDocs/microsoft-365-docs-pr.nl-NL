@@ -15,12 +15,12 @@ ms.collection:
 description: Beheerders kunnen leren hoe ze het anti-phishingbeleid kunnen maken, wijzigen en verwijderen dat beschikbaar is in Exchange Online Protection (EOP) organisaties met of zonder Exchange Online postvakken.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8633644ab0380cf2adcf30c006a7d6d141a6040a
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: 1dcfba32a5c76915c8c905d55b69712162efac48
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054566"
+ms.locfileid: "53062230"
 ---
 # <a name="configure-anti-phishing-policies-in-eop"></a>Antiphishingbeleid configureren in EOP
 
@@ -126,11 +126,14 @@ Als u een aangepast anti-phishingbeleid maakt in de Microsoft 365 Defender-porta
      - **Bericht verplaatsen naar de mappen ongewenste e-mail van de geadresseerden**
      - **Het bericht in quarantaine plaatsen**
 
-   - **Veiligheidstips & indicatoren:** deze instelling is alleen beschikbaar als u **Spoof intelligence inschakelen** op de vorige pagina hebt geselecteerd:
-     - **Weergeven (?)** voor niet-nautische afzenders voor spoof: Hiermee wordt een vraagteken toegevoegd aan de foto van de afzender in het  vak Van in Outlook als het bericht niet door SPF- of DKIM-controles wordt gecontroleerd en het bericht niet door DMARC of samengestelde verificatie [komt.](email-validation-and-authentication.md#composite-authentication)
-     - **Tag 'via' tonen:** hiermee voegt u een via-tag (chris@contoso.com via fabrikam.com) toe aan het Van-adres als deze verschilt van het domein in de DKIM-handtekening of het **MAIL** FROM-adres.
+   - **Veiligheidstips & indicatoren:**
+     - **Eerste contactpersoon veiligheidstip**: Zie Eerste [contactpersoon](set-up-anti-phishing-policies.md#first-contact-safety-tip)veiligheidstip.
+     - **Weergeven (?)** voor niet-nautische afzenders voor spoof: Hiermee voegt u een vraagteken toe aan de foto van de afzender in het vak Van in Outlook als het bericht niet door <sup>\*</sup> SPF- of  DKIM-controles wordt gestuurd en het bericht niet door DMARC of samengestelde verificatie wordt gestuurd. [](email-validation-and-authentication.md#composite-authentication)
+     - **Tag 'via' tonen:** hiermee voegt u een via-tag (chris@contoso.com via fabrikam.com) toe aan het Van-adres als deze verschilt van het domein in de DKIM-handtekening of het <sup>\*</sup> **MAIL FROM-adres.**
 
      Schakel het selectievakje in om een instelling in te stellen. Schakel het selectievakje uit om het uit te schakelen.
+
+     <sup>\*</sup> Deze instelling is alleen beschikbaar als u **Spoof intelligence inschakelen** op de vorige pagina hebt geselecteerd. Zie [Niet-genauteerde afzender voor meer informatie.](set-up-anti-phishing-policies.md#unauthenticated-sender)
 
    Wanneer je klaar bent, klik je op **Volgende**.
 

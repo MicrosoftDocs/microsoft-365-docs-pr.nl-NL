@@ -15,12 +15,12 @@ ms.author: v-lsaldanha
 manager: dansimp
 ms.custom: asr
 ms.technology: mde
-ms.openlocfilehash: de65c134560ecca219de9174ff222d31dd578d31
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: fd7c6a217c1bc1ce3b278afb911988b94a6951e0
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933779"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53062155"
 ---
 # <a name="migrating-from-a-third-party-hips-to-asr-rules"></a>Migreren van hips van derden naar ASR-regels
 
@@ -148,6 +148,6 @@ In dit artikel kunt u algemene regels aan Microsoft Defender voor eindpunten toe
 
 Zie ook
 
-- [Veelgestelde vragen over het verminderen van kwetsbaarheid voor aanvallen](attack-surface-reduction-faq.md)
+- [Veelgestelde vragen over het verminderen van kwetsbaarheid voor aanvallen](attack-surface-reduction-faq.yml)
 - [Regels voor het verminderen van aanvalsoppervlakken inschakelen](enable-attack-surface-reduction.md)
 - [Regels voor het verminderen van kwetsbaarheid voor aanvallen evalueren](evaluate-attack-surface-reduction.md)

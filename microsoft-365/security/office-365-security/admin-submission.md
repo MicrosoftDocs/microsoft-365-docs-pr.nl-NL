@@ -19,12 +19,12 @@ ms.custom:
 description: Beheerders kunnen leren hoe ze de portal Inzendingen in de Microsoft 365 Defender-portal kunnen gebruiken om verdachte e-mailberichten, vermoedelijke phishingmails, spam en andere potentieel schadelijke berichten, URL's en e-mailbijlagen bij Microsoft in te dienen voor het opnieuw controleren.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b671ce5a44c7be61331a121b49e96658cf14bab1
-ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
+ms.openlocfilehash: ab25757c79b7978400e98fa36d48163e1681e7c1
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "52964799"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53061964"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>Beheerdersinzending gebruiken om verdachte spam, phish, URL's en bestanden naar Microsoft te verzenden
 
@@ -91,7 +91,8 @@ Zie Berichten en bestanden rapporteren bij Microsoft voor andere manieren om e-m
 
 5. Wanneer u klaar bent, klikt u op de **knop** Verzenden.
 
-   ![Voorbeeld van nieuwe URL-inzending](../../media/submission-flyout-email.PNG)
+> [!div class="mx-imgBorder"]
+> ![Voorbeeld van nieuwe URL-inzending](../../media/submission-flyout-email.png)
 
 ### <a name="send-a-suspect-url-to-microsoft"></a>Een verdachte URL naar Microsoft verzenden
 
@@ -105,7 +106,8 @@ Zie Berichten en bestanden rapporteren bij Microsoft voor andere manieren om e-m
 
 4. Wanneer u klaar bent, klikt u op de **knop** Verzenden.
 
-   ![Voorbeeld van nieuwe e-mailinzending](../../media/submission-url-flyout.png)
+> [!div class="mx-imgBorder"]
+> ![Voorbeeld van nieuwe e-mailinzending](../../media/submission-url-flyout.png)
 
 ### <a name="submit-a-suspected-email-attachment-to-microsoft"></a>Een verdachte e-mailbijlage indienen bij Microsoft
 
@@ -119,7 +121,8 @@ Zie Berichten en bestanden rapporteren bij Microsoft voor andere manieren om e-m
 
 4. Wanneer u klaar bent, klikt u op de **knop** Verzenden.
 
-   ![Voorbeeld van nieuwe bijlageinzending](../../media/submission-file-flyout.PNG)
+> [!div class="mx-imgBorder"]
+> ![Voorbeeld van nieuwe bijlageinzending](../../media/submission-file-flyout.png)
 
 ## <a name="view-admin-submissions-to-microsoft"></a>Beheerdersinzendingen weergeven bij Microsoft
 
@@ -157,7 +160,8 @@ Zie Berichten en bestanden rapporteren bij Microsoft voor andere manieren om e-m
 
      Wanneer u klaar bent, klikt u op **Toepassen.**
 
-     ![Nieuwe filteropties voor beheerdersinzendingen](../../media/admin-submission-email-filter-options.png)
+     > [!div class="mx-imgBorder"]
+     > ![Nieuwe filteropties voor beheerdersinzendingen](../../media/admin-submission-filters.png)
 
    - Als u de items wilt groepeert, klikt u **op Groep** en selecteert u een van de volgende waarden in de vervolgkeuzelijst:
      - **Geen**
@@ -170,7 +174,7 @@ Zie Berichten en bestanden rapporteren bij Microsoft voor andere manieren om e-m
 
 ### <a name="admin-submission-rescan-details"></a>Details van de inzending van beheerders opnieuw scannen
 
-Berichten die worden verzonden in beheerdersinzendingen, worden opnieuw gescand en de resultaten worden weergegeven in de flyout met inzendingendetails:
+Berichten die worden verzonden in beheerdersinzendingen, worden beoordeeld en de resultaten worden weergegeven in de flyout details van de inzendingen:
 
 - Of er tijdens de levering een fout zat in de e-mailverificatie van de afzender.
 - Informatie over eventuele beleidstreffers die het oordeel over een bericht kunnen hebben beïnvloed of overschreven.
@@ -214,7 +218,8 @@ Als u de invoegvoeging Rapportbericht , de [invoeging](enable-the-report-message
 
      Wanneer u klaar bent, klikt u op **Toepassen.**
 
-    ![Nieuwe filteropties voor gebruikersinzendingen](../../media/user-submissions-filter-options.png)
+     > [!div class="mx-imgBorder"]
+     > ![Nieuwe filteropties voor gebruikersinzendingen](../../media/admin-submission-reported-messages.png)
 
    - Als u de items wilt groepeert, klikt u **op Groep** en selecteert u een van de volgende waarden in de vervolgkeuzelijst:
      - **Geen**
@@ -245,4 +250,5 @@ Selecteer op **het tabblad Gerapporteerde** berichten van gebruiker een bericht 
 - **Spam rapporteren**
 - **Onderzoek starten**
 
-![Nieuwe opties op de knop Actie](../../media/user-submission-custom-mailbox-action-button.png)
+> [!div class="mx-imgBorder"]
+> ![Nieuwe opties op de knop Actie](../../media/admin-submission-main-action-button.png)

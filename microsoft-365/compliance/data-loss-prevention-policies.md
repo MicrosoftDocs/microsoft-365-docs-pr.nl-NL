@@ -22,12 +22,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: referentiemateriaal voor preventie van gegevensverlies
-ms.openlocfilehash: a6dc0b2702899e05f78c54331fb33b87495672d8
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 5c01b6419a9af100cfaedccbd5a9c4923ca3e42f
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572559"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53061792"
 ---
 # <a name="data-loss-prevention-reference"></a>Verwijzing naar preventie van gegevensverlies
  
@@ -110,9 +110,6 @@ Als u ervoor kiest om specifieke distributiegroepen op te nemen in Exchange, is 
 Als u ervoor kiest om specifieke sites op te nemen SharePoint uit te sluiten, kan een DLP-beleid niet meer dan 100 dergelijke insluitingen en uitsluitingen bevatten. Hoewel deze limiet bestaat, kunt u deze limiet overschrijden door een beleid voor de hele organisatie toe te passen of een beleid dat van toepassing is op hele locaties.
 
 Als u ervoor kiest om specifieke OneDrive accounts of groepen op te nemen of uit te sluiten, kan een DLP-beleid niet meer dan 100 gebruikersaccounts of 50 groepen bevatten als opname of uitsluiting.
-
-> [!NOTE]
-> OneDrive voor bedrijfsbeleidsscopie met behulp van accounts of groepen wordt weergegeven in een openbaar voorbeeld. In deze fase kunt u gebruikersaccounts en groepen opnemen of uitsluiten als onderdeel van een DLP-beleid. Inclusie en uitsluiting als onderdeel van hetzelfde beleid worden niet ondersteund.
   
 ### <a name="rules"></a>Regels
 
@@ -196,7 +193,7 @@ De e-mail kan de persoon op de hoogte stellen die de inhoud heeft verzonden, ged
   
 Naast het verzenden van een e-mailmelding, wordt in een gebruikersmelding ook een beleidstip weergegeven:
   
-- In Outlook en Outlook op het web.
+- In Outlook en webversie van Outlook.
     
 - Voor het document op een SharePoint Online of OneDrive voor Bedrijven site.
     
@@ -490,7 +487,7 @@ DLP detecteert gevoelige informatie met behulp van diepe inhoudsanalyse (niet al
 
 Nadat u een DLP-beleid hebt in het Beveiligings compliancecentrum, wordt het opgeslagen in een centrale beleidsopslag en vervolgens gesynchroniseerd met de verschillende &amp; inhoudsbronnen, waaronder:
   
-- Exchange Online, en van daar naar Outlook op het web en Outlook.
+- Exchange Online en van daar naar webversie van Outlook en Outlook.
     
 - OneDrive voor Bedrijven sites.
     
@@ -524,9 +521,9 @@ DLP evalueert alle inhoud die kan worden geïndexeerd. Zie Standaard verkende [b
 > [!NOTE]
 > Als u wilt voorkomen dat documenten worden gedeeld voordat DLP-beleid de mogelijkheid had om ze te analyseren, kan het delen van nieuwe bestanden in SharePoint worden geblokkeerd totdat de inhoud is geïndexeerd. Zie Nieuwe [bestanden standaard markeren als gevoelig voor](/sharepoint/sensitive-by-default) gedetailleerde informatie. 
   
-### <a name="policy-evaluation-in-exchange-online-outlook-and-outlook-on-the-web"></a>Beleidsevaluatie in Exchange Online, Outlook en Outlook op internet
+### <a name="policy-evaluation-in-exchange-online-outlook-and-outlook-on-the-web"></a>Beleidsevaluatie in Exchange Online, Outlook en webversie van Outlook
 
-Wanneer u een DLP-beleid maakt dat Exchange Online als locatie bevat, wordt het beleid gesynchroniseerd van het Office 365 Security Compliance Center naar Exchange Online en vervolgens van Exchange Online naar Outlook op het web en &amp; Outlook.
+Wanneer u een DLP-beleid maakt dat Exchange Online als locatie bevat, wordt het beleid gesynchroniseerd van het Office 365 Security Compliance Center naar Exchange Online en vervolgens van Exchange Online naar webversie van Outlook en &amp; Outlook.
   
 Wanneer een bericht wordt samengesteld in Outlook, kan de gebruiker beleidstips zien terwijl de inhoud die wordt gemaakt, wordt geëvalueerd op basis van DLP-beleid. Nadat een bericht is verzonden, wordt dit geëvalueerd op basis van DLP-beleid als een normaal onderdeel van de e-mailstroom, samen met Exchange regels voor e-mailstroom (ook wel transportregels genoemd) en DLP-beleid dat is gemaakt in het Exchange-beheercentrum. DLP-beleid scant zowel het bericht als eventuele bijlagen.
   
@@ -544,7 +541,7 @@ Wanneer u een DLP-beleid maakt dat Microsoft Teams als locatie bevat, wordt het 
  
 ## <a name="permissions"></a>Machtigingen
 
-Leden van uw complianceteam die DLP-beleidsregels maken, hebben machtigingen nodig voor het Beveiligings &amp; compliancecentrum. Uw tenantbeheerder heeft standaard toegang tot deze locatie en kan compliancemedewerkers en andere personen toegang geven tot het Beveiligings compliancecentrum, zonder dat ze alle machtigingen van een &amp; tenantbeheerder hebben. U wordt aangeraden het volgende te doen:
+Globale beheerders, beveiligingsbeheerders en compliancebeheerders hebben standaard toegang tot het maken en toepassen van een DLP-beleid. Andere leden van uw complianceteam die DLP-beleidsregels maken, hebben machtigingen nodig voor het Beveiligings &amp; compliancecentrum. Uw tenantbeheerder heeft standaard toegang tot deze locatie en kan compliancemedewerkers en andere personen toegang geven tot het Beveiligings compliancecentrum, zonder dat ze alle machtigingen van een &amp; tenantbeheerder hebben. U wordt aangeraden het volgende te doen:
   
 1. Maak een groep in Microsoft 365 en voeg compliance officers toe aan deze groep.
     

@@ -1,6 +1,6 @@
 ---
 title: Overzicht van apparaatdetectie
-description: Meer informatie over het gebruik van eindpunten ontdekken in Microsoft 365 Defender om niet-bemande apparaten in uw netwerk te vinden
+description: Meer informatie over het gebruik van eindpuntdetectie in Microsoft 365 Defender om niet-bemande apparaten in uw netwerk te vinden
 keywords: apparaatdetectie, ontdekken, passief, proactief, netwerk, zichtbaarheid, server, werkstation, onboard, onbeheerde apparaten
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: ed4e0c477bd2a8840e920b337f05c8730965bcff
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 16baaa6fd9865140d42c0ca3a566427f761a28c2
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636240"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53062212"
 ---
 # <a name="device-discovery-overview"></a>Overzicht van apparaatdetectie
 
@@ -35,7 +35,6 @@ ms.locfileid: "52636240"
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2146631)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-[!include[Prerelease information](../../includes/prerelease.md)]
 
 Als u uw omgeving beschermt, moet u de apparaten in uw netwerk inventariseren. Het toewijzen van apparaten in een netwerk kan echter vaak duur, uitdagend en tijdrovend zijn. 
 

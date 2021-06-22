@@ -21,12 +21,12 @@ ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 53e60578f575e94dfb51c1c5f44a3d7ffb91110b
-ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
+ms.openlocfilehash: 0eaf34e6950e265514b14ff1fd0aa1c7bb9ab6b1
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52932816"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53062206"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Nieuwe functies in Microsoft Defender voor Office 365
 
@@ -42,6 +42,14 @@ Meer informatie vindt u in [deze video](https://www.youtube.com/watch?v=Tdz6Kfru
 > [!TIP]
 > Hebt u nog geen Microsoft Defender voor Office 365? [Neem contact op met verkoop om een proefabonnement te starten.](https://info.microsoft.com/ww-landing-M365SMB-web-contact.html)
 
+## <a name="june-2021"></a>Juni 2021
+
+- Nieuwe eerste contactpersoon veiligheidstip in anti-phishingbeleid. Deze veiligheidstip wordt weergegeven wanneer geadresseerden voor het eerst een e-mail van een afzender ontvangen of niet vaak e-mail van een afzender ontvangen. Zie de volgende artikelen voor meer informatie over deze instelling en hoe u deze kunt configureren:
+
+- [Eerste contact veiligheidstip](set-up-anti-phishing-policies.md#first-contact-safety-tip)
+- [Antiphishingbeleid configureren in EOP](configure-anti-phishing-policies-eop.md)
+- [Anti-phishingbeleid configureren in Microsoft Defender voor Office 365](configure-mdo-anti-phishing-policies.md)
+
 ## <a name="aprilmay-2021"></a>April/mei 2021
 
 - [Pagina](mdo-email-entity-page.md)e-mailentiteit: een geïntegreerde weergave van 360 graden van een e-mail met uitgebreide informatie over bedreigingen, verificatie en detecties, detonatiedetails en een gloednieuwe e-mailvoorbeeldervaring.
@@ -54,6 +62,7 @@ Meer informatie vindt u in [deze video](https://www.youtube.com/watch?v=Tdz6Kfru
 - Het verhogen van de limieten voor het exporteren van records van 9990 naar 200.000 in [de jachtervaringen](threat-explorer.md)
 - De bewaar- en zoeklimiet voor proeften tenants van Explorer (en realtimedetecties) uitbreiden van 7 (vorige limiet) naar 30 dagen in [de jachtervaringen](threat-explorer.md)
 - Nieuwe huntingpivots met de naam **Impersonated domain** and **Impersonated user** within the Explorer (and Real-time detections) to search for impersonation attacks against protected users or domains. Zie details voor [meer informatie.](threat-explorer.md#view-phishing-emails-sent-to-impersonated-users-and-domains) (Microsoft Defender voor Office 365 Plan 1 of Plan 2)
+- Nieuwe eerste contactpersoon veiligheidstip voor wanneer geadresseerden voor het eerst een e-mail van een afzender ontvangen of niet vaak e-mail van een afzender ontvangen. Zie First contact veiligheidstip voor meer informatie over deze instelling en hoe u deze configureert met Exchange e-mailstroomregels (ook wel transportregels [genoemd).](set-up-anti-phishing-policies.md#first-contact-safety-tip)
 
 ## <a name="december-2020"></a>December 2020
 

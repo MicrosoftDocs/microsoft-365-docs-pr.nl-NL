@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: ec3587e4-7b4a-40fb-8fb8-8aa05aeae2ce
 ms.custom: seo-marvel-apr2020
 description: Lees hoe u een archiverings- en verwijderingsbeleid maakt in Microsoft 365 items automatisch naar het archiefpostvak van een gebruiker verplaatst.
-ms.openlocfilehash: ae48335203968b25a00fda61bfe65ffde85649ad
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 16a9191268cb83b5377e8f55d3d4d20522c223cb
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "52161975"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53062165"
 ---
 # <a name="set-up-an-archive-and-deletion-policy-for-mailboxes-in-your-organization"></a>Een archief en een verwijderingsbeleid instellen voor postvakken in uw organisatie
 
@@ -158,7 +158,7 @@ De laatste bewaartag die u maakt, is een aangepaste bewaarbeleidstag (RPT) voor 
 
 2. Vul op de pagina Nieuwe tag die automatisch is **toegepast op een standaardmappagina** de volgende velden in:
 
-    ![Instellingen een nieuwe tag voor bewaarbeleid maken voor de map Verwijderde items](../media/6f3104bd-5edb-48ac-884d-5fe13d81dd1d.png)
+    ![Instellingen voor het maken van een nieuwe tag voor het bewaarbeleid voor de map Verwijderde items](../media/6f3104bd-5edb-48ac-884d-5fe13d81dd1d.png)
   
    1. **Naam** Typ een naam voor de nieuwe bewaartag. 
 
@@ -231,7 +231,7 @@ Wanneer een nieuw postvak wordt gemaakt, wordt er standaard een bewaarbeleid met
 
 ## <a name="optional-step-5-run-the-managed-folder-assistant-to-apply-the-new-settings"></a>(Optioneel) Stap 5: De assistent voor beheerde mappen uitvoeren om de nieuwe instellingen toe te passen
 
-Nadat u het nieuwe bewaarbeleid hebt toegepast op postvakken in stap 4, kan het tot 7 dagen in Exchange Online duren voordat de nieuwe bewaarinstellingen worden toegepast op de postvakken. Dit komt omdat postvakken in een proces met de naam Beheerde mapassistent ten minste eenmaal per 7 dagen worden verwerkt.  In plaats van te wachten totdat de beheerde mapassistent wordt uitgevoerd, kunt u dit forceeren door de **cmdlet Start-ManagedFolderAssistant** uit te voeren in Exchange Online PowerShell.
+Nadat u het nieuwe bewaarbeleid hebt toegepast op postvakken in stap 4, kan het in Exchange Online tot 7 dagen duren voordat de nieuwe bewaarinstellingen worden toegepast op de postvakken. Dit komt omdat postvakken in een proces met de naam Beheerde mapassistent ten minste eenmaal per 7 dagen worden verwerkt.  In plaats van te wachten totdat de beheerde mapassistent wordt uitgevoerd, kunt u dit dwingen door de **cmdlet Start-ManagedFolderAssistant** uit te voeren in Exchange Online PowerShell.
 
  **Wat gebeurt er wanneer u de assistent beheerde map uitwerkt?** Hiermee worden de instellingen in het bewaarbeleid toegepast door items in het postvak te controleren en te bepalen of ze worden behouden. Vervolgens worden items die moeten worden opgeslagen, gestempeld met de juiste bewaarlabel en worden de opgegeven bewaaractie voor items die ouder zijn dan hun bewaarleeftijd.
   
@@ -256,7 +256,7 @@ Dat is alles. U hebt een archief- en verwijderingsbeleid ingesteld voor de organ
   
 ## <a name="optional-step-6-make-the-new-retention-policy-the-default-for-your-organization"></a>(Optioneel) Stap 6: Maak het nieuwe bewaarbeleid de standaardinstelling voor uw organisatie
 
-In stap 4 moet u het nieuwe bewaarbeleid toewijzen aan bestaande postvakken. U kunt de Exchange Online zo configureren dat het nieuwe bewaarbeleid wordt toegewezen aan nieuwe postvakken die in de toekomst worden gemaakt. U doet dit met behulp Exchange Online PowerShell om het standaardpostvakplan van uw organisatie bij te werken. Een *postvakplan* is een sjabloon die automatisch eigenschappen configureert voor nieuwe postvakken.  In deze optionele stap kunt u het huidige bewaarbeleid dat is toegewezen aan het postvakplan (standaard het standaard MRM-beleid) vervangen door het bewaarbeleid dat u in stap 3 hebt gemaakt. Nadat u het postvakplan hebt bijgewerkt, wordt het nieuwe bewaarbeleid toegewezen aan nieuwe postvakken.
+In stap 4 moet u het nieuwe bewaarbeleid toewijzen aan bestaande postvakken. Maar u kunt Exchange Online zo configureren dat het nieuwe bewaarbeleid wordt toegewezen aan nieuwe postvakken die in de toekomst worden gemaakt. U doet dit door Exchange Online PowerShell te gebruiken om het standaardpostvakplan van uw organisatie bij te werken. Een *postvakplan* is een sjabloon die automatisch eigenschappen configureert voor nieuwe postvakken.  In deze optionele stap kunt u het huidige bewaarbeleid dat is toegewezen aan het postvakplan (standaard het standaard MRM-beleid) vervangen door het bewaarbeleid dat u in stap 3 hebt gemaakt. Nadat u het postvakplan hebt bijgewerkt, wordt het nieuwe bewaarbeleid toegewezen aan nieuwe postvakken.
 
 1. [Verbinding maken met Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
@@ -294,6 +294,6 @@ In stap 4 moet u het nieuwe bewaarbeleid toewijzen aan bestaande postvakken. U k
     |Nooit verwijderen  <br/> |Met deze tag wordt voorkomen dat items worden verwijderd door een bewaarbeleid.  <br/> |Ingebouwd  <br/> |Persoonlijk; deze tag kan worden toegepast door gebruikers.  <br/> |
     |Persoonlijke overgang van 1 jaar naar archief  <br/> |Items worden na 1 jaar verplaatst naar het archiefpostvak.  <br/> |Ingebouwd  <br/> |Persoonlijk; deze tag kan worden toegepast door gebruikers.  <br/> |
 
-    > <sup>\*</sup>Gebruikers kunnen het hulpprogramma Verwijderde items herstellen in Outlook en Outlook op het web (voorheen bekend als Outlook Web App) gebruiken om een verwijderd item te herstellen binnen de bewaarperiode voor verwijderde items, die standaard 14 dagen in Exchange Online. Een beheerder kan een Windows PowerShell om de bewaarperiode voor verwijderde items te verhogen tot maximaal 30 dagen. Zie voor meer informatie: [Verwijderde items herstellen in](https://support.office.com/article/49e81f3c-c8f4-4426-a0b9-c0fd751d48ce) Outlook voor Windows en De bewaarperiode voor verwijderde items wijzigen voor een [postvak in Exchange Online](https://www.microsoft.com/?ref=go)
+    > <sup>\*</sup>Gebruikers kunnen het hulpprogramma Verwijderde items herstellen in Outlook en webversie van Outlook (voorheen bekend als Outlook Web App) gebruiken om een verwijderd item te herstellen binnen de bewaarperiode voor verwijderde items, die standaard 14 dagen in Exchange Online. Een beheerder kan een Windows PowerShell om de bewaarperiode voor verwijderde items te verhogen tot maximaal 30 dagen. Zie voor meer informatie: [Verwijderde items herstellen in](https://support.office.com/article/49e81f3c-c8f4-4426-a0b9-c0fd751d48ce) Outlook voor Windows en De bewaarperiode voor verwijderde items wijzigen voor een [postvak in Exchange Online](/exchange/recipients-in-exchange-online/manage-user-mailboxes/change-deleted-item-retention)
   
 - Als u **de bewaartag Herstelbare items 14** dagen gebruikt, kunt u opslagruimte vrijmaken in de map Herstelbare items in het primaire postvak van de gebruiker. Dit is handig wanneer het postvak van een gebruiker in de wacht wordt geplaatst, wat betekent dat het postvak van de gebruiker nooit definitief wordt verwijderd. Zonder items naar het archiefpostvak te verplaatsen, is het mogelijk dat het opslagquotum voor de map Herstelbare items in het primaire postvak wordt bereikt. Zie Het quotum Herstelbare items voor postvakken in de wacht zetten voor meer informatie over dit en hoe u dit [kunt voorkomen.](./increase-the-recoverable-quota-for-mailboxes-on-hold.md)

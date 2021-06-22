@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e26bb85fc74b6be49a9f8116792a7f28e8fa7e05
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: b6c2c9fe82486030814e89a0ff655d8f631064e4
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842264"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53062284"
 ---
 # <a name="set-up-the-microsoft-defender-for-endpoint-on-macos-policies-in-jamf-pro"></a>Het Microsoft Defender voor Eindpunt instellen voor macOS-beleid in Jamf Pro
 
@@ -90,7 +90,7 @@ U moet de volgende stappen ondernemen:
 3. Voer de volgende details in:
 
    **Algemeen**
-   - Naam: MDATP onboarding voor macOS
+   - Naam: MDATP-onboarding voor macOS
    - Beschrijving: MDATP EDR onboarding voor macOS
    - Categorie: Geen
    - Distributiemethode: Automatisch installeren
@@ -106,32 +106,31 @@ U moet de volgende stappen ondernemen:
 
     ![Afbeelding van bestandsbestandsbestand uploaden Lijstbestand](images/jamfpro-plist-file.png)
 
-7. Selecteer **Openen** en selecteer het onboarding-bestand.
+6. Selecteer **Openen** en selecteer het onboarding-bestand.
 
     ![Afbeelding van onboarding-bestand](images/jamfpro-plist-file-onboard.png)
 
-8. Selecteer **Upload**. 
+7. Selecteer **Upload**. 
 
     ![Afbeelding van het uploaden van een plistbestand](images/jamfpro-upload-plist.png)
 
-
-9. Selecteer het **tabblad Bereik.**
+8. Selecteer het **tabblad Bereik.**
 
     ![Afbeelding van het tabblad Bereik](images/jamfpro-scope-tab.png)
 
-10. Selecteer de doelcomputers.
+9. Selecteer de doelcomputers.
 
     ![Afbeelding van doelcomputers](images/jamfpro-target-computer.png)
 
     ![Afbeelding van doelen](images/jamfpro-targets.png) 
 
-11. Klik op **Opslaan**.
+10. Kies **Opslaan**.
 
     ![Afbeelding van implementatiedoelcomputers](images/jamfpro-deployment-target.png)
 
     ![Afbeelding van geselecteerde doelcomputers](images/jamfpro-target-selected.png)
 
-12. Selecteer **Gereed**.
+11. Selecteer **Gereed**.
 
     ![Afbeelding van doelgroepcomputers](images/jamfpro-target-group.png)
 
@@ -139,11 +138,72 @@ U moet de volgende stappen ondernemen:
 
 ## <a name="step-3-configure-microsoft-defender-for-endpoint-settings"></a>Stap 3: Microsoft Defender configureren voor eindpuntinstellingen
 
-1.  Gebruik de volgende configuratie-instellingen voor Microsoft Defender voor Eindpunt:
+U kunt JAMF Pro GUI gebruiken om afzonderlijke instellingen van de Microsoft Defender-configuratie te bewerken of de oudere methode gebruiken door een configuratie Plist te maken in een teksteditor en deze te uploaden naar JAMF-Pro.
+
+Houd er rekening mee dat u exact `com.microsoft.wdav` moet gebruiken als het **voorkeursdomein**, Microsoft Defender gebruikt alleen deze naam en om `com.microsoft.wdav.ext` de beheerde instellingen te laden!
+
+(De versie kan in zeldzame gevallen worden gebruikt wanneer u liever gui-methode gebruikt, maar ook een instelling moet configureren die nog niet aan het `com.microsoft.wdav.ext` schema is toegevoegd.)
+
+### <a name="gui-method"></a>GUI-methode
+
+1. Download schema.jsbestand uit [de opslagplaats](https://github.com/microsoft/mdatp-xplat/tree/master/macos/schema) van Defender GitHub opslaan in een lokaal bestand:
+
+    ```bash
+    curl -o ~/Documents/schema.json https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/schema/schema.json
+    ```
+
+2. Maak een nieuw configuratieprofiel onder Computers -> Configuratieprofielen en voer de volgende details in op het **tabblad** Algemeen:
+
+    ![Nieuw profiel](images/644e0f3af40c29e80ca1443535b2fe32.png)
+
+    - Naam: MDATP MDAV-configuratie-instellingen
+    - Beschrijving:\<blank\>
+    - Categorie: Geen (standaard)
+    - Niveau: Computerniveau (standaard)
+    - Distributiemethode: Automatisch installeren (standaard)
+
+3. Schuif omlaag naar het **tabblad & Aangepaste Instellingen,** selecteer Externe  **toepassingen,** klik op Toevoegen en gebruik Aangepast **schema** als bron om te gebruiken voor het voorkeursdomein.
+
+    ![Aangepast schema toevoegen](images/4137189bc3204bb09eed3aabc41afd78.png)
+
+4. Voer `com.microsoft.wdav` het voorkeursdomein in,  klik op **Schema** toevoegen en Upload de schema.jsbestand dat is gedownload in stap 1. Klik op **Opslaan**.
+
+    ![Upload schema](images/a6f9f556037c42fabcfdcb1b697244cf.png)
+
+5. U kunt alle ondersteunde configuratie-instellingen van Microsoft Defender hieronder zien onder **Voorkeursdomeineigenschappen.** Klik **op Eigenschappen toevoegen/verwijderen** om de instellingen te selecteren die u wilt beheren en klik op **Ok** om uw wijzigingen op te slaan. (Instellingen niet-geselecteerd links niet wordt opgenomen in de beheerde configuratie, kan een eindgebruiker deze instellingen configureren op hun machines.)
+
+    ![Beheerde instellingen selecteren](images/817b3b760d11467abe9bdd519513f54f.png)
+
+6. Waarden van de instellingen wijzigen in gewenste waarden. U kunt op **Meer informatie klikken** om documentatie voor een bepaalde instelling op te halen. (U kunt op **Plist-voorbeeld klikken** om te controleren hoe de configuratie-plist eruit zal zien. Klik **op Formuliereditor** om terug te keren naar de visuele editor.)
+
+    ![Instellingenwaarden wijzigen](images/a14a79efd5c041bb8974cb5b12b3a9b6.png)
+
+7. Selecteer het **tabblad Bereik.**
+
+    ![Configuratieprofielbereik](images/9fc17529e5577eefd773c658ec576a7d.png)
+
+8. Selecteer **De machinegroep van Contoso.**
+
+9. Selecteer **Toevoegen** en selecteer **opslaan.**
+
+    ![Configuratie-instellingen - toevoegen](images/cf30438b5512ac89af1d11cbf35219a6.png)
+
+    ![Configuratie-instellingen - opslaan](images/6f093e42856753a3955cab7ee14f12d9.png)
+
+10. Selecteer **Gereed**. U ziet het nieuwe **configuratieprofiel.**
+
+    ![Configuratie-instellingen - klaar](images/dd55405106da0dfc2f50f8d4525b01c8.png)
+
+Microsoft Defender voegt na een tijd nieuwe instellingen toe. Deze nieuwe instellingen worden toegevoegd aan het schema en er wordt een nieuwe versie gepubliceerd naar Github.
+U hoeft alleen maar updates te hebben door een bijgewerkt schema te downloaden, een bestaand configuratieprofiel te bewerken en **schema** bewerken op het tabblad & **Aangepaste Instellingen** bewerken.
+
+### <a name="legacy-method"></a>Oudere methode
+
+1. Gebruik de volgende configuratie-instellingen voor Microsoft Defender voor Eindpunt:
 
     - enableRealTimeProtection
     - passiveMode
-    
+
     >[!NOTE]
     >Als u van plan bent een AV van derden voor macOS uit te voeren, is deze standaard niet `true` ingeschakeld.
 
@@ -153,10 +213,10 @@ U moet de volgende stappen ondernemen:
     - uitgeslotenFileName
     - uitsluitingenMergePolicy
     - toegestaanThreats
-    
+
     >[!NOTE]
     >EICAR is opgenomen in het voorbeeld, als u een proof-of-concept doormaakt, verwijdert u deze vooral als u EICAR test.
-        
+
     - disallowedThreatActions
     - potentially_unwanted_application
     - archive_bomb
@@ -164,7 +224,7 @@ U moet de volgende stappen ondernemen:
     - automaticSampleSubmission
     - tags
     - StatusMenuIcon verbergen
-    
+
      Zie Eigenschappenlijst voor [configuratieprofiel Van Jamf voor meer informatie.](mac-preferences.md#property-list-for-jamf-configuration-profile)
 
      ```XML
@@ -270,10 +330,9 @@ U moet de volgende stappen ondernemen:
 
 2. Sla het bestand op als `MDATP_MDAV_configuration_settings.plist` .
 
+3. Open in het dashboard Pro Jamf computers **en** daar **configuratieprofielen.** Klik op **Nieuw(* en ga naar het **tabblad** Algemeen.
 
-3.  Selecteer algemeen in Pro **Jamf-dashboard.**
-
-    ![Afbeelding van het nieuwe Jamf-Pro dashboard](images/644e0f3af40c29e80ca1443535b2fe32.png)
+    ![Nieuw profiel](images/644e0f3af40c29e80ca1443535b2fe32.png)
 
 4. Voer de volgende details in:
 
@@ -318,7 +377,7 @@ U moet de volgende stappen ondernemen:
     >![Afbeelding van configuratie-instellingen intune-bestand uploaden](images/8e69f867664668796a3b2904896f0436.png)
 
 
-11. Klik op **Opslaan**. 
+11. Kies **Opslaan**. 
 
     ![Afbeelding van configuratie-instellingen Afbeelding opslaan](images/1b6b5a4edcb42d97f1e70a6a0fa48e3a.png)
 
@@ -343,7 +402,6 @@ U moet de volgende stappen ondernemen:
 16. Selecteer **Gereed**. U ziet het nieuwe **configuratieprofiel.**
 
     ![Afbeelding van configuratie-instellingen config profielafbeelding](images/dd55405106da0dfc2f50f8d4525b01c8.png)
-
 
 ## <a name="step-4-configure-notifications-settings"></a>Stap 4: Instellingen voor meldingen configureren
 
@@ -460,7 +518,7 @@ Deze stappen zijn van toepassing op macOS 10.15 (Catalina) of hoger.
 
     ![Afbeelding van configuratie-uplimg](images/4ec20e72c8aed9a4c16912e01692436a.png)
 
-11. Klik op **Opslaan**.
+11. Kies **Opslaan**.
 
     ![Afbeelding van configuratie-instelling saveimg](images/253274b33e74f3f5b8d475cf8692ce4e.png)
 
@@ -561,7 +619,7 @@ Deze stappen zijn van toepassing op macOS 10.15 (Catalina) of hoger.
 
 15. Kies **Toevoegen**. 
 
-16. Klik op **Opslaan**. 
+16. Kies **Opslaan**. 
     
 17. Selecteer **Gereed**.
     
@@ -616,7 +674,7 @@ U kunt ook [fulldisk.mobileconfig](https://github.com/microsoft/mdatp-xplat/blob
 
     ![Afbeelding van configuratie-instellingen om afbeeldingen toe te voegen](images/0dde8a4c41110dbc398c485433a81359.png)
 
-9. Klik op **Opslaan**.
+9. Kies **Opslaan**.
 
     ![Afbeelding van configuratie-instellingen saveimag](images/0add8019b85a453b47fa5c402c72761b.png)
 
@@ -636,8 +694,8 @@ U kunt ook [kext.mobileconfig](https://github.com/microsoft/mdatp-xplat/blob/mas
 
     **Algemeen**
     
-    - Naam: MDATP MDAV-systeemextensies
-    - Beschrijving: MDATP systeemextensies
+    - Naam: MDATP MDAV System Extensions
+    - Beschrijving: MDATP-systeemextensies
     - Categorie: Geen
     - Distributiemethode: Automatisch installeren
     - Niveau: Computerniveau
@@ -671,7 +729,7 @@ U kunt ook [kext.mobileconfig](https://github.com/microsoft/mdatp-xplat/blob/mas
 
    ![Afbeelding van addima configuratie-instellingen](images/0dde8a4c41110dbc398c485433a81359.png)
 
-9. Klik op **Opslaan**.
+9. Kies **Opslaan**.
 
    ![Afbeelding van sysext-bereik configuratie-instellingen](images/sysext-scope.png)
 
@@ -690,14 +748,14 @@ Deze stappen zijn van toepassing op macOS 10.15 (Catalina) of hoger.
 2. Klik **op Nieuw** en voer de volgende details in voor **Opties:**
 
     - Tabblad **Algemeen**: 
-        - **Naam**: Microsoft Defender ATP Netwerkextensie
+        - **Naam**: Microsoft Defender ATP Network Extension
         - **Beschrijving**: macOS 10.15 (Catalina) of hoger
         - **Categorie:** Geen *(standaard)*
         - **Distributiemethode:** Automatisch installeren *(standaard)*
         - **Niveau:** Computerniveau *(standaard)*
 
     - **Tab-inhoudsfilter:**
-        - **Filternaam**: Microsoft Defender ATP inhoudsfilter
+        - **Filternaam:** Microsoft Defender ATP-inhoudsfilter
         - **Id**: `com.microsoft.wdav`
         - Serviceadres , **Organisatie**, **Gebruikersnaam**, **Wachtwoord**, **Certificaat** leeg laten (**Opnemen** is *niet* geselecteerd) 
         - **Filterorder**: Inspector
@@ -721,7 +779,7 @@ Deze stappen zijn van toepassing op macOS 10.15 (Catalina) of hoger.
 
     ![Afbeelding van configuratie-instellingen adim](images/0dde8a4c41110dbc398c485433a81359.png)
 
-7. Klik op **Opslaan**.
+7. Kies **Opslaan**.
 
     ![Afbeelding van configuratie-instellingen savimg netextscop](images/netext-scope.png)
 
@@ -770,7 +828,7 @@ Volg de instructies over [Scans plannen met Microsoft Defender voor Eindpunt op 
     
     ![Schermafbeelding van een computerscherm Beschrijving automatisch gegenereerd](images/1aa5aaa0a387f4e16ce55b66facc77d1.png)
 
-7. Selecteer **Openen**. Stel de **weergavenaam in** **op Microsoft Defender Advanced Threat Protection en Microsoft Defender Antivirus.**
+7. Selecteer **Openen**. Stel de **weergavenaam in** op **Microsoft Defender Advanced Threat Protection en Microsoft Defender Antivirus.**
 
     **Manifestbestand** is niet vereist. Microsoft Defender voor Eindpunt werkt zonder Manifestbestand.
     
@@ -780,7 +838,7 @@ Volg de instructies over [Scans plannen met Microsoft Defender voor Eindpunt op 
     
      ![Afbeelding van het beperkingstabblad configuratie-instellingen](images/56dac54634d13b2d3948ab50e8d3ef21.png)
    
-8. Klik op **Opslaan**. Het pakket wordt geüpload naar Pro. 
+8. Kies **Opslaan**. Het pakket wordt geüpload naar Pro. 
 
    ![Afbeelding van configuratie-instellingen pack upl jamf pro](images/33f1ecdc7d4872555418bbc3efe4b7a3.png)
 
@@ -808,17 +866,17 @@ Volg de instructies over [Scans plannen met Microsoft Defender voor Eindpunt op 
     ![Afbeelding van configuratie-instellingen die opnieuw worden checkin](images/68bdbc5754dfc80aa1a024dde0fce7b0.png)
 
   
-13. Klik op **Opslaan**. 
+13. Kies **Opslaan**. 
  
 14. Selecteer **Pakketten > Configureren.**
  
     ![Afbeelding van configuratie-instellingenpakket configureren](images/8fb4cc03721e1efb4a15867d5241ebfb.png)
 
-15. Selecteer de **knop** Toevoegen naast Microsoft Defender Advanced Threat Protection **en Microsoft Defender Antivirus.**
+15. Selecteer de **knop Toevoegen** naast Microsoft Defender Advanced Threat Protection **en Microsoft Defender Antivirus.**
 
-    ![Afbeelding van configuratie-instellingen MDATP en MDA toevoegen](images/526b83fbdbb31265b3d0c1e5fbbdc33a.png)
+    ![Afbeelding van configuratie-instellingen die MDATP en MDA toevoegen](images/526b83fbdbb31265b3d0c1e5fbbdc33a.png)
 
-16. Klik op **Opslaan**.
+16. Kies **Opslaan**.
 
     ![Afbeelding van configuratie-instellingensavimg](images/9d6e5386e652e00715ff348af72671c6.png)
 
