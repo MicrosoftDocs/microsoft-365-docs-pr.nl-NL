@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: c974701b83fbb6dbcac1cc597578a97144b2b482
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 582116047900fc5f28d5580398cf5c065e6a3e23
+ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52845592"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53053021"
 ---
 # <a name="whats-new-in-microsoft-365-defender"></a>Wat is er nieuw in Microsoft 365 Defender
 
@@ -40,10 +40,10 @@ RSS-feed: Ontvang een melding wanneer deze pagina wordt bijgewerkt door de volge
 ```
 
 ## <a name="april-2021"></a>April 2021
-- Verbeterde Microsoft 365 beveiligingscentrum <br> Het verbeterde [Microsoft 365-beveiligingscentrum](https://security.microsoft.com) is nu beschikbaar in de openbare preview. Deze nieuwe ervaring brengt Defender voor Eindpunt, Defender voor Office 365, Microsoft 365 Defender en meer naar het Microsoft 365-beveiligingscentrum. Dit is de nieuwe thuisbasis voor het beheren van uw beveiligingsbesturingselementen. [Ontdek wat er nieuw is](./overview-security-center.md).
+- Microsoft 365 Defender<br> De verbeterde [Microsoft 365 Defender](https://security.microsoft.com) portal is nu beschikbaar. Deze nieuwe ervaring brengt Defender voor Eindpunt, Defender voor Office 365, Defender voor identiteit en meer samen in één portal. Dit is de nieuwe thuisbasis voor het beheren van uw beveiligingsbesturingselementen. [Ontdek wat er nieuw is](./overview-security-center.md).
 
-- [Microsoft 365 Rapport Bedreigingsanalyse van Defender](threat-analytics.md)<br>
- Met bedreigingsanalyse kunt u reageren op en de impact van actieve aanvallen minimaliseren. U kunt ook meer informatie krijgen over aanvalspogingen die worden geblokkeerd door Microsoft 365 Defender-oplossingen en preventief acties ondernemen om het risico op verdere blootstelling te beperken en de tolerantie te vergroten. Als onderdeel van de geïntegreerde beveiligingservaring is bedreigingsanalyse nu beschikbaar voor Microsoft Defender voor Eindpunt en Microsoft Defender voor Office E5-licentiehouders.
+- [Microsoft 365 Defender bedreigingsanalyserapport](threat-analytics.md)<br>
+ Met bedreigingsanalyse kunt u reageren op en de impact van actieve aanvallen minimaliseren. U kunt ook meer informatie krijgen over aanvalspogingen die worden geblokkeerd door Microsoft 365 Defender oplossingen en preventief acties ondernemen om het risico op verdere blootstelling te beperken en de tolerantie te vergroten. Als onderdeel van de geïntegreerde beveiligingservaring is bedreigingsanalyse nu beschikbaar voor Microsoft Defender voor Eindpunt en Microsoft Defender voor Office E5-licentiehouders.
 
 ## <a name="march-2021"></a>Maart 2021
 - [CloudAppEvents-tabel](advanced-hunting-cloudappevents-table.md) <br>Informatie over gebeurtenissen in verschillende cloud-apps en -services die onder de Microsoft Cloud App Security. Deze tabel bevat ook informatie die eerder beschikbaar was in `AppFileEvents` .

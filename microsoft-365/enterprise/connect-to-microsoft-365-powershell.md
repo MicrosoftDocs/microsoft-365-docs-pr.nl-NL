@@ -3,7 +3,6 @@ title: Verbinding maken met Microsoft 365 met PowerShell
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/17/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -17,12 +16,12 @@ ms.custom:
 - Ent_Office_Other
 ms.assetid: 5ebc0e21-b72d-46d8-96fa-00643b18eaec
 description: Maak verbinding met je Microsoft 365-tenant via PowerShell voor Microsoft 365 om Beheercentrum-taken vanaf de opdrachtregel uit te voeren.
-ms.openlocfilehash: 70d6aa1373daf2322319d21e385fc1498af3351e
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: 6b8f98441c7d727984bde8775dea496a9324d50c
+ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782799"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53053057"
 ---
 # <a name="connect-to-microsoft-365-with-powershell"></a>Verbinding maken met Microsoft 365 met PowerShell
 
@@ -36,6 +35,11 @@ Er zijn twee versies van de PowerShell-module die je kunt gebruiken om verbindin
 - Microsoft Azure Active Directory-module voor Windows PowerShell, waarvan cmdlets *MSol* in de naam hebben
 
 Momenteel vervangt de module Azure Active Directory PowerShell voor Graph nog niet alle functionaliteit van de Microsoft Azure Active Directory-module voor Windows PowerShell voor het beheer van gebruikers, groepen en licenties. In sommige gevallen moet u beide versies gebruiken. U kunt beide versies op dezelfde computer veilig installeren.
+
+>[!Note]
+>U kunt ook verbinding maken met [Azure Cloud Shell](#connect-with-the-azure-cloud-shell) vanuit het Microsoft 365-beheercentrum.
+>
+
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
@@ -188,6 +192,14 @@ Als er een foutbericht wordt weergegeven, controleer je de volgende problemen:
    ```powershell
      (dir "C:\Program Files\WindowsPowerShell\Modules\MSOnline").Name
    ```
+
+## <a name="connect-with-the-azure-cloud-shell"></a>Verbinding maken met Azure Cloud Shell
+
+Als u verbinding wilt maken met Azure Cloud Shell vanuit het Microsoft 365-beheercentrum en dit wilt gebruiken, selecteert u in de rechterbovenhoek van de taakbalk het PowerShell-vensterpictogram. Selecteer in het deelvenster **Welkom bij Azure Cloud Shell** de optie **PowerShell**.
+
+Voor uw organisatie hebt u een actief Azure-abonnement nodig dat is gekoppeld aan uw Microsoft 365-abonnement. Als u nog geen account hebt, kunt u er een maken. Zodra u een Azure-abonnement hebt, wordt er een PowerShell-venster geopend waarin u PowerShell-opdrachten en -scripts kunt uitvoeren.
+
+Zie [Azure Cloud Shell](/azure/cloud-shell/overview) voor meer informatie.
 
 ## <a name="see-also"></a>Zie ook
 

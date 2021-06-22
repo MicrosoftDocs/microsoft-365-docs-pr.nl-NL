@@ -17,11 +17,11 @@ search.appverid:
 description: Met de gegevensbeheerrapporten in het Beveiligings- en compliancecentrum kunt u bekijken of de labels worden toegepast zoals u dit voorzien had.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: acd042f73500004014a9c229c2a5f34552888c97
-ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
+ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "52161545"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53053324"
 ---
 # <a name="view-the-data-governance-reports"></a>De gegevensbeheerrapporten weergeven
 

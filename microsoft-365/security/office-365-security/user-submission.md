@@ -17,12 +17,12 @@ ms.collection:
 description: Beheerders kunnen leren hoe ze een postvak configureren voor het verzamelen van spam en phishing-e-mail die door gebruikers worden gerapporteerd.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a39c6a3b287933ff79f94b00e364d7a45378bd1f
-ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
+ms.openlocfilehash: f565a71b44d27076ea6ff0b25be5d5b3932913c9
+ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52933081"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53052985"
 ---
 # <a name="user-submissions-policy"></a>Beleid voor gebruikersinzendingen
 
@@ -42,7 +42,7 @@ In Microsoft 365 organisaties met Exchange Online postvakken kunt u een postvak 
 Als u door de gebruiker gerapporteerde berichten naar een aangepast postvak bezorgt in plaats van rechtstreeks bij Microsoft, kunnen uw beheerders berichten selectief en handmatig rapporteren aan Microsoft met [beheerdersinzending.](admin-submission.md)
 
   > [!NOTE]
-  > Als rapportage is uitgeschakeld [in Outlook](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md#disable-or-enable-junk-email-reporting-in-outlook-on-the-web)op internet, wordt deze instelling overgenomen door gebruikersinzendingen in te stellen en kunnen gebruikers berichten opnieuw rapporteren in Outlook op internet.
+  > Als rapportage is [uitgeschakeld in](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md#disable-or-enable-junk-email-reporting-in-outlook-on-the-web)webversie van Outlook, wordt deze instelling overgenomen door gebruikersinzendingen in te stellen en kunnen gebruikers berichten opnieuw in webversie van Outlook rapporteren.
 
 ## <a name="custom-mailbox-prerequisites"></a>Vereisten voor aangepaste postvakken
 
@@ -68,7 +68,7 @@ Nadat u hebt geverifieerd dat uw postvak aan alle toepasselijke vereisten voldoe
 
 - Als u de configuratie voor gebruikersinzendingen wilt wijzigen, moet u lid zijn van een van de volgende rollengroepen:
 
-  - **Organisatiebeheer** of **Beveiligingsbeheerder** in de [Microsoft 365 Defender-portal](permissions-in-the-security-and-compliance-center.md).
+  - **Organisatiebeheer** of **Beveiligingsbeheerder** in de [Microsoft 365 Defender portal.](permissions-in-the-security-and-compliance-center.md)
   - **Organisatiebeheer** in [Exchange Online.](/Exchange/permissions-exo/permissions-exo#role-groups)
 
 - U hebt toegang nodig tot Exchange Online PowerShell. Als het account dat u probeert te gebruiken geen toegang heeft tot Exchange Online PowerShell, krijgt u een foutmelding die er zo uitziet wanneer u het postvak voor inzendingen opgeeft:
@@ -80,13 +80,13 @@ Nadat u hebt geverifieerd dat uw postvak aan alle toepasselijke vereisten voldoe
   - [Toegang tot powershell in- Exchange Online uitschakelen](/powershell/exchange/disable-access-to-exchange-online-powershell) 
   - [Clienttoegangsregels in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules)
 
-## <a name="use-the-microsoft-365-defender-portal-to-configure-the-user-submissions-mailbox"></a>Gebruik de Microsoft 365 Defender-portal om het postvak met gebruikersinzendingen te configureren
+## <a name="use-the-microsoft-365-defender-portal-to-configure-the-user-submissions-mailbox"></a>Gebruik de Microsoft 365 Defender portal om het postvak met gebruikersinzendingen te configureren
 
-1. Ga in Microsoft 365 Defender-portal  naar Beleidsregels & \> **bedreigingsbeleid** Anderen sectie \>  \> **Gebruikers gerapporteerde berichtinstellingen** \> **Gebruikersinzendingen.**
+1. Ga in Microsoft 365 Defender portal naar  Beleidsregels & beleidsregels Bedreigingsbeleid Anderen sectie Gebruikers gerapporteerde berichtinstellingen \>  \>  \>  \> **Gebruikersinzendingen.**
 
 2. Op de **pagina Gebruikersinzendingen** wordt bepaald of de instelling van microsoft **Outlook rapportbericht** **is uitgeschakeld** of **Aan:**
 
-   - **Microsoft Outlook knop Rapportbericht** \> **Aan** ![ In- of uitschakelen: Selecteer deze optie als u de invoegoptie Rapportbericht, de invoegvoegoptie Phishing melden of de ingebouwde rapportage in Outlook op het web gebruikt en configureer vervolgens de volgende ](../../media/scc-toggle-on.png) instellingen:
+   - **Microsoft Outlook knop Rapportbericht** \> **Aan** ![ In- of uitschakelen: Selecteer deze optie als u de invoegoptie Rapportbericht, de invoegvoegoptie Phishing melden of de ingebouwde rapportage in webversie van Outlook gebruikt en configureer vervolgens de volgende ](../../media/scc-toggle-on.png) instellingen:
      - **De gerapporteerde berichten verzenden naar**: Selecteer een van de volgende opties:
        - **Microsoft:** Het postvak voor gebruikersinzendingen wordt niet gebruikt (alle gerapporteerde berichten gaan naar Microsoft).
        - **Microsoft en het postvak van mijn** organisatie: Voer in het vak dat wordt weergegeven het e-mailadres in van een bestaand Exchange Online postvak. Distributiegroepen zijn niet toegestaan. Gebruikersinzendingen gaan naar zowel Microsoft voor analyse als naar het aangepaste postvak voor uw beheer- of beveiligingsbewerkingsteam om te analyseren.
@@ -107,7 +107,7 @@ Nadat u hebt geverifieerd dat uw postvak aan alle toepasselijke vereisten voldoe
          - **Het bericht nooit rapporteren**
 
           > [!CAUTION]
-          > Als u de rapportage van ongewenste e-mail hebt uitgeschakeld [in Outlook](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md#disable-or-enable-junk-email-reporting-in-outlook-on-the-web) op het web met behulp van beleidsregels voor Outlook op het webpostvak, maar u een van de vorige instellingen hebt geconfigureerd om berichten te rapporteren aan Microsoft, kunnen gebruikers berichten rapporteren aan Microsoft in Outlook op het web met behulp van de invoegvoeging Bericht melden of de invoeging Phishing melden.
+          > Als u de rapportage van ongewenste e-mail hebt uitgeschakeld [in webversie van Outlook](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md#disable-or-enable-junk-email-reporting-in-outlook-on-the-web) met behulp van webversie van Outlook-postvakbeleid, maar u een van de vorige instellingen hebt geconfigureerd om berichten te rapporteren aan Microsoft, kunnen gebruikers berichten rapporteren aan Microsoft in webversie van Outlook met de invoegvoegmap Bericht melden of de invoeging Phishing melden.
 
      - **Sectie Gebruikersrapportage**
        - **Vóór** het  rapporttabblad: Voer in de hoofdvakken Titel en Bericht de beschrijvende tekst in die gebruikers zien voordat ze een bericht rapporteren met de invoegtekst Rapportbericht of de invoegtekst Phishing melden.  U kunt de variabele %type% gebruiken om het inzendingstype (ongewenste e-mail, geen ongewenste e-mail, phish, enzovoort) op te nemen.
@@ -117,14 +117,16 @@ Nadat u hebt geverifieerd dat uw postvak aan alle toepasselijke vereisten voldoe
 
           > Uw e-mail wordt in de as-is verzonden naar Microsoft voor analyse. Sommige e-mailberichten kunnen persoonlijke of gevoelige informatie bevatten.
 
-   - **Microsoft Outlook knop Rapportbericht** \> **Uit** ![ Schakel deze optie in: selecteer deze optie als u rapportagehulpmiddelen van derden gebruikt in plaats van de invoegoptie Rapportbericht, de invoegvoegoptie Phishing melden of de ingebouwde rapportage in Outlook op het web en configureer vervolgens de volgende ](../../media/scc-toggle-off.png) instellingen:
+   - **Microsoft Outlook knop Rapportbericht** \> **Uit** ![ Schakel deze optie in: selecteer deze optie als u rapportagehulpmiddelen van derden gebruikt in plaats van de invoeging Rapportbericht, de invoegvoegoptie Phishing melden of de ingebouwde rapportage in webversie van Outlook en configureer vervolgens de volgende ](../../media/scc-toggle-off.png) instellingen:
      - Selecteer **Dit aangepaste postvak gebruiken om gerapporteerde inzendingen van gebruikers te ontvangen.** Typ in het vak dat wordt weergegeven het e-mailadres van een bestaand Exchange Online postvak dat e-mail kan ontvangen.
 
    Wanneer u klaar bent, klikt u op **Bevestigen.** Als u deze waarden wilt leeg maken, klikt u op **Herstellen**
 
 ## <a name="third-party-reporting-tools"></a>Rapportagehulpprogramma's van derden
 
-U kunt hulpprogramma's voor berichtrapportage van derden configureren om gerapporteerde berichten naar het aangepaste postvak te verzenden. De enige vereiste is dat het oorspronkelijke bericht is opgenomen als een bijlage in het bericht dat naar het aangepaste postvak wordt verzonden (niet alleen het oorspronkelijke bericht doorsturen naar het aangepaste postvak).
+U kunt hulpprogramma's voor berichtrapportage van derden configureren om gerapporteerde berichten naar het aangepaste postvak te verzenden. U doet dit door de knop **Microsoft Outlook bericht** in te  stellen op Uit en het postvak van mijn organisatie in te stellen op een Office 365 van uw keuze. 
+
+De enige vereiste is dat het oorspronkelijke bericht is opgenomen als een . EML of . MSG-bijlage (niet gecomprimeerd) in het bericht dat naar het aangepaste postvak wordt verzonden (niet alleen het oorspronkelijke bericht doorsturen naar het aangepaste postvak).
 
 De vereisten voor berichtopmaak worden beschreven in de volgende sectie. De opmaak is optioneel, maar als de opmaak niet de voorgeschreven notatie volgt, worden de rapporten altijd als phish verzonden.
 

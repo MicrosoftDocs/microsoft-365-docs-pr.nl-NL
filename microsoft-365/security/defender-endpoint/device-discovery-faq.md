@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 1c61e69b5c8d414ab229fa8bf64eb657a6e40304
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: b2c0b986ef6dbb54cd34e9b4413711cd3e5f9c6d
+ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245958"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53053153"
 ---
 # <a name="device-discovery-frequently-asked-questions"></a>Veelgestelde vragen over apparaatdetectie
 
@@ -65,7 +65,7 @@ Ja, u kunt filters toepassen om niet-beheerde apparaten uit de lijst met apparaa
  Standaard worden alle onboarded-apparaten die op Windows 10 versie 1809 of hoger worden uitgevoerd, de volgende protocollen vastleggen en analyseren: ARP, CDP, DHCP, DHCPv6, IP (headers), LLDP, LLMNR, mDNS, MNDP, NBNS, SSDP, TCP (headers), UDP (headers), WSD
 
 ## <a name="which-protocols-do-you-use-for-active-probing-in-standard-discovery"></a>Welke protocollen gebruikt u voor actief onderzoek in Standaarddetectie?
- Wanneer een apparaat is geconfigureerd voor het uitvoeren van standaarddetectie, worden blootgestelde services getest met behulp van de volgende protocollen: ARP, FTP, HTTP, ICMP, LLMNR, NBNS, RDP, SIP, SMTP, SNMP, SSH, Telnet, UPNP, WSD, SMB, NBSS, IPP, PJL
+ Wanneer een apparaat is geconfigureerd voor het uitvoeren van standaarddetectie, worden blootgestelde services getest met behulp van de volgende protocollen: ARP, FTP, HTTP, HTTPS, ICMP, LLMNR, NBNS, RDP, SIP, SMTP, SNMP, SSH, Telnet, UPNP, WSD, SMB, NBSS, IPP, PJL, RPC, mDNS, DHCP, AFP, CrestonCIP, IphoneSync
 
 ## <a name="how-can-i-exclude-targets-from-being-probed-with-standard-discovery"></a>Hoe kan ik uitsluiten dat doelen worden onderzocht met standaarddetectie?
  Als er apparaten in uw netwerk zijn die niet actief moeten worden onderzocht, kunt u ook een lijst met uitsluitingen definiëren om te voorkomen dat ze worden gescand. De configuratie is beschikbaar op de pagina Apparaatdetectie-instellingen.
@@ -91,4 +91,5 @@ Mogelijk ziet u verschillen tussen het aantal vermelde apparaten onder 'kan word
 ## <a name="can-i-onboard-unmanaged-devices-that-were-found"></a>Kan ik onaangemande apparaten aan boord nemen die zijn gevonden?
  Ja. Niet-bemande eindpunten in uw netwerk brengen beveiligingslekken en risico's voor uw netwerk met zich mee. Als u deze inwerkt bij de service, kunt u de zichtbaarheid van de beveiliging ervan vergroten. 
 
-
+## <a name="ive-noticed-that-unmanaged-device-health-state-is-always-active-why-is-that"></a>Ik heb gemerkt dat de status van niet-bemande apparaten altijd 'Actief' is, waarom is dat?
+Tijdelijk, onbeheerde status van apparaat is 'Actief' tijdens de standaard bewaarperiode van de apparaatvoorraad, ongeacht de werkelijke status.

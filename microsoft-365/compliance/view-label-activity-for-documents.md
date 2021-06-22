@@ -19,11 +19,11 @@ search.appverid:
 ms.custom: seo-marvel-apr2020
 description: Informatie over het gebruik van de labelactiviteitenverkenner in het Microsoft 365-beveiligings- en compliancecentrum om labelactiviteit te zoeken en weer te geven.
 ms.openlocfilehash: e21bb867044b2a6644b125aad9983ce3518f70ee
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "52161483"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53053325"
 ---
 # <a name="view-label-activity-for-documents"></a>Labelactiviteit voor documenten weergeven
 
@@ -39,7 +39,7 @@ Met de labelactiviteitenverkenner kunt u het volgende doen:
     
 - De gegevens filteren om alle labelactiviteit voor een specifiek label, bestand of gebruiker te bekijken. U kunt ook labelactiviteit filteren op locatie (SharePoint of OneDrive voor Bedrijven) en of het label handmatig of automatisch is toegepast.
     
-- Labelactiviteit bekijken voor mappen en afzonderlijke documenten. Binnenkort kunt u zien hoeveel bestanden in die map zijn gelabeld omdat de map is gelabeld.
+- Bekijk labelactiviteit voor zowel mappen als afzonderlijke documenten. Binnenkort kunt u zien hoeveel bestanden in die map zijn gelabeld omdat de map is gelabeld.
     
 U vindt de labelactiviteitenverkenner in het beveiligings- &amp; compliancecentrum > **Informatiebeheer** > **Labelactiviteitenverkenner**.
   

@@ -14,12 +14,12 @@ ms.custom:
 - it-pro
 ms.collection:
 - M365-subscription-management
-ms.openlocfilehash: f9a4b7679a33d6722336ee5412e4992389ba915f
-ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
+ms.openlocfilehash: 40ec3887cd37ddb412df3ae78300c1f9e9c60ecc
+ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52694411"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53053045"
 ---
 # <a name="cross-tenant-mailbox-migration-preview"></a>Migratie van postvakken tussen tenants (voorbeeld)
 
@@ -53,7 +53,7 @@ Daarnaast zijn beveiligingsgroepen met e-mail in de bron tenant vereist voordat 
 
 U moet ook communiceren met uw vertrouwde partnerbedrijf (met wie u postvakken verplaatst) om hun tenant-id Microsoft 365 verkrijgen. Deze tenant-id wordt gebruikt in het veld `DomainName` Organisatierelatie.
 
-Als u de tenant-id van een abonnement wilt verkrijgen, meld u zich aan bij het Microsoft 365 beheercentrum en gaat u naar [https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties) . Klik op het kopieerpictogram voor de eigenschap Tenant-id om het naar het klembord te kopiëren.
+Als u de tenant-id van een abonnement wilt verkrijgen, meld u zich aan bij de Microsoft 365-beheercentrum en gaat u naar [https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties) . Klik op het kopieerpictogram voor de eigenschap Tenant-id om het naar het klembord te kopiëren.
 
 Dit is hoe het proces werkt.
 
@@ -122,6 +122,7 @@ De bron tenant voorbereiden:
 6. Het script wordt onderbroken en u wordt gevraagd of u akkoord wilt gaan met de Exchange postvakmigratietoepassing die tijdens dit proces is gemaakt. Hier volgt een voorbeeld.
 
     ```powershell
+    PS C:\PowerShell\> # Note: the below User.Invite.All permission is optional, and will only be used to retrieve access token to send invitation email to source tenant
     PS C:\PowerShell\> .\SetupCrossTenantRelationshipForTargetTenant.ps1 -ResourceTenantDomain contoso.onmicrosoft.com -ResourceTenantAdminEmail admin@contoso.onmicrosoft.com -TargetTenantDomain fabrikam.onmicrosoft.com -ResourceTenantId ksagjid39-ede2-4d2c-98ae-874709325b00 -SubscriptionId e4ssd05d-a327-49ss-849a-sd0932439023 -ResourceGroup "Cross-TenantMoves" -KeyVaultName "Cross-TenantMovesVault" -CertificateName "Contoso-Fabrikam-cert" -CertificateSubject "CN=Contoso_Fabrikam" -AzureResourceLocation "Brazil Southeast" -AzureAppPermissions Exchange, MSGraph -UseAppAndCertGeneratedForSendingInvitation -KeyVaultAuditStorageAccountName "t2tstorageaccount" -KeyVaultAuditStorageResourceGroup "Demo"
 
     cmdlet Get-Credential at command pipeline position 1
@@ -134,7 +135,7 @@ De bron tenant voorbereiden:
     Pay-As-You-Go (ewe23423-a3327-34232-343... Admin@fabrikam... Pay-As-You-Go                           AzureCloud                              dsad938432-dd8e-s9034-bf9a-83984293n43
     Auditing setup successfully for Cross-TenantMovesVault
     Exchange application given access to KeyVault Cross-TenantMovesVault
-    Application fabrikam_Friends_contoso_2520 created successfully in fabrikam.onmicrosoft.com tenant with following permissions. MSGraph - Directory.ReadWrite.All. Exchange - Mailbox.Migration
+    Application fabrikam_Friends_contoso_2520 created successfully in fabrikam.onmicrosoft.com tenant with following permissions. MSGraph - User.Invite.All. Exchange - Mailbox.Migration
     Admin consent URI for fabrikam.onmicrosoft.com tenant admin is -
     https://login.microsoftonline.com/fabrikam.onmicrosoft.com/adminconsent?client_id=6fea6ere-0dwe-404d-ad35-c71a15cers5c&redirect_uri=https://office.com
     Admin consent URI for contoso.onmicrosoft.com tenant admin is -
@@ -175,7 +176,7 @@ De instelling van de doelbeheerder is nu voltooid.
    > [!NOTE]
    > Als u deze e-mail niet ontvangt of niet kunt vinden, heeft de doel tenantbeheerder een directe URL gekregen die u kan krijgen om de uitnodiging te accepteren. De URL moet in het afschrift van de Externe PowerShell-sessie van de doel tenantbeheerder staan.
 
-3. Maak in het Microsoft 365-beheercentrum of in een Externe PowerShell-sessie een of meer beveiligingsgroepen met e-mail om de lijst met postvakken te beheren die door de doeltender mogen worden verwijderd (verplaatst) van de bronten tenant naar de doelten tenant. U hoeft deze groep niet van tevoren in te vullen, maar er moet ten minste één groep beschikbaar zijn om de installatiestappen (script) uit te voeren. Nestgroepen worden niet ondersteund. 
+3. Maak in de Microsoft 365-beheercentrum of een externe PowerShell-sessie een of meer beveiligingsgroepen met e-mail om de lijst met postvakken te bepalen die door de doelten tenant zijn toegestaan om van de bronten tenant naar de doeltender te gaan (verplaatsen). U hoeft deze groep niet van tevoren in te vullen, maar er moet ten minste één groep beschikbaar zijn om de installatiestappen (script) uit te voeren. Nestgroepen worden niet ondersteund. 
 
 4. Download het SetupCrossTenantRelationshipForResourceTenant.ps1 script voor de installatie van de bron tenant in GitHub archief: [https://github.com/microsoft/cross-tenant/releases/tag/Preview](https://github.com/microsoft/cross-tenant/releases/tag/Preview) . 
 
@@ -716,7 +717,7 @@ Vergeet niet dat deze functie momenteel in de preview-versie staat en dat de SLA
    | Informatiebarrières                              |
    | Informatiebeveiliging voor Office 365 - Premium   |
    | Informatiebeveiliging voor Office 365 - Standaard  |
-   | Inzichten van MyAnalytics                           |
+   | Insights door MyAnalytics                           |
    | Microsoft 365 Geavanceerd controleren                   |
    | Microsoft Bookings                                |
    | Microsoft Business Center                         |

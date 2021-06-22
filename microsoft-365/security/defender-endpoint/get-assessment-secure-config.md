@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.custom: api
-ms.openlocfilehash: ad8b2030da4fb4815eb71ca53fb2dbac67a05d79
-ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
+ms.openlocfilehash: 7d39dddf4928b3bcb28fb008bcccd83c67f60177
+ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53022388"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53053177"
 ---
 # <a name="export-secure-configuration-assessment-per-device"></a>Veilige configuratiebeoordeling per apparaat exporteren
 
@@ -47,7 +47,7 @@ Er zijn verschillende API-oproepen om verschillende typen gegevens op te halen. 
 
   - Download alle bestanden met de download-URL's en verwerkt de gegevens naar eigen goed gebruik.
 
-Gegevens die worden verzameld (met _OData_ of _via_ bestanden) zijn de huidige momentopname van de huidige status en bevatten geen historische gegevens. Om historische gegevens te verzamelen, moeten klanten de gegevens opslaan in hun eigen gegevensopslag.
+Gegevens die worden verzameld (met _JSON-antwoord_ of _via_ bestanden) zijn de huidige momentopname van de huidige status en bevatten geen historische gegevens. Om historische gegevens te verzamelen, moeten klanten de gegevens opslaan in hun eigen gegevensopslag.
 
 > [!Note]
 >

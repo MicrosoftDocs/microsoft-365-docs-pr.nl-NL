@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Gebruik bewaarbeleid om de inhoud die gebruikers genereren met e-mail, documenten en gesprekken efficiënt te beheren. Behoud wat u wilt en verwijder wat u niet wilt.
-ms.openlocfilehash: 9f550aa2e0a79170c4651f29c23a8ed0c8c9b3a4
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 2ddc95b5e614fb321ccc5472bc6031f570218528
+ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769415"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53053069"
 ---
 # <a name="create-and-configure-retention-policies"></a>Bewaarbeleid maken en configureren
 
@@ -116,7 +116,7 @@ Het is mogelijk dat bewaarbeleid dat wordt toegepast op Microsoft 365-groepen, S
 ### <a name="retention-policy-for-yammer-locations"></a>Bewaarbeleid voor Yammer-locaties
 
 > [!NOTE]
-> Bewaarbeleid voor Yammer wordt in preview uitgerold. Als u de nieuwe locaties voor Yammer nog niet ziet, probeer het dan over een paar weken nog eens.
+> Bewaarbeleid voor Yammer is in preview.
 >
 > Om deze functie te gebruiken, moet uw Yammer-netwerk zijn ingesteld op de modus [Native](/yammer/configure-your-yammer-network/overview-native-mode) en niet de modus Hybride.
 
@@ -127,8 +127,6 @@ Het is mogelijk dat bewaarbeleid dat wordt toegepast op Microsoft 365-groepen, S
 3. Voor de pagina **Beslissen of uw inhoud wilt bewaren, verwijderen of beide** van de wizard, specificeert u de configuratieopties voor het bewaren en verwijderen van inhoud. 
     
     U kunt bewaarbeleid maken dat alleen inhoud bewaart zonder te verwijderen, bewaart en vervolgens na een opgegeven periode verwijdert of alleen verwijdert na een opgegeven periode. Zie [Instellingen voor bewaren en verwijderen van inhoud](#settings-for-retaining-and-deleting-content) op deze pagina voor meer informatie.
-    
-    Selecteer niet **Geavanceerde bewaarinstellingen gebruiken**, want deze optie wordt niet ondersteund voor Yammer-locaties. 
 
 4. Selecteer voor de pagina **Locaties kiezen**, **Ik wil specifieke locaties kiezen**. Schakel vervolgens een of beide locaties voor Yammer in: **Berichten in de Yammer-community** en **Gebruikersberichten in Yammer**.
     

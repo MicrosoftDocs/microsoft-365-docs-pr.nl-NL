@@ -1,8 +1,7 @@
 ---
-title: 'Een bestaand onderwerp bewerken in Microsoft Viva-onderwerpen '
-description: Een bestaand onderwerp bewerken in Microsoft Viva-onderwerpen.
-author: efrene
-ms.author: efrene
+title: Een bestaand onderwerp bewerken in Microsoft Viva-onderwerpen
+author: chuckedmonson
+ms.author: chucked
 manager: pamgreen
 audience: admin
 ms.reviewer: cjtan
@@ -14,12 +13,13 @@ ms.collection:
 - m365initiative-viva-topics
 ms.service: ''
 localization_priority: Normal
-ms.openlocfilehash: 23c870826261a85aee23af82bb177825f55f4eb2
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+description: Meer informatie over het bewerken van een bestaand onderwerp in Microsoft Viva-onderwerpen.
+ms.openlocfilehash: 6e1f85737298736a3aafcb30cfe103c28654d1c1
+ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165391"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53053205"
 ---
 # <a name="edit-an-existing-topic-in-microsoft-viva-topics"></a>Een bestaand onderwerp bewerken in Microsoft Viva-onderwerpen 
 
@@ -32,104 +32,122 @@ ms.locfileid: "51165391"
 In Viva-onderwerpen kunt u een bestaand onderwerp bewerken. Mogelijk moet u dit doen als u aanvullende informatie wilt corrigeren of toevoegen aan een bestaande onderwerppagina. 
 
 > [!Note] 
-> Hoewel informatie in een onderwerp dat door AI [wordt](topic-experiences-security-trimming.md)verzameld, is gekort op de beveiliging, moet u er rekening mee houden dat onderwerpbeschrijving en personengegevens die u handmatig toevoegt wanneer u een bestaand onderwerp bewerkt, zichtbaar zijn voor alle gebruikers die over machtigingen voor het bekijken van onderwerpen zijn. 
+> Hoewel informatie in een onderwerp dat door AI [wordt](topic-experiences-security-trimming.md)verzameld, is bijgesneden in de beveiliging, zijn de onderwerpbeschrijving en de informatie over personen die u handmatig toevoegt bij het bewerken van een bestaand onderwerp zichtbaar voor alle gebruikers die over machtigingen voor het weergeven van onderwerpen zijn. 
 
 ## <a name="requirements"></a>Vereisten
 
 Als u een bestaand onderwerp wilt bewerken, moet u het volgende doen:
 - Een licentie voor Viva-onderwerpen hebben.
-- Machtigingen hebben om te [**Wie onderwerpen kunnen maken of bewerken.**](./topic-experiences-user-permissions.md) Kennisbeheerders kunnen gebruikers deze machtiging geven in de instellingen voor onderwerpmachtigingen van Viva Topics. 
+- Hebt u machtigingen voor [het maken of bewerken van onderwerpen.](./topic-experiences-user-permissions.md) Kennisbeheerders kunnen gebruikers deze machtiging geven in de instellingen voor onderwerpmachtigingen van Viva Topics. 
 
 > [!Note] 
-> Gebruikers die zijn machtigingen voor het beheren van onderwerpen in het Onderwerpcentrum (kennisbeheerders) hebben al machtigingen voor het maken en bewerken van onderwerpen.
+> Gebruikers die zijn machtigingen voor het beheren van onderwerpen in het onderwerpcentrum (kennisbeheerders) hebben al machtigingen voor het maken en bewerken van onderwerpen.
 
 ## <a name="how-to-edit-a-topic-page"></a>Een onderwerppagina bewerken
 
-Gebruikers met de **Wie** kunnen onderwerpenmachtigingen maken of bewerken, kunnen een onderwerp bewerken door <b></b> de onderwerppagina te openen vanuit een onderwerp markeren en vervolgens de knop Bewerken rechtsboven op de onderwerppagina te selecteren. De onderwerppagina kan ook worden geopend vanaf de startpagina van het onderwerpcentrum, waar u alle onderwerpen kunt vinden waar u verbinding mee hebt.
+Gebruikers met de *Wie* kunnen onderwerpenmachtigingen maken of bewerken, kunnen een onderwerp bewerken door  de onderwerppagina te openen vanuit een onderwerp markeren en vervolgens de knop Bewerken rechtsboven op de onderwerppagina te selecteren. De onderwerppagina kan ook worden geopend vanaf de startpagina van het onderwerpcentrum, waar u alle onderwerpen kunt vinden waar u verbinding mee hebt.
 
-   ![Knop Bewerken](../media/knowledge-management/edit-button.png) </br> 
+   ![Schermafbeelding met de knop Bewerken.](../media/knowledge-management/edit-button.png) </br> 
 
-Kennisbeheerders kunnen onderwerpen ook rechtstreeks bewerken vanaf de pagina Onderwerpen beheren door het onderwerp te selecteren en vervolgens Bewerken te <b>selecteren</b> op de werkbalk.
+Kennisbeheerders kunnen onderwerpen ook rechtstreeks bewerken vanaf **de pagina** Onderwerpen beheren door het onderwerp te selecteren en vervolgens Bewerken te **selecteren** op de werkbalk.
 
-   ![Onderwerp bewerken in Onderwerpen beheren](../media/knowledge-management/manage-topics-edit.png) </br> 
+   ![Schermafbeelding met onderwerp bewerken op de pagina Onderwerpen beheren.](../media/knowledge-management/manage-topics-edit.png)
 
 ### <a name="to-edit-a-topic-page"></a>Een onderwerppagina bewerken
 
 1. Selecteer bewerken op de **onderwerppagina.** Op deze manier kunt u zo nodig wijzigingen aanbrengen in de onderwerppagina.
 
-   ![Besturingselement bewerken](../media/knowledge-management/topic-page-edit.png) </br>  
+   ![Schermafbeelding met de knop Bewerken op de onderwerppagina.](../media/knowledge-management/topic-page-edit.png)  
 
 
-2. Typ in <b>de sectie Alternatieve</b> namen eventuele andere namen waar het onderwerp naar kan worden verwezen. 
+2. Typ in **de sectie Alternatieve** namen eventuele andere namen waar het onderwerp naar kan worden verwezen. 
 
-    ![Alternatieve namen](../media/knowledge-management/alt-names.png) </br> 
-3. Typ in <b>de</b> sectie Beschrijving een paar zinnen waarin het onderwerp wordt beschreven. Of als er al een beschrijving bestaat, kunt u deze indien nodig bijwerken.
+    ![Schermafbeelding met de sectie Alternatieve namen.](../media/knowledge-management/alt-names.png)
 
-    ![Sectie Beschrijving](../media/knowledge-management/description.png)</br>
+3. Typ in **de** sectie Beschrijving een paar zinnen waarin het onderwerp wordt beschreven. Of als er al een beschrijving bestaat, kunt u deze indien nodig bijwerken.
 
-4. In de <b>sectie Vastgemaakte</b> personen kunt u een persoon 'vastmaken' om aan te geven dat deze een verbinding heeft met het onderwerp (bijvoorbeeld een eigenaar van een verbonden resource). Typ eerst de naam of het e-mailadres in het vak <b>Nieuwe</b> gebruiker toevoegen en selecteer vervolgens de gebruiker die u wilt toevoegen in de zoekresultaten. U kunt ze ook 'losmaken' door het pictogram Verwijderen <b>uit lijst</b> op de gebruikerskaart te selecteren.
+    ![Schermafbeelding met de sectie Beschrijving.](../media/knowledge-management/description.png)</br>
+
+4. In de **sectie Vastgemaakte** personen kunt u een persoon 'vastmaken' om aan te geven dat deze een verbinding heeft met het onderwerp (bijvoorbeeld een eigenaar van een verbonden resource). Typ eerst de naam of het e-mailadres in het vak **Nieuwe** gebruiker toevoegen en selecteer vervolgens de gebruiker die u wilt toevoegen in de zoekresultaten. U kunt ze ook 'losmaken' door het pictogram Verwijderen **uit lijst** op de gebruikerskaart te selecteren.
  
-    ![Vastgemaakte personen toevoegen](../media/knowledge-management/pinned-people.png)</br>
+    ![Schermafbeelding met de sectie Vastgemaakte personen toevoegen.](../media/knowledge-management/pinned-people.png)</br>
 
-    In <b>de sectie Voorgestelde</b> personen ziet u gebruikers die denken dat AI mogelijk verbonden is met het onderwerp vanuit hun verbinding met bronnen over het onderwerp. U kunt de status wijzigen van Voorgesteld in Vastgemaakt door het pictogram vast te selecteren op de gebruikerskaart.
+    In **de sectie Voorgestelde** personen ziet u gebruikers die denken dat AI mogelijk verbonden is met het onderwerp vanuit hun verbinding met bronnen over het onderwerp. U kunt de status wijzigen van Voorgesteld in Vastgemaakt door het pictogram vast te selecteren op de gebruikerskaart.
 
-   ![Een voorgestelde personen vastmaken](../media/knowledge-management/suggested-people.png)</br>
+   ![Schermafbeelding van het vastmaken van voorgestelde personen.](../media/knowledge-management/suggested-people.png)
 
-5. In de <b>sectie Vastgemaakte</b> bestanden en pagina's kunt u een bestand of SharePoint sitepagina toevoegen of 'vastmaken' die aan het onderwerp is gekoppeld.
+5. In de **sectie Vastgemaakte** bestanden en pagina's kunt u een bestand of SharePoint sitepagina toevoegen of 'vastmaken' die aan het onderwerp is gekoppeld.
 
-   ![Sectie Vastgemaakte bestanden en pagina's](../media/knowledge-management/pinned-files-and-pages.png)</br>
+   ![Schermafbeelding met de sectie Vastgemaakte bestanden en pagina's.](../media/knowledge-management/pinned-files-and-pages.png)
  
-    Als u een nieuw bestand wilt toevoegen, selecteert u <b>Toevoegen,</b>selecteert u de SharePoint site op uw sites Frequent of Gevolgd en selecteert u het bestand in de documentbibliotheek van de site.
+    Als u een nieuw bestand wilt toevoegen, selecteert u **Toevoegen,** selecteert u de SharePoint site op uw sites Frequent of Gevolgd en selecteert u het bestand in de documentbibliotheek van de site.
 
-    U kunt ook de optie <b>Van een koppeling gebruiken</b> om een bestand of pagina toe te voegen door de URL op te geven. 
+    U kunt ook de optie **Van een koppeling gebruiken** om een bestand of pagina toe te voegen door de URL op te geven. 
 
    > [!Note] 
    > Bestanden en pagina's die u toevoegt, moeten zich binnen dezelfde tenant Microsoft 365 bevinden. Als u een koppeling wilt toevoegen naar een externe resource in het onderwerp, kunt u deze toevoegen via het canvaspictogram in stap 9.
 
-6. In <b>de sectie Voorgestelde bestanden en</b> pagina's worden bestanden en pagina's weergegeven die volgens AI aan het onderwerp zijn gekoppeld.
+6. In **de sectie Voorgestelde bestanden en** pagina's worden bestanden en pagina's weergegeven die volgens AI aan het onderwerp zijn gekoppeld.
 
-   ![Sectie Voorgestelde bestanden en pagina's](../media/knowledge-management/suggested-files-and-pages.png)</br>
+   ![Schermafbeelding met de sectie Voorgestelde bestanden en pagina's.](../media/knowledge-management/suggested-files-and-pages.png)
 
     U kunt een voorgesteld bestand of pagina wijzigen in een vastgemaakt bestand of pagina door het vastgemaakte pictogram te selecteren.
 
-7.  In <b>de sectie Gerelateerde sites</b> ziet u sites met informatie over het onderwerp. 
+7.  In de **sectie Vastgemaakte sites** kunt u een site toevoegen of 'vastmaken' die aan het onderwerp is gekoppeld. 
 
-    ![Sectie Gerelateerde sites](../media/knowledge-management/related-sites.png)</br>
+    ![Schermafbeelding van de sectie Vastgemaakte sites.](../media/knowledge-management/pinned-sites-section.png)
 
-    U kunt een gerelateerde site toevoegen door <b>Toevoegen</b> te selecteren en vervolgens naar de site te zoeken of deze te selecteren in uw lijst met veelgebruikte of recente sites.</br>
+    Als u een nieuwe site wilt toevoegen, **selecteert** u Toevoegen en zoekt u naar de site of selecteert u deze in uw lijst met veelgebruikte of recente sites.
     
-    ![Een site selecteren](../media/knowledge-management/sites.png)</br>
+    ![Schermafbeelding met een vastgemaakte sitesectie toevoegen of verwijderen.](../media/knowledge-management/add-or-remove-pinned-sites.png)
 
-8. In <b>de sectie Gerelateerde</b> onderwerpen ziet u verbindingen tussen onderwerpen. U kunt een verbinding met een ander onderwerp toevoegen door de Verbinding maken te selecteren op een gerelateerde <b>onderwerpknop</b> en vervolgens de naam van het gerelateerde onderwerp te typen en deze te selecteren in de zoekresultaten. 
+8. In **de sectie Voorgestelde** sites ziet u de sites die volgens AI aan het onderwerp zijn gekoppeld. 
 
-   ![Sectie Verwante onderwerpen](../media/knowledge-management/related-topic.png)</br>  
+   ![Schermafbeelding van de sectie Voorgestelde sites](../media/knowledge-management/suggested-sites-section.png)  
 
-    Vervolgens kunt u een beschrijving geven van de manier waarop de onderwerpen zijn gerelateerd en selecteert u <b>Bijwerken.</b></br>
+    U kunt een voorgestelde site wijzigen in een vastgemaakte site door het vastgemaakte pictogram te selecteren.
 
-   ![Beschrijving van gerelateerde onderwerpen](../media/knowledge-management/related-topics-update.png)</br> 
 
-   Het gerelateerde onderwerp dat u hebt toegevoegd, wordt weergegeven als een verbonden onderwerp.
+<!---
 
-   ![Gerelateerde onderwerpen verbonden](../media/knowledge-management/related-topics-final.png)</br> 
+7.  The <b>Related sites</b> section shows sites that have information about the topic. 
 
-   Als u een gerelateerd onderwerp wilt verwijderen, selecteert u het onderwerp dat u wilt verwijderen en selecteert u vervolgens het <b>pictogram Onderwerp</b> verwijderen.</br>
+    ![Related sites section](../media/knowledge-management/related-sites.png)</br>
+
+    You can add a related site by selecting <b>Add</b> and then either searching for the site, or selecting it from your list of Frequent or Recent sites.</br>
+    
+    ![Select a site](../media/knowledge-management/sites.png)</br>
+
+8. The <b>Related topics</b> section shows connections that exists between topics. You can add a connection to a different topic by selecting the <b>Connect to a related topic</b> button, and then typing the name of the related topic, and selecting it from the search results. 
+
+   ![Related topics section](../media/knowledge-management/related-topic.png)</br>  
+
+    You can then give a description of how the topics are related, and select <b>Update</b>.</br>
+
+   ![Related topics description](../media/knowledge-management/related-topics-update.png)</br> 
+
+   The related topic you added will display as a connected topic.
+
+   ![Related topics connected](../media/knowledge-management/related-topics-final.png)</br> 
+
+   To remove a related topic, select the topic you want to remove, then select the <b>Remove topic</b> icon.</br>
  
-   ![Gerelateerd onderwerp verwijderen](../media/knowledge-management/remove-related.png)</br>  
+   ![Remove related topic](../media/knowledge-management/remove-related.png)</br>  
 
-   Selecteer vervolgens <b>Verwijderen.</b></br>
+   Then select <b>Remove</b>.</br>
 
-   ![Verwijderen bevestigen](../media/knowledge-management/remove-related-confirm.png)</br> 
+   ![Confirm remove](../media/knowledge-management/remove-related-confirm.png)</br> 
 
+--->
 
 9. U kunt ook statische items toevoegen aan de pagina, zoals tekst, afbeeldingen of koppelingen, door het canvaspictogram te selecteren, dat u onder de korte beschrijving kunt vinden. Als u dit selecteert, wordt SharePoint de werkset geopend waaruit u het item kunt kiezen dat u aan de pagina wilt toevoegen.
 
-   ![Pictogram Canvas](../media/knowledge-management/webpart-library.png)</br> 
+   ![Schermafbeelding met het pictogram Canvas.](../media/knowledge-management/webpart-library.png)
 
 
 10. Selecteer **Publiceren of** Opnieuw publiceren **om** uw wijzigingen op te slaan. **Opnieuw publiceren** is de beschikbare optie als het onderwerp eerder is gepubliceerd.
 
 
-## <a name="see-also"></a>Zie ook
 
 
 

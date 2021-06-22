@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Beheerders kunnen ondersteuning voor gevoeligheidslabels inschakelen voor Word Excel en PowerPoint bestanden in SharePoint en OneDrive.
-ms.openlocfilehash: d4c0f9b4c280394dd63820320ba7ca30e349c361
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: e123dbd523bdaa648ee66b6ef56ee071b917fd86
+ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878038"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53052973"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>Vertrouwelijkheidslabels inschakelen voor Office-bestanden in SharePoint en OneDrive
 
@@ -68,7 +68,7 @@ Als u momenteel documenten in SharePoint beschermt met behulp van SharePoint Inf
 
 Deze nieuwe mogelijkheden werken alleen met [gevoeligheidslabels.](sensitivity-labels.md) Als u momenteel Azure Information Protection-labels hebt, moet u deze eerst migreren naar gevoeligheidslabels, zodat u deze functies kunt inschakelen voor nieuwe bestanden die u uploadt. Zie [Azure Information Protection-labels migreren naar geïntegreerde vertrouwelijkheidslabels](/azure/information-protection/configure-policy-migrate-labels) voor instructies.
 
-Gebruik de OneDrive-synchronisatie-app versie 19.002.0121.0008 of hoger op Windows en versie 19.002.0107.0008 of hoger op Mac. Beide versies zijn uitgebracht op 28 januari 2019 en worden momenteel voor alle ringen uitgebracht. Zie de opmerkingen over de [OneDrive release voor meer informatie.](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0) Nadat u gevoeligheidslabels hebt ingeschakeld voor Office bestanden in SharePoint en OneDrive, worden gebruikers die een oudere versie van de synchronisatie-app uitvoeren, gevraagd deze bij te werken.
+Gebruik de OneDrive-synchronisatie app versie 19.002.0121.0008 of hoger op Windows en versie 19.002.0107.0008 of hoger op Mac. Beide versies zijn uitgebracht op 28 januari 2019 en worden momenteel voor alle ringen uitgebracht. Zie de opmerkingen over de [OneDrive release voor meer informatie.](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0) Nadat u gevoeligheidslabels hebt ingeschakeld voor Office bestanden in SharePoint en OneDrive, worden gebruikers die een oudere versie van de synchronisatie-app uitvoeren, gevraagd deze bij te werken.
 
 ## <a name="limitations"></a>Beperkingen
 
@@ -78,7 +78,7 @@ Gebruik de OneDrive-synchronisatie-app versie 19.002.0121.0008 of hoger op Windo
 
 - SharePoint en OneDrive worden niet automatisch gevoeligheidslabels toegepast op bestaande bestanden die u al hebt versleuteld met Azure Information Protection-labels. Als u de functies wilt laten werken nadat u gevoeligheidslabels hebt ingeschakeld voor Office bestanden in SharePoint en OneDrive, kunt u de volgende taken uitvoeren:
     
-    1. Zorg ervoor dat u [de Azure Information Protection-labels](/azure/information-protection/configure-policy-migrate-labels) hebt gemigreerd naar gevoeligheidslabels en deze hebt gepubliceerd [vanuit](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy) het Microsoft 365 compliancecentrum.
+    1. Zorg ervoor dat u [de Azure Information Protection-labels](/azure/information-protection/configure-policy-migrate-labels) hebt gemigreerd naar gevoeligheidslabels en deze hebt gepubliceerd [vanaf](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy) de Microsoft 365-compliancecentrum.
     2. Download de gelabelde bestanden en upload ze vervolgens naar de oorspronkelijke locatie in SharePoint of OneDrive.
 
 - SharePoint en OneDrive kunnen versleutelde bestanden niet verwerken wanneer het label waarop de versleuteling is toegepast, een van de volgende configuraties voor [versleuteling heeft:](encryption-sensitivity-labels.md#configure-encryption-settings)
@@ -103,8 +103,6 @@ Gebruik de OneDrive-synchronisatie-app versie 19.002.0121.0008 of hoger op Windo
 
 - Als een beheerder de instellingen wijzigt voor een gepubliceerd label dat al is toegepast op bestanden die zijn gedownload naar de synchronisatieclient van gebruikers, kunnen gebruikers mogelijk geen wijzigingen in het bestand opslaan in hun OneDrive Synchronisatiemap. Dit scenario is van toepassing op bestanden die zijn gelabeld met versleuteling, en ook wanneer de labelwijziging afkomstig is van een label dat geen versleuteling heeft toegepast op een label dat wel versleuteling gebruikt. Gebruikers zien een rode cirkel met een fout met een wit [kruispictogram](https://support.office.com/article/what-do-the-onedrive-icons-mean-11143026-8000-44f8-aaa9-67c985aa49b3)en ze worden gevraagd om nieuwe wijzigingen op te slaan als een afzonderlijke kopie. In plaats daarvan kunnen ze het bestand sluiten en opnieuw openen of webversie van Office.
 
-- Als een gelabeld document wordt geüpload naar SharePoint of OneDrive en het label versleuteling heeft toegepast met behulp van een account van een servicenaam, kan het document niet worden geopend in webversie van Office. Voorbeeldscenario's zijn Microsoft Cloud App Security en een bestand dat per e-Teams wordt verzonden.
-
 - Gebruikers kunnen problemen met opslaan ervaren nadat ze offline of in een slaapmodus zijn gegaan wanneer ze in plaats van webversie van Office de bureaublad- en mobiele apps voor Word, Excel of PowerPoint. Wanneer deze gebruikers hun Office-app hervatten en wijzigingen proberen op te slaan, zien ze een foutbericht voor uploaden met een optie om een kopie op te slaan in plaats van het oorspronkelijke bestand op te slaan. 
 
 - Documenten die op de volgende manieren zijn versleuteld, kunnen niet worden geopend in webversie van Office:
@@ -120,13 +118,13 @@ Gebruik de OneDrive-synchronisatie-app versie 19.002.0121.0008 of hoger op Windo
 
 ## <a name="how-to-enable-sensitivity-labels-for-sharepoint-and-onedrive-opt-in"></a>Gevoeligheidslabels inschakelen voor SharePoint en OneDrive (opt-in)
 
-U kunt de nieuwe mogelijkheden inschakelen met behulp van het Microsoft 365 compliancecentrum of met PowerShell. Net als bij alle configuratiewijzigingen op tenantniveau voor SharePoint en OneDrive, duurt het ongeveer 15 minuten voordat de wijziging van kracht wordt.
+U kunt de nieuwe mogelijkheden inschakelen met behulp van de Microsoft 365-compliancecentrum of met PowerShell. Net als bij alle configuratiewijzigingen op tenantniveau voor SharePoint en OneDrive, duurt het ongeveer 15 minuten voordat de wijziging van kracht wordt.
 
 ### <a name="use-the-compliance-center-to-enable-support-for-sensitivity-labels"></a>Het compliancecentrum gebruiken om ondersteuning voor gevoeligheidslabels in te stellen
 
 Deze optie is de eenvoudigste manier om gevoeligheidslabels in te SharePoint en OneDrive, maar u moet zich aanmelden als globale beheerder voor uw tenant.
 
-1. Meld u aan bij [het Microsoft 365 compliancecentrum](https://compliance.microsoft.com/) als globale beheerder en ga naar **Solutions**  >  **Information Protection**
+1. Meld u aan bij [de Microsoft 365-compliancecentrum](https://compliance.microsoft.com/) globale beheerder en ga naar **Solutions**  >  **Information Protection**
     
     Als u deze optie niet meteen ziet, selecteert u eerst **Alles weergeven**. 
 
