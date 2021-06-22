@@ -14,12 +14,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 6b9814180df2cad2553c4565ebb65891b5cf9bf5
-ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
+ms.openlocfilehash: 0705ba096c2aefc6bd089bd5fba80b055fd881dc
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52985418"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53055239"
 ---
 # <a name="customize-attack-surface-reduction-rules"></a>Regels voor het verminderen van aanvalsoppervlakken aanpassen
 
@@ -28,7 +28,7 @@ ms.locfileid: "52985418"
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+>Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
 > [!IMPORTANT]
 > Sommige informatie is gerelateerd aan voorlopige productversies die mogelijk aanzienlijk gewijzigd worden voordat ze commercieel gepubliceerd worden. Microsoft geeft geen garantie, uitdrukkelijk of impliciet, met betrekking tot de informatie die hier wordt beschreven.
@@ -39,8 +39,8 @@ Lees hoe u regels voor [](#exclude-files-and-folders) het verminderen van [](#cu
 
 U kunt regels voor de beperking van de surface voor aanvallen instellen voor apparaten met een van de volgende versies en versies van Windows:
 
-- Windows 10 Pro, [versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) of hoger
-- Windows 10 Enterprise, [versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) of hoger
+- Windows 10 Pro, versie [1709](/windows/whats-new/whats-new-windows-10-version-1709) of hoger
+- Windows 10 Enterprise, versie [1709](/windows/whats-new/whats-new-windows-10-version-1709) of hoger
 - Windows Server, [versie 1803 (halfjaarlijks kanaal)](/windows-server/get-started/whats-new-in-windows-server-1803) of hoger
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19) U kunt group policy, PowerShell en Mobile Device Management (MDM) configuration service providers (CSP) gebruiken om deze instellingen te configureren.
 
@@ -66,19 +66,19 @@ Als u problemen ondervindt met regels voor het detecteren van bestanden die volg
 
 | Beschrijving van regel | GUID |
 |:----|:----|
-| Alle Office-toepassingen blokkeren om onderliggende processen te maken | `D4F940AB-401B-4EFC-AADC-AD5F3C50688A` |
+| Alle toepassingen Office voor het maken van onderliggende processen blokkeren | `D4F940AB-401B-4EFC-AADC-AD5F3C50688A` |
 | De uitvoering van mogelijk obfuscated scripts blokkeren | `5BEB7EFE-FD9A-4556-801D-275E5FFC04CC` |
-| Win32 API-oproepen blokkeren vanuit Office-macro | `92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B` |
-| Voorkomen dat Office-toepassingen uitvoerbare inhoud maken | `3B576869-A4EC-4529-8536-B80A7769E899` |
-| Office-toepassingen blokkeren om code in andere processen te injecteren | `75668C1F-73B5-4CF0-BB93-3ECF5CB7CC84` |
+| Win32 API-oproepen blokkeren vanuit Office macro | `92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B` |
+| Voorkomen Office het maken van uitvoerbare inhoud | `3B576869-A4EC-4529-8536-B80A7769E899` |
+| Het Office blokkeren om code in andere processen te injecteren | `75668C1F-73B5-4CF0-BB93-3ECF5CB7CC84` |
 | JavaScript of VBScript blokkeren om gedownloade uitvoerbare inhoud te starten | `D3E037E1-3EB8-44C8-A917-57927947596D` |
 | Uitvoerbare inhoud van e-mailclient en webmail blokkeren | `BE9BA2D9-53EA-4CDC-84E5-9B1EEEE46550` |
 | Het uitvoeren van uitvoerbare bestanden blokkeren, tenzij ze voldoen aan een criteria voor gebruik, leeftijd of vertrouwde lijst | `01443614-cd74-433a-b99e-2ecdc07bfc25` |
 | Geavanceerde beveiliging tegen ransomware gebruiken | `c1db55ab-c21a-4637-bb3f-a12568109d35` |
-| Referenties van het windows-subsysteem van de lokale beveiligingsinstantie blokkeren (lsass.exe) | `9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2` |
+| Referenties van het subsysteem van de Windows lokale beveiligingsinstantie blokkeren (lsass.exe) | `9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2` |
 | Procescreaties blokkeren die afkomstig zijn van PSExec- en WMI-opdrachten | `d1e49aac-8f56-4280-b9ba-993a6d77406c` |
 | Niet-vertrouwde en niet-ondertekende processen blokkeren die worden uitgevoerd via USB | `b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4` |
-| Office-communicatietoepassingen blokkeren om onderliggende processen te maken | `26190899-1602-49e8-8b27-eb1d0a1ce869` |
+| Het Office communicatietoepassingen blokkeren om onderliggende processen te maken | `26190899-1602-49e8-8b27-eb1d0a1ce869` |
 | Adobe Reader blokkeren om onderliggende processen te maken | `7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c` |
 | Persistentie blokkeren via WMI-gebeurtenisabonnement | `e6db77e5-3df2-4cf1-b95a-636979351e5b` |
 
@@ -90,7 +90,7 @@ Zie het [onderwerp Aanvalsoppervlakverkorting](attack-surface-reduction.md) voor
 
 2. Ga in **de Editor voor groepsbeleidsbeheer** naar **Computerconfiguratie** en klik op **Beheersjablonen.**
 
-3. Vouw de boom uit naar **Windows-onderdelen**  >  **Microsoft Defender Antivirus** Windows Defender Exploit  >  **Guard** Attack  >  **surface reduction**.
+3. Vouw de structuur uit Windows **onderdelen**  >  **Microsoft Defender Antivirus**  >  **Microsoft Defender Exploit Guard**  >  **Attack surface reduction**.
 
 4. Dubbelklik op de **instelling Bestanden en paden uitsluiten van de** instelling Surface Reduction Rules van Attack en stel de optie in op **Ingeschakeld.** Selecteer **Weergeven** en voer elk bestand of elke map in de kolom **Waardenaam** in. Voer **0** in de kolom **Waarde** in voor elk item.
 
@@ -99,7 +99,7 @@ Zie het [onderwerp Aanvalsoppervlakverkorting](attack-surface-reduction.md) voor
 
 ### <a name="use-powershell-to-exclude-files-and-folders"></a>PowerShell gebruiken om bestanden en mappen uit te sluiten
 
-1. Typ **powershell** in het menu Start, klik met de rechtermuisknop op **Windows PowerShell en** selecteer Uitvoeren als **beheerder**
+1. Typ **powershell** in de Startmenu, klik met **de rechtermuisknop op Windows PowerShell** en selecteer Uitvoeren als **beheerder**
 2. Voer de volgende cmdlet in:
 
     ```PowerShell
@@ -117,7 +117,7 @@ Gebruik [de CSP (Vendor/MSFT/Policy/Config/Defender/AttackSurfaceReductionOnlyEx
 
 ## <a name="customize-the-notification"></a>De melding aanpassen
 
-U kunt de melding aanpassen voor wanneer een regel wordt geactiveerd en een app of bestand blokkeert. Zie het [windows-beveiligingsartikel.](/windows/security/threat-protection/windows-defender-security-center/windows-defender-security-center#customize-notifications-from-the-windows-defender-security-center)
+U kunt de melding aanpassen voor wanneer een regel wordt geactiveerd en een app of bestand blokkeert. Zie het [Windows-beveiliging](/windows/security/threat-protection/windows-defender-security-center/windows-defender-security-center#customize-notifications-from-the-windows-defender-security-center) artikel.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 

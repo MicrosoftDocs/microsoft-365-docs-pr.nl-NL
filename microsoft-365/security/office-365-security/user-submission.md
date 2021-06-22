@@ -1,5 +1,5 @@
 ---
-title: Beleid voor gebruikersinzendingen
+title: Door de gebruiker gerapporteerde berichtinstellingen
 f1.keywords:
 - NOCSH
 ms.author: siosulli
@@ -17,14 +17,14 @@ ms.collection:
 description: Beheerders kunnen leren hoe ze een postvak configureren voor het verzamelen van spam en phishing-e-mail die door gebruikers worden gerapporteerd.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f565a71b44d27076ea6ff0b25be5d5b3932913c9
-ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
+ms.openlocfilehash: e990721dacaa373b6782ee916f051e4753f3edfd
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 06/22/2021
-ms.locfileid: "53052985"
+ms.locfileid: "53055119"
 ---
-# <a name="user-submissions-policy"></a>Beleid voor gebruikersinzendingen
+# <a name="user-reported-message-settings"></a>Door de gebruiker gerapporteerde berichtinstellingen
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -33,16 +33,16 @@ ms.locfileid: "53052985"
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-In Microsoft 365 organisaties met Exchange Online postvakken kunt u een postvak opgeven om berichten te ontvangen die gebruikers melden als schadelijk of niet schadelijk. Wanneer gebruikers berichten verzenden met de verschillende rapportageopties, kunt u dit postvak gebruiken om berichten te onderscheppen (alleen naar het aangepaste postvak te verzenden) of kopieën van berichten te ontvangen (verzenden naar het aangepaste postvak en Microsoft). Deze functie werkt met de volgende opties voor berichtrapportage:
+In Microsoft 365 organisaties met Exchange Online postvakken kunt u een postvak opgeven om berichten te ontvangen die gebruikers melden als schadelijk of niet schadelijk. Wanneer gebruikers berichten rapporteren met de verschillende rapportageopties, kunt u dit postvak gebruiken om berichten te onderscheppen (alleen verzenden naar het aangepaste postvak) of kopieën van berichten te ontvangen (verzenden naar het aangepaste postvak en Microsoft). Deze functie werkt met de volgende opties voor berichtrapportage:
 
 - [De invoeging Rapportbericht](enable-the-report-message-add-in.md)
 - [De invoeging Phishing melden](enable-the-report-phish-add-in.md)
 - [Rapportagehulpprogramma's van derden](#third-party-reporting-tools)
 
-Als u door de gebruiker gerapporteerde berichten naar een aangepast postvak bezorgt in plaats van rechtstreeks bij Microsoft, kunnen uw beheerders berichten selectief en handmatig rapporteren aan Microsoft met [beheerdersinzending.](admin-submission.md)
+Als u door de gebruiker gerapporteerde berichten naar een aangepast postvak bezorgt in plaats van rechtstreeks bij Microsoft, kunnen uw beheerders berichten selectief en handmatig rapporteren aan Microsoft met [beheerdersinzending.](admin-submission.md) Deze instellingen stonden voorheen bekend als het beleid voor gebruikersinzendingen.
 
   > [!NOTE]
-  > Als rapportage is [uitgeschakeld in](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md#disable-or-enable-junk-email-reporting-in-outlook-on-the-web)webversie van Outlook, wordt deze instelling overgenomen door gebruikersinzendingen in te stellen en kunnen gebruikers berichten opnieuw in webversie van Outlook rapporteren.
+  > Als rapportage is uitgeschakeld [in](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md#disable-or-enable-junk-email-reporting-in-outlook-on-the-web)webversie van Outlook, wordt deze instelling overgenomen door het inschakelen van door de gebruiker gerapporteerde berichten en kunnen gebruikers berichten opnieuw in webversie van Outlook rapporteren.
 
 ## <a name="custom-mailbox-prerequisites"></a>Vereisten voor aangepaste postvakken
 

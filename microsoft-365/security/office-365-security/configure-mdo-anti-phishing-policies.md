@@ -15,12 +15,12 @@ ms.collection:
 description: Beheerders kunnen leren hoe ze geavanceerde anti-phishingbeleidsregels kunnen maken, wijzigen en verwijderen die beschikbaar zijn in organisaties met Microsoft Defender voor Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f32118da96ee1d229ff7fde7893604c804bcade7
-ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
+ms.openlocfilehash: bbf90f52127e96e08f1c176a23d5f5ab1d6d86c4
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53029931"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53054549"
 ---
 # <a name="configure-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Anti-phishingbeleid configureren in Microsoft Defender voor Office 365
 
@@ -242,7 +242,7 @@ Als u een aangepast anti-phishingbeleid maakt in de Microsoft 365 Defender-porta
 
      Schakel het selectievakje in om een instelling in te stellen. Schakel het selectievakje uit om het uit te schakelen.
 
-   Wanneer u gereed bent, klikt u op **Volgende**.
+   Wanneer je klaar bent, klik je op **Volgende**.
 
 7. Controleer uw instellingen op de pagina **Controleren** die wordt weergegeven. U kunt in elke sectie **Bewerken** selecteren om de instellingen in de sectie te wijzigen. U kunt ook op **Terug** klikken of de specifieke pagina in de wizard selecteren.
 
@@ -323,9 +323,11 @@ Wanneer u de portal Microsoft 365 Defender om een aangepast anti-phishingbeleid 
 
 1. Ga in Microsoft 365 Defender portal naar **E-mail & samenwerkingsbeleid** & sectie Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Anti-phishing**.
 
-2. Selecteer een aangepast beleid in de lijst door op de naam van het beleid te klikken. Klik boven aan de flyout met beleidsdetails die wordt weergegeven, op het ![pictogram Meer acties](../../media/m365-cc-sc-more-actions-icon.png) **Meer acties** \> ![Pictogram Beleid verwijderen](../../media/m365-cc-sc-delete-icon.png) **Beleid verwijderen**.
+2. Selecteer op **de pagina Anti-phishing** een aangepast beleid in de lijst door op de naam van het beleid te klikken.
 
-3. Klik in het bevestigingsvenster dat wordt weergegeven op **Ja**.
+3. Klik boven aan de flyout met beleidsdetails die wordt weergegeven, op het ![pictogram Meer acties](../../media/m365-cc-sc-more-actions-icon.png) **Meer acties** \> ![Pictogram Beleid verwijderen](../../media/m365-cc-sc-delete-icon.png) **Beleid verwijderen**.
+
+4. Klik in het bevestigingsvenster dat wordt weergegeven op **Ja**.
 
 ## <a name="use-exchange-online-powershell-to-configure-anti-phishing-policies"></a>Gebruik Exchange Online PowerShell om anti-phishingbeleid te configureren
 

@@ -22,12 +22,12 @@ ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 ms.custom:
 - seo-marvel-apr2020
 description: Meer informatie over het importeren van gegevens van derden van sociale mediaplatforms, chatplatforms en platformen voor documentsamenwerking om postvakken Microsoft 365 maken.
-ms.openlocfilehash: a51b298b934431a1be8a416dac1f831ddaca5ffe
-ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
+ms.openlocfilehash: a0c4505d3fbd593f5703f4abfb5cba1870c037c5
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52861201"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53054777"
 ---
 # <a name="archive-third-party-data"></a>Gegevens van derden archiveren
 
@@ -35,7 +35,7 @@ Microsoft 365 kunnen beheerders gegevensconnectoren gebruiken om gegevens van de
 
 ## <a name="third-party-data-connectors"></a>Gegevensconnectors van derden
 
-De volgende tabel bevat de gegevensconnectors van derden die beschikbaar zijn in het Microsoft 365 compliancecentrum. De tabel bevat ook een overzicht van de complianceoplossingen die u kunt toepassen op gegevens van derden nadat u gegevens van derden hebt geïmporteerd en gearchiveerd in Microsoft 365. Zie de [volgende sectie voor](#overview-of-compliance-solutions-that-support-third-party-data) een gedetailleerde beschrijving van elke complianceoplossing en hoe deze voordelen kan hebben voor gegevens van derden.
+De volgende tabel bevat de gegevensconnectors van derden die beschikbaar zijn in de Microsoft 365-compliancecentrum. De tabel bevat ook een overzicht van de complianceoplossingen die u kunt toepassen op gegevens van derden nadat u gegevens van derden hebt geïmporteerd en gearchiveerd in Microsoft 365. Zie de [volgende sectie voor](#overview-of-compliance-solutions-that-support-third-party-data) een gedetailleerde beschrijving van elke complianceoplossing en hoe deze voordelen kan hebben voor gegevens van derden.
 
 > [!TIP]
 > Klik op de koppeling in **de** gegevenskolom van derden om de stapsgewijs instructies te volgen voor het maken van een verbindingslijn voor dat gegevenstype.
@@ -69,8 +69,11 @@ De volgende tabel bevat de gegevensconnectors van derden die beschikbaar zijn in
 |[Reuters FX <sup>2</sup>](archive-reutersfx-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
 |[Salesforce Chatter <sup>2</sup>](archive-salesforcechatter-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|||
 |[ServiceNow <sup>2</sup>](archive-servicenow-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|||
+|[Signaal <sup>1</sup>](archive-signal-archiver-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[Skype voor Bedrijven <sup>2</sup>](archive-skypeforbusiness-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
 |[Slack eDiscovery <sup>2</sup>](archive-slack-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
 |[Symfonie <sup>2</sup>](archive-symphony-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[Telegram <sup>1</sup>](archive-telegram-archiver-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
 |[TELUS Network <sup>1</sup>](archive-telus-network-data.md)    |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
 |[Tekst met <sup>scheidingstekens 2</sup>](archive-text-delimited-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|||
 |[Twitter](archive-twitter-data-with-sample-connector.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|||
@@ -134,12 +137,12 @@ Zoals eerder vermeld, zijn gegevensconnectoren die door TeleMessage worden gelev
 |TeleMessage-gegevensconnector  |GCC  |GCC Hoog  |DoD  |
 |:---------|:---------|:---------|:---------|
 |Android Archiver | Ja | Nee | Nee |
-|AT&T Sms/MMS Network Archiver | Ja | Nee | Nee |
-|Bell Sms/MMS Network Archiver | Ja | Nee | Nee |
+|AT&T SMS/MMS Network Archiver | Ja | Nee | Nee |
+|Bell SMS/MMS Network Archiver | Ja | Nee | Nee |
 |Enterprise Number Archiver | Ja | Nee | Nee |
-|O2 Sms en Voice Network Archiver | Ja         | Nee | Nee |
-|TELUS Sms Network Archiver | Ja | Nee | Nee |
-|Verizon Sms/MMS Network Archiver | Ja | Nee | Nee |
+|O2 Sms- en Voice Network Archiver | Ja         | Nee | Nee |
+|TELUS SMS Network Archiver | Ja | Nee | Nee |
+|Verizon SMS/MMS Network Archiver | Ja | Nee | Nee |
 |WeChat Archiver | Ja | Nee | Nee |
 |WhatsApp Archiver | Ja | Nee | Nee |
 |||||

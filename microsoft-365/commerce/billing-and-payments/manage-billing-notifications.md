@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 description: Lees hoe u kunt beheren wie e-mailberichten voor factureringsmelding en factuurbijlagen ontvangt.
 ms.date: 03/17/2021
-ms.openlocfilehash: a0c7de8638a227d432ff2c5a0d4839fa8f66582c
-ms.sourcegitcommit: 787fb30fdae6d49347a87f4baae3cd140067e573
+ms.openlocfilehash: f41d93835fed1715803052f1cf79b46f43a1d200
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52998762"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53054587"
 ---
 # <a name="manage-billing-notifications-and-invoice-attachments"></a>Factureringsmeldingen en bijlagen voor facturen beheren
 
@@ -34,12 +34,9 @@ Op **de pagina Factureringsmeldingen** kunt u beheren wie e-mailberichten voor f
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
-U moet een globale beheerder zijn om de stappen uit te voeren die in dit artikel worden beschreven. Factureringsbeheerders kunnen enkele van deze wijzigingen aanbrengen, zoals wordt vermeld in de onderstaande secties. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
+U moet een globale beheerder zijn om de stappen uit te voeren die in dit artikel worden beschreven. Factureringsbeheerders kunnen enkele van deze wijzigingen aanbrengen, zoals wordt vermeld in de onderstaande secties. Raadpleeg [Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
 
 ## <a name="change-the-language-you-receive-email-in"></a>De taal wijzigen waarin u e-mail ontvangt
-
-> [!NOTE]
-> Factureringsbeheerders kunnen ook de stappen in deze sectie doen.
 
 E-mailberichten met factureringsmeldingen worden verzonden in de voorkeurstaal van uw organisatie. Als u de voorkeurstaal wilt wijzigen, gebruikt u de volgende stappen.
 
@@ -87,6 +84,9 @@ Naast uw globale en factureringsbeheerders sturen we factureringsmeldingen naar 
 3. Typ in het rechterdeelvenster het e-mailadres dat u wilt gebruiken en selecteer **Opslaan.**
 
 ## <a name="receive-your-organizations-invoices-as-email-attachments"></a>Facturen van uw organisatie ontvangen als e-mailbijlagen
+
+> [!NOTE]
+> Factureringsbeheerders kunnen ook de stappen in deze sectie doen.
 
 U kunt een kopie van de factuur van uw organisatie als PDF-bestand toevoegen aan e-mailberichten met factuurmeldingen wanneer een nieuwe factuur gereed is. Gebruik de volgende stappen om facturen als bijlagen te ontvangen.
 

@@ -46,20 +46,20 @@ Volg eerst de instructies in [Groepen en gebruikers configureren voor een ontwik
 
 In deze fase maakt u de labels voor de verschillende beveiligingsniveaus van documentenmappen op de SharePoint Online-teamsite.
 
-1. Indien nodig meldt u zich aan bij het Microsoft 365-beheercentrum (<https://admin.microsoft.com>) met de referenties van het globale beheerdersaccount van uw proefabonnement. Zie [Waar kan ik me aanmelden in Microsoft 365?](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4) voor hulp.
+1. Indien nodig meld je je aan bij het Microsoft 365-beheercentrum (<https://admin.microsoft.com>) met de referenties van het globale beheerdersaccount van je proefabonnement. Zie [Waar kan ik me aanmelden in Microsoft 365?](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4) voor hulp.
 
-2. Klik op de **startpagina** waar u begint op **Alle weergeven**. Klik in de sectie **Beheercentra** die wordt weergegeven op **Naleving**.
+2. Klik op de **startpagina** waar je begint op **Alles weergeven**. Klik in de sectie **Beheercentrums** die wordt weergegeven op **Compliance**.
 
-3. Ga op de **startpagina** van het Microsoft 365-compliancecentrum naar de sectie **Oplossingen** \> **Information Protection**. Via <https://compliance.microsoft.com//informationprotection> gaat u rechtstreeks naar de pagina **Information Protection**.
+3. Ga op de **startpagina** van het Microsoft 365-compliancecentrum naar de sectie **Oplossingen** \> **Informatiebescherming**. Via <https://compliance.microsoft.com//informationprotection> ga je rechtstreeks naar de pagina **Informatiebescherming**.
 
-4. Controleer op de pagina **Information Protection** of de tag **Label** is geselecteerd en klik vervolgens op ![Een labelpictogram maken](../../media/m365-cc-sc-create-icon.png) **Een label maken**.
+4. Controleer op de pagina **Informatiebescherming** of de tag **Label** is geselecteerd en klik vervolgens op ![pictogram Label maken](../../media/m365-cc-sc-create-icon.png) **Label maken**.
 
 5. De wizard **Nieuw vertrouwelijkheidslabel** wordt geopend. Voer in de stap **Naam en beschrijving** de volgende waarden in:
-   - **Naam**: type **Intern**.
+   - **Naam**: typ **Intern**.
    - **Weergavenaam**
    - **Beschrijving voor gebruikers**
 
-   Wanneer u gereed bent, klikt u op **Volgende**.
+   Wanneer je klaar bent, klik je op **Volgende**.
 
 6. Klik in het deelvenster **Labelinstellingen** op **Volgende**.
 

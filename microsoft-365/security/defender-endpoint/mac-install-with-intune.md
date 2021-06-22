@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 5aeffdaff39c2f10dfa5164764bff38e99c00010
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 077411e5af5825efcf81d19ce8cb72ef850ae17b
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684217"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53054318"
 ---
 # <a name="intune-based-deployment-for-microsoft-defender-for-endpoint-on-macos"></a>Intune-implementatie voor Microsoft Defender voor Eindpunt op macOS
 
@@ -101,12 +101,12 @@ Dit profiel bevat een licentiegegevens voor Microsoft Defender voor Eindpunt, zo
     > [!div class="mx-imgBorder"]
     > ![Aangepaste configuratieprofiel maken](images/mdatp-6-systemconfigurationprofiles-1.png)
 
-1. Kies een naam voor het profiel, bijvoorbeeld 'MDATP onboarding voor macOS'. Klik op **Volgende**.
+1. Kies een naam voor het profiel, bijvoorbeeld 'MDE onboarding for macOS'. Klik op **Volgende**.
 
     > [!div class="mx-imgBorder"]
     > ![Aangepast configuratieprofiel - naam](images/mdatp-6-systemconfigurationprofiles-2.png)
 
-1. Kies een naam voor de naam van het configuratieprofiel, bijvoorbeeld 'MDATP onboarding voor macOS'.
+1. Kies een naam voor de naam van het configuratieprofiel, bijvoorbeeld 'MDE onboarding for macOS'.
 1. Selecteer intune/WindowsDefenderATPOnboarding.xml die u hebt geëxtraheerd uit het onboarding-pakket hierboven als configuratieprofielbestand.
 
     > [!div class="mx-imgBorder"]
@@ -172,7 +172,7 @@ Dit profiel is nodig voor macOS 10.15 (Catalina) of ouder. Deze wordt genegeerd 
 
 Download [**fulldisk.mobileconfig vanuit**](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/fulldisk.mobileconfig) [onze GitHub repository.](https://github.com/microsoft/mdatp-xplat/tree/master/macos/mobileconfig/profiles)
 
-Volg de instructies voor [Onboarding blob](#onboarding-blob) van bovenaf, gebruik 'MDATP Full Disk Access' als profielnaam en **downloadde fulldisk.mobileconfig** als configuratieprofielnaam.
+Volg de instructies voor [Onboarding blob](#onboarding-blob) van bovenaf, gebruik 'MDE Full Disk Access' als profielnaam en **downloadde fulldisk.mobileconfig** als configuratieprofielnaam.
 
 ### <a name="network-filter"></a>Netwerkfilter
 
@@ -180,7 +180,7 @@ Als onderdeel van de mogelijkheden voor endpointdetectie en -antwoord controleer
 
 Download [**netfilter.mobileconfig**](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/netfilter.mobileconfig) vanuit [onze GitHub repository.](https://github.com/microsoft/mdatp-xplat/tree/master/macos/mobileconfig/profiles)
 
-Volg de instructies voor [Onboarding blob](#onboarding-blob) van bovenaf, gebruik 'MDATP Netwerkfilter' als profielnaam en downloadde **netfilter.mobileconfig** als naam van het configuratieprofiel.
+Volg de instructies voor [Onboarding blob](#onboarding-blob) van bovenaf, gebruik 'MDE Network Filter' als profielnaam en **downloadde netfilter.mobileconfig** als configuratieprofielnaam.
 
 ### <a name="notifications"></a>Meldingen
 
@@ -188,7 +188,7 @@ Dit profiel wordt gebruikt om microsoft Defender voor Eindpunt op macOS en Micro
 
 Download [**notif.mobileconfig van**](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/notif.mobileconfig) [onze GitHub repository.](https://github.com/microsoft/mdatp-xplat/tree/master/macos/mobileconfig/profiles)
 
-Volg de instructies voor [Onboarding blob](#onboarding-blob) van bovenaf, gebruik 'MDATP Netwerkfilter' als profielnaam en downloadde **notif.mobileconfig** als configuratieprofielnaam.
+Volg de instructies voor [Onboarding blob](#onboarding-blob) van bovenaf, gebruik 'MDE-meldingen' als profielnaam en downloadde **notif.mobileconfig** als configuratieprofielnaam.
 
 ### <a name="view-status"></a>Status weergeven
 

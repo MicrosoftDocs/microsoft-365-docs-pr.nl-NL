@@ -15,12 +15,12 @@ ms.custom:
 description: In dit artikel vindt u informatie over rapporten en hulpprogramma's voor probleemoplossing die beschikbaar zijn Microsoft Exchange Online EOP-beheerders (Protection).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 079e2b359f28b0b6bc3d7eac86e69060c65ea250
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: cc49a92d5fb1fb0368b14eef7524638542f38deb
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841436"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53054375"
 ---
 # <a name="reporting-and-message-trace-in-eop"></a>Rapportage en bericht traceren in EOP
 
@@ -35,30 +35,17 @@ In Microsoft 365 organisaties met postvakken in Exchange Online of zelfstandige 
 
 ## <a name="usage-reports"></a>Gebruiksrapporten
 
-**Microsoft 365 groepsactiviteiten:** Informatie weergeven over het aantal Microsoft 365 groepen dat wordt gemaakt en gebruikt.
+- **Microsoft 365 groepsactiviteiten:** Informatie weergeven over het aantal Microsoft 365 groepen dat wordt gemaakt en gebruikt. Zie Rapporten in Microsoft 365 beheercentrum - Microsoft 365 [groepen voor meer informatie.](../../admin/activity-reports/office-365-groups.md)
+- **E-mailactiviteit:** informatie weergeven over het aantal verzonden, ontvangen en gelezen berichten in uw hele organisatie en door specifieke gebruikers. Zie rapporten in het [beheercentrum Microsoft 365 e-mailactiviteit voor meer informatie.](../../admin/activity-reports/email-activity.md)
+- **Gebruik van e-mailapp:** Informatie weergeven over de e-mailapps die worden gebruikt. Dit omvat het totale aantal verbindingen voor elke app en de versies van Outlook die verbinding maken. Zie rapporten in het [beheercentrum Microsoft 365 e-mailapps](../../admin/activity-reports/email-apps-usage.md)gebruiken voor meer informatie.
+- **Postvakgebruik:** Informatie weergeven over gebruikte opslagruimte, quotumverbruik, aantal items en laatste activiteit (verzend- of leesactiviteit) voor postvakken. Zie rapporten in Microsoft 365 [beheercentrum - Postvakgebruik voor](../../admin/activity-reports/mailbox-usage.md)meer informatie.
 
-**E-mailactiviteit:** Informatie weergeven over het aantal verzonden, ontvangen en gelezen berichten in uw hele organisatie en door specifieke gebruikers.
-
-**Gebruik van e-mailapp:** Informatie weergeven over de e-mailapps die worden gebruikt. Dit omvat het totale aantal verbindingen voor elke app en de versies van Outlook die verbinding maken.
-
-**Postvakgebruik:** Informatie weergeven over gebruikte opslagruimte, quotumverbruik, aantal items en laatste activiteit (verzend- of leesactiviteit) voor postvakken.
-
-Zie de volgende bronnen voor meer informatie:
-
-- [Microsoft 365 Rapporten in het beheercentrum - Microsoft 365 groepen](../../admin/activity-reports/office-365-groups.md)
-- [Microsoft 365 Rapporten in het beheercentrum - E-mailactiviteit](../../admin/activity-reports/email-activity.md)
-- [Microsoft 365 Rapporten in het beheercentrum - Gebruik van e-mailapps](../../admin/activity-reports/email-apps-usage.md)
-- [Microsoft 365 Rapporten in het beheercentrum - Postvakgebruik](../../admin/activity-reports/mailbox-usage.md)
-
-## <a name="security--compliance-reports-in-the-microsoft-365-admin-center"></a>Beveiligings- & compliancerapporten in het Microsoft 365 beheercentrum
+## <a name="security-reports-in-the-microsoft-365-defender-portal"></a>Beveiligingsrapporten in de Microsoft 365 defender-portal
 
 Deze uitgebreide rapporten bieden een interactieve rapportage-ervaring voor EOP-beheerders, met overzichtsgegevens en de mogelijkheid om in te zoomen voor meer informatie.
 
-**Defender voor Office 365:** Informatie weergeven over Safe koppelingen en Safe bijlagen die deel uitmaken van Microsoft Defender voor Office 365.
-
-**EOP:** Informatie weergeven over malwaredetecties, vervalste e-mail, spamdetecties en e-mailstroom van en naar uw organisatie.
-
-[Rapporten weergeven voor Defender voor Office 365](view-reports-for-mdo.md)
+- **Defender voor Office 365:** Informatie weergeven over Safe koppelingen en Safe bijlagen die deel uitmaken van Microsoft Defender voor Office 365. Zie Defender weergeven voor Office 365 [rapporten in de Microsoft 365 Defender portal voor meer informatie.](view-reports-for-mdo.md)
+- **EOP:** Informatie weergeven over malwaredetecties, vervalste e-mail, spamdetecties en e-mailstroom van en naar uw organisatie. Zie E-mailbeveiligingsrapporten weergeven in de Microsoft 365 Defender [portal voor meer informatie.](view-email-security-reports.md)
 
 ## <a name="custom-reports-using-microsoft-graph"></a>Aangepaste rapporten met Microsoft-Graph
 
@@ -70,7 +57,7 @@ Volgt e-mailberichten terwijl ze via EOP reizen. U kunt bepalen of een e-mailber
 
 U kunt deze informatie gebruiken om de vragen van uw gebruiker efficiënt te beantwoorden, problemen met de e-mailstroom op te lossen, beleidswijzigingen te valideren en om contact op te nemen met de technische ondersteuning voor hulp.
 
-Zie [Bericht traceren in het Beveiligings- & compliancecentrum](message-trace-scc.md).
+Zie [Bericht traceren in de Microsoft 365 Defender portal](message-trace-scc.md).
 
 ## <a name="audit-logging"></a>Auditregistratie
 
@@ -79,6 +66,8 @@ Houdt specifieke wijzigingen bij die door beheerders in uw organisatie zijn aang
 ## <a name="reporting-and-message-trace-data-availability-and-latency"></a>Beschikbaarheid en latentie van gegevens rapporteren en berichten traceren
 
 In de volgende tabel wordt beschreven wanneer EOP-rapportage- en bericht trace-gegevens beschikbaar zijn en hoelang.
+
+<br>
 
 ****
 

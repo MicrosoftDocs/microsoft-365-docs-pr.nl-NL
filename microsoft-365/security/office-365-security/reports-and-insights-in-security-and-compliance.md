@@ -19,12 +19,12 @@ description: Meer informatie over de slimme rapporten en inzichten die beschikba
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 25efdbfc6c292d8df2690f4c222366614329c70d
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 4af84c058eb3d9d7112f6102d39b209c34148d0e
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52879274"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53054507"
 ---
 # <a name="smart-reports-and-insights-in-the-security--compliance-center"></a>Slimme rapporten en inzichten in het beveiligings- en compliancecentrum
 
@@ -35,7 +35,7 @@ ms.locfileid: "52879274"
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Als u deel uitmaakt van het Microsoft voor 365 voor Bedrijven-beveiligingsteam van uw organisatie en de benodigde machtigingen hebt toegewezen in het [Beveiligings- & Compliancecentrum,](permissions-in-the-security-and-compliance-center.md)hebt u toegang tot diverse rapporten, waaronder slimme rapporten en inzichten. Lees dit artikel voor een overzicht van deze rapporten en inzichten en waar u naartoe kunt gaan voor meer informatie over specifieke rapporten.
+Als u deel uitmaakt van het Microsoft voor 365 voor Bedrijven-beveiligingsteam van uw organisatie en de benodigde machtigingen hebt toegewezen in het [Beveiligings- & Compliancecentrum,](permissions-in-the-security-and-compliance-center.md)hebt u toegang tot verschillende rapporten, waaronder slimme rapporten en inzichten. Lees dit artikel voor een overzicht van deze rapporten en inzichten en waar u naartoe kunt gaan voor meer informatie over specifieke rapporten.
 
 ## <a name="smart-reports-and-insights-overview"></a>Overzicht van slimme rapporten en inzichten
 
@@ -47,7 +47,7 @@ Naast het markeren van probleemgebieden, bevatten slimme rapporten en inzichten 
 
 ## <a name="types-of-reports-in-the-security--compliance-center"></a>Typen rapporten in het beveiligings- & compliancecentrum
 
-Er zijn diverse rapporten beschikbaar in het beveiligings- & compliancecentrum. (Ga naar **Rapporten** \> **Dashboard** om een all-upweergave te krijgen.) De volgende tabel bevat beschikbare rapporten met koppelingen voor meer informatie:
+Er zijn diverse rapporten beschikbaar in het beveiligings- & compliancecentrum. (Ga naar **Rapporten**  >  **Beveiligingsrapport** om een overzicht te krijgen.) De volgende tabel bevat beschikbare rapporten met koppelingen voor meer informatie:
 
 <br>
 
@@ -55,20 +55,19 @@ Er zijn diverse rapporten beschikbaar in het beveiligings- & compliancecentrum. 
 
 |Type gegevens|Hoe kom ik daar?|Waar kunt u meer informatie?|
 |---|---|---|
-|**Beveiligingsrapporten & compliancecentrum** (helemaal up) <p> Belangrijkste inzichten en aanbevelingen en koppelingen naar beveiligings- & compliancerapporten, waaronder preventierapporten voor gegevensverlies, labels, e-mailbeveiligingsrapporten, Defender voor Office 365 rapporten en meer|Ga in het & compliancecentrum naar **Rapportendashboard** \> ||
+|**Microsoft 365 Defender rapporten** (helemaal omhoog) <p> Belangrijkste inzichten en aanbevelingen en koppelingen naar Microsoft 365 Defender rapporten, waaronder preventierapporten voor gegevensverlies, labels, e-mailbeveiligingsrapporten, Defender voor Office 365 rapporten en meer|Ga in het & Compliancecentrum naar **Rapporten**  >  **e-mail**& samenwerkingsrapporten voor &  >  **[e-mail](https://security.microsoft.com/emailandcollabreport)**|[Rapporten bewaken en weergeven in het Microsoft 365 beveiligingscentrum](../defender/overview-security-center.md)|
 |**Preventie van gegevensverlies** <p> Beleidsregels voor preventie van gegevensverlies, onwaar positieven en overschrijven en koppelingen voor het maken of bewerken van beleid|Ga in het & compliancecentrum naar **Preventiebeleid voor** \> **gegevensverlies**|[De rapporten weergeven voor preventie van gegevensverlies](../../compliance/view-the-dlp-reports.md)|
 |**Gegevensbeheer** <p> Informatie over hoe etiketten worden toegepast, etiketten die zijn geclassificeerd als records, labeltrends en meer|Ga in het & Compliancecentrum naar **Het dashboard** \> **Informatiebeheer**|[De gegevensbeheerrapporten weergeven](../../compliance/view-the-data-governance-reports.md)|
-|**Dashboard bedreigingsbeheer** (dit wordt ook wel het beveiligingsdashboard genoemd) <p> Bedreigingsdetecties, malwaretrends, best gerichte gebruikers, details over verzonden en ontvangen e-mailberichten en meer|Ga in het & Compliance center naar **Dashboard** \> **Bedreigingsbeheer**|[Rapporten weergeven voor Defender voor Office 365](view-reports-for-mdo.md)|
-|**Bedreigingsverkenner** (ook wel Explorer genoemd) of **realtimedetecties** <p> Vermoedelijke malware gedetecteerd in e-mail en bestanden in Microsoft 365|Ga in het & Compliance center naar **Threat management** \> **Explorer** of **realtime detecties**<br> |[Bedreigingsverkenner (of realtime detecties)](threat-explorer.md)|
-|**Beveiligingsrapporten van Defender Office 365 en e-mail** <p> E-mailbeveiligings- en bedreigingsbeveiligingsrapporten (waaronder malware, spam, phishing en spoofing- en spoofing-rapporten)|Ga in het & compliancecentrum naar **Rapportendashboard** \> |[Rapporten weergeven voor Defender voor Office 365](view-reports-for-mdo.md) <p> [E-mailbeveiligingsrapporten weergeven in het beveiligings- & compliancecentrum](view-email-security-reports.md)|
+|**Dashboard bedreigingsbeheer** (dit wordt ook wel het beveiligingsdashboard genoemd) <p> Bedreigingsdetecties, malwaretrends, best gerichte gebruikers, details over verzonden en ontvangen e-mailberichten en meer|Ga in het & compliancecentrum naar **Het** dashboard \> **Beveiligingsbeheer**|[Rapporten weergeven voor Defender voor Office 365](view-reports-for-mdo.md)|
+|**Explorer** (ook wel bedreigingsverkenner genoemd) of **realtimedetecties** <p> Vermoedelijke malware gedetecteerd in e-mail en bestanden in Microsoft 365|Ga in & Beveiligingscentrum naar **Vulnerability Management** Explorer of \>  realtime **detecties**<br> |[Bedreigingsverkenner (of realtime detecties)](threat-explorer.md)|
+|**Beveiligingsrapporten van Defender Office 365 en e-mail** <p> E-mailbeveiligings- en bedreigingsbeveiligingsrapporten (waaronder malware, spam, phishing en spoofing- en spoofing-rapporten)|Ga in het & Compliancecentrum naar **Rapporten**  >  **e-mail**& samenwerkingsrapporten voor &  >  **[e-mail](https://security.microsoft.com/emailandcollabreport)**|[Rapporten weergeven voor Defender voor Office 365](view-reports-for-mdo.md) <p> [E-mailbeveiligingsrapporten weergeven in het beveiligings- & compliancecentrum](view-email-security-reports.md)|
 |**E-mailstroom** <p> Informatie over verzonden en ontvangen e-mailberichten, recente waarschuwingen, belangrijkste afzenders en geadresseerden, rapporten voor het doorsturen van e-mail en meer|Ga in het & Compliancecentrum naar **Het dashboard E-mailstroom** \> **en** **het** \> **dashboard Rapporten**|[Inzichten in e-mailstroom in het beveiligings- & compliancecentrum](mail-flow-insights-v2.md) <p> [E-mailstroomrapporten weergeven in het beveiligings- & compliancecentrum](view-mail-flow-reports.md)|
 |**AVG naleving** <p> Informatie over avg-naleving, inclusief koppelingen naar gegevensonderwerpen, labeltrends en actieve & gesloten zaken|Ga in het & Compliance center naar **het dashboard Gegevens privacy** \> **AVG**|[Samenvatting algemene verordening gegevensbescherming](/compliance/regulatory/gdpr)|
 |**Auditlogboek** <p> Informatie over Microsoft 365 activiteiten, gebruikers, bestanden of mappen en meer|Ga in het & compliancecentrum naar **Zoeken & zoeken** in het \> **auditlogboek**|[Het auditlogboek doorzoeken in het beveiligings- & compliancecentrum](../../compliance/search-the-audit-log-in-security-and-compliance.md)|
 |**Compliancerapporten** <p> FedRAMP-rapporten, beheer-, risico- en compliancerapporten, ISO-rapporten voor informatiebeveiligingsbeheer en controle- en beoordelingsrapporten voor serviceorganisaties|Ga in het & Compliancecentrum naar **Compliancerapporten voor** \> **servicecontrole**|[Beveiligingsbeleid plannen & naleving in Office 365](../../compliance/plan-for-security-and-compliance.md)|
-|
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Rapporten bewaken en weergeven in de Microsoft 365 Defender-portal](../defender/overview-security-center.md)
+[Microsoft 365 Defender portal](../defender/overview-security-center.md)
 
 [Beschermen tegen bedreigingen in Office 365](protect-against-threats.md)

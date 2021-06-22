@@ -12,20 +12,20 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: ''
 description: Informatie over het gebruik van Power Automate om uw stroom te maken om uw contracten te verwerken met behulp van een Microsoft 365 oplossing.
-ms.openlocfilehash: 0ddcbeff6c8bd119850e3e4ea45db2513e774433
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: e6c1d1e53363f996241efb2394189853d840c6c2
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636252"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53054460"
 ---
 # <a name="step-3-use-power-automate-to-create-your-flow-to-process-your-contracts"></a>Stap 3. Gebruik Power Automate om uw stroom te maken om uw contracten te verwerken
 
-U hebt uw contractbeheerkanaal gemaakt en uw documentbibliotheek SharePoint toegevoegd. De volgende stap is het maken van een Power Automate om uw contracten te verwerken die door SharePoint Syntex-model worden geïdentificeerd en classificeert. U kunt deze stap doen door [een Power Automate te maken in uw SharePoint documentbibliotheek.](https://support.microsoft.com/office/create-a-flow-for-a-list-or-library-in-sharepoint-or-onedrive-a9c3e03b-0654-46af-a254-20252e580d01)
+U hebt uw contractbeheerkanaal gemaakt en uw documentbibliotheek SharePoint toegevoegd. De volgende stap is het maken van een Power Automate stroom voor het verwerken van uw contracten die door SharePoint Syntex model worden geïdentificeerd en classificeert. U kunt deze stap doen door [een Power Automate te maken in uw SharePoint documentbibliotheek.](https://support.microsoft.com/office/create-a-flow-for-a-list-or-library-in-sharepoint-or-onedrive-a9c3e03b-0654-46af-a254-20252e580d01)
 
 Voor uw oplossing voor contractenbeheer wilt u een Power Automate maken om de volgende acties uit te voeren:
 
--  Nadat een contract is geclassificeerd door uw SharePoint Syntex-model, wijzigt u de contractstatus **in In review.**
+-  Nadat een contract is geclassificeerd door uw SharePoint Syntex model, wijzigt u de contractstatus **in In review.**
 - Het contract wordt vervolgens beoordeeld en wordt goedgekeurd of geweigerd.
 - Voor goedgekeurde contracten worden de contractgegevens geplaatst op een tabblad voor betalingsverwerking.
 - Voor geweigerde contracten wordt het team op de hoogte gesteld voor verdere analyse. 
@@ -36,7 +36,7 @@ In het volgende diagram ziet u de Power Automate voor de oplossing voor contract
 
 ## <a name="prepare-your-contract-for-review"></a>Uw contract voorbereiden voor controle
 
-Wanneer een contract wordt geïdentificeerd en geclassificeerd door uw SharePoint Syntex-documentkennismodel, verandert de Power Automate de status eerst **in In revisie.**
+Wanneer een contract wordt geïdentificeerd en geclassificeerd door uw SharePoint Syntex document-inzichtsmodel, wordt de status Power Automate de status eerst gewijzigd **in In revisie.**
 
 ![Status bijwerken.](../media/content-understanding/flow-overview.png)
 
@@ -127,9 +127,9 @@ De volgende code is de JSON die voor deze stap in de Power Automate wordt gebrui
 ```
 
 
-## <a name="conditional"></a>Voorwaardelijk
+## <a name="conditional-context"></a>Voorwaardelijke context
 
-In uw stroom moet u vervolgens een voorwaarde maken waarin uw contract wordt goedgekeurd of geweigerd.
+In uw stroom moet u vervolgens een voorwaarde maken waarin uw contract wordt [goedgekeurd of](#if-the-contract-is-approved) [geweigerd.](#if-the-contract-is-rejected)
 
 ![Voorwaardelijk.](../media/content-understanding/condition.png)
 
@@ -152,6 +152,19 @@ Wanneer een contract is goedgekeurd, treden de volgende dingen op:
 - In de stroom maakt u het volgende item om goedgekeurde contracten te verplaatsen naar **het tabblad Voor uitbetaling.**
 
    ![Flow item om naar Pay Out te gaan.](../media/content-understanding/ready-for-payout.png)
+
+    Gebruik de waarden in de volgende tabel om de expressies te verkrijgen voor de Teams de benodigde gegevens.
+ 
+    |Naam     |Expression |
+    |---------|-----------|
+    | Goedkeuringstoestand  | body('Post_an_Adaptive_Card_to_a_Teams_channel_and_wait_for_a_response')? ['submitActionId']         |
+    | Goedgekeurd door     | body('Post_an_Adaptive_Card_to_a_Teams_channel_and_wait_for_a_response')? ['responder'] ['displayName']        |
+    | Goedkeuringsdatum     | body('Post_an_Adaptive_Card_to_a_Teams_channel_and_wait_for_a_response')? ['responseTime']         |
+    | Opmerking     | body('Post_an_Adaptive_Card_to_a_Teams_channel_and_wait_for_a_response')? ['gegevens'] ['acComments']         |
+    
+    In het volgende voorbeeld ziet u hoe u het formulevak gebruikt in Power Automate om een expressie te schrijven.
+
+   ![Schermafbeelding in Power Automate met een expressieformule.](../media/content-understanding/expression-formula-power-automate.png)    
 
 - Een adaptieve kaart waarin wordt aangegeven dat het contract is goedgekeurd, wordt gemaakt en gepost op het kanaal Contractbeheer.
 
@@ -250,11 +263,11 @@ Wanneer een contract is geweigerd, treden de volgende dingen op:
 
 - In uw stroom bekijkt u het contractbestand, wijzigt u de status in **Geweigerd** en controleert u het bestand opnieuw.
 
-   ![Flow status geweigerd.](../media/content-understanding/reject-flow.png)
+   ![Flow status geweigerd in het contractbestand.](../media/content-understanding/reject-flow.png)
 
 - In uw stroom maakt u een adaptieve kaart waarin wordt aangegeven dat het contract is geweigerd.
 
-   ![Flow status geweigerd.](../media/content-understanding/reject-flow-item.png)
+   ![Flow status wordt geweigerd op adaptieve kaart.](../media/content-understanding/reject-flow-item.png)
 
 De volgende code is de JSON die voor deze stap in de Power Automate wordt gebruikt.
 

@@ -16,12 +16,12 @@ ms.collection:
 description: Meer informatie over Safe documenten in Microsoft 365 E5 of Microsoft 365 E5 Security.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1186c7856d0b979c483cf6dd1c0a010ab582e2ce
-ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
+ms.openlocfilehash: 1049543b11ad14eeeed596367228f025cc8edd65
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51644750"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53054444"
 ---
 # <a name="safe-documents-in-microsoft-365-e5"></a>Veilige documenten in Microsoft 365 E5
 
@@ -38,11 +38,11 @@ Safe Documenten is een functie in Microsoft 365 E5 of Microsoft 365 E5 Security 
 
 - Safe Documenten wordt ondersteund in Microsoft 365-apps voor ondernemingen (voorheen bekend als Office 365 ProPlus) versie 2004 of hoger.
 
-- U opent het Beveiligings- en compliancecentrum in <https://protection.office.com>. Als u rechtstreeks naar de **pagina ATP-Safe bijlagen** wilt gaan, opent u <https://protection.office.com/safeattachmentv2> .
+- U opent de Microsoft 365 Defender-portal bij <https://security.microsoft.com>. Als u rechtstreeks naar de pagina Safe **bijlagen** wilt gaan, gebruikt u <https://security.microsoft.com/safeattachmentv2> .
 
-- Zie [Verbinding maken met Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) als je verbinding wilt maken met Exchange Online PowerShell.
+- Zie [Verbinding maken met Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell.
 
-- U moet over toegewezen machtigingen beschikken in **Exchange Online** voordat u de procedures in dit artikel kunt uitvoeren:
+- U hebt machtigingen nodig in **Exchange Online** voordat u de procedures in dit artikel kunt uitvoeren:
   - Als u Safe documenteninstellingen wilt configureren, moet u lid zijn van de rollengroepen **Organisatiebeheer** of **Beveiligingsbeheerder.**
   - Als u alleen-lezen toegang wilt tot Safe documenteninstellingen, moet  u lid zijn van de rollengroepen Globale lezer of **Beveiligingslezer.**
 
@@ -60,19 +60,19 @@ Om u te beschermen, Safe documenten bestanden naar de [Microsoft Defender voor E
 
 Bestanden die door Safe Documenten worden niet bewaard in Defender na de tijd die nodig is voor analyse (meestal minder dan 24 uur).
 
-## <a name="use-the-security--compliance-center-to-configure-safe-documents"></a>Gebruik het Beveiligings- & compliancecentrum om documenten Safe configureren
+## <a name="use-the-microsoft-365-defender-to-configure-safe-documents"></a>De Microsoft 365 Defender gebruiken om documenten Safe configureren
 
-1. Ga in het & Beveiligingscentrum naar **ATP** voor bedreigingsbeleid Safe \>  \> **bijlagen** en klik vervolgens op **Algemene instellingen.**
+1. Open de Microsoft 365 Defender portal en ga naar **E-mail & samenwerkingsbeleid** & regels Beleidsregels voor bedreigingsbeleid \>  \>  \>  \> **Safe Bijlagen.**
 
-2. Configureer **de volgende instellingen** in de algemene instellingen die worden weergegeven:
+2. Klik op **Safe pagina Bijlagen** op Algemene **instellingen.**
 
+3. Configureer **de volgende instellingen** in de algemene instellingen die worden weergegeven:
    - **Schakel Safe documenten in voor Office clients:** Verplaats de schakelknop naar rechts om de functie in te ![ schakelen: In- of ](../../media/scc-toggle-on.png) uitschakelen.
-
-   - **Toestaan dat** personen door de beveiligde weergave kunnen klikken, zelfs als Safe Documenten het bestand als schadelijk identificeert: U wordt aangeraden deze optie uit te schakelen (laat de schakeloptie links staan: Schakel de schakeloptie ![ ](../../media/scc-toggle-off.png) uit).
+   - **Toestaan dat** personen door de beveiligde weergave kunnen klikken, zelfs als Safe Documenten het bestand als schadelijk hebben aangemerkt: U wordt aangeraden deze optie uitgeschakeld te laten (laat de schakeloptie links staan: Schakel de schakeloptie ![ ](../../media/scc-toggle-off.png) uit).
 
    Klik op **Opslaan** wanneer u gereed bent.
 
-   ![Safe Documenteninstellingen nadat u Globale instellingen op de pagina Safe bijlagen.](../../media/safe-docs.png)
+   ![Safe Documenteninstellingen nadat u Globale instellingen op de pagina Safe bijlagen.](../../media/safe-docs-global-settings.png)
 
 ### <a name="use-exchange-online-powershell-to-configure-safe-documents"></a>PowerShell Exchange Online gebruiken om documenten Safe configureren
 
@@ -95,7 +95,7 @@ Zie [Set-AtpPolicyForO365](/powershell/module/exchange/set-atppolicyforo365)voor
 
 ### <a name="onboard-to-the-microsoft-defender-for-endpoint-service-to-enable-auditing-capabilities"></a>Onboard to the Microsoft Defender for Endpoint Service to enable auditing capabilities
 
-Als u Microsoft Defender voor Eindpunt wilt implementeren, moet u de verschillende fasen van de implementatie doorlopen. Na onboarding kunt u auditfuncties configureren in het beveiligings- & compliancecentrum.
+Als u Microsoft Defender voor Eindpunt wilt implementeren, moet u de verschillende fasen van de implementatie doorlopen. Na onboarding kunt u controlemogelijkheden configureren in de Microsoft 365 Defender portal.
 
 Zie Onboard to the Microsoft Defender for Endpoint service (Onboard [to the Microsoft Defender for Endpoint service)](/microsoft-365/security/defender-endpoint/onboarding)voor meer informatie. Als u extra hulp nodig hebt, raadpleegt u Microsoft Defender oplossen voor problemen met de [onboarding van eindpunten.](/microsoft-365/security/defender-endpoint/troubleshoot-onboarding)
 
@@ -103,7 +103,7 @@ Zie Onboard to the Microsoft Defender for Endpoint service (Onboard [to the Micr
 
 Als u wilt controleren of u documenten hebt ingeschakeld en geconfigureerd Safe documenten, gaat u als volgt te werk:
 
-- Ga in het Beveiligings- & Compliancecentrum naar ATP Safe Bijlagen voor  \>  \> **bedreigingsbeleid,**   klik op Algemene instellingen en controleer de Safe-documenten in- en uitschakelen voor **Office-clients** en Laat personen door de beveiligde weergave klikken, zelfs als Safe Documenten het bestand identificeert als schadelijke instellingen.
+- Ga in de Microsoft 365 Defender-portal naar Beleidsregels voor samenwerking e-mail **&** & regels Beleidsbeleid voor bedreigingsbeleid Safe Algemene instellingen bijlagen en controleer het Safe-documenten voor \>  \>  \>  \>  \>  **Office-clients**  in- en toestaan dat personen door de beveiligde weergave kunnen klikken, zelfs als Safe Documenten het bestand identificeert als schadelijke instellingen.
 
 - Voer de volgende opdracht uit in Exchange Online PowerShell en controleer de eigenschapswaarden:
 

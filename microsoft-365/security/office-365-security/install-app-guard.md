@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 description: De nieuwste informatie over isolatie op hardwarebasis. Voorkomen dat huidige en nieuwe aanvallen, zoals exploits of schadelijke koppelingen, de productiviteit van werknemers en de beveiliging van het bedrijf verstoren.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d0fa6ad884c6b21457c8359cf82e32e4b8c100ba
-ms.sourcegitcommit: 7ebed5810480d7c49f8ca03207b5ea84993d253f
+ms.openlocfilehash: 39d6a9c3a3c3a5e2c736025a26c22588f9f08bb0
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51488309"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53055269"
 ---
 # <a name="application-guard-for-office-for-admins"></a>Application Guard voor Office voor beheerders
 
@@ -83,9 +83,9 @@ Zie Overzicht van updatekanalen voor Office updatekanalen voor [Microsoft 365.](
 
 Deze stap zorgt ervoor dat de gegevens die nodig zijn om problemen te identificeren en op te lossen, microsoft bereiken. Volg deze stappen om diagnostische gegevens op uw Windows in te stellen:
 
-1. Open **Instellingen** in het menu Start.
+1. Open **Instellingen** vanuit de Startmenu.
 
-   ![Menu Start](../../media/ag05-diagnostic.png)
+   ![Startmenu](../../media/ag05-diagnostic.png)
 
 2. Selecteer **Windows Instellingen** op **Privacy**.
 
@@ -120,7 +120,6 @@ Wanneer het bestand wordt geopend, moet het een paar visuele indicatoren weergev
 ## <a name="configure-application-guard-for-office"></a>Application Guard configureren voor Office
 
 Office ondersteunt het volgende beleid, zodat u de mogelijkheden van Application Guard kunt configureren voor Office. Dit beleid kan worden geconfigureerd via groepsbeleidsregels of via de [Office cloudbeleidsservice.](/DeployOffice/overview-office-cloud-policy-service)
-Zie configuratie die is ingesteld door uw beheerder door groepsbeleidsinstellingen te bekijken in Beheersjablonen voor gebruikersconfiguratie **\\ Microsoft Office \\ 2016 \\ Instellingen Trust Center Application \\ \\ Guard**.
 
 
 > [!NOTE]
@@ -234,6 +233,9 @@ Wanneer aan deze heuristische wordt voldaan, Office een Application Guard-contai
 ## <a name="known-issues"></a>Bekende problemen
 
 * Als u `http` webkoppelingen (of `https` ) selecteert, wordt de browser niet geopend.
-* Inhoud of afbeeldingen van rtf-indeling (Rich Text Format) in Office documenten die met Application Guard zijn geopend, worden op dit moment niet ondersteund.
-* De standaardinstelling voor niet-ondersteunde bestandstypenbeveiligingsbeleid is het blokkeren van het openen van niet-vertrouwde niet-ondersteunde bestandstypen IRM, CSV of HTML.
+* De standaardinstelling voor kopieerbeveiligingsbeleid is het inschakelen van alleen toegang tot tekst op het klembord.
+* De standaardinstelling voor niet-ondersteunde bestandstypenbeveiligingsbeleid is het blokkeren van het openen van niet-vertrouwde niet-ondersteunde bestandstypen die zijn versleuteld of waarin IRM (Information Rights Management) is ingesteld. Dit geldt ook voor bestanden met gevoeligheidslabels voor Microsoft Information Protection met versleuteling (vertrouwelijk of zeer vertrouwelijk).
+* CSV- en HTML-bestanden worden momenteel niet ondersteund.
+* Application Guard voor Office werkt momenteel niet met gecomprimeerde NTFS-volumes. Als u een foutmelding 'ERROR_VIRTUAL_DISK_LIMITATION' ziet, kunt u proberen het volume te decomprimeren.
 * Updates voor .NET kunnen ertoe leiden dat bestanden niet worden geopend in Application Guard. Als tijdelijke oplossing kunnen gebruikers hun apparaat opnieuw opstarten wanneer ze deze fout zien. Meer informatie over het probleem bij [Het ontvangen van een foutbericht](https://support.microsoft.com/help/4575917/receiving-an-error-message-when-attempting-to-open-windows-defender-ap)bij het openen van Windows Defender Application Guard of Windows Sandbox.
+* Zie [Veelgestelde vragen - Microsoft Defender Application Guard voor meer informatie.](/windows/security/threat-protection/microsoft-defender-application-guard/faq-md-app-guard) 

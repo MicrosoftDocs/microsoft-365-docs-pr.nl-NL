@@ -1,5 +1,5 @@
 ---
-title: Quarantainelabels
+title: Quarantainebeleid
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -14,26 +14,26 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 ROBOTS: NOINDEX
-description: Beheerders kunnen leren hoe ze quarantainelabels kunnen gebruiken om te bepalen wat gebruikers kunnen doen met hun in quarantaine geplaatste berichten.
+description: Beheerders kunnen leren hoe ze quarantainebeleid kunnen gebruiken om te bepalen wat gebruikers kunnen doen met hun in quarantaine geplaatste berichten.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 512c589572502deacb5529ca9d6f2876861bf050
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 96dc1e2158787457884ca6a3c6f27bf76e83a369
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274458"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53055192"
 ---
-# <a name="quarantine-tags"></a>Quarantainelabels
+# <a name="quarantine-policies"></a>Quarantainebeleid
 
 > [!NOTE]
 > De functies die in dit artikel worden beschreven, zijn momenteel beschikbaar in Preview, zijn niet voor iedereen beschikbaar en kunnen worden gewijzigd.
 
-Met quarantainelabels in Exchange Online Protection (EOP) kunnen beheerders bepalen wat gebruikers kunnen doen met hun in quarantaine geplaatste berichten op basis van hoe het bericht in quarantaine is geplaatst.
+Met quarantainebeleid (voorheen quarantainelabels genoemd) in Exchange Online Protection (EOP) kunnen beheerders bepalen wat gebruikers kunnen doen met hun in quarantaine geplaatste berichten op basis van hoe het bericht in quarantaine is geplaatst.
 
-EOP heeft vanouds bepaalde interactiviteitsniveaus toegestaan of voorkomen voor berichten in [quarantaine](find-and-release-quarantined-messages-as-a-user.md) en in [spammeldingen van eindgebruikers.](use-spam-notifications-to-release-and-report-quarantined-messages.md) Eindgebruikers kunnen bijvoorbeeld berichten bekijken en vrijgeven die in quarantaine zijn geplaatst door antispamfilters als spam of bulksgewijs, maar ze kunnen berichten die in quarantaine zijn geplaatst, niet weergeven of vrijgeven als phishing met veel vertrouwen.
+EOP heeft vanouds bepaalde interactiviteitsniveaus toegestaan of voorkomen voor berichten in [quarantaine](find-and-release-quarantined-messages-as-a-user.md) en in [spammeldingen van eindgebruikers.](use-spam-notifications-to-release-and-report-quarantined-messages.md) Gebruikers kunnen bijvoorbeeld berichten bekijken en vrijgeven die in quarantaine zijn geplaatst door antispamfilters als spam of bulksgewijs, maar ze kunnen berichten die in quarantaine zijn geplaatst, niet weergeven of vrijgeven als phishing met hoog vertrouwen (alleen beheerders kunnen dat doen).
 
-Voor [ondersteunde](#step-2-assign-a-quarantine-tag-to-supported-features)beveiligingsfuncties geven quarantainelabels aan wat gebruikers mogen doen in spammeldingen van eindgebruikers en in hun in quarantaine geplaatste berichten in quarantaine (berichten waarbij de gebruiker een geadresseerde is). Standaard quarantainelabels worden automatisch toegewezen om de historische mogelijkheden voor eindgebruikers af te dwingen voor in quarantaine geplaatste berichten. U kunt ook aangepaste quarantainelabels maken en toewijzen om te voorkomen dat eindgebruikers specifieke acties uitvoeren op in quarantaine geplaatste berichten.
+Voor [ondersteunde](#step-2-assign-a-quarantine-policy-to-supported-features)beveiligingsfuncties geeft quarantainebeleid aan wat gebruikers mogen doen in spammeldingen van eindgebruikers en in hun in quarantaine geplaatste berichten in quarantaine (berichten waarbij de gebruiker een geadresseerde is). Standaard quarantainebeleid wordt automatisch toegewezen om de historische mogelijkheden voor gebruikers op in quarantaine geplaatste berichten af te dwingen. U kunt ook aangepaste quarantainebeleidsregels maken en toewijzen om te voorkomen dat eindgebruikers specifieke acties uitvoeren voor in quarantaine geplaatste berichten.
 
 De afzonderlijke machtigingen worden gecombineerd in de volgende vooraf ingestelde machtigingsgroepen:
 
@@ -57,25 +57,25 @@ De beschikbare afzonderlijke machtigingen en wat al dan niet is opgenomen in de 
 |**Ontvangers toestaan om een bericht uit quarantaine** te laten gaan (_PermissionToRequestRelease_)||![Vinkje](../../media/checkmark.png)||
 |
 
-Als de standaardmachtigingen in de vooraf ingestelde machtigingsgroepen u niet be staan, kunt u aangepaste machtigingen gebruiken wanneer u aangepaste quarantainelabels maakt of wijzigt. Zie de sectie Machtigingsgegevens voor [](#quarantine-tag-permission-details) quarantainelabels verder in dit artikel voor meer informatie over wat elke machtiging doet.
+Als de standaardmachtigingen in de vooraf ingestelde machtigingsgroepen u niet be staan, kunt u aangepaste machtigingen gebruiken wanneer u aangepaste quarantainebeleidsregels maakt of wijzigt. Zie de sectie Machtigingsgegevens voor [](#quarantine-policy-permission-details) quarantainebeleid verder in dit artikel voor meer informatie over wat elke machtiging doet.
 
-U maakt en wijst quarantainelabels toe in het Beveiligings- & Compliancecentrum of in PowerShell (Exchange Online PowerShell voor Microsoft 365-organisaties met Exchange Online Postvakken; zelfstandige EOP PowerShell in EOP-organisaties zonder Exchange Online-postvakken).
+U maakt en wijst quarantainebeleid toe in de Microsoft 365 Defender-portal of in PowerShell (Exchange Online PowerShell voor Microsoft 365-organisaties met Exchange Online Postvakken; zelfstandige EOP PowerShell in EOP-organisaties zonder Exchange Online-postvakken).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent het Beveiligings- en compliancecentrum in <https://protection.office.com/>. Als u rechtstreeks naar de pagina **Quarantainelabels wilt** gaan, opent u <https://protection.office.com/quarantineTags> .
+- U opent de Microsoft 365 Defender-portal bij <https://security.microsoft.com>. Of als u rechtstreeks naar de pagina **Quarantainebeleid wilt** gaan, opent <https://security.microsoft.com/quarantineTags> u .
 
 - Zie [Verbinding maken met Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](/powershell/exchange/connect-to-exchange-online-protection-powershell) als je verbinding wilt maken met zelfstandige EOP PowerShell.
 
-- Als u quarantainelabels wilt weergeven, maken, wijzigen of  verwijderen,  moet u lid zijn van de rollen Organisatiebeheer of Beveiligingsbeheerder in het [Beveiligings- & Compliancecentrum.](permissions-in-the-security-and-compliance-center.md)
+- Als u quarantainebeleid wilt weergeven, maken, wijzigen of verwijderen, moet  u lid zijn van de rollen Organisatiebeheer of Beveiligingsbeheerder in de Microsoft 365 Defender portal.  Zie [Machtigingen in de Microsoft 365 Defender-portal](permissions-microsoft-365-security-center.md) voor meer informatie.
 
-## <a name="step-1-create-quarantine-tags-in-the-security--compliance-center"></a>Stap 1: Quarantainelabels maken in het beveiligings- & compliancecentrum
+## <a name="step-1-create-quarantine-policies-in-the-microsoft-365-defender-portal"></a>Stap 1: Quarantainebeleid maken in de Microsoft 365 Defender portal
 
-1. Ga in het & Compliancecentrum naar **Bedreigingsbeleid** \>  en selecteer vervolgens **Quarantainelabels.**
+1. Ga in Microsoft 365 Defender portal naar **E-mail** & samenwerkingSbeleidsregels sectie Quarantainebeleid en selecteer vervolgens \>  \>  \>  **Quarantainebeleid.**
 
-2. Selecteer op **de pagina Quarantainelabels** **de optie Aangepaste tag toevoegen.**
+2. Klik op **de pagina Quarantainebeleid** op ![ Aangepast beleidspictogram Toevoegen Aangepast beleid ](../../media/m365-cc-sc-create-icon.png) **toevoegen.**
 
-3. De **wizard Nieuwe tag** wordt geopend. Voer op **de pagina Tagnaam** een korte, maar unieke naam in het veld **Naam van** tag in. U moet de tag identificeren en selecteren op naam in de komende stappen. Wanneer u gereed bent, klikt u op **Volgende**.
+3. De **wizard Nieuw beleid** wordt geopend. Voer op **de pagina Beleidsnaam** een korte, maar unieke naam in het vak **Beleidsnaam** in. U moet het quarantainebeleid identificeren en selecteren op naam in de komende stappen. Wanneer je klaar bent, klik je op **Volgende**.
 
 4. Selecteer op **de pagina Berichttoegang** van geadresseerde een van de volgende waarden:
    - **Geen toegang**
@@ -84,34 +84,32 @@ U maakt en wijst quarantainelabels toe in het Beveiligings- & Compliancecentrum 
 
    De afzonderlijke machtigingen die in deze machtigingsgroepen zijn opgenomen, worden eerder in dit artikel beschreven.
 
-   Als u aangepaste machtigingen wilt opgeven, **selecteert u Specifieke toegang instellen (Geavanceerd)** en configureert u de volgende instellingen:
+   Als u aangepaste machtigingen wilt opgeven, selecteert u **Specifieke toegang instellen (Geavanceerd)** en configureert u de volgende instellingen:
 
      - **Selecteer releaseactievoorkeur**: Selecteer een van de volgende waarden:
        - **Geen releaseactie:** dit is de standaardwaarde.
        - **Geadresseerden toestaan een bericht uit quarantaine te plaatsen**
        - **Geadresseerden toestaan om een bericht uit quarantaine te laten worden geplaatst**
-
      - **Selecteer extra acties die geadresseerden kunnen uitvoeren op in quarantaine** geplaatste berichten: Selecteer enkele, alle of geen van de volgende waarden:
        - **Verwijderen**
        - **Voorbeeld**
-       - **Afzender toestaan**
        - **Afzender blokkeren**
 
-   Deze machtigingen en het effect ervan op in quarantaine geplaatste [](#quarantine-tag-permission-details) berichten en in spammeldingen van eindgebruikers worden beschreven in de sectie Machtigingsgegevens van quarantainelabels verder in dit artikel.
+   Deze machtigingen en het effect ervan op in quarantaine geplaatste [](#quarantine-policy-permission-details) berichten en spammeldingen van eindgebruikers worden beschreven in de sectie Machtigingsgegevens voor quarantainebeleid verder in dit artikel.
 
-   Wanneer u gereed bent, klikt u op **Volgende**.
+   Wanneer je klaar bent, klik je op **Volgende**.
 
-5. Controleer de **instellingen** op de pagina Overzicht die wordt weergegeven. U kunt op **Bewerken op elke** instelling klikken om deze te wijzigen.
+5. Controleer uw **instellingen op de** pagina Beleid controleren die wordt weergegeven. U kunt in elke sectie **Bewerken** selecteren om de instellingen in de sectie te wijzigen. U kunt ook op **Terug** klikken of de specifieke pagina in de wizard selecteren.
 
    Wanneer u klaar bent, klikt u op **Verzenden.**
 
-6. Klik **op Klaar** op de bevestigingspagina die wordt weergegeven.
+6. Klik op de bevestigingspagina die wordt weergegeven op **Gereed**.
 
-U bent nu klaar om de quarantainetag toe te wijzen aan een quarantainefunctie, zoals beschreven in de sectie Stap [2.](#step-2-assign-a-quarantine-tag-to-supported-features)
+U kunt nu het quarantainebeleid toewijzen aan een quarantainefunctie, zoals beschreven in de sectie [Stap 2.](#step-2-assign-a-quarantine-policy-to-supported-features)
 
-### <a name="create-quarantine-tags-in-powershell"></a>Quarantainelabels maken in PowerShell
+### <a name="create-quarantine-policies-in-powershell"></a>Quarantainebeleid maken in PowerShell
 
-Als u Liever PowerShell gebruikt om quarantainelabels te maken, maakt u verbinding met Exchange Online PowerShell of Exchange Online Protection PowerShell en gebruikt u de cmdlet **New-QuarantineTag.** U kunt kiezen uit twee verschillende methoden:
+Als u Liever PowerShell gebruikt om quarantainebeleid te maken, maakt u verbinding met Exchange Online PowerShell of Exchange Online Protection PowerShell en gebruikt u de cmdlet **New-QuarantineTag.** U kunt kiezen uit twee verschillende methoden:
 
 - Gebruik de _parameter EndUserQuarantinePermissionsValue._
 - Gebruik de _parameter EndUserQuarantinePermissions._
@@ -120,7 +118,7 @@ Deze methoden worden in de volgende secties beschreven.
 
 #### <a name="use-the-enduserquarantinepermissionsvalue-parameter"></a>De parameter EndUserQuarantinePermissionsValue gebruiken
 
-Als u een quarantainetag wilt maken met de parameter _EndUserQuarantinePermissionsValue,_ gebruikt u de volgende syntaxis:
+Als u een quarantainebeleid wilt maken met de parameter _EndUserQuarantinePermissionsValue,_ gebruikt u de volgende syntaxis:
 
 ```powershell
 New-QuarantineTag -Name "<UniqueName>" -EndUserQuarantinePermissionsValue <0 to 236>
@@ -152,7 +150,7 @@ De vereiste volgorde en waarden voor elke afzonderlijke machtiging in vooraf ing
 
 <sup>\*\*</sup> Stel beide waarden niet in op 1. Stel een op 1 en de andere in op 0 of stel beide in op 0.
 
-In dit voorbeeld wordt een nieuwe naam van de quarantainetag NoAccess gemaakt die de machtiging Geen toegang toewijst, zoals beschreven in de vorige tabel.
+In dit voorbeeld wordt een nieuwe naam voor het quarantainebeleid NoAccess gemaakt waarin de machtiging Geen toegang wordt toegewezen, zoals beschreven in de vorige tabel.
 
 ```powershell
 New-QuarantineTag -Name NoAccess -EndUserQuarantinePermissionsValue 0
@@ -166,7 +164,7 @@ Zie [New-QuarantineTag](/powershell/module/exchange/new-quarantinetag)voor gedet
 
 #### <a name="use-the-enduserquarantinepermissions-parameter"></a>De parameter EndUserQuarantinePermissions gebruiken
 
-Als u een quarantainetag wilt maken met _de parameter EndUserQuarantinePermissionsValue,_ gaat u als volgt te werk:
+Als u een quarantainebeleid wilt maken met de parameter _EndUserQuarantinePermissionsValue,_ gaat u als volgt te werk:
 
 A. Sla een quarantainemachtigingsobject op in een variabele met de **cmdlet New-QuarantinePermissions.**
 
@@ -220,7 +218,7 @@ Nadat u het machtigingsobject in een variabele hebt gemaakt en opgeslagen, gebru
 New-QuarantineTag -Name "<UniqueName>" -EndUserQuarantinePermissions $<VariableName>
 ```
 
-In dit voorbeeld wordt een nieuwe quarantainetag met de naam LimitedAccess gemaakt met behulp van het machtigingsobject dat in de vorige stap is beschreven `$LimitedAccess` en gemaakt.
+In dit voorbeeld wordt een nieuw quarantainebeleid met de naam LimitedAccess gemaakt met het machtigingsobject dat in de vorige stap `$LimitedAccess` is beschreven en gemaakt.
 
 ```powershell
 New-QuarantineTag -Name LimitedAccess -EndUserQuarantinePermissions $LimitedAccess
@@ -228,18 +226,18 @@ New-QuarantineTag -Name LimitedAccess -EndUserQuarantinePermissions $LimitedAcce
 
 Zie [New-QuarantineTag](/powershell/module/exchange/new-quarantinetag)voor gedetailleerde syntaxis- en parametergegevens.
 
-## <a name="step-2-assign-a-quarantine-tag-to-supported-features"></a>Stap 2: Een quarantainetag toewijzen aan ondersteunde functies
+## <a name="step-2-assign-a-quarantine-policy-to-supported-features"></a>Stap 2: Een quarantainebeleid toewijzen aan ondersteunde functies
 
-In _ondersteunde_ beveiligingsfuncties die berichten of bestanden in quarantaine plaatsen (automatisch of als een configureerbare actie), kunt u een quarantainelabel toewijzen aan de beschikbare quarantaineacties. Functies die berichten in quarantaine plaatsen en de beschikbaarheid van quarantainelabels worden beschreven in de volgende tabel:
+In _ondersteunde_ beveiligingsfuncties die berichten of bestanden in quarantaine plaatsen (automatisch of als een configureerbare actie), kunt u een quarantainebeleid toewijzen aan de beschikbare quarantaineacties. Functies die berichten in quarantaine plaatsen en de beschikbaarheid van quarantainebeleid worden beschreven in de volgende tabel:
 
 <br>
 
 ****
 
-|Functie|Worden quarantainelabels ondersteund?|Standaard quarantainelabels gebruikt|
+|Functie|Wordt quarantainebeleid ondersteund?|Standaard quarantainebeleid gebruikt|
 |---|:---:|---|
-|[Antispambeleid:](configure-your-spam-filter-policies.md) <ul><li>**Spam** (_SpamAction_)</li><li>**Spam met hoog vertrouwen** _(HighConfidenceSpamAction)_</li><li>**Phishing-e-mail** (_PhishSpamAction_)</li><li>**Phishing-e-mail** met hoog vertrouwen _(HighConfidencePhishAction)_</li><li>**Bulk-e-mail** (_BulkSpamAction_)</li></ul>|Ja|<ul><li>DefaultSpamTag (volledige toegang)</li><li>DefaultHighConfSpamTag (Volledige toegang)</li><li>DefaultPhishTag (volledige toegang)</li><li>DefaultHighConfPhishTag (Geen toegang)</li><li>DefaultBulkTag (Volledige toegang)</li></ul>
-|Anti-phishingbeleid: <ul><li>[Spoof intelligence protection](set-up-anti-phishing-policies.md#spoof-settings) (_AuthenticationFailAction_)</li><li>[Imitatiebeveiliging:](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)<sup>\*</sup> <ul><li>**Als e-mail wordt verzonden door een imiteerde gebruiker** (_TargetedUserProtectionAction_)</li><li>**Als e-mail wordt verzonden door een nagebootsd domein** (_TargetedDomainProtectionAction_)</li><li>**Postvakintelligentie** \> **Als e-mail wordt verzonden door een imiteerde gebruiker** (_MailboxIntelligenceProtectionAction_)</li></ul></li></ul></ul>|Nee|n/a|
+|[Antispambeleid:](configure-your-spam-filter-policies.md) <ul><li>**Spam** (_SpamAction_)</li><li>**Spam met hoog vertrouwen** _(HighConfidenceSpamAction)_</li><li>**Phishing** (_PhishSpamAction_)</li><li>**Phishing met hoog vertrouwen** _(HighConfidencePhishAction)_</li><li>**Bulksgewijs** (_BulkSpamAction_)</li></ul>|Ja|<ul><li>DefaultSpamTag (volledige toegang)</li><li>DefaultHighConfSpamTag (Volledige toegang)</li><li>DefaultPhishTag (volledige toegang)</li><li>DefaultHighConfPhishTag (Geen toegang)</li><li>DefaultBulkTag (Volledige toegang)</li></ul>
+|Anti-phishingbeleid: <ul><li>[Spoof intelligence protection](set-up-anti-phishing-policies.md#spoof-settings) (_AuthenticationFailAction_)</li><li>[Imitatiebeveiliging:](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)<sup>\*</sup> <ul><li>**Als bericht wordt gedetecteerd als een imiteerde gebruiker** (_TargetedUserProtectionAction_)</li><li>**Als bericht wordt gedetecteerd als een nagebootsd domein** _(TargetedDomainProtectionAction)_</li><li>**Als postvakinformatie gebruikers detecteert en nabootst** _(MailboxIntelligenceProtectionAction)_</li></ul></li></ul></ul>|Nee|n/a|
 |[Anti-malwarebeleid:](configure-anti-malware-policies.md)Alle gedetecteerde berichten worden altijd in quarantaine geplaatst.|Nee|n/a|
 |[Veilige bijlagen voor SharePoint, OneDrive en Microsoft Teams](mdo-for-spo-odb-and-teams.md)|Nee|n/a|
 |[Regels voor e-mailstroom](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) (ook wel transportregels genoemd) met de actie: Het bericht verzenden **naar de gehoste quarantaine** _(Quarantaine)._|Nee|n/a|
@@ -247,29 +245,33 @@ In _ondersteunde_ beveiligingsfuncties die berichten of bestanden in quarantaine
 
 <sup>\*</sup>Instellingen voor imitatiebeveiliging zijn alleen beschikbaar in anti-phishingbeleid in Microsoft Defender voor Office 365.
 
-Als u tevreden bent met de machtigingen voor eindgebruikers die worden geleverd door de standaard quarantainelabels, hoeft u niets te doen. Als u de mogelijkheden van eindgebruikers (beschikbare knoppen) wilt aanpassen in spammeldingen van eindgebruikers of in in quarantaine geplaatste berichtgegevens, kunt u een aangepaste quarantainetag toewijzen.
+Als u tevreden bent met de machtigingen voor eindgebruikers die worden geleverd door het standaard quarantainebeleid, hoeft u niets te doen. Als u de mogelijkheden van eindgebruikers (beschikbare knoppen) wilt aanpassen in spammeldingen van eindgebruikers of in in quarantaine geplaatste berichtgegevens, kunt u een aangepast quarantainebeleid toewijzen.
 
-### <a name="assign-quarantine-tags-in-anti-spam-policies-in-the-security--compliance-center"></a>Quarantainelabels toewijzen in antispambeleid in het beveiligings- & compliancecentrum
+### <a name="assign-quarantine-policies-in-anti-spam-policies-in-the-microsoft-365-defender-portal"></a>Quarantainebeleid toewijzen in antispambeleid in de Microsoft 365 Defender portal
 
 Volledige instructies voor het maken en wijzigen van antispambeleid worden beschreven in [Antispambeleid](configure-your-spam-filter-policies.md)configureren in EOP.
 
-1. Ga in het & Compliancecentrum naar **Beleid** voor bedreigingsbeheer \>  \> en selecteer vervolgens **Antispam.** Of open <https://protection.office.com/antispam> .
+1. Ga in Microsoft 365 Defender portal naar **E-mail & samenwerkingsbeleid** & sectie Beleidsregels \>  \>  \> **Anti-spam.** Of open <https://security.microsoft.com/antispam> .
 
-2. Zoek en selecteer een bestaand antispambeleid dat u wilt bewerken of maak een nieuw antispambeleid.
+2. Ga op **de pagina Antispambeleid** op een van de volgende stappen te werk:
+   - Een bestaand antispambeleid **voor inkomende** e-mail zoeken en selecteren.
+   - Een nieuw  antispambeleid voor inkomende e-mail maken.
 
-3. Vouw in de flyout beleidsdetails de sectie **Spam en bulkacties** uit.
+3. Ga op een van de volgende stappen te werk:
+   - **Bestaand antispambeleid bewerken:** Ga in de flyout beleidsdetails naar de sectie Acties en klik vervolgens op **Acties bewerken.** 
+   - **Nieuw antispambeleid maken:** Ga in de nieuwe beleidswizard naar **de** pagina Acties.
 
-4. Als u Quarantainebericht hebt geselecteerd voor de actie van  een beschikbare uitspraak voor het filteren van spam, is het vakJe quarantainebeleidtag toepassen beschikbaar om de quarantainetag voor dat vonnis te selecteren. 
+4. Op de **pagina** Acties. Elke uitspraak met de actie **Quarantainebericht** bevat ook het vak Quarantainebeleid selecteren om een bijbehorend quarantainebeleid te selecteren. 
 
-   **Opmerking:** Wanneer u een nieuw beleid maakt, geeft een lege quarantainetagwaarde voor een vonnis voor spamfilters aan dat de standaard quarantainetag voor dat vonnis wordt gebruikt. Wanneer u het beleid later bewerkt, worden de lege waarden vervangen door de werkelijke standaardnamen van quarantainelabels zoals beschreven in de vorige tabel.
+   **Opmerking:** Wanneer u een nieuw  beleid maakt, geeft een lege waarde voor quarantainebeleid selecteren het standaardbeleid voor quarantaine voor dat vonnis aan. Wanneer u het beleid later bewerkt, worden de lege waarden vervangen door de werkelijke standaardnamen van het quarantainebeleid, zoals beschreven in de vorige tabel.
 
-   ![Quarantainelabelselecties in een antispambeleid](../../media/quarantine-tags-in-anti-spam-policies.png)
+   ![Selecties van quarantainebeleid in een antispambeleid](../../media/quarantine-tags-in-anti-spam-policies.png)
 
 5. Klik op **Opslaan** wanneer u gereed bent.
 
-#### <a name="assign-quarantine-tags-in-anti-spam-policies-in-powershell"></a>Quarantainelabels toewijzen in antispambeleid in PowerShell
+#### <a name="assign-quarantine-policies-in-anti-spam-policies-in-powershell"></a>Quarantainebeleid toewijzen in antispambeleid in PowerShell
 
-Als u Liever PowerShell gebruikt om quarantainelabels toe te wijzen in antispambeleid, maakt u verbinding met Exchange Online PowerShell Exchange Online Protection PowerShell en gebruikt u de volgende syntaxis:
+Als u Liever PowerShell gebruikt om quarantainebeleid toe te wijzen in antispambeleid, maakt u verbinding met Exchange Online PowerShell Exchange Online Protection PowerShell en gebruikt u de volgende syntaxis:
 
 ```powershell
 <New-HostedContentFilterPolicy -Name "<Unique name>" | Set-HostedContentFilterPolicy -Identity "<Policy name>">  [-SpamAction Quarantine] [-SpamQuarantineTag <QuarantineTagName>] [-HighConfidenceSpamAction Quarantine] [-HighConfidenceSpamQuarantineTag <QuarantineTagName>] [-PhishSpamAction Quarantine] [-PhishQuarantineTag <QuarantineTagName>] [-HighConfidencePhishQuarantineTag <QuarantineTagName>] [-BulkSpamAction Quarantine] [-BulkQuarantineTag <QuarantineTagName>] ...
@@ -277,7 +279,7 @@ Als u Liever PowerShell gebruikt om quarantainelabels toe te wijzen in antispamb
 
 **Opmerkingen**:
 
-- De standaardwaarde voor de parameter _HighConfidencePhishAction_ is Quarantaine, dus u hoeft de actie Quarantaine niet in te stellen voor phishingdetectie met veel vertrouwen in nieuwe antispambeleidsregels. Voor alle andere vonnissen voor spamfilters in nieuw of bestaand antispambeleid is de quarantainetag alleen van kracht als de actiewaarde Quarantaine is. Voer de volgende opdracht uit om de actiewaarden in bestaand antispambeleid te bekijken:
+- De standaardwaarde voor de parameter _HighConfidencePhishAction_ is Quarantaine, dus u hoeft de actie Quarantaine niet in te stellen voor phishingdetectie met veel vertrouwen in nieuwe antispambeleidsregels. Voor alle andere vonnissen voor spamfilters in nieuw of bestaand antispambeleid is het quarantainebeleid alleen van kracht als de actiewaarde Quarantaine is. Voer de volgende opdracht uit om de actiewaarden in bestaand antispambeleid te bekijken:
 
   ```powershell
   Get-HostedContentFilterPolicy | Format-Table Name,*SpamAction,HighConfidencePhishAction
@@ -285,16 +287,16 @@ Als u Liever PowerShell gebruikt om quarantainelabels toe te wijzen in antispamb
 
   Zie [EOP-antispambeleidsinstellingen](recommended-settings-for-eop-and-office365.md#eop-anti-spam-policy-settings)voor EOP voor informatie over de standaardactiewaarden en de aanbevolen actiewaarden voor Standaard en Strikt.
 
-- Een vonnis voor spamfilters zonder een bijbehorende quarantainetagparameter betekent dat de [standaard quarantainetag](#step-2-assign-a-quarantine-tag-to-supported-features) voor dat vonnis wordt gebruikt.
+- Een vonnis voor spamfilters zonder een bijbehorende quarantainebeleidsparameter betekent dat het [standaard](#step-2-assign-a-quarantine-policy-to-supported-features) quarantainebeleid voor dat vonnis wordt gebruikt.
 
-  U hoeft alleen een standaard quarantainetag te vervangen door een aangepaste quarantainetag als u de standaardmogelijkheden van eindgebruikers voor in quarantaine geplaatste berichten wilt wijzigen.
+  U hoeft alleen een standaard quarantainebeleid te vervangen door een aangepast quarantainebeleid als u de standaardmogelijkheden van eindgebruikers voor in quarantaine geplaatste berichten wilt wijzigen.
 
 - Voor een nieuw antispambeleid in PowerShell is een spamfilterbeleid (instellingen) vereist met de cmdlet **New-HostedContentFilterPolicy** en een nieuwe spamfilterregel (ontvangersfilters) met de cmdlet **New-HostedContentFilterRule.** Zie [PowerShell gebruiken om antispambeleid te maken](configure-your-spam-filter-policies.md#use-powershell-to-create-anti-spam-policies)voor instructies.
 
 In dit voorbeeld wordt een nieuw spamfilterbeleid met de naam Onderzoeksafdeling gemaakt met de volgende instellingen:
 
 - De actie voor alle vonnissen voor spamfilters is ingesteld op Quarantaine.
-- De aangepaste quarantainetag met de naam  NoAccess die Geen toegangsmachtigingen  toewijst, vervangt standaard quarantainelabels die standaard geen toegangsmachtigingen toewijzen.
+- Het aangepaste quarantainebeleid met de naam  NoAccess dat geen toegangsmachtigingen  toewijst, vervangt standaard quarantainebeleid dat standaard geen toegangsmachtigingen toewijst.
 
 ```powershell
 New-HostedContentFilterPolicy -Name Research Department -SpamAction Quarantine -SpamQuarantineTag NoAccess -HighConfidenceSpamAction Quarantine -HighConfidenceSpamQuarantineTag NoAction -PhishSpamAction Quarantine -PhishQuarantineTag NoAction -BulkSpamAction Quarantine -BulkQuarantineTag NoAccess
@@ -302,7 +304,7 @@ New-HostedContentFilterPolicy -Name Research Department -SpamAction Quarantine -
 
 Zie [New-HostedContentFilterPolicy](/powershell/module/exchange/new-hostedcontentfilterpolicy) voor gedetailleerde syntaxis- en parameterinformatie.
 
-Dit voorbeeld wijzigt het bestaande spamfilterbeleid met de naam Human Resources. De actie voor de quarantaine van spam is ingesteld op Quarantaine en de aangepaste quarantainetag noAccess wordt toegewezen.
+Dit voorbeeld wijzigt het bestaande spamfilterbeleid met de naam Human Resources. De actie voor de quarantaine van spam is ingesteld op Quarantaine en het aangepaste quarantainebeleid met de naam NoAccess is toegewezen.
 
 ```powershell
 Set-HostedContentFilterPolicy -Identity "Human Resources" -SpamAction Quarantine -SpamQuarantineTag NoAccess
@@ -310,27 +312,15 @@ Set-HostedContentFilterPolicy -Identity "Human Resources" -SpamAction Quarantine
 
 Zie [Set-HostedContentFilterPolicy](/powershell/module/exchange/set-hostedcontentfilterpolicy) voor gedetailleerde syntaxis- en parameterinformatie.
 
-## <a name="configure-global-quarantine-notification-settings-in-the-security--compliance-center"></a>Instellingen voor globale quarantainemeldingen configureren in & Beveiligingscentrum
+## <a name="configure-global-quarantine-notification-settings-in-the-microsoft-365-defender-portal"></a>Instellingen voor globale quarantainemeldingen configureren in de Microsoft 365 Defender portal
 
-Met de algemene instellingen voor quarantainelabels kunt u de spammeldingen van eindgebruikers aanpassen die worden verzonden naar geadresseerden van berichten die in quarantaine zijn geplaatst. Zie [Spammeldingen](use-spam-notifications-to-release-and-report-quarantined-messages.md)voor eindgebruikers voor meer informatie over deze meldingen.
+Met de algemene instellingen voor quarantainebeleid kunt u de spammeldingen van eindgebruikers aanpassen die worden verzonden naar geadresseerden van berichten die in quarantaine zijn geplaatst. Zie [Spammeldingen](use-spam-notifications-to-release-and-report-quarantined-messages.md)voor eindgebruikers voor meer informatie over deze meldingen.
 
-1. Ga in het & Compliancecentrum naar **Bedreigingsbeleid** \>  en selecteer vervolgens **Quarantainelabels.**
+1. Ga in Microsoft 365 Defender portal naar **E-mail** & samenwerkingSbeleidsregels sectie Quarantainebeleid en selecteer vervolgens \>  \>  \>  **Quarantainebeleid.**
 
-2. Selecteer globale instellingen op **de** pagina **Quarantainelabels.**
+2. Selecteer globale instellingen op **de pagina** **Quarantainebeleid.**
 
 3. Configureer **enkele** of alle volgende instellingen in het flyout Quarantainemeldingsinstellingen dat wordt geopend:
-
-   - **Mijn bedrijfslogo gebruiken:** Selecteer deze optie om het standaard Microsoft-logo te vervangen dat boven aan spammeldingen van eindgebruikers wordt gebruikt. Voordat u dit doet, moet u de instructies volgen in Het thema [Microsoft 365](../../admin/setup/customize-your-organization-theme.md) uw organisatie aanpassen om uw aangepaste logo te uploaden.
-
-     In de volgende schermafbeelding ziet u een aangepast logo in een spammelding voor eindgebruikers:
-
-     ![Een aangepast logo in een spammelding voor eindgebruikers](../../media/quarantine-tags-esn-customization-logo.png)
-
-   - **Taal kiezen:** spammeldingen van eindgebruikers zijn al gelokaliseerd op basis van de taalinstellingen van de geadresseerde. U kunt aangepaste tekst opgeven in verschillende talen voor de **waarden Weergavenaam** en **Vrijwaring.**
-
-     Selecteer ten minste één taal in het vak eerste taal en klik vervolgens op **Toevoegen.** U kunt meerdere talen selecteren door na elke taal op **Toevoegen** te klikken. In een sectietaalvak ziet u alle talen die u hebt geselecteerd:
-
-     ![Geselecteerde talen in het tweede taalvak in de algemene instellingen voor quarantainemeldingen van quarantainelabels](../../media/quarantine-tags-esn-customization-selected-languages.png)
 
    - **Weergavenaam:** Pas de weergavenaam van de afzender aan die wordt gebruikt in spammeldingen van eindgebruikers.
 
@@ -348,28 +338,42 @@ Met de algemene instellingen voor quarantainelabels kunt u de spammeldingen van 
 
      ![Een aangepaste vrijwaring onder aan een spammelding voor eindgebruikers](../../media/quarantine-tags-esn-customization-disclaimer.png)
 
-## <a name="view-quarantine-tags-in-the-security--compliance-center"></a>Quarantainelabels weergeven in het beveiligings- & compliancecentrum
+   - **Taal kiezen:** spammeldingen van eindgebruikers zijn al gelokaliseerd op basis van de taalinstellingen van de geadresseerde. U kunt aangepaste tekst opgeven in verschillende talen voor de **waarden Weergavenaam** en **Vrijwaring.**
 
-1. Ga in het & Compliancecentrum naar **Bedreigingsbeleid** \>  en selecteer vervolgens **Quarantainelabels.**
+     Selecteer ten minste één taal in het vak eerste taal en klik vervolgens op **Toevoegen.** U kunt meerdere talen selecteren door na elke taal op **Toevoegen** te klikken. In een sectietaalvak ziet u alle talen die u hebt geselecteerd:
 
-- Als u de instellingen van ingebouwde of aangepaste quarantainelabels wilt weergeven, selecteert u de quarantainetag in de lijst (schakel het selectievakje niet in).
+     ![Geselecteerde talen in het vak tweede taal in de algemene quarantainemeldingsinstellingen van quarantainebeleid](../../media/quarantine-tags-esn-customization-selected-languages.png)
 
-- Als u de algemene instellingen wilt weergeven, **selecteert** u Algemene instellingen
+   - **Mijn bedrijfslogo gebruiken:** Selecteer deze optie om het standaard Microsoft-logo te vervangen dat boven aan spammeldingen van eindgebruikers wordt gebruikt. Voordat u dit doet, moet u de instructies volgen in Het thema [Microsoft 365](../../admin/setup/customize-your-organization-theme.md) uw organisatie aanpassen om uw aangepaste logo te uploaden.
 
-### <a name="view-quarantine-tags-in-powershell"></a>Quarantainelabels weergeven in PowerShell
+     In de volgende schermafbeelding ziet u een aangepast logo in een spammelding voor eindgebruikers:
 
-Als u Liever PowerShell gebruikt om quarantainelabels weer te geven, gaat u als volgt te werk:
+     ![Een aangepast logo in een spammelding voor eindgebruikers](../../media/quarantine-tags-esn-customization-logo.png)
 
-- Voer de volgende opdracht uit als u een overzichtslijst met alle ingebouwde of aangepaste tags wilt weergeven:
+## <a name="view-quarantine-policies-in-the-microsoft-365-defender-portal"></a>Quarantainebeleid weergeven in de Microsoft 365 Defender portal
+
+1. Ga in Microsoft 365 Defender portal naar **E-mail** & samenwerkingSbeleidsregels sectie Quarantainebeleid en selecteer vervolgens \>  \>  \>  **Quarantainebeleid.**
+
+2. Op **de pagina Quarantainebeleid** ziet u de lijst met beleidsregels **op Naam** en **Laatst bijgewerkte** datum.
+
+3. Als u de instellingen van ingebouwd of aangepast quarantainebeleid wilt weergeven, selecteert u het quarantainebeleid in de lijst door op de naam te klikken.
+
+4. Als u de algemene instellingen wilt weergeven, klikt u op **Algemene instellingen**
+
+### <a name="view-quarantine-policies-in-powershell"></a>Quarantainebeleid weergeven in PowerShell
+
+Als u Liever PowerShell gebruikt om quarantainebeleid weer te geven, gaat u als volgt te werk:
+
+- Voer de volgende opdracht uit als u een overzichtslijst met alle ingebouwde of aangepaste beleidsregels wilt weergeven:
 
   ```powershell
   Get-QuarantineTag | Format-Table Name
   ```
 
-- Als u de instellingen van ingebouwde of aangepaste quarantainelabels wilt weergeven, vervangt u de naam van de quarantainetag en voer u \<TagName\> de volgende opdracht uit:
+- Als u de instellingen van ingebouwd of aangepast quarantainebeleid wilt weergeven, vervangt u de naam van het quarantainebeleid en voer \<QuarantinePolicyName\> u de volgende opdracht uit:
 
   ```powershell
-  Get-QuarantineTag -Identity "<TagName>"
+  Get-QuarantineTag -Identity "<QuarantinePolicyName>"
   ```
 
 - Voer de volgende opdracht uit om de algemene instellingen weer te geven:
@@ -380,37 +384,64 @@ Als u Liever PowerShell gebruikt om quarantainelabels weer te geven, gaat u als 
 
 Zie [Get-HostedContentFilterPolicy](/powershell/module/exchange/get-hostedcontentfilterpolicy) voor gedetailleerde syntaxis- en parameterinformatie.
 
-## <a name="remove-quarantine-tags-in-the-security--compliance-center"></a>Quarantainelabels verwijderen in het beveiligings- & compliancecentrum
+## <a name="modify-quarantine-policies-in-the-microsoft-365-defender-portal"></a>Quarantainebeleid wijzigen in de Microsoft 365 Defender portal
+
+1. Ga in Microsoft 365 Defender portal naar **E-mail** & samenwerkingSbeleidsregels sectie Quarantainebeleid en selecteer vervolgens \>  \>  \>  **Quarantainebeleid.**
+
+2. Selecteer op **de pagina** Quarantainebeleid het beleid door op de naam te klikken.
+
+3. Nadat u het beleid hebt geselecteerd, klikt u op het pictogram Beleid bewerken ![ ](../../media/m365-cc-sc-edit-icon.png) **dat** wordt weergegeven.
+
+4. De **wizard Beleid bewerken** die wordt  geopend, is vrijwel identiek aan de wizard Nieuw beleid, zoals beschreven in het quarantainebeleid maken in de sectie [Microsoft 365 Defender portal](#step-1-create-quarantine-policies-in-the-microsoft-365-defender-portal) eerder in dit artikel.
+
+   Het belangrijkste verschil is: u kunt de naam van een bestaand beleid niet wijzigen.
+
+5. Wanneer u klaar bent met het wijzigen van het beleid, gaat u naar **de** pagina Overzicht en klikt u op **Verzenden.**
+
+### <a name="modify-quarantine-policies-in-powershell"></a>Quarantainebeleid wijzigen in PowerShell
+
+Als u Liever PowerShell gebruikt om een aangepast quarantainebeleid te wijzigen, vervangt u de naam van het quarantainebeleid en gebruikt u \<QuarantinePolicyName\> de volgende syntaxis:
+
+```powershell
+Set-QuarantineTag -Identity "<QuarantinePolicyName>" [Settings]
+```
+
+De beschikbare instellingen zijn hetzelfde als beschreven voor het maken van quarantainebeleid eerder in dit artikel.
+
+Zie Quarantainetag instellen voor gedetailleerde syntaxis- en [parametergegevens.](/powershell/module/exchange/set-quarantinetag)
+
+## <a name="remove-quarantine-policies-in-the-microsoft-365-defender-portal"></a>Quarantainebeleid verwijderen in de Microsoft 365 Defender portal
 
 **Opmerkingen**:
 
-- U kunt ingebouwde quarantainelabels niet verwijderen.
-
-- Controleer voordat u een aangepaste quarantainetag verwijdert of deze niet wordt gebruikt. Voer bijvoorbeeld de volgende opdracht uit in PowerShell:
+- U kunt ingebouwde quarantainebeleidsregels niet verwijderen.
+- Controleer voordat u een aangepast quarantainebeleid verwijdert of het niet wordt gebruikt. Voer bijvoorbeeld de volgende opdracht uit in PowerShell:
 
   ```powershell
   Get-HostedContentFilterPolicy | Format-List Name,*QuarantineTag
   ```
 
-  Als de quarantainetag wordt gebruikt, [vervangt u de toegewezen quarantainetag](#step-2-assign-a-quarantine-tag-to-supported-features) voordat u deze verwijdert.
+  Als het quarantainebeleid wordt gebruikt, [vervangt u het toegewezen quarantainebeleid](#step-2-assign-a-quarantine-policy-to-supported-features) voordat u het verwijdert.
 
-1. Ga in het & Compliancecentrum naar **Bedreigingsbeleid** \>  en selecteer vervolgens **Quarantainelabels.**
+1. Ga in Microsoft 365 Defender portal naar **E-mail** & samenwerkingSbeleidsregels sectie Quarantainebeleid en selecteer vervolgens \>  \>  \>  **Quarantainebeleid.**
 
-2. Selecteer op **de pagina Quarantainelabels** de aangepaste quarantainetag die u wilt verwijderen en klik op **Tag verwijderen.**
+2. Selecteer op **de pagina** Quarantainebeleid het aangepaste quarantainebeleid dat u wilt verwijderen door op de naam te klikken.
 
-3. Klik **op Tag verwijderen** in het bevestigingsdialoogvenster dat wordt weergegeven.
+3. Nadat u het beleid hebt geselecteerd, klikt u op het pictogram Beleid ![ verwijderen ](../../media/m365-cc-sc-delete-icon.png) **dat** wordt weergegeven.
 
-### <a name="remove-quarantine-tags-in-powershell"></a>Quarantainelabels verwijderen in PowerShell
+4. Klik **op Beleid verwijderen** in het bevestigingsdialoogvenster dat wordt weergegeven.
 
-Als u Liever PowerShell gebruikt om een aangepaste quarantainetag te verwijderen, vervangt u de naam van de quarantainetag en voer u \<TagName\> de volgende opdracht uit:
+### <a name="remove-quarantine-policies-in-powershell"></a>Quarantainebeleid verwijderen in PowerShell
+
+Als u Liever PowerShell gebruikt om een aangepast quarantainebeleid te verwijderen, vervangt u door de naam van het quarantainebeleid en voer u \<QuarantinePolicyName\> de volgende opdracht uit:
 
 ```powershell
-Remove-QuarantineTag -Identity "<TagName>"
+Remove-QuarantineTag -Identity "<QuarantinePolicyName>"
 ```
 
 Zie [Remove-QuarantineTag](/powershell/module/exchange/remove-quarantinetag)voor gedetailleerde syntaxis- en parametergegevens.
 
-## <a name="quarantine-tag-permission-details"></a>Machtigingsgegevens voor quarantainelabels
+## <a name="quarantine-policy-permission-details"></a>Machtigingsgegevens voor quarantainebeleid
 
 In de volgende secties worden de effecten beschreven van vooraf ingestelde machtigingsgroepen en afzonderlijke machtigingen in de details van in quarantaine geplaatste berichten en in spammeldingen van eindgebruikers.
 
@@ -420,19 +451,19 @@ De afzonderlijke machtigingen die zijn opgenomen in vooraf ingestelde machtiging
 
 #### <a name="no-access"></a>Geen toegang
 
-Als de quarantainetag  geen toegangsmachtigingen (geen machtigingen) toewijst, krijgen gebruikers nog steeds enkele basislijnfuncties:
+Als het quarantainebeleid  geen toegangsmachtigingen (geen machtigingen) toewijst, krijgen gebruikers nog steeds enkele basislijnfuncties:
 
 - **Berichtdetails in quarantaine:** **de knop Berichtkop** weergeven is altijd beschikbaar.
 
-  ![Beschikbare knoppen in de details van het in quarantaine geplaatste bericht als de gebruiker geen toegangsmachtigingen krijgt met de quarantainetag](../../media/quarantine-tags-quarantined-message-details-no-access.png)
+  ![Beschikbare knoppen in de details van het in quarantaine geplaatste bericht als het quarantainebeleid de gebruiker geen toegangsmachtigingen geeft](../../media/quarantine-tags-quarantined-message-details-no-access.png)
 
 - **Spammeldingen van eindgebruikers:** **de** knop Controleren waarmee de gebruiker in quarantaine naar het bericht gaat, is altijd beschikbaar.
 
-  ![Beschikbare knoppen in de spammelding voor eindgebruikers als de gebruiker geen toegangsmachtigingen krijgt met de quarantainetag](../../media/quarantine-tags-esn-no-access.png)
+  ![Beschikbare knoppen in de spammelding voor eindgebruikers als het quarantainebeleid de gebruiker geen toegangsmachtigingen geeft](../../media/quarantine-tags-esn-no-access.png)
 
 #### <a name="limited-access"></a>Beperkte toegang
 
-Als met de quarantainetag de machtiging Beperkte **toegang** wordt toegewezen, krijgen gebruikers de volgende mogelijkheden:
+Als het quarantainebeleid  de machtiging beperkte toegang toewijst, krijgen gebruikers de volgende mogelijkheden:
 
 - **Details van berichten in quarantaine**: De volgende knoppen zijn beschikbaar:
   - **Release aanvragen**
@@ -441,17 +472,17 @@ Als met de quarantainetag de machtiging Beperkte **toegang** wordt toegewezen, k
   - **Afzender blokkeren**
   - **Uit quarantaine verwijderen**
 
-  ![Beschikbare knoppen in de details van het in quarantaine geplaatste bericht als de gebruiker met de quarantainetag beperkte toegangsmachtigingen krijgt](../../media/quarantine-tags-quarantined-message-details-limited-access.png)
+  ![Beschikbare knoppen in de details van het in quarantaine geplaatste bericht als het quarantainebeleid de gebruiker beperkte toegangsmachtigingen geeft](../../media/quarantine-tags-quarantined-message-details-limited-access.png)
 
 - **Spammeldingen voor eindgebruikers:** De volgende knoppen zijn beschikbaar:
   - **Afzender blokkeren**
   - **Controle**
 
-  ![Beschikbare knoppen in de spammelding voor eindgebruikers als de quarantainetag de gebruiker beperkte toegangsmachtigingen geeft](../../media/quarantine-tags-esn-limited-access.png)
+  ![Beschikbare knoppen in de spammelding voor eindgebruikers als het quarantainebeleid de gebruiker beperkte toegangsmachtigingen geeft](../../media/quarantine-tags-esn-limited-access.png)
 
 #### <a name="full-access"></a>Volledige toegang
 
-Als de quarantainetag  de machtiging volledige toegang (alle beschikbare machtigingen) toewijst, krijgen gebruikers de volgende mogelijkheden:
+Als het quarantainebeleid de machtigingEn voor volledige **toegang** (alle beschikbare machtigingen) toewijst, krijgen gebruikers de volgende mogelijkheden:
 
 - **Details van berichten in quarantaine**: De volgende knoppen zijn beschikbaar:
   - **Releasebericht**
@@ -461,14 +492,14 @@ Als de quarantainetag  de machtiging volledige toegang (alle beschikbare machtig
   - **Afzender toestaan**
   - **Uit quarantaine verwijderen**
 
-  ![Beschikbare knoppen in de details van het in quarantaine geplaatste bericht als de gebruiker met de quarantainetag volledige toegangsmachtigingen krijgt](../../media/quarantine-tags-quarantined-message-details-full-access.png)
+  ![Beschikbare knoppen in de details van het in quarantaine geplaatste bericht als het quarantainebeleid de gebruiker volledige toegangsmachtigingen geeft](../../media/quarantine-tags-quarantined-message-details-full-access.png)
 
 - **Spammeldingen voor eindgebruikers:** De volgende knoppen zijn beschikbaar:
   - **Afzender blokkeren**
-  - **Release**
+  - **Vrijgeven**
   - **Controle**
 
-  ![Beschikbare knoppen in de spammelding voor eindgebruikers als de quarantainetag de gebruiker volledige toegangsmachtigingen geeft](../../media/quarantine-tags-esn-full-access.png)
+  ![Beschikbare knoppen in de spammelding voor eindgebruikers als het quarantainebeleid de gebruiker volledige toegangsmachtigingen geeft](../../media/quarantine-tags-esn-full-access.png)
 
 ### <a name="individual-permissions"></a>Afzonderlijke machtigingen
 

@@ -11,17 +11,17 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-description: Informatie over het instellen en gebruiken van een connector in het Microsoft 365 compliancecentrum om gegevens van Cisco Jabber op Oracle te importeren en te Microsoft 365.
-ms.openlocfilehash: d8e1ba27c4277916614deaa042214ae592bceff2
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+description: Meer informatie over het instellen en gebruiken van een connector in de Microsoft 365-compliancecentrum om gegevens van Cisco Jabber op Oracle te importeren en te archiveren Microsoft 365.
+ms.openlocfilehash: 8c8e95a9a96767aa227c463c96b04a30d8aac7dc
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842756"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53054641"
 ---
-# <a name="set-up-a-connector-to-archive-cisco-jabber-on-oracle-data-preview"></a>Een connector instellen voor het archiveren van Cisco Jabber op Oracle-gegevens (preview)
+# <a name="set-up-a-connector-to-archive-cisco-jabber-on-oracle-data"></a>Een connector instellen voor het archiveren van Cisco Jabber op Oracle-gegevens
 
-Gebruik een Veritas-connector in het Microsoft 365 compliancecentrum om gegevens van het Cisco Jabber-platform op Oracle te importeren en te archiveren naar postvakken van gebruikers in uw Microsoft 365 organisatie. Veritas biedt een [Cisco Jabber](https://www.veritas.com/insights/merge1/jabber) op Oracle-connector die is geconfigureerd om items uit de gegevensbron van derden vast te leggen (op regelmatige basis) en deze items te importeren in Microsoft 365. De connector converteert de inhoud zoals bestanden en bestandsbewerkingen, opmerkingen en gedeelde inhoud van Cisco Jabber op Oracle naar een e-mailberichtindeling en importeert deze items vervolgens in het postvak van de gebruiker in Microsoft 365.
+Gebruik een Veritas-connector in de Microsoft 365-compliancecentrum om gegevens uit het Cisco Jabber-platform op Oracle te importeren en te archiveren naar postvakken van gebruikers in uw Microsoft 365 organisatie. Veritas biedt een [Cisco Jabber](https://www.veritas.com/insights/merge1/jabber) op Oracle-connector die is geconfigureerd om items uit de gegevensbron van derden vast te leggen (op regelmatige basis) en deze items te importeren in Microsoft 365. De connector converteert de inhoud zoals bestanden en bestandsbewerkingen, opmerkingen en gedeelde inhoud van Cisco Jabber op Oracle naar een e-mailberichtindeling en importeert deze items vervolgens in het postvak van de gebruiker in Microsoft 365.
 
 Nadat Cisco Jabber op Oracle-gegevens is opgeslagen in gebruikerspostvakken, kunt u Microsoft 365 compliancefuncties toepassen, zoals Litigation Hold, eDiscovery, bewaarbeleid en bewaarlabels. Als u een Cisco Jabber op Oracle-connector gebruikt om gegevens te importeren en te archiveren in Microsoft 365 kan uw organisatie voldoen aan het overheids- en regelgevingsbeleid.
 
@@ -35,7 +35,7 @@ In het volgende overzicht wordt uitgelegd hoe u een connector gebruikt om de Cis
 
 2. Eenmaal per 24 uur worden Cisco Jabber op Oracle-items gekopieerd naar de Veritas Merge1-site. De connector converteert ook Cisco Jabber op Oracle-items naar een e-mailberichtindeling.
 
-3. De Cisco Jabber op Oracle-connector die u maakt in het Microsoft 365-compliancecentrum, maakt elke dag verbinding met de Veritas Merge1-site en draagt de Jabber-inhoud over naar een veilige Azure Storage-locatie in de Microsoft-cloud.
+3. De Cisco Jabber op Oracle-connector die u maakt in de Microsoft 365-compliancecentrum, maakt elke dag verbinding met de Veritas Merge1-site en draagt de Jabber-inhoud over naar een veilige Azure Storage-locatie in de Microsoft-cloud.
 
 4. De connector importeert de geconverteerde items in de postvakken van specifieke gebruikers met behulp van de waarde van de eigenschap *E-mail* van de automatische gebruikerstoewijzing, zoals beschreven in [stap 3.](#step-3-map-users-and-complete-the-connector-setup) Een submap in de map Postvak IN met de naam **Cisco Jabber op Oracle** wordt gemaakt in de postvakken van de gebruiker en items worden geïmporteerd in die map. De verbindingslijn doet dit met behulp van de waarde van de eigenschap *E-mail.* Elk Jabber-item bevat deze eigenschap, die wordt gevuld met het e-mailadres van elke deelnemer aan het item.
 
@@ -43,11 +43,11 @@ In het volgende overzicht wordt uitgelegd hoe u een connector gebruikt om de Cis
 
 - Maak een Merge1-account voor Microsoft-connectors. Neem hiervoor contact op met [Veritas Customer Support.](https://www.veritas.com/content/support/en_US) U moet zich aanmelden bij dit account wanneer u de verbindingslijn maakt in stap 1.
 
-- De gebruiker die de Cisco Jabber-connector maakt op Oracle-connector in stap 1 (en deze voltooit in stap 3), moet worden toegewezen aan de rol Postvak importeren exporteren in Exchange Online. Deze rol is vereist om verbindingslijnen toe te voegen op de pagina **Gegevensconnectors** in het Microsoft 365 compliancecentrum. Deze rol is standaard niet toegewezen aan een rollengroep in Exchange Online. U kunt de rol Postvak importeren exporteren toevoegen aan de rollengroep Organisatiebeheer in Exchange Online. U kunt ook een rollengroep maken, de rol Postvak importeren exporteren toewijzen en vervolgens de juiste gebruikers toevoegen als leden. Zie de secties [](/Exchange/permissions-exo/role-groups#create-role-groups) Rollengroepen [](/Exchange/permissions-exo/role-groups#modify-role-groups) maken of Rollengroepen wijzigen in het artikel 'Rollengroepen beheren in Exchange Online'.
+- De gebruiker die de Cisco Jabber-connector maakt op Oracle-connector in stap 1 (en deze voltooit in stap 3), moet worden toegewezen aan de rol Postvak importeren exporteren in Exchange Online. Deze rol is vereist om verbindingslijnen toe te voegen op de pagina **Gegevensconnectors** in de Microsoft 365-compliancecentrum. Deze rol is standaard niet toegewezen aan een rollengroep in Exchange Online. U kunt de rol Postvak importeren exporteren toevoegen aan de rollengroep Organisatiebeheer in Exchange Online. U kunt ook een rollengroep maken, de rol Postvak importeren exporteren toewijzen en vervolgens de juiste gebruikers toevoegen als leden. Zie de secties [](/Exchange/permissions-exo/role-groups#create-role-groups) Rollengroepen [](/Exchange/permissions-exo/role-groups#modify-role-groups) maken of Rollengroepen wijzigen in het artikel 'Rollengroepen beheren in Exchange Online'.
 
 ## <a name="step-1-set-up-the-cisco-jabber-on-oracle-connector"></a>Stap 1: Cisco Jabber instellen op Oracle-connector
 
-De eerste stap is toegang tot de pagina Gegevensconnectoren in het Microsoft 365 compliancecentrum en een **verbindingslijn** maken voor Jabber-gegevens.
+De eerste stap is toegang tot de pagina Gegevensconnectoren in de Microsoft 365-compliancecentrum en een **verbindingslijn** maken voor Jabber-gegevens.
 
 1. Ga naar <https://compliance.microsoft.com> en klik vervolgens op **Gegevensconnectoren**  >  **Cisco Jabber op Oracle.**
 
@@ -63,11 +63,11 @@ De eerste stap is toegang tot de pagina Gegevensconnectoren in het Microsoft 365
 
 De tweede stap is het configureren van de Cisco Jabber op Oracle-connector op de Veritas Merge1-site. Zie Handleiding Connectors van derden samenvoegen voor informatie over het configureren van de Cisco [Jabber-connector](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20Cisco%20Jabber%20on%20Oracle%20User%20Guide.pdf)op Oracle.
 
-Nadat u op **Opslaan &** Voltooien  hebt geklikt, wordt de pagina Gebruikerstoewijzing in de wizard verbindingslijn in het Microsoft 365 compliancecentrum weergegeven.
+Nadat u op **Opslaan &** Voltooien  hebt geklikt, wordt de pagina Gebruikerstoewijzing in de wizard Verbindingslijn in de Microsoft 365-compliancecentrum weergegeven.
 
 ## <a name="step-3-map-users-and-complete-the-connector-setup"></a>Stap 3: Gebruikers in kaart brengen en de configuratie van de connector voltooien
 
-Als u gebruikers wilt in kaart brengen en de configuratie van de verbindingslijn wilt voltooien in het Microsoft 365 compliancecentrum, volgt u de volgende stappen:
+Als u gebruikers wilt in kaart brengen en de configuratie van de verbindingslijn in de Microsoft 365-compliancecentrum, volgt u de volgende stappen:
 
 1. Schakel op de pagina Cisco Jabber toewijzen op **Oracle-gebruikers Microsoft 365 gebruikers** automatisch toewijzen in. De Cisco Jabber op Oracle-items bevatten een eigenschap *met* de naam E-mail, die e-mailadressen bevat voor gebruikers in uw organisatie. Als de verbindingslijn dit adres kan koppelen aan Microsoft 365 gebruiker, worden de items geïmporteerd in het postvak van die gebruiker.
 
@@ -75,7 +75,7 @@ Als u gebruikers wilt in kaart brengen en de configuratie van de verbindingslijn
 
 ## <a name="step-4-monitor-the-cisco-jabber-on-oracle-connector"></a>Stap 4: De Cisco Jabber-connector op Oracle-connector controleren
 
-Nadat u de Cisco Jabber op Oracle-connector hebt gebruikt, kunt u de connectorstatus bekijken in het Microsoft 365 compliancecentrum.
+Nadat u de Cisco Jabber op Oracle-connector hebt aan Microsoft 365-compliancecentrum.
 
 1. Ga naar <https://compliance.microsoft.com/> en klik op **Gegevensconnectoren** in het linkernavigatievenster.
 
@@ -85,4 +85,4 @@ Nadat u de Cisco Jabber op Oracle-connector hebt gebruikt, kunt u de connectorst
 
 ## <a name="known-issues"></a>Bekende problemen
 
-- Op dit moment bieden we geen ondersteuning voor het importeren van bijlagen of items groter dan 10 MB, maar ondersteuning voor grotere items is later beschikbaar.
+- Op dit moment bieden we geen ondersteuning voor het importeren van bijlagen of items die groter zijn dan 10 MB. Ondersteuning voor grotere items is op een later tijdstip beschikbaar.

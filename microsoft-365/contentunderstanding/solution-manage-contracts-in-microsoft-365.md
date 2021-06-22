@@ -12,13 +12,13 @@ ms.collection: m365solution-managecontracts m365solution-overview
 search.appverid: ''
 localization_priority: None
 ROBOTS: ''
-description: Meer informatie over het beheren van contracten Microsoft 365 een SharePoint syntex, SharePoint lijsten, Microsoft Teams en Power Automate.
-ms.openlocfilehash: 352ebd1b9170aaf7829c414e87f7a79c4f17a1df
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+description: Meer informatie over het beheren van contracten met Microsoft 365 oplossing voor SharePoint Syntex, SharePoint lijsten, Microsoft Teams en Power Automate.
+ms.openlocfilehash: d3be12dbddabbcddc41f7c9d882db5473350266e
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843768"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53054757"
 ---
 # <a name="manage-contracts-using-a-microsoft-365-solution"></a>Beheer contracten met een gebruik van een Microsoft 365 oplossing
 
@@ -44,7 +44,7 @@ De eerste stap bij het plannen van uw contractbeheersysteem is het begrijpen van
 
 Deze richtlijn voor contractbeheeroplossing bevat vier onderdelen van Microsoft 365:
 
-- **Microsoft SharePoint Syntex:** maak modellen om uw contractbestanden te identificeren en te classificeren en vervolgens de juiste gegevens eruit te halen.
+- **Microsoft SharePoint Syntex:** maak modellen om uw contractbestanden te identificeren en te classificeren en haal vervolgens de juiste gegevens uit deze bestanden.
 
 - **Microsoft SharePoint:** Gebruik de opmaak die beschikbaar is in moderne SharePoint om contracten in een bedrijfsvriendelijke indeling te presenteren.
 
@@ -56,7 +56,7 @@ Deze richtlijn voor contractbeheeroplossing bevat vier onderdelen van Microsoft 
 
   ![Diagram van de oplossing met de werkstroom om documenten te uploaden, gegevens op te halen, belanghebbenden op de hoogte te stellen en het contract goed te keuren of af te wijzen.](../media/content-understanding/syntex-solution-manage-contracts-overview.png)
 
-1. Documenten worden geüpload naar een SharePoint documentbibliotheek. Een SharePoint syntex-documentkennismodel is toegepast op de documentbibliotheek. Het controleert elk bestand om te zien of er een overeenkomst is met een 'contract'-inhoudstype dat is getraind om te zoeken. Als er een overeenkomst wordt gevonden, wordt het bestand als een 'contract' classificeert en wordt het inhoudstype voor het document bijgewerkt.
+1. Documenten worden geüpload naar een SharePoint documentbibliotheek. Er SharePoint Syntex documentkennismodel toegepast op de documentbibliotheek. Het controleert elk bestand om te zien of er een overeenkomst is met een 'contract'-inhoudstype dat is getraind om te zoeken. Als er een overeenkomst wordt gevonden, wordt het bestand als een 'contract' classificeert en wordt het inhoudstype voor het document bijgewerkt.
 
 2. Het model haalt ook specifieke gegevens op uit elk contractbestand dat belanghebbenden willen zien, zoals de *klant,* de *contractant* en het *bedrag van de kosten.*
 

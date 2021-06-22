@@ -96,7 +96,7 @@ De volgende tabel bevat een overzicht van wat er is inbegrepen in elk abonnement
 
 ## <a name="configure-microsoft-defender-for-office-365-policies"></a>Beleid in Microsoft Defender voor Office 365 instellen
 
-Met Microsoft Defender voor Office 365 kan het beveiligingsteam van uw organisatie beveiliging configureren door beleid te definiëren in de Microsoft 365 Defender-portal (ga naar <https://security.microsoft.com> \> **E-mail en samenwerking** \> **Beleid en regels**).
+Met Microsoft Defender voor Office 365 kan het beveiligingsteam van jouw organisatie beveiliging configureren door beleid te definiëren in de Microsoft 365 Defender-portal (ga naar <https://security.microsoft.com> \> **E-mail en samenwerking** \> **Beleid en regels**).
 
 Meer informatie vindt u in [deze video](https://www.youtube.com/watch?v=vivvTmWJ_3c).
 
@@ -117,7 +117,7 @@ Het beleid dat wordt gedefinieerd voor uw organisatie bepaalt het gedrag en beve
 
 ## <a name="view-microsoft-defender-for-office-365-reports"></a>Microsoft Defender voor Office 365-rapporten weergeven
 
-Microsoft Defender voor Office 365 bevat een [rapporten](view-reports-for-mdo.md) voor het bewaken van Defender voor Office 365. U hebt toegang tot de rapporten in de Microsoft 365 Defender-portal op **Rapporten** \> **E-mail en samenwerking** \> **Rapporten over e-mail en samenwerking** of rechtstreeks op <https://security.microsoft.com/securityreports>.
+Microsoft Defender voor Office 365 bevat [rapporten](view-reports-for-mdo.md) voor het bewaken van Defender voor Office 365. Je hebt toegang tot de rapporten in de Microsoft 365 Defender-portal via **Rapporten** \> **E-mail en samenwerking** \> **Rapporten voor e-mail en samenwerking** of rechtstreeks via <https://security.microsoft.com/securityreports>.
 
 Rapporten worden in realtime bijgewerkt en voorzien u zo van de nieuwste inzichten. Deze rapporten bieden ook aanbevelingen en waarschuwen u tegen naderende bedreigingen. Vooraf gedefinieerde rapporten omvatten het volgende:
 
@@ -141,7 +141,7 @@ Abonnement 2 van Microsoft Defender voor Office 365 bevat de beste [hulpmiddelen
 
 ## <a name="permissions-required-to-use-microsoft-defender-for-office-365-features"></a>Vereiste machtigingen voor het gebruik van de functies van Microsoft Defender voor Office 365
 
-Er moet een in aanmerking komende rol aan u zijn toegewezen om toegang te krijgen tot Microsoft Defender voor Office 365-functies. De volgende tabel bevat enkele voorbeelden:
+Er moet een in aanmerking komende rol aan jou zijn toegewezen om toegang te krijgen tot Microsoft Defender voor Office 365-functies. De volgende tabel bevat enkele voorbeelden:
 
 <br>
 
@@ -149,8 +149,8 @@ Er moet een in aanmerking komende rol aan u zijn toegewezen om toegang te krijge
 
 |Rol of rollengroep|Informatiebronnen|
 |---|---|
-|globale beheerder (organisatiebeheer)|U kunt deze rol toewijzen in Azure Active Directory of in de Microsoft 365 Defender-portal. Zie [Machtigingen in de Microsoft 365 Defender-portal](permissions-microsoft-365-security-center.md) voor meer informatie.|
-|Beveiligingsbeheerder|U kunt deze rol toewijzen in Azure Active Directory of in de Microsoft 365 Defender-portal. Zie [Machtigingen in de Microsoft 365 Defender-portal](permissions-microsoft-365-security-center.md) voor meer informatie.|
+|globale beheerder (organisatiebeheer)|Je kunt deze rol toewijzen in Azure Active Directory of in de Microsoft 365 Defender-portal. Zie [Machtigingen in de Microsoft 365 Defender-portal](permissions-microsoft-365-security-center.md) voor meer informatie.|
+|Beveiligingsadministrator|Je kunt deze rol toewijzen in Azure Active Directory of in de Microsoft 365 Defender-portal. Zie [Machtigingen in de Microsoft 365 Defender-portal](permissions-microsoft-365-security-center.md) voor meer informatie.|
 |Organisatiebeheer in Exchange Online.|[Machtigingen in Exchange Online](/exchange/permissions-exo/permissions-exo) <p> [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell)|
 |Zoeken en opschonen|Deze rol is alleen beschikbaar in de Microsoft 365 Defender-portal of het Microsoft 365-compliancecentrum. Zie [Machtigingen in de Microsoft 365 Defender-portal](permissions-microsoft-365-security-center.md) en [Machtigingen in het Microsoft 365-compliancecentrum](../../compliance/microsoft-365-compliance-center-permissions.md) voor meer informatie.|
 |||

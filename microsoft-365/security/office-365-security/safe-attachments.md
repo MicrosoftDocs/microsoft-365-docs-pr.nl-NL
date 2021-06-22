@@ -20,12 +20,12 @@ ms.collection:
 description: Beheerders kunnen meer informatie over de functie Safe bijlagen in Microsoft Defender voor Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: cc5fabf7b0bb4a649aeb7c4e09155037fc09e9f9
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 127d862d235abc4cd81f62679b97077c7a80bd70
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52625003"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53054391"
 ---
 # <a name="safe-attachments-in-microsoft-defender-for-office-365"></a>Safe Bijlagen in Microsoft Defender voor Office 365
 
@@ -56,7 +56,7 @@ In de volgende tabel worden scenario's beschreven voor Safe Bijlagen in Microsof
 Safe Het scannen van bijlagen vindt plaats in dezelfde regio waar uw Microsoft 365 gegevens zich bevindt. Zie Waar bevinden uw gegevens zich? voor meer informatie over geografie van [datacenters.](https://products.office.com/where-is-your-data-located?geo=All)
 
 > [!NOTE]
-> De volgende functies bevinden zich in de algemene instellingen van Safe bijlagenbeleid in het beveiligings- & compliancecentrum. Deze instellingen zijn echter globaal ingeschakeld of uitgeschakeld en vereisen geen Safe bijlagen:
+> De volgende functies bevinden zich in de algemene instellingen van Safe bijlagenbeleid in de Microsoft 365 Defender portal. Deze instellingen zijn echter globaal ingeschakeld of uitgeschakeld en vereisen geen Safe bijlagen:
 >
 > - [Safe bijlagen voor SharePoint, OneDrive en Microsoft Teams.](mdo-for-spo-odb-and-teams.md)
 > - [Veilige documenten in Microsoft 365 E5](safe-docs.md)
@@ -75,8 +75,8 @@ In deze sectie worden de instellingen beschreven in Safe bijlagenbeleid:
   |---|---|---|
   |**Uit**|Bijlagen worden niet gescand op malware door Safe bijlagen. Berichten worden nog steeds gescand op malware door [anti-malwarebeveiliging in EOP.](anti-malware-protection.md)|Het scannen uitschakelen voor geselecteerde geadresseerden. <p> Voorkom onnodige vertragingen bij het routeren van interne e-mail. <p> **Deze optie wordt niet aanbevolen voor de meeste gebruikers. Gebruik deze optie alleen om het scannen Safe bijlagen uit te schakelen voor geadresseerden die alleen berichten ontvangen van vertrouwde afzenders.**|
   |**Monitor**|Bezorgt berichten met bijlagen en houdt bij wat er gebeurt met gedetecteerde malware. <p> De bezorging van veilige berichten kan worden vertraagd doordat Safe bijlagen worden gescand.|Bekijk waar gedetecteerde malware in uw organisatie wordt gebruikt.|
-  |**Blokkeren**|Voorkomt dat berichten met gedetecteerde malwarebijlagen worden bezorgd. <p> Berichten worden [in quarantaine](manage-quarantined-messages-and-files.md) geplaatst waar alleen beheerders (niet eindgebruikers) de berichten kunnen controleren, vrijgeven of verwijderen. <p> Toekomstige exemplaren van de berichten en bijlagen worden automatisch blokkeert. <p> De bezorging van veilige berichten kan worden vertraagd doordat Safe bijlagen worden gescand.|Beschermt uw organisatie tegen herhaalde aanvallen met dezelfde malwarebijlagen. <p> Dit is de standaardwaarde en de aanbevolen waarde in standaard- en strikt [vooraf ingestelde beveiligingsbeleidsregels.](preset-security-policies.md)|
-  |**Vervangen**|Hiermee verwijdert u gedetecteerde malwarebijlagen. <p> Geadresseerden krijgen een bericht dat bijlagen zijn verwijderd. <p>  Berichten worden [in quarantaine](manage-quarantined-messages-and-files.md) geplaatst waar alleen beheerders (niet eindgebruikers) de berichten kunnen controleren, vrijgeven of verwijderen. <p> De bezorging van veilige berichten kan worden vertraagd doordat Safe bijlagen worden gescand.|Verhecht de zichtbaarheid van geadresseerden dat bijlagen zijn verwijderd vanwege gedetecteerde malware.|
+  |**Blokkeren**|Voorkomt dat berichten met gedetecteerde malwarebijlagen worden bezorgd. <p> Berichten worden [in quarantaine](manage-quarantined-messages-and-files.md) geplaatst waar alleen beheerders (geen gebruikers) de berichten kunnen bekijken, vrijgeven of verwijderen. <p> Toekomstige exemplaren van de berichten en bijlagen worden automatisch blokkeert. <p> De bezorging van veilige berichten kan worden vertraagd doordat Safe bijlagen worden gescand.|Beschermt uw organisatie tegen herhaalde aanvallen met dezelfde malwarebijlagen. <p> Dit is de standaardwaarde en de aanbevolen waarde in standaard- en strikt [vooraf ingestelde beveiligingsbeleidsregels.](preset-security-policies.md)|
+  |**Vervangen**|Hiermee verwijdert u gedetecteerde malwarebijlagen. <p> Geadresseerden krijgen een bericht dat bijlagen zijn verwijderd. <p>  Berichten worden [in quarantaine](manage-quarantined-messages-and-files.md) geplaatst waar alleen beheerders (geen gebruikers) de berichten kunnen bekijken, vrijgeven of verwijderen. <p> De bezorging van veilige berichten kan worden vertraagd doordat Safe bijlagen worden gescand.|Verhecht de zichtbaarheid van geadresseerden dat bijlagen zijn verwijderd vanwege gedetecteerde malware.|
   |**Dynamische bezorging**|Berichten worden onmiddellijk verzonden, maar bijlagen worden vervangen door tijdelijke aanduidingen totdat Safe het scannen van bijlagen is voltooid. <p> Zie de sectie [Dynamic Delivery in Safe attachments policies](#dynamic-delivery-in-safe-attachments-policies) verder in dit artikel voor meer informatie.|Vermijd berichtvertraging terwijl geadresseerden worden beschermd tegen schadelijke bestanden. <p> Schakel geadresseerden in om een voorbeeld van bijlagen in de veilige modus te bekijken terwijl het scannen plaatsvindt.|
   |
 
@@ -104,11 +104,11 @@ In deze sectie worden de instellingen beschreven in Safe bijlagenbeleid:
 
 Met de actie Dynamische bezorging in Safe bijlagen-beleid wordt getypeerd om eventuele vertragingen bij e-mailbezorging te voorkomen die kunnen worden veroorzaakt door Safe bijlagen scannen. De inhoud van het e-mailbericht wordt bezorgd bij de geadresseerde met een tijdelijke aanduiding voor elke bijlage. De tijdelijke aanduiding blijft staan totdat de bijlage veilig is en de bijlage vervolgens beschikbaar is om te openen of te downloaden.
 
-Als een bijlage schadelijk blijkt te zijn, wordt het bericht in quarantaine geplaatst. Alleen beheerders (geen eindgebruikers) kunnen berichten bekijken, vrijgeven of verwijderen die in quarantaine zijn geplaatst Safe bijlagen scannen. Zie Berichten en bestanden in quarantaine beheren als beheerder voor [meer informatie.](manage-quarantined-messages-and-files.md)
+Als een bijlage schadelijk blijkt te zijn, wordt het bericht in quarantaine geplaatst. Alleen beheerders (geen gebruikers) kunnen berichten bekijken, vrijgeven of verwijderen die in quarantaine zijn geplaatst door Safe bijlagen te scannen. Zie Berichten en bestanden in quarantaine beheren als beheerder voor [meer informatie.](manage-quarantined-messages-and-files.md)
 
 De meeste PDF-bestanden en Office documenten kunnen in de veilige modus worden bekeken terwijl Safe bijlagen wordt gescand. Als een bijlage niet compatibel is met de voorbeeldweergave voor dynamische bezorging, zien de geadresseerden een tijdelijke aanduiding voor de bijlage totdat Safe bijlagen is gescand.
 
-Als u een mobiel apparaat gebruikt en PDF's niet worden weergegeven in de dynamic delivery previewer op uw mobiele apparaat, opent u het bericht in Outlook op het web (voorheen bekend als Outlook Web App) met uw mobiele browser.
+Als u een mobiel apparaat gebruikt en PDF's niet worden weergegeven in de dynamic delivery previewer op uw mobiele apparaat, opent u het bericht in webversie van Outlook (voorheen bekend als Outlook Web App) met uw mobiele browser.
 
 Hier zijn enkele aandachtspunten voor dynamische bezorging en doorgestuurde berichten:
 

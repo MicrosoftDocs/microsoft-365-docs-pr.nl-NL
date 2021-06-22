@@ -39,7 +39,7 @@ Microsoft 365 Defender combineert de mogelijkheden van [Microsoft Defender voor 
 
 ### <a name="mitre-demonstrated-real-world-detection-response-and-protection-from-advanced-attacks"></a>MITRE: Gedemonstreerde real-world detectie, reactie en beveiliging tegen geavanceerde aanvallen
 
-De kern van de testmethode van MITRE bestaat uit het testen van real-world aanvallen om te begrijpen of de oplossingen er adequaat op kunnen reageren. Hoewel de test gericht was op eindpuntdetectie en -respons, omvat de gesimuleerde APT29-aanval van MITRE meerdere aanvalsdomeinen, waardoor er mogelijkheden worden geboden om defenders meer mogelijkheden te bieden dan slechts eindpuntbeveiliging. Met Microsoft 365 Defender heeft Microsoft de zichtbaarheid van defenders buiten het eindpunt uitgebreid.
+De kern van de testmethode van MITRE bestaat uit het testen van real-world aanvallen om te begrijpen of de oplossingen er adequaat op kunnen reageren. Hoewel de test gericht was op eindpuntdetectie en -respons, omvat de gesimuleerde APT29-aanval van MITRE meerdere aanvalsdomeinen, waardoor er mogelijkheden worden geboden om defenders meer mogelijkheden te bieden dan slechts eindpuntbeveiliging. Met Microsoft 365 Defender heeft Microsoft de zichtbaarheid van defenders voorbij het eindpunt uitgebreid.
 
 - Evaluatie op basis van ATT&CK van Microsoft 365 Defender - mei 2020: [Voorloper op het gebied van real-world detectie](https://www.microsoft.com/security/blog/2020/05/01/microsoft-threat-protection-leads-real-world-detection-mitre-attck-evaluation/)
 

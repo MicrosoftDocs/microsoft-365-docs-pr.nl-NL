@@ -13,23 +13,23 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: In-Place eDiscovery en In-Place Hold (en de bijbehorende PowerShell-cmdlets) in Exchange Online worden in de eerste helft van 2020 met pensioen. De Search-Mailbox cmdlet en Advanced eDiscovery v1.0 worden ook binnen dezelfde periode ingetrokken.
-ms.openlocfilehash: c5f1ddb4c817ebc316c2e2efdba9a4bc605eb5a2
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 97be285ae348b018866e3f91f92be523b03e6616
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842660"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53055071"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>Buitengebruikstelling van verouderde eDiscovery-hulpprogramma's
 
 > [!IMPORTANT]
-> Microsoft heeft de situatie op het gebied van de openbare gezondheid evalueren en we begrijpen welke gevolgen dit heeft voor onze klanten. We willen sterke partners en verantwoordelijke globale burgers zijn. Om een van de vele lasten te verlichten waarmee u te maken hebt, gaan we de geplande uittreding voor de oudere eDiscovery-hulpprogramma's die in dit artikel worden beschreven, drie maanden uitstellen. **De bijgewerkte pensioendatums worden hieronder weergegeven.**
+> De functionaliteit van de oudere eDiscovery-hulpprogramma's die in dit artikel worden beschreven, is verwijderd uit de Microsoft 365 of is nog steeds beschikbaar, maar wordt niet meer ondersteund. Alle functionaliteit die nog beschikbaar is, kan zonder kennisgeving worden verwijderd. Als u nog steeds een van deze oudere hulpprogramma's gebruikt, kunt u overwegen om te migreren naar de eDiscovery-hulpprogramma's in de Microsoft 365-compliancecentrum of een van de alternatieven die in dit artikel worden beschreven.
 
-In de loop van de jaren heeft Microsoft eDiscovery-hulpprogramma's geleverd waarmee u e-mailinhoud kunt zoeken, bekijken en exporteren vanuit Exchange Online. Deze hulpprogramma's bieden echter geen effectieve manier meer om te zoeken naar niet-Exchange-inhoud in andere Microsoft 365-services, zoals SharePoint Online en Microsoft 365 Groepen. Hiervoor biedt Microsoft andere eDiscovery-hulpprogramma's waarmee u kunt zoeken naar een groot aantal Microsoft 365 inhoud. En we hebben hard gewerkt aan de meest recente en krachtige eDiscovery-functionaliteit in het [Microsoft 365 compliancecentrum.](https://compliance.microsoft.com) Hierdoor kunnen organisaties reageren op juridische, interne en andere documentaanvragen voor inhoud in Microsoft 365 services, waaronder Exchange Online.
+In de loop van de jaren heeft Microsoft eDiscovery-hulpprogramma's geleverd waarmee u e-mailinhoud kunt zoeken, bekijken en exporteren vanuit Exchange Online. Deze hulpprogramma's bieden echter geen effectieve manier meer om te zoeken naar niet-Exchange-inhoud in andere Microsoft 365-services, zoals SharePoint Online en Microsoft 365 Groepen. Hiervoor biedt Microsoft andere eDiscovery-hulpprogramma's waarmee u kunt zoeken naar een groot aantal Microsoft 365 inhoud. En we hebben hard gewerkt om de meest recente en krachtige eDiscovery-functionaliteit in de [Microsoft 365-compliancecentrum.](https://compliance.microsoft.com) Hierdoor kunnen organisaties reageren op juridische, interne en andere documentaanvragen voor inhoud in Microsoft 365 services, waaronder Exchange Online.
 
-Als gevolg van deze nieuwe en verbeterde eDiscovery-functionaliteit in het Microsoft 365-compliancecentrum, trekken we de volgende eDiscovery-gerelateerde functies en functionaliteit in verband met het zoeken naar e-mailinhoud in Exchange Online en Microsoft 365:
+Als gevolg van deze nieuwe en verbeterde eDiscovery-functionaliteit in de Microsoft 365-compliancecentrum, trekken we de volgende eDiscovery-gerelateerde functies en functionaliteit in verband met het zoeken naar e-mailinhoud in Exchange Online en Microsoft 365:
 
-- [In-place eDiscovery](/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery) [en In-Place Holds](/exchange/security-and-compliance/create-or-remove-in-place-holds) in het Exchange beheercentrum.
+- [In-Place eDiscovery](/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery) and [In-Place Holds](/exchange/security-and-compliance/create-or-remove-in-place-holds) in the Exchange admin center.
 
 - De Exchange Online PowerShell-cmdlets die ondersteuning bieden voor In-Place eDiscovery en In-Place Holds (deze cmdlets worden gezamenlijk geïdentificeerd als **-MailboxSearch-cmdlets).* Dit omvat de volgende cmdlets:
 
@@ -67,7 +67,7 @@ De volgende secties in dit artikel bevatten richtlijnen voor elke functie die wo
 
 Volgens de oorspronkelijke aankondiging op 1 juli 2017 wordt de In-Place eDiscovery & Hold-functionaliteit in het Exchange-beheercentrum (EAC) ingetrokken. Met In-Place eDiscovery & in het EAC kunt u inhoud zoeken, vasthouden en exporteren vanuit Exchange Online. In-Place eDiscovery kunt u zoekresultaten ook kopiëren naar een discovery-postvak, zodat u of andere eDiscovery-beheerders inhoud kunnen beoordelen en beschikbaar kunnen maken voor juridische, regelgevende en openbare aanvragen.
 
-Omdat al deze mogelijkheden (behalve voor het kopiëren van zoekresultaten naar een detectiepostvak) nu beschikbaar zijn in de hulpprogramma's inhoud zoeken, eDiscovery en Advanced eDiscovery in het [Microsoft 365-compliancecentrum](./microsoft-365-compliance-center.md) (met verbeterde functionaliteit, betrouwbaarheid en ondersteuning voor een breed scala aan Microsoft 365-services), raden we u aan deze hulpprogramma's zo snel mogelijk te gaan gebruiken. Om u te helpen bij de overgang naar deze andere eDiscovery-hulpprogramma's, bevat de onderstaande tabel de hulpprogramma's die u kunt gebruiken in plaats van In-Place eDiscovery en In-Place Hold.
+Omdat al deze mogelijkheden (met uitzondering van het kopiëren van zoekresultaten naar een detectiepostvak) nu beschikbaar zijn in de hulpprogramma's inhoud zoeken, eDiscovery en Advanced eDiscovery in de [Microsoft 365-compliancecentrum](./microsoft-365-compliance-center.md) (met verbeterde functionaliteit, betrouwbaarheid en ondersteuning voor een breed scala aan Microsoft 365-services), raden we u aan deze hulpprogramma's zo snel mogelijk te gaan gebruiken. Om u te helpen bij de overgang naar deze andere eDiscovery-hulpprogramma's, bevat de onderstaande tabel de hulpprogramma's die u kunt gebruiken in plaats van In-Place eDiscovery en In-Place Hold.
 
 ### <a name="scope-of-affected-organizations"></a>Bereik van betrokken organisaties
 
@@ -100,7 +100,7 @@ In de volgende tabel worden andere hulpprogramma's beschreven die u kunt gebruik
 <tbody>
 <tr class="odd">
 <td>Zoeken, exporteren en vasthouden voor juridische doeleinden</td>
-<td>Kernzaken van eDiscovery in het Microsoft 365 compliancecentrum </td>
+<td>Core eDiscovery cases in the Microsoft 365-compliancecentrum </td>
 <td><p>Het gebruik van de mogelijkheden van kern-eDiscovery-cases biedt de functionele pariteit voor In-Place eDiscovery en In-Place Holds. Dit geldt ook voor het volgende:</p>
 <ul>
 <li>
@@ -115,7 +115,7 @@ In de volgende tabel worden andere hulpprogramma's beschreven die u kunt gebruik
 </tr>
 <tr class="even">
 <td>Bewaring voor bewaardoeleinden</td>
-<td>Bewaarbeleid in het Microsoft 365 compliancecentrum</td>
+<td>Bewaarbeleid in de Microsoft 365-compliancecentrum</td>
 <td><p>U kunt bewaarbeleid gebruiken om inhoud te behouden en desgewenst te verwijderen nadat de bewaarperiode is verlopen. Andere mogelijkheden zijn:</p>
 <ul>
 <li>
@@ -141,7 +141,7 @@ In de volgende tabel worden andere hulpprogramma's beschreven die u kunt gebruik
 <tr class=even>
   <td>Berichten van het ene postvak naar een ander postvak kopiëren</td>
   <td><a href="/exchange/recipients-in-exchange-online/manage-permissions-for-recipients">Machtigingen toewijzen aan een postvak</a></td>
-  <td>Als u een persoon toegang wilt geven tot e-mail van een andere gebruiker (bijvoorbeeld wanneer een werknemer uw organisatie verlaat en u een andere persoon toegang moet geven tot de e-mail van de voormalige werknemer), wordt u aangeraden die persoon machtigingen toe te wijzen voor toegang tot het postvak van de voormalige werknemer. Dus in plaats van postvakitems te kopiëren naar een ander gebruikerspostvak of een gedeeld postvak, wijst u een gebruiker machtigingen toe om toegang te krijgen tot het bronpostvak.</td>
+  <td>Als u een persoon toegang wilt geven tot e-mail van een andere gebruiker (bijvoorbeeld wanneer een werknemer uw organisatie verlaat en u een andere persoon toegang moet geven tot de e-mail van de voormalige werknemer), wordt u aangeraden die persoon machtigingen toe te wijzen voor toegang tot het postvak van de voormalige werknemer. Dus in plaats van postvakitems te kopiëren naar een ander gebruikerspostvak of een gedeeld postvak, wijst u een gebruiker de machtigingen toe die nodig zijn om toegang te krijgen tot het bronpostvak.</td>
   
   </tr>
 <tr class="odd">
@@ -160,17 +160,17 @@ Er zijn twee manieren om deze functionaliteit vandaag de dag te repliceren. De e
 
 **Hoe kan ik bepalen welke inhoudslocaties (zoals postvakken of sites) een eDiscovery-manager kan zoeken met de nieuwe hulpprogramma's?**
 
-Het Microsoft 365 compliancecentrum gebruikt ook compliancegrenzen om te bepalen op welke [inhoudslocaties](set-up-compliance-boundaries.md) een eDiscovery Manager kan zoeken. Compliancegrenzen zijn handig in overheidsinstanties die binnen de grenzen van de organisatie moeten blijven of multi-nationale bedrijven die nodig zijn om geografische boarders te respecteren.
+De Microsoft 365-compliancecentrum gebruikt ook compliancegrenzen om te bepalen op welke [inhoudslocaties](set-up-compliance-boundaries.md) een eDiscovery Manager kan zoeken. Compliancegrenzen zijn handig in overheidsinstanties die binnen de grenzen van de organisatie moeten blijven of multi-nationale bedrijven die nodig zijn om geografische boarders te respecteren.
 
-**Hoe kan ik mijn huidige zoekopdrachten en -bezit verplaatsen naar het Microsoft 365 compliancecentrum?**
+**Hoe kan ik mijn huidige zoekopdrachten en -bezit naar de Microsoft 365-compliancecentrum?**
 
-Het is mogelijk om eDiscovery-zoekopdrachten In-Place eDiscovery te migreren vanuit het EAC met behulp van PowerShell. Zie Zoekopdrachten en houdt van het EAC migreren naar het Microsoft 365 [compliancecentrum voor instructies.](./migrate-legacy-ediscovery-searches-and-holds.md)
+Het is mogelijk om eDiscovery-zoekopdrachten In-Place eDiscovery te migreren vanuit het EAC met behulp van PowerShell. Zie Zoekopdrachten en houdt van het [EAC](./migrate-legacy-ediscovery-searches-and-holds.md)migreren naar de Microsoft 365-compliancecentrum.
 
 ## <a name="-mailboxsearch-cmdlets"></a>\*-MailboxSearch-cmdlets
 
 Volgens de oorspronkelijke kennisgeving die op 1 juli 2017 is aangekondigd in het Exchange-beheercentrum, worden de In-Place eDiscovery & Hold-functionaliteit en de bijbehorende **\* cmdlets -MailboxSearch** verwijderd. Deze cmdlets bieden gebruikers de mogelijkheid om postvakinhoud te doorzoeken, vast te houden en te exporteren voor wettelijke, regelgevende en openbare aanvragen.
 
-Omdat deze mogelijkheden nu beschikbaar zijn in [<span class="underline">het Microsoft 365 compliancecentrum</span>](./microsoft-365-compliance-center.md) en Office 365 Security & Compliance Center PowerShell met verbeterde prestaties en schaalbaarheid, moet u deze verbeterde cmdlets gebruiken. Deze cmdlets zijn [<span class="underline"> \* -ComplianceCase</span>](/powershell/module/exchange/get-compliancecase), [<span class="underline"> \* -ComplianceSearch</span>](/powershell/module/exchange/get-compliancesearch), [<span class="underline"> \* -CaseHoldPolicy</span>](/powershell/module/exchange/get-caseholdpolicy), [<span class="underline"> \* -CaseHoldRule</span>](/powershell/module/exchange/get-caseholdrule)en [<span class="underline"> \* -ComplianceSearchAction</span>](/powershell/module/exchange/get-compliancesearchaction).
+Omdat deze mogelijkheden nu beschikbaar zijn in [<span class="underline">de Microsoft 365-compliancecentrum</span>](./microsoft-365-compliance-center.md) en Office 365 Security & Compliance Center PowerShell met verbeterde prestaties en schaalbaarheid, moet u deze verbeterde cmdlets gebruiken. Deze cmdlets zijn [<span class="underline"> \* -ComplianceCase</span>](/powershell/module/exchange/get-compliancecase), [<span class="underline"> \* -ComplianceSearch</span>](/powershell/module/exchange/get-compliancesearch), [<span class="underline"> \* -CaseHoldPolicy</span>](/powershell/module/exchange/get-caseholdpolicy), [<span class="underline"> \* -CaseHoldRule</span>](/powershell/module/exchange/get-caseholdrule)en [<span class="underline"> \* -ComplianceSearchAction</span>](/powershell/module/exchange/get-compliancesearchaction).
 
 ### <a name="scope-of-affected-organizations"></a>Bereik van betrokken organisaties
 
@@ -207,9 +207,9 @@ In de volgende tabel worden andere hulpprogramma's beschreven die u kunt gebruik
 <p><a href="/powershell/module/exchange/get-compliancesearchaction"><span class="underline">*-ComplianceSearchAction</span></a></p>
 <p><a href="/powershell/module/exchange/get-compliancecase"><span class="underline">*-ComplianceCase</span></a></p>
 <p> </p></td>
-<td><p>De cmdlets ComplianceSearch en ComplianceSearchAction werken samen om u te helpen bij het zoeken en exporteren van inhoud. U kunt een nieuwe zoekopdracht maken en de zoekschatting weergeven met de cmdlets <strong>Nieuw,</strong> <strong>Get-</strong>en <strong>Start-ComplianceSearch.</strong> Vervolgens kunt u de <strong>cmdlet New-ComplianceSearchAction</strong> gebruiken om de zoekresultaten te exporteren. U moet nog steeds het belangrijkste eDiscovery-hulpprogramma gebruiken in het Microsoft 365 compliancecentrum om deze zoekresultaten te downloaden naar uw lokale computer.</p>
+<td><p>De cmdlets ComplianceSearch en ComplianceSearchAction werken samen om u te helpen bij het zoeken en exporteren van inhoud. U kunt een nieuwe zoekopdracht maken en de zoekschatting weergeven met de cmdlets <strong>Nieuw,</strong> <strong>Get-</strong>en <strong>Start-ComplianceSearch.</strong> Vervolgens kunt u de <strong>cmdlet New-ComplianceSearchAction</strong> gebruiken om de zoekresultaten te exporteren. U moet nog steeds de belangrijkste eDiscovery-functie in de Microsoft 365-compliancecentrum gebruiken om deze zoekresultaten naar uw lokale computer te downloaden.</p>
 <p>
-<p><strong>Opmerking:</strong> Als u deze cmdlets gebruikt om zoekopdrachten te maken die niet zijn gekoppeld aan een <strong></strong> hoofd-eDiscovery-zaak, bevinden deze zoekopdrachten zich op de pagina Inhoud zoeken in het Microsoft 365 compliancecentrum.</p></td>
+<p><strong>Opmerking:</strong> Als u deze cmdlets gebruikt om zoekopdrachten te maken die niet zijn gekoppeld aan een <strong></strong> hoofd-eDiscovery-zaak, bevinden deze zoekopdrachten zich op de pagina Inhoud zoeken in de Microsoft 365-compliancecentrum.</p></td>
 </tr>
 <tr class="even">
 <td>Inhoud in een postvak vasthouden</td>
@@ -217,7 +217,7 @@ In de volgende tabel worden andere hulpprogramma's beschreven die u kunt gebruik
 <p><a href="/powershell/module/exchange/get-caseholdrule"><span class="underline">*-CaseHoldRule</span></a></p>
 <p><a href="/powershell/module/exchange/get-compliancecase"><span class="underline">*-ComplianceCase</span></a></p>
 <p> </p></td>
-<td><p>In het Microsoft 365 compliancecentrum moet een ComplianceCase zijn gekoppeld. Maak eerst de compliancecase en maak vervolgens een CaseHoldPolicy en een CaseHoldRule.</p>
+<td><p>In de Microsoft 365-compliancecentrum moet een ComplianceCase zijn gekoppeld. Maak eerst de compliancecase en maak vervolgens een CaseHoldPolicy en een CaseHoldRule.</p>
 <p><strong>Opmerking:</strong> Als u een CaseHoldPolicy maakt zonder een CaseHoldRule te maken, wordt de wacht in de wacht gezet totdat de CaseHoldRule is gemaakt en is gekoppeld aan de CaseHoldPolicy. Zie de cmdletdocumentatie voor meer informatie.</p></td>
 </tr>
 <tr class="odd">
@@ -241,9 +241,9 @@ In de volgende tabel worden andere hulpprogramma's beschreven die u kunt gebruik
 
 De [<span class="underline">Microsoft Graph API's</span>](https://developer.microsoft.com/en-us/graph) bieden een aantal methoden voor het extraheren van gegevens voor analyse en andere doeleinden die veel veerkrachtiger en schaalbaarder zijn dan de cmdlets **\* -MailboxSearch.**
 
-**Hoe kan ik mijn zoekopdrachten en bezit migreren naar het Microsoft 365 compliancecentrum?**
+**Hoe kan ik mijn zoekopdrachten en bezit migreren naar de Microsoft 365-compliancecentrum?**
 
-Het is mogelijk om de In-Place eDiscovery te migreren vanuit het Exchange-beheercentrum met behulp van een PowerShell-script. Zie Oudere [eDiscovery-zoekopdrachten](migrate-legacy-eDiscovery-searches-and-holds.md)en -bezit migreren naar het Microsoft 365 compliancecentrum voor meer informatie.
+Het is mogelijk om de In-Place eDiscovery te migreren vanuit het Exchange-beheercentrum met behulp van een PowerShell-script. Zie Oudere [eDiscovery-zoekopdrachten](migrate-legacy-eDiscovery-searches-and-holds.md)en -gegevens migreren naar de Microsoft 365-compliancecentrum.
 
 **Kan ik nog steeds zoekopdrachten verwijderen of ophalen nadat de cmdlets zijn verwijderd?**
 
@@ -285,12 +285,12 @@ In de volgende tabel worden andere hulpprogramma's beschreven die u kunt gebruik
 <td><p><a href="/powershell/module/exchange/get-compliancesearch"><span class="underline">*-ComplianceSearch</span></a></p>
 <p><a href="/powershell/module/exchange/get-compliancesearchaction"><span class="underline">*-ComplianceSearchAction</span></a></p>
 <p></a></p></td>
-<td><p>De cmdlets ComplianceSearch en ComplianceSearchAction werken samen om u te helpen bij het zoeken en exporteren van inhoud. U kunt een nieuwe zoekopdracht maken en de zoekschatting weergeven met de cmdlets <strong>Nieuw,</strong> <strong>Get-</strong>en <strong>Start-ComplianceSearch.</strong> Vervolgens kunt u de opdracht <strong>New-ComplianceSearchAction -Export</strong> gebruiken om de zoekresultaten te exporteren. U moet nog steeds het belangrijkste eDiscovery-hulpprogramma gebruiken in het Microsoft 365 compliancecentrum om deze zoekresultaten te downloaden naar uw lokale computer.</p></p>
+<td><p>De cmdlets ComplianceSearch en ComplianceSearchAction werken samen om u te helpen bij het zoeken en exporteren van inhoud. U kunt een nieuwe zoekopdracht maken en de zoekschatting weergeven met de cmdlets <strong>Nieuw,</strong> <strong>Get-</strong>en <strong>Start-ComplianceSearch.</strong> Vervolgens kunt u de opdracht <strong>New-ComplianceSearchAction -Export</strong> gebruiken om de zoekresultaten te exporteren. U moet nog steeds de belangrijkste eDiscovery-functie in de Microsoft 365-compliancecentrum gebruiken om deze zoekresultaten naar uw lokale computer te downloaden.</p></p>
 </td>
 </tr>
 <tr class="even">
 <td>Bulk-e-mail verwijderen uit een postvak</td>
-<td><p><a href="/microsoft-365/compliance/set-up-an-archive-and-deletion-policy-for-mailboxes?view=o365-worldwide"><span class="underline">Een archief- en verwijderingsbeleid instellen voor postvakken</span></a></p>
+<td><p><a href="/microsoft-365/compliance/set-up-an-archive-and-deletion-policy-for-mailboxes"><span class="underline">Een archief- en verwijderingsbeleid instellen voor postvakken</span></a></p>
 <p></p></td>
 <td><p>Beheerders kunnen een archiverings- en verwijderingsbeleid maken dat items automatisch naar het archiefpostvak van een gebruiker verplaatst en automatisch items uit het postvak verwijdert.</p>
 </td>
@@ -303,7 +303,7 @@ In de volgende tabel worden andere hulpprogramma's beschreven die u kunt gebruik
 <tr class=odd>
   <td>Berichten van het ene postvak naar een ander postvak kopiëren</td>
   <td><a href="/exchange/recipients-in-exchange-online/manage-permissions-for-recipients">Machtigingen toewijzen aan een postvak</a></td>
-  <td>Als u een persoon toegang wilt geven tot e-mail van een andere gebruiker (bijvoorbeeld wanneer een werknemer uw organisatie verlaat en u een andere persoon toegang moet geven tot de e-mail van de voormalige werknemer), wordt u aangeraden die persoon machtigingen toe te wijzen voor toegang tot het postvak van de voormalige werknemer. Dus in plaats van postvakitems te kopiëren naar een ander gebruikerspostvak of een gedeeld postvak, wijst u een gebruiker machtigingen toe om toegang te krijgen tot het bronpostvak.</td>
+  <td>Als u een persoon toegang wilt geven tot e-mail van een andere gebruiker (bijvoorbeeld wanneer een werknemer uw organisatie verlaat en u een andere persoon toegang moet geven tot de e-mail van de voormalige werknemer), wordt u aangeraden die persoon machtigingen toe te wijzen voor toegang tot het postvak van de voormalige werknemer. Dus in plaats van postvakitems te kopiëren naar een ander gebruikerspostvak of een gedeeld postvak, wijst u een gebruikersmachtiging toe om toegang te krijgen tot het bronpostvak.</td>
 </tr>
 <tr class=even>
   <td>Berichten uit een postvak verwijderen</td>
@@ -341,7 +341,7 @@ Deze bewerkingen in de Exchange Web Services API worden gebruikt door de functie
 
 ## <a name="advanced-ediscovery-v10"></a>Advanced eDiscovery v1.0
 
-Advanced eDiscovery v1.0, de versie van Advanced eDiscovery die beschikbaar is in een hoofd-eDiscovery-zaak door op Overstappen naar Advanced eDiscovery **te** klikken, wordt niet meer gebruikt. De functionaliteit is vervangen door de nieuwe [Advanced eDiscovery](./ediscovery.md) in het Microsoft 365 compliancecentrum.
+Advanced eDiscovery v1.0, de versie van Advanced eDiscovery die beschikbaar is in een hoofd-eDiscovery-zaak door op Overstappen naar Advanced eDiscovery **te** klikken, wordt niet meer gebruikt. De functionaliteit is vervangen door de [nieuwe Advanced eDiscovery oplossing](./ediscovery.md) in de Microsoft 365-compliancecentrum.
 
 Als u wilt bepalen of uw organisatie v1.0 gebruikt Advanced eDiscovery v1.0:
 
@@ -355,11 +355,11 @@ De nieuwe Advanced eDiscovery-oplossing in Microsoft 365 (ook wel *Advanced eDis
 
 Toegang tot Advanced eDiscovery v2.0:
 
-1. Ga naar het [Microsoft 365 compliancecentrum](https://compliance.microsoft.com).
+1. Ga naar de [Microsoft 365-compliancecentrum.](https://compliance.microsoft.com)
 
-2. Klik in het linkernavigatiedeelvenster van het Microsoft 365 compliancecentrum op **Alles weergeven** en klik vervolgens op **eDiscovery > Geavanceerd.**
+2. Klik in het linkernavigatiedeelvenster Microsoft 365-compliancecentrum **op Alles weergeven** en klik vervolgens op **eDiscovery > Geavanceerd.**
 
-Op dit moment wordt u aangeraden uw eDiscovery-werkstroom over te zetten naar de nieuwe Advanced eDiscovery functionaliteit. Indien nodig kunt u uw Advanced eDiscovery 1.0-cases archiveren door de inhoud te exporteren en offline op te slaan. Hoewel u in bestaande gevallen tot 31 december 2020 nog steeds toegang hebt tot Advanced eDiscovery v1.0, biedt Microsoft Support geen ondersteuning na 1 oktober 2020. Zie de volgende tijdlijn voor meer informatie.
+Op dit moment wordt u aangeraden uw eDiscovery-werkstroom over te zetten naar de nieuwe Advanced eDiscovery functionaliteit. Als dat nodig is, kunt u uw Advanced eDiscovery 1.0-cases archiveren door de inhoud te exporteren en offline op te slaan. Hoewel u in bestaande gevallen tot 31 december 2020 nog steeds toegang hebt tot Advanced eDiscovery v1.0, biedt Microsoft Support geen ondersteuning na 1 oktober 2020. Zie de volgende tijdlijn voor meer informatie.
 
 ### <a name="scope-of-affected-organizations"></a>Bereik van betrokken organisaties
 
@@ -381,4 +381,4 @@ Op dit moment wordt u aangeraden uw eDiscovery-werkstroom over te zetten naar de
 
 ### <a name="alternative-tools"></a>Alternatieve hulpmiddelen
 
-De [Advanced eDiscovery oplossing](./overview-ediscovery-20.md) in het Microsoft 365 compliancecentrum.
+De [Advanced eDiscovery oplossing](./overview-ediscovery-20.md) in de Microsoft 365-compliancecentrum.

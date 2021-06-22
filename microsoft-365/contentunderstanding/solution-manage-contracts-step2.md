@@ -12,12 +12,12 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: ''
 description: Meer informatie over het gebruik Microsoft Teams om uw contractbeheerkanaal te maken met behulp van een Microsoft 365 oplossing.
-ms.openlocfilehash: 073ef1651ea5470594bfce0ffce65e849f9e063a
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 099487279482385760e05d9b166ae80c665d931e
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841172"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53054749"
 ---
 # <a name="step-2-use-microsoft-teams-to-create-your-contract-management-channel"></a>Stap 2. Gebruik Microsoft Teams om uw contractbeheerkanaal te maken
 
@@ -31,30 +31,31 @@ Wanneer uw organisatie een oplossing voor contractenbeheer in stelt, hebt u een 
 
      ![Tabblad Berichten.](../media/content-understanding/posts.png)
 
-- **Hebben een locatie waar leden goedgekeurde contracten kunnen zien om te weten wanneer ze tegen betaling kunnen worden ingediend.** In Teams kunt u een  voor betaling kanaal maken waarin alle contracten worden vermeld die moeten worden verzonden naar betaling. U kunt deze oplossing eenvoudig uitbreiden om deze informatie rechtstreeks te schrijven naar een financiële toepassing van derden (bijvoorbeeld Dynamics CRM).
+- **Hebben een locatie waar leden goedgekeurde contracten kunnen zien om te weten wanneer ze tegen betaling kunnen worden ingediend.** In SharePoint moet u een lijst Voor  uitbetaling maken en kolommen opnemen voor het bedrag  **client,** contractant en **kosten,** en één regel tekst selecteren als kolomtype. U moet de lijst  Voor uitbetaling toevoegen als een Teams in het kanaal Contractbeheer, vergelijkbaar met wat u voor het tabblad [ **Contracten gaat** doen.](solution-manage-contracts-step2.md#attach-your-sharepoint-document-library-to-the-contracts-tab) Op **het tabblad** Voor uitbetaling worden alle contracten weergegeven die tegen betaling moeten worden ingediend. U kunt deze oplossing eenvoudig uitbreiden om deze informatie rechtstreeks te schrijven naar een financiële toepassing van derden (bijvoorbeeld Dynamics CRM). 
+
 
 ## <a name="attach-your-sharepoint-document-library-to-the-contracts-tab"></a>Uw documentbibliotheek SharePoint toevoegen aan het tabblad Contracten
 
-Nadat u een tabblad **Contracten** hebt aangemaakt in uw kanaal Contractenbeheer, moet u uw SharePoint [documentbibliotheek eraan koppelen.](https://support.microsoft.com/office/add-a-sharepoint-page-list-or-document-library-as-a-tab-in-teams-131edef1-455f-4c67-a8ce-efa2ebf25f0b) De SharePoint documentbibliotheek die u wilt toevoegen, is de bibliotheek waarin u het syntex-documentkennismodel in de vorige sectie hebt SharePoint toegepast.
+Nadat u een tabblad **Contracten** hebt aangemaakt in uw kanaal Contractenbeheer, moet u uw SharePoint [documentbibliotheek eraan koppelen.](https://support.microsoft.com/office/add-a-sharepoint-page-list-or-document-library-as-a-tab-in-teams-131edef1-455f-4c67-a8ce-efa2ebf25f0b) De SharePoint documentbibliotheek die u wilt toevoegen, is de documentbibliotheek waarop u uw document SharePoint Syntex hebt toegepast in de vorige sectie.
 
 Nadat u de SharePoint documentbibliotheek hebt toegevoegd, kunt u alle geclassificeerde contracten weergeven via een standaardlijstweergave.
 
-   ![Lijstweergave.](../media/content-understanding/list-view.png)
+   ![Lijstweergave van SharePoint bibliotheek.](../media/content-understanding/list-view.png)
 
 ## <a name="customize-your-contracts-tab-tile-view"></a>De tegelweergave op het tabblad Contracten aanpassen
 
 > [!NOTE]
 > In deze sectie wordt verwezen naar codevoorbeelden die zijn opgenomen in deContractTileFormatting.js[ bestand](https://github.com/pnp/syntex-samples/blob/main/scenario%20assets/Contracts%20Management/View%20Formatter/ContractTileFormatting.json) dat is opgenomen in de opslagplaats Voor oplossingsactiva voor [contractenbeheer](https://github.com/pnp/syntex-samples/tree/main/scenario%20assets/Contracts%20Management).
 
-Hoewel Teams kunt u uw contracten weergeven in een tegelweergave, kunt u deze aanpassen om de contractgegevens weer te geven die u zichtbaar wilt maken op de contractkaart. Voor het tabblad  Contracten is het bijvoorbeeld belangrijk dat leden het bedrag van de klant, de contractant en de kosten op de contractkaart zien. Al deze velden zijn uit elk contract geëxtraheerd via SharePoint Syntex-model dat is toegepast op uw documentbibliotheek. U wilt ook de tegelkoptekstbalk kunnen wijzigen in verschillende kleuren voor elke status, zodat leden eenvoudig kunnen zien waar het contract zich in het goedkeuringsproces vindt. Alle goedgekeurde contracten hebben bijvoorbeeld een blauwe koptekstbalk.
+Hoewel Teams kunt u uw contracten weergeven in een tegelweergave, kunt u deze aanpassen om de contractgegevens weer te geven die u zichtbaar wilt maken op de contractkaart. Voor het tabblad  Contracten is het bijvoorbeeld belangrijk dat leden het bedrag van de klant, de contractant en de kosten op de contractkaart zien. Al deze velden zijn uit elk contract geëxtraheerd via SharePoint Syntex model dat is toegepast op uw documentbibliotheek. U wilt ook de tegelkoptekstbalk kunnen wijzigen in verschillende kleuren voor elke status, zodat leden eenvoudig kunnen zien waar het contract zich in het goedkeuringsproces vindt. Alle goedgekeurde contracten hebben bijvoorbeeld een blauwe koptekstbalk.
 
-   ![Lijstweergave.](../media/content-understanding/tile.png)
+   ![Tegelweergave van SharePoint bibliotheek.](../media/content-understanding/tile.png)
 
 Voor de aangepaste tegelweergave die u gebruikt, moet u wijzigingen aanbrengen in het JSON-bestand dat wordt gebruikt om de huidige tegelweergave op te maken. U kunt verwijzen naar het JSON-bestand dat wordt gebruikt om de kaartweergave te maken door te kijken [naar deContractTileFormatting.jsbestand.](https://github.com/pnp/syntex-samples/blob/main/scenario%20assets/Contracts%20Management/View%20Formatter/ContractTileFormatting.json) In de volgende secties ziet u specifieke secties van de code voor functies in de contractkaarten.
 
 Als u de JSON-code voor uw weergave wilt zien of wijzigen in uw Teams-kanaal, selecteert u in het kanaal Teams de vervolgkeuzelijst Weergave en selecteert u Huidige weergave opmaken.
 
-   ![json-indeling.](../media/content-understanding/jason-format.png)
+   ![Schermafbeelding van json-indeling in Teams kanaal.](../media/content-understanding/jason-format.png)
 
 ## <a name="card-size-and-shape"></a>Kaartgrootte en -vorm
 
@@ -105,7 +106,7 @@ Met de volgende code kunt u de status van elke titelkaart definiëren. Elke stat
 
 ## <a name="extracted-fields"></a>Geëxtraheerde velden
 
-Op elke contractkaart worden drie velden weergegeven die zijn geëxtraheerd voor elk contract *(Client,* *Contractant* en *Kostenbedrag).* Daarnaast wilt u ook de tijd/datum weergeven waarop het bestand is geclassificeerd met het syntex-model SharePoint gebruikt om het te identificeren.
+Op elke contractkaart worden drie velden weergegeven die zijn geëxtraheerd voor elk contract *(Client,* *Contractant* en *Kostenbedrag).* Daarnaast wilt u ook de tijd/datum weergeven waarop het bestand is geclassificeerd op basis van het SharePoint Syntex om het te identificeren.
 
 In het [ContractTileFormatting.jsbestand](https://github.com/pnp/syntex-samples/blob/main/scenario%20assets/Contracts%20Management/View%20Formatter/ContractTileFormatting.json) definiëren de volgende secties elk van deze secties.
 

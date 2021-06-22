@@ -19,21 +19,21 @@ ms.custom:
 description: Gebruik het nieuwe beveiligingsdashboard om de Office 365 status van bedreigingsbeveiliging te bekijken en beveiligingswaarschuwingen weer te geven en op te treden.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8c9a49b9b8fc1edd9b2928250e8cae135acb75f4
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 1504c84f0657dd049b63908d56c4ec6cca4871de
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274410"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53055160"
 ---
-# <a name="security-dashboard"></a>Beveiligingsdashboard
+# <a name="security-dashboard-in-the-security--compliance-center"></a>Beveiligingsdashboard in het beveiligings- & compliancecentrum
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
 ## <a name="basic-functions-and-how-to-open-security-dashboard"></a>Basisfuncties en het openen van beveiligingsdashboard
 
-Met [het beveiligings- & compliancecentrum](../../compliance/microsoft-365-compliance-center.md) kan uw organisatie gegevensbescherming en compliance beheren. Ervan uitgaande dat u de benodigde machtigingen hebt, kunt u met het beveiligingsdashboard uw status van bedreigingsbeveiliging bekijken en beveiligingswaarschuwingen bekijken en handelen.
+Met het & compliancecentrum bij kan <https://protection.office.com> uw organisatie gegevensbescherming en compliance beheren. Ervan uitgaande dat u de benodigde machtigingen hebt, kunt u met het beveiligingsdashboard uw status van bedreigingsbeveiliging bekijken en beveiligingswaarschuwingen bekijken en handelen.
 
 Bekijk de video om een overzicht te krijgen en lees dit artikel voor meer informatie.
 
@@ -41,10 +41,10 @@ Bekijk de video om een overzicht te krijgen en lees dit artikel voor meer inform
 
 Afhankelijk van wat het abonnement van uw organisatie bevat, bevat het beveiligingsdashboard verschillende widgets, zoals Threat Management Summary, Threat Protection Status, Global Weekly Threat Detections, Malware en meer, zoals beschreven in de volgende secties.
 
-Als u het beveiligingsdashboard wilt weergeven, gaat u in [& Beveiligingscentrum](../../compliance/microsoft-365-compliance-center.md)naar **Dashboard voor bedreigingsbeheer.** \> 
+Als u het beveiligingsdashboard wilt weergeven in & Beveiligingscentrum, gaat u naar **Dashboard** \> **bedreigingsbeheer.** Als u rechtstreeks naar het beveiligingsdashboard wilt gaan, gebruikt <https://protection.office.com/searchandinvestigation/dashboard> u .
 
 > [!NOTE]
-> U moet een globale beheerder, een beveiligingsbeheerder of een beveiligingslezer zijn om het beveiligingsdashboard te kunnen bekijken. Voor sommige widgets zijn extra machtigingen vereist om deze weer te geven. Zie Machtigingen in het Beveiligings- & [compliancecentrum voor meer informatie.](permissions-in-the-security-and-compliance-center.md)
+> U moet een globale beheerder, een beveiligingsbeheerder of een beveiligingslezer zijn om het beveiligingsdashboard te kunnen bekijken. Voor sommige widgets zijn extra machtigingen vereist om deze weer te geven. Zie Machtigingen [in het Beveiligings-](permissions-in-the-security-and-compliance-center.md)& compliancecentrum [.
 
 ## <a name="threat-management-summary"></a>Overzicht van bedreigingsbeheer
 
@@ -52,11 +52,16 @@ In de widget Overzicht van bedreigingsbeheer ziet u in één oogopslag hoe uw or
 
 ![Beveiligingsdashboard - Widget Overzicht van bedreigingsbeheer](../../media/SecDash-ThreatMgmtSummary.png)
 
-De informatie die u ziet in het overzicht bedreigingsbeheer, is afhankelijk van wat u in uw abonnement hebt. In de volgende tabel wordt beschreven welke informatie is opgenomen voor Office 365 E3 en Office 365 E5.
+De informatie die u ziet in het overzicht bedreigingsbeheer, is afhankelijk van wat uw abonnement bevat. In de volgende tabel wordt beschreven welke informatie is opgenomen voor Office 365 E3 en Office 365 E5.
+
+<br>
+
+****
 
 |Office 365 E3|Office 365 E5|
 |---|---|
 |Malwareberichten geblokkeerd<br>Phishingberichten geblokkeerd<br>Berichten die door gebruikers zijn gerapporteerd<br><br><br><br>|Malwareberichten geblokkeerd<br>Phishingberichten geblokkeerd<br>Berichten die door gebruikers zijn gerapporteerd<br>Zero-day malware geblokkeerd<br>Geavanceerde phishingberichten gedetecteerd<br>Kwaadaardige URL's geblokkeerd|
+|
 
 Als u de widget Overzicht van bedreigingsbeheer wilt bekijken of openen, moet u over machtigingen voor het weergeven van Defender voor Office 365 rapporten. Zie Welke machtigingen zijn nodig voor het weergeven van de Defender voor Office 365 [rapporten? voor meer informatie.](view-reports-for-mdo.md#what-permissions-are-needed-to-view-the-defender-for-office-365-reports)
 
@@ -68,10 +73,15 @@ De widget Bedreigingsbeveiligingsstatus toont de effectiviteit van bedreigingsbe
 
 De details zijn afhankelijk van of [](exchange-online-protection-overview.md) uw Microsoft 365 abonnement Exchange Online Protection (EOP) met of zonder Microsoft Defender voor [Office 365.](defender-for-office-365.md)
 
+<br>
+
+****
+
 |Als uw abonnement...|U ziet deze details|
 |---|---|
 |EOP maar niet Microsoft Defender voor Office 365|Schadelijke e-mail die is gedetecteerd en geblokkeerd door EOP.<p> Zie [Threat Protection Status report (EOP)](view-email-security-reports.md#threat-protection-status-report).|
 |Microsoft Defender voor Office 365|Schadelijke inhoud en schadelijke e-mail gedetecteerd en geblokkeerd door EOP en Defender voor Office 365 <p> Samengevoegd aantal unieke [e-mailberichten](zero-hour-auto-purge.md)met schadelijke inhoud die is geblokkeerd door de anti-malware-engine, automatische nuluursre purge en Defender voor Office 365-functies (waaronder [Safe Koppelingen,](safe-links.md) [Safe Bijlagen](safe-attachments.md)en [Anti-phishing in Defender voor Office 365).](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) <p> Zie [Statusrapport bedreigingsbeveiliging](view-reports-for-mdo.md#threat-protection-status-report).|
+|
 
 Als u de widget Status van bedreigingsbeveiliging wilt bekijken of openen, moet u over machtigingen voor het weergeven van Defender voor Office 365 rapporten. Zie Welke machtigingen zijn nodig voor het weergeven van de Defender voor Office 365 [rapporten?](view-reports-for-mdo.md#what-permissions-are-needed-to-view-the-defender-for-office-365-reports)
 
@@ -83,12 +93,17 @@ De widget Globale wekelijkse bedreigingsdetecties laat zien hoeveel bedreigingen
 
 De metrische gegevens worden berekend zoals beschreven in de volgende tabel:
 
+<br>
+
+****
+
 |Metrische|Berekenings- en berekenings-|
 |---|---|
 |Gescande berichten|Aantal gescande e-mailberichten vermenigvuldigd met het aantal geadresseerden|
 |Bedreigingen gestopt|Aantal e-mailberichten dat is geïdentificeerd als malware, vermenigvuldigd met het aantal geadresseerden|
 |Geblokkeerd door [Defender voor Office 365](defender-for-office-365.md)|Aantal e-mailberichten geblokkeerd door Defender voor Office 365 vermenigvuldigd met het aantal geadresseerden|
 |Verwijderd na de bezorging|Aantal berichten verwijderd door [automatische nul-uurs purge](zero-hour-auto-purge.md) vermenigvuldigd met het aantal geadresseerden|
+|
 
 ## <a name="malware"></a>Malware
 
@@ -96,9 +111,9 @@ Malwarewidgets bevatten details over malwaretrends en malwarefamilietypen in de 
 
 ![Malwaretrends en gezinstypen](../../media/malwarewidgetatpe5.png)
 
-## <a name="insights"></a>Inzichten
+## <a name="insights"></a>Insights
 
-Inzichten die u niet alleen moet bekijken, maar ook aanbevelingen en acties die u moet overwegen.
+Insights niet alleen de belangrijkste surface-problemen die u moet bekijken, ze bevatten ook aanbevelingen en acties die u moet overwegen.
 
 ![Slimme inzichten](../../media/smartinsights.png)
 
@@ -122,7 +137,7 @@ Als u de widget Verzonden en ontvangen e-mail wilt bekijken of openen, moet u ov
 
 Als u de widget Recente bedreigingsbeheerwaarschuwingen wilt bekijken of openen, moet u machtigingen hebben om waarschuwingen weer te geven. Zie [RBAC-machtigingen die nodig zijn om](../../compliance/alert-policies.md#rbac-permissions-required-to-view-alerts)waarschuwingen weer te geven voor meer informatie.
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-articles"></a>Verwante artikelen
 
 [E-mailbeveiligingsrapporten weergeven in het beveiligings- & compliancecentrum](view-email-security-reports.md)
 

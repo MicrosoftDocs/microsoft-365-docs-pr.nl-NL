@@ -11,17 +11,17 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: None
 ROBOTS: ''
-description: Meer informatie over het gebruik SharePoint Syntex om contractbestanden te identificeren en gegevens op te halen met een Microsoft 365 oplossing.
-ms.openlocfilehash: b4b11b1bdb980b0ee7629af0cbecbb126a5ae5e5
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+description: Informatie over het gebruik van SharePoint Syntex om contractbestanden te identificeren en gegevens op te halen met een Microsoft 365 oplossing.
+ms.openlocfilehash: c66e46aaaacd5000f1e0d18aa07df527ca8ab7dd
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636204"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53054495"
 ---
 # <a name="step-1-use-sharepoint-syntex-to-identify-contract-files-and-extract-data"></a>Stap 1. Gebruik SharePoint Syntex om contractbestanden te identificeren en gegevens op te halen
 
-Uw organisatie heeft een manier nodig om alle contractdocumenten te identificeren en te classificeren van de vele bestanden die u ontvangt. U wilt ook snel verschillende belangrijke elementen kunnen bekijken in elk van de geïdentificeerde contractbestanden (bijvoorbeeld *Client,* *Contractant* en *Kostenbedrag).* U kunt dit doen met behulp [SharePoint Syntex](index.md) om een documentkennismodel te maken en toe te passen op een documentbibliotheek.
+Uw organisatie heeft een manier nodig om alle contractdocumenten te identificeren en te classificeren van de vele bestanden die u ontvangt. U wilt ook snel verschillende belangrijke elementen kunnen bekijken in elk van de geïdentificeerde contractbestanden (bijvoorbeeld *Client,* *Contractant* en *Kostenbedrag).* U kunt dit doen door een document [SharePoint Syntex](index.md) te maken en toe te passen op een documentbibliotheek.
 
 ## <a name="overview-of-the-process"></a>Overzicht van het proces
 
@@ -37,7 +37,7 @@ Uw organisatie heeft een manier nodig om alle contractdocumenten te identificere
 
    ![Contracten in documentbibliotheek](../media/content-understanding/doc-lib-solution.png)
 
-5. Als u bewaarvereisten voor uw contracten hebt, [](apply-a-retention-label-to-a-model.md) kunt u uw model ook gebruiken om een bewaarlabel toe te passen dat voorkomt dat uw contracten voor een bepaalde periode worden verwijderd.
+5. Als u bewaar- of beveiligingsvereisten voor uw contracten hebt, [](apply-a-retention-label-to-a-model.md) kunt u [](apply-a-sensitivity-label-to-a-model.md) uw model ook gebruiken om een bewaarlabel of een gevoeligheidslabel toe te passen waardoor uw contracten niet voor een bepaalde periode worden verwijderd of om te beperken wie toegang heeft tot de contracten.
 
 ## <a name="steps-to-create-and-train-your-model"></a>Stappen voor het maken en trainen van uw model
 
@@ -198,6 +198,11 @@ Als u uw model wilt toepassen op een SharePoint documentbibliotheek:
 6. Op de **pagina > contract** ziet u in de sectie Bibliotheken met dit **model** de URL naar de SharePoint site.
 
     ![Schermafbeelding van de startpagina Contract met de sectie Bibliotheken met dit model.](../media/content-understanding/contract-libraries-with-this-model.png)
+
+7. Onder **Instellingen**  >  **Bibliotheekinstellingen:**
+
+   - Voeg een kolom met de naam **Status** toe en **selecteer Keuze** als kolomtype.
+   - Pas de **waarden In revisie,** **Goedgekeurd** en **Geweigerd** toe.
 
 Nadat u het model hebt toegepast op de documentbibliotheek, kunt u beginnen met het uploaden van documenten naar de site en de resultaten bekijken.
 
