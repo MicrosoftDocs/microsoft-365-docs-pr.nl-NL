@@ -13,23 +13,19 @@ ms.collection:
 - M365-security-compliance
 ms.topic: article
 description: Schakel een instelling in waarmee cocreatie mogelijk is en inhoud automatisch wordt opgeslagen in bureaublad-apps voor gelabelde en versleutelde documenten in SharePoint en OneDrive.
-ms.openlocfilehash: 926f8aa188aeb1dbc7bb7b042d0a402acc49f7a3
-ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
+ms.openlocfilehash: bd197a55e5a119263bd9c67716c38010a86e5263
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796052"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53062194"
 ---
 # <a name="enable-co-authoring-for-files-encrypted-with-sensitivity-labels"></a>Cocreatie inschakelen voor bestanden die zijn versleuteld met gevoeligheidslabels
 
 >*[Richtlijnen voor Microsoft 365-licenties voor beveiliging en compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 > [!NOTE]
-> Deze functie is beschikbaar als preview en kan worden gewijzigd. 
->
-> Schakel deze functie in op een test-tenant in plaats van op een productie-tenant:
-> - Met deze functie worden metagegevens gelabeld. Momenteel ondersteunen niet alle apps op alle platforms deze wijziging
-> - U kunt deze functie niet zelf uitschakelen nadat deze is ingeschakeld
+> Deze functie is beschikbaar als preview en kan worden gewijzigd.
 
 Schakel de instelling in om [cocreatie](https://support.office.com/article/ee1509b4-1f6e-401e-b04a-782d26f564a4) te ondersteunen voor Office-bureaublad-apps, zodat meerdere gebruikers deze documenten tegelijkertijd kunnen bewerken wanneer documenten worden gelabeld en versleuteld met [gevoeligheidslabels](sensitivity-labels.md).
 
@@ -37,7 +33,7 @@ Als deze instelling niet voor uw tenant is ingeschakeld, moeten gebruikers een v
 
 Door deze functionaliteit in te schakelen, wordt [automatisch opslaan](https://support.office.com/article/what-is-autosave-6d6bd723-ebfd-4e40-b5f6-ae6e8088f7a5) ondersteund voor deze gelabelde en versleutelde bestanden.
 
-Lees de releaseaankondiging in het blogbericht [Introductie van cocreatie van versleutelde documenten in Microsoft Information Protection en updates voor labelen](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-co-authoring-on-microsoft-information-protection/ba-p/2164162).
+Lees de eerste aankondiging van de release in het blogbericht [Introductie van cocreatie van versleutelde documenten in Microsoft Information Protection en updates voor labelen](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-co-authoring-on-microsoft-information-protection/ba-p/2164162).
 
 ## <a name="metadata-changes-for-sensitivity-labels"></a>Wijzigingen in metagegevens voor gevoeligheidslabels
 
@@ -76,15 +72,13 @@ Raadpleeg de volgende sectie voor een lijst met apps en services die deze instel
 
 Zorg dat u de volgende vereisten begrijpt voordat u deze functie inschakelt.
 
-- U moet een test-tenant gebruiken voor deze preview.
-
 - U moet een globale beheerder zijn om deze functie te kunnen inschakelen.
 
 - Gevoeligheidslabels moeten zijn [ingeschakeld voor Office-bestanden in SharePoint en OneDrive](sensitivity-labels-sharepoint-onedrive-files.md) voor de tenant. Als deze functie nog niet is ingeschakeld, wordt deze automatisch ingeschakeld wanneer u de instelling selecteert om cocreatie in te schakelen voor bestanden met gevoeligheidslabels.
 
 - Microsoft 365 Apps voor ondernemingen:
-    - **Windows**: Preview: [Huidig kanaal (Preview)](https://office.com/insider)
-    - **macOS**: Preview: [Huidig kanaal (Preview)](https://office.com/insider)
+    - **Windows**: minimumversie 2105: 18 juni
+    - **macOS**: minimumversie 16.50
     - **iOS**: nog niet ondersteund
     - **Android**: nog niet ondersteund
 
@@ -142,34 +136,26 @@ Deze preview-versie van cocreatie voor bestanden die zijn versleuteld met gevoel
 ## <a name="how-to-enable-co-authoring-for-files-with-sensitivity-labels"></a>Cocreatie inschakelen voor bestanden met gevoeligheidslabels
 
 > [!CAUTION]
-> Het inschakelen is een eenzijdige actie. Test de functie in de preview-versie alleen in een niet-productieomgeving en pas nadat u de wijzigingen in de metagegevens en de vereisten, beperkingen en eventuele bekende problemen die op deze pagina worden beschreven, hebt gelezen en begrepen.
+> Het inschakelen is een eenzijdige actie. Wanneer de functie in de preview-versie is, schakelt u deze pas in nadat u de wijzigingen in de metagegevens en de vereisten, beperkingen en eventuele bekende problemen die op deze pagina worden beschreven, hebt gelezen en begrepen.
 
-Tijdens de preview moet u een specifieke URL gebruiken om toegang te krijgen tot deze instelling in het Microsoft 365-compliancecentrum.
+1. Meld u aan bij het [Microsoft 365-compliancecentrum](https://compliance.microsoft.com) als globale beheerder voor uw tenant.
 
-1. Meld u aan bij het Microsoft 365-compliancecentrum als globale beheerder voor uw test-tenant via de volgende koppeling:
+2. Selecteer in het navigatiedeelvenster **Instellingen** > **Cocreatie voor bestanden met vertrouwelijkheidsbestanden**.
+
+2. Lees op de pagina **Cocreatie voor bestanden met vertrouwelijkheidslabels (preview)** de beschrijving, de vereisten, wat u kunt verwachten en de waarschuwing dat u deze instelling niet kunt uitschakelen nadat u deze hebt ingeschakeld.
     
-    ```http
-    https://compliance.microsoft.com/co-authoring_for_files_with_sensitivity_labels
-    ```
-    Via deze koppeling verwijst u rechtstreeks naar de tenantinstelling **Cocreatie voor bestanden met gevoeligheidslabels**.
-
-    > [!IMPORTANT]
-    > Controleer voordat u verder gaat of u bent aangemeld bij een test-tenant die geen invloed heeft op uw gebruikers: 
-    >
-    > Selecteer de cirkel met de initialen van uw account rechtsboven in het compliancecentrum en controleer of bij de naam van de tenant de beoogde test-tenant wordt weergegeven.
-    
-2. Lees de beschrijving, de vereisten, wat u kunt verwachten en de waarschuwing dat u deze instelling niet kunt uitschakelen nadat u deze hebt ingeschakeld. Selecteer daarna **Cocreatie inschakelen voor bestanden met gevoeligheidslabels** en **Toepassen**:
+    Selecteer daarna **Cocreatie inschakelen voor bestanden met gevoeligheidslabels** en **Toepassen**:
     
     ![Optie om cocreatie in te schakelen voor bestanden met gevoeligheidslabels](../media/co-authoring-tenant-option-for-sensitivity-labels.png)
 
-3. Wacht 24 uur totdat deze instelling is gerepliceerd in uw omgeving voordat u deze nieuwe functie voor cocreatie test.
+3. Wacht 24 uur totdat deze instelling is gerepliceerd in uw omgeving voordat u deze nieuwe functie voor cocreatie gebruikt.
 
 ## <a name="contact-support-if-you-need-to-disable-this-feature"></a>Neem contact op met ondersteuning als u deze functie wilt uitschakelen
 
 > [!IMPORTANT]
 > Als u deze functie toch moet uitschakelen, moet u er rekening mee houden dat labelgegevens verloren kunnen gaan.
 
-Nadat u cocreatie voor bestanden met gevoeligheidslabels voor uw tenant hebt ingeschakeld, kunt u deze instelling niet zelf uitschakelen. Daarom is het zo belangrijk dat u de vereisten, gevolgen en beperkingen controleert en begrijpt voordat u deze instelling inschakelt. Het is ook raadzaam om deze functie te testen met een test-tenant in plaats van een productie-tenant.
+Nadat u cocreatie voor bestanden met gevoeligheidslabels voor uw tenant hebt ingeschakeld, kunt u deze instelling niet zelf uitschakelen. Daarom is het zo belangrijk dat u de vereisten, gevolgen en beperkingen controleert en begrijpt voordat u deze instelling inschakelt.
 
 ![Optie die laat zien dat cocreatie is ingeschakeld voor gevoeligheidslabels](../media/co-authoring-tenant-option-set-for-sensitivity-labels.png)
 

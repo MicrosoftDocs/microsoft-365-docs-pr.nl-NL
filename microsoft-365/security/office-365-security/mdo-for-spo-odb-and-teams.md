@@ -23,12 +23,12 @@ ms.custom:
 description: Meer informatie over Microsoft Defender Office 365 voor bestanden in SharePoint Online, OneDrive voor Bedrijven en Microsoft Teams.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 67bd2a0952ac630888b07eaf05d365736a0472ea
-ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
+ms.openlocfilehash: 5a0c9721c4d8fc2087e0dbbce19305060344430c
+ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53028833"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096742"
 ---
 # <a name="safe-attachments-for-sharepoint-onedrive-and-microsoft-teams"></a>Veilige bijlagen voor SharePoint, OneDrive en Microsoft Teams
 
@@ -38,7 +38,7 @@ ms.locfileid: "53028833"
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Safe Bijlagen voor SharePoint, OneDrive en Microsoft Teams in [Microsoft Defender](whats-new-in-defender-for-office-365.md) voor Office 365 bieden een extra beveiligingslaag voor bestanden die al zijn gescand tijdens het uploaden door de algemene [virusdetectie-engine in Microsoft 365.](virus-detection-in-spo.md) Safe Bijlagen voor SharePoint, OneDrive en Microsoft Teams helpt bij het opsporen en blokkeren van bestaande bestanden die zijn geïdentificeerd als schadelijk in teamsites en documentbibliotheken.
+Safe Bijlagen voor SharePoint, OneDrive en Microsoft Teams in [Microsoft Defender](whats-new-in-defender-for-office-365.md) voor Office 365 biedt een extra beveiligingslaag voor bestanden die al asynchron zijn gescand door de algemene [virusdetectie-engine in Microsoft 365](virus-detection-in-spo.md). Safe Bijlagen voor SharePoint, OneDrive en Microsoft Teams helpt bij het opsporen en blokkeren van bestaande bestanden die zijn geïdentificeerd als schadelijk in teamsites en documentbibliotheken.
 
 Safe Bijlagen voor SharePoint, OneDrive en Microsoft Teams is standaard niet ingeschakeld. Zie Safe Bijlagen in SharePoint, OneDrive en [Microsoft Teams.](turn-on-mdo-for-spo-odb-and-teams.md)
 
@@ -67,7 +67,6 @@ Zie Wat u moet doen wanneer een schadelijk bestand wordt gevonden [in SharePoint
 Bestanden die zijn geïdentificeerd als schadelijk door Safe Bijlagen voor SharePoint, OneDrive en Microsoft Teams worden weergegeven in rapporten voor [Microsoft Defender](view-reports-for-mdo.md) voor Office 365 en in [Explorer (en realtime detecties)](threat-explorer.md).
 
 Vanaf mei 2018, wanneer een bestand wordt geïdentificeerd als schadelijk door Safe Bijlagen voor SharePoint, OneDrive en Microsoft Teams, is het bestand ook beschikbaar in quarantaine. Zie In Quarantaine geplaatste bestanden beheren in Defender voor [Office 365.](manage-quarantined-messages-and-files.md#use-the-microsoft-365-defender-portal-to-manage-quarantined-files-in-defender-for-office-365)
-
 
 ## <a name="keep-these-points-in-mind"></a>Houd rekening met deze punten
 

@@ -2,7 +2,7 @@
 title: Nieuwe bedreigingen bijhouden en beantwoorden met bedreigingsanalyse
 ms.reviewer: ''
 description: Meer informatie over nieuwe bedreigingen en aanvalstechnieken en hoe u deze kunt stoppen. Beoordeel de impact ervan op uw organisatie en evalueer uw organisatiebestendigheid.
-keywords: bedreigingsanalyse, risicoanalyse, Microsoft 365 Defender, M365D, mitigatiestatus, veilige configuratie, Microsoft Defender voor Office 365, Microsoft Defender voor Office 365 bedreigingsanalyse, MDO-bedreigingsanalyse, geïntegreerde MDE- en MDO-bedreigingsanalysegegevens, integratie van bedreigingsanalysegegevens, geïntegreerde Microsoft 365 Defender threat analytics
+keywords: bedreigingsanalyse, risicoanalyse, Microsoft 365 Defender, M365D, mitigatiestatus, veilige configuratie, Microsoft Defender voor Office 365, Microsoft Defender voor Office 365 bedreigingsanalyse, MDO-bedreigingsanalyse, geïntegreerde MDE- en MDO-bedreigingsanalysegegevens, integratie van bedreigingsanalysegegevens, geïntegreerde Microsoft 365 Defender bedreigingsanalyse
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -21,12 +21,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b87d1963b8ffa3751c13cea532c8d6436f69fbb9
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: d07a7210b8426349f18a2305069c4ed0a08ce660
+ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51501217"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096832"
 ---
 # <a name="track-and-respond-to-emerging-threats-with-threat-analytics"></a>Nieuwe bedreigingen bijhouden en beantwoorden met bedreigingsanalyse 
 
@@ -116,6 +116,24 @@ Elk rapport bevat grafieken die een overzicht geven van hoe veerkrachtig uw orga
 - **Veilige configuratiestatus:** toont het aantal apparaten met verkeerd geconfigureerde beveiligingsinstellingen. Pas de aanbevolen beveiligingsinstellingen toe om de bedreiging te beperken. Apparaten worden beschouwd **als Veilig** als ze alle _bijgespoorde_ instellingen hebben toegepast.
 - **Beveiligingspatchingstatus**: geeft het aantal kwetsbare apparaten weer. Pas beveiligingsupdates of patches toe om beveiligingsproblemen aan te pakken die door de bedreiging worden misbruikt.
 
+#### <a name="view-reports-per-threat-tags"></a>Rapporten per bedreigingslabels weergeven
+U kunt de lijst met bedreigingsrapporten filteren en de meest relevante rapporten weergeven op basis van een specifieke bedreigingslabel (categorie) of een rapporttype. 
+- **Bedreigingslabels:** help u bij het weergeven van de meest relevante rapporten op basis van een specifieke bedreigingscategorie. Bijvoorbeeld alle rapporten met betrekking tot ransomware.
+- **Rapporttypen:** help u bij het weergeven van de meest relevante rapporten op basis van een specifiek rapporttype. Bijvoorbeeld alle rapporten die betrekking hebben op hulpmiddelen en technieken. 
+- **Filters:** help u bij het efficiënt controleren van de lijst met bedreigingsrapports en het filteren van de weergave op basis van een specifiek bedreigingslabel of rapporttype. Bekijk bijvoorbeeld alle bedreigingsrapporten met betrekking tot ransomwarecategorie of bedreigingsrapporten die betrekking hebben op beveiligingslekken.
+
+##### <a name="how-does-it-work"></a>Hoe werkt dit?
+Het Microsoft Threat Intelligence-team heeft bedreigingslabels toegevoegd aan elk bedreigingsrapport:
+- Er zijn nu vier bedreigingslabels beschikbaar:
+  - Ransomware
+  - Phishing
+  - beveiligingsprobleem
+  - Activiteitsgroep
+- Bedreigingslabels worden boven aan de pagina bedreigingsanalyse weergegeven, met tellers voor het aantal beschikbare rapporten onder elke tag.
+    ![bedreigingslabels](../../media/threat-analytics/ta-threattags-mtp.png)
+- De lijst kan ook worden gesorteerd op   ![ bedreigingslabels: lijsten](../../media/threat-analytics//ta-taglist-mtp.png)
+- Filters zijn beschikbaar per bedreigingslabel en rapporttype:   ![ filters](../../media/threat-analytics/ta-threattag-filters-mtp.png)
+
 ### <a name="analyst-report-get-expert-insight-from-microsoft-security-researchers"></a>Analistrapport: Krijg inzicht van microsoft-beveiligingsonderzoekers
 Lees in **de sectie Rapportanalist** de gedetailleerde expert-write-up door. De meeste rapporten bevatten gedetailleerde beschrijvingen van aanvalsketens, waaronder tactieken en technieken die zijn toegesneden op het MITRE ATT&CK-framework, uitgebreide lijsten met aanbevelingen en krachtige richtlijnen voor het zoeken naar [bedreigingen.](advanced-hunting-overview.md)
 
@@ -178,7 +196,7 @@ Houd rekening met de volgende factoren bij het bekijken van de bedreigingsanalys
 - Apparaten worden geteld als 'niet beschikbaar' als ze geen gegevens naar de service hebben verzonden.
 - Antivirusgerelateerde statistieken zijn gebaseerd op Microsoft Defender Antivirus instellingen. Apparaten met antivirusoplossingen van derden kunnen worden weergegeven als 'blootgesteld'.
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-topics"></a>Gerelateerde onderwerpen
 - [Proactief bedreigingen zoeken met geavanceerde jacht](advanced-hunting-overview.md) 
 - [De sectie Analistrapport begrijpen](threat-analytics-analyst-reports.md)
 - [Beveiligingszwakheden en blootstellingen beoordelen en oplossen](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)

@@ -17,12 +17,12 @@ ms.collection:
 description: Beheerders kunnen leren hoe ze een postvak configureren voor het verzamelen van spam en phishing-e-mail die door gebruikers worden gerapporteerd.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f59548a1f36e067d8b649f7fe22149362d6fe9c6
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: 2dded27d87ee5db0d1e71b643fe8244408ef1a24
+ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 06/23/2021
-ms.locfileid: "53083534"
+ms.locfileid: "53096154"
 ---
 # <a name="user-reported-message-settings"></a>Door de gebruiker gerapporteerde berichtinstellingen
 
@@ -134,24 +134,19 @@ De vereisten voor berichtopmaak worden beschreven in de volgende sectie. De opma
 
 Als u de oorspronkelijke bijgevoegde berichten correct wilt identificeren, hebben berichten die naar het aangepaste postvak worden verzonden, specifieke opmaak nodig. Als de berichten deze indeling niet gebruiken, worden de oorspronkelijke bijgevoegde berichten altijd geïdentificeerd als phishing-inzendingen.
 
-Voor een correcte identificatie van de oorspronkelijke bijgevoegde berichten moeten berichten die naar het aangepaste postvak worden verzonden, de volgende syntaxis gebruiken voor het onderwerp (enveloptitel):
+Als u de gerapporteerde reden voor de oorspronkelijke bijgevoegde berichten wilt opgeven, moeten berichten die naar het aangepaste postvak worden verzonden (de bijlage niet wijzigen) beginnen met een van de volgende voorvoegsels in het onderwerp (enveloptitel):
 
-`SafetyAPIAction|NetworkMessageId|SenderIp|FromAddress|(Message Subject)`
+- 1| of Ongewenste e-mail:
+- 2| of Geen ongewenste e-mail
+- 3| of Phishing
 
-waarbij SafetyAPIAction een van de volgende gehele getallen is:
+Bijvoorbeeld:
 
-- 1: Ongewenste e-mail
-- 2: Geen ongewenste e-mail
-- 3: Phishing
+`3|This part is ignored by the system` <br>
+`Not Junk:This part of the subject is ignored as well`
 
-In dit voorbeeld worden de volgende waarden gebruikt:
+- Beide berichten worden gerapporteerd als Geen ongewenste e-mail op basis van onderwerp.
+- De rest wordt genegeerd.
 
-- Het bericht wordt gerapporteerd als phishing.
-- De netwerkbericht-id is 49871234-6dc6-43e8-abcd-08d797f20abe.
-- De IP-afzender is 167.220.232.101.
-- Het van-adres is test@contoso.com.
-- De onderwerpregel van het bericht is 'test phishing-inzending'
-
-`3|49871234-6dc6-43e8-abcd-08d797f20abe|167.220.232.101|test@contoso.com|(test phishing submission)`
 
 Berichten die deze indeling niet volgen, worden niet correct weergegeven in de portal Inzendingen.

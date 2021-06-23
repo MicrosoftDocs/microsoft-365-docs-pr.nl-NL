@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 582116047900fc5f28d5580398cf5c065e6a3e23
-ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
+ms.openlocfilehash: 21f6947074f6a14e6ed1af3968ee94e403f0d0cd
+ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53053021"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096814"
 ---
 # <a name="whats-new-in-microsoft-365-defender"></a>Wat is er nieuw in Microsoft 365 Defender
 
@@ -38,6 +38,8 @@ RSS-feed: Ontvang een melding wanneer deze pagina wordt bijgewerkt door de volge
 ```http
 /api/search/rss?search=%22Lists+the+new+features+and+functionality+in+Microsoft+365+defender%22&locale=en-us
 ```
+## <a name="june-2021"></a>Juni 2021
+- Bedreigingslabels in [Microsoft 365 Defender threat analytics-rapport](threat-analytics.md) <br> Met bedreigingslabels kunt u zich richten op specifieke bedreigingscategorieën en de meest relevante rapporten bekijken. 
 
 ## <a name="april-2021"></a>April 2021
 - Microsoft 365 Defender<br> De verbeterde [Microsoft 365 Defender](https://security.microsoft.com) portal is nu beschikbaar. Deze nieuwe ervaring brengt Defender voor Eindpunt, Defender voor Office 365, Defender voor identiteit en meer samen in één portal. Dit is de nieuwe thuisbasis voor het beheren van uw beveiligingsbesturingselementen. [Ontdek wat er nieuw is](./overview-security-center.md).

@@ -17,12 +17,12 @@ ms.custom:
 description: Beheerders kunnen meer informatie krijgen over het anti-phishingbeleid dat beschikbaar is in Exchange Online Protection (EOP) en Microsoft Defender voor Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9e5cd60915699cd2adb42e575c25912f5f164a5b
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: 850756acacc757526352b9249c0e9efbe82fac8d
+ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53055131"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096791"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Anti-phishingbeleid in Microsoft 365
 
@@ -141,9 +141,11 @@ Zie Verdachte berichten identificeren [in Outlook.com en webversie van Outlook](
 De instellingen voor eerste **contact veiligheidstip** is beschikbaar in EOP en Defender voor Office 365 organisaties en is niet afhankelijk van spoof intelligence- of imitatiebeveiligingsinstellingen. De veiligheidstip wordt weergegeven aan geadresseerden in de volgende scenario's:
 
 - De eerste keer dat ze een bericht van een afzender ontvangen
-- Als ze niet vaak berichten van de afzender ontvangen.
+- Ze krijgen niet vaak berichten van de afzender.
 
-![De tekst van het veiligheidstip voor imitatiebeveiliging bij meerdere geadresseerden.](../../media/safety-tip-first-contact-multiple-recipients.png)
+![Eerste contactpersoon veiligheidstip voor berichten met één geadresseerde.](../../media/safety-tip-first-contact-one-recipient.png)
+
+![Eerste contactpersoon veiligheidstip voor berichten met meerdere geadresseerden.](../../media/safety-tip-first-contact-multiple-recipients.png)
 
 Deze mogelijkheid voegt een extra beveiligingslaag toe tegen mogelijke imitatieaanvallen, dus raden we u aan deze in te zetten.
 

@@ -18,12 +18,12 @@ ms.collection:
 description: Beheerders kunnen informatie krijgen over het weergeven, maken, wijzigen en verwijderen van Safe Koppelingenbeleid en algemene Safe Koppelingen-instellingen in Microsoft Defender voor Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b4254d62cfa5844756392c00686e7b93c466d160
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: d1e0257fd124a53b2191ad8025ce42dc13a2e23e
+ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 06/23/2021
-ms.locfileid: "53082754"
+ms.locfileid: "53096766"
 ---
 # <a name="set-up-safe-links-policies-in-microsoft-defender-for-office-365"></a>Beleidsregels Safe Koppelingen instellen in Microsoft Defender voor Office 365
 
@@ -53,7 +53,7 @@ De basiselementen van een Safe koppelingenbeleid zijn:
 - Het beleid voor veilige **koppelingen:** schakel Safe Koppelingenbeveiliging in, schakel realtime URL-scan in, geef op of het scannen in realtime moet worden voltooid voordat het bericht wordt verzonden, schakel het scannen van interne berichten in, geef op of gebruikers klikken op URL's moeten bijhouden en geef op of gebruikers mogen klikken op de oorspronkelijke URL.
 - **De regel veilige koppelingen:** hiermee geeft u de prioriteits- en geadresseerdefilters op (op wie het beleid van toepassing is).
 
-Het verschil tussen deze twee elementen is niet duidelijk wanneer u de Safe Koppelingen in de Microsoft 365 Defender portal:
+Het verschil tussen deze twee elementen is niet duidelijk wanneer u het beleid Safe Koppelingen in de Microsoft 365 Defender beheren:
 
 - Wanneer u een Safe koppelingenbeleid maakt, maakt u tegelijkertijd een veilige koppelingsregel en het bijbehorende beleid voor veilige koppelingen met dezelfde naam voor beide.
 - Wanneer u een Safe koppelingenbeleid wijzigt, wijzigen instellingen met betrekking tot de naam, prioriteit, ingeschakeld of uitgeschakeld en geadresseerdefilters de regel voor veilige koppelingen. Alle andere instellingen wijzigen het beleid voor gekoppelde veilige koppelingen.
@@ -110,7 +110,7 @@ Als u een aangepast Safe koppelingenbeleid maakt in de Microsoft 365 Defender po
 
    Meerdere waarden in dezelfde voorwaarde: gebruik OF-logica (bijvoorbeeld: _\<recipient1\>_ of _\<recipient2\>_). Verschillende voorwaarden: gebruik EN-logica (bijvoorbeeld: _\<recipient1\>_ en _\<member of group 1\>_).
 
-   - **Deze gebruikers, groepen en domeinen uitsluiten**: als u uitzonderingen wilt toevoegen voor de interne geadresseerden op wie het beleid van toepassing is (uitzonderingen op ontvangers), selecteert u deze optie en configureert u de uitzonderingen. De instellingen en het gedrag zijn exact hetzelfde als bij de voorwaarden.
+   - **Deze gebruikers, groepen** en domeinen uitsluiten: Als u uitzonderingen wilt toevoegen voor de interne geadresseerden waar het beleid op van toepassing is (uitzonderingen voor geadresseerden), selecteert u deze optie en configureert u de uitzonderingen. De instellingen en het gedrag zijn exact hetzelfde als bij de voorwaarden.
 
    Wanneer u gereed bent, klikt u op **Volgende**.
 
@@ -138,7 +138,7 @@ Als u een aangepast Safe koppelingenbeleid maakt in de Microsoft 365 Defender po
 
 6. Selecteer op **de** pagina Melding die wordt weergegeven een van de volgende waarden voor Hoe wilt u uw gebruikers **op de hoogte stellen?**:
    - **De standaardmeldingstekst gebruiken**
-   - **Aangepaste meldingstekst gebruiken:** als u deze waarde selecteert, worden de volgende instellingen weergegeven:
+   - **Aangepaste meldingstekst gebruiken:** als u deze waarde selecteert (de lengte mag niet groter zijn dan 200 tekens), worden de volgende instellingen weergegeven:
      - **Gebruik Microsoft Translator voor automatische lokalisatie**
      - **Aangepaste meldingstekst:** Voer de aangepaste meldingstekst in dit vak in.
 

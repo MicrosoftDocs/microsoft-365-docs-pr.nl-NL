@@ -22,77 +22,141 @@ ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 ms.custom:
 - seo-marvel-apr2020
 description: Meer informatie over het importeren van gegevens van derden van sociale mediaplatforms, chatplatforms en platformen voor documentsamenwerking om postvakken Microsoft 365 maken.
-ms.openlocfilehash: 5e1eab67019184e337b7e5404bf96bdf26d0446d
-ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
+ms.openlocfilehash: de4c3c6454809cc1b7f78c0e5790fcbe8b3887c0
+ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53061732"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096166"
 ---
-# <a name="archive-third-party-data"></a>Gegevens van derden archiveren
+# <a name="archive-third-party-data-in-microsoft-365"></a>Gegevens van derden archiveren in Microsoft 365
 
 Microsoft 365 kunnen beheerders gegevensconnectoren gebruiken om gegevens van derden van sociale mediaplatforms, chatplatforms en samenwerkingsplatformen voor documenten te importeren en te archiveren in postvakken in uw Microsoft 365 organisatie. Een van de belangrijkste voordelen van het gebruik van gegevensconnectoren voor het importeren en archiveren van gegevens van derden in Microsoft 365 is dat u verschillende Microsoft 365 complianceoplossingen kunt toepassen nadat deze zijn geïmporteerd. Op deze manier kunt u ervoor zorgen dat de niet-Microsoft-gegevens van uw organisatie voldoen aan de voorschriften en standaarden die van invloed zijn op uw organisatie.
 
 ## <a name="third-party-data-connectors"></a>Gegevensconnectors van derden
 
-De volgende tabel bevat de gegevensconnectors van derden die beschikbaar zijn in de Microsoft 365-compliancecentrum. De tabel bevat ook een overzicht van de complianceoplossingen die u kunt toepassen op gegevens van derden nadat u gegevens van derden hebt geïmporteerd en gearchiveerd in Microsoft 365. Zie de [volgende sectie voor](#overview-of-compliance-solutions-that-support-third-party-data) een gedetailleerde beschrijving van elke complianceoplossing en hoe deze voordelen kan hebben voor gegevens van derden.
+De Microsoft 365-compliancecentrum biedt inheems gegevensconnectors van Microsoft van derden om gegevens uit verschillende gegevensbronnen te importeren, zoals LinkedIn, Instant Bloomberg en Twitter en gegevensconnectoren die de Insider-oplossing voor risicobeheer ondersteunen. Naast deze gegevensconnectors werkt Microsoft samen met de volgende partners om veel meer gegevensconnectoren van het derde deel in de Microsoft 365-compliancecentrum. Uw organisatie werkt samen met deze partners om hun archiveringsservice in te stellen voordat u een bijbehorende gegevensconnector maakt in de Microsoft 365-compliancecentrum.
 
-> [!TIP]
-> Klik op de koppeling in **de** gegevenskolom van derden om de stapsgewijs instructies te volgen voor het maken van een verbindingslijn voor dat gegevenstype.
+- [Veritas](#veritas-data-connectors)
+
+- [TeleMessage](#telemessage-data-connectors)
+
+- [17a-4 LLC](#17a-4-data-connectors)
+
+- [CellTrust](#celltrust-data-connectors)
+
+De gegevens van derden die in de volgende secties worden vermeld (met uitzondering van HR-gegevens en fysieke foutgegevens die worden gebruikt voor de Microsoft 365 Insider-oplossing voor risicobeheer) worden geïmporteerd in gebruikerspostvakken. De Microsoft 365 complianceoplossingen die gegevens van derden ondersteunen, worden toegepast op het postvak van de gebruiker waarin de gegevens zijn opgeslagen.
+
+### <a name="microsoft-data-connectors"></a>Microsoft-gegevensconnectors
+
+In de volgende tabel vindt u de native gegevensconnectors van derden die beschikbaar zijn in de Microsoft 365-compliancecentrum. De tabel bevat ook een overzicht van de complianceoplossingen die u kunt toepassen nadat u gegevens van derden hebt geïmporteerd en gearchiveerd in Microsoft 365. Zie het [overzicht van complianceoplossingen](#overview-of-compliance-solutions-that-support-third-party-data) die gegevens van derden ondersteunen voor een gedetailleerde beschrijving van elke complianceoplossing en hoe deze gegevens van derden ondersteunt.
+
+Klik op de koppeling in **de** gegevenskolom van derden om de stapsgewijs instructies te volgen voor het maken van een verbindingslijn voor dat gegevenstype.
 
 |Gegevens van derden  |Proces in de wacht zetten|eDiscovery  |Bewaarinstellingen  |Records Management  |Communicatiecompliance  |Beheer van insider-risico's  |
 |:---------|:---------|:---------|:---------|:---------|:---------|:---------|
-|[Android <sup>1</sup>](archive-android-archiver-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[AT&T Network <sup>1</sup>](archive-att-network-archiver-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[Bell Network <sup>1</sup>](archive-bell-network-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
 |[Bloomberg-bericht](archive-bloomberg-message-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[CellTrust <sup>2</sup>](archive-celltrust-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[Cisco Jabber op MS SQL <sup>2</sup>](archive-ciscojabberonmssql-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[Cisco Jabber op Oracle <sup>2</sup>](archive-ciscojabberonoracle-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[Cisco Jabber op PostgreSQL <sup>2</sup>](archive-ciscojabberonpostgresql-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[EML <sup>2</sup>](archive-eml-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|||
-|[<sup>Ondernemingsnummer 1</sup>](archive-enterprise-number-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
 |[Facebook](archive-facebook-data-with-sample-connector.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|||
-|[FX Verbinding maken <sup>2</sup>](archive-fxconnect-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
 |[Personeelszaken (HR)](import-hr-data.md) ||||||![Vinkje](../media/checkmark.png)
 |[ICE Chat](archive-icechat-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
 |[Instant Bloomberg](archive-instant-bloomberg-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[Jive <sup>2</sup>](archive-jive-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
 |[LinkedIn](archive-linkedin-data.md)   |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|||
-|[MS SQL Database <sup>2</sup>](archive-mssqldatabaseimporter-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|||
-|[O2 Network <sup>1</sup>](archive-o2-network-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
 |[Fysieke badging](import-physical-badging-data.md) ||||||![Vinkje](../media/checkmark.png)|
-|[Draaipunt <sup>2</sup>](archive-pivot-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[Redtail Speak <sup>2</sup>](archive-redtailspeak-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[Reuters Dealing <sup>2</sup>](archive-reutersdealing-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[Reuters Eikon <sup>2</sup>](archive-reuterseikon-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[Reuters FX <sup>2</sup>](archive-reutersfx-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[Salesforce Chatter <sup>2</sup>](archive-salesforcechatter-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|||
-|[ServiceNow <sup>2</sup>](archive-servicenow-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|||
-|[Signaal <sup>1</sup>](archive-signal-archiver-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[Skype voor Bedrijven <sup>2</sup>](archive-skypeforbusiness-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[Slack eDiscovery <sup>2</sup>](archive-slack-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[Symfonie <sup>2</sup>](archive-symphony-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[Telegram <sup>1</sup>](archive-telegram-archiver-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[TELUS Network <sup>1</sup>](archive-telus-network-data.md)    |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[Tekst met <sup>scheidingstekens 2</sup>](archive-text-delimited-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|||
 |[Twitter](archive-twitter-data-with-sample-connector.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|||
-|[Verizon Network <sup>1</sup>](archive-verizon-network-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[Webex Teams <sup>2</sup>](archive-webexteams-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[<sup>Webpagina's 2</sup>](archive-webpagecapture-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|||
-|[WeChat <sup>1</sup>](archive-wechat-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[WhatsApp <sup>1</sup>](archive-whatsapp-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[Workplace from Facebook <sup>2</sup>](archive-workplacefromfacebook-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[XIP <sup>2</sup>](archive-xip-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[XSLT/XML <sup>2</sup>](archive-xslt-xml-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|||
-|[Yieldbroker <sup>2</sup>](archive-yieldbroker-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[<sup>Zoomvergaderingen 2</sup>](archive-zoommeetings-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
 ||||||||
 
-> [!NOTE]
-> <sup>1</sup> Gegevensconnector die door TeleMessage wordt geleverd. Voordat u gegevens kunt archiveren in Microsoft 365, moet u met TeleMessage werken om de archiveringsservice voor uw organisatie in te stellen. Zie de vereiste sectie in de stapsgewijs instructies voor dit gegevenstype voor meer informatie. TeleMessage-gegevensconnectoren zijn ook beschikbaar in GCC omgevingen in Microsoft 365 cloud van de Amerikaanse overheid. Zie de sectie Gegevensconnectoren in de cloud van de Amerikaanse overheid [in](#data-connectors-in-the-us-government-cloud) dit artikel voor meer informatie. <br/><br/><sup>2</sup> Gegevensconnector geleverd door Veritas. Voordat u gegevens kunt archiveren in Microsoft 365, moet u samenwerken met Veritas om de archiveringsservice voor uw organisatie in te stellen. Zie de vereiste sectie in de stapsgewijs instructies voor dit gegevenstype voor meer informatie.
+### <a name="veritas-data-connectors"></a>Gegevensconnectors van Veritas
 
-De gegevens van derden in de vorige tabel (met uitzondering van HR-gegevens en fysieke foutgegevens) worden geïmporteerd in gebruikerspostvakken. De bijbehorende complianceoplossingen die gegevens van derden ondersteunen, worden toegepast op het postvak van de gebruiker waarin de gegevens zijn opgeslagen.
+De tabel in deze sectie bevat de gegevensconnectors van derden die beschikbaar zijn in samenwerking met Veritas. De tabel bevat ook een overzicht van de complianceoplossingen die u kunt toepassen op gegevens van derden nadat u deze hebt geïmporteerd en gearchiveerd in Microsoft 365. Zie het [overzicht van complianceoplossingen](#overview-of-compliance-solutions-that-support-third-party-data) die gegevens van derden ondersteunen voor een gedetailleerde beschrijving van elke complianceoplossing en hoe deze gegevens van derden ondersteunt.
+
+Voordat u gegevens van derden kunt archiveren in Microsoft 365, moet u samenwerken met Veritas om de archiveringsservice *(merge1* genoemd) voor uw organisatie in te stellen. Klik voor meer informatie op  de koppeling in de gegevenskolom van derden om de stapsgewijs instructies te volgen voor het maken van een verbindingslijn voor dat gegevenstype.
+
+|Gegevens van derden  |Proces in de wacht zetten|eDiscovery  |Bewaarinstellingen  |Records Management  |Communicatiecompliance  |Beheer van insider-risico's  |
+|:---------|:---------|:---------|:---------|:---------|:---------|:---------|
+|[CellTrust](archive-celltrust-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[Cisco Jabber op MS SQL](archive-ciscojabberonmssql-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[Cisco Jabber op Oracle](archive-ciscojabberonoracle-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[Cisco Jabber op PostgreSQL](archive-ciscojabberonpostgresql-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[EML](archive-eml-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|||
+|[FX Connect](archive-fxconnect-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[Jive](archive-jive-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[MS SQL-database](archive-mssqldatabaseimporter-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|||
+|[Pivot](archive-pivot-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[Redtail Speak](archive-redtailspeak-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[Reuters Dealing](archive-reutersdealing-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[Reuters Eikon](archive-reuterseikon-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[Reuters FX](archive-reutersfx-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[Salesforce Chatter](archive-salesforcechatter-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|||
+|[ServiceNow](archive-servicenow-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|||
+|[Slack eDiscovery](archive-slack-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[Symphony](archive-symphony-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[Tekst met scheidingstekens](archive-text-delimited-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|||
+|[WebEx Teams](archive-webexteams-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[Webpagina's](archive-webpagecapture-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|||
+|[Workplace van Facebook](archive-workplacefromfacebook-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[XIP](archive-xip-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[XSLT/XML](archive-xslt-xml-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|||
+|[Yieldbroker](archive-yieldbroker-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[Zoom Meetings](archive-zoommeetings-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+||||||||
+
+### <a name="telemessage-data-connectors"></a>TeleMessage-gegevensconnectors
+
+De tabel in deze sectie bevat de gegevensconnectors van derden die beschikbaar zijn in samenwerking met TeleMessage. De tabel bevat ook een overzicht van de complianceoplossingen die u kunt toepassen op gegevens van derden nadat u deze hebt geïmporteerd en gearchiveerd in Microsoft 365. Zie het [overzicht van complianceoplossingen](#overview-of-compliance-solutions-that-support-third-party-data) die gegevens van derden ondersteunen voor een gedetailleerde beschrijving van elke complianceoplossing en hoe deze gegevens van derden ondersteunt.
+
+Voordat u gegevens van derden kunt archiveren in Microsoft 365, moet u met TeleMessage werken om de archiveringsservice voor uw organisatie in te stellen. Klik voor meer informatie op  de koppeling in de gegevenskolom van derden om de stapsgewijs instructies te volgen voor het maken van een verbindingslijn voor dat gegevenstype.
+
+TeleMessage-gegevensconnectoren zijn ook beschikbaar in GCC omgevingen in Microsoft 365 cloud van de Amerikaanse overheid. Zie de sectie Gegevensconnectoren in de cloud van de Amerikaanse overheid in dit artikel voor meer informatie.
+
+|Gegevens van derden  |Proces in de wacht zetten|eDiscovery  |Bewaarinstellingen  |Records Management  |Communicatiecompliance  |Beheer van insider-risico's  |
+|:---------|:---------|:---------|:---------|:---------|:---------|:---------|
+|[Android ](archive-android-archiver-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[AT&T-netwerk ](archive-att-network-archiver-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[Bell Network ](archive-bell-network-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[Ondernemingsnummer ](archive-enterprise-number-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[O2-netwerk ](archive-o2-network-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[TELUS-netwerk ](archive-telus-network-data.md)    |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[Verizon Network ](archive-verizon-network-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[WeChat ](archive-wechat-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[WhatsApp ](archive-whatsapp-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+||||||||
+
+### <a name="17a-4-data-connectors"></a>17a-4-gegevensconnectoren
+
+De tabel in deze sectie bevat de gegevensconnectors van derden die beschikbaar zijn in samenwerking met 17a-4 LLC. De tabel bevat ook een overzicht van de complianceoplossingen die u kunt toepassen op gegevens van derden nadat u deze hebt geïmporteerd en gearchiveerd in Microsoft 365. Zie het [overzicht van complianceoplossingen](#overview-of-compliance-solutions-that-support-third-party-data) die gegevens van derden ondersteunen voor een gedetailleerde beschrijving van elke complianceoplossing en hoe deze gegevens van derden ondersteunt.
+
+Voordat u gegevens van derden in Microsoft 365 kunt archiveren, moet u samenwerken met Veritas om de archiveringsservice *(dataparser)* voor uw organisatie in te stellen. Klik voor meer informatie op  de koppeling in de gegevenskolom van derden om de stapsgewijs instructies te volgen voor het maken van een verbindingslijn voor dat gegevenstype.
+
+|Gegevens van derden  |Proces in de wacht zetten|eDiscovery  |Bewaarinstellingen  |Records Management  |Communicatiecompliance  |Beheer van insider-risico's  |
+|:---------|:---------|:---------|:---------|:---------|:---------|:---------|
+|[BlackBerry](archive-17a-4-blackberry-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[Bloomberg ](archive-17a-4-bloomberg-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[Cisco Jabber ](archive-17a-4-cisco-jabber-data.md)   |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[Cisco Webex ](archive-17a-4-webex-teams-data.md)   |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[FactSet ](archive-17a-4-factset-data.md)    |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[Fuze ](archive-17a-4-fuze-data.md)    |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[FX Verbinding maken](archive-17a-4-fxconnect-data.md)    |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[ICE Chat](archive-17a-4-ice-im-data.md)    |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[InvestEdge ](archive-17a-4-investedge-data.md)    |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[LivePerson Conversational Cloud ](archive-17a-4-liveperson-data.md)    |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[Quip ](archive-17a-4-quip-data.md)    |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[Refinitiv Eikon Messenger](archive-17a-4-refinitiv-messenger-data.md)    |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[ServiceNow ](archive-17a-4-servicenow-data.md)    |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[Marge ](archive-17a-4-slack-data.md)    |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[Symfonie ](archive-17a-4-symphony-data.md)    |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[Inzoomen ](archive-17a-4-zoom-data.md)    |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+||||||||
+
+### <a name="celltrust-data-connectors"></a>CellTrust-gegevensconnectoren
+
+De tabel in deze sectie bevat de gegevensconnector van derden die beschikbaar is in samenwerking met CellTrust. De tabel bevat ook een overzicht van de complianceoplossingen die u kunt toepassen op gegevens van derden nadat u deze hebt geïmporteerd en gearchiveerd in Microsoft 365. Zie het [overzicht van complianceoplossingen](#overview-of-compliance-solutions-that-support-third-party-data) die gegevens van derden ondersteunen voor een gedetailleerde beschrijving van elke complianceoplossing en hoe deze gegevens van derden ondersteunt.
+
+Voordat u gegevens van derden kunt archiveren in Microsoft 365, moet u samenwerken met CellTrust om de archiveringsservice *(cellTrust SL2)* voor uw organisatie in te stellen. Klik voor meer informatie op  de koppeling in de gegevenskolom van derden om de stapsgewijs instructies te volgen voor het maken van een CellTrust SL2-connector.
+
+|Gegevens van derden  |Proces in de wacht zetten|eDiscovery  |Bewaarinstellingen  |Records Management  |Communicatiecompliance  |Beheer van insider-risico's  |
+|:---------|:---------|:---------|:---------|:---------|:---------|:---------|
+|[CellTrust SL2](archive-data-from-celltrustsl2.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+||||||||
 
 ## <a name="overview-of-compliance-solutions-that-support-third-party-data"></a>Overzicht van complianceoplossingen die gegevens van derden ondersteunen
 
