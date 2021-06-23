@@ -241,7 +241,7 @@
 #### [Regels voor het verminderen van kwetsbaarheid voor aanvallen evalueren](evaluate-attack-surface-reduction.md)
 #### [Regels voor het verminderen van aanvalsoppervlakken inschakelen](enable-attack-surface-reduction.md)
 #### [Regels voor het verminderen van aanvalsoppervlakken aanpassen](customize-attack-surface-reduction.md)
-#### [Veelgestelde vragen over het verminderen van kwetsbaarheid voor aanvallen](attack-surface-reduction-faq.md)
+#### [Veelgestelde vragen over het verminderen van kwetsbaarheid voor aanvallen](attack-surface-reduction-faq.yml)
 #### [Gebeurtenissen voor het verminderen van kwetsbaarheid voor aanvallen bekijken](event-views.md)
 #### [Auditmodus gebruiken voor het verminderen van kwetsbaarheid voor aanvallen](audit-windows-defender.md)
 
