@@ -20,12 +20,12 @@ metadata:
   ms.custom: seo-marvel-apr2020
   ms.technology: mdo
   ms.prod: m365-security
-  ms.openlocfilehash: 42e848309589fa8786346b5921d1cade0ed074b9
-  ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+  ms.openlocfilehash: c8f821381d8e51b843f3a213d8daec5ef6ffaf5f
+  ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
   ms.translationtype: MT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 05/24/2021
-  ms.locfileid: "52625411"
+  ms.lasthandoff: 06/23/2021
+  ms.locfileid: "53083642"
 title: Veelgestelde vragen over in quarantaine geplaatste berichten
 summary: >
   [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
@@ -82,14 +82,14 @@ sections:
   - question: >
       Kan ik meerdere berichten in quarantaine tegelijk vrijgeven of rapporteren?
     answer: >
-      In het & Compliancecentrum kunt u maximaal 100 berichten tegelijk selecteren en vrijgeven.
+      In de Microsoft 365 Defender portal kunt u maximaal 100 berichten tegelijk selecteren en vrijgeven.
 
 
       Beheerders kunnen de cmdlets [Get-QuarantineMessage](/powershell/module/exchange/get-quarantinemessage) en [Release-QuarantineMessage](/powershell/module/exchange/release-quarantinemessage) in Exchange Online PowerShell Exchange Online zelfstandige EOP PowerShell gebruiken om in bulk in quarantaine geplaatste berichten te zoeken en los te laten, en om onwaar positieven bulksgewijs te melden.
   - question: >
       Worden jokertekens ondersteund bij het zoeken naar berichten in quarantaine? Kan ik zoeken naar berichten in quarantaine voor een specifiek domein?
     answer: >-
-      Jokertekens worden niet ondersteund in het Beveiligings- & Compliancecentrum. Wanneer u bijvoorbeeld naar een afzender zoekt, moet u het volledige e-mailadres opgeven. U kunt echter jokertekens gebruiken in Exchange Online PowerShell of zelfstandige EOP PowerShell.
+      Jokertekens worden niet ondersteund in de Microsoft 365 Defender portal. Wanneer u bijvoorbeeld naar een afzender zoekt, moet u het volledige e-mailadres opgeven. U kunt echter jokertekens gebruiken in Exchange Online PowerShell of zelfstandige EOP PowerShell.
 
 
       Kopieer bijvoorbeeld de volgende PowerShell-code naar Kladblok en sla het bestand op als .ps1 op een locatie die u gemakkelijk kunt vinden (bijvoorbeeld C:\Data\QuarantineRelease.ps1).

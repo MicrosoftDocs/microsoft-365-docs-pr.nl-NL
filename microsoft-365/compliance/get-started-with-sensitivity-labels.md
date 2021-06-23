@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Bent u klaar voor het implementeren van gevoeligheidslabels om de gegevens van uw organisatie te beschermen, maar weet u niet zeker waar u moet beginnen? Lees enkele praktische richtlijnen om u op weg te helpen met labelen.
-ms.openlocfilehash: 550a1a84df88340de14caff08284ef6a8cadc9e9
-ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
+ms.openlocfilehash: b5e6c8d6d2972b6aa050e3805c51327a6cf1058c
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53022484"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53055085"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>Aan de slag met vertrouwelijkheidslabels
 
@@ -90,7 +90,7 @@ Voor alle scenario's moet u [Gevoeligheidslabels en hun beleid maken en configur
 |Bestanden ontdekken, labelen en beveiligen die zijn opgeslagen in on-premises gegevensopslag |[De Azure Information Protection-scanner implementeren om bestanden automatisch te classificeren en te beveiligen](/azure/information-protection/deploy-aip-scanner)|
 |Bestanden ontdekken, labelen en beveiligen die zijn opgeslagen in de cloud gegevensopslag|[Ontdek, classificeer, label en bescherm gereguleeerde en vertrouwelijke gegevens die zijn opgeslagen in de cloud](/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)|
 |Labels toepassen en weergeven in Power BI en gegevens beveiligen wanneer deze buiten de service worden opgeslagen|[Gevoeligheidslabels in Power BI](/power-bi/admin/service-security-sensitivity-label-overview)|
-|Controleren en begrijpen hoe gevoeligheidslabels worden gebruikt in mijn organisatie|[Ken uw gegevens - meer informatie over gegevensclassificatie](data-classification-overview.md) <br /><br /> [Aan de slag met gegevensclassificatie](data-classification-overview.md).|
+|Controleren en begrijpen hoe gevoeligheidslabels worden gebruikt in mijn organisatie|[Meer informatie over gegevensclassificatie](data-classification-overview.md)|
 |Vertrouwelijkheidslabels uitbreiden naar apps en services van derden.|[Microsoft Information Protection SDK](/information-protection/develop/overview#microsoft-information-protection-sdk)|
 |De gevoeligheidslabels uitbreiden voor inhoud in Azure Blob Storage, Azure-bestanden, Azure Data Lake Storage Generatie1 en Azure Data Lake Storage Generatie12|[Automatisch uw inhoud labelen in Azure Purview](/azure/purview/create-sensitivity-label) |
 

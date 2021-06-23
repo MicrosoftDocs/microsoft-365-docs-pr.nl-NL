@@ -16,12 +16,12 @@ description: Malware phishingpogingen bekijken en onderzoeken.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: eb62961bb26b079c508cbd5bc559a95d172cff86
-ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
+ms.openlocfilehash: cebe76536c5ed309ca16777e85c5cdf919d0fb5c
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53029883"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53082994"
 ---
 # <a name="email-security-with-threat-explorer-in-microsoft-defender-for-office-365"></a>E-mailbeveiliging met Threat Explorer in Microsoft Defender voor Office 365
 
@@ -43,7 +43,7 @@ In dit artikel wordt uitgelegd hoe u malware- en phishingpogingen kunt bekijken 
 
 ## <a name="view-malware-detected-in-email"></a>Malware weergeven die is gedetecteerd in e-mail
 
-Als u malware wilt zien die is gedetecteerd in e-mail die is gesorteerd op Microsoft 365 technologie, gebruikt u de weergave E-mail [> Malware](threat-explorer-views.md#email--malware) van Explorer (of Realtime detecties). Malware is de standaardweergave, dus deze kan worden geselecteerd zodra u Verkenner opent.
+Als u malware wilt zien die is gedetecteerd in [**\>**](threat-explorer-views.md#email--malware) e-mail die is gesorteerd op Microsoft 365 technologie, gebruikt u de weergave E-mail malware van Explorer (of realtime detecties). Malware is de standaardweergave, dus deze kan worden geselecteerd zodra u Verkenner opent.
 
 1. Kies in Microsoft 365 Defender portal ( ) de optie <https://security.microsoft.com> **E-mail & Explorer** voor samenwerking \>  (of **Realtime detecties;** In dit voorbeeld wordt Explorer gebruikt).
 

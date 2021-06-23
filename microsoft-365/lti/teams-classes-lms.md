@@ -13,12 +13,12 @@ ms.collection: M365-modern-desktop
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: De Microsoft Teams in uw Learning managementsysteem integreren
-ms.openlocfilehash: 047f640befa967b78597c5eba93f9c64f22ec1c2
-ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
+ms.openlocfilehash: 940c5c695d602ddce6ea49b1f914f2345fbeb7e5
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53053249"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083241"
 ---
 # <a name="use-microsoft-teams-classes-with-blackboard"></a>Gebruik Microsoft Teams lessen met Blackboard
 
@@ -63,8 +63,6 @@ Als Blackboard Learn Ultra-beheerder moet u 2 LTI 1.3-integratie-apps registrere
 3. Selecteer **LTI1.3/Advantage Tool registreren.**
 
 4. Voer de eerste van de verstrekte client-1D's in (Blackboard of Microsoft) en selecteer **Verzenden.**
-
-   ![het hulpprogramma LTI-register met een veld om de client-id in te voeren](../media/lti-media/register-tool.png)
 
 5. Controleer de vooraf ingevulde instellingen en controleer of de status van het hulpprogramma is gemarkeerd als goedgekeurd.
 

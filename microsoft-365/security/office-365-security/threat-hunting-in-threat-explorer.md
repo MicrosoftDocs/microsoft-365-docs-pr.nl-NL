@@ -12,16 +12,16 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Gebruik Threat Explorer- of realtimedetecties in de Microsoft 365 Defender-portal om bedreigingen efficiënt te onderzoeken en te beantwoorden.
+description: Gebruik Threat Explorer of realtime detecties in de Microsoft 365 Defender portal om bedreigingen efficiënt te onderzoeken en te beantwoorden.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 71052cc5a3874da250772bfa628417824ba51c63
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: 2b0c0c36cb481aac64b55467da4aaf9e3cf7a493
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52930093"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083558"
 ---
 # <a name="threat-hunting-in-threat-explorer-for-microsoft-defender-for-office-365"></a>Bedreigingsjacht in Threat Explorer voor Microsoft Defender voor Office 365
 
@@ -42,7 +42,7 @@ In dit artikel:
 
 Als uw organisatie [Microsoft Defender](defender-for-office-365.md)heeft voor Office 365 en u beschikt over de [machtigingen,](#required-licenses-and-permissions)kunt u **Explorer** of **realtimedetecties** gebruiken om bedreigingen te detecteren en te corrigeren. 
 
-Ga in **Microsoft 365 Defender-portal** naar **E-mail & samenwerking** en kies **Verkenner.**
+Ga in **Microsoft 365 Defender portal** naar **E-mail & samenwerking** en kies **Verkenner.**
 
 <br>
 
@@ -68,7 +68,7 @@ In Microsoft Defender voor Office 365 zijn er twee abonnementen: Abonnement 1 en
 
 Defender voor Office 365 Plan 1 maakt gebruik van *realtime detecties,* een subset van het *zoekprogramma Threat Explorer* (ook wel Verkenner genoemd) in Plan 2.  In deze reeks artikelen zijn de meeste voorbeelden gemaakt met de volledige Threat Explorer. Beheerders moeten alle stappen in realtimedetecties testen om te zien waar ze van toepassing zijn.
 
-Als u het hulpprogramma Explorer wilt openen, gaat u **naar Microsoft 365 Defender-portal**  >  **E-mail & Explorer voor**  >  **samenwerking.** Standaard komt u op de pagina **Malware,**  maar gebruikt u de vervolgkeuzekeuzepagina Beeld om vertrouwd te raken met uw opties. Als u op Phish jaagt of een bedreigingscampagne bekijkt, kiest u deze weergaven.
+Als u het hulpprogramma Explorer wilt openen, gaat u **naar Microsoft 365 Defender portal**  >  **E-mail & Explorer voor**  >  **samenwerking.** Standaard komt u op de pagina **Malware,**  maar gebruikt u de vervolgkeuzekeuzepagina Beeld om vertrouwd te raken met uw opties. Als u op Phish jaagt of een bedreigingscampagne bekijkt, kiest u deze weergaven.
 
 > [!div class="mx-imgBorder"]
 > ![Vervolgkeuzekeuzeweergave in Threat Explorer](../../media/view-drop-down.png)
@@ -252,7 +252,7 @@ U moet [Microsoft Defender hebben om Office 365](defender-for-office-365.md) exp
 
 Als u Explorer- of realtimedetecties wilt bekijken en gebruiken, moet u het volgende hebben:
 
-- Voor de Microsoft 365 Defender-portal:
+- Voor de Microsoft 365 Defender portal:
 
   - Organisatiebeheer
   - Beveiligingsbeheerder (dit kan worden toegewezen in het Azure Active Directory beheercentrum ( <https://aad.portal.azure.com> )
@@ -267,7 +267,7 @@ Als u Explorer- of realtimedetecties wilt bekijken en gebruiken, moet u het volg
 
 Zie de volgende bronnen voor meer informatie over rollen en machtigingen:
 
-- [Machtigingen in de Microsoft 365 Defender-portal](permissions-in-the-security-and-compliance-center.md)
+- [Machtigingen in de Microsoft 365 Defender-portal](permissions-microsoft-365-security-center.md)
 - [Functiemachtigingen in Exchange Online](/exchange/permissions-exo/feature-permissions)
 - [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell)
 

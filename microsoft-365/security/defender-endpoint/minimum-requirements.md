@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: ccff6abcfcd1a2da32a8e1614a2de45afed69aef
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 52fa73774933ba90e8ca92dd1b337f983f5446c5
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842996"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53082910"
 ---
 # <a name="minimum-requirements-for-microsoft-defender-for-endpoint"></a>Minimumvereisten voor Microsoft Defender voor Eindpunt
 
@@ -32,14 +32,14 @@ ms.locfileid: "52842996"
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-minreqs-abovefoldlink)
+> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-minreqs-abovefoldlink)
 
 
 Er zijn enkele minimumvereisten voor onboarding-apparaten voor de service. Meer informatie over de licentie-, hardware- en softwarevereisten en andere configuratie-instellingen voor het onboarden van apparaten bij de service.
 
 > [!TIP]
 > - Meer informatie over de nieuwste verbeteringen in Defender voor Eindpunt: [Defender voor Endpoint Tech Community](https://techcommunity.microsoft.com/t5/Windows-Defender-Advanced-Threat/ct-p/WindowsDefenderAdvanced).
-> - Defender for Endpoint heeft in de recente MITRE-evaluatie de toonaangevende mogelijkheden voor optica en detectie gedemonstreerd. Lees: [Inzichten uit de MITRE-ATT-&op CK gebaseerde evaluatie](https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/insights-from-the-mitre-attack-based-evaluation-of-windows-defender-atp/).
+> - Defender for Endpoint heeft in de recente MITRE-evaluatie de toonaangevende mogelijkheden voor optica en detectie gedemonstreerd. Lees: [Insights van de MITRE ATT-&op CK gebaseerde evaluatie](https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/insights-from-the-mitre-attack-based-evaluation-of-windows-defender-atp/).
 
 ## <a name="licensing-requirements"></a>Licentievereisten
 
@@ -50,7 +50,7 @@ Voor Microsoft Defender voor Eindpunt is een van de volgende microsoft volumelic
 - Microsoft 365 E5 (M365 E5) met Windows 10 Enterprise E5
 - Microsoft 365 A5 (M365 A5)
 - Microsoft 365 E5 Security
-- Microsoft 365 A5-beveiliging
+- Microsoft 365 A5 Beveiliging
 - Microsoft Defender voor Eindpunt
 
 > [!NOTE]
@@ -214,7 +214,7 @@ Als Microsoft Defender Antivirus niet de actieve antimalware in uw organisatie i
 
 Als uw organisatie de Microsoft Defender Antivirus groepsbeleid of andere methoden heeft uitgeschakeld, moeten apparaten die zijn ingeschakeld, worden uitgesloten van dit groepsbeleid.
 
-Als u servers onboardt en Microsoft Defender Antivirus niet de actieve antimalware op uw servers is, moeten Microsoft Defender Antivirus worden geconfigureerd om in de passieve modus te gaan of te worden verwijderd. De configuratie is afhankelijk van de serverversie. Zie Microsoft Defender Antivirus [compatibiliteit voor meer informatie.](/security/defender-endpoint/microsoft-defender-antivirus-compatibility)
+Als u servers onboardt en Microsoft Defender Antivirus niet de actieve antimalware op uw servers is, moeten Microsoft Defender Antivirus worden geconfigureerd om in de passieve modus te gaan of te worden verwijderd. De configuratie is afhankelijk van de serverversie. Zie Microsoft Defender Antivirus [compatibiliteit voor meer informatie.](microsoft-defender-antivirus-compatibility.md)
 
 > [!NOTE]
 > Uw normale groepsbeleid is niet van toepassing op Tamper Protection en wijzigingen in Microsoft Defender Antivirus instellingen worden genegeerd wanneer Tamper Protection is ingesteld.

@@ -17,12 +17,12 @@ ms.collection:
 description: Beheerders kunnen leren hoe ze een postvak configureren voor het verzamelen van spam en phishing-e-mail die door gebruikers worden gerapporteerd.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e990721dacaa373b6782ee916f051e4753f3edfd
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: f59548a1f36e067d8b649f7fe22149362d6fe9c6
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53055119"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083534"
 ---
 # <a name="user-reported-message-settings"></a>Door de gebruiker gerapporteerde berichtinstellingen
 
@@ -68,7 +68,7 @@ Nadat u hebt geverifieerd dat uw postvak aan alle toepasselijke vereisten voldoe
 
 - Als u de configuratie voor gebruikersinzendingen wilt wijzigen, moet u lid zijn van een van de volgende rollengroepen:
 
-  - **Organisatiebeheer** of **Beveiligingsbeheerder** in de [Microsoft 365 Defender portal.](permissions-in-the-security-and-compliance-center.md)
+  - **Organisatiebeheer** of **Beveiligingsbeheerder** in de [machtigingen in de Microsoft 365 Defender portal.](permissions-microsoft-365-security-center.md)
   - **Organisatiebeheer** in [Exchange Online.](/Exchange/permissions-exo/permissions-exo#role-groups)
 
 - U hebt toegang nodig tot Exchange Online PowerShell. Als het account dat u probeert te gebruiken geen toegang heeft tot Exchange Online PowerShell, krijgt u een foutmelding die er zo uitziet wanneer u het postvak voor inzendingen opgeeft:

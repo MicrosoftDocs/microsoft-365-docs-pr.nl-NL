@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Lees meer over bewaarbeleid en retentielabels die u helpen te behouden wat u nodig hebt en wat u niet verwijdert.
-ms.openlocfilehash: 65c9216e30c2db04b1981a17d73b3a9f0b5f1594
-ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
+ms.openlocfilehash: e39f4e65d5c4bdf4235e7ae2d8aa207c986c76c8
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/18/2021
-ms.locfileid: "53007499"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53055051"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Meer informatie over bewaarbeleid en retentielabels
 
@@ -224,17 +224,12 @@ Wanneer retentielabels items als een record of een wettelijk verplichte record m
 
 #### <a name="monitoring-retention-labels"></a>Retentielabels controleren
 
-Gebruik in het Microsoft 365-compliancecentrum **Gegevensclassificatie** > **Overzicht** om te controleren hoe uw retentielabels in uw tenant worden gebruikt en om te bepalen waar de gelabelde items zich bevinden. Raadpleeg [Uw gegevens kennen - Overzicht van gegevensclassificatie](data-classification-overview.md) voor meer informatie, inclusief belangrijke vereisten.
+Selecteer in het Microsoft 365-compliancecentrum **Gegevensclassificatie** en de pagina **Overzicht** om te controleren hoe uw retentielabels in uw tenant worden gebruikt en om vast te stellen waar de gelabelde items zich bevinden. Zie [Meer informatie over gegevensclassificatie](data-classification-overview.md) voor meer informatie, inclusief belangrijke vereisten.
 
 Vervolgens kunt u inzoomen op details met [Inhoudsverkenner](data-classification-content-explorer.md) en [Verkenner](data-classification-activity-explorer.md).
 
 > [!TIP]
 >U kunt overwegen andere inzichten in de classificatie van gegevens te gebruiken, zoals trainbare classificaties en typen gevoelige informatie, om inhoud te identificeren die u mogelijk moet behouden of verwijderen, of die u moet beheren als records.
-
-Het Office 365-beveiligings- en compliancecentrum heeft de vergelijkbare overzichtsgegevens voor retentielabels uit **Informatiebeheer** > **Dashboard**, en meer gedetailleerde informatie uit **Informationbeheer** > **Verkenner voor labelactiviteit**. Zie de volgende documentatie voor meer informatie over het bewaken van retentielabels in dit oudere beheercentrum:
-- [De gegevensbeheerrapporten weergeven](view-the-data-governance-reports.md)
-- [Aan de slag met gegevensclassificatie](data-classification-overview.md).
-- [Labelactiviteit voor documenten weergeven](view-label-activity-for-documents.md)
 
 #### <a name="using-content-search-to-find-all-content-with-a-specific-retention-label"></a>Inhoud zoeken gebruiken om alle inhoud met een specifiek retentielabel te zoeken
 

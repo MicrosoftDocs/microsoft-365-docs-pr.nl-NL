@@ -1,5 +1,5 @@
 ---
-title: Attack Simulator in Microsoft Defender voor Office 365
+title: Attack Simulator in het Beveiligings- & Compliance center
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -17,17 +17,17 @@ ms.collection:
 - m365initiative-defender-office365
 ms.custom:
 - seo-marvel-apr2020
-description: Beheerders kunnen leren hoe ze Attack Simulator kunnen gebruiken om gesimuleerde phishing- en wachtwoordaanvallen uit te voeren in hun Microsoft 365 E5 of Microsoft Defender voor Office 365 Plan 2-organisaties.
+description: Beheerders kunnen leren hoe ze Attack Simulator kunnen gebruiken in het Beveiligings & Complance Center om gesimuleerde phishing- en wachtwoordaanvallen uit te voeren in hun Microsoft 365 E5 of Microsoft Defender voor Office 365 Plan 2-organisaties.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 03e6c0077f13c85bfd20ac0583b64ce29e2535a1
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: aa10c30644562a156964ebaa1d63145047ca9264
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878674"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53082862"
 ---
-# <a name="attack-simulator-in-microsoft-defender-for-office-365"></a>Attack Simulator in Microsoft Defender voor Office 365
+# <a name="attack-simulator-in-the-security--compliance-center"></a>Attack Simulator in het Beveiligings- & Compliance center
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -37,7 +37,7 @@ Als uw organisatie Beschikt over Microsoft Defender voor Office 365 Plan 2, dat 
 
 > [!NOTE]
 >
-> Attack Simulator zoals beschreven in dit artikel is nu alleen-lezen en is vervangen door **Attack-simulatietraining** in het samenwerkings knooppunt **E-mail &** in de Microsoft 365 Defender-portal op <https://security.microsoft.com> . Zie Aan de slag [met de trainingstraining Aanvalssimulatie voor meer informatie.](attack-simulation-training-get-started.md)
+> Attack Simulator zoals beschreven in dit artikel is nu alleen-lezen en is vervangen door **Attack-simulatietraining** in het samenwerkings knooppunt **E-mail &** in de Microsoft 365 Defender portal op <https://security.microsoft.com> . Zie Aan de slag [met de trainingstraining Aanvalssimulatie voor meer informatie.](attack-simulation-training-get-started.md)
 >
 > De mogelijkheid om nieuwe simulaties te starten vanuit deze versie van Attack Simulator is uitgeschakeld. U hebt echter nog steeds toegang tot rapporten tot 24 april 2021.
 
@@ -133,7 +133,7 @@ Als u een van de ingebouwde sjablonen gaat gebruiken of het e-mailbericht rechts
 
    - **Onderwerp:** Het **veld Onderwerp** van het e-mailbericht.
 
-   Wanneer u gereed bent, klikt u op **Volgende**.
+   Wanneer je klaar bent, klik je op **Volgende**.
 
 6. Maak in **de stap E-mail** opstellen de berichtin body van het e-mailbericht. U kunt het tabblad **E-mail** (een uitgebreide HTML-editor) of het **tabblad Bron** (onbewerkte HTML-code) gebruiken.
 
@@ -143,7 +143,7 @@ Als u een van de ingebouwde sjablonen gaat gebruiken of het e-mailbericht rechts
 
    - `${loginserverurl}` hiermee voegt u de **URL-waarde phishing-aanmeldingsserver** in van de vorige stap.
 
-   Wanneer u gereed bent, klikt u op **Volgende**.
+   Wanneer je klaar bent, klik je op **Volgende**.
 
 7. Klik in **de stap** Bevestigen op **Voltooien.**
 
@@ -166,7 +166,7 @@ Als u een van de ingebouwde sjablonen gaat gebruiken of het e-mailbericht rechts
    > [!div class="mx-imgBorder"]
    > ![Startpagina phishing](../../media/5e93b3cc-5981-462f-8b45-bdf85d97f1b8.jpg)
 
-   Wanneer u gereed bent, klikt u op **Volgende**.
+   Wanneer je klaar bent, klik je op **Volgende**.
 
 4. Ga in **de stap Doel geadresseerden** op een van de volgende stappen te werk:
 
@@ -174,7 +174,7 @@ Als u een van de ingebouwde sjablonen gaat gebruiken of het e-mailbericht rechts
 
    - Klik **op Importeren** en vervolgens **bestand** importeren om een door komma's gescheiden waarde (CSV) of een door regel gescheiden bestand met e-mailadressen te importeren. Elke regel moet het e-mailadres van de geadresseerde bevatten.
 
-   Wanneer u gereed bent, klikt u op **Volgende**.
+   Wanneer je klaar bent, klik je op **Volgende**.
 
 5. Configureer **in de stap E-maildetails** configureren de volgende instellingen:
 
@@ -215,7 +215,7 @@ Als u een van de ingebouwde sjablonen gaat gebruiken of het e-mailbericht rechts
 
    - **Onderwerp:** Het **veld Onderwerp** van het e-mailbericht.
 
-   Wanneer u gereed bent, klikt u op **Volgende**.
+   Wanneer je klaar bent, klik je op **Volgende**.
 
 6. Maak in **de stap E-mail** opstellen de berichtin body van het e-mailbericht. Als u een sjabloon hebt geselecteerd in de **stap Start,** is de berichtinstelling al geconfigureerd, maar u kunt deze aanpassen. U kunt het tabblad **E-mail** (een uitgebreide HTML-editor) of het **tabblad Bron** (onbewerkte HTML-code) gebruiken.
 
@@ -230,7 +230,7 @@ Als u een van de ingebouwde sjablonen gaat gebruiken of het e-mailbericht rechts
    > [!div class="mx-imgBorder"]
    > ![E-mail op te stellen](../../media/9bd65af4-1f9d-45c1-8c06-796d7ccfd425.jpg)
 
-   Wanneer u gereed bent, klikt u op **Volgende**.
+   Wanneer je klaar bent, klik je op **Volgende**.
 
 7. Klik in **de stap** Bevestigen op **Voltooien om** de campagne te starten. Het phishingbericht wordt bezorgd bij de beoogde geadresseerden.
 
@@ -269,7 +269,7 @@ In Attack Simulator zijn er twee verschillende typen wachtwoord aanvalscampagnes
 
    - Klik **op Importeren** en vervolgens **bestand** importeren om een door komma's gescheiden waarde (CSV) of een door regel gescheiden bestand met e-mailadressen te importeren. Elke regel moet het e-mailadres van de geadresseerde bevatten.
 
-   Wanneer u gereed bent, klikt u op **Volgende**.
+   Wanneer je klaar bent, klik je op **Volgende**.
 
 5. Kies in **de stap Aanvalsinstellingen** kiezen wat u moet doen op basis van het campagnetype:
 
@@ -281,7 +281,7 @@ In Attack Simulator zijn er twee verschillende typen wachtwoord aanvalscampagnes
 
    - **Wachtwoordinfarct**: Voer in **Het wachtwoord(en)** dat u wilt gebruiken in het aanvalsvak één wachtwoord in.
 
-   Wanneer u gereed bent, klikt u op **Volgende**.
+   Wanneer je klaar bent, klik je op **Volgende**.
 
 6. Klik in **de stap** Bevestigen op **Voltooien om** de campagne te starten. De wachtwoorden die u hebt opgegeven, worden beproefd voor gebruikers die u hebt opgegeven.
 

@@ -15,18 +15,18 @@ search.appverid:
 ms.assetid: 3a137e28-1174-42d5-99af-f18868b43e86
 ms.collection:
 - M365-security-compliance
-description: Beheerders kunnen leren hoe ze de e-mailbeveiligingsrapporten kunnen vinden en gebruiken die beschikbaar zijn in de Microsoft 365 Defender-portal.
+description: Beheerders kunnen leren hoe ze de e-mailbeveiligingsrapporten kunnen vinden en gebruiken die beschikbaar zijn in de Microsoft 365 Defender portal.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ad5a9f0d87902deb1985daebfa61cd733d22cbec
-ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
+ms.openlocfilehash: 2ad90038ac818f9759768d0d00019393205b03f3
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53029545"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083522"
 ---
-# <a name="view-email-security-reports-in-the-microsoft-365-defender-portal"></a>E-mailbeveiligingsrapporten weergeven in de Microsoft 365 Defender-portal
+# <a name="view-email-security-reports-in-the-microsoft-365-defender-portal"></a>E-mailbeveiligingsrapporten weergeven in de Microsoft 365 Defender portal
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -35,20 +35,20 @@ ms.locfileid: "53029545"
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Er zijn diverse rapporten beschikbaar in de Microsoft 365 Defender-portal om te zien hoe e-mailbeveiligingsfuncties, zoals antispam, anti-malware en versleutelingsfuncties in Microsoft 365 uw organisatie <https://security.microsoft.com> beschermen. Als u de benodigde machtigingen [hebt,](#what-permissions-are-needed-to-view-these-reports)kunt u deze rapporten bekijken  in de Microsoft 365 Defender-portal door naar Rapporten E-mail & samenwerking e-mail \>  \> **& samenwerkingsrapporten.** Als u rechtstreeks naar de pagina **E-mail & samenwerkingsrapporten** wilt gaan, opent u <https://security.microsoft.com/emailandcollabreport> .
+Er zijn diverse rapporten beschikbaar in de Microsoft 365 Defender-portal om te zien hoe <https://security.microsoft.com> e-mailbeveiligingsfuncties, zoals antispam, anti-malware en versleutelingsfuncties in Microsoft 365 uw organisatie beschermen. Als u de [benodigde](#what-permissions-are-needed-to-view-these-reports)machtigingen hebt, kunt u deze rapporten  bekijken in de Microsoft 365 Defender-portal door naar Rapporten e-mail & samenwerking e-mail & \>  \> **samenwerkingsrapporten.** Als u rechtstreeks naar de pagina **E-mail & samenwerkingsrapporten** wilt gaan, opent u <https://security.microsoft.com/emailandcollabreport> .
 
-![Pagina & samenwerkingsrapporten in de Microsoft 365 Defender-portal](../../media/email-collaboration-reports.png)
+![Pagina & samenwerkingsrapporten in de Microsoft 365 Defender portal](../../media/email-collaboration-reports.png)
 
 > [!NOTE]
 >
-> Voor sommige rapporten op de pagina **E-& samenwerkingsrapporten** is Microsoft Defender voor Office 365 vereist. Zie Defender voor [Office 365-rapporten weergeven in de Microsoft 365 Defender-portal](view-reports-for-mdo.md)voor meer informatie over deze rapporten.
+> Voor sommige rapporten op de pagina **E-& samenwerkingsrapporten** is Microsoft Defender Office 365. Zie Defender weergeven voor Office 365 [rapporten in de Microsoft 365 Defender voor meer informatie over deze rapporten.](view-reports-for-mdo.md)
 >
-> Rapporten die zijn gerelateerd aan e-mailstroom, zijn nu in het Exchange-beheercentrum (EAC). Zie E-mailstroomrapporten in het [nieuwe Exchange-beheercentrum](/exchange/monitoring/mail-flow-reports/mail-flow-reports)voor meer informatie over deze rapporten.
+> Rapporten die zijn gerelateerd aan de e-mailstroom, zijn nu in het Exchange beheercentrum (EAC). Zie E-mailstroomrapporten in het nieuwe Exchange [beheercentrum voor meer informatie over deze rapporten.](/exchange/monitoring/mail-flow-reports/mail-flow-reports)
 
 ## <a name="compromised-users-report"></a>Rapport over gecompromitteerde gebruikers
 
 > [!NOTE]
-> Dit rapport is beschikbaar in Microsoft 365-organisaties met Exchange Online-postvakken. Het is niet beschikbaar in zelfstandige EOP-organisaties (Exchange Online Protection).
+> Dit rapport is beschikbaar in Microsoft 365 organisaties met Exchange Online postvakken. Het is niet beschikbaar in zelfstandige Exchange Online Protection (EOP) organisaties.
 
 In **het rapport Gecompromitteerde** gebruikers ziet  u  het aantal gebruikersaccounts dat in de afgelopen 7 dagen is gemarkeerd als Verdacht of Beperkt. Accounts in een van deze staten zijn problematisch of zelfs gecompromitteerd. Met regelmatig gebruik kunt u het rapport gebruiken om pieken en zelfs trends te herkennen in verdachte of beperkte accounts. Zie Reageren op een gekromd e-mailaccount voor meer informatie over gecompromitteerde [gebruikers.](responding-to-a-compromised-email-account.md)
 
@@ -56,7 +56,7 @@ In **het rapport Gecompromitteerde** gebruikers ziet  u  het aantal gebruikersac
 
 De statistische weergave bevat gegevens van de afgelopen 90 dagen en de detailweergave bevat gegevens van de afgelopen 30 dagen.
 
-Als u het rapport wilt bekijken in de  Microsoft 365 Defender-portal, gaat u naar Rapporten e-mail & \> **samenwerking** \> **e-mail & samenwerkingsrapporten**. Zoek op **de pagina & samenwerkingsrapporten** naar Gecompromitteerde **gebruikers** en klik vervolgens op **Details weergeven.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://security.microsoft.com/reports/CompromisedUsers> .
+Als u het rapport wilt weergeven in  de Microsoft 365 Defender portal, gaat u naar Rapporten e-mail & \> **samenwerking** \> **e-mail & samenwerkingsrapporten**. Zoek op **de pagina & samenwerkingsrapporten** naar Gecompromitteerde **gebruikers** en klik vervolgens op **Details weergeven.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://security.microsoft.com/reports/CompromisedUsers> .
 
 Op de pagina Gecompromitteerd gebruikers kunt u zowel de grafiek als de detailtabel filteren door op **Filter** te klikken en een of meer van de volgende waarden te selecteren in het flyout dat wordt weergegeven: 
 
@@ -75,29 +75,29 @@ In de detailtabel onder de grafiek ziet u de volgende details:
 - **Gebruikers-id**
 - **Actie**
 
-## <a name="exchange-transport-rule-report"></a>Rapport met exchange-transportregel
+## <a name="exchange-transport-rule-report"></a>Exchange rapport transportregel
 
-Het **rapport Exchange-transportregel** toont het effect van regels voor de e-mailstroom (ook wel transportregels genoemd) op binnenkomende en uitgaande berichten in uw organisatie.
+In **Exchange rapport transportregel** ziet u het effect van e-mailstroomregels (ook wel transportregels genoemd) op binnenkomende en uitgaande berichten in uw organisatie.
 
-Als u het rapport wilt bekijken in de  Microsoft 365 Defender-portal, gaat u naar Rapporten e-mail & \> **samenwerking** \> **e-mail & samenwerkingsrapporten**. Zoek op **de pagina E-& samenwerkingsrapporten** **naar Exchange-transportregel** en klik vervolgens op **Details weergeven.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://security.microsoft.com/reports/ETRRuleReport> .
+Als u het rapport wilt weergeven in  de Microsoft 365 Defender portal, gaat u naar Rapporten e-mail & \> **samenwerking** \> **e-mail & samenwerkingsrapporten**. Zoek op **de pagina & samenwerkingsrapporten** naar **Exchange transportregel** en klik vervolgens op **Details weergeven.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://security.microsoft.com/reports/ETRRuleReport> .
 
-![Exchange-transportregelwidget op de pagina E-mail & samenwerkingsrapporten](../../media/transport-rule-report-widget.png)
+![Exchange widget transportregel op de pagina E-mail & samenwerkingsrapporten](../../media/transport-rule-report-widget.png)
 
-Op de rapportpagina van de **Exchange-transportregel** worden de beschikbare grafieken en gegevens in de volgende secties beschreven.
+Op de **Exchange rapportrapport van de transportregel** worden de beschikbare grafieken en gegevens in de volgende secties beschreven.
 
 ### <a name="chart-breakdown-by-direction"></a>Grafiek uitsplitsing op richting
 
-![Richtingsweergave voor Exchange-transportregels in het rapport Exchange-transportregel](../../media/transport-rule-report-etr-direction-view.png)
+![Richtingsweergave voor Exchange Transportregels in het rapport Exchange transportregel](../../media/transport-rule-report-etr-direction-view.png)
 
 Als u Grafiek **uitsplitsing op richting selecteert,** zijn de volgende grafieken beschikbaar:
 
-- **Gegevens weergeven op exchange-transportregels:** het  aantal **binnenkomende** en uitgaande berichten dat is beïnvloed door regels voor e-mailstroom.
-- **Gegevens weergeven op DLP Exchange-transportregels:**  het aantal **binnenkomende** en uitgaande berichten dat is beïnvloed door DLP-regels (Data Loss Prevention).
+- **Gegevens weergeven op Exchange transportregels:** het aantal  **binnenkomende** en uitgaande berichten dat is beïnvloed door regels voor e-mailstroom.
+- **Gegevens weergeven op DLP Exchange transportregels:** het aantal  **binnenkomende** en uitgaande berichten dat is beïnvloed door DLP-regels (Data Loss Prevention).
 
 De volgende informatie wordt weergegeven in de detailtabel onder de grafiek:
 
 - **Datum**
-- **DLP-beleid** (**Alleen gegevens weergeven op DLP Exchange-transportregels)**
+- **DLP-beleid** (**Alleen gegevens weergeven per DLP Exchange transportregels)**
 - **Transportregel**
 - **Onderwerp**
 - **Adres afzender**
@@ -115,18 +115,18 @@ Wanneer u klaar bent met het configureren van de filters, klikt u **op Toepassen
 
 ### <a name="chart-breakdown-by-severity"></a>Uitsplitsing van grafieken op ernst
 
-![Ernstweergave voor Exchange-transportregels in het rapport Exchange-transportregel](../../media/transport-rule-report-etr-severity-view.png)
+![Ernstweergave voor Exchange Transportregels in het rapport Exchange transportregel](../../media/transport-rule-report-etr-severity-view.png)
 
 Als u Grafiek **uitsplitsing op ernst selecteert,** zijn de volgende grafieken beschikbaar:
 
-- **Gegevens weergeven op exchange-transportregels:** het aantal berichten met hoge **ernst,** gemiddelde **ernst** en **berichten met lage ernst.** U stelt het ernstniveau in als een actie in de regel ( Controleer deze regel met **ernstniveau** of _SetAuditSeverity_). Zie Acties voor [e-mailstroomregelen in Exchange Online voor meer informatie.](/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)
+- **Gegevens weergeven op Exchange transportregels:** Het aantal berichten met hoge **ernst,** gemiddelde ernst en **lage ernst.** U stelt het ernstniveau in als een actie in de regel ( Controleer deze regel met **ernstniveau** of _SetAuditSeverity_). Zie Acties voor [e-mailstroomregelacties in](/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)Exchange Online.
 
-- **Gegevens weergeven op DLP Exchange-transportregels:** het aantal berichten  met hoge **ernst,** gemiddelde ernst en lage ernst die zijn beïnvloed door DLP-regels voor e-mailstroom.
+- **Gegevens weergeven via DLP Exchange transportregels:** Het aantal berichten met hoge  **ernst,** gemiddelde ernst en lage ernst die zijn beïnvloed door DLP-regels voor e-mailstroom.
 
 De volgende informatie wordt weergegeven in de detailtabel onder de grafiek:
 
 - **Datum**
-- **DLP-beleid** (**Alleen gegevens weergeven op DLP Exchange-transportregels)**
+- **DLP-beleid** (**Alleen gegevens weergeven per DLP Exchange transportregels)**
 - **Transportregel**
 - **Onderwerp**
 - **Adres afzender**
@@ -149,9 +149,9 @@ Wanneer u klaar bent met het configureren van de filters, klikt u **op Toepassen
 
 ## <a name="mailflow-status-report"></a>E-mailflowstatusrapport
 
-Het **mailflowstatusrapport** is een slim rapport met informatie over inkomende en uitgaande e-mail, spamdetecties, malware, e-mail die als 'goed' is geïdentificeerd en informatie over e-mail die is toegestaan of geblokkeerd op de rand. Dit is het enige rapport dat informatie over randbeveiliging bevat en laat zien hoeveel e-mail wordt geblokkeerd voordat e-mail wordt toegestaan in de service voor evaluatie door Exchange Online Protection (EOP). Het is belangrijk om te begrijpen dat als een bericht naar vijf geadresseerden wordt verzonden, we het als vijf verschillende berichten tellen en niet één bericht.
+Het **mailflowstatusrapport** is een slim rapport met informatie over inkomende en uitgaande e-mail, spamdetecties, malware, e-mail die als 'goed' is geïdentificeerd en informatie over e-mail die is toegestaan of geblokkeerd op de rand. Dit is het enige rapport dat informatie over randbeveiliging bevat en laat zien hoeveel e-mail wordt geblokkeerd voordat deze wordt toegestaan in de service voor evaluatie door Exchange Online Protection (EOP). Het is belangrijk om te begrijpen dat als een bericht naar vijf geadresseerden wordt verzonden, we het als vijf verschillende berichten tellen en niet één bericht.
 
-Als u het rapport wilt bekijken in de  Microsoft 365 Defender-portal, gaat u naar Rapporten e-mail & \> **samenwerking** \> **e-mail & samenwerkingsrapporten**. Zoek op **de & e-mail met samenwerkingsrapporten** de **statusoverzicht van Mailflow** en klik vervolgens op **Details weergeven.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://security.microsoft.com/reports/mailflowStatusReport> .
+Als u het rapport wilt weergeven in  de Microsoft 365 Defender portal, gaat u naar Rapporten e-mail & \> **samenwerking** \> **e-mail & samenwerkingsrapporten**. Zoek op **de & e-mail met samenwerkingsrapporten** de **statusoverzicht van Mailflow** en klik vervolgens op **Details weergeven.** Als u rechtstreeks naar het rapport wilt gaan, opent u <https://security.microsoft.com/reports/mailflowStatusReport> .
 
 ![Overzichtswidget Mailflow-status op de pagina E-mail & samenwerkingsrapporten](../../media/mail-flow-status-report-widget.png)
 
@@ -844,13 +844,13 @@ Als u een bericht wilt verzenden naar Microsoft voor analyse, selecteert u de be
 Als u de rapporten wilt bekijken en gebruiken die in dit artikel worden beschreven, moet u lid zijn van een van de volgende rollengroepen in de Microsoft 365 Defender portal:
 
 - **Organisatiebeheer**
-- **Beveiligingsbeheerder**
+- **Beveiligingsadministrator**
 - **Beveiligingslezer**
 - **Globale lezer**
 
-Zie Machtigingen in de Microsoft 365 Defender [portal voor meer informatie.](permissions-in-the-security-and-compliance-center.md)
+Zie [Machtigingen in de Microsoft 365 Defender-portal](permissions-microsoft-365-security-center.md) voor meer informatie.
 
-**Opmerking:** Gebruikers toevoegen aan de bijbehorende Azure Active Directory rol in de Microsoft 365-beheercentrum geeft gebruikers de vereiste machtigingen in de _Microsoft 365 Defender-portal_ en machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
+**Opmerking:** Gebruikers toevoegen aan de bijbehorende Azure Active Directory rol in de Microsoft 365-beheercentrum geeft gebruikers de vereiste machtigingen in de _Microsoft 365 Defender-portal_ en machtigingen voor andere functies in Microsoft 365. Raadpleeg [Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
 
 ## <a name="what-if-the-reports-arent-showing-data"></a>Wat gebeurt er als er geen gegevens worden weergegeven in de rapporten?
 

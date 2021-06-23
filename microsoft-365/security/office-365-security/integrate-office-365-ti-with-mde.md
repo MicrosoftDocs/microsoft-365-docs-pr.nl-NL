@@ -19,12 +19,12 @@ description: Gebruik Microsoft Defender voor Office 365 samen met Microsoft Defe
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1d54e4ec40c636b8b3ea319e79cbad5005850952
-ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
+ms.openlocfilehash: fed3a04a7a699b4689cd9d6d9d335a8ba51d2fd8
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53029261"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083378"
 ---
 # <a name="use-microsoft-defender-for-office-365-together-with-microsoft-defender-for-endpoint"></a>Microsoft Defender gebruiken voor Office 365 samen met Microsoft Defender voor Eindpunt
 
@@ -39,7 +39,7 @@ In de volgende afbeelding ziet u hoe het tabblad **Apparaten** eruitziet wanneer
 
 ![Wanneer Microsoft Defender voor Eindpunt is ingeschakeld, ziet u een lijst met apparaten met waarschuwingen.](../../media/fec928ea-8f0c-44d7-80b9-a2e0a8cd4e89.PNG)
 
-In dit voorbeeld kunt u zien dat de geadresseerden van het gedetecteerde e-mailbericht vier apparaten hebben en één een waarschuwing heeft. Als u op de koppeling voor een apparaat klikt, wordt de pagina geopend in [Microsoft 365 Defender](../defender-endpoint/microsoft-defender-security-center.md) (voorheen het Microsoft Defender-beveiligingscentrum).
+In dit voorbeeld kunt u zien dat de geadresseerden van het gedetecteerde e-mailbericht vier apparaten hebben en één een waarschuwing heeft. Als u op de koppeling voor een apparaat klikt, wordt de pagina geopend in [Microsoft 365 Defender portal](../defender-endpoint/microsoft-defender-security-center.md) (voorheen het Microsoft Defender-beveiligingscentrum).
 
 > [!TIP]
 > De Microsoft 365 Defender portal vervangt de Microsoft Defender-beveiligingscentrum. Zie [Microsoft Defender voor Eindpunt in Microsoft 365 Defender.](../defender/microsoft-365-security-center-mde.md)
@@ -48,7 +48,7 @@ In dit voorbeeld kunt u zien dat de geadresseerden van het gedetecteerde e-mailb
 
 - Uw organisatie moet Microsoft Defender hebben voor Office 365 (of Office 365 E5) en Microsoft Defender voor Eindpunt.
 
-- U moet een globale beheerder zijn of een beveiligingsbeheerderrol (zoals beveiligingsbeheerder) hebben toegewezen in Microsoft 365. Zie Machtigingen in de Microsoft 365 Defender [portal voor meer informatie.](permissions-microsoft-365-security-center.md)
+- U moet een globale beheerder zijn of een beveiligingsbeheerderrol (zoals beveiligingsbeheerder) hebben toegewezen in Microsoft 365. Zie [Machtigingen in de Microsoft 365 Defender-portal](permissions-microsoft-365-security-center.md) voor meer informatie.
 
 - U moet toegang hebben tot [Explorer (of realtimedetecties).](threat-explorer.md)
 
@@ -56,21 +56,19 @@ In dit voorbeeld kunt u zien dat de geadresseerden van het gedetecteerde e-mailb
 
 De integratie van Microsoft Defender voor Office 365 met Microsoft Defender voor Eindpunt is ingesteld in zowel Defender voor Eindpunt als Defender voor Office 365.
 
-1. Als globale beheerder of <https://security.microsoft.com/threatexplorer> beveiligingsbeheerder.
+1. Als globale beheerder of beveiligingsbeheerder opent u de Microsoft 365 Defender portal () en gaat u naar <https://security.microsoft.com> **E-mail & Samenwerkingsverkenner.** \>  Als u rechtstreeks naar de **explorerpagina wilt** gaan, gebruikt u <https://security.microsoft.com/threatexplorer> .
 
-2. Kies in het navigatiedeelvenster **E-mail & Samenwerkingsverkenner** \> .
+2. Klik op **de pagina** Explorer in de rechterbovenhoek van het scherm op **MDE Instellingen.**
 
-3. Klik op **de pagina** Explorer in de rechterbovenhoek van het scherm op **MDE Instellingen.**
-
-4. Schakel in **de flyout** microsoft Defender voor eindpuntverbinding die wordt weergegeven de Verbinding maken in bij **Microsoft Defender voor** Eindpunt ![ (schakelknop in) in en klik vervolgens op Pictogram ](../../media/scc-toggle-on.png) Sluiten ![ ](../../media/m365-cc-sc-close-icon.png) **sluiten.**
+3. Schakel in **de flyout** microsoft Defender voor eindpuntverbinding die wordt weergegeven de Verbinding maken in bij **Microsoft Defender voor** Eindpunt ![ (schakelknop in) in en klik vervolgens op Pictogram ](../../media/scc-toggle-on.png) Sluiten ![ ](../../media/m365-cc-sc-close-icon.png) **sluiten.**
 
     :::image type="content" source="../../media/explorer-mdeconnection-dialognew.png" alt-text="MDE-verbinding":::
 
-5. Kies terug in het navigatiedeelvenster **Instellingen.** Kies **op Instellingen** pagina **Eindpunten**
+4. Kies terug in het navigatiedeelvenster **Instellingen.** Kies **op Instellingen** pagina **Eindpunten**
 
-6. Kies geavanceerde functies op **de pagina** Eindpunten die wordt **geopend.**
+5. Kies geavanceerde functies op **de pagina** Eindpunten die wordt **geopend.**
 
-7. Schuif omlaag naar **Office 365 Threat Intelligence-verbinding** en schakel deze in ( ![ Schakel de schakelknop ](../../media/scc-toggle-on.png) in).
+6. Schuif omlaag naar **Office 365 Threat Intelligence-verbinding** en schakel deze in ( ![ Schakel de schakelknop ](../../media/scc-toggle-on.png) in).
 
    Wanneer u klaar bent, klikt u op **Voorkeuren opslaan.**
 

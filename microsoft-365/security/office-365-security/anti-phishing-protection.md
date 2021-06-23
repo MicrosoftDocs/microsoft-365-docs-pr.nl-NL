@@ -21,12 +21,12 @@ ms.custom:
 description: Beheerders kunnen meer informatie krijgen over de anti-phishingbeveiligingsfuncties in Exchange Online Protection (EOP) en Microsoft Defender voor Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0e1539153282f14a13ddd9066350cbcdca2a074a
-ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
+ms.openlocfilehash: 2a28e2ecc45be941dbd6e346f9918e1692357840
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53029235"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083102"
 ---
 # <a name="anti-phishing-protection-in-microsoft-365"></a>Bescherming tegen phishing in Microsoft 365
 
@@ -66,10 +66,8 @@ EOP (dat wil zeggen Microsoft 365 zonder Microsoft Defender voor Office 365) bev
 Microsoft Defender voor Office 365 bevat extra en geavanceerdere anti-phishingfuncties:
 
 - **Anti-phishingbeleid in Microsoft Defender voor Office 365:** Instellingen voor imitatiebeveiliging configureren voor specifieke bericht afzenders en afzenderdomeinen, instellingen voor postvakinformatie en aanpasbare geavanceerde phishingdrempels. Zie [Anti-phishingbeleid configureren in Microsoft Defender](configure-mdo-anti-phishing-policies.md)voor Office 365. Zie Anti-phishingbeleid in Microsoft 365 voor meer informatie over de verschillen tussen [anti-phishingbeleid](set-up-anti-phishing-policies.md)in EOP en anti-phishingbeleid in Defender voor Office 365.
-
 - **Campagneweergaven:** Machine learning en andere heuristische acties identificeren en analyseren berichten die betrokken zijn bij gecoördineerde phishingaanvallen tegen de hele service en uw organisatie. Zie Campagneweergaven in Microsoft Defender voor [Office 365.](campaigns.md)
-
-- **Aanvalssimulator:** beheerders kunnen nep-phishingberichten maken en deze als onderwijshulpmiddel naar interne gebruikers verzenden. Zie Attack Simulator in Microsoft Defender voor meer [Office 365.](attack-simulator.md)
+- **Training voor** aanvalssimulatie: beheerders kunnen nep-phishingberichten maken en deze als hulpmiddel voor onderwijs naar interne gebruikers verzenden. Zie Een [phishing-aanval simuleren voor meer informatie.](attack-simulation-training.md)
 
 ## <a name="other-anti-phishing-resources"></a>Andere anti-phishingbronnen
 

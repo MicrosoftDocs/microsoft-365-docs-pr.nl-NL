@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-mar2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c761b4896ea5b616aed80ed2c54ef91fc465b201
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 08e69013c0108d0caaf76c6a227684f5f1b68355
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52877882"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083690"
 ---
 # <a name="automated-investigation-and-response-air-in-microsoft-defender-for-office-365"></a>Automated investigation and response (AIR) in Microsoft Defender for Office 365
 
@@ -46,7 +46,7 @@ In dit artikel wordt het volgende beschreven:
 - De [algehele stroom van AIR](#the-overall-flow-of-air);
 - [Air krijgen;](#how-to-get-air) en
 - De [vereiste machtigingen voor](#required-permissions-to-use-air-capabilities) het configureren of gebruiken van AIR-mogelijkheden.
-- Wijzigingen die binnenkort worden doorgevoerd in uw Microsoft 365 Defender-portal
+- Wijzigingen die binnenkort worden doorgevoerd in uw Microsoft 365 Defender portal
 
 Dit artikel bevat ook [de volgende stappen](#next-steps)en informatiebronnen voor meer informatie.
 
@@ -56,7 +56,7 @@ Er wordt een waarschuwing geactiveerd en een beveiligingss playbook start een ge
 
 1. Een geautomatiseerd onderzoek wordt op een van de volgende manieren gestart:
    - Een [waarschuwing wordt geactiveerd door iets](#which-alert-policies-trigger-automated-investigations) verdachts in e-mail (zoals een bericht, bijlage, URL of een gekromd gebruikersaccount). Er wordt een incident gemaakt en er wordt een geautomatiseerd onderzoek gestart. of
-   - Een [beveiligingsanalist start een geautomatiseerd onderzoek tijdens](automated-investigation-response-office.md#example-a-security-administrator-triggers-an-investigation-from-threat-explorer) het gebruik van Threat [Explorer.](threat-explorer.md)
+   - Een [beveiligingsanalist start een geautomatiseerd onderzoek terwijl](automated-investigation-response-office.md#example-a-security-administrator-triggers-an-investigation-from-threat-explorer) u Explorer [gebruikt.](threat-explorer.md)
 2. Terwijl een geautomatiseerd onderzoek wordt uitgevoerd, worden gegevens verzameld over de e-mail in kwestie en entiteiten die betrekking hebben op die e-mail. Dergelijke entiteiten kunnen bestanden, URL's en geadresseerden bevatten. Het bereik van het onderzoek kan toenemen naarmate nieuwe en gerelateerde waarschuwingen worden geactiveerd.
 3. Tijdens en na een geautomatiseerd onderzoek zijn [details en resultaten](air-view-investigation-results.md) beschikbaar om te bekijken. Resultaten zijn [onder andere aanbevolen](air-remediation-actions.md) acties die kunnen worden ondernomen om te reageren op en eventuele gevonden bedreigingen te corrigeren.
 4. Uw beveiligingsteam bekijkt de [onderzoeksresultaten en](air-view-investigation-results.md)aanbevelingen en keurt herstelacties [goed of weigert.](air-review-approve-pending-completed-actions.md)
@@ -82,14 +82,12 @@ Air-mogelijkheden zijn opgenomen in [Microsoft Defender voor Office 365](defende
 - [Bescherming tegen phishing](../office-365-security/protect-against-threats.md#part-2---anti-phishing-protection-in-eop-and-defender-for-office-365)
 - [Beveiliging tegen ongewenste e-mail](protect-against-threats.md#part-3---anti-spam-protection-in-eop)
 - [Safe Koppelingen en Safe bijlagen](protect-against-threats.md#part-4---protection-from-malicious-urls-and-files-safe-links-and-safe-attachments-in-defender-for-office-365)
-- [Veilige bijlagen voor SharePoint, OneDrive en Microsoft Teams](protect-against-threats.md#part-5---verify-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams-is-turned-on)
-- [Auto purge van nul uur voor e-mail](protect-against-threats.md#zero-hour-auto-purge-for-email-in-eop)
 
 Controleer bovendien het waarschuwingsbeleid van uw [organisatie,](../../compliance/alert-policies.md)met name het standaardbeleid in de categorie [Bedreigingsbeheer.](../../compliance/alert-policies.md#default-alert-policies)
 
 ## <a name="which-alert-policies-trigger-automated-investigations"></a>Welk waarschuwingsbeleid activeert geautomatiseerde onderzoeken?
 
-Microsoft 365 bevat veel ingebouwde waarschuwingsbeleidsregels die helpen bij het identificeren Exchange beheerdersmachtigingen misbruik, malwareactiviteit, potentiële externe en interne bedreigingen en risico's voor informatiebeheer. Verschillende van de [standaardwaarschuwingsbeleidsregels](../../compliance/alert-policies.md#default-alert-policies) kunnen geautomatiseerde onderzoeken activeren. In de volgende tabel worden de waarschuwingen beschreven die automatisch onderzoek in gang zetten, de ernst ervan in Microsoft 365 Defender-portal en hoe deze worden gegenereerd:
+Microsoft 365 bevat veel ingebouwde waarschuwingsbeleidsregels die helpen bij het identificeren Exchange beheerdersmachtigingen misbruik, malwareactiviteit, potentiële externe en interne bedreigingen en risico's voor informatiebeheer. Verschillende van de [standaardwaarschuwingsbeleidsregels](../../compliance/alert-policies.md#default-alert-policies) kunnen geautomatiseerde onderzoeken activeren. In de volgende tabel worden de waarschuwingen beschreven die geautomatiseerde onderzoeken activeren, de ernst ervan in de Microsoft 365 Defender portal en hoe deze worden gegenereerd:
 
 <br>
 
@@ -106,7 +104,7 @@ Microsoft 365 bevat veel ingebouwde waarschuwingsbeleidsregels die helpen bij he
 |
 
 > [!TIP]
-> Zie Waarschuwingsbeleid in het Microsoft 365 compliancecentrum voor meer informatie over waarschuwingsbeleid of het bewerken [van de standaardinstellingen.](../../compliance/alert-policies.md)
+> Zie Waarschuwingsbeleid in het Microsoft 365-compliancecentrum voor meer informatie over waarschuwingsbeleid of het [bewerken van de standaardinstellingen.](../../compliance/alert-policies.md)
 
 ## <a name="required-permissions-to-use-air-capabilities"></a>Vereiste machtigingen voor het gebruik van AIR-mogelijkheden
 
@@ -118,9 +116,8 @@ Machtigingen worden verleend via bepaalde rollen, zoals de machtigingen die in d
 
 |Taak|Rol(en) vereist|
 |---|---|
-|AIR-functies instellen|Een van de volgende rollen: <ul><li>Globale beheerder</li><li>Beveiligingsbeheerder</li></ul> <p> Deze rollen kunnen worden toegewezen [in](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) Azure Active Directory of in het [compliancecentrum & Beveiligingscentrum.](permissions-in-the-security-and-compliance-center.md)|
-|Een geautomatiseerd onderzoek starten <p> --- of --- <p> Aanbevolen acties goedkeuren of weigeren|Een van de volgende rollen, toegewezen [in](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) Azure Active Directory of in het [compliancecentrum & beveiliging:](permissions-in-the-security-and-compliance-center.md) <ul><li>Globale beheerder</li><li>Beveiligingsbeheerder</li><li>Beveiligingsoperator</li><li>Beveiligingslezer <br> --- en --- </li><li>Zoeken en zuiveren (deze rol wordt alleen toegewezen in het [beveiligings- & Compliancecentrum](permissions-in-the-security-and-compliance-center.md). Mogelijk moet u daar een nieuwe rollengroep maken en de rol Zoeken en zuiveren toevoegen aan die nieuwe rollengroep.</li></ul>|
-|
+|AIR-functies instellen|Een van de volgende rollen: <ul><li>Globale beheerder</li><li>Beveiligingsadministrator</li></ul> <p> Deze rollen kunnen worden toegewezen [in](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) Azure Active Directory of in de [Microsoft 365 Defender portal.](permissions-microsoft-365-security-center.md)|
+|Een geautomatiseerd onderzoek starten <p> --- of --- <p> Aanbevolen acties goedkeuren of weigeren|Een van de volgende rollen, toegewezen [in](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) Azure Active Directory of in de [Microsoft 365 Defender portal:](permissions-microsoft-365-security-center.md) <ul><li>Globale beheerder</li><li>Beveiligingsadministrator</li><li>Beveiligingsoperator</li><li>Beveiligingslezer <br> --- en --- </li><li>Zoeken en zuiveren (deze rol wordt alleen toegewezen in de [Microsoft 365 Defender portal](permissions-microsoft-365-security-center.md). Mogelijk moet u daar een nieuwe rollengroep **E-mail &** en de rol Zoeken en zuiveren toevoegen aan die nieuwe rollengroep.</li></ul>|
 
 ## <a name="required-licenses"></a>Vereiste licenties
 
@@ -130,18 +127,18 @@ Machtigingen worden verleend via bepaalde rollen, zoals de machtigingen die in d
 - Het beveiligingsteam van uw organisatie (inclusief beveiligingslezers en personen met de rol Zoeken **en** zuiveren)
 - Eindgebruikers
 
-## <a name="changes-are-coming-soon-in-your-microsoft-365-defender-portal"></a>Binnenkort worden wijzigingen doorgevoerd in uw Microsoft 365 Defender-portal
+## <a name="changes-are-coming-soon-in-your-microsoft-365-defender-portal"></a>Wijzigingen worden binnenkort doorgevoerd in uw Microsoft 365 Defender portal
 
-Als u air-mogelijkheden al gebruikt in Microsoft Defender voor Office 365, ziet u enkele wijzigingen in de verbeterde [portal Microsoft 365 Defender.](../defender/overview-security-center.md)
+Als u air-mogelijkheden al gebruikt in Microsoft Defender voor Office 365, ziet u enkele wijzigingen in de verbeterde [Microsoft 365 Defender portal.](../defender/overview-security-center.md)
 
 :::image type="content" source="../../media/m3d-action-center-unified.png" alt-text="Unified Action Center":::
 
-De nieuwe en verbeterde Microsoft 365 Defender-portal brengt AIR-mogelijkheden samen in [Microsoft Defender voor](defender-for-office-365.md) Office 365 en in Microsoft Defender voor [Eindpunt.](../defender-endpoint/automated-investigations.md) Met deze updates en verbeteringen kan jouw beveiligingsteam informatie bekijken over geautomatiseerde onderzoeken en herstelacties in e-mail, samenwerkingsinhoud, gebruikersaccounts en apparaten, allemaal op één plaats.
+De nieuwe en verbeterde Microsoft 365 Defender portal brengt AIR-mogelijkheden samen in [Microsoft Defender voor](defender-for-office-365.md) Office 365 en in Microsoft Defender voor [Eindpunt.](../defender-endpoint/automated-investigations.md) Met deze updates en verbeteringen kan jouw beveiligingsteam informatie bekijken over geautomatiseerde onderzoeken en herstelacties in e-mail, samenwerkingsinhoud, gebruikersaccounts en apparaten, allemaal op één plaats.
 
 > [!TIP]
 > De nieuwe Microsoft 365 Microsoft 365 Defender portal ( <https://security.microsoft.com> ) vervangt de volgende centra:
 >
-> - Office 365 Beveiligings- & compliancecentrum ( <https://protection.office.com> )
+> - Beveiligings- & compliancecentrum ( <https://protection.office.com> )
 > - Microsoft Defender-beveiligingscentrum ( <https://securitycenter.windows.com> )
 >
 > Naast het wijzigen van de URL is er een nieuw uiterlijk, ontworpen om uw beveiligingsteam een gestroomlijnde ervaring te geven, met zichtbaarheid voor meer detecties van bedreigingen op één plaats.
@@ -159,10 +156,10 @@ In de volgende tabel vindt u wijzigingen en verbeteringen die worden doorgevoerd
 |**Pagina Onderzoeken**|De **bijgewerkte pagina Onderzoeken** komt beter overeen met wat u ziet in [Microsoft Defender voor Eindpunt.](/windows/security/threat-protection/microsoft-defender-atp/automated-investigations) U ziet enkele algemene opmaak- en stijlwijzigingen die zijn afgestemd op de nieuwe, geïntegreerde **weergave Onderzoeken.** De onderzoeksgrafiek heeft bijvoorbeeld een meer geïntegreerde indeling.|
 |**Tabblad Gebruikers**|Het **tabblad Gebruikers** is nu het tabblad **Postvakken.** Details over gebruikers worden weergegeven op het **tabblad Postvak.**|
 |**Tabblad E-mail**|Het **tabblad E-mail** is verwijderd. Ga naar **het tabblad Entiteiten** om een lijst met e-mail- en e-mailclusteritems te bekijken.|
-|**Tabblad Entiteiten**|Het **tabblad Entiteiten** heeft een tab-in-tabstijl die een overzichtsweergave bevat en de mogelijkheid om te filteren op entiteitstype. Het **tabblad Entiteiten** bevat nu naast de optie Openen in **Verkenner** ook de optie Ga op zoek naar.  U kunt nu [Threat Explorer of geavanceerd](threat-explorer.md) zoeken [gebruiken](../defender-endpoint/advanced-hunting-overview.md) om entiteiten en bedreigingen te zoeken en op resultaten te filteren.|
+|**Tabblad Entiteiten**|Het **tabblad Entiteiten** heeft een tab-in-tabstijl die een overzichtsweergave bevat en de mogelijkheid om te filteren op entiteitstype. Het **tabblad Entiteiten** bevat nu naast de optie Openen in **Verkenner** ook de optie Ga op zoek naar.  U kunt nu [Verkenner of geavanceerd](threat-explorer.md) zoeken [gebruiken](../defender-endpoint/advanced-hunting-overview.md) om entiteiten en bedreigingen te zoeken en op resultaten te filteren.|
 |**Tabblad Acties**|Het tabblad **Bijgewerkte** acties bevat nu een tabblad **Acties in** behandeling en een **tabblad Actiesgeschiedenis.** Acties kunnen worden goedgekeurd (of geweigerd) in een zijvenster dat wordt geopend wanneer u een actie in behandeling selecteert.|
 |**Tabblad Bewijs**|Een nieuw **tabblad Bewijs** toont de belangrijkste entiteitsbetuigingen die betrekking hebben op acties. Acties met betrekking tot elk bewijs kunnen worden goedgekeurd (of geweigerd) in een zijvenster dat wordt geopend wanneer u een actie in behandeling selecteert.|
-|**Actiecentrum**|Het **bijgewerkte Actiecentrum** () brengt lopende en voltooide acties samen [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) op e-mail, apparaten en identiteiten. Zie Actiecentrum voor meer informatie. (Zie Actiecentrum voor meer [informatie.)](../defender/m365d-action-center.md)|
+|**Actiecentrum**|Het **bijgewerkte Actiecentrum** () brengt lopende en voltooide acties samen <https://security.microsoft.com/action-center> op e-mail, apparaten en identiteiten. Zie Actiecentrum voor meer informatie. (Zie Actiecentrum voor meer [informatie.)](../defender/m365d-action-center.md)|
 |**Pagina Incidenten**|De **pagina** Incidenten correleert nu meerdere onderzoeken samen om een beter overzicht van onderzoeken te bieden. ([Meer informatie over incidenten](../defender/incidents-overview.md).)|
 |
 

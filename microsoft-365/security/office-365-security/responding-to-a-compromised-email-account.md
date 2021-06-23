@@ -20,12 +20,12 @@ search.appverid:
 description: Lees hoe u een gehackt e-mailaccount kunt herkennen en hierop kunt reageren met behulp van de hulpmiddelen die beschikbaar zijn in Microsoft 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a1bf2a5dbc7e1fdd447baf76fd051abff88b4b30
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 090253806295d0a5db67afbe769c9c0ca8be4b39
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51204325"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53054345"
 ---
 # <a name="responding-to-a-compromised-email-account"></a>Reageren op een gehackt e-mailaccount
 
@@ -40,7 +40,8 @@ ms.locfileid: "51204325"
 
 ## <a name="what-is-a-compromised-email-account-in-microsoft-365"></a>Wat is een gehackt e-mailaccount in Microsoft 365?
 
-Toegang tot Microsoft 365-postvakken, -gegevens en andere services wordt geregeld door het gebruik van referenties, zoals een gebruikersnaam en wachtwoord of pincode. Als iemand anders dan de bedoelde gebruiker die referenties steelt, worden de gestolen referenties geacht te zijn gehackt. Hiermee kan de hacker zich aanmelden als de oorspronkelijke gebruiker en illegale acties uitvoeren.
+Toegang tot Microsoft 365-postvakken, gegevens en andere services wordt geregeld met behulp van referenties, zoals een gebruikersnaam en wachtwoord of pincode. Als iemand anders dan de bedoelde gebruiker die referenties steelt, worden de gestolen referenties geacht te zijn gehackt. Hiermee kan de hacker zich aanmelden als de oorspronkelijke gebruiker en illegale acties uitvoeren.
+
 Met de gestolen referenties kan de hacker toegang krijgen tot het Microsoft 365-postvak, SharePoint-mappen of bestanden in de OneDrive van de gebruiker. Een actie die vaak wordt gezien, is dat de hacker e-mails verzendt als de oorspronkelijke gebruiker naar geadresseerden binnen en buiten de organisatie. Wanneer de hacker gegevens naar externe geadresseerden stuurt, wordt dit gegevensexfiltratie genoemd.
 
 ## <a name="symptoms-of-a-compromised-microsoft-email-account"></a>Symptomen van een gehackt Microsoft-e-mailaccount
@@ -48,33 +49,23 @@ Met de gestolen referenties kan de hacker toegang krijgen tot het Microsoft 365-
 Gebruikers kunnen ongebruikelijke activiteiten in hun Microsoft 365-postvakken opmerken en melden. Hier volgen enkele veelvoorkomende symptomen:
 
 - Verdachte activiteiten, zoals ontbrekende of verwijderde e-mails.
-
 - Het is mogelijk dat andere gebruikers e-mails ontvangen van het gehackte account, zonder dat de desbetreffende e-mail aanwezig is in de map met **Verzonden items** van de afzender.
-
 - De aanwezigheid van regels voor Postvak IN die niet zijn aangemaakt door de bedoelde gebruiker of door de beheerder. Met deze regels kunnen e-mails automatisch worden doorgestuurd naar onbekende adressen of worden deze verplaatst naar de mappen met **Notities**, **Ongewenste e-mail** of **RSS-abonnementen**.
-
 - De weergavenaam van de gebruiker kan worden gewijzigd in de algemene adreslijst.
-
 - Het postvak van de gebruiker is geblokkeerd voor het verzenden van e-mails.
-
 - De mappen met Verzonden of Verwijderde items in Microsoft Outlook of de webversie van Outlook (voorheen bekend als Outlook Web App) bevatten berichten die vaak worden gestuurd door gehackte accounts, zoals "Ik zit vast in Londen, stuur geld".
-
 - Ongebruikelijke profielwijzigingen, zoals de naam, het telefoonnummer of de postcode zijn bijgewerkt.
-
 - Ongebruikelijke referentiewijzigingen, zoals meerdere wachtwoordwijzigingen.
-
 - Het doorsturen van e-mail is onlangs toegevoegd.
-
 - Er is onlangs een ongebruikelijke handtekening toegevoegd, zoals een valse bankhandtekening of een handtekening voor voorgeschreven medicijnen.
 
-Als een gebruiker een van de bovenstaande problemen meldt, moet u nader onderzoek doen. Het Microsoft 365-beveiligings- en compliancecentrum en de Azure-portal bieden hulpmiddelen voor het onderzoeken van de activiteiten van een gebruikersaccount waarvan u vermoedt dat het niet meer betrouwbaar is.
+Als een gebruiker een van de bovenstaande problemen meldt, moet u nader onderzoek doen. [Microsoft 365 Defender](https://security.microsoft.com) en de Azure-portal bieden hulpmiddelen voor het onderzoeken van de activiteiten van een gebruikersaccount waarvan u vermoedt dat het niet meer betrouwbaar is.
 
-- **Geïntegreerde auditlogboeken in het Beveiligings- en compliancecentrum**: Bekijk alle activiteiten van het verdachte account door de resultaten te filteren op het datumbereik van vlak voordat de verdachte activiteiten zich voordeden tot nu. Filter niet op de activiteiten tijdens het zoeken.
+- **Geïntegreerde auditlogboeken in de Microsoft 365 Defender-portal**: bekijk alle activiteiten van het verdachte account door de resultaten te filteren op het datumbereik van vlak voordat de verdachte activiteiten zich voordeden tot heden. Filter niet op de activiteiten tijdens het zoeken.
 
-- **Auditlogboeken voor beheerders in het Exchange-beheercentrum (EAC)**: In Exchange Online kunt u het Exchange-beheercentrum gebruiken om vermeldingen te zoeken en weer te geven in het auditlogboek van de beheerder. In het auditlogboek van de beheerder worden specifieke acties vastgelegd, gebaseerd op Exchange Online PowerShell-cmdlets, die worden uitgevoerd door beheerders en gebruikers aan wie beheerdersbevoegdheden zijn toegewezen. Vermeldingen in het auditlogboek van de beheerder bieden informatie over welke cmdlet is uitgevoerd, welke parameters zijn gebruikt, wie de cmdlet heeft uitgevoerd en welke objecten zijn beïnvloed.
+- **Auditlogboeken voor beheerders in het Exchange-beheercentrum (EAC)**: In Exchange Online kunt u het Exchange-beheercentrum gebruiken om vermeldingen te zoeken en weer te geven in het auditlogboek van de beheerder. In het auditlogboek van de beheerder worden specifieke acties vastgelegd, gebaseerd op Exchange Online PowerShell-cmdlets, die worden uitgevoerd door beheerders en door gebruikers aan wie beheerdersbevoegdheden zijn toegewezen. Vermeldingen in het auditlogboek van de beheerder bieden informatie over welke cmdlet is uitgevoerd, welke parameters zijn gebruikt, wie de cmdlet heeft uitgevoerd en welke objecten zijn beïnvloed.
 
 - **Azure AD-aanmeldingslogboeken en andere risicorapporten in de Azure AD-portal**: Bekijk de waarden in deze kolommen:
-
   - Controleer het IP-adres
   - aanmeldingslocaties
   - aanmeldingstijden
@@ -98,7 +89,7 @@ Volg de procedures in [Een zakelijk wachtwoord opnieuw instellen voor iemand](..
 >
 > - Zorg ervoor dat het wachtwoord sterk is en dat het hoofdletters en kleine letters, tenminste één cijfer en tenminste één speciaal teken bevat.
 >
-> - Gebruik uw laatste vijf wachtwoorden niet opnieuw. Hoewel u volgens de vereisten voor wachtwoordgeschiedenis een recenter wachtwoord opnieuw kunt gebruiken, is het verstandig om iets te selecteren dat de hacker niet kan raden.
+> - Maak geen gebruik van de afgelopen vijf wachtwoorden. Hoewel u volgens de vereisten voor wachtwoordgeschiedenis een recenter wachtwoord opnieuw kunt gebruiken, is het verstandig iets te selecteren dat de hacker niet kan raden.
 >
 > - Als uw identiteit op locatie federatief is met Microsoft 365, moet u uw wachtwoord op locatie wijzigen en uw beheerder op de hoogte stellen van de aanval.
 >
@@ -108,7 +99,7 @@ Volg de procedures in [Een zakelijk wachtwoord opnieuw instellen voor iemand](..
 
 ### <a name="step-2-remove-suspicious-email-forwarding-addresses"></a>Stap 2 E-mailadressen verwijderen die verdachte mails doorsturen
 
-1. Het Microsoft 365-beheercentrum openen in <https://admin.microsoft.com>
+1. Open het Microsoft 365-beheercentrum op <https://admin.microsoft.com>.
 
 2. Ga naar **Gebruikers** \> **Actieve gebruikers**. Zoek het desbetreffende gebruikersaccount en selecteer de gebruiker (rij) zonder het selectievakje in te schakelen.
 
@@ -137,50 +128,52 @@ Om ervoor te zorgen dat er weer mails kunnen worden verzonden vanuit dit postvak
 > [!IMPORTANT]
 > U kunt ervoor zorgen dat er niet meer ingelogd kan worden bij het vermoedelijk gehackte account tot u ervan overtuigd bent dat het veilig is om de blokkering op te heffen.
 
-1. Ga in het Microsoft 365-beheercentrum naar **Gebruikers** \> **Actieve gebruikers**.
+1. Open het Microsoft 365-beheercentrum op <https://admin.microsoft.com> en ga naar **Gebruikers** \> **Actieve gebruikers**.
 
 2. Zoek en selecteer het gebruikersaccount, klik op ![Meer](../../media/ITPro-EAC-MoreOptionsIcon.png)en selecteer vervolgens **Aanmeldstatus bewerken**.
 
 3. Selecteer in het deelvenster **Aanmelding blokkeren** de optie **Aanmelden van deze gebruiker blokkeren** en klik vervolgens op **Wijzigingen opslaan**.
 
-4. Open het Exchange-Beheercentrum (SBV) op <admin.protection.outlook.com/ecp/> en ga naar **Geadresseerden > Postvakken**.
+4. Open het Exchange-beheercentrum (EAC) op <https://admin.exchange.microsoft.com> en ga naar **Ontvangers** \> **Postvakken**.
 
-5. Zoek en selecteer de gebruiker. In het detailvenster voert u de volgende stappen uit:
+5. Zoek en selecteer de gebruiker. Voer in de flyout met postvakgegevens de volgende stappen uit::
+   - Blokkeer in de sectie **E-mail-apps** alle beschikbare instellingen door de wisselknop naar rechts, ![Uitschakelen](../../media/scc-toggle-on.png), te verplaatsen:
+     - **Webversie van Outlook**
+     - **Desktopversie van Outlook (MAPI)**
+     - **Exchange-webservices**
+     - **Mobiel (Exchange ActiveSync)**
+     - **IMAP**
+     - **POP3**
 
-   - Voer de volgende stappen uit in de sectie **Telefoon- en spraakfuncties** :
-
-     - Selecteer **Exchange ActiveSync uitschakelen** en klik vervolgens op **Ja** in het waarschuwingsbericht.
-     - Selecteer **OWA voor apparaten uitschakelen** en klik vervolgens op **Ja** in het waarschuwingsbericht.
-
-   - Klik in de sectie **E-mailconnectiviteit** voor de webversie van Outlook op **Uitschakelen** en klik vervolgens op **Ja** in het waarschuwingsbericht.
+   Wanneer u klaar bent, klikt u op **Opslaan** en vervolgens op **Sluiten**.
 
 ### <a name="step-6-optional-remove-the-suspected-compromised-account-from-all-administrative-role-groups"></a>Stap 6 Optioneel: Verwijder het vermoedelijk gehackte account uit alle beheerdersrollen.
 
 > [!NOTE]
 > Het lidmaatschap van de administratieve rolgroep kan worden hersteld nadat het account is beveiligd.
 
-1. Meld u aan met een globale beheerdersaccount:
-
-2. Voer de volgende stappen uit in het Microsoft 365-beheercentrum:
-
+1. Open het Microsoft 365-beheercentrum op <https://admin.microsoft.com> met een globaal-beheerdersaccount en voer de volgende stappen uit:
    1. Ga naar **Gebruikers** \> **Actieve gebruikers**.
    2. Zoek en selecteer het gebruikersaccount, klik op ![Meer](../../media/ITPro-EAC-MoreOptionsIcon.png) en selecteer vervolgens **Rollen beheren**.
    3. Verwijder alle beheerrollen die aan het account zijn toegewezen. Wanneer u gereed bent, klikt u op **Wijzigingen opslaan**.
 
-3. Voer de volgende stappen uit in het beveiligings- en compliancecentrum op <https://protection.office.com>:
+2. Open de Microsoft 365 Defender-portal op <https://security.microsoft.com> en voer de volgende stappen uit:
+   1. Ga naar **Machtigingen en rollen** \> **Rollen voor e-mail en samenwerking** \> **Rollen**.
+   2. Selecteer op de pagina **Machtigingen** elke rollengroep in de lijst en zoek het gebruikersaccount in de sectie **Leden** in de flyout met details die verschijnt. Als de rollengroep het gebruikersaccount bevat, voert u de volgende stappen uit:
+      1. Klik in de sectie **Leden** op **Bewerken**.
+      2. Klik in de flyout **Leden kiezen bewerken** op **Bewerken**.
+      3. Klik in de flyout **Leden kiezen** op **Verwijderen**.
+      4. Selecteer in de flyout die verschijnt het gebruikersaccount en klik vervolgens op **Verwijderen**.
 
-   Selecteer **Machtigingen**, selecteer elke rollengroep in de lijst en zoek het gebruikersaccount in de sectie **Leden** in de flyout met details. Als de rollengroep het gebruikersaccount bevat, voert u de volgende stappen uit:
+         Wanneer u klaar bent, klikt u op **Gereed**, **Opslaan** en vervolgens op **Sluiten**.
 
-   a. Klik op **Bewerken** naast **Leden**.
-   b. Klik in de flyout **Bewerken van leden kiezen** op **Bewerken**.
-   c. Selecteer in de flyout **Leden kiezen** het gebruikersaccount en klik vervolgens op **Verwijderen**. Wanneer u gereed bent, klikt u op **Gereed**, **Opslaan** en vervolgens op **Sluiten**.
+3. Open het EAC op <https://admin.exchange.microsoft.com> en voer de volgende stappen uit:
+   1. Selecteer **Rollen** \> **Beheerdersrollen**.
+   2. Op de pagina **Beheerdersrollen** selecteert u handmatig elke rollengroep en in het deelvenster met de details selecteert u het tabblad **Toegewezen** om de gebruikersaccounts te verifiëren. Als de rollengroep het gebruikersaccount bevat, voert u de volgende stappen uit:
+      1. Selecteer het gebruikersaccount.
+      2. Klik op het ![pictogram Verwijderen](../../media/m365-cc-sc-delete-icon.png).
 
-4. Voer de volgende stappen uit in het Exchange-beheercentrum SBV via <admin.protection.outlook.com/ecp/>:
-
-   Selecteer **Machtigingen**, selecteer elke rollengroep handmatig en controleer de gebruikersaccounts in de sectie **Leden** in het detailvenster.  Als de rollengroep het gebruikersaccount bevat, voert u de volgende stappen uit:
-
-   a. Selecteer de rollengroep, klik op **Bewerken** ![Pictogram bewerken](../../media/ITPro-EAC-EditIcon.png).
-   b. Selecteer in de sectie **Lid** het gebruikersaccount en klik vervolgens op **Verwijderen** ![Pictogram verwijderen](../../media/ITPro-EAC-RemoveIcon.gif). Wanneer u gereed bent, klikt u op **Opslaan**.
+         Klik op **Opslaan** wanneer u gereed bent.
 
 ### <a name="step-7-optional-additional-precautionary-steps"></a>Stap 7 Optioneel: Extra voorzorgsmaatregelen
 
@@ -194,18 +187,13 @@ Om ervoor te zorgen dat er weer mails kunnen worden verzonden vanuit dit postvak
 
 Uw Microsoft 365-abonnement heeft een krachtige reeks aan beveiligingsmogelijkheden die u kunt gebruiken om uw gegevens en gebruikers te beschermen.  Gebruik de [Microsoft 365-roadmap voor beveiliging - Topprioriteiten voor de eerste 30 dagen, 90 dagen en verder](security-roadmap.md) om door Microsoft aanbevolen procedures voor het beveiligen van uw Microsoft 365-tenant te implementeren.
 
-- Taken die in de eerste 30 dagen moeten worden uitgevoerd.  Deze hebben direct effect en weinig invloed op uw gebruikers.
-
+- Taken die in de eerste 30 dagen moeten worden uitgevoerd. Deze hebben direct effect en weinig invloed op uw gebruikers.
 - Taken die binnen 90 dagen moeten worden uitgevoerd. Deze nemen qua planning en implementatie iets meer tijd in beslag, maar zorgen voor aanzienlijke verbeteringen in uw beveiligingspostuur.
-
 - Na 90 dagen. Deze verbeteringen zijn gebaseerd op de eerste 90 dagen.
 
 ## <a name="see-also"></a>Zie ook
 
 - [Injectieaanvallen op Outlook-regels en aangepaste formulieren detecteren en verhelpen in Microsoft 365](detect-and-remediate-outlook-rules-forms-attack.md)
-
 - [Internet Crime Complaint Center](https://www.ic3.gov/Home/Ransomware)
-
 - [Securities and Exchange Commission - "Phishing" fraude](https://www.sec.gov/investor/pubs/phishing.htm)
-
 - Om ongewenste e-mailberichten rechtstreeks bij Microsoft en uw beheerder te melden, kunt u [De invoegtoepassing rapporteer bericht gebruiken](https://support.microsoft.com/office/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)

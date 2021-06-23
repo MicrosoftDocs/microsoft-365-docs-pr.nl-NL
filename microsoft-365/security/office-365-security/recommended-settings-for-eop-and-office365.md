@@ -19,12 +19,12 @@ ms.collection:
 description: Wat zijn best practices voor Exchange Online Protection (EOP) en Defender voor Office 365 beveiligingsinstellingen? Wat zijn de huidige aanbevelingen voor standaardbeveiliging? Wat moet u gebruiken als u strikter wilt zijn? En welke extra's krijgt u als u Ook Defender gebruikt voor Office 365?
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 031dd6ffe05c700b65fb56da90a49ed194c17321
-ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
+ms.openlocfilehash: 67d1b133e0d0ac7e622ed0bfdbfd17214608d77a
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53029511"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083546"
 ---
 # <a name="recommended-settings-for-eop-and-microsoft-defender-for-office-365-security"></a>Aanbevolen instellingen voor EOP en Microsoft Defender voor Office 365 beveiliging
 
@@ -63,24 +63,34 @@ Zie Antispambeleid configureren in EOP als u antispambeleid wilt maken en [confi
 
 |Naam van beveiligingsfunctie|Standaard|Standard|Strikt|Opmerking|
 |---|:---:|:---:|:---:|---|
+|**Drempelwaarde voor bulksgewijs & spam**||||
+|**Drempelwaarde voor bulksgewijs e-mail** <p> _BulkThreshold_|7|6|4|Zie Bulk [complaint level (BCL) in EOP voor meer informatie.](bulk-complaint-level-values.md)|
+|_MarkAsSpamBulkMail_|`On`|`On`|`On`|Deze instelling is alleen beschikbaar in PowerShell.|
+|**Instellingen voor spamscores** verhogen|Uit|Uit|Uit|Al deze instellingen maken deel uit van het Advanced Spam Filter (ASF). Zie de sectie [ASF-instellingen in antispambeleid in](#asf-settings-in-anti-spam-policies) dit artikel voor meer informatie.|
+|**Markeren als spam-instellingen**|Uit|Uit|Uit|De meeste van deze instellingen maken deel uit van ASF. Zie de sectie [ASF-instellingen in antispambeleid in](#asf-settings-in-anti-spam-policies) dit artikel voor meer informatie.|
+|**Bevat specifieke talen** <p> _LanguageBlockList inschakelen_ <p> _LanguageBlockList_|**Uit** <p> `$false` <p> Leeg|**Uit** <p> `$false` <p> Leeg|**Uit** <p> `$false` <p> Leeg|We hebben geen specifieke aanbeveling voor deze instelling. U kunt berichten in specifieke talen blokkeren op basis van uw zakelijke behoeften.|
+|**Uit deze landen** <p> _EnableRegionBlockList_ <p> _RegionBlockList_|**Uit** <p> `$false` <p> Leeg|**Uit** <p> `$false` <p> Leeg|**Uit** <p> `$false` <p> Leeg|We hebben geen specifieke aanbeveling voor deze instelling. U kunt berichten uit specifieke landen blokkeren op basis van uw zakelijke behoeften.|
+|**Testmodus** (_TestModeAction_)|**Geen**|**Geen**|**Geen**|Deze instelling maakt deel uit van ASF. Zie de sectie [ASF-instellingen in antispambeleid in](#asf-settings-in-anti-spam-policies) dit artikel voor meer informatie.|
+|**Acties**|||||
 |**Actie voor spamdetectie** <p> _SpamActie_|**Bericht verplaatsen naar map Ongewenste e-mail** <p> `MoveToJmf`|**Bericht verplaatsen naar map Ongewenste e-mail** <p> `MoveToJmf`|**Quarantainebericht** <p> `Quarantine`||
 |**Actie voor het opsporen van spam** met veel vertrouwen <p> _HighConfidenceSpamAction_|**Bericht verplaatsen naar map Ongewenste e-mail** <p> `MoveToJmf`|**Quarantainebericht** <p> `Quarantine`|**Quarantainebericht** <p> `Quarantine`||
 |**Phishingdetectieactie** <p> _PhishSpamAction_|**Bericht verplaatsen naar map Ongewenste e-mail** <p> `MoveToJmf`|**Quarantainebericht** <p> `Quarantine`|**Quarantainebericht** <p> `Quarantine`||
 |**Phishingdetectieactie met** hoog vertrouwen <p> _HighConfidencePhishAction_|**Quarantainebericht** <p> `Quarantine`|**Quarantainebericht** <p> `Quarantine`|**Quarantainebericht** <p> `Quarantine`||
 |**Bulkdetectieactie** <p> _BulkSpamAction_|**Bericht verplaatsen naar map Ongewenste e-mail** <p> `MoveToJmf`|**Bericht verplaatsen naar map Ongewenste e-mail** <p> `MoveToJmf`|**Quarantainebericht** <p> `Quarantine`||
-|**Drempelwaarde voor bulksgewijs e-mail** <p> _BulkThreshold_|7|6|4|Zie Bulk [complaint level (BCL) in EOP voor meer informatie.](bulk-complaint-level-values.md)|
-|_MarkAsSpamBulkMail_|Aan|Aan|Aan|Deze instelling is alleen beschikbaar in PowerShell.|
 |**Spam in quarantaine bewaren voor deze dagen** <p> _QuarantineRetentionPeriod_|15 dagen|30 dagen|30 dagen||
-|**Tips voor spamveiligheid inschakelen** <p> _InlineSafetyTipsEnabled_|Aan <p> `$true`|Aan <p> `$true`|Aan <p> `$true`||
+|**Tips voor spamveiligheid inschakelen** <p> _InlineSafetyTipsEnabled_|Geselecteerd <p> `$true`|Geselecteerd <p> `$true`|Geselecteerd <p> `$true`||
+|Automatische purge (ZAP) voor phishingberichten inschakelen <p> _PhishZapEnabled_|Geselecteerd <p> `$true`|Geselecteerd <p> `$true`|Geselecteerd <p> `$true`||
+|ZAP inschakelen voor spamberichten <p> _SpamZapEnabled_|Geselecteerd <p> `$true`|Geselecteerd <p> `$true`|Geselecteerd <p> `$true`||
+|**Spammeldingen voor eindgebruikers inschakelen** <p> _EnableEndUserSpamNotifications_|Niet geselecteerd <p> `$false`|Geselecteerd <p> `$true`|Geselecteerd <p> `$true`||
+|**Spammeldingen voor eindgebruikers elke (dagen) verzenden** <p> _EndUserSpamNotificationFrequency_|3 dagen|3 dagen|3 dagen||
+|**Lijst & blokkeren toestaan**|||||
 |Toegestane afzenders <p> _AllowedSenders_|Geen|Geen|Geen||
 |Toegestane afzenderdomeinen <p> _AllowedSenderDomains_|Geen|Geen|Geen|Het toevoegen van domeinen aan de lijst met toegestane afzenders is een heel slecht idee. Aanvallers kunnen u e-mail sturen die anders zou worden gefilterd. <p> Gebruik het inzicht in spoof [intelligence](learn-about-spoof-intelligence.md) en de [Tenant Allow/Block List](tenant-allow-block-list.md) om alle afzenders te controleren die e-mailadressen van afzenders spoofen in de e-maildomeinen van uw organisatie of e-mailadressen van afzenders voor spoofing in externe domeinen.|
 |Geblokkeerde afzenders <p> _Geblokkeerde senders_|Geen|Geen|Geen||
 |Geblokkeerde afzenderdomeinen <p> _BlockedSenderDomains_|Geen|Geen|Geen||
-|**Spammeldingen voor eindgebruikers inschakelen** <p> _EnableEndUserSpamNotifications_|Uitgeschakeld <p> `$false`|Ingeschakeld <p> `$true`|Ingeschakeld <p> `$true`||
-|**Spammeldingen voor eindgebruikers elke (dagen) verzenden** <p> _EndUserSpamNotificationFrequency_|3 dagen|3 dagen|3 dagen||
-|Automatische purge (ZAP) voor phishingberichten inschakelen <p> _PhishZapEnabled_|Ingeschakeld <p> `$true`|Ingeschakeld <p> `$true`|Ingeschakeld <p> `$true`||
-|ZAP inschakelen voor spambericht <p> _SpamZapEnabled_|Ingeschakeld <p> `$true`|Ingeschakeld <p> `$true`|Ingeschakeld <p> `$true`||
 |
+
+#### <a name="asf-settings-in-anti-spam-policies"></a>ASF-instellingen in antispambeleid
 
 Er zijn veel geavanceerde instellingen voor spamfilter (ASF) in antispambeleid die momenteel worden afgeschaft. Meer informatie over de tijdlijnen voor de afschrijving van deze functies wordt buiten dit artikel gecommuniceerd.
 
@@ -107,6 +117,7 @@ Het is raadzaam om de volgende ASF-instellingen uit te **laten voor** zowel **st
 |**SPF-record: hard fail** (_MarkAsSpamSpfRecordHardFail_)||
 |**Sender ID filtering hard fail** _(MarkAsSpamFromAddressAuthFail_)||
 |**Backscatter** (_MarkAsSpamNdrBackscatter_)||
+|**Testmodus** (_TestModeAction_)|Voor ASF-instellingen die **Test** ondersteunen als een actie, kunt u de actie in de testmodus configureren op **Geen,** **Standaard X-koptekst** toevoegen of **BCC-bericht** verzenden ( `None` , of `AddXHeader` `BccMessage` ). Zie [ASF-instellingen inschakelen, uitschakelen of testen](advanced-spam-filtering-asf-options.md#enable-disable-or-test-asf-settings)voor meer informatie.|
 |
 
 #### <a name="eop-outbound-spam-policy-settings"></a>EOP-instellingen voor uitgaand spambeleid
@@ -126,6 +137,8 @@ Zie Limieten verzenden voor meer informatie over de standaardlimieten voor verze
 |**Een dagelijkse berichtlimiet instellen** <p> _RecipientLimitPerDay_|0|1000|800|De standaardwaarde 0 betekent dat u de standaardinstellingen van de service gebruikt.|
 |**Beperking die is opgelegd aan gebruikers die de berichtlimiet bereiken** <p> _ActionWhenThresholdReached_|**De gebruiker beperken van het verzenden van e-mail tot de volgende dag** <p> `BlockUserForToday`|**De gebruiker beperken van het verzenden van e-mail** <p> `BlockUser`|**De gebruiker beperken van het verzenden van e-mail** <p> `BlockUser`||
 |**Regels voor automatisch doorsturen** <p> _AutoForwardingMode_|**Automatisch - Systeemgestuurd** <p> `Automatic`|**Automatisch - Systeemgestuurd** <p> `Automatic`|**Automatisch - Systeemgestuurd** <p> `Automatic`|
+|**Een kopie van uitgaande berichten verzenden die deze limieten overschrijden voor deze gebruikers en groepen** <p> _BccSuspiciousOutboundMail_ <p> _BccSuspiciousOutboundAdditionalRecipients_|Niet geselecteerd <p> `$false` <p> Leeg|Niet geselecteerd <p> `$false` <p> Leeg|Niet geselecteerd <p> `$false` <p> Leeg|We hebben geen specifieke aanbeveling voor deze instelling. <p> Deze instelling werkt alleen in het standaardbeleid voor uitgaande spam. Het werkt niet in aangepaste uitgaande spambeleidsregels die u maakt.|
+|**Informeer deze gebruikers en groepen als een afzender is geblokkeerd vanwege het verzenden van uitgaande spam** <p> _NotifyOutboundSpam_ <p> _NotifyOutboundSpamRecipients_|Niet geselecteerd <p> `$false` <p> Leeg|Niet geselecteerd <p> `$false` <p> Leeg|Niet geselecteerd <p> `$false` <p> Leeg|Het [standaardwaarschuwingsbeleid](../../compliance/alert-policies.md) met de naam Gebruiker die geen e-mail mag verzenden, verzendt al e-mailmeldingen naar leden van de **groep TenantAdmins** **(Globale** beheerders) wanneer gebruikers worden geblokkeerd vanwege het overschrijden van de limieten in het beleid.  **We raden u ten zeerste aan het waarschuwingsbeleid** te gebruiken in plaats van deze instelling in het uitgaande spambeleid om beheerders en andere gebruikers op de hoogte te stellen. Zie De [waarschuwingsinstellingen voor](removing-user-from-restricted-users-portal-after-spam.md#verify-the-alert-settings-for-restricted-users)beperkte gebruikers controleren voor instructies.|
 |
 
 ### <a name="eop-anti-malware-policy-settings"></a>EOP-beleid voor anti-malwarebeleid
@@ -138,11 +151,27 @@ Zie [Anti-malwarebeleid](configure-anti-malware-policies.md)configureren in EOP 
 
 |Naam van beveiligingsfunctie|Standaard|Standard|Strikt|Opmerking|
 |---|:---:|:---:|:---:|---|
-|**Geadresseerden op de hoogte stellen wanneer berichten in quarantaine worden geplaatst als malware** <p> _Actie_|Nee <p> _DeleteMessage_|Nee <p> _DeleteMessage_|Nee <p> _DeleteMessage_|Als malware wordt gedetecteerd in een e-mailbijlage, wordt het bericht in quarantaine geplaatst en kan het alleen worden uitgebracht door een beheerder.|
-|**Het algemene bijlagefilter inschakelen** <p> _EnableFileFilter_|Uit <p> `$false`|Aan <p> `$true`|Aan <p> `$true`|Met deze instelling worden berichten in quarantaine geplaatst die uitvoerbare bijlagen bevatten op basis van bestandstype, ongeacht de inhoud van de bijlage.|
-|**Automatische purge van nul uur inschakelen voor malware** <p> _ZapEnabled_|Aan <p> `$true`|Aan <p> `$true`|Aan <p> `$true`||
-|**Interne afzenders op de hoogte stellen wanneer berichten in quarantaine worden geplaatst als malware** <p> _EnableInternalSenderNotifications_|Uitgeschakeld <p> `$false`|Uitgeschakeld <p> `$false`|Uitgeschakeld <p> `$false`||
-|**Externe afzenders op de hoogte stellen wanneer berichten in quarantaine worden geplaatst als malware** <p> _ExternalSenderNotifications inschakelen_|Uitgeschakeld <p> `$false`|Uitgeschakeld <p> `$false`|Uitgeschakeld <p> `$false`||
+|**Beveiligingsinstellingen**|||||
+|**Het algemene bijlagefilter inschakelen** <p> _EnableFileFilter_|Niet geselecteerd <p> `$false`|Geselecteerd <p> `$true`|Geselecteerd <p> `$true`|Met deze instelling worden berichten in quarantaine geplaatst die uitvoerbare bijlagen bevatten op basis van bestandstype, ongeacht de inhoud van de bijlage.|
+|**Automatische purge van nul uur inschakelen voor malware** <p> _ZapEnabled_|Geselecteerd <p> `$true`|Geselecteerd <p> `$true`|Geselecteerd <p> `$true`||
+|**Meldingen van geadresseerden**|||||
+|**Geadresseerden op de hoogte stellen wanneer berichten in quarantaine worden geplaatst als malware** <p> _Actie_|Niet geselecteerd <p> _DeleteMessage_|Niet geselecteerd <p> _DeleteMessage_|Niet geselecteerd <p> _DeleteMessage_|Als malware wordt gedetecteerd in een e-mailbijlage, wordt het bericht in quarantaine geplaatst en kan het alleen worden uitgebracht door een beheerder.|
+|**Afzendermeldingen**|||||
+|**Interne afzenders op de hoogte stellen wanneer berichten in quarantaine worden geplaatst als malware** <p> _EnableInternalSenderNotifications_|Niet geselecteerd <p> `$false`|Niet geselecteerd <p> `$false`|Niet geselecteerd <p> `$false`||
+|**Externe afzenders op de hoogte stellen wanneer berichten in quarantaine worden geplaatst als malware** <p> _ExternalSenderNotifications inschakelen_|Niet geselecteerd <p> `$false`|Niet geselecteerd <p> `$false`|Niet geselecteerd <p> `$false`||
+|**Beheerdersmeldingen**|||||
+|**Een beheerder op de hoogte stellen van niet-bezorgde berichten van interne afzenders** <p> _EnableInternalSenderAdminNotifications_ <p> _InternalSenderAdminAddress_|Niet geselecteerd <p> `$false`|Niet geselecteerd <p> `$false`|Niet geselecteerd <p> `$false`|We hebben geen specifieke aanbeveling voor deze instelling.|
+|**Een beheerder op de hoogte stellen van niet-bezorgde berichten van externe afzenders** <p> _EnableExternalSenderAdminNotifications_ <p> _ExternalSenderAdminAddress_|Niet geselecteerd <p> `$false`|Niet geselecteerd <p> `$false`|Niet geselecteerd <p> `$false`|We hebben geen specifieke aanbeveling voor deze instelling.|
+|**Meldingen aanpassen**||||We hebben geen specifieke aanbevelingen voor deze instellingen.|
+|**Aangepaste meldingstekst gebruiken** <p> _Aangepastenotificaties_|Niet geselecteerd <p> `$false`|Niet geselecteerd <p> `$false`|Niet geselecteerd <p> `$false`||
+|**Van naam** <p> _CustomFromName_|Leeg <p> `$null`|Leeg <p> `$null`|Leeg <p> `$null`||
+|**Van adres** <p> _CustomFromAddress_|Leeg <p> `$null`|Leeg <p> `$null`|Leeg <p> `$null`||
+|**Meldingen aanpassen voor berichten van interne afzenders**||||Deze instellingen worden alleen gebruikt als Interne **afzenders** op de hoogte stellen wanneer berichten in quarantaine worden geplaatst als malware of Een beheerder informeren over **niet-bezorgde** berichten van interne afzenders is geselecteerd.|
+|**Onderwerp** <p> _CustomInternalSubject_|Leeg <p> `$null`|Leeg <p> `$null`|Leeg <p> `$null`||
+|**Bericht** <p> _CustomInternalBody_|Leeg <p> `$null`|Leeg <p> `$null`|Leeg <p> `$null`||
+|**Meldingen aanpassen voor berichten van externe afzenders**||||Deze instellingen worden alleen gebruikt als externe **afzenders** op de hoogte worden gesteld wanneer berichten in quarantaine worden geplaatst als malware of Een beheerder informeren over **niet-bezorgde** berichten van externe afzenders is geselecteerd.|
+|**Onderwerp** <p> _CustomExternalSubject_|Leeg <p> `$null`|Leeg <p> `$null`|Leeg <p> `$null`||
+|**Bericht** <p> _CustomExternalBody_|Leeg <p> `$null`|Leeg <p> `$null`|Leeg <p> `$null`||
 |
 
 ### <a name="eop-anti-phishing-policy-settings"></a>EOP-anti-phishingbeleidsinstellingen
@@ -155,10 +184,13 @@ Zie Spoof-instellingen voor [meer informatie over deze instellingen.](set-up-ant
 
 |Naam van beveiligingsfunctie|Standaard|Standard|Strikt|Opmerking|
 |---|:---:|:---:|:---:|---|
-|**Spoof intelligence inschakelen** <p> _EnableSpoofIntelligence_|Aan <p> `$true`|Aan <p> `$true`|Aan <p> `$true`||
-|**Als e-mail wordt gedetecteerd als spoof** <p> _AuthenticationFailAction_|**Bericht verplaatsen naar de mappen ongewenste e-mail van de geadresseerden** <p> `MoveToJmf`|**Bericht verplaatsen naar de mappen ongewenste e-mail van de geadresseerden** <p> `MoveToJmf`|**Het bericht in quarantaine plaatsen** <p> `Quarantine`|Deze instelling is van toepassing op vervalste afzenders die automatisch zijn geblokkeerd, zoals wordt weergegeven in het inzicht in spoof [intelligence](learn-about-spoof-intelligence.md) of handmatig is geblokkeerd in de [lijst Tenant Allow/Block](tenant-allow-block-list.md).|
-|**Toon (?) voor niet-genauteerde afzenders voor spoofing** <p> _EnableUnauthenticatedSender_|Aan <p> `$true`|Aan <p> `$true`|Aan <p> `$true`|Hiermee wordt een vraagteken (?) toegevoegd aan de foto van de afzender in Outlook voor niet-geïdentificeerde vervalste afzenders. Zie [Instellingen voor adresvervalsing in anti-phishingbeleid](set-up-anti-phishing-policies.md) voor meer informatie.|
-|**Tag 'via' tonen** <p> _EnableViaTag_|Aan <p> `$true`|Aan <p> `$true`|Aan <p> `$true`|Hiermee voegt u een via-tag (chris@contoso.com via fabrikam.com) toe aan het Van-adres als deze verschilt van het domein in de DKIM-handtekening of het **MAIL FROM-adres.** <p> Als deze instelling niet beschikbaar is voor  u, worden het vraagteken en de via-tag beide beheerd door de instelling Tonen **(?)** voor niet-genauteerde afzenders voor spoofing in uw organisatie.|
+|**Phishing-drempelwaarde & beveiliging**|||||
+|**Spoof intelligence inschakelen** <p> _EnableSpoofIntelligence_|Geselecteerd <p> `$true`|Geselecteerd <p> `$true`|Geselecteerd <p> `$true`||
+|**Acties**|||||
+|**Als bericht wordt gedetecteerd als spoof** <p> _AuthenticationFailAction_|**Bericht verplaatsen naar de mappen ongewenste e-mail van de geadresseerden** <p> `MoveToJmf`|**Bericht verplaatsen naar de mappen ongewenste e-mail van de geadresseerden** <p> `MoveToJmf`|**Het bericht in quarantaine plaatsen** <p> `Quarantine`|Deze instelling is van toepassing op vervalste afzenders die automatisch zijn geblokkeerd, zoals wordt weergegeven in het inzicht in spoof [intelligence](learn-about-spoof-intelligence.md) of handmatig is geblokkeerd in de [lijst Tenant Allow/Block](tenant-allow-block-list.md).|
+|**Eerste contactpersoon veiligheidstip** <p> _EnableFirstContactSafetyTips_|Niet geselecteerd <p> `$false`|Geselecteerd <p> `$true`|Geselecteerd <p> `$true`|Zie Eerste contactpersoon voor meer [informatie veiligheidstip.](set-up-anti-phishing-policies.md#first-contact-safety-tip)|
+|**Toon (?) voor niet-genauteerde afzenders voor spoofing** <p> _EnableUnauthenticatedSender_|Geselecteerd <p> `$true`|Geselecteerd <p> `$true`|Geselecteerd <p> `$true`|Hiermee wordt een vraagteken (?) toegevoegd aan de foto van de afzender in Outlook voor niet-geïdentificeerde vervalste afzenders. Zie [Niet-genauteerde afzender voor meer informatie.](set-up-anti-phishing-policies.md#unauthenticated-sender)|
+|**Tag 'via' tonen** <p> _EnableViaTag_|Geselecteerd <p> `$true`|Geselecteerd <p> `$true`|Geselecteerd <p> `$true`|Hiermee voegt u een via-tag (chris@contoso.com via fabrikam.com) toe aan het Van-adres als deze verschilt van het domein in de DKIM-handtekening of het **MAIL FROM-adres.** <p> Zie [Niet-genauteerde afzender voor meer informatie.](set-up-anti-phishing-policies.md#unauthenticated-sender)|
 |
 
 ## <a name="microsoft-defender-for-office-365-security"></a>Microsoft Defender voor Office 365 beveiliging
@@ -177,47 +209,7 @@ Als uw abonnement Microsoft Defender voor Office 365 bevat of als u Defender voo
 
 ### <a name="anti-phishing-policy-settings-in-microsoft-defender-for-office-365"></a>Anti-phishingbeleidsinstellingen in Microsoft Defender voor Office 365
 
-EOP-klanten krijgen standaard anti-phishing zoals eerder beschreven, maar Microsoft Defender voor Office 365 bevat meer functies en controle om aanvallen te voorkomen, te detecteren en te herstellen. Zie [Anti-phishingbeleid](configure-mdo-anti-phishing-policies.md)configureren in Defender voor Office 365.
-
-#### <a name="impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Imitatie-instellingen in anti-phishingbeleid in Microsoft Defender voor Office 365
-
-Zie Instellingen voor imitatie in [anti-phishingbeleid in Microsoft Defender](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)voor Office 365. Zie [Anti-phishingbeleid](configure-mdo-anti-phishing-policies.md)configureren in Defender voor Office 365.
-
-<br>
-
-****
-
-|Naam van beveiligingsfunctie|Standaard|Standard|Strikt|Opmerking|
-|---|:---:|:---:|:---:|---|
-|Beveiligde gebruikers (afzenders): **Gebruikers inschakelen om te beveiligen** <p> _EnableTargetedUserProtection_ <p> _TargetedUsersToProtect_|Uit <p> `$false` <p> geen|Aan <p> `$true` <p> \<list of users\>|Aan <p> `$true` <p> \<list of users\>|Afhankelijk van uw organisatie wordt u aangeraden gebruikers (afzenders van berichten) toe te voegen aan belangrijke rollen. Intern kunnen beveiligde afzenders uw CEO, CFO en andere senior leaders zijn. Externe, beveiligde afzenders kunnen leden van de raad of uw raad van bestuur bevatten.|
-|Beveiligde gebruikers: **Als een bericht wordt gedetecteerd als een nagebootsde gebruiker** <p> _TargetedUserProtectionAction_|**Geen actie toepassen** <p> `NoAction`|**Het bericht in quarantaine plaatsen** <p> `Quarantine`|**Het bericht in quarantaine plaatsen** <p> `Quarantine`||
-|Beveiligde domeinen: **domeinen opnemen die ik bezit** <p> _EnableOrganizationDomainsProtection_|Uit <p> `$false`|Aan <p> `$true`|Aan <p> `$true`||
-|Beveiligde domeinen: **aangepaste domeinen opnemen** <p> _EnableTargetedDomainsProtection_ <p> _TargetedDomainsToProtect_|Uit <p> `$false` <p> geen|Aan <p> `$true` <p> \<list of domains\>|Aan <p> `$true` <p> \<list of domains\>|Afhankelijk van uw organisatie raden we u aan domeinen (afzenderdomeinen) toe te voegen die niet van u zijn, maar die u vaak gebruikt.|
-|Beveiligde domeinen: **als bericht wordt gedetecteerd als een nagebootsd domein** <p> _TargetedDomainProtectionAction_|**Geen actie toepassen** <p> `NoAction`|**Het bericht in quarantaine plaatsen** <p> `Quarantine`|**Het bericht in quarantaine plaatsen** <p> `Quarantine`||
-|**Vertrouwde afzenders en domeinen toevoegen** <p> _ExcludedSenders_ <p> _ExcludedDomains_|Geen|Geen|Geen|Afhankelijk van uw organisatie wordt u aangeraden afzenders of domeinen toe te voegen die onjuist zijn geïdentificeerd als imitatiepogingen.|
-|**Postvakintelligentie inschakelen** <p> _EnableMailboxIntelligence_|Aan <p> `$true`|Aan <p> `$true`|Aan <p> `$true`||
-|**Intelligentie inschakelen voor imitatiebeveiliging** <p> _EnableMailboxIntelligenceProtection_|Uit <p> `$false`|Aan <p> `$true`|Aan <p> `$true`|Met deze instelling kunt u de opgegeven actie voor imitatiedetecties door postvakinformatie instellen.|
-|**Als postvakinformatie gebruikers detecteert en nabootst** <p> _MailboxIntelligenceProtectionAction_|**Geen actie toepassen** <p> `NoAction`|**Bericht verplaatsen naar de mappen ongewenste e-mail van de geadresseerden** <p> `MoveToJmf`|**Het bericht in quarantaine plaatsen** <p> `Quarantine`||
-|**Gebruikers imiteren veiligheidstip** <p> _EnableSimilarUsersSafetyTips_|Uit <p> `$false`|Aan <p> `$true`|Aan <p> `$true`||
-|**Domein-imitatie veiligheidstip** <p> _EnableSimilarDomainsSafetyTips_|Uit <p> `$false`|Aan <p> `$true`|Aan <p> `$true`||
-|**Ongebruikelijke tekens voor gebruikers imiteren veiligheidstip** <p> _EnableUnusualCharactersSafetyTips_|Uit <p> `$false`|Aan <p> `$true`|Aan <p> `$true`||
-|
-
-#### <a name="spoof-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Spoofinstellingen in anti-phishingbeleid in Microsoft Defender voor Office 365
-
-Houd er rekening mee dat dit dezelfde instellingen zijn die beschikbaar zijn in de instellingen voor [antispambeleid in EOP.](#eop-anti-spam-policy-settings)
-
-<br>
-
-****
-
-|Naam van beveiligingsfunctie|Standaard|Standard|Strikt|Opmerking|
-|---|:---:|:---:|:---:|---|
-|**Spoof intelligence inschakelen** <p> _EnableSpoofIntelligence_|Aan <p> `$true`|Aan <p> `$true`|Aan <p> `$true`||
-|**Als e-mail wordt gedetecteerd als spoof** <p> _AuthenticationFailAction_|**Bericht verplaatsen naar de mappen ongewenste e-mail van de geadresseerden** <p> `MoveToJmf`|**Bericht verplaatsen naar de mappen ongewenste e-mail van de geadresseerden** <p> `MoveToJmf`|**Het bericht in quarantaine plaatsen** <p> `Quarantine`|Deze instelling is van toepassing op vervalste afzenders die automatisch zijn geblokkeerd, zoals wordt weergegeven in het inzicht in spoof [intelligence](learn-about-spoof-intelligence.md) of handmatig is geblokkeerd in de [lijst Tenant Allow/Block](tenant-allow-block-list.md).|
-|**Toon (?) voor niet-genauteerde afzenders voor spoofing** <p> _EnableUnauthenticatedSender_|Aan <p> `$true`|Aan <p> `$true`|Aan <p> `$true`|Hiermee wordt een vraagteken (?) toegevoegd aan de foto van de afzender in Outlook voor niet-geïdentificeerde vervalste afzenders. Zie [Instellingen voor adresvervalsing in anti-phishingbeleid](set-up-anti-phishing-policies.md) voor meer informatie.|
-|**Tag 'via' tonen** <p> _EnableViaTag_|Aan <p> `$true`|Aan <p> `$true`|Aan <p> `$true`|Hiermee voegt u een via-tag (chris@contoso.com via fabrikam.com) toe aan het Van-adres als deze verschilt van het domein in de DKIM-handtekening of het **MAIL FROM-adres.** <p> Als deze instelling niet beschikbaar is voor  u, worden het vraagteken en de via-tag beide beheerd door de instelling Tonen **(?)** voor niet-genauteerde afzenders voor spoofing in uw organisatie.|
-|
+EOP-klanten krijgen standaard anti-phishing zoals eerder beschreven, maar Defender voor Office 365 bevat meer functies en controle om aanvallen te voorkomen, te detecteren en te herstellen. Zie [Anti-phishingbeleid](configure-mdo-anti-phishing-policies.md)configureren in Defender voor Office 365.
 
 #### <a name="advanced-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Geavanceerde instellingen in anti-phishingbeleid in Microsoft Defender voor Office 365
 
@@ -230,6 +222,95 @@ Zie Advanced [phishing thresholds in anti-phishing policies in Microsoft Defende
 |Naam van beveiligingsfunctie|Standaard|Standard|Strikt|Opmerking|
 |---|:---:|:---:|:---:|---|
 |**Drempelwaarde voor phishing-e-mail** <p> _PhishThresholdLevel_|**1 - Standaard** <p> `1`|**2 - Agressief** <p> `2`|**3 - Agressiever** <p> `3`||
+|
+
+#### <a name="impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Imitatie-instellingen in anti-phishingbeleid in Microsoft Defender voor Office 365
+
+Zie Instellingen voor imitatie in [anti-phishingbeleid in Microsoft Defender](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)voor Office 365. Zie [Anti-phishingbeleid](configure-mdo-anti-phishing-policies.md)configureren in Defender voor Office 365.
+
+<br>
+
+****
+
+|Naam van beveiligingsfunctie|Standaard|Standard|Strikt|Opmerking|
+|---|:---:|:---:|:---:|---|
+|**Phishing-drempelwaarde & beveiliging**|||||
+|**Gebruikers inschakelen om te beveiligen** (gebruikersbeveiliging die wordt nagebootsd)<p> _EnableTargetedUserProtection_ <p> _TargetedUsersToProtect_|Niet geselecteerd <p> `$false` <p> geen|Geselecteerd <p> `$true` <p> \<list of users\>|Geselecteerd <p> `$true` <p> \<list of users\>|Het is raadzaam gebruikers (afzenders van berichten) toe te voegen aan belangrijke rollen. Intern kunnen beveiligde afzenders uw CEO, CFO en andere senior leaders zijn. Externe, beveiligde afzenders kunnen leden van de raad of uw raad van bestuur bevatten.|
+|**Domeinen beveiligen** (nagebootsd domeinbeveiliging) inschakelen|Niet geselecteerd|Geselecteerd|Geselecteerd||
+|**Domeinen opnemen die ik bezit** <p> _EnableOrganizationDomainsProtection_|Uit <p> `$false`|Geselecteerd <p> `$true`|Geselecteerd <p> `$true`||
+|**Aangepaste domeinen opnemen** <p> _EnableTargetedDomainsProtection_ <p> _TargetedDomainsToProtect_|Uit <p> `$false` <p> geen|Geselecteerd <p> `$true` <p> \<list of domains\>|Geselecteerd <p> `$true` <p> \<list of domains\>|We raden u aan domeinen (afzenderdomeinen) toe te voegen die niet van u zijn, maar die u vaak gebruikt.|
+|**Vertrouwde afzenders en domeinen toevoegen** <p> _ExcludedSenders_ <p> _ExcludedDomains_|Geen|Geen|Geen|Afhankelijk van uw organisatie wordt u aangeraden afzenders of domeinen toe te voegen die onjuist zijn geïdentificeerd als imitatiepogingen.|
+|**Postvakintelligentie inschakelen** <p> _EnableMailboxIntelligence_|Geselecteerd <p> `$true`|Geselecteerd <p> `$true`|Geselecteerd <p> `$true`||
+|**Intelligentie inschakelen voor imitatiebeveiliging** <p> _EnableMailboxIntelligenceProtection_|Uit <p> `$false`|Geselecteerd <p> `$true`|Geselecteerd <p> `$true`|Met deze instelling kunt u de opgegeven actie voor imitatiedetecties door postvakinformatie instellen.|
+|**Acties**|||||
+|**Als bericht wordt gedetecteerd als een nagebootsde gebruiker** <p> _TargetedUserProtectionAction_|**Geen actie toepassen** <p> `NoAction`|**Het bericht in quarantaine plaatsen** <p> `Quarantine`|**Het bericht in quarantaine plaatsen** <p> `Quarantine`||
+|**Als bericht wordt gedetecteerd als een nagebootsd domein** <p> _TargetedDomainProtectionAction_|**Geen actie toepassen** <p> `NoAction`|**Het bericht in quarantaine plaatsen** <p> `Quarantine`|**Het bericht in quarantaine plaatsen** <p> `Quarantine`||
+|**Als postvakinformatie gebruikers detecteert en nabootst** <p> _MailboxIntelligenceProtectionAction_|**Geen actie toepassen** <p> `NoAction`|**Bericht verplaatsen naar de mappen ongewenste e-mail van de geadresseerden** <p> `MoveToJmf`|**Het bericht in quarantaine plaatsen** <p> `Quarantine`||
+|**Gebruikers imiteren veiligheidstip** <p> _EnableSimilarUsersSafetyTips_|Uit <p> `$false`|Geselecteerd <p> `$true`|Geselecteerd <p> `$true`||
+|**Domein-imitatie veiligheidstip** <p> _EnableSimilarDomainsSafetyTips_|Uit <p> `$false`|Geselecteerd <p> `$true`|Geselecteerd <p> `$true`||
+|**Ongebruikelijke tekens voor gebruikers imiteren veiligheidstip** <p> _EnableUnusualCharactersSafetyTips_|Uit <p> `$false`|Geselecteerd <p> `$true`|Geselecteerd <p> `$true`||
+|
+
+#### <a name="eop-anti-phishing-policy-settings-in-microsoft-defender-for-office-365"></a>EOP anti-phishingbeleidsinstellingen in Microsoft Defender voor Office 365
+
+Dit zijn dezelfde instellingen die beschikbaar zijn in de instellingen voor [antispambeleid in EOP.](#eop-anti-spam-policy-settings)
+
+De spoofinstellingen zijn onderling gerelateerd, maar de instelling Eerste **contactpersoon** veiligheidstip is niet afhankelijk van spoofinstellingen.
+
+<br>
+
+****
+
+|Naam van beveiligingsfunctie|Standaard|Standard|Strikt|Opmerking|
+|---|:---:|:---:|:---:|---|
+|**Phishing-drempelwaarde & beveiliging**|||||
+|**Spoof intelligence inschakelen** <p> _EnableSpoofIntelligence_|Geselecteerd <p> `$true`|Geselecteerd <p> `$true`|Geselecteerd <p> `$true`||
+|**Acties**|||||
+|**Als bericht wordt gedetecteerd als spoof** <p> _AuthenticationFailAction_|**Bericht verplaatsen naar de mappen ongewenste e-mail van de geadresseerden** <p> `MoveToJmf`|**Bericht verplaatsen naar de mappen ongewenste e-mail van de geadresseerden** <p> `MoveToJmf`|**Het bericht in quarantaine plaatsen** <p> `Quarantine`|Deze instelling is van toepassing op vervalste afzenders die automatisch zijn geblokkeerd, zoals wordt weergegeven in het inzicht in spoof [intelligence](learn-about-spoof-intelligence.md) of handmatig is geblokkeerd in de [lijst Tenant Allow/Block](tenant-allow-block-list.md).|
+|**Eerste contactpersoon veiligheidstip** <p> _EnableFirstContactSafetyTips_|Niet geselecteerd <p> `$false`|Geselecteerd <p> `$true`|Geselecteerd <p> `$true`|Zie Eerste contactpersoon voor meer [informatie veiligheidstip.](set-up-anti-phishing-policies.md#first-contact-safety-tip)|
+|**Toon (?) voor niet-genauteerde afzenders voor spoofing** <p> _EnableUnauthenticatedSender_|Geselecteerd <p> `$true`|Geselecteerd <p> `$true`|Geselecteerd <p> `$true`|Hiermee wordt een vraagteken (?) toegevoegd aan de foto van de afzender in Outlook voor niet-geïdentificeerde vervalste afzenders. Zie [Niet-genauteerde afzender voor meer informatie.](set-up-anti-phishing-policies.md#unauthenticated-sender)|
+|**Tag 'via' tonen** <p> _EnableViaTag_|Geselecteerd <p> `$true`|Geselecteerd <p> `$true`|Geselecteerd <p> `$true`|Hiermee voegt u een via-tag (chris@contoso.com via fabrikam.com) toe aan het Van-adres als deze verschilt van het domein in de DKIM-handtekening of het **MAIL FROM-adres.** <p> Zie [Niet-genauteerde afzender voor meer informatie.](set-up-anti-phishing-policies.md#unauthenticated-sender)|
+|
+
+### <a name="safe-attachments-settings"></a>Safe Instellingen voor bijlagen
+
+Safe Bijlagen in Microsoft Defender voor Office 365 bevat algemene instellingen die geen relatie hebben met Safe Bijlagen-beleid en instellingen die specifiek zijn voor elk Safe Koppelingenbeleid. Zie bijlagen in [Defender voor Safe voor meer Office 365.](safe-attachments.md)
+
+#### <a name="global-settings-for-safe-attachments"></a>Algemene instellingen voor Safe bijlagen
+
+Als u deze instellingen wilt configureren, gaat u naar Safe Bijlagen in [SharePoint, OneDrive en Microsoft Teams](turn-on-mdo-for-spo-odb-and-teams.md) en [Safe Documenten in](safe-docs.md)Microsoft 365 E5.
+
+In PowerShell gebruikt u de [set-AtpPolicyForO365-cmdlet](/powershell/module/exchange/set-atppolicyforo365) voor deze instellingen.
+
+<br>
+
+****
+
+|Naam van beveiligingsfunctie|Standaard|Standard|Strikt|Opmerking|
+|---|:---:|:---:|:---:|---|
+|**Defender voor Office 365 inschakelen voor SharePoint, OneDrive en Microsoft Teams** <p> _EnableATPForSPOTeamsODB_|Uit <p> `$false`|Aan <p> `$true`|Aan <p> `$true`||
+|**Documenten in Safe voor Office-clients** <p> _EnableSafeDocs_|Uit <p> `$false`|Aan <p> `$true`|Aan <p> `$true`|Deze functie is alleen beschikbaar en zinvol met Microsoft 365 E5 of Microsoft 365 E5 Security licenties. Zie voor meer informatie [Safe Documenten in Microsoft Defender voor Office 365.](safe-docs.md)|
+|**Toestaan dat personen door de beveiligde weergave kunnen klikken, zelfs Safe documenten het bestand als schadelijk hebben geïdentificeerd** <p> _AllowSafeDocsOpen_|Uit <p> `$false`|Uit <p> `$false`|Uit <p> `$false`|Deze instelling is gerelateerd aan Safe Documenten.|
+|
+
+#### <a name="safe-attachments-policy-settings"></a>Safe Instellingen voor bijlagenbeleid
+
+Als u deze instellingen wilt configureren, gaat u naar Het beleid Safe [Bijlagen instellen in Defender voor Office 365.](set-up-safe-attachments-policies.md)
+
+In PowerShell gebruikt u de [cmdlets New-SafeAttachmentPolicy](/powershell/module/exchange/new-safeattachmentpolicy) en [Set-SafeAttachmentPolicy](/powershell/module/exchange/set-safelinkspolicy) voor deze instellingen.
+
+> [!NOTE]
+> Zoals eerder is beschreven, is er geen standaardinstelling Safe bijlagenbeleid. De waarden in de kolom Standaard zijn de standaardwaarden in nieuwe Safe bijlagen die u maakt.
+
+<br>
+
+****
+
+|Naam van beveiligingsfunctie|Standaard|Standard|Strikt|Opmerking|
+|---|:---:|:---:|:---:|---|
+|**Safe Attachments unknown malware response** <p> _Actie_|**Uit** <p> `Block`|**Blokkeren** <p> `Block`|**Blokkeren** <p> `Block`||
+|**Bijlage omleiden met gedetecteerde bijlagen** : **Omleiding inschakelen** <p> _Redirect_ <p> _RedirectAddress_|Niet geselecteerd en geen e-mailadres opgegeven. <p> `$true` <p> geen|Selecteer en geef een e-mailadres op. <p> `$true` <p> een e-mailadres|Selecteer en geef een e-mailadres op. <p> `$true` <p> een e-mailadres|Berichten omleiden naar een beveiligingsbeheerder voor controle.|
+|**De detectiereactie Safe bijlagen toepassen als scannen niet kan worden voltooid (time-out of fouten)** <p> _ActionOnError_|Geselecteerd <p> `$true`|Geselecteerd <p> `$true`|Geselecteerd <p> `$true`||
 |
 
 ### <a name="safe-links-settings"></a>Safe Koppelingeninstellingen
@@ -248,7 +329,8 @@ In PowerShell gebruikt u de [set-AtpPolicyForO365-cmdlet](/powershell/module/exc
 
 |Naam van beveiligingsfunctie|Standaard|Standard|Strikt|Opmerking|
 |---|:---:|:---:|:---:|---|
-|**Koppelingen Safe gebruiken in: Office 365 apps** <p> _EnableSafeLinksForO365Clients_|Aan <p> `$true`|Aan <p> `$true`|Aan <p> `$true`|Gebruik Safe Koppelingen in ondersteunde Office 365 desktop- en mobiele apps (iOS en Android). Zie de instellingen voor koppelingen Safe voor Office 365 [voor meer informatie.](safe-links.md#safe-links-settings-for-office-365-apps)|
+|**De volgende URL's blokkeren** <p> _ExcludedUrls_|Leeg <p> `$null`|Leeg <p> `$null`|Leeg <p> `$null`|We hebben geen specifieke aanbeveling voor deze instelling. <p> Zie 'De volgende [URL's blokkeren'](safe-links.md#block-the-following-urls-list-for-safe-links)voor meer Safe koppelingen.
+|**Koppelingen Safe gebruiken in Office 365 apps** <p> _EnableSafeLinksForO365Clients_|Aan <p> `$true`|Aan <p> `$true`|Aan <p> `$true`|Gebruik Safe Koppelingen in ondersteunde Office 365 desktop- en mobiele apps (iOS en Android). Zie de instellingen voor koppelingen Safe voor Office 365 [voor meer informatie.](safe-links.md#safe-links-settings-for-office-365-apps)|
 |**Niet bijhouden wanneer gebruikers klikken op beveiligde koppelingen in Office 365 apps** <p> _TrackClicks_|Aan <p> `$false`|Uit <p> `$true`|Uit <p> `$true`|Als u deze instelling uit schakelen _(trackclicks_ instellen op) worden `$true` gebruikersklikken in ondersteunde Office 365 bij.|
 |**Laat gebruikers niet doorklikken naar de oorspronkelijke URL in Office 365 apps** <p> _AllowClickThrough_|Aan <p> `$false`|Aan <p> `$false`|Aan <p> `$false`|Door deze instelling in te stellen _(allowClickThrough_ in te stellen) wordt voorkomen dat doorklikken naar de oorspronkelijke URL in ondersteunde `$false` Office 365 apps.|
 |
@@ -268,54 +350,18 @@ In PowerShell gebruikt u de [cmdlets New-SafeLinksPolicy](/powershell/module/exc
 
 |Naam van beveiligingsfunctie|Standaard|Standard|Strikt|Opmerking|
 |---|:---:|:---:|:---:|---|
-|**Selecteer de actie voor onbekende potentieel schadelijke URL's in berichten** <p> _IsEnabled_|Uit <p> `$false`|Aan <p> `$true`|Aan <p> `$true`||
-|**Selecteer de actie voor onbekende of potentieel schadelijke URL's binnen Microsoft Teams** <p> _EnableSafeLinksForTeams_|Uit <p> `$false`|Aan <p> `$true`|Aan <p> `$true`||
-|**Realtime URL-scan toepassen op verdachte koppelingen en koppelingen die naar bestanden wijzen** <p> _ScanUrls_|Uit <p> `$false`|Aan <p> `$true`|Aan <p> `$true`||
-|**Wacht totdat URL-scannen is voltooid voordat u het bericht bezorgt** <p> _DeliverMessageAfterScan_|Uit <p> `$false`|Aan <p> `$true`|Aan <p> `$true`||
-|**Koppelingen Safe toepassen op e-mailberichten die binnen de organisatie zijn verzonden** <p> _EnableForInternalSenders_|Uit <p> `$false`|Aan <p> `$true`|Aan <p> `$true`||
-|**Gebruikersklikken niet bijhouden** <p> _DoNotTrackUserClicks_|Uit <p> `$false`|Uit <p> `$false`|Uit <p> `$false`|Als u deze instelling uit schakelen _(doNotTrackUserClicks_ instellen `$false` op) worden gebruikersklikken bij de gebruiker bij de muisaanklikken bij het volgen van de muisklikken.|
-|**Gebruikers niet toestaan door te klikken naar de oorspronkelijke URL** <p> _DoNotAllowClickThrough_|Uit <p> `$false`|Aan <p> `$true`|Aan <p> `$true`|Door deze instelling in te stellen _(doNotAllowClickThrough_ in te stellen) wordt voorkomen dat u `$true` doorklikt naar de oorspronkelijke URL.|
-|
-
-### <a name="safe-attachments-settings"></a>Safe Instellingen voor bijlagen
-
-Safe Bijlagen in Microsoft Defender voor Office 365 bevat algemene instellingen die geen relatie hebben met Safe Bijlagen-beleid en instellingen die specifiek zijn voor elk Safe Koppelingenbeleid. Zie bijlagen in [Defender voor Safe voor meer Office 365.](safe-attachments.md)
-
-#### <a name="global-settings-for-safe-attachments"></a>Algemene instellingen voor Safe bijlagen
-
-Als u deze instellingen wilt configureren, gaat u naar Safe Bijlagen in [SharePoint, OneDrive en Microsoft Teams](turn-on-mdo-for-spo-odb-and-teams.md) en [Safe Documenten in](safe-docs.md)Microsoft 365 E5.
-
-In PowerShell gebruikt u de [set-AtpPolicyForO365-cmdlet](/powershell/module/exchange/set-atppolicyforo365) voor deze instellingen.
-
-<br>
-
-****
-
-|Naam van beveiligingsfunctie|Standaard|Standard|Strikt|Opmerking|
-|---|:---:|:---:|:---:|---|
-|**Defender voor Office 365 inschakelen voor SharePoint, OneDrive en Microsoft Teams** <p> _EnableATPForSPOTeamsODB_|Aan <p> `$true`|Aan <p> `$true`||
-|**Documenten in Safe voor Office-clients** <p> _EnableSafeDocs_|Aan <p> `$true`|Aan <p> `$true`|Deze instelling is alleen beschikbaar met Microsoft 365 E5 of Microsoft 365 E5 Security licenties. Zie voor meer informatie [Safe Documenten in Microsoft Defender voor Office 365.](safe-docs.md)|
-|**Toestaan dat personen door de beveiligde weergave kunnen klikken, zelfs Safe documenten het bestand als schadelijk hebben geïdentificeerd** <p> _AllowSafeDocsOpen_|Uit <p> `$false`|Uit <p> `$false`|Deze instelling is gerelateerd aan Safe Documenten.|
-|
-
-#### <a name="safe-attachments-policy-settings"></a>Safe Instellingen voor bijlagenbeleid
-
-Als u deze instellingen wilt configureren, gaat u naar Het beleid Safe [Bijlagen instellen in Defender voor Office 365.](set-up-safe-attachments-policies.md)
-
-In PowerShell gebruikt u de [cmdlets New-SafeAttachmentPolicy](/powershell/module/exchange/new-safeattachmentpolicy) en [Set-SafeAttachmentPolicy](/powershell/module/exchange/set-safelinkspolicy) voor deze instellingen.
-
-> [!NOTE]
-> Zoals eerder is beschreven, is er geen standaardinstelling Safe bijlagenbeleid. De waarden in de kolom Standaard zijn de standaardwaarden in nieuwe Safe bijlagen die u maakt.
-
-<br>
-
-****
-
-|Naam van beveiligingsfunctie|Standaard|Standard|Strikt|Opmerking|
-|---|:---:|:---:|:---:|---|
-|**Safe Attachments unknown malware response** <p> _Actie_|Blokkeren <p> `Block`|Blokkeren <p> `Block`|Blokkeren <p> `Block`||
-|**Bijlage omleiden bij detectie:** **Omleiding inschakelen** <p> _Redirect_ <p> _RedirectAddress_|Uit en geen e-mailadres opgegeven. <p> `$true` <p> geen|Aan en geef een e-mailadres op. <p> `$true` <p> een e-mailadres|Aan en geef een e-mailadres op. <p> `$true` <p> een e-mailadres|Berichten omleiden naar een beveiligingsbeheerder voor controle.|
-|**Pas de bovenstaande selectie toe als er malware wordt gescand op bijlagen of als er een fout optreedt.** <p> _ActionOnError_|Aan <p> `$true`|Aan <p> `$true`|Aan <p> `$true`||
+|**Beveiligingsinstellingen**|||||
+|**Selecteer de actie voor onbekende potentieel schadelijke URL's in berichten** <p> _IsEnabled_|**Uit** <p> `$false`|**Aan** <p> `$true`|**Aan** <p> `$true`||
+|**Selecteer de actie voor onbekende of potentieel schadelijke URL's binnen Microsoft Teams** <p> _EnableSafeLinksForTeams_|**Uit** <p> `$false`|**Aan** <p> `$true`|**Aan** <p> `$true`|Vanaf maart 2020 is deze functie beschikbaar in Preview en is alleen beschikbaar of alleen voor leden van het Microsoft Teams Technology Adoption Program (TAP).|
+|**Realtime URL-scan toepassen op verdachte koppelingen en koppelingen die naar bestanden wijzen** <p> _ScanUrls_|Niet geselecteerd <p> `$false`|Geselecteerd <p> `$true`|Geselecteerd <p> `$true`||
+|**Wacht totdat URL-scannen is voltooid voordat u het bericht bezorgt** <p> _DeliverMessageAfterScan_|Niet geselecteerd <p> `$false`|Geselecteerd <p> `$true`|Geselecteerd <p> `$true`||
+|**Koppelingen Safe toepassen op e-mailberichten die binnen de organisatie zijn verzonden** <p> _EnableForInternalSenders_|Niet geselecteerd <p> `$false`|Geselecteerd <p> `$true`|Geselecteerd <p> `$true`||
+|**Gebruikersklikken niet bijhouden** <p> _DoNotTrackUserClicks_|Niet geselecteerd <p> `$false`|Niet geselecteerd <p> `$false`|Niet geselecteerd <p> `$false`|Als u deze instelling uit schakelen _(doNotTrackUserClicks_ instellen `$false` op) worden gebruikersklikken bij de gebruiker bij de muisaanklikken bij het volgen van de muisklikken.|
+|**Laat gebruikers niet doorklikken naar de oorspronkelijke URL** <p> _DoNotAllowClickThrough_|Niet geselecteerd <p> `$false`|Geselecteerd <p> `$true`|Geselecteerd <p> `$true`|Door deze instelling in te stellen _(doNotAllowClickThrough_ in te stellen) wordt voorkomen dat u `$true` doorklikt naar de oorspronkelijke URL.|
+|**De huisstijl van de organisatie weergeven op meldings- en waarschuwingspagina's** <p> _EnableOrganizationBranding_|Niet geselecteerd <p> `$false`|Niet geselecteerd <p> `$false`|Niet geselecteerd <p> `$false`|We hebben geen specifieke aanbeveling voor deze instelling. <p> Voordat u deze instelling in gebruikt, moet u de instructies volgen in Het thema [Microsoft 365](../../admin/setup/customize-your-organization-theme.md) voor uw organisatie aanpassen om uw bedrijfslogo te uploaden.|
+|**De volgende URL's niet opnieuw schrijven** <p> _DoNotRewriteUrls_|Niet geselecteerd <p> `$false`|Niet geselecteerd <p> `$true`|Niet geselecteerd <p> `$true`|We hebben geen specifieke aanbeveling voor deze instelling. Zie 'De volgende [URL's niet](safe-links.md#do-not-rewrite-the-following-urls-lists-in-safe-links-policies)opnieuw schrijven' in Safe Koppelingenbeleid voor meer informatie.|
+|**Melding**|||||
+|**Hoe wilt u uw gebruikers op de hoogte stellen?**|**De standaardmeldingstekst gebruiken**|**De standaardmeldingstekst gebruiken**|**De standaardmeldingstekst gebruiken**|We hebben geen specifieke aanbeveling voor deze instelling. <p> U kunt Aangepaste **meldingstekst gebruiken** _(CustomNotificationText)_ selecteren om aangepaste meldingstekst in te voeren die u wilt gebruiken. U kunt ook Gebruik Microsoft Translator voor automatische **lokalisatie** _(UseTranslatedNotificationText)_ selecteren om de aangepaste meldingstekst te vertalen naar de taal van de gebruiker.
 |
 
 ## <a name="related-articles"></a>Verwante artikelen

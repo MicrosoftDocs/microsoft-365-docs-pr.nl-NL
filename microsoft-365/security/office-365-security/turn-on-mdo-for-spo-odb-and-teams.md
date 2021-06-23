@@ -20,12 +20,12 @@ description: Beheerders kunnen leren hoe u Safe bijlagen in kunt SharePoint, One
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a654db40e5dec8d23d07ec7455216fe4e0a8c0e7
-ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
+ms.openlocfilehash: b64b3cfb29b3be999c9e26804e35dc4d02e48fbb
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52933009"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083090"
 ---
 # <a name="turn-on-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams"></a>Veilige bijlagen uitschakelen voor SharePoint, OneDrive en Microsoft Teams
 
@@ -43,7 +43,7 @@ Dit artikel bevat de stappen voor het in- en configureren van Safe bijlagen voor
 
 - U opent de Microsoft 365 Defender-portal bij <https://security.microsoft.com>. Als u rechtstreeks naar de pagina Safe **bijlagen wilt** gaan, opent u <https://security.microsoft.com/safeattachmentv2> .
 
-- Als u Safe bijlagen voor SharePoint, OneDrive en Microsoft Teams wilt in- of uit- zetten, moet  u  lid zijn van de rollengroepen Organisatiebeheer of Beveiligingsbeheerder in de Microsoft 365 Defender-portal. Zie Machtigingen [in de portal Microsoft 365 Defender voor meer informatie.](permissions-in-the-security-and-compliance-center.md)
+- Als u Safe bijlagen voor SharePoint, OneDrive en Microsoft Teams wilt in- of uit te zetten, moet  u  lid zijn van de rollengroepen Organisatiebeheer of Beveiligingsbeheerder in de Microsoft 365 Defender portal. Zie [Machtigingen in de Microsoft 365 Defender-portal](permissions-microsoft-365-security-center.md) voor meer informatie.
 
 - Als u SharePoint Online PowerShell wilt gebruiken om te voorkomen dat personen [](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-administrator--company-administrator) schadelijke bestanden downloaden, moet u lid zijn van de hoofdbeheerder of SharePoint [beheerdersrollen](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#sharepoint-administrator) in Azure AD.
 
@@ -51,9 +51,9 @@ Dit artikel bevat de stappen voor het in- en configureren van Safe bijlagen voor
 
 - Laat de instellingen maximaal 30 minuten van kracht worden.
 
-## <a name="step-1-use-the-microsoft-365-defender-portal-to-turn-on-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams"></a>Stap 1: Gebruik de Microsoft 365 Defender-portal om Safe bijlagen in te SharePoint, OneDrive en Microsoft Teams
+## <a name="step-1-use-the-microsoft-365-defender-portal-to-turn-on-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams"></a>Stap 1: Gebruik de Microsoft 365 Defender portal om Safe bijlagen in te SharePoint, OneDrive en Microsoft Teams
 
-1. Ga in Microsoft 365 Defender-portal naar De sectie **Beleidsregels &** beleidsregels voor bedreigingsbeleid Safe \>  \>  \> **Bijlagen.**
+1. Ga in Microsoft 365 Defender portal naar De sectie **Beleidsregels &** beleidsregels voor bedreigingsbeleid \>  \>  \> **Safe Bijlagen.**
 
 2. Klik op **Safe pagina Bijlagen** op Algemene **instellingen.**
 
@@ -92,11 +92,11 @@ Set-SPOTenant -DisallowInfectedFileDownload $true
 
 Zie [Set-SPOTenant](/powershell/module/sharepoint-online/Set-SPOTenant)voor gedetailleerde syntaxis- en parametergegevens.
 
-## <a name="step-3-recommended-use-the-microsoft-365-defender-portal-to-create-an-alert-policy-for-detected-files"></a>Stap 3 (Aanbevolen) Gebruik Microsoft 365 Defender-portal om een waarschuwingsbeleid te maken voor gedetecteerde bestanden
+## <a name="step-3-recommended-use-the-microsoft-365-defender-portal-to-create-an-alert-policy-for-detected-files"></a>Stap 3 (Aanbevolen) Gebruik de Microsoft 365 Defender portal om een waarschuwingsbeleid te maken voor gedetecteerde bestanden
 
-U kunt een waarschuwingsbeleid maken waarin u en andere beheerders worden gewaarschuwd wanneer Safe Bijlagen voor SharePoint, OneDrive en Microsoft Teams een schadelijk bestand detecteert. Zie Activiteitswaarschuwingen maken in de Defender-portal Microsoft 365 [meer informatie over waarschuwingen.](../../compliance/create-activity-alerts.md)
+U kunt een waarschuwingsbeleid maken waarin u en andere beheerders worden gewaarschuwd wanneer Safe Bijlagen voor SharePoint, OneDrive en Microsoft Teams een schadelijk bestand detecteert. Zie Activiteitswaarschuwingen maken in de Microsoft 365 Defender [voor meer informatie over waarschuwingen.](../../compliance/create-activity-alerts.md)
 
-1. Ga in Microsoft 365 Defender-portal naar **Beleidsregels & beleid waarschuwen** \> **of** <https://security.microsoft.com/alertpolicies> openen.
+1. Ga in Microsoft 365 Defender portal naar **Beleidsregels & beleid voor** waarschuwingen \> **of** open <https://security.microsoft.com/alertpolicies> .
 
 2. Klik op **de pagina Waarschuwingsbeleid** op **Nieuw waarschuwingsbeleid.**
 
@@ -106,19 +106,19 @@ U kunt een waarschuwingsbeleid maken waarin u en andere beheerders worden gewaar
    - **Ernst:** Selecteer **Laag,** **Gemiddeld** of **Hoog** in de vervolgkeuzelijst.
    - **Categorie:** Selecteer **Bedreigingsbeheer** in de vervolgkeuzelijst.
 
-   Wanneer u gereed bent, klikt u op **Volgende**.
+   Wanneer je klaar bent, klik je op **Volgende**.
 
 4. Configureer **op de pagina Waarschuwingsinstellingen** maken de volgende instellingen:
    - **Waar wilt u op waarschuwen?** sectie \> **Activiteit is** \> Selecteer **Gedetecteerde malware in bestand in** de vervolgkeuzelijst.
    - **Hoe wilt u dat de waarschuwing wordt geactiveerd?** sectie: De standaardwaarde verlaten **Telkens als een activiteit overeenkomt met de geselecteerde** regel.
 
-   Wanneer u gereed bent, klikt u op **Volgende**.
+   Wanneer je klaar bent, klik je op **Volgende**.
 
 5. Configureer op de pagina Uw **geadresseerden** instellen de volgende instellingen:
    - Controleer **of E-mailmeldingen verzenden** is geselecteerd. Selecteer in het vak E-mailontvangers een of meer globale beheerders, beveiligingsbeheerders of **beveiligingslezers** die een melding moeten ontvangen wanneer een schadelijk bestand wordt gedetecteerd.
    - **Dagelijkse meldingslimiet:** Laat de standaardwaarde **Geen limiet** geselecteerd.
 
-   Wanneer u gereed bent, klikt u op **Volgende**.
+   Wanneer je klaar bent, klik je op **Volgende**.
 
 6. Controleer op **de pagina Uw instellingen** controleren uw instellingen. U kunt in elke sectie **Bewerken** selecteren om de instellingen in de sectie te wijzigen. U kunt ook op **Terug** klikken of de specifieke pagina in de wizard selecteren.
 
@@ -142,7 +142,7 @@ Zie [New-ActivityAlert](/powershell/module/exchange/new-activityalert)voor gedet
 
 - Als u wilt controleren of u Safe bijlagen voor SharePoint, OneDrive en Microsoft Teams hebt ingeschakeld, gebruikt u een van de volgende stappen:
 
-  - Ga in de Microsoft 365 Defender-portal  naar de sectie Beleidsregels & regels \>  \>  \> **Bedreigingsbeleidsbeleid Safe** Bijlagen, selecteer Globale  instellingen en controleer de waarde van de instelling Defender in Office 365 voor SharePoint, OneDrive en Microsoft Teams.
+  - Ga in de Microsoft 365 Defender-portal  naar de sectie Beleidsregels & regels Beleidsbeleid Safe Bijlagen, selecteer Globale instellingen en controleer de waarde van de instelling Defender in Office 365 voor SharePoint, OneDrive en \>  \>  \>  **Microsoft Teams.** 
 
   - Voer Exchange Online PowerShell de volgende opdracht uit om de eigenschapsinstelling te verifiëren:
 
@@ -161,8 +161,8 @@ Zie [New-ActivityAlert](/powershell/module/exchange/new-activityalert)voor gedet
   Zie [Get-SPOTenant](/powershell/module/sharepoint-online/Set-SPOTenant)voor gedetailleerde syntaxis- en parametergegevens.
 
 - Als u wilt controleren of u een waarschuwingsbeleid voor gedetecteerde bestanden hebt geconfigureerd, gebruikt u een van de volgende stappen:
-  - Ga in Microsoft 365 Defender-portal naar **Beleidsregels &** waarschuwingsbeleid selecteer het \>  \> waarschuwingsbeleid en controleer de instellingen.
-  - Vervang Microsoft 365 Defender-portal PowerShell door de naam van het waarschuwingsbeleid, voer de volgende opdracht uit en \<AlertPolicyName\> controleer de eigenschapswaarden:
+  - Ga in Microsoft 365 Defender portal naar Beleidsregels **& waarschuwingsbeleid** selecteer het \>  \> waarschuwingsbeleid en controleer de instellingen.
+  - Vervang Microsoft 365 Defender portal PowerShell door de naam van het waarschuwingsbeleid, voer de volgende opdracht uit en \<AlertPolicyName\> controleer de eigenschapswaarden:
 
     ```powershell
     Get-ActivityAlert -Identity "<AlertPolicyName>"

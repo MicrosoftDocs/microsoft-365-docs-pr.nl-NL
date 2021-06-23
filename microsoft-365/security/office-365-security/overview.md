@@ -16,12 +16,12 @@ ms.collection:
 description: Beveiliging in Office 365, van EOP tot Defender voor Office 365-abonnementen 1 en 2, standaard- en strikte beveiligingsconfiguraties en meer. Begrijpen wat u hebt en hoe u uw eigendommen kunt beveiligen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6ecdfe324ded6224745b0e2eac087e432ac76c83
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: db458f0a3a3ac2cc4a06d0827844e156798f6505
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52930245"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083654"
 ---
 # <a name="microsoft-defender-for-office-365-security-overview"></a>Microsoft Defender voor Office 365 beveiligingsoverzicht
 
@@ -112,7 +112,7 @@ Voordelen van **Defender voor Office 365, abonnement 2** (tot nu toe):
 
 Microsoft Defender voor Office 365 P2 voegt dus toe aan de kant van ***onderzoek en reactie*** en voegt nieuwe opsporingskracht toe. Automatisering.
 
-In Microsoft Defender voor Office 365 P2 wordt het primaire opsporingshulpprogramma **Threat Explorer** genoemd in plaats van realtime-detectie. Als u Threat Explorer ziet wanneer u naar de Microsoft 365 Defender-portal navigeert, bent u in Microsoft Defender voor Office 365 P2.
+In Microsoft Defender voor Office 365 P2 wordt het primaire opsporingshulpprogramma **Threat Explorer** genoemd in plaats van realtime-detectie. Als u Threat Explorer ziet wanneer u naar de Microsoft 365 Defender portal navigeert, bent u in Microsoft Defender voor Office 365 P2.
 
 Als u meer wilt weten over Microsoft Defender voor Office 365 P1 en P2, **[gaat u naar dit artikel](defender-for-office-365.md)**.
 
@@ -125,7 +125,7 @@ Deze beknopte informatie geeft inzicht in de mogelijkheden van elk Microsoft Def
 
 |Defender voor Office 365 Abonnement 1|Defender voor Office 365 Abonnement 2|
 |---|---|
-|Functies voor configuratie, beveiliging en detectie: <ul><li>[Veilige bijlagen](safe-attachments.md)</li><li>[Veilige koppelingen](safe-links.md)</li><li>[Veilige bijlagen voor SharePoint, OneDrive en Microsoft Teams](mdo-for-spo-odb-and-teams.md)</li><li>[Bescherming tegen phishing in Defender voor Office 365](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)</li><li>[Detecties in realtime](threat-explorer.md)</li></ul>|Mogelijkheden van Defender voor Office 365 Abonnement 1 <p> --- plus --- <p> Functies voor automatisering, onderzoek, herstel en onderwijs: <ul><li>[Bedreigingsoverzichten](threat-trackers.md)</li><li>[Bedreigingsverkenner](threat-explorer.md)</li><li>[Geautomatiseerd onderzoek en reactie](office-365-air.md)</li><li>[Aanvalssimulator](attack-simulator.md)</li></ul>|
+|Functies voor configuratie, beveiliging en detectie: <ul><li>[Veilige bijlagen](safe-attachments.md)</li><li>[Veilige koppelingen](safe-links.md)</li><li>[Veilige bijlagen voor SharePoint, OneDrive en Microsoft Teams](mdo-for-spo-odb-and-teams.md)</li><li>[Bescherming tegen phishing in Defender voor Office 365](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)</li><li>[Detecties in realtime](threat-explorer.md)</li></ul>|Mogelijkheden van Defender voor Office 365 Abonnement 1 <p> --- plus --- <p> Functies voor automatisering, onderzoek, herstel en onderwijs: <ul><li>[Bedreigingsoverzichten](threat-trackers.md)</li><li>[Bedreigingsverkenner](threat-explorer.md)</li><li>[Geautomatiseerd onderzoek en reactie](office-365-air.md)</li><li>[Training voor aanvalssimulatie](attack-simulation-training.md)</li></ul>|
 |
 
 - Abonnement 2 voor Microsoft Defender voor Office 365 is inbegrepen in Office 365 E5, Office 365 A5 en Microsoft 365 E5.
@@ -153,5 +153,4 @@ Op de hoogte blijven van [nieuwe functies in Microsoft Defender voor Office 365 
 
 [Threat Explorer of realtime detecties gebruiken](threat-explorer.md)
 
-De [Attack Simulator in Microsoft Defender voor Office 365](attack-simulator.md) gebruiken
-
+Training [voor aanvalssimulatie gebruiken](attack-simulation-training.md)

@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-compliance
 recommendations: false
 description: Implementeert Microsoft Information Protection (MIP) om gevoelige informatie te beveiligen waar deze zich ook bevindt of naartoe reist.
-ms.openlocfilehash: 2de9b1e4a3901477df883287a1ee350885de5513
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 1d8e0340e518bcc66399dcc667e030efca89316a
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683689"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53055102"
 ---
 # <a name="microsoft-information-protection-in-microsoft-365"></a>Microsoft Information Protection in Microsoft 365
 
@@ -77,7 +77,7 @@ Gebruik de volgende mogelijkheden om te voorkomen dat vertrouwelijke informatie 
 |:------|:------------|:---------------------|
 |[Preventie van gegevensverlies](dlp-learn-about-dlp.md)| Dit voorkomt het onbedoeld delen van vertrouwelijke items. | [Aan de slag met het standaard DLP-beleid](get-started-with-the-default-dlp-policy.md)|
 |[Preventie van gegevensverlies voor eindpunten](endpoint-dlp-learn-about.md)| Breidt de DLP-mogelijkheden uit naar items die worden gebruikt en gedeeld op computers met Windows 10. | [Aan de slag met Eindpunt-DLP (gegevensverlies voor eindpunten)](endpoint-dlp-getting-started.md)|
-|[Microsoft-compliance-uitbreiding (preview)](dlp-chrome-learn-about.md) | Breidt DLP-mogelijkheden uit naar de Chrome-browser | [Aan de slag met Microsoft compliance-uitbreiding (preview)](dlp-chrome-get-started.md)|
+|[Microsoft-compliance-uitbreiding](dlp-chrome-learn-about.md) | Hiermee worden de DLP-mogelijkheden naar de Chrome-browser uitgebreid | [Aan de slag met de Microsoft-compliance-extensie](dlp-chrome-get-started.md)|
 |[Microsoft 365 preventie van gegevensverlies on-premises scanner (preview)](dlp-on-premises-scanner-learn.md)|Breidt het DLP-toezicht op bestandsactiviteiten en beschermende maatregelen voor die bestanden uit tot on-premises gedeelde bestanden en SharePoint-mappen en documentbibliotheken.|[Aan de slag met de Microsoft 365-preventie van gegevensverlies on-premises scanner (preview)](dlp-on-premises-scanner-get-started.md)|
 |[Vertrouwelijke informatie in chat- en kanaalberichten in Microsoft Teams beveiligen](dlp-microsoft-teams.md) | Breidt een deel van de DLP-functionaliteit uit naar de chat- en kanaalberichten in Teams | [Meer informatie over het standaard preventiebeleid voor gegevensverlies in Microsoft Teams (preview)](dlp-teams-default-policy.md)|
 

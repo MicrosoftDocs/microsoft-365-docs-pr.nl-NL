@@ -15,12 +15,12 @@ ms.collection:
 description: Beheerders kunnen leren hoe ze standaard- en striktbeleidsinstellingen kunnen toepassen op de beveiligingsfuncties van Exchange Online Protection (EOP) en Microsoft Defender voor Office 365
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 24fe67a7465ec71451b649dbc5963c28e0dc7cf3
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: eb5fb2e882348e2cd0480abf5ad7217095b2522d
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52879010"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083486"
 ---
 # <a name="preset-security-policies-in-eop-and-microsoft-defender-for-office-365"></a>Vooraf ingestelde beveiligingsbeleidsregels in EOP en Microsoft Defender voor Office 365
 
@@ -105,7 +105,7 @@ Met andere woorden, de  instellingen van het strikte beveiligingsbeleid overschr
 
 ### <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent de Microsoft 365 Defender-portal op <https://security.microsoft.com> . Als u rechtstreeks naar de pagina Vooraf **ingestelde beveiligingsbeleidsregels wilt** gaan, gebruikt <https://security.microsoft.com/presetSecurityPolicies> u .
+- U opent de Microsoft 365 Defender-portal bij <https://security.microsoft.com>. Als u rechtstreeks naar de pagina Vooraf **ingestelde beveiligingsbeleidsregels wilt** gaan, gebruikt <https://security.microsoft.com/presetSecurityPolicies> u .
 
 - Zie [Verbinding maken met Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) als je verbinding wilt maken met Exchange Online PowerShell.
 
@@ -115,11 +115,11 @@ Met andere woorden, de  instellingen van het strikte beveiligingsbeleid overschr
 
   Zie [Machtigingen in Exchange Online](/exchange/permissions-exo/permissions-exo) voor meer informatie.
 
-  **Opmerking:** Gebruikers toevoegen aan de bijbehorende Azure Active Directory rol in het Microsoft 365-beheercentrum  geeft gebruikers de vereiste machtigingen en machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
+  **Opmerking:** Gebruikers toevoegen aan de bijbehorende Azure Active Directory rol in de Microsoft 365-beheercentrum  geeft gebruikers de vereiste machtigingen en machtigingen voor andere functies in Microsoft 365. Raadpleeg [Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
 
-### <a name="use-the-microsoft-365-defender-portal-to-assign-preset-security-policies-to-users"></a>Gebruik de Microsoft 365 Defender-portal om vooraf ingestelde beveiligingsbeleidsregels toe te wijzen aan gebruikers
+### <a name="use-the-microsoft-365-defender-portal-to-assign-preset-security-policies-to-users"></a>De portal Microsoft 365 Defender gebruiken om vooraf ingestelde beveiligingsbeleidsregels toe te wijzen aan gebruikers
 
-1. Ga in Microsoft 365 Defender-portal naar Beleid voor **e-mail &** samenwerkingsbeleid & Sectie Beleidsregels voor bedreigingsbeleidssjabloonbeleid Vooraf ingesteld \>  \>  \>  \> **beveiligingsbeleid.**
+1. Ga in Microsoft 365 Defender portal naar **Beleidsregels** voor e-mail & samenwerkingsbeleid & sectie Beleidsregels voor bedreigingsbeleidssjabloonbeleid Vooraf ingesteld \>  \>  \>  \> **beveiligingsbeleid.**
 
 2. Klik **onder Standaardbeveiliging** **of Strikte beveiliging** op **Bewerken.**
 
@@ -132,7 +132,7 @@ Met andere woorden, de  instellingen van het strikte beveiligingsbeleid overschr
 
    Voor gebruikers of groepen kunt u de meeste id's (naam, weergavenaam, alias, e-mailadres, accountnaam, enzovoort) gebruiken, maar de bijbehorende weergavenaam wordt weergegeven in de resultaten. Voer voor gebruikers een enkel sterretje (\*) in om alle beschikbare waarden weer te geven.
 
-   - **Deze gebruikers, groepen en domeinen uitsluiten**: als u uitzonderingen wilt toevoegen voor de interne geadresseerden op wie het beleid van toepassing is (uitzonderingen op ontvangers), selecteert u deze optie en configureert u de uitzonderingen. De instellingen en het gedrag zijn exact hetzelfde als bij de voorwaarden.
+   - **Deze gebruikers, groepen** en domeinen uitsluiten: Als u uitzonderingen wilt toevoegen voor de interne geadresseerden waar het beleid op van toepassing is (uitzonderingen voor geadresseerden), selecteert u deze optie en configureert u de uitzonderingen. De instellingen en het gedrag zijn exact hetzelfde als bij de voorwaarden.
 
    Wanneer u gereed bent, klikt u op **Volgende**.
 
@@ -140,11 +140,11 @@ Met andere woorden, de  instellingen van het strikte beveiligingsbeleid overschr
 
    De instellingen en het gedrag zijn precies zoals de **EOP-beveiligingen van toepassing zijn op de** pagina.
 
-   Wanneer u gereed bent, klikt u op **Volgende**.
+   Wanneer je klaar bent, klik je op **Volgende**.
 
 5. Controleer uw **selecties** op de pagina Controleren en bevestig uw wijzigingen en klik vervolgens op **Bevestigen.**
 
-### <a name="use-the-microsoft-365-defender-portal-to-modify-the-assignments-of-preset-security-policies"></a>Gebruik de Microsoft 365 Defender-portal om de toewijzingen van vooraf ingestelde beveiligingsbeleidsregels te wijzigen
+### <a name="use-the-microsoft-365-defender-portal-to-modify-the-assignments-of-preset-security-policies"></a>Gebruik de Microsoft 365 Defender portal om de toewijzingen van vooraf ingestelde beveiligingsbeleidsregels te wijzigen
 
 De stappen voor het  wijzigen van  de toewijzing van het beveiligingsbeleid Standaardbeveiliging of Strikt beveiligingsbeleid zijn hetzelfde als wanneer u het vooraf ingestelde beveiligingsbeleid in eerste instantie aan [gebruikers hebt toegewezen.](#use-the-microsoft-365-defender-portal-to-assign-preset-security-policies-to-users)
 

@@ -1,11 +1,11 @@
 ---
-title: Automatische purge van nul uur (ZAP)
+title: Auto purge van nul uur in Microsoft Defender voor Office 365
 f1.keywords:
 - NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
-ms.date: ''
+ms.date: 06/22/2021
 audience: Admin
 ms.topic: conceptual
 localization_priority: Normal
@@ -19,15 +19,15 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: Beheerders kunnen meer informatie krijgen over hoe zap (Zero Hour Auto Purge) bezorgde berichten in een Exchange Online-postvak met terugwerkende kracht naar de map Ongewenste e-mail of quarantaine kan verplaatsen die met terugwerkende kracht spam of phishing zijn.
+description: Zap (Zero Hour Auto Purge) verplaatst bezorgde berichten in een Exchange Online-postvak met terugwerkende kracht naar de map Ongewenste e-mail of quarantaine die na bezorging spam of phishing zijn.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9612f6267a0786b6f81f1c9a3f2ac270e344d0a8
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: fdfc39b8bd18d33f95b85028e3661008a17a1209
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730676"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083498"
 ---
 # <a name="zero-hour-auto-purge-zap-in-exchange-online"></a>Auto purge (ZAP) van nul uur in Exchange Online
 
@@ -38,8 +38,7 @@ ms.locfileid: "52730676"
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-
-## <a name="basic-features-of-zap"></a>Basisfuncties van ZAP
+## <a name="zero-hour-auto-purge-zap-basics"></a>Basisbeginselen voor automatische automatische purge (ZAP) van nul uur
 
 In Microsoft 365 organisaties met postvakken in Exchange Online is automatisch verwijderen van nul uur (ZAP) een functie voor e-mailbeveiliging waarmee schadelijke phishing-, spam- of malwareberichten die al in Exchange Online-postvakken zijn bezorgd, met terugwerkende kracht worden gedetecteerd en geneutraliseerd.
 
@@ -53,13 +52,13 @@ De ZAP-actie is naadloos voor de gebruiker. ze worden niet op de hoogte gesteld 
 
 [Safe afzenderlijsten,](create-safe-sender-lists-in-office-365.md)e-mailstroomregels (ook wel transportregels genoemd), Regels voor Postvak IN of extra filters hebben voorrang op ZAP. Net als wat er in de e-mailstroom gebeurt, betekent dit dat zelfs als de service bepaalt dat het bezorgde bericht ZAP nodig heeft, het bericht niet wordt gebruikt vanwege de veilige afzendersconfiguratie. Dit is een andere reden om voorzichtig te zijn met het configureren van berichten om filteren te omzeilen.
 
-### <a name="zap-for-malware"></a>ZAP voor malware
+### <a name="zero-hour-auto-purge-zap-for-malware"></a>Zero-hour auto purge (ZAP) voor malware
 
 Voor **gelezen of ongelezen berichten** die na de bezorging malware bevatten, wordt het bericht met de malwarebijlage door ZAP in quarantaine geplaatst. Alleen beheerders kunnen malwareberichten vanuit quarantaine bekijken en beheren.
 
 ZAP voor malware is standaard ingeschakeld in anti-malwarebeleid. Zie [Anti-malwarebeleid configureren in EOP](configure-anti-malware-policies.md)voor meer informatie.
 
-### <a name="zap-for-phishing"></a>ZAP voor phishing
+### <a name="zero-hour-auto-purge-zap-for-phishing"></a>Zero-hour Auto Purge (ZAP) voor phishing
 
 Voor gelezen of **ongelezen** berichten die na de bezorging als phishing worden geïdentificeerd, is  het ZAP-resultaat afhankelijk van de actie die is geconfigureerd voor een phishing-e-mailfilteringsuitspraak in het toepasselijke antispambeleid. De beschikbare filteracties voor phishing en de mogelijke ZAP-resultaten worden in de volgende lijst beschreven:
 
@@ -73,13 +72,13 @@ ZAP voor phishing is standaard ingeschakeld in antispambeleid en  de standaardac
 
 Zie [Antispambeleid](configure-your-spam-filter-policies.md)configureren in Microsoft 365.
 
-### <a name="zap-for-high-confidence-phishing"></a>ZAP voor phishing met hoog vertrouwen 
+### <a name="zero-hour-auto-purge-zap-for-high-confidence-phishing"></a>Zero-hour auto purge (ZAP) voor phishing met hoog vertrouwen
 
-Voor **gelezen of ongelezen berichten** die worden geïdentificeerd als phishing met veel vertrouwen na de bezorging, wordt het bericht door ZAP in quarantaine geplaatst. Alleen beheerders kunnen phish-berichten met veel vertrouwen vanuit quarantaine bekijken en beheren. 
+Voor **gelezen of ongelezen berichten** die worden geïdentificeerd als phishing met veel vertrouwen na de bezorging, wordt het bericht door ZAP in quarantaine geplaatst. Alleen beheerders kunnen phish-berichten met veel vertrouwen vanuit quarantaine bekijken en beheren.
 
 ZAP voor phish met hoog vertrouwen is standaard ingeschakeld. Zie Standaard Beveiligen [in Office 365.](secure-by-default.md)
 
-### <a name="zap-for-spam"></a>ZAP voor spam
+### <a name="zero-hour-auto-purge-zap-for-spam"></a>Zero-hour auto purge (ZAP) voor spam
 
 Voor **ongelezen berichten** die na de bezorging als spam worden geïdentificeerd, is het  ZAP-resultaat afhankelijk van de actie die is geconfigureerd voor de uitspraak over spamfilters in het toepasselijke antispambeleid. De beschikbare filteracties voor spam en de mogelijke ZAP-resultaten worden in de volgende lijst beschreven:
 
@@ -93,7 +92,7 @@ Spam ZAP is standaard ingeschakeld in antispambeleid en de  standaardactie voor 
 
 Zie [Antispambeleid](configure-your-spam-filter-policies.md)configureren in Microsoft 365.
 
-### <a name="zap-considerations-for-microsoft-defender-for-office-365"></a>ZAP-overwegingen voor Microsoft Defender voor Office 365
+### <a name="zero-hour-auto-purge-zap-considerations-for-microsoft-defender-for-office-365"></a>Zap-overwegingen (Zero Hour Auto Purge) voor Microsoft Defender voor Office 365
 
 ZAP zet geen berichten in quarantaine die bezig zijn met dynamische bezorging [in](safe-attachments.md#dynamic-delivery-in-safe-attachments-policies) het scannen van Safe Bijlagen, of waar EOP-malwarefilters de bijlage al hebben vervangen door het malwarewaarschuwingsbestand **Text.txt** bestand. Als er een phishing- of spamsignaal wordt ontvangen voor dit type berichten en het filterbeleid in het antispambeleid is ingesteld op actie ondernemen op het bericht (Verplaatsen naar ongewenste e-mail, Omleiden, Verwijderen of Quarantaine) wordt zap standaard ingesteld op een actie 'Verplaatsen naar ongewenste e-mail'.
 
@@ -101,7 +100,7 @@ ZAP zet geen berichten in quarantaine die bezig zijn met dynamische bezorging [i
 
 Als u wilt bepalen of ZAP uw bericht heeft verplaatst, kunt u het rapport Threat [Protection Status of](view-email-security-reports.md#threat-protection-status-report) Threat Explorer [(en realtime detecties) gebruiken.](threat-explorer.md) Houd er rekening mee dat ZAP als een systeemactie niet is aangemeld in de Exchange auditlogboeken voor postvakken.
 
-## <a name="zap-faq"></a>VEELGESTELDE VRAGEN OVER ZAP
+## <a name="zero-hour-auto-purge-zap-faq"></a>Veelgestelde vragen over auto purge (ZAP) van nul uur
 
 ### <a name="what-happens-if-a-legitimate-message-is-moved-to-the-junk-email-folder"></a>Wat gebeurt er als een legitiem bericht wordt verplaatst naar de map Ongewenste e-mail?
 
@@ -115,16 +114,16 @@ ZAP onderneemt actie op basis van een bericht op basis van de configuratie van u
 
 Safe afzenders, e-mailstroomregels of blokkeren en toestaan dat organisatie-instellingen voorrang krijgen. Deze berichten zijn uitgesloten van ZAP omdat de service doet waarvoor u deze hebt geconfigureerd. Dit is een andere reden om voorzichtig te zijn met het configureren van berichten om filteren te omzeilen.
 
-### <a name="what-are-the-licensing-requirements-for-zap-to-work"></a>Wat zijn de licentievereisten voor ZAP om te werken?
+### <a name="what-are-the-licensing-requirements-for-zero-hour-auto-purge-zap-to-work"></a>Wat zijn de licentievereisten voor automatische purge (ZAP) van nul uur om te werken?
 
 Er zijn geen beperkingen voor licenties. ZAP werkt op alle postvakken die worden gehost op Exchange online. ZAP werkt niet in zelfstandige Exchange Online Protection (EOP)-omgevingen die on-premises Exchange beschermen.
 
 ### <a name="what-if-a-message-is-moved-to-another-folder-eg-inbox-rules"></a>Wat gebeurt er als een bericht wordt verplaatst naar een andere map (bijvoorbeeld Regels voor Postvak IN)?
 
-ZAP werkt nog steeds zolang het bericht niet is verwijderd, of zolang dezelfde of sterkere actie nog niet is toegepast. Als het anti-phishingbeleid bijvoorbeeld is ingesteld op quarantaine en het bericht al in de ongewenste e-mail staat, zal ZAP actie ondernemen om het bericht in quarantaine te plaatsen.
+Automatische purge van nul uur werkt nog steeds zolang het bericht niet is verwijderd, of zolang dezelfde of sterkere actie nog niet is toegepast. Als het anti-phishingbeleid bijvoorbeeld is ingesteld op quarantaine en het bericht al in de ongewenste e-mail staat, zal ZAP actie ondernemen om het bericht in quarantaine te plaatsen.
 
 ### <a name="how-does-zap-affect-mailboxes-on-hold"></a>Wat is de invloed van ZAP op postvakken in de wacht?
 
-ZAP gaat berichten uit postvakken in quarantaine plaatsen in de wacht. ZAP kan berichten verplaatsen naar de map Ongewenste e-mail op basis van de actie die is geconfigureerd voor spam of phishing in antispambeleid.
+Berichten van postvakken die in de wacht staan, worden in quarantaine geplaatst. ZAP kan berichten verplaatsen naar de map Ongewenste e-mail op basis van de actie die is geconfigureerd voor spam of phishing in antispambeleid.
 
 Zie [In-Place Hold](/Exchange/security-and-compliance/in-place-and-litigation-holds)and Litigation Hold in Exchange Online Exchange Online voor meer informatie over in- en Exchange Online.

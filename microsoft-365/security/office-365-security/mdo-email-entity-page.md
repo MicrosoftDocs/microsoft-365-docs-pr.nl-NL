@@ -14,13 +14,13 @@ search.appverid: ''
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Klanten van Microsoft Defender Office 365 E5 en P1 en P2 kunnen nu een 360-gradenweergave krijgen van elke e-mail met e-mailentiteitspagina.
-ms.openlocfilehash: c45b45101c27e92dd0fa8776ca5d8ee9eb3af5b7
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+description: Klanten van Microsoft Defender Office 365 E5 en P1 en P2 kunnen nu een 360-gradenweergave van elke e-mail met pagina met e-mailentiteit krijgen.
+ms.openlocfilehash: d2f5a5b20034ef22b8e3894885079609a9ad5874
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878458"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083276"
 ---
 # <a name="the-email-entity-page"></a>Entiteitspagina van e-mail
 
@@ -34,26 +34,16 @@ Beheerders van Microsoft Defender voor Office 365 (of MDO) E5 en MDO P1 en P2 he
 
 ## <a name="reach-the-email-entity-page"></a>De pagina e-mailentiteit bereiken
 
-Met het bestaande beveiligingscentrum & of de nieuwe portal Microsoft 365 Defender kunt u de pagina e-mailentiteit zien en gebruiken.
+De pagina e-mailentiteit is beschikbaar in de Microsoft 365 defender portal <https://security.microsoft.com> () bij **E-mail & Samenwerking** \> **Explorer.** Of als u rechtstreeks naar de **pagina Explorer wilt** gaan, gebruikt u <https://security.microsoft.com/threatexplorer> .
 
-<br>
-
-****
-
-|Centreer|URL|Navigatie|
-|---|---|---|
-|Beveiligings- en compliancecentrum|<https://protection.office.com>|Threat Management \> Explorer|
-|Microsoft 365 Defender-portal|<https://security.microsoft.com>|E-& \> Samenwerkingsverkenner|
-|
-
-Selecteer in Threat Explorer het onderwerp van een e-mailbericht dat u onderzoekt. Er wordt een gouden balk weergegeven boven aan de e-mail fly-out voor die e-mail. In deze uitnodiging voor de nieuwe pagina leest u 'Try out our new email entity page with enriched data...'. Selecteer om de nieuwe pagina weer te geven.
+Selecteer **in Verkenner** het onderwerp van een e-mailbericht dat u onderzoekt. Er wordt een gouden balk weergegeven boven aan de e-mail fly-out voor die e-mail. In deze uitnodiging voor de nieuwe pagina leest u 'Try out our new email entity page with enriched data...'. Selecteer om de nieuwe pagina weer te geven.
 
 :::image type="content" source="../../media/email-entities-1-navigation-to-ee.png" alt-text="U ziet een gouden banner met de woorden *Probeer onze nieuwe e-mailentiteitspagina met verrijkte gegevens* uit om naar de nieuwe ervaring te gaan.":::
 
 :::image type="content" source="../../media/email-entities-2-eep.png" alt-text="Deze afbeelding van de pagina e-mailentiteit richt zich op koppen die u ziet. Let op: de e-mailkoptekst wordt hier weergegeven.":::
 
 > [!NOTE]
-> De machtigingen die nodig zijn om deze pagina weer te geven en te gebruiken, zijn hetzelfde als voor het weergeven van Threat Explorer. De beheerder moet lid zijn van globale beheerder of globale lezer, of beveiligingsbeheerder of beveiligingslezer.
+> De machtigingen die nodig zijn om deze pagina weer te geven en te gebruiken, zijn hetzelfde als voor het weergeven van **Verkenner.** De beheerder moet lid zijn van globale beheerder of globale lezer, beveiligingsbeheerder of beveiligingslezer. Zie [Machtigingen in de Microsoft 365 Defender-portal](permissions-microsoft-365-security-center.md) voor meer informatie.
 
 ## <a name="read-the-email-entity-page"></a>De pagina e-mailentiteit lezen
 
@@ -63,7 +53,7 @@ De structuur is zo ontworpen dat u eenvoudig kunt lezen en in één oogopslag ku
 
     :::image type="content" source="../../media/email-entities-3-left-panel.png" alt-text="Afbeelding van de pagina e-mailentiteit met de linkerkant gemarkeerd. De titel en feiten over de bezorging van e-mail staan hier.":::
 
-2. In de rechterbovenhoek vindt u de acties die u op een e-mail kunt uitvoeren. Alle acties die via Verkenner kunnen worden ondernomen, zijn ook beschikbaar via de pagina e-mailentiteit.
+2. In de rechterbovenhoek vindt u de acties die u op een e-mail kunt uitvoeren. Alle acties die via **Verkenner** kunnen worden ondernomen, zijn ook beschikbaar via de pagina e-mailentiteit.
 
     :::image type="content" source="../../media/email-entities-5-preview.png" alt-text="Afbeelding van de pagina e-mailentiteit met de *rechterkant* gemarkeerd, deze keer. Acties zoals 'E-mailvoorbeeld' en 'Ga naar quarantaine' zijn hier.":::
 
@@ -75,7 +65,7 @@ De structuur is zo ontworpen dat u eenvoudig kunt lezen en in één oogopslag ku
 
 Met de tabbladen boven aan de entiteitspagina kunt u e-mail efficiënt onderzoeken.
 
-1. **Tijdlijn:** De tijdlijnweergave voor een e-mailbericht (volgens de tijdlijn van Threat Explorer) toont de oorspronkelijke bezorging van gebeurtenissen na de bezorging die plaatsvinden in een e-mailbericht. Voor e-mailberichten die geen acties na de bezorging hebben, wordt in de weergave de oorspronkelijke bezorgingsrij weergegeven in de tijdlijnweergave. Gebeurtenissen zoals: Zero-hour Auto Purge (ZAP), Herstellen, URL-klikken, enzovoort, uit bronnen zoals: systeem, beheerder en gebruiker, worden hier weergegeven, in de volgorde waarin ze hebben plaatsgevonden.
+1. **Tijdlijn:** De tijdlijnweergave voor een e-mailbericht (per **Explorer-tijdlijn)** toont de oorspronkelijke bezorging van gebeurtenissen na de bezorging die plaatsvinden in een e-mailbericht. Voor e-mailberichten die geen acties na de bezorging hebben, wordt in de weergave de oorspronkelijke bezorgingsrij weergegeven in de tijdlijnweergave. Gebeurtenissen zoals: Zero-hour Auto Purge (ZAP), Herstellen, URL-klikken, enzovoort, uit bronnen zoals: systeem, beheerder en gebruiker, worden hier weergegeven, in de volgorde waarin ze hebben plaatsgevonden.
 2. **Analyse:** Analyse toont velden die beheerders helpen een e-mail grondig te analyseren. Voor gevallen waarin beheerders meer moeten weten over detectie, afzender/geadresseerde en e-mailverificatiegegevens, moeten ze het tabblad Analyse gebruiken. Koppelingen voor bijlagen en URL's vindt u ook op deze pagina, onder 'Gerelateerde entiteiten'. Zowel bijlagen als geïdentificeerde bedreigingen worden hier genummerd en als u klikt, gaat u rechtstreeks naar de pagina's Bijlagen en URL's. Dit tabblad heeft ook de optie Koptekst weergeven om *de e-mailkop weer te geven.* Beheerders kunnen elk detail van e-mailkoppen, naast elkaar met informatie in het hoofdvenster, voor de duidelijkheid vergelijken.
 3. **Bijlagen:** Hiermee worden bijlagen in het e-mailbericht onderzocht, met andere details die zijn gevonden in bijlagen. Het aantal weergegeven bijlagen is momenteel beperkt tot 10. Let op: detonatiedetails voor bijlagen die schadelijk zijn gevonden, worden hier ook weergegeven.
 4. **URL's:** Dit tabblad bevat URL's die in het e-mailbericht zijn gevonden, met andere details over de URL's. Het aantal URL's is op dit moment beperkt tot 10, maar deze 10 hebben prioriteit om eerst schadelijke *URL's weer te geven.* Prioriteitsprioriteit bespaart u tijd en gissen. De URL's die schadelijk en tot ontploffing zijn gebracht, worden hier ook weergegeven.
@@ -87,10 +77,10 @@ Deze pagina met e-mailentiteitentiteit biedt nieuwe mogelijkheden. Hier is de li
 
 ### <a name="email-preview-for-cloud-mailboxes"></a>E-mailvoorbeeld voor cloudpostvakken
 
-Beheerders kunnen een voorbeeld van e-mailberichten bekijken in cloudpostvakken, ***als*** de e-mailberichten nog steeds aanwezig zijn in de cloud. In het geval van een soft delete (door een beheerder of gebruiker) of ZAP (om in quarantaine te plaatsen), zijn e-mailberichten niet meer aanwezig in de cloudlocatie. In dat geval kunnen beheerders geen voorbeeld van deze specifieke e-mailberichten bekijken. E-mailberichten die zijn verwijderd of waar de bezorging is mislukt, zijn nooit in het postvak be komen. Hierdoor kunnen beheerders ook geen voorbeeld van deze e-mailberichten bekijken.
+Beheerders kunnen een voorbeeld van e-mailberichten bekijken in cloudpostvakken, ***als*** de e-mailberichten nog steeds aanwezig zijn in de cloud. In het geval van een soft delete (door een beheerder of gebruiker) of ZAP (om in quarantaine te plaatsen), zijn e-mailberichten niet meer aanwezig in de cloudlocatie. In dat geval kunnen beheerders geen voorbeeld van deze specifieke e-mailberichten bekijken. E-mailberichten die zijn verwijderd of waar de bezorging is mislukt, zijn nooit in het postvak komen. Hierdoor kunnen beheerders ook geen voorbeeld van deze e-mailberichten bekijken.
 
 > [!WARNING]
-> Als u een voorbeeld van e-mailberichten bekijkt, moet een speciale rol met de naam ***Voorbeeld** _ worden toegewezen aan beheerders. U kunt deze rol toevoegen door naar _ *Machtigingen & rollen** > **E-mail &** **samenwerkingsrollen** in *security.microsoft.com* of Machtigingen *in* protection.office.com. Voeg de ***voorbeeldrol*** toe aan een van de rollengroepen of een kopie van een rollengroep waarmee beheerders in uw organisatie kunnen werken in Threat Explorer.
+> Voor het bekijken van e-mailberichten is een speciale rol vereist met de **naam Voorbeeld.** U kunt deze rol toevoegen in de Microsoft 365 Defender portal zoals beschreven in [E-mail & samenwerkingsrollen in de Microsoft 365 Defender portal.](permissions-microsoft-365-security-center.md#email--collaboration-roles-in-the-microsoft-365-defender-portal) Mogelijk moet u daar een nieuwe rollengroep **E-mail &** samenwerking maken en de  voorbeeldrol toevoegen aan die nieuwe rollengroep of de voorbeeldrol toevoegen aan een rollengroep waarmee beheerders in uw organisatie in  **Explorer** kunnen werken.
 
 ### <a name="detonation-details"></a>Detonatiedetails
 
@@ -99,11 +89,12 @@ Deze details zijn specifiek voor e-mailbijlagen en URL's. Gebruikers kunnen deze
 Gebruikers zien verrijkte detonatiedetails voor bekende schadelijke bijlagen of URL's in hun e-mailberichten, die zijn ontploft voor hun specifieke tenant. Het bestaat uit de detonatieketen, de samenvatting van de detonatie, Schermafbeelding en waargenomen gedragsgegevens om klanten te helpen begrijpen waarom de bijlage of URL als schadelijk en tot stand is gebracht.
 
 1. *Detonatieketen*. Eén bestand of URL-detonatie kan meerdere detonaties veroorzaken. De detonatieketen houdt het pad van detonaties bij, inclusief het oorspronkelijke schadelijke bestand of de URL die de uitspraak heeft veroorzaakt, en alle andere bestanden of URL's die zijn veroorzaakt door de detonatie. Deze URL's of bijgevoegde bestanden zijn mogelijk niet rechtstreeks aanwezig in de e-mail, maar het is belangrijk om te bepalen waarom het bestand of de URL schadelijk is gevonden.  
+
     > [!NOTE]
     > Dit kan alleen het item op het hoogste niveau laten zien als geen van de entiteiten die aan het item zijn gekoppeld, problematisch zijn of zijn ontploft.
 
 1. *Detonatiesamenvatting* geeft een basisoverzicht voor de detonatie, zoals analysetijd, de tijd waarop de detonatie plaatsvond, besturingssysteem en toepassing, het besturingssysteem en de toepassing waarin de detonatie plaatsvond, de bestandsgrootte en de reden van de uitspraak.
-1. *Schermafbeeldingen* toont de schermafbeeldingen die zijn vastgelegd tijdens de detonatie. Er kunnen meerdere schermafbeeldingen zijn tijdens de detonatie. Er worden geen schermafbeeldingen gemaakt voor
+1. *Schermafbeeldingen* tonen de schermafbeeldingen die zijn vastgelegd tijdens de detonatie. Er kunnen meerdere schermafbeeldingen zijn tijdens de detonatie. Er worden geen schermafbeeldingen gemaakt voor
     - Containertype bestanden zoals .zip of .rar.
     - Als een URL wordt geopend in een koppeling die rechtstreeks een bestand downloadt. U ziet echter het gedownloade bestand in de detonatieketen.
 1.  Gedragdetails zijn een export die gedragdetails wekt, zoals exacte gebeurtenissen die plaatsvonden tijdens de detonatie, en waarneembare gegevens die URL's, IPs, domeinen en bestanden bevatten die zijn gevonden tijdens de detonatie (en die problematisch of goedaardig kunnen zijn). Let op: er zijn mogelijk geen gedragsdetails voor:
@@ -119,7 +110,7 @@ Gebruikers zien verrijkte detonatiedetails voor bekende schadelijke bijlagen of 
 
 *E-maildetails:* Details die nodig zijn voor een beter begrip van e-mail die beschikbaar is op *het tabblad* Analyse.
 
-- *Exchange Transportregels (ETR's of e-mailstroomregels)*: Deze regels worden toegepast op een bericht op de transportlaag en hebben voorrang op phish- en spam-vonnissen. Deze kunnen alleen worden gemaakt en gewijzigd in het Exchange-beheercentrum, maar als een ETR van toepassing is op een bericht, worden de ETR-naam en GUID hier weergegeven. Waardevolle informatie voor het bijhouden van doeleinden.
+- Exchange transportregels (ook wel bekend als e-mailstroomregels of *ETR's)*: Deze regels worden toegepast op een bericht op de transportlaag en hebben voorrang op phish- en spam-uitspraak. Deze kunnen alleen worden gemaakt en gewijzigd in het Exchange-beheercentrum, maar als een ETR van toepassing is op een bericht, worden de ETR-naam en GUID hier weergegeven. Waardevolle informatie voor het bijhouden van doeleinden.
 
 - *Systeem overschrijven:* Dit is een manier om uitzonderingen te maken op de bezorgingslocatie die is bedoeld voor een bericht door de bezorgingslocatie te overschrijven die door het systeem wordt gegeven (volgens de technologie voor bedreiging en detectie).
 
@@ -155,7 +146,7 @@ Gebruikers zien verrijkte detonatiedetails voor bekende schadelijke bijlagen of 
   - Fail (reden): Hiermee geeft u aan dat de DKIM-controle voor het bericht is mislukt en waarom. Bijvoorbeeld als het bericht niet is ondertekend of als de handtekening niet is gecontroleerd.
   - Geen: Geeft aan dat het bericht niet is ondertekend. Dit kan al of niet betekenen dat het domein een DKIM-record heeft of dat het DKIM-record geen resultaat oplevert. Het betekent in elk geval dat dit bericht niet is ondertekend.
 
-- Domain-based Message Authentication, Reporting and Conformance **(DMARC):**
+- Domain-based Message Authentication, Reporting, and Conformance **(DMARC):**
   - Pass: Geeft de DMARC-controle aan op het doorgegeven bericht.
   - Mislukt: Geeft aan dat de DMARC-controle voor het bericht is mislukt.
   - Bestguesspass: Geeft aan dat er geen DMARC TXT-record voor het domein bestaat, maar als er een was geweest, zou de DMARC-controle voor het bericht zijn geslaagd.

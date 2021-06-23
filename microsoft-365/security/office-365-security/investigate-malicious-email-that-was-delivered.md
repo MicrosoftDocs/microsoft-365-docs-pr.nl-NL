@@ -20,12 +20,12 @@ description: Meer informatie over het gebruik van mogelijkheden voor het onderzo
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e99cda906e97db72a440c3daf509a767181e5342
-ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
+ms.openlocfilehash: e49963d1ffaeb7bce20f21f82f37fd3675b9cdd3
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53029789"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083354"
 ---
 # <a name="investigate-malicious-email-that-was-delivered-in-microsoft-365"></a>Schadelijke e-mail onderzoeken die is bezorgd in Microsoft 365
 
@@ -51,7 +51,7 @@ Zorg ervoor dat aan de volgende vereisten wordt voldaan:
 
 - Uw organisatie heeft beleidsregels gedefinieerd voor antispam, anti-malware, anti-phishing, en meer. Zie [Beschermen tegen bedreigingen in Office 365.](protect-against-threats.md)
 
-- U bent een globale beheerder of u hebt de beveiligingsbeheerder of de rol Zoeken en zuiveren toegewezen in de Microsoft 365 Defender portal. Zie Machtigingen in de Microsoft 365 Defender [portal voor meer informatie.](permissions-microsoft-365-security-center.md) Voor sommige acties moet ook de voorbeeldrol zijn toegewezen.
+- U bent een globale beheerder of u hebt de beveiligingsbeheerder of de rol Zoeken en zuiveren toegewezen in de Microsoft 365 Defender portal. Zie [Machtigingen in de Microsoft 365 Defender-portal](permissions-microsoft-365-security-center.md) voor meer informatie. Voor sommige acties moet ook de voorbeeldrol zijn toegewezen.
 
 ### <a name="preview-role-permissions"></a>Voorbeeld van rolmachtigingen
 
@@ -63,9 +63,9 @@ Als u bepaalde acties wilt uitvoeren, zoals het weergeven van berichtkoppen of h
 
 |Activiteit|Rollengroep|Voorbeeldrol nodig?|
 |---|---|---|
-|Threat Explorer (en realtimedetecties) gebruiken om bedreigingen te analyseren |Globale beheerder <p> Beveiligingsbeheerder <p> Beveiligingslezer|Nee|
-|Bedreigingsverkenner (en realtimedetecties) gebruiken om kopteksten voor e-mailberichten weer te geven en om in quarantaine geplaatste e-mailberichten te bekijken en te downloaden|Globale beheerder <p> Beveiligingsbeheerder <p> Beveiligingslezer|Nee|
-|Threat Explorer gebruiken om kopteksten weer te geven, een voorbeeld van e-mail weer te geven (alleen op de pagina met e-mailentiteit) en e-mailberichten te downloaden die in postvakken zijn bezorgd|Globale beheerder <p> Beveiligingsbeheerder <p> Beveiligingslezer <p> Voorbeeld|Ja|
+|Threat Explorer (en realtimedetecties) gebruiken om bedreigingen te analyseren |Globale beheerder <p> Beveiligingsadministrator <p> Beveiligingslezer|Nee|
+|Bedreigingsverkenner (en realtimedetecties) gebruiken om kopteksten voor e-mailberichten weer te geven en om in quarantaine geplaatste e-mailberichten te bekijken en te downloaden|Globale beheerder <p> Beveiligingsadministrator <p> Beveiligingslezer|Nee|
+|Threat Explorer gebruiken om kopteksten weer te geven, een voorbeeld van e-mail weer te geven (alleen op de pagina met e-mailentiteit) en e-mailberichten te downloaden die in postvakken zijn bezorgd|Globale beheerder <p> Beveiligingsadministrator <p> Beveiligingslezer <p> Voorbeeld|Ja|
 |
 
 > [!NOTE]
@@ -73,7 +73,7 @@ Als u bepaalde acties wilt uitvoeren, zoals het weergeven van berichtkoppen of h
 >
 > De rol Globale beheerder wordt toegewezen aan Microsoft 365-beheercentrum ( ) en de rollen Beveiligingsbeheerder en Beveiligingslezer worden <https://admin.microsoft.com> toegewezen in Microsoft 365 Defender ( <https://security.microsoft.com> ). Zie Machtigingen in de portal Microsoft 365 Defender voor meer informatie over rollen [en machtigingen.](permissions-microsoft-365-security-center.md)
 
-We begrijpen dat het bekijken en downloaden van e-mail gevoelige activiteiten zijn en daarom is auditing ingeschakeld voor deze activiteiten. Wanneer een beheerder deze activiteiten uitvoert op e-mailberichten, worden auditlogboeken voor hetzelfde gegenereerd en kunnen ze worden gezien in het Office 365 Security & Compliance Center ( <https://protection.office.com> ). Ga naar **Zoeken in**  >  **het auditlogboek en** filter op de naam van de beheerder in de sectie Zoeken. In de gefilterde resultaten wordt activiteit **AdminMailAccess weer te geven.** Selecteer een rij om details weer te geven in de sectie **Meer informatie** over voorbeeld van of gedownloade e-mail.
+We begrijpen dat het bekijken en downloaden van e-mail gevoelige activiteiten zijn en daarom is auditing ingeschakeld voor deze activiteiten. Wanneer een beheerder deze activiteiten uitvoert op e-mailberichten, worden auditlogboeken voor hetzelfde gegenereerd en kan deze worden gezien in de Microsoft 365 Defender portal ( <https://security.microsoft.com> ). Ga naar **het** \> **tabblad Zoeken** controleren en filter op de beheerdersnaam in het vak **Gebruikers.** In de gefilterde resultaten wordt activiteit **AdminMailAccess weer te geven.** Selecteer een rij om details weer te geven in de sectie **Meer informatie** over voorbeeld van of gedownloade e-mail.
 
 ## <a name="find-suspicious-email-that-was-delivered"></a>Verdachte e-mail zoeken die is bezorgd
 
