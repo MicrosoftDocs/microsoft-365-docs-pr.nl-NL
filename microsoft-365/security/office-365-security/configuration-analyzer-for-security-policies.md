@@ -18,12 +18,12 @@ ms.collection:
 description: Beheerders kunnen informatie krijgen over het gebruik van de configuratieanalyse om beveiligingsbeleid te zoeken en op te lossen dat zich onder het standaardbeveiligingsbeleid en het vooraf ingestelde beveiligingsbeleid voor strikte beveiliging kunt vinden en oplossen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f98ab9b251894a5821d308d95fd786b496e396e4
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 01a9b3a2b01a3cfc95a3911f75907cbe0ef9d58f
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878662"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108425"
 ---
 # <a name="configuration-analyzer-for-protection-policies-in-eop-and-microsoft-defender-for-office-365"></a>Configuratieanalyse voor beveiligingsbeleid in EOP en Microsoft Defender voor Office 365
 
@@ -34,7 +34,7 @@ ms.locfileid: "52878662"
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Configuratieanalyse in de Microsoft 365 Defender-portal biedt een centrale locatie om beveiligingsbeleid te zoeken en op te lossen waar de instellingen zich onder de instellingen voor standaardbeveiligings- en strikt beveiligingsprofiel bevinden in vooraf ingestelde [beveiligingsbeleidsregels.](preset-security-policies.md)
+Configuratieanalyse in de Microsoft 365 Defender portal biedt een centrale locatie om beveiligingsbeleid te zoeken en op te lossen waarbij de instellingen zich onder de instellingen Standaardbeveiliging en Strikt beveiligingsprofiel bevinden in vooraf ingestelde [beveiligingsbeleidsregels.](preset-security-policies.md)
 
 De volgende typen beleid worden geanalyseerd door de configuratieanalyse:
 
@@ -57,25 +57,25 @@ De **waarden standaard** en **strikt** beleid die als basislijnen worden gebruik
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Wat moet u weten voordat u begint?
 
-- U opent de Microsoft 365 Defender-portal op <https://security.microsoft.com> . Als u rechtstreeks naar de **pagina Configuratieanalyse wilt** gaan, gebruikt u <https://security.microsoft.com/configurationAnalyzer> .
+- U opent de Microsoft 365 Defender-portal bij <https://security.microsoft.com>. Als u rechtstreeks naar de **pagina Configuratieanalyse wilt** gaan, gebruikt u <https://security.microsoft.com/configurationAnalyzer> .
 
 - Zie [Verbinding maken met Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell.
 
-- U moet machtigingen krijgen toegewezen in de Microsoft 365 Defender-portal voordat u de procedures in dit artikel kunt uitvoeren:
+- U moet machtigingen krijgen toegewezen in de Microsoft 365 Defender portal voordat u de procedures in dit artikel kunt uitvoeren:
   - Als u de configuratieanalyse wilt gebruiken **en** updates voor beveiligingsbeleid wilt uitvoeren, moet u lid zijn van de rollengroepen **Organisatiebeheer** of **Beveiligingsbeheerder.**
   - Voor alleen-lezen toegang tot de configuratieanalyse moet u lid zijn van de rollengroepen **Globale** lezer of **Beveiligingslezer.**
 
-  Zie Machtigingen [in de portal Microsoft 365 Defender voor meer informatie.](permissions-microsoft-365-security-center.md)
+  Zie [Machtigingen in de Microsoft 365 Defender-portal](permissions-microsoft-365-security-center.md) voor meer informatie.
 
   > [!NOTE]
   >  
-  > - Gebruikers toevoegen aan de bijbehorende Azure Active Directory geeft gebruikers de vereiste machtigingen  in de Microsoft 365 Defender-portal en machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
+  > - Gebruikers toevoegen aan de bijbehorende Azure Active Directory functie geeft gebruikers de vereiste machtigingen in de Microsoft 365 Defender _portal_ en machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
   >
   > - De functiegroep **Alleen-lezen organisatiebeheer** in [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) geeft ook alleen-lezentoegang tot deze functie.
 
-## <a name="use-the-configuration-analyzer-in-the-microsoft-365-defender-portal"></a>De configuratieanalyse gebruiken in de Microsoft 365 Defender-portal
+## <a name="use-the-configuration-analyzer-in-the-microsoft-365-defender-portal"></a>De configuratieanalyse gebruiken in de Microsoft 365 Defender portal
 
-Ga in Microsoft 365 Defender-portal naar **E-mail** & samenwerkingsbeleid & regels Sectie Beleidsregels met sjabloonbeleid \>  \>  \>  \> **Configuratieanalyse**.
+Ga in Microsoft 365 Defender portal naar **E-mail & samenwerkingsbeleid** & pagina Beleidsregels voor bedreigingen met sjabloonbeleid \>  \>  \>  sectie \> **Configuratieanalyse.**
 
 De **pagina Configuratieanalyse heeft** twee hoofdtabbladen:
 

@@ -15,12 +15,12 @@ ms.date: 06/10/2021
 description: Lees hoe u het proces voor het opsporen en aanpakken van gecompromitteerde gebruikersaccounts kunt versnellen met geautomatiseerde onderzoeks- en antwoordmogelijkheden in Microsoft Defender voor Office 365 plan 2.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: cd84617230e774b92902ef3d11a365c1965ac814
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: fd1ad6f52114340153f3958441bfb9500db67215
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52904138"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108575"
 ---
 # <a name="address-compromised-user-accounts-with-automated-investigation-and-response"></a>Gecompromitteerde gebruikersaccounts adresseerde met geautomatiseerde onderzoeken en antwoorden
 
@@ -37,9 +37,7 @@ ms.locfileid: "52904138"
 Met de gecompromitteerde playbook voor gebruikersbeveiliging kan het beveiligingsteam van uw organisatie het volgende doen:
 
 - De detectie van gecompromitteerde gebruikersaccounts versnellen;
-
 - Beperk het bereik van een inbreuk wanneer een account wordt gecompromitteerd; en
-
 - Reageer effectiever en efficiënter op gecompromitteerde gebruikers.
 
 ## <a name="compromised-user-alerts"></a>Meldingen van gecompromitteerde gebruikers
@@ -67,21 +65,17 @@ Wanneer een gebruikersaccount wordt gecompromitteerd, worden waarschuwingen geac
 
 ### <a name="view-and-investigate-restricted-users"></a>Beperkte gebruikers weergeven en onderzoeken
 
-U hebt een paar opties voor het navigeren naar een lijst met beperkte gebruikers. In het Beveiligings- & compliancecentrum kunt u bijvoorbeeld naar **Gebruikers** met beperkingen voor bedreigingsbeheer \>  \> **controleren.** In de volgende procedure wordt navigatie beschreven **met** behulp van het dashboard Waarschuwingen. Dit is een goede manier om verschillende soorten waarschuwingen te zien die mogelijk zijn geactiveerd.
+U hebt een paar opties voor het navigeren naar een lijst met beperkte gebruikers. In de Microsoft 365 Defender portal kunt u bijvoorbeeld naar **E-mail** & Beperkte gebruikers \>  \> **controleren.** In de volgende procedure wordt navigatie beschreven **met** behulp van het dashboard Waarschuwingen. Dit is een goede manier om verschillende soorten waarschuwingen te zien die mogelijk zijn geactiveerd.
 
-1. Ga naar [https://protection.office.com](https://protection.office.com) en meld u aan.
+1. Open de Microsoft 365 Defender portal <https://security.microsoft.com> () en ga naar **Incidenten & waarschuwingen** \> **Waarschuwingen.** Of als u rechtstreeks naar de pagina **Waarschuwingen wilt** gaan, gebruikt <https://security.microsoft.com/alerts> u .
 
-2. Kies in het  navigatiedeelvenster \> **Waarschuwingendashboard.**
+2. Filter op **de pagina** Waarschuwingen de resultaten op tijdsperiode en het beleid met de naam Gebruiker beperkt het verzenden **van e-mail.**
 
-3. Kies in **de widget Overige waarschuwingen** de optie Beperkte **gebruikers.**
+   ![De pagina Waarschuwingen in de Microsoft 365 Defender portal gefilterd voor beperkte gebruikers](../../media/m365-sc-alerts-page-with-restricted-user.png)
 
-   ![Widget Andere waarschuwingen](/microsoft-365/media/office365atp-otheralertswidget.jpg)
+3. Als u het item selecteert door  op de naam te klikken, wordt een gebruiker die geen e-mailpagina mag verzenden, geopend met aanvullende informatie die u kunt controleren. Naast de knop Waarschuwing **beheren** kunt u klikken op Pictogram Meer opties Meer opties en vervolgens Beperkte gebruikersgegevens weergeven selecteren om naar de pagina Beperkte gebruikers te gaan, waar u de beperkte gebruiker ![ kunt ](../../media/m365-cc-sc-more-actions-icon.png)  [vrijgeven.](removing-user-from-restricted-users-portal-after-spam.md)  
 
-   Hiermee wordt de lijst met beperkte gebruikers geopend.
-
-   ![Beperkte gebruikers in Office 365](/microsoft-365/media/office365atp-restrictedusers.jpg)
-
-4. Selecteer een gebruikersaccount in de lijst om details weer te geven en actie te ondernemen, zoals het [vrijgeven van de beperkte gebruiker.](removing-user-from-restricted-users-portal-after-spam.md)
+   ![De gebruiker kan geen e-mailpagina verzenden vanuit het Alarmcentrum](../../media/m365-sc-alerts-user-restricted-from-sending-email-page.png)
 
 ### <a name="view-details-about-automated-investigations"></a>Details over geautomatiseerde onderzoeken weergeven
 

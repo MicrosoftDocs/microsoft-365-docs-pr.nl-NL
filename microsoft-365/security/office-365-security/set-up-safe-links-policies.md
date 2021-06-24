@@ -18,12 +18,12 @@ ms.collection:
 description: Beheerders kunnen informatie krijgen over het weergeven, maken, wijzigen en verwijderen van Safe Koppelingenbeleid en algemene Safe Koppelingen-instellingen in Microsoft Defender voor Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d1e0257fd124a53b2191ad8025ce42dc13a2e23e
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: 8d42051d2ca4f26758cbe7334d427f3f93178f97
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096766"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108209"
 ---
 # <a name="set-up-safe-links-policies-in-microsoft-defender-for-office-365"></a>Beleidsregels Safe Koppelingen instellen in Microsoft Defender voor Office 365
 
@@ -173,7 +173,7 @@ Zie de volgende secties als u een beleid wilt in- of uitschakelen of de beleidsp
 
 ### <a name="enable-or-disable-safe-links-policies"></a>Beleidsregels voor koppelingen in- Safe uitschakelen
 
-1. Ga in Microsoft 365 Defender portal naar **E-mail & samenwerkingsbeleid** & \> **beleidsregels** voor bedreigingsbeleidsregels Safe \>  \>  \> **Koppelingen.**
+1. Ga in Microsoft 365 Defender portal naar de sectie Beleidsregels voor **e-mail & samenwerkingsbeleid** & pagina Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Safe Koppelingen.**
 
 2. Selecteer op **Safe pagina Koppelingen** een beleid in de lijst door op de naam te klikken.
 
@@ -198,7 +198,7 @@ Als u de prioriteit van een beleid wilt wijzigen, klikt u op **Prioriteit verhog
 - In de Microsoft 365 Defender portal kunt u alleen de prioriteit van het Safe koppelingen wijzigen nadat u deze hebt gemaakt. In PowerShell kunt u de standaardprioriteit overschrijven wanneer u de regel veilige koppelingen maakt (die van invloed kan zijn op de prioriteit van bestaande regels).
 - Safe Koppelingenbeleid wordt verwerkt in de volgorde waarin ze worden weergegeven (het eerste beleid heeft de **waarde** Prioriteit 0). Voor meer informatie over de prioriteitvolgorde en het evalueren en toepassen van een beleid, raadpleegt u [volgorde en prioriteit van e-mailbeveiliging](how-policies-and-protections-are-combined.md).
 
-1. Ga in Microsoft 365 Defender portal naar **E-mail & samenwerkingsbeleid** & \> **beleidsregels** voor bedreigingsbeleidsregels Safe \>  \>  \> **Koppelingen.**
+1. Ga in Microsoft 365 Defender portal naar de sectie Beleidsregels voor **e-mail & samenwerkingsbeleid** & pagina Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Safe Koppelingen.**
 
 2. Selecteer op **Safe pagina Koppelingen** een beleid in de lijst door op de naam te klikken.
 
@@ -213,7 +213,7 @@ Als u de prioriteit van een beleid wilt wijzigen, klikt u op **Prioriteit verhog
 
 ## <a name="use-the-microsoft-365-defender-portal-to-remove-safe-links-policies"></a>Gebruik de Microsoft 365 Defender portal om het beleid voor koppelingen Safe verwijderen
 
-1. Ga in Microsoft 365 Defender portal naar **E-mail & samenwerkingsbeleid** & \> **beleidsregels** voor bedreigingsbeleidsregels Safe \>  \>  \> **Koppelingen.**
+1. Ga in Microsoft 365 Defender portal naar de sectie Beleidsregels voor **e-mail & samenwerkingsbeleid** & pagina Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Safe Koppelingen.**
 
 2. Selecteer op **Safe pagina Koppelingen** een beleid in de lijst door op de naam te klikken. Klik boven aan de flyout met beleidsdetails die wordt weergegeven, op het ![pictogram Meer acties](../../media/m365-cc-sc-more-actions-icon.png) **Meer acties** \> ![Pictogram Beleid verwijderen](../../media/m365-cc-sc-delete-icon.png) **Beleid verwijderen**.
 

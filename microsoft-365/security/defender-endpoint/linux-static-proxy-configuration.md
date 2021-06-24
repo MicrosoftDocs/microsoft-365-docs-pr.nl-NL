@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c5dc14c71c344bf508cda8d39f892d740781ac87
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 6dca58070d21271ffc832bcd628679303736f99e
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933119"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108137"
 ---
 # <a name="configure-microsoft-defender-for-endpoint-on-linux-for-static-proxy-discovery"></a>Microsoft Defender voor eindpunt configureren op Linux voor statische proxydetectie
 
@@ -34,7 +34,7 @@ ms.locfileid: "51933119"
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
+> Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
 Microsoft Defender voor Eindpunt kan een proxyserver ontdekken met behulp van de ```HTTPS_PROXY``` omgevingsvariabele. Deze instelling moet zowel **tijdens** de installatie als nadat het product is geïnstalleerd, zijn geconfigureerd.
 
@@ -73,6 +73,9 @@ Houd er rekening mee dat de installatie en verwijdering niet per se mislukt als 
 ## <a name="post-installation-configuration"></a>Configuratie na installatie
   
 Na de installatie moet de `HTTPS_PROXY` omgevingsvariabele zijn gedefinieerd in het Servicebestand van Defender voor Eindpunt. U doet dit door in een `/lib/systemd/system/mdatp.service` teksteditor te openen terwijl u als hoofdgebruiker wordt uitgevoerd. U kunt de variabele vervolgens op twee manieren doorgeven aan de service:
+
+    > [!NOTE]
+    > On CentOS or RedHat Linux distributions the location of the Endpoint service file is `/usr/lib/systemd/system/mdatp.service`.
 
 - Decommenteer de regel `#Environment="HTTPS_PROXY=http://address:port"` en geef uw statische proxyadres op.
 

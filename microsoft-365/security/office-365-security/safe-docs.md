@@ -16,12 +16,12 @@ ms.collection:
 description: Meer informatie over Safe documenten in Microsoft 365 E5 of Microsoft 365 E5 Security.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1049543b11ad14eeeed596367228f025cc8edd65
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: 0e1bd2150a04e51e0d06c6cd1c17a71a032df1a5
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054444"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108605"
 ---
 # <a name="safe-documents-in-microsoft-365-e5"></a>Veilige documenten in Microsoft 365 E5
 
@@ -62,7 +62,7 @@ Bestanden die door Safe Documenten worden niet bewaard in Defender na de tijd di
 
 ## <a name="use-the-microsoft-365-defender-to-configure-safe-documents"></a>De Microsoft 365 Defender gebruiken om documenten Safe configureren
 
-1. Open de Microsoft 365 Defender portal en ga naar **E-mail & samenwerkingsbeleid** & regels Beleidsregels voor bedreigingsbeleid \>  \>  \>  \> **Safe Bijlagen.**
+1. Open de Microsoft 365 Defender portal en ga naar **E-mail & samenwerkingsbeleid** & pagina Beleidsregels voor bedreigingsbeleid Safe \>  \>  \>  \> **Bijlagen.**
 
 2. Klik op **Safe pagina Bijlagen** op Algemene **instellingen.**
 
@@ -103,7 +103,7 @@ Zie Onboard to the Microsoft Defender for Endpoint service (Onboard [to the Micr
 
 Als u wilt controleren of u documenten hebt ingeschakeld en geconfigureerd Safe documenten, gaat u als volgt te werk:
 
-- Ga in de Microsoft 365 Defender-portal naar Beleidsregels voor samenwerking e-mail **&** & regels Beleidsbeleid voor bedreigingsbeleid Safe Algemene instellingen bijlagen en controleer het Safe-documenten voor \>  \>  \>  \>  \>  **Office-clients**  in- en toestaan dat personen door de beveiligde weergave kunnen klikken, zelfs als Safe Documenten het bestand identificeert als schadelijke instellingen.
+- Ga in de Microsoft 365 Defender-portal naar Het beleid voor e-mail **&** samenwerkingsbeleid & De pagina Beleidsregels voor bedreigingsbeleidsregels voor regels Safe Algemene instellingen bijlagen en controleer de sectie Safe-documenten in- en uitschakelen voor \>  \>  \>  \>  \>  **Office-clients**  en Personen toestaan door de beveiligde weergave te klikken, zelfs als Safe Documenten het bestand identificeert als schadelijke instellingen.
 
 - Voer de volgende opdracht uit in Exchange Online PowerShell en controleer de eigenschapswaarden:
 

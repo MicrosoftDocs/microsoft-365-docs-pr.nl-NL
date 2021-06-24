@@ -18,12 +18,12 @@ ms.collection:
 description: Beheerders kunnen meer informatie krijgen over het weergeven en configureren van algemene instellingen (de lijst 'De volgende URL's blokkeren' en beveiliging voor Office 365-apps) voor Safe-koppelingen in Microsoft Defender voor Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5b1bcdaf92412b17b231e3f4849bae8aab72f292
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 46bafd89400dfa551641c055f6f0e208c0ecd49f
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878530"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108041"
 ---
 # <a name="configure-global-settings-for-safe-links-in-microsoft-defender-for-office-365"></a>Algemene instellingen configureren voor Safe koppelingen in Microsoft Defender voor Office 365
 
@@ -51,7 +51,7 @@ U kunt de instellingen voor globale Safe-koppelingen configureren in de Microsof
 
 - Er is geen ingebouwd Safe standaardbeleid voor koppelingen, dus u moet ten minste één Safe-koppelingenbeleid maken om ervoor te zorgen dat de lijst Met de volgende **URL's** blokkeren actief is. Zie Beleidsregels voor [koppelingen instellen Safe Microsoft Defender voor](set-up-safe-links-policies.md)Office 365.
 
-- U opent de Microsoft 365 Defender-portal op <https://security.microsoft.com> . Als u rechtstreeks naar de pagina Safe **koppelingen wilt** gaan, gebruikt <https://security.microsoft.com/safelinksv2> u .
+- U opent de Microsoft 365 Defender-portal bij <https://security.microsoft.com>. Als u rechtstreeks naar de pagina Safe **koppelingen wilt** gaan, gebruikt <https://security.microsoft.com/safelinksv2> u .
 
 - Zie [Verbinding maken met Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) als u verbinding wilt maken met Exchange Online PowerShell. Zie [Verbinding maken met Exchange Online Protection PowerShell](/powershell/exchange/connect-to-exchange-online-protection-powershell) als je verbinding wilt maken met zelfstandige EOP PowerShell.
 
@@ -72,11 +72,11 @@ U kunt de instellingen voor globale Safe-koppelingen configureren in de Microsof
 
 - [Er worden voortdurend nieuwe functies toegevoegd aan Microsoft Defender voor Office 365.](defender-for-office-365.md#new-features-in-microsoft-defender-for-office-365) Als er nieuwe functies worden toegevoegd, moet u mogelijk uw bestaande Safe koppelingenbeleid aanpassen.
 
-## <a name="configure-the-block-the-following-urls-list-in-the-microsoft-365-defender-portal"></a>De lijst 'De volgende URL's blokkeren' configureren in de Microsoft 365 Defender-portal
+## <a name="configure-the-block-the-following-urls-list-in-the-microsoft-365-defender-portal"></a>De lijst 'De volgende URL's blokkeren' configureren in de Microsoft 365 Defender portal
 
 In **de lijst De volgende URL's** blokkeren worden de koppelingen geïdentificeerd die altijd moeten worden geblokkeerd door Safe Koppelingen scannen in ondersteunde apps. Zie 'De volgende [URL's blokkeren'](safe-links.md#block-the-following-urls-list-for-safe-links)voor meer Safe koppelingen.
 
-1. Ga in Microsoft 365 Defender-portal naar De sectie Beleidsregels voor **e-mail &** samenwerkingsbeleid & Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Safe Koppelingen.**
+1. Ga in Microsoft 365 Defender portal naar de sectie Beleidsregels voor **e-mail & samenwerkingsbeleid** & pagina Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Safe Koppelingen.**
 
 2. Klik op **Safe pagina Koppelingen** op Algemene **instellingen.** Ga in **Safe beleid voor koppelingen** voor uw organisatie dat wordt weergegeven naar het vak De volgende **URL's blokkeren.**
 
@@ -117,11 +117,11 @@ U kunt de **cmdlet Get-AtpPolicyForO365** gebruiken om bestaande items in de eig
   Set-AtpPolicyForO365 -BlockUrls @{Add="adatum.com"; Remove="fabrikam"}
   ```
 
-## <a name="configure-safe-links-protection-for-office-365-apps-in-the-microsoft-365-defender-portal"></a>Beveiliging Safe koppelingen configureren voor Office 365 apps in Microsoft 365 Defender-portal
+## <a name="configure-safe-links-protection-for-office-365-apps-in-the-microsoft-365-defender-portal"></a>Beveiliging Safe koppelingen configureren voor Office 365 apps in de Microsoft 365 Defender portal
 
 Safe Koppelingenbeveiliging voor Office 365 apps is van toepassing op documenten in ondersteunde Office desktop-, mobiele en web-apps. Zie de instellingen voor koppelingen Safe voor Office 365 [voor meer informatie.](safe-links.md#safe-links-settings-for-office-365-apps)
 
-1. Ga in Microsoft 365 Defender-portal naar De sectie Beleidsregels voor **e-mail &** samenwerkingsbeleid & Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Safe Koppelingen.**
+1. Ga in Microsoft 365 Defender portal naar de sectie Beleidsregels voor **e-mail & samenwerkingsbeleid** & pagina Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Safe Koppelingen.**
 
 2. Klik op **Safe pagina Koppelingen** op Algemene **instellingen.** In het **Safe koppelingenbeleid** voor uw organisatie dat wordt weergegeven, configureert u de volgende instellingen in de Instellingen die van toepassing zijn op inhoud in de sectie **ondersteunde Office 365 apps:**
 
@@ -157,7 +157,7 @@ Zie [Set-AtpPolicyForO365](/powershell/module/exchange/set-atppolicyforo365)voor
 
 Ga als volgt te werk om te controleren of u de algemene instellingen voor Safe-koppelingen hebt geconfigureerd (de lijst Met de volgende **URL's** blokkeren en de instellingen voor Office 365-app-beveiliging:
 
-- Ga in de Microsoft 365 Defender-portal naar Het samenwerkingsbeleid voor e-mail **&** & Beleidsregels voor bedreigingsbeleid Safe Koppelingen klik op Algemene instellingen en controleer de instellingen in de \>  \>  \>  \>  \> fly-out die wordt weergegeven.
+- Ga in de Microsoft 365 Defender-portal naar Het beleid voor e-mail **&** samenwerkingsbeleid & Pagina Beleidsregels Bedreigingsbeleid Safe Koppelingen klik op Algemene instellingen en controleer de instellingen in de \>  \>  \>  \>  \> fly-out die wordt weergegeven.
 
 - Voer in Exchange Online PowerShell of Exchange Online Protection PowerShell de volgende opdracht uit en controleer de instellingen:
 

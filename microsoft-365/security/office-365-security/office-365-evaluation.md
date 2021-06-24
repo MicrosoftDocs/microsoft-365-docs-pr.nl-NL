@@ -19,12 +19,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 89562a5fd7c2d869f8a060e7ceda1c32a093c175
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: 0cf2d19b06dc1cce154785d8c42742fdc12d3259
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53083666"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108329"
 ---
 # <a name="evaluate-microsoft-defender-for-office-365"></a>Microsoft Defender evalueren voor Office 365
 
@@ -40,7 +40,7 @@ De [evaluatieervaring van Microsoft Defender voor Office 365](defender-for-offic
 Als u nog geen licentie hebt die Microsoft Defender voor Office 365 ondersteunt, kunt u een gratis evaluatie van [30](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA) dagen starten en de mogelijkheden testen in de Microsoft 365 Defender portal op <https://security.microsoft.com> . U zult genieten van de snelle set-up en u kunt deze eenvoudig uitschakelen indien nodig.
 
 > [!NOTE]
-> Als u zich in de Microsoft 365 Defender portal (), kunt u hier een Defender voor Office 365-evaluatie starten: E-mail <https://security.microsoft.com> **& Samenwerkingsbeleid** & \> **Regels** Bedreigingsbeleid Andere sectie \>  \>  \> **Evaluatiemodus.**
+> Als u zich in de Microsoft 365 Defender-portal (), kunt u hier een Defender voor Office 365-evaluatie starten: E-mail & Samenwerkingsbeleid & Pagina Beleidsregels <https://security.microsoft.com>  \>  \>  \> **Bedreigingsbeleid Pagina** \> Andere sectie Evaluatiemodus .
 
 ## <a name="how-the-evaluation-works"></a>De manier waarop de evaluatie werkt
 

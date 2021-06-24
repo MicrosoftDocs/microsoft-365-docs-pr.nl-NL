@@ -15,12 +15,12 @@ ms.collection:
 description: Beheerders kunnen leren hoe ze standaard- en striktbeleidsinstellingen kunnen toepassen op de beveiligingsfuncties van Exchange Online Protection (EOP) en Microsoft Defender voor Office 365
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: eb5fb2e882348e2cd0480abf5ad7217095b2522d
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: e41edb6c2d77a69ee3d4fa28ff86e0e77410caa5
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53083486"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108293"
 ---
 # <a name="preset-security-policies-in-eop-and-microsoft-defender-for-office-365"></a>Vooraf ingestelde beveiligingsbeleidsregels in EOP en Microsoft Defender voor Office 365
 
@@ -119,7 +119,7 @@ Met andere woorden, de  instellingen van het strikte beveiligingsbeleid overschr
 
 ### <a name="use-the-microsoft-365-defender-portal-to-assign-preset-security-policies-to-users"></a>De portal Microsoft 365 Defender gebruiken om vooraf ingestelde beveiligingsbeleidsregels toe te wijzen aan gebruikers
 
-1. Ga in Microsoft 365 Defender portal naar **Beleidsregels** voor e-mail & samenwerkingsbeleid & sectie Beleidsregels voor bedreigingsbeleidssjabloonbeleid Vooraf ingesteld \>  \>  \>  \> **beveiligingsbeleid.**
+1. Ga in Microsoft 365 Defender portal naar **E-mail & Samenwerkingsbeleid** & pagina Regels bedreigingsbeleid sectie Beleidsregels vooraf ingesteld \>  \>  \>  \> **beveiligingsbeleid.**
 
 2. Klik **onder Standaardbeveiliging** **of Strikte beveiliging** op **Bewerken.**
 

@@ -18,12 +18,12 @@ description: Meer informatie over het definiëren van Safe bijlagenbeleid om uw 
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e7220140c25ecf457b42514356e41aabdf5481bb
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: e516a16ff28c762e154fd908312df65ea48699bc
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054333"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108221"
 ---
 # <a name="set-up-safe-attachments-policies-in-microsoft-defender-for-office-365"></a>Het beleid Safe bijlagen instellen in Microsoft Defender voor Office 365
 
@@ -83,7 +83,7 @@ In Exchange Online PowerShell of standalone EOP PowerShell beheert u het beleid 
 
 Als u een aangepast Safe-bijlagebeleid maakt in de Microsoft 365 Defender-portal, worden de veilige bijlageregel en het bijbehorende beleid voor veilige bijlagen tegelijk gemaakt met dezelfde naam voor beide.
 
-1. Ga in Microsoft 365 Defender portal naar **E-mail** & samenwerkingsbeleid & regels Beleidsregels voor bedreigingsbeleid \>  \>  \>  \> **Safe Bijlagen.**
+1. Ga in Microsoft 365 Defender portal naar De sectie Beleidsregels voor **e-mail &** samenwerkingsbeleid & pagina Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Safe Bijlagen.**
 
 2. Klik op **Safe pagina Bijlagen** op Pictogram Maken ![ ](../../media/m365-cc-sc-create-icon.png) **maken.**
 
@@ -135,7 +135,7 @@ Als u een aangepast Safe-bijlagebeleid maakt in de Microsoft 365 Defender-portal
 
 ## <a name="use-the-microsoft-365-defender-portal-to-view-safe-attachments-policies"></a>Gebruik de Microsoft 365 Defender portal om de Safe bijlagen te bekijken
 
-1. Ga in Microsoft 365 Defender portal naar **E-mail** & samenwerkingsbeleid & regels Beleidsregels voor bedreigingsbeleid \>  \>  \>  \> **Safe Bijlagen.**
+1. Ga in Microsoft 365 Defender portal naar De sectie Beleidsregels voor **e-mail &** samenwerkingsbeleid & pagina Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Safe Bijlagen.**
 
 2. Op de **Safe bijlagen worden** de volgende eigenschappen weergegeven in de lijst met beleidsregels:
    - **Naam**
@@ -146,7 +146,7 @@ Als u een aangepast Safe-bijlagebeleid maakt in de Microsoft 365 Defender-portal
 
 ## <a name="use-the-microsoft-365-defender-portal-to-modify-safe-attachments-policies"></a>Gebruik de Microsoft 365 Defender portal om het beleid voor bijlagen Safe wijzigen
 
-1. Ga in Microsoft 365 Defender portal naar **E-mail** & samenwerkingsbeleid & regels Beleidsregels voor bedreigingsbeleid \>  \>  \>  \> **Safe Bijlagen.**
+1. Ga in Microsoft 365 Defender portal naar De sectie Beleidsregels voor **e-mail &** samenwerkingsbeleid & pagina Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Safe Bijlagen.**
 
 2. Selecteer op **Safe pagina Bijlagen** een beleid in de lijst door op de naam te klikken.
 
@@ -156,7 +156,7 @@ Zie de volgende secties als u een beleid wilt in- of uitschakelen of de beleidsp
 
 ### <a name="enable-or-disable-safe-attachments-policies"></a>Het beleid voor bijlagen Safe in- of uitschakelen
 
-1. Ga in Microsoft 365 Defender portal naar **E-mail** & samenwerkingsbeleid & regels Beleidsregels voor bedreigingsbeleid \>  \>  \>  \> **Safe Bijlagen.**
+1. Ga in Microsoft 365 Defender portal naar De sectie Beleidsregels voor **e-mail &** samenwerkingsbeleid & pagina Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Safe Bijlagen.**
 
 2. Selecteer op **Safe pagina Bijlagen** een beleid in de lijst door op de naam te klikken.
 
@@ -182,7 +182,7 @@ Safe Bijlagenbeleid wordt weergegeven in de volgorde waarin ze worden verwerkt (
 
 Als u de prioriteit van een beleid wilt wijzigen, klikt u op **Prioriteit verhogen** of **Prioriteit verlagen** in de eigenschappen van het beleid (u kunt het **Prioriteitsnummer** niet rechtstreeks wijzigen in de Microsoft 365 Defender-portal). Het wijzigen van de prioriteit van een beleid is alleen zinvol als u meerdere beleidsregels hebt.
 
-1. Ga in Microsoft 365 Defender portal naar **E-mail** & samenwerkingsbeleid & regels Beleidsregels voor bedreigingsbeleid \>  \>  \>  \> **Safe Bijlagen.**
+1. Ga in Microsoft 365 Defender portal naar De sectie Beleidsregels voor **e-mail &** samenwerkingsbeleid & pagina Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Safe Bijlagen.**
 
 2. Selecteer op **Safe pagina Bijlagen** een beleid in de lijst door op de naam te klikken.
 
@@ -197,7 +197,7 @@ Als u de prioriteit van een beleid wilt wijzigen, klikt u op **Prioriteit verhog
 
 ## <a name="use-the-microsoft-365-defender-portal-to-remove-safe-attachments-policies"></a>Gebruik de Microsoft 365 Defender portal om de Safe bijlagen te verwijderen
 
-1. Ga in Microsoft 365 Defender portal naar **E-mail** & samenwerkingsbeleid & regels Beleidsregels voor bedreigingsbeleid \>  \>  \>  \> **Safe Bijlagen.**
+1. Ga in Microsoft 365 Defender portal naar De sectie Beleidsregels voor **e-mail &** samenwerkingsbeleid & pagina Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Safe Bijlagen.**
 
 2. Selecteer op **Safe pagina Bijlagen** een aangepast beleid in de lijst door op de naam van het beleid te klikken.
 
@@ -439,7 +439,7 @@ Zie [Remove-SafeAttachmentRule (Remove-SafeAttachmentRule)](/powershell/module/e
 
 Als u wilt controleren of u het beleid voor bijlagen hebt gemaakt, gewijzigd of Safe verwijderd, gaat u als volgt te werk:
 
-- Ga in Microsoft 365 Defender portal naar **E-mail** & samenwerkingsbeleid & regels Beleidsregels voor bedreigingsbeleid \>  \>  \>  \> **Safe Bijlagen.** Controleer de lijst met beleidsregels, de **statuswaarden** en de **prioriteitswaarden.** Als u meer details wilt weergeven, selecteert u het beleid in de lijst door op de naam te klikken en de details in de fly-out weer te geven.
+- Ga in Microsoft 365 Defender portal naar De sectie Beleidsregels voor **e-mail &** samenwerkingsbeleid & pagina Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Safe Bijlagen.** Controleer de lijst met beleidsregels, de **statuswaarden** en de **prioriteitswaarden.** Als u meer details wilt weergeven, selecteert u het beleid in de lijst door op de naam te klikken en de details in de fly-out weer te geven.
 
 - Vervang Exchange Online PowerShell of Exchange Online Protection PowerShell door de naam van het beleid of de regel, voer de volgende opdracht uit en controleer \<Name\> de instellingen:
 

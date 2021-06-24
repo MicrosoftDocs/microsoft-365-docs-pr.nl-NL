@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Lees hoe u uw gevoelige informatie kunt beveiligen met Microsoft 365 beleid en hulpprogramma's voor preventie van gegevensverlies en een rondleiding kunt volgen door de DLP-levenscyclus.
-ms.openlocfilehash: 88cf913f62d28c89bce7054473eb577217de9489
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 9b449886e0856f7407fcd49b83192dd0c01474bd
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244610"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108257"
 ---
 # <a name="learn-about-data-loss-prevention"></a>Meer informatie over preventie van gegevensverlies
 
@@ -121,7 +121,9 @@ Houd in de testmodus de resultaten van het beleid in de gaten en pas het aan zod
 
 #### <a name="enable-the-control-and-tune-your-policies"></a>Het besturingselement inschakelen en uw beleid afstemmen
 
-Wanneer het beleid aan al uw doelstellingen voldoet, zet u het in. Blijf de resultaten van de beleidstoepassing controleren en zo nodig afstemmen. Over het algemeen worden beleidsregels ongeveer een uur na het in- en uit <!--See, KOPPELING NAAR-onderwerp voor SLA's voor locatiespecifieke details, >
+Wanneer het beleid aan al uw doelstellingen voldoet, zet u het in. Blijf de resultaten van de beleidstoepassing controleren en zo nodig afstemmen. Over het algemeen worden beleidsregels ongeveer een uur na het in- en uit 
+
+<!--See, LINK TO topic for SLAs for location specific  details-->
 
 ## <a name="dlp-policy-configuration-overview"></a>Overzicht van DLP-beleidsconfiguratie
 
@@ -165,7 +167,7 @@ All DLP policies are created and maintained in the Microsoft 365 Compliance cent
 
 Nadat u een DLP-beleid hebt in het Compliancecentrum, wordt het opgeslagen in een centrale beleidsopslag en vervolgens gesynchroniseerd met de verschillende inhoudsbronnen, waaronder:
   
-- Exchange Online, en van daar naar Outlook op het web en Outlook.
+- Exchange Online en van daar naar webversie van Outlook en Outlook.
 - OneDrive voor Bedrijven sites.
 - SharePoint Onlinesites.
 - Office bureaubladprogramma's (Excel, PowerPoint en Word).

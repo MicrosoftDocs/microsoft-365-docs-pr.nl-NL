@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 07593fac6ed9a3fbc00d904718380b386f31dba3
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 0e7634177e58b558381fdc230533b55cade9dc13
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893411"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108509"
 ---
 # <a name="collect-support-logs-in-microsoft-defender-for-endpoint-using-live-response"></a>Ondersteuningslogboeken verzamelen in Microsoft Defender voor Eindpunt met livereactie 
 
@@ -30,7 +30,7 @@ ms.locfileid: "51893411"
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 
+> Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 
 
 
 Wanneer u contact op wilt nemen met de ondersteuning, wordt u mogelijk gevraagd om het uitvoerpakket van het hulpprogramma Microsoft Defender voor Endpoint Client Analyzer op te geven.
@@ -63,7 +63,7 @@ In dit onderwerp vindt u instructies voor het uitvoeren van het hulpprogramma vi
 
     ```console
     Run MDELiveAnalyzer.ps1
-    GetFile "C:\ProgramData\Microsoft\Windows Defender Advanced Threat Protection\Downloads\MDEClientAnalyzerResult.zip" -auto
+    GetFile "C:\ProgramData\Microsoft\Windows Defender Advanced Threat Protection\Downloads\MDEClientAnalyzerResult.zip"
     ```
 
     [![Afbeelding van opdrachten ](images/analyzer-commands.png)](images/analyzer-commands.png#lightbox)
@@ -79,7 +79,7 @@ In dit onderwerp vindt u instructies voor het uitvoeren van het hulpprogramma vi
 >   ```console
 >   PutFile MDEClientAnalyzerPreview.zip -overwrite
 >   Run MDELiveAnalyzer.ps1
->   GetFile "C:\ProgramData\Microsoft\Windows Defender Advanced Threat Protection\Downloads\MDEClientAnalyzerResult.zip" -auto
+>   GetFile "C:\ProgramData\Microsoft\Windows Defender Advanced Threat Protection\Downloads\MDEClientAnalyzerResult.zip" 
 >   ```
 > 
 > - Zie Clientconnectiviteit verifiëren met Microsoft Defender voor [endpoint-service-URL's](configure-proxy-internet.md#verify-client-connectivity-to-microsoft-defender-for-endpoint-service-urls)voor meer informatie over het lokaal verzamelen van gegevens op een computer voor het geval de computer niet communiceert met Microsoft Defender voor endpoint-cloudservices of niet wordt weergegeven in de Microsoft Defender for Endpoint-portal zoals verwacht.

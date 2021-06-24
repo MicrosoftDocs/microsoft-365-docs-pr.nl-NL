@@ -19,12 +19,12 @@ description: Beheerders kunnen leren hoe het nabootsingsinzicht werkt. Ze kunnen
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: cebccf09c30264d1b7c94185eb4ad28a1b1cf75e
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: b7254dce40f72ecc01dc532f1b6c51f252a2b3ac
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53083402"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108629"
 ---
 # <a name="impersonation-insight-in-defender-for-office-365"></a>Inzicht in imitatie in Defender voor Office 365
 
@@ -66,7 +66,7 @@ U kunt het inzicht in imitatie in de Microsoft 365 Defender portal gebruiken om 
 
 ## <a name="open-the-impersonation-insight-in-the-microsoft-365-defender-portal"></a>Het inzicht in imitatie openen in de Microsoft 365 Defender portal
 
-1. Ga in Microsoft 365 Defender portal naar **E-mail & samenwerkingsbeleid** & sectie Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Anti-phishing**.
+1. Ga in Microsoft 365 Defender portal naar De sectie Beleidsregels voor **e-mail & samenwerkingsbeleid** & pagina Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Anti-phishing**.
 
 2. Op de **pagina Anti-phishing** ziet het nabootsingsinzicht er als volgende uit:
 
