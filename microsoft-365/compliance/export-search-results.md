@@ -20,14 +20,14 @@ search.appverid:
 - MED150
 - MET150
 ms.assetid: ed48d448-3714-4c42-85f5-10f75f6a4278
-description: Exporteert de zoekresultaten van een inhoudszoekactie in het Microsoft 365 compliancecentrum naar een lokale computer. E-mailresultaten worden geëxporteerd als PST-bestanden. Inhoud van SharePoint en OneDrive voor Bedrijven sites worden geëxporteerd als inheems Office documenten.
+description: Exporteert de zoekresultaten van een inhoudszoekactie in de Microsoft 365-compliancecentrum naar een lokale computer. E-mailresultaten worden geëxporteerd als PST-bestanden. Inhoud van SharePoint en OneDrive voor Bedrijven sites worden geëxporteerd als inheems Office documenten.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b39bb52457599090f2898da222c71a3a56889290
-ms.sourcegitcommit: 727a75b604d5ff5946a0854662ad5a8b049f2874
+ms.openlocfilehash: d3ae14fc0ac31e50d579668c7fafba5390c5b8fc
+ms.sourcegitcommit: 8b79d276f71f22bcaeb150e78e35101cb1ae0375
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52653533"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53114762"
 ---
 # <a name="export-content-search-results"></a>Zoekresultaten voor inhoud exporteren
 
@@ -90,7 +90,7 @@ Als u de resultaten van een inhoudszoekactie exporteert, worden de resultaten vo
 
 De eerste stap is het voorbereiden van de zoekresultaten voor het exporteren. Wanneer u de resultaten voorbereidt, worden deze geüpload naar een door Microsoft verstrekte Azure Storage in de Microsoft-cloud. Inhoud van postvakken en sites wordt geüpload met een maximumsnelheid van 2 GB per uur.
   
-1. Selecteer in Microsoft 365 compliancecentrum de inhoudszoekactie waaruit u resultaten wilt exporteren.
+1. Selecteer in Microsoft 365-compliancecentrum de inhoudszoekactie waaruit u resultaten wilt exporteren.
   
 2. Klik in **het** menu Acties onder aan de flyoutpagina op **Resultaten exporteren.**
 
@@ -133,6 +133,8 @@ De eerste stap is het voorbereiden van de zoekresultaten voor het exporteren. Wa
    2. Schakel het **selectievakje Versies opnemen voor SharePoint bestanden in** om alle versies van documenten SharePoint exporteren. Deze optie wordt alleen weergegeven als de inhoudsbronnen van de zoekopdracht sites SharePoint of OneDrive voor Bedrijven bevatten.
   
    3. Selecteer de **bestanden exporteren in een gecomprimeerde map (geritst). Bevat alleen afzonderlijke berichten en SharePoint documenten om** zoekresultaten te exporteren naar gecomprimeerde mappen. Deze optie wordt alleen weergegeven wanneer u ervoor kiest om items Exchange te exporteren als afzonderlijke berichten en wanneer de zoekresultaten documenten SharePoint of OneDrive bevatten. Deze optie wordt voornamelijk gebruikt om te werken rond de limiet van 260 tekens in Windows bestandspadnamen wanneer items worden geëxporteerd. Zie de 'Bestandsnaam van geëxporteerde items' in [de sectie Meer](#more-information) informatie.
+   > [!IMPORTANT]
+   > Als u bestanden in een gecomprimeerde map (geritst) exporteert, worden de exporttijden groter.
   
 6. Klik **op Exporteren** om het exportproces te starten. De zoekresultaten zijn voorbereid voor het downloaden, wat betekent dat ze worden verzameld vanaf de oorspronkelijke inhoudslocaties en vervolgens worden geüpload naar een Azure Storage locatie in de Microsoft-cloud. Dit kan enkele minuten duren.
 
@@ -142,7 +144,7 @@ Zie de volgende sectie voor instructies voor het downloaden van de geëxporteerd
 
 De volgende stap is het downloaden van de zoekresultaten van de Azure Storage locatie naar uw lokale computer.
   
-1. Selecteer op **de pagina Inhoud** zoeken in het Microsoft 365 compliancecentrum het tabblad **Exporten**
+1. Selecteer op **de pagina** Inhoud zoeken in de Microsoft 365-compliancecentrum het **tabblad Exporten**
   
    Mogelijk moet u op Vernieuwen klikken **om** de lijst met exporttaken bij te werken, zodat de exporttaken worden weergegeven die u hebt gemaakt. Exporttaken hebben dezelfde naam als de bijbehorende zoekopdracht **met _Export** toegevoegd aan de zoeknaam.
   

@@ -18,17 +18,17 @@ search.appverid:
 - MET150
 ms.assetid: e3cbc79c-5e97-43d3-8371-9fbc398cd92e
 ms.custom: seo-marvel-apr2020
-description: Gebruik Inhoud zoeken in het Microsoft 365 compliancecentrum om een gerichte verzameling uit te voeren, waarin wordt gezocht naar items in een specifiek postvak of sitemap.
-ms.openlocfilehash: cf0364d39a78e1bbbc062d85ce750d190fbbda5a
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+description: Gebruik Inhoud zoeken in de Microsoft 365-compliancecentrum om een gerichte verzameling uit te voeren, waarin wordt gezocht naar items in een specifiek postvak of sitemap.
+ms.openlocfilehash: 925a6e5e0e56c63cde8bfa1b39cca6e64abcd016
+ms.sourcegitcommit: 8b79d276f71f22bcaeb150e78e35101cb1ae0375
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52311894"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53114750"
 ---
 # <a name="use-content-search-for-targeted-collections"></a>Inhoud zoeken gebruiken voor gerichte verzamelingen
 
-Het zoekprogramma Inhoud in het Microsoft 365 compliancecentrum biedt geen directe manier in de gebruikersinterface om specifieke mappen te zoeken in Exchange postvakken of SharePoint en OneDrive voor Bedrijven sites. Het is echter mogelijk om specifieke mappen (een gerichte verzameling *genoemd)* te doorzoeken door de eigenschap Map-id op te geven voor de eigenschap e-mail of pad (DocumentLink) voor sites in de syntaxis van de werkelijke zoekquery. Het gebruik van Inhoud zoeken om een gerichte verzameling uit te voeren is handig als u zeker weet dat items die reageren op een zaak of bevoorrechte items zich bevinden in een specifiek postvak of sitemap. U kunt het script in dit artikel gebruiken om de map-id te verkrijgen voor postvakmappen of het pad (DocumentLink) voor mappen op een SharePoint en OneDrive voor Bedrijven site. Vervolgens kunt u de map-id of het pad in een zoekquery gebruiken om items in de map te retourneren.
+Het zoekhulpmiddel Inhoud in de Microsoft 365-compliancecentrum biedt geen directe manier in de gebruikersinterface om specifieke mappen te zoeken in Exchange postvakken of SharePoint en OneDrive voor Bedrijven sites. Het is echter mogelijk om specifieke mappen (een gerichte verzameling *genoemd)* te doorzoeken door de eigenschap Map-id op te geven voor de eigenschap e-mail of pad (DocumentLink) voor sites in de syntaxis van de werkelijke zoekquery. Het gebruik van Inhoud zoeken om een gerichte verzameling uit te voeren is handig als u zeker weet dat items die reageren op een zaak of bevoorrechte items zich bevinden in een specifiek postvak of sitemap. U kunt het script in dit artikel gebruiken om de map-id te verkrijgen voor postvakmappen of het pad (DocumentLink) voor mappen op een SharePoint en OneDrive voor Bedrijven site. Vervolgens kunt u de map-id of het pad in een zoekquery gebruiken om items in de map te retourneren.
 
 > [!NOTE]
 > Als u inhoud wilt retourneren in een map op een SharePoint of OneDrive voor Bedrijven site, gebruikt het script in dit onderwerp de beheerde eigenschap DocumentLink in plaats van de eigenschap Pad. De eigenschap DocumentLink is krachtiger dan de eigenschap Pad, omdat hierdoor alle inhoud in een map wordt retourneren, terwijl sommige mediabestanden niet worden teruggeslagen met de eigenschap Pad.
@@ -216,17 +216,19 @@ Hier is een voorbeeld van de uitvoer die wordt geretourneerd door het script voo
 
 ## <a name="step-2-use-a-folder-id-or-documentlink-to-perform-a-targeted-collection"></a>Stap 2: Een map-id of documentlink gebruiken om een gerichte verzameling uit te voeren
 
-Nadat u het script hebt uitgevoerd om een lijst met map-1D's of documentkoppelingen voor een specifieke gebruiker te verzamelen, gaat u naar het compliancecentrum van Microsoft 365 en maakt u een nieuwe inhoudszoekactie om in een specifieke map te zoeken. U gebruikt het paar of eigenschap:waarde in de zoekquery die u configureert in het vak Trefwoord Inhoud zoeken (of als de waarde voor de  `folderid:<folderid>` parameter  `documentlink:<path>`  *ContentMatchQuery*  als u de **cmdlet New-ComplianceSearch** gebruikt). U kunt de  `folderid`  `documentlink` of-eigenschap combineren met andere zoekparameters of zoekvoorwaarden. Als u alleen de eigenschap of eigenschap in de query op neemt, worden alle items in de opgegeven map  `folderid`  `documentlink` als retourneert.
+Nadat u het script hebt uitgevoerd om een lijst met map-eds of documentkoppelingen voor een specifieke gebruiker te verzamelen, gaat u naar de Microsoft 365-compliancecentrum en maakt u een nieuwe inhoudszoekfunctie om in een specifieke map te zoeken. U gebruikt het paar of eigenschap:waarde in de zoekquery die u configureert in het vak Trefwoord Inhoud zoeken (of als de waarde voor de  `folderid:<folderid>` parameter  `documentlink:<path>`  *ContentMatchQuery*  als u de **cmdlet New-ComplianceSearch** gebruikt). U kunt de  `folderid`  `documentlink` of-eigenschap combineren met andere zoekparameters of zoekvoorwaarden. Als u alleen de eigenschap of eigenschap in de query op neemt, worden alle items in de opgegeven map  `folderid`  `documentlink` als retourneert.
 
 1. Ga naar en meld u aan met het account en de referenties die u hebt gebruikt om het script uit te <https://compliance.microsoft.com> voeren in stap 1.
 
 2. Klik in het linkerdeelvenster van het compliancecentrum op **Alle** inhoud  >  **zoeken weergeven** en klik vervolgens op Nieuwe **zoekopdracht.**
 
-3. Plak in **het vak** Trefwoorden de of de waarde die is geretourneerd door het script in `folderid:<folderid>` stap  `documentlink:<path>` 1.
+3. Plak in **het vak** Trefwoorden de of de waarde die is geretourneerd door het script in `folderid:<folderid>` stap  `documentlink:<path>/*` 1.
 
     In de query in de volgende schermafbeelding wordt bijvoorbeeld gezocht naar een item in de submap Purges in de map Herstelbare items van de gebruiker (de waarde van de eigenschap voor de submap Purges wordt weergegeven in de `folderid` schermafbeelding in stap 1):
 
     ![De mapid of documentlink plakken in het trefwoordvak van de zoekquery](../media/FolderIDSearchQuery.png)
+    > [!IMPORTANT]
+    > Voor documentlinkzoekingen is het gebruik van een trailing  `asterisk '/*'` vereist.  
 
 4. Selecteer **onder** Locaties de optie **Specifieke locaties** en klik vervolgens op **Wijzigen.**
 
@@ -259,13 +261,13 @@ Hier zijn enkele voorbeelden van het gebruik van de eigenschappen en eigenschapp
 - In dit voorbeeld wordt in een sitemap (en eventuele submappen) gezocht naar documenten met de letters 'NDA' in de titel.
 
   ```powershell
-  documentlink:<path> AND filename:nda
+  documentlink:"<path>/*" AND filename:nda
   ```
 
 - In dit voorbeeld wordt in een sitemap (en een submap) gezocht naar documenten die binnen een datumbereik zijn gewijzigd.
 
   ```powershell
-  documentlink:<path> AND (lastmodifiedtime>=01/01/2017 AND lastmodifiedtime<=01/21/2017)
+  documentlink:"<path>/*" AND (lastmodifiedtime>=01/01/2017 AND lastmodifiedtime<=01/21/2017)
   ```
 
 ## <a name="more-information"></a>Meer informatie
