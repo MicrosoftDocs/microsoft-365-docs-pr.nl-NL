@@ -17,12 +17,12 @@ ms.collection:
 description: Beheerders kunnen het antispambeleid in Exchange Online Protection (EOP) bekijken, maken, wijzigen en verwijderen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: bb3e378c13507e354cdd1d739214c1c2d9d6aa98
-ms.sourcegitcommit: 959c3c3633e40b7b0f5e2c8372409778005a24db
+ms.openlocfilehash: afcb82789168999f5f061ca0f86ad3c07b54846d
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52950093"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108233"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Antispambeleid configureren in EOP
 
@@ -83,7 +83,7 @@ Om de effectiviteit van spamfilters te verhogen, kunt u aangepast antispambeleid
 
 Wanneer u antispambeleid maakt in de Microsoft 365 Defender-portal worden tegelijkertijd een spamfilterregel en het bijbehorende spamfilterbeleid gemaakt met dezelfde naam voor beide.
 
-1. Ga in de Microsoft 365 Defender-portal naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
+1. Ga in de Microsoft 365 Defender-portal naar **E-mail en samenwerking** \> **Beleid en regels** \> pagina **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
 
 2. Klik op de pagina **Antispambeleid** achtereenvolgens op ![Pictogram maken](../../media/m365-cc-sc-create-icon.png), **Beleid maken** en selecteer in de vervolgkeuzelijst de optie **Binnenkomend**.
 
@@ -242,7 +242,7 @@ Wanneer u antispambeleid maakt in de Microsoft 365 Defender-portal worden tegeli
 
 ## <a name="use-the-microsoft-365-defender-portal-to-view-anti-spam-policies"></a>De Microsoft 365 Defender-portal gebruiken om antispambeleid te bekijken
 
-1. Ga in de Microsoft 365 Defender-portal naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
+1. Ga in de Microsoft 365 Defender-portal naar **E-mail en samenwerking** \> **Beleid en regels** \> pagina **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
 
 2. Zoek op de pagina **Antispambeleid** een van de volgende waarden:
    - De waarde **Type** is **Aangepast antispambeleid**
@@ -259,7 +259,7 @@ Wanneer u antispambeleid maakt in de Microsoft 365 Defender-portal worden tegeli
 
 ## <a name="use-the-microsoft-365-defender-portal-to-modify-anti-spam-policies"></a>De Microsoft 365 Defender-portal gebruiken om antispambeleid te wijzigen
 
-1. Ga in de Microsoft 365 Defender-portal naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
+1. Ga in de Microsoft 365 Defender-portal naar **E-mail en samenwerking** \> **Beleid en regels** \> pagina **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
 
 2. Selecteer op de pagina **Antispambeleidsregels** een antispambeleid in de lijst door op de naam te klikken:
    - Aangepast beleid dat u hebt gemaakt, waarvan de waarde in de kolom **Type**, **Aangepast antispambeleid** is.
@@ -275,7 +275,7 @@ Zie de volgende secties om beleid in- of uit te schakelen, de prioriteit van bel
 
 U kunt het standaardantispambeleid niet uitschakelen.
 
-1. Ga in de Microsoft 365 Defender-portal naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
+1. Ga in de Microsoft 365 Defender-portal naar **E-mail en samenwerking** \> **Beleid en regels** \> pagina **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
 
 2. Selecteer op de pagina **Antispambeleid** een beleid met de **Waarde type** van **Aangepast antispambeleid** uit de lijst door op de naam de klikken.
 
@@ -300,7 +300,7 @@ Als u de prioriteit van een beleid wilt wijzigen, klikt u op **Prioriteit verhog
 - In de Microsoft 365 Defender-portal kunt u alleen de prioriteit wijzigen van het antispambeleid nadat u het hebt gemaakt. In PowerShell kunt u de standaardprioriteit vervangen wanneer u de spamfilterbeleidsregel maakt (die kan de prioriteit van bestaande regels beïnvloeden).
 - Antispambeleid wordt verwerkt in de volgorde waarin het wordt weergegeven (het eerste beleid heeft de **Prioriteitswaarde** 0). Het standaardantispambeleid heeft de prioriteitswaarde **Laagste** en dat kunt u niet wijzigen.
 
-1. Ga in de Microsoft 365 Defender-portal naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
+1. Ga in de Microsoft 365 Defender-portal naar **E-mail en samenwerking** \> **Beleid en regels** \> pagina **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
 
 2. Selecteer op de pagina **Antispambeleid** een beleid met de **Waarde type** van **Aangepast antispambeleid** uit de lijst door op de naam de klikken.
 
@@ -317,7 +317,7 @@ Als u de prioriteit van een beleid wilt wijzigen, klikt u op **Prioriteit verhog
 
 Wanneer in een spamfilterbeoordeling een bericht in quarantaine wordt geplaatst, kunt u spammeldingen voor eindgebruikers configureren om geadresseerden te laten weten wat er is gebeurd met berichten die naar hen zijn verzonden. Zie [Spammeldingen voor eindgebruikers in EOP](use-spam-notifications-to-release-and-report-quarantined-messages.md) voor meer informatie over deze meldingen.
 
-1. Ga in de Microsoft 365 Defender-portal naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
+1. Ga in de Microsoft 365 Defender-portal naar **E-mail en samenwerking** \> **Beleid en regels** \> pagina **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
 
 2. Selecteer op de pagina **Antispambeleidsregels** een antispambeleid in de lijst door op de naam te klikken:
    - Aangepast beleid dat u hebt gemaakt, waarvan de waarde in de kolom **Type**, **Aangepast antispambeleid** is.
@@ -344,7 +344,7 @@ Wanneer in een spamfilterbeoordeling een bericht in quarantaine wordt geplaatst,
 
 Wanneer u de Microsoft 365 Defender-portal gebruikt om aangepast antispambeleid te verwijderen, worden de spamfilterregel en het bijbehorende spamfilterbeleid beide verwijderd. U kunt het standaardantispambeleid niet verwijderen.
 
-1. Ga in de Microsoft 365 Defender-portal naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
+1. Ga in de Microsoft 365 Defender-portal naar **E-mail en samenwerking** \> **Beleid en regels** \> pagina **Bedreigingsbeleid** \> sectie **Beleid** \> **Antispam**.
 
 2. Selecteer op de pagina **Antispambeleid** een beleid met de **Waarde type** van **Aangepast antispambeleid** uit de lijst door op de naam de klikken. Klik boven aan de flyout met beleidsdetails die wordt weergegeven, op het ![pictogram Meer acties](../../media/m365-cc-sc-more-actions-icon.png) **Meer acties** \> ![Pictogram Beleid verwijderen](../../media/m365-cc-sc-delete-icon.png) **Beleid verwijderen**.
 
