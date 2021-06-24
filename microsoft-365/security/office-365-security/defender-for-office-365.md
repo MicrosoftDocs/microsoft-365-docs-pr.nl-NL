@@ -21,12 +21,12 @@ ms.custom:
 description: Microsoft Defender voor Office 365 omvat veilige bijlagen, veilige koppelingen, geavanceerde hulpmiddelen tegen phishing, rapportagehulpmiddelen en functies voor bedreigingsinformatie.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 81a45f6839538118c5413c1f5fc09e0cd19903a0
-ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
+ms.openlocfilehash: 66afaa56efa93faef3fcc6ff8346df24681a0a50
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53029871"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083018"
 ---
 # <a name="microsoft-defender-for-office-365"></a>Microsoft Defender voor Office 365
 
@@ -81,7 +81,7 @@ De volgende tabel bevat een overzicht van wat er is inbegrepen in elk abonnement
 
 |Abonnement 1 voor Microsoft Defender voor Office 365|Abonnement 2 voor Microsoft Defender voor Office 365|
 |---|---|
-|Functies voor configuratie, beveiliging en detectie: <ul><li>[Veilige bijlagen](safe-attachments.md)</li><li>[Veilige koppelingen](safe-links.md)</li><li>[Veilige bijlagen voor SharePoint, OneDrive en Microsoft Teams](mdo-for-spo-odb-and-teams.md)</li><li>[Bescherming tegen phishing in Defender voor Office 365](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)</li><li>[Detecties in realtime](threat-explorer.md)</li></ul>|Functies in abonnement 1 voor Microsoft Defender voor Office 365 <br>--- plus ---<br> Functies voor automatisering, onderzoek, herstel en onderwijs:<ul><li>[Bedreigingsoverzichten](threat-trackers.md)</li><li>[Bedreigingsverkenner](threat-explorer.md)</li><li>[Geautomatiseerd onderzoek en reactie](office-365-air.md)</li><li>[Aanvalssimulator](attack-simulator.md)</li><li>[Campagneweergaven](campaigns.md)</li></ul>|
+|Functies voor configuratie, beveiliging en detectie: <ul><li>[Veilige bijlagen](safe-attachments.md)</li><li>[Veilige koppelingen](safe-links.md)</li><li>[Veilige bijlagen voor SharePoint, OneDrive en Microsoft Teams](mdo-for-spo-odb-and-teams.md)</li><li>[Bescherming tegen phishing in Defender voor Office 365](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)</li><li>[Detecties in realtime](threat-explorer.md)</li></ul>|Functies in abonnement 1 voor Microsoft Defender voor Office 365 <br>--- plus ---<br> Functies voor automatisering, onderzoek, herstel en onderwijs:<ul><li>[Bedreigingsoverzichten](threat-trackers.md)</li><li>[Bedreigingsverkenner](threat-explorer.md)</li><li>[Geautomatiseerd onderzoek en reactie](office-365-air.md)</li><li>[Aanvalssimulatietraining](attack-simulation-training.md)</li><li>[Campagneweergaven](campaigns.md)</li></ul>|
 |
 
 - Abonnement 2 voor Microsoft Defender voor Office 365 is inbegrepen in Office 365 E5, Office 365 A5, Microsoft 365 E5 Security en Microsoft 365 E5.
@@ -96,7 +96,7 @@ De volgende tabel bevat een overzicht van wat er is inbegrepen in elk abonnement
 
 ## <a name="configure-microsoft-defender-for-office-365-policies"></a>Beleid in Microsoft Defender voor Office 365 instellen
 
-Met Microsoft Defender voor Office 365 kan het beveiligingsteam van jouw organisatie beveiliging configureren door beleid te definiëren in de Microsoft 365 Defender-portal (ga naar <https://security.microsoft.com> \> **E-mail en samenwerking** \> **Beleid en regels**).
+Met Microsoft Defender voor Office 365 kan het beveiligingsteam van jouw organisatie beveiliging configureren door beleid te definiëren in de Microsoft 365 Defender-portal (ga naar <https://security.microsoft.com> \> **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid**).
 
 Meer informatie vindt u in [deze video](https://www.youtube.com/watch?v=vivvTmWJ_3c).
 
@@ -133,7 +133,7 @@ Abonnement 2 van Microsoft Defender voor Office 365 bevat de beste [hulpmiddelen
 
 - **[Bedreigingsverkenner (of realtime detecties)](threat-explorer.md)**(ook wel Verkenner genoemd) is een realtime rapport waarmee u recente bedreigingen kunt identificeren en analyseren. U kunt Verkenner configureren om gegevens weer te geven voor aangepaste perioden.
 
-- Met **[Aanvalssimulator](attack-simulator.md)** kunt u realistische aanvalscenario’s in uw organisatie uitvoeren om kwetsbaarheden te identificeren. Er zijn simulaties van de huidige typen aanvallen beschikbaar, inclusief spear phishingaanvallen ‘credential harvest’ en ‘attachment’ en wachtwoordspray en beveiligingsaanvallen op wachtwoorden.
+- Met **[Aanvalssimulatietraining](attack-simulation-training.md)** kunt u realistische aanvalsscenario’s in uw organisatie uitvoeren om beveiligingsproblemen te identificeren. Er zijn simulaties van de huidige typen aanvallen beschikbaar, inclusief spear phishingaanvallen ‘credential harvest’ en ‘attachment’ en wachtwoordspray en beveiligingsaanvallen op wachtwoorden.
 
 ## <a name="save-time-with-automated-investigation-and-response"></a>Tijd besparen met geautomatiseerd onderzoek en acties
 
@@ -178,5 +178,4 @@ Er worden doorlopend nieuwe functies aan Microsoft Defender voor Office 365 toeg
 ## <a name="see-also"></a>Zie ook
 
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
-
 - [Geautomatiseerd onderzoek en acties (AIR) in Microsoft 365 Defender](../defender/m365d-autoir.md)
