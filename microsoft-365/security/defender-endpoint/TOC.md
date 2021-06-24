@@ -273,6 +273,8 @@
 #### [Uw antivirus- en antimalwareupdates downloaden](manage-updates-baselines-microsoft-defender-antivirus.md)
 ##### [De bronnen beheren voor updates voor de Microsoft Defender Antivirus-beveiliging](manage-protection-updates-microsoft-defender-antivirus.md)
 ##### [Het schema beheren voor wanneer beveiligingsupdates moeten worden gedownload en toegepast](manage-protection-update-schedule-microsoft-defender-antivirus.md)
+##### [Geleidelijk implementatieproces voor Microsoft Defender-updates beheren](manage-gradual-rollout.md)
+##### [Geleidelijk implementatieproces voor Microsoft Defender-updates configureren](configure-updates.md)
 ##### [Microsoft Defender Antivirus-updates en scans beheren voor verouderde eindpunten](manage-outdated-endpoints-microsoft-defender-antivirus.md)
 ##### [Op basis van gebeurtenissen afgedwongen updates beheren](manage-event-based-updates-microsoft-defender-antivirus.md)
 ##### [Updates beheren voor mobiele apparaten en virtuele machines (VM's)](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)
@@ -309,7 +311,6 @@
 ##### [Prestatieproblemen oplossen](troubleshoot-performance-issues.md)
 ##### [Gebeurtenislogboeken en foutcodes bekijken voor het oplossen van problemen met Microsoft Defender Antivirus](troubleshoot-microsoft-defender-antivirus.md)
 ##### [Problemen met Microsoft Defender Antivirus oplossen die optreden tijdens migratie vanuit een externe oplossing](troubleshoot-microsoft-defender-antivirus-when-migrating.md)
-
 
 #### [Hardwaregebaseerde isolatie]()
 ##### [Hardwaregebaseerde isolatie in Windows 10](overview-hardware-based-isolation.md)
