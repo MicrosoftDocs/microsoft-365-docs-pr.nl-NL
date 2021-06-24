@@ -19,12 +19,12 @@ description: Integreer de SIEM-server van uw organisatie met Microsoft Defender 
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f3d6bbacb4a64060ecd03cbb28eee3256f41827e
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: e11d1e64b7c8c3b9d5b93516fe05aed3d5937290
+ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52929777"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105630"
 ---
 # <a name="siem-integration-with-microsoft-defender-for-office-365"></a>SIEM-integratie met Microsoft Defender voor Office 365
 
@@ -41,12 +41,11 @@ Als uw organisatie een SIEM-server (Security Information and Event Management) g
 Met SIEM-integratie kunt u informatie, zoals malware of phish die is gedetecteerd door Microsoft Defender voor Office 365, weergeven in uw SIEM-serverrapporten.
 
 - Zie Tech Community blog: Improve the Effectiveness of your SOC with Defender for Office 365 and the O365 Management API (Tech Community blog: Improve the Effectiveness of your SOC with Defender for Office 365 and [the O365 Management API](https://techcommunity.microsoft.com/t5/microsoft-security-and/improve-the-effectiveness-of-your-soc-with-office-365-atp-and/ba-p/1525185)) voor een voorbeeld van SIEM-integratie met Microsoft Defender voor Office 365.
-
 - Zie voor meer informatie over Office 365 [management-API's Office 365 Overzicht van beheer-API's.](/office/office-365-management-api/office-365-management-apis-overview)
 
 ## <a name="how-siem-integration-works"></a>Hoe SIEM-integratie werkt
 
-De Office 365 Activity Management API haalt informatie over gebruikers-, beheerders-, systeem- en beleidsacties en -gebeurtenissen op uit de activiteitenlogboeken van uw organisatie Microsoft 365 en Azure Active Directory activiteitenlogboeken. Als uw organisatie Microsoft Defender voor Office 365 plan 1 of 2 of Office 365 E5 heeft, kunt u het Microsoft Defender-schema Office 365 [gebruiken.](/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema)
+De Office 365 Activity Management API haalt informatie over gebruikers-, beheerders-, systeem- en beleidsacties en -gebeurtenissen op uit de activiteitenlogboeken van uw organisatie Microsoft 365 en Azure Active Directory activiteitenlogboeken. Als uw organisatie Microsoft Defender heeft voor Office 365 abonnement 1 of 2 of Office 365 E5, kunt u het Microsoft Defender voor Office 365 [schema gebruiken.](/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema)
 
 Onlangs zijn gebeurtenissen uit geautomatiseerde onderzoeks- en antwoordmogelijkheden in [Microsoft Defender voor Office 365 Plan 2](defender-for-office-365.md#microsoft-defender-for-office-365-plan-1-and-plan-2) toegevoegd aan de Office 365 Management Activity API. De API bevat niet alleen gegevens over kernonderzoeksgegevens, zoals id, naam en status, maar bevat ook informatie op hoog niveau over onderzoeksacties en entiteiten.
 
@@ -58,6 +57,10 @@ De SIEM-server of een ander soortgelijk systeem peilt de **audit.general-werkbel
 
 In de volgende tabel worden de waarden van **AuditLogRecordType** samengevat die relevant zijn voor Microsoft Defender voor Office 365 gebeurtenissen:
 
+<br>
+
+****
+
 |Waarde|Lidnaam|Omschrijving|
 |---|---|---|
 |28|ThreatIntelligence|Phishing- en malwaregebeurtenissen van Exchange Online Protection en Microsoft Defender voor Office 365.|
@@ -67,7 +70,7 @@ In de volgende tabel worden de waarden van **AuditLogRecordType** samengevat die
 |
 
 > [!IMPORTANT]
-> U moet een globale beheerder zijn of de rol van beveiligingsbeheerder hebben toegewezen voor de Microsoft 365 Defender-portal om SIEM-integratie met Microsoft Defender in te stellen voor Office 365.
+> U moet een globale beheerder zijn of de rol beveiligingsbeheerder hebben toegewezen in de Microsoft 365 Defender-portal om SIEM-integratie met Microsoft Defender in te stellen voor Office 365. Zie [Machtigingen in de Microsoft 365 Defender-portal](permissions-microsoft-365-security-center.md) voor meer informatie.
 >
 > Auditregistratie moet zijn ingeschakeld voor uw Microsoft 365 omgeving. Zie Zoeken in auditlogboek in- of uitschakelen voor [hulp bij dit alles.](../../compliance/turn-audit-log-search-on-or-off.md)
 

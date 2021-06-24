@@ -16,12 +16,12 @@ description: Gebruik Threat Explorer of realtime detecties in de Microsoft 365 D
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2b0c0c36cb481aac64b55467da4aaf9e3cf7a493
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: 0ad5d73abae71cc7cc00e12665d96b2020da0c41
+ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53083558"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105427"
 ---
 # <a name="threat-hunting-in-threat-explorer-for-microsoft-defender-for-office-365"></a>Bedreigingsjacht in Threat Explorer voor Microsoft Defender voor Office 365
 
@@ -40,18 +40,9 @@ In dit artikel:
 - [Abonnement 1 en abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Als uw organisatie [Microsoft Defender](defender-for-office-365.md)heeft voor Office 365 en u beschikt over de [machtigingen,](#required-licenses-and-permissions)kunt u **Explorer** of **realtimedetecties** gebruiken om bedreigingen te detecteren en te corrigeren. 
+Als uw organisatie [Microsoft Defender](defender-for-office-365.md)heeft voor Office 365 en u beschikt over de [machtigingen,](#required-licenses-and-permissions)kunt u **Explorer** of **realtimedetecties** gebruiken om bedreigingen te detecteren en te corrigeren.
 
-Ga in **Microsoft 365 Defender portal** naar **E-mail & samenwerking** en kies **Verkenner.**
-
-<br>
-
-****
-
-|Met Microsoft Defender voor Office 365 Plan 2 ziet u:|Met Microsoft Defender voor Office 365 plan 1 ziet u:|
-|---|---|
-|![Bedreigingsverkenner](../../media/path-to-explorer.png)|![Detecties in realtime](../../media/threatmgmt-realtimedetections.png)|
-|
+Ga in Microsoft 365 Defender portal ( ) naar E-mail & samenwerking en kies vervolgens <https://security.microsoft.com> **Verkenner** of **Realtime detecties.**  Als u rechtstreeks naar de pagina wilt gaan, gebruikt <https://security.microsoft.com/threatexplorer> u of <https://security.microsoft.com/realtimereports>
 
 Met deze hulpmiddelen kunt u het volgende doen:
 
@@ -60,7 +51,7 @@ Met deze hulpmiddelen kunt u het volgende doen:
 - Een geautomatiseerd onderzoek- en antwoordproces starten vanuit een weergave in Explorer
 - Schadelijke e-mail onderzoeken en meer
 
-Zie E-mailbeveiliging [met Threat Explorer voor meer informatie.](email-security-in-microsoft-defender.md) 
+Zie E-mailbeveiliging [met Threat Explorer voor meer informatie.](email-security-in-microsoft-defender.md)
 
 ## <a name="threat-explorer-walk-through"></a>Threat Explorer-walk-through
 
@@ -68,7 +59,7 @@ In Microsoft Defender voor Office 365 zijn er twee abonnementen: Abonnement 1 en
 
 Defender voor Office 365 Plan 1 maakt gebruik van *realtime detecties,* een subset van het *zoekprogramma Threat Explorer* (ook wel Verkenner genoemd) in Plan 2.  In deze reeks artikelen zijn de meeste voorbeelden gemaakt met de volledige Threat Explorer. Beheerders moeten alle stappen in realtimedetecties testen om te zien waar ze van toepassing zijn.
 
-Als u het hulpprogramma Explorer wilt openen, gaat u **naar Microsoft 365 Defender portal**  >  **E-mail & Explorer voor**  >  **samenwerking.** Standaard komt u op de pagina **Malware,**  maar gebruikt u de vervolgkeuzekeuzepagina Beeld om vertrouwd te raken met uw opties. Als u op Phish jaagt of een bedreigingscampagne bekijkt, kiest u deze weergaven.
+Nadat u standaard **naar Verkenner** bent gaan, komt u op  de pagina **Malware,** maar gebruikt u de vervolgkeuzekeuzepagina Beeld om vertrouwd te raken met uw opties. Als u op Phish jaagt of een bedreigingscampagne bekijkt, kiest u deze weergaven.
 
 > [!div class="mx-imgBorder"]
 > ![Vervolgkeuzekeuzeweergave in Threat Explorer](../../media/view-drop-down.png)
@@ -81,19 +72,19 @@ Wanneer een persoon met beveiligingsbewerkingen (Sec Ops) de gegevens selecteert
 U kunt de focus in Explorer of realtimedetectie in lagen verfijnen. De eerste is **Weergave.** De tweede kan worden gedacht als een *gefilterde focus.* U kunt bijvoorbeeld de stappen die u hebt genomen bij het vinden van een bedreiging, traceren door uw beslissingen op te nemen zoals deze: Als u het probleem wilt vinden in Explorer, heb ik de malwareweergave gekozen met de **filterfocus Geadresseerde.** Dit maakt het gemakkelijker om uw stappen te volgen.
 
 > [!TIP]
-> Als Sec Ops Tags gebruikt **om** accounts te markeren die ze als hoog gewaardeerde doelen beschouwen, kunnen ze selecties maken, zoals *Phish-weergave* met de filterfocus Tags (inclusief een datumbereik indien gebruikt). Op deze manier kunnen ze phishingpogingen zien die zijn gericht op hun hoge gebruikersdoelen gedurende een bepaalde periode (zoals datums waarop bepaalde phishingaanvallen veel voor hun branche plaatsvinden). 
+> Als Sec Ops Tags gebruikt **om** accounts te markeren die ze als hoog gewaardeerde doelen beschouwen, kunnen ze selecties maken, zoals *Phish-weergave* met de filterfocus Tags (inclusief een datumbereik indien gebruikt). Op deze manier kunnen ze phishingpogingen zien die zijn gericht op hun hoge gebruikersdoelen gedurende een bepaalde periode (zoals datums waarop bepaalde phishingaanvallen veel voor hun branche plaatsvinden).
 
-Verfijningen kunnen worden aangebracht op datumbereiken met behulp van de besturingselementen voor het datumbereik. Hier ziet u Verkenner in **de malwareweergave,** met de **filterfocus Detectietechnologie.** Maar het is de knop **Geavanceerd filter** waarmee Sec Ops-teams diep kunnen graven. 
+Verfijningen kunnen worden aangebracht op datumbereiken met behulp van de besturingselementen voor het datumbereik. Hier ziet u Verkenner in **de malwareweergave,** met de **filterfocus Detectietechnologie.** Maar het is de knop **Geavanceerd filter** waarmee Sec Ops-teams diep kunnen graven.
 
 > [!div class="mx-imgBorder"]
 > ![Geavanceerd filter in Threat Explorer](../../media/advanced-filter.png)
 
-Als u op het filter Geavanceerd **klikt,** wordt een deelvenster weergegeven waarmee sec ops-jagers zelf query's kunnen maken, zodat ze de informatie kunnen opnemen of uitsluiten die ze nodig hebben om te zien. Zowel de grafiek als de tabel op de pagina Explorer geven de resultaten weer. 
+Als u op het filter Geavanceerd **klikt,** wordt een deelvenster weergegeven waarmee sec ops-jagers zelf query's kunnen maken, zodat ze de informatie kunnen opnemen of uitsluiten die ze nodig hebben om te zien. Zowel de grafiek als de tabel op de pagina Explorer geven de resultaten weer.
 
 > [!div class="mx-imgBorder"]
 > ![Resultaten van een query](../../media/threat-explorer-chart-table.png)
 
-Gebruik de **knop Kolomopties** om het soort informatie in de tabel op te halen dat het meest nuttig is: 
+Gebruik de **knop Kolomopties** om het soort informatie in de tabel op te halen dat het meest nuttig is:
 
 > [!div class="mx-imgBorder"]
 > ![Knop Kolomopties gemarkeerd](../../media/threat-explorer-column-options.png)
@@ -101,7 +92,7 @@ Gebruik de **knop Kolomopties** om het soort informatie in de tabel op te halen 
 > [!div class="mx-imgBorder"]
 > ![Beschikbare opties in kolommen](../../media/column-options.png)
 
-Test in dezelfde mien de weergaveopties. Verschillende doelgroepen reageren goed op verschillende presentaties met dezelfde gegevens. Voor sommige gebruikers kan de **e-mail origins-kaart** laten zien  dat een bedreiging breder of discreter is dan de weergaveoptie Campagne direct er naast. Sec Ops kan gebruik maken van deze beeldschermen om de beste punten te maken die de noodzaak onderstrepen van beveiliging en beveiliging, of voor latere vergelijking, om de effectiviteit van hun acties aan te tonen. 
+Test in dezelfde mien de weergaveopties. Verschillende doelgroepen reageren goed op verschillende presentaties met dezelfde gegevens. Voor sommige gebruikers kan de **e-mail origins-kaart** laten zien  dat een bedreiging breder of discreter is dan de weergaveoptie Campagne direct er naast. Sec Ops kan gebruik maken van deze beeldschermen om de beste punten te maken die de noodzaak onderstrepen van beveiliging en beveiliging, of voor latere vergelijking, om de effectiviteit van hun acties aan te tonen.
 
 > [!div class="mx-imgBorder"]
 > ![E-mail origins-kaart](../../media/threat-explorer-email-origin-map.png)
@@ -113,9 +104,9 @@ Test in dezelfde mien de weergaveopties. Verschillende doelgroepen reageren goed
 
 Wanneer u een verdacht e-mailbericht ziet, klikt u op de naam om de flyout aan de rechterkant uit te vouwen. Hier is de banner waarmee Sec Ops de pagina [e-mailentiteit kan](mdo-email-entity-page.md) zien, beschikbaar.
 
-Op de pagina e-mailentiteit wordt inhoud verzameld die kan worden gevonden onder **Details**, **Bijlagen**, **Apparaten**, maar bevat meer geordende gegevens. Dit omvat zaken als DMARC-resultaten, het weergeven van tekst zonder tekst van de e-mailkop met een kopieeroptie, informatie over bijlagen die veilig zijn ontploft en bestanden die detonaties laten vallen (kunnen IP-adressen bevatten die zijn gecontacteerd en schermafbeeldingen van pagina's of bestanden). URL's en hun vonnissen worden ook vermeld met vergelijkbare details die zijn gerapporteerd. 
+Op de pagina e-mailentiteit wordt inhoud verzameld die kan worden gevonden onder **Details**, **Bijlagen**, **Apparaten**, maar bevat meer geordende gegevens. Dit omvat zaken als DMARC-resultaten, het weergeven van tekst zonder tekst van de e-mailkop met een kopieeroptie, informatie over bijlagen die veilig zijn ontploft en bestanden die detonaties laten vallen (kunnen IP-adressen bevatten die zijn gecontacteerd en schermafbeeldingen van pagina's of bestanden). URL's en hun vonnissen worden ook vermeld met vergelijkbare details die zijn gerapporteerd.
 
-Wanneer u deze fase bereikt, is de pagina e-mailentiteit essentieel voor de laatste stap:*herstel.* 
+Wanneer u deze fase bereikt, is de pagina e-mailentiteit essentieel voor de laatste stap:*herstel.*
 
 > [!div class="mx-imgBorder"]
 > ![De pagina e-mailentiteit](../../media/threat-explorer-email-entity-page.png)
@@ -152,13 +143,13 @@ Ten slotte wordt de waarschuwings-id opgenomen in de URL, bijvoorbeeld: `https:/
 > [!div class="mx-imgBorder"]
 > ![Waarschuwings-id in details flyout](../../media/AlertID-DetailsFlyout.png)
 
-### <a name="extending-explorer-and-real-time-detections-data-retention-and-search-limit-for-trial-tenants"></a>Gegevensretentie en zoeklimiet voor proeften tenants verlengen in Explorer (en realtime detecties) 
+### <a name="extending-explorer-and-real-time-detections-data-retention-and-search-limit-for-trial-tenants"></a>Gegevensretentie en zoeklimiet voor proeften tenants verlengen in Explorer (en realtime detecties)
 
 Als onderdeel van deze wijziging kunnen analisten e-mailgegevens zoeken en filteren over 30 dagen (verhoogd van zeven dagen) in Threat Explorer en real-time detecties voor zowel Defender voor Office P1- als P2-proeften tenants. Dit heeft geen invloed op productieten tenants voor zowel P1- als P2 E5-klanten, waarbij de standaard bewaartermijn al 30 dagen is.
 
-### <a name="updated-export-limit"></a>Bijgewerkte exportlimiet 
+### <a name="updated-export-limit"></a>Bijgewerkte exportlimiet
 
-Het aantal E-mailrecords dat kan worden geëxporteerd vanuit Threat Explorer is nu 200.000 (was 9990). De set kolommen die kunnen worden geëxporteerd, blijft ongewijzigd. 
+Het aantal E-mailrecords dat kan worden geëxporteerd vanuit Threat Explorer is nu 200.000 (was 9990). De set kolommen die kunnen worden geëxporteerd, blijft ongewijzigd.
 
 ### <a name="tags-in-threat-explorer"></a>Tags in Threat Explorer
 
@@ -178,7 +169,7 @@ Wanneer analisten de kolom **Tags** het e-mailraster bekijken, zien ze alle tags
 
 #### <a name="filtering"></a>Filteren
 
-Tags kunnen worden gebruikt als filters. Zoek alleen naar prioriteitsaccounts of gebruik op deze manier specifieke scenario's voor gebruikerslabels. U kunt ook resultaten met bepaalde tags uitsluiten. Combineer Tags met andere filters en datumbereiken om uw onderzoeksbereik te beperken. 
+Tags kunnen worden gebruikt als filters. Zoek alleen naar prioriteitsaccounts of gebruik op deze manier specifieke scenario's voor gebruikerslabels. U kunt ook resultaten met bepaalde tags uitsluiten. Combineer Tags met andere filters en datumbereiken om uw onderzoeksbereik te beperken.
 
 [![Filterlabels](../../media/tags-filter-normal.png)](../../media/tags-filter-normal.png#lightbox)
 
@@ -187,7 +178,7 @@ Tags kunnen worden gebruikt als filters. Zoek alleen naar prioriteitsaccounts of
 
 #### <a name="email-detail-flyout"></a>Flyout voor e-maildetails
 
-Als u de afzonderlijke tags voor afzender en geadresseerde wilt weergeven, selecteert u een e-mailbericht om de flyout berichtdetails te openen. Op het **tabblad** Overzicht worden de afzender- en geadresseerdelabels afzonderlijk weergegeven. De informatie over afzonderlijke tags voor afzender en geadresseerde kan worden geëxporteerd als CSV-gegevens. 
+Als u de afzonderlijke tags voor afzender en geadresseerde wilt weergeven, selecteert u een e-mailbericht om de flyout berichtdetails te openen. Op het **tabblad** Overzicht worden de afzender- en geadresseerdelabels afzonderlijk weergegeven. De informatie over afzonderlijke tags voor afzender en geadresseerde kan worden geëxporteerd als CSV-gegevens.
 
 > [!div class="mx-imgBorder"]
 > ![Tags voor e-maildetails](../../media/tags-flyout.png)
@@ -205,18 +196,18 @@ Meer informatie vindt u in [deze video](https://www.youtube.com/watch?v=UoVzN0lY
 
 ### <a name="top-targeted-users"></a>Best getargete gebruikers
 
-Top Malware Families toont de **meest gerichte gebruikers** in de sectie Malware. Top targeted users will be extended through Phish and All Email views too. Analisten kunnen de vijf meest gerichte gebruikers zien, samen met het aantal pogingen voor elke gebruiker in elke weergave. 
+Top Malware Families toont de **meest gerichte gebruikers** in de sectie Malware. Top targeted users will be extended through Phish and All Email views too. Analisten kunnen de vijf meest gerichte gebruikers zien, samen met het aantal pogingen voor elke gebruiker in elke weergave.
 
-Beveiligingsbewerkingen personen kunnen de lijst met doelgebruikers exporteren, tot een limiet van 3.000, samen met het aantal pogingen, voor offlineanalyse voor elke e-mailweergave. Als u het aantal pogingen selecteert (bijvoorbeeld 13 pogingen in de onderstaande afbeelding), wordt er een gefilterde weergave geopend in Threat Explorer, zodat u meer informatie over e-mailberichten en bedreigingen voor die gebruiker kunt zien.  
+Beveiligingsbewerkingen personen kunnen de lijst met doelgebruikers exporteren, tot een limiet van 3.000, samen met het aantal pogingen, voor offlineanalyse voor elke e-mailweergave. Als u het aantal pogingen selecteert (bijvoorbeeld 13 pogingen in de onderstaande afbeelding), wordt er een gefilterde weergave geopend in Threat Explorer, zodat u meer informatie over e-mailberichten en bedreigingen voor die gebruiker kunt zien.
 
 > [!div class="mx-imgBorder"]
 > ![Best getargete gebruikers](../../media/Top_Targeted_Users.png)
 
 ### <a name="exchange-transport-rules"></a>Exchange transportregels
 
-Het beveiligingsteam kan in de weergave E-mailraster alle transportregels (Exchange E-mailstroomregels) zien die zijn toegepast op een bericht. Selecteer **Kolomopties** in het raster en voeg **Exchange transportregel toe** vanuit de kolomopties. De Exchange de optie transportregels is ook zichtbaar in de flyout **Details** in het e-mailbericht. 
+Het beveiligingsteam kan in de weergave E-mailraster alle transportregels (Exchange E-mailstroomregels) zien die zijn toegepast op een bericht. Selecteer **Kolomopties** in het raster en voeg **Exchange transportregel toe** vanuit de kolomopties. De Exchange de optie transportregels is ook zichtbaar in de flyout **Details** in het e-mailbericht.
 
-Namen en GUID's van de transportregels die op het bericht zijn toegepast, worden weergegeven. Analisten kunnen berichten zoeken met de naam van de transportregel. Dit is een CONTAINS-zoekopdracht, wat betekent dat u ook gedeeltelijke zoekopdrachten kunt doen. 
+Namen en GUID's van de transportregels die op het bericht zijn toegepast, worden weergegeven. Analisten kunnen berichten zoeken met de naam van de transportregel. Dit is een CONTAINS-zoekopdracht, wat betekent dat u ook gedeeltelijke zoekopdrachten kunt doen.
 
 > [!IMPORTANT]
 > Exchange zoek- en naambeschikbaarheid van transportregel is afhankelijk van de specifieke rol die aan u is toegewezen. U moet een van de volgende rollen of machtigingen hebben om de namen en zoekopdrachten van de transportregel weer te geven. Zelfs zonder de onderstaande rollen of machtigingen kan een analist echter het label van de transportregel en de GUID-gegevens in de e-mailgegevens zien. Andere ervaringen met het weergeven van records in e-mailrasters, e-mail flyouts, Filters en Export worden niet beïnvloed.
@@ -235,9 +226,9 @@ Namen en GUID's van de transportregels die op het bericht zijn toegepast, worden
 
 ### <a name="inbound-connectors"></a>Binnenkomende verbindingslijnen
 
-Connectors zijn een verzameling instructies die aanpassen hoe uw e-mail van en naar uw Microsoft 365 of Office 365 organisatie loopt. Hiermee kunt u beveiligingsbeperkingen of besturingselementen toepassen. In Threat Explorer kunt u de verbindingslijnen weergeven die zijn gerelateerd aan een e-mail en e-mailberichten zoeken met behulp van connectornamen. 
+Connectors zijn een verzameling instructies die aanpassen hoe uw e-mail van en naar uw Microsoft 365 of Office 365 organisatie loopt. Hiermee kunt u beveiligingsbeperkingen of besturingselementen toepassen. In Threat Explorer kunt u de verbindingslijnen weergeven die zijn gerelateerd aan een e-mail en e-mailberichten zoeken met behulp van connectornamen.
 
-Het zoeken naar verbindingslijnen is een CONTAINS-query, wat betekent dat gedeeltelijke trefwoordzoekingen kunnen werken: 
+Het zoeken naar verbindingslijnen is een CONTAINS-query, wat betekent dat gedeeltelijke trefwoordzoekingen kunnen werken:
 
 > [!div class="mx-imgBorder"]
 > ![Connectordetails](../../media/Connector_Details.png)
@@ -250,16 +241,13 @@ U moet [Microsoft Defender hebben om Office 365](defender-for-office-365.md) exp
 - Het realtimedetectierapport is opgenomen in Defender voor Office 365 Plan 1.
 - Plan om licenties toe te wijzen voor alle gebruikers die moeten worden beveiligd door Defender voor Office 365. Explorer- en realtimedetecties tonen detectiegegevens voor gelicentieerde gebruikers.
 
-Als u Explorer- of realtimedetecties wilt bekijken en gebruiken, moet u het volgende hebben:
+Als u Explorer- of realtimedetecties wilt bekijken en gebruiken, moet u de volgende machtigingen hebben:
 
 - Voor de Microsoft 365 Defender portal:
-
   - Organisatiebeheer
   - Beveiligingsbeheerder (dit kan worden toegewezen in het Azure Active Directory beheercentrum ( <https://aad.portal.azure.com> )
   - Beveiligingslezer
-
 - Voor Exchange Online:
-
   - Organisatiebeheer
   - View-Only Organisatiebeheer
   - View-Only Geadresseerden
@@ -273,9 +261,9 @@ Zie de volgende bronnen voor meer informatie over rollen en machtigingen:
 
 ## <a name="more-information"></a>Meer informatie
 
-- [Schadelijke e-mail zoeken en onderzoeken die is bezorgd](investigate-malicious-email-that-was-delivered.md) 
-- [Schadelijke bestanden weergeven die zijn gedetecteerd in SharePoint Online, OneDrive en Microsoft Teams](mdo-for-spo-odb-and-teams.md) 
-- [Een overzicht krijgen van de weergaven in Threat Explorer (en realtime detecties)](threat-explorer-views.md) 
-- [Statusrapport bedreigingsbeveiliging](view-email-security-reports.md#threat-protection-status-report) 
-- [Geautomatiseerd onderzoek en antwoord in Microsoft Threat Protection](automated-investigation-response-office.md) 
+- [Schadelijke e-mail zoeken en onderzoeken die is bezorgd](investigate-malicious-email-that-was-delivered.md)
+- [Schadelijke bestanden weergeven die zijn gedetecteerd in SharePoint Online, OneDrive en Microsoft Teams](mdo-for-spo-odb-and-teams.md)
+- [Een overzicht krijgen van de weergaven in Threat Explorer (en realtime detecties)](threat-explorer-views.md)
+- [Statusrapport bedreigingsbeveiliging](view-email-security-reports.md#threat-protection-status-report)
+- [Geautomatiseerd onderzoek en antwoord in Microsoft Threat Protection](automated-investigation-response-office.md)
 - [E-mailberichten onderzoeken met de pagina E-mailentiteit](mdo-email-entity-page.md)

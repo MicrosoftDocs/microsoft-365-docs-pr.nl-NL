@@ -20,12 +20,12 @@ description: Beheerders kunnen informatie krijgen over bedreigingsbeveiliging in
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 31ca7c27e3be20e20c16004490bd2ecd5ca4ae05
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: 7e37b67dbed75e3283070ba94321fcb03979a5a6
+ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53083678"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105390"
 ---
 # <a name="protect-against-threats"></a>Beveiligen tegen bedreigingen
 
@@ -95,8 +95,8 @@ Zie [EOP anti-malwarebeleidsinstellingen](recommended-settings-for-eop-and-offic
 
 3. Klik in het flyout met beleidsdetails dat wordt geopend op **Beveiligingsinstellingen bewerken** en configureer de volgende instellingen:
    - **Sectie Beveiligingsinstellingen:**
-     - Selecteer **Het filter algemene bijlagen inschakelen om** het algemene bijlagefilter in te stellen. Klik **op Bestandstypen aanpassen** om meer bestandstypen toe te voegen.
-     - **Automatische purge van nul uur inschakelen voor malware:** controleer of deze instelling is geselecteerd. Zie [Zero-hour Auto Purge (ZAP)](zero-hour-auto-purge.md#zero-hour-auto-purge-zap-for-malware)voor malware voor meer informatie over ZAP voor malware.
+     - **Het algemene bijlagefilter inschakelen:** Selecteren (inschakelen). Klik **op Bestandstypen aanpassen** om meer bestandstypen toe te voegen.
+     - **Automatische zuivering van** nul uur inschakelen voor malware: controleer of deze instelling is geselecteerd. Zie [Zero-hour Auto Purge (ZAP)](zero-hour-auto-purge.md#zero-hour-auto-purge-zap-for-malware)voor malware voor meer informatie over ZAP voor malware.
    - **Meldingssectie:** Controleer of geen van de instellingen voor meldingen is geselecteerd.
 
    Klik op **Opslaan** wanneer u gereed bent.
@@ -251,7 +251,7 @@ Zie voor meer informatie over de aanbevolen instellingen voor Safe Koppelingen [
 2. Klik op **Safe pagina Koppelingen** op **Algemene** instellingen en configureer vervolgens de volgende instellingen op het flyout dat wordt weergegeven:
    - **Instellingen die van toepassing zijn op inhoud in de** sectie Office 365 apps:
      - **Gebruik Safe Koppelingen in Office 365 apps:** Controleren of deze instelling is ingeschakeld ( ![ Schakelknop ](../../media/scc-toggle-on.png) in).
-     - **Houd niet bij wanneer gebruikers op beveiligde koppelingen klikken in** Office 365 apps: Schakel deze instelling uit ( Schakelen uit ![ ](../../media/scc-toggle-off.png) )
+     - **Houd niet bij wanneer gebruikers op beveiligde koppelingen klikken in** Office 365 apps: Schakel deze instelling uit ( Schakel schakel ![ ](../../media/scc-toggle-off.png) uit).
      - **Laat gebruikers niet doorklikken naar de** oorspronkelijke URL in Office 365 apps: Controleren of deze instelling is ingeschakeld ( ![ Schakelknop ](../../media/scc-toggle-on.png) in).
 
    Wanneer u klaar bent, klikt u op **Opslaan**

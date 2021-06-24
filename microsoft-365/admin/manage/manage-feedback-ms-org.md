@@ -19,16 +19,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Beheer feedback die uw gebruikers naar Microsoft kunnen sturen over Microsoft-producten.
-ms.openlocfilehash: 70ea1d5c176dd603f6a5addb09356909f13f9ace
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 990ae811145d9586307cd3181724866198063a1b
+ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52840668"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105294"
 ---
 # <a name="manage-microsoft-feedback-for-your-organization"></a>Microsoft feedback voor uw organisatie beheren
 
-Als beheerder van een Microsoft 365 organisatie zijn er nu verschillende beleidsregels om u te helpen bij het beheren van de feedbackverzameling en de klantcontactervaring van uw gebruikers bij het gebruik van Microsoft 365 toepassingen. U kunt bestaande Azure Active Directory-groepen in uw organisatie maken en gebruiken voor elk van deze beleidsregels. Met deze agenten kunt u bepalen hoe verschillende afdelingen in uw organisatie feedback naar Microsoft kunnen verzenden. Microsoft bekijkt alle feedback van klanten en gebruikt deze feedback om het product te verbeteren. Als u de feedback-ervaringen **ingeschakeld houdt,** kunt u zien wat uw gebruikers zeggen over de Microsoft-producten die ze gebruiken. De feedback die we van uw gebruikers verzamelen, is binnenkort beschikbaar in het Microsoft 365 beheercentrum.
+Als beheerder van een Microsoft 365 organisatie zijn er nu verschillende beleidsregels om u te helpen bij het beheren van de feedbackverzameling en de klantcontactervaring van uw gebruikers bij het gebruik van Microsoft 365 toepassingen. U kunt bestaande Azure Active Directory-groepen in uw organisatie maken en gebruiken voor elk van deze beleidsregels. Met deze agenten kunt u bepalen hoe verschillende afdelingen in uw organisatie feedback naar Microsoft kunnen verzenden. Microsoft bekijkt alle feedback van klanten en gebruikt deze feedback om het product te verbeteren. Als u de feedback-ervaringen **ingeschakeld houdt,** kunt u zien wat uw gebruikers zeggen over de Microsoft-producten die ze gebruiken. De feedback die we van uw gebruikers verzamelen, is binnenkort beschikbaar in de Microsoft 365-beheercentrum.
 
 Zie Meer informatie over [Microsoft-feedback voor uw organisatie](../misc/feedback-user-control.md)voor meer informatie over de typen feedback en hoe Microsoft feedback van gebruikers gebruikt.
 
@@ -86,7 +86,7 @@ Uw apparaten moeten een minimaal buildnummer hebben om dit beleid te kunnen gebr
 
 ## <a name="configure-policies"></a>Beleid configureren
 
-1. Ga naar [https://config.office.com](https://config.office.com) en meld u aan als gebruiker met globale beheerdersmachtigingen.
+1. Ga naar [https://config.office.com](https://config.office.com) en meld u aan.
 1. Selecteer **Vervolgens Aanpassen** **beleidsbeheer.**
 1. Selecteer **Maken**.
 1. Voer **naam en** beschrijving **in.**

@@ -1,5 +1,5 @@
 ---
-title: Incidenten in Microsoft 365 Defender onderzoeken
+title: Incidenten in Microsoft 365 Defender
 description: Incidenten met betrekking tot apparaten, gebruikers en postvakken onderzoeken.
 keywords: incident, incidenten, analyseren, reactie, machines, apparaten, gebruikers, identiteiten, e-mail, e-mail, postvak, onderzoek, grafiek, bewijs
 search.product: eADQiWindows 10XVcnh
@@ -25,14 +25,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: dcfc3bd0e06e0bdca6c834e947d7d136af47fde3
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: fdfc065aea3549e99de72c968c0fa19412f9e246
+ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782823"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105354"
 ---
-# <a name="investigate-incidents-in-microsoft-365-defender"></a>Incidenten in Microsoft 365 Defender onderzoeken
+# <a name="investigate-incidents-in-microsoft-365-defender"></a>Incidenten in Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -40,7 +40,7 @@ ms.locfileid: "52782823"
 
 - Microsoft 365 Defender
 
-Microsoft 365 Defender verzamelt alle gerelateerde waarschuwingen, activa, onderzoeken en bewijs van al uw apparaten, gebruikers en postvakken tot een incident om u een uitgebreid overzicht te geven van de hele breedte van een aanval.
+Microsoft 365 Defender verzamelt alle gerelateerde waarschuwingen, activa, onderzoeken en bewijzen van al uw apparaten, gebruikers en postvakken tot een incident om u een uitgebreid overzicht te geven van de hele breedte van een aanval.
 
 In een incident analyseert u de waarschuwingen die van invloed zijn op uw netwerk, begrijpt u wat ze betekenen en colleert u het bewijs zodat u een effectief herstelplan kunt maken.
 
@@ -145,9 +145,17 @@ Het **tabblad Onderzoeken** bevat alle geautomatiseerde onderzoeken [die](m365d-
 
 :::image type="content" source="../../media/investigate-incidents/incident-investigations.png" alt-text="Voorbeeld van een pagina Onderzoeken voor een incident":::
 
-Selecteer een onderzoek om naar de pagina Details van het onderzoek te gaan voor volledige informatie over de status van het onderzoek en de herstelstatus. Als er acties in behandeling zijn voor goedkeuring als onderdeel van het onderzoek, worden deze weergegeven op het tabblad Acties in behandeling. Actie ondernemen als onderdeel van het herstellen van incidenten.
+Selecteer een onderzoek om naar de detailspagina te gaan voor volledige informatie over de status van het onderzoek en de herstelstatus. Als er acties in behandeling zijn voor goedkeuring als onderdeel van het onderzoek, worden deze weergegeven op het tabblad **Actiegeschiedenis** in behandeling. Actie ondernemen als onderdeel van het herstellen van incidenten.
 
-Zie Geautomatiseerd onderzoek en antwoord [in Microsoft 365 Defender voor meer informatie.](m365d-autoir.md)
+Er is ook een **tabblad Onderzoekgrafiek** met de volgende gegevens:
+
+- De verbinding van waarschuwingen met de beïnvloede activa in uw organisatie.
+- Welke entiteiten zijn gerelateerd aan welke waarschuwingen en hoe ze deel uitmaken van het verhaal van de aanval.
+- De waarschuwingen voor het incident.
+
+De onderzoeksgrafiek helpt u snel inzicht te krijgen in het volledige bereik van de aanval door de verschillende verdachte entiteiten die deel uitmaken van de aanval te verbinden met hun gerelateerde assets, zoals gebruikers, apparaten en postvakken. 
+
+Zie Geautomatiseerd onderzoek en antwoord [in](m365d-autoir.md)Microsoft 365 Defender.
 
 ## <a name="evidence-and-response"></a>Bewijs en antwoord
 
@@ -155,25 +163,9 @@ Op **het tabblad Bewijs** en antwoord ziet u alle ondersteunde gebeurtenissen en
 
 :::image type="content" source="../../media/investigate-incidents/incident-evidence.png" alt-text="Voorbeeld van een pagina Bewijs en antwoord voor een incident":::
 
-Microsoft 365 Defender onderzoekt automatisch alle door incidenten ondersteunde gebeurtenissen en verdachte entiteiten in de waarschuwingen, zodat u informatie krijgt over de belangrijke e-mailberichten, bestanden, processen, services, IP-adressen en meer. Op deze manier kunt u potentiële bedreigingen in het incident snel opsporen en blokkeren.
+Microsoft 365 Defender worden automatisch alle door incidenten ondersteunde gebeurtenissen en verdachte entiteiten in de waarschuwingen onderzocht, zodat u informatie krijgt over de belangrijke e-mailberichten, bestanden, processen, services, IP-adressen en meer. Op deze manier kunt u potentiële bedreigingen in het incident snel opsporen en blokkeren.
 
 Elk van de geanalyseerde entiteiten is gemarkeerd met een vonnis (Schadelijk, Verdacht, Schoon) en een herstelstatus. Op deze manier begrijpt u de herstelstatus van het hele incident en welke volgende stappen u kunt ondernemen.
-
-## <a name="graph-in-preview"></a>Graph (in voorbeeld)
-
-Met het nieuwe **Graph** (in voorbeeld), kunt u het volgende zien:
-
-- De verbinding van waarschuwingen met de beïnvloede activa in uw organisatie.
-- Welke entiteiten zijn gerelateerd aan welke waarschuwingen en hoe ze deel uitmaken van het verhaal van de aanval.
-- De waarschuwingen voor het incident.
-
-Hier is een voorbeeld.
-
-:::image type="content" source="../../media/investigate-incidents/incident-graph.png" alt-text="Voorbeeld van een Graph pagina voor een incident":::
-
-De incidentgrafiek helpt u snel het volledige bereik van de aanval te begrijpen door de verschillende verdachte entiteiten die deel uitmaken van de aanval te verbinden met hun gerelateerde assets, zoals gebruikers, apparaten en postvakken. 
-
-U kunt nu begrijpen hoe de aanval zich in de afgelopen tijd via uw netwerk heeft verspreid, waar de aanval is gestart en hoe ver de aanval is gegaan.
 
 ## <a name="next-steps"></a>Volgende stappen
 

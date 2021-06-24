@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 3ed033f137d3329dc208183fe8fad1f300ffd4c9
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 8d7ac39baabca1496a5d2c22521874cfd60c6208
+ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841787"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105570"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-manually"></a>Microsoft Defender voor Eindpunt handmatig implementeren op Linux
 
@@ -34,7 +34,7 @@ ms.locfileid: "52841787"
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
+> Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
 In dit artikel wordt beschreven hoe u Microsoft Defender voor Eindpunt handmatig op Linux implementeert. Voor een geslaagde implementatie moeten alle volgende taken zijn voltooid:
 
@@ -349,6 +349,21 @@ Download het onboarding-pakket van Microsoft Defender-beveiligingscentrum:
         ```bash
         mdatp threat list
         ```
+
+## <a name="experience-linux-endpoint-detection-and-response-edr-capabilities-with-simulated-attacks"></a>Ervaring met Linux-eindpuntdetectie en -respons (EDR) met gesimuleerde aanvallen
+
+Als u de functionaliteit van EDR voor Linux wilt testen, volgt u de onderstaande stappen om een detectie op uw Linux-server te simuleren en de zaak te onderzoeken. 
+
+1.  Controleer of de onboarded Linux-server wordt weergegeven in Microsoft Defender-beveiligingscentrum. Als dit de eerste onboarding van de computer is, kan het tot 20 minuten duren voordat deze wordt weergegeven. 
+
+2.  Download en haal het [scriptbestand op](https://aka.ms/LinuxDIY) naar een onboarded Linux-server en voer de volgende opdracht uit: `./mde_linux_edr_diy.sh`
+
+3.  Na een paar minuten moet een detectie in de Microsoft Defender-beveiligingscentrum.
+
+4.  Bekijk de details van de waarschuwing, de tijdlijn van de machine en voer de gebruikelijke onderzoeksstappen uit.
+
+
+
 
 ## <a name="installer-script"></a>Installatiescript
 

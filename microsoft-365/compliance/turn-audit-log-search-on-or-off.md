@@ -19,13 +19,13 @@ search.appverid:
 - MET150
 ms.assetid: e893b19a-660c-41f2-9074-d3631c95a014
 ms.custom: seo-marvel-apr2020
-description: De zoekfunctie auditlogboek in- of uitschakelen in het Microsoft 365 compliancecentrum om beheerders in of uit te schakelen om het auditlogboek te doorzoeken.
-ms.openlocfilehash: 457f453b001f71a095bc60932c8e0cebf46aa7b1
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+description: De zoekfunctie auditlogboek in- of uitschakelen in de Microsoft 365-compliancecentrum om beheerders in of uit te schakelen om het auditlogboek te doorzoeken.
+ms.openlocfilehash: 7c55443eda9a99ff4ef153d8564fd9ac43fcc549
+ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706661"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105306"
 ---
 # <a name="turn-auditing-on-or-off"></a>Mobiele meldingen in- of uitschakelen
 
@@ -39,7 +39,7 @@ Auditlogboekregistratie is standaard ingeschakeld voor organisaties met Microsof
 - U moet de rol Auditlogboeken toegewezen krijgen in Exchange Online auditing in of uit te schakelen in uw Microsoft 365 organisatie. Deze rol is standaard toegewezen aan de rollengroepen Compliancebeheer  en Organisatiebeheer op de pagina Machtigingen in het Exchange beheercentrum. Globale beheerders in Microsoft 365 zijn lid van de rollengroep Organisatiebeheer in Exchange Online. 
 
     > [!NOTE]
-    > Aan gebruikers moeten machtigingen zijn toegewezen in Exchange Online controle in- of uitschakelen. Als u gebruikers de rol Auditlogboeken **toewijst** op de pagina Machtigingen in het Beveiligings- & Compliancecentrum, kunnen ze de controle niet in- of uitschakelen. De onderliggende cmdlet is namelijk een Exchange Online PowerShell-cmdlet. 
+    > Aan gebruikers moeten machtigingen zijn toegewezen in Exchange Online controle in- of uitschakelen. Als u gebruikers de rol Auditlogboeken **toewijst** op de pagina Machtigingen in het Beveiligings- & Compliancecentrum, kunnen ze de controle niet in- of uitschakelen. De onderliggende cmdlet is namelijk een Exchange Online PowerShell-cmdlet.
 
 - Zie Het auditlogboek doorzoeken in het beveiligings- & compliancecentrum voor stapsgewijse instructies over het [doorzoeken van het auditlogboek.](search-the-audit-log-in-security-and-compliance.md) Zie Aan de slag met Microsoft 365 Management [API's](/office/office-365-management-api/get-started-with-office-365-management-apis)voor meer informatie over Microsoft 365 Management Activity API.
 
@@ -59,7 +59,7 @@ Als auditing niet is ingeschakeld voor uw organisatie, kunt u deze in het compli
 
 1. Ga naar <https://compliance.microsoft.com> en meld u aan.
 
-2. Klik in het linkernavigatiedeelvenster van Microsoft 365 compliancecentrum op **Alles weergeven** en klik vervolgens op **Controleren.**
+2. Klik in het linkernavigatiedeelvenster Microsoft 365-compliancecentrum **op Alles weergeven** en klik vervolgens op **Controleren.**
 
    Als auditing niet is ingeschakeld voor uw organisatie, wordt er een banner weergegeven waarin u wordt gevraagd gebruikers- en beheerdersactiviteiten op te nemen.
 
@@ -103,6 +103,6 @@ U moet de Exchange Online PowerShell gebruiken om auditing uit te schakelen.
 
       De waarde van  `False` voor de  _eigenschap UnifiedAuditLogIngestionEnabled_ geeft aan dat auditing is uitgeschakeld.
 
-    - Ga naar de **pagina Audit** in het Microsoft 365 compliancecentrum.
+    - Ga naar de **pagina Audit** in de Microsoft 365-compliancecentrum.
 
       Als auditing niet is ingeschakeld voor uw organisatie, wordt er een banner weergegeven waarin u wordt gevraagd gebruikers- en beheerdersactiviteiten op te nemen.

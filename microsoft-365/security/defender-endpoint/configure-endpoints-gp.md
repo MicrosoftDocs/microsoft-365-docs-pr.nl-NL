@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: f607e36cef85f30fa1d6e073da871ac1c140684c
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 80794a9d5e4da0d2da74fc714ffd1e0ceab34c8f
+ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841832"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105684"
 ---
 # <a name="onboard-windows-10-devices-using-group-policy"></a>Onboard Windows 10 apparaten met groepsbeleid 
 
@@ -34,7 +34,7 @@ ms.locfileid: "52841832"
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configureendpointsgp-abovefoldlink)
+>Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configureendpointsgp-abovefoldlink)
 
 
 > [!NOTE]
@@ -119,7 +119,7 @@ Nadat u het onboarding-script heeft geconfigureerd, kunt u hetzelfde groepsbelei
 
 Alle beleidsregels bevinden zich onder `Computer Configuration\Policies\Administrative Templates` .
 
-**Beleidslocatie:** \Windows Components\Windows Defender SmartScreen*
+**Beleidslocatie:** \Windows Onderdelen\Windows Defender ATP
 
 Beleid | Instelling 
 :---|:---
@@ -155,7 +155,7 @@ Bestands- en programmaactiviteit op uw computer controleren|Ingeschakeld
 
 <br/>
 
-**Beleidslocatie:** \Windows Components\Microsoft Defender AntivirusScan
+**Beleidslocatie:** \Windows Components\Microsoft Defender Antivirus\Scan
 
 Deze instellingen configureren periodieke scans van het eindpunt. We raden u aan om een wekelijkse quick scan uit te voeren, waardoor de prestaties worden toegestaan.
 
@@ -238,7 +238,7 @@ Met Groepsbeleid is er geen optie om de implementatie van beleidsregels op de ap
 > Het kan enkele dagen duren voordat apparaten worden weergegeven in de **lijst Apparaten.** Dit omvat de tijd die nodig is voor de distributie van het beleid naar het apparaat, de tijd die nodig is voordat de gebruiker zich aanmeldt en de tijd die nodig is voor het eindpunt om te beginnen met rapporteren.
 
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-topics"></a>Gerelateerde onderwerpen
 - [Onboard Windows 10 apparaten met Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
 - [Onboarden Windows 10-apparaten met hulpmiddelen voor Mobile Device Management](configure-endpoints-mdm.md)
 - [Onboarden Windows 10-apparaten met een lokaal script](configure-endpoints-script.md)

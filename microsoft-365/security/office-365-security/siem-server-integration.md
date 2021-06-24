@@ -18,12 +18,12 @@ ms.custom:
 description: Een overzicht krijgen van de siem-serverintegratie (Security Information and Event Management) met uw Microsoft 365 cloudservices en -toepassingen
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8b9c17ba2dcefa65b60a53ab8bff405de4850fc0
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: ea4d844595aaab8d8148666430187edef463b92e
+ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52929789"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105594"
 ---
 # <a name="security-information-and-event-management-siem-server-integration-with-microsoft-365-services-and-applications"></a>Siem-serverintegratie (Security Information and Event Management) met Microsoft 365 services en toepassingen
 
@@ -46,12 +46,13 @@ Gebruikt of plant uw organisatie een SIEM-server (Security Information and Event
 Of u een SIEM-server nodig hebt, hangt af van veel factoren, zoals de beveiligingsvereisten van uw organisatie en waar uw gegevens zich bevinden. Microsoft 365 bevat een groot aantal beveiligingsfuncties die voldoen aan de beveiligingsbehoeften van veel organisaties zonder extra servers, zoals een SIEM-server. Sommige organisaties hebben speciale omstandigheden waarvoor het gebruik van een SIEM-server vereist is. Dit zijn enkele voorbeelden:
 
 - *Fabrikam* heeft een aantal on-premises inhoud en toepassingen, en sommige in de cloud (ze hebben een hybride cloudimplementatie). Om beveiligingsrapporten over al hun inhoud en toepassingen te krijgen, heeft Fabrikam een SIEM-server geïmplementeerd.
-
 - *Contoso* is een financiële serviceorganisatie die bijzonder strenge beveiligingsvereisten heeft. Ze hebben een SIEM-server toegevoegd aan hun omgeving om te profiteren van de extra beveiliging die ze nodig hebben.
 
 ## <a name="siem-server-integration-with-microsoft-365"></a>SIEM-serverintegratie met Microsoft 365
 
 Een SIEM-server kan gegevens ontvangen van een groot aantal Microsoft 365 services en toepassingen. In de volgende tabel vindt u Microsoft 365 services en toepassingen, samen met SIEM-serverinvoer en -resources voor meer informatie.
+
+<br>
 
 ****
 
@@ -69,8 +70,7 @@ Een SIEM-server kan gegevens ontvangen van een groot aantal Microsoft 365 servic
 
 Controleer of auditregistratie is ingeschakeld voordat u de SIEM-serverintegratie configureert.
 
-- Voor SharePoint Online, OneDrive voor Bedrijven en Azure Active Directory is auditregistratie ingeschakeld in de [portal Microsoft 365 Defender.](../../compliance/turn-audit-log-search-on-or-off.md)
-
+- Zie Voor SharePoint Online, OneDrive voor Bedrijven en Azure Active Directory controle in- [of uitschakelen.](../../compliance/turn-audit-log-search-on-or-off.md)
 - Zie Exchange Online controle van postvakken beheren voor [meer Exchange Online.](../../compliance/enable-mailbox-auditing.md)
 
 ## <a name="more-resources"></a>Meer informatie
