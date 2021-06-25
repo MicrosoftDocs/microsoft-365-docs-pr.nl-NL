@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Gebruik vertrouwelijkheidslabels om inhoud te beveiligen in SharePoint- en Microsoft Teams-sites en Microsoft 365 Groepen.
-ms.openlocfilehash: 8c19853730376e36ffe7ac136e7fc6036b8b5f12
-ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
+ms.openlocfilehash: 2ffc0350dd61a0064ce2e9891b18a6769a437d2e
+ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53028977"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096754"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>Vertrouwelijkheidslabels gebruiken om inhoud te beveiligen in Microsoft Teams, Microsoft 365 Groepen en SharePoint-sites
 
@@ -421,9 +421,7 @@ Het zou geen beveiligingsrisico zijn als het document een vertrouwelijkheidslabe
 
 Om het auditlogboek voor deze gebeurtenis te vinden, zoekt u naar **Niet-overeenkomende documentvertrouwelijkheid gedetecteerd** in de categorie **Bestands- en pagina-activiteiten**.
 
-De automatisch gegenereerde e-mail heeft als onderwerp **Niet-overeenkomende documentvertrouwelijkheid gedetecteerd** en in het e-mailbericht wordt uitgelegd dat de labels niet overeenkomen met een koppeling naar het geüploade document en de site. Het bericht bevat ook een documentatiekoppeling waarin wordt uitgelegd hoe gebruikers het vertrouwelijkheidslabel kunnen wijzigen. Momenteel kunnen deze geautomatiseerde e-mailberichten niet worden uitgeschakeld of aangepast.
-
-Als u deze automatisch gegenereerde e-mail wilt voorkomen, gebruikt u de volgende PowerShell-opdracht van [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite):
+De automatisch gegenereerde e-mail heeft als onderwerp **Niet-overeenkomende documentvertrouwelijkheid gedetecteerd** en in het e-mailbericht wordt uitgelegd dat de labels niet overeenkomen met een koppeling naar het geüploade document en de site. Het bericht bevat ook een documentatiekoppeling waarin wordt uitgelegd hoe gebruikers het vertrouwelijkheidslabel kunnen wijzigen. Deze geautomatiseerde e-mailberichten kunnen niet worden aangepast, maar u kunt voorkomen dat ze worden verzonden met de volgende PowerShell-opdracht van [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant):
 
 ```PowerShell
 Set-SPOTenant -BlockSendLabelMismatchEmail $True

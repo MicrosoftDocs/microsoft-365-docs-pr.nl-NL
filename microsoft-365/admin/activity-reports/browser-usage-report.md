@@ -17,17 +17,17 @@ search.appverid:
 - MET150
 - MOE150
 - GEA150
-description: Meer informatie over het downloaden van een Microsoft-browsergebruiksrapport met behulp Microsoft 365 dashboard Rapporten in het Microsoft 365 beheercentrum.
-ms.openlocfilehash: f655a3951dc58ddd5089c8034db64af3840ebf7d
-ms.sourcegitcommit: 9adb89206daa075af34a73bcb7e8fb86d7c2919a
+description: Meer informatie over het downloaden van een Microsoft-browsergebruiksrapport met behulp van Microsoft 365 dashboard Rapporten in de Microsoft 365-beheercentrum.
+ms.openlocfilehash: f2d8d8347e7b71375958c56f6649fbb911155d46
+ms.sourcegitcommit: b42dd3e706ebf9638cd893b35f75eaa56dd8fd7e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50606216"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53125409"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-browser-usage"></a>Microsoft 365 Rapporten in het beheercentrum - Browsergebruik van Microsoft
 
-In Microsoft 365 **dashboard Rapporten** ziet u een overzicht van activiteiten voor de producten in uw organisatie. Hiermee kunt u inzoomen op afzonderlijke rapporten op productniveau om u gedetailleerder inzicht te geven in de activiteiten binnen elk product. Bekijk [het overzichtsonderwerp over rapporten](activity-reports.md). In het rapport Browsergebruik van Microsoft kunt u inzichten krijgen in Internet Explorer, Microsoft Edge (oudere versie) en nieuw Microsoft Edge gebruik. Gebruiksrapportage is gebaseerd op Microsoft 365 onlineservices die worden geopend via een Microsoft-browser.
+In Microsoft 365 **dashboard Rapporten** ziet u een overzicht van activiteiten voor de producten in uw organisatie. Hiermee kunt u inzoomen op afzonderlijke rapporten op productniveau om u gedetailleerder inzicht te geven in de activiteiten binnen elk product. Bekijk [het overzichtsonderwerp over rapporten](activity-reports.md). In het rapport Browsergebruik van Microsoft kunt u inzichten krijgen in Internet Explorer, Microsoft Edge (oudere versie) en nieuw Microsoft Edge gebruik. Gebruiksrapportage is gebaseerd op Microsoft 365 onlineservices die worden geopend met een Microsoft-browser.
 
  > [!NOTE]
  > U moet een globale beheerder, globale lezer of rapportlezer zijn in Microsoft 365 of een Exchange, SharePoint of Skype voor Bedrijven beheerder om rapporten te zien.
@@ -36,6 +36,16 @@ In Microsoft 365 **dashboard Rapporten** ziet u een overzicht van activiteiten v
 
 1. Ga in het beheercentrum naar de pagina **Rapporten** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Gebruik</a>. 
 2. Klik op de startpagina van het dashboard op **de knop Meer** weergeven op de microsoft-browsergebruikskaart.
+
+## <a name="how-to-notify-users-to-upgrade-their-browser"></a>Gebruikers op de hoogte stellen van een upgrade van hun browser
+
+![Actiestroom microsoft browsergebruiksrapport](../../media/1ef4eb08-18b8-4dda-aa15-1aad013ecd70.png)
+
+Globale beheerders kunnen zich ervoor kiezen om berichten te verzenden naar gebruikers die gebruikmaken van Microsoft 365-services op Edge Legacy (niet ondersteund) en Internet Explorer (binnenkort niet meer ondersteund). Dit gerichte bericht meldt gebruikers dat de ondersteuning voor deze browsers binnenkort wordt beëindigen en het wordt naar een ondersteuningsartikel met informatie over Microsoft Edge en eenvoudige stappen die u moet volgen om van browser te wisselen. 
+
+U vindt deze functie op de rapportpagina. Wanneer het bericht is gemaakt, worden gebruikers op de hoogte gesteld met de opgegeven frequentie tot 17 augustus 2021. U kunt deze functie op elk moment uitschakelen om te stoppen met het verzenden van meldingen naar gebruikers. Als u wilt beginnen met het opnieuw verzenden van meldingen, zet u de functie weer in.
+
+Zie voor meer informatie [Microsoft Edge help & leren.](https://support.microsoft.com/microsoft-edge)
 
 ## <a name="interpret-the-microsoft-browser-usage-report"></a>Het browsergebruiksrapport van Microsoft interpreteren
 

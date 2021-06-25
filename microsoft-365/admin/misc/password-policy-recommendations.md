@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9fa2539a-2211-41fd-85a0-bc37b9619ca4
 description: Beveilig uw organisatie en tegen wachtwoordaanvallen en verbied veelgebruikte wachtwoorden en schakel op risico gebaseerde meervoudige verificatie in.
-ms.openlocfilehash: f580ed957b8231bc68c5f21ea9af990808478382
-ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
+ms.openlocfilehash: 6f79116b1188eaab1b843b2e3fa612c4ed01c488
+ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/18/2021
-ms.locfileid: "53006923"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096622"
 ---
 # <a name="password-policy-recommendations"></a>Aanbevelingen voor wachtwoordbeleid
 
@@ -58,7 +58,7 @@ Goede wachtwoordpraktijken kunnen globaal in een aantal categorieën worden onde
 
 Het voornaamste doel van een veiliger wachtwoordsysteem is wachtwoorddiversiteit. U wilt dat uw wachtwoordbeleid veel verschillende en moeilijk te raden wachtwoorden bevat. Hier volgen enkele aanbevelingen om uw organisatie zo veilig mogelijk te houden.
   
-- Vereis een minimumlengte van acht tekens (langer is niet per se beter)
+- Een vereiste voor minimumlengte van 8 tekens behouden
 
 - Vereis niet wat voor soort tekens er moeten worden gebruikt, bijvoorbeeld \*&amp;(^%$
 
@@ -131,6 +131,8 @@ Risicogebaseerde meervoudige verificatie verzekert dat wanneer ons systeem verda
 ## <a name="next-steps"></a>Volgende stappen
 
 Wilt u meer weten over het beheren van wachtwoorden? Hier volgen enkele aanbevolen artikelen:
+
+- [Vergeet wachtwoorden, stap over op wachtwoordloos](https://www.microsoft.com/security/business/identity-access-management/passwordless-authentication)
 
 - [Richtlijnen voor Microsoft-wachtwoorden](https://www.microsoft.com/research/wp-content/uploads/2016/06/Microsoft_Password_Guidance-1.pdf)
 
