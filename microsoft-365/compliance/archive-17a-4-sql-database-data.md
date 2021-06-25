@@ -11,14 +11,13 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-ROBOTS: noindex,nofollow
 description: Meer informatie over het instellen en gebruiken van een 17a-4 SQL DataParser-connector om gegevens in SQL te Microsoft 365.
-ms.openlocfilehash: 17e7da9e064e6d149ebdca0436f9180c8d17ca41
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: 51fd433ad072ba5afe0b314d7b61041728337240
+ms.sourcegitcommit: 410f6e1c6cf53c3d9013b89d6e0b40a050ee9cad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096983"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53137665"
 ---
 # <a name="set-up-a-connector-to-archive-sql-data-preview"></a>Een verbindingslijn instellen om gegevens SQL archiveren (voorbeeld)
 

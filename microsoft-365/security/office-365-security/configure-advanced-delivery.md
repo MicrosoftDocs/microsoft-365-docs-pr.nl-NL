@@ -17,12 +17,12 @@ ms.custom: ''
 description: Beheerders kunnen leren hoe ze het beleid voor geavanceerde bezorging in Exchange Online Protection (EOP) kunnen gebruiken om berichten te identificeren die niet moeten worden gefilterd in specifieke ondersteunde scenario's (phishingsimulaties van derden en berichten die worden bezorgd in postvakken van beveiligingsbewerkingen (SecOps).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 819f78883aa75fbbdded2e47c1bb85945f080233
-ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
+ms.openlocfilehash: 01d35c1f0c7abc7b6ce34fc9c2ec4d5fd5b228ae
+ms.sourcegitcommit: 410f6e1c6cf53c3d9013b89d6e0b40a050ee9cad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53108401"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53137737"
 ---
 # <a name="configure-the-delivery-of-third-party-phishing-simulations-to-users-and-unfiltered-messages-to-secops-mailboxes"></a>De bezorging van phishingsimulaties van derden configureren voor gebruikers en ongefilterde berichten in SecOps-postvakken
 
@@ -64,14 +64,16 @@ Berichten die worden geïdentificeerd door het geavanceerde bezorgingsbeleid zij
 
 - U opent de Microsoft 365 Defender-portal bij <https://security.microsoft.com>. Als u rechtstreeks naar de pagina **Geavanceerde bezorging wilt** gaan, opent u <https://security.microsoft.com/advanceddelivery> .
 
+- Zie [Verbinding maken met Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) als je verbinding wilt maken met Exchange Online PowerShell.
+
 - U moet machtigingen hebben toegewezen voordat u de procedures in dit artikel kunt uitvoeren:
-  - Als u geconfigureerde instellingen wilt maken, wijzigen of verwijderen in het  geavanceerde bezorgingsbeleid, moet u lid zijn van  de rollengroep Beveiligingsbeheerder in de **Microsoft 365 Defender-portal** en lid zijn van de rollengroep Organisatiebeheer in **Exchange Online.**  
+  - Als u geconfigureerde instellingen wilt maken, wijzigen of verwijderen in het  geavanceerde bezorgingsbeleid, moet u lid zijn van  de rollengroep Beveiligingsbeheerder in de **Microsoft 365 Defender-portal** en lid zijn van de rollengroep Organisatiebeheer in **Exchange Online.**
   - Voor alleen-lezen toegang tot het geavanceerde bezorgingsbeleid moet u lid zijn van de rollengroepen **Globale** lezer of **Beveiligingslezer.**
 
   Zie Machtigingen [in de](permissions-microsoft-365-security-center.md) Microsoft 365 Defender portal en [Machtigingen in](/exchange/permissions-exo/permissions-exo)Exchange Online.
 
   > [!NOTE]
-  > Gebruikers toevoegen aan de bijbehorende Azure Active Directory functie geeft gebruikers de vereiste machtigingen in de Microsoft 365 Defender _portal_ en machtigingen voor andere functies in Microsoft 365. Raadpleeg [Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
+  > Gebruikers toevoegen aan de bijbehorende Azure Active Directory functie geeft gebruikers de vereiste machtigingen in de Microsoft 365 Defender _portal_ en machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
 
 ## <a name="use-the-microsoft-365-defender-portal-to-configure-secops-mailboxes-in-the-advanced-delivery-policy"></a>Gebruik de Microsoft 365 Defender portal om SecOps-postvakken te configureren in het geavanceerde bezorgingsbeleid
 
@@ -122,8 +124,286 @@ De phishingsimulatiegegevens van derden die u hebt geconfigureerd, worden weerge
 
 Naast de twee scenario's waar het geavanceerde bezorgingsbeleid u bij kan helpen, zijn er andere scenario's waarvoor het filteren mogelijk moet worden overgeslagen:
 
-- **Filters van derden:** Als de MX-record  van uw domein niet naar Office 365 (berichten worden eerst ergens anders gerouteerd), is beveiliging standaard niet [](secure-by-default.md) *beschikbaar.*
-
-  Gebruik e-mailstroomregels (ook wel transportregels genoemd) om Microsoft-filtering te omzeilen voor berichten die al zijn geëvalueerd door filtering van derden. Zie E-mailstroomregels gebruiken om de SCL in berichten [in te stellen voor meer informatie.](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-set-scl.md)
+- **Filters van derden:** Als de MX-record  van uw domein niet naar Office 365 (berichten worden eerst ergens anders gerouteerd), is beveiliging standaard niet [](secure-by-default.md) *beschikbaar.* Als u bescherming wilt toevoegen, moet u Verbeterde filtering voor connectors (ook wel skip listing genoemd) *inschakelen.* Zie E-mailstroom beheren met [een externe cloudservice](/exchange/mail-flow-best-practices/manage-mail-flow-using-third-party-cloud)met Exchange Online. Als u geen uitgebreide filtering voor connectors wilt gebruiken, gebruikt u regels voor e-mailstroom (ook wel transportregels genoemd) om Microsoft-filtering te omzeilen voor berichten die al zijn geëvalueerd door filtering van derden. Zie E-mailstroomregels gebruiken om de SCL in berichten [in te stellen voor meer informatie.](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-set-scl.md)
 
 - **False positives under review**: U wilt mogelijk bepaalde berichten die nog steeds door Microsoft worden geanalyseerd [via](admin-submission.md) beheerdersinzendingen tijdelijk toestaan om bekende goede berichten te melden die ten onrechte als slecht worden gemarkeerd voor Microsoft (false positives). Net als bij alle **** overschrijvingen wordt ten zeerste aanbevolen dat deze vergoedingen tijdelijk zijn.
+
+## <a name="exchange-online-powershell-procedures-for-secops-mailboxes-in-the-advanced-delivery-policy"></a>Exchange Online PowerShell-procedures voor SecOps-postvakken in het beleid voor geavanceerde bezorging
+
+In Exchange Online PowerShell zijn de basiselementen van SecOps-postvakken in het geavanceerde bezorgingsbeleid:
+
+- **Het SecOps-beleid overschrijven:** beheerd door **\* de cmdlets -SecOpsOverridePolicy.**
+- **De secops-overschrijvenregel:** wordt beheerd door **\* de cmdlets -SecOpsOverrideRuleRule.**
+
+Dit gedrag heeft de volgende resultaten:
+
+- U maakt eerst het beleid en vervolgens maakt u de regel die het beleid aangeeft waar de regel op van toepassing is.
+- Wanneer u een beleid uit PowerShell verwijdert, wordt de bijbehorende regel ook verwijderd.
+- Wanneer u een regel uit PowerShell verwijdert, wordt het bijbehorende beleid niet verwijderd. U moet het bijbehorende beleid handmatig verwijderen.
+
+### <a name="use-powershell-to-configure-secops-mailboxes"></a>PowerShell gebruiken om SecOps-postvakken te configureren
+
+Het configureren van een SecOps-postvak in het geavanceerde bezorgingsbeleid in PowerShell is een proces in twee stappen:
+
+1. Het secops-overschrijvenbeleid maken.
+2. Maak de SecOps-overschrijvenregel die het beleid aangeeft waar de regel op van toepassing is.
+
+#### <a name="step-1-use-powershell-to-create-the-secops-override-policy"></a>Stap 1: PowerShell gebruiken om het secops-overschrijvenbeleid te maken
+
+Als u het secops-overschrijvenbeleid wilt maken, gebruikt u de volgende syntaxis:
+
+```powershell
+New-SecOpsOverridePolicy -Name SecOpsOverridePolicy -SentTo <EmailAddress1>,<EmailAddress2>,...<EmailAddressN>
+```
+
+**Opmerking:** Ongeacht de naam die u opgeeft, is de naam van het beleid SecOpsOverridePolicy, dus u kunt die waarde net zo goed gebruiken.
+
+In dit voorbeeld wordt het secops-postvakbeleid gemaakt.
+
+```powershell
+New-SecOpsOverridePolicy -Name SecOpsOverridePolicy -SendTo secops@contoso.com
+```
+
+Zie [New-SecOpsOverridePolicy (Nieuw-SecOpsOverridePolicy)](/powershell/module/exchange/new-secopsoverridepolicy)voor gedetailleerde syntaxis- en parametergegevens.
+
+#### <a name="step-2-use-powershell-to-create-the-secops-override-rule"></a>Stap 2: PowerShell gebruiken om de secops-overschrijvenregel te maken
+
+In dit voorbeeld wordt de regel SecOps-postvak gemaakt met de opgegeven instellingen.
+
+```powershell
+New-SecOpsOverrideRule -Name SecOpsOverrideRule -Policy SecOpsOverridePolicy
+```
+
+**Opmerking:****Ongeacht de waarde Naam die u opgeeft, is de regelnaam SecOpsOverrideRule waar een unieke \<GUID\> \<GUID\> GUID-waarde is (bijvoorbeeld 6fed4b63-3563-495d-a481-b24a311f8329).
+
+Zie [New-SecOpsOverrideRule voor](/powershell/module/exchange/new-secopsoverriderule)gedetailleerde syntaxis- en parametergegevens.
+
+### <a name="use-powershell-to-view-the-secops-override-policy"></a>PowerShell gebruiken om het beleid voor secops-overschrijven weer te geven
+
+Dit voorbeeld retourneert gedetailleerde informatie over het ene en alleen secops-postvakbeleid.
+
+```powershell
+Get-SecOpsOverridePolicy
+```
+
+Zie [Get-SecOpsOverridePolicy (Get-SecOpsOverridePolicy)](/powershell/module/exchange/get-secopsoverridepolicy)voor gedetailleerde syntaxis- en parametergegevens.
+
+### <a name="use-powershell-to-view-secops-override-rules"></a>PowerShell gebruiken om regels voor secops-overschrijven weer te geven
+
+Dit voorbeeld retourneert gedetailleerde informatie over secops-regels die regels overschrijven.
+
+```powershell
+Get-SecOpsOverrideRule
+```
+
+Hoewel de vorige opdracht slechts één regel moet retourneren, kunnen regels die in behandeling zijn voor verwijdering, ook worden opgenomen in de resultaten.
+
+In dit voorbeeld worden de geldige regel (één) en eventuele ongeldige regels geïdentificeerd.
+
+```powershell
+Get-SecOpsOverrideRule | Format-Table Name,Mode
+```
+
+Nadat u de ongeldige regels hebt opgegeven, kunt u deze verwijderen met de cmdlet **Remove-SecOpsOverrideRule,** zoals [verderop in dit artikel wordt beschreven.](#use-powershell-to-remove-secops-override-rules)
+
+Zie [Get-SecOpsOverrideRule (Get-SecOpsOverrideRule)](/powershell/module/exchange/get-secopsoverriderule) voor gedetailleerde syntaxis- en parametergegevens.
+
+### <a name="use-powershell-to-modify-the-secops-override-policy"></a>PowerShell gebruiken om het secops-overschrijvenbeleid te wijzigen
+
+Gebruik de volgende syntaxis om het secops-overschrijvenbeleid te wijzigen:
+
+```powershell
+Set-SecOpsOverridePolicy -Identity SecOpsOverridePolicy [-AddSentTo <EmailAddress1>,<EmailAddress2>,...<EmailAddressN>] [-RemoveSentTo <EmailAddress1>,<EmailAddress2>,...<EmailAddressN>]
+```
+
+In dit voorbeeld worden secops2@contoso.com toegevoegd aan het secops-overschrijvenbeleid.
+
+```powershell
+Set-SecOpsOverridePolicy -Identity SecOpsOverridePolicy -AddSentTo secops2@contoso.com
+```
+
+**Opmerking:** Als er een bijbehorende, geldige SecOps-overschrijvenregel bestaat, worden de e-mailadressen in de regel ook bijgewerkt.
+
+Zie [Set-SecOpsOverridePolicy](/powershell/module/exchange/set-secopsoverridepolicy)voor gedetailleerde syntaxis- en parametergegevens.
+
+### <a name="use-powershell-to-modify-a-secops-override-rule"></a>PowerShell gebruiken om een SecOps-overschrijvenregel te wijzigen
+
+De **cmdlet Set-SecOpsOverrideRule** wijzigt de e-mailadressen in de secops-overschrijvenregel niet. Als u de e-mailadressen in de secops-overschrijvenregel wilt wijzigen, gebruikt u de cmdlet **Set-SecOpsOverridePolicy.**
+
+Zie [Set-SecOpsOverrideRule](/powershell/module/exchange/set-secopsoverriderule)voor gedetailleerde syntaxis- en parametergegevens.
+
+### <a name="use-powershell-to-remove-the-secops-override-policy"></a>PowerShell gebruiken om het SecOps-overschrijvenbeleid te verwijderen
+
+In dit voorbeeld worden het secopspostvakbeleid en de bijbehorende regel verwijderd.
+
+```powershell
+Remove-SecOpsOverridePolicy -Identity SecOpsOverridePolicy
+```
+
+Zie [Remove-SecOpsOverridePolicy (Verwijderen-SecOpsOverridePolicy)](/powershell/module/exchange/remove-secopsoverridepolicy)voor gedetailleerde syntaxis- en parametergegevens.
+
+### <a name="use-powershell-to-remove-secops-override-rules"></a>PowerShell gebruiken om SecOps-regels te verwijderen
+
+Als u een secops-overschrijvenregel wilt verwijderen, gebruikt u de volgende syntaxis:
+
+```powershell
+Remove-SecOpsOverrideRule -Identity <RuleIdentity>
+```
+
+In dit voorbeeld wordt de opgegeven SecOps-overschrijvenregel verwijderd.
+
+```powershell
+Remove-SecOpsOverrideRule -Identity SecOpsOverrideRule6fed4b63-3563-495d-a481-b24a311f8329
+```
+
+Zie [Remove-SecOpsOverrideRule voor](/powershell/module/exchange/remove-secopsoverriderule)gedetailleerde syntaxis- en parametergegevens.
+
+## <a name="exchange-online-powershell-procedures-for-third-party-phishing-simulations-in-the-advanced-delivery-policy"></a>Exchange Online PowerShell-procedures voor phishingsimulaties van derden in het beleid voor geavanceerde bezorging
+
+In Exchange Online PowerShell zijn de basiselementen van phishingsimulaties van derden in het geavanceerde bezorgingsbeleid:
+
+- **De phishingsimulatie overschrijven het beleid:** gecontroleerd door **\* de cmdlets -PhishSimOverridePolicy.**
+- **De phishingsimulatie overschrijven regel:** Gecontroleerd door **\* de cmdlets -PhishSimOverrideRule.**
+
+Dit gedrag heeft de volgende resultaten:
+
+- U maakt eerst het beleid en vervolgens maakt u de regel die het beleid aangeeft waar de regel op van toepassing is.
+- U wijzigt de instellingen in het beleid en de regel afzonderlijk.
+- Wanneer u een beleid uit PowerShell verwijdert, wordt de bijbehorende regel ook verwijderd.
+- Wanneer u een regel uit PowerShell verwijdert, wordt het bijbehorende beleid niet verwijderd. U moet het bijbehorende beleid handmatig verwijderen.
+
+### <a name="use-powershell-to-configure-third-party-phishing-simulations"></a>PowerShell gebruiken om phishingsimulaties van derden te configureren
+
+Het configureren van een phishingsimulatie van derden in het beleid voor geavanceerde bezorging in PowerShell is een proces in twee stappen:
+
+1. Maak het beleid voor phishingsimulatie.
+2. Maak de overschrijvende regel voor phishingsimulatie die het beleid aangeeft waar de regel op van toepassing is.
+
+#### <a name="step-1-use-powershell-to-create-the-phishing-simulation-override-policy"></a>Stap 1: PowerShell gebruiken om het beleid voor phishingsimulatie te overschrijven
+
+In dit voorbeeld wordt het beleid voor phishingsimulatie overschrijven.
+
+```powershell
+New-PhishSimOverridePolicy -Name PhishSimOverridePolicy
+```
+
+**Opmerking:** Ongeacht de naam die u opgeeft, is de naam van het beleid PhishSimOverridePolicy, dus u kunt deze waarde net zo goed gebruiken.
+
+Zie [New-PhishSimOverridePolicy (Nieuw-PhishSimOverridePolicy)](/powershell/module/exchange/new-phishsimoverridepolicy)voor gedetailleerde syntaxis- en parametergegevens.
+
+#### <a name="step-2-use-powershell-to-create-the-phishing-simulation-override-rule"></a>Stap 2: PowerShell gebruiken om de regel voor phishingsimulatie te maken
+
+Gebruik de volgende syntaxis:
+
+```powershell
+New-PhishSimOverrideRule -Name PhishSimOverrideRule -Policy PhishSimOverridePolicy -SenderDomainIs <Domain1>,<Domain2>,...<DomainN> -SenderIpRanges <IPAddressEntry1>,<IPAddressEntry2>,...<IPAddressEntryN>
+```
+
+Ongeacht de waarde Naam die u opgeeft, is de regelnaam PhishSimOverrideRule waar een unieke \<GUID\> \<GUID\> GUID-waarde is (bijvoorbeeld a0eae53e-d755-4a42-9320-b9c6b55c5011).
+
+Een geldige IP-adresinvoer is een van de volgende waarden:
+
+- Enkel IP: bijvoorbeeld 192.168.1.1.
+- IP-bereik: bijvoorbeeld 192.168.0.1-192.168.0.254.
+- CIDR IP: Bijvoorbeeld 192.168.0.1/25.
+
+In dit voorbeeld wordt de regel voor phishingsimulatie met de opgegeven instellingen overschreven.
+
+```powershell
+New-PhishSimOverrideRule -Name PhishSimOverrideRule -Policy PhishSimOverridePolicy -SenderDomainIs fabrikam.com,wingtiptoys.com -SenderIpRanges 192.168.1.55
+```
+
+Zie [New-PhishSimOverrideRule](/powershell/module/exchange/new-phishsimoverriderule)voor gedetailleerde syntaxis- en parametergegevens.
+
+### <a name="use-powershell-to-view-the-phishing-simulation-override-policy"></a>PowerShell gebruiken om het beleid voor phishingsimulaties te bekijken
+
+Dit voorbeeld retourneert gedetailleerde informatie over de enige phishingsimulatie die beleid overschrijven.
+
+```powershell
+Get-PhishSimOverridePolicy
+```
+
+Zie [Get-PhishSimOverridePolicy (Get-PhishSimOverridePolicy)](/powershell/module/exchange/get-phishsimoverridepolicy)voor gedetailleerde syntaxis- en parametergegevens.
+
+### <a name="use-powershell-to-view-phishing-simulation-override-rules"></a>PowerShell gebruiken om regels voor phishingsimulatie te bekijken
+
+Dit voorbeeld retourneert gedetailleerde informatie over regels voor phishingsimulatie.
+
+```powershell
+Get-PhishSimOverrideRule
+```
+
+Hoewel de vorige opdracht slechts één regel moet retourneren, kunnen regels die in behandeling zijn voor verwijdering, ook worden opgenomen in de resultaten.
+
+In dit voorbeeld worden de geldige regel (één) en eventuele ongeldige regels geïdentificeerd.
+
+```powershell
+Get-PhishSimOverrideRule | Format-Table Name,Mode
+```
+
+Nadat u de ongeldige regels hebt opgegeven, kunt u deze verwijderen met de **cmdlet Remove-PhisSimOverrideRule,** [zoals verder wordt beschreven in dit artikel.](#use-powershell-to-remove-phishing-simulation-override-rules)
+
+Zie [Get-PhishSimOverrideRule](/powershell/module/exchange/get-phishsimoverriderule)voor gedetailleerde syntaxis- en parametergegevens.
+
+### <a name="use-powershell-to-modify-the-phishing-simulation-override-policy"></a>PowerShell gebruiken om het beleid voor phishingsimulaties te wijzigen
+
+Als u het beleid voor phishingsimulaties wilt wijzigen, gebruikt u de volgende syntaxis:
+
+```powershell
+Set-PhishSimOverridePolicy -Identity PhishSimOverridePolicy [-Comment "<DescriptiveText>"] [-Enabled <$true | $false>]
+```
+
+In dit voorbeeld wordt het beleid voor phishingsimulatie uitgeschakeld.
+
+```powershell
+Set-PhishSimOverridePolicy -Identity PhishSimOverridePolicy -Enabled $false
+```
+
+Zie [Set-PhishSimOverridePolicy](/powershell/module/exchange/set-phishsimoverridepolicy)voor gedetailleerde syntaxis- en parametergegevens.
+
+### <a name="use-powershell-to-modify-a-phishing-simulation-override-rule"></a>PowerShell gebruiken om een phishingsimulatieregel te wijzigen
+
+Als u de regel voor phishingsimulaties wilt wijzigen, gebruikt u de volgende syntaxis:
+
+```powershell
+Set-PhishSimOverrideRule -Identity PhishSimOverrideRulea0eae53e-d755-4a42-9320-b9c6b55c5011 [-Comment "<DescriptiveText>"] [-AddSenderDomainIs <DomainEntry1>,<DomainEntry2>,...<DomainEntryN>] [-RemoveSenderDomainIs <DomainEntry1>,<DomainEntry2>,...<DomainEntryN>] [-AddSenderIpRanges <IPAddressEntry1>,<IPAddressEntry2>,...<IPAddressEntryN>] [-RemoveSenderIpRanges <IPAddressEntry1>,<IPAddressEntry2>,...<IPAddressEntryN>]
+```
+
+In dit voorbeeld wijzigt u de opgegeven phishingsimulatieregel met de volgende instellingen:
+
+- Voeg de domeininvoer blueyonderairlines.com.
+- Verwijder de IP-adresinvoer 192.168.1.55.
+
+Houd er rekening mee dat deze wijzigingen geen invloed hebben op bestaande vermeldingen.
+
+```powershell
+Set-PhishSimOverrideRule -Identity PhishSimOverrideRulea0eae53e-d755-4a42-9320-b9c6b55c5011 -AddSenderDomainIs blueyonderairlines.com -RemoveSenderIpRanges 192.168.1.55
+```
+
+Zie [Set-PhishSimOverrideRule](/powershell/module/exchange/set-phishsimoverriderule)voor gedetailleerde syntaxis- en parametergegevens.
+
+### <a name="use-powershell-to-remove-a-phishing-simulation-override-policy"></a>PowerShell gebruiken om een beleid voor phishingsimulatie te verwijderen
+
+In dit voorbeeld worden het phishingsimulatiebeleid en de bijbehorende regel verwijderd.
+
+```powershell
+Remove-PhishSimOverridePolicy -Identity PhishSimOverridePolicy
+```
+
+Zie [Remove-PhishSimOverridePolicy (Verwijderen-PhishSimOverridePolicy)](/powershell/module/exchange/remove-phishsimoverridepolicy)voor gedetailleerde syntaxis- en parametergegevens.
+
+### <a name="use-powershell-to-remove-phishing-simulation-override-rules"></a>PowerShell gebruiken om regels voor phishingsimulatie te verwijderen
+
+Als u een phishingsimulatieregel wilt verwijderen, gebruikt u de volgende syntaxis:
+
+```powershell
+Remove-PhishSimOverrideRule -Identity <RuleIdentity>
+```
+
+In dit voorbeeld wordt de opgegeven regel voor phishingsimulatie verwijderd.
+
+```powershell
+Remove-PhishSimOverrideRule -Identity PhishSimOverrideRulea0eae53e-d755-4a42-9320-b9c6b55c5011
+```
+
+Zie [Remove-PhishSimOverrideRule voor](/powershell/module/exchange/remove-phishsimoverriderule)gedetailleerde syntaxis- en parametergegevens.

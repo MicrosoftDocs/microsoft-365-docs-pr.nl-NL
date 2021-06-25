@@ -17,12 +17,12 @@ ms.collection:
 description: Lees hoe de bezorgingsgroepen worden gebruikt om de reputatie van e-mailservers in de Microsoft 365 beschermen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ac3469150ef5cf5c1040fcddf7f0bc95e7a18805
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: 85f200cf226a050762db4ea37255f71241d1f98c
+ms.sourcegitcommit: 410f6e1c6cf53c3d9013b89d6e0b40a050ee9cad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599909"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53137716"
 ---
 # <a name="outbound-delivery-pools"></a>Uitgaande bezorgingspools
 
@@ -61,3 +61,24 @@ Mogelijke oorzaken voor een toename van NDR's zijn:
 - Een malafide e-mailserver.
 
 Al deze problemen kunnen leiden tot een plotse toename van het aantal NR's dat door de service wordt verwerkt. Vaak lijken deze NR's spam te zijn naar andere e-mailservers en -services (ook wel _[backscatter genoemd).](backscatter-messages-and-eop.md)_
+
+
+### <a name="relay-pool"></a>Relaisgroep
+
+Berichten die in bepaalde scenario's via Microsoft 365 worden doorgestuurd of doorgestuurd, worden verzonden met een speciale relaisgroep, omdat de bestemming de Microsoft 365 niet moet beschouwen als de werkelijke afzender. Het is belangrijk dat we dit e-mailverkeer isoleren, omdat er legitieme en ongeldige scenario's zijn voor het automatisch doorsturen of doorsturen van e-mail Microsoft 365. Net als bij de groep met een hoog risico wordt een aparte IP-adresgroep gebruikt voor doorgestuurde e-mail. Deze adresgroep wordt niet gepubliceerd omdat deze vaak kan worden gewijzigd en het maakt geen deel uit van de gepubliceerde SPF-record voor Microsoft 365.
+
+Microsoft 365 moet controleren of de oorspronkelijke afzender legitiem is, zodat we het doorgestuurde bericht met vertrouwen kunnen bezorgen.
+
+Het doorgestuurde/doorgestuurde bericht moet voldoen aan een van de volgende criteria om te voorkomen dat de doorgestuurde groep wordt gebruikt:
+
+- De uitgaande afzender is in een [geaccepteerd domein.](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)
+- SPF wordt pas weergegeven wanneer het bericht wordt Microsoft 365.
+- DKIM op het afzenderdomein wordt weergegeven wanneer het bericht wordt Microsoft 365.
+ 
+U kunt zien dat een bericht is verzonden via de relaygroep door te kijken naar het IP-adres van de uitgaande server (de relaisgroep zal zich in het bereik 40.95.0.0/16) of door te kijken naar de naam van de uitgaande server (er staat 'rly' in de naam).
+
+In gevallen waarin we de afzender kunnen verifiëren, gebruiken we Sender Rewriting Scheme (SRS) om het e-mailsysteem van de geadresseerde te helpen weten dat het doorgestuurde bericht afkomstig is van een vertrouwde bron. U kunt meer lezen over hoe dat werkt en wat u kunt doen om ervoor te zorgen dat het verzendende domein verificatie doorstaat in [Sender Rewriting Scheme (SRS) in Office 365.](/office365/troubleshoot/antispam/sender-rewriting-scheme)
+
+Als DKIM werkt, moet u DKIM inschakelen voor het verzenden van domein. De fabrikam.com maakt bijvoorbeeld deel uit van contoso.com en wordt gedefinieerd in de geaccepteerde domeinen van de organisatie. Als de afzender van het bericht sender@fabrikam.com, moet DKIM zijn ingeschakeld voor fabrikam.com. U kunt lezen hoe u [DKIM](use-dkim-to-validate-outbound-email.md)kunt inschakelen om uitgaande e-mail te valideren die is verzonden vanuit uw aangepaste domein.
+
+Als u een aangepast domein wilt toevoegen, volgt u de stappen in [Een domein toevoegen aan Microsoft 365.](../../admin/setup/add-domain.md)

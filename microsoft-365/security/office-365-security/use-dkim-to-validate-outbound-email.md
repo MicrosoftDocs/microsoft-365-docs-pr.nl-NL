@@ -20,12 +20,12 @@ ms.custom:
 description: Lees hoe u DKIM (DomainKeys Identified Mail) gebruikt in Microsoft 365 om ervoor te zorgen dat berichten die worden verzonden vanuit uw aangepaste domein worden vertrouwd door de ontvangende e-mailsystemen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e9aa3a72a36a146d121c9302a4b6cb126e765671
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: 9aa67d7875bb7f81c6569b56704d221b57378962
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53082778"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108497"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>DKIM gebruiken om uitgaande e-mail te valideren die wordt verzonden vanuit uw aangepaste domein
 
@@ -198,7 +198,7 @@ Als u de CNAME-records in DNS hebt gepubliceerd, kunt u DKIM-ondertekening insch
 
 1. Open de Microsoft 365 Defender-portal [met uw werk- of schoolaccount](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4).
 
-2. Ga naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid** \> **de sectie Regels** \> **DKIM**. Of gebruik <https://security.microsoft.com/dkimv2> om rechtstreeks naar de DKIM-pagina te gaan.
+2. Ga naar **E-mail en samenwerking** \> **Beleid en regels** \> **Bedreigingsbeleid**-pagina \> **de sectie Regels** \> **DKIM**. Of gebruik <https://security.microsoft.com/dkimv2> om rechtstreeks naar de DKIM-pagina te gaan.
 
 3. Selecteer op de pagina **DKIM** het domein door op de naam te klikken.
 
