@@ -37,7 +37,7 @@ Bij documentbegrip wordt gebruikgemaakt van modellen voor kunstmatige intelligen
 Documentbegripmodellen worden gemaakt en beheerd in een type SharePoint-site, genaamd een *inhoudscentrum*. Wanneer het model wordt toegepast op een SharePoint-documentbibliotheek, wordt het gekoppeld aan een inhoudstype dat kolommen bevat waarin de geëxtraheerde informatie wordt opgeslagen. De inhoud die u maakt, wordt opgeslagen in de SharePoint-inhoudstypegalerie. U kunt er ook voor kiezen om het schema van bestaande inhoudstypen te gebruiken.
 
 > [!NOTE]
-> Alleen-lezen of verzegelde inhoudstypen kunnen niet bijgewerkt worden, dus kunnen ze niet worden gebruikt in een model.
+> Alleen-lezen- of verzegelde inhoudstypen kunnen niet worden bijgewerkt, dus kunnen ze niet worden gebruikt in een model.
 
 U kunt *classificaties* en *extractoren* toevoegen aan uw documentbegripmodellen om het volgende te doen: 
 
@@ -53,34 +53,34 @@ Nadat u uw model hebt gepubliceerd, gebruikt u het inhoudscentrum om het toe te 
 
 Documentbegripmodellen gebruiken Optical Character Recognition- (OCR) technologie om pdf-bestanden, afbeeldingen en tiff-bestanden te scannen wanneer je een model traint met voorbeeldbestanden en wanneer je het model uitvoert op bestanden in een documentbibliotheek.
 
-Let op de volgende verschillen in Microsoft Office tekstgebaseerde bestanden en OCR-gescande bestanden (pdf, afbeelding of tiff):
+Houd rekening met de volgende verschillen voor tekstgebaseerde Microsoft Office-bestanden en OCR-gescande bestanden (PDF, afbeelding of TIFF):
 
-- Office-bestanden: Afgekapt op 64000 karakters (in training en wanneer uitgevoerd op bestanden in een documentbibliotheek).
+- Office-bestanden: afgekapt op 64.000 tekens (tijdens training en wanneer uitgevoerd voor bestanden in een documentbibliotheek).
 
-- OCR-gescande bestanden: Er is een limiet van 20 pagina's.  
+- OCR-gescande bestanden: er geldt een limiet van 20 pagina's.  
 
 ### <a name="requirements"></a>Vereisten
 
-OCR verwerking werkt het beste met documenten die aan de volgende vereisten voldoen:
+OCR-verwerking werkt het beste met documenten die aan de volgende vereisten voldoen:
 
-- JPG, PNG of PDF-formaat (tekst of scan) PDF's met tekst zijn beter, omdat er geen fouten zijn met leestekenextractie en locatie.
+- JPG-, PNG- of PDF-indeling (tekst of gescand) PDF-bestanden met ingesloten tekst werken beter omdat er geen fouten optreden voor tekenextractie en -locatie.
 
-- Als u PDF's met een wachtwoord vergrendeld zijn moet u de vergrendeling verwijderen voordat u ze inlevert.
+- Als uw PDF-bestanden met een wachtwoord zijn vergrendeld, moet u de vergrendeling verwijderen voordat u ze indient.
 
-- De gecombineerde bestandsgrootte van de documenten die gebruikt worden voor training per collectie mogen niet groter zijn dan 50 MB en PDF-documenten mogen niet meer dan 500 pagina's hebben.
+- De gecombineerde bestandsgrootte van de documenten die u gebruikt voor training per collectie, mag niet groter zijn dan 50 MB en PDF-documenten mogen maximaal 500 pagina's bevatten.
 
-- Voor afbeeldingen moeten de afmetingen tussen 50 x 50 en 10000 x 10000 pixels zijn.
+- De afmetingen van afbeeldingen moeten tussen 50 x 50 en 10000 x 10000 pixels liggen.
    > [!NOTE]
-   > Afbeeldingen die erg breed zijn of aparte afmetingen hebben (bijvoorbeeld bouwtekeningen) kunnen afgekapt worden in het OCR-proces en minder nauwkeurig worden.
+   > Afbeeldingen die erg breed zijn of bijzondere afmetingen hebben (bijvoorbeeld bouwtekeningen), worden mogelijk afgekapt tijdens het OCR-proces en worden mogelijk minder nauwkeurig.
  
-- Afmetingen voor PDF-bestanden moeten maximaal 17 x 17 inches zijn, en overeen komen met juridische of A3 papierformaten of kleiner.
+- PDF-bestanden moeten maximaal 17 x 17 inch groot zijn, wat overeenkomt met de papierformaten Legal of A3 en kleiner.
 
-- Scans moeten afbeeldingen van hoge kwaliteit zijn wanneer gescand vanaf papieren documenten.
+- Scans op basis van papieren documenten moeten afbeeldingen van hoge kwaliteit zijn.
 
-- Moeten gebruik maken van het Latijnse alfabet (Engelse karakters).
+- Het Latijnse alfabet moeten worden gebruikt (Engelse tekens).
 
 > [!NOTE]
-> AI Builder ondersteunt momenteel de volgende types formuliergevens niet:<br>- Selectievakken of radioknoppen<br>- Handtekeningen <br>- Herstelbare PDF's
+> De volgende typen formuliergegevens worden momenteel niet ondersteund in AI Builder:<br>- Selectievakken of keuzerondjes<br>- Handtekeningen<br>- Invulbare PDF-bestanden
 
 ### <a name="supported-file-types"></a>Ondersteunde bestandstypen
 
