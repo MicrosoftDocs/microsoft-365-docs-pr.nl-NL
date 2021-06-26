@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.date: 04/19/2019
+ms.date: ''
 audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
@@ -18,18 +18,18 @@ search.appverid:
 ms.assetid: a7e4342a-a0a1-4b43-b166-3d7eecf5d2fd
 description: Meer informatie over hoe DLP in & compliancecentrum voor beveiliging werkt met DLP- en e-mailstroomregels (transportregels) in het Exchange beheercentrum.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c5249279e1dd04447235aae813128cf458adde03
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: d71c45e5483bc73afbe2598415e30b84e97c2539
+ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52162896"
+ms.lasthandoff: 06/26/2021
+ms.locfileid: "53149140"
 ---
-# <a name="how-dlp-works-between-the-security--compliance-center-and-exchange-admin-center"></a>De werking van DLP tussen het Beveiligings- en compliancecentrum en het Exchange-beheercentrum
+# <a name="how-dlp-works-between-the-microsoft-365-compliance-center-and-exchange-admin-center"></a>Hoe DLP werkt tussen het Microsoft 365 compliancecentrum en Exchange beheercentrum
 
-In Office 365 kunt u een DLP-beleid (Data Loss Prevention) maken in twee verschillende beheercentra:
+In Microsoft 365 kunt u een DLP-beleid (Data Loss Prevention) maken in twee verschillende beheercentra:
   
-- In het **Beveiligings- & Compliancecentrum** kunt u één DLP-beleid maken om inhoud te beschermen in SharePoint, OneDrive, Exchange en nu Microsoft Teams. Indien mogelijk raden we u aan hier een DLP-beleid te maken. Zie Verwijzing naar preventie van [gegevensverlies voor meer informatie.](data-loss-prevention-policies.md)
+- In het **Microsoft 365 compliancecentrum** kunt u één DLP-beleid maken om inhoud in SharePoint, OneDrive, Exchange, Teams en nu Endpoint-apparaten te beschermen. U wordt aangeraden hier een DLP-beleid te maken. Zie Verwijzing naar preventie van [gegevensverlies voor meer informatie.](data-loss-prevention-policies.md)
     
 - In het **Exchange beheercentrum** kunt u een DLP-beleid maken om inhoud alleen in de Exchange. In dit beleid kunnen Exchange regels voor e-mailstroom (ook wel transportregels genoemd) gebruiken, zodat er meer specifieke opties zijn voor het verwerken van e-mail. Zie [DLP in het Exchange beheercentrum voor meer informatie.](/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
     
@@ -55,6 +55,6 @@ Houd er ook rekening mee dat Exchange regels voor e-mailstroom die de actie Stop
 
 Beleidstips kunnen werken met DLP-beleidsregels en e-mailstroomregels die zijn gemaakt in het Exchange-beheercentrum of met DLP-beleid dat is gemaakt in het Compliancecentrum voor beveiliging &, maar niet beide. Dit komt omdat deze beleidsregels op verschillende locaties worden opgeslagen, maar beleidstips kunnen slechts op één locatie worden gebruikt.
   
-Als u beleidstips hebt geconfigureerd in het Exchange-beheercentrum, worden beleidstips die u configureert in het Compliancecentrum voor beveiliging & niet weergegeven voor gebruikers in Outlook op het web en Outlook 2013 en hoger totdat u de tips in het Exchange-beheercentrum uit schakelen. Dit zorgt ervoor dat uw huidige Exchange e-mailstroomregels blijven werken totdat u ervoor kiest om over te schakelen naar het Beveiligings- & Compliancecentrum.
+Als u beleidstips hebt geconfigureerd in het Exchange-beheercentrum, worden beleidstips die u configureert in het Compliancecentrum voor beveiliging & niet weergegeven voor gebruikers in webversie van Outlook en Outlook 2013 en hoger totdat u de tips in het Exchange-beheercentrum uit schakelen. Dit zorgt ervoor dat uw huidige Exchange e-mailstroomregels blijven werken totdat u ervoor kiest om over te schakelen naar het Beveiligings- & Compliancecentrum.
   
 Hoewel beleidstips slechts vanaf één locatie kunnen worden gebruikt, worden er altijd e-mailmeldingen verzonden, zelfs als u DLP-beleid gebruikt in zowel het Compliancecentrum voor beveiliging & als het Exchange-beheercentrum.

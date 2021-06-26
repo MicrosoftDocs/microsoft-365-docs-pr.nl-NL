@@ -15,16 +15,16 @@ ms.collection:
 search.appverid:
 - MET150
 description: Meer informatie over het standaardbeleid voor preventie van gegevensverlies in Microsoft Teams
-ms.openlocfilehash: 0663c370373708009346d4f858729e17436f0f62
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: c6b7413fdd4017fe1211e804c00a2e9c0684468d
+ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52162908"
+ms.lasthandoff: 06/26/2021
+ms.locfileid: "53149116"
 ---
 # <a name="learn-about-the-default-data-loss-prevention-policy-in-microsoft-teams-preview"></a>Meer informatie over het standaard preventiebeleid voor gegevensverlies in Microsoft Teams (preview)
 
-[De mogelijkheden voor preventie van](dlp-learn-about-dlp.md) gegevensverlies zijn uitgebreid met Microsoft Teams chat- en kanaalberichten, inclusief privékanaalberichten. Als onderdeel van deze release hebben we een standaard DLP-beleid gemaakt voor klanten die voor het eerst naar het Compliancecentrum gaan.
+[De mogelijkheden voor preventie van](dlp-learn-about-dlp.md) gegevensverlies zijn uitgebreid met Microsoft Teams chat- en kanaalberichten, inclusief privékanaalberichten. Als onderdeel van deze release hebben we een standaard DLP-beleid gemaakt voor Microsoft Teams klanten die voor het eerst naar het Compliancecentrum gaan.
 
 ## <a name="applies-to"></a>Van toepassing op
 
@@ -41,7 +41,7 @@ Elke tenant die een licentie heeft met een of meer van de onderstaande licenties
 
 ## <a name="what-does-the-default-policy-do"></a>Wat doet het standaardbeleid?
 
-Het standaard DLP-beleid houdt alle creditcardnummers bij die intern en extern worden gedeeld met de organisatie. Dit beleid is standaard ingeschakeld voor alle gebruikers van de tenant. Het genereert geen beleidstips voor eindgebruikers, maar genereert wel een waarschuwingsgebeurtenis en activeert ook een e-mail met een lage ernst naar de beheerder (toegevoegd aan het beleid). Beheerder kan de activiteiten bekijken en de beleidsdetails bewerken door u aan te melden bij het Compliancecentrum.
+Het standaard DLP-beleid voor Teams houdt alle creditcardnummers bij die intern en extern worden gedeeld met de organisatie. Dit beleid is standaard ingeschakeld voor alle gebruikers van de tenant. Het genereert geen beleidstips voor eindgebruikers, maar genereert wel een waarschuwingsgebeurtenis en activeert ook een e-mail met een lage ernst naar de beheerder (toegevoegd aan het beleid). Beheerder kan de activiteiten bekijken en de beleidsdetails bewerken door u aan te melden bij het Compliancecentrum.
 
 Beheerders kunnen dit beleid bekijken in het [compliancecentrum](https://compliance.microsoft.com/compliancesettings) > pagina Preventiebeleid voor gegevensverlies.
 

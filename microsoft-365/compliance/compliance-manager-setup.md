@@ -2,8 +2,8 @@
 title: Aan de slag met Microsoft Compliance Manager
 f1.keywords:
 - NOCSH
-ms.author: chvukosw
-author: chvukosw
+ms.author: v-jgriffee
+author: jmgriffee
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Stel gebruikersmachtigingen en -rollen van Microsoft Compliance Manager in en configureer geautomatiseerde tests van acties. Beheer de gebruikersgeschiedenis en filter de dashboardweergave.
-ms.openlocfilehash: 8877a9a1e65a624708646c17a2517647c8a72f6a
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: 7e29dd0eff7b05cb55a1fb0e071632353dadbdf8
+ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "52162534"
+ms.lasthandoff: 06/26/2021
+ms.locfileid: "53148900"
 ---
 # <a name="get-started-with-compliance-manager"></a>Aan de slag met Compliancebeheer
 
@@ -38,7 +38,7 @@ De Microsoft 365 globale beheerder voor uw organisatie is waarschijnlijk de eers
 
 ## <a name="sign-in"></a>Aanmelden
 
-1. Ga naar het [Microsoft 365 compliancecentrum](https://compliance.microsoft.com/) en meld **u aan** met uw Microsoft 365 globale beheerdersaccount.
+1. Ga naar het [Microsoft 365-compliancecentrum](https://compliance.microsoft.com/) en **meld u aan** met uw Microsoft 365 globale beheerdersaccount.
 2. Selecteer **Compliancebeheer** in het linkernavigatiedeelvenster. U komt aan op het [dashboard compliancebeheer.](#understand-the-compliance-manager-dashboard)
 
 De directe koppeling naar Access Compliance Manager is [https://compliance.microsoft.com/compliancemanager](https://compliance.microsoft.com/compliancemanager) .
@@ -80,7 +80,7 @@ Als u geen toegang hebt tot het Office 365-beveiligings- en compliancecentrum of
 
 Zie Beheerders- en [niet-beheerdersrollen](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)toewijzen aan gebruikers met een Azure Active Directory.
 
-Gebruikers met Azure AD-identiteiten die geen Office 365 of Microsoft 365 hebben, hebben geen toegang tot Compliance Manager in het Microsoft 365 compliancecentrum. Neem contact op met [cmresearch@microsoft.com.](mailto:cmresearch@microsoft.com)
+Gebruikers met Azure AD-identiteiten die geen Office 365 of Microsoft 365 hebben, hebben geen toegang tot Compliance Manager in de Microsoft 365-compliancecentrum. Neem contact op met [cmresearch@microsoft.com.](mailto:cmresearch@microsoft.com)
 
 ### <a name="role-types"></a>Rollentypen
 
@@ -97,7 +97,7 @@ In de onderstaande tabel ziet u de functies die door elke rol in Compliance Mana
 
 ## <a name="settings-for-automated-testing-and-user-history"></a>Instellingen voor geautomatiseerde tests en gebruikersgeschiedenis
 
-Met de compliancebeheerinstellingen in het Microsoft 365 compliancecentrum kunt u het automatisch testen van verbeteracties in- en uitschakelen. Met de instellingen kunt u ook de gegevens van gebruikers beheren die zijn gekoppeld aan verbeteracties, waaronder de mogelijkheid om verbeteracties opnieuw toe te passen aan een andere gebruiker.  Alleen personen met een globale beheerder of compliancebeheerder hebben toegang tot de instellingen van Compliance Manager.
+Met de compliancebeheerinstellingen in Microsoft 365-compliancecentrum kunt u het automatisch testen van verbeteracties in- en uitschakelen. Met de instellingen kunt u ook de gegevens van gebruikers beheren die zijn gekoppeld aan verbeteracties, waaronder de mogelijkheid om verbeteracties opnieuw toe te passen aan een andere gebruiker.  Alleen personen met een globale beheerder of compliancebeheerder hebben toegang tot de instellingen van Compliance Manager.
 
 > [!NOTE]
 > De geautomatiseerde testfunctie is niet beschikbaar voor klanten in GCC High- en DoD-omgevingen, omdat Secure Score niet beschikbaar is in deze omgevingen. GCC Klanten met hoge en dod-activiteiten moeten hun verbeteracties handmatig implementeren en testen.
@@ -112,7 +112,7 @@ De globale beheerder van uw organisatie kan de instellingen voor geautomatiseerd
 
 #### <a name="to-manage-your-automated-testing-settings"></a>Uw geautomatiseerde testinstellingen beheren:
 
-1. Selecteer **Instellingen** linkernavigatie vanaf elke locatie in [het Microsoft 365 compliancecentrum.](https://compliance.microsoft.com/)
+1. Selecteer **Instellingen** aan de linkerkant van de navigatie vanaf elke locatie in [Microsoft 365-compliancecentrum.](https://compliance.microsoft.com/)
 
 2. Selecteer compliancebeheer op de pagina **Instellingen.**
 
@@ -134,7 +134,7 @@ Met de instellingen voor gebruikersgeschiedenis kunt u ook alle verbeteracties v
 
 **De instellingen voor gebruikersgeschiedenis zoeken:**
 
-1. Selecteer Instellingen linkernavigatie vanaf elke locatie in [het Microsoft 365 compliancecentrum.](https://compliance.microsoft.com/)
+1. Selecteer Instellingen aan de linkerkant van de navigatie vanaf elke locatie in [Microsoft 365-compliancecentrum.](https://compliance.microsoft.com/)
 
 2. Selecteer compliancebeheer op de pagina **Instellingen.**
 
@@ -152,7 +152,7 @@ Het rapport geeft de status van de verbeteringsactie weer vanaf de aanmaakdatum.
 
 **Volg de onderstaande stappen om een rapport per gebruiker te exporteren:**
 
-1. Selecteer **Instellingen** linkernavigatie vanaf elke locatie in [het Microsoft 365 compliancecentrum.](https://compliance.microsoft.com/)
+1. Selecteer **Instellingen** aan de linkerkant van de navigatie vanaf elke locatie in [Microsoft 365-compliancecentrum.](https://compliance.microsoft.com/)
 
 2. Selecteer compliancebeheer op de pagina **Instellingen.**
 
@@ -170,7 +170,7 @@ U kunt verbeteracties van de ene gebruiker naar de andere toewijzen. Wanneer u e
 
 **Volg de onderstaande stappen om verbeteracties opnieuw toe te passen op een andere gebruiker:**
 
-1. Selecteer **Instellingen** linkernavigatie vanaf elke locatie in [het Microsoft 365 compliancecentrum.](https://compliance.microsoft.com/)
+1. Selecteer **Instellingen** aan de linkerkant van de navigatie vanaf elke locatie in [Microsoft 365-compliancecentrum.](https://compliance.microsoft.com/)
 
 2. Selecteer compliancebeheer op de pagina **Instellingen.**
 
@@ -197,7 +197,7 @@ Als u de geschiedenis van een gebruiker verwijdert, worden deze verwijderd als e
 
 Als u de geschiedenis van een gebruiker wilt verwijderen, volgt u de onderstaande stappen:
 
-1. Selecteer **Instellingen** linkernavigatie vanaf elke locatie in [het Microsoft 365 compliancecentrum.](https://compliance.microsoft.com/)
+1. Selecteer **Instellingen** aan de linkerkant van de navigatie vanaf elke locatie in [Microsoft 365-compliancecentrum.](https://compliance.microsoft.com/)
 
 2. Selecteer compliancebeheer op de pagina **Instellingen.**
 
@@ -322,7 +322,7 @@ U kunt op twee manieren actie ondernemen vanaf dit scherm:
 
 De pagina Beoordelingen bevat alle [beoordelingen die](compliance-manager-assessments.md) u voor uw organisatie hebt ingesteld. De noemer nalevingsscore wordt bepaald door al uw bijgespoorde beoordelingen. Wanneer u meer evaluaties toevoegt, ziet u meer verbeteracties op de pagina verbeteracties en wordt de noemer voor nalevingsscores verhoogd.
 
-In **de teller** geactiveerde sjablonen boven aan de pagina ziet u het aantal actieve beoordelingssjablonen dat momenteel wordt gebruikt buiten het totale aantal sjablonen dat uw organisatie kan gebruiken. Zie [Sjabloontype](compliance-manager-templates.md#template-types-included-and-premium-active-and-inactive) voor meer informatie.
+In **de teller** geactiveerde sjablonen boven aan de pagina ziet u het aantal actieve beoordelingssjablonen dat momenteel wordt gebruikt buiten het totale aantal sjablonen dat uw organisatie kan gebruiken. Zie [Beschikbaarheid en licenties van sjabloon voor](compliance-manager-templates.md#template-availability-and-licensing) meer informatie.
 
 De evaluatiepagina bevat belangrijke informatie over elke beoordeling:
 
@@ -357,7 +357,7 @@ Standaard ziet u de beoordeling van [basislijn](compliance-manager-assessments.m
 
 Een sjabloon is een framework voor het maken van een beoordeling in Compliance Manager. Op de pagina beoordelingssjablonen ziet u een lijst met sjablonen en belangrijke details. De lijst bevat sjablonen die worden geleverd door Compliance Manager en alle sjablonen die uw organisatie heeft gewijzigd of gemaakt. U kunt filters toepassen om een sjabloon te zoeken op basis van certificering, productbereik, land, industrie en wie deze heeft gemaakt.
 
-In **de teller** geactiveerde sjablonen boven aan de pagina ziet u het aantal actieve beoordelingssjablonen dat momenteel wordt gebruikt buiten het totale aantal sjablonen dat uw organisatie kan gebruiken. Zie [Sjabloontype](compliance-manager-templates.md#template-types-included-and-premium-active-and-inactive) voor meer informatie.
+In **de teller** geactiveerde sjablonen boven aan de pagina ziet u het aantal actieve beoordelingssjablonen dat momenteel wordt gebruikt buiten het totale aantal sjablonen dat uw organisatie kan gebruiken. Zie [Beschikbaarheid en licenties van sjabloon voor](compliance-manager-templates.md#template-availability-and-licensing) meer informatie.
 
 Selecteer een sjabloon in de rij om de detailspagina weer te geven, met een beschrijving van de sjabloon en meer informatie over certificering, bereik en besturingselementgegevens. Op deze pagina kunt u de juiste knoppen selecteren om een beoordeling te maken, de sjabloongegevens exporteren naar Excel of de sjabloon wijzigen.
 

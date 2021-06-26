@@ -2,8 +2,8 @@
 title: Microsoft Compliance Manager
 f1.keywords:
 - NOCSH
-ms.author: chvukosw
-author: chvukosw
+ms.author: v-jgriffee
+author: jmgriffee
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Compliance Manager helpt organisaties bij het vereenvoudigen en automatiseren van risicobeoordelingen en stelt aanbevolen acties voor om risico's aan te pakken.
-ms.openlocfilehash: 7eb8e0fdea26ca24453ca7071ab1282c686d5848
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: cc1919f63716dfa79274a5cf7016ef07f2f36f92
+ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244393"
+ms.lasthandoff: 06/26/2021
+ms.locfileid: "53148948"
 ---
 # <a name="microsoft-compliance-manager"></a>Microsoft Compliance Manager
 
@@ -30,7 +30,7 @@ ms.locfileid: "52244393"
 
 ## <a name="whats-new-the-ga-release-of-compliance-manager"></a>Nieuw: de GA-release van Compliance Manager
 
-Compliance manager is nu algemeen beschikbaar (GA) als end-to-end compliancebeheeroplossing in [het Microsoft 365 compliancecentrum.](microsoft-365-compliance-center.md) Met deze release voltooit Compliance Manager de overgang van de vorige locatie in de Microsoft Service Trust Portal. Compliance manager is ook beschikbaar voor klanten van de Amerikaanse overheidsgemeenschap (GCC) GCC High en Ministerie van Defensie (DoD).
+Compliance Manager is nu algemeen beschikbaar (GA) als een end-to-end compliancebeheeroplossing binnen [de Microsoft 365-compliancecentrum.](microsoft-365-compliance-center.md) Met deze release voltooit Compliance Manager de overgang van de vorige locatie in de Microsoft Service Trust Portal. Compliance manager is ook beschikbaar voor klanten van de Amerikaanse overheidsgemeenschap (GCC) GCC High en Ministerie van Defensie (DoD).
 
 Wat begon als het openbare voorbeeld van compliancescore, is uitgegroeid tot een gecentraliseerde tool met verbeterde mogelijkheden voor compliancebeheer en een groter gebruiksgemak.  De GA-release bevat een grotere verzameling vooraf gebouwde evaluaties om u te helpen uw complianceactiviteiten te schalen.
 
@@ -45,7 +45,7 @@ Bekijk de onderstaande video om te zien hoe Compliance Manager kan helpen bij he
 
 ## <a name="what-is-compliance-manager"></a>Wat is Compliance Manager
 
-[Microsoft Compliance Manager](https://compliance.microsoft.com/compliancemanager) is een functie in het [Microsoft 365 compliancecentrum](microsoft-365-compliance-center.md) waarmee u de nalevingsvereisten van uw organisatie met meer gemak en gemak kunt beheren. Compliance manager kan u helpen tijdens uw compliancetraject, van het inventariseren van uw risico's voor gegevensbescherming tot het beheren van de complexiteit van het implementeren van besturingselementen, het actueel houden van regelgeving en certificeringen en het rapporteren aan auditors.
+[Microsoft Compliance Manager](https://compliance.microsoft.com/compliancemanager) is een functie in [de Microsoft 365-compliancecentrum](microsoft-365-compliance-center.md) waarmee u de nalevingsvereisten van uw organisatie met meer gemak en gemak kunt beheren. Compliance manager kan u helpen tijdens uw compliancetraject, van het inventariseren van uw risico's voor gegevensbescherming tot het beheren van de complexiteit van het implementeren van besturingselementen, het actueel houden van regelgeving en certificeringen en het rapporteren aan auditors.
 
 Compliance manager helpt compliance te vereenvoudigen en risico's te beperken door:
 

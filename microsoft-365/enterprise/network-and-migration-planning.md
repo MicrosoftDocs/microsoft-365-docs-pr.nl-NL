@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 ms.assetid: f5ee6c33-bcd7-4b0b-b0f8-dc1d9fb8d132
 description: Dit artikel bevat koppelingen naar informatie over netwerkplanning, testen en migratie naar Office 365.
-ms.openlocfilehash: 99bcc1bd0447b192860fc0bcc67fc18d87c2d5fc
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: aed8bacd4dc08aa6d77ad0c530e721ac9d383bf5
+ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923586"
+ms.lasthandoff: 06/26/2021
+ms.locfileid: "53149104"
 ---
 # <a name="network-and-migration-planning-for-office-365"></a>Netwerk- en migratieplanning voor Office 365
 
@@ -103,8 +103,6 @@ Deze onderwerpen bevatten gedetailleerde Office 365 informatie over netwerkverwi
 - [IPv6-ondersteuning in Office 365-services](ipv6-support.md)
     
 - [Beginselen voor Office 365-netwerkverbinding](./microsoft-365-network-connectivity-principles.md)
-    
-- [Office 365 veelgestelde vragen (veelgestelde vragen) voor videonetwerken](office-365-video-networking-faq.md)
     
 - [Netwerkapparaten plannen die verbinding maken met Office 365 services](plan-for-network-devices.md)
     

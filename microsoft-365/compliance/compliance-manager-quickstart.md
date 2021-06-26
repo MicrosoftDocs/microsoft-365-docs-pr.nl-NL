@@ -2,8 +2,8 @@
 title: Snelstarthandleiding voor Microsoft Compliance Manager
 f1.keywords:
 - NOCSH
-ms.author: chvukosw
-author: chvukosw
+ms.author: v-jgriffee
+author: jmgriffee
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Gebruik de quickstarthandleiding compliancebeheer om u te helpen bij het maken van kennis, het instellen en het gebruik van Compliance Manager.
-ms.openlocfilehash: bb40fe0ace2f4b751e24d77f46dc1fc509eb42f4
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 8ac4245da95192516c57d51d740531fd4af10647
+ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "52161768"
+ms.lasthandoff: 06/26/2021
+ms.locfileid: "53149044"
 ---
 # <a name="compliance-manager-quickstart"></a>Snelstartgids voor Compliancebeheer
 
@@ -31,7 +31,7 @@ Of u nu voor de eerste keer naar Compliance Manager komt of klaar bent om enkele
 
 ## <a name="first-visit-get-to-know-compliance-manager"></a>Eerste bezoek: maak bekend met Compliance Manager
 
-Compliance Manager bevindt zich in het Microsoft 365 compliancecentrum op https://compliance.microsoft.com . De globale beheerder van uw organisatie moet gebruikersmachtigingen instellen en rollen [toewijzen](compliance-manager-setup.md#set-user-permissions-and-assign-roles) voordat u Compliance Manager gaat gebruiken.
+Compliance Manager bevindt zich in de Microsoft 365-compliancecentrum bij https://compliance.microsoft.com . De globale beheerder van uw organisatie moet gebruikersmachtigingen instellen en rollen [toewijzen](compliance-manager-setup.md#set-user-permissions-and-assign-roles) voordat u Compliance Manager gaat gebruiken.
 
 De eerste keer dat u Compliance Manager bezoekt, ziet u een compliancescore voor uw organisatie. Compliance Manager beoordeelt uw huidige Microsoft 365 op basis van de basislijn voor gegevensbescherming. De beste manier om vertrouwd te raken met Compliance Manager is door te begrijpen wat u ziet, wat de belangrijkste elementen zijn en hoe u uw dashboard kunt aanpassen.
 
@@ -63,8 +63,8 @@ Wanneer u vertrouwd bent met het beheren van beoordelingen in Compliance Manager
 
 U kunt ook automatische tests instellen voor alle of een subset van verbeteracties. Ga naar de onderstaande koppelingen voor meer geavanceerde functionaliteit in Compliance Manager:
 
-- [Een compliancebeheerbeoordeling uitbreiden door uw eigen besturingselementen en verbeteracties toe te voegen](compliance-manager-assessments.md#extend-a-pre-built-assessment)
-- [Uw eigen aangepaste beoordeling maken](compliance-manager-assessments.md#create-your-own-custom-assessment)
+- [Een compliancebeheersjabloon uitbreiden door uw eigen besturingselementen en verbeteracties toe te voegen](compliance-manager-templates.md#extend-an-assessment-template)
+- [Uw eigen aangepaste sjabloon maken](compliance-manager-templates.md#create-an-assessment-template)
 - [Een bestaande sjabloon wijzigen om besturingselementen en acties toe te voegen of te verwijderen](compliance-manager-templates.md#modify-a-template)
 - [Geautomatiseerde tests van verbeteracties instellen](compliance-manager-setup.md#set-up-automated-testing)
 - [Verbeteracties opnieuw toewijzen aan een andere gebruiker](compliance-manager-setup.md#reassign-improvement-actions-to-another-user)

@@ -2,8 +2,8 @@
 title: Microsoft Compliance Configuration Analyzer voor Compliance Manager
 f1.keywords:
 - NOCSH
-ms.author: chvukosw
-author: chvukosw
+ms.author: v-jgriffee
+author: jmgriffee
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Meer informatie over het gebruik van Microsoft Compliance Configuration Analyzer om snel aan de weg te gaan met Microsoft Compliance Manager.
-ms.openlocfilehash: 5d74d9980daf7f6ff7f013578cb11be83d18948e
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 36f11597eac1837e3e18885f3c0a5d8dbc89a774
+ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244634"
+ms.lasthandoff: 06/26/2021
+ms.locfileid: "53148960"
 ---
 # <a name="microsoft-compliance-configuration-analyzer-for-compliance-manager-preview"></a>Microsoft Compliance Configuration Analyzer for Compliance Manager (preview)
 
@@ -153,7 +153,7 @@ Selecteer een vak om verbeteringen en aanbevelingen weer te geven.
 
 **Items met de status Verbetering**
 
-Selecteer de vervolgkeuzekeuze naast het label **Verbetering** rechts van de verbeteringsactie. U ziet een beknopt overzicht en informatie over uw huidige instellingen en de aanbevolen verbeteracties. De samenvatting bevat directe koppelingen naar Compliance Manager, de toepasselijke oplossing in het Microsoft 365 compliancecentrum en relevante documentatie.
+Selecteer de vervolgkeuzekeuze naast het label **Verbetering** rechts van de verbeteringsactie. U ziet een beknopt overzicht en informatie over uw huidige instellingen en de aanbevolen verbeteracties. De samenvatting bevat directe koppelingen naar Compliance Manager, de toepasselijke oplossing in de Microsoft 365-compliancecentrum en relevante documentatie.
 
 Als u op de koppeling Compliancebeheer klikt, gaat u naar een gefilterde weergave van alle verbeteracties binnen die oplossing die u nog niet hebt geïmplementeerd. Hier ziet u het aantal punten dat u kunt behalen om uw [nalevingsscore](compliance-score-calculation.md)te verhogen, en de beoordelingen die erop van toepassing zijn, en de toepasselijke voorschriften en certificeringen.
 
@@ -163,7 +163,7 @@ Voor DLP is er een knop **Herstelscript** waarmee u een vooraf gegenereerd Power
 
 Selecteer de vervolgkeuzekeuze naast het label **Aanbeveling** rechts van de verbeteringsactie. U ziet een overzicht van de huidige omgeving van uw organisatie Microsoft 365 de verbeteringsactie, samen met aanbevolen aanbevolen aanbevolen procedures.
 
-## <a name="resources"></a>Resources
+## <a name="resources"></a>Middelen
 
 Zie de INSTRUCTIES VOOR LEZEN op GitHub (geen GitHub [](https://github.com/OfficeDev/MCCA#overview) vereist) voor meer informatie over het installeren, instellen en gebruiken van MCCA.
 

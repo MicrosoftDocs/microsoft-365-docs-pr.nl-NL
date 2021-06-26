@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Meer informatie over het gebruik van dlp-beleid voor niet-Microsoft-cloud-apps.
-ms.openlocfilehash: d4c5170cab01b1ca22701b13c7afbf4f2e0ba7da
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: ca522b5accbd2c08e80b0ce63871179ff64bbcc8
+ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52162907"
+ms.lasthandoff: 06/26/2021
+ms.locfileid: "53149152"
 ---
 # <a name="use-data-loss-prevention-policies-for-non-microsoft-cloud-apps-preview"></a>Beleid voor preventie van gegevensverlies gebruiken voor niet-Microsoft-cloud-apps (preview)
 
@@ -80,6 +80,8 @@ U kunt verschillende acties kiezen voor elke ondersteunde niet-Microsoft-cloud-a
 Wanneer u een regel maakt in het DLP-beleid, kunt u een actie selecteren voor niet-Microsoft-cloud-apps. Als u apps van derden wilt beperken, **selecteert u Apps van derden beperken.**
 
 ![Apps van derden beperken](../media/4-dlp-non-microsoft-cloud-app-restrict-third-party-apps.png)
+
+>[OPMERKING] DLP-beleid dat is toegepast op niet-Microsoft-apps Microsoft Cloud App Security. Wanneer het DLP-beleid voor een niet-Microsoft-app wordt gemaakt, wordt automatisch hetzelfde beleid gemaakt in Microsoft Cloud App Security.
 
 Zie Een DLP-beleid maken en afstemmen voor informatie over het maken en configureren van [DLP-beleid.](./create-test-tune-dlp-policy.md?view=o365-worldwide)
 

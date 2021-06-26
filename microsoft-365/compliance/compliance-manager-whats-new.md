@@ -2,8 +2,8 @@
 title: Nieuwe functies in Microsoft Compliance Manager
 f1.keywords:
 - NOCSH
-ms.author: chvukosw
-author: chvukosw
+ms.author: v-jgriffee
+author: jmgriffee
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Ontdek wat er nieuw is in Compliance Manger en wat er komen gaat. Lees meer over bijgewerkte beoordelingen, nieuwe beoordelingssjablonen, nieuwe acties en meer.
-ms.openlocfilehash: fe5e8056bd771082436c3cd941cd6f4e602c11a9
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 72390f167e0f573223210a02a4b08e1b0efdf3dd
+ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52465460"
+ms.lasthandoff: 06/26/2021
+ms.locfileid: "53149020"
 ---
 # <a name="whats-new-in-microsoft-compliance-manager"></a>Nieuwe functies in Microsoft Compliance Manager
 
@@ -48,4 +48,4 @@ Compliance Manager is nu beschikbaar voor amerikaanse overheidsd dod-klanten, na
 
 ### <a name="active-and-inactive-templates"></a>Actieve en inactieve sjablonen
 
-Elke pagina met beoordelingspagina's en evaluatiesjabloon heeft een geactiveerde sjablonenteller. In deze teller ziet u hoeveel in aanmerking komende sjablonen u gebruikt volgens uw licentieovereenkomst. Sjabloontypen [weergeven: inbegrepen en premium, actief](compliance-manager-templates.md#template-types-included-and-premium-active-and-inactive) en inactief voor meer informatie.
+Elke pagina met beoordelingspagina's en evaluatiesjabloon heeft een geactiveerde sjablonenteller. In deze teller ziet u hoeveel in aanmerking komende sjablonen u gebruikt volgens uw licentieovereenkomst. Beschikbaarheid [en licenties van sjabloon weergeven](compliance-manager-templates.md#template-availability-and-licensing) voor meer informatie.

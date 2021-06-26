@@ -2,8 +2,8 @@
 title: Evaluaties maken en beheren in Microsoft Compliance Manager
 f1.keywords:
 - NOCSH
-ms.author: chvukosw
-author: chvukosw
+ms.author: v-jgriffee
+author: jmgriffee
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -14,27 +14,25 @@ search.appverid:
 - MOE150
 - MET150
 description: Maak evaluaties in Microsoft Compliance Manager om u te helpen voldoen aan de vereisten van voorschriften en certificeringen die belangrijk zijn voor uw organisatie.
-ms.openlocfilehash: b8051a036f2ffda2f3a2840880318466a2ec71af
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 4530f8544834c672b3ae1ebb70625ffe8f2ae4ae
+ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "52162521"
+ms.lasthandoff: 06/26/2021
+ms.locfileid: "53148936"
 ---
 # <a name="build-and-manage-assessments-in-compliance-manager"></a>Evaluaties maken en beheren in Compliance Manager
 
 **In dit artikel:** Lees hoe u Compliance Manager voor uw organisatie kunt aanpassen door beoordelingen te maken en **te beheren.** In dit artikel wordt beschreven hoe u beoordelingen maakt, hoe u deze in groepen kunt **organiseren,** hoe u werkt met besturingselementen, updates **accepteert** en beoordelingsrapporten **exporteert.**
 
-> [!IMPORTANT]
-> De beoordelingen die beschikbaar zijn voor uw organisatie, zijn afhankelijk van uw licentieovereenkomst. [Bekijk de details.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
-
 ## <a name="introduction-to-assessments"></a>Inleiding tot evaluaties
 
-Compliance manager helpt u bij het beheren van naleving van beoordelingen voor de voorschriften en certificeringen die van toepassing zijn op uw organisatie. Beoordelingen zijn groeperingen van besturingselementen uit een specifieke regelgeving, standaard of beleid. Met Compliance Manager kunt u eenvoudig uw naleving bijhouden door vooraf gebouwde evaluaties te leveren die betrekking hebben op diverse branche- en regionale voorschriften en certificeringen.
+Compliance manager helpt u bij het maken van evaluaties waarmee wordt geëvalueerd of u voldoet aan de branche- en regionale regelgeving die van toepassing is op uw organisatie. Beoordelingen zijn gebaseerd op het raamwerk van beoordelingssjablonen, die de benodigde besturingselementen, verbeteracties en Microsoft-acties bevatten voor het voltooien van de beoordeling. Als u de meest relevante beoordelingen voor uw organisatie instelt, kunt u beleidsregels en operationele procedures implementeren om uw compliancerisico te beperken.
 
-Elke beoordeling wordt gemaakt op basis van een [beoordelingssjabloon.](compliance-manager-templates.md) Sjablonen dienen als een framework met de benodigde besturingselementen, verbeteracties en Microsoft-acties voor het voltooien van de beoordeling. Als u de meest relevante beoordelingen voor uw organisatie instelt, kunt u beleidsregels en operationele procedures implementeren om uw compliancerisico te beperken.
+Al uw beoordelingen worden vermeld op het tabblad Evaluaties van Compliance Manager. Meer informatie over het filteren van uw weergave van uw beoordelingen en [het interpreteren van statusstatussen.](compliance-manager-setup.md#assessments-page)
 
-Al uw beoordelingen worden weergegeven op de evaluatiepagina. Meer informatie over het filteren van uw weergave van uw beoordelingen en [het interpreteren van statusstatussen.](compliance-manager-setup.md#assessments-page)
+> [!IMPORTANT]
+> De sjablonen die beschikbaar zijn voor uw organisatie voor het maken van evaluaties, zijn afhankelijk van uw licentieovereenkomst. [Controleer licentiedetails.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
 
 ## <a name="data-protection-baseline-default-assessment"></a>Standaardbeoordeling basislijn gegevensbescherming
 
@@ -44,36 +42,11 @@ Deze beoordeling wordt gebruikt om de eerste nalevingsscore te berekenen wanneer
 
 Compliance manager wordt nuttiger wanneer u uw eigen evaluaties maakt en beheert om aan de specifieke behoeften van uw organisatie te voldoen.
 
-## <a name="assessment-creation-overview"></a>Overzicht van het maken van beoordelingen
-
-Er zijn drie manieren waarop u beoordelingen kunt instellen:
-
-1. [Gebruik een vooraf gebouwde beoordeling.](#use-a-pre-built-assessment)
-2. [Breid een vooraf gebouwde evaluatie uit naar uw eigen behoeften.](#extend-a-pre-built-assessment)
-3. [Maak uw eigen aangepaste beoordeling.](#create-your-own-custom-assessment)
-
-> [!NOTE]
-> Alleen gebruikers die een rol voor globale beheerder, compliancebeheer of compliancemanagers hebben, kunnen beoordelingen maken en wijzigen. Meer informatie over [rollen en machtigingen.](compliance-manager-setup.md#set-user-permissions-and-assign-roles)
-
-**Een vooraf gebouwde evaluatie gebruiken**
-
-Start uw compliancetraject door een beoordeling te kiezen die al is ingesteld door Compliance Manager. We bieden een uitgebreide selectie van [sjablonen](compliance-manager-templates.md) voor regelgeving en certificeringen die zijn afgestemd op bedrijfstakken, regio's en algemene gegevensbeschermingsstandaarden, zoals AVG en ISO 27001. Sjablonen bevatten de besturingselementen en verbeteracties om u te helpen voldoen aan de vereisten van een bepaalde certificering. U wordt gevraagd een sjabloon te kiezen wanneer u begint met [het maken van een evaluatie.](#use-a-pre-built-assessment)
-
-**Een vooraf gebouwde evaluatie uitbreiden naar uw behoeften**
-
-U kunt een compliancebeheerbeoordeling wijzigen( een proces dat we 'uitbreiden' noemen) door uw eigen besturingselementen en acties toe te voegen die beter aan de behoeften van uw organisatie voldoen. Als u bijvoorbeeld over het algemeen moet voldoen aan HIPAA, maar extra gegevensbescherming of beveiligingsbesturingselementen nodig hebt, kunt u onze HIPAA-sjabloon uitbreiden door er uw eigen besturingselementen aan toe te voegen. Zie de instructies voor [het uitbreiden van een vooraf gebouwde evaluatie.](#extend-a-pre-built-assessment)
-
-**Uw eigen aangepaste beoordeling maken**
-
-U kunt uw eigen beoordeling helemaal zelf maken om precies bij te houden wat uw organisatie nodig heeft. Als u uw eigen beoordeling maakt, moet u eerst uw eigen sjabloon maken voor de beoordeling in Compliance Manager. Zie de instructies voor [het maken van uw eigen aangepaste beoordeling.](#create-your-own-custom-assessment)
-
 ## <a name="understand-groups-before-creating-assessments"></a>Groepen begrijpen voordat u evaluaties maakt
 
-Voordat u beoordelingen maakt of wijzigt, is het belangrijk om te weten hoe groepen werken. Wanneer u een beoordeling maakt, moet u deze tijdens het proces toewijzen aan een groep. Daarom raden we u aan een groeperingsstrategie voor uw beoordelingen te plannen voordat u beoordelingen maakt.
+Wanneer u een beoordeling maakt, moet u deze toewijzen aan een groep. Groepen zijn containers waarmee u beoordelingen kunt organiseren op een manier die voor u logisch is, zoals op jaar of regelgeving, of op basis van de afdelingen of geografieën van uw organisatie. Daarom raden we u aan een groeperingsstrategie te plannen voordat u evaluaties maakt.
 
-### <a name="what-are-groups"></a>Wat zijn groepen
-
-Groepen zijn containers waarmee u beoordelingen kunt organiseren. U kunt beoordelingen groepeert op een voor u logische manier, bijvoorbeeld op jaar of regelgeving, of op basis van de afdelingen of geografische gebieden van uw organisatie. Hieronder vindt u voorbeelden van twee groepen en hun onderliggende beoordelingen:
+Hieronder vindt u voorbeelden van twee groepen en hun onderliggende beoordelingen:
 
 - **FFIEC IS-evaluatie 2020**
   - FFIEC IS
@@ -81,136 +54,57 @@ Groepen zijn containers waarmee u beoordelingen kunt organiseren. U kunt beoorde
   - ISO 27001:2013
   - ISO 27018:2014
 
-Wanneer twee verschillende beoordelingen in dezelfde groep verbeteracties delen die door u worden beheerd, worden eventuele updates die u aan de implementatiedetails of status van een actie aanneemt, automatisch gesynchroniseerd met dezelfde actie in een andere beoordeling in de groep. Met deze synchronisatie kunt u één verbeteringsactie implementeren en aan verschillende vereisten in meerdere voorschriften voldoen.
+Wanneer twee verschillende evaluaties in dezelfde groep verbeteracties delen die u beheert, worden alle updates die u aan de implementatiedetails of status van een actie aanneemt, automatisch gesynchroniseerd in de hele groep. Met deze synchronisatie kunt u één verbeteringsactie implementeren en tegelijkertijd aan verschillende vereisten voldoen.
 
-### <a name="how-to-create-a-group"></a>Een groep maken
+### <a name="create-a-group"></a>Een groep maken
 
-U maakt een groep tijdens het maken [van een nieuwe beoordeling.](#to-create-an-assessment)
-
-Groepen kunnen niet worden gemaakt als zelfstandige entiteiten. Een groep moet ten minste één beoordeling bevatten. Als u een groep wilt maken, moet u eerst een beoordeling maken die u in de groep wilt plaatsen.
+U kunt een groep maken terwijl u een nieuwe beoordeling maakt. Groepen kunnen niet worden gemaakt als zelfstandige entiteiten.
 
 ### <a name="what-to-know-when-working-with-groups"></a>Wat u moet weten wanneer u met groepen werkt
 
+- Een groep moet ten minste één beoordeling bevatten.
 - Groepsnamen moeten uniek zijn binnen uw organisatie.
 - Groepen hebben geen beveiligingseigenschappen. Alle machtigingen zijn gekoppeld aan beoordelingen.
 - Wanneer u een beoordeling aan een groep toevoegt, kan de groepering niet meer worden gewijzigd.
-- Gerelateerde beoordelingsbesturingselementen in verschillende beoordelingen binnen dezelfde groep worden automatisch bijgewerkt wanneer deze zijn voltooid.
 - Als u een nieuwe beoordeling toevoegt aan een bestaande groep, worden algemene gegevens uit beoordelingen in die groep gekopieerd naar de nieuwe beoordeling.
+- Gerelateerde beoordelingsbesturingselementen in verschillende beoordelingen binnen dezelfde groep worden automatisch bijgewerkt wanneer deze zijn voltooid.
+- Wanneer een wijziging wordt aangebracht in een verbetering die in meerdere groepen wordt weergegeven, wordt deze wijziging in alle gevallen van die verbeteringsactie weerspiegeld.
 - Groepen kunnen beoordelingen bevatten voor dezelfde certificering of regelgeving, maar elke groep kan slechts één beoordeling bevatten voor een specifiek productcertificeringspaar. Een groep kan bijvoorbeeld geen twee evaluaties voor Office 365 en NIST-CSF bevatten. Een groep kan alleen meerdere beoordelingen voor hetzelfde product bevatten als de bijbehorende certificering of regelgeving voor elk product anders is.
 - Als u een beoordeling verwijderd, wordt de relatie tussen die beoordeling en de groep 100 procent van de groep doorbreekt.
-- Groepen kunnen niet worden verwijderd.
-- Wanneer een wijziging wordt aangebracht in een verbetering die in meerdere groepen wordt weergegeven, wordt deze wijziging in alle gevallen van die verbeteringsactie weerspiegeld.
+- Groepen kunnen niet handmatig worden verwijderd.
 
-## <a name="use-a-pre-built-assessment"></a>Een vooraf gebouwde evaluatie gebruiken
+## <a name="create-assessments"></a>Beoordelingen maken
 
-Er zijn twee uitgangspunten voor het maken van een beoordeling op basis van een compliancemanagersjabloon.
+> [!NOTE]
+> Alleen gebruikers die een rol voor globale beheerder, compliancebeheer of compliancemanagers hebben, kunnen beoordelingen maken en wijzigen. Meer informatie over [rollen en machtigingen.](compliance-manager-setup.md#set-user-permissions-and-assign-roles)
 
-U kunt het proces starten vanaf uw  evaluatiepagina door de knop Beoordeling toevoegen te selecteren en vervolgens door de wizard voor het maken van beoordelingen te werken. De stappen voor dit proces vindt u hieronder.
+Als u wilt beginnen met het maken van evaluaties, volgt u deze stappen.
 
-U kunt ook beginnen vanaf de pagina met beoordelingssjablonen door de sjablonen te zoeken die u wilt gebruiken en deze te selecteren in de lijst om bij de pagina met details te komen. Selecteer op de pagina Sjabloondetails de optie **Beoordeling maken.** Vervolgens voert u de wizard in met de sjabloon die al is geselecteerd.
+1. Weet aan welke groep u uw beoordeling wilt toewijzen of bereid bent om een nieuwe groep te maken voor deze beoordeling.
 
-### <a name="to-create-an-assessment"></a>Een beoordeling maken
+2. Open de wizard Beoordeling. U kunt dit flyoutvenster openen vanaf een van de twee locaties:
+    - Ga naar uw **beoordelingspagina** in Compliance Manager en selecteer **Beoordeling toevoegen;** of
+    - Zoek de sjabloon die u wilt gebruiken op het **tabblad beoordelingssjablonen,** bekijk de details en selecteer **Beoordeling maken.** Hiermee wordt het selectieveld van de wizard voor de sjabloon voor u ingevuld.
 
-1. Weet aan welke groep u uw beoordeling wilt toewijzen of bereid bent om een nieuwe groep te maken voor deze beoordeling. [Meer informatie over groepen.](#understand-groups-before-creating-assessments)  
+3. **Selecteer een sjabloon:** Als u in stap 2 nog geen sjabloon hebt gekozen, kiest u een sjabloon die als basis voor uw beoordeling dient. U ziet de lijst met sjablonen die zijn onderverdeeld in opgenomen en premiumcategorieën (zie [Sjabloontypen](compliance-manager-templates.md#template-availability-and-licensing) voor meer informatie). Selecteer de keuzerondje naast de gekozen sjabloon en selecteer **vervolgens Volgende.**
 
-2. Ga naar uw **beoordelingspagina** in Compliance Manager en selecteer **Beoordeling toevoegen.** Er wordt een evaluatiewizard weergegeven in een groot flyoutvenster.
-
-3. **Selecteer een sjabloon:** kies een sjabloon om als basis voor uw beoordeling te dienen. U ziet de lijst met sjablonen die zijn onderverdeeld in opgenomen en premiumcategorieën (zie [Sjabloontypen](compliance-manager-templates.md#template-types-included-and-premium-active-and-inactive) voor meer informatie). Selecteer de keuzerondje naast de gekozen sjabloon en selecteer **vervolgens Volgende.**
-
-4. **Naam en groep:** Voer een naam voor uw beoordeling in het **veld Beoordelingsnaam** in. Beoordelingsnamen moeten uniek zijn in groepen. Als de naam van uw beoordeling overeenkomt met de naam van een andere beoordeling in een bepaalde groep, ontvangt u een foutbericht waarin u wordt gevraagd een andere naam te maken.
-
-5. Wijs uw beoordeling toe aan een groep. U kunt het volgende doen:
-    - Selecteer **Bestaande groep gebruiken** om deze toe te wijzen aan een groep die u al hebt gemaakt. of
-    - Selecteer **Nieuwe groep maken** om een nieuwe groep te maken en wijs deze beoordeling aan deze groep toe:
-        - Bepaal een naam voor uw groep en voer deze in het veld onder de radioknop in.
-        - U kunt **gegevens uit een bestaande groep**, zoals implementatie- en testgegevens en documenten, kopiëren door de juiste vakken te selecteren.
+4. **Naam en groep:** Stel deze eigenschappen in om uw beoordeling te identificeren en toe te wijzen aan een groep.
+    - **Naam:** Voer een naam in voor uw beoordeling in het **veld Beoordelingsnaam.** Beoordelingsnamen moeten uniek zijn in groepen. Als de naam van uw beoordeling overeenkomt met de naam van een andere beoordeling in een bepaalde groep, ontvangt u een foutbericht waarin u wordt gevraagd een andere naam te maken.
+    - **Groep:** Wijs uw beoordeling toe aan een groep. U kunt het volgende doen:
+        - Selecteer **Bestaande groep gebruiken** om deze toe te wijzen aan een groep die u al hebt gemaakt. of
+        - Selecteer **Nieuwe groep maken** om een nieuwe groep te maken en wijs deze beoordeling aan deze groep toe:
+            - Bepaal een naam voor uw groep en voer deze in het veld onder de radioknop in.
+            - U kunt **gegevens uit een bestaande groep**, zoals implementatie- en testgegevens en documenten, kopiëren door de juiste vakken te selecteren.
 
     Wanneer u klaar bent, **selecteert** u Volgende .
 
-6. **Controleren en voltooien:** In het laatste scherm van de wizard worden de sjabloon, naam en groep weergegeven die voor de beoordeling zijn gekozen. U kunt een van deze instellingen bewerken via de koppelingen op het scherm, waarmee u terug gaat naar de relevante stappen in de wizard. Wanneer u klaar bent, selecteert u **Beoordeling maken.**
+5. **Controleren en voltooien:** In het laatste scherm van de wizard worden de sjabloon, naam en groep weergegeven die voor de beoordeling zijn gekozen. U kunt een van deze instellingen bewerken via de koppelingen op het scherm, waarmee u terug gaat naar de relevante stappen in de wizard. Wanneer u klaar bent, selecteert u **Beoordeling maken.**
 
-7. In het volgende scherm wordt bevestigd dat u uw nieuwe beoordeling hebt gemaakt. Selecteer **Klaar** om de wizard te sluiten en de pagina met de details van uw nieuwe beoordeling wordt weergegeven op het scherm.
+6. In het volgende scherm wordt bevestigd dat u uw nieuwe beoordeling hebt gemaakt. Selecteer **Klaar** om de wizard te sluiten en de pagina met de details van uw nieuwe beoordeling wordt weergegeven op het scherm.
 
 Als u een scherm **Beoordeling mislukt ziet** nadat u Beoordeling maken hebt **geselecteerd,** **selecteert** u Opnieuw proberen om uw beoordeling opnieuw te maken.
 
 U kunt de naam van uw beoordeling wijzigen  nadat u deze hebt gemaakt door de knop Naam bewerken te selecteren in de rechterbovenhoek van de [gegevenspagina van de beoordeling.](#monitor-assessment-progress-and-controls)
-
-## <a name="extend-a-pre-built-assessment"></a>Een vooraf gebouwde evaluatie uitbreiden
-
-U kunt een vooraf gebouwde beoordeling wijzigen door uw eigen besturingselementen en verbeteracties toe te voegen aan de sjabloon van de beoordeling. Dit proces wordt 'uitbreiding van een Microsoft-sjabloon' genoemd in Compliance Manager. Wanneer u de sjabloon van een beoordeling uitbreidt, worden alle updates ontvangen die door Microsoft zijn uitgebracht, wat kan gebeuren wanneer er wijzigingen zijn in de gerelateerde regelgeving of het bijbehorende product (zie Updates voor beoordelingen [accepteren).](#accepting-updates-to-assessments)
-
-U voltooit dit proces door te beginnen op de pagina met **de beoordelingssjablonen** in plaats van op **uw beoordelingspagina.**
-
-**Before you begin**
-
-Als u zich wilt voorbereiden op dit proces, moet u eerst een speciaal opgemaakt werkblad Excel om de benodigde sjabloongegevens te importeren. Er zijn speciale vereisten voor de [opgemaakte Excel bestanden](compliance-manager-templates.md#formatting-your-template-data-with-excel) die in het uitbreidingsproces worden gebruikt. Zie deze extra punten om fouten in het importproces te voorkomen:
-
-- Uw spreadsheet mag alleen de acties en besturingselementen bevatten die u aan de beoordeling wilt toevoegen. 
-- Het werkblad mag geen besturingselementen of acties bevatten die al aanwezig zijn in de beoordeling die u wilt wijzigen.
-- Overweeg om 'extensie' in de titel van uw sjabloon op te nemen, bijvoorbeeld 'GDPR – [uw bedrijfsnaam] extensie'. Hierdoor kunt u gemakkelijker in de  lijst op de pagina beoordelingssjablonen worden onderscheiden van de standaardsjabloon van Microsoft of een aangepaste sjabloon met een vergelijkbare naam.
-
-Nadat u de spreadsheet hebt opgemaakt, volgt u de onderstaande stappen.
-
-**Stappen voor het uitbreiden van een compliancebeheersjabloon**
-
-1. Ga naar de pagina **Beoordelingssjablonen** en selecteer **Nieuwe sjabloon maken.** Er wordt een wizard voor het maken van een sjabloon geopend.
-
-2. Kies het type sjabloon dat u wilt maken. Selecteer in dit geval **Een Microsoft-sjabloon uitbreiden** en selecteer **vervolgens Microsoft-sjabloon**.
-
-3. Aan de rechterkant van het scherm wordt een sjabloonselectievenster weergegeven, met een lijst met alle sjablonen en de status van actief of inactief. De **teller voor** geactiveerde sjablonen laat zien hoeveel sjablonen momenteel worden gebruikt buiten het totale aantal beschikbare sjablonen. Als u uw limiet hebt overschreden, wordt een berichtbalk weergegeven. Zie [Sjabloontypen](compliance-manager-templates.md#template-types-included-and-premium-active-and-inactive) voor meer informatie.
-
-4. Aan de rechterkant van het scherm wordt een sjabloonselectievenster weergegeven. Gebruik **Zoeken** om filters toe te passen voor het vinden van de gezochte sjabloon
-
-5. Wanneer u de sjabloon hebt gevonden, selecteert u de keuzerondje links van de naam en selecteert u **Opslaan.**
-
-6. In het volgende scherm ziet u de sjabloon die u hebt geselecteerd. Als dit juist is, **selecteert** u Volgende . (Als dit onjuist is, **kiest u Een andere sjabloon selecteren om** opnieuw te kiezen.)
-
-7. Selecteer op **Upload scherm** Bladeren  om uw opgemaakte Excel met alle vereiste sjabloongegevens te zoeken en te uploaden.
-
-8. Als er geen problemen zijn met het bestand, wordt in het volgende scherm de naam van het bestand weergegeven dat is geüpload. Selecteer **Volgende** om door te gaan (als u het bestand wilt wijzigen, **selecteert u Upload een ander bestand**).
-
-    - Als er een probleem is met uw bestand, wordt in een foutbericht bovenaan uitgelegd wat er mis is. U moet het bestand herstellen en opnieuw uploaden. Er ontstaan fouten als uw spreadsheet onjuist is opgemaakt of als er ongeldige informatie in bepaalde velden staat.
- 
-9. In **het scherm Controleren en** voltooien ziet u het aantal verbeteracties en besturingselementen en de maximale score voor de sjabloon. Wanneer u klaar bent om het goed te keuren, **selecteert** u Volgende . (Als u wijzigingen wilt aanbrengen, selecteert **u Upload een ander bestand**.)
-
-10. Het laatste scherm bevestigt dat er een nieuwe sjabloon is gemaakt. Selecteer **Klaar om** de wizard te sluiten.
-
-11. U komt op de detailspagina van de nieuwe sjabloon. Hier kunt u uw beoordeling maken door Beoordeling **maken te selecteren.** Voor richtlijnen begint u bij stap #4 in de [bovenstaande instructies voor het maken van beoordelingen.](#to-create-an-assessment)
-
-## <a name="create-your-own-custom-assessment"></a>Uw eigen aangepaste beoordeling maken
-
-Als u een aangepaste beoordeling maakt in Compliance Manager, moet u uw eigen sjabloon maken. Als u uw eigen sjabloon wilt maken, maakt u eerst een opgemaakte Excel spreadsheet om de benodigde sjabloongegevens te importeren. Het helpt ook om van tevoren te bepalen aan welke groep u uw beoordeling toewijst wanneer u deze maakt (meer informatie over [groepen).](#what-are-groups)
-
-**Volg de onderstaande stappen om uw aangepaste beoordeling te maken:**
-
-1. **Maak uw Excel op.** Begin met het opmaken van de sjabloongegevens in een Excel spreadsheet met [deze instructies.](compliance-manager-templates.md#formatting-your-template-data-with-excel)
-
-2. **Maak de sjabloon door** deze [instructies te volgen.](compliance-manager-templates.md#create-a-new-template)
-
-3. **Maak uw beoordeling** op basis van de sjabloon. U kunt beginnen door de pagina met details van de sjabloon te openen en Beoordeling **maken** te selecteren of naar de **beoordelingspagina** te gaan en **Beoordeling maken te selecteren.**
-
-4. Er wordt een wizard voor het maken van beoordelingen weergegeven in een groot flyoutvenster. Hier kunt u de richtlijnen volgen die beginnen bij stap #3 van de instructies voor het maken van [beoordelingen,](#to-create-an-assessment)met behulp van uw nieuwe aangepaste sjabloon voor uw beoordeling.
-
-## <a name="delete-an-assessment"></a>Een beoordeling verwijderen
-
-Als u een beoordeling verwijdert, wordt deze verwijderd uit de lijst op uw evaluatiepagina. Let op deze belangrijke punten over het verwijderen van beoordelingen:
-
-- **Het verwijderen van een beoordeling is permanent. u kunt het niet terug krijgen.** Als u dezelfde beoordeling opnieuw wilt gebruiken, moet u deze opnieuw maken.
-- Als de verbeteracties in de beoordeling niet worden weergegeven in een andere beoordeling, worden ze verwijderd wanneer de beoordeling wordt verwijderd.
-- Het is [raadzaam een rapport van de](#export-an-assessment-report) beoordeling te exporteren voordat u het definitief verwijdert.
-
-Als u een beoordeling wilt verwijderen, volgt u de onderstaande stappen:
-
-1. Selecteer op **uw beoordelingspagina** de beoordeling die u wilt verwijderen om de gegevenspagina van die beoordeling te openen.
-
-2. Selecteer **Beoordeling verwijderen** in de rechterbovenhoek van het scherm.
-
-3. Er wordt een venster weergegeven waarin u wordt gevraagd te bevestigen dat u de beoordeling definitief wilt verwijderen. Selecteer **Evaluatie verwijderen om** het venster te sluiten. U krijgt een bevestigingsvenster dat uw beoordeling is verwijderd uit Compliance Manager.
-
-Als u de enige beoordeling in een groep verwijdert, wordt die groep ook verwijderd uit Compliance Manager.
-
-> [!NOTE]
-> U kunt niet al uw beoordelingen verwijderen. Organisaties hebben ten minste één beoordeling nodig om Compliance Manager correct te laten functioneren. Als de beoordeling die u wilt verwijderen de enige is, voegt u een andere beoordeling toe voordat u de andere beoordeling verwijdert.
 
 ## <a name="monitor-assessment-progress-and-controls"></a>Voortgang en besturingselementen controleren
 
@@ -258,7 +152,7 @@ Het tabblad Microsoft-acties bevat alle acties in de beoordeling die worden behe
 
 Meer informatie over [hoe besturingselementen en verbeteracties worden bijgeslagen en gescored.](compliance-score-calculation.md)
 
-## <a name="accepting-updates-to-assessments"></a>Updates voor beoordelingen accepteren
+## <a name="accept-updates-to-assessments"></a>Updates voor beoordelingen accepteren
 
 Wanneer een update beschikbaar is voor een beoordeling, ziet u een melding en hebt u de optie om de update te accepteren of deze later uit te stellen.
 
@@ -310,3 +204,24 @@ Als u bezig bent met het voltooien van een evaluatie, kunt u ervoor zorgen dat u
 U kunt een beoordeling exporteren naar een Excel voor compliance-belanghebbenden in uw organisatie of voor externe auditors en regelgevende instanties. Selecteer op de pagina  beoordelingsgegevens de knop Rapport genereren boven aan de pagina, waarmee een Excel bestand wordt gemaakt dat u kunt opslaan en delen.
 
 Het rapport is een momentopname van de beoordeling vanaf de datum en tijd van de export. Het bevat de details voor besturingselementen die door u en Microsoft worden beheerd, inclusief implementatiestatus, testdatum en testresultaten.
+
+## <a name="delete-an-assessment"></a>Een beoordeling verwijderen
+
+Als u een beoordeling verwijdert, wordt deze verwijderd uit de lijst op uw evaluatiepagina. Let op deze belangrijke punten over het verwijderen van beoordelingen:
+
+- **Het verwijderen van een beoordeling is permanent. u kunt het niet terug krijgen.** Als u dezelfde beoordeling opnieuw wilt gebruiken, moet u deze opnieuw maken.
+- Als de verbeteracties in de beoordeling niet worden weergegeven in een andere beoordeling, worden ze verwijderd wanneer de beoordeling wordt verwijderd.
+- Het is [raadzaam een rapport van de](#export-an-assessment-report) beoordeling te exporteren voordat u het definitief verwijdert.
+
+Als u een beoordeling wilt verwijderen, volgt u de onderstaande stappen:
+
+1. Selecteer op **uw beoordelingspagina** de beoordeling die u wilt verwijderen om de gegevenspagina van die beoordeling te openen.
+
+2. Selecteer **Beoordeling verwijderen** in de rechterbovenhoek van het scherm.
+
+3. Er wordt een venster weergegeven waarin u wordt gevraagd te bevestigen dat u de beoordeling definitief wilt verwijderen. Selecteer **Evaluatie verwijderen om** het venster te sluiten. U krijgt een bevestigingsvenster dat uw beoordeling is verwijderd uit Compliance Manager.
+
+Als u de enige beoordeling in een groep verwijdert, wordt die groep ook verwijderd uit Compliance Manager.
+
+> [!NOTE]
+> U kunt niet al uw beoordelingen verwijderen. Organisaties hebben ten minste één beoordeling nodig om Compliance Manager correct te laten functioneren. Als de beoordeling die u wilt verwijderen de enige is, voegt u een andere beoordeling toe voordat u de andere beoordeling verwijdert.
