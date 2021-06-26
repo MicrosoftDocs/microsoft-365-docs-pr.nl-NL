@@ -22,12 +22,12 @@ description: Gebruik vertrouwelijkheidslabels van Microsoft Information Protecti
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 5c54b9c9b9046a1c410418a9ae5a922bdad9c442
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 972282713e21c0e1f99a66e696de32531e68d4a7
+ms.sourcegitcommit: 8b79d276f71f22bcaeb150e78e35101cb1ae0375
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878074"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53114774"
 ---
 # <a name="learn-about-sensitivity-labels"></a>Meer informatie over vertrouwelijkheidslabels
 
@@ -186,7 +186,7 @@ Wanneer u labelbeleid configureert, kunt u:
     
     Overweeg om een standaardlabel te gebruiken om een basisniveau in te stellen van beveiligingsinstellingen dat u wilt toepassen op al uw inhoud. Zonder gebruikerstraining en ander beheer kan deze instelling echter ook resulteren in onjuiste labeling. Het is gewoonlijk geen goed idee om een label te kiezen dat versleuteling toepast als standaardlabel op documenten. Veel organisaties moeten bijvoorbeeld documenten verzenden naar en delen met externe gebruikers die mogelijk geen apps hebben die de versleuteling ondersteunen of ze gebruiken mogelijk een account die niet geautoriseerd kan worden. Zie [Versleutelde documenten delen met externe gebruikers](sensitivity-labels-office-apps.md#sharing-encrypted-documents-with-external-users) voor meer informatie over dit scenario.
 
-- **argumenten eisen voor het wijzigen van een label.** Als een gebruiker probeert een label te verwijderen of te vervangen door een label met een lager volgnummer, kunt u eisen dat de gebruiker een reden geeft om deze actie uit te kunnen voeren. Een gebruiker opent bijvoorbeeld een document met het label Vertrouwelijk (volgnummer 3) en vervangt dat label met een Openbaar-label (volgnummer 1). Beheerders kunnen de reden samen met de labelwijziging lezen in [Activiteitenverkenner](data-classification-activity-explorer.md).
+- **argumenten eisen voor het wijzigen van een label.** Als een gebruiker probeert een label te verwijderen of te vervangen door een label met een lager volgnummer, kunt u eisen dat de gebruiker een reden geeft om deze actie uit te kunnen voeren. Een gebruiker opent bijvoorbeeld een document met het label Vertrouwelijk (volgnummer 3) en vervangt dat label met een Openbaar-label (volgnummer 1). Voor Office-apps wordt deze redenprompt eenmaal per app-sessie geactiveerd wanneer u ingebouwde labels gebruikt en per bestand wanneer u de Azure Information Protection Unified labeling-client gebruikt. Beheerders kunnen de reden samen met de labelwijziging lezen in [Activiteitenverkenner](data-classification-activity-explorer.md).
 
     ![Prompt wanneer gebruikers een reden invoeren](../media/Sensitivity-label-justification-required.png)
 
