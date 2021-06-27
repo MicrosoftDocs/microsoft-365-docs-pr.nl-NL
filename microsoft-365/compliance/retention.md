@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Lees meer over bewaarbeleid en retentielabels die u helpen te behouden wat u nodig hebt en wat u niet verwijdert.
-ms.openlocfilehash: e39f4e65d5c4bdf4235e7ae2d8aa207c986c76c8
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: f882a9a215f331930de7473d6bf057a3d45bc50e
+ms.sourcegitcommit: 410f6e1c6cf53c3d9013b89d6e0b40a050ee9cad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53055051"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53137689"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Meer informatie over bewaarbeleid en retentielabels
 
@@ -283,11 +283,11 @@ Wat heeft in dit scenario, wanneer voor items meerdere bewaarinstellingen kunnen
 
 Het resultaat is niet welk bewaarbeleid of welk retentielabel wint, maar hoe lang een item wordt bewaard (indien van toepassing) en wanneer een item wordt verwijderd (indien van toepassing). Deze twee acties worden onafhankelijk van elkaar berekend op basis van alle instellingen voor bewaren die op een item zijn toegepast.
 
-Een item kan bijvoorbeeld zijn onderworpen aan een bewaarbeleid dat is geconfigureerd om alleen te verwijderen en een ander bewaarbeleid dat is geconfigureerd voor het behouden en vervolgens verwijderen. Hierdoor heeft dit item slechts één behoudactie, maar twee verwijderingsacties. De acties voor bewaren en verwijderen kunnen met elkaar in strijd zijn en de twee verwijderingsacties kunnen een conflicterende datum hebben. Om het resultaat te bepalen, moet u de principes voor bewaren toepassen.
+Een item kan bijvoorbeeld zijn onderworpen aan een bewaarbeleid dat is geconfigureerd om alleen te verwijderen en een ander bewaarbeleid dat is geconfigureerd voor het behouden en vervolgens verwijderen. Hierdoor heeft dit item slechts één behoudactie, maar twee verwijderingsacties. De acties voor bewaren en verwijderen kunnen met elkaar in strijd zijn en de twee verwijderingsacties kunnen een conflicterende datum hebben. De principes van retentie verklaren het resultaat.
 
-Op een hoog niveau kunt u er zeker van zijn dat bewaren altijd voorrang heeft op verwijderen en dat de langste bewaarperiode ‘wint’. Deze twee eenvoudige regels bepalen altijd hoe lang een item wordt bewaard.
+Op hoog niveau kunt u er zeker van zijn dat retentie altijd voorrang heeft op permanente verwijdering en dat de langste bewaarperiode wint. Deze twee eenvoudige regels bepalen altijd hoe lang een item wordt bewaard.
 
-Er zijn nog een paar factoren die bepalen wanneer een item wordt verwijderd, waaronder de actie Verwijderen op basis van een retentielabel: deze heeft altijd voorrang op de actie Verwijderen uit een bewaarbeleid.
+Er zijn nog enkele factoren die bepalen wanneer een item definitief wordt verwijderd, waaronder: de verwijderactie van een retentielabel heeft altijd voorrang op de verwijderactie van een bewaarbeleid.
 
 Gebruik de volgende stroom om inzicht te krijgen in de resultaten van het bewaren en verwijderen van één item. Elk niveau fungeert als een gelijkspel voor conflicten, van boven naar beneden. Als het resultaat bijvoorbeeld wordt bepaald door het eerste niveau omdat er geen verdere conflicten zijn, is het niet nodig om verder te gaan naar het volgende niveau.
 
@@ -296,13 +296,18 @@ Gebruik de volgende stroom om inzicht te krijgen in de resultaten van het beware
 
 ![Diagram van de principes voor bewaren](../media/principles-of-retention.png)
   
-Uitleg van de vier verschillende niveaus:
+Uitleg van de vier verschillende principes:
   
-1. **Bewaren heeft een hogere prioriteit dan verwijderen.** Inhoud wordt niet definitief verwijderd wanneer er ook bewaarinstellingen gelden om deze te behouden.  
+1. **Bewaren heeft een hogere prioriteit dan verwijderen.** Inhoud wordt niet definitief verwijderd wanneer er ook bewaarinstellingen gelden om deze te behouden. Hoewel dit principe ervoor zorgt dat inhoud wordt behouden om nalevingsredenen, wordt het verwijderingsproces nog steeds gestart en kan de inhoud uit de gebruikersweergave worden verwijderd. Een document in SharePoint wordt bijvoorbeeld verplaatst van de oorspronkelijke map naar de map Bewaringen. Definitieve verwijdering wordt echter opgeschort. Gebruik de volgende koppelingen voor elke workload voor meer informatie over hoe en waar inhoud behouden blijft:
+    
+    - [Hoe retentie werkt voor SharePoint en OneDrive](retention-policies-sharepoint.md#how-retention-works-for-sharepoint-and-onedrive)
+    - [Hoe bewaarbeleid werkt met Microsoft Teams](retention-policies-teams.md#how-retention-works-with-microsoft-teams)
+    - [Hoe retentie werkt met Yammer](retention-policies-yammer.md#how-retention-works-with-yammer)
+    - [Hoe retentie werkt voor Exchange](retention-policies-exchange.md#how-retention-works-for-exchange)
     
     Voorbeeld: Voor een e-mailbericht is een bewaarbeleid van toepassing voor Exchange dat is geconfigureerd om items na drie jaar te verwijderen. Ook is er een retentielabel toegepast dat is geconfigureerd om items vijf jaar te bewaren.
     
-    Het e-mailbericht blijft vijf jaar bewaard omdat deze bewaaractie voorrang heeft op het verwijderen. Het e-mailbericht wordt na vijf jaar verwijderd vanwege de uitgestelde verwijderingsactie.
+    Het e-mailbericht blijft vijf jaar bewaard omdat deze bewaaractie voorrang heeft op het verwijderen. Het e-mailbericht wordt na vijf jaar definitief verwijderd vanwege de uitgestelde verwijderingsactie.
 
 2. **De langste bewaarperiode won.** Als voor inhoud meerdere bewaarinstellingen gelden die inhoud gedurende verschillende perioden behouden, blijft de inhoud behouden tot het einde van de langste bewaarperiode.
     
@@ -316,7 +321,7 @@ Uitleg van de vier verschillende niveaus:
         
         Voorbeeld: Voor een document gelden twee bewaarbeleidsregels met een actie voor verwijderen van respectievelijk vijf jaar en tien jaar. Ook is er een retentielabel met een verwijderingsactie van zeven jaar.
         
-        Het document wordt na zeven jaar verwijderd omdat de actie voor het verwijderen van het retentielabel prioriteit heeft.
+        Het document wordt na zeven jaar definitief verwijderd omdat de verwijderingsactie van het retentielabel voorrang heeft.
     
     2. Als u alleen bewaarbeleid hebt: als een bewaarbeleid voor een locatie beperkt is tot het gebruik van een opnameconfiguratie (zoals specifieke gebruikers voor Exchange-e-mail) heeft dit bewaarbeleid voorrang op ongericht bewaarbeleid voor dezelfde locatie.
         
@@ -324,19 +329,19 @@ Uitleg van de vier verschillende niveaus:
         
         Voorbeeld 1: Voor een e-mailbericht gelden twee bewaarbeleidsregels. Het eerste bewaarbeleid is ongericht en verwijdert items na tien jaar. Het tweede bewaarbeleid is gericht op specifieke postvakken en verwijdert items na vijf jaar.
         
-        Het e-mailbericht wordt na vijf jaar verwijderd omdat de verwijderingsactie uit het bewaarbeleid met bereik voorrang heeft op het ongerichte bewaarbeleid.
+        Het e-mailbericht wordt na vijf jaar definitief verwijderd omdat de verwijderingsactie uit het bewaarbeleid met bereik voorrang heeft op het niet-gescopeerde bewaarbeleid.
         
         Voorbeeld 2: Voor een document in het OneDrive-account van een gebruiker gelden twee bewaarbeleidsregels. Het eerste bewaarbeleid omvat het OneDrive-account van deze gebruiker en verwijdert inhoud na tien jaar. Het tweede bewaarbeleid omvat het OneDrive-account van deze gebruiker en verwijdert inhoud na zeven jaar.
         
-        Wanneer dit document wordt verwijderd, kan op dit niveau niet worden bepaald omdat beide bewaarbeleidsregels zijn gericht.
+        Wanneer dit document definitief wordt verwijderd, kan op dit niveau niet worden bepaald omdat beide bewaarbeleidsregels zijn gericht.
 
-4. **De kortste verwijderingsperiode krijgt prioriteit.** Van toepassing om te bepalen wanneer items worden verwijderd uit bewaarbeleid en het resultaat niet kan worden opgelost vanaf het vorige niveau: Inhoud wordt verwijderd aan het einde van de kortste bewaarperiode.
+4. **De kortste verwijderingsperiode krijgt prioriteit.** Van toepassing om te bepalen wanneer items worden verwijderd uit bewaarbeleid en het resultaat niet kan worden opgelost vanaf het vorige niveau: inhoud wordt definitief verwijderd aan het einde van de kortste bewaarperiode.
     
     Voorbeeld: Voor een document in het OneDrive-account van een gebruiker gelden twee bewaarbeleidsregels. Het eerste bewaarbeleid omvat het OneDrive-account van deze gebruiker en verwijdert inhoud na tien jaar. Het tweede bewaarbeleid omvat het OneDrive-account van deze gebruiker en verwijdert inhoud na zeven jaar.
     
-    Dit document wordt na zeven jaar verwijderd omdat dit de kortste bewaarperiode is van deze twee bewaarbeleidsregels.
+    Dit document wordt na zeven jaar definitief verwijderd omdat dit de kortste bewaarperiode is van deze twee bewaarbeleidsregels.
 
-Items die onder eDiscovery-bewaring vallen, vallen ook onder het eerste principe van bewaren; ze kunnen niet worden verwijderd met een bewaarbeleid of retentielabel. Wanneer dit bewaringsbeleid wordt vrijgegeven, blijven de bewaarprincipes op deze regels van toepassing. Ze kunnen dan bijvoorbeeld worden onderworpen aan een volgende bewaarperiode of een uitgestelde verwijderactie.
+Items die onder eDiscovery-bewaring vallen, vallen ook onder het eerste principe van bewaren; ze kunnen niet definitief worden verwijderd met een bewaarbeleid of retentielabel. Wanneer dit bewaringsbeleid wordt vrijgegeven, blijven de bewaarprincipes op deze regels van toepassing. Ze kunnen dan bijvoorbeeld worden onderworpen aan een niet-verlopen bewaarperiode of een verwijderactie.
 
 Andere complexe voorbeelden die acties voor behoud en verwijderen combineren:
 
@@ -346,9 +351,9 @@ Andere complexe voorbeelden die acties voor behoud en verwijderen combineren:
     - Een bewaarbeleid dat het item drie jaar bewaart en vervolgens verwijdert
     - Een bewaarlabel dat het item zeven jaar bewaart
     
-    **Resultaat**: Het item wordt gedurende zeven jaar bewaard, omdat bewaarbeleid voorrang heeft op verwijdering en zeven jaar de langste bewaarperiode is. Aan het einde van deze bewaarperiode wordt het item verwijderd vanwege de actie voor het verwijderen uit het bewaarbeleid dat werd uitgesteld terwijl het item werd bewaard.
+    **Resultaat**: Het item wordt gedurende zeven jaar bewaard, omdat bewaarbeleid voorrang heeft op verwijdering en zeven jaar de langste bewaarperiode is. Aan het einde van deze bewaarperiode wordt het item definitief verwijderd vanwege de verwijderingsactie uit het bewaarbeleid.
     
-    Hoewel de twee bewaarbeleidsregels verschillende datums hebben voor de verwijderingsacties, kan het item op zijn vroegst worden verwijderd aan het einde van de langste bewaarperiode, die langer is dan beide verwijderingsdatums. In dit voorbeeld is er geen conflict voor het oplossen van de verwijderingsdatums, zodat alle conflicten worden opgelost op het tweede niveau.
+    Hoewel de twee bewaarbeleidsregels verschillende datums hebben voor de verwijderingsacties, kan het item definitief op zijn vroegst worden verwijderd aan het einde van de langste bewaarperiode, die langer is dan beide verwijderingsdatums. 
 
 2.  Op een item zijn de volgende instellingen voor bewaren toegepast:
     
@@ -356,7 +361,7 @@ Andere complexe voorbeelden die acties voor behoud en verwijderen combineren:
     - Een gericht bewaarbeleid dat het item vijf jaar bewaart en vervolgens verwijdert
     - Een retentielabel dat het item drie jaar bewaart en vervolgens verwijdert
     
-    **Resultaat**: Het item wordt vijf jaar bewaard omdat dit de langste bewaarperiode is. Aan het einde van de bewaarperiode wordt het item verwijderd vanwege de actie voor het verwijderen uit het retentielabel dat werd uitgesteld terwijl het item werd bewaard. Verwijderen op basis van retentielabels heeft voorrang op het verwijderen op basis van alle bewaarbeleidsregels. In dit voorbeeld worden alle conflicten opgelost door het derde niveau.
+    **Resultaat**: Het item wordt vijf jaar bewaard omdat dit de langste bewaarperiode is. Aan het einde van deze bewaarperiode wordt het item definitief verwijderd vanwege de verwijderingsactie van drie jaar van het retentielabel. Verwijderen op basis van retentielabels heeft voorrang op het verwijderen op basis van alle bewaarbeleidsregels. In dit voorbeeld worden alle conflicten opgelost door het derde niveau.
 
 ## <a name="use-preservation-lock-to-restrict-changes-to-policies"></a>Behoudvergrendeling gebruiken om wijzigingen in beleidsregels te beperken
 

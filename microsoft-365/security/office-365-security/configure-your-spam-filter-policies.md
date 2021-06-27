@@ -17,12 +17,12 @@ ms.collection:
 description: Beheerders kunnen het antispambeleid in Exchange Online Protection (EOP) bekijken, maken, wijzigen en verwijderen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: afcb82789168999f5f061ca0f86ad3c07b54846d
-ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
+ms.openlocfilehash: 81fcfde3442abcb63e04d67df5e6c66a56e3e498
+ms.sourcegitcommit: 410f6e1c6cf53c3d9013b89d6e0b40a050ee9cad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53108233"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53137761"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Antispambeleid configureren in EOP
 
@@ -104,7 +104,7 @@ Wanneer u antispambeleid maakt in de Microsoft 365 Defender-portal worden tegeli
 
    Meerdere waarden in dezelfde voorwaarde: gebruik OF-logica (bijvoorbeeld: _\<recipient1\>_ of _\<recipient2\>_). Verschillende voorwaarden: gebruik EN-logica (bijvoorbeeld: _\<recipient1\>_ en _\<member of group 1\>_).
 
-   - **Deze gebruikers, groepen en domeinen uitsluiten**: als u uitzonderingen wilt toevoegen voor de interne geadresseerden op wie het beleid van toepassing is (uitzonderingen op ontvangers), selecteert u deze optie en configureert u de uitzonderingen. De instellingen en het gedrag zijn exact hetzelfde als bij de voorwaarden.
+   - **Deze gebruikers, groepen en domeinen uitsluiten**: als u uitzonderingen wilt toevoegen voor de interne ontvangers op wie het beleid van toepassing is (uitzonderingen op ontvangers), selecteert u deze optie en configureert u de uitzonderingen. De instellingen en het gedrag zijn exact hetzelfde als bij de voorwaarden.
 
    Wanneer u gereed bent, klikt u op **Volgende**.
 
@@ -203,7 +203,7 @@ Wanneer u antispambeleid maakt in de Microsoft 365 Defender-portal worden tegeli
    >
    > Denk goed na voordat u domeinen toevoegt aan de lijst met toegestane domeinen. Zie [Lijsten met veilige afzenders maken in EOP](create-safe-sender-lists-in-office-365.md) voor meer informatie.
    >
-   > • Voeg nooit uw eigen [geaccepteerde domeinen](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains) of algemene domeinen (bijv.: microsoft.com of office.com) toe aan de lijst met toegestane domeinen. Als het is toegestaan dat deze domeinen spamfilters omzeilen, kunnen kwaadwillende gebruikers eenvoudig e-mails naar uw organisatie verzenden.
+   > • Voeg nooit uw eigen [geaccepteerde domeinen](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains) of algemene domeinen (bijv.: microsoft.com of office.com) toe aan de lijst met toegestane domeinen. Als deze domeinen spamfilters mogen omzeilen, kunnen aanvallers eenvoudig berichten verzenden die deze vertrouwde domeinen vervalsen in uw organisatie.
    >
    > Het is niet gevaarlijk handmatig domeinen te blokkeren door ze aan de lijst met geblokkeerde domeinen toe te voegen, maar het kan de werkbelasting vergroten. Zie [Lijsten met geblokkeerde afzenders maken in EOP](create-block-sender-lists-in-office-365.md) voor meer informatie.
    >
