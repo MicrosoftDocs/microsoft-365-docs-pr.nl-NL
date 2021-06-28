@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Lees meer over Windows en Office Deployment Lab Kit en waar u het kunt vinden.
-ms.openlocfilehash: bb73c303e1266a7d19b3578fb01b849b5e96990f
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 3f9899726838caca678542e17206dae038c39a3d
+ms.sourcegitcommit: 5866e45a6a4e90c661e8f90c91550a9872b68e03
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770671"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "53169566"
 ---
 # <a name="windows-10-and-office-365-deployment-lab-kit"></a>Lab kit voor de implementatie van Windows 10 en Office 365
 
@@ -55,9 +55,11 @@ Het resulterende lab is ontworpen om te worden verbonden met experimenten voor:
 Dankzij gedetailleerde labhandleidingen wordt u begeleid door meerdere scenario's voor implementatie en beheer. De labs zijn bijgewerkt voor de nieuwste versies van Intune en Configuration Manager. 
 
 ### <a name="plan-and-prepare-infrastructure"></a>Infrastructuur plannen en voorbereiden 
+
 - Desktop Analytics 
 - Cloud Management Gateway & clouddistributiepunt 
-- Tenant attach, co-management, and switching workloads 
+- NIEUW! Tenant attach and co-management
+- NIEUW! Eindpuntanalyse 
 - Externe toegang (VPN) 
 
 ### <a name="prepare-configuration"></a>Configuratie voorbereiden   
@@ -91,6 +93,7 @@ Dankzij gedetailleerde labhandleidingen wordt u begeleid door meerdere scenario'
 - Enterprise managed deployment using Microsoft Intune  
 - LOB-implementatie en -beheer met Microsoft Intune
 - Implementatie van Microsoft Teams
+- NIEUW! Toewijzingsfilters  
 
 ### <a name="deploy-windows-virtual-desktop"></a>Virtuele Windows implementeren  
 

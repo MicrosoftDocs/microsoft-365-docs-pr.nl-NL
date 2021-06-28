@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 461911a1e14241112f4ff0e8efb0135b4e1a5a25
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: eadca063d50bf1f969f1bb247b6e56d8ec46a6e0
+ms.sourcegitcommit: 5866e45a6a4e90c661e8f90c91550a9872b68e03
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096730"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "53169578"
 ---
 # <a name="use-attack-surface-reduction-rules-to-prevent-malware-infection"></a>Regels voor de beperking van de surface-aanval gebruiken om malware-infectie te voorkomen
 
@@ -51,6 +51,8 @@ U kunt beoordelen hoe een surface reduction-regel voor aanvallen van invloed kan
 :::image type="content" source="images/asrrecommendation.png" alt-text="Beveiligingsherinding voor de surface reduction-regel voor aanvallen":::
 
 Controleer in het deelvenster aanbevelingsdetails of de invloed van de gebruiker is om te bepalen welk percentage van uw apparaten een nieuw beleid kan accepteren dat de regel in de blokkeringsmodus inschakelen zonder dat dit nadelig is voor de productiviteit.
+
+Zie [Vereisten](enable-attack-surface-reduction.md#requirements) in het artikel 'Regels voor het inschakelen van aanvalsoppervlakbeperking' voor informatie over ondersteunde besturingssystemen.
 
 ## <a name="audit-mode-for-evaluation"></a>Controlemodus voor evaluatie
 
