@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Gebruik vertrouwelijkheidslabels om inhoud te beveiligen in SharePoint- en Microsoft Teams-sites en Microsoft 365 Groepen.
-ms.openlocfilehash: 2ffc0350dd61a0064ce2e9891b18a6769a437d2e
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: 844391ee20d2c8e8b94261659b18de0690dee119
+ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096754"
+ms.lasthandoff: 06/26/2021
+ms.locfileid: "53149188"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>Vertrouwelijkheidslabels gebruiken om inhoud te beveiligen in Microsoft Teams, Microsoft 365 Groepen en SharePoint-sites
 
@@ -141,6 +141,8 @@ Als u wilt weergeven in de vervolgkeuzelijst voor selectie, moeten verificatieco
 Niet alle apps ondersteunen verificatiecontexten. Als een gebruiker met een niet-ondersteunde app verbinding maakt met de site die is geconfigureerd voor een verificatiecontext, zien ze een bericht dat de toegang is geweigerd of wordt hem of haar gevraagd om te worden geverifieerd, maar geweigerd. De apps die momenteel verificatiecontexten ondersteunen, zijn:
 
 - De webversie van Office, met de webversie van Outlook
+
+- Microsoft Teams voor Windows en macOS (exclusief Teams-web-app)
 
 - Microsoft Planner
 
