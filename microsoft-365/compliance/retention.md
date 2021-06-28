@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Lees meer over bewaarbeleid en retentielabels die u helpen te behouden wat u nodig hebt en wat u niet verwijdert.
-ms.openlocfilehash: f882a9a215f331930de7473d6bf057a3d45bc50e
-ms.sourcegitcommit: 410f6e1c6cf53c3d9013b89d6e0b40a050ee9cad
+ms.openlocfilehash: 9337bddd87dd24d42b4d06fe77225901701cbdee
+ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53137689"
+ms.lasthandoff: 06/26/2021
+ms.locfileid: "53149176"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Meer informatie over bewaarbeleid en retentielabels
 
@@ -298,16 +298,16 @@ Gebruik de volgende stroom om inzicht te krijgen in de resultaten van het beware
   
 Uitleg van de vier verschillende principes:
   
-1. **Bewaren heeft een hogere prioriteit dan verwijderen.** Inhoud wordt niet definitief verwijderd wanneer er ook bewaarinstellingen gelden om deze te behouden. Hoewel dit principe ervoor zorgt dat inhoud wordt behouden om nalevingsredenen, wordt het verwijderingsproces nog steeds gestart en kan de inhoud uit de gebruikersweergave worden verwijderd. Een document in SharePoint wordt bijvoorbeeld verplaatst van de oorspronkelijke map naar de map Bewaringen. Definitieve verwijdering wordt echter opgeschort. Gebruik de volgende koppelingen voor elke workload voor meer informatie over hoe en waar inhoud behouden blijft:
+1. **Bewaren heeft een hogere prioriteit dan verwijderen.** Inhoud wordt niet definitief verwijderd wanneer er ook bewaarinstellingen gelden om deze te behouden. Hoewel dit principe ervoor zorgt dat inhoud wordt behouden in verband met compliance, wordt het verwijderingsproces nog steeds gestart en kan de inhoud uit de gebruikersweergave en zoekopdrachten worden verwijderd. Voor SharePoint wordt bijvoorbeeld een document verplaatst van de oorspronkelijke map naar de map Bewaringsopslag. Definitieve verwijdering wordt echter opgeschort. Gebruik de volgende koppelingen voor elke workload voor meer informatie over hoe en waar inhoud behouden blijft:
     
-    - [Hoe retentie werkt voor SharePoint en OneDrive](retention-policies-sharepoint.md#how-retention-works-for-sharepoint-and-onedrive)
+    - [Retentie voor SharePoint en OneDrive](retention-policies-sharepoint.md#how-retention-works-for-sharepoint-and-onedrive)
     - [Hoe bewaarbeleid werkt met Microsoft Teams](retention-policies-teams.md#how-retention-works-with-microsoft-teams)
     - [Hoe retentie werkt met Yammer](retention-policies-yammer.md#how-retention-works-with-yammer)
     - [Hoe retentie werkt voor Exchange](retention-policies-exchange.md#how-retention-works-for-exchange)
     
     Voorbeeld: Voor een e-mailbericht is een bewaarbeleid van toepassing voor Exchange dat is geconfigureerd om items na drie jaar te verwijderen. Ook is er een retentielabel toegepast dat is geconfigureerd om items vijf jaar te bewaren.
     
-    Het e-mailbericht blijft vijf jaar bewaard omdat deze bewaaractie voorrang heeft op het verwijderen. Het e-mailbericht wordt na vijf jaar definitief verwijderd vanwege de uitgestelde verwijderingsactie.
+    Het e-mailbericht blijft vijf jaar bewaard omdat deze bewaaractie voorrang heeft op het verwijderen. Het e-mailbericht wordt aan het einde van de vijf jaar definitief verwijderd vanwege de verwijderactie die is onderbroken terwijl de bewaaractie van kracht was.
 
 2. **De langste bewaarperiode won.** Als voor inhoud meerdere bewaarinstellingen gelden die inhoud gedurende verschillende perioden behouden, blijft de inhoud behouden tot het einde van de langste bewaarperiode.
     
