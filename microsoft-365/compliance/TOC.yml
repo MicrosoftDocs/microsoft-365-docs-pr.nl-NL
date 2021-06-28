@@ -160,10 +160,10 @@
           href: sensitivity-labels-teams-groups-sites.md
         - name: Vertrouwelijkheidslabels inschakelen voor Office-bestanden in SharePoint en OneDrive
           href: sensitivity-labels-sharepoint-onedrive-files.md
-        - name: Vertrouwelijkheidslabels in Office-apps beheren
-          href: sensitivity-labels-office-apps.md
         - name: Cocreatie inschakelen voor documenten die versleuteld zijn met vertrouwelijkheidslabels (preview)
           href: sensitivity-labels-coauthoring.md
+        - name: Vertrouwelijkheidslabels in Office-apps beheren
+          href: sensitivity-labels-office-apps.md
     - name: Versleuteling
       items:
         - name: Informatie over versleuteling
@@ -395,9 +395,9 @@
               href: archive-celltrust-data.md
             - name: Cisco Jabber op MS SQL
               href: archive-ciscojabberonmssql-data.md
-            - name: Cisco Jabber op Oracle (preview)
+            - name: Cisco Jabber op Oracle
               href: archive-ciscojabberonoracle-data.md
-            - name: Cisco Jabber op PostgreSQL (preview)
+            - name: Cisco Jabber op PostgreSQL
               href: archive-ciscojabberonpostgresql-data.md
             - name: EML
               href: archive-eml-data.md
@@ -421,6 +421,8 @@
               href: archive-salesforcechatter-data.md
             - name: ServiceNow
               href: archive-servicenow-data.md
+            - name: Skype voor Bedrijven (preview)
+              href: archive-skypeforbusiness-data.md
             - name: Slack eDiscovery
               href: archive-slack-data.md
             - name: Symphony
@@ -429,8 +431,6 @@
               href: archive-text-delimited-data.md
             - name: WebEx Teams
               href: archive-webexteams-data.md
-            - name: Webpagina's
-              href: archive-webpagecapture-data.md
             - name: Webpagina's
               href: archive-webpagecapture-data.md
             - name: Workplace van Facebook
@@ -445,24 +445,68 @@
               href: archive-zoommeetings-data.md
         - name: TeleMessage-gegevensconnectors
           items:
-            - name: Android
+            - name: Android Archiver
               href: archive-android-archiver-data.md
-            - name: AT&T-netwerk
+            - name: AT&T SMS/MMS Network Archiver
               href: archive-att-network-archiver-data.md
-            - name: Bell-netwerk
+            - name: Bell SMS/MMS Network Archiver
               href: archive-bell-network-data.md
-            - name: Ondernemingsnummer
+            - name: Enterprise Number Archiver
               href: archive-enterprise-number-data.md
-            - name: O2-netwerk
+            - name: O2 Telefonica SMS en Voice Network Archiver
               href: archive-o2-network-data.md
+            - name: Signaal (preview)
+              href: archive-signal-archiver-data.md
+            - name: Telegram (preview)
+              href: archive-telegram-archiver-data.md
             - name: TELUS-netwerk
               href: archive-telus-network-data.md
-            - name: Verizon-netwerk
+            - name: Verizon SMS/MMS Network Archiver
               href: archive-verizon-network-data.md
-            - name: WeChat (preview)
+            - name: WeChat Archiver
               href: archive-wechat-data.md
-            - name: WhatsApp
+            - name: WhatsApp Archiver
               href: archive-whatsapp-data.md
+        - name: 17a-4-gegevensconnectors
+          items:
+            - name: BlackBerry DataParser (preview)
+              href: archive-17a-4-blackberry-data.md
+            - name: Bloomberg DataParser (preview)
+              href: archive-17a-4-bloomberg-data.md
+            - name: Cisco Jabber DataParser (preview)
+              href: archive-17a-4-cisco-jabber-data.md
+            - name: Cisco Webex DataParser (preview)
+              href: archive-17a-4-webex-teams-data.md
+            - name: FactSet DataParser (preview)
+              href: archive-17a-4-factset-data.md
+            - name: Fuze DataParser (preview)
+              href: archive-17a-4-fuze-data.md
+            - name: FX Connect DataParser (preview)
+              href: archive-17a-4-fxconnect-data.md
+            - name: ICE DataParser (preview)
+              href: archive-17a-4-ice-im-data.md
+            - name: InvestEdge DataParser (preview)
+              href: archive-17a-4-investedge-data.md
+            - name: LivePerson Conversational Cloud DataParser (preview)
+              href: archive-17a-4-liveperson-data.md
+            - name: Quip DataParser (preview)
+              href: archive-17a-4-quip-data.md
+            - name: Refinitiv Eikon Messenger DataParser (preview)
+              href: archive-17a-4-refinitiv-messenger-data.md
+            - name: ServiceNow DataParser (preview)
+              href: archive-17a-4-servicenow-data.md
+            - name: Slack DataParser (preview)
+              href: archive-17a-4-slack-data.md
+            - name: SQL DataParser (preview)
+              href: archive-17a-4-sql-database-data.md
+            - name: Symphony DataParser (preview)
+              href: archive-17a-4-symphony-data.md
+            - name: Zoom DataParser (preview)
+              href: archive-17a-4-zoom-data.md
+        - name: CellTrust-connectors
+          items:
+            - name: CellTrust SL2 (preview)
+              href: archive-data-from-celltrustsl2.md
         - name: Werken met een partner voor het archiveren van gegevens van derden
           href: work-with-partner-to-archive-third-party-data.md
         - name: Gegevens van derden zoeken
