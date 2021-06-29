@@ -23,7 +23,7 @@
           href: empower-people-to-work-remotely-remote-access.md
         - name: 'Stap 3: Beveiliging en compliance implementeren'
           href: empower-people-to-work-remotely-security-compliance.md
-        - name: Stap 4. Endpoint Management implementeren
+        - name: Stap 4. Eindpuntbeheer implementeren
           href: empower-people-to-work-remotely-manage-endpoints.md
         - name: Stap 5. Productiviteitsapps en -services implementeren
           href: empower-people-to-work-remotely-teams-productivity-apps.md
@@ -97,40 +97,94 @@
   items:
     - name: Overzicht
       href: ./index.yml
-    - name: Tenantbeheer
+    - name: Beheer en migratie
       items:
-        - name: Overzicht
-          href: tenant-management-overview.md
-        - name: Stap 1. Jouw tenants
-          href: tenant-management-tenants.md
-        - name: Stap 2. Optimale netwerken
-          href: tenant-management-networking.md
-        - name: Stap 3. Identiteit
-          href: tenant-management-identity.md
-        - name: Stap 4. Migratie
-          href: tenant-management-migration.md
-        - name: Stap 5. Apparaat- en app-beheer
-          href: tenant-management-device-management.md
-    - name: Teamwerk en samenwerking.
+        - name: Tenantbeheer
+          items:
+            - name: Overzicht
+              href: tenant-management-overview.md
+            - name: Stap 1. Jouw tenants
+              href: tenant-management-tenants.md
+            - name: Stap 2. Optimale netwerken
+              href: tenant-management-networking.md
+            - name: Stap 3. Identiteit
+              href: tenant-management-identity.md
+            - name: Stap 4. Migratie
+              href: tenant-management-migration.md
+            - name: Stap 5. Apparaat- en app-beheer
+              href: tenant-management-device-management.md
+            - name: Een voormalige werknemer verwijderen
+              items:
+                - name: Overzicht
+                  href: ../admin/add-users/remove-former-employee.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+                - name: Stap 1. Voorkomen dat een werknemer zich kan aanmelden en toegang tot Microsoft 365-services kan blokkeren
+                  href: ../admin/add-users/remove-former-employee-step-1.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+                - name: Step 2. De inhoud van het postvak van een voormalige werknemer opslaan
+                  href: ../admin/add-users/remove-former-employee-step-2.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+                - name: Step 3. E-mail van een voormalige werknemer doorsturen naar een andere werknemer of converteren naar een gedeeld postvak
+                  href: ../admin/add-users/remove-former-employee-step-3.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+                - name: Step 4. Een andere werknemer toegang geven tot OneDrive- en Outlook-gegevens
+                  href: ../admin/add-users/remove-former-employee-step-4.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+                - name: Stap 5. Het mobiele apparaat van een voormalige werknemer wissen en blokkeren
+                  href: ../admin/add-users/remove-former-employee-step-5.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+                - name: Stap 6. De Microsoft 365-licentie van een voormalige werknemer verwijderen
+                  href: ../admin/add-users/remove-former-employee-step-6.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+                - name: Stap 7. Het gebruikersaccount van een voormalige werknemer verwijderen
+                  href: ../admin/add-users/remove-former-employee-step-7.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+        - name: Bestandsshares migreren naar Microsoft 365
+          items:
+            - name: Overzicht
+              href: /sharepointmigration/mm-get-started.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+            - name: 'Stap 1: agents instellen'
+              href: /sharepointmigration/mm-setup-clients.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+            - name: 'Stap 2: een migratietaak maken'
+              href: /sharepointmigration/mm-how-to-use.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+            - name: 'Stap 3: controle en rapport'
+              href: /sharepointmigration/mm-reports.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+    - name: Teamwerk en samenwerking
       items:
-        - name: Posters van Teams-architectuur
-          href: /MicrosoftTeams/teams-architecture-solutions-posters?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
         - name: Teams voice in Microsoft 365 implementeren
           items:
             - name: Overzicht
               href: deploy-voice.md
             - name: Stap 1. Kies uw voice oplossing
-              href: /MicrosoftTeams/cloud-voice-landing-page?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+              href: /MicrosoftTeams/cloud-voice-landing-page.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
             - name: Stap 2. - Stel uw telefoonsysteem in
-              href: /microsoftteams/setting-up-your-phone-system?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+              href: /MicrosoftTeams/setting-up-your-phone-system.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
             - name: Stap 3. - Stel PSTN-connectiviteit in
               items:
                 - name: Abonnementsoptie
-                  href: /microsoftteams/set-up-calling-plans?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+                  href: /MicrosoftTeams/set-up-calling-plans.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
                 - name: Optie voor directe routering
-                  href: /microsoftteams/direct-routing-configure?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+                  href: /MicrosoftTeams/direct-routing-configure.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
             - name: Casestudy voor multinationale bedrijven
-              href: /MicrosoftTeams/voice-case-study-overview?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+              href: /MicrosoftTeams/voice-case-study-overview.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+        - name: Contracten voor uw bedrijf beheren
+          items:
+            - name: Overzicht
+              href: ../contentunderstanding/solution-manage-contracts-in-microsoft-365.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+            - name: Stap 1. Gebruik SharePoint Syntex
+              href: ../contentunderstanding/solution-manage-contracts-step1.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+            - name: Stap 2. Gebruik Microsoft Teams
+              href: ../contentunderstanding/solution-manage-contracts-step2.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+            - name: Stap 3. Power Automate
+              href: ../contentunderstanding/solution-manage-contracts-step3.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+        - name: Een intelligent SharePoint-intranet bouwen
+          items:
+            - name: Overzicht
+              href: /sharepoint/intelligent-internet-overview.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+            - name: Denk na over uw intelligente intranet
+              href: /sharepoint/itrad-vs-modern-intranet.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+            - name: Intranetroadmap
+              href: /sharepoint/iintranet-overview.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+            - name: Plan uw intranet
+              href: /sharepoint/iplan-intranet.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+            - name: Overwegingen bij het plannen van een globaal intranet
+              href: /sharepoint/iset-up-global-intranet.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+            - name: Intranetbeheer
+              href: /sharepoint/iintranet-governance.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+            - name: Communicatie op de werkplek
+              href: /sharepoint/iworkplace-communications.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
         - name: Samenwerkingsbeheer
           items:
             - name: Overzicht
@@ -170,57 +224,43 @@
                 - name: Opties voor Einde van levenscyclus
                   href: end-life-cycle-groups-teams-sites-yammer.md
         - name: Samenwerken aan bestanden in SharePoint met Microsoft 365
-          href: /sharepoint/deploy-file-collaboration?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
-        - name: Een intelligent SharePoint-intranet compileren
-          href: /sharepoint/intelligent-internet-overview?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+          href: /sharepoint/deploy-file-collaboration
         - name: OneDrive-handleiding voor ondernemingen
-          href: /onedrive/plan-onedrive-enterprise?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
-        - name: Bestandsshares migreren naar Microsoft 365
-          items:
-            - name: Overzicht
-              href: /sharepointmigration/mm-get-started?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
-            - name: 'Stap 1: agents instellen'
-              href: /sharepointmigration/mm-setup-clients?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
-            - name: 'Stap 2: een migratietaak maken'
-              href: /sharepointmigration/mm-how-to-use?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
-            - name: 'Stap 3: controle en rapport'
-              href: /sharepointmigration/mm-reports?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
-    - name: Beveiliging
-      items:
-        - name: Belangrijkste taken voor beveiligingsteams om het thuiswerken te ondersteunen
-          href: ../security/top-security-tasks-for-remote-work.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
-        - name: Microsoft 365-beveiliging voor zakelijke beslissers (BDM's)
-          href: 'https://docs.microsoft.com/microsoft-365/security/microsoft-365-security-for-bdm?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
-        - name: Configuratie van identiteiten en apparaattoegang
-          href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/microsoft-365-policies-configurations?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
-        - name: Microsoft Defender voor Eindpunten implementeren
-          href: 'https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/deployment-phases?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
+          href: /onedrive/plan-onedrive-enterprise
     - name: Compliance
       items:
         - name: Oplossingen voor insider-risico's in Microsoft 365
-          items:
-            - name: Overzicht
-              href: ../compliance/insider-risk-solution-overview.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
-            - name: Communicatiecompliance
-              href: ../compliance/communication-compliance-solution-overview.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
-            - name: Beheer van insider-risico's
-              href: ../compliance/insider-risk-management-solution-overview.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
-            - name: Informatiebelemmeringen
-              href: ../compliance/information-barriers-solution-overview.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
-            - name: Privileged Access Management
-              href: ../compliance/privileged-access-management-solution-overview.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+          href: ../compliance/insider-risk-solution-overview.md
+        - name: Controle-oplossingen
+          href: ../compliance/auditing-solutions-overview.md
+        - name: Microsoft 365 Advanced eDiscovery
+          href: ../compliance/overview-ediscovery-20.md
         - name: Actieplannen voor wettelijke compliance
           items:
             - name: ISO - Aanbevolen actieplan
-              href: /compliance/regulatory/iso-action-plan?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+              href: /compliance/regulatory/iso-action-plan.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
             - name: NIST - Aanbevolen actieplan
-              href: /compliance/regulatory/nist-action-plan?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+              href: /compliance/regulatory/nist-action-plan.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
             - name: CCPA - Veelgestelde vragen
-              href: /compliance/regulatory/ccpa-faq?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+              href: /compliance/regulatory/ccpa-faq.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
             - name: AVG - Aanbevolen actieplan
-              href: /compliance/regulatory/gdpr?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
-        - name: Contoso-compliancecasestudy
-          href: ../compliance/communication-compliance-case-study.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&view=o365-worldwide%3ftoc%3d%2fmicrosoft-365%2fsolutions%2ftoc.json
+              href: /compliance/regulatory/gdpr.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+    - name: Beveiliging
+      items:
+        - name: Belangrijkste taken voor beveiligingsteams om het thuiswerken te ondersteunen
+          href: ../security/top-security-tasks-for-remote-work.md
+        - name: Microsoft 365-beveiliging voor zakelijke beslissers (BDM's)
+          href: ../security/microsoft-365-security-for-bdm.md
+        - name: Configuratie van identiteiten en apparaattoegang
+          href: ../security/office-365-security/microsoft-365-policies-configurations.md
+        - name: Microsoft Defender voor Eindpunten implementeren
+          href: /windows/security/threat-protection/microsoft-defender-atp/deployment-phases.md
+        - name: Migreren van Symantec naar Microsoft Defender voor Eindpunt
+          href: ../security/defender-endpoint/symantec-to-microsoft-defender-endpoint-migration.md
+        - name: Migreren van McAfee naar Microsoft Defender voor Eindpunt
+          href: ../security/defender-endpoint/mcafee-to-microsoft-defender-migration.md
+        - name: Overschakelen van niet-Microsoft-eindpuntbeveiliging naar Microsoft Defender voor Eindpunt
+          href: ../security/defender-endpoint/switch-to-microsoft-defender-migration.md
     - name: Contoso-casestudy's
       items:
         - name: Microsoft 365-oplossingen voor Contoso Corporation
@@ -230,9 +270,9 @@
         - name: Geïsoleerd team voor een uiterst geheim project
           href: contoso-team-for-top-secret-project.md
         - name: Teams-spraakmigratie
-          href: /MicrosoftTeams/voice-case-study-overview?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+          href: /MicrosoftTeams/voice-case-study-overview.md
         - name: Contoso-compliancecasestudy
-          href: ../compliance/communication-compliance-case-study.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&view=o365-worldwide%3ftoc%3d%2fmicrosoft-365%2fsolutions%2ftoc.json
+          href: ../compliance/communication-compliance-case-study.md
     - name: Testlabrichtlijnen
       items:
         - name: Testlabrichtlijnen voor oplossingen en scenario's
@@ -252,17 +292,17 @@
     - name: Gezondheidszorg
       items:
         - name: Teams voor gezondheidszorg
-          href: /MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+          href: /MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc.md
     - name: Onderwijs
       items:
         - name: Teams voor het onderwijs
-          href: /MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+          href: /MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page.md
     - name: Overheid
       items:
         - name: Teams voor de overheid
-          href: /MicrosoftTeams/expand-teams-across-your-org/teams-for-government-landing-page?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+          href: /MicrosoftTeams/expand-teams-across-your-org/teams-for-government-landing-page.md
         - name: Ondersteuning van overheidswerknemers die Teams gebruiken om op afstand te werken
-          href: /MicrosoftTeams/expand-teams-across-your-org/gov-support-remote-work-with-teams?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+          href: /MicrosoftTeams/expand-teams-across-your-org/gov-support-remote-work-with-teams.md
 - name: Ontwerpprincipes voor ondernemingsarchitectuur
   items:
     - name: Overzicht
