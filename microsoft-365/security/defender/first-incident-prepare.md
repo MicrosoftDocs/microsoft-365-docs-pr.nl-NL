@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: da9147955c5da9ea727854420b3d4d160583ef73
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: fcdce7f5a41c23dfe33eb75ef15b579ac12c8742
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52840932"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53194935"
 ---
 # <a name="prepare-your-security-posture-for-your-first-incident"></a>Uw beveiligingshouding voorbereiden op het eerste incident
 
@@ -38,7 +38,7 @@ ms.locfileid: "52840932"
 
 Als u zich voorbereidt op incidentafhandeling, moet het netwerk van een organisatie voldoende worden beschermd tegen verschillende soorten beveiligingsincidenten. Om het risico op beveiligingsincidenten te beperken, raadt het National Institute of Standards and Technology (NIST) verschillende beveiligingspraktijken aan, waaronder risicobeoordelingen, het verbeteren van de beveiliging van de host, het veilig configureren van netwerken en het voorkomen van malware. 
 
-Microsoft 365 Defender kan helpen bij het aanpakken van verschillende aspecten van incidentpreventie: 
+Microsoft 365 Defender kan helpen bij het aanpakken van verschillende aspecten van preventie van incidenten: 
 
 - Een [Zero Trust-framework](/security/zero-trust/) implementeren
 - Uw beveiligingsstatus bepalen door een score toe te wijzen met [Microsoft Secure Score](microsoft-secure-score.md)
@@ -47,11 +47,11 @@ Microsoft 365 Defender kan helpen bij het aanpakken van verschillende aspecten v
 
 ## <a name="step-1-implement-zero-trust"></a>Stap 1. Nul vertrouwen implementeren
 
-[Zero Trust](/security/zero-trust/) is een geïntegreerde beveiligingsbeschouwing en end-to-endstrategie waarin rekening wordt gehouden met de complexe aard van elke moderne omgeving, met inbegrip van het mobiele personeel en de gebruikers, apparaten, toepassingen en gegevens, waar ze zich ook bevinden. Door één deelvenster met glas op te geven om alle detecties op een consistente manier te beheren, kan Microsoft 365 Defender het uw beveiligingsteam gemakkelijker maken om de basisprincipes van Zero Trust te implementeren. [](/security/zero-trust/#guiding-principles-of-zero-trust) 
+[Zero Trust](/security/zero-trust/) is een geïntegreerde beveiligingsbeschouwing en end-to-endstrategie waarin rekening wordt gehouden met de complexe aard van elke moderne omgeving, met inbegrip van het mobiele personeel en de gebruikers, apparaten, toepassingen en gegevens, waar ze zich ook bevinden. Door één deelvenster glas te bieden om alle detecties op een consistente manier te beheren, kunnen [](/security/zero-trust/#guiding-principles-of-zero-trust) Microsoft 365 Defender het voor uw beveiligingsteam gemakkelijker maken om de richtlijnen van Zero Trust te implementeren. 
 
-Onderdelen van Microsoft 365 Defender kunnen schendingen van regels weergeven die zijn geïmplementeerd om beleid voor voorwaardelijke toegang voor Zero Trust tot stand te brengen door gegevens van Microsoft Defender voor Eindpunt (MDE) of andere mobiele beveiligingsleveranciers te integreren als informatiebron voor beleidsregels voor apparaat compliance en implementatie van beleidsregels voor voorwaardelijke toegang op apparaten. 
+Onderdelen van Microsoft 365 Defender kunnen schendingen van regels weergeven die zijn geïmplementeerd om beleid voor voorwaardelijke toegang voor Zero Trust tot stand te brengen door gegevens van Microsoft Defender voor eindpunten of andere mobiele beveiligingsleveranciers te integreren als informatiebron voor beleidsregels voor apparaat compliance en implementatie van beleidsregels voor voorwaardelijke toegang op apparaten. 
 
-Apparaatrisico is rechtstreeks van invloed op de bronnen die toegankelijk zijn voor de gebruiker van dat apparaat. De weigering van toegang tot resources op basis van bepaalde criteria is het hoofdthema van Zero Trust en Microsoft 365 Defender biedt informatie die nodig is om de criteria op vertrouwensniveau te bepalen. Zo kan Microsoft 365 Defender het softwareversieniveau van een apparaat bieden via de pagina Bedreigings- en beveiligingsprobleembeheer, terwijl beleidsregels voor voorwaardelijke toegang apparaten beperken die verouderde of kwetsbare versies hebben.
+Apparaatrisico is rechtstreeks van invloed op de bronnen die toegankelijk zijn voor de gebruiker van dat apparaat. De weigering van toegang tot resources op basis van bepaalde criteria is het hoofdthema van Zero Trust en Microsoft 365 Defender informatie die nodig is om de criteria op vertrouwensniveau te bepalen. U kunt Microsoft 365 Defender het softwareversieniveau van een apparaat bijvoorbeeld bieden via de pagina Bedreigings- en beveiligingsprobleembeheer, terwijl beleidsregels voor voorwaardelijke toegang apparaten beperken die verouderde of kwetsbare versies hebben.
 
 Automatisering is een essentieel onderdeel van het implementeren en onderhouden van een Zero Trust-omgeving, terwijl ook het aantal waarschuwingen wordt beperkt dat mogelijk tot incidenten kan leiden. Onderdelen van Microsoft 365 Defender kunnen worden geautomatiseerd, zoals herstelacties [(ook](m365d-autoir.md) wel onderzoeken voor een incident in het Microsoft 365-beveiligingscentrum genoemd), meldingsacties en zelfs het maken van ondersteuningstickets, zoals in [ServiceNow.](https://microsoft.service-now.com/sp/)
 
@@ -65,7 +65,7 @@ Vervolgens kunnen organisaties de [Microsoft Secure Score](microsoft-secure-scor
 
 Het voorkomen van incidenten kan helpen bij het stroomlijnen van de beveiligingsactiviteiten om zich te richten op aan de hand van kritieke en belangrijke beveiligingsincidenten. Softwareproblemen zijn vaak een preventief toegangspunt voor aanvallen die kunnen leiden tot gegevensdiefstal, gegevensverlies of verstoring van bedrijfsactiviteiten. Als er geen aanvallen worden uitgevoerd, moeten beveiligingsbewerkingen ernaar streven om een acceptabel niveau van blootstelling aan kwetsbaarheid [in](../defender-endpoint/tvm-exposure-score.md) hun organisatie te bereiken en te behouden.
 
-Als u de voortgang van [](../defender-endpoint/next-gen-threat-and-vuln-mgt.md) de softwarepatching wilt controleren, gaat u naar de pagina Bedreigings- en kwetsbaarheidsbeheer in Defender voor Eindpunt, die u kunt openen vanuit Microsoft 365 Defender via het tabblad **Meer** bronnen.
+Als u de voortgang van [](../defender-endpoint/next-gen-threat-and-vuln-mgt.md) de softwarepatching wilt controleren, gaat u naar de pagina Bedreigings- en kwetsbaarheidsbeheer in Defender voor Eindpunt, die u kunt openen vanaf Microsoft 365 Defender via het tabblad **Meer** bronnen.
 
 :::image type="content" source="../../media/first-incident-prepare/first-incident-vulnerability.png" alt-text="Voorbeeld van de pagina Bedreiging en kwetsbaarheid in het Microsoft-beveiligingscentrum"::: 
  

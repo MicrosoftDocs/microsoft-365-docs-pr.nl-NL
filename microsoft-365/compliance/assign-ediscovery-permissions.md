@@ -1,5 +1,5 @@
 ---
-title: eDiscovery-machtigingen toewijzen in het Microsoft 365 compliancecentrum
+title: eDiscovery-machtigingen toewijzen in de Microsoft 365-compliancecentrum
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -16,26 +16,26 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 5b9a067b-9d2e-4aa5-bb33-99d8c0d0b5d7
-description: Wijs de machtigingen toe die nodig zijn voor het uitvoeren van eDiscovery-gerelateerde taken met het Microsoft 365 compliancecentrum.
+description: Wijs de machtigingen toe die nodig zijn voor het uitvoeren van eDiscovery-gerelateerde taken met behulp van de Microsoft 365-compliancecentrum.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 63afafbb8254169e266e5a3305df64aa9d271f79
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: 06e75a18c338d2634ae3be93514ee518d9e91860
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782451"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53194671"
 ---
-# <a name="assign-ediscovery-permissions-in-the-microsoft-365-compliance-center"></a>eDiscovery-machtigingen toewijzen in het Microsoft 365 compliancecentrum
+# <a name="assign-ediscovery-permissions-in-the-microsoft-365-compliance-center"></a>eDiscovery-machtigingen toewijzen in de Microsoft 365-compliancecentrum
 
-Als u wilt dat personen een van de [eDiscovery-gerelateerde](ediscovery.md) hulpprogramma's gebruiken in het Microsoft 365 compliancecentrum, moet u ze de juiste machtigingen toewijzen. De eenvoudigste manier om dit te doen is door  de persoon de juiste rollengroep toe te voegen op de pagina Machtigingen in het compliancecentrum. In dit onderwerp worden de machtigingen beschreven die nodig zijn voor het uitvoeren van eDiscovery-taken.
+Als u wilt dat personen een van de [eDiscovery-gerelateerde](ediscovery.md) hulpprogramma's in de Microsoft 365-compliancecentrum gebruiken, moet u ze de juiste machtigingen toewijzen. De eenvoudigste manier om dit te doen is door  de persoon de juiste rollengroep toe te voegen op de pagina Machtigingen in het compliancecentrum. In dit onderwerp worden de machtigingen beschreven die nodig zijn voor het uitvoeren van eDiscovery-taken.
   
-De primaire eDiscovery-gerelateerde rollengroep in Microsoft 365 compliancecentrum heet **eDiscovery Manager.** Deze rollengroep bestaat uit twee subgroepen.
+De primaire eDiscovery-gerelateerde rollengroep in Microsoft 365-compliancecentrum heet **eDiscovery Manager.** Deze rollengroep bestaat uit twee subgroepen.
   
 - **eDiscovery-managers:** een eDiscovery Manager kan eDiscovery-zoekhulpmiddelen gebruiken om inhoudslocaties in de organisatie te zoeken en verschillende zoekacties uit te voeren, zoals voorbeeld van zoekresultaten en het exporteren van zoekresultaten. Leden kunnen ook zaken maken en beheren in Core eDiscovery en Advanced eDiscovery, leden aan een zaak toevoegen en verwijderen, case-holds maken, zoekopdrachten uitvoeren die zijn gekoppeld aan een zaak en casegegevens openen. eDiscovery-managers hebben alleen toegang tot de zaken die ze maken en beheren. Ze hebben geen toegang tot of beheren van zaken die zijn gemaakt door andere eDiscovery-managers.
   
 - **eDiscovery-beheerders:** een eDiscovery-beheerder maakt deel uit van de rollengroep eDiscovery Manager en kan dezelfde taken voor zoeken naar inhoud en casebeheer uitvoeren die een eDiscovery Manager kan uitvoeren. Bovendien kan een eDiscovery-beheerder:
   
-  - Toegang tot alle zaken die worden vermeld op de **pagina's Core eDiscovery** **en Advanced eDiscovery** in het Microsoft 365 compliancecentrum.
+  - Toegang tot alle zaken die worden weergegeven op de **core eDiscovery-** **en Advanced eDiscovery** pagina's in de Microsoft 365-compliancecentrum.
 
   - Access case data in Advanced eDiscovery for any case in the organization.
   
@@ -44,11 +44,11 @@ De primaire eDiscovery-gerelateerde rollengroep in Microsoft 365 compliancecentr
   Zie Meer informatie om redenen waarom u mogelijk eDiscovery-beheerders in uw organisatie [wilt hebben.](#more-information)
 
 > [!NOTE]
-> Als u de gegevens van een gebruiker wilt analyseren met Advanced eDiscovery, moet de gebruiker (de beheerder van de gegevens) een Office 365 E5- of Microsoft 365 E5-licentie. Gebruikers met een Office 365 E1- of Office 365- of Microsoft 365 E3-licentie kunnen ook een Microsoft 365 E5 Compliance- Microsoft 365 eDiscovery- en Audit-invoeglicentie krijgen. Beheerders, compliancemedewerkers of juridisch personeel die als lid aan zaken zijn toegewezen en Advanced eDiscovery gebruiken om gegevens te verzamelen, weergeven en analyseren, hebben geen E5-licentie nodig. Zie Abonnementen en licenties in Advanced eDiscovery licenties [in](overview-ediscovery-20.md#subscriptions-and-licensing)Advanced eDiscovery.
+> Als u de gegevens van een gebruiker wilt analyseren met Advanced eDiscovery, moet aan de gebruiker (de beheerder van de gegevens) een licentie Office 365 E5 of Microsoft 365 E5 worden toegewezen. U kunt ook gebruikers met een Office 365 E1- of Office 365- of Microsoft 365 E3-licentie een Microsoft 365 E5 Compliance- of Microsoft 365 eDiscovery- en Audit-invoeglicentie toegewezen krijgen. Beheerders, compliancemedewerkers of juridisch personeel die als lid aan zaken zijn toegewezen en Advanced eDiscovery gebruiken om gegevens te verzamelen, weergeven en analyseren, hebben geen E5-licentie nodig. Zie Abonnementen en licenties in Advanced eDiscovery licenties [in](overview-ediscovery-20.md#subscriptions-and-licensing)Advanced eDiscovery.
   
 ## <a name="before-you-assign-permissions"></a>Voordat u machtigingen toewijst
 
-- U moet lid zijn van de rollengroep Organisatiebeheer of de rol Rollenbeheer krijgen toegewezen om eDiscovery-machtigingen toe te wijzen in het Microsoft 365 compliancecentrum.
+- U moet lid zijn van de rollengroep Organisatiebeheer of de rol Rollenbeheer krijgen toegewezen om eDiscovery-machtigingen toe te wijzen in de Microsoft 365-compliancecentrum.
 
 - U kunt de cmdlet [Add-RoleGroupMember](/powershell/module/exchange/Add-RoleGroupMember) in Security & Compliance Center PowerShell gebruiken om een beveiligingsgroep met e-mail toe te voegen als lid van de subgroep eDiscovery Managers in de rollengroep eDiscovery Manager. U kunt echter geen beveiligingsgroep met e-mail toevoegen aan de subgroep eDiscovery-beheerders. Zie Meer [informatie voor meer informatie.](#more-information) 
   
@@ -56,7 +56,7 @@ De primaire eDiscovery-gerelateerde rollengroep in Microsoft 365 compliancecentr
 
 1. Ga naar <https://compliance.microsoft.com> en meld u aan met een account dat machtigingen kan toewijzen.
   
-2. Selecteer machtigingen in het linkerdeelvenster Microsoft 365 compliancecentrum.
+2. Selecteer in het linkerdeelvenster Microsoft 365-compliancecentrum **machtigingen.**
 
 3. Klik op **de pagina Machtigingen & Rollen** onder **Compliancecentrum** op **Rollen.**
 
@@ -71,11 +71,11 @@ De primaire eDiscovery-gerelateerde rollengroep in Microsoft 365 compliancecentr
 > [!NOTE]
 > U kunt ook de **cmdlet Add-eDiscoveryCaseAdmin** gebruiken om van een gebruiker een eDiscovery-beheerder te maken. De gebruiker moet echter de rol Case Management krijgen toegewezen voordat u deze cmdlet kunt gebruiken om van de gebruiker een eDiscovery-beheerder te maken. Zie [Add-eDiscoveryCaseAdmin](/powershell/module/exchange/add-ediscoverycaseadmin)voor meer informatie. 
   
-Op de **pagina** Machtigingen in het Microsoft 365 compliancecentrum kunt u gebruikers ook eDiscovery-gerelateerde machtigingen toewijzen door ze toe te voegen aan de rollengroepen Compliancebeheerder, Organisatiebeheer en Revisor. Zie RBAC-rollen met betrekking tot [eDiscovery](#rbac-roles-related-to-ediscovery)voor een beschrijving van de eDiscovery-gerelateerde RBAC-rollen die aan elk van deze rollengroepen zijn toegewezen.
+Op de **pagina** Machtigingen in de Microsoft 365-compliancecentrum kunt u gebruikers ook eDiscovery-gerelateerde machtigingen toewijzen door ze toe te voegen aan de rollengroepen Compliancebeheerder, Organisatiebeheer en Revisor. Zie RBAC-rollen met betrekking tot [eDiscovery](#rbac-roles-related-to-ediscovery)voor een beschrijving van de eDiscovery-gerelateerde RBAC-rollen die aan elk van deze rollengroepen zijn toegewezen.
 
 ## <a name="rbac-roles-related-to-ediscovery"></a>RBAC-rollen met betrekking tot eDiscovery
 
-De volgende tabel bevat de eDiscovery-gerelateerde RBAC-rollen in het Microsoft 365 compliancecentrum en geeft de ingebouwde rollengroepen aan waar elke rol standaard aan is toegewezen.
+De volgende tabel bevat de eDiscovery-gerelateerde RBAC-rollen in de Microsoft 365-compliancecentrum en geeft de ingebouwde rollengroepen aan waar elke rol standaard aan is toegewezen.
   
 | Rol | Compliancebeheerder | eDiscovery Manager & beheerder | Organisatiebeheer | Revisor |
 |:-----|:-----:|:-----:|:-----:|:-----:|
@@ -95,7 +95,7 @@ In de volgende secties worden alle eDiscovery-gerelateerde RBAC-rollen in de vor
 
 ### <a name="case-management"></a>Case Management
 
-Met deze rol kunnen gebruikers toegang tot Core eDiscovery en Advanced eDiscovery in het Microsoft 365 compliancecentrum. Zoals eerder is uitgelegd, moet aan een gebruiker de rol Case Management worden toegewezen voordat u de **cmdlet Add-eDiscoveryCaseAdmin** kunt gebruiken om van de gebruiker een eDiscovery-beheerder te maken.
+Met deze rol kunnen gebruikers toegang tot Core eDiscovery en Advanced eDiscovery in de Microsoft 365-compliancecentrum. Zoals eerder is uitgelegd, moet aan een gebruiker de rol Case Management worden toegewezen voordat u de **cmdlet Add-eDiscoveryCaseAdmin** kunt gebruiken om van de gebruiker een eDiscovery-beheerder te maken.
 
 Zie voor meer informatie:
 
@@ -111,13 +111,13 @@ Zie Werken met communicatie [in Advanced eDiscovery.](managing-custodian-communi
 
 ### <a name="compliance-search"></a>Compliancezoekactie
 
-Met deze rol kunnen gebruikers het hulpprogramma Inhoud zoeken uitvoeren in het Microsoft 365-compliancecentrum om te zoeken in postvakken en openbare mappen, SharePoint Online-sites, OneDrive voor Bedrijven-sites, Skype voor Bedrijven-gesprekken, Microsoft 365-groepen en Microsoft Teams- en Yammer-groepen. Met deze rol kan een gebruiker een schatting van de zoekresultaten krijgen en exportrapporten maken, maar er zijn andere rollen nodig om inhoudszoekacties te starten, zoals het bekijken, exporteren of verwijderen van zoekresultaten.
+Met deze rol kunnen gebruikers het hulpprogramma Inhoud zoeken uitvoeren in de Microsoft 365-compliancecentrum om te zoeken in postvakken en openbare mappen, SharePoint Online-sites, OneDrive voor Bedrijven-sites, Skype voor Bedrijven-gesprekken, Microsoft 365-groepen en Microsoft Teams- en Yammer-groepen. Met deze rol kan een gebruiker een schatting van de zoekresultaten krijgen en exportrapporten maken, maar er zijn andere rollen nodig om inhoudszoekacties te starten, zoals het bekijken, exporteren of verwijderen van zoekresultaten.
 
-Gebruikers aan wie de rol Compliance zoeken is toegewezen, maar de voorbeeldrol niet hebben, kunnen een voorbeeld bekijken van de resultaten van een zoekopdracht waarin de voorbeeldactie is gestart door een gebruiker die de voorbeeldrol heeft toegewezen. De gebruiker zonder de voorbeeldrol kan een voorbeeld van de resultaten bekijken tot twee weken nadat de eerste voorbeeldactie is gemaakt.
+In Inhoud zoeken en Core eDiscovery kunnen gebruikers die de rol Compliance zoeken hebben toegewezen, maar niet de voorbeeldrol hebben, een voorbeeld bekijken van de resultaten van een zoekopdracht waarin de voorbeeldactie is gestart door een gebruiker die de voorbeeldrol heeft toegewezen. De gebruiker zonder de voorbeeldrol kan een voorbeeld van de resultaten bekijken tot twee weken nadat de eerste voorbeeldactie is gemaakt.
 
-Op dezelfde manier kunnen gebruikers die de rol Compliance zoeken hebben toegewezen maar niet de rol Exporteren hebben, de resultaten downloaden van een zoekopdracht waarin de exportactie is gestart door een gebruiker die de rol Exporteren heeft toegewezen. De gebruiker zonder de rol Exporteren kan de resultaten van een zoekopdracht downloaden tot twee weken nadat de eerste exportactie is gemaakt. Daarna kunnen ze de resultaten alleen downloaden als iemand met de rol Exporteren de export opnieuw start.
+Op dezelfde manier kunnen gebruikers in Inhoud zoeken en Core eDiscovery die de rol Compliance zoeken hebben toegewezen, maar niet de rol Exporteren hebben, de resultaten downloaden van een zoekopdracht waarin de exportactie is gestart door een gebruiker die de rol Exporteren heeft toegewezen. De gebruiker zonder de rol Exporteren kan de resultaten van een zoekopdracht downloaden tot twee weken nadat de eerste exportactie is gemaakt. Daarna kunnen ze de resultaten alleen downloaden als iemand met de rol Exporteren de export opnieuw start.
 
-Zie Zoeken naar inhoud [in Office 365.](content-search.md)
+De respijtperiode van twee weken voor het bekijken en exporteren van zoekresultaten (zonder de bijbehorende zoek- en exportrollen) is niet van toepassing op Advanced eDiscovery. Aan gebruikers moeten de rollen Voorbeeld en Exporteren zijn toegewezen om inhoud in een voorbeeld te bekijken en te exporteren in Advanced eDiscovery.
 
 ### <a name="custodian"></a>Bewaarder
 
@@ -129,7 +129,7 @@ Zie Werken met beheerders [in](managing-custodians.md)Advanced eDiscovery.
 
 Met de rol kunnen gebruikers de resultaten van een inhoudszoekactie exporteren naar een lokale computer. Hiermee kunnen ze ook zoekresultaten voorbereiden op analyse in Advanced eDiscovery.
 
-Zie Zoekresultaten exporteren vanuit Microsoft 365 [compliancecentrum voor](export-search-results.md)meer informatie over het exporteren van zoekresultaten.
+Zie Zoekresultaten exporteren van Microsoft 365-compliancecentrum voor meer informatie over het exporteren van [zoekresultaten.](export-search-results.md)
 
 ### <a name="hold"></a>Wacht houden
 
@@ -147,7 +147,7 @@ Met deze rol kunnen gebruikers een lijst bekijken met items die zijn geretournee
 
 ### <a name="review"></a>Beoordelen
 
-Met deze rol hebben gebruikers toegang tot revisiesets in [Advanced eDiscovery.](overview-ediscovery-20.md) Gebruikers aan wie deze rol is toegewezen, kunnen de lijst met zaken zien en openen op de **pagina eDiscovery > Advanced** in het Microsoft 365 compliancecentrum waar ze lid van zijn. Nadat de gebruiker toegang heeft tot een Advanced eDiscovery, kunnen ze Sets **controleren** selecteren om toegang te krijgen tot casegegevens. Met deze rol kan de gebruiker geen voorbeeld bekijken van de resultaten van een verzamelingszoekactie die is gekoppeld aan de zaak of andere zoek- of casebeheertaken uitvoeren. Gebruikers met deze rol hebben alleen toegang tot de gegevens in een revisieset.
+Met deze rol hebben gebruikers toegang tot revisiesets in [Advanced eDiscovery.](overview-ediscovery-20.md) Gebruikers aan wie deze rol is toegewezen, kunnen de lijst met zaken zien en openen op de **pagina eDiscovery > Geavanceerd** in de Microsoft 365-compliancecentrum waarin ze lid zijn. Nadat de gebruiker toegang heeft tot een Advanced eDiscovery, kunnen ze Sets **controleren** selecteren om toegang te krijgen tot casegegevens. Met deze rol kan de gebruiker geen voorbeeld bekijken van de resultaten van een verzamelingszoekactie die is gekoppeld aan de zaak of andere zoek- of casebeheertaken uitvoeren. Gebruikers met deze rol hebben alleen toegang tot de gegevens in een revisieset.
 
 ### <a name="rms-decrypt"></a>RMS Decrypt
 
@@ -171,7 +171,7 @@ Met deze rol kunnen gebruikers gegevens bulksgewijs verwijderen die overeenkomen
   Add-RoleGroupMember "eDiscovery Manager" -Member <name of security group>
   ```
 
-    Exchange distributiegroepen en Microsoft 365 groepen worden niet ondersteund. U moet een beveiligingsgroep met e-mail gebruiken, die u kunt maken in Exchange Online PowerShell door het uitvoeren `New-DistributionGroup -Type Security` van . U kunt ook een beveiligingsgroep met e-mail maken (en leden toevoegen) in het Exchange beheercentrum of in het Microsoft 365 beheercentrum. Het kan tot 60 minuten duren nadat u deze hebt gemaakt, zodat er een nieuwe beveiligingsfunctie voor e-mail beschikbaar is om toe te voegen aan de rollengroep eDiscovery Managers. 
+    Exchange distributiegroepen en Microsoft 365 groepen worden niet ondersteund. U moet een beveiligingsgroep met e-mail gebruiken, die u kunt maken in Exchange Online PowerShell door het uitvoeren `New-DistributionGroup -Type Security` van . U kunt ook een beveiligingsgroep met e-mail maken (en leden toevoegen) in het Exchange of in het Microsoft 365-beheercentrum. Het kan tot 60 minuten duren nadat u deze hebt gemaakt, zodat er een nieuwe beveiligingsfunctie voor e-mail beschikbaar is om toe te voegen aan de rollengroep eDiscovery Managers. 
 
     Zoals eerder is aangegeven, kunt u van een beveiligingsgroep met e-mail geen eDiscovery-beheerder maken met de cmdlet **Add-eDiscoveryCaseAdmin** in Security & Compliance Center PowerShell. U kunt alleen afzonderlijke gebruikers toevoegen als eDiscovery-beheerders.
 

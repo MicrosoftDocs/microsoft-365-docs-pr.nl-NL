@@ -1,5 +1,5 @@
 ---
-title: De pagina E-mailentiteit van Microsoft Defender Office 365 (MDO)
+title: De pagina Microsoft Defender voor Office 365 e-mailentiteit
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Klanten van Microsoft Defender Office 365 E5 en P1 en P2 kunnen nu een 360-gradenweergave van elke e-mail met pagina met e-mailentiteit krijgen.
-ms.openlocfilehash: d2f5a5b20034ef22b8e3894885079609a9ad5874
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: 5621476f8f8f7270d241d642354ab174a25b8b37
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53083276"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53194989"
 ---
 # <a name="the-email-entity-page"></a>Entiteitspagina van e-mail
 
@@ -30,11 +30,11 @@ ms.locfileid: "53083276"
 - [Paginatabbladen voor e-mailentiteit gebruiken](#use-email-entity-page-tabs)
 - [Nieuw op de pagina e-mailentiteit](#new-to-the-email-entity-page)
 
-Beheerders van Microsoft Defender voor Office 365 (of MDO) E5 en MDO P1 en P2 hebben een 360 graden-weergave van e-mail met behulp van de pagina **E-mailentiteit.** Deze go-to-e-mailpagina is gemaakt om informatie over de [fly-out 'e-mailgegevens'](threat-explorer-views.md)van Threat Explorer te verbeteren.
+Beheerders van Microsoft Defender voor Office 365 E5 en Defender voor Office P1 en P2 hebben een 360 graden-weergave van e-mail via de pagina **E-mailentiteit.** Deze go-to-e-mailpagina is gemaakt om informatie over de [fly-out 'e-mailgegevens'](threat-explorer-views.md)van Threat Explorer te verbeteren.
 
 ## <a name="reach-the-email-entity-page"></a>De pagina e-mailentiteit bereiken
 
-De pagina e-mailentiteit is beschikbaar in de Microsoft 365 defender portal <https://security.microsoft.com> () bij **E-mail & Samenwerking** \> **Explorer.** Of als u rechtstreeks naar de **pagina Explorer wilt** gaan, gebruikt u <https://security.microsoft.com/threatexplorer> .
+De pagina e-mailentiteit is beschikbaar in de Microsoft 365 Defender portal <https://security.microsoft.com> () bij **E-mail & Samenwerkingsverkenner.** \>  Of als u rechtstreeks naar de **pagina Explorer wilt** gaan, gebruikt u <https://security.microsoft.com/threatexplorer> .
 
 Selecteer **in Verkenner** het onderwerp van een e-mailbericht dat u onderzoekt. Er wordt een gouden balk weergegeven boven aan de e-mail fly-out voor die e-mail. In deze uitnodiging voor de nieuwe pagina leest u 'Try out our new email entity page with enriched data...'. Selecteer om de nieuwe pagina weer te geven.
 

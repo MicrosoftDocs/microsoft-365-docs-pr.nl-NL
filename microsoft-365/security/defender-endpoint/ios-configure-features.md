@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: d32d40ac8ce086caedd53e0a69aac2a3025dc702
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 07905cc3f1b3bd4445199d7bddcdf3b45500bd5f
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842252"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53194947"
 ---
 # <a name="configure-microsoft-defender-for-endpoint-on-ios-features"></a>Microsoft Defender voor eindpunt configureren voor iOS-functies
 
@@ -32,7 +32,7 @@ ms.locfileid: "52842252"
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+> Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 > [!NOTE]
 > Defender voor Eindpunt in iOS zou een VPN gebruiken om de functie Webbeveiliging te bieden. Dit is geen gewone VPN en is een lokale/self-looping VPN die geen verkeer buiten het apparaat neemt.
@@ -65,6 +65,26 @@ Hoewel deze standaard is ingeschakeld, zijn er mogelijk bepaalde gevallen waarvo
 
 Apple iOS biedt geen ondersteuning voor meerdere VPN's voor het hele apparaat om tegelijk actief te zijn. Hoewel er meerdere VPN-profielen op het apparaat kunnen bestaan, kan er slechts één VPN tegelijk actief zijn.
 
+## <a name="configure-microsoft-defender-for-endpoint-risk-signal-in-app-protection-policy-mam"></a>Microsoft Defender configureren voor eindpuntrisicosignaal in app-beveiligingsbeleid (MAM)
+
+Microsoft Defender voor Eindpunt kan worden geconfigureerd voor het verzenden van bedreigingssignalen die moeten worden gebruikt in app-beveiligingsbeleid (APP, ook wel MAM genoemd) op iOS/iPadOS. Met deze mogelijkheid kunt u Microsoft Defender voor Eindpunt gebruiken om de toegang tot bedrijfsgegevens te beschermen tegen niet-geregistreerde apparaten.
+
+Stappen voor het instellen van app-beveiligingsbeleid met Microsoft Defender voor Eindpunt zijn als hieronder:
+
+1. Stel de verbinding in van uw Microsoft Endpoint Manager tenant met Microsoft Defender voor Eindpunt. Ga in [het Microsoft Endpoint Manager-beheercentrum](https://go.microsoft.com/fwlink/?linkid=2109431)naar **Tenant Administration** Connectors en tokens Microsoft Defender voor Eindpunt (onder Platform kruis) of Endpoint Security Microsoft Defender voor Eindpunt (onder Setup) en schakel de schakelaars in onder  >    >   App Protection   >   Policy Instellingen **voor iOS.**
+1. Kies Opslaan. De **verbindingsstatus** is nu ingesteld op **Ingeschakeld.**
+1. Beleid voor app-beveiliging maken: Nadat de installatie van de Microsoft Defender voor eindpuntconnector is voltooid, gaat u naar **Apps** App-beveiligingsbeleid (onder Beleid) om een nieuw beleid te maken of een bestaand beleid  >   bij te werken.
+1. Selecteer het platform, **apps, gegevensbescherming, Instellingen** voor Toegangsvereisten die uw organisatie voor uw beleid vereist.
+1. Onder **Voorwaarden voor voorwaardelijke** start Apparaat vindt u de instelling Max  >   **toegestaan apparaatbedreigingsniveau.** Dit moet zijn geconfigureerd op Laag, Gemiddeld, Hoog of Beveiligd. De acties die voor u beschikbaar zijn, zijn **Toegang blokkeren** of **Gegevens wissen.** Mogelijk ziet u een informatief dialoogvenster om ervoor te zorgen dat uw verbindingslijn is ingesteld voordat deze instelling van kracht wordt. Als de verbindingslijn al is ingesteld, kunt u dit dialoogvenster negeren.
+1. Werk af met Opdrachten en sla uw beleid op.
+
+Zie beleidsinstellingen voor [iOS-appbeveiliging](https://docs.microsoft.com/mem/intune/apps/app-protection-policy-settings-ios)voor meer informatie over mam- of appbeveiligingsbeleid.
+
+### <a name="deploying-microsoft-defender-for-endpoint-for-mam-or-on-unenrolled-devices"></a>Microsoft Defender voor Eindpunt implementeren voor MAM of op niet-geregistreerde apparaten
+
+Microsoft Defender voor Eindpunt op iOS maakt het scenario Voor app-beveiliging mogelijk en is beschikbaar in de Apple App Store.
+
+Eindgebruikers moeten de nieuwste versie van de app rechtstreeks vanuit de Apple App Store installeren.
 
 ## <a name="configure-compliance-policy-against-jailbroken-devices"></a>Compliancebeleid configureren voor jailbroken apparaten
 
@@ -86,12 +106,12 @@ Volg de onderstaande stappen om een compliancebeleid te maken tegen jailbroken a
     > [!div class="mx-imgBorder"]
     > ![Beleid Instellingen](images/ios-jb-settings.png)
 
-4. Selecteer in *de sectie Actie voor niet-naleving* de acties volgens uw vereisten en selecteer **Volgende.**
+4. Selecteer in **de sectie Actie voor niet-naleving** de acties volgens uw vereisten en selecteer **Volgende.**
 
     > [!div class="mx-imgBorder"]
     > ![Beleidsacties](images/ios-jb-actions.png)
 
-5. Selecteer in *de sectie* Opdrachten de gebruikersgroepen die u wilt opnemen voor dit beleid en selecteer **vervolgens Volgende**.
+5. Selecteer in **de sectie** Opdrachten de gebruikersgroepen die u wilt opnemen voor dit beleid en selecteer **vervolgens Volgende**.
 6. Controleer in **de sectie Controleren+Maken** of alle ingevoerde gegevens juist zijn en selecteer vervolgens **Maken.**
 
 ## <a name="configure-custom-indicators"></a>Aangepaste indicatoren configureren

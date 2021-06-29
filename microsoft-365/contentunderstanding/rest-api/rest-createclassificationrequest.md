@@ -11,12 +11,12 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: Gebruik REST API om een aanvraag te maken om een of meer bestanden te classificeren met behulp van een getraind model voor documentbegrip.
-ms.openlocfilehash: 6a218db181368c2837d570062b6101bc3bacfb05
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: 3a796bcdb38a9a6930b51f7d585febb69082732e
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52904179"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177079"
 ---
 # <a name="create-classification-request"></a>Classificatieaanvraag maken
 
@@ -35,17 +35,17 @@ Geen
 
 ## <a name="request-headers"></a>Aanvraagheaders
 
-| Koptekst | Waarde |
+| Header | Waarde |
 |--------|-------|
 |Accepteren|application/json;odata=verbose|
-|Inhoudstype|application/json;odata=verbose;charset=utf-8|
+|Content-Type|application/json;odata=verbose;charset=utf-8|
 |x-requestdigest|De juiste samenvatting voor deze site|
 
 ## <a name="request-body"></a>Aanvraagtekst
 
 |Naam    |Type   |Omschrijving |
 |--------|-------|------------|
-|_metagegevens|reeks |Stel de objectmeta in op de SPO. Gebruik altijd de waarde: {"type": "Microsoft.Office.Server.ContentCenter.SPMachineLearningModelEntityData"}. |
+|_metagegevens|reeks |Stel de objectmeta in op de SPO. Gebruik altijd de waarde: {"type": "Microsoft.Office.Server.ContentCenter.SPMachineLearningWorkItemEntityData"}. |
 |TargetSiteId|guid|De site-id waar het te classificeren bestand zich bevindt.|
 |TargetWebId|guid|De web-id waar het te classificeren bestand zich bevindt.|
 |TargetUniqueId|guid|De id van het bestand dat moet worden geclassificeerd.|
@@ -54,7 +54,7 @@ Geen
 
 | Naam   | Type  | Omschrijving|
 |--------|-------|------------|
-|201 gemaakt| |Succes|
+|201 gemaakt| |Geslaagd|
 
 ## <a name="examples"></a>Voorbeelden
 
@@ -65,7 +65,7 @@ Geen
 ```
 {
     "__metadata": {
-        "type": "Microsoft.Office.Server.ContentCenter.SPMachineLearningModelEntityData"
+        "type": "Microsoft.Office.Server.ContentCenter.SPMachineLearningWorkItemEntityData"
     },
     "TargetSiteId": "f686e63b-aba7-48e5-97c7-68c4c1df292f",
     "TargetWebId": "66d6b64d-6f88-4dd9-b3db-47e6f00c53e8",
@@ -79,4 +79,4 @@ Geen
 
 ## <a name="see-also"></a>Zie ook
 
-[Syntex model voor documentbegrip REST API](syntex-model-rest-api.md)
+[REST API van Syntex-model voor documentbegrip](syntex-model-rest-api.md)

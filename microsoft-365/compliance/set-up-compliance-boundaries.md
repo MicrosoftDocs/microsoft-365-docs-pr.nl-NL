@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: Lees hoe u compliancegrenzen kunt gebruiken om logische grenzen te maken die bepalen welke gebruikersinhoudslocaties een eDiscovery-manager kan zoeken in Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 23ff50b9cd0ab0178962f7be9f1cedfbd6a7a1f7
-ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
+ms.openlocfilehash: be857277d36d95ac1cd974ccb0c87f2048798450
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53022340"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53194707"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations"></a>Compliancegrenzen instellen voor eDiscovery-onderzoeken
 
@@ -205,7 +205,7 @@ Met zoekmachtigingenfilters kunt u ook bepalen waar inhoud wordt gerouteerd voor
    Om het concept te vereenvoudigen, bepaalt de **parameter** Regio het datacenter dat wordt gebruikt voor het zoeken naar inhoud in SharePoint en OneDrive. Dit geldt niet voor het zoeken naar inhoud in Exchange omdat Exchange inhoudszoekingen niet gebonden zijn aan de geografische locatie van datacenters. Dezelfde parameterwaarde regio **kan** ook het datacenter dicteren waaruit de export wordt gerouteerd. Dit is vaak nodig om de verplaatsing van gegevens tussen geografische boarders te controleren.
 
 > [!NOTE]
-> Als u een Advanced eDiscovery gebruikt, bepaalt de **parameter** Regio niet het gebied waaruit gegevens worden geëxporteerd. Gegevens worden geëxporteerd vanuit het primaire datacenter van de organisatie. Ook is het zoeken naar inhoud in SharePoint en OneDrive niet gebonden aan de geografische locatie van datacenters. Alle datacenters worden doorzocht. Zie Overzicht van de Advanced eDiscovery oplossing in Microsoft 365 voor meer Advanced eDiscovery informatie over [Microsoft 365.](overview-ediscovery-20.md)
+> Als u een Advanced eDiscovery gebruikt, bepaalt de **parameter** Regio niet het gebied waaruit gegevens worden geëxporteerd. Gegevens worden geëxporteerd vanaf de centrale locatie van de organisatie. Ook is het zoeken naar inhoud in SharePoint en OneDrive niet gebonden aan de geografische locatie van datacenters. Alle datacenters worden doorzocht. Zie Overzicht van de Advanced eDiscovery oplossing in Microsoft 365 voor meer Advanced eDiscovery informatie over [Microsoft 365.](overview-ediscovery-20.md)
 
 Hier zijn voorbeelden van het gebruik van de parameter **Regio** bij het maken van zoekmachtigingsfilters voor compliancegrenzen. Hier wordt ervan uitgenomen dat de dochteronderneming Fourth Coffee zich in Noord-Amerika bevindt en dat Coho Winery zich in Europa bevindt. 
   
@@ -225,7 +225,9 @@ Houd rekening met de volgende zaken bij het zoeken en exporteren van inhoud in m
 
 - Bij het zoeken naar inhoud in SharePoint en OneDrive, wordt met de **parameter** Regio gezocht naar de primaire of satellietlocatie waar eDiscovery-manager eDiscovery-onderzoeken zal uitvoeren. Als een eDiscovery-manager zoekt naar SharePoint en OneDrive sites buiten de regio die is opgegeven in het filter voor zoekmachtigingen, worden er geen zoekresultaten geretourneerd.
 
-- Wanneer u zoekresultaten exporteert, wordt inhoud van alle inhoudslocaties (inclusief Exchange, Skype voor Bedrijven, SharePoint, OneDrive en andere services die u kunt zoeken met het hulpprogramma Inhoud zoeken) geüpload naar de Azure Storage-locatie in het datacenter dat is opgegeven door de parameter **Regio.** Dit helpt organisaties binnen de naleving te blijven door niet toe te staan dat inhoud wordt geëxporteerd over gecontroleerde randen. Als er geen regio is opgegeven in het filter voor zoekmachtigingen, wordt inhoud geüpload naar het primaire datacenter van de organisatie.
+- Wanneer u zoekresultaten exporteert vanuit Core eDiscovery, wordt inhoud van alle inhoudslocaties (inclusief Exchange, Skype voor Bedrijven, SharePoint, OneDrive en andere services die u kunt zoeken met behulp van het hulpprogramma Inhoud zoeken) geüpload naar de Azure Storage-locatie in het datacenter dat is opgegeven door de parameter **Regio.** Dit helpt organisaties binnen de naleving te blijven door niet toe te staan dat inhoud wordt geëxporteerd over gecontroleerde randen. Als er geen regio is opgegeven in het filter voor zoekmachtigingen, wordt inhoud geüpload naar het primaire datacenter van de organisatie.
+
+  Wanneer u inhoud exporteert vanuit Advanced eDiscovery, kunt u niet bepalen waar inhoud wordt geüpload met behulp van de parameter **Regio.** Inhoud wordt geüpload naar Azure Storage locatie in een datacenter op de centrale locatie van uw organisatie. Zie voor een lijst met geografische locaties op basis van uw centrale locatie [Microsoft 365 Multi-Geo eDiscovery-configuratie.](../enterprise/multi-geo-ediscovery-configuration.md)
 
 - U kunt een bestaand zoekmachtigingsfilter bewerken om het gebied toe te voegen of te wijzigen door de volgende opdracht uit te voeren:
 
@@ -275,13 +277,13 @@ Houd rekening met de volgende beperkingen bij het beheren van eDiscovery-gevalle
 
 ## <a name="frequently-asked-questions"></a>Veelgestelde vragen
 
-**Wie kan zoekmachtigingenfilters maken en beheren (met New-ComplianceSecurityFilter en Set-ComplianceSecurityFilter cmdlets)?**
+**Wie kunt u zoekmachtigingenfilters maken en beheren (met New-ComplianceSecurityFilter en Set-ComplianceSecurityFilter cmdlets)?**
   
-Als u filters voor zoekmachtigingen wilt maken, weergeven en wijzigen, moet u lid zijn van de rollengroep Organisatiebeheer in het Microsoft 365-compliancecentrum.
+Als u zoekmachtigingenfilters wilt maken, weergeven en wijzigen, moet u lid zijn van de rollengroep Organisatiebeheer in de Microsoft 365-compliancecentrum.
   
 **Als een eDiscovery-manager is toegewezen aan meer dan één rollengroep die meerdere agentschappen omvat, hoe zoeken ze dan naar inhoud in het ene of het andere bureau?**
   
-De eDiscovery-manager kan parameters toevoegen aan de zoekquery die de zoekopdracht beperken tot een specifiek bureau. Als een organisatie bijvoorbeeld de eigenschap **CustomAttribute10** heeft opgegeven om agentschappen van elkaar te onderscheiden, kunnen ze het volgende toevoegen aan hun zoekquery om postvakken en OneDrive-accounts in een specifiek bureau te doorzoeken:  `CustomAttribute10:<value>` .
+De eDiscovery-manager kan parameters toevoegen aan de zoekquery die de zoekopdracht beperken tot een specifiek bureau. Als een organisatie bijvoorbeeld de eigenschap **CustomAttribute10** heeft opgegeven om agentschappen van elkaar te onderscheiden, kunnen ze het volgende toevoegen aan hun zoekquery om postvakken en OneDrive-accounts in een specifiek bureau te doorzoeken: `CustomAttribute10:<value>` .
   
 **Wat gebeurt er als de waarde van het kenmerk dat wordt gebruikt als compliancekenmerk in een zoekmachtigingsfilter wordt gewijzigd?**
   
@@ -289,16 +291,16 @@ Het duurt maximaal drie dagen voordat een zoekmachtigingsfilter de nalevingsgren
   
 **Kan een eDiscovery-manager inhoud zien van twee afzonderlijke compliancegrenzen?**
   
-Ja, dit kan worden gedaan bij het zoeken naar Exchange-postvakken door de eDiscovery-manager toe te voegen aan rollengroepen die zichtbaarheid hebben voor beide bureaus. Wanneer u echter naar SharePoint-sites en OneDrive-accounts zoekt, kan een eDiscovery-manager alleen zoeken naar inhoud in verschillende compliancegrenzen als de agentschappen zich in dezelfde regio of dezelfde geografische locatie bevinden. **Opmerking:** Deze beperking voor sites is niet van toepassing in Advanced eDiscovery omdat het zoeken naar inhoud in SharePoint en OneDrive niet is gebonden door geografische locatie.
+Ja, dit kan worden gedaan bij het zoeken Exchange postvakken door de eDiscovery-manager toe te voegen aan rollengroepen die zichtbaarheid hebben voor beide bureaus. Wanneer u echter SharePoint sites en OneDrive-accounts zoekt, kan een eDiscovery-manager alleen zoeken naar inhoud in verschillende compliancegrenzen als de agentschappen zich in dezelfde regio of dezelfde geografische locatie bevinden. **Opmerking:** Deze beperking voor sites is niet van toepassing op Advanced eDiscovery omdat het zoeken naar inhoud in SharePoint en OneDrive niet is gebonden door geografische locatie.
   
-**Werken zoekmachtigingenfilters voor eDiscovery-bewaarbeleid, Microsoft 365-bewaarbeleid of DLP?**
+**Werken zoekmachtigingenfilters voor eDiscovery-case holds, Microsoft 365 bewaarbeleid of DLP?**
   
 Nee, op dit moment niet.
   
-**Als ik een regio opgeeft om te bepalen waar inhoud wordt geëxporteerd, maar ik geen SharePoint-organisatie in die regio heb, kan ik dan nog steeds zoeken in SharePoint?**
+**Als ik een regio opgeeft om te bepalen waar inhoud wordt geëxporteerd, maar ik heb geen SharePoint organisatie in die regio, kan ik dan nog steeds zoeken SharePoint?**
   
 Als het gebied dat is opgegeven in het filter voor zoekmachtigingen niet bestaat in uw organisatie, wordt het standaardgebied doorzocht.
   
 **Wat is het maximum aantal zoekmachtigingenfilters dat kan worden gemaakt in een organisatie?**
   
-Er is geen limiet voor het aantal zoekmachtigingenfilters dat in een organisatie kan worden gemaakt. De zoekprestaties worden echter beïnvloed wanneer er meer dan 100 zoekmachtigingenfilters zijn. Als u het aantal zoekmachtigingenfilters in uw organisatie zo klein mogelijk wilt houden, maakt u filters die regels voor Exchange, SharePoint en OneDrive zo veel mogelijk combineren tot één filter voor zoekmachtigingen.
+Er is geen limiet voor het aantal zoekmachtigingenfilters dat in een organisatie kan worden gemaakt. De zoekprestaties worden echter beïnvloed wanneer er meer dan 100 zoekmachtigingenfilters zijn. Als u het aantal zoekmachtigingenfilters in uw organisatie zo klein mogelijk wilt houden, maakt u filters die regels voor Exchange, SharePoint en OneDrive zo veel mogelijk combineren tot één zoekmachtigingsfilter.

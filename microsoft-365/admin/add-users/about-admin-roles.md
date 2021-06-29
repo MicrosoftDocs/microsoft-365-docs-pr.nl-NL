@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
 description: Beheerdersrollen zoals de Servicebeheerder worden toegewezen aan bedrijfsfuncties en geven machtigingen om specifieke taken uit te voeren in het beheercentrum.
-ms.openlocfilehash: 801a5a85479e431b46883c69e75b1ea909892ca1
-ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
+ms.openlocfilehash: 073e82971906ea817da9971ba737874711dc43d3
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "52964570"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177451"
 ---
 # <a name="about-admin-roles"></a>Informatie over beheerdersrollen
 
@@ -76,8 +76,8 @@ Waarschijnlijk hoeft u alleen de volgende rollen in uw organisatie toe te wijzen
 |Licentiebeheerder    |   Wijs de beheerdersrol Licenties toe aan gebruikers die licenties van gebruikers moeten toewijzen en verwijderen en hun gebruikslocatie moeten bewerken. <br/><br/> Licentiebeheerders kunnen ook: <br> - Licentietoewijzingen voor groepslicenties opnieuw verwerken <br> - Productlicenties toewijzen aan groepen voor groepslicenties  |
 |Office-apps beheerder    |   Wijs de beheerdersrol Office Apps toe aan gebruikers die de volgende taken moeten uitvoeren: <br> - Gebruik de Office-cloudbeleidservice om cloudgebaseerd beleid voor Office te maken en te beheren <br> - Serviceaanvragen maken en beheren <br> - Inhoud over nieuwe functies beheren die gebruikers in hun Office-apps zien   <br> - De servicestatus bewaken  |
 |Wachtwoordbeheerder  |   Wijs de beheerdersrol Wachtwoorden toe aan een gebruiker die wachtwoorden voor niet-beheerders en wachtwoordbeheerders opnieuw moet instellen.   |
-|Berichtencentrumlezer |   Wijs de Rapportenlezersrol toe aan gebruikers die het volgende moeten doen: <br> - Meldingen van het berichtencentrum monitoren <br> - Wekelijkse samenvattingen per e-mail ontvangen met posts en updates van het berichtencentrum <br> - Posts uit het berichtencentrum delen <br> - Alleen-lezen-toegang hebben tot Azure AD-services, zoals gebruikers en groepen|
-|Power Platform-beheerder |   Wijs de Rapportenlezersrol toe aan gebruikers die het volgende moeten doen: <br> - Alle beheerfuncties voor Power-apps, Power Automate en preventie van gegevensverlies beheren <br> - Serviceaanvragen maken en beheren <br> - De servicestatus monitoren  |
+|Berichtencentrumlezer |   Wijs de lezersrol Berichtencentrum toe aan gebruikers die het volgende moeten doen: <br> - Meldingen van het berichtencentrum monitoren <br> - Wekelijkse samenvattingen per e-mail ontvangen met posts en updates van het berichtencentrum <br> - Posts uit het berichtencentrum delen <br> - Alleen-lezen-toegang hebben tot Azure AD-services, zoals gebruikers en groepen|
+|Power Platform-beheerder |   Wijs de beheerdersrol Power Platform toe aan gebruikers die het volgende moeten doen: <br> - Alle beheerfuncties voor Power-apps, Power Automate en preventie van gegevensverlies beheren <br> - Serviceaanvragen maken en beheren <br> - De servicestatus monitoren  |
 |Rapportenlezer |   Wijs de Rapportenlezersrol toe aan gebruikers die het volgende moeten doen: <br> - Gebruiksgegevens en de activiteitenrapporten bekijken in het Microsoft 365-beheercentrum <br> - Toegang krijgen tot het Power BI-inhoudspakket voor ingebruikname <br> - Toegang krijgen tot aanmeldrapporten en -activiteit in Azure AD <br> - Gegevens bekijken die worden geretourneerd door de Microsoft Graph-rapportage-API|
 |Serviceondersteuningsbeheer   |   Wijs de beheerdersrol Serviceondersteuning als een extra rol toe aan beheerders of gebruikers die het volgende moeten doen als aanvulling op hun normale beheerdersrol: <br> - Serviceaanvragen openen en beheren <br> - Berichten in het berichtencentrum bekijken en delen <br> - De servicestatus bewaken   |
 |SharePoint-beheerder    |   Wijs de SharePoint-beheerdersrol toe aan gebruikers die het SharePoint Online-beheercentrum moeten openen en beheren. <br><br>SharePoint-beheerders kunnen ook het volgende doen: <br> - Sites maken en verwijderen <br> - Siteverzamelingen en wereldwijde SharePoint-instellingen beheren   |

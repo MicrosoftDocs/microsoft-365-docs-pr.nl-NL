@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: e1da26c6-2d39-4379-af6f-4da213218408
 description: In dit artikel leert u meer over routeringsvereisten, circuits en routeringsdomeinen voor Azure ExpressRoute voor gebruik met Office 365.
-ms.openlocfilehash: b455ed7e53b3018babb1abd58919a077fb9d0685
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: b27e3cfe41af8cf5e444f1221f1cee2e3bbf5826
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687167"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53194791"
 ---
 # <a name="routing-with-expressroute-for-office-365"></a>Routeren met ExpressRoute voor Office 365
 
@@ -85,14 +85,6 @@ Als Microsoft voor deze bi-directionele verkeersstromen terug naar uw netwerk wi
 
 Wanneer u een peeringrelatie configureert met behulp van het microsoft-peeringrouteringsdomein en wordt goedgekeurd voor de juiste toegang, kunt u alle PaaS- en SaaS-services zien die beschikbaar zijn via ExpressRoute. De Office 365 services die zijn ontworpen voor ExpressRoute, kunnen worden beheerd met [BGP-community's](./bgp-communities-in-expressroute.md) of [routefilters.](/azure/expressroute/how-to-routefilter-portal)
   
-Andere toepassingen, zoals Office 365 Video, is een Office 365 toepassing; Office 365 Video bestaat echter uit drie verschillende onderdelen: de portal, de streamingservice en het netwerk voor inhoudslevering. De portal woont binnen SharePoint Online, de streamingservice Azure Media Services en het netwerk voor het leveren van inhoud binnen de Azure CDN. In de volgende tabel worden deze onderdelen beschreven.
-
-|**Onderdeel**|**Onderliggende toepassing**|**Opgenomen in SharePoint Online BGP-community?**|**Gebruik**|
-|:-----|:-----|:-----|:-----|
-|Office 365 Videoportal  <br/> |SharePoint Online  <br/> |Ja  <br/> |Configuratie, uploaden  <br/> |
-|Office 365 Videostreamingservice  <br/> |Azure Media Services  <br/> |Nee  <br/> |Streamingservice, die wordt gebruikt voor het geval de video niet beschikbaar is in de CDN  <br/> |
-|Office 365 Netwerk voor het leveren van video-inhoud  <br/> |Azure CDN  <br/> |Nee  <br/> |Primaire bron van video downloaden/streamen. [Meer informatie over Office 365 videonetwerken.](https://support.office.com/article/Office-365-Video-networking-Frequently-Asked-Questions-FAQ-2bed67a1-4052-49ff-a4ce-b7e6530eb98e)  <br/> |
-
 Elk van de Office 365 functies die beschikbaar zijn met Microsoft-peering, worden weergegeven in het artikel Office 365 eindpunten op [toepassingstype](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) en FQDN. De reden voor het gebruik van FQDN in de tabellen is dat klanten verkeer kunnen beheren met PAC-bestanden of andere proxyconfiguraties, zie onze handleiding voor het beheren van [Office 365](./managing-office-365-endpoints.md) eindpunten, bijvoorbeeld PAC-bestanden.
   
 In sommige situaties hebben we een jokertekendomein gebruikt waarbij een of meer sub-FQDN's anders worden aangekondigd dan het jokertekendomein op een hoger niveau. Dit gebeurt meestal wanneer het jokerteken een lange lijst met servers vertegenwoordigt die allemaal worden aangekondigd bij ExpressRoute en internet, terwijl een kleine subset bestemmingen alleen wordt aangekondigd op internet of omgekeerd. Raadpleeg de onderstaande tabellen om te begrijpen waar de verschillen zijn.

@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 077411e5af5825efcf81d19ce8cb72ef850ae17b
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: 7243e8f6fad225e6c4570184736e8d6588466d0a
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054318"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53194959"
 ---
 # <a name="intune-based-deployment-for-microsoft-defender-for-endpoint-on-macos"></a>Intune-implementatie voor Microsoft Defender voor Eindpunt op macOS
 
@@ -101,12 +101,12 @@ Dit profiel bevat een licentiegegevens voor Microsoft Defender voor Eindpunt, zo
     > [!div class="mx-imgBorder"]
     > ![Aangepaste configuratieprofiel maken](images/mdatp-6-systemconfigurationprofiles-1.png)
 
-1. Kies een naam voor het profiel, bijvoorbeeld 'MDE onboarding for macOS'. Klik op **Volgende**.
+1. Kies een naam voor het profiel, bijvoorbeeld 'Defender or Endpoint onboarding for macOS'. Klik op **Volgende**.
 
     > [!div class="mx-imgBorder"]
     > ![Aangepast configuratieprofiel - naam](images/mdatp-6-systemconfigurationprofiles-2.png)
 
-1. Kies een naam voor de naam van het configuratieprofiel, bijvoorbeeld 'MDE onboarding for macOS'.
+1. Kies een naam voor de naam van het configuratieprofiel, bijvoorbeeld 'Defender for Endpoint onboarding for macOS'.
 1. Selecteer intune/WindowsDefenderATPOnboarding.xml die u hebt geëxtraheerd uit het onboarding-pakket hierboven als configuratieprofielbestand.
 
     > [!div class="mx-imgBorder"]
@@ -172,7 +172,7 @@ Dit profiel is nodig voor macOS 10.15 (Catalina) of ouder. Deze wordt genegeerd 
 
 Download [**fulldisk.mobileconfig vanuit**](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/fulldisk.mobileconfig) [onze GitHub repository.](https://github.com/microsoft/mdatp-xplat/tree/master/macos/mobileconfig/profiles)
 
-Volg de instructies voor [Onboarding blob](#onboarding-blob) van bovenaf, gebruik 'MDE Full Disk Access' als profielnaam en **downloadde fulldisk.mobileconfig** als configuratieprofielnaam.
+Volg de instructies voor [Onboarding blob](#onboarding-blob) van bovenaf, gebruik 'Defender for Endpoint Full Disk Access' als profielnaam en **downloadde fulldisk.mobileconfig** als configuratieprofielnaam.
 
 ### <a name="network-filter"></a>Netwerkfilter
 
@@ -180,7 +180,7 @@ Als onderdeel van de mogelijkheden voor endpointdetectie en -antwoord controleer
 
 Download [**netfilter.mobileconfig**](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/netfilter.mobileconfig) vanuit [onze GitHub repository.](https://github.com/microsoft/mdatp-xplat/tree/master/macos/mobileconfig/profiles)
 
-Volg de instructies voor [Onboarding blob](#onboarding-blob) van bovenaf, gebruik 'MDE Network Filter' als profielnaam en **downloadde netfilter.mobileconfig** als configuratieprofielnaam.
+Volg de instructies voor [Onboarding blob](#onboarding-blob) van bovenaf, gebruik 'Defender for Endpoint Network Filter' als profielnaam en **downloadde netfilter.mobileconfig** als configuratieprofielnaam.
 
 ### <a name="notifications"></a>Meldingen
 
@@ -188,7 +188,7 @@ Dit profiel wordt gebruikt om microsoft Defender voor Eindpunt op macOS en Micro
 
 Download [**notif.mobileconfig van**](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/notif.mobileconfig) [onze GitHub repository.](https://github.com/microsoft/mdatp-xplat/tree/master/macos/mobileconfig/profiles)
 
-Volg de instructies voor [Onboarding blob](#onboarding-blob) van bovenaf, gebruik 'MDE-meldingen' als profielnaam en downloadde **notif.mobileconfig** als configuratieprofielnaam.
+Volg de instructies voor [Onboarding blob](#onboarding-blob) van bovenaf, gebruik 'Defender for Endpoint Notifications' als profielnaam en **downloadde notif.mobileconfig** als configuratieprofielnaam.
 
 ### <a name="view-status"></a>Status weergeven
 
@@ -273,7 +273,7 @@ U hebt geen speciale inrichting nodig voor een Mac-apparaat buiten een [standaar
     > [!div class="mx-imgBorder"]
     > ![Pictogram Microsoft Defender voor eindpunt in schermafbeelding statusbalk](images/mdatp-icon-bar.png)
 
-## <a name="troubleshooting"></a>Problemen oplossen
+## <a name="troubleshooting"></a>Probleemoplossing
 
 Probleem: Er is geen licentie gevonden.
 

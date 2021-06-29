@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: Lees wat er gebeurt wanneer een onderzoek of juridische zaak die wordt ondersteund door een Advanced eDiscovery zaak wordt gesloten of verwijderd.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7b11faa2ccdb44fca916b2f602d5120adadf1739
-ms.sourcegitcommit: 4f6ef4cd09c3ed36dc0be3702b0636bad6cff8a9
+ms.openlocfilehash: efbcbe34e6d7d8b564bcfa0cf9bbd8a1fbb59709
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52657637"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53194626"
 ---
 # <a name="close-or-delete-an-advanced-ediscovery-case"></a>Een Advanced eDiscovery sluiten of verwijderen
 
@@ -36,7 +36,7 @@ Dit gebeurt er als u een Advanced eDiscovery sluit:
 
 - Als u een zaak sluit, worden alleen de aan die zaak gekoppelde insluiten uitgeschakeld. Als andere ingehouden eDiscovery's op een inhoudslocatie (zoals een procesovergang, core eDiscovery-bezit of een andere Advanced eDiscovery-zaak) worden bewaard, blijven deze in stand.
 
-- De zaak wordt nog steeds weergegeven op de eDiscovery-pagina in het Microsoft 365 compliancecentrum. De details, bewaart, zoekt en leden van een gesloten zaak blijven behouden.
+- De zaak wordt nog steeds weergegeven op de pagina eDiscovery in de Microsoft 365-compliancecentrum. De details, bewaart, zoekt en leden van een gesloten zaak blijven behouden.
 
 - U kunt een zaak bewerken nadat deze is gesloten. U kunt bijvoorbeeld leden toevoegen of verwijderen, zoekopdrachten maken, zoekresultaten exporteren en zoekresultaten voorbereiden voor analyse in Advanced eDiscovery. Het primaire verschil tussen actieve en gesloten zaken is dat deze zijn uitgeschakeld wanneer een zaak wordt gesloten.
 
@@ -46,9 +46,9 @@ Een zaak sluiten:
 
 2. Klik op **Instellingen** tabblad Onder **Hoofdgegevens** op **Selecteren.**
 
-3. Klik onder aan de **flyoutpagina Hoofdgegevens** op (**...**) **Meer opties** en klik vervolgens op **Zaak sluiten.**
+   ![Toegang tot de flyoutpagina met hoofdgegevens in een Advanced eDiscovery hoofdzaak](..\media\AeDSelectCaseInformation.png) 
 
-   ![Optie in het menu Meer opties om een Advanced eDiscovery sluiten](..\Media\CloseAdvancedeDiscoveryCase.png)
+3. Klik onder aan de **flyoutpagina Hoofdgegevens** op **Acties** en klik vervolgens op **Hoofd zaak sluiten.**
 
    Het kan tot 60 minuten duren voordat het sluitingsproces is voltooid.
 
@@ -62,15 +62,13 @@ Een gesloten zaak opnieuw openen:
 
 2. Klik op **Instellingen** tabblad Onder **Hoofdgegevens** op **Selecteren.**
 
-3. Klik onder aan de **flyoutpagina Hoofdgegevens** op (**...**) **Meer opties** en klik vervolgens op **Zaak opnieuw openen.**
-
-   ![Optie in het menu Meer opties om een nieuwe Advanced eDiscovery openen](..\Media\ReopenAdvancedeDiscoveryCase.png)
+3. Klik onder aan de **flyoutpagina Hoofdgegevens** op **Acties** en klik vervolgens op **Hoofd zaak opnieuw openen.**
 
    Het kan tot 60 minuten duren voordat het heropeningsproces is voltooid.
 
 ## <a name="delete-a-case"></a>Een zaak verwijderen
 
-U kunt zowel actieve als gesloten Advanced eDiscovery verwijderen. Wanneer u een zaak verwijdert, worden alle onderdelen die aan de zaak zijn gekoppeld, zoals de lijst met bewaarders, communicatie, zoekopdrachten, revisiesets en exportklus, verwijderd. De zaak wordt verwijderd uit de lijst met zaken op **de** Advanced eDiscovery pagina in het Microsoft 365 compliancecentrum. U kunt een verwijderde zaak niet herstellen of opnieuw openen.
+U kunt zowel actieve als gesloten Advanced eDiscovery verwijderen. Wanneer u een zaak verwijdert, worden alle onderdelen die aan de zaak zijn gekoppeld, zoals de lijst met bewaarders, communicatie, zoekopdrachten, revisiesets en exportklus, verwijderd. De zaak wordt verwijderd uit de lijst met zaken op **de** Advanced eDiscovery pagina in de Microsoft 365-compliancecentrum. U kunt een verwijderde zaak niet herstellen of opnieuw openen.
 
 > [!NOTE]
 > In scenario's voor gegevensmortage kunt u alleen items in een revisieset verwijderen door het Advanced eDiscovery verwijderen. Andere 'zoek- en verwijdermethoden' verwijderen geen items uit een revisieset.
@@ -91,6 +89,5 @@ Een zaak verwijderen:
 
 2. Klik op **Instellingen** tabblad Onder **Hoofdgegevens** op **Selecteren.**
 
-3. Klik onder aan de **flyoutpagina Hoofdgegevens** op (**...**) **Meer opties** en klik vervolgens op **Case verwijderen.**
+3. Klik onder aan de **flyoutpagina Hoofdgegevens** op **Acties** en klik vervolgens op **Hoofd zaak verwijderen.**
 
-   ![Optie in het menu Meer opties om een Advanced eDiscovery verwijderen](..\Media\DeleteAdvancedeDiscoveryCase.png)

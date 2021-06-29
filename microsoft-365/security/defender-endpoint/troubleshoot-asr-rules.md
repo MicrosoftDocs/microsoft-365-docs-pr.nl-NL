@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c043e97d6c02e4f41d000e9ce8cfea4a0950252a
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 65e3e8d1baef7ca4440824c9a262f0b5f696b657
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52246059"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53194743"
 ---
 # <a name="report-and-troubleshoot-microsoft-defender-for-atp-asr-rules"></a>Microsoft Defender voor ATP ASR-regels rapporteren en oplossen
 
@@ -42,7 +42,7 @@ Hier is een schermafbeelding van het Microsoft 365 beveiligingscentrum (onder **
 
 Een van de krachtigste functies van Microsoft Defender voor Eindpunt is geavanceerd zoeken. Als u niet bekend bent met geavanceerde jacht, verwijst u proactief [naar bedreigingen met geavanceerde jacht.](advanced-hunting-overview.md)
 
-Advanced hunting is een op query's gebaseerd (Kusto Query Language) threat-hunting tool waarmee u tot 30 dagen van de vastgelegde (onbewerkte) gegevens kunt verkennen, die MDE Endpoint Detection and Response (EDR) van al uw machines verzamelt. Door middel van geavanceerde jacht kunt u gebeurtenissen proactief controleren om interessante indicatoren en entiteiten te vinden. De flexibele toegang tot gegevens helpt ongebreideld zoeken naar bekende en potentiële bedreigingen.
+Geavanceerd zoeken is een op query's gebaseerd hulpprogramma (Kusto Query Language) waarmee u tot 30 dagen van de vastgelegde (onbewerkte) gegevens kunt verkennen, die door Defender for Endpoint van uw apparaten worden verzameld. Door middel van geavanceerde jacht kunt u gebeurtenissen proactief controleren om interessante indicatoren en entiteiten te vinden. De flexibele toegang tot gegevens helpt ongebreideld zoeken naar bekende en potentiële bedreigingen.
 
 Door middel van geavanceerd zoeken is het mogelijk om ASR-regelsgegevens op te halen, rapporten te maken en uitgebreide informatie te krijgen over de context van een bepaalde ASR-regelcontrole of -gebeurtenis te blokkeren.
 

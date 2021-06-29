@@ -19,12 +19,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0cf2d19b06dc1cce154785d8c42742fdc12d3259
-ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
+ms.openlocfilehash: 79d736330a40d33f5334196d165e72f487b6d959
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53108329"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53194779"
 ---
 # <a name="evaluate-microsoft-defender-for-office-365"></a>Microsoft Defender evalueren voor Office 365
 
@@ -50,7 +50,7 @@ In de evaluatiemodus [Safe bijlagen,](safe-attachments.md) [Safe koppelingen
 
 Als onderdeel van de installatie configureert de evaluatiemodus ook [Verbeterde filtering voor verbindingslijnen.](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors) De filternauwkeurigheid wordt verbeterd door IP-adres- en afzendergegevens te behouden, die anders verloren gaan wanneer e-mail door een e-mailbeveiligingsgateway (ESG) voor Defender voor Office 365. Verbeterde filtering voor connectors Exchange Online Protection verbetert ook de filternauwkeurigheid voor uw bestaande EOP-beleid (EOP) tegen spam en anti-phishingbeleid.
 
-Verbeterde filtering voor connectors verbetert de filternauwkeurigheid, maar kan de bezorging van bepaalde berichten wijzigen als u een ESG voor Defender voor Office 365 hebt en op dit moment EOP-filtering niet overbrugt. Het effect is beperkt tot EOP-beleid. MDO-beleid dat is ingesteld als onderdeel van de evaluatie, wordt gemaakt in de niet-afdwingingsmodus. Als u de potentiële productie-impact wilt minimaliseren, kunt u alle EOP-filtering omzeilen door een regel voor e-mailstroom (ook wel transportregel genoemd) te maken om het betrouwbaarheidsniveau voor spam (SCL) van berichten in te stellen op -1. Zie [Regels voor e-mailstroom gebruiken om het betrouwbaarheidsniveau voor spam (SCL) in](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-set-scl)te stellen in berichten in Exchange Online voor meer   informatie.
+Verbeterde filtering voor connectors verbetert de filternauwkeurigheid, maar kan de bezorging van bepaalde berichten wijzigen als u een ESG voor Defender voor Office 365 hebt en op dit moment EOP-filtering niet overbrugt. Het effect is beperkt tot EOP-beleid. Defender voor Office 365 beleidsregels die zijn ingesteld als onderdeel van de evaluatie, worden gemaakt in de niet-afdwingingsmodus. Als u de potentiële productie-impact wilt minimaliseren, kunt u alle EOP-filtering omzeilen door een regel voor e-mailstroom (ook wel transportregel genoemd) te maken om het betrouwbaarheidsniveau voor spam (SCL) van berichten in te stellen op -1. Zie [Regels voor e-mailstroom gebruiken om het betrouwbaarheidsniveau voor spam (SCL) in](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-set-scl)te stellen in berichten in Exchange Online voor meer   informatie.
 
 Wanneer de evaluatiemodus is ingesteld, wordt er dagelijks een rapport bijgewerkt met maximaal 90 dagen gegevens over de berichten die zouden zijn geblokkeerd als het beleid werd geïmplementeerd (bijvoorbeeld verwijderen, verzenden naar ongewenste e-mail, quarantaine). Rapporten worden gegenereerd voor alle Defender-Office 365 en EOP-detecties. Ze worden samengevoegd per detectietechnologie (bijvoorbeeld imitatie) en kunnen worden gefilterd op tijdbereik. Daarnaast kunnen berichtenrapporten op aanvraag worden gemaakt om aangepaste draaiingen te maken of om deep dive-berichten te maken met Explorer.
 

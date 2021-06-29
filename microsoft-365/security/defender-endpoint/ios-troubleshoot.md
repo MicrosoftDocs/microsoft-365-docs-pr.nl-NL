@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 2f9d56b7e72befb8acddf6d9f810a7ba5cec1083
-ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
+ms.openlocfilehash: b82b6993ce9ed5a3f0f3e6e13e8a260a185c9730
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52694363"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53194971"
 ---
 # <a name="troubleshoot-issues-and-find-answers-to-faqs-on-microsoft-defender-for-endpoint-on-ios"></a>Problemen oplossen en antwoorden vinden op veelgestelde vragen op Microsoft Defender voor eindpunt in iOS
 
@@ -32,7 +32,7 @@ ms.locfileid: "52694363"
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+> Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 In dit onderwerp vindt u informatie over het oplossen van problemen die kunnen optreden wanneer u Microsoft Defender voor Eindpunt in iOS gebruikt.
 
@@ -58,7 +58,7 @@ Hoewel deze standaard is ingeschakeld, zijn er mogelijk bepaalde gevallen waarvo
 > [!NOTE]
 > Webbeveiliging is niet beschikbaar wanneer VPN is uitgeschakeld. Als u Webbeveiliging opnieuw wilt inschakelen, opent u de Microsoft Defender voor Eindpunt-app op het apparaat en klikt of tikt u op **Start VPN**.
 
-## <a name="issues-with-multiple-vpn-profiles"></a>Problemen met meerdere VPN-profielen
+## <a name="co-existence-with-multiple-vpn-profiles"></a>Co-existence met meerdere VPN-profielen
 
 Apple iOS biedt geen ondersteuning voor meerdere **VPN's** voor het hele apparaat om tegelijk actief te zijn. Hoewel er meerdere VPN-profielen op het apparaat kunnen bestaan, kan er slechts één VPN tegelijk actief zijn.
 
@@ -74,7 +74,11 @@ De gebruikte VPN is ook een lokale VPN en in tegenstelling tot een traditioneel 
 
 ## <a name="data-usage"></a>Gegevensgebruik
 
-Microsoft Defender for Endpoint gebruikt een lokale/lusback VPN om het webverkeer te controleren op schadelijke websites of verbindingen. Om deze reden kan het gegevensgebruik van Microsoft Defender voor eindpunten onjuist worden verantwoord. Het werkelijke gegevensgebruik door Microsoft Defender voor Eindpunt is niet significant en kleiner dan wat wordt weergegeven op de gegevensgebruiksgegevens Instellingen op het apparaat.
+Microsoft Defender for Endpoint gebruikt een lokale/lusback VPN om het webverkeer te controleren op schadelijke websites of verbindingen. Om deze reden kan het gegevensgebruik van Microsoft Defender voor eindpunten onjuist worden verantwoord. We hebben ook vastgesteld dat als het apparaat alleen op een mobiel netwerk is, het gegevensgebruik dat door de serviceprovider wordt gerapporteerd, zeer dicht bij het werkelijke verbruik ligt, terwijl apple in de Instellingen-app ongeveer 1,5x tot 2x aan werkelijke verbruikte gegevens laat zien.
+
+We hebben vergelijkbare waarnemingen met andere VPN-services en hebben dit gemeld bij Apple.
+
+Daarnaast is het essentieel dat Microsoft Defender voor Eindpunt up-to-date is met onze back-endservices om betere bescherming te bieden. We werken echter aan het optimaliseren van het gegevensgebruik door Microsoft Defender voor Eindpunt.
 
 ## <a name="report-unsafe-site"></a>Onveilige site rapporteren
 

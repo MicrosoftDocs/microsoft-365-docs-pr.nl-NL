@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 8297fac0f733b93b1d8e3eabb25eeee7b1e07acb
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: 5eca3b7e712b1fc5bdb876630c47bd24e73c7c76
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52821971"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53194683"
 ---
 # <a name="supported-operating-systems-platforms-and-capabilities---for-threat-and-vulnerability-management"></a>Ondersteunde besturingssystemen, platforms en mogelijkheden - voor Threat and Vulnerability Management
 
@@ -35,7 +35,7 @@ ms.locfileid: "52821971"
 - [Bedreiging en vulnerability management](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
+>Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
 
 Voordat u begint, moet u voldoen aan de volgende vereisten voor het besturingssysteem of platform voor Threat and Vulnerability Management zodat de activiteiten op uw apparaten correct worden verantwoord.
 
@@ -56,16 +56,16 @@ Windows Server 2008 R2 | Ja | Ja | Ja | Ja | Ja
 Windows Server 2012 R2 | Ja | Ja | Ja | Ja | Ja
 Windows Server 2016 | Ja | Ja | Ja | Ja | Ja
 Windows Server 2019 | Ja | Ja | Ja | Ja | Ja
-macOS 10.14 'Mojave' en hoger | Ja | Ja | Ja (voorbeeld) | Ja (voorbeeld) | Ja (voorbeeld)
-Red Hat Enterprise Linux 7.2 of hoger **(preview) (** \* Zie 'Belangrijk' bericht hieronder) | Ja | Ja | Ja | Ja | Ja
-CentOS 7.2 of hoger **(preview)** | Ja | Ja | Ja | Ja | Ja
-Ubuntu 16.04 LTS of hoger LTS **(preview)** | Ja | Ja | Ja | Ja | Ja
-Oracle Linux 7.2 of hoger **(preview)** | Ja | Ja | Ja | Ja | Ja
+macOS 10.14 'Mojave' en hoger | Ja | Ja | Ja | Ja | Ja 
+Red Hat Enterprise Linux 7.2 of hoger ( \* Zie 'Belangrijk' bericht hieronder) | Ja | Ja | Ja | Ja | Ja
+CentOS 7.2 of hoger | Ja | Ja | Ja | Ja | Ja
+Ubuntu 16.04 LTS of hoger LTS | Ja | Ja | Ja | Ja | Ja
+Oracle Linux 7.2 of hoger | Ja | Ja | Ja | Ja | Ja
 
 >[!IMPORTANT]
 > \* Red Hat Enterprise Linux: 'De beveiligingsgegevens die worden verstrekt en weergegeven als onderdeel van uw Microsoft Defender voor Endpoint-services, worden beschikbaar gesteld in de onbewerkte vorm', 'AS IS', van Red Hat, Inc., en zijn mogelijk niet up-to-date. De gegevens die toegankelijk zijn in de Red Hat Security Data API, worden gelicentieerd onder de Creative Commons Attribution 4.0 International License. U draagt het risico bij het gebruik van deze gegevens. Microsoft en haar externe leveranciers wijst alle aansprakelijkheid voor gevolgschade en andere indirecte schade en impliciete garanties af, met inbegrip van impliciete garanties van niet-inbreuk, verkoopbaarheid en geschiktheid voor een bepaald doel. © 2020 Red Hat. Alle rechten voorbehouden. © 2020 Microsoft. Alle rechten voorbehouden.'
 
-## <a name="related-articles"></a>Aanverwante artikelen
+## <a name="related-articles"></a>Verwante artikelen
 
 - [Overzicht van bedreigingen en vulnerability management](next-gen-threat-and-vuln-mgt.md)
 - [Vereisten & machtigingen](tvm-prerequisites.md)

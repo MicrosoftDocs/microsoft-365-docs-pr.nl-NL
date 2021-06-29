@@ -13,12 +13,12 @@ localization_priority: Normal
 description: Volg het pad van een binnenkomend bericht door de filtertack voor bedreigingen in Microsoft Defender voor Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e892ebe04887527cf57e4ea44f67c4aaa775b228
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 1113d04cabdabe2925242cb18dde78daf9ef6e2c
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683293"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53194803"
 ---
 # <a name="step-by-step-threat-protection-in-microsoft-defender-for-office-365"></a>Stapsgewijze bedreigingsbeveiliging in Microsoft Defender voor Office 365
 
@@ -51,7 +51,7 @@ Edge-blokken zijn ontworpen om automatisch te zijn. In het geval van onwaar posi
 
 Functies in afzenderinformatie zijn essentieel voor het opsporen van spam, bulksgewijs, imitatie en ongeautoriseerde spoofberichten, en zijn ook belangrijk voor phish-detectie. De meeste van deze functies kunnen afzonderlijk worden geconfigureerd.
 
-:::image type="content" source="../../media/mdo-filtering-stack/mdo-filter-stack-phase2.png" alt-text="Fase 2 van filteren in MDO is Sender intelligence.":::
+:::image type="content" source="../../media/mdo-filtering-stack/mdo-filter-stack-phase2.png" alt-text="Fase 2 van filteren in Defender voor Office 365 is Sender intelligence.":::
 
 1. **Triggers voor het opsporen** van accountcompromitteerden en waarschuwingen worden verhoogd wanneer een account afwijkende gedragingen heeft, in overeenstemming met compromissen. In sommige gevallen is het gebruikersaccount geblokkeerd en kan het geen e-mailberichten meer verzenden totdat het probleem is opgelost door het beveiligingsteam van een organisatie.
 
@@ -133,7 +133,7 @@ De laatste fase vindt plaats na de bezorging van e-mail of bestanden, met e-mail
 
 Het uiteindelijke diagram (zoals met alle onderdelen van het diagram) kan worden gewijzigd naarmate het product groeit *en zich ontwikkelt.* Bladwijzer voor deze pagina en gebruik de **feedbackoptie** die u onderaan vindt als u na updates wilt vragen. Voor uw records is dit de stapel met alle fasen in volgorde:
 
-:::image type="content" source="../../media/mdo-filtering-stack/mdo-filter-stack-phase5.png" alt-text="Alle fasen van filteren in MDO in volgorde, 1 tot en met 4.":::
+:::image type="content" source="../../media/mdo-filtering-stack/mdo-filter-stack-phase5.png" alt-text="Alle fasen van filteren in Defender voor Office 365 in volgorde, 1 tot en met 4.":::
 
 ## <a name="more-information"></a>Meer informatie
 

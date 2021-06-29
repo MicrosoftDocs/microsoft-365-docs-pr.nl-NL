@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 ROBOTS: NOINDEX
 description: Beheerders kunnen meer informatie krijgen over de proefversie van Microsoft Defender voor Office 365
-ms.openlocfilehash: ba01fa45ca9a4e2e5b3597378bf7ddafc8be3f56
-ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
+ms.openlocfilehash: 50060e36a0dd6d82ccbdf6d2bb8a00b2bf5e9d6d
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768744"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53195007"
 ---
 # <a name="about-the-microsoft-defender-for-office-365-trial"></a>Informatie over de proefversie van Microsoft Defender Office 365 microsoft defender
 
@@ -49,7 +49,7 @@ Met een proefabonnement kunnen organisaties de Defender eenvoudig instellen en c
 
 Deze beleidsregels gelden standaard voor alle gebruikers in de organisatie, maar beheerders kunnen het beleid tijdens of na de installatie aanpassen, zodat ze alleen van toepassing zijn op specifieke gebruikers.
 
-Tijdens de installatie is MDO-antwoordfunctionaliteit (gevonden in MDO P2 of equivalent) ook ingesteld voor de hele organisatie. Er is geen beleidsscoping vereist.
+Tijdens de installatie is de functie Defender voor Office 365 antwoord (te vinden in Defender voor Office 365 P2 of equivalent) ook ingesteld voor de hele organisatie. Er is geen beleidsscoping vereist.
 
 ## <a name="licensing"></a>Licenties
 
