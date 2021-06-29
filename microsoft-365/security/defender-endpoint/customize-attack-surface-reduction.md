@@ -14,12 +14,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 0705ba096c2aefc6bd089bd5fba80b055fd881dc
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: 6d2770dec270e2d1c1b9750387a0f07f82b357f9
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53055239"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177091"
 ---
 # <a name="customize-attack-surface-reduction-rules"></a>Regels voor het verminderen van aanvalsoppervlakken aanpassen
 
@@ -42,7 +42,11 @@ U kunt regels voor de beperking van de surface voor aanvallen instellen voor app
 - Windows 10 Pro, versie [1709](/windows/whats-new/whats-new-windows-10-version-1709) of hoger
 - Windows 10 Enterprise, versie [1709](/windows/whats-new/whats-new-windows-10-version-1709) of hoger
 - Windows Server, [versie 1803 (halfjaarlijks kanaal)](/windows-server/get-started/whats-new-in-windows-server-1803) of hoger
-- [Windows Server 2019](/windows-server/get-started-19/whats-new-19) U kunt group policy, PowerShell en Mobile Device Management (MDM) configuration service providers (CSP) gebruiken om deze instellingen te configureren.
+- [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
+
+U kunt group policy, PowerShell en Mobile Device Management (MDM) configuration service providers (CSP) gebruiken om deze instellingen te configureren.
+
+Zie [Vereisten](enable-attack-surface-reduction.md#requirements) in het artikel 'Attack Surface Reduction Rules inschakelen' voor informatie over ondersteunde besturingssystemen en aanvullende informatie over vereisten.
 
 ## <a name="exclude-files-and-folders"></a>Bestanden en mappen uitsluiten
 
@@ -66,21 +70,22 @@ Als u problemen ondervindt met regels voor het detecteren van bestanden die volg
 
 | Beschrijving van regel | GUID |
 |:----|:----|
+| Misbruik van uitgebuite, kwetsbare ondertekende stuurprogramma's blokkeren | `56a863a9-875e-4185-98a7-b882c64b5ce5` |
+| Adobe Reader blokkeren om onderliggende processen te maken | `7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c` |
 | Alle toepassingen Office voor het maken van onderliggende processen blokkeren | `D4F940AB-401B-4EFC-AADC-AD5F3C50688A` |
-| De uitvoering van mogelijk obfuscated scripts blokkeren | `5BEB7EFE-FD9A-4556-801D-275E5FFC04CC` |
-| Win32 API-oproepen blokkeren vanuit Office macro | `92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B` |
-| Voorkomen Office het maken van uitvoerbare inhoud | `3B576869-A4EC-4529-8536-B80A7769E899` |
-| Het Office blokkeren om code in andere processen te injecteren | `75668C1F-73B5-4CF0-BB93-3ECF5CB7CC84` |
-| JavaScript of VBScript blokkeren om gedownloade uitvoerbare inhoud te starten | `D3E037E1-3EB8-44C8-A917-57927947596D` |
+| Referenties van het subsysteem van de Windows lokale beveiligingsinstantie blokkeren (lsass.exe) | `9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2` |
 | Uitvoerbare inhoud van e-mailclient en webmail blokkeren | `BE9BA2D9-53EA-4CDC-84E5-9B1EEEE46550` |
 | Het uitvoeren van uitvoerbare bestanden blokkeren, tenzij ze voldoen aan een criteria voor gebruik, leeftijd of vertrouwde lijst | `01443614-cd74-433a-b99e-2ecdc07bfc25` |
-| Geavanceerde beveiliging tegen ransomware gebruiken | `c1db55ab-c21a-4637-bb3f-a12568109d35` |
-| Referenties van het subsysteem van de Windows lokale beveiligingsinstantie blokkeren (lsass.exe) | `9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2` |
+| De uitvoering van mogelijk obfuscated scripts blokkeren | `5BEB7EFE-FD9A-4556-801D-275E5FFC04CC` |
+| JavaScript of VBScript blokkeren om gedownloade uitvoerbare inhoud te starten | `D3E037E1-3EB8-44C8-A917-57927947596D` |
+| Voorkomen Office het maken van uitvoerbare inhoud | `3B576869-A4EC-4529-8536-B80A7769E899` |
+| Het Office blokkeren om code in andere processen te injecteren | `75668C1F-73B5-4CF0-BB93-3ECF5CB7CC84` |
+| Het Office communicatietoepassingen blokkeren om onderliggende processen te maken | `26190899-1602-49e8-8b27-eb1d0a1ce869` |
+| Persistentie blokkeren via WMI-gebeurtenisabonnement | `e6db77e5-3df2-4cf1-b95a-636979351e5b` |
 | Procescreaties blokkeren die afkomstig zijn van PSExec- en WMI-opdrachten | `d1e49aac-8f56-4280-b9ba-993a6d77406c` |
 | Niet-vertrouwde en niet-ondertekende processen blokkeren die worden uitgevoerd via USB | `b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4` |
-| Het Office communicatietoepassingen blokkeren om onderliggende processen te maken | `26190899-1602-49e8-8b27-eb1d0a1ce869` |
-| Adobe Reader blokkeren om onderliggende processen te maken | `7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c` |
-| Persistentie blokkeren via WMI-gebeurtenisabonnement | `e6db77e5-3df2-4cf1-b95a-636979351e5b` |
+| Win32 API-oproepen blokkeren vanuit Office macro | `92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B` |
+| Geavanceerde beveiliging tegen ransomware gebruiken | `c1db55ab-c21a-4637-bb3f-a12568109d35` |
 
 Zie het [onderwerp Aanvalsoppervlakverkorting](attack-surface-reduction.md) voor meer informatie over elke regel.
 
@@ -119,7 +124,7 @@ Gebruik [de CSP (Vendor/MSFT/Policy/Config/Defender/AttackSurfaceReductionOnlyEx
 
 U kunt de melding aanpassen voor wanneer een regel wordt geactiveerd en een app of bestand blokkeert. Zie het [Windows-beveiliging](/windows/security/threat-protection/windows-defender-security-center/windows-defender-security-center#customize-notifications-from-the-windows-defender-security-center) artikel.
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-topics"></a>Gerelateerde onderwerpen
 
 - [Aanvalsoppervlakken verminderen met regels voor het beperken van de surface van de aanval](attack-surface-reduction.md)
 - [Regels voor het verminderen van aanvalsoppervlakken inschakelen](enable-attack-surface-reduction.md)

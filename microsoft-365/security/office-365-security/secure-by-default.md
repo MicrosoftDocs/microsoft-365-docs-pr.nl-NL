@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: dansimp
 author: dansimp
 manager: dansimp
-ms.date: ''
+ms.date: 06/28/2021
 audience: ITPro
 ms.topic: conceptual
 localization_priority: Normal
@@ -17,12 +17,12 @@ ms.collection:
 description: Meer informatie over de standaardinstelling voor beveiliging in Exchange Online Protection (EOP)
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f197556426171b867b49781b38ea5f5116f80aa2
-ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
+ms.openlocfilehash: c737647202e82af0fc217c0eadb3e2573d13a9b1
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52861525"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177643"
 ---
 # <a name="secure-by-default-in-office-365"></a>Standaard beveiligd in Office 365
 
@@ -75,7 +75,7 @@ Anders gezegd: als beveiligingsservice handelen we namens u om te voorkomen dat 
 ## <a name="exceptions"></a>Uitzonderingen
 
 > [!NOTE]
-> In juli 2021 wordt beveiliging standaard uitgebreid tot Exchange regels voor e-mailstroom (ook wel transportregels genoemd). Als u e-mailstroomregels gebruikt om phishingsimulaties van derden of ongefilterde bezorging toe te staan [](configure-advanced-delivery.md) aan postvakken voor beveiligingsbewerkingen, moet u deze regels uiteindelijk verwijderen en overschakelen naar het geavanceerde bezorgingsbeleid wanneer de functie voor u _beschikbaar is._
+> In augustus 2021 wordt beveiliging standaard uitgebreid tot Exchange regels voor e-mailstroom (ook wel transportregels genoemd). Als u e-mailstroomregels gebruikt om phishingsimulaties van derden of ongefilterde bezorging toe te staan [](configure-advanced-delivery.md) aan postvakken voor beveiligingsbewerkingen, moet u deze regels uiteindelijk verwijderen en overschakelen naar het geavanceerde bezorgingsbeleid wanneer de functie voor u _beschikbaar is._
 
 De enige overschrijven die phishing met veel vertrouwen toestaat om filteren te omzeilen, zijn regels voor e-mailstroom. Zie E-mailstroomregels gebruiken om de SCL in berichten in te stellen als u regels voor e-mailstroom wilt gebruiken om filteren [te omzeilen.](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-set-scl)
 

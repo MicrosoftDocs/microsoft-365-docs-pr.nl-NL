@@ -18,18 +18,18 @@ ms.custom:
 search.appverid:
 - MET150
 description: Stel Basismobiliteit en beveiliging in om de mobiele apparaten van uw gebruikers te beveiligen en te beheren door acties uit te voeren, zoals een apparaat op afstand wissen.
-ms.openlocfilehash: 02ba28deca6286456af5f87841a741262c1a135d
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: f1cfa6cdc8d799ba62c687408cb12a4ba453f313
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52634290"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177271"
 ---
 # <a name="set-up-basic-mobility-and-security"></a>Basic Mobility en Security instellen
 
 Met de ingebouwde basismobiliteit en beveiliging voor Microsoft 365 kunt u mobiele apparaten van gebruikers beveiligen en beheren, zoals iPhones, iPads, Androids en Windows telefoons. U kunt beleidsregels voor apparaatbeveiliging maken en beheren, een apparaat op afstand wissen en gedetailleerde apparaatrapporten bekijken.
 
-Hebt u vragen? Zie Veelgestelde vragen (Veelgestelde vragen over basismobiliteit en beveiliging) voor veelgestelde vragen om veelgestelde vragen [te beantwoorden.](frequently-asked-questions.md) U kunt geen gedelegeerd beheerdersaccount gebruiken om basismobiliteit en beveiliging te beheren. Zie Partners: Gedelegeerd beheer [aanbieden voor meer informatie.](https://support.microsoft.com/office/partners-offer-delegated-administration-26530dc0-ebba-415b-86b1-b55bc06b073e) 
+Hebt u vragen? Zie Veelgestelde vragen (Veelgestelde vragen over basismobiliteit en beveiliging) voor veelgestelde vragen om veelgestelde vragen [te beantwoorden.](frequently-asked-questions.yml) U kunt geen gedelegeerd beheerdersaccount gebruiken om basismobiliteit en beveiliging te beheren. Zie Partners: Gedelegeerd beheer [aanbieden voor meer informatie.](https://support.microsoft.com/office/partners-offer-delegated-administration-26530dc0-ebba-415b-86b1-b55bc06b073e) 
 
 Apparaatbeheer maakt deel uit van het Beveiligings- & compliancecentrum, dus u moet daar naartoe gaan om basisinstellingen voor mobiliteit en beveiliging te starten.
 
@@ -49,7 +49,7 @@ Wanneer de service gereed is, moet u de volgende stappen voltooien om de install
 
 Als u geen aangepast domein hebt dat is gekoppeld aan Microsoft 365 of als u geen apparaten Windows beheren, kunt u deze sectie overslaan. Anders moet u DNS-records toevoegen voor het domein bij uw DNS-host. Als u de records al hebt toegevoegd, als onderdeel van het instellen van uw domein met Microsoft 365, bent u klaar. Nadat u de records hebt toevoegen, worden Microsoft 365 gebruikers in uw organisatie die zich aanmelden op hun Windows-apparaat met een e-mailadres dat uw aangepaste domein gebruikt, omgeleid om u aan te melden bij Basismobiliteit en Beveiliging.
 
-Hulp nodig bij het instellen van de records? Zoek uw domeinregistrar en selecteer de naam van de registrar om naar stapsgewijs help te gaan voor het maken van DNS-record in de lijst in [DNS-records](/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)toevoegen om uw domein te verbinden. Gebruik deze instructies om CNAME-records te maken die worden beschreven in [Vereenvoudigen Windows registratie zonder Azure AD-Premium.](/mem/intune/enrollment/windows-enroll#simplify-windows-enrollment-without-azure-ad-premium)
+Hulp nodig bij het instellen van de records? Zoek uw domeinregistrar en selecteer de naam van de registrar om naar stapsgewijs help te gaan voor het maken van DNS-record in de lijst in [DNS-records](/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)toevoegen om uw domein te verbinden. Gebruik deze instructies om CNAME-records te maken die worden beschreven in [Vereenvoudigen Windows registratie zonder](/mem/intune/enrollment/windows-enroll#simplify-windows-enrollment-without-azure-ad-premium)Azure AD Premium.
 
 Nadat u de twee CNAME-records hebt toevoegen, gaat u terug naar het Beveiligings- & Compliancecentrum en gaat u naar **Preventie** van gegevensverlies Apparaatbeheer om de volgende stap  >     te voltooien.
 
@@ -127,7 +127,7 @@ Nadat u een beleid voor beheer van mobiele apparaten hebt gemaakt en geïmplemen
 
 Gebruikers met Android- of iOS-apparaten moeten de app Bedrijfsportal installeren als onderdeel van het registratieproces.
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Mogelijkheden van basismobiliteit en beveiliging](capabilities.md) (artikel)\
 [Apparaatbeveiligingsbeleid maken in Basismobiliteit en Beveiliging](create-device-security-policies.md) (artikel)

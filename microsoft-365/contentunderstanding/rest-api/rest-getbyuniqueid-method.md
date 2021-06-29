@@ -11,12 +11,12 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: Gebruik REST API om de gegevens over een SharePoint Syntex-model voor documentbegrip op te halen of bij te werken.
-ms.openlocfilehash: aa97e0fde57c6d5200b437a8f9c7187c0980cc5b
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: 306bcd894b6339575f8c91ac3c4fb89f2033f3bc
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52904191"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177103"
 ---
 # <a name="getbyuniqueid"></a>GetByUniqueId
 
@@ -25,13 +25,13 @@ Hiermee wordt informatie opgehaald of bijgewerkt over een SharePoint Syntex-mode
 ## <a name="http-request"></a>HTTP-aanvraag
 
 ```HTTP
-GET /_api/machinelearning/models/getbyuniqueid(‘{modelUniqueId}') HTTP/1.1
+GET /_api/machinelearning/models/getbyuniqueid('{modelUniqueId}') HTTP/1.1
 ```
 
 Deze methode kan ook worden gebruikt voor het verwijderen van een model. 
 
 ```HTTP
-DELETE /_api/machinelearning/models/getbyuniqueid(‘{modelUniqueId}') HTTP/1.1
+DELETE /_api/machinelearning/models/getbyuniqueid('{modelUniqueId}') HTTP/1.1
 ```
 ## <a name="uri-parameters"></a>URI-parameters
 
@@ -41,7 +41,7 @@ DELETE /_api/machinelearning/models/getbyuniqueid(‘{modelUniqueId}') HTTP/1.1
 
 ## <a name="request-headers"></a>Aanvraagheaders
 
-| Koptekst | Waarde |
+| Header | Waarde |
 |--------|-------|
 |Accepteren|application/json;odata=verbose|
 
@@ -51,7 +51,7 @@ Voor GET hebt u geen aanvraagtekst nodig.
 
 ## <a name="responses"></a>Antwoorden
 
-| Naam   | Type  | Beschrijving|
+| Naam   | Type  | Omschrijving|
 |--------|-------|------------|
 |200 OK| |Succes|
 
@@ -64,12 +64,12 @@ In dit voorbeeld wordt `7645e69d-21fb-4a24-a17a-9bdfa7cb63dc` gebruikt als id va
 #### <a name="sample-request"></a>Voorbeeldaanvraag
 
 ```HTTP
-GET /_api/machinelearning/models/getbyuniqueid(‘{7645e69d-21fb-4a24-a17a-9bdfa7cb63dc}') HTTP/1.1
+GET /_api/machinelearning/models/getbyuniqueid('7645e69d-21fb-4a24-a17a-9bdfa7cb63dc') HTTP/1.1
 ```
 
 #### <a name="sample-response"></a>Voorbeeldantwoord
 
-**Statuscode:** 204
+**Statuscode:** 200
 
 ```HTTP
 {
@@ -107,7 +107,7 @@ In dit voorbeeld wordt `7645e69d-21fb-4a24-a17a-9bdfa7cb63dc` gebruikt als id va
 #### <a name="sample-request"></a>Voorbeeldaanvraag
 
 ```HTTP
-DELETE /_api/machinelearning/models/getbyuniqueid(‘{7645e69d-21fb-4a24-a17a-9bdfa7cb63dc}') HTTP/1.1
+DELETE /_api/machinelearning/models/getbyuniqueid('7645e69d-21fb-4a24-a17a-9bdfa7cb63dc') HTTP/1.1
 ```
 
 ## <a name="see-also"></a>Zie ook

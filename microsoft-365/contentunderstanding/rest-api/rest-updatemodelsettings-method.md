@@ -11,12 +11,12 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: Gebruik REST API om de beschikbare modelinstellingen bij te werken voor een SharePoint Syntex-model voor documentbegrip.
-ms.openlocfilehash: f24fc8428adbf22ded2ca6d7a49cabc84b385770
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: cd288812044f3b02839c3c11c321947bd02cccaa
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52904190"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177163"
 ---
 # <a name="updatemodelsettings"></a>UpdateModelSettings
 
@@ -25,19 +25,21 @@ Hiermee worden de beschikbare modelinstellingen (gekoppeld retentielabel en mode
 ## <a name="http-request"></a>HTTP-aanvraag
 
 ```HTTP
-POST /_api/machinelearning/models/updatemodelsettings HTTP/1.1
+POST /_api/machinelearning/models/getbytitle('{modelFileName}')/updatemodelsettings HTTP/1.1
 ```
 
 ## <a name="uri-parameters"></a>URI-parameters
 
-Geen
+|Naam |In |Vereist|Type|Omschrijving|
+|-----|---|--------|----|-----------|
+|modelFileName|query|Waar|reeks|Naam van het Syntex-modelbestand.|
 
 ## <a name="request-headers"></a>Aanvraagheaders
 
-| Koptekst | Waarde |
+| Header | Waarde |
 |--------|-------|
 |Accepteren|application/json;odata=verbose|
-|Inhoudstype|application/json;odata=verbose;charset=utf-8|
+|Content-Type|application/json;odata=verbose;charset=utf-8|
 |x-requestdigest|De juiste samenvatting voor de huidige site.|
 
 ## <a name="request-body"></a>Aanvraagtekst
@@ -50,7 +52,7 @@ Geen
 
 ## <a name="responses"></a>Antwoorden
 
-| Naam   | Type  | Beschrijving|
+| Naam   | Type  | Omschrijving|
 |--------|-------|------------|
 |200 OK| |Succes|
 

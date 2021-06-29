@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Meer informatie over het opslaan van de inhoud van het postvak van een voormalige werknemer.
-ms.openlocfilehash: d73d7005d2ccea429f66c5b2564220424665439f
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: bd24145b6b5162a03dee0338cc0820e5af271ddd
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244187"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177487"
 ---
 # <a name="step-2---save-the-contents-of-a-former-employees-mailbox"></a>Stap 2 - De inhoud van het postvak van een voormalige werknemer opslaan
 
@@ -45,4 +45,4 @@ Nadat u hebt geblokkeerd dat een gebruiker zich niet meer bij uw organisatie kan
 
     **OF**
 
-2. Voeg het e-mailadres van de voormalige werknemer toe aan uw versie van Outlook web-app en exporteert de gegevens naar een PST-bestand. U kunt de gegevens ook in een ander e-mailaccount importeren. Bekijk stap [6: geef een andere werknemer toegang](remove-former-employee-step-6.md)tot OneDrive en Outlook gegevens.
+2. Voeg het e-mailadres van de voormalige werknemer toe aan uw versie van Outlook bureaublad en exporteert de gegevens naar een PST-bestand. U kunt de gegevens ook in een ander e-mailaccount importeren. Bekijk stap [6: geef een andere werknemer toegang](remove-former-employee-step-6.md)tot OneDrive en Outlook gegevens.

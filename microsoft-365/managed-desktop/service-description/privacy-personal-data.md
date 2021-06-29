@@ -12,140 +12,75 @@ ms.author: jaimeo
 ms.topic: article
 audience: Admin, ITPro
 ms.localizationpriority: normal
-ms.openlocfilehash: 3de39e8d10f949856862095ebd204fac1a4d694e
-ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
+ms.openlocfilehash: 453c26afd176a1282e466a73992ae4abe1542d68
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52861681"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177475"
 ---
-# <a name="privacy-and-personal-data"></a>Privacy en persoonlijke gegevens
+# <a name="overview"></a>Overzicht
 
-Gebruikers kunnen gegevens ontvangen, verzenden en opslaan op apparaten die worden beheerd door Microsoft Managed Desktop. Ze vertrouwen erop dat de privacy van de gegevens wordt beschermd en alleen wordt gebruikt op een manier die in overeenstemming is met hun verwachtingen. In dit artikel wordt uitgelegd hoe Microsoft Managed Desktop persoonlijke gegevens verzamelt, op slaat, bewaart, verwerkt, beveiligt, deelt, controleert en exporteert. U leert ook hoe een beheerder persoonlijke gegevens kan bekijken, corrigeren en verwijderen.
+Microsoft Managed Desktop is een IT-as-a-Service -service (ITaaS) voor zakelijke cloudklanten die zijn ontworpen om de apparaten van werknemers Windows geïmplementeerd en bijgewerkt te houden. Het biedt ook IT-servicebeheer en -bewerkingen, bewaakt de beveiligings- en incidentrespons en biedt gebruikersondersteuning. Deze documentatie bevat aanvullende informatie over gegevensplatform en privacy compliance voor Microsoft Managed Desktop.
 
-Microsoft Managed Desktop gebruikt geen persoonlijke gegevens die worden verzameld als onderdeel van het leveren van de service voor profilerings-, reclame- of marketingdoeleinden.
+## <a name="microsoft-managed-desktop-data-sources-and-purpose"></a>Microsoft Managed Desktop gegevensbronnen en doel
 
-## <a name="data-collection-of-microsoft-managed-desktop"></a>Gegevensverzameling van Microsoft Managed Desktop
+Microsoft Managed Desktop biedt zijn service aan zakelijke klanten en beheert de geregistreerde apparaten van klanten op de juiste manier met behulp van gegevens uit verschillende bronnen. Deze bronnen, waaronder Azure Active Directory, Microsoft Intune, Microsoft Windows 10 en Microsoft Defender voor Eindpunt, bieden een uitgebreide weergave van de apparaten die Microsoft Managed Desktop beheert. De service gebruikt ook deze Microsoft-services om Microsoft Managed Desktop ITaaS-mogelijkheden te bieden:
 
-Wanneer gebruikers zakelijke apparaten registreren voor Microsoft Managed Desktop, wordt gegevensverzameling op de technische laag verwerkt met behulp van Windows en Microsoft Intune. Deze bronnen verzamelen persoonlijke gegevens over apparaten van gebruikers, zoals apparaatnamen voor Microsoft Managed Desktop om het apparaat te kunnen identificeren dat moet worden beheerd en met de Microsoft Managed Desktop worden geleverd.
+- [Microsoft Windows 10 Enterprise](/windows/windows-10/) - voor het beheer van apparaatconfiguratie, het beheren van verbindingen met andere services en operationele ondersteuning voor IT-professionals.
+- [Windows Update voor Bedrijven](/windows/deployment/update/waas-manage-updates-wufb) : gebruikt Windows 10 Enterprise diagnostische gegevens om aanvullende informatie over de update Windows 10 geven. 
+- [Microsoft Endpoint Manager](/mem/endpoint-manager-overview) - voor apparaatbeheer en om uw gegevens veilig te houden.
+  - [Microsoft Azure Active Directory](/azure/active-directory/) - voor verificatie en identificatie van alle gebruikersaccounts. 
+  - [Microsoft Intune](/mem/intune/) : voor het distribueren van apparaatconfiguraties, apparaatbeheer en toepassingsbeheer.
+  - [Endpoint Analytics:](/mem/analytics/overview) voor analytische inzichten over apparaat- en app-gebruik.
+  - [Windows Autopilot:](/microsoft-365/windows/windows-autopilot) voor inrichting en implementatie van apparaten.
+  - [Microsoft Defender voor Eindpunt: biedt](/microsoft-365/security/defender-endpoint/) beveiligingsservices, zoals apparaatbeveiligingscontrole en gegevens over beveiligingsinformatie.
+- [Microsoft Managed Desktop:](https://endpoint.microsoft.com/#home) gegevens die door de klant worden verstrekt of die door de service zijn gegenereerd tijdens het uitvoeren van de service.
+- [Microsoft 365 apps voor ondernemingen :](https://www.microsoft.com/en-us/microsoft-365/enterprise/compare-office-365-plans?rtc=1) voor het beheer van Microsoft 365-apps.
 
-Microsoft Managed Desktop verzamelt geen gegevens op zichzelf om de service te leveren (met uitzondering van [contactgegevens van IT-beheerder.](#it-admin-contact-information) In plaats Microsoft Managed Desktop gegevens die andere bronnen, zoals Windows en Microsoft Intune, al hebben verzameld. Microsoft Managed Desktop gebruikt gegevens die deze services verzamelen van geregistreerde apparaten:
+## <a name="microsoft-managed-desktop-data-process-and-storage"></a>Microsoft Managed Desktop gegevensproces en -opslag
 
-- Windows diagnostische gegevens van apparaten die door Microsoft Managed Desktop worden verzonden naar de Windows van Microsoft.
-- Microsoft Managed Desktop gebruikt [modern beheer voor](/learn/modules/introduction-to-modern-management-in-microsoft-365/) het beheren van de geregistreerde apparaten. Als onderdeel van 'modern beheer' moeten de apparaten zijn geregistreerd in het Azure Active Directory.
-- Voor het distribueren van de sterk geoptimaliseerde en veilige configuratie naar geregistreerde apparaten, Microsoft Managed Desktop gebruikt Microsoft Intune.
-- Microsoft Managed Desktop gebruikt beveiligingsinformatiegegevens van Microsoft Defender Advanced Thread Protection voor klanten die die service gebruiken.
-
-## <a name="data-storage-and-sources-in-microsoft-managed-desktop"></a>Gegevensopslag en bronnen in Microsoft Managed Desktop
-
-Nadat Microsoft Managed Desktop de gegevens heeft verzameld, moet deze de service, opslag en verwerking van die gegevens als volgt leveren:
-
-### <a name="storing-data-storage-location-and-data-retention"></a>Gegevens, opslaglocatie en gegevensretentie opslaan
-
-Microsoft Managed Desktop slaat de gegevens op in een of meer van de volgende Microsoft-opslagservices:
-
-- Azure SQL
-- Azure-opslag
-- Dynamics 365
-
-Microsoft Managed Desktop slaat de gegevens op in de Verenigde Staten. Persoonlijke gegevens worden door de Microsoft Managed Desktop maximaal 30 dagen bewaard, met uitzondering van waarschuwingsgegevens voor Microsoft Managed Desktop apparaten die door Microsoft Defender voor Eindpunt zijn verzameld. De werkelijke waarschuwingsgegevens (waaronder persoonlijke gegevens) worden 180 dagen opgeslagen. Waarschuwingsgegevens met verwijderde persoonlijke gegevens worden maximaal twee jaar opgeslagen. In overeenstemming met de Algemene verordening gegevensbescherming (AVG) en de California Consumer Privacy Act (CTPA) respecteert Microsoft Managed Desktop de rechten van de gegevenspersoon voor alle persoonsgegevens die zijn opgeslagen in waarschuwingsgegevens.
-
-### <a name="staff-location"></a>Personeelslocatie
-
-De Microsoft Managed Desktop Operations and Security Operations teams bevinden zich in de Verenigde Staten en India.
-
-## <a name="data-usage-of-microsoft-managed-desktop"></a>Gegevensgebruik van Microsoft Managed Desktop
-
-Microsoft Managed Desktop gebruikt deze gegevens:
+Microsoft Managed Desktop is afhankelijk van gegevens van meerdere Microsoft-producten en -services om de service aan zakelijke klanten te leveren. Om het doel van het beveiligen en onderhouden van geregistreerde apparaten te bereiken, verwerken en kopiëren we gegevens van deze services naar Microsoft Managed Desktop. Wanneer we gegevens verwerken, volgen we de gedocumenteerde aanwijzingen die u verstrekt, zoals wordt verwezen in de Voorwaarden voor onlineservices en de Privacyverklaring van Microsoft. Wanneer we gegevens verwerken, volgen we de gedocumenteerde aanwijzingen die u verstrekt, zoals wordt verwezen in de [Voorwaarden voor onlineservices](https://www.microsoft.com/licensing/product-licensing/products) en [de Privacyverklaring van Microsoft.](https://privacy.microsoft.com/privacystatement) Microsoft Managed Desktop verwerkertaken omvatten het waarborgen van de juiste vertrouwelijkheid, beveiliging en tolerantie. Microsoft Managed Desktop gebruikt extra privacy- en beveiligingsmaatregelen om ervoor te zorgen dat persoonlijke identificeerbare gegevens op de juiste manier worden gebruikt. 
 
 
-| Gegevensbronnen |Gebruiken met Microsoft Managed Desktop  |
-|---------|---------|
-|Azure Active Directory gegevens     | Gebruikt in rapporten die zijn gemaakt voor tenantbeheerders, die beschikbaar zijn in de Microsoft Managed Desktop Beheerportal.        |
-|Intune-gegevens     | Gebruikt in rapporten die zijn gemaakt voor tenantbeheerders, die beschikbaar zijn in de Microsoft Managed Desktop Beheerportal.        |
-|Microsoft Defender voor Eindpunt     |  Wordt gebruikt voor het aanpakken van beveiligingsrisico's die zijn gedetecteerd op geregistreerde apparaten door Microsoft Managed Desktop beveiligingscentrum (SOC).  |
-|Windows diagnostische gegevens     |Wordt gebruikt om de updatestatus van beheerde apparaten te bepalen en om het IT-as-a-Service-aanbod (ITaaS) van Microsoft Managed Desktop te bieden en te verbeteren.         |
-|Contactgegevens van beheerder     | Gebruikt door Microsoft Managed Desktop om te communiceren met tenantbeheerders.        |
+## <a name="microsoft-managed-desktop-data-storage-and-staff-location"></a>Microsoft Managed Desktop gegevensopslag en personeelslocatie
 
+Microsoft Managed Desktop slaat de gegevens op in de Azure-datacenters in de Verenigde Staten. Persoonsgegevens die zijn verkregen Microsoft Managed Desktop en andere services zijn vereist om de service operationeel te houden. Als een apparaat wordt verwijderd uit Microsoft Managed Desktop, bewaren we persoonlijke gegevens maximaal 30 dagen, behalve voor waarschuwingsgegevens die zijn verzameld door Microsoft Defender voor Eindpunt, die voor beveiligingsdoeleinden 180 dagen worden opgeslagen. Zie Gegevensbewaring, verwijdering en vernietiging van gegevens [in](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview)Microsoft 365.
 
-### <a name="entities-processed-by-microsoft-managed-desktop"></a>Entiteiten die zijn verwerkt door Microsoft Managed Desktop
+Microsoft Managed Desktop Teams voor technische bewerkingen en beveiligingsbewerkingen bevinden zich in de Verenigde Staten en India. 
 
-Microsoft Managed Desktop deze entiteiten verwerkt om de service te leveren:
+## <a name="microsoft-windows-10-diagnostic-data"></a>Microsoft Windows 10 diagnostische gegevens
 
-- Apparaatgegevens
-- Apparaatbeveiligingsinstellingen
-- Apparaatbesturingssysteem en -hardware
-- Samengevoegde informatie over de status van apparaten
-- Diagnostische gegevens van apparaten
-- Tenantgegevens
-- Azure Active Directory resources
-- Beleids- en configuratiegegevens
-- Microsoft Defender voor metagegevens van eindpunten en waarschuwingsgegevens
-- Windows diagnostische gegevens
-- Gegevens over product- en servicegebruik
+Microsoft Managed Desktop gebruikt [Windows 10 uitgebreide](/windows/privacy/windows-diagnostic-data) diagnostische gegevens om uw Windows te beveiligen, up-to-date te houden, problemen op te lossen en productverbeteringen aan te brengen. De uitgebreide instelling voor diagnostische gegevens bevat meer gedetailleerde informatie over de apparaten die zijn Microsoft Managed Desktop en hun instellingen, mogelijkheden en apparaattoestand. Wanneer uitgebreide diagnostische gegevens zijn geselecteerd, worden gegevens, inclusief vereiste diagnostische gegevens, verzameld. Zie [Wijzigingen in het Windows diagnostische gegevensverzameling](/windows/privacy/changes-to-windows-diagnostic-data-collection) voor meer informatie over de Windows 10 diagnostische gegevens en het verzamelen van gegevens.
 
-### <a name="microsoft-azure-active-directory"></a>Microsoft Azure Active Directory
+De terminologie voor diagnostische gegevens wordt gewijzigd in toekomstige versies van Windows. Microsoft Managed Desktop is verplicht om alleen de gegevens te verwerken die de service nodig heeft. Hoewel dit betekent dat het diagnostische niveau wordt gewijzigd in Optioneel **,** wordt Microsoft Managed Desktop het beperkte diagnostische beleid geïmplementeerd om de diagnostische gegevensverzameling die nodig is voor de service, aan te passen. Zie Wijzigingen in Windows [diagnostische gegevensverzameling](/windows/privacy/changes-to-windows-diagnostic-data-collection)voor meer informatie.
 
-Identiteitsgegevens die door Microsoft Managed Desktop worden gebruikt, worden door Azure Active Directory opgeslagen op een geografische locatie op basis van het adres dat door de organisatie wordt opgegeven bij het abonneren op een Online Service van Microsoft, zoals Office 365 of Azure. Zie [Microsoft Azure: Waar zijn mijn klantgegevens?](http://azuredatacentermap.azurewebsites.net/) voor een kaart met de datacenters voor Azure Active Directory.
+Microsoft Managed Desktop worden alleen gegevens op systeemniveau verwerkt en op Windows 10 optionele diagnostische gegevens die afkomstig zijn van geregistreerde apparaten, zoals toepassings- en apparaatbetrouwbaarheid en prestatiegegevens. Microsoft Managed Desktop worden geen persoonlijke gegevens van klanten verwerkt en opgeslagen, zoals chat- en browsergeschiedenis, spraak-, tekst- of spraakgegevens. 
 
-Zie voor meer informatie over de regio's die Azure [gebruikt voor gegevensopslag Azure Active Directory-Waar bevinden zich uw gegevens.](https://msit.powerbi.com/view?r=eyJrIjoiODdjOWViZDctMWRhZS00ODUzLWI4MmQtNWM5NjBkZTBkNjFlIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9)
+Zie de sectie Waar [we](https://privacy.microsoft.com/privacystatement#mainwherewestoreandprocessdatamodule) persoonlijke gegevens opslaan en verwerken van de Privacyverklaring van Microsoft voor meer informatie over het verzamelen van diagnostische gegevens van Microsoft Windows 10.
 
-### <a name="microsoft-intune"></a>Microsoft Intune
+## <a name="microsoft-windows-update-for-business"></a>Microsoft Windows Update voor Bedrijven
+Microsoft Windows Update voor Bedrijven gebruikt gegevens uit Windows diagnostische gegevens om updatestatus en -fouten te analyseren. Microsoft Managed Desktop maakt gebruik van deze gegevens en gebruikt deze om problemen te beperken en op te lossen om ervoor te zorgen dat alle geregistreerde apparaten up-to-date zijn op basis van een vooraf gedefinieerde updatefrequentie.
 
-Intune-gegevens kunnen worden opgeslagen in een aantal verschillende regio's, zoals Europa Noord (Ierland) en Europa-West (Nederland). Uw IT-beheerder maakt een tenantaccount en kiest het land waar gegevens worden opgeslagen wanneer ze zich aanvankelijk registreren voor Intune-services. Zie voor een lijst met datacenterlocaties die door Intune worden gebruikt [Microsoft Intune:Waar zijn mijn klantgegevens?](http://intunedatacentermap.azurewebsites.net/). Zie [Gegevensverzameling in Intune](/intune/privacy-data-collect)voor meer informatie over gegevensopslag en gebruik door Intune.
+## <a name="microsoft-azure-active-directory"></a>Microsoft Azure Active Directory
+Het identificeren van gegevens die door Microsoft Managed Desktop worden gebruikt, wordt opgeslagen door Azure Active Directory (Azure AD) op een geografische locatie op basis van de locatie die door de organisatie wordt verstrekt wanneer u zich abonneert op onlineservices van Microsoft, zoals Microsoft Apps voor ondernemingen en Azure. Het identificeren van gegevens die door Microsoft Managed Desktop worden gebruikt, wordt door Azure AD opgeslagen op een geografische locatie op basis van de locatie die door de organisatie wordt verstrekt wanneer u zich abonneert op microsoft-onlineservices, zoals Microsoft Apps voor ondernemingen en Azure. Zie voor meer informatie over waar uw Azure AD-gegevens zich bevinden [Azure Active Directory - Waar bevinden uw gegevens zich?](https://msit.powerbi.com/view?r=eyJrIjoiODdjOWViZDctMWRhZS00ODUzLWI4MmQtNWM5NjBkZTBkNjFlIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9)
 
-### <a name="microsoft-defender-for-endpoint"></a>Microsoft Defender voor Eindpunt
+## <a name="microsoft-intune"></a>Microsoft Intune
+Microsoft Intune verzamelt, verwerkt en deelt gegevens om Microsoft Managed Desktop bedrijfsactiviteiten en services te ondersteunen. Zie [Gegevensverzameling in Intune voor](/mem/intune/protect/privacy-data-collect) meer informatie over de gegevens die in Intune worden verzameld. 
 
-Gegevens van Microsoft Defender voor eindpunten kunnen in een aantal verschillende regio's worden opgeslagen. Om deze reden is Defender for Endpoint actief in de Microsoft Azure-datacenters in de Europese Unie, het Verenigd Koninkrijk en de Verenigde Staten, zoals is aangegeven bij [Microsoft Defender voor Eindpunt:](http://intunedatacentermap.azurewebsites.net/)Locaties voor gegevensopslag . Zie Welke gegevens worden door Microsoft Defender voor Eindpunt verzameld voor meer informatie over gegevensopslag en gebruik door Defender voor [Eindpunt?](/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy#what-data-does-microsoft-defender-atp-collect)
+Zie Waar uw Microsoft 365 klantgegevens worden opgeslagen voor meer Microsoft Intune [gegevenslocaties.](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide) Intune respecteert de opslaglocatieselecties die de beheerder voor klantgegevens heeft gemaakt.
 
-### <a name="windows-10"></a>Windows 10
+## <a name="microsoft-defender-for-endpoint"></a>Microsoft Defender voor Eindpunt
+Microsoft Defender voor Eindpunt verzamelt en slaat gegevens op voor apparaten die zijn Microsoft Managed Desktop voor beheer- en tracerings- en rapportagedoeleinden. Verzamelde gegevens omvatten bestandsgegevens (zoals bestandsnamen, grootte en hashes), procesgegevens (lopende processen, hashes), registergegevens, netwerkverbindingsgegevens en apparaatgegevens (zoals apparaataanduidingen, apparaatnamen en de versie van het besturingssysteem). Zie [Microsoft Defender for Endpoint data storage and privacy for](/microsoft-365/security/defender-endpoint/data-storage-privacy?view=o365-worldwide#what-data-does-microsoft-defender-atp-collect) more information on Microsoft Defender for Endpoint's data collection and storage locations( Microsoft Defender for Endpoint data storage and privacy for more information on Microsoft Defender for Endpoint's data collection and storage locations. 
 
-Zoals wordt vermeld in de [Privacyverklaring](https://privacy.microsoft.com/privacystatement)van Microsoft , kunnen persoonlijke gegevens die door Microsoft worden verzameld, worden opgeslagen en verwerkt in uw regio, in de Verenigde Staten en in een ander land waar Microsoft of haar gelieerde ondernemingen, dochterondernemingen of serviceproviders vestigingen hebben. [...] Meestal bevindt de primaire opslaglocatie zich in de regio van de klant of in de Verenigde Staten, vaak met een back-up naar een datacenter in een andere regio. De opslaglocatie(en) worden gekozen om efficiënt te kunnen werken, om de prestaties te verbeteren en om redundanties te maken om de gegevens te beschermen als er een uitval of een ander probleem is. We nemen stappen om ervoor te zorgen dat de gegevens die we onder deze privacyverklaring verzamelen, worden verwerkt op basis van de bepalingen van deze verklaring en de vereisten van toepasselijk recht, waar de gegevens zich ook bevinden."
+## <a name="microsoft-365-apps-for-enterprise"></a>Microsoft 365-apps voor ondernemingen 
+Microsoft 365-apps voor ondernemingen verzamelt en deelt gegevens met Microsoft Managed Desktop om ervoor te zorgen dat deze apps up-to-date zijn met de nieuwste versie op basis van vooraf gedefinieerde updatekanalen die worden beheerd door Microsoft Managed Desktop. Zie [Microsoft Defender for Endpoint data storage and privacy for](/microsoft-365/security/defender-endpoint/data-storage-privacy?view=o365-worldwide#what-data-does-microsoft-defender-atp-collect) more information on Microsoft 365-apps data collection and storage locations ( Microsoft Defender for Endpoint data storage and privacy for more information on Microsoft 365-apps data collection and storage locations ( Microsoft Defender for Endpoint data storage and privacy for more information on Microsoft 365-apps data collection and storage locations ).
 
-Zie de sectie 'Waar [we](https://privacy.microsoft.com/privacystatement#mainwherewestoreandprocessdatamodule) persoonlijke gegevens opslaan en verwerken' van de Privacyverklaring van Microsoft voor meer informatie over het verzamelen van diagnostische gegevens van Windows 10 gegevens.
+## <a name="major-data-change-notification"></a>Melding over belangrijke gegevenswijziging
+Microsoft Managed Desktop volgt een wijzigingsbesturingselementproces zoals beschreven in ons servicecommunicatiekader. We informeren klanten via het Microsoft 365 message center en Microsoft Managed Desktop admin portal van zowel beveiligingsincidenten als belangrijke wijzigingen in de service. Wijzigingen in de typen verzamelde gegevens en de plaats waar deze worden opgeslagen, worden beschouwd als een materiaalwijziging. We bieden minimaal 30 dagen geavanceerde melding van deze wijziging, zoals standaard wordt gebruikt voor Microsoft 365 producten en services. Zie Servicewijzigingen en [communicatie voor meer informatie.](/microsoft-365/managed-desktop/service-description/servicechanges?view=o365-worldwide)
 
-## <a name="data-access-protection"></a>Gegevenstoegangsbeveiliging
+## <a name="compliance"></a>Naleving
+Microsoft Managed Desktop heeft externe audits uitgevoerd en een uitgebreide reeks nalevingsaanbiedingen verkregen. U vindt meer informatie in Microsoft Managed Desktop [Compliance.](/microsoft-365/managed-desktop/intro/compliance) Auditrapporten zijn beschikbaar om te downloaden op de Microsoft [Service Trust Portal](https://aka.ms/stp), die fungeert als een centrale opslagplaats voor Microsoft Enterprise Online Services. (Microsoft Managed Desktop wordt vermeld in deze documenten onder de categorie 'Monitoring and Management'.) 
 
-Directe toegang tot Microsoft Managed Desktop interne gegevensopslag is op verschillende manieren beperkt:
-
-- Hiervoor is goedkeuring van het technische niveau voor lood vereist.
-- Het is tijdgebonden en gecontroleerd.
-- Alle gegevens worden versleuteld terwijl deze worden opgeslagen.
-- Voor toegang Microsoft Managed Desktop interne beheerportal van uw bedrijf is een sterk beveiligd en beperkt werkstation vereist.
-
-## <a name="processing-personal-data-in-a-compliant-manner"></a>Persoonsgegevens op een compatibele manier verwerken
-Microsoft Managed Desktop verwerkt persoonsgegevens met ISO-gecertificeerde systemen. Zie Compliance voor [meer informatie.](../intro/compliance.md)
-
-## <a name="profiling-and-marketing"></a>Profilering en marketing
-
-Microsoft Managed Desktop gebruikt geen persoonlijke gegevens die worden verzameld als onderdeel van het leveren van de service voor profilerings-, reclame- of marketingdoeleinden.
-
-## <a name="data-subject-requests-for-the-gdpr-and-ccpa"></a>Verzoeken om gegevensonderwerpen voor de AVG en CTPA
-
-De Algemene verordening gegevensbescherming van de Europese Unie [(AVG)](https://ec.europa.eu/justice/data-protection/reform/index_en.htm) geeft personen (in de verordening bekend als gegevensonderwerpen) het recht om de persoonlijke gegevens te beheren die zijn verzameld door een werkgever of ander type instantie of organisatie (bekend als de gegevenscontroller of alleen controller). Persoonsgegevens worden onder de AVG in grote lijnen gedefinieerd als gegevens die betrekking hebben op een geïdentificeerde of identificeerbare natuurlijke persoon. De AVG geeft gegevensonderwerpen specifieke rechten op hun persoonlijke gegevens. Deze rechten omvatten het verkrijgen van kopieën van persoonlijke gegevens, het aanvragen van correcties, het beperken van de verwerking ervan, het verwijderen ervan of het ontvangen ervan in een elektronische indeling, zodat deze naar een andere controller kan worden verplaatst. Een formeel verzoek van een gegevenspersoon aan een controller om actie te ondernemen op zijn of haar persoonlijke gegevens, wordt een verzoek om gegevensonderwerp of DSR genoemd.
-
-Op dezelfde manier biedt de CTPA privacyrechten en -verplichtingen aan Californische consumenten, met inbegrip van rechten die vergelijkbaar zijn met de avg-rechten voor gegevensonderwerpen, zoals het recht om hun persoonlijke gegevens te verwijderen, te openen en te ontvangen (overdraagbaarheid). De CTPA voorziet ook in bepaalde openbaarmakingen, bescherming tegen discriminatie bij het kiezen van oefenrechten en 'opt-out/opt-in'-vereisten voor bepaalde gegevensoverdrachten die als 'verkoop' zijn geclassificeerd. Verkoop wordt breed gedefinieerd om het delen van gegevens op te nemen voor een waardevolle overweging. Zie de California Consumer Privacy [Act](/compliance/regulatory/offering-ccpa?view=o365-worldwide) en de Veelgestelde vragen over de California Consumer Privacy Act voor meer informatie over de CTPA. [](/compliance/regulatory/ccpa-faq?view=o365-worldwide)
-
-In de volgende sectie wordt bespraken hoe Microsoft Managed Desktop helpt bij het vinden, openen en handelen van persoonlijke gegevens of persoonlijke gegevens die door Microsoft Managed Desktop.
-
-> [!NOTE]
-> Als u op zoek bent naar algemene informatie over de AVG, bekijkt u de [sectie AVG](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted) van de Service Trust Portal.
-
-### <a name="it-admin-contact-information"></a>Contactgegevens van IT-beheerder
-
-Een tenantbeheerder kan zijn of haar eigen persoonlijke gegevens (zoals hun eigen contactgegevens) rechtstreeks weergeven, corrigeren en verwijderen in de sectie Beheerdercontactcontact van de Microsoft Managed Desktop Portal.
-
-## <a name="microsoft-defender-for-endpoint-alert-data"></a>Waarschuwingsgegevens van Microsoft Defender voor eindpunt
-
-Beveiligingsbeheerders kunnen een extractie of verwijdering van persoonlijke gegevens met betrekking tot Microsoft Defender voor eindpuntwaarschuwingen aanvragen op een Microsoft Managed Desktop beheerd apparaat in hun omgeving. De beveiligingsbeheerder moet zich aanmelden bij de Microsoft Managed Desktop [admin portal](https://aka.ms/memadmin) en een ondersteuningsaanvraag indienen. Selecteer **Ondersteuningsaanvraagtype** Wijzigingsaanvraag, Categorie van beveiliging **en** **Subcategorie** van Overige **en** geef vervolgens de relevante apparaatnamen in de beschrijving op, samen met uw verzoek om gegevens te extrar of te verwijderen.  
-
-### <a name="user-related-personal-data"></a>Gebruikersgerelateerde persoonlijke gegevens
-
-Daarnaast worden er Microsoft Managed Desktop persoonlijke gegevens niet alleen verzameld. In plaats daarvan wordt gebruikgemaakt van persoonlijke gegevens die andere Microsoft Enterprise Online Services hebben verzameld. IT-beheerders die willen reageren op hun gebruikersverzoeken om hun persoonlijke gegevens te bekijken, te corrigeren en te verwijderen, kunnen gebruikmaken van de desbetreffende functionaliteit van de onderliggende services Microsoft Managed Desktop afhankelijk is. Als u geïnteresseerd bent in het weergeven of verwijderen van persoonlijke gegevens die door deze services worden gebruikt, bekijkt u eerst het artikel Azure Data Subject Requests for [the GDPR.](/compliance/regulatory/gdpr-dsr-Azure)
-
-Gebruik bovendien de volgende richtlijnen om DSR's uit te oefenen voor de services Microsoft Managed Desktop afhankelijk is van voor het verzamelen van persoonlijke gegevens:
-
-- [Microsoft Azure Active Directory](/compliance/regulatory/gdpr-dsr-Azure?view=o365-worldwide)
-- [Microsoft Intune](/compliance/regulatory/gdpr-dsr-Intune?view=o365-worldwide)
-- [Microsoft Defender voor Eindpunt](/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)
-- [Windows 10](/windows/privacy/windows-10-and-privacy-compliance)
+## <a name="legal"></a>Juridisch
+De privacyverklaring van **Microsoft** aan eindgebruikers van producten die worden geleverd door klanten van de organisatie - De [Privacyverklaring](https://privacy.microsoft.com/privacystatement) van Microsoft meldt eindgebruikers dat wanneer ze zich aanmelden bij Microsoft-producten met een werkaccount, a) hun organisatie hun account kan beheren en beheren (inclusief het beheren van privacy-gerelateerde instellingen) en hun gegevens kan openen en verwerken, en b) Microsoft de gegevens kan verzamelen en verwerken om de service aan de organisatie en eindgebruikers te leveren.

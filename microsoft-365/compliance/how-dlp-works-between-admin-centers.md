@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: a7e4342a-a0a1-4b43-b166-3d7eecf5d2fd
 description: Meer informatie over hoe DLP in & compliancecentrum voor beveiliging werkt met DLP- en e-mailstroomregels (transportregels) in het Exchange beheercentrum.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d71c45e5483bc73afbe2598415e30b84e97c2539
-ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
+ms.openlocfilehash: 34ddee1c1f0997852b6e59295ab9b630acc3ba3c
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2021
-ms.locfileid: "53149140"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177175"
 ---
 # <a name="how-dlp-works-between-the-microsoft-365-compliance-center-and-exchange-admin-center"></a>Hoe DLP werkt tussen het Microsoft 365 compliancecentrum en Exchange beheercentrum
 
@@ -46,6 +46,8 @@ Als u DLP-beleid hebt gemaakt in het Exchange-beheercentrum, blijven deze beleid
 Dit betekent:
   
 - Berichten die worden geblokkeerd door Exchange regels voor e-mailstroom, worden niet gescand door DLP-regels die zijn gemaakt in het beveiligings- & Compliancecentrum.
+
+- Berichten die in quarantaine zijn geplaatst Exchange e-mailstroomregels of andere filters die worden uitgevoerd voordat DLP niet wordt gescand door DLP
     
 - Als een Exchange-e-mailstroomregel een bericht zodanig wijzigt dat het voldoet aan een DLP-beleid in het beveiligings- &-compliancecentrum , zoals het toevoegen van externe gebruikers, wordt dit gedetecteerd door de DLP-regels en wordt het beleid zo nodig afgedwongen.
     

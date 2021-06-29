@@ -10,12 +10,12 @@ ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 5a22996ce9e39dc16191ddddc6aa9393de557bbc
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 0296e8151162ad4f2855fdd29ff2fc0ed4b4d6b2
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579408"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177571"
 ---
 # <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>Los problemen op die door het hulpprogramma voor gereedheidsevaluatie worden gevonden
 
@@ -27,7 +27,7 @@ Voor elke controle rapporteert het hulpprogramma een van de vier mogelijke resul
 |Gereed     | Er is geen actie vereist voordat u zich inschrijft.        |
 |Advies    | Volg de stappen in het hulpprogramma of dit artikel voor de beste ervaring met registratie en voor gebruikers. U *kunt* de inschrijving voltooien, maar u moet deze problemen oplossen voordat u uw eerste apparaat implementeert.        |
 |Nog niet klaar | *De inschrijving mislukt als u deze problemen niet op kunt lossen.* Volg de stappen in het hulpprogramma of dit artikel om deze op te lossen.        |
-|Error | De Azure Active Directory (AD) die u gebruikt, heeft onvoldoende machtigingen om deze controle uit te voeren. |
+|Fout | De Azure Active Directory (AD) die u gebruikt, heeft onvoldoende machtigingen om deze controle uit te voeren. |
 
 > [!NOTE]
 > De resultaten die door dit hulpprogramma worden gerapporteerd, geven alleen de status van uw instellingen weer op het specifieke moment dat u de instellingen hebt gebruikt. Als u later wijzigingen aan het beleid aan Microsoft Intune, Azure Active Directory of Microsoft 365, kunnen items die 'Gereed' waren, 'Niet klaar' worden. Als u problemen met Microsoft Managed Desktop bewerkingen wilt voorkomen, controleert u de specifieke instellingen die in dit artikel worden beschreven voordat u beleid wijzigt.
@@ -66,6 +66,14 @@ Ten minste één certificaatconnector heeft een foutmelding. Als u deze connecto
 
 U hebt ten minste één certificaatconnector en er worden geen fouten gerapporteerd. Ter voorbereiding op de implementatie moet u mogelijk een profiel maken om de connector opnieuw te gebruiken voor Microsoft Managed Desktop apparaten. Zie Certificaten en netwerkprofielen voorbereiden [voor](certs-wifi-lan.md)Microsoft Managed Desktop.
 
+### <a name="company-portal"></a>Bedrijfsportal
+
+Microsoft Managed Desktop vereist dat IT-beheerders Intune-bedrijfsportal hun gebruikers installeren met Microsoft Managed Desktop apparaten. 
+
+**Nog niet klaar**
+
+U hebt geen Bedrijfsportal geïnstalleerd voor uw gebruikers. Koop Bedrijfsportal en dwing een synchronisatie tussen Intune en Microsoft Store voor Bedrijven. Zie Installaties op apparaten [Intune-bedrijfsportal voor meer informatie.](../get-started/company-portal.md)
+
 
 ### <a name="conditional-access-policies"></a>Beleid voor voorwaardelijke toegang
 
@@ -84,7 +92,7 @@ U hebt beleid voor voorwaardelijke toegang dat kan voorkomen dat Microsoft Manag
 De rol Intune-beheerder heeft niet voldoende machtigingen voor deze controle. U hebt ook een van deze Azure AD-rollen nodig die zijn toegewezen om deze controle uit te voeren:
 
 - Beveiligingslezer
-- Beveiligingsbeheerder
+- Beveiligingsadministrator
 - Beheerder van voorwaardelijke toegang
 - Algemene lezer
 - Apparatenbeheerder
@@ -165,7 +173,7 @@ U hebt meervoudige verificatie vereist voor beleidsregels voor voorwaardelijke t
 De rol Intune-beheerder heeft niet voldoende machtigingen voor deze controle. U hebt ook een van deze Azure AD-rollen nodig die zijn toegewezen om deze controle uit te voeren:
 
 - Beveiligingslezer
-- Beveiligingsbeheerder
+- Beveiligingsadministrator
 - Beheerder van voorwaardelijke toegang
 - Algemene lezer
 - Apparatenbeheerder
@@ -218,15 +226,15 @@ U kunt uw Microsoft-accountvertegenwoordiger vragen om een query in Microsoft En
 
 ### <a name="windows-hello-for-business"></a>Windows Hello voor Bedrijven
 
-Microsoft Managed Desktop moet Windows Hello voor Bedrijven zijn ingeschakeld.
+Microsoft Managed Desktop vereist dat Windows Hello voor Bedrijven is ingeschakeld.
 
 **Nog niet klaar**
 
-Windows Hallo voor Bedrijven is uitgeschakeld. Schakel dit in door de stappen te volgen in [Een Windows Hello voor Bedrijven-beleid](/mem/intune/protect/windows-hello#create-a-windows-hello-for-business-policy)
+Windows Hello voor Bedrijven is uitgeschakeld. Schakel dit in door de stappen te volgen in [Een Windows Hello voor Bedrijven-beleid maken](/mem/intune/protect/windows-hello#create-a-windows-hello-for-business-policy)
 
 **Advies**
 
-Windows Hallo voor Bedrijven is niet ingesteld. Schakel dit in door de stappen te volgen in [Een Windows Hello voor Bedrijven-beleid.](/mem/intune/protect/windows-hello#create-a-windows-hello-for-business-policy)
+Windows Hello voor Bedrijven is niet ingesteld. Schakel dit in door de stappen te volgen in [Een Windows Hello voor Bedrijven-beleid maken.](/mem/intune/protect/windows-hello#create-a-windows-hello-for-business-policy)
 
 
 ### <a name="windows-10-update-rings"></a>Windows 10 ringen bijwerken

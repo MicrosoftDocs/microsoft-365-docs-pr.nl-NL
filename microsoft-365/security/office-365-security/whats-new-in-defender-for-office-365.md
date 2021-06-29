@@ -21,12 +21,12 @@ ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0eaf34e6950e265514b14ff1fd0aa1c7bb9ab6b1
-ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
+ms.openlocfilehash: 0a9eb63ed4508ff875324cf6fb0b4a8ad59cb29f
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53062206"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177547"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Nieuwe functies in Microsoft Defender voor Office 365
 
@@ -62,7 +62,6 @@ Meer informatie vindt u in [deze video](https://www.youtube.com/watch?v=Tdz6Kfru
 - Het verhogen van de limieten voor het exporteren van records van 9990 naar 200.000 in [de jachtervaringen](threat-explorer.md)
 - De bewaar- en zoeklimiet voor proeften tenants van Explorer (en realtimedetecties) uitbreiden van 7 (vorige limiet) naar 30 dagen in [de jachtervaringen](threat-explorer.md)
 - Nieuwe huntingpivots met de naam **Impersonated domain** and **Impersonated user** within the Explorer (and Real-time detections) to search for impersonation attacks against protected users or domains. Zie details voor [meer informatie.](threat-explorer.md#view-phishing-emails-sent-to-impersonated-users-and-domains) (Microsoft Defender voor Office 365 Plan 1 of Plan 2)
-- Nieuwe eerste contactpersoon veiligheidstip voor wanneer geadresseerden voor het eerst een e-mail van een afzender ontvangen of niet vaak e-mail van een afzender ontvangen. Zie First contact veiligheidstip voor meer informatie over deze instelling en hoe u deze configureert met Exchange e-mailstroomregels (ook wel transportregels [genoemd).](set-up-anti-phishing-policies.md#first-contact-safety-tip)
 
 ## <a name="december-2020"></a>December 2020
 
@@ -75,6 +74,7 @@ Meer informatie vindt u in [deze video](https://www.youtube.com/watch?v=Tdz6Kfru
 
 ## <a name="septemberoctober-2020"></a>September/oktober 2020
 
+- Nieuwe eerste contactpersoon veiligheidstip voor wanneer geadresseerden voor het eerst een e-mail van een afzender ontvangen of niet vaak e-mail van een afzender ontvangen. Zie First contact veiligheidstip voor meer informatie over deze instelling en hoe u deze configureert met Exchange e-mailstroomregels (ook wel transportregels [genoemd).](set-up-anti-phishing-policies.md#first-contact-safety-tip)
 - [Uw beleid controleren met Configuration Analyzer](configuration-analyzer-for-security-policies.md)
 - Uitgebreide mogelijkheden in Threat Explorer, inclusief de best getargete [gebruikers, transportregels](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) en connectors (Defender voor Office 365-informatie in [Threat Explorer](threat-explorer.md) (e-mail is toegestaan/geblokkeerd door tenant-/gebruikersbeleid) (Defender voor Office 365 Plan 2)
 - URL-bedreigingen in [Threat Explorer](threat-explorer.md#threats-in-urls) (malware, phish, spam of geen) (Defender voor Office 365 Plan 2)

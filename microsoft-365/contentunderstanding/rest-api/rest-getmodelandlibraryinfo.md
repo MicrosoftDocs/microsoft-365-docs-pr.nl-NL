@@ -11,12 +11,12 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: Gebruik REST API om informatie te krijgen over een model en de bibliotheek waarop het is toegepast.
-ms.openlocfilehash: 6cd61364ed3b360ef235aaba21a2735002fe481e
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: 2449084653c6d9af8d774edc306c485e7a466bf6
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52904187"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177067"
 ---
 # <a name="get-model-and-library-information"></a>Model- en bibliotheekgegevens ophalen
 
@@ -25,38 +25,27 @@ Haalt informatie op over een model en de bibliotheek waarop het is toegepast (zi
 ## <a name="http-request"></a>HTTP-aanvraag
 
 ```HTTP
-GET /_api/machinelearning/publications/getbyuniqueid(‘{modelUniqueId}’) HTTP/1.1
+GET /_api/machinelearning/publications/getbymodeluniqueid('{modelUniqueId}') HTTP/1.1
 ```
 
 ## <a name="uri-parameters"></a>URI-parameters
 
 | Naam | In | Vereist | Type | Omschrijving |
-|--------|-------|--------|------------|
+|--------|-------|--------|------------|-----------|
 |ModelUniqueId|query|Waar|GUID|De unieke id van het modelbestand.|
 
 ## <a name="request-headers"></a>Aanvraagheaders
 
-| Koptekst | Waarde |
+| Header | Waarde |
 |--------|-------|
 |Accepteren|application/json;odata=verbose|
 
-
-## <a name="request-body"></a>Aanvraagtekst
-
-| Naam | Vereist | Type | Omschrijving |
-|--------|-------|--------|------------|
-|ModelUniqueId|ja|reeks|De unieke id van het modelbestand.|
-|TargetSiteUrl|ja|reeks|De volledige URL van de doelbibliotheeksite.|
-|TargetWebServerRelativeUrl|ja|reeks|De relatieve server-URL van het web voor de doelbibliotheek.|
-|TargetLibraryServerRelativeUrl|ja|reeks|De relatieve server-URL van de doelbibliotheek.|
-|TargetLibraryRemoved|ja|int|De vlag die aangeeft of de doelbibliotheek al dan niet is verwijderd.|
 
 ## <a name="response"></a>Antwoord
 
 | Naam   | Type  | Omschrijving|
 |--------|-------|------------|
 |200 OK| |Succes|
-|201 gemaakt| |Houd er rekening mee dat, omdat deze API het toepassen van een model op meerdere bibliotheken ondersteunt, een 201 kan worden geretourneerd, zelfs als er een fout is opgetreden bij het toepassen van het model op een van de bibliotheken. <br>Controleer de antwoordtekst om te zien of het model is toegepast op alle opgegeven bibliotheken. Zie [aanvraagtekst](rest-getmodelandlibraryinfo.md#request-body) voor meer informatie.|
 
 ## <a name="examples"></a>Voorbeelden
 
@@ -67,7 +56,7 @@ In dit voorbeeld is de id van het model voor documentbegrip van het Contoso Cont
 #### <a name="sample-request"></a>Voorbeeldaanvraag
 
 ```HTTP
-GET /sites/TestCC/_api/machinelearning/publications/getbymodeluniqueid(‘{7645e69d-21fb-4a24-a17a-9bdfa7cb63dc}’) HTTP/1.1
+GET /sites/TestCC/_api/machinelearning/publications/getbymodeluniqueid('7645e69d-21fb-4a24-a17a-9bdfa7cb63dc') HTTP/1.1
 ```
 #### <a name="sample-response"></a>Voorbeeldantwoord
 
@@ -130,7 +119,7 @@ GET /sites/TestCC/_api/machinelearning/publications/getbymodeluniqueid(‘{7645e
             "ViewOption": "NewViewAsDefault"
         }
     ]
-}```
+}
 ```
 
 ## <a name="see-also"></a>Zie ook

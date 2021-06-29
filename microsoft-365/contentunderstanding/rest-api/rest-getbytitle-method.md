@@ -11,12 +11,12 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: Gebruik REST API om informatie over een SharePoint Syntex-documentbegripsmodel op te halen of bij te werken met behulp van de modeltitel.
-ms.openlocfilehash: a6fbe9ba9d3f5240c7b775613f97b83bfa2caa50
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: b50849d0dc1c9deefa55a5c92303d18f251e2f8b
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52904245"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177127"
 ---
 # <a name="getbytitle"></a>GetByTitle
 
@@ -25,13 +25,13 @@ Ontvangt of werkt informatie bij over een SharePoint Syntex-model voor documentb
 ## <a name="http-request"></a>HTTP-aanvraag
 
 ```HTTP
-GET /_api/machinelearning/models/getbytitle('{modelFileName') HTTP/1.1
+GET /_api/machinelearning/models/getbytitle('{modelFileName}') HTTP/1.1
 ```
 
 Deze methode kan ook worden gebruikt voor het verwijderen van een model.
 
 ```HTTP
-DELETE /_api/machinelearning/models/getbytitle('{modelFileName') HTTP/1.1
+DELETE /_api/machinelearning/models/getbytitle('{modelFileName}') HTTP/1.1
 ```
 
 ## <a name="uri-parameters"></a>URI-parameters
@@ -42,7 +42,7 @@ DELETE /_api/machinelearning/models/getbytitle('{modelFileName') HTTP/1.1
 
 ## <a name="request-headers"></a>Aanvraagheaders
 
-| Koptekst | Waarde |
+| Header | Waarde |
 |--------|-------|
 |Accepteren|application/json;odata=verbose|
 
@@ -65,12 +65,12 @@ In dit voorbeeld is de naam van het Syntex-model voor documentbegrip `Contoso Co
 #### <a name="sample-request"></a>Voorbeeldaanvraag
 
 ```HTTP
-GET /_api/machinelearning/models/getbytitle('{Contoso Contract') HTTP/1.1
+GET /_api/machinelearning/models/getbytitle('Contoso Contract') HTTP/1.1
 ```
 
 #### <a name="sample-response"></a>Voorbeeldantwoord
 
-**Statuscode:** 204
+**Statuscode:** 200
 
 ```HTTP
 {
@@ -109,7 +109,7 @@ In dit voorbeeld is de naam van het model voor documentbegrip van het Contoso Co
 ##### <a name="sample-request"></a>Voorbeeldaanvraag
 
 ```HTTP
-DELETE /_api/machinelearning/models/getbytitle('{Contoso Contract') HTTP/1.1
+DELETE /_api/machinelearning/models/getbytitle('Contoso Contract') HTTP/1.1
 ```
 
 ## <a name="see-also"></a>Zie ook

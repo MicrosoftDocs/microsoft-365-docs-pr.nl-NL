@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 0d722b4f4bef5b4d178edc5f2142c887690d4c63
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: e1efeff77657e04223b21d639a0a09287f3707cc
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765249"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177583"
 ---
 # <a name="configure-device-discovery"></a>Apparaatdetectie configureren
 
@@ -101,7 +101,24 @@ Als u de eerste detectieclassificatie kiest, wordt de standaardinstelling voor n
 6. Bevestig dat u de wijziging wilt maken. 
 
 
+## <a name="explore-devices-in-the-network"></a>Apparaten in het netwerk verkennen
 
+U kunt de volgende geavanceerde zoekquery gebruiken om meer context te krijgen over elke netwerknaam die wordt beschreven in de lijst met netwerken. De query bevat alle onboarded-apparaten die in de afgelopen 7 dagen zijn verbonden met een bepaald netwerk.
+
+
+
+```kusto
+DeviceNetworkInfo
+| where Timestamp > ago(7d)
+| summarize arg_max(Timestamp, *) by DeviceId
+| where ConnectedNetworks  != ""
+| extend ConnectedNetworksExp = parse_json(ConnectedNetworks)
+| mv-expand bagexpansion = array ConnectedNetworks=ConnectedNetworksExp
+| extend NetworkName = tostring(ConnectedNetworks ["Name"]), Description = tostring(ConnectedNetworks ["Description"]), NetworkCategory = tostring(ConnectedNetworks ["Category"])
+| where NetworkName == "<your network name here>"
+
+
+```
 
 ## <a name="see-also"></a>Zie ook
 - [Overzicht van apparaatdetectie](device-discovery.md)

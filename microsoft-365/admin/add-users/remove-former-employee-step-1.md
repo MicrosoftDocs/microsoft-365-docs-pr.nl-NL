@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Een voormalige werknemer blokkeren om zich aan te melden en de toegang tot Microsoft 365 blokkeren.
-ms.openlocfilehash: f2258b165c3d61f809288003f4a536ffe160ea59
-ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
+ms.openlocfilehash: 58b65a0a886460e8be01635c857433773cfc9059
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53061823"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177115"
 ---
 # <a name="step-1---prevent-a-former-employee-from-logging-in-and-block-access-to-microsoft-365-services"></a>Stap 1: voorkomen dat een voormalige werknemer zich aanlogt en de toegang tot Microsoft 365 services blokkeert
 
@@ -65,7 +65,7 @@ Zie [Wat u moet weten over het beëindigen van een sessie van een werknemer](rem
 
 Als u e-mail hebt als onderdeel van uw Microsoft 365-abonnement, meld u dan aan bij het Exchange-beheercentrum en volg deze stappen om te blokkeren dat uw voormalige werknemer toegang heeft tot zijn of haar e-mail.
   
-1. Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange-beheercentrum</a>.
+1. Ga naar het <a href="https://admin.exchange.microsoft.com/" target="_blank">Exchange-beheercentrum</a>.
 2. Ga in het Exchange-beheercentrum naar **Ontvangers** \> **Postvakken**.
-3. Dubbelklik op de gebruiker en ga naar de pagina **Postvakfuncties.** Selecteer **onder Mobiele apparaten** de optie Uitschakelen **Exchange ActiveSync** **OWA** voor apparaten uitschakelen en antwoord **Ja** op beide wanneer u daarom wordt gevraagd.
-4. Selecteer **onder E-mailconnectiviteit** **de optie Uitschakelen** en antwoord **Ja** wanneer u daarom wordt gevraagd.
+3. Dubbelklik op de gebruiker en ga naar **Instellingen voor e-mail-apps beheren** onder **E-mail-apps.** Schakel **de** schuifregelaar voor alle opties uit. **Mobile (Exchange ActiveSync)**, **webversie van Outlook**, **Outlook desktop (MAPI)**, **Exchange webservices**, **POP3** en **IMAP**.
+4. Kies **Opslaan**.
