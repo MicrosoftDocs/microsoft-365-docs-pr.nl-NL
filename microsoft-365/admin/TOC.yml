@@ -393,7 +393,7 @@
             - name: Privacy en beveiliging
               href: basic-mobility-security/privacy-and-security.md
             - name: Veelgestelde vragen
-              href: basic-mobility-security/frequently-asked-questions.md
+              href: basic-mobility-security/frequently-asked-questions.yml
             - name: Mobiele apparaten wissen
               href: basic-mobility-security/wipe-mobile-device.md
             - name: Basic Mobility en Security uitschakelen

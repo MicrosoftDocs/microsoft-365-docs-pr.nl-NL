@@ -25,20 +25,19 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Beveiligings- en samenwerkingsaanbevelingen voor Microsoft 365 Business Premium voor kleine bedrijven, praktijken en politieke campagnes.
-ms.openlocfilehash: 6c836f5abb118bb3902ecdfaa37acd759faca1fe
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 34f36a86167ebba2ad80cc0046184b3c1997f845
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245026"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177463"
 ---
-<a name="microsoft-365-for-smaller-businesses-and-campaigns"></a>Microsoft 365 voor kleine bedrijven en campagnes
-===========================
+# <a name="microsoft-365-for-smaller-businesses-and-campaigns"></a>Microsoft 365 voor kleine bedrijven en campagnes
 
 Als u Microsoft 365 Business Premium hebt, zijn de instructies in deze bibliotheek de snelste manier om uw beveiliging in te stellen en te beginnen met veilig samenwerken. In de wereld van vandaag is het beveiligen van gegevens en communicatie een prioriteit, zeker voor medische en juridische praktijken, politieke campagnes en vele andere kleine bedrijven. Deze oplossing biedt een resem aanbevelingen die ontworpen zijn om je te helpen bij de bescherming van jezelf en je gegevens. Deze bibliotheek bevat hulp voor het instellen en gebruiken van deze aanbevelingen omgeving, ongeacht het type van je bedrijf.
 
 
-![Microsoft 365 Business Premium beschermt jouw hulpprogramma's voor productiviteit en samenwerking, bestandsopslag, e-mail, apparaten en identiteit](../media/M365-WhatIsIt-SecurityFocus.png)
+![Microsoft 365 Business Premium beschermt jouw hulpprogramma's voor productiviteit en samenwerking, bestandsopslag, e-mail, apparaten en identiteit](../media/M365-WhatIsIt-SecurityFocus.png#lightbox)
 
 Deze configuratie bevat de volgende richtlijnen voor productiviteit, samenwerking, bestandsopslag, e-mail, apparaten en identiteit voor de bescherming van je bedrijf:
 
@@ -50,8 +49,7 @@ Deze configuratie bevat de volgende richtlijnen voor productiviteit, samenwerkin
 |Bestanden veilig opslaan en delen | Bestanden en video's delen uit Microsoft Teams, OneDrive, SharePoint en Microsoft Stream en gevoelige informatie beveiligen.| [Bestanden en video's delen](share-files-and-videos.md) |
 |Beheerde Windows 10-apparaten beveiligen |Beheerde apparaten gebruiken voor essentieel personeel en apparaten beveiligen. | [Beheerde apparaten instellen](../business/set-up-windows-devices.md?toc=/microsoft-365/campaigns/toc.json) |
 
-<a name="a-recommended-security-configuration-for-microsoft-365-business-premium"></a>Een aanbevolen beveiligingsconfiguratie voor Microsoft 365 Business Premium
-------------------------------------
+## <a name="a-recommended-security-configuration-for-microsoft-365-business-premium"></a>Een aanbevolen beveiligingsconfiguratie voor Microsoft 365 Business Premium
 
 Met deze aanbevolen beveiligingsconfiguratie voor Microsoft 365 Business Premium kan je:
 
@@ -71,8 +69,7 @@ Dit pakket bevat het volgende:
 
 Raadpleeg [Microsoft 365 Business Premium](https://www.microsoft.com/microsoft-365/business) voor meer informatie over de inhoud.
 
-<a name="get-started"></a>Aan de slag
---------------------------
+## <a name="get-started"></a>Aan de slag
 
 Ga aan de hand van deze stappen aan de slag:
 
@@ -80,8 +77,7 @@ Ga aan de hand van deze stappen aan de slag:
 - Voor alle bedrijven: [Meer informatie over hoe je gebruikers met Microsoft 365 zullen werken](m365-campaigns-users.md)
 - Voor alle bedrijven: [Microsoft 365 instellen](microsoft-365-campaigns-setup-overview.md)
 
-<a name="solutions-for-your-business"></a>Oplossingen voor jouw bedrijf
---------------------------
+## <a name="solutions-for-your-business"></a>Oplossingen voor jouw bedrijf
 
 Na het instellen van de veilige Microsoft 365-omgeving, kunt u de volgende oplossingen gebruiken om aan de slag te gaan:
 
