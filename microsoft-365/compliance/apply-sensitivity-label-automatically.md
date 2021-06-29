@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Wanneer u een vertrouwelijkheidslabel maakt, kunt u automatisch een label toewijzen aan bestanden en e-mailberichten of gebruikers vragen om het label te selecteren dat u aanbeveelt.
-ms.openlocfilehash: dbfe9e1eaeff7968328eefd24caeec35e2d72558
-ms.sourcegitcommit: 410f6e1c6cf53c3d9013b89d6e0b40a050ee9cad
+ms.openlocfilehash: 5fdb3bd963468fb7fdb4de307df8ccda0c69bbb4
+ms.sourcegitcommit: 5866e45a6a4e90c661e8f90c91550a9872b68e03
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53137773"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "53169614"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Een vertrouwelijkheidslabel automatisch toepassen op inhoud
 
@@ -89,6 +89,7 @@ Gebruik de volgende tabel om de verschillen in gedrag te herkennen voor de twee 
 |Beperken per locatie|Nee |Ja |
 |Voorwaarden: trainbare classificaties|Ja |Nee |
 |Voorwaarden: opties voor delen en extra opties voor e-mail|Nee |Ja |
+|Voorwaarden: uitzonderingen|Nee |Ja (alleen e-mail) |
 |Aanbevelingen, beleidsinfo en overschrijvingen door gebruikers|Ja |Nee |
 |Simulatiemodus|Nee |Ja |
 |Exchange-bijlagen gecontroleerd op voorwaarden|Nee | Ja|
@@ -297,7 +298,17 @@ Ten slotte kunt u de simulatiemodus gebruiken om bij benadering de tijdsduur voo
     - Bijlage is met wachtwoord beveiligd
     - Inhoud van een e-mailbijlage kan niet worden gescand
     - Scannen van inhoud van een e-mailbijlage is niet voltooid
-
+    - Koptekst komt overeen met patronen
+    - Onderwerp komt overeen met patronen
+    - Adres van ontvanger bevat woorden
+    - Adres van ontvanger komt overeen met patronen
+    - Adres van afzender komt overeen met patronen
+    - Domein van afzender is
+    - De ontvanger is lid van
+    - Afzender is
+    
+    Voor elk van deze voorwaarden kunt u vervolgens uitzonderingen opgeven.
+    
 8. Afhankelijk van uw vorige keuzes hebt u nu de mogelijkheid nieuwe regels te maken aan de hand van voorwaarden en uitzonderingen.
     
     De configuratieopties voor typen gevoelige informatie zijn dezelfde als de opties die u selecteert voor automatisch labelen voor Office-apps. Zie [Typen gevoelige informatie voor een label configureren](#configuring-sensitive-info-types-for-a-label) voor meer informatie.

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Gebruik bewaarbeleid om de inhoud die gebruikers genereren met e-mail, documenten en gesprekken efficiënt te beheren. Behoud wat u wilt en verwijder wat u niet wilt.
-ms.openlocfilehash: 2ddc95b5e614fb321ccc5472bc6031f570218528
-ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
+ms.openlocfilehash: 3e5fec9117a0ce63b80b700c8771cf092b44a69e
+ms.sourcegitcommit: 5866e45a6a4e90c661e8f90c91550a9872b68e03
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53053069"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "53169590"
 ---
 # <a name="create-and-configure-retention-policies"></a>Bewaarbeleid maken en configureren
 
@@ -116,7 +116,7 @@ Het is mogelijk dat bewaarbeleid dat wordt toegepast op Microsoft 365-groepen, S
 ### <a name="retention-policy-for-yammer-locations"></a>Bewaarbeleid voor Yammer-locaties
 
 > [!NOTE]
-> Bewaarbeleid voor Yammer is in preview.
+> Bewaarbeleid voor Yammer is in preview en laat gebruikers momenteel niet weten wanneer berichten worden verwijderd als gevolg van een bewaarbeleidsregel.
 >
 > Om deze functie te gebruiken, moet uw Yammer-netwerk zijn ingesteld op de modus [Native](/yammer/configure-your-yammer-network/overview-native-mode) en niet de modus Hybride.
 
