@@ -10,12 +10,12 @@ ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: e4469d8abcfa8308c64e2efa7f7dc4f0156e5718
-ms.sourcegitcommit: b6763a8ab240fbdd56078a7c9452445d0c4b9545
+ms.openlocfilehash: 31077b3ffbddb78ecac8841c22c77fa75f6e2c32
+ms.sourcegitcommit: 99e67bfe1d677c2f51712b05dcc54908b343cf6f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51957525"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53203086"
 ---
 # <a name="prerequisites-for-microsoft-managed-desktop"></a>Vereisten voor Microsoft Managed Desktop
 
@@ -29,7 +29,7 @@ Gebied | Details van vereisten
 --- | ---
 Licenties |Microsoft Managed Desktop vereist dat de licentie Microsoft 365 E3 microsoft Defender voor eindpunten (of equivalenten) is toegewezen aan uw gebruikers.<br>Zie Meer informatie over licenties [in](#more-about-licenses) dit onderwerp voor meer informatie over de specifieke serviceplannen.<br>Zie Microsoft 365 licenties voor meer informatie over beschikbare [licenties.](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans)
 Connectiviteit |  Alle Microsoft Managed Desktop apparaten vereisen verbinding met een groot aantal Microsoft-service-eindpunten vanuit het bedrijfsnetwerk.<br><br>Zie Netwerkconfiguratie voor de volledige lijst met vereiste IPs en [URL's.](../get-ready/network.md) 
-Microsoft Azure Active Directory |    Azure Active Directory (Azure AD) moet de bron van autoriteit zijn voor alle gebruikersaccounts of gebruikersaccounts moeten worden gesynchroniseerd vanuit on-premises Active Directory met behulp van de meest recente ondersteunde versie van Azure AD-Verbinding maken.<br><br>[Enterprise State Roaming](/azure/active-directory/devices/enterprise-state-roaming-overview) moet zijn ingeschakeld voor Microsoft Managed Desktop gebruikers.<br><br>Zie [Azure AD-Verbinding maken.](/azure/active-directory/hybrid/whatis-azure-ad-connect)<br><br>Zie [Azure AD Verbinding maken:Version release history](/azure/active-directory/hybrid/reference-connect-version-history)voor meer informatie over ondersteunde Azure AD-Verbinding maken-versies.
+Microsoft Azure Active Directory |    Azure Active Directory (Azure AD) moet de bron van autoriteit zijn voor alle gebruikersaccounts of gebruikersaccounts moeten worden gesynchroniseerd vanuit on-premises Active Directory met behulp van de meest recente ondersteunde versie van Azure AD-Verbinding maken.<br><br>Zie [Azure AD-Verbinding maken.](/azure/active-directory/hybrid/whatis-azure-ad-connect)<br><br>Zie [Azure AD Verbinding maken:Version release history](/azure/active-directory/hybrid/reference-connect-version-history)voor meer informatie over ondersteunde Azure AD-Verbinding maken-versies.
 Verificatie |    Als Azure AD niet de bron is van primaire verificatie voor gebruikersaccounts, moet u een van deze gegevens configureren in Azure AD Verbinding maken:<br>- Wachtwoordhashsynchronisatie<br>- Pass-through-verificatie<br>- Een externe identiteitsprovider (inclusief Windows Server ADFS en niet-Microsoft-id's) die is geconfigureerd om te voldoen aan de vereisten voor Azure AD-integratie. Zie de [richtlijnen](https://www.microsoft.com/download/details.aspx?id=56843) voor meer informatie. <br><br>Wanneer u verificatieopties instelt met Azure AD Verbinding maken, wordt ook wachtwoordschrijven aanbevolen. Zie Wachtwoord [terugschrijven voor meer informatie.](/azure/active-directory/authentication/howto-sspr-writeback) <br><br>Als een externe identiteitsprovider wordt geïmplementeerd, moet u de oplossing valideren:<br>- Voldoet aan de integratievereisten voor Azure AD<br>- Ondersteunt Azure AD Voorwaardelijke toegang, waarmee het Microsoft Managed Desktop apparaat compliancebeleid kan worden geconfigureerd<br>- Hiermee kunt u apparaten registreren en gebruiken Microsoft 365 services of functies die nodig zijn als onderdeel van Microsoft Managed Desktop <br><br>Zie Azure AD Verbinding maken aanmeldingsopties voor gebruikers voor meer informatie over [verificatieopties met Azure AD.](/azure/active-directory/connect/active-directory-aadconnect-user-signin)
 Microsoft 365 | OneDrive voor Bedrijven moet zijn ingeschakeld voor Microsoft Managed Desktop gebruikers.<br><br>Hoewel het niet nodig is om u in te schrijven met Microsoft Managed Desktop, raden we ten zeerste aan dat de volgende services worden gemigreerd naar de cloud:<br>- E-mail: migreren naar postvakken in de cloud, Exchange online of configureren met Exchange Online Hybride met Exchange 2013 of hoger, on-premises.<br>- Bestanden en mappen: migreren naar OneDrive voor Bedrijven of SharePoint Online.<br>- Hulpprogramma's voor onlinesamenwerking: migreren naar Teams.
 Apparaatbeheer | Microsoft Managed Desktop apparaten vereisen beheer met Microsoft Intune. Intune moet worden ingesteld als de autoriteit voor mobiel apparaatbeheer.<br><br>Zie voor meer informatie [Microsoft Intune.](https://www.microsoft.com/cloud-platform/microsoft-intune) 

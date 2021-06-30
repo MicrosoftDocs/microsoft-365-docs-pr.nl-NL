@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 description: Lees hoe u kunt beheren wie e-mailberichten voor factureringsmelding en factuurbijlagen ontvangt.
 ms.date: 03/17/2021
-ms.openlocfilehash: f41d93835fed1715803052f1cf79b46f43a1d200
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: a49598cd1b361a85af8455b0aff19e11fcf96526
+ms.sourcegitcommit: 99e67bfe1d677c2f51712b05dcc54908b343cf6f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054587"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53203242"
 ---
 # <a name="manage-billing-notifications-and-invoice-attachments"></a>Factureringsmeldingen en bijlagen voor facturen beheren
 
@@ -34,7 +34,7 @@ Op **de pagina Factureringsmeldingen** kunt u beheren wie e-mailberichten voor f
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
-U moet een globale beheerder zijn om de stappen uit te voeren die in dit artikel worden beschreven. Factureringsbeheerders kunnen enkele van deze wijzigingen aanbrengen, zoals wordt vermeld in de onderstaande secties. Raadpleeg [Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
+U moet een globale beheerder zijn om de stappen uit te voeren die in dit artikel worden beschreven. Factureringsbeheerders kunnen enkele van deze wijzigingen aanbrengen, zoals wordt vermeld in de onderstaande secties. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
 
 ## <a name="change-the-language-you-receive-email-in"></a>De taal wijzigen waarin u e-mail ontvangt
 
@@ -127,6 +127,6 @@ Als u uw facturen wilt ontvangen als bijlagen bij uw factuurmeldingen, gebruikt 
 ## <a name="related-content"></a>Verwante inhoud
 
 [Uw rekening of factuur bekijken](view-your-bill-or-invoice.md) (artikel)\
-[Factureringsgegevens voor Microsoft 365 voor bedrijven in Mexico](/microsoft-365/commerce/billing-and-payments/mexico-billing-info) (artikel) \
+[Factureringsgegevens voor Microsoft 365 voor bedrijven in Mexico](mexico-billing-info.md) (artikel) \
 [Uw factuur of factuur voor Microsoft 365 voor bedrijven](understand-your-invoice2.md) (artikel)\
 [Gebruikers toevoegen en tegelijkertijd licenties](../../admin/add-users/add-users.md) toewijzen (artikel)

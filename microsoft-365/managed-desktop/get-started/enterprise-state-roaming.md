@@ -9,20 +9,18 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 61b84b3c7b6550a8ce426a3e41630a0d3e269c41
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: f9d478412d2a1aac6f3e701aca59fcf74ceacce6
+ms.sourcegitcommit: 99e67bfe1d677c2f51712b05dcc54908b343cf6f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50921952"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53203206"
 ---
 # <a name="enable-enterprise-state-roaming"></a>Enterprise State Roaming inschakelen
 
-Voor de beste ervaring met Microsoft Managed Desktop kunt u [Enterprise State Roaming](/azure/active-directory/devices/enterprise-state-roaming-overview)inschakelen, waarmee gebruikers gegevens over gebruikers- en toepassingsinstellingen veilig kunnen synchroniseren met de cloud. Dit betekent dat ze dezelfde ervaring hebben, ongeacht Windows apparaat waarop ze zich aanmelden. Als u bijvoorbeeld een van de apparaten Microsoft Managed Desktop vervangen door een nieuw apparaat, ziet het er precies hetzelfde uit als de laatste.
+[Met Enterprise State Roaming](/azure/active-directory/devices/enterprise-state-roaming-overview) kunnen gebruikers gegevens over gebruikers- en toepassingsinstellingen veilig synchroniseren met de cloud. Dit betekent dat ze dezelfde ervaring hebben, ongeacht Windows apparaat waarop ze zich aanmelden. Als u bijvoorbeeld een van de apparaten Microsoft Managed Desktop vervangen door een nieuw apparaat, ziet het er precies hetzelfde uit als de laatste. Enterprise State Roaming is een optionele functie voor de Microsoft Managed Desktop-service die u voor uw gebruikers kunt configureren en die niet is opgenomen of beheerd als onderdeel van Microsoft Managed Desktop.
 
-Als u Enterprise State Roaming wilt inschakelen, volgt u de stappen in [Enterprise State Roaming inschakelen in](/azure/active-directory/devices/enterprise-state-roaming-enable)Azure Active Directory en gaat u terug naar deze documentatie.
-
-Als u problemen hebt met Enterprise State Roaming, neem dan contact op met de ondersteuning van [de beheerder.](../working-with-managed-desktop/admin-support.md)
+Als u Enterprise State Roaming wilt inschakelen, volgt u de stappen in [Enterprise State Roaming inschakelen in Azure Active Directory.](/azure/active-directory/devices/enterprise-state-roaming-enable)
 
 ## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Stappen om aan de slag te gaan met Microsoft Managed Desktop
 

@@ -19,12 +19,12 @@ description: Gebruik Explorer- en realtimedetecties in de Microsoft 365 Defender
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: bb72c99ae0b80c4091e79801c5515190811324a7
-ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
+ms.openlocfilehash: ee9c4c63817d9c6860942eb8001b02a0535333b1
+ms.sourcegitcommit: 99e67bfe1d677c2f51712b05dcc54908b343cf6f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 06/29/2021
-ms.locfileid: "53195031"
+ms.locfileid: "53203254"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Bedreigingsverkenner en realtimedetecties
 
@@ -56,7 +56,8 @@ Met dit rapport kunt u het volgende doen:
 
 ## <a name="improvements-to-threat-hunting-experience"></a>Verbeteringen in threat hunting experience
 
-### <a name="introduction-of-alert-id-for-defender-for-office-365-alerts-within-explorerreal-time-detections-preview"></a>Introductie van waarschuwings-id voor Defender voor Office 365 in Explorer/Realtime detecties (Preview)
+
+### <a name="introduction-of-alert-id-for-defender-for-office-365-alerts-within-explorerreal-time-detections"></a>Introductie van waarschuwings-id voor Defender voor Office 365 in Explorer/Realtime detecties
 
 Als u vandaag van een waarschuwing naar Threat Explorer navigeert, wordt er een gefilterde weergave geopend in de Verkenner, met de weergave gefilterd op waarschuwingsbeleids-id (beleids-id is een unieke id voor een waarschuwingsbeleid).
 We maken deze integratie relevanter door de waarschuwings-id (zie een voorbeeld van waarschuwings-id hieronder) in Threat Explorer en real-time detecties te introduceren, zodat u berichten ziet die relevant zijn voor de specifieke waarschuwing, evenals een aantal e-mailberichten. U kunt ook zien of een bericht deel uitmaakte van een waarschuwing en van dat bericht naar de specifieke waarschuwing navigeren.
@@ -69,12 +70,12 @@ Waarschuwings-id is beschikbaar in de URL wanneer u een afzonderlijke waarschuwi
 > [!div class="mx-imgBorder"]
 > ![Waarschuwings-id in details flyout](../../media/AlertID-DetailsFlyout.png)
 
-### <a name="extending-the-explorer-and-real-time-detections-data-retention-and-search-limit-for-trial-tenants-from-7-to-30-days-preview"></a>De bewaar- en zoeklimiet voor proeften tenants verlengen van 7 naar 30 dagen (Preview) voor het bewaren en zoeken van gegevens in Explorer (en realtimedetecties)
+### <a name="extending-the-explorer-and-real-time-detections-data-retention-and-search-limit-for-trial-tenants-from-7-to-30-days"></a>De bewaar- en zoeklimiet voor proeften tenants verlengen van 7 naar 30 dagen voor het bewaren en zoeken van gegevens in Explorer (en realtimedetecties)
 
 Als onderdeel van deze wijziging kunt u e-mailgegevens zoeken en filteren over 30 dagen (een toename ten opzichte van de afgelopen 7 dagen) in Threat Explorer/Real-time detecties voor zowel Defender voor Office P1- als P2-proeften tenants.
 Dit heeft geen invloed op productieten tenants voor zowel P1- als P2/E5-klanten, die al de mogelijkheden voor het bewaren en zoeken van 30 dagen hebben.
 
-### <a name="updated-limits-for-export-of-records-for-threat-explorer-preview"></a>Bijgewerkte limieten voor het exporteren van records voor Threat Explorer (Preview)
+### <a name="updated-limits-for-export-of-records-for-threat-explorer"></a>Bijgewerkte limieten voor het exporteren van records voor Threat Explorer
 
 Als onderdeel van deze update wordt het aantal rijen voor e-mailrecords dat kan worden geëxporteerd vanuit Threat Explorer verhoogd van 9990 naar 200.000 records. De reeks kolommen die momenteel kan worden geëxporteerd, blijft hetzelfde, maar het aantal rijen wordt groter dan de huidige limiet.
 

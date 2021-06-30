@@ -23,12 +23,12 @@ ms.custom:
 - commerce_billing
 description: U vindt uw factuur of factuuroverzicht in het Microsoft 365-beheercentrum. U kunt ook een kopie van uw factuur opslaan en afdrukken.
 ms.date: 07/31/2020
-ms.openlocfilehash: a4909a1ff56fb2a3d7fefca1af008abf93015a03
-ms.sourcegitcommit: 959c3c3633e40b7b0f5e2c8372409778005a24db
+ms.openlocfilehash: 948634cd5c9db96bf399689c2c191597e60ec30b
+ms.sourcegitcommit: 99e67bfe1d677c2f51712b05dcc54908b343cf6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52950069"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53203110"
 ---
 # <a name="view-your-bill-or-invoice"></a>Uw rekening of factuur bekijken
 
@@ -105,5 +105,5 @@ Als u een saldo hebt en dit wilt betalen, kunt u dat online doen. Raadpleeg [Bet
 
 [Betalen met factuur, creditcard of via bankrekening](pay-for-your-subscription.md) (artikel) \
 [Betalingswijzen beheren](manage-payment-methods.md) (artikel) \
-[Factureringsgegevens voor Microsoft 365 voor bedrijven in Mexico](/microsoft-365/commerce/billing-and-payments/mexico-billing-info) (artikel) \
+[Factureringsgegevens voor Microsoft 365 voor bedrijven in Mexico](mexico-billing-info.md) (artikel) \
 [Betalingsopties voor Minecraft: Education Edition](/education/windows/school-get-minecraft) (artikel)

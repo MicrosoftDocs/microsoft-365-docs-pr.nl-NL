@@ -17,12 +17,12 @@ ms.collection:
 description: Beheerders kunnen het antispambeleid in Exchange Online Protection (EOP) bekijken, maken, wijzigen en verwijderen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 81fcfde3442abcb63e04d67df5e6c66a56e3e498
-ms.sourcegitcommit: 410f6e1c6cf53c3d9013b89d6e0b40a050ee9cad
+ms.openlocfilehash: 1aa37beef940803a3dd399cec4ff23133a10c5ad
+ms.sourcegitcommit: 99e67bfe1d677c2f51712b05dcc54908b343cf6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53137761"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53203290"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Antispambeleid configureren in EOP
 
@@ -149,7 +149,7 @@ Wanneer u antispambeleid maakt in de Microsoft 365 Defender-portal worden tegeli
 
      |Actie|Spam|Hoog<br>betrouwbaarheid<br>spam|Phishing|Hoog<br>betrouwbaarheid<br>phishing|Bulk|
      |---|:---:|:---:|:---:|:---:|:---:|
-     |**Bericht verplaatsen naar de map Ongewenste e-mail**: het bericht wordt bezorgd in het postvak en verplaatst naar de map Ongewenste e-mail.<sup>1</sup>|![Vinkje](../../media/checkmark.png)<sup>\*</sup>|![Vinkje](../../media/checkmark.png)<sup>\*</sup>|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)<sup>\*</sup>|
+     |**Bericht verplaatsen naar de map Ongewenste e-mail**: het bericht wordt bezorgd in het postvak en verplaatst naar de map Ongewenste e-mail.<sup>1</sup>|![Vinkje](../../media/checkmark.png)<sup>\*</sup>|![Vinkje](../../media/checkmark.png)<sup>\*</sup>|![Vinkje](../../media/checkmark.png)||![Vinkje](../../media/checkmark.png)<sup>\*</sup>|
      |**X-kop toevoegen**: hiermee wordt een X-kop toegevoegd aan de berichtkop en het bericht bezorgd in het postvak. <p> U voert de veldnaam (niet de waarde) van de X-kop later in het vak **Deze X-koptekst toevoegen** in.  <p> Bij de beoordelingen **Spam** en **Hoogstwaarschijnlijk spam** wordt het bericht verplaatst nar de map Ongewenste e-mail.<sup>1,2</sup>|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)||![Vinkje](../../media/checkmark.png)<sup>\*</sup>|
      |**Onderwerpregel vooraan uitbreiden met tekst**: hiermee wordt tekst toegevoegd aan het begin van de onderwerpregel van het bericht. Het bericht wordt bezorgd in het postvak en verplaatst naar de map Ongewenste e-mail.<sup>1,2</sup> <p> U voert de tekst later in het vak **Voeg deze tekst toe vooraan de onderwerpregel** in.|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)||![Vinkje](../../media/checkmark.png)|
      |**Bericht naar e-mailadres omleiden**: hiermee wordt het bericht omgeleid naar andere geadresseerden in plaats van de beoogde geadresseerde. <p> U geeft de geadresseerden later op in het vak **Omleiden naar dit e-mailadres**.|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|![Vinkje](../../media/checkmark.png)|
@@ -182,7 +182,7 @@ Wanneer u antispambeleid maakt in de Microsoft 365 Defender-portal worden tegeli
 
    - **Bericht naar dit e-mailadres omleiden**: dit vak is alleen vereist en beschikbaar als u de actie **Bericht naar e-mailadres omleiden** hebt geselecteerd voor een spamfilterbeoordeling. Voer het e-mailadres in waarnaar u het bericht wilt verzenden. U kunt meerdere waarden opgeven, gescheiden door puntkomma’s (;).
 
-   - **Veiligheidstips inschakelen**: standaard staan veiligheidstips ingeschakeld, maar u kunt ze uitschakelen door het selectievakje uit te schakelen. Zie [Veiligheidstips in e-mailberichten](safety-tips-in-office-365.md) voor meer informatie over veiligheidstips.
+   - **Veiligheidstips inschakelen**: standaard staan veiligheidstips ingeschakeld, maar u kunt ze uitschakelen door het selectievakje uit te schakelen.
 
    - **Zero-hour auto purge (ZAP) inschakelen**: ZAP detecteert en voert actie uit op berichten die al zijn afgeleverd aan Exchange Online-postvakken. Zie [Zero-hour auto purge - beveiliging tegen ongewenste e-mail en malware](zero-hour-auto-purge.md) voor meer informatie.
 
