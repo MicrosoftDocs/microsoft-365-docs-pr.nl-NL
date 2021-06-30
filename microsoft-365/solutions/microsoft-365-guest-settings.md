@@ -18,12 +18,12 @@ ms.custom:
 localization_priority: Priority
 recommendations: false
 description: Meer informatie over de instellingen voor het delen met gasten in Microsoft 365 die van invloed kunnen zijn op het delen met personen buiten uw organisatie.
-ms.openlocfilehash: b209477e2fa205ebb6b298b7fa9f37c21e2b3d7e
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 622e3ac0c44ec763cffff51773edbe6c64515a11
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52625427"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177431"
 ---
 # <a name="microsoft-365-guest-sharing-settings-reference"></a>Microsoft 365 guest sharing settings reference (Overzicht van de instellingen voor delen met gasten van Microsoft 365)
 
@@ -165,8 +165,10 @@ Omdat OneDrive een hiërarchie van sites binnen SharePoint is, hebben de instell
 | Instelling | Standaard | Omschrijving |
 |:-----|:-----|:-----|
 |Extern delen per domein beperken|Uit|Met deze instelling kunt u een lijst opgeven met voor het delen toegestane of geblokkeerde domeinen. Als toegestane domeinen worden opgegeven, kunnen uitnodigingen tot delen alleen naar deze domeinen worden verzonden. Als geblokkeerde domeinen worden opgegeven, kunnen er geen uitnodigingen tot delen naar deze domeinen worden verzonden.<br><br> Deze instelling heeft invloed op alle SharePoint-en OneDrive-sites in de organisatie.|
+|Alleen gebruikers in specifieke beveiligingsgroepen toestaan om extern te delen|Uit|Als u wilt beperken wie er met gasten kan delen in SharePoint en OneDrive, kunt u dit doen door delen te beperken tot personen in opgegeven beveiligingsgroepen. Deze instellingen hebben geen invloed op delen via Microsoft 365 Groepen of Teams. Gasten die via een groep of team zijn uitgenodigd, hebben ook toegang tot de bijbehorende site, hoewel het delen van documenten en mappen alleen kan worden uitgevoerd door personen in de opgegeven beveiligingsgroepen.<br><br>Voor elke opgegeven groep kunt u kiezen of die gebruikers kunnen delen met iedereen-koppelingen.|
 |Gasten moeten zich aanmelden met behulp van hetzelfde account waarnaar de uitnodigingen voor delen worden verzenden|Uit|Hiermee voorkomt u dat gasten uitnodigingen voor het delen van sites benutten met een ander e-mailadres dan waarnaar de uitnodiging werd verzonden.<br><br>Bij [SharePoint- en OneDrive-integratie met Microsoft Azure AD B2B (voorbeeld)](/sharepoint/sharepoint-azureb2b-integration-preview) wordt deze instelling niet gebruikt, omdat alle gasten worden toegevoegd aan de directory op basis van het e-mailadres waarnaar de uitnodiging werd verzonden. Alternatieve e-mailadressen kunnen niet worden gebruikt voor sitetoegang.|
 |Gasten toestaan items te delen waarvan ze niet de eigenaar zijn|Aan|Wanneer **Aan** kunnen gasten items waarvan ze niet de eigenaar zijn, delen met andere gebruikers of gasten. Wanneer **Uit** is dit niet mogelijk. Gasten kunnen altijd items delen waarover ze het volledige beheer hebben.|
+|Personen die een verificatiecode gebruiken, moeten na dit aantal dagen opnieuw verifiëren|Uit|Met deze instelling kunt u vereisen dat gebruikers die zich verifiëren met een eenmalige wachtwoordcode na een bepaald aantal dagen opnieuw moeten verifiëren.|
 
 ### <a name="sharepoint-and-onedrive-file-and-folder-link-settings"></a>Instellingen voor koppelingen naar bestanden en mappen in SharePoint en OneDrive
 
@@ -182,21 +184,6 @@ Wanneer bestanden en mappen in SharePoint en OneDrive worden gedeeld, wordt aan 
 |Deze koppelingen moeten binnen dit aantal dagen verlopen|Uit (geen verloopdatum)|Hiermee geeft u het aantal dagen na de dag van maken op waarna een *Iedereen*-koppeling vervalt. Verlopen koppelingen kunnen niet worden verlengd. Maak een nieuwe koppeling als u wilt doorgaan met het delen na de verloopdatum.|
 |Machtigingen voor bestanden|Bekijken en bewerken|Hiermee worden de machtigingsniveaus bepaald die voor gebruikers beschikbaar zijn bij het maken van een *Iedereen*-koppeling. Als **Bekijken** is geselecteerd, kunnen gebruikers alleen *Iedereen*-bestandskoppelingen maken met machtigingen voor bekijken. Als **Bekijken en bewerken** is geselecteerd, kunnen gebruikers kiezen tussen de machtigingen bekijken en bekijken en bewerken wanneer ze de koppeling maken.|
 |Mapmachtigingen beheren|Bekijken, bewerken en uploaden|Hiermee worden de machtigingsniveaus voor mappen bepaald die voor gebruikers beschikbaar zijn bij het maken van een *Iedereen*-koppeling. Als **Bekijken** is geselecteerd, kunnen gebruikers alleen *Iedereen*-mapkoppelingen maken met machtigingen voor bekijken. Als **Bekijken, bewerken en uploaden** is geselecteerd, kunnen gebruikers kiezen tussen de machtigingen bekijken en bekijken, bewerken en uploaden wanneer ze de koppeling maken.|
-
-### <a name="sharepoint-and-onedrive-security-group-settings"></a>SharePoint- en OneDrive-instellingen voor beveiligingsgroepen
-
-Als u wilt beperken wie er met gasten kan delen in SharePoint en OneDrive, kunt u dit doen door delen te beperken tot personen in opgegeven beveiligingsgroepen. Deze instellingen hebben geen invloed op delen via Microsoft 365 Groepen of Teams. Gasten die via een groep of team zijn uitgenodigd, hebben ook toegang tot de bijbehorende site, hoewel het delen van documenten en mappen alleen kan worden uitgevoerd door personen in de opgegeven beveiligingsgroepen.
-
-**Navigatie:** SharePoint Online-beheercentrum > Delen > Extern delen beperken tot specifieke beveiligingsgroepen
-
-![Schermafbeelding van de instellingen voor beveiligingsgroepen op organisatieniveau van SharePoint](../media/sharepoint-organization-external-sharing-security-groups.png)
-
-| Instelling | Standaard | Omschrijving |
-|:-----|:-----|:-----|
-|Alleen gebruikers in geselecteerde beveiligingsgroepen kunnen met externe gebruikers delen|Uit|Bij **Aan** kunnen alleen de personen in de opgegeven beveiligingsgroepen met personen buiten de organisatie delen. Alleen *Specifieke personen*-koppelingen zijn beschikbaar. Met *Iedereen* delen wordt in feite uitgeschakeld, tenzij **Alleen gebruikers in geselecteerde beveiligingsgroepen toestaan met geverifieerde externe gebruikers delen en met gebruik van anonieme koppelingen** ook **Aan** is|
-|Alleen gebruikers in geselecteerde beveiligingsgroepen kunnen met externe gebruikers delen en met gebruik van anonieme koppelingen|Uit|Wanneer **Aan** kunnen alleen de personen in de opgegeven beveiligingsgroepen met gasten delen. Zowel *Iedereen*- als *Specifieke personen*-koppelingen zijn beschikbaar.|
-
-Beide instellingen kunnen tegelijkertijd worden gebruikt. Als een gebruiker in een beveiligingsgroep voor beide instellingen wordt opgegeven, is het hogere machtigingsniveau van toepassing (*Iedereen* plus *Specifieke gebruikers*). Geneste beveiligingsgroepen worden ondersteund.
 
 ## <a name="sharepoint-site-level"></a>SharePoint (siteniveau)
 

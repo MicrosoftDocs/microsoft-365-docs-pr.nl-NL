@@ -1,5 +1,5 @@
 ---
-title: Model toepassen
+title: Model Batch toepassen
 ms.author: chucked
 author: chuckedmonson
 manager: pamgreen
@@ -10,15 +10,15 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
-description: Gebruik REST API om een toegepast model met documentbegrip toe te passen op een of meer bibliotheken.
-ms.openlocfilehash: d4cadad3c45dd7af0cdaeb4e1b367426289db870
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+description: Gebruik REST API om een model met documentbegrip toe te passen op een of meer bibliotheken.
+ms.openlocfilehash: 24ea9a480bc3ce5a7745857de17a6fab6ed97685
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52904268"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177259"
 ---
-# <a name="apply-model"></a>Model toepassen
+# <a name="batch-apply-model"></a>Model Batch toepassen
 
 Past (of synchroniseert) een getraind model voor documentbegrip toe op een of meer bibliotheken (zie [voorbeeld](rest-applymodel-method.md#examples)).
 
@@ -34,28 +34,55 @@ Geen
 
 ## <a name="request-headers"></a>Aanvraagheaders
 
-| Koptekst | Waarde |
+| Header | Waarde |
 |--------|-------|
 |Accepteren|application/json;odata=verbose|
-|Inhoudstype|application/json;odata=verbose;charset=utf-8|
+|Content-Type|application/json;odata=verbose;charset=utf-8|
 |x-requestdigest|De juiste samenvatting voor deze site.|
 
 ## <a name="request-body"></a>Aanvraagtekst
 
 | Naam | Vereist | Type | Omschrijving |
 |--------|-------|--------|------------|
-|ModelUniqueId|ja|reeks|De unieke id van het modelbestand.|
-TargetSiteUrl|ja|reeks|De volledige URL van de doelbibliotheeksite.|
-TargetWebServerRelativeUrl|ja|reeks|De relatieve server-URL van het web voor de doelbibliotheek.|
-TargetLibraryServerRelativeUrl|ja|reeks|De relatieve server-URL van de doelbibliotheek.|
-ViewOption|nee|reeks|Hiermee geeft u op of een nieuwe modelweergave als standaardbibliotheek moet worden ingesteld.|
+|__metadata|ja|reeks|Stel de objectmeta in op de SPO. Gebruik altijd de waarde: {"type": "Microsoft.Office.Server.ContentCenter.SPMachineLearningPublicationsEntityData"}.|
+|Publicaties|ja|MachineLearningPublicationEntityData[]|De verzameling MachineLearningPublicationEntityData die elk het model en de doeldocumentbibliotheek specificeert.|
 
-## <a name="response"></a>Reactie
+### <a name="machinelearningpublicationentitydata"></a>MachineLearningPublicationEntityData
+| Naam | Vereist | Type | Omschrijving |
+|--------|-------|--------|------------|
+|ModelUniqueId|ja|reeks|De unieke id van het modelbestand.|
+|TargetSiteUrl|ja|reeks|De volledige URL van de doelbibliotheeksite.|
+|TargetWebServerRelativeUrl|ja|reeks|De relatieve server-URL van het web voor de doelbibliotheek.|
+|TargetLibraryServerRelativeUrl|ja|reeks|De relatieve server-URL van de doelbibliotheek.|
+|ViewOption|nee|reeks|Hiermee geeft u op of een nieuwe modelweergave als standaardbibliotheek moet worden ingesteld.|
+
+## <a name="response"></a>Antwoord
 
 | Naam   | Type  | Omschrijving|
 |--------|-------|------------|
-|200 OK| |Succes|
-|201 gemaakt| |Houd er rekening mee dat, omdat deze API het toepassen van een model op meerdere bibliotheken ondersteunt, een 201 kan worden geretourneerd, zelfs als er een fout is opgetreden bij het toepassen van het model op een van de bibliotheken. <br>Controleer de antwoordtekst om te zien of het model is toegepast op alle opgegeven bibliotheken. Zie [aanvraagtekst](rest-applymodel-method.md#request-body) voor meer informatie.|
+|201 gemaakt||Dit is een aangepaste API ter ondersteuning van het toepassen van een model op bibliotheken met meerdere documenten. In het geval van gedeeltelijk succes kan 201 gemaakt nog steeds worden geretourneerd en moet de aanroeper de antwoordtekst inspecteren om te begrijpen of het model is toegepast op een documentbibliotheek.|
+
+## <a name="response-body"></a>Antwoordtekst
+| Naam   | Type  | Omschrijving|
+|--------|-------|------------|
+|TotalSuccesses|int|Het totale aantal modellen dat wordt toegepast op een documentbibliotheek.|
+|TotalFailures|int|Het totale aantal modellen dat niet kan worden toegepast op een documentbibliotheek.|
+|Details|MachineLearningPublicationResult[]|De verzameling MachineLearningPublicationResult die elk het gedetailleerde resultaat specificeert van het toepassen van het model op de documentbibliotheek.|
+
+### <a name="machinelearningpublicationresult"></a>MachineLearningPublicationResult
+| Naam   | Type  | Omschrijving|
+|--------|-------|------------|
+|Statuscode|int|De HTTP-statuscode.|
+|ErrorMessage|tekenreeks|Het foutbericht dat aangeeft wat het probleem is bij het toepassen van het model op de documentbibliotheek.|
+|Publicatie|MachineLearningPublicationEntityData|Hiermee geeft u de modelgegevens en de doeldocumentbibliotheek op.| 
+
+### <a name="machinelearningpublicationentitydata"></a>MachineLearningPublicationEntityData
+| Naam | Type | Omschrijving |
+|--------|--------|------------|
+|ModelUniqueId|reeks|De unieke id van het modelbestand.|
+|TargetSiteUrl|reeks|De volledige URL van de doelbibliotheeksite.|
+|TargetWebServerRelativeUrl|reeks|De relatieve server-URL van het web voor de doelbibliotheek.|
+|TargetLibraryServerRelativeUrl|reeks|De relatieve server-URL van de doelbibliotheek.|
 
 ## <a name="examples"></a>Voorbeelden
 
@@ -89,7 +116,7 @@ In dit voorbeeld is de id van het model voor documentbegrip van het Contoso Cont
 
 In de reactie verwijzen TotalFailures en TotalSuccesses naar het aantal mislukte en geslaagde pogingen van het model dat van toepassing is op de opgegeven bibliotheken.
 
-**Statuscode:** 200
+**Statuscode:** 201
 
 ```JSON
 {
@@ -103,7 +130,7 @@ In de reactie verwijzen TotalFailures en TotalSuccesses naar het aantal mislukte
                 "TargetLibraryServerRelativeUrl": "/sites/repository/contracts",
                 "ViewOption": "NewViewAsDefault"
             },
-            "StatusCode": 200
+            "StatusCode": 201
         }
     ],
     "TotalFailures": 0,
