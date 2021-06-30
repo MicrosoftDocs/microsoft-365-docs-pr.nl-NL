@@ -20,12 +20,12 @@ ms.custom:
 description: Beheerders kunnen leren hoe ze training voor de aanvalssimulatie kunnen gebruiken om gesimuleerde phishing- en wachtwoordaanvallen uit te voeren in hun Microsoft 365 E5 of Microsoft Defender voor Office 365 Plan 2-organisaties.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ad86f77399cfa2a3a780d3fed7e483e3c11bc08d
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: 1fa10d0d29b76d1631dd349d255b6c386557b5b8
+ms.sourcegitcommit: 2266c2da090bc9a6dc1e01dea07f26901d20d57b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53082898"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53222668"
 ---
 # <a name="get-started-using-attack-simulation-training"></a>Aan de slag met aanvalssimulatietraining
 
@@ -52,7 +52,7 @@ Als uw organisatie Microsoft 365 E5 of Microsoft Defender voor Office 365 Plan 2
 
 - Er zijn geen bijbehorende PowerShell-cmdlets voor de training voor de aanvalssimulatie.
 
-- Aanvalssimulatie en trainingsgerelateerde gegevens worden opgeslagen met andere klantgegevens voor Microsoft 365 services. Zie voor meer informatie [Microsoft 365 gegevenslocaties.](../../enterprise/o365-data-locations.md) Aanvalssimulatie is beschikbaar in de volgende regio's: NAM, APC, EUR, IND, CAN, AUS, FRA, GBR, JPN en KOR.
+- Aanvalssimulatie en trainingsgerelateerde gegevens worden opgeslagen met andere klantgegevens voor Microsoft 365 services. Zie voor meer informatie [Microsoft 365 gegevenslocaties.](../../enterprise/o365-data-locations.md) Aanvalssimulatie is beschikbaar in de volgende regio's: NAM, APC, EUR, IND, CAN, AUS, FRA, GBR, JPN, KOR, BRA, LAM en CHE.
 
 - Vanaf 15 juni 2021 is training voor aanvalssimulatie beschikbaar in GCC. Als uw organisatie Office 365 G5 GCC of Microsoft Defender voor Office 365 (plan 2) voor de overheid heeft, kunt u de simulatietraining Aanvallen gebruiken in de Microsoft 365 Defender-portal om realistische aanvalsscenario's in uw organisatie uit te voeren, zoals in dit artikel wordt beschreven. Training voor aanvalssimulaties is nog niet beschikbaar in GCC High- of DoD-omgevingen.
 
