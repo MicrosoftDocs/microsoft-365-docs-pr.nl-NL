@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Wanneer u een vertrouwelijkheidslabel maakt, kunt u automatisch een label toewijzen aan bestanden en e-mailberichten of gebruikers vragen om het label te selecteren dat u aanbeveelt.
-ms.openlocfilehash: 5fdb3bd963468fb7fdb4de307df8ccda0c69bbb4
-ms.sourcegitcommit: 5866e45a6a4e90c661e8f90c91550a9872b68e03
+ms.openlocfilehash: 6b74c36707b9fe1fdbe00eb7058554b54ec95755
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/28/2021
-ms.locfileid: "53169614"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53194767"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Een vertrouwelijkheidslabel automatisch toepassen op inhoud
 
@@ -142,7 +142,7 @@ U vindt meer informatie over deze configuratieopties in de DLP-documentatie: [Re
 Net als bij de configuratie van DLP-beleid kunt u ook kiezen of alle typen gevoelige informatie moeten worden gedetecteerd door een voorwaarde of slechts één van deze typen. En als u uw voorwaarden flexibeler of complexer wilt maken, kunt u [groepen toevoegen en logische operatoren tussen de groepen gebruiken](data-loss-prevention-policies.md#grouping-and-logical-operators).
 
 > [!NOTE]
-> Beleid voor automatisch labelen op basis van aangepaste typen gevoelige informatie is alleen van toepassing op nieuw gemaakte of gewijzigde inhoud in OneDrive en SharePoint. 
+> Beleid voor automatisch labelen op basis van aangepaste typen gevoelige informatie is alleen van toepassing op nieuw gemaakte of gewijzigde inhoud in OneDrive en SharePoint; niet op bestaande inhoud. 
 
 ### <a name="configuring-trainable-classifiers-for-a-label"></a>Trainbare classificaties voor een label configureren
 
@@ -219,7 +219,7 @@ Zorg ervoor dat u op de hoogte bent van de vereisten voordat u beleid voor autom
     - Op het moment dat het beleid voor automatisch labelen wordt uitgevoerd, mag het bestand niet zijn geopend door een ander proces of een andere gebruiker. Een bestand dat is uitgecheckt voor bewerking, valt in deze categorie.
 
 - Als u van plan bent om [aangepaste typen gevoelige informatie](sensitive-information-type-learn-about.md) te gebruiken in plaats van de ingebouwde vertrouwelijkheidstypen: 
-    - Aangepaste typen vertrouwelijkheidsinformatie zijn alleen van toepassing op inhoud die wordt toegevoegd of gewijzigd in SharePoint of OneDrive nadat de aangepaste typen vertrouwelijkheidsinformatie zijn opgelegd. 
+    - Aangepaste typen vertrouwelijkheidsinformatie zijn alleen van toepassing op inhoud die wordt toegevoegd of gewijzigd in SharePoint of OneDrive nadat de aangepaste typen vertrouwelijkheidsinformatie zijn opgelegd.
     - Als u nieuwe aangepaste typen gevoelige informatie wilt testen, maakt u deze voordat u het beleid voor automatisch labelen maakt. Vervolgens maakt u nieuwe documenten met voorbeeldgegevens om te testen.
 
 - Er zijn een of meer vertrouwelijkheidslabels[gemaakt en gepubliceerd](create-sensitivity-labels.md) (voor ten minste één gebruiker) die u kunt selecteren voor uw beleid voor automatisch labelen. Voor deze labels geldt:
