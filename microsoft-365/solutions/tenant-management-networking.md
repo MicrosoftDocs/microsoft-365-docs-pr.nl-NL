@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Optimaliseer de netwerktoegang tot uw Microsoft 365 tenants.
-ms.openlocfilehash: 5eac0793d2afc924a919671ffa105362ea1866d9
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: cf9591d2ec027c42f5ef9e7abac6dc9b06744a81
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50407190"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229177"
 ---
 # <a name="step-2-optimal-networking-for-your-microsoft-365-for-enterprise-tenants"></a>Stap 2. Optimale netwerken voor uw Microsoft 365 voor zakelijke tenants
 
@@ -31,7 +31,7 @@ Als u de netwerktoegang voor uw tenant wilt optimaliseren, moet u het volgende d
 
 - Optimaliseer het pad tussen uw on-premises gebruikers en de dichtstbijzijnde locatie van het Microsoft Global Network.
 - Optimaliseer de toegang tot het Microsoft Global Network voor externe gebruikers die gebruikmaken van een VPN-oplossing voor externe toegang.
-- Gebruik Network Insights om de netwerkperimeter voor uw kantoorlocaties te ontwerpen.
+- Gebruik Netwerk Insights om de netwerkperimeter voor uw kantoorlocaties te ontwerpen.
 - Optimaliseer de toegang tot specifieke assets die worden gehost op SharePoint sites met de Office 365 CDN.
 - Configureer proxy- en netwerkrandapparaten om de verwerking voor Microsoft 365 vertrouwde verkeer te omzeilen met de lijst met eindpunten en automatiseer de update van de lijst wanneer er wijzigingen worden aangebracht.
 
@@ -94,7 +94,7 @@ In deze afbeelding verzendt en ontvangt de VPN-client cruciaal Microsoft 365 clo
 
 Bekijk [Office 365-connectiviteit optimaliseren voor externe gebruikers met VPN-split-tunneling](../enterprise/microsoft-365-vpn-split-tunnel.md) voor meer informatie en richtlijnen.
 
-## <a name="using-network-insights-preview"></a>Network Insights gebruiken (voorbeeld)
+## <a name="using-network-insights-preview"></a>Netwerknetwerk gebruiken Insights (voorbeeld)
 
 Netwerkinzichten zijn prestatiemetrische gegevens die zijn verzameld Microsoft 365 tenant die u helpen bij het ontwerpen van netwerkperimeters voor uw kantoorlocaties. Elk inzicht bevat live details over de prestatiekenmerken voor een opgegeven probleem voor elke geografische locatie waar on-premises gebruikers toegang hebben tot uw tenant.
 
@@ -112,10 +112,10 @@ Dit zijn de specifieke netwerkinzichten voor elke kantoorlocatie:
 - [Lage downloadsnelheid van SharePoint voor deur](../enterprise/office-365-network-mac-perf-insights.md#low-download-speed-from-sharepoint-front-door)
 - [China user optimal network egress](../enterprise/office-365-network-mac-perf-insights.md#china-user-optimal-network-egress)
 
->[!IMPORTANT]
->Netwerkinzichten, prestatieaanbevelingen en evaluaties in Microsoft 365 beheercentrum heeft momenteel de preview-status. Het is alleen beschikbaar voor Microsoft 365 tenants die zijn geregistreerd voor het functievoorbeeldprogramma.
+> [!IMPORTANT]
+> Netwerkinzichten, prestatieaanbevelingen en evaluaties in het Microsoft 365-beheer center heeft momenteel de preview-status. Het is alleen beschikbaar voor Microsoft 365 tenants die zijn geregistreerd voor het functievoorbeeldprogramma.
 
-Zie voor meer informatie [Microsoft 365 Network Insights.](../enterprise/office-365-network-mac-perf-insights.md)
+Zie voor meer informatie [Microsoft 365 Netwerk Insights.](../enterprise/office-365-network-mac-perf-insights.md)
 
 ## <a name="sharepoint-performance-with-the-office-365-cdn"></a>SharePoint prestaties met de Office 365 CDN
 
@@ -152,7 +152,7 @@ Voor uw Microsoft 365 tenant met optimale netwerken hebt u het volgende bepaald:
 - Netwerkprestaties optimaliseren voor on-premises gebruikers door internetverbinding toe te voegen aan alle filialen en netwerkhaartjes te verwijderen.
 - Geautomatiseerde vertrouwde eindpuntvermelding implementeren voor pac-bestanden op basis van uw client en uw netwerkapparaten en -services, inclusief doorlopende updates (die het meest geschikt zijn voor bedrijfsnetwerken).
 - Ondersteuning voor de toegang van externe werknemers tot on-premises resources.
-- Netwerkinzichten gebruiken
+- Netwerkgebruik Insights
 - De implementatie van de Office 365 CDN.
 
 Hier is een voorbeeld van een ondernemingsorganisatie en de tenant met optimale netwerken.

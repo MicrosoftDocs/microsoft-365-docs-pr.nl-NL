@@ -12,12 +12,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 0ebf0571da101884728400be15cd2ddfcfac8e8e
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 6dec1f5c2827018f920a71f8b4e7c8cb111c87cd
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274854"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53230077"
 ---
 #  <a name="network-configuration-for-microsoft-managed-desktop"></a>Netwerkconfiguratie voor Microsoft Managed Desktop
 
@@ -56,7 +56,7 @@ Er zijn URL's van verschillende Microsoft-producten die in de toegestane lijst m
 
 Microsoft-service | Documentatie
 --- | ---
-Windows 10 Enterprise inclusief Windows Update voor Bedrijven | [Eindpunten voor verbinding beheren voor Windows 10, versie 1803](/windows/privacy/manage-windows-1803-endpoints)<br><br>[Eindpunten voor verbinding beheren voor Windows 10, versie 1809](/windows/privacy/manage-windows-1809-endpoints)<br><br>[Eindpunten voor verbinding beheren voor Windows 10, versie 1903](/windows/privacy/manage-windows-1903-endpoints)<br><br>[Eindpunten voor verbinding beheren voor Windows 10, versie 2004](/windows/privacy/manage-windows-2004-endpoints)
+Windows 10 Enterprise inclusief Windows Update voor Bedrijven | [Eindpunten voor verbinding beheren voor Windows 10, versie 1803](/windows/privacy/manage-windows-1803-endpoints)<br><br>[Verbindings-eindpunten beheren voor Windows 10 versie 1809](/windows/privacy/manage-windows-1809-endpoints)<br><br>[Eindpunten voor verbinding beheren voor Windows 10, versie 1903](/windows/privacy/manage-windows-1903-endpoints)<br><br>[Eindpunten voor verbinding beheren voor Windows 10, versie 2004](/windows/privacy/manage-windows-2004-endpoints)
 Leveringsoptimalisatie | [Leveringsoptimalisatie configureren Windows 10 updates](/windows/deployment/update/waas-delivery-optimization)
 Microsoft 365 | [Microsoft 365 URL- en IP-adresbereiken](../../enterprise/urls-and-ip-address-ranges.md)
 Microsoft Azure Active Directory | [Vereiste poorten en protocollen](/azure/active-directory/hybrid/reference-connect-ports) voor hybride identiteit en Active Directory- en [Active Directory Domain Services-poortvereisten](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd772723(v=ws.10)) 

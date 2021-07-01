@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Implementeer Microsoft 365 beveiligings- en compliancefuncties en bescherm uw persoonlijke gegevens.
-ms.openlocfilehash: 659a5295f8b2973c8efef7a7d77f49b2904accf6
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 479774069844964e2e603dee5efbc7b8ef867918
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52113436"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229261"
 ---
 # <a name="protect-information-subject-to-data-privacy-regulation"></a>Gegevens beveiligen die onderworpen zijn aan privacyregels voor gegevens
 
@@ -37,9 +37,8 @@ Deze besturingselementen zijn binnen de volgende oplossingsgebieden:
 
 ![Belangrijke services voor het beschermen van persoonlijke gegevens die onderworpen zijn aan privacyregels voor gegevens](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-grid.png)
 
->[!Note]
->In deze oplossing worden beveiligings- en compliancefuncties beschreven om informatie te beveiligen die onderhevig is aan privacyregels voor gegevens. Voor een volledige lijst met beveiligingsfuncties in Microsoft 365, Microsoft 365 [beveiligingsdocumentatie.](../security/index.yml) Zie voor een volledige lijst met compliancefuncties in Microsoft 365 documentatie [Microsoft 365 compliance.](../compliance/index.yml)
->
+> [!NOTE]
+> In deze oplossing worden beveiligings- en compliancefuncties beschreven om informatie te beveiligen die onderhevig is aan privacyregels voor gegevens. Voor een volledige lijst met beveiligingsfuncties in Microsoft 365, Microsoft 365 [beveiligingsdocumentatie.](../security/index.yml) Zie voor een volledige lijst met compliancefuncties in Microsoft 365 documentatie [Microsoft 365 compliance.](../compliance/index.yml)
 
 ## <a name="data-privacy-regulations-that-impact-information-protection-controls"></a>Privacyregels voor gegevens die van invloed zijn op besturingselementen voor informatiebeveiliging
 
@@ -69,7 +68,7 @@ Om u te helpen aan de slag te gaan met een informatiebeveiligingsschema in Micro
 
 - [Serviceversleuteling met klantsleutel](../compliance/customer-key-overview.md)
 - [Gevoelige informatietypen](../compliance/sensitive-information-type-entity-definitions.md) (beschreven in het [artikel Privacyrisico's voor gegevens](information-protection-deploy-assess.md)beoordelen en gevoelige items identificeren)
-- [Gevoeligheidslabels](../compliance/sensitivity-labels.md) 
+- [Gevoeligheidslabels](../compliance/sensitivity-labels.md)
   - Service/containerniveau
   - Client-side/content-level
   - Geautomatiseerd voor gegevens-at-rest in SharePoint en OneDrive
@@ -122,7 +121,7 @@ Voltooi deze activiteiten voordat u een van de mogelijkheden op basis van gevoel
 
 ### <a name="general-guidance"></a>Algemene richtlijnen
 
-1. **Schemadefinitie.** Voordat u technische mogelijkheden gebruikt om etiketten en beveiliging toe te passen, werkt u in uw hele organisatie om een classificatieschema te definiëren. Mogelijk hebt u al een classificatieschema, waardoor u gemakkelijker persoonlijke gegevens kunt toevoegen. 
+1. **Schemadefinitie.** Voordat u technische mogelijkheden gebruikt om etiketten en beveiliging toe te passen, werkt u in uw hele organisatie om een classificatieschema te definiëren. Mogelijk hebt u al een classificatieschema, waardoor u gemakkelijker persoonlijke gegevens kunt toevoegen.
 2. **Aan de slag.** Begin met het bepalen van het aantal en de namen van etiketten die moeten worden geïmplementeerd. Doe deze activiteit zonder u zorgen te maken over welke technologie u moet gebruiken en hoe etiketten worden toegepast. Pas dit schema universeel toe in uw organisatie, inclusief gegevens die on-premises en in andere cloudservices aanwezig zijn.
 3. **Aanvullende aanbevelingen** Wanneer u beleid, etiketten en voorwaarden ontwerpt en implementeert, kunt u de volgende aanbevelingen volgen:
 
@@ -131,12 +130,12 @@ Voltooi deze activiteiten voordat u een van de mogelijkheden op basis van gevoel
    - **Gebruik scenario's en gebruiksscenario's.** Identificeer veelgebruikte gevallen binnen uw organisatie en gebruik scenario's die zijn afgeleid van de privacyregels voor gegevens waarop u van toepassing bent. Controleer of de voorgestelde label- en classificatieconfiguratie in de praktijk werkt.
    - **Vraag elke aanvraag voor een nieuw label.** Heeft elk scenario of use case echt een nieuw label nodig of kunt u gebruiken wat u al hebt? Door het aantal etiketten tot een minimum te beperken, wordt de acceptatie verbeterd.
    - **Gebruik sublabels voor belangrijke afdelingen.** Sommige afdelingen hebben specifieke behoeften waarvoor specifieke etiketten nodig zijn. Definieer deze labels als sublabels voor een bestaand label en overweeg een bereikbeleid te gebruiken dat is toegewezen aan gebruikersgroepen in plaats van globaal.
-   - **Houd rekening met beleid met een bereik.** Beleid dat is gericht op subsets van gebruikers voorkomt overbelasting van etiketten. Met een beleid met een bereik kunt u specifieke rollen- of afdelingslabels of sublabels toewijzen aan alleen werknemers die voor die specifieke afdeling werken. 
+   - **Houd rekening met beleid met een bereik.** Beleid dat is gericht op subsets van gebruikers voorkomt overbelasting van etiketten. Met een beleid met een bereik kunt u specifieke rollen- of afdelingslabels of sublabels toewijzen aan alleen werknemers die voor die specifieke afdeling werken.
    - **Gebruik duidelijke labelnamen.** Gebruik geen jargon, standaarden of acroniems als labelnamen. Probeer namen te gebruiken die resoneren met de eindgebruiker om de acceptatie te verbeteren. In plaats van labels zoals PII, PCI, HIPAA, LBI, MBI en HBI te gebruiken, moet u rekening houden met namen als Niet-Zakelijk, Openbaar, Algemeen, Vertrouwelijk en Zeer Vertrouwelijk.
 
 ### <a name="create-and-deploy-sensitivity-labels-for-sites-groups-and-teams"></a>Gevoeligheidslabels maken en implementeren voor sites, groepen en teams
 
-Wanneer u [gevoeligheidslabels maakt](../compliance/sensitivity-labels-teams-groups-sites.md) in het Microsoft 365 compliancecentrum, kunt u deze nu toepassen op deze containers:
+Wanneer u [gevoeligheidslabels](../compliance/sensitivity-labels-teams-groups-sites.md) maakt in de Microsoft 365-compliancecentrum, kunt u deze nu toepassen op deze containers:
 
 - Microsoft Teams sites
 - Microsoft 365 groepen (voorheen Office 365 groepen)
@@ -160,14 +159,14 @@ Wanneer u klaar bent om de gegevens van uw organisatie te gaan beveiligen met ge
 2. **Bepalen wat elk label kan doen.** Configureer de beveiligingsinstellingen die u aan elk label wilt koppelen. U wilt bijvoorbeeld dat inhoud met een lagere gevoeligheid (zoals een label Algemeen) alleen een kop- of voettekst heeft toegepast, terwijl inhoud met een hogere gevoeligheid (zoals een label vertrouwelijk) een watermerk moet hebben en versleuteling moet zijn ingeschakeld.
 3. **De labels publiceren.** Wanneer uw gevoeligheidslabels zijn geconfigureerd, kunt u deze publiceren met een labelbeleid. Bepaal welke gebruikers en groepen de labels moeten hebben en welke beleidsinstellingen u wilt gebruiken. Eén label is herbruikbaar. U definieert het eenmaal en vervolgens kunt u het opnemen in verschillende labelbeleidsregels die aan verschillende gebruikers zijn toegewezen.
 
-Wanneer u gevoeligheidslabels publiceert vanuit het Microsoft 365 compliancecentrum, worden ze weergegeven in [Office-apps,](../compliance/sensitivity-labels-office-apps.md) zodat gebruikers inhoud kunnen classificeren en beveiligen terwijl deze wordt gemaakt of bewerkt.
+Wanneer u gevoeligheidslabels publiceert vanaf de Microsoft 365-compliancecentrum, worden ze weergegeven in Office [apps](../compliance/sensitivity-labels-office-apps.md) voor gebruikers om inhoud te classificeren en te beveiligen terwijl deze wordt gemaakt of bewerkt.
 
 ![Implementatiestroom voor gevoeligheidslabels in Microsoft 365](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-label-flow.png)
 
 Voor gegevensbescherming kunt u handmatig een gevoeligheidslabel met versleuteling en andere regels toepassen op e-mail of inhoud die gevoelige persoonlijke gegevens bevat.
 
->[!Note]
->Gevoeligheidslabels waarin versleuteling is ingeschakeld die is toegepast op e-mail, hebben enkele overlappende functionaliteit met OME. Zie [Vergelijking van veilige e-mailscenario's met OME- en gevoeligheidslabels.](#secure-email-scenarios-comparison-with-ome-and-sensitivity-labels)
+> [!NOTE]
+> Gevoeligheidslabels waarin versleuteling is ingeschakeld die is toegepast op e-mail, hebben enkele overlappende functionaliteit met OME. Zie [Vergelijking van veilige e-mailscenario's met OME- en gevoeligheidslabels.](#secure-email-scenarios-comparison-with-ome-and-sensitivity-labels)
 
 ### <a name="client-side-auto-labeling-when-users-edit-documents-or-compose-emails"></a>Autolabeling aan clientzijde wanneer gebruikers documenten bewerken of e-mailberichten opstellen
 
@@ -190,14 +189,14 @@ Voor gegevensbescherming kunt u gevoeligheidslabels automatisch toepassen op inh
 ### <a name="service-side-auto-labeling-when-content-is-already-saved"></a>Autolabels aan servicezijde wanneer inhoud al is opgeslagen
 
 Deze methode wordt autoclassificatie met gevoeligheidslabels genoemd. U hoort het ook wel autolabeling voor gegevens in rust (voor documenten in SharePoint en OneDrive) en gegevens die onderweg zijn (voor e-mail die wordt verzonden of ontvangen door Exchange). Voor Exchange bevat het geen e-mailberichten in postvakken die in rust staan.
- 
+
 Omdat deze labeling wordt toegepast door de service zelf in plaats van door de gebruikerstoepassing, hoeft u zich geen zorgen te maken over welke apps gebruikers hebben en welke versie. Hierdoor is deze functionaliteit direct beschikbaar binnen uw gehele organisatie en geschikt om op schaal te labelen. Beleid voor automatisch labelen ondersteunt geen aanbevolen labels, omdat de gebruiker geen interactie heeft met het labelproces. In plaats daarvan voert de beheerder het beleid in de simulatiemodus uit, om ervoor te zorgen dat de inhoud juist wordt gelabeld voordat het label werkelijk wordt toegepast.
 
 Zie Beleidsregels voor automatisch labelen [configureren voor SharePoint, OneDrive en Exchange voor configuratie-instructies.](../compliance/apply-sensitivity-label-automatically.md#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange)
 
 Voor gegevens privacy binnen sites van belang, push sensitivity labels for automatic encryption of content containing sensitive personal information.
 
-## <a name="data-loss-prevention"></a>Preventie van gegevensverlies 
+## <a name="data-loss-prevention"></a>Preventie van gegevensverlies
 
 U kunt preventie van gegevensverlies [(DLP)](../compliance/dlp-learn-about-dlp.md) in Microsoft 365 gebruiken om risicovolle, onbedoelde of ongepaste delen te detecteren, te waarschuwen en te blokkeren, zoals het delen van gegevens met persoonlijke gegevens, zowel intern als extern.
 
@@ -210,7 +209,7 @@ Met DLP kunt u het volgende doen:
 
 ### <a name="supported-workloads-for-dlp"></a>Ondersteunde werkbelastingen voor DLP
 
-Met een DLP-beleid in het Microsoft 365-compliancecentrum kunt u gevoelige items op veel locaties in Microsoft 365 identificeren, controleren en automatisch beveiligen, zoals Exchange Online, SharePoint, OneDrive en Microsoft Teams.
+Met een DLP-beleid in de Microsoft 365-compliancecentrum kunt u gevoelige items op verschillende locaties in Microsoft 365 identificeren, controleren en automatisch beveiligen, zoals Exchange Online, SharePoint, OneDrive en Microsoft Teams.
 
 U kunt bijvoorbeeld elk document met een creditcardnummer identificeren dat is opgeslagen op een OneDrive-site of u kunt alleen de OneDrive sites van specifieke personen controleren.
 
@@ -228,7 +227,7 @@ DLP wordt gebruikt om een document of e-mailbericht met een statusrecord te iden
 
 ### <a name="planning-for-dlp"></a>Planning voor DLP
 
-Plan uw DLP-beleid voor: 
+Plan uw DLP-beleid voor:
 
 - Uw zakelijke vereisten.
 
@@ -272,9 +271,8 @@ In de volgende tabel vindt u drie configuraties voor het vergroten van de beveil
 
 De eerste configuratie, Awareness, kan worden gebruikt als uitgangspunt en een minimumniveau van beveiliging om te voldoen aan de nalevingsvereisten voor privacyregels voor gegevens.
 
->[!Note]
->Naarmate de beveiligingsniveaus toenemen, wordt de mogelijkheid van gebruikers om gegevens te delen en te openen in sommige gevallen kleiner en kan dit van invloed zijn op hun productiviteit of het vermogen om dagelijkse taken uit te voeren.
-
+> [!NOTE]
+> Naarmate de beveiligingsniveaus toenemen, wordt de mogelijkheid van gebruikers om gegevens te delen en te openen in sommige gevallen kleiner en kan dit van invloed zijn op hun productiviteit of het vermogen om dagelijkse taken uit te voeren.
 
 Als u uw werknemers wilt helpen productiever te blijven in een veiligere omgeving bij het verhogen van het beveiligingsniveau, neemt u de tijd om hen te trainen en op te leiden over nieuwe beveiligingsbeleidsregels en -procedures.
 
@@ -314,7 +312,7 @@ Voor gegevensbescherming gebruikt u OME om interne berichten met gevoelige items
 
 U kunt ook regels voor e-mailstroom definiëren om deze beveiliging toe te passen. U kunt bijvoorbeeld een regel maken die de versleuteling vereist van alle berichten die zijn geadresseerd aan een specifieke geadresseerde of die specifieke trefwoordenwoorden in de onderwerpregel bevatten, en ook opgeven dat geadresseerden de inhoud van het bericht niet kunnen kopiëren of afdrukken.
 
-Bovendien helpt OME [Advanced Message Encryption](../compliance/ome-advanced-message-encryption.md) u om te voldoen aan nalevingsvereisten die flexibelere controles vereisen voor externe geadresseerden en hun toegang tot versleutelde e-mailberichten. Met OME Advanced Message Encryption in Microsoft 365 kunt u gevoelige e-mailberichten die buiten de organisatie worden gedeeld, besturen met automatisch beleid dat gevoelige informatietypen detecteert. 
+Bovendien helpt OME [Advanced Message Encryption](../compliance/ome-advanced-message-encryption.md) u om te voldoen aan nalevingsvereisten die flexibelere controles vereisen voor externe geadresseerden en hun toegang tot versleutelde e-mailberichten. Met OME Advanced Message Encryption in Microsoft 365 kunt u gevoelige e-mailberichten die buiten de organisatie worden gedeeld, besturen met automatisch beleid dat gevoelige informatietypen detecteert.
 
 Als u voor gegevensbescherming e-mail wilt delen met een externe partij, kunt u een vervaldatum opgeven en berichten intrekken. U kunt alleen een vervaldatum intrekken en instellen voor berichten die naar externe geadresseerden worden verzonden.
 

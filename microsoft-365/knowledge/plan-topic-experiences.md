@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Meer informatie over het plannen van microsoft Viva-onderwerpen
-ms.openlocfilehash: de7534ce58a7888ac822826ef4ef1b4934ed8cb1
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: a407fd6e6919c3b85235e317e5ed3ff103607700
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583110"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229537"
 ---
 # <a name="plan-for-microsoft-viva-topics"></a>Microsoft Viva-onderwerpen plannen
 
@@ -36,13 +36,15 @@ Lees Alexandria in Microsoft Viva Topics voor meer informatie over de AI-technol
 
 ## <a name="requirements"></a>Vereisten
 
-U moet zijn [geabonneerd op Viva-onderwerpen](https://www.microsoft.com/microsoft-viva/topics) en een globale beheerder of SharePoint beheerder zijn om toegang te krijgen tot het Microsoft 365 beheercentrum en Onderwerpen in te stellen.
+U moet zijn [geabonneerd op Viva-onderwerpen](https://www.microsoft.com/microsoft-viva/topics) en een globale beheerder of SharePoint beheerder zijn om toegang te krijgen tot de Microsoft 365-beheercentrum en Onderwerpen in te stellen.
 
 Alle gebruikers die Onderwerpen gaan gebruiken, hebben een **licentie Onderwerpervaringen** nodig. Het toewijzen van licenties valt onder [Microsoft Viva-onderwerpen instellen.](set-up-topic-experiences.md)
 
 ## <a name="topic-discovery"></a>Onderwerpdetectie
 
-De instellingen voor onderwerpdetectie geven aan SharePoint sites worden gebruikt als bronnen voor onderwerpen. U kunt ervoor kiezen om alle SharePoint sites, een specifieke lijst met sites of geen sites op te nemen. U wordt aangeraden alle sites te kiezen, zodat u met onderwerpervaringen een groot aantal goede onderwerpen voor uw gebruikers kunt ontdekken.
+De instellingen voor onderwerpdetectie geven aan SharePoint sites worden gebruikt als bronnen voor onderwerpen. Dit omvat zowel klassieke als moderne sites, evenals sites die zijn gekoppeld aan Microsoft Teams en Microsoft 365 Groepen. OneDrive sites zijn niet inbegrepen.
+
+U kunt ervoor kiezen om alle SharePoint sites, een specifieke lijst met sites of geen sites op te nemen. U wordt aangeraden alle sites te kiezen, zodat u met onderwerpervaringen een groot aantal goede onderwerpen voor uw gebruikers kunt ontdekken.
 
 Wanneer u Onderwerpen in stelt, kunt u kiezen uit de volgende opties:
 
@@ -128,7 +130,7 @@ Name (required),Expansion,MatchType- Exact/Partial (required)
 
 ## <a name="administration"></a>Beheer
 
-Wanneer u Onderwerpen instelt, als onderdeel van het installatieproces, wordt automatisch een onderwerpcentrum gemaakt. Bedenk wat u het onderwerpcentrum wilt noemen en wat u wilt dat de URL is. U kunt zowel de naam als de URL instellen als onderdeel van het installatieproces en u kunt de naam (maar niet de URL) later wijzigen in het Microsoft 365 beheercentrum. U kunt maar één onderwerpcentrum hebben.
+Wanneer u Onderwerpen instelt, als onderdeel van het installatieproces, wordt automatisch een onderwerpcentrum gemaakt. Bedenk wat u het onderwerpcentrum wilt noemen en wat u wilt dat de URL is. U kunt zowel de naam als de URL instellen als onderdeel van het installatieproces en u kunt de naam (maar niet de URL) later in de Microsoft 365-beheercentrum. U kunt maar één onderwerpcentrum hebben.
 
 ## <a name="setup-checklist"></a>Controlelijst instellen
 

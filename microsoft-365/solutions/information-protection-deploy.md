@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-overview
 ms.custom: ''
 description: Gegevensbescherming configureren in Microsoft 365 voor privacyregels voor gegevens, zoals avg en de California Consumer Privacy Act (CTPA), waaronder Microsoft Teams, SharePoint en e-mail.
-ms.openlocfilehash: cae3a559c2bce39ecb02afa9be0878ff5e19ba48
-ms.sourcegitcommit: d3f8c69519c593b1580cfa7187ce085a99b8a846
+ms.openlocfilehash: 76bac526dbf648b402c14b3304e32a308219bf02
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52100769"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229201"
 ---
 # <a name="deploy-information-protection-for-data-privacy-regulations-with-microsoft-365"></a>Gegevensbescherming implementeren voor privacyregels voor gegevens met Microsoft 365
 
@@ -32,16 +32,16 @@ Voorbeelden van de typen gegevens in Microsoft 365 zijn chatsessies in Microsoft
 
 ![Wat is informatiebeveiliging voor privacyregels voor gegevens](../media/information-protection-deploy/information-protection-data-privacy-regulations-overview.png#lightbox)
 
-Er wordt ook aanvullende informatie verstrekt over het gebruik van Microsoft 365 identiteits-, apparaat- en bedreigingsbeveiligingsbesturingselementen voor uw privacybehoeften voor gegevens. 
+Er wordt ook aanvullende informatie verstrekt over het gebruik van Microsoft 365 identiteits-, apparaat- en bedreigingsbeveiligingsbesturingselementen voor uw privacybehoeften voor gegevens.
 
 Met Microsoft 365 functies en functies voldoet u aan de criteria voor het beveiligen van informatie.
 
 | Functie | Beschrijving | Licenties |
 |:-------|:-----|:-------|
-| Compliancebeheer | Beheer nalevingsactiviteiten voor regelgeving, krijg een algemene score van uw huidige nalevingsconfiguratie en zoek aanbevelingen voor verbetering. Dit is een op werkstroom gebaseerd hulpprogramma voor risicoanalyse in het Microsoft 365 compliancecentrum. | Microsoft 365 E3 en E5 |
-| Microsoft Defender voor Office 365 | Beveilig uw Microsoft 365-apps en -gegevens tegen een aanval, zoals e-mailberichten, Office-documenten en hulpmiddelen voor samenwerking. | Microsoft 365 E3 en E5 | 
+| Compliancebeheer | Beheer nalevingsactiviteiten voor regelgeving, krijg een algemene score van uw huidige nalevingsconfiguratie en zoek aanbevelingen voor verbetering. Dit is een op werkstroom gebaseerd hulpprogramma voor risicoanalyse in de Microsoft 365-compliancecentrum. | Microsoft 365 E3 en E5 |
+| Microsoft Defender voor Office 365 | Beveilig uw Microsoft 365-apps en -gegevens tegen een aanval, zoals e-mailberichten, Office-documenten en hulpmiddelen voor samenwerking. | Microsoft 365 E3 en E5 |
 | Vertrouwelijkheidslabels | Classificeer en bescherm de gegevens van uw organisatie zonder de productiviteit van gebruikers en de mogelijkheid om samen te werken te belemmeren. Plaats etiketten met verschillende beveiligingsniveaus op e-mail, bestanden of sites. | Microsoft 365 E3 en E5 |
-| Preventie van gegevensverlies (DLP) | Detecteer, waarschuw en blokkeer risicovolle, onbedoelde of ongepaste delen van gegevens met persoonlijke gegevens, zowel intern als extern. | Microsoft 365 E3 en E5 | 
+| Preventie van gegevensverlies (DLP) | Detecteer, waarschuw en blokkeer risicovolle, onbedoelde of ongepaste delen van gegevens met persoonlijke gegevens, zowel intern als extern. | Microsoft 365 E3 en E5 |
 | Labels en beleid voor gegevensretentie | Besturingselementen voor informatiebeheer implementeren. Dit kan bijvoorbeeld bepalen hoe lang gegevens (zoals persoonlijke gegevens met betrekking tot klanten) moeten worden behouden om te voldoen aan het beleid of de gegevensvoorschriften van uw organisatie. | Microsoft 365 E3 en E5 |
 | E-mailversleuteling | Bescherm persoonlijke gegevens door versleutelde e-mailberichten te verzenden en te ontvangen tussen personen binnen en buiten uw organisatie. | Microsoft 365 E3 en E5 |
 ||||
@@ -49,17 +49,16 @@ Met Microsoft 365 functies en functies voldoet u aan de criteria voor het beveil
 ## <a name="organization-of-the-guidance-in-this-solution"></a>Organisatie van de richtlijnen in deze oplossing
 
 Deze richtlijnen zijn ingedeeld in secties Microsoft 365 om u te helpen voldoen aan een of meer privacygerelateerde voorschriften.
- 
+
 ![Stappen voor het implementeren van gegevensbescherming voor privacyregels voor gegevens](../media/information-protection-deploy/information-protection-data-privacy-regulations-steps.png)
 
 Elk van deze secties komt overeen met een afzonderlijk artikel in deze oplossing.
 
->[!Note]
->Als u al bekend bent met uw verplichtingen op het gebied van gegevensbescherming en een bestaand plan wilt uitvoeren, kunt u zich richten op de richtlijnen Voorkomen, Beschermen, Behouden en Onderzoeken.
+> [!NOTE]
+> Als u al bekend bent met uw verplichtingen op het gebied van gegevensbescherming en een bestaand plan wilt uitvoeren, kunt u zich richten op de richtlijnen Voorkomen, Beschermen, Behouden en Onderzoeken.
 
->[!Important]
->Als u deze richtlijnen volgt, voldoet u niet per se aan de privacyregel voor gegevens, met name gezien het aantal vereiste stappen buiten de context van de functies. U bent verantwoordelijk voor het waarborgen van uw naleving en het raadplegen van uw juridische en complianceteams of om advies en advies in te winnen bij derden die gespecialiseerd zijn in naleving.
->
+> [!IMPORTANT]
+> Als u deze richtlijnen volgt, voldoet u niet per se aan de privacyregel voor gegevens, met name gezien het aantal vereiste stappen buiten de context van de functies. U bent verantwoordelijk voor het waarborgen van uw naleving en het raadplegen van uw juridische en complianceteams of om advies en advies in te winnen bij derden die gespecialiseerd zijn in naleving.
 
 ## <a name="plan-assess-data-privacy-risks-and-identify-sensitive-items"></a>Plan: Privacyrisico's voor gegevens beoordelen en gevoelige items identificeren
 
@@ -69,7 +68,7 @@ Zie Privacyrisico's voor gegevens beoordelen en gevoelige items [identificeren v
 
 ## <a name="track-run-risk-assessments-and-check-your-compliance-score"></a>Bijhouden: Voer risicoanalyses uit en controleer de nalevingsscore
 
-Compliance Manager, beschikbaar in het Microsoft 365 compliancecentrum, biedt u een ingebouwde mogelijkheid om verbeteringsacties in het algemeen bij te houden en te beheren, evenals acties met betrekking tot meerdere privacyregels voor gegevens die op u van toepassing zijn.
+Compliance Manager, beschikbaar in de Microsoft 365-compliancecentrum, biedt u een ingebouwde mogelijkheid om verbeteringsacties in het algemeen bij te houden en te beheren, evenals acties met betrekking tot meerdere privacyregels voor gegevens die op u van toepassing zijn.
 
 U kunt ingebouwde beoordelingssjablonen gebruiken die specifiek zijn voor elke verordening, waar u actie-items voor elke geselecteerde beoordelingssjabloon kunt bijhouden en specifieke regelgevingsbesturingselementen kunt bekijken en deze kunt relateren aan specifieke acties.
 
@@ -77,11 +76,11 @@ Zie Compliancebeheer gebruiken om verbeteracties [te beheren voor meer informati
 
 ## <a name="prevent-protect-personal-data"></a>Voorkomen: Persoonlijke gegevens beveiligen
 
-Microsoft 365 biedt mogelijkheden voor identiteits-, apparaat- en bedreigingsbeveiliging die u kunt gebruiken om te voldoen aan de naleving van de regelgeving voor gegevensbescherming. 
+Microsoft 365 biedt mogelijkheden voor identiteits-, apparaat- en bedreigingsbeveiliging die u kunt gebruiken om te voldoen aan de naleving van de regelgeving voor gegevensbescherming.
 
 Zie Identiteits-, apparaat- en bedreigingsbeveiliging gebruiken voor privacyregels voor gegevens voor [meer informatie.](information-protection-deploy-identity-device-threat.md)
 
-In dit artikel wordt kort beschreven wat de privacyregels voor gegevens in het algemeen op deze gebieden vragen en bevat een overzicht van gerelateerde Microsoft 365-oplossingen, met koppelingen naar meer informatie om u te helpen bij het voldoen aan implementatievereisten. 
+In dit artikel wordt kort beschreven wat de privacyregels voor gegevens in het algemeen op deze gebieden vragen en bevat een overzicht van gerelateerde Microsoft 365-oplossingen, met koppelingen naar meer informatie om u te helpen bij het voldoen aan implementatievereisten.
 
 ## <a name="protect-information-subject-to-data-privacy-regulation"></a>Gegevens beveiligen die onderworpen zijn aan privacyregels voor gegevens
 
@@ -101,7 +100,7 @@ Hoewel de privacyregels voor gegevens vaag kunnen zijn met betrekking tot inform
 
 ## <a name="investigate-monitor-investigate-and-respond-to-data-privacy-incidents"></a>Onderzoeken: Incidenten met gegevensbescherming bewaken, onderzoeken en beantwoorden
 
-Er zijn Microsoft 365 functies beschikbaar om u te helpen bij het bewaken, onderzoeken en reageren op incidenten met gegevensbescherming in uw organisatie terwijl u gerelateerde mogelijkheden operationeel kunt maken. 
+Er zijn Microsoft 365 functies beschikbaar om u te helpen bij het bewaken, onderzoeken en reageren op incidenten met gegevensbescherming in uw organisatie terwijl u gerelateerde mogelijkheden operationeel kunt maken.
 
 Het hebben van processen, procedures en andere documentatie voor het gebruik van deze functies kan belangrijk zijn om naleving aan regelgevende instanties aan te tonen.
 

@@ -12,12 +12,12 @@ ms.author: jaimeo
 ms.topic: article
 audience: Admin, ITPro
 ms.localizationpriority: normal
-ms.openlocfilehash: 453c26afd176a1282e466a73992ae4abe1542d68
-ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
+ms.openlocfilehash: 0ee214cf7ff5d5998a7fa35688574a23f8b082f0
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53177475"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229597"
 ---
 # <a name="overview"></a>Overzicht
 
@@ -68,18 +68,18 @@ Het identificeren van gegevens die door Microsoft Managed Desktop worden gebruik
 ## <a name="microsoft-intune"></a>Microsoft Intune
 Microsoft Intune verzamelt, verwerkt en deelt gegevens om Microsoft Managed Desktop bedrijfsactiviteiten en services te ondersteunen. Zie [Gegevensverzameling in Intune voor](/mem/intune/protect/privacy-data-collect) meer informatie over de gegevens die in Intune worden verzameld. 
 
-Zie Waar uw Microsoft 365 klantgegevens worden opgeslagen voor meer Microsoft Intune [gegevenslocaties.](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide) Intune respecteert de opslaglocatieselecties die de beheerder voor klantgegevens heeft gemaakt.
+Zie Waar uw Microsoft 365 klantgegevens worden opgeslagen voor meer Microsoft Intune [gegevenslocaties.](/microsoft-365/enterprise/o365-data-locations) Intune respecteert de opslaglocatieselecties die de beheerder voor klantgegevens heeft gemaakt.
 
 ## <a name="microsoft-defender-for-endpoint"></a>Microsoft Defender voor Eindpunt
-Microsoft Defender voor Eindpunt verzamelt en slaat gegevens op voor apparaten die zijn Microsoft Managed Desktop voor beheer- en tracerings- en rapportagedoeleinden. Verzamelde gegevens omvatten bestandsgegevens (zoals bestandsnamen, grootte en hashes), procesgegevens (lopende processen, hashes), registergegevens, netwerkverbindingsgegevens en apparaatgegevens (zoals apparaataanduidingen, apparaatnamen en de versie van het besturingssysteem). Zie [Microsoft Defender for Endpoint data storage and privacy for](/microsoft-365/security/defender-endpoint/data-storage-privacy?view=o365-worldwide#what-data-does-microsoft-defender-atp-collect) more information on Microsoft Defender for Endpoint's data collection and storage locations( Microsoft Defender for Endpoint data storage and privacy for more information on Microsoft Defender for Endpoint's data collection and storage locations. 
+Microsoft Defender voor Eindpunt verzamelt en slaat gegevens op voor apparaten die zijn Microsoft Managed Desktop voor beheer- en tracerings- en rapportagedoeleinden. Verzamelde gegevens omvatten bestandsgegevens (zoals bestandsnamen, grootte en hashes), procesgegevens (lopende processen, hashes), registergegevens, netwerkverbindingsgegevens en apparaatgegevens (zoals apparaataanduidingen, apparaatnamen en de versie van het besturingssysteem). Zie [Microsoft Defender for Endpoint data storage and privacy for](/microsoft-365/security/defender-endpoint/data-storage-privacy#what-data-does-microsoft-defender-atp-collect) more information on Microsoft Defender for Endpoint's data collection and storage locations( Microsoft Defender for Endpoint data storage and privacy for more information on Microsoft Defender for Endpoint's data collection and storage locations. 
 
 ## <a name="microsoft-365-apps-for-enterprise"></a>Microsoft 365-apps voor ondernemingen 
-Microsoft 365-apps voor ondernemingen verzamelt en deelt gegevens met Microsoft Managed Desktop om ervoor te zorgen dat deze apps up-to-date zijn met de nieuwste versie op basis van vooraf gedefinieerde updatekanalen die worden beheerd door Microsoft Managed Desktop. Zie [Microsoft Defender for Endpoint data storage and privacy for](/microsoft-365/security/defender-endpoint/data-storage-privacy?view=o365-worldwide#what-data-does-microsoft-defender-atp-collect) more information on Microsoft 365-apps data collection and storage locations ( Microsoft Defender for Endpoint data storage and privacy for more information on Microsoft 365-apps data collection and storage locations ( Microsoft Defender for Endpoint data storage and privacy for more information on Microsoft 365-apps data collection and storage locations ).
+Microsoft 365-apps voor ondernemingen verzamelt en deelt gegevens met Microsoft Managed Desktop om ervoor te zorgen dat deze apps up-to-date zijn met de nieuwste versie op basis van vooraf gedefinieerde updatekanalen die worden beheerd door Microsoft Managed Desktop. Zie [Microsoft Defender for Endpoint data storage and privacy for](/microsoft-365/security/defender-endpoint/data-storage-privacy#what-data-does-microsoft-defender-atp-collect) more information on Microsoft 365-apps data collection and storage locations ( Microsoft Defender for Endpoint data storage and privacy for more information on Microsoft 365-apps data collection and storage locations ( Microsoft Defender for Endpoint data storage and privacy for more information on Microsoft 365-apps data collection and storage locations ).
 
 ## <a name="major-data-change-notification"></a>Melding over belangrijke gegevenswijziging
-Microsoft Managed Desktop volgt een wijzigingsbesturingselementproces zoals beschreven in ons servicecommunicatiekader. We informeren klanten via het Microsoft 365 message center en Microsoft Managed Desktop admin portal van zowel beveiligingsincidenten als belangrijke wijzigingen in de service. Wijzigingen in de typen verzamelde gegevens en de plaats waar deze worden opgeslagen, worden beschouwd als een materiaalwijziging. We bieden minimaal 30 dagen geavanceerde melding van deze wijziging, zoals standaard wordt gebruikt voor Microsoft 365 producten en services. Zie Servicewijzigingen en [communicatie voor meer informatie.](/microsoft-365/managed-desktop/service-description/servicechanges?view=o365-worldwide)
+Microsoft Managed Desktop volgt een wijzigingsbesturingselementproces zoals beschreven in ons servicecommunicatiekader. We informeren klanten via het Microsoft 365 message center en Microsoft Managed Desktop admin portal van zowel beveiligingsincidenten als belangrijke wijzigingen in de service. Wijzigingen in de typen verzamelde gegevens en de plaats waar deze worden opgeslagen, worden beschouwd als een materiaalwijziging. We bieden minimaal 30 dagen geavanceerde melding van deze wijziging, zoals standaard wordt gebruikt voor Microsoft 365 producten en services. Zie Servicewijzigingen en [communicatie voor meer informatie.](/microsoft-365/managed-desktop/service-description/servicechanges)
 
-## <a name="compliance"></a>Naleving
+## <a name="compliance"></a>Compliance
 Microsoft Managed Desktop heeft externe audits uitgevoerd en een uitgebreide reeks nalevingsaanbiedingen verkregen. U vindt meer informatie in Microsoft Managed Desktop [Compliance.](/microsoft-365/managed-desktop/intro/compliance) Auditrapporten zijn beschikbaar om te downloaden op de Microsoft [Service Trust Portal](https://aka.ms/stp), die fungeert als een centrale opslagplaats voor Microsoft Enterprise Online Services. (Microsoft Managed Desktop wordt vermeld in deze documenten onder de categorie 'Monitoring and Management'.) 
 
 ## <a name="legal"></a>Juridisch

@@ -22,12 +22,12 @@ ms.custom:
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 recommendations: false
 description: Meer informatie over hoe u Teams configureert voor een betere beveiliging bij het delen van bestanden met behulp van drie niveaus bescherming, waarbij beveiliging en eenvoudige samenwerking met elkaar in evenwicht zijn.
-ms.openlocfilehash: 34351b202575302e2929db48d7807b91e4308905
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 0c1eb9585326f2269dca02f52e9170788f659c46
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683401"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228817"
 ---
 # <a name="configure-teams-with-three-tiers-of-protection"></a>Teams met drie beschermingsniveaus configureren
 
@@ -122,7 +122,7 @@ Houd er rekening mee dat gasten vaak geen apparaten hebben die door uw organisat
 
 De instelling voor niet-beherende apparaten in gevoeligheidslabels is alleen van invloed op SharePoint-toegang. Als u de controle over niet-beheerde apparaten wilt uitbreiden buiten SharePoint, kunt u in plaats daarvan [Een beleid voor voorwaardelijke toegang van Azure Active Directory maken voor alle apps en services in uw organisatie](/azure/active-directory/conditional-access/howto-conditional-access-policy-compliant-device). Als u dit beleid specifiek wilt configureren voor [Microsoft 365-services](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps#office-365), selecteert u de cloud-app **Office 365** onder **Cloud-apps of -acties**.
 
-![Schermafbeelding van de Office 365-cloud-app in een beleid voor voorwaardelijke toegang van Azure Active Directory](https://docs.microsoft.com/sharepoint/sharepointonline/media/azure-ca-office365-policy.png)
+![Schermafbeelding van de Office 365-cloud-app in een beleid voor voorwaardelijke toegang van Azure Active Directory](/sharepoint/sharepointonline/media/azure-ca-office365-policy.png)
 
 Als u een beleid gebruikt dat van invloed is op alle Microsoft 365-services, kan dit leiden tot betere beveiliging en een betere gebruikerservaring. Als u bijvoorbeeld de toegang tot niet-beheerde apparaten in SharePoint blokkeert, hebben gebruikers met een niet-beheerd apparaat toegang tot de chatfunctie in een team, maar hebben ze geen toegang meer wanneer ze toegang proberen te krijgen tot het tabblad **Bestanden** . Met de Office 365-cloud-app kunt u problemen met [serviceafhankelijkheden](/azure/active-directory/conditional-access/service-dependencies) vermijden.
 

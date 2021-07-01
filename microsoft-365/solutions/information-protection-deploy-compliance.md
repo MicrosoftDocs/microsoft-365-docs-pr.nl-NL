@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Lees hoe u compliancescore en compliancebeheer gebruikt om uw beschermingsniveau voor persoonlijke gegevens te verbeteren.
-ms.openlocfilehash: 87131ea65661e8285fd7c3b36a87c79b618348d7
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 26e9f54ce77869f4f6ef07c18147483628ddc223
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50918568"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229297"
 ---
 # <a name="use-compliance-manager-to-manage-improvement-actions"></a>Compliancebeheer gebruiken om verbeteracties te beheren
 
@@ -30,19 +30,18 @@ Microsoft Compliance Manager kan u helpen bij het beheren van verbeteringen met 
 
 Dit artikel bevat richtlijnen voor het gebruik van dit hulpprogramma voor privacydoeleinden voor gegevens.
 
->[!Note]
->Aanbevelingen van Compliancebeheer mogen niet worden geïnterpreteerd als een garantie voor naleving. Het is aan u om de effectiviteit van klantbesturingselementen per regelgevingsomgeving te evalueren en te valideren. Deze services zijn onderworpen aan de voorwaarden in de [Voorwaarden voor onlineservices.](https://go.microsoft.com/fwlink/?linkid=2108910) Zie ook [Microsoft 365 richtlijnen voor licenties voor beveiliging en naleving](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#compliance-manager)
->
+> [!NOTE]
+> Aanbevelingen van Compliancebeheer mogen niet worden geïnterpreteerd als een garantie voor naleving. Het is aan u om de effectiviteit van klantbesturingselementen per regelgevingsomgeving te evalueren en te valideren. Deze services zijn onderworpen aan de voorwaarden in de [Voorwaarden voor onlineservices.](https://go.microsoft.com/fwlink/?linkid=2108910) Zie ook [Microsoft 365 richtlijnen voor licenties voor beveiliging en naleving](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#compliance-manager)
 
 ## <a name="getting-started-with-compliance-manager"></a>Aan de slag met Compliance Manager
 
 #### <a name="what-is-compliance-manager"></a>Wat is Compliance Manager
 
-[Compliance Manager](../compliance/compliance-manager.md) is een op werkstroom gebaseerd hulpprogramma voor risicoanalyse in het Microsoft 365 compliancecentrum voor het beheren van complianceactiviteiten voor regelgeving met betrekking tot Microsoft-cloudservices. Als onderdeel van uw Microsoft 365 of Azure Active Directory (Azure AD)-abonnement, helpt Compliance Manager u bij het beheren van naleving van regelgeving binnen het gedeelde verantwoordelijkheidsmodel voor Microsoft-cloudservices.
+[Compliance Manager](../compliance/compliance-manager.md) is een op werkstroom gebaseerd hulpprogramma voor risicoanalyse in de Microsoft 365-compliancecentrum voor het beheren van nalevingsactiviteiten voor regelgeving met betrekking tot Microsoft-cloudservices. Als onderdeel van uw Microsoft 365 of Azure Active Directory (Azure AD)-abonnement, helpt Compliance Manager u bij het beheren van naleving van regelgeving binnen het gedeelde verantwoordelijkheidsmodel voor Microsoft-cloudservices.
 
 **Klaar om evaluaties te gebruiken**
 
-Compliance Manager biedt voorafgebouwde sjablonen voor het maken van [beoordelingen](../compliance/compliance-manager-assessments.md) die zijn afgestemd op privacygerelateerde voorschriften voor gegevens, zoals AVG en HIPAA/HITECH. De sjablonen hebben ingebouwde besturingstoewijzing om u te helpen verbeteracties uit te voeren om aan de vereisten van de verordening te voldoen. Elke beoordeling bevat informatie over de besturingselementen die door elke verordening specifiek worden gebruikt voor de doelservice, uitgesplits naar besturingselementen die u beheert en besturingselementen die Microsoft beheert. 
+Compliance Manager biedt voorafgebouwde sjablonen voor het maken van [beoordelingen](../compliance/compliance-manager-assessments.md) die zijn afgestemd op privacygerelateerde voorschriften voor gegevens, zoals AVG en HIPAA/HITECH. De sjablonen hebben ingebouwde besturingstoewijzing om u te helpen verbeteracties uit te voeren om aan de vereisten van de verordening te voldoen. Elke beoordeling bevat informatie over de besturingselementen die door elke verordening specifiek worden gebruikt voor de doelservice, uitgesplits naar besturingselementen die u beheert en besturingselementen die Microsoft beheert.
 
 Met behulp van een vooraf gebouwde sjabloon kunt u snel aan de slag met risicobeoordelingen. Naarmate u meer ervaring hebt met het gebruik van Compliance Manager, kunt u een vooraf gebouwde sjabloon aanpassen door uw eigen besturingselementen en verbeteracties toe te voegen, of u kunt uw eigen aangepaste beoordelingen maken die aan de behoeften van uw organisatie voldoen.
 
@@ -59,7 +58,7 @@ De [handleiding Aan de slag met Compliance Manager](../compliance/compliance-man
 - [Eerste bezoek: vertrouwd raken met Compliance Manager](../compliance/compliance-manager-quickstart.md#first-visit-get-to-know-compliance-manager)
     - Werken met uw Compliance Manager-dashboard
     - Inzicht krijgen in de nalevingsscore
-    - Informatie over verbeteracties
+    - Learning over verbeteracties
     - Evaluaties en sjablonen begrijpen
 - [Up-to-top: Compliance Manager configureren om uw complianceactiviteiten te beheren](../compliance/compliance-manager-quickstart.md#ramping-up-configure-compliance-manager-to-manage-your-compliance-activities)
     - Uw eerste beoordeling opbouwen en beheren

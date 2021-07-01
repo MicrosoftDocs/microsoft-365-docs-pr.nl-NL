@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Overzicht: Inzicht in de migratiefasen en de gevolgen van de overstap van Microsoft Cloud Germany (Microsoft Cloud Deutschland) naar Office 365 services in de nieuwe Duitse datacenterregio.'
-ms.openlocfilehash: c80a7cfc4f930011f65a07c4b46cdf4921766c34
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: abf58930e2f937922733fedec2f13bfc2949fcb8
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52930449"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229825"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland"></a>Acties en effecten van migratiefasen voor de migratie vanuit Microsoft Cloud Deutschland
 
@@ -134,7 +134,7 @@ Aanvullende aandachtspunten:
 
 - Als uw organisatie nog steeds SharePoint 2010-werkstromen gebruikt, werken ze niet meer na 31 december 2021. SharePoint 2013-werkstromen blijven ondersteund, maar zijn standaard uitgeschakeld voor nieuwe tenants vanaf 1 november 2020. Nadat de migratie naar de SharePoint Online-service is voltooid, raden we u aan over te gaan naar Power Automate of andere ondersteunde oplossingen.
  - Klanten van Microsoft Cloud Deutschland waarvan het SharePoint Online-exemplaar nog niet is gemigreerd, moeten de SharePoint Online PowerShell-module/Microsoft.SharePointOnline.CSOM versie 16.0.20616.12000 of lager gebruiken. Anders mislukt de verbinding SharePoint Online via PowerShell of het objectmodel aan de clientzijde.
-- Tijdens deze fase worden de IP-adressen achter de SharePoint URL's gewijzigd. Na de overgang naar Office 365 Globale services worden de adressen voor de behouden tenant-URL's (bijvoorbeeld en ) gewijzigd in de URL's en IP-adresbereiken wereldwijd Microsoft 365 (SharePoint Online en `contoso.sharepoint.de` `contoso-my.sharepoint.de` [OneDrive voor Bedrijven).](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#sharepoint-online-and-onedrive-for-business)
+- Tijdens deze fase worden de IP-adressen achter de SharePoint URL's gewijzigd. Na de overgang naar Office 365 Globale services worden de adressen voor de behouden tenant-URL's (bijvoorbeeld en ) gewijzigd in de URL's en IP-adresbereiken wereldwijd Microsoft 365 (SharePoint Online en `contoso.sharepoint.de` `contoso-my.sharepoint.de` [OneDrive voor Bedrijven).](/microsoft-365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business)
 - Hoewel SharePoint en OneDrive services worden overge Office werkt online mogelijk niet zoals verwacht. 
 
 > [!NOTE]
@@ -231,7 +231,7 @@ In deze fase worden Skype voor Bedrijven gemigreerd naar Microsoft Teams. Bestaa
 - Gebruikers kunnen zich niet aanmelden bij Skype voor Bedrijven tijdserviceovergangen naar Office 365 services en niet totdat dns-items van klanten zijn voltooid.
 - Contactpersonen en bestaande vergaderingen blijven fungeren als Skype voor Bedrijven vergaderingen.
 
-Wanneer een vanity-domein is geconfigureerd voor Skype voor Bedrijven, moeten de DNS-vermeldingen worden bijgewerkt. Raadpleeg Domeinen [in het Microsoft 365 beheercentrum](https://admin.microsoft.com/Adminportal/Home#/Domains) en pas de wijzigingen in uw DNS-configuratie toe. 
+Wanneer een vanity-domein is geconfigureerd voor Skype voor Bedrijven, moeten de DNS-vermeldingen worden bijgewerkt. Raadpleeg Domeinen [in de Microsoft 365-beheercentrum](https://admin.microsoft.com/Adminportal/Home#/Domains) en pas de wijzigingen in uw DNS-configuratie toe. 
 
 Als u verbinding moet maken met Skype voor Bedrijven Online met PowerShell nadat migratiefase 9 is voltooid, gebruikt u de volgende PowerShell-code om verbinding te maken:
 

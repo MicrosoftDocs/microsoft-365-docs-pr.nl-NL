@@ -1,6 +1,6 @@
 ---
-title: Voer uw Microsoft 365 Defender-aanvalssimulaties uit
-description: Voer aanvalssimulaties uit voor Microsoft 365 Defender-pilotproject om te zien hoe het zich ontwikkelt en wordt snel opgelost.
+title: Voer uw Microsoft 365 Defender aanvalssimulaties uit
+description: Voer aanvalssimulaties uit voor Microsoft 365 Defender pilotproject om te zien hoe het zich ontwikkelt en wordt snel gesaneerd.
 keywords: Microsoft 365 Defender pilot attack simulation, run Microsoft 365 Defender pilot attack simulate, simulate attack in Microsoft 365 Defender, Microsoft 365 Defender pilot project, cyber security, advanced persistent threat, enterprise security, devices, device, identity, users, data, applications, incidents, automated investigation and remediation, advanced hunting
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -21,14 +21,14 @@ ms.collection:
 - m365solution-pilotmtpproject
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 767a7ea4c4c7604d1d4b227f08e4ca32c62737c5
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 18dc8158ef3c806e5dac5a01778adebc6eecc1ce
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934475"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53230017"
 ---
-# <a name="run-your-microsoft-365-defender-attack-simulations"></a>Voer uw Microsoft 365 Defender-aanvalssimulaties uit
+# <a name="run-your-microsoft-365-defender-attack-simulations"></a>Voer uw Microsoft 365 Defender aanvalssimulaties uit
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -39,7 +39,7 @@ ms.locfileid: "51934475"
 
 U zit momenteel in de fase van de aanvalssimulatie.
 
-Nadat u de testomgeving hebt voorbereid, is het tijd om de mogelijkheden Microsoft 365 incidentbeheer en geautomatiseerde onderzoeks- en herstelmogelijkheden van Defender te testen. We helpen u bij het simuleren van een geavanceerde aanval die gebruik maakt van geavanceerde technieken om te verbergen voor detectie. Met de aanval worden geopende SMB-sessies (Server Message Block) op domeincontrollers opgeslagen en worden recente IP-adressen van apparaten van gebruikers opgehaald. Deze categorie aanvallen bevat meestal geen bestanden die zijn gedropt op het apparaat van het slachtoffer, maar alleen in het geheugen. Ze 'leven van het land' door bestaande systeem- en beheerhulpmiddelen te gebruiken en hun code in systeemprocessen te injecteren om hun uitvoering te verbergen, met dergelijk gedrag kunnen ze detectie omzeilen en blijven ze op het apparaat.
+Nadat u de testomgeving hebt voorbereid, is het tijd om de mogelijkheden Microsoft 365 Defender incidentbeheer en geautomatiseerde onderzoeks- en herstelmogelijkheden te testen. We helpen u bij het simuleren van een geavanceerde aanval die gebruik maakt van geavanceerde technieken om te verbergen voor detectie. Met de aanval worden geopende SMB-sessies (Server Message Block) op domeincontrollers opgeslagen en worden recente IP-adressen van apparaten van gebruikers opgehaald. Deze categorie aanvallen bevat meestal geen bestanden die zijn gedropt op het apparaat van het slachtoffer, maar alleen in het geheugen. Ze 'leven van het land' door bestaande systeem- en beheerhulpmiddelen te gebruiken en hun code in systeemprocessen te injecteren om hun uitvoering te verbergen, met dergelijk gedrag kunnen ze detectie omzeilen en blijven ze op het apparaat.
 
 In deze simulatie begint ons voorbeeldscenario met een PowerShell-script. Een gebruiker kan worden misleid bij het uitvoeren van een script. Of het script kan worden uitgevoerd vanaf een externe verbinding met een andere computer vanaf een eerder geïnfecteerd apparaat, de aanvaller die lateraal probeert te bewegen in het netwerk. Detectie van deze scripts kan lastig zijn omdat beheerders ook vaak scripts op afstand uitvoeren om verschillende beheeractiviteiten uit te voeren.
 
@@ -54,7 +54,7 @@ Tijdens de simulatie injecteert de aanval shellcode in een schijnbaar onschuldig
 
 Aangezien u de testomgeving al hebt geconfigureerd tijdens de voorbereidingsfase, moet u ervoor zorgen dat u twee apparaten hebt voor dit scenario: een testapparaat en een domeincontroller.
 
-1. Controleer of uw tenant is [ingeschakeld Microsoft 365 Defender.](m365d-enable.md#confirm-that-the-service-is-on)
+1. Controleer of uw tenant [de](m365d-enable.md#confirm-that-the-service-is-on)Microsoft 365 Defender.
 
 2. Controleer de configuratie van uw testdomeincontroller:
 
@@ -134,7 +134,7 @@ Als u overschakelt naar het standpunt van de soc-analist, kunt u nu beginnen met
 
 ### <a name="investigate-the-attack-as-a-single-incident"></a>De aanval als één incident onderzoeken
 
-Microsoft 365 Defender correleert analyses en aggregeert alle gerelateerde waarschuwingen en onderzoeken van verschillende producten in één incidententiteit. Op deze Microsoft 365 Defender een breder aanvalsverhaal, zodat de SOC-analist complexe bedreigingen kan begrijpen en beantwoorden.
+Microsoft 365 Defender worden analyses gecorreleerd en worden alle gerelateerde waarschuwingen en onderzoeken van verschillende producten samengevoegd tot één incidententiteit. Op deze Microsoft 365 Defender een breder aanvalsverhaal, zodat de SOC-analist complexe bedreigingen begrijpt en beantwoordt.
 
 De waarschuwingen die tijdens deze simulatie worden gegenereerd, worden gekoppeld aan dezelfde bedreiging en worden als gevolg hiervan automatisch samengevoegd als één incident.
 
@@ -148,7 +148,7 @@ Het incident weergeven:
 
    ![Schermafbeelding van de pagina incidenten waarin gegenereerde waarschuwingen worden samengevoegd tijdens de simulatie](../../media/mtp/fig4.png)
 
-   De waarschuwingen in het dashboard kunnen worden gefilterd op basis van servicebronnen: Microsoft Defender voor identiteit, Microsoft Cloud App Security, Microsoft Defender voor eindpunt, Microsoft 365 Defender en Microsoft Defender voor Office 365.
+   De waarschuwingen in het dashboard kunnen worden gefilterd op basis van servicebronnen: Microsoft Defender voor identiteit, Microsoft Cloud App Security, Microsoft Defender voor Eindpunt, Microsoft 365 Defender en Microsoft Defender voor Office 365.
 
 3. Selecteer **De pagina Incident openen** voor meer informatie over het incident.
 
@@ -158,14 +158,14 @@ Het incident weergeven:
 
    ![Schermafbeelding van waar u op Incident beheren kunt klikken](../../media/mtp/fig5a.png)
 
-   ![Schermafbeelding van de velden in het deelvenster Incident beheren waar u het incident kunt taggen, aan uzelf kunt toewijzen en opmerkingen kunt toevoegen ](../../media/mtp/fig5b.png)
+   ![Schermafbeelding van de velden in het deelvenster Incident beheren waar u het incident kunt taggen, aan uzelf kunt toewijzen en opmerkingen kunt toevoegen](../../media/mtp/fig5b.png)
 
 ### <a name="review-generated-alerts"></a>Gegenereerde waarschuwingen controleren
 
 Laten we eens kijken naar enkele waarschuwingen die tijdens de gesimuleerde aanval zijn gegenereerd.
 
 > [!NOTE]
-> We lopen door slechts een paar waarschuwingen die tijdens de gesimuleerde aanval zijn gegenereerd. Afhankelijk van de versie van Windows en de Microsoft 365 Defender-producten die op uw testapparaat worden uitgevoerd, ziet u mogelijk meer waarschuwingen die in een iets andere volgorde worden weergegeven.
+> We lopen door slechts een paar waarschuwingen die tijdens de gesimuleerde aanval zijn gegenereerd. Afhankelijk van de versie van Windows en de Microsoft 365 Defender producten die op uw testapparaat worden uitgevoerd, ziet u mogelijk meer waarschuwingen die in een iets andere volgorde worden weergegeven.
 
 ![Schermafbeelding van gegenereerde waarschuwingen](../../media/mtp/fig6.png)
 
@@ -279,7 +279,7 @@ Hiermee wordt de aanvalssimulatie voor de scenario's voor incidentbeheer en geau
 
 Er is één intern postvak en één apparaat vereist voor dit scenario. U hebt ook een extern e-mailaccount nodig om het testbericht te verzenden.
 
-1. Controleer of uw tenant het Microsoft 365 Defender heeft [ingeschakeld.](m365d-enable.md#confirm-that-the-service-is-on)
+1. Controleer of uw tenant [de](m365d-enable.md#confirm-that-the-service-is-on)Microsoft 365 Defender.
 2. Identificeer een doelpostvak dat moet worden gebruikt voor het ontvangen van e-mail.
     a. Dit postvak moet worden gecontroleerd door Microsoft Defender voor Office 365 b. Het apparaat van vereiste 3 moet toegang krijgen tot dit postvak
 3. Een testapparaat configureren: a. Zorg ervoor dat u de Windows 10 versie 1903 of hoger gebruikt.
@@ -437,15 +437,15 @@ Voor meer informatie over geavanceerd jagen, worden in de volgende webcasts de m
 > [!NOTE]
 > Wees voorbereid met uw eigen GitHub om de zoekquery's uit te voeren in uw testlaboratoriumomgeving.
 
-|Title|Beschrijving|MP4 downloaden|Bekijken op YouTube|CSL-bestand dat u wilt gebruiken|
+|Title|Omschrijving|MP4 downloaden|Bekijken op YouTube|CSL-bestand dat u wilt gebruiken|
 |---|---|---|---|---|
 |Aflevering 1: KQL-fundamentals|We behandelen de basisbeginselen van geavanceerde zoekmogelijkheden in Microsoft 365 Defender. Meer informatie over beschikbare geavanceerde zoekgegevens en basis-syntaxis en operatoren van KQL.|[MP4](https://aka.ms/MTP15JUL20_MP4)|[YouTube](https://youtu.be/0D9TkGjeJwM)|[Aflevering 1: CSL-bestand in Git](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%201%20-%20KQL%20Fundamentals.csl)|
 |Aflevering 2: Joins|We gaan verder met het leren van gegevens in geavanceerde zoekprocessen en het samenbrengen van tabellen. Meer informatie over inner,outer, unique en semi joins en de nuances van de standaard Kusto innerunique join.|[MP4](https://aka.ms/MTP22JUL20_MP4)|[YouTube](https://youtu.be/LMrO6K5TWOU)|[Aflevering 2: CSL-bestand in Git](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%202%20-%20Joins.csl)|
 |Aflevering 3: Gegevens samenvatten, draaien en visualiseren|Nu we gegevens kunnen filteren, manipuleren en joinen, is het tijd om te beginnen met het samenvatten, kwantificeren, draaien en visualiseren. In deze aflevering behandelen we de samenvattende operator en enkele berekeningen die u kunt uitvoeren tijdens het duiken in extra tabellen in het geavanceerde schema voor de jacht. We veranderen onze gegevenssets in grafieken waarmee we de analyse kunnen verbeteren.|[MP4](https://aka.ms/MTP29JUL20_MP4)|[YouTube](https://youtu.be/UKnk9U1NH6Y)|[Aflevering 3: CSL-bestand in Git](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%203%20-%20Summarizing%2C%20Pivoting%2C%20and%20Joining.csl)|
-|Aflevering 4: Laten we op zoek gaan! KQL toepassen op het bijhouden van incidenten|Tijd om wat activiteiten van de aanvaller bij te houden! In deze aflevering gebruiken we ons verbeterde begrip van KQL en geavanceerde Microsoft 365 Defender om een aanval bij te houden. Lees enkele tips en trucs die in het veld worden gebruikt om activiteiten van aanvallers bij te houden, waaronder de ABC's van cyberbeveiliging en hoe u deze kunt toepassen op incidentrespons.|[MP4](https://aka.ms/MTP5AUG20_MP4)|[YouTube](https://youtu.be/2EUxOc_LNd8)|[Aflevering 4: CSL-bestand in Git](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%204%20-%20Lets%20Hunt.csl)|
+|Aflevering 4: Laten we op zoek gaan! KQL toepassen op het bijhouden van incidenten|Tijd om wat activiteiten van de aanvaller bij te houden! In deze aflevering gebruiken we ons verbeterde inzicht in KQL en geavanceerde Microsoft 365 Defender om een aanval bij te houden. Lees enkele tips en trucs die in het veld worden gebruikt om activiteiten van aanvallers bij te houden, waaronder de ABC's van cyberbeveiliging en hoe u deze kunt toepassen op incidentrespons.|[MP4](https://aka.ms/MTP5AUG20_MP4)|[YouTube](https://youtu.be/2EUxOc_LNd8)|[Aflevering 4: CSL-bestand in Git](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%204%20-%20Lets%20Hunt.csl)|
 |
 
 ## <a name="next-step"></a>Volgende stap
 
-|![Slotfase en overzichtsfase](../../media/mtp/close.png) <br>[Slotfase en overzichtsfase](m365d-pilot-close.md)|Analyseer uw Microsoft 365 defender-testresultaat, presenteert deze aan uw belanghebbenden en zet de volgende stap.
+|![Slotfase en overzichtsfase](../../media/mtp/close.png) <br>[Slotfase en overzichtsfase](m365d-pilot-close.md)|Analyseer uw Microsoft 365 Defender testresultaat, presenteert deze aan uw belanghebbenden en zet de volgende stap.
 |:-----|:-----|

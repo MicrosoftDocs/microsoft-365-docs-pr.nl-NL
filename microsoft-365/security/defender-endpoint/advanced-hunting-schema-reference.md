@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 01/14/2020
 ms.technology: mde
-ms.openlocfilehash: fa111197dfd68cfcca40ce8a39befe20b97d1be8
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+ms.openlocfilehash: fcc7d96f51121824550128e89186074e1ebc3ce0
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939634"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228877"
 ---
 # <a name="understand-the-advanced-hunting-schema-in-microsoft-defender-for-endpoint"></a>Het geavanceerde schema voor de jacht in Microsoft Defender voor Eindpunt begrijpen
 
@@ -31,7 +31,7 @@ ms.locfileid: "51939634"
 **Van toepassing op:**
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 
->Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-advancedhuntingref-abovefoldlink)
+>Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-advancedhuntingref-abovefoldlink)
 
 [!include[Prerelease information](../../includes/prerelease.md)]
 
@@ -56,7 +56,7 @@ In de volgende verwijzing vindt u alle tabellen in het geavanceerde schema voor 
 
 Tabel- en kolomnamen worden ook weergegeven in de Microsoft Defender-beveiligingscentrum, in de schemaweergave op het geavanceerde zoekscherm.
 
-| Tabelnaam | Beschrijving |
+| Tabelnaam | Omschrijving |
 |------------|-------------|
 | **[DeviceAlertEvents](advanced-hunting-devicealertevents-table.md)** | Waarschuwingen op Microsoft Defender-beveiligingscentrum |
 | **[DeviceInfo](advanced-hunting-deviceinfo-table.md)** | Apparaatgegevens, inclusief OS-informatie |
@@ -79,7 +79,7 @@ Tabel- en kolomnamen worden ook weergegeven in de Microsoft Defender-beveiliging
 >Gebruik [geavanceerde jacht in Microsoft 365 Defender](/microsoft-365/security/defender/advanced-hunting-overview) om te zoeken naar bedreigingen met behulp van gegevens van Defender voor Eindpunt, Microsoft Defender voor Office 365, Microsoft Cloud App Security en Microsoft Defender voor identiteit. [Microsoft 365 Defender inschakelen](/microsoft-365/security/defender/m365d-enable)<br><br>
 Meer informatie over het verplaatsen van uw geavanceerde zoekwerkstromen van Microsoft Defender voor Eindpunt naar Microsoft 365 Defender in Geavanceerde zoekquery's migreren vanuit [Microsoft Defender voor Eindpunt.](/microsoft-365/security/defender/advanced-hunting-migrate-from-mde)
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-topics"></a>Gerelateerde onderwerpen
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)
 - [De querytaal leren](advanced-hunting-query-language.md)
 - [Werken met queryresultaten](advanced-hunting-query-results.md)

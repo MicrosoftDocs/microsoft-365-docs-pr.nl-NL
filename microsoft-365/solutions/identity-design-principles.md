@@ -14,12 +14,12 @@ ms.collection:
 - M365solutions
 ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
-ms.openlocfilehash: c94b387bbd73e2c4f9b3de243131ae023ddb4cb8
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: b424b4f611f0553de4b7129d2c0b63cefbdeeab3
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222523"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229357"
 ---
 # <a name="to-identity-and-beyondone-architects-viewpoint"></a>Naar identiteit en verder: het gezichtspunt van één architect
 
@@ -50,7 +50,7 @@ Sla deze sectie niet over. Ik vind vaak dat ik terug moet naar deze onderwerpen,
 Taal is helaas geen nauwkeurig hulpmiddel. We gebruiken vaak hetzelfde woord om verschillende concepten of verschillende woorden te betekenen om hetzelfde concept te betekenen. Ik gebruik dit diagram hieronder vaak om bepaalde basislijnterminologie en 'hiërarchiemodel' vast te stellen.
 <br><br>
 
-![Afbeelding van tenant, abonnement, service en gegevens](../media/solutions-architecture-center/Identity-and-beyond-tenant-level.png)  
+![Afbeelding van tenant, abonnement, service en gegevens](../media/solutions-architecture-center/Identity-and-beyond-tenant-level.png)
 
 <br>
 
@@ -98,7 +98,7 @@ XYZ SaaS ondersteunt Just-in-Time (JIT)-inrichting, waarom moet ik synchronisere
 
 [Wachtwoordhashsynchronisatie](/azure/active-directory/hybrid/how-to-connect-password-hash-synchronization) (PHS) versus [pass-through authentication](/azure/active-directory/hybrid/how-to-connect-pta-how-it-works) (PTA) vs. [federatie](/azure/active-directory/hybrid/how-to-connect-fed-compatibility).
 
-Meestal is er een [gepassioneerde discussie](/azure/active-directory/hybrid/choose-ad-authn) rond federatie. Eenvoudiger is meestal beter en gebruik daarom PHS, tenzij u een goede reden hebt om dit niet te doen. Het is ook mogelijk om verschillende verificatiemethoden te configureren voor verschillende DNS-domeinen in dezelfde tenant. 
+Meestal is er een [gepassioneerde discussie](/azure/active-directory/hybrid/choose-ad-authn) rond federatie. Eenvoudiger is meestal beter en gebruik daarom PHS, tenzij u een goede reden hebt om dit niet te doen. Het is ook mogelijk om verschillende verificatiemethoden te configureren voor verschillende DNS-domeinen in dezelfde tenant.
 
 Sommige klanten maken federatie + PHS voornamelijk mogelijk voor:
 
@@ -132,14 +132,14 @@ Als u al deze signalen combineert, kunt u dynamische beleidsregels als deze make
 
 Als u akkoord gaat met deze uitgebreide definitie van autorisatie, moet u aanvullende oplossingen implementeren. Welke oplossingen u implementeert, is afhankelijk van de dynamische manier waarop u het beleid wilt uitvoeren en welke bedreigingen u prioriteit wilt geven. Enkele voorbeelden van dergelijke systemen zijn:
 
-- [Azure AD Identity Protection](/azure/active-directory/identity-protection/) 
+- [Azure AD Identity Protection](/azure/active-directory/identity-protection/)
 - [Microsoft Defender for Identity](/azure-advanced-threat-protection/)
 - [Microsoft Defender voor Endpoint](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
-- [Microsoft Defender voor Office 365](../security/office-365-security/defender-for-office-365.md?view=o365-worldwide)
+- [Microsoft Defender voor Office 365](../security/office-365-security/defender-for-office-365.md)
 - [Microsoft Cloud App Security](/cloud-app-security/) (MCAS)
-- [Microsoft 365 Defender](../security/defender/microsoft-365-defender.md?view=o365-worldwide)
+- [Microsoft 365 Defender](../security/defender/microsoft-365-defender.md)
 - [Microsoft Intune](/mem/intune/)
-- [Microsoft Information Protection](../compliance/information-protection.md?view=o365-worldwide) (MIP)
+- [Microsoft Information Protection](../compliance/information-protection.md) (MIP)
 - [Azure Sentinel](/azure/sentinel/)
 
 Naast Azure AD hebben verschillende services en toepassingen natuurlijk hun eigen specifieke autorisatiemodellen. Sommige van deze onderwerpen worden later besproken in de sectie Delegatie.
@@ -154,11 +154,11 @@ Geen paniek! Dit betekent niet dat Exchange wordt afgeschaft (of SharePoint, en 
 
 ![Een bestand toevoegen aan een e-mailbericht](../media/solutions-architecture-center/modern-attachments.png)
 
-Als u de Outlook ziet, ziet u veel services die 'verbonden' zijn als onderdeel van deze ervaring, niet alleen Exchange. Dit omvat Azure AD, Microsoft Search, Apps, Profiel, compliance en Office 365 groepen. 
+Als u de Outlook ziet, ziet u veel services die 'verbonden' zijn als onderdeel van deze ervaring, niet alleen Exchange. Dit omvat Azure AD, Microsoft Search, Apps, Profiel, compliance en Office 365 groepen.
 
 ![Outlook interface met bijroepen](../media/solutions-architecture-center/identity-and-beyond-conceptual-screenshot.png)
 
-Lees meer [Microsoft Vloeiend Framework](https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-ignite-blog-microsoft-fluid-framework-preview/ba-p/978268) voor een voorbeeld van toekomstige mogelijkheden. In preview kan ik nu rechtstreeks in Teams gesprekken lezen en Outlook. In feite is [de Teams een](https://products.office.com/microsoft-teams/download-app) van de meest prominente voorbeelden van deze strategie. 
+Lees meer [Microsoft Vloeiend Framework](https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-ignite-blog-microsoft-fluid-framework-preview/ba-p/978268) voor een voorbeeld van toekomstige mogelijkheden. In preview kan ik nu rechtstreeks in Teams gesprekken lezen en Outlook. In feite is [de Teams een](https://products.office.com/microsoft-teams/download-app) van de meest prominente voorbeelden van deze strategie.
 
 Over het algemeen wordt het steeds moeilijker om een duidelijke lijn te trekken tussen Office 365 en andere services in Microsoft-clouds. Ik zie het als een groot voordeel voor klanten, omdat ze kunnen profiteren van totale innovatie in alles wat we doen, zelfs als ze één onderdeel gebruiken. Behoorlijk cool en heeft verreikende gevolgen voor veel klanten.
 
@@ -182,10 +182,10 @@ Sommige klanten kiezen ervoor om met meer dan één tenant te gaan. Dit moet een
 
 - Een bedrijfsstructuur van het type holding waarbij eenvoudige samenwerking tussen verschillende entiteiten niet vereist is en er sterke administratieve en andere isolatiebehoeften zijn.
 - Na een overname wordt besloten om twee entiteiten gescheiden te houden.
-- Simulatie van de omgeving van een klant die de productieomgeving van de klant niet wijzigt. 
+- Simulatie van de omgeving van een klant die de productieomgeving van de klant niet wijzigt.
 - Ontwikkeling van software voor klanten.
 
-In deze scenario's met meerdere tenants willen klanten vaak een bepaalde configuratie voor tenants hetzelfde houden of rapporteren over configuratiewijzigingen en -afwisselingen. Dit betekent vaak dat u over moet gaan van handmatige wijzigingen naar configuratie als code. Ondersteuning voor Microsoft Premiere biedt een workshop voor dit soort vereisten op basis van dit openbare IP-adres: [https://Microsoft365dsc.com](https://Microsoft365dsc.com) .
+In deze scenario's met meerdere tenants willen klanten vaak een bepaalde configuratie voor tenants hetzelfde houden of rapporteren over configuratiewijzigingen en -afwisselingen. Dit betekent vaak dat u over moet gaan van handmatige wijzigingen naar configuratie als code. Ondersteuning voor Microsoft Premiere biedt een workshop voor dit soort vereisten op basis van dit openbare IP-adres: <https://Microsoft365dsc.com> .
 
 ### <a name="multi-geo"></a>Multi-Geo
 
@@ -195,7 +195,7 @@ Aan [Multi-Geo](../enterprise/microsoft-365-multi-geo.md) of niet naar Multi-Geo
 - Het is geen oplossing voor [avg-naleving.](https://www.microsoft.com/trust-center/privacy/gdpr-overview) De AVG richt zich niet op gegevenssoevereiniteit of opslaglocaties. Er zijn andere compliancekaders voor.
 - De overdracht van beheer (zie hieronder) of informatiebarrières worden [niet opgelost.](../compliance/information-barriers.md)
 - Het is niet hetzelfde als multitenten en vereist extra werkstromen voor het [inrichten van](https://github.com/MicrosoftDocs/azure-docs-pr/blob/master/articles/active-directory/hybrid/how-to-connect-sync-feature-preferreddatalocation.md) gebruikers.
-- De tenant [(uw](../enterprise/moving-data-to-new-datacenter-geos.md) Azure AD) wordt niet verplaatst naar een andere geografie. 
+- De tenant [(uw](../enterprise/moving-data-to-new-datacenter-geos.md) Azure AD) wordt niet verplaatst naar een andere geografie.
 
 ## <a name="delegation-of-administration"></a>Delegeren van beheer
 
@@ -203,15 +203,15 @@ In de meeste grote organisaties is scheiding van taken en functiegebaseerd toega
 
 ### <a name="azure-ad-and-microsoft-365-admin-centers"></a>Azure AD en Microsoft 365-beheercentra
 
-Er is een lange en groeiende lijst met [ingebouwde rollen.](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) Elke rol bestaat uit een lijst met rollenmachtigingen die zijn gegroepeerd om specifieke acties uit te voeren. U kunt deze machtigingen zien op het tabblad Beschrijving in elke rol. U kunt ook een beter leesbare versie van deze versies zien in het Microsoft 365 beheercentrum. De definities voor ingebouwde rollen kunnen niet worden gewijzigd. In het algemeen groeper ik deze in drie categorieën:
+Er is een lange en groeiende lijst met [ingebouwde rollen.](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) Elke rol bestaat uit een lijst met rollenmachtigingen die zijn gegroepeerd om specifieke acties uit te voeren. U kunt deze machtigingen zien op het tabblad Beschrijving in elke rol. U kunt ook een beter leesbare versie van deze versies zien in het Microsoft 365-beheer Center. De definities voor ingebouwde rollen kunnen niet worden gewijzigd. In het algemeen groeper ik deze in drie categorieën:
 
-- **Globale beheerder:** deze 'krachtige' rol moet [net](../enterprise/protect-your-global-administrator-accounts.md) als in andere systemen sterk worden beveiligd. Typische aanbevelingen zijn: geen permanente toewijzing en gebruik Azure AD Privileged Identity Management (PIM); sterke verificatie; en zo verder. Het is interessant dat deze rol u niet standaard toegang geeft tot alles. Meestal zie ik verwarring over compliancetoegang en Azure-toegang, die later worden besproken. Deze rol kan echter altijd toegang toewijzen aan andere services in de tenant. 
+- **Globale beheerder:** deze 'krachtige' rol moet [net](../enterprise/protect-your-global-administrator-accounts.md) als in andere systemen sterk worden beveiligd. Typische aanbevelingen zijn: geen permanente toewijzing en gebruik Azure AD Privileged Identity Management (PIM); sterke verificatie; en zo verder. Het is interessant dat deze rol u niet standaard toegang geeft tot alles. Meestal zie ik verwarring over compliancetoegang en Azure-toegang, die later worden besproken. Deze rol kan echter altijd toegang toewijzen aan andere services in de tenant.
 - **Specifieke servicebeheerders:** sommige services (Exchange, SharePoint, Power BI, en meer) gebruiken beheerrollen op hoog niveau vanuit Azure AD. Dit is niet consistent voor alle services en er worden later meer servicespecifieke rollen besproken.
 - **Functioneel:** Er is een lange (en groeiende) lijst met rollen die zijn gericht op specifieke bewerkingen (gastvernodiger, etc.). Regelmatig worden er meer toegevoegd op basis van de behoeften van de klant.
 
 Het is niet mogelijk om alles te delegeren (hoewel de kloof kleiner wordt), wat betekent dat de rol globale beheerder soms moet worden gebruikt. Configuratie-als-code en automatisering moeten worden overwogen in plaats van personen die lid zijn van deze rol.
 
-**Opmerking:** het Microsoft 365-beheercentrum heeft een gebruiksvriendelijkere interface, maar heeft subset van mogelijkheden in vergelijking met de Azure AD-beheerervaring. Beide portals gebruiken dezelfde Azure AD-rollen, dus wijzigingen vinden op dezelfde plaats plaats. Tip: als u een op identiteitsbeheer gerichte beheer-gebruikersinterface wilt zonder alle onbelangrijke Azure-informatie, gebruikt u [https://aad.portal.azure.com](https://aad.portal.azure.com) . 
+**Opmerking:** de Microsoft 365-beheercentrum heeft een gebruiksvriendelijkere interface, maar heeft een subset met mogelijkheden ten opzichte van de Azure AD-beheerervaring. Beide portals gebruiken dezelfde Azure AD-rollen, dus wijzigingen vinden op dezelfde plaats plaats. Tip: als u een op identiteitsbeheer gerichte beheer-gebruikersinterface wilt zonder alle onbelangrijke Azure-informatie, gebruikt u <https://aad.portal.azure.com> .
 
 Wat staat er in de naam? Maak geen aannames op de naam van de rol. Taal is niet erg nauwkeurig. Het doel moet zijn om bewerkingen te definiëren die moeten worden gedelegeerd voordat u kijkt welke rollen nodig zijn. Door iemand toe te voegen aan de rol 'Beveiligingslezer' kunnen ze niet overal beveiligingsinstellingen zien.
 
@@ -221,7 +221,7 @@ Een andere veelvoorkomende vraag is de mogelijkheid om rollen te scopen tot een 
 
 Voor al deze rollen is direct lidmaatschap vereist (of dynamische toewijzing als u [Azure AD PIM gebruikt).](/azure/active-directory/privileged-identity-management/) Dit betekent dat klanten deze rechtstreeks moeten beheren in Azure AD en dat deze niet kunnen worden gebaseerd op een lidmaatschap van een beveiligingsgroep. Ik ben geen fan van het maken van scripts om deze te beheren, omdat deze moeten worden uitgevoerd met verhoogde rechten. Ik adviseer over het algemeen API-integratie met processystemen zoals ServiceNow of het gebruik van partnerbeheerhulpmiddelen zoals Saviynt. Er zijn technische werkzaamheden gaande om dit in de tijd aan te pakken.
 
-Ik heb [Azure AD PIM](/azure/active-directory/privileged-identity-management/) een paar keer genoemd. Er is een bijbehorende Microsoft Identity Manager (MIM) Een PAM-oplossing [(Privileged Access Management)](/microsoft-identity-manager/pam/privileged-identity-management-for-active-directory-domain-services) voor on-premises besturingselementen. U kunt ook kijken naar [Privileged Access Workstations](/windows-server/identity/securing-privileged-access/privileged-access-workstations) (PAWs) en [Azure AD Identity Governance](/azure/active-directory/governance/identity-governance-overview). Er zijn ook verschillende hulpprogramma's van derden die just-in-time, just-enough en dynamische rolverheffing kunnen inschakelen. Dit maakt meestal deel uit van een grotere discussie voor het beveiligen van een omgeving. 
+Ik heb [Azure AD PIM](/azure/active-directory/privileged-identity-management/) een paar keer genoemd. Er is een bijbehorende Microsoft Identity Manager (MIM) Een PAM-oplossing [(Privileged Access Management)](/microsoft-identity-manager/pam/privileged-identity-management-for-active-directory-domain-services) voor on-premises besturingselementen. U kunt ook kijken naar [Privileged Access Workstations](/windows-server/identity/securing-privileged-access/privileged-access-workstations) (PAWs) en [Azure AD Identity Governance](/azure/active-directory/governance/identity-governance-overview). Er zijn ook verschillende hulpprogramma's van derden die just-in-time, just-enough en dynamische rolverheffing kunnen inschakelen. Dit maakt meestal deel uit van een grotere discussie voor het beveiligen van een omgeving.
 
 Soms vragen scenario's om een externe gebruiker toe te voegen aan een rol (zie de sectie met meerdere tenants, hierboven). Dit werkt prima. [Azure AD B2B](/azure/active-directory/b2b/) is een ander groot en leuk onderwerp om klanten door te helpen, misschien in een ander artikel.
 
@@ -231,7 +231,7 @@ Soms vragen scenario's om een externe gebruiker toe te voegen aan een rol (zie d
 
 In zekere zin zijn dit een evolutie van het Exchange rolgroepenmodel. De Exchange Online heeft echter een eigen [interface voor rollengroepbeheer.](/exchange/permissions-exo) Sommige rollengroepen in Exchange Online worden vergrendeld en beheerd vanuit Azure AD of het Beveiligings- & Compliancecentrum, maar andere kunnen dezelfde of vergelijkbare namen hebben en worden beheerd in Exchange Online (wat de verwarring nog verder aan het vergroten is). Ik raad u aan de gebruikersinterface Exchange Online gebruiken, tenzij u scopes nodig hebt voor Exchange beheer.
 
-U kunt geen aangepaste rollen maken. Rollen worden gedefinieerd door services die door Microsoft zijn gemaakt en worden groter naarmate er nieuwe services worden geïntroduceerd. Dit is in concept vergelijkbaar met [rollen die zijn gedefinieerd door toepassingen](/azure/active-directory/develop/howto-add-app-roles-in-azure-ad-apps) in Azure AD. Wanneer nieuwe services zijn ingeschakeld, moeten er vaak nieuwe rollengroepen worden gemaakt om toegang tot deze services te verlenen of te delegeren (bijvoorbeeld [insider risk management).](../compliance/insider-risk-management-configure.md?view=o365-worldwide)
+U kunt geen aangepaste rollen maken. Rollen worden gedefinieerd door services die door Microsoft zijn gemaakt en worden groter naarmate er nieuwe services worden geïntroduceerd. Dit is in concept vergelijkbaar met [rollen die zijn gedefinieerd door toepassingen](/azure/active-directory/develop/howto-add-app-roles-in-azure-ad-apps) in Azure AD. Wanneer nieuwe services zijn ingeschakeld, moeten er vaak nieuwe rollengroepen worden gemaakt om toegang tot deze services te verlenen of te delegeren (bijvoorbeeld [insider risk management).](../compliance/insider-risk-management-configure.md)
 
 Deze rollengroepen vereisen ook direct lidmaatschap en kunnen geen Azure AD-groepen bevatten. Helaas worden deze rollengroepen vandaag de dag niet ondersteund door Azure AD PIM. Net als Azure AD-rollen, ben ik geneigd om het beheer van deze functies aan te bevelen via API's of een partnerbeheerproduct zoals Saviynt of anderen.
 
@@ -243,31 +243,37 @@ Het is vermeldenswaard dat besturingselementen die momenteel worden beheerd via 
 
 Zoals eerder is aangegeven, willen veel klanten een gedetailleerder delegatiemodel realiseren. Een veelvoorkomende voorbeeld: 'Manage XYZ service only for Division X users and locations' (of een andere dimensie). De mogelijkheid om dit te doen is afhankelijk van elke service en is niet consistent voor alle services en mogelijkheden. Bovendien kan elke service een afzonderlijk en uniek RBAC-model hebben. In plaats van deze allemaal te bespreken (het duurt een eeuwigheid), voeg ik relevante koppelingen toe voor elke service. Dit is geen volledige lijst, maar u wordt wel aan de slag.
 
-- **Exchange Online** - [https://docs.microsoft.com/exchange/permissions-exo/permissions-exo](/exchange/permissions-exo/permissions-exo) 
-- **SharePoint Online** - [https://docs.microsoft.com/sharepoint/manage-site-collection-administrators](/sharepoint/manage-site-collection-administrators) 
-- **Microsoft Teams**  -  [https://docs.microsoft.com/microsoftteams/itadmin-readiness](/microsoftteams/itadmin-readiness)
-- **eDiscovery** - [https://docs.microsoft.com/microsoft-365/compliance/assign-ediscovery-permissions](../compliance/index.yml) 
-  + **Machtigingsfilters**  -  [https://docs.microsoft.com/microsoft-365/compliance/permissions-filtering-for-content-search](../compliance/index.yml)
-  + **Compliancegrenzen**  -  [https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries](../compliance/set-up-compliance-boundaries.md)
-  + **Advanced eDiscovery**  -  [https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20](../compliance/overview-ediscovery-20.md)
-- **Yammer** - [https://docs.microsoft.com/yammer/manage-yammer-users/manage-yammer-admins](/yammer/manage-yammer-users/manage-yammer-admins) 
-- **Multi-geo** - [https://docs.microsoft.com/microsoft-365/enterprise/add-a-sharepoint-geo-admin](../enterprise/add-a-sharepoint-geo-admin.md) 
-- **Dynamics 365** – [https://docs.microsoft.com/dynamics365/](/dynamics365/) <br>
-  Opmerking: deze koppeling is de hoofdmap van de documentatie. Er zijn meerdere typen services met variaties in het beheer-/delegeringsmodel.
-- **Power Platform**  -  [https://docs.microsoft.com/power-platform/admin/admin-documentation](/power-platform/admin/admin-documentation)
-  + **Power Apps**  -  [https://docs.microsoft.com/power-platform/admin/wp-security](/power-platform/admin/wp-security) <br>
-    Opmerking: er zijn meerdere typen met variaties in de beheer-/delegeringsmodellen.
-  + **Power Automate**  -  [https://docs.microsoft.com/power-automate/environments-overview-admin](/power-automate/environments-overview-admin)
-  + **Power BI**  -  [https://docs.microsoft.com/power-bi/service-admin-governance](/power-bi/service-admin-governance) <br>
-Opmerking: beveiliging en delegering van gegevensplatforms (Power BI onderdeel) is een complex gebied.
-- **MEM/Intune**  -  [https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control](/mem/intune/fundamentals/role-based-access-control)
-- **Microsoft Defender voor Eindpunt**  -  [https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles](/windows/security/threat-protection/microsoft-defender-atp/user-roles)
-- **Microsoft 365 Defender** - [https://docs.microsoft.com/microsoft-365/security/mtp/mtp-permissions](../security/defender/m365d-permissions.md)
-- **Microsoft Cloud App Security** - [https://docs.microsoft.com/cloud-app-security/manage-admins](/cloud-app-security/manage-admins)
-- **Stream**  -  [https://docs.microsoft.com/stream/assign-administrator-user-role](/stream/assign-administrator-user-role)
-- **Informatiebarrières**  -  [https://docs.microsoft.com/microsoft-365/compliance/information-barriers](../compliance/information-barriers.md)
+- **Exchange Online** - (/exchange/permissions-exo/permissions-exo)
+- **SharePoint Online** - (/sharepoint/manage-site-collection-administrators)
+- **Microsoft Teams** - (/microsoftteams/itadmin-readiness)
+- **eDiscovery** - (.. /compliance/index.yml)
+  - **Machtigingsfilters** - (.. /compliance/index.yml)
+  - **Compliancegrenzen** - (.. /compliance/set-up-compliance-boundaries.md)
+  - **Advanced eDiscovery** - (.. /compliance/overview-ediscovery-20.md)
+- **Yammer** - (/yammer/manage-yammer-users/manage-yammer-admins)
+- **Multi-geo** - (.. /enterprise/add-a-sharepoint-geo-admin.md)
+- **Dynamics 365** – (/dynamics365/)
 
-Voor de rest is zoeken in Docs de laatste tijd erg goed geweest- [https://docs.microsoft.com/](../compliance/information-barriers.md) . 
+  Opmerking: deze koppeling is de hoofdmap van de documentatie. Er zijn meerdere typen services met variaties in het beheer-/delegeringsmodel.
+
+- **Power Platform** - (/power-platform/admin/admin-documentation)
+  - **Power Apps** - (/power-platform/admin/wp-security)
+
+    Opmerking: er zijn meerdere typen met variaties in de beheer-/delegeringsmodellen.
+
+  - **Power Automate** - (/power-automate/environments-overview-admin)
+  - **Power BI** - (/power-bi/service-admin-governance)
+
+    Opmerking: beveiliging en delegering van gegevensplatforms (Power BI onderdeel) is een complex gebied.
+
+- **MEM/Intune** - (/mem/intune/fundamentals/role-based-access-control)
+- **Microsoft Defender for Endpoint** - (/windows/security/threat-protection/microsoft-defender-atp/user-roles)
+- **Microsoft 365 Defender** - (.. /security/defender/m365d-permissions.md)
+- **Microsoft Cloud App Security** - (/cloud-app-security/manage-admins)
+- **Stream** - (/stream/assign-administrator-user-role)
+- **Informatiebarrières** - (.. /compliance/information-barriers.md)
+
+Voor de rest is zoeken in Docs de laatste tijd erg goed geweest- <https://docs.microsoft.com/> .
 
 ### <a name="activity-logs"></a>Activiteitenlogboeken
 
@@ -278,37 +284,37 @@ Voorbeelden van Microsoft 365 logboeken die worden toegankelijk via andere API's
 - [Azure AD](/azure/azure-monitor/platform/diagnostic-settings) (activiteiten die niet gerelateerd zijn aan Office 365)
 - [Exchange Bericht bijhouden](/powershell/module/exchange/get-messagetrace)
 - Threat/UEBA Systems hierboven besproken (bijvoorbeeld Azure AD Identity Protection, Microsoft Cloud App Security, Microsoft Defender for Endpoint, en meer)
-- [Microsoft-informatiebeveiliging](../compliance/data-classification-activity-explorer.md?view=o365-worldwide)
+- [Microsoft-informatiebeveiliging](../compliance/data-classification-activity-explorer.md)
 - [Microsoft Defender voor Eindpunt](/windows/security/threat-protection/microsoft-defender-atp/api-power-bi)
 - [Microsoft Graph](https://graph.microsoft.com)
 
-Het is belangrijk om eerst alle logboekbronnen te identificeren die nodig zijn voor een beveiligings- en complianceprogramma. Houd er ook rekening mee dat verschillende logboeken verschillende online bewaarlimieten hebben. 
+Het is belangrijk om eerst alle logboekbronnen te identificeren die nodig zijn voor een beveiligings- en complianceprogramma. Houd er ook rekening mee dat verschillende logboeken verschillende online bewaarlimieten hebben.
 
-Vanuit het perspectief van beheerdersdelegering hebben Microsoft 365 activiteitenlogboeken geen ingebouwd RBAC-model. Als u toestemming hebt om een logboek te zien, kunt u alles in het logboek zien. Een veelvoorkomende voorbeeld van een klantvereiste is: 'Ik wil alleen activiteiten voor EU-gebruikers kunnen query's uitvoeren' (of een andere dimensie). Om aan deze vereiste te voldoen, moeten we logboeken overbrengen naar een andere service. In de Microsoft-cloud wordt u aangeraden deze over te brengen naar [Azure Sentinel](/azure/sentinel/overview) of [Log Analytics.](/azure/azure-monitor/learn/quick-create-workspace) 
+Vanuit het perspectief van beheerdersdelegering hebben Microsoft 365 activiteitenlogboeken geen ingebouwd RBAC-model. Als u toestemming hebt om een logboek te zien, kunt u alles in het logboek zien. Een veelvoorkomende voorbeeld van een klantvereiste is: 'Ik wil alleen activiteiten voor EU-gebruikers kunnen query's uitvoeren' (of een andere dimensie). Om aan deze vereiste te voldoen, moeten we logboeken overbrengen naar een andere service. In de Microsoft-cloud wordt u aangeraden deze over te brengen naar [Azure Sentinel](/azure/sentinel/overview) of [Log Analytics.](/azure/azure-monitor/learn/quick-create-workspace)
 
 Diagram op hoog niveau:
 
-![diagram van logboekbronnen voor een beveiligings- en complianceprogramma](../media/solutions-architecture-center/identity-beyond-illustration-4.png)  
+![diagram van logboekbronnen voor een beveiligings- en complianceprogramma](../media/solutions-architecture-center/identity-beyond-illustration-4.png)
 
 Het bovenstaande diagram vertegenwoordigt ingebouwde mogelijkheden voor het verzenden van logboeken naar Event Hub en/of Azure Storage en/of Azure Log Analytics. Nog niet alle systemen bevatten deze out-of-the-box. Er zijn echter andere manieren om deze logboeken naar dezelfde opslagplaats te verzenden. Zie Bijvoorbeeld Uw Teams [beschermen met Azure Sentinel.](https://techcommunity.microsoft.com/t5/azure-sentinel/protecting-your-teams-with-azure-sentinel/ba-p/1265761)
 
 Het combineren van alle logboeken in één opslaglocatie omvat extra voordelen, zoals kruiscorrelatie, aangepaste bewaartijden, het aanvullen met gegevens die nodig zijn om het RBAC-model te ondersteunen, en dergelijke. Wanneer gegevens zich in dit opslagsysteem hebben geplaatst, kunt u een Power BI dashboard (of een ander type visualisatie) maken met een geschikt RBAC-model.
 
-Logboeken hoeft niet alleen naar één plaats te worden doorgestuurd. Het kan ook handig zijn om logboeken [Office 365 te](/cloud-app-security/connect-office-365-to-microsoft-cloud-app-security) integreren met Microsoft Cloud App Security of een aangepast RBAC-model in [Power BI.](../admin/usage-analytics/usage-analytics.md?view=o365-worldwide) Verschillende opslagplaatsen hebben verschillende voordelen en doelgroepen.
+Logboeken hoeft niet alleen naar één plaats te worden doorgestuurd. Het kan ook handig zijn om logboeken [Office 365 te](/cloud-app-security/connect-office-365-to-microsoft-cloud-app-security) integreren met Microsoft Cloud App Security of een aangepast RBAC-model in [Power BI.](../admin/usage-analytics/usage-analytics.md) Verschillende opslagplaatsen hebben verschillende voordelen en doelgroepen.
 
-Het is vermeldenswaard dat er een zeer uitgebreid ingebouwde analysesysteem is voor beveiliging, bedreigingen, beveiligingsproblemen, en ga zo maar door in een service genaamd [Microsoft 365 Defender.](../security/defender/microsoft-365-defender.md?view=o365-worldwide)
+Het is vermeldenswaard dat er een zeer uitgebreid ingebouwde analysesysteem is voor beveiliging, bedreigingen, beveiligingsproblemen, en ga zo maar door in een service genaamd [Microsoft 365 Defender.](../security/defender/microsoft-365-defender.md)
 
 Veel grote klanten willen deze logboekgegevens overbrengen naar een systeem van derden (bijvoorbeeld SIEM). Hiervoor zijn verschillende benaderingen beschikbaar, maar in het algemeen [zijn Azure Event Hub](/azure/azure-monitor/platform/stream-monitoring-data-event-hubs) en Graph goede uitgangspunten. [](/graph/security-integration)
 
 ### <a name="azure"></a>Azure
 
-Mij wordt vaak gevraagd of er een manier is om high-privilege-rollen te scheiden tussen Azure AD, Azure en SaaS (bijvoorbeeld Globale beheerder voor Office 365 maar niet Azure).  Niet echt.  Architectuur met meerdere tenants is nodig als volledige beheerscheiding vereist is, maar dat zorgt voor een aanzienlijke [complexiteit](https://aka.ms/multi-tenant-user) (zie hierboven). Al deze services maken deel uit van dezelfde beveiligings- en identiteitsgrens (kijk naar het bovenstaande hiërarchiemodel).  
+Mij wordt vaak gevraagd of er een manier is om high-privilege-rollen te scheiden tussen Azure AD, Azure en SaaS (bijvoorbeeld Globale beheerder voor Office 365 maar niet Azure).  Niet echt.  Architectuur met meerdere tenants is nodig als volledige beheerscheiding vereist is, maar dat zorgt voor een aanzienlijke [complexiteit](https://aka.ms/multi-tenant-user) (zie hierboven). Al deze services maken deel uit van dezelfde beveiligings- en identiteitsgrens (kijk naar het bovenstaande hiërarchiemodel).
 
 Het is belangrijk om de relaties tussen verschillende services in dezelfde tenant te begrijpen. Ik werk samen met veel klanten die zakelijke oplossingen bouwen voor Azure, Office 365 en Power Platform (en vaak ook on-premises en cloudservices van derden). Een veelvoorkomende voorbeeld:
 
 1. Ik wil samenwerken aan een set documenten/afbeeldingen/etc (Office 365)
 2. Verzend ze allemaal via een goedkeuringsproces (Power Platform)
-3.  Nadat alle onderdelen zijn goedgekeurd, kunt u deze samenstellen in een unified deliverable(s) (Azure) [Microsoft Graph API](/azure/active-directory/develop/microsoft-graph-intro) is uw beste vriend voor deze.  Niet onmogelijk, maar aanzienlijk complexer om een oplossing te ontwerpen die meerdere [tenants beslaat.](/azure/active-directory/develop/single-and-multi-tenant-apps)
+3. Nadat alle onderdelen zijn goedgekeurd, kunt u deze samenstellen in een unified deliverable(s) (Azure) [Microsoft Graph API](/azure/active-directory/develop/microsoft-graph-intro) is uw beste vriend voor deze.  Niet onmogelijk, maar aanzienlijk complexer om een oplossing te ontwerpen die meerdere [tenants beslaat.](/azure/active-directory/develop/single-and-multi-tenant-apps)
 
 Azure Role-Based Access Control (RBAC) maakt fijnkorrelig toegangsbeheer voor Azure mogelijk. Met RBAC kunt u de toegang tot resources beheren door gebruikers de minste machtigingen te verlenen die nodig zijn om hun taken uit te voeren. Details zijn buiten het bereik van dit document, maar zie Wat is op rollen gebaseerd toegangsbeheer [(RBAC) in Azure voor meer informatie over RBAC?](/azure/role-based-access-control/overview) RBAC is belangrijk, maar slechts een deel van de beheeroverwegingen voor Azure. [Cloud Adoption Framework](/azure/cloud-adoption-framework/govern/) is een goed uitgangspunt voor meer informatie. Ik vind het leuk hoe mijn vriend Andres Ravinet klanten stap voor stap door verschillende onderdelen laat lopen om de aanpak te bepalen. Weergave op hoog niveau voor verschillende elementen (niet zo goed als het proces om het werkelijke klantmodel te bereiken) is zoiets als dit:
 

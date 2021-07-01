@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 0123fc5cb22e249475f7e95426ee74f6e0939aaa
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: e052f3c287a6523174259a0a58017421bc989071
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52788428"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229609"
 ---
 # <a name="microsoft-365-productivity-illustrations"></a>Illustraties van Microsoft 365-productiviteit
 
@@ -41,17 +41,17 @@ Deze afbeelding bevat informatie voor IT-architecten over Microsoft 365 Groepen.
 
 ## <a name="migrate-to-microsoft-365"></a>Migreren naar Microsoft 365
 
-Microsoft biedt hulpprogramma's voor het migreren van uw on-premises netwerkbestandsaandelen en SharePoint Serversites naar Microsoft 365 met de nadruk op het beveiligen en waarborgen van de beveiliging van uw inhoud tijdens de migratie. Deze reeks illustraties toont de verschillende methoden die beschikbaar zijn om uw inhoud te verplaatsen naar SharePoint, Teams en OneDrive en hoe uw gegevens door het proces stromen. 
+Microsoft biedt hulpprogramma's voor het migreren van uw on-premises netwerkbestandsaandelen en SharePoint Serversites naar Microsoft 365 met de nadruk op het beveiligen en waarborgen van de beveiliging van uw inhoud tijdens de migratie. Deze reeks illustraties toont de verschillende methoden die beschikbaar zijn om uw inhoud te verplaatsen naar SharePoint, Teams en OneDrive en hoe uw gegevens door het proces stromen.
 
 | Item | Beschrijving |
 |:-----|:-----|
-|[![Modelposter: Migreren naar Microsoft 365](../media/solutions-architecture-center/msft-migration-thumb.png)](https://download.microsoft.com/download/0/5/b/05b7fb7c-1557-4ebb-9036-c5fc3a4cd94c/Migration-posters-mm-spmt.pdf) <br/>[PDF](https://download.microsoft.com/download/0/5/b/05b7fb7c-1557-4ebb-9036-c5fc3a4cd94c/m365-migration-posters-mm-spmt.pdf)\|[Visio](https://download.microsoft.com/download/0/5/b/05b7fb7c-1557-4ebb-9036-c5fc3a4cd94c/m-365-migration-posters-mm-spmt.vsdx) <br/> Bijgewerkt in maart 2021 |Omvat: <ul><li>  Migratie van bestands delen</li><li>SharePoint Servermigratie </li> </ul><br> Zie Uw inhoud migreren [naar Microsoft 365.](/sharepointmigration/migrate-to-sharepoint-online)|
+|[![Modelposter: Migreren naar Microsoft 365](../media/solutions-architecture-center/msft-migration-thumb.png)](https://download.microsoft.com/download/0/5/b/05b7fb7c-1557-4ebb-9036-c5fc3a4cd94c/Migration-posters-mm-spmt.pdf) <p> [PDF](https://download.microsoft.com/download/0/5/b/05b7fb7c-1557-4ebb-9036-c5fc3a4cd94c/m365-migration-posters-mm-spmt.pdf)\|[Visio](https://download.microsoft.com/download/0/5/b/05b7fb7c-1557-4ebb-9036-c5fc3a4cd94c/m-365-migration-posters-mm-spmt.vsdx) <p> Bijgewerkt in maart 2021 |Omvat: <ul><li> Migratie van bestands delen</li><li>SharePoint Servermigratie</li></ul> <p> Zie Uw inhoud migreren [naar Microsoft 365.](/sharepointmigration/migrate-to-sharepoint-online)|
 
 ## <a name="microsoft-365-information-protection-and-compliance-capabilities"></a>Microsoft 365 mogelijkheden voor informatiebeveiliging en compliance
 
-Microsoft 365 bevat een breed scala aan informatiebeveiligings- en compliancemogelijkheden. Samen met de productiviteitshulpprogramma's van Microsoft zijn deze mogelijkheden ontworpen om organisaties te helpen in realtime samen te werken terwijl ze zich houden aan strikte regelgevingskaders. 
+Microsoft 365 bevat een breed scala aan informatiebeveiligings- en compliancemogelijkheden. Samen met de productiviteitshulpprogramma's van Microsoft zijn deze mogelijkheden ontworpen om organisaties te helpen in realtime samen te werken terwijl ze zich houden aan strikte regelgevingskaders.
 
-Deze reeks illustraties maakt gebruik van een van de meest gereguleerde bedrijfstakken, financiële services, om aan te tonen hoe deze mogelijkheden kunnen worden toegepast om te voldoen aan gemeenschappelijke wettelijke vereisten. U kunt deze illustraties aan uw eigen wensen aanpassen. 
+Deze reeks illustraties maakt gebruik van een van de meest gereguleerde bedrijfstakken, financiële services, om aan te tonen hoe deze mogelijkheden kunnen worden toegepast om te voldoen aan gemeenschappelijke wettelijke vereisten. U kunt deze illustraties aan uw eigen wensen aanpassen.
 
 
 | Item | Beschrijving |
@@ -84,16 +84,16 @@ Aanbevolen mogelijkheden voor het beveiligen van identiteiten en apparaten die t
 | Item | Beschrijving |
 |:-----|:-----|
 |[![Modelposter: Identiteits- en apparaatbeveiliging voor Microsoft 365](../media/microsoft-365-policies-configurations/o365-identity-device-protection-thumb.png)](../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) <br/>  [Weergeven als pdf-bestand](../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [Downloaden als PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [Downloaden als een Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.vsdx)   <br/> Bijgewerkt in september 2020|Het is belangrijk dat u een consistent beveiligingsniveau gebruikt voor uw gegevens, identiteiten en apparaten. In dit model ziet u welke mogelijkheden vergelijkbaar zijn met meer informatie over de mogelijkheden om identiteiten en apparaten te beschermen.  <br/> |
- 
+
 <a name="BKMK_ediscovery"></a>
 ## <a name="advanced-ediscovery-architecture-in-microsoft-365"></a>Advanced eDiscovery architectuur in Microsoft 365
 
-Advanced eDiscovery end-to-end werkstroom en gegevensstroom, ook binnen Microsoft 365 Multi-Geo-omgevingen. 
+Advanced eDiscovery end-to-end werkstroom en gegevensstroom, ook binnen Microsoft 365 Multi-Geo-omgevingen.
 
 | Item | Beschrijving |
 |:-----|:-----|
 |[![Modelposter: Advanced eDiscovery Architectuur in Microsoft 365](../media/solutions-architecture-center/ediscovery-poster-thumb.png)](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) <br/> [Weergeven als een afbeelding](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) \| [Downloaden als PDF](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.pdf) \| [Downloaden als een Visio](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.vsdx)   <br/> Bijgewerkt in oktober 2020|Omvat: <ul><li>  End-to-end-werkstroom in één omgeving</li><li>End-to-end-werkstroom in een Microsoft 365 Multi-Geo-omgeving </li><li>End-to-end-gegevensstroom die de EDRM-werkstroom ondersteunt</li> |
-  
+
 
 
 ## <a name="microsoft-telephony-solutions"></a>Microsoft telefonieoplossingen
@@ -107,7 +107,7 @@ Microsoft ondersteunt verschillende opties bij het begin van uw ervaring met Tea
 
 ## <a name="set-up-your-infrastructure-for-hybrid-work"></a>Uw infrastructuur instellen voor hybride werk
 
-Met Microsoft 365 en andere Microsoft-cloudtechnologieën kunt u uw werknemers veilige toegang bieden tot de on-premises en cloudgebaseerde informatie, hulpprogramma's en resources van uw organisatie vanuit hun huis. 
+Met Microsoft 365 en andere Microsoft-cloudtechnologieën kunt u uw werknemers veilige toegang bieden tot de on-premises en cloudgebaseerde informatie, hulpprogramma's en resources van uw organisatie vanuit hun huis.
 
 [![Uw infrastructuur instellen voor poster voor hybride werk](../media/empower-people-to-work-remotely/empower-remote-workers-poster.png)](https://download.microsoft.com/download/9/b/b/9bb5fa79-74e9-497b-87c5-4021e53d9fc2/hybrid-worker-infrastructure.pdf) <br/>
 [PDF](https://download.microsoft.com/download/9/b/b/9bb5fa79-74e9-497b-87c5-4021e53d9fc2/hybrid-worker-infrastructure.pdf)  |  [PowerPoint](https://download.microsoft.com/download/9/b/b/9bb5fa79-74e9-497b-87c5-4021e53d9fc2/hybrid-worker-infrastructure.pptx) <br>
@@ -120,13 +120,14 @@ Zie het artikel voor deze poster voor meer informatie: Uw infrastructuur instell
 Met Microsoft 365 kunt u een privéteam configureren in Microsoft Teams en SharePoint sitebeveiligingsinstellingen en een uniek gevoeligheidslabel gebruiken om bestanden te versleutelen, zodat alleen teamleden ze kunnen ontsleutelen.
 
 [![Poster Microsoft Teams met beveiligingsisolatie](../media/secure-teams-security-isolation/team-security-isolation-poster.png)](../downloads/team-security-isolation-poster.pdf) <br/>
-[PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/team-security-isolation-poster.pdf)  |  [PowerPoint](https://download.microsoft.com/download/8/0/5/8057fc16-c044-40b6-a652-7ed555ba2895/team-security-isolation-poster.pptx) <br> Bijgewerkt in augustus 2020
+[PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/team-security-isolation-poster.pdf)  |  [PowerPoint](https://download.microsoft.com/download/8/0/5/8057fc16-c044-40b6-a652-7ed555ba2895/team-security-isolation-poster.pptx) <br>
+Bijgewerkt in augustus 2020
 
 Zie het artikel voor deze poster voor meer informatie: [Een team configureren met beveiligingsisolatie.](secure-teams-security-isolation.md)
 
-  
+
 ## <a name="see-also"></a>Zie ook
 
 [Architectuurmodellen voor SharePoint, Exchange, Skype voor Bedrijven en Lync](../enterprise/architectural-models-for-sharepoint-exchange-skype-for-business-and-lync.md)
-  
+
 [Testlabrichtlijnen voor cloudacceptatie (TLG's)](../enterprise/cloud-adoption-test-lab-guides-tlgs.md)

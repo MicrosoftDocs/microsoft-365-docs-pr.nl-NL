@@ -17,12 +17,12 @@ ms.custom:
 description: Beheerders kunnen meer informatie krijgen over het anti-phishingbeleid dat beschikbaar is in Exchange Online Protection (EOP) en Microsoft Defender voor Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 850756acacc757526352b9249c0e9efbe82fac8d
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: 9abed7f9601872eeb14ceb294c54a1cb54f63c2f
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096791"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229105"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Anti-phishingbeleid in Microsoft 365
 
@@ -175,7 +175,7 @@ De volgende imitatie-instellingen zijn alleen beschikbaar in anti-phishingbeleid
 
   > [!NOTE]
   >
-  > - In elk anti-phishingbeleid kunt u maximaal 60 beveiligde gebruikers opgeven (e-mailadressen van afzenders). U kunt niet dezelfde beveiligde gebruiker opgeven in meerdere beleidsregels. Ongeacht het aantal beleidsregels dat van toepassing is op een geadresseerde, is het maximum aantal beveiligde gebruikers (e-mailadressen van afzenders) voor elke afzonderlijke geadresseerde dus 60. Zie Volgorde en prioriteit van e-mailbeveiliging voor meer informatie over beleidsprioriteit en hoe de beleidsverwerking stopt nadat het eerste beleid is [toegepast.](how-policies-and-protections-are-combined.md)
+  > - In elk anti-phishingbeleid kunt u maximaal 350 beveiligde gebruikers opgeven (e-mailadressen van afzenders). U kunt niet dezelfde beveiligde gebruiker opgeven in meerdere beleidsregels. Ongeacht het aantal beleidsregels dat van toepassing is op een geadresseerde, is het maximum aantal beveiligde gebruikers (e-mailadressen van afzenders) voor elke afzonderlijke geadresseerde 350. Zie Volgorde en prioriteit van e-mailbeveiliging voor meer informatie over beleidsprioriteit en hoe de beleidsverwerking stopt nadat het eerste beleid is [toegepast.](how-policies-and-protections-are-combined.md)
   > - Gebruikersbeveiliging werkt niet als de afzender en geadresseerde eerder via e-mail hebben gecommuniceerd. Als de afzender en geadresseerde nooit via e-mail hebben gecommuniceerd, wordt het bericht geïdentificeerd als een imitatiepoging.
 
   Standaard worden geen e-mailadressen van afzenders geconfigureerd voor imitatiebeveiliging in **Gebruikers om te beveiligen.** Daarom worden standaard geen e-mailadressen van afzenders gedekt door imitatiebeveiliging, hetzij in het standaardbeleid of in aangepast beleid.

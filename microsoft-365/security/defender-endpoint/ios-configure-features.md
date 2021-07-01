@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 07905cc3f1b3bd4445199d7bddcdf3b45500bd5f
-ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
+ms.openlocfilehash: 749e03cb9d14476245baea82c21d322d4d726aad
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53194947"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53230005"
 ---
 # <a name="configure-microsoft-defender-for-endpoint-on-ios-features"></a>Microsoft Defender voor eindpunt configureren voor iOS-functies
 
@@ -78,7 +78,7 @@ Stappen voor het instellen van app-beveiligingsbeleid met Microsoft Defender voo
 1. Onder **Voorwaarden voor voorwaardelijke** start Apparaat vindt u de instelling Max  >   **toegestaan apparaatbedreigingsniveau.** Dit moet zijn geconfigureerd op Laag, Gemiddeld, Hoog of Beveiligd. De acties die voor u beschikbaar zijn, zijn **Toegang blokkeren** of **Gegevens wissen.** Mogelijk ziet u een informatief dialoogvenster om ervoor te zorgen dat uw verbindingslijn is ingesteld voordat deze instelling van kracht wordt. Als de verbindingslijn al is ingesteld, kunt u dit dialoogvenster negeren.
 1. Werk af met Opdrachten en sla uw beleid op.
 
-Zie beleidsinstellingen voor [iOS-appbeveiliging](https://docs.microsoft.com/mem/intune/apps/app-protection-policy-settings-ios)voor meer informatie over mam- of appbeveiligingsbeleid.
+Zie beleidsinstellingen voor [iOS-appbeveiliging](/mem/intune/apps/app-protection-policy-settings-ios)voor meer informatie over mam- of appbeveiligingsbeleid.
 
 ### <a name="deploying-microsoft-defender-for-endpoint-for-mam-or-on-unenrolled-devices"></a>Microsoft Defender voor Eindpunt implementeren voor MAM of op niet-geregistreerde apparaten
 

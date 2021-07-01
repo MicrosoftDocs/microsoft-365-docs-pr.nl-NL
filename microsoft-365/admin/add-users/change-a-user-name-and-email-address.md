@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: fb5ac074-e203-4e1f-9843-b9d1a3e03297
 description: 'Lees hoe een Microsoft 365-globale beheerder het e-mailadres en de weergavenaam van een gebruiker kan wijzigen wanneer hun naam wijzigt. '
-ms.openlocfilehash: 4f65bade32b2998f395c3b4eab7a1d2a2e5f3f33
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: fdba2191449bc3ea5aae5b5bde73fe5294b1f9d3
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683113"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228361"
 ---
 # <a name="change-a-user-name-and-email-address"></a>Een gebruikersnaam en e-mailadres wijzigen
 
@@ -36,35 +36,35 @@ Het kan voorkomen dat u iemands e-mailadres en weergavenaam moet wijzigen, bijvo
 
 ## <a name="watch-change-a-users-name-or-email-address"></a>Bekijken: De naam of het e-mailadres van een gebruiker wijzigen
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1SJuc] 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1SJuc]
 
 Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../../business-video/index.yml).
 
-U moet een [globale beheerder](about-admin-roles.md) zijn om deze stappen uit te voeren. 
+U moet een [globale beheerder](about-admin-roles.md) zijn om deze stappen uit te voeren.
 
 ## <a name="change-a-users-email-address"></a>Het e-mailadres van een gebruiker wijzigen
 
 ::: moniker range="o365-worldwide"
- 
+
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>.  
+1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>. 
+1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>.
 
 ::: moniker-end
 
 1. Selecteer de naam van de gebruiker en selecteer vervolgens op het tabblad **Account** de optie **Gebruikersnaam beheren**.
-    
-1. Typ in het eerste vak het eerste deel van het nieuwe e-mailadres. Als u uw eigen domein hebt toegevoegd aan Microsoft 365, kiest u het domein voor de nieuwe e-mailalias in de vervolgkeuzelijst. 
+
+1. Typ in het eerste vak het eerste deel van het nieuwe e-mailadres. Als u uw eigen domein hebt toegevoegd aan Microsoft 365, kiest u het domein voor de nieuwe e-mailalias in de vervolgkeuzelijst.
 
 1. Selecteer **Wijzigingen opslaan**.
 
@@ -81,39 +81,39 @@ U moet een [globale beheerder](about-admin-roles.md) zijn om deze stappen uit te
 
 ::: moniker range="o365-germany"
 
-1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>. 
+1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>.  
+1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>.
 
 ::: moniker-end
-    
+
 2. Selecteer de naam van de gebruiker en selecteer vervolgens op het tabblad **Account** de optie **E-mailaliassen beheren**.
 
-3. Selecteer **Instellen als primair** voor het e-mailadres dat u wilt instellen als het primaire e-mailadres voor die persoon. 
-    
+3. Selecteer **Instellen als primair** voor het e-mailadres dat u wilt instellen als het primaire e-mailadres voor die persoon.
+
    > [!IMPORTANT]
-   > U ziet de optie Instellen als primair niet als u Microsoft 365 hebt aangeschaft bij GoDaddy of een andere partnerservice met een beheerconsole. In plaats daarvan meldt u zich aan bij de beheerconsole van GoDaddy of de partner om de primaire alias in te stellen. 
-   >  
+   > U ziet de optie Instellen als primair niet als u Microsoft 365 hebt aangeschaft bij GoDaddy of een andere partnerservice met een beheerconsole. In plaats daarvan meldt u zich aan bij de beheerconsole van GoDaddy of de partner om de primaire alias in te stellen.
+   >
    > U ziet deze optie ook alleen als u een globale beheerder bent. Als u de optie niet ziet, bent u niet bevoegd om de naam en het primaire e-mailadres van een gebruiker te wijzigen.
-  
+
 4. Er verschijnt een grote gele waarschuwing die u erop wijst dat u de aanmeldinformatie van de gebruiker gaat wijzigen. Selecteer **Opslaan** en vervolgens **Sluiten**.
-    
+
 5. Geef de gebruikers de volgende gegevens:
- 
+
    - Deze wijziging kan even duren.
-  
+
    - De nieuwe gebruikersnaam. Die heeft de gebruiker nodig om zich aan te melden bij Microsoft 365.
-    
+
    - Als ze Skype voor Bedrijven Online gebruiken, moeten ze alle geplande Skype voor Bedrijven Online-vergaderingen opnieuw plannen en moeten ze de externe contactpersonen laten weten dat die de oude contactgegevens moeten bijwerken.
 
-   - Als ze OneDrive gebruiken, is de URL naar deze locatie gewijzigd. Als ze OneNote-notitieblokken in hun OneDrive hebben, moeten ze deze mogelijk sluiten en opnieuw openen in OneNote. Als ze bestanden hebben gedeeld vanuit hun OneDrive, werken de koppelingen naar de bestanden mogelijk niet meer en kan de gebruiker opnieuw delen.    
-  
+   - Als ze OneDrive gebruiken, is de URL naar deze locatie gewijzigd. Als ze OneNote-notitieblokken in hun OneDrive hebben, moeten ze deze mogelijk sluiten en opnieuw openen in OneNote. Als ze bestanden hebben gedeeld vanuit hun OneDrive, werken de koppelingen naar de bestanden mogelijk niet meer en kan de gebruiker opnieuw delen.
+
    - Als ook het wachtwoord is gewijzigd, worden ze gevraagd het nieuwe wachtwoord in te voeren op hun mobiele apparaat. Het apparaat wordt anders niet gesynchroniseerd.
-  
+
 ## <a name="change-a-users-display-name"></a>De weergavenaam van een gebruiker wijzigen
 
 ::: moniker range="o365-worldwide"
@@ -124,13 +124,13 @@ U moet een [globale beheerder](about-admin-roles.md) zijn om deze stappen uit te
 
 ::: moniker range="o365-germany"
 
-1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>. 
+1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Actieve gebruikers</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>. 
+1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Actieve gebruikers</a>.
 
 ::: moniker-end
 
@@ -141,41 +141,40 @@ U moet een [globale beheerder](about-admin-roles.md) zijn om deze stappen uit te
    Als het foutbericht **De gebruiker kan niet worden bewerkt. Controleer de gebruikersgegevens en probeer het opnieuw** wordt weergegeven, raadpleegt u [Foutberichten oplossen](#resolve-error-messages).
 
 Het kan maximaal 24 uur duren voordat deze wijziging voor alle services is doorgevoerd. Nadat de wijziging is doorgevoerd, moet de gebruiker zich aanmelden bij Outlook, Skype voor Bedrijven en SharePoint met de bijgewerkte gebruikersnaam.
- 
+
 ## <a name="resolve-error-messages"></a>Foutberichten oplossen
 
 ### <a name="a-parameter-cannot-be-found-that-matches-parameter-name-emailaddresses"></a>'Een parameter die overeenkomt met de parameternaam EmailAddresses kan niet worden gevonden'
 
 Als het foutbericht **Een parameter die overeenkomt met de parameternaam 'EmailAddresses' kan niet worden gevonden** wordt weergegeven, betekent dit dat nog wat tijd nodig is om uw tenant of uw aangepaste domein in te stellen, als u er onlangs een hebt toegevoegd. Het instellen kan 4 uur duren. Wacht even zodat de instellingsprocedure kan worden voltooid, en probeer het vervolgens opnieuw. Als het probleem aanhoudt, belt u de [ondersteuning](../../business-video/get-help-support.md). Zij voeren dan een volledige synchronisatie voor u uit.
-  
+
 ### <a name="were-sorry-the-user-couldnt-be-edited-review-the-user-information-and-try-again"></a>'De gebruiker kan niet worden bewerkt. Controleer de gebruiker en probeer het opnieuw'
 
 Als het foutbericht **De gebruiker kan niet worden bewerkt. Controleer de gebruiker en probeer het opnieuw**, betekent dit dat u geen globale beheerder bent en u niet bent gemachtigd om de naam van de gebruiker te wijzigen. Neem contact op met de globale beheerder in uw bedrijf en vraag of hij of zij de wijziging kan doorvoeren.
 
-
 ## <a name="what-to-do-with-old-email-addresses"></a>Wat moet u doen met oude e-mailadressen
 
 Het vorige primaire e-mailadres van de gebruiker blijft behouden als extra e-mailadres. **U wordt sterk aangeraden om het oude e-mailadres niet te verwijderen.**
-  
+
 Sommige personen blijven mogelijk e-mail verzenden naar het oude e-mailadres van de gebruiker. Als dit wordt verwijderd, kunnen er NDR-fouten ontstaan. Microsoft stuurt deze automatisch door naar het nieuwe e-mailadres. Gebruik oude SMTP-e-mailadressen niet opnieuw en gebruik ze niet voor nieuwe accounts. Hierdoor kunnen ook NDR-fouten worden veroorzaakt of kan de e-mail bij een verkeerd postvak worden bezorgd.
-   
+
 ## <a name="what-if-the-persons-offline-address-book-wont-sync-with-the-global-address-list"></a>Wat gebeurt er als het offlineadresboek van de gebruiker niet wordt gesynchroniseerd met de algemene adreslijst?
 
 Als ze Exchange Online gebruiken of als hun account is gekoppeld aan de on-premises Exchange-omgeving van uw organisatie, wordt mogelijk de volgende fout weergegeven wanneer u een gebruikersnaam en e-mailadres probeert te wijzigen: 'Deze gebruiker is gesynchroniseerd met de lokale Active Directory. Sommige gegevens kunnen alleen worden bewerkt via de lokale Active Directory.'
-  
-Dat komt door de MOERA (Microsoft Online Email Routing Address). De MOERA is opgebouwd uit het _userPrincipalName_-kenmerk van de gebruiker in Active Directory en wordt automatisch toegewezen aan het cloudaccount tijdens de eerste synchronisatie. Eenmaal gemaakt, kan deze niet worden gewijzigd of verwijderd in Microsoft 365. U kunt vervolgens in Active Directory de gebruikersnaam wijzigen, maar de MOERA wordt niet gewijzigd. Bij het weergeven van de zojuist gewijzigde naam in de algemene adressenlijst kunt u tegen problemen aanlopen. 
-  
-U lost dit op door u met uw Microsoft 365-beheerdersreferenties aan te melden bij de [Azure Active Directory-module voor PowerShell]( https://go.microsoft.com/fwlink/?LinkId=823193) en gebruik de volgende syntaxis: 
-  
+
+Dat komt door de MOERA (Microsoft Online Email Routing Address). De MOERA is opgebouwd uit het _userPrincipalName_-kenmerk van de gebruiker in Active Directory en wordt automatisch toegewezen aan het cloudaccount tijdens de eerste synchronisatie. Eenmaal gemaakt, kan deze niet worden gewijzigd of verwijderd in Microsoft 365. U kunt vervolgens in Active Directory de gebruikersnaam wijzigen, maar de MOERA wordt niet gewijzigd. Bij het weergeven van de zojuist gewijzigde naam in de algemene adressenlijst kunt u tegen problemen aanlopen.
+
+U lost dit op door u met uw Microsoft 365-beheerdersreferenties aan te melden bij de [Azure Active Directory-module voor PowerShell](https://go.microsoft.com/fwlink/?LinkId=823193) en gebruik de volgende syntaxis:
+
 ```powershell
 Set-MsolUserPrincipalName -UserPrincipalName anne.wallace@contoso.onmicrosoft.com -NewUserPrincipalName anne.jones@contoso.com
 ```
 
 > [!TIP]
-> Hiermee wordt het kenmerk **userPrincipalName** van de gebruiker gewijzigd, wat geen gevolgen heeft voor het MOERA-e-mailadres (Microsoft Online Email Routing Address) van de gebruiker. De aanbevolen procedure is echter dat de aanmeldings-UPN van de gebruiker overeenkomt met het primaire SMTP-adres. 
-  
+> Hiermee wordt het kenmerk **userPrincipalName** van de gebruiker gewijzigd, wat geen gevolgen heeft voor het MOERA-e-mailadres (Microsoft Online Email Routing Address) van de gebruiker. De aanbevolen procedure is echter dat de aanmeldings-UPN van de gebruiker overeenkomt met het primaire SMTP-adres.
+
 Zie [De naam van een gebruikersaccount wijzigen](/previous-versions/windows/it-pro/windows-server-2003/cc772952(v=ws.10)) voor meer informatie over hoe u een gebruikersnaam kunt wijzigen in Active Directory in Windows Server 2003 en eerdere versies.
-  
+
 ## <a name="related-content"></a>Verwante inhoud
 
 [Beheerders: het wachtwoord opnieuw instellen voor een of meer gebruikers](reset-passwords.md) (artikel)\

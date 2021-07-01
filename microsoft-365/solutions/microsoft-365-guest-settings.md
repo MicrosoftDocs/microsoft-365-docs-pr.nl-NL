@@ -18,12 +18,12 @@ ms.custom:
 localization_priority: Priority
 recommendations: false
 description: Meer informatie over de instellingen voor het delen met gasten in Microsoft 365 die van invloed kunnen zijn op het delen met personen buiten uw organisatie.
-ms.openlocfilehash: 622e3ac0c44ec763cffff51773edbe6c64515a11
-ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
+ms.openlocfilehash: 57db724fe8938d0e258dd1df58fe5016d5e8d2c7
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53177431"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229225"
 ---
 # <a name="microsoft-365-guest-sharing-settings-reference"></a>Microsoft 365 guest sharing settings reference (Overzicht van de instellingen voor delen met gasten van Microsoft 365)
 
@@ -47,9 +47,9 @@ Microsoft Azure Active Directory is de directoryservice die wordt gebruikt door 
 | Instelling | Standaard | Omschrijving |
 |:-----|:-----|:-----|
 |Gastgebruikerstoegang|Gastgebruikers hebben beperkte toegang tot eigenschappen en lidmaatschappen van adreslijstobjecten|Bepaalt de [machtigingen die gasten hebben in Azure Active Directory](/azure/active-directory/fundamentals/users-default-permissions).|
-|Instellingen voor uitnodigingen voor gasten|Iedereen in de organisatie kan gastgebruikers uitnodigen, inclusief gasten en niet-beheerders|Bepaalt of gasten, leden en beheerders gasten kunnen uitnodigen voor de organisatie.<br><br> Deze instelling heeft invloed op de deelopties van Microsoft 365, zoals Teams en SharePoint.|
+|Instellingen voor uitnodigingen voor gasten|Iedereen in de organisatie kan gastgebruikers uitnodigen, inclusief gasten en niet-beheerders|Bepaalt of gasten, leden en beheerders gasten kunnen uitnodigen voor de organisatie. <p> Deze instelling heeft invloed op de deelopties van Microsoft 365, zoals Teams en SharePoint.|
 |Selfservice-aanmelding voor gasten inschakelen via gebruikersstromen|Nee|Bepaalt of u gebruikersstromen kunt maken waarmee iemand zich kan registreren voor een app die u hebt gemaakt en een nieuw gastaccount kan maken.|
-|Samenwerkingsbeperkingen|Uitnodigingen verzenden naar ieder domein toestaan|Met deze instelling kunt u een lijst opgeven met voor het delen toegestane of geblokkeerde domeinen. Als toegestane domeinen worden opgegeven, kunnen uitnodigingen tot delen alleen naar deze domeinen worden verzonden. Als geblokkeerde domeinen worden opgegeven, kunnen er geen uitnodigingen tot delen naar deze domeinen worden verzonden.<br><br> Deze instelling heeft invloed op de deelopties van Microsoft 365, zoals Teams en SharePoint. U kunt domeinen nauwkeuriger toestaan of blokkeren door domeinfilters in SharePoint of Teams te gebruiken.|
+|Samenwerkingsbeperkingen|Uitnodigingen verzenden naar ieder domein toestaan|Met deze instelling kunt u een lijst opgeven met voor het delen toegestane of geblokkeerde domeinen. Als toegestane domeinen worden opgegeven, kunnen uitnodigingen tot delen alleen naar deze domeinen worden verzonden. Als geblokkeerde domeinen worden opgegeven, kunnen er geen uitnodigingen tot delen naar deze domeinen worden verzonden. <p> Deze instelling heeft invloed op de deelopties van Microsoft 365, zoals Teams en SharePoint. U kunt domeinen nauwkeuriger toestaan of blokkeren door domeinfilters in SharePoint of Teams te gebruiken.|
 
 Deze instellingen hebben invloed op de manier waarop gebruikers worden uitgenodigd voor de directory. Ze hebben geen invloed op het delen met gasten die al aanwezig zijn in de directory.
 
@@ -67,7 +67,7 @@ Het Microsoft 365-beheercentrum heeft instellingen op organisatieniveau voor del
 
 | Instelling | Standaard | Omschrijving |
 |:-----|:-----|:-----|
-|Gebruikers toestaan nieuwe gasten toe te voegen aan de organisatie|Aan|Wanneer ingesteld op **Ja** kunnen Microsoft Azure AD-leden gasten uitnodigen via Microsoft Azure AD. Wanneer ingesteld op **Nee** is dat niet mogelijk. Wanneer ingesteld op **Ja** kunnen Microsoft 365-groepsleden gasten uitnodigen met goedkeuring van de eigenaar. Wanneer ingesteld op **Nee** kunnen Microsoft 365-groepsleden gasten uitnodigen met goedkeuring van de eigenaar, maar de eigenaren moeten hoofdbeheerders zijn om het goed te keuren. <br><br>Merk op dat **Leden kunnen uitnodigen** verwijst naar leden in Azure AD (in tegenstelling tot gasten) en niet naar site- of groepsleden in Microsoft 365. <br><br>Dit is hetzelfde als de instelling **Leden kunnen uitnodigen** in de instellingen voor organisatierelaties van Azure Active Directory.|
+|Gebruikers toestaan nieuwe gasten toe te voegen aan de organisatie|Aan|Wanneer ingesteld op **Ja** kunnen Microsoft Azure AD-leden gasten uitnodigen via Microsoft Azure AD. Wanneer ingesteld op **Nee** is dat niet mogelijk. Wanneer ingesteld op **Ja** kunnen Microsoft 365-groepsleden gasten uitnodigen met goedkeuring van de eigenaar. Wanneer ingesteld op **Nee** kunnen Microsoft 365-groepsleden gasten uitnodigen met goedkeuring van de eigenaar, maar de eigenaren moeten hoofdbeheerders zijn om het goed te keuren. <p> Merk op dat **Leden kunnen uitnodigen** verwijst naar leden in Azure AD (in tegenstelling tot gasten) en niet naar site- of groepsleden in Microsoft 365. <p> Dit is hetzelfde als de instelling **Leden kunnen uitnodigen** in de instellingen voor organisatierelaties van Azure Active Directory.|
 
 ### <a name="microsoft-365-groups"></a>Microsoft 365 Groepen
 
@@ -164,9 +164,9 @@ Omdat OneDrive een hiërarchie van sites binnen SharePoint is, hebben de instell
 
 | Instelling | Standaard | Omschrijving |
 |:-----|:-----|:-----|
-|Extern delen per domein beperken|Uit|Met deze instelling kunt u een lijst opgeven met voor het delen toegestane of geblokkeerde domeinen. Als toegestane domeinen worden opgegeven, kunnen uitnodigingen tot delen alleen naar deze domeinen worden verzonden. Als geblokkeerde domeinen worden opgegeven, kunnen er geen uitnodigingen tot delen naar deze domeinen worden verzonden.<br><br> Deze instelling heeft invloed op alle SharePoint-en OneDrive-sites in de organisatie.|
-|Alleen gebruikers in specifieke beveiligingsgroepen toestaan om extern te delen|Uit|Als u wilt beperken wie er met gasten kan delen in SharePoint en OneDrive, kunt u dit doen door delen te beperken tot personen in opgegeven beveiligingsgroepen. Deze instellingen hebben geen invloed op delen via Microsoft 365 Groepen of Teams. Gasten die via een groep of team zijn uitgenodigd, hebben ook toegang tot de bijbehorende site, hoewel het delen van documenten en mappen alleen kan worden uitgevoerd door personen in de opgegeven beveiligingsgroepen.<br><br>Voor elke opgegeven groep kunt u kiezen of die gebruikers kunnen delen met iedereen-koppelingen.|
-|Gasten moeten zich aanmelden met behulp van hetzelfde account waarnaar de uitnodigingen voor delen worden verzenden|Uit|Hiermee voorkomt u dat gasten uitnodigingen voor het delen van sites benutten met een ander e-mailadres dan waarnaar de uitnodiging werd verzonden.<br><br>Bij [SharePoint- en OneDrive-integratie met Microsoft Azure AD B2B (voorbeeld)](/sharepoint/sharepoint-azureb2b-integration-preview) wordt deze instelling niet gebruikt, omdat alle gasten worden toegevoegd aan de directory op basis van het e-mailadres waarnaar de uitnodiging werd verzonden. Alternatieve e-mailadressen kunnen niet worden gebruikt voor sitetoegang.|
+|Extern delen per domein beperken|Uit|Met deze instelling kunt u een lijst opgeven met voor het delen toegestane of geblokkeerde domeinen. Als toegestane domeinen worden opgegeven, kunnen uitnodigingen tot delen alleen naar deze domeinen worden verzonden. Als geblokkeerde domeinen worden opgegeven, kunnen er geen uitnodigingen tot delen naar deze domeinen worden verzonden. <p> Deze instelling heeft invloed op alle SharePoint-en OneDrive-sites in de organisatie.|
+|Alleen gebruikers in specifieke beveiligingsgroepen toestaan om extern te delen|Uit|Als u wilt beperken wie er met gasten kan delen in SharePoint en OneDrive, kunt u dit doen door delen te beperken tot personen in opgegeven beveiligingsgroepen. Deze instellingen hebben geen invloed op delen via Microsoft 365 Groepen of Teams. Gasten die via een groep of team zijn uitgenodigd, hebben ook toegang tot de bijbehorende site, hoewel het delen van documenten en mappen alleen kan worden uitgevoerd door personen in de opgegeven beveiligingsgroepen. <p> Voor elke opgegeven groep kunt u kiezen of die gebruikers kunnen delen met iedereen-koppelingen.|
+|Gasten moeten zich aanmelden met behulp van hetzelfde account waarnaar de uitnodigingen voor delen worden verzenden|Uit|Hiermee voorkomt u dat gasten uitnodigingen voor het delen van sites benutten met een ander e-mailadres dan waarnaar de uitnodiging werd verzonden. <p> Bij [SharePoint- en OneDrive-integratie met Microsoft Azure AD B2B (voorbeeld)](/sharepoint/sharepoint-azureb2b-integration-preview) wordt deze instelling niet gebruikt, omdat alle gasten worden toegevoegd aan de directory op basis van het e-mailadres waarnaar de uitnodiging werd verzonden. Alternatieve e-mailadressen kunnen niet worden gebruikt voor sitetoegang.|
 |Gasten toestaan items te delen waarvan ze niet de eigenaar zijn|Aan|Wanneer **Aan** kunnen gasten items waarvan ze niet de eigenaar zijn, delen met andere gebruikers of gasten. Wanneer **Uit** is dit niet mogelijk. Gasten kunnen altijd items delen waarover ze het volledige beheer hebben.|
 |Personen die een verificatiecode gebruiken, moeten na dit aantal dagen opnieuw verifiëren|Uit|Met deze instelling kunt u vereisen dat gebruikers die zich verifiëren met een eenmalige wachtwoordcode na een bepaald aantal dagen opnieuw moeten verifiëren.|
 
@@ -215,7 +215,7 @@ U kunt voor elke site het standaardtype koppeling en de standaardmachtigingen en
 
 | Instelling | Standaard | Omschrijving |
 |:-----|:-----|:-----|
-|Delen beperken per domein|Uit|Met deze instelling kunt u een lijst opgeven met voor het delen toegestane of geblokkeerde domeinen. Als toegestane domeinen worden opgegeven, kunnen uitnodigingen tot delen alleen naar deze domeinen worden verzonden. Als geblokkeerde domeinen worden opgegeven, kunnen er geen uitnodigingen tot delen naar deze domeinen worden verzonden.<br><br> Deze instelling kan niet worden gebruikt om de domeinbeperkingen die zijn ingesteld op het organisatieniveau of het Microsoft Azure AD-niveau te overschrijven.|
+|Delen beperken per domein|Uit|Met deze instelling kunt u een lijst opgeven met voor het delen toegestane of geblokkeerde domeinen. Als toegestane domeinen worden opgegeven, kunnen uitnodigingen tot delen alleen naar deze domeinen worden verzonden. Als geblokkeerde domeinen worden opgegeven, kunnen er geen uitnodigingen tot delen naar deze domeinen worden verzonden. <p> Deze instelling kan niet worden gebruikt om de domeinbeperkingen die zijn ingesteld op het organisatieniveau of het Microsoft Azure AD-niveau te overschrijven.|
 |Standaardkoppelingstype voor delen|Hetzelfde als de instelling op organisatieniveau|Met deze instelling kunt u de standaardkoppeling voor delen opgeven die worden weergegeven aan gebruikers op deze site. De optie *Hetzelfde als de instelling op organisatieniveau* wordt gedefinieerd door een combinatie van de instellingen voor delen van de organisatie en de site.|
 |Geavanceerde instellingen voor Iedereen-koppelingen|Hetzelfde als de instelling op organisatieniveau|Hiermee geeft u het aantal dagen na de dag van maken op waarna een *Iedereen*-koppeling voor een bestand in deze site vervalt. Verlopen koppelingen kunnen niet worden verlengd. Maak een nieuwe koppeling als u wilt doorgaan met het delen na de verloopdatum.|
 |Standaardmachtiging voor koppelingen|Hetzelfde als de instelling op organisatieniveau|Met deze instelling kunt u de standaardmachtiging (Bekijken of bewerken) opgeven voor het delen van koppelingen naar bestanden op deze site.|

@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 1c81d2978677b751a8085f88b5c4732fd4a5a247
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 634a381ca862dc7580d82168a4b9540acc0cd394
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770047"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229021"
 ---
 # <a name="get-machine-logon-users-api"></a>API voor gebruikers van computerlogen krijgen
 
@@ -30,7 +30,7 @@ ms.locfileid: "52770047"
 
 **Van toepassing op:** [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 
-> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
@@ -40,47 +40,47 @@ ms.locfileid: "52770047"
 ## <a name="api-description"></a>API-beschrijving
 Hiermee wordt een verzameling aangemelde gebruikers op een bepaald apparaat opgehaald.
 
-
 ## <a name="limitations"></a>Beperkingen
 1. U kunt query's uitvoeren op waarschuwingen die het laatst zijn bijgewerkt op basis van de geconfigureerde bewaarperiode.
 2. Tariefbeperkingen voor deze API zijn 100 oproepen per minuut en 1500 oproepen per uur.
 
-
 ## <a name="permissions"></a>Machtigingen
 Een van de volgende machtigingen is vereist om deze API te bellen. Zie Microsoft Defender voor [eindpunt-API's](apis-intro.md) gebruiken voor meer informatie, inclusief het kiezen van machtigingen.
 
-Machtigingstype |   Machtiging  |   Weergavenaam machtiging
+Machtigingstype |Machtiging|Weergavenaam machtiging
 :---|:---|:---
-Toepassing |   User.Read.All | 'Gebruikersprofielen lezen'
+Toepassing |User.Read.All |'Gebruikersprofielen lezen'
 Gedelegeerd (werk- of schoolaccount) | User.Read.All | 'Gebruikersprofielen lezen'
 
->[!Note]
+> [!NOTE]
 > Bij het verkrijgen van een token met gebruikersreferenties:
->- De gebruiker moet ten minste de volgende rolmachtiging hebben: 'Gegevens weergeven'. Zie Rollen maken [en beheren voor meer informatie](user-roles.md) .
->- Het antwoord bevat alleen gebruikers als het apparaat zichtbaar is voor de gebruiker, op basis van de instellingen van de apparaatgroep. Zie Apparaatgroepen maken en beheren voor meer [informatie.](machine-groups.md)
+>
+> - De gebruiker moet ten minste de volgende rolmachtiging hebben: 'Gegevens weergeven'. Zie Rollen maken [en beheren voor meer informatie.](user-roles.md)
+> - Het antwoord bevat alleen gebruikers als het apparaat zichtbaar is voor de gebruiker, op basis van de instellingen van de apparaatgroep. Zie Apparaatgroepen maken en beheren voor meer [informatie.](machine-groups.md)
 
 ## <a name="http-request"></a>HTTP-aanvraag
+
 ```http
 GET /api/machines/{id}/logonusers
 ```
 
-## <a name="request-headers"></a>Kopteksten aanvragen
+## <a name="request-headers"></a>Aanvraagheaders
 
-Naam | Type | Beschrijving
+Naam | Type | Omschrijving
 :---|:---|:---
 Autorisatie | Tekenreeks | Bearer {token}. **Vereist**.
 
+## <a name="request-body"></a>Aanvraagtekst
 
-## <a name="request-body"></a>Body aanvragen
 Leeg
 
 ## <a name="response"></a>Antwoord
-Als dit is gelukt en het apparaat [](user.md) bestaat- 200 OK met een lijst met gebruikersentiteiten in de body. Als het apparaat niet is gevonden- 404 Niet gevonden.
 
+Als dit is gelukt en het apparaat [](user.md) bestaat- 200 OK met een lijst met gebruikersentiteiten in de body. Als het apparaat niet is gevonden- 404 Niet gevonden.
 
 ## <a name="example"></a>Voorbeeld
 
-**Aanvraag**
+### <a name="request"></a>Aanvraag
 
 Hier is een voorbeeld van de aanvraag.
 
@@ -88,10 +88,9 @@ Hier is een voorbeeld van de aanvraag.
 GET https://api.securitycenter.microsoft.com/api/machines/1e5bc9d7e413ddd7902c2932e418702b84d0cc07/logonusers
 ```
 
-**Antwoord**
+### <a name="response"></a>Antwoord
 
 Hier is een voorbeeld van het antwoord.
-
 
 ```http
 HTTP/1.1 200 OK

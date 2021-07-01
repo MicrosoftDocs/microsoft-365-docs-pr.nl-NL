@@ -22,12 +22,12 @@ ms.collection:
 - M365-security-compliance
 - Ent_O365
 description: In dit artikel kunt u problemen met Office 365 oplossen en zelfs enkele van de meest voorkomende problemen oplossen.
-ms.openlocfilehash: 588a19e86d903a7ab709a7f0d0131da6e2a77f47
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 6ef459d6469881c71ea7d1da3a32eb42eb3ead6b
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50928234"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229933"
 ---
 # <a name="performance-troubleshooting-plan-for-office-365"></a>Prestatieproblemen met Office 365 oplossen: planning
 

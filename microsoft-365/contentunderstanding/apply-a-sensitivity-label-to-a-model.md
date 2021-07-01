@@ -13,18 +13,18 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Lees hoe u een gevoeligheidslabel kunt toepassen op een model in SharePoint Syntex.
-ms.openlocfilehash: ebcd398799e7c8addd96d5941427628d3db5ad43
-ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
+ms.openlocfilehash: c7d6c17dc4d41bf2dab663618e740318d88dd723
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53028941"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228745"
 ---
 # <a name="apply-a-sensitivity-label-to-a-model-in-microsoft-sharepoint-syntex"></a>Een gevoeligheidslabel toepassen op een model in Microsoft SharePoint Syntex
 
 U kunt eenvoudig een [gevoeligheidslabel](../compliance/sensitivity-labels.md) toepassen op een documentbegripmodel in Microsoft SharePoint Syntex. Deze functie is nog niet beschikbaar voor formulierverwerkingsmodellen.
 
-Met gevoeligheidslabels kunt u beleid voor versleuteling, delen en voorwaardelijke toegang toepassen op de documenten die uw modellen identificeren. U wilt bijvoorbeeld dat uw model niet alleen financiële documenten identificeert die bankrekeningnummers of creditcardnummers bevatten die naar uw documentbibliotheek zijn geüpload, maar ook een gevoeligheidslabel *Versleuteling* erop toepast om te beperken wie toegang heeft tot die inhoud en hoe het kan worden gebruikt. SharePoint Syntex-modellen houden zich aan de regels voor [labelvolgorde](../compliance/apply-sensitivity-label-automatically.md?view=o365-worldwide#how-multiple-conditions-are-evaluated-when-they-apply-to-more-than-one-label) en overschrijven ook geen bestaand label dat handmatig door een gebruiker op het bestand is toegepast. 
+Met gevoeligheidslabels kunt u beleid voor versleuteling, delen en voorwaardelijke toegang toepassen op de documenten die uw modellen identificeren. U wilt bijvoorbeeld dat uw model niet alleen financiële documenten identificeert die bankrekeningnummers of creditcardnummers bevatten die naar uw documentbibliotheek zijn geüpload, maar ook een gevoeligheidslabel *Versleuteling* erop toepast om te beperken wie toegang heeft tot die inhoud en hoe het kan worden gebruikt. SharePoint Syntex-modellen houden zich aan de regels voor [labelvolgorde](../compliance/apply-sensitivity-label-automatically.md#how-multiple-conditions-are-evaluated-when-they-apply-to-more-than-one-label) en overschrijven ook geen bestaand label dat handmatig door een gebruiker op het bestand is toegepast. 
 
 U kunt een reeds bestaand gevoeligheidslabel op uw model toepassen via uw modelinstellingen op de startpagina van uw model. Het label moet al zijn gepubliceerd om te kunnen worden geselecteerd in de modelinstellingen.
 

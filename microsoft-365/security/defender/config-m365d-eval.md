@@ -1,7 +1,7 @@
 ---
-title: De Microsoft 365 Defender configureren voor het proeflab of de testomgeving
-description: Configureer Microsoft 365 Defender-pilaren, zoals Microsoft Defender voor Office 365, Microsoft Defender voor identiteit, Microsoft Cloud App Security en Microsoft Defender voor eindpunt, voor uw proeflab of testomgeving.
-keywords: configureer Microsoft 365 Defender trial, Microsoft 365 Defender trial configuration, configure Microsoft 365 Defender pilot project, configure Microsoft 365 Defender pillars, Microsoft 365 Defender pillars
+title: De Microsoft 365 Defender voor het proeflaboratorium of de testomgeving configureren
+description: Configureer Microsoft 365 Defender pilaren, zoals Microsoft Defender voor Office 365, Microsoft Defender voor identiteit, Microsoft Cloud App Security en Microsoft Defender voor eindpunt, voor uw proeflab of testomgeving.
+keywords: configuratie Microsoft 365 Defender proefversie, Microsoft 365 Defender proefversie configureren, Microsoft 365 Defender pilotproject configureren, Microsoft 365 Defender pilaren configureren, Microsoft 365 Defender pilaren
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,14 +21,14 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 05bdc9cbb678a3d6c1cee726fc4d8c2e45d2d360
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: e50210f02d14be33c357517515d456318aac4bb6
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933503"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229777"
 ---
-# <a name="configure-microsoft-365-defender-pillars-for-your-trial-lab-or-pilot-environment"></a>De Microsoft 365 Defender-pilaren configureren voor uw proeflaboratorium of testomgeving
+# <a name="configure-microsoft-365-defender-pillars-for-your-trial-lab-or-pilot-environment"></a>De Microsoft 365 Defender voor uw proeflaboratorium of testomgeving configureren
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -37,7 +37,7 @@ ms.locfileid: "51933503"
 - Microsoft 365 Defender
 
 
-Het maken Microsoft 365 proeflaboratorium of testomgeving van Defender en deze implementeren is een proces in drie fasen:
+Het maken Microsoft 365 Defender testlaboratorium of testomgeving en de implementatie ervan is een proces in drie fasen:
 
 |[![Fase 1: Voorbereiden](../../media/phase-diagrams/prepare.png)](prepare-m365d-eval.md)<br/>[Fase 1: Voorbereiden](prepare-m365d-eval.md) |[![Fase 2: Instellen](../../media/phase-diagrams/setup.png)](setup-m365deval.md)<br/>[Fase 2: Instellen](setup-m365deval.md) |![Fase 3: Onboarden](../../media/phase-diagrams/onboard.png)<br/>Fase 3: Onboarden | [![Terug naar pilot](../../media/phase-diagrams/backtopilot.png)](m365d-pilot.md)<br/>[Terug naar pilot playbook](m365d-pilot.md) |
 |--|--|--|--|
@@ -47,30 +47,29 @@ U bent momenteel in de configuratiefase.
 
 Voorbereiding is essentieel voor een geslaagde implementatie. In dit artikel wordt u begeleid over de punten die u moet overwegen terwijl u zich voorbereidt op de implementatie van Microsoft Defender voor Eindpunt.
 
-
-## <a name="microsoft-365-defender-pillars"></a>Microsoft 365 Defender-pilaren
-Microsoft 365 Defender bestaat uit vier pilaren. Hoewel één pijler al waarde kan bieden voor de beveiliging van uw netwerkorganisatie, biedt het inschakelen van de vier Microsoft 365 Defender-pijlers de meeste waarde voor uw organisatie.
+## <a name="microsoft-365-defender-pillars"></a>Microsoft 365 Defender pilaren
+Microsoft 365 Defender bestaat uit vier pilaren. Hoewel één pijler al waarde kan bieden voor de beveiliging van uw netwerkorganisatie, geeft het inschakelen van de vier Microsoft 365 Defender uw organisatie de meeste waarde.
 
 ![Image of_Microsoft 365 Defender solution for users, Microsoft Defender for Identity, for endpoints Microsoft Defender for Endpoint, for cloud apps, Microsoft Cloud App Security, and for data, Microsoft Defender for Office 365](../../media/mtp/m365pillars.png)
 
 In deze sectie wordt u begeleid bij het configureren:
--   Microsoft Defender voor Office 365
--   Microsoft Defender for Identity 
--   Microsoft Cloud App Security
--   Microsoft Defender voor Eindpunt
 
+- Microsoft Defender voor Office 365
+- Microsoft Defender for Identity
+- Microsoft Cloud App Security
+- Microsoft Defender voor Eindpunt
 
 ## <a name="configure-microsoft-defender-for-office-365"></a>Microsoft Defender configureren voor Office 365
 
->[!NOTE]
->Sla deze stap over als u Defender al hebt ingeschakeld voor Office 365. 
+> [!NOTE]
+> Sla deze stap over als u Defender al hebt ingeschakeld voor Office 365.
 
-Er is een PowerShell-module genaamd *de Office 365 Advanced Threat Protection Recommended Configuration Analyzer (ORCA)* waarmee u bepaalde van deze instellingen kunt bepalen. Wanneer u wordt uitgevoerd als een beheerder in uw tenant, helpt get-ORCAReport bij het genereren van een beoordeling van de instellingen voor antispam, anti-phish en andere berichthygiëne. U kunt deze module downloaden van https://www.powershellgallery.com/packages/ORCA/ . 
+Er is een PowerShell-module genaamd *de Office 365 Advanced Threat Protection Recommended Configuration Analyzer (ORCA)* waarmee u bepaalde van deze instellingen kunt bepalen. Wanneer u wordt uitgevoerd als een beheerder in uw tenant, helpt get-ORCAReport bij het genereren van een beoordeling van de instellingen voor antispam, anti-phish en andere berichthygiëne. U kunt deze module downloaden van https://www.powershellgallery.com/packages/ORCA/ .
 
 1. Navigeer [naar Office 365 beveiligingsbeleid & Compliance Center](https://protection.office.com/homepage)Threat  >  **Management**  >  **Policy**.
 
    ![Pagina of_Office beveiligingsbeleid van 365 & compliancecentrum bedreigingsbeheer](../../media/mtp-eval-32.png)
- 
+
 2. Klik **op Anti-phishing,** selecteer **Maken** en vul de naam en beschrijving van het beleid in. Klik op **Volgende**.
 
    ![Afbeelding of_Office 365-beveiligingspagina & anti-phishingbeleidspagina van het Compliancecentrum, waar u uw beleid een naam kunt geven](../../media/mtp-eval-33.png)
@@ -81,11 +80,11 @@ Er is een PowerShell-module genaamd *de Office 365 Advanced Threat Protection Re
 3. Klik op **de vervolgkeuzelijst** Een voorwaarde toevoegen en selecteer uw domein(en) als geadresseerdedomein. Klik op **Volgende**.
 
    ![Afbeelding of_Office 365 Security & Compliance Center anti-phishing policy page where you can add a condition for its application](../../media/mtp-eval-34.png)
- 
-4. Controleer uw instellingen. Klik **op Dit beleid maken om** dit te bevestigen. 
+
+4. Controleer uw instellingen. Klik **op Dit beleid maken om** dit te bevestigen.
 
    ![Afbeelding of_Office 365 Security & Compliance Center anti-phishing policy page where you can review your settings and click the create this policy button](../../media/mtp-eval-35.png)
- 
+
 5. Selecteer **Safe bijlagen en** selecteer de optie ATP in **SharePoint, OneDrive en Microsoft Teams** in.
 
    ![Afbeelding of_Office pagina 365 Beveiligings- & compliancecentrum waar u ATP kunt in- SharePoint, OneDrive en Microsoft Teams](../../media/mtp-eval-36.png)
@@ -93,10 +92,10 @@ Er is een PowerShell-module genaamd *de Office 365 Advanced Threat Protection Re
 6. Klik op het pictogram + om een nieuw beleid voor veilige bijlagen te maken en pas dit toe als geadresseerdedomein op uw domeinen. Klik op **Opslaan**.
 
    ![Afbeelding of_Office pagina 365 Beveiligingscentrum & waar u een nieuw beleid voor veilige bijlagen kunt maken](../../media/mtp-eval-37.png)
- 
+
 7. Selecteer vervolgens het Safe **koppelingenbeleid** en klik vervolgens op het potloodpictogram om het standaardbeleid te bewerken.
 
-8. Zorg ervoor dat de optie **Niet bijhouden wanneer gebruikers op** veilige koppelingen klikken niet is geselecteerd, terwijl de overige opties zijn geselecteerd. Zie [Safe Instellingen voor koppelingen](/microsoft-365/security/office-365-security/recommended-settings-for-eop-and-office365) voor meer informatie. Klik op **Opslaan**. 
+8. Zorg ervoor dat de optie **Niet bijhouden wanneer gebruikers op** veilige koppelingen klikken niet is geselecteerd, terwijl de overige opties zijn geselecteerd. Zie [Safe Instellingen voor koppelingen](/microsoft-365/security/office-365-security/recommended-settings-for-eop-and-office365) voor meer informatie. Klik op **Opslaan**.
 
    ![Afbeelding of_Office pagina 365 Beveiligingscentrum & waarin wordt weergegeven dat de optie Niet bijhouden wanneer gebruikers op veilig klikken niet is geselecteerd](../../media/mtp-eval-38.png)
 
@@ -105,7 +104,7 @@ Er is een PowerShell-module genaamd *de Office 365 Advanced Threat Protection Re
 10. Klik **Instellingen** en selecteer **Ja en gebruik de standaardmeldingstekst om** Reactie op **malwaredetectie in te stellen.** Schakel het **filter Algemene bijlagetypen** in. Klik op **Opslaan**.
 
     ![Afbeelding of_Office pagina Beveiligings- & compliancecentrum van 365, waaruit blijkt dat de reactie op malwaredetectie is ingeschakeld met standaardmelding en dat het filter voor algemene bijlagetypen is ingeschakeld](../../media/mtp-eval-39.png)
-  
+
 11. [Navigeer naar Office 365 beveiligingscentrum & zoeken](https://protection.office.com/homepage)in het zoeklogboek van het compliancecentrum en schakel  >    >   Auditing in.
 
     ![Afbeelding of_Office pagina 365 Beveiligingscentrum & waar u de zoekopdracht Auditlogboek kunt in-](../../media/mtp-eval-40.png)
@@ -116,18 +115,18 @@ Er is een PowerShell-module genaamd *de Office 365 Advanced Threat Protection Re
 
 ## <a name="configure-microsoft-defender-for-identity"></a>Microsoft Defender configureren voor identiteit
 
->[!NOTE]
->Sla deze stap over als u Microsoft Defender voor identiteit al hebt ingeschakeld
+> [!NOTE]
+> Sla deze stap over als u Microsoft Defender voor identiteit al hebt ingeschakeld
 
 1. Ga naar [Microsoft 365 beveiligingscentrum >](https://security.microsoft.com/info) selecteer **Meer resources** Microsoft Defender voor  >  **identiteit.**
 
    ![Afbeelding of_Microsoft 365-beveiligingscentrum met een optie om Microsoft Defender voor identiteit te openen](../../media/mtp-eval-42.png)
 
-2. Klik **op Maken** om de wizard Microsoft Defender voor identiteit te starten. 
+2. Klik **op Maken** om de wizard Microsoft Defender voor identiteit te starten.
 
    ![Afbeelding of_Microsoft wizard Defender voor identiteit waar u op knop Maken moet klikken](../../media/mtp-eval-43.png)
 
-3. Kies **Een gebruikersnaam en wachtwoord opgeven om verbinding te maken met uw Active Directory-forest.**  
+3. Kies **Een gebruikersnaam en wachtwoord opgeven om verbinding te maken met uw Active Directory-forest.**
 
    ![Welkomstpagina of_Microsoft Defender voor identiteit](../../media/mtp-eval-44.png)
 
@@ -142,51 +141,50 @@ Er is een PowerShell-module genaamd *de Office 365 Advanced Threat Protection Re
 6. Voer de installatie van de Microsoft Defender voor identiteits sensor uit en begin de wizard te volgen.
 
    ![Afbeelding of_Microsoft defender voor identiteitspagina waar u naast moet klikken om de sensorwizard van Microsoft Defender voor identiteit te volgen](../../media/mtp-eval-47.png)
- 
+
 7. Klik **op Volgende** bij het type sensorimplementatie.
 
    ![Afbeelding of_Microsoft defender voor identiteitspagina waar u naast moet klikken om naar de volgende pagina te gaan](../../media/mtp-eval-48.png)
- 
+
 8. Kopieer de toegangssleutel omdat u deze vervolgens moet invoeren in de wizard.
 
    ![Afbeelding of_the pagina met sensoren waar u de toegangstoets moet kopiëren die u moet invoeren op de volgende pagina met de installatiewizard van de Microsoft Defender voor identiteits sensor](../../media/mtp-eval-49.png)
- 
-9. Kopieer de toegangssleutel naar de wizard en klik op **Installeren.** 
+
+9. Kopieer de toegangssleutel naar de wizard en klik op **Installeren.**
 
    ![Afbeelding of_Microsoft wizard Wizard Defender voor identiteits sensor waar u de toegangssleutel moet verstrekken en klik vervolgens op de knop Installeren](../../media/mtp-eval-50.png)
 
 10. Gefeliciteerd, u hebt Microsoft Defender voor identiteit geconfigureerd op uw domeincontroller.
 
     ![Afbeelding of_Microsoft installatie van de wizard Installatie van de defender voor identiteits sensor, waarbij u op de knop Voltooien moet klikken](../../media/mtp-eval-51.png)
- 
-11. Selecteer onder [de sectie Instellingen](https://go.microsoft.com/fwlink/?linkid=2040449) voor Microsoft Defender voor identiteit de optie **Microsoft Defender voor Eindpunt **, en schakel de schakelaar in. Klik op **Opslaan**. 
+
+11. Selecteer onder [de sectie Instellingen](https://go.microsoft.com/fwlink/?linkid=2040449) voor Microsoft Defender voor identiteit de optie **Microsoft Defender voor Eindpunt **, en schakel de schakelaar in. Klik op **Opslaan**.
 
     ![Afbeelding of_the pagina met instellingen voor Microsoft Defender voor identiteit waarin u de schakelknop Microsoft Defender voor eindpunt moet in-](../../media/mtp-eval-52.png)
-
 
 ## <a name="configure-microsoft-cloud-app-security"></a>Microsoft Cloud App Security
 
 > [!NOTE]
-> Sla deze stap over als u deze stap al hebt Microsoft Cloud App Security. 
+> Sla deze stap over als u deze stap al hebt Microsoft Cloud App Security.
 
 1. Ga naar [Microsoft 365 Beveiligingscentrum](https://security.microsoft.com/info)  >  **Meer resources Microsoft Cloud App Security.**  >  
 
    ![Afbeelding of_Microsoft 365-beveiligingscentrumpagina waar u de Kaart van Microsoft Cloud App kunt zien en op de knop Openen moet klikken](../../media/mtp-eval-53.png)
 
 2. Selecteer Microsoft Defender inschakelen voor **identiteitsgegevensintegratie** bij de informatieprompt voor het integreren van Microsoft Defender voor identiteit.
-  
+
    ![Afbeelding of_the informatieprompt om Microsoft Defender voor identiteit te integreren, waarbij u de koppeling Microsoft Defender voor integratie van identiteitsgegevens inschakelen moet selecteren](../../media/mtp-eval-54.png)
 
    > [!NOTE]
-   > Als u deze prompt niet ziet, kan dit betekenen dat uw Microsoft Defender voor identiteitsgegevensintegratie al is ingeschakeld. Als u het echter niet zeker weet, neem dan contact op met uw IT-beheerder om dit te bevestigen. 
+   > Als u deze prompt niet ziet, kan dit betekenen dat uw Microsoft Defender voor identiteitsgegevensintegratie al is ingeschakeld. Als u het echter niet zeker weet, neem dan contact op met uw IT-beheerder om dit te bevestigen.
 
-3. Ga naar **Instellingen,** schakel de schakelknop **Microsoft Defender voor identiteitsintegratie** in en klik op **Opslaan.** 
+3. Ga naar **Instellingen,** schakel de schakelknop **Microsoft Defender voor identiteitsintegratie** in en klik op **Opslaan.**
 
    ![Afbeelding of_the pagina met instellingen waar u de schakelknop Voor identiteitsintegratie van Microsoft Defender in moet schakelen en klik vervolgens op Opslaan](../../media/mtp-eval-55.png)
-   
+
    > [!NOTE]
    > Voor nieuwe Microsoft Defender voor identiteits-exemplaren wordt deze schakelknop voor integratie automatisch ingeschakeld. Controleer of uw Microsoft Defender voor identiteitsintegratie is ingeschakeld voordat u verdergaat met de volgende stap.
- 
+
 4. Selecteer onder de instellingen voor clouddetectie de optie **Microsoft Defender voor endpoint-integratie** en schakel de integratie in. Klik op **Opslaan**.
 
    ![Afbeelding of_the microsoft Defender voor eindpuntpagina waarin het selectievakje Niet-geanctioneerde apps blokkeren onder Microsoft Defender voor endpoint-integratie is geselecteerd. Klik op Opslaan.](../../media/mtp-eval-56.png)
@@ -195,28 +193,27 @@ Er is een PowerShell-module genaamd *de Office 365 Advanced Threat Protection Re
 
    ![Afbeelding van de sectie Gebruikersverrijking waarin het selectievakje verrijkende gevonden gebruikersaanduidingen met Azure Active Directory gebruikersnamen is geselecteerd](../../media/mtp-eval-57.png)
 
-
 ## <a name="configure-microsoft-defender-for-endpoint"></a>Microsoft Defender configureren voor eindpunt
 
->[!NOTE]
->Sla deze stap over als u Microsoft Defender voor Eindpunt al hebt ingeschakeld.
+> [!NOTE]
+> Sla deze stap over als u Microsoft Defender voor Eindpunt al hebt ingeschakeld.
 
 1. Ga naar [Microsoft 365 Beveiligingscentrum](https://security.microsoft.com/info)  >  **Meer resources**  >  **Microsoft Defender-beveiligingscentrum.** Klik **op Openen.**
 
    ![Afbeelding of_Microsoft defender-beveiligingscentrum op de pagina Microsoft 365 beveiligingscentrum](../../media/mtp-eval-58.png)
- 
-2. Volg de wizard Microsoft Defender voor eindpunt. Klik op **Volgende**. 
+
+2. Volg de wizard Microsoft Defender voor eindpunt. Klik op **Volgende**.
 
    ![Pagina of_the Microsoft Defender-beveiligingscentrum welkomstwizard](../../media/mtp-eval-59.png)
 
 3. Kies op basis van uw voorkeurslocatie voor gegevensopslag, beleid voor gegevensretentie, organisatiegrootte en opt-in voor voorbeeldfuncties.
 
    ![Afbeelding of_the pagina om uw land voor gegevensopslag, bewaarbeleid en organisatiegrootte te selecteren. Klik op volgende wanneer u klaar bent met selecteren.](../../media/mtp-eval-60.png)
-   
-   > [!NOTE]
-   > U kunt sommige instellingen, zoals de locatie voor gegevensopslag, achteraf niet wijzigen. 
 
-   Klik op **Volgende**. 
+   > [!NOTE]
+   > U kunt sommige instellingen, zoals de locatie voor gegevensopslag, achteraf niet wijzigen.
+
+   Klik op **Volgende**.
 
 4. Klik **op Doorgaan** en de Microsoft Defender voor Eindpunt-tenant wordt ingericht.
 
@@ -228,7 +225,7 @@ Er is een PowerShell-module genaamd *de Office 365 Advanced Threat Protection Re
 
    ![Afbeelding of_page u op de knop Pakket downloaden klikt om het onboarding-script naar uw eindpunt of eindpunten te kopiëren](../../media/mtp-eval-62.png)
 
-7. Voer op het eindpunt het onboarding-script uit als beheerder en kies Y. 
+7. Voer op het eindpunt het onboarding-script uit als beheerder en kies Y.
 
    ![Afbeelding of_the commandline waar u het onboarding-script uitwerkt en Y kiest om door te gaan](../../media/mtp-eval-63.png)
 
@@ -240,19 +237,19 @@ Er is een PowerShell-module genaamd *de Office 365 Advanced Threat Protection Re
 
    ![Afbeelding of_the een detectieteststap uitvoeren waarbij u op Kopiëren moet klikken om het detectietestscript te kopiëren dat u in de opdrachtprompt moet plakken](../../media/mtp-eval-65.png)
 
-10. Kopieer het PowerShell-script naar een opdrachtprompt met verhoogde opdracht en voer het uit. 
+10. Kopieer het PowerShell-script naar een opdrachtprompt met verhoogde opdracht en voer het uit.
 
     ![Image of_command prompt where you should copy the PowerShell script to an elevated command prompt and run it](../../media/mtp-eval-66.png)
 
 11. Selecteer **Start using Microsoft Defender for Endpoint from** the Wizard.
 
     ![Afbeelding of_the bevestigingsprompt van de wizard waarin u op Start using Microsoft Defender for Endpoint klikt](../../media/mtp-eval-67.png)
- 
-12. Ga naar de [Microsoft Defender-beveiligingscentrum.](https://securitycenter.windows.com/) Ga naar **Instellingen** en selecteer geavanceerde **functies.** 
+
+12. Ga naar de [Microsoft Defender-beveiligingscentrum.](https://securitycenter.windows.com/) Ga naar **Instellingen** en selecteer geavanceerde **functies.**
 
     ![Afbeelding of_Microsoft Defender Security Center Instellingen menu waarin u Geavanceerde functies moet selecteren](../../media/mtp-eval-68.png)
 
-13. Schakel de integratie met **Microsoft Defender voor identiteit in.**  
+13. Schakel de integratie met **Microsoft Defender voor identiteit in.**
 
     ![Afbeelding of_Microsoft Geavanceerde functies van het Defender Security Center, optie microsoft Defender voor identiteit die u moet in- of uitschakelen](../../media/mtp-eval-69.png)
 
@@ -270,17 +267,16 @@ Er is een PowerShell-module genaamd *de Office 365 Advanced Threat Protection Re
 
 ## <a name="start-the-microsoft-365-defender-service"></a>De Microsoft 365 Defender-service starten
 
->[!NOTE]
->Vanaf 1 juni 2020 worden door Microsoft automatisch Microsoft 365 Defender-functies voor alle in aanmerking komende tenants. Zie dit [Artikel van de Microsoft Tech Community over het in aanmerking komen voor](https://techcommunity.microsoft.com/t5/security-privacy-and-compliance/microsoft-threat-protection-will-automatically-turn-on-for/ba-p/1345426) licenties voor meer informatie. 
+> [!NOTE]
+> Vanaf 1 juni 2020 worden automatisch Microsoft 365 Defender voor alle in aanmerking komende tenants. Zie dit [Artikel van de Microsoft Tech Community over het in aanmerking komen voor](https://techcommunity.microsoft.com/t5/security-privacy-and-compliance/microsoft-threat-protection-will-automatically-turn-on-for/ba-p/1345426) licenties voor meer informatie.
 
+Ga naar [Microsoft 365 Beveiligingscentrum.](https://security.microsoft.com/homepage) Ga naar **Instellingen** en selecteer **Microsoft 365 Defender.**
 
-Ga naar [Microsoft 365 Beveiligingscentrum.](https://security.microsoft.com/homepage) Navigeer **naar Instellingen** en selecteer Microsoft 365 **Defender.**
+![Afbeelding of_Microsoft 365 Defender-optie schermafbeelding van de Microsoft 365 beveiligingscentrum Instellingen pagina](../../media/mtp-eval-72b.png)
 
-![Afbeelding of_Microsoft 365 Defender-optie schermafbeelding van de Microsoft 365 beveiligingscentrum Instellingen pagina ](../../media/mtp-eval-72b.png) <br>
+Zie De Microsoft 365 Defender voor een [uitgebreidere Microsoft 365 Defender.](m365d-enable.md)
 
-Zie De Microsoft 365 [Defender in- Microsoft 365 voor een uitgebreidere richtlijn.](m365d-enable.md) 
-
-Gefeliciteerd! U hebt zojuist uw Microsoft 365 proeflaboratorium of testomgeving van Defender gemaakt. Nu kunt u vertrouwd raken met de Microsoft 365 Defender-gebruikersinterface. Bekijk wat u kunt leren van de volgende Microsoft 365 interactieve handleiding van Defender en weet hoe u elk dashboard kunt gebruiken voor uw dagelijkse beveiligingstaken.
+Gefeliciteerd! U hebt zojuist uw Microsoft 365 Defender proeflaboratorium of testomgeving gemaakt! Nu kunt u vertrouwd raken met de Microsoft 365 Defender gebruikersinterface! Bekijk wat u kunt leren van de volgende Microsoft 365 Defender interactieve handleiding en weet hoe u elk dashboard kunt gebruiken voor uw dagelijkse beveiligingstaken.
 
 [Bekijk de interactieve handleiding](https://aka.ms/MTP-Interactive-Guide)
 
@@ -288,4 +284,4 @@ Vervolgens kunt u een aanval simuleren en zien hoe de verschillende productmogel
 
 ## <a name="next-step"></a>Volgende stap
 
-- [Een testwaarschuwing genereren:](generate-test-alert.md) voer een aanvalssimulatie uit in Microsoft 365 Defender-proeflaboratorium.
+- [Een testwaarschuwing genereren:](generate-test-alert.md) voer een aanvalssimulatie uit in Microsoft 365 Defender testlaboratorium.

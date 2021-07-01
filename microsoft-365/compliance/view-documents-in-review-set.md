@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 description: Kies hoe u inhoud in een Advanced eDiscovery, zoals tekst, aantekeningen, geconverteerd of oorspronkelijke weergave.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: aa8e8e9ea22469ab6d0b223c1bcc9285e2c2ef40
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+ms.openlocfilehash: 7c2adf5a1b06761832b96a06a85f72c471e5dd1c
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "52162504"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228517"
 ---
 # <a name="view-documents-in-a-review-set-in-advanced-ediscovery"></a>Documenten weergeven in een revisieset in Advanced eDiscovery
 
@@ -49,44 +49,31 @@ De native viewer geeft de rijkste weergave van een document weer. Het ondersteun
 
 De viewer Tekst biedt een weergave van de uitgepakte tekst van een bestand. Ingesloten afbeeldingen en opmaak worden genegeerd, maar zijn zeer effectief als u de inhoud snel wilt begrijpen. De tekstweergave bevat ook de volgende functies:
 
-  - Met regelteller kunt u gemakkelijker verwijzen naar specifieke gedeelten van een document
+- Met regelteller kunt u gemakkelijker verwijzen naar specifieke gedeelten van een document
+- Markeer de zoekactie om termen in het document en de schuifbalk te markeren
+- De diffweergave biedt een vergelijkingsweergave die tekstuele verschillen markeert bij het weergeven van Documenten bij dubbele weergave
 
-  - Markeer de zoekactie om termen in het document en de schuifbalk te markeren
+![Tekstweergave](../media/Reviewimage4.png)
 
-  - De diffweergave biedt een vergelijkingsweergave die tekstuele verschillen markeert bij het weergeven van Documenten bij dubbele weergave
-
-![Tekstweergave
-](../media/Reviewimage4.png)
-
-![Diffweergave
-](../media/Reviewimage5.png)
+![Diffweergave](../media/Reviewimage5.png)
 
 ## <a name="annotate-view"></a>Aantekeningen maken
 
 De weergave Aantekeningen bevat functies waarmee gebruikers markeringen kunnen toepassen op een document, waaronder:
 
-  - Gebiedsreactie: gebruikers kunnen een vak tekenen in het document om gevoelige inhoud te verbergen
+- Gebiedsreactie: gebruikers kunnen een vak tekenen in het document om gevoelige inhoud te verbergen
+- Potlood: gebruikers kunnen hand in hand tekenen op een document om de aandacht te vestigen op bepaalde gedeelten van een document
+- Aantekeningen selecteren: gebruikers kunnen aantekeningen in een document selecteren om ze te verwijderen
+- Aantekeningstransparantie in-/uitschakelen: maakt aantekeningen semitransparantie om de inhoud achter de aantekening weer te geven
+- Vorige pagina: navigeert naar vorige pagina
+- Volgende pagina: navigeert naar de volgende pagina
+- Naar pagina gaan: de gebruiker kan een specifiek paginanummer invoeren om naar te navigeren
+- Zoomen: zoomniveau instellen voor aantekeningenweergave
+- Draaien: gebruiker kan document met de klok mee draaien
+- Zoeken: gebruiker kan zoeken in een document en naar de verschillende hits in het document navigeren
 
-  - Potlood: gebruikers kunnen hand in hand tekenen op een document om de aandacht te vestigen op bepaalde gedeelten van een document
+  ![Aantekeningen maken](../media/Reviewimage1.png)
 
-  - Aantekeningen selecteren: gebruikers kunnen aantekeningen in een document selecteren om ze te verwijderen
+## <a name="dashboard-view"></a>Dashboardweergave
 
-  - Aantekeningstransparantie in-/uitschakelen: maakt aantekeningen semitransparantie om de inhoud achter de aantekening weer te geven
-
-  - Vorige pagina: navigeert naar vorige pagina
-
-  - Volgende pagina: navigeert naar de volgende pagina
-
-  - Naar pagina gaan: de gebruiker kan een specifiek paginanummer invoeren om naar te navigeren
-
-  - Zoomen: zoomniveau instellen voor aantekeningenweergave
-
-  - Draaien: gebruiker kan document met de klok mee draaien
-
-  - Zoeken: gebruiker kan zoeken in een document en naar de verschillende hits in het document navigeren
-    
-    ![Aantekeningen maken
-    ](../media/Reviewimage1.png)
-
-## <a name="dashboard-view"></a>Dashboardweergave 
-Met de dashboardweergave kunt u de gegevens in het raster met zoekresultaten visualiseren en samenvatten. In deze weergave kunt u aangepaste widgets maken om het analyseren en rapporteren van uw revisieset intuïtief en eenvoudig te maken. Nadat u uw widgets hebt gemaakt, kunt u er mee werken om het aantal items op te halen of om een zoekopdracht te maken. 
+Met de dashboardweergave kunt u de gegevens in het raster met zoekresultaten visualiseren en samenvatten. In deze weergave kunt u aangepaste widgets maken om het analyseren en rapporteren van uw revisieset intuïtief en eenvoudig te maken. Nadat u uw widgets hebt gemaakt, kunt u er mee werken om het aantal items op te halen of om een zoekopdracht te maken.

@@ -19,12 +19,12 @@ ms.collection:
 ms.custom: seo-marvel-jun2020
 keywords: thuisweken, telewerken, hybride, externe werknemer, hybride werken, externe medewerkers, hybride connectiviteit, externe toegang, extern werk, telewerk, mobiel werken, werken op afstand, overal werken, flexibele werkplek
 description: Ga stapsgewijs door de lagen van uw infrastructuur om hybride werknemers veilig toegang te geven tot on-premises en Microsoft 365-resources.
-ms.openlocfilehash: 55f1cf5c922166e1fe3932b6fe89fbdfcbfba466
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: fed23a4607cfb47049a6540dfb592d9a8baf9d21
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52788857"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229369"
 ---
 # <a name="set-up-your-infrastructure-for-hybrid-work-with-microsoft-365"></a>Uw infrastructuur instellen voor hybride werk met Microsoft 365
 
@@ -40,9 +40,8 @@ Microsoft 365 biedt de mogelijkheden om hybride werknemers in staat te stellen o
 
 ![Hybride werknemers in staat stellen te werken met Microsoft 365](../media/empower-people-to-work-remotely/2-m365-remoteworker-solution-businessoverview.png)
 
->[!Note]
->Raadpleeg [deze informatiebronnen](https://www.microsoft.com/microsoft-365) als Microsoft 365 nieuw voor u is.
->
+> [!NOTE]
+> Raadpleeg [deze informatiebronnen](https://www.microsoft.com/microsoft-365) als Microsoft 365 nieuw voor u is.
 
 Bekijk deze video voor een overzicht van het implementatieproces.
 <br>
@@ -53,9 +52,9 @@ Voor IT-professionals die de onsite- en cloudinfrastructuur beheren om de produc
 
 - Verbonden
 
-  Uw werknemers hebben overal ter wereld en op elk gewenst moment toegang tot: 
+  Uw werknemers hebben overal ter wereld en op elk gewenst moment toegang tot:
 
-  - Op de cloud gebaseerde services en gegevens in uw Microsoft 365-abonnement. 
+  - Op de cloud gebaseerde services en gegevens in uw Microsoft 365-abonnement.
 
   - Resources van de organisatie, zoals de resources van on-premises toepassingsdatacenters.
 
@@ -71,11 +70,11 @@ Voor IT-professionals die de onsite- en cloudinfrastructuur beheren om de produc
 
   Hybride werknemers kunnen net zo productief zijn als op kantoor in een omgeving waar samenwerking eenvoudig is met:
 
-  - Online vergaderingen en chatsessies met Teams. 
+  - Online vergaderingen en chatsessies met Teams.
 
   - Gedeelde werkruimten voor cloudopslag met wereldwijde toegankelijkheid en realtime samenwerking met SharePoint en OneDrive.
 
-  - Gedeelde taken en werkstromen om het werk te verdelen en taken uit te voeren. 
+  - Gedeelde taken en werkstromen om het werk te verdelen en taken uit te voeren.
 
 Voor een naadloze aanmelding moeten de on-premise gebruikersaccounts van Active Directory Domain Services (AD DS) worden gesynchroniseerd met Azure Active Directory (Azure AD). Als u uw Windows 10-apparaten wilt beveiligen, moeten ze worden ingeschreven in Intune. Dit is een algemeen overzicht van de infrastructuur.
 
@@ -86,15 +85,15 @@ Als u de mogelijkheden van Microsoft 365 wilt inschakelen voor hybride werknemer
 | Functie | Beschrijving | Licenties |
 |:-------|:-----|:-------|
 | Afgedwongen door MFA en met standaardbeveiligingsinstellingen   | Voorkom gecompromitteerde identiteiten en apparaten met een tweede vorm van verificatie voor aanmeldingen. Als standaardinstelling voor de beveiliging is MFA vereist voor alle gebruikersaccounts.   | Microsoft 365 E3 of E5 |
-| Afgedwongen door MFA en met voorwaardelijke toegang| Gebruik beleid voor voorwaardelijke toegang om MFA te vereisen op basis van de eigenschappen van de aanmelding.    | Microsoft 365 E3 of E5 | 
-| Afgedwongen door MFA en met voorwaardelijke toegang op basis van risico   | Vereis MFA op basis van het risico van de gebruikersaanmelding met Microsoft Defender for Identity. | Microsoft 365 E5 of E3 met Azure AD Premium P2-licenties | 
+| Afgedwongen door MFA en met voorwaardelijke toegang| Gebruik beleid voor voorwaardelijke toegang om MFA te vereisen op basis van de eigenschappen van de aanmelding.    | Microsoft 365 E3 of E5 |
+| Afgedwongen door MFA en met voorwaardelijke toegang op basis van risico   | Vereis MFA op basis van het risico van de gebruikersaanmelding met Microsoft Defender for Identity. | Microsoft 365 E5 of E3 met Azure AD Premium P2-licenties |
 | Selfservice voor wachtwoordherstel (SSPR)    | Sta toe dat gebruikers hun wachtwoorden of accounts opnieuw kunnen instellen of ontgrendelen.  | Microsoft 365 E3 of E5 |
 | Azure AD-toepassingsproxy    | Bied beveiligde externe toegang bieden voor webtoepassingen die worden gehost op intranetservers.   | Hiervoor is een afzonderlijk betaald Azure-abonnement vereist |
 | Azure-punt-naar-site-VPN   | Maak een veilige verbinding tussen het apparaat van een externe werknemer en uw intranet via een virtueel Azure-netwerk.   | Hiervoor is een afzonderlijk betaald Azure-abonnement vereist |
 | Windows Virtual Desktop   | Bied ondersteuning voor externe werknemers die alleen hun persoonlijke en niet-beheerde apparaten kunnen gebruiken met virtuele bureaubladen die worden uitgevoerd in Azure. | Hiervoor is een afzonderlijk betaald Azure-abonnement vereist |
-| Extern bureaublad-services (RDS) | Geef werknemers toestemming om verbinding te maken met Windows-computers op uw intranet. | Microsoft 365 E3 of E5 | 
+| Extern bureaublad-services (RDS) | Geef werknemers toestemming om verbinding te maken met Windows-computers op uw intranet. | Microsoft 365 E3 of E5 |
 | Gateway voor extern bureaublad-services   | Versleutel de communicatie en voorkom dat de RDS-hosts rechtstreeks worden weergegeven op internet. | Hiervoor zijn afzonderlijke Windows Server-licenties vereist |
-| Microsoft Intune | Beheer apparaten en toepassingen.   | Microsoft 365 E3 of E5 | 
+| Microsoft Intune | Beheer apparaten en toepassingen.   | Microsoft 365 E3 of E5 |
 | Configuration Manager | Software-installaties, updates en instellingen op uw apparaten beheren | Hiervoor zijn afzonderlijke Configuration Manager-licenties vereist |
 | Desktop Analytics | Bepaal de updategereedheid van uw Windows-clients.   | Hiervoor zijn afzonderlijke Configuration Manager-licenties vereist |
 | Windows Autopilot | Configureer de nieuwe Windows 10-apparaten vooraf voor productief gebruik.   | Microsoft 365 E3 of E5 |

@@ -16,12 +16,12 @@ manager: dansimp
 ms.technology: mde
 ms.topic: how-to
 ms.date: 06/02/2021
-ms.openlocfilehash: cb56872be3cef2e094583e59a702707f79355743
-ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
+ms.openlocfilehash: 65215d15e79ab03611bbf28c153d6882fd1c355d
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53177619"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229141"
 ---
 # <a name="enable-attack-surface-reduction-rules"></a>Regels voor het verminderen van aanvalsoppervlakken inschakelen
 
@@ -49,7 +49,7 @@ U kunt regels voor de beperking van de surface voor aanvallen instellen voor app
 U hebt het volgende nodig om de volledige set regels voor het verlagen van het aanvalsoppervlak te gebruiken:
 
 - Windows Defender Antivirus als primaire AV (realtime beveiliging op)
-- [Cloud-Delivery Protection](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus) op (voor sommige regels is dat vereist)
+- [Cloud-Delivery Protection](/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus) op (voor sommige regels is dat vereist)
 - Windows 10 Enterprise E5- of E3-licentie of Microsoft 365 zakelijke licentie
 
 Hoewel voor de beperkingsregels voor aanvallen geen [Windows E5-licentie is vereist,](/windows/deployment/deploy-enterprise-licenses)hebt u met een Windows E5-licentie geavanceerde beheermogelijkheden, zoals monitoring, analyse en werkstromen, beschikbaar in Defender voor Eindpunt, evenals rapportage- en configuratiemogelijkheden in het Microsoft 365-beveiligingscentrum. Deze geavanceerde mogelijkheden zijn niet beschikbaar met een E3-licentie, maar u kunt Gebeurtenisviewer nog steeds gebruiken om gebeurtenissen met de surface reduction-regel te bekijken.

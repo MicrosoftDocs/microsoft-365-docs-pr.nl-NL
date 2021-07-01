@@ -1,6 +1,6 @@
 ---
-title: Microsoft 365 Defender-integratie met Azure Sentinel
-description: Gebruik Azure Sentinel als siem voor Microsoft 365 defender-incidenten en -gebeurtenissen.
+title: Integratie van Microsoft 365 Defender met Azure Sentinel
+description: Gebruik Azure Sentinel als siem voor Microsoft 365 Defender incidenten en gebeurtenissen.
 keywords: incidenten, waarschuwingen, onderzoeken, analyseren, reactie, correlatie, aanval, machines, apparaten, gebruikers, identiteiten, identiteit, postvak, e-mail, 365, microsoft, m365
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -22,25 +22,32 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 7d9cff584f35c39544034501c607b7156a0f1bf2
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: b9a9a6381c93e2d252f75710adc206868c0a5546
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782919"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229909"
 ---
-# <a name="microsoft-365-defender-integration-with-azure-sentinel"></a>Microsoft 365 Defender-integratie met Azure Sentinel
+# <a name="microsoft-365-defender-integration-with-azure-sentinel"></a>Integratie van Microsoft 365 Defender met Azure Sentinel
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
 - Microsoft 365 Defender
 
-De Microsoft 365 Defender-connector voor Azure Sentinel (preview) verzendt alle Microsoft 365 Defender-incidenten en waarschuwt informatie naar Azure Sentinel en houdt de incidenten gesynchroniseerd. 
+Met Microsoft 365 Defender connector voor Azure Sentinel (preview) worden alle Microsoft 365 Defender meldingen naar Azure Sentinel en worden de incidenten gesynchroniseerd. 
 
-Wanneer u de verbindingslijn toevoegt, worden Microsoft 365 Defender-incidenten die alle bijbehorende waarschuwingen, entiteiten en relevante informatie bevatten die zijn ontvangen van Microsoft Defender voor Eindpunt, Microsoft Defender voor identiteit, Microsoft Defender voor Office 365 en Microsoft Cloud App Security gestreamd naar Azure Sentinel als gegevens over beveiligingsgegevens en gebeurtenisbeheer (SIEM), zodat u context hebt om triage- en incidentrespons uit te voeren met &mdash; &mdash; Azure Sentinel. 
+Wanneer u de verbindingslijn toevoegt, worden Microsoft 365 Defender-incidenten met alle bijbehorende waarschuwingen, entiteiten en relevante informatie die is ontvangen van Microsoft Defender voor Eindpunt, Microsoft Defender voor identiteit, Microsoft Defender voor Office 365 en Microsoft Cloud App Security gestreamd naar Azure Sentinel als siem-gegevens (Security Information and Event Management), zodat u context hebt om triage- en incidentrespons uit te voeren met &mdash; &mdash; Azure Sentinel. 
 
 Eenmaal in Azure Sentinel blijven incidenten tweerichtingsgesynchroniseerd met Microsoft 365 Defender, zodat u kunt profiteren van de voordelen van zowel het Microsoft 365-beveiligingscentrum als Azure Sentinel in de Azure-portal voor incidentonderzoek en -reactie.
+
+Bekijk dit korte overzicht van Azure Sentinel-integratie met Microsoft 365 Defender (4 minuten).
+
+<br>
+
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWFIRo]
+
 
 Dit doet u als u dit doet.
 
@@ -48,8 +55,8 @@ Dit doet u als u dit doet.
 
 ## <a name="next-steps"></a>Volgende stappen
 
-1. Krijg meer inzicht in de integratie [Microsoft 365 Defender met Azure Sentinel.](/azure/sentinel/microsoft-365-defender-sentinel-integration)
-2. [Verbinding maken gegevens van Microsoft 365 Defender naar Azure Sentinel](/azure/sentinel/connect-microsoft-365-defender).
+1. Krijg meer inzicht in Microsoft 365 Defender [integratie met Azure Sentinel.](/azure/sentinel/microsoft-365-defender-sentinel-integration)
+2. [Verbinding maken gegevens uit Microsoft 365 Defender Azure Sentinel](/azure/sentinel/connect-microsoft-365-defender).
 
 ## <a name="see-also"></a>Zie ook
 

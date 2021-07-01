@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 3ebbb4359e460c0e8ddd6d353ce70057ed352212
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 0137bef845cace589247c35763bbf4253398cbc6
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245334"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228997"
 ---
 # <a name="device-inventory-report"></a>Inventarisrapport voor apparaten
 
@@ -43,6 +43,6 @@ In de **weergave** Apparaten kunt u het tabblad Alles **exporteren** selecteren 
 - TPM-versie
 - Secure Boot Enabled
 - Type primaire schijf
-- Totaal fysiek geheugen 
+- Totaal fysiek geheugen
 
-![De weergave Apparaten met een lijst met apparaten en gerelateerde details. Schakel de selectievakjes in de buurt van de bovenste selectiefilters voor activiteit en registratiestatus in. Daarboven staat een zoekvak. Tabbladen bovenaan voor het registreren van nieuwe apparaten, het vernieuwen van de weergave, het exporteren van fouten en het exporteren van de gegevens. ](../../media/mmd-devices-view.png)
+![De weergave Apparaten met een lijst met apparaten en gerelateerde details. Schakel de selectievakjes in de buurt van de bovenste selectiefilters voor activiteit en registratiestatus in. Daarboven staat een zoekvak. Tabbladen bovenaan voor het registreren van nieuwe apparaten, het vernieuwen van de weergave, het exporteren van fouten en het exporteren van de gegevens.](../../media/mmd-devices-view.png)

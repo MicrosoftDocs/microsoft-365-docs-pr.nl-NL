@@ -8,12 +8,12 @@ ms.localizationpriority: normal
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 636d32f47c4fd9fdd5c0409a4ebbc2d9e79a166d
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 6e5e6b87f17fd4b13945b155bd7e521881242345
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245934"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53230053"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Microsoft Managed Desktop apparaten
 
@@ -22,13 +22,13 @@ ms.locfileid: "52245934"
 
 Microsoft Managed Desktop evalueert regelmatig apparaten die moeten worden opgenomen in de service. In dit artikel worden de specifieke apparaten vermeld die momenteel worden ondersteund. Zie Apparaatvereisten voor een algemenere overzicht van [apparaatvereisten.](device-requirements.md)
 
-Zie voor meer informatie Microsoft Managed Desktop informatie [over Microsoft Managed Desktop documentatie en bronnen.](../index.yml) 
+Zie voor meer informatie Microsoft Managed Desktop informatie [over Microsoft Managed Desktop documentatie en bronnen.](../index.yml)
 
 [Nieuwe apparaten selecteren en valideren](../get-started/validate-device.md)
 
 <!-- Microsoft 365 E5; Device as a Service -->
 <!-- Split from device & technologies topic. Destination topic for aka.ms/device-list  -->
-Als u wilt worden Microsoft Managed Desktop, moet een apparaat een van de volgende modellen zijn en voldoen aan de vermelde specificaties voor RAM, processorfamilie en schijfruimte. 
+Als u wilt worden Microsoft Managed Desktop, moet een apparaat een van de volgende modellen zijn en voldoen aan de vermelde specificaties voor RAM, processorfamilie en schijfruimte.
 
 De koppelingen naar apparaten hier zijn alleen ter referentie. Als u apparaten wilt bestellen, werkt u samen met uw commerciële kanaalcontactcontacten om ervoor te zorgen dat u de juiste configuraties kiest. In deze tabel is de *archiefdatum* de datum waarop deze modellen een kortere levensduur Microsoft Managed Desktop hebben; dergelijke apparaten die na deze datum zijn aan boord, ontvangen geen volledige ondersteuningsperiode van drie jaar van Microsoft Managed Desktop. Gearchiveerde apparaten worden ook weergegeven in [Microsoft Managed Desktop gearchiveerde apparaten.](archived-device-list.md) *De pensioendatum* is de datum waarop dit model helemaal niet meer wordt ondersteund door Microsoft Managed Desktop model. Op die datum worden alle geregistreerde apparaten van dit model verwijderd uit Microsoft Managed Desktop, ongeacht wanneer ze zijn geregistreerd.
 
@@ -79,9 +79,9 @@ De koppelingen naar apparaten hier zijn alleen ter referentie. Als u apparaten w
 | [Surface Pro 7](https://www.microsoft.com/surface/business/surface-pro-7) | 128 GB / Intel i5 / 8 GB RAM | Geen | 22 oktober 2021 | 22 oktober 2024 |
 | **\*[Surface Pro 7+](https://www.microsoft.com/p/surface-pro-7-for-business/8p43n3k93409?activetab=pivot%3aoverviewtab)** | 128 GB / Intel i5 / 8 GB RAM | Geen | 15 januari 2022 | 15 januari 2025 |
 
-Bovendien moet het apparaat ook aan deze criteria voldoen:     
+Bovendien moet het apparaat ook aan deze criteria voldoen:
 
-- Als een specifieke SKU wordt vermeld in de apparaatvereisten, moet u ervoor zorgen dat u deze gebruikt wanneer u bestelt. Dit zorgt ervoor dat apparaten voldoen aan de Microsoft Managed Desktop softwarevereisten. 
+- Als een specifieke SKU wordt vermeld in de apparaatvereisten, moet u ervoor zorgen dat u deze gebruikt wanneer u bestelt. Dit zorgt ervoor dat apparaten voldoen aan de Microsoft Managed Desktop softwarevereisten.
 - De eerste Windows nog niet voltooid.
 - Worden geregistreerd met Microsoft Managed Desktop met de [functie Apparaatregistratie](../get-started/register-devices-self.md)
 

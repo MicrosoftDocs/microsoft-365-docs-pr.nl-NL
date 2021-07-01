@@ -17,12 +17,12 @@ ms.collection:
 description: Beheerders kunnen het antispambeleid in Exchange Online Protection (EOP) bekijken, maken, wijzigen en verwijderen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1aa37beef940803a3dd399cec4ff23133a10c5ad
-ms.sourcegitcommit: 99e67bfe1d677c2f51712b05dcc54908b343cf6f
+ms.openlocfilehash: 910923e693804c96c109c52606b62d92af51abeb
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53203290"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228661"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Antispambeleid configureren in EOP
 
@@ -140,7 +140,7 @@ Wanneer u antispambeleid maakt in de Microsoft 365 Defender-portal worden tegeli
 
      De beschikbare acties voor spamfilterbeoordelingen worden beschreven in de volgende tabel.
 
-     - Een vinkje ( ![vinkje](../../media/checkmark.png)) geeft aan dat de actie beschikbaar is (niet alle acties zijn beschikbaar voor alle beoordelingen).
+     - Een vinkje ( ![vinkje](../../media/checkmark.png) ) geeft aan dat de actie beschikbaar is (niet alle acties zijn beschikbaar voor alle beoordelingen).
      - Een asterisk (<sup>\*</sup>) na het vinkje geeft de standaardactie aan voor de spamfilterbeoordeling. 
 
      <br>

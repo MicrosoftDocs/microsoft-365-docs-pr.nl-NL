@@ -10,20 +10,20 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Meer informatie over het instellen van Microsoft Viva-onderwerpen
-ms.openlocfilehash: c6997e5f5a6793468dfe3392ffc2037b319844ad
-ms.sourcegitcommit: d0c160e89e17f451199bc4a85699effd2d935213
+ms.openlocfilehash: 42f84b9b792907d7fe118e0b15c3767674ddf19b
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52893762"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229585"
 ---
 # <a name="set-up-microsoft-viva-topics"></a>Microsoft Viva-onderwerpen instellen
 
-U kunt het beheercentrum Microsoft 365 gebruiken om Onderwerpen in te stellen en te [configureren.](topic-experiences-overview.md) 
+U kunt de Microsoft 365-beheercentrum gebruiken om Onderwerpen in te stellen en te [configureren.](topic-experiences-overview.md) 
 
 Het is belangrijk om de beste manier te plannen om onderwerpen in uw omgeving in te stellen en te configureren. Lees Plan voor [Microsoft Viva-onderwerpen](plan-topic-experiences.md) voordat u de procedures in dit artikel start.
 
-U moet zijn [geabonneerd op Viva-onderwerpen](https://www.microsoft.com/microsoft-viva/topics) en een globale beheerder of SharePoint beheerder zijn om toegang te krijgen tot het Microsoft 365 beheercentrum en Onderwerpen in te stellen.
+U moet zijn [geabonneerd op Viva-onderwerpen](https://www.microsoft.com/microsoft-viva/topics) en een globale beheerder of SharePoint beheerder zijn om toegang te krijgen tot de Microsoft 365-beheercentrum en Onderwerpen in te stellen.
 
 Als u hebt geconfigureerd SharePoint [beheerde](/sharepoint/control-access-from-unmanaged-devices)apparaten vereist, moet u Onderwerpen instellen vanaf een beheerd apparaat.
 
@@ -52,7 +52,7 @@ Licenties toewijzen:
 4. Zorg **er onder Apps** voor dat Graph **connectors zoeken met index (Viva-onderwerpen)** en **Viva-onderwerpen** zijn geselecteerd.
 
    > [!div class="mx-imgBorder"]
-   > ![Microsoft Viva Topics-licenties in het Microsoft 365 beheercentrum](../media/topic-experiences-licenses.png)
+   > ![Microsoft Viva Topics-licenties in de Microsoft 365-beheercentrum](../media/topic-experiences-licenses.png)
 
 5. Klik op **Wijzigingen opslaan**.
 
@@ -64,7 +64,7 @@ Het kan tot een uur duren voordat gebruikers toegang hebben tot Onderwerpen nada
 > De eerste keer dat onderwerpdetectie is ingeschakeld, kan het maximaal twee weken duren voordat alle voorgestelde onderwerpen worden weergegeven in de weergave Onderwerpen beheren. Onderwerpdetectie wordt voortgezet wanneer er nieuwe inhoud of updates voor inhoud worden aangebracht. Het is normaal dat er fluctuaties zijn in het aantal voorgestelde onderwerpen in uw organisatie, aangezien Viva Topics nieuwe informatie evalueert.
 
 Onderwerpen instellen
-1. Selecteer in [Microsoft 365 beheercentrum](https://admin.microsoft.com)Setup **en** bekijk vervolgens de sectie Bestanden **en** inhoud.
+1. Selecteer in [het Microsoft 365-beheercentrum](https://admin.microsoft.com) **Setup** en bekijk vervolgens de sectie Bestanden **en inhoud.**
 2. Klik in **de sectie Bestanden** en inhoud op Verbinding maken personen aan **kennis.**
 
     ![Verbinding maken mensen kennis te laten maken](../media/admin-org-knowledge-options.png) 
@@ -132,7 +132,10 @@ Onderwerpen instellen
 
     Selecteer **Volgende**.
 
-9. Op de **pagina Onderwerpcentrum** maken kunt u uw onderwerpcentrumsite maken waarin onderwerppagina's kunnen worden bekeken en onderwerpen kunnen worden beheerd. Typ in **het vak** Sitenaam een naam voor het onderwerpcentrum. U kunt desgewenst een korte beschrijving typen in **het vak** Beschrijving. 
+9. Op de **pagina Onderwerpcentrum** maken kunt u uw onderwerpcentrumsite maken waarin onderwerppagina's kunnen worden bekeken en onderwerpen kunnen worden beheerd. Typ in **het vak** Sitenaam een naam voor het onderwerpcentrum. U kunt op het potloodpictogram klikken als u de URL wilt wijzigen. Typ desgewenst een korte beschrijving in het **vak** Beschrijving. 
+
+   > [!Important]
+   > U kunt de naam van de site later wijzigen, maar u kunt de URL niet wijzigen nadat u de wizard hebt voltooid.
 
    Selecteer **Volgende**.
 
@@ -148,7 +151,7 @@ Onderwerpen instellen
 
 ## <a name="manage-topic-experiences"></a>Onderwerpervaringen beheren
 
-Nadat u Onderwerpen hebt ingesteld, kunt u de instellingen wijzigen die u hebt gekozen tijdens de installatie in [het Microsoft 365 beheercentrum.](https://admin.microsoft.com/AdminPortal#/featureexplorer/csi/KnowledgeManagement) Zie de volgende referenties:
+Nadat u Onderwerpen hebt ingesteld, kunt u de instellingen wijzigen die u hebt gekozen tijdens de installatie in de [Microsoft 365-beheercentrum.](https://admin.microsoft.com/AdminPortal#/featureexplorer/csi/KnowledgeManagement) Zie de volgende referenties:
 
 - [Onderwerpdetectie beheren in Microsoft Viva-onderwerpen](topic-experiences-discovery.md)
 - [Zichtbaarheid van onderwerpen beheren in Microsoft Viva-onderwerpen](topic-experiences-knowledge-rules.md)

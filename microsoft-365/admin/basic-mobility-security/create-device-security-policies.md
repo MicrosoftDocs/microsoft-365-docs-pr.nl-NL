@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Gebruik Basismobiliteit en beveiliging om apparaatbeleid te maken dat uw organisatiegegevens beschermt.
-ms.openlocfilehash: 5519351db428faa837a63eedb384b42c8d8ee07c
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: 62dc2eef87d413a9cb62a01541126860620eec3f
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706320"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228253"
 ---
 # <a name="create-device-security-policies-in-basic-mobility-and-security"></a>Apparaatbeveiligingsbeleid maken in Basismobiliteit en Beveiliging
 
@@ -39,14 +39,14 @@ U kunt Basismobiliteit en beveiliging gebruiken om apparaatbeleid te maken om uw
 - Als u basisbeleid voor mobiliteit en beveiliging wilt maken en implementeren in Microsoft 365, moet u een globale beheerder Microsoft 365 zijn. Zie Machtigingen [in het Beveiligings- & compliancecentrum voor meer informatie.](../../security/office-365-security/permissions-in-the-security-and-compliance-center.md)
 - Voordat u beleid implementeert, laat u uw organisatie weten wat de mogelijke gevolgen zijn van het registreren van een apparaat in Basismobiliteit en Beveiliging. Afhankelijk van hoe u het beleid in stelt, kunnen niet-compatibele apparaten worden geblokkeerd voor toegang tot Microsoft 365 en gegevens, waaronder geïnstalleerde toepassingen, foto's en persoonlijke gegevens op een geregistreerd apparaat, en kunnen gegevens worden verwijderd.
 
->[!NOTE]
->Beleidsregels en toegangsregels die zijn gemaakt in Basismobiliteit en beveiliging voor Microsoft 365 Business Standard overschrijven Exchange ActiveSync beleidsregels voor postvakken op mobiele apparaten en regels voor apparaattoegang die zijn gemaakt in het Exchange beheercentrum. Nadat een apparaat is geregistreerd voor Basismobiliteit en beveiliging voor Microsoft 365 Business Standard, wordt elke Exchange ActiveSync beleid voor postvak voor mobiele apparaten of regel voor apparaattoegang die is toegepast op het apparaat, genegeerd. Zie Exchange ActiveSync in Exchange Online voor [meer Exchange ActiveSync informatie](/exchange/clients-and-mobile-in-exchange-online/exchange-activesync/exchange-activesync)over Exchange Online.
+> [!NOTE]
+> Beleidsregels en toegangsregels die zijn gemaakt in Basismobiliteit en beveiliging voor Microsoft 365 Business Standard overschrijven Exchange ActiveSync beleidsregels voor postvakken op mobiele apparaten en regels voor apparaattoegang die zijn gemaakt in het Exchange beheercentrum. Nadat een apparaat is geregistreerd voor Basismobiliteit en beveiliging voor Microsoft 365 Business Standard, wordt elke Exchange ActiveSync beleid voor postvak voor mobiele apparaten of regel voor apparaattoegang die is toegepast op het apparaat, genegeerd. Zie Exchange ActiveSync in Exchange Online voor [meer Exchange ActiveSync informatie](/exchange/clients-and-mobile-in-exchange-online/exchange-activesync/exchange-activesync)over Exchange Online.
 
 ## <a name="step-1-create-a-device-policy-and-deploy-to-a-test-group"></a>Stap 1: Een apparaatbeleid maken en implementeren in een testgroep
 
 Voordat u kunt beginnen, moet u basismobiliteit en beveiliging hebben geactiveerd en ingesteld. Zie Overzicht van [basismobiliteit en beveiliging voor instructies.](overview.md)
 
-1. Typ in uw browser [https://protection.office.com/devicev2](https://protection.office.com/devicev2) .
+1. Typ in uw browser <https://protection.office.com/devicev2> .
 
 2. Selecteer **Een beleid maken.**
 
@@ -148,7 +148,7 @@ Het beleid wordt verwijderd van het mobiele apparaat voor elke gebruiker. Het be
 
 U kunt een apparaat ook volledig wissen of organisatiegegevens selectief wissen vanaf het apparaat. Zie Een mobiel apparaat [wissen in Basismobiliteit en Beveiliging voor meer informatie.](wipe-mobile-device.md)
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Overzicht van basismobiliteit en beveiliging](overview.md) (artikel)\
 [Mogelijkheden van basismobiliteit en beveiliging](capabilities.md) (artikel)

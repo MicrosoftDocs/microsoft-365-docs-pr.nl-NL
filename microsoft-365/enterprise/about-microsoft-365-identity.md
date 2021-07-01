@@ -23,12 +23,12 @@ search.appverid:
 - BCS160
 ms.assetid: 06a189e7-5ec6-4af2-94bf-a22ea225a7a9
 description: Meer informatie over het beheren van de Azure AD-gebruikersidentiteitsservice in Microsoft 365 met behulp van alleen-cloud- of hybride identiteitsmodellen.
-ms.openlocfilehash: b54ccce6ea2a468e02d9db95e7932d847df4e64b
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 93a37f39a4d96d7c2e434ed6edf4df588e672a0f
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905702"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228493"
 ---
 # <a name="microsoft-365-identity-models-and-azure-active-directory"></a>Microsoft 365 identiteitsmodellen en -Azure Active Directory
 
@@ -46,7 +46,7 @@ Uw eerste planningskeuze is het Microsoft 365 identiteitsmodel.
 
 ## <a name="microsoft-365-identity-models"></a>Microsoft 365 identiteitsmodellen
 
-Als u gebruikersaccounts wilt plannen, moet u eerst de twee identiteitsmodellen in Microsoft 365. U kunt de identiteiten van uw organisatie alleen in de cloud behouden of u kunt uw on-premises AD DS-identiteiten (Active Directory Domain Services) behouden en deze gebruiken voor verificatie wanneer gebruikers toegang hebben tot Microsoft 365 cloudservices.  
+Als u gebruikersaccounts wilt plannen, moet u eerst de twee identiteitsmodellen in Microsoft 365. U kunt de identiteiten van uw organisatie alleen in de cloud behouden of u kunt uw on-premises AD DS-identiteiten (Active Directory Domain Services) behouden en deze gebruiken voor verificatie wanneer gebruikers toegang hebben tot Microsoft 365 cloudservices.
 
 Hier zijn de twee typen identiteit en de beste pasvorm en voordelen.
 
@@ -60,16 +60,16 @@ Hier zijn de twee typen identiteit en de beste pasvorm en voordelen.
 
 ## <a name="cloud-only-identity"></a>Alleen cloudidentiteit
 
-Voor een cloudidentiteit worden gebruikersaccounts gebruikt die alleen in Azure AD bestaan. Cloud-only-identiteit wordt meestal gebruikt door kleine organisaties die geen on-premises servers hebben of GEEN AD DS gebruiken om lokale identiteiten te beheren. 
+Voor een cloudidentiteit worden gebruikersaccounts gebruikt die alleen in Azure AD bestaan. Cloud-only-identiteit wordt meestal gebruikt door kleine organisaties die geen on-premises servers hebben of GEEN AD DS gebruiken om lokale identiteiten te beheren.
 
 Hier zijn de basisonderdelen van alleen-cloudidentiteit.
- 
+
 ![Basisonderdelen van alleen-cloudidentiteit](../media/about-microsoft-365-identity/cloud-only-identity.png)
 
 Zowel on-premises als externe (online) gebruikers gebruiken hun Azure AD-gebruikersaccounts en -wachtwoorden om toegang te krijgen tot Microsoft 365 cloudservices. Azure AD verifieert gebruikersreferenties op basis van de opgeslagen gebruikersaccounts en wachtwoorden.
 
 ### <a name="administration"></a>Beheer
-Omdat gebruikersaccounts alleen worden opgeslagen in Azure AD, beheert u cloudidentiteiten met hulpmiddelen zoals het [Microsoft 365-beheercentrum](../admin/add-users/index.yml) en [Windows PowerShell.](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md) 
+Omdat gebruikersaccounts alleen worden opgeslagen in Azure AD, beheert u cloudidentiteiten met hulpmiddelen zoals de Microsoft 365-beheercentrum [en](../admin/add-users/index.yml) [Windows PowerShell.](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
 
 ## <a name="hybrid-identity"></a>Hybride identiteit
 
@@ -77,7 +77,7 @@ Hybride identiteit maakt gebruik van accounts die afkomstig zijn van een on-prem
 
 Azure AD Verbinding maken biedt de lopende accountsynchronisatie. Deze wordt uitgevoerd op een on-premises server, controleert op wijzigingen in de AD DS en doorgestuurd naar Azure AD. Azure AD Verbinding maken biedt de mogelijkheid om te filteren welke accounts worden gesynchroniseerd en of u een gehashte versie van gebruikerswachtwoorden wilt synchroniseren, ook wel bekend als wachtwoordhashsynchronisatie (PHS).
 
-Wanneer u hybride identiteit implementeert, is uw on-premises AD DS de gezaghebbende bron voor accountgegevens. Dit betekent dat u beheertaken voornamelijk on-premises uitvoert, die vervolgens worden gesynchroniseerd met Azure AD. 
+Wanneer u hybride identiteit implementeert, is uw on-premises AD DS de gezaghebbende bron voor accountgegevens. Dit betekent dat u beheertaken voornamelijk on-premises uitvoert, die vervolgens worden gesynchroniseerd met Azure AD.
 
 Hier zijn de onderdelen van hybride identiteit.
 
@@ -85,22 +85,20 @@ Hier zijn de onderdelen van hybride identiteit.
 
 De Azure AD-tenant heeft een kopie van de AD DS-accounts. In deze configuratie verifiëren zowel on-premises als externe gebruikers die toegang hebben tot Microsoft 365 cloudservices tegen Azure AD.
 
->[!Note]
->U moet altijd Azure AD-Verbinding maken gebruiken om gebruikersaccounts te synchroniseren voor hybride identiteit. U hebt de gesynchroniseerde gebruikersaccounts in Azure AD nodig voor het uitvoeren van licentietoewijzing en groepsbeheer, het configureren van machtigingen en andere beheertaken waarbij gebruikersaccounts zijn betrokken.
->
+> [!NOTE]
+> U moet altijd Azure AD-Verbinding maken gebruiken om gebruikersaccounts te synchroniseren voor hybride identiteit. U hebt de gesynchroniseerde gebruikersaccounts in Azure AD nodig voor het uitvoeren van licentietoewijzing en groepsbeheer, het configureren van machtigingen en andere beheertaken waarbij gebruikersaccounts zijn betrokken.
 
 ### <a name="administration"></a>Beheer
 
-Omdat de oorspronkelijke en gezaghebbende gebruikersaccounts zijn opgeslagen in de on-premises AD DS, beheert u uw identiteiten met dezelfde hulpprogramma's als uw AD DS. 
+Omdat de oorspronkelijke en gezaghebbende gebruikersaccounts zijn opgeslagen in de on-premises AD DS, beheert u uw identiteiten met dezelfde hulpprogramma's als uw AD DS.
 
-U gebruikt het beheercentrum Microsoft 365 PowerShell niet voor Microsoft 365 gesynchroniseerde gebruikersaccounts in Azure AD.
+U gebruikt de Microsoft 365-beheercentrum of PowerShell Microsoft 365 niet voor het beheren van gesynchroniseerde gebruikersaccounts in Azure AD.
 
 ## <a name="next-step"></a>Volgende stap
 
 Zie [Alleen-cloudidentiteit](cloud-only-identities.md)als u het cloud-only-identiteitsmodel nodig hebt.
 
 Zie Hybride identiteit als u het hybride identiteitsmodel [nodig hebt.](plan-for-directory-synchronization.md)
-
 
 ## <a name="see-also"></a>Zie ook
 

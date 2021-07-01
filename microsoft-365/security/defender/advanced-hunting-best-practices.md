@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: abc6b561c2fca8106397b1656432628c983e2ece
-ms.sourcegitcommit: 7cc2be0244fcc30049351e35c25369cacaaf4ca9
+ms.openlocfilehash: ae2e7fb960dd8ce2a42ce62fe0b8da7675e00ce5
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51952690"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228373"
 ---
 # <a name="advanced-hunting-query-best-practices"></a>Geavanceerde best practices voor query's
 
@@ -50,7 +50,7 @@ Klanten die regelmatig meerdere query's uitvoeren, moeten het verbruik bijhouden
     ```kusto
     DeviceEvents
     | where Timestamp > ago(1d)
-    | where ActionType == "UsbDriveMount" 
+    | where ActionType == "UsbDriveMount"
     | where DeviceName == "user-desktop.domain.com"
     | extend DriveLetter = extractjson("$.DriveLetter", AdditionalFields)
      ```
@@ -66,12 +66,12 @@ Klanten die regelmatig meerdere query's uitvoeren, moeten het verbruik bijhouden
 ## <a name="optimize-the-join-operator"></a>De `join` operator optimaliseren
 De [joinoperator](/azure/data-explorer/kusto/query/joinoperator) voegt rijen uit twee tabellen samen door waarden in opgegeven kolommen te koppelen. Pas deze tips toe om query's te optimaliseren die deze operator gebruiken.
 
-- **Kleinere tabel aan de linkerkant:** de operator komt overeen met records in de tabel aan de linkerkant van de `join` join-instructie voor records aan de rechterkant. Door de kleinere tabel aan de linkerkant te hebben, hoeven er minder records te worden gematcht, waardoor de query sneller wordt uitgevoerd. 
+- **Kleinere tabel aan de linkerkant:** de operator komt overeen met records in de tabel aan de linkerkant van de `join` join-instructie voor records aan de rechterkant. Door de kleinere tabel aan de linkerkant te hebben, hoeven er minder records te worden gematcht, waardoor de query sneller wordt uitgevoerd.
 
     In de onderstaande tabel beperken we de linkertabel tot slechts drie specifieke apparaten voordat we er met `DeviceLogonEvents` `IdentityLogonEvents` account-SID's aan deelnemen.
- 
+
     ```kusto
-    DeviceLogonEvents 
+    DeviceLogonEvents
     | where DeviceName in ("device-1.domain.com", "device-2.domain.com", "device-3.domain.com")
     | where ActionType == "LogonFailed"
     | join
@@ -89,19 +89,19 @@ De [joinoperator](/azure/data-explorer/kusto/query/joinoperator) voegt rijen uit
     EmailAttachmentInfo
     | where Timestamp > ago(1h)
     | where Subject == "Document Attachment" and FileName == "Document.pdf"
-    | join (DeviceFileEvents | where Timestamp > ago(1h)) on SHA256 
+    | join (DeviceFileEvents | where Timestamp > ago(1h)) on SHA256
     ```
 
     Om deze beperking aan te pakken, passen we de [inner-join-smaak](/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#inner-join-flavor) toe door op te geven om alle rijen in de linkertabel weer te geven met overeenkomende `kind=inner` waarden aan de rechterkant:
-    
+
     ```kusto
     EmailAttachmentInfo
     | where Timestamp > ago(1h)
     | where Subject == "Document Attachment" and FileName == "Document.pdf"
-    | join kind=inner (DeviceFileEvents | where Timestamp > ago(1h)) on SHA256 
+    | join kind=inner (DeviceFileEvents | where Timestamp > ago(1h)) on SHA256
     ```
 - **Deelnemen aan records vanuit een tijdvenster:** bij het onderzoeken van beveiligingsgebeurtenissen zoeken analisten naar gerelateerde gebeurtenissen die zich rond dezelfde periode voordoen. Door dezelfde benadering toe te passen bij het gebruik van ook de prestaties, vermindert u het `join` aantal records dat u moet controleren.
-    
+
     In de onderstaande query wordt gecontroleerd op aanmeldingsgebeurtenissen binnen 30 minuten na ontvangst van een schadelijk bestand:
 
     ```kusto
@@ -110,10 +110,10 @@ De [joinoperator](/azure/data-explorer/kusto/query/joinoperator) voegt rijen uit
     | where ThreatTypes has "Malware"
     | project EmailReceivedTime = Timestamp, Subject, SenderFromAddress, AccountName = tostring(split(RecipientEmailAddress, "@")[0])
     | join (
-    DeviceLogonEvents 
+    DeviceLogonEvents
     | where Timestamp > ago(7d)
     | project LogonTime = Timestamp, AccountName, DeviceName
-    ) on AccountName 
+    ) on AccountName
     | where (LogonTime - EmailReceivedTime) between (0min .. 30min)
     ```
 - **Tijdfilters** aan beide zijden toepassen: zelfs als u geen specifiek tijdvenster onderzoekt, kan het toepassen van tijdfilters op zowel de linker- als rechtertabellen het aantal records verminderen om de prestaties te controleren en te `join` verbeteren. De onderstaande query is van toepassing op beide tabellen, zodat alleen records uit het afgelopen uur `Timestamp > ago(1h)` worden joins:
@@ -122,8 +122,8 @@ De [joinoperator](/azure/data-explorer/kusto/query/joinoperator) voegt rijen uit
     EmailAttachmentInfo
     | where Timestamp > ago(1h)
     | where Subject == "Document Attachment" and FileName == "Document.pdf"
-    | join kind=inner (DeviceFileEvents | where Timestamp > ago(1h)) on SHA256 
-    ```  
+    | join kind=inner (DeviceFileEvents | where Timestamp > ago(1h)) on SHA256
+    ```
 
 - **Gebruik hints voor prestaties:** gebruik hints met de operator om de backend te instrueren om de belasting te verdelen tijdens het uitvoeren van `join` resourceintensieve bewerkingen. [Meer informatie over tips voor deelnemen](/azure/data-explorer/kusto/query/joinoperator#join-hints)
 
@@ -132,19 +132,19 @@ De [joinoperator](/azure/data-explorer/kusto/query/joinoperator) voegt rijen uit
     ```kusto
     IdentityInfo
     | where JobTitle == "CONSULTANT"
-    | join hint.shufflekey = AccountObjectId 
+    | join hint.shufflekey = AccountObjectId
     (IdentityDirectoryEvents
         | where Application == "Active Directory"
         | where ActionType == "Private data retrieval")
-    on AccountObjectId 
+    on AccountObjectId
     ```
-    
+
     De **[hint voor uitzending](/azure/data-explorer/kusto/query/broadcastjoin)** helpt wanneer de linkertabel klein is (maximaal 100.000 records) en de rechtertabel zeer groot is. In de onderstaande query wordt bijvoorbeeld geprobeerd deel te  nemen aan een paar e-mailberichten met specifieke onderwerpen met alle berichten met koppelingen in de `EmailUrlInfo` tabel:
 
     ```kusto
-    EmailEvents 
+    EmailEvents
     | where Subject in ("Warning: Update your credentials now", "Action required: Update your credentials now")
-    | join hint.strategy = broadcast EmailUrlInfo on NetworkMessageId 
+    | join hint.strategy = broadcast EmailUrlInfo on NetworkMessageId
     ```
 
 ## <a name="optimize-the-summarize-operator"></a>De `summarize` operator optimaliseren
@@ -153,25 +153,25 @@ De [samenvattende operator](/azure/data-explorer/kusto/query/summarizeoperator) 
 - **Afzonderlijke waarden zoeken:** in het algemeen kunt u verschillende waarden `summarize` zoeken die herhalend kunnen zijn. Het kan onnodig zijn om het te gebruiken om kolommen te aggregeren die geen terugkerende waarden hebben.
 
     Hoewel één e-mailbericht deel kan uitmaken van meerdere gebeurtenissen, _is_ het onderstaande voorbeeld niet efficiënt omdat een netwerkbericht-id voor een afzonderlijke e-mail altijd wordt geleverd met een uniek `summarize` afzenderadres.
- 
+
     ```kusto
-    EmailEvents  
+    EmailEvents
     | where Timestamp > ago(1h)
-    | summarize by NetworkMessageId, SenderFromAddress   
+    | summarize by NetworkMessageId, SenderFromAddress
     ```
     De operator kan eenvoudig worden vervangen door , wat mogelijk dezelfde resultaten oplevert en minder `summarize` `project` resources verbruikt:
 
     ```kusto
-    EmailEvents  
+    EmailEvents
     | where Timestamp > ago(1h)
-    | project NetworkMessageId, SenderFromAddress   
+    | project NetworkMessageId, SenderFromAddress
     ```
     Het volgende voorbeeld is een efficiënter gebruik van omdat er meerdere afzonderlijke exemplaren kunnen zijn van een afzenderadres dat e-mail naar hetzelfde adres `summarize` van de geadresseerde verstuurt. Dergelijke combinaties zijn minder verschillend en hebben waarschijnlijk dubbele waarden.
 
     ```kusto
-    EmailEvents  
+    EmailEvents
     | where Timestamp > ago(1h)
-    | summarize by SenderFromAddress, RecipientEmailAddress   
+    | summarize by SenderFromAddress, RecipientEmailAddress
     ```
 
 - **Schuif de query door** elkaar: hoewel deze het beste wordt gebruikt in kolommen met terugkerende waarden, kunnen dezelfde kolommen ook een hoge kardinaliteit of grote `summarize` aantallen unieke waarden  hebben. Net als de operator kunt u ook de schuifelhint toepassen om de verwerkingsbelasting te verdelen en de prestaties mogelijk te verbeteren wanneer u werkt op `join` kolommen met een hoge [](/azure/data-explorer/kusto/query/shufflequery) `summarize` kardinaliteit.
@@ -179,7 +179,7 @@ De [samenvattende operator](/azure/data-explorer/kusto/query/summarizeoperator) 
     In de onderstaande query wordt het afzonderlijke e-mailadres van de geadresseerde geteld, dat kan worden uitgevoerd in de `summarize` honderdduizenden in grote organisaties. Om de prestaties te verbeteren, bevat het `hint.shufflekey` de volgende elementen:
 
     ```kusto
-    EmailEvents  
+    EmailEvents
     | where Timestamp > ago(1h)
     | summarize hint.shufflekey = RecipientEmailAddress count() by Subject, RecipientEmailAddress
     ```
@@ -210,7 +210,7 @@ Er zijn verschillende manieren om een opdrachtregel te maken om een taak uit te 
 Als u duurzamere query's wilt maken rond opdrachtlijnen, moet u de volgende procedures toepassen:
 
 - Identificeer de bekende processen (zoalsnet.exe *of* *psexec.exe)* door op de bestandsnaamvelden te matchen in plaats van te filteren op de opdrachtregel zelf.
-- Opdrachtregelsecties parseren met de [functie parse_command_line()](/azure/data-explorer/kusto/query/parse-command-line) 
+- Opdrachtregelsecties parseren met de [functie parse_command_line()](/azure/data-explorer/kusto/query/parse-command-line)
 - Wanneer u query's uitvoert voor opdrachtregelargumenten, moet u niet zoeken naar een exacte overeenkomst voor meerdere niet-gerelateerde argumenten in een bepaalde volgorde. Gebruik in plaats daarvan gewone expressies of gebruik meerdere afzonderlijke operatoren.
 - Gebruik case insensitive matches. Gebruik bijvoorbeeld `=~` , `in~` en in plaats van , en `contains` `==` `in` `contains_cs` .
 - Als u obfuscationtechnieken voor opdrachtregelen wilt beperken, kunt u aanhalingstekens verwijderen, komma's vervangen door spaties en meerdere opeenvolgende spaties vervangen door één spatie. Er zijn complexere obfuscation-technieken waarvoor andere methoden nodig zijn, maar deze aanpassingen kunnen helpen bij het aanpakken van veelvoorkomende technieken.
@@ -225,49 +225,49 @@ DeviceProcessEvents
 
 // Better query - filters on file name, does case-insensitive matches
 DeviceProcessEvents
-| where Timestamp > ago(7d) and FileName in~ ("net.exe", "net1.exe") and ProcessCommandLine contains "stop" and ProcessCommandLine contains "MpsSvc" 
+| where Timestamp > ago(7d) and FileName in~ ("net.exe", "net1.exe") and ProcessCommandLine contains "stop" and ProcessCommandLine contains "MpsSvc"
 
 // Best query also ignores quotes
 DeviceProcessEvents
 | where Timestamp > ago(7d) and FileName in~ ("net.exe", "net1.exe")
 | extend CanonicalCommandLine=replace("\"", "", ProcessCommandLine)
-| where CanonicalCommandLine contains "stop" and CanonicalCommandLine contains "MpsSvc" 
+| where CanonicalCommandLine contains "stop" and CanonicalCommandLine contains "MpsSvc"
 ```
 
 ### <a name="ingest-data-from-external-sources"></a>Gegevens uit externe bronnen opnemen
 Als u lange lijsten of grote tabellen wilt opnemen in uw query, gebruikt u de [operator externaldata om](/azure/data-explorer/kusto/query/externaldata-operator) gegevens uit een opgegeven URI op te nemen. U kunt gegevens opmaken uit bestanden in TXT, CSV, JSON [of andere indelingen.](/azure/data-explorer/ingestion-supported-formats) In het onderstaande voorbeeld ziet u hoe u de uitgebreide lijst met malware SHA-256-hashes van MalwareBazaar (abuse.ch) kunt gebruiken om bijlagen in e-mailberichten te controleren:
 
 ```kusto
-let abuse_sha256 = (externaldata(sha256_hash: string )
+let abuse_sha256 = (externaldata(sha256_hash: string)
 [@"https://bazaar.abuse.ch/export/txt/sha256/recent/"]
 with (format="txt"))
 | where sha256_hash !startswith "#"
 | project sha256_hash;
 abuse_sha256
-| join (EmailAttachmentInfo 
-| where Timestamp > ago(1d) 
+| join (EmailAttachmentInfo
+| where Timestamp > ago(1d)
 ) on $left.sha256_hash == $right.SHA256
 | project Timestamp,SenderFromAddress,RecipientEmailAddress,FileName,FileType,
 SHA256,ThreatTypes,DetectionMethods
 ```
 
 ### <a name="parse-strings"></a>Tekenreeksen parseren
-Er zijn verschillende functies die u kunt gebruiken om efficiënt om te gaan met tekenreeksen die parsing of conversie nodig hebben. 
+Er zijn verschillende functies die u kunt gebruiken om efficiënt om te gaan met tekenreeksen die parsing of conversie nodig hebben.
 
 | Tekenreeks | Functie | Gebruiksvoorbeeld |
 |--|--|--|
-| Opdrachtlijnen | [parse_command_line()](/azure/data-explorer/kusto/query/parse-command-line) | Haal de opdracht en alle argumenten op. | 
+| Opdrachtlijnen | [parse_command_line()](/azure/data-explorer/kusto/query/parse-command-line) | Haal de opdracht en alle argumenten op. |
 | Paden | [parse_path()](/azure/data-explorer/kusto/query/parsepathfunction) | Haal de secties van een bestands- of mappad op. |
 | Versienummers | [parse_version()](/azure/data-explorer/kusto/query/parse-versionfunction) | Deconstructie van een versienummer met maximaal vier secties en maximaal acht tekens per sectie. Gebruik de geparseerde gegevens om versieleeftijd te vergelijken. |
 | IPv4-adressen | [parse_ipv4()](/azure/data-explorer/kusto/query/parse-ipv4function) | Een IPv4-adres converteren naar een lang geheel getal. Als u IPv4-adressen wilt vergelijken zonder deze te converteren, gebruikt [u ipv4_compare()](/azure/data-explorer/kusto/query/ipv4-comparefunction). |
 | IPv6-adressen | [parse_ipv6()](/azure/data-explorer/kusto/query/parse-ipv6function)  | Converteert een IPv4- of IPv6-adres naar de canonieke IPv6-notatie. Als u IPv6-adressen wilt vergelijken, gebruikt [u ipv6_compare()](/azure/data-explorer/kusto/query/ipv6-comparefunction). |
 
-Als u meer wilt weten over alle ondersteunde parsingsfuncties, [leest u meer over kusto-tekenreeksfuncties.](/azure/data-explorer/kusto/query/scalarfunctions#string-functions) 
+Als u meer wilt weten over alle ondersteunde parsingsfuncties, [leest u meer over kusto-tekenreeksfuncties.](/azure/data-explorer/kusto/query/scalarfunctions#string-functions)
 
 >[!NOTE]
->Sommige tabellen in dit artikel zijn mogelijk niet beschikbaar in Microsoft Defender voor Eindpunt. [Schakel de Microsoft 365 Defender in om](m365d-enable.md) te zoeken naar bedreigingen met behulp van meer gegevensbronnen. U kunt uw geavanceerde zoekwerkstromen verplaatsen van Microsoft Defender voor Eindpunt naar Microsoft 365 Defender door de stappen in Geavanceerde zoekquery's migreren uit [Microsoft Defender voor Eindpunt te volgen.](advanced-hunting-migrate-from-mde.md)
+>Sommige tabellen in dit artikel zijn mogelijk niet beschikbaar in Microsoft Defender voor Eindpunt. [Schakel de Microsoft 365 Defender](m365d-enable.md) in om te zoeken naar bedreigingen met behulp van meer gegevensbronnen. U kunt uw geavanceerde werkstromen voor jagen verplaatsen van Microsoft Defender voor Eindpunt naar Microsoft 365 Defender door de stappen in Geavanceerde zoekquery's migreren uit [Microsoft Defender voor Eindpunt te volgen.](advanced-hunting-migrate-from-mde.md)
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-topics"></a>Gerelateerde onderwerpen
 - [Documentatie van kustoquerytaal](/azure/data-explorer/kusto/query/)
 - [Quota en gebruiksparameters](advanced-hunting-limits.md)
 - [Geavanceerde zoekfouten verwerken](advanced-hunting-errors.md)

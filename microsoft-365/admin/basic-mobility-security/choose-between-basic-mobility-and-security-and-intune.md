@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Basismobiliteit en beveiliging maken deel uit van de Microsoft 365 abonnementen.
-ms.openlocfilehash: b7b1d229e87a313a9567daed87f03452b1925a65
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 869968fa46e09fbc7a983957a83a9ad308c9f40c
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904262"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228265"
 ---
 # <a name="choose-between-basic-mobility-and-security-or-intune"></a>Kiezen tussen Basismobiliteit en Beveiliging of Intune
 
@@ -33,7 +33,7 @@ ms.locfileid: "50904262"
 
 Zowel Basismobiliteit als Beveiliging en Intune zijn opgenomen in verschillende abonnementen, die in de volgende tabel worden beschreven.
 
-| Abonnement | Basic Mobility en Security | Microsoft Intune |
+| Plan | Basic Mobility en Security | Microsoft Intune |
 |:-----|:-----|:-----|
 |Microsoft 365-apps|Ja|Nee|
 |Microsoft 365 Business Basic|Ja|Nee|
@@ -52,17 +52,17 @@ Zowel Basismobiliteit als Beveiliging en Intune zijn opgenomen in verschillende 
 |Enterprise Mobility & Security E3 |Nee|Ja|
 |Enterprise Mobility & Security E5 |Nee|Ja|
 
->[!NOTE]
->U kunt basismobiliteit en beveiliging niet gebruiken als u al gebruik maakt van Microsoft Intune.
+> [!NOTE]
+> U kunt basismobiliteit en beveiliging niet gebruiken als u al gebruik maakt van Microsoft Intune.
 
- Zie de beschrijvingen [Microsoft 365 en Office 365 platformservice](/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description)voor meer informatie. 
+ Zie de beschrijvingen [Microsoft 365 en Office 365 platformservice](/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description)voor meer informatie.
 
 ## <a name="differences-in-capabilities"></a>Verschillen in mogelijkheden
 
 Microsoft Intune en ingebouwde basismobiliteit en beveiliging bieden u beide de mogelijkheid om mobiele apparaten in uw organisatie te beheren, maar er zijn belangrijke verschillen in mogelijkheden, beschreven in de volgende tabel.
 
->[!NOTE]
->U kunt gebruikers en hun mobiele apparaten beheren met intune en basismobiliteit en beveiliging in dezelfde Microsoft 365 Business Standard-organisatie door eerst Basismobiliteit en beveiliging in te stellen en vervolgens *Microsoft Intune.* Op deze manier kunt u basismobiliteit en beveiliging of de meer functierijke Intune-oplossing kiezen. Wijs een Intune-licentie toe om de Intune-functies in te stellen.
+> [!NOTE]
+> U kunt gebruikers en hun mobiele apparaten beheren met intune en basismobiliteit en beveiliging in dezelfde Microsoft 365 Business Standard-organisatie door eerst Basismobiliteit en beveiliging in te stellen en vervolgens *Microsoft Intune.* Op deze manier kunt u basismobiliteit en beveiliging of de meer functierijke Intune-oplossing kiezen. Wijs een Intune-licentie toe om de Intune-functies in te stellen.
 
 | Functiegebied | Highlights van functies | Basic Mobility en Security | Microsoft Intune |
 |:-----|:-----|:-----|:-----|
@@ -80,7 +80,7 @@ Microsoft Intune en ingebouwde basismobiliteit en beveiliging bieden u beide de 
 |Programma's voor registratie zonder aanraking (AutoPilot) |Schrijf grote aantallen apparaten van het bedrijf in en vereenvoudig de installatie van gebruikers. |Nee|Ja|
 |||
 
-Naast functies die in de vorige tabel worden vermeld, bevatten Basismobiliteit en Beveiliging en Intune beide een reeks externe acties die opdrachten verzenden naar apparaten via internet. U kunt bijvoorbeeld Office-gegevens van het apparaat van een werknemer verwijderen terwijl u persoonlijke gegevens op zijn plaats laat (met pensioen gaan), Office-apps van het apparaat van een werknemer verwijderen (wissen) of een apparaat opnieuw instellen op de fabrieksinstellingen (volledig wissen). 
+Naast functies die in de vorige tabel worden vermeld, bevatten Basismobiliteit en Beveiliging en Intune beide een reeks externe acties die opdrachten verzenden naar apparaten via internet. U kunt bijvoorbeeld Office-gegevens van het apparaat van een werknemer verwijderen terwijl u persoonlijke gegevens op zijn plaats laat (met pensioen gaan), Office-apps van het apparaat van een werknemer verwijderen (wissen) of een apparaat opnieuw instellen op de fabrieksinstellingen (volledig wissen).
 
 Basisacties voor mobiliteit en beveiliging op afstand zijn terugtrekken, wissen en volledig wissen. Zie mogelijkheden van Basismobiliteit en Beveiliging voor meer informatie over basismobiliteits- [en beveiligingsacties.](capabilities.md)
 

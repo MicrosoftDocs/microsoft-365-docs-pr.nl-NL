@@ -7,12 +7,12 @@ author: dcurwin
 ms.author: dacurwin
 ms.service: microsoft-defender-for-identity
 manager: raynew
-ms.openlocfilehash: 0c48c9076d05cd352229477acc28b32185eef54f
-ms.sourcegitcommit: 4f6ef4cd09c3ed36dc0be3702b0636bad6cff8a9
+ms.openlocfilehash: c81f14b92b285359bda7e291bd8d3a8b636ae54d
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52657800"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228961"
 ---
 # <a name="defender-for-identity-security-alerts-in-microsoft-365-defender"></a>Beveiligingswaarschuwingen voor Defender voor identiteit in Microsoft 365 Defender
 
@@ -27,16 +27,16 @@ Defender voor identiteitswaarschuwingen zijn inheems geïntegreerd in [het Micro
 
 De nieuwe pagina Identiteitsmelding biedt klanten van Microsoft Defender voor identiteit betere signaalverrijking voor meerdere domeinen en nieuwe mogelijkheden voor automatische identiteitsreacties. Het zorgt ervoor dat u veilig blijft en de efficiëntie van uw beveiligingsbewerkingen verbetert.
 
-Een van de voordelen van het onderzoeken van waarschuwingen [via Microsoft 365 Defender](/microsoft-365/security/defender/microsoft-365-defender) is dat microsoft Defender voor identiteitswaarschuwingen verder worden gecorreleerd met informatie die is verkregen uit elk van de andere producten in de suite. Deze verbeterde waarschuwingen komen overeen met de andere Microsoft 365 Defender-waarschuwingsindelingen die afkomstig zijn van [Microsoft Defender voor Office 365](/microsoft-365/security/office-365-security) en Microsoft Defender voor [Eindpunt.](/microsoft-365/security/defender-endpoint) Met de nieuwe pagina hoeft u niet meer naar een andere productportal te gaan om waarschuwingen te onderzoeken die zijn gekoppeld aan identiteit.
+Een van de voordelen van het onderzoeken van waarschuwingen [via Microsoft 365 Defender](/microsoft-365/security/defender/microsoft-365-defender) is dat microsoft Defender voor identiteitswaarschuwingen verder wordt gecorreleerd met informatie die is verkregen uit elk van de andere producten in de suite. Deze verbeterde waarschuwingen komen overeen met de andere Microsoft 365 Defender waarschuwingsindelingen die afkomstig zijn van [Microsoft Defender voor](/microsoft-365/security/office-365-security) Office 365 en Microsoft Defender voor [Eindpunt.](/microsoft-365/security/defender-endpoint) Met de nieuwe pagina hoeft u niet meer naar een andere productportal te gaan om waarschuwingen te onderzoeken die zijn gekoppeld aan identiteit.
 
-Waarschuwingen die afkomstig zijn van Defender voor identiteit kunnen nu de [geautomatiseerde onderzoeks-](/microsoft-365/security/defender/m365d-autoir) en antwoordfuncties van Microsoft 365 Defender activeren, waaronder het automatisch corrigeren van waarschuwingen en het beperken van hulpmiddelen en processen die kunnen bijdragen aan de verdachte activiteit.
+Waarschuwingen die afkomstig zijn van Defender voor identiteit kunnen nu de geautomatiseerde onderzoeks- en antwoordfuncties [(AIR) van Microsoft 365 Defender](/microsoft-365/security/defender/m365d-autoir) activeren, waaronder het automatisch corrigeren van waarschuwingen en het beperken van hulpmiddelen en processen die kunnen bijdragen aan de verdachte activiteit.
 
->[!IMPORTANT]
->Als onderdeel van de convergentie met Microsoft 365 Defender zijn sommige opties en details gewijzigd van hun locatie in de Defender for Identity-portal. Lees de onderstaande details om te ontdekken waar u de vertrouwde en nieuwe functies kunt vinden.
+> [!IMPORTANT]
+> Als onderdeel van de convergentie met Microsoft 365 Defender zijn sommige opties en details gewijzigd van hun locatie in de Defender for Identity-portal. Lees de onderstaande details om te ontdekken waar u de vertrouwde en nieuwe functies kunt vinden.
 
 ## <a name="review-security-alerts"></a>Beveiligingswaarschuwingen controleren
 
-Waarschuwingen zijn toegankelijk vanaf meerdere locaties, waaronder  de pagina **Waarschuwingen,** de pagina Incidenten, de pagina's van afzonderlijke apparaten **en** vanaf de **pagina Geavanceerd.** In dit voorbeeld bekijken we de pagina **Waarschuwingen.**  
+Waarschuwingen zijn toegankelijk vanaf meerdere locaties, waaronder  de pagina **Waarschuwingen,** de pagina Incidenten, de pagina's van afzonderlijke apparaten **en** vanaf de **pagina Geavanceerd.** In dit voorbeeld bekijken we de pagina **Waarschuwingen.**
 
 Ga in [Microsoft 365 beveiligingscentrum](https://security.microsoft.com/)naar **Incidenten & waarschuwingen** en vervolgens naar **Waarschuwingen.**
 
@@ -85,9 +85,9 @@ In het rechterdeelvenster ziet u de **details van waarschuwing.** Hier ziet u me
 
     ![Waarschuwing beheren](../../media/defender-identity/manage-alert.png)
 
-    >[!NOTE]
-    >In het Excel hebt u nu twee koppelingen beschikbaar: **Weergeven in Microsoft Defender** voor identiteit en weergave in Microsoft 365 **Defender.** Elke koppeling brengt u naar de relevante portal en geeft informatie over de waarschuwing daar.
+    > [!NOTE]
+    > In het Excel hebt u nu twee koppelingen beschikbaar: **Weergeven in Microsoft Defender** voor identiteit en weergave in **Microsoft 365 Defender.** Elke koppeling brengt u naar de relevante portal en geeft informatie over de waarschuwing daar.
 
 ## <a name="see-also"></a>Zie ook
 
-- [Waarschuwingen onderzoeken in Microsoft 365 Defender](../defender/investigate-alerts.md)
+- [Waarschuwingen in Microsoft 365 Defender](../defender/investigate-alerts.md)

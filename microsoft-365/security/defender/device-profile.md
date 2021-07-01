@@ -1,7 +1,7 @@
 ---
 title: Apparaatprofiel in Microsoft 365 beveiligingsportal
 description: Bekijk de risico- en blootstellingsniveaus voor een apparaat in uw organisatie. Analyseer eerdere en huidige bedreigingen en bescherm het apparaat met de meest recente updates.
-keywords: beveiliging, malware, Microsoft 365, M365, Microsoft 365 Defender, beveiligingscentrum, Microsoft Defender voor Eindpunt, Microsoft Defender voor Office 365, Microsoft Defender voor identiteit, apparaatpagina, apparaatprofiel, machinepagina, machineprofiel
+keywords: beveiliging, malware, Microsoft 365, M365, Microsoft 365 Defender, beveiligingscentrum, Microsoft Defender voor eindpunt, Microsoft Defender voor Office 365, Microsoft Defender voor identiteit, apparaatpagina, apparaatprofiel, machinepagina, machineprofiel
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 localization_priority: Normal
@@ -13,12 +13,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.technology: m365d
-ms.openlocfilehash: 8e2788fd9163a27b41bd3788facf5fc9623b0543
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 47b25ba541264d79216748753e9f41fb7435fc10
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935663"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229477"
 ---
 # <a name="device-profile-page"></a>Pagina Apparaatprofiel
 
@@ -81,7 +81,7 @@ Acties die beschikbaar zijn op de pagina apparaatprofiel zijn:
 * **Antivirusscan uitvoeren:** updates Windows Defender Antivirus definities en voert onmiddellijk een antivirusscan uit. Kies tussen Snel scannen of Volledige scan.
 * **Onderzoekspakket verzamelen:** verzamelt informatie over het apparaat. Wanneer het onderzoek is voltooid, kunt u het downloaden.
 * **Live-antwoordsessie starten:** laadt een externe shell op het apparaat voor [uitgebreide beveiligingsonderzoeken.](/microsoft-365/security/defender-endpoint/live-response)
-* **Automatisch onderzoek starten:** automatisch bedreigingen onderzoeken en [corrigeren.](../office-365-security/office-365-air.md) Hoewel u handmatig automatische onderzoeken kunt activeren om vanaf deze pagina uit te [voeren,](../../compliance/alert-policies.md?view=o365-worldwide#default-alert-policies) worden bepaalde waarschuwingsbeleidsregels automatisch uitgevoerd.
+* **Automatisch onderzoek starten:** automatisch bedreigingen onderzoeken en [corrigeren.](../office-365-security/office-365-air.md) Hoewel u handmatig automatische onderzoeken kunt activeren om vanaf deze pagina uit te [voeren,](../../compliance/alert-policies.md#default-alert-policies) worden bepaalde waarschuwingsbeleidsregels automatisch uitgevoerd.
 * **Actiecentrum:** geeft informatie weer over alle antwoordacties die momenteel worden uitgevoerd.
 
 ## <a name="tabs-section"></a>Sectie Tabbladen
@@ -178,9 +178,9 @@ Het aantal items dat per pagina wordt weergegeven en welke kolommen worden weerg
 
 Als u een item selecteert, wordt een flyout geopend die naar de update wordt koppelingen.
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-topics"></a>Gerelateerde onderwerpen
 
-* [Microsoft 365 Overzicht van Defender](microsoft-365-defender.md)
+* [Microsoft 365 Defender overzicht](microsoft-365-defender.md)
 * [Microsoft 365 Defender inschakelen](m365d-enable.md)
 * [Entiteiten op apparaten onderzoeken met livereactie](../defender-endpoint/live-response.md)
 * [Automatisch onderzoek en antwoord (AIR) in Office 365](../office-365-security/office-365-air.md)

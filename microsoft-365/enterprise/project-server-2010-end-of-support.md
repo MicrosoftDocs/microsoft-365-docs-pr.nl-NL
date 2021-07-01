@@ -18,12 +18,12 @@ search.appverid:
 - PJU120
 - PJW120
 description: De ondersteuning voor Project Server 2010 eindigt op 13 april 2021. Gebruik dit artikel als een handleiding voor een upgrade naar Project Online of een nieuwere versie van Project Server on-premises.
-ms.openlocfilehash: f57fa15da3cabc4b326a52359a29c652fcbe9e7f
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 0ca37d00ee670a8a3f7c83d75864b5af19587951
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842228"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229753"
 ---
 # <a name="project-server-2010-end-of-support-roadmap"></a>Project Roadmap voor het einde van ondersteuning van Server 2010
 
@@ -114,7 +114,7 @@ U kunt handmatig uw PWA maken in Project Online (bijvoorbeeld de benodigde aange
 
 Belangrijke bronnen:
 
-|Resource|Beschrijving|
+|Resource|Omschrijving|
 |---|---|
 |[Aan de slag met Project Online](https://support.office.com/article/e3e5f64f-ada5-4f9d-a578-130b2d4e5f11)|Het instellen en gebruiken van Project Online|
 |[Servicebeschrijving van Project Online](/office365/servicedescriptions/project-online-service-description/project-online-service-description)|Informatie over de verschillende Project Online beschikbare abonnementen|
@@ -157,11 +157,11 @@ Belangrijke bronnen:
 
 - [Nieuw in de upgrade Project Server 2013](/project/what-s-new-in-project-server-2013-upgrade) bevat belangrijke wijzigingen voor deze versie, waaronder:
 
-   - Er is geen in-place upgrade naar Project Server 2013. De methode database-attach is de enige ondersteunde manier om te upgraden van Project Server 2010 naar Project Server 2013.
+  - Er is geen in-place upgrade naar Project Server 2013. De methode database-attach is de enige ondersteunde manier om te upgraden van Project Server 2010 naar Project Server 2013.
 
-   - Tijdens het upgradeproces worden niet alleen uw Project Server 2010-gegevens ge converteerd naar de Project Server 2013-indeling, maar worden ook de vier Project Server 2010-databases samengevoegd tot één Project Web App-database.
+  - Tijdens het upgradeproces worden niet alleen uw Project Server 2010-gegevens ge converteerd naar de Project Server 2013-indeling, maar worden ook de vier Project Server 2010-databases samengevoegd tot één Project Web App-database.
 
-   - Zowel SharePoint Server 2013 als Project Server 2013 is gewijzigd in verificatie op basis van claims uit de vorige versie. Als u klassieke verificatie gebruikt, moet u dit overwegen bij het upgraden. Zie Migreren van de klassieke modus naar verificatie op basis van claims in SharePoint [2013 voor meer informatie.]( /sharepoint/upgrade-and-update/migrate-from-classic-mode-to-claims-based-authentication-in-sharepoint-2013)
+  - Zowel SharePoint Server 2013 als Project Server 2013 is gewijzigd in verificatie op basis van claims uit de vorige versie. Als u klassieke verificatie gebruikt, moet u dit overwegen bij het upgraden. Zie Migreren van de klassieke modus naar verificatie op basis van claims in SharePoint [2013 voor meer informatie.](/sharepoint/upgrade-and-update/migrate-from-classic-mode-to-claims-based-authentication-in-sharepoint-2013)
 
 Belangrijke bronnen:
 
@@ -213,9 +213,9 @@ Belangrijke bronnen:
 
 - [Dingen die u moet weten over Project Server 2019-upgrade](/project/plan-for-upgrade-to-project-server-2016)<br/><br/>Meer informatie over belangrijke wijzigingen voor het upgraden naar deze versie, waaronder:
 
-   - Tijdens het upgradeproces worden uw gegevens gemigreerd van Project Server 2016 database naar de SharePoint Server 2019 inhoudsdatabase.  Project Server 2019 maakt geen eigen serverdatabase meer Project serverdatabase in de SharePoint Serverfarm.
+  - Tijdens het upgradeproces worden uw gegevens gemigreerd van Project Server 2016 database naar de SharePoint Server 2019 inhoudsdatabase.  Project Server 2019 maakt geen eigen serverdatabase meer Project serverdatabase in de SharePoint Serverfarm.
 
-   - Let na de upgrade op verschillende wijzigingen in Project Web App.  Zie Nieuw in [Project Server 2019 voor meer informatie.](/project/what-s-new-for-it-pros-in-project-server-2019#PWAChanges)
+  - Let na de upgrade op verschillende wijzigingen in Project Web App.  Zie Nieuw in [Project Server 2019 voor meer informatie.](/project/what-s-new-for-it-pros-in-project-server-2019#PWAChanges)
 
 **Andere bronnen:**
 
@@ -233,7 +233,7 @@ Deze poster illustreert de verschillende paden die u kunt volgen om het einde va
 
 U kunt deze [poster ook](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Office2010Windows7EndOfSupport.pdf) downloaden en afdrukken in de notatie letter, legal of tabloid (11 x 17).
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-topics"></a>Gerelateerde onderwerpen
 
 [Upgraden vanaf SharePoint 2010](upgrade-from-sharepoint-2010.md)
 
