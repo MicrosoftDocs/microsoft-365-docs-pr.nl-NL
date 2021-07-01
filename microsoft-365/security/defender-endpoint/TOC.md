@@ -66,7 +66,7 @@
 #### [Microsoft Defender voor Eindpunt op macOS]()
 ##### [Overzicht van Microsoft Defender voor Eindpunt op macOS](microsoft-defender-endpoint-mac.md)
 ##### [Nieuw](mac-whatsnew.md)
- 
+
 ##### [Implementeren]()
 ###### [Implementatie op basis van Microsoft Intune](mac-install-with-intune.md)
 ###### [Implementatie op basis van JAMF Pro]()
@@ -75,11 +75,11 @@
 ####### [Apparaatgroepen instellen](mac-jamfpro-device-groups.md)
 ####### [Beleidsregels instellen](mac-jamfpro-policies.md)
 ####### [Apparaten registreren](mac-jamfpro-enroll-devices.md)
- 
+
 ###### [Implementatie met een ander MDM-systeem (Mobile Device Management)](mac-install-with-other-mdm.md)
 ###### [Handmatige implementatie](mac-install-manually.md)
 ##### [Bijwerkquery](mac-updates.md)
- 
+
 ##### [Configureren]()
 ###### [Uitsluitingen configureren en valideren](mac-exclusions.md)
 ###### [Voorkeuren instellen](mac-preferences.md)
@@ -89,14 +89,14 @@
 ####### [Voorbeelden JAMF](mac-device-control-jamf.md)
 ####### [Voorbeelden Intune](mac-device-control-intune.md)
 ###### [Scans plannen](mac-schedule-scan.md)
- 
+
 ##### [Problemen oplossen]()
 ###### [Installatieproblemen oplossen](mac-support-install.md)
 ###### [Prestatieproblemen oplossen](mac-support-perf.md)
 ###### [Problemen met cloudconnectiviteit oplossen](troubleshoot-cloud-connect-mdemac.md)
 ###### [Problemen met kernelextensie oplossen](mac-support-kext.md)
 ###### [Licentieproblemen oplossen](mac-support-license.md)
- 
+
 ##### [Privacy](mac-privacy.md)
 ##### [Resources](mac-resources.md)
 
@@ -104,10 +104,10 @@
 #### [Microsoft Defender voor Eindpunt op iOS]()
 ##### [Overzicht van Microsoft Defender voor Eindpunt op iOS](microsoft-defender-endpoint-ios.md)
 ##### [Wat is er nieuw](ios-whatsnew.md)
- 
+
 ##### [Implementeren]()
 ###### [Microsoft Defender voor Eindpunt op iOS implementeren via Intune](ios-install.md)
- 
+
 ##### [Configureren]()
 ###### [iOS-functies configureren](ios-configure-features.md)
 
@@ -115,8 +115,8 @@
 ###### [Veelgestelde vragen en Problemen oplossen](ios-troubleshoot.md)
 
 ##### [Privacy](ios-privacy.md)
- 
- 
+
+
 #### [Microsoft Defender voor Eindpunt op Linux]()
 ##### [Overzicht van Microsoft Defender voor Eindpunt op Linux](microsoft-defender-endpoint-linux.md)
 ##### [Wat is er nieuw](linux-whatsnew.md)
@@ -127,7 +127,7 @@
 ###### [Defender voor Eindpunt implementeren op Linux met Chef](linux-deploy-defender-for-endpoint-with-chef.md)
 
 ##### [Update](linux-updates.md)
- 
+
 ##### [Configureren]()
 ###### [Uitsluitingen configureren en valideren](linux-exclusions.md)
 ###### [Statische proxyconfiguratie](linux-static-proxy-configuration.md)
@@ -136,29 +136,29 @@
 ###### [Scans plannen met Microsoft Defender voor Eindpunt op Linux](linux-schedule-scan-atp.md)
 ###### [Een update van Microsoft Defender voor Eindpunt (Linux) plannen](linux-update-MDE-Linux.md)
 
- 
+
 ##### [Problemen oplossen]()
 ###### [Installatieproblemen oplossen](linux-support-install.md)
 ###### [Statusproblemen van agent onderzoeken](health-status.md)
 ###### [Problemen met cloudconnectiviteit oplossen](linux-support-connectivity.md)
 ###### [Prestatieproblemen oplossen](linux-support-perf.md)
 ###### [Problemen met ontbrekende gebeurtenissen oplossen](linux-support-events.md)
- 
+
 ##### [Privacy](linux-privacy.md)
 ##### [Resources](linux-resources.md)
- 
+
 #### [Microsoft Defender voor Eindpunt op Android]()
 ##### [Overzicht van Microsoft Defender voor Eindpunt op Android](microsoft-defender-endpoint-android.md)
- 
+
 ##### [Implementeren]()
 ###### [Microsoft Defender voor Eindpunt op Android implementeren via Microsoft Intune](android-intune.md)
- 
+
 ##### [Configureren]()
 ###### [Microsoft Defender voor Eindpunt in Android-functies configureren](android-configure.md)
- 
+
 ##### [Privacy]()
 ###### [Microsoft Defender voor Eindpunt op Android - Privacyinformatie](android-privacy.md)
- 
+
 ##### [Problemen oplossen]()
 ###### [Problemen oplossen](android-support-signin.md)
 
@@ -321,13 +321,13 @@
 ##### [Bescherming tegen misbruik inschakelen](enable-exploit-protection.md)
 ##### [Bescherming tegen misbruik aanpassen](customize-exploit-protection.md)
 ##### [Configuraties voor misbruikbeveiliging importeren, exporteren en implementeren](import-export-exploit-protection-emet-xml.md)
-##### [Verwijzing voor bescherming tegen misbruik](exploit-protection-reference.md )
+##### [Verwijzing voor bescherming tegen misbruik](exploit-protection-reference.md)
 
 #### [Netwerkbeveiliging]()
 ##### [Beveilig uw netwerk](network-protection.md)
 ##### [Netwerkbeveiliging evalueren](evaluate-network-protection.md)
 ##### [Netwerkbeveiliging inschakelen](enable-network-protection.md)
- 
+
 #### [Webbeveiliging]()
 ##### [Overzicht webbeveiliging](web-protection-overview.md)
 ##### [Webbedreigingsbeveiliging]()
@@ -335,7 +335,7 @@
 ###### [Webbeveiliging monitoren](web-protection-monitoring.md)
 ###### [Reageren op webbedreigingen](web-protection-response.md)
 ##### [Filteren van webinhoud](web-content-filtering.md)
- 
+
 #### [Beheerde maptoegang]()
 ##### [Mappen beveiligen](controlled-folders.md)
 ##### [Beheerde maptoegang evalueren](evaluate-controlled-folder-access.md)
@@ -371,7 +371,7 @@
 ##### [De incidentenwachtrij weergeven en organiseren](view-incidents-queue.md)
 ##### [Incidenten beheren](manage-incidents.md)
 ##### [Incidenten onderzoeken](investigate-incidents.md)
- 
+
 #### [Waarschuwingenwachtrij]()
 ##### [De waarschuwingenwachtrij weergeven en organiseren](alerts-queue.md)
 ##### [Waarschuwingen beoordelen](review-alerts.md)
@@ -383,12 +383,12 @@
 ##### [Een domein onderzoeken](investigate-domain.md)
 ###### [Verbindingsgebeurtenissen achter forward-proxies onderzoeken](investigate-behind-proxy.md)
 ##### [Een gebruikersaccount onderzoeken](investigate-user.md)
- 
+
 #### [Lijst met apparaten]()
 ##### [De lijst met apparaten weergeven en organiseren](machines-view-overview.md)
 ##### [Gebeurtenisvlaggen voor apparaattijdlijn](device-timeline-event-flag.md)
 ##### [Groep en labels voor apparaten beheren](machine-tags.md)
- 
+
 #### [Acties ondernemen]()
 ##### [Acties ondernemen op een apparaat]()
 ###### [Acties op apparaten](respond-machine-alerts.md)
@@ -547,7 +547,7 @@
 ####### [Het uitvoeren van apps beperken](restrict-code-execution.md)
 ####### [App-beperking verwijderen](unrestrict-code-execution.md)
 ####### [Antivirusscan uitvoeren](run-av-scan.md)
-####### [Live-reactie uitvoeren](run-live-response.md) 
+####### [Live-reactie uitvoeren](run-live-response.md)
 ####### [Computer offboarden](offboard-machine-api.md)
 ####### [Bestand stoppen en in quarantaine plaatsen](stop-and-quarantine-file.md)
 ####### [Computeractie annuleren](cancel-machine-action.md)
@@ -661,7 +661,7 @@
 ##### [Inactieve apparaten](fix-unhealthy-sensors.md#inactive-devices)
 ##### [Onjuist geconfigureerde apparaten](fix-unhealthy-sensors.md#misconfigured-devices)
 ##### [Sensorgebeurtenissen en -fouten op computers bekijken met Gebeurtenisviewer](event-error-codes.md)
-  
+
 #### [Problemen met Microsoft Defender voor Eindpunt-service oplossen]()
 ##### [Problemen met de service oplossen](troubleshoot-mdatp.md)
 ##### [Servicestatus controleren](service-status.md)
@@ -669,8 +669,8 @@
 
 #### [Problemen met live-reacties oplossen](troubleshoot-live-response.md)
 
-#### [Ondersteuningslogboeken verzamelen met LiveAnalyzer ](troubleshoot-collect-support-log.md)
- 
+#### [Ondersteuningslogboeken verzamelen met LiveAnalyzer](troubleshoot-collect-support-log.md)
+
 #### [Problemen met het verminderen van kwetsbaarheid voor aanvallen oplossen]()
 ##### [Netwerkbeveiliging](troubleshoot-np.md)
 ##### [Regels voor het verminderen van kwetsbaarheid voor aanvallen](troubleshoot-asr.md)
@@ -678,4 +678,4 @@
 
 # [Microsoft 365 Defender](../defender/index.yml)
 # [Defender voor Office 365](../office-365-security/index.yml)
-# [Defender for Identity](https://docs.microsoft.com/defender-for-identity/)
+# [Defender for Identity](/defender-for-identity/)
