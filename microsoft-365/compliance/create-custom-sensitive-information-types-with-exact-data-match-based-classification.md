@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Meer informatie over het maken van aangepaste gevoelige informatietypen met op Exacte gegevens overeenkomende classificatie.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 05d5889ba690bdf61fd51044b3c059f1476342af
-ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
+ms.openlocfilehash: e8f6c075d706da46d7163705f6aa9d0ca6cad1a2
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "52964654"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227125"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>Aangepaste gevoelige informatietypen maken met een classificatie op basis van Exacte gegevensmatch
 
@@ -48,7 +48,7 @@ Maar wat als u een aangepast type gevoelige informatie (SIT) wilt dat exacte geg
 
 ![Classificatie op basis van EDM](../media/EDMClassification.png)
 
-Met EDM-classificatie kunt u aangepaste gevoelige informatietypen maken die verwijzen naar exacte waarden in een database met gevoelige informatie. De database kan dagelijks worden vernieuwd en maximaal 100 miljoen rijen met gegevens bevatten. Als werknemers, patiënten of klanten komen en gaan en records veranderen, blijven uw aangepaste gevoelige informatietypen actueel en van toepassing. En u kunt classificatie op basis van EDM gebruiken met beleidsregels, zoals beleid voor preventie van gegevensverlies [of](dlp-learn-about-dlp.md) [Microsoft Cloud App Security-bestandsbeleid.](/cloud-app-security/data-protection-policies)
+Met EDM-classificatie kunt u aangepaste gevoelige informatietypen maken die verwijzen naar exacte waarden in een database met gevoelige informatie. De database kan dagelijks worden vernieuwd en maximaal 100 miljoen rijen met gegevens bevatten. Als werknemers, patiënten of klanten komen en gaan en records veranderen, blijven uw aangepaste gevoelige informatietypen actueel en van toepassing. En u kunt classificatie op basis van EDM gebruiken met beleidsregels, zoals beleid voor preventie van gegevensverlies of Microsoft Cloud App Security [bestandsbeleid.](/cloud-app-security/data-protection-policies) [](dlp-learn-about-dlp.md)
 
 > [!NOTE]
 > Microsoft 365 Information Protection ondersteunt talen voor preview van dubbel-byte-tekensets voor:
@@ -62,7 +62,7 @@ Met EDM-classificatie kunt u aangepaste gevoelige informatietypen maken die verw
 
 ## <a name="required-licenses-and-permissions"></a>Vereiste licenties en machtigingen
 
-U moet een globale beheerder, compliancebeheerder of Exchange Online-beheerder zijn om de taken uit te voeren die in dit artikel worden beschreven. Zie [Machtigingen](data-loss-prevention-policies.md#permissions) voor meer informatie over DLP-machtigingen.
+U moet een globale beheerder, compliancebeheerder of Exchange Online zijn om de taken uit te voeren die in dit artikel worden beschreven. Zie [Machtigingen](data-loss-prevention-policies.md#permissions) voor meer informatie over DLP-machtigingen.
 
 EDM-gebaseerde classificatie is inbegrepen in deze abonnementen
 
@@ -77,8 +77,8 @@ EDM-gebaseerde classificatie is inbegrepen in deze abonnementen
 |Portal  |World Wide/GCC  |GCC-High  |DOD  |
 |---------|---------|---------|---------|
 |Office SCC     |  protection.office.com       |scc.office365.us         |scc.protection.apps.mil |
-|Microsoft 365-beveiligingscentrum     |security.microsoft.com         |security.microsoft.us         |security.apps.mil|
-|Microsoft 365 Compliance center     |compliance.microsoft.com         |compliance.microsoft.us         |compliance.apps.mil|
+|Microsoft 365 Beveiligingscentrum     |security.microsoft.com         |security.microsoft.us         |security.apps.mil|
+|Microsoft 365 Compliancecentrum     |compliance.microsoft.com         |compliance.microsoft.us         |compliance.apps.mil|
 
 
 ## <a name="the-work-flow-at-a-glance"></a>De werkstroom in één oogopslag
@@ -86,8 +86,8 @@ EDM-gebaseerde classificatie is inbegrepen in deze abonnementen
 |Fase  |Wat is er nodig  |
 |---------|---------|
 |[Deel 1: Classificatie op basis van EDM instellen](#part-1-set-up-edm-based-classification)<br/><br/>(Indien nodig)<br/>- [Het databaseschema bewerken](#editing-the-schema-for-edm-based-classification) <br/>- [Het schema verwijderen](#removing-the-schema-for-edm-based-classification) |- Lees de toegang tot de gevoelige gegevens<br/>- Databaseschema in XML-indeling (voorbeeld opgegeven)<br/>- Regelpakket in XML-indeling (voorbeeld beschikbaar)<br/>- Beheerdersmachtigingen voor het beveiligings- & compliancecentrum (met PowerShell) |
-|[Deel 2: Hash en upload de gevoelige gegevens](#part-2-hash-and-upload-the-sensitive-data)<br/><br/>(Indien nodig)<br/>[De gegevens vernieuwen](#refreshing-your-sensitive-information-database) |- Aangepaste beveiligingsgroep en gebruikersaccount<br/>- Toegang van lokale beheerder tot machine met EDM Upload Agent<br/>- Lees de toegang tot de gevoelige gegevens<br/>- Verwerken en plannen voor het vernieuwen van de gegevens|
-|[Deel 3: Classificatie op basis van EDM gebruiken met uw Microsoft-cloudservices](#part-3-use-edm-based-classification-with-your-microsoft-cloud-services) |- Microsoft 365-abonnement met DLP<br/>- Classificatiefunctie op basis van EDM ingeschakeld |
+|[Deel 2: Hash en upload de gevoelige gegevens](#part-2-hash-and-upload-the-sensitive-data)<br/><br/>(Indien nodig)<br/>[De gegevens vernieuwen](#refreshing-your-sensitive-information-database) |- Aangepaste beveiligingsgroep en gebruikersaccount<br/>- Toegang van lokale beheerder tot machine met EDM-Upload Agent<br/>- Lees de toegang tot de gevoelige gegevens<br/>- Verwerken en plannen voor het vernieuwen van de gegevens|
+|[Deel 3: Classificatie op basis van EDM gebruiken met uw Microsoft-cloudservices](#part-3-use-edm-based-classification-with-your-microsoft-cloud-services) |- Microsoft 365 abonnement met DLP<br/>- Classificatiefunctie op basis van EDM ingeschakeld |
 
 ### <a name="part-1-set-up-edm-based-classification"></a>Deel 1: Classificatie op basis van EDM instellen
 
@@ -372,47 +372,46 @@ Het hashen en uploaden kan worden uitgevoerd met één computer of u kunt de sta
 
 Als u wilt hashen en uploaden vanaf één computer, moet u dit doen vanaf een computer die rechtstreeks verbinding kan maken met uw Microsoft 365 tenant. Hiervoor moeten uw duidelijke tekstgevoelige gegevensbestanden op die computer staan voor hashing.
 
-Als u uw gevoelige gegevensbestand met duidelijke tekst niet wilt onthullen, kunt u het hashen op een computer op een veilige locatie en vervolgens het hashbestand en het zoutbestand kopiëren naar een computer die rechtstreeks verbinding kan maken met uw Microsoft 365-tenant om deze te uploaden. In dit scenario hebt u de EDMUploadAgent op beide computers nodig.
+Als u het gevoelige gegevensbestand met duidelijke tekst niet wilt onthullen, kunt u het hashen op een computer op een veilige locatie en vervolgens het hashbestand en het zoutbestand kopiëren naar een computer die rechtstreeks verbinding kan maken met uw Microsoft 365-tenant voor uploaden. In dit scenario hebt u de EDMUploadAgent op beide computers nodig.
 
 > [!IMPORTANT]
 > Als u de wizard Exacte gegevensmatch en de wizard Gevoelige gegevenstype hebt gebruikt om uw schema- en patroonbestanden te maken, moet u ***het*** schema voor deze procedure downloaden.
 
 > [!NOTE]
-> Als uw organisatie klantsleutel voor [Microsoft 365](customer-key-overview.md)op tenantniveau heeft ingesteld, wordt de versleutelingsfunctionaliteit van Exact data match automatisch gebruikt. Dit is alleen beschikbaar voor E5-gelicentieerde tenants in de commerciële cloud.
+> Als uw organisatie Klantsleutel heeft ingesteld voor Microsoft 365 op [tenantniveau,](customer-key-overview.md)wordt de versleutelingsfunctionaliteit van Exact data match automatisch gebruikt. Dit is alleen beschikbaar voor E5-gelicentieerde tenants in de commerciële cloud.
 
 #### <a name="prerequisites"></a>Vereisten
 
 - een werk- of schoolaccount voor Microsoft 365 dat wordt toegevoegd aan de **beveiligingsgroep EDM \_ DataUploaders**
-- een Windows 10- of Windows Server 2016-computer met .NET versie 4.6.2 voor het uitvoeren van de EDMUploadAgent
+- een Windows 10 of Windows Server 2016 met .NET versie 4.6.2 voor het uitvoeren van de EDMUploadAgent
 - een adreslijst op uw uploadmachine voor het volgende:
-    -  EDMUploadAgent
-    - uw gevoelige itembestand in .csv of .tsv-indeling, **PatientRecords.csv** in onze voorbeelden
-    -  en de uitvoerhash- en zoutbestanden
-    - de gegevensstorenaam uit **hetedm.xml** bestand, voor dit voorbeeld de naam `PatientRecords`
+  - EDMUploadAgent
+  - uw gevoelige itembestand in .csv of .tsv-indeling, **PatientRecords.csv** in onze voorbeelden
+  - de uitvoerhash- en zoutbestanden
+  - de gegevensstorenaam uit **hetedm.xml** bestand, voor dit voorbeeld de naam `PatientRecords`
 - Als u de wizard Exacte gegevensmatch en de wizard [Gevoelige gegevenstype hebt gebruikt,](sit-edm-wizard.md) ***moet u het*** downloaden
 
 #### <a name="set-up-the-security-group-and-user-account"></a>De beveiligingsgroep en het gebruikersaccount instellen
 
-1. Als globale beheerder gaat u naar het beheercentrum met de juiste [koppeling](#portal-links-for-your-subscription) voor uw abonnement en maakt u een [beveiligingsgroep](/office365/admin/email/create-edit-or-delete-a-security-group?view=o365-worldwide) met de naam **EDM \_ DataUploaders.**
+1. Als globale beheerder gaat u naar het beheercentrum met de juiste [koppeling](#portal-links-for-your-subscription) voor uw abonnement en maakt u een [beveiligingsgroep](/office365/admin/email/create-edit-or-delete-a-security-group) met de naam **EDM \_ DataUploaders.**
 
 2. Voeg een of meer gebruikers toe aan de **beveiligingsgroep EDM \_ DataUploaders.** (Deze gebruikers beheren de database met gevoelige informatie.)
 
 #### <a name="hash-and-upload-from-one-computer"></a>Hash en upload vanaf één computer
 
-Deze computer moet directe toegang hebben tot uw Microsoft 365-tenant.
+Deze computer moet directe toegang hebben tot uw Microsoft 365 tenant.
 
->[!NOTE]
+> [!NOTE]
+>
 > Voordat u deze procedure start, moet u ervoor zorgen dat u lid bent van de **beveiligingsgroep EDM \_ DataUploaders.**
-
-> [!TIP]
+>
 > Desgewenst kunt u een validatie uitvoeren op uw .csv of .tsv-bestand voordat u het uploadt door het volgende uit te voeren:
 >
->`EdmUploadAgent.exe /ValidateData /DataFile [data file] /Schema [schema file]`
+> `EdmUploadAgent.exe /ValidateData /DataFile [data file] /Schema [schema file]`
 >
->Voor meer informatie over alle EdmUploadAgent.exe >ondersteunde parameters uitvoeren
+> Voor meer informatie over alle EdmUploadAgent.exe >ondersteunde parameters uitvoeren
 >
 > `EdmUploadAgent.exe /?`
-
 
 #### <a name="links-to-edm-upload-agent-by-subscription-type"></a>Koppelingen naar EDM-uploadagent per abonnementstype
 
@@ -422,7 +421,7 @@ Deze computer moet directe toegang hebben tot uw Microsoft 365-tenant.
 
 1. Maak een werkmap voor de EDMUploadAgent. Bijvoorbeeld **C:\EDM\Data.** Plaats het **PatientRecords.csv** daar.
 
-2. Download en installeer de juiste [EDM Upload Agent](#links-to-edm-upload-agent-by-subscription-type) voor uw abonnement in de adreslijst die u in stap 1 hebt gemaakt.
+2. Download en installeer de juiste [EDM-Upload agent](#links-to-edm-upload-agent-by-subscription-type) voor uw abonnement in de adreslijst die u in stap 1 hebt gemaakt.
 
    > [!NOTE]
    > De EDMUploadAgent op de bovenstaande koppelingen is bijgewerkt om automatisch een zoute waarde toe te voegen aan de gehashte gegevens. U kunt ook uw eigen zoutwaarde leveren. Wanneer u deze versie hebt gebruikt, kunt u de vorige versie van de EDMUploadAgent niet meer gebruiken.
@@ -432,11 +431,11 @@ Deze computer moet directe toegang hebben tot uw Microsoft 365-tenant.
    > [!TIP]
    > Als u een lijst wilt halen uit de ondersteunde opdrachtparameters, moet u de agent geen argumenten geven. Bijvoorbeeld 'EdmUploadAgent.exe'.
 
-2. Machtig de EDM Upload Agent, open het venster Opdrachtprompt (als beheerder), ga naar **de C:\EDM\Data** directory en voer vervolgens de volgende opdracht uit:
+2. Machtig de EDM-Upload agent, open het venster Opdrachtprompt (als beheerder), schakel over naar de **adreslijst C:\EDM\Data** en voer vervolgens de volgende opdracht uit:
 
    `EdmUploadAgent.exe /Authorize`
 
-3. Meld u aan met uw werk- of schoolaccount voor Microsoft 365 dat is toegevoegd aan de EDM_DataUploaders beveiligingsgroep. Uw tenantgegevens worden uit het gebruikersaccount gehaald om de verbinding te maken.
+3. Meld u aan met uw werk- of schoolaccount voor Microsoft 365 die is toegevoegd aan de EDM_DataUploaders beveiligingsgroep. Uw tenantgegevens worden uit het gebruikersaccount gehaald om de verbinding te maken.
 
    OPTIONEEL: Als u de wizard Exacte gegevensmatch en de wizard Gevoelige gegevenstype hebt gebruikt om uw schema- en patroonbestanden te maken, voer dan de volgende opdracht uit in een opdrachtpromptvenster:
 
@@ -481,7 +480,7 @@ OPTIONEEL: Als u de wizard Exacte gegevensmatch en de wizard Gevoelige gegevenst
 
 2. Kopieer deze bestanden op een veilige manier naar de computer die u gebruikt om uw gevoelige items .csv of .tsv-bestand (PatientRecords) naar uw tenant te uploaden.
 
-   Als u de gehashte gegevens wilt uploaden, moet u de volgende opdracht uitvoeren in Windows Command Prompt:
+   Als u de gehashte gegevens wilt uploaden, moet u de volgende opdracht uitvoeren in Windows opdrachtprompt:
 
    `EdmUploadAgent.exe /UploadHash /DataStoreName \<DataStoreName\> /HashFile \<HashedSourceFilePath\>`
 
@@ -496,7 +495,7 @@ OPTIONEEL: Als u de wizard Exacte gegevensmatch en de wizard Gevoelige gegevenst
 
    U ziet een lijst met gegevensopslag en wanneer deze voor het laatst zijn bijgewerkt.
 
-   Als u alle gegevens uploads naar een bepaalde winkel wilt zien, voer dan de volgende opdracht uit in een Windows-opdrachtprompt:
+   Als u alle gegevens uploads naar een bepaalde winkel wilt zien, voer dan de volgende opdracht uit in Windows opdrachtprompt:
 
    `EdmUploadAgent.exe /GetSession /DataStoreName <DataStoreName>`
 
@@ -506,11 +505,11 @@ Op dit moment kunt u de classificatie op basis van EDM gebruiken met uw Microsof
 
 #### <a name="refreshing-your-sensitive-information-database"></a>Uw database met gevoelige informatie vernieuwen
 
-U kunt uw database met gevoelige gegevens dagelijks vernieuwen en met het EDM-uploadprogramma kunt u de gevoelige gegevens opnieuw indexeren en vervolgens de geïndexeerde gegevens opnieuw uploaden.
+U kunt de database met gevoelige gegevens dagelijks vernieuwen en met het EDM-Upload kunt u de gevoelige gegevens opnieuw indexeren en vervolgens de geïndexeerde gegevens opnieuw uploaden.
 
 1. Bepaal uw proces en frequentie (dagelijks of wekelijks) voor het vernieuwen van de database met gevoelige informatie.
 
-2. Export de gevoelige gegevens opnieuw naar een app, zoals Microsoft Excel, en sla het bestand op in de indeling .csv .tsv. Bewaar dezelfde bestandsnaam en locatie die u hebt gebruikt toen u de stappen in Hash hebt gevolgd [en de gevoelige gegevens uploadt.](#part-2-hash-and-upload-the-sensitive-data)
+2. Export de gevoelige gegevens opnieuw naar een app, zoals Microsoft Excel, en sla het bestand op in een .csv of .tsv-indeling. Bewaar dezelfde bestandsnaam en locatie die u hebt gebruikt toen u de stappen in Hash hebt gevolgd [en de gevoelige gegevens uploadt.](#part-2-hash-and-upload-the-sensitive-data)
 
       > [!NOTE]
       > Als er geen wijzigingen zijn aangebracht in de structuur (veldnamen) van het .csv- of TSV-bestand, hoeft u geen wijzigingen aan te brengen in het databaseschemabestand wanneer u de gegevens vernieuwt. Maar als u wijzigingen moet aanbrengen, moet u het databaseschema en het regelpakket dienovereenkomstig bewerken.
@@ -521,7 +520,7 @@ U kunt uw database met gevoelige gegevens dagelijks vernieuwen en met het EDM-up
       | ---------------------- | ---------------- |
       | Windows PowerShell     | Zie de [documentatie van ScheduledTasks](/powershell/module/scheduledtasks/?view=win10-ps) en het [voorbeeld van PowerShell-script](#example-powershell-script-for-task-scheduler) in dit artikel |
       | Task Scheduler API     | Zie de [documentatie van Taakplanning](/windows/desktop/TaskSchd/using-the-task-scheduler)                                                                                                                                                                                                                                                                                |
-      | Windows-gebruikersinterface | Klik in Windows op **Start** en typ Taakplanning. Klik vervolgens in de lijst met resultaten met de rechtermuisknop op **Taakplanning** en kies **Uitvoeren als beheerder.**                                                                                                                                                                                                                                                                           |
+      | Windows gebruikersinterface | Klik Windows op **Start** en typ Taakplanning. Klik vervolgens in de lijst met resultaten met de rechtermuisknop op **Taakplanning** en kies **Uitvoeren als beheerder.**                                                                                                                                                                                                                                                                           |
 
 #### <a name="example-powershell-script-for-task-scheduler"></a>Voorbeeld van PowerShell-script voor taakplanning
 
@@ -626,7 +625,7 @@ Deze locaties ondersteunen EDM-gevoelige informatietypen:
 
 5. Selecteer op **het tabblad** Locaties kiezen de optie Laat mij specifieke **locaties kiezen** en kies vervolgens **Volgende.**
 
-6. Selecteer in **de kolom Status** de optie **Exchange-e-mail, OneDrive-accounts, Teams-chat-** en kanaalbericht en kies vervolgens **Volgende**.
+6. Selecteer in **de kolom** Status **Exchange e-mail, OneDrive accounts, Teams chat-** en kanaalbericht en kies vervolgens **Volgende.**
 
 7. Kies op **het tabblad** Beleidsinstellingen de optie Geavanceerde **instellingen gebruiken** en kies vervolgens **Volgende.**
 
@@ -652,7 +651,7 @@ Deze locaties ondersteunen EDM-gevoelige informatietypen:
 > [!NOTE]
 > Sta ongeveer één uur toe dat uw nieuwe DLP-beleid zijn weg door uw datacenter kan vinden.
 
-## <a name="related-articles"></a>Aanverwante artikelen
+## <a name="related-articles"></a>Verwante artikelen
 
 - [Definities van entiteiten van het type gevoelige informatie](sensitive-information-type-entity-definitions.md)
 - [Meer informatie over typen gevoelige informatie](sensitive-information-type-learn-about.md)

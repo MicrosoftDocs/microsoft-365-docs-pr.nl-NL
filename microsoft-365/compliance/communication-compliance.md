@@ -20,12 +20,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 9d9c439704b6837cec086b390cde9c480d2d69ba
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 2bf40f5b1d89b7a232f86c1e186ca660db9f8bbc
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "52162599"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227281"
 ---
 # <a name="learn-about-communication-compliance-in-microsoft-365"></a>Meer informatie over communicatie compliance in Microsoft 365
 
@@ -103,7 +103,7 @@ Nieuwe interactieve dashboards voor waarschuwingen, beleidswedstrijden, acties e
 
 - **Proactieve intelligente waarschuwingen:** Waarschuwingen voor beleidswedstrijden die onmiddellijke aandacht vereisen, omvatten nieuwe dashboards voor items die zijn gesorteerd op ernst en nieuwe automatische e-mailmeldingen die zijn verzonden naar aangewezen revisoren.
 - **Interactieve dashboards:** in nieuwe dashboards worden beleidswedstrijden, lopende en opgeloste acties en trends van gebruikers en beleid weergegeven.
-- **Ondersteuning voor controle:** een volledig logboek met beleidsactiviteiten en controleactiviteiten wordt eenvoudig geëxporteerd vanuit het Microsoft 365 compliancecentrum om controleaanvragen te ondersteunen.
+- **Ondersteuning voor controle:** een volledig logboek met beleid en controleactiviteiten wordt eenvoudig geëxporteerd vanuit de Microsoft 365-compliancecentrum om controleaanvragen te ondersteunen.
 
 ## <a name="integration-with-microsoft-365-services"></a>Integratie met Microsoft 365 services
 
@@ -129,10 +129,10 @@ Voor het identificeren en oplossen van complianceproblemen met communicatie-comp
 
 In deze werkstroomstap identificeert u uw nalevingsvereisten en configureert u toepasselijke communicatie-compliancebeleidsregels. Beleidssjablonen zijn een uitstekende manier om niet alleen snel een nieuw compliancebeleid te configureren, maar ook om beleid snel te wijzigen en bij te werken naarmate uw vereisten veranderen. U kunt bijvoorbeeld snel een beleid voor aanstootgevende taal en ongewenste e-mail voor communicatie voor een kleine groep gebruikers testen voordat u een beleid configureert voor alle gebruikers in uw organisatie.
 
->[!Important]
->Globale beheerders hebben standaard geen toegang tot communicatie-compliancefuncties. Zie Communicatie compliance beschikbaar maken in uw organisatie als u machtigingen voor communicatie compliancefuncties [wilt inschakelen.](communication-compliance-configure.md#step-1-required-enable-permissions-for-communication-compliance)
+> [!IMPORTANT]
+> Globale beheerders hebben standaard geen toegang tot communicatie-compliancefuncties. Zie Communicatie compliance beschikbaar maken in uw organisatie als u machtigingen voor communicatie compliancefuncties [wilt inschakelen.](communication-compliance-configure.md#step-1-required-enable-permissions-for-communication-compliance)
 
-U kunt kiezen uit de volgende beleidssjablonen in het Microsoft 365 compliancecentrum:
+U kunt kiezen uit de volgende beleidssjablonen in de Microsoft 365-compliancecentrum:
 
 - **Aanstootgevende** of bedreigende taal: gebruik deze sjabloon om snel een beleid te maken dat gebruikmaakt van ingebouwde classificaties om automatisch inhoud te detecteren die kan worden beschouwd als beledigend of aanstootgevend.
 - **Gevoelige informatie:** Gebruik deze sjabloon om snel een beleid te maken voor het scannen van communicatie met gedefinieerde typen gevoelige informatie of trefwoorden om ervoor te zorgen dat belangrijke gegevens niet worden gedeeld met personen die geen toegang moeten hebben.
@@ -142,7 +142,7 @@ U kunt kiezen uit de volgende beleidssjablonen in het Microsoft 365 compliancece
 
 ### <a name="investigate"></a>Onderzoeken
 
-In deze stap gaat u dieper in op de problemen die zijn gedetecteerd als overeenkomend met uw communicatie-compliancebeleid. Deze stap bevat de volgende acties die beschikbaar zijn in het Microsoft 365 compliancecentrum:
+In deze stap gaat u dieper in op de problemen die zijn gedetecteerd als overeenkomend met uw communicatie-compliancebeleid. Deze stap bevat de volgende acties die beschikbaar zijn in de Microsoft 365-compliancecentrum:
 
 - **Waarschuwingen:** Wanneer een bericht overeenkomt met een beleidsvoorwaarde, wordt automatisch een waarschuwing gegenereerd. Voor elke waarschuwing ziet u de status, de ernst, de tijd die is gedetecteerd en of er een Advanced eDiscovery is toegewezen en de status. Nieuwe waarschuwingen worden weergegeven op de startpagina communicatie compliance en de **pagina Waarschuwingen** en worden weergegeven in volgorde van ernst.
 - **Probleembeheer:** Voor elke waarschuwing kunt u onderzoekende acties uitvoeren om het probleem te verhelpen dat in het bericht is gedetecteerd.
@@ -150,7 +150,7 @@ In deze stap gaat u dieper in op de problemen die zijn gedetecteerd als overeenk
 - **Gebruikersactiviteitsgeschiedenis controleren:** Bekijk de geschiedenis van activiteiten van gebruikersberichten en herstelacties, zoals meldingen uit het verleden en escalaties, voor beleidsafmeldingen.
 - **Filters:** Gebruik filters zoals afzender, geadresseerde, datum en onderwerp om snel de berichtwaarschuwingen te beperken die u wilt controleren.
 
-### <a name="remediate"></a>Herstel
+### <a name="remediate"></a>Oplossen
 
 De volgende stap is het oplossen van complianceproblemen met communicatie die u hebt onderzocht met de volgende opties:
 

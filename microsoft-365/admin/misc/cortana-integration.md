@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7257cb50-0d5c-4f7a-ac2e-9fe5d13bb5cb
 description: Gebruikers met geldige werk- of schoolaccounts kunnen Cortana ervaring Microsoft 365 die voldoen aan Office 365 beveiligingsbeloften op ondernemingsniveau.
-ms.openlocfilehash: 45e6f46fa753096c535add9daf486ef6a9f1bff0
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: a740c4ce2b89244cc84494349e962fb665fa2d73
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054594"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227893"
 ---
 # <a name="cortana-in-microsoft-365"></a>Cortana in Microsoft 365
 
@@ -39,7 +39,7 @@ Wanneer ze zijn aangemeld met geldige werk- of schoolaccounts, kunnen gebruikers
 
 - In overeenstemming met andere Office 365-services voldoen Cortana enterprise-services aan dezelfde beloften op het gebied van privacy, beveiliging en naleving op ondernemingsniveau, zoals wordt weerspiegeld in de Voorwaarden voor [onlineservices (OST).](https://www.microsoft.com/licensing/product-licensing/products)
 
-- Nieuwe Microsoft 365, zoals de e-mail briefing en Mijn e-mailberichten afspelen, worden ingeschakeld met behulp van Cortana enterprise-services en voldoen volledig aan deze beloften. Deze functies zijn momenteel wereldwijd beschikbaar (standaard multi-tenant). Ga voor meer informatie over het zoeken naar de gebruikslocatie naar [Aanvullende eigenschapswaarden voor accounts weergeven.](../../enterprise/view-user-accounts-with-microsoft-365-powershell.md?view=o365-worldwide#view-additional-property-values-for-accounts)
+- Nieuwe Microsoft 365, zoals de e-mail briefing en Mijn e-mailberichten afspelen, worden ingeschakeld met behulp van Cortana enterprise-services en voldoen volledig aan deze beloften. Deze functies zijn momenteel wereldwijd beschikbaar (standaard multi-tenant). Ga voor meer informatie over het zoeken naar de gebruikslocatie naar [Aanvullende eigenschapswaarden voor accounts weergeven.](../../enterprise/view-user-accounts-with-microsoft-365-powershell.md#view-additional-property-values-for-accounts)
 
 - Bestaande consumentenervaringen, waaronder Cortana in Windows 10 (versie 1909 en eerder), vallen onder de [Microsoft Services-overeenkomst](https://www.microsoft.com/licensing/product-licensing/products) en de [Microsoft-privacyverklaring](https://privacy.microsoft.com/privacystatement) (zie de sectie Bestaande services voor consumenten hieronder). Deze voorwaarden gelden ook voor Cortana zakelijke services die aan de gebruiker worden geleverd wanneer ze zijn aangemeld met hun consumentenreferenties.
 
@@ -55,7 +55,7 @@ In overeenstemming met andere Office 365 services, Cortana zakelijke services be
 
 In de onderstaande tabel wordt de gegevensafhandeling voor Cortana enterprise services beschreven.
 
-| Naam | Beschrijving |
+| Naam | Omschrijving |
 |:-----|:-----|
 |**Opslag**  <br/> |Klantgegevens worden opgeslagen op Microsoft-servers in de Office 365 cloud. Uw gegevens maken deel uit van uw tenant. <br/><br/>Spraakaudio blijft niet behouden.  <br/> |
 |**Blijft in Geo**  <br/> |Klantgegevens worden opgeslagen op Microsoft-servers in de Office 365 cloud in Geo. Uw gegevens maken deel uit van uw tenant.  <br/> |

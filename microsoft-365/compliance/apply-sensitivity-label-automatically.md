@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Wanneer u een vertrouwelijkheidslabel maakt, kunt u automatisch een label toewijzen aan bestanden en e-mailberichten of gebruikers vragen om het label te selecteren dat u aanbeveelt.
-ms.openlocfilehash: 6b74c36707b9fe1fdbe00eb7058554b54ec95755
-ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
+ms.openlocfilehash: 2f873482dc351050a87993420e718f6de87ac218
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53194767"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227529"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Een vertrouwelijkheidslabel automatisch toepassen op inhoud
 
@@ -44,20 +44,20 @@ Wanneer inhoud handmatig is gelabeld, wordt dat label nooit vervangen door autom
 
 Er zijn twee verschillende methoden voor het automatisch toepassen van een vertrouwelijkheidslabel op inhoud in Microsoft 365:
 
-- **Labelen aan de clientzijde wanneer gebruikers documenten bewerken of e-mailberichten opstellen (of beantwoorden of doorsturen)**: gebruik een label dat is geconfigureerd voor het automatisch labelen van bestanden en e-mailberichten (inclusief Word, Excel, PowerPoint en Outlook). 
-    
-    Deze methode ondersteunt het aanbevelen van een label aan gebruikers en het automatisch toepassen van een label. Maar in beide gevallen besluit de gebruiker of het label wordt geaccepteerd of geweigerd, om ervoor te zorgen dat inhoud beter wordt gelabeld. Dit labelen aan clientzijde heeft een minimale vertraging voor documenten tot gevolg, omdat het label kan worden aangebracht voordat het document wordt opgeslagen. Niet alle client-apps ondersteunen echter automatisch labelen. Deze functionaliteit wordt ondersteund door de geïntegreerde Azure Information Protection-labelclient en [sommige versies van Office-apps](sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps). 
-    
+- **Labelen aan de clientzijde wanneer gebruikers documenten bewerken of e-mailberichten opstellen (of beantwoorden of doorsturen)**: gebruik een label dat is geconfigureerd voor het automatisch labelen van bestanden en e-mailberichten (inclusief Word, Excel, PowerPoint en Outlook).
+
+    Deze methode ondersteunt het aanbevelen van een label aan gebruikers en het automatisch toepassen van een label. Maar in beide gevallen besluit de gebruiker of het label wordt geaccepteerd of geweigerd, om ervoor te zorgen dat inhoud beter wordt gelabeld. Dit labelen aan clientzijde heeft een minimale vertraging voor documenten tot gevolg, omdat het label kan worden aangebracht voordat het document wordt opgeslagen. Niet alle client-apps ondersteunen echter automatisch labelen. Deze functionaliteit wordt ondersteund door de geïntegreerde Azure Information Protection-labelclient en [sommige versies van Office-apps](sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps).
+
     Zie [Configuratie van automatische labels voor Office-apps](#how-to-configure-auto-labeling-for-office-apps) op deze pagina voor configuratie-instructies.
 
-- **Labelen aan servicezijde wanneer inhoud al is opgeslagen (in SharePoint of OneDrive) of per e-mail is verzonden (verwerkt door Exchange Online)**: gebruik een beleid voor automatisch labelen. 
-    
+- **Labelen aan servicezijde wanneer inhoud al is opgeslagen (in SharePoint of OneDrive) of per e-mail is verzonden (verwerkt door Exchange Online)**: gebruik een beleid voor automatisch labelen.
+
     Soms wordt deze methode ook wel automatisch labelen voor data-at-rest genoemd (documenten in SharePoint en OneDrive) of data-in-transit (e-mail die wordt verzonden of ontvangen door Exchange). Voor Exchange bevat dit niet e-mail-at-rest (postvakken).
-    
+
     Het labelen wordt door de service zelf toegepast en niet door de toepassingen. U hoeft zich dus geen zorgen te maken over welke apps en welke versie gebruikers hebben. Hierdoor is deze functionaliteit direct beschikbaar binnen uw gehele organisatie en geschikt om op schaal te labelen. Beleid voor automatisch labelen ondersteunt geen aanbevolen labels, omdat de gebruiker geen interactie heeft met het labelproces. In plaats daarvan voert de beheerder het beleid in de simulatiemodus uit, om ervoor te zorgen dat de inhoud juist wordt gelabeld voordat het label werkelijk wordt toegepast.
-    
+
     Zie [Beleidsregels configureren voor automatisch labelen voor SharePoint, OneDrive en Exchange](#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange) op deze pagina voor configuratie-instructies.
-    
+
     Specifiek voor automatisch labelen voor SharePoint en OneDrive:
     - Office-bestanden voor Word, PowerPoint en Excel worden ondersteund. Open XML-indeling wordt ondersteund (zoals .docx en .xlsx), maar niet de Microsoft Office 97-2003-indeling (zoals .doc en .xls).
         - Deze bestanden kunnen automatisch at rest worden gelabeld voor of nadat de beleidsregels voor automatisch labelen worden gemaakt. Bestanden kunnen niet automatisch worden gelabeld als ze deel uitmaken van een geopende sessie (het bestand is geopend).
@@ -77,7 +77,7 @@ Er zijn twee verschillende methoden voor het automatisch toepassen van een vertr
         - Als het label is geconfigureerd voor [versleuteling](encryption-sensitivity-labels.md), wordt deze versleuteling niet toegepast.
         - Als het label is geconfigureerd voor het toepassen van [dynamische markeringen](sensitivity-labels-office-apps.md#dynamic-markings-with-variables), moet u er rekening mee houden dat dit namen van personen van buiten uw organisatie kan opleveren.
     - Wanneer het label versleuteling toepast, is de [Rights Management-uitgever en -eigenaar](/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner) de persoon die het e-mailbericht verzendt. Er is momenteel geen manier om een Rights Manager-eigenaar in te stellen voor alle binnenkomende e-mailberichten die automatisch worden versleuteld.
-    
+
 
 ## <a name="compare-auto-labeling-for-office-apps-with-auto-labeling-policies"></a>Automatisch labelen voor Office-apps vergelijken met beleidsregels voor automatisch labelen
 
@@ -115,7 +115,7 @@ Zie [Sublabels (groeperingslabels)](sensitivity-labels.md#sublabels-grouping-lab
 
 Automatisch labelen in Office-apps voor Windows wordt ondersteund door de geïntegreerde Azure Information Protection-labelclient. Voor ingebouwd labelen in Office-apps is deze functionaliteit beschikbaar in [verschillende fasen van beschikbaarheid voor verschillende apps](sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps).
 
-De instellingen voor automatisch labelen voor Office-apps zijn beschikbaar wanneer u [een vertrouwelijkheidslabel wilt maken of bewerken](create-sensitivity-labels.md). Zorg ervoor dat **Bestanden en e-mailberichten** is geselecteerd voor het bereik van het label: 
+De instellingen voor automatisch labelen voor Office-apps zijn beschikbaar wanneer u [een vertrouwelijkheidslabel wilt maken of bewerken](create-sensitivity-labels.md). Zorg ervoor dat **Bestanden en e-mailberichten** is geselecteerd voor het bereik van het label:
 
 ![Opties voor het bereik van vertrouwelijkheidslabels voor bestanden en e-mailberichten](../media/filesandemails-scope-options-sensitivity-label.png)
 
@@ -142,7 +142,7 @@ U vindt meer informatie over deze configuratieopties in de DLP-documentatie: [Re
 Net als bij de configuratie van DLP-beleid kunt u ook kiezen of alle typen gevoelige informatie moeten worden gedetecteerd door een voorwaarde of slechts één van deze typen. En als u uw voorwaarden flexibeler of complexer wilt maken, kunt u [groepen toevoegen en logische operatoren tussen de groepen gebruiken](data-loss-prevention-policies.md#grouping-and-logical-operators).
 
 > [!NOTE]
-> Beleid voor automatisch labelen op basis van aangepaste typen gevoelige informatie is alleen van toepassing op nieuw gemaakte of gewijzigde inhoud in OneDrive en SharePoint; niet op bestaande inhoud. 
+> Beleid voor automatisch labelen op basis van aangepaste typen gevoelige informatie is alleen van toepassing op nieuw gemaakte of gewijzigde inhoud in OneDrive en SharePoint; niet op bestaande inhoud.
 
 ### <a name="configuring-trainable-classifiers-for-a-label"></a>Trainbare classificaties voor een label configureren
 
@@ -194,7 +194,7 @@ Specifiek voor ingebouwd labelen:
 
 - Voor aanbevolen labels in de desktopversies van Word wordt de vertrouwelijke inhoud die de aanbeveling heeft geactiveerd, gemarkeerd, zodat gebruikers de gevoelige inhoud kunnen beoordelen en verwijderen in plaats van het aanbevolen vertrouwelijkheidslabel toe te passen.
 
-- Zie [Automatisch vertrouwelijkheidslabels toepassen op of aanbevelen voor uw bestanden en e-mailberichten in Office](https://support.office.com/nl-NL/article/automatically-apply-or-recommend-sensitivity-labels-to-your-files-and-emails-in-office-622e0d9c-f38c-470a-bcdb-9e90b24d71a1) voor meer informatie over hoe deze labels worden toegepast in Office-apps, voorbeelden van schermafbeeldingen en hoe vertrouwelijke informatie wordt gedetecteerd.
+- Zie [Automatisch vertrouwelijkheidslabels toepassen op of aanbevelen voor uw bestanden en e-mailberichten in Office](https://support.office.com/en-us/article/automatically-apply-or-recommend-sensitivity-labels-to-your-files-and-emails-in-office-622e0d9c-f38c-470a-bcdb-9e90b24d71a1) voor meer informatie over hoe deze labels worden toegepast in Office-apps, voorbeelden van schermafbeeldingen en hoe vertrouwelijke informatie wordt gedetecteerd.
 
 Specifiek voor de geïntegreerde Azure Information Protection-labelclient:
 
@@ -206,7 +206,7 @@ Specifiek voor de geïntegreerde Azure Information Protection-labelclient:
 
 ## <a name="how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange"></a>Beleid configureren voor automatisch labelen voor SharePoint, OneDrive en Exchange.
 
-Zorg ervoor dat u op de hoogte bent van de vereisten voordat u beleid voor automatisch labelen configureert. 
+Zorg ervoor dat u op de hoogte bent van de vereisten voordat u beleid voor automatisch labelen configureert.
 
 ### <a name="prerequisites-for-auto-labeling-policies"></a>Vereisten voor beleid voor automatisch labelen
 
@@ -218,7 +218,7 @@ Zorg ervoor dat u op de hoogte bent van de vereisten voordat u beleid voor autom
     - U hebt [vertrouwelijkheidslabels ingeschakeld voor Office-bestanden in SharePoint en OneDrive](sensitivity-labels-sharepoint-onedrive-files.md).
     - Op het moment dat het beleid voor automatisch labelen wordt uitgevoerd, mag het bestand niet zijn geopend door een ander proces of een andere gebruiker. Een bestand dat is uitgecheckt voor bewerking, valt in deze categorie.
 
-- Als u van plan bent om [aangepaste typen gevoelige informatie](sensitive-information-type-learn-about.md) te gebruiken in plaats van de ingebouwde vertrouwelijkheidstypen: 
+- Als u van plan bent om [aangepaste typen gevoelige informatie](sensitive-information-type-learn-about.md) te gebruiken in plaats van de ingebouwde vertrouwelijkheidstypen:
     - Aangepaste typen vertrouwelijkheidsinformatie zijn alleen van toepassing op inhoud die wordt toegevoegd of gewijzigd in SharePoint of OneDrive nadat de aangepaste typen vertrouwelijkheidsinformatie zijn opgelegd.
     - Als u nieuwe aangepaste typen gevoelige informatie wilt testen, maakt u deze voordat u het beleid voor automatisch labelen maakt. Vervolgens maakt u nieuwe documenten met voorbeeldgegevens om te testen.
 
@@ -254,42 +254,42 @@ Ten slotte kunt u de simulatiemodus gebruiken om bij benadering de tijdsduur voo
 ### <a name="creating-an-auto-labeling-policy"></a>Beleid voor automatisch labelen maken
 
 1. Ga in het [Microsoft 365-compliancecentrum](https://compliance.microsoft.com/) naar vertrouwelijkheidslabels:
-    
+
     - **Oplossingen** > **Informatiebescherming**
-    
+
     Als u deze optie niet meteen ziet, selecteert u eerst **Alles weergeven**.
 
 2. Selecteer het tabblad **Automatisch labelen**:
-    
+
     ![Tabblad Automatisch labelen](../media/auto-labeling-tab.png)
-    
+
     > [!NOTE]
     > Als u het tabblad **Automatisch labelen** niet ziet, is deze functionaliteit momenteel niet beschikbaar in uw regio.
 
 3. Selecteer **+ Beleid voor automatisch labelen maken**. Hiermee wordt de wizard Nieuw beleid gestart:
-    
-    ![Wizard Nieuw beleid voor automatisch labelen ](../media/auto-labeling-wizard.png)
+
+    ![Wizard Nieuw beleid voor automatisch labelen](../media/auto-labeling-wizard.png)
 
 4. Voor de pagina **Informatie kiezen waarop u dit label wilt toepassen**: selecteer een van de sjablonen, bijvoorbeeld **Financieel** of **Privacy**. U kunt uw zoekopdracht verfijnen met behulp van het vervolgkeuzemenu **Opties weergeven voor**. Of selecteer **Aangepast beleid** als de sjablonen niet aan uw vereisten voldoen. Selecteer **Volgende**.
 
 5. Voor de pagina **Uw beleid voor automatisch labelen een naam geven**: geef een unieke naam op en eventueel een beschrijving om het automatisch toegepaste label te herkennen. Geef ook locaties en voorwaarden op waarmee de te labelen inhoud kan worden herkend.
 
 6. Voor de pagina **Locaties kiezen waarop u het label wilt toepassen**: selecteer locaties voor Exchange, SharePoint-sites en OneDrive en geef deze op. Selecteer **Volgende**.
-    
-    ![Pagina Locaties kiezen voor de wizard voor automatisch labelen ](../media/locations-auto-labeling-wizard.png)
-    
+
+    ![Pagina Locaties kiezen voor de wizard voor automatisch labelen](../media/locations-auto-labeling-wizard.png)
+
     U moet afzonderlijke SharePoint-sites en OneDrive-accounts opgeven. Voor OneDrive heeft de URL van het OneDrive-account van een gebruiker de volgende indeling: `https://<tenant name>-my.sharepoint.com/personal/<user_name>_<tenant name>_com`
-    
+
     Bijvoorbeeld voor een gebruiker in de contoso-tenant met de gebruikersnaam rismone: `https://contoso-my.sharepoint.com/personal/rsimone_contoso_onmicrosoft_com`
-    
+
     Zie [Een lijst met alle OneDrive-URL's van gebruikers in uw organisatie ophalen](/onedrive/list-onedrive-urls) om de syntaxis voor uw tenant te verifiëren en URL's voor gebruikers te identificeren.
 
 7. Voor de pagina **Algemene of geavanceerde regels instellen** : behoud de standaardinstelling **Algemene regels** voor het definiëren van regels die inhoud herkennen die in alle geselecteerde locaties moet worden gelabeld. Als u verschillende regels per locatie nodig hebt, selecteert u **Geavanceerde regels**. Selecteer **Volgende**.
-    
+
     De regels maken gebruik van voorwaarden die typen gevoelige informatie en opties voor delen omvatten:
     - Voor typen gevoelige informatie kunt u zowel ingebouwde als aangepaste typen gevoelige informatie selecteren.
     - Voor de opties voor delen kunt u kiezen voor **alleen met personen binnen mijn organisatie** of **met personen buiten mijn organisatie**.
-    
+
     Als uw enige locatie **Exchange** of als u **Geavanceerde regels** selecteert, zijn er aanvullende voorwaarden die u kunt selecteren:
     - IP-adres van afzender is
     - Domein van ontvanger is
@@ -306,19 +306,19 @@ Ten slotte kunt u de simulatiemodus gebruiken om bij benadering de tijdsduur voo
     - Domein van afzender is
     - De ontvanger is lid van
     - Afzender is
-    
+
     Voor elk van deze voorwaarden kunt u vervolgens uitzonderingen opgeven.
-    
+
 8. Afhankelijk van uw vorige keuzes hebt u nu de mogelijkheid nieuwe regels te maken aan de hand van voorwaarden en uitzonderingen.
-    
+
     De configuratieopties voor typen gevoelige informatie zijn dezelfde als de opties die u selecteert voor automatisch labelen voor Office-apps. Zie [Typen gevoelige informatie voor een label configureren](#configuring-sensitive-info-types-for-a-label) voor meer informatie.
-    
+
     Wanneer u alle regels hebt gedefinieerd die u nodig hebt en de status hebt bevestigd, selecteert u **Volgende** om een volgend label te kiezen dat u automatisch wilt toepassen.
 
 11. Voor de pagina **Een label kiezen om automatisch toe te passen**: selecteer **+ Label kiezen**, selecteer een label in het deelvenster **Vertrouwelijkheidslabel kiezen** en selecteer vervolgens **Volgende**.
 
-12. Voor de pagina **Bepalen of u het beleid nu of later wilt testen**: selecteer **Beleid uitvoeren in simulatiemodus** als u het beleid voor automatisch labelen nu in de simulatiemodus wilt uitvoeren. Of anders selecteert u **Beleid uitgeschakeld laten**. Selecteer **Volgende**: 
-    
+12. Voor de pagina **Bepalen of u het beleid nu of later wilt testen**: selecteer **Beleid uitvoeren in simulatiemodus** als u het beleid voor automatisch labelen nu in de simulatiemodus wilt uitvoeren. Of anders selecteert u **Beleid uitgeschakeld laten**. Selecteer **Volgende**:
+
     ![De wizard voor het beleid voor automatisch labelen testen](../media/simulation-mode-auto-labeling-wizard.png)
 
 13. Voor de pagina **Overzicht**: controleer de configuratie van uw beleid voor automatisch labelen, breng eventueel wijzigingen aan en voltooi de wizard.
@@ -330,9 +330,9 @@ U kunt uw beleid rechtstreeks wijzigen vanuit deze interface:
 - Voor een beleidsregel in de sectie **Uit** selecteert u knop **Beleidsregel bewerken**.
 
 - Voor een beleidsregel in de sectie **Simulatie** selecteert u boven aan de pagina, op een van beide tabbladen, de optie **Beleidsregel bewerken**:
-    
+
     ![Optie voor beleid voor automatisch labelen bewerken](../media/auto-labeling-edit.png)
-    
+
     Wanneer u klaar bent om het beleid zonder simulatie uit te voeren, selecteert u de optie **Beleid inschakelen**.
 
 Uw beleidsregels voor automatisch labelen worden continu uitgevoerd totdat ze worden verwijderd. Zo worden nieuwe en gewijzigde documenten opgenomen in de huidige beleidsinstellingen.
@@ -350,12 +350,12 @@ U kunt [Beveiligings- en compliancecentrum PowerShell](/powershell/exchange/scc-
 
 Voordat u de opdrachten in PowerShell kunt uitvoeren, moet u eerst [verbinding maken met het Beveiligings- en compliancecentrum PowerShell](/powershell/exchange/connect-to-scc-powershell).
 
-Nieuw beleid voor automatisch labelen maken: 
+Nieuw beleid voor automatisch labelen maken:
 
 ```powershell
 New-AutoSensitivityLabelPolicy -Name <AutoLabelingPolicyName> -SharePointLocation "<SharePointSiteLocation>" -ApplySensitivityLabel <Label> -Mode TestWithoutNotifications
 ```
-Met deze opdracht maakt u een beleid voor automatisch labelen voor een SharePoint-site die u opgeeft. Voor een OneDrive-locatie gebruikt u echter de parameter *OneDriveLocation*. 
+Met deze opdracht maakt u een beleid voor automatisch labelen voor een SharePoint-site die u opgeeft. Voor een OneDrive-locatie gebruikt u echter de parameter *OneDriveLocation*.
 
 Extra sites toevoegen aan bestaand beleid voor automatisch labelen:
 
@@ -389,11 +389,11 @@ Zie de volgende help voor cmdlets voor meer informatie over de PowerShell-cmdlet
 Hoewel automatisch labelen een van de meest efficiënte manieren is om Office-bestanden waarvan uw organisatie eigenaar is te classificeren, labelen en beveiligen, controleer of u deze kunt aanvullen met een van de aanvullende methoden om uw labelbereik te vergroten:
 
 - Als u de geïntegreerde [Azure Information Protection-labelclient](/azure/information-protection/rms-client/aip-clientv2) gebruikt:
-    
+
     - Voor bestanden in on-premises gegevensarchieven, zoals netwerkshares en SharePoint Server-bibliotheken: gebruik de [scanner](/azure/information-protection/deploy-aip-scanner) om gevoelige informatie in deze bestanden te ontdekken en deze op de juiste wijze te labelen. Als u van plan bent om deze bestanden te migreren of uploaden naar SharePoint in Microsoft 365, gebruikt u de scanner om de bestanden te labelen voordat u ze naar de cloud verplaatst.
-    
+
     - Als u een andere labeloplossing hebt gebruikt voordat u vertrouwelijkheidslabels gebruikt: gebruik PowerShell en [een geavanceerde instelling om labels opnieuw te gebruiken](/azure/information-protection/rms-client/clientv2-admin-guide-customizations#migrate-labels-from-secure-islands-and-other-labeling-solutions) uit deze oplossingen.
 
-- Stimuleer [handmatig labelen](https://support.microsoft.com/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9) nadat u gebruikers hebt getraind welke vertrouwelijkheidslabels moeten worden toegepast. Wanneer u zeker weet dat gebruikers begrijpen welk label ze moeten toepassen, kunt u overwegen om een standaardlabel en verplicht labelen te configureren als [beleidsinstellingen](sensitivity-labels.md#what-label-policies-can-do). 
+- Stimuleer [handmatig labelen](https://support.microsoft.com/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9) nadat u gebruikers hebt getraind welke vertrouwelijkheidslabels moeten worden toegepast. Wanneer u zeker weet dat gebruikers begrijpen welk label ze moeten toepassen, kunt u overwegen om een standaardlabel en verplicht labelen te configureren als [beleidsinstellingen](sensitivity-labels.md#what-label-policies-can-do).
 
 U kunt ook [nieuwe bestanden standaard markeren als gevoelig](/sharepoint/sensitive-by-default) in SharePoint om te voorkomen dat gasten toegang krijgen tot nieuw toegevoegde bestanden totdat ten minste één DLP-beleidsregel de inhoud van het bestand scant.

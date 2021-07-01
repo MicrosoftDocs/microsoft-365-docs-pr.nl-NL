@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 'Microsoft 365 Preventie van gegevensverlies voor eindpunten breidt de controle van bestandsactiviteiten en beschermende maatregelen uit voor deze bestanden naar eindpunten. Bestanden worden zichtbaar gemaakt in de compliance-oplossingen van Microsoft 365 '
-ms.openlocfilehash: b5aa6c737bc54129ce49378a7dcaf81e9d5c612f
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 39474f54440ba33c8d7140981c1495a5c46bf0fc
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52162898"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226681"
 ---
 # <a name="learn-about-microsoft-365-endpoint-data-loss-prevention"></a>Meer informatie over Microsoft 365 Eindpunt-DLP
 
@@ -34,7 +34,7 @@ U kunt preventie van gegevensverlies van Microsoft 365 (DLP) gebruiken om te con
 
 ## <a name="endpoint-activities-you-can-monitor-and-take-action-on"></a>EIndpuntactiviteiten die u kunt controleren en waarvoor u maatregelen kunt nemen
 
-Met Microsoft Endpoint DLP kunt u de typen activiteiten die gebruikers uitvoeren op vertrouwelijke items, controleren en beheren op apparaten met Windows 10. 
+Met Microsoft Endpoint DLP kunt u de typen activiteiten die gebruikers uitvoeren op vertrouwelijke items, controleren en beheren op apparaten met Windows 10.
 
 |Activiteit |Omschrijving  | Controleerbaar/beperkbaar|
 |---------|---------|---------|
@@ -48,7 +48,7 @@ Met Microsoft Endpoint DLP kunt u de typen activiteiten die gebruikers uitvoeren
 |een item aanmaken|Detecteert wanneer een gebruiker een item maakt| controleerbaar|
 |een item hernoemen|Detecteert wanneer een gebruiker de naam van een item wijzigt| controleerbaar|
 
- ## <a name="monitored-files"></a>Bewaakte bestanden
+## <a name="monitored-files"></a>Bewaakte bestanden
 
 Endpoint DLP ondersteunt de controle van deze bestandstypen:
 
@@ -66,10 +66,10 @@ Endpoint DLP ondersteunt de controle van deze bestandstypen:
 - .cs-bestanden
 - .h-bestanden
 - .java-bestanden
- 
+
 Standaard worden de activiteiten voor deze bestandstypen door Endpoint DLP gecontroleerd, zelfs als er geen overeenkomstig beleid is. Als u enkel de gegevens wilt controleren waarvoor overeenkomstig beleid bestaat, kunt u **Bestandsactiviteit altijd controleren voor apparaten** uitschakelen in de globale instellingen voor Endpoint DLP. Als deze instelling is ingeschakeld, worden activiteiten met alle Word-, PowerPoint-, Excel-, PDF- en CSV-bestanden altijd gecontroleerd, zelfs als het apparaat niet aan een beleid is onderworpen.
 
-Endpoint DLP bewaakt activiteit op basis van MIME-type, zodat er zelfs activiteiten worden vastgelegd als de bestandsextensie wordt gewijzigd. 
+Endpoint DLP bewaakt activiteit op basis van MIME-type, zodat er zelfs activiteiten worden vastgelegd als de bestandsextensie wordt gewijzigd.
 
 ## <a name="whats-different-in-endpoint-dlp"></a>Wat is er nieuw in Endpoint DLP
 
@@ -153,8 +153,8 @@ Als een bestand bijvoorbeeld is gekopieerd naar een verwisselbaar USB-medium, zi
 
 Nu u meer weet over Endpoint DLP, gaat u als volgt te werk:
 
-1) [Aan de slag met preventie van gegevensverlies in Microsoft Endpoint ](endpoint-dlp-getting-started.md)
-2) [Eindpunt-DLP gebruiken](endpoint-dlp-using.md)
+1. [Aan de slag met Microsoft Eindpunt-DLP](endpoint-dlp-getting-started.md)
+2. [Eindpunt-DLP gebruiken](endpoint-dlp-using.md)
 
 ## <a name="see-also"></a>Zie ook
 

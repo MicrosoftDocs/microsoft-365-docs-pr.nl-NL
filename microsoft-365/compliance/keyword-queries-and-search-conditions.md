@@ -21,17 +21,17 @@ search.appverid:
 ms.assetid: c4639c2e-7223-4302-8e0d-b6e10f1c3be3
 ms.custom:
 - seo-marvel-apr2020
-description: Meer informatie over e-mail- en bestandseigenschappen die u kunt zoeken met behulp van de eDiscovery-zoekhulpmiddelen in Microsoft 365.
-ms.openlocfilehash: 390477012c6a2a57c5e305641ba5b79ff10f4ea7
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+description: Meer informatie over e-mail- en documenteigenschappen die u kunt zoeken met behulp van de eDiscovery-zoekhulpmiddelen in Microsoft 365.
+ms.openlocfilehash: bb87125b8cb4091121c6a389bcba8d69be7cc71e
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538433"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226357"
 ---
 # <a name="keyword-queries-and-search-conditions-for-ediscovery"></a>Trefwoordquery's en zoekvoorwaarden voor eDiscovery
 
-In dit onderwerp worden de e-mail- en documenteigenschappen beschreven die u kunt zoeken in e-mailitems en Microsoft Teams chatgesprekken in Exchange Online en documenten die zijn opgeslagen op SharePoint- en OneDrive voor Bedrijven-sites met behulp van de eDiscovery-zoekhulpmiddelen in het Microsoft 365-compliancecentrum. Dit omvat inhoud zoeken, Core eDiscovery en Advanced eDiscovery (eDiscovery-zoekopdrachten in Advanced eDiscovery worden verzamelingen *genoemd).* U kunt ook de **\* cmdlets -ComplianceSearch** in Security & Compliance Center PowerShell gebruiken om naar deze eigenschappen te zoeken. In het onderwerp wordt ook beschreven:
+In dit onderwerp worden de e-mail- en documenteigenschappen beschreven die u kunt zoeken in e-mailitems en Microsoft Teams chatgesprekken in Exchange Online, en documenten die zijn opgeslagen op SharePoint- en OneDrive voor Bedrijven-sites met behulp van de eDiscovery-zoekhulpmiddelen in de Microsoft 365-compliancecentrum. Dit omvat inhoud zoeken, Core eDiscovery en Advanced eDiscovery (eDiscovery-zoekopdrachten in Advanced eDiscovery worden verzamelingen *genoemd).* U kunt ook de **\* cmdlets -ComplianceSearch** in Security & Compliance Center PowerShell gebruiken om naar deze eigenschappen te zoeken. In het onderwerp wordt ook beschreven:
   
 - Gebruik Booleaanse zoekoperatoren, zoekvoorwaarden en andere zoekquerytechnieken om uw zoekresultaten te verfijnen.
 
@@ -48,11 +48,11 @@ Zie voor stapsgewijs instructies over het maken van verschillende eDiscovery-zoe
 - [Een conceptverzameling maken in Advanced eDiscovery](create-draft-collection.md)
 
 > [!NOTE]
-> eDiscovery zoekt in het Microsoft 365 compliancecentrum en de bijbehorende **\* cmdlets ComplianceSearch** in Security & Compliance Center PowerShell gebruiken de Keyword Query Language (KQL). Zie Verwijzing naar de syntaxis [van de trefwoordquerytaal voor](/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference)meer informatie.
+> eDiscovery zoekt in de Microsoft 365-compliancecentrum en de bijbehorende **\* -ComplianceSearch-cmdlets** in Security & Compliance Center PowerShell gebruiken de Keyword Query Language (KQL). Zie Verwijzing naar de syntaxis [van de trefwoordquerytaal voor](/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference)meer informatie.
   
 ## <a name="searchable-email-properties"></a>Doorzoekbare e-maileigenschappen
 
-De volgende tabel bevat eigenschappen van **e-mailberichten** die kunnen worden doorzocht met behulp van de eDiscovery-zoekhulpmiddelen in het Microsoft 365-compliancecentrum of met de cmdlet Nieuw complianceonderzoek of de cmdlet **Set-ComplianceSearch.** De tabel bevat een voorbeeld van de  _syntaxis van eigenschap:waarde_ voor elke eigenschap en een beschrijving van de zoekresultaten die door de voorbeelden worden geretourneerd. U kunt deze paren typen in het  `property:value` vak Trefwoorden voor een eDiscovery-zoekopdracht. 
+De volgende tabel bevat eigenschappen van **e-mailberichten** die kunnen worden doorzocht met behulp van de eDiscovery-zoekhulpmiddelen in de Microsoft 365-compliancecentrum of met de cmdlet Nieuw complianceonderzoek of de cmdlet **Set-ComplianceSearch.** De tabel bevat een voorbeeld van de  _syntaxis van eigenschap:waarde_ voor elke eigenschap en een beschrijving van de zoekresultaten die door de voorbeelden worden geretourneerd. U kunt deze paren typen in het  `property:value` vak Trefwoorden voor een eDiscovery-zoekopdracht. 
 
 > [!NOTE]
 > Bij het zoeken naar e-maileigenschappen is het niet mogelijk om te zoeken naar items waarin de opgegeven eigenschap leeg of leeg is. Als u bijvoorbeeld het *eigenschap:waardepaar* **onderwerp:""** gebruikt om te zoeken naar e-mailberichten met een lege onderwerpregel, resulteert dit in nul resultaten. Dit geldt ook voor het zoeken naar site- en contacteigenschappen.
@@ -61,7 +61,7 @@ De volgende tabel bevat eigenschappen van **e-mailberichten** die kunnen worden 
 |:-----|:-----|:-----|:-----|
 |Bijlagenamen|De namen van bestanden die aan een e-mailbericht zijn gekoppeld.|`attachmentnames:annualreport.ppt`  <br/> `attachmentnames:annual*` <br/> `attachmentnames:.pptx` |Berichten met een bijgevoegd bestand met de naam annualreport.ppt. In het tweede voorbeeld retourneert u met het jokerteken ( * ) berichten met het woord 'jaarlijks' in de bestandsnaam van een bijlage. Het derde voorbeeld retourneert alle bijlagen met de pptx-bestandsextensie.|
 |BCC|Het veld BCC van een e-mailbericht. <sup>1</sup>|`bcc:pilarp@contoso.com`  <br/> `bcc:pilarp`  <br/> `bcc:"Pilar Pinilla"`|Alle voorbeelden retourneren berichten met Pilar Pinilla in het veld BCC.|
-|Categorie| De categorieën die u wilt zoeken. Categorieën kunnen worden gedefinieerd door gebruikers met behulp van Outlook of Outlook op het web (voorheen bekend als Outlook Web App). Mogelijke waarden zijn:  <br/><br/>  blauw  <br/>  groen  <br/>  oranje  <br/>  paars  <br/>  rood  <br/>  geel|`category:"Red Category"`|Berichten die de rode categorie in de bronpostvakken hebben gekregen.|
+|Categorie| De categorieën die u wilt zoeken. Categorieën kunnen door gebruikers worden gedefinieerd met Outlook of webversie van Outlook (voorheen bekend als Outlook Web App). Mogelijke waarden zijn:  <br/><br/>  blauw  <br/>  groen  <br/>  oranje  <br/>  paars  <br/>  rood  <br/>  geel|`category:"Red Category"`|Berichten die de rode categorie in de bronpostvakken hebben gekregen.|
 |CC|Het veld CC van een e-mailbericht. <sup>1</sup>|`cc:pilarp@contoso.com`  <br/> `cc:"Pilar Pinilla"`|In beide voorbeelden worden berichten met Pilar Pinilla opgegeven in het veld CC.|
 |Mapid|De map-id (GUID) van een specifieke postvakmap. Als u deze eigenschap gebruikt, moet u zoeken in het postvak waarin de opgegeven map zich bevindt. Alleen de opgegeven map wordt doorzocht. Eventuele submappen in de map worden niet doorzocht. Als u submappen wilt zoeken, moet u de eigenschap Mapid gebruiken voor de submap die u wilt zoeken.  <br/> Zie Inhoud zoeken voor gerichte verzamelingen gebruiken voor meer informatie over het zoeken naar de eigenschap Mapid en het gebruik van een script voor het verkrijgen van de map-ID's voor [een specifiek postvak.](use-content-search-for-targeted-collections.md)|`folderid:4D6DD7F943C29041A65787E30F02AD1F00000000013A0000`  <br/> `folderid:2370FB455F82FC44BE31397F47B632A70000000001160000 AND participants:garthf@contoso.com`|Het eerste voorbeeld retourneert alle items in de opgegeven postvakmap. Het tweede voorbeeld retourneert alle items in de opgegeven postvakmap die zijn verzonden of ontvangen door garthf@contoso.com.|
 |Van|De afzender van een e-mailbericht. <sup>1</sup>|`from:pilarp@contoso.com`  <br/> `from:contoso.com`|Berichten die zijn verzonden door de opgegeven gebruiker of verzonden vanuit een opgegeven domein.|
@@ -149,9 +149,9 @@ De volgende tabel bevat de eigenschappen van contactpersonen die zijn geïndexee
 
 ## <a name="searchable-sensitive-data-types"></a>Doorzoekbare gevoelige gegevenstypen
 
-U kunt eDiscovery-zoekhulpmiddelen in het Microsoft 365-compliancecentrum gebruiken om te zoeken naar gevoelige gegevens, zoals creditcardnummers of socialezekerheidsnummers, die zijn opgeslagen in documenten op SharePoint en OneDrive voor Bedrijven sites. U kunt dit doen met de eigenschap en de naam (of id) van een type gevoelige informatie `SensitiveType` in een trefwoordquery. De query `SensitiveType:"Credit Card Number"` retourneert bijvoorbeeld documenten met een creditcardnummer. De query  `SensitiveType:"U.S. Social Security Number (SSN)"` retourneert documenten met een Amerikaans sociaal-zekerheidsnummer.
+U kunt eDiscovery-zoekhulpmiddelen in de Microsoft 365-compliancecentrum gebruiken om te zoeken naar gevoelige gegevens, zoals creditcardnummers of socialezekerheidsnummers, die zijn opgeslagen in documenten op SharePoint en OneDrive voor Bedrijven sites. U kunt dit doen met de eigenschap en de naam (of id) van een type gevoelige informatie `SensitiveType` in een trefwoordquery. De query `SensitiveType:"Credit Card Number"` retourneert bijvoorbeeld documenten met een creditcardnummer. De query  `SensitiveType:"U.S. Social Security Number (SSN)"` retourneert documenten met een Amerikaans sociaal-zekerheidsnummer.
 
-Als u een lijst wilt zien met de typen  gevoelige informatie die u kunt zoeken, gaat u naar Gegevensclassificaties \> **Gevoelige informatietypen** in het Microsoft 365 compliancecentrum. U kunt ook de **cmdlet Get-DlpSensitiveInformationType** in Security & Compliance Center PowerShell gebruiken om een lijst met gevoelige informatietypen weer te geven.
+Als u een lijst wilt zien met de typen  gevoelige informatie die u kunt zoeken, gaat u naar Gegevensclassificaties \> **Gevoelige informatietypen** in de Microsoft 365-compliancecentrum. U kunt ook de **cmdlet Get-DlpSensitiveInformationType** in Security & Compliance Center PowerShell gebruiken om een lijst met gevoelige informatietypen weer te geven.
   
 Zie Een query maken om gevoelige gegevens te zoeken die zijn opgeslagen op sites voor meer informatie over het maken van `SensitiveType` [query's met de eigenschap.](form-a-query-to-find-sensitive-data-stored-on-sites.md)
 
@@ -173,7 +173,7 @@ Zie Een query maken om gevoelige gegevens te zoeken die zijn opgeslagen op sites
 
 Booleaanse zoekoperatoren, zoals **EN,** **OF** en **NIET,** helpen u bij het definiëren van nauwkeurigere zoekopdrachten door specifieke woorden in de zoekquery op te geven of uit te sluiten. Andere technieken, zoals het gebruik van eigenschapsoperatoren (zoals of ), aanhalingstekens, haakjes en jokertekens, helpen u bij het verfijnen `>=` `..` van een zoekquery. In de volgende tabel ziet u de operatoren die u kunt gebruiken om zoekresultaten te beperken of te verbreden. 
   
-|Operator |Gebruik |Beschrijving |
+|Operator |Gebruik |Omschrijving |
 |:-----|:-----|:-----|
 |EN|trefwoord1 EN trefwoord2|Retourneert items die alle opgegeven trefwoorden of  `property:value` expressies bevatten. U kunt bijvoorbeeld alle berichten retourneren die zijn verzonden door Ann Beebe met het  `from:"Ann Beebe" AND subject:northwind` woord noordenwind in de onderwerpregel. <sup>2</sup>|
 |+|keyword1 + keyword2 + keyword3|Retourneert items die een *of* `keyword2` meer items `keyword3` *bevatten* en die ook `keyword1` .   Daarom is dit voorbeeld gelijk aan de query  `(keyword2 OR keyword3) AND keyword1` .  <br/> De query `keyword1 + keyword2` (met een spatie na het symbool) is niet hetzelfde als het gebruik **+** van de operator **AND.** Deze query zou gelijk zijn aan en `"keyword1 + keyword2"` items met de exacte fase retourneren. `"keyword1 + keyword2"`|
@@ -216,7 +216,7 @@ U kunt voorwaarden toevoegen aan een zoekquery om een zoekopdracht te verfijnen 
 
 Maak een voorwaarde met algemene eigenschappen bij het zoeken naar postvakken en sites in dezelfde zoekopdracht. In de volgende tabel worden de beschikbare eigenschappen vermeld die u kunt gebruiken bij het toevoegen van een voorwaarde.
   
-| Voorwaarde | Beschrijving |
+| Voorwaarde | Omschrijving |
 |:-----|:-----|
 |Datum|Voor e-mail is de datum waarop een bericht is ontvangen door een geadresseerde of verzonden door de afzender. Voor documenten is de datum waarop een document voor het laatst is gewijzigd.|
 |Afzender/auteur|Voor e-mail, de persoon die een bericht heeft verzonden. Voor documenten, de persoon die in het auteursveld wordt geciteerd uit Office documenten. U kunt meerdere namen typen, gescheiden door komma's. Twee of meer waarden zijn logisch verbonden door de **operator OF.**|
@@ -229,7 +229,7 @@ Maak een voorwaarde met algemene eigenschappen bij het zoeken naar postvakken en
 
 Maak een voorwaarde met behulp van e-maileigenschappen bij het zoeken naar postvakken of openbare mappen. De volgende tabel bevat de e-maileigenschappen die u kunt gebruiken voor een voorwaarde. Deze eigenschappen zijn een subset van de e-maileigenschappen die eerder zijn beschreven. Deze beschrijvingen worden voor uw gemak herhaald.
   
-| Voorwaarde | Beschrijving |
+| Voorwaarde | Omschrijving |
 |:-----|:-----|
 |Type bericht| Het berichttype dat u wilt zoeken. Dit is dezelfde eigenschap als de eigenschap E-mail kind. Mogelijke waarden:  <br/><br/>  contactpersonen  <br/>  docs  <br/>  e-mail  <br/>  externe gegevens  <br/>  faxen  <br/>  im  <br/>  dagboeken  <br/>  vergaderingen  <br/>  microsoftteams  <br/>  notities  <br/>  berichten  <br/>  rssfeeds  <br/>  taken  <br/>  voicemail|
 |Deelnemers|Alle personenvelden in een e-mailbericht. Deze velden zijn Van, Aan, CC en BCC.|
@@ -246,20 +246,20 @@ Maak een voorwaarde met behulp van e-maileigenschappen bij het zoeken naar postv
 
 Maak een voorwaarde met behulp van documenteigenschappen bij het zoeken naar documenten op SharePoint en OneDrive voor Bedrijven sites. De volgende tabel bevat de documenteigenschappen die u kunt gebruiken voor een voorwaarde. Deze eigenschappen zijn een subset van de site-eigenschappen die eerder zijn beschreven. Deze beschrijvingen worden voor uw gemak herhaald.
   
-| Voorwaarde | Beschrijving |
+| Voorwaarde | Omschrijving |
 |:-----|:-----|
 |Auteur|Het auteursveld van Office documenten, dat blijft bestaan als een document wordt gekopieerd. Als een gebruiker bijvoorbeeld een document maakt en de e-mailberichten naar iemand anders die het vervolgens uploadt naar SharePoint, blijft de oorspronkelijke auteur behouden.|
 |Title|De titel van het document. De eigenschap Titel is metagegevens die zijn opgegeven in Office documenten. Deze is anders dan de bestandsnaam van het document.|
 |Gemaakt|De datum waarop een document wordt gemaakt.|
 |Laatst gewijzigd|De datum waarop een document voor het laatst is gewijzigd.|
-|Bestandstype|De uitbreiding van een bestand; bijvoorbeeld docx, one, pptx of xlsx. Dit is dezelfde eigenschap als de site-eigenschap FileExtension.|
+|Bestandstype|De uitbreiding van een bestand; bijvoorbeeld docx, one, pptx of xlsx. Dit is dezelfde eigenschap als de site-eigenschap FileExtension. <br/><br/> **Opmerking:** Als u een voorwaarde bestandstype op neemt met behulp van de operator Gelijk aan **of** Gelijk aan een operator in een zoekquery, kunt u geen voorvoegsel zoeken (door het jokerteken ( * ) aan het einde van het bestandstype op te nemen) om alle versies van een bestandstype te retourneren.  Als u dit doet, wordt het jokerteken genegeerd. Als u bijvoorbeeld de voorwaarde op `Equals any of doc*` neemt, worden alleen bestanden met een extensie van `.doc` geretourneerd. Bestanden met een extensie van `.docx` worden niet geretourneerd. Als u alle versies van een bestandstype wilt retourneren, gebruikt u het *eigenschap:waardepaar* in een trefwoordquery. `filetype:doc*`bijvoorbeeld.|
 |||
   
 ### <a name="operators-used-with-conditions"></a>Operatoren die worden gebruikt met voorwaarden
 
 Wanneer u een voorwaarde toevoegt, kunt u een operator selecteren die relevant is voor het type eigenschap voor de voorwaarde. In de volgende tabel worden de operatoren beschreven die worden gebruikt met voorwaarden en wordt het equivalent vermeld dat wordt gebruikt in de zoekquery.
   
-| Operator | Query-equivalent | Beschrijving |
+| Operator | Query-equivalent | Omschrijving |
 |:-----|:-----|:-----|
 |Na|`property>date`|Gebruikt met datumvoorwaarden. Retourneert items die na de opgegeven datum zijn verzonden, ontvangen of gewijzigd.|
 |Vóór|`property<date`|Gebruikt met datumvoorwaarden. Retourneert items die vóór de opgegeven datum zijn verzonden, ontvangen of gewijzigd.|
@@ -283,21 +283,21 @@ Wanneer u een voorwaarde toevoegt, kunt u een operator selecteren die relevant i
 
 Houd rekening met het volgende bij het gebruik van zoekvoorwaarden.
   
-- Een voorwaarde is logisch verbonden met de trefwoordquery (opgegeven in het trefwoordvak) door de **operator AND.** Dit betekent dat items moeten voldoen aan zowel de trefwoordquery als de voorwaarde die in de resultaten moet worden opgenomen. Op die manier kunt u door middel van voorwaarden de resultaten beperken. 
-    
-- Als u twee of meer unieke voorwaarden toevoegt aan een zoekquery (voorwaarden die verschillende eigenschappen opgeven), worden deze voorwaarden logisch verbonden door de **operator AND.** Dat betekent dat alleen items die voldoen aan alle voorwaarden (naast een trefwoordquery) worden geretourneerd. 
-    
+- Een voorwaarde is logisch verbonden met de trefwoordquery (opgegeven in het trefwoordvak) door de **operator AND.** Dit betekent dat items moeten voldoen aan zowel de trefwoordquery als de voorwaarde die in de resultaten moet worden opgenomen. Op die manier kunt u door middel van voorwaarden de resultaten beperken.
+  
+- Als u twee of meer unieke voorwaarden toevoegt aan een zoekquery (voorwaarden die verschillende eigenschappen opgeven), worden deze voorwaarden logisch verbonden door de **operator AND.** Dat betekent dat alleen items die voldoen aan alle voorwaarden (naast een trefwoordquery) worden geretourneerd.
+  
 - Als u meer dan één voorwaarde toevoegt voor dezelfde eigenschap, worden deze voorwaarden logisch verbonden door de **operator OF.** Dit betekent dat items die voldoen aan de trefwoordquery en een van de voorwaarden worden geretourneerd. Groepen met dezelfde voorwaarden worden dus met elkaar verbonden door de **operator OF** en vervolgens worden sets met unieke voorwaarden verbonden door de **operator AND.** 
-    
+  
 - Als u meerdere waarden (gescheiden door komma's of puntma's) toevoegt aan één voorwaarde, worden deze waarden verbonden door de **operator OF.** Dit betekent dat items worden geretourneerd als ze een van de opgegeven waarden voor de eigenschap in de voorwaarde bevatten. 
-    
-- De zoekquery die wordt gemaakt met behulp van het  vak trefwoorden en de voorwaarden, wordt weergegeven op de pagina Zoeken, in het detailvenster voor de geselecteerde zoekopdracht. In een query geeft alles rechts van de notatie voorwaarden aan  `(c:c)` die aan de query worden toegevoegd. 
-    
-- Voorwaarden voegen alleen eigenschappen toe aan de zoekquery. de operatoren niet toevoegen. Daarom worden in de query die in het detailvenster wordt weergegeven, geen operatoren rechts van de  `(c:c)` notatie weergegeven. KQL voegt de logische operatoren toe (volgens de eerder uitgelegde regels) wanneer de query wordt uitgevoerd. 
-    
+  
+- De zoekquery die wordt gemaakt met behulp van het  vak trefwoorden en de voorwaarden, wordt weergegeven op de pagina Zoeken, in het detailvenster voor de geselecteerde zoekopdracht. In een query geeft alles rechts van de notatie voorwaarden aan  `(c:c)` die aan de query worden toegevoegd.
+  
+- Voorwaarden voegen alleen eigenschappen toe aan de zoekquery. de operatoren niet toevoegen. Daarom worden in de query die in het detailvenster wordt weergegeven, geen operatoren rechts van de  `(c:c)` notatie weergegeven. KQL voegt de logische operatoren toe (volgens de eerder uitgelegde regels) wanneer de query wordt uitgevoerd.
+  
 - U kunt het besturingselement Slepen en neerzetten gebruiken om de volgorde van de voorwaarden te herstellen. Klik op het besturingselement voor een voorwaarde en verplaats het naar boven of omlaag.
-    
-- Zoals eerder is uitgelegd, kunt u met bepaalde eigenschappen van de voorwaarde meerdere waarden typen (gescheiden door punt-dubbele punt). Elke waarde is logisch verbonden door de **operator OF** en resulteert in de `(filetype:docx) OR (filetype:pptx) OR (filetype:xlsx)` query. In de volgende afbeelding ziet u een voorbeeld van een voorwaarde met meerdere waarden.
+  
+- Zoals eerder is uitgelegd, kunt u met bepaalde eigenschappen van de voorwaarde meerdere waarden typen (gescheiden door punt-dubbele punt). Elke waarde is logisch verbonden door de **operator OF** en resulteert in de `(filetype=docx) OR (filetype=pptx) OR (filetype=xlsx)` query. In de volgende afbeelding ziet u een voorbeeld van een voorwaarde met meerdere waarden.
 
     ![Eén voorwaarde met meerdere waarden](../media/SearchConditions1.png)
   

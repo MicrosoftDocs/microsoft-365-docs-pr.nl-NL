@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Gebruik de ingebouwde basismobiliteit en beveiliging om gegevens van geregistreerde apparaten te verwijderen.
-ms.openlocfilehash: 8c873923505fe527f5a44df0e8b15d290e92023b
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: c3cc547ce5e135ccdabf9a09b0d572f1b2530f47
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706140"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228145"
 ---
 # <a name="wipe-a-mobile-device-in-basic-mobility-and-security"></a>Een mobiel apparaat wissen in Basismobiliteit en Beveiliging
 
@@ -45,7 +45,7 @@ Mobiele apparaten kunnen gevoelige organisatiegegevens opslaan en toegang bieden
 
 ## <a name="wipe-a-mobile-device"></a>Een mobiel apparaat wissen
 
-1. Ga naar het [Microsoft 365 beheercentrum.](../../admin/admin-overview/about-the-admin-center.md)
+1. Ga naar de [Microsoft 365-beheercentrum.](../../admin/admin-overview/about-the-admin-center.md)
 
 2. Typ Mobile Device Management in het zoekveld en selecteer **Mobile Device Management** in de lijst met resultaten.
 
@@ -86,5 +86,6 @@ Het wissen wordt direct naar het mobiele apparaat verzonden en het apparaat is g
 |Microsoft 365 app-gegevens worden gewist als het apparaat is beveiligd door intune App Protection-beleid. De apps worden niet verwijderd. Voor apparaten die niet zijn beveiligd door MAM-beleid (Mobile Application Management), worden Outlook en OneDrive gegevens in de cache niet verwijderd.<br/>**Opmerking** Voor het toepassen van Intune App-beveiligingsbeleid moet u een Intune-licentie hebben.|Ja|Ja|
 |Beleidsinstellingen die door Basismobiliteit en Beveiliging worden toegepast op apparaten, worden niet meer afgedwongen. gebruikers kunnen de instellingen wijzigen.|Ja|Ja|
 |E-mailprofielen die zijn gemaakt door Basismobiliteit en Beveiliging worden verwijderd en e-mail in de cache op het apparaat wordt verwijderd.|Ja|N.v.t.|
->[!NOTE]
->Bedrijfsportal app is beschikbaar in de App Store voor iOS en de Play Store voor Android-apparaten.
+
+> [!NOTE]
+> Bedrijfsportal app is beschikbaar in de App Store voor iOS en de Play Store voor Android-apparaten.

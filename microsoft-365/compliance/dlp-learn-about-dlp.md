@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Lees hoe u uw gevoelige informatie kunt beveiligen met Microsoft 365 beleid en hulpprogramma's voor preventie van gegevensverlies en een rondleiding kunt volgen door de DLP-levenscyclus.
-ms.openlocfilehash: 9b449886e0856f7407fcd49b83192dd0c01474bd
-ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
+ms.openlocfilehash: 291a9ab09d14e24d58604644d77381d7f41214d6
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53108257"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226849"
 ---
 # <a name="learn-about-data-loss-prevention"></a>Meer informatie over preventie van gegevensverlies
 
@@ -35,7 +35,7 @@ In Microsoft 365 implementeert u preventie van gegevensverlies door DLP-beleid t
 - on-premises bestandsaandelen en on-premises SharePoint.
 
 Microsoft 365 detecteert gevoelige items met behulp van diepgaande inhoudsanalyse, niet alleen door een eenvoudige tekstscan. Inhoud wordt geanalyseerd op primaire gegevens die overeenkomen met trefwoorden, door de evaluatie van reguliere expressies, door interne functievalidatie en door secundaire gegevensmatchen die zich in de nabijheid van de primaire gegevensmatch bevinden. Daarnaast gebruikt DLP ook algoritmen voor machine learning en andere methoden om inhoud te detecteren die overeenkomt met uw DLP-beleid.
-  
+
 ## <a name="dlp-is-part-of-the-larger-microsoft-365-compliance-offering"></a>DLP maakt deel uit van het grotere Microsoft 365 Compliance-aanbod
 
 Microsoft 365 DLP is slechts een van de Microsoft 365 compliancehulpmiddelen die u gebruikt om uw gevoelige items te beschermen, waar ze ook wonen of reizen. U moet de andere hulpprogramma's in de Microsoft 365 compliancehulpprogramma's begrijpen, hoe ze met elkaar verwisseld zijn en beter samenwerken.  Zie de [Microsoft 365 voor meer](protect-information.md) informatie over het informatiebeveiligingsproces.
@@ -69,7 +69,7 @@ Microsoft 365 DLP-monitoring en -beveiliging zijn inheems in de toepassingen die
 
 **Technologieplanning voor DLP**
 
-Houd er rekening mee dat DLP als technologie uw gegevens in rust kan bewaken en beveiligen, gegevens in gebruik en gegevens die in beweging zijn op Microsoft 365-services, Windows 10-apparaten, on-premises bestandsaandelen en on-premises SharePoint. Er zijn plannings implicaties voor de verschillende locaties, het type gegevens dat u wilt bewaken en beveiligen en de acties die moeten worden ondernomen wanneer een beleidsmatch plaatsvindt.  
+Houd er rekening mee dat DLP als technologie uw gegevens in rust kan bewaken en beveiligen, gegevens in gebruik en gegevens die in beweging zijn op Microsoft 365-services, Windows 10-apparaten, on-premises bestandsaandelen en on-premises SharePoint. Er zijn plannings implicaties voor de verschillende locaties, het type gegevens dat u wilt bewaken en beveiligen en de acties die moeten worden ondernomen wanneer een beleidsmatch plaatsvindt.
 
 **Planning van bedrijfsprocessen voor DLP**
 
@@ -121,7 +121,7 @@ Houd in de testmodus de resultaten van het beleid in de gaten en pas het aan zod
 
 #### <a name="enable-the-control-and-tune-your-policies"></a>Het besturingselement inschakelen en uw beleid afstemmen
 
-Wanneer het beleid aan al uw doelstellingen voldoet, zet u het in. Blijf de resultaten van de beleidstoepassing controleren en zo nodig afstemmen. Over het algemeen worden beleidsregels ongeveer een uur na het in- en uit 
+Wanneer het beleid aan al uw doelstellingen voldoet, zet u het in. Blijf de resultaten van de beleidstoepassing controleren en zo nodig afstemmen. Over het algemeen worden beleidsregels ongeveer een uur na het in- en uit
 
 <!--See, LINK TO topic for SLAs for location specific  details-->
 
@@ -133,7 +133,7 @@ U hebt flexibiliteit in de manier waarop u uw DLP-beleid maakt en configureert. 
     - Een vooraf gedefinieerde beleidssjabloon: Financiële gegevens, medische en gezondheidsgegevens, Privacygegevens voor verschillende landen en regio's.
     - Een aangepast beleid dat gebruikmaakt van de beschikbare gevoelige informatietypen, bewaarlabels en gevoeligheidslabels.
 2. **Kies waar u wilt controleren:** u kiest een of meer locaties waarop U DLP wilt controleren voor gevoelige informatie. U kunt het volgende controleren:
-    
+
 locatie | opnemen/uitsluiten door|
 |---------|---------|
 |Exchange-e-mail| distributiegroepen|
@@ -154,7 +154,7 @@ locatie | opnemen/uitsluiten door|
 
 - SharePoint/Exchange/OneDrive: Blokkeren dat personen buiten uw organisatie toegang hebben tot de inhoud. Laat de gebruiker een tip zien en stuur hem of haar een e-mailmelding dat hij of zij een actie onderneemt die is verboden door het DLP-beleid.
 - Teams Chatten en kanaal: blokkeren dat gevoelige informatie wordt gedeeld in de chat of het kanaal
-- Windows 10 Apparaten: Het kopiëren van een gevoelig item naar een verwijderbaar USB-apparaat controleren of beperken 
+- Windows 10 Apparaten: Het kopiëren van een gevoelig item naar een verwijderbaar USB-apparaat controleren of beperken
 - Office Apps: Laat een pop-up zien waarin de gebruiker wordt op de hoogte gebracht dat hij of zij risicovol gedrag heeft en blokkeert of blokkeert, maar overschrijven toestaat.
 - On-premises bestandsaandelen: verplaats het bestand van waar het is opgeslagen naar een quarantainemap
 
@@ -166,18 +166,18 @@ locatie | opnemen/uitsluiten door|
 All DLP policies are created and maintained in the Microsoft 365 Compliance center. See, INSERT LINK TO ARTICLE THAT WILL START WALKING THEM THROUGH THE POLICY CREATION PROCEDURES for more information.-->
 
 Nadat u een DLP-beleid hebt in het Compliancecentrum, wordt het opgeslagen in een centrale beleidsopslag en vervolgens gesynchroniseerd met de verschillende inhoudsbronnen, waaronder:
-  
+
 - Exchange Online en van daar naar webversie van Outlook en Outlook.
 - OneDrive voor Bedrijven sites.
 - SharePoint Onlinesites.
 - Office bureaubladprogramma's (Excel, PowerPoint en Word).
 - Microsoft Teams kanalen en chatberichten.
-    
+
 Nadat het beleid is gesynchroniseerd met de juiste locaties, wordt gestart met het evalueren van inhoud en het afdwingen van acties.
 
 ## <a name="viewing-policy-application-results"></a>Resultaten van beleidstoepassing weergeven
 
-DLP rapporteert een grote hoeveelheid informatie in Microsoft 365 monitoring, beleidswedstrijden en acties en gebruikersactiviteiten. U moet deze informatie gebruiken en erop reageren om uw beleid af te stemmen en acties op gevoelige items af te stemmen. De telemetrie gaat eerst naar [het Microsoft 365 auditlogboeken](search-the-audit-log-in-security-and-compliance.md#search-the-audit-log-in-the-compliance-center) van het compliancecentrum, wordt verwerkt en maakt zijn weg naar verschillende rapportagehulpmiddelen. Elk rapportagehulpmiddel heeft een ander doel.  
+DLP rapporteert een grote hoeveelheid informatie in Microsoft 365 monitoring, beleidswedstrijden en acties en gebruikersactiviteiten. U moet deze informatie gebruiken en erop reageren om uw beleid af te stemmen en acties op gevoelige items af te stemmen. De telemetrie gaat eerst naar [het Microsoft 365 auditlogboeken](search-the-audit-log-in-security-and-compliance.md#search-the-audit-log-in-the-compliance-center) van het compliancecentrum, wordt verwerkt en maakt zijn weg naar verschillende rapportagehulpmiddelen. Elk rapportagehulpmiddel heeft een ander doel.
 
 ### <a name="dlp-alerts-dashboard"></a>DLP-waarschuwingendashboard
 
@@ -203,7 +203,7 @@ De [DLP-rapporten](view-the-dlp-reports.md#view-the-reports-for-data-loss-preven
 
 Op het tabblad Activiteitsverkenner op de pagina DLP is het filter *Activiteit* vooraf ingesteld op *DLPRuleMatch.* Gebruik dit hulpprogramma om activiteiten te bekijken die betrekking hebben op inhoud die gevoelige informatie bevat of waarvoor labels zijn toegepast, zoals welke etiketten zijn gewijzigd, bestanden zijn gewijzigd en overeenkomen met een regel.
 
-![schermafbeelding van de DLPRuleMatch-activiteitenverkenner met een bereik ](../media/dlp-activity-explorer.png)
+![schermafbeelding van de DLPRuleMatch-activiteitenverkenner met een bereik](../media/dlp-activity-explorer.png)
 
 Zie Aan de slag [met activiteitenverkenner](data-classification-activity-explorer.md) voor meer informatie
 

@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 23c2ed180606e61820c6e736e472aef0ae4933a5
-ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
-ms.translationtype: HT
+ms.openlocfilehash: f64fcf4908f119e261b07bbc4feaed2151e30187
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "52162498"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226429"
 ---
 # <a name="insider-risk-management-policies"></a>Beleidsregels voor intern risicobeheer
 
@@ -52,8 +52,8 @@ Sjablonen voor intern risicobeheer zijn vooraf gedefinieerde beleidsvoorwaarden 
 
 Wanneer gebruikers uw organisatie verlaten, zijn er specifieke risico-indicatoren die doorgaans worden geassocieerd met gegevensdiefstal door vertrekkende gebruikers. Dit beleidssjabloon gebruikt exfiltratie-indicatoren voor een risicoscore en is gericht op detectie en waarschuwingen in dit risicogebied. Gegevensdiefstal door vertrekkende gebruikers kan bestaan uit het downloaden van bestanden van SharePoint Online, het afdrukken van bestanden en het kopiëren van gegevens naar persoonlijke berichten- en opslagdiensten in de cloud kort voor hun ontslag- of einddatum. Door gebruik te maken van de Microsoft 365 HR-connector of de optie om automatisch te controleren op verwijdering van gebruikersaccounts in Azure Active Directory voor uw organisatie, begint deze sjabloon te scoren voor risico-indicatoren met betrekking tot deze activiteiten en hoe deze correleren met de arbeidsstatus van de gebruiker.
 
->[!IMPORTANT]
->Wanneer u deze sjabloon gebruikt, kunt u een Microsoft 365 HR-connector configureren om periodiek informatie over de opzeg- en beëindigingsdatum te importeren voor gebruikers in uw organisatie. Zie het artikel [Gegevens importeren met de HR-connector](import-hr-data.md) voor stapsgewijze richtlijnen voor het configureren van de Microsoft 365 HR-connector voor uw organisatie. Als u ervoor kiest de HR-connector niet te gebruiken, selecteert u de optie Gebruikersaccount uit Azure AD verwijderd bij het configureren van triggergebeurtenissen in de beleidswizard.
+> [!IMPORTANT]
+> Wanneer u deze sjabloon gebruikt, kunt u een Microsoft 365 HR-connector configureren om periodiek informatie over de opzeg- en beëindigingsdatum te importeren voor gebruikers in uw organisatie. Zie het artikel [Gegevens importeren met de HR-connector](import-hr-data.md) voor stapsgewijze richtlijnen voor het configureren van de Microsoft 365 HR-connector voor uw organisatie. Als u ervoor kiest de HR-connector niet te gebruiken, selecteert u de optie Gebruikersaccount uit Azure AD verwijderd bij het configureren van triggergebeurtenissen in de beleidswizard.
 
 ### <a name="general-data-leaks"></a>Algemene gegevenslekken
 
@@ -74,8 +74,8 @@ Houd rekening met de volgende richtlijnen bij het maken of wijzigen van DLP-bele
 
     ![Instelling voor DLP-beleidswaarschuwingen](../media/insider-risk-DLP-policy-high-severity.png)
 
-     >[!NOTE]
-     >Wanneer u een nieuw DLP-beleid maakt met behulp van de ingebouwde sjablonen, moet u de optie **Geavanceerde DLP-regels maken of aanpassen** selecteren om de instelling **Incidentrapporten** te configureren voor het *hoge* urgentieniveau.
+     > [!NOTE]
+     > Wanneer u een nieuw DLP-beleid maakt met behulp van de ingebouwde sjablonen, moet u de optie **Geavanceerde DLP-regels maken of aanpassen** selecteren om de instelling **Incidentrapporten** te configureren voor het *hoge* urgentieniveau.
 
 Aan elk intern risicobeheerbeleid dat is gemaakt op basis van de sjabloon **Datalekken**, kan slechts één DLP-beleid worden toegewezen. Overweeg om een speciaal DLP-beleid te maken waarin de verschillende activiteiten worden gecombineerd die u wilt detecteren en gebruiken om gebeurtenissen te activeren voor intern risicobeleid dat gebruik maakt van de sjabloon **Gegevenslekken**.
 
@@ -164,8 +164,8 @@ Deze interne beleidsregels voor risicobeheer kunnen gebruikmaken van specifieke 
 - **Verduistering**: deze categoriesignalen zijn gericht op het maskeren van risicovolle activiteiten door beleidsgebruikers die binnen het bereik vallen. Een voorbeeldactiviteit in deze categorie is het wijzigen van de naam van bestanden op een apparaat.
 - **Opschonen**: deze categoriesignalen zijn gericht op verwijderingsactiviteiten door beleidsgebruikers die binnen het bereik vallen. Een voorbeeldactiviteit in deze categorie is het verwijderen van bestanden van een apparaat.
 
->[!NOTE]
->Reeksdetectie maakt gebruik van indicatoren die zijn ingeschakeld in de algemene instellingen voor intern risicobeheer en indicatoren die zijn geselecteerd in een beleid. Als de juiste indicatoren niet zijn geselecteerd, werkt de reeksdetectie niet.
+> [!NOTE]
+> Reeksdetectie maakt gebruik van indicatoren die zijn ingeschakeld in de algemene instellingen voor intern risicobeheer en indicatoren die zijn geselecteerd in een beleid. Als de juiste indicatoren niet zijn geselecteerd, werkt de reeksdetectie niet.
 
 U kunt afzonderlijke drempelwaarden aanpassen voor elk type reeksdetectie wanneer dit in het beleid is geconfigureerd. Met deze drempelwaarden worden waarschuwingen aangepast op basis van het aantal bestanden dat aan de reeks is gekoppeld.
 
@@ -182,8 +182,8 @@ De detectie van cumulatieve exfiltratie is standaard ingeschakeld wanneer u de v
 - Gegevenslekken per gebruiker met prioriteit
 - Gegevenslekken door ontevreden gebruikers
 
->[!NOTE]
->Cumulatieve exfiltratiedetectie maakt gebruik van exfiltratie-indicatoren die zijn ingeschakeld in de algemene instellingen voor insiderrisicobeheer en exfiltratie-indicatoren die zijn geselecteerd in een beleid. Als zodanig wordt cumulatieve exfiltratiedetectie alleen geëvalueerd voor de noodzakelijke geselecteerde exfiltratie-indicatoren.
+> [!NOTE]
+> Cumulatieve exfiltratiedetectie maakt gebruik van exfiltratie-indicatoren die zijn ingeschakeld in de algemene instellingen voor insiderrisicobeheer en exfiltratie-indicatoren die zijn geselecteerd in een beleid. Als zodanig wordt cumulatieve exfiltratiedetectie alleen geëvalueerd voor de noodzakelijke geselecteerde exfiltratie-indicatoren.
 
 Wanneer cumulatieve exfiltratiedetectie is ingeschakeld voor datadiefstal- of datalekbeleid, worden inzichten van cumulatieve exfiltratieactiviteiten weergegeven op het tabblad **Gebruikersactiviteit** binnen een insider-risicobeheercase.
 
@@ -243,10 +243,10 @@ Gebruik de volgende tabel om het maximum aantal gebruikers in het bereik te bepa
 |:------------------|:--------------------------------|
 | Algemene gegevenslekken | 15.000 |
 | Gegevenslekken door ontevreden gebruikers | 7.500 |
-| Gegevenslekken per gebruiker met prioriteit | 1000 |
+| Gegevenslekken per gebruiker met prioriteit | 1,000 |
 | Gegevensdiefstal door vertrekkende gebruikers | 20.000 |
-| Algemene schendingen beveiligingsbeleid | 1000 |
-| Schendingen van beveiligingsbeleid door gebruikers met een prioriteit | 1000 |
+| Algemene schendingen beveiligingsbeleid | 1,000 |
+| Schendingen van beveiligingsbeleid door gebruikers met een prioriteit | 1,000 |
 | Schendingen van beveiligingsbeleid door vertrekkende gebruikers | 15.000 |
 | Schendingen van het beveiligingsbeleid door een ontevreden gebruiker | 7.500 |
 
@@ -260,8 +260,8 @@ Voltooi de volgende stappen om een nieuw beleid te maken:
 2. Selecteer **Beleid maken** om de wizard Beleid te openen.
 3. Kies op de pagina **Beleidssjabloon** een beleidscategorie en selecteer vervolgens de sjabloon voor het nieuwe beleid. Deze sjablonen bestaan uit voorwaarden en indicatoren waarmee de risicoactiviteiten worden gedefinieerd die u wilt detecteren en onderzoeken. Bekijk de vereisten voor de sjabloon, triggering van gebeurtenissen en gedetecteerde activiteiten om te controleren of deze beleidssjabloon aan uw wensen voldoet.
 
-    >[!IMPORTANT]
-    >Sommige beleidssjablonen hebben vereisten die moeten worden geconfigureerd voor het genereren van relevante waarschuwingen voor het beleid. Zie **stap 4** hierboven als u de toepasselijke beleidsvereisten niet hebt geconfigureerd.
+    > [!IMPORTANT]
+    > Sommige beleidssjablonen hebben vereisten die moeten worden geconfigureerd voor het genereren van relevante waarschuwingen voor het beleid. Zie **stap 4** hierboven als u de toepasselijke beleidsvereisten niet hebt geconfigureerd.
 
 4. Selecteer **Volgende** om door te gaan.
 5. Vul op de pagina **Naam en beschrijving** de volgende velden in:
@@ -287,8 +287,8 @@ Voltooi de volgende stappen om een nieuw beleid te maken:
 12. Selecteer **Volgende** om door te gaan.
 13. Op de pagina **Indicatoren en activeringsgebeurtenissen** ziet u de [indicatoren](insider-risk-management-settings.md#indicators) die u hebt gedefinieerd als beschikbaar op de pagina **Indicatoren** voor **Insider-risico-instellingen** > . Als u aan het begin van de wizard een sjabloon voor *gegevenslekken* hebt geselecteerd, moet u een **DLP-beleid** selecteren in de vervolgkeuzelijst DLP-beleid om triggeringindicatoren voor het beleid in te schakelen of de ingebouwde activeringsgebeurtenis selecteren.
 
-    >[!IMPORTANT]
-    >Als indicatoren op deze pagina niet kunnen worden geselecteerd, selecteert u de indicatoren die u voor alle beleidsregels wilt inschakelen. U kunt de knop **Indicatoren inschakelen** in de wizard gebruiken of indicatoren selecteren op de pagina **Intern risicobeheer** > **Instellingen** > **Beleidsindicatoren**.
+    > [!IMPORTANT]
+    > Als indicatoren op deze pagina niet kunnen worden geselecteerd, selecteert u de indicatoren die u voor alle beleidsregels wilt inschakelen. U kunt de knop **Indicatoren inschakelen** in de wizard gebruiken of indicatoren selecteren op de pagina **Intern risicobeheer** > **Instellingen** > **Beleidsindicatoren**.
 
     Selecteer de indicatoren die u wilt toepassen op het beleid. Als u liever geen gebruik wilt maken van de standaardinstellingen voor drempelwaarden voor deze indicatoren, schakelt u de optie **Standaard drempelwaarden gebruiken die door Microsoft worden aanbevolen** uit en voert u de drempelwaarden in voor elke geselecteerde indicator.
 
@@ -332,8 +332,8 @@ Voltooi de volgende stappen om een bestaand beleid te beheren:
 12. Selecteer **Volgende** om door te gaan.
 13. Op de pagina **Indicatoren en activeringsgebeurtenissen** ziet u de [indicatoren](insider-risk-management-settings.md#indicators) die u hebt gedefinieerd als beschikbaar op de pagina **Indicatoren** voor **Insider-risico-instellingen** > . Als u aan het begin van de wizard een sjabloon voor *gegevenslekken* hebt geselecteerd, moet u een **DLP-beleid** selecteren in de vervolgkeuzelijst DLP-beleid om triggeringindicatoren voor het beleid in te schakelen of de ingebouwde activeringsgebeurtenis selecteren.
 
-    >[!IMPORTANT]
-    >Als indicatoren op deze pagina niet kunnen worden geselecteerd, selecteert u de indicatoren die u voor alle beleidsregels wilt inschakelen. U kunt de knop **Indicatoren inschakelen** in de wizard gebruiken of indicatoren selecteren op de pagina **Intern risicobeheer** > **Instellingen** > **Beleidsindicatoren**.
+    > [!IMPORTANT]
+    > Als indicatoren op deze pagina niet kunnen worden geselecteerd, selecteert u de indicatoren die u voor alle beleidsregels wilt inschakelen. U kunt de knop **Indicatoren inschakelen** in de wizard gebruiken of indicatoren selecteren op de pagina **Intern risicobeheer** > **Instellingen** > **Beleidsindicatoren**.
 
     Selecteer de indicatoren die u wilt toepassen op het beleid. Als u liever geen gebruik wilt maken van de standaardinstellingen voor drempelwaarden voor deze indicatoren, schakelt u de optie **Standaard drempelwaarden gebruiken die door Microsoft worden aanbevolen** uit en voert u de drempelwaarden in voor elke geselecteerde indicator.
 
@@ -366,8 +366,8 @@ Enkele scenario's waarin u mogelijk direct wilt beginnen met het scoren van gebr
 - Wanneer er zich een incident heeft voorgedaan waardoor u mogelijk direct wilt beginnen met het toewijzen van risicoscores voor de activiteiten van betrokken gebruikers voor een of meer van uw beleidsregels
 - Wanneer u uw HR-connector nog niet hebt geconfigureerd, maar u wilt beginnen met het toewijzen van risicoscores aan gebruikersactiviteiten voor HR-gebeurtenissen door een CSV-bestand te uploaden voor de gebruikers
 
->[!NOTE]
->Het kan enkele uren duren voordat nieuwe handmatig toegevoegde gebruikers worden weergegeven op het dashboard **Gebruikers**. Het kan tot 24 uur duren voordat de activiteiten van de afgelopen 90 dagen voor deze gebruikers worden weergegeven. Om activiteiten voor handmatig toegevoegde gebruikers te bekijken, navigeert u naar het tabblad **Gebruikers** en selecteert u de gebruiker op het **Gebruikers**-dashboard en opent u het tabblad **Gebruikersactiviteit** in het detailvenster.
+> [!NOTE]
+> Het kan enkele uren duren voordat nieuwe handmatig toegevoegde gebruikers worden weergegeven op het dashboard **Gebruikers**. Het kan tot 24 uur duren voordat de activiteiten van de afgelopen 90 dagen voor deze gebruikers worden weergegeven. Om activiteiten voor handmatig toegevoegde gebruikers te bekijken, navigeert u naar het tabblad **Gebruikers** en selecteert u de gebruiker op het **Gebruikers**-dashboard en opent u het tabblad **Gebruikersactiviteit** in het detailvenster.
 
 Voer de volgende stappen uit om handmatig scoreactiviteit voor gebruikers te starten in een of meer beleidsregels voor intern risicobeheer:
 
@@ -393,8 +393,8 @@ Zie het artikel [Intern risicobeheergebruikers: gebruikers verwijderen uit toewi
 
 ## <a name="delete-a-policy"></a>Een beleid verwijderen
 
->[!NOTE]
->Als u een beleid verwijdert, worden actieve of gearchiveerde waarschuwingen die op basis van het beleid zijn gegenereerd, niet verwijderd.
+> [!NOTE]
+> Als u een beleid verwijdert, worden actieve of gearchiveerde waarschuwingen die op basis van het beleid zijn gegenereerd, niet verwijderd.
 
 Als u een bestaand beleid voor intern risicobeheer wilt verwijderen, moet u de volgende stappen voltooien:
 

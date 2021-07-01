@@ -9,12 +9,12 @@ metadata:
   ms.service: bookings
   localization_priority: Normal
   description: Veelgestelde vragen over Microsoft Bookings.
-  ms.openlocfilehash: e9617710b70c0b79f855284e789c58b3f1124515
-  ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+  ms.openlocfilehash: 956d423ef89454fa87524ce15165ffd3c8b59507
+  ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
   ms.translationtype: MT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 05/12/2021
-  ms.locfileid: "52333937"
+  ms.lasthandoff: 06/30/2021
+  ms.locfileid: "53227701"
 title: Veelgestelde vragen over Microsoft Bookings
 summary: ''
 sections:
@@ -55,7 +55,7 @@ sections:
   - question: >
       Kan onze IT-afdeling bepalen of eindgebruikers toegang hebben tot Bookings?
     answer: >
-      Bookings is standaard beschikbaar in Microsoft 365 Business Premium-, Microsoft 365 Business Standard-, M365 A3/A5- en E3/E5-tenants, maar beheerders kunnen dit uitschakelen in het Microsoft 365-beheercentrum als ze dat willen. Volg deze instructies om [dit te doen.](turn-bookings-on-or-off.md)
+      Bookings is standaard beschikbaar in Microsoft 365 Business Premium-, Microsoft 365 Business Standard-, M365-A3/A5- en E3/E5-tenants, maar beheerders kunnen het uitschakelen in de Microsoft 365-beheercentrum als ze dat willen. Volg deze instructies om [dit te doen.](turn-bookings-on-or-off.md)
 
 
       Als een klant de toegang tot Bookings voor bepaalde in aanmerking komende licenties in zijn tenant wil uitschakelen, kan hij of zij een groepsbeleid gebruiken om licenties te beperken of een OWA-postvakbeleid implementeren dat beperkt wie nieuwe Bookings-agenda's kan maken.
@@ -123,7 +123,7 @@ sections:
   - question: >
       Hoe kan ik Microsoft Bookings krijgen?
     answer: >
-      Bookings is beschikbaar voor klanten met Office 365 A3, A5, E3 en E5, evenals Microsoft 365 Business Standard, Microsoft 365 Business Premium, A3, A5, E3 en E5. U kunt Bookings gebruiken met een companion-app voor iOS en Android. Bookings is niet beschikbaar als zelfstandige app. Outlook Web App of Outlook op het web moet zijn ingeschakeld voor het gebruik van Bookings, omdat gegevens in de Outlook.
+      Bookings is beschikbaar voor klanten met Office 365 A3, A5, E3 en E5, evenals Microsoft 365 Business Standard, Microsoft 365 Business Premium, A3, A5, E3 en E5. U kunt Bookings gebruiken met een companion-app voor iOS en Android. Bookings is niet beschikbaar als zelfstandige app. Outlook Web App of webversie van Outlook moet zijn ingeschakeld voor het gebruik van Bookings, omdat gegevens binnen de Outlook.
 
 
       Een Bookings-licentie biedt volledige functionaliteit voor het product, waaronder het maken en beheren van agenda's. Hiermee kunnen gebruikers ook bestaande agenda's weergeven en bewerken, wanneer deze gebruikers worden toegevoegd als personeel in een rol beheerder of viewer.
@@ -201,9 +201,9 @@ sections:
     answer: >
       De e-mailadressen worden beheerd en beheerd op het niveau Microsoft 365 instellingen en zijn afhankelijk van de instellingen voor de domeinconfiguratie. Meer informatie vindt u [hier.](/powershell/module/exchange/get-accepteddomain)
   - question: >
-      Is de mogelijkheid om berichten te Sms afhankelijk van een andere service of specifieke configuratie?
+      Is de mogelijkheid om sms-berichten te verzenden afhankelijk van een andere service of specifieke configuratie?
     answer: >
-      Sms berichten zijn momenteel beschikbaar in Noord-Amerika en een Skype of Twilio-account wordt gebruikt voor Sms bezorging.
+      Sms-berichten zijn momenteel beschikbaar in Noord-Amerika en een Skype of Twilio-account wordt gebruikt voor sms-bezorging.
   - question: >
       Hoe kunnen bookings-afspraken in de agenda van een persoon worden gemaakt?
     answer: >
@@ -305,9 +305,9 @@ sections:
     answer: >
       Personeelsleden worden willekeurig toegewezen in deze scenario's, van alle personeelsleden die beschikbaar zijn op het moment dat de afspraak wordt geboekt. Op dit moment is er geen manier om een gelijke verdeling van willekeurig toegewezen afspraken over alle personeelsleden te garanderen of om het aantal toegewezen afspraken aan elk personeelslid te limieten. Als er na een aantal willekeurige opdrachten taakverdeling moet worden uitgevoerd voor uw personeel, kunt u dit handmatig doen op het tabblad Agenda op de pagina Bookings.
   - question: >
-      Hoe kunnen gebruikers ervoor kiezen om geen berichten Sms ontvangen als ze zich eerder al hebben voormeld?
+      Hoe kunnen gebruikers zich afmelden voor het ontvangen van sms-berichten als ze zich eerder al hebben voormeld?
     answer: >
-      Wanneer u een afspraak maakt met Sms sms-berichten ingeschakeld, wordt klanten gevraagd het selectievakje voor het kiezen in te checken telkens wanneer ze boeken. Klanten kunnen ook rechtstreeks reageren op het Sms-bericht (de Sms-provider) om aan te geven dat ze de berichten willen laten stoppen, waarna er geen verdere sms-berichten naar dat telefoonnummer worden verzonden. Als de klant zich afmeldt voor het ontvangen van sms-berichten van de provider, niet van Bookings zelf, ontvangt de klant in de toekomst geen Sms-berichten meer, zelfs niet wanneer hij zich op de pagina Bookings aanmeldt.
+      Wanneer een afspraak met sms-berichten is ingeschakeld, worden klanten gevraagd het opt-in-vak in te checken wanneer ze boeken. Klanten kunnen ook rechtstreeks reageren op het sms-bericht (de sms-provider) om aan te geven dat ze de berichten willen stoppen, waarna er geen verdere sms-berichten naar dat telefoonnummer worden verzonden. Als de klant zich afmeldt voor het ontvangen van sms-berichten van de provider, niet van Bookings zelf, ontvangen ze in de toekomst geen sms-berichten meer, zelfs niet wanneer ze zich via de pagina Bookings aanmelden.
 - name: Problemen oplossen
   questions:
   - question: >
@@ -318,7 +318,7 @@ sections:
 
       > [!NOTE]
 
-      > Bookings is standaard ingeschakeld voor klanten met de Microsoft 365 Business Standard, Microsoft 365 A3 of Microsoft 365 A5-abonnementen. Bookings is ook beschikbaar voor klanten Office 365 Enterprise E3 en Office 365 Enterprise E5, maar deze is standaard uitgeschakeld. Zie Toegang krijgen tot Microsoft Bookings om aan de slag [te gaan.](get-access.md) Zie Bookings in- of uitschakelen voor uw organisatie als u Bookings wilt in- of [uitschakelen.](turn-bookings-on-or-off.md)
+      > Bookings is standaard ingeschakeld voor klanten met de Microsoft 365 Business Standard, Microsoft 365 A3 of Microsoft 365 A5 abonnementen. Bookings is ook beschikbaar voor klanten Office 365 Enterprise E3 en Office 365 Enterprise E5, maar deze is standaard uitgeschakeld. Zie Toegang krijgen tot Microsoft Bookings om aan de slag [te gaan.](get-access.md) Zie Bookings in- of uitschakelen voor uw organisatie als u Bookings wilt in- of [uitschakelen.](turn-bookings-on-or-off.md)
 
 
       Zie Personeel toevoegen aan Bookings als u informatie zoekt over het synchroniseren van de agenda van [uw personeel.](add-staff.md) Zorg ervoor dat op de **pagina Personeelsgegevens** gebeurtenissen **in de agenda zijn ingeschakeld** die van invloed zijn op de beschikbaarheid.
@@ -380,4 +380,4 @@ sections:
 
 
       Als u deze fout na een langere periode nog steeds ziet of als u deze vaak ziet, neem dan contact op met de ondersteuning.
-additionalContent: "\n## <a name=\"additional-resources\"></a>Aanvullende bronnen\n\n- [Microsoft Bookings breidt de beschikbaarheid in de blog ondernemingen uit](https://techcommunity.microsoft.com/t5/microsoft-bookings-blog/microsoft-bookings-expands-availability-in-enterprises/ba-p/1214065)\n\n- [Video hoe Microsoft Bookings werkt](https://support.office.com/article/microsoft-bookings-69c45b78-6de4-4f28-9449-cdcc18b7ae45)\n\n- [Microsoft Bookings gebruiken](get-access.md)\n\n- [Microsoft Bookings in- of uitschakelen](turn-bookings-on-or-off.md)\n\n- [Gebruikers afzonderlijk of bulksgewijs toevoegen](../admin/add-users/add-users.md?view=o365-worldwide.)\n\n- [Medewerkers toevoegen aan Bookings](add-staff.md)\n\n- [API-onderdelen die moeten worden automatiseren nadat de sjabloon is gedefinieerd](/graph/api/bookingbusiness-post-bookingbusinesses)\n\n- [URL naar Bookings Calendar for Display](https://outlook.office.com/bookings/calendar)\n\n- [Compliancebeleid voor bookings](/compliance/regulatory/gdpr-dsr-Office365?view=o365-worldwide#bookings)\n\n- [Uw reserveringspagina aanpassen en publiceren](customize-booking-page.md)\n\n- [Tenantpostvakconfiguratie](/powershell/module/exchange/get-accepteddomain)\n\n- [Groepsboekingen](https://techcommunity.microsoft.com/t5/microsoft-bookings-blog/microsoft-bookings-now-supports-online-meetings-and-group/ba-p/1214120)\n\n- [Bookings metrics and activity tracking](metrics-and-activity-tracking.md)\n\n- [Openbare routekaart voor M365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=bookings)\n\n- Feedback verzenden via [UserVoice](https://outlook.uservoice.com/forums/314907-microsoft-bookings/suggestions/39505261-365-admins-should-have-full-access-to-all-bookings)"
+additionalContent: "\n## <a name=\"additional-resources\"></a>Aanvullende bronnen\n\n- [Microsoft Bookings breidt de beschikbaarheid in de blog ondernemingen uit](https://techcommunity.microsoft.com/t5/microsoft-bookings-blog/microsoft-bookings-expands-availability-in-enterprises/ba-p/1214065)\n\n- [Video hoe Microsoft Bookings werkt](https://support.office.com/article/microsoft-bookings-69c45b78-6de4-4f28-9449-cdcc18b7ae45)\n\n- [Microsoft Bookings gebruiken](get-access.md)\n\n- [Microsoft Bookings in- of uitschakelen](turn-bookings-on-or-off.md)\n\n- [Gebruikers afzonderlijk of bulksgewijs toevoegen](../admin/add-users/add-users.md)\n\n- [Medewerkers toevoegen aan Bookings](add-staff.md)\n\n- [API-onderdelen die moeten worden automatiseren nadat de sjabloon is gedefinieerd](/graph/api/bookingbusiness-post-bookingbusinesses)\n\n- [URL naar Bookings Calendar for Display](https://outlook.office.com/bookings/calendar)\n\n- [Compliancebeleid voor bookings](/compliance/regulatory/gdpr-dsr-Office365#bookings)\n\n- [Uw reserveringspagina aanpassen en publiceren](customize-booking-page.md)\n\n- [Tenantpostvakconfiguratie](/powershell/module/exchange/get-accepteddomain)\n\n- [Groepsboekingen](https://techcommunity.microsoft.com/t5/microsoft-bookings-blog/microsoft-bookings-now-supports-online-meetings-and-group/ba-p/1214120)\n\n- [Bookings metrics and activity tracking](metrics-and-activity-tracking.md)\n\n- [Openbare routekaart voor M365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=bookings)\n\n- Feedback verzenden via [UserVoice](https://outlook.uservoice.com/forums/314907-microsoft-bookings/suggestions/39505261-365-admins-should-have-full-access-to-all-bookings)"

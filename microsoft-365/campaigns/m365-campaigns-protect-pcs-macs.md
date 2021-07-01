@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Bescherm onmanaged of bring-your-own devices (BYOD) met Microsoft 365.
-ms.openlocfilehash: 430f5446f86c26cb1f0fd1c7f34613cddec473b2
-ms.sourcegitcommit: c5d1528559953c6db7dca1d5cb453e0aa3215f02
+ms.openlocfilehash: 40e94e2f961ab34827de4ce5e43e100af53a7340
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "51398251"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227497"
 ---
 # <a name="protect-unmanaged-windows-10-pcs-and-macs"></a>Niet-beheerde Windows 10 pc's en Macs beveiligen
 
@@ -54,7 +54,7 @@ Als uw Windows 10 pc of Mac niet wordt beheerd door uw organisatie, moet u deze 
 
 Apparaatversleuteling is beschikbaar op een groot aantal Windows apparaten en helpt uw gegevens te beschermen door deze te versleutelen. Als u apparaatversleuteling in bedrijf neemt, hebben alleen geautoriseerde personen toegang tot uw apparaat en gegevens. Zie [Apparaatversleuteling in- en](https://support.microsoft.com/help/4028713/windows-10-turn-on-device-encryption) uit te zetten voor instructies.
 
- Als apparaatversleuteling niet beschikbaar is op uw apparaat, kunt u in plaats daarvan standaardversleuteling [BitLocker in.](https://support.microsoft.com/help/4028713/windows-10-turn-on-device-encryption) (BitLocker is niet beschikbaar op Windows 10 Home editie.) 
+ Als apparaatversleuteling niet beschikbaar is op uw apparaat, kunt u in plaats daarvan standaard [BitLocker-versleuteling in.](https://support.microsoft.com/help/4028713/windows-10-turn-on-device-encryption) (BitLocker is niet beschikbaar op Windows 10 Home versie.) 
 
 **Uw apparaat beveiligen met Windows-beveiliging**<p>
 Als u Windows 10 hebt, krijgt u de nieuwste antivirusbeveiliging met Windows-beveiliging. Wanneer u de Windows 10 voor het eerst start, is Windows-beveiliging actief bezig met het beschermen van uw pc door te scannen op malware (schadelijke software), virussen en beveiligingsrisico's. Windows-beveiliging realtime beveiliging gebruikt om alles wat u downloadt of op uw pc uit te voeren, te scannen.
@@ -72,7 +72,7 @@ U moet altijd Windows Firewall uitvoeren, zelfs als u een andere firewall hebt i
 Schijfversleuteling beschermt gegevens wanneer apparaten verloren gaan of worden gestolen. FileVault-versleuteling op volledige schijf helpt voorkomen dat onbevoegden toegang hebben tot de gegevens op de opstartschijf. Zie [FileVault gebruiken om de opstartschijf](https://support.apple.com/HT204837) op uw Mac te versleutelen voor instructies.
 
 **Uw Mac beschermen tegen malware**<p>
-Microsoft raadt u aan betrouwbare antivirussoftware op uw Mac te installeren en te gebruiken. Zie het volgende artikel voor een lijst met opties: [Best Mac antivirus 2019 ](https://www.macworld.co.uk/feature/mac-software/mac-antivirus-3672182/).
+Microsoft raadt u aan betrouwbare antivirussoftware op uw Mac te installeren en te gebruiken. Zie het volgende artikel voor een lijst met opties: [Best Mac antivirus 2019](https://www.macworld.co.uk/feature/mac-software/mac-antivirus-3672182/).
 
 U kunt ook het risico op malware beperken door software alleen te gebruiken uit betrouwbare bronnen. Met de instellingen in & privacyvoorkeuren kunt u opgeven welke softwarebronnen op uw Mac zijn geïnstalleerd. Zie uw Mac beschermen [tegen malware voor meer informatie.](https://support.apple.com/kb/PH25087)
 

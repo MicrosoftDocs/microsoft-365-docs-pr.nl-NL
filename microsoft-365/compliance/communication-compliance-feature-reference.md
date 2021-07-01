@@ -18,24 +18,24 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 5a9f5a6b218ec7a0e1fe9b05524ea1898b03e370
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: f94d2bbb8a65a4004ee05b9d740f94ae841f9a4e
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822127"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227373"
 ---
 # <a name="communication-compliance-feature-reference"></a>Verwijzing naar communicatie-compliancefunctie
 
 ## <a name="policies"></a>Beleid
 
->[!Important]
->Het gebruik van PowerShell voor het maken en beheren van communicatie compliancebeleid wordt niet ondersteund. Als u dit beleid wilt maken en beheren, moet u de besturingselementen voor beleidsbeheer gebruiken in [Microsoft 365 oplossing voor communicatie compliance.](https://compliance.microsoft.com/supervisoryreview)
+> [!IMPORTANT]
+> Het gebruik van PowerShell voor het maken en beheren van communicatie compliancebeleid wordt niet ondersteund. Als u dit beleid wilt maken en beheren, moet u de besturingselementen voor beleidsbeheer gebruiken in [Microsoft 365 oplossing voor communicatie compliance.](https://compliance.microsoft.com/supervisoryreview)
 
-U maakt communicatie compliancebeleid voor Microsoft 365 organisaties in het Microsoft 365 compliancecentrum. Communicatie-compliancebeleid bepaalt welke communicatie en gebruikers in uw organisatie moeten worden beoordeeld, bepaal aan welke aangepaste voorwaarden de communicatie moet voldoen en geef aan wie beoordelingen moet doen. Gebruikers die de rol *Communicatie compliancebeheerder* hebben toegewezen, kunnen beleid instellen  en iedereen die deze rol heeft toegewezen, heeft toegang tot de pagina Communicatie compliance en globale instellingen in het Microsoft 365 compliancecentrum. Indien nodig kunt u de geschiedenis van wijzigingen in een beleid exporteren naar een .csv-bestand (door komma's gescheiden waarden) met ook de status van waarschuwingen in behandeling, geëscaleerde items en opgeloste items. Beleid kan niet worden gewijzigd en kan worden verwijderd wanneer dit niet meer nodig is.
+U maakt communicatie compliancebeleid voor Microsoft 365 organisaties in de Microsoft 365-compliancecentrum. Communicatie-compliancebeleid bepaalt welke communicatie en gebruikers in uw organisatie moeten worden beoordeeld, bepaal aan welke aangepaste voorwaarden de communicatie moet voldoen en geef aan wie beoordelingen moet doen. Gebruikers die de rol *Communicatie compliancebeheerder* hebben toegewezen, kunnen beleid instellen  en iedereen die deze rol heeft toegewezen, heeft toegang tot de pagina Communicatie compliance en globale instellingen in de Microsoft 365-compliancecentrum. Indien nodig kunt u de geschiedenis van wijzigingen in een beleid exporteren naar een .csv-bestand (door komma's gescheiden waarden) met ook de status van waarschuwingen in behandeling, geëscaleerde items en opgeloste items. Beleid kan niet worden gewijzigd en kan worden verwijderd wanneer dit niet meer nodig is.
 
->[!NOTE]
->Het toezichtbeleid dat is gemaakt in & Compliancecentrum voor Office 365-abonnementen kan niet migreren naar Microsoft 365. Als u migreert van een Office 365-abonnement naar een Microsoft 365-abonnement, moet u nieuwe communicatiebeleidsregels maken om het bestaande toezichtbeleid te vervangen.
+> [!NOTE]
+> Het toezichtbeleid dat is gemaakt in & Compliancecentrum voor Office 365-abonnementen kan niet migreren naar Microsoft 365. Als u migreert van een Office 365-abonnement naar een Microsoft 365-abonnement, moet u nieuwe communicatiebeleidsregels maken om het bestaande toezichtbeleid te vervangen.
 
 ## <a name="policy-templates"></a>Beleidssjablonen
 
@@ -69,10 +69,10 @@ Als u een beleid wilt hervatten, gaat u naar **de** pagina Beleid, selecteert u 
 
 ## <a name="permissions"></a>Machtigingen
 
->[!Important]
->Globale beheerders hebben standaard geen toegang tot communicatie-compliancefuncties. De rollen die in deze stap zijn toegewezen, zijn vereist voordat alle communicatie-compliancefuncties toegankelijk zijn.
+> [!IMPORTANT]
+> Globale beheerders hebben standaard geen toegang tot communicatie-compliancefuncties. De rollen die in deze stap zijn toegewezen, zijn vereist voordat alle communicatie-compliancefuncties toegankelijk zijn.
 
-Er zijn vijf rollengroepen die worden gebruikt om machtigingen te configureren voor het beheren van communicatie compliancefuncties. Als u **communicatie compliance** beschikbaar wilt maken als een menuoptie in Microsoft 365 compliancecentrum en als  u deze configuratiestappen wilt voortzetten, moet u zijn toegewezen aan de rollengroepen Communicatie compliance of *Communicatie compliancebeheerder.* Als u na de eerste configuratie communicatie compliancefuncties wilt openen en beheren, moeten gebruikers lid zijn van ten minste één rolgroep communicatie compliance.
+Er zijn vijf rollengroepen die worden gebruikt om machtigingen te configureren voor het beheren van communicatie compliancefuncties. Als u **communicatie compliance** beschikbaar wilt maken als menuoptie in Microsoft 365-compliancecentrum en deze configuratiestappen  wilt voortzetten, moet u zijn toegewezen aan de rollengroepen Communicatie compliance of *Communicatie compliancebeheerder.* Als u na de eerste configuratie communicatie compliancefuncties wilt openen en beheren, moeten gebruikers lid zijn van ten minste één rolgroep communicatie compliance.
 
 Afhankelijk van hoe u communicatiebeleid en waarschuwingen wilt beheren, moet u gebruikers toewijzen aan specifieke rollengroepen. U kunt ervoor kiezen om gebruikers met verschillende complianceverantwoordelijkheden toe te wijzen aan specifieke rollengroepen om verschillende gebieden met communicatie compliancefuncties te beheren. Of u kunt besluiten om alle gebruikersaccounts voor aangewezen beheerders, analisten, onderzoeker en kijkers toe te wijzen aan de *rollengroep Communicatie compliance.* Gebruik één rollengroep of meerdere rollengroepen om het best aan uw vereisten voor compliancebeheer te voldoen.
 
@@ -88,7 +88,7 @@ Kies uit deze opties voor rollengroep bij het configureren van communicatie comp
 
 ### <a name="for-organizations-using-the-original-permissions-and-role-groups"></a>Voor organisaties die de oorspronkelijke machtigingen en rollengroepen gebruiken
 
-De nieuwe structuur van de rollengroep vervangt de eerste structuur van de rollengroep voor communicatie compliance. Voor organisaties die al gebruikmaken van communicatie compliance, moet u de rol Supervisory Review Administrator krijgen toegewezen om aan de slag te gaan met communicatie compliance in het Microsoft 365 compliance center. Daarnaast moest u een nieuwe rollengroep maken voor revisoren met de rollen Supervisory Review Administrator, Case Management, Compliance Administrator en Review om berichten te onderzoeken en te corrigeren met beleidswedstrijden. In feite waren alle beheerders en revisoren in één rollengroep en had iedereen dezelfde toegangs- en beheermachtigingen. Met de meest recente updates voor communicatie compliance, moet u van plan zijn om te migreren van de vorige structuur van de rollengroep naar de nieuwe structuur van de rollengroep. Ondersteuning voor de vorige structuur van de rollengroep wordt uitgefaseerd.
+De nieuwe structuur van de rollengroep vervangt de eerste structuur van de rollengroep voor communicatie compliance. Voor organisaties die al communicatie compliance gebruiken, moest u de rol Supervisory Review Administrator krijgen toegewezen om aan de slag te gaan met communicatie compliance in de Microsoft 365-compliancecentrum. Daarnaast moest u een nieuwe rollengroep maken voor revisoren met de rollen Supervisory Review Administrator, Case Management, Compliance Administrator en Review om berichten te onderzoeken en te corrigeren met beleidswedstrijden. In feite waren alle beheerders en revisoren in één rollengroep en had iedereen dezelfde toegangs- en beheermachtigingen. Met de meest recente updates voor communicatie compliance, moet u van plan zijn om te migreren van de vorige structuur van de rollengroep naar de nieuwe structuur van de rollengroep. Ondersteuning voor de vorige structuur van de rollengroep wordt uitgefaseerd.
 
 Overweeg het volgende voorbeeld om uw migratieplanning te helpen. U hebt momenteel drie typen gebruikers in uw organisatie, IT-beheerders, triage en revisoren. Deze drie typen gebruikers maken deel uit van de vorige structuur van de rollengroep en zijn allemaal lid van één rollengroep met de volgende rollen:
 
@@ -107,8 +107,8 @@ Als u de rollen voor deze gebruikers voor de nieuwe structuur van de rollengroep
 
 Voordat u communicatie-compliance gaat gebruiken, moet u bepalen wie de communicatie moet controleren. In het beleid identificeren e-mailadressen van gebruikers personen of groepen personen die toezicht moeten houden. Enkele voorbeelden van deze groepen zijn Microsoft 365 Groepen, Exchange op basis van distributielijsten, Yammer community's en Microsoft Teams kanalen. U kunt ook specifieke gebruikers of groepen uitsluiten van scannen met een specifieke uitsluitingsgroep of een lijst met groepen. Zie Aan de slag met communicatie compliance voor meer informatie over groepentypen die worden ondersteund in communicatie [compliancebeleid.](communication-compliance-configure.md#step-3-optional-set-up-groups-for-communication-compliance)
 
->[!IMPORTANT]
->Gebruikers die onder communicatie-compliancebeleid vallen, moeten een Microsoft 365 E5 Compliance-licentie, een Office 365 Enterprise E3-licentie met de invoeging Advanced Compliance hebben of moeten zijn opgenomen in een Office 365 Enterprise E5-abonnement. Als u geen bestaand Enterprise E5-abonnement hebt en communicatie-compliance wilt proberen, kunt u zich registreren voor een proefversie van [Office 365 Enterprise E5.](https://go.microsoft.com/fwlink/p/?LinkID=698279)
+> [!IMPORTANT]
+> Gebruikers die onder communicatie-compliancebeleid vallen, moeten een Microsoft 365 E5 Compliance-licentie, een Office 365 Enterprise E3-licentie met de invoeging Advanced Compliance hebben of moeten zijn opgenomen in een Office 365 Enterprise E5-abonnement. Als u geen bestaand Enterprise E5-abonnement hebt en communicatie-compliance wilt proberen, kunt u zich registreren voor een proefversie van [Office 365 Enterprise E5.](https://go.microsoft.com/fwlink/p/?LinkID=698279)
 
 ## <a name="reviewers"></a>Revisoren
 
@@ -140,7 +140,7 @@ Met communicatie compliancebeleid kunt u ervoor kiezen om berichten in een of me
 
     - **Voor Skype voor Bedrijven Online chatcommunicatie:** Afzonderlijke gebruikers toewijzen of een [distributiegroep](https://support.office.com/article/Distribution-groups-E8BA58A8-FAB2-4AAF-8AA1-2A304052D2DE) toewijzen aan het communicatie compliancebeleid. Deze instelling is voor een-op-een- of een-op-veel-gebruikers-/chatrelaties.
 
-- Bronnen van **derden:** U kunt communicatie scannen op gegevens die zijn geïmporteerd in postvakken in uw Microsoft 365-organisatie vanuit bronnen van derden, zoals [Instant Bloomberg,](archive-instant-bloomberg-data.md) [Slack,](archive-slack-data.md) [Zoom,](archive-zoommeetings-data.md)Sms en vele andere. Zie Gegevens van [derden](archiving-third-party-data.md)archiveren voor een volledige lijst met connectors die worden ondersteund in communicatie compliance.
+- **Bronnen van derden:** U kunt communicatie scannen op gegevens die zijn geïmporteerd in postvakken in uw Microsoft 365-organisatie vanuit bronnen van derden, zoals [Instant Bloomberg,](archive-instant-bloomberg-data.md) [Slack,](archive-slack-data.md) [Zoom,](archive-zoommeetings-data.md)SMS en vele andere. Zie Gegevens van [derden](archiving-third-party-data.md)archiveren voor een volledige lijst met connectors die worden ondersteund in communicatie compliance.
 
     U moet een connector van derden configureren voor uw Microsoft 365 voordat u de verbindingslijn kunt toewijzen aan een communicatie-compliancebeleid. In **de sectie Bronnen van derden van** de wizard Communicatie compliancebeleid worden momenteel alleen geconfigureerde connectors van derden weergegeven.
 
@@ -199,8 +199,8 @@ Met *de* classificaties Volwassenen, *Racy* en *Gory* worden bestanden gescand i
 
 De ingebouwde, trainbare en globale classificaties bieden geen volledige lijst met termen of afbeeldingen in deze gebieden. Bovendien veranderen taal- en culturele standaarden voortdurend en in het licht van deze realiteit behoudt Microsoft zich het recht voor om classificaties naar eigen goed inzicht bij te werken. Hoewel classificaties uw organisatie kunnen helpen bij het bewaken van deze gebieden, zijn classificaties niet bedoeld om uw organisatie de enige manier te bieden om deze taal of afbeeldingen te controleren of aan te pakken. Uw organisatie, niet Microsoft, blijft verantwoordelijk voor alle beslissingen met betrekking tot het controleren, scannen en blokkeren van taal en afbeeldingen op deze gebieden, inclusief naleving van lokale privacy en andere toepasselijke wetten. Microsoft moedigt het raadplegen van juridische raadslieden aan vóór de implementatie en het gebruik.
 
->[!NOTE]
->Beleid dat classificaties gebruikt, controleert en evalueert berichten met een aantal woorden van zes of meer. Berichten met minder dan zes woorden worden niet geëvalueerd in beleid met behulp van classificaties. Als u kortere berichten met ongepaste inhoud wilt identificeren en actie wilt ondernemen, raden we u aan een aangepaste woordenlijst voor trefwoord toe te passen aan communicatie compliancebeleid voor dit type inhoud.
+> [!NOTE]
+> Beleid dat classificaties gebruikt, controleert en evalueert berichten met een aantal woorden van zes of meer. Berichten met minder dan zes woorden worden niet geëvalueerd in beleid met behulp van classificaties. Als u kortere berichten met ongepaste inhoud wilt identificeren en actie wilt ondernemen, raden we u aan een aangepaste woordenlijst voor trefwoord toe te passen aan communicatie compliancebeleid voor dit type inhoud.
 
 Zie Aan de slag met trainbare classificaties voor informatie over Microsoft 365 [klassificatoren.](classifier-get-started-with.md)
 
@@ -218,8 +218,8 @@ Afbeeldingen van 50 KB tot 4 MB in de volgende afbeeldingsindelingen worden gesc
 - .tiff (bestandsindeling tagafbeelding)
 - .pdf (draagbare documentindeling)
 
->[!NOTE]
->Scannen en extractie voor ingesloten en .pdf afbeeldingen wordt momenteel alleen ondersteund voor e-mailberichten.
+> [!NOTE]
+> Scannen en extractie voor ingesloten en .pdf afbeeldingen wordt momenteel alleen ondersteund voor e-mailberichten.
 
 Bij het controleren van waarschuwingen in behandeling voor beleidsregels waarin OCR is ingeschakeld, worden afbeeldingen die zijn geïdentificeerd en gekoppeld aan beleidsvoorwaarden, weergegeven als onderliggende items voor gekoppelde waarschuwingen. U kunt de oorspronkelijke afbeelding bekijken om de geïdentificeerde tekst te evalueren in context met het oorspronkelijke bericht. Het kan tot 48 uur duren voordat gedetecteerde afbeeldingen beschikbaar zijn met waarschuwingen.
 
@@ -229,7 +229,7 @@ Bij het controleren van waarschuwingen in behandeling voor beleidsregels waarin 
 De voorwaarden die u kiest voor het beleid zijn van toepassing op communicatie vanuit zowel e-mailbronnen als externe bronnen in uw organisatie (bijvoorbeeld van Instant Bloomberg).
 
 In de volgende tabel wordt meer uitgelegd over elke voorwaarde.
-  
+
 |**Voorwaarde**|**Deze voorwaarde gebruiken**|
 |:-----|:-----|
 | **Inhoud komt overeen met een van deze classificaties** | Toepassen op het beleid wanneer classificaties in een bericht worden opgenomen of uitgesloten. Sommige classificaties zijn vooraf gedefinieerd in uw tenant en aangepaste classificaties moeten afzonderlijk worden geconfigureerd voordat ze beschikbaar zijn voor deze voorwaarde. Slechts één classificatie kan worden gedefinieerd als een voorwaarde in een beleid. Zie Meer informatie over [trainable classifiers (preview) voor](classifier-learn-about.md)meer informatie over het configureren van classificaties. |
@@ -242,24 +242,26 @@ In de volgende tabel wordt meer uitgelegd over elke voorwaarde.
 | **Bijlage is een van deze bestandstypen**  <br><br> **Bijlage is geen van deze bestandstypen** | Als u toezicht wilt houden op communicatie die specifieke typen bijlagen bevat of uitsluit, voert u de bestandsextensies in (zoals .exe of .pdf). Als u meerdere bestandsextensies wilt opnemen of uitsluiten, voert u deze op afzonderlijke regels in. Er moet slechts één bijlageextensie overeenkomen om het beleid toe te passen.|
 | **Berichtgrootte is groter dan**  <br><br> **Berichtgrootte is niet groter dan** | Als u berichten wilt controleren op basis van een bepaalde grootte, gebruikt u deze voorwaarden om de maximale of minimale grootte op te geven die een bericht kan hebben voordat het wordt beoordeeld. Als u bijvoorbeeld berichtgrootte opgeeft **die groter is** dan \> **1,0 MB,** kunnen alle berichten van 1,01 MB en groter worden beoordeeld. U kunt bytes, kilobytes, megabytes of gigabytes kiezen voor deze voorwaarde.|
 | **Bijlage is groter dan**  <br><br> **Bijlage is niet groter dan** | Als u berichten wilt controleren op basis van de grootte van de bijlagen, geeft u de maximale of minimale grootte op van een bijlage voordat het bericht en de bijlagen worden beoordeeld. Als u bijvoorbeeld een bijlage **opgeeft die groter is** dan \> **2,0 MB,** kunnen alle berichten met bijlagen van 2,01 MB en ouder worden beoordeeld. U kunt bytes, kilobytes, megabytes of gigabytes kiezen voor deze voorwaarde.|
-   
+
 #### <a name="matching-words-and-phrases-to-emails-or-attachments"></a>Woorden en woordgroepen koppelen aan e-mailberichten of bijlagen
 <a name="Matchwords"> </a>
 
 Elk woord dat u typt en scheidt met een komma wordt afzonderlijk toegepast (er moet slechts één woord worden toegepast om de beleidsvoorwaarde toe te passen op de e-mail of bijlage). Laten we bijvoorbeeld de voorwaarde **gebruiken,** Bericht bevat een van deze woorden, met de trefwoorden 'bankier', 'vertrouwelijk' en 'insider trading' gescheiden door een komma (bankier, vertrouwelijk,"insider trading"). Het beleid is van toepassing op berichten met het woord 'bankier', 'vertrouwelijk' of de zin 'handel met voorkennis'. Er mag slechts één van deze woorden of woordgroepen voorkomen om deze beleidsvoorwaarde toe te passen. Woorden in het bericht of de bijlage moeten exact overeenkomen met wat u op typt.
 
->[!IMPORTANT]
->Wanneer u een aangepast woordenlijstbestand importeert, moet elk woord of elke woordgroep worden gescheiden met een tussenregel en een aparte regel. <br> Bijvoorbeeld: <br><br>
->*bankier* <br>
->*vertrouwelijk* <br>
->*handel met voorkennis*
+> [!IMPORTANT]
+>
+> Wanneer u een aangepast woordenlijstbestand importeert, moet elk woord of elke woordgroep worden gescheiden met een tussenregel en een aparte regel. Bijvoorbeeld:
+>
+> *bankier* <br>
+> *vertrouwelijk* <br>
+> *handel met voorkennis*
 
 Als u zowel e-mailberichten als bijlagen wilt [](create-test-tune-dlp-policy.md) scannen op dezelfde [](create-a-keyword-dictionary.md) trefwoorden, maakt u een preventiebeleid voor gegevensverlies met een aangepaste woordenlijst met trefwoorden voor de termen die u in berichten wilt scannen. Met deze beleidsconfiguratie worden gedefinieerde trefwoorden geïdentificeerd die worden weergegeven in het e-mailbericht **OF** in de e-mailbijlage. Als u de standaardinstellingen voor voorwaardelijk beleid gebruikt *(* Bericht bevat een van deze woorden en Bijlage een van deze *woorden)* om termen in berichten en bijlagen te identificeren, moeten de termen aanwezig zijn **in** zowel het bericht als de bijlage.
-  
+
 #### <a name="enter-multiple-conditions"></a>Voer meerdere voorwaarden in
 
 Als u meerdere voorwaarden in Microsoft 365, worden alle voorwaarden samen gebruikt om te bepalen wanneer het communicatie compliancebeleid moet worden toegepast op communicatie-items. Wanneer u meerdere voorwaarden in stelt, moet aan alle voorwaarden worden voldaan om het beleid toe te passen, tenzij u een uitzondering in typt. U hebt bijvoorbeeld een beleid nodig dat van toepassing is als een bericht het woord 'trade' bevat en groter is dan 2 MB. Als het bericht echter ook de woorden 'Goedgekeurd door Contoso financial' bevat, moet het beleid niet van toepassing zijn. In dit voorbeeld worden de drie voorwaarden als volgt gedefinieerd:
-  
+
 - **Bericht bevat een van deze woorden,** met het trefwoord 'trade'
 - **Berichtgrootte is groter dan**, met de waarde 2 MB
 - **Bericht bevat geen van deze woorden,** met de trefwoorden 'Goedgekeurd door contoso financieel team'
@@ -308,8 +310,8 @@ Als u meer wilt maken dan een eenvoudig e-mailbericht op basis van tekst voor me
 </html>
 ```
 
->[!NOTE]
->Html href-kenmerkuitvoering in de meldingssjablonen voor communicatie compliance ondersteunt momenteel slechts enkele aanhalingstekens in plaats van dubbele aanhalingstekens voor URL-verwijzingen.
+> [!NOTE]
+> Html href-kenmerkuitvoering in de meldingssjablonen voor communicatie compliance ondersteunt momenteel slechts enkele aanhalingstekens in plaats van dubbele aanhalingstekens voor URL-verwijzingen.
 
 ## <a name="filters"></a>Filters
 
@@ -344,8 +346,8 @@ Voor communicatie compliancebeleid zijn de volgende waarschuwingsbeleidswaarden 
 | Drempelwaarde | 4 activiteiten |
 | Venster | 60 minuten |
 
->[!Note]
->De instellingen voor triggerinstellingen voor waarschuwingsbeleid voor activiteiten ondersteunen een minimumwaarde van 3 of hoger voor communicatie compliancebeleid.
+> [!NOTE]
+> De instellingen voor triggerinstellingen voor waarschuwingsbeleid voor activiteiten ondersteunen een minimumwaarde van 3 of hoger voor communicatie compliancebeleid.
 
 U kunt de standaardinstellingen voor triggers voor het aantal activiteiten, de periode voor  de activiteiten en voor specifieke gebruikers wijzigen in waarschuwingsbeleid op de pagina Waarschuwingsbeleid in het beveiligings- & compliancecentrum.
 
@@ -355,7 +357,7 @@ Als u het ernstniveau wilt wijzigen dat is toegewezen aan een waarschuwingsbelei
 
 1. Meld u [https://compliance.microsoft.com](https://compliance.microsoft.com) aan bij het gebruik van referenties voor een beheerdersaccount in uw Microsoft 365 organisatie.
 
-2. Ga in Microsoft 365 compliancecentrum naar **Beleid.**
+2. Ga in Microsoft 365-compliancecentrum naar **Beleid.**
 
 3. Selecteer **Office 365 waarschuwing op** **de** pagina Beleid  om de pagina Waarschuwingenbeleid te openen in **Office 365 beveiligingscentrum & Compliancecentrum.**
 
@@ -373,17 +375,17 @@ Als u het ernstniveau wilt wijzigen dat is toegewezen aan een waarschuwingsbelei
 
 Klanten met Microsoft 365-abonnementen die communicatie compliance bevatten, hebben geen extra Power Automate nodig om de aanbevolen standaardcommunicatie compliance-sjabloon Power Automate gebruiken. De standaardsjabloon kan worden aangepast om uw organisatie te ondersteunen en de belangrijkste compliancescenario's voor communicatie te bespreken. Als u ervoor kiest om premium Power Automate-functies in deze sjablonen te gebruiken, maakt u een aangepaste sjabloon met de Microsoft 365-complianceconnector of gebruikt u Power Automate-sjablonen voor andere compliancegebieden in Microsoft 365, hebt u mogelijk extra Power Automate-licenties nodig.
 
->[!IMPORTANT]
->Ontvangt u aanwijzingen voor aanvullende licentievalidatie bij het testen Power Automate stromen? Mogelijk heeft uw organisatie nog geen service-updates voor deze preview-functie ontvangen. Er worden updates geïmplementeerd en alle organisaties met Microsoft 365-abonnementen die communicatie-compliance bevatten, moeten op 30 oktober 2020 licentieondersteuning hebben voor stromen die zijn gemaakt op basis van de aanbevolen Power Automate-sjablonen.
+> [!IMPORTANT]
+> Ontvangt u aanwijzingen voor aanvullende licentievalidatie bij het testen Power Automate stromen? Mogelijk heeft uw organisatie nog geen service-updates voor deze preview-functie ontvangen. Er worden updates geïmplementeerd en alle organisaties met Microsoft 365-abonnementen die communicatie-compliance bevatten, moeten op 30 oktober 2020 licentieondersteuning hebben voor stromen die zijn gemaakt op basis van de aanbevolen Power Automate-sjablonen.
 
 ![Naleving van communicatie Power Automate](../media/communication-compliance-power-automate.png)
 
 De volgende Power Automate wordt aangeboden aan klanten ter ondersteuning van procesautomatisering voor waarschuwingen voor communicatie compliance:
 
 - **Meldingsmanager wanneer een gebruiker een** waarschuwing voor communicatie compliance heeft: Sommige organisaties moeten mogelijk onmiddellijk een melding van het beheer hebben wanneer een gebruiker een waarschuwing voor communicatie compliance heeft. Wanneer deze stroom is geconfigureerd en geselecteerd, ontvangt de manager voor de hoofdgebruiker een e-mailbericht met de volgende informatie over alle waarschuwingen:
-    - Toepasselijk beleid voor de waarschuwing
-    - Datum/tijd van de waarschuwing
-    - Ernst van de waarschuwing
+  - Toepasselijk beleid voor de waarschuwing
+  - Datum/tijd van de waarschuwing
+  - Ernst van de waarschuwing
 
 ### <a name="create-a-power-automate-flow"></a>Een Power Automate maken
 
@@ -391,7 +393,7 @@ Als u een Power Automate wilt maken van een aanbevolen standaardsjabloon, gebrui
 
 Volg de volgende stappen om een stroom Power Automate een standaardsjabloon te maken:
 
-1. Ga in Microsoft 365 compliancecentrum naar **Communicatie compliancebeleid** en selecteer het beleid met de  >   waarschuwing die u wilt controleren.
+1. Ga in Microsoft 365-compliancecentrum naar **Communicatie compliancebeleid** en selecteer het beleid met de  >   waarschuwing die u wilt controleren.
 2. Selecteer in het beleid het **tabblad** In behandeling en selecteer een waarschuwing in behandeling.
 3. Selecteer **Power Automate** in het actiemenu voor waarschuwingen.
 4. Selecteer op **Power Automate** pagina een standaardsjabloon in de sectie Communicatie **compliancesjablonen die** u mogelijk leuk vindt op de pagina.
@@ -408,7 +410,7 @@ Standaard zijn Power Automate die door een gebruiker zijn gemaakt, alleen beschi
 Als u een Power Automate wilt delen, moet u lid zijn van ten minste één rolgroep communicatie compliance.
 Volg de volgende stappen om een stroom Power Automate delen:
 
-1. Ga in Microsoft 365 compliancecentrum naar **Communicatie compliancebeleid** en selecteer het beleid met de  >   waarschuwing die u wilt controleren.
+1. Ga in Microsoft 365-compliancecentrum naar **Communicatie compliancebeleid** en selecteer het beleid met de  >   waarschuwing die u wilt controleren.
 2. Selecteer in het beleid het **tabblad** In behandeling en selecteer een waarschuwing in behandeling.
 3. Selecteer **Power Automate** in het actiemenu voor waarschuwingen.
 4. Selecteer op **Power Automate pagina Mijn** stromen  of **Teamstromen het** tabblad Mijn stromen.
@@ -422,7 +424,7 @@ Als u een stroom wilt bewerken, gebruikt u het besturingselement Power Automate 
 
 Volg de volgende stappen om een stroom Power Automate bewerken:
 
-1. Ga in Microsoft 365 compliancecentrum naar **Communicatie compliancebeleid** en selecteer het beleid met de  >   waarschuwing die u wilt controleren.
+1. Ga in Microsoft 365-compliancecentrum naar **Communicatie compliancebeleid** en selecteer het beleid met de  >   waarschuwing die u wilt controleren.
 2. Selecteer in het beleid het **tabblad** In behandeling en selecteer een waarschuwing in behandeling.
 3. Selecteer **Power Automate** in het actiemenu voor waarschuwingen.
 4. Selecteer op **Power Automate pagina stroom** om te bewerken. Selecteer **Bewerken** in het menu Stroombesturingselement.
@@ -435,7 +437,7 @@ Als u een stroom wilt verwijderen,  gebruikt u het besturingselement Power Autom
 
 Volg de volgende stappen om een stroom Power Automate verwijderen:
 
-1. Ga in Microsoft 365 compliancecentrum naar **Communicatie compliancebeleid** en selecteer het beleid met de  >   waarschuwing die u wilt controleren.
+1. Ga in Microsoft 365-compliancecentrum naar **Communicatie compliancebeleid** en selecteer het beleid met de  >   waarschuwing die u wilt controleren.
 2. Selecteer in het beleid het **tabblad** In behandeling en selecteer een waarschuwing in behandeling.
 3. Selecteer **Power Automate** in het actiemenu voor waarschuwingen.
 4. Selecteer op **Power Automate pagina stroom** die u wilt verwijderen. Selecteer **Verwijderen** in het menu Stroombesturingselement.
@@ -466,7 +468,7 @@ Het **dashboard Rapporten** bevat de volgende rapportwidgets en gedetailleerde r
     - Items in behandeling
     - Gebruiker op de hoogte gesteld
     - Case gemaakt
-    
+
     Gebruik de *optie Exporteren* om een bestand .csv met de rapportdetails te maken.
 - **Item en acties per locatie** gedetailleerd rapport: Overeenkomende items en herstelacties per locatie Microsoft 365 exporteren. Bevat informatie over de manier waarop werkbelastingplatforms zijn gekoppeld aan:
 
@@ -510,8 +512,8 @@ Het **dashboard Rapporten** bevat de volgende rapportwidgets en gedetailleerde r
 
 In sommige gevallen moet u informatie verstrekken aan regelgevende of compliance-auditors om het toezicht op gebruikersactiviteiten en communicatie te bewijzen. Deze informatie kan een overzicht zijn van alle activiteiten die zijn gekoppeld aan een gedefinieerd organisatiebeleid of op elk moment dat een communicatiebeleid wordt gewijzigd. Communicatie compliancebeleid heeft ingebouwde auditpaden voor volledige gereedheid voor interne of externe audits. Gedetailleerde auditgeschiedenissen van elke actie die u maakt, bewerkt en verwijdert, worden vastgelegd in uw communicatiebeleid om het bewijs van toezichtprocedures te leveren.
 
->[!Important]
->Auditing moet zijn ingeschakeld voor uw organisatie voordat communicatie compliancegebeurtenissen worden vastgelegd. Zie Het auditlogboek inschakelen als u controle [wilt inschakelen.](communication-compliance-configure.md#step-2-required-enable-the-audit-log) Wanneer activiteiten gebeurtenissen triggeren die zijn vastgelegd in het Microsoft 365 auditlogboek, kan het tot 48 uur duren voordat deze gebeurtenissen kunnen worden bekeken in communicatie compliancebeleid.
+> [!IMPORTANT]
+> Auditing moet zijn ingeschakeld voor uw organisatie voordat communicatie compliancegebeurtenissen worden vastgelegd. Zie Het auditlogboek inschakelen als u controle [wilt inschakelen.](communication-compliance-configure.md#step-2-required-enable-the-audit-log) Wanneer activiteiten gebeurtenissen triggeren die zijn vastgelegd in het Microsoft 365 auditlogboek, kan het tot 48 uur duren voordat deze gebeurtenissen kunnen worden bekeken in communicatie compliancebeleid.
 
 Als u activiteiten voor het bijwerken van communicatiebeleid wilt bekijken, selecteert u het **besturingselement** Beleidsupdates exporteren op de hoofdpagina voor elk beleid. U moet de  rollen globale beheerder of communicatie *compliancebeheerder* toegewezen krijgen om bijwerkactiviteiten te exporteren. Met deze actie wordt een auditbestand gegenereerd in de .csv indeling met de volgende gegevens:
 
@@ -548,7 +550,7 @@ Search-UnifiedAuditLog -StartDate $startDate -EndDate $endDate -RecordType Disco
 Dit voorbeeld retourneert activiteiten die overeenkomen met uw huidige beleid voor communicatie compliance:
 
 ```PowerShell
-Search-UnifiedAuditLog -StartDate $startDate -EndDate $endDate -Operations SupervisionRuleMatch 
+Search-UnifiedAuditLog -StartDate $startDate -EndDate $endDate -Operations SupervisionRuleMatch
 ```
 
 Communicatie compliancebeleids matches worden opgeslagen in een postvak voor toezicht voor elk beleid. In sommige gevallen moet u mogelijk de grootte van uw postvak controleren op een beleid om te controleren of u de huidige limiet van 50 GB niet bereikt. Als de limiet voor het postvak is bereikt, worden beleidswedstrijden niet vastgelegd en moet u een nieuw beleid maken (met dezelfde instellingen) om overeenkomsten voor dezelfde activiteiten vast te blijven leggen.
@@ -559,7 +561,7 @@ Als u de grootte van een toezichtpostvak voor een beleid wilt controleren, gaat 
 2. Voer de volgende opdracht uit in PowerShell:
 
     ```PowerShell
-    ForEach ($p in Get-SupervisoryReviewPolicyV2 | Sort-Object Name) 
+    ForEach ($p in Get-SupervisoryReviewPolicyV2 | Sort-Object Name)
     {
        "<Name of your communication compliance policy>: " + $p.Name
        Get-MailboxStatistics $p.ReviewMailbox | ft ItemCount,TotalItemSize

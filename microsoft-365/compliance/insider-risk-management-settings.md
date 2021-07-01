@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: 7592b92b74173e77e7937151ba88c23163363fde
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 1dd61570a0695124fdd675241535dec7d288a627
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624691"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226381"
 ---
 # <a name="get-started-with-insider-risk-management-settings"></a>Aan de slag met instellingen voor insider-risicobeheer
 
@@ -70,8 +70,8 @@ In sommige gevallen wilt u mogelijk de indicatoren voor insiderrisicobeleid bepe
 
 Als u de indicatoren voor insiderrisicobeleid wilt definiëren die zijn ingeschakeld in alle insiderrisicobeleidsregels, gaat u naar Insider-risico-instellingen Indicatoren en selecteert u een  >   of meer beleidsindicatoren. De indicatoren die zijn geselecteerd op de pagina Indicatoren-instellingen, kunnen niet afzonderlijk worden geconfigureerd wanneer u een insiderrisicobeleid maakt of bewerkt in de beleidswizard.
 
->[!NOTE]
->Het kan enkele uren duren voordat nieuwe gebruikers die handmatig zijn toegevoegd, worden weergegeven in het **dashboard Gebruikers.** Het kan tot 24 uur duren voordat de activiteiten van de afgelopen 90 dagen voor deze gebruikers worden weergegeven. Als u activiteiten wilt weergeven voor handmatig toegevoegde gebruikers, selecteert u de gebruiker op het **dashboard** Gebruikers en opent u het tabblad **Gebruikersactiviteit** in het detailvenster.
+> [!NOTE]
+> Het kan enkele uren duren voordat nieuwe gebruikers die handmatig zijn toegevoegd, worden weergegeven in het **dashboard Gebruikers.** Het kan tot 24 uur duren voordat de activiteiten van de afgelopen 90 dagen voor deze gebruikers worden weergegeven. Als u activiteiten wilt weergeven voor handmatig toegevoegde gebruikers, selecteert u de gebruiker op het **dashboard** Gebruikers en opent u het tabblad **Gebruikersactiviteit** in het detailvenster.
 
 ### <a name="enable-device-indicators-and-onboard-devices"></a>Apparaatindicatoren en onboard-apparaten inschakelen
 <a name="OnboardDevices"> </a>
@@ -199,8 +199,8 @@ Waarschuwingen van Defender voor Eindpunt worden dagelijks geïmporteerd. Afhank
 
 Als u bijvoorbeeld *Nieuw ,* *In*  uitvoering en Opgelost voor deze instelling selecteert, wanneer een Waarschuwing van Microsoft Defender voor eindpunt wordt gegenereerd en de status Nieuw *is,* wordt een eerste waarschuwingsactiviteit geïmporteerd voor de gebruiker met insiderrisico's. Wanneer de triagestatus van Defender voor eindpunt wordt gewijzigd *in In uitvoering,* wordt een tweede activiteit voor deze waarschuwing geïmporteerd voor de gebruiker met insiderrisico. Wanneer de uiteindelijke Triagestatus van Defender voor Eindpunt van *Opgelost* is ingesteld, wordt een derde activiteit voor deze waarschuwing geïmporteerd voor de gebruiker met insiderrisico. Met deze functionaliteit kunnen onderzoekers de voortgang van de Waarschuwingen van Defender voor eindpunten volgen en het zichtbaarheidsniveau kiezen dat hun onderzoek vereist.
 
->[!IMPORTANT]
->U moet Microsoft Defender voor Eindpunt in uw organisatie hebben geconfigureerd en Defender voor Eindpunt inschakelen voor integratie van intern risicobeheer in het Defender-beveiligingscentrum om waarschuwingen voor beveiligingsovertredingen te importeren. Zie voor meer informatie over het configureren van Defender voor Eindpunt voor integratie met intern risicobeheer [Geavanceerde functies in Defender voor Eindpunt configureren](/windows/security/threat-protection/microsoft-defender-atp/advanced-features\#share-endpoint-alerts-with-microsoft-compliance-center).
+> [!IMPORTANT]
+> U moet Microsoft Defender voor Eindpunt in uw organisatie hebben geconfigureerd en Defender voor Eindpunt inschakelen voor integratie van intern risicobeheer in het Defender-beveiligingscentrum om waarschuwingen voor beveiligingsovertredingen te importeren. Zie voor meer informatie over het configureren van Defender voor Eindpunt voor integratie met intern risicobeheer [Geavanceerde functies in Defender voor Eindpunt configureren](/windows/security/threat-protection/microsoft-defender-atp/advanced-features\#share-endpoint-alerts-with-microsoft-compliance-center).
 
 ### <a name="domains-preview"></a>Domeinen (voorbeeld)
 
@@ -272,11 +272,11 @@ U moet zich bijvoorbeeld beschermen tegen gegevenslekken voor een zeer vertrouwe
 
 ### <a name="create-a-priority-user-group"></a>Een gebruikersgroep met prioriteit maken
 
-Als u een nieuwe gebruikersgroep met prioriteit wilt maken, gebruikt u instellingsbesturingselementen in de **Insider-oplossing** voor risicobeheer in het Microsoft 365 compliancecentrum. Als u een gebruikersgroep met prioriteit wilt maken, moet u lid zijn van de rollengroep *Insider Risk Management* of Insider Risk Management *Admin.*
+Als u een nieuwe gebruikersgroep met prioriteit wilt maken, gebruikt u instellingsbesturingselementen in de **Insider-oplossing** voor risicobeheer in de Microsoft 365-compliancecentrum. Als u een gebruikersgroep met prioriteit wilt maken, moet u lid zijn van de rollengroep *Insider Risk Management* of Insider Risk Management *Admin.*
 
 Volg de volgende stappen om een gebruikersgroep met prioriteit te maken:
 
-1. Ga in [Microsoft 365 compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer **Insider-risico-instellingen.**
+1. Ga in [Microsoft 365-compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer **Insider-risico-instellingen.**
 2. Het tabblad **Prioriteit gebruikersgroepen** selecteren
 3. Selecteer op **het tabblad Prioriteit gebruikersgroepen** de optie **Prioriteitsgebruikersgroep maken** om de wizard Groep maken te starten.
 4. Vul op **de pagina Groep** definiëren de volgende velden in:
@@ -290,11 +290,11 @@ Volg de volgende stappen om een gebruikersgroep met prioriteit te maken:
 
 ### <a name="update-a-priority-user-group"></a>Een gebruikersgroep met prioriteit bijwerken
 
-Als u een bestaande gebruikersgroep met prioriteit wilt bijwerken, gebruikt u instellingsbesturingselementen in de **Insider-oplossing** voor risicobeheer in het Microsoft 365 compliancecentrum. Als u een gebruikersgroep met prioriteit wilt bijwerken, moet u lid zijn van de rollengroep *Insider Risk Management* of Insider Risk Management *Admin.*
+Als u een bestaande gebruikersgroep met prioriteit wilt bijwerken, gebruikt u instellingsbesturingselementen in de **Insider-oplossing** voor risicobeheer in de Microsoft 365-compliancecentrum. Als u een gebruikersgroep met prioriteit wilt bijwerken, moet u lid zijn van de rollengroep *Insider Risk Management* of Insider Risk Management *Admin.*
 
 Volg de volgende stappen om een gebruikersgroep met prioriteit te bewerken:
 
-1. Ga in [Microsoft 365 compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer **Insider-risico-instellingen.**
+1. Ga in [Microsoft 365-compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer **Insider-risico-instellingen.**
 2. Het tabblad **Prioriteit gebruikersgroepen** selecteren
 3. Selecteer de gebruikersgroep met prioriteit die u wilt bewerken en selecteer **Groep bewerken.**
 4. Werk op **de pagina Groep** definiëren het veld Beschrijving zo nodig bij. U kunt de naam van de gebruikersgroep met prioriteit niet bijwerken. Selecteer **Volgende** om door te gaan.
@@ -304,14 +304,14 @@ Volg de volgende stappen om een gebruikersgroep met prioriteit te bewerken:
 
 ### <a name="delete-a-priority-user-group"></a>Een gebruikersgroep met prioriteit verwijderen
 
-Als u een bestaande gebruikersgroep met prioriteit wilt verwijderen, gebruikt u instellingsbesturingselementen in de **Insider-oplossing** voor risicobeheer in het Microsoft 365 compliancecentrum. Als u een gebruikersgroep met prioriteit wilt verwijderen, moet u lid zijn van de rollengroep *Insider Risk Management* of Insider Risk Management *Admin.*
+Als u een bestaande gebruikersgroep met prioriteit wilt verwijderen, gebruikt u instellingsbesturingselementen in de **Insider-oplossing** voor risicobeheer in de Microsoft 365-compliancecentrum. Als u een gebruikersgroep met prioriteit wilt verwijderen, moet u lid zijn van de rollengroep *Insider Risk Management* of Insider Risk Management *Admin.*
 
->[!IMPORTANT]
->Als u een gebruikersgroep met prioriteit verwijdert, wordt deze verwijderd uit een actief beleid waaraan deze is toegewezen. Als u een gebruikersgroep met prioriteit verwijdert die is toegewezen aan een actief beleid, bevat het beleid geen gebruikers binnen het bereik en wordt het inactief en worden er geen waarschuwingen gemaakt.
+> [!IMPORTANT]
+> Als u een gebruikersgroep met prioriteit verwijdert, wordt deze verwijderd uit een actief beleid waaraan deze is toegewezen. Als u een gebruikersgroep met prioriteit verwijdert die is toegewezen aan een actief beleid, bevat het beleid geen gebruikers binnen het bereik en wordt het inactief en worden er geen waarschuwingen gemaakt.
 
 Volg de volgende stappen om een gebruikersgroep met prioriteit te verwijderen:
 
-1. Ga in [Microsoft 365 compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer **Insider-risico-instellingen.**
+1. Ga in [Microsoft 365-compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer **Insider-risico-instellingen.**
 2. Het tabblad **Prioriteit gebruikersgroepen** selecteren
 3. Selecteer de gebruikersgroep met prioriteit die u wilt bewerken en selecteer **Verwijderen** in het dashboardmenu.
 4. Selecteer in **het** dialoogvenster Verwijderen **Ja** om de gebruikersgroep met prioriteit te verwijderen of selecteer **Annuleren om** terug te keren naar het dashboard.
@@ -330,16 +330,16 @@ U kiest ervoor om de fysieke verbindingslijn voor slechtgingsgegevens in Microso
 
 ### <a name="configure-priority-physical-assets"></a>Fysieke activa met prioriteit configureren
 
-Als u fysieke activa met prioriteit wilt configureren, configureert u de connector Voor fysieke problemen en gebruikt u instellingsbesturingselementen in de **Insider-oplossing** voor risicobeheer in het Microsoft 365 compliancecentrum. Als u fysieke activa met prioriteit wilt configureren, moet u lid zijn van de rollengroep *Insider Risk Management* of Insider Risk Management *Admin.*
+Als u fysieke activa met prioriteit wilt configureren, configureert u de connector Fysieke fout en gebruikt u instellingsbesturingselementen in de **Insider-oplossing** voor risicobeheer in de Microsoft 365-compliancecentrum. Als u fysieke activa met prioriteit wilt configureren, moet u lid zijn van de rollengroep *Insider Risk Management* of Insider Risk Management *Admin.*
 
 Volg de volgende stappen om fysieke activa met prioriteit te configureren:
 
 1. Volg de configuratiestappen voor insider risk management in [het artikel Aan de slag met insider risk management.](insider-risk-management-configure.md) Zorg er in stap 3 voor dat u de connector Voor fysieke problemen configureert.
 
-    >[!IMPORTANT]
-    >Voor beleidsregels voor insiderrisicobeheer om signaalgegevens met betrekking tot vertrekkende en beëindigde gebruikers te gebruiken en te correleren met gebeurtenisgegevens van uw fysieke beheer- en toegangsplatformen, moet u ook de Microsoft 365 HR-connector configureren. Als u de connector Voor fysieke problemen inschakelen zonder de Microsoft 365 HR-connector in te stellen, worden met beleid voor insiderrisicobeheer alleen gebeurtenissen verwerkt voor fysieke toegangsactiviteiten voor gebruikers in uw organisatie.
+    > [!IMPORTANT]
+    > Voor beleidsregels voor insiderrisicobeheer om signaalgegevens met betrekking tot vertrekkende en beëindigde gebruikers te gebruiken en te correleren met gebeurtenisgegevens van uw fysieke beheer- en toegangsplatformen, moet u ook de Microsoft 365 HR-connector configureren. Als u de connector Voor fysieke problemen inschakelen zonder de Microsoft 365 HR-connector in te stellen, worden met beleid voor insiderrisicobeheer alleen gebeurtenissen verwerkt voor fysieke toegangsactiviteiten voor gebruikers in uw organisatie.
 
-2. Ga in [Microsoft 365 compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer **Insider-risico-instellingen**  >  **Prioriteit fysieke activa**.
+2. Ga in [Microsoft 365-compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer **Insider-risico-instellingen**  >  **Prioriteit fysieke activa**.
 3. Op  de pagina Fysieke activa prioriteit kunt u handmatig de fysieke activa-id's toevoegen die u wilt controleren op de activagebeurtenissen die zijn geïmporteerd door de fysieke verbindingslijn voor slechte bes, of een .csv-bestand importeren van alle fysieke activa-id's die zijn geïmporteerd door de fysieke verbindingslijn voor slechtheid: a) Als u handmatig fysieke activa-id's wilt toevoegen, kiest u Prioriteit fysieke activa **toevoegen,** voert u een fysieke activa-id in en selecteert u Vervolgens **Toevoegen**. Voer andere fysieke activa-ID's in en selecteer vervolgens Fysieke activa met prioriteit **toevoegen om** alle ingevoerde activa op te slaan.
     b) Als u een lijst met fysieke activa-ID's wilt toevoegen uit een .csv bestand, kiest **u Prioritaire fysieke** activa importeren . Selecteer in het dialoogvenster Verkenner het .csv bestand dat u wilt importeren en selecteer **vervolgens Openen.** De fysieke activa-ID's uit de .csv bestanden worden toegevoegd aan de lijst.
 4. Ga naar het **tabblad Beleidsindicatoren** in Instellingen.
@@ -348,14 +348,14 @@ Volg de volgende stappen om fysieke activa met prioriteit te configureren:
 
 ### <a name="delete-a-priority-physical-asset"></a>Een fysiek activum met prioriteit verwijderen
 
-Als u een bestaand fysiek activum met prioriteit wilt verwijderen, gebruikt u instellingsbesturingselementen in de Insider-oplossing voor risicobeheer in het Microsoft 365 compliancecentrum. Als u een prioritair fysiek activum wilt verwijderen, moet u lid zijn van de rollengroep Insider Risk Management of Insider Risk Management Admin.
+Als u een bestaand fysiek activum met prioriteit wilt verwijderen, gebruikt u instellingsbesturingselementen in de Insider-oplossing voor risicobeheer in de Microsoft 365-compliancecentrum. Als u een prioritair fysiek activum wilt verwijderen, moet u lid zijn van de rollengroep Insider Risk Management of Insider Risk Management Admin.
 
->[!IMPORTANT]
->Als u een prioritair activum verwijdert, wordt het verwijderd uit onderzoek door een actief beleid waaraan het eerder is toegevoegd. Waarschuwingen die worden gegenereerd door activiteiten die zijn gekoppeld aan het prioritaire fysieke activum, worden niet verwijderd.
+> [!IMPORTANT]
+> Als u een prioritair activum verwijdert, wordt het verwijderd uit onderzoek door een actief beleid waaraan het eerder is toegevoegd. Waarschuwingen die worden gegenereerd door activiteiten die zijn gekoppeld aan het prioritaire fysieke activum, worden niet verwijderd.
 
 Volg de volgende stappen om een fysiek activum met prioriteit te verwijderen:
 
-1. Ga in [Microsoft 365 compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer **Insider-risico-instellingen**  >  **Prioriteit fysieke activa**.
+1. Ga in [Microsoft 365-compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer **Insider-risico-instellingen**  >  **Prioriteit fysieke activa**.
 2. Selecteer op **de pagina** Prioriteit fysieke activa het activum dat u wilt verwijderen.
 3. Selecteer **Verwijderen** in het actiemenu om het activum te verwijderen.
 
@@ -379,13 +379,13 @@ De volgende Power Automate klanten ter ondersteuning van procesautomatisering vo
 
 ### <a name="create-a-power-automate-flow-from-insider-risk-management-template"></a>Een stroom Power Automate maken op basis van een insider-sjabloon voor risicobeheer
 
-Als u een Power Automate-stroom wilt maken op basis van een aanbevolen sjabloon voor insiderrisicobeheer, gebruikt u de instellingenbesturingselementen in de  **Insider-oplossing** voor risicobeheer  in het Microsoft 365-compliancecentrum of de optie **Power Automate-stromen** beheren vanuit het besturingselement Automatiseren wanneer u rechtstreeks in de **dashboards** Cases of Gebruikers werkt.
+Als u een Power Automate-stroom wilt maken op basis van een aanbevolen insider-sjabloon voor risicobeheer, gebruikt u de instellingenbesturingselementen  in de **Insider-oplossing**  voor risicobeheer in de Microsoft 365-compliancecentrum of de optie **Power Automate-stromen** beheren vanuit het besturingselement Automatiseren wanneer u rechtstreeks in de **dashboards** Cases of Gebruikers werkt.
 
 Als u een Power Automate wilt maken in het instellingengebied, moet u lid zijn van de rollengroep *Insider Risk Management* of Insider Risk Management *Admin.* Als u een Power Automate wilt  maken met de optie Power Automate stromen beheren, moet u lid zijn van ten minste één rollengroep voor insiderrisicobeheer.
 
 Volg de volgende stappen om een Power Automate te maken op basis van een aanbevolen sjabloon voor insiderrisicobeheer:
 
-1. Ga in [Microsoft 365 compliancecentrum](https://compliance.microsoft.com/)naar **Insider-risicobeheer** en selecteer **Insider-risico-instellingen**  >  **Power Automate stromen.** U kunt ook toegang krijgen vanaf de **pagina's Cases** of **Gebruikersdashboards** door **Te** automatiseren  >  **Power Automate stromen.**
+1. Ga in [Microsoft 365-compliancecentrum](https://compliance.microsoft.com/)naar **Insider-risicobeheer** en selecteer **Insider-risico-instellingen**  >  **Power Automate stromen.** U kunt ook toegang krijgen vanaf de **pagina's Cases** of **Gebruikersdashboards** door **Te** automatiseren  >  **Power Automate stromen.**
 2. Selecteer op **Power Automate pagina met stromen** een aanbevolen sjabloon in de **insider-sjablonen** voor risicobeheer die u mogelijk leuk vindt op de pagina.
 3. In de stroom worden de ingesloten verbindingen vermeld die nodig zijn voor de stroom en wordt vermeld of de verbindingsstatussen beschikbaar zijn. Werk indien nodig eventuele verbindingen bij die niet als beschikbaar worden weergegeven. Selecteer **Doorgaan**.
 4. Standaard zijn de aanbevolen stromen vooraf geconfigureerd met het aanbevolen insiderrisicobeheer en Microsoft 365 servicegegevensvelden die nodig zijn om de toegewezen taak voor de stroom te voltooien. Pas indien nodig de stroomonderdelen aan met behulp van **het** besturingselement Geavanceerde opties weergeven en de beschikbare eigenschappen voor het stroomonderdeel configureren.
@@ -393,8 +393,8 @@ Volg de volgende stappen om een Power Automate te maken op basis van een aanbevo
 6. Selecteer **Concept opslaan om** de stroom op te slaan voor verdere configuratie of selecteer **Opslaan** om de configuratie voor de stroom te voltooien.
 7. Selecteer **Sluiten om** terug te keren naar de Power Automate **stroompagina.** De nieuwe sjabloon wordt weergegeven als een stroom op de tabbladen  Mijn **stromen** en is automatisch beschikbaar via de vervolgkeuzelijst Automatiseren wanneer u werkt met cases voor insiderrisicobeheer voor de gebruiker die de stroom maakt.
 
->[!IMPORTANT]
->Als andere gebruikers in uw organisatie toegang tot de stroom nodig hebben, moet de stroom worden gedeeld.
+> [!IMPORTANT]
+> Als andere gebruikers in uw organisatie toegang tot de stroom nodig hebben, moet de stroom worden gedeeld.
 
 ![Insider risk management power automate flows](../media/insider-risk-settings-power-automate-flows.png)
 
@@ -419,13 +419,13 @@ Volg de volgende stappen om een aangepaste sjabloon Power Automate maken voor in
 
 ### <a name="share-a-power-automate-flow"></a>Een stroom Power Automate delen
 
-Standaard zijn Power Automate die door een gebruiker zijn gemaakt, alleen beschikbaar voor die gebruiker. Als andere insiderrisicobeheergebruikers toegang hebben tot en een stroom gebruiken, moet de stroom worden gedeeld door de maker van de stroom. Als u een stroom wilt delen, gebruikt u de instellingenbesturingselementen in de **Insider-oplossing** voor risicobeheer in het Microsoft 365-compliancecentrum  of de optie **Power Automate-stromen** beheren vanuit het besturingselement Automatiseren wanneer u rechtstreeks op de dashboardpagina's Cases of **Gebruikers** werkt. Nadat u een stroom hebt gedeeld, heeft iedereen met wie  deze is gedeeld toegang tot de stroom in de vervolgkeuze van besturingselement Automatiseren in de dashboards Case **en** **Gebruiker.**
+Standaard zijn Power Automate die door een gebruiker zijn gemaakt, alleen beschikbaar voor die gebruiker. Als andere insiderrisicobeheergebruikers toegang hebben tot en een stroom gebruiken, moet de stroom worden gedeeld door de maker van de stroom. Als u een stroom wilt delen, gebruikt u de instellingenbesturingselementen in de **insider-oplossing** voor risicobeheer in de Microsoft 365-compliancecentrum  of de optie **Power Automate-stromen** beheren vanuit het besturingselement Automatiseren wanneer u rechtstreeks op de dashboardpagina's Cases of **Gebruikers** werkt. Nadat u een stroom hebt gedeeld, heeft iedereen met wie  deze is gedeeld toegang tot de stroom in de vervolgkeuze van besturingselement Automatiseren in de dashboards Case **en** **Gebruiker.**
 
 Als u een Power Automate wilt delen in het instellingengebied, moet u lid zijn van de rollengroep *Insider Risk Management* of Insider Risk Management *Admin.* Als u een Power Automate wilt  delen met de optie Power Automate stromen beheren, moet u lid zijn van ten minste één rollengroep voor insiderrisicobeheer.
 
 Volg de volgende stappen om een stroom Power Automate delen:
 
-1. Ga in [Microsoft 365 compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer **Insider-risico-instellingen**  >  **Power Automate stromen.** U kunt ook toegang krijgen vanaf de **pagina's Cases** of **Gebruikersdashboards** door **Te** automatiseren  >  **Power Automate stromen.**
+1. Ga in [Microsoft 365-compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer **Insider-risico-instellingen**  >  **Power Automate stromen.** U kunt ook toegang krijgen vanaf de **pagina's Cases** of **Gebruikersdashboards** door **Te** automatiseren  >  **Power Automate stromen.**
 2. Selecteer op **Power Automate pagina Mijn** stromen  of **Teamstromen het** tabblad Mijn stromen.
 3. Selecteer de stroom die u wilt delen en selecteer **vervolgens Delen** in het menu stroomopties.
 4. Voer op de pagina stroom delen de naam in van de gebruiker of groep die u als eigenaar voor de stroom wilt toevoegen.
@@ -433,26 +433,26 @@ Volg de volgende stappen om een stroom Power Automate delen:
 
 ### <a name="edit-a-power-automate-flow"></a>Een stroom Power Automate bewerken
 
-Als u een stroom wilt bewerken, gebruikt u de instellingenbesturingselementen in de **Insider-oplossing** voor risicobeheer  in het Microsoft 365-compliancecentrum  of de optie **Power Automate-stromen** beheren vanuit het besturingselement Automatiseren wanneer u rechtstreeks in de **dashboards** Cases of Gebruikers werkt.
+Als u een stroom wilt bewerken, gebruikt u de instellingenbesturingselementen in de **insider-oplossing** voor risicobeheer in de Microsoft 365-compliancecentrum  of de optie  **Power Automate-stromen** beheren vanuit het besturingselement Automatiseren wanneer u rechtstreeks in de **dashboards** Cases of Gebruikers werkt.
 
 Als u een Power Automate wilt bewerken in het instellingengebied, moet u lid zijn van de rollengroep *Insider Risk Management* of Insider Risk Management *Admin.* Als u een Power Automate wilt  bewerken met de optie Power Automate beheren, moet u lid zijn van ten minste één rollengroep voor insiderrisicobeheer.
 
 Volg de volgende stappen om een stroom Power Automate bewerken:
 
-1. Ga in [Microsoft 365 compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer **Insider-risico-instellingen**  >  **Power Automate stromen.** U kunt ook toegang krijgen vanaf de **pagina's Cases** of **Gebruikersdashboards** door **Te** automatiseren  >  **Power Automate stromen.**
+1. Ga in [Microsoft 365-compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer **Insider-risico-instellingen**  >  **Power Automate stromen.** U kunt ook toegang krijgen vanaf de **pagina's Cases** of **Gebruikersdashboards** door **Te** automatiseren  >  **Power Automate stromen.**
 2. Selecteer op **Power Automate pagina stroomstromen** een stroom die u wilt bewerken en selecteer **Bewerken** in het menu Stroombesturingselement.
 3. Selecteer het **beletselteken Instellingen** als u de instelling van een stroomcomponent of beletselteken Verwijderen wilt wijzigen om  >     >   een stroomcomponent te verwijderen.
 4. Selecteer **Opslaan en** vervolgens Sluiten **om** het bewerken van de stroom te voltooien.
 
 ### <a name="delete-a-power-automate-flow"></a>Een stroom Power Automate verwijderen
 
-Als u een stroom wilt verwijderen, gebruikt u de instellingenbesturingselementen in de **Insider-oplossing** voor risicobeheer  in het Microsoft 365-compliancecentrum  of de optie **Power Automate-stromen** beheren vanuit het besturingselement Automatiseren wanneer u rechtstreeks in de **dashboards** Cases of Gebruikers werkt. Wanneer een stroom wordt verwijderd, wordt deze verwijderd als een optie voor alle gebruikers.
+Als u een stroom wilt verwijderen, gebruikt u de instellingenbesturingselementen in de **insider-oplossing** voor  risicobeheer in de Microsoft 365-compliancecentrum  of de optie **Power Automate-stromen** beheren vanuit het besturingselement Automatiseren wanneer u rechtstreeks in de dashboards Cases of **Gebruikers werkt.** Wanneer een stroom wordt verwijderd, wordt deze verwijderd als een optie voor alle gebruikers.
 
 Als u een Power Automate wilt verwijderen in het instellingengebied, moet u lid zijn van de rollengroep *Insider Risk Management* of Insider Risk Management *Admin.* Als u een Power Automate wilt  verwijderen met de optie Power Automate beheren, moet u lid zijn van ten minste één rollengroep voor insiderrisicobeheer.
 
 Volg de volgende stappen om een stroom Power Automate verwijderen:
 
-1. Ga in [Microsoft 365 compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer **Insider-risico-instellingen**  >  **Power Automate stromen.** U kunt ook toegang krijgen vanaf de **pagina's Cases** of **Gebruikersdashboards** door **Te** automatiseren  >  **Power Automate stromen.**
+1. Ga in [Microsoft 365-compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer **Insider-risico-instellingen**  >  **Power Automate stromen.** U kunt ook toegang krijgen vanaf de **pagina's Cases** of **Gebruikersdashboards** door **Te** automatiseren  >  **Power Automate stromen.**
 2. Selecteer op **Power Automate pagina stroomstromen** een stroom die u wilt verwijderen en selecteer **Verwijderen** in het menu Stroombesturingselement.
 3. Selecteer verwijderen in het  bevestigingsdialoogvenster verwijderen om de stroom te verwijderen of selecteer **Annuleren om** de verwijderingsactie te sluiten.
 
@@ -470,7 +470,7 @@ Zie Overzicht van teams en kanalen in Microsoft Teams voor meer informatie over 
 
 Het inschakelen Microsoft Teams ondersteuning voor cases is snel en eenvoudig te configureren. Als u een Microsoft Teams voor insider-risicobeheer wilt inschakelen, moet u de volgende stappen volgen:
 
-1. Ga in [Microsoft 365 compliancecentrum](https://compliance.microsoft.com)naar **Insider risk management** Insider risk  >  **settings**.
+1. Ga in [Microsoft 365-compliancecentrum](https://compliance.microsoft.com)naar **Insider risk management** Insider risk  >  **settings**.
 2. Selecteer het **Microsoft Teams** tabblad.
 3. Schakel Microsoft Teams integratie in voor insiderrisicobeheer.
 4. Selecteer **Opslaan om** te configureren en af te sluiten.
@@ -485,7 +485,7 @@ Gebruikers hebben machtigingen nodig om groepen Microsoft 365 maken in uw organi
 
 Als u een team voor een zaak wilt maken, gebruikt u het besturingselement Microsoft-team maken wanneer u rechtstreeks in een bestaand geval werkt. Volg de volgende stappen om een nieuw team te maken:
 
-1. Ga in [Microsoft 365 compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheerzaken**  >   en selecteer een bestaand geval.
+1. Ga in [Microsoft 365-compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheerzaken**  >   en selecteer een bestaand geval.
 2. Selecteer Microsoft Team maken in het actiemenu Voor **de zaak.**
 3. Voer in **het veld Teamnaam** een naam in voor het nieuwe Microsoft Teams team.
 4. Selecteer **Microsoft-team maken** en selecteer **vervolgens Sluiten.**
@@ -516,7 +516,7 @@ Analyseinzichten van scans zijn gebaseerd op dezelfde risicoactiviteitssignalen 
 Als u insiderrisicoanalyse wilt inschakelen, moet u lid zijn van de rollengroep Insider Risk Management, Insider Risk Management of Microsoft 365 Global Admin.
 Volg de volgende stappen om insider risk analytics in teschakelen:
 
-1. Ga in [Microsoft 365 compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer.**
+1. Ga in [Microsoft 365-compliancecentrum](https://compliance.microsoft.com)naar **Insider risk management**.
 2. Selecteer **Scan uitvoeren** op de scan voor **insiderrisico's in uw organisatiekaart** op het tabblad Overzicht van insiderrisicobeheer.  Hiermee schakelt u het scannen van analyses voor uw organisatie in. U kunt scannen in uw organisatie ook inschakelen door te navigeren naar Insider-risico-instellingen Analytics en de gebruikersactiviteit van uw tenant scannen in te stellen om mogelijke  >   **insiderrisico's te identificeren.**
 3. Selecteer in **het detailvenster Analyse** **de optie Scan uitvoeren om** de scan voor uw organisatie te starten. Het kan tot 24 uur duren voordat inzichten beschikbaar zijn als rapporten om te worden beoordeeld.
 
@@ -546,6 +546,6 @@ Als u insiderrisicoanalyse wilt uitschakelen, moet u lid zijn van de rollengroep
 
 Volg de volgende stappen om insider risk analytics uit te schakelen:
 
-1. Ga in [Microsoft 365 compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer.**
+1. Ga in [Microsoft 365-compliancecentrum](https://compliance.microsoft.com)naar **Insider risk management**.
 2. Selecteer **de pagina Insider-risico-instellingen**  >  **Analytics.**
 3. Schakel op **de pagina Analyse** de gebruikersactiviteit van uw tenant scannen uit om mogelijke **insiderrisico's te identificeren.**

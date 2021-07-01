@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: 30363b544d9016b10dd9aad463d33c40065da0f3
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 1864c34f1e7bb17decfaeb2057dfff463a33b37c
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "52161982"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226345"
 ---
 # <a name="learn-about-insider-risk-management-in-microsoft-365"></a>Meer informatie over insider risk management in Microsoft 365
 
@@ -127,8 +127,8 @@ In de ernstigere situaties moet u mogelijk de case-informatie over insiderrisico
 - **Advanced eDiscovery:** Als u een zaak voor onderzoek escaleert, kunt u gegevens en het beheer van de zaak overbrengen naar Advanced eDiscovery in Microsoft 365. Advanced eDiscovery biedt een end-to-end werkstroom voor het bewaren, verzamelen, controleren, analyseren en exporteren van inhoud die reageert op interne en externe onderzoeken van uw organisatie. Hiermee kunnen juridische teams de volledige werkstroom voor meldingen in juridische wacht houden beheren. Zie Overzicht van Advanced eDiscovery in Microsoft 365 voor meer informatie over Advanced eDiscovery [gevallen.](overview-ediscovery-20.md)
 - **Office 365 Management API's-integratie (preview)**: Insider risk management ondersteunt het exporteren van waarschuwingsgegevens naar siem-services (Security Information and Event Management) via de Office 365 Management API's. Als u toegang hebt tot waarschuwingsgegevens op het platform, past dit het beste bij de risicoprocessen van uw organisatie, waardoor u meer flexibiliteit hebt bij het uitvoeren van risicoactiviteiten. Zie Waarschuwingen exporteren voor meer informatie over het exporteren van waarschuwingsgegevens Office 365 [beheer-API's.](insider-risk-management-settings.md#export-alerts-preview)
 
->[!NOTE]
->Bedankt voor uw feedback en ondersteuning tijdens het voorbeeld van de ServiceNow-connector. We hebben besloten om de preview van ServiceNow-connector te beëindigen en de ondersteuning voor insiderrisicobeheer te beëindigen op 30 november 2020. We evalueren actief alternatieve methoden om klanten serviceNow-integratie te bieden in insider risk management.
+> [!NOTE]
+> Bedankt voor uw feedback en ondersteuning tijdens het voorbeeld van de ServiceNow-connector. We hebben besloten om de preview van ServiceNow-connector te beëindigen en de ondersteuning voor insiderrisicobeheer te beëindigen op 30 november 2020. We evalueren actief alternatieve methoden om klanten serviceNow-integratie te bieden in insider risk management.
 
 ## <a name="scenarios"></a>Scenario's
 

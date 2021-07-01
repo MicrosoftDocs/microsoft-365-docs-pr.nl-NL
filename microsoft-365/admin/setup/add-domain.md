@@ -25,13 +25,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 6383f56d-3d09-4dcb-9b41-b5f5a5efd611
-description: Gebruik de installatiewizard om uw domein toe te voegen aan Microsoft 365 in het Microsoft 365 beheercentrum door een DNS-record toe te voegen aan uw DNS-host.
-ms.openlocfilehash: 152144737b0ff8cb8b0c27db2a4fc1051fb2a8a7
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+description: Gebruik de installatiewizard om uw domein toe te voegen aan Microsoft 365 in de Microsoft 365-beheercentrum door een DNS-record toe te voegen aan uw DNS-host.
+ms.openlocfilehash: 547a3bf242130993522b00f53819908b10c9e4d1
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635676"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227833"
 ---
 # <a name="add-a-domain-to-microsoft-365"></a>Een domein toevoegen aan Microsoft 365
 
@@ -45,7 +45,7 @@ Volg deze stappen om een domein toe te voegen, in te stellen of te blijven inste
 
 ::: moniker range="o365-worldwide"
 
-1. Ga naar het beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.
+1. Ga naar het beheercentrum via <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.
 
 ::: moniker-end
 ::: moniker range="o365-germany"
@@ -81,8 +81,6 @@ Volg deze stappen om een domein toe te voegen, in te stellen of te blijven inste
 
     Als uw domeinregistrar niet wordt herkend door de portal, kunt u [deze algemene instructies volgen.](../get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)
     
-    Bekijk onze lijst met [hostspecifieke instructies](../get-help-with-domains/set-up-your-domain-host-specific-instructions.md) om uw host te vinden en volg de stappen om alle records toe te voegen die u nodig hebt. 
-    
     Als u niet weet wie de DNS-hostingprovider of domeinregistrar voor uw domein is, raadpleegt u [Zoeken naar uw domeinregistrar of DNS-hostingprovider](../get-help-with-domains/find-your-domain-registrar.md).
     
     Als u later wilt wachten, deselecteert u alle services en klikt u  op Doorgaan **of** kiest u in de vorige domeinverbindingsstap Meer opties en selecteert u Dit voor **nu overslaan.**
@@ -103,7 +101,7 @@ Volg de onderstaande stappen om een aangepaste record toe te voegen voor een web
 
 5. Selecteer het type DNS-record dat u wilt toevoegen en typ de gegevens voor de nieuwe record.
     
-6. Klik op **Opslaan**.
+6. Kies **Opslaan**.
 
 ## <a name="registrars-with-domain-connect"></a>Registrars met domein Verbinding maken
 
@@ -139,4 +137,3 @@ Als uw bedrijf een website heeft, blijft die gewoon werken. De stappen Verbindin
 [Veelgestelde vragen over domeinen](domains-faq.yml) (artikel)\
 [Wat is een domein?](../get-help-with-domains/what-is-a-domain.md) (artikel)\
 [Een domeinnaam kopen in Microsoft 365](../get-help-with-domains/buy-a-domain-name.md) (artikel)\
-[Uw domein instellen](../get-help-with-domains/set-up-your-domain-host-specific-instructions.md) (artikel)

@@ -22,16 +22,16 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Meer informatie over het verplaatsen van uw bedrijf van Microsoft 365 Business Premium naar Microsoft 365 E3.
-ms.openlocfilehash: 10630671f3deb7eff0ad0f601d301b90743ee35f
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 6502d79dbb283db37b00e4fccf89b15ab4291ce5
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51164508"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227614"
 ---
 # <a name="migrate-from-microsoft-365-business-premium-to-microsoft-365-e3"></a>Migreren van Microsoft 365 Business Premium naar Microsoft 365 E3
 
-Microsoft 365 Business Premium heeft alles wat u nodig hebt voor uw kleine bedrijf, door de beste productiviteitsapps in de cloud te combineren met eenvoudig apparaatbeheer en beveiliging waarmee uw werknemers hun beste werk kunnen doen. In sommige gevallen moet u echter mogelijk uw Microsoft 365 Business Premium migreren naar Microsoft 365 E3. 
+Microsoft 365 Business Premium heeft alles wat u nodig hebt voor uw kleine bedrijf, door de beste productiviteitsapps in de cloud te combineren met eenvoudig apparaatbeheer en beveiliging waarmee uw werknemers hun beste werk kunnen doen. In sommige gevallen moet u echter mogelijk uw Microsoft 365 Business Premium migreren naar Microsoft 365 E3.
 
 Uw bedrijf is bijvoorbeeld groter geworden en heeft meer dan 300 licenties nodig (gefeliciteerd trouwens).
 
@@ -39,49 +39,48 @@ Of uw bedrijf heeft bedrijfsfuncties nodig, zoals Microsoft 365-apps voor ondern
 
 Upgraden is eenvoudig: u kunt de upgrade starten [vanuit het beheercentrum.](../commerce/subscriptions/upgrade-to-different-plan.md) Al uw gegevens en configuratie in uw huidige abonnement blijven behouden. U hoeft niets te doen om u voor te bereiden op de migratie en daarna niets te doen, behalve profiteren van de nieuwe functies.
 
->[!Note]
->U kunt ook een abonnement Microsoft 365 Business Premium voor maximaal 300 stoelen en een abonnement Microsoft 365 E3 meer dan 300 seats krijgen. Microsoft Defender voor Office 365 is echter niet opgenomen in Microsoft 365 E3. Voor verdere bedreigingsbeveiliging moet u extra Defender voor Office 365-licenties toevoegen, zodat alle gebruikers in het bereik van uw Defender voor Office 365 agenten een licentie hebben.
->
+> [!NOTE]
+> U kunt ook een abonnement Microsoft 365 Business Premium voor maximaal 300 stoelen en een abonnement Microsoft 365 E3 meer dan 300 seats krijgen. Microsoft Defender voor Office 365 is echter niet opgenomen in Microsoft 365 E3. Voor verdere bedreigingsbeveiliging moet u extra Defender voor Office 365-licenties toevoegen, zodat alle gebruikers in het bereik van uw Defender voor Office 365 agenten een licentie hebben.
 
 ## <a name="differences-between-microsoft-365-business-premium-and-microsoft-365-enterprise"></a>Verschillen tussen Microsoft 365 Business Premium en Microsoft 365 Enterprise
 
 In deze tabel ziet u de verschillen tussen Microsoft 365 Business Premium en Microsoft 365 E3.
 
-| Functie    | Ondersteuning in Microsoft 365 Business Premium    | Ondersteuning in Microsoft 365 E3 | 
+| Functie    | Ondersteuning in Microsoft 365 Business Premium    | Ondersteuning in Microsoft 365 E3 |
 |:-------|:-----|:-----|
-| **On-premises**        | | | 
-| Windows 10    | Windows 10 Business  |     Windows 10 Enterprise E3| 
-| Office apps*    | [Microsoft 365-apps voor bedrijven](#office-365-business)    | Microsoft 365-apps voor ondernemingen | 
-| **Cloudproductiviteits-apps**        | | | 
-| Exchange Online en Outlook    | 50 GB opslaglimiet per postvak en onbeperkte Exchange Online archiveren    | 100 GB opslaglimiet per postvak en onbeperkte Exchange Online archiveren | 
-| Teams    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
-| OneDrive voor Bedrijven    | 1 TB opslaglimiet per gebruiker    | Onbeperkt | 
-| Yammer, SharePoint Online, Planner, Stream    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
-| **Bedreigingsbeveiliging**        | | | 
-| Surface Reduction-mogelijkheden voor aanvallen    | [Deze lijst bekijken](#threat-protection) | Enterprise management of hardware-based isolation for Microsoft Edge | 
-| Defender voor Office 365 Abonnement 1 | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | Niet inbegrepen, maar kan worden toegevoegd aan | 
-| **Identiteitsbeheer**        | | | 
-| Selfservice password reset for hybrid Azure Active Directory (Azure AD) accounts, Azure AD multi-factor authentication (MFA), Conditional Access, password writeback for on-premises identities|     ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
-| Cloud App Discovery, Azure AD Verbinding maken Health    |     | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
-| Azure AD Office 365 apps Single Sign-On (SSO): 10 apps per gebruiker (SaaS-apps in galerie, zoals Salesforce)* | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
-| Azure AD Premium 1 SSO: geen limiet (on-premises apps via Azure AD Application Proxy en niet-galerie-apps met Self-Service sjablonen voor app-integratie)    |     | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
-| **Apparaat- en app-beheer**        | | | 
-| Microsoft Intune, Windows Autopilot|     ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
-|VDA (Virtual Desktop Access)    |  |     ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
-|Windows Virtual Desktop (WVD)    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png) |     ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
-|Gedeelde computeractivering (SCA)    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png) |     ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
-| Microsoft Desktop Optimization Package    | |     ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
-| **Gegevensbeveiliging**        | | | 
-| Office 365 Preventie van gegevensverlies, Azure Information Protection Plan 1    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
-| Vensterinformatiebeveiliging voor eindpunt DLP    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
-| **Client Access License (CAL-rechten)**    | | |     
-| Enterprise CAL Suite (Exchange, SharePoint, Skype, Windows, Microsoft Endpoint Configuration Manager, Windows Rights Management)| |         ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
-| **Compliance**        | | | 
-| Onbeperkt e-mailarchiveren    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
-| Compliancebeheer    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
-| eDiscovery    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
-| In-place hold and litigation hold    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
-| Mrm-bewaarlabels (Messaging Records Management) en bewaarbeleid    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) | 
+| **On-premises**        | | |
+| Windows 10    | Windows 10 Business  |     Windows 10 Enterprise E3|
+| Office apps*    | [Microsoft 365-apps voor bedrijven](#office-365-business)    | Microsoft 365-apps voor ondernemingen |
+| **Cloudproductiviteits-apps**        | | |
+| Exchange Online en Outlook    | 50 GB opslaglimiet per postvak en onbeperkte Exchange Online archiveren    | 100 GB opslaglimiet per postvak en onbeperkte Exchange Online archiveren |
+| Teams    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) |
+| OneDrive voor Bedrijven    | 1 TB opslaglimiet per gebruiker    | Onbeperkt |
+| Yammer, SharePoint Online, Planner, Stream    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) |
+| **Bedreigingsbeveiliging**        | | |
+| Surface Reduction-mogelijkheden voor aanvallen    | [Deze lijst bekijken](#threat-protection) | Enterprise management of hardware-based isolation for Microsoft Edge |
+| Defender voor Office 365 Abonnement 1 | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | Niet inbegrepen, maar kan worden toegevoegd aan |
+| **Identiteitsbeheer**        | | |
+| Selfservice password reset for hybrid Azure Active Directory (Azure AD) accounts, Azure AD multi-factor authentication (MFA), Conditional Access, password writeback for on-premises identities|     ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) |
+| Cloud App Discovery, Azure AD Verbinding maken Health    |     | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) |
+| Azure AD Office 365 apps Single Sign-On (SSO): 10 apps per gebruiker (SaaS-apps in galerie, zoals Salesforce)* | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) |
+| Azure AD Premium 1 SSO: geen limiet (on-premises apps via Azure AD Application Proxy en niet-galerie-apps met Self-Service sjablonen voor app-integratie)    |     | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) |
+| **Apparaat- en app-beheer**        | | |
+| Microsoft Intune, Windows Autopilot|     ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) |
+|VDA (Virtual Desktop Access)    |  |     ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) |
+|Windows Virtual Desktop (WVD)    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png) |     ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) |
+|Gedeelde computeractivering (SCA)    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png) |     ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) |
+| Microsoft Desktop Optimization Package    | |     ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) |
+| **Gegevensbeveiliging**        | | |
+| Office 365 Preventie van gegevensverlies, Azure Information Protection Plan 1    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) |
+| Vensterinformatiebeveiliging voor eindpunt DLP    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) |
+| **Client Access License (CAL-rechten)**    | | |
+| Enterprise CAL Suite (Exchange, SharePoint, Skype, Windows, Microsoft Endpoint Configuration Manager, Windows Rights Management)| |         ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) |
+| **Compliance**        | | |
+| Onbeperkt e-mailarchiveren    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) |
+| Compliancebeheer    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) |
+| eDiscovery    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) |
+| In-place hold and litigation hold    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) |
+| Mrm-bewaarlabels (Messaging Records Management) en bewaarbeleid    | ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inbegrepen bij Microsoft 365 E3](../media/check-mark.png) |
 ||||
 
 \* Gebruikers aan wie toegang is toegewezen tot SaaS-apps, kunnen toegang krijgen tot maximaal 10 apps. Beheerders kunnen de toegang van gebruikers tot verschillende SaaS-apps configureren en wijzigen, maar SSO-toegang is alleen toegestaan voor 10 apps per gebruiker tegelijk. Alle Office 365 apps worden als één app geteld.
@@ -123,9 +122,8 @@ Windows 10 Business bevat de volgende beveiligingen:
 
 Windows 10 Enterprise E3 bevat ook enterprise management van op hardware gebaseerde isolatie voor Microsoft Edge.
 
->[!Note]
->Gebruikers die naar Microsoft 365 E3 zijn gemigreerd, hebben elk een Microsoft Defender Office 365 voor verdere bedreigingsbeveiliging. Zorg ervoor dat u extra Defender koopt voor Office 365 licenties, zodat alle gebruikers in het bereik van uw Defender voor Office 365 agenten een licentie hebben. 
->
+> [!NOTE]
+> Gebruikers die naar Microsoft 365 E3 zijn gemigreerd, hebben elk een Microsoft Defender Office 365 voor verdere bedreigingsbeveiliging. Zorg ervoor dat u extra Defender koopt voor Office 365 licenties, zodat alle gebruikers in het bereik van uw Defender voor Office 365 agenten een licentie hebben.
 
 ### <a name="device-management-with-intune"></a>Apparaatbeheer met Intune
 
@@ -140,7 +138,6 @@ Microsoft 365 Business Premium bevat Windows 10 Business, die u kunt installeren
 
 De Microsoft 365-apps voor bedrijven client die op uw apparaten is geïnstalleerd, wordt automatisch gebruikt met de functies van Microsoft 365-apps voor ondernemingen. Na de migratie kunt u nu het volgende gebruiken:
 
- - Ondersteuning voor groepsbeleid
- - Spreadsheets vergelijken en informeren
- - Bedrijfsinformatie
-
+- Ondersteuning voor groepsbeleid
+- Spreadsheets vergelijken en informeren
+- Bedrijfsinformatie

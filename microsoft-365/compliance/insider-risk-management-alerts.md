@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 9fe1665eda882793a62315299a3cbf6667ec7988
-ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
+ms.openlocfilehash: 0ee3fdf19552ee80737f6758e655d297228c469e
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "52162497"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226549"
 ---
 # <a name="insider-risk-management-alerts"></a>Waarschuwingen voor insiderrisicobeheer
 
@@ -32,14 +32,14 @@ Met het dashboard Insider Risk **Alert** kunt u waarschuwingen die worden gegene
 - **Totaal aantal waarschuwingen dat moet** worden beoordeeld: Het totale aantal waarschuwingen dat moet worden beoordeeld en drie keer moet worden beoordeeld, inclusief een uitsplitsing op ernst van de waarschuwing.
 - **Waarschuwingen openen in de afgelopen 30** dagen: het totale aantal waarschuwingen dat is gemaakt door beleid komt overeen met de afgelopen 30 dagen, gesorteerd op hoge, gemiddelde en lage ernst van waarschuwingen.
 - **Gemiddelde tijd om waarschuwingen op te lossen:** een overzicht van nuttige waarschuwingsstatistieken:
-    - Gemiddelde tijd om waarschuwingen met hoge ernst op te lossen, weergegeven in uren, dagen of maanden.
-    - Gemiddelde tijd om waarschuwingen met gemiddelde ernst op te lossen, weergegeven in uren, dagen of maanden.
-    - Gemiddelde tijd om waarschuwingen met een lage ernst op te lossen, weergegeven in uren, dagen of maanden.
+  - Gemiddelde tijd om waarschuwingen met hoge ernst op te lossen, weergegeven in uren, dagen of maanden.
+  - Gemiddelde tijd om waarschuwingen met gemiddelde ernst op te lossen, weergegeven in uren, dagen of maanden.
+  - Gemiddelde tijd om waarschuwingen met een lage ernst op te lossen, weergegeven in uren, dagen of maanden.
 
 ![Waarschuwingsdashboard voor insiderrisicobeheer](../media/insider-risk-alerts-dashboard.png)
 
->[!NOTE]
->Insider-risicobeheer gebruikt ingebouwde waarschuwingsbeperking om uw risicoonderzoek te beschermen en te optimaliseren en de ervaring te controleren. Deze beperking beschermt tegen problemen die kunnen leiden tot een overbelasting van beleidswaarschuwingen, zoals verkeerd geconfigureerde gegevensconnectoren of DLP-beleid. Hierdoor kan het weergeven van nieuwe waarschuwingen voor een gebruiker vertraging oplopen.
+> [!NOTE]
+> Insider-risicobeheer gebruikt ingebouwde waarschuwingsbeperking om uw risicoonderzoek te beschermen en te optimaliseren en de ervaring te controleren. Deze beperking beschermt tegen problemen die kunnen leiden tot een overbelasting van beleidswaarschuwingen, zoals verkeerd geconfigureerde gegevensconnectoren of DLP-beleid. Hierdoor kan het weergeven van nieuwe waarschuwingen voor een gebruiker vertraging oplopen.
 
 ## <a name="alert-status-and-severity"></a>Status en ernst van waarschuwing
 
@@ -75,7 +75,7 @@ Als u in de naam van de waarschuwing naar een bepaald woord wilt zoeken, selecte
 
 Als u een insiderrisicowaarschuwing wilt triageren, volgt u de volgende stappen:
 
-1. Ga in [Microsoft 365 compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer het **tabblad Waarschuwingen.**
+1. Ga in [Microsoft 365-compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer het **tabblad Waarschuwingen.**
 2. Selecteer in **het dashboard Waarschuwingen** de waarschuwing die u wilt triagen.
 3. In het **detailvenster Waarschuwingen** kunt u de volgende tabbladen bekijken en de waarschuwing triageeren:
     - **Overzicht:** Dit tabblad bevat algemene informatie over de waarschuwing en stelt u in staat om de waarschuwing te bevestigen en een nieuw geval te maken of u kunt de waarschuwing afwijzen. Het bevat de huidige status voor de waarschuwing en het ernstniveau van het *waarschuwingsrisico,* vermeld als *Hoog,* *Gemiddeld* of Laag. Het ernstniveau kan in de tijd toenemen of afnemen als de waarschuwing niet triaged is.
@@ -91,8 +91,8 @@ Als u een insiderrisicowaarschuwing wilt triageren, volgt u de volgende stappen:
 
 ## <a name="activity-explorer-preview"></a>Activiteitsverkenner (voorbeeld)
 
->[!NOTE]
->Activiteitsverkenner is beschikbaar in het waarschuwingsbeheergebied voor gebruikers met triggeringgebeurtenissen nadat deze functie beschikbaar is in uw organisatie.
+> [!NOTE]
+> Activiteitsverkenner is beschikbaar in het waarschuwingsbeheergebied voor gebruikers met triggeringgebeurtenissen nadat deze functie beschikbaar is in uw organisatie.
 
 De Activiteitsverkenner biedt risicoonderzoekers en -analisten een uitgebreid analytisch hulpmiddel dat gedetailleerde informatie over waarschuwingen biedt. Met de Activiteitsverkenner kunnen revisoren snel een tijdlijn bekijken van gedetecteerde riskante activiteiten en alle risicoactiviteiten identificeren en filteren die aan waarschuwingen zijn gekoppeld. Als u waarschuwingen wilt filteren in de Activiteitsverkenner, selecteert u het besturingselement Filter. U kunt waarschuwingen filteren op een of meer kenmerken die worden vermeld in het detailvenster voor de waarschuwing. Activiteitsverkenner ondersteunt ook aanpasbare kolommen om onderzoekers en analisten te helpen het dashboard te richten op de informatie die voor hen het belangrijkst is.
 
@@ -100,7 +100,7 @@ De Activiteitsverkenner biedt risicoonderzoekers en -analisten een uitgebreid an
 
 Als u de **Activiteitsverkenner wilt** gebruiken, gaat u als volgt te werk:
 
-1. Ga in Microsoft 365 compliancecentrum naar **Insider-risicobeheer** en selecteer het **tabblad Waarschuwingen.**
+1. Ga in Microsoft 365-compliancecentrum naar **Insider-risicobeheer** en selecteer het **tabblad Waarschuwingen.**
 2. Selecteer in **het dashboard Waarschuwingen** de waarschuwing die u wilt triagen.
 3. Selecteer in **het detailvenster Waarschuwingen** de optie **Uit uitgebreide weergave openen.**
 4. Selecteer op de pagina voor de geselecteerde waarschuwing het tabblad **Activiteitsverkenner.**
@@ -113,7 +113,7 @@ Wanneer u activiteiten in de Activiteitenverkenner bekijkt, kunnen onderzoekers 
 
 Wanneer een waarschuwing wordt gecontroleerd en triaged, kunt u een nieuwe zaak maken om de risicoactiviteit verder te onderzoeken. Als u een melding wilt maken, gaat u als volgt te werk:
 
-1. Ga in [Microsoft 365 compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer het **tabblad Waarschuwingen.**
+1. Ga in [Microsoft 365-compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer het **tabblad Waarschuwingen.**
 2. Selecteer in **het dashboard Waarschuwingen** de waarschuwing die u wilt bevestigen en maak een nieuwe zaak voor.
 3. Selecteer in **het deelvenster Waarschuwingendetails** de optie **Acties** controleren  >  **& maken.**
 4. Voer in het dialoogvenster Waarschuwing bevestigen en **insiderrisicocase** maken een naam voor de zaak in, selecteer gebruikers die u wilt toevoegen als inzenders en voeg opmerkingen toe indien van toepassing. Opmerkingen worden automatisch als een notitie aan de zaak toegevoegd.

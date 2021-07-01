@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
 description: Bekijk een volledige lijst met hoofdcertificaten en certificeringsinstanties (CAs) in Microsoft 365.
-ms.openlocfilehash: c5b00a3a663c2ae4862cfa3d11f92015c0331e59
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 3bb48bf82f3f00223d3a913280e34fe4f0686426
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "52161879"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226753"
 ---
 # <a name="microsoft-365-encryption-chains"></a>Microsoft 365 versleutelingsketens
 
@@ -30,8 +30,8 @@ Microsoft 365 maakt gebruik van een aantal verschillende certificaatproviders. I
 
 Laatst bijgewerkt: **16-10-2020**
 
->[!NOTE]
->Zie voor certificaatinformatie die van toepassing is op **dod-** en GCC hoge klanten, Microsoft 365 versleutelingsketens - DOD en [GCC High.](encryption-office-365-certificate-chains-itar.md)
+> [!NOTE]
+> Zie voor certificaatinformatie die van toepassing is op **dod-** en GCC hoge klanten, Microsoft 365 versleutelingsketens - DOD en [GCC High.](encryption-office-365-certificate-chains-itar.md)
 
 | **Certificaattype** | **P7b downloaden** | **CRL-eindpunten** | **OCSP-eindpunten** | **AIA-eindpunten** |
 | --- | --- | --- | --- | --- |

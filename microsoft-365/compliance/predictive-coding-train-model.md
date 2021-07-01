@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: ''
-ms.openlocfilehash: ef6d1cf23d6cca58f4226696bc63c1dea5816cc1
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: 84bb34f8ec1b935dc30072e16f57b5f5665c3546
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822505"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226213"
 ---
 # <a name="train-a-predictive-coding-model-preview"></a>Een voorspellend coderingsmodel trainen (voorbeeld)
 
@@ -29,11 +29,11 @@ Zie Meer informatie over voorspellende codering [in](predictive-coding-overview.
 
 ## <a name="before-you-train-a-model"></a>Voordat u een model traint
 
-- Label tijdens een trainingsronde items als **Relevant** of **Niet relevant** op basis van de relevantie van de inhoud in het document. Baseer uw beslissing niet op de waarden in de metagegevensvelden. Voor e-mailberichten of Teams gesprekken kunt u uw labelbeslissing bijvoorbeeld niet baseren op de deelnemers aan het bericht. 
+- Label tijdens een trainingsronde items als **Relevant** of **Niet relevant** op basis van de relevantie van de inhoud in het document. Baseer uw beslissing niet op de waarden in de metagegevensvelden. Voor e-mailberichten of Teams gesprekken kunt u uw labelbeslissing bijvoorbeeld niet baseren op de deelnemers aan het bericht.
 
 ## <a name="train-a-model-for-the-first-time"></a>Een model voor het eerst trainen
 
-1. Open in Microsoft 365 compliancecentrum een Advanced eDiscovery en selecteer vervolgens **het tabblad Revisiesets.**
+1. Open in Microsoft 365-compliancecentrum een Advanced eDiscovery en selecteer vervolgens het **tabblad Revisiesets.**
 
 2. Open een revisieset en klik vervolgens op **Voorspellende** codering beheren  >  **(voorbeeld)**.
 
@@ -63,10 +63,10 @@ Nadat u de eerste trainingsronde hebt gedaan, wordt een taak gestart die de volg
 
 - Op basis van de manier waarop u de 40 items in de trainingsset hebt gelabeld, leert het model van uw labeling en werkt het zichzelf bij om nauwkeuriger te worden.
 
-- Het model verwerkt vervolgens elk item in de hele revisieset en wijst een voorspellingsscore toe tussen **0** (niet relevant) en **1** (relevant).  
+- Het model verwerkt vervolgens elk item in de hele revisieset en wijst een voorspellingsscore toe tussen **0** (niet relevant) en **1** (relevant).
 
 - Het model wijst een voorspellingsscore toe aan de tien items in de besturingselementset die u tijdens de trainingsronde hebt gelabeld. Het model vergelijkt de voorspellingsscore van deze 10 items met het label dat u tijdens de trainingsronde aan het item hebt toegewezen. Op basis van deze vergelijking identificeert het model de volgende classificatie (de matrix Verwarringsmatrix control *set)* om de voorspellingsprestaties van het model te beoordelen:
-  
+
   |          |Model voorspelt dat item relevant is |Model voorspelt dat item niet relevant is |
   |:---------|:---------|:---------|
   |**Revisorlabelsitem als relevant**| Waar positief| Onwaar positief |

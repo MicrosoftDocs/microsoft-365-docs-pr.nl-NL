@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Meer informatie over het gebruik van dlp-beleid voor niet-Microsoft-cloud-apps.
-ms.openlocfilehash: ca522b5accbd2c08e80b0ce63871179ff64bbcc8
-ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
+ms.openlocfilehash: 3c3c687bd1362182d35891ed1ebbfae12416d5d4
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2021
-ms.locfileid: "53149152"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226837"
 ---
 # <a name="use-data-loss-prevention-policies-for-non-microsoft-cloud-apps-preview"></a>Beleid voor preventie van gegevensverlies gebruiken voor niet-Microsoft-cloud-apps (preview)
 
@@ -59,8 +59,8 @@ Als u DLP-beleid wilt gebruiken voor een specifieke niet-Microsoft-cloud-app, mo
 
 Nadat u uw cloud-apps hebt verbonden met Cloud App Security, kunt u Microsoft 365 DLP-beleid voor hen maken.
 
->[!NOTE]
->Het is ook mogelijk om DLP-Microsoft Cloud App Security te maken voor Microsoft-cloud-apps. U wordt echter aangeraden om DLP-Microsoft 365 te gebruiken voor het maken en beheren van DLP-beleid voor Microsoft-cloud-apps.
+> [!NOTE]
+> Het is ook mogelijk om DLP-Microsoft Cloud App Security te maken voor Microsoft-cloud-apps. U wordt echter aangeraden om DLP-Microsoft 365 te gebruiken voor het maken en beheren van DLP-beleid voor Microsoft-cloud-apps.
 
 ## <a name="create-a-dlp-policy-to-a-non-microsoft-cloud-app"></a>Een DLP-beleid maken voor een niet-Microsoft-cloud-app
 
@@ -81,12 +81,12 @@ Wanneer u een regel maakt in het DLP-beleid, kunt u een actie selecteren voor ni
 
 ![Apps van derden beperken](../media/4-dlp-non-microsoft-cloud-app-restrict-third-party-apps.png)
 
->[OPMERKING] DLP-beleid dat is toegepast op niet-Microsoft-apps Microsoft Cloud App Security. Wanneer het DLP-beleid voor een niet-Microsoft-app wordt gemaakt, wordt automatisch hetzelfde beleid gemaakt in Microsoft Cloud App Security.
+> [OPMERKING] DLP-beleid dat is toegepast op niet-Microsoft-apps Microsoft Cloud App Security. Wanneer het DLP-beleid voor een niet-Microsoft-app wordt gemaakt, wordt automatisch hetzelfde beleid gemaakt in Microsoft Cloud App Security.
 
-Zie Een DLP-beleid maken en afstemmen voor informatie over het maken en configureren van [DLP-beleid.](./create-test-tune-dlp-policy.md?view=o365-worldwide)
+Zie Een DLP-beleid maken en afstemmen voor informatie over het maken en configureren van [DLP-beleid.](./create-test-tune-dlp-policy.md)
 
 ## <a name="see-also"></a>Zie ook
 
-- [Test maken en een DLP-beleid afstemmen](./create-test-tune-dlp-policy.md?view=o365-worldwide)
-- [Aan de slag met het standaard DLP-beleid](./get-started-with-the-default-dlp-policy.md?view=o365-worldwide)
-- [Een DLP-beleid maken vanuit een sjabloon](./create-a-dlp-policy-from-a-template.md?view=o365-worldwide)
+- [Test maken en een DLP-beleid afstemmen](./create-test-tune-dlp-policy.md)
+- [Aan de slag met het standaard DLP-beleid](./get-started-with-the-default-dlp-policy.md)
+- [Een DLP-beleid maken vanuit een sjabloon](./create-a-dlp-policy-from-a-template.md)

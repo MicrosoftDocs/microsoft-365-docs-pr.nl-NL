@@ -15,19 +15,19 @@ ms.custom:
 - AdminSurgePortfolio
 - adminvideo
 description: Vind de meest recente informatie, tips, bronnen en richtlijnen over extern werk voor bedrijven die gebruikmaken van Microsoft 365.
-ms.openlocfilehash: 5bdff59f3d07c59951c6da87d7b28432fb7c5878
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: fb261fbb5b52e81861fde16f6effc12b0a232e80
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023735"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227917"
 ---
 # <a name="empower-your-small-business-with-remote-work"></a>Uw kleine bedrijven in staat stellen om extern werk te doen
 
 Wanneer bedrijven zich aanpassen aan de toegenomen behoefte om mensen op afstand te laten werken en virtueel contact te leggen met hun klanten, wordt deze site bijgewerkt met de meest recente informatie over hoe u informatie, tips, resources en richtlijnen voor extern werk voor bedrijven met behulp van Microsoft 365.
 
->[!TIP]
->Hebt u geen Microsoft_Teams? Ontvang gratis 6 maanden Microsoft Teams in Office (wanneer u zich voor 1 jaar registreert). Krijg de technologieën die in dit artikel worden beschreven als onderdeel van de aanbieding. Zie 1 maand gratis uitproberen [voor meer informatie.](https://aka.ms/SMBTeamsOffer)
+> [!TIP]
+> Hebt u geen Microsoft_Teams? Ontvang gratis 6 maanden Microsoft Teams in Office (wanneer u zich voor 1 jaar registreert). Krijg de technologieën die in dit artikel worden beschreven als onderdeel van de aanbieding. Zie 1 maand gratis uitproberen [voor meer informatie.](https://aka.ms/SMBTeamsOffer)
 
 ## <a name="remote-work-for-your-small-business-video"></a>Extern werk voor uw kleine bedrijf (video)
 
@@ -43,7 +43,7 @@ Hebt u al een abonnement, maar moet u dit instellen? Zie [Microsoft 365 training
 
 ## <a name="connect-with-employees-and-customers"></a>Verbinding maken met werknemers en klanten
 
-U kunt nog steeds contact maken met werknemers, klanten, klanten en partners, zelfs als u elkaar niet kunt ontmoeten. Gebruik Microsoft Teams om zaken te blijven doen en verbinding te maken met uw klanten. 
+U kunt nog steeds contact maken met werknemers, klanten, klanten en partners, zelfs als u elkaar niet kunt ontmoeten. Gebruik Microsoft Teams om zaken te blijven doen en verbinding te maken met uw klanten.
 
 ### <a name="meet-up-in-teams"></a>Vergaderen in Teams
 
@@ -83,11 +83,11 @@ Zie Apparaten [beheren voor meer informatie.](../../business-video/secure-win-10
 
 Technische documentatiehub voor Microsoft 365 Business wordt bijgewerkt met nieuwe richtlijnen voor veilig extern werk.
 
-Zie voor meer [informatie Microsoft 365 Business resources.](https://docs.microsoft.com/microsoft-365/business)
+Zie voor meer [informatie Microsoft 365 business resources.](/microsoft-365/business)
 
-## <a name="need-to-ask-a-question"></a>Wilt u een vraag stellen? 
+## <a name="need-to-ask-a-question"></a>Wilt u een vraag stellen?
 
 Vraag het in [het Teams forum](https://answers.microsoft.com/msteams/forum) of het Office [beheerdersforum.](https://answers.microsoft.com)
 
 > [!NOTE]
-> De meeste taken in dit artikel en video kunnen worden uitgevoerd met een abonnement op Microsoft 365 Business Basic (voorheen Office 365 Business Essentials), maar voor sommige taken is een premium-abonnement vereist. 
+> De meeste taken in dit artikel en video kunnen worden uitgevoerd met een abonnement op Microsoft 365 Business Basic (voorheen Office 365 Business Essentials), maar voor sommige taken is een premium-abonnement vereist.

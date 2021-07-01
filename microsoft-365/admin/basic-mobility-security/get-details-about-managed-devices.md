@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Gebruik Windows PowerShell voor meer informatie over basismobiliteits- en beveiligingsapparaten in uw organisatie.
-ms.openlocfilehash: 7cb2369c9a31210f26db12b0453e7a4228e1cccc
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: 2edee1b08f137d3e4f977b4d6800c1b0fc0e0473
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782439"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228169"
 ---
 # <a name="get-details-about-basic-mobility-and-security-managed-devices"></a>Meer informatie over beheerde basisapparaten voor mobiliteit en beveiliging
 
@@ -38,8 +38,8 @@ Hier ziet u een overzicht van de apparaatdetails die voor u beschikbaar zijn.
 
 :::image type="content" source="../../media/basic-mobility-security/bms-7-powershell-parameters.png" alt-text="PowerShell-parameters voor basismobiliteit en beveiliging":::
 
->[!NOTE]
->De opdrachten en scripts in dit artikel geven ook informatie weer over apparaten die worden beheerd door [Microsoft Intune.](https://www.microsoft.com/cloud-platform/microsoft-intune)
+> [!NOTE]
+> De opdrachten en scripts in dit artikel geven ook informatie weer over apparaten die worden beheerd door [Microsoft Intune.](https://www.microsoft.com/cloud-platform/microsoft-intune)
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
@@ -53,9 +53,9 @@ Zie voor meer informatie over deze stappen [Verbinding maken te Microsoft 365 
 
 2. Installeer de module Microsoft Azure Active Directory voor Windows PowerShell met deze stappen:
 
-    1. Open een PowerShell-opdrachtprompt op beheerdersniveau.  
+    1. Open een PowerShell-opdrachtprompt op beheerdersniveau.
 
-    2. Voer de installatie-module MSOnline uit.
+    2. Voer de `Install-Module MSOnline` opdracht uit.
 
     3. Als u wordt gevraagd om de NuGet provider te installeren, typt u Y en drukt u op ENTER.
 
@@ -65,38 +65,46 @@ Zie voor meer informatie over deze stappen [Verbinding maken te Microsoft 365 
 
 ### <a name="step-2-connect-to-your-microsoft-365-subscription"></a>Stap 2: Verbinding maken uw Microsoft 365 abonnement
 
-1. Voer in Windows Azure Active Directory module voor Windows PowerShell de volgende opdracht uit.  
+1. Voer in Windows Azure Active Directory module voor Windows PowerShell de volgende opdracht uit.
 
-    $UserCredential = Get-Credential
+   ```powershell
+   $UserCredential = Get-Credential
+   ```
 
 2. Typ in Windows PowerShell dialoogvenster Aanvraag voor referenties de gebruikersnaam en het wachtwoord voor uw Microsoft 365 globale beheerdersaccount en selecteer **OK.**
 
-3. Voer de volgende opdracht uit.
+3. Voer de volgende opdracht uit:
 
-    Connect-MsolService -Credential $UserCredential
+   ```powershell
+   Connect-MsolService -Credential $UserCredential
+   ```
 
 ### <a name="step-3-make-sure-youre-able-to-run-powershell-scripts"></a>Stap 3: Zorg ervoor dat u PowerShell-scripts kunt uitvoeren
 
->[!NOTE]
->U kunt deze stap overslaan als u al bent ingesteld voor het uitvoeren van PowerShell-scripts.
+> [!NOTE]
+> U kunt deze stap overslaan als u al bent ingesteld voor het uitvoeren van PowerShell-scripts.
 
 Als u het script Get-MsolUserDeviceComplianceStatus.ps1 uitvoeren, moet u het uitvoeren van PowerShell-scripts inschakelen.
 
 1. Selecteer op Windows bureaublad **Start** en typ Windows PowerShell. Klik met de rechtermuisknop Windows PowerShell en selecteer vervolgens **Uitvoeren als beheerder.**
 
-2. Voer de volgende opdracht uit.
+2. Voer de volgende opdracht uit:
 
-    Set-ExecutionPolicy RemoteSigned
+   ```powershell
+   Set-ExecutionPolicy  RemoteSigned
+   ```
 
 3. Wanneer u daarom wordt gevraagd, typt u Y en drukt u op Enter.
 
-**Voer de Get-MsolDevice cmdlet uit om details weer te geven voor alle apparaten in uw organisatie**
+#### <a name="run-the-get-msoldevice-cmdlet-to-display-details-for-all-devices-in-your-organization"></a>Voer de Get-MsolDevice cmdlet uit om details weer te geven voor alle apparaten in uw organisatie
 
-1. Open de Microsoft Azure Active Directory module voor Windows PowerShell.  
+1. Open de Microsoft Azure Active Directory module voor Windows PowerShell.
 
-2. Voer de volgende opdracht uit.
+2. Voer de volgende opdracht uit:
 
-    Get-MsolDevice -All -ReturnRegisteredOwners | Where-Object {$_. RegisteredOwners.Count -gt 0}
+   ```powershell
+   Get-MsolDevice -All -ReturnRegisteredOwners | Where-Object {$_.RegisteredOwners.Count -gt 0}
+   ```
 
 Zie  [Get-MsolDevice](https://go.microsoft.com/fwlink/?linkid=2157939)voor meer voorbeelden.
 
@@ -104,204 +112,120 @@ Zie  [Get-MsolDevice](https://go.microsoft.com/fwlink/?linkid=2157939)voor mee
 
 Sla eerst het script op uw computer op.
 
-1. Kopieer en plak de volgende tekst in Kladblok.  
+1. Kopieer en plak de volgende tekst in Kladblok.
 
-2.  param (
+   ```powershell
+   param (
+   [PSObject[]]$users = @(),
+   [Switch]$export,
+   [String]$exportFileName = "UserDeviceComplianceStatus_" + (Get-Date -Format "yyMMdd_HHMMss") + ".csv",
+   [String]$exportPath = [Environment]::GetFolderPath("Desktop")
+   )
+   [System.Collections.IDictionary]$script:schema = @{
+   DeviceId = ''
+   DeviceOSType = ''
+   DeviceOSVersion = ''
+   DeviceTrustLevel = ''
+   DisplayName = ''
+   IsCompliant = ''
+   IsManaged = ''
+   ApproximateLastLogonTimestamp = ''
+   DeviceObjectId = ''
+   RegisteredOwnerUpn = ''
+   RegisteredOwnerObjectId = ''
+   RegisteredOwnerDisplayName = ''
+   }
+   function createResultObject
+   {
+   [PSObject]$resultObject = New-Object -TypeName PSObject -Property $script:schema
+   return $resultObject
+   }
+   If ($users.Count -eq 0)
+   {
+   $users = Get-MsolUser
+   }
+   [PSObject[]]$result = foreach ($u in $users)
+   {
+   [PSObject]$devices = get-msoldevice -RegisteredOwnerUpn $u.UserPrincipalName
+   foreach ($d in $devices)
+   {
+   [PSObject]$deviceResult = createResultObject
+   $deviceResult.DeviceId = $d.DeviceId
+   $deviceResult.DeviceOSType = $d.DeviceOSType
+   $deviceResult.DeviceOSVersion = $d.DeviceOSVersion
+   $deviceResult.DeviceTrustLevel = $d.DeviceTrustLevel
+   $deviceResult.DisplayName = $d.DisplayName
+   $deviceResult.IsCompliant = $d.GraphDeviceObject.IsCompliant
+   $deviceResult.IsManaged = $d.GraphDeviceObject.IsManaged
+   $deviceResult.DeviceObjectId = $d.ObjectId
+   $deviceResult.RegisteredOwnerUpn = $u.UserPrincipalName
+   $deviceResult.RegisteredOwnerObjectId = $u.ObjectId
+   $deviceResult.RegisteredOwnerDisplayName = $u.DisplayName
+   $deviceResult.ApproximateLastLogonTimestamp = $d.ApproximateLastLogonTimestamp
+   $deviceResult
+   }
+   }
+   If ($export)
+   {
+   $result | Export-Csv -path ($exportPath + "\" + $exportFileName) -NoTypeInformation
+   }
+   Else
+   {
+   $result
+   }
+   ```
 
-3.  [PSObject[]]$users = @(),
-
-4.  [Schakel]$export,
-
-5.  [Tekenreeks]$exportFileName = "UserDeviceComplianceStatus_" + (Get-Date -Format "yyMMdd_HHMMss") + ".csv",
-
-6.  [Tekenreeks]$exportPath = [Omgeving]::GetFolderPath("Bureaublad")
-
-7.  )
-
-9.  [System.Collections.IDictionary]$script:schema = @{
-
-11.  DeviceId = ''
-
-12.  DeviceOSType = ''
-
-13.  DeviceOSVersion = ''
-
-14.  DeviceTrustLevel = ''
-
-15.  DisplayName = ''
-
-16.  IsCompliant = ''
-
-17.  IsManaged = ''
-
-18.  ApproximateLastLogonTimestamp = ''
-
-19.  DeviceObjectId = ''
-
-20.  RegisteredOwnerUpn = ''
-
-21.  RegisteredOwnerObjectId = ''
-    
-
-22.  RegisteredOwnerDisplayName = ''
-    
-
-23.  }
-    
-
-25.  functie createResultObject
-    
-
-26.  {
-    
-
-28.  [PSObject]$resultObject = New-Object -TypeName PSObject -Eigenschap $script:schema
-    
-
-30.  retourn $resultObject
-    
-
-31.  }
-    
-
-33.  Als ($users. Aantal -eq 0)
-    
-
-34.  {
-    
-
-35.  $users = Get-MsolUser
-    
-
-36.  }
-    
-
-38.  [PSObject[]]$result = foreach ($u in $users)
-    
-
-39.  {
-    
-
-41.  [PSObject]$devices = get-msoldevice -RegisteredOwnerUpn $u.UserPrincipalName
-    
-
-42.  foreach ($d in $devices)
-    
-
-43.  {
-    
-
-44.  [PSObject]$deviceResult = createResultObject
-    
-
-45.  $deviceResult.DeviceId = $d.DeviceId
-    
-
-46.  $deviceResult.DeviceOSType = $d.DeviceOSType
-    
-
-47.  $deviceResult.DeviceOSVersion = $d.DeviceOSVersion
-    
-
-48.  $deviceResult.DeviceTrustLevel = $d.DeviceTrustLevel
-    
-
-49.  $deviceResult.DisplayName = $d.DisplayName
-    
-
-50.  $deviceResult.IsCompliant = $d.GraphDeviceObject.IsCompliant
-    
-
-51.  $deviceResult.IsManaged = $d.GraphDeviceObject.IsManaged
-    
-
-52.  $deviceResult.DeviceObjectId = $d.ObjectId
-    
-
-53.  $deviceResult.RegisteredOwnerUpn = $u.UserPrincipalName
-    
-
-54.  $deviceResult.RegisteredOwnerObjectId = $u.ObjectId
-    
-
-55.  $deviceResult.RegisteredOwnerDisplayName = $u.DisplayName
-    
-
-56.  $deviceResult.ApproximateLastLogonTimestamp = $d.ApproximateLastLogonTimestamp
-    
-
-58.  $deviceResult
-    
-
-59.  }
-    
-
-61.  }
-    
-
-63.  Als ($export)
-    
-
-64.  {
-    
-
-65.  $result | Export-Csv -pad ($exportPath + " \" + $exportFileName) -NoTypeInformation
-    
-
-66.  }
-    
-
-67.  Else
-    
-
-68.  {
-    
-
-69.  $result
-    
-
-70.  }
-    
-
-71.  Sla het op als een Windows PowerShell scriptbestand met behulp van de bestandsextensie .ps1; bijvoorbeeld Get-MsolUserDeviceComplianceStatus.ps1.   
+2. Sla het op als een Windows PowerShell scriptbestand met behulp van de bestandsextensie .ps1; bijvoorbeeld Get-MsolUserDeviceComplianceStatus.ps1.
 
 ## <a name="run-the-script-to-get-device-information-for-a-single-user-account"></a>Voer het script uit om apparaatgegevens voor één gebruikersaccount op te halen
 
 1. Open de Microsoft Azure Active Directory module voor Windows PowerShell.
-    
+
 2. Ga naar de map waar u het script hebt opgeslagen. Als u de opdracht bijvoorbeeld hebt opgeslagen in C:\PS-Scripts, voer dan de volgende opdracht uit.
-    
-    cd C:\PS-Scripts
+
+   ```powershell
+   cd C:\PS-Scripts
+   ```
 
 3. Voer de volgende opdracht uit om de gebruiker te identificeren voor wie u apparaatgegevens wilt krijgen. In dit voorbeeld worden details voor bar@example.com.
-    
-    $u = Get-MsolUser -UserPrincipalName bar@example.com
+
+   ```powershell
+   $u = Get-MsolUser -UserPrincipalName bar@example.com
+   ```
 
 4. Voer de volgende opdracht uit om het script te starten.
 
-    .\Get-MsolUserDeviceComplianceStatus.ps1 -Gebruiker $u -Exporteren
+   ```powershell
+   .\Get-MsolUserDeviceComplianceStatus.ps1 -User $u -Export
+   ```
 
 De gegevens worden geëxporteerd naar uw Windows bureaublad als een CSV-bestand. U kunt extra parameters gebruiken om de bestandsnaam en het pad van de CSV op te geven.
 
 ## <a name="run-the-script-to-get-device-information-for-a-group-of-users"></a>Voer het script uit om apparaatgegevens voor een groep gebruikers op te halen
 
 1. Open de Microsoft Azure Active Directory module voor Windows PowerShell.
-    
-2. Ga naar de map waar u het script hebt opgeslagen. Als u de opdracht bijvoorbeeld hebt opgeslagen in C:\PS-Scripts, voer dan de volgende opdracht uit.   
 
-    cd C:\PS-Scripts
+2. Ga naar de map waar u het script hebt opgeslagen. Als u de opdracht bijvoorbeeld hebt opgeslagen in C:\PS-Scripts, voer dan de volgende opdracht uit.
 
-3. Voer de volgende opdracht uit om de groep te identificeren voor wie u apparaatgegevens wilt krijgen. In dit voorbeeld worden details voor gebruikers in de groep FinanceStaff op de voor u staan. 
+   ```powershell
+   cd C:\PS-Scripts
+   ```
 
-    $u = Get-MsolGroupMember -SearchString "FinanceStaff" | % { Get-MsolUser -ObjectId $_. ObjectId }
+3. Voer de volgende opdracht uit om de groep te identificeren voor wie u apparaatgegevens wilt krijgen. In dit voorbeeld worden details voor gebruikers in de groep FinanceStaff op de voor u staan.
+
+   ```powershell
+   $u = Get-MsolGroupMember -SearchString "FinanceStaff" | % { Get-MsolUser -ObjectId $_.ObjectId }
+   ```
 
 4. Voer de volgende opdracht uit om het script te starten.
 
-    .\Get-MsolUserDeviceComplianceStatus.ps1 -Gebruiker $u -Exporteren
+   ```powershell
+   .\Get-MsolUserDeviceComplianceStatus.ps1 -User $u -Export
+   ```
 
 De gegevens worden geëxporteerd naar uw Windows bureaublad als een CSV-bestand. U kunt extra parameters gebruiken om de bestandsnaam en het pad van de CSV op te geven.
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-topics"></a>Gerelateerde onderwerpen
 
 [Microsoft Verbinding maken is met pensioen](/collaborate/connect-redirect)
 

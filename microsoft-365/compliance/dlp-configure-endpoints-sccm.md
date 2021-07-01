@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Gebruik Configuration Manager om het configuratiepakket op apparaten te implementeren, zodat ze zijn aan boord van de service.
-ms.openlocfilehash: ac05581ce33e94859dbd67848197878595d5ed0f
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: d2db35e50d31a0a19076965da6dcecf9cfeef826
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "52162698"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226895"
 ---
 # <a name="onboard-windows-10-devices-using-configuration-manager"></a>Onboarden Windows 10-updates met Configuration Manager
 
@@ -35,7 +35,7 @@ ms.locfileid: "52162698"
 2. Selecteer in het navigatiedeelvenster **Instellingen**  >  **Onboarding van apparaat.**  >  
 
 3. Selecteer in **het veld** **Implementatiemethode Microsoft Endpoint Configuration Manager 2012/2012 R2/1511/1602**.
- 
+
 4. Selecteer **Pakket downloaden** en sla het .zip op.
 
 5. Haal de inhoud van het .zip bestand op naar een gedeelde, alleen-lezen locatie die kan worden gebruikt door de netwerkbeheerders die het pakket zullen implementeren. U moet een bestand met de naam *DeviceComplianceOnboardingScript.cmd hebben.*
@@ -47,12 +47,12 @@ ms.locfileid: "52162698"
 > [!NOTE]
 > Microsoft 365 Preventie van endpoint-gegevensverlies biedt geen ondersteuning voor onboarding tijdens de [OOBE-fase (Out-Of-Box Experience).](https://answers.microsoft.com/en-us/windows/wiki/windows_10/how-to-complete-the-windows-10-out-of-box/47e3f943-f000-45e3-8c5c-9d85a1a0cf87) Zorg ervoor dat gebruikers OOBE voltooien na het uitvoeren Windows installatie of upgrade.
 
->[!TIP]
+> [!TIP]
 > Nadat u het apparaat hebt onboarding, kunt u ervoor kiezen om een detectietest uit te voeren om te controleren of een apparaat correct is aan boord van de service. Zie Een detectietest uitvoeren op een nieuw ingebouwde [Microsoft Defender voor eindpuntapparaat](/windows/security/threat-protection/microsoft-defender-atp/run-detection-test)voor meer informatie.
 >
 > Houd er rekening mee dat het mogelijk is om een detectieregel te maken in een Configuration Manager-toepassing om continu te controleren of een apparaat is onboarded. Een toepassing is een ander type object dan een pakket en programma.
 > Als een apparaat nog niet is onboarded (vanwege in behandeling zijnde OOBE-voltooiing of een andere reden), wordt configuratiebeheer opnieuw gebruikt om het apparaat aan te sluiten totdat de regel de statuswijziging detecteert.
-> 
+>
 > Dit gedrag kan worden bereikt door een detectieregel te maken die controleert of de registerwaarde 'OnboardingState' (van type REG_DWORD) = 1.
 > Deze registerwaarde bevindt zich onder 'HKLM\SOFTWARE\Microsoft\Windows Advanced Threat Protection\Status'.
 Zie Detectiemethoden configureren [in System Center 2012 R2 Configuration Manager voor meer informatie.](/previous-versions/system-center/system-center-2012-R2/gg682159(v=technet.10)#step-4-configure-detection-methods-to-indicate-the-presence-of-the-deployment-type)
@@ -61,8 +61,8 @@ Zie Detectiemethoden configureren [in System Center 2012 R2 Configuration Manage
 
 Voor elk apparaat kunt u een configuratiewaarde instellen om aan te geven of steekproeven vanaf het apparaat kunnen worden verzameld wanneer een aanvraag wordt ingediend via Microsoft Defender-beveiligingscentrum om een bestand in te dienen voor uitgebreide analyse.
 
->[!NOTE]
->Deze configuratie-instellingen worden meestal uitgevoerd via Configuration Manager. 
+> [!NOTE]
+> Deze configuratie-instellingen worden meestal uitgevoerd via Configuration Manager.
 
 U kunt een complianceregel instellen voor configuratie-item in Configuration Manager om de instelling voor voorbeeld delen op een apparaat te wijzigen.
 
@@ -112,7 +112,7 @@ De volgende configuratie-instellingen worden aanbevolen:
 
 **Surface-beperking voor aanvallen** Configureer alle beschikbare regels om te controleren.
 
->[!NOTE]
+> [!NOTE]
 > Het blokkeren van deze activiteiten kan legitieme bedrijfsprocessen onderbreken. De beste methode is om alles in te stellen op controle, om te bepalen welke veilig zijn om in te zetten en vervolgens de instellingen in te stellen op eindpunten die geen fout-positieve detecties hebben.
 
 **Netwerkbeveiliging**
@@ -147,7 +147,7 @@ Zie Een [offboarding-configuratiebestand](/configmgr/protect/deploy-use/windows-
 3. Selecteer Windows 10 als het besturingssysteem.
 
 4. Selecteer in **het veld** **Implementatiemethode Microsoft Endpoint Configuration Manager 2012/2012 R2/1511/1602**.
-    
+
 5. Selecteer **Pakket downloaden** en sla het .zip op.
 
 6. Haal de inhoud van het .zip bestand op naar een gedeelde, alleen-lezen locatie die kan worden gebruikt door de netwerkbeheerders die het pakket zullen implementeren. U moet een bestand met de naam *DeviceComplianceOffboardingScript_valid_until_YYYY-MM-DD.cmd* hebben.
@@ -162,7 +162,7 @@ Zie Een [offboarding-configuratiebestand](/configmgr/protect/deploy-use/windows-
 
 ## <a name="monitor-device-configuration"></a>Apparaatconfiguratie controleren
 
-Als u de huidige Microsoft Endpoint Configuration Manager gebruikt, gebruikt u het ingebouwde Dashboard van Microsoft Defender voor eindpunt in de console Configuration Manager. Zie de Microsoft Defender Advanced Threat Protection [- Monitor voor meer informatie.](/configmgr/protect/deploy-use/windows-defender-advanced-threat-protection#monitor)
+Als u de huidige Microsoft Endpoint Configuration Manager gebruikt, gebruikt u het ingebouwde Dashboard van Microsoft Defender voor eindpunt in de console Configuration Manager. Zie Microsoft [Defender Advanced Threat Protection - Monitor voor meer informatie.](/configmgr/protect/deploy-use/windows-defender-advanced-threat-protection#monitor)
 
 Als u configuratiebeheer System Center 2012 R2 gebruikt, bestaat monitoring uit twee onderdelen:
 
@@ -180,7 +180,7 @@ Als u configuratiebeheer System Center 2012 R2 gebruikt, bestaat monitoring uit 
 
 4. Bekijk de statusindicatoren onder **Voltooiingsstatistieken** en **Inhoudsstatus**.
 
-    Als er mislukte implementaties zijn (apparaten met **fout,** niet-voldaane vereisten of mislukte **statussen),** moet u mogelijk problemen met de apparaten oplossen. Zie Problemen met [onboarding](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding)oplossen Microsoft Defender Advanced Threat Protection meer informatie.
+    Als er mislukte implementaties zijn (apparaten met **fout,** niet-voldaane vereisten of mislukte **statussen),** moet u mogelijk problemen met de apparaten oplossen. Zie Microsoft Defender [Advanced Threat Protection onboarding issues](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding)oplossen voor meer informatie.
 
     ![Configuration Manager met een geslaagde implementatie zonder fouten](../media/sccm-deployment.png)
 
@@ -201,10 +201,10 @@ Value: “1”
 ```
 Zie Inleiding tot compliance-instellingen [in System Center 2012 R2 Configuration Manager voor meer informatie.](/previous-versions/system-center/system-center-2012-R2/gg682139(v=technet.10))
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-topics"></a>Gerelateerde onderwerpen
 - [Onboard Windows 10 apparaten met groepsbeleid](dlp-configure-endpoints-gp.md)
 - [Onboarden Windows 10-apparaten met hulpmiddelen voor Mobile Device Management](dlp-configure-endpoints-mdm.md)
 - [Onboarden Windows 10-apparaten met een lokaal script](dlp-configure-endpoints-script.md)
 - [Onboarden niet-permanente virtual desktop infrastructure (VDI)-apparaten](dlp-configure-endpoints-vdi.md)
 - [Een detectietest uitvoeren op een nieuw ingebouwde Microsoft Defender voor eindpuntapparaat](/windows/security/threat-protection/microsoft-defender-atp/run-detection-test)
-- [Problemen met Microsoft Defender Advanced Threat Protection onboarding oplossen](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding)
+- [Problemen met de onboarding van Microsoft Defender Advanced Threat Protection oplossen](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding)

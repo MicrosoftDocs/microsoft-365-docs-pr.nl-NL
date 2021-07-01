@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-compliance
 localization_priority: Normal
 description: Meer informatie over taken die u helpen snel aan de slag te gaan met compliance in Microsoft 365.
-ms.openlocfilehash: 3f93eb31800d158a33b1f3c0acdd48d650b2153e
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 61a057c3666faae51a012dd9db2d4c63ded0f77a
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52162876"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227257"
 ---
 # <a name="quick-tasks-for-getting-started-with-microsoft-365-compliance"></a>Snelle taken om aan de slag te gaan met Microsoft 365-compliance
 
@@ -30,7 +30,7 @@ Nadat u deze basis compliancetaken hebt voltooid, kunt u de compliancedekking in
 
 ## <a name="task-1-configure-compliance-permissions"></a>Taak 1: Nalevingsmachtigingen configureren
 
-Het is belangrijk om te beheren wie in uw organisatie toegang heeft tot het Microsoft 365 compliancecentrum om inhoud weer te geven en beheertaken uit te voeren. Microsoft 365 bevat beheerrollen die specifiek zijn voor naleving en voor het gebruik van de hulpmiddelen die zijn opgenomen in het Microsoft 365 compliancecentrum.
+Het is belangrijk om te beheren wie in uw organisatie toegang heeft tot de Microsoft 365-compliancecentrum inhoud te bekijken en beheertaken uit te voeren. Microsoft 365 bevat beheerrollen die specifiek zijn voor naleving en voor het gebruik van de hulpmiddelen die zijn opgenomen in de Microsoft 365-compliancecentrum.
 
 Begin met het toewijzen van compliancemachtigingen aan de personen in uw organisatie, zodat ze deze taken kunnen uitvoeren en om te voorkomen dat onbevoegden toegang hebben tot gebieden buiten hun verantwoordelijkheid. U moet ervoor zorgen dat u de juiste personen  hebt toegewezen aan  de compliancegegevensbeheerder en de beheerdersrollen voor compliance voordat u complianceoplossingen gaat configureren en implementeren die zijn opgenomen in Microsoft 365. U moet ook gebruikers toewijzen aan de Azure Active Directory globale lezerrol om gegevens weer te geven in Compliance Manager.
 
@@ -44,10 +44,10 @@ Het is moeilijk om te weten waar u naartoe moet als u niet weet waar u bent. Als
 
 Zie Aan de slag met Compliance Manager voor stapsgewijs richtlijnen om aan de slag te gaan met Compliance [Manager.](compliance-manager-setup.md)
 
->[!IMPORTANT]
->Beveiliging en compliance zijn nauw geïntegreerd voor de meeste organisaties. Het is belangrijk dat uw organisatie zich richt op basisgebieden voor beveiliging, bedreigingsbeveiliging en identiteits- en toegangsbeheer, zodat u een diepgaande benadering van beveiliging en compliance kunt bieden.
+> [!IMPORTANT]
+> Beveiliging en compliance zijn nauw geïntegreerd voor de meeste organisaties. Het is belangrijk dat uw organisatie zich richt op basisgebieden voor beveiliging, bedreigingsbeveiliging en identiteits- en toegangsbeheer, zodat u een diepgaande benadering van beveiliging en compliance kunt bieden.
 >
->Controleer uw [Microsoft 365 Secure Score](../security/defender/microsoft-secure-score.md) in het Microsoft 365 beveiligingscentrum en voltooi de taken die in de volgende artikelen worden beschreven:
+> Controleer uw [Microsoft 365 Secure Score](../security/defender/microsoft-secure-score.md) in het Microsoft 365 beveiligingscentrum en voltooi de taken die in de volgende artikelen worden beschreven:
 >
 > - [Routekaart voor beveiliging : topprioriteiten voor de eerste 30 dagen, 90 dagen en daarna](../security/office-365-security/security-roadmap.md)
 > - [De 12 belangrijkste taken voor beveiligingsteams ter ondersteuning van thuis werken](../security/top-security-tasks-for-remote-work.md)
@@ -56,7 +56,7 @@ Zie Aan de slag met Compliance Manager voor stapsgewijs richtlijnen om aan de sl
 
 Nu u de huidige status van uw organisatie hebt bepaald en wie compliancefuncties kan beheren, is de volgende stap ervoor te zorgen dat u de gegevens hebt om complianceonderzoeken uit te voeren en rapporten te genereren voor netwerk- en gebruikersactiviteiten in uw organisatie. Het inschakelen van auditing is ook een belangrijke voorwaarde voor complianceoplossingen die verder in dit artikel worden beschreven.
 
-Inzichten in het auditlogboek zijn een waardevol hulpmiddel om uw compliancevereisten aan te passen aan oplossingen waarmee u compliancegebieden kunt beheren en controleren die verbetering nodig hebben. Auditlogboekregistratie moet zijn ingeschakeld voordat activiteiten worden opgenomen en voordat u in het auditlogboek kunt zoeken. Wanneer deze functie is ingeschakeld, wordt de activiteit van de gebruiker en beheerder van uw organisatie opgenomen in het auditlogboek en bewaard voor 90 dagen en maximaal één jaar, afhankelijk van de licentie die aan gebruikers is toegewezen.
+Insights in het auditlogboek zijn een waardevol hulpmiddel om uw compliancevereisten aan te passen aan oplossingen waarmee u compliancegebieden kunt beheren en controleren die moeten worden verbeterd. Auditlogboekregistratie moet zijn ingeschakeld voordat activiteiten worden opgenomen en voordat u in het auditlogboek kunt zoeken. Wanneer deze functie is ingeschakeld, wordt de activiteit van de gebruiker en beheerder van uw organisatie opgenomen in het auditlogboek en bewaard voor 90 dagen en maximaal één jaar, afhankelijk van de licentie die aan gebruikers is toegewezen.
 
 Zie Zoeken in auditlogboek in- of uitschakelen voor stapsgewijs instructies voor het in- of [uitschakelen van controlelogboek.](turn-audit-log-search-on-or-off.md)
 

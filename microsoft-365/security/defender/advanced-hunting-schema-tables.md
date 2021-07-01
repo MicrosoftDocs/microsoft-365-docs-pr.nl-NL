@@ -1,5 +1,5 @@
 ---
-title: Gegevenstabellen in het geavanceerde Microsoft 365 Defender
+title: Gegevenstabellen in het Microsoft 365 Defender geavanceerd schema
 description: Meer informatie over de tabellen in het geavanceerde schema voor het zoeken naar informatie over de gegevens waarin u query's voor het zoeken naar bedreigingen kunt uitvoeren
 keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, microsoft 365, m365, search, query, telemetry, schema reference, kusto, table, data
 search.product: eADQiWindows 10XVcnh
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 3c8c65d012467317bf8335f47c3f686a5d7255d1
-ms.sourcegitcommit: fb6c5e04ade1e82b26b2f911577b5ac721f1c544
+ms.openlocfilehash: 50a221a65c8264d816de958ec74fa99e9e6db762
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52470578"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53225988"
 ---
 # <a name="understand-the-advanced-hunting-schema"></a>Het geavanceerde schema voor de jacht begrijpen
 
@@ -48,14 +48,14 @@ Gebruik de ingebouwde schemaverwijzing tijdens het maken van query's om snel de 
 - **Voorbeeldquery:** voorbeeldquery's met de manier waarop de tabel kan worden gebruikt.
 
 ### <a name="access-the-schema-reference"></a>De schemaverwijzing openen
-Als u snel toegang wilt tot de schemaverwijzing, selecteert u de actie Verwijzing **weergeven** naast de tabelnaam in de schemaweergave. U kunt ook **Schemaverwijzing selecteren om** naar een tabel te zoeken.   
+Als u snel toegang wilt tot de schemaverwijzing, selecteert u de actie Verwijzing **weergeven** naast de tabelnaam in de schemaweergave. U kunt ook **Schemaverwijzing selecteren om** naar een tabel te zoeken.
 
-![Afbeelding waarin wordt getoond hoe u toegang hebt tot schemaverwijzing in de portal ](../../media/mtp-ah/ah-reference.png) 
+![Afbeelding waarin wordt getoond hoe u toegang hebt tot schemaverwijzing in de portal](../../media/mtp-ah/ah-reference.png)
 
 ## <a name="learn-the-schema-tables"></a>De schematabellen leren
 In de volgende verwijzing worden alle tabellen in het schema weergegeven. Elke tabelnaam wordt koppelingen naar een pagina met de kolomnamen voor die tabel. Tabel- en kolomnamen worden ook weergegeven in het beveiligingscentrum als onderdeel van de schemaweergave op het geavanceerde zoekscherm.
 
-| Tabelnaam | Beschrijving |
+| Tabelnaam | Omschrijving |
 |------------|-------------|
 | **[AlertEvidence](advanced-hunting-alertevidence-table.md)** | Bestanden, IP-adressen, URL's, gebruikers of apparaten die zijn gekoppeld aan waarschuwingen |
 | **[AlertInfo](advanced-hunting-alertinfo-table.md)** | Waarschuwingen van Microsoft Defender voor Eindpunt, Microsoft Defender voor Office 365, Microsoft Cloud App Security en Microsoft Defender voor identiteit, inclusief ernstsinformatie en bedreigingscategorisatie  |
@@ -84,7 +84,7 @@ In de volgende verwijzing worden alle tabellen in het schema weergegeven. Elke t
 | **[IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md)** | Verificatiegebeurtenissen in Active Directory- en Microsoft-onlineservices |
 | **[IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)** | Query's voor Active Directory-objecten, zoals gebruikers, groepen, apparaten en domeinen |
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-topics"></a>Gerelateerde onderwerpen
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)
 - [De querytaal leren](advanced-hunting-query-language.md)
 - [Werken met queryresultaten](advanced-hunting-query-results.md)

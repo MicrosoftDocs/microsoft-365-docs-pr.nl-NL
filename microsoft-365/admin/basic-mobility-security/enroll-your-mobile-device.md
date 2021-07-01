@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Voordat u uw Microsoft 365 met uw apparaat kunt gebruiken, moet u deze mogelijk eerst registreren bij Basismobiliteit en beveiliging voor Microsoft 365.
-ms.openlocfilehash: 2ad0aac331969696bbf53d0b06c18ee5c0ee90f6
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: 9da3424409a950670e3be45354a5c399fec52372
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706164"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228181"
 ---
 # <a name="enroll-your-mobile-device-using-basic-mobility-and-security"></a>Uw mobiele apparaat registreren met basismobiliteit en beveiliging
 
@@ -31,8 +31,8 @@ Het gebruik van uw telefoon, tablet en andere mobiele apparaten voor werk is een
 
 Organisaties kiezen basismobiliteit en beveiliging, zodat werknemers hun mobiele apparaten kunnen gebruiken om veilig toegang te krijgen tot werk-e-mail, agenda's en documenten, terwijl het bedrijf belangrijke gegevens beveiligt en aan de nalevingsvereisten voldoet.Zie Overzicht van [basismobiliteit](overview.md)en beveiliging voor Microsoft 365. Zie Welke informatie kan mijn organisatie zien wanneer ik mijn [apparaat inschrijf?](/intune-user-help/what-info-can-your-company-see-when-you-enroll-your-device-in-intune)voor meer informatie.
 
->[!IMPORTANT] 
->Wanneer u uw apparaat inschrijft bij Basismobiliteit en beveiliging voor Microsoft 365, moet u mogelijk een wachtwoord instellen, samen met het toestaan dat uw werkorganisatie het apparaat wist. U kunt een apparaat wissen vanuit het Microsoft 365-beheercentrum, bijvoorbeeld om alle gegevens van het apparaat te verwijderen als het wachtwoord te vaak onjuist is ingevoerd of als de gebruiksvoorwaarden worden verbroken.
+> [!IMPORTANT]
+> Wanneer u uw apparaat inschrijft bij Basismobiliteit en beveiliging voor Microsoft 365, moet u mogelijk een wachtwoord instellen, samen met het toestaan dat uw werkorganisatie het apparaat wist. U kunt een apparaat wissen vanuit de Microsoft 365-beheercentrum, bijvoorbeeld om alle gegevens van het apparaat te verwijderen als het wachtwoord te vaak onjuist is ingevoerd of als de gebruiksvoorwaarden worden verbroken.
 
 ## <a name="supported-devices"></a>Ondersteunde apparaten
 
@@ -46,8 +46,8 @@ Basismobiliteit en beveiliging voor Microsoft 365 die worden gehost door de Intu
 
 Als uw apparaat niet hierboven wordt vermeld en u het moet gebruiken met Basismobiliteit en Beveiliging, neem dan contact op met uw werk- of schoolbeheerder.
 
->[!TIP]
->Zie Problemen met basismobiliteit en beveiliging oplossen als u problemen hebt met het registreren [van uw apparaat.](troubleshoot.md)
+> [!TIP]
+> Zie Problemen met basismobiliteit en beveiliging oplossen als u problemen hebt met het registreren [van uw apparaat.](troubleshoot.md)
 
 ## <a name="set-up-your-mobile-device-with-intune-and-basic-mobility-and-security"></a>Uw mobiele apparaat instellen met Intune en Basismobiliteit en beveiliging
 
@@ -55,8 +55,8 @@ Met Intune-bedrijfsportal kan een apparaat worden beheerd door Microsoft 365 en 
 
 ### <a name="iphone-or-ipad"></a>iPhone of iPad
 
->[!TIP]
->U kunt pas e-mail verzenden en ontvangen als u deze stap hebt voltooid.
+> [!TIP]
+> U kunt pas e-mail verzenden en ontvangen als u deze stap hebt voltooid.
 
 Ga naar de Apple App Store en download en installeer Intune-bedrijfsportal.
 
@@ -64,8 +64,8 @@ Zie IOS-apparaattoegang instellen voor uw bedrijfsbronnen als u uw iOS-telefoon 
 
 ### <a name="android-phone-or-tablet"></a>Android-telefoon of -tablet
 
->[!TIP]
->U kunt pas e-mail verzenden en ontvangen als u deze stap hebt voltooid.
+> [!TIP]
+> U kunt pas e-mail verzenden en ontvangen als u deze stap hebt voltooid.
 
 Ga naar de Google Play Store en download en installeer Intune-bedrijfsportal.
 

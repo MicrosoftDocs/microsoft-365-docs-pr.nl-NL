@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: bda9633ab37fd21fd66b3a8a53d4dd522e48ced1
-ms.sourcegitcommit: 8b1bd7ca8cd81e4270f0c1e06d2b6ca81804a6aa
+ms.openlocfilehash: b7eb225f04f531c3b6de71bf72df0f8062a8c93d
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "52161724"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226501"
 ---
 # <a name="insider-risk-management-audit-log"></a>Auditlogboek voor insiderrisicobeheer
 
@@ -38,8 +38,8 @@ Gebieden die deel uit maken van activiteitencontrole zijn:
 
 Als u gegevens uit het auditlogboek wilt weergeven en exporteren, moeten gebruikers zijn toegewezen aan de rollengroepen *Insider Risk Management* of Insider Risk Management *Auditors.* Zie Aan de slag met insider [risk management Stap 1: Machtigingen inschakelen](insider-risk-management-configure.md#step-1-enable-permissions-for-insider-risk-management)voor meer informatie over rollengroepen voor insiderrisicobeheer.
 
->[!NOTE]
->Het auditlogboek voor insiderrisicobeheer is niet gekoppeld aan Microsoft 365 auditlogboek, het zijn onafhankelijke controlesystemen en vastleggen van informatie over afzonderlijke activiteiten. Het uitschakelen van Microsoft 365 auditing heeft geen invloed op activiteitencontrole binnen insider risk management.
+> [!NOTE]
+> Het auditlogboek voor insiderrisicobeheer is niet gekoppeld aan Microsoft 365 auditlogboek, het zijn onafhankelijke controlesystemen en vastleggen van informatie over afzonderlijke activiteiten. Het uitschakelen van Microsoft 365 auditing heeft geen invloed op activiteitencontrole binnen insider risk management.
 
 ## <a name="view-activity-in-the-insider-risk-audit-log"></a>Activiteit weergeven in het auditlogboek voor insiderrisico's
 

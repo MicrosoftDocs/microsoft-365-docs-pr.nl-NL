@@ -21,34 +21,34 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: ''
 description: Gebruik dit artikel voor meer informatie over het inschakelen en configureren van bevoorrecht toegangsbeheer in Office 365.
-ms.openlocfilehash: 0b8d79c3012ecd321d7b00c1566aa557077d55f1
-ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
+ms.openlocfilehash: 13b600c60e1b9c88285ee58efcf80a7ff5ea17fe
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "52161685"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226117"
 ---
 # <a name="get-started-with-privileged-access-management"></a>Aan de slag met Privileged Access Management
 
-Dit onderwerp begeleidt u bij het inschakelen en configureren van bevoorrecht toegangsbeheer in uw organisatie. U kunt het beheercentrum Microsoft 365 of Exchange PowerShell gebruiken om bevoorrechte toegang te beheren en te gebruiken.
+Dit onderwerp begeleidt u bij het inschakelen en configureren van bevoorrecht toegangsbeheer in uw organisatie. U kunt de Microsoft 365-beheercentrum of Exchange PowerShell gebruiken om bevoorrechte toegang te beheren en te gebruiken.
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
 Voordat u aan de slag gaat met privileged access management, moet u uw Microsoft 365 [en](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans) eventuele invoegtoepassingen bevestigen. Als u toegang wilt krijgen tot en gebruik wilt maken van bevoorrecht toegangsbeheer, moet uw organisatie een van de volgende abonnementen of invoegtoepassingen hebben:
 
 - Microsoft 365 E5 (betaalde of proefversie)
-- Microsoft 365 E3 abonnement (of Office 365 E3-abonnement + Enterprise Mobility and Security E3-abonnement) + de Microsoft 365 E5 Compliance-invoegabonnement
-- Elk Microsoft 365, Office 365, Exchange, SharePoint of OneDrive voor Bedrijven abonnement + de Microsoft 365 E5 Insider Risk Management-invoeging  
-- Microsoft 365 A5-abonnement (betaalde versie of proefversie)
-- Microsoft 365 A3-abonnement (of Office 365 A3 + Enterprise Mobility and Security A3-abonnement) + de Microsoft A5 Compliance-invoegvoegvoeging
-- Alle Microsoft 365, Office 365, Exchange, SharePoint of OneDrive voor onderwijsabonnementen + de Microsoft 365 A5 Insider Risk Management-invoeging
+- Microsoft 365 E3 abonnement (of Office 365 E3 + Enterprise Mobility and Security E3-abonnement) + de Microsoft 365 E5 Compliance-invoegabonnement
+- Elk Microsoft 365, Office 365, Exchange, SharePoint of OneDrive voor Bedrijven abonnement + de Microsoft 365 E5 Insider Risk Management-invoeging
+- Microsoft 365 A5 (betaalde of proefversie)
+- Microsoft 365 A3 abonnement (of Office 365 A3 + Enterprise Mobility and Security A3-abonnement) + de Microsoft A5 Compliance-invoeging
+- Een Microsoft 365, Office 365, Exchange, SharePoint of OneDrive voor education-abonnement + de Microsoft 365 A5 Insider Risk Management-invoeging
 - Office 365 Enterprise E5-abonnement (betaalde of proefversie)
 - Office 365 Enterprise E3-abonnement + de Office 365 Advanced Compliance-invoegabonnement (niet meer beschikbaar voor nieuwe abonnementen, zie opmerking)
 
 Gebruikers die een bevoorrechte toegangsbeheerverzoek indienen en beantwoorden, moeten een van de bovenstaande licenties krijgen toegewezen.
 
->[!IMPORTANT]
->Office 365 Advanced Compliance wordt niet meer als zelfstandig abonnement verkocht. Wanneer huidige abonnementen verlopen, moeten klanten overstappen op een van de bovenstaande abonnementen, die dezelfde of aanvullende compliancefuncties bevatten.
+> [!IMPORTANT]
+> Office 365 Advanced Compliance wordt niet meer als zelfstandig abonnement verkocht. Wanneer huidige abonnementen verlopen, moeten klanten overstappen op een van de bovenstaande abonnementen, die dezelfde of aanvullende compliancefuncties bevatten.
 
 Als u geen bestaand Office 365 Enterprise E5-abonnement hebt en u bevoorrecht toegangsbeheer wilt proberen, kunt u [Microsoft 365](/office365/admin/try-or-buy-microsoft-365) toevoegen aan uw bestaande Office 365-abonnement [of](https://www.microsoft.com/microsoft-365/enterprise) u registreren voor een proefversie van Microsoft 365 Enterprise E5.
 
@@ -72,22 +72,22 @@ Volg deze stappen om geprivilegieerde toegang in uw organisatie in te stellen en
 
     Wanneer deze optie is ingeschakeld, moeten voor bevoorrechte toegang goedkeuringen worden verleend voor een taak die een gekoppeld goedkeuringsbeleid heeft gedefinieerd. Voor taken die zijn opgenomen in een goedkeuringsbeleid, moeten gebruikers toegangsgoedkeuring aanvragen en worden verleend om over machtigingen te kunnen vragen die nodig zijn om de taak uit te voeren.
 
-Nadat goedkeuring is verleend, kan de verzoekende gebruiker de beoogde taak uitvoeren en wordt de taak geautoriseerd en uitgevoerd namens de gebruiker. De goedkeuring blijft geldig voor de gevraagde duur (standaardduur is 4 uur), waarbij de aanvraager de beoogde taak meerdere keren kan uitvoeren. Al deze uitvoeringen worden geregistreerd en beschikbaar gesteld voor beveiligings- en compliancecontrole. 
+Nadat goedkeuring is verleend, kan de verzoekende gebruiker de beoogde taak uitvoeren en wordt de taak geautoriseerd en uitgevoerd namens de gebruiker. De goedkeuring blijft geldig voor de gevraagde duur (standaardduur is 4 uur), waarbij de aanvraager de beoogde taak meerdere keren kan uitvoeren. Al deze uitvoeringen worden geregistreerd en beschikbaar gesteld voor beveiligings- en compliancecontrole.
 
->[!NOTE]
->Als u Exchange Management PowerShell wilt gebruiken om geprivilegieerde toegang in te schakelen en te configureren, volgt u de stappen in Verbinding maken naar [Exchange Online PowerShell met](/powershell/exchange/connect-to-exchange-online-powershell#connect-to-exchange-online-powershell-using-mfa) meervoudige verificatie om verbinding te maken met Exchange Online PowerShell met uw Office 365-referenties. U hoeft geen meervoudige verificatie in te schakelen voor uw organisatie om de stappen te gebruiken om geprivilegieerde toegang in te schakelen terwijl u verbinding maakt met Exchange Online PowerShell. Als u verbinding maakt met meervoudige verificatie, wordt een OAuth-token gemaakt dat wordt gebruikt door bevoorrechte toegang voor het ondertekenen van uw aanvragen.
+> [!NOTE]
+> Als u Exchange Management PowerShell wilt gebruiken om geprivilegieerde toegang in te schakelen en te configureren, volgt u de stappen in Verbinding maken naar [Exchange Online PowerShell met](/powershell/exchange/connect-to-exchange-online-powershell#connect-to-exchange-online-powershell-using-mfa) meervoudige verificatie om verbinding te maken met Exchange Online PowerShell met uw Office 365-referenties. U hoeft geen meervoudige verificatie in te schakelen voor uw organisatie om de stappen te gebruiken om geprivilegieerde toegang in te schakelen terwijl u verbinding maakt met Exchange Online PowerShell. Als u verbinding maakt met meervoudige verificatie, wordt een OAuth-token gemaakt dat wordt gebruikt door bevoorrechte toegang voor het ondertekenen van uw aanvragen.
 
 <a name="step1"> </a>
 
 ## <a name="step-1-create-an-approvers-group"></a>Stap 1: De groep van een goedkeurder maken
 
-1. Meld u aan [bij Microsoft 365 beheercentrum met](https://admin.microsoft.com) referenties voor een beheerdersaccount in uw organisatie.
+1. Meld u aan [bij Microsoft 365-beheercentrum](https://admin.microsoft.com) met referenties voor een beheerdersaccount in uw organisatie.
 
 2. Ga in het beheercentrum naar **Groepen**  >  **een groep toevoegen.**
 
 3. Selecteer **beveiligingsgroep met e-mail** en vul vervolgens de  velden **Naam,** E-mailadres groep **en** Beschrijving voor de nieuwe groep in.
 
-4. Sla de groep op. Het kan enkele minuten duren voordat de groep volledig is geconfigureerd en wordt weergegeven in het Microsoft 365 beheercentrum.
+4. Sla de groep op. Het kan enkele minuten duren voordat de groep volledig is geconfigureerd en in de Microsoft 365-beheercentrum.
 
 5. Selecteer de groep nieuwe goedkeurder en selecteer **Bewerken om** gebruikers aan de groep toe te voegen.
 
@@ -97,9 +97,9 @@ Nadat goedkeuring is verleend, kan de verzoekende gebruiker de beoogde taak uitv
 
 ## <a name="step-2-enable-privileged-access"></a>Stap 2: Geprivilegieerde toegang inschakelen
 
-### <a name="in-the-microsoft-365-admin-center"></a>In het Microsoft 365 beheercentrum
+### <a name="in-the-microsoft-365-admin-center"></a>In het Microsoft 365-beheer Center
 
-1. Meld u aan [bij Microsoft 365 beheercentrum met](https://admin.microsoft.com) referenties voor een beheerdersaccount in uw organisatie.
+1. Meld u aan [bij Microsoft 365-beheer center met](https://admin.microsoft.com) referenties voor een beheerdersaccount in uw organisatie.
 
 2. Ga in het beheercentrum naar **Instellingen**  >  **Organisatie Instellingen**  >  **Beveiligings- & privacyprivilegetoegang.**  >  
 
@@ -123,8 +123,8 @@ Voorbeeld:
 Enable-ElevatedAccessControl -AdminGroup 'pamapprovers@fabrikam.onmicrosoft.com' -SystemAccounts @('sys1@fabrikamorg.onmicrosoft.com', 'sys2@fabrikamorg.onmicrosoft.com')
 ```
 
->[!NOTE]
->De functie Systeemaccounts wordt beschikbaar gesteld om ervoor te zorgen dat bepaalde automatiseringen binnen uw organisaties kunnen werken zonder afhankelijk te zijn van geprivilegieerde toegang, maar het wordt aanbevolen dat dergelijke uitsluitingen bijzonder zijn en dat deze worden toegestaan, regelmatig moeten worden goedgekeurd en gecontroleerd.
+> [!NOTE]
+> De functie Systeemaccounts wordt beschikbaar gesteld om ervoor te zorgen dat bepaalde automatiseringen binnen uw organisaties kunnen werken zonder afhankelijk te zijn van geprivilegieerde toegang, maar het wordt aanbevolen dat dergelijke uitsluitingen bijzonder zijn en dat deze worden toegestaan, regelmatig moeten worden goedgekeurd en gecontroleerd.
 
 <a name="step3"> </a>
 
@@ -132,9 +132,9 @@ Enable-ElevatedAccessControl -AdminGroup 'pamapprovers@fabrikam.onmicrosoft.com'
 
 U kunt maximaal 30 beleidsregels voor geprivilegieerde toegang voor uw organisatie maken en configureren.
 
-### <a name="in-the-microsoft-365-admin-center"></a>In het Microsoft 365 beheercentrum
+### <a name="in-the-microsoft-365-admin-center"></a>In het Microsoft 365-beheer Center
 
-1. Meld u aan [bij Microsoft 365 beheercentrum met](https://admin.microsoft.com) referenties voor een beheerdersaccount in uw organisatie.
+1. Meld u aan [bij Microsoft 365-beheer center met](https://admin.microsoft.com) referenties voor een beheerdersaccount in uw organisatie.
 
 2. Ga in het beheercentrum naar **Instellingen**  >  **Organisatie Instellingen**  >  **Beveiligings- & privacyprivilegetoegang.**  >  
 
@@ -143,7 +143,7 @@ U kunt maximaal 30 beleidsregels voor geprivilegieerde toegang voor uw organisat
 4. Selecteer **Beleid configureren** en selecteer **Beleid toevoegen.**
 
 5. Selecteer in de vervolgkeuzevelden de juiste waarden voor uw organisatie:
-    
+
     **Beleidstype**: Taak, Rol of Rollengroep
 
     **Beleidsbereik:** Exchange
@@ -178,9 +178,9 @@ New-ElevatedAccessApprovalPolicy -Task 'Exchange\New-MoveRequest' -ApprovalType 
 
 Aanvragen voor bevoorrechte toegang zijn geldig tot 24 uur nadat de aanvraag is ingediend. Als de aanvragen niet zijn goedgekeurd of geweigerd, verlopen de aanvragen en wordt de toegang niet goedgekeurd.
 
-#### <a name="in-the-microsoft-365-admin-center"></a>In het Microsoft 365 beheercentrum
+#### <a name="in-the-microsoft-365-admin-center"></a>In het Microsoft 365-beheer Center
 
-1. Meld u aan [bij Microsoft 365 beheercentrum](https://admin.microsoft.com) met uw referenties.
+1. Meld u aan [bij Microsoft 365-beheer center](https://admin.microsoft.com) met uw referenties.
 
 2. Ga in het beheercentrum naar **Instellingen**  >  **Organisatie Instellingen**  >  **Beveiligings- & privacyprivilegetoegang.**  >  
 
@@ -218,9 +218,9 @@ New-ElevatedAccessRequest -Task 'Exchange\New-MoveRequest' -Reason 'Attempting t
 
 Nadat een goedkeuringsaanvraag is gemaakt, kan de status van de aanvraag voor hoogte worden gecontroleerd in het beheercentrum of in Exchange Management PowerShell met behulp van de bijbehorende aanvraag-id.
 
-#### <a name="in-the-microsoft-365-admin-center"></a>In het Microsoft 365 beheercentrum
+#### <a name="in-the-microsoft-365-admin-center"></a>In de Microsoft 365-beheercentrum
 
-1. Meld u aan [bij Microsoft 365 beheercentrum](https://admin.microsoft.com) met uw referenties.
+1. Meld u aan [bij Microsoft 365-beheercentrum](https://admin.microsoft.com) met uw referenties.
 
 2. Ga in het beheercentrum naar **Instellingen**  >  **Organisatie Instellingen** Beveiliging &  >  **Privacy**  >  **privileged access**.
 
@@ -246,9 +246,9 @@ Get-ElevatedAccessRequest -Identity 28560ed0-419d-4cc3-8f5b-603911cbd450 | selec
 
 Wanneer een goedkeuringsaanvraag wordt gemaakt, ontvangen leden van de relevante groep goedkeurder een e-mailmelding en kunnen ze de aanvraag goedkeuren die is gekoppeld aan de aanvraag-id. De aanmelder wordt via een e-mailbericht op de hoogte gesteld van de goedkeuring of weigering van de aanvraag.
 
-#### <a name="in-the-microsoft-365-admin-center"></a>In het Microsoft 365 beheercentrum
+#### <a name="in-the-microsoft-365-admin-center"></a>In de Microsoft 365-beheercentrum
 
-1. Meld u aan [bij Microsoft 365 beheercentrum](https://admin.microsoft.com) met uw referenties.
+1. Meld u aan [bij Microsoft 365-beheercentrum](https://admin.microsoft.com) met uw referenties.
 
 2. Ga in het beheercentrum naar **Instellingen**  >  **Organisatie Instellingen** Beveiliging &  >  **Privacy**  >  **privileged access**.
 
@@ -288,9 +288,9 @@ Deny-ElevatedAccessRequest -RequestId a4bc1bdf-00a1-42b4-be65-b6c63d6be279 -Comm
 
 Als dit niet meer nodig is in uw organisatie, kunt u een beleid voor geprivilegieerde toegang verwijderen.
 
-### <a name="in-the-microsoft-365-admin-center"></a>In het Microsoft 365 beheercentrum
+### <a name="in-the-microsoft-365-admin-center"></a>In de Microsoft 365-beheercentrum
 
-1. Meld u aan [bij Microsoft 365 beheercentrum met](https://admin.microsoft.com) referenties voor een beheerdersaccount in uw organisatie.
+1. Meld u aan [bij Microsoft 365-beheercentrum](https://admin.microsoft.com) met referenties voor een beheerdersaccount in uw organisatie.
 
 2. Ga in het beheercentrum naar **Instellingen**  >  **Organisatie Instellingen** Beveiliging &  >  **Privacy**  >  **privileged access**.
 
@@ -314,9 +314,9 @@ Remove-ElevatedAccessApprovalPolicy -Identity <identity GUID of the policy you w
 
 Indien nodig kunt u bevoorrecht toegangsbeheer voor uw organisatie uitschakelen. Als u geprivilegieerde toegang uit kunt uitschakelen, worden geen bijbehorend goedkeuringsbeleid of goedkeuringsgroepen verwijderd.
 
-### <a name="in-the-microsoft-365-admin-center"></a>In het Microsoft 365 beheercentrum
+### <a name="in-the-microsoft-365-admin-center"></a>In de Microsoft 365-beheercentrum
 
-1. Meld u aan [bij Microsoft 365 beheercentrum](https://admin.microsoft.com) met referenties voor een beheerdersaccount in uw organisatie.
+1. Meld u aan [bij Microsoft 365-beheercentrum](https://admin.microsoft.com) met referenties voor een beheerdersaccount in uw organisatie.
 
 2. Ga in het beheercentrum naar **Instellingen**  >  **Organisatie Instellingen**  >  **Beveiligings- & privacyprivilegetoegang.**  >  
 

@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Informatie over het maken, wijzigen, verwijderen en testen van aangepaste gevoelige informatietypen voor DLP in het Beveiligings- & Compliancecentrum.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 911d2dc3a4adeb79e2b41f3a450bbc446feee916
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 451b5b222b06ba1ec9770a5e49cc66c5c0f68719
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683835"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227149"
 ---
 # <a name="get-started-with-custom-sensitive-information-types"></a>Aan de slag met aangepaste typen vertrouwelijke informatie
 
@@ -45,7 +45,7 @@ Er zijn twee manieren om een nieuw type gevoelige informatie te maken:
     - [functies](what-the-dlp-functions-look-for.md)
     - [betrouwbaarheidsniveaus](sensitive-information-type-learn-about.md#more-on-confidence-levels)
  
-- U moet globale beheerdersmachtigingen of beheerdersmachtigingen voor compliance hebben om een aangepast type gevoelige informatie te maken, testen en implementeren via de gebruikersinterface. Zie [Over beheerdersrollen](/office365/admin/add-users/about-admin-roles?view=o365-worldwide) in Office 365.
+- U moet globale beheerdersmachtigingen of beheerdersmachtigingen voor compliance hebben om een aangepast type gevoelige informatie te maken, testen en implementeren via de gebruikersinterface. Zie [Over beheerdersrollen](/office365/admin/add-users/about-admin-roles) in Office 365.
 
 - Uw organisatie moet een abonnement hebben, zoals Office 365 Enterprise, dat preventie van gegevensverlies (DLP) omvat. Zie [berichtenbeleid en nalevingsservicedescription](/office365/servicedescriptions/exchange-online-protection-service-description/messaging-policy-and-compliance-servicedesc). 
 

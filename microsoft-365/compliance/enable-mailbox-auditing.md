@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: aaca8987-5b62-458b-9882-c28476a66918
 ms.custom: seo-marvel-apr2020
 description: Logboekregistratie voor postvakkencontrole is standaard ingeschakeld in Microsoft 365 (standaard ook wel standaardpostvakcontrole of postvakcontrole genoemd). Dit betekent dat bepaalde acties die worden uitgevoerd door postvakeigenaren, gedelegeerden en beheerders, automatisch worden aangemeld in een postvakauditlogboek, waar u kunt zoeken naar activiteiten die in het postvak worden uitgevoerd.
-ms.openlocfilehash: 0fd15ffd26ad28b9e8b4f2b627ff26206983f21e
-ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
+ms.openlocfilehash: 56207a21d9a13edb04a07234764257d3c27f2d0f
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53108089"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226777"
 ---
 # <a name="manage-mailbox-auditing"></a>Postvakcontrole beheren
 
@@ -92,7 +92,7 @@ Aanmeldingstypen classificeren de gebruiker die de gecontroleerde acties in het 
 
 In de volgende tabel worden de postvakacties beschreven die beschikbaar zijn in de logboekregistratie voor postvakken van gebruikers en gedeelde postvakken.
 
-- Een vinkje ( ![vinkje](../media/checkmark.png)) geeft aan dat de postvakactie kan worden geregistreerd voor het aanmeldingstype (niet alle acties zijn beschikbaar voor alle aanmeldingstypen).
+- Een vinkje (![vinkje](../media/checkmark.png)) geeft aan dat de postvakactie kan worden geregistreerd voor het aanmeldingstype (niet alle acties zijn beschikbaar voor alle aanmeldingstypen).
 - Een sterretje () nadat het vinkje aangeeft dat de postvakactie standaard is vastgelegd <sup>\*</sup> voor het aanmeldingstype.
 - Een beheerder met volledige toegangsmachtiging voor een postvak wordt beschouwd als gemachtigde.
 

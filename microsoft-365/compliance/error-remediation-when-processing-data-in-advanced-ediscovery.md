@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: Meer informatie over het gebruik van foutsanering om gegevensproblemen in Advanced eDiscovery te corrigeren die de juiste verwerking van inhoud kunnen voorkomen.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f2067831a85e3b3a506917fac5b93acfa0b174db
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 891e8292fca629669a48684e95f522c08838d3aa
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "52161874"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226657"
 ---
 # <a name="error-remediation-when-processing-data"></a>Foutherstel bij het verwerken van gegevens
 
@@ -32,8 +32,8 @@ Gebruik de volgende werkstroom om bestanden te corrigeren met fouten in Advanced
 
 ## <a name="create-an-error-remediation-session-to-remediate-files-with-processing-errors"></a>Een foutsaneringssessie maken om bestanden te corrigeren met verwerkingsfouten
 
->[!NOTE]
->Als de wizard Herstel van fout op elk moment tijdens de volgende procedure is gesloten,  kunt u terugkeren naar de  foutremediatiesessie op het tabblad Verwerking door **Herstelbewerkingen** te selecteren in de vervolgkeuzelijst Weergave.
+> [!NOTE]
+> Als de wizard Herstel van fout op elk moment tijdens de volgende procedure is gesloten,  kunt u terugkeren naar de  foutremediatiesessie op het tabblad Verwerking door **Herstelbewerkingen** te selecteren in de vervolgkeuzelijst Weergave.
 
 1. Selecteer op **het** tabblad Verwerking in het  Advanced eDiscovery  in de vervolgkeuzelijst Weergave de optie Fouten en selecteer vervolgens een revisieset of de hele zaak in de **vervolgkeuzelijst** Bereik. In deze sectie worden alle fouten uit de zaak of fout uit een specifieke revisieset weergegeven.
 
@@ -51,13 +51,13 @@ Gebruik de volgende werkstroom om bestanden te corrigeren met fouten in Advanced
 
     ![Bestanden downloaden](../media/6ac04b09-8e13-414a-9e24-7c75ba586363.png)
 
-5. Als u bestanden wilt downloaden, geeft u het **pad Doel op dat u wilt downloaden.** Dit is een pad naar de bovenliggende map op uw lokale computer waar het bestand wordt gedownload.  Het standaardpad , %USERPROFILE%\Downloads\errors, wijst naar de downloadmap van de aangemelde gebruiker. U kunt dit pad desgewenst wijzigen. Als u dit wijzigt, raden we u aan een lokaal bestandspad te gebruiken voor de beste prestaties. Gebruik geen extern netwerkpad. U kunt bijvoorbeeld het pad **C:\Herstel gebruiken.** 
+5. Als u bestanden wilt downloaden, geeft u het **pad Doel op dat u wilt downloaden.** Dit is een pad naar de bovenliggende map op uw lokale computer waar het bestand wordt gedownload.  Het standaardpad , %USERPROFILE%\Downloads\errors, wijst naar de downloadmap van de aangemelde gebruiker. U kunt dit pad desgewenst wijzigen. Als u dit wijzigt, raden we u aan een lokaal bestandspad te gebruiken voor de beste prestaties. Gebruik geen extern netwerkpad. U kunt bijvoorbeeld het pad **C:\Herstel gebruiken.**
 
    Het pad naar de bovenliggende map wordt automatisch toegevoegd aan de opdracht AzCopy (als de waarde van de **parameter /Dest).**
 
-6. Kopieer de vooraf gedefinieerde opdracht door op Kopiëren naar **klembord te klikken.** Open een Windows opdrachtprompt, plak de opdracht AzCopy en druk vervolgens op **Enter**.  
+6. Kopieer de vooraf gedefinieerde opdracht door op Kopiëren naar **klembord te klikken.** Open een Windows opdrachtprompt, plak de opdracht AzCopy en druk vervolgens op **Enter**.
 
-    ![Voorbereidingen treffen voor foutsanering](../media/f364ab4d-31c5-4375-b69f-650f694a2f69.png)    
+    ![Voorbereidingen treffen voor foutsanering](../media/f364ab4d-31c5-4375-b69f-650f694a2f69.png)
 
     > [!NOTE]
     > U moet AzCopy v8.1 gebruiken om de opdracht te kunnen gebruiken die is opgegeven op de **pagina Bestanden** downloaden. U moet ook AzCopy v8.1 gebruiken om de bestanden te uploaden in stap 10. Zie Gegevens overbrengen met de [AzCopy v8.1](/previous-versions/azure/storage/storage-use-azcopy)op Windows . Als de opgegeven Opdracht AzCopy mislukt, raadpleegt u [AzCopy](troubleshooting-azcopy.md)oplossen in Advanced eDiscovery.
@@ -97,7 +97,7 @@ Gebruik de volgende werkstroom om bestanden te corrigeren met fouten in Advanced
 
 11. Nadat u de opdracht AzCopy hebt uitgevoerd, klikt u op **Volgende: Bestanden verwerken.**
 
-    Wanneer de verwerking is voltooid, kunt u naar de set van de bestanden gaan en de herstelbestanden bekijken. 
+    Wanneer de verwerking is voltooid, kunt u naar de set van de bestanden gaan en de herstelbestanden bekijken.
 
 ## <a name="remediating-errors-in-container-files"></a>Fouten in containerbestanden herstellen
 
@@ -109,7 +109,7 @@ Soms is het niet mogelijk om een bestand te herstellen naar de oorspronkelijke i
 
 ## <a name="what-happens-when-files-are-remediated"></a>Wat gebeurt er wanneer bestanden worden gesaneerd
 
-Wanneer herstelbestanden worden geüpload, blijven de oorspronkelijke metagegevens behouden, behalve de volgende velden: 
+Wanneer herstelbestanden worden geüpload, blijven de oorspronkelijke metagegevens behouden, behalve de volgende velden:
 
 - ExtractedTextSize
 - HasText

@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 2c4cf347-b897-45c1-a71f-210bdc8f1061
 description: Informatie over het door routen van verkeer naar een bestaande openbare website die buiten Microsoft wordt gehost, als u Microsoft hebt ingesteld voor het beheren van DNS-records voor uw aangepaste domein.
-ms.openlocfilehash: 2a1559bbb902375bbc363180cdb4f98ec2b3a939
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: d54aa4583862ce19907a3b8494a333bbb925e436
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572137"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228121"
 ---
 # <a name="update-dns-records-to-keep-your-website-with-your-current-hosting-provider"></a>DNS-records bijwerken als u uw website bij uw huidige hostingprovider wilt houden
 
@@ -34,7 +34,7 @@ ms.locfileid: "52572137"
   
  Ga als volgt te werk als Microsoft uw **DNS-records** beheert, om verkeer door te laten gaan naar een bestaande openbare website die buiten Microsoft wordt gehost, nadat u uw domein hebt toevoegen aan Microsoft: 
   
-## <a name="update-dns-records-in-the-microsoft-365-admin-center"></a>DNS-records bijwerken in het Microsoft 365 beheercentrum
+## <a name="update-dns-records-in-the-microsoft-365-admin-center"></a>DNS-records bijwerken in de Microsoft 365-beheercentrum
 1. Ga in het beheercentrum naar **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domeinen</a>-pagina.
 
 1. Selecteer op **de pagina** Domeinen het domein en kies vervolgens **DNS Records.**
@@ -65,6 +65,6 @@ U kunt eveneens een CNAME-record maken om klanten te helpen bij het zoeken van u
     
 Ga ten slotte als volgt te werk:
   
-[Werk de NS-records van uw domein bij om](../get-help-with-domains/set-up-your-domain-host-specific-instructions.md) naar Microsoft te wijzen. 
+[Werk de NS-records van uw domein bij om](../setup/add-domain.md) naar Microsoft te wijzen. 
   
 Wanneer de NS-records zijn bijgewerkt om naar Microsoft te wijzen, is uw domein helemaal ingesteld. E-mail wordt doorgeleid naar Microsoft en het verkeer naar uw websiteadres blijft naar uw huidige websitehost gaan.

@@ -23,19 +23,19 @@ search.appverid:
 - MOE150
 ms.assetid: ab5eb117-0f22-4fa7-a662-3a6bdb0add74
 description: Met e-mail doorsturen kunt u e-mailberichten doorsturen die zijn verzonden naar een Microsoft 365 postvak van een gebruiker naar een ander postvak binnen of buiten uw organisatie.
-ms.openlocfilehash: dfea738f5d786b6e476dd02dc92fd0aef452d62f
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: e0043fe75eefe224c63fd23f352d4bd3ddf2c326
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730136"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228049"
 ---
 # <a name="configure-email-forwarding-in-microsoft-365"></a>E-mail doorsturen configureren in Microsoft 365
 
 Als beheerder van een organisatie hebt u mogelijk bedrijfsvereisten voor het instellen van e-mail doorsturen voor het postvak van een gebruiker. Dankzij de functie voor e-mail doorsturen kunt u e-mailberichten vanuit het postvak van een gebruiker doorsturen naar het postvak van een gebruiker binnen of buiten de organisatie.
 
 > [!IMPORTANT]
-> U kunt beleidsregels voor uitgaand spamfilter gebruiken om automatische doorsturen naar externe geadresseerden te controleren. Zie Automatische externe e-mail doorsturen [in](/microsoft-365/security/office-365-security/external-email-forwarding?view=o365-worldwide&preserve-view=true#how-the-outbound-spam-filter-policy-settings-work-with-other-automatic-email-forwarding-controls)Microsoft 365.
+> U kunt beleidsregels voor uitgaand spamfilter gebruiken om automatische doorsturen naar externe geadresseerden te controleren. Zie Automatische externe e-mail doorsturen [in](/microsoft-365/security/office-365-security/external-email-forwarding#how-the-outbound-spam-filter-policy-settings-work-with-other-automatic-email-forwarding-controls)Microsoft 365.
 
 ## <a name="configure-email-forwarding"></a>Doorsturen van e‑mail configureren
 
@@ -82,7 +82,7 @@ U moet een beheerder Exchange globale beheerder in Microsoft 365 om deze stappen
 
 3. Vouw **E-mailinstellingen** uit en selecteer bewerken in de sectie **E-mail** **doorsturen.**
 
-4. Stel op de pagina e-mail doorsturen de schakelknop in op **Aan,** voer het doorsturende adres in en kies of u een kopie van doorgestuurde e-mailberichten wilt bewaren. Als u deze optie niet ziet, moet u ervoor zorgen dat er een licentie is toegewezen aan het gebruikersaccount. Klik op **Opslaan**.
+4. Stel op de pagina e-mail doorsturen de schakelknop in op **Aan,** voer het doorsturende adres in en kies of u een kopie van doorgestuurde e-mailberichten wilt bewaren. Als u deze optie niet ziet, moet u ervoor zorgen dat er een licentie is toegewezen aan het gebruikersaccount. Kies **Opslaan**.
 
    **Als u meerdere e-mailadressen** wilt doorsturen, kunt u de gebruiker vragen om een regel in te stellen in Outlook door te sturen naar de adressen. Zie Regels gebruiken om berichten automatisch door te sturen voor [meer informatie.](https://support.microsoft.com/office/45aa9664-4911-4f96-9663-ece42816d746)
 
@@ -100,7 +100,7 @@ U moet een beheerder Exchange globale beheerder in Microsoft 365 om deze stappen
 
 3. Vouw **E-mailinstellingen** uit en selecteer bewerken in de sectie **E-mail** **doorsturen.**
 
-4. Stel op de pagina e-mail doorsturen de schakelknop in op **Aan,** voer het doorsturende adres in en kies of u een kopie van doorgestuurde e-mailberichten wilt bewaren. Als u deze optie niet ziet, moet u ervoor zorgen dat er een licentie is toegewezen aan het gebruikersaccount. Klik op **Opslaan**.
+4. Stel op de pagina e-mail doorsturen de schakelknop in op **Aan,** voer het doorsturende adres in en kies of u een kopie van doorgestuurde e-mailberichten wilt bewaren. Als u deze optie niet ziet, moet u ervoor zorgen dat er een licentie is toegewezen aan het gebruikersaccount. Kies **Opslaan**.
 
    **Als u meerdere e-mailadressen** wilt doorsturen, kunt u de gebruiker vragen om een regel in te stellen in Outlook door te sturen naar de adressen. Zie Regels gebruiken om berichten automatisch door te sturen voor [meer informatie.](https://support.microsoft.com/office/45aa9664-4911-4f96-9663-ece42816d746)
 
@@ -110,7 +110,7 @@ U moet een beheerder Exchange globale beheerder in Microsoft 365 om deze stappen
 
 ::: moniker-end
 
-## <a name="related-content"></a>Verwante onderwerpen 
+## <a name="related-content"></a>Verwante inhoud 
 
 [Een gedeeld postvak](../email/create-a-shared-mailbox.md) maken (artikel)\
 [E-mail verzenden vanaf een ander adres](https://support.microsoft.com/office/ccba89cb-141c-4a36-8c56-6d16a8556d2e) (artikel)\

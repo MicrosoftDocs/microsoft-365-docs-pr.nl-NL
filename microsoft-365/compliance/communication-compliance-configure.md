@@ -20,12 +20,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: e258a7fec21bd3499553fe726730ac685ff990b5
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: d76bc36ca8c79d318e1b632517e2a182857627ff
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52821377"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227341"
 ---
 # <a name="get-started-with-communication-compliance"></a>Aan de slag met communicatiecompliance
 
@@ -38,9 +38,9 @@ Voordat u aan de slag gaat met communicatie-compliance, moet u uw Microsoft 365 
 - Microsoft 365 E5 (betaalde of proefversie)
 - Microsoft 365 E3 +de Microsoft 365 E5 Compliance-invoegvoegvoeging
 - Microsoft 365 E3 abonnement + de Microsoft 365 E5 Insider Risk Management-invoegvoegvoeging
-- Microsoft 365 A5-abonnement (betaalde versie of proefversie)
-- Microsoft 365 A3-abonnement + de Microsoft 365 A5 Compliance-invoegvoegvoeging
-- Microsoft 365 A3-abonnement + de Microsoft 365 A5 Insider Risk Management-invoegvoegvoeging
+- Microsoft 365 A5 (betaalde of proefversie)
+- Microsoft 365 A3+de Microsoft 365 A5 compliance-invoegvoeging
+- Microsoft 365 A3 abonnement + de Microsoft 365 A5 Insider Risk Management-invoeging
 - Microsoft 365 G5-abonnement (betaalde versie of proefversie)
 - Microsoft 365 G5-abonnement + de Microsoft 365 G5 Compliance-invoegvoegvoeging
 - Microsoft 365 G5-abonnement + de Microsoft 365 G5 Insider Risk Management-invoegvoegvoeging
@@ -50,17 +50,17 @@ Voordat u aan de slag gaat met communicatie-compliance, moet u uw Microsoft 365 
 
 Gebruikers die deel uit maken van communicatie compliancebeleid, moeten een van de bovenstaande licenties krijgen toegewezen.
 
->[!IMPORTANT]
->Office 365 Advanced Compliance wordt niet meer als zelfstandig abonnement verkocht. Wanneer huidige abonnementen verlopen, moeten klanten overstappen op een van de bovenstaande abonnementen, die dezelfde of aanvullende compliancefuncties bevatten.
+> [!IMPORTANT]
+> Office 365 Advanced Compliance wordt niet meer als zelfstandig abonnement verkocht. Wanneer huidige abonnementen verlopen, moeten klanten overstappen op een van de bovenstaande abonnementen, die dezelfde of aanvullende compliancefuncties bevatten.
 
 Als u geen bestaand Office 365 Enterprise E5-abonnement hebt en communicatie-compliance wilt proberen, kunt u [Microsoft 365](/office365/admin/try-or-buy-microsoft-365) toevoegen aan uw bestaande abonnement [of](https://www.microsoft.com/microsoft-365/enterprise) u registreren voor een proefabonnement op Office 365 Enterprise E5.
 
 ## <a name="step-1-required-enable-permissions-for-communication-compliance"></a>Stap 1 (vereist): Machtigingen voor communicatie compliance inschakelen
 
->[!Important]
->Globale beheerders hebben standaard geen toegang tot communicatie-compliancefuncties. De rollen die in deze stap zijn toegewezen, zijn vereist voordat alle communicatie-compliancefuncties toegankelijk zijn. Nadat u de rollengroepen hebt geconfigureerd, kan het tot 30 minuten duren voordat de machtigingen voor rollengroepen van toepassing zijn op toegewezen gebruikers in uw organisatie.
+> [!IMPORTANT]
+> Globale beheerders hebben standaard geen toegang tot communicatie-compliancefuncties. De rollen die in deze stap zijn toegewezen, zijn vereist voordat alle communicatie-compliancefuncties toegankelijk zijn. Nadat u de rollengroepen hebt geconfigureerd, kan het tot 30 minuten duren voordat de machtigingen voor rollengroepen van toepassing zijn op toegewezen gebruikers in uw organisatie.
 
-Er zijn vijf rollengroepen die worden gebruikt om machtigingen te configureren voor het beheren van communicatie compliancefuncties. Als u **communicatie compliance** beschikbaar wilt maken als een menuoptie in Microsoft 365 compliancecentrum en als  u deze configuratiestappen wilt voortzetten, moet u zijn toegewezen aan de rollengroepen Communicatie compliance of *Communicatie compliancebeheerder.* Als u na de eerste configuratie communicatie compliancefuncties wilt openen en beheren, moeten gebruikers lid zijn van ten minste één rolgroep communicatie compliance.
+Er zijn vijf rollengroepen die worden gebruikt om machtigingen te configureren voor het beheren van communicatie compliancefuncties. Als u **communicatie compliance** beschikbaar wilt maken als menuoptie in Microsoft 365-compliancecentrum en deze configuratiestappen  wilt voortzetten, moet u zijn toegewezen aan de rollengroepen Communicatie compliance of *Communicatie compliancebeheerder.* Als u na de eerste configuratie communicatie compliancefuncties wilt openen en beheren, moeten gebruikers lid zijn van ten minste één rolgroep communicatie compliance.
 
 Afhankelijk van hoe u communicatiebeleid en waarschuwingen wilt beheren, moet u gebruikers toewijzen aan specifieke rollengroepen. U hebt de optie om gebruikers met verschillende complianceverantwoordelijkheden toe te wijzen aan specifieke rollengroepen om verschillende gebieden met communicatie compliancefuncties te beheren. Of u kunt besluiten om alle gebruikersaccounts voor aangewezen beheerders, analisten, onderzoeker en kijkers toe te wijzen aan de *rollengroep Communicatie compliance.* Gebruik één rollengroep of meerdere rollengroepen om het best aan uw vereisten voor compliancebeheer te voldoen.
 
@@ -130,7 +130,7 @@ Gebruik de volgende grafiek om groepen in uw organisatie te configureren voor co
 |:-----|:-----|:-----|
 |Gecontroleerde gebruikers <br> Uitgesloten gebruikers | Distributiegroepen <br> Microsoft 365 Groepen | Dynamische distributiegroepen <br> Geneste distributiegroepen <br> Beveiligingsgroepen met e-mail <br> Microsoft 365 groepen met dynamisch lidmaatschap |
 | Revisoren | Geen | Distributiegroepen <br> Dynamische distributiegroepen <br> Geneste distributiegroepen <br> Beveiligingsgroepen met e-mail |
-  
+
 Wanneer u een distributiegroep toewijst in het beleid, worden alle e-mailberichten en Teams van elke gebruiker in de distributiegroep bewaakt. Wanneer u een Microsoft 365 groep in het beleid toewijst, worden alle e-mailberichten en Teams-chats die naar die groep zijn verzonden, bewaakt door het beleid, niet de afzonderlijke e-mailberichten en chats die door elk groepslid zijn ontvangen.
 
 Als u een organisatie bent met een on-premises implementatie Exchange een externe e-mailprovider en u Microsoft Teams-chats voor uw gebruikers wilt controleren, moet u een distributiegroep maken voor de gebruikers met on-premises of externe postvakken die u wilt controleren. Later in deze stappen wijst u deze  distributiegroep toe als de selectie onder toezicht van gebruikers en groepen in de beleidswizard. Zie Zoeken naar Teams chatgegevens voor on-premises gebruikers voor meer informatie over de vereisten en beperkingen voor het inschakelen van cloudgebaseerde opslag en [Teams-ondersteuning voor on-premises gebruikers.](search-cloud-based-mailboxes-for-on-premises-users.md)
@@ -154,11 +154,11 @@ Als u gecontroleerde gebruikers in grote ondernemingen wilt beheren, moet u moge
     ```PowerShell
     $Mbx = (Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize Unlimited -Filter {CustomAttribute9 -eq $Null})
     $i = 0
-    ForEach ($M in $Mbx) 
+    ForEach ($M in $Mbx)
     {
       Write-Host "Adding" $M.DisplayName
       Add-DistributionGroupMember -Identity <your group name> -Member $M.DistinguishedName -ErrorAction SilentlyContinue
-      Set-Mailbox -Identity $M.Alias -<your custom attribute name> SRAdded 
+      Set-Mailbox -Identity $M.Alias -<your custom attribute name> SRAdded
       $i++
     }
     Write-Host $i "Mailboxes added to supervisory review distribution group."
@@ -179,14 +179,14 @@ Zie voor meer informatie over het configureren Yammer in de autochtone modus:
 - [Configureer Yammer netwerk voor Native Mode voor Microsoft 365](/yammer/configure-your-yammer-network/native-mode)
 
 ## <a name="step-5-required-create-a-communication-compliance-policy"></a>Stap 5 (vereist): Een communicatie-compliancebeleid maken
-  
->[!Important]
->Het gebruik van PowerShell voor het maken en beheren van communicatie compliancebeleid wordt niet ondersteund. Als u dit beleid wilt maken en beheren, moet u de besturingselementen voor beleidsbeheer gebruiken in [Microsoft 365 oplossing voor communicatie compliance.](https://compliance.microsoft.com/supervisoryreview)
 
-1. Meld u [https://compliance.microsoft.com](https://compliance.microsoft.com) aan bij het gebruik van referenties voor een beheerdersaccount in uw Microsoft 365 organisatie.
+> [!IMPORTANT]
+> Het gebruik van PowerShell voor het maken en beheren van communicatie compliancebeleid wordt niet ondersteund. Als u dit beleid wilt maken en beheren, moet u de besturingselementen voor beleidsbeheer gebruiken in [Microsoft 365 oplossing voor communicatie compliance.](https://compliance.microsoft.com/supervisoryreview)
 
-2. Selecteer in Microsoft 365 compliancecentrum de optie **Communicatie compliance.**
-  
+1. Meld u <https://compliance.microsoft.com> aan bij het gebruik van referenties voor een beheerdersaccount in uw Microsoft 365 organisatie.
+
+2. Selecteer in Microsoft 365-compliancecentrum de optie **Communicatie-naleving**.
+
 3. Selecteer het **tabblad** Beleid.
 
 4. Selecteer **Beleid maken** om een nieuw beleid te maken en te configureren op basis van een sjabloon of om een aangepast beleid te maken en te configureren.
@@ -201,8 +201,8 @@ Zie voor meer informatie over het configureren Yammer in de autochtone modus:
 
     - Kies een veld met beperkte voorwaarden, meestal een gevoelige informatietype of trefwoordwoordenlijst die u wilt toepassen op het beleid.
 
-    >[!NOTE]
-    >Als u [OCR (Optical Character Recognition)](communication-compliance-feature-reference.md#optical-character-recognition-ocr) wilt inschakelen om ingesloten of bijgevoegde afbeeldingen in berichten te scannen op afgedrukte of handgeschreven tekst die aan de beleidsvoorwaarden voldoen, selecteert u Beleidsvoorwaarden en percentage aanpassen en selecteert u Afgedrukte of  >   **handgeschreven** tekst uit afbeeldingen extraheren voor evaluatie.
+    > [!NOTE]
+    > Als u [OCR (Optical Character Recognition)](communication-compliance-feature-reference.md#optical-character-recognition-ocr) wilt inschakelen om ingesloten of bijgevoegde afbeeldingen in berichten te scannen op afgedrukte of handgeschreven tekst die aan de beleidsvoorwaarden voldoen, selecteert u Beleidsvoorwaarden en percentage aanpassen en selecteert u Afgedrukte of  >   **handgeschreven** tekst uit afbeeldingen extraheren voor evaluatie.
 
     Als u ervoor kiest om de wizard Beleid te gebruiken om een aangepast beleid te maken, gaat u als volgende te werk:
 
@@ -240,13 +240,13 @@ U kunt er ook voor kiezen om anonimisatie in te stellen voor weergegeven gebruik
 
 1. Meld u [https://compliance.microsoft.com](https://compliance.microsoft.com) aan bij het gebruik van referenties voor een beheerdersaccount in uw Microsoft 365 organisatie.
 
-2. Ga in Microsoft 365 compliancecentrum naar **Communicatie compliance.**
+2. Ga in Microsoft 365-compliancecentrum naar **Communicatie compliance.**
 
 3. Als u anonimisatie voor gebruikersnamen wilt configureren, selecteert u het **tabblad Privacy.**
 
 4. Als u anonimisatie wilt inschakelen, selecteert u **Anonieme versies van gebruikersnamen tonen.**
 
-5. Klik op **Opslaan**.
+5. Kies **Opslaan**.
 
 6. Ga naar het **tabblad Kennisgevingssjablonen** en selecteer **vervolgens Aankondigingssjabloon maken.**
 

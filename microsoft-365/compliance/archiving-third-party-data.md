@@ -22,12 +22,12 @@ ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 ms.custom:
 - seo-marvel-apr2020
 description: Meer informatie over het importeren van gegevens van derden van sociale mediaplatforms, chatplatforms en platformen voor documentsamenwerking om postvakken Microsoft 365 maken.
-ms.openlocfilehash: c30be0888a2c92a23c4e5f323235eba671c5ab1d
-ms.sourcegitcommit: 410f6e1c6cf53c3d9013b89d6e0b40a050ee9cad
+ms.openlocfilehash: 6c15da7c21382f6ef286ec493ea3d696c02761f4
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53137722"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227461"
 ---
 # <a name="archive-third-party-data-in-microsoft-365"></a>Gegevens van derden archiveren in Microsoft 365
 
@@ -110,18 +110,18 @@ TeleMessage-gegevensconnectoren zijn ook beschikbaar in GCC omgevingen in Micros
 
 |Gegevens van derden  |Proces in de wacht zetten|eDiscovery  |Bewaarinstellingen  |Records Management  |Communicatiecompliance  |Beheer van insider-risico's  |
 |:---------|:---------|:---------|:---------|:---------|:---------|:---------|
-|[Android ](archive-android-archiver-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[AT&T-netwerk ](archive-att-network-archiver-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[Bell Network ](archive-bell-network-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[Ondernemingsnummer ](archive-enterprise-number-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[O2-netwerk ](archive-o2-network-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[TELUS-netwerk ](archive-telus-network-data.md)    |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[Verizon Network ](archive-verizon-network-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[WeChat ](archive-wechat-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[WhatsApp ](archive-whatsapp-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[Android](archive-android-archiver-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[AT&T-netwerk](archive-att-network-archiver-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[Bell-netwerk](archive-bell-network-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[Ondernemingsnummer](archive-enterprise-number-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[O2-netwerk](archive-o2-network-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[TELUS-netwerk](archive-telus-network-data.md)    |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[Verizon-netwerk](archive-verizon-network-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[WeChat](archive-wechat-data.md)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[WhatsApp](archive-whatsapp-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
 ||||||||
 
-### <a name="17a-4-data-connectors"></a>17a-4-gegevensconnectoren
+### <a name="17a-4-data-connectors"></a>17a-4-gegevensconnectors
 
 De tabel in deze sectie bevat de gegevensconnectors van derden die beschikbaar zijn in samenwerking met 17a-4 LLC. De tabel bevat ook een overzicht van de complianceoplossingen die u kunt toepassen op gegevens van derden nadat u deze hebt geïmporteerd en gearchiveerd in Microsoft 365. Zie het [overzicht van complianceoplossingen](#overview-of-compliance-solutions-that-support-third-party-data) die gegevens van derden ondersteunen voor een gedetailleerde beschrijving van elke complianceoplossing en hoe deze gegevens van derden ondersteunt.
 
@@ -130,22 +130,22 @@ Voordat u gegevens van derden in Microsoft 365 kunt archiveren, moet u samenwerk
 |Gegevens van derden  |Proces in de wacht zetten|eDiscovery  |Bewaarinstellingen  |Records Management  |Communicatiecompliance  |Beheer van insider-risico's  |
 |:---------|:---------|:---------|:---------|:---------|:---------|:---------|
 |[BlackBerry](archive-17a-4-blackberry-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[Bloomberg ](archive-17a-4-bloomberg-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[Cisco Jabber ](archive-17a-4-cisco-jabber-data.md)   |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[Cisco Webex ](archive-17a-4-webex-teams-data.md)   |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[FactSet ](archive-17a-4-factset-data.md)    |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[Fuze ](archive-17a-4-fuze-data.md)    |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[FX Verbinding maken](archive-17a-4-fxconnect-data.md)    |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[Bloomberg](archive-17a-4-bloomberg-data.md)     |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[Cisco Jabber](archive-17a-4-cisco-jabber-data.md)   |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[Cisco Webex](archive-17a-4-webex-teams-data.md)   |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[FactSet](archive-17a-4-factset-data.md)    |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[Fuze](archive-17a-4-fuze-data.md)    |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[FX Connect](archive-17a-4-fxconnect-data.md)    |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
 |[ICE Chat](archive-17a-4-ice-im-data.md)    |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[InvestEdge ](archive-17a-4-investedge-data.md)    |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[LivePerson Conversational Cloud ](archive-17a-4-liveperson-data.md)    |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[Quip ](archive-17a-4-quip-data.md)    |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[InvestEdge](archive-17a-4-investedge-data.md)    |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[LivePerson Conversational Cloud](archive-17a-4-liveperson-data.md)    |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[Quip](archive-17a-4-quip-data.md)    |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
 |[Refinitiv Eikon Messenger](archive-17a-4-refinitiv-messenger-data.md)    |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[ServiceNow ](archive-17a-4-servicenow-data.md)    |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[Marge ](archive-17a-4-slack-data.md)    |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[ServiceNow](archive-17a-4-servicenow-data.md)    |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[Slack](archive-17a-4-slack-data.md)    |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
 |[SQL](archive-17a-4-sql-database-data.md)    |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[Symfonie ](archive-17a-4-symphony-data.md)    |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
-|[Inzoomen ](archive-17a-4-zoom-data.md)    |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[Symphony](archive-17a-4-symphony-data.md)    |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
+|[Inzoomen](archive-17a-4-zoom-data.md)    |![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)||
 ||||||||
 
 ### <a name="celltrust-data-connectors"></a>CellTrust-gegevensconnectoren

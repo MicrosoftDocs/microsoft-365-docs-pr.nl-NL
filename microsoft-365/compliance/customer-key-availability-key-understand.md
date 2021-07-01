@@ -10,12 +10,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Meer informatie over de beschikbaarheidscode die wordt gebruikt om verloren klantsleutels te herstellen.
-ms.openlocfilehash: 4f4dfdff0aa1c7ebe6dd1266c82c6fd290913a3e
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: a4db6eab78feebd171dbfd5c8b45252837f229d0
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52345092"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227077"
 ---
 # <a name="learn-about-the-availability-key-for-customer-key"></a>Meer informatie over de beschikbaarheidssleutel voor de klantsleutel
 
@@ -155,8 +155,8 @@ Microsoft 365 de beschikbaarheidssleutel alleen in specifieke omstandigheden. De
 
        - In dit geval wordt de beschikbaarheidssleutel alleen gebruikt voor systeemacties en niet voor gebruikersacties, mislukt de gebruikersaanvraag en ontvangt de gebruiker een foutbericht.
 
->[!IMPORTANT]
->Microsoft 365 servicecode heeft altijd een geldig aanmeldingslogoken om te redeneren over klantgegevens om cloudservices met toegevoegde waarde te leveren. Dus totdat de beschikbaarheidssleutel is verwijderd, kan deze worden gebruikt als een terugval voor acties die zijn gestart door of intern naar Exchange Online en Skype voor Bedrijven, zoals het maken van zoekindexen of het verplaatsen van postvakken. Dit is van toepassing op tijdelijke fouten en GEWEIGERDe ACCESS-aanvragen voor Azure Key Vault.
+> [!IMPORTANT]
+> Microsoft 365 servicecode heeft altijd een geldig aanmeldingslogoken om te redeneren over klantgegevens om cloudservices met toegevoegde waarde te leveren. Dus totdat de beschikbaarheidssleutel is verwijderd, kan deze worden gebruikt als een terugval voor acties die zijn gestart door of intern naar Exchange Online en Skype voor Bedrijven, zoals het maken van zoekindexen of het verplaatsen van postvakken. Dit is van toepassing op tijdelijke fouten en GEWEIGERDe ACCESS-aanvragen voor Azure Key Vault.
 
 ### <a name="triggers-for-sharepoint-online-onedrive-for-business-and-teams-files"></a>Triggers voor SharePoint Online, OneDrive voor Bedrijven en Teams bestanden
 
@@ -198,7 +198,7 @@ Microsoft 365 de beschikbaarheidssleutel gebruikt om de laag met sleutels lager 
 
 ![Versleutelingscodes voor SharePoint Online Customer Key](../media/customerkeyencryptionhierarchiessharepointonedriveteamsfiles.png)
 
-## <a name="related-articles"></a>Aanverwante artikelen
+## <a name="related-articles"></a>Verwante artikelen
 
 - [Serviceversleuteling met klantsleutel](customer-key-overview.md)
 

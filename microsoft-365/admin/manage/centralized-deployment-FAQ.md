@@ -18,13 +18,13 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Bekijk de antwoorden op veelgestelde vragen over gecentraliseerde implementatie vanuit het Microsoft 365 beheercentrum.
-ms.openlocfilehash: 60d7a91da738803976b6823009450124d7b57814
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Bekijk de antwoorden op veelgestelde vragen over gecentraliseerde implementatie vanaf de Microsoft 365-beheercentrum.
+ms.openlocfilehash: 0da9ec9595fd433abe1e2e2ae3f2e3a0c6b3b9b5
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579300"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228002"
 ---
 # <a name="centralized-deployment-faq"></a>Veelgestelde vragen over Gecentraliseerde implementatie
 
@@ -44,7 +44,7 @@ Gecentraliseerde implementatie ondersteunt opdrachten aan afzonderlijke gebruike
 
 Het is beter om groepentoewijzingen te gebruiken in plaats van afzonderlijke gebruikerstoewijzingen voor eenvoudiger beheer.
  
-Zie Gebruikers- en [groepstoewijzingen voor meer informatie.](./centralized-deployment-of-add-ins.md?view=o365-worldwide#user-and-group-assignments)  
+Zie Gebruikers- en [groepstoewijzingen voor meer informatie.](./centralized-deployment-of-add-ins.md#user-and-group-assignments)  
    
 ## <a name="how-long-does-it-take-for-add-ins-to-show-up-for-all-users"></a>Hoe lang duurt het voordat invoegvoegingen voor alle gebruikers worden opdagen?  
 
@@ -94,8 +94,8 @@ We raden u aan contact op te zoeken met de isv-ontwikkelaar voor de betaalde inv
     
 ## <a name="which-admin-role-do-i-need-to-manage-add-ins-for-my-organization"></a>Welke beheerdersrol heb ik nodig om invoegingen voor mijn organisatie te beheren?  
 
-Globale beheerder is de aanbevolen rol met volledige toegang tot de levenscyclus van het invoegbeheer. Andere beheerdersrollen hebben beperkte toegang tot de levenscyclus van de invoegfase. Als u de persoon bent die uw abonnement voor Microsoft 365 voor bedrijven heeft gekocht, bent u de globale beheerder. 
+Globale beheerder is de aanbevolen rol met volledige toegang tot de levenscyclus van het invoegbeheer. Als u de persoon bent die uw abonnement Microsoft 365 Zakelijk, bent u de globale beheerder. 
  
-Uw abonnement wordt geleverd met een set beheerdersrollen die u kunt toewijzen aan andere gebruikers in uw organisatie. Elke beheerdersrol wordt toekend aan algemene zakelijke functies en geeft personen in uw organisatie machtigingen om specifieke taken uit te voeren in het Microsoft 365 beheercentrum.  
+Uw abonnement wordt geleverd met een set beheerdersrollen die u kunt toewijzen aan andere gebruikers in uw organisatie. Elke beheerdersrol wordt toekend aan algemene zakelijke functies en geeft personen in uw organisatie machtigingen om specifieke taken uit te voeren in de Microsoft 365-beheercentrum.  
  
-Zie Beheerdersrollen toewijzen voor [meer informatie.](../add-users/assign-admin-roles.md?view=o365-worldwide) 
+Zie Beheerdersrollen toewijzen voor [meer informatie.](../add-users/assign-admin-roles.md) 

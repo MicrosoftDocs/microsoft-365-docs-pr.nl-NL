@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: Informatie over het wijzigen van het standaardthema voor de bovenkant van de navigatiebalk in Microsoft 365 en aanpassen aan uw bedrijfslogo of -kleur.
-ms.openlocfilehash: b042090cf2cac9ac3bed705637bd03d721f76ad5
-ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
+ms.openlocfilehash: 03d62af47e750f9ca8eacc4391d134c48216e691
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/18/2021
-ms.locfileid: "53006911"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227781"
 ---
 # <a name="customize-the-microsoft-365-theme-for-your-organization"></a>Het thema Microsoft 365 uw organisatie aanpassen
 
@@ -41,12 +41,12 @@ U kunt een standaardthema toevoegen of bijwerken dat van toepassing is op iedere
 
 2. Selecteer aangepaste **thema's** op het tabblad **Organisatieprofiel.**
 
-Alle thema's kunnen worden aangepast met behulp van de volgende tabbladen.
+Alle organisatiethema's kunnen worden aangepast met behulp van de volgende tabbladen.
 
 |**Tab**|**Wat kunt u doen?**|
 |:-----|:-----|
 |[Algemeen](#general-modify-a-theme) <br/> |Wijzig een themanaam en wijs deze toe aan maximaal vijf groepen (indien van toepassing).  <br/> |
-|[Logo's](#logos-specify-your-theme-logos) <br/> |Voeg uw themalogo toe, inclusief Office donker thema en mobiele opties.  <br/> |
+|[Logo's](#logos-specify-your-theme-logos) <br/> |Voeg uw organisatielogo toe, inclusief alternatief logo voor donker thema.  <br/> |
 |[Kleuren](#colors-choose-theme-colors) <br/> |Pas een kleurenschema aan door navigatiebalk, accent, tekst en pictogramkleuren op te geven. <br/> |
 
 ## <a name="general-modify-a-theme"></a>Algemeen: Een thema wijzigen
@@ -64,7 +64,7 @@ Het standaardthema is het eerste thema dat wordt weergegeven.
 > [!IMPORTANT]
 > Het standaardthema is uniek, het kan niet worden hernoemd en is van toepassing op iedereen binnen uw organisatie. Als u het standaardthema wilt verwijderen, moet u eerst alle andere thema's verwijderen.
 
-:::image type="content" source="../../media/default-theme-general.png" alt-text="Schermafbeelding: tabblad Algemeen met het standaardthema voor uw organisatie":::
+:::image type="content" source="../../media/Default_Theme_Panel1.png" alt-text="Schermafbeelding: tabblad Algemeen met het standaardthema voor uw organisatie":::
 
 ### <a name="create-a-group-theme"></a>Een groepsthema maken
 
@@ -76,7 +76,7 @@ U kunt maximaal vier extra groepsthema's maken.
 
 3. Kies **Opslaan**.
 
-:::image type="content" source="../../media/default-theme-general-users.png" alt-text="Schermafbeelding: tabblad Algemeen met het standaardthema voor een groep gebruikers in uw organisatie":::
+:::image type="content" source="../../media/default-theme-general-users1.png" alt-text="Schermafbeelding: tabblad Algemeen met het standaardthema voor een groep gebruikers in uw organisatie":::
 
 ## <a name="logos-specify-your-theme-logos"></a>Logo's: Uw themalogo's opgeven
 
@@ -84,9 +84,11 @@ Op de **pagina Logo's** kunt u uw logo's toevoegen en de URL opgeven waar gebrui
 
 - **Standaardlogo:** Voeg een URL-locatie toe die naar uw logo wijst. Zorg ervoor dat de URL HTTPS gebruikt. Voeg een URL van een HTTPS-afbeelding toe die anonieme toegang toestaat en geen verificatie vereist. Voor standaardthema hebt u ook een optie om een logoafbeelding te uploaden die kleiner is dan 10 kb. Uw standaardlogo kan de JPG-, PNG-, GIF- of SVG-indeling hebben. Voor SVG-afbeeldingen worden ze zo breed gemaakt dat ze verticaal 24 pixels passen. JPG-, PNG-, GIF-afbeeldingen worden geschaald naar 200 x 48 pixels. De beeldverhouding van het logo blijft altijd behouden.
 - **Alternatief logo:** Voeg een URL-locatie toe die naar uw logo wijst. Uw alternatieve logo moet zijn geoptimaliseerd voor gebruik in Office donkere thema's. Dezelfde vereisten als het standaardlogo.
-- **Koppeling bij klikken:** Voeg een URL-locatie toe die naar uw logo wijst. U kunt uw logo gebruiken als koppeling naar een bedrijfsresource, bijvoorbeeld de website van uw bedrijf.
+- **Koppeling bij klikken:** Voeg een URL-locatie toe die naar uw logo wijst. U kunt uw logo gebruiken als koppeling naar een bedrijfsresource, bijvoorbeeld de website van uw bedrijf. Als u geen URL-locatie voor uw logo selecteert, wordt deze standaard weergegeven op de Office startpagina.
 
 Selecteer **Opslaan** om de wijzigingen op te slaan.
+
+:::image type="content" source="../../media/Logos_Tab.png" alt-text="Schermafbeelding: tabblad Logo's met de logoopties":::
 
 U kunt uw logo's op elk moment verwijderen. Ga terug naar de **pagina Logo's** en selecteer **Verwijderen.**
   
@@ -98,9 +100,8 @@ Op de **pagina** Kleuren kunt u de standaardkleuren instellen en kiezen welk log
 - **Tekst- en pictogramkleur:** Selecteer een kleur die u wilt gebruiken voor de tekst en pictogrammen op de bovenste navigatiebalk.
 - **Accentkleur:** kies er een die goed wordt op een witte of lichte achtergrond. De accentkleur wordt gebruikt om bepaalde koppelingen en knoppen te kleuren die worden op een witte of lichte achtergrond. De accentkleur wordt bijvoorbeeld gebruikt om elementen te kleuren in het Postvak IN van een gebruiker en op de portalpagina Office.com.
 - **Kleur opnieuw instellen:** Selecteer deze koppeling om kleuren opnieuw in te stellen op de standaardkleuren.
-- **Welk logo moet worden gebruikt?**: Selecteer standaardlogo's of andere logo's die u zelf hebt gemaakt.
 
-:::image type="content" source="../../media/default-theme-colors.png" alt-text="Schermafbeelding: tabblad Kleuren met standaardthemakleuren voor uw organisatie":::
+:::image type="content" source="../../media/default-theme-colors1.png" alt-text="Schermafbeelding: tabblad Kleuren met standaardthemakleuren voor uw organisatie":::
 
 ## <a name="frequently-asked-questions"></a>Veelgestelde vragen
 

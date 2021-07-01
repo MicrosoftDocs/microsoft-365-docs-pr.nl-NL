@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 5b59fb57ebd17050624ce36805558dcd1eef0503
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+ms.openlocfilehash: 7712ce1ee4c28352861df17c0637a94d99fa2c8a
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "52162708"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226525"
 ---
 # <a name="insider-risk-management-cases"></a>Cases voor insiderrisicobeheer
 
@@ -142,8 +142,8 @@ Het **tabblad Gebruikersactiviteit** is een van de krachtigste hulpmiddelen voor
 
 ### <a name="activity-explorer-preview"></a>Activiteitsverkenner (voorbeeld)
 
->[!IMPORTANT]
->Het tabblad Activiteitsverkenner is beschikbaar in het gebied voor casebeheer voor gebruikers met triggeringgebeurtenissen nadat deze functie beschikbaar is in uw organisatie.
+> [!IMPORTANT]
+> Het tabblad Activiteitsverkenner is beschikbaar in het gebied voor casebeheer voor gebruikers met triggeringgebeurtenissen nadat deze functie beschikbaar is in uw organisatie.
 
 Op **het tabblad Activiteitsverkenner** kunnen risicoanalisten en -onderzoeker activiteitendetails bekijken die zijn gekoppeld aan risicowaarschuwingen. Als onderdeel van de casemanagementacties moeten de onderzoekers en analisten bijvoorbeeld mogelijk alle risicoactiviteiten die aan de zaak zijn gekoppeld, bekijken voor meer informatie. Met de **Activiteitsverkenner** kunnen revisoren snel een tijdlijn bekijken van gedetecteerde riskante activiteiten en alle risicoactiviteiten identificeren en filteren die aan waarschuwingen zijn gekoppeld.
 
@@ -165,7 +165,7 @@ In het dashboard met notitienotities worden notities weergegeven van de gebruike
 
 Een notitie toevoegen aan een zaak:
 
-1. Ga in [Microsoft 365 compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer het **tabblad Gevallen.**
+1. Ga in [Microsoft 365-compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer het **tabblad Gevallen.**
 2. Selecteer een hoofd zaak en selecteer vervolgens het **tabblad Notitie** van zaak.
 3. Selecteer **Notitie van de zaak toevoegen**.
 4. Typ in **het dialoogvenster Notitie** toevoegen uw notitie voor de zaak. Selecteer **Opslaan** om de notitie aan de zaak toe te voegen of selecteer **Sluiten** annuleren zonder de notitie op te slaan in de zaak.
@@ -182,7 +182,7 @@ Tijdelijke toegang tot een zaak kan worden verleend door een gebruiker toe te vo
 
 Een inzender toevoegen aan een zaak:
 
-1. Ga in [Microsoft 365 compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer het **tabblad Gevallen.**
+1. Ga in [Microsoft 365-compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer het **tabblad Gevallen.**
 2. Selecteer een zaak en selecteer vervolgens het **tabblad Inzenders.**
 3. Selecteer **Inzender toevoegen.**
 4. Typ in **het dialoogvenster Inzender** toevoegen de naam van de gebruiker die u wilt toevoegen en selecteer de gebruiker in de voorgestelde gebruikerslijst. Deze lijst wordt gegenereerd op basis van Azure Active Directory van uw tenantabonnement.
@@ -200,7 +200,7 @@ Het is belangrijk om te onthouden dat het verzenden van een e-mailbericht naar e
 
 Een melding verzenden naar de gebruiker die aan een zaak is toegewezen:
 
-1. Ga in [Microsoft 365 compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer het **tabblad Gevallen.**
+1. Ga in [Microsoft 365-compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer het **tabblad Gevallen.**
 2. Selecteer een zaak en selecteer vervolgens de **knop Bericht per e-mail** verzenden op de werkbalk actie voor het geval.
 3. Selecteer in **het dialoogvenster E-mailbericht verzenden** het vervolgkeuzevenster Een kennisgevingssjabloon kiezen om de aankondigingssjabloon voor de melding te selecteren.  Met deze selectie worden de andere velden in de melding vooraf gevuld.
 4. Controleer de kennisgevingsvelden en werk deze zo nodig bij. De waarden die hier worden ingevoerd, overschrijven de waarden op de sjabloon.
@@ -212,13 +212,13 @@ Escaleert de zaak voor gebruikersonderzoek in situaties waarin aanvullende jurid
 
 Een zaak escaleren naar een gebruikersonderzoek:
 
-1. Ga in [Microsoft 365 compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer het **tabblad Gevallen.**
+1. Ga in [Microsoft 365-compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer het **tabblad Gevallen.**
 2. Selecteer een zaak en selecteer vervolgens de **knop Escaleren voor onderzoek** op de werkbalk actie van het geval.
 3. Voer in **het dialoogvenster Escaleren voor onderzoek** een naam in voor het nieuwe gebruikersonderzoek. Typ indien nodig notities over de zaak en selecteer **Escaleren.**
 4. Controleer de kennisgevingsvelden en werk deze zo nodig bij. De waarden die hier worden ingevoerd, overschrijven de waarden op de sjabloon.
 5. Selecteer **Bevestigen** om de zaak voor het gebruikersonderzoek te maken of selecteer **Annuleren** om het dialoogvenster te sluiten zonder een nieuwe zaak voor gebruikersonderzoek te maken.
 
-Nadat de zaak voor insiderrisicobeheer is geëscaleerd naar een nieuwe zaak voor gebruikersonderzoek, kunt u de nieuwe zaak bekijken in het **gebied eDiscovery**  >  **Advanced** in het Microsoft 365 compliancecentrum.
+Nadat de insider risk management case is geëscaleerd naar een nieuwe zaak voor gebruikersonderzoek, kunt u de nieuwe zaak bekijken in het **gebied eDiscovery**  >  **Advanced** in de Microsoft 365-compliancecentrum.
 
 ### <a name="run-automated-tasks-with-power-automate-flows-for-the-case"></a>Geautomatiseerde taken uitvoeren met Power Automate voor de zaak
 
@@ -256,7 +256,7 @@ Nadat risicoanalisten en -onderzoeker hun onderzoek en onderzoek hebben voltooid
 
 Een probleem oplossen:
 
-1. Ga in [Microsoft 365 compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer het **tabblad Gevallen.**
+1. Ga in [Microsoft 365-compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer het **tabblad Gevallen.**
 2. Selecteer een zaak en selecteer vervolgens de **knop Hoofd zaak oplossen** op de werkbalk voor de actie van het hoofdgeval.
 3. Selecteer in **het dialoogvenster Zaak oplossen** de vervolgkeuzelijst Oplossen **als** om de resolutieclassificatie voor de zaak te selecteren. De opties zijn **Goedaardig** **of Bevestigd beleidsovertreding.**
 4. Voer in **het dialoogvenster Zaak oplossen** de redenen voor de resolutieclassificatie in het **tekstveld Actie ondernomen** in.

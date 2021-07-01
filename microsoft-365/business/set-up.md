@@ -30,12 +30,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Ontdek de installatiestappen voor Microsoft 365 Business Premium, waaronder het toevoegen van een domein en gebruikers, het instellen van beveiligingsbeleid en meer.
-ms.openlocfilehash: 3e15f16db2a233d2e11d444600398102b075932d
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 74a98e915577cf86ec32a706bd3b8f558f49db95
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624384"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227634"
 ---
 # <a name="set-up-microsoft-365-business-premium-in-the-setup-wizard"></a>Een Microsoft 365 Business Premium instellen in de installatiewizard
 
@@ -69,7 +69,7 @@ Wanneer u Microsoft 365 Business Premium, kunt u een domein gebruiken dat u bezi
     ![Schermafbeelding van de pagina Uw aanmelding aan uw persoonlijke voorkeur personaliseren.](../media/adddomain.png)
 
     
-4. Volg de stappen in de wizard om DNS-records te maken bij een [DNS-hostingprovider](/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) voor Microsoft 365 waarbij wordt gecontroleerd of u de eigenaar bent van het domein. Als u weet wat uw domeinhost is, raadpleegt u ook de [hostspecifieke instructies](/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions).
+4. Volg de stappen in de wizard om DNS-records te maken bij een [DNS-hostingprovider](/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) voor Microsoft 365 waarbij wordt gecontroleerd of u de eigenaar bent van het domein. Als u de domeinhost kent, zie ook [Een domein toevoegen aan Microsoft 365.](/microsoft-365/admin/setup/add-domain)
 
     Als uw hostingprovider GoDaddy of een andere host is die is ingeschakeld met [domeinverbinding](/office365/admin/get-help-with-domains/domain-connect), is het proces eenvoudig en wordt u automatisch gevraagd om u aan te melden en u namens Microsoft te laten verifiëren.
 
@@ -133,6 +133,6 @@ Als u Office op mobiele iOS- of Android-apparaten wilt installeren, zie Mobiele 
 
 U kunt de Office ook afzonderlijk installeren. Zie [installatie Office op een pc of Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658) voor instructies.
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
-[Microsoft 365 voor zakelijke trainingsvideo's](../business-video/index.yml) (koppelingspagina)
+[Trainingsvideo's voor Microsoft 365 voor bedrijven](../business-video/index.yml) (koppelingspagina)

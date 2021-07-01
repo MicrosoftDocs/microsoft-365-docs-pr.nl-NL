@@ -12,12 +12,12 @@ ms.reviewer: esaggese
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
-ms.openlocfilehash: 746f1345b47694f4a4122edc5d89cc924441ea81
-ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
+ms.openlocfilehash: b9696f26dd8f68ba291eab50e11a4cb6dd55ab7a
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/29/2021
-ms.locfileid: "52162489"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226909"
 ---
 # <a name="double-key-encryption-for-microsoft-365"></a>Dubbele sleutelversleuteling voor Microsoft 365
 
@@ -79,7 +79,7 @@ U volgt deze algemene stappen om DKE in te stellen. Nadat u deze stappen hebt vo
 
 1. Implementeer de DKE-service zoals beschreven in dit artikel.
 
-2. Maak een label met Dubbele sleutelversleuteling. Ga naar Informatiebeveiliging onder het [Microsoft 365 compliancecentrum](https://compliance.microsoft.com) en maak een nieuw label met Dubbele sleutelversleuteling. Zie [Toegang tot inhoud beperken door gevoeligheidslabels te gebruiken om versleuteling toe te passen.](./encryption-sensitivity-labels.md)
+2. Maak een label met Dubbele sleutelversleuteling. Ga naar Informatiebeveiliging onder de [Microsoft 365-compliancecentrum](https://compliance.microsoft.com) en maak een nieuw label met Dubbele sleutelversleuteling. Zie [Toegang tot inhoud beperken door gevoeligheidslabels te gebruiken om versleuteling toe te passen.](./encryption-sensitivity-labels.md)
 
 3. Gebruik dubbele sleutelversleutelingslabels. Bescherm gegevens door het label Versleutelde dubbele sleutel te selecteren op het lint Gevoeligheid in Microsoft Office.
 
@@ -183,7 +183,7 @@ Kies of u e-mail of rolautorisatie wilt gebruiken. DKE ondersteunt slechts één
 
 - **Rolautorisatie**. Hiermee kan uw organisatie toegang verlenen tot sleutels op basis van Active Directory-groepen en moet de webservice LDAP kunnen query's uitvoeren.
 
-**Belangrijke toegangsinstellingen voor DKE instellen met behulp van e-mailautorisatie**
+##### <a name="to-set-key-access-settings-for-dke-using-email-authorization"></a>Belangrijke toegangsinstellingen voor DKE instellen met behulp van e-mailautorisatie
 
 1. Open het **appsettings.jsbestand en** zoek de `AuthorizedEmailAddress` instelling.
 
@@ -205,7 +205,7 @@ In deze afbeelding ziet **uappsettings.jsbestand** dat correct is opgemaakt voor
 
    ![De appsettings.jsbestand met e-mailautorisatiemethode](../media/dke-email-accesssetting.png)
 
-**Sleuteltoegangsinstellingen voor DKE instellen met behulp van rolautorisatie**
+##### <a name="to-set-key-access-settings-for-dke-using-role-authorization"></a>Sleuteltoegangsinstellingen voor DKE instellen met behulp van rolautorisatie
 
 1. Open het **appsettings.jsbestand en** zoek de `AuthorizedRoles` instelling.
 
@@ -231,7 +231,7 @@ In deze afbeelding ziet **uappsettings.jsbestand** correct is opgemaakt voor rol
 
 DKE-tenant- en sleutelinstellingen bevinden zich in de **appsettings.jsbestand.**
 
-**Tenant- en sleutelinstellingen voor DKE configureren**
+##### <a name="to-configure-tenant-and-key-settings-for-dke"></a>Tenant- en sleutelinstellingen voor DKE configureren
 
 1. Open het **appsettings.jsbestand.**
 
@@ -242,6 +242,7 @@ DKE-tenant- en sleutelinstellingen bevinden zich in de **appsettings.jsbestand.*
      "https://sts.windows.net/9c99431e-b513-44be-a7d9-e7b500002d4b/"
    ]
    ```
+
 > [!NOTE]
 > Als u externe B2B-toegang tot uw sleutelopslag wilt inschakelen, moet u deze externe tenants ook opnemen als onderdeel van de lijst met geldige uitgifters.
 
@@ -263,7 +264,7 @@ Wanneer u de toepassingsinstellingen hebt gedefinieerd, kunt u openbare en perso
 
 Sleutels genereren:
 
-1. Voer in Windows startmenu de Opdrachtprompt OpenSSL uit.
+1. Voer vanuit Windows Startmenu de Opdrachtprompt OpenSSL uit.
 
 2. Ga naar de map waar u de toetstoetsen wilt opslaan. De bestanden die u maakt door de stappen in deze taak uit te voeren, worden in dezelfde map opgeslagen.
 
@@ -370,7 +371,7 @@ Mogelijk geeft u de voorkeur aan andere methoden om uw sleutels te implementeren
 
 Voor pilotimplementaties kunt u implementeren in Azure en meteen aan de slag gaan.
 
-**Een Azure Web App-exemplaar maken om uw DKE-implementatie te hosten**
+#### <a name="to-create-an-azure-web-app-instance-to-host-your-dke-deployment"></a>Een Azure Web App-exemplaar maken om uw DKE-implementatie te hosten
 
 Als u het sleutelopslagopslag wilt publiceren, maakt u een Azure App Service-exemplaar om uw DKE-implementatie te hosten. Vervolgens publiceert u de gegenereerde sleutels voor Azure.
 
@@ -530,18 +531,18 @@ De DKE-service registreren:
 
     4. Selecteer **Opslaan** bovenaan om uw wijzigingen op te slaan.
 
-    5. Herhaal deze stappen, maar definieert deze keer de client-id als `c00e9d32-3c8d-4a7d-832b-029040e7db99` . Deze waarde is de geïntegreerde labelingclient-id van Azure Information Protection. 
+    5. Herhaal deze stappen, maar definieert deze keer de client-id als `c00e9d32-3c8d-4a7d-832b-029040e7db99` . Deze waarde is de geïntegreerde labelingclient-id van Azure Information Protection.
 
 Uw DKE-service is nu geregistreerd. Ga door met [DKE labels te maken.](#create-sensitivity-labels-using-dke)
 
 ## <a name="create-sensitivity-labels-using-dke"></a>Gevoeligheidslabels maken met DKE
 
-Maak in Microsoft 365 compliancecentrum een nieuw gevoeligheidslabel en pas versleuteling toe zoals u anders zou doen. Selecteer **Dubbele sleutelversleuteling gebruiken** en voer de EINDPUNT-URL voor uw sleutel in.
+Maak in Microsoft 365-compliancecentrum een nieuw gevoeligheidslabel en pas versleuteling toe zoals u anders zou doen. Selecteer **Dubbele sleutelversleuteling gebruiken** en voer de EINDPUNT-URL voor uw sleutel in.
 
 Bijvoorbeeld:
 
 > [!div class="mx-imgBorder"]
-> ![Selecteer Dubbele sleutelversleuteling gebruiken in het Microsoft 365 compliancecentrum](../media/dke-use-dke.png)
+> ![Selecteer Dubbele sleutelversleuteling gebruiken in de Microsoft 365-compliancecentrum](../media/dke-use-dke.png)
 
 Alle DKE-labels die u toevoegt, worden weergegeven voor gebruikers in de meest recente versies van Microsoft 365-apps voor ondernemingen.
 

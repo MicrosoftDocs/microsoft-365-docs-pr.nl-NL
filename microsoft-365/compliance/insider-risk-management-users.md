@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: e59fb8a32275a2ef7c4865e93400b97ad5560df5
-ms.sourcegitcommit: 8b1bd7ca8cd81e4270f0c1e06d2b6ca81804a6aa
+ms.openlocfilehash: 802f3fdacba62839b93b8441502334ae486cdacc
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "52161726"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226321"
 ---
 # <a name="insider-risk-management-users-dashboard"></a>Insider risk management Users dashboard
 
@@ -45,15 +45,15 @@ Het **dashboard Gebruikers** bevat gebruikers die zijn toegevoegd aan beleid voo
 
 Wanneer een gebruiker handmatig wordt toegevoegd aan een beleid, worden de gebruikersactiviteiten van de afgelopen 90 dagen gescored en toegevoegd aan de tijdlijn **gebruikersactiviteit.** U hebt bijvoorbeeld een gebruiker die momenteel geen risicoscores heeft toegewezen voor een insiderrisicobeleid en de gebruiker heeft activiteiten met gegevenslekken gerapporteerd bij de juridische afdeling in uw organisatie. De juridische afdeling raadt u aan om nieuwe vereisten voor korte termijncontrole voor de gebruiker te configureren. U kunt de gebruiker tijdelijk toewijzen aan uw beleid voor gegevenslekken voor een bepaalde periode *(activeringsvenster).* Alle gebruikers die tijdelijk zijn toegevoegd, worden weergegeven in het **dashboard Gebruikers,** omdat triggeringgebeurtenisvereisten worden opgehefd.
 
->[!NOTE]
->Het kan enkele uren duren voordat nieuwe gebruikers die handmatig zijn toegevoegd, worden weergegeven in het **dashboard Gebruikers.** Het kan tot 24 uur duren voordat de activiteiten van de afgelopen 90 dagen voor deze gebruikers worden weergegeven. Als u activiteiten wilt weergeven voor handmatig toegevoegde gebruikers, selecteert u de gebruiker op het **dashboard** Gebruikers en opent u het tabblad **Gebruikersactiviteit** in het detailvenster.
+> [!NOTE]
+> Het kan enkele uren duren voordat nieuwe gebruikers die handmatig zijn toegevoegd, worden weergegeven in het **dashboard Gebruikers.** Het kan tot 24 uur duren voordat de activiteiten van de afgelopen 90 dagen voor deze gebruikers worden weergegeven. Als u activiteiten wilt weergeven voor handmatig toegevoegde gebruikers, selecteert u de gebruiker op het **dashboard** Gebruikers en opent u het tabblad **Gebruikersactiviteit** in het detailvenster.
 
 De gebruiker wordt automatisch verwijderd uit het **gebruikersdashboard** en de score wordt gestopt wanneer de tijd die is gedefinieerd in het activeringsvenster **verloopt** als:
 
 - de gebruiker geen extra triggeringgebeurtenissen of waarschuwingen voor insiderrisicobeleid heeft, en
 - als de handmatig gedefinieerde **duur van het activeringsvenster** langer is dan de duur van het globale beleid **activeringsvenster.**
 
-De **instelling activeringsvenster** met de langste  duur overschrijven altijd de instelling van het activeringsvenster met een kortere duur. U hebt bijvoorbeeld het venster  Activering geconfigureerd  op het tabblad Globale beleidstermijnen in de algemene instellingen voor insiderrisicobeheer voor 15 dagen, die automatisch worden toegepast op al uw insiderrisicobeleid. 
+De **instelling activeringsvenster** met de langste  duur overschrijven altijd de instelling van het activeringsvenster met een kortere duur. U hebt bijvoorbeeld het venster  Activering geconfigureerd  op het tabblad Globale beleidstermijnen in de algemene instellingen voor insiderrisicobeheer voor 15 dagen, die automatisch worden toegepast op al uw insiderrisicobeleid.
 
 U voegt tijdelijk een gebruiker toe aan uw insiderrisicobeleid voor *gegevenslekken* en definieert 30 dagen als het **activeringsvenster** voor deze gebruiker. De globale **activeringsvensterinstelling** van 15 dagen wordt  overgenomen door de instelling activeringsvenster van 30 dagen voor de tijdelijk toegevoegde gebruiker te definiëren. De tijdelijk toegevoegde gebruiker blijft in het **dashboard Gebruikers en** blijft 30 dagen binnen het bereik van het beleid.
 
@@ -71,32 +71,32 @@ Elke gebruiker die wordt weergegeven in het **dashboard Gebruikers** heeft de vo
 
 ![Dashboard gebruikers van Insider-risicobeheer](../media/insider-risk-users-dashboard.png)
 
->[!NOTE]
->Het aantal gebruikers dat wordt weergegeven op het **dashboard** Gebruikers kan in sommige gevallen worden beperkt, afhankelijk van het aantal actieve waarschuwingen en overeenkomende beleidsregels. Gebruikers met actieve waarschuwingen worden weergegeven op het **dashboard** Gebruikers terwijl de waarschuwingen worden gegenereerd en er kunnen zeldzame gevallen zijn wanneer het maximum aantal weergegeven gebruikers wordt bereikt. Als deze limiet wordt bereikt, worden gebruikers met actieve waarschuwingen  die niet worden weergegeven, toegevoegd aan het gebruikersdashboard, omdat bestaande gebruikerswaarschuwingen drie keer worden weergegeven.
+> [!NOTE]
+> Het aantal gebruikers dat wordt weergegeven op het **dashboard** Gebruikers kan in sommige gevallen worden beperkt, afhankelijk van het aantal actieve waarschuwingen en overeenkomende beleidsregels. Gebruikers met actieve waarschuwingen worden weergegeven op het **dashboard** Gebruikers terwijl de waarschuwingen worden gegenereerd en er kunnen zeldzame gevallen zijn wanneer het maximum aantal weergegeven gebruikers wordt bereikt. Als deze limiet wordt bereikt, worden gebruikers met actieve waarschuwingen  die niet worden weergegeven, toegevoegd aan het gebruikersdashboard, omdat bestaande gebruikerswaarschuwingen drie keer worden weergegeven.
 
 ## <a name="view-user-details"></a>Gebruikersgegevens weergeven
 
 Als u meer informatie wilt over risicoactiviteit voor een gebruiker, opent u het deelvenster gebruikersdetails door te dubbelklikken op een gebruiker in het **gebruikersdashboard.** In het detailvenster kunt u de volgende informatie bekijken:
 
 - **Tabblad Gebruikersprofiel**
-    - **Naam en titel:** De naam en positietitel voor de gebruiker van Azure Active Directory. Deze gebruikersvelden worden geanonimiseerd of leeg als de algemene anonimisatie-instelling voor insiderrisicobeheer is ingeschakeld.
-    - **Gebruikers-e-mail:** Het e-mailadres voor de gebruiker.
-    - **Alias:** De netwerkalias voor de gebruiker.
-    - **Organisatie of afdeling**: De organisatie of afdeling voor de gebruiker.
+  - **Naam en titel:** De naam en positietitel voor de gebruiker van Azure Active Directory. Deze gebruikersvelden worden geanonimiseerd of leeg als de algemene anonimisatie-instelling voor insiderrisicobeheer is ingeschakeld.
+  - **Gebruikers-e-mail:** Het e-mailadres voor de gebruiker.
+  - **Alias:** De netwerkalias voor de gebruiker.
+  - **Organisatie of afdeling**: De organisatie of afdeling voor de gebruiker.
 
 - **Tabblad Gebruikersactiviteit**
-    - **Geschiedenis van recente gebruikersactiviteit:** hiermee worden zowel triggerindicatoren als insiderrisico-indicatoren voor gebruikersactiviteiten tot de laatste 180 dagen vermeld. Alle activiteiten die relevant zijn voor insiderrisicoindicatoren, worden ook gescored, hoewel de activiteiten al dan niet een insiderrisicowaarschuwing hebben gegenereerd. Triggering indicator examples may be a aftreding date or the last scheduled date of work for the user. Insiderrisicoindicatoren zijn activiteiten die worden bepaald als een element van risico en worden gedefinieerd in beleidsregels waarin de gebruiker is opgenomen. Gebeurtenis- en risicoactiviteiten worden vermeld met het meest recente item dat als eerste wordt vermeld.
+  - **Geschiedenis van recente gebruikersactiviteit:** hiermee worden zowel triggerindicatoren als insiderrisico-indicatoren voor gebruikersactiviteiten tot de laatste 180 dagen vermeld. Alle activiteiten die relevant zijn voor insiderrisicoindicatoren, worden ook gescored, hoewel de activiteiten al dan niet een insiderrisicowaarschuwing hebben gegenereerd. Triggering indicator examples may be a aftreding date or the last scheduled date of work for the user. Insiderrisicoindicatoren zijn activiteiten die worden bepaald als een element van risico en worden gedefinieerd in beleidsregels waarin de gebruiker is opgenomen. Gebeurtenis- en risicoactiviteiten worden vermeld met het meest recente item dat als eerste wordt vermeld.
 
 ## <a name="remove-users-from-in-scope-assignment-to-policies"></a>Gebruikers verwijderen uit in-scopetoewijzing aan beleid
 
 Er kunnen scenario's zijn waarin u moet stoppen met het toewijzen van risicoscores aan de activiteit van een gebruiker in beleidsregels voor insiderrisicobeheer. Gebruik **Gebruikers verwijderen op** de pagina **Gebruikersdashboard** om te stoppen met het toewijzen van risicoscores voor een of meer gebruikers van alle beleidsregels voor insiderrisicobeheer waar ze momenteel onder vallen. Met deze actie worden gebruikers niet verwijderd uit de algemene beleidstoewijzing (wanneer u gebruikers of groepen toevoegt aan een beleidsconfiguratie), maar worden de gebruikers gewoon verwijderd uit actieve verwerking door beleid na de huidige triggeringgebeurtenissen. Als de gebruikers in de toekomst nog een triggeringgebeurtenis hebben, worden risicoscores van beleid automatisch opnieuw aan de gebruikers toegewezen. Bestaande waarschuwingen of gevallen voor deze gebruiker worden niet verwijderd.
 
->[!NOTE]
->Het kan enkele minuten duren voordat u een gebruiker uit een beleid verwijdert. Wanneer deze is voltooid, wordt de gebruiker niet meer weergegeven op de pagina Gebruikers. Als de verwijderde gebruiker actieve waarschuwingen of gevallen heeft, blijft de gebruiker op de pagina Gebruikers staan en wordt in de details voor de gebruiker weergegeven dat deze niet langer binnen het bereik van een beleid valt.
+> [!NOTE]
+> Het kan enkele minuten duren voordat u een gebruiker uit een beleid verwijdert. Wanneer deze is voltooid, wordt de gebruiker niet meer weergegeven op de pagina Gebruikers. Als de verwijderde gebruiker actieve waarschuwingen of gevallen heeft, blijft de gebruiker op de pagina Gebruikers staan en wordt in de details voor de gebruiker weergegeven dat deze niet langer binnen het bereik van een beleid valt.
 
 Als u gebruikers handmatig wilt verwijderen uit de status binnen het bereik in alle beleidsregels voor insiderrisicobeheer, gaat u als volgt te werk:
 
-1. Ga in [Microsoft 365 compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer het **tabblad Gebruikers.**
+1. Ga in [Microsoft 365-compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer het **tabblad Gebruikers.**
 2. Selecteer in **het dashboard Gebruikers** de gebruiker of gebruikers die u wilt verwijderen uit het beleid voor insiderrisicobeheer.
 3. Selecteer **Gebruikers verwijderen.**
 4. Selecteer verwijderen of Annuleren  in **het deelvenster** Gebruiker verwijderen **om** de wijzigingen te verwijderen en het dialoogvenster te sluiten.

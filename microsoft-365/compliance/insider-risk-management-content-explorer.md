@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 44a17471f1e2ba92d0099f62b95dec8d0e56a224
-ms.sourcegitcommit: b6763a8ab240fbdd56078a7c9452445d0c4b9545
+ms.openlocfilehash: 3ff3c652d5446167ac3c2bf78a2405c21929ea11
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "52162716"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226465"
 ---
 # <a name="insider-risk-management-content-explorer"></a>Insider risk management Content explorer
 
@@ -29,8 +29,8 @@ In sommige gevallen zijn gegevens die aan een zaak zijn gekoppeld, mogelijk niet
 
 Als de inhoud machtigingen voor Information Rights Management bevat, worden deze machtigingen behouden voor de gekopieerde inhoud en hebben gebruikers die de rol Insider *Risk Management Investigators* hebben toegewezen deze machtigingen en rechten nodig als ze de bestanden moeten openen en bekijken. Aan elk bestand en bericht wordt automatisch een unieke bestands-id toegewezen in de insider risk management case voor beheerdoeleinden. Documenten die zijn gekoppeld aan apparaatindicatoractiviteiten, worden niet opgenomen in Inhoudsverkenner.
 
->[!Note]
->Inhoudsverkenner bevat activiteiten met betrekking tot Microsoft Office bestanden. Activiteiten op siteniveau, zoals wanneer een SharePoint site wordt verwijderd of als sitemachtigingen worden gewijzigd, worden niet opgenomen in Inhoudsverkenner.
+> [!NOTE]
+> Inhoudsverkenner bevat activiteiten met betrekking tot Microsoft Office bestanden. Activiteiten op siteniveau, zoals wanneer een SharePoint site wordt verwijderd of als sitemachtigingen worden gewijzigd, worden niet opgenomen in Inhoudsverkenner.
 
 ## <a name="column-options"></a>Kolomopties
 

@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
 description: Bekijk een volledige lijst met dod- en GCC high root certificaten en certificeringsinstanties (CAs) in Microsoft 365.
-ms.openlocfilehash: 016c7d6b4c5557b7930763c2628525cc3c2c409f
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: ae8954ecb80cdcef0a62cbf4f928f7ffe6b8c4d7
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "52162175"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226765"
 ---
 # <a name="microsoft-365-encryption-chains---dod-and-gcc-high"></a>Microsoft 365 versleutelingsketens - DOD en GCC High
 
@@ -32,8 +32,8 @@ De volgende certificaatgegevens zijn van toepassing **op alle dod- en GCC Hoge k
 
 Laatst bijgewerkt: **16-10-2020**
 
->[!NOTE]
->Zie voor certificaatinformatie die van toepassing **is** op wereldwijde [klanten, Microsoft 365 versleutelingsketens.](encryption-office-365-certificate-chains.md)
+> [!NOTE]
+> Zie voor certificaatinformatie die van toepassing **is** op wereldwijde [klanten, Microsoft 365 versleutelingsketens.](encryption-office-365-certificate-chains.md)
 
 | **Certificaattype** | **P7b downloaden** | **CRL-eindpunten** | **OCSP-eindpunten** |
 | --- | --- | --- | --- | --- |

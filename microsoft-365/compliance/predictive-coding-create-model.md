@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: Meer informatie over het maken van een voorspellend coderingsmodel in Advanced eDiscovery. Dit is de eerste stap in het gebruik van de mogelijkheden voor machine learning in Advanced eDiscovery om relevante en niet-relevante inhoud in een revisieset te identificeren.
-ms.openlocfilehash: 7724062848d8d757fbfd3a7870853d6f2c409d84
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: ab84f529169c780e58888cc2726fbabfef33219e
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822516"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226225"
 ---
 # <a name="create-a-predictive-coding-model-preview"></a>Een voorspellend coderingsmodel maken (voorbeeld)
 
@@ -37,7 +37,7 @@ Zie Meer informatie over voorspellende codering [in](predictive-coding-overview.
 
 ## <a name="create-a-model"></a>Een model kiezen
 
-1. Open in Microsoft 365 compliancecentrum een Advanced eDiscovery en selecteer vervolgens **het tabblad Revisiesets.**
+1. Open in Microsoft 365-compliancecentrum een Advanced eDiscovery en selecteer vervolgens het **tabblad Revisiesets.**
 
 2. Open een revisieset en klik vervolgens op **Voorspellende** codering beheren  >  **(voorbeeld)**.
 
