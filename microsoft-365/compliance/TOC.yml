@@ -114,7 +114,7 @@
           href: sit-modify-edm-schema-configurable-match.md
         - name: Meldingen maken voor activiteiten met exacte gegevensovereenkomst (preview)
           href: sit-edm-notifications-activities.md
-        - name: Een aangepast type gevoelige informatie maken in het compliancecentrum
+        - name: Aan de slag met aangepaste typen vertrouwelijke informatie - Compliancecentrum
           href: create-a-custom-sensitive-information-type.md
         - name: Een aangepast type gevoelige informatie maken met Windows PowerShell
           href: create-a-custom-sensitive-information-type-in-scc-powershell.md
