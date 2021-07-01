@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Retentielabels en beleidsregels voor automatisch labelen maken, zodat u automatisch labels kunt toepassen om te behouden wat u nodig hebt en te verwijderen wat u niet nodig hebt
-ms.openlocfilehash: 0324f988402d407e30d10a725aa5acebb0a69964
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: fa1d88271593f0278266004d4a170a807e1cbc32
+ms.sourcegitcommit: 2266c2da090bc9a6dc1e01dea07f26901d20d57b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52788393"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53222680"
 ---
 # <a name="automatically-apply-a-retention-label-to-retain-or-delete-content"></a>Automatisch een retentielabel toepassen om inhoud te behouden of te verwijderen
 
@@ -164,7 +164,7 @@ Enkele dingen waarmee u rekening moet houden bij het gebruik van trefwoorden of 
 
 - Nieuwe, gewijzigde en bestaande items worden automatisch gelabeld voor SharePoint, OneDrive en Exchange.
 
-- SharePoint ondersteunt geen verkende eigenschappen en aangepaste eigenschappen voor deze KQL-query's; u moet alleen vooraf gedefinieerde beheerde eigenschappen gebruiken. U kunt echter toewijzingen op tenantniveau gebruiken met de vooraf gedefinieerde beheerde eigenschappen die standaard zijn ingeschakeld als verfijningen (RefinableDate00-19, RefinableString00-99, RefinableInt00-49, RefinableDecimals00-09 en RefinableDouble00-09). Zie [Overzicht van verkende en beheerde eigenschappen in SharePoint Server](/SharePoint/technical-reference/crawled-and-managed-properties-overview) voor meer informatie en zie [Een nieuwe beheerde eigenschap maken](/sharepoint/manage-search-schema#create-a-new-managed-property) voor instructies.
+- SharePoint ondersteunt geen verkende en aangepaste eigenschappen voor deze KQL-query's en u moet alleen vooraf gedefinieerde beheerde eigenschappen voor documenten gebruiken. U kunt echter toewijzingen op tenantniveau gebruiken met de vooraf gedefinieerde beheerde eigenschappen die standaard zijn ingeschakeld als verfijningen (RefinableDate00-19, RefinableString00-99, RefinableInt00-49, RefinableDecimals00-09 en RefinableDouble00-09). Zie [Overzicht van verkende en beheerde eigenschappen in SharePoint Server](/SharePoint/technical-reference/crawled-and-managed-properties-overview) voor meer informatie en zie [Een nieuwe beheerde eigenschap maken](/sharepoint/manage-search-schema#create-a-new-managed-property) voor instructies.
 
 - Als u een aangepaste eigenschap aan een van de verfijningseigenschappen toewijst, moet u 24 uur wachten voordat u deze in uw KQL-query kunt gebruiken voor een retentielabel.
 
