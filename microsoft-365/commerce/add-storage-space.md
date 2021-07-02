@@ -22,12 +22,12 @@ ms.custom:
 search.appverid: MET150
 description: Voeg bestandsopslag toe aan uw Microsoft 365 abonnement. Met extra bestandsopslag kunt u meer inhoud opslaan in SharePoint Online en OneDrive.
 ms.date: 04/02/2021
-ms.openlocfilehash: 14b688e850f62a06c39e4a315d871202e57d70d6
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: dee7debfbd2b624f3bf82bd573c81e7e1373b31e
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635856"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256817"
 ---
 # <a name="add-storage-space-for-your-subscription"></a>Opslagruimte voor uw abonnement toevoegen
 
@@ -76,7 +76,7 @@ Als u al extra bestandsopslag  hebt gekocht via de Office 365 Extra Bestandsopsl
 3. Selecteer op de pagina productdetails in **de** sectie Invoegtoepassingen de optie **Invoegtoepassingen beheren.**
 4. Kies in **het deelvenster Invoegtoepassingen beheren** in de lijst **Invoegtoepassingen** de **optie Office 365 Extra Bestandsopslag.**
 5. Voer in **het** tekstvak Hoeveelheid het aantal GB's opslagruimte in dat u voor het abonnement wilt gebruiken.
-6. Klik op **Opslaan**.
+6. Selecteer **Opslaan**.
 
 ## <a name="is-my-plan-eligible-for-office-365-extra-file-storage"></a>Komt mijn abonnement in aanmerking voor Office 365 Extra Bestandsopslag?
 
@@ -87,6 +87,8 @@ Office 365 Extra Bestandsopslag is beschikbaar voor de volgende abonnementen:
 - Office 365 Enterprise E3
 - Office 365 Enterprise E4
 - Office 365 Enterprise E5
+- Office 365 A3 (faculteit)
+- Office 365 A5 (faculteit)
 - webversie van Office met SharePoint plan 1
 - webversie van Office met SharePoint plan 2
 - SharePoint Online, abonnement 1
@@ -101,7 +103,7 @@ Office 365 Extra Bestandsopslag is beschikbaar voor de volgende abonnementen:
 > [!NOTE]
 > Office 365 Extra Bestandsopslag is ook beschikbaar voor GCC, GCC High en DOD-abonnementen.
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Limieten voor siteopslag](/sharepoint/manage-site-collection-storage-limits) beheren (artikel)\
 [De standaardopslagruimte instellen voor OneDrive gebruikers](/onedrive/set-default-storage-space) (artikel)

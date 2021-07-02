@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 6d92cbacba72210c6accbbb1e5ecf25de660fc3c
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: b56a18e1b35b65629318ab29f2189ef1f73373f5
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730532"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256913"
 ---
 # <a name="create-indicators-for-files"></a>Indicatoren voor bestanden maken
 
@@ -33,7 +33,7 @@ ms.locfileid: "52730532"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > [!TIP]
-> Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/en-us/WindowsForBusiness/windows-atp?ocid=docs-wdatp-automationexclusionlist-abovefoldlink)
+> Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/en-us/WindowsForBusiness/windows-atp?ocid=docs-wdatp-automationexclusionlist-abovefoldlink)
 
 Voorkom verdere verspreiding van een aanval in uw organisatie door potentieel schadelijke bestanden of vermoedelijke malware te verbieden. Als u een potentieel schadelijk bestand voor draagbaar uitvoerbaar (PE) kent, kunt u dit blokkeren. Deze bewerking voorkomt dat deze wordt gelezen, geschreven of uitgevoerd op apparaten in uw organisatie.
 
@@ -80,10 +80,13 @@ Bestanden die automatisch worden geblokkeerd door een indicator, worden niet wee
 
 >[!IMPORTANT]
 >- Meestal worden bestandsblokken binnen een paar minuten afgedwongen en verwijderd, maar dit kan meer dan 30 minuten duren.
->- Als er conflicterende beleidsregels voor bestandsindicatoren zijn, wordt het handhavingsbeleid van het veiligere beleid toegepast. Een sha-256-indicatorbeleid voor bestandshash heeft bijvoorbeeld voorrang op een MD5-indicatorbeleid voor bestandshash als beide hashtypen hetzelfde bestand definiëren.
->- Als het groepsbeleid EnableFileHashComputation is uitgeschakeld, wordt de blokkeringsnauwkeurigheid van de bestands-IoC verminderd. Het inschakelen van EnableFileHashComputation kan echter van invloed zijn op de prestaties van het apparaat.
->    - Het kopiëren van grote bestanden van een netwerk delen naar uw lokale apparaat, met name via een VPN-verbinding, kan bijvoorbeeld van invloed zijn op de prestaties van het apparaat.
->    - Zie [Defender CSP](/windows/client-management/mdm/defender-csp) voor meer informatie over het groepsbeleid enableFileHashComputation
+> 
+>- Als er conflicterende bestands-IoC-beleidsregels zijn met hetzelfde afdwingingstype en hetzelfde doel, wordt het beleid van de veiligere hash toegepast. Een sha-256-bestandshash-IoC-beleid zal een SHA-1-bestandshash-IoC-beleid overnemen, dat een MD5-bestandshash-IoC-beleid overwint als de hashtypen hetzelfde bestand definiëren. Dit geldt altijd, ongeacht de apparaatgroep. 
+>   Als in alle andere gevallen conflicterende bestand-IoC-beleidsregels met hetzelfde afdwingingsdoel worden toegepast op alle apparaten en op de groep van het apparaat, wordt voor een apparaat het beleid in de apparaatgroep gewonnen. 
+>   
+>- Als het groepsbeleid EnableFileHashComputation is uitgeschakeld, wordt de blokkeringsnauwkeurigheid van de bestands-IoC verminderd. Het inschakelen kan `EnableFileHashComputation` echter van invloed zijn op de prestaties van het apparaat. Het kopiëren van grote bestanden van een netwerk delen naar uw lokale apparaat, met name via een VPN-verbinding, kan bijvoorbeeld van invloed zijn op de prestaties van het apparaat.
+>
+>   Zie [Defender CSP](/windows/client-management/mdm/defender-csp) voor meer informatie over het groepsbeleid enableFileHashComputation
 
 ## <a name="policy-conflict-handling"></a>Beleidsconflictafhandeling  
 
@@ -103,7 +106,7 @@ Cert- en bestands-IoC-beleidsafhandelingsconflicten volgen de volgende volgorde:
 
 Als er conflicterende bestands-IoC-beleidsregels zijn met hetzelfde afdwingingstype en hetzelfde doel, wordt het beleid van de veiligere hash (wat langer betekent) toegepast. Een sha-256-bestandshash-IoC-beleid zal bijvoorbeeld een IoC-beleid voor MD5-bestandshash winnen als beide hashtypen hetzelfde bestand definiëren.
 
-Houd er rekening Threat and Vulnerability Management de functies van de blokkering van kwetsbare toepassingen de bestands-Ioc's gebruiken voor handhaving en volgen de bovenstaande conflictafhandelingsvolgorde.
+De functies voor vulnerability management en blokkering van kwetsbare toepassingen maken gebruik van de bestands-Ioc's voor handhaving en volgen de bovenstaande conflictafhandelingsvolgorde.
 
 ### <a name="examples"></a>Voorbeelden
 

@@ -20,12 +20,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: d76bc36ca8c79d318e1b632517e2a182857627ff
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: f099d7bd180843530d23d0bbcee89dc8ae35cdbb
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227341"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256733"
 ---
 # <a name="get-started-with-communication-compliance"></a>Aan de slag met communicatiecompliance
 
@@ -68,7 +68,7 @@ Kies uit deze opties voor rollengroep bij het configureren van communicatie comp
 
 | Rol | Rolmachtigingen |
 |:-----|:-----|
-| **Naleving van communicatie** | Gebruik deze rollengroep om communicatie compliance voor uw organisatie in één groep te beheren. Door alle gebruikersaccounts toe te voegen voor aangewezen beheerders, analisten, onderzoeker en kijkers, kunt u communicatie compliancemachtigingen configureren in één groep. Deze rollengroep bevat alle machtigingsrollen voor communicatie compliance. Deze configuratie is de eenvoudigste manier om snel aan de slag te gaan met communicatie-compliance en is geschikt voor organisaties die geen afzonderlijke machtigingen nodig hebben die zijn gedefinieerd voor afzonderlijke groepen gebruikers. |
+| **Communicatiecompliance** | Gebruik deze rollengroep om communicatie compliance voor uw organisatie in één groep te beheren. Door alle gebruikersaccounts toe te voegen voor aangewezen beheerders, analisten, onderzoeker en kijkers, kunt u communicatie compliancemachtigingen configureren in één groep. Deze rollengroep bevat alle machtigingsrollen voor communicatie compliance. Deze configuratie is de eenvoudigste manier om snel aan de slag te gaan met communicatie-compliance en is geschikt voor organisaties die geen afzonderlijke machtigingen nodig hebben die zijn gedefinieerd voor afzonderlijke groepen gebruikers. |
 | **Communicatie compliancebeheerder** | Gebruik deze rollengroep om communicatie compliance in eerste instantie te configureren en later om beheerders van communicatie compliance te scheiden in een gedefinieerde groep. Gebruikers die aan deze rollengroep zijn toegewezen, kunnen communicatie compliancebeleid, globale instellingen en toewijzingen voor rollengroepen maken, lezen, bijwerken en verwijderen. Gebruikers die aan deze rollengroep zijn toegewezen, kunnen geen berichtwaarschuwingen weergeven. |
 | **Communicatie compliance-analist** | Gebruik deze groep om machtigingen toe te wijzen aan gebruikers die fungeren als communicatie-complianceanalisten. Gebruikers die aan deze rollengroep zijn toegewezen, kunnen beleid weergeven waarin ze zijn toegewezen als revisoren, metagegevens van berichten weergeven (geen berichtinhoud), escaleren naar extra revisoren of meldingen verzenden naar gebruikers. Analisten kunnen waarschuwingen in behandeling niet oplossen. |
 | **Communicatie compliance-onderzoeker** | Gebruik deze groep om machtigingen toe te wijzen aan gebruikers die fungeren als communicatie compliance-onderzoeker. Gebruikers die aan deze rollengroep zijn toegewezen, kunnen metagegevens en inhoud van berichten bekijken, escaleren naar extra revisoren, escaleren naar een Advanced eDiscovery-geval, meldingen naar gebruikers verzenden en de waarschuwing oplossen. |
@@ -76,7 +76,7 @@ Kies uit deze opties voor rollengroep bij het configureren van communicatie comp
 
 ### <a name="option-1-assign-all-compliance-users-to-the-communication-compliance-role-group"></a>Optie 1: Alle compliancegebruikers toewijzen aan de rollengroep Communicatie compliance
 
-1. Meld u [https://protection.office.com/permissions](https://protection.office.com/permissions) aan bij het gebruik van referenties voor een beheerdersaccount in uw Microsoft 365 organisatie.
+1. Meld u [https://compliance.microsoft.com/permissions](https://compliance.microsoft.com/permissions) aan bij het gebruik van referenties voor een beheerdersaccount in uw Microsoft 365 organisatie.
 
 2. Ga in het &amp; Beveiligings compliancecentrum naar **Machtigingen.** Selecteer de koppeling voor het weergeven en beheren van rollen in Office 365.
 
@@ -94,7 +94,7 @@ Kies uit deze opties voor rollengroep bij het configureren van communicatie comp
 
 Gebruik deze optie om gebruikers toe te wijzen aan specifieke rollengroepen om toegang tot communicatie compliance en verantwoordelijkheden tussen verschillende gebruikers in uw organisatie te segmenteren.
 
-1. Meld u [https://protection.office.com/permissions](https://protection.office.com/permissions) aan bij het gebruik van referenties voor een beheerdersaccount in uw Microsoft 365 organisatie.
+1. Meld u [https://compliance.microsoft.com/permissions](https://compliance.microsoft.com/permissions) aan bij het gebruik van referenties voor een beheerdersaccount in uw Microsoft 365 organisatie.
 
 2. Ga in het &amp; Beveiligings compliancecentrum naar **Machtigingen.** Selecteer de koppeling voor het weergeven en beheren van rollen in Office 365.
 
@@ -246,7 +246,7 @@ U kunt er ook voor kiezen om anonimisatie in te stellen voor weergegeven gebruik
 
 4. Als u anonimisatie wilt inschakelen, selecteert u **Anonieme versies van gebruikersnamen tonen.**
 
-5. Kies **Opslaan**.
+5. Selecteer **Opslaan**.
 
 6. Ga naar het **tabblad Kennisgevingssjablonen** en selecteer **vervolgens Aankondigingssjabloon maken.**
 

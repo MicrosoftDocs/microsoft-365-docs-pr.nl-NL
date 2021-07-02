@@ -22,12 +22,12 @@ ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 ms.custom:
 - seo-marvel-apr2020
 description: Meer informatie over het importeren van gegevens van derden van sociale mediaplatforms, chatplatforms en platformen voor documentsamenwerking om postvakken Microsoft 365 maken.
-ms.openlocfilehash: acd7f9ee838308b277f725e5b7d80c69c6407b59
-ms.sourcegitcommit: 5d3086da935d4ddc8caf79ff19e3afda812fd061
+ms.openlocfilehash: 76df1ffa7afdeeda9a35744e9e4bfffae4576ca9
+ms.sourcegitcommit: 8c6a5db0dab99a82a69dd8a0a7c56af1cb825931
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "53243957"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53276951"
 ---
 # <a name="archive-third-party-data-in-microsoft-365"></a>Gegevens van derden archiveren in Microsoft 365
 
@@ -107,7 +107,7 @@ De tabel in deze sectie bevat de gegevensconnectors van derden die beschikbaar z
 
 Voordat u gegevens van derden kunt archiveren in Microsoft 365, moet u met TeleMessage werken om de archiveringsservice voor uw organisatie in te stellen. Klik voor meer informatie op  de koppeling in de gegevenskolom van derden om de stapsgewijs instructies te volgen voor het maken van een verbindingslijn voor dat gegevenstype.
 
-TeleMessage-gegevensconnectoren zijn ook beschikbaar in GCC omgevingen in Microsoft 365 cloud van de Amerikaanse overheid. Zie de sectie Gegevensconnectoren in de cloud van de Amerikaanse overheid in dit artikel voor meer informatie.
+TeleMessage-gegevensconnectoren zijn ook beschikbaar in GCC omgevingen in Microsoft 365 cloud van de Amerikaanse overheid. Zie de sectie Gegevensconnectoren in de cloud van de Amerikaanse overheid [in](#data-connectors-in-the-us-government-cloud) dit artikel voor meer informatie.
 
 |Gegevens van derden  |Proces in de wacht zetten|eDiscovery  |Bewaarinstellingen  |Records Management  |Communicatiecompliance  |Beheer van insider-risico's  |
 |:---------|:---------|:---------|:---------|:---------|:---------|:---------|

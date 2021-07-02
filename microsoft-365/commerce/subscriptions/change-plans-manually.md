@@ -20,12 +20,12 @@ search.appverid: MET150
 description: Wijzig abonnementen handmatig door een nieuw abonnement te kopen en ervoor te zorgen dat beide abonnementen worden vermeld en actief zijn.
 ROBOTS: NOINDEX
 ms.date: 03/17/2021
-ms.openlocfilehash: f5a44b7a3c01883ed42ca4ed203b63ccf77f9b72
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 5db328cb1545279faa1332c144c7a8b60a50fa05
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52536104"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256769"
 ---
 # <a name="change-plans-manually"></a>Abonnementen handmatig wijzigen
 
@@ -79,6 +79,8 @@ Koop ook een licentie voor elke gebruiker die u wilt verplaatsen.
 De licenties voor het huidige abonnement worden later verwijderd. U betaalt vanaf dat moment alleen voor de nieuwe gebruikerslicenties.
 
 ## <a name="step-4-reassign-licenses"></a>Stap 4: Licenties opnieuw toewijzen
+
+Wanneer u een upgrade van een Office 365 naar een Microsoft 365 plan, moet u de licentietoewijzingen voor alle gebruikers wijzigen. Licenties worden niet automatisch toegewezen wanneer u handmatig van plan verandert.
 
 ### <a name="reassign-a-license-for-one-user"></a>Een licentie opnieuw toewijzen voor één gebruiker
 

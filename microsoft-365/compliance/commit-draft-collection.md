@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Nadat u een conceptverzameling hebt aan een conceptverzameling hebt toegevoegd en deze hebt itereren, kunt u deze toevoegen aan een revisieset. Wanneer u een conceptverzameling gaat maken, worden de verzamelde items toegevoegd om de set in de zaak te controleren. Nadat de verzamelde items zich in de revisieset hebben verzameld, kunt u deze analyseren, controleren en exporteren.
-ms.openlocfilehash: e28592e7aac289bfc0cc29d312963fa21d9f8fd4
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: dceb661d9586e324482dc4f56bce12fafaf9b251
+ms.sourcegitcommit: 8c6a5db0dab99a82a69dd8a0a7c56af1cb825931
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "52161732"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53276975"
 ---
 # <a name="commit-a-draft-collection-to-a-review-set-in-advanced-ediscovery"></a>Een conceptverzameling aan een revisieset in Advanced eDiscovery
 
@@ -29,7 +29,7 @@ Wanneer u tevreden bent over de items die u hebt verzameld in een conceptverzame
 
 ## <a name="commit-a-draft-collection-to-a-review-set"></a>Een conceptverzameling toewijzen aan een beoordelingsset
 
-1. Open in Microsoft 365 compliancecentrum het hoofd- Advanced eDiscovery en selecteer vervolgens  het tabblad Verzamelingen om een lijst met de verzamelingen in de zaak weer te geven.
+1. Open in Microsoft 365-compliancecentrum de hoofdsyte Advanced eDiscovery en selecteer  vervolgens het tabblad Verzamelingen om een lijst met de verzamelingen in de zaak weer te geven.
 
    ![Lijst met verzamelingen in een zaak](../media/CommitDraftCollections1.png)
 
@@ -46,7 +46,7 @@ Wanneer u tevreden bent over de items die u hebt verzameld in een conceptverzame
 
    1. Selecteer **Items verzamelen en toevoegen om de revisieset te controleren.**
 
-   2. Bepaal of u de verzameling wilt toevoegen aan een nieuwe revisieset (die wordt gemaakt nadat u de verzameling hebt verzenden) of aan een bestaande revisieset. Voltooi deze sectie op basis van uw beslissing.
+   2. Bepaal of u de verzameling wilt toevoegen aan een nieuwe revisieset (die wordt gemaakt nadat u de verzameling hebt verzenden) of aan een bestaande revisieset wilt toevoegen. Voltooi deze sectie op basis van uw beslissing.
 
    3. De extra verzamelingsinstellingen configureren:
 
@@ -73,6 +73,8 @@ Wanneer u tevreden bent over de items die u hebt verzameld in een conceptverzame
 ## <a name="what-happens-after-you-commit-a-draft-collection"></a>Wat gebeurt er nadat u een conceptverzameling hebt gepleegd
 
 Wanneer u een conceptverzameling aan een revisieset verbindt, gebeuren de volgende dingen:
+
+- Als u een nieuwe revisieset hebt gemaakt waar u de verzameling aan wilt verbinden, wordt de revisieset gemaakt en weergegeven op het tabblad **Revisiesets** in de zaak. De status van de nieuwe revisieset is **Gereed**. Deze statuswaarde betekent dat de revisieset is gemaakt. dit betekent niet dat de verzameling is toegevoegd aan de revisieset. De status van het toevoegen van items in de verzameling aan de revisieset wordt weergegeven op het **tabblad Verzamelingen.**
 
 - De zoekquery voor verzamelingen wordt opnieuw uitgevoerd. Dit betekent dat de werkelijke zoekresultaten die naar de revisieset zijn gekopieerd, anders kunnen zijn dan de geschatte resultaten die zijn geretourneerd toen de verzamelingszoekactie voor het laatst werd uitgevoerd.
 

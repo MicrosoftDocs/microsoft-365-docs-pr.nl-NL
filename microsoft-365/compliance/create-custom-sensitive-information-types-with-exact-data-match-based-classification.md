@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Meer informatie over het maken van aangepaste gevoelige informatietypen met op Exacte gegevens overeenkomende classificatie.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e8f6c075d706da46d7163705f6aa9d0ca6cad1a2
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: dc1d3f08ab55f496ae7c6a12f35b71fa5b384688
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227125"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256697"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>Aangepaste gevoelige informatietypen maken met een classificatie op basis van Exacte gegevensmatch
 
@@ -51,14 +51,14 @@ Maar wat als u een aangepast type gevoelige informatie (SIT) wilt dat exacte geg
 Met EDM-classificatie kunt u aangepaste gevoelige informatietypen maken die verwijzen naar exacte waarden in een database met gevoelige informatie. De database kan dagelijks worden vernieuwd en maximaal 100 miljoen rijen met gegevens bevatten. Als werknemers, patiënten of klanten komen en gaan en records veranderen, blijven uw aangepaste gevoelige informatietypen actueel en van toepassing. En u kunt classificatie op basis van EDM gebruiken met beleidsregels, zoals beleid voor preventie van gegevensverlies of Microsoft Cloud App Security [bestandsbeleid.](/cloud-app-security/data-protection-policies) [](dlp-learn-about-dlp.md)
 
 > [!NOTE]
-> Microsoft 365 Information Protection ondersteunt talen voor preview van dubbel-byte-tekensets voor:
+> Microsoft 365 Information Protection ondersteunt dubbele bytetekensettalen voor:
 > - Vereenvoudigd Chinees
 > - Traditioneel Chinees
 > - Koreaks
 > - Japans
 > 
 > Deze ondersteuning is beschikbaar voor typen gevoelige informatie. Zie [Ondersteuning voor Information Protection voor releaseopmerkingen bij dubbel-bytetekensets (preview)](mip-dbcs-relnotes.md) voor meer informatie.
- 
+
 
 ## <a name="required-licenses-and-permissions"></a>Vereiste licenties en machtigingen
 

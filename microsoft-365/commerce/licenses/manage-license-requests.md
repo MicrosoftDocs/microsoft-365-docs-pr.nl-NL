@@ -19,13 +19,13 @@ ms.custom:
 - commerce_licensing
 search.appverid: MET150
 description: Meer informatie over het controleren en goedkeuren of weigeren van licentieaanvragen van gebruikers voor uw Microsoft 365 voor bedrijven-abonnement.
-ms.date: 08/07/2020
-ms.openlocfilehash: 6cbfd81f4f6deba642729f1fef0b826b07a99f56
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.date: 06/07/2021
+ms.openlocfilehash: 23258d21ebb413c56323aa4dab25cee60baf2be0
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535672"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256805"
 ---
 # <a name="manage-license-requests"></a>Licentieaanvragen beheren
 
@@ -53,7 +53,7 @@ Als uw organisatie een eigen aanvraagprocedure heeft, kunt u deze in plaats daar
 1. Ga in het beheercentrum naar de pagina   >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Factureringslicenties</a> en selecteer vervolgens het **tabblad Aanvragen.**
 2. Selecteer **In plaats daarvan uw bestaande aanvraagproces gebruiken.**
 3. Typ in het rechterdeelvenster in **het** vak Bericht het bericht dat gebruikers moeten zien wanneer ze een licentie aanvragen. Als u ook een koppeling naar uw organisatiebeleid of andere documentatie wilt opnemen, voert u de URL in het tekstvak Koppeling naar **documentatie (optioneel)** in.
-4. Klik op **Opslaan**.
+4. Selecteer **Opslaan**.
 
 Wanneer u terugkeert naar de lijst **Aanvragen,** ziet u het bericht **U gebruikt uw eigen licentieaanvraagproces.** Als u wijzigingen wilt aanbrengen in het bericht dat naar gebruikers wordt verzonden, selecteert u In plaats daarvan **Uw bestaande aanvraagproces gebruiken.**
 
@@ -62,7 +62,7 @@ Wanneer u terugkeert naar de lijst **Aanvragen,** ziet u het bericht **U gebruik
 1. Ga in het beheercentrum naar de pagina   >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Factureringslicenties</a> en selecteer vervolgens het **tabblad Aanvragen.**
 2. Selecteer **In plaats daarvan uw bestaande aanvraagproces gebruiken.**
 3. In het rechterdeelvenster kunt u het selectievakje **Aanvraagproces** van mijn organisatie gebruiken uitschakelen.
-4. Klik op **Opslaan**.
+4. Selecteer **Opslaan**.
 
 ## <a name="approve-or-deny-a-license-request"></a>Een licentieaanvraag goedkeuren of weigeren
 
@@ -77,7 +77,7 @@ Wanneer u terugkeert naar de lijst **Aanvragen,** ziet u het bericht **U gebruik
 9. Sluit het rechterdeelvenster.
     Gebruikers ontvangen een e-mailbericht met de informatie dat hun aanvraag is goedgekeurd of geweigerd.
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Licenties toewijzen aan gebruikers](../../admin/manage/assign-licenses-to-users.md) (artikel)\
 [Gebruikers verplaatsen naar een ander abonnement](../subscriptions/move-users-different-subscription.md) (artikel)\

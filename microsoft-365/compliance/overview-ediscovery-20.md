@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 description: Meer informatie over de Advanced eDiscovery oplossing in Microsoft 365. Dit artikel bevat een overzicht van Advanced eDiscovery in Microsoft 365, een hulpmiddel waarmee u interne en externe onderzoeken kunt beheren. Daarnaast worden de zakelijke redenen voor het gebruik van Advanced eDiscovery om uw juridische onderzoeken te beheren.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 16f597fdbbbad89116af73fdd0a607f3f03116ad
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 4fe94aed10a7b9e981e2a9d46e992d5557e35dcb
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52840836"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256457"
 ---
 # <a name="overview-of-microsoft-365-advanced-ediscovery"></a>Overzicht van Microsoft 365 Advanced eDiscovery
 
@@ -95,7 +95,7 @@ Op een hoog niveau biedt u als Advanced eDiscovery ondersteuning voor de EDRM-we
 
 Licenties voor Advanced eDiscovery vereist het juiste organisatieabonnement en licenties per gebruiker.
 
-- **Organisatieabonnement:** Als u toegang Advanced eDiscovery in het Microsoft 365 compliancecentrum, moet uw organisatie een van de volgende opties hebben:
+- **Organisatieabonnement:** Als u Advanced eDiscovery in de Microsoft 365-compliancecentrum wilt openen, moet uw organisatie een van de volgende opties hebben:
 
   - Microsoft 365 E5 of Office 365 E5-abonnement
   
@@ -111,7 +111,7 @@ Licenties voor Advanced eDiscovery vereist het juiste organisatieabonnement en l
 
   - Microsoft 365: Gebruikers moeten een Microsoft 365 E5-licentie, een E5 Compliance-invoeglicentie of een E5 eDiscovery- en Audit-invoeglicentie krijgen. Microsoft 365 Education gebruikers moeten een A5-licentie krijgen toegewezen.
 
-  - Office 365: Gebruikers moeten een E5- of Office 365-licentie Office 365 Education A5 krijgen toegewezen.
+  - Office 365: Gebruikers moeten een licentie voor Office 365 E5 of Office 365 Education A5 krijgen toegewezen.
 
    Zie Licenties toewijzen aan gebruikers voor informatie over het toewijzen van [licenties.](/microsoft-365/admin/manage/assign-licenses-to-users)
 
@@ -124,7 +124,7 @@ Er zijn twee snelle en eenvoudige stappen om aan de slag te gaan met Advanced eD
 
 ![Werkstroom aan de slag met Advanced eDiscovery](../media/get-started-AeD.png)
 
-|Stappen  |Beschrijving  |
+|Stappen  |Omschrijving  |
 |:---------|:---------|
 |[Advanced eDiscovery instellen](get-started-with-advanced-ediscovery.md)| Nadat u de abonnements- en licentievereisten hebt geverifieerd, kunt u machtigingen toewijzen en instellingen voor de hele organisatie configureren om aan de slag te gaan met Advanced eDiscovery.|
 |[Zaken maken en beheren](create-and-manage-advanced-ediscoveryv2-case.md) | Maak zaken om de werkstroom Advanced eDiscovery voor alle juridische en andere soorten onderzoeken in uw organisatie te beheren.|
@@ -141,3 +141,7 @@ Hier ziet u een Advanced eDiscovery-architectuurdiagram met de end-to-endwerkstr
 [Downloaden als PDF-bestand](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.pdf)
 
 [Downloaden als een Visio bestand](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.vsdx)
+
+## <a name="training"></a>Training
+
+Door uw IT-beheerders, eDiscovery-managers en complianceonderzoeksteams te trainen in de basisbeginselen voor Advanced eDiscovery, kan uw organisatie sneller aan de slag gaan met Microsoft 365 eDiscovery-hulpprogramma's. Microsoft 365 biedt de volgende resource om deze gebruikers in uw organisatie te helpen aan de slag te gaan met eDiscovery: Beschrijf de [eDiscovery- en auditmogelijkheden van Microsoft 365.](/learn/modules/describe-ediscovery-capabilities-of-microsoft-365)

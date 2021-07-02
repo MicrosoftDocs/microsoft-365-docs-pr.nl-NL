@@ -12,12 +12,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: c8c83724d17acff52d588331b3b854e180d5466c
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 3d0b0f1adac589b910b5fabf2c22d08cbd65f142
+ms.sourcegitcommit: 8c6a5db0dab99a82a69dd8a0a7c56af1cb825931
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841280"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53276927"
 ---
 # <a name="device-images"></a>Afbeeldingen van apparaten
 
@@ -25,7 +25,7 @@ ms.locfileid: "52841280"
 Of u nu nieuwe [](#existing-devices) [apparaten bestelt](#new-devices) of bestaande apparaten opnieuw gebruikt, u hebt verschillende opties om ervoor te zorgen dat de afbeelding op het apparaat voldoet aan onze [apparaatvereisten.](device-requirements.md#check-hardware-requirements)
 
 ## <a name="new-devices"></a>Nieuwe apparaten
-Wanneer u een nieuw [](device-requirements.md#minimum-requirements)apparaat bij een goedgekeurde fabrikant bestelt, volgt u deze stappen om ervoor te zorgen dat ze apparaten verzenden met de juiste Microsoft Managed Desktop afbeelding en softwareconfiguratie.
+Wanneer u een nieuw [](device-requirements.md#minimum-requirements)apparaat bij een goedgekeurde fabrikant bestelt, volgt u deze stappen om ervoor te zorgen dat ze apparaten verzenden met de juiste Microsoft Managed Desktop afbeelding en softwareconfiguratie. Wanneer u van plan bent een bepaald apparaatmodel voor de eerste keer in te schrijven in de service, moet u een voorbeeld testen om ervoor te zorgen dat het de gebruikerservaring biedt die u verwacht. Zie Nieuwe apparaten [valideren voor meer informatie.](/microsoft-365/managed-desktop/get-started/validate-device)
 
 ### <a name="dell"></a>Dell
 Werk rechtstreeks samen met de vertegenwoordiger van Dell, die ervoor zorgt dat de afbeelding die is goedgekeurd door Microsoft Managed Desktop wordt toegepast op apparaten voor uw bestelling. Neem voor meer vragen over Dell-apparaten, de afbeelding en het bestelproces contact op met MMD_at_dell@dell.com.

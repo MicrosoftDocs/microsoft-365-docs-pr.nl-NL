@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 59f116e3fe2b617803efd9625f399235b79a1142
-ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
+ms.openlocfilehash: ed6dc9956c3e78f8ed39dca9cd6bf0421dd28456
+ms.sourcegitcommit: 8c6a5db0dab99a82a69dd8a0a7c56af1cb825931
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53177631"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53276987"
 ---
 # <a name="use-attack-surface-reduction-rules-to-prevent-malware-infection"></a>Regels voor de beperking van de surface-aanval gebruiken om malware-infectie te voorkomen
 
@@ -147,7 +147,7 @@ U kunt het logboek met Windows bekijken om gebeurtenissen weer te geven die zijn
 
 4. Selecteer de *bestandsindelingcfa-events.xml* waar het is geëxtraheerd. U kunt ook [de XML rechtstreeks kopiëren.](event-views.md)
 
-5. Selecteer **OK**.
+5. Selecteer **OK**.
 
 U kunt een aangepaste weergave maken waarmee gebeurtenissen worden gefilterd om alleen de volgende gebeurtenissen weer te geven, die allemaal betrekking hebben op gecontroleerde maptoegang:
 
@@ -183,7 +183,6 @@ Als u de regels voor het verlagen van de aanvalsoppervlakken configureert met gr
 |[Niet-vertrouwde en niet-ondertekende processen blokkeren die worden uitgevoerd via USB](#block-untrusted-and-unsigned-processes-that-run-from-usb)|`b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4`|Ondersteund|[Windows 10 versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) of hoger|
 |[Win32 API-oproepen blokkeren Office macro's](#block-win32-api-calls-from-office-macros)|`92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B`|Ondersteund|[Windows 10 versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) of hoger|
 |[Geavanceerde beveiliging tegen ransomware gebruiken](#use-advanced-protection-against-ransomware)|`c1db55ab-c21a-4637-bb3f-a12568109d35`|Ondersteund|[Windows 10 versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) of hoger|
-|
 
 ### <a name="block-abuse-of-exploited-vulnerable-signed-drivers"></a>Misbruik van uitgebuite, kwetsbare ondertekende stuurprogramma's blokkeren
 
@@ -199,7 +198,7 @@ De **regel Misbruik van uitgebuite,** kwetsbaar ondertekende stuurprogramma's bl
 >
 > Als u een stuurprogramma wilt laten onderzoeken, gebruikt u deze website om [een stuurprogramma voor analyse in te dienen.](https://www.microsoft.com/en-us/wdsi/driversubmission)
 
-Deze regel wordt ondersteund in alle versies waarin ASR wordt ondersteund. dat wil zeggen:
+Ondersteunde besturingssystemen:
 
 - [Windows 10 Pro, versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) of hoger
 - [Windows 10 Enterprise, versie 1709](/windows/whats-new/whats-new-windows-10-version-1709) of hoger
@@ -216,7 +215,7 @@ Met deze regel voorkomt u aanvallen door te blokkeren dat Adobe Reader processen
 
 Via social engineering of exploits kan malware payloads downloaden en starten en uit Adobe Reader breken. Door te voorkomen dat onderliggende processen worden gegenereerd door Adobe Reader, kan malware die deze als vector probeert te gebruiken, niet worden verspreid.
 
-Deze regel is geïntroduceerd in:
+Ondersteunde besturingssystemen:
 
 - [Windows 10 versie 1809](/windows/whats-new/whats-new-windows-10-version-1809)
 - [Windows Server, versie 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
@@ -234,7 +233,7 @@ Met deze regel Office apps geen onderliggende processen maken. Office apps zijn 
 
 Het maken van schadelijke onderliggende processen is een veelgebruikte malwarestrategie. Malware die misbruik Office als vector, bevat vaak VBA-macro's en gebruikt code om meer payloads te downloaden en uit te voeren. Sommige legitieme line-of-businesstoepassingen kunnen echter ook onderliggende processen genereren voor goedaardige doeleinden. zoals het paaien van een opdrachtprompt of het gebruik van PowerShell om registerinstellingen te configureren.
 
-Deze regel is geïntroduceerd in:
+Ondersteunde besturingssystemen:
 
 - [Windows 10, versie 1709](/windows/whats-new/whats-new-windows-10-version-1709)
 - [Windows Server, versie 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
@@ -256,7 +255,7 @@ LSASS verifieert gebruikers die zich aanmelden op een Windows computer. Microsof
 > [!NOTE]
 > In sommige apps worden alle lopende processen in de code op een lijst met volledige machtigingen geopend. Met deze regel wordt de actie voor het openen van het proces van de app ontnomen en worden de details bij het logboek met beveiligingsgebeurtenissen bij de logboeken van de beveiligingsgebeurtenissen bij de app bij de logboeken van de beveiligingsgebeurtenissen. Deze regel kan veel ruis genereren. Als u een app hebt die alleen LSASS opsnoemt, maar geen echte invloed heeft op functionaliteit, hoeft u deze niet toe te voegen aan de uitsluitingslijst. Deze gebeurtenislogboekinvoer geeft op zichzelf niet per se een schadelijke bedreiging aan.
 
-Deze regel is geïntroduceerd in:
+Ondersteunde besturingssystemen:
 
 - [Windows 10, versie 1803](/windows/whats-new/whats-new-windows-10-version-1803)
 - [Windows Server, versie 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
@@ -276,7 +275,7 @@ Deze regel blokkeert dat de volgende bestandstypen worden geopend vanuit e-mail 
 - Uitvoerbare bestanden (zoals .exe, .dll of .scr)
 - Scriptbestanden (zoals een PowerShell .ps, Visual Basic .vbs of JavaScript-.js bestand)
 
-Deze regel is geïntroduceerd in:
+Ondersteunde besturingssystemen:
 
 - [Windows 10, versie 1709](/windows/whats-new/whats-new-windows-10-version-1709)
 - [Windows Server, versie 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
@@ -313,7 +312,7 @@ Het starten van niet-vertrouwde of onbekende uitvoerbare bestanden kan riskant z
 >
 > U kunt afzonderlijke bestanden of mappen opgeven (met behulp van mappaden of volledig gekwalificeerde resourcenamen), maar u kunt niet opgeven op welke regels of uitsluitingen van toepassing zijn.
 
-Deze regel is geïntroduceerd in:
+Ondersteunde besturingssystemen:
 
 - [Windows 10, versie 1803](/windows/whats-new/whats-new-windows-10-version-1803)
 - [Windows Server, versie 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
@@ -332,7 +331,7 @@ Met deze regel worden verdachte eigenschappen gedetecteerd in een obfuscated scr
 
 Script obfuscation is een veelgebruikte techniek die zowel malwareauteurs als legitieme toepassingen gebruiken om intellectuele eigendom te verbergen of de laadtijden van scripts te verminderen. Malwareauteurs gebruiken ook obfuscation om schadelijke code moeilijker te lezen te maken, waardoor mensen en beveiligingssoftware niet nauwkeurig worden gecontroleerd.
 
-Deze regel is geïntroduceerd in:
+Ondersteunde besturingssystemen:
 
 - [Windows 10, versie 1709](/windows/whats-new/whats-new-windows-10-version-1709)
 - [Windows Server, versie 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
@@ -351,7 +350,7 @@ Met deze regel voorkomt u dat scripts potentieel schadelijke gedownloade inhoud 
 
 Hoewel dit niet gebruikelijk is, worden in line-of-business-toepassingen soms scripts gebruikt om installatieprogramma's te downloaden en te starten.
 
-Deze regel is geïntroduceerd in:
+Ondersteunde besturingssystemen:
 
 - [Windows 10, versie 1709](/windows/whats-new/whats-new-windows-10-version-1709)
 - [Windows Server, versie 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
@@ -370,7 +369,7 @@ Deze regel voorkomt dat Office apps, waaronder Word, Excel en PowerPoint, potent
 
 Malware die misbruik maakt van Office als vector, kan proberen uit te breken Office schadelijke onderdelen op schijf op te slaan. Deze schadelijke onderdelen overleven een computer opnieuw opstarten en blijven op het systeem staan. Daarom wordt met deze regel een veelvoorkomende persistentietechniek gebruikt.
 
-Deze regel is geïntroduceerd in:
+Ondersteunde besturingssystemen:
 
 - [Windows 10, versie 1709](/windows/whats-new/whats-new-windows-10-version-1709)
 - [Windows Server, versie 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
@@ -393,7 +392,7 @@ Er zijn geen bekende legitieme zakelijke doeleinden voor het gebruik van code-in
 
 Deze regel is van toepassing op Word, Excel en PowerPoint.
 
-Deze regel is geïntroduceerd in:
+Ondersteunde besturingssystemen:
 
 - [Windows 10, versie 1709](/windows/whats-new/whats-new-windows-10-version-1709)
 - [Windows Server, versie 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
@@ -415,7 +414,7 @@ Deze regel beschermt tegen social engineering-aanvallen en voorkomt dat misbruik
 > [!NOTE]
 > Deze regel blokkeert DLP-beleidstips en ToolTips in Outlook. Deze regel is alleen van Outlook en Outlook.com.
 
-Deze regel is geïntroduceerd in:
+Ondersteunde besturingssystemen:
 
 - [Windows 10 versie 1809](/windows/whats-new/whats-new-windows-10-version-1809)
 - [Windows Server, versie 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
@@ -436,7 +435,7 @@ Met deze regel voorkomt u dat malware misbruik maakt van WMI om persistentie te 
 
 Bestandsloze bedreigingen gebruiken verschillende tactieken om verborgen te blijven, om te voorkomen dat ze worden gezien in het bestandssysteem en om periodieke uitvoeringscontrole te krijgen. Sommige bedreigingen kunnen misbruik maken van de WMI-opslagplaats en het gebeurtenismodel om verborgen te blijven.
 
-Deze regel is geïntroduceerd in:
+Ondersteunde besturingssystemen:
 
 - [Windows 10, versie 1903](/windows/whats-new/whats-new-windows-10-version-1903)
 - [Windows Server 1903](/windows-server/get-started-19/whats-new-in-windows-server-1903-1909)
@@ -454,7 +453,7 @@ Met deze regel worden processen die zijn gemaakt [via PsExec](/sysinternals/down
 > [!WARNING]
 > Gebruik deze regel alleen als u uw apparaten beheert met [Intune](/intune) of een andere MDM-oplossing. Deze regel is niet compatibel met beheer [via Microsoft Endpoint Configuration Manager](/configmgr) omdat deze regel WMI-opdrachten blokkeert die de Configuration Manager-client gebruikt om correct te werken.
 
-Deze regel is geïntroduceerd in:
+Ondersteunde besturingssystemen:
 
 - [Windows 10, versie 1803](/windows/whats-new/whats-new-windows-10-version-1803)
 - [Windows Server, versie 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
@@ -470,7 +469,7 @@ GUID: `d1e49aac-8f56-4280-b9ba-993a6d77406c`
 
 Met deze regel kunnen beheerders voorkomen dat niet-ondertekende of niet-vertrouwde uitvoerbare bestanden worden uitgevoerd via verwisselbare USB-stations, waaronder SD-kaarten. Geblokkeerde bestandstypen bevatten uitvoerbare bestanden (zoals .exe, .dll of .scr)
 
-Deze regel is geïntroduceerd in:
+Ondersteunde besturingssystemen:
 
 - [Windows 10, versie 1803](/windows/whats-new/whats-new-windows-10-version-1803)
 - [Windows Server, versie 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
@@ -489,7 +488,7 @@ Met deze regel voorkomt u dat VBA-macro's Win32-API's bellen.
 
 Office VBA schakelt Win32 API-oproepen in. Malware kan misbruik maken van deze mogelijkheid, zoals het bellen van [Win32-API's](https://www.microsoft.com/security/blog/2018/09/12/office-vba-amsi-parting-the-veil-on-malicious-macros/) om schadelijke shellcode te starten zonder iets rechtstreeks op de schijf te schrijven. De meeste organisaties vertrouwen niet op de mogelijkheid om Win32-API's te bellen in hun dagelijkse werking, zelfs niet als ze macro's op andere manieren gebruiken.
 
-Deze regel is geïntroduceerd in:
+Ondersteunde besturingssystemen:
 
 - [Windows 10, versie 1709](/windows/whats-new/whats-new-windows-10-version-1709)
 - [Windows Server, versie 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
@@ -515,7 +514,7 @@ De regel heeft de neiging om voorzichtig te zijn om ransomware te voorkomen.
 > [!NOTE]
 > U moet [beveiliging in de cloud inschakelen](enable-cloud-protection-microsoft-defender-antivirus.md) om deze regel te kunnen gebruiken.
 
-Deze regel is geïntroduceerd in:
+Ondersteunde besturingssystemen:
 
 - [Windows 10, versie 1803](/windows/whats-new/whats-new-windows-10-version-1803)
 - [Windows Server, versie 1809](/windows-server/get-started/whats-new-in-windows-server-1809)

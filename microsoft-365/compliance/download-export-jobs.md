@@ -16,16 +16,16 @@ search.appverid:
 - MET150
 ms.custom: seo-marvel-mar2020
 description: Exporteert documenten in een revisieset naar een Azure Storage account en gebruik Azure Storage Explorer om ze te downloaden naar een lokale computer.
-ms.openlocfilehash: dfb3892f31e857d4744f6da337c924efaa87ab11
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: b7638e33a40a2ac46f4bb69b869e4c2cf6d48f65
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "52162567"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256505"
 ---
 # <a name="export-documents-in-a-review-set-to-an-azure-storage-account"></a>Documenten in een revisieset exporteren naar een Azure Storage account
 
-Wanneer u documenten exporteert uit een revisieset in een Advanced eDiscovery, hebt u de optie om ze te exporteren naar een Azure Storage account dat door uw organisatie wordt beheerd. Als u deze optie hebt gebruikt, worden de documenten geüpload naar uw Azure Storage locatie. Nadat ze zijn geëxporteerd, kunt u de documenten openen (en downloaden naar een lokale computer of andere locatie) met behulp van de Azure Storage Explorer. In dit artikel vindt u instructies voor het exporteren van documenten naar uw Azure Storage-account en het gebruik van de Azure Storage Explorer om verbinding te maken met een Azure Storage locatie om de geëxporteerde documenten te downloaden. Zie Gebruik Azure Storage Explorer voor [meer Azure Storage Explorer.](/azure/storage/blobs/storage-quickstart-blobs-storage-explorer)
+Wanneer u documenten exporteert uit een revisieset in een Advanced eDiscovery, hebt u de optie om ze te exporteren naar een Azure Storage account dat door uw organisatie wordt beheerd. Als u deze optie gebruikt, worden de documenten geüpload naar uw Azure Storage locatie. Nadat ze zijn geëxporteerd, kunt u de documenten openen (en downloaden naar een lokale computer of andere locatie) met behulp van de Azure Storage Explorer. In dit artikel vindt u instructies voor het exporteren van documenten naar uw Azure Storage-account en het gebruik van de Azure Storage Explorer om verbinding te maken met een Azure Storage locatie om de geëxporteerde documenten te downloaden. Zie Gebruik Azure Storage Explorer voor [meer Azure Storage Explorer.](/azure/storage/blobs/storage-quickstart-blobs-storage-explorer)
 
 ## <a name="before-you-export-documents-from-a-review-set"></a>Voordat u documenten exporteert uit een revisieset
 
@@ -41,7 +41,7 @@ Wanneer u documenten exporteert uit een revisieset in een Advanced eDiscovery, h
 
 De eerste stap is het maken van een exportklus om documenten uit een revisieset te exporteren. Zie Documenten exporteren uit een revisieset voor meer gedetailleerde instructies over alle [exportopties.](export-documents-from-review-set.md) In de volgende procedure worden de instellingen belicht voor het exporteren van documenten naar het account Azure Storage uw organisatie.
 
-1. Open in Microsoft 365 compliancecentrum het hoofd- Advanced eDiscovery, selecteer  het tabblad Revisiesets en selecteer vervolgens de revisieset die u wilt exporteren.
+1. Open in Microsoft 365-compliancecentrum het hoofd- Advanced eDiscovery, selecteer  het tabblad Revisiesets en selecteer vervolgens de revisieset die u wilt exporteren.
 
 2. Klik in de revisieset op **Actie**  >  **exporteren.**
 

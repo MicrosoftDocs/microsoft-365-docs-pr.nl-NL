@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 6c200d4ac81f12e46b085261c5ece279839255f4
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 7bb231049815da12ef6e5e48c88d79f5263f8708
+ms.sourcegitcommit: 8c6a5db0dab99a82a69dd8a0a7c56af1cb825931
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53228385"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53277011"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint"></a>Wat is er nieuw in Microsoft Defender voor Eindpunt
 
@@ -48,15 +48,21 @@ Zie Voorbeeldfuncties voor meer informatie over [voorbeeldfuncties.](preview.md)
 
 ## <a name="june-2021"></a>Juni 2021
 
+- [Evaluatie van beveiligingsproblemen met Delta-exportsoftware](get-assessment-methods-properties.md#31-methods) API <br> Een aanvulling op de [exportbeoordelingen van beveiligingslekken en veilige configuraties](get-assessment-methods-properties.md) API-verzameling. <br> In tegenstelling tot de evaluatie van volledige softwareproblemen (JSON-antwoord) - die wordt gebruikt om een volledige momentopname van de beoordeling van de beveiligingsproblemen in de software van uw organisatie per apparaat te verkrijgen - wordt de delta export API-oproep gebruikt om alleen de wijzigingen op te halen die zijn gebeurd tussen een geselecteerde datum en de huidige datum (de delta-API-oproep). In plaats van elke keer een volledige export met een grote hoeveelheid gegevens te krijgen, krijgt u alleen specifieke informatie over nieuwe, opgeloste en bijgewerkte beveiligingslekken. Delta export API-oproep kan ook worden gebruikt om verschillende KPI's te berekenen, zoals 'hoeveel beveiligingsproblemen zijn opgelost' of 'hoeveel nieuwe beveiligingslekken zijn toegevoegd aan een organisatie'.
+
+- [Exportbeoordelingen van beveiligingslekken en veilige configuraties](get-assessment-methods-properties.md) API <br> Hiermee voegt u een verzameling API's toe die Threat and Vulnerability Management gegevens per apparaat ophalen. Er zijn verschillende API-oproepen om verschillende typen gegevens te krijgen: een veilige configuratiebeoordeling, beoordeling van de softwarevoorraad en beoordeling van softwareproblemen. Elke API-oproep bevat de vereiste gegevens voor apparaten in uw organisatie.
+
+- [Herstelactiviteit](get-remediation-methods-properties.md) API <br>  Hiermee voegt u een verzameling API's toe met antwoorden Threat and Vulnerability Management herstelactiviteiten die zijn gemaakt in uw tenant. Reactiegegevenstypen zijn één herstelactiviteit per id, alle herstelactiviteiten en blootgestelde apparaten van één herstelactiviteit.
+
 - [Apparaatdetectie](device-discovery.md) <br> Helpt u bij het vinden van niet-beheerbare apparaten die zijn verbonden met uw bedrijfsnetwerk zonder dat u extra apparaten of lastige proceswijzigingen nodig hebt. Met onboarded-apparaten kunt u onaangemande apparaten in uw netwerk vinden en beveiligingslekken en risico's beoordelen. U kunt vervolgens ontdekte apparaten aan boord nemen om de risico's te beperken die verbonden zijn aan het hebben van niet-gebouwde eindpunten in uw netwerk.
 
    > [!IMPORTANT]
    > Standaarddetectie is de standaardmodus voor alle klanten vanaf 19 juli 2021. U kunt ervoor kiezen om de basismodus te behouden via de pagina Instellingen.
 
-
 - [Definities van apparaatgroepen](/microsoft-365/security/defender-endpoint/machine-groups) kunnen nu meerdere waarden voor elke voorwaarde bevatten. U kunt meerdere tags, apparaatnamen en domeinen instellen op de definitie van één apparaatgroep.
 
 ## <a name="march-2021"></a>Maart 2021
+
 - [Beveiliging van tamper beheren met behulp van de Microsoft Defender-beveiligingscentrum](prevent-changes-to-security-settings-with-tamper-protection.md#manage-tamper-protection-for-your-organization-using-the-microsoft-defender-security-center) <br> U kunt de beveiligingsinstellingen voor Windows 10, Windows Server 2016 en Windows Server 2019 beheren met behulp van de methode *tenant attach*.
 
 ## <a name="january-2021"></a>Januari 2021
@@ -64,25 +70,27 @@ Zie Voorbeeldfuncties voor meer informatie over [voorbeeldfuncties.](preview.md)
 - [Windows Virtual Desktop](https://azure.microsoft.com/services/virtual-desktop/) <br> Microsoft Defender voor Eindpunt voegt nu ondersteuning toe voor Windows Virtual Desktop.
 
 ## <a name="december-2020"></a>December 2020
+
 - [Microsoft Defender voor Eindpunt op iOS](microsoft-defender-endpoint-ios.md) <br> Microsoft Defender voor Eindpunt voegt nu ondersteuning voor iOS toe. Meer informatie over het installeren, configureren, bijwerken en gebruiken van Microsoft Defender voor Eindpunt in iOS.
 
 ## <a name="september-2020"></a>September 2020
+
 - [Microsoft Defender voor Eindpunt op Android](microsoft-defender-endpoint-android.md) <br> Microsoft Defender voor Eindpunt voegt nu ondersteuning voor Android toe. Meer informatie over het installeren, configureren, bijwerken en gebruiken van Microsoft Defender voor Eindpunt op Android.
 - [Ondersteuning voor bedreigingen vulnerability management macOS](tvm-supported-os.md)<br> Bedreigingen en vulnerability management voor macOS zijn nu beschikbaar in een openbare preview en detecteren voortdurend beveiligingslekken op uw macOS-apparaten om u te helpen bij het bepalen van de prioriteit van herstel door u te richten op risico's. Meer informatie in dit [blogbericht van de Microsoft Tech Community.](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/microsoft-defender-for-endpoint-adds-depth-and-breadth-to-threat/ba-p/1695824)
 
-
 ## <a name="august-2020"></a>Augustus 2020
+
 - [Microsoft Defender voor Eindpunt op Android](microsoft-defender-endpoint-android.md) <br> Microsoft Defender voor Eindpunt voegt nu ondersteuning voor Android toe. Meer informatie over het installeren, configureren en gebruiken van Microsoft Defender voor Eindpunt op Android.
 
-
 ## <a name="july-2020"></a>Juli 2020
+
 - [Indicatoren voor certificaten maken](manage-indicators.md) <br> Indicatoren maken om certificaten toe te staan of te blokkeren.
 
 ## <a name="june-2020"></a>Juni 2020
+
 - [Microsoft Defender voor Eindpunt op Linux](microsoft-defender-endpoint-linux.md) <br> Microsoft Defender voor Eindpunt voegt nu ondersteuning voor Linux toe. Meer informatie over het installeren, configureren, bijwerken en gebruiken van Microsoft Defender voor Eindpunt op Linux.
 
 - [Aanvalssimulatoren in het evaluatielaboratorium](evaluation-lab.md#threat-simulator-scenarios) <br> Microsoft Defender for Endpoint werkt samen met verschillende platformen voor bedreigingssimulatie om u gemakkelijk toegang te geven om de mogelijkheden van het platform te testen vanuit de portal.
-
 
 ## <a name="april-2020"></a>April 2020
 
@@ -104,24 +112,21 @@ Zie Voorbeeldfuncties voor meer informatie over [voorbeeldfuncties.](preview.md)
 
 - [Indicatoren voor IP-adressen, URL's/domeinen](manage-indicators.md) <BR> U kunt nu URL's/domeinen toestaan of blokkeren met uw eigen bedreigingsinformatie.
 
-
 - [Microsoft Threat Experts - Experts op aanvraag](microsoft-threat-experts.md) <BR> U hebt nu de optie om te overleggen met Microsoft Threat Experts vanuit verschillende plaatsen in de portal om u te helpen in de context van uw onderzoek.
 
 - [Verbonden Azure AD-toepassingen](connected-applications.md)<br> De pagina Verbonden toepassingen bevat informatie over de Azure AD-toepassingen die zijn verbonden met Microsoft Defender voor Eindpunt in uw organisatie.
 
 - [API Explorer](api-explorer.md)<br> De API Explorer maakt het eenvoudig om API-query's te maken en uit te voeren, aanvragen te testen en te verzenden voor alle beschikbare Microsoft Defender voor Endpoint API-eindpunten.
 
-
 ## <a name="september-2019"></a>September 2019
 
-- [Instellingen voor beveiliging van tamper met Intune](prevent-changes-to-security-settings-with-tamper-protection.md)<br/>U kunt Tamper Protection nu in- of uitschakelen voor uw organisatie in de Microsoft 365 Device Management Portal (Intune).
+- [Instellingen voor beveiliging van tamper met Intune](prevent-changes-to-security-settings-with-tamper-protection.md) <br/> U kunt Tamper Protection nu in- of uitschakelen voor uw organisatie in de Microsoft 365 Device Management Portal (Intune).
 
-- [Live-antwoord](live-response.md)<BR> Krijg direct toegang tot een apparaat via een externe shell-verbinding. Doe uitgebreid onderzoek en neem direct antwoordacties om snel geïdentificeerde bedreigingen in realtime te bevatten.
+- [Live-antwoord](live-response.md) <BR> Krijg direct toegang tot een apparaat via een externe shell-verbinding. Doe uitgebreid onderzoek en neem direct antwoordacties om snel geïdentificeerde bedreigingen in realtime te bevatten.
 
 - [Evaluatielaboratorium](evaluation-lab.md) <BR> Het evaluatielaboratorium van Microsoft Defender voor eindpunt is ontworpen om de complexiteit van de configuratie van apparaten en omgevingen te elimineren, zodat u zich kunt concentreren op het evalueren van de mogelijkheden van het platform, het uitvoeren van simulaties en het zien van de preventie-, detectie- en herstelfuncties in actie.
 
 - [Windows Server 2008 R2 SP1](configure-server-endpoints.md) <BR> U kunt nu Windows Server 2008 R2 SP1.
-
 
 ## <a name="june-2019"></a>Juni 2019
 
@@ -133,29 +138,26 @@ Zie Voorbeeldfuncties voor meer informatie over [voorbeeldfuncties.](preview.md)
 
 - [Rapporten over bedreigingsbeveiliging](threat-protection-reports.md)<BR>Het rapport bedreigingsbeveiliging bevat informatie op hoog niveau over waarschuwingen die in uw organisatie worden gegenereerd.
 
-
 - [Microsoft Threat Experts](microsoft-threat-experts.md)<BR> Microsoft Threat Experts is de nieuwe service voor het zoeken naar beheerde bedreigingen in Microsoft Defender voor Eindpunt die proactieve zoekacties, prioriteitsinstellingen en aanvullende context en inzichten biedt die beveiligingscentrums (SOC's) in staat stellen om bedreigingen snel en nauwkeurig te identificeren en te beantwoorden. Het biedt extra expertise en optiek die Microsoft-klanten kunnen gebruiken om de beveiligingsfunctionele functies te verbeteren als onderdeel van Microsoft 365.
 
 - [Indicatoren](ti-indicator.md) <BR> API's voor indicatoren zijn nu algemeen beschikbaar.
 
-
 - [Interoperabiliteit](partner-applications.md) <BR> Microsoft Defender voor Eindpunt ondersteunt toepassingen van derden om de mogelijkheden voor detectie, onderzoek en bedreigingsinformatie van het platform te verbeteren.
 
-
 ## <a name="april-2019"></a>April 2019
+
 - [Microsoft Threat Experts Mogelijkheid voor melding van gerichte aanval](microsoft-threat-experts.md) <BR> Microsoft Threat Experts waarschuwingen voor gerichte aanvalsmeldingen zijn afgestemd op organisaties om zo veel mogelijk informatie te verstrekken, zodat de aandacht wordt besteed aan kritieke bedreigingen in hun netwerk, zoals de tijdlijn, het bereik van inbreuken en de methoden voor indringing.
 
 - [API voor Microsoft Defender voor Eindpunt](apis-intro.md) <BR> In Microsoft Defender voor Eindpunt worden veel van de gegevens en acties via een set programmatische API's beschikbaar. Met deze API's kunt u werkstromen automatiseren en innoveren op basis van Microsoft Defender voor endpoint-mogelijkheden.
 
-
-
 ## <a name="february-2019"></a>Februari 2019
+
 - [Incidenten](view-incidents-queue.md) <BR> Incident is een nieuwe entiteit in Microsoft Defender voor Eindpunt die alle relevante waarschuwingen en verwante entiteiten samen brengt om het bredere aanvalsverhaal te vertellen, waardoor analisten beter perspectief krijgen op het gebruik van complexe bedreigingen.
 
 - [Onboarden eerdere versies van Windows](onboard-downlevel.md)<BR> Ondersteunde versies van apparaten aan boord Windows zodat ze sensorgegevens kunnen verzenden naar de Microsoft Defender voor Eindpunt-sensor.
 
-
 ## <a name="october-2018"></a>Oktober 2018
+
 - [Regels voor het verminderen van kwetsbaarheid voor aanvallen](attack-surface-reduction.md)<BR>Alle Surface-beperkingsregels voor Aanvallen worden nu ondersteund op Windows Server 2019.
 
 - [Beheerde maptoegang](enable-controlled-folders.md)<BR> Gecontroleerde maptoegang wordt nu ondersteund op Windows Server 2019.
@@ -222,5 +224,3 @@ U kunt nu blokkeren dat niet-vertrouwde processen worden geschreven naar schijfs
 Microsoft Defender Antivirus nu de detectiestatus tussen Microsoft 365 services en interoperates met Microsoft Defender voor Eindpunt. Zie [Next-gen-technologieën](cloud-protection-microsoft-defender-antivirus.md)gebruiken in Microsoft Defender Antivirus beveiliging in de cloud voor meer informatie.
 
     Blokkeren op het eerste gezicht kan nu niet-draagbare uitvoerbare bestanden (zoals JS, VBS of macro's) en uitvoerbare bestanden blokkeren. Zie Blok op het eerste gezicht [inschakelen voor meer informatie.](configure-block-at-first-sight-microsoft-defender-antivirus.md)
-
-

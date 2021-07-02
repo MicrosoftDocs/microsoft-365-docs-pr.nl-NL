@@ -3,7 +3,7 @@ title: Gebruik Microsoft Teams met Canvas
 ms.author: v-cichur
 author: cichur
 manager: serdars
-ms.reviewer: amitman
+ms.reviewer: sovaish
 audience: admin
 ms.topic: article
 ms.service: o365-administration
@@ -13,12 +13,12 @@ ms.collection: M365-modern-desktop
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: De Microsoft Teams met Canvas integreren
-ms.openlocfilehash: 8e28cc8401dbf37d6e780b8f56dc300982abd0cc
-ms.sourcegitcommit: 410f6e1c6cf53c3d9013b89d6e0b40a050ee9cad
+ms.openlocfilehash: 50e4e8ef912a8f19f379bba29b328a5a27358b5c
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53137677"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256901"
 ---
 # <a name="use-microsoft-teams-classes-with-canvas"></a>Gebruik Microsoft Teams met Canvas
 
@@ -32,18 +32,18 @@ Microsoft Teams lessen is een Learning app Hulpmiddelen interoperabiliteit (LTI)
 Voordat u de Microsoft Teams-integratie binnen Instructure Canvas beheert, is het belangrijk dat de **Microsoft-Teams-Sync-for-Canvas Azure-app** van Canvas is goedgekeurd door de Microsoft Office 365-beheerder van uw instelling in uw Microsoft Azure-tenant voordat u de canvasbeheerderconfiguratie voltooit.
 
 1. Meld u aan bij Canvas.
- 
+
 2. Selecteer de **koppeling** Beheerder in de globale navigatie en selecteer vervolgens uw account.
 
-3. Selecteer in de navigatie van de **beheerder de Instellingen** koppeling en vervolgens op het tabblad **Integraties.** 
+3. Selecteer in de navigatie van de **beheerder de Instellingen** koppeling en vervolgens op het tabblad **Integraties.**
 
 4. Schakel Microsoft Teams synchroniseren in door de schakelknop in te schakelen.
 
    ![teams-sync](media/teams-sync.png)
 
-5. Voer uw Microsoft-tenantnaam en aanmeldingskenmerk in. 
+5. Voer uw Microsoft-tenantnaam en aanmeldingskenmerk in.
 
-   Het aanmeldingskenmerk wordt gebruikt voor het koppelen van de Canvas-gebruiker aan een Azure Active Directory gebruiker. 
+   Het aanmeldingskenmerk wordt gebruikt voor het koppelen van de Canvas-gebruiker aan een Azure Active Directory gebruiker.
 
 6. Selecteer **Bijwerken Instellingen** eenmaal klaar.
 
@@ -52,7 +52,7 @@ Voordat u de Microsoft Teams-integratie binnen Instructure Canvas beheert, is he
    ![machtigingen](media/permissions.png)
 
 8. Selecteer **Accepteren.**
- 
+
 ## <a name="canvas-admin"></a>Canvasbeheerder
 
 Stel de Microsoft Teams LTI 1.3-integratie in.
@@ -63,8 +63,8 @@ Als canvasbeheerder moet u de LTI-app Microsoft Teams in uw omgeving toevoegen. 
 
 1. Access **Admin settings**  >  **Apps**.
 
-2. Selecteer **+ App** om de Teams LTI-apps toe te voegen. 
- 
+2. Selecteer **+ App** om de Teams LTI-apps toe te voegen.
+
    ![externe apps](media/external-apps.png)
 
 3. Selecteer **Op client-id** voor configuratietype.
@@ -72,8 +72,8 @@ Als canvasbeheerder moet u de LTI-app Microsoft Teams in uw omgeving toevoegen. 
    ![app toevoegen](media/add-app.png)
 
 4. Voer de opgegeven client-id in en selecteer **Verzenden.**
-   
-   U ziet de naam van Microsoft Teams LTI-app voor de client-id ter bevestiging. 
+
+   U ziet de naam van Microsoft Teams LTI-app voor de client-id ter bevestiging.
 
 5. Kies **Installeren**.
 

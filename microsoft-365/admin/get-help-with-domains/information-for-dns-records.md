@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 77f90d4a-dc7f-4f09-8972-c1b03ea85a67
 description: Verzamel de waarden/gegevens die u nodig hebt om DNS-records te maken om uw domein te verbinden met uw Microsoft 365 abonnement.
-ms.openlocfilehash: e65d53269f5fb8625b12c4eb22f78516818045be
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: def9fbe201e158f1e071a67caeaf29ed26732f97
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635724"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256841"
 ---
 # <a name="gather-the-information-you-need-to-create-dns-records"></a>De gegevens verzamelen die u nodig hebt om DNS-records te maken
 
@@ -38,29 +38,29 @@ ms.locfileid: "52635724"
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in Microsoft 365 beheercentrum naar de pagina **Domeinen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank"></a> instellen.
+1. Ga in Microsoft 365-beheercentrum naar de pagina **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domeinen.</a>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. Ga in het beheercentrum naar de **pagina Domeinen** > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank"></a> instellen.
+1. Ga in het beheercentrum naar **Instellingen** > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">Domeinen</a>-pagina.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Ga in het beheercentrum naar de **pagina Domeinen** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank"></a> instellen.
+1. Ga in het beheercentrum naar **Instellingen** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">Domeinen</a>-pagina.
 
 ::: moniker-end
     
 2. Selecteer op **de pagina** Domeinen uw domein en selecteer vervolgens **Setup starten.** U gaat terug naar de wizard voor het instellen van domeinen voor de specifieke waarde die u moet toevoegen.
     
-3. Selecteer op **de pagina** Domein verifiëren de optie In plaats daarvan **een TXT-record toevoegen** en selecteer vervolgens **Volgende**.
+3. Selecteer op **de pagina Domeinverificatie** de optie **Een TXT-record toevoegen** aan de DNS-records van het domein en selecteer vervolgens **Doorgaan.**
     
 4. Kopieer de **weergegeven TXT-waarde.** Het ziet er zo uit: **MS=msXXXXXXXX**. 
     
-5. Ga naar DNS-records maken bij een [DNS-hostingprovider](create-dns-records-at-any-dns-hosting-provider.md)en selecteer uw DNS-host in de lijst met registrars om de stapsgewijs instructies te bekijken.
+5. Ga naar [DNS-records toevoegen om uw domein te verbinden](create-dns-records-at-any-dns-hosting-provider.md)en volg de stappen om records toe te voegen op de website van uw DNS-host.
     
 6. Volg de stappen voor het maken van de TXT-record (of MX-record) bij uw DNS-host en controleer vervolgens het domein weer in Microsoft 365.
 
@@ -70,32 +70,32 @@ ms.locfileid: "52635724"
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in Microsoft 365 beheercentrum naar de pagina **Domeinen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank"></a> instellen.
+1. Ga in Microsoft 365-beheercentrum naar de pagina **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domeinen.</a>
 
 ::: moniker-end
     
 ::: moniker range="o365-germany"
 
-1. Ga in het beheercentrum naar de **pagina Domeinen** > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank"></a> instellen.
+1. Ga in het beheercentrum naar **Instellingen** > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">Domeinen</a>-pagina.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Ga in het beheercentrum naar de **pagina Domeinen** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank"></a> instellen.
+1. Ga in het beheercentrum naar **Instellingen** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">Domeinen</a>-pagina.
 
 ::: moniker-end
     
-2. Selecteer uw domein op de pagina **Domeinen**. 
+2. Selecteer uw domein op de pagina **Domeinen**.
     
-3. Onder **Vereiste DNS-instellingen** ziet u de DNS-records die u moet toevoegen.
+3. Kies **Manage DNS**, select More Options **Add** your own  >  **DNS** and select **Continue** to see the DNS records to add.
     
     Deze informatie hebt u nodig bij het aanbrengen van wijzigingen bij uw DNS-host, dus het is handig om de waarden te kopiëren en plakken.
     
     Welke groepen DNS-records op de pagina worden weergegeven, hangt af van uw keuzen die worden weergegeven onder **Domeindoel**.
     
-4. Ga naar DNS-records maken bij een [DNS-hostingprovider](create-dns-records-at-any-dns-hosting-provider.md)en selecteer vervolgens uw DNS-host in de lijst met registrars om stapsgewijs instructies te zien voor het toevoegen van records op de website van die DNS-host.
-    
+4. Ga naar [DNS-records toevoegen om uw domein te verbinden](create-dns-records-at-any-dns-hosting-provider.md)en volg de stappen om records toe te voegen op de website van uw DNS-host.
+
 5. Volg de stappen voor het maken van de records bij uw DNS-host.
 
 ## <a name="related-content"></a>Verwante inhoud

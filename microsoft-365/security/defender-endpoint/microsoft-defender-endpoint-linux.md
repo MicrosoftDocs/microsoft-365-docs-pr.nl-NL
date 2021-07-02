@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 4175d3bedff86dc7f8cdafc1ff2366ca1c9cffc4
-ms.sourcegitcommit: d0c160e89e17f451199bc4a85699effd2d935213
+ms.openlocfilehash: 008263bfb948d1a2c52031635d074aca323e6764
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52893738"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256889"
 ---
 # <a name="microsoft-defender-for-endpoint-on-linux"></a>Microsoft Defender voor Eindpunt op Linux
 
@@ -34,7 +34,7 @@ ms.locfileid: "52893738"
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 In dit onderwerp wordt beschreven hoe u Microsoft Defender voor Eindpunt op Linux kunt installeren, configureren, bijwerken en gebruiken.
 
@@ -70,7 +70,8 @@ Over het algemeen moet u de volgende stappen ondernemen:
   - Beheerhulpmiddelen van derden:
     - [Implementeren met behulp van Het configuratiebeheerprogramma van De pop-over](linux-install-with-puppet.md)
     - [Implementeren met behulp van het hulpprogramma voor configuratiebeheer van Ansible](linux-install-with-ansible.md)
-
+    - [Implementeren met het configuratiebeheerprogramma van Chef](linux-deploy-defender-for-endpoint-with-chef.md)
+    
 Als er installatiefouten optreden, raadpleegt u [Installatiefouten oplossen in Microsoft Defender voor Eindpunt op Linux.](linux-support-install.md)
 
 
@@ -137,7 +138,7 @@ Nadat u de service hebt ingeschakeld, moet u mogelijk uw netwerk of firewall con
 
 In de volgende downloadbare spreadsheet vindt u de services en bijbehorende URL's waar uw netwerk verbinding mee moet kunnen maken. U moet ervoor zorgen dat er geen firewall- of netwerkfilterregels zijn die de toegang tot deze URL's weigeren. Als dat zo is, moet u mogelijk een *regel* voor toestaan speciaal voor hen maken.
 
-| Spreadsheet met domeinenlijst | Beschrijving |
+| Spreadsheet met domeinenlijst | Omschrijving |
 |:-----|:-----|
 |![Thumb image for Microsoft Defender for Endpoint URLLs spreadsheet](images/mdatp-urls.png)<br/>  | Spreadsheet met specifieke DNS-records voor servicelocaties, geografische locaties en besturingssysteem. <br><br>[Download de spreadsheet hier.](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx)
 
@@ -165,6 +166,6 @@ Microsoft publiceert regelmatig software-updates om de prestaties, beveiliging e
 
 Richtlijnen voor het configureren van het product in bedrijfsomgevingen zijn beschikbaar in [Set preferences for Microsoft Defender for Endpoint on Linux](linux-preferences.md).
 
-## <a name="resources"></a>Resources
+## <a name="resources"></a>Middelen
 
 - Zie Resources voor meer informatie over logboekregistratie, verwijderen of andere [onderwerpen.](linux-resources.md)

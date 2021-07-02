@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Informatie over het maken, wijzigen, verwijderen en testen van aangepaste gevoelige informatietypen voor DLP in het Beveiligings- & Compliancecentrum.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 451b5b222b06ba1ec9770a5e49cc66c5c0f68719
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: e067bc502267e918bd355d9bf8a1982795255846
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227149"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256721"
 ---
 # <a name="get-started-with-custom-sensitive-information-types"></a>Aan de slag met aangepaste typen vertrouwelijke informatie
 
@@ -182,10 +182,16 @@ Hier zijn de definities en enkele voorbeelden voor de beschikbare extra controle
 
 
 > [!NOTE]
-> Microsoft 365 Information Protection ondersteunt talen voor preview van dubbel-byte-tekensets voor:
+> Microsoft 365 Information Protection ondersteunt dubbele bytetekensettalen voor:
 > - Vereenvoudigd Chinees
 > - Traditioneel Chinees
 > - Koreaks
 > - Japans
 >
 >Deze ondersteuning is beschikbaar voor typen gevoelige informatie. Zie [Ondersteuning voor Information Protection voor releaseopmerkingen bij dubbel-bytetekensets (preview)](mip-dbcs-relnotes.md) voor meer informatie.
+
+> [!TIP]
+> Als u patronen wilt detecteren die Chinese/Japanse tekens en enkele bytetekens bevatten of om patronen te detecteren die Chinees/Japans en Engels bevatten, definieert u twee varianten van het trefwoord of regex. Gebruik bijvoorbeeld twee varianten van het trefwoord om een trefwoord zoals '机密een document' te detecteren. een met een spatie tussen de Japanse en Engelse tekst en een andere zonder spatie tussen de Japanse en Engelse tekst. De trefwoorden die in de SIT moeten worden toegevoegd, moeten dus '机密seen document' en '机密sedocument' zijn. Als u een woordgroep '東京オンンピンク2020' wilt detecteren, moeten twee varianten worden gebruikt. "東京オンンピンク 2020" en "東京オンンピンク2020".
+> Terwijl u een regex maakt met een afbreekstreester of een dubbele byteperiode, moet u beide tekens ontsnapen, zoals een afbreekstreester of punt in een regex. Hier is een voorbeeld regex voor verwijzing:
+    - (?<!\d) ([4][0-9] {3} [ \- ?\-\t]*[0-9]{4}
+> U wordt aangeraden een tekenreeks te gebruiken in plaats van een woordmatch in een lijst met trefwoorden.

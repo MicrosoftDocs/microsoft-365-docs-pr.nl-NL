@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Beheerders kunnen een verbindingslijn instellen voor het importeren en archiveren van RingCentral-gegevens van Veritas naar Microsoft 365. Met deze connector kunt u gegevens van externe gegevensbronnen archiveren in Microsoft 365. Nadat u deze gegevens hebt gearchiveerd, kunt u compliancefuncties zoals juridische bewaring, eDiscovery en bewaarbeleid gebruiken om gegevens van derden te beheren.
-ms.openlocfilehash: 57c993ce99556677c0161649254b5ab43caace0e
-ms.sourcegitcommit: 5d3086da935d4ddc8caf79ff19e3afda812fd061
+ms.openlocfilehash: b5e98df50b0610c9fb583a8521c7a6d6fdb48e44
+ms.sourcegitcommit: 8c6a5db0dab99a82a69dd8a0a7c56af1cb825931
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "53244000"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53276855"
 ---
-# <a name="set-up-a-connector-to-archive-ringcentral-data"></a>Een verbindingslijn instellen voor het archiveren van RingCentral-gegevens
+# <a name="set-up-a-connector-to-archive-ringcentral-data-preview"></a>Een verbindingslijn instellen voor het archiveren van RingCentral-gegevens (voorbeeld)
 
 Gebruik een Veritas-connector in de Microsoft 365-compliancecentrum om gegevens van het RingCentral-platform te importeren en te archiveren naar postvakken van gebruikers in uw Microsoft 365 organisatie. Veritas biedt een [RingCentral-connector](https://www.veritas.com/insights/merge1/ringcentral) die is geconfigureerd om items uit de gegevensbron van derden vast te leggen en deze items te importeren in Microsoft 365. De connector converteert inhoud zoals chats, bijlagen, taken, notities en berichten van RingCentral naar een e-mailberichtindeling en importeert deze items vervolgens in de postvakken van de gebruiker in Microsoft 365.
 
