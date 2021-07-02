@@ -13,12 +13,12 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Priority
 description: Microsoft 365 helpt energiebedrijven bij de overstap naar een modern samenwerkingsplatform, waarbij gegevens en systemen beveiligd blijven conform de regelgeving.
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 086cc176190549f2ec8e49ea992744059c5d9005
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: efc9476d2c766aab325977dfe717290ff6c8fb8d
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50916116"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229321"
 ---
 # <a name="key-compliance-and-security-considerations-for-the-energy-industry"></a>Belangrijkste overwegingen op het gebied van compliance en beveiliging voor de energiesector
 ![De illustratie is een metafoor voor een wereldwijd perspectief van diverse industrieën die de cloud gebruiken](../media/solution-arch-center/MSC17_global_016.png)
@@ -38,7 +38,7 @@ Regelgevende normen die worden aanbevolen voor overweging door de energiesector 
 - Azure en Azure Government hebben elk een FedRAMP High P-ATO (Provisional Authorization to Operate) gekregen, wat het hoogste niveau van FedRAMP-autorisatie vertegenwoordigt. 
 
 Zie de volgende bronnen voor informatie over Microsoft-cloudservices en FedRAMP:
-- [Overzicht van Microsoft FedRAMP](/compliance/regulatory/offering-FedRAMP?view=o365-worldwide)
+- [Overzicht van Microsoft FedRAMP](/compliance/regulatory/offering-FedRAMP)
 - [Office 365 FedRAMP-rapporten](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_FedRAMP_Reports)
 
 
@@ -90,7 +90,7 @@ Het **naamgevingsbeleid voor Office 365-groepen** zorgt ervoor dat Office 365 Gr
 - De proliferatie van Microsoft Teams die niet nodig zijn of worden gebruikt
 - Het overmatig bewaren van gegevens die de organisatie niet meer nodig heeft
 
-Beheerders kunnen een verloopperiode opgeven voor Office 365 Groepen, bijvoorbeeld 90, 180 of 365 dagen. Als een service die wordt ondersteund door een Office 365-groep inactief is voor de verloopperiode, worden de groepseigenaren geïnformeerd en als er geen actie wordt ondernomen, worden de Office 365-groep en alle bijbehorende services, waaronder Microsoft Teams, verwijderd. 
+Beheerders kunnen een verloopperiode opgeven in dagen voor Office 365 Groepen, zoals 90, 180 of 365 dagen. Als een service die wordt ondersteund door een Office 365 Groep gedurende de verloopperiode inactief is, worden groepseigenaren op de hoogte gesteld. Als er geen actie wordt ondernomen, worden de Office 365-groep en alle gerelateerde services, waaronder Microsoft Teams, verwijderd. 
 
 Het overmatig bewaren van gegevens in een Microsoft-team kan procesrisico's met zich meebrengen. Het gebruik van vervalbeleid is de aanbevolen methode om de organisatie te beschermen. In combinatie met ingebouwde bewaarlabels en -beleid helpt Microsoft 365 ervoor te zorgen dat organisaties alleen de gegevens bewaren die nodig zijn om te voldoen aan het bedrijfsbeleid en wettelijke complianceverplichtingen.
 
@@ -161,7 +161,7 @@ Het implementeren van MIP-en DLP-beleid voor organisaties vergt een zorgvuldige 
 ## <a name="govern-data-by-effectively-managing-records"></a>Gegevens beheren door records effectief te beheren
 Regelgeving vereist dat veel organisaties de bewaring van belangrijke organisatiedocumenten beheren volgens een beheerd retentieschema voor bedrijven. Organisaties lopen risico's op het gebied van naleving van de regelgeving als gegevens te vroeg worden verwijderd of juridische risico's als gegevens te lang worden bewaard. Effectieve strategieën voor archiefbeheer helpen ervoor te zorgen dat organisatiedocumenten worden bewaard volgens vooraf vastgestelde bewaartermijnen die zijn ontworpen om het risico voor de organisatie te minimaliseren. Bewaartermijnen worden voorgeschreven in een centraal beheerd schema voor het bewaren van records, en ze zijn gebaseerd op de aard van elk type document, op wettelijke vereisten voor het bewaren van specifieke soorten gegevens en op het gedefinieerde beleid van de organisatie. 
 
-Het nauwkeurig toewijzen van bewaarperioden aan organisatiedocumenten kan een gedetailleerd proces vereisen dat bewaarperioden op unieke wijze toewijst aan individuele documenten. Het grote aantal documenten binnen organisaties in de energiesector, in combinatie met het feit dat bewaartermijnen in veel gevallen kunnen worden beïnvloed door organisatorische gebeurtenissen (zoals het aflopen van contracten of het verlaten van een medewerker van de organisatie), maken het toepassen van beleid voor het bewaren van archieven voor veel organisaties tot een uitdaging.
+Het nauwkeurig toewijzen van bewaarperioden aan organisatiedocumenten kan een gedetailleerd proces vereisen dat bewaarperioden op unieke wijze toewijst aan individuele documenten. Het grote aantal documenten binnen organisaties in de energiesector, in combinatie met het feit dat in veel gevallen bewaarperioden kunnen worden geactiveerd door organisatiegebeurtenissen (zoals contracten die verlopen of een werknemer die de organisatie verlaat), maken het toepassen van bewaarbeleid voor records op schaal voor veel organisaties lastig.
 
 Microsoft 365 biedt functionaliteit voor het definiëren van retentielabels en bewaarbeleid om de vereisten voor recordbeheer eenvoudig te implementeren. Een recordmanager definieert een retentielabel, dat een 'recordtype' aanduidt in een traditioneel bewaarschema. Het retentielabel bevat instellingen waarmee deze details worden gedefinieerd:
 - Hoelang een record wordt bewaard
@@ -192,7 +192,7 @@ Met toezichtsbeleid van Microsoft 365 kunnen organisaties de communicatie contro
 ### <a name="communication-compliance"></a>Communicatie-compliance
 Met veel communicatiekanalen die beschikbaar zijn voor werknemers, hebben organisaties steeds meer behoefte aan effectieve oplossingen voor het bewaken van of toezien op communicatie in gereguleerde industrieën zoals energiehandelsmarkten. De onlangs gelanceerde Communication Compliance-oplossing die in Microsoft 365 is ingebouwd, helpt organisaties bij het overwinnen van veelvoorkomende uitdagingen, zoals het toenemende aantal communicatiekanalen en het berichtenvolume, evenals het risico van mogelijke boetes voor beleidsschendingen.
 
-Met Communication Compliance kunt u meerdere communicatiekanalen bewaken en modellen voor machinelearning gebruiken om mogelijke schendingen van het beleid te identificeren, waaronder Office 365-e-mail, Microsoft Teams, Skype voor Bedrijven Online, Facebook, Twitter en instant-berichten van Bloomberg. Communication Compliance helpt compliance-teams berichten effectief en efficiënt te beoordelen op mogelijke schendingen van:
+Met Communicatiecompliance kunt u meerdere communicatiekanalen bewaken en modellen voor machinelearning gebruiken om mogelijke schendingen van het beleid te identificeren, waaronder Office 365-e-mail, Microsoft Teams, Skype voor Bedrijven Online, Facebook, Twitter en instant-berichten van Bloomberg. Communicatiecompliance helpt compliance-teams berichten effectief en efficiënt te beoordelen op mogelijke schendingen van:
 - Bedrijfsbeleid, zoals acceptabel gebruik, ethische normen en bedrijfsspecifiek beleid 
 - Gevoeligheid of gevoelige zakelijke onthullingen, zoals ongeoorloofde communicatie over gevoelige projecten zoals aanstaande acquisities, fusies, financiële openbaarmakingen, reorganisaties of veranderingen in het leiderschapsteam
 - Vereisten voor naleving van regelgeving, zoals mededelingen van werknemers over de soorten bedrijven of transacties, waarbij een organisatie zich bezighoudt met naleving van de FERC-voorschriften voor energiemarkten

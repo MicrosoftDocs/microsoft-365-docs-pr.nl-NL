@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-may2020
 - seo-marvel-jun2020
 description: Meestal kunt u in een oplossing voor recordbeheer een retentielabel configureren om de retentieperiode te starten op basis van een gebeurtenis die u identificeert.
-ms.openlocfilehash: ee828b6852440f5be07fdf34df2fb6a11253ae1c
-ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
+ms.openlocfilehash: 83f1be417b706fdb66b1df71ba351ce16d5ad485
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "52162269"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226621"
 ---
 # <a name="start-retention-when-an-event-occurs"></a>Retentie starten als zich een gebeurtenis voordoet
 
@@ -41,7 +41,7 @@ Voorbeelden voor het gebruik van retentiebeleid op basis van gebeurtenissen:
     
 - **Levensduur van product** Uw organisatie heeft mogelijk bewaarvereisten met betrekking tot de laatste productiedatum van producten voor bijvoorbeeld technische specificaties. In dit geval is de laatste productiedatum de gebeurtenis die de bewaarperiode activeert. 
     
-Retentiebeleid op basis van gebeurtenissen wordt meestal gebruikt als onderdeel van een proces voor recordbeheer. Dit betekent:
+Retentie op basis van gebeurtenissen wordt doorgaans gebruikt als onderdeel van een recordbeheerproces. Dit betekent dat:
   
 - Retentielabels op basis van gebeurtenissen markeren items meestal ook als een record als onderdeel van een oplossing voor recordbeheer. Zie [Meer informatie over recordbeheer](records-management.md) voor meer informatie.
 
@@ -60,7 +60,7 @@ Om met succes retentie op basis van gebeurtenissen te gebruiken, is het belangri
   
 ![Diagram 2 van 2: Gebeurtenistype, labels, gebeurtenissen en asset-id’s](../media/ce89a91f-49aa-4b5a-933c-ac3a13dccd5d.png)
   
-1. U maakt retentielabels voor verschillende inhoudstypen en koppelt deze vervolgens aan een type gebeurtenis. Retentielabels voor verschillende typen productbestanden en records zijn bijvoorbeeld gekoppeld aan een gebeurtenistype genaamd Productlevensduur, omdat deze records tien jaar moeten worden bewaard vanaf het moment dat het einde van de levensduur van het product is bereikt.
+1. U maakt retentielabels voor verschillende typen inhoud en koppelt deze vervolgens aan een type gebeurtenis. Retentielabels voor verschillende typen productbestanden en -records zijn bijvoorbeeld gekoppeld aan een gebeurtenistype met de naam Productlevensduur, omdat deze records tien jaar moeten worden bewaard vanaf het moment dat het product het einde van de levensduur bereikt.
     
 2. Gebruikers (meestal recordbeheerders) passen deze labels toe op inhoud en (voor documenten in SharePoint en OneDrive) voeren een asset-id in voor elk item. In dit voorbeeld is de asset-id een productnaam of code die door de organisatie wordt gebruikt. Vervolgens wordt aan de records van elk product een retentielabel toegewezen. Ook heeft elke record een eigenschap die een asset-id bevat. Het diagram toont **alle inhoud** voor alle productrecords in een organisatie. Elk item bevat de asset-id van het product waarvan het record is. 
     
@@ -68,7 +68,7 @@ Om met succes retentie op basis van gebeurtenissen te gebruiken, is het belangri
     
    - Een asset-id (voor SharePoint- en OneDrive-documenten)
     
-   - Trefwoorden (voor Exchange-items). In dit voorbeeld gebruikt de organisatie een productcode in berichten die productrecords bevatten. Het trefwoord voor Exchange-items is dus functioneel hetzelfde als de asset-id voor SharePoint- en OneDrive-documenten.
+   - Trefwoorden (voor Exchange-items). In dit voorbeeld gebruikt de organisatie een productcode in berichten met productrecords, zodat het trefwoord voor Exchange-items functioneel hetzelfde is als de asset-id voor SharePoint- en OneDrive-documenten.
     
    - De datum waarop de gebeurtenis heeft plaatsgevonden. Deze datum wordt gebruikt als het begin van de bewaarperiode. Deze datum kan de huidige datum of een datum in het verleden of de toekomst zijn.
 
@@ -76,7 +76,7 @@ Om met succes retentie op basis van gebeurtenissen te gebruiken, is het belangri
 
 Het is belangrijk om te weten dat **alle inhoud** met een retentielabel van dat gebeurtenistype de retentieperiode heeft die door de gebeurtenis wordt geactiveerd als u geen asset-id of trefwoorden opgeeft voor een gebeurtenis. Dit betekent dat alle inhoud in het vorige diagram behouden zou blijven. Dit is mogelijk niet wat u wilt.
 
-Denk er ten slotte aan dat elk retentielabel eigen bewaarinstellingen heeft. In dit voorbeeld zijn ze allemaal ingesteld op tien jaar, maar het is mogelijk dat een gebeurtenis retentielabels activeert wanneer elk etiket een andere retentieperiode heeft.
+Denk er ten slotte aan dat elk retentielabel eigen bewaarinstellingen heeft. In dit voorbeeld zijn ze allemaal ingesteld op tien jaar, maar het is mogelijk dat een gebeurtenis retentielabels activeert wanneer elk label een andere bewaarperiode heeft.
   
 ## <a name="how-to-set-up-event-driven-retention"></a>Retentiebeleid op basis van een gebeurtenis instellen
 
@@ -153,16 +153,18 @@ Wanneer u de gebeurtenis maakt, kiest u hetzelfde gebeurtenistype dat is opgegev
 
 Selecteer de optie **Bestaande labels kiezen** als u een gebeurtenis wilt maken voor meerdere bewaarlabels met verschillende typen gebeurtenissen. Selecteer vervolgens de labels die zijn geconfigureerd voor de gebeurtenistypen die u aan deze gebeurtenis wilt koppelen.
 
-### <a name="step-7-enter-keywords-or-an-asset-id"></a>Stap 7: voer trefwoorden of een activa-id in
+### <a name="step-7-enter-keywords-or-query-for-exchange-asset-id-for-sharepoint-and-onedrive"></a>Stap 7: voer trefwoorden of query's in voor Exchange, asset-id voor SharePoint en OneDrive
 
-Beperk nu het bereik van de inhoud door activa-id’s voor SharePoint- en OneDrive-inhoud of trefwoorden voor Exchange-inhoud op te geven. Retentie van asset-id’s wordt alleen afgedwongen voor inhoud met de opgegeven *eigenschap:waarde*-combinatie. Als u geen asset-id hebt ingevoerd, wordt op alle inhoud met labels van dat gebeurtenistype dezelfde bewaardatum toegepast.
+Nu beperkt u het bereik van de inhoud. Voor Exchange-inhoud doet u dit door trefwoorden of een query op te geven. Voor SharePoint- en OneDrive-inhoud doet u dit door asset-id's op te geven.
 
-Bijvoorbeeld: Als u de eigenschap activa-id gebruikt, typt u `ComplianceAssetID:<value>` in het vak voor activa-id's die hieronder worden weergegeven.
-  
+Gebruik voor Exchange-items trefwoorden of een query die gebruikmaakt van Keyword Query Language (KQL). Zie [Naslaginformatie over de syntaxis van KQL (Keyword Query Language)](/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference) voor meer informatie over de syntaxis van de query. Zie [Trefwoordquery's en zoekvoorwaarden voor Inhoud zoeken](keyword-queries-and-search-conditions.md)voor meer informatie over de doorzoekbare eigenschappen die u voor Exchange kunt gebruiken.
+
+Retentie van asset-id’s wordt alleen afgedwongen voor inhoud met de opgegeven *eigenschap:waarde*-combinatie. Als u bijvoorbeeld de eigenschap activa-id gebruikt, typt u `ComplianceAssetID:<value>` in het vak voor activa-id's die in de volgende afbeelding worden weergegeven.
+
+Als u geen asset-id hebt ingevoerd, wordt op alle inhoud met labels van dat gebeurtenistype dezelfde bewaardatum toegepast.
+
 Uw organisatie heeft mogelijk andere eigenschappen en id’s toegepast op de documenten die zijn gerelateerd aan dit gebeurtenistype. Als u bijvoorbeeld de records van een specifiek product moet detecteren, kan de id een combinatie zijn van uw aangepaste eigenschap ProductID en de waarde 'XYZ'. In dit geval voert u `ProductID:XYZ` in het vak voor asset-id's (zie de volgende afbeelding).
-  
-Gebruik trefwoorden voor Exchange-items. U kunt een query gebruiken met behulp van zoekoperatoren zoals AND, OR en NOT. Zie [Trefwoordquery's en zoekvoorwaarden voor Inhoud zoeken](keyword-queries-and-search-conditions.md) voor meer informatie.
-  
+
 Kies ten slotte de datum waarop de gebeurtenis heeft plaatsgevonden; deze datum wordt gebruikt als het begin van de retentieperiode. Nadat u een gebeurtenis hebt gemaakt, wordt die datum gesynchroniseerd met alle inhoud met een retentielabel van dat gebeurtenistype, die asset-id en die trefwoorden. Net als bij elk retentielabel kan deze synchronisatie maximaal zeven dagen duren.
   
 ![Pagina Gebeurtenisinstellingen](../media/40d3c9db-f624-49a5-b38a-d16bcce20231.png)
@@ -280,7 +282,7 @@ Voorbeeldcode voor het aanroepen van de REST-API:
 |Parameters|Omschrijving|Opmerkingen|
 |--- |--- |--- |
 |<d:Name></d:Name>|Geef een unieke naam op voor de gebeurtenis,|Kan geen volgspaties of de volgende tekens bevatten: % * \ & < \> \| # ? , : ;|
-|<d:EventType></d:EventType>|Voer de naam (of Guid) van het gebeurtenistype in,|Voorbeeld: 'Beëindiging van dienstverband'. Het type gebeurtenis moet zijn gekoppeld aan een retentielabel.|
+|<d:EventType></d:EventType>|Voer de naam (of Guid) van het gebeurtenistype in,|Voorbeeld: 'Ontslag van een werknemer'. Het type gebeurtenis moet zijn gekoppeld aan een retentielabel.|
 |<d:SharePointAssetIdQuery></d:SharePointAssetIdQuery>|Voer 'ComplianceAssetId:' + werknemer-id in|Voorbeeld: 'ComplianceAssetId:12345'|
 |<d:EventDateTime></d:EventDateTime>|Datum en tijd van gebeurtenis|Notatie: yyyy-MM-ddTHH:mm:ssZ, voorbeeld: 2018-12-01T00:00:00Z
 |

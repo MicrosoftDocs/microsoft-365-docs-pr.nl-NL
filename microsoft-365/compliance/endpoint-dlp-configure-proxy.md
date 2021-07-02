@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Apparaat-proxy en instellingen voor internetverbinding voor Endpoint DLP configureren.
-ms.openlocfilehash: f2a62b5c7913b6f41c414310a97ab5f072f59642
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 801f3cf4f2215002fb80f7c4d68c2f5b83f5d04d
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538613"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226705"
 ---
 # <a name="configure-device-proxy-and-internet-connection-settings-for-endpoint-dlp"></a>Apparaat-proxy en instellingen voor internetverbinding voor Endpoint DLP configureren.
 
@@ -42,8 +42,8 @@ De configuratie-instelling WinHTTP is onafhankelijk van de internetbrowserproxy-
 > Als u transparante proxy of WPAD gebruikt in uw netwerktopologie, hebt u geen speciale configuratie-instellingen nodig. Zie [Enable access to Endpoint DLP cloud service URLLs in the proxy server](#enable-access-to-endpoint-dlp-cloud-service-urls-in-the-proxy-server)(Toegang tot URL's van DLP-cloudservice voor eindpunten in de proxyserver inschakelen) voor meer informatie over uitsluitingen van URL's van Defender voor eindpunten in de proxyserver.
 
 - Hnadmatige statische proxyconfiguratie
-    - Configuratie op basis van register
-    - WinHTTP geconfigureerd met de Netsh-opdracht– Alleen geschikt voor desktops in een stabiele topologie (bijvoorbeeld: een bureaublad in een bedrijfsnetwerk achter dezelfde proxy)
+  - Configuratie op basis van register
+  - WinHTTP geconfigureerd met de Netsh-opdracht– Alleen geschikt voor desktops in een stabiele topologie (bijvoorbeeld: een bureaublad in een bedrijfsnetwerk achter dezelfde proxy)
 
 ## <a name="configure-the-proxy-server-manually-using-a-registry-based-static-proxy"></a>De proxyserver handmatig configureren met een statische proxy op basis van het register
 
@@ -53,21 +53,21 @@ De statische proxy kan worden geconfigureerd via Group Policy (GP). U vindt het 
 
 1. Open **Veheersjablonen > Windows Components > Gegevensverzameling en Voorbeeldversies > Geverifieerd proxygebruik configureren voor de verbonden gebruikerservaring en telemetrieservice**
 
-2. Stel deze in op **ingeschakelde** selecteer **Het gebruik van geverifieerde proxy uitschakelen**: 
+2. Stel deze in op **ingeschakelde** selecteer **Het gebruik van geverifieerde proxy uitschakelen**:
 
-![Afbeelding van groepsbeleidsinstellingen 1](../media/atp-gpo-proxy1.png)
- 
+   ![Afbeelding van groepsbeleidsinstellingen 1](../media/atp-gpo-proxy1.png)
+
 3. Open **Veheersjablonen > Windows Components > Gegevensverzameling en Voorbeeldversies > Verbonden gebruikerservaringen en telemetrie configureren**:
 
- De peoxy configureren
+   De peoxy configureren
 
-![Afbeelding van groepsbeleidsinstellingen 2](../media/atp-gpo-proxy2.png)
+   ![Afbeelding van groepsbeleidsinstellingen 2](../media/atp-gpo-proxy2.png)
 
-Met het beleid worden twee registerwaarden `TelemetryProxyServer` als REG_SZ ingesteld en wordt `DisableEnterpriseAuthProxy` als REG_DWORD ingesteld onder de registersleutel `HKLM\Software\Policies\Microsoft\Windows\DataCollection`.
+   Met het beleid worden twee registerwaarden `TelemetryProxyServer` als REG_SZ ingesteld en wordt `DisableEnterpriseAuthProxy` als REG_DWORD ingesteld onder de registersleutel `HKLM\Software\Policies\Microsoft\Windows\DataCollection`.
 
-De registerwaarde TelemetryProxyServer heeft deze indeling \<server name or ip\>:\<port\>. Bijvoorbeeld: **10.0.0.6:8080**
+   De registerwaarde TelemetryProxyServer heeft deze indeling \<server name or ip\>:\<port\>. Bijvoorbeeld: **10.0.0.6:8080**
 
-De registerwaarde `DisableEnterpriseAuthProxy` moet worden ingesteld op 1.
+   De registerwaarde `DisableEnterpriseAuthProxy` moet worden ingesteld op 1.
 
 ## <a name="configure-the-proxy-server-manually-using-netsh-command"></a>De proxyserver handmatig configureren met de opdracht 'Netsh'
 
@@ -78,19 +78,19 @@ Gebruik netsh om een statische proxy voor het hele systeem te configureren.
 
 1. Open een opdrachtpromptregel met verhoogde bevoegdheid.
     1. Go to **Start** and type **cmd**
-    1. Klik met de rechtermuisknop op **Opdrachtprompt** en selecteer **Als beheerder uitvoeren**.
-2.  Voer de volgende opdracht in en druk op **Enter**:
+    2. Klik met de rechtermuisknop op **Opdrachtprompt** en selecteer **Als beheerder uitvoeren**.
 
-    `netsh winhttp set proxy <proxy>:<port>`
+2. Voer de volgende opdracht in en druk op **Enter**:
 
-    Bijvoorbeeld: **netsh winhttp set proxy 10.0.0.6:8080**
+   `netsh winhttp set proxy <proxy>:<port>`
+
+   Bijvoorbeeld: **netsh winhttp set proxy 10.0.0.6:8080**
 
 3. Voer de volgende opdracht in en druk op **Enter** om de winhttp proxy opnieuw in te stellen:
 
-     `netsh winhttp reset proxy`
+   `netsh winhttp reset proxy`
 
 Zie [Syntaxis, contexten en opmaak van Netsh](/windows-server/networking/technologies/netsh/netsh-contexts) meer informatie.
-
 
 ## <a name="enable-access-to-endpoint-dlp-cloud-service-urls-in-the-proxy-server"></a>Toegang tot URL's van de DLP-cloudservice voor eindpunten inschakelen op de proxyserver
 
@@ -110,41 +110,47 @@ Controleer of de proxyconfiguratie is voltooid, of WinHTTP de proxyserver in uw 
 3. Open een opdrachtpromptregel met verhoogde bevoegdheid:
     1. Go to **Start** and type **cmd**.
     1. Klik met de rechtermuisknop op **Opdrachtprompt** en selecteer **Als beheerder uitvoeren**.
-4.  Voer de volgende opdracht in en druk op **Enter**:
-    
-`HardDrivePath\MDATPClientAnalyzer.cmd`
+4. Voer de volgende opdracht in en druk op **Enter**:
 
-Vervang *HardDrivePath* door het pad waar bijvoorbeeld het hulpprogramma MDATPClientAnalyzer is gedownload
-    
-**C:\Work\tools\MDATPClientAnalyzer\MDATPClientAnalyzer.cmd**
+   `HardDrivePath\MDATPClientAnalyzer.cmd`
 
+   Vervang *HardDrivePath* door het pad waar bijvoorbeeld het hulpprogramma MDATPClientAnalyzer is gedownload
 
-5.  Pak het bestand **MDATPClientAnalyzerResult.zip** dat is aangemaakt door de tool in de map die gebruikt wordt in de _HardDrivePath*.
+   **C:\Work\tools\MDATPClientAnalyzer\MDATPClientAnalyzer.cmd**
 
-6.  Open **MDATPClientAnalyzerResult.txt** en controleer of u de configuratiestappen voor de proxy hebt uitgevoerd om serverdetectie en toegang tot de service-URL's in te stellen.  Het hulpprogramma controleert de verbindingen van URL's van Defender voor Endpoint-service die voor Defender voor Endpoint-client zijn geconfigureerd voor interactie. Vervolgens worden de resultaten afgedrukt in het bestand **MDATPClientAnalyzerResult.txt** voor elke URL die mogelijk kan worden gebruikt voor communicatie met Defender voor Endpoint-services. Bijvoorbeeld:
+5. Pak het bestand **MDATPClientAnalyzerResult.zip** dat is aangemaakt door de tool in de map die gebruikt wordt in de _HardDrivePath*.
 
-    **Test-URL: https://xxx.microsoft.com/xxx </br> 1 - standaardproxy: Geslaagd (200) </br> 2 - Proxy Auto Discovery (WPAD): Geslaagd (200)</br> 3 - Proxy uitgeschakeld: Geslaagd (200)</br> 4 - Benoemde proxy: bestaat niet</br> 5 - Opdrachtregelproxy: bestaat niet**</br>
+6. Open **MDATPClientAnalyzerResult.txt** en controleer of u de configuratiestappen voor de proxy hebt uitgevoerd om serverdetectie en toegang tot de service-URL's in te stellen.  Het hulpprogramma controleert de verbindingen van URL's van Defender voor Endpoint-service die voor Defender voor Endpoint-client zijn geconfigureerd voor interactie. Vervolgens worden de resultaten afgedrukt in het bestand **MDATPClientAnalyzerResult.txt** voor elke URL die mogelijk kan worden gebruikt voor communicatie met Defender voor Endpoint-services. Bijvoorbeeld:
 
+   ```DOS
+   Testing URL: https://xxx.microsoft.com/xxx
+   1 - Default proxy: Succeeded (200)
+   2 - Proxy auto discovery (WPAD): Succeeded (200)
+   3 - Proxy disabled: Succeeded (200)
+   4 - Named proxy: Doesn't exist
+   5 - Command-line proxy: Doesn't exist
+   ```
 
-Als minimaal één van de connectiviteitsopties een status (200) retourneert, kan de Defender voor Endpoint-client met deze connectiviteitsmethode correct communiceren met de geteste URL. 
+Als minimaal één van de connectiviteitsopties een status (200) retourneert, kan de Defender voor Endpoint-client met deze connectiviteitsmethode correct communiceren met de geteste URL.
 
 Als de resultaten van de connectiviteitscontrole echter aangeven dat er een fout is, wordt een HTTP-fout weergegeven (zie HTTP-statuscodes). Vervolgens kunt u de URL's gebruiken in de tabel die wordt weergegeven in [Toegang tot URL's van de service voor DLP-cloudservices voor eindpunten inschakelen in de proxyserver](#enable-access-to-endpoint-dlp-cloud-service-urls-in-the-proxy-server). De URL's die u gebruikt, zijn afhankelijk van de regio die is geselecteerd tijdens de onboardingprocedure.
-[!NOTE] Het hulpprogramma Connectivity Analyzer is niet compatibel met ASR-regel [Creaties van proces afkomstig van de PSExec- en WMI-opdrachten blokkeren](/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction#attack-surface-reduction-rules). U moet deze regel tijdelijk uitschakelen om het hulpprogramma voor connectiviteit uit te voeren.
 
-[!NOTE] Wanneer de TelemetryProxyServer is ingesteld, in het register of via groepsbeleid, valt Defender for Endpoint terug naar direct als het geen toegang heeft tot de gedefinieerde proxy.
-Verwante onderwerpen • Windows 10-apparaten in onboarden • Problemen met de onboarding van Microsoft Endpoint DLP oplossen
-
-
-
-
+> [!NOTE]
+>
+> Het hulpprogramma Connectivity Analyzer is niet compatibel met de ASR-regel [Maken van processen via PSExec- en WMI-opdrachten blokkeren](/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction#attack-surface-reduction-rules). Schakel deze regel tijdelijk uit om het hulpprogramma Connectivity Analyzer uit te voeren.
+>
+> Wanneer in het register of via groepsbeleid TelemetryProxyServer is ingesteld, valt Defender voor Eindpunt terug op DIRECT als het geen toegang heeft tot de gedefinieerde proxy. Verwante onderwerpen:
+>
+> - Onboarden van Windows 10-apparaten
+> - Problemen met onboarding van preventie van gegevensverlies voor eindpunten van Microsoft oplossen
 
 ## <a name="see-also"></a>Zie ook
 
-- [Meer informatie over Preventie van gegevensverlies voor eindpunten](endpoint-dlp-learn-about.md)
+- [Meer informatie over preventie van gegevensverlies van eindpunten](endpoint-dlp-learn-about.md)
 - [Preventie van gegevensverlies voor eindpunten gebruiken](endpoint-dlp-using.md)
 - [Meer informatie over preventie van gegevensverlies](dlp-learn-about-dlp.md)
 - [Een DLP-beleid maken, testen en afstemmen](create-test-tune-dlp-policy.md)
-- [Aan de slag met de activiteitenverkenner](data-classification-activity-explorer.md)
+- [Aan de slag met Activity Explorer](data-classification-activity-explorer.md)
 - [Microsoft Defender voor Eindpunt](/windows/security/threat-protection/)
 - [Hulpmiddelen en methoden onboarden voor Windows 10-apparaten](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)
 - [Microsoft 365-abonnement](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1)

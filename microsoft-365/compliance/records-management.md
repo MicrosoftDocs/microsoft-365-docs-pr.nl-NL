@@ -21,18 +21,18 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 description: Met recordbeheer in Microsoft 365 kunt u uw retentieschema's toepassen op een bestandsplan voor beheer van retentie, declaratie van records en verwerking.
-ms.openlocfilehash: 853303dcaffcbacfcf805b8617b836254cf31ad8
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 1af3ff5fac9a95afb15f680f8f46e8d0de0b4567
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245430"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226045"
 ---
 # <a name="learn-about-records-management-in-microsoft-365"></a>Meer informatie over recordbeheer in Microsoft 365
 
 >*[Richtlijnen voor Microsoft 365-licenties voor beveiliging en compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
-Alle soorten organisaties vereisen een oplossing voor recordbeheer voor het beheren van wettelijke, juridische en bedrijfskritische records voor al hun bedrijfsgegevens. Recordbeheer in Microsoft 365 helpt een organisatie bij het beheren van hun wettelijke verplichtingen, biedt de mogelijkheid om de compliance van regelgeving aan te tonen en vergroot de efficiëntie bij het regelmatig verwijderen van items die niet meer bewaard moeten worden, die niet meer van waarde zijn of die niet meer nodig zijn voor zakelijke doeleinden.
+Voor allerlei soorten organisaties is een oplossing voor recordbeheer vereist om regelgevende, juridische en bedrijfskritieke records in hun zakelijke gegevens te beheren. Recordbeheer in Microsoft 365 helpt een organisatie bij het beheren van hun wettelijke verplichtingen, biedt de mogelijkheid om de compliance van regelgeving aan te tonen en vergroot de efficiëntie bij het regelmatig verwijderen van items die niet meer bewaard moeten worden, die niet meer van waarde zijn of die niet meer nodig zijn voor zakelijke doeleinden.
 
 Gebruik de volgende mogelijkheden ter ondersteuning van uw oplossing voor recordbeheer in Microsoft 365:
 
@@ -70,11 +70,11 @@ Door bewaarlabels te gebruiken om records te declaren, kunt u één consistente 
 
 ### <a name="compare-restrictions-for-what-actions-are-allowed-or-blocked"></a>Beperkingen vergelijken voor welke acties zijn toegestaan of geblokkeerd
 
-Gebruik de volgende tabel om te bepalen welke beperkingen voor inhoud gelden als gevolg van het toepassen van een standaardberetentielabel en bewaarlabels die inhoud markeren als een record of record van regelgeving. 
+Gebruik de volgende tabel om te bepalen welke beperkingen voor inhoud gelden als gevolg van het toepassen van een standaardberetentielabel en bewaarlabels die inhoud markeren als een record of record van regelgeving.
 
 Een standaardberetentielabel bevat instellingen en acties voor bewaren, maar geeft geen inhoud aan als een record of een regelgevingsrecord.
 
->[!NOTE] 
+> [!NOTE]
 > De tabel bevat kolommen voor een vergrendelde en niet-vergrendelde record, die van toepassing zijn op SharePoint en OneDrive, maar niet op Exchange. De mogelijkheid om een record te vergrendelen en te ontgrendelen, maakt [gebruik van recordversies](record-versioning.md) die niet wordt ondersteund voor Exchange-items. Dus voor alle Exchange-items die zijn gemarkeerd als een record, wordt het gedrag toegewezen aan de kolom **Record - vergrendeld** en is de kolom **Record - ontgrendeld** niet relevant.
 
 
@@ -94,19 +94,20 @@ Voetnoten:
 
 <sup>1</sup> worden ondersteund door OneDrive en Exchange door een kopie op een beveiligde locatie te bewaren, maar geblokkeerd door SharePoint.
 
-Wanneer u een bewaarlabel op een lijstitem met een documentbijlage toepast, neemt dat document de instellingen voor retentie niet over en kan het uit het lijstitem worden verwijderd. Als dat lijstitem daarentegen is gedeclareerd als een record met een bewaarlabel, neemt de documentbijlage de instellingen voor retentie over en kan het niet worden verwijderd. 
+Wanneer u een bewaarlabel op een lijstitem met een documentbijlage toepast, neemt dat document de instellingen voor retentie niet over en kan het uit het lijstitem worden verwijderd. Als dat lijstitem daarentegen is gedeclareerd als een record met een bewaarlabel, neemt de documentbijlage de instellingen voor retentie over en kan het niet worden verwijderd.
 
 <sup>2</sup> Containers zijn onder andere SharePoint-documentbibliotheken, OneDrive-accounts en Exchange-postvakken.
 
->[!IMPORTANT] 
-> Het belangrijkste verschil voor een regelgevingsrecord is dat nadat deze is toegepast op inhoud, niemand, zelfs niet de globale beheerder, het label kan verwijderen. 
+> [!IMPORTANT]
+> Het belangrijkste verschil voor een regelgevingsrecord is dat nadat deze is toegepast op inhoud, niemand, zelfs niet de globale beheerder, het label kan verwijderen.
 >
 > Bewaarlabels die zijn geconfigureerd voor regelgevingsrecords, hebben ook de volgende beheerdersbeperkingen:
+>
 > - De bewaarperiode kan niet korter worden gemaakt nadat het label is opgeslagen, enkel verlengd.
-> - Deze labels worden niet ondersteund door beleidsregels voor automatisch labelen en moeten worden toegepast met [beleidsregels voor retentielabels](create-apply-retention-labels.md). 
+> - Deze labels worden niet ondersteund door beleidsregels voor automatisch labelen en moeten worden toegepast met [beleidsregels voor retentielabels](create-apply-retention-labels.md).
 >
 > Bovendien kan een regelgevingslabel niet worden toegepast op een document dat is uitgecheckt in SharePoint.
-> 
+>
 > Vanwege de beperkingen en onherroepelijke acties, moet u absoluut gebruikmaken van regelgevingsrecords voordat u deze optie selecteert voor uw retentielabels. Om te voorkomen dat u per ongeluk een configuratie instelt, is deze optie standaard niet beschikbaar, maar moet deze eerst worden ingeschakeld via PowerShell. Er zijn instructies opgenomen in [Records declareren met behulp van retentielabels](declare-records.md).
 
 ## <a name="configuration-guidance"></a>Configuratierichtlijnen
