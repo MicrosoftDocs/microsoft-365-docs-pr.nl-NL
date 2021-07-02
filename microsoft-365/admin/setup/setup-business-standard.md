@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 - BEA160
 description: Wanneer je Microsoft 365 Business Standard aanschaft, heb je de mogelijkheid om een domein te gebruiken dat je bezit of een domein te kopen tijdens de registratie.
-ms.openlocfilehash: ca9cc359aaabfc16a5d0c57a75362c7826dea0db
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 188f6c396cfb3a4448306070da0fd75dd11a46b3
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635628"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227725"
 ---
 # <a name="set-up-microsoft-business-standard"></a>Microsoft Business Standard installeren
 
@@ -53,7 +53,7 @@ Wanneer u Microsoft 365 Business Standard aanschaft, hebt u de mogelijkheid om e
     > Als u tijdens de registratie een domein hebt gekocht, ziet u de stap **Een domein toevoegen** hier niet. Go in plaats daarvan naar [Gebruikers toevoegen](#add-users-and-assign-licenses).
 
     
-4. Volg de stappen in de wizard om [DNS-records te maken bij een DNS-hostingprovider voor Office 365](/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) waarmee wordt geverifieerd of u eigenaar bent van het domein. Als u weet wat uw domeinhost is, raadpleegt u ook de [hostspecifieke instructies](/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions).
+4. Volg de stappen in de wizard om [DNS-records te maken bij een DNS-hostingprovider voor Office 365](/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) waarmee wordt geverifieerd of u eigenaar bent van het domein. Als u uw domeinhost kent, raadpleeg dan ook [Een domein toevoegen aan Microsoft 365](/microsoft-365/admin/setup/add-domain).
 
     Als uw hostingprovider GoDaddy of een andere host is die is ingeschakeld met [domeinverbinding](/office365/admin/get-help-with-domains/domain-connect), is het proces eenvoudig en wordt u automatisch gevraagd om u aan te melden en u namens Microsoft te laten verifiëren.
 

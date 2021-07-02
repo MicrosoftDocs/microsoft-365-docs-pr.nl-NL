@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Meer informatie over de nieuwe mogelijkheden voor berichtversleuteling van Office 365 waarmee beveiligde e-mailcommunicatie mogelijk wordt met personen binnen en buiten uw organisatie.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cf37826c3e1e349947ab83fe211f9406a765e5ea
-ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
+ms.openlocfilehash: 9b738c0f93b8958e441b34b458942c2b34c16661
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "52162688"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228577"
 ---
 # <a name="set-up-new-message-encryption-capabilities"></a>De nieuwe mogelijkheden van Message Encryption instellen
 
@@ -39,13 +39,13 @@ De enige vereiste voor het gebruik van de nieuwe OME-mogelijkheden is dat [Azure
 
 Azure RMS wordt ook automatisch geactiveerd voor de meeste abonnementen die hiervoor in aanmerking komen, dus u hoeft hiervoor waarschijnlijk ook niets te doen. Zie [Azure Rights Management activeren](/azure/information-protection/activate-service) voor meer informatie.
 
->[!IMPORTANT]
->Als u de Active Directory Rights Management-service (AD RMS) gebruikt met Exchange Online, moet u [migreren naar Azure Information Protection](/azure/information-protection/migrate-from-ad-rms-to-azure-rms) voordat u de nieuwe OME-mogelijkheden kunt gebruiken. OME is niet compatibel met AD RMS.  
+> [!IMPORTANT]
+> Als u de Active Directory Rights Management-service (AD RMS) gebruikt met Exchange Online, moet u [migreren naar Azure Information Protection](/azure/information-protection/migrate-from-ad-rms-to-azure-rms) voordat u de nieuwe OME-mogelijkheden kunt gebruiken. OME is niet compatibel met AD RMS.
 
 Zie voor meer informatie:
 
 - [Welke abonnementen heb ik nodig om de nieuwe OME-mogelijkheden te kunnen gebruiken?](ome-faq.yml#what-subscriptions-do-i-need-to-use-the-new-ome-capabilities-) om te controleren of uw abonnement Azure Information Protection (met Azure RMS-functionaliteit) omvat.
-- [Azure Information Protection](https://azure.microsoft.com/services/information-protection/) voor informatie over de aankoop van een in aanmerking komend abonnement.  
+- [Azure Information Protection](https://azure.microsoft.com/services/information-protection/) voor informatie over de aankoop van een in aanmerking komend abonnement.
 
 ### <a name="manually-activating-azure-rights-management"></a>Azure Rights Management handmatig activeren
 
@@ -63,7 +63,7 @@ Er zijn diverse redenen, zoals compliancevereisten, waardoor u mogelijk uw eigen
 ## <a name="verify-new-ome-configuration-in-exchange-online-powershell"></a>Nieuwe OME-configuratie controleren in Exchange Online PowerShell
 
 U kunt controleren of uw Microsoft 365-tenant correct is geconfigureerd voor het gebruik van de nieuwe OME-mogelijkheden in [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell).
-  
+
 1. [Maak verbinding met Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) met een account met algemene beheerdersmachtigingen in uw Microsoft 365-tenant.
 
 2. Voer de cmdlet Get-OrganizationConfig uit.
@@ -74,7 +74,7 @@ U kunt controleren of uw Microsoft 365-tenant correct is geconfigureerd voor het
 
      ```powershell
      Test-IRMConfiguration [-Sender <email address >]
-     ```  
+     ```
 
    **Voorbeeld**:
 
@@ -112,13 +112,13 @@ U kunt controleren of uw Microsoft 365-tenant correct is geconfigureerd voor het
 
 ## <a name="next-steps-define-mail-flow-rules-to-use-new-ome-capabilities"></a>Volgende stappen: e-mailstroomregels definiëren om nieuwe OME-mogelijkheden te gebruiken
 
-Als er eerder e-mailstroomregels werden geconfigureerd om e-mail in uw organisatie te versleutelen, moet u de bestaande regels bijwerken om de nieuwe OME-mogelijkheden te kunnen gebruiken. Voor nieuwe implementaties moet u nieuwe e-mailstroomregels aanmaken.
+Als er eerder geconfigureerde e-mailstroomregels zijn voor het versleutelen van e-mail in uw organisatie, moet u de bestaande regels bijwerken om de nieuwe OME-functionaliteit te gebruiken. Voor nieuwe implementaties moet u nieuwe e-mailstroomregels maken.
 
->[!IMPORTANT]
->Als u bestaande e-mailstroomregels niet bijwerkt, blijven uw gebruikers versleutelde e-mail ontvangen die de vorige HTML-bijlageindeling gebruikt, in plaats van de nieuwe, probleemloze OME-ervaring.
+> [!IMPORTANT]
+> Als u bestaande e-mailstroomregels niet bijwerkt, blijven uw gebruikers versleutelde e-mail ontvangen die de vorige HTML-bijlageindeling gebruikt, in plaats van de nieuwe, probleemloze OME-ervaring.
 
 E-mailstroomregels bepalen onder welke voorwaarden e-mailberichten moeten worden versleuteld, evenals voorwaarden voor het verwijderen van die versleuteling. Wanneer u een actie voor een regel in stelt, worden alle berichten die voldoen aan de voorwaarden voor de regel versleuteld bij verzending.
-  
+
 Zie [Regels voor de e-mailstroom definiëren om e-mailberichten in Office 365 te versleutelen in Office 365 voor](define-mail-flow-rules-to-encrypt-email.md) voor stappen om e-mailstroomregels voor OME aan te maken.
 
 Bestaande regels bijwerken om de nieuwe OME-mogelijkheden te gebruiken:

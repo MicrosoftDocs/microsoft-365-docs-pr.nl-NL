@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Hoe u retentielabels kunt gebruiken om de levensduur van documenten in SharePoint te beheren door metagegevens te gebruiken om de inhoud te classificeren, de labels automatisch toe te passen en op gebeurtenissen gebaseerde retentie te gebruiken om de retentieperiode te starten.
-ms.openlocfilehash: 6c58658378fd0def9a56783e7b8b35db3323b135
-ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
+ms.openlocfilehash: 3bc2d6f5baa2f11e7905ccf98e16145fef24d64d
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "52162268"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227601"
 ---
 # <a name="use-retention-labels-to-manage-the-lifecycle-of-documents-stored-in-sharepoint"></a>Retentielabels gebruiken om de levenscyclus van in SharePoint opgeslagen documenten te beheren
 
@@ -58,7 +58,7 @@ In dit scenario gebruiken we de service Beheerde metagegevens en het termenarchi
 
 *Inhoudstype* kan worden gemaakt en gepubliceerd met behulp van de [Hub voor inhoudstypen](https://support.office.com/article/manage-content-type-publishing-06f39ac0-5576-4b68-abbc-82b68334889b). U kunt ook een inhoudstype maken en publiceren met behulp van site-inrichtingshulpmiddelen, zoals het [PnP-inrichtingsframework](/sharepoint/dev/solution-guidance/pnp-provisioning-framework) of het [JSON-schema voor siteontwerp](/sharepoint/dev/declarative-customization/site-design-json-schema#define-a-new-content-type).
 
-Elk product heeft een speciale SharePoint-site met één documentbibliotheek waarin de juiste inhoudstypen zijn ingeschakeld. Alle documenten worden opgeslagen in deze documentbibliotheek.
+Elk product heeft een toegewezen SharePoint-site die één documentbibliotheek bevat waarvoor de juiste inhoudstypen zijn ingeschakeld. Alle documenten worden opgeslagen in deze documentbibliotheek.
 
 [ ![Documentbibliotheek voor productdocumentatie](../media/SPRetention3.png) ](../media/SPRetention3.png#lightbox)
 
@@ -121,19 +121,19 @@ In de volgende schermafbeelding ziet u de instellingen wanneer u het retentielab
 ### <a name="create-an-event-type-when-you-create-a-retention-label"></a>Een gebeurtenistype maken wanneer u een retentielabel maakt
 
 1. Op de pagina **Instellingen voor retentie definiëren** van de wizard Retentielabel maken, selecteert u na **De retentieperiode starten op basis van** de optie **Nieuw gebeurtenistype maken**:
-    
+
     ![Een nieuw gebeurtenistype maken voor het dialoogvenster Productspecificatielabel](../media/SPRetention6.png)
 
 3. Voer op de pagina **Uw gebeurtenistype een naam geven** de optie **Stopzetten productie** en een optionele beschrijving in. Selecteer vervolgens **Volgende**, **Verzenden** en **Gereed**.
 
 4. Terug op de pagina **Instellingen voor retentie definiëren** kunt u voor **De retentieperiode starten op basis van** in het vervolgkeuzemenu het gebeurtenistype **Stopzetten productie** selecteren dat u hebt gemaakt.
-    
-    Zo zien de instellingen eruit voor het retentielabel Productspecificatie: 
-    
+
+    Zo zien de instellingen eruit voor het retentielabel Productspecificatie:
+
    ![Instellingen voor het nieuwe label Productspecificatie](../media/SPRetention7.png)
 
-6. Selecteer **Label maken**. Op de volgende pagina, wanneer u de opties voor het publiceren van het label ziet, past het label automatisch toe of slaat u het label op: selecteer **Label alleen opslaan** en selecteer vervolgens **Gereed**. 
-    
+6. Selecteer **Label maken**. Op de volgende pagina, wanneer u de opties voor het publiceren van het label ziet, past het label automatisch toe of slaat u het label op: selecteer **Label alleen opslaan** en selecteer vervolgens **Gereed**.
+
     > [!TIP]
     > Zie [Een label maken waarvan de retentieperiode is gebaseerd op een gebeurtenis](event-driven-retention.md#step-1-create-a-label-whose-retention-period-is-based-on-an-event) voor uitgebreide stappen.
 
@@ -188,9 +188,9 @@ Als u de verkende eigenschap **ows\_Doc\_x0020\_Type** wilt toewijzen, volgt u d
 
 1. In het filtervak **Beheerde eigenschap** typt u **_RefinableString00_** en selecteert u de groene pijl.
 
-2. In de lijst met resultaten selecteert u de koppeling **RefinableString00** en schuift u omlaag naar de sectie **Toewijzingen aan verkende eigenschappen**.  
+2. In de lijst met resultaten selecteert u de koppeling **RefinableString00** en schuift u omlaag naar de sectie **Toewijzingen aan verkende eigenschappen**.
 
-3. Selecteer **Een toewijzing toevoegen** en typ in het venster **Selectie van verkende eigenschap** **_ows\_Doc\_x0020\_Type_*_ in het vak _* Een naam van een verkende eigenschap zoeken**. Selecteer **Zoeken**.  
+3. Selecteer **Een toewijzing toevoegen** en typ in het venster **Selectie van verkende eigenschap** **_ows\_Doc\_x0020\_Type_*_ in het vak _* Een naam van een verkende eigenschap zoeken**. Selecteer **Zoeken**.
 
 4. In de lijst met resultaten selecteert u **\_Doc\_x0020\_Type** en vervolgens **OK**.
 
@@ -222,19 +222,19 @@ Nu we hebben gecontroleerd of de KQL-query werkt, maken we een beleid voor het a
 2. Voer in de wizard Beleid voor automatisch labelen maken, op de pagina **Het beleid voor automatisch labelen een naam geven**, een naam in, bijvoorbeeld **Label Productspecificatie automatisch toepassen** en een optionele beschrijving. Selecteer vervolgens **Volgende**.
 
 3. Op de pagina **Het type inhoud kiezen waarop u dit label wilt toepassen** selecteert u **Label toepassen op inhoud met specifieke woorden, woordgroepen of eigenschappen**. Selecteer vervolgens **Volgende**.
-    
+
    [ ![Selectie van Label toepassen op inhoud met specifieke woorden, woordgroepen of eigenschappen](../media/SPRetention17.png) ](../media/SPRetention17.png#lightbox)
-    
+
    Met deze optie kunnen we dezelfde KQL-zoekquery opgeven die we in de vorige sectie hebben getest. De query retourneert alle documenten over productspecificatie met de status *Definitief*. Wanneer we dezelfde query gebruiken in het beleid voor het automatisch toepassen van labels, wordt het retentielabel Productspecificatie automatisch toegepast op alle documenten die ermee overeenkomen.
 
 4. Op de pagina **Label toepassen op inhoud die overeenkomt met deze query** typt u **RefinableString00:"Productspecificatie" AND RefinableString01:Definitief**. Selecteer vervolgens **Volgende**.
 
    ![De query opgeven in het vak Trefwoordquery-editor](../media/SPRetention19.png)
 
-5. Selecteer op de pagina **Locaties kiezen om het beleid toe te passen** de inhoudslocaties waarop u het beleid wilt toepassen. In dit scenario wordt het beleid alleen toegepast op SharePoint-locaties, omdat alle productiedocumenten worden opgeslagen in SharePoint-documentbibliotheken. Zet de status van **Exchange-e-mail**, **OneDrive-accounts** en **Microsoft 365 Groepen** op **Uit**. Zorg ervoor dat de status van SharePoint-sites is ingesteld op **Aan** voordat u **Volgende** selecteert: 
-    
+5. Selecteer op de pagina **Locaties kiezen om het beleid toe te passen** de inhoudslocaties waarop u het beleid wilt toepassen. In dit scenario wordt het beleid alleen toegepast op SharePoint-locaties, omdat alle productiedocumenten worden opgeslagen in SharePoint-documentbibliotheken. Zet de status van **Exchange-e-mail**, **OneDrive-accounts** en **Microsoft 365 Groepen** op **Uit**. Zorg ervoor dat de status van SharePoint-sites is ingesteld op **Aan** voordat u **Volgende** selecteert:
+
     ![Specifieke sites kiezen om automatisch labels op toe te passen](../media/SPRetentionSPlocations.png)
-    
+
    > [!TIP]
    > In plaats van het beleid toe te passen op alle SharePoint-sites, kunt u **Site kiezen** selecteren en de URL's voor specifieke SharePoint-sites toevoegen.
 
@@ -247,9 +247,9 @@ Nu we hebben gecontroleerd of de KQL-query werkt, maken we een beleid voor het a
     ![Instellingen voor het automatisch toepassen van het label](../media/SPRetention18.png)
 
 9. Selecteer **Verzenden** om het beleid voor automatisch toepassen van labels te maken.
-    
-   >[!NOTE]
-   >Het duurt maximaal zeven dagen om het label Productspecificatie automatisch toe te passen op alle documenten die overeenkomen met de KQL-zoekquery.
+
+   > [!NOTE]
+   > Het duurt maximaal zeven dagen om het label Productspecificatie automatisch toe te passen op alle documenten die overeenkomen met de KQL-zoekquery.
 
 ### <a name="verify-that-the-retention-label-was-automatically-applied"></a>Controleren of het retentielabel automatisch is toegepast
 
@@ -287,7 +287,7 @@ Als u deze stroom wilt maken, begint u met een SharePoint-connector en selecteer
 - **URI**: `https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent`
 - **Headers**: Key = Content-Type, Value = application/atom+xml
 - **Body**:
-    
+
     ```xml
     <?xml version='1.0' encoding='utf-8' standalone='yes'>
     <entry xmlns:d='http://schemas.microsoft.com/ado/2007/08/dataservices' xmlns:m='http://schemas.microsoft.com/ado/2007/08/dataservices/metadata' xmlns='https://www.w3.org/2005/Atom'>
@@ -324,10 +324,10 @@ Selecteer de gebeurtenis om de details op de flyout-pagina te bekijken. Hoewel d
 
 ![Details van de gebeurtenis](../media/SPRetention29.png)
 
-Maar na enige vertraging toont de gebeurtenisstatus dat een SharePoint-site en een SharePoint-document zijn verwerkt.  
+Maar na enige vertraging toont de gebeurtenisstatus dat een SharePoint-site en een SharePoint-document zijn verwerkt.
 
 ![In de details van de gebeurtenis wordt aangegeven dat er documenten zijn verwerkt.](../media/SPRetention31.png)
- 
+
 Dit toont aan dat de retentieperiode voor het label dat op het productdocument Spinning Widget wordt toegepast, op basis van de gebeurtenisdatum van de gebeurtenis *Stopzetten van productie Spinning Widget* is gestart. Als u ervan uit gaat dat u het scenario in uw testomgeving hebt geïmplementeerd door een retentieperiode van één dag te configureren, gaat u enkele dagen nadat de gebeurtenis is gemaakt naar de documentbibliotheek voor uw productdocumenten en controleert u of het document is verwijderd (nadat de verwijderingstaak in SharePoint is uitgevoerd).
 
 ### <a name="more-about-asset-ids"></a>Meer informatie over asset-id's

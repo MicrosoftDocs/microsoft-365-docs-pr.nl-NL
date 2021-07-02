@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Stel Microsoft 365 Preventie van gegevensverlies voor eindpunten in om bestandsactiviteiten te controleren en beschermende maatregelen voor deze bestanden naar eindpunten te implementeren.
-ms.openlocfilehash: 134c5426e428372670a50c76301a9e9e0c10b343
-ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
+ms.openlocfilehash: 8dc57bfe395ad76e6b8aef336aaadb2cb7e42f81
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53061671"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226669"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention"></a>Aan de slag met Preventie van gegevensverlies voor eindpunten
 
@@ -44,7 +44,6 @@ Voordat u aan de slag gaat met DLP voor eindpunten, moet u uw [abonnement op Mic
 - Microsoft 365 A5 Compliance
 - Microsoft 365 E5 Information Protection en governance
 - Microsoft 365 A5 Information Protection en governance
-
 
 ### <a name="permissions"></a>Machtigingen
 
@@ -84,25 +83,26 @@ Zorg ervoor dat de Windows 10-apparaten die u van plan bent in DLP voor eindpunt
 
 1. Moet Windows 10 x64 build 1809 of hoger hebben.
 
-2. Antimalware-clientversie is 4.18.2009.7 of hoger. Controleer uw huidige versie door de Windows-beveiligingsapp te openen, selecteer het pictogram Instellingen en selecteer vervolgens Info. Het versienummer wordt weergegeven onder Antimalware-clientversie. Werk bij naar de nieuwste Antimalware-clientversie door Windows Update KB4052623 te installeren. 
+2. Antimalware-clientversie is 4.18.2009.7 of hoger. Controleer uw huidige versie door de Windows-beveiligingsapp te openen, selecteer het pictogram Instellingen en selecteer vervolgens Info. Het versienummer wordt weergegeven onder Antimalware-clientversie. Werk bij naar de nieuwste Antimalware-clientversie door Windows Update KB4052623 te installeren.
 
    > [!NOTE]
    > Geen van de Windows-beveiligingsonderdelen hoeft actief te zijn, u kunt DLP voor eindpunten uitvoeren onafhankelijk van de Windows-beveiligingsstatus, maar de [Realtime-beveiliging- en gedragscontrole](/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus)) moet zijn ingeschakeld.
- 
-3. De volgende Windows-updates zijn geïnstalleerd. 
- 
+
+3. De volgende Windows-updates zijn geïnstalleerd.
+
    > [!NOTE]
    > Deze updates zijn niet vereist voor het onboarden van een apparaat naar DLP voor eindpunten, maar bevatten oplossingen voor belangrijke problemen die dus moeten worden geïnstalleerd voordat u het product gebruikt.
 
-    - Voor Windows 10 1809 - KB4559003, KB4577069, KB4580390
-    - Voor Windows 10 1903 or 1909 - KB4559004, KB4577062, KB4580386
-    - Voor Windows 10 2004 - KB4568831, KB4577063
-    - Voor apparaten met Office 2016 (en geen andere Office-versie) - KB4577063 
+   - Voor Windows 10 1809 - KB4559003, KB4577069, KB4580390
+   - Voor Windows 10 1903 or 1909 - KB4559004, KB4577062, KB4580386
+   - Voor Windows 10 2004 - KB4568831, KB4577063
+   - Voor apparaten met Office 2016 (en geen andere Office-versie) - KB4577063
 
 4. Alle apparaten moeten tot een van de volgende behoren:
-- [Azure Active Directory (Azure AD)-gekoppeld](/azure/active-directory/devices/concept-azure-ad-join)
-- [Hybride Azure AD-gekoppeld](/azure/active-directory/devices/concept-azure-ad-join-hybrid)
-- [AAD-geregistreerd](/azure/active-directory/user-help/user-help-register-device-on-network)
+
+   - [Azure Active Directory (Azure AD)-gekoppeld](/azure/active-directory/devices/concept-azure-ad-join)
+   - [Hybride Azure AD-gekoppeld](/azure/active-directory/devices/concept-azure-ad-join-hybrid)
+   - [AAD-geregistreerd](/azure/active-directory/user-help/user-help-register-device-on-network)
 
 5. Installeer de browser Microsoft Chromium Edge op het eindpuntapparaat om beleidsacties af te dwingen voor het uploaden naar cloudactiviteit. Zie [Nieuwe Microsoft Edge op basis van Chromium downloaden](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium).
 
@@ -124,7 +124,7 @@ In dit implementatiescenario onboardt u apparaten die nog niet zijn onboarded en
 
 1. Open het [Microsoft-compliancecentrum](https://compliance.microsoft.com).
 
-2. Open de instellingenpagina voor het Compliancecentrum en kies **Apparaten onboarden**. 
+2. Open de instellingenpagina voor het Compliancecentrum en kies **Apparaten onboarden**.
 
    > [!div class="mx-imgBorder"]
    > ![apparaatbeheer inschakelen](../media/endpoint-dlp-learn-about-1-enable-device-management.png)
@@ -140,7 +140,7 @@ In dit implementatiescenario onboardt u apparaten die nog niet zijn onboarded en
 
    > [!div class="mx-imgBorder"]
    > ![Implementatiemethode](../media/endpoint-dlp-getting-started-3-deployment-method.png)
-   
+
 6. Volg de juiste procedures in [Onboarding-hulpprogramma's en -methoden voor Windows 10-computers](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints). Via deze koppeling gaat u naar een landingspagina waar u toegang hebt tot procedures voor Microsoft Defender voor Eindpunt die overeenkomen met het installatiepakket dat u in stap 5 hebt geselecteerd:
 
     - Windows 10-computers onboarden met groepsbeleid
@@ -166,13 +166,12 @@ In dit scenario is Microsoft Defender voor Eindpunt al geïmplementeerd en zijn 
 
    > [!div class="mx-imgBorder"]
    > ![apparaatbeheer](../media/endpoint-dlp-getting-started-2-device-management.png)
-   
+
 4. Kies **Onboarding** als u extra apparaten wilt onboarden.
 
 5. Kies de manier waarop u wilt implementeren op deze extra apparaten in de lijst **Implementatiemethode** en vervolgens **Pakket downloaden**.
 
 6. Volg de juiste procedures in [Onboarding-hulpprogramma's en -methoden voor Windows 10-computers](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints). Via deze koppeling gaat u naar een landingspagina waar u toegang hebt tot procedures voor Microsoft Defender voor Eindpunt die overeenkomen met het installatiepakket dat u in stap 5 hebt geselecteerd:
-
     - Windows 10-computers onboarden met groepsbeleid
     - Windows-apparaten onboarden met behulp van Microsoft Endpoint Configuration Manager
     - Windows 10-apparaten onboarden met hulpmiddelen voor Mobiel Apparaatbeheer
@@ -190,7 +189,6 @@ Wanneer dit is gedaan en het eindpunt is onboarded, moet dit zichtbaar zijn in d
 
 2. Raadpleeg de procedures in [Informatie over het configureren en weergeven van waarschuwingen voor uw DLP-beleid](dlp-configure-view-alerts-policies.md) om waarschuwingen voor uw DLP-beleid voor eindpunten weer te geven.
 
-
 ### <a name="viewing-endpoint-dlp-data-in-activity-explorer"></a>DLP-gegevens van eindpunten weergeven in Activiteitenverkenner
 
 1. Open de [pagina Gegevensclassificatie voor](https://compliance.microsoft.com/dataclassification?viewid=overview) uw domein in het Microsoft 365-compliancecentrum en kies Activiteitenverkenner.
@@ -201,13 +199,14 @@ Wanneer dit is gedaan en het eindpunt is onboarded, moet dit zichtbaar zijn in d
    > ![Activiteitenverkenner-filter voor eindpuntapparaten](../media/endpoint-dlp-4-getting-started-activity-explorer.png)
 
 ## <a name="next-steps"></a>Volgende stappen
+
 Nu u onboarded-apparaten hebt en de activiteitsgegevens kunt bekijken in Activiteitenverkenner, kunt u verder gaan met de volgende stap, waarin u DLP-beleid maakt voor het beveiligen van uw gevoelige items.
 
 - [Preventie van gegevensverlies van eindpunten gebruiken](endpoint-dlp-using.md)
 
 ## <a name="see-also"></a>Zie ook
 
-- [Meer informatie over Preventie van gegevensverlies voor eindpunten](endpoint-dlp-learn-about.md)
+- [Meer informatie over preventie van gegevensverlies van eindpunten](endpoint-dlp-learn-about.md)
 - [Preventie van gegevensverlies voor eindpunten gebruiken](endpoint-dlp-using.md)
 - [Meer informatie over preventie van gegevensverlies](dlp-learn-about-dlp.md)
 - [Een DLP-beleid maken, testen en afstemmen](create-test-tune-dlp-policy.md)

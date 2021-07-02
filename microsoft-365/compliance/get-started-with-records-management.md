@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Hebt u een oplossing voor recordbeheer nodig voor Microsoft 365 die waardevolle inhoud beheert voor juridische, zakelijke of wettelijke verplichtingen, maar u weet niet waar u moet beginnen? Lees dan wat praktische richtlijnen om aan de slag te gaan.
-ms.openlocfilehash: 0382c1419654e4c1d2c809b3a9c32252fd50f554
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 173086799e4ae7cec3192f95248f0a7f26a10552
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244342"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226573"
 ---
 # <a name="get-started-with-records-management"></a>Aan de slag met recordbeheer
 
@@ -30,14 +30,14 @@ ms.locfileid: "52244342"
 
 Klaar om te beginnen met het beheren van waardevolle inhoud van uw organisatie voor juridische, zakelijke of wettelijke verplichtingen door gebruik te maken van een oplossing voor recordbeheer in Microsoft 365? Gebruik de volgende richtlijnen om aan de slag te gaan:
 
-1. **Informatie over de oplossing voor recordbeheer** en welke acties zijn toegestaan of geblokkeerd wanneer documenten en e-mailberichten worden gedeclareerd als records: [Meer informatie over recordbeheer](records-management.md). 
+1. **Informatie over de oplossing voor recordbeheer** en welke acties zijn toegestaan of geblokkeerd wanneer documenten en e-mailberichten worden gedeclareerd als records: [Meer informatie over recordbeheer](records-management.md).
 
 2. **Meer informatie over retentielabels en hoe retentie werkt** voor SharePoint en Exchange, omdat retentielabels worden gebruikt om records te declareren: [Meer informatie over retentiebeleid en retentielabels](retention.md)
 
-3. **Maak uw bestandsplan voor bewaarinstellingen en -acties** door [een bestaand plan te importeren](file-plan-manager.md#import-retention-labels-into-your-file-plan ) als u er een hebt, of [nieuwe retentielabels te maken om als records te declareren](declare-records.md).
+3. **Maak uw bestandsplan voor bewaarinstellingen en -acties** door [een bestaand plan te importeren](file-plan-manager.md#import-retention-labels-into-your-file-plan) als u er een hebt, of [nieuwe retentielabels te maken om als records te declareren](declare-records.md).
 
-4. **Uw retentielabels publiceren en toepassen**. Retentielabels zijn herbruikbare bouwstenen die kunnen worden gebruikt in meerdere beleidsregels en kunnen worden opgenomen in gebruikerswerkstromen: 
-    
+4. **Uw retentielabels publiceren en toepassen**. Retentielabels zijn herbruikbare bouwstenen die kunnen worden gebruikt in meerdere beleidsregels en kunnen worden opgenomen in gebruikerswerkstromen:
+
     - [Retentielabels maken en deze toepassen in apps](create-apply-retention-labels.md)
     - [Een retentielabel automatisch toepassen op inhoud](apply-retention-labels-automatically.md)
 
@@ -49,9 +49,9 @@ Zie de [Richtlijnen voor Microsoft 365-licenties voor beveiliging en compliance]
 
 ## <a name="permissions-required-for-records-management"></a>Machtigingen vereist voor recordbeheer
 
-Leden van uw complianceteam die verantwoordelijk zijn voor recordbeheer hebben machtigingen nodig voor het [Microsoft 365-compliancecentrum](https://compliance.microsoft.com/). Standaard heeft de tenantbeheerder (globale beheerder) toegang tot deze locatie en kan deze compliance officers en andere personen toegang verlenen zonder hen alle machtigingen van een tenantbeheerder te geven. Als u machtigingen wilt verlenen voor dit beperkte beheer, raden we u aan gebruikers toe te voegen aan de beheerdersrolgroep **Records Management**, die machtigingen verleent voor alle functies die betrekking hebben op recordbeheer, waaronder [verwijderingsbeoordeling en verificatie](disposition.md). 
+Leden van uw complianceteam die verantwoordelijk zijn voor recordbeheer hebben machtigingen nodig voor het [Microsoft 365-compliancecentrum](https://compliance.microsoft.com/). Standaard heeft de tenantbeheerder (globale beheerder) toegang tot deze locatie en kan deze compliance officers en andere personen toegang verlenen zonder hen alle machtigingen van een tenantbeheerder te geven. Als u machtigingen wilt verlenen voor dit beperkte beheer, raden we u aan gebruikers toe te voegen aan de beheerdersrolgroep **Records Management**, die machtigingen verleent voor alle functies die betrekking hebben op recordbeheer, waaronder [verwijderingsbeoordeling en verificatie](disposition.md).
 
-Voor een alleen-lezen rol kunt u een nieuwe rollengroep maken en de rol **Recordbeheer alleen-weergeven** aan deze groep toevoegen. 
+Voor een alleen-lezen rol kunt u een nieuwe rollengroep maken en de rol **Recordbeheer alleen-weergeven** aan deze groep toevoegen.
 
 Zie [Machtigingen in het Beveiligings- en compliancecentrum](../security/office-365-security/permissions-in-the-security-and-compliance-center.md#roles-in-the-security--compliance-center) voor meer informatie over rolgroepen en rollen.
 
@@ -84,7 +84,7 @@ Gebruik de volgende tabel om uw zakelijke vereisten toe te passen op scenario's 
 
 ## <a name="end-user-documentation-for-records"></a>Documentatie voor eindgebruikers voor records
 
-Retentielabels die worden gebruikt voor recordbeheer zijn aanwezig in de gebruikersinterface in Microsoft 365-apps. Zorg ervoor dat u richtlijnen biedt voor eindgebruikers en uw helpdesk voordat u retentielabels implementeert in uw productienetwerk.
+Retentielabels die worden gebruikt voor recordbeheer zijn aanwezig in de gebruikersinterface van Microsoft 365-apps. Zorg ervoor dat u richtlijnen biedt voor eindgebruikers en uw helpdesk voordat u retentielabels implementeert in uw productienetwerk.
 
 Raadpleeg [Retentielabels toepassen op bestanden in SharePoint of OneDrive](https://support.microsoft.com/office/apply-retention-labels-to-files-in-sharepoint-or-onedrive-11a6835b-ec9f-40db-8aca-6f5ef18132df) om gebruikers te helpen bij het toepassen van retentielabels in SharePoint en OneDrive, zoals informatie over het ontgrendelen van records voor bewerken.
 

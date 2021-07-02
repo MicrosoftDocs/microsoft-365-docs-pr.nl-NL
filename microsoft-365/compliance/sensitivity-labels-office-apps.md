@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Informatie voor IT-beheerders voor het beheren van vertrouwelijkheidslabels in Office-apps voor desktop, mobiele apparaten en internet.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2510e840cfdd23969549cb3dbb83ec0c649741f5
-ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
+ms.openlocfilehash: 1cdfe9d106a55cef79a63b42b47f28b2d9bb9c53
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53062184"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228589"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Vertrouwelijkheidslabels in Office-apps beheren
 
@@ -66,7 +66,7 @@ De weergegeven nummers zijn de minimale versies van Office-toepassingen die voor
 |[Gebruikers machtigingen laten toewijzen: <br /> - Gebruikers vragen](encryption-sensitivity-labels.md#let-users-assign-permissions)                     |2004+ | 16.35+   | Ter beoordeling   | Ter beoordeling         | Ter beoordeling                                                        |
 |[Activiteit van gebruikers in verband met labels controleren](data-classification-activity-explorer.md)                      | 2011+ | 16.43+ | 2.46+ | Wordt geïmplementeerd: 16.0.13628+ | Ja <sup>\*</sup>                                                        |
 |[Vereisen dat gebruikers een label toepassen op hun e-mail en documenten](#require-users-to-apply-a-label-to-their-email-and-documents)   | 2101+             | 16.45+         | 2.47+ | 16.0.13628+ | [Ja, deelnemen](sensitivity-labels-sharepoint-onedrive-files.md)                                            
-|[Een vertrouwelijkheidslabel automatisch op inhoud toepassen](apply-sensitivity-label-automatically.md)                    | 2009+                                  | Wordt geïmplementeerd: 16.44+ | Ter beoordeling | Ter beoordeling | [Ja, deelnemen](sensitivity-labels-sharepoint-onedrive-files.md) |
+|[Een vertrouwelijkheidslabel automatisch op inhoud toepassen](apply-sensitivity-label-automatically.md)                    | 2009+                                  | 16.44+ | Ter beoordeling | Ter beoordeling | [Ja, deelnemen](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Ondersteuning voor cocreatie en automatisch opslaan](sensitivity-labels-coauthoring.md) voor gelabelde en versleutelde documenten | 2105: 18 juni+ |  16.50+ | Ter beoordeling | Ter beoordeling | [Ja, deelnemen](sensitivity-labels-sharepoint-onedrive-files.md) |
 |
 

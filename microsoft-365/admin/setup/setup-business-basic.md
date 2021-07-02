@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 - BEA160
 description: Meer informatie over het instellen van uw abonnement op Microsoft 365 Business Basic.
-ms.openlocfilehash: 0251f601b8200bcd5f4f5a2d5640ff774cc94562
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: d0ac9835be25377496893d62076a5cdc426f3b9e
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706332"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227737"
 ---
 # <a name="set-up-microsoft-365-business-basic"></a>Microsoft 365 Business Basic instellen
 
@@ -71,7 +71,7 @@ Wanneer u Microsoft 365 Business Basic aanschaft, hebt u de mogelijkheid om een 
     > Als u tijdens de registratie een domein hebt gekocht, ziet u de stap **Een domein toevoegen** hier niet. Go in plaats daarvan naar [Gebruikers toevoegen](#add-users-and-assign-licenses).
 
     
-4. Volg de stappen in de wizard om [DNS-records te maken bij een DNS-hostingprovider voor Office 365](/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) waarmee wordt geverifieerd of u eigenaar bent van het domein. Als u weet wat uw domeinhost is, raadpleegt u ook de [hostspecifieke instructies](/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions).
+4. Volg de stappen in de wizard om [DNS-records te maken bij een DNS-hostingprovider voor Office 365](/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) waarmee wordt geverifieerd of u eigenaar bent van het domein. Als u uw domeinhost kent, raadpleeg dan ook [Een domein toevoegen aan Microsoft 365](/microsoft-365/admin/setup/add-domain).
 
     Als uw hostingprovider GoDaddy of een andere host is die is ingeschakeld met [domeinverbinding](/office365/admin/get-help-with-domains/domain-connect), is het proces eenvoudig en wordt u automatisch gevraagd om u aan te melden en u namens Microsoft te laten verifiëren.
 
