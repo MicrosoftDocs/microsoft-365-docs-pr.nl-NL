@@ -18,12 +18,12 @@ metadata:
   ms.assetid: 2fe71b05-f5a2-4182-ade7-4dc5cabdfd51
   ms.custom: seo-marvel-apr2020
   description: Dit artikel bevat antwoorden op een aantal veelgestelde vragen voor beheerders over het importeren van PST-bestanden Microsoft 365 de Office 365 Service importeren.
-  ms.openlocfilehash: 27fa3b93b53a497fcff63524b04f427049bac412
-  ms.sourcegitcommit: ddb1bf56bcba4f03c803f79492e8cd0dc41a3d7a
+  ms.openlocfilehash: 4340285e6c7cff857e3f3de771ec6e67d4ce010c
+  ms.sourcegitcommit: 8c6a5db0dab99a82a69dd8a0a7c56af1cb825931
   ms.translationtype: MT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 04/28/2021
-  ms.locfileid: "52090629"
+  ms.lasthandoff: 07/02/2021
+  ms.locfileid: "53276939"
 title: Veelgestelde vragen over het importeren van PST-bestanden
 summary: "**Dit artikel is bedoeld voor beheerders. Wilt u PST-bestanden importeren in uw eigen postvak? Zie [E-mail, contactpersonen en agenda importeren uit een Outlook PST-bestand](https://go.microsoft.com/fwlink/p/?LinkID=785075)**\n\nHier zijn enkele veelgestelde vragen over het gebruik van de Office 365 Service importeren om PST-bestanden bulksgewijs te importeren in Microsoft 365 postvakken. Zie Overzicht van het importeren van [PST-bestanden](./importing-pst-files-to-office-365.md)in Office 365.\n  \n## <a name=\"using-network-upload-to-import-pst-files\"></a>PST-bestanden importeren via het netwerk\n\nZie Netwerk uploaden gebruiken om [PST-bestanden](use-network-upload-to-import-pst-files.md)te importeren in Office 365.\n"
 sections:
@@ -72,12 +72,9 @@ sections:
       Kan ik PST-bestanden importeren in openbare mappen in Exchange Online door te uploaden via een netwerk?
     answer: >
       Nee, u kunt PST-bestanden niet importeren in openbare mappen.
-
-
-      ## <a name="using-drive-shipping-to-import-pst-files"></a>PST-bestanden importeren door schijfverzending
-
-
-      Zie Schijfverzending gebruiken om PST-bestanden te importeren in Office 365 voor [stapsgewijse instructies.](use-drive-shipping-to-import-pst-files-to-office-365.md)
+  - question: >
+      Zijn er vereisten voor schermresolutie wanneer ik een importklus voor het uploaden van een netwerk maak?
+    answer: "Als de schermresolutie op uw lokale computer is ingesteld op 1366 x 768, kunt u problemen hebben bij het maken van een importklus. Als dit het geval is, raden we u aan de schermresolutie te wijzigen in een andere instelling en vervolgens een nieuwe importklus te maken. We werken aan een oplossing voor dit probleem.     \n\n\n\n## <a name=\"using-drive-shipping-to-import-pst-files\"></a>PST-bestanden importeren door schijfverzending\n\nZie Schijfverzending gebruiken om PST-bestanden te importeren in Office 365 voor [stapsgewijse instructies.](use-drive-shipping-to-import-pst-files-to-office-365.md)\n"
   - question: >
       Welke machtigingen zijn vereist voor het maken van importtaken in de Office 365-importservice?
     answer: "U moet de rol Postvak importeren exporteren toegewezen krijgen om PST-bestanden te kunnen importeren in Microsoft 365-postvakken. Deze rol is standaard niet toegewezen aan een rollengroep in Exchange Online. U kunt de rol Postvak importeren exporteren toevoegen aan de rollengroep Organisatiebeheer. U kunt ook een nieuwe rollengroep maken, de rol Postvak importeren exporteren daaraan toewijzen, en uzelf of andere gebruikers als lid toevoegen. Zie de secties Een rol aan een rollengroep toevoegen of Een rollengroep maken in [Rollengroepen beheren in Exchange Online](/Exchange/permissions-exo/role-groups) voor meer informatie.\n  \nAls u importtaken wilt maken in het beveiligings- en compliancecentrum, moet bovendien sprake zijn van een van de volgende gevallen:\n  \n- De rol van e-mailgeadresseerde moet aan u zijn toegewezen in Exchange Online. Deze rol wordt standaard toegewezen aan de rollengroepen Organisatiebeheer en Recipient Management.\n    \n    Of\n    \n- U moet globale beheerder zijn in uw organisatie.\n    \n> [!TIP]\n> U zou een nieuwe rollengroep kunnen maken in Exchange Online die speciaal is bedoeld voor het importeren van PST-bestanden in Office 365. Wijs de rollen Postvak importeren exporteren en E-mailgeadresserde toe aan de nieuwe rollengroep en voeg er vervolgens leden aan toe voor het minimale niveau van machtigingen die zijn vereist voor het importeren van PST-bestanden. \n  \n"
@@ -162,4 +159,8 @@ sections:
       Ja.
   - question: >
       Ik moet de harde schijf naar een ander land verzenden. Moet ik hiervoor nog iets speciaals doen?
-    answer: De harde schijf die u naar Microsoft stuurt, passeert mogelijk internationale landsgrenzen. In dat geval bent u er zelf verantwoordelijk voor dat de harde schijf en de erop opgeslagen gegevens worden geïmporteerd en/of geëxporteerd in overeenstemming met de toepasselijke wetgeving. Voordat u een harde schijf verstuurt, dient u zich ervan te overtuigen dat de schijf en de gegevens op legale wijze naar het opgegeven Microsoft-datacenter mogen worden verstuurd. Op die manier wordt de schijf op tijd bij Microsoft bezorgd.
+    answer: >
+      De harde schijf die u naar Microsoft stuurt, passeert mogelijk internationale landsgrenzen. In dat geval bent u er zelf verantwoordelijk voor dat de harde schijf en de erop opgeslagen gegevens worden geïmporteerd en/of geëxporteerd in overeenstemming met de toepasselijke wetgeving. Voordat u een harde schijf verstuurt, dient u zich ervan te overtuigen dat de schijf en de gegevens op legale wijze naar het opgegeven Microsoft-datacenter mogen worden verstuurd. Op die manier wordt de schijf op tijd bij Microsoft bezorgd.
+  - question: >
+      Zijn er vereisten voor schermresolutie wanneer ik een importklus maak voor schijfzending?
+    answer: Als de schermresolutie op uw lokale computer is ingesteld op 1366 x 768, kunt u problemen hebben bij het maken van een importklus. Als dit het geval is, raden we u aan de schermresolutie te wijzigen in een andere instelling en vervolgens een nieuwe importklus te maken. We werken aan een oplossing voor dit probleem.
