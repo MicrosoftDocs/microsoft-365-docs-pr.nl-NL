@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: aaca8987-5b62-458b-9882-c28476a66918
 ms.custom: seo-marvel-apr2020
 description: Logboekregistratie voor postvakkencontrole is standaard ingeschakeld in Microsoft 365 (standaard ook wel standaardpostvakcontrole of postvakcontrole genoemd). Dit betekent dat bepaalde acties die worden uitgevoerd door postvakeigenaren, gedelegeerden en beheerders, automatisch worden aangemeld in een postvakauditlogboek, waar u kunt zoeken naar activiteiten die in het postvak worden uitgevoerd.
-ms.openlocfilehash: 56207a21d9a13edb04a07234764257d3c27f2d0f
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: f74cb23a029d4710a19aeb18999169f6adc636a4
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53226777"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287027"
 ---
 # <a name="manage-mailbox-auditing"></a>Postvakcontrole beheren
 
@@ -111,7 +111,7 @@ In de volgende tabel worden de postvakacties beschreven die beschikbaar zijn in 
 |**MailboxLogin**|De gebruiker heeft zich aangemeld bij zijn of haar postvak.|||![Vinkje](../media/checkmark.png)|
 |**MailItemsAccessed**|**Opmerking:** Deze waarde is alleen beschikbaar voor gebruikers van E5- of E5-abonnementsabonnementen. Zie Geavanceerd controleren instellen [in Microsoft 365.](set-up-advanced-audit.md) <p> E-mailgegevens worden toegankelijk via e-mailprotocollen en -clients.|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>|
 |**MessageBind**|**Opmerking:** Deze waarde is alleen beschikbaar voor E3-gebruikers (gebruikers zonder E5- of E5 Compliance-invoegabonnementen). <p> Een bericht is bekeken in het voorbeeldvenster of geopend door een beheerder.|![Vinkje](../media/checkmark.png)|||
-|**ModifyFolderPermissions**|Hoewel deze waarde wordt geaccepteerd als een postvakactie, is deze al opgenomen in de **actie UpdateFolderPermissions** en wordt deze niet afzonderlijk gecontroleerd. Met andere woorden, gebruik deze waarde niet.|||||
+|**ModifyFolderPermissions**|Hoewel deze waarde wordt geaccepteerd als een postvakactie, is deze al opgenomen in de **actie UpdateFolderPermissions** en wordt deze niet afzonderlijk gecontroleerd. Met andere woorden, gebruik deze waarde niet.||||
 |**Move**|Een bericht is naar een andere map verplaatst.|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|
 |**MoveToDeletedItems**|Een bericht is verwijderd en verplaatst naar de map Verwijderde items.|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>|![Vinkje](../media/checkmark.png)<sup>\*</sup>|
 |**RecordDelete**|Een item dat als record is gelabeld, is zacht verwijderd (verplaatst naar de map Herstelbare items). Items die als records zijn gelabeld, kunnen niet permanent worden verwijderd (verwijderd uit de map Herstelbare items).|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|![Vinkje](../media/checkmark.png)|
@@ -338,10 +338,10 @@ De waarde **Waar** geeft aan dat de logboekregistratie voor postvakcontrole word
   Als u postvakcontrolelogboekgegevens wilt ophalen voor gebruikers zonder E5-licenties, kunt u het volgende doen:
 
   - Postvakcontrole handmatig inschakelen voor afzonderlijke postvakken (voer de opdracht uit, `Set-Mailbox -Identity <MailboxIdentity> -AuditEnabled $true` ). Nadat u dit hebt uitgevoerd, kunt u auditlogboekzoekingen gebruiken in het Beveiligings- & compliancecentrum of via de Office 365 Management Activity API.
-  
+
     > [!NOTE]
     > Als het controleren van postvakken al lijkt te zijn ingeschakeld in het postvak, maar uw zoekopdrachten geen resultaten retourneren, wijzigt u de waarde van de parameter _AuditEnabled_ in en vervolgens terug `$false` naar `$true` .
-  
+
   - Gebruik de volgende cmdlets in Exchange Online PowerShell:
     - [Search-MailboxAuditLog](/powershell/module/exchange/search-mailboxauditlog) om het auditlogboek van het postvak te doorzoeken op specifieke gebruikers.
     - [New-MailboxAuditLogSearch](/powershell/module/exchange/new-mailboxauditlogsearch) om het auditlogboek voor postvakken te doorzoeken op specifieke gebruikers en om de resultaten via e-mail naar opgegeven geadresseerden te laten verzenden.

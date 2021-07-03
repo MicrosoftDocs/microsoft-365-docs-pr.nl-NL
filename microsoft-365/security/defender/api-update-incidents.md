@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: b50fe4672dd4cd721464c7414297efcc4a4921b7
-ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
+ms.openlocfilehash: 60f1209331862eb21d3b1949265f0873dcf2e5a7
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52861501"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287817"
 ---
 # <a name="update-incidents-api"></a>Api voor incidenten bijwerken
 
@@ -51,7 +51,7 @@ Als uw aanvraag wordt beperkt, wordt er een `429` antwoordcode retourneerd. De a
 
 ## <a name="permissions"></a>Machtigingen
 
-Een van de volgende machtigingen is vereist om deze API te bellen. Zie [Access the Microsoft 365 Defender API's (Access the Microsoft 365 Defender API's ) voor meer informatie,](api-access.md)inclusief het kiezen van machtigingen.
+Een van de volgende machtigingen is vereist om deze API te bellen. Zie Access the Microsoft 365 Defender APIs (Access [the Microsoft 365 Defender APIs) voor meer informatie,](api-access.md)inclusief het kiezen van machtigingen.
 
 Machtigingstype | Machtiging | Weergavenaam machtiging
 -|-|-
@@ -67,25 +67,25 @@ Gedelegeerd (werk- of schoolaccount) | Incident.ReadWrite | Incidenten lezen en 
 PATCH /api/incidents/{id}
 ```
 
-## <a name="request-headers"></a>Kopteksten aanvragen
+## <a name="request-headers"></a>Aanvraagheaders
 
 Naam | Type | Omschrijving
 -|-|-
 Autorisatie | Tekenreeks | Bearer {token}. **Vereist**.
-Inhoudstype | Tekenreeks | toepassing/json. **Vereist**.
+Content-Type | Tekenreeks | toepassing/json. **Vereist**.
 
-## <a name="request-body"></a>Body aanvragen
+## <a name="request-body"></a>Aanvraagtekst
 
 In de aanvraagt u de waarden voor de velden die moeten worden bijgewerkt. Bestaande eigenschappen die niet in de aanvraag worden opgenomen, behouden hun waarden, tenzij ze opnieuw moeten worden berekend vanwege wijzigingen in gerelateerde waarden. Voor de beste prestaties moet u bestaande waarden weglaten die niet zijn gewijzigd.
 
 Eigenschap | Type | Omschrijving
 -|-|-
 status | Enum | Hiermee geeft u de huidige status van het incident op. Mogelijke waarden zijn: ```Active``` ```Resolved``` , en ```Redirected``` .
-toegewezenTo | tekenreeks | Eigenaar van het incident.
+toegewezenTo | reeks | Eigenaar van het incident.
 classificatie | Enum | Specificatie van het incident. Mogelijke waarden zijn: ```Unknown``` ```FalsePositive``` , , ```TruePositive``` .
 bepaling | Enum | Hiermee geeft u de bepaling van het incident op. Mogelijke waarden zijn: ```NotAvailable``` , , , , , , ```Apt``` ```Malware``` ```SecurityPersonnel``` ```SecurityTesting``` ```UnwantedSoftware``` . ```Other```
 tags | lijst met tekenreeksen | Lijst met incidentlabels.
-opmerking | tekenreeks | Opmerking die moet worden toegevoegd aan het incident.
+opmerking | reeks | Opmerking die moet worden toegevoegd aan het incident.
 
 ## <a name="response"></a>Antwoord
 
@@ -125,11 +125,11 @@ Hier is een voorbeeld van de aanvraag.
 }
 ```
 
-## <a name="related-articles"></a>Aanverwante artikelen
+## <a name="related-articles"></a>Verwante artikelen
 
-- [Toegang tot Microsoft 365 Defender-API's](api-access.md)
+- [Toegang tot de Microsoft 365 Defender API's](api-access.md)
 - [Meer informatie over API-limieten en -licenties](api-terms.md)
 - [Foutcodes begrijpen](api-error-codes.md)
 - [API's voor incidenten](api-incident.md)
-- [Lijst met incidenten](api-list-incidents.md)
+- [Incidenten weergeven](api-list-incidents.md)
 - [Overzicht van incidenten](incidents-overview.md)

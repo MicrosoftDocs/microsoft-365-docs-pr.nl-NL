@@ -1,7 +1,7 @@
 ---
-title: Microsoft Search gebruiken om onderwerpen te zoeken in Microsoft Viva-onderwerpen
-ms.author: chuckedmonson
-author: chucked
+title: Gebruik Microsoft Search om onderwerpen te vinden in Microsoft Viva-onderwerpen
+ms.author: chucked
+author: chuckedmonson
 manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
@@ -10,14 +10,14 @@ ms.service: o365-administration
 search.appverid: ''
 localization_priority: None
 description: Meer informatie over hoe u kunt zoeken naar onderwerpen in Microsoft Viva.
-ms.openlocfilehash: 3bd247bfacc6a85bb19c8f4eeedb5aad8662e60e
-ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
+ms.openlocfilehash: a60d1e04c67eb42573bb566a5667f35227def2ad
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52908063"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287255"
 ---
-# <a name="use-microsoft-search-to-find-topics-in-microsoft-viva-topics"></a>Microsoft Search gebruiken om onderwerpen te zoeken in Microsoft Viva-onderwerpen
+# <a name="use-microsoft-search-to-find-topics-in-microsoft-viva-topics"></a>Gebruik Microsoft Search om onderwerpen te vinden in Microsoft Viva-onderwerpen
 
 Hoewel Gebruikers van Viva-onderwerpen onderwerpen kunnen vinden via onderwerp highlights in hun SharePoint sites, kunnen ze ze ook vinden via Microsoft Search. 
 
@@ -43,11 +43,11 @@ De zoekresultaten in Word, PowerPoint, Outlook en Excel worden ook het antwoord 
 
 In Viva-onderwerpen kunt u handmatig een onderwerp bewerken om er een acroniem voor op te nemen als *alternatieve naam.* Hierdoor kan een gebruiker die alleen zoekt op het acroniem van het onderwerp, het antwoord op het onderwerp vinden via Microsoft Search.
 
-[Acronym Answers](/microsoftsearch/manage-acronyms) is een functie die beschikbaar is via Microsoft Search en wordt afzonderlijk beheerd van Viva-onderwerpen.
+[Acroniem Answers](/microsoftsearch/manage-acronyms) is een functie die beschikbaar is Microsoft Search en wordt afzonderlijk beheerd van Viva-onderwerpen.
 
 ## <a name="bookmarks-and-topics"></a>Bladwijzers en onderwerpen
 
-[Bladwijzers](/microsoftsearch/manage-bookmarks) zijn een Microsoft Search-functie waarmee personen snel belangrijke sites en hulpprogramma's kunnen vinden met alleen een zoekopdracht (bijvoorbeeld een reisboekingshulpmiddel op een externe site buiten hun Microsoft 365 tenant). Ze worden gemaakt door zoekbeheerders in het Microsoft 365 beheercentrum. 
+[Bladwijzers](/microsoftsearch/manage-bookmarks) zijn een Microsoft Search waarmee personen snel belangrijke sites en hulpprogramma's kunnen vinden met alleen een zoekopdracht (bijvoorbeeld een reisboekingshulpmiddel op een externe site buiten hun Microsoft 365 tenant). Ze worden gemaakt door zoekbeheerders in de Microsoft 365-beheercentrum. 
 
 Voor gebruikers die op zoek zijn naar informatie over het boeken van een reis voor werk:
 

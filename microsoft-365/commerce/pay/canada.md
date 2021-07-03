@@ -13,12 +13,12 @@ ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: Lees waar u de betaling voor uw abonnement kunt verzenden.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 8a7152a8bfae62a4dda7b9b291b98528c788c8b7
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: b553c543989798f46e3e0301c36cfe6b5de80546
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537004"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287561"
 ---
 # <a name="payment-information-for-canada"></a>Betalingsgegevens voor Canada
 
@@ -30,20 +30,10 @@ ms.locfileid: "52537004"
 
 Als u een factuur hebt gefactureerd door **Microsoft Corporation,** gebruikt u deze bankgegevens:
 
-**Bank:** Bank of America, Toronto  
-**SWIFT-code:** BOFACATT  
-**Accountnummer:** 45571239  
-**Accountnaam:** MICROSOFT  
-**Bank-id:** 241  
-**Vertakking:** 56792  
-**Accountnaam:** MICROSOFT
+**Bank:** Bank of America, Toronto **SWIFT Code:** BOFACATT **Account Number:** 45571239 **Account Name:** MICROSOFT **Bank ID:** 241 **Branch:** 56792 **Account Name:** MICROSOFT
 
 Als u vanaf 1 maart 2021 een factuur hebt gefactureerd door **Microsoft Canada Inc.** voor bestellingen en verbruik, gebruikt u deze bankgegevens:
 
-**Bank:** Citibank N.A., Canadese tak  
-**Routeringsnummer:** 032820012  
-**BIC/SWIFT-code:** CITICATTBCH  
-**Accountnummer:** 3003600001  
-**Accountnaam:** MICROSOFT
+**Bank:** Citibank N.A., Canadian Branch **Routing Number:** 032820012 **BIC/SWIFT Code:** CITICATTBCH **Account Number:** 300360001 **Account name:** MICROSOFT
 
 Facturen die zijn uitgegeven vanuit een lokale Microsoft-dochteronderneming, worden uitgegeven met het standaardtarief btw/btw/btw en worden beschouwd als een binnenlandse levering van diensten voor btw/btw/btw-doeleinden.

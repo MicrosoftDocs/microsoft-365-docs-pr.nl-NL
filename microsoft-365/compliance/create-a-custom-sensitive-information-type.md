@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Informatie over het maken, wijzigen, verwijderen en testen van aangepaste gevoelige informatietypen voor DLP in het Beveiligings- & Compliancecentrum.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e067bc502267e918bd355d9bf8a1982795255846
-ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
+ms.openlocfilehash: f346a32da6f47cadc0ded6d7d045a833bb3b60b0
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53256721"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287537"
 ---
 # <a name="get-started-with-custom-sensitive-information-types"></a>Aan de slag met aangepaste typen vertrouwelijke informatie
 
@@ -128,12 +128,14 @@ U kunt ook aangepaste typen gevoelige informatie maken met behulp van powershell
 ### <a name="checksum-validator"></a>Checksum-validator
 
 Als u een checksum wilt uitvoeren op een cijfer in een normale expressie, kunt u de *checksum validator gebruiken.* Stel dat u een SIT moet maken voor een licentienummer met acht cijfers, waarbij het laatste cijfer een checksumcijfer is dat wordt gevalideerd met een mod 9-berekening. U hebt het algoritme checksum als dit ingesteld:
- 
+
 Som = cijfer 1 * 1 + cijfer 2 * 2 + cijfer 3 * 3 * 3 + cijfer 4 * gewicht 4 + cijfer 5 * 5 * 5 + cijfer 6 * gewicht 6 + cijfer 7 * gewicht 7 + cijfer 8 * gewicht 8 Mod waarde = Som % 9 Als Mod-waarde == cijfer 8 Accountnummer geldig is Als Mod-waarde != cijfer 8 Accountnummer ongeldig is
 
 1. Definieer het primaire element met deze normale expressie:
 
-`\d{8}`
+   ```console
+   \d{8}
+   ```
 
 2. Voeg vervolgens de checksum-validator toe.
 3. Voeg de gewogen waarden toe die zijn gescheiden door komma's, de positie van het controlecijfer en de waarde Mod. Zie Modulo-bewerking voor meer informatie over de bewerking [Modulo.](https://en.wikipedia.org/wiki/Modulo_operation)
@@ -145,11 +147,13 @@ Som = cijfer 1 * 1 + cijfer 2 * 2 + cijfer 3 * 3 * 3 + cijfer 4 * gewicht 4 + ci
 
 ### <a name="date-validator"></a>Datum validator
 
-Als een datumwaarde die is ingesloten in normale expressie, deel uitmaakt van een nieuw patroon dat u maakt, kunt u de *datum-validator* gebruiken om te testen of deze voldoet aan uw criteria. Stel dat u een SIT wilt maken voor een werknemeridentificatienummer met negen cijfers. De eerste zes cijfers zijn de datum van inhuur in DDMMYY-indeling en de laatste drie zijn willekeurig gegenereerde getallen. Controleer of de eerste zes cijfers de juiste notatie hebben. 
+Als een datumwaarde die is ingesloten in normale expressie, deel uitmaakt van een nieuw patroon dat u maakt, kunt u de *datum-validator* gebruiken om te testen of deze voldoet aan uw criteria. Stel dat u een SIT wilt maken voor een werknemeridentificatienummer met negen cijfers. De eerste zes cijfers zijn de datum van inhuur in DDMMYY-indeling en de laatste drie zijn willekeurig gegenereerde getallen. Controleer of de eerste zes cijfers de juiste notatie hebben.
 
 1. Definieer het primaire element met deze normale expressie:
 
-`\d{9}`
+   ```console
+   \d{9}
+   ```
 
 2. Voeg vervolgens de datum-validator toe.
 3. Selecteer de datumnotatie en de begin verschuiving. Aangezien de datumreeks de eerste zes cijfers is, is de verschuiving `0` .

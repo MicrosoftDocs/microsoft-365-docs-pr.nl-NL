@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-overview
 ms.custom: ''
 description: Gegevensbescherming configureren in Microsoft 365 voor privacyregels voor gegevens, zoals avg en de California Consumer Privacy Act (CTPA), waaronder Microsoft Teams, SharePoint en e-mail.
-ms.openlocfilehash: 76bac526dbf648b402c14b3304e32a308219bf02
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: c0ffe7cf850ec6e7ae8c974f983ce43668bf6f30
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53229201"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287709"
 ---
 # <a name="deploy-information-protection-for-data-privacy-regulations-with-microsoft-365"></a>Gegevensbescherming implementeren voor privacyregels voor gegevens met Microsoft 365
 
@@ -33,6 +33,11 @@ Voorbeelden van de typen gegevens in Microsoft 365 zijn chatsessies in Microsoft
 ![Wat is informatiebeveiliging voor privacyregels voor gegevens](../media/information-protection-deploy/information-protection-data-privacy-regulations-overview.png#lightbox)
 
 Er wordt ook aanvullende informatie verstrekt over het gebruik van Microsoft 365 identiteits-, apparaat- en bedreigingsbeveiligingsbesturingselementen voor uw privacybehoeften voor gegevens.
+
+Bekijk deze video voor een overzicht van het implementatieproces.
+<br>
+<br>
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4NHCQ]
 
 Met Microsoft 365 functies en functies voldoet u aan de criteria voor het beveiligen van informatie.
 
@@ -105,3 +110,26 @@ Er zijn Microsoft 365 functies beschikbaar om u te helpen bij het bewaken, onder
 Het hebben van processen, procedures en andere documentatie voor het gebruik van deze functies kan belangrijk zijn om naleving aan regelgevende instanties aan te tonen.
 
 Zie Incidenten met gegevensbescherming in uw organisatie bewaken en beantwoorden [voor meer informatie.](information-protection-deploy-monitor-respond.md)
+
+## <a name="training-for-administrators"></a>Training voor beheerders
+
+Met deze trainingsmodules van Microsoft Learn kunt u meer informatie krijgen over de mogelijkheden die belangrijk zijn voor informatiebeveiliging.
+
+
+#### <a name="information-protection"></a>Gegevensbescherming
+
+|Training:|Bedrijfsgegevens beveiligen met Microsoft 365|
+|:---|:---|
+|![Teams infobeveiligingstrainingspictogram](../media/protect-enterprise-information-microsoft-365.svg)|Het beveiligen en beveiligen van de gegevens van uw organisatie is lastiger dan ooit. In het leerpad Ondernemingsgegevens beveiligen met Microsoft 365 wordt besproken hoe u uw gevoelige informatie kunt beschermen tegen onbedoelde oversharing of misbruik, hoe u gegevens kunt ontdekken en classificeren, hoe u deze met gevoeligheidslabels kunt beschermen en hoe u uw gevoelige gegevens kunt bewaken en analyseren om te beschermen tegen verlies. Dit leerpad kan u helpen bij het voorbereiden van de Microsoft 365 Certified: Security Administrator Associate en Microsoft 365 Certified: Enterprise Administration Expert certifications..<br><br>1 uur - Learning Pad - 5 modules|
+
+> [!div class="nextstepaction"]
+> [Start >](/learn/modules/m365-security-info-overview/introduction/)
+
+#### <a name="identity-and-access"></a>Identiteit en toegang
+
+|Training:|Identiteit en toegang beveiligen met Azure Active Directory|
+|:---|:---|
+|![Pictogram Voor training voor identiteit en toegang](../media/protect-identity-and-access-with-microsoft-365.svg)|Het leerpad Identiteit en Access omvat de nieuwste identiteits- en toegangstechnologieën, hulpmiddelen voor het versterken van verificatie en richtlijnen voor identiteitsbeveiliging binnen uw organisatie. Met microsoft-toegangs- en identiteitstechnologieën kunt u de identiteit van uw organisatie beveiligen, ongeacht of deze on-premises of in de cloud is, en uw gebruikers in staat stellen veilig te werken vanaf elke locatie. Met dit leerpad kunt u zich voorbereiden op de Microsoft 365 Certified: Beveiligingsbeheerder associate en Microsoft 365 Certified: Enterprise Administration Expert-certificeringen.<br><br>2 uur 52 min - Learning Pad - 6 modules|
+
+> [!div class="nextstepaction"]
+> [Start >](/learn/modules/m365-identity-overview/introduction/)

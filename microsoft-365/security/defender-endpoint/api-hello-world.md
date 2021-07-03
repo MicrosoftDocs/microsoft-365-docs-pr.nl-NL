@@ -17,23 +17,23 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 385227dc67039fb3666d3b9518af5be8eb01dc7a
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 843fe093a2cfb8c328c51676e55f15ae732f7869
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769759"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286019"
 ---
-# <a name="microsoft-defender-for-endpoint-api---hello-world"></a>Microsoft Defender voor Endpoint API - Hello World 
+# <a name="microsoft-defender-for-endpoint-api---hello-world"></a>Microsoft Defender voor Endpoint API - Hello World
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
-**Van toepassing op:** 
+**Van toepassing op:**
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 
 
-- Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+- Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
@@ -54,7 +54,7 @@ Voor de registratiefase van toepassing moet u een **globale** beheerdersrol hebb
 
 1. Meld u aan [bij Azure](https://portal.azure.com) met uw **globale beheerdergebruiker.**
 
-2. Navigeer **naar Azure Active Directory**  >  **app-registraties Nieuwe**  >  **registratie**. 
+2. Navigeer **naar Azure Active Directory**  >  **app-registraties Nieuwe**  >  **registratie**.
 
    ![Afbeelding van Microsoft Azure en navigatie naar toepassingsregistratie](images/atp-azure-new-app2.png)
 
@@ -82,13 +82,13 @@ Voor de registratiefase van toepassing moet u een **globale** beheerdersrol hebb
 
 5. Klik **op Toestemming verlenen**
 
-    - **Opmerking:** Telkens wanneer u machtigingen toevoegt, moet u op Toestemming **verlenen** klikken om de nieuwe machtiging van kracht te laten worden.
+   - **Opmerking:** Telkens wanneer u machtigingen toevoegt, moet u op Toestemming **verlenen** klikken om de nieuwe machtiging van kracht te laten worden.
 
-    ![Afbeelding van machtigingen verlenen](images/grant-consent.png)
+   ![Afbeelding van machtigingen verlenen](images/grant-consent.png)
 
 6. Voeg een geheim toe aan de toepassing.
 
-    - Klik **op Certificaten &,** voeg beschrijving toe aan het geheim en klik op **Toevoegen.**
+   - Klik **op Certificaten &,** voeg beschrijving toe aan het geheim en klik op **Toevoegen.**
 
     **Belangrijk:** Nadat u op Toevoegen hebt **geklikt, kopieert u de gegenereerde geheime waarde.** U kunt het niet meer ophalen nadat u bent weggehaald.
 
@@ -100,96 +100,95 @@ Voor de registratiefase van toepassing moet u een **globale** beheerdersrol hebb
 
    ![Afbeelding van gemaakte app-id](images/app-and-tenant-ids.png)
 
-
 Klaar! U hebt een toepassing geregistreerd.
 
 ### <a name="step-2---get-a-token-using-the-app-and-use-this-token-to-access-the-api"></a>Stap 2: haal een token op met de App en gebruik dit token om toegang te krijgen tot de API.
 
--   Kopieer het script hieronder naar PowerShell ISE of naar een teksteditor en sla het op als "**Get-Token.ps1**"
--   Als u dit script uit te voeren, wordt een token gegenereerd en wordt dit opgeslagen in de werkmap onder de naam "**Latest-token.txt**".
+- Kopieer het script hieronder naar PowerShell ISE of naar een teksteditor en sla het op als "**Get-Token.ps1**"
+- Als u dit script uit te voeren, wordt een token gegenereerd en wordt dit opgeslagen in de werkmap onder de naam "**Latest-token.txt**".
 
-```
-# That code gets the App Context Token and save it to a file named "Latest-token.txt" under the current directory
-# Paste below your Tenant ID, App ID and App Secret (App key).
+   ```powershell
+   # That code gets the App Context Token and save it to a file named "Latest-token.txt" under the current directory
+   # Paste below your Tenant ID, App ID and App Secret (App key).
 
-$tenantId = '' ### Paste your tenant ID here
-$appId = '' ### Paste your Application ID here
-$appSecret = '' ### Paste your Application secret here
+   $tenantId = '' ### Paste your tenant ID here
+   $appId = '' ### Paste your Application ID here
+   $appSecret = '' ### Paste your Application secret here
 
-$resourceAppIdUri = 'https://api.securitycenter.microsoft.com'
-$oAuthUri = "https://login.microsoftonline.com/$TenantId/oauth2/token"
-$authBody = [Ordered] @{
-    resource = "$resourceAppIdUri"
-    client_id = "$appId"
-    client_secret = "$appSecret"
-    grant_type = 'client_credentials'
-}
-$authResponse = Invoke-RestMethod -Method Post -Uri $oAuthUri -Body $authBody -ErrorAction Stop
-$token = $authResponse.access_token
-Out-File -FilePath "./Latest-token.txt" -InputObject $token
-return $token
-```
+   $resourceAppIdUri = 'https://api.securitycenter.microsoft.com'
+   $oAuthUri = "https://login.microsoftonline.com/$TenantId/oauth2/token"
+   $authBody = [Ordered] @{
+       resource = "$resourceAppIdUri"
+       client_id = "$appId"
+       client_secret = "$appSecret"
+       grant_type = 'client_credentials'
+   }
+   $authResponse = Invoke-RestMethod -Method Post -Uri $oAuthUri -Body $authBody -ErrorAction Stop
+   $token = $authResponse.access_token
+   Out-File -FilePath "./Latest-token.txt" -InputObject $token
+   return $token
+   ```
 
--   Sanity Check:<br>
-Voer het script uit.<br>
-Ga in uw browser naar: https://jwt.ms/ <br>
-Kopieer het token (de inhoud van het Latest-token.txt bestand).<br>
-Plakken in het bovenste vak.<br>
-Zoek naar de sectie 'rollen'. Zoek de rol Alert.Read.All.
+- Sanity Check:
+  - Voer het script uit.
+  - Ga in uw browser naar: <https://jwt.ms/>
+  - Kopieer het token (de inhoud van het Latest-token.txt bestand).
+  - Plakken in het bovenste vak.
+  - Zoek naar de sectie 'rollen'. Zoek de rol Alert.Read.All.
 
-![Afbeelding jwt.ms](images/api-jwt-ms.png)
+  ![Afbeelding jwt.ms](images/api-jwt-ms.png)
 
 ### <a name="lets-get-the-alerts"></a>Hiermee kunt u de waarschuwingen krijgen.
 
--   Het onderstaande script gebruikt **Get-Token.ps1** toegang tot de API en krijgt de afgelopen 48 uur waarschuwingen.
--   Sla dit script op in dezelfde map die u het vorige script hebt **Get-Token.ps1.** 
--   Het script maakt twee bestanden (json en csv) met de gegevens in dezelfde map als de scripts.
+- Het onderstaande script gebruikt **Get-Token.ps1** toegang tot de API en krijgt de afgelopen 48 uur waarschuwingen.
+- Sla dit script op in dezelfde map die u het vorige script hebt **Get-Token.ps1.**
+- Het script maakt twee bestanden (json en csv) met de gegevens in dezelfde map als de scripts.
 
-```
-# Returns Alerts created in the past 48 hours.
+  ```powershell
+  # Returns Alerts created in the past 48 hours.
 
-$token = ./Get-Token.ps1       #run the script Get-Token.ps1  - make sure you are running this script from the same folder of Get-Token.ps1
+  $token = ./Get-Token.ps1       #run the script Get-Token.ps1  - make sure you are running this script from the same folder of Get-Token.ps1
 
-# Get Alert from the last 48 hours. Make sure you have alerts in that time frame.
-$dateTime = (Get-Date).ToUniversalTime().AddHours(-48).ToString("o")       
+  # Get Alert from the last 48 hours. Make sure you have alerts in that time frame.
+  $dateTime = (Get-Date).ToUniversalTime().AddHours(-48).ToString("o")
 
-# The URL contains the type of query and the time filter we create above
-# Read more about other query options and filters at   Https://TBD- add the documentation link
-$url = "https://api.securitycenter.microsoft.com/api/alerts?`$filter=alertCreationTime ge $dateTime"
+  # The URL contains the type of query and the time filter we create above
+  # Read more about other query options and filters at   Https://TBD- add the documentation link
+  $url = "https://api.securitycenter.microsoft.com/api/alerts?`$filter=alertCreationTime ge $dateTime"
 
-# Set the WebRequest headers
-$headers = @{ 
-    'Content-Type' = 'application/json'
-    Accept = 'application/json'
-    Authorization = "Bearer $token" 
-}
+  # Set the WebRequest headers
+  $headers = @{
+      'Content-Type' = 'application/json'
+      Accept = 'application/json'
+      Authorization = "Bearer $token"
+  }
 
-# Send the webrequest and get the results. 
-$response = Invoke-WebRequest -Method Get -Uri $url -Headers $headers -ErrorAction Stop
+  # Send the webrequest and get the results.
+  $response = Invoke-WebRequest -Method Get -Uri $url -Headers $headers -ErrorAction Stop
 
-# Extract the alerts from the results. 
-$alerts =  ($response | ConvertFrom-Json).value | ConvertTo-Json
+  # Extract the alerts from the results.
+  $alerts =  ($response | ConvertFrom-Json).value | ConvertTo-Json
 
-# Get string with the execution time. We concatenate that string to the output file to avoid overwrite the file
-$dateTimeForFileName = Get-Date -Format o | foreach {$_ -replace ":", "."}    
+  # Get string with the execution time. We concatenate that string to the output file to avoid overwrite the file
+  $dateTimeForFileName = Get-Date -Format o | foreach {$_ -replace ":", "."}
 
-# Save the result as json and as csv
-$outputJsonPath = "./Latest Alerts $dateTimeForFileName.json"     
-$outputCsvPath = "./Latest Alerts $dateTimeForFileName.csv"
+  # Save the result as json and as csv
+  $outputJsonPath = "./Latest Alerts $dateTimeForFileName.json"
+  $outputCsvPath = "./Latest Alerts $dateTimeForFileName.csv"
 
-Out-File -FilePath $outputJsonPath -InputObject $alerts
-($alerts | ConvertFrom-Json) | Export-CSV $outputCsvPath -NoTypeInformation 
-```
+  Out-File -FilePath $outputJsonPath -InputObject $alerts
+  ($alerts | ConvertFrom-Json) | Export-CSV $outputCsvPath -NoTypeInformation
+  ```
 
 U bent klaar. U hebt zojuist het volgende gedaan:
--   Gemaakt en geregistreerd en toepassing
--   Machtiging verleend voor deze toepassing om waarschuwingen te lezen
--   De API verbonden
--   Een PowerShell-script gebruikt om waarschuwingen te retourneren die in de afgelopen 48 uur zijn gemaakt
 
-
+- Gemaakt en geregistreerd en toepassing
+- Machtiging verleend voor deze toepassing om waarschuwingen te lezen
+- De API verbonden
+- Een PowerShell-script gebruikt om waarschuwingen te retourneren die in de afgelopen 48 uur zijn gemaakt
 
 ## <a name="related-topic"></a>Verwant onderwerp
+
 - [Microsoft Defender voor eindpunt-API's](exposed-apis-list.md)
 - [Toegang tot Microsoft Defender voor eindpunt met toepassingscontext](exposed-apis-create-app-webapp.md)
 - [Toegang tot Microsoft Defender voor Eindpunt met gebruikerscontext](exposed-apis-create-app-nativeapp.md)

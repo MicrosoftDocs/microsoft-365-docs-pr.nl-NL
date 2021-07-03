@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 80794a9d5e4da0d2da74fc714ffd1e0ceab34c8f
-ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
+ms.openlocfilehash: 24b24c634eac7ee125810d96587c9c1e209b6491
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53105684"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286955"
 ---
 # <a name="onboard-windows-10-devices-using-group-policy"></a>Onboard Windows 10 apparaten met groepsbeleid 
 
@@ -36,28 +36,25 @@ ms.locfileid: "53105684"
 
 >Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configureendpointsgp-abovefoldlink)
 
-
 > [!NOTE]
 > Als u gp-updates (Group Policy) wilt gebruiken om het pakket te implementeren, moet u zich Windows Server 2008 R2 of hoger.
-> 
+>
 > Voor Windows Server 2019 moet u mogelijk NT AUTHORITY\Well-Known-System-Account vervangen door NT AUTHORITY\SYSTEM van het XML-bestand dat door de groepsbeleidsvoorkeur wordt gemaakt.
 
 ## <a name="onboard-devices-using-group-policy"></a>Onboarden apparaten met Groepsbeleid
 
 [![Afbeelding van het PDF-bestand met de verschillende implementatiepaden](images/onboard-gp.png)](images/onboard-gp.png#lightbox)
 
-Bekijk het [PDF-bestand](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf) of [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) om de verschillende paden te bekijken bij de implementatie van Defender voor Eindpunt. 
-
-
+Bekijk het [PDF-bestand](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf) of [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) om de verschillende paden te bekijken bij de implementatie van Defender voor Eindpunt.
 
 1. Open het GP-configuratiepakket .zip bestand *(WindowsDefenderATPOnboardingPackage.zip)* dat u hebt gedownload van de wizard Service onboarding. U kunt het pakket ook van [Microsoft Defender-beveiligingscentrum:](https://securitycenter.windows.com/)
- 
+
     1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **Onboarding.**
 
     1. Selecteer Windows 10 als het besturingssysteem.
-    
+
     1. Selecteer groepsbeleid in **het veld** **Implementatiemethode.**
-    
+
     1. Klik **op Pakket downloaden** en sla het .zip op.
 
 2. Haal de inhoud van het .zip naar een gedeelde, alleen-lezen locatie die toegankelijk is voor het apparaat. U moet een map met de naam *OptionalParamsPolicy en* het bestand *WindowsDefenderATPOnboardingScript.cmd hebben.*
@@ -76,7 +73,7 @@ Bekijk het [PDF-bestand](https://github.com/MicrosoftDocs/microsoft-365-docs/raw
 
 9. Klik **op OK** en sluit alle geopende GPMC-vensters.
 
->[!TIP]
+> [!TIP]
 > Nadat u het apparaat hebt onboarding, kunt u ervoor kiezen om een detectietest uit te voeren om te controleren of het apparaat correct is aan boord van de service. Zie Een detectietest uitvoeren op een nieuw ingebouwde [Defender voor eindpuntapparaat](run-detection-test.md)voor meer informatie.
 
 ## <a name="additional-defender-for-endpoint-configuration-settings"></a>Aanvullende instellingen voor configuratie van Defender voor eindpunten
@@ -85,31 +82,31 @@ Voor elk apparaat kunt u bepalen of er steekproeven kunnen worden verzameld vana
 U kunt Groepsbeleid (GP) gebruiken om instellingen te configureren, zoals instellingen voor het delen van voorbeelden die worden gebruikt in de functie voor uitgebreide analyse.
 
 ### <a name="configure-sample-collection-settings"></a>Voorbeeldverzamelingsinstellingen configureren
-1.  Kopieer op uw GP-beheerapparaat de volgende bestanden uit het configuratiepakket:
+
+1. Kopieer op uw GP-beheerapparaat de volgende bestanden uit het configuratiepakket:
 
     - _AtpConfiguration.admx kopiëren_ naar _C: \\ Windows \\ PolicyDefinitions_
 
     - _AtpConfiguration.adml kopiëren_ naar _C: \\ Windows \\ PolicyDefinitions \\ en-US_
 
     Als u een Centraal Archief voor beheersjablonen voor [groepsbeleid](https://support.microsoft.com/help/3087759/how-to-create-and-manage-the-central-store-for-group-policy-administra)gebruikt, kopieert u de volgende bestanden uit het configuratiepakket:
-    
+
     - _AtpConfiguration.admx kopiëren_ naar _\\ \\ \<forest.root\> \\ Beleidsregels voor SysVolDefinitions \\ \<forest.root\> \\ \\_
 
     - _AtpConfiguration.adml kopiëren_ naar _\\ \\ \<forest.root\> \\ SysVol \\ \<forest.root\> \\ Policies \\ PolicyDefinitions \\ en-US_
 
-2.  Open de [console Groepsbeleidsbeheer,](/internet-explorer/ie11-deploy-guide/group-policy-and-group-policy-mgmt-console-ie11)klik met de rechtermuisknop op het GPO dat u wilt configureren en klik op **Bewerken.**
+2. Open de [console Groepsbeleidsbeheer,](/internet-explorer/ie11-deploy-guide/group-policy-and-group-policy-mgmt-console-ie11)klik met de rechtermuisknop op het GPO dat u wilt configureren en klik op **Bewerken.**
 
-3.  Ga in **de Editor voor groepsbeleidsbeheer** naar **Computerconfiguratie.**
+3. Ga in **de Editor voor groepsbeleidsbeheer** naar **Computerconfiguratie.**
 
-4.  Klik **op Beleid** en vervolgens op **Beheersjablonen.**
+4. Klik **op Beleid** en vervolgens op **Beheersjablonen.**
 
-5.  Klik **Windows onderdelen en** klik Windows Defender **SmartScreen.**
+5. Klik **Windows onderdelen en** klik Windows Defender **SmartScreen.**
 
-6.  Kies om voorbeeld delen in of uit te schakelen vanaf uw apparaten.
+6. Kies om voorbeeld delen in of uit te schakelen vanaf uw apparaten.
 
->[!NOTE]
+> [!NOTE]
 > Als u geen waarde in stelt, is de standaardwaarde het inschakelen van voorbeeldverzameling.
-
 
 ## <a name="other-recommended-configuration-settings"></a>Andere aanbevolen configuratie-instellingen
 
@@ -121,39 +118,39 @@ Alle beleidsregels bevinden zich onder `Computer Configuration\Policies\Administ
 
 **Beleidslocatie:** \Windows Onderdelen\Windows Defender ATP
 
-Beleid | Instelling 
+Beleid | Instelling
 :---|:---
-Inschakelen\Voorbeeldverzameling uitschakelen|   Ingeschakeld - 'Voorbeeldverzameling op machines inschakelen' ingeschakeld
+Inschakelen\Voorbeeldverzameling uitschakelen| Ingeschakeld - 'Voorbeeldverzameling op machines inschakelen' ingeschakeld
 
-<br/>
+<br>
 
 **Beleidslocatie:** \Windows Onderdelen\Microsoft Defender Antivirus
 
-Beleid | Instelling 
+Beleid | Instelling
 :---|:---
 Detectie configureren voor potentieel ongewenste toepassingen | Ingeschakeld, Blokkeren
 
-<br/>
+<br>
 
 **Beleidslocatie:** \Windows Components\Microsoft Defender Antivirus\MAPS
 
-Beleid | Instelling 
+Beleid | Instelling
 :---|:---
 Deelnemen aan Microsoft MAPS | Ingeschakelde, geavanceerde KAARTEN
 Bestandsvoorbeelden verzenden wanneer verdere analyse is vereist | Ingeschakeld: Veilige steekproeven verzenden
 
-<br/>
+<br>
 
 **Beleidslocatie:** \Windows Components\Microsoft Defender Antivirus\Real-time Protection
 
-Beleid | Instelling 
+Beleid | Instelling
 :---|:---
 Realtime beveiliging uitschakelen|Uitgeschakeld
 Gedragscontrole in- en uit-|Ingeschakeld
 Alle gedownloade bestanden en bijlagen scannen|Ingeschakeld
 Bestands- en programmaactiviteit op uw computer controleren|Ingeschakeld
 
-<br/>
+<br>
 
 **Beleidslocatie:** \Windows Components\Microsoft Defender Antivirus\Scan
 
@@ -163,8 +160,7 @@ Beleid | Instelling
 :---|:---
 Controleer op de meest recente beveiligingsinformatie over virussen en spyware voordat u een geplande scan gaat uitvoeren |Ingeschakeld
 
-
-<br/>
+<br>
 
 **Beleidslocatie:** \Windows Components\Microsoft Defender Antivirus\Microsoft Defender Exploit Guard\Attack Surface Reduction
 
@@ -182,15 +178,12 @@ De huidige lijst met GUID's voor het verlagen van het aanvalsoppervlak op de mar
 
    ![Afbeelding van de configuratie van de surface reduction van de aanval](images/asr-guid.png)
 
-
-
-Beleid | Instelling 
+Beleid | Instelling
 :---|:---
 Beheerde maptoegang configureren| Ingeschakeld, auditmodus
 
-
-
 ## <a name="offboard-devices-using-group-policy"></a>Offboard-apparaten met groepsbeleid
+
 Om veiligheidsredenen verloopt het pakket dat wordt gebruikt voor Offboard-apparaten 30 dagen na de datum waarop het is gedownload. Verlopen offboarding-pakketten die naar een apparaat zijn verzonden, worden geweigerd. Wanneer u een offboarding-pakket downloadt, wordt u op de hoogte gesteld van de vervaldatum van de pakketten en wordt het ook opgenomen in de pakketnaam.
 
 > [!NOTE]
@@ -201,7 +194,7 @@ Om veiligheidsredenen verloopt het pakket dat wordt gebruikt voor Offboard-appar
     1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **Offboarding**.
 
     1. Selecteer Windows 10 als het besturingssysteem.
-    
+
     1. Selecteer groepsbeleid in **het veld** **Implementatiemethode.**
 
     1. Klik **op Pakket downloaden** en sla het .zip op.
@@ -225,11 +218,12 @@ Om veiligheidsredenen verloopt het pakket dat wordt gebruikt voor Offboard-appar
 > [!IMPORTANT]
 > Offboarding zorgt ervoor dat het apparaat stopt met het verzenden van sensorgegevens naar de portal, maar gegevens van het apparaat, inclusief verwijzingen naar eventuele waarschuwingen die het heeft ontvangen, blijven maximaal 6 maanden bewaard.
 
-
 ## <a name="monitor-device-configuration"></a>Apparaatconfiguratie controleren
+
 Met Groepsbeleid is er geen optie om de implementatie van beleidsregels op de apparaten te controleren. Monitoring kan rechtstreeks in de portal of met behulp van de verschillende implementatiehulpmiddelen worden uitgevoerd.
 
 ## <a name="monitor-devices-using-the-portal"></a>Apparaten controleren met behulp van de portal
+
 1. Ga naar [Microsoft Defender-beveiligingscentrum.](https://securitycenter.windows.com/)
 2. Klik **op De lijst Apparaten**.
 3. Controleer of apparaten worden weergegeven.
@@ -237,8 +231,8 @@ Met Groepsbeleid is er geen optie om de implementatie van beleidsregels op de ap
 > [!NOTE]
 > Het kan enkele dagen duren voordat apparaten worden weergegeven in de **lijst Apparaten.** Dit omvat de tijd die nodig is voor de distributie van het beleid naar het apparaat, de tijd die nodig is voordat de gebruiker zich aanmeldt en de tijd die nodig is voor het eindpunt om te beginnen met rapporteren.
 
-
 ## <a name="related-topics"></a>Gerelateerde onderwerpen
+
 - [Onboard Windows 10 apparaten met Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
 - [Onboarden Windows 10-apparaten met hulpmiddelen voor Mobile Device Management](configure-endpoints-mdm.md)
 - [Onboarden Windows 10-apparaten met een lokaal script](configure-endpoints-script.md)

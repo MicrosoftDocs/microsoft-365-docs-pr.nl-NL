@@ -1,5 +1,5 @@
 ---
-title: Overzicht van het onderwerpcentrum in Microsoft Viva Topics
+title: Overzicht van het onderwerpcentrum in Microsoft Viva-onderwerpen
 author: chuckedmonson
 ms.author: chucked
 manager: pamgreen
@@ -13,21 +13,21 @@ ms.collection:
 - m365initiative-viva-topics
 ROBOTS: ''
 localization_priority: None
-description: Meer informatie over het onderwerpcentrum in Microsoft Viva Topics.
-ms.openlocfilehash: f782be90e6cd6fa12e57df87ebb1057e58bdca19
-ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
+description: Meer informatie over het onderwerpcentrum in Microsoft Viva-onderwerpen.
+ms.openlocfilehash: bd3bdbc368ca95b1c795043c5c083aaebfcf5742
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52984926"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287279"
 ---
-# <a name="topic-center-overview-in-microsoft-viva-topics"></a>Overzicht van het onderwerpcentrum in Microsoft Viva Topics
+# <a name="topic-center-overview-in-microsoft-viva-topics"></a>Overzicht van het onderwerpcentrum in Microsoft Viva-onderwerpen
 
 In Microsoft Viva Topics is het onderwerpcentrum een moderne SharePoint site die fungeert als een kenniscentrum voor uw organisatie. Deze wordt gemaakt tijdens [de installatie van Viva-onderwerpen](set-up-topic-experiences.md) in de Microsoft 365-beheercentrum.
 
-Het onderwerpcentrum heeft een standaard startpagina met het **webonderdeel** Onderwerpen waarin alle gelicentieerde gebruikers de onderwerpen kunnen zien waarmee ze een verbinding hebben. 
+Het onderwerpcentrum heeft een standaard startpagina met het **webonderdeel** Onderwerpen waarin alle gelicentieerde gebruikers de onderwerpen kunnen zien waarmee ze een verbinding hebben.
 
-Hoewel alle gelicentieerde gebruikers die onderwerpen kunnen bekijken, toegang hebben tot het onderwerpcentrum, kunnen kennisbeheerders ook onderwerpen beheren via de **pagina Onderwerpen** beheren. Het **tabblad Onderwerpen beheren** wordt alleen weergegeven voor gebruikers met de machtiging Onderwerpen beheren. 
+Hoewel alle gelicentieerde gebruikers die onderwerpen kunnen bekijken, toegang hebben tot het onderwerpcentrum, kunnen kennisbeheerders ook onderwerpen beheren via de **pagina Onderwerpen** beheren. Het **tabblad Onderwerpen beheren** wordt alleen weergegeven voor gebruikers met de machtiging Onderwerpen beheren.
 
 ## <a name="where-is-my-topic-center"></a>Waar is mijn onderwerpcentrum
 
@@ -37,35 +37,31 @@ Het onderwerpcentrum wordt gemaakt tijdens de installatie van Viva-onderwerpen. 
 1. Selecteer in Microsoft 365-beheercentrum **de** Instellingen en selecteer vervolgens **Organisatie-instellingen.**
 2. Selecteer op **het tabblad** Services de optie **Onderwerpervaringen.**
 
-    ![Verbinding maken mensen kennis te laten maken](../media/admin-org-knowledge-options-completed.png) 
+    ![Verbinding maken mensen kennis te laten maken](../media/admin-org-knowledge-options-completed.png)
 
 3. Selecteer het **tabblad Onderwerpcentrum.** Onder **Siteadres** staat een koppeling naar uw onderwerpcentrum.
 
-    ![knowledge-network-settings](../media/knowledge-network-settings-topic-center.png) 
-
-
+    ![knowledge-network-settings](../media/knowledge-network-settings-topic-center.png)
 
 ## <a name="home-page"></a>Startpagina
 
 </br>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4LAhZ]  
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4LAhZ]
 
 </br>
-
 
 Op de startpagina van het onderwerpcentrum ziet u de onderwerpen in uw organisatie waarmee u verbinding hebt.
 
 - Voorgestelde verbindingen: u ziet onderwerpen die worden vermeld onder **We hebben u op deze onderwerpen vermeld. Hebben we het goed gedaan?** Dit zijn onderwerpen waarin uw verbinding met het onderwerp is voorgesteld via AI. U kunt bijvoorbeeld een auteur van een gerelateerd bestand of site zijn. U wordt gevraagd te bevestigen dat u moet blijven vermeld als een verwante persoon voor het onderwerp.
 
-   ![Voorgestelde verbindingen](../media/knowledge-management/my-topics.png) 
- 
+   ![Voorgestelde verbindingen](../media/knowledge-management/my-topics.png)
+
 - Bevestigd verbindingen: dit zijn onderwerpen waarin u bent vastgemaakt aan de onderwerppagina of u een voorgestelde verbinding met het onderwerp hebt bevestigd. Onderwerpen worden verplaatst van de voorgestelde sectie naar de sectie bevestigd wanneer u een voorgestelde verbinding bevestigt.
- 
-   ![Bevestigd onderwerpen](../media/knowledge-management/my-topics-confirmed.png) 
+
+   ![Bevestigd onderwerpen](../media/knowledge-management/my-topics-confirmed.png)
 
 Wanneer een gebruiker zijn of haar verbinding met een onderwerp bevestigt, kan de gebruiker wijzigingen aan de onderwerppagina maken om de verbinding te curaçeren. Ze kunnen bijvoorbeeld meer informatie geven over hun verbinding met het onderwerp.
-
 
 ## <a name="manage-topics-page"></a>Pagina Onderwerpen beheren
 
@@ -76,8 +72,8 @@ Op de **pagina Onderwerpen beheren** worden in het onderwerpdashboard alle onder
 - Bevestig het onderwerp: Geeft gebruikers aan dat een AI-voorgesteld onderwerp is gevalideerd door een menselijke curator.
 
 - Publiceer het onderwerp: Bewerk de onderwerpgegevens om de kwaliteit van het onderwerp te verbeteren dat in eerste instantie is geïdentificeerd, en belicht het onderwerp voor alle gebruikers die toegang hebben tot onderwerpen.
- 
-- Verwijder het onderwerp: Maakt het onderwerp onontdekt voor eindgebruikers. Het onderwerp wordt verplaatst naar het tabblad **Verwijderd** en kan zo nodig later worden bevestigd. 
+
+- Verwijder het onderwerp: Maakt het onderwerp onontdekt voor eindgebruikers. Het onderwerp wordt verplaatst naar het tabblad **Verwijderd** en kan zo nodig later worden bevestigd.
 
 Zie Onderwerpen beheren voor meer informatie over het beheren van onderwerpen op **de** pagina Onderwerpen [beheren.](manage-topics.md)
 
@@ -89,8 +85,6 @@ Als u de machtiging Onderwerpen maken en bewerken hebt, kunt u het volgende doen
 
 - [Nieuwe onderwerpen maken:](create-a-topic.md)U kunt nieuwe onderwerpen maken voor onderwerpen die niet zijn gevonden via detectie of als er onvoldoende bewijs is gevonden voor het maken van een onderwerp door AI-hulpmiddelen.
 
-
 ## <a name="see-also"></a>Zie ook
 
 [Onderwerpen beheren in het onderwerpcentrum](manage-topics.md)
-

@@ -18,66 +18,65 @@ ms.custom:
 - PowerShell
 ms.assetid: 30813f8d-b08d-444b-98c1-53df7c29b4d7
 description: Gebruik PowerShell voor Microsoft 365 om eigenschappen van afzonderlijke of meerdere gebruikersaccounts in uw Microsoft 365 configureren.
-ms.openlocfilehash: 6b674641842f89fd8c8e22dc26350cdd53734b9e
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: aeb9b586c42a0bdfb8d69b8d297998fedc1124e6
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911082"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286007"
 ---
 # <a name="configure-microsoft-365-user-account-properties-with-powershell"></a>Eigenschappen Microsoft 365 gebruikersaccount configureren met PowerShell
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-U kunt het beheercentrum Microsoft 365 gebruiken om eigenschappen te configureren voor de gebruikersaccounts van uw Microsoft 365 tenant. In PowerShell kunt u dit ook doen, plus enkele andere dingen die u niet kunt doen in het beheercentrum.
+U kunt de Microsoft 365-beheercentrum gebruiken om eigenschappen te configureren voor de gebruikersaccounts van uw Microsoft 365 tenant. In PowerShell kunt u dit ook doen, plus enkele andere dingen die u niet kunt doen in het beheercentrum.
   
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>De powershell Azure Active Directory powershell gebruiken voor Graph module
 
-Als u eigenschappen wilt configureren voor gebruikersaccounts in de Azure Active Directory PowerShell voor Graph-module, gebruikt u de cmdlet [**Set-AzureADUser**](/powershell/module/azuread/set-azureaduser?view=azureadps-2.0) en geeft u de eigenschappen op die u wilt instellen of wijzigen.
+Als u eigenschappen wilt configureren voor gebruikersaccounts in de Azure Active Directory PowerShell voor Graph-module, gebruikt u de cmdlet [**Set-AzureADUser**](/powershell/module/azuread/set-azureaduser) en geeft u de eigenschappen op die u wilt instellen of wijzigen.
 
 Maak eerst [verbinding met uw Microsoft 365 tenant.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
-   
+
 ### <a name="change-properties-for-a-specific-user-account"></a>Eigenschappen wijzigen voor een specifiek gebruikersaccount
 
 U identificeert het account met de *parameter -ObjectID* en stelt of wijzigt specifieke eigenschappen met behulp van extra parameters. Hier is een lijst met de meest voorkomende parameters:
   
 - -Department " \<department name> "
-    
-- -DisplayName " \<full user name> "
-    
-- -FacsimilieTelephoneNumber " \<fax number> "
-    
-- -GivenName " \<user first name> "
-    
-- -Achternaam \<user last name> " "
-    
-- -Mobile " \<mobile phone number> "
-    
-- -JobTitle " \<job title> "
-    
-- -PreferredLanguage " \<language> "
-    
-- -StreetAddress \<street address> " "
-    
-- -City " \<city name> "
-    
-- -State " \<state name> "
-    
-- -Postcode " \<postal code> "
-    
-- -Country " \<country name> "
-    
-- -TelephoneNumber " \<office phone number> "
-    
-- -UsageLocation " \<2-character country or region code> "
-    
-    Dit is de ISO 3166-1 alfa-2 (A2) land- of regiocode met twee letters.
-    
-Zie [Set-AzureADUser voor meer parameters.](/powershell/module/azuread/set-azureaduser?view=azureadps-2.0)
 
->[!Note]
->Voordat u licenties kunt toewijzen aan een gebruikersaccount, moet u een gebruikslocatie toewijzen.
->
+- -DisplayName " \<full user name> "
+
+- -FacsimilieTelephoneNumber " \<fax number> "
+
+- -GivenName " \<user first name> "
+
+- -Achternaam \<user last name> " "
+
+- -Mobile " \<mobile phone number> "
+
+- -JobTitle " \<job title> "
+
+- -PreferredLanguage " \<language> "
+
+- -StreetAddress \<street address> " "
+
+- -City " \<city name> "
+
+- -State " \<state name> "
+
+- -Postcode " \<postal code> "
+
+- -Country " \<country name> "
+
+- -TelephoneNumber " \<office phone number> "
+
+- -UsageLocation " \<2-character country or region code> "
+
+    Dit is de ISO 3166-1 alfa-2 (A2) land- of regiocode met twee letters.
+
+Zie [Set-AzureADUser voor meer parameters.](/powershell/module/azuread/set-azureaduser)
+
+> [!NOTE]
+> Voordat u licenties kunt toewijzen aan een gebruikersaccount, moet u een gebruikslocatie toewijzen.
 
 Voer de volgende opdracht uit om de gebruikersnaam voor uw gebruikersaccounts weer te geven.
   
@@ -88,13 +87,13 @@ Get-AzureADUser | Sort UserPrincipalName | Select UserPrincipalName | More
 Met deze opdracht wordt PowerShell instructies gegeven voor:
   
 1. Ontvang alle informatie over de gebruikersaccounts **(Get-AzureADUser)** en stuur deze naar de volgende opdracht ( **|** ).
-    
+
 1. Sorteer de lijst met gebruikershoofdnamen alfabetisch **(Sorteer UserPrincipalName)** en verzend deze naar de volgende opdracht ( **|** ).
-    
+
 1. Geef alleen de eigenschap User Principal Name weer voor elk account **(Selecteer UserPrincipalName).**
 
 1. Geef ze één scherm tegelijk weer **(Meer).**
-    
+
 Als u de gebruikersnaam voor een account wilt weergeven op basis van de weergavenaam (voor- en achternaam), voert u de volgende opdrachten uit. Vul de variabele *$userName* en verwijder de \< and > tekens:
   
 ```powershell
@@ -128,9 +127,9 @@ Get-AzureADUser | Set-AzureADUser -UsageLocation "FR"
 Met deze opdracht wordt PowerShell instructies gegeven voor:
   
 1. Ontvang alle informatie over de gebruikersaccounts **(Get-AzureADUser)** en stuur deze naar de volgende opdracht ( **|** ).
-    
+
 1. Stel de gebruikerslocatie in op Frankrijk (**Set-AzureADUser -UsageLocation "FR"**).
-    
+
 ### <a name="change-properties-for-a-specific-set-of-user-accounts"></a>Eigenschappen wijzigen voor een specifieke set gebruikersaccounts
 
 Als u eigenschappen voor een specifieke set gebruikersaccounts wilt wijzigen, kunt u een combinatie van de **cmdlets Get-AzureADUser**, **Where** en **Set-AzureADUser** gebruiken. In het volgende voorbeeld wordt de gebruikslocatie voor alle gebruikers van de afdeling Accounting gewijzigd in *Frankrijk:*
@@ -142,20 +141,19 @@ Get-AzureADUser | Where {$_.Department -eq "Accounting"} | Set-AzureADUser -Usag
 Met deze opdracht wordt PowerShell instructies gegeven voor:
   
 1. Ontvang alle informatie over de gebruikersaccounts **(Get-AzureADUser)** en stuur deze naar de volgende opdracht ( **|** ).
-    
+
 1.  Zoek alle gebruikersaccounts waarop de *eigenschap Afdeling* is ingesteld op 'Accounting' (**Where {$_. Department -eq "Accounting"} ) en** stuur de resulterende informatie naar de volgende opdracht ( **|** ).
-    
+
 1. Stel de gebruikerslocatie in op Frankrijk (**Set-AzureADUser -UsageLocation "FR"**).
-    
+
 ## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Gebruik de Microsoft Azure Active Directory module voor Windows PowerShell
 
 Als u eigenschappen voor gebruikersaccounts wilt configureren met de Microsoft Azure Active Directory module voor Windows PowerShell, gebruikt u de cmdlet **Set-MsolUser** en geeft u de eigenschappen op die u wilt instellen of wijzigen.
 
 Maak eerst [verbinding met uw Microsoft 365 tenant.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
   
->[!Note]
->PowerShell Core biedt geen ondersteuning voor de Microsoft Azure Active Directory-module voor Windows PowerShell en cmdlets met *Msol* in hun naam. Voer deze cmdlets uit vanuit Windows PowerShell.
->
+> [!NOTE]
+> PowerShell Core biedt geen ondersteuning voor de Microsoft Azure Active Directory-module voor Windows PowerShell en cmdlets met *Msol* in hun naam. Voer deze cmdlets uit vanuit Windows PowerShell.
 
 ### <a name="change-properties-for-a-specific-user-account"></a>Eigenschappen wijzigen voor een specifiek gebruikersaccount
 
@@ -164,39 +162,39 @@ Als u eigenschappen voor een specifiek gebruikersaccount wilt configureren, gebr
 U identificeert het account met *de parameter -UserPrincipalName* en stelt specifieke eigenschappen in of wijzigt deze met behulp van extra parameters. Hier is een lijst met de meest voorkomende parameters.
   
 - -City " \<city name> "
-    
+
 - -Country " \<country name> "
-    
+
 - -Department " \<department name> "
-    
+
 - -DisplayName " \<full user name> "
-    
+
 - -Fax " \<fax number> "
-    
+
 - -FirstName " \<user first name> "
-    
+
 - -LastName " \<user last name> "
-    
+
 - -MobilePhone " \<mobile phone number> "
-    
+
 - -Office " \<office location> "
-    
+
 - -PhoneNumber " \<office phone number> "
-    
+
 - -Postcode " \<postal code> "
-    
+
 - -PreferredLanguage " \<language> "
-    
+
 - -State " \<state name> "
-    
+
 - -StreetAddress \<street address> " "
-    
+
 - -Titel " \<title name> "
-    
+
 - -UsageLocation " \<2-character country or region code> "
-    
+
     Dit is de ISO 3166-1 alfa-2 (A2) land- of regiocode met twee letters.
-    
+
 Zie [Set-MsolUser voor meer parameters.](/previous-versions/azure/dn194136(v=azure.100))
 
 Voer de volgende opdracht uit om de gebruikersnamen van al uw gebruikers te zien:
@@ -208,13 +206,13 @@ Get-MSolUser | Sort UserPrincipalName | Select UserPrincipalName | More
 Met deze opdracht wordt PowerShell instructies gegeven voor:
   
 1. Haal alle informatie op voor de gebruikersaccounts **(Get-MsolUser)** en stuur deze naar de volgende opdracht ( **|** ).
-    
+
 1. Sorteer de lijst met gebruikershoofdnamen alfabetisch **(Sorteer UserPrincipalName)** en verzend deze naar de volgende opdracht ( **|** ).
-    
+
 1. Geef alleen de eigenschap User Principal Name weer voor elk account **(Selecteer UserPrincipalName).**
-    
+
 1. Geef ze één scherm tegelijk weer **(Meer).**
-    
+
 Als u de gebruikersnaam voor een account wilt weergeven op basis van de weergavenaam (voor- en achternaam), voert u de volgende opdrachten uit. Vul de variabele *$userName* en verwijder de \< and > tekens.
   
 ```powershell
@@ -248,9 +246,9 @@ Get-MsolUser | Set-MsolUser -UsageLocation "FR"
 Met deze opdracht wordt PowerShell instructies gegeven voor:
   
 1. Haal alle informatie op voor de gebruikersaccounts **(Get-MsolUser)** en stuur deze naar de volgende opdracht ( **|** ).
-    
+
 1. Stel de gebruikerslocatie in op Frankrijk (**Set-MsolUser -UsageLocation "FR"**).
-    
+
 ### <a name="change-properties-for-a-specific-set-of-user-accounts"></a>Eigenschappen wijzigen voor een specifieke set gebruikersaccounts
 
 Als u eigenschappen voor een specifieke set gebruikersaccounts wilt wijzigen, kunt u een combinatie van de **cmdlets Get-MsolUser,** **Where** en **Set-MsolUser** gebruiken. In het volgende voorbeeld wordt de gebruikslocatie voor alle gebruikers van de afdeling Accounting gewijzigd in *Frankrijk:*
@@ -262,9 +260,9 @@ Get-MsolUser | Where {$_.Department -eq "Accounting"} | Set-MsolUser -UsageLocat
 Met deze opdracht wordt PowerShell instructies gegeven voor:
   
 1. Haal alle informatie op voor de gebruikersaccounts **(Get-MsolUser)** en stuur deze naar de volgende opdracht ( **|** ).
-    
+
 1. Zoek alle gebruikersaccounts waarop de *eigenschap Afdeling* is ingesteld op 'Accounting' (**Where {$_. Department -eq "Accounting"}**) en stuur de resulterende informatie naar de volgende opdracht ( **|** ).
-    
+
 1. Stel de gebruikerslocatie in op Frankrijk (**Set-MsolUser -UsageLocation "FR"**).
 
 ## <a name="see-also"></a>Zie ook

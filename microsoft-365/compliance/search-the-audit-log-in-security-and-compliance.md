@@ -19,49 +19,33 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: 'Ga naar het Microsoft 365-compliancecentrum om het geïntegreerde auditlogboek te zoeken zodat u activiteiten van gebruikers en beheerders kunt bekijken in uw organisatie. '
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8817ed09673ec23d0a41d680942276bcb1fe297d
-ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
+ms.openlocfilehash: a6989d8f57123a35e64b89cfe9148cae33c5758e
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52809141"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287501"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>Zoek in het auditlogboek in het compliancecentrum
 
 Wilt u weten of een gebruiker een bepaald document heeft bekeken of een item uit zijn of haar postvak heeft verwijderd? Als dit het geval is, kunt u het Microsoft 365-compliancecentrum gebruiken om in het uniforme controlelogboek te zoeken om gebruikers- en beheerdersactiviteiten in uw organisatie te bekijken. Wat is het doel van een geïntegreerd auditlogboek? Omdat u in Microsoft 365 kunt zoeken naar de volgende soorten [gebruikers- en beheerdersactiviteiten](#audited-activities):
 
 - Gebruikersactiviteit in SharePoint Online en OneDrive voor Bedrijven
-
 - Activiteit van gebruikers in Exchange Online (controlelogboekregistratie voor Exchange-postvakken)
-
 - Beheeractiviteiten in SharePoint Online
-
 - Beheeractiviteiten in Azure Active Directory (de adreslijstservice voor Microsoft 365)
-
 - Beheeractiviteiten in ExchOnline (controlelogboekregistratie voor Exchange-beheerders)
-
 - eDiscovery-activiteiten in het beveiligings- en compliancecentrum
-
 - Activiteiten van gebruikers en beheerders in Power BI
-
 - Activiteit van gebruikers en beheerders in Microsoft Teams
-
 - Activiteit van gebruikers en beheerders in Dynamics 365
-
 - Activiteit van gebruikers en beheerders in Yammer
-
 - Activiteiten van gebruikers en beheerders in Microsoft Power Automate
-
 - Activiteit van gebruikers en beheerders in Microsoft Stream
-
 - Activiteiten van analisten en beheerders in Microsoft Workplace Analytics
-
 - Activiteiten van gebruikers en beheerders in Microsoft Power Apps
-
 - Activiteit van gebruikers en beheerders in Microsoft Forms
-
 - Activiteit van gebruikers en beheerders voor gevoeligheidslabels voor sites die gebruikmaken van SharePoint Online of Microsoft Teams
-
 - Beheerdersactiviteit in Briefing-e-mail en MyAnalytics
 
 ## <a name="requirements-to-search-the-audit-log"></a>Vereisten voor het doorzoeken van het auditlogboek
@@ -73,6 +57,7 @@ Lees de volgende items voordat u gaat zoeken in het auditlogboek.
   ```powershell
   Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled
   ```
+
   De waarde van `True` voor de eigenschap *UnifiedAuditLogIngestionEnabled* geeft aan dat zoeken in auditlogboek is ingeschakeld. Voor meer informatie, zie [Zoeken in auditlogboeken in- of uitschakelen](turn-audit-log-search-on-or-off.md).
 
 - Als u auditlogboeken wilt doorzoeken, moet aan u de rol Auditlogboeken alleen-weergeven of Auditlogboeken in Exchange Online zijn toegewezen. Deze rollen worden standaard toegewezen aan de rollengroepen Compliancebeheer en Organisatiebeheer op de pagina **Machtigingen** in het Exchange-beheercentrum. Globale beheerders in Office 365 en Microsoft 365 worden automatisch toegevoegd als leden van de rollengroep Organisatiebeheer in Exchange Online. Als u de gebruiker het auditlogboek wilt laten doorzoeken met minimale rechten, kunt u in Exchange Online een aangepaste rollengroep maken, de rol Auditlogboeken alleen-weergeven of Auditlogboeken toevoegen en vervolgens de gebruiker toevoegen als lid van de nieuwe rollengroep. Zie voor meer informatie [Rollengroepen beheren in Exchange Online](/Exchange/permissions-exo/role-groups).
@@ -114,8 +99,12 @@ Lees de volgende items voordat u gaat zoeken in het auditlogboek.
 
 - Het kan 30 minuten tot 24 uur duren nadat een gebeurtenis heeft plaatsgevonden voordat het bijbehorende auditlogboekrecord wordt geretourneerd in de resultaten van een zoekopdracht in het auditlogboek. De volgende tabel toont de tijd die nodig is voor de verschillende services in Office 365.
 
+  <br>
+
+  ****
+
   |Microsoft 365-service of -functie|30 minuten|24 uur|
-  |:-----|:-----:|:-----:|
+  |---|:---:|:---:|
   |Defender voor Office 365 en Bedreigingsinformatie|![Vinkje](../media/checkmark.png)||
   |Azure Active Directory (gebruikersaanmeldingsgebeurtenissen)||![Vinkje](../media/checkmark.png)|
   |Azure Active Directory (beheergebeurtenissen)||![Vinkje](../media/checkmark.png)|
@@ -133,9 +122,9 @@ Lees de volgende items voordat u gaat zoeken in het auditlogboek.
   |Vertrouwelijkheidslabels||![Vinkje](../media/checkmark.png)|
   |SharePoint Online en OneDrive voor Bedrijven|![Vinkje](../media/checkmark.png)||
   |Workplace Analytics|![Vinkje](../media/checkmark.png)||
-  |Yammer||![Vinkje](../media/checkmark.png)||
-  |Microsoft Forms|![Vinkje](../media/checkmark.png)|
-  ||||
+  |Yammer||![Vinkje](../media/checkmark.png)|
+  |Microsoft Forms|![Vinkje](../media/checkmark.png)||
+  |
 
 - Azure Active Directory (Azure AD) is de directoryservice die wordt gebruikt voor Office 365. Het geïntegreerde auditlogboek bevat activiteiten van gebruikers, groepen, toepassingen, domeinen en adreslijsten die in het Microsoft 365-beheercentrum of in de Azure-beheerportal zijn uitgevoerd. Zie [Azure Active Directory-auditrapportgebeurtenissen](/azure/active-directory/reports-monitoring/concept-audit-logs) voor een volledige lijst met Azure AD-gebeurtenissen.
 

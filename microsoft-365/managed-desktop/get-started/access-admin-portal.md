@@ -10,12 +10,12 @@ audience: ITPro
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
-ms.openlocfilehash: 2facd506497cbdab42f2d8b051fbd50f82432927
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 345ae56a1c328dad7b777468dd03bcab40f9b4e1
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770599"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286871"
 ---
 # <a name="access-the-admin-portal"></a>Toegang tot de beheerportal
 
@@ -61,12 +61,12 @@ Als u hulp nodig hebt bij het toewijzen van Azure Active Directory rollen, zie [
 ### <a name="assigning-built-in-roles-to-user"></a>Ingebouwde rollen toewijzen aan gebruiker
 
 Voor eenvoudig beheer van ingebouwde rollen is er een beveiligingsgroep voor elke aangepaste rol met de naam 'Moderne rollen op de werkplek _-_ rolnaam '(bijvoorbeeld 'Moderne werkplekrollen – Beveiligingsmanager'). Als u gebruikers wilt toewijzen aan een van deze beveiligingsgroepen, volgt u de volgende stappen:
-1.  Ga naar de Microsoft Endpoint Manager portal.
-2.  Selecteer **Groepen** aan de linkerkant.
-3.  Zoek naar **Moderne werkplekrollen** en selecteer vervolgens de groep die is gekoppeld aan de rol die u wilt toewijzen. 
-4.  Selecteer **Leden** aan de linkerkant en selecteer **vervolgens + Leden toevoegen** op de opdrachtbalk.
-5.  Voer de e-mail in van de persoon die wordt toegevoegd. Als ze een gast zijn, moet u deze uitnodigen voordat u de groep kunt toewijzen.
-6.  Selecteer **Selecteren** onderaan.
+1. Ga naar de Microsoft Endpoint Manager portal.
+2. Selecteer **Groepen** aan de linkerkant.
+3. Zoek naar **Moderne werkplekrollen** en selecteer vervolgens de groep die is gekoppeld aan de rol die u wilt toewijzen. 
+4. Selecteer **Leden** aan de linkerkant en selecteer **vervolgens + Leden toevoegen** op de opdrachtbalk.
+5. Voer de e-mail in van de persoon die wordt toegevoegd. Als ze een gast zijn, moet u deze uitnodigen voordat u de groep kunt toewijzen.
+6. Selecteer **Selecteren** onderaan.
 
 > [!NOTE]
 > Het nesten van beveiligingsgroepen voor rollentoewijzing wordt momenteel niet ondersteund. 
@@ -74,6 +74,7 @@ Voor eenvoudig beheer van ingebouwde rollen is er een beveiligingsgroep voor elk
 ### <a name="assigning-built-in-roles-to-groups"></a>Ingebouwde rollen toewijzen aan groepen
 
 Als u een of meer van de ingebouwde rollen aan een bestaande groep wilt toewijzen, gaat u als volgt te werk:
+
 1. Ga naar [portal.azure.com.](https://portal.azure.com/)
 2. Enterprise-toepassingen **zoeken en openen.**
 3. Wijzig het **filter toepassingstype** in _Microsoft Applications_ en selecteer **toepassen.**

@@ -29,12 +29,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Meer informatie Microsoft 365 Business Premium, een abonnementsservice met Office apps en geavanceerde beveiliging tegen cyberdreigingen.
-ms.openlocfilehash: e4a182c5dd5444392486dd137e70361e880534bd
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: b7b71032ffc19c582f9658b93dae7dd9f89e02eb
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52705517"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287622"
 ---
 # <a name="overview-of-microsoft-365-business-premium"></a>Overzicht van Microsoft 365 Business Premium
 
@@ -44,14 +44,14 @@ Microsoft 365 Business Premium (voorheen Microsoft 365 Business) is een uitgebre
 
 ## <a name="watch-what-is-microsoft-365-business-premium"></a>Bekijken: Wat is Microsoft 365 Business Premium?
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
-  
-Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../business-video/index.yml). 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA]
+
+Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../business-video/index.yml).
 
 Microsoft 365 Business Premium is bedoeld voor maximaal 300 licenties. Als u meer licenties nodig hebt, raadpleegt u de documentatie bij [Microsoft 365 Enterprise](../enterprise/index.yml) voor meer informatie.
 
 Zie de servicebeschrijving van [Microsoft 365 Business Premium](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description) voor de volledige lijst met functies.
-  
+
 ## <a name="small-business-security-needs"></a>Beveiligingsbehoeften voor kleine bedrijven
 
 Uw bedrijfsgegevens kunnen op verschillende manieren worden aangetast. U en uw gebruikers kunnen de beveiliging van uw organisatie in gevaar brengen wanneer u zich aanmeldt met aangetaste inloggegevens of wanneer u organisatiegegevens op verschillende apparaten en applicaties bekijkt. Meer specifiek loopt uw organisatie risico door:
@@ -73,17 +73,17 @@ Microsoft 365 Business Premium biedt **bescherming tegen bedreigingen** door:
 
 - Koppelingen in e-mailberichten en documenten in realtime scannen om onveilige websites te blokkeren (Safe koppelingen).
 
-- Geavanceerde analyse van e-mailbijlagen uitvoeren in een sandbox-omgeving om nieuw ontwikkelde malware te detecteren (Safe bijlagen). 
+- Geavanceerde analyse van e-mailbijlagen uitvoeren in een sandbox-omgeving om nieuw ontwikkelde malware te detecteren (Safe bijlagen).
 
-- Anti-phishingbeleid inschakelen waarin machine learning-modellen en imitatiedetectie worden gebruikt om bescherming te bieden tegen geavanceerde aanvallen (Anti-phishing in Defender voor Office 365 intelligence). 
+- Anti-phishingbeleid inschakelen waarin machine learning-modellen en imitatiedetectie worden gebruikt om bescherming te bieden tegen geavanceerde aanvallen (Anti-phishing in Defender voor Office 365 intelligence).
 
-- Het instellen van geavanceerde beleidsregels voor het uitschakelen van de toegang tot niet-vertrouwde locaties of het omzeilen van meervoudige factorverificatie van vertrouwde locaties zoals uw bedrijfsnetwerk (Azure MFA met vertrouwde IPs en voorwaardelijke toegang). 
+- Het instellen van geavanceerde beleidsregels voor het uitschakelen van de toegang tot niet-vertrouwde locaties of het omzeilen van meervoudige factorverificatie van vertrouwde locaties zoals uw bedrijfsnetwerk (Azure MFA met vertrouwde IPs en voorwaardelijke toegang).
 
 - Bescherming tegen malware afdwingen op alle Windows 10-apparaten van uw organisatie en bestanden in belangrijke systeemmappen beschermen tegen wijzigingen die zijn aangebracht door ransomware (Windows Defender)
 
 Uw **zakelijke gegevens worden beveiligd** door:
 
-- Automatische detectie gebruiken om te voorkomen dat gevoelige informatie zoals burgerservicenummers of creditcards buiten uw bedrijf lekken (preventie van gegevensverlies). 
+- Automatische detectie gebruiken om te voorkomen dat gevoelige informatie zoals burgerservicenummers of creditcards buiten uw bedrijf lekken (preventie van gegevensverlies).
 
 - Het versleutelen van gevoelige e-mails zodat u veilig kunt communiceren met klanten of andere mensen buiten uw organisatie. Zo zorgt u ervoor dat alleen de beoogde ontvanger het bericht kan lezen (Office 365-berichtversleuteling).
 
@@ -111,6 +111,6 @@ Zie [beveiligingsfuncties van Microsoft 365 Business Premium](security-features.
 
 - Als u geen partner hebt en Microsoft 365 Business Premium wilt aanschaffen, kunt u deze [hier kopen](https://www.microsoft.com/microsoft-365/business) en volg de [aanmeldingsinstructies](sign-up.md).
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Microsoft 365 Business Premium trainingsvideo's](../business-video/index.yml) (koppelingspagina)

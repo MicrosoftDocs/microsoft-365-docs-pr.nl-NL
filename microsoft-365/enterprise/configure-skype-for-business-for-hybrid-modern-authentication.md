@@ -17,23 +17,23 @@ f1.keywords:
 - NOCSH
 description: Meer informatie over het configureren Skype voor Bedrijven on-premises voor het gebruik van HMA (Hybrid Modern Authentication), met veiligere gebruikersverificatie en autorisatie.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f3177bafb6eff27053dca61ec576666cae4a97bb
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 9695815d0a085931b10f7f64b9fca2e997af9077
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911148"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286055"
 ---
 # <a name="how-to-configure-skype-for-business-on-premises-to-use-hybrid-modern-authentication"></a>On-premises Skype voor Bedrijven configureren voor hybride moderne verificatie
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
 Moderne verificatie is een methode voor identiteitsbeheer die veiligere gebruikersverificatie en autorisatie biedt, beschikbaar is voor on-premises Skype voor Bedrijven server on-premises en Exchange server on-premises en hybride Skype voor Bedrijven splitsdomeinen.
-  
+
  **Belangrijk** Wilt u meer weten over moderne verificatie (MA) en waarom u deze misschien liever gebruikt in uw bedrijf of organisatie? Controleer [dit document](hybrid-modern-auth-overview.md) voor een overzicht. Als u wilt weten welke Skype voor Bedrijven worden ondersteund met MA, wordt dat hier beschreven.
-  
+
  **Voordat we beginnen,** gebruik ik de volgende termen:
-  
+
 - Moderne verificatie (MA)
 
 - Hybride moderne verificatie (HMA)
@@ -47,11 +47,11 @@ Moderne verificatie is een methode voor identiteitsbeheer die veiligere gebruike
 - Skype voor Bedrijven Online (SFBO)
 
 Als een afbeelding in dit artikel een object bevat dat grijs of grijs is,  betekent dit dat het element dat in grijs wordt weergegeven, niet is opgenomen in ma-specifieke configuratie.
-  
+
 ## <a name="read-the-summary"></a>De samenvatting lezen
 
 In deze samenvatting wordt het proces in stappen op een gegeven moment in de loop van de uitvoering samengevat en is het goed voor een algemene controlelijst om bij te houden waar u zich in het proces kunt vinden.
-  
+
 1. Zorg er eerst voor dat u aan alle vereisten voldoet.
 
 1. Aangezien veel vereisten gebruikelijk zijn voor zowel Skype voor Bedrijven als Exchange, bekijkt u het **overzichtsartikel** voor [uw controlelijst vooraf.](hybrid-modern-auth-overview.md) Doe dit  *voordat*  u een van de stappen in dit artikel start.
@@ -67,19 +67,19 @@ In deze samenvatting wordt het proces in stappen op een gegeven moment in de loo
 1. Schakel Hybride moderne verificatie in voor Skype voor Bedrijven on-premises.
 
 Met deze stappen worden MA voor SFB, SFBO, EXCH en EXO in gebruik genomen, dat wil zeggen alle producten die kunnen deelnemen aan een HMA-configuratie van SFB en SFBO (inclusief afhankelijkheden van EXCH/EXO). Met andere woorden: als uw gebruikers zijn thuisgekomen in of postvakken hebben gemaakt in een deel van de Hybride (EXO + SFBO, EXO + SFB, EXCH + SFBO of EXCH + SFB), ziet uw eindproduct er als volgende uit:
-  
+
 ![Een Mixed 6 Skype voor bedrijven HMA-topologie heeft MA op alle vier mogelijke locaties.](../media/ab89cdf2-160b-49ac-9b71-0160800acfc8.png)
-  
+
 Zoals u kunt zien zijn er vier verschillende locaties om MA in te zetten! Voor de beste gebruikerservaring raden we u aan ma in te zetten op alle vier deze locaties. Als u ma niet op al deze locaties kunt in- of uitstellen, past u de stappen aan zodat u MA alleen in de locaties in kunt zetten die nodig zijn voor uw omgeving.
-  
+
 Zie het [onderwerp Ondersteuning voor Skype voor Bedrijven met MA](/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported) voor ondersteunde excuses.
-  
+
  **Belangrijk** Controleer of u aan alle vereisten hebt voldaan voordat u begint. U vindt deze informatie in hybride [moderne verificatieoverzicht en vereisten.](hybrid-modern-auth-overview.md)
-  
+
 ## <a name="collect-all-hma-specific-info-youll-need"></a>Alle HMA-specifieke gegevens verzamelen die u nodig hebt
 
 Nadat u hebt gecontroleerd of u [](hybrid-modern-auth-overview.md) voldoet aan de vereisten voor het gebruik van moderne verificatie (zie de opmerking hierboven), moet u een bestand maken om de gegevens vast te houden die u nodig hebt voor het configureren van HMA in de volgende stappen. Voorbeelden die in dit artikel worden gebruikt:
-  
+
 - **SIP/SMTP-domein**
 
   - Ex. contoso.com (wordt federatief met Office 365)
@@ -91,7 +91,7 @@ Nadat u hebt gecontroleerd of u [](hybrid-modern-auth-overview.md) voldoet aan d
 - **URL's voor SFB 2015 CU5-webservice**
 
 u hebt url's voor interne en externe webservice nodig voor alle SfB 2015-pools die zijn geïmplementeerd. Als u deze wilt verkrijgen, gaat u als volgt te werk Skype voor Bedrijven Management Shell:
-  
+
 ```powershell
 Get-CsService -WebServer | Select-Object PoolFqdn, InternalFqdn, ExternalFqdn | FL
 ```
@@ -101,28 +101,28 @@ Get-CsService -WebServer | Select-Object PoolFqdn, InternalFqdn, ExternalFqdn | 
 - Ex. Extern: https://lyncwebext01.contoso.com
 
 Als u een server Standard Edition gebruikt, is de interne URL leeg. Gebruik in dit geval de poolfqdn voor de interne URL.
-  
+
 ## <a name="turn-on-modern-authentication-for-exo"></a>Moderne verificatie voor EXO inschakelen
 
 Volg de instructies hier: Exchange Online: Uw tenant inschakelen [voor moderne verificatie.](https://social.technet.microsoft.com/wiki/contents/articles/32711.exchange-online-how-to-enable-your-tenant-for-modern-authentication.aspx)
-  
+
 ## <a name="turn-on-modern-authentication-for-sfbo"></a>Moderne verificatie voor SFBO inschakelen
 
 Volg de instructies hier: [Skype voor Bedrijven Online: Uw tenant inschakelen voor moderne verificatie.](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx)
-  
+
 ## <a name="turn-on-hybrid-modern-authentication-for-exchange-on-premises"></a>Hybride moderne verificatie inschakelen voor Exchange on-premises
 
 Volg de instructies hier: [Het configureren Exchange Server on-premises](configure-exchange-server-for-hybrid-modern-authentication.md)voor het gebruik van hybride moderne verificatie.
-  
+
 ## <a name="turn-on-hybrid-modern-authentication-for-skype-for-business-on-premises"></a>Hybride moderne verificatie inschakelen voor Skype voor Bedrijven on-premises
 
 ### <a name="add-on-premises-web-service-urls-as-spns-in-azure-active-directory"></a>On-premises webservice-URL's toevoegen als SPN's in Azure Active Directory
 
 Nu moet u opdrachten uitvoeren om de URL's (eerder verzameld) toe te voegen als Service principals in SFBO.
-  
+
  **Opmerking** Service principal names (SPN's) identificeren webservices en koppelen deze aan een beveiligingsprincipaal (zoals een accountnaam of groep), zodat de service kan optreden namens een geautoriseerde gebruiker. Clients die worden authentiek gemaakt op een server, maken gebruik van informatie die is opgenomen in SPN's.
-  
-1. Maak eerst verbinding met Azure Active Directory (Azure AD) met [deze instructies.](/powershell/azure/active-directory/overview?view=azureadps-1.0)
+
+1. Maak eerst verbinding met Azure Active Directory (Azure AD) met [deze instructies.](/powershell/azure/active-directory/overview)
 
 2. Voer deze opdracht on-premises uit om een lijst met URL's voor SFB-webservice te krijgen.
 
@@ -137,20 +137,20 @@ Get-MsolServicePrincipal -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 | 
 3. Als de interne of **externe** SFB-URL's van on-premises ontbreken (bijvoorbeeld, en we moeten deze specifieke https://lyncwebint01.contoso.com records toevoegen aan deze https://lyncwebext01.contoso.com) lijst.
 
     Zorg ervoor dat u  *de onderstaande voorbeeld-URL's* vervangt door uw werkelijke URL's in de opdrachten Toevoegen!
-  
+
 ```powershell
 $x= Get-MsolServicePrincipal -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000
 $x.ServicePrincipalnames.Add("https://lyncwebint01.contoso.com/")
 $x.ServicePrincipalnames.Add("https://lyncwebext01.contoso.com/")
 Set-MSOLServicePrincipal -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -ServicePrincipalNames $x.ServicePrincipalNames
 ```
-  
+
 4. Controleer of uw nieuwe records zijn toegevoegd door de **opdracht Get-MsolServicePrincipal** uit stap 2 opnieuw uit te voeren en door de uitvoer te kijken. Vergelijk de lijst of schermafbeelding van vóór met de nieuwe lijst met SPN's. U kunt ook schermafbeeldingen maken van de nieuwe lijst voor uw records. Als u succes hebt gehad, ziet u de twee nieuwe URL's in de lijst. Als u naar ons voorbeeld gaat, bevat de lijst met SPN's nu de specifieke URL's https://lyncwebint01.contoso.com en https://lyncwebext01.contoso.com/ .
 
 ### <a name="create-the-evosts-auth-server-object"></a>Het Object Auth Server van EvoSTS maken
 
 Voer de volgende opdracht uit in de Skype voor Bedrijven Management Shell.
-  
+
 ```powershell
 New-CsOAuthServer -Identity evoSTS -MetadataURL https://login.windows.net/common/FederationMetadata/2007-06/FederationMetadata.xml -AcceptSecurityIdentifierInformation $true -Type AzureAD
 ```
@@ -166,17 +166,17 @@ Set-CsOAuthConfiguration -ClientAuthorizationOAuthServerIdentity evoSTS
 ## <a name="verify"></a>Controleren
 
 Wanneer u HMA hebt ingeschakeld, wordt de nieuwe auth-stroom gebruikt voor de volgende aanmelding van een klant. Houd er rekening mee dat u met het in-/uitschakelen van HMA geen herauthenticatie voor een client kunt activeren. De clients reauthenticate op basis van de levensduur van de auth tokens en/of certs die ze hebben.
-  
+
 Als u wilt testen of HMA werkt nadat u deze hebt ingeschakeld, meldt u zich af bij een SFB-Windows-client en klikt u op 'Mijn referenties verwijderen'. Meld u opnieuw aan. De client moet nu de moderne auth-stroom gebruiken en uw aanmelding bevat nu een Office 365-prompt voor een **'Werk- of** schoolaccount', gezien vlak voordat de client contact op neemt met de server en u aanmeldt.
-  
+
 U moet ook de 'Configuratiegegevens' controleren voor Skype voor Bedrijven Clients voor een 'OAuth Authority'. Als u dit wilt doen op uw clientcomputer, houdt u Ctrl ingedrukt terwijl u met de rechtermuisknop op het Skype voor Bedrijven pictogram in het Windows systeemvak klikt. Klik **op Configuratiegegevens** in het menu dat wordt weergegeven. Zoek in het Skype voor Bedrijven configuratiegegevensvenster dat op het bureaublad wordt weergegeven naar het volgende:
-  
+
 ![In de configuratiegegevens van een Skype voor Bedrijven client met moderne verificatie wordt een URL van Lync en EWS OAUTH Authority weergegeven van https://login.windows.net/common/oauth2/authorize .](../media/4e54edf5-c8f8-4e7f-b032-5d413b0232de.png)
-  
+
 U moet ook de Ctrl-toets ingedrukt houden terwijl u met de rechtermuisknop op het pictogram voor de Outlook-client (ook in het Windows-systeemvak) klikt en klikt u op 'Verbindingsstatus'. Zoek naar het SMTP-adres van de klant ten opzichte van een AuthN-type 'Bearer', dat het token van de token voor de toler vertegenwoordigt dat \* in OAuth wordt gebruikt.
-  
-## <a name="related-articles"></a>Aanverwante artikelen
+
+## <a name="related-articles"></a>Verwante artikelen
 
 [Terugkoppeling naar het overzicht moderne verificatie](hybrid-modern-auth-overview.md).
-  
+
 Wilt u weten hoe u moderne verificatie (ADAL) gebruikt voor uw Skype voor Bedrijven clients? We hebben stappen [hier.](./hybrid-modern-auth-overview.md)

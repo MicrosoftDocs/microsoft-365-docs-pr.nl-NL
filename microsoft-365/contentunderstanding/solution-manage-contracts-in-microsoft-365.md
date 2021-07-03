@@ -13,16 +13,16 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: ''
 description: Meer informatie over het beheren van contracten met Microsoft 365 oplossing voor SharePoint Syntex, SharePoint lijsten, Microsoft Teams en Power Automate.
-ms.openlocfilehash: d3be12dbddabbcddc41f7c9d882db5473350266e
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: bc2570b08add2fa93637b9f64931c5903795a079
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054757"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287315"
 ---
 # <a name="manage-contracts-using-a-microsoft-365-solution"></a>Beheer contracten met een gebruik van een Microsoft 365 oplossing
 
-In dit artikel wordt beschreven hoe u een oplossing voor contractbeheer voor uw organisatie kunt maken met SharePoint Syntex en onderdelen van Microsoft 365. Het biedt u een kader om u te helpen bij het plannen en maken van een oplossing die past bij uw unieke zakelijke behoeften. Zelfs als deze oplossing niet past bij uw bedrijfsbehoeften als geheel, kunnen delen ervan worden overgenomen in uw planning om een aangepaste oplossing voor contractbeheer te maken.
+In dit artikel wordt beschreven hoe u een oplossing voor contractbeheer voor uw organisatie kunt maken met SharePoint Syntex en onderdelen van Microsoft 365. Het biedt u een kader om u te helpen bij het plannen en maken van een oplossing die past bij uw unieke zakelijke behoeften. Hoewel in deze oplossing wordt gesproken over contractbeheer, kunt u deze aanpassen aan andere oplossingen voor documentbeheer, zoals voor overzichten van werk of facturen.
 
 *Deze inhoudsset documenteert een Microsoft 365 oplossing die is ontwikkeld door Thomas Molbach met het Modern Work Solution Strategy Team bij Microsoft.*
 
@@ -65,10 +65,10 @@ Deze richtlijn voor contractbeheeroplossing bevat vier onderdelen van Microsoft 
       ![Voorbeeld van een contract.](../media/content-understanding/contract.png)
 
 3. In Microsoft Teams zijn alle belanghebbenden lid van een beveiligd Teams kanaal waarin alle contracten in de documentbibliotheek zichtbaar zijn voor goedkeuring of afwijzing. Door de Teams gebruiken, worden alle belanghebbenden op de hoogte gesteld wanneer nieuwe contracten moeten worden gecontroleerd.
- 
-4. Met Power Automate worden contracten verplaatst via het goedkeuringsproces in het Teams kanaal. Wanneer een lid een contract goedkeurt, wordt de contractstatus gewijzigd in goedkeuren, worden alle leden via een Teams-post op de hoogte gesteld en wordt er een regelitem gemaakt om aan te geven dat het contract gereed is voor uitbetaling. Dit proces kan worden uitgebreid om rechtstreeks te schrijven naar een financiële toepassing van derden voor betaling.
 
-5.  Wanneer een lid een contract weigert, wordt de status gewijzigd in geweigerd en worden alle leden op de hoogte gesteld via Teams bericht.
+4. Met Power Automate worden contracten verplaatst via het goedkeuringsproces in het Teams kanaal. Wanneer een lid een contract goedkeurt, wordt de contractstatus gewijzigd in goedgekeurd, worden alle leden via een Teams-bericht op de hoogte gesteld en wordt er een regelitem gemaakt om aan te geven dat het contract gereed is voor uitbetaling. Dit proces kan worden uitgebreid om rechtstreeks te schrijven naar een financiële toepassing van derden voor betaling.
+
+5. Wanneer een lid een contract weigert, wordt de status gewijzigd in geweigerd en worden alle leden op de hoogte gesteld via Teams bericht.
 
 6. Het eindresultaat van deze oplossing is een geautomatiseerd bedrijfsproces voor uw organisatie. Werknemers kunnen eenvoudig de aangepaste tegelweergave in Teams om de goedkeuringswerkstroom van uw documenten te starten en te controleren. 
 
@@ -78,9 +78,9 @@ Deze richtlijn voor contractbeheeroplossing bevat vier onderdelen van Microsoft 
 
 Deze oplossing is afhankelijk van de volgende functionaliteit, die allemaal beschikbaar is als onderdeel van een licentie voor Microsoft 365 Enterprise (E1, E3, E5, F3) of Business (Basic, Standard of Premium) :
 
--   Microsoft SharePoint Syntex
--   Microsoft Teams
--   Power Automate
+- Microsoft SharePoint Syntex
+- Microsoft Teams
+- Power Automate
 
 ## <a name="create-the-solution"></a>De oplossing maken
 

@@ -15,12 +15,12 @@ localization_priority: None
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ce387799a2f9e6d6cdffe063d3adf7310d7e7757
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: eec4869c5ff0b4caeedc52891a56d604c4b54348
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842720"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286031"
 ---
 # <a name="define-information-barrier-policies"></a>Beleid voor informatiebelemmering definiëren
 
@@ -38,8 +38,8 @@ Wanneer u beleid voor informatiebarrières definieert, werkt u met gebruikersacc
 - Gebruikersaccountkenmerken worden gedefinieerd in Azure Active Directory (of Exchange Online). Deze kenmerken kunnen afdeling, functie, locatie, teamnaam en andere functieprofielgegevens bevatten. 
 - Segmenten zijn sets gebruikers die zijn gedefinieerd in het beveiligings- & compliancecentrum met een geselecteerd **gebruikersaccountkenmerk.** (Zie de [lijst met ondersteunde kenmerken](information-barriers-attributes.md).)
 - Beleidsregels voor informatiebarrière bepalen communicatielimieten of -beperkingen. Wanneer u beleidsregels voor informatiebarrières definieert, kiest u uit twee soorten beleid:
-    - 'Blokkeringsbeleid' voorkomt dat het ene segment met een ander segment communiceert.
-    - Met 'Toestaan'-beleid kan één segment alleen met bepaalde andere segmenten communiceren.
+  - 'Blokkeringsbeleid' voorkomt dat het ene segment met een ander segment communiceert.
+  - Met 'Toestaan'-beleid kan één segment alleen met bepaalde andere segmenten communiceren.
 - Beleidstoepassing wordt uitgevoerd nadat alle beleidsregels voor informatiebarrière zijn gedefinieerd en u klaar bent om deze toe te passen in uw organisatie.
 
 ## <a name="the-work-flow-at-a-glance"></a>De werkstroom in één oogopslag
@@ -71,8 +71,8 @@ Zorg er naast [de vereiste licenties en machtigingen](information-barriers.md#re
 - Geen adresboekbeleid: voordat u beleidsregels voor informatiebarrières definieert en toe te passen, moet Exchange adresboekbeleid zijn toegepast. Informatiebarrières zijn gebaseerd op adresboekbeleid, maar de twee soorten beleidsregels zijn niet compatibel. Als u dergelijke beleidsregels hebt, moet u eerst [uw adresboekbeleid verwijderen.](/exchange/address-books/address-book-policies/remove-an-address-book-policy) Wanneer beleidsregels voor informatiebarrière zijn ingeschakeld en u een hiërarchisch adresboek hebt ingeschakeld, zien alle gebruikers die niet zijn opgenomen ***in*** een informatiebarrièresegment het hiërarchische adresboek [in](/exchange/address-books/hierarchical-address-books/hierarchical-address-books) Exchange online.
 
 - PowerShell: op dit moment worden beleidsregels voor informatiebarrières gedefinieerd en beheerd in het Office 365 Beveiligingscentrum & PowerShell-cmdlets. Hoewel in dit artikel verschillende voorbeelden worden gegeven, moet u bekend zijn met PowerShell-cmdlets en -parameters. U hebt ook de module Azure PowerShell nodig.
-    - [Verbinding maken met Beveiligings- en compliancecentrum van Powershell](/powershell/exchange/connect-to-scc-powershell)
-    - [De module Azure PowerShell installeren](/powershell/azure/install-az-ps?view=azps-2.3.2)
+  - [Verbinding maken met Beveiligings- en compliancecentrum van Powershell](/powershell/exchange/connect-to-scc-powershell)
+  - [De module Azure PowerShell installeren](/powershell/azure/install-az-ps)
 
 - Toestemming van beheerder voor informatiebarrières in Microsoft Teams: wanneer uw IB-beleid van de hand is, kunnen niet-IB-compliancegebruikers worden verwijderd uit groepen (dat wil zeggen Teams-kanalen, die zijn gebaseerd op groepen). Met deze configuratie kunt u ervoor zorgen dat uw organisatie voldoet aan beleidsregels en voorschriften. Gebruik de volgende procedure om het beleid voor informatiebarrières te laten werken zoals verwacht in Microsoft Teams.
 
@@ -91,10 +91,9 @@ Zorg er naast [de vereiste licenties en machtigingen](information-barriers.md#re
    1. Meld u aan met uw werk- of schoolaccount als u daarom wordt gevraagd Office 365.
 
    1. Controleer de **gegevens** in het dialoogvenster Aangevraagde machtigingen en kies **accepteren.** De machtigingen die door de App zijn aangevraagd, worden hieronder weergegeven.
-      
+
       > [!div class="mx-imgBorder"]
       > ![afbeelding](https://user-images.githubusercontent.com/8932063/107690955-b1772300-6c5f-11eb-9527-4235de860b27.png)
-
 
 Wanneer aan alle vereisten is voldaan, gaat u verder met de volgende sectie.
 
@@ -326,7 +325,7 @@ Wanneer segmenten en beleidsregels zijn gedefinieerd, past Contoso het beleid to
 
 Wanneer de cmdlet is gefinisht, voldoet Contoso aan de wettelijke en industriële vereisten.
 
-## <a name="resources"></a>Resources
+## <a name="resources"></a>Middelen
 
 - [Een overzicht krijgen van informatiebarrières](information-barriers.md)
 - [Meer informatie over informatiebarrières in Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams)

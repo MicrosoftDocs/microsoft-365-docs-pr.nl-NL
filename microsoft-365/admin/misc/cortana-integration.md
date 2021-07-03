@@ -19,19 +19,18 @@ search.appverid:
 - MOE150
 ms.assetid: 7257cb50-0d5c-4f7a-ac2e-9fe5d13bb5cb
 description: Gebruikers met geldige werk- of schoolaccounts kunnen Cortana ervaring Microsoft 365 die voldoen aan Office 365 beveiligingsbeloften op ondernemingsniveau.
-ms.openlocfilehash: a740c4ce2b89244cc84494349e962fb665fa2d73
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 6887032e62d397659dc73475418f52b0c1246a2f
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227893"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286691"
 ---
 # <a name="cortana-in-microsoft-365"></a>Cortana in Microsoft 365
 
 Cortana, uw persoonlijke productiviteitsassistent, biedt ai-aangedreven ervaringen om tijd te besparen en de aandacht te richten op wat het belangrijkst is. Cortana is ontworpen om functies te leveren die gegevens zoals e-mails, bestanden, chats, enzovoort veilig en veilig verwerken en redeneren over Office 365 om tijd te besparen, de efficiëntie te verhogen en de productiviteit van uw gebruikers te verbeteren.
 
-Wanneer ze zijn aangemeld met geldige werk- of schoolaccounts, kunnen gebruikers ondersteuningsservices in de cloud krijgen met Cortana in Microsoft 365-ervaringen die voldoen aan de privacy-, beveiligings- en compliance-beloften op ondernemingsniveau van Office 365 **(" Cortana enterprise services**"). 
-
+Wanneer ze zijn aangemeld met geldige werk- of schoolaccounts, kunnen gebruikers ondersteuningsservices in de cloud krijgen met Cortana in Microsoft 365-ervaringen die voldoen aan de privacy-, beveiligings- en compliance-beloften op ondernemingsniveau van Office 365 **(" Cortana enterprise services**").
 
 - **Cortana enterprise services** zijn Cortana in Windows 10 (versie 2004 en hoger), Outlook voor iOS en Android, Microsoft Teams mobiele apps voor iOS en Android [en Microsoft Teams displays.](/microsoftteams/devices/teams-displays)
 
@@ -88,19 +87,18 @@ Vanaf Windows 10, versie 2004, is Cortana een UWP-app (Universal Windows Platfor
 
 Cortana spraakondersteuning in de mobiele Teams-app en op Microsoft Teams-weergaveapparaten kunnen Microsoft 365 Enterprise-gebruikers communicatie, samenwerking en vergadergerelateerde taken stroomlijnen met behulp van gesproken natuurlijke taal. Gebruikers kunnen met Cortana spreken door de microfoonknop rechtsboven in de mobiele app van Teams te selecteren of door &#8220;Cortana&#8221; in het Microsoft Teams weergeven. Als u snel handsfree en onderweg verbinding wilt maken met hun team, kunnen gebruikers query's zeggen, zoals &#8220;met Megan&#8221; of &#8220;een bericht verzenden naar mijn volgende vergadering&#8221;. Gebruikers kunnen ook deelnemen aan vergaderingen door te &#8220;deelnemen aan mijn volgende vergadering&#8221; en spraakhulp te gebruiken om bestanden te delen, hun agenda te controleren en meer. Deze spraakassistentieervaringen worden geleverd met behulp van Cortana enterprise-grade services die volledig voldoen aan de privacy-, beveiligings- en compliancebeloften van Office 365, zoals wordt weerspiegeld in de Voorwaarden voor [onlineservices (OST).](https://www.microsoft.com/licensing/product-licensing/products)
 
-**Beheerbeheer**
+#### <a name="admin-control"></a>Beheerbeheer
 
 Cortana spraakondersteuning is standaard ingeschakeld voor tenants. Beheerders kunnen via een beleid (TeamsCortanaPolicy) bepalen wie in hun tenant Cortana spraakondersteuning in Teams kan gebruiken. Dit beleid kan worden ingesteld op gebruikersaccountniveau of tenantniveau. Beheerders kunnen ook het veld CortanaVoiceInvocationMode in dit beleidsbesturingselement gebruiken om te bepalen of Cortana is uitgeschakeld, alleen is ingeschakeld met inroeping van de drukknop of is ingeschakeld met inroeping van wake word (van toepassing op apparaten die dit ondersteunen, zoals de Microsoft Teams-weergave). 
 
-**Gebruikersbesturingselement**
+#### <a name="user-control"></a>Gebruikersbesturingselement
 
 Individuele gebruikers kunnen de Cortana in de mobiele Teams uitproberen door op de microfoonknop te klikken. Ze kunnen Cortana spraakassistentie uitproberen op Microsoft Teams-weergaveapparaten door gewoon &#8220;Cortana.&#8221; Ze kunnen ook bepalen of Cortana reageert op de aanroep van het wakewoord. 
 
-1.  Mobiele Teams openen
-2.  Ga naar Instellingen
-3.  Selecteer Cortana
-4.  Schakel de wisselknop Spraakactivering in
-
+1. Mobiele Teams openen
+2. Ga naar Instellingen
+3. Selecteer Cortana
+4. Schakel de wisselknop Spraakactivering in
 
 [Meer informatie over Cortana spraakondersteuning in Teams](/microsoftteams/cortana-in-teams)
 
@@ -123,7 +121,6 @@ Individuele gebruikers worden gevraagd zich aan te geven voor de gespreks-AI-erv
 Mijn e-mailberichten afspelen (zoals verbonden met via Outlook mobile) is een spraakgestuurde, handsfree ervaring voor gebruikers om te luisteren naar nieuwe berichten in hun Postvak IN met focus en wijzigingen in hun dag via de luidsprekers op hun telefoon, hoofdtelefoon of verbonden audioapparaat. Gebruikers kunnen Cortana vragen hun recente e-mailberichten hardop te lezen en Cortana acties te ondernemen, zoals vlag, archiveren, verwijderen en overslaan van berichten. Deze functie is vooral handig om uw e-mail bij te houden tijdens het reizen, multitasken of onderweg. Wanneer de gebruiker praat met Cortana in Mijn e-mailberichten afspelen, gaat het audioverzoek voor spraak rechtstreeks naar Cortana enterprise services. Een tekst-naar-spraak-voorlezen van de e-mail van de gebruiker wordt verwerkt in de Office 365 cloud. Tijdens dit proces worden er Office 365 gegevens verwerkt op het mobiele apparaat van de gebruiker en worden er geen e-mailgegevens opgeslagen. Een afschrift van gesproken opdrachten (dat wil zeggen 'markeren als gelezen', 'volgende', 'vlag', enzovoort) kan worden bewaard in overeenstemming met de voorwaarden voor gegevensbescherming in de Voorwaarden voor Microsoft [Online Services.](https://www.microsoft.com/licensing/product-licensing/products)
 
 Cortana wordt gebeld wanneer een e-mailbericht is beveiligd en kort pauzeert voordat u het bericht leest, zodat gebruikers voldoende tijd hebben om het afspelen te onderbreken of naar het volgende bericht te gaan. Net als bij een privételefoongesprek moeten gebruikers voorzichtig zijn bij het starten van het afspelen op locaties waar vertrouwelijke informatie mogelijk kan worden afgeluisterd. In deze gevallen wordt aangeraden dat werknemers van uw organisatie een hoofdtelefoon dragen in de juiste omgeving wanneer ze Mijn e-mailberichten afspelen in Outlook gebruiken.
-
 
 ### <a name="how-to-opt-out-of-play-my-emails"></a>Mijn e-mailberichten afspelen
 
@@ -183,10 +180,8 @@ Toegang Cortana de gehoste microsoft-gegevens van uw organisatie uitschakelen
 
 Voor services die vallen onder de [Microsoft Services-overeenkomst](https://go.microsoft.com/fwlink/p/?LinkId=2109174) en [de Privacyverklaring](https://privacy.microsoft.com/privacystatement)van Microsoft, is Microsoft de gegevenscontroller. Als gegevenscontroller gebruikt Microsoft gegevens om producten en services te verbeteren in overeenstemming met de [Privacyverklaring van Microsoft.](https://privacy.microsoft.com/privacystatement)
 
-
 ## <a name="related-content"></a>Verwante inhoud
 
 [Cortana spraakondersteuning in Teams](/microsoftteams/cortana-in-teams) (artikel)\
 [Cortana configureren in Windows 10](/windows/configuration/cortana-at-work/cortana-at-work-overview) (artikel)\
 [Wat kunt u doen met Mijn e-mailberichten afspelen van Cortana?](https://support.microsoft.com/help/4558256)
-

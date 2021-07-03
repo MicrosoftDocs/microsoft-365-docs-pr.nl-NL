@@ -1,6 +1,6 @@
 ---
 title: Lijst incidenten API in Microsoft 365 Defender
-description: Informatie over het maken van een lijst met API voor incidenten in Microsoft 365 Defender
+description: Informatie over het maken van een lijst met api's voor incidenten in Microsoft 365 Defender
 keywords: lijst, incident, incidenten, api
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 833bc1d8284829323cc2f0c391e42f4e563a6948
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: 038879e77dfa26d82add20d043a32de117f95b19
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730880"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287829"
 ---
 # <a name="list-incidents-api-in-microsoft-365-defender"></a>Lijst incidenten API in Microsoft 365 Defender
 
@@ -38,7 +38,6 @@ ms.locfileid: "52730880"
 
 > [!IMPORTANT]
 > Sommige informatie is gerelateerd aan voorlopige productversies die mogelijk aanzienlijk gewijzigd worden voordat ze commercieel gepubliceerd worden. Microsoft geeft geen garantie, uitdrukkelijk of impliciet, met betrekking tot de informatie die hier wordt beschreven.
-
 
 ## <a name="api-description"></a>API-beschrijving
 
@@ -78,14 +77,14 @@ Gedelegeerd (werk- of schoolaccount) | Incident.ReadWrite | Incidenten lezen en 
 GET /api/incidents
 ```
 
-## <a name="request-headers"></a>Kopteksten aanvragen
+## <a name="request-headers"></a>Aanvraagheaders
 
-Naam | Type | Beschrijving
+Naam | Type | Omschrijving
 -|-|-
 Autorisatie | Tekenreeks | Bearer {token}. **Vereist**
 
 
-## <a name="request-body"></a>Body aanvragen
+## <a name="request-body"></a>Aanvraagtekst
 
 Geen.
 
@@ -97,7 +96,7 @@ Als dit is gelukt, retourneert deze `200 OK` methode en een lijst met [incidente
 
 ### <a name="incident-metadata"></a>Metagegevens voor incidenten
 
-Veldnaam | Beschrijving | Voorbeeldwaarde
+Veldnaam | Omschrijving | Voorbeeldwaarde
 -|-|-
 incidentId | Unieke id voor het incident | 924565
 redirectIncidentId | Alleen ingevuld als een incident wordt gegroepeerd met een ander incident, als onderdeel van de logica voor het verwerken van incidenten. | 924569
@@ -115,7 +114,7 @@ waarschuwingen | Matrix met alle waarschuwingen die betrekking hebben op het inc
 
 ### <a name="alerts-metadata"></a>Metagegevens voor waarschuwingen
 
-Veldnaam | Beschrijving | Voorbeeldwaarde
+Veldnaam | Omschrijving | Voorbeeldwaarde
 -|-|-
 alertId | Unieke id om de waarschuwing weer te geven | caD70CFEE2-1F54-32DB-9988-3A868A1EBFAC
 incidentId | Unieke id voor het incident waar deze waarschuwing aan is gekoppeld | 924565
@@ -141,7 +140,7 @@ apparaten | Alle apparaten waar waarschuwingen met betrekking tot het incident z
 
 ### <a name="device-format"></a>Apparaatindeling
 
-Veldnaam | Beschrijving | Voorbeeldwaarde
+Veldnaam | Omschrijving | Voorbeeldwaarde
 -|-|-
 DeviceId | De apparaat-id zoals aangegeven in Microsoft Defender voor Eindpunt. | 24c22b0b60fe148eeece49ac83910cc6a7ef491
 aadDeviceId |  De apparaat-id zoals aangegeven in [Azure Active Directory.](/azure/active-directory/fundamentals/active-directory-whatis) Alleen beschikbaar voor apparaten met een domein. | null
@@ -156,7 +155,7 @@ entiteiten | Alle entiteiten die zijn geïdentificeerd als onderdeel van of gere
 
 ### <a name="entity-format"></a>Entiteitsindeling
 
-Veldnaam | Beschrijving | Voorbeeldwaarde
+Veldnaam | Omschrijving | Voorbeeldwaarde
 -|-|-
 entityType | Entiteiten die zijn geïdentificeerd als onderdeel van of gerelateerd aan een bepaalde waarschuwing.<br>De eigenschappenwaarden zijn: *Gebruiker*, *Ip*, *Url*, *Bestand*, *Proces*, *MailBox*, *MailMessage*, *MailCluster*, *Register* | Gebruiker
 sha1 | Beschikbaar als entityType *Bestand* is.<br>De bestandshash voor waarschuwingen die zijn gekoppeld aan een bestand of proces. | 5de839186691aa96ee2ca6d74f0a38fb8d1bd6dd
@@ -192,13 +191,13 @@ deviceId | De id, indien van de persoon, van het apparaat dat aan de entiteit is
 
 ## <a name="example"></a>Voorbeeld
 
-**Aanvraag**
+### <a name="request"></a>Aanvraag
 
 ```HTTP
 GET https://api.security.microsoft.com/api/incidents
 ```
 
-**Antwoord**
+### <a name="response"></a>Antwoord
 
 ```json
 {
@@ -722,9 +721,9 @@ GET https://api.security.microsoft.com/api/incidents
 }
 ```
 
-## <a name="related-articles"></a>Aanverwante artikelen
+## <a name="related-articles"></a>Verwante artikelen
 
-- [Toegang tot Microsoft 365 Defender-API's](api-access.md)
+- [Toegang tot de Microsoft 365 Defender API's](api-access.md)
 - [Meer informatie over API-limieten en -licenties](api-terms.md)
 - [Foutcodes begrijpen](api-error-codes.md)
 - [Overzicht van incidenten](incidents-overview.md)

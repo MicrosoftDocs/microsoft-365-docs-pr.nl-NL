@@ -16,12 +16,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: Gebruik Exchange Online-bewaking voor informatie over e-mailincidenten of -adviezen in Microsoft 365.
-ms.openlocfilehash: ee31f8e152d7c54e37b850563bea57971e07f61c
-ms.sourcegitcommit: 76c91e7b0d3172de57988eb4576d2b91c2f9ce18
+ms.openlocfilehash: 3d88378449879d451b21ba8bf2a7b5c3032a2c07
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52707294"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286439"
 ---
 # <a name="exchange-online-monitoring-for-microsoft-365"></a>Exchange Online-bewaking voor Microsoft 365
 
@@ -133,4 +133,3 @@ Voor feedback over incidenten of adviezen gebruik je de koppeling **Is deze post
 #### <a name="7-where-is-the-data-instrumented-for-the-scenarios-that-show-activity-trends"></a>7. Waar zijn de gegevens voor de scenario‘s die activiteitentrends weergeven geïnstrumenteerd?
 
 De gegevens worden in de Exchange Online-service ondergebracht. Als er een fout optreedt voordat de aanvraag Exchange Online bereikt of als er een fout in Exchange Online optreedt, krijgt u een daling van de activiteit te zien.
-

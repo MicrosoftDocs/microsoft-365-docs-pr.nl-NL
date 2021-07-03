@@ -11,12 +11,12 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: REST API gebruiken om een model en het gekoppelde inhoudstype te maken.
-ms.openlocfilehash: 0a1b6ef9b7e38f2c4f52082103530da432e3e855
-ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
+ms.openlocfilehash: 1c5bd84c777774edc1aa0c2419181f7b84aa4707
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53177151"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287243"
 ---
 # <a name="create-model"></a>Model maken
 
@@ -24,7 +24,7 @@ Een model en het gekoppelde inhoudstype maken. Hiermee wordt het model alleen ge
 
 ## <a name="http-request"></a>HTTP-aanvraag
 
-```
+```http
 POST /_api/machinelearning/models HTTP/1.1
 ```
 ## <a name="uri-parameters"></a>URI-parameters
@@ -43,11 +43,11 @@ Geen
 
 |Naam    |Type   |Omschrijving |
 |--------|-------|------------|
-|_metadata|  |Stel de objectmeta in op de SPO. Gebruik altijd de waarde: {"type": "Microsoft.Office.Server.ContentCenter.SPMachineLearningModelEntityData"}. |
-|ContentTypeGroup|string|De groep van het gekoppelde inhoudstype die aan het model is gekoppeld. Is standaard ingesteld op 'Typen intelligente documentinhoud'.|
-|ContentTypeName|string|De naam van het gekoppelde inhoudstype. Het gemaakte modelbestand krijgt dezelfde naam.|
+|_metagegevens|  |Stel de objectmeta in op de SPO. Gebruik altijd de waarde: {"type": "Microsoft.Office.Server.ContentCenter.SPMachineLearningModelEntityData"}. |
+|ContentTypeGroup|tekenreeks|De groep van het gekoppelde inhoudstype die aan het model is gekoppeld. Is standaard ingesteld op 'Typen intelligente documentinhoud'.|
+|ContentTypeName|tekenreeks|De naam van het gekoppelde inhoudstype. Het gemaakte modelbestand krijgt dezelfde naam.|
 
-## <a name="responses"></a>Reacties
+## <a name="responses"></a>Antwoorden
 
 | Naam   | Type  | Omschrijving|
 |--------|-------|------------|
@@ -59,7 +59,7 @@ Geen
 
 #### <a name="sample-request"></a>Voorbeeldaanvraag
 
-```
+```json
 {
     "__metadata": {
         "type": "Microsoft.Office.Server.ContentCenter.SPMachineLearningModelEntityData"

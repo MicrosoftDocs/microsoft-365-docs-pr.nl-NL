@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Een Microsoft 365-classificatie is een hulpmiddel dat u kunt trainen om verschillende soorten inhoud te herkennen door deze voorbeelden te geven om naar te kijken. In dit artikel wordt beschreven hoe u een aangepaste classificatie kunt maken en trainen en hoe u deze opnieuw kunt trainen om de nauwkeurigheid te vergroten.
-ms.openlocfilehash: 90e47ec94528bbadeb98dc9eb590929e25ae6ff1
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 3053e5154fb4e1ff39ce7db366ce4679bbb8911d
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "52161919"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286631"
 ---
 # <a name="get-started-with-trainable-classifiers"></a>Aan de slag met trainbare classificaties
 
@@ -108,7 +108,7 @@ Nadat de trainbare classificatie voldoende positieve steekproeven heeft verwerkt
    > [!TIP]
    > Als u een nieuwe site en map maakt voor uw seedgegevens, moet u ten minste een uur toestaan dat die locatie wordt geïndexeerd voordat u de trainbare classificatie maakt waarmee die seedgegevens worden gebruikt.
 
-3. Meld u aan bij Microsoft 365 compliancecentrum met roltoegang voor compliancebeheerders of beveiligingsbeheerders en open Microsoft 365 **compliancecentrum** of Microsoft 365 **beveiligingscentrum**  >  **Gegevensclassificatie.**
+3. Meld u aan bij Microsoft 365-compliancecentrum compliancebeheerder of beveiligingsbeheerder roltoegang en **open** Microsoft 365-compliancecentrum of **Microsoft 365 beveiligingscentrum**  >  **Gegevensclassificatie.**
 
 4. Kies het **tabblad Trainable classifiers.**
 

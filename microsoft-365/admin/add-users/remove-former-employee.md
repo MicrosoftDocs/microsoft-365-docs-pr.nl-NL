@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Volg de stappen in deze oplossing om een voormalige werknemer te verwijderen Microsoft 365 en de gegevens van uw organisatie te beveiligen.
-ms.openlocfilehash: 5f7dc257b55ae75efec84f845cc28bb943fafa81
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: 36441e51a7f9fe89434f633ee98fe2015d72827d
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730172"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286343"
 ---
 # <a name="overview-remove-a-former-employee-and-secure-data"></a>Overzicht: Een voormalige werknemer verwijderen en gegevens beveiligen
 
@@ -48,18 +48,22 @@ U moet een globale beheerder zijn om de stappen in deze oplossing uit te voeren.
 
 :::image type="content" source="../../media/delete-user-account.png" alt-text="Schermafbeelding: stappen voor het verwijderen van een voormalige werknemer uit uw organisatie":::
 
-|||
-|:-----|:-----|
-|**Stap** <br/> |**Reden** <br/> |
-|[Stap 1: voorkomen dat een voormalige werknemer zich aanlogt en de toegang tot Microsoft 365 services blokkeert](remove-former-employee-step-1.md) <br/> |Hierdoor wordt voorkomen dat uw voormalige werknemer zich inlogt bij Microsoft 365 en voorkomt u dat de persoon toegang heeft tot Microsoft 365 services. <br/> |
-|[Stap 2 - De inhoud van het postvak van een voormalige werknemer opslaan](remove-former-employee-step-2.md) <br/> |Dit is handig voor de persoon die het werk van de werknemer gaat overnemen of als er een geschil is. <br/> |
-|[Stap 3: e-mail van een voormalige werknemer doorsturen naar een andere werknemer of converteren naar een gedeeld postvak](remove-former-employee-step-3.md) <br/> |Hiermee kunt u het e-mailadres van een voormalige werknemer actief houden. Als er klanten of partners zijn die hun e-mail nog steeds naar het vorige adres van de werknemer verzenden, komen ze hiermee terecht bij de persoon die het werk overneemt. <br/> |
-|[Stap 4: een andere werknemer toegang geven tot OneDrive en Outlook gegevens](remove-former-employee-step-4.md) <br/> |Als u alleen de licentie van een gebruiker verwijdert maar niet het account, blijft de inhoud van de OneDrive van de gebruiker nog maximaal dertig dagen toegankelijk. <br/><br/> Voordat u het account verwijdert, moet u toegang geven tot de OneDrive en Outlook andere gebruiker. Nadat u het account van een werknemer hebt verwijderd, blijft de inhoud in OneDrive en Outlook **30 dagen** behouden. Gedurende die 30 dagen kunt u echter het account van de gebruiker herstellen en toegang krijgen tot de inhoud. Als u het account van de gebruiker herstelt, blijven de OneDrive en Outlook voor u toegankelijk, zelfs na 30 dagen. <br/> |
-|[Stap 5 : het mobiele apparaat van een voormalige werknemer wissen en blokkeren](remove-former-employee-step-5.md) <br/> |Verwijdert de zakelijke gegevens van de telefoon of tablet.  <br/> |
-|[Stap 6 : de licentie voor het Microsoft 365 verwijderen van een voormalige werknemer](remove-former-employee-step-6.md) <br/> |Als u een licentie verwijdert, kunt u deze aan iemand anders toewijzen. U kunt de licentie ook wissen, zodat u er niet voor hoeft te betalen totdat u een andere persoon inhuurt.  <br/><br/> Als u een licentie verwijdert of wist, worden de oude e-mailberichten, de contactpersonen en de agenda van de gebruiker gedurende **30 dagen** bewaard. Daarna worden ze definitief gewist. Als u de licentie van een gebruiker verwijdert of wist, maar het account niet wist, blijft de inhoud van de OneDrive van de gebruiker nog maximaal dertig dagen toegankelijk.  <br/> |
-|[Stap 7 - Het gebruikersaccount van een voormalige werknemer verwijderen](remove-former-employee-step-7.md) <br/> |Hiermee wordt het account verwijderd uit uw beheercentrum. Houdt alles schoon. <br/> |
+<br>
 
-## <a name="related-content"></a>Verwante onderwerpen
+****
+
+|Stap|Reden|
+|---|---|
+|[Stap 1: voorkomen dat een voormalige werknemer zich aanlogt en de toegang tot Microsoft 365 services blokkeert](remove-former-employee-step-1.md)|Hierdoor wordt voorkomen dat uw voormalige werknemer zich inlogt bij Microsoft 365 en voorkomt u dat de persoon toegang heeft tot Microsoft 365 services.|
+|[Stap 2 - De inhoud van het postvak van een voormalige werknemer opslaan](remove-former-employee-step-2.md)|Dit is handig voor de persoon die het werk van de werknemer gaat overnemen of als er een geschil is.|
+|[Stap 3: e-mail van een voormalige werknemer doorsturen naar een andere werknemer of converteren naar een gedeeld postvak](remove-former-employee-step-3.md)|Hiermee kunt u het e-mailadres van een voormalige werknemer actief houden. Als er klanten of partners zijn die hun e-mail nog steeds naar het vorige adres van de werknemer verzenden, komen ze hiermee terecht bij de persoon die het werk overneemt.|
+|[Stap 4: een andere werknemer toegang geven tot OneDrive en Outlook gegevens](remove-former-employee-step-4.md)|Als u alleen de licentie van een gebruiker verwijdert maar niet het account, blijft de inhoud van de OneDrive van de gebruiker nog maximaal dertig dagen toegankelijk. <p> Voordat u het account verwijdert, moet u toegang geven tot de OneDrive en Outlook andere gebruiker. Nadat u het account van een werknemer hebt verwijderd, blijft de inhoud in OneDrive en Outlook **30 dagen** behouden. Gedurende die 30 dagen kunt u echter het account van de gebruiker herstellen en toegang krijgen tot de inhoud. Als u het account van de gebruiker herstelt, blijven de OneDrive en Outlook voor u toegankelijk, zelfs na 30 dagen.|
+|[Stap 5 : het mobiele apparaat van een voormalige werknemer wissen en blokkeren](remove-former-employee-step-5.md)|Verwijdert de zakelijke gegevens van de telefoon of tablet.|
+|[Stap 6 : de licentie voor het Microsoft 365 verwijderen van een voormalige werknemer](remove-former-employee-step-6.md)|Als u een licentie verwijdert, kunt u deze aan iemand anders toewijzen. U kunt de licentie ook wissen, zodat u er niet voor hoeft te betalen totdat u een andere persoon inhuurt.  <p> Als u een licentie verwijdert of wist, worden de oude e-mailberichten, de contactpersonen en de agenda van de gebruiker gedurende **30 dagen** bewaard. Daarna worden ze definitief gewist. Als u de licentie van een gebruiker verwijdert of wist, maar het account niet wist, blijft de inhoud van de OneDrive van de gebruiker nog maximaal dertig dagen toegankelijk.  |
+|[Stap 7 - Het gebruikersaccount van een voormalige werknemer verwijderen](remove-former-employee-step-7.md)|Hiermee wordt het account verwijderd uit uw beheercentrum. Houdt alles schoon.|
+|
+
+## <a name="related-content"></a>Verwante inhoud
 
 [Een gebruiker herstellen](restore-user.md) (artikel)\
 [Een nieuwe werknemer toevoegen aan Microsoft 365](add-new-employee.md) (artikel)\

@@ -11,12 +11,12 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: Gebruik REST API om een aanvraag te maken om een of meer bestanden te classificeren met behulp van een getraind model voor documentbegrip.
-ms.openlocfilehash: 3a796bcdb38a9a6930b51f7d585febb69082732e
-ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
+ms.openlocfilehash: b1022787d6e11ebe36c88ecd29936a777289dd74
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53177079"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287231"
 ---
 # <a name="create-classification-request"></a>Classificatieaanvraag maken
 
@@ -26,7 +26,7 @@ De SharePoint Online (en SharePoint 2016 en hoger on-premises) REST-service onde
 
 ## <a name="http-request"></a>HTTP-aanvraag
 
-```
+```http
 POST /_api/machinelearning/workItems HTTP/1.1
 ```
 ## <a name="uri-parameters"></a>URI-parameters
@@ -62,7 +62,7 @@ Geen
 
 #### <a name="sample-request"></a>Voorbeeldaanvraag
 
-```
+```JSON
 {
     "__metadata": {
         "type": "Microsoft.Office.Server.ContentCenter.SPMachineLearningWorkItemEntityData"

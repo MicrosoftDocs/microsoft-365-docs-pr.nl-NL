@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Implementeer Microsoft 365 beveiligings- en compliancefuncties en bescherm uw persoonlijke gegevens.
-ms.openlocfilehash: 479774069844964e2e603dee5efbc7b8ef867918
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 7325aad0392d559703199c81f2544a582d7eadcb
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53229261"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287745"
 ---
 # <a name="protect-information-subject-to-data-privacy-regulation"></a>Gegevens beveiligen die onderworpen zijn aan privacyregels voor gegevens
 
@@ -66,7 +66,6 @@ Om u te helpen aan de slag te gaan met een informatiebeveiligingsschema in Micro
 
 [Microsoft-oplossingen voor informatiebeveiliging](../compliance/information-protection.md) omvatten een aantal geïntegreerde mogelijkheden in Microsoft 365, Microsoft Azure en Microsoft Windows. In Microsoft 365 oplossingen voor informatiebeveiliging:
 
-- [Serviceversleuteling met klantsleutel](../compliance/customer-key-overview.md)
 - [Gevoelige informatietypen](../compliance/sensitive-information-type-entity-definitions.md) (beschreven in het [artikel Privacyrisico's voor gegevens](information-protection-deploy-assess.md)beoordelen en gevoelige items identificeren)
 - [Gevoeligheidslabels](../compliance/sensitivity-labels.md)
   - Service/containerniveau

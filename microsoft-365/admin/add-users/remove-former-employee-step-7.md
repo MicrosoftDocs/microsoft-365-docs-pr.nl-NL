@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Volg deze stappen om het gebruikersaccount van een voormalige werknemer te verwijderen.
-ms.openlocfilehash: 735821c9c4d6edf3d23fa3535ed9fa6b3d294b8c
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: e2e1b234eaee3818321761af8f737bad8d131b62
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782379"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286319"
 ---
 # <a name="step-7---delete-a-former-employees-user-account"></a>Stap 7 - Het gebruikersaccount van een voormalige werknemer verwijderen
 
@@ -61,29 +61,37 @@ Zie de cmdlet Remove-MsolUser PowerShell Azure Active Directory u de powershell-
 ## <a name="what-you-need-to-know-about-terminating-an-employees-email-session"></a>Wat u moet weten over het beëindigen van een sessie van een werknemer
 
 Zo ontzegt u een werknemer de toegang tot e-mail (Exchange).
-  
-|||
+
+<br>
+
+****
+
+|Wat u kunt doen|Hoe u dat kunt doen|
 |:-----|:-----|
-|**Wat u kunt doen** <br/> |**Hoe u dat kunt doen** <br/> |
-|Een sessie beëindigen (zoals voor de webversie van Outlook, Outlook, Exchange Active Sync, enzovoort) en een nieuwe sessie geforceerd openen  <br/> |Wachtwoord opnieuw instellen  <br/> |
-|Een sessie beëindigen en toegang blokkeren voor toekomstige sessies (voor alle protocollen)  <br/> |Schakel het account uit. Bijvoorbeeld(in het Exchange beheercentrum of met PowerShell):  <br/>  `Set-Mailbox user@contoso.com -AccountDisabled:$true` <br/> |
-|De sessie voor een bepaald protocol (zoals ActiveSync) beëindigen  <br/> |Schakel het protocol uit. Bijvoorbeeld(in het Exchange beheercentrum of met PowerShell):  <br/>  `Set-CASMailbox user@contoso.com -ActiveSyncEnabled:$false` <br/> |
+|Een sessie beëindigen (zoals voor de webversie van Outlook, Outlook, Exchange Active Sync, enzovoort) en een nieuwe sessie geforceerd openen|Wachtwoord opnieuw instellen|
+|Een sessie beëindigen en toegang blokkeren voor toekomstige sessies (voor alle protocollen)|Schakel het account uit. Bijvoorbeeld(in het Exchange beheercentrum of met PowerShell): <p>  `Set-Mailbox user@contoso.com -AccountDisabled:$true`|
+|De sessie voor een bepaald protocol (zoals ActiveSync) beëindigen|Schakel het protocol uit. Bijvoorbeeld(in het Exchange beheercentrum of met PowerShell): <p>  `Set-CASMailbox user@contoso.com -ActiveSyncEnabled:$false`|
+|
 
 De bovenstaande bewerkingen kunnen op drie plaatsen worden uitgevoerd:
   
-|||
-|:-----|:-----|
-|**Als u de sessie hier beëindigt** <br/> |**Hoe lang dit duurt** <br/> |
-|In het Exchange-beheercentrum of via PowerShell  <br/> |Verwachte vertraging is korter dan 30 minuten  <br/> |
-|In het Azure Active Directory-beheercentrum  <br/> |Verwachte vertraging is 60 minuten  <br/> |
-|In een lokale omgeving  <br/> |Verwachte vertraging is 3 uur of langer  <br/> |
+<br>
+
+****
+
+|Als u de sessie hier beëindigt|Hoe lang dit duurt|
+|---|---|
+|In het Exchange-beheercentrum of via PowerShell|Verwachte vertraging is korter dan 30 minuten|
+|In het Azure Active Directory-beheercentrum|Verwachte vertraging is 60 minuten|
+|In een lokale omgeving|Verwachte vertraging is 3 uur of langer|
+|
 
 ### <a name="how-to-get-fastest-response-for-account-termination"></a>Zo krijgt u de snelste reactie voor het beëindigen van een account
 
- **Snelst**: maak gebruik van het Exchange-beheercentrum (gebruik PowerShell) of van het Azure Active Directory-beheercentrum. In een on-premises omgeving kan het enkele uren duren om de wijziging via DirSync te synchroniseren.
+**Snelst**: maak gebruik van het Exchange-beheercentrum (gebruik PowerShell) of van het Azure Active Directory-beheercentrum. In een on-premises omgeving kan het enkele uren duren om de wijziging via DirSync te synchroniseren.
   
- **Snelst voor een gebruiker met aanwezigheid on-premises en in het Exchange-Datacenter**: Beëindig de sessie met behulp van het Azure Active Directory-beheercentrum/Exchange-beheercentrum, en breng de wijziging OOK aan in de on-premises omgeving. Anders worden de wijzigingen in het Azure Active Directory-beheercentrum/Exchange-beheercentrum overschreven door DirSync.
+**Snelst voor een gebruiker met aanwezigheid on-premises en in het Exchange-Datacenter**: Beëindig de sessie met behulp van het Azure Active Directory-beheercentrum/Exchange-beheercentrum, en breng de wijziging OOK aan in de on-premises omgeving. Anders worden de wijzigingen in het Azure Active Directory-beheercentrum/Exchange-beheercentrum overschreven door DirSync.
   
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Een gebruiker herstellen](restore-user.md) (artikel)/ [Wachtwoorden opnieuw instellen](reset-passwords.md) (artikel)

@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Informatie over het maken en importeren van een aangepast type voor vertrouwelijke gegevens voor beleid in het compliance.
-ms.openlocfilehash: 75e767b0ea5ebe4940af5ee0fbfa85f858f65e9c
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: ef63adc5fb4f032b6224e054950f8c40f5e78f5a
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538700"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287609"
 ---
 # <a name="create-a-custom-sensitive-information-type-using-powershell"></a>Een aangepast type voor vertrouwelijke gegevens maken met PowerShell
 
@@ -39,6 +39,9 @@ Zie [Mogelijke validatieproblemen om rekening mee te houden](#potential-validati
 
 Zie [Boost.Regex 5.1.3](https://www.boost.org/doc/libs/1_68_0/libs/regex/doc/html/) voor meer informatie over de engine Boost.RegEx (voorheen bekend als RegEx++) die wordt gebruikt voor het verwerken van tekst.
 
+> [!NOTE]
+> Als u een ampersandteken (&) gebruikt als onderdeel van een trefwoord in uw aangepaste gevoelige informatietype, is er een bekend probleem. U moet een extra term toevoegen met spaties rond het teken om ervoor te zorgen dat het teken correct is geïdentificeerd, bijvoorbeeld L & P _niet_ L&P.
+
 ## <a name="sample-xml-of-a-rule-package"></a>Voorbeeld-XML van een regelpakket
 
 Dit is de voorbeeld-XML van het regelpakket dat we in dit onderwerp gaan maken. In onderstaande gedeelten worden elementen en kenmerken uitgelegd.
@@ -47,79 +50,79 @@ Dit is de voorbeeld-XML van het regelpakket dat we in dit onderwerp gaan maken. 
 <?xml version="1.0" encoding="UTF-16"?>
 <RulePackage xmlns="http://schemas.microsoft.com/office/2011/mce">
 <RulePack id="DAD86A92-AB18-43BB-AB35-96F7C594ADAA">
-    <Version build="0" major="1" minor="0" revision="0"/>
-    <Publisher id="619DD8C3-7B80-4998-A312-4DF0402BAC04"/>
-    <Details defaultLangCode="en-us">
-        <LocalizedDetails langcode="en-us">
-            <PublisherName>Contoso</PublisherName>
-            <Name>Employee ID Custom Rule Pack</Name>
-            <Description>
-            This rule package contains the custom Employee ID entity.
-            </Description>
-        </LocalizedDetails>
-    </Details>
+  <Version build="0" major="1" minor="0" revision="0"/>
+  <Publisher id="619DD8C3-7B80-4998-A312-4DF0402BAC04"/>
+  <Details defaultLangCode="en-us">
+    <LocalizedDetails langcode="en-us">
+      <PublisherName>Contoso</PublisherName>
+      <Name>Employee ID Custom Rule Pack</Name>
+      <Description>
+      This rule package contains the custom Employee ID entity.
+      </Description>
+    </LocalizedDetails>
+  </Details>
 </RulePack>
 <Rules>
 <!-- Employee ID -->
-    <Entity id="E1CC861E-3FE9-4A58-82DF-4BD259EAB378" patternsProximity="300" recommendedConfidence="75">
-        <Pattern confidenceLevel="65">
-            <IdMatch idRef="Regex_employee_id"/>
-        </Pattern>
-        <Pattern confidenceLevel="75">
-            <IdMatch idRef="Regex_employee_id"/>
-            <Match idRef="Func_us_date"/>
-        </Pattern>
-        <Pattern confidenceLevel="85">
-            <IdMatch idRef="Regex_employee_id"/>
-            <Match idRef="Func_us_date"/>
-            <Any minMatches="1">
-                <Match idRef="Keyword_badge" minCount="2"/>
-                <Match idRef="Keyword_employee"/>
-            </Any>
-            <Any minMatches="0" maxMatches="0">
-                <Match idRef="Keyword_false_positives_local"/>
-                <Match idRef="Keyword_false_positives_intl"/>
-            </Any>
-        </Pattern>
-    </Entity>
-    <Regex id="Regex_employee_id">(\s)(\d{9})(\s)</Regex>
-    <Keyword id="Keyword_employee">
-        <Group matchStyle="word">
-            <Term>Identification</Term>
-            <Term>Contoso Employee</Term>
-        </Group>
-    </Keyword>
-    <Keyword id="Keyword_badge">
-        <Group matchStyle="string">
-            <Term>card</Term>
-            <Term>badge</Term>
-            <Term caseSensitive="true">ID</Term>
-        </Group>
-    </Keyword>
-    <Keyword id="Keyword_false_positives_local">
-        <Group matchStyle="word">
-            <Term>credit card</Term>
-            <Term>national ID</Term>
-        </Group>
-    </Keyword>
-    <Keyword id="Keyword_false_positives_intl">
-        <Group matchStyle="word">
-            <Term>identity card</Term>
-            <Term>national ID</Term>
-            <Term>EU debit card</Term>
-        </Group>
-    </Keyword>
-    <LocalizedStrings>
-        <Resource idRef="E1CC861E-3FE9-4A58-82DF-4BD259EAB378">
-            <Name default="true" langcode="en-us">Employee ID</Name>
-            <Description default="true" langcode="en-us">
-            A custom classification for detecting Employee IDs.
-            </Description>
-            <Description default="false" langcode="de-de">
-            Description for German locale.
-            </Description>
-        </Resource>
-    </LocalizedStrings>
+  <Entity id="E1CC861E-3FE9-4A58-82DF-4BD259EAB378" patternsProximity="300" recommendedConfidence="75">
+    <Pattern confidenceLevel="65">
+      <IdMatch idRef="Regex_employee_id"/>
+    </Pattern>
+    <Pattern confidenceLevel="75">
+      <IdMatch idRef="Regex_employee_id"/>
+      <Match idRef="Func_us_date"/>
+    </Pattern>
+    <Pattern confidenceLevel="85">
+      <IdMatch idRef="Regex_employee_id"/>
+      <Match idRef="Func_us_date"/>
+      <Any minMatches="1">
+        <Match idRef="Keyword_badge" minCount="2"/>
+        <Match idRef="Keyword_employee"/>
+      </Any>
+      <Any minMatches="0" maxMatches="0">
+        <Match idRef="Keyword_false_positives_local"/>
+        <Match idRef="Keyword_false_positives_intl"/>
+      </Any>
+    </Pattern>
+  </Entity>
+  <Regex id="Regex_employee_id">(\s)(\d{9})(\s)</Regex>
+  <Keyword id="Keyword_employee">
+    <Group matchStyle="word">
+      <Term>Identification</Term>
+      <Term>Contoso Employee</Term>
+    </Group>
+  </Keyword>
+  <Keyword id="Keyword_badge">
+    <Group matchStyle="string">
+      <Term>card</Term>
+      <Term>badge</Term>
+      <Term caseSensitive="true">ID</Term>
+    </Group>
+  </Keyword>
+  <Keyword id="Keyword_false_positives_local">
+    <Group matchStyle="word">
+      <Term>credit card</Term>
+      <Term>national ID</Term>
+    </Group>
+  </Keyword>
+  <Keyword id="Keyword_false_positives_intl">
+    <Group matchStyle="word">
+      <Term>identity card</Term>
+      <Term>national ID</Term>
+      <Term>EU debit card</Term>
+    </Group>
+  </Keyword>
+  <LocalizedStrings>
+    <Resource idRef="E1CC861E-3FE9-4A58-82DF-4BD259EAB378">
+      <Name default="true" langcode="en-us">Employee ID</Name>
+      <Description default="true" langcode="en-us">
+      A custom classification for detecting Employee IDs.
+      </Description>
+      <Description default="false" langcode="de-de">
+      Description for German locale.
+      </Description>
+    </Resource>
+  </LocalizedStrings>
 </Rules>
 </RulePackage>
 ```
@@ -336,7 +339,7 @@ Het element Versie is ook belangrijk. WAnneer u uw regelpakket de eerste keer up
   </RulePack>
   
  <Rules>
-    . . .
+  . . .
  </Rules>
 </RulePackage>
 
@@ -546,7 +549,7 @@ Zie [Verbinding maken met compliancecentrum PowerShell](/powershell/exchange/exc
    $rulepak = Get-DlpSensitiveInformationTypeRulePackage -Identity "Employee ID Custom Rule Pack"
    ```
 
-3. Gebruik de cmdlet [Set-Content](/powershell/module/microsoft.powershell.management/set-content?view=powershell-6) om het aangepaste regelpakket te exporteren naar een XML-bestand:
+3. Gebruik de cmdlet [Set-Content](/powershell/module/microsoft.powershell.management/set-content) om het aangepaste regelpakket te exporteren naar een XML-bestand:
 
    ```powershell
    Set-Content -Path "XMLFileAndPath" -Encoding Byte -Value $rulepak.SerializedClassificationRuleCollection

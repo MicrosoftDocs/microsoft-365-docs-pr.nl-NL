@@ -19,12 +19,12 @@ hideEdit: true
 feedback_system: None
 recommendations: false
 description: Er zijn 200 typen gevoelige informatie die u kunt gebruiken in uw DLP-beleid. In dit artikel worden al deze typen gevoelige informatie beschreven en wordt beschreven waar een DLP-beleid naar zoekt wanneer elk type wordt gedetecteerd.
-ms.openlocfilehash: 4efa411f7cc34b4116cc418e328e5c3f7545f788
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: 614649367e72766d8df210fccbb4e3cdc9cdb4b6
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52789217"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287465"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>Definities van entiteiten van het type Gevoelige informatie
 
@@ -133,16 +133,16 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 
 #### <a name="keyword_argentina_national_id"></a>Keyword_argentina_national_id
 
-- Nationale identiteitsnummer argentinië 
-- cedula 
-- cédula 
-- dni 
-- documento nacional de identidad 
-- documento número 
-- documento numero 
-- registro nacional de las personas 
-- rnp 
-   
+- Nationale identiteitsnummer argentinië
+- cedula
+- cédula
+- dni
+- documento nacional de identidad
+- documento número
+- documento numero
+- registro nacional de las personas
+- rnp
+
 ## <a name="argentina-unique-tax-identification-key-cuitcuil"></a>Argentina Unique Tax Identification Key (CUIT/CUIL)
 
 ### <a name="format"></a>Opmaak
@@ -224,8 +224,8 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 - belastingidentificatie
 - Número de Identificación Fiscal
 - número de contribuyente
-   
-   
+
+
 ## <a name="australia-bank-account-number"></a>Australië bankrekeningnummer
 
 ### <a name="format"></a>Opmaak
@@ -237,8 +237,8 @@ zes tot tien cijfers met of zonder banknummer
 Accountnummer is 6 tot 10 cijfers.
 
 Nummer van de australische bankstaat:
-- drie cijfers 
-- een afbreekstreester 
+- drie cijfers
+- een afbreekstreester
 - drie cijfers
 
 ### <a name="checksum"></a>Checksum
@@ -420,15 +420,15 @@ negen letters en cijfers
 
 ### <a name="pattern"></a>Patroon
 
-negen letters en cijfers: 
+negen letters en cijfers:
 
-- twee cijfers of letters (niet hoofdlettergevoelig) 
-- twee cijfers 
+- twee cijfers of letters (niet hoofdlettergevoelig)
+- twee cijfers
 - vijf cijfers of letters (niet hoofdlettergevoelig)
 
 OF
 
-- een tot twee optionele letters (niet hoofdlettergevoelig) 
+- een tot twee optionele letters (niet hoofdlettergevoelig)
 - vier tot negen cijfers
 
 OF
@@ -525,7 +525,7 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 - Driver's Lic #
 - Driver's Lics #
 - Rijbewijs #
-- Rijbewijzen # 
+- Rijbewijzen #
 
 #### <a name="keyword_australia_drivers_license_number_exclusions"></a>Keyword_australia_drivers_license_number_exclusions
 
@@ -562,7 +562,7 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 - Driver'sLicenses #
 - Rijbewijs #
 - Rijbewijzen #
-   
+
 ## <a name="australia-medical-account-number"></a>Nummer van medische rekening australië
 
 ### <a name="format"></a>Opmaak
@@ -613,12 +613,12 @@ Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is 
 - lokale service
 - hospik
 
-   
+
 ## <a name="australia-passport-number"></a>Australië paspoortnummer
 
 ### <a name="format"></a>Opmaak
 
-acht of negen alfanumerieke tekens 
+acht of negen alfanumerieke tekens
 
 ### <a name="pattern"></a>Patroon
 
@@ -648,7 +648,7 @@ Een DLP-beleid heeft weinig vertrouwen dat dit type gevoelige informatie is gede
       <Pattern confidenceLevel="65">
         <IdMatch idRef="Regex_australia_passport_number" />
       </Pattern>
-    </Entity>  
+    </Entity>
 ```
 
 ### <a name="keywords"></a>Trefwoorden
@@ -683,10 +683,10 @@ acht tot negen cijfers
 ### <a name="pattern"></a>Patroon
 
 acht tot negen cijfers die gewoonlijk spaties als volgt worden weergegeven:
-- drie cijfers 
-- een optionele spatie 
-- drie cijfers 
-- een optionele spatie 
+- drie cijfers
+- een optionele spatie
+- drie cijfers
+- een optionele spatie
 - twee tot drie cijfers waarbij het laatste cijfer een controlecijfer is
 
 ### <a name="checksum"></a>Checksum
@@ -729,22 +729,22 @@ Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is 
 ### <a name="format"></a>Opmaak
 
 acht cijfers zonder spaties en scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
 acht cijfers
-  
+
 ### <a name="checksum"></a>Checksum
 
 Nee
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-  
-- Met de normale  `Regex_austria_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_austria_eu_driver's_license_number` wordt gevonden. 
-    
+
+- Met de normale  `Regex_austria_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_austria_eu_driver's_license_number` wordt gevonden.
+
 ```xml
       <!-- Austria Driver's License Number -->
       <Entity id="682f18ce-44eb-482b-8198-2bcb96a0761e" patternsProximity="300" recommendedConfidence="75">
@@ -901,26 +901,26 @@ Dit type gevoelige informatie is alleen beschikbaar voor gebruik in:
 ### <a name="format"></a>Opmaak
 
 Een combinatie van 24 tekens van letters, cijfers en speciale tekens
-  
+
 ### <a name="pattern"></a>Patroon
 
 24 tekens:
-  
--  22 letters (niet hoofdlettergevoelig), cijfers, backslashes, slashes of plustekens 
-    
+
+-  22 letters (niet hoofdlettergevoelig), cijfers, backslashes, slashes of plustekens
+
 - twee letters (niet hoofdlettergevoelig), cijfers, backslashes, slashes, plustekens of gelijktekens
-    
+
 ### <a name="checksum"></a>Checksum
 
 Niet van toepassing
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-  
-- Met de normale  `Regex_austria_eu_national_id_card` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Er wordt een  `Keywords_austria_eu_national_id_card` trefwoord uit gevonden. 
-   
+
+- Met de normale  `Regex_austria_eu_national_id_card` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Er wordt een  `Keywords_austria_eu_national_id_card` trefwoord uit gevonden.
+
 ```xml
       <!-- Austria Identity Card -->
       <Entity id="5ec06c3b-007e-4820-8343-7ff73b889735" patternsProximity="300" recommendedConfidence="75">
@@ -944,30 +944,30 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="format"></a>Opmaak
 
 Eén letter gevolgd door een optionele spatie en zeven cijfers
-  
+
 ### <a name="pattern"></a>Patroon
 
 Een combinatie van één letter, zeven cijfers en één spatie:
-  
+
 - één letter (niet case-sensitive)
 - één spatie (optioneel)
 - zeven cijfers
-    
+
 ### <a name="checksum"></a>Checksum
 
 niet van toepassing
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_austria_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_austria_eu_passport_number` wordt gevonden. 
+- Met de normale  `Regex_austria_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_austria_eu_passport_number` wordt gevonden.
 - Met de normale expressie wordt de datum gevonden in de `Regex_eu_passport_date1` indeling DD.MM.YYYY of wordt een trefwoord `Keywords_eu_passport_date` gevonden uit
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_austria_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_austria_eu_passport_number` wordt gevonden. 
-    
+- Met de normale  `Regex_austria_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_austria_eu_passport_number` wordt gevonden.
+
 ```xml
       <!-- Austria Passport Number -->
       <Entity id="1c96ae4e-303b-447d-86c7-77113ac266bf" patternsProximity="300" recommendedConfidence="75">
@@ -1011,7 +1011,7 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 
 - reisepassnummer
 - heruitgave
-- No-Reisepass 
+- No-Reisepass
 - Nr-Reisepass
 - Reisepass-Nr
 - Wachtwoordnummer
@@ -1027,28 +1027,28 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="format"></a>Opmaak
 
 10 cijfers in de opgegeven notatie
-  
+
 ### <a name="pattern"></a>Patroon
 
 10 cijfers:
-  
-- drie cijfers die overeenkomen met een serieel getal 
+
+- drie cijfers die overeenkomen met een serieel getal
 - een vinkje
 - zes cijfers die overeenkomen met de geboortedatum (DDMMYY)
-    
+
 ### <a name="checksum"></a>Checksum
 
 Ja
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_austria_eu_ssn_or_equivalent` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-- een trefwoord  `Keywords_austria_eu_ssn_or_equivalent` uit wordt gevonden. 
-    
+- Met de  `Func_austria_eu_ssn_or_equivalent` functie wordt inhoud gevonden die overeenkomt met het patroon.
+- een trefwoord  `Keywords_austria_eu_ssn_or_equivalent` uit wordt gevonden.
+
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_austria_eu_ssn_or_equivalent` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-    
+- Met de  `Func_austria_eu_ssn_or_equivalent` functie wordt inhoud gevonden die overeenkomt met het patroon.
+
 ```xml
       <!-- Austria Social Security Number -->
       <Entity id="6896a906-86c9-4d19-a2da-6e43ccd19b7b" patternsProximity="300" recommendedConfidence="85">
@@ -1099,30 +1099,30 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="format"></a>Opmaak
 
 negen cijfers met optioneel afbreekstreester en schuine streep
-  
+
 ### <a name="pattern"></a>Patroon
 
 negen cijfers met optioneel afbreekstreester en schuine streep vooruit:
-  
+
 - twee cijfers
 - een afbreekstreester (optioneel)
 - drie cijfers
 - a forward slash (optioneel)
 - vier cijfers
-    
+
 ### <a name="checksum"></a>Checksum
 
 Ja
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_austria_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Er wordt een  `Keywords_austria_eu_tax_file_number` trefwoord uit gevonden. 
-    
+- Met de  `Func_austria_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon.
+- Er wordt een  `Keywords_austria_eu_tax_file_number` trefwoord uit gevonden.
+
 Een DLP-beleid heeft weinig vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_austria_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-    
+- Met de  `Func_austria_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon.
+
 ```xml
       <!-- Austria Tax Identification Number -->
       <Entity id="4fd58d22-af28-4451-b18a-6f722430a56d" patternsProximity="300" recommendedConfidence="85">
@@ -1160,7 +1160,7 @@ Een DLP-beleid heeft weinig vertrouwen dat dit type gevoelige informatie is gede
 - tin no
 - tin #
 - btw-nummer
- 
+
 ## <a name="austria-value-added-tax"></a>Oostenrijks belasting over toegevoegde waarde
 Dit type gevoelige informatie is alleen beschikbaar voor gebruik in:
 - preventiebeleid voor gegevensverlies
@@ -1706,21 +1706,21 @@ Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is 
 ### <a name="format"></a>Opmaak
 
 10 cijfers zonder spaties en scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
 10 cijfers
-  
+
 ### <a name="checksum"></a>Checksum
 
 Nee
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_belgium_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
+- Met de normale  `Regex_belgium_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
 - Een trefwoord `Keywords_eu_driver's_license_number` van of `Keywords_belgium_eu_driver's_license_number` wordt gevonden.
-    
+
 ```xml
       <!-- Belgium Driver's License Number -->
       <Entity id="d89fd329-9324-433c-b687-2c37bd5166f3" patternsProximity="300" recommendedConfidence="75">
@@ -1882,10 +1882,10 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="pattern"></a>Patroon
 
 11 cijfers plus scheidingstekens:
-- zes cijfers en twee optionele perioden in de notatie YY. MM.DD voor geboortedatum 
-- Een optioneel scheidingsteken van punt, streepje, spatie 
-- drie opeenvolgende cijfers (oneven voor mannen, zelfs voor vrouwen) 
-- Een optioneel scheidingsteken van punt, streepje, spatie 
+- zes cijfers en twee optionele perioden in de notatie YY. MM.DD voor geboortedatum
+- Een optioneel scheidingsteken van punt, streepje, spatie
+- drie opeenvolgende cijfers (oneven voor mannen, zelfs voor vrouwen)
+- Een optioneel scheidingsteken van punt, streepje, spatie
 - twee controlecijfers
 
 ### <a name="checksum"></a>Checksum
@@ -1982,25 +1982,25 @@ Een DLP-beleid heeft weinig vertrouwen dat dit type gevoelige informatie is gede
 ### <a name="format"></a>Opmaak
 
 twee letters gevolgd door zes cijfers zonder spaties of scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
 twee letters en gevolgd door zes cijfers
-  
+
 ### <a name="checksum"></a>Checksum
 
 niet van toepassing
-  
+
 ### <a name="definition"></a>Definitie
 
  Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_belgium_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_belgium_eu_passport_number` wordt gevonden. 
+- Met de normale  `Regex_belgium_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_belgium_eu_passport_number` wordt gevonden.
 - Met de normale `Regex_eu_passport_date2` expressie wordt de datum gevonden in de indeling DD MM YY of een trefwoord van of wordt `Keywords_eu_passport_date` `Keywords_belgium_eu_passport_number` gevonden
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_belgium_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_belgium_eu_passport_number` wordt gevonden. 
+- Met de normale  `Regex_belgium_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_belgium_eu_passport_number` wordt gevonden.
 
 ```xml
       <!-- Belgium Passport Number -->
@@ -2185,13 +2185,13 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 - Identificatie
 - Registratie
 - Omzet
-- Cadastro de Pessoas Físicas 
-- Imposto 
-- Identificação 
-- Inscrição 
-- Receita 
+- Cadastro de Pessoas Físicas
+- Imposto
+- Identificação
+- Inscrição
+- Receita
 
-   
+
 ## <a name="brazil-legal-entity-number-cnpj"></a>Brazil legal entity number (CNPJ)
 
 ### <a name="format"></a>Opmaak
@@ -2202,14 +2202,14 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 
 14 cijfers, plus scheidingstekens:
 
-- twee cijfers 
-- een punt 
-- drie cijfers 
-- een punt 
-- drie cijfers (deze eerste acht cijfers zijn het registratienummer) 
-- een slash naar voren 
-- vertakkingsnummer met vier cijfers 
-- een afbreekstreester 
+- twee cijfers
+- een punt
+- drie cijfers
+- een punt
+- drie cijfers (deze eerste acht cijfers zijn het registratienummer)
+- een slash naar voren
+- vertakkingsnummer met vier cijfers
+- een afbreekstreester
 - twee cijfers die cijfers controleren
 
 ### <a name="checksum"></a>Checksum
@@ -2244,27 +2244,27 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 
 #### <a name="keyword_brazil_cnpj"></a>Keyword_brazil_cnpj
 
-- CNPJ 
-- CNPJ/MF 
-- CNPJ-MF 
-- Nationaal register van juridische entiteiten 
-- Register voor belastingbetalers 
-- Rechtspersoon 
-- Juridische entiteiten 
-- Registratiestatus 
-- Business 
+- CNPJ
+- CNPJ/MF
+- CNPJ-MF
+- Nationaal register van juridische entiteiten
+- Register voor belastingbetalers
+- Rechtspersoon
+- Juridische entiteiten
+- Registratiestatus
+- Business
 - Company
-- CNPJ 
-- Cadastro Nacional da Pessoa Jurídica 
-- Cadastro Geral de Contribuintes 
-- CGC 
-- Pessoa jurídica 
-- Pessoas jurídicas 
-- Cadastrale situação 
-- Inscrição 
-- Empresa 
+- CNPJ
+- Cadastro Nacional da Pessoa Jurídica
+- Cadastro Geral de Contribuintes
+- CGC
+- Pessoa jurídica
+- Pessoas jurídicas
+- Cadastrale situação
+- Inscrição
+- Empresa
 
-   
+
 ## <a name="brazil-national-identification-card-rg"></a>Brazilië National Identification Card (RG)
 
 ### <a name="format"></a>Opmaak
@@ -2276,17 +2276,17 @@ Registro de Identidade (RIC) (nieuwe indeling): 11 cijfers
 ### <a name="pattern"></a>Patroon
 
 Registro Geral (oude indeling):
-- twee cijfers 
-- een punt 
-- drie cijfers 
-- een punt 
-- drie cijfers 
-- een afbreekstreester 
+- twee cijfers
+- een punt
+- drie cijfers
+- een punt
+- drie cijfers
+- een afbreekstreester
 - een cijfer dat een controlecijfer is
 
 Registro de Identidade (RIC) (nieuwe indeling):
-- 10 cijfers 
-- een afbreekstreester 
+- 10 cijfers
+- een afbreekstreester
 - een cijfer dat een controlecijfer is
 
 ### <a name="checksum"></a>Checksum
@@ -2317,12 +2317,12 @@ Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is 
 
 - Cédula de identidade
 - identiteitskaart
-- nationale id 
+- nationale id
 - número de rregistro
-- registro de Iidentidade 
+- registro de Iidentidade
 - registro geral
-- RG (dit trefwoord is case-sensitive) 
-- RIC (dit trefwoord is case-sensitive) 
+- RG (dit trefwoord is case-sensitive)
+- RIC (dit trefwoord is case-sensitive)
 
 
 ## <a name="bulgaria-drivers-license-number"></a>Bulgarije rijbewijsnummer
@@ -2330,21 +2330,21 @@ Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is 
 ### <a name="format"></a>Opmaak
 
 negen cijfers zonder spaties en scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
 negen cijfers
-  
+
 ### <a name="checksum"></a>Checksum
 
 Nee
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_bulgaria_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_bulgaria_eu_driver's_license_number` wordt gevonden. 
-    
+- Met de normale  `Regex_bulgaria_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_bulgaria_eu_driver's_license_number` wordt gevonden.
+
 ```xml
       <!-- Bulgaria Driver's License Number -->
       <Entity id="66d39258-94c2-43b2-804b-aa312258e54b" patternsProximity="300" recommendedConfidence="75">
@@ -2355,7 +2355,7 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
             <Match idRef="Keywords_bulgaria_eu_driver's_license_number" />
           </Any>
         </Pattern>
-      </Entity>    
+      </Entity>
 ```
 
 ### <a name="keywords"></a>Trefwoorden
@@ -2501,12 +2501,12 @@ Dit type gevoelige informatie is alleen beschikbaar voor gebruik in:
 ### <a name="format"></a>Opmaak
 
 10 cijfers zonder spaties en scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
 10 cijfers zonder spaties en scheidingstekens
-  
-- zes cijfers die overeenkomen met de geboortedatum (YYMMDD) 
+
+- zes cijfers die overeenkomen met de geboortedatum (YYMMDD)
 - twee cijfers die overeenkomen met de geboortedatum
 - één cijfer dat overeenkomt met geslacht: een even cijfer voor man en een oneven cijfer voor vrouw
 - een vinkje
@@ -2514,16 +2514,16 @@ Dit type gevoelige informatie is alleen beschikbaar voor gebruik in:
 ### <a name="checksum"></a>Checksum
 
 Ja
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_bulgaria_eu_national_id_card` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Er wordt een  `Keywords_bulgaria_eu_national_id_card` trefwoord uit gevonden. 
+- Met de  `Func_bulgaria_eu_national_id_card` functie wordt inhoud gevonden die overeenkomt met het patroon.
+- Er wordt een  `Keywords_bulgaria_eu_national_id_card` trefwoord uit gevonden.
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_bulgaria_eu_national_id_card` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-    
+- Met de  `Func_bulgaria_eu_national_id_card` functie wordt inhoud gevonden die overeenkomt met het patroon.
+
 ```xml
       <!-- Bulgaria Uniform Civil Number -->
       <Entity id="100d58b1-0a35-4fb1-aa89-e4a86fb53fcc" patternsProximity="300" recommendedConfidence="85">
@@ -2594,25 +2594,25 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="format"></a>Opmaak
 
 negen cijfers zonder spaties en scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
-negen cijfers 
-  
+negen cijfers
+
 ### <a name="checksum"></a>Checksum
 
 Nee
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_bulgaria_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_bulgaria_eu_passport_number` wordt gevonden. 
+- Met de normale  `Regex_bulgaria_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_bulgaria_eu_passport_number` wordt gevonden.
 - Met de normale expressie wordt de datum gevonden in de `Regex_eu_passport_date1` indeling DD.MM.YYYY of wordt een trefwoord `Keywords_eu_passport_date` gevonden uit
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_bulgaria_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_bulgaria_eu_passport_number` wordt gevonden. 
+- Met de normale  `Regex_bulgaria_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_bulgaria_eu_passport_number` wordt gevonden.
 
 ```xml
       <!-- Bulgaria Passport Number -->
@@ -2674,10 +2674,10 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 Een Canada-bankrekeningnummer is 7 of 12 cijfers.
 
 Een transitnummer van een Canadese bankrekening is:
-- vijf cijfers 
-- een afbreekstreester 
+- vijf cijfers
+- een afbreekstreester
 - drie cijfers OF
-- een nul "0" 
+- een nul "0"
 - acht cijfers
 
 ### <a name="checksum"></a>Checksum
@@ -2736,7 +2736,7 @@ Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is 
 - bankgegevens
 - directe storting
 
-   
+
 ## <a name="canada-drivers-license-number"></a>Canada-nummer van het rijbewijs
 
 ### <a name="format"></a>Opmaak
@@ -2901,70 +2901,70 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 - identificatie #s
 - identificatiekaart
 - identificatiekaarten
-- identificatie 
+- identificatie
 - DL #
-- DLS # 
-- CDL # 
-- CDLS # 
-- DriverLic # 
-- DriverLics # 
-- DriverLicense # 
-- DriverLicenses # 
-- DriverLicence # 
-- DriverLicences # 
+- DLS #
+- CDL #
+- CDLS #
+- DriverLic #
+- DriverLics #
+- DriverLicense #
+- DriverLicenses #
+- DriverLicence #
+- DriverLicences #
 - Driver Lic #
-- Driver Lics # 
-- Rijbewijs # 
-- Licenties voor stuurprogramma's # 
-- Rijbewijs # 
-- Rijbewijzen # 
-- DriversLic # 
-- DriversLics # 
-- DriversLicense # 
-- DriversLicenses # 
-- DriversLicence # 
-- DriversLicences # 
-- Drivers Lic # 
-- Drivers Lics # 
-- Rijbewijs # 
-- Licenties voor stuurprogramma's # 
-- Rijbewijs # 
-- Rijbewijzen # 
-- Driver'Lic # 
-- Driver'Lics # 
-- Rijbewijs # 
-- Licenties voor stuurprogramma's # 
-- Rijbewijs # 
-- Rijbewijzen # 
-- Driver' Lic # 
-- Driver' Lics # 
-- Rijbewijs # 
-- Rijbewijzen # 
-- Rijbewijs # 
-- Rijbewijzen # 
-- Driver'sLic # 
-- Driver'sLics # 
-- Driver'sLicense # 
-- Driver'sLicenses # 
-- Driver'sLicence # 
-- Driver'sLicences # 
-- Driver's Lic # 
-- Driver's Lics # 
-- Rijbewijs # 
-- Rijbewijzen # 
-- Rijbewijs # 
-- Rijbewijzen # 
-- Permis de Conduire # 
-- id # 
-- id's # 
-- idcardkaart # 
-- Idcard-kaarten # 
-- idcard # 
-- identificatiekaart # 
-- identificatiekaarten # 
-- identificatie # 
+- Driver Lics #
+- Rijbewijs #
+- Licenties voor stuurprogramma's #
+- Rijbewijs #
+- Rijbewijzen #
+- DriversLic #
+- DriversLics #
+- DriversLicense #
+- DriversLicenses #
+- DriversLicence #
+- DriversLicences #
+- Drivers Lic #
+- Drivers Lics #
+- Rijbewijs #
+- Licenties voor stuurprogramma's #
+- Rijbewijs #
+- Rijbewijzen #
+- Driver'Lic #
+- Driver'Lics #
+- Rijbewijs #
+- Licenties voor stuurprogramma's #
+- Rijbewijs #
+- Rijbewijzen #
+- Driver' Lic #
+- Driver' Lics #
+- Rijbewijs #
+- Rijbewijzen #
+- Rijbewijs #
+- Rijbewijzen #
+- Driver'sLic #
+- Driver'sLics #
+- Driver'sLicense #
+- Driver'sLicenses #
+- Driver'sLicence #
+- Driver'sLicences #
+- Driver's Lic #
+- Driver's Lics #
+- Rijbewijs #
+- Rijbewijzen #
+- Rijbewijs #
+- Rijbewijzen #
+- Permis de Conduire #
+- id #
+- id's #
+- idcardkaart #
+- Idcard-kaarten #
+- idcard #
+- identificatiekaart #
+- identificatiekaarten #
+- identificatie #
 
-   
+
 ## <a name="canada-health-service-number"></a>Canada health service number
 
 ### <a name="format"></a>Opmaak
@@ -3011,7 +3011,7 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 - werknemerscompensatie
 - beperking
 
-      
+
 ## <a name="canada-passport-number"></a>Canada-paspoortnummer
 
 ### <a name="format"></a>Opmaak
@@ -3032,7 +3032,7 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 - De normale expressie Regex_canada_passport_number inhoud die overeenkomt met het patroon.
 - Er wordt een trefwoord Keyword_canada_passport_number of Keyword_passport gevonden.
 
-```xml 
+```xml
 <!-- Canada Passport Number -->
 <Entity id="14d0db8b-498a-43ed-9fca-f6097ae687eb" patternsProximity="300" recommendedConfidence="75">
   <Pattern confidenceLevel="75">
@@ -3079,7 +3079,7 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 - PasseportNon
 - Passeportn °
 
-   
+
 ## <a name="canada-personal-health-identification-number-phin"></a>Canada Personal Health Identification Number (PHIN)
 
 ### <a name="format"></a>Opmaak
@@ -3150,7 +3150,7 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 - Prins EdwardEiland
 - Canada
 
-   
+
 ## <a name="canada-social-insurance-number"></a>Canada social insurance number
 
 ### <a name="format"></a>Opmaak
@@ -3160,10 +3160,10 @@ negen cijfers met optionele afbreekstree streepjes of spaties
 ### <a name="pattern"></a>Patroon
 
 Opgemaakt:
-- drie cijfers 
-- een afbreekstreester of spatie 
-- drie cijfers 
-- een afbreekstreester of spatie 
+- drie cijfers
+- een afbreekstreester of spatie
+- drie cijfers
+- een afbreekstreester of spatie
 - drie cijfers
 
 Niet-opgemaakt: negen cijfers
@@ -3209,32 +3209,32 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 
 #### <a name="keyword_sin"></a>Keyword_sin
 
-- sin 
-- sociale verzekering 
-- numero d'assurance sociale 
-- zondes 
-- ssn 
-- ssns 
-- sociale zekerheid 
-- numero d'assurance social 
-- nationaal identificatienummer 
-- nationale id 
-- sin # 
-- soc-ins 
-- sociale ins 
+- sin
+- sociale verzekering
+- numero d'assurance sociale
+- zondes
+- ssn
+- ssns
+- sociale zekerheid
+- numero d'assurance social
+- nationaal identificatienummer
+- nationale id
+- sin #
+- soc-ins
+- sociale ins
 
 #### <a name="keyword_sin_collaborative"></a>Keyword_sin_collaborative
 
-- rijbewijs 
-- rijbewijs 
-- rijbewijs 
-- rijbewijs 
-- DOB 
-- Geboortedatum 
-- Verjaardag 
-- Geboortedatum 
+- rijbewijs
+- rijbewijs
+- rijbewijs
+- rijbewijs
+- DOB
+- Geboortedatum
+- Verjaardag
+- Geboortedatum
 
-   
+
 ## <a name="chile-identity-card-number"></a>Chili-identiteitskaartnummer
 
 ### <a name="format"></a>Opmaak
@@ -3244,12 +3244,12 @@ zeven tot acht cijfers plus scheidingstekens van een vinkje of letter
 ### <a name="pattern"></a>Patroon
 
 zeven tot acht cijfers plus scheidingstekens:
-- één tot twee cijfers 
-- een optionele periode 
-- drie cijfers 
-- een optionele periode 
-- drie cijfers 
-- een streepje 
+- één tot twee cijfers
+- een optionele periode
+- drie cijfers
+- een optionele periode
+- drie cijfers
+- een streepje
 - een cijfer of letter (niet case-sensitive) dat is een controlecijfer
 
 ### <a name="checksum"></a>Checksum
@@ -3319,7 +3319,7 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 - Chili-identiteitsnummer
 - Chili-identiteit #
 
-   
+
 ## <a name="china-resident-identity-card-prc-number"></a>China Resident Identity Card (PRC) number
 
 ### <a name="format"></a>Opmaak
@@ -3329,9 +3329,9 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="pattern"></a>Patroon
 
 18 cijfers:
-- zes cijfers die een adrescode zijn 
-- acht cijfers in het formulier YYYYMMDD, de geboortedatum 
-- drie cijfers die een ordercode zijn 
+- zes cijfers die een adrescode zijn
+- acht cijfers in het formulier YYYYMMDD, de geboortedatum
+- drie cijfers die een ordercode zijn
 - een cijfer dat een controlecijfer is
 
 ### <a name="checksum"></a>Checksum
@@ -3366,18 +3366,18 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 
 ### <a name="keyword_china_resident_id"></a>Keyword_china_resident_id
 
-- Resident Identity Card 
-- Volksrepubliek China 
-- Nationale identificatiekaart 
-- 身份证 
-- 居民 身份证 
-- 居民身份证 
-- 鉴定 
-- 身分證 
+- Resident Identity Card
+- Volksrepubliek China
+- Nationale identificatiekaart
+- 身份证
+- 居民 身份证
+- 居民身份证
+- 鉴定
+- 身分證
 - 居民 身份證
-- 鑑定 
+- 鑑定
 
-   
+
 ## <a name="credit-card-number"></a>Creditcardnummer
 
 ### <a name="format"></a>Opmaak
@@ -3681,21 +3681,21 @@ Een DLP-beleid heeft weinig vertrouwen dat dit type gevoelige informatie is gede
 ### <a name="format"></a>Opmaak
 
 acht cijfers zonder spaties en scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
 acht cijfers
-  
+
 ### <a name="checksum"></a>Checksum
 
 Nee
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-  
-- Met de normale  `Regex_croatia_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord `Keywords_eu_driver's_license_number` van of `Keywords_croatia_eu_driver's_license_number` wordt gevonden. 
+
+- Met de normale  `Regex_croatia_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord `Keywords_eu_driver's_license_number` van of `Keywords_croatia_eu_driver's_license_number` wordt gevonden.
 
 ```xml
       <!-- Croatia Driver's License Number -->
@@ -3910,26 +3910,26 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="format"></a>Opmaak
 
 negen cijfers zonder spaties en scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
-negen cijfers 
-  
+negen cijfers
+
 ### <a name="checksum"></a>Checksum
 
 Nee
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_croatia_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_croatia_eu_passport_number` wordt gevonden. 
+- Met de normale  `Regex_croatia_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_croatia_eu_passport_number` wordt gevonden.
 - Met de normale expressie wordt de datum gevonden in de `Regex_eu_passport_date1` indeling DD.MM.YYYY of wordt een trefwoord `Keywords_eu_passport_date` gevonden uit
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_croatia_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_croatia_eu_passport_number` wordt gevonden. 
-    
+- Met de normale  `Regex_croatia_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_croatia_eu_passport_number` wordt gevonden.
+
 ```xml
       <!-- Croatia Passport Number -->
       <Entity id="7d7a729d-32d8-4204-8d01-d5e6a6c25581" patternsProximity="300" recommendedConfidence="75">
@@ -3973,7 +3973,7 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 - broj putovnice
 - br. Putovnice
 - br putovnice
-   
+
 ## <a name="croatia-personal-identification-oib-number"></a>OIB-nummer (Persoonlijke identificatie van Kroatië)
 
 ### <a name="format"></a>Opmaak
@@ -3983,7 +3983,7 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="pattern"></a>Patroon
 
 11 cijfers:
-- 10 cijfers 
+- 10 cijfers
 - laatste cijfer is een vinkje
 
 ### <a name="checksum"></a>Checksum
@@ -4052,19 +4052,19 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="format"></a>Opmaak
 
 12 cijfers zonder spaties en scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
 12 cijfers
-  
+
 ### <a name="checksum"></a>Checksum
 
 Nee
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_cyprus_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
+- Met de normale  `Regex_cyprus_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
 - Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_cyprus_eu_driver's_license_number` wordt gevonden.
 
 ```xml
@@ -4221,22 +4221,22 @@ Dit type gevoelige informatie is alleen beschikbaar voor gebruik in:
 ### <a name="format"></a>Opmaak
 
 10 cijfers zonder spaties en scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
-10 cijfers 
-  
+10 cijfers
+
 ### <a name="checksum"></a>Checksum
 
 niet van toepassing
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_cyprus_eu_national_id_card` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Er wordt een  `Keywords_cyprus_eu_national_id_card` trefwoord uit gevonden. 
-    
-```xml 
+- Met de normale  `Regex_cyprus_eu_national_id_card` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Er wordt een  `Keywords_cyprus_eu_national_id_card` trefwoord uit gevonden.
+
+```xml
       <!-- Cyprus Identity Card -->
       <Entity id="3ba8afe5-7a6c-4929-8247-0001b6878438" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
@@ -4263,26 +4263,26 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="format"></a>Opmaak
 
 een letter gevolgd door 6-8 cijfers zonder spaties of scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
 een letter gevolgd door zes tot acht cijfers
-  
+
 ### <a name="checksum"></a>Checksum
 
 Nee
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_cyprus_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_cyprus_eu_passport_number` wordt gevonden. 
+- Met de normale  `Regex_cyprus_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_cyprus_eu_passport_number` wordt gevonden.
 - Met de normale expressie wordt de datum gevonden in de `Regex_cyprus_eu_passport_date` indeling DD/MM/YYYY of wordt een trefwoord `Keywords_cyprus_eu_passport_date` gevonden uit
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_cyprus_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_cyprus_eu_passport_number` wordt gevonden.  
-    
+- Met de normale  `Regex_cyprus_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_cyprus_eu_passport_number` wordt gevonden.
+
 ```xml
       <!-- Cyprus Passport Number -->
       <Entity id="9193e2e8-7f8c-43c1-a274-ac40d651936f" patternsProximity="300" recommendedConfidence="75">
@@ -4353,28 +4353,28 @@ Dit type gevoelige informatie is alleen beschikbaar voor gebruik in:
 ### <a name="format"></a>Opmaak
 
 acht cijfers en één letter in het opgegeven patroon
-  
+
 ### <a name="pattern"></a>Patroon
 
 acht cijfers en één letter:
-  
+
 - een '0' of '9'
 - zeven cijfers
 - één letter (niet case-sensitive)
-    
+
 ### <a name="checksum"></a>Checksum
 
 niet van toepassing
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_cyprus_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Er wordt een  `Keywords_cyprus_eu_tax_file_number` trefwoord uit gevonden. 
-    
+- Met de  `Func_cyprus_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon.
+- Er wordt een  `Keywords_cyprus_eu_tax_file_number` trefwoord uit gevonden.
+
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_cyprus_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-    
+- Met de  `Func_cyprus_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon.
+
 ```xml
       <!-- Cyprus Tax Identification Number -->
       <Entity id="40e64bd9-55f3-4a09-9bd6-1db18dced9dd" patternsProximity="300" recommendedConfidence="85">
@@ -4424,11 +4424,11 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="format"></a>Opmaak
 
 twee letters gevolgd door zes cijfers
-  
+
 ### <a name="pattern"></a>Patroon
 
 acht letters en cijfers:
-  
+
 - letter 'E' (niet case-sensitive)
 - een brief
 - een spatie (optioneel)
@@ -4437,12 +4437,12 @@ acht letters en cijfers:
 ### <a name="checksum"></a>Checksum
 
 Nee
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_czech_republic_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_czech_republic_eu_driver's_license_number` wordt gevonden. 
+- Met de normale  `Regex_czech_republic_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_czech_republic_eu_driver's_license_number` wordt gevonden.
 
 ```xml
       <Entity id="86b40d3b-d8ea-4c36-aab0-ef9416a6769c" patternsProximity="300" recommendedConfidence="75">
@@ -4593,26 +4593,26 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="format"></a>Opmaak
 
 acht cijfers zonder spaties of scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
 acht cijfers zonder spaties of scheidingstekens
-  
+
 ### <a name="checksum"></a>Checksum
 
 Nee
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_czech_republic_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_czech_republic_eu_passport_number` wordt gevonden. 
+- Met de normale  `Regex_czech_republic_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_czech_republic_eu_passport_number` wordt gevonden.
 - Met de normale expressie wordt de datum gevonden in de `Regex_eu_passport_date1` indeling DD.MM.YYYY of wordt een trefwoord `Keywords_eu_passport_date` gevonden uit
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_czech_republic_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_czech_republic_eu_passport_number` wordt gevonden. 
-    
+- Met de normale  `Regex_czech_republic_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_czech_republic_eu_passport_number` wordt gevonden.
+
 ```xml
       <!-- Czech Republic Passport Number -->
       <Entity id="7bcd8ce8-5e92-4bbe-bc92-fa669f0369fa" patternsProximity="300" recommendedConfidence="75">
@@ -4681,7 +4681,7 @@ negen cijfers (oude notatie):
 
 10 cijfers (nieuwe indeling):
 - zes cijfers die de geboortedatum vertegenwoordigen
-- een optionele slash 
+- een optionele slash
 - vier cijfers waarbij het laatste cijfer een controlecijfer is
 
 ### <a name="checksum"></a>Checksum
@@ -4771,21 +4771,21 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="format"></a>Opmaak
 
 acht cijfers zonder spaties en scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
 acht cijfers
-  
+
 ### <a name="checksum"></a>Checksum
 
 Nee
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_denmark_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_denmark_eu_driver's_license_number` wordt gevonden. 
-    
+- Met de normale  `Regex_denmark_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_denmark_eu_driver's_license_number` wordt gevonden.
+
 ```xml
       <!-- Denmark Driver's License Number -->
       <Entity id="98a95812-6203-451a-a220-d39870ebef0e" patternsProximity="300" recommendedConfidence="75">
@@ -4933,26 +4933,26 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="format"></a>Opmaak
 
 negen cijfers zonder spaties en scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
-negen cijfers 
-  
+negen cijfers
+
 ### <a name="checksum"></a>Checksum
 
 Nee
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_denmark_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_denmark_eu_passport_number` wordt gevonden. 
+- Met de normale  `Regex_denmark_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_denmark_eu_passport_number` wordt gevonden.
 - Met de normale `Regex_eu_passport_date2` expressie wordt de datum gevonden in de indeling DD MM YY of wordt een trefwoord uit `Keywords_eu_passport_date` gevonden
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_denmark_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_denmark_eu_passport_number` wordt gevonden. 
-    
+- Met de normale  `Regex_denmark_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_denmark_eu_passport_number` wordt gevonden.
+
 ```xml
       <!-- Denmark Passport Number -->
       <Entity id="25e8c47e-e6fe-4884-a211-74898f8c0196" patternsProximity="300" recommendedConfidence="75">
@@ -5014,8 +5014,8 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="pattern"></a>Patroon
 
 10 cijfers:
-- zes cijfers in de indeling DDMMYY, de geboortedatum 
-- een afbreekstreester 
+- zes cijfers in de indeling DDMMYY, de geboortedatum
+- een afbreekstreester
 - vier cijfers waarbij het uiteindelijke cijfer een controlecijfer is
 
 ### <a name="checksum"></a>Checksum
@@ -5035,7 +5035,7 @@ Een DLP-beleid heeft weinig vertrouwen dat dit type gevoelige informatie is gede
 
 ```xml
 <!-- Denmark Personal Identification Number -->
-      <!-- Denmark Personal Identification Number -->
+    <!-- Denmark Personal Identification Number -->
       <Entity id="6c4f2fef-56e1-4c00-8093-88d7a01cf460" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Func_denmark_eu_tax_file_number" />
@@ -5131,7 +5131,7 @@ twee letters gevolgd door zeven cijfers
 ### <a name="pattern"></a>Patroon
 
 Patroon moet de volgende gegevens bevatten:
-- één letter (niet hoofdlettergevoelig) van deze set mogelijke letters: abcdefghjklmnprstux, een registrantcode 
+- één letter (niet hoofdlettergevoelig) van deze set mogelijke letters: abcdefghjklmnprstux, een registrantcode
 - één letter (niet zaakgevoelig), de eerste letter van de achternaam of het cijfer '9' van de registrant
 - zeven cijfers, waarvan het laatste het controlecijfer is
 
@@ -5185,24 +5185,24 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="format"></a>Opmaak
 
 twee letters gevolgd door zes cijfers
-  
+
 ### <a name="pattern"></a>Patroon
 
 twee letters en zes cijfers:
-  
-- de letters 'ET' (niet hoofdlettergevoelig) 
+
+- de letters 'ET' (niet hoofdlettergevoelig)
 - zes cijfers
-    
+
 ### <a name="checksum"></a>Checksum
 
 Nee
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_estonia_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_estonia_eu_driver's_license_number` wordt gevonden. 
-    
+- Met de normale  `Regex_estonia_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_estonia_eu_driver's_license_number` wordt gevonden.
+
 ```xml
       <!-- Estonia Driver's License Number -->
       <Entity id="51da8171-da70-4cc1-9d65-055a59ca4f83" patternsProximity="300" recommendedConfidence="75">
@@ -5358,29 +5358,29 @@ Dit type gevoelige informatie is alleen beschikbaar voor gebruik in:
 ### <a name="format"></a>Opmaak
 
 11 cijfers zonder spaties en scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
 11 cijfers:
-  
+
 - een cijfer dat overeenkomt met geslacht en eeuw van geboorte (oneven getal man, even getal vrouw; 1-2: 19e eeuw; 3-4: 20e eeuw; 5-6: 21e eeuw)
 - zes cijfers die overeenkomen met de geboortedatum (YYMMDD)
 - drie cijfers die overeenkomen met een serieel getal dat personen scheidt die op dezelfde datum zijn geboren
 - een vinkje
-    
+
 ### <a name="checksum"></a>Checksum
 
 Ja
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_estonia_eu_national_id_card` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Er wordt een  `Keywords_estonia_eu_national_id_card` trefwoord uit gevonden. 
-    
+- Met de  `Func_estonia_eu_national_id_card` functie wordt inhoud gevonden die overeenkomt met het patroon.
+- Er wordt een  `Keywords_estonia_eu_national_id_card` trefwoord uit gevonden.
+
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_estonia_eu_national_id_card` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-    
+- Met de  `Func_estonia_eu_national_id_card` functie wordt inhoud gevonden die overeenkomt met het patroon.
+
 ```xml
       <!-- Estonia Personal Identification Code -->
       <Entity id="bfb26de6-dad5-4d48-ab72-4789cdd0654c" patternsProximity="300" recommendedConfidence="85">
@@ -5439,26 +5439,26 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="format"></a>Opmaak
 
 één letter gevolgd door zeven cijfers zonder spaties of scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
 één letter gevolgd door zeven cijfers
-  
+
 ### <a name="checksum"></a>Checksum
 
 Nee
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_estonia_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_estonia_eu_passport_number` wordt gevonden. 
+- Met de normale  `Regex_estonia_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_estonia_eu_passport_number` wordt gevonden.
 - Met de normale expressie wordt de datum gevonden in de `Regex_eu_passport_date1` indeling DD.MM.YYYY of wordt een trefwoord `Keywords_eu_passport_date` gevonden uit
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_estonia_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_estonia_eu_passport_number` wordt gevonden. 
-    
+- Met de normale  `Regex_estonia_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_estonia_eu_passport_number` wordt gevonden.
+
 ```xml
       <!-- Estonia Passport Number -->
       <Entity id="61f7073a-509e-425b-a754-bc01bb5d5b8c" patternsProximity="300" recommendedConfidence="75">
@@ -5554,315 +5554,315 @@ Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is 
 
 #### <a name="keyword_eu_debit_card"></a>Keyword_eu_debit_card
 
-- accountnummer 
-- kaartnummer 
-- kaart nee. 
-- beveiligingsnummer 
-- cc # 
+- accountnummer
+- kaartnummer
+- kaart nee.
+- beveiligingsnummer
+- cc #
 
 #### <a name="keyword_card_terms_dict"></a>Keyword_card_terms_dict
 
-- acct nbr 
-- acct-getal 
-- acct no 
-- American Express 
-- americanexpress 
-- americano espresso 
-- amex 
-- atm-kaart 
-- atm-kaarten 
-- atm-kaart 
-- atmcard 
-- atmcards 
-- atmkaart 
-- atmkaarten 
-- bancontact 
-- bankkaart 
-- bankkaart 
-- kaarthouder 
-- kaarthouders 
-- kaartnummer 
-- kaartnummer 
-- kaartnummers 
-- kaarttype 
-- cardano-numerieke waarde 
-- kaarthouder 
-- kaarthouders 
-- kaartnummer 
-- kaartnummers 
-- carta bianca 
-- carta credito 
-- carta di credito 
-- cartao de credito 
-- cartao de crédito 
-- cartao de debito 
-- cartao de débito 
-- carte banke 
-- carte blanche 
-- carte bleue 
-- carte de credit 
-- carte de crédit 
-- carte di credito 
-- carteblanche 
-- cartão de credito 
-- cartão de crédito 
-- cartão de debito 
-- cartão de débito 
-- cb 
-- ccn 
-- vinkje 
-- kaarten controleren 
+- acct nbr
+- acct-getal
+- acct no
+- American Express
+- americanexpress
+- americano espresso
+- amex
+- atm-kaart
+- atm-kaarten
+- atm-kaart
+- atmcard
+- atmcards
+- atmkaart
+- atmkaarten
+- bancontact
+- bankkaart
+- bankkaart
+- kaarthouder
+- kaarthouders
+- kaartnummer
+- kaartnummer
+- kaartnummers
+- kaarttype
+- cardano-numerieke waarde
+- kaarthouder
+- kaarthouders
+- kaartnummer
+- kaartnummers
+- carta bianca
+- carta credito
+- carta di credito
+- cartao de credito
+- cartao de crédito
+- cartao de debito
+- cartao de débito
+- carte banke
+- carte blanche
+- carte bleue
+- carte de credit
+- carte de crédit
+- carte di credito
+- carteblanche
+- cartão de credito
+- cartão de crédito
+- cartão de debito
+- cartão de débito
+- cb
+- ccn
+- vinkje
+- kaarten controleren
 - checkcard
-- checkcards 
-- chequekaart 
-- cirrus 
-- cirrus-edc-maestro 
-- controlekaart 
-- controlekaarten 
-- creditcard 
-- creditcards 
-- creditcard 
-- creditcards 
-- debetkaart 
-- debetkaarten 
-- betaalkaart 
-- betaalkaarten 
-- debitcard 
-- debitcards 
-- debito automatico 
-- diners club 
-- dinersclub 
-- ontdekken 
-- ontdekkaart 
-- ontdek kaarten 
-- discovercard 
-- discovercards 
+- checkcards
+- chequekaart
+- cirrus
+- cirrus-edc-maestro
+- controlekaart
+- controlekaarten
+- creditcard
+- creditcards
+- creditcard
+- creditcards
+- debetkaart
+- debetkaarten
+- betaalkaart
+- betaalkaarten
+- debitcard
+- debitcards
+- debito automatico
+- diners club
+- dinersclub
+- ontdekken
+- ontdekkaart
+- ontdek kaarten
+- discovercard
+- discovercards
 - débito automático
-- edc 
-- eigentümername 
-- Europese betaalkaart 
-- hoofdkaart 
-- hoofdkaarten 
-- in viaggio 
-- Japans kaartbureau 
-- japanse kaartdienst 
-- jcb 
-- kaart 
-- kaartnum 
-- kaartaantal 
-- kaartaantallen 
-- kaarthouder 
-- kaarthouders 
-- karte  
-- karteninhaber 
+- edc
+- eigentümername
+- Europese betaalkaart
+- hoofdkaart
+- hoofdkaarten
+- in viaggio
+- Japans kaartbureau
+- japanse kaartdienst
+- jcb
+- kaart
+- kaartnum
+- kaartaantal
+- kaartaantallen
+- kaarthouder
+- kaarthouders
+- karte
+- karteninhaber
 - karteninhabers
-- kartennr 
-- kartennummer 
-- kreditkarte 
-- kreditkarten-nummer 
-- kreditkarteninhaber 
-- kreditkarteninstitut 
-- kreditkartennummer 
-- kreditkartentyp 
-- maestro 
-- basiskaart 
-- basiskaarten 
-- mastercard 
-- mastercards 
-- mc 
-- mister cash 
-- n carta 
-- carta 
-- no de tarjeta 
-- no do cartao 
-- no do cartão 
-- nee. de tarjeta 
-- nee. cartao doen 
-- nee. do cartão 
-- nr carta 
-- nr. carta 
-- numeri di scheda 
-- numero carta 
-- numero de cartao 
-- numero de carte 
-- numero de cartão 
+- kartennr
+- kartennummer
+- kreditkarte
+- kreditkarten-nummer
+- kreditkarteninhaber
+- kreditkarteninstitut
+- kreditkartennummer
+- kreditkartentyp
+- maestro
+- basiskaart
+- basiskaarten
+- mastercard
+- mastercards
+- mc
+- mister cash
+- n carta
+- carta
+- no de tarjeta
+- no do cartao
+- no do cartão
+- nee. de tarjeta
+- nee. cartao doen
+- nee. do cartão
+- nr carta
+- nr. carta
+- numeri di scheda
+- numero carta
+- numero de cartao
+- numero de carte
+- numero de cartão
 - numero de tarjeta
-- numero della carta 
-- numero di carta 
-- numero di scheda 
-- numero do cartao 
-- numero do cartão 
-- numéro de carte 
-- nº carta 
-- nº de carte 
-- nº de la carte 
-- nº de tarjeta 
-- nº do cartao 
-- nº do cartão 
-- nº. do cartão 
-- número de cartao 
-- número de cartão 
-- número de tarjeta 
-- número do cartao 
-- scheda dell'assegno 
-- scheda dell'atmosfera 
-- scheda dell'atmosfera 
-- scheda della banca 
-- scheda di controllo 
-- scheda di debito 
-- scheda matrice 
-- schede dell'atmosfera 
-- schede di controllo 
-- schede di debito 
-- schede matrici 
-- scoprono la scheda 
-- scoprono le schede 
-- solo 
-- supporti di scheda 
-- supporto di scheda 
-- schakelen 
-- tarjeta-atm 
-- tarjeta credito 
-- tarjeta de atm 
-- tarjeta de credito 
-- tarjeta de debito 
-- tarjeta debito 
+- numero della carta
+- numero di carta
+- numero di scheda
+- numero do cartao
+- numero do cartão
+- numéro de carte
+- nº carta
+- nº de carte
+- nº de la carte
+- nº de tarjeta
+- nº do cartao
+- nº do cartão
+- nº. do cartão
+- número de cartao
+- número de cartão
+- número de tarjeta
+- número do cartao
+- scheda dell'assegno
+- scheda dell'atmosfera
+- scheda dell'atmosfera
+- scheda della banca
+- scheda di controllo
+- scheda di debito
+- scheda matrice
+- schede dell'atmosfera
+- schede di controllo
+- schede di debito
+- schede matrici
+- scoprono la scheda
+- scoprono le schede
+- solo
+- supporti di scheda
+- supporto di scheda
+- schakelen
+- tarjeta-atm
+- tarjeta credito
+- tarjeta de atm
+- tarjeta de credito
+- tarjeta de debito
+- tarjeta debito
 - tarjeta no
-- tarjetahabiente 
-- tipo della scheda 
-- ufficio giapponese della 
-- scheda 
-- v betalen 
-- v-pay 
-- visa 
-- visa plus 
-- visa-elektron 
-- visto 
-- visum 
-- vpay   
+- tarjetahabiente
+- tipo della scheda
+- ufficio giapponese della
+- scheda
+- v betalen
+- v-pay
+- visa
+- visa plus
+- visa-elektron
+- visto
+- visum
+- vpay
 
 #### <a name="keyword_card_security_terms_dict"></a>Keyword_card_security_terms_dict
 
 - kaartidentificatienummer
-- kaartverificatie 
-- cardi la verifica 
-- cid 
-- cod seg 
-- cod seguranca 
-- cod segurança 
-- cod sicurezza 
-- cod. seg 
-- cod. seguranca 
-- cod. segurança 
-- cod. sicurezza 
-- codice di sicurezza 
-- codice di verifica 
-- codigo 
-- codigo de seguranca 
-- codigo de segurança 
-- crittogramma 
-- cryptogram 
-- cryptogramme 
-- cv2 
-- cvc 
-- cvc2 
-- cvn 
-- cvv 
-- cvv2 
-- cód seguranca 
-- cód segurança 
-- cód. seguranca 
-- cód. segurança 
-- código 
-- código de seguranca 
-- código de segurança 
-- de kaart controle 
-- geeft nr uit 
-- probleem nee 
-- probleemnummer 
-- kaartidentificatienummer 
-- kreditkartenprufnummer 
-- kreditkartenprüfnummer 
-- kwestieaantal 
-- nee. dell'edizione 
-- nee. di sicurezza 
-- numero de securite 
-- numero de verificacao 
-- numero dell'edizione 
-- numero di identificazione della 
-- scheda 
-- numero di sicurezza 
-- numero van veiligheid 
-- numéro de sécurité 
-- nº autorizzazione 
-- número de verificação 
-- perno il blocco 
-- blok vastmaken 
-- prufziffer 
-- prüfziffer 
-- beveiligingscode 
-- beveiliging nee 
-- beveiligingsnummer 
-- sicherheits kode 
-- sicherheitscode 
-- sicherheitsnummer 
-- speldblok 
-- veiligheid nr 
-- veiligheidsaantal 
-- veiligheidscode 
-- veiligheidsnummer 
-- verfalldatum 
+- kaartverificatie
+- cardi la verifica
+- cid
+- cod seg
+- cod seguranca
+- cod segurança
+- cod sicurezza
+- cod. seg
+- cod. seguranca
+- cod. segurança
+- cod. sicurezza
+- codice di sicurezza
+- codice di verifica
+- codigo
+- codigo de seguranca
+- codigo de segurança
+- crittogramma
+- cryptogram
+- cryptogramme
+- cv2
+- cvc
+- cvc2
+- cvn
+- cvv
+- cvv2
+- cód seguranca
+- cód segurança
+- cód. seguranca
+- cód. segurança
+- código
+- código de seguranca
+- código de segurança
+- de kaart controle
+- geeft nr uit
+- probleem nee
+- probleemnummer
+- kaartidentificatienummer
+- kreditkartenprufnummer
+- kreditkartenprüfnummer
+- kwestieaantal
+- nee. dell'edizione
+- nee. di sicurezza
+- numero de securite
+- numero de verificacao
+- numero dell'edizione
+- numero di identificazione della
+- scheda
+- numero di sicurezza
+- numero van veiligheid
+- numéro de sécurité
+- nº autorizzazione
+- número de verificação
+- perno il blocco
+- blok vastmaken
+- prufziffer
+- prüfziffer
+- beveiligingscode
+- beveiliging nee
+- beveiligingsnummer
+- sicherheits kode
+- sicherheitscode
+- sicherheitsnummer
+- speldblok
+- veiligheid nr
+- veiligheidsaantal
+- veiligheidscode
+- veiligheidsnummer
+- verfalldatum
 
 #### <a name="keyword_card_expiration_terms_dict"></a>Keyword_card_expiration_terms_dict
 
-- ablauf 
-- data de expiracao 
-- data de expiração 
-- data del exp 
-- data di exp 
-- data di scadenza 
-- data em que expira 
-- gegevensscad 
-- data scadenza 
-- date de validé 
-- datum afloop 
-- datum van exp 
-- de afloop 
-- espira 
-- espira 
-- exp date 
-- exp datum 
-- verloop 
-- verlopen 
-- verloopt 
-- verlopen 
-- fecha de expiracion 
-- fecha de venc 
-- gultig bis 
-- gultigkeitsdatum 
-- gültig bis 
-- gültigkeitsdatum 
-- la scadenza 
-- scadenza 
-- valabel 
-- validade 
-- valido hasta 
-- valor 
-- venc 
-- vencimento 
-- vencimiento 
-- verloopt 
-- vervaldag 
-- vervaldatum 
-- vto 
-- válido hasta 
+- ablauf
+- data de expiracao
+- data de expiração
+- data del exp
+- data di exp
+- data di scadenza
+- data em que expira
+- gegevensscad
+- data scadenza
+- date de validé
+- datum afloop
+- datum van exp
+- de afloop
+- espira
+- espira
+- exp date
+- exp datum
+- verloop
+- verlopen
+- verloopt
+- verlopen
+- fecha de expiracion
+- fecha de venc
+- gultig bis
+- gultigkeitsdatum
+- gültig bis
+- gültigkeitsdatum
+- la scadenza
+- scadenza
+- valabel
+- validade
+- valido hasta
+- valor
+- venc
+- vencimento
+- vencimiento
+- verloopt
+- vervaldag
+- vervaldatum
+- vto
+- válido hasta
 
 
 ## <a name="eu-drivers-license-number"></a>Eu-rijbewijsnummer
 
 Deze entiteiten maken deel uit van het EU-rijbewijsnummer en zijn gevoelige informatietypen.
 
-- [Oostenrijk](#austria-drivers-license-number) 
+- [Oostenrijk](#austria-drivers-license-number)
 - [België](#belgium-drivers-license-number)
 - [Bulgarije](#bulgaria-drivers-license-number)
 - [Kroatië](#croatia-drivers-license-number)
@@ -5871,7 +5871,7 @@ Deze entiteiten maken deel uit van het EU-rijbewijsnummer en zijn gevoelige info
 - [Denemarken](#denmark-drivers-license-number)
 - [Estland](#estonia-drivers-license-number)
 - [Finland](#finland-drivers-license-number)
-- [Frankrijk](#france-drivers-license-number) 
+- [Frankrijk](#france-drivers-license-number)
 - [Duitsland](#germany-drivers-license-number)
 - [Griekenland](#greece-drivers-license-number)
 - [Hongarije](#hungary-drivers-license-number)
@@ -5882,7 +5882,7 @@ Deze entiteiten maken deel uit van het EU-rijbewijsnummer en zijn gevoelige info
 - [Luxemburg](#luxemburg-drivers-license-number)
 - [Malta](#malta-drivers-license-number)
 - [Nederland](#netherlands-drivers-license-number)
-- [Polen](#poland-drivers-license-number) 
+- [Polen](#poland-drivers-license-number)
 - [Portugal](#portugal-drivers-license-number)
 - [Roemenië](#romania-drivers-license-number)
 - [Slowakije](#slovakia-drivers-license-number)
@@ -5922,10 +5922,10 @@ Deze entiteiten maken deel uit van het nationale eu-identificatienummer en zijn 
 - [Slowakije](#slovakia-personal-number)
 - [Slovenië](#slovenia-unique-master-citizen-number)
 - [Spanje](#spain-dni)
-- [VK](#uk-national-insurance-number-nino)                                        
+- [VK](#uk-national-insurance-number-nino)
 
 
-## <a name="eu-passport-number"></a>EU-paspoortnummer 
+## <a name="eu-passport-number"></a>EU-paspoortnummer
 
 Deze entiteiten hebben het EU-paspoortnummer en zijn gevoelige informatietypen. Deze entiteiten maken deel uit van de EU-paspoortnummerbundel.
 
@@ -6017,26 +6017,26 @@ Deze entiteiten maken deel uit van het type gevoelige informatie over eu-belasti
 ### <a name="format"></a>Opmaak
 
 10 cijfers met een afbreekstreester
-  
+
 ### <a name="pattern"></a>Patroon
 
 10 cijfers met een afbreekstreester:
-  
-- zes cijfers 
+
+- zes cijfers
 - een afbreekstreester
-- drie cijfers 
+- drie cijfers
 - een cijfer of letter
-    
+
 ### <a name="checksum"></a>Checksum
 
 Nee
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_finland_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_finland_eu_driver's_license_number` wordt gevonden. 
-    
+- Met de normale  `Regex_finland_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_finland_eu_driver's_license_number` wordt gevonden.
+
 ```xml
       <!-- Finland Driver's License Number -->
       <Entity id="bb3b27a3-79bd-4ac4-81a7-f9fca3c7d1a7" patternsProximity="300" recommendedConfidence="75">
@@ -6256,9 +6256,9 @@ zes cijfers plus een teken dat een eeuw plus drie cijfers plus een vinkje aangee
 ### <a name="pattern"></a>Patroon
 
 Patroon moet de volgende gegevens bevatten:
-- zes cijfers in de indeling DDMMYY, een geboortedatum 
-- century marker ('-', '+' of 'a') 
-- persoonlijk identificatienummer met drie cijfers 
+- zes cijfers in de indeling DDMMYY, een geboortedatum
+- century marker ('-', '+' of 'a')
+- persoonlijk identificatienummer met drie cijfers
 - een cijfer of letter (case insensitive) dat een controlecijfer is
 
 ### <a name="checksum"></a>Checksum
@@ -6349,7 +6349,7 @@ combinatie van negen letters en cijfers
 
 ### <a name="pattern"></a>Patroon
 combinatie van negen letters en cijfers:
-- twee letters (niet hoofdlettergevoelig) 
+- twee letters (niet hoofdlettergevoelig)
 - zeven cijfers
 
 ### <a name="checksum"></a>Checksum
@@ -6679,7 +6679,7 @@ Een DLP-beleid heeft weinig vertrouwen dat dit type gevoelige informatie is gede
 - numéro d'assurance maladie
 - numéro de carte vitaal
 
-   
+
 ## <a name="france-passport-number"></a>Frankrijk paspoortnummer
 Deze entiteit is beschikbaar in het gevoelige informatietype EU-paspoortnummer. Het is ook beschikbaar als een op zichzelf staand entiteit met gevoelige informatie.
 
@@ -6690,8 +6690,8 @@ negen cijfers en letters
 ### <a name="pattern"></a>Patroon
 
 negen cijfers en letters:
-- twee cijfers 
-- twee letters (niet hoofdlettergevoelig) 
+- twee cijfers
+- twee letters (niet hoofdlettergevoelig)
 - vijf cijfers
 
 ### <a name="checksum"></a>Checksum
@@ -6853,36 +6853,36 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="format"></a>Opmaak
 
 13 cijfers
-  
+
 ### <a name="pattern"></a>Patroon
 
 13 cijfers
-  
+
 - Eén cijfer dat 0, 1, 2 of 3 moet zijn
 - Eén cijfer
 - Een spatie (optioneel)
-- Twee cijfers 
+- Twee cijfers
 - Een spatie (optioneel)
-- Drie cijfers 
+- Drie cijfers
 - Een spatie (optioneel)
-- Drie cijfers 
+- Drie cijfers
 - Een spatie (optioneel)
-- Drie controlecijfers 
+- Drie controlecijfers
 
-  
+
 ### <a name="checksum"></a>Checksum
 
 Ja
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_france_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Er wordt een  `Keywords_france_eu_tax_file_number` trefwoord uit gevonden. 
-    
+- Met de  `Func_france_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon.
+- Er wordt een  `Keywords_france_eu_tax_file_number` trefwoord uit gevonden.
+
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_france_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-    
+- Met de  `Func_france_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon.
+
 ```xml
       <!-- France Tax Identification Number (numéro SPI.) -->
       <Entity id="ed59e77e-171d-442c-9ec1-88e2ebcb5b0a" patternsProximity="300" recommendedConfidence="85">
@@ -7002,10 +7002,10 @@ combinatie van 11 cijfers en letters
 ### <a name="pattern"></a>Patroon
 
 11 cijfers en letters (niet hoofdlettergevoelig):
-- een cijfer of letter 
-- twee cijfers 
-- zes cijfers of letters 
-- een cijfer 
+- een cijfer of letter
+- twee cijfers
+- zes cijfers of letters
+- een cijfer
 - een cijfer of letter
 
 ### <a name="checksum"></a>Checksum
@@ -7192,7 +7192,7 @@ van 1 april 1987 tot en met 31 oktober 2010: 10 cijfers
 ### <a name="pattern"></a>Patroon
 
 sinds 1 november 2010:
-- één letter (niet case-sensitive) 
+- één letter (niet case-sensitive)
 - acht cijfers
 
 van 1 april 1987 tot en met 31 oktober 2010:
@@ -7248,9 +7248,9 @@ Deze entiteit is opgenomen in het gevoelige informatietype EU-paspoortnummer en 
 ### <a name="pattern"></a>Patroon
 
 Patroon moet de volgende gegevens bevatten:
-- eerste teken is een cijfer of een letter uit deze set (C, F, G, H, J, K) 
-- drie cijfers 
-- vijf cijfers of letters uit deze set (C, -H, J-N, P, R, T, V-Z) 
+- eerste teken is een cijfer of een letter uit deze set (C, F, G, H, J, K)
+- drie cijfers
+- vijf cijfers of letters uit deze set (C, -H, J-N, P, R, T, V-Z)
 - een cijfer
 
 ### <a name="checksum"></a>Checksum
@@ -7295,7 +7295,7 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 
 - heruitgave
 - reisepassnummer
-- No-Reisepass 
+- No-Reisepass
 - Nr-Reisepass
 - Reisepass-Nr
 - Wachtwoordnummer
@@ -7322,33 +7322,33 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="format"></a>Opmaak
 
 11 cijfers zonder spaties en scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
 11 cijfers
-  
-- Twee cijfers 
+
+- Twee cijfers
 - Een optionele spatie
-- Drie cijfers 
+- Drie cijfers
 - Een optionele spatie
-- Drie cijfers 
+- Drie cijfers
 - Een optionele spatie
 - Twee cijfers
 - een vinkje
-    
+
 ### <a name="checksum"></a>Checksum
 
 Ja
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_germany_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Er wordt een  `Keywords_germany_eu_tax_file_number` trefwoord uit gevonden. 
-    
+- Met de  `Func_germany_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon.
+- Er wordt een  `Keywords_germany_eu_tax_file_number` trefwoord uit gevonden.
+
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_germany_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-    
+- Met de  `Func_germany_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon.
+
 ```xml
       <!-- Germany Tax Identification Number -->
       <Entity id="43316a89-9880-40cf-b980-04bc7eefcec5" patternsProximity="300" recommendedConfidence="85">
@@ -7461,21 +7461,21 @@ Deze entiteit is opgenomen in het gevoelige informatietype Eu Driver's License N
 ### <a name="format"></a>Opmaak
 
 negen cijfers zonder spaties en scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
-negen cijfers 
-  
+negen cijfers
+
 ### <a name="checksum"></a>Checksum
 
 Nee
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_greece_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_greece_eu_driver's_license_number` wordt gevonden. 
-    
+- Met de normale  `Regex_greece_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_greece_eu_driver's_license_number` wordt gevonden.
+
 ```xml
       <!-- Greece Driver's License Number -->
       <Entity id="7a2200b5-aacf-4e3c-ab36-136d3e68b7da" patternsProximity="300" recommendedConfidence="75">
@@ -7630,13 +7630,13 @@ Combinatie van 7-8 letters en cijfers plus een streepje
 ### <a name="pattern"></a>Patroon
 
 Zeven letters en cijfers (oude notatie):
-- Eén letter (een letter van het Griekse alfabet) 
-- Een streepje 
+- Eén letter (een letter van het Griekse alfabet)
+- Een streepje
 - Zes cijfers
 
 Acht letters en cijfers (nieuwe notatie):
-- Twee letters waarvan het hoofdletterteken voorkomt in zowel het Griekse als het Latijnse alfabet (ABEZHIKMNOPTYX) 
-- Een streepje 
+- Twee letters waarvan het hoofdletterteken voorkomt in zowel het Griekse als het Latijnse alfabet (ABEZHIKMNOPTYX)
+- Een streepje
 - Zes cijfers
 
 ### <a name="checksum"></a>Checksum
@@ -7684,26 +7684,26 @@ Een DLP-beleid heeft weinig vertrouwen dat dit type gevoelige informatie is gede
 ### <a name="format"></a>Opmaak
 
 Twee letters gevolgd door zeven cijfers zonder spaties of scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
 Twee letters gevolgd door zeven cijfers
-  
+
 ### <a name="checksum"></a>Checksum
 
 Nee
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_greece_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_greece_eu_passport_number` wordt gevonden. 
+- Met de normale  `Regex_greece_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_greece_eu_passport_number` wordt gevonden.
 - Met de normale expressie wordt de datum gevonden in de indeling `Regex_greece_eu_passport_date` DD MMM YY (voorbeeld - 28 aug 19) of wordt een trefwoord `Keywords_greece_eu_passport_date` gevonden van
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_greece_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_greece_eu_passport_number` wordt gevonden. 
-    
+- Met de normale  `Regex_greece_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_greece_eu_passport_number` wordt gevonden.
+
 ```xml
       <!-- Greece Passport Number -->
       <Entity id="7e65eb47-cdf9-4f52-8f90-2a27d5ee67e3" patternsProximity="300" recommendedConfidence="75">
@@ -7761,25 +7761,25 @@ Dit type gevoelige informatie is alleen beschikbaar voor gebruik in:
 ### <a name="format"></a>Opmaak
 
 11 cijfers zonder spaties en scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
 - Zes cijfers als geboortedatum YYMMDD
 - Vier cijfers
 - een vinkje
-  
+
 ### <a name="checksum"></a>Checksum
 
 Ja
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_greece_eu_ssn` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Er wordt een  `Keywords_greece_eu_ssn_or_equivalent` trefwoord uit gevonden. 
-    
+- Met de  `Func_greece_eu_ssn` functie wordt inhoud gevonden die overeenkomt met het patroon.
+- Er wordt een  `Keywords_greece_eu_ssn_or_equivalent` trefwoord uit gevonden.
+
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_greece_eu_ssn` functie wordt inhoud gevonden die overeenkomt met het patroon. 
+- Met de  `Func_greece_eu_ssn` functie wordt inhoud gevonden die overeenkomt met het patroon.
 
 ```xml
       <!-- Greece Social Security Number (AMKA) -->
@@ -7819,22 +7819,22 @@ Dit type gevoelige informatie is alleen beschikbaar voor gebruik in:
 ### <a name="format"></a>Opmaak
 
 Negen cijfers zonder spaties en scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
 Negen cijfers
-  
+
 ### <a name="checksum"></a>Checksum
 
 Niet van toepassing
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-  
-- Met de normale  `Regex_greece_eu_tax_file_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Er wordt een  `Keywords_greece_eu_tax_file_number` trefwoord uit gevonden. 
-    
+
+- Met de normale  `Regex_greece_eu_tax_file_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Er wordt een  `Keywords_greece_eu_tax_file_number` trefwoord uit gevonden.
+
 ```xml
       <!-- Greek Tax Identification Number -->
       <Entity id="15a54a5a-53d4-4080-ad43-a2a4fe1d3bf7" patternsProximity="300" recommendedConfidence="75">
@@ -7886,8 +7886,8 @@ Combinatie van 8-9 letters en cijfers plus optionele haakjes rond het uiteindeli
 ### <a name="pattern"></a>Patroon
 
 Combinatie van 8-9 letters:
-- 1-2 letters (niet hoofdlettergevoelig) 
-- Zes cijfers 
+- 1-2 letters (niet hoofdlettergevoelig)
+- Zes cijfers
 - Het uiteindelijke teken (elk cijfer of de letter A), dat het controlecijfer is en optioneel tussen haakjes wordt omsloten.
 
 ### <a name="checksum"></a>Checksum
@@ -7960,31 +7960,31 @@ Een DLP-beleid heeft weinig vertrouwen dat dit type gevoelige informatie is gede
 - 香港特別行政區非永久性居民身分證
 - 香港特別行政區非永久性居民身分証
 
-   
+
 ## <a name="hungary-drivers-license-number"></a>Rijbewijsnummer van Hongarije
 
 ### <a name="format"></a>Opmaak
 
 Twee letters gevolgd door zes cijfers
-  
+
 ### <a name="pattern"></a>Patroon
 
 Twee letters en zes cijfers:
-  
-- Twee letters (niet hoofdlettergevoelig) 
+
+- Twee letters (niet hoofdlettergevoelig)
 - Zes cijfers
-    
+
 ### <a name="checksum"></a>Checksum
 
 Nee
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-  
-- Met de normale  `Regex_hungary_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_hungary_eu_driver's_license_number` wordt gevonden. 
-    
+
+- Met de normale  `Regex_hungary_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_hungary_eu_driver's_license_number` wordt gevonden.
+
 ```xml
       <Entity id="9d31c46b-6e6b-444c-aeb1-6dd7e604bb24" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
@@ -8139,31 +8139,31 @@ Dit type gevoelige informatie is alleen beschikbaar voor gebruik in:
 ### <a name="format"></a>Opmaak
 
 11 cijfers
-  
+
 ### <a name="pattern"></a>Patroon
 
 11 cijfers:
-  
+
 - Eén cijfer dat overeenkomt met geslacht, 1 voor man, 2 voor vrouw. Andere getallen zijn ook mogelijk voor burgers die vóór 1900 zijn geboren of voor burgers met een dubbele nationaliteit.
 - Zes cijfers die overeenkomen met de geboortedatum (YYMMDD)
 - Drie cijfers die overeenkomen met een serieel getal
 - Eén vinkje
-    
+
 ### <a name="checksum"></a>Checksum
 
 Ja
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-  
-- Met de  `Func_hungary_eu_national_id_card` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Er wordt een  `Keywords_hungary_eu_national_id_card` trefwoord uit gevonden. 
-    
+
+- Met de  `Func_hungary_eu_national_id_card` functie wordt inhoud gevonden die overeenkomt met het patroon.
+- Er wordt een  `Keywords_hungary_eu_national_id_card` trefwoord uit gevonden.
+
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-  
-- Met de  `Func_hungary_eu_national_id_card` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-    
+
+- Met de  `Func_hungary_eu_national_id_card` functie wordt inhoud gevonden die overeenkomt met het patroon.
+
 ```xml
       <!-- Hungary Personal Identification Number -->
       <Entity id="7b5cc218-7046-47d9-80c9-f325b50896ca" patternsProximity="300" recommendedConfidence="85">
@@ -8199,26 +8199,26 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="format"></a>Opmaak
 
 Twee letters gevolgd door zes of zeven cijfers zonder spaties of scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
 Twee letters gevolgd door zes of zeven cijfers
-  
+
 ### <a name="checksum"></a>Checksum
 
 Nee
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_hungary_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_hungary_eu_passport_number` wordt gevonden. 
+- Met de normale  `Regex_hungary_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_hungary_eu_passport_number` wordt gevonden.
 - Met de normale expressie wordt datum gevonden in de indeling `Regex_hungary_eu_passport_date` DD MMM/MMM YY (Voorbeeld - 01 MÁR/MAR 12) of een trefwoord uit `Keywords_eu_passport_date` wordt gevonden
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_hungary_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_hungary_eu_passport_number` wordt gevonden. 
-    
+- Met de normale  `Regex_hungary_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_hungary_eu_passport_number` wordt gevonden.
+
 ```xml
       <!-- Hungary Passport Number -->
       <Entity id="5b483910-9aa7-4c99-9917-f4001464bda7" patternsProximity="300" recommendedConfidence="75">
@@ -8274,26 +8274,26 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="format"></a>Opmaak
 
 Negen cijfers zonder spaties en scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
 Negen cijfers
-  
+
 ### <a name="checksum"></a>Checksum
 
 Ja
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-  
-- Met de  `Func_hungary_eu_ssn_or_equivalent` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Er wordt een  `Keywords_hungary_eu_ssn_or_equivalent` trefwoord uit gevonden. 
-    
+
+- Met de  `Func_hungary_eu_ssn_or_equivalent` functie wordt inhoud gevonden die overeenkomt met het patroon.
+- Er wordt een  `Keywords_hungary_eu_ssn_or_equivalent` trefwoord uit gevonden.
+
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-  
-- Met de  `Func_hungary_eu_ssn_or_equivalent` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-    
+
+- Met de  `Func_hungary_eu_ssn_or_equivalent` functie wordt inhoud gevonden die overeenkomt met het patroon.
+
 ```xml
       <!-- Hungarian Social Security Number (TAJ) -->
       <Entity id="0de78315-9537-47f5-95ab-b3e77eba3993" patternsProximity="300" recommendedConfidence="85">
@@ -8341,30 +8341,30 @@ Dit type gevoelige informatie is alleen beschikbaar voor gebruik in:
 ### <a name="format"></a>Opmaak
 
 10 cijfers zonder spaties of scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
 10 cijfers:
-  
-- Eén cijfer dat '8' moet zijn 
+
+- Eén cijfer dat '8' moet zijn
 - Acht cijfers
 - Eén vinkje
-    
+
 ### <a name="checksum"></a>Checksum
 
 Ja
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-  
-- Met de  `Func_hungary_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Er wordt een  `Keywords_hungary_eu_tax_file_number` trefwoord uit gevonden. 
-    
+
+- Met de  `Func_hungary_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon.
+- Er wordt een  `Keywords_hungary_eu_tax_file_number` trefwoord uit gevonden.
+
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-  
-- Met de  `Func_hungary_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-    
+
+- Met de  `Func_hungary_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon.
+
 ```xml
       <!-- Hungary Tax Identification Number -->
       <Entity id="ede42eb4-59d9-49eb-9603-d7853fbda91d" patternsProximity="300" recommendedConfidence="85">
@@ -8485,10 +8485,10 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="pattern"></a>Patroon
 
 10 letters of cijfers:
-- Drie letters (niet hoofdlettergevoelig) 
+- Drie letters (niet hoofdlettergevoelig)
 - Een letter in C, P, H, F, A, T, B, L, J, G (niet case-sensitive)
 - Een brief
-- Vier cijfers 
+- Vier cijfers
 - Een letter die een alfabetisch controlecijfer is
 
 ### <a name="checksum"></a>Checksum
@@ -8524,9 +8524,9 @@ Een DLP-beleid heeft weinig vertrouwen dat dit type gevoelige informatie is gede
 
 #### <a name="keyword_india_permanent_account_number"></a>Keyword_india_permanent_account_number
 
-- Permanent accountnummer 
-- PAN 
-   
+- Permanent accountnummer
+- PAN
+
 ## <a name="india-unique-identification-aadhaar-number"></a>India unique identification (Aadhaar) number
 
 ### <a name="format"></a>Opmaak
@@ -8537,10 +8537,10 @@ Een DLP-beleid heeft weinig vertrouwen dat dit type gevoelige informatie is gede
 
 12 cijfers:
 - Een cijfer dat niet 0 of 1 is
-- Drie cijfers 
-- Een optionele spatie of streepje 
-- Vier cijfers 
-- Een optionele spatie of streepje 
+- Drie cijfers
+- Een optionele spatie of streepje
+- Vier cijfers
+- Een optionele spatie of streepje
 - Het laatste cijfer, dat het controlecijfer is
 
 ### <a name="checksum"></a>Checksum
@@ -8553,7 +8553,7 @@ Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is 
 - Met de Func_india_aadhaar wordt inhoud gevonden die overeenkomt met het patroon.
 - Er wordt een trefwoord Keyword_india_aadhar gevonden.
 - De checksum passeert.
-- 
+-
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
 
 - Met de Func_india_aadhaar wordt inhoud gevonden die overeenkomt met het patroon.
@@ -8572,7 +8572,7 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 </Entity>
 ```
 ### <a name="keywords"></a>Trefwoorden
-   
+
 #### <a name="keyword_india_aadhar"></a>Keyword_india_aadhar
 - aadhaar
 - aadhar
@@ -8580,7 +8580,7 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 - uid
 - आधार
 - uidai
-   
+
 ## <a name="indonesia-identity-card-ktp-number"></a>KTP-nummer (Indonesia Identity Card)
 
 ### <a name="format"></a>Opmaak
@@ -8590,13 +8590,13 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="pattern"></a>Patroon
 
 16 cijfers:
-- Provinciecode met twee cijfers 
-- Een punt (optioneel) 
-- Regency of stadscode met twee cijfers 
-- Subdistrictcode met twee cijfers 
-- Een punt (optioneel) 
-- Zes cijfers in de indeling DDMMYY, die de geboortedatum zijn 
-- Een punt (optioneel) 
+- Provinciecode met twee cijfers
+- Een punt (optioneel)
+- Regency of stadscode met twee cijfers
+- Subdistrictcode met twee cijfers
+- Een punt (optioneel)
+- Zes cijfers in de indeling DDMMYY, die de geboortedatum zijn
+- Een punt (optioneel)
 - Vier cijfers
 
 ### <a name="checksum"></a>Checksum
@@ -8620,13 +8620,13 @@ Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is 
 ```
 
 ### <a name="keywords"></a>Trefwoorden
-   
+
 #### <a name="keyword_indonesia_id_card"></a>Keyword_indonesia_id_card
 
 - KTP
-- Kartu Tanda Penduduk 
-- Nomor Induk Kependukan 
-   
+- Kartu Tanda Penduduk
+- Nomor Induk Kependukan
+
 ## <a name="international-banking-account-number-iban"></a>Internationaal bankrekeningnummer (IBAN)
 
 ### <a name="format"></a>Opmaak
@@ -8638,7 +8638,7 @@ Landcode (twee letters) plus controlecijfers (twee cijfers) plus bbannummer (max
 Patroon moet de volgende gegevens bevatten:
 
 - Landcode met twee letters
-- Twee controlecijfers (gevolgd door een optionele spatie) 
+- Twee controlecijfers (gevolgd door een optionele spatie)
 - 1-7 groepen van vier letters of cijfers (kunnen worden gescheiden door spaties)
 - 1-3 letters of cijfers
 
@@ -8728,7 +8728,7 @@ Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is 
 
 Geen
 
-   
+
 ## <a name="international-classification-of-diseases-icd-10-cm"></a>Internationale classificatie van ziektes (ICD-10-CM)
 
 ### <a name="format"></a>Opmaak
@@ -8871,35 +8871,35 @@ Voor IPv6 heeft een DLP-beleid er veel vertrouwen in dat dit type gevoelige info
 #### <a name="keyword_ipaddress"></a>Keyword_ipaddress
 
 - IP (dit trefwoord is case-sensitive)
-- ip-adres 
+- ip-adres
 - ip-adressen
 - internetprotocol
-- IP-כתובת 
+- IP-כתובת
 
 ## <a name="ireland-drivers-license-number"></a>Nummer van ierlands rijbewijs
 
 ### <a name="format"></a>Opmaak
 
 Zes cijfers, gevolgd door vier letters
-  
+
 ### <a name="pattern"></a>Patroon
 
 Zes cijfers en vier letters:
-  
+
 - Zes cijfers
 - Vier letters (niet hoofdlettergevoelig)
-    
+
 ### <a name="checksum"></a>Checksum
 
 Nee
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-  
-- Met de normale  `Regex_ireland_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_ireland_eu_driver's_license_number` wordt gevonden. 
-    
+
+- Met de normale  `Regex_ireland_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_ireland_eu_driver's_license_number` wordt gevonden.
+
 ```xml
       <!-- Ireland Driver's License Number -->
       <Entity id="e01bccd9-eb4d-414f-ace1-e9b6a4c4a2ca" patternsProximity="300" recommendedConfidence="75">
@@ -9047,29 +9047,29 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="format"></a>Opmaak
 
 Twee letters of cijfers gevolgd door zeven cijfers zonder spaties of scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
 Twee letters of cijfers, gevolgd door zeven cijfers:
-  
+
 - Twee cijfers of letters (niet hoofdlettergevoelig)
 - Zeven cijfers
-    
+
 ### <a name="checksum"></a>Checksum
 
 Nee
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_ireland_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_ireland_eu_passport_number` wordt gevonden. 
+- Met de normale  `Regex_ireland_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_ireland_eu_passport_number` wordt gevonden.
 - Met de normale expressie wordt datum gevonden in de indeling `Regex_ireland_eu_passport_date` DD MMM/MMM YYYY (Voorbeeld - 01 BEA/MEI 1988) of een trefwoord uit `Keywords_eu_passport_date` wordt gevonden
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_ireland_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
+- Met de normale  `Regex_ireland_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
 - Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_ireland_eu_passport_number` wordt gevonden.
-    
+
 ```xml
       <!-- Ireland Passport Number -->
       <Entity id="a2130f27-9ee2-4103-84f9-a6b1ee7d0cbf" patternsProximity="300" recommendedConfidence="75">
@@ -9130,7 +9130,7 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="format"></a>Opmaak
 
 Oude notatie (tot 31 december 2012):
-- zeven cijfers gevolgd door 1-2 letters 
+- zeven cijfers gevolgd door 1-2 letters
 
 Nieuwe notatie (1 januari 2013 en daarna):
 - zeven cijfers gevolgd door twee letters
@@ -9138,12 +9138,12 @@ Nieuwe notatie (1 januari 2013 en daarna):
 ### <a name="pattern"></a>Patroon
 
 Oude notatie (tot 31 december 2012):
-- zeven cijfers 
-- één tot twee letters (niet hoofdlettergevoelig) 
+- zeven cijfers
+- één tot twee letters (niet hoofdlettergevoelig)
 
 Nieuwe notatie (1 januari 2013 en daarna):
-- zeven cijfers 
-- een letter (niet case-sensitive) die een alfabetisch vinkje is 
+- zeven cijfers
+- een letter (niet case-sensitive) die een alfabetisch vinkje is
 - Een optionele letter in het bereik A-I of 'W'
 
 ### <a name="checksum"></a>Checksum
@@ -9231,10 +9231,10 @@ Een DLP-beleid heeft weinig vertrouwen dat dit type gevoelige informatie is gede
 ### <a name="pattern"></a>Patroon
 
 Opgemaakt:
-- twee cijfers 
-- een streepje 
-- drie cijfers 
-- een streepje 
+- twee cijfers
+- een streepje
+- drie cijfers
+- een streepje
 - acht cijfers
 
 Niet-opgemaakt:
@@ -9266,11 +9266,11 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 
 #### <a name="keyword_israel_bank_account_number"></a>Keyword_israel_bank_account_number
 
-- Bankrekeningnummer 
-- Bankrekening 
-- Accountnummer 
-- מספר חשבון בנק 
-   
+- Bankrekeningnummer
+- Bankrekening
+- Accountnummer
+- מספר חשבון בנק
+
 ## <a name="israel-national-identification-number"></a>Nationaal identificatienummer van Israël
 
 ### <a name="format"></a>Opmaak
@@ -9325,7 +9325,7 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 -   persoonlijke id
 -   unieke id  
 
-   
+
 ## <a name="italy-drivers-license-number"></a>Nummer van het rijbewijs van Italië
 
 Dit type entiteit is opgenomen in het gevoelige informatietype Eu Driver's License Number. Het is ook beschikbaar als een op zichzelf staand entiteit met gevoelige informatie.
@@ -9337,8 +9337,8 @@ een combinatie van 10 letters en cijfers
 ### <a name="pattern"></a>Patroon
 
 een combinatie van 10 letters en cijfers:
-- één letter (niet case-sensitive) 
-- de letter "A" of "V" (niet case-sensitive) 
+- één letter (niet case-sensitive)
+- de letter "A" of "V" (niet case-sensitive)
 - zeven cijfers
 - één letter (niet case-sensitive)
 
@@ -9491,7 +9491,7 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 #### <a name="keyword_italy_drivers_license_number"></a>Keyword_italy_drivers_license_number
 
 - numero di patente
-- patente di guida 
+- patente di guida
 - patente guida
 - patenti di guida
 - patenti guida
@@ -9508,7 +9508,7 @@ Dit type gevoelige informatie is alleen beschikbaar voor gebruik in:
 ### <a name="format"></a>Opmaak
 
 een combinatie van letters en cijfers met 16 tekens in het opgegeven patroon
-  
+
 ### <a name="pattern"></a>Patroon
 
 Een combinatie van 16 tekens van letters en cijfers:
@@ -9519,20 +9519,20 @@ Een combinatie van 16 tekens van letters en cijfers:
 - twee cijfers die overeenkomen met de dag van de geboortemaand om onderscheid te maken tussen geslachten, wordt 40 toegevoegd aan de geboortedatum voor vrouwen
 - vier cijfers die overeenkomen met de gebiedscode die specifiek is voor de gemeente waar de persoon is geboren (landcodes worden gebruikt voor het buitenland)
 - één pariteitscijfer
-    
+
 ### <a name="checksum"></a>Checksum
 
 Ja
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_italy_eu_national_id_card` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Er wordt een  `Keywords_italy_eu_national_id_card` trefwoord uit gevonden. 
-    
+- Met de  `Func_italy_eu_national_id_card` functie wordt inhoud gevonden die overeenkomt met het patroon.
+- Er wordt een  `Keywords_italy_eu_national_id_card` trefwoord uit gevonden.
+
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_italy_eu_national_id_card` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-    
+- Met de  `Func_italy_eu_national_id_card` functie wordt inhoud gevonden die overeenkomt met het patroon.
+
 ```xml
       <!-- Italy Fiscal Code -->
       <Entity id="4cd79172-8da9-4ff5-9188-98b1e7e2eca6" patternsProximity="300" recommendedConfidence="85">
@@ -9589,29 +9589,29 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="format"></a>Opmaak
 
 twee letters of cijfers gevolgd door zeven cijfers zonder spaties of scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
 twee letters of cijfers, gevolgd door zeven cijfers:
-  
+
 - twee cijfers of letters (niet hoofdlettergevoelig)
 - zeven cijfers
-    
+
 ### <a name="checksum"></a>Checksum
 
 niet van toepassing
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_italy_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_italy_eu_passport_number` wordt gevonden. 
+- Met de normale  `Regex_italy_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_italy_eu_passport_number` wordt gevonden.
 - De normale expressie vindt datum in de indeling `Regex_italy_eu_passport_date` DD MMM/MMM YYYY (Voorbeeld - 01 GEN/JAN 1988) of een trefwoord uit `Keywords_eu_passport_date` wordt gevonden
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_italy_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_italy_eu_passport_number` wordt gevonden. 
-    
+- Met de normale  `Regex_italy_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_italy_eu_passport_number` wordt gevonden.
+
 ```xml
       <!-- Italy Passport Number -->
       <Entity id="39811019-4750-445f-b26d-4c0e6c431544" patternsProximity="300" recommendedConfidence="75">
@@ -9736,8 +9736,8 @@ zeven of acht cijfers
 bankrekeningnummer:
 - zeven of acht cijfers
 - bankrekeningstakcode:
-- vier cijfers 
-- een spatie of streepje (optioneel) 
+- vier cijfers
+- een spatie of streepje (optioneel)
 - drie cijfers
 
 Checksum
@@ -9769,7 +9769,7 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
             <Match idRef="Keyword_jp_bank_branch_code" />
           </Any>
       </Pattern>
-  </Version>    
+  </Version>
      <Pattern confidenceLevel="75">
         <IdMatch idRef="Func_jp_bank_account" />
         <Match idRef="Keyword_jp_bank_account" />
@@ -9781,34 +9781,34 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 
 #### <a name="keyword_jp_bank_account"></a>Keyword_jp_bank_account
 
-- Rekeningnummer controleren 
-- Account controleren 
-- Account controleren # 
-- Acct-nummer controleren 
-- Acct controleren # 
-- Acct No controleren. 
-- Accountnummer controleren. 
-- Bankrekeningnummer 
-- Bankrekening 
-- Bankrekening # 
-- Bank Acct Number 
-- Bank Acct # 
-- Bank Acct No. 
-- Bankrekening nee. 
-- Spaarrekeningnummer 
-- Spaarrekening 
-- Spaarrekening # 
-- Acct-nummer voor spaarrekening 
-- Spaarrekening # 
-- Savings Acct No. 
-- Spaarrekening Nee. 
-- Betaalrekeningnummer 
-- Betaalrekening 
-- Betaalrekening # 
-- Debit Acct Number 
-- Debit Acct # 
-- Debit Acct No. 
-- Betaalrekening nee. 
+- Rekeningnummer controleren
+- Account controleren
+- Account controleren #
+- Acct-nummer controleren
+- Acct controleren #
+- Acct No controleren.
+- Accountnummer controleren.
+- Bankrekeningnummer
+- Bankrekening
+- Bankrekening #
+- Bank Acct Number
+- Bank Acct #
+- Bank Acct No.
+- Bankrekening nee.
+- Spaarrekeningnummer
+- Spaarrekening
+- Spaarrekening #
+- Acct-nummer voor spaarrekening
+- Spaarrekening #
+- Savings Acct No.
+- Spaarrekening Nee.
+- Betaalrekeningnummer
+- Betaalrekening
+- Betaalrekening #
+- Debit Acct Number
+- Debit Acct #
+- Debit Acct No.
+- Betaalrekening nee.
 - 口座番号
 - 銀行口座
 - 銀行口座番号
@@ -10023,7 +10023,7 @@ Een DLP-beleid heeft weinig vertrouwen dat dit type gevoelige informatie is gede
 - 個人識別ナンバー
 - 通知カード
 
-   
+
 ## <a name="japan-passport-number"></a>Japan paspoortnummer
 
 ### <a name="format"></a>Opmaak
@@ -10084,7 +10084,7 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 
 12 letters en cijfers:
 - twee letters (niet hoofdlettergevoelig)
-- acht cijfers 
+- acht cijfers
 - twee letters (niet hoofdlettergevoelig)
 
 ### <a name="checksum"></a>Checksum
@@ -10153,17 +10153,17 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 #### <a name="keyword_jp_resident_registration_number"></a>Keyword_jp_resident_registration_number
 
 - Registratienummer voor ingezetene
-- Basisregisternummer voor bewoners 
-- Resident Registration No. 
-- Resident Register No. 
-- Bewoners Basic Registry No. 
-- Basic Resident Register No. 
+- Basisregisternummer voor bewoners
+- Resident Registration No.
+- Resident Register No.
+- Bewoners Basic Registry No.
+- Basic Resident Register No.
 - 外国人登録証明書番号
 - 証明書番号
 - 登録番号
 - 外国人登録証
 
-   
+
 ## <a name="japan-social-insurance-number-sin"></a>Japans sociaal verzekeringsnummer (SIN)
 
 ### <a name="format"></a>Opmaak
@@ -10173,8 +10173,8 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="pattern"></a>Patroon
 
 7-12 cijfers:
-- vier cijfers 
-- een afbreekstreester (optioneel) 
+- vier cijfers
+- een afbreekstreester (optioneel)
 - zes cijfers OF
 - 7-12 opeenvolgende cijfers
 
@@ -10210,9 +10210,9 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 
 #### <a name="keyword_jp_sin"></a>Keyword_jp_sin
 
-- Social Insurance No. 
-- Aantal sociale verzekeringen 
-- Sociaal verzekeringsnummer 
+- Social Insurance No.
+- Aantal sociale verzekeringen
+- Sociaal verzekeringsnummer
 - 健康保険被保険者番号
 - 健保番号
 - 基礎年金番号
@@ -10235,24 +10235,24 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="format"></a>Opmaak
 
 drie letters gevolgd door zes cijfers
-  
+
 ### <a name="pattern"></a>Patroon
 
 drie letters en zes cijfers:
-  
-- drie letters (niet hoofdlettergevoelig) 
+
+- drie letters (niet hoofdlettergevoelig)
 - zes cijfers
-    
+
 ### <a name="checksum"></a>Checksum
 
 Nee
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_latvia_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_latvia_eu_driver's_license_number` wordt gevonden. 
-    
+- Met de normale  `Regex_latvia_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_latvia_eu_driver's_license_number` wordt gevonden.
+
 ```xml
       <!-- Latvia Driver's License Number -->
       <Entity id="ec996de0-30f2-46b1-b192-4d2ff8805fa7" patternsProximity="300" recommendedConfidence="75">
@@ -10401,14 +10401,14 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="format"></a>Opmaak
 
 11 cijfers en een optioneel afbreekstreester
-  
+
 ### <a name="pattern"></a>Patroon
 
 Oude indeling
 
 11 cijfers en een afbreekstreester:
-  
-- zes cijfers die overeenkomen met de geboortedatum (DDMMYY) 
+
+- zes cijfers die overeenkomen met de geboortedatum (DDMMYY)
 - een afbreekstreester
 - een cijfer dat overeenkomt met de eeuw van geboorte ("0" voor de 19e eeuw, "1" voor de 20e eeuw en "2" voor de 21e eeuw)
 - vier cijfers, willekeurig gegenereerd
@@ -10419,20 +10419,20 @@ Nieuwe indeling
 
 - Twee cijfers "32"
 - Negen cijfers
-    
+
 ### <a name="checksum"></a>Checksum
 
 Ja
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_latvia_eu_national_id_card` functie of regex `Regex_latvia_eu_national_id_card_new_format` wordt inhoud gevonden die overeenkomt met het patroon. 
-- Er wordt een  `Keywords_latvia_eu_national_id_card` trefwoord uit gevonden. 
-    
+- Met de  `Func_latvia_eu_national_id_card` functie of regex `Regex_latvia_eu_national_id_card_new_format` wordt inhoud gevonden die overeenkomt met het patroon.
+- Er wordt een  `Keywords_latvia_eu_national_id_card` trefwoord uit gevonden.
+
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_latvia_eu_national_id_card` functie of regex `Regex_latvia_eu_national_id_card_new_format` wordt inhoud gevonden die overeenkomt met het patroon. 
-    
+- Met de  `Func_latvia_eu_national_id_card` functie of regex `Regex_latvia_eu_national_id_card_new_format` wordt inhoud gevonden die overeenkomt met het patroon.
+
 ```xml
       <!-- Latvia Personal Code -->
       <Entity id="03fcf763-27c2-49ed-9422-2641c6c895c9" patternsProximity="300" recommendedConfidence="85">
@@ -10532,29 +10532,29 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="format"></a>Opmaak
 
 twee letters of cijfers gevolgd door zeven cijfers zonder spaties of scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
 twee letters of cijfers, gevolgd door zeven cijfers:
-  
+
 - twee cijfers of letters (niet hoofdlettergevoelig)
 - zeven cijfers
-    
+
 ### <a name="checksum"></a>Checksum
 
 Nee
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_latvia_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_latvia_eu_passport_number` wordt gevonden. 
+- Met de normale  `Regex_latvia_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_latvia_eu_passport_number` wordt gevonden.
 - Met de normale expressie wordt de datum gevonden in de `Regex_eu_passport_date1` indeling DD.MM.YYYY of wordt een trefwoord `Keywords_eu_passport_date` gevonden uit
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_latvia_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_latvia_eu_passport_number` wordt gevonden. 
-    
+- Met de normale  `Regex_latvia_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_latvia_eu_passport_number` wordt gevonden.
+
 ```xml
       <!-- Latvia Passport Number -->
       <Entity id="23ae25ec-cc28-421b-b77a-3054eadf1ede" patternsProximity="300" recommendedConfidence="75">
@@ -10614,21 +10614,21 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="format"></a>Opmaak
 
 acht cijfers zonder spaties en scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
-acht cijfers 
-  
+acht cijfers
+
 ### <a name="checksum"></a>Checksum
 
 Nee
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_lithuania_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_lithuania_eu_driver's_license_number` wordt gevonden. 
-    
+- Met de normale  `Regex_lithuania_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_lithuania_eu_driver's_license_number` wordt gevonden.
+
 ```xml
       <!-- Lithuania Driver's License Number -->
       <Entity id="86f7628b-e0f4-4dc3-9fbc-e4300e4c7d78" patternsProximity="300" recommendedConfidence="75">
@@ -10783,29 +10783,29 @@ Dit type gevoelige informatie is alleen beschikbaar voor gebruik in:
 ### <a name="format"></a>Opmaak
 
 11 cijfers zonder spaties en scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
 11 cijfers zonder spaties en scheidingstekens:
-  
+
 - één cijfer (1-6) dat overeenkomt met het geslacht en de eeuw van de geboorte van de persoon
-- zes cijfers die overeenkomen met geboortedatum (YYMMDD) 
+- zes cijfers die overeenkomen met geboortedatum (YYMMDD)
 - drie cijfers die overeenkomen met het seriële getal van de geboortedatum
 - een vinkje
-    
+
 ### <a name="checksum"></a>Checksum
 
 Ja
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_lithuania_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Er wordt een  `Keywords_lithuania_eu_tax_file_number` trefwoord uit gevonden. 
-    
+- Met de  `Func_lithuania_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon.
+- Er wordt een  `Keywords_lithuania_eu_tax_file_number` trefwoord uit gevonden.
+
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_lithuania_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-    
+- Met de  `Func_lithuania_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon.
+
 ```xml
       <!-- Lithuania Personal Code -->
       <Entity id="cd6d3786-8ec3-4524-a2cf-1e0095379171" patternsProximity="300" recommendedConfidence="85">
@@ -10865,26 +10865,26 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="format"></a>Opmaak
 
 acht cijfers of letters zonder spaties of scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
 acht cijfers of letters (niet hoofdlettergevoelig)
-  
+
 ### <a name="checksum"></a>Checksum
 
 niet van toepassing
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_lithuania_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_lithuania_eu_passport_number` wordt gevonden. 
+- Met de normale  `Regex_lithuania_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_lithuania_eu_passport_number` wordt gevonden.
 - Met de normale `Regex_eu_passport_date3` expressie wordt de datum gevonden in de indeling DD MM YYYY of wordt een trefwoord van `Keywords_eu_passport_date` gevonden
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_lithuania_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_lithuania_eu_passport_number` wordt gevonden. 
-    
+- Met de normale  `Regex_lithuania_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_lithuania_eu_passport_number` wordt gevonden.
+
 ```xml
       <!-- Lithuania Passport Number -->
       <Entity id="1b79900f-047b-4c3f-846f-7d73b5534bce" patternsProximity="300" recommendedConfidence="75">
@@ -10941,21 +10941,21 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="format"></a>Opmaak
 
 zes cijfers zonder spaties en scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
-zes cijfers 
-  
+zes cijfers
+
 ### <a name="checksum"></a>Checksum
 
 Nee
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_luxemburg_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_luxemburg_eu_driver's_license_number` wordt gevonden. 
-    
+- Met de normale  `Regex_luxemburg_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_luxemburg_eu_driver's_license_number` wordt gevonden.
+
 ```xml
       <!-- Luxemburg Driver's License Number -->
       <Entity id="89daf717-1544-4860-9a2e-fc9166dd8852" patternsProximity="300" recommendedConfidence="75">
@@ -11109,26 +11109,26 @@ Dit type gevoelige informatie is alleen beschikbaar voor gebruik in:
 ### <a name="format"></a>Opmaak
 
 13 cijfers zonder spaties of scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
 13 cijfers:
-  
-- 11 cijfers 
+
+- 11 cijfers
 - twee controlecijfers
-    
+
 ### <a name="checksum"></a>Checksum
 
 ja
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_luxemburg_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Er wordt een  `Keywords_luxemburg_eu_national_id_card` trefwoord uit gevonden. 
+- Met de  `Func_luxemburg_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon.
+- Er wordt een  `Keywords_luxemburg_eu_national_id_card` trefwoord uit gevonden.
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_luxemburg_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon. 
+- Met de  `Func_luxemburg_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon.
 
 
 ```xml
@@ -11178,26 +11178,26 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="format"></a>Opmaak
 
 acht cijfers of letters zonder spaties of scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
 acht cijfers of letters (niet hoofdlettergevoelig)
-  
+
 ### <a name="checksum"></a>Checksum
 
 Nee
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_luxemburg_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_luxemburg_eu_passport_number` wordt gevonden. 
+- Met de normale  `Regex_luxemburg_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_luxemburg_eu_passport_number` wordt gevonden.
 - Met de normale `Regex_eu_passport_date3` expressie wordt de datum gevonden in de indeling DD MM YYYY of wordt een trefwoord van `Keywords_eu_passport_date` gevonden
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_luxemburg_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_luxemburg_eu_passport_number` wordt gevonden. 
-    
+- Met de normale  `Regex_luxemburg_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_luxemburg_eu_passport_number` wordt gevonden.
+
 ```xml
       <!-- Luxemburg Passport Number -->
       <Entity id="81d5c027-bed9-4421-91a0-3b2e55b3eb85" patternsProximity="300" recommendedConfidence="75">
@@ -11265,33 +11265,33 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="format"></a>Opmaak
 
 11 cijfers
-  
+
 ### <a name="pattern"></a>Patroon
 
 11 cijfers
-  
+
 - twee cijfers
-- een optionele spatie 
-- drie cijfers 
 - een optionele spatie
-- drie cijfers 
+- drie cijfers
+- een optionele spatie
+- drie cijfers
 - een optionele spatie
 - twee cijfers
 - een vinkje
-    
+
 ### <a name="checksum"></a>Checksum
 
 Ja
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_luxemburg_eu_tax_file_number_non_natural` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Er wordt een  `Keywords_luxemburg_eu_tax_file_number` trefwoord uit gevonden. 
-    
+- Met de  `Func_luxemburg_eu_tax_file_number_non_natural` functie wordt inhoud gevonden die overeenkomt met het patroon.
+- Er wordt een  `Keywords_luxemburg_eu_tax_file_number` trefwoord uit gevonden.
+
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_luxemburg_eu_tax_file_number_non_natural` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-    
+- Met de  `Func_luxemburg_eu_tax_file_number_non_natural` functie wordt inhoud gevonden die overeenkomt met het patroon.
+
 ```xml
       <!-- Luxemburg National Identification Number (Non-natural persons) -->
       <Entity id="84bffa3a-d805-4788-a613-b1e4df3804cf" patternsProximity="300" recommendedConfidence="85">
@@ -11361,11 +11361,11 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="pattern"></a>Patroon
 
 12 cijfers:
-- zes cijfers in de notatie YYMMDD, de geboortedatum 
-- een streepje (optioneel) 
-- Plaats-van-geboortecode met twee letters 
-- een streepje (optioneel) 
-- drie willekeurige cijfers 
+- zes cijfers in de notatie YYMMDD, de geboortedatum
+- een streepje (optioneel)
+- Plaats-van-geboortecode met twee letters
+- een streepje (optioneel)
+- drie willekeurige cijfers
 - geslachtscode met één cijfer
 
 ### <a name="checksum"></a>Checksum
@@ -11390,7 +11390,7 @@ Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is 
 ```
 
 ### <a name="keywords"></a>Trefwoorden
-   
+
 #### <a name="keyword_malaysia_id_card_number"></a>Keyword_malaysia_id_card_number
 
 - digitale toepassingskaart
@@ -11423,27 +11423,27 @@ Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is 
 ### <a name="format"></a>Opmaak
 
 Combinatie van twee tekens en zes cijfers in het opgegeven patroon
-  
+
 ### <a name="pattern"></a>Patroon
 
 combinatie van twee tekens en zes cijfers:
-  
+
 - twee tekens (cijfers of letters, niet hoofdlettergevoelig)
 - een spatie (optioneel)
 - drie cijfers
 - een spatie (optioneel)
 - drie cijfers
-    
+
 ### <a name="checksum"></a>Checksum
 
 Nee
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_malta_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_malta_eu_driver's_license_number` wordt gevonden. 
-    
+- Met de normale  `Regex_malta_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_malta_eu_driver's_license_number` wordt gevonden.
+
 ```xml
       <!-- Malta Driver's License Number -->
       <Entity id="a3bdaa4a-8371-4735-8fa5-56ee0fb4afc4" patternsProximity="300" recommendedConfidence="75">
@@ -11598,27 +11598,27 @@ Dit type gevoelige informatie is alleen beschikbaar voor gebruik in:
 ### <a name="format"></a>Opmaak
 
 zeven cijfers, gevolgd door één letter
-  
+
 ### <a name="pattern"></a>Patroon
 
 zeven cijfers, gevolgd door één letter:
-  
-- zeven cijfers 
+
+- zeven cijfers
 - één letter in 'M, G, A, P, L, H, B, Z' (case insensitive)
-    
+
 ### <a name="checksum"></a>Checksum
 
 Niet van toepassing
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_malta_eu_national_id_card` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Er wordt een  `Keywords_malta_eu_national_id_card` trefwoord uit gevonden. 
-    
+- Met de normale  `Regex_malta_eu_national_id_card` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Er wordt een  `Keywords_malta_eu_national_id_card` trefwoord uit gevonden.
+
 Een DLP-beleid heeft weinig vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_malta_eu_national_id_card` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-    
+- Met de normale  `Regex_malta_eu_national_id_card` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+
 ```xml
       <!-- Malta Identity Card Number -->
       <Entity id="854b36b3-a388-4ac8-a4ec-677c2b5e4356" patternsProximity="300" recommendedConfidence="75">
@@ -11657,26 +11657,26 @@ Een DLP-beleid heeft weinig vertrouwen dat dit type gevoelige informatie is gede
 ### <a name="format"></a>Opmaak
 
 zeven cijfers zonder spaties of scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
-zeven cijfers 
-  
+zeven cijfers
+
 ### <a name="checksum"></a>Checksum
 
 Nee
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_malta_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_malta_eu_passport_number` wordt gevonden. 
+- Met de normale  `Regex_malta_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_malta_eu_passport_number` wordt gevonden.
 - Er wordt een `Keywords_eu_passport_date` trefwoord uit gevonden
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_malta_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_malta_eu_passport_number` wordt gevonden. 
-    
+- Met de normale  `Regex_malta_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_malta_eu_passport_number` wordt gevonden.
+
 ```xml
       <!-- Malta Passport Number -->
       <Entity id="b2b21198-48f9-4d13-b2a5-03969bff0fb8" patternsProximity="300" recommendedConfidence="75">
@@ -11731,34 +11731,34 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 
 Voor Maltese nationals:
 - zeven cijfers en één letter in het opgegeven patroon
-  
+
 Niet-Maltese nationals en Maltese entiteiten:
 - negen cijfers
-  
+
 ### <a name="pattern"></a>Patroon
 
 Maltese nationals: zeven cijfers en één letter
-  
-- zeven cijfers 
+
+- zeven cijfers
 - één letter (niet case-sensitive)
-    
+
 Niet-Maltese nationals en Maltese entiteiten: negen cijfers
-  
-- negen cijfers 
-    
+
+- negen cijfers
+
 ### <a name="checksum"></a>Checksum
 
 Niet van toepassing
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- De regex  `Regex_malta_eu_tax_file_number`  of zoekt inhoud die overeenkomt met het `Regex_malta_eu_tax_file_number_non_maltese_national` patroon. 
-- Er wordt een  `Keywords_malta_eu_tax_file_number` trefwoord uit gevonden. 
-    
+- De regex  `Regex_malta_eu_tax_file_number`  of zoekt inhoud die overeenkomt met het `Regex_malta_eu_tax_file_number_non_maltese_national` patroon.
+- Er wordt een  `Keywords_malta_eu_tax_file_number` trefwoord uit gevonden.
+
 Een DLP-beleid heeft weinig vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- De regex  `Regex_malta_eu_tax_file_number` of zoekt inhoud die overeenkomt met het `Regex_malta_eu_tax_file_number_non_maltese_national` patroon. 
-    
+- De regex  `Regex_malta_eu_tax_file_number` of zoekt inhoud die overeenkomt met het `Regex_malta_eu_tax_file_number_non_maltese_national` patroon.
+
 ```xml
       <!-- Malta Tax ID Number -->
       <Entity id="ec830c63-65f4-45d0-9d8c-910dc8334b20" patternsProximity="300" recommendedConfidence="75">
@@ -11820,7 +11820,7 @@ Een DLP-beleid heeft weinig vertrouwen dat dit type gevoelige informatie is gede
 ### <a name="format"></a>Opmaak
 
 Alfanumeriek patroon van 11 tekens
-  
+
 ### <a name="pattern"></a>Patroon
 
 - één cijfer tussen 1 en 9
@@ -11834,20 +11834,20 @@ Alfanumeriek patroon van 11 tekens
 - een optioneel afbreekstreester
 - twee letters exclusief S, L, O, I, B, Z
 - twee cijfers
-    
+
 ### <a name="checksum"></a>Checksum
 
 Nee
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_mbi_card` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Er wordt een  `Keyword_mbi_card` trefwoord uit gevonden. 
-    
+- Met de normale  `Regex_mbi_card` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Er wordt een  `Keyword_mbi_card` trefwoord uit gevonden.
+
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_mbi_card` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-    
+- Met de normale  `Regex_mbi_card` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+
 ```xml
     <!-- Medicare Beneficiary Identifier (MBI) card -->
       <Entity id="f753a286-f5cc-47e6-a592-4be25fd02591" patternsProximity="300" recommendedConfidence="75" relaxProximity="true">
@@ -11879,7 +11879,7 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="format"></a>Opmaak
 
 Alfanumeriek patroon van 18 tekens
-  
+
 ### <a name="pattern"></a>Patroon
 
 - vier letters (hoofdletters ongevoelig)
@@ -11889,20 +11889,20 @@ Alfanumeriek patroon van 18 tekens
 - drie letters
 - één letter of cijfer
 - één cijfer
-    
+
 ### <a name="checksum"></a>Checksum
 
 Nee
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_mexico_population_registry_code` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Er wordt een  `Keyword_mexico_population_registry_code` trefwoord uit gevonden. 
-    
+- Met de  `Func_mexico_population_registry_code` functie wordt inhoud gevonden die overeenkomt met het patroon.
+- Er wordt een  `Keyword_mexico_population_registry_code` trefwoord uit gevonden.
+
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_mexico_population_registry_code` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-    
+- Met de  `Func_mexico_population_registry_code` functie wordt inhoud gevonden die overeenkomt met het patroon.
+
 ```xml
     <!-- Mexico Unique Population Registry Code (CURP) -->
       <Entity id="e905ad4d-5a74-406d-bf36-b1efca798af4" patternsProximity="300" recommendedConfidence="75" relaxProximity="true">
@@ -11949,10 +11949,10 @@ acht of negen cijfers met optionele spaties
 ### <a name="pattern"></a>Patroon
 
 acht-negen cijfers:
-- drie cijfers 
-- een spatie (optioneel) 
-- drie cijfers 
-- een spatie (optioneel) 
+- drie cijfers
+- een spatie (optioneel)
+- drie cijfers
+- een spatie (optioneel)
 - twee-drie cijfers
 
 ### <a name="checksum"></a>Checksum
@@ -11979,7 +11979,7 @@ Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is 
 ### <a name="keywords"></a>Trefwoorden
 
 #### <a name="keywords_netherlands_eu_national_id_card"></a>Keywords_netherlands_eu_national_id_card
-  
+
 - bsn #
 - bsn
 - burgerservicenummer
@@ -12007,21 +12007,21 @@ Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is 
 ### <a name="format"></a>Opmaak
 
 10 cijfers zonder spaties en scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
 10 cijfers
-  
+
 ### <a name="checksum"></a>Checksum
 
 Nee
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_netherlands_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_netherlands_eu_driver's_license_number` wordt gevonden. 
-    
+- Met de normale  `Regex_netherlands_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_netherlands_eu_driver's_license_number` wordt gevonden.
+
 ```xml
       <!-- Netherlands Driver's License Number -->
       <Entity id="6247fbea-ab80-4be5-8233-308b7c031401" patternsProximity="300" recommendedConfidence="75">
@@ -12174,26 +12174,26 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="format"></a>Opmaak
 
 negen letters of cijfers zonder spaties of scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
 negen letters of cijfers
-  
+
 ### <a name="checksum"></a>Checksum
 
 niet van toepassing
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_netherlands_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_netherlands_eu_passport_number` wordt gevonden. 
+- Met de normale  `Regex_netherlands_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_netherlands_eu_passport_number` wordt gevonden.
 - Met de normale expressie wordt de datum gevonden in de indeling `Regex_netherlands_eu_passport_date` DD MMM/MMM YYYY (Voorbeeld - 26 MAA/MAR 2012)
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_netherlands_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_netherlands_eu_passport_number` wordt gevonden. 
-    
+- Met de normale  `Regex_netherlands_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_netherlands_eu_passport_number` wordt gevonden.
+
 ```xml
       <!-- Netherlands Passport Number -->
       <Entity id="61786727-bafd-45f6-94d9-888d815e228e" patternsProximity="300" recommendedConfidence="75">
@@ -12248,24 +12248,24 @@ Dit type gevoelige informatie is alleen beschikbaar voor gebruik in:
 ### <a name="format"></a>Opmaak
 
 negen cijfers zonder spaties of scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
-negen cijfers 
-  
+negen cijfers
+
 ### <a name="checksum"></a>Checksum
 
 Ja
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_netherlands_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Er wordt een  `Keywords_netherlands_eu_tax_file_number` trefwoord uit gevonden. 
-    
+- Met de  `Func_netherlands_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon.
+- Er wordt een  `Keywords_netherlands_eu_tax_file_number` trefwoord uit gevonden.
+
 Een DLP-beleid heeft weinig vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_netherlands_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-    
+- Met de  `Func_netherlands_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon.
+
 ```xml
       <!-- Netherlands Tax Identification Number -->
       <Entity id="01f42a64-eba7-4892-a67b-398237e4ade2" patternsProximity="300" recommendedConfidence="85">
@@ -12460,7 +12460,7 @@ alfanumeriek patroon van acht tekens
 
 alfanumeriek patroon van acht tekens
 
-- twee letters 
+- twee letters
 - zes cijfers
 
 ### <a name="checksum"></a>Checksum
@@ -12628,7 +12628,7 @@ drie letters, een spatie (optioneel) en vier cijfers
 ### <a name="pattern"></a>Patroon
 
 - drie letters (niet hoofdlettergevoelig), behalve 'I' en 'O'
-- een spatie (optioneel) 
+- een spatie (optioneel)
 - vier cijfers
 
 ### <a name="checksum"></a>Checksum
@@ -12735,7 +12735,7 @@ Een DLP-beleid heeft weinig vertrouwen dat dit type gevoelige informatie is gede
 - sociaal welzijnsnummer
 - swn #
 
-   
+
 ## <a name="norway-identification-number"></a>Noorwegen-identificatienummer
 
 ### <a name="format"></a>Opmaak
@@ -12745,8 +12745,8 @@ Een DLP-beleid heeft weinig vertrouwen dat dit type gevoelige informatie is gede
 ### <a name="pattern"></a>Patroon
 
 11 cijfers:
-- zes cijfers in de indeling DDMMYY, de geboortedatum 
-- individueel getal met drie cijfers 
+- zes cijfers in de indeling DDMMYY, de geboortedatum
+- individueel getal met drie cijfers
 - twee controlecijfers
 
 ### <a name="checksum"></a>Checksum
@@ -12788,7 +12788,7 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 - Persoonnummer
 - Fødselsnummer
 
-   
+
 ## <a name="philippines-unified-multi-purpose-identification-number"></a>Verenigd identificatienummer voor meerdere doeleinden in de Filipijnen
 
 ### <a name="format"></a>Opmaak
@@ -12798,10 +12798,10 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="pattern"></a>Patroon
 
 12 cijfers:
-- vier cijfers 
-- een afbreekstreester 
-- zeven cijfers 
-- een afbreekstreester 
+- vier cijfers
+- een afbreekstreester
+- zeven cijfers
+- een afbreekstreester
 - één cijfer
 
 ### <a name="checksum"></a>Checksum
@@ -12825,12 +12825,12 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ```
 
 ### <a name="keywords"></a>Trefwoorden
-   
+
 #### <a name="keyword_philippines_id"></a>Keyword_philippines_id
 
-- Unified Multi-Purpose ID 
-- UMID 
-- Identiteitskaart 
+- Unified Multi-Purpose ID
+- UMID
+- Identiteitskaart
 - Pinag-isang Multi-Layunin-id
 
 ## <a name="poland-drivers-license-number"></a>Licentienummer van Polen
@@ -12838,27 +12838,27 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="format"></a>Opmaak
 
 14 cijfers met twee schuine schuine streep
-  
+
 ### <a name="pattern"></a>Patroon
 
 14 cijfers en twee slashes vooruit:
-  
-- vijf cijfers 
+
+- vijf cijfers
 - een slash naar voren
 - twee cijfers
 - een slash naar voren
 - zeven cijfers
-    
+
 ### <a name="checksum"></a>Checksum
 
 Nee
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_poland_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_poland_eu_driver's_license_number` wordt gevonden. 
-    
+- Met de normale  `Regex_poland_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_poland_eu_driver's_license_number` wordt gevonden.
+
 ```xml
       <!-- Poland Driver's License Number -->
       <Entity id="24d51f99-ee9e-4060-a077-cae58cab1ee4" patternsProximity="300" recommendedConfidence="75">
@@ -13044,7 +13044,7 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 - Dowód Tożsamości
 - dow. besturingssysteem.
 
-   
+
 ## <a name="poland-national-id-pesel"></a>Nationale Polen-id (PESEL)
 
 ### <a name="format"></a>Opmaak
@@ -13099,7 +13099,7 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 - pesel
 - tożsamości narodowej
 
-   
+
 ## <a name="poland-passport-number"></a>Polen paspoortnummer
 Deze entiteit van het type gevoelige informatie is opgenomen in het gevoelige informatietype EU-paspoortnummer. Het is ook beschikbaar als een op zichzelf staand entiteit met gevoelige informatie.
 
@@ -13204,7 +13204,7 @@ Dit type gevoelige informatie is alleen beschikbaar voor gebruik in:
 
 negen cijfers of 14-cijferig getal:
 
-- negen cijfers of 
+- negen cijfers of
 - negen cijfers
 - afbreekstreester
 - vijf cijfers
@@ -13265,22 +13265,22 @@ Dit type gevoelige informatie is alleen beschikbaar voor gebruik in:
 ### <a name="format"></a>Opmaak
 
 11 cijfers zonder spaties of scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
 11 cijfers
-  
+
 ### <a name="checksum"></a>Checksum
 
 Ja
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_poland_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Er wordt een  `Keywords_poland_eu_tax_file_number` trefwoord uit gevonden. 
-    
-  
+- Met de  `Func_poland_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon.
+- Er wordt een  `Keywords_poland_eu_tax_file_number` trefwoord uit gevonden.
+
+
 ```xml
       <!-- Poland Tax Identification Number -->
       <Entity id="1ff28b4d-40f2-49e9-b677-9606a88e2bca" patternsProximity="300" recommendedConfidence="85">
@@ -13322,7 +13322,7 @@ Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is 
 - vatid #
 - vatid
 - vatno #
-   
+
 
 ## <a name="portugal-citizen-card-number"></a>Portugal burgerkaartnummer
 
@@ -13382,7 +13382,7 @@ Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is 
 ### <a name="format"></a>Opmaak
 
 twee patronen: twee letters gevolgd door 5-8 cijfers met speciale tekens
-  
+
 ### <a name="pattern"></a>Patroon
 
 Patroon 1: Twee letters gevolgd door 5/6 met speciale tekens:
@@ -13399,17 +13399,17 @@ Patroon 2: Een letter gevolgd door 6/8 cijfers met speciale tekens:
 - Een spatie
 - Eén cijfer
 
-    
+
 ### <a name="checksum"></a>Checksum
 
 Nee
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_portugal_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_portugal_eu_driver's_license_number` wordt gevonden. 
-    
+- Met de normale  `Regex_portugal_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_portugal_eu_driver's_license_number` wordt gevonden.
+
 ```xml
       <!-- Portugal Driver's License Number -->
       <Entity id="977f1e5a-2c33-4bcc-b516-95bb275cff23" patternsProximity="300" recommendedConfidence="75">
@@ -13565,29 +13565,29 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="format"></a>Opmaak
 
 één letter gevolgd door zes cijfers zonder spaties of scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
 één letter gevolgd door zes cijfers:
-  
+
 - één letter (niet case-sensitive)
 - zes cijfers
-    
+
 ### <a name="checksum"></a>Checksum
 
 Nee
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_portugal_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_portugal_eu_passport_number` wordt gevonden. 
+- Met de normale  `Regex_portugal_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_portugal_eu_passport_number` wordt gevonden.
 - Met de normale expressie wordt de datum gevonden in de `Regex_eu_passport_date1` indeling DD.MM.YYYY of wordt een trefwoord `Keywords_eu_passport_date` gevonden uit
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_portugal_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
+- Met de normale  `Regex_portugal_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
 - Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_portugal_eu_passport_number` wordt gevonden.
-    
+
 ```xml
       <!-- Portugal Passport Number -->
       <Entity id="080a52fd-a7bc-431e-b54d-51f08f59db11" patternsProximity="300" recommendedConfidence="75">
@@ -13651,7 +13651,7 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="format"></a>Opmaak
 
 negen cijfers met optionele spaties
-  
+
 ### <a name="pattern"></a>Patroon
 
 - drie cijfers
@@ -13659,20 +13659,20 @@ negen cijfers met optionele spaties
 - drie cijfers
 - een optionele spatie
 - drie cijfers
-  
+
 ### <a name="checksum"></a>Checksum
 
 Ja
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_portugal_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Er wordt een  `Keywords_portugal_eu_tax_file_number` trefwoord uit gevonden. 
-    
+- Met de  `Func_portugal_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon.
+- Er wordt een  `Keywords_portugal_eu_tax_file_number` trefwoord uit gevonden.
+
 Een DLP-beleid heeft weinig vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_portugal_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-    
+- Met de  `Func_portugal_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon.
+
 ```xml
       <!-- Portugal Tax Identification Number -->
       <Entity id="65372402-3131-4f1e-9983-4439841d1f15" patternsProximity="300" recommendedConfidence="85">
@@ -13719,23 +13719,23 @@ Een DLP-beleid heeft weinig vertrouwen dat dit type gevoelige informatie is gede
 ### <a name="format"></a>Opmaak
 
 één teken gevolgd door acht cijfers
-  
+
 ### <a name="pattern"></a>Patroon
 
 één teken gevolgd door acht cijfers:
-- één letter (niet case-sensitive) of cijfer 
+- één letter (niet case-sensitive) of cijfer
 - acht cijfers
-    
+
 ### <a name="checksum"></a>Checksum
 
 Nee
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_romania_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_romania_eu_driver's_license_number` wordt gevonden. 
-    
+- Met de normale  `Regex_romania_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_romania_eu_driver's_license_number` wordt gevonden.
+
 ```xml
       <!-- Romania Driver's License Number -->
       <Entity id="b5511ace-2fd8-4ae4-b6fc-c7c6e4689e3c" patternsProximity="300" recommendedConfidence="75">
@@ -13893,7 +13893,7 @@ Dit type gevoelige informatie is alleen beschikbaar voor gebruik in:
 ### <a name="format"></a>Opmaak
 
 13 cijfers zonder spaties en scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
 - één cijfer van 1-9
@@ -13904,16 +13904,16 @@ Dit type gevoelige informatie is alleen beschikbaar voor gebruik in:
 ### <a name="checksum"></a>Checksum
 
 Ja
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_romania_eu_national_id_card` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Er wordt een  `Keywords_romania_eu_national_id_card` trefwoord uit gevonden. 
-    
+- Met de  `Func_romania_eu_national_id_card` functie wordt inhoud gevonden die overeenkomt met het patroon.
+- Er wordt een  `Keywords_romania_eu_national_id_card` trefwoord uit gevonden.
+
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_romania_eu_national_id_card` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-    
+- Met de  `Func_romania_eu_national_id_card` functie wordt inhoud gevonden die overeenkomt met het patroon.
+
 ```xml
       <!-- Romania Personal Numerical Code (CNP) -->
       <Entity id="eb5fa399-fe28-4c67-8188-d63a616ed89c" patternsProximity="300" recommendedConfidence="85">
@@ -13985,26 +13985,26 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="format"></a>Opmaak
 
 acht of negen cijfers zonder spaties en scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
 acht of negen cijfers
-  
+
 ### <a name="checksum"></a>Checksum
 
 Nee
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_romania_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_romania_eu_passport_number` wordt gevonden. 
+- Met de normale  `Regex_romania_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_romania_eu_passport_number` wordt gevonden.
 - Met de normale expressie wordt de datum gevonden in de indeling `Regex_romania_eu_passport_date` DD MMM/MMM YY (voorbeeld- 01 FEB/FEB 10) of wordt een trefwoord `Keywords_eu_passport_date` uit gevonden
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_romania_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_romania_eu_passport_number` wordt gevonden. 
-    
+- Met de normale  `Regex_romania_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_romania_eu_passport_number` wordt gevonden.
+
 ```xml
       <!-- Romania Passport Number -->
       <Entity id="5d31b90c-7fe2-4a76-a14b-767b8fd19d6c" patternsProximity="300" recommendedConfidence="75">
@@ -14212,12 +14212,12 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 
 #### <a name="keyword_saudi_arabia_national_id"></a>Keyword_saudi_arabia_national_id
 
-- Identificatiekaart 
-- I-kaartnummer 
-- ID-nummer 
-- الوطنية الهوية بطاقة رقم 
+- Identificatiekaart
+- I-kaartnummer
+- ID-nummer
+- الوطنية الهوية بطاقة رقم
 
-   
+
 ## <a name="singapore-national-registration-identity-card-nric-number"></a>NRIC-nummer (National Registration Identity Card) van Singapore
 
 ### <a name="format"></a>Opmaak
@@ -14227,8 +14227,8 @@ negen letters en cijfers
 ### <a name="pattern"></a>Patroon
 
 - negen letters en cijfers:
-- de letter "F", "G", "S" of "T" (niet zaakgevoelig) 
-- zeven cijfers 
+- de letter "F", "G", "S" of "T" (niet zaakgevoelig)
+- zeven cijfers
 - een alfabetisch vinkje
 
 ### <a name="checksum"></a>Checksum
@@ -14260,41 +14260,41 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ```
 
 ### <a name="keywords"></a>Trefwoorden
-   
+
 #### <a name="keyword_singapore_nric"></a>Keyword_singapore_nric
 
-- Nationale registratie-identiteitskaart 
-- Nummer van een identiteitskaart 
-- NRIC 
-- IC 
-- Buitenlands identificatienummer 
-- FIN 
-- 身份证 
-- 身份證 
+- Nationale registratie-identiteitskaart
+- Nummer van een identiteitskaart
+- NRIC
+- IC
+- Buitenlands identificatienummer
+- FIN
+- 身份证
+- 身份證
 
 ## <a name="slovakia-drivers-license-number"></a>Slowakije-rijbewijsnummer
 
 ### <a name="format"></a>Opmaak
 
 één teken gevolgd door zeven cijfers
-  
+
 ### <a name="pattern"></a>Patroon
 
 één teken gevolgd door zeven cijfers
-  
+
 - één letter (niet case-sensitive) of cijfer
-- zeven cijfers 
-    
+- zeven cijfers
+
 ### <a name="checksum"></a>Checksum
 
 Nee
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_slovakia_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_slovakia_eu_driver's_license_number` wordt gevonden. 
-    
+- Met de normale  `Regex_slovakia_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_slovakia_eu_driver's_license_number` wordt gevonden.
+
 ```xml
       <!-- Slovakia Driver's License Number -->
       <Entity id="14240c22-b6de-4ce5-a90b-137f74252513" patternsProximity="300" recommendedConfidence="75">
@@ -14450,27 +14450,27 @@ Dit type gevoelige informatie is alleen beschikbaar voor gebruik in:
 ### <a name="format"></a>Opmaak
 
 negen of tien cijfers met optionele backslash
-  
+
 ### <a name="pattern"></a>Patroon
 
 - zes cijfers die de geboortedatum vertegenwoordigen
 - optionele slash (/)
 - drie cijfers
 - een optioneel vinkje
-  
+
 ### <a name="checksum"></a>Checksum
 
 Ja
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_slovakia_eu_national_id_card` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Er wordt een  `Keywords_slovakia_eu_national_id_card` trefwoord uit gevonden. 
-    
+- Met de  `Func_slovakia_eu_national_id_card` functie wordt inhoud gevonden die overeenkomt met het patroon.
+- Er wordt een  `Keywords_slovakia_eu_national_id_card` trefwoord uit gevonden.
+
 Een DLP-beleid heeft weinig vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_slovakia_eu_national_id_card` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-    
+- Met de  `Func_slovakia_eu_national_id_card` functie wordt inhoud gevonden die overeenkomt met het patroon.
+
 ```xml
       <!-- Slovakia Personal Number -->
       <Entity id="951c26b7-3b35-4f73-924b-15dd599cb9ab" patternsProximity="300" recommendedConfidence="85">
@@ -14539,26 +14539,26 @@ Een DLP-beleid heeft weinig vertrouwen dat dit type gevoelige informatie is gede
 ### <a name="format"></a>Opmaak
 
 één cijfer of letter gevolgd door zeven cijfers zonder spaties of scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
 één cijfer of letter (niet case-sensitive) gevolgd door zeven cijfers
-  
+
 ### <a name="checksum"></a>Checksum
 
 Nee
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_slovakia_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_slovakia_eu_passport_number` wordt gevonden. 
+- Met de normale  `Regex_slovakia_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_slovakia_eu_passport_number` wordt gevonden.
 - Met de normale expressie wordt de datum gevonden in de `Regex_eu_passport_date1` indeling DD.MM.YYYY of wordt een trefwoord `Keywords_eu_passport_date` gevonden uit
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_slovakia_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_slovakia_eu_passport_number` wordt gevonden. 
-    
+- Met de normale  `Regex_slovakia_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_slovakia_eu_passport_number` wordt gevonden.
+
 ```xml
       <!-- Slovakia Passport Number -->
       <Entity id="238e1f08-d80e-4793-af33-9b57918335b7" patternsProximity="300" recommendedConfidence="75">
@@ -14617,21 +14617,21 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="format"></a>Opmaak
 
 negen cijfers zonder spaties en scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
 negen cijfers
-  
+
 ### <a name="checksum"></a>Checksum
 
 Nee
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_slovenia_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_slovenia_eu_driver's_license_number` wordt gevonden. 
-    
+- Met de normale  `Regex_slovenia_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_slovenia_eu_driver's_license_number` wordt gevonden.
+
 ```xml
       <!-- Slovenia Driver's License Number -->
       <Entity id="d5bc089a-f2ee-433d-a6b1-5c253051d6f2" patternsProximity="300" recommendedConfidence="75">
@@ -14788,29 +14788,29 @@ Dit type gevoelige informatie is alleen beschikbaar voor gebruik in:
 ### <a name="format"></a>Opmaak
 
 13 cijfers zonder spaties of scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
 13 cijfers in het opgegeven patroon:
-  
-- zeven cijfers die overeenkomen met de geboortedatum (DDMMLLL) waarbij 'LLL' overeenkomt met de laatste drie cijfers van het geboortejaar 
+
+- zeven cijfers die overeenkomen met de geboortedatum (DDMMLLL) waarbij 'LLL' overeenkomt met de laatste drie cijfers van het geboortejaar
 - twee cijfers die overeenkomen met het geboortegebied "50"
 - drie cijfers die overeenkomen met een combinatie van geslacht en serienummer voor personen die op dezelfde dag zijn geboren. 000-499 voor man en 500-999 voor vrouw.
 - een vinkje
-    
+
 ### <a name="checksum"></a>Checksum
 
 Ja
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_slovenia_eu_national_id_card` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Er wordt een  `Keywords_slovenia_eu_national_id_card` trefwoord uit gevonden. 
-    
+- Met de  `Func_slovenia_eu_national_id_card` functie wordt inhoud gevonden die overeenkomt met het patroon.
+- Er wordt een  `Keywords_slovenia_eu_national_id_card` trefwoord uit gevonden.
+
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_slovenia_eu_national_id_card` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-    
+- Met de  `Func_slovenia_eu_national_id_card` functie wordt inhoud gevonden die overeenkomt met het patroon.
+
 ```xml
       <!-- Slovenia Unique Master Citizen Number -->
       <Entity id="68948b27-803d-41e4-adf1-13e05eb541bb" patternsProximity="300" recommendedConfidence="85">
@@ -14859,30 +14859,30 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="format"></a>Opmaak
 
 twee letters gevolgd door zeven cijfers zonder spaties of scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
 twee letters gevolgd door zeven cijfers:
-  
+
 - de letter 'P'
 - één hoofdletter
 - zeven cijfers
-    
+
 ### <a name="checksum"></a>Checksum
 
 Nee
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_slovenia_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_slovenia_eu_passport_number` wordt gevonden. 
+- Met de normale  `Regex_slovenia_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_slovenia_eu_passport_number` wordt gevonden.
 - Met de normale expressie wordt de datum gevonden in de `Regex_eu_passport_date1` indeling DD.MM.YYYY of wordt een trefwoord `Keywords_eu_passport_date` gevonden uit
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_slovenia_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_slovenia_eu_passport_number` wordt gevonden. 
-    
+- Met de normale  `Regex_slovenia_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_slovenia_eu_passport_number` wordt gevonden.
+
 ```xml
       <!-- Slovenia Passport Number -->
       <Entity id="235b7976-7bbe-4df5-bb40-08678e749d1a" patternsProximity="300" recommendedConfidence="75">
@@ -14948,26 +14948,26 @@ Dit type gevoelige informatie is alleen beschikbaar voor gebruik in:
 ### <a name="format"></a>Opmaak
 
 acht cijfers zonder spaties of scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
 - één cijfer van 1-9
 - zes cijfers
 - een vinkje
-  
+
 ### <a name="checksum"></a>Checksum
 
 Ja
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_slovenia_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Er wordt een  `Keywords_slovenia_eu_tax_file_number` trefwoord uit gevonden. 
-    
+- Met de  `Func_slovenia_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon.
+- Er wordt een  `Keywords_slovenia_eu_tax_file_number` trefwoord uit gevonden.
+
 Een DLP-beleid heeft weinig vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_slovenia_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-    
+- Met de  `Func_slovenia_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon.
+
 ```xml
       <!-- Slovenia Tax Identification Number -->
       <Entity id="e47b071e-c352-4d70-8241-8c215ad65505" patternsProximity="300" recommendedConfidence="85">
@@ -15017,10 +15017,10 @@ Een DLP-beleid heeft weinig vertrouwen dat dit type gevoelige informatie is gede
 ### <a name="pattern"></a>Patroon
 
 13 cijfers:
-- zes cijfers in de notatie YYMMDD, de geboortedatum 
-- vier cijfers 
-- een indicator voor een eencijferig burgerschap 
-- het cijfer '8' of '9' 
+- zes cijfers in de notatie YYMMDD, de geboortedatum
+- vier cijfers
+- een indicator voor een eencijferig burgerschap
+- het cijfer '8' of '9'
 - één cijfer, een checksum-cijfer
 
 ### <a name="checksum"></a>Checksum
@@ -15045,13 +15045,13 @@ Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is 
 ```
 
 ### <a name="keywords"></a>Trefwoorden
-   
+
 #### <a name="keyword_south_africa_identification_number"></a>Keyword_south_africa_identification_number
 
 - Identiteitskaart
 - ID
-- Identificatie 
-   
+- Identificatie
+
 ## <a name="south-korea-resident-registration-number"></a>Registratienummer voor inwoners van Zuid-Korea
 
 ### <a name="format"></a>Opmaak
@@ -15061,11 +15061,11 @@ Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is 
 ### <a name="pattern"></a>Patroon
 
 13 cijfers:
-- zes cijfers in de notatie YYMMDD, de geboortedatum 
-- een afbreekstreester 
-- één cijfer dat wordt bepaald door de eeuw en het geslacht 
-- viercijferige regio-van-geboortecode 
-- een cijfer dat wordt gebruikt om onderscheid te maken tussen personen voor wie de voorgaande getallen identiek zijn 
+- zes cijfers in de notatie YYMMDD, de geboortedatum
+- een afbreekstreester
+- één cijfer dat wordt bepaald door de eeuw en het geslacht
+- viercijferige regio-van-geboortecode
+- een cijfer dat wordt gebruikt om onderscheid te maken tussen personen voor wie de voorgaande getallen identiek zijn
 - een vinkje.
 
 ### <a name="checksum"></a>Checksum
@@ -15097,13 +15097,13 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ```
 
 ### <a name="keywords"></a>Trefwoorden
-   
+
 #### <a name="keyword_south_korea_resident_number"></a>Keyword_south_korea_resident_number
 
-- Nationale id-kaart 
-- Burgerregistratienummer 
-- Jumin deungnok beonho 
-- RRN 
+- Nationale id-kaart
+- Burgerregistratienummer
+- Jumin deungnok beonho
+- RRN
 - 주민등록번호
 
 ## <a name="spain-drivers-license-number"></a>Rijbewijsnummer van Spanje
@@ -15111,27 +15111,27 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="format"></a>Opmaak
 
 acht cijfers gevolgd door één teken
-  
+
 ### <a name="pattern"></a>Patroon
 
 acht cijfers, gevolgd door één teken:
-  
-- acht cijfers 
+
+- acht cijfers
 - één cijfer of letter (niet case-sensitive)
-    
+
 ### <a name="checksum"></a>Checksum
 
 Ja
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- De functie  `Func_spain_eu_DL_and_NI_number_citizen` of zoekt inhoud die overeenkomt met het `Func_spain_eu_DL_and_NI_number_foreigner` patroon. 
-- Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_spain_eu_driver's_license_number` wordt gevonden. 
+- De functie  `Func_spain_eu_DL_and_NI_number_citizen` of zoekt inhoud die overeenkomt met het `Func_spain_eu_DL_and_NI_number_foreigner` patroon.
+- Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_spain_eu_driver's_license_number` wordt gevonden.
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- De functie  `Func_spain_eu_DL_and_NI_number_citizen` of zoekt inhoud die overeenkomt met het `Func_spain_eu_DL_and_NI_number_foreigner` patroon. 
-    
+- De functie  `Func_spain_eu_DL_and_NI_number_citizen` of zoekt inhoud die overeenkomt met het `Func_spain_eu_DL_and_NI_number_foreigner` patroon.
+
 ```xml
       <!-- Spain Driver's License Number -->
       <Entity id="d5a82922-b501-4f40-8868-341321146aa2" patternsProximity="300" recommendedConfidence="75">
@@ -15308,29 +15308,29 @@ Dit type gevoelige informatie is alleen beschikbaar voor gebruik in:
 ### <a name="format"></a>Opmaak
 
 acht cijfers gevolgd door één teken
-  
+
 ### <a name="pattern"></a>Patroon
 
 zeven cijfers gevolgd door één teken
-  
+
 - acht cijfers
 - Een optionele spatie of afbreekstreester
 - one check letter (not case-sensitive)
-    
+
 ### <a name="checksum"></a>Checksum
 
 Ja
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- De functie  `Func_spain_eu_DL_and_NI_number_citizen` of zoekt inhoud die overeenkomt met het `Func_spain_eu_DL_and_NI_number_foreigner` patroon. 
-- Er wordt een  `Keywords_spain_eu_national_id_card"` trefwoord uit gevonden. 
+- De functie  `Func_spain_eu_DL_and_NI_number_citizen` of zoekt inhoud die overeenkomt met het `Func_spain_eu_DL_and_NI_number_foreigner` patroon.
+- Er wordt een  `Keywords_spain_eu_national_id_card"` trefwoord uit gevonden.
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- De functie  `Func_spain_eu_DL_and_NI_number_citizen` of zoekt inhoud die overeenkomt met het `Func_spain_eu_DL_and_NI_number_foreigner` patroon. 
+- De functie  `Func_spain_eu_DL_and_NI_number_citizen` of zoekt inhoud die overeenkomt met het `Func_spain_eu_DL_and_NI_number_foreigner` patroon.
 
-    
+
 ```xml
       <!-- Spain DNI -->
       <Entity id="8e6251b9-47b4-40e8-a42b-0f80876be192" patternsProximity="300" recommendedConfidence="85">
@@ -15382,30 +15382,30 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="format"></a>Opmaak
 
 een combinatie van letters en getallen met acht of negen tekens zonder spaties of scheidingstekens
-  
+
 ### <a name="pattern"></a>Patroon
 
 een combinatie van letters en cijfers met acht of negen tekens:
-  
-- twee cijfers of letters 
+
+- twee cijfers of letters
 - één cijfer of letter (optioneel)
 - zes cijfers
-    
+
 ### <a name="checksum"></a>Checksum
 
 Niet van toepassing
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_spain_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_spain_eu_passport_number` wordt gevonden. 
+- Met de normale  `Regex_spain_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_spain_eu_passport_number` wordt gevonden.
 - Met de normale expressie wordt de datum gevonden in de `Regex_spain_eu_passport_date` indeling DD-MM-YYYY of wordt een trefwoord `Keywords_eu_passport_date` uit gevonden
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_spain_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
+- Met de normale  `Regex_spain_eu_passport_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
 - Een trefwoord  `Keywords_eu_passport_number` van of `Keywords_spain_eu_passport_number` wordt gevonden.
-    
+
 ```xml
       <!-- Spain Passport Number -->
       <Entity id="d17a57de-9fa5-4e9f-85d3-85c26d89686e" patternsProximity="300" recommendedConfidence="75">
@@ -15476,10 +15476,10 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="pattern"></a>Patroon
 
 11-12 cijfers:
-- twee cijfers 
-- a forward slash (optioneel) 
-- zeven tot acht cijfers 
-- a forward slash (optioneel) 
+- twee cijfers
+- a forward slash (optioneel)
+- zeven tot acht cijfers
+- a forward slash (optioneel)
 - twee cijfers
 
 ### <a name="checksum"></a>Checksum
@@ -15491,7 +15491,7 @@ Ja
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
 - De functie Func_spanish_social_security_number inhoud die overeenkomt met het patroon.
 - De checksum passeert.
-- - Er wordt een  `Keywords_spain_eu_ssn_or_equivalent` trefwoord uit gevonden. 
+- - Er wordt een  `Keywords_spain_eu_ssn_or_equivalent` trefwoord uit gevonden.
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
 - De functie Func_spanish_social_security_number inhoud die overeenkomt met het patroon.
@@ -15532,51 +15532,51 @@ Dit type gevoelige informatie is alleen beschikbaar voor gebruik in:
 ### <a name="format"></a>Opmaak
 
 zeven of acht cijfers en een of twee letters in het opgegeven patroon
-  
+
 ### <a name="pattern"></a>Patroon
 
 Spaanse natuurlijke personen met een Nationale identiteitskaart van Spanje:
-  
-- acht cijfers 
-- één hoofdletter (hoofdlettergevoelig) 
-    
+
+- acht cijfers
+- één hoofdletter (hoofdlettergevoelig)
+
 Niet-ingezetene Spanjaarden zonder spaanse nationale identiteitskaart
-  
+
 - één hoofdletter 'L' (hoofdlettergevoelig)
 - zeven cijfers
-- één hoofdletter (hoofdlettergevoelig) 
-    
-Resident Spaniards under the age of 14 years without a Spain National Identity Card:
-  
-- één hoofdletter 'K' (hoofdlettergevoelig)
-- zeven cijfers 
 - één hoofdletter (hoofdlettergevoelig)
-    
+
+Resident Spaniards under the age of 14 years without a Spain National Identity Card:
+
+- één hoofdletter 'K' (hoofdlettergevoelig)
+- zeven cijfers
+- één hoofdletter (hoofdlettergevoelig)
+
 Buitenlanders met het identificatienummer van een buitenlander
-  
-- een hoofdletter met de naam 'X', 'Y' of 'Z' (hoofdlettergevoelig) 
+
+- een hoofdletter met de naam 'X', 'Y' of 'Z' (hoofdlettergevoelig)
 - zeven cijfers
-- één hoofdletter (hoofdlettergevoelig) 
-    
+- één hoofdletter (hoofdlettergevoelig)
+
 Buitenlanders zonder het identificatienummer van een buitenlander
-  
-- één hoofdletter met de letter 'M' (hoofdlettergevoelig) 
+
+- één hoofdletter met de letter 'M' (hoofdlettergevoelig)
 - zeven cijfers
-- één hoofdletter (hoofdlettergevoelig) 
-    
+- één hoofdletter (hoofdlettergevoelig)
+
 ### <a name="checksum"></a>Checksum
 
 Ja
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- De functie  `Func_spain_eu_tax_file_number` of zoekt inhoud die overeenkomt met het `Func_spain_eu_DL_and_NI_number_citizen` patroon. 
-- Er wordt een  `Keywords_spain_eu_tax_file_number` trefwoord uit gevonden. 
-    
+- De functie  `Func_spain_eu_tax_file_number` of zoekt inhoud die overeenkomt met het `Func_spain_eu_DL_and_NI_number_citizen` patroon.
+- Er wordt een  `Keywords_spain_eu_tax_file_number` trefwoord uit gevonden.
+
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- De functie  `Func_spain_eu_tax_file_number` of zoekt inhoud die overeenkomt met het `Func_spain_eu_DL_and_NI_number_citizen` patroon. 
-    
+- De functie  `Func_spain_eu_tax_file_number` of zoekt inhoud die overeenkomt met het `Func_spain_eu_DL_and_NI_number_citizen` patroon.
+
 ```xml
       <!-- Spain Tax Identification Number -->
       <Entity id="10f0d113-b0e1-47dc-872a-a4f45b9376a3" patternsProximity="300" recommendedConfidence="85">
@@ -15712,25 +15712,25 @@ Dit type gevoelige informatie identificeert deze trefwoorden met behulp van een 
 ### <a name="format"></a>Opmaak
 
 10 cijfers met een afbreekstreester
-  
+
 ### <a name="pattern"></a>Patroon
 
 10 cijfers met een afbreekstreester:
-  
-- zes cijfers 
+
+- zes cijfers
 - een afbreekstreester
 - vier cijfers
-    
+
 ### <a name="checksum"></a>Checksum
 
 Nee
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de normale  `Regex_sweden_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_sweden_eu_driver's_license_number` wordt gevonden. 
-    
+- Met de normale  `Regex_sweden_eu_driver's_license_number` expressie wordt inhoud gevonden die overeenkomt met het patroon.
+- Een trefwoord  `Keywords_eu_driver's_license_number` van of `Keywords_sweden_eu_driver's_license_number` wordt gevonden.
+
 ```xml
       <!-- Sweden Driver's License Number -->
       <Entity id="70088720-90dd-47f5-805e-5525f3567391" patternsProximity="300" recommendedConfidence="75">
@@ -15891,8 +15891,8 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="pattern"></a>Patroon
 
 10 of 12 cijfers en een optioneel scheidingsteken:
-- twee cijfers (optioneel) 
-- Zes cijfers in datumnotatie YYMMDD 
+- twee cijfers (optioneel)
+- Zes cijfers in datumnotatie YYMMDD
 - scheidingsteken van "-" of "+" (optioneel)
 - vier cijfers
 
@@ -15945,7 +15945,7 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 - personnummer #
 - personnummer
 - skatteidentifikationsnummer
-   
+
 ## <a name="sweden-passport-number"></a>Zweden paspoortnummer
 
 ### <a name="format"></a>Opmaak
@@ -15997,7 +15997,7 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ```
 
 ### <a name="keywords"></a>Trefwoorden
-   
+
 #### <a name="keywords_eu_passport_number"></a>Keywords_eu_passport_number
 
 - paspoort #
@@ -16050,31 +16050,31 @@ Dit type gevoelige informatie is alleen beschikbaar voor gebruik in:
 ### <a name="format"></a>Opmaak
 
 10 cijfers en een symbool in het opgegeven patroon
-  
+
 ### <a name="pattern"></a>Patroon
 
 10 cijfers en een symbool:
-  
-- zes cijfers die overeenkomen met de geboortedatum (YYMMDD) 
+
+- zes cijfers die overeenkomen met de geboortedatum (YYMMDD)
 - een plusteken of minteken
-- drie cijfers die het identificatienummer uniek maken op de volgende plaatsen: 
+- drie cijfers die het identificatienummer uniek maken op de volgende plaatsen:
   - voor getallen die vóór 1990 zijn uitgegeven, wordt met het zevende en achtste cijfer het geboorteland of de in het buitenland geboren personen
   - het cijfer in de negende positie geeft geslacht aan door oneven voor mannelijke of zelfs voor vrouwelijke
 - een vinkje
-    
+
 ### <a name="checksum"></a>Checksum
 
 Ja
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_sweden_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Er wordt een  `Keywords_sweden_eu_tax_file_number` trefwoord uit gevonden. 
-    
+- Met de  `Func_sweden_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon.
+- Er wordt een  `Keywords_sweden_eu_tax_file_number` trefwoord uit gevonden.
+
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_sweden_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-    
+- Met de  `Func_sweden_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon.
+
 ```xml
       <!-- Sweden Tax Identification Number -->
       <Entity id="139acba0-a5bc-4fbb-876d-f7a493ae8a40" patternsProximity="300" recommendedConfidence="85">
@@ -16130,10 +16130,10 @@ vier letters gevolgd door 5-31 letters of cijfers
 ### <a name="pattern"></a>Patroon
 
 vier letters gevolgd door 5-31 letters of cijfers:
-- bankcode met vier letters (niet case-sensitive) 
-- een optionele spatie 
-- 4-28 letters of cijfers (het basisrekeningnummer (BBAN)) 
-- een optionele spatie 
+- bankcode met vier letters (niet case-sensitive)
+- een optionele spatie
+- 4-28 letters of cijfers (het basisrekeningnummer (BBAN))
+- een optionele spatie
 - één tot drie letters of cijfers (rest van de BBAN)
 
 ### <a name="checksum"></a>Checksum
@@ -16156,7 +16156,7 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ```
 
 ### <a name="keywords"></a>Trefwoorden
-   
+
 #### <a name="keyword_swift"></a>Keyword_swift
 
 - internationale organisatie voor normalisatie 9362
@@ -16267,7 +16267,7 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 - id voor identificatiepersoneel
 - numéro de sécurité sociale
 
-   
+
 ## <a name="taiwan-national-identification-number"></a>Taiwan national identification number
 
 ### <a name="format"></a>Opmaak
@@ -16277,8 +16277,8 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="pattern"></a>Patroon
 
 een letter (in het Engels) gevolgd door negen cijfers:
-- één letter (in het Engels, niet case-sensitive) 
-- het cijfer '1' of '2' 
+- één letter (in het Engels, niet case-sensitive)
+- het cijfer '1' of '2'
 - acht cijfers
 
 ### <a name="checksum"></a>Checksum
@@ -16313,21 +16313,21 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 
 #### <a name="keyword_taiwan_national_id"></a>Keyword_taiwan_national_id
 
-- 身份證字號 
-- 身份證 
-- 身份證號碼 
-- 身份證號 
-- 身分證字號 
-- 身分證 
-- 身分證號碼 
-- 身份證號 
-- 身分證統一編號 
-- 國民身分證統一編號 
-- 簽名 
-- 蓋章 
-- 簽名或蓋章 
-- 簽章   
-   
+- 身份證字號
+- 身份證
+- 身份證號碼
+- 身份證號
+- 身分證字號
+- 身分證
+- 身分證號碼
+- 身份證號
+- 身分證統一編號
+- 國民身分證統一編號
+- 簽名
+- 蓋章
+- 簽名或蓋章
+- 簽章
+
 ## <a name="taiwan-passport-number"></a>Taiwan paspoortnummer
 
 ### <a name="format"></a>Opmaak
@@ -16337,7 +16337,7 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 
 ### <a name="pattern"></a>Patroon
 biometrisch paspoortnummer:
-- het teken '3' 
+- het teken '3'
 - acht cijfers
 
 niet-biometrisch paspoortnummer:
@@ -16367,15 +16367,15 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 
 #### <a name="keyword_taiwan_passport"></a>Keyword_taiwan_passport
 
-- ROC-paspoortnummer 
-- Paspoortnummer 
-- Paspoort nee 
-- Paspoortnum 
-- Paspoort # 
-- 护照 
-- 中華民國護照 
+- ROC-paspoortnummer
+- Paspoortnummer
+- Paspoort nee
+- Paspoortnum
+- Paspoort #
+- 护照
+- 中華民國護照
 - Zhōnghuá Mínguó hùzhào
-   
+
 ## <a name="taiwan-resident-certificate-arctarc-number"></a>Taiwan-ingezeten certificaatnummer (ARC/TARC)
 
 ### <a name="format"></a>Opmaak
@@ -16385,7 +16385,7 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="pattern"></a>Patroon
 
 10 letters en cijfers:
-- twee letters (niet hoofdlettergevoelig) 
+- twee letters (niet hoofdlettergevoelig)
 - acht cijfers
 
 ### <a name="checksum"></a>Checksum
@@ -16412,17 +16412,17 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 
 #### <a name="keyword_taiwan_resident_certificate"></a>Keyword_taiwan_resident_certificate
 
-- Certificaat voor ingezetene 
-- Resident Cert 
-- Resident Cert. 
-- Identificatiekaart 
-- Certificaat voor buitenaardse ingezetene 
-- ARC 
-- Taiwan Area Resident Certificate 
-- TARC 
-- 居留證 
-- 外僑居留證 
-- 台灣地區居留證 
+- Certificaat voor ingezetene
+- Resident Cert
+- Resident Cert.
+- Identificatiekaart
+- Certificaat voor buitenaardse ingezetene
+- ARC
+- Taiwan Area Resident Certificate
+- TARC
+- 居留證
+- 外僑居留證
+- 台灣地區居留證
 
 ## <a name="thai-population-identification-code"></a>Thaise bevolkingsidentificatiecode
 
@@ -16433,7 +16433,7 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="pattern"></a>Patroon
 
 13 cijfers:
-- eerste cijfer is geen nul of negen 
+- eerste cijfer is geen nul of negen
 - 12 cijfers
 
 ### <a name="checksum"></a>Checksum
@@ -16472,7 +16472,7 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 - รหัสบัตรประชาชน
 - บัตรประชาชน
 - รหัสบัตรประชาชน
-  
+
 ## <a name="turkish-national-identification-number"></a>Turks nationaal identificatienummer
 
 ### <a name="format"></a>Opmaak
@@ -16527,10 +16527,10 @@ Combinatie van 18 letters en cijfers in de opgegeven notatie
 ### <a name="pattern"></a>Patroon
 
 18 letters en cijfers:
-- Vijf letters (niet hoofdlettergevoelig) of het cijfer '9' in plaats van een letter. 
+- Vijf letters (niet hoofdlettergevoelig) of het cijfer '9' in plaats van een letter.
 - Eén cijfer.
 - Vijf cijfers in de datumnotatie MMDDY voor geboortedatum. Het zevende teken wordt verhoogd met 50 als het stuurprogramma een vrouw is. voor examen, 51 tot 62 in plaats van 01 tot 12.
-- Twee letters (niet hoofdlettergevoelig) of het cijfer '9' in plaats van een letter. 
+- Twee letters (niet hoofdlettergevoelig) of het cijfer '9' in plaats van een letter.
 - Vijf cijfers.
 
 ### <a name="checksum"></a>Checksum
@@ -16684,7 +16684,7 @@ Een DLP-beleid heeft weinig vertrouwen dat dit type gevoelige informatie is gede
 - dlno
 - dl-getal
 
-   
+
 ## <a name="uk-electoral-roll-number"></a>VK kieslijstnummer
 
 ### <a name="format"></a>Opmaak
@@ -16721,12 +16721,12 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 
 #### <a name="keyword_uk_electoral"></a>Keyword_uk_electoral
 
-- raadsnominatie 
-- formulier voor voordracht 
-- kiesregister 
+- raadsnominatie
+- formulier voor voordracht
+- kiesregister
 - kieslijst
 
-   
+
 ## <a name="uk-national-health-service-number"></a>VK national health service number
 
 ### <a name="format"></a>Opmaak
@@ -16736,10 +16736,10 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 ### <a name="pattern"></a>Patroon
 
 10-17 cijfers:
-- 3 of 10 cijfers 
-- een spatie 
-- drie cijfers 
-- een spatie 
+- 3 of 10 cijfers
+- een spatie
+- drie cijfers
+- een spatie
 - vier cijfers
 
 ### <a name="checksum"></a>Checksum
@@ -16771,29 +16771,29 @@ Een DLP-beleid heeft er veel vertrouwen in dat dit type gevoelige informatie is 
 ```
 
 ### <a name="keywords"></a>Trefwoorden
-   
+
 #### <a name="keyword_uk_nhs_number"></a>Keyword_uk_nhs_number
 
-- nationale gezondheidsdienst 
-- nhs 
-- health services authority 
+- nationale gezondheidsdienst
+- nhs
+- health services authority
 - gezondheidsinstantie
 
 #### <a name="keyword_uk_nhs_number1"></a>Keyword_uk_nhs_number1
 
-- patiënt-id 
-- patiëntenidentificatie 
-- patiënt nee 
+- patiënt-id
+- patiëntenidentificatie
+- patiënt nee
 - patiëntnummer
 
 #### <a name="keyword_uk_nhs_number_dob"></a>Keyword_uk_nhs_number_dob
 
-- HUISARTS 
-- DOB 
-- D.O.B 
-- Geboortedatum 
-- Geboortedatum 
-   
+- HUISARTS
+- DOB
+- D.O.B
+- Geboortedatum
+- Geboortedatum
+
 ## <a name="uk-national-insurance-number-nino"></a>VK national insurance number (NINO)
 Deze entiteit van het type gevoelige informatie maakt deel uit van het eu-nationale identificatienummer voor gevoelige informatie. Het is ook beschikbaar als een op zichzelf staand entiteit met gevoelige informatie.
 
@@ -16871,7 +16871,7 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 - nationalinsurance #
 - nationalinsurancenumber
 
-    
+
 ## <a name="uk-unique-taxpayer-reference-number"></a>VK Uniek referentienummer voor belastingbetalers
 Dit type gevoelige informatie is alleen beschikbaar voor gebruik in:
 - preventiebeleid voor gegevensverlies
@@ -16883,22 +16883,22 @@ Dit type gevoelige informatie is alleen beschikbaar voor gebruik in:
 ### <a name="format"></a>Opmaak
 
 10 cijfers zonder spaties en scheidingstekens
- 
-  
+
+
 ### <a name="pattern"></a>Patroon
 
 10 cijfers
-  
+
 ### <a name="checksum"></a>Checksum
 
 Nee
-  
+
 ### <a name="definition"></a>Definitie
 
 Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie is gedetecteerd als dit binnen een nabijheid van 300 tekens:
-- Met de  `Func_uk_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon. 
-- Er wordt een  `Keywords_uk_eu_tax_file_number` trefwoord uit gevonden. 
-    
+- Met de  `Func_uk_eu_tax_file_number` functie wordt inhoud gevonden die overeenkomt met het patroon.
+- Er wordt een  `Keywords_uk_eu_tax_file_number` trefwoord uit gevonden.
+
 ```xml
       <!-- U.K. Unique Taxpayer Reference Number -->
       <Entity id="ad4a8116-0db8-439a-b545-6d967642f0ec" patternsProximity="300" recommendedConfidence="85">
@@ -16965,33 +16965,33 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 
 #### <a name="keyword_usa_bank_account"></a>Keyword_usa_Bank_Account
 
-- Rekeningnummer controleren 
-- Account controleren 
-- Account controleren # 
-- Acct-nummer controleren 
-- Acct controleren # 
-- Acct No controleren. 
-- Accountnummer controleren. 
-- Bankrekeningnummer 
-- Bankrekening # 
-- Bank Acct Number 
-- Bank Acct # 
-- Bank Acct No. 
-- Bankrekening nee. 
-- Spaarrekeningnummer 
-- Spaarrekening. 
-- Spaarrekening # 
-- Acct-nummer voor spaarrekening 
-- Spaarrekening # 
-- Savings Acct No. 
-- Spaarrekening Nee. 
-- Betaalrekeningnummer 
-- Betaalrekening 
-- Betaalrekening # 
-- Debit Acct Number 
-- Debit Acct # 
-- Debit Acct No. 
-- Betaalrekening nee. 
+- Rekeningnummer controleren
+- Account controleren
+- Account controleren #
+- Acct-nummer controleren
+- Acct controleren #
+- Acct No controleren.
+- Accountnummer controleren.
+- Bankrekeningnummer
+- Bankrekening #
+- Bank Acct Number
+- Bank Acct #
+- Bank Acct No.
+- Bankrekening nee.
+- Spaarrekeningnummer
+- Spaarrekening.
+- Spaarrekening #
+- Acct-nummer voor spaarrekening
+- Spaarrekening #
+- Savings Acct No.
+- Spaarrekening Nee.
+- Betaalrekeningnummer
+- Betaalrekening
+- Betaalrekening #
+- Debit Acct Number
+- Debit Acct #
+- Debit Acct No.
+- Betaalrekening nee.
 
 ## <a name="us-drivers-license-number"></a>Amerikaans nummer van het rijbewijs
 
@@ -17044,105 +17044,105 @@ Een DLP-beleid heeft weinig vertrouwen dat dit type gevoelige informatie is gede
 
 #### <a name="keyword_us_drivers_license_abbreviations"></a>Keyword_us_drivers_license_abbreviations
 
-- DL 
-- DLS 
-- CDL 
-- CDLS 
-- ID 
-- IDs 
-- DL # 
-- DLS # 
-- CDL # 
-- CDLS # 
+- DL
+- DLS
+- CDL
+- CDLS
+- ID
+- IDs
+- DL #
+- DLS #
+- CDL #
+- CDLS #
 - ID #
-- IDs # 
-- ID-nummer 
-- ID-nummers 
-- LIC 
-- LIC # 
+- IDs #
+- ID-nummer
+- ID-nummers
+- LIC
+- LIC #
 
 #### <a name="keyword_us_drivers_license"></a>Keyword_us_drivers_license
 
-- DriverLic 
-- DriverLics 
-- DriverLicense 
-- DriverLicenses 
-- Driver Lic 
-- Driver Lics 
-- Rijbewijs 
-- Licenties voor stuurprogramma's 
-- DriversLic 
-- DriversLics 
-- DriversLicense 
-- DriversLicenses 
-- Drivers Lic 
-- Drivers Lics 
-- Rijbewijs 
-- Licenties voor stuurprogramma's 
-- Driver'Lic 
-- Driver'Lics 
-- Rijbewijs 
-- Licenties voor stuurprogramma's 
-- Driver' Lic 
-- Driver' Lics 
-- Rijbewijs 
+- DriverLic
+- DriverLics
+- DriverLicense
+- DriverLicenses
+- Driver Lic
+- Driver Lics
+- Rijbewijs
+- Licenties voor stuurprogramma's
+- DriversLic
+- DriversLics
+- DriversLicense
+- DriversLicenses
+- Drivers Lic
+- Drivers Lics
+- Rijbewijs
+- Licenties voor stuurprogramma's
+- Driver'Lic
+- Driver'Lics
+- Rijbewijs
+- Licenties voor stuurprogramma's
+- Driver' Lic
+- Driver' Lics
+- Rijbewijs
 - Rijbewijzen
-- Driver'sLic 
-- Driver'sLics 
-- Driver'sLicense 
-- Driver'sLicenses 
-- Driver's Lic 
-- Driver's Lics 
-- Rijbewijs 
-- Rijbewijzen 
-- identificatienummer 
-- identificatienummers 
-- identificatie # 
-- id-kaart 
-- id-kaarten 
-- identificatiekaart 
-- identificatiekaarten 
-- DriverLic # 
-- DriverLics # 
-- DriverLicense # 
-- DriverLicenses # 
-- Driver Lic # 
-- Driver Lics # 
-- Rijbewijs # 
-- Licenties voor stuurprogramma's # 
-- DriversLic # 
-- DriversLics # 
-- DriversLicense # 
-- DriversLicenses # 
-- Drivers Lic # 
-- Drivers Lics # 
-- Rijbewijs # 
-- Licenties voor stuurprogramma's # 
-- Driver'Lic # 
-- Driver'Lics # 
-- Rijbewijs # 
-- Licenties voor stuurprogramma's # 
-- Driver' Lic # 
-- Driver' Lics # 
-- Rijbewijs # 
-- Rijbewijzen # 
-- Driver'sLic # 
-- Driver'sLics # 
-- Driver'sLicense # 
-- Driver'sLicenses # 
-- Driver's Lic # 
-- Driver's Lics # 
-- Rijbewijs # 
-- Rijbewijzen # 
-- id-kaart # 
-- id-kaarten # 
-- identificatiekaart # 
-- identificatiekaarten # 
+- Driver'sLic
+- Driver'sLics
+- Driver'sLicense
+- Driver'sLicenses
+- Driver's Lic
+- Driver's Lics
+- Rijbewijs
+- Rijbewijzen
+- identificatienummer
+- identificatienummers
+- identificatie #
+- id-kaart
+- id-kaarten
+- identificatiekaart
+- identificatiekaarten
+- DriverLic #
+- DriverLics #
+- DriverLicense #
+- DriverLicenses #
+- Driver Lic #
+- Driver Lics #
+- Rijbewijs #
+- Licenties voor stuurprogramma's #
+- DriversLic #
+- DriversLics #
+- DriversLicense #
+- DriversLicenses #
+- Drivers Lic #
+- Drivers Lics #
+- Rijbewijs #
+- Licenties voor stuurprogramma's #
+- Driver'Lic #
+- Driver'Lics #
+- Rijbewijs #
+- Licenties voor stuurprogramma's #
+- Driver' Lic #
+- Driver' Lics #
+- Rijbewijs #
+- Rijbewijzen #
+- Driver'sLic #
+- Driver'sLics #
+- Driver'sLicense #
+- Driver'sLicenses #
+- Driver's Lic #
+- Driver's Lics #
+- Rijbewijs #
+- Rijbewijzen #
+- id-kaart #
+- id-kaarten #
+- identificatiekaart #
+- identificatiekaarten #
 
 
 #### <a name="keyword_state_name_drivers_license_name"></a>Keyword_[state_name]_drivers_license_name
 
-- staatsafbreking (bijvoorbeeld 'NY') 
+- staatsafbreking (bijvoorbeeld 'NY')
 - staatsnaam (bijvoorbeeld 'New York')
 
 ## <a name="us-individual-taxpayer-identification-number-itin"></a>Amerikaans individueel nummer voor het identificeren van belastingbetalers (ITIN)
@@ -17154,18 +17154,18 @@ negen cijfers die beginnen met een '9' en een '7' of '8' bevatten als het vierde
 ### <a name="pattern"></a>Patroon
 
 opgemaakt:
-- het cijfer '9' 
-- twee cijfers 
-- een spatie of streepje 
-- een '7' of '8' 
-- een cijfer 
-- een spatie of streepje 
+- het cijfer '9'
+- twee cijfers
+- een spatie of streepje
+- een '7' of '8'
+- een cijfer
+- een spatie of streepje
 - vier cijfers
 
 niet-opgemaakt:
-- het cijfer '9' 
-- twee cijfers 
-- een '7' of '8' 
+- het cijfer '9'
+- twee cijfers
+- een '7' of '8'
 - vijf cijfers
 
 ### <a name="checksum"></a>Checksum
@@ -17209,18 +17209,18 @@ Een DLP-beleid heeft weinig vertrouwen dat dit type gevoelige informatie is gede
 
 #### <a name="keyword_itin"></a>Keyword_itin
 
-- belastingbetaler 
-- belasting-id 
-- belastingidentificatie 
-- itin 
+- belastingbetaler
+- belasting-id
+- belastingidentificatie
+- itin
 - i.t.i.n.
-- ssn 
-- tin 
-- sociale zekerheid 
-- belastingbetaler 
-- itins 
-- getaxid 
-- individuele belastingplichtige 
+- ssn
+- tin
+- sociale zekerheid
+- belastingbetaler
+- itins
+- getaxid
+- individuele belastingplichtige
 
 
 ## <a name="us-social-security-number-ssn"></a>Amerikaans sociaal-zekerheidsnummer (SSN)
@@ -17302,7 +17302,7 @@ Een DLP-beleid heeft weinig vertrouwen dat dit type gevoelige informatie is gede
 - SSN #
 - SS #
 - SSID
-   
+
 ## <a name="us--uk-passport-number"></a>V.S. / VK paspoortnummer
 
 ### <a name="format"></a>Opmaak
@@ -17366,8 +17366,8 @@ Een DLP-beleid heeft een gemiddeld vertrouwen dat dit type gevoelige informatie 
 
 #### <a name="keywords_uk_eu_passport_number"></a>Keywords_uk_eu_passport_number
 
-- Brits paspoort 
-- Vk-paspoort 
+- Brits paspoort
+- Vk-paspoort
 
 
 ## <a name="ukraine-passport-domestic"></a>Oekraïne paspoort binnenlands

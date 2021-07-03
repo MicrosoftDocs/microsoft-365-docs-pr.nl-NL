@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Een vereiste voor alle Microsoft Information Protection-oplossingen: gevoelige labels maken, configureren en publiceren om de gegevens van uw organisatie te classificeren en te beveiligen.'
-ms.openlocfilehash: 328bf7bdac3a8de23820d861932ee20d71e911b4
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: ac87608a2a7c4913811c090ae3c2befadaf2327e
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878182"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286619"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>Gevoeligheidslabels en hun beleid maken en configureren
 
@@ -41,36 +41,36 @@ De globale beheerder voor uw organisatie heeft volledige machtigingen om alle as
 ## <a name="create-and-configure-sensitivity-labels"></a>Gevoeligheidslabels maken en configureren
 
 1. Ga in uw beheercentrum voor labels naar gevoeligheidslabels:
-    
+
     - Microsoft 365-compliancecentrum: 
         - **Oplossingen** > **Informatiebescherming**
-        
+
         Selecteer eerst **Alles weergeven** als u deze optie niet meteen ziet. 
-    
+
     - Beveiligings- en compliancecentrum:
         - **Classificatie** > **Gevoeligheidslabels**
 
 2. Selecteer op de pagina **Labels** de optie **+ Een label maken** om de wizard Nieuw gevoeligheidslabel te starten. 
-    
+
     Bijvoorbeeld in het Microsoft 365-compliancecentrum:
-    
+
     ![Een gevoeligheidslabel maken](../media/create-sensitivity-label-full.png)
-    
+
     > [!NOTE]
     > Tenants hebben standaard geen labels; u moet deze maken. De labels in de voorbeeldafbeelding bevatten standaardlabels die [zijn gemigreerd vanuit Azure Information Protection](/azure/information-protection/configure-policy-migrate-labels).
 
 3. De opties die op de pagina **Het bereik voor dit label definiëren** zijn geselecteerd, bepalen de het bereik van het label voor de instellingen die u kunt configureren en waar deze zichtbaar zijn wanneer ze worden gepubliceerd:
-    
+
     ![Bereiken voor gevoeligheidslabels](../media/sensitivity-labels-scopes.png)
-    
+
     - Als **Bestanden en e-mailberichten** is geselecteerd, kunt u in deze wizard instellingen configureren die van toepassing zijn op apps die gevoeligheidslabels ondersteunen, zoals Office Word en Outlook. Als deze optie niet is geselecteerd, geeft de wizard de eerste pagina van deze instellingen weer, maar kunt u deze niet configureren en kunnen gebruikers de labels niet selecteren in deze apps.
-    
+
     - Als **Groepen en sites** is geselecteerd, kunt u in deze wizard instellingen configureren die van toepassing zijn op Microsoft 365-groepen en sites voor Teams en SharePoint. Als deze optie niet is geselecteerd, geeft de wizard de eerste pagina van deze instellingen weer, maar kunt u deze niet configureren en kunnen gebruikers de labels niet selecteren voor groepen en sites.
-    
+
     Raadpleeg [Uw inhoud automatisch labelen in Azure Purview](/azure/purview/create-sensitivity-label) voor meer informatie over de **Azure Purview-assets (preview)**.
 
 4. Volg de aanwijzingen in de wizard voor de labelinstellingen.
-    
+
     Raadpleeg [Wat gevoeligheidslabels kunnen doen](sensitivity-labels.md#what-sensitivity-labels-can-do) in de overzichtsgegevens voor meer informatie over de labelinstellingen en gebruik de hulp in de wizard voor afzonderlijke instellingen.
 
 5. Herhaal deze stappen als u meer labels wilt maken. Als u echter een sublabel wilt maken, moet u eerst het bovenliggende label en vervolgens **...** selecteren voor **Meer acties**. Selecteer daarna **Sublabel toevoegen**.
@@ -113,7 +113,6 @@ Gebruik voor de talen die u wilt ondersteunen de [taalaanduidingen](/deployoffic
 
 Voordat u de opdrachten in PowerShell kunt uitvoeren, moet u eerst [verbinding maken met het Beveiligings- en compliancecentrum PowerShell](/powershell/exchange/connect-to-scc-powershell).
 
-
 ```powershell
 $Languages = @("fr-fr","it-it","de-de")
 $DisplayNames=@("Publique","Publico","Oeffentlich")
@@ -135,42 +134,42 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSet
 ## <a name="publish-sensitivity-labels-by-creating-a-label-policy"></a>Gevoeligheidslabels publiceren door een labelbeleid te maken
 
 1. Ga in uw beheercentrum voor labels naar gevoeligheidslabels:
-    
+
     - Microsoft 365-compliancecentrum: 
         - **Oplossingen** > **Informatiebescherming**
-        
+
         Selecteer eerst **Alles weergeven** als u deze optie niet meteen ziet. 
-    
+
     - Beveiligings- en compliancecentrum:
         - **Classificatie** > **Gevoeligheidslabels**
 
 2. Selecteer het tabblad **Labelbeleid** en klik op **Labels publiceren** om de wizard Beleid maken te starten:
-    
+
     Bijvoorbeeld in het Microsoft 365-compliancecentrum:
-        
+
     ![Labels publiceren](../media/publish-sensitivity-labels-full.png)
-    
+
     > [!NOTE]
     > Tenants hebben standaard geen labelbeleid; u moet dit maken. 
 
 3. Selecteer in de wizard **Kies gevoeligheidslabels om deze te publiceren**. Selecteer de labels die u beschikbaar wilt maken in apps en services en selecteer vervolgens **Toevoegen**.
-    
+
     > [!IMPORTANT]
     > Als u een sublabel selecteert, moet u ook het bovenliggende label selecteren.
-    
+
 4. Controleer de geselecteerde labels en selecteer **Bewerken** als u wijzigingen wilt aanbrengen. Selecteer anders **Volgende**.
 
 5. Volg de aanwijzingen om de beleidsinstellingen te configureren.
-    
+
     De beleidsinstellingen die u ziet, komen overeen met het bereik van de labels die u hebt geselecteerd. Als u bijvoorbeeld labels hebt geselecteerd die alleen het bereik **Bestanden en e-mailberichten** hebben, ziet u de beleidsinstellingen **Dit label standaard toepassen op groepen en sites** en **Gebruikers moeten een label toepassen op hun groepen en sites**.
-    
+
     Raadpleeg [Wat labelbeleid kan doen](sensitivity-labels.md#what-label-policies-can-do) in de overzichtsgegevens voor meer informatie over deze instellingen en gebruik de hulp in de wizard voor afzonderlijke instellingen.
-    
+
     Voor labels die zijn geconfigureerd voor **Azure Purview-assets (preview)**: deze labels hebben geen bijbehorende beleidsinstellingen.
 
-7. Herhaal deze stappen als u verschillende beleidsinstellingen nodig hebt voor verschillende gebruikers of bereiken. Stel dat u extra labels voor een groep gebruikers wilt of een ander standaardlabel wilt voor een subset van gebruikers. Of dat u labels hebt geconfigureerd voor verschillende bereiken.
+6. Herhaal deze stappen als u verschillende beleidsinstellingen nodig hebt voor verschillende gebruikers of bereiken. Stel dat u extra labels voor een groep gebruikers wilt of een ander standaardlabel wilt voor een subset van gebruikers. Of dat u labels hebt geconfigureerd voor verschillende bereiken.
 
-8. Als u meer dan één labelbeleid maakt dat kan leiden tot een conflict voor een gebruiker, controleert u de beleidsvolgorde en verplaatst u beleidsregels zo nodig omhoog of omlaag. Selecteer **...** voor **Meer acties** en selecteer daarna **Omhoog** of **Omlaag** om de volgorde van een labelbeleid te wijzigen. Raadpleeg [Labelbeleidsprioriteit (volgorde is van belang)](sensitivity-labels.md#label-policy-priority-order-matters) in de overzichtsgegevens voor meer informatie.
+7. Als u meer dan één labelbeleid maakt dat kan leiden tot een conflict voor een gebruiker, controleert u de beleidsvolgorde en verplaatst u beleidsregels zo nodig omhoog of omlaag. Selecteer **...** voor **Meer acties** en selecteer daarna **Omhoog** of **Omlaag** om de volgorde van een labelbeleid te wijzigen. Raadpleeg [Labelbeleidsprioriteit (volgorde is van belang)](sensitivity-labels.md#label-policy-priority-order-matters) in de overzichtsgegevens voor meer informatie.
 
 Als u de wizard voltooit, wordt het labelbeleid automatisch gepubliceerd. U kunt gewoon wijzigingen in een gepubliceerd beleid aanbrengen door het beleid te bewerken. Er is geen specifieke actie voor publiceren of opnieuw publiceren die u kunt selecteren.
 

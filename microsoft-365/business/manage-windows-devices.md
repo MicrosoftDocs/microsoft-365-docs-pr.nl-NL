@@ -24,16 +24,16 @@ search.appverid:
 - BCS160
 - MET150
 description: Lees hoe u in Microsoft 365 enkele stappen lokale active-directory-apparaten Windows 10 kunt beveiligen.
-ms.openlocfilehash: ec80159bdceffd8a13d09a297a2acc1b78c9b1b3
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: eb95c437030ae13a44f5e8043b3544d5846001c2
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636081"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287690"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>Schakel domeingevoegde Windows 10 apparaten in om te worden beheerd door Microsoft 365 Business Premium
 
-Als uw organisatie on-premises Windows Server Active Directory gebruikt, kunt u Microsoft 365 Business Premium instellen om uw Windows 10-apparaten te beveiligen, met behoud van toegang tot on-premises resources waarvoor lokale verificatie vereist is.
+Als uw organisatie Windows Server Active Directory on-premises gebruikt, kunt u Microsoft 365 Business Premium instellen om uw Windows 10-apparaten te beveiligen, met behoud van toegang tot lokale resources waarvoor lokale verificatie is vereist.
 Als u deze beveiliging wilt instellen, kunt u verbonden **hybride Azure AD-apparaten implementeren.** Deze apparaten zijn verbonden met zowel uw on-premises Active Directory als uw Azure Active Directory.
 
 ## <a name="watch-configure-hybrid-azure-active-directory-join"></a>Kijken: Hybride Azure Active Directory configureren
@@ -109,17 +109,17 @@ Met de eerste opdracht wordt een verbinding tot stand brengen met de Microsoft-c
 
 Als u het beleid Automatische MDM-inschrijving inschakelen niet ziet met **standaardReferenties** voor Azure AD, is dit mogelijk omdat de ADMX niet is geïnstalleerd voor Windows 10, versie 1803 of hoger. Als u het probleem wilt oplossen, volgt u deze stappen (Opmerking: de meest recente MDM.admx is compatibel met achteruit):
 
-1.  Downloaden: [Beheersjablonen (.admx) voor Windows 10 update van oktober 2020 (20H2)](https://www.microsoft.com/download/102157).
-2.  Installeer het pakket op een domeincontroller.
-3.  Navigeer, afhankelijk van de versie met beheersjablonen, naar de map: **C:\Program Files (x86)\Microsoft Group Policy\Windows 10 October 2020 Update (20H2)**.
-4.  Wijzig de naam van de map **Beleidsdefinities** in het bovenstaande pad **naar PolicyDefinitions.**
-5.  Kopieer de **map PolicyDefinitions** naar uw SYSVOL-share, standaard op **C:\Windows\SYSVOL\domain\Policies.** 
-    -   Als u van plan bent een centraal beleidsopslag voor uw hele domein te gebruiken, voegt u daar de inhoud van PolicyDefinitions toe.
-6.  Als u meerdere domeincontrollers hebt, wacht u totdat SYSVOL is gerepliceerd totdat het beleid beschikbaar is. Deze procedure werkt ook voor elke toekomstige versie van de beheersjablonen.
+1. Downloaden: [Beheersjablonen (.admx) voor Windows 10 update van oktober 2020 (20H2)](https://www.microsoft.com/download/102157).
+2. Installeer het pakket op een domeincontroller.
+3. Navigeer, afhankelijk van de versie met beheersjablonen, naar de map: **C:\Program Files (x86)\Microsoft Group Policy\Windows 10 October 2020 Update (20H2)**.
+4. Wijzig de naam van de map **Beleidsdefinities** in het bovenstaande pad **naar PolicyDefinitions.**
+5. Kopieer de **map PolicyDefinitions** naar uw SYSVOL-share, standaard op **C:\Windows\SYSVOL\domain\Policies.**
+   - Als u van plan bent een centraal beleidsopslag voor uw hele domein te gebruiken, voegt u daar de inhoud van PolicyDefinitions toe.
+6. Als u meerdere domeincontrollers hebt, wacht u totdat SYSVOL is gerepliceerd totdat het beleid beschikbaar is. Deze procedure werkt ook voor elke toekomstige versie van de beheersjablonen.
 
 Op dit moment kunt u het beleid Automatische **MDM-registratie** inschakelen zien met de standaardreferenties van Azure AD.
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Domeingebruikers synchroniseren met Microsoft 365](manage-domain-users.md) (artikel)\
 [Een groep maken in het beheercentrum](../admin/create-groups/create-groups.md) (artikel)\

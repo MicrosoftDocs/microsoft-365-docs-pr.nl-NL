@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 704752951c453a3fe872b814e7364ef1699226bf
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: edc9a1e40275631752ca1252a16071f4b07f07f9
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582978"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286331"
 ---
 # <a name="aadsignineventsbeta"></a>AADSignInEventsBeta
 
@@ -33,75 +33,67 @@ ms.locfileid: "52582978"
 
 - Microsoft 365 Defender
 
->[!IMPORTANT]
+> [!IMPORTANT]
 > De tabel is momenteel in bètaversie en wordt op korte termijn aangeboden, zodat u op zoek kunt naar Azure Active Directory `AADSignInEventsBeta` (AAD) aanmeldingsgebeurtenissen. Uiteindelijk worden alle aanmeldingsschemagegevens naar de tabel `IdentityLogonEvents` verplaatst.
-
- 
 
 De tabel in het geavanceerde schema bevat informatie over `AADSignInEventsBeta` Azure Active Directory interactieve en niet-interactieve aanmeldingen. Meer informatie over aanmeldingen in Azure Active Directory [aanmeldingsactiviteitsrapporten - preview.](/azure/active-directory/reports-monitoring/concept-all-sign-ins)
 
-Gebruik deze verwijzing om query's te maken die gegevens uit de tabel retourneren.
-Zie de geavanceerde zoekverwijzing voor meer informatie over andere tabellen in het geavanceerde schema voor [de jacht.](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-reference)
+Gebruik deze verwijzing om query's te maken die gegevens uit de tabel retourneren. Zie de geavanceerde zoekverwijzing voor meer informatie over andere tabellen in het geavanceerde schema voor [de jacht.](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-reference)
 
- 
+<br>
 
- 
+****
 
-| Kolomnaam                 | Gegevenstype | Beschrijving          |
-|---------------------------------|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `Timestamp`                       | datetime      | Datum en tijd waarop de record is gegenereerd                                                                                                                                         |
-| `Application`                     | tekenreeks        | Toepassing die de opgenomen actie heeft uitgevoerd                                                                                                                                       |
-| `ApplicationId`                   | tekenreeks        | Unieke id voor de toepassing                                                                                                                                               |
-| `LogonType`                       | tekenreeks        | Type aanmeldingssessie, specifiek interactief, extern interactief (RDP), netwerk, batch en service                                                                              |
-| `ErrorCode`                       | int        | Bevat de foutcode als er een aanmeldingsfout optreedt. Als u een beschrijving van een specifieke foutcode wilt zoeken, gaat u naar <https://aka.ms/AADsigninsErrorCodes> .                                     |
-| `CorrelationId`                   | tekenreeks        | Unieke id van de aanmeldingsgebeurtenis                                                                                                                                              |
-| `SessionId`                       | tekenreeks        | Uniek nummer dat aan een gebruiker is toegewezen door de server van een website voor de duur van het bezoek of de sessie                                                                                     |
-| `AccountDisplayName`              | tekenreeks        | Naam van de accountgebruiker die wordt weergegeven in het adresboek. Meestal een combinatie van een bepaalde of voornaam, een middelste initial en een achternaam of achternaam.                             |
-| `AccountObjectId`                 | tekenreeks        | Unieke id voor het account in Azure AD                                                                                                                                       |
-| `AccountUpn`                      | tekenreeks        | Gebruikersnaam (UPN) van het account                                                                                                                                            |
-| `IsExternalUser`                  | int        | Hiermee wordt aangegeven of de gebruiker die zich heeft aangemeld, extern is. Mogelijke waarden: -1 (niet ingesteld), 0 (niet extern), 1 (extern).                                                                   |
-| `IsGuestUser`                     | booleaanse       | Geeft aan of de gebruiker die zich heeft aangemeld een gast is in de tenant                                                                                                                  |
-| `AlternateSignInName`             | tekenreeks        | On-premises gebruikersnaam (UPN) van de gebruiker die zich aanmeldt bij Azure AD                                                                                                            |
-| `LastPasswordChangeTimestamp`     | datetime        | Datum en tijd waarop de gebruiker die zich het laatst heeft aangemeld, zijn wachtwoord heeft gewijzigd                                                                                                              |
-| `ResourceDisplayName`             | tekenreeks        | Weergavenaam van de resource die wordt gebruikt                                                                                                                                               |
-| `ResourceId`                      | tekenreeks        | Unieke id van de resource die wordt gebruikt                                                                                                                                          |
-| `ResourceTenantId`                | tekenreeks        | Unieke id van de tenant van de resource die wordt gebruikt                                                                                                                            |
-| `DeviceName`                      | tekenreeks        | Volledig gekwalificeerde domeinnaam (FQDN) van de computer                                                                                                                                   |
-| `AadDeviceId`                     | tekenreeks   |      Unieke id voor het apparaat in Azure AD                                                                                                                                                                               |
-| `OSPlatform`                      | tekenreeks        | Platform van het besturingssysteem dat op de computer wordt uitgevoerd. Dit geeft specifieke besturingssystemen aan, waaronder variaties binnen dezelfde familie, zoals Windows 10 en Windows 7.  |
-| `DeviceTrustType`                 | tekenreeks        | Geeft het vertrouwenstype aan van het apparaat dat is aangemeld. Alleen voor beheerde apparaatscenario's. Mogelijke waarden zijn Workplace, AzureAd en ServerAd.                                     |
-| `IsManaged`                       | int       | Geeft aan of het apparaat dat de aanmelding heeft gestart een beheerd apparaat is (1) of niet een beheerd apparaat (0)                                                                         |
-| `IsCompliant`                     | int       | Geeft aan of het apparaat dat de aanmelding heeft gestart compatibel is (1) of niet-compatibel (0)                                                                                       |
-| `AuthenticationProcessingDetails` | tekenreeks        | Details over de verificatieprocessor                                                                                                                                          |
-| `AuthenticationRequirement`       | tekenreeks        | Type verificatie vereist voor de aanmelding. Mogelijke waarden: multiFactorAuthentication (MFA was vereist) en singleFactorAuthentication (er was geen MFA vereist).                |
-| `TokenIssuerType`                 | int        | Hiermee wordt aangegeven of de token-Azure Active Directory (0) of Active Directory Federation Services (1)                                                                             |
-| `RiskLevelAggregated`                       | int        | Geaggregeerd risiconiveau tijdens aanmelding. Mogelijke waarden: 0 (geaggregeerd risiconiveau niet ingesteld), 1 (geen), 10 (laag), 50 (gemiddeld) of 100 (hoog).                               |
-| `RiskDetails`                      | int        | Details over de risicovolle status van de gebruiker die zich heeft aangemeld                                                                                                                            |
-| `RiskState`                       | int        | Geeft riskante gebruikerstoestand aan. Mogelijke waarden: 0 (geen), 1 (veilig bevestigd), 2 (opgelost), 3 (afgewezen), 4 (met risico) of 5 (bevestigd gecompromitteerd).                                |
-| `UserAgent`                       | tekenreeks        | Gebruikersagentgegevens uit de webbrowser of een andere clienttoepassing                                                                                                             |
-| `ClientAppUsed`                   | tekenreeks        | Geeft de gebruikte client-app aan                                                                                                                                                       |
-| `Browser`                         | tekenreeks        | Details over de versie van de browser waarmee u zich kunt aanmelden                                                                                                                            |
-| `ConditionalAccessPolicies`       | tekenreeks        | Details van het beleid voor voorwaardelijke toegang dat is toegepast op de aanmeldingsgebeurtenis                                                                                                             |
-| `ConditionalAccessStatus`         | int        | Status van het beleid voor voorwaardelijke toegang dat is toegepast op de aanmelding. Mogelijke waarden zijn 0 (beleidsregels toegepast), 1 (poging om beleidsregels toe te passen is mislukt) of 2 (beleid dat niet wordt toegepast).      |
-| `IPAddress`                       | tekenreeks        | IP-adres toegewezen aan het eindpunt en gebruikt tijdens gerelateerde netwerkcommunicatie                                                                                                  |
-| `Country`                     | tekenreeks        | Code met twee letters waarmee het land wordt aangegeven waar het IP-adres van de client is geloceerd                                                                                                    |
-| `State`                           | tekenreeks        | Geef aan waar de aanmelding heeft plaatsgevonden, indien beschikbaar                                                                                                                                      |
-| `City`                            | tekenreeks        | Plaats waar de accountgebruiker zich bevindt                                                                                                                                              |
-| `Latitude`                        | tekenreeks        | De coördinaten van noord naar zuid van de aanmeldingslocatie                                                                                                                              |
-| `Longitude`                       | tekenreeks        | De coördinaten van de aanmeldingslocatie                                                                                                                                |
-| `NetworkLocationDetails`          | tekenreeks        | Netwerklocatiedetails van de verificatieprocessor van de aanmeldingsgebeurtenis                                                                                                       |
-| `RequestId`                       | tekenreeks        |  Unieke id van de aanvraag                                                                                                                                                   |
-|`ReportId` | tekenreeks | Unieke id voor de gebeurtenis |
+|Kolomnaam|Gegevenstype|Omschrijving|
+|---|---|---|
+|`Timestamp`|datetime|Datum en tijd waarop de record is gegenereerd|
+|`Application`|reeks|Toepassing die de opgenomen actie heeft uitgevoerd|
+|`ApplicationId`|reeks|Unieke id voor de toepassing|
+|`LogonType`|reeks|Type aanmeldingssessie, specifiek interactief, extern interactief (RDP), netwerk, batch en service|
+|`ErrorCode`|int|Bevat de foutcode als er een aanmeldingsfout optreedt. Als u een beschrijving van een specifieke foutcode wilt zoeken, gaat u naar <https://aka.ms/AADsigninsErrorCodes> .|
+|`CorrelationId`|reeks|Unieke id van de aanmeldingsgebeurtenis|
+|`SessionId`|reeks|Uniek nummer dat aan een gebruiker is toegewezen door de server van een website voor de duur van het bezoek of de sessie|
+|`AccountDisplayName`|reeks|Naam van de accountgebruiker die wordt weergegeven in het adresboek. Meestal een combinatie van een bepaalde of voornaam, een middelste initial en een achternaam of achternaam.|
+|`AccountObjectId`|reeks|Unieke id voor het account in Azure AD|
+|`AccountUpn`|reeks|Gebruikersnaam (UPN) van het account|
+|`IsExternalUser`|int|Hiermee wordt aangegeven of de gebruiker die zich heeft aangemeld, extern is. Mogelijke waarden: -1 (niet ingesteld), 0 (niet extern), 1 (extern).|
+|`IsGuestUser`|booleaanse|Geeft aan of de gebruiker die zich heeft aangemeld een gast is in de tenant|
+|`AlternateSignInName`|reeks|On-premises gebruikersnaam (UPN) van de gebruiker die zich aanmeldt bij Azure AD|
+|`LastPasswordChangeTimestamp`|datetime|Datum en tijd waarop de gebruiker die zich het laatst heeft aangemeld, zijn wachtwoord heeft gewijzigd|
+|`ResourceDisplayName`|reeks|Weergavenaam van de resource die wordt gebruikt|
+|`ResourceId`|reeks|Unieke id van de resource die wordt gebruikt|
+|`ResourceTenantId`|reeks|Unieke id van de tenant van de resource die wordt gebruikt|
+|`DeviceName`|reeks|Volledig gekwalificeerde domeinnaam (FQDN) van de computer|
+|`AadDeviceId`|reeks|Unieke id voor het apparaat in Azure AD|
+|`OSPlatform`|reeks|Platform van het besturingssysteem dat op de computer wordt uitgevoerd. Dit geeft specifieke besturingssystemen aan, waaronder variaties binnen dezelfde familie, zoals Windows 10 en Windows 7.|
+|`DeviceTrustType`|reeks|Geeft het vertrouwenstype aan van het apparaat dat is aangemeld. Alleen voor beheerde apparaatscenario's. Mogelijke waarden zijn Workplace, AzureAd en ServerAd.|
+|`IsManaged`|int|Geeft aan of het apparaat dat de aanmelding heeft gestart een beheerd apparaat is (1) of niet een beheerd apparaat (0)|
+|`IsCompliant`|int|Geeft aan of het apparaat dat de aanmelding heeft gestart compatibel is (1) of niet-compatibel (0)|
+|`AuthenticationProcessingDetails`|reeks|Details over de verificatieprocessor|
+|`AuthenticationRequirement`|reeks|Type verificatie vereist voor de aanmelding. Mogelijke waarden: multiFactorAuthentication (MFA was vereist) en singleFactorAuthentication (er was geen MFA vereist).|
+|`TokenIssuerType`|int|Hiermee wordt aangegeven of de token-Azure Active Directory (0) of Active Directory Federation Services (1)|
+|`RiskLevelAggregated`|int|Geaggregeerd risiconiveau tijdens aanmelding. Mogelijke waarden: 0 (geaggregeerd risiconiveau niet ingesteld), 1 (geen), 10 (laag), 50 (gemiddeld) of 100 (hoog).|
+|`RiskDetails`|int|Details over de risicovolle status van de gebruiker die zich heeft aangemeld|
+|`RiskState`|int|Geeft riskante gebruikerstoestand aan. Mogelijke waarden: 0 (geen), 1 (veilig bevestigd), 2 (opgelost), 3 (afgewezen), 4 (met risico) of 5 (bevestigd gecompromitteerd).|
+|`UserAgent`|reeks|Gebruikersagentgegevens uit de webbrowser of een andere clienttoepassing|
+|`ClientAppUsed`|reeks|Geeft de gebruikte client-app aan|
+|`Browser`|reeks|Details over de versie van de browser waarmee u zich kunt aanmelden|
+|`ConditionalAccessPolicies`|reeks|Details van het beleid voor voorwaardelijke toegang dat is toegepast op de aanmeldingsgebeurtenis|
+|`ConditionalAccessStatus`|int|Status van het beleid voor voorwaardelijke toegang dat is toegepast op de aanmelding. Mogelijke waarden zijn 0 (beleidsregels toegepast), 1 (poging om beleidsregels toe te passen is mislukt) of 2 (beleid dat niet wordt toegepast).|
+|`IPAddress`|reeks|IP-adres toegewezen aan het eindpunt en gebruikt tijdens gerelateerde netwerkcommunicatie|
+|`Country`|reeks|Code met twee letters waarmee het land wordt aangegeven waar het IP-adres van de client is geloceerd|
+|`State`|reeks|Geef aan waar de aanmelding heeft plaatsgevonden, indien beschikbaar|
+|`City`|reeks|Plaats waar de accountgebruiker zich bevindt|
+|`Latitude`|reeks|De coördinaten van noord naar zuid van de aanmeldingslocatie|
+|`Longitude`|reeks|De coördinaten van de aanmeldingslocatie|
+|`NetworkLocationDetails`|reeks|Netwerklocatiedetails van de verificatieprocessor van de aanmeldingsgebeurtenis|
+|`RequestId`|reeks|Unieke id van de aanvraag|
+|`ReportId`|reeks|Unieke id voor de gebeurtenis|
+|
 
- 
+## <a name="related-articles"></a>Verwante artikelen
 
- 
-
-## <a name="related-articles"></a>Aanverwante artikelen
-
--   [AADSpnSignInEventsBeta](./advanced-hunting-aadspnsignineventsbeta-table.md)
--   [Overzicht van geavanceerd opsporen](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview)
--   [De querytaal leren](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-query-language)
--   [Meer informatie over het schema](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-schema-reference)
-
- 
+- [AADSpnSignInEventsBeta](./advanced-hunting-aadspnsignineventsbeta-table.md)
+- [Overzicht van geavanceerd opsporen](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview)
+- [De querytaal leren](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-query-language)
+- [Meer informatie over het schema](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-schema-reference)

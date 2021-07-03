@@ -20,31 +20,31 @@ ms.custom:
 search.appverid: MET150
 description: Meer informatie over Microsoft 365 selfservice-aanmelding en beschikbare selfserviceprogramma's zoals Microsoft Power Apps, Microsoft Flow en Dynamics 365 voor Financiën.
 ms.date: 03/17/2021
-ms.openlocfilehash: f3427294a94875e21a5e6b99a09056617a7dea99
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 7aec03abce468342cfeb23da490b1f950ecd7050
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332376"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286583"
 ---
 # <a name="using-self-service-sign-up-in-your-organization"></a>Selfservice-aanmelding gebruiken in uw organisatie
 
 Selfservice-aanmelding maakt het gemakkelijker voor gebruikers in uw organisatie om zich aan te melden voor onlineservices van Microsoft. We noemen dit aanmeldingsproces 'selfservice-aanmelding', omdat uw gebruikers zich kunnen registreren om services te gebruiken die door uw abonnement zijn betaald of gratis services kunnen gebruiken, zonder u te vragen actie te ondernemen namens hen.
-  
+
 ## <a name="how-self-service-sign-up-works"></a>Hoe selfservice-aanmelding werkt
 
 Hieronder volgt een voorbeeld van zelfregistratie bij een onderwijsinstelling. De procedure is dezelfde voor elke organisatie die selfservice-programma's heeft ingeschakeld in de tenant.
-  
+
 1. Leerlingen, studenten en faculteitsleden hebben een e-mailadres dat duidelijk maakt dat ze verbonden zijn aan uw instelling. Het e-mailadres van jakob@uw.edu kan bijvoorbeeld een student aan de Universiteit van Washington aangeven.
 2. Studenten en onderwijsmedewerkers gaan naar [onze website](https://go.microsoft.com/fwlink/p/?LinkId=536628)en gebruiken hun e-mailadres om zich aan te melden voor de services die uw organisatie aanbiedt, zoals Microsoft 365-apps voor ondernemingen. Ze kunnen zich ook aanmelden voor gratis services die we bieden.
 3. We valideren hun e-mailadres en vervolgens kunnen ze direct beginnen met Microsoft 365, Power BI of andere services.
-4. Als bedrijfsbeheerder kunt u zien wie zich heeft aangemeld voor  een abonnement door het abonnement te selecteren op de pagina Licenties in het Microsoft 365 beheercentrum. Op deze manier kunt u zien wanneer er nieuwe of niet-herkende licenties voor services in uw tenant zijn. Als u wilt bepalen of gebruikers zich kunnen registreren voor selfservice-abonnementen, gebruikt u de PowerShell-cmdlet [Set-MsolCompanySettings](/powershell/module/msonline/set-msolcompanysettings?view=azureadps-1.0&preserve-view=true) met de **parameter AllowAdHocSubscriptions.** Zie Hoe beheer ik [selfservice-instellingen?](/azure/active-directory/users-groups-roles/directory-self-service-signup#how-do-i-control-self-service-settings) voor meer informatie.
+4. Als bedrijfsbeheerder kunt u zien wie zich heeft aangemeld voor  een abonnement door het abonnement te selecteren op de pagina Licentieverlening in de Microsoft 365-beheercentrum. Op deze manier kunt u zien wanneer er nieuwe of niet-herkende licenties voor services in uw tenant zijn. Als u wilt bepalen of gebruikers zich kunnen registreren voor selfservice-abonnementen, gebruikt u de PowerShell-cmdlet [Set-MsolCompanySettings](/powershell/module/msonline/set-msolcompanysettings) met de **parameter AllowAdHocSubscriptions.** Zie Hoe beheer ik [selfservice-instellingen?](/azure/active-directory/users-groups-roles/directory-self-service-signup#how-do-i-control-self-service-settings) voor meer informatie.
 
 ## <a name="available-self-service-programs"></a>Beschikbare selfservice-programma 's
 
 Hier volgen de selfservice-programma's die momenteel beschikbaar zijn Deze lijst wordt bijgewerkt wanneer er nieuwe programma's worden toegevoegd.
-  
-| Programma <br/> | Beschrijving <br/> | Aanvullende informatie <br/> | Website voor selfservice-aanmelding <br/> |
+
+| Programma <br/> | Omschrijving <br/> | Aanvullende informatie <br/> | Website voor selfservice-aanmelding <br/> |
 |:-----|:-----|:-----|:-----|
 |Office 365 A1**** <br/> |Elke leerling of docent kan een e-mailadres van een school gebruiken om zich gratis Office 365 aan te melden en Office-apps voor het web te downloaden, 1 TB OneDrive cloudopslag en SharePoint Online voor klas-, team- en projectsites.  <br/> |[Office 365 Education - veelgestelde technische vragen](/microsoft-365/education/deploy/office-365-education-self-sign-up) <br/> |[Office 365 Education](https://go.microsoft.com/fwlink/p/?linkid=140841) <br/> |
 |**Office 365 A1 Plus** <br/> |In aanmerking komende leerlingen en studenten en docenten kunnen zich registreren voor Office 365 A1 Plus, met alle bovenstaande plus Microsoft 365-apps voor ondernemingen. Microsoft 365-apps voor ondernemingen is productiviteitssoftware, waaronder Word, PowerPoint, Excel, Outlook, OneNote, Publisher, Access en Skype voor Bedrijven, die is geïnstalleerd op uw desktop- of laptopcomputer.  <br/> |[Office 365 Education - veelgestelde technische vragen](/microsoft-365/education/deploy/office-365-education-self-sign-up) <br/> |[Office 365 Education](https://go.microsoft.com/fwlink/p/?linkid=140841) <br/> |

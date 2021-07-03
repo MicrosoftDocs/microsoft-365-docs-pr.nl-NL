@@ -13,12 +13,12 @@ ms.collection:
 - Adm_O365
 ms.custom: AdminSurgePortfolio
 description: Controleren mislukt en vertraagde e-mailberichten die zijn verzonden naar of van accounts met een hoge zakelijke impact.
-ms.openlocfilehash: 2a58f4090244fc6d68be69cf6b3c8ab6e00874fa
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 86e01e591823c94d8279f975ed7de24cc65776dc
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535804"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286139"
 ---
 # <a name="manage-and-monitor-priority-accounts"></a>Prioriteitsaccounts beheren en bewaken
 
@@ -45,8 +45,8 @@ De **functie Accountbeveiliging prioriteit** die in dit onderwerp wordt beschrev
 
 De **functie Premium Mail Flow monitoring** die in dit onderwerp wordt beschreven, is alleen beschikbaar voor organisaties die voldoen aan de volgende vereisten:
 
-- Uw organisatie moet een licentie tellen van ten minste 10.000, van een van of een combinatie van de volgende producten: Office 365 E3, Microsoft 365 E3, Office 365 E5, Microsoft 365 E5. Uw organisatie kan bijvoorbeeld 3000 Office 365 E3-licenties en 8500 Microsoft 365 E5 hebben, voor in totaal 11.500 licenties van de in aanmerking komende producten.
-- Uw organisatie heeft ten minste vijftig maandelijks actieve Exchange Online-gebruikers nodig.
+- Uw organisatie moet een licentie tellen van ten minste 5.000, van een van of een combinatie van de volgende producten: Office 365 E3, Microsoft 365 E3, Office 365 E5, Microsoft 365 E5. Uw organisatie heeft bijvoorbeeld 3000 Office 365 E3-licenties en 2500 Microsoft 365 E5-licenties, op een totaal van 5500 licenties van in aanmerking komende producten.
+- Je organisatie heeft ten minste 50 maandelijks actieve Exchange Online-gebruikers nodig.
 
 > [!NOTE]
 > U kunt maximaal 250 prioriteitsaccounts controleren.
@@ -57,7 +57,7 @@ Wanneer u prioriteitsaccountbeveiliging op een postvak gebruikt, moet u ook prio
 
 Voeg prioriteitsaccounts toe vanaf **de pagina Setup.**
 
-1. Ga naar het Microsoft 365 beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
+1. Ga naar de Microsoft 365-beheercentrum bij <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
 
 2. Ga naar  >  **Organisatiekennis instellen** en kies **Weergeven** onder Uw belangrijkste **accounts controleren.**
 
@@ -83,7 +83,7 @@ Voeg prioriteitsaccounts toe vanaf de pagina Actieve gebruikers.
 
 ## <a name="remove-a-user-from-the-priority-accounts-list"></a>Een gebruiker verwijderen uit de lijst met prioriteitsaccounts
 
-1. Ga naar het Microsoft 365 beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
+1. Ga naar de Microsoft 365-beheercentrum bij <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
 
 2. Ga naar  >  **Organisatiekennis instellen** en kies **Weergeven** onder Uw belangrijkste **accounts controleren.**
 
@@ -91,6 +91,6 @@ Voeg prioriteitsaccounts toe vanaf de pagina Actieve gebruikers.
 
 4. Selecteer op **de pagina Prioriteitsaccounts** de gebruiker of gebruikers die u uit de lijst wilt verwijderen en kies Accounts **verwijderen.**
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-topics"></a>Gerelateerde onderwerpen
 
 [Prioriteitsaccounts gebruiken in Microsoft 365](https://techcommunity.microsoft.com/t5/microsoft-365-blog/using-priority-accounts-in-microsoft-365/ba-p/1873314)

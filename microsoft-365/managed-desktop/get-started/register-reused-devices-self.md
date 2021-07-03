@@ -11,12 +11,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 21b0062a337dbeb3c7dec8b715971dbbc4917db1
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: ed254234109bc5ff9865ff49ed3fa0fff8770ab0
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893273"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286907"
 ---
 # <a name="register-existing-devices-yourself"></a>Bestaande apparaten zelf registreren
 
@@ -75,13 +75,13 @@ In een Active Directory-omgeving kunt u de PowerShell-cmdlet gebruiken om de geg
 - Zorg ervoor dat u een domeinreferentieparameter hebt die toestemming heeft om extern uit te voeren op de apparaten.
 - Zorg ervoor dat Windows Firewall toegang heeft tot WMI. Ga als volgt te werk om dit te doen:
 
-    1. Open het **Windows Defender Firewall** configuratiescherm en selecteer Een app of **functie toestaan via Windows Defender Firewall.**
-    
+    1. Open het Windows Defender Firewall-configuratiescherm en selecteer Een app of **functie toestaan via Windows Defender Firewall.** 
+
     2. Zoek **Windows Management Instrumentation (WMI)** in de lijst, schakel privé en openbaar in **en** selecteer **OK.**
 
-1.  Open een PowerShell-prompt met beheerdersrechten.
+1. Open een PowerShell-prompt met beheerdersrechten.
 
-2.  Voer *een van deze* scripts uit:
+2. Voer *een van deze* scripts uit:
 
     ```powershell
     Install-script -name Get-WindowsAutoPilotInfo 
@@ -94,7 +94,7 @@ In een Active Directory-omgeving kunt u de PowerShell-cmdlet gebruiken om de geg
     Set-ExecutionPolicy powershell -ExecutionPolicy Unrestricted Get-WindowsAutoPilotInfo.ps1 -credential Domainname\<accountname> -Name Machine1,Machine2,Machine3
     ```
 
-3. Toegang tot alle directories waar mogelijk vermeldingen voor de apparaten staan. Verwijder items voor elk apparaat uit *alle* mappen, Windows Server Active Directory Domain Services en Azure Active Directory. Het kan enkele uren duren voordat de verwijdering volledig is verwerkt.
+3. Toegang tot alle directories waar mogelijk vermeldingen voor de apparaten staan. Verwijder items voor elk apparaat uit *alle directories,* inclusief Windows Server Active Directory Domain Services en Azure Active Directory. Het kan enkele uren duren voordat de verwijdering volledig is verwerkt.
 
 4. Access management services where there might beentries for the devices. Verwijder items voor elk apparaat uit *alle* beheerservices, Microsoft Endpoint Configuration Manager, Microsoft Intune en Windows Autopilot. Het kan enkele uren duren voordat de verwijdering volledig is verwerkt.
 
@@ -102,9 +102,9 @@ U kunt nu doorgaan met het [registreren van apparaten.](#register-devices-by-usi
 
 #### <a name="manual-powershell-script-method"></a>Handmatige PowerShell-scriptmethode
 
-1.  Open een PowerShell-prompt met beheerdersrechten.
-2.  Uitvoeren `Install-Script -Name Get-WindowsAutoPilotInfo`
-3.  Uitvoeren `powershell -ExecutionPolicy Unrestricted Get-WindowsAutoPilotInfo -OutputFile <path>\hardwarehash.csv`
+1. Open een PowerShell-prompt met beheerdersrechten.
+2. Uitvoeren `Install-Script -Name Get-WindowsAutoPilotInfo`
+3. Uitvoeren `powershell -ExecutionPolicy Unrestricted Get-WindowsAutoPilotInfo -OutputFile <path>\hardwarehash.csv`
 4. [Voeg de hashgegevens samen.](#merge-hash-data)
 
 #### <a name="flash-drive-method"></a>Flashstationmethode
@@ -120,10 +120,8 @@ U kunt nu doorgaan met het [registreren van apparaten.](#register-devices-by-usi
 9. Verwijder het USB-station en sluit het apparaat vervolgens af door `shutdown -s -t 0`
 10. [Voeg de hashgegevens samen.](#merge-hash-data)
 
->[!IMPORTANT]
->Gebruik het apparaat dat u registreert pas weer aan als u de registratie voor het apparaat hebt voltooid. 
-
-
+> [!IMPORTANT]
+> Gebruik het apparaat dat u registreert pas weer aan als u de registratie voor het apparaat hebt voltooid. 
 
 ### <a name="merge-hash-data"></a>Hashgegevens samenvoegen
 
@@ -135,16 +133,13 @@ Import-CSV -Path (Get-ChildItem -Filter *.csv) | ConvertTo-Csv -NoTypeInformatio
 
 Als de hashgegevens zijn samengevoegd tot één CSV-bestand, kunt u nu doorgaan met het [registreren van de apparaten.](#register-devices-by-using-the-admin-portal)
 
-
 ## <a name="register-devices-by-using-the-admin-portal"></a>Apparaten registreren met behulp van de beheerportal
 
 Selecteer [Microsoft Endpoint Manager](https://endpoint.microsoft.com/)in **het** linkernavigatiedeelvenster apparaten. Zoek naar de Microsoft Managed Desktop van het menu en selecteer **Apparaten.** Selecteer in Microsoft Managed Desktop werkruimte Apparaten Selecteer **+ Registreer** apparaten, waarmee een fly-in wordt geopend om nieuwe apparaten te registreren.
 
 <!-- Update with new picture [![Fly-in after selecting Register devices, listing devices with columns for assigned users, serial number, status, last-seen date, and age](../../media/new-registration-ui.png)](../../media/new-registration-ui.png) -->
 
-
 <!--Registering any existing devices with Managed Desktop will completely re-image them; make sure you've backed up any important data prior to starting the registration process.-->
-
 
 Volg deze stappen:
 
@@ -157,7 +152,7 @@ Volg deze stappen:
 
 U kunt de voortgang van apparaatregistratie op de hoofdpagina controleren. Mogelijke staten die daar zijn gerapporteerd, zijn:
 
-| Status | Beschrijving |
+| Status | Omschrijving |
 |---------------|-------------|
 | Registratie in behandeling | Registratie is nog niet klaar. Controleer het later opnieuw. |
 | Registratie is mislukt | Registratie kan niet worden voltooid. Raadpleeg [Apparaatregistratie oplossen voor](#troubleshooting-device-registration) meer informatie. |
@@ -187,12 +182,3 @@ U kunt de afbeelding ook zelf toepassen als u dat wilt. Als u wilt beginnen, nee
 > Voordat u het apparaat aan uw gebruiker aflevert, [](../get-ready/prerequisites.md) moet u ervoor zorgen dat u de juiste licenties voor die gebruiker hebt verkregen en toegepast.
 
 Als alle licenties worden toegepast, [](get-started-devices.md)kunt u uw gebruikers voorbereiden op het gebruik van apparaten en vervolgens kan uw gebruiker het apparaat starten en doorgaan met de Windows installatie.
-
-
-
-
-
-
-
-
-

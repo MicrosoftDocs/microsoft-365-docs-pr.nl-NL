@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 65d7647e9000152d2eeb8d6bf36e8d45a0d4fa90
-ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
+ms.openlocfilehash: ba4f1b0e4b2e00334dbffb4bf0aa9edb1b8c5622
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52984698"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286919"
 ---
 # <a name="add-and-verify-admin-contacts-in-the-admin-portal"></a>Contactpersonen voor beheer toevoegen en verifiëren in de beheerportal
 
@@ -26,12 +26,13 @@ Er zijn verschillende manieren waarop Microsoft Managed Desktop met klanten comm
 ## <a name="azure-active-directory-access-for-microsoft-managed-desktop-admin-portal"></a>Azure Active Directory toegang voor Microsoft Managed Desktop-beheerportal
 
 Microsoft Managed Desktop Beheerdersportal vereist dat personen die toegang hebben tot de portal een van deze Azure Active Directory (AD) rollen hebben:
+
 - Globale beheerder
 - Intune-servicebeheerder
 - Algemene lezer
 - Serviceondersteuningsbeheerder
 
-De globale beheerder moet degene zijn die uw organisatie inschrijft voor Microsoft Managed Desktop. Alle vijf rollen hebben dezelfde toegang binnen de beheerportal om taken te starten en weer te geven. Zie Beheerdersrolmachtigingen in Azure Active Directory voor meer informatie over het toewijzen van [deze rollen in](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)Azure AD. 
+De globale beheerder moet degene zijn die uw organisatie inschrijft voor Microsoft Managed Desktop. Alle vijf rollen hebben dezelfde toegang binnen de beheerportal om taken te starten en weer te geven. Zie Beheerdersrolmachtigingen in Azure Active Directory voor meer informatie over het toewijzen van [deze rollen in](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)Azure AD.
 
 ## <a name="admin-contact-areas-of-focus"></a>Contactgebieden van beheerder met focus
 
@@ -47,21 +48,21 @@ Overige | Voor problemen die niet onder andere gebieden vallen
 
 **Wie u ook kiest voor deze contactpersonen, moet de kennis en bevoegdheid hebben om beslissingen te nemen voor uw Microsoft Managed Desktop omgeving.** Wanneer u uw Microsoft Managed Desktop invoegt, wordt u gevraagd contactpersonen toe te voegen voor uw lokale helpdesk en beveiliging. 
 
-Beheerderscontacten zijn vereist wanneer u [een ondersteuningsaanvraag indient.](../service-description/support.md) U moet een beheerdercontactcontact hebben voor het focusgebied van de ondersteuningsaanvraag. 
+Beheerderscontacten zijn vereist wanneer u [een ondersteuningsaanvraag indient.](../service-description/support.md) U moet een beheerdercontactcontact hebben voor het focusgebied van de ondersteuningsaanvraag.
 
 **Beheerderscontacten toevoegen**
 
-1.  Meld u aan [bij Microsoft Endpoint Manager.](https://endpoint.microsoft.com) 
+1. Meld u aan [bij Microsoft Endpoint Manager.](https://endpoint.microsoft.com)
 
-2.  Zoek **onder Tenantbeheer** naar de **sectie Microsoft Managed Desktop** vervolgens **Beheerderscontacten.** 
+2. Zoek **onder Tenantbeheer** naar de **sectie Microsoft Managed Desktop** vervolgens **Beheerderscontacten.**
 
 3. Kies **Toevoegen**.
 
-4.  Selecteer een **gebied met focus** en voer de gegevens voor de contactpersoon in. 
+4. Selecteer een **gebied met focus** en voer de gegevens voor de contactpersoon in. 
 
     ![de lijst met focusgebieden, zoals Overige, Apps en Beveiliging](../../media/areaoffocus.png)
 
-5. Herhaal dit voor elk focusgebied. 
+5. Herhaal dit voor elk focusgebied.
 
 ## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Stappen om aan de slag te gaan met Microsoft Managed Desktop
 

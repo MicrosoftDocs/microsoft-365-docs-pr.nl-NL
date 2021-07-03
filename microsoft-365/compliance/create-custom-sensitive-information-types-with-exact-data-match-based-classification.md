@@ -17,16 +17,14 @@ search.appverid:
 - MET150
 description: Meer informatie over het maken van aangepaste gevoelige informatietypen met op Exacte gegevens overeenkomende classificatie.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dc1d3f08ab55f496ae7c6a12f35b71fa5b384688
-ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
+ms.openlocfilehash: 17b9d9b1f551c62e42b2f5291f4d1fba8622f1ae
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53256697"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287039"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>Aangepaste gevoelige informatietypen maken met een classificatie op basis van Exacte gegevensmatch
-
-
 
 [Aangepaste gevoelige informatietypen worden](sensitive-information-type-learn-about.md) gebruikt om gevoelige items te identificeren, zodat u kunt voorkomen dat ze per ongeluk of ongepast worden gedeeld. U definieert een aangepast type gevoelige informatie (SIT)op basis van:
 
@@ -52,13 +50,13 @@ Met EDM-classificatie kunt u aangepaste gevoelige informatietypen maken die verw
 
 > [!NOTE]
 > Microsoft 365 Information Protection ondersteunt dubbele bytetekensettalen voor:
+>
 > - Vereenvoudigd Chinees
 > - Traditioneel Chinees
 > - Koreaks
 > - Japans
-> 
+>
 > Deze ondersteuning is beschikbaar voor typen gevoelige informatie. Zie [Ondersteuning voor Information Protection voor releaseopmerkingen bij dubbel-bytetekensets (preview)](mip-dbcs-relnotes.md) voor meer informatie.
-
 
 ## <a name="required-licenses-and-permissions"></a>Vereiste licenties en machtigingen
 
@@ -73,21 +71,19 @@ EDM-gebaseerde classificatie is inbegrepen in deze abonnementen
 
 ## <a name="portal-links-for-your-subscription"></a>Portalkoppelingen voor uw abonnement
 
-
-|Portal  |World Wide/GCC  |GCC-High  |DOD  |
-|---------|---------|---------|---------|
-|Office SCC     |  protection.office.com       |scc.office365.us         |scc.protection.apps.mil |
-|Microsoft 365 Beveiligingscentrum     |security.microsoft.com         |security.microsoft.us         |security.apps.mil|
-|Microsoft 365 Compliancecentrum     |compliance.microsoft.com         |compliance.microsoft.us         |compliance.apps.mil|
-
+|Portal|World Wide/GCC|GCC-High|DOD|
+|---|---|---|---|
+|Office SCC|protection.office.com|scc.office365.us|scc.protection.apps.mil|
+|Microsoft 365 Beveiligingscentrum|security.microsoft.com|security.microsoft.us|security.apps.mil|
+|Microsoft 365 Compliancecentrum|compliance.microsoft.com|compliance.microsoft.us|compliance.apps.mil|
 
 ## <a name="the-work-flow-at-a-glance"></a>De werkstroom in één oogopslag
 
-|Fase  |Wat is er nodig  |
-|---------|---------|
-|[Deel 1: Classificatie op basis van EDM instellen](#part-1-set-up-edm-based-classification)<br/><br/>(Indien nodig)<br/>- [Het databaseschema bewerken](#editing-the-schema-for-edm-based-classification) <br/>- [Het schema verwijderen](#removing-the-schema-for-edm-based-classification) |- Lees de toegang tot de gevoelige gegevens<br/>- Databaseschema in XML-indeling (voorbeeld opgegeven)<br/>- Regelpakket in XML-indeling (voorbeeld beschikbaar)<br/>- Beheerdersmachtigingen voor het beveiligings- & compliancecentrum (met PowerShell) |
-|[Deel 2: Hash en upload de gevoelige gegevens](#part-2-hash-and-upload-the-sensitive-data)<br/><br/>(Indien nodig)<br/>[De gegevens vernieuwen](#refreshing-your-sensitive-information-database) |- Aangepaste beveiligingsgroep en gebruikersaccount<br/>- Toegang van lokale beheerder tot machine met EDM-Upload Agent<br/>- Lees de toegang tot de gevoelige gegevens<br/>- Verwerken en plannen voor het vernieuwen van de gegevens|
-|[Deel 3: Classificatie op basis van EDM gebruiken met uw Microsoft-cloudservices](#part-3-use-edm-based-classification-with-your-microsoft-cloud-services) |- Microsoft 365 abonnement met DLP<br/>- Classificatiefunctie op basis van EDM ingeschakeld |
+|Fase|Wat is er nodig|
+|---|---|
+|[Deel 1: Classificatie op basis van EDM instellen](#part-1-set-up-edm-based-classification)<br/><br/>(Indien nodig)<br/>- [Het databaseschema bewerken](#editing-the-schema-for-edm-based-classification) <br/>- [Het schema verwijderen](#removing-the-schema-for-edm-based-classification)|- Lees de toegang tot de gevoelige gegevens<br/>- Databaseschema in XML-indeling (voorbeeld opgegeven)<br/>- Regelpakket in XML-indeling (voorbeeld beschikbaar)<br/>- Beheerdersmachtigingen voor het beveiligings- & compliancecentrum (met PowerShell)|
+|[Deel 2: Hash en upload de gevoelige gegevens](#part-2-hash-and-upload-the-sensitive-data)<br/><br/>(Indien nodig)<br/>[De gegevens vernieuwen](#refreshing-your-sensitive-information-database)|- Aangepaste beveiligingsgroep en gebruikersaccount<br/>- Toegang van lokale beheerder tot machine met EDM-Upload Agent<br/>- Lees de toegang tot de gevoelige gegevens<br/>- Verwerken en plannen voor het vernieuwen van de gegevens|
+|[Deel 3: Classificatie op basis van EDM gebruiken met uw Microsoft-cloudservices](#part-3-use-edm-based-classification-with-your-microsoft-cloud-services)|- Microsoft 365 abonnement met DLP<br/>- Classificatiefunctie op basis van EDM ingeschakeld|
 
 ### <a name="part-1-set-up-edm-based-classification"></a>Deel 1: Classificatie op basis van EDM instellen
 
@@ -97,14 +93,13 @@ Het instellen en configureren van classificatie op basis van EDM houdt in:
 2. [Het databaseschema voor gevoelige informatie definiëren](#define-the-schema-for-your-database-of-sensitive-information)
 3. [Een regelpakket maken](#set-up-a-rule-package)
 
-
 #### <a name="save-sensitive-data-in-csv-or-tsv-format"></a>Gevoelige gegevens opslaan in .csv of .tsv-indeling
 
 1. Identificeer de gevoelige informatie die u wilt gebruiken. Exporteert de gegevens naar een app, zoals Microsoft Excel, en sla het bestand op in een tekstbestand. Het bestand kan worden opgeslagen in .csv (door komma's gescheiden waarden), .tsv (door tabbladen gescheiden waarden) of door een |. De TSV-indeling wordt aanbevolen in gevallen waarin uw gegevenswaarden komma's kunnen bevatten, zoals straatadressen.
 Het gegevensbestand kan een maximum van:
-      - Maximaal 100 miljoen rijen met gevoelige gegevens
-      - Maximaal 32 kolommen (velden) per gegevensbron
-      - Maximaal 5 kolommen (velden) gemarkeerd als doorzoekbaar
+   - Maximaal 100 miljoen rijen met gevoelige gegevens
+   - Maximaal 32 kolommen (velden) per gegevensbron
+   - Maximaal 5 kolommen (velden) gemarkeerd als doorzoekbaar
 
 2. Structureer de gevoelige gegevens in het .csv of .tsv-bestand zodanig dat de eerste rij de namen bevat van de velden die worden gebruikt voor op EDM gebaseerde classificatie. In uw bestand hebt u mogelijk veldnamen zoals 'ssn', 'geboortedatum', 'voornaam', 'achternaam'. De namen van de kolomkoppen kunnen geen spaties of onderstrepingstekens bevatten. Het voorbeeldbestand .csv dat we in dit artikel gebruiken, heeft bijvoorbeeld de naam *PatientRecords.csv* en de kolommen zijn *PatientID,* *MRN,* *LastName,* *FirstName,* *SSN* en meer.
 
@@ -117,7 +112,7 @@ Als u om zakelijke of technische redenen liever geen PowerShell of opdrachtregel
 > [!NOTE]
 > De wizard voor het schema voor exacte gegevensovereenkomst en het type gevoelige informatie is alleen beschikbaar voor de wereldwijde en GCC-cloud.
 
-1. Definieer het schema voor de database met gevoelige informatie in XML-indeling (vergelijkbaar met ons voorbeeld hieronder). Noem dit schemabestand **edm.xml** en configureer het zo dat er voor elke kolom in de database een regel is waarin de syntaxis wordt gebruikt: 
+1. Definieer het schema voor de database met gevoelige informatie in XML-indeling (vergelijkbaar met ons voorbeeld hieronder). Noem dit schemabestand **edm.xml** en configureer het zo dat er voor elke kolom in de database een regel is waarin de syntaxis wordt gebruikt:
 
       `\<Field name="" searchable=""/\>`.
 
@@ -146,11 +141,12 @@ Als u om zakelijke of technische redenen liever geen PowerShell of opdrachtregel
 
 ##### <a name="configurable-match-using-the-caseinsensitive-and-ignoreddelimiters-fields"></a>Configureerbare overeenkomst met de velden CaseInensitive en ignoredDelimiters
 
-In het bovenstaande XML-voorbeeld wordt gebruik gemaakt van `caseInsensitive` de velden en de `ignoredDelimiters` velden. 
+In het bovenstaande XML-voorbeeld wordt gebruik gemaakt van `caseInsensitive` de velden en de `ignoredDelimiters` velden.
 
 Wanneer u het veld ***caseInsensitive** _ op de waarde van in uw schemadefinitie op neemt, wordt een item niet uitgesloten op basis van `true` caseverschillen voor `PatientID` veld. Dus EDM ziet, `PatientID` _ *FOO-1234** en **fOo-1234** als identiek.
 
 Wanneer u het veld ***ignoredDelimiters** _ met ondersteunde tekens op neemt, worden deze tekens genegeerd in `PatientID` de . Dus EDM ziet, `PatientID` _ *FOO-1234** en `PatientID` **FOO#1234** als identiek. De `ignoredDelimiters` vlag ondersteunt alle niet-alfanumerieke tekens. Hier volgen enkele voorbeelden:
+
 - \.
 - \-
 - \/
@@ -166,20 +162,21 @@ Wanneer u het veld ***ignoredDelimiters** _ met ondersteunde tekens op neemt, wo
 - \}
 - \\
 - \~
-- \; 
+- \;
 
 The `ignoredDelimiters` vlag ondersteunt het volgende niet:
+
 - tekens 0-9
 - A-Z
 - a-z
 - \"
 - \,
 
-In dit voorbeeld, waarin beide en worden gebruikt, worden `caseInsensitive` `ignoredDelimiters` **FOO-1234** en **fOo#1234** door EDM als identiek geclassificeerd en wordt het item geclassificeerd als een type gevoelige informatie voor patiëntenrecords. 
+In dit voorbeeld, waarin beide en worden gebruikt, worden `caseInsensitive` `ignoredDelimiters` **FOO-1234** en **fOo#1234** door EDM als identiek geclassificeerd en wordt het item geclassificeerd als een type gevoelige informatie voor patiëntenrecords.
 
-4. Verbinding maken met het Beveiligings- en compliancecentrum met behulp van de procedures in [Verbinding maken met Beveiligings- en compliancecentrum van PowerShell](/powershell/exchange/connect-to-scc-powershell).
+1. Verbinding maken het Beveiligings- & Compliance center PowerShell met behulp van de procedures in Verbinding maken [security & Compliance Center PowerShell.](/powershell/exchange/connect-to-scc-powershell)
 
-5. Als u het databaseschema wilt uploaden, moet u de volgende cmdlets één voor één uitvoeren:
+2. Als u het databaseschema wilt uploaden, moet u de volgende cmdlets één voor één uitvoeren:
 
       ```powershell
       $edmSchemaXml=Get-Content .\\edm.xml -Encoding Byte -ReadCount 0
@@ -208,13 +205,13 @@ In dit voorbeeld, waarin beide en worden gebruikt, worden `caseInsensitive` `ign
 
       Wanneer u het regelpakket in stelt, moet u uw .csv of .tsv-bestand en hetedm.xml **verwijzen.** U kunt ons voorbeeld kopiëren, wijzigen en gebruiken. In deze voorbeeld-xml moeten de volgende velden worden aangepast om het gevoelige type EDM te maken:
 
-      - **RulePack-id & ExactMatch-id:** Gebruik [Nieuwe GUID](/powershell/module/microsoft.powershell.utility/new-guid?view=powershell-6) om een GUID te genereren.
+      - **RulePack-id & ExactMatch-id:** Gebruik [Nieuwe GUID](/powershell/module/microsoft.powershell.utility/new-guid) om een GUID te genereren.
 
       - **Gegevensstore:** in dit veld wordt aangegeven dat het opzoekgegevensopslag van EDM moet worden gebruikt. U geeft een gegevensbronnaam op van een geconfigureerd EDM-schema.
 
       - **idMatch:** dit veld wijst naar het primaire element voor EDM.
         - Overeenkomsten: hiermee geeft u het veld op dat moet worden gebruikt voor exacte opzoekactie. U geeft een doorzoekbare veldnaam op in EDM-schema voor de DataStore.
-        - Classificatie: Dit veld geeft de gevoelige type overeenkomst aan die EDM-opzoekactie activeert. U kunt de naam of GUID van een bestaand ingebouwde of aangepaste gevoelige informatietype geven. Elke tekenreeks die overeenkomt met het opgegeven type gevoelige informatie, wordt gehasht en vergeleken met elke vermelding in de tabel met gevoelige informatie. Als u een aangepast type gevoelige informatie gebruikt als het element Classificatie in EDM, vermijdt u het gebruik van een element dat past bij een groot percentage inhoud (zoals 'elk getal' of 'een woord met vijf letters') door ondersteunende trefwoorden toe te voegen of opmaak toe te voegen in de definitie van het aangepaste classificatiegevoelige informatietype. 
+        - Classificatie: Dit veld geeft de gevoelige type overeenkomst aan die EDM-opzoekactie activeert. U kunt de naam of GUID van een bestaand ingebouwde of aangepaste gevoelige informatietype geven. Elke tekenreeks die overeenkomt met het opgegeven type gevoelige informatie, wordt gehasht en vergeleken met elke vermelding in de tabel met gevoelige informatie. Als u een aangepast type gevoelige informatie gebruikt als het element Classificatie in EDM, vermijdt u het gebruik van een element dat past bij een groot percentage inhoud (zoals 'elk getal' of 'een woord met vijf letters') door ondersteunende trefwoorden toe te voegen of opmaak toe te voegen in de definitie van het aangepaste classificatiegevoelige informatietype.
 
       - **Overeenkomen:** Dit veld wijst naar extra bewijs dat is gevonden in de nabijheid van idMatch.
         - Overeenkomsten: U geeft een veldnaam op in het EDM-schema voor DataStore.
@@ -302,7 +299,7 @@ Houd er in dit voorbeeld rekening mee dat:
 
 > [!NOTE]
 > Het kan 10 tot 60 minuten duren voordat het EDMSchema wordt bijgewerkt met toevoegingen. De update moet worden voltooid voordat u stappen uitvoert die gebruikmaken van de toevoegingen.
- 
+
 Nadat u uw regelpakket hebt geïmporteerd met uw EDM-gevoelige gegevenstype en uw gevoelige gegevenstabel hebt geïmporteerd, kunt u het nieuwe type testen met de functie **Test** in de wizard EDM in het compliancecentrum. Zie [De wizard Exacte gegevensmatchschema en wizard Gevoelige](sit-edm-wizard.md) informatie gebruiken voor instructies over het gebruik van deze functionaliteit.
 
 #### <a name="editing-the-schema-for-edm-based-classification"></a>Het schema voor classificatie op basis van EDM bewerken
@@ -431,28 +428,34 @@ Deze computer moet directe toegang hebben tot uw Microsoft 365 tenant.
    > [!TIP]
    > Als u een lijst wilt halen uit de ondersteunde opdrachtparameters, moet u de agent geen argumenten geven. Bijvoorbeeld 'EdmUploadAgent.exe'.
 
-2. Machtig de EDM-Upload agent, open het venster Opdrachtprompt (als beheerder), schakel over naar de **adreslijst C:\EDM\Data** en voer vervolgens de volgende opdracht uit:
+3. Machtig de EDM-Upload agent, open het venster Opdrachtprompt (als beheerder), schakel over naar de **adreslijst C:\EDM\Data** en voer vervolgens de volgende opdracht uit:
 
    `EdmUploadAgent.exe /Authorize`
 
-3. Meld u aan met uw werk- of schoolaccount voor Microsoft 365 die is toegevoegd aan de EDM_DataUploaders beveiligingsgroep. Uw tenantgegevens worden uit het gebruikersaccount gehaald om de verbinding te maken.
+4. Meld u aan met uw werk- of schoolaccount voor Microsoft 365 die is toegevoegd aan de EDM_DataUploaders beveiligingsgroep. Uw tenantgegevens worden uit het gebruikersaccount gehaald om de verbinding te maken.
 
    OPTIONEEL: Als u de wizard Exacte gegevensmatch en de wizard Gevoelige gegevenstype hebt gebruikt om uw schema- en patroonbestanden te maken, voer dan de volgende opdracht uit in een opdrachtpromptvenster:
 
-   `EdmUploadAgent.exe /SaveSchema /DataStoreName <schema name> /OutputDir <path to output folder>`
+   ```dos
+   EdmUploadAgent.exe /SaveSchema /DataStoreName <schema name> /OutputDir <path to output folder>
+   ```
 
-4. Als u de gevoelige gegevens wilt hashen en uploaden, voer u de volgende opdracht uit in het venster Opdrachtprompt:
+5. Als u de gevoelige gegevens wilt hashen en uploaden, voer u de volgende opdracht uit in het venster Opdrachtprompt:
 
-   `EdmUploadAgent.exe /UploadData /DataStoreName [DS Name] /DataFile [data file] /HashLocation [hash file location] /Schema [Schema file] /ColumnSeparator ["{Tab}"|"|"]`
+   ```dos
+   EdmUploadAgent.exe /UploadData /DataStoreName [DS Name] /DataFile [data file] /HashLocation [hash file location] /Schema [Schema file] /ColumnSeparator ["{Tab}"|"|"]
+   ```
 
    Voorbeeld: **EdmUploadAgent.exe /UploadData /DataStoreName PatientRecords /DataFile C:\Edm\Hash\PatientRecords.csv /HashLocation C:\Edm\Hash /Schema edm.xml**
 
-   De standaardindeling voor het gevoelige gegevensbestand is door komma's gescheiden waarden. U kunt een bestand met tabs opgeven door de optie {Tab}" aan te geven met de parameter /ColumnSeparator, of u kunt een door een pijp gescheiden bestand opgeven door de optie '|' aan te geven.  
+   De standaardindeling voor het gevoelige gegevensbestand is door komma's gescheiden waarden. U kunt een bestand met tabs opgeven door de optie {Tab}" aan te geven met de parameter /ColumnSeparator, of u kunt een door een pijp gescheiden bestand opgeven door de optie '|' aan te geven.
    Deze opdracht voegt automatisch een willekeurig gegenereerde zoutwaarde toe aan de hash voor meer beveiliging. Als u desgewenst uw eigen zoutwaarde wilt gebruiken, voegt u de **/Salt <saltvalue>** toe aan de opdracht. Deze waarde moet 64 tekens lang zijn en mag alleen de a-z-tekens en 0-9 tekens bevatten.
 
-5. Controleer de uploadstatus door deze opdracht uit te voeren:
+6. Controleer de uploadstatus door deze opdracht uit te voeren:
 
-   `EdmUploadAgent.exe /GetSession /DataStoreName \<DataStoreName\>`
+   ```dos
+   EdmUploadAgent.exe /GetSession /DataStoreName \<DataStoreName\>
+   ```
 
    Voorbeeld: **EdmUploadAgent.exe /GetSession /DataStoreName PatientRecords**
 
@@ -464,17 +467,24 @@ Voer de hash uit op een computer in een veilige omgeving.
 
 OPTIONEEL: Als u de wizard Exacte gegevensmatch en de wizard Gevoelige gegevenstype hebt gebruikt om uw schema- en patroonbestanden te maken, voer dan de volgende opdracht uit in een opdrachtpromptvenster:
 
-`EdmUploadAgent.exe /SaveSchema /DataStoreName <schema name> /OutputDir <path to output folder>`
+```dos
+EdmUploadAgent.exe /SaveSchema /DataStoreName <schema name> /OutputDir <path to output folder>
+````
 
 1. Voer de volgende opdracht uit in opdrachtpromptvensters:
 
-   `EdmUploadAgent.exe /CreateHash /DataFile [data file] /HashLocation [hash file location] /Schema [Schema file] >`
+   ```dos
+   EdmUploadAgent.exe /CreateHash /DataFile [data file] /HashLocation [hash file location] /Schema [Schema file]
+   ```
 
    Bijvoorbeeld:
 
-   > **EdmUploadAgent.exe /CreateHash /DataFile C:\Edm\Data\PatientRecords.csv /HashLocation C:\Edm\Hash /Schema edm.xml**
+   ```dos
+   EdmUploadAgent.exe /CreateHash /DataFile C:\Edm\Data\PatientRecords.csv /HashLocation C:\Edm\Hash /Schema edm.xml
+   ```
 
    Hiermee worden een gehasht bestand en een zoutbestand met deze extensies uitgevoerd als u de optie **/Zout <saltvalue>** niet hebt opgegeven:
+
    - . EdmHash
    - . EdmSalt
 
@@ -482,22 +492,29 @@ OPTIONEEL: Als u de wizard Exacte gegevensmatch en de wizard Gevoelige gegevenst
 
    Als u de gehashte gegevens wilt uploaden, moet u de volgende opdracht uitvoeren in Windows opdrachtprompt:
 
-   `EdmUploadAgent.exe /UploadHash /DataStoreName \<DataStoreName\> /HashFile \<HashedSourceFilePath\>`
+   ```dos
+   EdmUploadAgent.exe /UploadHash /DataStoreName \<DataStoreName\> /HashFile \<HashedSourceFilePath\>
+   ```
 
    Bijvoorbeeld:
 
-   > **EdmUploadAgent.exe /UploadHash /DataStoreName PatientRecords /HashFile C: \\ Edm \\ Hash \\ PatientRecords.EdmHash**
-
+   ```dos
+   EdmUploadAgent.exe /UploadHash /DataStoreName PatientRecords /HashFile C:\\Edm\\Hash\\PatientRecords.EdmHash**
+   ```
 
    Voer de volgende opdracht uit in het venster Opdrachtprompt om te controleren of uw gevoelige gegevens zijn geüpload:
 
-   `EdmUploadAgent.exe /GetDataStore`
+   ```dos
+   EdmUploadAgent.exe /GetDataStore
+   ```
 
    U ziet een lijst met gegevensopslag en wanneer deze voor het laatst zijn bijgewerkt.
 
    Als u alle gegevens uploads naar een bepaalde winkel wilt zien, voer dan de volgende opdracht uit in Windows opdrachtprompt:
 
-   `EdmUploadAgent.exe /GetSession /DataStoreName <DataStoreName>`
+   ```dos
+   EdmUploadAgent.exe /GetSession /DataStoreName <DataStoreName>
+   ```
 
    Ga verder met het instellen van uw proces en planning voor [het vernieuwen van de database met gevoelige informatie.](#refreshing-your-sensitive-information-database)
 
@@ -516,11 +533,11 @@ U kunt de database met gevoelige gegevens dagelijks vernieuwen en met het EDM-Up
 
 3. Gebruik [Taakplanning om stap](/windows/desktop/TaskSchd/task-scheduler-start-page) 2 en 3 in de hash te automatiseren en de gevoelige [gegevensprocedure te](#part-2-hash-and-upload-the-sensitive-data) uploaden. U kunt taken op verschillende manieren plannen:
 
-      | Methode             | Wat moet u doen? |
-      | ---------------------- | ---------------- |
-      | Windows PowerShell     | Zie de [documentatie van ScheduledTasks](/powershell/module/scheduledtasks/?view=win10-ps) en het [voorbeeld van PowerShell-script](#example-powershell-script-for-task-scheduler) in dit artikel |
-      | Task Scheduler API     | Zie de [documentatie van Taakplanning](/windows/desktop/TaskSchd/using-the-task-scheduler)                                                                                                                                                                                                                                                                                |
-      | Windows gebruikersinterface | Klik Windows op **Start** en typ Taakplanning. Klik vervolgens in de lijst met resultaten met de rechtermuisknop op **Taakplanning** en kies **Uitvoeren als beheerder.**                                                                                                                                                                                                                                                                           |
+   |Methode|Wat moet u doen?|
+   |---|---|
+   |Windows PowerShell|Zie de [documentatie van ScheduledTasks](/powershell/module/scheduledtasks/) en het [voorbeeld van PowerShell-script](#example-powershell-script-for-task-scheduler) in dit artikel|
+   |Task Scheduler API|Zie de [documentatie van Taakplanning](/windows/desktop/TaskSchd/using-the-task-scheduler)|
+   |Windows gebruikersinterface|Klik Windows op **Start** en typ Taakplanning. Klik vervolgens in de lijst met resultaten met de rechtermuisknop op **Taakplanning** en kies **Uitvoeren als beheerder.**|
 
 #### <a name="example-powershell-script-for-task-scheduler"></a>Voorbeeld van PowerShell-script voor taakplanning
 
@@ -599,7 +616,6 @@ $password=\[Runtime.InteropServices.Marshal\]::PtrToStringAuto(\[Runtime.Interop
 \# Register the scheduled task
 $taskName = 'EDMUpload\_' + $dataStoreName
 Register-ScheduledTask -TaskName $taskName -InputObject $scheduledTask -User $user -Password $password
-
 ```
 
 ### <a name="part-3-use-edm-based-classification-with-your-microsoft-cloud-services"></a>Deel 3: Classificatie op basis van EDM gebruiken met uw Microsoft-cloudservices
@@ -637,7 +653,7 @@ Deze locaties ondersteunen EDM-gevoelige informatietypen:
 
       ![Inhoud bevat gevoelige informatietypen](../media/edm-dlp-newrule-conditions.png)
 
-11. Zoek naar het gevoelige informatietype dat u hebt gemaakt bij het instellen van het regelpakket en kies **vervolgens + Toevoegen.**  
+11. Zoek naar het gevoelige informatietype dat u hebt gemaakt bij het instellen van het regelpakket en kies **vervolgens + Toevoegen.**
     Kies vervolgens **Klaar**.
 
 12. Selecteer de opties voor uw regel, zoals Gebruikersmeldingen, Gebruiker **overschrijven,** **Incidentrapporten,** en kies **vervolgens Opslaan.**

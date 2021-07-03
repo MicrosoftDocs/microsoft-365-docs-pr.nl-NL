@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: f493e3af-e1d8-4668-9211-230c245a0466
 description: Meld u aan bij uw Microsoft 365 beheerdersaccount om bepaalde afzonderlijke gebruikerswachtwoorden zo in te stellen dat ze nooit verlopen met behulp van Windows PowerShell.
-ms.openlocfilehash: 12c717d8d625b0135f185b1af131db00e9762c73
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: a0b247f4b736ecccab57398e1e7131f0a06a2958
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635556"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286260"
 ---
 # <a name="set-an-individual-users-password-to-never-expire"></a>Het wachtwoord van een gebruiker zo instellen dat het nooit verloopt
 
@@ -35,11 +35,11 @@ In dit artikel wordt uitgelegd hoe u een wachtwoord kunt instellen voor een indi
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
-Dit artikel is bedoeld voor personen die het wachtwoordverloopbeleid voor een bedrijf, school of non-profitorganisatie opstellen. Voor het uitvoeren van deze stappen moet u zich aanmelden met uw Microsoft 365-beheerdersaccount. [Wat is een beheerdersaccount?](../../business-video/admin-center-overview.md). 
+Dit artikel is bedoeld voor personen die het wachtwoordverloopbeleid voor een bedrijf, school of non-profitorganisatie opstellen. Voor het uitvoeren van deze stappen moet u zich aanmelden met uw Microsoft 365-beheerdersaccount. [Wat is een beheerdersaccount?](../../business-video/admin-center-overview.md).
 
 U moet een globale [beheerder of wachtwoordbeheerder zijn om](about-admin-roles.md) deze stappen uit te voeren.
 
-Een globale beheerder van een Microsoft-cloudservice kan de Azure Active Directory [PowerShell](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0) voor Graph instellen dat wachtwoorden niet verlopen voor specifieke gebruikers. U kunt [azureAD-cmdlets](/powershell/module/Azuread) ook gebruiken om de configuratie die nooit verloopt te verwijderen of om te zien welke gebruikerswachtwoorden zijn ingesteld op nooit verlopen.
+Een globale beheerder van een Microsoft-cloudservice kan de Azure Active Directory [PowerShell](/powershell/azure/active-directory/install-adv2) voor Graph instellen dat wachtwoorden niet verlopen voor specifieke gebruikers. U kunt [azureAD-cmdlets](/powershell/module/Azuread) ook gebruiken om de configuratie die nooit verloopt te verwijderen of om te zien welke gebruikerswachtwoorden zijn ingesteld op nooit verlopen.
 
 Deze handleiding is van toepassing op andere providers, zoals Intune en Microsoft 365, die ook afhankelijk zijn van Azure AD voor identiteits- en adreslijstservices. Wachtwoordverloop is het enige deel van het beleid dat kan worden gewijzigd.
 
@@ -48,7 +48,7 @@ Deze handleiding is van toepassing op andere providers, zoals Intune en Microsof
 
 ## <a name="how-to-check-the-expiration-policy-for-a-password"></a>Het verloopbeleid controleren op een wachtwoord
 
-Zie het naslagartikel [Get-AzureADUser](/powershell/module/Azuread/Get-AzureADUser?view=azureadps-2.0)voor meer informatie over Get-AzureADUser opdracht in de AzureAD-module.
+Zie het naslagartikel [Get-AzureADUser](/powershell/module/Azuread/Get-AzureADUser)voor meer informatie over Get-AzureADUser opdracht in de AzureAD-module.
 
 Voer een van de volgende opdrachten uit:
 
@@ -66,7 +66,7 @@ Voer een van de volgende opdrachten uit:
     Get-AzureADUser -ObjectId userUPN@contoso.com | Select-Object UserprincipalName,@{
         N="PasswordNeverExpires";E={$_.PasswordPolicies -contains "DisablePasswordExpiration"}
     }
-    ```  
+    ```
 
 - Voer de **volgende** cmdlet uit om te zien dat de instelling Wachtwoord nooit verloopt voor alle gebruikers:
 
@@ -82,7 +82,7 @@ Voer een van de volgende opdrachten uit:
     Get-AzureADUser -All $true | Select-Object UserprincipalName,@{
         N="PasswordNeverExpires";E={$_.PasswordPolicies -contains "DisablePasswordExpiration"}
     } | ConvertTo-Html | Out-File $env:userprofile\Desktop\ReportPasswordNeverExpires.html
-    ```  
+    ```
 
 - Een rapport van alle gebruikers met PasswordNeverExpires in CSV op het bureaublad van de huidige gebruiker met naam **enReportPasswordNeverExpires.csv**
 

@@ -9,21 +9,22 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 8a96b771fc0be5373153bc26ebfe1704fc418cdd
-ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
+ms.openlocfilehash: d4e8285bb4d589bc527db8d979a0223d3f64b8ec
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52908147"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287841"
 ---
 # <a name="admin-support-for-microsoft-managed-desktop"></a>Ondersteuning voor beheerders voor Microsoft Managed Desktop
 
 U kunt ondersteuningstickets of feedbackaanvragen indienen bij Microsoft via de Microsoft Managed Desktop Admin portal. Ondersteuningsaanvragen krijgen altijd prioriteit boven feedback-inzendingen. Ondersteuningsaanvragen worden triaged en beheerd op basis van ernst, zoals beschreven in de [ernstdefinitietabel.](#sev) Feedback wordt beoordeeld en een antwoord wordt gegeven wanneer hierom wordt gevraagd. 
 
->[!IMPORTANT]
->Zorg ervoor dat u [een contactpersoon voor](../get-started/add-admin-contacts.md) beheerders in stelt voor app-verpakkingen, apparaten, beveiliging en andere aanvragen. U kunt in geen van deze gebieden een ondersteuningsaanvraag indienen als u geen beheerdercontactcontact hebt.
+> [!IMPORTANT]
+> Zorg ervoor dat u [een contactpersoon voor](../get-started/add-admin-contacts.md) beheerders in stelt voor app-verpakkingen, apparaten, beveiliging en andere aanvragen. U kunt in geen van deze gebieden een ondersteuningsaanvraag indienen als u geen beheerdercontactcontact hebt.
 
 **Een ondersteuningsaanvraag indienen**
+
 1. Meld u aan [bij Microsoft Endpoint Manager](https://endpoint.microsoft.com/) en ga naar het **menu Tenantbeheer.**
 2. Zoek naar de Microsoft Managed Desktop en selecteer vervolgens **Serviceaanvraag.**
 3. Selecteer **bij Ondersteuningsaanvragen** **+ Nieuw ondersteuningsticket**.
@@ -45,12 +46,11 @@ De eerste antwoordtijd is de periode vanaf het moment dat u uw ondersteuningsaan
 > [!NOTE]
 > In deze tabel betekent 'ondersteuningsuren voor beheerders' dat Microsoft Managed Desktop ondersteuning voor beheerders beschikbaar is, voor de meeste landen, 24 uur per dag van maandag tot en met **vrijdag.** Ernst A kan 24 uur per dag worden gewerkt op alle zeven dagen van de week.
 
-Urgentieniveau  | Situatie |   Eerste antwoordtijd   | Verwacht antwoord van u
+Urgentieniveau | Situatie | Eerste antwoordtijd | Verwacht antwoord van u
 --- | --- | --- | ---
-**Ernst A – Kritiek effect** |  **Kritiek bedrijfseffect**<br><br>Uw bedrijf heeft aanzienlijk verlies of degradatie van services en heeft directe aandacht nodig.<br><br>**Belangrijke compatibiliteitseffecten van toepassingen**<br><br>Uw hele bedrijf ondervindt financiële gevolgen als gevolg van apparaten die niet reageren of verlies van kritieke functionaliteit | Initial: < 1 uur<br>Update: 60 minuten<br>Er is elke dag 24 uur ondersteuning beschikbaar | Wanneer u Ernst A selecteert, bevestigt u dat het probleem een kritieke zakelijke impact heeft, met ernstig verlies en degradatie van services. <br><br>Het probleem vereist een direct antwoord en u verbindt u zich elke dag aan continue betrokkenheid met het Microsoft-team tot de oplossing. Anders kan Microsoft naar eigen goed inzicht de ernst verlagen tot niveau B.<br><br> U zorgt er ook voor dat Microsoft uw juiste contactgegevens heeft. 
-**Ernst B – Matige impact** |  **Matige zakelijke impact**<br><br>Uw bedrijf heeft een matig verlies of degradatie van services, maar het werk kan redelijk op een verminderde manier worden voortgezet.<br><br>**Matige toepassingscompatibiliteit**<br><br>Een specifieke zakelijke groep is niet meer productief, vanwege apparaten die niet reageren of door verlies van kritieke functionaliteit. |   Initial: < 4 uur<br>Update: 12 uur<br>24 uur per dag tijdens ondersteuningsuren voor beheerders (maandag tot en met vrijdag). | Wanneer u Ernst B selecteert, bevestigt u dat het probleem een matige invloed heeft op uw bedrijf met verlies en degradatie van services, maar tijdelijke oplossingen maken een redelijke, zij het tijdelijke, bedrijfscontinuïteit mogelijk. <br><br>Het probleem vereist een urgent antwoord. Als u elke dag de hele dag ondersteuning kiest wanneer u het ondersteuningsverzoek indient, verbindt u zich elke dag aan een continue afspraak met het Microsoft-team tot de oplossing. Anders kan Microsoft naar eigen goed inzicht de ernst verlagen tot niveau C. Als u ondersteuningsuren voor beheerders kiest wanneer u een incident met ernst B indient, neemt Microsoft alleen tijdens de ondersteuningsuren van de beheerder contact met u op.<br><br>U zorgt er ook voor dat Microsoft uw juiste contactgegevens heeft.
-**Ernst C – Minimale impact** |   **Minimale zakelijke impact**<br><br> Uw bedrijf werkt met kleine belemmeringen voor services.<br><br>**Secundaire toepassingscompatibiliteitseffecten**<br><br>Potentieel niet-gerelateerde gebruikers hebben te maken met kleine compatibiliteitsproblemen die productiviteit niet voorkomen |  Initial: < 8 uur<br>Update: 24 uur<br>Ondersteuning 24 uur per dag tijdens ondersteuningsuren voor beheerders (maandag tot en met vrijdag)  |  Wanneer u Ernst C selecteert, bevestigt u dat het probleem minimale gevolgen heeft voor uw bedrijf met een kleine belemmering voor de service.<br><br>Voor een incident met ernst C neemt Microsoft alleen tijdens ondersteuningsuren van beheerders contact met u op.<br><br>U zorgt er ook voor dat Microsoft uw juiste contactgegevens heeft.
-
+**Ernst A – Kritiek effect** | **Kritiek bedrijfseffect**<br><br>Uw bedrijf heeft aanzienlijk verlies of degradatie van services en heeft directe aandacht nodig.<br><br>**Belangrijke compatibiliteitseffecten van toepassingen**<br><br>Uw hele bedrijf ondervindt financiële gevolgen als gevolg van apparaten die niet reageren of verlies van kritieke functionaliteit | Initial: < 1 uur<br>Update: 60 minuten<br>Er is elke dag 24 uur ondersteuning beschikbaar | Wanneer u Ernst A selecteert, bevestigt u dat het probleem een kritieke zakelijke impact heeft, met ernstig verlies en degradatie van services. <br><br>Het probleem vereist een direct antwoord en u verbindt u zich elke dag aan continue betrokkenheid met het Microsoft-team tot de oplossing. Anders kan Microsoft naar eigen goed inzicht de ernst verlagen tot niveau B.<br><br> U zorgt er ook voor dat Microsoft uw juiste contactgegevens heeft. 
+**Ernst B – Matige impact** | **Matige zakelijke impact**<br><br>Uw bedrijf heeft een matig verlies of degradatie van services, maar het werk kan redelijk op een verminderde manier worden voortgezet.<br><br>**Matige toepassingscompatibiliteit**<br><br>Een specifieke zakelijke groep is niet meer productief, vanwege apparaten die niet reageren of door verlies van kritieke functionaliteit. | Initial: < 4 uur<br>Update: 12 uur<br>24 uur per dag tijdens ondersteuningsuren voor beheerders (maandag tot en met vrijdag). | Wanneer u Ernst B selecteert, bevestigt u dat het probleem een matige invloed heeft op uw bedrijf met verlies en degradatie van services, maar tijdelijke oplossingen maken een redelijke, zij het tijdelijke, bedrijfscontinuïteit mogelijk. <br><br>Het probleem vereist een urgent antwoord. Als u elke dag de hele dag ondersteuning kiest wanneer u het ondersteuningsverzoek indient, verbindt u zich elke dag aan een continue afspraak met het Microsoft-team tot de oplossing. Anders kan Microsoft naar eigen goed inzicht de ernst verlagen tot niveau C. Als u ondersteuningsuren voor beheerders kiest wanneer u een incident met ernst B indient, neemt Microsoft alleen tijdens de ondersteuningsuren van de beheerder contact met u op.<br><br>U zorgt er ook voor dat Microsoft uw juiste contactgegevens heeft.
+**Ernst C – Minimale impact** | **Minimale zakelijke impact**<br><br> Uw bedrijf werkt met kleine belemmeringen voor services.<br><br>**Secundaire toepassingscompatibiliteitseffecten**<br><br>Potentieel niet-gerelateerde gebruikers hebben te maken met kleine compatibiliteitsproblemen die productiviteit niet voorkomen | Initial: < 8 uur<br>Update: 24 uur<br>Ondersteuning 24 uur per dag tijdens ondersteuningsuren voor beheerders (maandag tot en met vrijdag)  | Wanneer u Ernst C selecteert, bevestigt u dat het probleem minimale gevolgen heeft voor uw bedrijf met een kleine belemmering voor de service.<br><br>Voor een incident met ernst C neemt Microsoft alleen tijdens ondersteuningsuren van beheerders contact met u op.<br><br>U zorgt er ook voor dat Microsoft uw juiste contactgegevens heeft.
 
 - **Ondersteuningstalen:** alle ondersteuning is beschikbaar in het Engels.
 - **Wijzigingen in ernstniveau:** Microsoft kan het ernstniveau verlagen als u niet in staat bent om voldoende resources of antwoorden te verstrekken om ons in staat te stellen door te gaan met het oplossen van problemen. 
@@ -65,8 +65,8 @@ Wanneer een ticket in de status **Beperkt** of Opgelost **is,** kunt u uw feedba
 
 :::image type="content" alt-text="Voorbeeld van een feedbackformulier." source="../../media/feedback_form.png" lightbox="../../media/feedback_form.png":::
 
-
 ## <a name="more-resources"></a>Meer informatie
+
 - [Gebruikersondersteuning voor Microsoft Managed Desktop.](end-user-support.md) 
 - [Ondersteuning voor Microsoft Managed Desktop.](../service-description/support.md) 
 - Als u zich al hebt geabonneerd op Microsoft Managed Desktop, vindt u gedetailleerde procedures, processtromen, werkinstructies en veelgestelde vragen in de Microsoft Managed Desktop-beheerhandleiding op de **pagina Onlineresources** onder de sectie Microsoft Managed Desktop **van** het menu **Tenantbeheer** in [Microsoft Endpoint Manager.](https://endpoint.microsoft.com/)

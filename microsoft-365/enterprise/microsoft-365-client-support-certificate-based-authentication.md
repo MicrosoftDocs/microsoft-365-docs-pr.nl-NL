@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: In dit artikel vindt u meer informatie over Microsoft 365 client-app-ondersteuning voor verificatie op basis van certificaten.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d5ebef7c10aa61ba28c8fb841468be244f6e8542
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: bef1a684ba1ebe2eaba90677cd726cc190e342db
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904989"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286571"
 ---
 # <a name="microsoft-365-client-app-support-certificate-based-authentication"></a>Microsoft 365 Client-app-ondersteuning: verificatie op basis van certificaten
 
@@ -46,12 +46,11 @@ De nieuwste versies van de volgende clients en platforms ondersteunen verificati
 
 [!INCLUDE [Certificate-based authentication services support table](../includes/microsoft-365-client-support-certificate-based-authentication-include.md)]
 
->[!NOTE]
->Edge voor iOS en Android ondersteunt verificatie op basis van certificaten tijdens account add flows. Edge voor iOS en Android biedt geen ondersteuning voor verificatie op basis van certificaten bij het uitvoeren van verificatie tegen websites, meestal intranetsites. <br><br>  In dit scenario navigeert een gebruiker naar een website (meestal op het intranet) waar de website vereist dat de gebruiker zich verifieert via een certificaat. Hierbij is helemaal geen moderne verificatie vereist en wordt geen gebruik gemaakt van een Microsoft-verificatiebibliotheek. Dit komt door een beperking met iOS: iOS voorkomt dat apps van derden toegang krijgen tot de systeemsleutelhanger waar de certificaten zijn opgeslagen (alleen Apple-apps en de [Safari-webviewcontroller](https://developer.apple.com/documentation/safariservices/sfsafariviewcontroller) hebben toegang tot de systeemsleutelhanger). <br><br> Omdat Edge afhankelijk is van het [WebKit-framework](https://developer.apple.com/documentation/webkit) voor het renderen van websites, heeft Edge geen toegang tot de systeemsleutelhanger en kan de gebruiker geen certificaatkeuze geven. Dit komt helaas door de architectuur van Apple.
+> [!NOTE]
+> Edge voor iOS en Android ondersteunt verificatie op basis van certificaten tijdens account add flows. Edge voor iOS en Android biedt geen ondersteuning voor verificatie op basis van certificaten bij het uitvoeren van verificatie tegen websites, meestal intranetsites. <br><br>  In dit scenario navigeert een gebruiker naar een website (meestal op het intranet) waar de website vereist dat de gebruiker zich verifieert via een certificaat. Hierbij is helemaal geen moderne verificatie vereist en wordt geen gebruik gemaakt van een Microsoft-verificatiebibliotheek. Dit komt door een beperking met iOS: iOS voorkomt dat apps van derden toegang krijgen tot de systeemsleutelhanger waar de certificaten zijn opgeslagen (alleen Apple-apps en de [Safari-webviewcontroller](https://developer.apple.com/documentation/safariservices/sfsafariviewcontroller) hebben toegang tot de systeemsleutelhanger). <br><br> Omdat Edge afhankelijk is van het [WebKit-framework](https://developer.apple.com/documentation/webkit) voor het renderen van websites, heeft Edge geen toegang tot de systeemsleutelhanger en kan de gebruiker geen certificaatkeuze geven. Dit komt helaas door de architectuur van Apple.
 
 ## <a name="supported-powershell-modules"></a>Ondersteunde PowerShell-modules
 
-- [Azure Active Directory PowerShell](/powershell/azure/active-directory/overview?view=azureadps-2.0)
+- [Azure Active Directory PowerShell](/powershell/azure/active-directory/overview)
 - [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell)
 - [SharePoint Online PowerShell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
-

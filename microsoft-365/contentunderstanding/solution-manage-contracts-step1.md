@@ -12,12 +12,12 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: ''
 description: Informatie over het gebruik van SharePoint Syntex om contractbestanden te identificeren en gegevens op te halen met een Microsoft 365 oplossing.
-ms.openlocfilehash: c66e46aaaacd5000f1e0d18aa07df527ca8ab7dd
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: b73f7b96a1f1a9159770fb1bfb20bf2718f08c07
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054495"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287351"
 ---
 # <a name="step-1-use-sharepoint-syntex-to-identify-contract-files-and-extract-data"></a>Stap 1. Gebruik SharePoint Syntex om contractbestanden te identificeren en gegevens op te halen
 
@@ -25,7 +25,9 @@ Uw organisatie heeft een manier nodig om alle contractdocumenten te identificere
 
 ## <a name="overview-of-the-process"></a>Overzicht van het proces
 
-[Documentkennis](document-understanding-overview.md) maakt gebruik van AI-modellen (Artificial Intelligence) om de classificatie van bestanden en de extractie van informatie te automatiseren. Documentkennismodellen zijn ook optimaal voor het extraheren van informatie uit ongestructureerde en semi-gestructureerde documenten waarin de informatie die u nodig hebt, niet is opgenomen in tabellen of formulieren, zoals contracten.
+[Documentkennis](document-understanding-overview.md) maakt gebruik van AI-modellen (Artificial Intelligence) om de classificatie van bestanden en de extractie van informatie te automatiseren. Documentkennismodellen zijn ook optimaal voor het extraheren van informatie uit ongestructureerde en semi-gestructureerde documenten waarin de informatie die u nodig hebt, niet is opgenomen in tabellen of formulieren, zoals contracten. 
+
+Documentbegripmodellen gebruiken Optical Character Recognition- (OCR) technologie om pdf-bestanden, afbeeldingen en tiff-bestanden te scannen wanneer je een model traint met voorbeeldbestanden en wanneer je het model uitvoert op bestanden in een documentbibliotheek.
 
 1. Eerst moet u ten minste vijf voorbeeldbestanden zoeken die u kunt gebruiken om het model te 'trainen' om te zoeken naar kenmerken die specifiek zijn voor het inhoudstype dat u wilt identificeren (een contract). 
 
