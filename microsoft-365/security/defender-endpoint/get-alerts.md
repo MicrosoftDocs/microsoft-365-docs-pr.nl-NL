@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 4da646a52392871cde99271a17ed6eb9111f51ab
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: dcc8a9214e0a6d0a0ede3b08aa6a019f2f0c4d2c
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769240"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289845"
 ---
 # <a name="list-alerts-api"></a>Lijstwaarschuwingen API
 
@@ -31,7 +31,7 @@ ms.locfileid: "52769240"
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
@@ -59,40 +59,42 @@ Hiermee wordt een verzameling waarschuwingen opgehaald.
 ## <a name="permissions"></a>Machtigingen
 Een van de volgende machtigingen is vereist om deze API te bellen. Zie Microsoft Defender voor [eindpunt-API's](apis-intro.md) gebruiken voor meer informatie, inclusief het kiezen van machtigingen.
 
-Machtigingstype |   Machtiging  |   Weergavenaam machtiging
+Machtigingstype | Machtiging | Weergavenaam machtiging
 :---|:---|:---
-Toepassing |   Alert.Read.All |    'Alle waarschuwingen lezen'
-Toepassing |   Alert.ReadWrite.All |   'Alle waarschuwingen lezen en schrijven'
+Toepassing | Alert.Read.All | 'Alle waarschuwingen lezen'
+Toepassing | Alert.ReadWrite.All | 'Alle waarschuwingen lezen en schrijven'
 Gedelegeerd (werk- of schoolaccount) | Alert.Read | 'Leeswaarschuwingen'
 Gedelegeerd (werk- of schoolaccount) | Alert.ReadWrite | 'Waarschuwingen lezen en schrijven'
 
->[!Note]
+> [!NOTE]
 > Bij het verkrijgen van een token met gebruikersreferenties:
->- De gebruiker moet ten minste de volgende rolmachtiging hebben: 'Gegevens weergeven' [(Zie](user-roles.md) Rollen maken en beheren voor meer informatie)
->- Het antwoord bevat alleen waarschuwingen die zijn gekoppeld aan apparaten die de [](machine-groups.md) gebruiker kan openen, op basis van de instellingen van de apparaatgroep (Zie Apparaatgroepen maken en beheren voor meer informatie)
+>
+> - De gebruiker moet ten minste de volgende rolmachtiging hebben: 'Gegevens weergeven' [(Zie](user-roles.md) Rollen maken en beheren voor meer informatie)
+> - Het antwoord bevat alleen waarschuwingen die zijn gekoppeld aan apparaten die de [](machine-groups.md) gebruiker kan openen, op basis van de instellingen van de apparaatgroep (Zie Apparaatgroepen maken en beheren voor meer informatie)
 
 ## <a name="http-request"></a>HTTP-aanvraag
-```
+
+```http
 GET /api/alerts
 ```
 
-## <a name="request-headers"></a>Kopteksten aanvragen
+## <a name="request-headers"></a>Aanvraagheaders
 
-Naam | Type | Beschrijving
+Naam | Type | Omschrijving
 :---|:---|:---
 Autorisatie | Tekenreeks | Bearer {token}. **Vereist**.
 
+## <a name="request-body"></a>Aanvraagtekst
 
-## <a name="request-body"></a>Body aanvragen
 Leeg
 
 ## <a name="response"></a>Antwoord
-Als dit is gelukt, retourneert deze methode [](alerts.md) 200 OK en een lijst met waarschuwingsobjecten in de antwoord body.
 
+Als dit is gelukt, retourneert deze methode [](alerts.md) 200 OK en een lijst met waarschuwingsobjecten in de antwoord body.
 
 ## <a name="example-1---default"></a>Voorbeeld 1 - Standaard
 
-**Aanvraag**
+### <a name="request"></a>Aanvraag
 
 Hier is een voorbeeld van de aanvraag.
 
@@ -100,13 +102,12 @@ Hier is een voorbeeld van de aanvraag.
 GET https://api.securitycenter.microsoft.com/api/alerts
 ```
 
-**Antwoord**
+### <a name="response"></a>Antwoord
 
 Hier is een voorbeeld van het antwoord.
 
->[!NOTE]
->De hier weergegeven antwoordlijst kan worden afgekapt voor beknoptheid. Alle waarschuwingen worden geretourneerd van een echt gesprek.
-
+> [!NOTE]
+> De hier weergegeven antwoordlijst kan worden afgekapt voor beknoptheid. Alle waarschuwingen worden geretourneerd van een echt gesprek.
 
 ```json
 {
@@ -162,7 +163,7 @@ Hier is een voorbeeld van het antwoord.
 
 ## <a name="example-2---get-10-latest-alerts-with-related-evidence"></a>Voorbeeld 2 : 10 meest recente waarschuwingen met gerelateerd bewijs ontvangen
 
-**Aanvraag**
+### <a name="request"></a>Aanvraag
 
 Hier is een voorbeeld van de aanvraag.
 
@@ -170,14 +171,12 @@ Hier is een voorbeeld van de aanvraag.
 GET https://api.securitycenter.microsoft.com/api/alerts?$top=10&$expand=evidence
 ```
 
-
-**Antwoord**
+### <a name="response"></a>Antwoord
 
 Hier is een voorbeeld van het antwoord.
 
->[!NOTE]
->De hier weergegeven antwoordlijst kan worden afgekapt voor beknoptheid. Alle waarschuwingen worden geretourneerd van een echt gesprek.
-
+> [!NOTE]
+> De hier weergegeven antwoordlijst kan worden afgekapt voor beknoptheid. Alle waarschuwingen worden geretourneerd van een echt gesprek.
 
 ```json
 {
@@ -314,6 +313,6 @@ Hier is een voorbeeld van het antwoord.
 }
 ```
 
-
 ## <a name="see-also"></a>Zie ook
-- [OData-query's met Microsoft Defender voor Eindpunt](exposed-apis-odata-samples.md)
+
+[OData-query's met Microsoft Defender voor Eindpunt](exposed-apis-odata-samples.md)

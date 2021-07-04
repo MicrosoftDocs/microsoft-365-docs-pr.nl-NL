@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.openlocfilehash: 9ee2f0402e8cfd184e59dce5a382f835b706d6aa
-ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
+ms.openlocfilehash: 2cc83e24d4dd81c9d2e972fa274b48fc3946532a
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53022547"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289725"
 ---
 # <a name="details-and-results-of-an-automated-investigation"></a>Details en resultaten van een geautomatiseerd onderzoek
 
@@ -102,16 +102,16 @@ In de weergave Details van onderzoek kunt u informatie zien op de tabbladen **On
 > [!NOTE]
 > De specifieke tabbladen die u op een pagina met onderzoeksdetails ziet, zijn afhankelijk van wat uw abonnement bevat. Als uw abonnement bijvoorbeeld geen Microsoft Defender bevat voor Office 365 abonnement 2, ziet u geen tabblad **Postvakken.**
 
-| Tab | Beschrijving |
+| Tab | Omschrijving |
 |:--------|:--------|
-| **Onderzoeksgrafiek**   | Geeft een visuele weergave van het onderzoek. Hiermee worden entiteiten en lijsten weergegeven die zijn gevonden, samen met waarschuwingen en of er nog acties moeten worden goedgekeurd.<br/>U kunt een item in de grafiek selecteren om meer details weer te geven. Als u bijvoorbeeld het pictogram **Bewijs** selecteert, gaat u naar het tabblad Bewijs, waar u gedetecteerde entiteiten en hun vonnissen kunt zien.  |
-| **Waarschuwingen**    | Hiermee worden waarschuwingen vermeld die aan het onderzoek zijn gekoppeld. Waarschuwingen kunnen afkomstig zijn van functies voor bedreigingsbeveiliging op het apparaat van een gebruiker, in Office apps, Microsoft Cloud App Security en andere Microsoft 365 Defender functies.|
+| **Onderzoeksgrafiek** | Geeft een visuele weergave van het onderzoek. Hiermee worden entiteiten en lijsten weergegeven die zijn gevonden, samen met waarschuwingen en of er nog acties moeten worden goedgekeurd.<br/>U kunt een item in de grafiek selecteren om meer details weer te geven. Als u bijvoorbeeld het pictogram **Bewijs** selecteert, gaat u naar het tabblad Bewijs, waar u gedetecteerde entiteiten en hun vonnissen kunt zien.  |
+| **Waarschuwingen** | Hiermee worden waarschuwingen vermeld die aan het onderzoek zijn gekoppeld. Waarschuwingen kunnen afkomstig zijn van functies voor bedreigingsbeveiliging op het apparaat van een gebruiker, in Office apps, Microsoft Cloud App Security en andere Microsoft 365 Defender functies.|
 | **Apparaten** | Hiermee worden apparaten vermeld die zijn opgenomen in het onderzoek, samen met het herstelniveau. (Herstelniveaus komen overeen met het [automatiseringsniveau voor apparaatgroepen](m365d-configure-auto-investigation-response.md#review-or-change-the-automation-level-for-device-groups).) |
 | **Postvakken** |Hiermee worden postvakken vermeld die worden beïnvloed door gedetecteerde bedreigingen.  |
 | **Gebruikers**  | Hiermee worden gebruikersaccounts vermeld die worden beïnvloed door gedetecteerde bedreigingen. |
 | **Bewijs** | Hier worden stukken bewijs vermeld die door waarschuwingen of onderzoeken worden opgesmeld. Bevat vonnissen *(Schadelijke,* *Verdachte,* *Onbekende* of *Geen gevonden* bedreigingen) en herstelstatus. |
-| **Entiteiten**  | Bevat details over elke geanalyseerde entiteit, inclusief een uitspraak voor elk entiteitstype *(Schadelijk,* *Verdacht* of Geen *gevonden bedreigingen).*|
-|**Logboek**    | Geeft een chronologische, gedetailleerde weergave van alle onderzoekacties die zijn ondernomen nadat een waarschuwing is geactiveerd.|
+| **Entiteiten** | Bevat details over elke geanalyseerde entiteit, inclusief een uitspraak voor elk entiteitstype *(Schadelijk,* *Verdacht* of Geen *gevonden bedreigingen).*|
+|**Logboek** | Geeft een chronologische, gedetailleerde weergave van alle onderzoekacties die zijn ondernomen nadat een waarschuwing is geactiveerd.|
 | **Geschiedenis van acties in behandeling** | Hiermee worden items vermeld waarvoor goedkeuring is vereist. Ga naar het Actiecentrum [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) () om acties in behandeling goed te keuren. |
 
 ## <a name="next-steps"></a>Volgende stappen

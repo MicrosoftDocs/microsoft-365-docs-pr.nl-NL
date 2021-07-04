@@ -16,12 +16,12 @@ ms.date: 09/03/2018
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 4be9116b83c2ee4eec410f3d8d68c289f3c8b9a5
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 15fd70a2a60da7b0541446a98f0094c73c831d51
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52925825"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289821"
 ---
 # <a name="deploy-manage-and-report-on-microsoft-defender-antivirus"></a>Implementeren, beheren en rapporteren op Microsoft Defender Antivirus
 
@@ -57,7 +57,7 @@ Microsoft Azure|Implementeer Microsoft Antimalware azure in de Azure-portal, met
 
 1. <span id="fn1" />De beschikbaarheid van bepaalde functies en functies, met name met betrekking tot beveiliging in de cloud, verschilt tussen Microsoft Endpoint Manager (Current Branch) en System Center 2012 Configuration Manager. In deze bibliotheek hebben we ons gericht op Windows 10, Windows Server 2016 en Microsoft Endpoint Manager (Current Branch). Zie [Microsoft Cloud-beveiliging gebruiken in Microsoft Defender Antivirus](cloud-protection-microsoft-defender-antivirus.md) voor een tabel waarin de belangrijkste verschillen worden beschreven. [(Terug naar tabel)](#ref2)
   
-2.  <span id="fn2" />In Windows 10 is Microsoft Defender Antivirus onderdeel beschikbaar zonder installatie of implementatie van een extra client of service. Deze wordt automatisch ingeschakeld wanneer antivirusproducten van derden worden verwijderd of verouderd zijn[(behalve op](microsoft-defender-antivirus-on-windows-server.md)Windows Server 2016). Traditionele implementatie is daarom niet vereist. Implementatie hier verwijst naar ervoor zorgen dat Microsoft Defender Antivirus onderdeel beschikbaar is en is ingeschakeld op eindpunten of servers. [(Terug naar tabel)](#ref2)
+2. <span id="fn2" />In Windows 10 is Microsoft Defender Antivirus onderdeel beschikbaar zonder installatie of implementatie van een extra client of service. Deze wordt automatisch ingeschakeld wanneer antivirusproducten van derden worden verwijderd of verouderd zijn[(behalve op](microsoft-defender-antivirus-on-windows-server.md)Windows Server 2016). Traditionele implementatie is daarom niet vereist. Implementatie hier verwijst naar ervoor zorgen dat Microsoft Defender Antivirus onderdeel beschikbaar is en is ingeschakeld op eindpunten of servers. [(Terug naar tabel)](#ref2)
 
 3. <span id="fn3" />Configuratie van functies en beveiliging, waaronder het configureren van product- en beveiligingsupdates, worden verder beschreven in de sectie Configuratie [Microsoft Defender Antivirus functies](configure-notifications-microsoft-defender-antivirus.md) in deze bibliotheek. [(Terug naar tabel)](#ref2)
 

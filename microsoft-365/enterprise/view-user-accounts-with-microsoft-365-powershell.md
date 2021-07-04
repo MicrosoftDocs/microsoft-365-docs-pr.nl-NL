@@ -20,18 +20,18 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: bb12f49d-a85d-4f3b-ada2-5c4e33977b10
 description: Meer informatie over het weergeven, weergeven of weergeven van uw Microsoft 365 gebruikersaccounts op verschillende manieren met PowerShell.
-ms.openlocfilehash: de91195afeb8480bf231d9536e4b3a94502a6da1
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 77219fb89430ed257ef2a68a7b24bf9ebac715b2
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924646"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53290169"
 ---
 # <a name="view-microsoft-365-user-accounts-with-powershell"></a>Gebruikersaccounts Microsoft 365 weergeven met PowerShell
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-U kunt het beheercentrum Microsoft 365 gebruiken om de accounts voor uw Microsoft 365 weergeven. PowerShell voor Microsoft 365 maakt dit mogelijk, maar biedt ook extra functionaliteit.
+U kunt de Microsoft 365-beheercentrum gebruiken om de accounts voor uw Microsoft 365 weergeven. PowerShell voor Microsoft 365 maakt dit mogelijk, maar biedt ook extra functionaliteit.
   
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>De powershell Azure Active Directory powershell gebruiken voor Graph module
 
@@ -148,8 +148,7 @@ Get-AzureADUser | Where {$_.City -eq "London"}
 ```
 
 > [!TIP]
->  De syntaxis voor de **cmdlet** Where in deze voorbeelden is **Where {$ \_ .** [naam van de eigenschap gebruikersaccount] [vergelijkingsoperator] [waarde] **}**.> [vergelijkingsoperator] is **-eq** voor gelijken, **-ne** voor niet gelijk aan, **-lt** voor minder dan, **-gt** voor groter dan en andere.  [waarde] is meestal een tekenreeks (een reeks letters, getallen en andere  tekens), een numerieke waarde of $Null voor niet-gespecificeerde tekens. Zie Where [.](/powershell/module/microsoft.powershell.core/where-object?view=powershell-7)
-  
+> De syntaxis voor de **cmdlet** Where in deze voorbeelden is **Where {$ \_ .** [naam van de eigenschap gebruikersaccount] [vergelijkingsoperator] [waarde] **}**.> [vergelijkingsoperator] is **-eq** voor gelijken, **-ne** voor niet gelijk aan, **-lt** voor minder dan, **-gt** voor groter dan en andere.  [waarde] is meestal een tekenreeks (een reeks letters, getallen en andere  tekens), een numerieke waarde of $Null voor niet-gespecificeerde tekens. Zie Where [.](/powershell/module/microsoft.powershell.core/where-object)
 
 ## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Gebruik de Microsoft Azure Active Directory module voor Windows PowerShell
 
@@ -241,7 +240,7 @@ Get-MsolUser | Where {$_.City -eq "London"}
 ```
 
 > [!TIP]
->  De syntaxis voor de **cmdlet** Where in deze voorbeelden is **Where {$ \_ .** [naam van de eigenschap gebruikersaccount] [vergelijkingsoperator] [waarde] **}**.  [vergelijkingsoperator] is **-eq** voor gelijken, **-ne** voor niet gelijk aan, **-lt** voor kleiner dan, **-gt** voor groter dan, en anderen.  [waarde] is meestal een tekenreeks (een reeks letters, getallen en andere  tekens), een numerieke waarde of $Null voor niet-gespecificeerde tekens. Zie Where [.](/powershell/module/microsoft.powershell.core/where-object?view=powershell-7)
+> De syntaxis voor de **cmdlet** Where in deze voorbeelden is **Where {$ \_ .** [naam van de eigenschap gebruikersaccount] [vergelijkingsoperator] [waarde] **}**.  [vergelijkingsoperator] is **-eq** voor gelijken, **-ne** voor niet gelijk aan, **-lt** voor kleiner dan, **-gt** voor groter dan, en anderen.  [waarde] is meestal een tekenreeks (een reeks letters, getallen en andere  tekens), een numerieke waarde of $Null voor niet-gespecificeerde tekens. Zie Where [.](/powershell/module/microsoft.powershell.core/where-object)
   
 Als u de geblokkeerde status van een gebruikersaccount wilt controleren, gebruikt u de volgende opdracht:
   
@@ -254,11 +253,11 @@ Get-MsolUser -UserPrincipalName <UPN of user account> | Select DisplayName,Block
 Standaard worden deze drie eigenschappen van gebruikersaccounts weergegeven op de **get-MsolUser-cmdlet:**
   
 - UserPrincipalName
-    
+
 - Weergavenaam
-    
+
 - isLicensed
-    
+
 Als u extra eigenschappen nodig hebt, zoals de afdeling waar de gebruiker werkt en het land/de regio waar de  gebruiker Microsoft 365-services gebruikt, kunt u **Get-MsolUser** uitvoeren in combinatie met de cmdlet Selecteren om de lijst met gebruikersaccounteigenschappen op te geven. Hier volgt een voorbeeld:
   
 ```powershell

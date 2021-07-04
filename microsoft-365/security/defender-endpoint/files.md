@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: c4d392c9c7777a5ab5435d70e36822e11aa39dae
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 83a011e649a7289f62acd6a8d985f020b27b1e10
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52771187"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53290013"
 ---
 # <a name="file-resource-type"></a>Bestandsresourcetype
 
@@ -30,17 +30,17 @@ ms.locfileid: "52771187"
 
 **Van toepassing op:** [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 
-- Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+- Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
-
 Vertegenwoordig een bestandsentiteit in Defender voor Eindpunt.
 
 ## <a name="methods"></a>Methoden
-Methode|Retourtype |Beschrijving
+
+Methode|Retourtype |Omschrijving
 :---|:---|:---
 [Bestand downloaden](get-file-information.md) | [bestand](files.md) | Eén bestand downloaden 
 [Gerelateerde waarschuwingen voor lijstbestand](get-file-related-alerts.md) | [waarschuwingsverzameling](alerts.md) | Haal [](alerts.md) de waarschuwingsentiteiten op die aan het bestand zijn gekoppeld.
@@ -49,7 +49,8 @@ Methode|Retourtype |Beschrijving
 
 
 ## <a name="properties"></a>Eigenschappen
-|Eigenschap | Type    |   Beschrijving |
+
+|Eigenschap | Type | Omschrijving |
 |:---|:---|:---|
 |sha1 | Tekenreeks | Sha1 hash van de bestandsinhoud |
 |sha256 | Tekenreeks | Sha256-hash van de bestandsinhoud |
@@ -67,7 +68,6 @@ Methode|Retourtype |Beschrijving
 |isValidCertificate | Booleaanse waarde | Is het ondertekenen van certificaat geverifieerd door Microsoft Defender voor Endpoint-agent |
 |determinationType | Tekenreeks | Het bepalingstype van het bestand |
 |bepalingWaarde | Tekenreeks | Bepalingswaarde |
-
 
 ## <a name="json-representation"></a>Json-representatie
 

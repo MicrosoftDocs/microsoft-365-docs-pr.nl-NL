@@ -18,12 +18,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
-ms.openlocfilehash: 4b34d3ea20716fb2424d9317b8a51c088a5714a6
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: ddc28149ca2ab43b7c14d3bdbaeeecdad1b18387
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935351"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289761"
 ---
 # <a name="provide-managed-security-service-provider-mssp-access"></a>MsSP-toegang (Managed Security Service Provider) bieden 
 
@@ -50,10 +50,9 @@ Als u een oplossing voor gedelegeerde toegang met meerdere tenants wilt implemen
 
     Deze groepen worden gekoppeld aan de rollen die u maakt in Defender voor Eindpunt in Microsoft 365 beveiligingscentrum. Maak in de ad-tenant van de klant drie groepen om dit te doen. In onze voorbeeldbenadering maken we de volgende groepen:
 
-    - Tier 1 Analyst 
-    - Tier 2 Analyst 
+    - Tier 1 Analyst
+    - Tier 2 Analyst
     - MSSP-analist-goedkeurders  
-
 
 2. Maak Defender voor eindpuntrollen voor de juiste toegangsniveaus in Customer Defender voor Eindpunt in Microsoft 365 beveiligingscentrumrollen en -groepen.
 
@@ -73,12 +72,10 @@ Als u een oplossing voor gedelegeerde toegang met meerdere tenants wilt implemen
 
     Zie Op rollen gebaseerde [toegangsbeheer gebruiken](/windows/security/threat-protection/microsoft-defender-atp/rbac)voor meer informatie.
 
-
-
 ## <a name="configure-governance-access-packages"></a>Governance Access-pakketten configureren
 
-1.  **MSSP toevoegen als verbonden organisatie in Customer AAD: Identity Governance**
-    
+1. **MSSP toevoegen als verbonden organisatie in Customer AAD: Identity Governance**
+
     Als u mssp toevoegt als een verbonden organisatie, kan de MSSP aanvragen en toegang hebben tot de inrichting. 
 
     Als u dit wilt doen, krijgt u in de ad-tenant van de klant toegang tot Identiteitsbeheer: Verbonden organisatie. Voeg een nieuwe organisatie toe en zoek naar uw MSSP Analyst-tenant via tenant-id of domein. We raden u aan een aparte AD-tenant te maken voor uw MSSP-analisten.
@@ -87,12 +84,11 @@ Als u een oplossing voor gedelegeerde toegang met meerdere tenants wilt implemen
 
     Resourcecatalogi zijn een logische verzameling toegangspakketten die zijn gemaakt in de AD-tenant van de klant.
 
-    U doet dit door in de AD-tenant van de klant identiteitsbeheer: catalogi te openen en Nieuwe catalogus **toe te voegen.** In ons voorbeeld noemen we het **MSSP Accesses.** 
+    U doet dit door in de AD-tenant van de klant identiteitsbeheer: catalogi te openen en Nieuwe catalogus **toe te voegen.** In ons voorbeeld noemen we het **MSSP Accesses.**
 
     ![Afbeelding van nieuwe catalogus](../../media/goverance-catalog.png)
 
     Zie Een catalogus met resources maken voor [meer informatie.](/azure/active-directory/governance/entitlement-management-catalog-create)
-
 
 3. **Access-pakketten maken voor MSSP-resources Customer AAD: Identity Governance**
 
@@ -109,28 +105,27 @@ Als u een oplossing voor gedelegeerde toegang met meerdere tenants wilt implemen
 
     Zie Een nieuw [toegangspakket maken](/azure/active-directory/governance/entitlement-management-access-package-create)voor meer informatie.
 
-
 4. **Koppeling voor toegangsaanvraag naar MSSP-resources van Customer AAD: Identity Governance**
 
     De koppeling Mijn Access-portal wordt door MSSP-SOC-analisten gebruikt om toegang te vragen via de gemaakte toegangspakketten. De koppeling is duurzaam, wat betekent dat dezelfde koppeling in de tijd kan worden gebruikt voor nieuwe analisten. De aanvraag van de analist wordt in een wachtrij geplaatst voor goedkeuring door de **MSSP-analist-goedkeurders.**
-
 
     ![Afbeelding van access-eigenschappen](../../media/access-properties.png)
 
     De koppeling bevindt zich op de overzichtspagina van elk toegangspakket.
 
-## <a name="manage-access"></a>Toegang beheren 
+## <a name="manage-access"></a>Toegang beheren
 
 1. Toegangsaanvragen controleren en machtigen in myaccess klant en/of MSSP.
 
     Access-aanvragen worden beheerd in de klant My Access, door leden van de groep MsSP Analyst Approvers.
 
-    U kunt dit doen door de myaccess van de klant te openen met behulp van:  `https://myaccess.microsoft.com/@<Customer Domain >` . 
+    U kunt dit doen door de myaccess van de klant te openen met behulp van: `https://myaccess.microsoft.com/@<Customer Domain>` .
 
-    Voorbeeld:  `https://myaccess.microsoft.com/@M365x440XXX.onmicrosoft.com#/`   
+    Voorbeeld: `https://myaccess.microsoft.com/@M365x440XXX.onmicrosoft.com#/`
+
 2. Aanvragen goedkeuren of weigeren in **de sectie Goedkeuringen** van de gebruikersinterface.
 
-     Op dit moment is de toegang tot analisten ingericht en moet elke analist toegang hebben tot het Microsoft 365 beveiligingscentrum van de klant: 
+     Op dit moment is de toegang tot analisten ingericht en moet elke analist toegang hebben tot het Microsoft 365 beveiligingscentrum van de klant:
 
     `https://security.microsoft.com/?tid=<CustomerTenantId>` met de machtigingen en rollen die aan hen zijn toegewezen.
 

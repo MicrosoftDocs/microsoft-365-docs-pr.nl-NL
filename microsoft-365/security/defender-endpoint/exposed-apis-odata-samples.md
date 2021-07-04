@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: a2570aba26d65a573c19777bc70db77f4118e336
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: ff13a382f7c59083c217f937b996e63abc2ff52a
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52771043"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53290001"
 ---
 # <a name="odata-queries-with-microsoft-defender-for-endpoint"></a>OData-query's met Microsoft Defender voor Eindpunt
 
@@ -31,7 +31,7 @@ ms.locfileid: "52771043"
 **Van toepassing op:**
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 
-- Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+- Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
@@ -41,13 +41,13 @@ Zie OData V4-query's als u niet bekend bent met [OData-query's](https://www.odat
 
 Niet alle eigenschappen kunnen worden gefilterd.
 
-## <a name="properties-that-support-filter"></a>Eigenschappen die ondersteuning bieden $filter:
-```
-- [Alert](alerts.md): ```alertCreationTime```, ```lastUpdateTime```, ```incidentId```,```InvestigationId```, ```status```, ```severity``` and ```category```.
-- [Machine](machine.md): ```ComputerDnsName```, ```LastSeen```, ```HealthStatus```, ```OsPlatform```, ```RiskScore``` and ```RbacGroupId```.
-- [MachineAction](machineaction.md): ```Status```, ```MachineId```, ```Type```, ```Requestor``` and ```CreationDateTimeUtc```.
-- [Indicator](ti-indicator.md): ```indicatorValue```, ```indicatorType```, ```creationTimeDateTimeUtc```, ```createdBy```, ```severity ``` and ```action ```.
-```
+## <a name="properties-that-support-filter"></a>Eigenschappen die ondersteuning bieden voor $filter
+
+- [Waarschuwing:](alerts.md) `alertCreationTime` , , , , en `lastUpdateTime` `incidentId` `InvestigationId` `status` `severity` `category` .
+- [Machine](machine.md): `ComputerDnsName` , , , en `LastSeen` `HealthStatus` `OsPlatform` `RiskScore` `RbacGroupId` .
+- [MachineAction:](machineaction.md) `Status` , , en `MachineId` `Type` `Requestor` `CreationDateTimeUtc` .
+- [Indicator](ti-indicator.md): `indicatorValue` , , , en `indicatorType` `creationTimeDateTimeUtc` `createdBy` `severity` `action` .
+
 ### <a name="example-1"></a>Voorbeeld 1
 
 Ontvang 10 meest recente waarschuwingen met verwante gegevens:
@@ -56,7 +56,7 @@ Ontvang 10 meest recente waarschuwingen met verwante gegevens:
 HTTP GET  https://api.securitycenter.microsoft.com/api/alerts?$top=10&$expand=evidence
 ```
 
-**Antwoord:**
+#### <a name="response"></a>Antwoord
 
 ```json
 {
@@ -201,7 +201,7 @@ Alle waarschuwingen voor het laatst bijgewerkt na 2019-11-22 00:00:00:
 HTTP GET  https://api.securitycenter.microsoft.com/api/alerts?$filter=lastUpdateTime+ge+2019-11-22T00:00:00Z
 ```
 
-**Antwoord:**
+#### <a name="response"></a>Antwoord
 
 ```json
 {
@@ -263,7 +263,7 @@ Haal alle apparaten op met 'High' 'RiskScore':
 HTTP GET  https://api.securitycenter.microsoft.com/api/machines?$filter=riskScore+eq+'High'
 ```
 
-**Antwoord:**
+#### <a name="response"></a>Antwoord
 
 ```json
 {
@@ -316,7 +316,7 @@ Top 100 apparaten met 'HealthStatus' is niet gelijk aan 'Actief':
 HTTP GET  https://api.securitycenter.microsoft.com/api/machines?$filter=healthStatus+ne+'Active'&$top=100 
 ```
 
-**Antwoord:**
+#### <a name="response"></a>Antwoord
 
 ```json
 {
@@ -369,7 +369,7 @@ Haal alle apparaten op die het laatst zijn gezien na 2018-10-20:
 HTTP GET  https://api.securitycenter.microsoft.com/api/machines?$filter=lastSeen gt 2018-08-01Z
 ```
 
-**Antwoord:**
+#### <a name="response"></a>Antwoord
 
 ```json
 {
@@ -422,7 +422,7 @@ Alle antivirusscans die de gebruiker Analyst@examples.onmicrosoft.com gemaakt me
 HTTP GET  https://api.securitycenter.microsoft.com/api/machineactions?$filter=requestor eq 'Analyst@contoso.com' and type eq 'RunAntiVirusScan'
 ```
 
-**Antwoord:**
+#### <a name="response"></a>Antwoord
 
 ```json
 json{
@@ -454,7 +454,7 @@ Krijg het aantal geopende waarschuwingen voor een specifiek apparaat:
 HTTP GET  https://api.securitycenter.microsoft.com/api/machines/123321d0c675eaa415b8e5f383c6388bff446c62/alerts/$count?$filter=status ne 'Resolved'
 ```
 
-**Antwoord:**
+#### <a name="response"></a>Antwoord
 
 ```json
 4
@@ -468,7 +468,7 @@ Alle apparaten met 'computerDnsName' krijgen, beginnend met 'mymachine':
 HTTP GET  https://api.securitycenter.microsoft.com/api/machines?$filter=startswith(computerDnsName,'mymachine')
 ```
 
-**Antwoord:**
+#### <a name="response"></a>Antwoord
 
 ```json
 json{
@@ -514,4 +514,5 @@ json{
 ```
 
 ## <a name="see-also"></a>Zie ook
-- [Microsoft Defender voor eindpunt-API's](apis-intro.md)
+
+[Microsoft Defender voor eindpunt-API's](apis-intro.md)

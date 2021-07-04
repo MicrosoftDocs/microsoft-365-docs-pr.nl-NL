@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 2d022e903111c498d6f3b7411857748fcb637b64
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: e7c208998e436245c53b90905858b7cf7ebe91d6
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844656"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53290193"
 ---
 # <a name="use-basic-permissions-to-access-the-portal"></a>Basismachtigingen gebruiken voor toegang tot de portal
 
@@ -32,7 +32,7 @@ ms.locfileid: "52844656"
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-basicaccess-abovefoldlink)
+> Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-basicaccess-abovefoldlink)
 
 Raadpleeg de onderstaande instructies voor het gebruik van basismachtigingenbeheer.
 
@@ -54,7 +54,7 @@ U kunt gebruikers toewijzen met een van de volgende machtigingsniveaus:
     > [!NOTE]
     > U moet de PowerShell-cmdlets uitvoeren op een verhoogde opdrachtregel.
 
-- Verbinding maken naar uw Azure Active Directory. Zie [Verbinding maken-MsolService](/powershell/module/msonline/connect-msolservice?view=azureadps-1.0&preserve-view=true)voor meer informatie.
+- Verbinding maken naar uw Azure Active Directory. Zie [Verbinding maken-MsolService](/powershell/module/msonline/connect-msolservice)voor meer informatie.
 
 **Volledige toegang** <br>
 Gebruikers met volledige toegang kunnen zich aanmelden, alle systeemgegevens bekijken en waarschuwingen oplossen, bestanden indienen voor uitgebreide analyse en het onboarding-pakket downloaden.

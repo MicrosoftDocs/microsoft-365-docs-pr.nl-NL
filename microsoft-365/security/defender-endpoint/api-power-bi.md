@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 0ddb38e713f08c101639976b9f2c8c1ee32e63a3
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 23d9d61644b4c9adad69a5e467e49ca2b1d92413
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843780"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53290229"
 ---
 # <a name="create-custom-reports-using-power-bi"></a>Aangepaste rapporten maken met Power BI
 
@@ -33,7 +33,7 @@ ms.locfileid: "52843780"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
-- Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+- Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
@@ -49,16 +49,16 @@ In het eerste voorbeeld wordt gedemonstreerd hoe u verbinding maakt Power BI Adv
 
 - Klik **op Lege**  >  **gegevensquery opvragen**
 
-    ![Afbeelding van lege query maken](images/power-bi-create-blank-query.png)
+  ![Afbeelding van lege query maken](images/power-bi-create-blank-query.png)
 
 - Klik **op Geavanceerde editor**
 
-    ![Afbeelding van geopende geavanceerde editor](images/power-bi-open-advanced-editor.png)
+  ![Afbeelding van geopende geavanceerde editor](images/power-bi-open-advanced-editor.png)
 
 - Kopieer het onderstaande en plak deze in de editor:
 
 ```
-    let 
+    let
         AdvancedHuntingQuery = "DeviceEvents | where ActionType contains 'Anti' | limit 20",
 
         HuntingUrl = "https://api.securitycenter.microsoft.com/api/advancedqueries",
@@ -93,7 +93,6 @@ In het eerste voorbeeld wordt gedemonstreerd hoe u verbinding maakt Power BI Adv
         Table = Table.TransformColumnTypes(Rows, Table.ToList(TypedSchema, (c) => {c{0}, c{2}}))
 
     in Table
-
 ```
 
 - Klik **op Klaar**
@@ -118,7 +117,7 @@ In het eerste voorbeeld wordt gedemonstreerd hoe u verbinding maakt Power BI Adv
 
 ## <a name="connect-power-bi-to-odata-apis"></a>Verbinding maken Power BI naar OData-API's
 
-- Het enige verschil met het bovenstaande voorbeeld is de query in de editor. 
+- Het enige verschil met het bovenstaande voorbeeld is de query in de editor.
 
 - Kopieer het onderstaande en plak deze in de editor om alle **machineacties uit** uw organisatie te halen:
 
@@ -130,22 +129,21 @@ In het eerste voorbeeld wordt gedemonstreerd hoe u verbinding maakt Power BI Adv
         Source = OData.Feed("https://api.securitycenter.microsoft.com/api/" & Query, null, [Implementation="2.0", MoreColumns=true])
     in
         Source
-
 ```
 
 - U kunt hetzelfde doen voor **waarschuwingen** en **machines.**
-
 - U kunt OData-query's ook gebruiken voor queryfilters, zie [OData-query's gebruiken](exposed-apis-odata-samples.md)
 
-
 ## <a name="power-bi-dashboard-samples-in-github"></a>Power BI dashboardvoorbeelden in GitHub
+
 Zie de sjablonen voor [Power BI rapport voor meer informatie.](https://github.com/microsoft/MicrosoftDefenderATP-PowerBI)
 
 ## <a name="sample-reports"></a>Voorbeeldrapporten
+
 Bekijk de voorbeelden van microsoft Defender voor eindpunten Power BI rapport. Zie Door codevoorbeelden bladeren voor [meer informatie.](/samples/browse/?products=mdatp)
 
+## <a name="related-topics"></a>Gerelateerde onderwerpen
 
-## <a name="related-topic"></a>Verwant onderwerp
 - [Defender voor eindpunt-API's](apis-intro.md)
-- [Geavanceerde API voor opsporing](run-advanced-query-api.md)
+- [API voor geavanceerde opsporing](run-advanced-query-api.md)
 - [OData-query's gebruiken](exposed-apis-odata-samples.md)

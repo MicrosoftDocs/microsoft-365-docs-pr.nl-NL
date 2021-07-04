@@ -1,5 +1,5 @@
 ---
-title: Microsoft Viva Learning (Preview) instellen in het Teams beheercentrum
+title: Microsoft Viva Learning (preview) instellen in het Teams beheercentrum
 ms.author: chucked
 author: chuckedmonson
 manager: pamgreen
@@ -15,14 +15,14 @@ ms.collection:
 - m365initiative-viva-learning
 localization_priority: None
 description: Meer informatie over het configureren van Microsoft Viva Learning (Preview) in het Teams beheercentrum.
-ms.openlocfilehash: 860f16bee7d93f2212072c5d738263402704272f
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: 99e63210e8f8c10e3721c35fb69df7880c7e1929
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52789229"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53290217"
 ---
-# <a name="set-up-microsoft-viva-learning-preview-in-the-teams-admin-center"></a>Microsoft Viva Learning (Preview) instellen in het Teams beheercentrum
+# <a name="set-up-microsoft-viva-learning-preview-in-the-teams-admin-center"></a>Microsoft Viva Learning (preview) instellen in het Teams beheercentrum
 
 > [!NOTE]
 > De informatie in dit artikel heeft betrekking op een voorbeeldproduct dat aanzienlijk kan worden gewijzigd voordat het commercieel wordt uitgebracht. 
@@ -33,9 +33,9 @@ De Teams beheerder moet bepaalde stappen uitvoeren om Viva Learning (Preview) in
 
 ### <a name="administrator-steps-for-public-preview-tenants"></a>Beheerdersstappen voor openbare preview-tenants
 
-Omdat Viva Learning (Preview) nog niet algemeen beschikbaar is, zijn bepaalde stappen vereist om de functies in te stellen en machtigingen in te stellen voor specifieke gebruikers of groepen. 
+Omdat de Viva Learning (Preview) nog niet algemeen beschikbaar is, zijn bepaalde stappen vereist om de functies in te stellen en machtigingen in te stellen voor specifieke gebruikers of groepen. 
 
-1. Openbare preview-functies inschakelen voor Gebruikers van Viva Learning (Preview).
+1. Openbare preview-functies inschakelen voor Gebruikers Learning (Preview).
 
     a. Wijzig Teams updatebeleid om openbare preview-functies in te stellen. Zie [Microsoft Teams Openbare preview.](/microsoftteams/public-preview-doc-updates)
 
@@ -47,23 +47,23 @@ Omdat Viva Learning (Preview) nog niet algemeen beschikbaar is, zijn bepaalde st
 
     b. Schakel het app-machtigingsbeleid in voor gebruikers of groepen die Viva Learning (Preview) testen. Zie [Beleid toewijzen aan gebruikers en groepen.](/microsoftteams/assign-policies-users-and-groups)
 
-3.  Informeer gebruikers die Viva Learning (Preview) testen om hun [buildclient](set-up-teams-admin-center.md#user-steps-for-public-preview-tenants)over te schakelen naar Openbare preview voor Teams.
+3. Informeer gebruikers die Viva Learning (Preview) testen om hun [buildclient](set-up-teams-admin-center.md#user-steps-for-public-preview-tenants)over te schakelen naar Openbare preview voor Teams.
 
 > [!IMPORTANT]
-> Voor openbare preview-tenants wordt Viva Learning (Preview) niet weergegeven in beheerde **apps** in het Teams-beheercentrum tot de definitieve productversie. Gebruikers van openbare preview-weergave kunnen echter Viva Learning (Preview) vinden in de Teams app Store en gebruiken, zodra het juiste beleid en de juiste machtigingen zijn ingesteld.
+> Voor openbare preview-tenants wordt Viva Learning (Preview) pas weergegeven in beheerde **apps** in het Teams-beheercentrum tot de definitieve productversie. Gebruikers van openbare preview-weergave kunnen echter Viva Learning (Preview) vinden in de Teams-app store en deze gebruiken wanneer het juiste beleid en de juiste machtigingen zijn ingesteld.
 
 ### <a name="user-steps-for-public-preview-tenants"></a>Gebruikersstappen voor openbare preview-tenants
 
 Gebruikers die zijn ingeschakeld voor het testen van openbare preview- door het eerder beschreven beleid in te [schakelen,](set-up-teams-admin-center.md#administrator-steps-for-public-preview-tenants) moeten overschakelen naar Openbare preview [in](/microsoftteams/public-preview-doc-updates#enable-public-preview) hun Teams client.
 
 1. Gebruikers moeten hun profielafbeelding selecteren > **Over**  >  **openbare preview.**
-   
+
     ![Bovenste navigatie in de Teams met het profiel van de gebruiker](../media/learning/learning-app-select-profile-teams.png)
-    
+
 2. Gebruikers moeten de algemene voorwaarden voor openbare preview-weergave accepteren.
 
     ![Overschakelen naar openbare preview-build](../media/learning/learning-app-switch-to-public-preview.png)
- 
+
 3. Gebruikers kunnen Nu Viva Learning (Preview) vinden in de Teams app Store en deze gaan gebruiken.
 
 ## <a name="private-preview-tenants"></a>Private Preview-tenants
@@ -76,14 +76,13 @@ Voor private preview-tenants zijn er geen aanvullende beleidsregels die moeten w
 
    ![Navigatie links in het Teams beheercentrum met Teams apps en de sectie Apps beheren.](../media/learning/learning-app-teams-manage-apps-nav.png)
 
-2. Typ op **de pagina Apps** beheren in het zoekvak Viva *Learning* en selecteer vervolgens Viva **Learning (Preview).**
+2. Typ op **de pagina Apps** beheren in het zoekvak Viva *Learning* en selecteer vervolgens Viva **Learning (Voorbeeld).**
 
    ![De pagina Apps beheren in het Teams beheercentrum met het zoekvak.](../media/learning/learning-app-teams-manage-apps-page.png)
 
-3. Selecteer op **de pagina Viva Learning (Preview)** onder **Status** de optie Toegestaan **om** Viva Learning (Preview) in te zetten.
+3. Selecteer op **de pagina Viva Learning (Preview)**  onder **Status** de optie Toegestaan om Viva Learning in te Learning (Voorbeeld).
 
-   ![Leerpagina in het Teams beheercentrum met de sectie Status- en App-instellingen.](../media/learning/learning-app-teams-learning-page.png)
-
+   ![Learning pagina in het Teams-beheercentrum met de sectie Status- en App-instellingen.](../media/learning/learning-app-teams-learning-page.png)
 
 <!---
 The Teams admin installs Viva Learning (Preview) and applies permission policies through the Teams admin center.
@@ -141,4 +140,4 @@ To make Viva Learning (Preview) available for users in your organization, follow
 
 ## <a name="next-step"></a>Volgende stap
 
-[Bronnen voor leerinhoud configureren voor Viva Learning (preview) in het Microsoft 365-beheercentrum](content-sources-365-admin-center.md)
+[Leerinhoudsbronnen configureren voor Viva Learning (Preview) in de Microsoft 365-beheercentrum](content-sources-365-admin-center.md)

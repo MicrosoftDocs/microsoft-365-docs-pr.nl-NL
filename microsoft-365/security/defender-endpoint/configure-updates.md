@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: a506f4913369e53fd2ed4943bb2557935f1d62e5
-ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
+ms.openlocfilehash: a7a560cb33190105f8df5922e04aeada4d75f398
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53105558"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53290037"
 ---
 # <a name="create-a-custom-gradual-rollout-process-for-microsoft-defender-updates"></a>Een aangepast geleidelijk implementatieproces maken voor Microsoft Defender-updates
 
@@ -43,7 +43,7 @@ Als u uw eigen aangepaste, geleidelijke implementatieprocedure voor Defender-upd
 In de volgende tabel vindt u de beschikbare instellingen voor groepsbeleid voor het configureren van updatekanalen:
 
 | Titel instellen  | Omschrijving  | Locatie  |
-|-|-|-|
+|:---|:---|:---|
 | Selecteer geleidelijk het update-kanaal voor het maandelijkse Microsoft Defender-platform  | Schakel dit beleid in om op te geven wanneer apparaten microsoft Defender-platformupdates ontvangen tijdens de maandelijkse geleidelijke implementatie. Bètakanaal: Apparaten die zijn ingesteld op dit kanaal, ontvangen als eerste nieuwe updates. Selecteer Beta-kanaal om deel te nemen aan het identificeren en rapporteren van problemen met Microsoft. Apparaten in het Windows Insider-programma zijn standaard geabonneerd op dit kanaal. Alleen voor gebruik in (handmatige) testomgevingen en een beperkt aantal apparaten.  <br><br>  Current Channel (Preview): Apparaten die zijn ingesteld op dit kanaal, worden het vroegst tijdens de maandelijkse, geleidelijke releasecyclus bijgewerkt. Voorgesteld voor pre-productie-/validatieomgevingen.  <br><br>  Huidig kanaal (gefaseerd): Apparaten worden updates aangeboden na de maandelijkse, geleidelijke releasecyclus. Voorgesteld om toe te passen op een klein, representatief deel van uw productiepopulatie (~10%).  <br><br>  Huidig kanaal (breed): Apparaten worden alleen updates aangeboden nadat de geleidelijke releasecyclus is voltooid. Voorgesteld om toe te passen op een breed scala aan apparaten in uw productiepopulatie (~10-100%).  <br><br>   Als u dit beleid uit- of niet configureert, blijft het apparaat automatisch up-to-date tijdens de geleidelijke releasecyclus. Geschikt voor de meeste apparaten.  | Windows Onderdelen\Microsoft Defender Antivirus  |
 | Selecteer een geleidelijk updatekanaal voor de maandelijkse Engine Update van Microsoft Defender  | Schakel dit beleid in om op te geven wanneer apparaten microsoft Defender-motorupdates ontvangen tijdens de maandelijkse geleidelijke implementatie.  <br><br>  Bètakanaal: Apparaten die zijn ingesteld op dit kanaal, ontvangen als eerste nieuwe updates. Selecteer Beta-kanaal om deel te nemen aan het identificeren en rapporteren van problemen met Microsoft. Apparaten in het Windows Insider-programma zijn standaard geabonneerd op dit kanaal. Alleen voor gebruik in (handmatige) testomgevingen en een beperkt aantal apparaten.  <br><br>  Current Channel (Preview): Apparaten die zijn ingesteld op dit kanaal, worden het vroegst tijdens de maandelijkse, geleidelijke releasecyclus bijgewerkt. Voorgesteld voor pre-productie-/validatieomgevingen.  <br><br>  Huidig kanaal (gefaseerd): Apparaten worden updates aangeboden na de maandelijkse, geleidelijke releasecyclus. Voorgesteld om toe te passen op een klein, representatief deel van uw productiepopulatie (~10%).  <br><br>  Huidig kanaal (breed): Apparaten worden alleen updates aangeboden nadat de geleidelijke releasecyclus is voltooid. Voorgesteld om toe te passen op een breed scala aan apparaten in uw productiepopulatie (~10-100%).  <br><br>  Als u dit beleid uit- of niet configureert, blijft het apparaat automatisch up-to-date tijdens de geleidelijke releasecyclus. Geschikt voor de meeste apparaten.  | Windows Onderdelen\Microsoft Defender Antivirus  |
 | Het geleidelijk uitrolkanaal voor dagelijkse definitieupdates van Microsoft Defender selecteren  | Schakel dit beleid in om op te geven wanneer apparaten Definitie-updates van Microsoft Defender ontvangen tijdens de dagelijkse geleidelijke implementatie. <br><br> Current Channel (Gefaseerd): Apparaten worden na de releasecyclus updates aangeboden. Voorgesteld om toe te passen op een klein, representatief deel van de productiepopulatie (~10%). <br><br>   Huidig kanaal (breed): Apparaten worden alleen updates aangeboden nadat de geleidelijke releasecyclus is voltooid. Voorgesteld om toe te passen op een breed scala aan apparaten in uw productiepopulatie (~10-100%). <br><br>   Als u dit beleid uit- of niet configureert, blijft het apparaat automatisch up-to-date tijdens de dagelijkse releasecyclus. Geschikt voor de meeste apparaten.  | Windows Onderdelen\Microsoft Defender Antivirus  |
@@ -76,6 +76,8 @@ Volg de instructies in onderstaande koppeling om een aangepast beleid te maken i
 
 [Aangepaste instellingen toevoegen voor Windows 10 apparaten in Microsoft Intune - Azure \| Microsoft Docs](/mem/intune/configuration/custom-settings-windows-10)
 
+Zie Defender CSP voor meer informatie over de Defender [CSP's](/windows/client-management/mdm/defender-csp)die worden gebruikt voor de geleidelijke uitrol.
+
 ## <a name="powershell"></a>PowerShell
 
 Gebruik de `Set-MpPreference` cmdlet om de implementatie van de geleidelijke updates te configureren.
@@ -94,4 +96,4 @@ Voorbeeld:
 
 Gebruik `Set-MpPreference -PlatformUpdatesChannel Beta` dit programma om platformupdates te configureren om vanuit het bètakanaal te komen.
 
-Zie Set-MpPreference (Defender) voor meer informatie over de parameters en hoe u [deze configureert | Microsoft Docs](/powershell/module/defender/set-mppreference?view=windowsserver2019-ps&preserve-view=true).
+Zie Set-MpPreference (Defender) voor meer informatie over de parameters en hoe u [deze configureert | Microsoft Docs](/powershell/module/defender/set-mppreference).

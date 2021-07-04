@@ -19,12 +19,12 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: b85c0c63cc7c72ad555d80bd8ce6c07c95b4b97b
-ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
+ms.openlocfilehash: 83f269a13a54ee38b7e7a464d794d87ddbd7b520
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52908075"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289929"
 ---
 # <a name="client-behavioral-blocking"></a>Gedragsblokkering van cliënt
 
@@ -32,7 +32,7 @@ ms.locfileid: "52908075"
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+> Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
 ## <a name="overview"></a>Overzicht
 
@@ -46,7 +46,7 @@ Antivirusbeveiliging werkt het beste in combinatie met cloudbeveiliging.
 
 [Microsoft Defender Antivirus](microsoft-defender-antivirus-in-windows-10.md) kan verdacht gedrag, schadelijke code, bestandsloze en in-memory-aanvallen en meer detecteren op een apparaat. Wanneer verdacht gedrag wordt gedetecteerd, Microsoft Defender Antivirus en verzendt u die verdachte gedragingen en hun procesbomen naar de cloudbeveiligingsservice. Machine learning maakt binnen milliseconden onderscheid tussen schadelijke toepassingen en goed gedrag en classificeert elk artefact. In bijna realtime, zodra een artefact schadelijk blijkt te zijn, wordt het geblokkeerd op het apparaat. 
 
-Wanneer een verdacht gedrag wordt gedetecteerd, wordt er een [waarschuwing](alerts-queue.md) gegenereerd en is deze zichtbaar in de [Microsoft 365 Defender-portal](microsoft-defender-security-center.md) (voorheen de Microsoft Defender-beveiligingscentrum).
+Wanneer een verdacht gedrag wordt gedetecteerd, wordt een [waarschuwing](alerts-queue.md) gegenereerd en is deze zichtbaar in de [Microsoft 365 Defender portal](microsoft-defender-security-center.md) (voorheen de Microsoft Defender-beveiligingscentrum).
 
 Clientgedragsblokkering is effectief omdat hiermee niet alleen wordt voorkomen dat een aanval wordt gestart, maar het kan ook helpen een aanval te stoppen die is begonnen met uitvoeren. En, met [het blokkeren van feedback-loop](feedback-loop-blocking.md) (een andere mogelijkheid voor het blokkeren en inperking van gedrag) worden aanvallen op andere apparaten in uw organisatie voorkomen.
 
@@ -54,26 +54,24 @@ Clientgedragsblokkering is effectief omdat hiermee niet alleen wordt voorkomen d
 
 Op gedrag gebaseerde detecties worden benoemd op basis van de [MITRE ATT-&CK Matrix voor Enterprise.](https://attack.mitre.org/matrices/enterprise) De naamgevingsconventie helpt bij het identificeren van de aanvalsfase waarin het schadelijke gedrag is waargenomen:
 
-
-|Tactiek |   Naam van detectiebedreiging |
+|Tactiek | Naam van detectiebedreiging |
 |----|----|
 |Eerste toegang | `Behavior:Win32/InitialAccess.*!ml` |
-|Uitvoering  | `Behavior:Win32/Execution.*!ml` |
-|Persistentie    | `Behavior:Win32/Persistence.*!ml` |
-|Escalatie van bevoegdheden   | `Behavior:Win32/PrivilegeEscalation.*!ml` |
-|Defense Ontwijking    | `Behavior:Win32/DefenseEvasion.*!ml` |
-|Referentietoegang  | `Behavior:Win32/CredentialAccess.*!ml` |
-|Detectie  | `Behavior:Win32/Discovery.*!ml` |
+|Uitvoering | `Behavior:Win32/Execution.*!ml` |
+|Persistentie | `Behavior:Win32/Persistence.*!ml` |
+|Escalatie van bevoegdheden | `Behavior:Win32/PrivilegeEscalation.*!ml` |
+|Defense Ontwijking | `Behavior:Win32/DefenseEvasion.*!ml` |
+|Referentietoegang | `Behavior:Win32/CredentialAccess.*!ml` |
+|Detectie | `Behavior:Win32/Discovery.*!ml` |
 |Zijbeweging | `Behavior:Win32/LateralMovement.*!ml` |
-|Verzameling |   `Behavior:Win32/Collection.*!ml` |
+|Verzameling | `Behavior:Win32/Collection.*!ml` |
 |Command and Control | `Behavior:Win32/CommandAndControl.*!ml` |
-|Exfiltration   | `Behavior:Win32/Exfiltration.*!ml` |
+|Exfiltration | `Behavior:Win32/Exfiltration.*!ml` |
 |Gevolg | `Behavior:Win32/Impact.*!ml` |
-|Niet-gecategoriseerd  | `Behavior:Win32/Generic.*!ml` |
+|Niet-gecategoriseerd | `Behavior:Win32/Generic.*!ml` |
 
 > [!TIP]
 > Zie recente wereldwijde bedreigingsactiviteit voor meer informatie **[over specifieke bedreigingen.](https://www.microsoft.com/wdsi/threats)**
-
 
 ## <a name="configuring-client-behavioral-blocking"></a>Clientgedragsblokkering configureren
 
@@ -88,4 +86,3 @@ Als uw organisatie Defender voor Eindpunt gebruikt, is clientgedragsblokkering s
 - [Kwetsbaarheid voor aanvallen verminderen](attack-surface-reduction.md)
 
 - [Beveiliging van de volgende generatie](configure-microsoft-defender-antivirus-features.md) (antivirus, antimalware en andere mogelijkheden voor bedreigingsbeveiliging)
-

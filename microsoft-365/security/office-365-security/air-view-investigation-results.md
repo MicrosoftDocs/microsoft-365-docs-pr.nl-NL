@@ -19,12 +19,12 @@ description: Tijdens en na een geautomatiseerd onderzoek in Microsoft 365, kunt 
 ms.date: 01/29/2021
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: fc7c61fae83f2d10f8b66cbfce86bcee6e3a5bd6
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: ef91a3b218c2dda671bf7d07bf2615001bd20ebc
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878422"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53290133"
 ---
 # <a name="details-and-results-of-an-automated-investigation-in-microsoft-365"></a>Details en resultaten van een geautomatiseerd onderzoek in Microsoft 365
 
@@ -32,10 +32,10 @@ ms.locfileid: "52878422"
 - [Abonnement 2 voor Microsoft Defender voor Office 365](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Wanneer een [geautomatiseerd onderzoek](office-365-air.md) plaatsvindt in Microsoft Defender [voor Office 365,](defender-for-office-365.md)zijn details over dat onderzoek beschikbaar tijdens en na het geautomatiseerde onderzoeksproces. Als u de benodigde machtigingen hebt, kunt u deze details bekijken in de Microsoft 365 Defender-portal. Onderzoeksdetails bieden u de actuele status en de mogelijkheid om in behandeling zijnde acties goed te keuren.
+Wanneer een [geautomatiseerd onderzoek](office-365-air.md) plaatsvindt in Microsoft Defender [voor Office 365,](defender-for-office-365.md)zijn details over dat onderzoek beschikbaar tijdens en na het geautomatiseerde onderzoeksproces. Als u de benodigde machtigingen hebt, kunt u deze details bekijken in de Microsoft 365 Defender portal. Onderzoeksdetails bieden u de actuele status en de mogelijkheid om in behandeling zijnde acties goed te keuren.
 
 > [!TIP]
-> Bekijk de nieuwe, geïntegreerde onderzoekspagina in de Microsoft 365 Defender-portal. Zie [(NIEUW!) voor meer informatie. Geïntegreerde onderzoekspagina](../defender/m365d-autoir-results.md#new-unified-investigation-page).
+> Bekijk de nieuwe, geïntegreerde onderzoekspagina in de Microsoft 365 Defender portal. Zie [(NIEUW!) voor meer informatie. Geïntegreerde onderzoekspagina](../defender/m365d-autoir-results.md#new-unified-investigation-page).
 
 ## <a name="investigation-status"></a>Onderzoeksstatus
 
@@ -50,19 +50,19 @@ De onderzoeksstatus geeft de voortgang van de analyse en acties aan. Terwijl het
 |**Starten**|Het onderzoek is gestart en het wachten is om te starten.|
 |**Uitvoeren**|Het onderzoeksproces is gestart en is aan de gang. Deze status treedt ook op wanneer [acties in behandeling](air-review-approve-pending-completed-actions.md#approve-or-reject-pending-actions) zijn goedgekeurd.|
 |**Geen bedreigingen gevonden**|Het onderzoek is voltooid en er zijn geen bedreigingen (gebruikersaccount, e-mailbericht, URL of bestand) geïdentificeerd. <p> **TIP**: Als u vermoedt dat er iets is gemist (zoals een onwaar negatief), kunt u actie ondernemen met [Threat Explorer.](threat-explorer.md)|
-|**Gevonden bedreigingen**|Het geautomatiseerde onderzoek heeft problemen gevonden, maar er zijn geen specifieke herstelacties om deze problemen op te lossen. <p> De **status Bedreigingen** gevonden kan optreden wanneer een bepaald type gebruikersactiviteit is geïdentificeerd, maar er zijn geen opschoningsacties beschikbaar. Voorbeelden hiervan zijn een van de volgende gebruikersactiviteiten: <br/>- Een [preventie-gebeurtenis voor gegevensverlies](../../compliance/dlp-learn-about-dlp.md)<br/>- Een e-mail verzenden van een afwijking<br/>- Verzonden malware<br/>- Verzonden phish <p> Bij het onderzoek zijn geen schadelijke URL's, bestanden of e-mailberichten gevonden die moeten worden opgelost en zijn er geen postvakactiviteiten die moeten worden opgelost, zoals het uitschakelen van doorsturen of delegeren. <p> **TIP**: Als u vermoedt dat er iets is gemist (zoals een onwaar negatief), kunt u dit onderzoeken en actie ondernemen met [Threat Explorer.](threat-explorer.md)|
-|**Beëindigd door systeem**|Het onderzoek is gestopt. Een onderzoek kan om verschillende redenen stoppen: <br/>- De lopende acties van het onderzoek zijn verlopen. Acties in behandeling zijn een time-out na het wachten op goedkeuring voor een week.<br/>- Er zijn te veel acties. Als er bijvoorbeeld te veel gebruikers op kwaadaardige URL's klikken, kan dit de mogelijkheid van het onderzoek overschrijden om alle analysen uit te voeren, zodat het onderzoek wordt stopgezet.<p> **TIP**: Als een onderzoek stopt voordat er acties zijn ondernomen, kunt u [Threat Explorer](threat-explorer.md) gebruiken om bedreigingen te vinden en aan te pakken.|
+|**Gevonden bedreigingen**|Het geautomatiseerde onderzoek heeft problemen gevonden, maar er zijn geen specifieke herstelacties om deze problemen op te lossen. <p> De **status Bedreigingen** gevonden kan optreden wanneer een bepaald type gebruikersactiviteit is geïdentificeerd, maar er zijn geen opschoningsacties beschikbaar. Voorbeelden hiervan zijn een van de volgende gebruikersactiviteiten: <ul><li>Een [preventiegebeurtenis voor gegevensverlies](../../compliance/dlp-learn-about-dlp.md)</li><li>Een e-mail die een afwijking verstuurt</li><li>Verzonden malware</li><li>Verzonden phish</li></ul> <p> Bij het onderzoek zijn geen schadelijke URL's, bestanden of e-mailberichten gevonden die moeten worden opgelost en zijn er geen postvakactiviteiten die moeten worden opgelost, zoals het uitschakelen van doorsturen of delegeren. <p> **TIP**: Als u vermoedt dat er iets is gemist (zoals een onwaar negatief), kunt u dit onderzoeken en actie ondernemen met [Threat Explorer](threat-explorer.md)|
+|**Beëindigd door systeem**|Het onderzoek is gestopt. Een onderzoek kan om verschillende redenen stoppen: <ul><li>De lopende acties van het onderzoek zijn verlopen. In behandeling zijnde acties time-out na het wachten op goedkeuring voor een week</li><li>Er zijn te veel acties. Als er bijvoorbeeld te veel gebruikers op kwaadaardige URL's klikken, kan dit de mogelijkheid van het onderzoek overschrijden om alle analysen uit te voeren, zodat het onderzoek wordt stopgezet.</li></ul> <p> **TIP**: Als een onderzoek stopt voordat er acties zijn ondernomen, kunt u [Threat Explorer](threat-explorer.md) gebruiken om bedreigingen te vinden en aan te pakken.|
 |**Actie in behandeling**|Het onderzoek heeft een bedreiging gevonden, zoals een schadelijke e-mail, een kwaadaardige URL of een riskante postvakinstelling, en een actie om deze bedreiging te herstellen wacht op [goedkeuring.](air-review-approve-pending-completed-actions.md) <p> De **status Actie in** behandeling wordt geactiveerd wanneer een bedreiging met een bijbehorende actie wordt gevonden. De lijst met lopende acties kan echter toenemen naarmate een onderzoek wordt uitgevoerd. Bekijk de details van het onderzoek om te zien of andere items nog moeten worden voltooid.|
 |**Herstel**|Het onderzoek is voltooid en alle herstelacties zijn goedgekeurd (aangegeven als volledig hersteld). <p> **OPMERKING:** Goedgekeurde herstelacties kunnen fouten bevatten waardoor de acties niet kunnen worden ondernomen. Ongeacht of herstelacties zijn voltooid, wordt de onderzoeksstatus niet gewijzigd. Bekijk de details van het onderzoek.|
 |**Gedeeltelijk gesaneerd**|Het onderzoek heeft geleid tot herstelacties, en sommige zijn goedgekeurd en voltooid. Andere acties zijn nog in [behandeling.](air-review-approve-pending-completed-actions.md)|
-|**Mislukt**|Ten minste één onderzoeksanalyser liep tegen een probleem aan waarbij het niet goed kon worden voltooid. <p> **OPMERKING:** Als een onderzoek mislukt nadat herstelacties zijn goedgekeurd, zijn de herstelacties mogelijk nog steeds gelukt. Bekijk de onderzoeksdetails. |
+|**Mislukt**|Ten minste één onderzoeksanalyser liep tegen een probleem aan waarbij het niet goed kon worden voltooid. <p> **OPMERKING** Als een onderzoek mislukt nadat herstelacties zijn goedgekeurd, zijn de herstelacties mogelijk nog steeds gelukt. Bekijk de onderzoeksdetails.|
 |**Wachtrij door beperking**|Er wordt een onderzoek in een wachtrij gehouden. Wanneer andere onderzoeken zijn voltooid, worden in wachtrijen onderzoeken gestart. Beperking helpt slechte serviceprestaties te voorkomen.  <p> **TIP**: Acties in behandeling kunnen het aantal nieuwe onderzoeken beperken. Zorg ervoor dat u [in behandeling zijnde acties goedkeurt (of weigert).](air-review-approve-pending-completed-actions.md#approve-or-reject-pending-actions)|
 |**Beëindigd door beperking**|Als een onderzoek te lang in de wachtrij wordt gehouden, wordt het gestopt. <p> **TIP**: U kunt [een onderzoek starten vanuit Threat Explorer.](automated-investigation-response-office.md#example-a-security-administrator-triggers-an-investigation-from-threat-explorer)|
 |
 
 ## <a name="view-details-of-an-investigation"></a>Details van een onderzoek weergeven
 
-1. Ga naar de Microsoft 365 Defender-portal <https://security.microsoft.com> () en meld u aan.
+1. Ga naar de Microsoft 365 Defender portal <https://security.microsoft.com> () en meld u aan.
 2. Selecteer actiecentrum in het **navigatiedeelvenster.**
 3. Selecteer een actie **op de** **tabbladen** In behandeling of Geschiedenis. Het deelvenster Flyout wordt geopend.
 4. Selecteer in het deelvenster Flyout de optie **Onderzoekspagina openen.** 
@@ -72,7 +72,7 @@ De onderzoeksstatus geeft de voortgang van de analyse en acties aan. Terwijl het
 
 Bepaalde soorten waarschuwingen leiden tot automatisch onderzoek in Microsoft 365. Zie waarschuwingsbeleidsregels voor automatische onderzoeken voor [meer informatie.](office-365-air.md#which-alert-policies-trigger-automated-investigations)
 
-1. Ga naar de Microsoft 365 Defender-portal <https://security.microsoft.com> () en meld u aan.
+1. Ga naar de Microsoft 365 Defender portal <https://security.microsoft.com> () en meld u aan.
 2. Selecteer actiecentrum in het **navigatiedeelvenster.**
 3. Selecteer een actie **op de** **tabbladen** In behandeling of Geschiedenis. Het deelvenster Flyout wordt geopend.
 4. Selecteer in het deelvenster Flyout de optie **Onderzoekspagina openen.**
