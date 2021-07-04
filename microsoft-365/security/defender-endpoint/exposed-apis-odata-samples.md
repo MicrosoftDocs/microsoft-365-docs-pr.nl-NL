@@ -17,46 +17,46 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: a2570aba26d65a573c19777bc70db77f4118e336
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: ff13a382f7c59083c217f937b996e63abc2ff52a
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52771043"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53290001"
 ---
-# <a name="odata-queries-with-microsoft-defender-for-endpoint"></a><span data-ttu-id="72dee-104">OData-query's met Microsoft Defender voor Eindpunt</span><span class="sxs-lookup"><span data-stu-id="72dee-104">OData queries with Microsoft Defender for Endpoint</span></span>
+# <a name="odata-queries-with-microsoft-defender-for-endpoint"></a><span data-ttu-id="2f277-104">OData-query's met Microsoft Defender voor Eindpunt</span><span class="sxs-lookup"><span data-stu-id="2f277-104">OData queries with Microsoft Defender for Endpoint</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-<span data-ttu-id="72dee-105">**Van toepassing op:**</span><span class="sxs-lookup"><span data-stu-id="72dee-105">**Applies to:**</span></span>
-- [<span data-ttu-id="72dee-106">Microsoft Defender voor Eindpunt</span><span class="sxs-lookup"><span data-stu-id="72dee-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/?linkid=2154037)
+<span data-ttu-id="2f277-105">**Van toepassing op:**</span><span class="sxs-lookup"><span data-stu-id="2f277-105">**Applies to:**</span></span>
+- [<span data-ttu-id="2f277-106">Microsoft Defender voor Eindpunt</span><span class="sxs-lookup"><span data-stu-id="2f277-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/?linkid=2154037)
 
-- <span data-ttu-id="72dee-107">Wilt u Microsoft Defender voor Eindpunt ervaren?</span><span class="sxs-lookup"><span data-stu-id="72dee-107">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="72dee-108">Meld u aan voor een gratis proefabonnement.</span><span class="sxs-lookup"><span data-stu-id="72dee-108">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+- <span data-ttu-id="2f277-107">Wilt u Microsoft Defender voor Eindpunt ervaren?</span><span class="sxs-lookup"><span data-stu-id="2f277-107">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="2f277-108">Meld u aan voor een gratis proefversie.</span><span class="sxs-lookup"><span data-stu-id="2f277-108">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
-<span data-ttu-id="72dee-109">Zie OData V4-query's als u niet bekend bent met [OData-query's](https://www.odata.org/documentation/)</span><span class="sxs-lookup"><span data-stu-id="72dee-109">If you are not familiar with OData queries, see: [OData V4 queries](https://www.odata.org/documentation/)</span></span>
+<span data-ttu-id="2f277-109">Zie OData V4-query's als u niet bekend bent met [OData-query's](https://www.odata.org/documentation/)</span><span class="sxs-lookup"><span data-stu-id="2f277-109">If you are not familiar with OData queries, see: [OData V4 queries](https://www.odata.org/documentation/)</span></span>
 
-<span data-ttu-id="72dee-110">Niet alle eigenschappen kunnen worden gefilterd.</span><span class="sxs-lookup"><span data-stu-id="72dee-110">Not all properties are filterable.</span></span>
+<span data-ttu-id="2f277-110">Niet alle eigenschappen kunnen worden gefilterd.</span><span class="sxs-lookup"><span data-stu-id="2f277-110">Not all properties are filterable.</span></span>
 
-## <a name="properties-that-support-filter"></a><span data-ttu-id="72dee-111">Eigenschappen die ondersteuning bieden $filter:</span><span class="sxs-lookup"><span data-stu-id="72dee-111">Properties that support $filter:</span></span>
-```
-- [Alert](alerts.md): ```alertCreationTime```, ```lastUpdateTime```, ```incidentId```,```InvestigationId```, ```status```, ```severity``` and ```category```.
-- [Machine](machine.md): ```ComputerDnsName```, ```LastSeen```, ```HealthStatus```, ```OsPlatform```, ```RiskScore``` and ```RbacGroupId```.
-- [MachineAction](machineaction.md): ```Status```, ```MachineId```, ```Type```, ```Requestor``` and ```CreationDateTimeUtc```.
-- [Indicator](ti-indicator.md): ```indicatorValue```, ```indicatorType```, ```creationTimeDateTimeUtc```, ```createdBy```, ```severity ``` and ```action ```.
-```
-### <a name="example-1"></a><span data-ttu-id="72dee-112">Voorbeeld 1</span><span class="sxs-lookup"><span data-stu-id="72dee-112">Example 1</span></span>
+## <a name="properties-that-support-filter"></a><span data-ttu-id="2f277-111">Eigenschappen die ondersteuning bieden voor $filter</span><span class="sxs-lookup"><span data-stu-id="2f277-111">Properties that support $filter</span></span>
 
-<span data-ttu-id="72dee-113">Ontvang 10 meest recente waarschuwingen met verwante gegevens:</span><span class="sxs-lookup"><span data-stu-id="72dee-113">Get 10 latest Alerts with related Evidence:</span></span>
+- <span data-ttu-id="2f277-112">[Waarschuwing:](alerts.md) `alertCreationTime` , , , , en `lastUpdateTime` `incidentId` `InvestigationId` `status` `severity` `category` .</span><span class="sxs-lookup"><span data-stu-id="2f277-112">[Alert](alerts.md): `alertCreationTime`, `lastUpdateTime`, `incidentId`,`InvestigationId`, `status`, `severity` and `category`.</span></span>
+- <span data-ttu-id="2f277-113">[Machine](machine.md): `ComputerDnsName` , , , en `LastSeen` `HealthStatus` `OsPlatform` `RiskScore` `RbacGroupId` .</span><span class="sxs-lookup"><span data-stu-id="2f277-113">[Machine](machine.md): `ComputerDnsName`, `LastSeen`, `HealthStatus`, `OsPlatform`, `RiskScore` and `RbacGroupId`.</span></span>
+- <span data-ttu-id="2f277-114">[MachineAction:](machineaction.md) `Status` , , en `MachineId` `Type` `Requestor` `CreationDateTimeUtc` .</span><span class="sxs-lookup"><span data-stu-id="2f277-114">[MachineAction](machineaction.md): `Status`, `MachineId`, `Type`, `Requestor` and `CreationDateTimeUtc`.</span></span>
+- <span data-ttu-id="2f277-115">[Indicator](ti-indicator.md): `indicatorValue` , , , en `indicatorType` `creationTimeDateTimeUtc` `createdBy` `severity` `action` .</span><span class="sxs-lookup"><span data-stu-id="2f277-115">[Indicator](ti-indicator.md): `indicatorValue`, `indicatorType`, `creationTimeDateTimeUtc`, `createdBy`, `severity` and `action`.</span></span>
+
+### <a name="example-1"></a><span data-ttu-id="2f277-116">Voorbeeld 1</span><span class="sxs-lookup"><span data-stu-id="2f277-116">Example 1</span></span>
+
+<span data-ttu-id="2f277-117">Ontvang 10 meest recente waarschuwingen met verwante gegevens:</span><span class="sxs-lookup"><span data-stu-id="2f277-117">Get 10 latest Alerts with related Evidence:</span></span>
 
 ```http
 HTTP GET  https://api.securitycenter.microsoft.com/api/alerts?$top=10&$expand=evidence
 ```
 
-<span data-ttu-id="72dee-114">**Antwoord:**</span><span class="sxs-lookup"><span data-stu-id="72dee-114">**Response:**</span></span>
+#### <a name="response"></a><span data-ttu-id="2f277-118">Antwoord</span><span class="sxs-lookup"><span data-stu-id="2f277-118">Response</span></span>
 
 ```json
 {
@@ -193,15 +193,15 @@ HTTP GET  https://api.securitycenter.microsoft.com/api/alerts?$top=10&$expand=ev
 }
 ```
 
-### <a name="example-2"></a><span data-ttu-id="72dee-115">Voorbeeld 2</span><span class="sxs-lookup"><span data-stu-id="72dee-115">Example 2</span></span>
+### <a name="example-2"></a><span data-ttu-id="2f277-119">Voorbeeld 2</span><span class="sxs-lookup"><span data-stu-id="2f277-119">Example 2</span></span>
 
-<span data-ttu-id="72dee-116">Alle waarschuwingen voor het laatst bijgewerkt na 2019-11-22 00:00:00:</span><span class="sxs-lookup"><span data-stu-id="72dee-116">Get all the alerts last updated after 2019-11-22 00:00:00:</span></span>
+<span data-ttu-id="2f277-120">Alle waarschuwingen voor het laatst bijgewerkt na 2019-11-22 00:00:00:</span><span class="sxs-lookup"><span data-stu-id="2f277-120">Get all the alerts last updated after 2019-11-22 00:00:00:</span></span>
 
 ```http
 HTTP GET  https://api.securitycenter.microsoft.com/api/alerts?$filter=lastUpdateTime+ge+2019-11-22T00:00:00Z
 ```
 
-<span data-ttu-id="72dee-117">**Antwoord:**</span><span class="sxs-lookup"><span data-stu-id="72dee-117">**Response:**</span></span>
+#### <a name="response"></a><span data-ttu-id="2f277-121">Antwoord</span><span class="sxs-lookup"><span data-stu-id="2f277-121">Response</span></span>
 
 ```json
 {
@@ -255,15 +255,15 @@ HTTP GET  https://api.securitycenter.microsoft.com/api/alerts?$filter=lastUpdate
 }
 ```
 
-### <a name="example-3"></a><span data-ttu-id="72dee-118">Voorbeeld 3</span><span class="sxs-lookup"><span data-stu-id="72dee-118">Example 3</span></span>
+### <a name="example-3"></a><span data-ttu-id="2f277-122">Voorbeeld 3</span><span class="sxs-lookup"><span data-stu-id="2f277-122">Example 3</span></span>
 
-<span data-ttu-id="72dee-119">Haal alle apparaten op met 'High' 'RiskScore':</span><span class="sxs-lookup"><span data-stu-id="72dee-119">Get all the devices with 'High' 'RiskScore':</span></span>
+<span data-ttu-id="2f277-123">Haal alle apparaten op met 'High' 'RiskScore':</span><span class="sxs-lookup"><span data-stu-id="2f277-123">Get all the devices with 'High' 'RiskScore':</span></span>
 
 ```http
 HTTP GET  https://api.securitycenter.microsoft.com/api/machines?$filter=riskScore+eq+'High'
 ```
 
-<span data-ttu-id="72dee-120">**Antwoord:**</span><span class="sxs-lookup"><span data-stu-id="72dee-120">**Response:**</span></span>
+#### <a name="response"></a><span data-ttu-id="2f277-124">Antwoord</span><span class="sxs-lookup"><span data-stu-id="2f277-124">Response</span></span>
 
 ```json
 {
@@ -308,15 +308,15 @@ HTTP GET  https://api.securitycenter.microsoft.com/api/machines?$filter=riskScor
 }
 ```
 
-### <a name="example-4"></a><span data-ttu-id="72dee-121">Voorbeeld 4</span><span class="sxs-lookup"><span data-stu-id="72dee-121">Example 4</span></span>
+### <a name="example-4"></a><span data-ttu-id="2f277-125">Voorbeeld 4</span><span class="sxs-lookup"><span data-stu-id="2f277-125">Example 4</span></span>
 
-<span data-ttu-id="72dee-122">Top 100 apparaten met 'HealthStatus' is niet gelijk aan 'Actief':</span><span class="sxs-lookup"><span data-stu-id="72dee-122">Get top 100 devices with 'HealthStatus' not equals to 'Active':</span></span>
+<span data-ttu-id="2f277-126">Top 100 apparaten met 'HealthStatus' is niet gelijk aan 'Actief':</span><span class="sxs-lookup"><span data-stu-id="2f277-126">Get top 100 devices with 'HealthStatus' not equals to 'Active':</span></span>
 
 ```http
 HTTP GET  https://api.securitycenter.microsoft.com/api/machines?$filter=healthStatus+ne+'Active'&$top=100 
 ```
 
-<span data-ttu-id="72dee-123">**Antwoord:**</span><span class="sxs-lookup"><span data-stu-id="72dee-123">**Response:**</span></span>
+#### <a name="response"></a><span data-ttu-id="2f277-127">Antwoord</span><span class="sxs-lookup"><span data-stu-id="2f277-127">Response</span></span>
 
 ```json
 {
@@ -361,15 +361,15 @@ HTTP GET  https://api.securitycenter.microsoft.com/api/machines?$filter=healthSt
 }
 ```
 
-### <a name="example-5"></a><span data-ttu-id="72dee-124">Voorbeeld 5</span><span class="sxs-lookup"><span data-stu-id="72dee-124">Example 5</span></span>
+### <a name="example-5"></a><span data-ttu-id="2f277-128">Voorbeeld 5</span><span class="sxs-lookup"><span data-stu-id="2f277-128">Example 5</span></span>
 
-<span data-ttu-id="72dee-125">Haal alle apparaten op die het laatst zijn gezien na 2018-10-20:</span><span class="sxs-lookup"><span data-stu-id="72dee-125">Get all the devices that last seen after 2018-10-20:</span></span>
+<span data-ttu-id="2f277-129">Haal alle apparaten op die het laatst zijn gezien na 2018-10-20:</span><span class="sxs-lookup"><span data-stu-id="2f277-129">Get all the devices that last seen after 2018-10-20:</span></span>
 
 ```http
 HTTP GET  https://api.securitycenter.microsoft.com/api/machines?$filter=lastSeen gt 2018-08-01Z
 ```
 
-<span data-ttu-id="72dee-126">**Antwoord:**</span><span class="sxs-lookup"><span data-stu-id="72dee-126">**Response:**</span></span>
+#### <a name="response"></a><span data-ttu-id="2f277-130">Antwoord</span><span class="sxs-lookup"><span data-stu-id="2f277-130">Response</span></span>
 
 ```json
 {
@@ -414,15 +414,15 @@ HTTP GET  https://api.securitycenter.microsoft.com/api/machines?$filter=lastSeen
 }
 ```
 
-### <a name="example-6"></a><span data-ttu-id="72dee-127">Voorbeeld 6</span><span class="sxs-lookup"><span data-stu-id="72dee-127">Example 6</span></span>
+### <a name="example-6"></a><span data-ttu-id="2f277-131">Voorbeeld 6</span><span class="sxs-lookup"><span data-stu-id="2f277-131">Example 6</span></span>
 
-<span data-ttu-id="72dee-128">Alle antivirusscans die de gebruiker Analyst@examples.onmicrosoft.com gemaakt met Microsoft Defender voor eindpunt:</span><span class="sxs-lookup"><span data-stu-id="72dee-128">Get all the Anti-Virus scans that the user Analyst@examples.onmicrosoft.com created using Microsoft Defender for Endpoint:</span></span>
+<span data-ttu-id="2f277-132">Alle antivirusscans die de gebruiker Analyst@examples.onmicrosoft.com gemaakt met Microsoft Defender voor eindpunt:</span><span class="sxs-lookup"><span data-stu-id="2f277-132">Get all the Anti-Virus scans that the user Analyst@examples.onmicrosoft.com created using Microsoft Defender for Endpoint:</span></span>
 
 ```http
 HTTP GET  https://api.securitycenter.microsoft.com/api/machineactions?$filter=requestor eq 'Analyst@contoso.com' and type eq 'RunAntiVirusScan'
 ```
 
-<span data-ttu-id="72dee-129">**Antwoord:**</span><span class="sxs-lookup"><span data-stu-id="72dee-129">**Response:**</span></span>
+#### <a name="response"></a><span data-ttu-id="2f277-133">Antwoord</span><span class="sxs-lookup"><span data-stu-id="2f277-133">Response</span></span>
 
 ```json
 json{
@@ -446,29 +446,29 @@ json{
 }
 ```
 
-### <a name="example-7"></a><span data-ttu-id="72dee-130">Voorbeeld 7</span><span class="sxs-lookup"><span data-stu-id="72dee-130">Example 7</span></span>
+### <a name="example-7"></a><span data-ttu-id="2f277-134">Voorbeeld 7</span><span class="sxs-lookup"><span data-stu-id="2f277-134">Example 7</span></span>
 
-<span data-ttu-id="72dee-131">Krijg het aantal geopende waarschuwingen voor een specifiek apparaat:</span><span class="sxs-lookup"><span data-stu-id="72dee-131">Get the count of open alerts for a specific device:</span></span>
+<span data-ttu-id="2f277-135">Krijg het aantal geopende waarschuwingen voor een specifiek apparaat:</span><span class="sxs-lookup"><span data-stu-id="2f277-135">Get the count of open alerts for a specific device:</span></span>
 
 ```http
 HTTP GET  https://api.securitycenter.microsoft.com/api/machines/123321d0c675eaa415b8e5f383c6388bff446c62/alerts/$count?$filter=status ne 'Resolved'
 ```
 
-<span data-ttu-id="72dee-132">**Antwoord:**</span><span class="sxs-lookup"><span data-stu-id="72dee-132">**Response:**</span></span>
+#### <a name="response"></a><span data-ttu-id="2f277-136">Antwoord</span><span class="sxs-lookup"><span data-stu-id="2f277-136">Response</span></span>
 
 ```json
 4
 ```
 
-### <a name="example-8"></a><span data-ttu-id="72dee-133">Voorbeeld 8</span><span class="sxs-lookup"><span data-stu-id="72dee-133">Example 8</span></span>
+### <a name="example-8"></a><span data-ttu-id="2f277-137">Voorbeeld 8</span><span class="sxs-lookup"><span data-stu-id="2f277-137">Example 8</span></span>
 
-<span data-ttu-id="72dee-134">Alle apparaten met 'computerDnsName' krijgen, beginnend met 'mymachine':</span><span class="sxs-lookup"><span data-stu-id="72dee-134">Get all the devices with 'computerDnsName' starting with 'mymachine':</span></span>
+<span data-ttu-id="2f277-138">Alle apparaten met 'computerDnsName' krijgen, beginnend met 'mymachine':</span><span class="sxs-lookup"><span data-stu-id="2f277-138">Get all the devices with 'computerDnsName' starting with 'mymachine':</span></span>
 
 ```http
 HTTP GET  https://api.securitycenter.microsoft.com/api/machines?$filter=startswith(computerDnsName,'mymachine')
 ```
 
-<span data-ttu-id="72dee-135">**Antwoord:**</span><span class="sxs-lookup"><span data-stu-id="72dee-135">**Response:**</span></span>
+#### <a name="response"></a><span data-ttu-id="2f277-139">Antwoord</span><span class="sxs-lookup"><span data-stu-id="2f277-139">Response</span></span>
 
 ```json
 json{
@@ -513,5 +513,6 @@ json{
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="72dee-136">Zie ook</span><span class="sxs-lookup"><span data-stu-id="72dee-136">See also</span></span>
-- [<span data-ttu-id="72dee-137">Microsoft Defender voor eindpunt-API's</span><span class="sxs-lookup"><span data-stu-id="72dee-137">Microsoft Defender for Endpoint APIs</span></span>](apis-intro.md)
+## <a name="see-also"></a><span data-ttu-id="2f277-140">Zie ook</span><span class="sxs-lookup"><span data-stu-id="2f277-140">See also</span></span>
+
+[<span data-ttu-id="2f277-141">Microsoft Defender voor eindpunt-API's</span><span class="sxs-lookup"><span data-stu-id="2f277-141">Microsoft Defender for Endpoint APIs</span></span>](apis-intro.md)
