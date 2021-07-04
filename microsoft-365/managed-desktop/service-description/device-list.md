@@ -8,12 +8,12 @@ ms.localizationpriority: normal
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 6e5e6b87f17fd4b13945b155bd7e521881242345
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: fd378e6aba9ac9bf10dcd9633da503406ab7410a
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53230053"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287889"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Microsoft Managed Desktop apparaten
 
@@ -32,9 +32,8 @@ Als u wilt worden Microsoft Managed Desktop, moet een apparaat een van de volgen
 
 De koppelingen naar apparaten hier zijn alleen ter referentie. Als u apparaten wilt bestellen, werkt u samen met uw commerciële kanaalcontactcontacten om ervoor te zorgen dat u de juiste configuraties kiest. In deze tabel is de *archiefdatum* de datum waarop deze modellen een kortere levensduur Microsoft Managed Desktop hebben; dergelijke apparaten die na deze datum zijn aan boord, ontvangen geen volledige ondersteuningsperiode van drie jaar van Microsoft Managed Desktop. Gearchiveerde apparaten worden ook weergegeven in [Microsoft Managed Desktop gearchiveerde apparaten.](archived-device-list.md) *De pensioendatum* is de datum waarop dit model helemaal niet meer wordt ondersteund door Microsoft Managed Desktop model. Op die datum worden alle geregistreerde apparaten van dit model verwijderd uit Microsoft Managed Desktop, ongeacht wanneer ze zijn geregistreerd.
 
->[!NOTE]
->Apparaten kunnen op elk moment aan deze tabel worden toegevoegd, maar we zullen u 90 dagen van opzegtermijn voorzien voor wijzigingen die van invloed zijn op archief- of pensioendatum. De apparaten die het laatst zijn toegevoegd, zijn gemarkeerd met **\*** .
-
+> [!NOTE]
+> Apparaten kunnen op elk moment aan deze tabel worden toegevoegd, maar we zullen u 90 dagen van opzegtermijn voorzien voor wijzigingen die van invloed zijn op archief- of pensioendatum. De apparaten die het laatst zijn toegevoegd, zijn gemarkeerd met **\*** .
 
 ## <a name="microsoft-managed-desktop-devices"></a>Microsoft Managed Desktop Apparaten
 
@@ -85,13 +84,14 @@ Bovendien moet het apparaat ook aan deze criteria voldoen:
 - De eerste Windows nog niet voltooid.
 - Worden geregistreerd met Microsoft Managed Desktop met de [functie Apparaatregistratie](../get-started/register-devices-self.md)
 
->[!NOTE]
->Apparaten met een 2,0 GHz of snellere processor bieden een veel betere ervaring voor gebruikers die betrokken zijn bij deze activiteiten:
->- Videovergaderingen gebruiken met Teams. Zie [Hardwarevereisten voor Microsoft Teams](/microsoftteams/hardware-requirements-for-the-teams-app) voor meer informatie.
->-  Eén apparaat gebruiken voor verschillende werkbelastingen.
->- Meerdere beeldschermen gebruiken.
+> [!NOTE]
+> Apparaten met een 2,0 GHz of snellere processor bieden een veel betere ervaring voor gebruikers die betrokken zijn bij deze activiteiten:
+>
+> - Videovergaderingen gebruiken met Teams. Zie [Hardwarevereisten voor Microsoft Teams](/microsoftteams/hardware-requirements-for-the-teams-app) voor meer informatie.
+> - Eén apparaat gebruiken voor verschillende werkbelastingen.
+> - Meerdere beeldschermen gebruiken.
 
-**Meer Help**
+## <a name="more-help"></a>Meer hulp
 
 Deze bronnen kunnen helpen bij het beantwoorden van vragen die u mogelijk hebt over specifieke apparaten:
 

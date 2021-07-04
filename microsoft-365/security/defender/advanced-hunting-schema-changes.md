@@ -1,5 +1,5 @@
 ---
-title: Wijzigingen in het geavanceerde Microsoft 365 Defender
+title: Naamgevingswijzigingen in het geavanceerde Microsoft 365 Defender schema voor de jacht
 description: Naamgevingswijzigingen bijhouden en controleren tabellen en kolommen in het geavanceerde schema voor de jacht
 keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, microsoft 365, m365, search, query, telemetry, schema reference, kusto, table, data, naming changes, rename
 search.product: eADQiWindows 10XVcnh
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: a387892dde0fbe96e4a523b2247448a3c7e374b8
-ms.sourcegitcommit: fb6c5e04ade1e82b26b2f911577b5ac721f1c544
+ms.openlocfilehash: 9406653a2d16c83f974e2a0ce7597b5c4f833252
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52470494"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289491"
 ---
 # <a name="advanced-hunting-schema---naming-changes"></a>Geavanceerd schema voor de jacht - Naamgevingswijzigingen
 
@@ -55,22 +55,22 @@ Naamgevingswijzigingen worden automatisch toegepast op query's die zijn opgeslag
 
 | Kolomnaam | Oorspronkelijke waardenaam | Nieuwe waardenaam | Reden voor wijziging
 |--|--|--|--|
-| `DetectionSource` | MCAS |    Microsoft Cloud App Security | Rebranding |
-| `DetectionSource` | WindowsDefenderAtp|   EDR| Rebranding |
+| `DetectionSource` | MCAS | Microsoft Cloud App Security | Rebranding |
+| `DetectionSource` | WindowsDefenderAtp| EDR| Rebranding |
 | `DetectionSource` | WindowsDefenderAv | Antivirus | Rebranding |
 | `DetectionSource` | WindowsDefenderSmartScreen |  SmartScreen | Rebranding |
-| `DetectionSource` | CustomerTI |  Aangepaste TI | Rebranding |
+| `DetectionSource` | CustomerTI | Aangepaste TI | Rebranding |
 | `DetectionSource` | OfficeATP | Microsoft Defender voor Office 365 | Rebranding |
-| `DetectionSource` | MTP   | Microsoft 365 Defender | Rebranding |
-| `DetectionSource` | AzureATP |    Microsoft Defender for Identity | Rebranding |
-| `DetectionSource` | CustomDetection   | Aangepaste detectie | Rebranding |
+| `DetectionSource` | MTP | Microsoft 365 Defender | Rebranding |
+| `DetectionSource` | AzureATP | Microsoft Defender for Identity | Rebranding |
+| `DetectionSource` | CustomDetection | Aangepaste detectie | Rebranding |
 | `DetectionSource` | AutomatedInvestigation |Geautomatiseerd onderzoek | Rebranding |
 | `DetectionSource` | ThreatExperts | Microsoft Threat Experts | Rebranding |
 | `DetectionSource` | TI van derden | Sensoren van derden | Rebranding |
-| `ServiceSource` | Microsoft Defender ATP| Microsoft Defender voor Eindpunt | Rebranding |
-|`ServiceSource` |Microsoft Threat Protection   | Microsoft 365 Defender | Rebranding |
-| `ServiceSource` | Office 365 ATP  |Microsoft Defender voor Office 365 | Rebranding |
-| `ServiceSource` |Azure ATP    |Microsoft Defender for Identity | Rebranding |
+| `ServiceSource` | Microsoft Defender ATP| Microsoft Defender for Endpoint | Rebranding |
+|`ServiceSource` |Microsoft Threat Protection | Microsoft 365 Defender | Rebranding |
+| `ServiceSource` | Office 365 ATP |Microsoft Defender voor Office 365 | Rebranding |
+| `ServiceSource` |Azure ATP |Microsoft Defender for Identity | Rebranding |
 
 `DetectionSource`is beschikbaar in de [tabel AlertInfo.](advanced-hunting-alertinfo-table.md) `ServiceSource`is beschikbaar in de [tabellen AlertEvidence](advanced-hunting-alertevidence-table.md) en [AlertInfo.](advanced-hunting-alertinfo-table.md) 
 
@@ -107,6 +107,6 @@ De `DeviceTvmSoftwareInventoryVulnerabilities` tabel is afgeschaft. Vervangen zi
 
 De `AppFileEvents` tabel is afgeschaft. De tabel bevat informatie die in de tabel staat, samen met `CloudAppEvents` `AppFileEvents` andere activiteiten in cloudservices.
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-topics"></a>Gerelateerde onderwerpen
 - [Overzicht van geavanceerd opsporen](advanced-hunting-overview.md)
 - [Meer informatie over het schema](advanced-hunting-schema-tables.md)

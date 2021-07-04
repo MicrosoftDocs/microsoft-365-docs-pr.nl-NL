@@ -18,12 +18,12 @@ ms.collection:
 - m365solution-overview
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 5aeaa51e5ab8974c8ca26453534396dac14b5853
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 4fffbbb519f9c31b5343e665958bcb47436a2d50
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297202"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289341"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-in-rings"></a>Microsoft Defender voor eindpunt implementeren in ringen
 
@@ -33,7 +33,7 @@ ms.locfileid: "52297202"
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+>Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
 Het implementeren van Microsoft Defender voor Endpoint kan worden uitgevoerd met behulp van een ringgebaseerde implementatiebenadering. 
 
@@ -50,31 +50,31 @@ Een ringbenadering is een methode om een set eindpunten aan boord te identificer
 
 Het implementeren van een ringgebaseerde implementatie helpt mogelijke problemen te beperken die zich kunnen voordoen tijdens de implementatie van de service. Als u eerst een bepaald aantal apparaten test, kunt u potentiële problemen identificeren en mogelijke risico's beperken die zich kunnen voordoen. 
 
-
-Tabel 1 geeft een voorbeeld van de implementatieringen die u mogelijk gebruikt. 
+Tabel 1 geeft een voorbeeld van de implementatieringen die u mogelijk gebruikt.
 
 **Tabel 1**
 
-|**Implementatiering**|**Beschrijving**|
-|:-----|:-----|
-Evalueren | Ring 1: 50 systemen identificeren voor testproeven 
-Pilot | Ring 2: de volgende 50-100 eindpunten in de productieomgeving identificeren <br>  
+|Implementatiering|Omschrijving
+|---|---|
+Evalueren | Ring 1: 50 systemen identificeren voor testproeven
+Pilot | Ring 2: de volgende 50-100 eindpunten in de productieomgeving identificeren
 Volledige implementatie | Ring 3: Service in grotere stappen uitrollen naar de rest van de omgeving
 
-
-
 ### <a name="exit-criteria"></a>Criteria afsluiten
+
 Een voorbeeldset met exitcriteria voor deze ringen kan bestaan uit:
+
 - Apparaten worden weergegeven in de lijst met apparaatvoorraad
 - Waarschuwingen worden weergegeven in dashboard
 - [Een detectietest uitvoeren](run-detection-test.md)
 - [Een gesimuleerde aanval uitvoeren op een apparaat](attack-simulations.md)
 
 ### <a name="evaluate"></a>Evalueren
-Identificeer een klein aantal testapparaten in uw omgeving om aan te boord van de service. In het ideale ideale situatie zijn deze machines minder dan 50 eindpunten. 
 
+Identificeer een klein aantal testapparaten in uw omgeving om aan te boord van de service. In het ideale ideale situatie zijn deze machines minder dan 50 eindpunten.
 
 ### <a name="pilot"></a>Pilot
+
 Microsoft Defender voor Eindpunt ondersteunt diverse eindpunten die u aan boord van de service kunt gebruiken. Identificeer in deze ring verschillende apparaten aan boord en op basis van de exitcriteria die u definieert, besluit u door te gaan naar de volgende implementatiering.
 
 In de volgende tabel ziet u de ondersteunde eindpunten en het bijbehorende hulpprogramma dat u kunt gebruiken om apparaten aan te boord van de service. 
@@ -85,39 +85,35 @@ In de volgende tabel ziet u de ondersteunde eindpunten en het bijbehorende hulpp
 | **macOS**    | [Lokaal script](mac-install-manually.md) <br> [Microsoft Endpoint Manager](mac-install-with-intune.md) <br> [JAMF-Pro](mac-install-with-jamf.md) <br> [Mobile Device Management](mac-install-with-other-mdm.md) |
 | **Linux Server** | [Lokaal script](linux-install-manually.md) <br> [Poppop](linux-install-with-puppet.md) <br> [Ansible](linux-install-with-ansible.md)|
 | **iOS**      | [App-gebaseerde](ios-install.md)                                |
-| **Android**  | [Microsoft Endpoint Manager](android-intune.md)               | 
-
-
-
+| **Android**  | [Microsoft Endpoint Manager](android-intune.md)               |
 
 ### <a name="full-deployment"></a>Volledige implementatie
-In dit stadium kunt u het implementatiemateriaal [plannen](deployment-strategy.md) gebruiken om uw implementatie te plannen. 
 
+In dit stadium kunt u het implementatiemateriaal [plannen](deployment-strategy.md) gebruiken om uw implementatie te plannen. 
 
 Gebruik het volgende materiaal om de juiste Microsoft Defender voor eindpuntarchitectuur te selecteren die het beste past bij uw organisatie.
 
 |**Item**|**Beschrijving**|
 |:-----|:-----|
-|[![Thumb image for Microsoft Defender for Endpoint deployment strategy](images/mdatp-deployment-strategy.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf)<br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf) \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) | Met het materiaal voor architecten kunt u uw implementatie plannen voor de volgende architecturen: <ul><li> Cloud-native </li><li> Co-management </li><li> On-premises</li><li>Evaluatie en lokale onboarding</li>
-
-
-
+|[![Thumb image for Microsoft Defender for Endpoint deployment strategy](images/mdatp-deployment-strategy.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf)<br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf) \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) | Met het materiaal voor architecten kunt u uw implementatie plannen voor de volgende architecturen: <ul><li> Cloud-native </li><li> Co-management </li><li> On-premises</li><li>Evaluatie en lokale onboarding</li></ul>
 
 ## <a name="existing-deployments"></a>Bestaande implementaties
 
 ### <a name="windows-endpoints"></a>Windows eindpunten
+
 Voor Windows en/of Windows-servers selecteert u verschillende machines die u van tevoren wilt testen (vóór patchdinsdag) met behulp van het BEVEILIGINGSupdatevalidatieprogramma **(SUVP).**
 
 Zie voor meer informatie:
+
 - [Wat is het validatieprogramma voor beveiligingsupdates](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/what-is-the-security-update-validation-program/ba-p/275767)
 - [Software Update Validation Program and Microsoft Centrum voor beveiliging tegen schadelijke software Establishment - TwC Interactive Timeline Part 4](https://www.microsoft.com/security/blog/2012/03/28/software-update-validation-program-and-microsoft-malware-protection-center-establishment-twc-interactive-timeline-part-4/)
 
-
 ### <a name="non-windows-endpoints"></a>Niet-Windows eindpunten
+
 Met macOS en Linux kunt u een paar systemen gebruiken en uitvoeren in het Beta-kanaal.
 
->[!NOTE]
->Idealiter ten minste één beveiligingsbeheerder en één ontwikkelaar, zodat u compatibiliteits-, prestatie- en betrouwbaarheidsproblemen kunt vinden voordat de build in het huidige kanaal wordt gemaakt.
+> [!NOTE]
+> Idealiter ten minste één beveiligingsbeheerder en één ontwikkelaar, zodat u compatibiliteits-, prestatie- en betrouwbaarheidsproblemen kunt vinden voordat de build in het huidige kanaal wordt gemaakt.
 
 De keuze van het kanaal bepaalt het type en de frequentie van de updates die op uw apparaat worden aangeboden. Apparaten in bètaversie zijn de eerste apparaten die updates en nieuwe functies ontvangen, later gevolgd door Preview en ten laatste door Current.
 
@@ -125,5 +121,5 @@ De keuze van het kanaal bepaalt het type en de frequentie van de updates die op 
 
 Als u een voorbeeld van nieuwe functies wilt bekijken en vroegtijdig feedback wilt geven, wordt u aangeraden sommige apparaten in uw bedrijf te configureren voor het gebruik van bèta of preview.
 
->[!WARNING]
->Als u het kanaal na de eerste installatie overschakelt, moet het product opnieuw worden geïnstalleerd. Als u het productkanaal wilt wijzigen: verwijder het bestaande pakket, configureer het apparaat opnieuw om het nieuwe kanaal te gebruiken en volg de stappen in dit document om het pakket vanaf de nieuwe locatie te installeren.
+> [!WARNING]
+> Als u het kanaal na de eerste installatie overschakelt, moet het product opnieuw worden geïnstalleerd. Als u het productkanaal wilt wijzigen: verwijder het bestaande pakket, configureer het apparaat opnieuw om het nieuwe kanaal te gebruiken en volg de stappen in dit document om het pakket vanaf de nieuwe locatie te installeren.

@@ -23,12 +23,12 @@ ms.custom: migrationguides
 ms.topic: article
 ms.date: 06/14/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: 832414e9b2a88114cafafbba78e22ea656cc7949
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: 8fcf0491629a068f1ebc97e226a2c9b05e306cbf
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52930461"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289509"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-3-onboard"></a>Overschakelen naar Microsoft Defender voor Eindpunt - Fase 3: Onboard
 
@@ -103,7 +103,7 @@ Als u Microsoft Defender Antivirus passieve modus wilt instellen op Windows Serv
 1. Registereditor openen en vervolgens naar <br/>
    `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection`.
 
-2. Bewerk (of maak) een DWORD-item met de naam **ForcePassiveMode** en geef de volgende instellingen op:
+2. Bewerk (of maak) een DWORD-item met de naam **ForceDefenderPassiveMode** en geef de volgende instellingen op:
    - Stel de waarde van DWORD in op **1**.
    - Selecteer **onder Basis** de optie **Hexadecimaal**.
 

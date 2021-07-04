@@ -11,12 +11,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 850d7e6692d3ccbfda6e15c8d5ca95301bd4d094
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: a66ad53faf1b38c3db4ab4446dbc1d175fbd99e4
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245610"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289533"
 ---
 # <a name="register-new-devices-yourself"></a>Nieuwe apparaten zelf registreren
 
@@ -50,11 +50,10 @@ Microsoft Managed Desktop elk apparaat uniek identificeert door te verwijzen naa
 
 U kunt het [ powershell-scriptGet-WindowsAutoPilotInfo.ps1](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) powershell gebruiken op de website van de PowerShell-galerie. Zie Apparaten toevoegen aan Windows Autopilot voor meer informatie [over apparaatidentificatie en hardwarehash.](/mem/autopilot/add-devices#device-identification)
 
-1.  Open een PowerShell-prompt met beheerdersrechten.
-2.  Uitvoeren `Install-Script -Name Get-WindowsAutoPilotInfo`
-3.  Uitvoeren `powershell -ExecutionPolicy Unrestricted Get-WindowsAutoPilotInfo -OutputFile <path>\hardwarehash.csv`
-4.  Uitvoeren om te voorkomen dat de volgende `powershell -ExecutionPolicy restricted` onbeperkte scripts worden uitgevoerd.
-
+1. Open een PowerShell-prompt met beheerdersrechten.
+2. Uitvoeren `Install-Script -Name Get-WindowsAutoPilotInfo`
+3. Uitvoeren `powershell -ExecutionPolicy Unrestricted Get-WindowsAutoPilotInfo -OutputFile <path>\hardwarehash.csv`
+4. Uitvoeren om te voorkomen dat de volgende `powershell -ExecutionPolicy restricted` onbeperkte scripts worden uitgevoerd.
 
 #### <a name="flash-drive-method"></a>Flashstationmethode
 
@@ -68,9 +67,8 @@ U kunt het [ powershell-scriptGet-WindowsAutoPilotInfo.ps1](https://www.powershe
 8. Uitvoeren `.\Get-WindowsAutoPilotInfo -OutputFile <path>\hardwarehash.csv`
 9. Verwijder het USB-station en sluit het apparaat vervolgens af door `shutdown -s -t 0`
 
->[!IMPORTANT]
->Gebruik het apparaat dat u registreert pas weer aan als u de registratie voor het apparaat hebt voltooid. 
-
+> [!IMPORTANT]
+> Gebruik het apparaat dat u registreert pas weer aan als u de registratie voor het apparaat hebt voltooid. 
 
 ### <a name="merge-hash-data"></a>Hashgegevens samenvoegen
 
@@ -78,16 +76,13 @@ U moet de gegevens in de CSV-bestanden in één bestand laten combineren om de r
 
 `Import-CSV -Path (Get-ChildItem -Filter *.csv) | ConvertTo-Csv -NoTypeInformation | % {$_.Replace('"', '')} | Out-File .\aggregatedDevices.csv`
 
-
 ### <a name="register-devices-by-using-the-admin-portal"></a>Apparaten registreren met behulp van de beheerportal
 
 Selecteer [Microsoft Endpoint Manager](https://endpoint.microsoft.com/)in **het** linkernavigatiedeelvenster apparaten. Zoek naar de Microsoft Managed Desktop van het menu en selecteer **Apparaten.** Selecteer in Microsoft Managed Desktop werkruimte Apparaten Selecteer **+ Registreer** apparaten, waarmee een fly-in wordt geopend om nieuwe apparaten te registreren.
 
 <!-- [![Fly-in after selecting Register devices, listing devices with columns for assigned users, serial number, status, last-seen date, and age](../../media/new-registration-ui.png)](../../media/new-registration-ui.png) -->
 
-
 <!--Registering any existing devices with Managed Desktop will completely re-image them; make sure you've backed up any important data prior to starting the registration process.-->
-
 
 Volg deze stappen:
 
@@ -100,7 +95,7 @@ Volg deze stappen:
 
 U kunt de voortgang van apparaatregistratie op de hoofdpagina controleren. Mogelijke staten die daar zijn gerapporteerd, zijn:
 
-| Status | Beschrijving |
+| Status | Omschrijving |
 |---------------|-------------|
 | Registratie in behandeling | Registratie is nog niet klaar. Controleer het later opnieuw. |
 | Registratie is mislukt | Registratie kan niet worden voltooid. Raadpleeg [Apparaatregistratie oplossen voor](#troubleshooting-device-registration) meer informatie. |

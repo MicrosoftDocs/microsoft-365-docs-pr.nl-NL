@@ -1,5 +1,5 @@
 ---
-title: 'Microsoft SharePoint Syntex-acceptatie: Aan de slag'
+title: 'Microsoft SharePoint Syntex: Aan de slag'
 description: Meer informatie over het gebruik en implementeren SharePoint Syntex in uw organisatie om u te helpen uw zakelijke problemen op te lossen.
 ms.author: samanro
 author: samanro
@@ -14,16 +14,16 @@ ms.collection:
 ms.custom: Adopt
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: 62e65f9be25e2c482cca78577048d504ee93097a
-ms.sourcegitcommit: 4bcac4cb4f9399ebbd7c8cff0abb4d6ecedb731e
+ms.openlocfilehash: 8a5442fcf8dd50cdee6be97ba7c9bbf5e21408a3
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52698974"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288153"
 ---
-# <a name="microsoft-sharepoint-syntex-adoption-get-started"></a>Microsoft SharePoint Syntex-acceptatie: Aan de slag
+# <a name="microsoft-sharepoint-syntex-adoption-get-started"></a>Microsoft SharePoint Syntex: Aan de slag
 
-Denk aan de intelligente inhoudsservices die beschikbaar zijn in SharePoint Syntex als drie delen:
+Denk aan de intelligente inhoudsservices die beschikbaar zijn in SharePoint Syntex als drie onderdelen:
 
 - **Inhoudskennis:** Maak AI-modellen zonder code voor het classificeren en extraheren van informatie uit inhoud om metagegevens automatisch toe te passen voor kennisdetectie en hergebruik. Meer informatie over [het begrijpen van inhoud.](document-understanding-overview.md)
 - **Inhoudsverwerking:** Automatiseer het vastleggen, opnemen en categoriseren van inhoud en stroomlijn inhoudsgerichte processen met behulp van Power Automate. Meer informatie over [inhoudsverwerking.](form-processing-overview.md)
@@ -44,12 +44,12 @@ Zie Verschillen tussen documentkennis en formulierverwerkingsmodellen voor een c
 
 ## <a name="identify-pilot-business-scenarios-to-optimize"></a>Testscenario's identificeren om te optimaliseren
 
-Als u zich wilt voorbereiden SharePoint syntex in uw organisatie, moet u eerst de scenario's begrijpen waarin dit nuttig is. Het 'waarom' helpt bepalen welk model nodig is en hoe u uw organisatie structureert op basis van waar het model wordt toegepast. Hier zijn een paar scenario's waarin het begrijpen van documenten uw organisatie kan helpen:
+Als u zich wilt voorbereiden SharePoint Syntex in uw organisatie, moet u eerst de scenario's begrijpen waarin deze nuttig zijn. Het 'waarom' helpt bepalen welk model nodig is en hoe u uw organisatie structureert op basis van waar het model wordt toegepast. Hier zijn een paar scenario's waarin het begrijpen van documenten uw organisatie kan helpen:
 
 - **Inhoudsverwerking:** Procescontracten, werkafschriften en andere formulier-achtige documenten. Neem de formulieren op, train het model om de velden te begrijpen en toe te geven en voer de formulieren door om de gegevens automatisch te verzamelen. Zie Formulierverwerkingsoverzicht [voor meer informatie.](form-processing-overview.md)
 - **Factuuranalyse:** Haal de relevante gegevens uit uw facturen en zorg ervoor dat ze voldoen aan het beleid of op de juiste manier worden verwerkt.
 
-Denk na over manieren waarop SharePoint Syntex uw organisatie kan helpen:
+Denk na over manieren SharePoint Syntex uw organisatie kan helpen:
 
 - Bedrijfsprocessen automatiseren
 - Zoeknauwkeurigheid verbeteren
@@ -64,7 +64,7 @@ Als u bedenkt welke zakelijke scenario's u moet overwegen, stelt u zich de volge
 
 Geef prioriteit aan scenario's op basis van impact en implementatiegemak. Maak uw eerste focusgebied groter effectscenario's die ook eenvoudig kunnen worden geïmplementeerd. Geef prioriteit aan scenario's met lagere effecten die moeilijk te implementeren zijn.
 
-Gebruik de [voorbeeldscenario's en gebruik cases om](adoption-scenarios.md) ideeën te vragen over hoe u syntex in SharePoint organisatie kunt gebruiken.
+Gebruik de [voorbeeldscenario's en gebruik cases om](adoption-scenarios.md) ideeën te vragen over hoe u uw SharePoint Syntex in uw organisatie kunt gebruiken.
 
 ## <a name="identify-roles--responsibilities"></a>Rollen en & verantwoordelijkheden identificeren
 
@@ -86,7 +86,7 @@ Waar worden de modellen gebouwd en toegepast? Zijn er bestaande processen of ops
 
 ## <a name="strategic-positioning"></a>Strategische positionering
 
-Werk samen met belanghebbenden om ervoor te zorgen dat ze zijn afgestemd op de strategie voor het gebruik SharePoint Syntex. Onderzoek en geef de volgende informatiebronnen om u te helpen bij deze positionering:
+Werk samen met belanghebbenden om ervoor te zorgen dat ze zijn afgestemd op de strategie voor het gebruik van SharePoint Syntex. Onderzoek en geef de volgende informatiebronnen om u te helpen bij deze positionering:
 
 - Bedrijfsresultaten:
   - Mogelijke fiscale resultaten
@@ -116,7 +116,7 @@ Identificeer de belanghebbenden voor uw project.
 
 ## <a name="readiness-checklist"></a>Controlelijst gereedheid
 
-Als u klaar wilt zijn voor de implementatie SharePoint Syntex, moet u het volgende doen:
+Als u klaar wilt zijn voor het implementeren SharePoint Syntex, moet u het volgende doen:
 
 ![Gereedheid voor inhoudskennis](../media/content-understanding/cu-adoption-readinesschecklist.png)
 
@@ -132,7 +132,7 @@ Als u klaar wilt zijn voor de implementatie SharePoint Syntex, moet u het volgen
     - Zijn bestaande inhoudstypen goede kandidaten voor modellen?
     - Welke bestaande processen worden verbeterd met metagegevens?
 3. Design
-    - Uw benadering van informatiearchitectuur, beheerde metagegevens en inhoudstypen ontwerpen
+    - Ontwerp uw benadering van informatiearchitectuur, beheerde metagegevens en inhoudstypen.
     - Ontwerp het proces voor definitie, creatie, beheer.
 
 ## <a name="engage-your-organization"></a>Uw organisatie betrekken

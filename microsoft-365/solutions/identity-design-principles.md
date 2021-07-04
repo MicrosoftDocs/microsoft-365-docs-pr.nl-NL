@@ -14,12 +14,12 @@ ms.collection:
 - M365solutions
 ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
-ms.openlocfilehash: b424b4f611f0553de4b7129d2c0b63cefbdeeab3
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: b22a3b8fc73ca1825f07dda5b84c85e2d2a68805
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53229357"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289737"
 ---
 # <a name="to-identity-and-beyondone-architects-viewpoint"></a>Naar identiteit en verder: het gezichtspunt van één architect
 
@@ -164,7 +164,7 @@ Over het algemeen wordt het steeds moeilijker om een duidelijke lijn te trekken 
 
 Vandaag vind ik dat veel IT-groepen van klanten zijn gestructureerd rond 'producten'. Het is logisch voor een on-premises wereld, omdat u een expert nodig hebt voor elk specifiek product. Ik ben echter helemaal blij dat ik nooit meer een Active Directory- of Exchange-database hoef te debuggen als deze services naar de cloud zijn verplaatst. Automatisering (welk type cloud is) verwijdert bepaalde terugkerende handmatige taken (kijk wat er met fabrieken is gebeurd). Deze worden echter vervangen door complexere vereisten om inzicht te krijgen in interactie tussen verschillende services, impact, zakelijke behoeften, en dergelijke. Als u wilt [leren,](/learn/)zijn er geweldige mogelijkheden voor cloudtransformatie. Voordat ik de technologie ga gebruiken, praat ik vaak met klanten over het beheren van veranderingen in IT-vaardigheden en teamstructuren.
 
-Voor alle SharePoint-gebruikers en ontwikkelaars, vraag dan niet meer :Hoe kan ik XYZ online SharePoint doen? Gebruik [Power Automate](/power-automate/) (of Flow) voor werkstroom, het is een veel krachtiger platform. Gebruik [Azure Bot Framework om](/azure/bot-service/?view=azure-bot-service-4.0) een betere UX te maken voor uw lijst met 500 K-items. Gebruik [Microsoft-Graph](https://developer.microsoft.com/graph/) in plaats van CSOM. [Microsoft Teams](/MicrosoftTeams/Teams-overview) bevat SharePoint maar ook een wereld meer. Er zijn nog veel meer voorbeelden die ik kan noemen. Er is een groot en prachtig universum. Open de deur en [begin te verkennen.]()
+Voor alle SharePoint-gebruikers en ontwikkelaars, vraag dan niet meer :Hoe kan ik XYZ online SharePoint doen? Gebruik [Power Automate](/power-automate/) (of Flow) voor werkstroom, het is een veel krachtiger platform. Gebruik [Azure Bot Framework om](/azure/bot-service/) een betere UX te maken voor uw lijst met 500 K-items. Gebruik [Microsoft-Graph](https://developer.microsoft.com/graph/) in plaats van CSOM. [Microsoft Teams](/MicrosoftTeams/Teams-overview) bevat SharePoint maar ook een wereld meer. Er zijn nog veel meer voorbeelden die ik kan noemen. Er is een groot en prachtig universum. Open de deur en [begin te verkennen.]()
 
 De andere veelvoorkomende impact is in het compliancegebied. Deze benadering voor meerdere services lijkt veel compliancebeleid volledig te verwarren. Ik blijf organisaties zien met de status 'Ik moet alle e-mailcommunicatie naar een eDiscovery-systeem bij houden'. Wat betekent dit eigenlijk als e-mail niet langer alleen e-mail is, maar een venster naar andere services? Office 365 heeft een uitgebreide benadering voor [naleving,](../compliance/index.yml)maar het wijzigen van personen en processen is vaak veel moeilijker dan technologie.
 

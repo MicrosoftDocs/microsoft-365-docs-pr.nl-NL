@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 5546b69fa924025491e1762d199678fa549a9c7c
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 695dfbec007b259b7daec2346201737d57c4ad30
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842144"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289773"
 ---
 # <a name="partner-access-through-microsoft-defender-for-endpoint-apis"></a>Partnertoegang via Microsoft Defender voor eindpunt-API's
 
@@ -31,7 +31,7 @@ ms.locfileid: "52842144"
 
 **Van toepassing op:** [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 
-> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
@@ -60,13 +60,13 @@ In de volgende stappen vindt u informatie over het maken van een Azure AD-toepas
 
 3. In het registratieformulier:
 
-    - Kies een naam voor uw toepassing.
+   - Kies een naam voor uw toepassing.
 
-    - Ondersteunde accounttypen: accounts in een organisatiemap.
+   - Ondersteunde accounttypen: accounts in een organisatiemap.
 
-    - Redirect URI - type: Web, URI: https://portal.azure.com
+   - Redirect URI - type: Web, URI: https://portal.azure.com
 
-    ![Afbeelding van Microsoft Azure registratie van partnertoepassing](images/atp-api-new-app-partner.png)
+   ![Afbeelding van Microsoft Azure registratie van partnertoepassing](images/atp-api-new-app-partner.png)
 
 
 4. Geef uw toepassing toegang tot Microsoft Defender voor Eindpunt en wijs deze toe met de minimale set machtigingen die nodig zijn om de integratie te voltooien.
@@ -94,13 +94,13 @@ In de volgende stappen vindt u informatie over het maken van een Azure AD-toepas
 
 5. Selecteer **Toestemming verlenen**
 
-    - **Opmerking:** Telkens wanneer u machtigingen toevoegt, moet u toestemming **verlenen** selecteren om de nieuwe machtiging van kracht te laten worden.
+   - **Opmerking:** Telkens wanneer u machtigingen toevoegt, moet u toestemming **verlenen** selecteren om de nieuwe machtiging van kracht te laten worden.
 
-    ![Afbeelding van machtigingen verlenen](images/grant-consent.png)
+   ![Afbeelding van machtigingen verlenen](images/grant-consent.png)
 
 6. Voeg een geheim toe aan de toepassing.
 
-    - Selecteer **Certificaten & geheimen,** voeg beschrijving toe aan het geheim en selecteer **Toevoegen.**
+   - Selecteer **Certificaten & geheimen,** voeg beschrijving toe aan het geheim en selecteer **Toevoegen.**
 
     **Belangrijk:** Nadat u op Toevoegen hebt **geklikt, kopieert u de gegenereerde geheime waarde.** U kunt het niet meer ophalen nadat u bent weggehaald.
 
@@ -114,36 +114,36 @@ In de volgende stappen vindt u informatie over het maken van een Azure AD-toepas
 
 8. Voeg de toepassing toe aan de tenant van uw klant.
 
-    U moet uw toepassing goedkeuren in elke klant tenant waar u deze wilt gebruiken. Dit komt omdat uw toepassing namens uw klant samenwerkt met de toepassing Microsoft Defender voor Eindpunt.
+   U moet uw toepassing goedkeuren in elke klant tenant waar u deze wilt gebruiken. Dit komt omdat uw toepassing namens uw klant samenwerkt met de toepassing Microsoft Defender voor Eindpunt.
 
-    Een gebruiker met **globale beheerder** van de tenant van uw klant moet de toestemmingskoppeling selecteren en uw toepassing goedkeuren.
+   Een gebruiker met **globale beheerder** van de tenant van uw klant moet de toestemmingskoppeling selecteren en uw toepassing goedkeuren.
 
-    De koppeling Toestemming is van het formulier:
+   De koppeling Toestemming is van het formulier:
 
-    ```
-    https://login.microsoftonline.com/common/oauth2/authorize?prompt=consent&client_id=00000000-0000-0000-0000-000000000000&response_type=code&sso_reload=true
-    ```
+   ```http
+   https://login.microsoftonline.com/common/oauth2/authorize?prompt=consent&client_id=00000000-0000-0000-0000-000000000000&response_type=code&sso_reload=true
+   ```
 
-    Waar 000000000-0000-0000-0000-00000000000 moet worden vervangen door uw toepassings-id
+   Waar 000000000-0000-0000-0000-00000000000 moet worden vervangen door uw toepassings-id
 
-    Nadat u op de toestemmingskoppeling hebt geklikt, meldt u zich aan bij de globale beheerder van de tenant van de klant en stemt u in met de toepassing.
+   Nadat u op de toestemmingskoppeling hebt geklikt, meldt u zich aan bij de globale beheerder van de tenant van de klant en stemt u in met de toepassing.
 
-    ![Afbeelding van toestemming](images/app-consent-partner.png)
+   ![Afbeelding van toestemming](images/app-consent-partner.png)
 
-    Daarnaast moet u uw klant om zijn of haar tenant-id vragen en deze opslaan voor toekomstig gebruik bij het aanschaffen van het token.
+   Daarnaast moet u uw klant om zijn of haar tenant-id vragen en deze opslaan voor toekomstig gebruik bij het aanschaffen van het token.
 
-- **Klaar!** U hebt een toepassing geregistreerd. 
+- **Klaar!** U hebt een toepassing geregistreerd.
 - Zie hieronder voorbeelden voor het verkrijgen en valideren van tokens.
 
-## <a name="get-an-access-token-example"></a>Een voorbeeld van toegangs token krijgen:
+## <a name="get-an-access-token-example"></a>Voorbeeld van toegangs token
 
 **Opmerking:** Als u namens uw klant toegang wilt krijgen tot het token, gebruikt u de tenant-id van de klant voor de volgende tokenovernames.
 
-<br>Zie AAD-zelfstudie voor meer informatie over [AAD-token](/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds)
+Zie AAD-zelfstudie voor meer informatie over [AAD-token](/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds)
 
 ### <a name="using-powershell"></a>PowerShell gebruiken
 
-```
+```powershell
 # That code gets the App Context Token and save it to a file named "Latest-token.txt" under the current directory
 # Paste below your Tenant ID, App ID and App Secret (App key).
 
@@ -165,21 +165,21 @@ Out-File -FilePath "./Latest-token.txt" -InputObject $token
 return $token
 ```
 
-### <a name="using-c"></a>Using C#:
+### <a name="using-c"></a>C gebruiken #
 
->De onderstaande code is getest met Nuget Microsoft.IdentityModel.Clients.ActiveDirectory
+> De onderstaande code is getest met Nuget Microsoft.IdentityModel.Clients.ActiveDirectory
 
 - Een nieuwe consoletoepassing maken
 - NuGet [Microsoft.IdentityModel.Clients.ActiveDirectory installeren](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/)
 - Het onderstaande toevoegen met behulp van
 
-    ```
+    ```console
     using Microsoft.IdentityModel.Clients.ActiveDirectory;
     ```
 
-- Kopieer/plak de onderstaande code in uw toepassing (vergeet niet om de drie variabelen bij te werken: ```tenantId, appId, appSecret``` )
+- Kopieer/plak de onderstaande code in uw toepassing (vergeet niet om de drie variabelen bij te werken: `tenantId` `appId` , en `appSecret` )
 
-    ```
+    ```console
     string tenantId = "00000000-0000-0000-0000-000000000000"; // Paste your own tenant ID here
     string appId = "11111111-1111-1111-1111-111111111111"; // Paste your own app ID here
     string appSecret = "22222222-2222-2222-2222-222222222222"; // Paste your own app secret here for a test, and then store it in a safe place! 
@@ -192,7 +192,6 @@ return $token
     AuthenticationResult authenticationResult = auth.AcquireTokenAsync(wdatpResourceId, clientCredential).GetAwaiter().GetResult();
     string token = authenticationResult.AccessToken;
     ```
-
 
 ### <a name="using-python"></a>Python gebruiken
 
@@ -209,19 +208,20 @@ Raadpleeg [Token halen met Python](run-advanced-query-sample-python.md#get-token
 - De TENANT_ID instellen op de Azure-tenant-id van de klant die uw toepassing wil gebruiken voor toegang tot microsoft Defender voor eindpunttoepassing
 - Voer de onderstaande opdracht uit:
 
-```
+```curl
 curl -i -X POST -H "Content-Type:application/x-www-form-urlencoded" -d "grant_type=client_credentials" -d "client_id=%CLIENT_ID%" -d "scope=https://securitycenter.onmicrosoft.com/windowsatpservice/.default" -d "client_secret=%CLIENT_SECRET%" "https://login.microsoftonline.com/%TENANT_ID%/oauth2/v2.0/token" -k
 ```
 
 U krijgt een antwoord van het formulier:
 
-```
+```console
 {"token_type":"Bearer","expires_in":3599,"ext_expires_in":0,"access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIn <truncated> aWReH7P0s0tjTBX8wGWqJUdDA"}
 ```
 
 ## <a name="validate-the-token"></a>Het token valideren
 
 Sanity check om er zeker van te zijn dat u een correct token hebt:
+
 - Kopieer/plak in [JWT het](https://jwt.ms) token dat u in de vorige stap krijgt om het te decoderen
 - Valideren u krijgt een 'rollen' claim met de gewenste machtigingen
 - In de onderstaande schermafbeelding ziet u een gedecodeerd token dat is verkregen van een toepassing met meerdere machtigingen voor Microsoft Defender voor Eindpunt:
@@ -235,8 +235,9 @@ Sanity check om er zeker van te zijn dat u een correct token hebt:
 - De autorisatiekoptekst instellen in de http-aanvraag die u verzendt naar 'Bearer {token}' (Aandrager is het autorisatieschema)
 - De vervaldatum van het token is 1 uur (u kunt meerdere aanvragen met hetzelfde token verzenden)
 
-- Voorbeeld van het verzenden van een aanvraag voor het ontvangen van een lijst met waarschuwingen **met C#** 
-    ```
+- Voorbeeld van het verzenden van een aanvraag voor het ontvangen van een lijst met waarschuwingen **met C#**
+
+    ```csharp
     var httpClient = new HttpClient();
 
     var request = new HttpRequestMessage(HttpMethod.Get, "https://api.securitycenter.microsoft.com/api/alerts");
@@ -249,5 +250,6 @@ Sanity check om er zeker van te zijn dat u een correct token hebt:
     ```
 
 ## <a name="see-also"></a>Zie ook
+
 - [Ondersteunde API's voor Microsoft Defender voor Eindpunt](exposed-apis-list.md)
 - [Toegang tot Microsoft Defender voor Eindpunt namens een gebruiker](exposed-apis-create-app-nativeapp.md)

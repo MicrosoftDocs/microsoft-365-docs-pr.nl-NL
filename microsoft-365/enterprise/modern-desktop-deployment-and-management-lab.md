@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Lees meer over Windows en Office Deployment Lab Kit en waar u het kunt vinden.
-ms.openlocfilehash: 3f9899726838caca678542e17206dae038c39a3d
-ms.sourcegitcommit: 5866e45a6a4e90c661e8f90c91550a9872b68e03
+ms.openlocfilehash: 33db334ecf977b351ac963107c647c7eff414cc0
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/28/2021
-ms.locfileid: "53169566"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288885"
 ---
 # <a name="windows-10-and-office-365-deployment-lab-kit"></a>Lab kit voor de implementatie van Windows 10 en Office 365
 
@@ -34,71 +34,71 @@ Deze kit wordt ten zeerste aanbevolen voor organisaties die zich voorbereiden op
 
 De kit biedt u een automatisch inrichtende virtuele labomgeving, waaronder domeingevoegde bureaubladcl clients, een domeincontroller, een internetgateway en een volledig geconfigureerd exemplaar van Configuration Manager. De kit bevat de meest recente evaluatieversies van de volgende producten:
 
-  - NIEUW! Windows 10 Enterprise, versie 21H1
-  - Windows 7 Enterprise
-  - NIEUW! Microsoft Endpoint Configuration Manager, versie 2103
-  - Windows Assessment and Deployment Kit voor Windows 10
-  - Microsoft Deployment Toolkit
-  - Microsoft Application Virtualization (App-V)
-  - Microsoft BitLocker Administration and Monitoring 
-  - Windows Server 
-  - Microsoft SQL Server 
+- NIEUW! Windows 10 Enterprise, versie 21H1
+- Windows 7 Enterprise
+- NIEUW! Microsoft Endpoint Configuration Manager, versie 2103
+- Windows Assessment and Deployment Kit voor Windows 10
+- Microsoft Deployment Toolkit
+- Microsoft Application Virtualization (App-V)
+- Microsoft BitLocker Administration and Monitoring
+- Windows Server
+- Microsoft SQL Server
 
-Het resulterende lab is ontworpen om te worden verbonden met experimenten voor: 
+Het resulterende lab is ontworpen om te worden verbonden met experimenten voor:
 
-  - Microsoft 365 E5
-  - Microsoft 365-apps voor ondernemingen
-  - Office 365 E5 met Enterprise Mobility + Security (EMS)
+- Microsoft 365 E5
+- Microsoft 365-apps voor ondernemingen
+- Office 365 E5 met Enterprise Mobility + Security (EMS)
 
 ## <a name="step-by-step-labs"></a>Stapsgewijze labs
 
-Dankzij gedetailleerde labhandleidingen wordt u begeleid door meerdere scenario's voor implementatie en beheer. De labs zijn bijgewerkt voor de nieuwste versies van Intune en Configuration Manager. 
+Dankzij gedetailleerde labhandleidingen wordt u begeleid door meerdere scenario's voor implementatie en beheer. De labs zijn bijgewerkt voor de nieuwste versies van Intune en Configuration Manager.
 
-### <a name="plan-and-prepare-infrastructure"></a>Infrastructuur plannen en voorbereiden 
+### <a name="plan-and-prepare-infrastructure"></a>Infrastructuur plannen en voorbereiden
 
-- Desktop Analytics 
-- Cloud Management Gateway & clouddistributiepunt 
+- Desktop Analytics
+- Cloud Management Gateway & clouddistributiepunt
 - NIEUW! Tenant attach and co-management
-- NIEUW! Eindpuntanalyse 
-- Externe toegang (VPN) 
+- NIEUW! Eindpuntanalyse
+- Externe toegang (VPN)
 
-### <a name="prepare-configuration"></a>Configuratie voorbereiden   
+### <a name="prepare-configuration"></a>Configuratie voorbereiden
 
-- Bezorging Windows 10 bijwerken optimaliseren   
+- Bezorging Windows 10 bijwerken optimaliseren
 - Servicekosten Windows 10 groepsbeleid gebruiken
-- Onderhoud Windows 10 met Microsoft Intune   
-- Servicebeheer Windows 10 met Configuration Manager   
-- Servicebeheer Microsoft 365-apps voor ondernemingen configuratiebeheer   
-- Servicekosten Microsoft 365-apps voor ondernemingen Intune  
-- Beveiliging en compliance   
+- Onderhoud Windows 10 met Microsoft Intune
+- Servicebeheer Windows 10 met Configuration Manager
+- Servicebeheer Microsoft 365-apps voor ondernemingen configuratiebeheer
+- Servicekosten Microsoft 365-apps voor ondernemingen Intune
+- Beveiliging en compliance
 
-### <a name="prepare-applications"></a>Toepassingen voorbereiden    
+### <a name="prepare-applications"></a>Toepassingen voorbereiden
 
-- Gereedheid Toolkit voor Office  
-- MSIX Packaging and Conversion of Win32-toepassingen   
+- Gereedheid Toolkit voor Office
+- MSIX Packaging and Conversion of Win32-toepassingen
 
-### <a name="deploy-windows-10"></a>Windows 10 implementeren   
+### <a name="deploy-windows-10"></a>Windows 10 implementeren
 
 - Taakreeksen voor os-implementatie in Configuration Manager
 - Taakreeksen voor os-implementatie in de Microsoft Deployment Toolkit (MDT)
 - Windows Autopilot
-- De nieuwe Microsoft Edge  
+- De nieuwe Microsoft Edge
 
-### <a name="deploy-microsoft-365-apps-for-enterprise"></a>Implementatie van Microsoft 365-apps voor ondernemingen    
+### <a name="deploy-microsoft-365-apps-for-enterprise"></a>Implementatie van Microsoft 365-apps voor ondernemingen
 
-- Beheerde implementatie in de cloud  
-- Lokaal beheerde implementatie    
-- Microsoft 365-apps voor ondernemingen Implementatie op niet-AD-apparaten 
+- Beheerde implementatie in de cloud
+- Lokaal beheerde implementatie
+- Microsoft 365-apps voor ondernemingen Implementatie op niet-AD-apparaten
 - Beheerde implementatie voor ondernemingen met Configuration Manager
-- Enterprise managed deployment using Microsoft Intune  
+- Enterprise managed deployment using Microsoft Intune
 - LOB-implementatie en -beheer met Microsoft Intune
 - Implementatie van Microsoft Teams
-- NIEUW! Toewijzingsfilters  
+- NIEUW! Toewijzingsfilters
 
-### <a name="deploy-windows-virtual-desktop"></a>Virtuele Windows implementeren  
+### <a name="deploy-windows-virtual-desktop"></a>Virtuele Windows implementeren
 
 - Voorbereiden, implementeren, optimaliseren
- 
+
 ## <a name="where-to-find-the-windows-10-and-office-365-deployment-lab-kit"></a>Waar vindt u de Windows 10 en Office 365 implementatielabkit
 
 [Windows en Office Deployment Lab Kit downloaden](https://www.microsoft.com/evalcenter/evaluate-lab-kit).
@@ -108,16 +108,16 @@ Dankzij gedetailleerde labhandleidingen wordt u begeleid door meerdere scenario'
 
 ## <a name="additional-guidance"></a>Aanvullende richtlijnen
 
-  - [Desktop Deployment series videos from Microsoft Mechanics](https://www.aka.ms/watchhowtoshift) (Desktopimplementatie-video's van Microsoft Mechanics)
-  - [Microsoft Endpoint Configuration Manager: implementatie van besturingssysteem](/mem/configmgr/osd/understand/introduction-to-operating-system-deployment)
-  - [Implementatie van Windows 10 plannen](/windows/deployment/planning/index)
-  - [Implementatiegids voor Microsoft 365-apps](/deployoffice/deployment-guide-microsoft-365-apps)
-  - [Aan de slag met Intune](/intune/get-started-evaluation)
+- [Desktop Deployment series videos from Microsoft Mechanics](https://www.aka.ms/watchhowtoshift) (Desktopimplementatie-video's van Microsoft Mechanics)
+- [Microsoft Endpoint Configuration Manager: implementatie van besturingssysteem](/mem/configmgr/osd/understand/introduction-to-operating-system-deployment)
+- [Implementatie van Windows 10 plannen](/windows/deployment/planning/index)
+- [Implementatiegids voor Microsoft 365-apps](/deployoffice/deployment-guide-microsoft-365-apps)
+- [Aan de slag met Intune](/intune/get-started-evaluation)
 
 ## <a name="related-resources"></a>Verwante informatiebronnen
 
-  - [Inleiding tot Microsoft 365](https://www.microsoft.com/microsoft-365/default.aspx)
-  - [Office 365 voor Bedrijven](https://products.office.com/business/office)
-  - [Inleiding tot Enterprise Mobility + Security](https://www.microsoft.com/cloud-platform/enterprise-mobility-security)
-  - [Windows 10-apparaten voor zakelijk gebruik](https://www.microsoft.com/WindowsForBusiness/windows-for-enterprise)
-  - [Windows 10-apparaten voor zakelijk gebruik](https://www.microsoft.com/WindowsForBusiness/windows-for-small-business)
+- [Inleiding tot Microsoft 365](https://www.microsoft.com/microsoft-365/default.aspx)
+- [Office 365 voor Bedrijven](https://products.office.com/business/office)
+- [Inleiding tot Enterprise Mobility + Security](https://www.microsoft.com/cloud-platform/enterprise-mobility-security)
+- [Windows 10-apparaten voor zakelijk gebruik](https://www.microsoft.com/WindowsForBusiness/windows-for-enterprise)
+- [Windows 10-apparaten voor zakelijk gebruik](https://www.microsoft.com/WindowsForBusiness/windows-for-small-business)

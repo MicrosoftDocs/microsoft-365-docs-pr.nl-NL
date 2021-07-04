@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 00f6bdac66ae286bf55a875599f7097b14b06cb3
-ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
+ms.openlocfilehash: 7998e878ad03fdfb64c314dc8b7234ece46164ce
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52861549"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289485"
 ---
 # <a name="set-preferences-for-microsoft-defender-for-endpoint-on-linux"></a>Voorkeuren instellen voor Microsoft Defender voor Eindpunt op Linux
 
@@ -34,10 +34,10 @@ ms.locfileid: "52861549"
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
+> Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
->[!IMPORTANT]
->Dit onderwerp bevat instructies voor het instellen van voorkeuren voor Defender voor Eindpunt op Linux in bedrijfsomgevingen. Zie Resources als u geïnteresseerd bent in het configureren [](linux-resources.md#configure-from-the-command-line)van het product op een apparaat vanaf de opdrachtregel.
+> [!IMPORTANT]
+> Dit onderwerp bevat instructies voor het instellen van voorkeuren voor Defender voor Eindpunt op Linux in bedrijfsomgevingen. Zie Resources als u geïnteresseerd bent in het configureren [](linux-resources.md#configure-from-the-command-line)van het product op een apparaat vanaf de opdrachtregel.
 
 In bedrijfsomgevingen kan Defender voor Eindpunt op Linux worden beheerd via een configuratieprofiel. Dit profiel wordt geïmplementeerd vanuit het beheerprogramma van uw keuze. Voorkeuren die door de onderneming worden beheerd, hebben voorrang op de voorkeuren die lokaal op het apparaat zijn ingesteld. Met andere woorden: gebruikers in uw bedrijf kunnen geen voorkeuren wijzigen die zijn ingesteld via dit configuratieprofiel.
 
@@ -55,169 +55,226 @@ Het bovenste niveau van het configuratieprofiel bevat productvoorkeuren en verme
 
 De *antivirusEngine-sectie* van het configuratieprofiel wordt gebruikt om de voorkeuren van het antivirusonderdeel van het product te beheren.
 
-|||
-|:---|:---|
-| **Sleutel** | antivirusEngine |
-| **Gegevenstype** | Woordenlijst (geneste voorkeur) |
-| **Opmerkingen** | Zie de volgende secties voor een beschrijving van de inhoud van de woordenlijst. |
-|||
+<br>
+
+****
+
+|Omschrijving|Waarde|
+|---|---|
+|**Sleutel**|antivirusEngine|
+|**Gegevenstype**|Woordenlijst (geneste voorkeur)|
+|**Opmerkingen**|Zie de volgende secties voor een beschrijving van de inhoud van de woordenlijst.|
+|
 
 #### <a name="enable--disable-real-time-protection"></a>Realtime beveiliging in- of uitschakelen
 
 Hiermee bepaalt u of realtimebeveiliging (bestanden scannen terwijl ze worden toegankelijk) is ingeschakeld of niet.
 
-|||
-|:---|:---|
-| **Sleutel** | enableRealTimeProtection |
-| **Gegevenstype** | Booleaanse waarde |
-| **Mogelijke waarden** | true (standaard) <br/> onwaar |
-|||
+<br>
+
+****
+
+|Omschrijving|Waarde|
+|---|---|
+|**Sleutel**|enableRealTimeProtection|
+|**Gegevenstype**|Booleaanse waarde|
+|**Mogelijke waarden**|true (standaard) <p> onwaar|
+|
 
 #### <a name="enable--disable-passive-mode"></a>Passieve modus in- of uitschakelen
 
 Hiermee bepaalt u of de antivirusprogramma's al dan niet in de passieve modus worden uitgevoerd. In de passieve modus:
+
 - Realtimebeveiliging is uitgeschakeld.
 - Scannen op aanvraag is ingeschakeld.
 - Automatische herstel van bedreigingen is uitgeschakeld.
 - Beveiligingsinformatie-updates zijn ingeschakeld.
 - Pictogram statusmenu is verborgen.
 
-|||
-|:---|:---|
-| **Sleutel** | passiveMode |
-| **Gegevenstype** | Booleaanse waarde |
-| **Mogelijke waarden** | onwaar (standaard) <br/> waar |
-| **Opmerkingen** | Beschikbaar in Defender voor Eindpunt versie 100.67.60 of hoger. |
-|||
+<br>
+
+****
+
+|Omschrijving|Waarde|
+|---|---|
+|**Sleutel**|passiveMode|
+|**Gegevenstype**|Booleaanse waarde|
+|**Mogelijke waarden**|onwaar (standaard) <p> waar|
+|**Opmerkingen**|Beschikbaar in Defender voor Eindpunt versie 100.67.60 of hoger.|
+|
 
 #### <a name="exclusion-merge-policy"></a>Beleid voor samenvoeging van uitsluiting
 
 Hiermee geeft u het samenvoegbeleid voor uitsluitingen op. Het kan een combinatie zijn van door de beheerder gedefinieerde en door de gebruiker gedefinieerde uitsluitingen ( ) of alleen `merge` door beheerders gedefinieerde uitsluitingen ( `admin_only` ). Deze instelling kan worden gebruikt om te voorkomen dat lokale gebruikers hun eigen uitsluitingen definiëren.
 
-|||
-|:---|:---|
-| **Sleutel** | uitsluitingenMergePolicy |
-| **Gegevenstype** | Tekenreeks |
-| **Mogelijke waarden** | samenvoegen (standaard) <br/> admin_only |
-| **Opmerkingen** | Beschikbaar in Defender voor Eindpunt versie 100.83.73 of hoger. |
-|||
+<br>
+
+****
+
+|Omschrijving|Waarde|
+|---|---|
+|**Sleutel**|uitsluitingenMergePolicy|
+|**Gegevenstype**|Tekenreeks|
+|**Mogelijke waarden**|samenvoegen (standaard) <p> admin_only|
+|**Opmerkingen**|Beschikbaar in Defender voor Eindpunt versie 100.83.73 of hoger.|
+|
 
 #### <a name="scan-exclusions"></a>Uitsluitingen scannen
 
 Entiteiten die zijn uitgesloten van de scan. Uitsluitingen kunnen worden opgegeven door volledige paden, extensies of bestandsnamen.
 (Uitsluitingen worden opgegeven als een matrix met items, beheerder kan zo veel elementen opgeven als nodig is, in elke volgorde.)
 
-|||
-|:---|:---|
-| **Sleutel** | uitsluitingen |
-| **Gegevenstype** | Woordenlijst (geneste voorkeur) |
-| **Opmerkingen** | Zie de volgende secties voor een beschrijving van de inhoud van de woordenlijst. |
-|||
+<br>
 
-**Type uitsluiting**
+****
+
+|Omschrijving|Waarde|
+|---|---|
+|**Sleutel**|uitsluitingen|
+|**Gegevenstype**|Woordenlijst (geneste voorkeur)|
+|**Opmerkingen**|Zie de volgende secties voor een beschrijving van de inhoud van de woordenlijst.|
+|
+
+##### <a name="type-of-exclusion"></a>Type uitsluiting
 
 Hiermee geeft u het type inhoud op dat is uitgesloten van de scan.
 
-|||
-|:---|:---|
-| **Sleutel** | $type |
-| **Gegevenstype** | Tekenreeks |
-| **Mogelijke waarden** | excludedPath <br/> uitgeslotenFileExtension <br/> uitgeslotenFileName |
-|||
+<br>
 
-**Pad naar uitgesloten inhoud**
+****
+
+|Omschrijving|Waarde|
+|---|---|
+|**Sleutel**|$type|
+|**Gegevenstype**|Tekenreeks|
+|**Mogelijke waarden**|excludedPath <p> uitgeslotenFileExtension <p> uitgeslotenFileName|
+|
+
+##### <a name="path-to-excluded-content"></a>Pad naar uitgesloten inhoud
 
 Wordt gebruikt om inhoud op volledig bestandspad uit te sluiten van de scan.
 
-|||
-|:---|:---|
-| **Sleutel** | pad |
-| **Gegevenstype** | Tekenreeks |
-| **Mogelijke waarden** | geldige paden |
-| **Opmerkingen** | Alleen van toepassing *als $type* *is uitgeslotenPath* |
-|||
+<br>
 
-**Padtype (bestand /adreslijst)**
+****
+
+|Omschrijving|Waarde|
+|---|---|
+|**Sleutel**|pad|
+|**Gegevenstype**|Tekenreeks|
+|**Mogelijke waarden**|geldige paden|
+|**Opmerkingen**|Alleen van toepassing *als $type* *is uitgeslotenPath*|
+|
+
+##### <a name="path-type-file--directory"></a>Padtype (bestand /adreslijst)
 
 Hiermee wordt aangegeven of *de eigenschap pad* verwijst naar een bestand of adreslijst.
 
-|||
-|:---|:---|
-| **Sleutel** | isDirectory |
-| **Gegevenstype** | Booleaanse waarde |
-| **Mogelijke waarden** | onwaar (standaard) <br/> waar |
-| **Opmerkingen** | Alleen van toepassing *als $type* *is uitgeslotenPath* |
-|||
+<br>
 
-**Bestandsextensie uitgesloten van de scan**
+****
+
+|Omschrijving|Waarde|
+|---|---|
+|**Sleutel**|isDirectory|
+|**Gegevenstype**|Booleaanse waarde|
+|**Mogelijke waarden**|onwaar (standaard) <p> waar|
+|**Opmerkingen**|Alleen van toepassing *als $type* *is uitgeslotenPath*|
+|
+
+##### <a name="file-extension-excluded-from-the-scan"></a>Bestandsextensie uitgesloten van de scan
 
 Wordt gebruikt om inhoud uit te sluiten van de scan via bestandsextensie.
 
-|||
-|:---|:---|
-| **Sleutel** | extensie |
-| **Gegevenstype** | Tekenreeks |
-| **Mogelijke waarden** | geldige bestandsextensies |
-| **Opmerkingen** | Alleen van toepassing *als $type* *is uitgeslotenFileExtension* |
-|||
+<br>
 
-**Proces uitgesloten van de scan**
+****
+
+|Omschrijving|Waarde|
+|---|---|
+|**Sleutel**|extensie|
+|**Gegevenstype**|Tekenreeks|
+|**Mogelijke waarden**|geldige bestandsextensies|
+|**Opmerkingen**|Alleen van toepassing *als $type* *is uitgeslotenFileExtension*|
+|
+
+##### <a name="process-excluded-from-the-scan"></a>Proces uitgesloten van de scan*
 
 Hiermee geeft u een proces op waarvoor alle bestandsactiviteit niet kan worden gescand. Het proces kan worden opgegeven door de naam (bijvoorbeeld) of het volledige `cat` pad `/bin/cat` (bijvoorbeeld).
 
-|||
-|:---|:---|
-| **Sleutel** | naam |
-| **Gegevenstype** | Tekenreeks |
-| **Mogelijke waarden** | een tekenreeks |
-| **Opmerkingen** | Alleen van toepassing *als $type* *is uitgeslotenFileName* |
-|||
+<br>
+
+****
+
+|Omschrijving|Waarde|
+|---|---|
+|**Sleutel**|naam|
+|**Gegevenstype**|Tekenreeks|
+|**Mogelijke waarden**|een tekenreeks|
+|**Opmerkingen**|Alleen van toepassing *als $type* *is uitgeslotenFileName*|
+|
 
 #### <a name="allowed-threats"></a>Toegestane bedreigingen
 
 Lijst met bedreigingen (geïdentificeerd met hun naam) die niet worden geblokkeerd door het product en die in plaats daarvan mogen worden uitgevoerd.
 
-|||
-|:---|:---|
-| **Sleutel** | toegestaanThreats |
-| **Gegevenstype** | Matrix met tekenreeksen |
-|||
+<br>
+
+****
+
+|Omschrijving|Waarde|
+|---|---|
+|**Sleutel**|toegestaanThreats|
+|**Gegevenstype**|Matrix met tekenreeksen|
+|
 
 #### <a name="disallowed-threat-actions"></a>Niet-toegestaan bedreigingsacties
 
 Hiermee beperkt u de acties die de lokale gebruiker van een apparaat kan uitvoeren wanneer bedreigingen worden gedetecteerd. De acties in deze lijst worden niet weergegeven in de gebruikersinterface.
 
-|||
-|:---|:---|
-| **Sleutel** | disallowedThreatActions |
-| **Gegevenstype** | Matrix met tekenreeksen |
-| **Mogelijke waarden** | toestaan (gebruikers kunnen geen bedreigingen toestaan) <br/> herstellen (gebruikers kunnen geen bedreigingen herstellen vanuit de quarantaine) |
-| **Opmerkingen** | Beschikbaar in Defender voor Eindpunt versie 100.83.73 of hoger. |
-|||
+<br>
+
+****
+
+|Omschrijving|Waarde|
+|---|---|
+|**Sleutel**|disallowedThreatActions|
+|**Gegevenstype**|Matrix met tekenreeksen|
+|**Mogelijke waarden**|toestaan (gebruikers kunnen geen bedreigingen toestaan) <p> herstellen (gebruikers kunnen geen bedreigingen herstellen vanuit de quarantaine)|
+|**Opmerkingen**|Beschikbaar in Defender voor Eindpunt versie 100.83.73 of hoger.|
+|
 
 #### <a name="threat-type-settings"></a>Instellingen voor bedreigingstype
 
 De *threatTypeSettings-voorkeur* in de antivirus-engine wordt gebruikt om te bepalen hoe bepaalde bedreigingstypen door het product worden verwerkt.
 
-|||
-|:---|:---|
-| **Sleutel** | threatTypeSettings |
-| **Gegevenstype** | Woordenlijst (geneste voorkeur) |
-| **Opmerkingen** | Zie de volgende secties voor een beschrijving van de inhoud van de woordenlijst. |
-|||
+<br>
 
-**Type bedreiging**
+****
+
+|Omschrijving|Waarde|
+|---|---|
+|**Sleutel**|threatTypeSettings|
+|**Gegevenstype**|Woordenlijst (geneste voorkeur)|
+|**Opmerkingen**|Zie de volgende secties voor een beschrijving van de inhoud van de woordenlijst.|
+|
+
+##### <a name="threat-type"></a>Type bedreiging
 
 Type bedreiging waarvoor het gedrag is geconfigureerd.
 
-|||
-|:---|:---|
-| **Sleutel** | toets |
-| **Gegevenstype** | Tekenreeks |
-| **Mogelijke waarden** | potentially_unwanted_application <br/> archive_bomb |
-|||
+<br>
 
-**Actie ondernemen**
+****
+
+|Omschrijving|Waarde|
+|---|---|
+|**Sleutel**|toets|
+|**Gegevenstype**|Tekenreeks|
+|**Mogelijke waarden**|potentially_unwanted_application <p> archive_bomb|
+|
+
+##### <a name="action-to-take"></a>Actie ondernemen
 
 Actie die moet worden ondernomen wanneer u een bedreiging tegenkomt van het type dat is opgegeven in de vorige sectie. Kan het volgende zijn:
 
@@ -225,81 +282,109 @@ Actie die moet worden ondernomen wanneer u een bedreiging tegenkomt van het type
 - **Blokkeren:** Het apparaat is beveiligd tegen dit type bedreiging en u wordt op de hoogte gesteld in de beveiligingsconsole.
 - **Uit:** Het apparaat is niet beveiligd tegen dit type bedreiging en er wordt niets geregistreerd.
 
-|||
-|:---|:---|
-| **Sleutel** | waarde |
-| **Gegevenstype** | Tekenreeks |
-| **Mogelijke waarden** | audit (standaard) <br/> blokkering <br/> uit |
-|||
+<br>
+
+****
+
+|Omschrijving|Waarde|
+|---|---|
+|**Sleutel**|waarde|
+|**Gegevenstype**|Tekenreeks|
+|**Mogelijke waarden**|audit (standaard) <p> blokkering <p> uit|
+|
 
 #### <a name="threat-type-settings-merge-policy"></a>Samenvoegbeleid voor instellingen voor bedreigingstype
 
 Hiermee geeft u het samenvoegbeleid voor instellingen voor bedreigingstype op. Dit kan een combinatie zijn van door de beheerder gedefinieerde en door de gebruiker gedefinieerde instellingen ( `merge` ) of alleen door beheerders gedefinieerde instellingen ( `admin_only` ). Deze instelling kan worden gebruikt om te voorkomen dat lokale gebruikers hun eigen instellingen voor verschillende bedreigingstypen definiëren.
 
-|||
-|:---|:---|
-| **Sleutel** | threatTypeSettingsMergePolicy |
-| **Gegevenstype** | Tekenreeks |
-| **Mogelijke waarden** | samenvoegen (standaard) <br/> admin_only |
-| **Opmerkingen** | Beschikbaar in Defender voor Eindpunt versie 100.83.73 of hoger. |
-|||
+<br>
+
+****
+
+|Omschrijving|Waarde|
+|---|---|
+|**Sleutel**|threatTypeSettingsMergePolicy|
+|**Gegevenstype**|Tekenreeks|
+|**Mogelijke waarden**|samenvoegen (standaard) <p> admin_only|
+|**Opmerkingen**|Beschikbaar in Defender voor Eindpunt versie 100.83.73 of hoger.|
+|
 
 #### <a name="antivirus-scan-history-retention-in-days"></a>Bewaargeschiedenis van antivirusscans (in dagen)
 
 Geef het aantal dagen op dat de resultaten worden bewaard in de scangeschiedenis op het apparaat. Oude scanresultaten worden uit de geschiedenis verwijderd. Oude in quarantaine geplaatste bestanden die ook van de schijf zijn verwijderd.
 
-|||
-|:---|:---|
-| **Sleutel** | scanResultsRetentionDays |
-| **Gegevenstype** | Tekenreeks |
-| **Mogelijke waarden** | 90 (standaard). Toegestane waarden zijn 1 dag tot 180 dagen. |
-| **Opmerkingen** | Beschikbaar in Defender voor Eindpunt versie 101.04.76 of hoger. |
-|||
+<br>
+
+****
+
+|Omschrijving|Waarde|
+|---|---|
+|**Sleutel**|scanResultsRetentionDays|
+|**Gegevenstype**|Tekenreeks|
+|**Mogelijke waarden**|90 (standaard). Toegestane waarden zijn 1 dag tot 180 dagen.|
+|**Opmerkingen**|Beschikbaar in Defender voor Eindpunt versie 101.04.76 of hoger.|
+|
 
 #### <a name="maximum-number-of-items-in-the-antivirus-scan-history"></a>Maximum aantal items in de geschiedenis van de antivirusscan
 
 Geef het maximum aantal items op dat u wilt behouden in de scangeschiedenis. Items zijn alle scans op aanvraag die in het verleden zijn uitgevoerd en alle antivirusdetecties.
 
-|||
-|:---|:---|
-| **Sleutel** | scanHistoryMaximumItems |
-| **Gegevenstype** | Tekenreeks |
-| **Mogelijke waarden** | 10000 (standaard). Toegestane waarden zijn van 5000 items tot 15000 items. |
-| **Opmerkingen** | Beschikbaar in Defender voor Eindpunt versie 101.04.76 of hoger. |
-|||
+<br>
+
+****
+
+|Omschrijving|Waarde|
+|---|---|
+|**Sleutel**|scanHistoryMaximumItems|
+|**Gegevenstype**|Tekenreeks|
+|**Mogelijke waarden**|10000 (standaard). Toegestane waarden zijn van 5000 items tot 15000 items.|
+|**Opmerkingen**|Beschikbaar in Defender voor Eindpunt versie 101.04.76 of hoger.|
+|
 
 ### <a name="cloud-delivered-protection-preferences"></a>Beveiligingsvoorkeuren in de cloud
 
 De *cloudService-vermelding* in het configuratieprofiel wordt gebruikt om de cloudbeveiligingsfunctie van het product te configureren.
 
-|||
-|:---|:---|
-| **Sleutel** | cloudService |
-| **Gegevenstype** | Woordenlijst (geneste voorkeur) |
-| **Opmerkingen** | Zie de volgende secties voor een beschrijving van de inhoud van de woordenlijst. |
-|||
+<br>
+
+****
+
+|Omschrijving|Waarde|
+|---|---|
+|**Sleutel**|cloudService|
+|**Gegevenstype**|Woordenlijst (geneste voorkeur)|
+|**Opmerkingen**|Zie de volgende secties voor een beschrijving van de inhoud van de woordenlijst.|
+|
 
 #### <a name="enable--disable-cloud-delivered-protection"></a>Beveiliging via de cloud in- of uitschakelen
 
 Hiermee bepaalt u of beveiliging in de cloud is ingeschakeld op het apparaat of niet. Als u de beveiliging van uw services wilt verbeteren, raden we u aan deze functie ingeschakeld te houden.
 
-|||
-|:---|:---|
-| **Sleutel** | ingeschakeld |
-| **Gegevenstype** | Booleaanse waarde |
-| **Mogelijke waarden** | true (standaard) <br/> onwaar |
-|||
+<br>
+
+****
+
+|Omschrijving|Waarde|
+|---|---|
+|**Sleutel**|ingeschakeld|
+|**Gegevenstype**|Booleaanse waarde|
+|**Mogelijke waarden**|true (standaard) <p> onwaar|
+|
 
 #### <a name="diagnostic-collection-level"></a>Diagnostisch verzamelingsniveau
 
 Diagnostische gegevens worden gebruikt om Defender voor Eindpunt veilig en up-to-date te houden, problemen op te sporen, te diagnosticeren en op te lossen, en om productverbeteringen aan te brengen. Deze instelling bepaalt het niveau van de diagnostische gegevens die door het product naar Microsoft worden verzonden.
 
-|||
-|:---|:---|
-| **Sleutel** | diagnosticLevel |
-| **Gegevenstype** | Tekenreeks |
-| **Mogelijke waarden** | optioneel (standaard) <br/> Vereist |
-|||
+<br>
+
+****
+
+|Omschrijving|Waarde|
+|---|---|
+|**Sleutel**|diagnosticLevel|
+|**Gegevenstype**|Tekenreeks|
+|**Mogelijke waarden**|optioneel (standaard) <p> Vereist|
+|
 
 #### <a name="enable--disable-automatic-sample-submissions"></a>Automatische voorbeeldinzendingen in- of uitschakelen
 
@@ -309,23 +394,31 @@ Hiermee wordt bepaald of verdachte steekproeven (die waarschijnlijk bedreigingen
 - **Safe:** alleen verdachte steekproeven die geen persoonlijke gegevens (PII) bevatten, worden automatisch verzonden. Dit is de standaardwaarde voor deze instelling.
 - **Alle**: alle verdachte steekproeven worden verzonden naar Microsoft.
 
-|||
-|:---|:---|
-| **Sleutel** | automaticSampleSubmissionConsent |
-| **Gegevenstype** | Tekenreeks |
-| **Mogelijke waarden** | geen <br/> veilig (standaard) <br/> alles |
-|||
+<br>
+
+****
+
+|Omschrijving|Waarde|
+|---|---|
+|**Sleutel**|automaticSampleSubmissionConsent|
+|**Gegevenstype**|Tekenreeks|
+|**Mogelijke waarden**|geen <p> veilig (standaard) <p> alles|
+|
 
 #### <a name="enable--disable-automatic-security-intelligence-updates"></a>Automatische beveiligingsinformatie-updates in- of uitschakelen
 
 Hiermee bepaalt u of beveiligingsinformatieupdates automatisch worden geïnstalleerd:
 
-|||
-|:---|:---|
-| **Sleutel** | automaticDefinitionUpdateEnabled |
-| **Gegevenstype** | Booleaanse waarde |
-| **Mogelijke waarden** | true (standaard) <br/> onwaar |
-|||
+<br>
+
+****
+
+|Omschrijving|Waarde|
+|---|---|
+|**Sleutel**|automaticDefinitionUpdateEnabled|
+|**Gegevenstype**|Booleaanse waarde|
+|**Mogelijke waarden**|true (standaard) <p> onwaar|
+|
 
 ## <a name="recommended-configuration-profile"></a>Aanbevolen configuratieprofiel
 
@@ -444,10 +537,12 @@ python -m json.tool mdatp_managed.json
 Als de JSON goed is gevormd, wordt deze met de bovenstaande opdracht terug naar de Terminal uitgevoerd en wordt een exitcode van `0` . Anders wordt een fout weergegeven die het probleem beschrijft en retourneert de opdracht een exitcode van `1` .
 
 ## <a name="verifying-that-the-mdatp_managedjson-file-is-working-as-expected"></a>Controleren of de mdatp_managed.jsbestand werkt zoals verwacht
+
 Als u wilt controleren of uw /etc/opt/microsoft/mdatp/managed/mdatp_managed.jsop naar behoren werkt, ziet u '[beheerd]' naast deze instellingen:
+
 - cloud_enabled
 - cloud_automatic_sample_submission_consent
-- passice_mode_enabled
+- passive_mode_enabled
 - real_time_protection_enabled
 - automatic_definition_update_enabled
 

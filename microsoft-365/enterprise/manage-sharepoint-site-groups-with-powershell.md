@@ -20,22 +20,22 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: d0d3877a-831f-4744-96b0-d8167f06cca2
 description: In dit artikel vindt u procedures voor het gebruik van PowerShell Microsoft 365 voor het beheren SharePoint Online-sitegroepen.
-ms.openlocfilehash: bcc7a00a6114a6fa2ba8aa02520267bd03a0abf5
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 383536a6ad5ac5742cf1e38081a9be984ce4806b
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909536"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289077"
 ---
 # <a name="manage-sharepoint-online-site-groups-with-powershell"></a>Online SharePoint onlinesitegroepen beheren met PowerShell
 
 *Dit artikel is van toepassing op Microsoft 365 Enterprise en Office 365 Enterprise.*
 
-Hoewel u het Microsoft 365 beheercentrum kunt gebruiken, kunt u PowerShell ook gebruiken voor Microsoft 365 om uw SharePoint Online-sitegroepen te beheren.
+Hoewel u de Microsoft 365-beheercentrum kunt gebruiken, kunt u PowerShell ook gebruiken voor Microsoft 365 om uw SharePoint Online-sitegroepen te beheren.
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
-Voor de procedures in dit artikel moet u verbinding maken met SharePoint Online. Zie voor instructies [Verbinding maken SharePoint Online PowerShell.](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
+Voor de procedures in dit artikel moet u verbinding maken met SharePoint Online. Zie voor instructies [Verbinding maken SharePoint Online PowerShell.](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
 
 ## <a name="view-sharepoint-online-with-powershell-for-microsoft-365"></a>Online SharePoint weergeven met PowerShell voor Microsoft 365
 
@@ -84,22 +84,22 @@ foreach ($y in $x)
         $z = Get-SPOSiteGroup -Site $y.Url
         foreach ($a in $z)
             {
-                 $b = Get-SPOSiteGroup -Site $y.Url -Group $a.Title 
+                 $b = Get-SPOSiteGroup -Site $y.Url -Group $a.Title
                  Write-Host $b.Title -ForegroundColor "Cyan"
                  $b | Select-Object -ExpandProperty Users
                  Write-Host
             }
     }
 ```
-    
+
 ## <a name="see-also"></a>Zie ook
 
-[Verbinding maken om SharePoint Online PowerShell te gebruiken](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
+[Verbinding maken om SharePoint Online PowerShell te gebruiken](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
 
 [Onlinesites SharePoint en gebruikers toevoegen met PowerShell](create-sharepoint-sites-and-add-users-with-powershell.md)
 
 [Online SharePoint en groepen beheren met PowerShell](manage-sharepoint-users-and-groups-with-powershell.md)
 
 [Microsoft 365 beheren met PowerShell](manage-microsoft-365-with-microsoft-365-powershell.md)
-  
+
 [Aan de slag met PowerShell voor Microsoft 365](getting-started-with-microsoft-365-powershell.md)

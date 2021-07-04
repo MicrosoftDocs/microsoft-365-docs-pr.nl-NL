@@ -14,12 +14,12 @@ f1.keywords:
 ms.custom: ''
 ms.assetid: 054c16e6-9fd1-4e85-a0e6-81788b8410ea
 description: Gebruik PowerShell voor Microsoft 365 om beleidsregels voor Skype voor Bedrijven Online, beleidsregels per gebruiker en vergaderingsinstellingen te beheren.
-ms.openlocfilehash: 4477dadf0ea38a81ac0ae282da3f74fc12f3406f
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 4ea4858e4ca334cdb0268312e69bef77bc9bbd86
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50916678"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288981"
 ---
 # <a name="manage-skype-for-business-online-with-powershell"></a>Skype voor Bedrijven Online beheren met PowerShell
 
@@ -29,16 +29,15 @@ De beheerders van Skype voor Bedrijven Online zijn verantwoordelijk voor het bel
 
 ## <a name="before-you-start"></a>Voordat u van start gaat
 
-  > [!Note]
-   > Skype voor Bedrijven Online-connector maakt momenteel deel uit van de nieuwste Teams PowerShell-module. Als u de meest recente openbare versie van Teams PowerShell gebruikt, hoeft u de Skype voor Bedrijven Online-connector niet te installeren.
-   
-Installeer de [Teams PowerShell-module](/microsoftteams/teams-powershell-install).
+> [!NOTE]
+> Skype voor Bedrijven Online-connector maakt momenteel deel uit van de nieuwste Teams PowerShell-module. Als u de meest recente openbare versie van Teams PowerShell gebruikt, hoeft u de Skype voor Bedrijven Online-connector niet te installeren.
 
+Installeer de [Teams PowerShell-module](/microsoftteams/teams-powershell-install).
 
 ## <a name="connect-using-admin-credentials"></a>Verbinding maken met beheerdersreferenties.
 
 1. Open een opdrachtpromptvenster van Windows PowerShell en voer de volgende opdrachten uit:
-    
+
    ```powershell
    Import-Module MicrosoftTeams
    $userCredential = Get-Credential
@@ -46,7 +45,6 @@ Installeer de [Teams PowerShell-module](/microsoftteams/teams-powershell-install
    ```
 
 2. Voer in het dialoogvenster **Referentieaanvraag voor Windows PowerShell** de naam en het wachtwoord van uw administrator-account en selecteer **OK**.
-
 
 ## <a name="connect-using-an-admin-account-with-multi-factor-authentication"></a>Verbinding maken met een beheerdersaccount met meervoudige verificatie
 
@@ -64,15 +62,15 @@ Installeer de [Teams PowerShell-module](/microsoftteams/teams-powershell-install
 4. Volg de instructies in het dialoogvenster **Aanmelden bij uw account** om verificatiegegevens toe te voegen, zoals een verificatiecode. Klik vervolgens op **Bevestigen**.
 
 Zie voor meer informatie:
-  
+
 - [Beleidsregels voor Skype voor Bedrijven Online beheren met PowerShell](manage-skype-for-business-online-policies-with-microsoft-365-powershell.md)
-    
+
 - [Beleidsregels per gebruiker toewijzen voor Skype voor Bedrijven Online met PowerShell](assign-per-user-skype-for-business-online-policies-with-microsoft-365-powershell.md)
-    
+
 ## <a name="see-also"></a>Zie ook
 
 [Microsoft 365 beheren met PowerShell](manage-microsoft-365-with-microsoft-365-powershell.md)
-  
+
 [Aan de slag met PowerShell voor Microsoft 365](getting-started-with-microsoft-365-powershell.md)
 
-[PowerShell-cmdlet-verwijzingen voor Skype voor Bedrijven](/powershell/module/skype/?view=skype-ps)
+[PowerShell-cmdlet-verwijzingen voor Skype voor Bedrijven](/powershell/module/skype/)

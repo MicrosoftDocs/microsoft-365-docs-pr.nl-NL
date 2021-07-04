@@ -17,14 +17,14 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 1935533ad924b7589bdfee6f3119fb667fb60b73
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: c44993337a6b14dc2fa131de906c5fc6bde28fac
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841508"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289041"
 ---
-# <a name="deploy-microsoft-defender-for-endpoint-on-android-with-microsoft-intune"></a>Microsoft Defender voor Eindpunt op Android implementeren via Microsoft Intune 
+# <a name="deploy-microsoft-defender-for-endpoint-on-android-with-microsoft-intune"></a>Microsoft Defender voor Eindpunt op Android implementeren via Microsoft Intune
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -32,20 +32,22 @@ ms.locfileid: "52841508"
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 Meer informatie over het implementeren van Defender voor Eindpunt op Android op Intune-bedrijfsportal geregistreerde apparaten. Zie Uw apparaat  [registreren](/mem/intune/user-help/enroll-device-android-company-portal)voor meer informatie over intune-apparaatinschrijving.
 
 > [!NOTE]
-> **Defender voor Eindpunt op Android is nu beschikbaar op [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.scmx)** <br>
+> **Defender voor Eindpunt op Android is nu beschikbaar op [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.scmx)**
+>
 > U kunt vanuit Intune verbinding maken met Google Play om de Defender voor Endpoint-app te implementeren in de registratiemodi Apparaatbeheerder en Android Enterprise.
-Updates voor de app worden automatisch via Google Play.
+>
+> Updates voor de app worden automatisch via Google Play.
 
 ## <a name="deploy-on-device-administrator-enrolled-devices"></a>Implementeren op apparaten die zijn geregistreerd door apparaatbeheerder
 
 **Defender voor eindpunt implementeren op Android op Intune-bedrijfsportal - Apparatenbeheerder die zijn geregistreerd**
 
-Meer informatie over het implementeren van Defender voor Eindpunt op Android op Intune-bedrijfsportal - Apparaatbeheerder ingeschreven apparaten. 
+Meer informatie over het implementeren van Defender voor Eindpunt op Android op Intune-bedrijfsportal - Apparaatbeheerder ingeschreven apparaten.
 
 ### <a name="add-as-android-store-app"></a>Toevoegen als Android Store-app
 
@@ -53,12 +55,12 @@ Meer informatie over het implementeren van Defender voor Eindpunt op Android op 
 
    ![Afbeelding van Microsoft Endpoint Manager-beheercentrum android store-toepassing toevoegen](images/mda-addandroidstoreapp.png)
 
-2. Voer op **de pagina App** toevoegen en in de sectie *App-informatie* het volgende in: 
+2. Voer op **de pagina App** toevoegen en in de sectie *App-informatie* het volgende in:
 
-   - **Naam** 
+   - **Naam**
    - **Beschrijving**
    - **Publisher** als Microsoft.
-   - **App Store URL** as https://play.google.com/store/apps/details?id=com.microsoft.scmx (Defender for Endpoint app Google Play Store URL) 
+   - **App Store URL** as https://play.google.com/store/apps/details?id=com.microsoft.scmx (Defender for Endpoint app Google Play Store URL)
 
    Andere velden zijn optioneel. Selecteer **Volgende**.
 
@@ -66,8 +68,8 @@ Meer informatie over het implementeren van Defender voor Eindpunt op Android op 
 
 3. Ga in *de sectie Opdrachten* naar de sectie **Vereist** en selecteer **Groep toevoegen.** Vervolgens kunt u de gebruikersgroep(s) kiezen die u wilt richten op Defender voor Eindpunt in de Android-app. Kies **Selecteren** en vervolgens **Volgende**.
 
-    >[!NOTE]
-    >De geselecteerde gebruikersgroep moet bestaan uit intune geregistreerde gebruikers.
+    > [!NOTE]
+    > De geselecteerde gebruikersgroep moet bestaan uit intune geregistreerde gebruikers.
 
     > [!div class="mx-imgBorder"]
 
@@ -154,12 +156,12 @@ Volg de onderstaande stappen om de App Microsoft Defender voor Eindpunt toe te v
        ![Afbeelding van Microsoft Endpoint Manager beheerde android-apparaten in het beheercentrum](images/android-mem.png)
 
     1. Voer op **de pagina App-configuratiebeleid** maken de volgende details in:
-    
+
         - Naam: Microsoft Defender voor Eindpunt.
         - Kies **Android Enterprise** als platform.
         - Kies **Alleen werkprofiel als** profieltype.
-        - Klik **op App selecteren,** kies **Microsoft Defender ATP**, selecteer **OK** en vervolgens **Volgende.**
-    
+        - Klik **op App selecteren,** kies **Microsoft Defender ATP,** selecteer **OK** en vervolgens **Volgende.**
+
         > [!div class="mx-imgBorder"]
         > ![Afbeelding van beleidspagina voor app-configuratie maken](images/android-create-app.png)
 
@@ -178,63 +180,72 @@ Volg de onderstaande stappen om de App Microsoft Defender voor Eindpunt toe te v
        > [!div class="mx-imgBorder"]
        > ![Afbeelding van android auto grant create app configuration policy](images/android-auto-grant.png)
 
-    1. Selecteer op **de pagina** Toewijzingen de gebruikersgroep waaraan dit app-config-beleid zou zijn toegewezen. Klik **op Groepen selecteren om de** betreffende groep op te nemen en te selecteren en vervolgens Volgende te **selecteren.**  De groep die hier is geselecteerd, is meestal dezelfde groep waaraan u Microsoft Defender voor Endpoint Android-app zou toewijzen. 
+    1. Selecteer op **de pagina** Toewijzingen de gebruikersgroep waaraan dit app-config-beleid zou zijn toegewezen. Klik **op Groepen selecteren om de** betreffende groep op te nemen en te selecteren en vervolgens Volgende te **selecteren.**  De groep die hier is geselecteerd, is meestal dezelfde groep waaraan u Microsoft Defender voor Endpoint Android-app zou toewijzen.
 
        > [!div class="mx-imgBorder"]
        > ![Afbeelding van het configuratiebeleid voor apps maken](images/android-select-group.png)
-    
 
-     1. Bekijk alle **informatie op de** pagina Controleren + Maken die hierna wordt weergegeven en selecteer vervolgens **Maken.** <br>
-    
+    1. Bekijk alle **informatie op de** pagina Controleren + Maken die hierna wordt weergegeven en selecteer vervolgens **Maken.** <br>
+
         Het app-configuratiebeleid voor Defender voor Eindpunt dat de opslagmachtigingen automatisch wordt toegewezen, is nu toegewezen aan de geselecteerde gebruikersgroep.
 
         > [!div class="mx-imgBorder"]
         > ![Afbeelding van android-revisie maak beleid voor app-config](images/android-review-create.png)
 
-
-10. Selecteer **Microsoft Defender ATP** app in de lijst \>  \> **Eigenschappentoewijzingen** \> **bewerken**.
+10. Selecteer **Microsoft Defender ATP-app** in de lijst \> **Eigenschappentoewijzingen** \>  \> **bewerken**.
 
     ![Afbeelding van lijst met apps](images/mda-properties.png)
-
 
 11. Wijs de app toe als *een vereiste* app aan een gebruikersgroep. Het wordt automatisch geïnstalleerd in het *werkprofiel* tijdens de volgende synchronisatie van het apparaat via Bedrijfsportal app. U kunt deze opdracht uitvoeren door naar de groep Vereist *toevoegen* te \> **gaan,** de gebruikersgroep te selecteren en op Selecteren **te klikken.**
 
     > [!div class="mx-imgBorder"]
     > ![Afbeelding van de pagina Toepassing bewerken](images/ea06643280075f16265a596fb9a96042.png)
 
-
 12. Bekijk op **de pagina** Toepassing bewerken alle informatie die hierboven is ingevoerd. Selecteer vervolgens **Controleren + Opslaan en** vervolgens opnieuw opslaan **om** de toewijzing te starten.
 
-### <a name="auto-setup-of-always-on-vpn"></a>Auto Setup of Always-on VPN 
-Defender voor Eindpunt ondersteunt apparaatconfiguratiebeleid voor beheerde apparaten via Intune. Deze mogelijkheid kan worden gebruikt voor het automatisch instellen van **Always-on VPN** op geregistreerde Android Enterprise-apparaten, zodat de eindgebruiker geen VPN-service hoeft in te stellen tijdens onboarding.
-1.  Selecteer **op Apparaten** **configuratieprofielen**  >  **Profielplatform** maken Android  >    >  **Enterprise** Selecteer **Apparaatbeperkingen** onder een van de volgende opties, op basis van het type apparaatinschrijving 
-- **Volledig beheerd, toegewezen en Corporate-Owned werkprofiel**
-- **Persoonlijk werkprofiel**
+### <a name="auto-setup-of-always-on-vpn"></a>Auto Setup of Always-on VPN
 
-Selecteer **Maken**.
- 
+Defender voor Eindpunt ondersteunt apparaatconfiguratiebeleid voor beheerde apparaten via Intune. Deze mogelijkheid kan worden gebruikt voor het automatisch instellen van **Always-on VPN** op geregistreerde Android Enterprise-apparaten, zodat de eindgebruiker geen VPN-service hoeft in te stellen tijdens onboarding.
+
+1. Selecteer **op Apparaten** **configuratieprofielen**  >  **Profielplatform**  >    >  **maken Android Enterprise**
+
+   Selecteer **Apparaatbeperkingen onder** een van de volgende opties, op basis van het type apparaatinschrijving:
+   - **Volledig beheerd, toegewezen en Corporate-Owned werkprofiel**
+   - **Persoonlijk werkprofiel**
+
+   Selecteer **Maken**.
+
    > ![Afbeelding van het configuratieprofiel Van apparaten maken](images/1autosetupofvpn.png)
-    
-2. **Configuratie Instellingen** Geef een **naam en** een beschrijving **op om** het configuratieprofiel uniek te identificeren. 
+
+2. **Configuratie Instellingen** Geef een **naam en** een beschrijving **op om** het configuratieprofiel uniek te identificeren.
 
    > ![Afbeelding van het configuratieprofiel Naam en beschrijving van apparaten](images/2autosetupofvpn.png)
-   
- 3. Selecteer **Connectiviteit en** configureer VPN:
-- **Always-on VPN inschakelen** Stel een VPN-client in het werkprofiel in om waar mogelijk automatisch verbinding te maken en opnieuw verbinding te maken met de VPN. Er kan slechts één VPN-client worden geconfigureerd voor altijd-on VPN op een bepaald apparaat, dus zorg ervoor dat er niet meer dan één always-on VPN-beleid is geïmplementeerd op één apparaat. 
-- Selecteer **Aangepast** in de vervolgkeuzelijst vpn-client Aangepaste VPN is in dit geval Defender voor Endpoint VPN, dat wordt gebruikt om de webbeveiligingsfunctie te bieden. 
-    > [!NOTE]
-    > Microsoft Defender voor Endpoint-app moet zijn geïnstalleerd op het apparaat van de gebruiker, zodat deze VPN automatisch kan worden ingesteld.
 
-- Voer **pakket-id** in van de Microsoft Defender voor Eindpunt-app in de Google Play Store. Voor de URL van de Defender-app https://play.google.com/store/apps/details?id=com.microsoft.scmx is Package ID **com.microsoft.scmx**  
-- **Vergrendelingsmodus** Niet geconfigureerd (standaard) 
+3. Selecteer **Connectiviteit en** configureer VPN:
+   - **Always-on VPN inschakelen**
+
+   Stel een VPN-client in het werkprofiel in om waar mogelijk automatisch verbinding te maken en opnieuw verbinding te maken met de VPN. Er kan slechts één VPN-client worden geconfigureerd voor altijd-on VPN op een bepaald apparaat, dus zorg ervoor dat er niet meer dan één always-on VPN-beleid is geïmplementeerd op één apparaat.
+
+   - Selecteer **Aangepast** in de vervolgkeuzelijst vpn-client
+
+   Aangepaste VPN is in dit geval Defender voor Endpoint VPN, dat wordt gebruikt om de webbeveiligingsfunctie te bieden.
+
+   > [!NOTE]
+   > Microsoft Defender voor Endpoint-app moet zijn geïnstalleerd op het apparaat van de gebruiker, zodat deze VPN automatisch kan worden ingesteld.
+
+   - Voer **pakket-id** in van de Microsoft Defender voor Eindpunt-app in de Google Play Store. Voor de URL van de Defender-app <https://play.google.com/store/apps/details?id=com.microsoft.scmx> is Package ID **com.microsoft.scmx**
+   - **Vergrendelingsmodus** Niet geconfigureerd (standaard)
 
      ![Afbeelding van configuratieprofiel apparaten inschakelen Always-on VPN](images/3autosetupofvpn.png)
-   
-4. **Toewijzing** Selecteer op  **de pagina**   Toewijzingen de gebruikersgroep waaraan dit app-config-beleid zou zijn toegewezen. Klik **op Groepen selecteren** om de betreffende groep op te nemen en te selecteren en klik vervolgens op **Volgende.** De groep die hier is geselecteerd, is meestal dezelfde groep waaraan u Microsoft Defender voor Endpoint Android-app zou toewijzen. 
+
+4. **Toewijzing**
+
+   Selecteer op **de pagina**   Toewijzingen de gebruikersgroep waaraan dit app-config-beleid zou zijn toegewezen. Klik **op Groepen selecteren** om de betreffende groep op te nemen en te selecteren en klik vervolgens op **Volgende.** De groep die hier is geselecteerd, is meestal dezelfde groep waaraan u Microsoft Defender voor Endpoint Android-app zou toewijzen.
 
      ![Afbeelding van toewijzing van het configuratieprofiel van apparaten](images/4autosetupofvpn.png)
 
-5. Bekijk alle **informatie op de** pagina Controleren + Maken die hierna wordt weergegeven en selecteer vervolgens **Maken.** Het apparaatconfiguratieprofiel is nu toegewezen aan de geselecteerde gebruikersgroep.    
+5. Bekijk alle **informatie op de** pagina Controleren + Maken die hierna wordt weergegeven en selecteer vervolgens **Maken.**
+Het apparaatconfiguratieprofiel is nu toegewezen aan de geselecteerde gebruikersgroep.
 
     ![Afbeelding van het configuratieprofiel van apparaten Controleren en maken](images/5autosetupofvpn.png)
 
@@ -244,7 +255,6 @@ Selecteer **Maken**.
 
     > [!div class="mx-imgBorder"]
     > ![Afbeelding van de installatiestatus van het apparaat](images/900c0197aa59f9b7abd762ab2b32e80c.png)
-
 
 2. Op het apparaat kunt u de onboarding-status valideren door naar het **werkprofiel te gaan.** Controleer of Defender voor Eindpunt beschikbaar is en dat u bent geregistreerd voor de apparaten van persoonlijk **eigendom met werkprofiel.**  Als u bent geregistreerd bij een volledig beheerd gebruikersapparaat van het **bedrijf,** hebt u één profiel op het apparaat waar u kunt bevestigen dat Defender voor Eindpunt beschikbaar is.
 
@@ -258,7 +268,7 @@ Selecteer **Maken**.
 
     ![Afbeelding van microsoft Defender voor eindpuntportal](images/9fe378a1dce0f143005c3aa53d8c4f51.png)
 
+## <a name="related-topics"></a>Gerelateerde onderwerpen
 
-## <a name="related-topics"></a>Verwante onderwerpen
 - [Overzicht van Microsoft Defender voor Eindpunt op Android](microsoft-defender-endpoint-android.md)
 - [Microsoft Defender voor Eindpunt in Android-functies configureren](android-configure.md)

@@ -14,12 +14,12 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 36743c86-46c2-46be-b9ed-ad9d4e85d186
 description: 'Overzicht: Gebruik PowerShell voor Microsoft 365 om communicatie-instellingen per gebruiker toe te wijzen met Skype voor Bedrijven Online-beleid.'
-ms.openlocfilehash: 2d3d953fe0beb74cc63f914137942f068ce90be7
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d7f369e96f3db95c741e6d4f2178eaf9032ab0bb
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905402"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288081"
 ---
 # <a name="assign-per-user-skype-for-business-online-policies-with-powershell-for-microsoft-365"></a>Een onlinebeleid Skype voor Bedrijven per gebruiker toewijzen met PowerShell voor Microsoft 365
 
@@ -102,11 +102,10 @@ Grant-CsExternalAccessPolicy -Identity "Alex Darrow" -PolicyName $Null
 ```
 
 Met deze opdracht wordt de naam van het beleid voor externe toegang dat aan Alex is toegewezen, ingedeeld in een null-waarde ($Null). Null betekent 'niets'. Met andere woorden, er is geen beleid voor externe toegang toegewezen aan Alex. Als er geen beleid voor externe toegang is toegewezen aan een gebruiker, wordt deze gebruiker vervolgens beheerd door het globale beleid.
-  
 
 ## <a name="managing-large-numbers-of-users"></a>Grote aantallen gebruikers beheren
 
-Als u grote aantallen gebruikers (1000 of meer) wilt beheren, moet u de opdrachten batcheren via een scriptblok met de cmdlet [Invoke-Command.](/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7)  In eerdere voorbeelden moet elke keer dat een cmdlet wordt uitgevoerd, de oproep worden ingesteld en vervolgens wachten op het resultaat voordat u deze terug verstuurt.  Wanneer u een scriptblok gebruikt, kunnen de cmdlets op afstand worden uitgevoerd en de gegevens terugsturen wanneer ze zijn voltooid. 
+Als u grote aantallen gebruikers (1000 of meer) wilt beheren, moet u de opdrachten batcheren via een scriptblok met de cmdlet [Invoke-Command.](/powershell/module/microsoft.powershell.core/invoke-command)  In eerdere voorbeelden moet elke keer dat een cmdlet wordt uitgevoerd, de oproep worden ingesteld en vervolgens wachten op het resultaat voordat u deze terug verstuurt.  Wanneer u een scriptblok gebruikt, kunnen de cmdlets op afstand worden uitgevoerd en de gegevens terugsturen wanneer ze zijn voltooid.
 
 ```powershell
 $users = Get-CsOnlineUser -Filter { ClientPolicy -eq $null } -ResultSize 500

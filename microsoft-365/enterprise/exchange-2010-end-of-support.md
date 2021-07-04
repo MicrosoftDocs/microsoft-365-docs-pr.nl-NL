@@ -12,12 +12,12 @@ ms.assetid: e150e7b9-c432-4c8d-a0ae-c11847129a7d
 f1.keywords:
 - NOCSH
 description: Exchange 2010 heeft het einde van de ondersteuning bereikt. Gebruik deze planningsroutekaart om een upgrade uit te voeren naar Exchange Online of een nieuwere versie van Exchange Server on-premises.
-ms.openlocfilehash: f3531802283368e533ba6646415d4acc019687bd
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: bbc7fb83537621a47a866bf0ca129a38e21f055e
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50926992"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289125"
 ---
 # <a name="exchange-2010-end-of-support-roadmap"></a>Exchange 2010 einde van de ondersteuningsroutekaart
 
@@ -81,17 +81,23 @@ Microsoft 365 krijgt ook eerst nieuwe functies en ervaringen, zodat uw organisat
 ### <a name="how-should-i-migrate-to-microsoft-365"></a>Hoe moet ik migreren naar Microsoft 365?
 
 Afhankelijk van uw organisatie hebt u een aantal opties om uw Microsoft 365. Eerst moet u rekening houden met een paar dingen, zoals:
+
 - Het aantal stoelen of postvakken dat u moet verplaatsen.
 - Hoe lang wilt u de migratie laten duren?
 - Of u een naadloze integratie nodig hebt tussen uw on-premises installatie en Microsoft 365 tijdens de migratie.
- 
+
 In deze tabel ziet u de migratieopties en de belangrijkste factoren die bepalen welke methode moet worden gebruikt.
+
+<br>
+
+****
 
 |Migratieoptie|Grootte van organisatie|Duur|
 |---|---|---|
 |Cutover-migratie|Minder dan 150 zitplaatsen|Een week of minder|
 |Minimale hybride migratie|Minder dan 150 zitplaatsen|Een paar weken of minder|
 |Volledige hybride migratie|Meer dan 150 zitplaatsen|Een paar weken of meer|
+|
 
 In de volgende secties ziet u een overzicht van deze methoden. Zie Beslissen over een migratiepad voor [meer informatie.](https://support.office.com/article/Decide-on-a-migration-path-0d4f2396-9cef-43b8-9bd6-306d01df1e27)
 
@@ -173,6 +179,10 @@ Voor de beste ervaring raden we u aan uw resterende on-premises omgeving te upgr
 
 Exchange 2016 bevat alle functies van eerdere versies van Exchange. Het komt het meest overeen met de ervaring die beschikbaar is met Microsoft 365, hoewel sommige functies alleen beschikbaar zijn in Microsoft 365. Bekijk een paar dingen die u hebt gemist:
 
+<br>
+
+****
+
 |Exchange release|Functies|
 |---|---|
 |**Exchange 2013**|Vereenvoudigde architectuur vermindert het aantal serverrollen tot drie (Postvak, Clienttoegang, Edge Transport)|
@@ -183,24 +193,29 @@ Exchange 2016 bevat alle functies van eerdere versies van Exchange. Het komt het
 ||Verbeterde DLP samen met integratie met SharePoint|
 ||Verbeterde databaseweerbaarheid|
 ||Online documentsamenwerking|
+|
+
+<br>
+
+****
 
 |Overweging|Meer informatie|
 |---|---|
-|Einde van ondersteuningsdatums|Net Exchange 2010 heeft elke versie van Exchange een eigen einddatum voor ondersteuning:<br/><br/>Exchange 2013 - april 2023<br/>Exchange 2016 - oktober 2025<br/><br/>Hoe eerder de einddatum van de ondersteuning is, hoe eerder u een andere migratie moet uitvoeren. April 2023 is veel dichterbij dan u denkt!|
-|Migratiepad naar Exchange 2013 of 2016|Het migratiepad van Exchange 2010 naar een nieuwere versie is hetzelfde, ongeacht of u Exchange 2013 of Exchange 2016:<br/><br/>Installeer Exchange 2013 of 2016 in uw bestaande Exchange 2010-organisatie.<br/>Services en andere infrastructuur verplaatsen naar Exchange 2013 of 2016.<br/>Postvakken en openbare mappen verplaatsen naar Exchange 2013 of 2016 De resterende resterende Exchange 2010-servers.|
+|Einde van ondersteuningsdatums|Net Exchange 2010 heeft elke versie van Exchange een eigen einddatum voor ondersteuning: <p> Exchange 2013 - april 2023 <p> Exchange 2016 - oktober 2025 <p> Hoe eerder de einddatum van de ondersteuning is, hoe eerder u een andere migratie moet uitvoeren. April 2023 is veel dichterbij dan u denkt!|
+|Migratiepad naar Exchange 2013 of 2016|Het migratiepad van Exchange 2010 naar een nieuwere versie is hetzelfde, ongeacht of u Exchange 2013 of Exchange 2016: <p> Installeer Exchange 2013 of 2016 in uw bestaande Exchange 2010-organisatie. <p> Services en andere infrastructuur verplaatsen naar Exchange 2013 of 2016. <p> Postvakken en openbare mappen verplaatsen naar Exchange 2013 of 2016 De resterende resterende Exchange 2010-servers.|
 |Coëxistentie van versie|Wanneer u migreert naar Exchange 2013 of Exchange 2016, kunt u een van de versies installeren in een bestaande Exchange 2010-organisatie. Hiermee kunt u een of meer servers Exchange 2013 of Exchange 2016 installeren en uw migratie doen.|
-|Serverhardware|De vereisten voor serverhardware zijn gewijzigd Exchange 2010. Zorg ervoor dat uw hardware compatibel is. Meer informatie over hardwarevereisten voor elke versie vindt u hier:<br/><br/>[Exchange systeemvereisten voor 2016](/Exchange/plan-and-deploy/system-requirements?view=exchserver-2016)<br/>[Exchange systeemvereisten voor 2013](/Exchange/exchange-2013-system-requirements-exchange-2013-help)<br/><br/>Met de aanzienlijke verbeteringen in Exchange prestaties en de toegenomen rekenkracht en opslagcapaciteit in nieuwere servers, hebt u waarschijnlijk minder servers nodig om hetzelfde aantal postvakken te ondersteunen.|
-|Versie van besturingssysteem|De minimaal ondersteunde besturingssysteemversies voor elke versie zijn:<br/><br/>Exchange 2016 - Windows Server 2012<br/>Exchange 2013 - Windows Server 2008 R2 SP1<br/><br/>U vindt meer informatie over de ondersteuning van het besturingssysteem [Exchange Ondersteuningsmatrix.](/exchange/plan-and-deploy/supportability-matrix)|
-|Active Directory-forestfunctionaliteitsniveau|De minimaal ondersteunde active directory-forestfunctionaliteitsniveaus voor elke versie zijn:<br/><br/>Exchange 2016 - Windows Server 2008 R2 SP1<br/>Exchange 2013 - Windows Server 2003<br/><br/>U vindt meer informatie over ondersteuning voor forestfunctionaliteit op [Exchange Ondersteuningsmatrix.](/exchange/plan-and-deploy/supportability-matrix)|
-|Office clientversies|De minimaal ondersteunde Office clientversies voor elke versie zijn:<br/><br/>Exchange 2016 - Office 2010 (met de meest recente updates)<br/>Exchange 2013 - Office 2007 SP3<br/><br/>Meer informatie over Office clientondersteuning vindt [u Exchange Ondersteuningsmatrix.](/exchange/plan-and-deploy/supportability-matrix)||| 
-
+|Serverhardware|De vereisten voor serverhardware zijn gewijzigd Exchange 2010. Zorg ervoor dat uw hardware compatibel is. Meer informatie over hardwarevereisten voor elke versie vindt u hier: <p> [Exchange systeemvereisten voor 2016](/Exchange/plan-and-deploy/system-requirements?view=exchserver-2016&preserve-view=true) <p> [Exchange systeemvereisten voor 2013](/Exchange/exchange-2013-system-requirements-exchange-2013-help) <p> Met de aanzienlijke verbeteringen in Exchange prestaties en de toegenomen rekenkracht en opslagcapaciteit in nieuwere servers, hebt u waarschijnlijk minder servers nodig om hetzelfde aantal postvakken te ondersteunen.|
+|Versie van besturingssysteem|De minimaal ondersteunde besturingssysteemversies voor elke versie zijn: <p> Exchange 2016 - Windows Server 2012 <p> Exchange 2013 - Windows Server 2008 R2 SP1 <p> U vindt meer informatie over de ondersteuning van het besturingssysteem [Exchange Ondersteuningsmatrix.](/exchange/plan-and-deploy/supportability-matrix)|
+|Active Directory-forestfunctionaliteitsniveau|De minimaal ondersteunde active directory-forestfunctionaliteitsniveaus voor elke versie zijn: <p> Exchange 2016 - Windows Server 2008 R2 SP1 <p> Exchange 2013 - Windows Server 2003 <p> U vindt meer informatie over ondersteuning voor forestfunctionaliteit op [Exchange Ondersteuningsmatrix.](/exchange/plan-and-deploy/supportability-matrix)|
+|Office clientversies|De minimaal ondersteunde Office clientversies voor elke versie zijn: <p> Exchange 2016 - Office 2010 (met de meest recente updates) <p> Exchange 2013 - Office 2007 SP3 <p> Meer informatie over Office clientondersteuning vindt [u Exchange Ondersteuningsmatrix.](/exchange/plan-and-deploy/supportability-matrix)|
+|
 
 Gebruik de volgende bronnen om te helpen bij uw migratie:
 
 - [Exchange Implementatieassistent](/exchange/exchange-deployment-assistant)
-- Active Directory-schemawijzigingen voor Exchange [2016](/exchange/plan-and-deploy/active-directory/ad-schema-changes?view=exchserver-2016), [2013](/Exchange/exchange-2013-active-directory-schema-changes-exchange-2013-help)
-- Systeemvereisten voor Exchange [2016](/exchange/plan-and-deploy/system-requirements?view=exchserver-2016), [2013](/Exchange/exchange-2013-system-requirements-exchange-2013-help)
-- Vereisten voor Exchange [2016](/exchange/plan-and-deploy/prerequisites?view=exchserver-2016), [2013](/Exchange/exchange-2013-prerequisites-exchange-2013-help)
+- Active Directory-schemawijzigingen voor Exchange [2016](/exchange/plan-and-deploy/active-directory/ad-schema-changes?view=exchserver-2016&preserve-view=true), [2013](/Exchange/exchange-2013-active-directory-schema-changes-exchange-2013-help)
+- Systeemvereisten voor Exchange [2016](/exchange/plan-and-deploy/system-requirements?view=exchserver-2016&preserve-view=true), [2013](/Exchange/exchange-2013-system-requirements-exchange-2013-help)
+- Vereisten voor Exchange [2016](/exchange/plan-and-deploy/prerequisites?view=exchserver-2016&preserve-view=true), [2013](/Exchange/exchange-2013-prerequisites-exchange-2013-help)
 
 ## <a name="summary-of-options-for-office-2010-client-and-servers-and-windows-7"></a>Overzicht van opties voor Office 2010-client en -servers en Windows 7
 
@@ -221,6 +236,6 @@ Als u problemen hebt tijdens de migratie naar Microsoft 365 en u geen FastTrack 
 - [Technische community](https://social.technet.microsoft.com/Forums/office/home?category=exchangeserver)
 - [Klantondersteuning](https://support.microsoft.com/gp/support-options-for-business)
 
-## <a name="related-articles"></a>Aanverwante artikelen
+## <a name="related-articles"></a>Verwante artikelen
 
 [Resources om u te helpen bij het upgraden van Office 2010-servers en -clients](upgrade-from-office-2010-servers-and-products.md)

@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: ''
-ms.openlocfilehash: 84bb34f8ec1b935dc30072e16f57b5f5665c3546
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 84ec1ad42f2cec2487debe7160a3f24e09bdd830
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53226213"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288189"
 ---
 # <a name="train-a-predictive-coding-model-preview"></a>Een voorspellend coderingsmodel trainen (voorbeeld)
 
@@ -67,11 +67,15 @@ Nadat u de eerste trainingsronde hebt gedaan, wordt een taak gestart die de volg
 
 - Het model wijst een voorspellingsscore toe aan de tien items in de besturingselementset die u tijdens de trainingsronde hebt gelabeld. Het model vergelijkt de voorspellingsscore van deze 10 items met het label dat u tijdens de trainingsronde aan het item hebt toegewezen. Op basis van deze vergelijking identificeert het model de volgende classificatie (de matrix Verwarringsmatrix control *set)* om de voorspellingsprestaties van het model te beoordelen:
 
-  |          |Model voorspelt dat item relevant is |Model voorspelt dat item niet relevant is |
-  |:---------|:---------|:---------|
-  |**Revisorlabelsitem als relevant**| Waar positief| Onwaar positief |
-  |**Revisorlabelsitem als niet relevant**| Onwaar negatief |Waar negatief |
-  ||||
+  <br>
+
+  ****
+
+  |Label|Model voorspelt dat item relevant is|Model voorspelt dat item niet relevant is|
+  |---|---|---|
+  |**Revisorlabelsitem als relevant**|Waar positief|Onwaar positief|
+  |**Revisorlabelsitem als niet relevant**|Onwaar negatief|Waar negatief|
+  |
 
   Op basis van deze vergelijkingen ontleent het model waarden voor de F-score, precisie- en recallmetrische gegevens en de foutmarge voor elk model. Scores voor deze modelprestatiegegevens worden weergegeven op een flyoutpagina voor de trainingsronde. Zie Voorspellende coderingsverwijzing voor een beschrijving van [deze metrische gegevens.](predictive-coding-reference.md)
 

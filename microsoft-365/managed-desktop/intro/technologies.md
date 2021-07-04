@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 8a2a3f83995bf4248b2cb72a848a1def83ae9c50
-ms.sourcegitcommit: 99e67bfe1d677c2f51712b05dcc54908b343cf6f
+ms.openlocfilehash: d70bb133904a7bcc9c30721d3f723b0fd8b88512
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53203266"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287961"
 ---
 # <a name="microsoft-managed-desktop-technologies"></a>Technologieën in Microsoft Managed Desktop
 
@@ -28,17 +28,17 @@ Microsoft 365 Enterprise is vereist voor alle Microsoft Managed Desktop gebruike
 In dit artikel worden de onderdelen samengevat die zijn opgenomen in de vereiste Enterprise-licenties, met een beschrijving van hoe de service elk onderdeel gebruikt met Microsoft Managed Desktop apparaten. Specifieke rollen en verantwoordelijkheden voor elk gebied worden in de Microsoft Managed Desktop beschreven. 
 
 ## <a name="office-365-e3-or-e5"></a>Office 365 E3 of E5
+
 | Product |Informatie |
 --- |--- 
 Microsoft 365-apps voor ondernemingen (64-bits) | Deze Office worden verzonden met het apparaat: Word, Excel, PowerPoint, Outlook, Publisher, Access, Skype voor Bedrijven, OneNote.<br><br>De 64-bits volledige versies van Microsoft Project en Microsoft-Visio zijn niet inbegrepen. Aangezien de installatie van deze toepassingen echter afhankelijk is van de Microsoft 365-apps voor ondernemingen-installatie, heeft Microsoft Managed Desktop standaard-Microsoft Intune-implementaties en beveiligingsgroepen gemaakt die u vervolgens kunt gebruiken om deze toepassingen te implementeren voor gelicentieerde gebruikers. Zie Installatie van Microsoft Project of Microsoft Visio op Microsoft Managed Desktop [apparaten voor meer informatie.](../get-started/project-visio.md)
 OneDrive |Azure Active Directory Enkel aanmelden is ingeschakeld voor gebruikers wanneer ze zich voor het eerst aanmelden bij OneDrive.<br><br>Omleiding van bekende mappen voor 'Bureaublad', 'Document' en 'Afbeeldingen' is inbegrepen. ingeschakeld en geconfigureerd per Microsoft Managed Desktop.
-Store-apps |    Microsoft Sway en Power BI worden niet verzonden met het apparaat. Deze apps zijn beschikbaar om te downloaden van Microsoft Store.
-Win32-toepassingen |    Teams wordt niet verzonden met het apparaat, maar is verpakt en geleverd door Microsoft voor Microsoft Managed Desktop apparaten. Azure Information Protection Client wordt niet verzonden met het apparaat, maar u kunt het wel laten verpakken voor implementatie.
-Webtoepassingen |  Yammer, Office in een browser, Delve, Flow, StaffHub, PowerApps en Planner worden niet verzonden met het apparaat. Gebruikers hebben toegang tot de webversie van deze toepassingen met een browser.
-
-
+Store-apps | Microsoft Sway en Power BI worden niet verzonden met het apparaat. Deze apps zijn beschikbaar om te downloaden van Microsoft Store.
+Win32-toepassingen | Teams wordt niet verzonden met het apparaat, maar is verpakt en geleverd door Microsoft voor Microsoft Managed Desktop apparaten. Azure Information Protection Client wordt niet verzonden met het apparaat, maar u kunt het wel laten verpakken voor implementatie.
+Webtoepassingen | Yammer, Office in een browser, Delve, Flow, StaffHub, PowerApps en Planner worden niet verzonden met het apparaat. Gebruikers hebben toegang tot de webversie van deze toepassingen met een browser.
 
 ## <a name="windows-10-enterprise-e5-or-e3-with-microsoft-defender-for-endpoint"></a>Windows 10 Enterprise E5 of E3 met Microsoft Defender voor Eindpunt
+
 Het is raadzaam dat uw IT-beheerders de volgende instellingen configureren. Deze instellingen worden niet opgenomen of beheerd als onderdeel van Microsoft Managed Desktop.
 
 Product  |Informatie
@@ -47,11 +47,10 @@ Windows Hello voor Bedrijven | U moet Windows Hello voor Bedrijven implementeren
 Toepassingsvirtualisatie | U kunt App-V-pakketten (Application Virtualization) implementeren met de App-beheerclient van Intune Win32. Zie Toepassingsvirtualisatie [voor meer informatie.](/windows/application-management/app-v/appv-technical-reference)
 Microsoft 365 preventie van gegevensverlies | U moet Microsoft 365 preventie van gegevensverlies implementeren om de acties te controleren die worden uitgevoerd op items die u hebt vastgesteld dat ze gevoelig zijn en om te voorkomen dat deze items onbedoeld worden gedeeld. Zie voor meer informatie [Microsoft 365 preventie van gegevensverlies.](../../compliance/endpoint-dlp-learn-about.md)
 
-
 Functies opgenomen en beheerd als onderdeel van Microsoft Managed Desktop:
 
 Product |Informatie
---- |--- 
+--- |---
 BitLocker-stationversleuteling | BitLocker-stationsversleuteling wordt gebruikt om alle systeemstations te versleutelen. Zie [BitLocker-stationversleuteling](/windows/security/information-protection/bitlocker/bitlocker-overview)voor meer informatie.
 Windows Defender Systeembeveiliger | Beschermt de integriteit van het systeem bij het opstarten en valideert dat de systeemintegriteit echt is gehandhaafd. Zie voor meer informatie [Windows Defender System Guard.](/windows/security/threat-protection/windows-defender-system-guard/system-guard-how-hardware-based-root-of-trust-helps-protect-windows)
 Windows Defender Credential Guard | Windows Defender Credential Guard gebruikt beveiliging op basis van virtualisatie om geheimen te isoleren, zodat alleen bevoorrechte systeemsoftware er toegang toe heeft. Zie voor meer informatie [Windows Defender System Guard.](/windows/security/threat-protection/windows-defender-system-guard/system-guard-how-hardware-based-root-of-trust-helps-protect-windows)
@@ -72,8 +71,8 @@ Gebruikersaccountbeheer | Gebruikersaccountbeheer schakelt over naar het beveili
 
 ## <a name="enterprise-mobility--security-e5"></a>Enterprise Mobility + Security E5
 
-Product |Informatie 
+Product |Informatie
  --- | ---
-Enterprise Mobility + Security E3<br>Azure Active Directory Premium P2 |    U kunt alle functies van Enterprise Mobility + Security E3 MDM-apparaten beheren. U kunt de Azure Active Directory Premium P2 gebruiken als een optionele functie met Microsoft Managed Desktop.
-Microsoft Cloud App Security |  U kunt deze optionele functie gebruiken met Microsoft Managed Desktop.
+Enterprise Mobility + Security E3<br>Azure Active Directory Premium P2 | U kunt alle functies van Enterprise Mobility + Security E3 MDM-apparaten beheren. U kunt de Azure Active Directory Premium P2 gebruiken als een optionele functie met Microsoft Managed Desktop.
+Microsoft Cloud App Security | U kunt deze optionele functie gebruiken met Microsoft Managed Desktop.
 Azure Information Protection P2  | U kunt deze optionele functie gebruiken met Microsoft Managed Desktop.

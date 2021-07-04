@@ -8,20 +8,20 @@ ms.topic: article
 ms.service: bookings
 localization_priority: Normal
 ms.assetid: 8c3a913c-2247-4519-894d-b6263eeb9920
-description: Gebruik het Microsoft 365 beheercentrum of Windows PowerShell om Bookings-agenda's te verwijderen.
-ms.openlocfilehash: 21fc7b9994ffd7f76ed04000a50bd0ee8f7f167e
-ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
+description: Gebruik de Microsoft 365-beheercentrum of Windows PowerShell om Bookings-agenda's te verwijderen.
+ms.openlocfilehash: 1ef67ce4dbf67da6f081106815f76ff85f11ef92
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51034089"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288441"
 ---
 # <a name="delete-a-booking-calendar-in-bookings"></a>Een boekingsagenda verwijderen in Bookings
 
-In dit artikel wordt uitgelegd hoe u een ongewenste boekingsagenda kunt verwijderen. U kunt de boekingsagenda verwijderen in het Microsoft 365 beheercentrum of u kunt PowerShell gebruiken. De Bookings-agenda is een postvak in Exchange Online zodat u het bijbehorende gebruikersaccount verwijdert om de boekingsagenda te verwijderen.
+In dit artikel wordt uitgelegd hoe u een ongewenste boekingsagenda kunt verwijderen. U kunt de boekingsagenda in de Microsoft 365-beheercentrum of u kunt PowerShell gebruiken. De Bookings-agenda is een postvak in Exchange Online zodat u het bijbehorende gebruikersaccount verwijdert om de boekingsagenda te verwijderen.
 
 > [!IMPORTANT]
-> Alle boekingsagenda's die u in 2017 of eerder hebt gemaakt, moeten worden verwijderd met de PowerShell-instructies over dit onderwerp. Alle boekingsagenda's die in 2018 of daarna zijn gemaakt, kunnen worden verwijderd in het Microsoft 365 beheercentrum.
+> Alle boekingsagenda's die u in 2017 of eerder hebt gemaakt, moeten worden verwijderd met de PowerShell-instructies over dit onderwerp. Alle boekingsagenda's die in 2018 of daarna zijn gemaakt, kunnen in de Microsoft 365-beheercentrum.
 
 In de boekingskalender worden alle relevante informatie over die boekingsagenda en -gegevens opgeslagen, waaronder:
 
@@ -32,21 +32,21 @@ In de boekingskalender worden alle relevante informatie over die boekingsagenda 
 > [!WARNING]
 > Wanneer een boekingsagenda is verwijderd, worden deze aanvullende gegevens ook permanent verwijderd en kunnen ze niet meer worden hersteld.
 
-## <a name="delete-a-booking-calendar-in-the-microsoft-365-admin-center"></a>Een boekingsagenda verwijderen in het Microsoft 365 beheercentrum
+## <a name="delete-a-booking-calendar-in-the-microsoft-365-admin-center"></a>Een boekingsagenda in de Microsoft 365-beheercentrum
 
 1. Ga naar het Microsoft 365-beheercentrum.
 
 1. Selecteer **Gebruikers** in het beheercentrum.
 
-   ![Afbeelding van de gebruikersinterface van gebruikers in Microsoft 365 beheercentrum](../media/bookings-admin-center-users.png)
+   ![Afbeelding van gebruikers ui in Microsoft 365-beheercentrum](../media/bookings-admin-center-users.png)
 
 1. Kies op de pagina **Actieve gebruikers** de namen van de gebruikers die u wilt verwijderen. Selecteer vervolgens **Gebruiker verwijderen**.
 
-   ![Afbeelding van gebruikersgebruikersinterface verwijderen in Microsoft 365 beheercentrum](../media/bookings-delete-user.png)
+   ![Afbeelding van gebruikers ui verwijderen in Microsoft 365-beheercentrum](../media/bookings-delete-user.png)
 
 ## <a name="delete-a-booking-calendar-using-exchange-online-powershell"></a>Een boekingsagenda verwijderen met Exchange Online PowerShell
 
-Zie [Verbinding maken powershell Exchange Online voor](/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps) vereisten en richtlijnen voor het maken van verbinding met Exchange Online PowerShell.
+Zie [Verbinding maken powershell Exchange Online voor](/powershell/exchange/exchange-online-powershell-v2) vereisten en richtlijnen voor het maken van verbinding met Exchange Online PowerShell.
 
 Als u deze stappen wilt uitvoeren, moet u een actief Microsoft PowerShell-opdrachtvenster gebruiken dat u hebt uitgevoerd door de optie Als beheerder uitvoeren te kiezen.
 
@@ -57,7 +57,7 @@ Als u deze stappen wilt uitvoeren, moet u een actief Microsoft PowerShell-opdrac
    ```
 
    > [!NOTE]
-   > Als u de [EXO V2-module](/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exo-v2-module)al hebt geïnstalleerd, werkt de vorige opdracht zoals geschreven.
+   > Als u de [EXO V2-module](/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-the-exo-v2-module)al hebt geïnstalleerd, werkt de vorige opdracht zoals geschreven.
    
 2. De opdracht die u moet uitvoeren, gebruikt de volgende syntaxis:
 

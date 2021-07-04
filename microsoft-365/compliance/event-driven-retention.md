@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-may2020
 - seo-marvel-jun2020
 description: Meestal kunt u in een oplossing voor recordbeheer een retentielabel configureren om de retentieperiode te starten op basis van een gebeurtenis die u identificeert.
-ms.openlocfilehash: 83f1be417b706fdb66b1df71ba351ce16d5ad485
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: e5b3b1f5d3af8185c424abede2f31675ab854f4a
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53226621"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287525"
 ---
 # <a name="start-retention-when-an-event-occurs"></a>Retentie starten als zich een gebeurtenis voordoet
 
@@ -238,7 +238,7 @@ Voorbeeldcode voor het aanroepen van de REST-API:
 - **URL**: `https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent`
 - **Kopteksten**: Sleutel = Content-Type, Waarde = application/atom+xml
 - **Hoofdtekst**:
-    
+
     ```xml
     <?xml version='1.0' encoding='utf-8' standalone='yes'?>
     
@@ -270,7 +270,7 @@ Voorbeeldcode voor het aanroepen van de REST-API:
     
     </entry>
     ```
-    
+
 - **Verificatie**: Basic
 - **Gebruikersnaam**: 'Complianceuser'
 - **Wachtwoord**: 'Compliancepassword'
@@ -309,7 +309,6 @@ Voorbeeldcode voor het aanroepen van de REST-API:
 - **Gebruikersnaam**: 'Complianceuser'
 
 - **Wachtwoord**: 'Compliancepassword'
-
 
 ###### <a name="response-codes"></a>Antwoordcodes
 
@@ -358,7 +357,6 @@ Voorbeeldcode voor het aanroepen van de REST-API:
 - **Gebruikersnaam**: 'Complianceuser'
 
 - **Wachtwoord**: 'Compliancepassword'
-
 
 ###### <a name="response-codes"></a>Antwoordcodes
 
@@ -450,5 +448,4 @@ $event = Invoke-RestMethod -Body $body -Method 'POST' -Uri $url -ContentType "ap
 }
 
 $event | fl *
-
 ```

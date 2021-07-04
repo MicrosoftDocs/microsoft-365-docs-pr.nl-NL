@@ -21,26 +21,26 @@ ms.reviewer: sstewart
 search.appverid:
 - MET150
 description: Meer informatie over het gebruik van paginadiagnose om de prestaties van webonderdelen in SharePoint moderne onlinesitepagina's te optimaliseren.
-ms.openlocfilehash: 2a72ecd8bc1f6dee4166809f72ce5f9bce422dc9
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: fab5b0bc9d0b04ede0815856af7366e277dbf909
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50929058"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288897"
 ---
 # <a name="optimize-web-part-performance-in-sharepoint-online-modern-site-pages"></a>Prestaties van webonderdeel optimaliseren in SharePoint moderne onlinesitepagina's
 
 SharePoint Online moderne sitepagina's bevatten webonderdelen die kunnen bijdragen aan de totale laadtijden van pagina's. In dit artikel wordt beschreven hoe u kunt bepalen hoe webonderdelen op uw pagina's van invloed zijn op de door de gebruiker waargenomen latentie en hoe u veelvoorkomende problemen kunt oplossen.
 
->[!NOTE]
->Zie Prestaties in de moderne SharePoint voor meer informatie over prestaties in SharePoint moderne [onlineportalen.](/sharepoint/modern-experience-performance)
+> [!NOTE]
+> Zie Prestaties in de moderne SharePoint voor meer informatie over prestaties in SharePoint moderne [onlineportalen.](/sharepoint/modern-experience-performance)
 
 ## <a name="use-the-page-diagnostics-for-sharepoint-tool-to-analyze-web-parts"></a>Het hulpprogramma Paginadiagnose voor SharePoint gebruiken om webonderdelen te analyseren
 
 Het hulpprogramma Paginadiagnose voor SharePoint is een browserextensie voor de nieuwe Microsoft Edge ( en Chrome-browsers die zowel SharePoint Moderne portal online als klassieke https://www.microsoft.com/edge) publicerende sitepagina's analyseren. Het hulpprogramma bevat een rapport voor elke geanalyseerde pagina die laat zien hoe de pagina presteert op basis van een gedefinieerde set prestatiecriteria. Als u het hulpprogramma Paginadiagnose voor SharePoint wilt installeren en meer wilt weten, gaat u naar Het hulpprogramma [Paginadiagnose gebruiken](page-diagnostics-for-spo.md)voor SharePoint Online.
 
->[!NOTE]
->Het hulpprogramma Paginadiagnose werkt alleen SharePoint Online en kan niet worden gebruikt op een SharePoint systeempagina.
+> [!NOTE]
+> Het hulpprogramma Paginadiagnose werkt alleen SharePoint Online en kan niet worden gebruikt op een SharePoint systeempagina.
 
 Wanneer u een SharePoint-sitepagina analyseert met het hulpprogramma Paginadiagnose voor SharePoint, ziet u informatie  over webonderdelen die de basislijnmetriek in de webonderdelen overschrijden, waardoor de laadtijd van pagina's wordt beïnvloed in het deelvenster Diagnostische tests. 
 
@@ -62,10 +62,13 @@ De beschikbare informatie in de resultaten omvat:
 - **Module laden** toont de tijd die nodig is voor het downloaden, evalueren en laden van de extensies JavaScript- en CSS-bestanden. Vervolgens wordt het Init-proces begonnen.
 - **Lui laden** toont de tijd voor uitgesteld laden van webonderdelen die niet worden weergegeven in het hoofdgedeelte van de pagina. Er zijn bepaalde voorwaarden waarin er te veel webonderdelen zijn om weer te geven en ze worden in de wachtrij weergegeven om de laadtijd van de pagina te minimaliseren.
 - **Init toont** de tijd die nodig is voor het webonderdeel om de gegevens te initialiseren.
-    Het is een asynchrone oproep en init time is de berekening van de tijd voor de functie onInit wanneer de geretourneerde belofte is opgelost.
+
+  Het is een asynchrone oproep en init time is de berekening van de tijd voor de functie onInit wanneer de geretourneerde belofte is opgelost.
+
 - **In Render** wordt de tijd weergegeven die nodig is om de gebruikersinterface (gebruikersinterface) weer te geven zodra de module is geladen en Init is voltooid.
-    Het is de JavaScript-uitvoeringstijd om de DOM in het document (pagina) te plaatsen.
-    Het weergeven van asynchrone resources, bijvoorbeeld afbeeldingen, kan extra tijd in beslag nemen.
+
+  Het is de JavaScript-uitvoeringstijd om de DOM in het document (pagina) te plaatsen.
+  Het weergeven van asynchrone resources, bijvoorbeeld afbeeldingen, kan extra tijd in beslag nemen.
 
 Deze informatie wordt verstrekt om ontwerpers en ontwikkelaars te helpen bij het oplossen van problemen. Deze informatie moet worden verstrekt aan uw ontwerp- en ontwikkelingsteam.
 
@@ -101,7 +104,7 @@ Voordat u paginaherzieningen maakt om prestatieproblemen op te lossen, noteert u
 >[!NOTE]
 >De laadtijd van pagina's kan variëren op basis van verschillende factoren, zoals de netwerkbelasting, de tijd van de dag en andere tijdelijke omstandigheden. U moet de laadtijd van pagina's een paar keer voor en na het aanbrengen van wijzigingen testen, zodat u de resultaten kunt gemiddelden.
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-topics"></a>Gerelateerde onderwerpen
 
 [Prestaties SharePoint online afstemmen](tune-sharepoint-online-performance.md)
 

@@ -15,12 +15,12 @@ manager: dansimp
 ms.date: 05/24/2021
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: 25f038846f9dd9855823382d4e1babcf0547fed6
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: efeb49b2741bdc45f7924032c2deb8a27458ca29
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636168"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289413"
 ---
 # <a name="configure-and-manage-microsoft-defender-antivirus-with-the-mpcmdrunexe-command-line-tool"></a>Uw Microsoft Defender Antivirus configureren en beheren met mpcmdrun.exe opdrachtregelhulpmiddel
 
@@ -31,7 +31,7 @@ ms.locfileid: "52636168"
 U kunt verschillende functies in Microsoft Defender Antivirus uitvoeren met behulp van het speciale opdrachtregelprogramma **mpcmdrun.exe.** Dit hulpprogramma is handig als u taken wilt automatiseren Microsoft Defender Antivirus taken. U vindt het hulpprogramma in `%ProgramFiles%\Windows Defender\MpCmdRun.exe` . Voer deze uit vanuit een opdrachtprompt.
 
 > [!TIP]
-> Mogelijk moet u een versie op beheerdersniveau van de opdrachtprompt openen. Wanneer u in het menu **Start naar opdrachtprompt** zoekt, kiest u **Uitvoeren als beheerder.** Als u een bijgewerkte Versie van het Microsoft Defender-platform gebruikt, kunt u vanaf `MpCmdRun` de volgende locatie uitvoeren: `C:\ProgramData\Microsoft\Windows Defender\Platform\<antimalware platform version>` . Zie voor meer informatie over het antimalwareplatform [Microsoft Defender Antivirus updates en basislijnen.](manage-updates-baselines-microsoft-defender-antivirus.md)
+> Mogelijk moet u een versie op beheerdersniveau van de opdrachtprompt openen. Wanneer u op het Startmenu **opdrachtprompt** zoekt, kiest u **Uitvoeren als beheerder.** Als u een bijgewerkte Versie van het Microsoft Defender-platform gebruikt, kunt u vanaf `MpCmdRun` de volgende locatie uitvoeren: `C:\ProgramData\Microsoft\Windows Defender\Platform\<antimalware platform version>` . Zie voor meer informatie over het antimalwareplatform [Microsoft Defender Antivirus updates en basislijnen.](manage-updates-baselines-microsoft-defender-antivirus.md)
 
 Het hulpprogramma MpCmdRun gebruikt de volgende syntaxis:
 
@@ -49,9 +49,9 @@ In ons voorbeeld start het hulpprogramma MpCmdRun een volledige antivirusscan op
 
 ## <a name="commands"></a>Opdrachten
 
-| Opdracht  | Beschrijving   |
+| Opdracht  | Omschrijving   |
 |:----|:----|
-| `-?`**of**`-h`   | Hiermee worden alle beschikbare opties voor het hulpprogramma MpCmdRun weergegeven |
+| `-?` **of** `-h`   | Hiermee worden alle beschikbare opties voor het hulpprogramma MpCmdRun weergegeven |
 | `-Scan [-ScanType [<value>]] [-File <path> [-DisableRemediation] [-BootSectorScan] [-CpuThrottling]] [-Timeout <days>] [-Cancel]` | Scant op schadelijke software. Waarden voor **ScanType** zijn:<p>**0** Standaard, volgens uw configuratie<p>**1** Snelle scan<p>**2** Volledige scan<p>**3** Aangepaste bestands- en adreslijstscan.<p>CpuThrottling wordt uitgevoerd op basis van beleidsconfiguraties |
 | `-Trace [-Grouping #] [-Level #]` | Diagnostische tracering starten |
 | `-GetFiles [-SupportLogLocation <path>]` | Verzamelt ondersteuningsgegevens. Zie['diagnostische gegevens verzamelen'](collect-diagnostic-data.md)  |
@@ -73,7 +73,7 @@ De volgende tabel bevat veelvoorkomende fouten die kunnen optreden tijdens het g
 
 |Foutbericht | Mogelijke reden |
 |:----|:----|
-| **ValiderenMapsConnection is mislukt (800106BA)** of **0x800106BA** | De Microsoft Defender Antivirus is uitgeschakeld. Schakel de service in en probeer het opnieuw. Als u hulp nodig hebt bij het opnieuw inschakelen van Microsoft Defender Antivirus, zie Uw Microsoft Defender Antivirus op uw eindpunten opnieuw [installeren/inschakelen.](switch-to-microsoft-defender-setup.md#reinstallenable-microsoft-defender-antivirus-on-your-endpoints)<p>   **TIP**  In Windows 10 1909 of ouder, en Windows Server 2019 of ouder, werd de service voorheen *Windows Defender Antivirus.* |
+| **ValiderenMapsConnection is mislukt (800106BA)** of **0x800106BA** | De Microsoft Defender Antivirus is uitgeschakeld. Schakel de service in en probeer het opnieuw. Als u hulp nodig hebt bij het opnieuw inschakelen van Microsoft Defender Antivirus, zie Uw Microsoft Defender Antivirus op uw eindpunten opnieuw [installeren/inschakelen.](switch-to-microsoft-defender-setup.md#reinstallenable-microsoft-defender-antivirus-on-your-endpoints)<p> **TIP**: In Windows 10 1909 of ouder, en Windows Server 2019 of ouder, werd de service voorheen *Windows Defender Antivirus.* |
 | **0x80070667** | U gebruikt de opdracht vanaf een computer Windows 10 versie 1607 of ouder, of Windows Server 2016 `-ValidateMapsConnection` of ouder. Voer de opdracht uit vanaf een computer Windows 10 versie 1703 of hoger, of Windows Server 2019 of hoger.|
 | **MpCmdRun wordt niet herkend als een interne of externe opdracht, een bedienbaar programma of een batchbestand.** | Het hulpprogramma moet worden uitgevoerd vanaf een van beide of (waar kan verschillen `%ProgramFiles%\Windows Defender` `C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2012.4-0` omdat `2012.4-0` platformupdates maandelijks zijn, behalve maart)|
 | **ValidMapsConnection kan geen verbinding tot stand brengen met KAARTEN (hr=80070005 httpcode=450)** | De opdracht is geprobeerd onvoldoende bevoegdheden te gebruiken. Gebruik de opdrachtprompt (cmd.exe) als beheerder.|

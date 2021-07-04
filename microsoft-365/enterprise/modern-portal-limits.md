@@ -19,12 +19,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Meer informatie over prestatieaanbevelingen voor moderne sites in SharePoint Online, zoals het beperken van oproepen tot Sharepoint en externe eindpunten.
-ms.openlocfilehash: 28c32be276f6c27194d164708e268a5cd36ac957
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 2429869c5397e0260876ee5a765ea18ae3fc42a1
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50925318"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288873"
 ---
 # <a name="sharepoint-online-modern-portal-site-limits"></a>SharePoint Online moderne portalsitelimieten
 
@@ -58,10 +58,10 @@ Veel van de richtlijnen in dit artikel zijn gericht op het minimaliseren en opti
 |Maximale afbeeldingsgrootte  <br/> |300 Kb per afbeelding  <br/> |We raden u aan de grootte van afbeeldingen te beperken tot 300 kb of kleiner en een CDN gebruiken om afbeeldingen, stylesheets en scripts te hosten. <br/>Zie Afbeeldingen optimaliseren op moderne [sitepagina's SharePoint Online](modern-image-optimization.md) en De Office 365 Content Delivery Network [(CDN)](use-microsoft-365-cdn-with-spo.md)gebruiken met SharePoint Online voor meer informatie.  <br/> |
 |Gebruikers met bewerkingsrechten  <br/> |200 gebruikers per site  <br/> |SharePoint portalsites zijn geoptimaliseerd voor het weergeven en consumeren van inhoud. Machtigingen voor bewerken op een portal moeten worden beperkt tot een beperkte groep gebruikers, omdat machtigingen voor bewerken extra besturingselementen downloaden en daarom trager voor deze gebruikers zullen presteren. Een te groot aantal gebruikers met bewerkingsmachtigingen is daarom van invloed op de algehele ervaring. <br/> |
 |iFrames van derden  <br/> |2 per pagina  <br/> |iFrames zijn onvoorspelbaar traag omdat ze een afzonderlijke externe pagina laden, inclusief alle bijbehorende inhoud, zoals javascript, CSS en framework-elementen. Als u iFrames moet gebruiken, beperkt u het aantal tot 2 of minder per pagina.<br/> Zie IFrames optimaliseren in SharePoint moderne en klassieke [publicerende sitepagina's voor meer informatie.](modern-iframe-optimization.md) <br/> |
-|Oproepen naar de UPA-service  <br/> |1 per gebruiker per uur  <br/> |Het is raadzaam om geen _oproepen per aanvraag_ uit te voeren naar de UPA-service (User Profile Application). De [Microsoft Graph API](/graph/call-api) en [PageContext](/javascript/api/sp-page-context/pagecontext?view=sp-typescript-latest) kunnen worden gebruikt om te zoeken naar gebruikersgegevens.  <br/> Als een UPA-servicegesprek nodig is, belt u één keer wanneer dat nodig is en cachet u de gegevens voor hergebruik in dezelfde sessie. |
+|Oproepen naar de UPA-service  <br/> |1 per gebruiker per uur  <br/> |Het is raadzaam om geen _oproepen per aanvraag_ uit te voeren naar de UPA-service (User Profile Application). De [Microsoft Graph API](/graph/call-api) en [PageContext](/javascript/api/sp-page-context/pagecontext) kunnen worden gebruikt om te zoeken naar gebruikersgegevens.  <br/> Als een UPA-servicegesprek nodig is, belt u één keer wanneer dat nodig is en cachet u de gegevens voor hergebruik in dezelfde sessie. |
 |Oproepen naar de Taxonomie-service  <br/> |5 per gebruiker per uur  <br/> |U wordt aangeraden om _niet per aanvraag te_ bellen naar de Taxonomie-service. Als taxonomie-serviceoproepen nodig zijn, cachet u de gegevens voor hergebruik in dezelfde sessie. <br/> Zie Paginagesprekken optimaliseren in SharePoint moderne en [klassieke publicerende sitepagina's online](modern-page-call-optimization.md)voor meer informatie. <br/> |
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-topics"></a>Gerelateerde onderwerpen
 
 [Een gezonde portal SharePoint maken](/sharepoint/portal-health)
 

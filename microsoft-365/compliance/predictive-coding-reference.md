@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: ''
-ms.openlocfilehash: 90c76fade54c109fc02e145a49bbe93d11ad8b79
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: ad9bf2ba40ede2d76246c56bf94b90e0e96aeeff
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822492"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288273"
 ---
 # <a name="predictive-coding-reference-preview"></a>Voorspellende coderingsverwijzing (voorbeeld)
 
@@ -36,14 +36,18 @@ Een besturingselementset wordt gebruikt tijdens het trainingsproces van een voor
 ## <a name="control-set-confusion-matrix"></a>Besturingselementen instellen verwarringsmatrix
 
 Nadat u een trainingsronde hebt voltooid, wijst het model een voorspellingsscore toe aan de tien items in de besturingselementset die u tijdens de trainingsronde hebt gelabeld. Het model vergelijkt de voorspellingsscore van deze 10 items met het label dat u tijdens de trainingsronde aan het item hebt toegewezen. Op basis van deze vergelijking identificeert het model de volgende classificaties om de voorspellingsprestaties van het model te beoordelen:
-  
-  |          |Model voorspelt dat item relevant is |Model voorspelt dat item niet relevant is |
-  |:---------|:---------|:---------|
-  |**Revisorlabelsitem als relevant**| Waar positief| Onwaar positief |
-  |**Revisorlabelsitem als niet relevant**| Onwaar negatief |Waar negatief |
-  ||||
 
-  Op basis van deze vergelijkingen ontleent het model waarden voor de F-score, precisie- en recallmetrische gegevens en de foutmarge voor elk model. Het aantal verwarringstypen uit de matrix wordt weergegeven op de flyoutpagina voor een trainingsronde.
+<br>
+
+****
+
+|Label|Model voorspelt dat item relevant is|Model voorspelt dat item niet relevant is|
+|---|---|---|
+|**Revisorlabelsitem als relevant**|Waar positief|Onwaar positief|
+|**Revisorlabelsitem als niet relevant**|Onwaar negatief|Waar negatief|
+|
+
+Op basis van deze vergelijkingen ontleent het model waarden voor de F-score, precisie- en recallmetrische gegevens en de foutmarge voor elk model. Het aantal verwarringstypen uit de matrix wordt weergegeven op de flyoutpagina voor een trainingsronde.
 
 ## <a name="f-score"></a>F-score
 

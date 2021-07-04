@@ -21,12 +21,12 @@ search.appverid:
 - SPO160
 ms.assetid: bebb285f-1d54-4f79-90a5-94985afc6af8
 description: Lees hoe u de Office 365 Content Delivery Network (CDN) kunt gebruiken om de levering van uw SharePoint Online-assets te versnellen.
-ms.openlocfilehash: e6cce93be0e8d893d68ae8bcdb15fde325a2cb59
-ms.sourcegitcommit: 5866e45a6a4e90c661e8f90c91550a9872b68e03
+ms.openlocfilehash: 5e9ed00462b7073c7e03f62a5de6bf26f1e586af
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/28/2021
-ms.locfileid: "53169554"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289449"
 ---
 # <a name="use-the-office-365-content-delivery-network-cdn-with-sharepoint-online"></a>De Office 365 Content Delivery Network (CDN) gebruiken met SharePoint Online
 
@@ -68,7 +68,7 @@ Als u de Office 365 CDN voor uw organisatie wilt instellen, volgt u de volgende 
   + U hebt uw origins toegevoegd, die elke origin als openbaar of privé identificeren.
 
 Nadat u klaar bent met instellen, kunt u [de](use-microsoft-365-cdn-with-spo.md#CDNManage) Office 365 CDN in de tijd beheren door:
-  
+
 + Activa toevoegen, bijwerken en verwijderen
 + Origins toevoegen en verwijderen
 + Beleidsregels CDN configureren
@@ -109,9 +109,9 @@ U kunt nieuwe containers maken voor uw origins, zoals mappen of documentbiblioth
 U kunt ook een bestaande siteverzameling, site, bibliotheek of map configureren als origin, zodat alle in aanmerking komende activa in de container beschikbaar zijn vanaf de CDN. Voordat u een bestaande container als origin toevoegt, is het belangrijk dat u op de hoogte bent van de inhoud en machtigingen, zodat u activa niet per ongeluk blootstelt aan anonieme toegang of niet-geautoriseerde gebruikers.
 
 U kunt een _CDN definiëren om_ inhoud in uw origins uit te sluiten van de CDN. CDN beleidsregels sluiten activa in openbare of privé-origins uit op basis van kenmerken zoals bestandstype en _siteclassificatie_ en worden toegepast op alle origins van het CdnType (privé of openbaar) dat u opgeeft in het beleid.  Als u bijvoorbeeld een privé-origin toevoegt die bestaat uit een site die meerdere subsites bevat, kunt u een beleid definiëren om sites uit te sluiten die zijn gemarkeerd als Vertrouwelijk, zodat inhoud van sites met die classificatie wordt toegepast, niet wordt gebruikt vanaf de CDN.  Het beleid is van toepassing op inhoud van _alle_ persoonlijke origins die u hebt toegevoegd aan de CDN.
-  
+
 Houd er rekening mee dat hoe groter het aantal origins, hoe groter de impact op de tijd die de service CDN om aanvragen te verwerken. U wordt aangeraden het aantal origins zo veel mogelijk te beperken.
-  
+
 <a name="CDNOriginChoosePublicPrivate"> </a>
 ### <a name="choose-whether-each-origin-should-be-public-or-private"></a>Kies of elke origin openbaar of privé moet zijn
 
@@ -126,7 +126,7 @@ Openbare en private opties bieden vergelijkbare prestatieverbeteringen, maar elk
 U kunt meer informatie lezen over hoe CDN toegang tot activa in een persoonlijke origin werkt in [Assets gebruiken in private origins.](use-microsoft-365-cdn-with-spo.md#using-assets-in-private-origins)
 
 #### <a name="attributes-and-advantages-of-hosting-assets-in-public-origins"></a>Kenmerken en voordelen van het hosten van activa in openbare origins
-  
+
 + Activa die in een openbare origin worden getoond, zijn anoniem toegankelijk voor iedereen.
     > [!IMPORTANT]
     > U mag nooit resources plaatsen die gebruikersgegevens bevatten of die als gevoelig voor uw organisatie worden beschouwd in een openbare origin.
@@ -160,14 +160,14 @@ Zie Content [Delivery Networks](content-delivery-networks.md)voor meer informati
 ### <a name="default-cdn-origins"></a>Standaard CDN origins
 
 Tenzij u anders opgeeft, Office 365 u een aantal standaard origins voor u in wanneer u de Office 365 CDN. Als u er in eerste instantie voor kiest om deze niet in te stellen, kunt u deze origins toevoegen nadat u de installatie hebt voltooid. Tenzij u de gevolgen begrijpt van het overslaan van de instelling van standaard origins en hiervoor een specifieke reden hebt, moet u toestaan dat deze worden gemaakt wanneer u de CDN.
-  
+
 Standaardinstellingen CDN privé-origins:
-  
+
 + \*/userphoto.aspx
 + \*/siteassets
 
 Standaard openbare CDN origins:
-  
+
 + \*/masterpage
 + \*/stijlbibliotheek
 + \*/clientsideassets
@@ -178,7 +178,7 @@ Standaard openbare CDN origins:
 <a name="CDNSetupinPShell"> </a>
 ## <a name="set-up-and-configure-the-office-365-cdn-by-using-the-sharepoint-online-management-shell"></a>De Office 365 CDN instellen en configureren met de SharePoint Online Management Shell
 
-Voor de procedures in deze sectie moet u de SharePoint Online Management Shell gebruiken om verbinding te maken met SharePoint Online. Zie voor instructies [Verbinding maken SharePoint Online PowerShell.](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
+Voor de procedures in deze sectie moet u de SharePoint Online Management Shell gebruiken om verbinding te maken met SharePoint Online. Zie voor instructies [Verbinding maken SharePoint Online PowerShell.](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
 
 Voltooi deze stappen voor het instellen en configureren van de CDN om uw assets te hosten in SharePoint Online met behulp van SharePoint Online Management Shell.
 
@@ -202,7 +202,7 @@ Get-SPOTenantCdnEnabled -CdnType <Public | Private>
 De status van de CDN voor het opgegeven CdnType wordt naar het scherm uitgevoerd.
 
 Gebruik de **cmdlet Set-SPOTenantCdnEnabled** om uw organisatie in staat te stellen de Office 365 CDN. U kunt uw organisatie in staat stellen om openbare origins, privé-origins of beide tegelijk te gebruiken. U kunt de CDN ook zo configureren dat de instelling van standaard origins wordt overgeslagen wanneer u deze inschakelen. U kunt deze origins altijd later toevoegen, zoals in dit onderwerp wordt beschreven.
-  
+
 In Windows PowerShell voor SharePoint Online:
 
 ```powershell
@@ -242,7 +242,7 @@ Zie [Set-SPOTenantCdnEnabled voor](/powershell/module/sharepoint-online/Set-SPOT
 
 > [!TIP]
 > Wanneer u bestandstypen definieert met de **cmdlet Set-SPOTenantCdnPolicy,** overschrijft u de lijst die momenteel is gedefinieerd. Als u extra bestandstypen aan de lijst wilt toevoegen, gebruikt u de cmdlet eerst om te kijken welke bestandstypen al zijn toegestaan en deze samen met de nieuwe bestandstypen in de lijst op te nemen.
-  
+
 Gebruik de **cmdlet Set-SPOTenantCdnPolicy** om statische bestandstypen te definiëren die kunnen worden gehost door openbare en private origins in de CDN. Standaard zijn veelgebruikte activatypen toegestaan, zoals .css, .gif, .jpg en .js.
 
 In Windows PowerShell voor SharePoint Online:
@@ -302,7 +302,7 @@ Zie Set-SPOTenantCdnPolicy and Get-SPOTenantCdnPolicies [(Set-SPOTenantCdnPolicy
 ### <a name="add-an-origin-for-your-assets"></a>Een origin toevoegen voor uw activa
 
 Gebruik de **cmdlet Add-SPOTenantCdnOrigin** om een origin te definiëren. U kunt meerdere origins definiëren. De origin is een URL die wijst naar een SharePoint of map die de assets bevat die u wilt hosten door de CDN.
-  
+
 > [!IMPORTANT]
 > U mag nooit resources plaatsen die gebruikersgegevens bevatten of die als gevoelig voor uw organisatie worden beschouwd in een openbare origin.
 
@@ -347,14 +347,14 @@ Zie [Add-SPOTenantCdnOrigin (Add-SPOTenantCdnOrigin)](/powershell/module/sharepo
 
 > [!NOTE]
 > In privé-origins moeten activa die vanaf een origin worden gedeeld, een hoofdversie hebben gepubliceerd voordat ze vanaf de CDN.
-  
+
 Wanneer u de opdracht hebt uitgevoerd, synchroniseert het systeem de configuratie in het datacenter. Dit kan maximaal 15 minuten duren.
 
 <a name="ExamplePublicOrigin"> </a>
 ### <a name="example-configure-a-public-origin-for-your-master-pages-and-for-your-style-library-for-sharepoint-online"></a>Voorbeeld: Een openbare origin configureren voor uw basispagina's en voor uw stijlbibliotheek voor SharePoint Online
 
 Normaal gesproken worden deze origins standaard voor u ingesteld wanneer u de Office 365 CDN. Als u ze echter handmatig wilt inschakelen, volgt u deze stappen.
-  
+
 + Gebruik de **cmdlet Add-SPOTenantCdnOrigin** om de stijlbibliotheek te definiëren als een openbare origin.
 
   ```powershell
@@ -406,19 +406,19 @@ Add-SPOTenantCdnOrigin -CdnType Private -OriginUrl sites/site1/siteassets
 ```
 
 Zie [Add-SPOTenantCdnOrigin (Add-SPOTenantCdnOrigin)](/powershell/module/sharepoint-online/Add-SPOTenantCdnOrigin)voor meer informatie over deze opdracht en de syntaxis ervan.
-  
+
 Wanneer u de opdracht hebt uitgevoerd, synchroniseert het systeem de configuratie in het datacenter. Mogelijk ziet u een _bericht in_ behandeling met configuratie dat wordt verwacht wanneer de SharePoint Online-tenant verbinding maakt met de CDN service. Dit kan maximaal 15 minuten duren.
 
 <a name="CDNManage"> </a>
 ### <a name="manage-the-office-365-cdn"></a>De Office 365 CDN
 
 Nadat u de CDN hebt ingesteld, kunt u wijzigingen aanbrengen in uw configuratie terwijl u inhoud bij werk of als uw behoeften veranderen, zoals in deze sectie wordt beschreven.
-  
+
 <a name="Office365CDNforSPOaddremoveasset"> </a>
 #### <a name="add-update-or-remove-assets-from-the-office-365-cdn"></a>Activa toevoegen, bijwerken of verwijderen uit de Office 365 CDN
 
 Nadat u de installatiestappen hebt voltooid, kunt u nieuwe activa toevoegen en bestaande assets bijwerken of verwijderen wanneer u maar wilt. Pas uw wijzigingen aan in de assets in de map of SharePoint bibliotheek die u hebt geïdentificeerd als een origin. Als u een nieuw activum toevoegt, is deze direct beschikbaar via CDN. Als u het activum echter bij werkt, duurt het maximaal 15 minuten voordat de nieuwe kopie wordt doorgegeven en beschikbaar komt in de CDN.
-  
+
 Als u de locatie van de origin wilt ophalen, kunt u de **cmdlet Get-SPOTenantCdnOrigins** gebruiken. Zie [Get-SPOTenantCdnOrigins](/powershell/module/sharepoint-online/Get-SPOTenantCdnOrigins)voor meer informatie over het gebruik van deze cmdlet.
 
 <a name="Office365CDNforSPORemoveOriginPosh"> </a>
@@ -441,7 +441,7 @@ U kunt een origin die u hebt gemaakt niet wijzigen. In plaats daarvan verwijdert
 #### <a name="disable-the-office-365-cdn"></a>De Office 365 CDN
 
 Gebruik de **cmdlet Set-SPOTenantCdnEnabled** om de CDN voor uw organisatie uit te schakelen. Als u zowel de openbare als de privé-origins hebt ingeschakeld voor de CDN, moet u de cmdlet tweemaal uitvoeren, zoals wordt weergegeven in de volgende voorbeelden.
-  
+
 Als u het gebruik van openbare origins in de CDN wilt uitschakelen, voert u de volgende opdracht in:
 
 ```powershell
@@ -485,7 +485,7 @@ Get-PnPTenantCdnEnabled -CdnType <Public | Private>
 De status van de CDN voor het opgegeven CdnType wordt naar het scherm uitgevoerd.
 
 Gebruik de **cmdlet Set-PnPTenantCdnEnabled om** uw organisatie in staat te stellen de Office 365 CDN. U kunt uw organisatie inschakelen om tegelijk gebruik te maken van openbare origins, privé-origins of beide. U kunt de CDN ook zo configureren dat de instelling van standaard origins wordt overgeslagen wanneer u deze inschakelen. U kunt deze origins altijd later toevoegen, zoals in dit onderwerp wordt beschreven.
-  
+
 In PnP PowerShell:
 
 ```powershell
@@ -525,7 +525,7 @@ Zie [Set-PnPTenantCdnEnabled voor meer informatie over deze cmdlet.](/powershell
 
 > [!TIP]
 > Wanneer u bestandstypen definieert met de **cmdlet Set-PnPTenantCdnPolicy,** overschrijft u de momenteel gedefinieerde lijst. Als u extra bestandstypen aan de lijst wilt toevoegen, gebruikt u de cmdlet eerst om te kijken welke bestandstypen al zijn toegestaan en deze samen met de nieuwe bestandstypen in de lijst op te nemen.
-  
+
 Gebruik de **cmdlet Set-PnPTenantCdnPolicy** om statische bestandstypen te definiëren die kunnen worden gehost door openbare en private origins in de CDN. Standaard zijn veelgebruikte activatypen toegestaan, zoals .css, .gif, .jpg en .js.
 
 In PnP PowerShell:
@@ -585,7 +585,7 @@ Zie [Set-PnPTenantCdnPolicy](/powershell/module/sharepoint-pnp/set-pnptenantcdnp
 ### <a name="add-an-origin-for-your-assets"></a>Een origin toevoegen voor uw activa
 
 Gebruik de **cmdlet Add-PnPTenantCdnOrigin** om een origin te definiëren. U kunt meerdere origins definiëren. De origin is een URL die wijst naar een SharePoint of map die de assets bevat die u wilt hosten door de CDN.
-  
+
 > [!IMPORTANT]
 > U mag nooit resources plaatsen die gebruikersgegevens bevatten of die als gevoelig voor uw organisatie worden beschouwd in een openbare origin.
 
@@ -630,14 +630,14 @@ Zie [Add-PnPTenantCdnOrigin (Add-PnPTenantCdnOrigin)](/powershell/module/sharepo
 
 > [!NOTE]
 > In privé-origins moeten activa die vanaf een origin worden gedeeld, een hoofdversie hebben gepubliceerd voordat ze vanaf de CDN.
-  
+
 Wanneer u de opdracht hebt uitgevoerd, synchroniseert het systeem de configuratie in het datacenter. Dit kan maximaal 15 minuten duren.
 
 <a name="ExamplePublicOriginPnPPosh"> </a>
 ### <a name="example-configure-a-public-origin-for-your-master-pages-and-for-your-style-library-for-sharepoint-online"></a>Voorbeeld: Een openbare origin configureren voor uw basispagina's en voor uw stijlbibliotheek voor SharePoint Online
 
 Normaal gesproken worden deze origins standaard voor u ingesteld wanneer u de Office 365 CDN. Als u ze echter handmatig wilt inschakelen, volgt u deze stappen.
-  
+
 + Gebruik de **cmdlet Add-PnPTenantCdnOrigin** om de stijlbibliotheek te definiëren als een openbare origin.
 
   ```powershell
@@ -689,19 +689,19 @@ Add-PnPTenantCdnOrigin -CdnType Private -OriginUrl sites/site1/siteassets
 ```
 
 Zie [Add-PnPTenantCdnOrigin (Add-PnPTenantCdnOrigin)](/powershell/module/sharepoint-pnp/add-pnptenantcdnorigin)voor meer informatie over deze opdracht en de syntaxis ervan.
-  
+
 Wanneer u de opdracht hebt uitgevoerd, synchroniseert het systeem de configuratie in het datacenter. Mogelijk ziet u een _bericht in_ behandeling met configuratie dat wordt verwacht wanneer de SharePoint Online-tenant verbinding maakt met de CDN service. Dit kan maximaal 15 minuten duren.
 
 <a name="CDNManagePnPPosh"> </a>
 ### <a name="manage-the-office-365-cdn"></a>De Office 365 CDN
 
 Nadat u de CDN hebt ingesteld, kunt u wijzigingen aanbrengen in uw configuratie terwijl u inhoud bij werk of als uw behoeften veranderen, zoals in deze sectie wordt beschreven.
-  
+
 <a name="Office365CDNforSPOaddremoveassetPnPPosh"> </a>
 #### <a name="add-update-or-remove-assets-from-the-office-365-cdn"></a>Activa toevoegen, bijwerken of verwijderen uit de Office 365 CDN
 
 Nadat u de installatiestappen hebt voltooid, kunt u nieuwe activa toevoegen en bestaande assets bijwerken of verwijderen wanneer u maar wilt. Pas uw wijzigingen aan in de assets in de map of SharePoint bibliotheek die u hebt geïdentificeerd als een origin. Als u een nieuw activum toevoegt, is deze direct beschikbaar via CDN. Als u het activum echter bij werkt, duurt het maximaal 15 minuten voordat de nieuwe kopie wordt doorgegeven en beschikbaar komt in de CDN.
-  
+
 Als u de locatie van de origin wilt ophalen, kunt u de **cmdlet Get-PnPTenantCdnOrigin** gebruiken. Zie [Get-PnPTenantCdnOrigin](/powershell/module/sharepoint-pnp/get-pnptenantcdnorigin)voor meer informatie over het gebruik van deze cmdlet.
 
 <a name="Office365CDNforSPORemoveOriginPnPPosh"> </a>
@@ -724,7 +724,7 @@ U kunt een origin die u hebt gemaakt niet wijzigen. In plaats daarvan verwijdert
 #### <a name="disable-the-office-365-cdn"></a>De Office 365 CDN
 
 Gebruik de **cmdlet Set-PnPTenantCdnEnabled om** de CDN voor uw organisatie uit te schakelen. Als u zowel de openbare als de privé-origins hebt ingeschakeld voor de CDN, moet u de cmdlet tweemaal uitvoeren, zoals wordt weergegeven in de volgende voorbeelden.
-  
+
 Als u het gebruik van openbare origins in de CDN wilt uitschakelen, voert u de volgende opdracht in:
 
 ```powershell
@@ -881,7 +881,7 @@ In deze sectie krijgt u inzicht in het gebruik van CDN-URL's in uw SharePoint-pa
 Zie het onderwerp Host [your client-side web part from Office 365 CDN (Hello World part 4)](/sharepoint/dev/spfx/web-parts/get-started/hosting-webpart-from-office-365-cdn)voor informatie over het gebruik van de CDN voor het hosten van webonderdelen aan de clientzijde.
 
 > [!NOTE]
-> Als u de map _ClientSideAssets_ toevoegt aan de lijst met CDN-origins, kunnen CDN aangepaste webonderdelen niet worden weergegeven.  Bestanden die door SPFX-webonderdelen worden gebruikt, kunnen alleen gebruikmaken van de openbare CDN en de map ClientSideAssets is een standaardinstelling voor openbare CDN. 
+> Als u de map _ClientSideAssets_ toevoegt aan de lijst met CDN-origins, kunnen CDN aangepaste webonderdelen niet worden weergegeven.  Bestanden die door SPFX-webonderdelen worden gebruikt, kunnen alleen gebruikmaken van de openbare CDN en de map ClientSideAssets is een standaardinstelling voor openbare CDN.
 
 ### <a name="updating-links-to-cdn-assets"></a>Koppelingen naar CDN bijwerken
 
@@ -1042,7 +1042,7 @@ spo cdn origin add --origin */CLIENTSIDEASSETS
 
 U kunt ervoor kiezen om met de Office 365 CDN te werken met de **SharePoint Online Management Shell** PowerShell-module of de Office 365 **CLI.**
 
-+ [Aan de slag met SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
++ [Aan de slag met SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
 + [De cli Office 365 installeren](https://pnp.github.io/office365-cli/user-guide/installing-cli/)
 
 ## <a name="see-also"></a>Zie ook

@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: c935df1abddc3d0ebee74e09280d6e3ec961ca97
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: df1a032ffab0490c41edc7d282f0f2cc60608870
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769807"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289677"
 ---
 # <a name="alert-resource-type"></a>Type waarschuwingsresource
 
@@ -30,7 +30,7 @@ ms.locfileid: "52769807"
 **Van toepassing op:**
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 
-- Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+- Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
@@ -39,7 +39,7 @@ ms.locfileid: "52769807"
 
 ## <a name="methods"></a>Methoden
 
-Methode |Retourtype |Beschrijving
+Methode |Retourtype |Omschrijving
 :---|:---|:---
 [Waarschuwing ontvangen](get-alert-info-by-id.md) | [Waarschuwingsweergave](alerts.md) | Eén [waarschuwingsobject](alerts.md) krijgen.
 [Lijstwaarschuwingen](get-alerts.md) | [Waarschuwingsverzameling](alerts.md) | [Lijstwaarschuwingsverzameling.](alerts.md)
@@ -52,10 +52,9 @@ Methode |Retourtype |Beschrijving
 [Gerelateerde machines krijgen](get-alert-related-machine-info.md) | [Computer](machine.md) | De [computer](machine.md) die is gekoppeld aan de [waarschuwing](alerts.md).
 [Verwante gebruikers krijgen](get-alert-related-user-info.md) | [Gebruiker](user.md) | De [gebruiker](user.md) die is gekoppeld aan de [waarschuwing](alerts.md).
 
-
 ## <a name="properties"></a>Eigenschappen
 
-Eigenschap |    Type    |    Beschrijving
+Eigenschap |    Type    |    Omschrijving
 :---|:---|:---
 id | Tekenreeks | Waarschuwings-id.
 titel | Tekenreeks | Waarschuwingstitel.

@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: Gebruik de communicatieeditor om tekst te wijzigen en veldvariabelen samen te voegen bij het opmaken van uw inhoud.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6dcfb58dff3a3acf99340895872bb2da9795d9c8
-ms.sourcegitcommit: 5ba0015c1554048f817fdfdc85359eee1368da64
+ms.openlocfilehash: 26076ff82ba226c2993c7c40e36bca2e08cbf683
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "52161665"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288117"
 ---
 # <a name="use-the-communications-editor"></a>De communicatie editor gebruiken
 
@@ -40,11 +40,15 @@ U kunt samenvoegvelden voor e-mail gebruiken door de pictogrammen voor het **sam
 
 ### <a name="list-of-merge-field-variables"></a>Lijst met samenvoegveldvariabelen
 
-| Veldnaam                  | Velddetails |
-| :------------------- | :------------------- |
-| Weergavenaam  | De voor- en achternaam van de bewaarder. | 
-| Bevestigingskoppeling | Een aangepaste koppeling om de bevestiging van elke bewaarder op te nemen.|                 |
-| Portalkoppeling     | Een aangepaste koppeling voor de complianceportal van de beheerder.|                |
-| Uitgiftemedewerker                   | Het e-mailadres van de opgegeven uitgiftemedewerker.|                   |
-| Uitgiftedatum                   | De datum waarop de kennisgeving is uitgegeven (UTC).              |
-|||
+<br>
+
+****
+
+|Veldnaam|Velddetails|
+|---|---|
+|Weergavenaam|De voor- en achternaam van de bewaarder.|
+|Bevestigingskoppeling|Een aangepaste koppeling om de bevestiging van elke bewaarder op te nemen.|
+|Portalkoppeling|Een aangepaste koppeling voor de complianceportal van de beheerder.|
+|Uitgiftemedewerker|Het e-mailadres van de opgegeven uitgiftemedewerker.|
+|Uitgiftedatum|De datum waarop de kennisgeving is uitgegeven (UTC).|
+|

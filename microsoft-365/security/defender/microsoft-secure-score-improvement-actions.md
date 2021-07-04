@@ -11,8 +11,7 @@ ms.author: dansimp
 author: dansimp
 manager: dansimp
 audience: ITPro
-ms.collection:
-- M365-security-compliance
+ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid:
 - MOE150
@@ -21,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 8b321fc8883cf490cb5b2814d5c2b617a52dbb29
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: c4d4958c03bee7301465c16fef2cd4ff8adb1722
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52246393"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288453"
 ---
 # <a name="assess-your-security-posture-with-microsoft-secure-score"></a>Uw beveiligingsbeleid beoordelen met Microsoft Secure Score
 
@@ -36,9 +35,9 @@ Microsoft Secure Score is een meting van de beveiligingsstatus van een organisat
 
 Om u te helpen sneller de informatie te vinden die u nodig hebt, zijn Microsoft-verbeteracties ingedeeld in groepen:
 
-* Identiteit (Azure Active Directory accounts & rollen)
-* Apparaat (Microsoft Defender voor eindpunt, bekend als [Microsoft Secure Score voor apparaten](/windows/security/threat-protection/microsoft-defender-atp/tvm-microsoft-secure-score-devices))
-* Apps (e-mail- en cloud-apps, Office 365 en Microsoft Cloud App Security)
+- Identiteit (Azure Active Directory accounts & rollen)
+- Apparaat (Microsoft Defender voor eindpunt, bekend als [Microsoft Secure Score voor apparaten](/windows/security/threat-protection/microsoft-defender-atp/tvm-microsoft-secure-score-devices))
+- Apps (e-mail- en cloud-apps, Office 365 en Microsoft Cloud App Security)
 
 >[!NOTE]
 >In de recente release van Microsoft Secure Score is een verbeterd scoremodel uitgebracht, waardoor Microsoft Secure Score tijdelijk niet compatibel is met Identity Secure Score en de Graph API. [Details weergeven](microsoft-secure-score-whats-new.md)
@@ -106,7 +105,7 @@ Verbeteracties hebben een 'voltooide' status zodra alle mogelijke punten voor de
 
 In de sectie **Met de naam In één** oogopslag ziet u de categorie, de aanvallen die het kan beschermen tegen en het product.
 
-**Gebruikersimpact** is wat de gebruikers zullen ervaren als  de verbeteringsactie wordt aan genomen en gebruikers die worden beïnvloed, de personen zijn die worden beïnvloed.
+**Gebruikerseffect** is wat de gebruikers zullen ervaren als de  verbeteringsactie wordt aan genomen en de gebruikers die worden beïnvloed, de personen zijn die worden beïnvloed.
 
 ### <a name="implement-the-improvement-action"></a>De verbeteringsactie implementeren
 

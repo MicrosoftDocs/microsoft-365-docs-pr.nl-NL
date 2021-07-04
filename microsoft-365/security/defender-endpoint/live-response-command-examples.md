@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 248e08913e6210fabed26955a1015533e055dcb6
-ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
+ms.openlocfilehash: 82052634b79bf433731d0afdab45e3d75e6497e0
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/18/2021
-ms.locfileid: "53007067"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289329"
 ---
 # <a name="live-response-command-examples"></a>Voorbeelden van opdrachten voor Live-reacties
 
@@ -32,14 +32,13 @@ ms.locfileid: "53007067"
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
+> Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
 Lees meer over veelgebruikte opdrachten die worden gebruikt in livereacties en zie voorbeelden van hoe ze gewoonlijk worden gebruikt.
 
 Afhankelijk van de rol die aan u is verleend, kunt u eenvoudige of geavanceerde opdrachten voor livereacties uitvoeren. Zie Entiteiten onderzoeken op apparaten met livereactie voor meer informatie over basis- en [geavanceerde opdrachten.](live-response.md)
 
-
-## <a name="analyze"></a>analyseren 
+## <a name="analyze"></a>analyseren
 
 ```console
 # Analyze the file malware.txt
@@ -110,12 +109,12 @@ getfile c:\Users\user\Desktop\work.txt -auto
 >
 > De volgende **bestandstypen kunnen niet** worden gedownload met deze opdracht vanuit Live Response:
 >
-> * [Reparse point-bestanden](/windows/desktop/fileio/reparse-points/)
-> * [Spaarzame bestanden](/windows/desktop/fileio/sparse-files/)
-> * Bestanden leeg maken
-> * Virtuele bestanden of bestanden die niet volledig lokaal aanwezig zijn
+> - [Reparse point-bestanden](/windows/desktop/fileio/reparse-points/)
+> - [Spaarzame bestanden](/windows/desktop/fileio/sparse-files/)
+> - Bestanden leeg maken
+> - Virtuele bestanden of bestanden die niet volledig lokaal aanwezig zijn
 >
-> Deze **bestandstypen worden** ondersteund door [PowerShell.](/powershell/scripting/overview?view=powershell-6/?&preserve-view=true)
+> Deze **bestandstypen worden** ondersteund door [PowerShell.](/powershell/scripting/overview)
 >
 > Gebruik PowerShell als alternatief als u problemen hebt met het gebruik van deze opdracht vanuit Live Response.
 
@@ -132,6 +131,7 @@ library delete script.ps1
 ```
 
 ## <a name="processes"></a>processen
+
 ```console
 # Show all processes
 processes
@@ -210,11 +210,12 @@ run script.ps1
 # Run PowerShell script from the library with arguments
 run get-process-by-name.ps1 -parameters "-processName Registry"
 ```
+
 >[!NOTE]
 >
 > Voor opdrachten die lang worden uitgevoerd, zoals **'uitvoeren'** of **'getfile',** kunt u het symbool ' ' aan het einde van de opdracht gebruiken om die actie op de achtergrond uit **&** te voeren.
 > Op deze manier kunt u de computer blijven onderzoeken en terugkeren naar de achtergrondopdracht wanneer u klaar bent met de **basisopdracht 'fg'.** [](live-response.md#basic-commands)
->
+
 ## <a name="scheduledtask"></a>scheduledtask
 
 ```console
@@ -232,7 +233,6 @@ scheduledtasks Microsoft\Windows\Subscription\LicenseAcquisition
 scheduledtasks "Microsoft\Configuration Manager\Configuration Manager Health Evaluation"
 ```
 
-
 ## <a name="undo"></a>ongedaan maken
 
 ```console
@@ -249,4 +249,3 @@ undo scheduledtask Microsoft\Windows\Subscription\LicenseAcquisition
 # Restore remediated file
 undo file c:\Users\user\Desktop\malware.exe
 ```
-

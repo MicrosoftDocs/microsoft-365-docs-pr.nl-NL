@@ -11,12 +11,12 @@ ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: c3928b5814332f2585adc613e1e84cbe5cc883a0
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 7b1178312178865face58748a37228f60643d5fc
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52925609"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287973"
 ---
 # <a name="microsoft-365-apps-for-enterprise"></a>Microsoft 365-apps voor ondernemingen
 
@@ -153,15 +153,15 @@ Sommige organisaties maken zich zorgen over gebruikers die toegang hebben tot zo
 
 Er zijn veel andere beleidsregels Microsoft Managed Desktop nog niet als onderdeel van onze service is ingesteld. U kunt dit beleid configureren met Microsoft Intune, die gebruikmaakt van Office cloudbeleidsservice. [](/DeployOffice/overview-office-cloud-policy-service#how-the-policy-configuration-is-applied) Als u dit beleid wilt instellen, volgt u de volgende stappen:
 
-1.  Meld u aan bij het Microsoft Endpoint Manager beheercentrum.
-2.  Selecteer **Apps > beleid voor Office apps > Maken**
-3.  Ga als **volgt te werk** op de pagina Beleidsconfiguratie maken:
+1. Meld u aan bij het Microsoft Endpoint Manager beheercentrum.
+2. Selecteer **Apps > beleid voor Office apps > Maken**
+3. Ga als **volgt te werk** op de pagina Beleidsconfiguratie maken:
     - Voer een naam in.
     - Geef een beschrijving op (optioneel).
     - Kies **in opdrachten** of dit beleid van toepassing is op alle gebruikers van Microsoft 365-apps voor ondernemingen of alleen op gebruikers die anoniem documenten openen met webversie van Office.
     - Selecteer de op AAD gebaseerde beveiligingsgroep die is toegewezen aan de beleidsconfiguratie. Elke beleidsconfiguratie kan slechts aan één groep worden toegewezen en aan elke groep kan slechts één beleidsconfiguratie worden toegewezen.
     - Configureer de beleidsinstellingen die moeten worden opgenomen in de beleidsconfiguratie. U kunt zoeken op de naam van de beleidsinstelling om de beleidsinstelling te zoeken die u wilt configureren. U kunt ook filteren op de toepassing, op de vraag of het beleid een aanbevolen beveiligingslijn is en of het beleid is geconfigureerd. De platformkolom geeft aan of het beleid wordt toegepast op Microsoft 365-apps voor ondernemingen voor Windows apparaten, webversie van Office of alle apparaten.
-4.  Nadat u de selecties hebt gemaakt, kiest u **Maken.**
+4. Nadat u de selecties hebt gemaakt, kiest u **Maken.**
 
 > [!NOTE]
 > Office Configuratiebeleid biedt alleen ondersteuning voor implementatie op basis van gebruikers

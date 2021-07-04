@@ -11,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 description: Meer informatie over de Microsoft 365- en oplossingscatalogus, inclusief wat deze bevat, hoe u deze kunt downloaden en uw volgende stappen.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 22110290f3d025a3e4c30b460a2381757fd481ca
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 5118cf6ef80513f5c276f5635ab380bdc979db46
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52162976"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288297"
 ---
 # <a name="microsoft-365-solution-catalog"></a>Microsoft 365-oplossingencatalogus
 
@@ -24,7 +24,7 @@ Zoekt u een manier om snel aan de slag te gaan met compliancetaken in Microsoft 
 
 Complianceoplossingen in Microsoft 365 zijn verzamelingen geïntegreerde mogelijkheden die u kunt gebruiken om end-to-end compliancescenario's te beheren. De mogelijkheden en hulpmiddelen van een oplossing kunnen bestaan uit een combinatie van beleidsregels, waarschuwingen, rapporten en meer.
 
-Lees dit artikel om kennis te maken met de nieuwe oplossingscatalogus in het Microsoft 365 [compliancecentrum,](#how-do-i-get-this)hoe u dit kunt [krijgen,](#frequently-asked-questions)veelgestelde vragen en de [volgende stappen.](#next-steps)
+Lees dit artikel om kennis te maken met de nieuwe oplossingscatalogus in de [Microsoft 365-compliancecentrum,](#how-do-i-get-this)hoe u het kunt [krijgen,](#frequently-asked-questions)veelgestelde vragen en uw [volgende stappen.](#next-steps)
 
 ## <a name="catalog-organization"></a>Catalogusorganisatie
 
@@ -84,11 +84,11 @@ Als u de catalogus met Microsoft 365 wilt bezoeken, gaat u naar en meld u aan al
 
 Zorg er eerst voor dat u de juiste licenties en machtigingen hebt. Meld u vervolgens aan bij [https://compliance.microsoft.com](https://compliance.microsoft.com) als globale beheerder, compliancebeheerder of compliancegegevensbeheerder.
 
-**Sommige compliancefuncties die op de pagina met de oplossingscatalogus worden vermeld, zijn niet beschikbaar in het Microsoft 365 compliancecentrum. Wat moet ik doen?**
+**Sommige compliancefuncties die op de pagina met de oplossingscatalogus worden vermeld, zijn niet beschikbaar in de Microsoft 365-compliancecentrum. Wat moet ik doen?**
 
-We zijn altijd bezig om nieuwe functionaliteit toe te voegen aan het Microsoft 365 compliancecentrum en de oplossingscatalogus. Als u geen specifieke oplossing kunt vinden in het navigatiegebied, is deze toegankelijk wanneer de oplossing beschikbaar is in uw abonnement.
+We zijn altijd bezig om nieuwe functionaliteit toe te voegen aan de Microsoft 365-compliancecentrum en de catalogus met oplossingen. Als u geen specifieke oplossing kunt vinden in het navigatiegebied, is deze toegankelijk wanneer de oplossing beschikbaar is in uw abonnement.
 
-Als u op zoek bent naar een bestaande complianceoplossing en deze nog niet beschikbaar is in het Microsoft 365-compliancecentrum, hebt u altijd toegang tot oplossingen in het bestaande Beveiligings compliancecentrum door naar &amp; [https://protection.office.com](https://protection.office.com) . U kunt ook klikken  op het tabblad Meer resources in de linkernavigatie van het Microsoft 365 compliancecentrum en de kaart Office 365 beveiligings- en compliancecentrum selecteren.  
+Als u op zoek bent naar een bestaande complianceoplossing en deze nog niet beschikbaar is in de Microsoft 365-compliancecentrum, hebt u altijd toegang tot oplossingen in het bestaande Beveiligings compliancecentrum door naar &amp; [https://protection.office.com](https://protection.office.com) . U kunt ook klikken  op het tabblad Meer resources in de linkernavigatie van het Microsoft 365-compliancecentrum en de kaart Office 365 beveiligings- en compliancecentrum selecteren.  
 
 ## <a name="next-steps"></a>Volgende stappen
 

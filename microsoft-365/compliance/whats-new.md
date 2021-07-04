@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Of het nu gaat om het toevoegen van nieuwe oplossingen aan het compliancecentrum, het bijwerken van bestaande functies op basis van uw feedback of het implementeren van nieuwe en bijgewerkte documentatie, met Microsoft 365 kunt u het steeds veranderende compliancelandschap in de hand houden. Ontdek wat we deze maand hebben gedaan.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6cd82e66a0b01f4cd329d846cf43581759dec0b6
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: aec9135a00b53f504d19a80e428d52f21b92cf9c
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53228457"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288129"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Wat is er nieuw in Microsoft 365-compliance
 
@@ -201,8 +201,8 @@ Inhoud is toegevoegd of bijgewerkt in de volgende onderwerpen:
 - [Meer informatie over Microsoft 365 on-premises scanner voor preventie van gegevensverlies](/microsoft-365/compliance/dlp-on-premises-scanner-learn)
 - [Aan de slag met de on-premises scanner voor preventie van gegevensverlies](/microsoft-365/compliance/dlp-on-premises-scanner-get-started)
 - [Een DLP-beleid maken om documenten te beveiligen met FCI of andere eigenschappen](/microsoft-365/compliance/protect-documents-that-have-fci-or-other-properties)
-- [Preventie van gegevensverlies van eindpunten gebruiken](/microsoft-365/compliance/endpoint-dlp-using)
-- [Aan de slag met Eindpunt-DLP (gegevensverlies voor eindpunten)](/microsoft-365/compliance/endpoint-dlp-getting-started)
+- [Preventie van gegevensverlies voor eindpunten gebruiken](/microsoft-365/compliance/endpoint-dlp-using)
+- [Aan de slag met preventie van gegevensverlies van eindpunten](/microsoft-365/compliance/endpoint-dlp-getting-started)
 
 ### <a name="ediscovery"></a>eDiscovery
 
@@ -242,7 +242,7 @@ Inhoud is toegevoegd of bijgewerkt in de volgende onderwerpen:
 - [Meer informatie over typen gevoelige informatie](/microsoft-365/compliance/sensitive-information-type-learn-about)
 - [Een aangepast type voor vertrouwelijke gegevens maken met PowerShell](/microsoft-365/compliance/create-a-custom-sensitive-information-type-in-scc-powershell)
 - [Een aangepaste gevoelige informatietypen maken met een classificatie op basis van Exacte gegevensmatch](/microsoft-365/compliance/create-custom-sensitive-information-types-with-exact-data-match-based-classification)
-- [Definities van entiteiten van het type vertrouwelijke gegevens](/microsoft-365/compliance/sensitive-information-type-entity-definitions)
+- [Entiteitsdefinities voor het type gevoelige informatie](/microsoft-365/compliance/sensitive-information-type-entity-definitions)
 
 ### <a name="sensitivity-labels"></a>Vertrouwelijkheidslabels
 
@@ -280,8 +280,8 @@ Ten eerste is inhoud die onze insiderrisicooplossingen met elkaar verbindt: comm
 
 - [Nieuwe landingspagina voor insiderrisicooplossingen.](insider-risk-solution-overview.md) Bevat details over de risico's die de oplossingen kunnen helpen beperken, licentievereisten, implementatiereeks, architectuurillustraties, trainingsbronnen en meer.
 - Nieuwe overzichtsartikelen voor elke insider-risicooplossing. Richtlijnen en koppelingen naar artikelen die u helpen bij het plannen, implementeren en beheren van elke oplossing:
-  - [Communicatiecompliance](communication-compliance-solution-overview.md)
-  - [Intern risicobeheer](insider-risk-management-solution-overview.md)
+  - [Naleving van communicatie](communication-compliance-solution-overview.md)
+  - [Insider-risicobeheer](insider-risk-management-solution-overview.md)
   - [Informatiebelemmeringen](information-barriers-solution-overview.md)
   - [Privileged Access Management](privileged-access-management-solution-overview.md)
 

@@ -18,107 +18,117 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Overzicht: Aanvullende apparaatinformatie over services wanneer u van Microsoft Cloud Germany (Microsoft Cloud Deutschland) naar Office 365 services in de nieuwe Duitse datacenterregio gaat.'
-ms.openlocfilehash: cdb3278e1d96b2ebdced122ab53db716c3195d8c
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: 684af01b2d90f44b2cda1cf050d1e4db70f92915
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52903865"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289437"
 ---
 # <a name="additional-device-information-for-the-migration-from-microsoft-cloud-deutschland"></a>Aanvullende apparaatgegevens voor de migratie van Microsoft Cloud Deutschland
 
-Verbonden en geregistreerde Azure AD-apparaten die zijn verbonden met Microsoft Cloud Deutschland, moeten worden gemigreerd na fase 9 en vóór fase 10. De migratie van een apparaat is afhankelijk van het type apparaat, het besturingssysteem en de Azure AD-relatie. 
+Verbonden en geregistreerde Azure AD-apparaten die zijn verbonden met Microsoft Cloud Deutschland, moeten worden gemigreerd na fase 9 en vóór fase 10. De migratie van een apparaat is afhankelijk van het type apparaat, het besturingssysteem en de Azure AD-relatie.
 
 ## <a name="azure-ad-joined-windows-10-devices"></a>Azure AD Joined Windows 10 apparaten
-Als een Windows 10 Azure AD is gekoppeld, moet de verbinding met Azure AD zijn verbroken en opnieuw worden verbonden. 
+Als een Windows 10 Azure AD is gekoppeld, moet de verbinding met Azure AD zijn verbroken en opnieuw worden verbonden.
 
 [![Azure AD Device Re-Join Flow ](../media/ms-cloud-germany-migration-opt-in/AAD-ReJoin-flow.png)](../media/ms-cloud-germany-migration-opt-in/AAD-ReJoin-flow.png#lightbox)
 
 
-Als de gebruiker een beheerder is op het Windows 10 apparaat, kan de gebruiker de registratie van het apparaat uit Azure AD ongedaan maken en in drie stappen opnieuw deelnemen. 
+Als de gebruiker een beheerder is op het Windows 10 apparaat, kan de gebruiker de registratie van het apparaat uit Azure AD ongedaan maken en in drie stappen opnieuw deelnemen.
 
 ### <a name="step-1-determine-if-the-device-is-azure-id-joined"></a>Stap 1: bepalen of het apparaat is verbonden met Azure-id
-1.  Meld u aan met uw werkaccount.
-2.  Ga naar **Instellingen**  >  **Accounts**  >  **Access Work Or School**. 
-3.  Zoek naar een account in de lijst met **verbonden met [...]' s Azure AD**. 
-4.  Als er een verbonden account bestaat, gaat u verder met stap 2. 
+
+1. Meld u aan met uw werkaccount.
+2. Ga naar **Instellingen**  >  **Accounts**  >  **Access Work Or School**.
+3. Zoek naar een account in de lijst met **verbonden met [...]' s Azure AD**.
+4. Als er een verbonden account bestaat, gaat u verder met stap 2.
+
 ### <a name="step-2-disconnect-the-device-from-azure-ad"></a>Stap 2: Het apparaat loskoppelen van Azure AD
-1.  Klik **op Loskoppelen** op het verbonden werk- of schoolaccount. 
-2.  Bevestig de verbinding tweemaal. 
-3.  Voer een gebruikersnaam en wachtwoord van een lokale beheerder in. Het apparaat is losgekoppeld.
-4.  Start het apparaat opnieuw op.
+
+1. Klik **op Loskoppelen** op het verbonden werk- of schoolaccount.
+2. Bevestig de verbinding tweemaal.
+3. Voer een gebruikersnaam en wachtwoord van een lokale beheerder in. Het apparaat is losgekoppeld.
+4. Start het apparaat opnieuw op.
+
 ### <a name="step-3-join-the-device-to-azure-ad"></a>Stap 3: Deelnemen aan het apparaat aan Azure AD
-1.  Meld u aan met de referenties van de lokale beheerder.
-2.  Ga naar **Instellingen**  >  **Accounts**  >  **Access Work Or School**.
-3.  Klik op **Verbinding maken**.
-4.  **BELANGRIJK:** Klik op **Deelnemen aan Azure AD.**
-5.  Voer het e-mailadres en wachtwoord van uw werkaccount in. Het apparaat is verbonden.
-6.  Start het apparaat opnieuw op.
-7.  Meld u aan met het e-mailadres en wachtwoord van uw werkaccount.
+
+1. Meld u aan met de referenties van de lokale beheerder.
+2. Ga naar **Instellingen**  >  **Accounts**  >  **Access Work Or School**.
+3. Klik op **Verbinding maken**.
+4. **BELANGRIJK:** Klik op **Deelnemen aan Azure AD.**
+5. Voer het e-mailadres en wachtwoord van uw werkaccount in. Het apparaat is verbonden.
+6. Start het apparaat opnieuw op.
+7. Meld u aan met het e-mailadres en wachtwoord van uw werkaccount.
 
 Als de gebruiker geen beheerder van het apparaat is, kan een globale beheerder van Azure AD het lokale beheerdersaccount op het apparaat maken na dit configuratiepad en het apparaat ontvoegen:
 
 *Instellingen > Accounts > Andere accounts > referenties onbekend > Gebruiker toevoegen zonder Microsoft-account*
 
-Als u opnieuw wilt deelnemen, kunnen de referenties van een werkaccount van uw organisatie in deze stap worden gebruikt. 
+Als u opnieuw wilt deelnemen, kunnen de referenties van een werkaccount van uw organisatie in deze stap worden gebruikt.
 
 Houd er rekening mee dat het werkaccount dat wordt gebruikt om deel te nemen aan het apparaat automatisch wordt gepromoveerd als beheerder van het apparaat.
 Elk ander werkaccount van de organisatie kan zich aanmelden bij het apparaat, maar heeft geen beheerdersbevoegdheden.
 
 ## <a name="azure-ad-registered-workplace-joined-windows-10-devices"></a>Azure AD-geregistreerde (werkplek-verbonden) Windows 10 apparaten
+
 Als een Windows 10 Azure AD is geregistreerd, moet dit worden losgekoppeld van de Azure AD en opnieuw worden verbonden.
 
 [![Azure AD Device Re-Registration Flow ](../media/ms-cloud-germany-migration-opt-in/AAD-ReRegistration-flow.png)](../media/ms-cloud-germany-migration-opt-in/AAD-ReJoin-flow.png#lightbox)
 
 ### <a name="step-1-determine-if-the-device-is-azure-id-registered"></a>Stap 1: bepalen of het apparaat is geregistreerd als Azure-id
-1.  Meld u aan met uw gebruiker.
-2.  Ga naar **Instellingen**  >  **Accounts**  >  **Access Work Or School**. 
-3.  Ontdek uw werkaccount in de lijst en controleer of het is **verbonden met [...]' s Azure AD**.
+
+1. Meld u aan met uw gebruiker.
+2. Ga naar **Instellingen**  >  **Accounts**  >  **Access Work Or School**.
+3. Ontdek uw werkaccount in de lijst en controleer of het is **verbonden met [...]' s Azure AD**.
 
     Als uw werkaccount in de lijst staat, maar niet is verbonden met een Azure AD, gaat u verder met stap 2.
 
     Anders is uw apparaat een apparaat dat deel uit maakt van Azure AD en moet u verwijzen naar [Azure AD Joined Windows 10 apparaten.](#azure-ad-joined-windows-10-devices)
 
 ### <a name="step-2-disconnect-the-device-from-azure-ad"></a>Stap 2: Het apparaat loskoppelen van Azure AD
-1.  Klik op uw werkaccount. De knoppen *Info* en *Loskoppelen worden* weergegeven.
-2.  Klik **op Loskoppelen.** 
-3.  Bevestig accountverwijdering van het apparaat door op Ja **te klikken.**
+
+1. Klik op uw werkaccount. De knoppen *Info* en *Loskoppelen worden* weergegeven.
+2. Klik **op Loskoppelen.**
+3. Bevestig accountverwijdering van het apparaat door op Ja **te klikken.**
+
 ### <a name="step-3-connect-the-device-to-azure-ad"></a>Stap 3: Verbinding maken naar Azure AD
-1.  Klik op **Verbinding maken**.
-2.  Voer het e-mailadres van uw werkaccount in en klik op **Volgende.**
-3.  Voer het wachtwoord van uw werkaccount in en klik **op Aanmelden.**
-4.  Bevestig door op Klaar **te klikken.** Uw werkaccount wordt opnieuw weergegeven.
+
+1. Klik op **Verbinding maken**.
+2. Voer het e-mailadres van uw werkaccount in en klik op **Volgende.**
+3. Voer het wachtwoord van uw werkaccount in en klik **op Aanmelden.**
+4. Bevestig door op Klaar **te klikken.** Uw werkaccount wordt opnieuw weergegeven.
 
 ## <a name="android"></a>Android
 
-Voor Android moeten gebruikers de registratie van hun apparaten ongedaan maken en opnieuw registreren. Dit kan via de Microsoft Authenticator app of de Bedrijfsportal app. 
+Voor Android moeten gebruikers de registratie van hun apparaten ongedaan maken en opnieuw registreren. Dit kan via de Microsoft Authenticator app of de Bedrijfsportal app.
 
 - Vanuit de Microsoft Authenticator app kunnen gebruikers naar Instellingen > **Apparaatregistratie** gaan. Van hieruit kunnen gebruikers hun registratie ongedaan maken en hun apparaat opnieuw registreren.
- 
+
 - Vanuit de Bedrijfsportal kunnen gebruikers naar het **tabblad** Apparaten gaan en het apparaat verwijderen. Daarna kunt u het apparaat opnieuw registreren met behulp van Bedrijfsportal.
- 
+
 - Gebruikers kunnen zich ook afmelden en opnieuw registreren door het account te verwijderen van de pagina accountinstellingen en vervolgens het werkaccount opnieuw toe te voegen.
 
 U kunt de registratie van het apparaat op Android ongedaan maken en opnieuw registreren met de Microsoft Authenticator app:
 
-1.  Open de Microsoft Authenticator app en ga naar **Instellingen.**
-2.  Selecteer **Apparaatregistratie.**
-3.  De registratie van het apparaat ongedaan maken door **Afmelden te selecteren.**
-4.  Voor **apparaatregistratie,** moet u het apparaat opnieuw registreren door uw e-mailadres te typen en vervolgens **Registreren te selecteren.**
+1. Open de Microsoft Authenticator app en ga naar **Instellingen.**
+2. Selecteer **Apparaatregistratie.**
+3. De registratie van het apparaat ongedaan maken door **Afmelden te selecteren.**
+4. Voor **apparaatregistratie,** moet u het apparaat opnieuw registreren door uw e-mailadres te typen en vervolgens **Registreren te selecteren.**
 
 Een Android-apparaat op de pagina Android-Instellingen opnieuw registreren:
 
-1.  Open **Apparaat Instellingen** en ga naar **Accounts.**
-2.  Selecteer het werkaccount dat u opnieuw wilt registreren en selecteer **Account verwijderen.**
-3.  Nadat het account is verwijderd, selecteert u op de **pagina Accounts** de optie Account toevoegen **> werkaccount.**
-4.  Voor **Workplace Join** typt u uw e-mailadres en **selecteert** u Deelnemen om de registratie van het apparaat te voltooien.
+1. Open **Apparaat Instellingen** en ga naar **Accounts.**
+2. Selecteer het werkaccount dat u opnieuw wilt registreren en selecteer **Account verwijderen.**
+3. Nadat het account is verwijderd, selecteert u op de **pagina Accounts** de optie Account toevoegen **> werkaccount.**
+4. Voor **Workplace Join** typt u uw e-mailadres en **selecteert** u Deelnemen om de registratie van het apparaat te voltooien.
 
 U kunt de registratie van het apparaat op Android ongedaan maken en opnieuw registreren Bedrijfsportal:
 
-1.  Start Bedrijfsportal en ga naar **het tabblad** Apparaten.
-2.  Selecteer het apparaat om de apparaatdetails te bekijken.
-3.  Selecteer apparaat verwijderen in het menu drie puntjes (drie puntjes) en voltooi de verwijdering door dit te bevestigen in het dialoogvenster.
-4.  U moet nu zijn afgemeld bij de Bedrijfsportal app. Selecteer **Aanmelden om** het apparaat opnieuw te registreren.
+1. Start Bedrijfsportal en ga naar **het tabblad** Apparaten.
+2. Selecteer het apparaat om de apparaatdetails te bekijken.
+3. Selecteer apparaat verwijderen in het menu drie puntjes (drie puntjes) en voltooi de verwijdering door dit te bevestigen in het dialoogvenster.
+4. U moet nu zijn afgemeld bij de Bedrijfsportal app. Selecteer **Aanmelden om** het apparaat opnieuw te registreren.
 
 Bekijk de informatie over Azure Active Directory (Azure AD) in Aanvullende Azure AD-informatie voor de migratie van [Microsoft Cloud Deutschland](ms-cloud-germany-transition-azure-ad.md)voor meer informatie over acties die nodig zijn tijdens de migratiefase van deze werkbelasting of de gevolgen voor beheer of gebruik.
 
@@ -132,13 +142,13 @@ Op iOS-apparaten moet een gebruiker accounts in de cache handmatig verwijderen u
 2. Tik op **Instellingen** in de rechterbovenhoek. Als u het pictogram  Instellingen niet ziet, gebruikt u mogelijk niet de nieuwste versie van Microsoft Authenticator.
 3. Tik op **de knop Account** verwijderen.
 4. Tik **op Alle apps op dit apparaat.**
- 
+
 ### <a name="step-2-unregister-the-device-from-the-microsoft-authenticator-app"></a>Stap 2: Het apparaat uit de app Microsoft Authenticator verwijderen
 
 1. Tik op het menupictogram in de rechterbovenhoek.
 2. Tik **Instellingen** en vervolgens **op Apparaatregistratie.**
-4. Als uw account wordt weergegeven, tikt u **op Apparaat afmelden** en **doorgaan** in het dialoogvenster. Daarna ziet u geen account meer.
- 
+3. Als uw account wordt weergegeven, tikt u **op Apparaat afmelden** en **doorgaan** in het dialoogvenster. Daarna ziet u geen account meer.
+
 ### <a name="step-3-sign-out-from-individual-apps-if-necessary"></a>Stap 3: Meld u indien nodig af bij afzonderlijke apps
 
 Gebruikers kunnen naar afzonderlijke apps gaan, zoals Outlook, Teams en OneDrive en accounts uit die apps verwijderen.

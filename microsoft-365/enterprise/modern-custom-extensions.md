@@ -19,12 +19,12 @@ ms.reviewer: sstewart
 search.appverid:
 - MET150
 description: Meer informatie over het optimaliseren van de prestaties van aangepaste extensies in SharePoint moderne onlinesitepagina's.
-ms.openlocfilehash: 05d9b9cd9ad70630169595dc42080c718b39dbc8
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: af3645274b800a4eb8090957fc62397465022343
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923053"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288945"
 ---
 # <a name="optimize-custom-extension-performance-in-sharepoint-online-modern-site-pages"></a>Aangepaste uitbreidingsprestaties optimaliseren in SharePoint moderne onlinesitepagina's
 
@@ -55,7 +55,8 @@ De beschikbare informatie in de resultaten omvat:
 - **Totaal** geeft de totale tijd weer voor de uitbreiding voor het laden en initialiseren van de module. Het is de totale relatieve tijd die door de extensie wordt gebruikt om op de pagina uit te voeren, van begin tot einde.
 - **Module laden** toont de tijd die nodig is voor het downloaden, evalueren en laden van de extensies JavaScript- en CSS-bestanden. Vervolgens wordt het Init-proces begonnen.
 - **Init toont** de tijd die nodig is voor de extensie om de gegevens te initialiseren.
-    Het is een asynchrone oproep en init time is de berekening van de tijd voor de functie onInit wanneer de geretourneerde belofte is opgelost.
+
+  Het is een asynchrone oproep en init time is de berekening van de tijd voor de functie onInit wanneer de geretourneerde belofte is opgelost.
 
 Deze informatie wordt verstrekt om ontwerpers en ontwikkelaars te helpen bij het oplossen van problemen. Deze informatie moet worden verstrekt aan uw ontwerp- en ontwikkelingsteam.
 
@@ -109,7 +110,7 @@ Voordat u paginaherzieningen maakt om prestatieproblemen op te lossen, noteert u
 >[!NOTE]
 >De laadtijd van pagina's kan variëren op basis van verschillende factoren, zoals de netwerkbelasting, de tijd van de dag en andere tijdelijke omstandigheden. U moet de laadtijd van pagina's een paar keer voor en na het aanbrengen van wijzigingen testen, zodat u de resultaten kunt gemiddelden.
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-topics"></a>Gerelateerde onderwerpen
 
 [Prestaties SharePoint online afstemmen](tune-sharepoint-online-performance.md)
 

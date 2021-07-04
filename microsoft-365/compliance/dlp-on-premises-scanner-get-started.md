@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Stel Microsoft 365 preventie van gegevensverlies on-premises scanner
-ms.openlocfilehash: b21474f3a9e045bf353d62ef6c7c8d4174801a1b
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 0390ac48b351b30b75109a3e3a5d18c80847c9d2
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52623831"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289197"
 ---
 # <a name="get-started-with-the-data-loss-prevention-on-premises-scanner-preview"></a>Aan de slag met de preventie van gegevensverlies on-premises scanner (preview)
 
@@ -115,7 +115,7 @@ Gegevens van DL -on-premises scanners kunnen worden weergegeven in [Activity Exp
 
 2. Raadpleeg de procedures in [Aan de slag met Activiteitenverkenner](data-classification-activity-explorer.md) om alle gegevens voor uw on-premises scannerlocaties weer te geven en te filteren.
 
-3. Open in het [auditlogboek in het compliancecentrum](https://security.microsoft.com/auditlogsearch). Tijdens de openbare preview zijn de DLP-regelovereenkomsten ook beschikbaar in de gebruikersinterface van het auditlogboek of beschikbaar door [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog?view=exchange-ps) PowerShell. 
+3. Open in het [auditlogboek in het compliancecentrum](https://security.microsoft.com/auditlogsearch). Tijdens de openbare preview zijn de DLP-regelovereenkomsten ook beschikbaar in de gebruikersinterface van het auditlogboek of beschikbaar door [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog) PowerShell. 
 
 
 ## <a name="next-steps"></a>Volgende stappen

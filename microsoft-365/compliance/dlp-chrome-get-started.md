@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Bereid de Microsoft compliance-extensie voor en implementeer deze.
-ms.openlocfilehash: c20381b23a70fdf8e6571af65b74688cc57ea760
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: a76a4b1ab5b92a1e237663f65002b99d792b13bb
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53226957"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288369"
 ---
 # <a name="get-started-with-microsoft-compliance-extension"></a>Aan de slag met de Microsoft compliance-extensie
 
@@ -70,7 +70,7 @@ Gegevens uit DLP voor eindpunten kunnen worden weergegeven in [Activiteitenverke
 - Beheerder voor naleving
 - Beveiligingsbeheerder
 - Gegevensbeheerder voor naleving
-- Algemene lezer
+- Globale lezer
 - Beveiligingslezer
 - Rapportenlezer
 
@@ -107,35 +107,34 @@ Dit is de aanbevolen methode.
    Get-Item -path "HKLM:\SOFTWARE\Microsoft\Windows Defender\Miscellaneous Configuration" | New-ItemProperty -Name DlpDisableBrowserCache -Value 0 -Force
    ```
 
-2.  Ga naar [Microsoft Compliance-extensie - Chrome Web Store (google.com)](https://chrome.google.com/webstore/detail/microsoft-compliance-exte/echcggldkblhodogklpincgchnpgcdco).
+2. Ga naar [Microsoft Compliance-extensie - Chrome Web Store (google.com)](https://chrome.google.com/webstore/detail/microsoft-compliance-exte/echcggldkblhodogklpincgchnpgcdco).
 
-3.  Installeer de extensie aan de hand van de instructies op de pagina Chrome Web Store.
+3. Installeer de extensie aan de hand van de instructies op de pagina Chrome Web Store.
 
 ### <a name="deploy-using-microsoft-endpoint-manager"></a>Implementeren met behulp van Microsoft Endpoint Manager
 
 Gebruik deze instellingsmethode voor implementaties voor de hele organisatie.
 
-
 ##### <a name="enabling-required-registry-key-via-microsoft-endpoint-manager"></a>Vereiste registersleutel inschakelen via Microsoft Endpoint Manager
 
-1.  Maak een PowerShell-script met de volgende inhoud:
+1. Maak een PowerShell-script met de volgende inhoud:
 
     ```powershell
     Get-Item -path "HKLM:\SOFTWARE\Microsoft\Windows Defender\Miscellaneous Configuration" | New-ItemProperty -Name DlpDisableBrowserCache -Value 0 -Force
     ```
 
-2.  Meld u aan bij het [beheercentrum voor Microsoft Eindpuntbeheer](https://endpoint.microsoft.com).
+2. Meld u aan bij het [beheercentrum voor Microsoft Eindpuntbeheer](https://endpoint.microsoft.com).
 
-3.  Ga naar **Apparaten** > **Scripts** en selecteer **Toevoegen**.
+3. Ga naar **Apparaten** > **Scripts** en selecteer **Toevoegen**.
 
-4.  Blader naar de locatie van het script dat is gemaakt wanneer hier om wordt gevraagd.
+4. Blader naar de locatie van het script dat is gemaakt wanneer hier om wordt gevraagd.
 
-5.  Selecteer de volgende instellingen:
+5. Selecteer de volgende instellingen:
     1. Voer dit script uit met de aanmeldingsreferenties: JA
     1. Controle van scripthandtekening afdwingen: NEE
     1. Voer het script uit in de 64-bits PowerShell-host: JA
 
-6.  Selecteer de juiste apparaatgroepen en pas het beleid toe.
+6. Selecteer de juiste apparaatgroepen en pas het beleid toe.
 
 #### <a name="microsoft-endpoint-manager-force-install-steps"></a>Installatiestappen voor Microsoft Endpoint Manager Force
 
@@ -143,27 +142,27 @@ Voordat u de Microsoft Compliance-extensie toevoegt aan de lijst met geforceer g
 
  Nadat u het ADMX-account hebt gebruikt, kunt u de onderstaande stappen volgen om een configuratieprofiel voor deze extensie te maken.
 
-1.  Meld u aan bij het Beheercentrum van Microsoft Endpoint Manager (https://endpoint.microsoft.com).
+1. Meld u aan bij het Beheercentrum van Microsoft Endpoint Manager (https://endpoint.microsoft.com).
 
-2.  Ga naar Configuratieprofielen.
+2. Ga naar Configuratieprofielen.
 
-3.  Selecteer **Profiel maken**.
+3. Selecteer **Profiel maken**.
 
-4.  Selecteer **Windows 10** als platform.
+4. Selecteer **Windows 10** als platform.
 
-5.  Selecteer **Aangepast** als profieltype.
+5. Selecteer **Aangepast** als profieltype.
 
-6.  Selecteer het tabblad **Instellingen**.
+6. Selecteer het tabblad **Instellingen**.
 
-7.  Kies **Toevoegen**.
+7. Kies **Toevoegen**.
 
-8.  Geef de volgende gegevens op.
+8. Geef de volgende gegevens op.
 
     OMA-URI: `./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome~Extensions/ExtensionInstallForcelist`<br/>
     Gegevenstype: `String`<br/>
     Waarde: `<enabled/><data id="ExtensionInstallForcelistDesc" value="1&#xF000; echcggldkblhodogklpincgchnpgcdco;https://clients2.google.com/service/update2/crx"/>`
 
-9.  Klik op maken.
+9. Klik op maken.
 
 ### <a name="deploy-using-group-policy"></a>Implementeren met behulp van groepsbeleid
 
@@ -171,25 +170,25 @@ Als u Microsoft Endpoint Manager niet wilt gebruiken, kunt u groepsbeleid gebrui
 
 1. Uw apparaten moeten kunnen worden beheerbaar via groepsbeleid en u moet alle Chrome ADMX's importeren in de centrale opslag voor groepsbeleid. Zie voor meer informatie [het Centraal beheerbeleid in Windows](/troubleshoot/windows-client/group-policy/create-and-manage-central-store).
 
-2.  Maak een PowerShell-script met deze PowerShell-opdracht:
+2. Maak een PowerShell-script met deze PowerShell-opdracht:
 
     ```powershell
     Get-Item -path "HKLM:\SOFTWARE\Microsoft\Windows Defender\Miscellaneous Configuration" | New-ItemProperty -Name DlpDisableBrowserCache -Value 0 -Force
     ```
 
-3.  Open de **console voor groepsbeleidsbeheer** naar uw organisatie-eenheid (OU).
+3. Open de **console voor groepsbeleidsbeheer** naar uw organisatie-eenheid (OU).
 
-4.  Klik met de rechtermuisknop en selecteer **GPO in dit domein maken en koppel deze hier**. Wanneer hier om wordt gevraagd, wijst u een beschrijvende naam toe aan dit groepsbeleidsobject en maakt u het maken van het object af.
+4. Klik met de rechtermuisknop en selecteer **GPO in dit domein maken en koppel deze hier**. Wanneer hier om wordt gevraagd, wijst u een beschrijvende naam toe aan dit groepsbeleidsobject en maakt u het maken van het object af.
 
-5.  Klik met de rechtermuisknop op de GPO en selecteer **Bewerken**.
+5. Klik met de rechtermuisknop op de GPO en selecteer **Bewerken**.
 
-6.  Ga naar **Configuratie van computer** > **Voorkeuren** > **Instellingen van het Configuratiescherm** > **Geplande taken**.
+6. Ga naar **Configuratie van computer** > **Voorkeuren** > **Instellingen van het Configuratiescherm** > **Geplande taken**.
 
-7.  Maak een nieuwe directe taak door met de rechtermuisknop te klikken en **Nieuwe taak** > **(ten minste Windows 7)**.
+7. Maak een nieuwe directe taak door met de rechtermuisknop te klikken en **Nieuwe taak** > **(ten minste Windows 7)**.
 
-8.  Geef een naam en beschrijving op voor de taak.
+8. Geef een naam en beschrijving op voor de taak.
 
-9.  Kies het bijbehorende account om de directe taak uit te voeren, bijvoorbeeld NT Authority
+9. Kies het bijbehorende account om de directe taak uit te voeren, bijvoorbeeld NT Authority
 
 10. Selecteer **Uitvoeren met de hoogste bevoegdheden**.
 
@@ -203,21 +202,21 @@ Als u Microsoft Endpoint Manager niet wilt gebruiken, kunt u groepsbeleid gebrui
 
 #### <a name="adding-the-chrome-extension-to-the-forceinstall-list"></a>De Chrome-extensie toevoegen aan de lijst Geforceerd installeren
 
-1.  Ga in de groepsbeleidsbeheereditor naar uw OU.
+1. Ga in de groepsbeleidsbeheereditor naar uw OU.
 
-2.  Vouw het volgende pad uit: **Configuratie van computer/gebruiker** > **Beleid** > **Beheersjablonen** > **Klassieke beheersjablonen** > **Google** > **Google Chrome** > **Extensies**. Dit pad kan variëren, afhankelijk van uw configuratie.
+2. Vouw het volgende pad uit: **Configuratie van computer/gebruiker** > **Beleid** > **Beheersjablonen** > **Klassieke beheersjablonen** > **Google** > **Google Chrome** > **Extensies**. Dit pad kan variëren, afhankelijk van uw configuratie.
 
-3.  Selecteer **De lijst met geforceerde geïnstalleerde extensies**.
+3. Selecteer **De lijst met geforceerde geïnstalleerde extensies**.
 
-4.  Klik met de rechtermuisknop en **Bewerken**.
+4. Klik met de rechtermuisknop en **Bewerken**.
 
-5.  Selecteer **Ingeschakeld**.
+5. Selecteer **Ingeschakeld**.
 
-6.  Selecteer **Weergeven**.
+6. Selecteer **Weergeven**.
 
-7.  Voeg bij **Waarde** de volgende vermelding toe: `echcggldkblhodogklpincgchnpgcdco;https://clients2.google.com/service/update2/crx`
+7. Voeg bij **Waarde** de volgende vermelding toe: `echcggldkblhodogklpincgchnpgcdco;https://clients2.google.com/service/update2/crx`
 
-8.  Selecteer **OK** klik vervolgens **Toepassen**.
+8. Selecteer **OK** klik vervolgens **Toepassen**.
 
 ### <a name="test-the-extension"></a>De extensie testen
 
@@ -266,7 +265,7 @@ Nu u Chrome hebt verwijderd uit de lijst met niet-toegeziene browsers/apps, kunt
 
 Nu u onboarded-apparaten hebt en de activiteitsgegevens kunt bekijken in Activiteitenverkenner, kunt u verder gaan met de volgende stap, waarin u DLP-beleid maakt voor het beveiligen van uw gevoelige items.
 
-- [Preventie van gegevensverlies van eindpunten gebruiken](endpoint-dlp-using.md)
+- [Preventie van gegevensverlies voor eindpunten gebruiken](endpoint-dlp-using.md)
 
 ## <a name="see-also"></a>Zie ook
 
