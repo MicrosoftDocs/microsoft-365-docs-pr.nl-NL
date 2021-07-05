@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Lees hoe u met de preventie van gegevensverlies in Microsoft 365 op een on-premises scanner data-at-rest kunt scannen en beschermende maatregelen kunt implementeren voor het on-premises delen van bestanden en on-premises SharePoint-mappen en -documentbibliotheken.
-ms.openlocfilehash: 8247315721041c3d5be5e4548bfe080b69375ed4
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: b2512c47b82ab3624d892d349611dd3f1e5aed3c
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52623855"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289173"
 ---
 # <a name="use-the-microsoft-365-data-loss-prevention-on-premises-scanner-preview"></a>Gebruik de Microsoft 365 preventie van gegevensverlies on-premises scanner (preview)
 
@@ -32,10 +32,11 @@ Om u vertrouwd te maken met de on-premises functies van DLP en hoe deze worden g
 
 > [!IMPORTANT]
 > Deze on-premises DLP-scenario's zijn niet de officiële procedures voor het maken en afstemmen van DLP-beleid. Raadpleeg de onderstaande onderwerpen wanneer u in het algemeen met DLP-beleid moet werken:
->- [Meer informatie over preventie van gegevensverlies](dlp-learn-about-dlp.md)
->- [Aan de slag met het standaard DLP-beleid](get-started-with-the-default-dlp-policy.md)
->- [Een DLP-beleid maken vanuit een sjabloon](create-a-dlp-policy-from-a-template.md)
->- [Een DLP-beleid maken, testen en afstemmen](create-test-tune-dlp-policy.md)
+>
+> - [Meer informatie over preventie van gegevensverlies](dlp-learn-about-dlp.md)
+> - [Aan de slag met het standaard DLP-beleid](get-started-with-the-default-dlp-policy.md)
+> - [Een DLP-beleid maken vanuit een sjabloon](create-a-dlp-policy-from-a-template.md)
+> - [Een DLP-beleid maken, testen en afstemmen](create-test-tune-dlp-policy.md)
 
 ### <a name="scenario-discover-files-matching-dlp-rules"></a>Scenario: Ontdek bestanden die overeenkomen met DLP-regels
 
@@ -43,11 +44,11 @@ Gegevens van DLP-on-premises scanner komen in verschillende gebieden voor
 
 #### <a name="activity-explorer"></a>Activiteitenverkenner
 
- Microsoft DLP voor on-premises detecteert DLP-regelovereenkomsten en rapporteert deze aan [Activiteitenverkenner](https://compliance.microsoft.com/dataclassification?viewid=activitiesexplorer). 
- 
+ Microsoft DLP voor on-premises detecteert DLP-regelovereenkomsten en rapporteert deze aan [Activiteitenverkenner](https://compliance.microsoft.com/dataclassification?viewid=activitiesexplorer).
+
 #### <a name="microsoft-365-audit-log"></a>Microsoft 365-auditlogboek
 
-Tijdens de openbare preview zijn de DLP-regelovereenkomsten ook beschikbaar in de gebruikersinterface van het auditlogboek. Zie [Het auditlogboek zoeken in het compliancecentrum](search-the-audit-log-in-security-and-compliance.md)  of beschikbaar door [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog?view=exchange-ps) PowerShell.
+Tijdens de openbare preview zijn de DLP-regelovereenkomsten ook beschikbaar in de gebruikersinterface van het auditlogboek. Zie [Het auditlogboek zoeken in het compliancecentrum](search-the-audit-log-in-security-and-compliance.md)  of beschikbaar door [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog) PowerShell.
 
 #### <a name="aip"></a>AIP
 
@@ -56,25 +57,26 @@ Detectiegegevens zijn beschikbaar in een lokaal rapport in de CSV-indeling en zi
 **%localappdata%\Microsoft\MSIP\Scanner\Reports\DetailedReport_%timestamp%.csv report**.
 
  Zoek de volgende kolommen:
+
 - DLP-modus
 - DLP-status
 - DLP-opmerking
-- DLP-regelnaam DLP-acties
+- DLP-regelnaam
+- DLP-acties
 - Eigenaar
 - Huidige NTFS-machtigingen (SDDL)
 - Toegepaste NTFS-machtigingen (SDDL)
 - Type NTFS-machtigingen
- 
-### <a name="scenario-enforce-dlp-rule"></a>Scenario: DLP-regel afdwingen 
+
+### <a name="scenario-enforce-dlp-rule"></a>Scenario: DLP-regel afdwingen
 
 Als u DLP-regels wilt afdwingen voor de gescande bestanden, moet afdwingen zijn ingeschakeld op zowel de inhoudsscantaak in AIP als op het beleidsniveau in DLP.
 
-
 #### <a name="configure-dlp-to-enforce-policy-actions"></a>DLP configureren voor het afdwingen van beleidsacties
 
-1. Open de [pagina voor preventie van gegevensverlies](https://compliance.microsoft.com/datalossprevention?viewid=policies) en selecteer het DLP-beleid dat is gericht op de on-premises locatie-opslagplaatsen die u in AIP hebt geconfigureerd. 
+1. Open de [pagina voor preventie van gegevensverlies](https://compliance.microsoft.com/datalossprevention?viewid=policies) en selecteer het DLP-beleid dat is gericht op de on-premises locatie-opslagplaatsen die u in AIP hebt geconfigureerd.
 2. Geef het beleid een naam.
-3. Selecteer op de pagina **Het beleid testen of inschakelen****Ja en schakel het meteen in**. 
+3. Selecteer op de pagina **Het beleid testen of inschakelen****Ja en schakel het meteen in**.
 
 ## <a name="see-also"></a>Zie ook
 

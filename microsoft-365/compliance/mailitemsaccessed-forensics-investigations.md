@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Gebruik de postvakcontroleactie MailItemsAccessed om onderzoek te doen naar gehackte gebruikersaccounts.
-ms.openlocfilehash: e9dda101b330f6632e66c226156df3497ac38453
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 64f3e5f3423f5182277fe7640199a39dc11068f2
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "52161758"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288777"
 ---
 # <a name="use-advanced-audit-to-investigate-compromised-accounts"></a>Geavanceerde controle gebruiken om verdachte accounts te onderzoeken
 
@@ -37,7 +37,7 @@ De actie MailItemsAccessed voor postvakcontroleactie heeft betrekking op alle e-
 
 ### <a name="auditing-sync-access"></a>Synchronisatietoegang controleren
 
-Synchronisatiebewerkingen worden alleen opgenomen wanneer een postvak wordt gebruikt in een bureaubladversie van de Outlook-client voor Windows of Mac. Tijdens de synchronisatie door deze clients meestal een groot aantal e-mailitems gedownload van de cloud naar een lokale computer. Het auditvolume voor synchronisatiebewerkingen is enorm. Daarom genereren we geen controlerecord voor elk e-mailitem dat wordt gesynchroniseerd, maar we een controlegebeurtenis voor de e-mailmap met items die zijn gesynchroniseerd. Daardoor wordt aangenomen dat *alle* e-mailitems in de gesynchroniseerde map zijn gehackt. Het toegangstype wordt vastgelegd in het veld OperationProperties van de auditrecord. 
+Synchronisatiebewerkingen worden alleen opgenomen wanneer een postvak wordt gebruikt in een bureaubladversie van de Outlook-client voor Windows of Mac. Tijdens de synchronisatie door deze clients meestal een groot aantal e-mailitems gedownload van de cloud naar een lokale computer. Het auditvolume voor synchronisatiebewerkingen is enorm. Daarom genereren we geen controlerecord voor elk e-mailitem dat wordt gesynchroniseerd, maar we een controlegebeurtenis voor de e-mailmap met items die zijn gesynchroniseerd. Daardoor wordt aangenomen dat *alle* e-mailitems in de gesynchroniseerde map zijn gehackt. Het toegangstype wordt vastgelegd in het veld OperationProperties van de auditrecord.
 
 Zie stap 2 in de sectie [MailItemsAccessed-auditrecords gebruiken voor forenstisch onderzoek](#use-mailitemsaccessed-audit-records-for-forensic-investigations) voor een voorbeeld van het weergeven van het type synchronisatietoegang in een controlerecord.
 
@@ -49,16 +49,13 @@ Zie stap 4 in de sectie [MailItemsAccessed-auditrecords gebruiken voor forenstis
 
 ### <a name="throttling-of-mailitemsaccessed-audit-records"></a>MailItemsAccessed-controlerecords beperken
 
-Als er binnen 24 uur meer dan 1000 MailItemsAccessed-controlerecords worden gegenereerd, worden er in Exchange Online geen controlerecords meer gegenereerd voor MailItemsAccessed-activiteit. Als een postvak wordt beperkt, wordt de MailItemsAccessed-activiteit pas 24 uur nadat het postvak is beperkt geregistreerd. Als dit gebeurt, is er een kans dat het postvak in de loop van de periode is gehackt. De registratie van MailItemsAccessed-activiteit wordt na 24 uur hervat.  
+Als er binnen 24 uur meer dan 1000 MailItemsAccessed-controlerecords worden gegenereerd, worden er in Exchange Online geen controlerecords meer gegenereerd voor MailItemsAccessed-activiteit. Als een postvak wordt beperkt, wordt de MailItemsAccessed-activiteit pas 24 uur nadat het postvak is beperkt geregistreerd. Als dit gebeurt, is er een kans dat het postvak in de loop van de periode is gehackt. De registratie van MailItemsAccessed-activiteit wordt na 24 uur hervat.
 
 Hier zijn enkele dingen die u in gedachten moet houden bij beperking van activiteiten:
 
 - Minder dan 1% van alle postvakken in Exchange Online wordt beperkt
-
-- Wanneer een postvak wordt beperkt, worden alleen controlerecords voor MailItemsAccessed-activiteiten niet gecontroleerd. Andere postvakcontroleacties worden niet beïnvloed.
-
+- Wanneer een postvak wordt beperkt, worden alleen controlerecords voor MailItemsAccessed-activiteiten niet gecontroleerd. Andere controleacties voor postvakken worden niet beïnvloed.
 - Postvakken worden alleen beperkt voor bind-bewerkingen. Controlerecords voor synchronisatiebewerkingen worden niet beperkt.
-
 - Als een postvak wordt beperkt, kunt u aannemen dat er MailItemsAccessed-activiteit is die niet is vastgelegd in de auditlogboeken.
 
 Zie stap 1 in de sectie [MailItemsAccessed-auditrecords gebruiken voor forenstisch onderzoek](#use-mailitemsaccessed-audit-records-for-forensic-investigations) voor een voorbeeld van het weergeven van de eigenschap IsThrottled in een controlerecord.
@@ -67,17 +64,17 @@ Zie stap 1 in de sectie [MailItemsAccessed-auditrecords gebruiken voor forenstis
 
 Met postvakcontrole worden controlerecords gegenereerd voor toegang tot e-mailberichten, zodat u zeker weet dat er geen e-mailberichten zijn gehackt. Wanneer we niet zeker weten of er wel of niet toegang tot bepaalde gegevens is gekregen, zullen we om deze reden ervan uitgaan dat dat wel het geval is door alle toegangsactiviteiten voor e-mail te registreren.
 
-MailItemsAccessed-controlerecords voor forensische controles worden meestal gebruikt nadat een gegevenslek is opgelost en de aanvaller is buitengesloten. Om uw onderzoek te starten, moet u de reeks gehackte postvakken in kaart brengen en vaststellen in welke periode en op welk tijdstip kwaadwillende gebruikers toegang hebben gehad tot postvakken in uw organisatie. Vervolgens kunt u de **Search-UnifiedAuditLog**- of **Search-MailboxAuditLog** cmdlets in [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) gebruiken om te zoeken naar controlerecords die overeenkomen met de gegevenslek. 
+MailItemsAccessed-controlerecords voor forensische controles worden meestal gebruikt nadat een gegevenslek is opgelost en de aanvaller is buitengesloten. Om uw onderzoek te starten, moet u de reeks gehackte postvakken in kaart brengen en vaststellen in welke periode en op welk tijdstip kwaadwillende gebruikers toegang hebben gehad tot postvakken in uw organisatie. Vervolgens kunt u de **Search-UnifiedAuditLog**- of **Search-MailboxAuditLog** cmdlets in [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) gebruiken om te zoeken naar controlerecords die overeenkomen met de gegevenslek.
 
 U kunt een van de volgende opdrachten uitvoeren om te zoeken naar MailItemsAccessed-controlerecords:
 
-**Geïntegreerd auditlogboek**
+**Geïntegreerd auditlogboek**:
 
 ```powershell
 Search-UnifiedAuditLog -StartDate 01/06/2020 -EndDate 01/20/2020 -UserIds <user1,user2> -Operations MailItemsAccessed -ResultSize 1000
 ```
 
-**Auditlogboek van postvak**
+**Auditlogboek van postvak**:
 
 ```powershell
 Search-MailboxAuditLog -Identity <user> -StartDate 01/06/2020 -EndDate 01/20/2020 -Operations MailItemsAccessed -ResultSize 1000 -ShowDetails
@@ -92,13 +89,13 @@ Hier volgen de stappen voor het gebruik van MailItemsAccessed-controlerecords om
 
    Voer de volgende opdracht uit om te zoeken naar MailItemsAccessed-records waarbij het postvak is beperkt:
 
-   **Geïntegreerd auditlogboek**
- 
+   **Geïntegreerd auditlogboek**:
+
    ```powershell
    Search-UnifiedAuditLog -StartDate 01/06/2020 -EndDate 01/20/2020 -UserIds <user1,user2> -Operations MailItemsAccessed -ResultSize 1000 | Where {$_.AuditData -like '*"IsThrottled","Value":"True"*'} | FL
    ```
 
-   **Auditlogboek van postvak**
+   **Auditlogboek van postvak**:
 
    ```powershell
    Search-MailboxAuditLog -StartDate 01/06/2020 -EndDate 01/20/2020 -Identity <user> -Operations MailItemsAccessed -ResultSize 10000 -ShowDetails | Where {$_.OperationProperties -like "*IsThrottled:True*"} | FL
@@ -108,13 +105,13 @@ Hier volgen de stappen voor het gebruik van MailItemsAccessed-controlerecords om
 
    Voer de volgende opdracht uit als u wilt zoeken naar MailItemsAccessed-records waarbij de e-mailitems toegankelijk waren via een synchronisatiebewerking:
 
-   **Geïntegreerd auditlogboek**
+   **Geïntegreerd auditlogboek**:
 
    ```powershell
    Search-UnifiedAuditLog -StartDate 01/06/2020 -EndDate 02/20/2020 -UserIds <user1,user2> -Operations MailItemsAccessed -ResultSize 1000 | Where {$_.AuditData -like '*"MailAccessType","Value":"Sync"*'} | FL
    ```
 
-   **Auditlogboek van postvak**
+   **Auditlogboek van postvak**:
 
    ```powershell
    Search-MailboxAuditLog -StartDate 01/06/2020 -EndDate 01/20/2020 -Identity <user> -Operations MailItemsAccessed -ResultSize 10000 -ShowDetails | Where {$_.OperationProperties -like "*MailAccessType:Sync*"} | FL
@@ -124,63 +121,74 @@ Hier volgen de stappen voor het gebruik van MailItemsAccessed-controlerecords om
 
    Gebruik de onderstaande eigenschappen voor uw onderzoek. Deze eigenschappen bevinden zich in de eigenschap AuditData of OperationProperties. Als een van de synchronisaties in dezelfde context plaatsvond als de kwaadwillende activiteit kunt u ervan uitgaan dat de aanvallers alle e-mailitems naar hun client hebben gesynchroniseerd, wat betekent dat het hele postvak waarschijnlijk is gehackt.
 
-   |Eigenschap         | Omschrijving |
-   |:---------------- | :----------|
-   |ClientInfoString | Beschrijft het protocol en de client (inclusief versie)|
-   |ClientIPAddress  | IP-adres van de clientmachine.|
-   |SessionId        | Sessie-id helpt om acties van aanvallers te onderscheiden van de dagelijkse gebruikersactiviteiten op hetzelfde account (in het geval van een gehackt account)|
-   |UserID           | De UPN van de gebruiker die het bericht leest.|
-   |||
+   <br>
 
-4. Controleer op bind-activiteiten. Nadat u stap 2 en 3 hebt uitgevoerd, kunt u erop vertrouwen dat alle andere toegang tot e-mailberichten door de aanvaller zal worden vastgelegd in de controlerecords van MailItemsAccessed die de eigenschap MailAccessType hebben met de waarde 'Bind'.
+   ****
+
+   |Eigenschap|Omschrijving|
+   |---|---|
+   |ClientInfoString|Beschrijft het protocol en de client (inclusief versie)|
+   |ClientIPAddress|IP-adres van de clientmachine.|
+   |SessionId|Sessie-id helpt om acties van aanvallers te onderscheiden van de dagelijkse gebruikersactiviteiten op hetzelfde account (in het geval van een gehackt account)|
+   |UserID|De UPN van de gebruiker die het bericht leest.|
+   |
+
+4. Controleer op bindactiviteiten. Nadat u stap 2 en 3 hebt uitgevoerd, kunt u erop vertrouwen dat alle andere toegang tot e-mailberichten door de aanvaller zal worden vastgelegd in de controlerecords van MailItemsAccessed die de eigenschap MailAccessType hebben met de waarde 'Bind'.
 
    Voer de volgende opdracht uit als u wilt zoeken naar MailItemsAccessed-records waarbij de e-mailitems toegankelijk waren via een bind-bewerking.
 
-   **Geïntegreerd auditlogboek**
+   **Geïntegreerd auditlogboek**:
 
    ```powershell
    Search-UnifiedAuditLog -StartDate 01/06/2020 -EndDate 01/20/2020 -UserIds <user1,user2> -Operations MailItemsAccessed -ResultSize 1000 | Where {$_.AuditData -like '*"MailAccessType","Value":"Bind"*'} | FL
    ```
- 
-   **Auditlogboek van postvak**
-   
+
+   **Auditlogboek van postvak**:
+
    ```powershell
    Search-MailboxAuditLog -StartDate 01/06/2020 -EndDate 01/20/2020 -Identity <user> -Operations MailItemsAccessed -ResultSize 10000 -ShowDetails | Where {$_.OperationProperties -like "*MailAccessType:Bind*"} | FL
    ```
 
    E-mailberichten die zijn verzonden, worden geïdentificeerd aan de hand van de id van hun internetbericht. U kunt ook controleren of er controlerecords zijn die dezelfde context hebben als die van andere aanvallen. Zie voor meer informatie de sectie [De toegangscontexten van verschillende controlerecords identificeren](#identifying-the-access-contexts-of-different-audit-records).
- 
+
    U kunt de controlegegevens op twee verschillende manieren gebruiken om bind-bewerkingen uit te voeren:
 
-     - Bekijk of verzamel alle e-mailberichten die de kwaadwillende gebruikers kunnen openen door de InternetMessageId te gebruiken en te controleren of een van deze berichten gevoelige informatie bevat.
-
-     - Gebruik de InternetMessageId om te zoeken naar controlerecords die zijn gerelateerd aan een reeks mogelijk gevoelige e-mailberichten. Dit is handig als u zich zorgen maakt over een klein aantal berichten.
+   - Bekijk of verzamel alle e-mailberichten die de kwaadwillende gebruikers kunnen openen door de InternetMessageId te gebruiken en te controleren of een van deze berichten gevoelige informatie bevat.
+   - Gebruik de InternetMessageId om te zoeken naar controlerecords die zijn gerelateerd aan een reeks mogelijk gevoelige e-mailberichten. Dit is handig als u zich zorgen maakt over een klein aantal berichten.
 
 ## <a name="filtering-of-duplicate-audit-records"></a>Dubbele controlerecords filteren
 
 Dubbele controlerecords voor dezelfde bind-bewerkingen die binnen een uur plaatsvonden, worden gefilterd om controleruis te verwijderen. Ook synchronisatiebewerkingen worden gefilterd met intervallen van één uur. De uitzondering op deze de-duplicatieprocedure geldt als een van de eigenschappen die in de volgende tabel worden beschreven afwijkt voor dezelfde InternetMessageId. Als een van deze eigenschappen in een dubbele bewerking anders is, wordt er een nieuwe auditrecord gegenereerd. Dit proces wordt uitgebreider beschreven in de volgende sectie.
 
-| Eigenschap| Omschrijving|
-|:--------|:---------|
-|ClientIPAddress | IP-adres van de clientcomputer.|
-|ClientInfoString| Het clientprotocol, dat wordt gebruikt voor toegang tot het postvak.| 
-|ParentFolder    | Het volledige pad naar de map van het e-mailitem dat is geopend. |
-|Logon_type      | Het aanmeldingstype van de gebruiker die de actie heeft uitgevoerd. De aanmeldingstypen (en de bijbehorende enum-waarde) zijn Owner (0), Admin (1) of Delegate (2).|
-|MailAccessType  | Of de toegang een bind- of synchronisatiebewerking is.|
-|MailboxUPN      | De UPN van het postvak waarin zich het bericht bevindt dat is gelezen.|
-|Gebruiker            | De UPN van de gebruiker die het bericht leest.|
-|SessionId       | Met de sessie-id kunt u onderscheid maken tussen kwaadwillende acties en dagelijkse gebruikersactiviteiten in hetzelfde postvak (in het geval van een accounthack). Zie [Aanvallen contextualiseren binnen sessies in Exchange Online](https://techcommunity.microsoft.com/t5/exchange-team-blog/contextualizing-attacker-activity-within-sessions-in-exchange/ba-p/608801).|
-||||
+<br>
+
+****
+
+|Eigenschap|Omschrijving|
+|---|---|
+|ClientIPAddress|IP-adres van de clientcomputer.|
+|ClientInfoString|Het clientprotocol, dat wordt gebruikt voor toegang tot het postvak.|
+|ParentFolder|Het volledige pad naar de map van het e-mailitem dat is geopend.|
+|Logon_type|Het aanmeldingstype van de gebruiker die de actie heeft uitgevoerd. De aanmeldingstypen (en de bijbehorende enum-waarde) zijn Owner (0), Admin (1) of Delegate (2).|
+|MailAccessType|Of de toegang een bind- of synchronisatiebewerking is.|
+|MailboxUPN|De UPN van het postvak waarin zich het bericht bevindt dat is gelezen.|
+|Gebruiker|De UPN van de gebruiker die het bericht leest.|
+|SessionId|Met de sessie-id kunt u onderscheid maken tussen kwaadwillende acties en dagelijkse gebruikersactiviteiten in hetzelfde postvak (in het geval van een accounthack). Zie [Aanvallen contextualiseren binnen sessies in Exchange Online](https://techcommunity.microsoft.com/t5/exchange-team-blog/contextualizing-attacker-activity-within-sessions-in-exchange/ba-p/608801).|
+|
 
 ## <a name="identifying-the-access-contexts-of-different-audit-records"></a>De toegangscontexten van verschillende controlerecords identificeren
 
 Het is gebruikelijk dat aanvallers een postvak openen op hetzelfde moment dat de eigenaar van het postvak dat doet. Om onderscheid te maken tussen toegang door aanvallers en de eigenaar van het postvak zijn er eigenschappen van controlerecords die de context van de toegang definiëren. Zoals eerder uitgelegd, worden afzonderlijke controlerecords gegenereerd wanneer de waarden voor deze eigenschappen verschillen –zelfs wanneer de activiteit plaatsvindt binnen het samenvoegingsinterval. Het volgende voorbeeld toont drie verschillende controlerecords. Elke record onderscheidt zich door de eigenschappen Session Id en ClientIPAddress. Ook is te zien welke berichten werden geopend.
 
-|Controlerecord 1  |Controlerecord 2  |Controlerecord 3|
-|---------|---------|---------|
+<br>
+
+****
+
+|Controlerecord 1|Controlerecord 2|Controlerecord 3|
+|---|---|---|
 |ClientIPAddress **1**<br/>SessionId **2**|ClientIPAddress **2**<br/>SessionId **2**|ClientIPAddress **1**<br/>SessionId **3**|
-|InternetMessageId **A**<br/>InternetMessageId **D**<br/>InternetMessageId **E**<br/>InternetMessageId **F**<br/>|InternetMessageId **A**<br/>InternetMessageId **C**|InternetMessageId **B** |
-||||
+|InternetMessageId **A**<br/>InternetMessageId **D**<br/>InternetMessageId **E**<br/>InternetMessageId **F**<br/>|InternetMessageId **A**<br/>InternetMessageId **C**|InternetMessageId **B**|
+|
 
 Als een van de eigenschappen in de tabel in de [vorige sectie](#filtering-of-duplicate-audit-records) verschilt, wordt er een afzonderlijke controlerecord gegenereerd om de nieuwe context bij te houden. Toegangspogingen worden, afhankelijk van de context waarin de activiteit heeft plaatsgevonden, gesorteerd in de afzonderlijke controlerecords.
 

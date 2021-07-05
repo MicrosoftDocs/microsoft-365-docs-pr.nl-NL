@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Gebruik bewaarbeleid om de inhoud die gebruikers genereren met e-mail, documenten en gesprekken efficiënt te beheren. Behoud wat u wilt en verwijder wat u niet wilt.
-ms.openlocfilehash: 3e5fec9117a0ce63b80b700c8771cf092b44a69e
-ms.sourcegitcommit: 5866e45a6a4e90c661e8f90c91550a9872b68e03
+ms.openlocfilehash: a9b348d51f147d5f228e6dbb643b7bedd2eb8c8e
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/28/2021
-ms.locfileid: "53169590"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256529"
 ---
 # <a name="create-and-configure-retention-policies"></a>Bewaarbeleid maken en configureren
 
@@ -70,13 +70,14 @@ Zie [De principes van bewaren of wat heeft prioriteit?](retention.md#the-princip
 
 2. Selecteer **Nieuw bewaarbeleid** om de wizard Bewaarbeleid maken te starten en geef uw nieuwe bewaarbeleid een naam.
 
-3. Voor de pagina **Locaties kiezen om het beleid op toe te passen** selecteert u een of beide locaties voor Teams: **Teams-kanaalberichten** en **Teams-chats**.
-
-   Bij **Teams-kanaalberichten** zijn berichten van standaardkanalen opgenomen, maar niet van [privékanalen](/microsoftteams/private-channels). Momenteel worden privékanalen niet ondersteund door bewaarbeleid.
-
+3. Selecteer op de pagina **Kies locaties om het beleid toe te passen** een of alle locaties voor Teams:
+    - **Teams-kanaalbericht**: berichten van standaard kanaalchats en standaard kanaalvergaderingen, maar niet van [privékanalen](/microsoftteams/private-channels) met een eigen beleidslocatie.
+    - **Teamchats**: berichten van privé 1:1-chats, groepschats en vergaderingchats.
+    - **Teams privékanaalberichten**: berichten van privékanaalchats en privékanaalvergaderingen. Deze optie wordt momenteel uitgerold in preview en als u deze niet ziet verschijnen, probeer het dan over een paar dagen opnieuw.
+    
    Standaard [worden alle teams en alle gebruikers geselecteerd](#a-policy-that-applies-to-entire-locations), maar u kunt dit verfijnen door de opties [ **Kiezen** en **Uitsluiten** te selecteren](#a-policy-with-specific-inclusions-or-exclusions). Voordat u de standaard wijzigt, moet u echter rekening houden met de volgende gevolgen voor een bewaarbeleid waarin berichten worden verwijderd wanneer deze zijn geconfigureerd voor omvat of uitgesloten:
     
-    - Voor groepschats, omdat een kopie van berichten wordt opgeslagen in het postvak van elke gebruiker die in de chat is opgenomen, blijven kopieën van berichten worden geretourneerd in eDiscovery-resultaten van gebruikers aan wie het beleid niet is toegewezen.
+    - Voor groepschatberichten en privékanaalberichten, omdat een kopie van berichten wordt opgeslagen in het postvak van elke gebruiker die is opgenomen in de chat, blijven er kopieën van berichten worden geretourneerd in eDiscovery-resultaten van gebruikers aan wie het beleid niet is toegewezen.
     - Voor gebruikers aan wie het beleid niet is toegewezen, worden verwijderde berichten geretourneerd in de zoekresultaten van Teams, maar wordt de inhoud van het bericht niet weergegeven als gevolg van de permanente verwijdering van het beleid dat is toegewezen aan gebruikers.
 
 4. Voor de pagina **Beslissen of uw inhoud wilt bewaren, verwijderen of beide** van de wizard, specificeert u de configuratieopties voor het bewaren en verwijderen van inhoud.
@@ -182,11 +183,15 @@ Gebruik de volgende instructies voor bewaarbeleid dat van toepassing is op een v
 
 #### <a name="configuration-information-for-exchange-email-and-exchange-public-folders"></a>Configuratiegegevens voor Exchange-e-mail en openbare Exchange-mappen
 
-De locatie **Exchange-e-mail** ondersteunt bewaarbeleid voor e-mail, agenda's en andere postvakitems voor gebruikers door bewaarinstellingen toe te passen op het niveau van een postvak.
+De locatie **Exchange-e-mail** ondersteunt bewaarbeleid voor e-mail, agenda's en andere postvakitems voor gebruikers door bewaarinstellingen toe te passen op het niveau van een postvak. Gedeelde postvakken worden ook ondersteund.
 
-Zie [Wat is opgenomen voor bewaren en verwijderen?](retention-policies-exchange.md#whats-included-for-retention-and-deletion) voor meer informatie over welke items zijn opgenomen en uitgesloten wanneer u bewaarinstellingen configureert voor Exchange.
+Wanneer u de bewaarinstellingen toepast op **Alle geadresseerden**, worden alle [inactieve postvakken](create-and-manage-inactive-mailboxes.md) opgenomen. Als u deze standaardinstelling echter wijzigt en [specifieke opnames of uitsluitingen](#a-policy-with-specific-inclusions-or-exclusions) configureert, worden inactieve mailboxen niet ondersteund en worden bewaarinstellingen niet toegepast of uitgesloten voor die mailboxen.
 
-Let op, ook al heeft een Microsoft 365-groep een Exchange-postvak, bewaarbeleid dat de volledige **Exchange-e-mail** locatie omvat, omvat geen inhoud in Microsoft 365-groepspostvakken. Om inhoud in deze postvakken te bewaren, selecteert u de locatie **Microsoft 365 Groepen**.
+Bovendien worden resourcepostvakken en Microsoft 365-groepspostvakken niet ondersteund voor de standaardinstelling **Alle ontvangers** of voor specifieke in- of uitsluitingen. Selecteer voor Microsoft 365-groepspostvakken in plaats daarvan de **Microsoft 365 Groepen**-locatie.
+
+Als u ontvangers kiest die u wilt opnemen of uitsluiten, kunt u distributiegroepen en beveiligingsgroepen met e-mail selecteren. Achter de schermen worden deze groepen bij de configuratie automatisch uitgebreid om de mailboxen van de gebruikers in de groep te selecteren. Als het lidmaatschap van die groepen later verandert, wordt een bestaand bewaarbeleid niet automatisch bijgewerkt.
+
+Raadpleeg [Wat is inbegrepen voor bewaren en verwijderen](retention-policies-exchange.md#whats-included-for-retention-and-deletion) voor gedetailleerde informatie over welke postvakitems worden opgenomen en uitgesloten wanneer u bewaarinstellingen voor Exchange configureert.
 
 De locatie **Openbare Exchange-mappen** past bewaarinstellingen toe op alle openbare mappen en kan niet worden toegepast op de het map- of postvakniveau.
 

@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 - BCS160
 description: Informatie over het gebruik van het IP-adres en de URL-webservice van Office 365 om u te helpen bij het beter identificeren en onderscheiden van het netwerkverkeer van Office 365.
-ms.openlocfilehash: 1948491e1d3db724e7b7b6a5275234acab4be08a
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 0469070ed6d46b7695526697c255e23c0dc009ec
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50918952"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286415"
 ---
 # <a name="office-365-ip-address-and-url-web-service"></a>IP-adres en URL-webservice van Office 365
 
@@ -66,13 +66,13 @@ De volgende parameters worden veel gebruikt in alle webservicemethoden:
 - **format=<JSON | CSV>** — De standaardindeling van de geretourneerde gegevens is JSON. Gebruik deze optionele parameter als u de gegevens in een indeling met door komma's gescheiden waarden wilt hebben.
 - **ClientRequestId=\<guid>** — Een verplichte GUID die u genereert voor clientkoppeling. Genereer een unieke GUID voor elke computer waarmee de webservice wordt aangeroepen (de scripts op deze pagina genereren een GUID voor u). Gebruik niet de GUID's uit het volgende voorbeeld. Deze kunnen in de toekomst door de webservice worden geblokkeerd. De indeling van de GUID is _xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx_, waarin de x voor een hexadecimaal getal staat.
 
-  Als u een GUID wilt genereren, kunt u gebruikmaken van de opdracht [New-GUID](/powershell/module/microsoft.powershell.utility/new-guid?view=powershell-6) PowerShell of een online service zoals [Online GUID Generator](https://www.guidgenerator.com/).
+  Als u een GUID wilt genereren, kunt u gebruikmaken van de opdracht [New-GUID](/powershell/module/microsoft.powershell.utility/new-guid) PowerShell of een online service zoals [Online GUID Generator](https://www.guidgenerator.com/).
 
 ## <a name="version-web-method"></a>Versiewebmethode
 
 Microsoft werkt het IP-adres en de FQDN-vermeldingen van Office 365 aan het begin van elke maand bij. Er worden soms out-of-band updates gepubliceerd vanwege ondersteuningsincidenten, beveiligingsupdates of andere operationele vereisten.
 
-Aan de gegevens voor elk gepubliceerd exemplaar wordt een versienummer toegewezen en met de versiewebmethode kunt u controleren op de meest recente versie van elk service-exemplaar van Office 365. U wordt aangeraden de versie niet meer dan één keer per uur te controleren.
+Aan de gegevens voor elk gepubliceerd exemplaar wordt een versienummer toegewezen en met de versiewebmethode kunt u controleren op de nieuwste versie van elk Office 365-service-exemplaar. We raden u aan de versie niet vaker dan één keer per uur te controleren.
 
 Parameters voor de versiewebmethode zijn:
 
@@ -157,7 +157,7 @@ Met deze URI worden alle vorige versies getoond die voor het Office 365 Worldwid
 
 Voorbeeld 5 URI voor RSS-feed: [https://endpoints.office.com/version/worldwide?clientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7&allVersions=true&format=RSS](https://endpoints.office.com/version/worldwide?clientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7&allVersions=true&format=RSS)
 
-Met deze URI wordt een RSS-feed weergegeven van de gepubliceerde versies die koppelingen bevatten naar de lijst met wijzigingen voor elke versie. Resultaat van voorbeeld:
+Deze URI toont een RSS-feed van de gepubliceerde versies met links naar de lijst met wijzigingen voor elke versie. Voorbeeld resultaat:
 
 ```xml
 <?xml version="1.0" encoding="ISO-8859-1"?>
@@ -187,18 +187,18 @@ Parameters voor de eindpuntenwebmethode zijn:
 
 Als u de eindpuntenwebmethode te vaak oproept van hetzelfde IP-adres van de client, ontvangt u mogelijk de HTTP-antwoordcode _429 (te veel aanvragen)_. Als u deze antwoordcode krijgt, wacht u 1 uur voordat u de aanvraag herhaalt of genereert u een nieuwe GUID voor de aanvraag. Over het algemeen kunt u het beste de eindpuntenwebmethode pas opnieuw aanroepen wanneer de versiewebmethode aangeeft dat er een nieuwe versie van de gegevens beschikbaar is.
 
-Het resultaat van de eindpuntenwebmethode bestaat uit een matrix met records, waarbij elke record een specifieke eindpuntenset voorstelt. De elementen van elke record zijn:
+Het resultaat van de endpoints-webmethode is een array van records waarin elk record een specifieke endpointset vertegenwoordigt. De elementen voor elk record zijn:
 
 - id - Het onveranderlijke id-nummer van de eindpuntenset.
 - serviceArea — Het servicegebied waar dit deel van uitmaakt: _Common_, _Exchange_, _SharePoint_ of _Skype_.
 - urls: URL's voor de eindpuntenset. Een JSON-matrix van DNS-records. Dit argument wordt weggelaten indien leeg.
 - tcpPorts — TCP-poorten voor de eindpuntenset. Alle poortelementen worden ingedeeld als een door komma's gescheiden lijst met poorten of poortbereiken die door een streepje (-) worden gescheiden. Poorten zijn van toepassing op alle IP-adressen en alle URL's in die eindpuntenset voor een bepaalde categorie. Dit argument wordt weggelaten indien leeg.
-- udpPorts - UDP-poorten voor de IP-adresbereiken in deze eindpuntenset. Dit argument wordt weggelaten indien leeg.
+- udpPorts — UDP-poorten voor de IP-adresbereiken in deze eindpuntset. Weggelaten indien leeg.
 - ips - De IP-adresbereiken die zijn gekoppeld aan deze eindpuntenset zoals gekoppeld aan de vermelde TCP- of UDP-poorten. Een JSON-matrix met IP-adresbereiken. Dit argument wordt weggelaten indien leeg.
 - category - De verbindingscategorie voor de eindpuntenset. Geldige waarden zijn _Optimaliseren_, _Toestaan_ en _Standaard_. Als u de uitvoer van de eindpuntenwebmethode zoekt voor de categorie van een specifiek IP-adres of -URL, is het mogelijk dat uw query meerdere categorieën retourneert. Volg in dat geval de aanbeveling voor de categorie met de hoogste prioriteit. Als het eindpunt bijvoorbeeld wordt weergegeven in zowel _Optimaliseren_ als _Toestaan_, volgt u de vereisten voor _Optimaliseren_. Vereist.
 - expressRoute — _True_ als deze eindpuntenset via ExpressRoute wordt gerouteerd, _False_ als dit niet het geval is.
 - required — _True_ als deze eindpuntenset moet zijn verbonden om ondersteuning van Office 365 mogelijk te maken. _False_ als deze eindpunt serie optioneel is.
-- notes - Voor optionele eindpunten beschrijft deze tekst de Office 365-functionaliteit die niet beschikbaar is als IP-adressen of URL‘s in deze eindpuntenset niet kunnen worden bereikt in de netwerklaag. Dit argument wordt weggelaten indien leeg.
+- opmerkingen — Voor optionele eindpunten beschrijft deze tekst Office 365-functionaliteit die niet beschikbaar zou zijn als IP-adressen of URL's in deze eindpuntset niet toegankelijk zijn op de netwerklaag. Weggelaten indien leeg.
 
 ### <a name="examples"></a>Voorbeelden:
 
@@ -254,7 +254,7 @@ De vereiste parameter voor de wijzigingenwebmethode is:
 
 De wijzigingenwebmethode is op dezelfde manier beperkt als de eindpuntenwebmethode. Als u een 429 HTTP-antwoordcode krijgt, wacht u 1 uur voordat u de aanvraag herhaalt of genereert u een nieuwe GUID voor de aanvraag.
 
-Het resultaat van de wijzigingenwebmethode is een matrix met records, waarbij elke record een wijziging voorstelt in een bepaalde versie van de eindpunten. De elementen van elke record zijn:
+Het resultaat van de changes web-methode is een array van records waarin elk record een wijziging in een specifieke versie van de eindpunten vertegenwoordigt. De elementen voor elk record zijn:
 
 - id - De onveranderlijke id van de wijzigingenrecord.
 - endpointSetId - De id van de eindpuntensetrecord die is gewijzigd.

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Lees meer over bewaarbeleid dat van toepassing is op Microsoft Teams.
-ms.openlocfilehash: 908c6a1482761815995330b71f0d2d2f96677b64
-ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
+ms.openlocfilehash: b459665d9b92705bd575a7a79a4d4d6adc2a3f68
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52908267"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256313"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Meer informatie over retentie voor Microsoft Teams
 
@@ -44,8 +44,10 @@ Zie voor andere workloads:
 ## <a name="whats-included-for-retention-and-deletion"></a>Wat is inbegrepen voor retentie en verwijdering
 
 Teams kunnen chatberichten en kanaalberichten verwijderen met behulp van bewaarbeleid voor Teams. Naast de tekst in de berichten kunnen de volgende items vanwege nalevingsredenen worden bewaard: ingesloten afbeeldingen, tabellen, hypertekstkoppelingen, koppelingen naar andere berichten en bestanden in Teams, en [inhoud van kaarten](/microsoftteams/platform/task-modules-and-cards/what-are-cards). Chatberichten bevatten alle namen van de personen in de chat en kanaalberichten bevatten de teamnaam en de berichttitel (indien opgegeven). 
+> [!NOTE]
+> Ondersteuning voor berichten in privékanalen wordt momenteel in preview uitgerold.
 
-Berichten van teams in privékanalen worden momenteel niet ondersteund voor bewaarbeleid. Codefragmenten, opgenomen gesproken memo's van de mobiele Teams-client, miniaturen, aankondigingsafbeeldingen en reacties van anderen in de vorm van emoticons blijven niet behouden wanneer u bewaarbeleid voor Teams gebruikt.
+Codefragmenten, opgenomen gesproken memo's van de mobiele Teams-client, miniaturen, aankondigingsafbeeldingen en reacties van anderen in de vorm van emoticons blijven niet behouden wanneer u bewaarbeleid voor Teams gebruikt.
 
 E-mailberichten en bestanden die u gebruikt in Teams zijn niet opgenomen in bewaarbeleid voor Teams. Deze items hebben hun eigen bewaarbeleid.
 
@@ -59,7 +61,7 @@ Deze postvakken worden weergegeven aan de hand van het kenmerk RecipientTypeDeta
 
 - **UserMailbox**: in deze postvakken worden berichtgegevens opgeslagen voor gebruikers van Teams in de cloud.
 - **MailUser**: in deze postvakken worden berichtgegevens opgeslagen voor [on-premises Teams-gebruikers](search-cloud-based-mailboxes-for-on-premises-users.md).
-- **GroupMailbox**: in deze postvakken worden berichtgegevens voor Teams-kanalen opgeslagen.
+- **GroupMailbox**: in deze postvakken worden berichtgegevens voor standaard Teams-kanalen opgeslagen.
 
 Andere postvakken, zoals RoomMailbox, die wordt gebruikt voor vergaderruimten in Teams, worden niet ondersteund voor bewaarbeleid van Teams.
 
