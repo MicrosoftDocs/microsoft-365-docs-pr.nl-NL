@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 758befc4-0888-4009-9f14-0d147402fd23
 description: Meld u met beheerdersmachtigingen aan bij het Microsoft 365-beheercentrum voor het instellen van uw organisatie in de cloud en het beheren van gebruikers en abonnementen.
-ms.openlocfilehash: b7ad483ccfe21ac38edc7db735bccee49b937b6b
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 451d23afd56cb3ae7099c661f99265efe59d6f85
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53228349"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286235"
 ---
 # <a name="about-the-microsoft-365-admin-center"></a>Over het Microsoft 365-beheercentrum
 
@@ -55,22 +55,27 @@ Als u deze video nuttig vond, raadpleegt u dan de [complete training voor kleine
 
 ## <a name="admin-center-features-and-settings"></a>Functies en instellingen van het beheercentrum
 
-Hier vindt u de functies en instellingen die in het linkernavigatievenster van het beheercentrum te vinden zijn. Lees meer informatie over beheertaken in [hulp voor beheerders](../../business-video/admin-center-overview.md).
-  
-| Menu | Doel |
+Hier vindt u de functies en instellingen die u vindt in het linkernavigatievenster van het beheercentrum. Lees meer informatie over beheertaken in [Help voor beheerders](../../business-video/admin-center-overview.md).
+
+<br>
+
+****
+
+|Menu|Doel|
 |-----|-----|
-|**Start** <br/> |Dit is de openingspagina in het beheercentrum. Hier ziet u waar u gebruikers, facturering, servicestatus en rapporten kunt beheren.  <br/> |
-|**Gebruikers** <br/> |Maak en beheer gebruikers in uw organisatie, zoals werknemers of leerlingen/studenten. U kunt ook hun machtigingsniveau instellen of hun wachtwoord opnieuw instellen.    <br/> |
-|**Groepen** <br/> |U kunt groepen in uw organisatie, zoals een Microsoft 365-groep, distributiegroep, beveiligingsgroep, of gedeeld postvak, maken en beheren. Meer informatie over het [maken](../create-groups/create-groups.md) en [beheren](../create-groups/manage-groups.md) van groepen.<br/> |
-|**Resources** <br/> |U kunt resources, zoals een SharePoint-siteverzameling, maken en beheren. Lees hier hoe u [siteverzamelingen maakt](/sharepoint/create-site-collection).  <br/> |
-|**Facturering** <br/> |Bekijk, koop of annuleer abonnementen voor uw organisatie. Bekijk oude facturen of het aantal licenties dat aan afzonderlijke gebruikers is toegewezen. Leer hoe u [facturering beheert](../../commerce/index.yml).  <br/> |
-|**Ondersteuning** <br/> | Bekijk bestaande serviceaanvragen of maak nieuwe. Zie voor meer informatie [Contact opnemen met ondersteuning voor zakelijke producten - Hulp voor Beheerders](../../business-video/get-help-support.md). |
-|**Instellingen** <br/> |Beheer algemene instellingen voor apps, zoals e-mail, sites en de Office-suite. Wijzig het beleid en de vervaldatum voor uw wachtwoord. U kunt domeinnamen, zoals contoso.com, toevoegen en bijwerken. U kunt uw organisatieprofiel en de releasevoorkeuren wijzigen. En kies of partners toegang hebben tot uw beheercentrum.  <br/> |
-|**Installatie** <br/> |Bestaande domeinen beheren, meervoudige verificatie inschakelen en beheren, beheerderstoegang beheren, postvakken van gebruikers migreren naar Office 365, functie-updates beheren en gebruikers helpen hun Office-apps te installeren. |
-|**Rapporten** <br/> |U ziet in één oogopslag hoe uw organisatie gebruikmaakt van Microsoft 365, met gedetailleerde rapporten over onder andere e-mailgebruik en Office-activeringen. Lees hier hoe u de nieuwe [activiteitenoverzichten](../activity-reports/activity-reports.md) gebruikt.  <br/> |
-|**Status** <br/> |Bekijk in één oogopslag de status. U kunt ook meer informatie weergeven en de geschiedenis van de status bekijken. Zie [Servicestatus controleren](../../enterprise/view-service-health.md) en [Status van Windows-release controleren](/windows/deployment/update/check-release-health) voor meer informatie.  <br/><br/>Gebruik Berichtencentrum om toekomstige wijzigingen in functies en services bij te houden. We posten er aankondigingen met informatie, op basis waarvan u planningen kunt maken voor wijzigingen en inzicht krijgt in hoe deze mogelijk van invloed zijn op gebruikers. Meer informatie vindt u in [Berichtencentrum](../manage/message-center.md). <br/> |
-|**Beheercentra** <br/> |Open afzonderlijke beheercentra voor Exchange, Skype voor Bedrijven, SharePoint, Yammer en Azure AD. Elk beheercentrum bevat alle beschikbare instellingen voor deze service.  <br/> In het Exchange-beheercentrum kunt u bijvoorbeeld e-mail, agenda's, distributiegroepen en meer instellen en beheren. In het SharePoint-beheercentrum kunt u siteverzamelingen, site-instellingen en OneDrive voor Bedrijven maken en beheren. In het Skype voor Bedrijven-beheercentrum kunt u chatmeldingen, inbelvergaderingen, onlineaanwezigheid instellen.  <br/> Lees meer over het [Exchange-beheercentrum](/exchange/exchange-admin-center) en [SharePoint-beheercentrum](/sharepoint/sharepoint-online).<br/> **Opmerking:** De beheercentra, die voor u beschikbaar zijn, worden bepaald door uw abonnement en regio.           |
-   
+|**Start**|Dit is de openingspagina in het beheercentrum. Hier ziet u waar u gebruikers, facturering, servicestatus en rapporten kunt beheren.|
+|**Gebruikers**|Maak en beheer gebruikers in uw organisatie, zoals werknemers of leerlingen/studenten. U kunt ook hun machtigingsniveau instellen of hun wachtwoord opnieuw instellen.  |
+|**Groepen**|U kunt groepen in uw organisatie, zoals een Microsoft 365-groep, distributiegroep, beveiligingsgroep, of gedeeld postvak, maken en beheren. Meer informatie over het [maken](../create-groups/create-groups.md) en [beheren](../create-groups/manage-groups.md) van groepen.|
+|**Resources**|U kunt resources, zoals een SharePoint-siteverzameling, maken en beheren. Lees hier hoe u [siteverzamelingen maakt](/sharepoint/create-site-collection).|
+|**Facturering**|Bekijk, koop of annuleer abonnementen voor uw organisatie. Bekijk oude facturen of het aantal licenties dat aan afzonderlijke gebruikers is toegewezen. Leer hoe u [facturering beheert](../../commerce/index.yml).  |
+|**Ondersteuning**|Bekijk bestaande serviceaanvragen of maak nieuwe. Zie voor meer informatie [Contact opnemen met ondersteuning voor zakelijke producten - Hulp voor Beheerders](../../business-video/get-help-support.md).|
+|**Instellingen**|Beheer algemene instellingen voor apps, zoals e-mail, sites en de Office-suite. Wijzig het beleid en de vervaldatum voor uw wachtwoord. U kunt domeinnamen, zoals contoso.com, toevoegen en bijwerken. U kunt uw organisatieprofiel en de releasevoorkeuren wijzigen. En kies of partners toegang hebben tot uw beheercentrum.|
+|**Installatie**|Bestaande domeinen beheren, meervoudige verificatie inschakelen en beheren, beheerderstoegang beheren, postvakken van gebruikers migreren naar Office 365, functie-updates beheren en gebruikers helpen hun Office-apps te installeren.|
+|**Rapporten**|U ziet in één oogopslag hoe uw organisatie gebruikmaakt van Microsoft 365, met gedetailleerde rapporten over onder andere e-mailgebruik en Office-activeringen. Lees hier hoe u de nieuwe [activiteitenoverzichten](../activity-reports/activity-reports.md) gebruikt.  |
+|**Status**|Bekijk in één oogopslag de status. U kunt ook meer informatie weergeven en de geschiedenis van de status bekijken. Zie [Servicestatus controleren](../../enterprise/view-service-health.md) en [Status van Windows-release controleren](/windows/deployment/update/check-release-health) voor meer informatie. <p>Gebruik Berichtencentrum om toekomstige wijzigingen in functies en services bij te houden. We posten er aankondigingen met informatie, op basis waarvan u planningen kunt maken voor wijzigingen en inzicht krijgt in hoe deze mogelijk van invloed zijn op gebruikers. Meer informatie vindt u in [Berichtencentrum](../manage/message-center.md).|
+|**Beheercentra**|Open afzonderlijke beheercentra voor Exchange, Skype voor Bedrijven, SharePoint, Yammer en Azure AD. Elk beheercentrum bevat alle beschikbare instellingen voor deze service.  <p> In het Exchange-beheercentrum kunt u bijvoorbeeld e-mail, agenda's, distributiegroepen en meer instellen en beheren. In het SharePoint-beheercentrum kunt u siteverzamelingen, site-instellingen en OneDrive voor Bedrijven maken en beheren. In het Skype voor Bedrijven-beheercentrum kunt u chatmeldingen, inbelvergaderingen, onlineaanwezigheid instellen.  <p> Lees meer over het [Exchange-beheercentrum](/exchange/exchange-admin-center) en [SharePoint-beheercentrum](/sharepoint/sharepoint-online). <p> **Opmerking:** De beheercentra, die voor u beschikbaar zijn, worden bepaald door uw abonnement en regio.|
+|
+
 ## <a name="common-tasks-in-the-admin-center"></a>Veelvoorkomende taken in het beheercentrum
 
 - Gebruikers beheren: [Tegelijkertijd gebruikers toevoegen en licenties toewijzen](../add-users/add-users.md), [Gebruikers verwijderen of herstellen](../add-users/delete-a-user.md) of [Wachtwoord van een gebruiker opnieuw instellen](../add-users/reset-passwords.md).

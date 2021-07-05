@@ -11,12 +11,12 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: Gebruik REST API om een toegepast model met documentbegrip te verwijderen uit een of meer bibliotheken.
-ms.openlocfilehash: e95c0583b1b0e2f5de08228afbf161c339544047
-ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
+ms.openlocfilehash: bbd3e496b50d3fddb31342fbc07d30984544e744
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53177235"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287451"
 ---
 # <a name="batchdelete"></a>BatchDelete
 
@@ -47,6 +47,7 @@ Geen
 |Publicaties|ja|MachineLearningPublicationEntityData[]|De verzameling MachineLearningPublicationEntityData die elk het model en de doeldocumentbibliotheek specificeert.|
 
 ### <a name="machinelearningpublicationentitydata"></a>MachineLearningPublicationEntityData
+
 | Naam | Vereist | Type | Omschrijving |
 |--------|-------|--------|------------|
 |ModelUniqueId|ja|reeks|De unieke id van het modelbestand.|
@@ -61,6 +62,7 @@ Geen
 |200 OK||Dit is een aangepaste API ter ondersteuning van het verwijderen van een model uit bibliotheken met meerdere documenten. In het geval van gedeeltelijk succes kan 200 OK nog steeds worden geretourneerd en moet de aanroeper de antwoordtekst inspecteren om te begrijpen of het model is verwijderd uit een documentbibliotheek.|
 
 ## <a name="response-body"></a>Antwoordtekst
+
 | Naam   | Type  | Omschrijving|
 |--------|-------|------------|
 |TotalSuccesses|int|Het totale aantal modellen dat uit een documentbibliotheek wordt verwijderd.|
@@ -68,6 +70,7 @@ Geen
 |Details|MachineLearningPublicationResult[]|De verzameling MachineLearningPublicationResult die elk het gedetailleerde resultaat specificeert van het verwijderen van het model uit een documentbibliotheek.|
 
 ### <a name="machinelearningpublicationresult"></a>MachineLearningPublicationResult
+
 | Naam   | Type  | Omschrijving|
 |--------|-------|------------|
 |Statuscode|int|De HTTP-statuscode.|
@@ -75,6 +78,7 @@ Geen
 |Publicatie|MachineLearningPublicationEntityData|Hiermee geeft u de modelgegevens en de doeldocumentbibliotheek op.| 
 
 ### <a name="machinelearningpublicationentitydata"></a>MachineLearningPublicationEntityData
+
 | Naam | Type | Omschrijving |
 |--------|--------|------------|
 |ModelUniqueId|reeks|De unieke id van het modelbestand.|
@@ -102,7 +106,6 @@ In dit voorbeeld is de id van het model voor documentbegrip van het Contoso Cont
     ] 
 } 
 ```
-
 
 #### <a name="sample-response"></a>Voorbeeldreactie
 

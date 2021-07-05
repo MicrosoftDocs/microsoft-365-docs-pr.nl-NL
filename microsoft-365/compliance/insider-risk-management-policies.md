@@ -14,7 +14,7 @@ audience: itpro
 ms.collection: m365-security-compliance
 ms.openlocfilehash: f64fcf4908f119e261b07bbc4feaed2151e30187
 ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 06/30/2021
 ms.locfileid: "53226429"
@@ -195,7 +195,7 @@ De status van het beleid geeft u inzicht in mogelijke problemen met uw insider-b
 
 Als er problemen zijn met een beleid, geeft de status van het beleid waarschuwingen en aanbevelingen weer om u te helpen actie te ondernemen om beleidsproblemen op te lossen. Deze meldingen kunnen u helpen de volgende problemen op te lossen:
 
-- Beleid met onvolledige configuratie. Deze problemen kunnen bestaan uit ontbrekende gebruikers of groepen in het beleid of andere onvolledige beleidsconfiguratiestappen.
+- Beleidsregels met onvolledige configuratie. Deze problemen kunnen bestaan uit ontbrekende gebruikers of groepen in het beleid of andere onvolledige beleidsconfiguratiestappen.
 - Beleid met configuratieproblemen voor indicatoren. Indicatoren zijn een belangrijk onderdeel van elk beleid. Als indicatoren niet zijn geconfigureerd of als er te weinig indicatoren zijn geselecteerd, worden risicovolle activiteiten mogelijk niet zoals verwacht geëvalueerd door het beleid.
 - Beleidstriggers werken niet of de vereisten voor beleids triggers zijn niet correct geconfigureerd. Beleidsfunctionaliteit kan afhankelijk zijn van andere services of configuratievereisten om activerende gebeurtenissen effectief te detecteren om risicoscore-toewijzing aan gebruikers in het beleid te activeren. Deze afhankelijkheden kunnen problemen omvatten met de configuratie van connectors, het delen van waarschuwingen voor Microsoft Defender voor Eindpunt of beleidsinstellingen voor preventie van gegevensverlies.
 - Volumelimieten naderen of worden overschreden. Insider-beleid voor risicobeheer maakt gebruik van een groot aantal Microsoft 365-services en -eindpunten om risicoactiviteitssignalen samen te stellen. Afhankelijk van het aantal gebruikers in uw beleid kunnen volumelimieten de identificatie en rapportage van risicoactiviteiten vertragen. Meer informatie over deze limieten kunt u lezen in de sectie Beleidssjabloonlimieten van dit artikel.
@@ -214,8 +214,8 @@ In de volgende tabel vindt u meer informatie over aanbevelingen en waarschuwings
 
 |**Meldingsberichten**|**Beleidssjablonen**|**Oorzaken / Probeer deze actie om op te lossen**|
 |:------------------------|:-------------------|:---------------------------|
-| Beleid kent geen risicoscores toe aan activiteit. | Alle beleidssjablonen | Mogelijk wilt u het bereik van uw beleid herzien en de configuratie van gebeurtenissen zo activeren dat het beleid risicoscores kan toewijzen aan activiteiten <br><br> 1. Controleer de gebruikers die zijn geselecteerd voor het beleid. Als er slechts weinig gebruikers zijn geselecteerd, kunt u extra gebruikers selecteren. <br> 2. Als u een HR-connector gebruikt, controleert u of uw HR-connector de juiste gegevens verstuurt. <br> 3. Als u DLP-beleid gebruikt als triggeringsgebeurtenis, controleert u de configuratie van uw DLP-beleid om te controleren of dit is geconfigureerd voor gebruik in dit beleid. <br> 4. Voor beveiligingsovertredingsbeleid bekijkt u de meldingsstatus van Microsoft Defender voor eindpunt die is geselecteerd in Insider-risico-instellingen > intelligente detecties. Controleer of het waarschuwingsfilter niet te smal is. |
-| Het beleid heeft geen waarschuwingen gegenereerd. | Alle beleidssjablonen | Mogelijk wilt u uw beleidsconfiguratie bekijken, zodat u de score van de activiteit analyseert die voor u belangrijk is. <br><br> 1. Controleer of u indicatoren hebt geselecteerd die u als score wilt gebruiken. Hoe meer indicatoren zijn geselecteerd, hoe meer activiteiten risicoscores krijgen toegewezen. <br> 2. Controleer de drempelaanpassing voor beleid. Als de geselecteerde drempelwaarden niet in overeenstemming zijn met de risicotolerantie van uw organisatie, past u de selecties aan zodat waarschuwingen worden gemaakt op basis van de drempelwaarden van uw voorkeur. <br> 3. Controleer de gebruikers en groepen die zijn geselecteerd voor het beleid. Controleer of u alle toepasselijke gebruikers en groepen hebt geselecteerd. <br> 4. Bevestig bij beveiligingsovertredingsbeleid dat u de triagestatus hebt geselecteerd die u wilt gebruiken voor waarschuwingen van Microsoft Defender voor Eindpunt onder Intelligente detecties in instellingen.|
+| Beleid kent geen risicoscores toe aan activiteit. | Alle beleidssjablonen | Mogelijk wilt u het bereik van uw beleid herzien en de configuratie van gebeurtenissen zo activeren dat het beleid risicoscores kan toewijzen aan activiteiten <br><br> 1. Controleer de gebruikers die zijn geselecteerd voor het beleid. Als er slechts weinig gebruikers zijn geselecteerd, kunt u extra gebruikers selecteren. <br> 2. Als u een HR-connector gebruikt, controleert u of uw HR-connector de juiste gegevens verstuurt. <br> 3. Als u DLP-beleid gebruikt als triggeringsgebeurtenis, controleert u de configuratie van uw DLP-beleid om te controleren of dit is geconfigureerd voor gebruik in dit beleid. <br> 4. Voor beveiligingsovertredingsbeleid bekijkt u de meldingsstatus van Microsoft Defender voor eindpunt die is geselecteerd in Insider-risico-instellingen > intelligente detecties. Controleer of het waarschuwingsfilter niet te beperkend is ingesteld. |
+| Het beleid heeft geen waarschuwingen gegenereerd. | Alle beleidssjablonen | Mogelijk wilt u uw beleidsconfiguratie bekijken, zodat u de score van de activiteit analyseert die voor u belangrijk is. <br><br> 1. Controleer of u indicatoren hebt geselecteerd die u als score wilt gebruiken. Hoe meer indicatoren zijn geselecteerd, hoe meer activiteiten risicoscores krijgen toegewezen. <br> 2. Controleer de aanpassingen van de drempelwaarde voor beleid. Als de geselecteerde drempelwaarden niet in overeenstemming zijn met de risicotolerantie van uw organisatie, past u de selecties aan zodat waarschuwingen worden gemaakt op basis van de drempelwaarden van uw voorkeur. <br> 3. Controleer de gebruikers en groepen die zijn geselecteerd voor het beleid. Controleer of u alle toepasselijke gebruikers en groepen hebt geselecteerd. <br> 4. Bevestig bij beveiligingsovertredingsbeleid dat u de triagestatus hebt geselecteerd die u wilt gebruiken voor waarschuwingen van Microsoft Defender voor Eindpunt onder Intelligente detecties in instellingen.|
 | Er zijn geen gebruikers of groepen in dit beleid opgenomen. | Alle beleidssjablonen | Gebruikers of groepen worden niet toegewezen aan het beleid. <br><br> Bewerk uw beleid en selecteer gebruikers of groepen voor het beleid. |
 | Er zijn geen indicatoren geselecteerd voor dit beleid. | Alle beleidssjablonen | Er zijn geen indicatoren geselecteerd voor dit beleid. <br><br> Bewerk uw beleid en selecteer de juiste beleidsindicatoren voor het beleid. |
 | Er zijn geen gebruikersgroepen met prioriteit opgenomen in dit beleid. | - Gegevenslekken per gebruiker met prioriteit <br> - Schendingen van beveiligingsbeleid door gebruikers met een prioriteit | Gebruikers of groepen worden niet toegewezen aan het beleid. <br><br> Configureer prioritaire gebruikersgroepen in Insider-instellingen voor risicobeheer en wijs prioritaire gebruikersgroepen toe aan het beleid. |
@@ -243,10 +243,10 @@ Gebruik de volgende tabel om het maximum aantal gebruikers in het bereik te bepa
 |:------------------|:--------------------------------|
 | Algemene gegevenslekken | 15.000 |
 | Gegevenslekken door ontevreden gebruikers | 7.500 |
-| Gegevenslekken per gebruiker met prioriteit | 1,000 |
+| Gegevenslekken per gebruiker met prioriteit | 1000 |
 | Gegevensdiefstal door vertrekkende gebruikers | 20.000 |
-| Algemene schendingen beveiligingsbeleid | 1,000 |
-| Schendingen van beveiligingsbeleid door gebruikers met een prioriteit | 1,000 |
+| Algemene schendingen beveiligingsbeleid | 1000 |
+| Schendingen van beveiligingsbeleid door gebruikers met een prioriteit | 1000 |
 | Schendingen van beveiligingsbeleid door vertrekkende gebruikers | 15.000 |
 | Schendingen van het beveiligingsbeleid door een ontevreden gebruiker | 7.500 |
 

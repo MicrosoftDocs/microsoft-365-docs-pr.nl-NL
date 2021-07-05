@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0f54736f-eb22-414c-8273-498a0918678f
 description: Lees hoe een beheerder een wachtwoordverloopbeleid kan instellen voor uw bedrijf, school of non-profitorganisatie in het Microsoft 365-beheercentrum.
-ms.openlocfilehash: 7f12918211718b91313c0c89b11eaeb0a8cc3181
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: fdd219e4fc99e2388acb5b19eacb2fc470041f79
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635820"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286727"
 ---
 # <a name="set-the-password-expiration-policy-for-your-organization"></a>Het wachtwoordverloopbeleid voor uw organisatie instellen
 
@@ -36,7 +36,7 @@ ms.locfileid: "52635820"
 
 Dit artikel is bedoeld voor personen die het wachtwoordverloopbeleid voor een bedrijf, school of non-profitorganisatie opstellen. Voor het uitvoeren van deze stappen moet u zich aanmelden met uw Microsoft 365-beheerdersaccount. [Wat is een beheerdersaccount?](../../business-video/admin-center-overview.md).
 
-Als beheerder kun je instellen dat gebruikerswachtwoorden na een bepaald aantal dagen verlopen of dat deze nooit verlopen. Wachtwoorden zijn standaard zo ingesteld dat ze nooit verlopen voor jouw organisatie.
+Als beheerder kunt u instellen dat gebruikerswachtwoorden na een bepaald aantal dagen verlopen of dat deze nooit verlopen. De standaardinstelling is dat wachtwoorden nooit verlopen voor uw organisatie.
 
 Recent onderzoek geeft sterk aan dat verplichte wachtwoordwijzigingen meer kwaad dan goed doen. Gebruikers kiezen dan voor zwakkere wachtwoorden, hergebruik van wachtwoorden of ze werken oude wachtwoorden bij op een manier die eenvoudig te raden is voor hackers. Het is raadzaam om [meervoudige verificatie](../security-and-compliance/set-up-multi-factor-authentication.md) in te stellen. Voor meer informatie over wachtwoordbeleid raadpleegt u [Aanbevelingen voor wachtwoordbeleid](../misc/password-policy-recommendations.md).
 
@@ -57,7 +57,7 @@ Volg onderstaande stappen als u wilt instellen dat gebruikerswachtwoorden na een
   
 4. Als u niet wilt dat gebruikers hun wachtwoorden moeten wijzigen, deselecteert u het selectievakje naast **Gebruikerswachtwoorden instellen om na een aantal dagen te verlopen**.
   
-5. Geef op hoe vaak wachtwoorden moeten verlopen. Kies een aantal dagen tussen 14 en 730.
+5. Typ hoe vaak wachtwoorden moeten verlopen. Kies een aantal dagen tussen de 14 en 730.
   
 6. Geef in het tweede vak op wanneer gebruikers een melding ontvangen over het verlopen van het wachtwoord en selecteer vervolgens **Opslaan**. Kies een aantal dagen tussen 1 en 30.
   
@@ -85,9 +85,10 @@ U kunt meer wachtwoordbeleidsregels en beperkingen in Azure Active Directory ins
 
 De cmdlet Set-MsolPasswordPolicy werkt het wachtwoordbeleid bij van een opgegeven domein of tenant. Er zijn twee instellingen vereist; de eerste is om aan te geven hoe lang een wachtwoord geldig mag blijven voordat het moet worden gewijzigd en de tweede is om het aantal dagen aan te geven tot de verloopdatum van het wachtwoord, wat de eerste melding activeert die gebruikers ontvangen en hen vertelt dat het wachtwoord binnenkort vervalt.
 
-Voor meer informatie over het bijwerken van wachtwoordbeleid voor een specifiek domein of tenant, raadpleegt u [Set-MsolPasswordPolicy](/powershell/module/msonline/set-msolpasswordpolicy?view=azureadps-1.0).
+Voor meer informatie over het bijwerken van wachtwoordbeleid voor een specifiek domein of tenant, raadpleegt u [Set-MsolPasswordPolicy](/powershell/module/msonline/set-msolpasswordpolicy).
 
 ## <a name="related-content"></a>Verwante onderwerpen
 
 [Gebruikers toestaan hun eigen wachtwoord opnieuw in te stellen](../add-users/let-users-reset-passwords.md) (artikel)\
+
 [Wachtwoorden opnieuw instellen](../add-users/reset-passwords.md) (artikel)

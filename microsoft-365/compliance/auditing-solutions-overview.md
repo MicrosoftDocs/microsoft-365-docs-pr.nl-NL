@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 description: Informatie over het controleren van de activiteiten van gebruikers en beheerders in uw Microsoft 365-organisatie.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d8686a2cd7b1fc6e9082e85b18ba352c1fd7f830
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: d4a753a640b98125bc6ad02bd6043f28336e29b7
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538501"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256757"
 ---
 # <a name="auditing-solutions-in-microsoft-365"></a>Controleoplossingen in Microsoft 365
 
@@ -165,4 +165,4 @@ Zie voor meer gedetailleerde instructies [Eenvoudige audit instellen](set-up-adv
 
 ## <a name="training"></a>Training
 
-Door uw team voor beveiligingsactiviteiten, IT-beheerders en nalevingsonderzoekers te trainen in eenvoudige audits en geavanceerde audits, kan uw organisatie sneller aan de slag gaan met audits om u te helpen bij uw onderzoeken. Microsoft 365 biedt de volgende informatiebron om deze gebruikers in uw organisatie te helpen aan de slag te gaan met auditing: [Beschrijf de auditmogelijkheden in Microsoft 365](/learn/modules/describe-audit-capabilities-microsoft-365).
+Door uw team voor beveiligingsactiviteiten, IT-beheerders en nalevingsonderzoekers te trainen in de basisprincipes van eenvoudige audits en geavanceerde audits, kan uw organisatie sneller aan de slag gaan met audits om u te helpen bij uw onderzoeken. Microsoft 365 biedt de volgende informatiebron om deze gebruikers in uw organisatie te helpen aan de slag te gaan met auditing: [Beschrijf de eDiscovery- en auditmogelijkheden van Microsoft 365](/learn/modules/describe-ediscovery-capabilities-of-microsoft-365).

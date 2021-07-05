@@ -11,12 +11,12 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: Gebruik REST API om een model met documentbegrip toe te passen op een of meer bibliotheken.
-ms.openlocfilehash: 24ea9a480bc3ce5a7745857de17a6fab6ed97685
-ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
+ms.openlocfilehash: 04f1dfdb0c16110c9ba7de12f5f0735d498d50cf
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53177259"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286535"
 ---
 # <a name="batch-apply-model"></a>Model Batch toepassen
 
@@ -48,6 +48,7 @@ Geen
 |Publicaties|ja|MachineLearningPublicationEntityData[]|De verzameling MachineLearningPublicationEntityData die elk het model en de doeldocumentbibliotheek specificeert.|
 
 ### <a name="machinelearningpublicationentitydata"></a>MachineLearningPublicationEntityData
+
 | Naam | Vereist | Type | Omschrijving |
 |--------|-------|--------|------------|
 |ModelUniqueId|ja|reeks|De unieke id van het modelbestand.|
@@ -63,6 +64,7 @@ Geen
 |201 gemaakt||Dit is een aangepaste API ter ondersteuning van het toepassen van een model op bibliotheken met meerdere documenten. In het geval van gedeeltelijk succes kan 201 gemaakt nog steeds worden geretourneerd en moet de aanroeper de antwoordtekst inspecteren om te begrijpen of het model is toegepast op een documentbibliotheek.|
 
 ## <a name="response-body"></a>Antwoordtekst
+
 | Naam   | Type  | Omschrijving|
 |--------|-------|------------|
 |TotalSuccesses|int|Het totale aantal modellen dat wordt toegepast op een documentbibliotheek.|
@@ -70,6 +72,7 @@ Geen
 |Details|MachineLearningPublicationResult[]|De verzameling MachineLearningPublicationResult die elk het gedetailleerde resultaat specificeert van het toepassen van het model op de documentbibliotheek.|
 
 ### <a name="machinelearningpublicationresult"></a>MachineLearningPublicationResult
+
 | Naam   | Type  | Omschrijving|
 |--------|-------|------------|
 |Statuscode|int|De HTTP-statuscode.|
@@ -77,6 +80,7 @@ Geen
 |Publicatie|MachineLearningPublicationEntityData|Hiermee geeft u de modelgegevens en de doeldocumentbibliotheek op.| 
 
 ### <a name="machinelearningpublicationentitydata"></a>MachineLearningPublicationEntityData
+
 | Naam | Type | Omschrijving |
 |--------|--------|------------|
 |ModelUniqueId|reeks|De unieke id van het modelbestand.|
