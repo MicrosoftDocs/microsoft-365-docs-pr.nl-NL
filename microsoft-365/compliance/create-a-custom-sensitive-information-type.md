@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Informatie over het maken, wijzigen, verwijderen en testen van aangepaste gevoelige informatietypen voor DLP in het Beveiligings- & Compliancecentrum.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f346a32da6f47cadc0ded6d7d045a833bb3b60b0
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 0f65ba38c75cc1d9886cb4c3013d7f707912f72a
+ms.sourcegitcommit: 17d82e5617f0466eb825e15ab88594afcdaf4437
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53287537"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "53300391"
 ---
 # <a name="get-started-with-custom-sensitive-information-types"></a>Aan de slag met aangepaste typen vertrouwelijke informatie
 
@@ -186,7 +186,7 @@ Hier zijn de definities en enkele voorbeelden voor de beschikbare extra controle
 
 
 > [!NOTE]
-> Microsoft 365 Information Protection ondersteunt dubbele bytetekensettalen voor:
+> Microsoft 365 Information Protection ondersteunt dubbelbyte tekensettalen voor:
 > - Vereenvoudigd Chinees
 > - Traditioneel Chinees
 > - Koreaks
@@ -195,7 +195,12 @@ Hier zijn de definities en enkele voorbeelden voor de beschikbare extra controle
 >Deze ondersteuning is beschikbaar voor typen gevoelige informatie. Zie [Ondersteuning voor Information Protection voor releaseopmerkingen bij dubbel-bytetekensets (preview)](mip-dbcs-relnotes.md) voor meer informatie.
 
 > [!TIP]
-> Als u patronen wilt detecteren die Chinese/Japanse tekens en enkele bytetekens bevatten of om patronen te detecteren die Chinees/Japans en Engels bevatten, definieert u twee varianten van het trefwoord of regex. Gebruik bijvoorbeeld twee varianten van het trefwoord om een trefwoord zoals '机密een document' te detecteren. een met een spatie tussen de Japanse en Engelse tekst en een andere zonder spatie tussen de Japanse en Engelse tekst. De trefwoorden die in de SIT moeten worden toegevoegd, moeten dus '机密seen document' en '机密sedocument' zijn. Als u een woordgroep '東京オンンピンク2020' wilt detecteren, moeten twee varianten worden gebruikt. "東京オンンピンク 2020" en "東京オンンピンク2020".
-> Terwijl u een regex maakt met een afbreekstreester of een dubbele byteperiode, moet u beide tekens ontsnapen, zoals een afbreekstreester of punt in een regex. Hier is een voorbeeld regex voor verwijzing:
-    - (?<!\d) ([4][0-9] {3} [ \- ?\-\t]*[0-9]{4}
-> U wordt aangeraden een tekenreeks te gebruiken in plaats van een woordmatch in een lijst met trefwoorden.
+> Om patronen te detecteren die Chinese/Japanse karakters en enkelbyte karakters bevatten of om patronen te detecteren die Chinees/Japans en Engels bevatten, definieert u twee varianten van het trefwoord of de regex. 
+>
+> Om bijvoorbeeld een trefwoord als "机密的document" te detecteren, gebruikt u twee varianten van het trefwoord; een met een spatie tussen de Japanse en Engelse tekst en een andere zonder een spatie tussen de Japanse en Engelse tekst. De trefwoorden die in de SIT moeten worden toegevoegd, moeten dus "机密的 document" en "机密的document" zijn. Evenzo moeten twee varianten worden gebruikt om een zin "東京オリンピック2020" te detecteren; "東京オリンピック 2020" en "東京オリンピック2020".
+>
+> Zorg er bij het maken van een regex met een dubbelbyte-afbreekstreepje of een dubbele-byte-periode voor dat u beide tekens escaped, zoals een koppelteken of een punt in een regex. Hier is een voorbeeldregex ter referentie:
+>
+>    - (?<!\d)([４][０-９]{3}[\-?\－\t]*[０-９]{4}
+>
+> We raden u aan een tekenreeksovereenkomst te gebruiken in plaats van een woordovereenkomst in een zoekwoordenlijst.

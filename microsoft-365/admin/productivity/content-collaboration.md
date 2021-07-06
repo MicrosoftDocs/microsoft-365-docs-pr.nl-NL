@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 'Details van de samenwerking met inhoud: personen ervaren productiviteitsscore.'
-ms.openlocfilehash: cca218d15af98925bf61bbb314cfd4d35aa0711a
-ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
+ms.openlocfilehash: 2921cc738d1325416a0a5a8ab4a8eea9456b3269
+ms.sourcegitcommit: 17d82e5617f0466eb825e15ab88594afcdaf4437
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52779732"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "53300078"
 ---
 # <a name="content-collaboration--people-experiences"></a>Samenwerking met inhoud: ervaringen met personen
 
@@ -112,7 +112,7 @@ We bieden u ook informatie waarmee u inzicht krijgt in de manier waarop uw organ
 
 :::image type="content" source="../../media/sharepointonedrivefiles.jpg" alt-text="Grafiek met het aantal personen dat bestanden maakt in OneDrive of SharePoint":::
 
-1. **Koptekst:** Momenten percentage personen dat actief is Microsoft 365 Office toepassingen die bestanden maken op OneDrive of SharePoint.
+1. **Koptekst:** Belicht het percentage personen dat actief is Microsoft 365 Office toepassingen die bestanden maken op OneDrive of SharePoint.
 2. **Body:** Geeft informatie over de waarde van het maken van inhoud in OneDrive en SharePoint.
 3. **Visualisatie:** De uitsplitsing in de visualisatie geeft als volgt aan in hoeverre personen Microsoft Office apps gebruiken om bestanden in OneDrive en SharePoint te maken:
       - **OneDrive:** Het blauwe (gekleurde) gedeelte van de balk en de breuk op de balk vertegenwoordigen het percentage personen dat actief is op Office toepassingen die inhoud maken op OneDrive als volgt:
@@ -126,9 +126,11 @@ We bieden u ook informatie waarmee u inzicht krijgt in de manier waarop uw organ
 
 ### <a name="use-of-attachments-in-email"></a>Gebruik van bijlagen in e-mail
 
+**Gebruik van bijlagen in e-mail** Meer informatie over het aantal gebruikers dat fysieke bestanden aan e-mail koppelt in plaats van koppelingen naar inhoud in de cloud, en controleer de vermindering van dit aantal in de tijd.
+
 :::image type="content" source="../../media/emailattachments.png" alt-text="Gebruik van e-mailbijlagen.":::
 
-1. **Koptekst:** Momenten percentage personen dat bijlagen gebruikt in e-mailberichten die niet zijn opgeslagen in OneDrive of SharePoint.
+1. **Koptekst:** Belicht het percentage personen dat bijlagen gebruikt in e-mailberichten die niet zijn opgeslagen in OneDrive of SharePoint.
 2. **Body:** Geeft informatie over de waarde van het delen van koppelingen naar onlinebestanden vanuit een samenwerkings- en beveiligingsperspectief.
 3. **Visualisatie:** De uitsplitsing in de visualisatie is bedoeld om aan te geven in welke mate personen die inhoud aan e-mailberichten koppelen, verschillende modi gebruiken (bestanden die niet op OneDrive of SharePoint staan; koppelingen naar onlinebestanden en koppelingen die zijn ingesloten in de e-mail):
       - **Bestanden toevoegen:** Het blauwe (gekleurde) gedeelte van de balk en de breuk (teller/noemer) op de balk vertegenwoordigen het percentage personen dat bijlagen in e-mailberichten gebruikt.
@@ -137,16 +139,13 @@ We bieden u ook informatie waarmee u inzicht krijgt in de manier waarop uw organ
       - **Koppelingen naar onlinebestanden:** Het blauwe (gekleurde) gedeelte van de balk en de breuk (teller/noemer) op de balk vertegenwoordigen het percentage personen dat bijlagen gebruikt en koppelingen aan bestanden in e-mailberichten koppelt.
         - Teller: Het aantal personen dat koppelingen naar onlinebestanden (opgeslagen in OneDrive of SharePoint) in de afgelopen 28 dagen aan e-mailberichten koppelt.
         - Noemer: Het aantal personen dat toegang heeft tot Exchange en OneDrive, SharePoint of beide binnen de afgelopen 28 dagen.
-      - **Koppelingen insluiten in e-mail:** Het blauwe (gekleurde) gedeelte van de balk en de breuk op de balk vertegenwoordigen het percentage personen dat koppelingen insluit in de body van de e-mailberichten.
-        - Numerieke waarde: het aantal personen dat koppelingen insluit in de body van e-mailberichten naar onlinebestanden (opgeslagen in OneDrive of SharePoint) in de afgelopen 28 dagen.
-        - Noemer: Het aantal personen dat toegang heeft tot Exchange en OneDrive, SharePoint of beide binnen de afgelopen 28 dagen.
 4. **Koppeling naar resources:** Selecteer deze koppeling om Help-inhoud weer te geven.
 
 ### <a name="sharing-of-online-files"></a>Onlinebestanden delen
 
 :::image type="content" source="../../media/sharingonlinefiles.png" alt-text="Grafiek met het aantal personen dat bestanden online deelt.":::
 
-1. **Koptekst:** Momenten percentage personen tot wie toegang is voor OneDrive of SharePoint personen die bestanden extern delen.
+1. **Koptekst:** Belicht het percentage personen tot wie toegang is voor OneDrive of SharePoint personen die bestanden extern delen.
 2. **Body:** Geeft informatie over de beheerders&#39; mogelijkheid om de instellingen voor het delen van bestanden in de organisatie te wijzigen om het niveau van samenwerking in te stellen dat het meest geschikt is voor uw organisatie.
 3. **Visualisatie:** Geeft aan in hoeverre personen die toegang hebben tot OneDrive of SharePoint bestanden intern of extern delen:
       - **Extern:** Het blauwe (gekleurde) gedeelte van de balk en de breuk (teller/noemer) op de balk vertegenwoordigen het percentage personen dat toegang heeft tot OneDrive of SharePoint en bestanden extern deelt.
@@ -161,7 +160,7 @@ We bieden u ook informatie waarmee u inzicht krijgt in de manier waarop uw organ
 
 :::image type="content" source="../../media/intensityofcollab.png" alt-text="Grafiek met het aantal bestanden waar het meest aan is samengewerkt.":::
 
-1. **Koptekst:** Momenten percentage personen die toegang hebben tot OneDrive of SharePoint die samenwerken aan 4 of meer bestanden.
+1. **Koptekst:** Belicht het percentage personen dat toegang heeft tot OneDrive of SharePoint die samenwerken aan 4 of meer bestanden.
 2. **Body:** Hier vindt u informatie over hoe mensen onlinebestanden kunnen gebruiken voor betere samenwerking.
 3. **Visualisatie:** Toont een verdeling van de personen die toegang hebben tot OneDrive of SharePoint, op basis van het aantal bestanden waar ze aan samenwerken. Dit wordt weergegeven in de volgende 4 categorieën (voor elk, het blauwe gedeelte van de balk en de breuk vertegenwoordigen het percentage personen dat toegang heeft tot OneDrive of SharePoint die in die categorie vallen):
       - **Geen samenwerking:**
@@ -183,7 +182,7 @@ We bieden u ook informatie waarmee u inzicht krijgt in de manier waarop uw organ
 
 :::image type="content" source="../../media/networkperfstrength.png" alt-text="Grafiek met netwerkprestaties voor OneDrive en SharePoint.":::
 
-1. **Koptekst:** Momenten van alle geteste apparaten met een slechte netwerkverbinding met OneDrive en SharePoint. 
+1. **Koptekst:** Markeert het percentage apparaten van alle geteste apparaten met een slechte netwerkverbinding met OneDrive en SharePoint. 
 2. **Body:** Hier vindt u informatie over waarom netwerkverbindingsprestaties belangrijk zijn voor samenwerking. 
 3. **Visualisatie:** Toont een percentage apparaten met verschillende niveaus van netwerkconnectiviteitsprestaties met betrekking tot OneDrive en SharePoint:
       - **81-100 (beste)**: Het donkergroene (gekleurde) gedeelte van de balk vertegenwoordigt het percentage apparaten met de beste prestaties.

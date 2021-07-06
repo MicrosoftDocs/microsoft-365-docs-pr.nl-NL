@@ -16,12 +16,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: ''
-ms.openlocfilehash: 7e99198e0713a1940f094c3875293b2590f31e3f
-ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
+ms.openlocfilehash: 3f64b981b60db9f9089af0555e4bf734864913b9
+ms.sourcegitcommit: 17d82e5617f0466eb825e15ab88594afcdaf4437
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53256853"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "53300379"
 ---
 # <a name="learn-about-sensitive-information-types"></a>Meer informatie over typen gevoelige informatie
 
@@ -154,10 +154,12 @@ Als u aangepaste gevoelige informatietypen wilt maken in het beveiligings- & com
 > Deze ondersteuning is beschikbaar voor typen gevoelige informatie. Zie [Ondersteuning voor Information Protection voor releaseopmerkingen bij dubbel-bytetekensets (preview)](mip-dbcs-relnotes.md) voor meer informatie.
 
 > [!TIP]
-> Als u patronen wilt detecteren die Chinese/Japanse tekens en enkele bytetekens bevatten of om patronen te detecteren die Chinees/Japans en Engels bevatten, definieert u twee varianten van het trefwoord of regex. Gebruik bijvoorbeeld twee varianten van het trefwoord om een trefwoord zoals '机密een document' te detecteren. een met een spatie tussen de Japanse en Engelse tekst en een andere zonder spatie tussen de Japanse en Engelse tekst. De trefwoorden die in de SIT moeten worden toegevoegd, moeten dus '机密seen document' en '机密sedocument' zijn. Als u een woordgroep '東京オンンピンク2020' wilt detecteren, moeten twee varianten worden gebruikt. "東京オンンピンク 2020" en "東京オンンピンク2020".
+> Om patronen te detecteren die Chinese/Japanse karakters en enkelbyte karakters bevatten of om patronen te detecteren die Chinees/Japans en Engels bevatten, definieert u twee varianten van het trefwoord of de regex.
 > 
-> Terwijl u een regex maakt met een afbreekstreester of een dubbele byteperiode, moet u beide tekens ontsnapen, zoals een afbreekstreester of punt in een regex. Hier is een voorbeeld regex voor verwijzing:
->    - (?<!\d) ([4][0-9] {3} [ \- ?\-\t]*[0-9]{4}
+> Om bijvoorbeeld een trefwoord als "机密的document" te detecteren, gebruikt u twee varianten van het trefwoord; een met een spatie tussen de Japanse en Engelse tekst en een andere zonder een spatie tussen de Japanse en Engelse tekst. De trefwoorden die in de SIT moeten worden toegevoegd, moeten dus "机密的 document" en "机密的document" zijn. Evenzo moeten twee varianten worden gebruikt om een zin "東京オリンピック2020" te detecteren; "東京オリンピック 2020" en "東京オリンピック2020".
+> 
+> Zorg er bij het maken van een regex met een dubbelbyte-afbreekstreepje of een dubbele-byte-periode voor dat u beide tekens escaped, zoals een koppelteken of een punt in een regex. Hier is een voorbeeldregex ter referentie:
+>    - (?<!\d)([４][０-９]{3}[\-?\－\t]*[０-９]{4}
 >
 > Het is raadzaam tekenreeksmatch te gebruiken in plaats van woordmatch in een trefwoordlijst.
 

@@ -12,12 +12,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 3d0b0f1adac589b910b5fabf2c22d08cbd65f142
-ms.sourcegitcommit: 8c6a5db0dab99a82a69dd8a0a7c56af1cb825931
+ms.openlocfilehash: 211e26035ad8bdf73defde85c33a631af3a193d0
+ms.sourcegitcommit: 17d82e5617f0466eb825e15ab88594afcdaf4437
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53276927"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "53300101"
 ---
 # <a name="device-images"></a>Afbeeldingen van apparaten
 
@@ -31,7 +31,7 @@ Wanneer u een nieuw [](device-requirements.md#minimum-requirements)apparaat bij 
 Werk rechtstreeks samen met de vertegenwoordiger van Dell, die ervoor zorgt dat de afbeelding die is goedgekeurd door Microsoft Managed Desktop wordt toegepast op apparaten voor uw bestelling. Neem voor meer vragen over Dell-apparaten, de afbeelding en het bestelproces contact op met MMD_at_dell@dell.com.
 
 ### <a name="hp"></a>HP 
-Wanneer u nieuwe apparaten bij HP [bestelt,](https://www.microsoft.com/windowsforbusiness/view-all-devices) moet u de specifieke SKU gebruiken die wordt vermeld in de sectie Aanvullende vereisten voor elk model dat wordt gevonden op de site Met zakelijke apparaten winkelen Windows 10 Pro (filter de weergave om de Microsoft Managed Desktop-apparaten weer te geven).
+Wanneer u nieuwe apparaten bij HP [bestelt,](https://www.microsoft.com/windowsforbusiness/view-all-devices#view-all-filter) moet u de specifieke SKU gebruiken die wordt vermeld in de sectie Aanvullende vereisten voor elk model dat wordt gevonden op de site Met zakelijke apparaten winkelen Windows 10 Pro (filter de weergave om de Microsoft Managed Desktop-apparaten weer te geven).
 
 Als u een apparaat bestelt bij HP dat [](customizing.md) als uitzondering is goedgekeurd, maar momenteel niet wordt weergegeven op de pagina Apparaatlijst, moet u de SKU vragen om voor uw model te worden gebruikt. We werken samen met HP om u deze informatie te geven met behulp van uw uitzonderingsaanvraag. U kunt ook rechtstreeks contact opnemen met HP voor vragen over apparaten en instructies voor het bestellen van apparaten met behulp van deze adressen:
  
