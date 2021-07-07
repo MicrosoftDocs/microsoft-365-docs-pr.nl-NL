@@ -19,18 +19,21 @@ ms.collection:
 search.appverid:
 - MET150
 description: 'Microsoft 365 Preventie van gegevensverlies voor eindpunten breidt de controle van bestandsactiviteiten en beschermende maatregelen uit voor deze bestanden naar eindpunten. Bestanden worden zichtbaar gemaakt in de compliance-oplossingen van Microsoft 365 '
-ms.openlocfilehash: 39474f54440ba33c8d7140981c1495a5c46bf0fc
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: c97368dd48515dc787dbac66aa93844889efbdbc
+ms.sourcegitcommit: 8b0718f5607ab509092cb80bda854010d885c54f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53226681"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53314414"
 ---
 # <a name="learn-about-microsoft-365-endpoint-data-loss-prevention"></a>Meer informatie over Microsoft 365 Eindpunt-DLP
 
 U kunt preventie van gegevensverlies van Microsoft 365 (DLP) gebruiken om te controleren welke acties worden ondernomen op items die u vertrouwelijk vindt en om te voorkomen dat deze items per ongeluk worden gedeeld. Zie voor meer informatie over DLP [Meer informatie over preventie van gegevensverlies](dlp-learn-about-dlp.md).
 
 **Preventie van gegevensverlies voor eindpunten)** (Eindpunt-DLP) is een uitbreiding voor de activiteitencontrole en beveiligingsmogelijkheden van DLP voor vertrouwelijke items op Windows 10-apparaten. Zodra apparaten zijn geregistreerd bij de Microsoft 365-complianceoplossingen, wordt de informatie over wat gebruikers met gevoelige items doen, zichtbaar in [Activiteitenverkenner](data-classification-activity-explorer.md) en kunt u beschermende maatregelen voor deze items afdwingen via [DLP-beleid](create-test-tune-dlp-policy.md).
+
+> [!TIP]
+> Als u op zoek bent naar apparaatbesturing voor verwisselbare opslag, raadpleegt u [Microsoft Defender voor Eindpuntapparaatbesturing Removable Storage Access Control](../security/defender-endpoint/device-control-removable-storage-access-control.md#microsoft-defender-for-endpoint-device-control-removable-storage-access-control).
 
 ## <a name="endpoint-activities-you-can-monitor-and-take-action-on"></a>EIndpuntactiviteiten die u kunt controleren en waarvoor u maatregelen kunt nemen
 
@@ -141,7 +144,7 @@ Als een bestand bijvoorbeeld is gekopieerd naar een verwisselbaar USB-medium, zi
 - apparaatnaam
 - type doellocatie
 - toepassing die de kopie heeft uitgevoerd
-- Apparaat-id voor Microsoft Defender voor Endpoint
+- Apparaat-id voor Microsoft Defender voor Endpoint
 - fabrikant van verwisselbaar media-apparaat
 - model van verwisselbaar media-apparaat
 - serienummer van verwisselbaar media-apparaat
@@ -162,6 +165,6 @@ Nu u meer weet over Endpoint DLP, gaat u als volgt te werk:
 - [Eindpunt-DLP gebruiken](endpoint-dlp-using.md)
 - [Meer informatie over preventie van gegevensverlies](dlp-learn-about-dlp.md)
 - [Een DLP-beleid maken, testen en afstemmen](create-test-tune-dlp-policy.md)
-- [Aan de slag met Activity Explorer](data-classification-activity-explorer.md)
+- [Aan de slag met de activiteitenverkenner](data-classification-activity-explorer.md)
 - [Microsoft Defender voor Eindpunt](/windows/security/threat-protection/)
 - [Insider Risk-beheer](insider-risk-management.md)

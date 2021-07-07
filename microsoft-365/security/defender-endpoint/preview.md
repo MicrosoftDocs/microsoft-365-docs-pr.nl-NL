@@ -18,19 +18,16 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 65edf54ea0bf5cb0a0210dd306db07c756149f65
-ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
+ms.openlocfilehash: 0ed494cc29eb990430be590e62db5f0365ace494
+ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53062135"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53322423"
 ---
 # <a name="microsoft-defender-for-endpoint-preview-features"></a>Microsoft Defender voor endpoint preview-functies
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
-
->[!IMPORTANT]
->De preview-versies worden geleverd zonder serviceovereenkomst en worden niet aanbevolen voor productiebelastingen. Bepaalde functies worden mogelijk niet ondersteund of hebben mogelijk beperkte mogelijkheden.
 
 **Van toepassing op:**
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
@@ -47,6 +44,19 @@ Lees meer over nieuwe functies in de preview-release van Defender voor Eindpunt 
 >Ontvang een melding wanneer deze pagina wordt bijgewerkt door de volgende URL in de feedlezer te kopiëren en te kopiëren: `/api/search/rss?search=%22In+the+navigation+pane%2C+select+Settings+%3E+Advanced+features+%3E+Preview+features.%22&locale=en-us&facet=`
 
 Zie Nieuw in Defender voor eindpunt voor meer informatie over nieuwe mogelijkheden die algemeen [beschikbaar zijn.](whats-new-in-microsoft-defender-atp.md)
+
+ ## <a name="what-you-need-to-know"></a>Wat u moet weten
+
+Als u werkt met functies in een openbaar voorbeeld, zijn deze functies:
+
+- Kan beperkte of beperkte functionaliteit hebben. De functie kan bijvoorbeeld slechts op één platform van toepassing zijn.
+- Meestal worden functiewijzigingen doorgevoerd voordat ze algemeen beschikbaar zijn (GA).
+- Worden volledig ondersteund door Microsoft.
+- Is mogelijk alleen beschikbaar in geselecteerde geografische regio's of cloudomgevingen. De functie bestaat bijvoorbeeld mogelijk niet in de cloud van de overheid.
+- Afzonderlijke functies in de preview-versie hebben mogelijk meer gebruiks- en ondersteuningsbeperkingen. Als dat zo is, wordt deze informatie meestal vermeld in de documentatie van de functie.
+- De preview-versies worden geleverd met een standaardondersteuningsniveau en worden aanbevolen voor productiebelastingen. 
+
+
 
 ## <a name="turn-on-preview-features"></a>Preview-functies inschakelen
 

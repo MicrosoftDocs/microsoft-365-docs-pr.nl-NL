@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: 'Ga naar het Microsoft 365-compliancecentrum om het geïntegreerde auditlogboek te zoeken zodat u activiteiten van gebruikers en beheerders kunt bekijken in uw organisatie. '
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a6989d8f57123a35e64b89cfe9148cae33c5758e
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 007881220c3bdf862e75464521733e64f0d6c5c0
+ms.sourcegitcommit: 17d82e5617f0466eb825e15ab88594afcdaf4437
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53287501"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "53300134"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>Zoek in het auditlogboek in het compliancecentrum
 
@@ -912,11 +912,11 @@ Zoals hieronder wordt vermeld in de beschrijvingen, bevatten sommige bewerkingen
 |Beschrijvende naam|Bewerking|Omschrijving|
 |:-----|:-----|:-----|
 |Opmerking gemaakt|CreateComment|De eigenaar van het formulier voegt een opmerking of score toe aan een toets.|
-|Formulier gemaakt|CreateForm|De eigenaar van het formulier maakt een nieuw formulier.|
+|Formulier gemaakt|CreateForm|De eigenaar van het formulier maakt een nieuw formulier. <br><br>Eigenschap DataMode:string geeft aan dat het huidige formulier is ingesteld om te worden gesynchroniseerd met een nieuwe of bestaande Excel-werkmap als de eigenschapswaarde gelijk is aan DataSync. De eigenschap ExcelWorkbookLink:string geeft het bijbehorende Excel-werkmap-id van het huidige formulier aan.|
 |Formulier bewerkt|EditForm|De eigenaar van het formulier bewerkt een formulier, zoals een vraag maken, verwijderen of bewerken. De eigenschap *EditOperation:string* geeft de naam van de bewerking aan. Mogelijke waarden zijn:<br/>- CreateQuestion<br/>- CreateQuestionChoice <br/>- DeleteQuestion <br/>- DeleteQuestionChoice <br/>- DeleteFormImage <br/>- DeleteQuestionImage <br/>- UpdateQuestion <br/>- UpdateQuestionChoice <br/>- UploadFormImage/Bing/Onedrive <br/>- UploadQuestionImage <br/>- ChangeTheme <br><br>FormImage bevat elke plaats in Formulieren waar gebruikers een afbeelding kunnen uploaden, bijvoorbeeld in een query of als achtergrondthema.|
-|Verplaatst formulier|MoveForm|De eigenaar van het formulier verplaatst een formulier. <br><br>Eigenschap DestinationUserId:string geeft de gebruikers-id aan van de persoon die het formulier heeft verplaatst. Eigenschap NewFormId:string is de nieuwe id voor het zojuist gekopieerde formulier.|
+|Verplaatst formulier|MoveForm|De eigenaar van het formulier verplaatst een formulier. <br><br>Eigenschap DestinationUserId:string geeft de gebruikers-id aan van de persoon die het formulier heeft verplaatst. Eigenschap NewFormId:string is de nieuwe id voor het zojuist gekopieerde formulier. Eigenschap IsDelegateAccess:boolean geeft aan dat de huidige actie voor het verplaatsen van formulieren wordt uitgevoerd via de gedelegeerde pagina van de beheerder.|
 |Verwijderd formulier|DeleteForm|De formuliereigenaar verwijdert een formulier. Dit geldt ook voor SoftDelete (verwijderoptie en formulier verplaatst naar Prullenbak) en HardDelete (Prullenbak wordt geleegd).|
-|Bekeken formulier (ontwerptijd)|ViewForm|Formuliereigenaar opent een bestaand formulier om te bewerken.|
+|Bekeken formulier (ontwerptijd)|ViewForm|Formuliereigenaar opent een bestaand formulier om te bewerken. <br><br>Eigenschap AccessDenied:boolean geeft aan dat de toegang tot het huidige formulier is geweigerd vanwege een machtigingscontrole. Eigenschap FromSummaryLink:boolean geeft aan dat de huidige aanvraag afkomstig is van de overzichtskoppelingspagina.|
 |Voorbeeld van formulier bekeken|PreviewForm|De eigenaar van het formulier bekijkt een voorbeeld van een formulier met de functie Voorbeeld.|
 |Geëxporteerd formulier|ExportForm|Formuliereigenaar exporteert resultaten naar Excel. <br><br>Eigenschap ExporterenOpmaak:string geeft aan of het Excel-bestand een Download of Online is.|
 |Toegestaan formulier delen voor kopie|AllowShareFormForCopy|De eigenaar van het formulier maakt een sjabloonkoppeling om het formulier met andere gebruikers te delen. Deze gebeurtenis wordt geregistreerd wanneer de eigenaar van het formulier klikt om de sjabloon-URL te genereren.|
@@ -935,10 +935,21 @@ Zoals hieronder wordt vermeld in de beschrijvingen, bevatten sommige bewerkingen
 |Bijgewerkt formulier phishing-status|UpdatePhishingStatus|Deze gebeurtenis wordt geregistreerd wanneer de gedetailleerde waarde voor de interne beveiligingsstatus is gewijzigd, ongeacht of dit de uiteindelijke beveiligingsstatus heeft gewijzigd (het formulier is nu bijvoorbeeld Gesloten of Geopend). Dit betekent dat er mogelijk dubbele gebeurtenissen worden aangemaakt zonder dat de uiteindelijke beveiligingstoestand wordt gewijzigd. De mogelijke statuswaarden voor deze gebeurtenis zijn:<br/>- Take Down <br/>- Take Down by Admin <br/>- Admin Unblocked <br/>- Auto Blocked <br/>- Auto Unblocked <br/>- Customer Reported <br/>- Reset Customer Reported|
 |Bijgewerkte gebruiker phishing-status|UpdateUserPhishingStatus|Deze gebeurtenis wordt geregistreerd wanneer de waarde voor de beveiligingsstatus van de gebruiker is gewijzigd. De waarde van de gebruikersstatus in de auditrecord is **Bevestigd als Phisher** toen de gebruiker een phishingformulier maakte dat is ingenomen door het veiligheidsteam van Microsoft Online. Als een beheerder de blokkering van de gebruiker opheft, wordt de waarde van de status van de gebruiker ingesteld op **Opnieuw instellen als normale gebruiker**.|
 |Uitnodiging Verzonden Pro-formulieren|ProInvitation|Gebruiker klikt om een proefversie van Pro te activeren.|
-|Bijgewerkte formulierinstelling|UpdateFormSetting|De eigenaar van het formulier werkt een formulierinstelling bij. <br><br>Eigenschap FormSettingName:string geeft de naam en nieuwe waarde van de instelling aan.|
+|Bijgewerkte formulierinstelling|UpdateFormSetting|De eigenaar van het formulier werkt een of meer formulierinstellingen bij. <br><br>Eigenschap FormSettingName:string geeft de naam van de bijgewerkte gevoelige instellingen aan. Eigenschap NewFormSettings:string geeft de naam en nieuwe waarde van de bijgewerkte instellingen aan. De eigenschap thankYouMessageContainsLink:boolean geeft aan dat het bijgewerkte bedankbericht een URL-koppeling bevat.|
 |Gebruikersinstelling bijgewerkt|UpdateUserSetting|De eigenaar van het formulier werkt een gebruikersinstelling bij. <br><br>Eigenschap UserSettingName:string geeft de naam en nieuwe waarde van de instelling aan.|
 |Weergegeven formulieren|ListForms|De eigenaar van het formulier bekijkt een lijst met formulieren. <br><br>Eigenschap ViewType:string geeft aan in welke weergave de eigenaar van het formulier kijkt: Alle formulieren, Gedeeld met mij of Groepsformulieren|
 |Verzonden antwoord|SubmitResponse|Een gebruiker heeft een antwoord op een formulier ingediend. <br><br>Met Eigenschap IsInternalForm:boolean wordt aangegeven of de persoon binnen dezelfde organisatie valt als de eigenaar van het formulier.|
+|De instelling dat iedereen kan reageren is ingeschakeld|AllowAnonymousResponse|De eigenaar van het formulier schakelt de instelling waarmee iedereen op het formulier kan reageren in.|
+|De instelling dat iedereen kan reageren is uitgeschakeld|DisallowAnonymousResponse|De eigenaar van het formulier schakelt de instelling waarmee iedereen op het formulier kan reageren uit.|
+|De instelling dat specifieke personen kunnen reageren is ingeschakeld|EnableSpecificResponse|De eigenaar van het formulier schakelt de instelling in, zodat alleen specifieke personen of specifieke groepen in de huidige organisatie op het formulier kunnen reageren.|
+|De instelling dat specifieke personen kunnen reageren is uitgeschakeld|DisableSpecificResponse|De eigenaar van het formulier schakelt de instelling uit, zodat alleen specifieke personen of specifieke groepen in de huidige organisatie op het formulier kunnen reageren.|
+|Specifieke responder is toegevoegd|AddSpecificResponder|De eigenaar van het formulier voegt een nieuwe gebruiker of groep toe aan de specifieke lijst met responders.|
+|Specifieke responder is verwijderd|RemoveSpecificResponder|De eigenaar van het formulier verwijdert een nieuwe gebruiker of groep uit de specifieke lijst met responders.|
+|Samenwerking uitgeschakeld|DisableCollaboration|De eigenaar van het formulier schakelt de instelling voor samenwerking op het formulier uit.|
+|Samenwerking bij Office 365-werk of schoolaccount is ingeschakeld|EnableWorkOrSchoolCollaboration|De eigenaar van het formulier schakelt de instelling in waarmee gebruikers met een werk- of schoolaccount van Office 365 het formulier kunnen weergeven en bewerken.|
+|Samenwerking met personen in mijn organisatie is ingeschakeld|EnableSameOrgCollaboration|De eigenaar van het formulier schakelt de instelling in waarmee gebruikers in de huidige organisatie het formulier kunnen weergeven en bewerken.|
+|Samenwerking met specifieke personen is ingeschakeld|EnableSpecificCollaboaration|De eigenaar van het formulier schakelt de instelling in waarmee alleen specifieke personen of specifieke groepen in de huidige organisatie het formulier kunnen weergeven en bewerken.|
+|Verbonden met Excel-werkmap|ConnectToExcelWorkbook|Het formulier is verbonden met een Excel-werkmap. <br><br>De eigenschap ExcelWorkbookLink:string geeft het bijbehorende Excel-werkmap-id van het huidige formulier aan.|
 ||||
 
 #### <a name="forms-activities-performed-by-coauthors-and-anonymous-responders"></a>Formulieractiviteiten die zijn uitgevoerd door medeauteurs en anonieme beantwoorders

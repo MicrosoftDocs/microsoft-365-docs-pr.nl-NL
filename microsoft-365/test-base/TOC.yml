@@ -1,0 +1,38 @@
+- name: Testbasisdocumentatie
+  href: index.yml
+- name: Overzicht
+  items:
+    - name: Wat is Test Base?
+      href: overview.md
+- name: Snelstart
+  items:
+    - name: Testbasisaccount maken
+      href: createAccount.md
+    - name: Een pakket uploaden
+      href: uploadApplication.md
+    - name: Upload Binaries & Afhankelijkheden
+      href: binaries.md
+    - name: Testtaken instellen
+      href: testtask.md
+    - name: Testopties instellen
+      href: testoptions.md
+    - name: Beoordelen
+      href: review.md
+    - name: Richtlijn voor pakket
+      href: contentguideline.md
+- name: Handleidingen
+  items:
+    - name: Servertoepassing testen
+      href: server.md
+    - name: Functioneel testen
+      href: functional.md
+    - name: Validatie van functie-update
+      href: feature.md
+    - name: Geheugen regressieanalyse
+      href: memory.md
+    - name: CPU-regressieanalyse
+      href: cpu.md
+- name: Verwijzing
+  items:
+    - name: Veelgestelde vragen
+      href: faq.md

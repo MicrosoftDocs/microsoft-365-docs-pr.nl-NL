@@ -1,6 +1,6 @@
 ---
 title: Microsoft Defender voor Eindpunt voor niet-Windows-platforms
-description: Meer informatie over de mogelijkheden van Microsoft Defender voor eindpunten voor niet-Windows-platforms
+description: Meer informatie over de mogelijkheden van Microsoft Defender voor eindpunten voor niet-Windows platforms
 keywords: niet-windows, mac, macos, linux, android
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: dc5710a73685c67eff17c0f281bd14e48707e60f
-ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
+ms.openlocfilehash: 4793f3c84ddda0db7f4d67ac96cb31a6e2108c57
+ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "52964786"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53326997"
 ---
 # <a name="microsoft-defender-for-endpoint-for-non-windows-platforms"></a>Microsoft Defender voor Eindpunt voor niet-Windows-platforms
 
@@ -33,17 +33,17 @@ ms.locfileid: "52964786"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
-> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-Microsoft is op weg om de toonaangevende beveiligingsmogelijkheden voor eindpunten buiten Windows en Windows Server uit te breiden naar macOS, Linux, Android en binnenkort iOS.
+Microsoft is op weg om de toonaangevende beveiligingsmogelijkheden voor eindpunten verder uit te breiden dan Windows en Windows Server naar macOS, Linux, Android en iOS.
 
 Organisaties worden geconfronteerd met bedreigingen op verschillende platforms en apparaten. Onze teams hebben zich ertoe verbonden om beveiligingsoplossingen te bouwen, niet alleen voor *Microsoft,* maar ook voor *Microsoft* om onze klanten in staat te stellen hun heterogene omgevingen te beschermen en te beveiligen. We luisteren naar feedback van klanten en werken nauw samen met onze klanten om oplossingen te bouwen die aan hun behoeften voldoen.
 
-Met Microsoft Defender voor Eindpunt profiteren klanten van een geïntegreerde weergave van alle bedreigingen en waarschuwingen in het Microsoft Defender-beveiligingscentrum, op windows- en niet-Windows-platforms, zodat ze een volledig beeld krijgen van wat er in hun omgeving gebeurt, zodat ze sneller bedreigingen kunnen beoordelen en beantwoorden.
+Met Microsoft Defender voor Eindpunt profiteren klanten van een geïntegreerde weergave van alle bedreigingen en waarschuwingen in de Microsoft Defender-beveiligingscentrum, op Windows- en niet-Windows-platforms, zodat ze een volledig beeld krijgen van wat er in hun omgeving gebeurt, zodat ze sneller bedreigingen kunnen beoordelen en beantwoorden.
 
 ## <a name="microsoft-defender-for-endpoint-on-macos"></a>Microsoft Defender voor Eindpunt op macOS 
 
-Microsoft Defender voor Eindpunt op macOS biedt antivirus- en eindpuntdetectie- en antwoordmogelijkheden (EDR) voor de drie meest recente versies van macOS. Klanten kunnen de oplossing implementeren en beheren via Microsoft Endpoint Manager en Jamf. Net als bij Microsoft Office-toepassingen op macOS, wordt Microsoft Auto Update gebruikt voor het beheren van Microsoft Defender voor Endpoint op Mac-updates. Lees onze aankondigingen voor meer informatie over de belangrijkste functies [en voordelen.](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/macOS)
+Microsoft Defender voor Eindpunt op macOS biedt antivirus eindpuntdetectie en -respons (EDR) en vulnerability management voor de drie meest recente versies van macOS. Klanten kunnen de oplossing implementeren en beheren via Microsoft Endpoint Manager en Jamf. Net als bij Microsoft Office toepassingen in macOS, wordt Microsoft Auto Update gebruikt voor het beheren van Microsoft Defender voor endpoint op Mac-updates. Lees onze aankondigingen voor meer informatie over de belangrijkste functies [en voordelen.](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/macOS)
 
 Voor meer informatie over hoe u aan de slag kunt gaan, gaat u naar de Documentatie van Defender voor Eindpunt voor [macOS.](microsoft-defender-endpoint-mac.md)
 
@@ -56,7 +56,7 @@ Voor meer informatie over hoe u aan de slag kunt gaan, gaat u naar de Documentat
 
 ## <a name="microsoft-defender-for-endpoint-on-linux"></a>Microsoft Defender voor Eindpunt op Linux
 
-Microsoft Defender voor Endpoint op Linux biedt preventief (AV) mogelijkheden voor Linux-servers. Dit omvat een volledige opdrachtregel voor het configureren en beheren van de agent, het starten van scans en het beheren van bedreigingen. We ondersteunen recente versies van de zes meest voorkomende Linux Server-distributies: RHEL 7.2+, CentOS Linux 7.2+, Ubuntu 16 LTS of hoger LTS, SLES 12+, Debian 9+, en Oracle Linux 7.2. Microsoft Defender voor Eindpunt op Linux kan worden geïmplementeerd en geconfigureerd met Behulp van Poppenspel, Ansible of met behulp van uw bestaande Linux-configuratiebeheerprogramma. Lees onze aankondigingen voor meer informatie over de belangrijkste functies [en voordelen.](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/Linux)
+Microsoft Defender voor Eindpunt op Linux biedt preventief (AV), eindpuntdetectie en -respons (EDR) en vulnerability management mogelijkheden voor Linux-servers. Dit omvat een volledige opdrachtregel voor het configureren en beheren van de agent, het starten van scans en het beheren van bedreigingen. We ondersteunen recente versies van de zes meest voorkomende Linux Server-distributies: RHEL 7.2+, CentOS Linux 7.2+, Ubuntu 16 LTS of hoger LTS, SLES 12+, Debian 9+, en Oracle Linux 7.2. Microsoft Defender voor Eindpunt op Linux kan worden geïmplementeerd en geconfigureerd met Behulp van Poppenspel, Ansible of met behulp van uw bestaande Linux-configuratiebeheerprogramma. Lees onze aankondigingen voor meer informatie over de belangrijkste functies [en voordelen.](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/Linux)
 
 Voor meer informatie over hoe u aan de slag kunt gaan, gaat u naar de Microsoft Defender voor Eindpunt op [Linux-documentatie.](microsoft-defender-endpoint-linux.md)
 
@@ -82,9 +82,9 @@ Voor meer informatie over hoe u aan de slag kunt gaan, gaat u naar de Microsoft 
 
 ## <a name="licensing-requirements"></a>Licentievereisten 
 
-In aanmerking komende gebruikers met een licentie kunnen Microsoft Defender voor Eindpunt gebruiken op maximaal vijf gelijktijdige apparaten. Microsoft Defender voor Eindpunt is ook beschikbaar voor aankoop bij een Cloud Solution Provider (CSP).
+In aanmerking komende gebruikers met een licentie kunnen Microsoft Defender voor Eindpunt gebruiken op maximaal vijf gelijktijdige apparaten. Microsoft Defender voor Eindpunt is ook beschikbaar voor aankoop via een Cloud Solution Provider (CSP).
 
-Klanten kunnen Microsoft Defender voor Eindpunt op macOS verkrijgen via een zelfstandige Licentie voor Microsoft Defender voor Eindpunt, als onderdeel van Microsoft 365 A5/E5 of Microsoft 365 Security.
+Klanten kunnen Microsoft Defender voor Eindpunt op macOS verkrijgen via een zelfstandige licentie voor Microsoft Defender voor Eindpunt, als onderdeel van Microsoft 365 A5/E5 of Microsoft 365 Beveiliging.
 
 Onlangs aangekondigde mogelijkheden van Microsoft Defender voor Eindpunt voor Android en iOS zijn opgenomen in de bovenstaande aanbiedingen als onderdeel van de vijf gekwalificeerde apparaten voor in aanmerking komende gebruikers met een licentie.
 

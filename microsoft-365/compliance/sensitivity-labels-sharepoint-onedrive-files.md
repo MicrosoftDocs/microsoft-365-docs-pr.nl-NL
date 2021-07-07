@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Beheerders kunnen ondersteuning voor gevoeligheidslabels inschakelen voor Word Excel en PowerPoint bestanden in SharePoint en OneDrive.
-ms.openlocfilehash: 08ea7c88fffebd4466d81ca18f273281ff74c06a
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 67aa69ef8505290b6fde47c4e523a09870312b97
+ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286547"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53322231"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>Vertrouwelijkheidslabels inschakelen voor Office-bestanden in SharePoint en OneDrive
 
@@ -241,7 +241,7 @@ Zie Het zoekschema beheren in SharePoint voor meer informatie over het gebruik [
 
 ## <a name="remove-encryption-for-a-labeled-document"></a>Versleuteling voor een document met label verwijderen
 
-Er kunnen zeldzame gevallen zijn dat een beheerder SharePoint versleuteling moet verwijderen uit een document dat is opgeslagen in SharePoint. Elke gebruiker met het [rights management-gebruiksrecht](/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions) van Exporteren of Volledig beheer dat aan hen is toegewezen voor dat document, kan versleuteling verwijderen die is toegepast door de Azure Rights Management-service van Azure Information Protection. Gebruikers met een van deze gebruiksrechten kunnen bijvoorbeeld een label vervangen dat versleuteling door een label zonder versleuteling van toepassing is. Een supergebruiker kan [het bestand](/azure/information-protection/configure-super-users) ook downloaden en een lokale kopie opslaan zonder de versleuteling.
+Er kunnen zeldzame gevallen zijn dat een beheerder SharePoint versleuteling moet verwijderen uit een document dat is opgeslagen in SharePoint. Elke gebruiker met het [rights management-gebruiksrecht](/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions) van Exporteren of Volledig beheer dat aan hen is toegewezen voor dat document, kan versleuteling verwijderen die is toegepast door de Azure Rights Management-service van Azure Information Protection. Gebruikers met een van deze gebruiksrechten kunnen bijvoorbeeld een label vervangen dat versleuteling door een label zonder versleuteling van toepassing is. Een [supergebruiker](/azure/information-protection/configure-super-users) kan het bestand ook downloaden en een lokale kopie opslaan zonder de versleuteling.
 
 Als alternatief kan een globale beheerder [of SharePoint-beheerder](/sharepoint/sharepoint-admin-role) de [cmdlet Unlock-SPOSensitivityLabelEncryptedFile](/powershell/module/sharepoint-online/unlock-sposensitivitylabelencryptedFile) uitvoeren, waardoor zowel het gevoeligheidslabel als de versleuteling worden verwijderd. Deze cmdlet wordt uitgevoerd, zelfs als de beheerder geen toegangsmachtigingen voor de site of het bestand heeft of als de Azure Rights Management service niet beschikbaar is.
 

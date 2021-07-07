@@ -20,14 +20,14 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Meer informatie over het gebruik van dlp-beleid voor niet-Microsoft-cloud-apps.
-ms.openlocfilehash: fbba87fc5bb3bbca7e67ba374e202098a22f4a5c
-ms.sourcegitcommit: 17d82e5617f0466eb825e15ab88594afcdaf4437
+ms.openlocfilehash: 4bda45a6da6b9626391da37eb9a806b3308c5e7f
+ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "53300122"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53322315"
 ---
-# <a name="use-data-loss-prevention-policies-for-non-microsoft-cloud-apps-preview"></a>Beleid voor preventie van gegevensverlies gebruiken voor niet-Microsoft-cloud-apps (preview)
+# <a name="use-data-loss-prevention-policies-for-non-microsoft-cloud-apps"></a>Beleid voor preventie van gegevensverlies gebruiken voor niet-Microsoft-cloud-apps
 
 DLP-beleid (Data Loss Prevention) voor niet-Microsoft-cloud-apps maakt deel uit van de Microsoft 365 DLP-suite met functies; met behulp van deze functies kunt u gevoelige items ontdekken en beveiligen in Microsoft 365 services. Zie Meer informatie over preventie van gegevensverlies voor meer informatie over alle Microsoft [DLP-aanbiedingen.](dlp-learn-about-dlp.md)
 

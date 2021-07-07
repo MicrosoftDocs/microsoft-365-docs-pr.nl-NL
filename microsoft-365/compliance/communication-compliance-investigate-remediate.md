@@ -18,20 +18,20 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 170955ebba633c1749423e11bb34f7bfbdba1f07
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: e24b59958e5ef933b42294636ce6a1cc11528bb8
+ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684109"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53322243"
 ---
 # <a name="investigate-and-remediate-communication-compliance-alerts"></a>Waarschuwingen voor communicatiecompliance onderzoeken en oplossen
 
-Nadat u uw communicatie-compliancebeleid hebt geconfigureerd, ontvangt u waarschuwingen in het Microsoft 365 compliancecentrum voor berichtproblemen die overeenkomen met uw beleidsvoorwaarden. Volg de werkstroominstructies hier om problemen met waarschuwingen te onderzoeken en te verhelpen.
+Nadat u uw beleid voor communicatiecondities hebt geconfigureerd, ontvangt u waarschuwingen in de Microsoft 365-compliancecentrum voor berichtproblemen die overeenkomen met uw beleidsvoorwaarden. Volg de werkstroominstructies hier om problemen met waarschuwingen te onderzoeken en te verhelpen.
 
 ## <a name="investigate-alerts"></a>Waarschuwingen onderzoeken
 
-De eerste stap om problemen te onderzoeken die door uw beleid zijn gedetecteerd, is het controleren van waarschuwingen voor communicatie compliance in het Microsoft 365 compliancecentrum. Er zijn verschillende gebieden in het gebied met oplossingen voor communicatie compliance om u te helpen waarschuwingen snel te onderzoeken, afhankelijk van de manier waarop u de groep waarschuwingen wilt bekijken:
+De eerste stap om problemen te onderzoeken die door uw beleid zijn gedetecteerd, is het controleren van waarschuwingen voor communicatie compliance in de Microsoft 365-compliancecentrum. Er zijn verschillende gebieden in het gebied met oplossingen voor communicatie compliance om u te helpen waarschuwingen snel te onderzoeken, afhankelijk van de manier waarop u de groep waarschuwingen wilt bekijken:
 
 - **Pagina Communicatie compliancebeleid:** Wanneer u zich aanmeld bij het gebruik van referenties voor een beheerdersaccount in uw Microsoft 365 organisatie, selecteert u Communicatie compliance om de pagina Communicatie [https://compliance.microsoft.com](https://compliance.microsoft.com) **compliancebeleid weer te** geven.  Op deze pagina worden communicatiebeleidsregels weergegeven die zijn geconfigureerd voor Microsoft 365 organisatie en koppelingen naar aanbevolen beleidssjablonen. Elk beleid dat wordt vermeld, bevat het aantal waarschuwingen dat moet worden beoordeeld, het aantal geëscaleerde en opgeloste items, de status van het beleid en de datum en tijd van de laatste beleidsscan. Als u een beleid selecteert, worden alle waarschuwingen weergegeven die in behandeling zijn voor overeenkomsten met het beleid, selecteert u een specifieke waarschuwing om de pagina met beleidsdetails te starten en herstelacties te starten.
 - **Waarschuwingen:** Navigeer naar **communicatie**  >  **compliancewaarschuwingen** om de laatste 30 dagen van waarschuwingen weer te geven die zijn gegroepeerd op beleidsvoorwaarden. In deze weergave kunt u snel zien welk communicatie compliancebeleid de meeste waarschuwingen genereert die zijn geordend op ernst. Als u herstelacties wilt starten, selecteert u het beleid dat is gekoppeld aan de waarschuwing om de pagina **Beleidsdetails te** starten. Op de pagina **Beleidsdetails** kunt u een  overzicht van de activiteiten op  de pagina Overzicht bekijken, waarschuwingsberichten controleren en erop reageren op de pagina In behandeling of de geschiedenis van gesloten waarschuwingen op de pagina **Opgelost** bekijken.
@@ -47,7 +47,7 @@ Zie Filters [in](communication-compliance-feature-reference.md#filters) het arti
 
 1. Meld u [https://compliance.microsoft.com](https://compliance.microsoft.com) aan bij het gebruik van referenties voor een beheerdersaccount in uw Microsoft 365 organisatie.
 
-2. Ga in Microsoft 365 compliancecentrum naar **Communicatie compliance.**
+2. Ga in Microsoft 365-compliancecentrum naar **Communicatie compliance.**
 
 3. Selecteer het **tabblad** Beleid en selecteer vervolgens een beleid voor onderzoek en dubbelklik om de pagina **Beleid te** openen.
 
@@ -71,7 +71,7 @@ Communicatie compliancebeleid scant en groepeert automatisch dubbele berichten i
 
 1. Meld u [https://compliance.microsoft.com](https://compliance.microsoft.com) aan bij het gebruik van referenties voor een beheerdersaccount in uw Microsoft 365 organisatie.
 
-2. Ga in Microsoft 365 compliancecentrum naar **Communicatie compliance.**
+2. Ga in Microsoft 365-compliancecentrum naar **Communicatie compliance.**
 
 3. Selecteer het **tabblad** Beleid en selecteer vervolgens een beleid voor onderzoek en dubbelklik om de pagina **Beleid te** openen.
 
@@ -93,7 +93,7 @@ Waar u ook waarschuwingen gaat bekijken of het filteren dat u configureert, de v
 
 ### <a name="step-1-examine-the-message-basics"></a>Stap 1: De basisprincipes van het bericht bekijken
 
- Soms is het duidelijk uit de bron of het onderwerp dat een bericht direct kan worden gesaneerd. Het kan zijn dat het bericht onjuist of onjuist is afgestemd op een beleid en dat het moet worden opgelost als een onwaar positief bericht. Selecteer het **besturingselement Onwaar** positief om de waarschuwing onmiddellijk op te lossen en uit de wachtrij met in behandeling zijnde waarschuwingen te verwijderen. Op basis van de bron- of afzendergegevens weet u mogelijk al hoe het bericht in deze omstandigheden moet worden gerouteerd of verwerkt. U kunt de **besturingselementen Tag gebruiken** als of **Escaleren** om een tag toe te wijzen aan toepasselijke berichten of om berichten te verzenden naar een aangewezen revisor.
+ Soms is het duidelijk uit de bron of het onderwerp dat een bericht direct kan worden gesaneerd. Het kan zijn dat het bericht onjuist of onjuist is afgestemd op een beleid en dat het moet worden opgelost als verkeerd geclassificeerd. Selecteer het **rapport als verkeerd geclassificeerd besturingselement** om verkeerd geclassificeerde inhoud met Microsoft te delen, de waarschuwing onmiddellijk op te lossen en uit de wachtrij met in behandeling zijnde waarschuwingen te verwijderen. Op basis van de bron- of afzendergegevens weet u mogelijk al hoe het bericht in deze omstandigheden moet worden gerouteerd of verwerkt. U kunt de **besturingselementen Tag gebruiken** als of **Escaleren** om een tag toe te wijzen aan toepasselijke berichten of om berichten te verzenden naar een aangewezen revisor.
 
 ![Herstelbesturingselementen voor communicatie compliance](../media/communication-compliance-remediation-controls.png)
 
@@ -107,7 +107,7 @@ Na het bekijken van de basisprincipes van het bericht, is het tijd om een berich
 - **Gespreksweergave (voorbeeld)**: Deze weergave is beschikbaar voor Microsoft Teams chatberichten en bevat maximaal vijf berichten voor en na een waarschuwingsbericht om revisoren te helpen de activiteit in de gesprekscontext te bekijken. Deze context helpt revisoren om snel berichten te evalueren en beter geïnformeerde beslissingen te nemen over het oplossen van berichten. Realtime bericht toevoegingen aan gesprekken worden weergegeven, inclusief alle inlineafbeeldingen, emoji's en stickers die beschikbaar zijn in Teams. Afbeeldings- of tekstbestandsbijlagen bij berichten worden niet weergegeven. Meldingen worden automatisch weergegeven voor berichten die zijn bewerkt of voor berichten die zijn verwijderd uit het gespreksvenster. Wanneer een bericht is opgelost, blijven de bijbehorende gespreksberichten niet behouden met het opgeloste bericht. Gespreksberichten zijn beschikbaar tot 60 dagen nadat het waarschuwingsbericht is geïdentificeerd.
 - **Gebruikersgeschiedenis:** In de gebruikersgeschiedenisweergave worden alle andere waarschuwingen weergegeven die zijn gegenereerd door een communicatie-compliancebeleid voor de gebruiker die het bericht verstuurt.
 - **Patroon gedetecteerde melding:** Veel intimiderende en pestende acties in de tijd en omvatten terugkerende exemplaren van hetzelfde gedrag door een gebruiker. De *melding Patroon gedetecteerd* wordt weergegeven in de waarschuwingsdetails en trekt de aandacht voor de waarschuwing. Detectie van patronen gebeurt per beleid en evalueert het gedrag in de afgelopen 30 dagen wanneer ten minste twee berichten door een afzender naar dezelfde geadresseerde worden verzonden. Revisoren en revisoren kunnen deze melding gebruiken om herhaald gedrag te identificeren om de waarschuwing zo nodig te evalueren.
-- **Weergave Vertalen weergeven:** met deze weergave wordt de tekst van  het waarschuwingsbericht automatisch geconververd naar de taal die is geconfigureerd in de instelling Weergegeven taal in het Microsoft 365 voor elke revisor. Met de weergave Vertalen kunt u onderzoeksondersteuning voor organisaties met meertalige gebruikers breder maken en hoeft u geen extra vertaalservices meer te gebruiken buiten het controleproces voor communicatie compliance. Met Microsoft Translate-services kan de weergave Vertalen zo nodig worden in- en uitgeschakeld en wordt een breed scala aan talen ondersteund. Zie Microsoft Vertalen Talen voor een volledige lijst [met ondersteunde talen.](https://www.microsoft.com/translator/business/languages/) Talen die worden weergegeven in de *Vertalen taallijst* worden ondersteund in de weergave Vertalen.
+- **Weergave Vertalen weergeven:** met deze weergave wordt de tekst van  het waarschuwingsbericht automatisch geconververd naar de taal die is geconfigureerd in de instelling Weergegeven taal in het Microsoft 365 voor elke revisor. Met de weergave Vertalen kunt u onderzoeksondersteuning voor organisaties met meertalige gebruikers breder maken en hoeft u geen extra vertaalservices meer te gebruiken buiten het controleproces voor communicatie compliance. Met Microsoft Translate-services kan de weergave Vertalen zo nodig worden in- en uitgeschakeld en wordt een breed scala aan talen ondersteund. Zie voor een volledige lijst met ondersteunde talen [Microsoft Translator Talen.](https://www.microsoft.com/translator/business/languages/) Talen die worden weergegeven in de *Vertalen taallijst* worden ondersteund in de weergave Vertalen.
 
     ![Besturingselementen voor communicatie complianceberichtweergave](../media/communication-compliance-message-views.png)
 
@@ -116,7 +116,7 @@ Na het bekijken van de basisprincipes van het bericht, is het tijd om een berich
 Nu u de details van het bericht voor de waarschuwing hebt bekeken, kunt u verschillende herstelacties kiezen:
 
 - **Oplossen:** Als u **het** besturingselement Oplossen  selecteert, wordt het bericht onmiddellijk verwijderd uit de wachtrij met waarschuwingen in behandeling en kan er geen verdere actie worden ondernomen op het bericht. Door Oplossen **te** selecteren, hebt u de waarschuwing in feite zonder verdere classificatie gesloten en kan deze niet opnieuw worden geopend voor verdere acties. Alle opgeloste berichten worden weergegeven op **het tabblad** Opgelost.
-- **Onwaar positief:** u kunt een bericht altijd als een onwaar positief op elk moment tijdens de werkstroom voor berichtbeoordeling oplossen. Fout-positief betekent dat de waarschuwing niet kan worden gebruikt of dat de waarschuwing onjuist is gegenereerd door het waarschuwingsproces. Het bericht kan niet opnieuw worden geopend en alle fout-positieve berichten worden weergegeven op **het tabblad** Opgelost.
+- **Rapport als verkeerd geclassificeerd (voorbeeld)**: U kunt een bericht altijd oplossen als verkeerd geclassificeerd tijdens de werkstroom voor berichtbeoordeling. Verkeerd geclassificeerd betekent dat de waarschuwing niet kan worden gebruikt of dat de waarschuwing onjuist is gegenereerd door het waarschuwingsproces en eventuele trainbare classificaties. Als u het item als verkeerd geclassificeerde oplossing opvat, worden berichtinhoud, bijlagen en het onderwerp van het bericht (inclusief metagegevens) naar Microsoft gestuurd om trainbare classificaties te verbeteren. Gegevens die naar Microsoft worden verzonden, bevatten geen gegevens die gebruikers in uw organisatie kunnen identificeren of kunnen worden gebruikt. Verdere acties kunnen niet worden ondernomen op het bericht en alle verkeerd geclassificeerde berichten worden weergegeven op **het tabblad** Opgelost.
 - **Power Automate (voorbeeld)**: Gebruik een Power Automate om procestaken voor een waarschuwingsbericht te automatiseren. Communicatie compliance bevat standaard de *Meldingsmanager* wanneer een gebruiker een waarschuwingssjabloon communicatie compliance heeft die revisoren kunnen gebruiken om het meldingsproces voor gebruikers met berichtwaarschuwingen te automatiseren. Voor meer informatie over het maken en beheren van Power Automate in communicatie compliance, zie [het](communication-compliance-feature-reference.md#power-automate-flows) artikel met de functie Communicatie compliance.
 - **Tag als**: Tag het bericht als *compatibel*,  *niet-compatibel* of net zo twijfelachtig als het betrekking heeft op het beleid en de standaarden voor uw organisatie. Door tags toe te voegen en opmerkingen te labelen, kunt u beleidswaarschuwingen microfilteren voor escalaties of als onderdeel van andere interne controleprocessen. Nadat het labelen is voltooid, kunt u er ook voor kiezen om het bericht op te lossen om het bericht uit de wachtrij voor in behandeling zijnde revisie te verplaatsen.
 - **Melding:** U kunt het besturingselement **Melding** gebruiken om een aangepaste kennisgevingssjabloon toe te wijzen aan de waarschuwing en om een waarschuwing naar de gebruiker te verzenden. Kies de juiste kennisgevingssjabloon die  is geconfigureerd in het gebied Communicatie **compliance-instellingen** en selecteer Verzenden naar e-mail een herinnering naar de gebruiker die het bericht heeft verzonden en om het probleem op te lossen.

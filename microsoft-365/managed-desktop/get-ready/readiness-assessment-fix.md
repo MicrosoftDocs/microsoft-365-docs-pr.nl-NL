@@ -10,12 +10,12 @@ ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 9d2f9a95b3d5d90b79122d55477284083ea8332e
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 866d1a2de820fca4c66537583dc5f55098149931
+ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286883"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53327009"
 ---
 # <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>Los problemen op die door het hulpprogramma voor gereedheidsevaluatie worden gevonden
 
@@ -212,6 +212,13 @@ U hebt een beveiligingslijnprofiel dat is gericht op alle gebruikers, alle appar
 
 Zorg ervoor dat alle beveiligingslijnbeleidsregels die u hebt uitgesloten Microsoft Managed Desktop apparaten. Zie Beveiligingslijnlijnen gebruiken voor het configureren van [Windows 10 apparaten in Intune](/mem/intune/protect/security-baselines)voor stappen. Tijdens de inschrijving passen we een nieuwe beveiligingslijn toe op alle Microsoft Managed Desktop apparaten. De groep Moderne **werkplekapparaten -Alle** Azure AD-groep is een dynamische groep die we maken wanneer u zich inschrijft voor Microsoft Managed Desktop, dus u moet terugkomen om deze groep uit te sluiten na de inschrijving. 
 
+### <a name="unlicensed-admins"></a>Beheerders zonder vergunning
+
+Deze instelling moet zijn ingeschakeld om een fout 'gebrek aan machtigingen' te voorkomen wanneer we werken met uw Azure AD-organisatie. 
+
+**Nog niet klaar**
+
+**Toegang toestaan tot beheerders zonder een** vergunning moet zijn ingeschakeld. Zie Vereisten [voor gastaccounts](/microsoft-365/managed-desktop/get-ready/guest-accounts)voor stappen.
 
 ### <a name="windows-apps"></a>Windows apps
 

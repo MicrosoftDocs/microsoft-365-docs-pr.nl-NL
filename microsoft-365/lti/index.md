@@ -13,12 +13,12 @@ ms.collection:
 - M365-modern-desktop
 localization_priority: None
 description: Meer informatie over Learning Tools Interoperability (LTI) Office apps in M365 en hoe ze docenten helpen bij het integreren van Office-apps in hun Learning Management System (LMS).
-ms.openlocfilehash: 4fd7b25b6463eec4f681e3090bb65db8b00351a8
-ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
+ms.openlocfilehash: 34956eac57a7e3af44ca1c8cf8ae2714327e3e96
+ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53256676"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53322339"
 ---
 # <a name="integrating-microsoft-products-with-your-learning-management-system-lms"></a>Microsoft-producten integreren met uw Learning Management System (LMS)
 
@@ -78,3 +78,5 @@ Zie Voor configuratiestappen [Gebruik Microsoft Teams vergaderingen met Canvas.]
 Met Microsoft Teams LTI-app kunnen docenten en leerlingen/studenten navigeren tussen hun LMS en Teams. Gebruikers hebben rechtstreeks vanuit hun LMS toegang tot hun klasteams die aan hun cursus zijn gekoppeld. Hieronder vindt u configuratiestappen:
 
 - **Teams Klassen LTI met Canvas** [Gebruiken Microsoft Teams met Canvas.](teams-classes-with-canvas.md)
+
+- **Teams Classes LTI met Blackboard** [Use Microsoft Teams classes with Blackboard Learn Ultra](teams-classes-with-blackboard.md)

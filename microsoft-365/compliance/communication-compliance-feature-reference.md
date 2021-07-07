@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: f94d2bbb8a65a4004ee05b9d740f94ae841f9a4e
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 8a81c65d65704262230e6eb6245d882b63a18bab
+ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227373"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53322291"
 ---
 # <a name="communication-compliance-feature-reference"></a>Verwijzing naar communicatie-compliancefunctie
 
@@ -52,7 +52,7 @@ Communicatie wordt elke 24 uur gescand vanaf het moment dat beleid wordt gemaakt
 
 ## <a name="pausing-a-policy-preview"></a>Een beleid onderbreken (voorbeeld)
 
-Nadat u een communicatie-compliancebeleid hebt gemaakt, wordt het beleid mogelijk tijdelijk onderbroken indien nodig. Het onderbreken van een beleid kan worden gebruikt voor het testen of oplossen van problemen met beleidscondities of voor het optimaliseren van beleidsvoorwaarden. In plaats van een beleid in deze omstandigheden te verwijderen, worden bij het onderbreken van een beleid ook bestaande beleidswaarschuwingen en berichten bewaard voor lopende onderzoeken en beoordelingen. Als u een beleid pauzeert, wordt voorkomen dat alle gebruikersberichtvoorwaarden die in het beleid zijn gedefinieerd, worden gecontroleerd en gewaarschuwd wanneer het beleid wordt onderbroken. Als u een beleid wilt onderbreken of opnieuw wilt starten, moeten gebruikers lid zijn van de rollengroep *Communicatie compliancebeheerder.*
+Nadat u een communicatie-compliancebeleid hebt gemaakt, wordt het beleid mogelijk tijdelijk onderbroken indien nodig. Het onderbreken van een beleid kan worden gebruikt voor het testen of oplossen van problemen met beleidscondities of voor het optimaliseren van beleidsvoorwaarden. In plaats van een beleid in deze omstandigheden te verwijderen, worden bij het onderbreken van een beleid ook bestaande beleidswaarschuwingen en berichten bewaard voor lopende onderzoeken en beoordelingen. Als u een beleid pauzeert, wordt voorkomen dat alle gebruikersberichtvoorwaarden worden gecontroleerd en gewaarschuwd die zijn gedefinieerd in het beleid voor de tijd dat het beleid wordt onderbroken. Als u een beleid wilt onderbreken of opnieuw wilt starten, moeten gebruikers lid zijn van de rollengroep *Communicatie compliancebeheerder.*
 
 Als u een beleid wilt onderbreken, gaat u naar de **pagina** Beleid, selecteert u een beleid en selecteert u Vervolgens **Beleid onderbreken** op de werkbalk Acties. In het **deelvenster Beleid onderbreken** bevestigt u dat u het beleid wilt onderbreken door Onderbreken te **selecteren.** In sommige gevallen kan het tot 24 uur duren voordat een beleid is onderbroken. Wanneer het beleid is onderbroken, worden er geen waarschuwingen gemaakt voor berichten die overeenkomen met het beleid. Berichten die zijn gekoppeld aan waarschuwingen die zijn gemaakt vóór het onderbreken van het beleid, blijven echter beschikbaar voor onderzoek, controle en herstel.
 
@@ -80,7 +80,7 @@ Kies uit deze opties voor rollengroep bij het configureren van communicatie comp
 
 |**Rollengroep**|**Machtigingen voor rollengroep**|
 |:-----|:-----|
-| **Naleving van communicatie** | Gebruik deze rollengroep om communicatie compliance voor uw organisatie in één groep te beheren. Door alle gebruikersaccounts toe te voegen voor aangewezen beheerders, analisten, onderzoeker en kijkers, kunt u communicatie compliancemachtigingen configureren in één groep. Deze rollengroep bevat alle machtigingsrollen voor communicatie compliance. Deze configuratie is de eenvoudigste manier om snel aan de slag te gaan met communicatie-compliance en is geschikt voor organisaties die geen afzonderlijke machtigingen nodig hebben die zijn gedefinieerd voor afzonderlijke groepen gebruikers. |
+| **Communicatiecompliance** | Gebruik deze rollengroep om communicatie compliance voor uw organisatie in één groep te beheren. Door alle gebruikersaccounts toe te voegen voor aangewezen beheerders, analisten, onderzoeker en kijkers, kunt u communicatie compliancemachtigingen configureren in één groep. Deze rollengroep bevat alle machtigingsrollen voor communicatie compliance. Deze configuratie is de eenvoudigste manier om snel aan de slag te gaan met communicatie-compliance en is geschikt voor organisaties die geen afzonderlijke machtigingen nodig hebben die zijn gedefinieerd voor afzonderlijke groepen gebruikers. |
 | **Communicatie compliancebeheerder** | Gebruik deze rollengroep om communicatie compliance in eerste instantie te configureren en later om beheerders van communicatie compliance te scheiden in een gedefinieerde groep. Gebruikers die aan deze rollengroep zijn toegewezen, kunnen communicatie compliancebeleid, globale instellingen en toewijzingen voor rollengroepen maken, lezen, bijwerken en verwijderen. Gebruikers die aan deze rollengroep zijn toegewezen, kunnen geen berichtwaarschuwingen weergeven. |
 | **Communicatie compliance-analist** | Gebruik deze groep om machtigingen toe te wijzen aan gebruikers die fungeren als communicatie-complianceanalisten. Gebruikers die aan deze rollengroep zijn toegewezen, kunnen beleid weergeven waar ze zijn toegewezen als revisoren, metagegevens van berichten weergeven (geen berichtinhoud), escaleren naar andere revisoren of meldingen verzenden naar gebruikers. Analisten kunnen waarschuwingen in behandeling niet oplossen. |
 | **Communicatie compliance-onderzoeker** | Gebruik deze groep om machtigingen toe te wijzen aan gebruikers die fungeren als communicatie compliance-onderzoeker. Gebruikers die aan deze rollengroep zijn toegewezen, kunnen metagegevens en inhoud van berichten bekijken, escaleren naar andere revisoren, escaleren naar een Advanced eDiscovery-geval, meldingen naar gebruikers verzenden en de waarschuwing oplossen. |
@@ -188,12 +188,13 @@ Ingebouwde, trainbare en globale classificaties scannen verzonden of ontvangen b
 
 Communicatie compliance ingebouwde trainable en globale classifiers scannen communicatie op termen, afbeeldingen en sentiment voor de volgende typen taal en inhoud:
 
-- **Bedreiging:** scant op bedreigingen om geweld of fysiek letsel toe te brengen aan een persoon of eigenschap.
-- **Gerichte pesterijen:** Scans voor aanstootgevend gedrag gericht op personen met betrekking tot ras, kleur, religie, nationale origin.
-- **Grof taalgebruik:** scant naar profane expressies die de meeste mensen in verlegenheid brengen.
 - **Afbeeldingen voor volwassenen:** scant naar afbeeldingen die van seksuele aard zijn.
-- **Ijzige afbeeldingen:** scant naar afbeeldingen die een seksuele suggestie hebben, maar die minder expliciete inhoud bevatten dan afbeeldingen die als Volwassene worden beschouwd.
+- **Discriminatie (voorbeeld)**: scant op expliciete discriminatoire taal en is met name gevoelig voor discriminatoire taal ten opzichte van de Afrikaanse Amerikaanse/zwarte gemeenschappen in vergelijking met andere gemeenschappen.
 - **Gory images**: Scans for images that depict violence and gore.
+- **Grof taalgebruik:** scant naar profane expressies die de meeste mensen in verlegenheid brengen.
+- **Ijzige afbeeldingen:** scant naar afbeeldingen die een seksuele suggestie hebben, maar die minder expliciete inhoud bevatten dan afbeeldingen die als Volwassene worden beschouwd.
+- **Gerichte pesterijen:** Scans voor aanstootgevend gedrag gericht op personen met betrekking tot ras, kleur, religie, nationale origin.
+- **Bedreiging:** scant op bedreigingen om geweld of fysiek letsel toe te brengen aan een persoon of eigenschap.
 
 Met *de* classificaties Volwassenen, *Racy* en *Gory* worden bestanden gescand in .jpeg-, .png-, .gif- en .bmp-indelingen. De grootte van afbeeldingsbestanden moet kleiner zijn dan 4 mb (MB) en de afmetingen van de afbeeldingen moeten groter zijn dan 50x50 pixels en groter dan 50 kilobytes (KB) om de afbeelding in aanmerking te laten komen voor evaluatie. Afbeeldingsidentificatie wordt ondersteund Exchange Online e-mailberichten en Microsoft Teams kanalen en chats.
 
@@ -553,7 +554,7 @@ Dit voorbeeld retourneert activiteiten die overeenkomen met uw huidige beleid vo
 Search-UnifiedAuditLog -StartDate $startDate -EndDate $endDate -Operations SupervisionRuleMatch
 ```
 
-Communicatie compliancebeleids matches worden opgeslagen in een postvak voor toezicht voor elk beleid. In sommige gevallen moet u mogelijk de grootte van uw postvak controleren op een beleid om te controleren of u de huidige limiet van 50 GB niet bereikt. Als de limiet voor het postvak is bereikt, worden beleidswedstrijden niet vastgelegd en moet u een nieuw beleid maken (met dezelfde instellingen) om overeenkomsten voor dezelfde activiteiten vast te blijven leggen.
+Communicatie compliancebeleids matches worden opgeslagen in een postvak voor toezicht voor elk beleid. In sommige gevallen moet u mogelijk de grootte van uw postvak controleren op een beleid om te controleren of de huidige limiet van 50 GB niet wordt bereikt. Als de limiet voor het postvak is bereikt, worden beleidswedstrijden niet vastgelegd en moet u een nieuw beleid maken (met dezelfde instellingen) om overeenkomsten voor dezelfde activiteiten vast te blijven leggen.
 
 Als u de grootte van een toezichtpostvak voor een beleid wilt controleren, gaat u als volgt te werk:
 

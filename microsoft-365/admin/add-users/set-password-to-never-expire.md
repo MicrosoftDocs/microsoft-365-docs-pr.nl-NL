@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: f493e3af-e1d8-4668-9211-230c245a0466
 description: Meld u aan bij uw Microsoft 365 beheerdersaccount om bepaalde afzonderlijke gebruikerswachtwoorden zo in te stellen dat ze nooit verlopen met behulp van Windows PowerShell.
-ms.openlocfilehash: a0b247f4b736ecccab57398e1e7131f0a06a2958
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: c9f0c245aca0e028183c42f6a257068d74aa563d
+ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286260"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53326721"
 ---
 # <a name="set-an-individual-users-password-to-never-expire"></a>Het wachtwoord van een gebruiker zo instellen dat het nooit verloopt
 
@@ -43,8 +43,6 @@ Een globale beheerder van een Microsoft-cloudservice kan de Azure Active Directo
 
 Deze handleiding is van toepassing op andere providers, zoals Intune en Microsoft 365, die ook afhankelijk zijn van Azure AD voor identiteits- en adreslijstservices. Wachtwoordverloop is het enige deel van het beleid dat kan worden gewijzigd.
 
-> [!NOTE]
-> Alleen wachtwoorden voor gebruikersaccounts die niet worden gesynchroniseerd via adreslijstsynchronisatie, kunnen zo worden geconfigureerd dat ze niet verlopen. Zie voor meer informatie over adreslijstsynchronisatie [Verbinding maken AD met Azure AD.](/azure/active-directory/connect/active-directory-aadconnect)
 
 ## <a name="how-to-check-the-expiration-policy-for-a-password"></a>Het verloopbeleid controleren op een wachtwoord
 

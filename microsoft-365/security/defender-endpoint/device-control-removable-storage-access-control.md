@@ -16,18 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 8b32ab5162e0022d9500f7ddba2fe5bbca1017e7
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 0b0f7c5a4a75fdc80509dbc02a43d28f7c93fd7c
+ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53229573"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53327045"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-access-control"></a>Microsoft Defender voor Endpoint Device Control Verwisselbare Storage Access Control
 
 [!INCLUDE [Prerelease](../includes/prerelease.md)]
 
 Met Microsoft Defender voor Endpoint Device Control Verwisselbaar Storage Access Control kunt u de volgende taak uitvoeren:
+
 - het lezen, schrijven of uitvoeren van toegang tot verwisselbare opslag, met of zonder uitsluiting, toestaan of voorkomen
 
 |Privilege |Machtiging  |
@@ -47,6 +48,8 @@ Verwisselbare Storage Access Control implementeren op Windows 10 apparaten met a
 
 - **4.18.2105** of hoger : Jokertekenondersteuning toevoegen voor HardwareId/DeviceId/InstancePathId/FriendlyNameId/SerialNumberId, de combinatie van specifieke gebruiker op een specifieke computer, verwijderbare SSD (een SanDisk Extreme SSD)/USB Attached SCSI (UAS) ondersteuning
 
+- **4.18.2107** of hoger: Ondersteuning voor Windows Portable Device (WPD) toevoegen (voor mobiele apparaten, zoals tablets)
+
 :::image type="content" source="images/powershell.png" alt-text="De PowerShell-interface":::
 
 > [!NOTE]
@@ -62,15 +65,14 @@ U kunt de volgende eigenschappen gebruiken om een verwisselbare opslaggroep te m
 
 **Eigenschapsnaam: DescriptorIdList**
 
-1. Beschrijving: Vermeld de apparaateigenschappen die u wilt gebruiken voor de groep.
-Vermeld de apparaateigenschappen die u wilt gebruiken voor de groep.
+2. Beschrijving: Vermeld de apparaateigenschappen die u wilt gebruiken voor de groep.
 Zie voor elke apparaateigenschappen de sectie **Apparaateigenschappen** hierboven voor meer informatie.
 
-1. Opties:
-
-    - Primaire id
+3. Opties:
+    - PrimaryId
         - VerwisselbareMediaDevices
         - CdRomDevices
+        - WpdDevices
     - DeviceId
     - HardwareId
     - InstancePathId: InstancePathId is een tekenreeks die het apparaat in het systeem uniek identificeert, bijvoorbeeld USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611&0. Het getal aan het einde **(bijvoorbeeld&0)** vertegenwoordigt de beschikbare sleuf en kan veranderen van apparaat naar apparaat. Voor de beste resultaten gebruikt u een jokerteken aan het einde. Bijvoorbeeld: USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611*
@@ -87,7 +89,7 @@ Zie voor elke apparaateigenschappen de sectie **Apparaateigenschappen** hierbove
 
 1. Beschrijving: Wanneer er meerdere apparaateigenschappen worden gebruikt in de DescriptorIDList, definieert MatchType de relatie.
 
-1. Opties:
+2. Opties:
 
     - MatchAll: Alle kenmerken onder de DescriptorIdList zijn **En-relatie;** Als de beheerder bijvoorbeeld DeviceID en InstancePathID plaatst, controleert het systeem voor elke aangesloten USB of de USB aan beide waarden voldoet.
     - MatchAny: De kenmerken onder de DescriptorIdList zijn **Of-relatie;** Als de beheerder bijvoorbeeld DeviceID en InstancePathID plaatst, voert het systeem voor elke aangesloten  USB de afdwinging uit, zolang de USB een identieke Apparaat-id- of Exemplaar-id-waarde heeft. 
@@ -100,9 +102,9 @@ Hieronder volgen de eigenschappen van het toegangsbeheerbeleid:
 
 **Naam van eigenschap: IncludedIdList**
 
-2. Beschrijving: De groep(en) waar het beleid op wordt toegepast. Als er meerdere groepen worden toegevoegd, wordt het beleid toegepast op alle media in al deze groepen.
+1. Beschrijving: De groep(en) waar het beleid op wordt toegepast. Als er meerdere groepen worden toegevoegd, wordt het beleid toegepast op alle media in al deze groepen.
 
-3. Opties: De groeps-id/GUID moet in dit exemplaar worden gebruikt.
+2. Opties: De groeps-id/GUID moet in dit exemplaar worden gebruikt.
 
 In het volgende voorbeeld ziet u het gebruik van GroupID:
 
@@ -135,11 +137,11 @@ Wanneer er conflicttypen voor dezelfde media zijn, wordt het eerste conflict in 
 
 **Naam van eigenschap: Sid**
 
-Beschrijving: Hiermee bepaalt u of u dit beleid moet toepassen op specifieke gebruikers of gebruikersgroep; een vermelding kan maximaal één Sid hebben en een vermelding zonder dat sid betekent dat het beleid op de computer wordt toegepast.
+Beschrijving: Lokale computer Sid of de Sid van het AD-object definieert of u dit beleid wilt toepassen op een specifieke gebruiker of gebruikersgroep; een vermelding kan maximaal één Sid hebben en een vermelding zonder dat sid betekent dat het beleid op de computer wordt toegepast.
 
 **Naam van eigenschap: ComputerSid**
 
-Beschrijving: Hiermee bepaalt u of u dit beleid moet toepassen op een specifieke machine- of machinegroep; één invoer kan maximaal één ComputerSid hebben en een vermelding zonder computerSid betekent dat u het beleid op de computer moet toepassen. Als u een vermelding wilt toepassen op een specifieke gebruiker en specifieke computer, voegt u zowel Sid als ComputerSid toe aan dezelfde vermelding.
+Beschrijving: Lokale computer Sid of de Sid van het AD-object, bepaalt of u dit beleid wilt toepassen op een specifieke machine of machinegroep; een vermelding kan maximaal één ComputerSid hebben en een vermelding zonder computerSid betekent dat u het beleid op de computer moet toepassen. Als u een vermelding wilt toepassen op een specifieke gebruiker en specifieke computer, voegt u zowel Sid als ComputerSid toe aan dezelfde vermelding.
 
 **Eigenschapsnaam: Opties**
 
@@ -322,6 +324,7 @@ DeviceEvents
 :::image type="content" source="images/block-removable-storage.png" alt-text="Het scherm met de blokkering van de verwisselbare opslag":::
 
 ## <a name="frequently-asked-questions"></a>Veelgestelde vragen
+
 **Wat is de beperking van verwisselbare opslagmedia voor het maximum aantal USB's?**
 
 We hebben één USB-groep gevalideerd met 100.000 media- tot 7 MB groot. Het beleid werkt in zowel Intune als GPO zonder prestatieproblemen.
@@ -347,4 +350,3 @@ DeviceFileEvents
 | summarize dcount(DeviceName) by PlatformVersion // check how many machines are using which platformVersion
 | order by PlatformVersion desc
 ```
-

@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Informatie over de basisstappen voor het maken van een trefwoordenlijst in het Office 365-beveiligings- en compliancecentrum.
-ms.openlocfilehash: 661ca9e227e8583bb6b601792e178c1c366132cb
-ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
+ms.openlocfilehash: 8d313650f298f2ab26989bec9df1260918f7dd5c
+ms.sourcegitcommit: 17d82e5617f0466eb825e15ab88594afcdaf4437
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53256709"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "53300102"
 ---
 # <a name="create-a-keyword-dictionary"></a>Een woordenlijst met trefwoorden maken
 
@@ -183,7 +183,12 @@ U plak de identiteit in uw aangepast type gevoelige informatie-XML en u upload d
 >Deze ondersteuning is beschikbaar voor typen gevoelige informatie. Zie [Ondersteuning voor Information Protection voor releaseopmerkingen bij dubbel-bytetekensets (preview)](mip-dbcs-relnotes.md) voor meer informatie.
 
 > [!TIP]
-> Om patronen te detecteren die Chinese/Japanse karakters en enkelbyte karakters bevatten of om patronen te detecteren die Chinees/Japans en Engels bevatten, definieert u twee varianten van het trefwoord of de regex. Om bijvoorbeeld een trefwoord als "机密的document" te detecteren, gebruikt u twee varianten van het trefwoord; een met een spatie tussen de Japanse en Engelse tekst en een andere zonder een spatie tussen de Japanse en Engelse tekst. De trefwoorden die in de SIT moeten worden toegevoegd, moeten dus "机密的 document" en "机密的document" zijn. Evenzo moeten twee varianten worden gebruikt om een zin "東京オリンピック2020" te detecteren; "東京オリンピック 2020" en "東京オリンピック2020".
-> Zorg er bij het maken van een regex met een dubbelbyte-afbreekstreepje of een dubbele-byte-periode voor dat u beide tekens escaped, zoals een koppelteken of een punt in een regex. Hier is een voorbeeldregex ter referentie:
-    - (?<!\d)([４][０-９]{3}[\-?\－\t]*[０-９]{4}
+> Om patronen te detecteren die Chinese/Japanse karakters en enkelbyte karakters bevatten of om patronen te detecteren die Chinees/Japans en Engels bevatten, definieert u twee varianten van het trefwoord of de regex. 
+>
+> Om bijvoorbeeld een trefwoord als "机密的document" te detecteren, gebruikt u twee varianten van het trefwoord; een met een spatie tussen de Japanse en Engelse tekst en een andere zonder een spatie tussen de Japanse en Engelse tekst. De trefwoorden die in de SIT moeten worden toegevoegd, moeten dus "机密的 document" en "机密的document" zijn. Evenzo moeten twee varianten worden gebruikt om een zin "東京オリンピック2020" te detecteren; "東京オリンピック 2020" en "東京オリンピック2020".
+>
+> Tijdens het maken van een regex met behulp van een dubbel byteafbreekstreepje of een dubbele byteperiode, moet u ervoor zorgen dat beide tekens, zoals één, een afbreekstreepje of een punt in een regex. Hier volgt een voorbeeld van een regex ter referentie:
+>
+>    - (?<!\d)([４][０-９]{3}[\-?\－\t]*[０-９]{4}
+>
 > We raden u aan een tekenreeksovereenkomst te gebruiken in plaats van een woordovereenkomst in een zoekwoordenlijst.

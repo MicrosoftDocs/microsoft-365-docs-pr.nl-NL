@@ -20,12 +20,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 2bf40f5b1d89b7a232f86c1e186ca660db9f8bbc
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 470b33ca3201151fb164640eeb93c50daf7bb458
+ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227281"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53322363"
 ---
 # <a name="learn-about-communication-compliance-in-microsoft-365"></a>Meer informatie over communicatie compliance in Microsoft 365
 
@@ -79,7 +79,7 @@ Communicatie compliance in Microsoft 365 biedt verschillende belangrijke functie
 Met intelligente aanpasbare sjablonen in communicatie compliance kunt u machine learning toepassen om op intelligente wijze communicatieovertredingen in uw organisatie te detecteren.
 
 - **Aanpasbare vooraf geconfigureerde sjablonen:** Met nieuwe beleidssjablonen kunt u de meest voorkomende communicatierisico's aanpakken. De eerste beleidscreatie en follow-on-update gaan nu sneller met vooraf gedefinieerde anti-pesterijen en aanstootgevende taal, gevoelige informatie, conflicterende sjablonen en nalevingssjablonen voor regelgeving.
-- Nieuwe ondersteuning voor **machine learning:** Ingebouwde bedreigingen, [](classifier-get-started-with.md) pesterijen, grof taalgebruik en classificaties voor afbeeldingen helpen bij het verminderen van fout-positieven in gescande berichten, waardoor revisoren tijd besparen tijdens het onderzoek en herstelproces.
+- Nieuwe ondersteuning voor **machine learning:** Ingebouwde discriminatie, bedreiging, [](classifier-get-started-with.md) pesterijen, grof taalgebruik en classificaties voor afbeeldingen helpen om verkeerd geclassificeerde inhoud in gescande berichten te verminderen, waardoor revisoren tijd besparen tijdens het onderzoek en herstelproces.
 - **Verbeterde opbouwer van** voorwaarden: Het configureren van beleidsvoorwaarden is nu gestroomlijnd in één geïntegreerde ervaring in de beleidswizard, waardoor verwarring over de manier waarop voorwaarden voor beleid worden toegepast, wordt verkleind.
 
 ### <a name="flexible-remediation-workflows"></a>Flexibele herstelwerkstromen
@@ -154,11 +154,11 @@ In deze stap gaat u dieper in op de problemen die zijn gedetecteerd als overeenk
 
 De volgende stap is het oplossen van complianceproblemen met communicatie die u hebt onderzocht met de volgende opties:
 
-- **Oplossen:** Nadat u een probleem hebt beoordeeld, kunt u dit verhelpen door de waarschuwing op te lossen. Als een waarschuwing wordt opgelost, wordt deze verwijderd uit de wachtrij met in behandeling zijnde waarschuwingen en blijft de actie behouden als een vermelding in de opgeloste wachtrij voor het overeenkomende beleid. Waarschuwingen worden automatisch opgelost nadat de waarschuwing als onwaar positief is markeren, een melding naar een gebruiker over de waarschuwing wordt verzonden of een nieuw geval voor de waarschuwing wordt geopend.
+- **Oplossen:** Nadat u een probleem hebt beoordeeld, kunt u dit verhelpen door de waarschuwing op te lossen. Als een waarschuwing wordt opgelost, wordt deze verwijderd uit de wachtrij met in behandeling zijnde waarschuwingen en blijft de actie behouden als een vermelding in de opgeloste *wachtrij* voor het overeenkomende beleid. Waarschuwingen worden automatisch opgelost nadat de waarschuwing is geclassificeerd als verkeerd geclassificeerd, een melding naar een gebruiker over de waarschuwing wordt verzonden of een nieuw geval voor de waarschuwing is geopend.
 - **Een bericht** taggen: Als onderdeel van de oplossing van een probleem kunt u het gedetecteerde bericht taggen als compatibel, niet-compatibel of als twijfelachtig als het betrekking heeft op het beleid en de standaarden voor uw organisatie. Met labelen kunt u beleidswaarschuwingen voor microfilters voor escalaties of als onderdeel van andere interne controleprocessen gebruiken.
 - **De gebruiker op de** hoogte stellen: gebruikers zijn vaak per ongeluk of per ongeluk in strijd met een communicatie-compliancebeleid. U kunt de meldingsfunctie gebruiken om de gebruiker een waarschuwing te geven en het probleem op te lossen.
 - **Escaleren naar een andere** revisor: Soms heeft de eerste revisor van een probleem input nodig van andere revisoren om het incident op te lossen. U kunt berichtproblemen eenvoudig escaleren naar revisoren in andere gebieden van uw organisatie als onderdeel van het oplossingsproces.
-- **Markeren als een onwaar** positief: berichten die onjuist zijn gedetecteerd als overeenkomsten met compliancebeleid, worden af en toe door de controleprocedure geslipt. U kunt dit type waarschuwingen markeren als onwaar-positieven en het probleem automatisch oplossen.
+- **Rapport als onjuist geclassificeerd:** Berichten die onjuist zijn gedetecteerd als overeenkomsten met compliancebeleid, worden af en toe door de controleprocedure geslipt. U kunt dit type waarschuwingen markeren als verkeerd geclassificeerd, feedback sturen naar Microsoft over de verkeerde classificatie om globale classificaties te verbeteren en het probleem automatisch op te lossen.
 - **Bericht verwijderen in Teams (voorbeeld)**: Ongepaste berichten kunnen worden verwijderd uit de weergave in Microsoft Teams kanalen of persoonlijke en groepschatberichten. Ongepaste berichten die worden verwijderd, worden vervangen door een melding dat het bericht is verwijderd vanwege een beleidsovertreding.
 - **Escaleren voor onderzoek:** In de meest ernstige situaties moet u mogelijk informatie over communicatie compliance delen met andere revisoren in uw organisatie. Communicatie compliance is nauw geïntegreerd met andere Microsoft 365 compliancefuncties om u te helpen bij het oplossen van end-to-endrisico's. Als u een zaak voor onderzoek escaleert, kunt u gegevens en het beheer van de zaak overbrengen naar Advanced eDiscovery in Microsoft 365. Advanced eDiscovery biedt een end-to-end werkstroom voor het bewaren, verzamelen, controleren, analyseren en exporteren van inhoud die reageert op interne en externe onderzoeken van uw organisatie. Hiermee kunnen juridische teams de volledige werkstroom voor meldingen in juridische wacht houden beheren. Zie Overzicht van Advanced eDiscovery in Microsoft 365 voor meer informatie over Advanced eDiscovery [gevallen.](overview-ediscovery-20.md)
 

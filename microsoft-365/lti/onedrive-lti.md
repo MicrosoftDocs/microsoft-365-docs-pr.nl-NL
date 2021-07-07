@@ -13,12 +13,12 @@ ms.collection: M365-modern-desktop
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: Maak en cijfertoewijzingen, bouw en beheer cursusinhoud en werk in realtime samen aan bestanden met de nieuwe Microsoft OneDrive Learning Tools Interoperability App.
-ms.openlocfilehash: 985a316bac689b9bc6c53ab65782d548fcad0db8
-ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
+ms.openlocfilehash: bcb374ed1666f23fa5f3d4692f43a4369670e891
+ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53256972"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53322219"
 ---
 # <a name="integrate-microsoft-onedrive-lti-with-canvas"></a>Integratie Microsoft OneDrive LTI met Canvas
 
@@ -40,7 +40,11 @@ Het integreren Microsoft OneDrive LTI met Canvas is een proces in twee stappen. 
 
 1. Meld u aan <a href="https://onedrivelti.microsoft.com/admin" target="_blank">bij Microsoft OneDrive LTI-registratieportal</a>
 1. Selecteer de **knop Toestemming van** beheerder en accepteer de machtigingen.
-1. Selecteer de **knop Nieuwe LTI-tenant** maken. Selecteer canvas op de  pagina LTI-registratie in de vervolgkeuzekeuzepagina en voer de basis-URL van het canvas-exemplaar in.
+
+> [!CAUTION]
+> Als deze stap niet wordt uitgevoerd, krijgt u een foutmelding in de volgende stap en kunt u deze stap een uur lang niet uitvoeren nadat u de fout hebt gekregen.
+
+3. Selecteer de **knop Nieuwe LTI-tenant** maken. Selecteer canvas op de  pagina LTI-registratie in de vervolgkeuzekeuzepagina en voer de basis-URL van het canvas-exemplaar in.
 
 > [!NOTE]
 > Als uw canvas-exemplaar bijvoorbeeld https://contoso.test.instructure.com ]( https://contoso.test.instructure.com) is, moet de volledige URL worden ingevoerd.

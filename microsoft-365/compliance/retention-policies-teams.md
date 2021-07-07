@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Lees meer over bewaarbeleid dat van toepassing is op Microsoft Teams.
-ms.openlocfilehash: b459665d9b92705bd575a7a79a4d4d6adc2a3f68
-ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
+ms.openlocfilehash: 5d888232d94ccd6634fc6102c26958e20d88fb4d
+ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53256313"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53322399"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Meer informatie over retentie voor Microsoft Teams
 
@@ -196,12 +196,6 @@ Wanneer externe gebruikers worden opgenomen in een vergadering die uw organisati
 Als een gebruiker met een postvak in Exchange Online uw organisatie verlaat en zijn of haar Microsoft 365-account wordt verwijderd, worden chatberichten die moeten worden bewaard, opgeslagen in een inactief postvak. De chatberichten blijven onderworpen aan het bewaarbeleid dat op de gebruiker van toepassing was voordat het postvak inactief werd en de inhoud blijft beschikbaar voor een eDiscovery-zoekopdracht. Zie voor meer informatie [Inactive postvakken in Exchange Online](inactive-mailboxes-in-office-365.md). 
 
 Raadpleeg de [equivalente sectie](retention-policies-sharepoint.md#when-a-user-leaves-the-organization) voor SharePoint en OneDrive als de gebruiker bestanden in Teams heeft opgeslagen.
-
-## <a name="limitations"></a>Beperkingen
-
-We werken voortdurend aan het optimaliseren van functionaliteit voor bewaren in Teams. In de tussentijd moet u rekening houden met de volgende beperking wanneer u bewaarbeleid gebruikt voor kanaalberichten en chats van Teams:
-
-- **Foutieve weergave in Outlook**. Als u bewaarbeleid voor Skype- of Teams-locaties maakt, wordt een van deze beleidsregels weergegeven als het standaardmapbeleid wanneer een gebruiker de eigenschappen van een postvakmap in de Outlook-bureaubladclient bekijkt. Dit is een foutieve weergave in Outlook; het [probleem is bekend](https://support.microsoft.com/help/4491013/outlook-client-displays-teams-or-skype-for-business-retention-policies). In plaats daarvan zou u het bewaarbeleid voor postvakken moeten zien dat wordt toegepast op de map. Het bewaarbeleid voor Skype of Teams wordt niet toegepast op het postvak van de gebruiker.
 
 ## <a name="configuration-guidance"></a>Configuratie-richtlijnen
 
