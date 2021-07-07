@@ -1,0 +1,62 @@
+### YamlMime:Landing
+title: Testbasis voor Microsoft 365 documentatie
+summary: Test Base voor Microsoft 365 is een Azure-service die het testen van toepassingen op basis van gegevens mogelijk maakt. Dankzij de kracht van gegevens en de cloud kunnen IT-professionals overal ter wereld profiteren van intelligente tests. U kunt uw toepassingen testen zonder de moeite, tijdsbesteding en uitgaven voor het instellen en onderhouden van complexe testomgevingen. Het belangrijkste is dat u toegang krijgt tot pre-release Windows Updates op beveiligde virtuele machines (VM's) en intelligentie van wereldklasse voor uw toepassingen.
+metadata:
+  title: Testbasis voor M365-documentatie
+  description: Test Base voor Microsoft 365 is een Azure-service die het testen van toepassingen op basis van gegevens mogelijk maakt. Dankzij de kracht van gegevens en de cloud kunnen IT-professionals overal ter wereld profiteren van intelligente tests.
+  ms.service: service
+  ms.subservice: subservice
+  ms.topic: landing-page
+  ms.collection: collection
+  author: v-zhifufeng
+  ms.author: v-zhifufeng
+  ms.date: 03/29/2021
+  ms.openlocfilehash: 3833e05eea8f8598d228e261734fedb1b0cf2647
+  ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
+  ms.translationtype: MT
+  ms.contentlocale: nl-NL
+  ms.lasthandoff: 07/07/2021
+  ms.locfileid: "53322754"
+landingContent:
+- title: Informatie over Test Base
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Wat is Test Base?
+      url: overview.md
+  - linkListType: get-started
+    links:
+    - text: Testbasisaccount maken
+      url: createAccount.md
+  - linkListType: tutorial
+    links:
+    - text: extra-resources
+      url: faq.md
+- title: Aan de slag
+  linkLists:
+  - linkListType: quickstart
+    links:
+    - text: Testbasisaccount maken
+      url: createAccount.md
+    - text: Upload toepassing
+      url: uploadApplication.md
+    - text: Upload binaries
+      url: binaries.md
+    - text: Testtaken instellen
+      url: testtask.md
+    - text: Uw testopties kiezen
+      url: testoptions.md
+    - text: Uw selecties controleren
+      url: review.md
+    - text: Richtlijnen voor testpakketten
+      url: contentguideline.md
+    - text: Geheugen regressieanalyse
+      url: memory.md
+    - text: CPU-regressieanalyse
+      url: cpu.md
+- title: Verwijzingen krijgen
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Veelgestelde vragen
+      url: faq.md
