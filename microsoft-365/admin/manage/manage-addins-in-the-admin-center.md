@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Meer informatie over het gebruik van gecentraliseerde invoegvoegingen voor het implementeren van invoegingen voor gebruikers en groepen in uw organisatie.
-ms.openlocfilehash: d678755b28daea1578ce2a5d2e387492cf32d368
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: ed9086c77cdf10435bae09f76493af6058d2d758
+ms.sourcegitcommit: 8b0718f5607ab509092cb80bda854010d885c54f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636056"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53314385"
 ---
 # <a name="manage-add-ins-in-the-admin-center"></a>Invoegtoepassingen beheren in het beheercentrum
 
@@ -121,6 +121,9 @@ Ondersteuning voor het uitschakelen van Office Store is beschikbaar in de volgen
 - Het web- Momenteel beschikbaar.
     
 Hiermee wordt niet voorkomen dat een beheerder Gecentraliseerde implementatie gebruikt om invoegtoepassingen vanuit Office Store toe te wijzen.
+
+> [!NOTE] 
+> Invoegfuncties zoals Visio Data Visualizer, Bing Kaarten en Personen Graph worden nog steeds weergegeven op het lint, zelfs als een beheerder de Store heeft uitgeschakeld. Als u deze koppelingen wilt verwijderen, moeten beheerders de Store uitschakelen via groepsbeleidsobject (GPO).
   
 Om te voorkomen dat een gebruiker zich aanmeldt met een Microsoft-account, kunt u ervoor zorgen dat er alleen kan worden aangemeld met het account van de organisatie. Zie Identiteit, verificatie en autorisatie [in Office 2016 voor meer informatie.](/DeployOffice/security/identity-authentication-and-authorization-in-office)  
 

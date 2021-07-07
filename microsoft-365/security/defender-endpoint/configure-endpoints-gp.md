@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 24b24c634eac7ee125810d96587c9c1e209b6491
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: b4418cca035710c6b938dad31a2b55423d2ab458
+ms.sourcegitcommit: 8b0718f5607ab509092cb80bda854010d885c54f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286955"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53314402"
 ---
 # <a name="onboard-windows-10-devices-using-group-policy"></a>Onboard Windows 10 apparaten met groepsbeleid 
 
@@ -211,7 +211,7 @@ Om veiligheidsredenen verloopt het pakket dat wordt gebruikt voor Offboard-appar
 
 7. Schakel **Uitvoeren in of de gebruiker al** dan niet is aangemeld en schakel het selectievakje Uitvoeren met hoogste **bevoegdheden** in.
 
-8. Ga naar het **tabblad Acties** en klik op **Nieuw...**. Zorg ervoor **dat Een programma starten** is geselecteerd in het **veld** Actie. Voer de bestandsnaam en de locatie van het gedeelde  *WindowsDefenderATPOffboardingScript_valid_until_YYYY-MM-DD.cmd-bestand* in.
+8. Ga naar het **tabblad Acties** en klik op **Nieuw...**. Zorg ervoor **dat Een programma starten** is geselecteerd in het **veld** Actie. Voer het NetBIOS-pad van het gedeelde *WindowsDefenderATPOffboardingScript_valid_until_YYYY-MM-DD.cmd-bestand* in.
 
 9. Klik **op OK** en sluit alle geopende GPMC-vensters.
 

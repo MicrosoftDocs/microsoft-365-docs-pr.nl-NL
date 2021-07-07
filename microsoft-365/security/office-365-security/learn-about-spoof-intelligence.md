@@ -20,12 +20,12 @@ ms.custom:
 description: Beheerders kunnen meer informatie krijgen over het inzicht in spoof intelligence in Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a0131266d5830988ed23fc11e01323025aa6d50a
-ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
+ms.openlocfilehash: 0f2e1b59b1140b4ee5b187329dac51557ef4df87
+ms.sourcegitcommit: 8b0718f5607ab509092cb80bda854010d885c54f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53108521"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53314378"
 ---
 # <a name="spoof-intelligence-insight-in-eop"></a>Inzicht in spoof intelligence in EOP
 
@@ -81,10 +81,9 @@ In de rest van dit artikel wordt uitgelegd hoe u het inzicht in spoof intelligen
 
   Zie [Machtigingen in Exchange Online](/exchange/permissions-exo/permissions-exo) voor meer informatie.
 
-  **Opmerkingen**:
-
-  - Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen _en_ machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
-  - De functiegroep **Alleen-lezen organisatiebeheer** in [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) geeft ook alleen-lezentoegang tot deze functie.
+  > [!NOTE]
+  > - Gebruikers toevoegen aan de overeenkomstige Azure Active Directory-rol in het Microsoft 365-beheercentrum geeft gebruikers de benodigde machtigingen _en_ machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
+  > - De functiegroep **Alleen-lezen organisatiebeheer** in [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) geeft ook alleen-lezentoegang tot deze functie.
 
 - U schakelt spoofinformatie in en uit in anti-phishingbeleid in EOP en Microsoft Defender voor Office 365. Spoofinformatie is standaard ingeschakeld. Zie [Anti-phishingbeleid configureren in EOP](configure-anti-phishing-policies-eop.md) of [Anti-phishingbeleid configureren in Microsoft Defender](configure-mdo-anti-phishing-policies.md)voor Office 365.
 
@@ -92,9 +91,9 @@ In de rest van dit artikel wordt uitgelegd hoe u het inzicht in spoof intelligen
 
 ## <a name="open-the-spoof-intelligence-insight-in-the-microsoft-365-defender-portal"></a>Het inzicht in spoof intelligence openen in de Microsoft 365 Defender portal
 
-1. Ga in Microsoft 365 Defender portal naar De sectie Beleidsregels voor **e-mail & samenwerkingsbeleid** & pagina Beleidsregels voor bedreigingsregels \>  \>  \>  \> **Anti-phishing**.
+1. Ga in Microsoft 365 Defender portal naar **E-mail** & samenwerkingsbeleid & pagina Regels \>  \> **bedreigingsbeleidspagina** \> **Tenant Allow/Block Lists**.
 
-2. Op de **pagina Anti-phishing** ziet het inzicht in spoof intelligence er zo uit:
+2. Op de **pagina Tenant Allow/Block Lists** ziet het inzicht in spoof intelligence er als volgende uit:
 
    ![Inzicht in spoofinformatie op de pagina Anti-phishingbeleid](../../media/m365-sc-spoof-intelligence-insight.png)
 

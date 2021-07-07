@@ -13,16 +13,16 @@ ms.topic: article
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.reviewer: pahuijbr
+ms.reviewer: pahuijbr, mkaminska
 manager: dansimp
 ms.technology: mde
-ms.date: 06/23/2021
-ms.openlocfilehash: 88be32a2c1e9204629682ec678f80ab6daf701f4
-ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
+ms.date: 07/06/2021
+ms.openlocfilehash: f64c71501a550aabdf16b9de2d7a5db93e48caef
+ms.sourcegitcommit: 8b0718f5607ab509092cb80bda854010d885c54f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53105330"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53314462"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>Updates Microsoft Defender Antivirus en basislijnen toepassen
 
@@ -56,7 +56,7 @@ Engine-updates worden opgenomen in beveiligingsinformatie-updates en worden maan
 
 ## <a name="product-updates"></a>Productupdates
 
-Microsoft Defender Antivirus vereist [maandelijkse updates (KB4052623)](https://support.microsoft.com/help/4052623/update-for-windows-defender-antimalware-platform) (ook wel *platformupdates* genoemd) en ontvangen belangrijke functieupdates naast Windows 10 releases.
+Microsoft Defender Antivirus vereist [maandelijkse updates (KB4052623),](https://support.microsoft.com/help/4052623/update-for-windows-defender-antimalware-platform) ook wel *platformupdates genoemd.*
 
 U kunt de distributie van updates beheren via een van de volgende methoden: 
 
@@ -67,7 +67,10 @@ U kunt de distributie van updates beheren via een van de volgende methoden:
 Zie De bronnen voor [beveiligingsupdates Microsoft Defender Antivirus beheren voor meer informatie.](/mem/configmgr/protect/deploy-use/endpoint-definitions-wsus#to-synchronize-endpoint-protection-definition-updates-in-standalone-wsus)
 
 > [!NOTE]
-> Maandelijkse updates worden gefaseerd uitgebracht, wat resulteert in meerdere pakketten die zichtbaar zijn in [uw Window Server Update Services.](/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus)
+> - Maandelijkse updates worden gefaseerd uitgebracht, wat resulteert in meerdere pakketten die zichtbaar zijn in [uw Window Server Update Services.](/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus)
+> - In dit artikel worden wijzigingen vermeld die zijn opgenomen in het brede releasekanaal. [Bekijk de nieuwste release van een breed kanaal hier](https://www.microsoft.com/security/encyclopedia/adlpackages.aspx?action=info). 
+> - Zie Het geleidelijke implementatieproces voor [Microsoft Defender-updates](manage-gradual-rollout.md)beheren voor meer informatie over het geleidelijke implementatieproces en voor meer informatie over de volgende release.
+> - Zie Beveiligingsinformatie-updates voor Microsoft Defender Antivirus en andere [Microsoft-antimalware](https://www.microsoft.com/wdsi/defenderupdates)voor meer informatie over beveiligingsinformatie-updates. 
 
 ## <a name="monthly-platform-and-engine-versions"></a>Maandelijkse platform- en engineversies
 
@@ -77,8 +80,26 @@ Al onze updates bevatten
 - prestatieverbeteringen;
 - verbeteringen in de servicebaarheid; en 
 - integratieverbeteringen (Cloud, [Microsoft 365 Defender).](/microsoft-365/security/defender/microsoft-365-defender)
-<br/><br/>
+<br/>
 <details>
+<summary> Juni-2021 (Platform: 4.18.2106.5 | Motor: 1.1.18300.4)</summary>
+
+&ensp;Versie van beveiligingsinformatieupdate: **1.343.17.0**  
+&ensp;Uitgebracht: **28 juni 2021**  
+&ensp;Platform: **4.18.2106.5**  
+&ensp;Motor: **1.1.18300.4**  
+&ensp;Ondersteuningsfase: **Beveiligings- en kritieke updates**
+    
+### <a name="whats-new"></a>Wat is er nieuw
+- Nieuwe besturingselementen voor het beheren van het geleidelijke implementatieproces van Microsoft Defender-updates. Zie [Het geleidelijke implementatieproces voor Microsoft Defender-updates beheren.](manage-gradual-rollout.md)
+- Verbetering van de motor voor gedragscontrole
+- Verbeteringen in de implementatie van antimalwaredefinities
+- Uitgebreide edge-netwerkgebeurtenissen
+
+### <a name="known-issues"></a>Bekende problemen
+Geen bekende problemen  
+<br/>
+</details><details>
 <summary> Mei-2021 (Platform: 4.18.2105.4 | Motor: 1.1.18200.4)</summary>
 
 &ensp;Versie van beveiligingsinformatieupdate: **1.341.8.0**  
@@ -104,21 +125,26 @@ Geen bekende problemen
     
 ### <a name="whats-new"></a>Wat is er nieuw
 - Aanvullende logica voor gedragscontrole
-- Verbeterde detectie van keylogger in de kernelmodus
+- Verbeterde detectie van de kernelmodussleutellogboek
 - Nieuwe besturingselementen toegevoegd om het geleidelijke implementatieproces voor [Microsoft Defender-updates te beheren](manage-gradual-rollout.md)
 
 
 ### <a name="known-issues"></a>Bekende problemen
 Geen bekende problemen  
 <br/>
-</details><details>
+</details>
+
+### <a name="previous-version-updates-technical-upgrade-support-only"></a>Eerdere versieupdates: Alleen ondersteuning voor technische upgrade
+
+Nadat een nieuwe pakketversie is uitgebracht, wordt de ondersteuning voor de vorige twee versies beperkt tot alleen technische ondersteuning. Versies die ouder zijn dan die in deze sectie worden weergegeven, en alleen beschikbaar zijn voor ondersteuning voor technische upgrades. 
+<details>
 <summary> Maart-2021 (Platform: 4.18.2103.7 | Motor: 1.1.18000.5)</summary>
 
 &ensp;Versie van beveiligingsinformatieupdate: **1.335.36.0**  
 &ensp;Uitgebracht: **2 april 2021**  
 &ensp;Platform: **4.18.2103.7**  
 &ensp;Motor: **1.1.18000.5**  
-&ensp;Ondersteuningsfase: **Beveiligings- en kritieke updates**
+&ensp;Ondersteuningsfase: **Ondersteuning voor technische upgrade (alleen)**
     
 ### <a name="whats-new"></a>Wat is er nieuw
 
@@ -129,13 +155,7 @@ Geen bekende problemen
 ### <a name="known-issues"></a>Bekende problemen
 Geen bekende problemen  
 <br/>
-</details>
-
-### <a name="previous-version-updates-technical-upgrade-support-only"></a>Eerdere versieupdates: Alleen ondersteuning voor technische upgrade
-
-Nadat een nieuwe pakketversie is uitgebracht, wordt de ondersteuning voor de vorige twee versies beperkt tot alleen technische ondersteuning. Versies die ouder zijn dan die in deze sectie worden weergegeven, en alleen beschikbaar zijn voor ondersteuning voor technische upgrades. 
-<br/><br/>
-<details>
+</details><details>
 <summary> Februari-2021 (Platform: 4.18.2102.3 | Motor: 1.1.17900.7)</summary>
 
 &ensp;Versie van beveiligingsinformatieupdate: **1.333.7.0**  

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0b0bd900-68b1-4bf5-808b-5d240a7739f4
 description: 'Meer informatie over hoe u meer dan één e-mailadres, een e-mailalias genaamd, kunt hebben dat is gekoppeld aan uw Microsoft 365 voor Bedrijven-account. '
-ms.openlocfilehash: ec5bc69a42c5183413f11649b7d7ec6baaf40b01
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
-ms.translationtype: HT
+ms.openlocfilehash: e6eac45c3ade3fd737f93c88c29b56ccd497212e
+ms.sourcegitcommit: 8b0718f5607ab509092cb80bda854010d885c54f
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572103"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53314354"
 ---
 # <a name="add-another-email-alias-for-a-user"></a>Een ander e-mailalias toevoegen voor een gebruiker
   
@@ -83,7 +83,7 @@ Als u uw abonnement bij GoDaddy of een andere partner hebt aangeschaft, moet u n
 
 ## <a name="sending-email-from-the-proxy-address-easily"></a>Eenvoudig e-mail verzenden vanaf het proxyadres
 
-In april 2021 wordt een nieuwe functie uitgerold waarmee gebruikers eenvoudig vanuit hun aliassen kunnen verzenden wanneer ze de webversie van Outlook gebruiken. Wanneer de functie wordt uitgerold naar een tenancy waarbij de tenantbeheerder de cmdlet `Set-OrganizationConfig -SendFromAliasEnabled $true` gebruikt, krijgen gebruikers binnen de tenancy toegang tot een lijst met selectievakjes waarbij elke vermelding overeenkomt met een alias in hun Outlook-instellingen. Als u een alias selecteert, wordt deze weergegeven in de vervolgkeuzelijst Van in het formulier Opstellen.
+In juli 2021 wordt een nieuwe functie uitgerold waarmee gebruikers eenvoudig vanuit hun aliassen kunnen verzenden wanneer ze webversie van Outlook. Wanneer de functie wordt uitgerold naar een tenancy waarbij de tenantbeheerder de cmdlet `Set-OrganizationConfig -SendFromAliasEnabled $true` gebruikt, krijgen gebruikers binnen de tenancy toegang tot een lijst met selectievakjes waarbij elke vermelding overeenkomt met een alias in hun Outlook-instellingen. Als u een alias selecteert, wordt deze weergegeven in de vervolgkeuzelijst Van in het formulier Opstellen.
   
 ## <a name="related-content"></a>Verwante inhoud
 

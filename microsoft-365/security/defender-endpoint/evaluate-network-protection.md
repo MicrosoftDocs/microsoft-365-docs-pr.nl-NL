@@ -14,12 +14,12 @@ ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 03d05966401c8f3a8bdcec413e85c9a6d2a3ec5c
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 98e4c80c2e0262712885f1e7a2da82886b2ebe80
+ms.sourcegitcommit: b6e63febe24ef1f1793dfb3ecc5ed41a4e730578
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52926569"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "53309360"
 ---
 # <a name="evaluate-network-protection"></a>Netwerkbeveiliging evalueren
 
@@ -40,7 +40,7 @@ In dit artikel kunt u netwerkbeveiliging evalueren door de functie in te stellen
 
 Schakel netwerkbeveiliging in de auditmodus in om te zien welke IP-adressen en domeinen zouden zijn geblokkeerd. U kunt ervoor zorgen dat dit geen invloed heeft op line-of-business-apps of een idee krijgen van hoe vaak blokken voorkomen.
 
-1. Typ **powershell** in het menu Start, klik met de **rechtermuisknop Windows PowerShell** en selecteer Uitvoeren als **beheerder**
+1. Typ **powershell** in de Startmenu, klik met **de rechtermuisknop op Windows PowerShell** en selecteer Uitvoeren als **beheerder**
 2. Voer de volgende cmdlet in:
 
     ```PowerShell
@@ -55,7 +55,7 @@ Schakel netwerkbeveiliging in de auditmodus in om te zien welke IP-adressen en d
 
 De netwerkverbinding is toegestaan en er wordt een testbericht weergegeven.
 
-![Voorbeeldmelding met de melding Verbinding geblokkeerd: De IT-beheerder heeft Windows-beveiliging netwerkverbinding geblokkeerd. Neem contact op met uw IT-helpdesk.](/microsoft-365/security/defender-endpoint/images/np-notif)
+![Voorbeeldmelding met de melding Verbinding geblokkeerd: De IT-beheerder heeft Windows-beveiliging netwerkverbinding geblokkeerd. Neem contact op met uw IT-helpdesk.](images/np-notif.png)
 
 ## <a name="review-network-protection-events-in-windows-event-viewer"></a>Netwerkbeveiligingsgebeurtenissen bekijken in Windows Event Viewer
 

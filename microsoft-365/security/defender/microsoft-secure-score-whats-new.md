@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: b3f86dfbc1ae89eff61c680737061b01998a527b
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 2f02de4b738d9d61ef9f98cd03d15bd91709339e
+ms.sourcegitcommit: 8b0718f5607ab509092cb80bda854010d885c54f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933863"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53314426"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>Nieuwe functies in Microsoft Secure Score
 
@@ -35,7 +35,13 @@ ms.locfileid: "51933863"
 Om van Microsoft Secure Score een betere vertegenwoordiger van uw beveiligingsbeleid te maken, hebben we enkele wijzigingen aangebracht. Zie Wat komt er in [Microsoft Secure Score?](microsoft-secure-score-whats-coming.md) voor meer informatie over geplande wijzigingen.
 
 Microsoft Secure Score is te vinden https://security.microsoft.com/securescore in het [Microsoft 365 beveiligingscentrum.](overview-security-center.md)
-    
+
+## <a name="june-2021"></a>Juni 2021
+
+### <a name="remove-improvement-action-related-to-microsoft-cloud-app-security"></a>Actie voor verbetering verwijderen met betrekking tot Microsoft Cloud App Security
+
+- Gebruik Cloud App Security om afwijkende gedragingen te detecteren.
+
 ## <a name="february-2021"></a>Februari 2021
 
 ### <a name="compatibility-with-graph-api"></a>Compatibiliteit met Graph API
