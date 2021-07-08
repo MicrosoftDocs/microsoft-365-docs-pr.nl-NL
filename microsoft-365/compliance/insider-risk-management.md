@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: 1864c34f1e7bb17decfaeb2057dfff463a33b37c
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 0dae2d65e88c8a5ad4bc6c39e8ea540f55d0f822
+ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53226345"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53326745"
 ---
 # <a name="learn-about-insider-risk-management-in-microsoft-365"></a>Meer informatie over insider risk management in Microsoft 365
 
@@ -86,7 +86,7 @@ U kunt kiezen uit de volgende beleidssjablonen om snel aan de slag te gaan met i
 
 ### <a name="alerts"></a>Waarschuwingen
 
-Waarschuwingen worden automatisch gegenereerd door risico-indicatoren die overeenkomen met de beleidsvoorwaarden en worden weergegeven in het [dashboard Waarschuwingen.](insider-risk-management-alerts.md) Dit dashboard biedt een snelle weergave van alle waarschuwingen die moeten worden bekeken, waarschuwingen in de tijd en waarschuwingsstatistieken voor uw organisatie. Alle beleidswaarschuwingen worden weergegeven met de volgende informatie om u te helpen snel de status van bestaande waarschuwingen en nieuwe waarschuwingen te identificeren die actie moeten ondernemen:
+Waarschuwingen worden automatisch gegenereerd door risico-indicatoren die overeenkomen met de beleidsvoorwaarden en worden weergegeven in het [dashboard Waarschuwingen.](insider-risk-management-activities.md#alert-dashboard) Dit dashboard biedt een snelle weergave van alle waarschuwingen die moeten worden bekeken, waarschuwingen in de tijd en waarschuwingsstatistieken voor uw organisatie. Alle beleidswaarschuwingen worden weergegeven met de volgende informatie om u te helpen snel de status van bestaande waarschuwingen en nieuwe waarschuwingen te identificeren die actie moeten ondernemen:
 
 - Status
 - Ernst
@@ -105,6 +105,8 @@ Waarschuwingen worden opgelost door een nieuwe zaak te openen, de waarschuwing t
 ![Triage voor insiderrisicobeheer](../media/insider-risk-triage.png)
 
 ### <a name="investigate"></a>Onderzoeken
+
+Snel alle activiteiten voor een geselecteerde gebruiker onderzoeken met [gebruikersactiviteitsrapporten (voorbeeld)](insider-risk-management-activities.md#user-activity-reports-preview). Met deze rapporten kunnen onderzoekers in uw organisatie activiteiten voor specifieke gebruikers voor een bepaalde periode bekijken zonder deze tijdelijk of expliciet toe te wijzen aan een beleid voor insiderrisicobeheer. Na het onderzoeken van activiteiten voor een gebruiker, kunnen de onderzoekers afzonderlijke activiteiten als goedaardig afdoen, een koppeling naar het rapport delen of e-mailen met andere onderzoeker, of ervoor kiezen om de gebruiker tijdelijk of expliciet toe te wijzen aan een beleid voor insiderrisicobeheer.
 
 [Er](insider-risk-management-cases.md) worden gevallen gemaakt voor waarschuwingen waarvoor een diepere controle en onderzoek van de activiteitendetails en -omstandigheden rond het beleid nodig zijn. Het **dashboard Hoofdzaken** biedt een overzicht van alle actieve zaken, openstaande zaken in de tijd en casestatistieken voor uw organisatie. Revisoren kunnen snel zaken filteren op status, de datum waarop de zaak is geopend en de datum waarop de zaak het laatst is bijgewerkt.
 

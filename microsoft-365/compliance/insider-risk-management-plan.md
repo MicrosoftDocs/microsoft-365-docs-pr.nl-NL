@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 6884ec3b2bc7c24e4f7f6e62d9b24add3aeee2c0
-ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
+ms.openlocfilehash: a6a0ebb6ef15a6d4746d72a73feb16e53f89354e
+ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/18/2021
-ms.locfileid: "53007343"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53326781"
 ---
 # <a name="plan-for-insider-risk-management"></a>Intern risicobeheer plannen
 
@@ -42,9 +42,9 @@ Als u vereisten hebt voor specifieke belanghebbenden om betrokken te zijn bij ge
 
 ## <a name="plan-for-the-review-and-investigation-workflow"></a>De controle- en onderzoekswerkstroom plannen
 
-Selecteer speciale belanghebbenden om de waarschuwingen en gevallen op een regelmatige tijdsfrequentie in het [Microsoft 365-compliancecentrum](https://compliance.microsoft.com/)te controleren en te controleren. Zorg ervoor dat u begrijpt hoe u verschillende belanghebbenden toewijst aan de verschillende rollengroepen die beschikbaar zijn in insider risk management.
+Selecteer speciale belanghebbenden om de waarschuwingen en gevallen op een regelmatige tijdsfrequentie in de [Microsoft 365-compliancecentrum.](https://compliance.microsoft.com/) Zorg ervoor dat u begrijpt hoe u verschillende belanghebbenden toewijst aan de verschillende rollengroepen die beschikbaar zijn in insider risk management.
 
-Afhankelijk van de structuur van uw compliancebeheerteam hebt u opties om gebruikers toe te wijzen aan specifieke rollengroepen om verschillende sets functies voor insiderrisicobeheer te beheren. Als u  het tabblad Machtigingen wilt weergeven in het Office 365-beveiligings- & compliancecentrum  en rollengroepen wilt beheren, moet u zijn toegewezen aan de rollengroep Organisatiebeheer of moet u de rol Rollenbeheer toegewezen *krijgen.* Kies uit deze opties voor rollengroep bij het configureren van insiderrisicobeheer:
+Afhankelijk van de structuur van uw compliancebeheerteam hebt u opties om gebruikers toe te wijzen aan specifieke rollengroepen om verschillende sets functies voor insiderrisicobeheer te beheren. Als u  het tabblad Machtigingen wilt weergeven in het Office 365 Beveiligings- & Compliancecentrum en rollengroepen wilt beheren, moet u zijn toegewezen aan de rollengroep Organisatiebeheer of moet u de rol Rollenbeheer *toegewezen* krijgen.  Kies uit deze opties voor rollengroep bij het configureren van insiderrisicobeheer:
 
 | **Rollengroep** | **Rolmachtigingen** |
 | :------------- | :------------------- |
@@ -56,11 +56,11 @@ Afhankelijk van de structuur van uw compliancebeheerteam hebt u opties om gebrui
 
 ## <a name="understand-requirements-and-dependencies"></a>Vereisten en afhankelijkheden begrijpen
 
-Afhankelijk van de manier waarop u beleid voor insiderrisicobeheer wilt implementeren, moet u over de juiste Microsoft 365-licentieabonnementen gaan en bepaalde vereisten voor oplossingen begrijpen en plannen.
+Afhankelijk van de manier waarop u beleid voor insiderrisicobeheer wilt implementeren, moet u over de juiste Microsoft 365 licenties en inzicht hebben in en plannen voor bepaalde vereisten voor oplossingen.
 
-**Licenties:** Insider risk management is beschikbaar als onderdeel van een uitgebreide selectie van Microsoft 365-licentieabonnementen. Zie het artikel Aan [de slag met insider risk management voor meer](insider-risk-management-configure.md#subscriptions-and-licensing) informatie.
+**Licenties:** Insider risk management is beschikbaar als onderdeel van een uitgebreide selectie Microsoft 365 licenties. Zie het artikel Aan [de slag met insider risk management voor meer](insider-risk-management-configure.md#subscriptions-and-licensing) informatie.
 
-Als u geen bestaand Microsoft 365 Enterprise E5-abonnement hebt en insider risk management wilt uitproberen, kunt u [Microsoft 365](/office365/admin/try-or-buy-microsoft-365) toevoegen aan uw bestaande abonnement [of](https://www.microsoft.com/microsoft-365/enterprise) u registreren voor een proefabonnement op Microsoft 365 Enterprise E5.
+Als u geen bestaand Microsoft 365 Enterprise E5-abonnement hebt en insider risk management wilt proberen, kunt u [Microsoft 365](/office365/admin/try-or-buy-microsoft-365) toevoegen aan uw bestaande abonnement [of](https://www.microsoft.com/microsoft-365/enterprise) u registreren voor een proefabonnement op Microsoft 365 Enterprise E5.
 
 **Vereisten voor beleidssjabloon:** Afhankelijk van de beleidssjabloon die u kiest, zijn er vereisten die u moet begrijpen en plannen voordat u insider risk management in uw organisatie configureert:
 
@@ -82,7 +82,7 @@ Als u geen waarschuwingen ziet direct na het configureren van een beleid voor in
 Deel documentatie voor insiderrisicobeheer met de belanghebbenden in uw organisatie die zijn opgenomen in uw beheer- en herstelwerkstroom:
 
 - [Intern risicobeleid maken en beheren](insider-risk-management-policies.md)
-- [Waarschuwingen voor insider-risico onderzoeken](insider-risk-management-alerts.md)
+- [Activiteiten met insiderrisico's onderzoeken](insider-risk-management-activities.md)
 - [Actie ondernemen in het geval van insider-risico](insider-risk-management-cases.md)
 - [Casegegevens controleren met het insiderrisico Inhoudsverkenner](insider-risk-management-content-explorer.md)
 - [Kennisgevingssjablonen voor insider-risico maken](insider-risk-management-notices.md)

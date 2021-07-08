@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Informatie over het zoeken naar bronnen voor Microsoft Viva Topics.
-ms.openlocfilehash: 4596f703f86465e4d2d37e2744493bcaef440b7b
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 7d8a95e924c269660e50355078f4fc9eee9bd333
+ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538913"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53326841"
 ---
 # <a name="introduction-to-microsoft-viva-topics"></a>Inleiding tot Microsoft Viva Topics
 
@@ -39,11 +39,11 @@ De bronnen in deze sectie helpen u meer te weten te komen over wat Viva-onderwer
 
 | Als je op zoek bent naar deze informatie: | Raadpleegt u deze bron: |
 |:-----|:-----|
-|Meer informatie over Viva Topics|[Overzicht van Microsoft Viva Topics](topic-experiences-overview.md)|
+|Meer informatie over Viva Topics|[Overzicht van Viva-onderwerpen](topic-experiences-overview.md)|
 |Ontdek hoe onderwerpen worden gevonden en voorgesteld door AI|[Microsoft Viva Topics ontdekken](topic-experiences-discovery.md)|
-|Meer informatie over onderwerpbeveiliging|[Microsoft Viva beveiliging en privacy](topic-experiences-security-privacy.md)|
-|Meer informatie over hoe u aan Microsoft Viva Topics komt|[Microsoft Viva Topics productpagina](https://www.microsoft.com/microsoft-viva/topics?activetab=pivot%3aoverviewtab)|
-|Raadpleeg bronnen in het Microsoft Tech Community Resource Center|[Microsoft Viva Topics Tech Community](https://resources.techcommunity.microsoft.com/viva-topics/)|
+|Meer informatie over onderwerpbeveiliging|[Viva-onderwerpen beveiliging en privacy](topic-experiences-security-privacy.md)|
+|Meer informatie over hoe u aan Microsoft Viva Topics komt|[Productpagina Viva-onderwerpen](https://www.microsoft.com/microsoft-viva/topics?activetab=pivot%3aoverviewtab)|
+|Raadpleeg bronnen in het Microsoft Tech Community Resource Center|[Viva Topics Tech Community](https://resources.techcommunity.microsoft.com/viva-topics/)|
 
 
 
@@ -53,7 +53,8 @@ Meer informatie over het gebruik en de implementatie van Viva Topics in uw organ
 
 | Als je op zoek bent naar deze informatie: | Raadpleegt u deze bron: |
 |:-----|:-----|
-|Informatie over het plannen van het gebruik van Microsoft Viva. |[Aan de slag](topics-adoption-getstarted.md)<br><br>|  
+|Meer informatie over het plannen van Viva-onderwerpen |[Aan de slag](topics-adoption-getstarted.md)|  
+|Een proefprogramma voor Viva-onderwerpen instellen en uitvoeren |[Een proefversie uitvoeren](trial-topics.md)|
 
 ## <a name="set-up-and-administration"></a>Instellen en beheer
 
@@ -61,7 +62,7 @@ De informatiebronnen in deze sectie helpen de beheerder in uw organisatie bij he
 
 | Als je op zoek bent naar deze informatie: | Raadpleegt u deze bron: |
 |:-----|:-----|
-|Informatie over het instellen en configureren van Microsoft Viva|[Microsoft Viva instellen](set-up-topic-experiences.md)|
+|Meer informatie over het instellen en configureren van Viva-onderwerpen|[Viva-onderwerpen instellen](set-up-topic-experiences.md)|
 |Informatie over het configureren van gebruikersmachtigingen|[Onderwerpmachtigingen beheren](topic-experiences-user-permissions.md)|
 |Informatie over het beheren van wie onderwerpen kan bekijken|[Zichtbaarheid van onderwerpen beheren](topic-experiences-knowledge-rules.md)|
 |Informatie over het beheren van de instellingen voor het ontdekken van onderwerpen|[Onderwerpdetectie beheren](topic-experiences-discovery.md)|

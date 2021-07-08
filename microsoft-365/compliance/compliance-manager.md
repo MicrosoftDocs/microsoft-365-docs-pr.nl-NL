@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Compliance Manager helpt organisaties bij het vereenvoudigen en automatiseren van risicobeoordelingen en stelt aanbevolen acties voor om risico's aan te pakken.
-ms.openlocfilehash: cc1919f63716dfa79274a5cf7016ef07f2f36f92
-ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
+ms.openlocfilehash: 536a1c02a820b0ea36fc4fe39ca1d0d31f7bc994
+ms.sourcegitcommit: 48e50a5445c63d397197af2bb7549cbec0bce790
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2021
-ms.locfileid: "53148948"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53330939"
 ---
 # <a name="microsoft-compliance-manager"></a>Microsoft Compliance Manager
 
@@ -35,7 +35,7 @@ Compliance Manager is nu algemeen beschikbaar (GA) als een end-to-end compliance
 Wat begon als het openbare voorbeeld van compliancescore, is uitgegroeid tot een gecentraliseerde tool met verbeterde mogelijkheden voor compliancebeheer en een groter gebruiksgemak.  De GA-release bevat een grotere verzameling vooraf gebouwde evaluaties om u te helpen uw complianceactiviteiten te schalen.
 
 **Meer informatie over de GA-release:**
-- Met [onze veelgestelde vragen](compliance-manager-faq.md) wordt u uitgebreider door de ontwikkeling heen geslopen.
+- Met [onze veelgestelde vragen](compliance-manager-faq.yml) wordt u uitgebreider door de ontwikkeling heen geslopen.
 - Lees meer over verbeteringen van ga-functies in [dit blogbericht.](https://aka.ms/compliancemanager/GAblog)
 
 Bekijk de onderstaande video om te zien hoe Compliance Manager kan helpen bij het vereenvoudigen van het beheer van compliance door uw organisatie:

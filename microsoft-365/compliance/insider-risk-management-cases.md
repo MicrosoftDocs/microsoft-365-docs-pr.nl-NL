@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 7712ce1ee4c28352861df17c0637a94d99fa2c8a
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 19fd44633f03a7797484ecaa6a15159e24da7fbf
+ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53226525"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53326817"
 ---
 # <a name="insider-risk-management-cases"></a>Cases voor insiderrisicobeheer
 
@@ -147,7 +147,7 @@ Het **tabblad Gebruikersactiviteit** is een van de krachtigste hulpmiddelen voor
 
 Op **het tabblad Activiteitsverkenner** kunnen risicoanalisten en -onderzoeker activiteitendetails bekijken die zijn gekoppeld aan risicowaarschuwingen. Als onderdeel van de casemanagementacties moeten de onderzoekers en analisten bijvoorbeeld mogelijk alle risicoactiviteiten die aan de zaak zijn gekoppeld, bekijken voor meer informatie. Met de **Activiteitsverkenner** kunnen revisoren snel een tijdlijn bekijken van gedetecteerde riskante activiteiten en alle risicoactiviteiten identificeren en filteren die aan waarschuwingen zijn gekoppeld.
 
-Zie het artikel Waarschuwingen voor [Insider-risicobeheer](insider-risk-management-alerts.md#activity-explorer-preview) voor meer informatie over de Activiteitenverkenner.
+Zie het artikel Waarschuwingen voor [Insider-risicobeheer](insider-risk-management-activities.md#activity-explorer-preview) voor meer informatie over de Activiteitenverkenner.
 
 ### <a name="content-explorer"></a>Inhoudsverkenner
 

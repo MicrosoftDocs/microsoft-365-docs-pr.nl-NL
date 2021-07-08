@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: cb4bebe3f6998b81a00d7fd15bc919f70381a933
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: b3ee2f2dcf13402e506b299935459e435fd2f89a
+ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52929693"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53326901"
 ---
 # <a name="troubleshoot-microsoft-defender-for-endpoint-onboarding-issues"></a>Problemen met de onboarding van Microsoft Defender voor eindpunten oplossen
 
@@ -35,7 +35,7 @@ ms.locfileid: "52929693"
 - Windows Server 2016
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 
+> Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 
 
 Mogelijk moet u het onboardingproces van Microsoft Defender voor eindpunten oplossen als u problemen ondervindt.
 Op deze pagina vindt u gedetailleerde stappen om problemen met onboarding op te lossen die kunnen optreden bij de implementatie met een van de implementatiehulpmiddelen en veelvoorkomende fouten die op de apparaten kunnen optreden.
@@ -113,8 +113,8 @@ Foutcode Hex | Foutcode dec | Foutbeschrijving | OMA-URI | Mogelijke stappen voo
 0x87D1FDE8 | -2016281112 | Herstel is mislukt | Onboarding <br> Offboarding | **Mogelijke oorzaak:** Onboarding of offboarding is mislukt op een verkeerde blob: verkeerde handtekening of ontbrekende velden PreviousOrgIds. <br><br> **Stappen voor het oplossen van problemen:** <br> Controleer de gebeurtenis-ID's in de [onboarding-fouten van agentweergave in de sectie apparaatgebeurtenislogboek.](#view-agent-onboarding-errors-in-the-device-event-log) <br><br> Controleer de MDM-gebeurtenislogboeken in de volgende tabel of volg de instructies in [MDM-fouten diagnosticeren in Windows 10.](/windows/client-management/mdm/diagnose-mdm-failures-in-windows-10)
  | | | | Onboarding <br> Offboarding <br> SampleSharing | **Mogelijke oorzaak:** Microsoft Defender for Endpoint Policy registry key is not exist or the OMA DM client doesn't have permissions to write to it. <br><br> **Stappen voor het oplossen van problemen:** Controleer of de volgende registersleutel bestaat: `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection` <br> <br> Als deze niet bestaat, opent u een verhoogde opdracht en voegt u de sleutel toe.
  | | | | SenseIsRunning <br> OnboardingState <br> OrgId |  **Mogelijke oorzaak:** Een poging om te corrigeren met de eigenschap Alleen-lezen. Onboarding is mislukt. <br><br> **Stappen voor het oplossen van problemen:** Bekijk de stappen voor het oplossen van problemen met [onboarding op het apparaat.](#troubleshoot-onboarding-issues-on-the-device) <br><br> Controleer de MDM-gebeurtenislogboeken in de volgende tabel of volg de instructies in [MDM-fouten diagnosticeren in Windows 10.](/windows/client-management/mdm/diagnose-mdm-failures-in-windows-10)
- | | | | Alles | **Mogelijke oorzaak:** Probeer Microsoft Defender voor Eindpunt te implementeren op niet-ondersteunde SKU/Platform, met name Holografische SKU. <br><br> Momenteel ondersteunde platforms:<br> Enterprise, Education en Professional.<br> Server wordt niet ondersteund.
- 0x87D101A9 | -2016345687 |SyncML(425): De aangevraagde opdracht is mislukt omdat de afzender niet over voldoende toegangsbeheermachtigingen (ACL) voor de geadresseerde heeft. | Alles |  **Mogelijke oorzaak:** Probeer Microsoft Defender voor Eindpunt te implementeren op niet-ondersteunde SKU/Platform, met name Holografische SKU.<br><br> Momenteel ondersteunde platforms:<br>  Enterprise, Education en Professional.
+ | | | | Alle | **Mogelijke oorzaak:** Probeer Microsoft Defender voor Eindpunt te implementeren op niet-ondersteunde SKU/Platform, met name Holografische SKU. <br><br> Momenteel ondersteunde platforms:<br> Enterprise, Education en Professional.<br> Server wordt niet ondersteund.
+ 0x87D101A9 | -2016345687 |SyncML(425): De aangevraagde opdracht is mislukt omdat de afzender niet over voldoende toegangsbeheermachtigingen (ACL) voor de geadresseerde heeft. | Alle |  **Mogelijke oorzaak:** Probeer Microsoft Defender voor Eindpunt te implementeren op niet-ondersteunde SKU/Platform, met name Holografische SKU.<br><br> Momenteel ondersteunde platforms:<br>  Enterprise, Education en Professional.
 
 #### <a name="known-issues-with-non-compliance"></a>Bekende problemen met niet-naleving
 
@@ -136,7 +136,7 @@ Kanaalnaam: Beheerder
 
 ID | Ernst | Gebeurtenisbeschrijving | Stappen voor probleemoplossing
 :---|:---|:---|:---
-1819 | Error | Microsoft Defender voor eindpunt CSP: kan de waarde van knooppunt niet instellen. NodeId: (%1), TokenName: (%2), Resultaat: (%3). | Download de [cumulatieve update voor Windows 10, 1607](https://go.microsoft.com/fwlink/?linkid=829760).
+1819 | Fout | Microsoft Defender voor eindpunt CSP: kan de waarde van knooppunt niet instellen. NodeId: (%1), TokenName: (%2), Resultaat: (%3). | Download de [cumulatieve update voor Windows 10, 1607](https://go.microsoft.com/fwlink/?linkid=829760).
 
 ## <a name="troubleshoot-onboarding-issues-on-the-device"></a>Problemen met onboarding op het apparaat oplossen
 
@@ -300,6 +300,9 @@ Als de verificatie mislukt en uw omgeving een proxy gebruikt om verbinding te ma
 
 ## <a name="troubleshoot-onboarding-issues-on-a-server"></a>Problemen met onboarding op een server oplossen
 
+>[!NOTE]
+>De volgende richtlijnen voor probleemoplossing zijn alleen van toepassing op Windows Server 2016 en lager.
+
 Als u problemen ondervindt tijdens het onboarden van een server, gaat u door de volgende verificatiestappen om mogelijke problemen op te lossen.
 
 - [Controleer of Microsoft Monitoring Agent (MMA) is geïnstalleerd en geconfigureerd voor het rapporteren van sensorgegevens aan de service](configure-server-endpoints.md)
@@ -334,7 +337,7 @@ De onderstaande stappen geven richtlijnen voor het volgende scenario:
 - Apparaat is uitgeschakeld of opnieuw gestart voordat de eindgebruiker een eerste aanmelding uitvoert
 - In dit scenario start de SENSE-service niet automatisch, ook al is onboarding-pakket geïmplementeerd
 
-<div class="alert"><b>OPMERKING:</b> Gebruiker Aanmelding na OOBE is niet meer vereist voor SENSE-service om te beginnen met de volgende Windows-versies: Windows 10, versie 1809 of Windows Server 2019 met update-rollup van [22 april 2021](https://support.microsoft.com/kb/5001384) </br> Windows 10, versie 1909 met update-rollup van april [2021](https://support.microsoft.com/kb/5001396) </br> Windows 10, versie 2004/20H2 met [update-rollup van 28 april 2021](https://support.microsoft.com/kb/5001391) </div> 
+<div class="alert"><b>OPMERKING:</b> Gebruiker Aanmelding na OOBE is niet meer vereist voor de SENSE-service om te beginnen met de volgende of recentere Windows-versies: Windows 10 versie 1809 of Windows Server 2019 met update-rollup van [22 april 2021](https://support.microsoft.com/kb/5001384) </br> Windows 10, versie 1909 met update-rollup van april [2021](https://support.microsoft.com/kb/5001396) </br> Windows 10, versie 2004/20H2 met [update-rollup van 28 april 2021](https://support.microsoft.com/kb/5001391) </div> 
 <br></br>
 > [!NOTE]
 > De volgende stappen zijn alleen relevant wanneer u Microsoft Endpoint Configuration Manager. Zie Microsoft Defender voor Eindpunt voor meer informatie over onboarding Microsoft Endpoint Configuration Manager gebruik [van Microsoft Endpoint Configuration Manager.](/mem/configmgr/protect/deploy-use/windows-defender-advanced-threat-protection)
@@ -456,7 +459,7 @@ De onderstaande stappen geven richtlijnen voor het volgende scenario:
     ![Afbeelding van Microsoft Endpoint Configuration Manager configuratie30](images/mecm-30.png)
 
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-topics"></a>Gerelateerde onderwerpen
 
 - [Problemen met Microsoft Defender voor Eindpunt oplossen](troubleshoot-mdatp.md)
 - [Onboard-apparaten](onboard-configure.md)

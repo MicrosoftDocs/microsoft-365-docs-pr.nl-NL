@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: 8bcd9577308e31eb4bd48a5b1e0ad5748ef738e9
-ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
+ms.openlocfilehash: f9cd78cb41a7cbe5011163d1f5734ff0b3c2261e
+ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53256325"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53326793"
 ---
 # <a name="get-started-with-insider-risk-management"></a>Aan de slag met intern risicobeheer
 
@@ -61,7 +61,7 @@ Afhankelijk van de structuur van uw compliancebeheerteam hebt u opties om gebrui
 
 | **Rollengroep** | **Rolmachtigingen** |
 | :------------- | :------------------- |
-| **Intern risicobeheer** | Gebruik deze rollengroep om insiderrisicobeheer voor uw organisatie in één groep te beheren. Door alle gebruikersaccounts toe te voegen voor aangewezen beheerders, analisten, onderzoekers en auditors, kunt u machtigingen voor insiderrisicobeheer configureren in één groep. Deze rollengroep bevat alle machtigingen voor insiderrisicobeheer en bijbehorende machtigingen. Deze configuratie is de eenvoudigste manier om snel aan de slag te gaan met insider risk management en is geschikt voor organisaties die geen afzonderlijke machtigingen nodig hebben die zijn gedefinieerd voor afzonderlijke groepen gebruikers. Wanneer u deze configuratie gebruikt, moet u ervoor zorgen dat er altijd ten minste één gebruiker aan deze rollengroep is toegewezen om ervoor te zorgen dat uw beleid werkt zoals verwacht, zodat de gebruiker beleidsregels kan maken en bewerken, oplossingsinstellingen kan configureren en waarschuwingen voor beleidstoestanden kan controleren.|
+| **Insider Risk Management** | Gebruik deze rollengroep om insiderrisicobeheer voor uw organisatie in één groep te beheren. Door alle gebruikersaccounts toe te voegen voor aangewezen beheerders, analisten, onderzoekers en auditors, kunt u machtigingen voor insiderrisicobeheer configureren in één groep. Deze rollengroep bevat alle machtigingen voor insiderrisicobeheer en bijbehorende machtigingen. Deze configuratie is de eenvoudigste manier om snel aan de slag te gaan met insider risk management en is geschikt voor organisaties die geen afzonderlijke machtigingen nodig hebben die zijn gedefinieerd voor afzonderlijke groepen gebruikers. Wanneer u deze configuratie gebruikt, moet u ervoor zorgen dat er altijd ten minste één gebruiker aan deze rollengroep is toegewezen om ervoor te zorgen dat uw beleid werkt zoals verwacht, zodat de gebruiker beleidsregels kan maken en bewerken, oplossingsinstellingen kan configureren en waarschuwingen voor beleidstoestanden kan controleren.|
 | **Insider Risk Management Admin** | Gebruik deze rollengroep om in eerste instantie insiderrisicobeheer te configureren en later om beheerders van insiderrisico's te scheiden in een gedefinieerde groep. Gebruikers in deze rollengroep kunnen analyseinzichten in- en weergeven en insiderrisicobeheerbeleid, globale instellingen en rolgroeptoewijzingen maken, lezen, bijwerken en verwijderen. Wanneer u deze configuratie gebruikt, moet u ervoor zorgen dat er altijd ten minste één gebruiker aan deze rollengroep is toegewezen om ervoor te zorgen dat uw beleid werkt zoals verwacht, zodat de gebruiker beleidsregels kan maken en bewerken, oplossingsinstellingen kan configureren en waarschuwingen voor beleidstoestanden kan controleren. |
 | **Analist intern risicobeheer** | Gebruik deze groep om machtigingen toe te wijzen aan gebruikers die fungeren als insiderrisicocaseanalisten. Gebruikers in deze rollengroep hebben toegang tot alle insiderrisicobeheerwaarschuwingen, cases, analyseinzichten en kennisgevingssjablonen. Ze hebben geen toegang tot het insiderrisico Inhoudsverkenner. |
 | **Onderzoeker intern risicobeheer** | Gebruik deze groep om machtigingen toe te wijzen aan gebruikers die fungeren als insider-risicogegevensonderzoekers. Gebruikers in deze rollengroep hebben toegang tot alle waarschuwingen voor insiderrisicobeheer, cases, kennisgevingssjablonen en de Inhoudsverkenner voor alle gevallen. |
@@ -251,4 +251,4 @@ Insider-beleid voor risicobeheer omvat toegewezen gebruikers en definieer welke 
 
 Nadat u deze stappen hebt voltooid om uw eerste beleid voor insiderrisicobeheer te maken, ontvangt u na ongeveer 24 uur waarschuwingen van activiteitsindicatoren. Configureer zo nodig extra beleid met behulp van de richtlijnen in stap 4 van dit artikel of de stappen in [Een nieuw insiderrisicobeleid maken.](insider-risk-management-policies.md#create-a-new-policy)
 
-Zie Insider risk management alerts (Insider [risk management alerts)](insider-risk-management-alerts.md)voor meer informatie over het onderzoeken van waarschuwingen voor insiderrisico's en het **dashboard** Waarschuwingen.
+Zie [Insider-activiteiten](insider-risk-management-activities.md#alert-dashboard)voor risicobeheer voor meer informatie over het onderzoeken van insiderrisicowaarschuwingen en het **dashboard** Waarschuwingen.
