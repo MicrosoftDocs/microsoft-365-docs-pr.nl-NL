@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 265a7e9093638caa2111c7d1d82e51c8c2437d12
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 777f5f63c4739f277ec24f826bc8a61a226fb65f
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52845458"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339668"
 ---
 # <a name="onboard-non-windows-devices"></a>Niet-Windows-apparaten onboarden
 
@@ -36,9 +36,9 @@ ms.locfileid: "52845458"
 - macOS
 - Linux
 
->Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-nonwindows-abovefoldlink) 
+>Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-nonwindows-abovefoldlink) 
 
-Defender voor Eindpunt biedt een gecentraliseerde beveiligingsbewerkingservaring voor Windows en niet-Windows platforms. U kunt waarschuwingen van verschillende ondersteunde besturingssystemen (OS) zien in Microsoft Defender-beveiligingscentrum en het netwerk van uw organisatie beter beveiligen. 
+Defender voor Eindpunt biedt een gecentraliseerde beveiligingsbewerkingservaring voor Windows en niet-Windows platforms. U kunt waarschuwingen van verschillende ondersteunde besturingssystemen (OS) zien in Microsoft 365 Defender en het netwerk van uw organisatie beter beveiligen. 
 
 U moet de exacte Linux-distributies en macOS-versies kennen die compatibel zijn met Defender voor Eindpunt om de integratie te laten werken. Zie voor meer informatie:
 - [Microsoft Defender for Endpoint on Linux system requirements](microsoft-defender-endpoint-linux.md#system-requirements)  
@@ -70,7 +70,7 @@ U moet de volgende stappen ondernemen om niet-Windows in te stappen:
    4. Selecteer de **knop** Verwijderen.
 
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-topics"></a>Gerelateerde onderwerpen
 - [Onboarden Windows 10-apparaten](configure-endpoints.md)
 - [Onboard-servers](configure-server-endpoints.md)
 - [Proxy- en internetconnectiviteitsinstellingen configureren](configure-proxy-internet.md)

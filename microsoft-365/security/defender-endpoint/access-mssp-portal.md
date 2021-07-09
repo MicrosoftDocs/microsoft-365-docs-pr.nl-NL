@@ -1,6 +1,6 @@
 ---
-title: Toegang tot Microsoft Defender-beveiligingscentrum MSSP-klantportal
-description: Toegang tot Microsoft Defender-beveiligingscentrum MSSP-klantportal
+title: Toegang tot Microsoft 365 Defender MSSP-klantenportal
+description: Toegang tot Microsoft 365 Defender MSSP-klantenportal
 keywords: managed security service provider, mssp, configure, integration
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 97122decede91e8b4f059b3b66999ac12b300172
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 8583b28adecd892ec6875faa934fd7ab08e5db11
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51164855"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339584"
 ---
-# <a name="access-the-microsoft-defender-security-center-mssp-customer-portal"></a>Toegang tot Microsoft Defender-beveiligingscentrum MSSP-klantportal
+# <a name="access-the-microsoft-365-defender-mssp-customer-portal"></a>Toegang tot Microsoft 365 Defender MSSP-klantenportal
 
 **Van toepassing op:**
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
@@ -36,7 +36,7 @@ ms.locfileid: "51164855"
 
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/?linkid=2154037)
 
->Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-mssp-support-abovefoldlink)
+>Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-mssp-support-abovefoldlink)
 
 
 
@@ -63,7 +63,7 @@ Gebruik de volgende stappen om de MSSP-klant tenant-id te verkrijgen en vervolge
 4. Open de MSSP-klantportal door de waarde in de `customer_tenant_id` volgende URL te vervangen: `https://securitycenter.windows.com?tid=customer_tenant_id` .
 
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-topics"></a>Gerelateerde onderwerpen
 - [MSSP-toegang verlenen tot de portal](grant-mssp-access.md)
 - [Waarschuwingsmeldingen configureren](configure-mssp-notifications.md)
 - [Waarschuwingen ophalen van de klant-tenant](fetch-alerts-mssp.md)

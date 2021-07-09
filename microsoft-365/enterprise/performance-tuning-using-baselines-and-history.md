@@ -1,5 +1,5 @@
 ---
-title: Office 365-prestatieafstemming met behulp van basislijnen en prestatiegeschiedenis
+title: Office 365-prestatieafstemming gebruikt basislijnen en prestatiegeschiedenis
 ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
@@ -23,14 +23,14 @@ ms.collection:
 - Ent_O365
 - SPO_Content
 description: Lees hoe u de geschiedenis van uw clientcomputerverbindingen kunt controleren om u te helpen bij het vroegtijdig opsporen van nieuwe problemen.
-ms.openlocfilehash: 87b1d43df560fc7fea5aadfbf1c422eb22883067
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 314b1acea5935bfd6d93d1da3789657e21cd2d57
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50928142"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339368"
 ---
-# <a name="office-365-performance-tuning-using-baselines-and-performance-history"></a>Office 365-prestatieafstemming met behulp van basislijnen en prestatiegeschiedenis
+# <a name="office-365-performance-tuning-using-baselines-and-performance-history"></a>Office 365-prestatieafstemming gebruikt basislijnen en prestatiegeschiedenis
 
 Er zijn enkele eenvoudige manieren om de verbindingsprestaties tussen uw Office 365 en uw bedrijf te controleren, zodat u een ruwe basislijn van uw connectiviteit kunt vaststellen. Als u de prestatiesgeschiedenis van uw clientcomputerverbindingen kent, kunt u nieuwe problemen vroegtijdig opsporen, problemen identificeren en voorspellen.
   
@@ -54,7 +54,7 @@ Prestatieproblemen gaan niet over het bereiken van specifieke doelen en het voor
 
 Eerst moet u ervoor zorgen dat wat u ondervindt inderdaad een prestatieprobleem is en niet een service-incident. Een prestatieprobleem verschilt van een service-incident in Office 365. U kunt ze als eerste van elkaar onderscheiden.
   
-Als de Office 365 service problemen heeft, is dat een service-incident. U ziet rode of gele pictogrammen onder Huidige status **in** het Microsoft 365 beheercentrum, mogelijk ziet u ook trage prestaties op clientcomputers die verbinding maken met Office 365. Als huidige status bijvoorbeeld een rood pictogram  rapporteert en u Onderzoeken naast Exchange ziet, kunt u dan ook een aantal oproepen ontvangen van personen in uw organisatie die klagen dat clientpostvakken die Exchange Online gebruiken, slecht presteren. In dat geval is het redelijk om ervan uit te gaan dat uw Exchange Online net het slachtoffer is geworden van problemen binnen de Service. 
+Als de Office 365 service problemen heeft, is dat een service-incident. U ziet rode of gele pictogrammen onder Huidige status **in** de Microsoft 365-beheercentrum, mogelijk ziet u ook trage prestaties op clientcomputers die verbinding maken met Office 365. Als huidige status bijvoorbeeld een rood pictogram  rapporteert en u Onderzoeken naast Exchange ziet, kunt u dan ook een aantal oproepen ontvangen van personen in uw organisatie die klagen dat clientpostvakken die Exchange Online gebruiken, slecht presteren. In dat geval is het redelijk om ervan uit te gaan dat uw Exchange Online net het slachtoffer is geworden van problemen binnen de Service. 
   
 ![Het Office 365 Health dashboard met alle werkbelastingen die groen worden weergegeven, behalve Exchange, met Service hersteld.](../media/ec7f0325-9e61-4e1a-bec0-64b87f4469be.PNG)
   
@@ -251,7 +251,7 @@ U moet [PSPing](/sysinternals/downloads/psping) of een ander hulpprogramma gebru
     
 2. Ga naar de map waar het hulpprogramma (in dit geval PsPing) is geïnstalleerd en test deze Office 365 URL's:
     
-  - psping portal.office.com:443
+  - psping admin.microsoft.com:443
     
   - psping microsoft-my.sharepoint.com:443
     

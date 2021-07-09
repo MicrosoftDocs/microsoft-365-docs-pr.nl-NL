@@ -20,12 +20,12 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: 402797b22e94129abbeb17f1a3454f95d5eae8fc
-ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
+ms.openlocfilehash: ae170ecf0fc0f354c9975300e5f2f7cd014b0c47
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52908339"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339684"
 ---
 # <a name="endpoint-detection-and-response-edr-in-block-mode"></a>Endpoint detection and response (EDR) in block mode
 
@@ -35,7 +35,7 @@ ms.locfileid: "52908339"
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+>Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
 ## <a name="what-is-edr-in-block-mode"></a>Wat is EDR in de blokmodus?
 
@@ -43,7 +43,7 @@ ms.locfileid: "52908339"
 
 EDR in de blokmodus is ook geïntegreerd met [bedreigingen & vulnerability management.](next-gen-threat-and-vuln-mgt.md) Het beveiligingsteam van uw [](tvm-security-recommendation.md) organisatie krijgt een beveiligingsaanbeveling om de EDR in de blokmodus in te schakelen als dit nog niet is ingeschakeld. 
 
-:::image type="content" source="images/edrblockmode-TVMrecommendation.png" alt-text="aanbeveling om de EDR in te schakelen in de blokmodus":::
+:::image type="content" source="images/enable-edr-in-block-mode.png" alt-text="aanbeveling om de EDR in te schakelen in de blokmodus":::
 
 > [!NOTE]
 > Als u de beste beveiliging wilt, moet u Microsoft Defender voor eindpunten **[implementeren.](configure-machines-security-baseline.md)**
@@ -62,14 +62,14 @@ In de volgende afbeelding ziet u een exemplaar van ongewenste software die is ge
 > [!IMPORTANT]
 > Zorg ervoor dat [aan de vereisten](#requirements-for-edr-in-block-mode) wordt voldaan voordat u EDR in de blokmodus.
 
-1. Ga naar de [Microsoft 365 Defender-portal](microsoft-defender-security-center.md) en meld u aan. 
+1. Ga naar de [Microsoft 365 Defender portal](microsoft-defender-security-center.md) en meld u aan. 
 
 2. Kies **Instellingen**  >  **Geavanceerde functies.**
 
 3. Schakel de **EDR in de blokmodus in.**
 
 > [!NOTE]
-> EDR in de blokmodus kan alleen in de Microsoft Defender-beveiligingscentrum. U kunt registersleutels, Intune- of groepsbeleid niet gebruiken om de EDR in of uit te schakelen in de blokmodus.
+> EDR in de blokmodus kan alleen worden ingeschakeld in de Microsoft 365 Defender portal. U kunt registersleutels, Intune- of groepsbeleid niet gebruiken om de EDR in of uit te schakelen in de blokmodus.
 
 ## <a name="requirements-for-edr-in-block-mode"></a>Vereisten voor EDR in blokmodus
 
@@ -115,8 +115,8 @@ U Microsoft Defender Antivirus kunt opdrachtprompt of PowerShell gebruiken op ee
 
 |Methode  |Procedure  |
 |---------|---------|
-| PowerShell     | 1. Selecteer het menu Start, begin te typen `PowerShell` en open Windows PowerShell in de resultaten. <p>2. Typ `Get-MpComputerStatus` . <p>3. Zoek in de lijst met resultaten in de rij **AMRunningMode** naar een van de volgende waarden: <br/>- `Normal` <br/>- `Passive Mode` <br/>- `SxS Passive Mode` <p>Zie [Get-MpComputerStatus](/powershell/module/defender/get-mpcomputerstatus)voor meer informatie.        |
-|Opdrachtprompt     | 1. Selecteer het menu Start, begin te typen en open Windows `Command Prompt` opdrachtprompt in de resultaten. <p>2. Typ `sc query windefend` . <p>3. Bevestig in de lijst met resultaten in de rij **STATE** dat de service wordt uitgevoerd.         |
+| PowerShell     | 1. Selecteer de Startmenu, begin te typen en open Windows PowerShell `PowerShell` in de resultaten. <p>2. Typ `Get-MpComputerStatus` . <p>3. Zoek in de lijst met resultaten in de rij **AMRunningMode** naar een van de volgende waarden: <br/>- `Normal` <br/>- `Passive Mode` <br/>- `SxS Passive Mode` <p>Zie [Get-MpComputerStatus](/powershell/module/defender/get-mpcomputerstatus)voor meer informatie.        |
+|Opdrachtprompt     | 1. Selecteer de Startmenu, begin te typen en open Windows `Command Prompt` opdrachtprompt in de resultaten. <p>2. Typ `sc query windefend` . <p>3. Bevestig in de lijst met resultaten in de rij **STATE** dat de service wordt uitgevoerd.         |
 
 ### <a name="how-much-time-does-it-take-for-edr-in-block-mode-to-be-disabled"></a>Hoeveel tijd duurt het om de EDR in de blokmodus uit te schakelen?
 

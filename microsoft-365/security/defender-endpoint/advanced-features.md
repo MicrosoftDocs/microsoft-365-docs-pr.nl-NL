@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 7fd9ec25c21b2d70238bd5b0d6b58b60731088ea
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 2448b95e5c5c5da25a916b659f6b49d04ba8f0c1
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52845472"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339572"
 ---
 # <a name="configure-advanced-features-in-defender-for-endpoint"></a>Geavanceerde functies configureren in Defender voor Eindpunt
 
@@ -32,7 +32,7 @@ ms.locfileid: "52845472"
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
-> Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-advancedfeats-abovefoldlink)
+> Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-advancedfeats-abovefoldlink)
 
 Afhankelijk van de Microsoft-beveiligingsproducten die u gebruikt, zijn er mogelijk enkele geavanceerde functies beschikbaar voor u om Defender voor Eindpunt te integreren.
 
@@ -81,7 +81,7 @@ Eindpuntdetectie en -antwoord (EDR) in de blokmodus biedt bescherming tegen scha
 
 ## <a name="autoresolve-remediated-alerts"></a>Autoresolve remediated alerts
 
-Voor tenants die zijn gemaakt op of na Windows 10, versie 1809, is de mogelijkheid voor automatisch onderzoek en herstel standaard geconfigureerd om waarschuwingen op te lossen waarbij de status van het geautomatiseerde analyseresultaat 'Geen bedreigingen gevonden' of 'Herstel' is.  Als u waarschuwingen niet automatisch wilt laten oplossen, moet u de functie handmatig uitschakelen.
+Voor tenants die zijn gemaakt op of na Windows 10 versie 1809, is de geautomatiseerde onderzoeks- en herstelfunctie standaard geconfigureerd om waarschuwingen op te lossen waarbij de status van het geautomatiseerde analyseresultaat 'Geen bedreigingen gevonden' of 'Herstel' is.  Als u waarschuwingen niet automatisch wilt laten oplossen, moet u de functie handmatig uitschakelen.
 
 > [!TIP]
 > Voor tenants die vóór die versie zijn gemaakt, moet u deze functie handmatig inschakelen vanaf de [pagina Geavanceerde functies.](https://securitycenter.windows.com/preferences2/integration)
@@ -102,7 +102,7 @@ Met deze functie kunt u potentieel schadelijke bestanden in uw netwerk blokkeren
 
 Bestanden **toestaan of blokkeren** in- of in- of uit te stellen:
 
-1. Selecteer in het navigatiedeelvenster **Instellingen** Geavanceerde functies Bestand toestaan  >    >  **of blokkeren.**
+1. Selecteer in het navigatiedeelvenster **Instellingen** algemene geavanceerde functies voor Eindpunten Bestand toestaan  >    >    >    >  **of blokkeren.**
 
 1. Schakel de instelling in tussen **Aan** en **Uit.**
 
@@ -162,7 +162,7 @@ Met de integratie met Microsoft Defender voor identiteit kunt u rechtstreeks naa
 
 Deze functie is alleen beschikbaar als u een actieve Office 365 E5 of de threat intelligence-invoeging hebt. Zie de productpagina Office 365 Enterprise E5 voor meer informatie.
 
-Wanneer u deze functie in gebruik neemt, kunt u gegevens van Microsoft Defender voor Office 365 opnemen in Microsoft Defender-beveiligingscentrum om een uitgebreid beveiligingsonderzoek uit te voeren op Office 365 postvakken en Windows apparaten.
+Wanneer u deze functie in gebruik neemt, kunt u gegevens van Microsoft Defender voor Office 365 opnemen in Microsoft 365 Defender om een uitgebreid beveiligingsonderzoek uit te voeren op Office 365-postvakken en Windows apparaten.
 
 > [!NOTE]
 > U moet over de juiste licentie beschikken om deze functie in te stellen.
@@ -180,7 +180,7 @@ Van de twee Microsoft Threat Expert-onderdelen is een gerichte aanvalsmelding al
 Als u deze instelling inschakelen, worden defender-voor-eindpunt-signalen Microsoft Cloud App Security om meer inzicht te krijgen in het gebruik van cloudtoepassing. Doorgestuurde gegevens worden opgeslagen en verwerkt op dezelfde locatie als uw Cloud App Security gegevens.
 
 > [!NOTE]
-> Deze functie is beschikbaar met een E5-licentie voor [Enterprise Mobility + Security](https://www.microsoft.com/cloud-platform/enterprise-mobility-security) op apparaten met Windows 10, versie 1709 (os build 16299.1085 met [KB4493441](https://support.microsoft.com/help/4493441)), Windows 10, versie 1803 (os build 17134.704 met [KB4493464),](https://support.microsoft.com/help/4493464)Windows 10, versie 1809 (os build 17763.379 met [KB4489899),](https://support.microsoft.com/help/4489899)of later Windows 10 versies.
+> Deze functie is beschikbaar met een E5-licentie [voor](https://www.microsoft.com/cloud-platform/enterprise-mobility-security) Enterprise Mobility + Security op apparaten met Windows 10, versie 1709 (os build 16299.1085 met [KB4493441),](https://support.microsoft.com/help/4493441)Windows 10, versie 1803 (os build 17134.704 met [KB4493464](https://support.microsoft.com/help/4493464)), Windows 10 versie 1809 (os build 17763.379 met [KB4489899](https://support.microsoft.com/help/4489899)), of later Windows 10 versies.
 
 ## <a name="microsoft-secure-score"></a>Microsoft Secure Score
 
@@ -246,7 +246,7 @@ U hebt toegang tot toekomstige functies, waarop u feedback kunt geven om de alge
 
 
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-topics"></a>Gerelateerde onderwerpen
 
 - [Instellingen voor gegevensretentie bijwerken](data-retention-settings.md)
 - [Waarschuwingsmeldingen configureren](configure-email-notifications.md)

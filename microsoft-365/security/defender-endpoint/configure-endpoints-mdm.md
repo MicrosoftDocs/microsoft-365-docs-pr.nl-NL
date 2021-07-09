@@ -1,6 +1,6 @@
 ---
 title: Onboarden Windows 10-apparaten met hulpmiddelen voor Mobile Device Management
-description: Gebruik hulpprogramma's voor mobiel apparaatbeheer om het configuratiepakket op apparaten te implementeren, zodat ze zijn aan boord van de service.
+description: Gebruik hulpprogramma's voor mobiel apparaatbeheer om het configuratiepakket op apparaten te implementeren, zodat de apparaten zijn aan boord van de service.
 keywords: onboard devices using mdm, device management, onboard Microsoft Defender for Endpoint devices, mdm
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 45aa406212fe39f088f58bf311b1aed3fed16498
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: f0a0a35d41d56abfcc7975c9e79ff7d537b72f40
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843432"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53338575"
 ---
-# <a name="onboard-windows-10-devices-using-mobile-device-management-tools"></a>Onboarden Windows 10-apparaten met hulpmiddelen voor Mobile Device Management
+# <a name="onboard-the-windows-10-devices-using-mobile-device-management-tools"></a>Onboard the Windows 10 devices using Mobile Device Management tools
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -31,7 +31,7 @@ ms.locfileid: "52843432"
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configureendpointsmdm-abovefoldlink)
+>Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configureendpointsmdm-abovefoldlink)
 
 U kunt MDM-oplossingen (Mobile Device Management) gebruiken om apparaten te configureren. Defender voor Eindpunt ondersteunt MDM's door OMA-URIs om beleid te maken voor het beheren van apparaten.
 
@@ -70,9 +70,9 @@ Om veiligheidsredenen verloopt het pakket dat wordt gebruikt voor Offboard-appar
 > [!NOTE]
 > Onboarding- en offboarding-beleid mag niet tegelijkertijd op hetzelfde apparaat worden geïmplementeerd, anders veroorzaakt dit onvoorspelbare botsingen.
 
-1. Haal het offboarding-pakket van [Microsoft Defender-beveiligingscentrum:](https://securitycenter.windows.com/)
+1. Haal het offboarding-pakket van [Microsoft 365 Defender portal:](https://security.microsoft.com/)
 
-   1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **Offboarding**.
+   1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **Endpoints**  >  **Device management**  >  **Offboarding**.
 
    1. Selecteer Windows 10 als het besturingssysteem.
 
@@ -97,7 +97,7 @@ Zie voor meer informatie over Microsoft Intune beleidsinstellingen [Windows 10 b
 > [!IMPORTANT]
 > Offboarding zorgt ervoor dat het apparaat stopt met het verzenden van sensorgegevens naar de portal, maar gegevens van het apparaat, inclusief verwijzingen naar eventuele waarschuwingen die het heeft ontvangen, blijven maximaal 6 maanden bewaard.
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-topics"></a>Gerelateerde onderwerpen
 - [Onboard Windows 10 apparaten met groepsbeleid](configure-endpoints-gp.md)
 - [Onboard Windows 10 apparaten met Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
 - [Onboarden Windows 10-apparaten met een lokaal script](configure-endpoints-script.md)

@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0ed494cc29eb990430be590e62db5f0365ace494
-ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
+ms.openlocfilehash: 0b6edbdcda61eaf402275ae0b6dc9a38c5fe19f7
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53322423"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339488"
 ---
 # <a name="microsoft-defender-for-endpoint-preview-features"></a>Microsoft Defender voor endpoint preview-functies
 
@@ -54,7 +54,7 @@ Als u werkt met functies in een openbaar voorbeeld, zijn deze functies:
 - Worden volledig ondersteund door Microsoft.
 - Is mogelijk alleen beschikbaar in geselecteerde geografische regio's of cloudomgevingen. De functie bestaat bijvoorbeeld mogelijk niet in de cloud van de overheid.
 - Afzonderlijke functies in de preview-versie hebben mogelijk meer gebruiks- en ondersteuningsbeperkingen. Als dat zo is, wordt deze informatie meestal vermeld in de documentatie van de functie.
-- De preview-versies worden geleverd met een standaardondersteuningsniveau en worden aanbevolen voor productiebelastingen. 
+- De preview-versies worden geleverd met een standaardondersteuningsniveau en kunnen worden gebruikt voor productieomgevingen. 
 
 
 

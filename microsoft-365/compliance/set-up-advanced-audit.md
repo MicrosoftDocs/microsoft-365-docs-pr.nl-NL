@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: In dit artikel wordt beschreven hoe u Advanced Audit in kunt stellen, zodat u gerechtelijke onderzoeken kunt uitvoeren wanneer gebruikersaccounts worden gehackt of om andere beveiligingsgerelateerde incidenten te onderzoeken.
-ms.openlocfilehash: d1752ee7714056254a6c0e5c009aa9aa79ddff3b
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.openlocfilehash: 825dadee5260a263d005eb3a37f280381f9425a2
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52314301"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339224"
 ---
 # <a name="set-up-advanced-audit-in-microsoft-365"></a>Geavanceerde audit instellen in Microsoft 365
 
@@ -32,11 +32,11 @@ Als uw organisatie een abonnements- en eindgebruikerslicentie heeft die Geavance
 
 ![Werkstroom voor het instellen van geavanceerde controle](../media/AdvancedAuditWorkflow.png)
 
-## <a name="step1-set-up-advanced-audit-for-users"></a>Stap1: Geavanceerde controle instellen voor gebruikers
+## <a name="step-1-set-up-advanced-audit-for-users"></a>Stap 1: Geavanceerde controle instellen voor gebruikers
 
 Geavanceerde auditfuncties, zoals de mogelijkheid om belangrijke gebeurtenissen, zoals MailItemsAccessed en Verzenden, bij te houden, vereisen een geschikte E5-licentie die aan gebruikers is toegewezen. Daarnaast moet het advanced auditing app/service plan zijn ingeschakeld voor deze gebruikers. Als u wilt controleren of de app Geavanceerd controleren is toegewezen aan gebruikers, voert u de volgende stappen voor elke gebruiker uit:
 
-1. Ga in [Microsoft 365 beheercentrum](https://admin.microsoft.com/Adminportal)naar **Gebruikers**  >  **actieve gebruikers** en selecteer een gebruiker.
+1. Ga in [Microsoft 365-beheercentrum](https://admin.microsoft.com/Adminportal)naar **Gebruikers**  >  **Actieve gebruikers** en selecteer een gebruiker.
 
 2. Klik op de flyoutpagina met gebruikerseigenschappen op **Licenties en apps.**
 

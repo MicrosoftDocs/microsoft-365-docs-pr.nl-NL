@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Beheerders kunnen een TeleMessage-connector instellen voor het importeren en archiveren van signaalcommunicatiegegevens in Microsoft 365. Op deze manier kunt u gegevens van externe gegevensbronnen archiveren in Microsoft 365, zodat u compliancefuncties, zoals juridische bewaring, inhoudszoekbeleid en bewaarbeleid, kunt gebruiken om de gegevens van derden van uw organisatie te beheren.
-ms.openlocfilehash: a779cb312e20fdf5fac0987a33734e7e81ba9c74
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: bce1788f2ce08ca8678c5ba29c01e1bec2d1c834
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054852"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339464"
 ---
-# <a name="set-up-a-connector-to-archive-signal-communications-data-preview"></a>Een verbindingslijn instellen voor het archiveren van Signal-communicatiegegevens (voorbeeld)
+# <a name="set-up-a-connector-to-archive-signal-communications-data"></a>Een verbindingslijn instellen voor het archiveren van signaalcommunicatiegegevens
 
 Gebruik de TeleMessage-connector in de Microsoft 365-compliancecentrum om Signal-chats, bijlagen, bestanden en verwijderde berichten en oproepen te importeren en te archiveren. Nadat u een verbindingslijn hebt ingesteld en geconfigureerd, maakt deze verbinding met het TeleMessage-account van uw organisatie en importeert u de mobiele communicatie van werknemers met de TeleMessage Signal Archiver naar postvakken in Microsoft 365.
 

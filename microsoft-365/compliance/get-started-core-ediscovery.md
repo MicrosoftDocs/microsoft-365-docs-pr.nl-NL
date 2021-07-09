@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Hier wordt beschreven hoe u aan de slag kunt met Core eDiscovery in Microsoft 365. Nadat u eDiscovery-machtigingen hebt toegewezen en een zaak hebt ingesteld, kunt u leden toevoegen, eDiscovery-bezit maken en vervolgens inhoud zoeken en exporteren die relevant is voor uw onderzoek.
-ms.openlocfilehash: 00506c2f072fff6aa30c7d96bffdc18eb5eda20b
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.openlocfilehash: 9466b2e3268a447a4008363e88290d4d02558c76
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52311014"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341470"
 ---
 # <a name="get-started-with-core-ediscovery-in-microsoft-365"></a>Aan de slag met Core eDiscovery in Microsoft 365
 
@@ -34,19 +34,19 @@ In dit artikel worden de stappen beschreven die nodig zijn om Core eDiscovery in
 
 Voor licenties voor Core eDiscovery zijn het juiste organisatieabonnement en een licentie per gebruiker vereist.
 
-- **Organisatieabonnement:** Als u Toegang wilt tot Core eDiscovery in het Microsoft 365 compliancecentrum of het Office 365 Security & Compliance Center en de functies voor het vasthouden en exporteren wilt gebruiken, moet uw organisatie een Microsoft 365 E3- of Office 365 E3-abonnement of hoger hebben.
+- **Organisatieabonnement:** Als u Toegang wilt tot Core eDiscovery in het Microsoft 365-compliancecentrum of het Office 365 Security & Compliance Center en de functies voor het vasthouden en exporteren wilt gebruiken, moet uw organisatie een Microsoft 365 E3- of Office 365 E3-abonnement of hoger hebben.
 
 - **Licenties per gebruiker:** Als u een eDiscovery-wachtplaats wilt plaatsen op postvakken en sites, moet een gebruiker een van de volgende licenties krijgen, afhankelijk van uw organisatieabonnement:
 
-  - Een Microsoft 365 E3 of Office 365 E3-licentie of hoger
+  - Een Microsoft 365 E3 of Office 365 E3 of hoger
 
    OF
 
-  - Office 365 E1-licentie met een Exchange Online abonnement 2 of Exchange Online Archiving invoeglicentie
+  - Office 365 E1 licentie met een Exchange Online abonnement 2 of Exchange Online Archiving invoeglicentie
 
   EN
 
-  - Office 365 E1-licentie met een SharePoint online abonnement 2 of OneDrive voor Bedrijven abonnement 2-invoeglicentie
+  - Office 365 E1 licentie met een SharePoint online abonnement 2 of OneDrive voor Bedrijven abonnement 2-invoeglicentie
   
   Zie Licenties toewijzen aan gebruikers voor informatie over het toewijzen van [licenties.](../admin/manage/assign-licenses-to-users.md)
 
@@ -62,7 +62,7 @@ Als u toegang wilt tot Core eDiscovery of wilt worden toegevoegd als lid van een
 
 Volg de volgende stappen om gebruikers toe te voegen aan de rollengroep eDiscovery Manager:
 
-1. Ga naar [https://protection.office.com/permissions](https://protection.office.com/permissions) en meld u aan met de referenties voor een beheerdersaccount in uw Microsoft 365 of Office 365 organisatie.
+1. Ga naar <https://compliance.microsoft.com/permissions> en meld u aan met de referenties voor een beheerdersaccount in uw Microsoft 365 of Office 365 organisatie.
 
 2. Selecteer op **de pagina** Machtigingen de **rollengroep eDiscovery Manager.**
 
@@ -100,7 +100,7 @@ De volgende stap is het maken van een case en het gebruik van Core eDiscovery. V
 
 1. Ga naar en meld u aan met de referenties voor een gebruikersaccount dat is toegewezen aan de juiste [https://compliance.microsoft.com](https://compliance.microsoft.com) eDiscovery-machtigingen. Leden van de rollengroep Organisatiebeheer kunnen ook Core eDiscovery-cases maken.
 
-2. Klik in het linkernavigatiedeelvenster van Microsoft 365 compliancecentrum op Alles weergeven **en** klik vervolgens op **eDiscovery > Core.**
+2. Klik in het linkernavigatiedeelvenster Microsoft 365-compliancecentrum **op Alles weergeven** en klik vervolgens op **eDiscovery > Core.**
 
 3. Klik op **de pagina Core eDiscovery** op **Een zaak maken.**
 
@@ -114,7 +114,7 @@ De volgende stap is het maken van een case en het gebruik van Core eDiscovery. V
 
 Als u een zaak maakt in stap 3 en u de enige bent die de zaak gebruikt, hoeft u deze stap niet uit te voeren. U kunt de case gaan gebruiken om eDiscovery-in-standen te maken, inhoud te zoeken en zoekresultaten te exporteren. Voer deze stap uit als u andere gebruikers (of rollengroep) toegang wilt geven tot de zaak.
 
-1. Klik op **de pagina Core eDiscovery** in het Microsoft 365 compliancecentrum op de naam van de zaak aan wie u leden wilt toevoegen.
+1. Klik op **de pagina Core eDiscovery** in de Microsoft 365-compliancecentrum op de naam van de zaak aan wie u leden wilt toevoegen.
 
 2. Selecteer op de startpagina van de **zaak het tabblad Instellingen** en selecteer vervolgens Access & **machtigingen.**
 

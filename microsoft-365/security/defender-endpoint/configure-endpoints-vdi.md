@@ -17,14 +17,14 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/16/2020
 ms.technology: mde
-ms.openlocfilehash: d09967a18848365702f52f65a7f0624d2b2ae3d6
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 555f96dc1f45fb6a406b5993d0b8e4a3745c283b
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843208"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339632"
 ---
-# <a name="onboard-non-persistent-virtual-desktop-infrastructure-vdi-devices"></a>Onboarden niet-permanente virtual desktop infrastructure (VDI)-apparaten
+# <a name="onboard-the-non-persistent-virtual-desktop-infrastructure-vdi-devices"></a>Aan boord van de niet-permanente VDI-apparaten (Virtual Desktop Infrastructure)
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -34,7 +34,7 @@ ms.locfileid: "52843208"
 - VDI-apparaten (Virtual Desktop Infrastructure)
 - Windows 10, Windows Server 2019, Windows Server 2008R2/2012R2/2016
 
->Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configvdi-abovefoldlink)
+>Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configvdi-abovefoldlink)
 
 ## <a name="onboard-non-persistent-virtual-desktop-infrastructure-vdi-devices"></a>Onboarden niet-permanente virtual desktop infrastructure (VDI)-apparaten
 
@@ -63,9 +63,9 @@ De volgende stappen helpen u bij het onboarden van VDI-apparaten en markeren sta
 
 ### <a name="for-windows-10-or-windows-server-2019"></a>Voor Windows 10 of Windows Server 2019
 
-1.  Open het VDI-configuratiepakket .zip bestand *(WindowsDefenderATPOnboardingPackage.zip)* dat u hebt gedownload van de wizard Service onboarding. U kunt het pakket ook van [Microsoft Defender-beveiligingscentrum:](https://securitycenter.windows.com/)
+1.  Open het VDI-configuratiepakket .zip bestand *(WindowsDefenderATPOnboardingPackage.zip)* dat u hebt gedownload van de wizard Service onboarding. U kunt het pakket ook downloaden van [Microsoft 365 Defender portal:](https://security.microsoft.com/)
 
-    1.  Selecteer in het navigatiedeelvenster **Instellingen**  >  **Onboarding.**
+    1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **Endpoints**  >  **Device management**  >  **Onboarding**.
 
     1. Selecteer Windows 10 als het besturingssysteem.
 
@@ -111,11 +111,11 @@ De volgende stappen helpen u bij het onboarden van VDI-apparaten en markeren sta
    
       - Voor één invoer voor elk apparaat: 
     
-        Controleer slechts één item in Microsoft Defender-beveiligingscentrum.
+        Controleer slechts één item in Microsoft 365 Defender portal.
 
       - Voor meerdere vermeldingen voor elk apparaat: 
        
-        Controleer meerdere vermeldingen in Microsoft Defender-beveiligingscentrum.
+        Controleer meerdere vermeldingen in Microsoft 365 Defender portal.
 
 6. Klik **op De lijst Apparaten** in het navigatiedeelvenster.
 
@@ -183,7 +183,7 @@ Als offline service geen haalbare optie is voor uw niet-permanente VDI-omgeving,
 
 5. Verzegel de afbeelding van het gouden/hoofdmodel opnieuw zoals u dat normaal zou doen.
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-topics"></a>Gerelateerde onderwerpen
 - [Onboard Windows 10 apparaten met groepsbeleid](configure-endpoints-gp.md)
 - [Onboard Windows 10 apparaten met Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
 - [Onboarden Windows 10-apparaten met hulpmiddelen voor Mobile Device Management](configure-endpoints-mdm.md)

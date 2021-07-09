@@ -21,12 +21,12 @@ ms.collection:
 ms.assetid: 50bbf89f-7870-4c2a-ae14-42635e0cfc01
 description: Beheerder kan leren hoe u auditing voor delen gebruikt in Microsoft 365 auditlogboek om resources te identificeren die worden gedeeld met gebruikers buiten hun organisatie.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d26a8022f8d59aeb56a03c50ae546777c882ef7a
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 302ad7665c83ee9061b2e1965ef03ec25d0aab58
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "52161479"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341506"
 ---
 # <a name="use-sharing-auditing-in-the-audit-log"></a>Controle delen gebruiken in het auditlogboek
 
@@ -96,26 +96,26 @@ Een veelvoorkomende vereiste voor beheerders is het maken van een lijst met alle
 
 De eerste stap is het zoeken in het auditlogboek voor het delen van gebeurtenissen. Zie Het auditlogboek doorzoeken in het beveiligings- & compliancecentrum voor meer informatie (inclusief [de vereiste machtigingen) over het doorzoeken van het auditlogboek.](search-the-audit-log-in-security-and-compliance.md)
   
-1. Ga naar [https://protection.office.com](https://protection.office.com).
-    
+1. Ga naar <https://compliance.microsoft.com>.
+
 2. Meld u aan met uw werk- of schoolaccount.
-    
-3. Klik in het linkerdeelvenster van & compliancecentrum op **Zoeken in**   >  **het auditlogboek**.
-    
-    De pagina **Zoeken in het auditlogboek** wordt weergegeven. 
-    
+
+3. Klik in het linkerdeelvenster Microsoft 365-compliancecentrum op **Controleren.**
+
+    De **pagina Controle** wordt weergegeven.
+
 4. Klik **onder Activiteiten** op Activiteiten en klik op Activiteiten voor delen en **toegang** aanvragen om te zoeken naar gebeurtenissen die betrekking hebben op delen. 
-    
+
     ![Selecteer onder Activiteiten de optie Activiteiten voor het delen en openen van aanvragen](../media/46bb25b7-1eb2-4adf-903a-cc9ab58639f9.png)
   
-5.  Selecteer een datum- en tijdbereik om te zoeken naar de gebeurtenissen voor delen die binnen die periode hebben plaatsgevonden. 
-    
+5. Selecteer een datum- en tijdbereik om te zoeken naar de gebeurtenissen voor delen die binnen die periode hebben plaatsgevonden. 
+
 6. Klik **op Zoeken** om de zoekopdracht uit te voeren. 
-    
+
 7. Wanneer de zoekopdracht is voltooid en de resultaten worden weergegeven, klikt u op **Resultaten exporteren** Alle \> **resultaten downloaden.**
-    
+
     Nadat u de exportoptie hebt geselecteerd, wordt u in een bericht onder aan het venster gevraagd het CSV-bestand te openen of op te slaan.
-    
+
 8. Klik **op Opslaan** als \> **en** sla het CSV-bestand op in een map op uw lokale computer. 
 
 ### <a name="step-2-use-the-powerquery-editor-to-format-the-exported-audit-log"></a>Stap 2: PowerQuery Editor gebruiken om het geëxporteerde auditlogboek op te maken

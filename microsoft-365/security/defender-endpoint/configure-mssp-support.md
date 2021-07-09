@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 6786d423d20ec90c12d2ea712003acc787ed599d
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: d82bffd6eea54256f2c6773f843030a19e27275d
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165247"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339356"
 ---
 # <a name="configure-managed-security-service-provider-integration"></a>MSSP-integratie (Managed Security Service Provider) configureren
 
@@ -31,7 +31,7 @@ ms.locfileid: "51165247"
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-mssp-support-abovefoldlink)
+>Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-mssp-support-abovefoldlink)
  
 [!include[Prerelease information](../../includes/prerelease.md)]
 
@@ -44,7 +44,7 @@ U moet de volgende configuratiestappen nemen om de MSSP-integratie (Managed Secu
 
 Met de integratie kunnen MSSP's de volgende acties uitvoeren:
 
-- Toegang krijgen tot de mssp-portal van Microsoft Defender-beveiligingscentrum klant
+- Toegang krijgen tot de mssp-Microsoft 365 Defender portal
 - E-mailmeldingen ontvangen en 
 - Waarschuwingen ophalen via hulpprogramma's voor beveiligingsgegevens en gebeurtenisbeheer (SIEM)
 
@@ -57,7 +57,7 @@ MsSP-klanten nemen meestal de eerste configuratiestappen om MSSP's toegang te ve
 In het algemeen moeten de volgende configuratiestappen worden ondernomen:
 
 
-- **De MSSP-toegang verlenen tot Microsoft Defender-beveiligingscentrum** <br>
+- **De MSSP-toegang verlenen tot Microsoft 365 Defender** <br>
 Deze actie moet worden uitgevoerd door de MSSP-klant. Het verleent de MSSP-toegang tot de Defender for Endpoint-tenant van de MSSP-klant.
  
 
@@ -74,7 +74,7 @@ Zie [Multi-tenant access for Managed Security Service Providers (Multi-tenant ac
 
 
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-topics"></a>Gerelateerde onderwerpen
 - [MSSP-toegang verlenen tot de portal](grant-mssp-access.md)
 - [Toegang tot de MSSP-klantportal](access-mssp-portal.md)
 - [Waarschuwingsmeldingen configureren](configure-mssp-notifications.md)

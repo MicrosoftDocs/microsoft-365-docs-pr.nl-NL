@@ -11,7 +11,7 @@ ms.topic: article
 ms.service: O365-seccomp
 ms.collection:
 - m365-security-compliance
-- m365solution-aed
+- m365solution-ediscovery
 - m365initiative-compliance
 - m365solution-overview
 localization_priority: Normal
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365 biedt drie eDiscovery-hulpprogramma's waarmee u inhoud kunt zoeken en exporteren die is gevonden op verschillende locaties, zoals Exchange-postvakken, SharePoint- en OneDrive voor Bedrijven-sites, Microsoft 365 Groepen, Microsoft Teams en Skype voor Bedrijven-gesprekken. Core eDiscovery en Advanced eDiscovery bieden veel extra functies om u te helpen bij het beheren van uw onderzoeken.
-ms.openlocfilehash: dc332e1a399588e4a1e969af45da6cff92008461
-ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
+ms.openlocfilehash: a62c8a53081a79e4afd98c82bfaca486a6155a6b
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53256344"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341710"
 ---
 # <a name="ediscovery-solutions-in-microsoft-365"></a>eDiscovery-oplossingen in Microsoft 365
 
@@ -47,7 +47,7 @@ Microsoft 365 biedt drie eDiscovery-oplossingen: Zoeken naar inhoud, Core eDisco
 
 In de volgende tabel worden de belangrijkste mogelijkheden vergeleken die beschikbaar zijn in Zoeken naar inhoud, Core eDiscovery en Advanced eDiscovery.
 
-|Functie|Inhoud zoeken|Core eDiscovery|Advanced eDiscovery|
+|Mogelijkheid|Inhoud zoeken|Core eDiscovery|Advanced eDiscovery|
 |:------|:-------------|:-------------|:-------------|
 |Zoeken naar inhoud|![Ondersteund](../media/check-mark.png)|![Ondersteund](../media/check-mark.png)|![Ondersteund](../media/check-mark.png)|
 |Trefwoordquery's en zoekvoorwaarden|![Ondersteund](../media/check-mark.png)|![Ondersteund](../media/check-mark.png)|![Ondersteund](../media/check-mark.png)|

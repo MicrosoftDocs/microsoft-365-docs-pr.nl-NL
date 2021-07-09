@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 72bbad69-035b-4d33-b8f4-549a2743e97d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Activiteitswaarschuwingen toevoegen en beheren in het beveiligings- & compliancecentrum, zodat Microsoft 365 e-mailmeldingen ontvangt wanneer gebruikers specifieke activiteiten uitvoeren
-ms.openlocfilehash: d0daa9249a8ea69c376ef7bbc8b7a90253e411db
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: b48093de66fdefa9a298b6cdc0f0324ee720fbbf
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227161"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341602"
 ---
 # <a name="create-activity-alerts"></a>Activiteitswaarschuwingen maken
 
@@ -46,7 +46,7 @@ U kunt een activiteitswaarschuwing maken die u een e-mailmelding stuurt wanneer 
 
 ## <a name="create-an-activity-alert"></a>Een activiteitswaarschuwing maken
 
-1. Ga naar [https://protection.office.com/managealerts](https://protection.office.com/managealerts).
+1. Ga naar <https://compliance.microsoft.com/managealerts>.
 
 2. Meld u aan met uw werk- of schoolaccount.
 
@@ -85,7 +85,7 @@ U kunt een activiteitswaarschuwing maken die u een e-mailmelding stuurt wanneer 
 
 U kunt een activiteitsmelding uitschakelen, zodat er geen e-mailmelding wordt verzonden. Nadat u de activiteitsmelding hebt uitgeschakeld, wordt deze nog steeds weergegeven in de lijst met activiteitswaarschuwingen voor uw organisatie en kunt u de eigenschappen ervan nog steeds bekijken.
 
-1. Ga naar Ga naar [https://protection.office.com/managealerts](https://protection.office.com/managealerts) .
+1. Ga naar <https://compliance.microsoft.com/managealerts>.
 
 2. Meld u aan met uw werk- of schoolaccount.
 

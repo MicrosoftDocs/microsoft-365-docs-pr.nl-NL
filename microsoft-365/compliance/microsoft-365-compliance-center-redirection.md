@@ -11,12 +11,12 @@ ms.topic: article
 localization_priority: Normal
 description: Meer informatie over het automatisch omleiden Office 365 beveiligings- en compliancecentrumgebruikers naar de Microsoft 365-compliancecentrum..
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 83d6a08d5c189c08c8f7d25daa3af39f28cbf8f1
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 62fc302f9f065ac7bb0475a6e72dc240a56a1fe1
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53226273"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339404"
 ---
 # <a name="redirect-users-from-the-office-365-security-and-compliance-center-to-the-microsoft-365-compliance-center"></a>Gebruikers omleiden van het Office 365 beveiligings- en compliancecentrum naar het Microsoft 365-compliancecentrum
 
@@ -35,7 +35,7 @@ Automatische omleiding is standaard ingeschakeld voor alle gebruikers die toegan
 Gebruikers worden automatisch doorgeleid naar dezelfde complianceoplossingen in de Microsoft 365-compliancecentrum (compliance.microsoft.com).
 
 > [!NOTE]
-> Voor andere complianceoplossingen in het Office 365 Beveiligings- en compliancecentrum blijven gebruikers deze oplossingen beheren in het Microsoft 365-compliancecentrum of het Office 365 Beveiligings- en compliancecentrum. De automatische omleiding voor deze complianceoplossingen is binnenkort beschikbaar.*
+> Voor andere complianceoplossingen in het Office 365 Beveiligings- en compliancecentrum blijven gebruikers deze oplossingen beheren in het Microsoft 365-compliancecentrum of het Office 365 Beveiligings- en compliancecentrum. De automatische omleiding voor deze complianceoplossingen is binnenkort beschikbaar.
 
 Met deze functie en bijbehorende besturingselementen wordt de automatische omleiding van beveiligingsfuncties voor Microsoft Defender niet ingeschakeld voor Office 365. Als u de omleiding voor beveiligingsfuncties wilt inschakelen, zie Accounts van Microsoft Defender omleiden voor Office 365 naar het [Microsoft 365 beveiligingscentrum](/microsoft-365/security/defender/microsoft-365-security-mdo-redirection) voor meer informatie.
 
@@ -44,7 +44,7 @@ Met deze functie en bijbehorende besturingselementen wordt de automatische omlei
 Als iets niet werkt voor u of als er iets is dat u niet kunt voltooien via de Microsoft 365-compliancecentrum-portal, kunt u de automatische omleiding tijdelijk uitschakelen voor alle gebruikers.
 
 > [!IMPORTANT]
-> De Microsoft 365-compliancecentrum is de vervangingsbeheerportal voor complianceoplossingen die momenteel worden beheerd in Office 365 beveiligings- en compliancecentrum. Alle Microsoft 365 complianceoplossingen worden uitsluitend in de Microsoft 365-compliancecentrum. Het uitschakelen van omleiding naar de Microsoft 365-compliancecentrum moet een oplossing voor de korte termijn zijn.*
+> De Microsoft 365-compliancecentrum is de vervangingsbeheerportal voor complianceoplossingen die momenteel worden beheerd in Office 365 beveiligings- en compliancecentrum. Alle Microsoft 365 complianceoplossingen worden uitsluitend in de Microsoft 365-compliancecentrum. Het uitschakelen van omleiding naar de Microsoft 365-compliancecentrum moet een oplossing voor de korte termijn zijn.
 
 Als u wilt teruggaan naar het Office 365 Beveiligings- en compliancecentrum (protection.microsoft.com) voor alle gebruikers, gaat u als volgt te werk:
 

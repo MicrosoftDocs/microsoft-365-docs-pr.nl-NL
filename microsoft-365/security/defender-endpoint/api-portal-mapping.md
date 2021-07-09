@@ -1,6 +1,6 @@
 ---
 title: API-velden van Microsoft Defender voor eindpuntdetecties
-description: Meer informatie over de manier waarop de API-velden detecties aan de waarden in Microsoft Defender-beveiligingscentrum
+description: Meer informatie over de manier waarop de API-velden detecties aan de waarden in Microsoft 365 Defender
 keywords: detecties, detectievelden, velden, api, velden, pull Detecties, rest api, aanvraag, antwoord
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d6d2ad9abe88d0099b58dd2df486120082bb22c1
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: f9a0d4ddeee5c1dc49c53e324854cabccc5f79e5
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933635"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339548"
 ---
 # <a name="microsoft-defender-for-endpoint-detections-api-fields"></a>API-velden van Microsoft Defender voor eindpuntdetecties
 
@@ -31,13 +31,13 @@ ms.locfileid: "51933635"
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-apiportalmapping-abovefoldlink)
+>Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-apiportalmapping-abovefoldlink)
 
-Meer informatie over welke gegevensvelden worden weergegeven als onderdeel van de DETECTIE-API en hoe ze worden Microsoft Defender-beveiligingscentrum.
+Meer informatie over welke gegevensvelden worden weergegeven als onderdeel van de DETECTIE-API en hoe ze worden Microsoft 365 Defender.
 
 >[!Note]
 >- [Defender for Endpoint Alert](alerts.md) is samengesteld uit een of meer detecties.
->- **Microsoft Defender ATP Detectie** is samengesteld uit de verdachte gebeurtenis die zich heeft voorgedaan op het apparaat en de bijbehorende **waarschuwingsgegevens.**
+>- **Microsoft Defender ATP Detection** is samengesteld uit de verdachte gebeurtenis op het apparaat en de bijbehorende **waarschuwingsgegevens.**
 >- De Microsoft Defender for Endpoint Alert API is de nieuwste API voor waarschuwingsverbruik en bevat een gedetailleerde lijst met verwante gegevens voor elke waarschuwing. Zie Waarschuwingsmethoden en [-eigenschappen](alerts.md) en [Lijstwaarschuwingen](get-alerts.md)voor meer informatie.
 
 ## <a name="detections-api-fields-and-portal-mapping"></a>Detecties API-velden en portaltoewijzing
@@ -49,7 +49,7 @@ Veldnummers komen overeen met de getallen in de onderstaande afbeeldingen.
 
 > [!div class="mx-tableFixed"]
 > 
-> | Portal-label   | SIEM-veldnaam           | ArcSight-veld      | Voorbeeldwaarde                                                                      | Beschrijving                                                                                                                                                                    |
+> | Portal-label   | SIEM-veldnaam           | ArcSight-veld      | Voorbeeldwaarde                                                                      | Omschrijving                                                                                                                                                                    |
 > |------------------|---------------------------|---------------------|------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 > | 1                | Waarschuwingstitel                | naam                | Microsoft Defender AV heeft malware met hoge ernst 'Mikatz' gedetecteerd | Waarde die beschikbaar is voor elke detectie.                                                                                                                                               |
 > | 2                | Ernst                  | deviceSeverity      | Hoog                                                                             | Waarde die beschikbaar is voor elke detectie.                                                                                                                                               |
@@ -101,7 +101,7 @@ Veldnummers komen overeen met de getallen in de onderstaande afbeeldingen.
 ![Waarschuwing voor afbeeldingsacacteur](images/atp-mapping7.png)
 
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-topics"></a>Gerelateerde onderwerpen
 - [SIEM-integratie inschakelen in Microsoft Defender voor Eindpunt](enable-siem-integration.md)
 - [ArcSight configureren om Microsoft Defender te gebruiken voor eindpuntdetecties](configure-arcsight.md)
 - [Microsoft Defender voor eindpuntdetecties trekken met REST API](pull-alerts-using-rest-api.md)

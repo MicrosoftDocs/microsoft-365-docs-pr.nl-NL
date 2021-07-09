@@ -1,7 +1,7 @@
 ---
-title: Waarschuwingenwachtrij in Microsoft Defender-beveiligingscentrum
+title: Waarschuwingenwachtrij in Microsoft 365 Defender
 ms.reviewer: ''
-description: De waarschuwingen weergeven en beheren die zijn opgedoken in Microsoft Defender-beveiligingscentrum
+description: De waarschuwingen weergeven en beheren die zijn opgedoken in Microsoft 365 Defender
 keywords: ''
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,26 +18,26 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.date: 09/03/2018
 ms.technology: mde
-ms.openlocfilehash: d40fc887f26dfe62e05f7ee6ac7bbbb8ac45a402
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: ed65c836e74d5394d3b291ca3ebb5e781e37afa8
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51059962"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339560"
 ---
-# <a name="alerts-queue-in-microsoft-defender-security-center"></a>Waarschuwingenwachtrij in Microsoft Defender-beveiligingscentrum
+# <a name="alerts-queue-in-microsoft-365-defender"></a>Waarschuwingenwachtrij in Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Van toepassing op:**
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 
-> Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 Lees hoe u de wachtrij kunt bekijken en beheren, zodat u bedreigingen die worden gezien op entiteiten zoals apparaten, bestanden of gebruikersaccounts, effectief kunt onderzoeken.
 
 ## <a name="in-this-section"></a>In deze sectie
-Onderwerp | Beschrijving 
+Onderwerp | Omschrijving 
 :---|:---
 [De waarschuwingenwachtrij weergeven en organiseren](alerts-queue.md) | Toont een lijst met waarschuwingen die zijn gemarkeerd in uw netwerk.
 [Waarschuwingen beheren](manage-alerts.md) | Meer informatie over hoe u waarschuwingen kunt beheren, zoals de status wijzigen, deze toewijzen aan een lid van beveiligingsbewerkingen en de geschiedenis van een waarschuwing bekijken.

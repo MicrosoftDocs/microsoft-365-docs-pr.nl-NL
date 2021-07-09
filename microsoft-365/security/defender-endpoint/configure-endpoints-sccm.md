@@ -1,6 +1,6 @@
 ---
 title: Onboarden Windows 10-updates met Configuration Manager
-description: Gebruik Configuration Manager om het configuratiepakket op apparaten te implementeren, zodat ze zijn aan boord van de service.
+description: Gebruik Configuration Manager om het configuratiepakket op apparaten te implementeren, zodat apparaten worden aan boord van de service.
 keywords: onboard devices using sccm, device management, configure Microsoft Defender for Endpoint devices
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,14 +17,14 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 02/07/2020
 ms.technology: mde
-ms.openlocfilehash: d827fb89a082286b1b7b77ea0a14e588ce171161
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: d7c319e37fb804ee4dac3b6bff402942bbc2fa79
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842192"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339656"
 ---
-# <a name="onboard-windows-10-devices-using-configuration-manager"></a>Onboarden Windows 10-updates met Configuration Manager
+# <a name="onboard-the-windows-10-devices-using-configuration-manager"></a>Onboard the Windows 10 devices using Configuration Manager
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -35,7 +35,7 @@ ms.locfileid: "52842192"
 - Microsoft Endpoint Configuration Manager huidige vertakking
 - System Center 2012 R2 Configuration Manager
 
->Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configureendpointssccm-abovefoldlink)
+>Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configureendpointssccm-abovefoldlink)
 
 ## <a name="supported-client-operating-systems"></a>Ondersteunde clientbesturingssystemen
 
@@ -71,9 +71,9 @@ Bekijk het [PDF-bestand](https://github.com/MicrosoftDocs/microsoft-365-docs/raw
 
 
 
-1. Open het configuratiepakket Configuratiebeheer .zip bestand *(WindowsDefenderATPOnboardingPackage.zip)* dat u hebt gedownload uit de wizard Service onboarding. U kunt het pakket ook van [Microsoft Defender-beveiligingscentrum:](https://securitycenter.windows.com/)
+1. Open het configuratiepakket Configuratiebeheer .zip bestand *(WindowsDefenderATPOnboardingPackage.zip)* dat u hebt gedownload uit de wizard Service onboarding. U kunt het pakket ook downloaden van [Microsoft 365 Defender portal:](https://security.microsoft.com/)
 
-    1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **Onboarding.**
+    1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **Endpoints**  >  **Device management**  >  **Onboarding**.
     
     1. Selecteer Windows 10 als het besturingssysteem.
 
@@ -102,10 +102,10 @@ Zie Detectiemethoden configureren [in System Center 2012 R2 Configuration Manage
 
 ### <a name="configure-sample-collection-settings"></a>Voorbeeldverzamelingsinstellingen configureren
 
-Voor elk apparaat kunt u een configuratiewaarde instellen om aan te geven of steekproeven vanaf het apparaat kunnen worden verzameld wanneer een aanvraag wordt ingediend via Microsoft Defender-beveiligingscentrum om een bestand in te dienen voor uitgebreide analyse.
+Voor elk apparaat kunt u een configuratiewaarde instellen om aan te geven of steekproeven kunnen worden verzameld vanaf het apparaat wanneer een aanvraag wordt ingediend via Microsoft 365 Defender om een bestand in te dienen voor uitgebreide analyse.
 
 >[!NOTE]
->Deze configuratie-instellingen worden meestal uitgevoerd via Configuration Manager. 
+>Deze configuratie-instellingen worden meestal uitgevoerd via Configuration Manager.
 
 U kunt een complianceregel instellen voor configuratie-item in Configuration Manager om de instelling voor voorbeeld delen op een apparaat te wijzigen.
 
@@ -179,9 +179,9 @@ Zie Een [offboarding-configuratiebestand](/configmgr/protect/deploy-use/windows-
 
 ### <a name="offboard-devices-using-system-center-2012-r2-configuration-manager"></a>Offboard-apparaten met System Center 2012 R2 Configuration Manager
 
-1. Haal het offboarding-pakket van [Microsoft Defender-beveiligingscentrum:](https://securitycenter.windows.com/)
+1. Haal het offboarding-pakket van [Microsoft 365 Defender portal:](https://security.microsoft.com/)
 
-    1. Selecteer in het navigatiedeelvenster **Instellingen**  >   **Offboarding**.
+    1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **Endpoints**  >  **Device management**  >   **Offboarding**.
 
     1. Selecteer Windows 10 als het besturingssysteem.
 
@@ -239,7 +239,7 @@ Value: "1"
 
 Zie Inleiding tot compliance-instellingen [in System Center 2012 R2 Configuration Manager voor meer informatie.](/previous-versions/system-center/system-center-2012-R2/gg682139\(v=technet.10\))
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-topics"></a>Gerelateerde onderwerpen
 - [Onboard Windows 10 apparaten met groepsbeleid](configure-endpoints-gp.md)
 - [Onboarden Windows 10-apparaten met hulpmiddelen voor Mobile Device Management](configure-endpoints-mdm.md)
 - [Onboarden Windows 10-apparaten met een lokaal script](configure-endpoints-script.md)

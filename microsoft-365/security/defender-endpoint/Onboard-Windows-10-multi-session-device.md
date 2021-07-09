@@ -15,12 +15,12 @@ ms.author: dansimp
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
-ms.openlocfilehash: 5bf9f856e93ae1424373a917490a264c04e07feb
-ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
+ms.openlocfilehash: 9114a825ad011f0b2a17cea4929ab2a09bfa2172
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52861177"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339476"
 ---
 # <a name="onboard-windows-10-multi-session-devices-in-windows-virtual-desktop"></a>Onboarden Windows 10 multi-sessie apparaten in Windows Virtual Desktop (Virtuele bureaubladversie) 
 6 minuten om te lezen 
@@ -54,7 +54,7 @@ Er zijn verschillende manieren om een WVD-hostcomputer aan te boord te nemen:
 #### <a name="scenario-1-using-local-group-policy"></a>*Scenario 1: Lokaal groepsbeleid gebruiken*
 In dit scenario moet het script in een gouden afbeelding worden geplaatst en wordt lokaal groepsbeleid gebruikt om het begin van het opstartproces uit te voeren.
 
-Gebruik de instructies in [VDI-apparaten met niet-permanente virtuele bureaubladinfrastructuur](configure-endpoints-vdi.md#onboard-non-persistent-virtual-desktop-infrastructure-vdi-devices-1)aan boord.
+Gebruik de instructies in [Onboard the non-persistent virtual desktop infrastructure (VDI) devices](configure-endpoints-vdi.md#onboard-the-non-persistent-virtual-desktop-infrastructure-vdi-devices).
 
 Volg de instructies voor één vermelding voor elk apparaat.
 

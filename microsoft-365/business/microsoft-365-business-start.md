@@ -28,12 +28,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Meer informatie Microsoft 365 voor bedrijven, hoe u dit kunt instellen en hoe u de apparaten en pc's van uw gebruikers voorbereidt om ervoor te zorgen dat ze worden beschermd door gebruikers Microsoft 365 voor bedrijven.
-ms.openlocfilehash: be5f0e74b71f412bf647e4ef0e496cd932fc306a
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: 2ab0079da7a8f30d481cdb3d3dc6d165b4a19e99
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706453"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339285"
 ---
 # <a name="get-started-with-microsoft-365-for-business"></a>Aan de slag met Microsoft 365 voor bedrijven
 
@@ -57,20 +57,20 @@ Microsoft 365 voor bedrijven is bedoeld voor maximaal 300 licenties. Als u meer 
 
  **Overzicht van Microsoft 365 voor bedrijven Suite instellen**
   
-In het volgende diagram wordt beschreven hoe beheerders Microsoft 365 voor bedrijven. In deze beschrijving worden ook de stappen beschreven voor het voorbereiden Windows pc's voor Microsoft 365 voor bedrijven. U kunt ook nieuwe apparaten toevoegen in het Microsoft 365 beheercentrum met [Windows AutoPilot.](add-autopilot-devices-and-profile.md) U kunt AutoPilot gebruiken om nieuwe apparaten in te stellen en vooraf te configureren, zodat ze klaar zijn voor productief gebruik zodra een gebruiker zich aanmeld met hun Microsoft 365 voor zakelijke referenties.
+In het volgende diagram wordt beschreven hoe beheerders Microsoft 365 voor bedrijven. In deze beschrijving worden ook de stappen beschreven voor het voorbereiden Windows pc's voor Microsoft 365 voor bedrijven. U kunt ook nieuwe apparaten toevoegen in de Microsoft 365-beheercentrum met [Windows AutoPilot.](add-autopilot-devices-and-profile.md) U kunt AutoPilot gebruiken om nieuwe apparaten in te stellen en vooraf te configureren, zodat ze klaar zijn voor productief gebruik zodra een gebruiker zich aanmeld met hun Microsoft 365 voor zakelijke referenties.
   
 ![A diagram that shows the setup and management flow for admins, and also for a user](../media/249f81fc-7e79-44c7-8425-3a0b7b651c3b.png)
 
-## <a name="watch-set-up-microsoft-365-business"></a>Kijken: Een Microsoft 365 Business
+## <a name="watch-set-up-microsoft-365-business"></a>Kijken: Microsoft 365 Business
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FYSM] 
 
-Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../business-video/index.yml).
+Als u deze video nuttig vond, raadpleegt u dan de [complete training voor kleine bedrijven en degene die nieuw zijn bij Microsoft 365](../business-video/index.yml).
 
   
 ### <a name="1-set-up-microsoft-365-for-business-admin"></a>1: Een Microsoft 365 voor bedrijven instellen (beheerder)
 
-Meld u aan [bij Microsoft 365 beheercentrum](https://portal.office.com/adminportal/home) met uw globale beheerdersreferenties en volg de volgende stappen om Microsoft 365 voor bedrijven in te stellen. 
+Meld u aan [bij Microsoft 365-beheercentrum](https://admin.microsoft.com/adminportal/home) globale beheerdersreferenties en volg de volgende stappen om Microsoft 365 voor bedrijven. 
   
 1. [Vereisten voor het beveiligen van gegevens op apparaten met Microsoft 365 voor bedrijven](pre-requisites-for-data-protection.md)
     
@@ -78,7 +78,7 @@ Meld u aan [bij Microsoft 365 beheercentrum](https://portal.office.com/adminport
     
 2. [De installatiewizard gebruiken om een Microsoft 365 voor bedrijven in te stellen](set-up.md)
     
-    Als u permanent van een lokale **Active Directory** naar de cloud gaat, kunt u naar het Microsoft 365-beheercentrum gaan en de installatiewizard gebruiken om uw gebruikers handmatig toe te voegen, of u kunt een een-tijdssynchronisatie uitvoeren met Azure AD-Verbinding maken. U kunt dit op twee manieren doen: 
+    Als u permanent van een lokale **Active Directory** naar de cloud gaat, kunt u naar de Microsoft 365-beheercentrum gaan en de installatiewizard gebruiken om uw gebruikers handmatig toe te voegen, of u kunt een een-tijdssynchronisatie uitvoeren met Azure AD-Verbinding maken. U kunt dit op twee manieren doen: 
     
     - Als u ook een Exchange 2010- Exchange 2013- of Exchange 2016-server hebt, kunt u Minimale hybride gebruiken om snel Exchange postvakken te migreren naar [Microsoft 365.](/Exchange/mailbox-migration/use-minimal-hybrid-to-quickly-migrate) De minimale hybride stappen omvatten een een time sync van gebruikers met Azure AD en e-mailmigratie van on-premises naar de cloud. Nadat de e-mailmigratie is voltooid, wordt de adreslijstsynchronisatie automatisch uitgeschakeld wanneer u deze methode gebruikt.
     
@@ -94,7 +94,7 @@ Volg de stappen in Mobiele apparaten instellen voor [Microsoft 365](set-up-mobil
 
 Beheerders kunnen instellingen voor nieuwe Windows 10 pc's vooraf selecteren met Windows [AutoPilot.](add-autopilot-devices-and-profile.md) Gebruikers kunnen hun bestaande of nieuwe Windows 10 instellen door de stappen in dit onderwerp te volgen: Windows pc's instellen voor Microsoft 365 voor [zakelijke gebruikers.](set-up-windows-devices.md) Voor bestaande apparaten kunnen gebruikers desgewenst **bestanden** verplaatsen [naar OneDrive voor Bedrijven.](move-files-to-onedrive.md) Ze kunnen ook hulpprogramma's van derden gebruiken om bestanden die zijn gekoppeld aan Windows profiel te verplaatsen naar OneDrive.
   
-Als uw organisatie Windows Server Active Directory on-premises gebruikt, kunt u Microsoft 365 voor bedrijven instellen om uw Windows 10-apparaten te beveiligen, met behoud van toegang tot on-premises resources waarvoor lokale verificatie vereist is. Volg de stappen in [Enable domain-joined Windows 10 devices to be managed by Microsoft 365 for business](manage-windows-devices.md) to set this up. Deze methode heeft de voorkeur en apparaten in deze status worden **verbonden met hybride Azure AD-apparaten genoemd.** 
+Als uw organisatie Windows Server Active Directory on-premises gebruikt, kunt u Microsoft 365 voor bedrijven instellen om uw Windows 10-apparaten te beveiligen, met behoud van toegang tot lokale resources waarvoor lokale verificatie vereist is. Volg de stappen in [Enable domain-joined Windows 10 devices to be managed by Microsoft 365 for business](manage-windows-devices.md) to set this up. Deze methode heeft de voorkeur en apparaten in deze status worden **verbonden met hybride Azure AD-apparaten genoemd.** 
   
 Als u een lokale Active Directory met enkele on-premises bronnen (zoals bestandsaandelen en printers) behoudt, kunt u uw apparaten met **Azure AD toegang** geven tot deze bronnen door de volgende stappen uit te voeren: On-premises resources openen vanaf een apparaat met Azure [AD-apparaten in Microsoft 365 voor](access-resources.md)bedrijven.
   
@@ -112,4 +112,4 @@ Als u een lokale Active Directory met enkele on-premises bronnen (zoals bestands
 [Microsoft 365 voor zakelijke documentatie en resources](./index.yml) (koppelingspagina)\
 [Beheer Microsoft 365 voor bedrijven](manage.md) (artikel)\
 [Migreren naar Microsoft 365 voor bedrijven](migrate-to-microsoft-365-business.md) (artikel)\
-[Microsoft 365 voor zakelijke trainingsvideo's](../business-video/index.yml) (koppelingspagina)
+[Trainingsvideo's voor Microsoft 365 voor bedrijven](../business-video/index.yml) (koppelingspagina)

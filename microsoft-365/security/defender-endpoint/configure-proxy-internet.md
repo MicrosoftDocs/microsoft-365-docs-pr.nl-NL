@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: af50e3c2a6db1a09d546bfa06b26c80dcf4481e5
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 6a3bbc46bb5859743d5170451b0d1c68793f93bf
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53290085"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53338707"
 ---
 # <a name="configure-device-proxy-and-internet-connectivity-settings"></a>Instellingen voor apparaatproxy en internetverbinding configureren
 
@@ -170,7 +170,7 @@ Raadpleeg de volgende richtlijnen om de vereiste jokerteken (*) voor uw specifie
 
 1. Onboard a previous operating system with the Microsoft Monitoring Agent (MMA) into Defender for Endpoint (for more information, see Onboard previous [versions of Windows](https://go.microsoft.com/fwlink/p/?linkid=2010326) on Defender for Endpoint and Onboard Windows [servers](configure-server-endpoints.md#windows-server-2008-r2-sp1-windows-server-2012-r2-and-windows-server-2016).
 
-2. Controleer of de computer succesvol rapporteert in de Microsoft Defender-beveiligingscentrum portal.
+2. Controleer of de computer succesvol rapporteert in de Microsoft 365 Defender portal.
 
 3. Voer het TestCloudConnection.exe uit van 'C:\Program Files\Microsoft Monitoring Agent\Agent' om de connectiviteit te valideren en om de vereiste URL's voor uw specifieke werkruimte te bekijken.
 
@@ -178,7 +178,7 @@ Raadpleeg de volgende richtlijnen om de vereiste jokerteken (*) voor uw specifie
 
     ![Afbeelding van beheerder in Windows PowerShell](images/admin-powershell.png)
 
-De jokertekens () die worden gebruikt \* in \* .ods.opinsights.azure.com, .oms.opinsights.azure.com en .agentsvc.azure-automation.net URL-eindpunten kunnen worden vervangen door uw specifieke \* werkruimte-id. \* De werkruimte-id is specifiek voor uw omgeving en werkruimte en is te vinden in de sectie Onboarding van uw tenant binnen de Microsoft Defender-beveiligingscentrum portal.
+De jokertekens () die worden gebruikt \* in \* .ods.opinsights.azure.com, .oms.opinsights.azure.com en .agentsvc.azure-automation.net URL-eindpunten kunnen worden vervangen door uw specifieke \* werkruimte-id. \* De werkruimte-id is specifiek voor uw omgeving en werkruimte en is te vinden in de sectie Onboarding van uw tenant binnen de Microsoft 365 Defender portal.
 
 Het .blob.core.windows.net URL-eindpunt kan worden vervangen door de URL's die worden weergegeven in de sectie \* Firewallregel: \* .blob.core.windows.net' van de testresultaten.
 

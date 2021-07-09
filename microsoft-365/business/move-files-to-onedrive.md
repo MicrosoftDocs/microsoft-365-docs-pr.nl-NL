@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: eb8244aa-a302-481a-b2b5-d34e88b18ec7
 description: In een paar eenvoudige stappen leert u hoe u uw persoonlijke werkbestanden en gevoelige bedrijfsbestanden naar OneDrive voor Bedrijven kunt verplaatsen.
-ms.openlocfilehash: 4dadc87c0168a9fcdcc795a94df8ee5b7fc7fd91
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 6def1c733093417162ca37906c1d55c0eab23e7d
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245099"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339305"
 ---
 # <a name="move-files-to-onedrive-for-business"></a>Bestanden verplaatsen naar OneDrive voor Bedrijven
 
@@ -37,14 +37,14 @@ Bekijk een korte video over het verplaatsen van bestanden naar OneDrive voor Bed
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/d74b083c-1f44-43ea-8a14-2e1fc600b341] 
 
-Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../business-video/index.yml).
+Als u deze video nuttig vond, raadpleegt u dan de [complete training voor kleine bedrijven en degene die nieuw zijn bij Microsoft 365](../business-video/index.yml).
 
 
 ## <a name="move-files-to-onedrive-for-business"></a>Bestanden verplaatsen naar OneDrive voor Bedrijven
 
 Als een gebruiker een computer met veel persoonlijke bestanden heeft, moet u eerst deze bestanden verplaatsen naar OneDrive voor Bedrijven:
   
-1. Ga naar portal.office.com en meld u aan met de Microsoft 365 voor zakelijke referenties van de gebruiker.
+1. Ga naar admin.microsoft.com en meld u aan met de Microsoft 365 voor zakelijke referenties van de gebruiker.
 
 2. Klik op het startprogramma voor apps ![The app launcher icon in Office 365](../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) en ga naar OneDrive. 
     

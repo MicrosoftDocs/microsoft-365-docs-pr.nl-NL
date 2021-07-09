@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Lees hoe u het hulpprogramma voor Microsoft 365 auditlogboek kunt gebruiken om veelvoorkomende ondersteuningsproblemen voor e-mailaccounts op te lossen.
-ms.openlocfilehash: 5f753163b5d4d6c04c121a7ce3fae970690a57b0
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 22d511fa2ad538c4ec9729fb051caefad6c3e974
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "52161862"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341046"
 ---
 # <a name="search-the-audit-log-to-investigate-common-support-issues"></a>Het auditlogboek doorzoeken om veelvoorkomende ondersteuningsproblemen te onderzoeken
 
@@ -49,18 +49,18 @@ U moet de rol auditlogboeken View-Only auditlogboeken in Exchange Online toegewe
 
 In deze sectie worden de basisbeginselen beschreven voor het maken en uitvoeren van zoekopdrachten in auditlogboek. Gebruik deze instructies als uitgangspunt voor elk probleemoplossingsscenario in dit artikel. Zie Het auditlogboek doorzoeken voor meer gedetailleerde [stapsgewijse instructies.](search-the-audit-log-in-security-and-compliance.md#step-1-run-an-audit-log-search)
 
-1. Ga naar [https://protection.office.com/unifiedauditlog](https://protection.office.com/unifiedauditlog) en meld u aan met uw werk- of schoolaccount.
+1. Ga naar <https://compliance.microsoft.com/auditlogsearch> en meld u aan met uw werk- of schoolaccount.
     
-    De pagina **Zoeken in het auditlogboek** wordt weergegeven. 
+    De **pagina Controle** wordt weergegeven. 
     
-    ![Criteria configureren en vervolgens Zoeken selecteren om de zoekopdracht uit te voeren](../media/8639d09c-2843-44e4-8b4b-9f45974ff7f1.png)
+    ![Criteria configureren en vervolgens Zoeken selecteren om de zoekopdracht uit te voeren](../media/AuditLogSearchPage1.png)
   
 4. U kunt de volgende zoekcriteria configureren. In elk probleemoplossingsscenario in dit artikel worden specifieke richtlijnen aanbevolen voor het configureren van deze velden.
     
-    a. **Activiteiten:** Selecteer de vervolgkeuzelijst om de activiteiten weer te geven die u kunt zoeken. Nadat u de zoekopdracht hebt uitgevoerd, worden alleen de auditrecords voor de geselecteerde activiteiten weergegeven. Als **u Resultaten voor alle activiteiten tonen selecteert,** worden resultaten weergegeven voor alle activiteiten die voldoen aan de andere zoekcriteria. U moet dit veld ook leeg laten in sommige scenario's voor het oplossen van problemen.
-    
-    b. **Begindatum** en **einddatum:** Selecteer een datum en tijdbereik om de gebeurtenissen weer te geven die binnen die periode hebben plaatsgevonden. De laatste zeven dagen zijn standaard geselecteerd. De datum en tijd worden weergegeven in de UTC-indeling (Coordinated Universal Time). Het grootste datumbereik dat u kunt opgeven is 90 dagen.
+   a. **Begindatum** en **einddatum:** Selecteer een datum en tijdbereik om de gebeurtenissen weer te geven die binnen die periode hebben plaatsgevonden. De laatste zeven dagen zijn standaard geselecteerd. De datum en tijd worden weergegeven in de UTC-indeling (Coordinated Universal Time). Het grootste datumbereik dat u kunt opgeven is 90 dagen.    
 
+   b. **Activiteiten:** Selecteer de vervolgkeuzelijst om de activiteiten weer te geven die u kunt zoeken. Nadat u de zoekopdracht hebt uitgevoerd, worden alleen de auditrecords voor de geselecteerde activiteiten weergegeven. Als **u Resultaten voor alle activiteiten tonen selecteert,** worden resultaten weergegeven voor alle activiteiten die voldoen aan de andere zoekcriteria. U moet dit veld ook leeg laten in sommige scenario's voor het oplossen van problemen.
+    
     c. **Gebruikers:** Klik in dit vak en selecteer een of meer gebruikers om zoekresultaten weer te geven. Auditrecords voor de geselecteerde activiteit die wordt uitgevoerd door de gebruikers die u in dit vak selecteert, worden weergegeven in de lijst met resultaten. Laat dit vak leeg als u vermeldingen wilt zien voor alle gebruikers (en serviceaccounts) in uw organisatie.
     
     d. **Bestand, map of site:** Typ een of meer bestanden of mappen om te zoeken naar activiteiten die betrekking hebben op het mapbestand dat het opgegeven trefwoord bevat. U kunt ook een URL van een bestand of map opgeven. Als u een URL gebruikt, moet u het volledige URL-pad typen of als u slechts een deel van de URL typt, geen speciale tekens of spaties bevatten. Laat dit vak leeg als u vermeldingen wilt zien voor alle bestanden en mappen in uw organisatie. Dit veld is leeg in alle scenario's voor probleemoplossing in dit artikel.
@@ -164,7 +164,7 @@ Nadat u de zoekopdracht hebt uitgevoerd, kunt u de zoekresultaten filteren om de
 
 ### <a name="recover-deleted-email-items"></a>Verwijderde e-mailitems herstellen
 
-Gebruikers kunnen snel verwijderde items herstellen als de bewaarperiode voor verwijderde items niet is verlopen. In Exchange Online is de standaard bewaarperiode voor verwijderde items 14 dagen, maar beheerders kunnen deze instelling verhogen tot maximaal 30 dagen. Wijs gebruikers naar [het artikel Verwijderde items](https://support.office.com/article/Recover-deleted-items-or-email-in-Outlook-Web-App-C3D8FC15-EEEF-4F1C-81DF-E27964B7EDD4) of e-mail herstellen in Outlook webartikel voor instructies over het herstellen van verwijderde items.
+Gebruikers kunnen snel verwijderde items herstellen als de bewaarperiode voor verwijderde items niet is verlopen. In Exchange Online is de standaard bewaarperiode voor verwijderde items 14 dagen, maar beheerders kunnen deze instelling verhogen tot maximaal 30 dagen. Wijs gebruikers naar [het artikel Verwijderde items](https://support.office.com/article/Recover-deleted-items-or-email-in-Outlook-Web-App-C3D8FC15-EEEF-4F1C-81DF-E27964B7EDD4) of e-mail herstellen in webversie van Outlook voor instructies over het herstellen van verwijderde items.
 
 Zoals eerder is uitgelegd, kunnen beheerders mogelijk verwijderde items herstellen als de bewaarperiode van het verwijderde item niet is verlopen of als het postvak in bewaring staat, in welk geval items worden bewaard totdat de bewaringsduur verloopt. Wanneer u een inhoudszoekactie uitvoert, worden zacht verwijderde en hard verwijderde items in de map Herstelbare items geretourneerd in de zoekresultaten als ze overeenkomen met de zoekquery. Zie Inhoud zoeken in Office 365 voor meer informatie over het uitvoeren van [inhoudszoekingen.](content-search.md)
 
@@ -175,7 +175,7 @@ Zoals eerder is uitgelegd, kunnen beheerders mogelijk verwijderde items herstell
 
 Wanneer gebruikers een regel voor postvak IN maken voor Exchange Online postvak, wordt een bijbehorende auditrecord opgeslagen in het auditlogboek. Zie voor meer informatie over regels voor Postvak IN:
 
-- [Regels voor Postvak IN gebruiken in Outlook web](https://support.office.com/article/use-inbox-rules-in-outlook-on-the-web-8400435c-f14e-4272-9004-1548bb1848f2)
+- [Regels voor Postvak IN gebruiken in webversie van Outlook](https://support.office.com/article/use-inbox-rules-in-outlook-on-the-web-8400435c-f14e-4272-9004-1548bb1848f2)
 - [E-mailberichten in Outlook beheren met behulp van regels](https://support.office.com/article/Manage-email-messages-by-using-rules-C24F5DEA-9465-4DF4-AD17-A50704D66C59)
 
 U kunt als volgende een zoekquery voor een auditlogboek configureren voor dit scenario:

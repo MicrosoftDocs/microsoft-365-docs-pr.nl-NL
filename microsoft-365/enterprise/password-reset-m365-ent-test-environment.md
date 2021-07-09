@@ -18,12 +18,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: 'Samenvatting: configureer en test het opnieuw instellen van het wachtwoord voor uw Microsoft 365-testomgeving.'
-ms.openlocfilehash: efcaaf9ed1873c0908bb0e64644b8e10de280a01
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 13169824866e91c1a09d412a875d2f4ce4391fa8
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50921490"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339380"
 ---
 # <a name="password-reset-for-your-microsoft-365-test-environment"></a>Opnieuw instellen van het wachtwoord voor uw Microsoft 365-testomgeving
 
@@ -90,7 +90,7 @@ Test vervolgens het opnieuw instellen van het wachtwoord voor het account Gebrui
 1. Voer de accountnaam gebruiker 3 in, voer de tekens in de CAPTCHA in en selecteer **Volgende**.
 1. Voor **verificatie stap 1** selecteert u **Mijn alternatieve e-mail** en selecteert u vervolgens **E-mail**. Wanneer u de e-mail ontvangt, voert u de verificatiecode in en selecteert u **Volgende.**
 1. Voer **in Terug naar uw account** een nieuw wachtwoord in voor het Gebruikers 3-account en selecteer **Voltooien.** Noteer het gewijzigde wachtwoord van het account van gebruiker 3 en bewaar het op een veilige locatie.
-1. Ga op een afzonderlijk tabblad van dezelfde browser naar [https://portal.office.com](https://portal.office.com), en meld u vervolgens aan met de naam van het account voor gebruikers 3 en het nieuwe wachtwoord. U zou de pagina van **Microsoft Office voor Thuisgebruik** moeten zien.
+1. Ga op een afzonderlijk tabblad van dezelfde browser naar [https://admin.microsoft.com](https://admin.microsoft.com), en meld u vervolgens aan met de naam van het account voor gebruikers 3 en het nieuwe wachtwoord. U zou de pagina van **Microsoft Office voor Thuisgebruik** moeten zien.
 
 ## <a name="next-step"></a>Volgende stap
 

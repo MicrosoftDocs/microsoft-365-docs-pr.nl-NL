@@ -29,12 +29,12 @@ search.appverid:
 - ODB160
 ms.assetid: 7aa9cdc8-2245-4218-81ee-86fa7c35f1de
 description: Meer informatie over het gebruik OneDrive en een teamsite voor Microsoft 365 en Microsoft 365 delen van bestanden.
-ms.openlocfilehash: 3ededbf2899ffd45915ad25370d5e5c93906c862
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 5ab0a192cb5706b6aff6cdeb30fa566de74dd510
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52924609"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53338659"
 ---
 # <a name="set-up-file-storage-and-sharing-in-microsoft-365"></a>Bestandsopslag en -delen instellen in Microsoft 365
 
@@ -44,7 +44,7 @@ Een van de beste manieren om bestandsopslag en -delen voor uw bedrijf in te stel
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FTHX] 
 
-Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../../business-video/index.yml).
+Als u deze video nuttig vond, raadpleegt u dan de [complete training voor kleine bedrijven en degene die nieuw zijn bij Microsoft 365](../../business-video/index.yml).
 
 ## <a name="microsoft-365-document-storage-and-management"></a>Microsoft 365 documentopslag en -beheer
 
@@ -62,7 +62,7 @@ Hier volgen aanbevelingen voor wat u op elke locatie kunt opslaan wanneer u OneD
 |Opslaglocatie|Waar is het voor|Wat ik hier moet opslaan|
 |:-----|:-----|:-----|
 |**OneDrive** |Het opslaan van inhoud in OneDrive is net als het opslaan van bestanden op uw computer. niemand anders kan er gemakkelijk toegang toe krijgen.<br/> Zie Wat [is OneDrive voor Bedrijven?](https://support.microsoft.com/office/187f90af-056f-47c0-9656-cc0ddca7fdc2) voor meer OneDrive voor Bedrijven <br/> |Bestanden voor uw werk waaraan andere teamleden niet regelmatig hoeven te werken of toegang toe hoeven te hebben.<br/> |
-|**SharePoint-teamsites** <br/> |Samenwerking. Wanneer u een Microsoft 365-groep maakt (bijvoorbeeld in het Microsoft 365-beheercentrum, in Outlook of door een team te maken in Microsoft Teams), wordt er een SharePoint-teamsite gemaakt voor die groep. Als u een nieuwe SharePoint teamsite maakt vanaf de startpagina van SharePoint of vanuit het nieuwe SharePoint-beheercentrum, wordt er ook een Microsoft 365 gemaakt. Zie Wat is een SharePoint [teamsite?](https://support.microsoft.com/office/75545757-36c3-46a7-beed-0aaa74f0401e) en [Een teamsite maken in SharePoint Online voor meer informatie.](https://support.microsoft.com/office/ef10c1e7-15f3-42a3-98aa-b5972711777d)  <br/> |Bestanden die gedeeld eigendom zijn. We raden u aan afzonderlijke teamsites te gebruiken voor elke werkeenheid in uw organisatie. Als u bijvoorbeeld personeel en financiële documenten privé wilt houden voor een klein team, maakt u een aparte teamsite.  <br/> |
+|**SharePoint-teamsites** <br/> |Samenwerking. Wanneer u een Microsoft 365-groep maakt (bijvoorbeeld in de Microsoft 365-beheercentrum, in Outlook of door een team te maken in Microsoft Teams), wordt er een SharePoint-teamsite gemaakt voor die groep. Als u een nieuwe SharePoint teamsite maakt vanaf de startpagina van SharePoint of vanuit het nieuwe SharePoint-beheercentrum, wordt er ook een Microsoft 365 gemaakt. Zie Wat is een SharePoint [teamsite?](https://support.microsoft.com/office/75545757-36c3-46a7-beed-0aaa74f0401e) en [Een teamsite maken in SharePoint Online voor meer informatie.](https://support.microsoft.com/office/ef10c1e7-15f3-42a3-98aa-b5972711777d)  <br/> |Bestanden die gedeeld eigendom zijn. We raden u aan afzonderlijke teamsites te gebruiken voor elke werkeenheid in uw organisatie. Als u bijvoorbeeld personeel en financiële documenten privé wilt houden voor een klein team, maakt u een aparte teamsite.  <br/> |
 
 > [!NOTE]
 > SharePoint heeft ook andere typen sites die u voor uw bedrijf kunt gebruiken. U kunt [communicatiesites](https://support.microsoft.com/office/7fb44b20-a72f-4d2c-9173-fc8f59ba50eb) in uw intranet gebruiken om informatie te publiceren voor een breed publiek. En u kunt [hubsites gebruiken om sites](https://support.microsoft.com/office/fe26ae84-14b7-45b6-a6d1-948b3966427f) in uw intranet met elkaar te verbinden.
@@ -77,7 +77,7 @@ Werknemers kunnen ook OneDrive bestanden en mappen delen. Als een werknemer weg 
   
 Hier ziet u hoe elke persoon in uw team bestanden kan OneDrive en delen.
 
-1. Ga naar de <a href="https://portal.office.com/ " target="_blank">Microsoft 365 portal</a>en meld u aan met uw gebruikersnaam en wachtwoord.
+1. Ga naar het <a href="https://admin.mirosoft.com/ " target="_blank">Microsoft 365-beheercentrum</a>en meld u aan met uw gebruikersnaam en wachtwoord.
 
 2. Selecteer in het start start start- en **OneDrive.**
 
@@ -205,7 +205,7 @@ U kunt opslag van derden inschakelen voor uw gebruikers in Microsoft 365 zodat z
 
   - [Een Office instellen op Windows Phone met Microsoft 365](https://support.microsoft.com/office/2b7c1b51-a717-45d6-90c9-ee1c1c5ee0b7)
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Opslagruimte toevoegen voor uw abonnement](../../commerce/add-storage-space.md) (artikel)\
 [Bestanden en mappen delen met Microsoft 365 Business](https://support.microsoft.com/office/share-files-and-folders-with-microsoft-365-business-72f26d6c-bf9e-432c-8b96-e3c2437f5b65) (video)\

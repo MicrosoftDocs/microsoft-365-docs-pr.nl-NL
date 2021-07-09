@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: ee56ed2949ea72771d8f08570d4352dbe7548d52
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 7125a6953b9be46af9073b50c9268ce65dc0cd30
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286943"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339524"
 ---
 # <a name="configure-device-discovery"></a>Apparaatdetectie configureren
 
@@ -43,8 +43,8 @@ Detectie kan worden geconfigureerd in de standaard- of basismodus. Gebruik de st
 U kunt de lijst met apparaten aanpassen die worden gebruikt om standaarddetectie uit te voeren. U kunt standaarddetectie inschakelen op alle onboarded-apparaten die deze mogelijkheid ook ondersteunen (momenteel alleen Windows 10-apparaten) of een subset of subset van uw apparaten selecteren door hun apparaatlabels op te geven.
 
 > [!IMPORTANT]
-> Voor een voorbeeld moet u eerst de preview-functies in Microsoft Defender-beveiligingscentrum.
-> Vervolgens hebt u toegang tot de configuratie voor apparaatdetectie in Microsoft 365 beveiligingscentrum. De lijst met niet-beheerde apparaten en beveiligingsaanbevelingen is beschikbaar in zowel Microsoft Defender-beveiligingscentrum als Microsoft 365 beveiligingscentrum, terwijl de dashboardtegels alleen beschikbaar zijn in Microsoft 365 beveiligingscentrum.
+> Voor een voorbeeld moet u eerst de preview-functies in Microsoft 365 Defender.
+> Vervolgens hebt u toegang tot de configuratie voor apparaatdetectie in Microsoft 365 beveiligingscentrum. De lijst met niet-beheerbare apparaten en beveiligingsaanbevelingen is beschikbaar in zowel Microsoft 365 Defender als Microsoft 365 beveiligingscentrum, terwijl de dashboardtegels alleen beschikbaar zijn in Microsoft 365 beveiligingscentrum.
 
 Volg de volgende configuratiestappen in Microsoft 365 beveiligingscentrum:
 

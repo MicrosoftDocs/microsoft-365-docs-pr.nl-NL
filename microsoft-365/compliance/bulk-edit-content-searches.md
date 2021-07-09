@@ -17,12 +17,12 @@ ms.assetid: 39e4654a-9588-41f6-892b-c33ab57bfbe2
 ms.custom:
 - seo-marvel-apr2020
 description: Gebruik de bulkzoekeditor in het beveiligings- en compliancecentrum om snel de query- en inhoudslocaties voor een of meer inhoudszoekingen te wijzigen.
-ms.openlocfilehash: f6331bad19e95fd1d7039d5da72349906d3614b8
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: be7e37ec22966e16dfa3c6d1f37a34e6441e632a
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227385"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341030"
 ---
 # <a name="bulk-edit-content-searches"></a>Inhoudszoekbewerkingen bulksgewijs bewerken
 
@@ -32,7 +32,7 @@ Zie Trefwoordstatistieken weergeven voor [inhoudszoekresultaten](view-keyword-st
 
 ## <a name="use-the-bulk-search-editor-to-change-queries"></a>De bulkzoekeditor gebruiken om query's te wijzigen
 
-1. Ga naar <https://protection.office.com> en selecteer zoeken in **inhoud** \> **zoeken.**
+1. Ga naar <https://compliance.microsoft.com> en selecteer vervolgens Inhoud **zoeken.**
 
 2. Selecteer in de lijst met zoekopdrachten een of meer zoekopdrachten en selecteer vervolgens **Bulk Search Editor** Bulk Search Editor button ![ ](../media/1ddb3d18-2f00-4a7b-98a6-817ca5ec7014.png) .
 

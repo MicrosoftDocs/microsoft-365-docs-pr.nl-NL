@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 47d57e51eca4950f7a8f4284fbc916e9d030b2c7
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 08fe4314c1461710d83ea7aeba1fdf9a60dd33a8
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844332"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339236"
 ---
 # <a name="onboard-windows-servers-to-the-microsoft-defender-for-endpoint-service"></a>Onboard Windows servers to the Microsoft Defender for Endpoint service
 
@@ -36,9 +36,9 @@ ms.locfileid: "52844332"
 - Windows Server 2019 en hoger
 - Windows Server 2019 Core Edition
 
-> Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configserver-abovefoldlink)
+> Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configserver-abovefoldlink)
 
-Defender voor Eindpunt breidt de ondersteuning uit met het besturingssysteem Windows Server. Deze ondersteuning biedt geavanceerde mogelijkheden voor detectie en onderzoek van aanvallen naadloos via de Microsoft Defender-beveiligingscentrum console.
+Defender voor Eindpunt breidt de ondersteuning uit met het besturingssysteem Windows Server. Deze ondersteuning biedt geavanceerde mogelijkheden voor detectie en onderzoek van aanvallen naadloos via de Microsoft 365 Defender console.
 
 Zie Protecting [Windows Servers with Defender for Endpoint (Beveiliging](https://techcommunity.microsoft.com/t5/What-s-New/Protecting-Windows-Server-with-Windows-Defender-ATP/m-p/267114#M128)van Windows servers met Defender for Endpoint) voor praktische richtlijnen over wat er moet worden gebruikt voor licenties en infrastructuur.
 
@@ -66,7 +66,7 @@ Als u al System Center Operations Manager (SCOM) of Azure Monitor (voorheen Beke
 Over het algemeen moet u de volgende stappen ondernemen:
 
 1. Voldoe aan de onboarding-vereisten die worden beschreven in **De sectie Voordat u begint.**
-2. Schakel servercontrole in vanuit het Microsoft Defender-beveiligingscentrum.
+2. Schakel servercontrole in vanuit Microsoft 365 Defender portal.
 3. Installeer en configureer MMA voor de server om sensorgegevens te rapporteren aan Defender voor Eindpunt.
 4. Configureer en werk System Center Endpoint Protection clients.
 
@@ -121,7 +121,7 @@ Wanneer u klaar bent, ziet u binnen een uur onboarded Windows servers in de port
 
 ### <a name="option-2-onboard-windows-servers-through-azure-security-center"></a>Optie 2: Onboard Windows servers via Azure Security Center
 
-1. Selecteer in Microsoft Defender-beveiligingscentrum navigatiedeelvenster **Instellingen**  >  **Onboarding voor**  >  **apparaatbeheer.**
+1. Selecteer in Microsoft 365 Defender navigatiedeelvenster **Instellingen**  >  **Endpoints**  >  **Device management**  >  **Onboarding**.
 
 2. Selecteer **Windows Server 2008 R2 SP1, 2012 R2 en 2016** als besturingssysteem.
 
@@ -200,7 +200,7 @@ De volgende mogelijkheden zijn opgenomen in deze integratie:
     > De integratie tussen Azure Defender voor servers en Microsoft Defender voor Eindpunt is uitgebreid met ondersteuning voor [Windows Server 2019 en Windows Virtual Desktop (WVD).](/azure/security-center/release-notes#microsoft-defender-for-endpoint-integration-with-azure-defender-now-supports-windows-server-2019-and-windows-10-virtual-desktop-wvd-in-preview)
 
 - Windows servers die worden gecontroleerd door Azure Defender, zijn ook beschikbaar in Defender voor Eindpunt: Azure Defender maakt naadloos verbinding met de Defender for Endpoint-tenant, met één weergave voor clients en servers.  Daarnaast zijn defender voor eindpuntwaarschuwingen beschikbaar in de Azure Defender-console.
-- Serveronderzoek: Azure Defender-klanten hebben toegang tot Microsoft Defender-beveiligingscentrum om gedetailleerd onderzoek uit te voeren om het bereik van een mogelijke inbreuk aan het licht te brengen.
+- Serveronderzoek: Azure Defender-klanten hebben toegang tot Microsoft 365 Defender portal om gedetailleerd onderzoek uit te voeren om het bereik van een mogelijke inbreuk te achterhalen.
 
 > [!IMPORTANT]
 > - Wanneer u Azure Defender gebruikt om servers te controleren, wordt automatisch een Defender voor Eindpunt-tenant gemaakt (in de VS voor Amerikaanse gebruikers, in de EU voor Europese en Britse gebruikers).<br>
@@ -255,7 +255,7 @@ Als u de Windows wilt uitschakelen, kunt u een van de volgende methoden gebruike
 
 1. Uw werkruimte-id krijgen:
 
-   1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **Onboarding.**
+   1. Selecteer in Microsoft 365 Defender navigatiedeelvenster **Instellingen**  >  **Endpoints**  >  **Device management**  >  **Onboarding**.
 
    1. Selecteer **Windows Server 2008 R2 SP1, 2012 R2 en 2016** als het besturingssysteem en krijg uw werkruimte-id:
 
@@ -364,7 +364,7 @@ Controleer Windows server 2008 R2 PS1 aan de volgende vereisten voldoet:
 
 Controleer of de KBs aanwezig zijn voordat u Windows Server 2008 R2 onboardt Met dit proces kunt u alle servers onboarden als u geen Configuration Manager-beheerservers hebt.
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-topics"></a>Gerelateerde onderwerpen
 
 - [Onboarden Windows 10-apparaten](configure-endpoints.md)
 - [Niet-Windows-apparaten onboarden](configure-endpoints-non-windows.md)

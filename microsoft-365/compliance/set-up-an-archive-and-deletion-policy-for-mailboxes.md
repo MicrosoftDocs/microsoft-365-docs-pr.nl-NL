@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: ec3587e4-7b4a-40fb-8fb8-8aa05aeae2ce
 ms.custom: seo-marvel-apr2020
 description: Lees hoe u een archiverings- en verwijderingsbeleid maakt in Microsoft 365 items automatisch naar het archiefpostvak van een gebruiker verplaatst.
-ms.openlocfilehash: 16a9191268cb83b5377e8f55d3d4d20522c223cb
-ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
+ms.openlocfilehash: 45d6428f5b0a856538d500b1d1f0447447b9dfe9
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53062165"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341638"
 ---
 # <a name="set-up-an-archive-and-deletion-policy-for-mailboxes-in-your-organization"></a>Een archief en een verwijderingsbeleid instellen voor postvakken in uw organisatie
 
@@ -63,11 +63,11 @@ De eerste stap is het inschakelen van het archiefpostvak voor elke gebruiker in 
 > [!NOTE]
 > U kunt archiefpostvakken op elk moment tijdens dit proces inschakelen, net zolang als ze op een bepaald moment zijn ingeschakeld voordat u het proces voltooit. Als een archiefpostvak niet is ingeschakeld, wordt er geen actie ondernomen op items waar een archief- of verwijderingsbeleid aan is toegewezen.
   
-1. Ga naar [https://protection.office.com](https://protection.office.com).
+1. Ga naar <https://compliance.microsoft.com>.
 
 2. Meld u aan met uw globale beheerdersaccount.
     
-3. Ga in het & Compliancecentrum naar **Information governance** \> **Archive**.
+3. Klik in Microsoft 365-compliancecentrum op **Informatiebeheer** en klik vervolgens op **het tabblad** Archiveren.
 
     Er wordt een lijst met de postvakken in uw organisatie weergegeven en of het bijbehorende archiefpostvak is ingeschakeld of uitgeschakeld.
 
@@ -158,7 +158,7 @@ De laatste bewaartag die u maakt, is een aangepaste bewaarbeleidstag (RPT) voor 
 
 2. Vul op de pagina Nieuwe tag die automatisch is **toegepast op een standaardmappagina** de volgende velden in:
 
-    ![Instellingen voor het maken van een nieuwe tag voor het bewaarbeleid voor de map Verwijderde items](../media/6f3104bd-5edb-48ac-884d-5fe13d81dd1d.png)
+    ![Instellingen een nieuwe tag voor bewaarbeleid maken voor de map Verwijderde items](../media/6f3104bd-5edb-48ac-884d-5fe13d81dd1d.png)
   
    1. **Naam** Typ een naam voor de nieuwe bewaartag. 
 
@@ -231,7 +231,7 @@ Wanneer een nieuw postvak wordt gemaakt, wordt er standaard een bewaarbeleid met
 
 ## <a name="optional-step-5-run-the-managed-folder-assistant-to-apply-the-new-settings"></a>(Optioneel) Stap 5: De assistent voor beheerde mappen uitvoeren om de nieuwe instellingen toe te passen
 
-Nadat u het nieuwe bewaarbeleid hebt toegepast op postvakken in stap 4, kan het in Exchange Online tot 7 dagen duren voordat de nieuwe bewaarinstellingen worden toegepast op de postvakken. Dit komt omdat postvakken in een proces met de naam Beheerde mapassistent ten minste eenmaal per 7 dagen worden verwerkt.  In plaats van te wachten totdat de beheerde mapassistent wordt uitgevoerd, kunt u dit dwingen door de **cmdlet Start-ManagedFolderAssistant** uit te voeren in Exchange Online PowerShell.
+Nadat u het nieuwe bewaarbeleid hebt toegepast op postvakken in stap 4, kan het tot 7 dagen in Exchange Online duren voordat de nieuwe bewaarinstellingen worden toegepast op de postvakken. Dit komt omdat postvakken in een proces met de naam Beheerde mapassistent ten minste eenmaal per 7 dagen worden verwerkt.  In plaats van te wachten totdat de beheerde mapassistent wordt uitgevoerd, kunt u dit forceeren door de **cmdlet Start-ManagedFolderAssistant** uit te voeren in Exchange Online PowerShell.
 
  **Wat gebeurt er wanneer u de assistent beheerde map uitwerkt?** Hiermee worden de instellingen in het bewaarbeleid toegepast door items in het postvak te controleren en te bepalen of ze worden behouden. Vervolgens worden items die moeten worden opgeslagen, gestempeld met de juiste bewaarlabel en worden de opgegeven bewaaractie voor items die ouder zijn dan hun bewaarleeftijd.
   
@@ -256,7 +256,7 @@ Dat is alles. U hebt een archief- en verwijderingsbeleid ingesteld voor de organ
   
 ## <a name="optional-step-6-make-the-new-retention-policy-the-default-for-your-organization"></a>(Optioneel) Stap 6: Maak het nieuwe bewaarbeleid de standaardinstelling voor uw organisatie
 
-In stap 4 moet u het nieuwe bewaarbeleid toewijzen aan bestaande postvakken. Maar u kunt Exchange Online zo configureren dat het nieuwe bewaarbeleid wordt toegewezen aan nieuwe postvakken die in de toekomst worden gemaakt. U doet dit door Exchange Online PowerShell te gebruiken om het standaardpostvakplan van uw organisatie bij te werken. Een *postvakplan* is een sjabloon die automatisch eigenschappen configureert voor nieuwe postvakken.  In deze optionele stap kunt u het huidige bewaarbeleid dat is toegewezen aan het postvakplan (standaard het standaard MRM-beleid) vervangen door het bewaarbeleid dat u in stap 3 hebt gemaakt. Nadat u het postvakplan hebt bijgewerkt, wordt het nieuwe bewaarbeleid toegewezen aan nieuwe postvakken.
+In stap 4 moet u het nieuwe bewaarbeleid toewijzen aan bestaande postvakken. U kunt de Exchange Online zo configureren dat het nieuwe bewaarbeleid wordt toegewezen aan nieuwe postvakken die in de toekomst worden gemaakt. U doet dit met behulp Exchange Online PowerShell om het standaardpostvakplan van uw organisatie bij te werken. Een *postvakplan* is een sjabloon die automatisch eigenschappen configureert voor nieuwe postvakken.  In deze optionele stap kunt u het huidige bewaarbeleid dat is toegewezen aan het postvakplan (standaard het standaard MRM-beleid) vervangen door het bewaarbeleid dat u in stap 3 hebt gemaakt. Nadat u het postvakplan hebt bijgewerkt, wordt het nieuwe bewaarbeleid toegewezen aan nieuwe postvakken.
 
 1. [Verbinding maken met Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 

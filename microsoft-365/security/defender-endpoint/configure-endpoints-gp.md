@@ -1,6 +1,6 @@
 ---
 title: Onboard Windows 10 devices to Microsoft Defender for Endpoint via Group Policy
-description: Gebruik Groepsbeleid om het configuratiepakket te implementeren op Windows 10 apparaten, zodat ze zijn aan boord van de service.
+description: Gebruik Groepsbeleid om het configuratiepakket te implementeren op de Windows 10 apparaten, zodat ze zijn aan boord van de service.
 keywords: apparaten configureren met groepsbeleid, apparaatbeheer, Microsoft Defender configureren voor endpoint-apparaten, aan boord van Microsoft Defender voor eindpuntapparaten, groepsbeleid
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,14 +17,14 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 454e60b26f84aca26a0f8f317105ec5457b55ca2
-ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
+ms.openlocfilehash: 26bdb0fbdb417d9e7fb01e4c3a863c44e57b7fb7
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53326961"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339620"
 ---
-# <a name="onboard-windows-10-devices-using-group-policy"></a>Onboard Windows 10 apparaten met groepsbeleid 
+# <a name="onboard-the-windows-10-devices-using-group-policy"></a>Aan boord Windows 10 apparaten met groepsbeleid 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -47,9 +47,9 @@ ms.locfileid: "53326961"
 
 Bekijk het [PDF-bestand](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf) of [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) om de verschillende paden te bekijken bij de implementatie van Defender voor Eindpunt.
 
-1. Open het GP-configuratiepakket .zip bestand *(WindowsDefenderATPOnboardingPackage.zip)* dat u hebt gedownload van de wizard Service onboarding. U kunt het pakket ook van [Microsoft Defender-beveiligingscentrum:](https://securitycenter.windows.com/)
+1. Open het GP-configuratiepakket .zip bestand *(WindowsDefenderATPOnboardingPackage.zip)* dat u hebt gedownload van de wizard Service onboarding. U kunt het pakket ook downloaden van [Microsoft 365 Defender portal:](https://security.microsoft.com/)
 
-    1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **Onboarding.**
+    1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **Endpoints**  >  **Device management**   >  **Onboarding**.
 
     1. Selecteer Windows 10 als het besturingssysteem.
 
@@ -69,7 +69,7 @@ Bekijk het [PDF-bestand](https://github.com/MicrosoftDocs/microsoft-365-docs/raw
 
 7. Schakel **Uitvoeren in of de gebruiker al** dan niet is aangemeld en schakel het selectievakje Uitvoeren met hoogste **bevoegdheden** in.
 
-8. Ga naar het **tabblad Acties** en klik op **Nieuw...** Zorg ervoor **dat Een programma starten** is geselecteerd in het **veld** Actie. Voer de bestandsnaam en locatie in van het gedeelde *WindowsDefenderATPOnboardingScript.cmd-bestand.*
+8. Ga naar het **tabblad Acties** en klik op **Nieuw...** Zorg ervoor **dat Een programma starten** is geselecteerd in het **veld** Actie. Voer het NetBIOS-pad in van het gedeelde *WindowsDefenderATPOnboardingScript.cmd-bestand.*
 
 9. Klik **op OK** en sluit alle geopende GPMC-vensters.
 
@@ -77,7 +77,7 @@ Bekijk het [PDF-bestand](https://github.com/MicrosoftDocs/microsoft-365-docs/raw
 > Nadat u het apparaat hebt onboarding, kunt u ervoor kiezen om een detectietest uit te voeren om te controleren of het apparaat correct is aan boord van de service. Zie Een detectietest uitvoeren op een nieuw ingebouwde [Defender voor eindpuntapparaat](run-detection-test.md)voor meer informatie.
 
 ## <a name="additional-defender-for-endpoint-configuration-settings"></a>Aanvullende instellingen voor configuratie van Defender voor eindpunten
-Voor elk apparaat kunt u bepalen of er steekproeven kunnen worden verzameld vanaf het apparaat wanneer er een verzoek wordt ingediend via Microsoft Defender-beveiligingscentrum om een bestand in te dienen voor uitgebreide analyse.
+Voor elk apparaat kunt u bepalen of er steekproeven kunnen worden verzameld vanaf het apparaat wanneer er een aanvraag wordt ingediend via Microsoft 365 Defender om een bestand in te dienen voor uitgebreide analyse.
 
 U kunt Groepsbeleid (GP) gebruiken om instellingen te configureren, zoals instellingen voor het delen van voorbeelden die worden gebruikt in de functie voor uitgebreide analyse.
 
@@ -189,9 +189,9 @@ Om veiligheidsredenen verloopt het pakket dat wordt gebruikt voor Offboard-appar
 > [!NOTE]
 > Onboarding- en offboarding-beleid mag niet tegelijkertijd op hetzelfde apparaat worden geïmplementeerd, anders veroorzaakt dit onvoorspelbare botsingen.
 
-1. Haal het offboarding-pakket van [Microsoft Defender-beveiligingscentrum:](https://securitycenter.windows.com/)
+1. Haal het offboarding-pakket van [Microsoft 365 Defender portal:](https://security.microsoft.com/)
 
-    1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **Offboarding**.
+    1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **Endpoints**  >  **Device management**  >  **Offboarding**.
 
     1. Selecteer Windows 10 als het besturingssysteem.
 
@@ -224,8 +224,8 @@ Met Groepsbeleid is er geen optie om de implementatie van beleidsregels op de ap
 
 ## <a name="monitor-devices-using-the-portal"></a>Apparaten controleren met behulp van de portal
 
-1. Ga naar [Microsoft Defender-beveiligingscentrum.](https://securitycenter.windows.com/)
-2. Klik **op De lijst Apparaten**.
+1. Ga naar [Microsoft 365 Defender portal.](https://security.microsoft.com/)
+2. Klik **op Inventaris van apparaten.**
 3. Controleer of apparaten worden weergegeven.
 
 > [!NOTE]

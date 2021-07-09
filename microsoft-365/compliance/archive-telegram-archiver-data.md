@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Beheerders kunnen een TeleMessage-connector instellen voor het importeren en archiveren van Communicatiegegevens van Telegram in Microsoft 365. Op deze manier kunt u gegevens van externe gegevensbronnen archiveren in Microsoft 365, zodat u compliancefuncties, zoals juridische bewaring, inhoudszoekbeleid en bewaarbeleid, kunt gebruiken om de gegevens van derden van uw organisatie te beheren.
-ms.openlocfilehash: d3fbe02dce56bec01d66351aa69500a3d5d93a37
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: 5db1869a1c386ed75f3d8d1381f598d907d2b5ba
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054844"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339440"
 ---
-# <a name="set-up-a-connector-to-archive-telegram-communications-data-preview"></a>Een verbindingslijn instellen voor het archiveren van Communicatiegegevens van Telegram (voorbeeld)
+# <a name="set-up-a-connector-to-archive-telegram-communications-data"></a>Een verbindingslijn instellen voor het archiveren van communicatiegegevens van Telegram
 
 Gebruik de TeleMessage-connector in de Microsoft 365-compliancecentrum om Chats, bijlagen, bestanden en verwijderde berichten en oproepen van Telegram te importeren en te archiveren. Nadat u een verbindingslijn hebt ingesteld en geconfigureerd, maakt deze verbinding met het TeleMessage-account van uw organisatie en importeert u de mobiele communicatie van werknemers met behulp van de Archiefman van Telegram naar postvakken in Microsoft 365.
 

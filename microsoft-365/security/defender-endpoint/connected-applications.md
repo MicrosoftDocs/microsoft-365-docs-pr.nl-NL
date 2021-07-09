@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 06ef716e9deee7b20e8615bd22c93130ee18b77f
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 4b212acdf4bdf8fa53ef00763463190e204fc1ed
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52845580"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339164"
 ---
 # <a name="connected-applications-in-microsoft-defender-for-endpoint"></a>Verbonden toepassingen in Microsoft Defender voor Eindpunt
 
@@ -33,7 +33,7 @@ ms.locfileid: "52845580"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
->Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+>Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
 Verbonden toepassingen worden geïntegreerd met het Defender for Endpoint-platform met API's. 
 
@@ -42,7 +42,7 @@ Toepassingen gebruiken standaard OAuth 2.0-protocol om tokens te verifiëren en 
 U moet deze stappen volgen [om](/microsoft-365/security/defender-endpoint/apis-intro) de API's te gebruiken met de verbonden toepassing.
  
 ## <a name="access-the-connected-application-page"></a>De pagina verbonden toepassing openen
-Selecteer in het linkernavigatiemenu **Partners & API's verbonden**  >  **AAD-toepassingen.**
+Selecteer in het linkernavigatiemenu **Endpoints**  >  **Partners en API's**  >  **Verbonden toepassingen.**
 
  
 ## <a name="view-connected-application-details"></a>Verbonden toepassingsgegevens weergeven

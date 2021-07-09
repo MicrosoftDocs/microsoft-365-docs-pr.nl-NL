@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Meer informatie over het instellen van een nieuw zakelijk e-mailadres.
-ms.openlocfilehash: df984cbee8bdd1bdd40ca8d9b87c71222db0f69d
-ms.sourcegitcommit: ddb1bf56bcba4f03c803f79492e8cd0dc41a3d7a
+ms.openlocfilehash: 004cdd3abf9b8f8dec34dbfe9739102af081c769
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52065139"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341542"
 ---
 # <a name="set-up-a-new-business-email-address"></a>Een nieuw zakelijk e-mailadres instellen
 
@@ -55,7 +55,7 @@ Koop een nieuwe domeinnaam voor uw e-mailadres en stel de e-mailadressen in met 
 
 Gebruik een domeinnaam die u al hebt, ongeacht of u deze gebruikt voor een websiteadres of een e-mailadres bij een andere provider. 
 
-## <a name="try-it"></a>Probeer het zelf!
+## <a name="give-it-a-try"></a>Probeer het eens!
  
 1. Meld u aan bij de website die uw domein host. Klik op een knop om het domein automatisch te verifiëren of het domein handmatig bij te werken. 
 1. Pas het e-mailadres aan of laat het zoals het is. 

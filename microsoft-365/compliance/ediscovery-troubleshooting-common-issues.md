@@ -19,12 +19,12 @@ ms.assetid: ''
 description: Meer informatie over eenvoudige stappen voor het oplossen van problemen die u kunt ondernemen om veelvoorkomende problemen in Office 365 eDiscovery op te lossen.
 siblings_only: true
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 28c092cefbdd8add46d3f36aa118e230d16a918a
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: 0b118a97df765321704a995905de797e06a60108
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822236"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339416"
 ---
 # <a name="investigate-troubleshoot-and-resolve-common-ediscovery-issues"></a>Veelvoorkomende eDiscovery-problemen onderzoeken, oplossen en oplossen
 
@@ -99,7 +99,7 @@ Open de SPO-locatie en controleer of dit bestand er inderdaad niet is.
 Voorgestelde oplossing is om de site handmatig opnieuw te indexeren of te wachten totdat de site opnieuw wordt geïndexeerd door het automatische achtergrondproces.
 
 
-## <a name="errorissue-this-search-result-was-not-downloaded-as-it-is-a-folder-or-other-artefact-that-cant-be-downloaded-by-itself-any-items-inside-the-folder-or-library-will-be-downloaded"></a>Fout/probleem: Dit zoekresultaat is niet gedownload omdat het een map of ander artefact is dat niet zelf kan worden gedownload, items in de map of bibliotheek worden gedownload.
+## <a name="errorissue-this-search-result-was-not-downloaded-as-it-is-a-folder-or-other-artifact-that-cant-be-downloaded-by-itself-any-items-inside-the-folder-or-library-will-be-downloaded"></a>Fout/probleem: Dit zoekresultaat is niet gedownload omdat het een map of ander artefact is dat niet zelf kan worden gedownload, items in de map of bibliotheek worden gedownload.
 
 Mogelijk ziet u deze fout bij het uitvoeren van een eDiscovery-zoekopdracht met SharePoint Online en One Drive For Business-locaties. Het betekent dat we het item dat in de index is gerapporteerd, zouden proberen te exporteren, maar het bleek een map te zijn, zodat we het niet hebben geëxporteerd. Zoals in de fout wordt vermeld, exporteren we geen mapitems, maar exporteren we wel de inhoud ervan.
 
@@ -122,7 +122,7 @@ Een eDiscovery-zoekopdracht mislukt met de fout de `recipient not found` . Deze 
 
 ## <a name="errorissue-exporting-search-results-is-slow"></a>Fout/probleem: Het exporteren van zoekresultaten is traag
 
-Wanneer u zoekresultaten exporteert vanuit eDiscovery of Inhoud zoeken in het beveiligings- en compliancecentrum, duurt de download langer dan verwacht.  U kunt controleren hoeveel gegevens moeten worden gedownload en de exportsnelheid mogelijk verhogen.
+Wanneer u zoekresultaten exporteert vanuit Core eDiscovery of Inhoud zoeken in de Microsoft 365-compliancecentrum, duurt de download langer dan verwacht.  U kunt controleren hoeveel gegevens moeten worden gedownload en de exportsnelheid mogelijk verhogen.
 
 ### <a name="resolution"></a>Oplossing
 
@@ -145,6 +145,16 @@ Wanneer u zoekresultaten exporteert vanuit eDiscovery of Inhoud zoeken in het be
 5. Controleer het trace.log-bestand in de adreslijst waar u de inhoud naar hebt geëxporteerd op eventuele fouten.
 
 6. Als u nog steeds problemen hebt, kunt u zoekopdrachten die een grote reeks resultaten retourneren, verdelen in kleinere zoekopdrachten. U kunt bijvoorbeeld datumbereiken in zoekquery's gebruiken om een kleinere reeks resultaten te retourneren die sneller kunnen worden gedownload.
+
+## <a name="errorissue-export-process-not-progressing-or-is-stuck"></a>Fout/probleem: Exportproces verloopt niet of loopt vast
+
+Wanneer u zoekresultaten exporteert vanuit Core eDiscovery of Inhoud zoeken in de Microsoft 365-compliancecentrum, verloopt het exportproces niet of lijkt het vast te zitten.
+
+### <a name="resolution"></a>Oplossing
+
+1. Als dat nodig is, kunt u de zoekopdracht opnieuw doen. Als de zoekopdracht meer dan 7 dagen geleden voor het laatst is gedaan, moet u de zoekopdracht opnieuw doen.
+
+2. Start de export opnieuw.
 
 ## <a name="errorissue-internal-server-error-500-occurred"></a>Fout/probleem: 'Interne serverfout (500) is opgetreden'
 
@@ -222,7 +232,7 @@ Na een geslaagde export toont de voltooide download via het exporthulpmiddel nul
 
 ### <a name="resolution"></a>Oplossing
 
-Dit is een probleem aan de clientzijde en probeer de volgende stappen om het probleem te verhelpen:
+Dit is een probleem aan de clientzijde. Als u dit wilt herstellen, gaat u als volgt te werk:
 
 1. Probeer een andere client/computer te downloaden.
 

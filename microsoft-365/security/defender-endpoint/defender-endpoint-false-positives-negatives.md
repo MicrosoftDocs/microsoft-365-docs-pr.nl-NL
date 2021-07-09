@@ -22,12 +22,12 @@ ms.collection:
 ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs, yonghree, jcedola
 ms.custom: FPFN
-ms.openlocfilehash: d3821f4f1f581da5353ee33bd406af8558c0e903
-ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
+ms.openlocfilehash: 7da28ea308994663549c2c490f53a3e0e75a0857
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53029955"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339260"
 ---
 # <a name="address-false-positivesnegatives-in-microsoft-defender-for-endpoint"></a>Actie ondernemen voor fout-positieven/-negatieven in Microsoft Defender voor Eindpunt
 
@@ -141,7 +141,7 @@ Wanneer u klaar bent met het controleren en ongedaan maken van acties die zijn u
 
 ### <a name="review-completed-actions"></a>Voltooide acties controleren
 
-1. Ga naar het Actiecentrum <https://security.microsoft.com/action-center> () en meld u aan.
+1. Klik in het linkernavigatiedeelvenster van Microsoft 365 Defender portal op **Actiecentrum.**
 
 2. Selecteer het **tabblad Geschiedenis** om een lijst met acties te bekijken die zijn ondernomen.
 
@@ -149,7 +149,7 @@ Wanneer u klaar bent met het controleren en ongedaan maken van acties die zijn u
 
 ### <a name="restore-a-quarantined-file-from-the-action-center"></a>Een in quarantaine geplaatst bestand terugzetten vanuit het Actiecentrum
 
-1. Ga naar het Actiecentrum <https://security.microsoft.com/action-center> () en meld u aan.
+1. Klik in het linkernavigatiedeelvenster van Microsoft 365 Defender portal op **Actiecentrum.**
 
 2. Selecteer op **het** tabblad Geschiedenis een actie die u ongedaan wilt maken.
 
@@ -157,7 +157,7 @@ Wanneer u klaar bent met het controleren en ongedaan maken van acties die zijn u
 
 ### <a name="undo-multiple-actions-at-one-time"></a>Meerdere acties tegelijk ongedaan maken
 
-1. Ga naar het Actiecentrum <https://security.microsoft.com/action-center> () en meld u aan.
+1. Klik in het linkernavigatiedeelvenster van Microsoft 365 Defender portal op **Actiecentrum.**
 
 2. Selecteer op **het** tabblad Geschiedenis de acties die u ongedaan wilt maken.
 
@@ -168,7 +168,7 @@ Wanneer u klaar bent met het controleren en ongedaan maken van acties die zijn u
 > [!div class="mx-imgBorder"]
 > ![Quarantainebestand](images/autoir-quarantine-file-1.png)
 
-1. Ga naar het Actiecentrum <https://security.microsoft.com/action-center> () en meld u aan.
+1. Klik in het linkernavigatiedeelvenster van Microsoft 365 Defender portal op **Actiecentrum.**
 
 2. Selecteer op **het** tabblad Geschiedenis een bestand met het bestand Actietype **Quarantaine**.
 
@@ -344,7 +344,7 @@ Als u wilt controleren op updates met betrekking tot uw inzending, kunt u zich a
 
 Microsoft Defender voor Eindpunt biedt een groot aantal opties, waaronder de mogelijkheid om instellingen voor verschillende functies en mogelijkheden aan te passen. Als u meerdere fout-positieven krijgt, controleert u de instellingen voor bedreigingsbeveiliging van uw organisatie. Mogelijk moet u het volgende aanpassen:
 
-- [Beveiliging in de cloud](#cloud-delivered-protection)
+- [Cloudbeveiliging](#cloud-delivered-protection)
 - [Herstel van potentieel ongewenste toepassingen](#remediation-for-potentially-unwanted-applications)
 - [Geautomatiseerd onderzoek en herstel](#automated-investigation-and-remediation)
 

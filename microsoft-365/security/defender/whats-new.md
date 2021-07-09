@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 78783ab98c50252115c28008680197256bfd7aa5
-ms.sourcegitcommit: 8b79d276f71f22bcaeb150e78e35101cb1ae0375
+ms.openlocfilehash: af5efb669b1f73b4008ac2c3fae251a4d08511dd
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53114735"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53340982"
 ---
 # <a name="whats-new-in-microsoft-365-defender"></a>Wat is er nieuw in Microsoft 365 Defender
 
@@ -38,8 +38,10 @@ RSS-feed: Ontvang een melding wanneer deze pagina wordt bijgewerkt door de volge
 ```http
 /api/search/rss?search=%22Lists+the+new+features+and+functionality+in+Microsoft+365+defender%22&locale=en-us
 ```
-## <a name="june-2021"></a>Juni 2021
-- Bedreigingslabels in [Microsoft 365 Defender threat analytics-rapport](threat-analytics.md) <br> Met bedreigingslabels kunt u zich richten op specifieke bedreigingscategorieën en de meest relevante rapporten bekijken. 
+
+## <a name="july-2021"></a>Juli 2021
+- [Catalogus met professionele services](https://sip.security.microsoft.com/interoperability/professional_services)<br>Verbeter de mogelijkheden voor detectie, onderzoek en bedreigingsinformatie van het platform met ondersteunde partnerverbindingen.
+    
 
 ## <a name="may-2021"></a>Mei 2021
 

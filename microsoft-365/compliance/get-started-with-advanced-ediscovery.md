@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: In dit artikel wordt beschreven hoe u een Advanced eDiscovery zo kunt instellen dat u zaken kunt maken en beheren. Ook worden de vereiste Microsoft-abonnementen en -licenties beschreven. Nadat u een paar snelle stappen hebt voltooid, is Advanced eDiscovery klaar voor gebruik.
-ms.openlocfilehash: 6c6aed482da8f203154d94313ec04519d6a330ea
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: be5e5aea03950d28889590004bd796455a71c5be
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "52161983"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341446"
 ---
 # <a name="set-up-microsoft-365-advanced-ediscovery"></a>Een Microsoft 365 Advanced eDiscovery
 
@@ -46,7 +46,7 @@ Als u toegang Advanced eDiscovery of toegevoegd als lid van een Advanced eDiscov
 
 Volg de volgende stappen om gebruikers toe te voegen aan de rollengroep eDiscovery Manager:
 
-1. Ga naar <https://protection.office.com/permissions> en meld u aan met de referenties voor een beheerdersaccount in uw Microsoft 365 organisatie.
+1. Ga naar <https://compliance.microsoft.com/permissions> en meld u aan met de referenties voor een beheerdersaccount in uw Microsoft 365 organisatie.
 
 2. Selecteer op **de pagina** Machtigingen de **rollengroep eDiscovery Manager.**
 

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d423c5051634334f9dbb19b236446cdb579aef69
-ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
+ms.openlocfilehash: 2b638742e29d5ca0a8b74adfa6796380114d24a3
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53327033"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339500"
 ---
 # <a name="configure-alert-notifications-in-microsoft-defender-for-endpoint"></a>Waarschuwingsmeldingen configureren in Microsoft Defender voor Eindpunt
 
@@ -50,7 +50,7 @@ De e-mailmelding bevat basisinformatie over de waarschuwing en een koppeling naa
 U kunt regels maken om de ernst van de apparaten en waarschuwingen te bepalen voor het verzenden van e-mailmeldingen voor en de geadresseerden van de melding.
 
 
-1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **e-mailmeldingen.**
+1. Selecteer in het navigatiedeelvenster **Instellingen** algemene e-mailmeldingen  >    >    >  **voor eindpunten.**
 
 2. Klik **op Item toevoegen.**
 

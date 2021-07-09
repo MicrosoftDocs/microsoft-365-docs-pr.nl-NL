@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Informatie over het instellen en gebruiken van een verbindingslijn in de Microsoft 365-compliancecentrum gegevens importeren en archiveren van Skype voor Bedrijven naar Microsoft 365.
-ms.openlocfilehash: 93128af0c7f305cb2bef55efd5520de77555a222
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: 4a66ee19530860bd482168297a8c935153442fee
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054819"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339452"
 ---
-# <a name="set-up-a-connector-to-archive-skype-for-business-data-preview"></a>Een verbindingslijn instellen om gegevens Skype voor Bedrijven archiveren (voorbeeld)
+# <a name="set-up-a-connector-to-archive-skype-for-business-data"></a>Een verbindingslijn instellen voor het archiveren van Skype voor Bedrijven gegevens
 
 Gebruik een Veritas-connector in de Microsoft 365-compliancecentrum om gegevens van het Skype voor Bedrijven-platform te importeren en te archiveren in gebruikerspostvakken in uw Microsoft 365 organisatie. Veritas biedt een [Skype voor Bedrijven](https://www.veritas.com/en/au/insights/merge1/skype-for-business) connector die is geconfigureerd om items uit de gegevensbron van derden vast te leggen (op regelmatige basis) en deze items te importeren in Microsoft 365. De connector converteert de inhoud, zoals berichten tussen gebruikers, permanente chats en vergaderingsberichten van Skype voor Bedrijven naar een e-mailberichtindeling en importeert deze items vervolgens in het postvak van de gebruiker in Microsoft 365.
 

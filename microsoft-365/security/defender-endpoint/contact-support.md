@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 3272ef182c4b08142490e8a1ac21c208023c50f5
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 6d4845163996dcc00ccfcc6c87eb27aff87268fc
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53228721"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339185"
 ---
 # <a name="contact-microsoft-defender-for-endpoint-support"></a>Contact opnemen met de ondersteuning van Microsoft Defender voor Eindpunt
 
@@ -58,9 +58,9 @@ U kunt op twee manieren toegang krijgen tot de nieuwe ondersteuningswidget:
 
     ![Afbeelding van widget wanneer vraagteken is geselecteerd](images/support-widget.png)
 
-2. Klik op hulp **nodig?**  in de rechteronderzijde van de Microsoft Defender-beveiligingscentrum:
+2. Klik op hulp **nodig?**  in de rechteronderzijde van de Microsoft 365 Defender portal:
 
-    ![Afbeelding van de knop Hulp nodig](images/need-help.png)
+    ![Afbeelding van de knop Hulp nodig](images/need-help-option.png)
 
 In de widget worden twee opties aangeboden:
 
@@ -70,7 +70,7 @@ In de widget worden twee opties aangeboden:
 ## <a name="find-solutions-to-common-problems"></a>Oplossingen zoeken voor veelvoorkomende problemen
 Deze optie bevat artikelen die mogelijk betrekking hebben op de vraag die u kunt stellen. Begin met het typen van de vraag in het zoekvak en artikelen met betrekking tot uw zoekopdracht worden weergegeven.
 
-![Afbeelding van hulp nodig widget](images/Support3.png)
+![Afbeelding van hulp nodig widget](images/information-on-help-screen.png)
 
 Als de voorgestelde artikelen niet voldoende zijn, kunt u een serviceaanvraag openen.
 
@@ -85,7 +85,7 @@ Meer informatie over het openen van ondersteuningstickets door contact op te nem
 
 Deze optie is beschikbaar door op het pictogram te klikken dat eruitziet als een headset. Vervolgens krijgt u de volgende pagina om uw ondersteuningscase in te dienen:
 
-![Afbeelding van de widget een serviceaanvraag openen](images/Support4.png)
+![Afbeelding van de widget een serviceaanvraag openen](images/contact-support-screen.png)
 
 1. Vul een titel en beschrijving in voor het probleem waarmee u te maken hebt, evenals een telefoonnummer en e-mailadres waar we u kunnen bereiken.
 

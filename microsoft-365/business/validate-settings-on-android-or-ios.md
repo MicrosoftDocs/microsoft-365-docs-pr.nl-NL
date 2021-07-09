@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: f3433b6b-02f7-447f-9d62-306bf03638b0
 description: Meer informatie over het valideren Microsoft 365 Business Premium instellingen voor app-beveiliging op uw Android- of iOS-apparaten.
-ms.openlocfilehash: a0a4a6e6cff59f66a506929e97c99d361472a68b
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 43e74b548711550090021c39096b1647cee9e039
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578062"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339325"
 ---
 # <a name="validate-app-protection-settings-on-android-or-ios-devices"></a>Instellingen voor app-beveiliging valideren op Android- of iOS-apparaten
 
@@ -42,7 +42,7 @@ Nadat u [app-configuraties voor Android-apparaten hebt ingesteld](app-protection
   
 Controleer eerst of het beleid van toepassing is op de app waarin u het gaat valideren.
   
-1. Ga in Microsoft 365 Business Premium [beheercentrum](https://portal.office.com)naar **Beleidsregels** \> **bewerken.**
+1. Ga in Microsoft 365 Business Premium [beheercentrum](https://admin.microsoft.com)naar **Beleidsregels** \> **bewerken.**
     
 2. Kies **Toepassingsbeleid voor Android** voor de instellingen die u hebt gemaakt bij de installatie of een ander beleid dat u hebt gemaakt, en controleer of het beleid is afgedwongen voor Outlook, bijvoorbeeld. 
     
@@ -131,7 +131,7 @@ Nadat u [app-configuraties voor iOS-apparaten hebt ingesteld](app-protection-set
   
 Controleer eerst of het beleid van toepassing is op de app waarin u het gaat valideren.
   
-1. Ga in Microsoft 365 Business Premium [beheercentrum](https://portal.office.com)naar **Beleidsregels** \> **bewerken.**
+1. Ga in Microsoft 365 Business Premium [beheercentrum](https://admin.microsoft.com)naar **Beleidsregels** \> **bewerken.**
     
 2. Kies **Toepassingsbeleid voor iOS** voor de instellingen die u hebt gemaakt bij de installatie of een ander beleid dat u hebt gemaakt, en controleer of dit is afgedwongen voor Outlook bijvoorbeeld. 
     

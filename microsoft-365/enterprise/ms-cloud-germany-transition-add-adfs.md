@@ -18,17 +18,17 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Overzicht: Ad FS-migratiestappen (Active Directory Federation Services) voor de migratie vanuit Microsoft Cloud Deutschland.'
-ms.openlocfilehash: 12465acf5b4afe7e252586ddd076250628b57dd3
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: c8e784c8e582185b4bdebc0cb359cc4c19503d1a
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165655"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339608"
 ---
 # <a name="ad-fs-migration-steps-for-the-migration-from-microsoft-cloud-deutschland"></a>AD FS-migratiestappen voor de migratie van Microsoft Cloud Deutschland
 
 Deze configuratiewijziging moet op elk moment worden toegepast voordat fase 2 begint.
-Wanneer fase 2 is voltooid, werkt de configuratiewijziging en kunt u zich aanmelden via Office 365 algemene eindpunten zoals `https://portal.office.com` . Als u de configuratiewijziging vóór fase 2 implementeert,  werken de algemene eindpunten van Office 365 nog niet, maar het vertrouwen van de nieuwe vertrouwensrelatie van de afhankelijke partij maakt nog steeds deel uit van uw AD FS-configuratie (Active Directory Federation Services).
+Wanneer fase 2 is voltooid, werkt de configuratiewijziging en kunt u zich aanmelden via Office 365 algemene eindpunten zoals `https://admin.microsoft.com` . Als u de configuratiewijziging vóór fase 2 implementeert,  werken de algemene eindpunten van Office 365 nog niet, maar het vertrouwen van de nieuwe vertrouwensrelatie van de afhankelijke partij maakt nog steeds deel uit van uw AD FS-configuratie (Active Directory Federation Services).
 
 Klanten die federatieverificatie met AD FS (Active Directory Federation Services) gebruiken, mogen tijdens de migratie geen wijzigingen aanbrengen in url's van uitgevende gebruikers die worden gebruikt voor alle verificaties met on-premises Active Directory Domain Services (AD DS). Als u url's voor uitgevende gebruikers verandert, kan dit leiden tot verificatiefouten voor gebruikers in het domein. Url's voor uitgevende uitgevende uri's kunnen  rechtstreeks worden gewijzigd in AD FS of wanneer een domein wordt geconverteerd van beheerd naar _federatief_ en omgekeerd. U wordt aangeraden een federatief domein niet toe te voegen, te verwijderen of te converteren in de Azure AD-tenant die is gemigreerd. U kunt URL's voor uitgevende uri's wijzigen nadat de migratie volledig is voltooid.
 

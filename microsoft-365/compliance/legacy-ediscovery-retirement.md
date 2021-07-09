@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: In-Place eDiscovery en In-Place Hold (en de bijbehorende PowerShell-cmdlets) in Exchange Online worden in de eerste helft van 2020 met pensioen. De Search-Mailbox cmdlet en Advanced eDiscovery v1.0 worden ook binnen dezelfde periode ingetrokken.
-ms.openlocfilehash: 97be285ae348b018866e3f91f92be523b03e6616
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: 77a7daf36c86cd302f774e5a4b934148d3dfd5a7
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53055071"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53340994"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>Buitengebruikstelling van verouderde eDiscovery-hulpprogramma's
 
@@ -345,9 +345,9 @@ Advanced eDiscovery v1.0, de versie van Advanced eDiscovery die beschikbaar is i
 
 Als u wilt bepalen of uw organisatie v1.0 gebruikt Advanced eDiscovery v1.0:
 
-1. Ga naar het [Office 365 Beveiligings- & compliancecentrum.](https://protection.office.com)
+1. Ga naar de [Microsoft 365-compliancecentrum.](https://compliance.microsoft.com)
 
-2. Klik in het linkernavigatiedeelvenster van het beveiligings- & compliancecentrum op **eDiscovery > eDiscovery** en open een Hoofd-eDiscovery-zaak.
+2. Klik in het linkernavigatiedeelvenster van het compliancecentrum op **eDiscovery > Core** en open een Hoofd-eDiscovery-zaak.
 
 3. Als u de knop Overschakelen naar **Advanced eDiscovery** ziet, gaat u naar de 1.0-versie van Advanced eDiscovery, die wordt ingetrokken. De mogelijkheid om zaken te maken en te beheren in Core eDiscovery wordt niet beïnvloed. Alleen de mogelijkheid om casegegevens toe te voegen en te analyseren in Advanced eDiscovery v1.0 (door op **Overschakelen** naar Advanced eDiscovery) te klikken, wordt ingetrokken.
 
