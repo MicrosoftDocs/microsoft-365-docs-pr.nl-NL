@@ -3,7 +3,7 @@ title: Office 365-prestatieafstemming gebruikt basislijnen en prestatiegeschiede
 ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
-ms.date: 8/31/2017
+ms.date: 07/08/2021
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -23,30 +23,32 @@ ms.collection:
 - Ent_O365
 - SPO_Content
 description: Lees hoe u de geschiedenis van uw clientcomputerverbindingen kunt controleren om u te helpen bij het vroegtijdig opsporen van nieuwe problemen.
-ms.openlocfilehash: 314b1acea5935bfd6d93d1da3789657e21cd2d57
-ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
+ms.openlocfilehash: 460bde30a0b292569b045c339066df2860c50989
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "53339368"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341578"
 ---
 # <a name="office-365-performance-tuning-using-baselines-and-performance-history"></a>Office 365-prestatieafstemming gebruikt basislijnen en prestatiegeschiedenis
 
 Er zijn enkele eenvoudige manieren om de verbindingsprestaties tussen uw Office 365 en uw bedrijf te controleren, zodat u een ruwe basislijn van uw connectiviteit kunt vaststellen. Als u de prestatiesgeschiedenis van uw clientcomputerverbindingen kent, kunt u nieuwe problemen vroegtijdig opsporen, problemen identificeren en voorspellen.
   
-Als u niet gewend bent om te werken aan prestatieproblemen, is dit artikel ontworpen om u te helpen enkele veelvoorkomende vragen te overwegen, zoals Hoe weet u dat het probleem dat u ziet een prestatieprobleem is en niet een Office 365 service-incident? Hoe kunt u goede prestaties op lange termijn plannen? Hoe kunt u de prestaties in de gaten houden? Als uw team of klanten trage prestaties zien tijdens het gebruik van Office 365 en u zich afvraagt wat deze vragen zijn, leest u verder.
+Als u niet gewend bent om aan prestatieproblemen te werken, is dit artikel ontworpen om u te helpen enkele veelvoorkomende vragen te overwegen. Hoe weet u dat het probleem dat u ziet een prestatieprobleem is en niet een Office 365 service-incident? Hoe kunt u goede prestaties op lange termijn plannen? Hoe kunt u de prestaties in de gaten houden? Als uw team of klanten trage prestaties zien tijdens het gebruik van Office 365 en u zich afvraagt wat deze vragen zijn, leest u verder.
   
 > [!IMPORTANT]
 > **Hebt u op dit moment een prestatieprobleem tussen Office 365 klant en klant?** Volg de stappen die worden beschreven in het plan voor [prestatieproblemen voor Office 365.](performance-troubleshooting-plan.md) 
     
 ## <a name="something-you-should-know-about-office-365-performance"></a>Iets wat u moet weten over Office 365 prestaties
 
-Office 365 in een speciaal Microsoft-netwerk met hoge capaciteit dat niet alleen wordt gecontroleerd door automatisering, maar ook door echte personen. Een deel van de rol van het Office 365 cloud is het inbouwen van prestatieafstemming en stroomlijnen waar dit mogelijk is. Aangezien clients van de Office 365 cloud verbinding moeten maken via internet, is er een continue inspanning om de prestaties van de verschillende services Office 365 optimaliseren. Prestatieverbeteringen stoppen nooit echt in de cloud en er is veel ervaring met het gezond en snel houden van de cloud. Als er een prestatieprobleem is dat vanaf uw locatie verbinding maakt met Office 365, kunt u het beste niet beginnen met en wachten op een ondersteuningscase. In plaats daarvan moet u beginnen met het onderzoeken van het probleem van 'van binnen naar buiten'. Dat wil zeggen: begin binnen uw netwerk en werk uw weg naar Office 365. Voordat u een zaak opent met Office 365 ondersteuning, kunt u gegevens verzamelen en acties ondernemen om uw probleem te verkennen en mogelijk op te lossen.
+Office 365 in een speciaal Microsoft-netwerk met hoge capaciteit dat wordt gecontroleerd door automatisering en echte personen. Onderdeel van het onderhouden van Office 365 cloud is prestatieafstemming en stroomlijning waar mogelijk. Aangezien clients van de Office 365 cloud verbinding moeten maken via internet, wordt er voortdurend gewerkt aan het optimaliseren van de prestaties voor Office 365 services.
+
+Prestatieverbeteringen stoppen nooit echt in de cloud, dus u hebt ook geen ervaring met het gezond en snel houden van de cloud. Als er een prestatieprobleem is dat vanaf uw locatie verbinding maakt met Office 365, kunt u het beste niet beginnen met of wachten op een ondersteuningscase. In plaats daarvan moet u beginnen met het onderzoeken van het probleem van 'van binnen naar buiten'. Dat wil zeggen: begin binnen uw netwerk en werk uw weg naar Office 365. Voordat u een zaak opent met ondersteuning, kunt u gegevens verzamelen en acties ondernemen om het probleem te verkennen en mogelijk op te lossen.
   
 > [!IMPORTANT]
-> Wees op de hoogte van capaciteitsplanning en limieten in Office 365. Met deze informatie bent u voor op de curve wanneer u een prestatieprobleem probeert op te lossen. Hier is een koppeling naar de Microsoft 365 [en Office 365 servicebeschrijvingen.](/office365/servicedescriptions/office-365-service-descriptions-technet-library) Dit is een centrale hub en alle services die door Office 365 worden aangeboden, hebben een koppeling naar hun eigen Servicebeschrijvingen vanaf hier. Dat betekent dat als u de standaardlimieten voor SharePoint Online wilt zien, u bijvoorbeeld op [SharePoint Online servicebeschrijving](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-service-description) klikt en de SharePoint [onlinelimieten](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)zoekt. 
+> Wees op de hoogte van capaciteitsplanning en limieten in Office 365. Met deze informatie bent u voor op de curve wanneer u een prestatieprobleem probeert op te lossen. Hier is een koppeling naar de Microsoft 365 [en Office 365 servicebeschrijvingen.](/office365/servicedescriptions/office-365-service-descriptions-technet-library) Dit is een centrale hub en alle services die door Office 365 worden aangeboden, hebben een koppeling naar hun eigen Servicebeschrijvingen vanaf hier. Dat betekent dat als u de standaardlimieten voor SharePoint Online wilt zien, u bijvoorbeeld op [SharePoint Online servicebeschrijving](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-service-description) klikt en de SharePoint [onlinelimieten](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)zoekt.
   
-Zorg ervoor dat u de probleemoplossing doorneemt met de kennis dat prestaties een schuivende schaal zijn, dat het niet gaat om het bereiken van een ideale waarde en het permanent onderhouden ervan (als u dit denkt, zijn af en toe taken met een hoge bandbreedte, zoals het instappen van een groot aantal gebruikers of het uitvoeren van grote gegevensmigraties, erg belastend, dus plan dan de gevolgen voor de prestaties). U kunt en moet een goed idee hebben van uw prestatiedoelen, maar veel variabelen spelen in op de prestaties, dus de prestaties variëren. Dat is de aard van de prestaties. 
+Zorg ervoor dat u in uw probleemoplossing gaat, met de kennis dat prestaties een schuivende schaal zijn. Het gaat niet om het bereiken van een ideale waarde en het permanent behouden ervan. Af en toe taken met een hoge bandbreedte, zoals het instappen van  een groot aantal gebruikers of het uitvoeren van grote gegevensmigraties, zijn stressvol, dus plan dan de gevolgen voor de prestaties. U moet een goed idee hebben van uw prestatiedoelen, maar veel variabelen spelen in op de prestaties, dus de prestaties variëren.
   
 Prestatieproblemen gaan niet over het bereiken van specifieke doelen en het voor onbepaalde tijd behouden van deze getallen, maar het verbeteren van bestaande activiteiten, gezien alle variabelen. 
   
@@ -54,45 +56,45 @@ Prestatieproblemen gaan niet over het bereiken van specifieke doelen en het voor
 
 Eerst moet u ervoor zorgen dat wat u ondervindt inderdaad een prestatieprobleem is en niet een service-incident. Een prestatieprobleem verschilt van een service-incident in Office 365. U kunt ze als eerste van elkaar onderscheiden.
   
-Als de Office 365 service problemen heeft, is dat een service-incident. U ziet rode of gele pictogrammen onder Huidige status **in** de Microsoft 365-beheercentrum, mogelijk ziet u ook trage prestaties op clientcomputers die verbinding maken met Office 365. Als huidige status bijvoorbeeld een rood pictogram  rapporteert en u Onderzoeken naast Exchange ziet, kunt u dan ook een aantal oproepen ontvangen van personen in uw organisatie die klagen dat clientpostvakken die Exchange Online gebruiken, slecht presteren. In dat geval is het redelijk om ervan uit te gaan dat uw Exchange Online net het slachtoffer is geworden van problemen binnen de Service. 
+Service-incidenten gebeuren wanneer de Office 365 service zelf problemen heeft. U ziet mogelijk rode of gele pictogrammen onder **Huidige status** in de Microsoft 365-beheercentrum. Het is mogelijk dat de prestaties op clientcomputers die verbinding maken met Office 365 traag zijn. Als de huidige status bijvoorbeeld een rood  pictogram rapporteert en u Onderzoeken naast Exchange ziet, kunt u vervolgens ook oproepen ontvangen van personen in uw organisatie die klagen dat clientpostvakken met Exchange Online traag zijn. In dat geval is het redelijk om ervan uit te gaan dat uw Exchange Online het slachtoffer was van serviceproblemen.
   
 ![Het Office 365 Health dashboard met alle werkbelastingen die groen worden weergegeven, behalve Exchange, met Service hersteld.](../media/ec7f0325-9e61-4e1a-bec0-64b87f4469be.PNG)
   
-Op dit moment moet u, de Office 365-beheerder, de huidige status controleren en vervolgens regelmatig details en geschiedenis weergeven om op de hoogte te blijven van het onderhoud dat we op het systeem uitvoeren.  Het **dashboard Huidige status** is gemaakt om u bij te werken over wijzigingen in en problemen in de service. De notities en uitleg die zijn geschreven naar de gezondheidsgeschiedenis, beheerder naar beheerder, zijn er om u te helpen uw impact te meten en om u op de hoogte te houden van lopende werkzaamheden. 
+Op dit moment moet u, de Office 365  beheerder, de huidige status controleren en vervolgens details en geschiedenis **bekijken,** vaak, om op de hoogte te blijven van het onderhoud van het systeem. Het **dashboard Huidige status** is gemaakt om u bij te werken over wijzigingen in en problemen in de service. De notities en uitleg die zijn geschreven naar de gezondheidsgeschiedenis, beheerder naar beheerder, zijn er om u te helpen peilen en om u op de hoogte te houden van lopende werkzaamheden.
   
 ![Een afbeelding van het Office 365 waarin wordt uitgelegd dat de Exchange Online is hersteld en waarom.](../media/66609554-426a-4448-8be6-ea09817f41ba.PNG)
   
 Een prestatieprobleem is geen service-incident, ook al kunnen incidenten trage prestaties veroorzaken. Een prestatieprobleem ziet er als volgende uit:
   
-- Er treedt een prestatieprobleem op, ongeacht wat het beheercentrum **Huidige status** rapporteert voor de service. 
+- Er treedt een prestatieprobleem op, ongeacht wat het beheercentrum **Huidige status** rapporteert voor de service.
     
--  Een gedrag dat vroeger relatief naadloos was, duurt lang voordat het is voltooid of nooit is voltooid. 
+-  Een gedrag dat vroeger stroomde, duurt lang of is nooit voltooid.
     
-- U kunt het probleem ook repliceren, of u weet in ieder geval dat dit gebeurt als u de juiste reeks stappen doet.
+- U kunt het probleem ook repliceren of weten dat dit gebeurt als u de juiste reeks stappen doet.
     
--  Als het probleem af en toe is, is er nog steeds een patroon, bijvoorbeeld dat u om 10:00 uur gesprekken hebt van gebruikers die geen betrouwbare toegang hebben tot Office 365 en dat de oproepen rond 12.00 uur zullen afsterven. 
+-  Als het probleem af en toe is, kan er nog steeds een patroon zijn. U weet bijvoorbeeld dat u tegen 10:00 uur gesprekken hebt van gebruikers die niet altijd toegang hebben tot Office 365. De gesprekken eindigen rond 12.00 uur.
     
-Dit klinkt waarschijnlijk bekend; misschien te bekend. Zodra u weet dat het een prestatieprobleem is, wordt de vraag' Wat doet u nu? De rest van dit artikel helpt u precies dat te bepalen.
+Deze lijst klinkt waarschijnlijk bekend. misschien te bekend. Zodra u weet dat het een prestatieprobleem is, wordt de vraag'Wat moet u nu doen?' De rest van dit artikel helpt u precies dat te bepalen.
   
 ## <a name="how-to-define-and-test-the-performance-problem"></a>Het prestatieprobleem definiëren en testen
 
-Prestatieproblemen ontstaan vaak in de tijd, dus het kan lastig zijn om het werkelijke probleem te definiëren. U moet een goede probleemverklaring en een goed idee van de context van problemen maken, en vervolgens moet u herhaalbare teststappen uitvoeren om de dag te winnen. Anders gaat u mogelijk verloren zonder uw eigen schuld. Waarom? Hier zijn enkele voorbeelden van problemen die onvoldoende informatie bevatten:
+Prestatieproblemen ontstaan vaak in de tijd, dus het kan lastig zijn om het werkelijke probleem te definiëren. Maak een goede probleemverklaring met een goed idee van de probleemcontext en vervolgens moet u herhaalbare teststappen uitvoeren. Hier vindt u enkele voorbeelden van problemen die onvoldoende informatie bevatten:
   
 - Het overstappen van mijn Postvak IN naar mijn agenda was iets wat ik niet heb gezien en nu is het een koffiepauze. Kunt u ervoor zorgen dat het zich zo gedragen als vroeger?
     
 - Het uploaden van mijn bestanden naar SharePoint Online duurt een eeuwigheid. Waarom is het traag in de middag, maar een andere keer is het snel? Kan het niet gewoon snel zijn?
     
-De bovenstaande probleemverklaringen bieden verschillende grote uitdagingen. Er zijn met name veel dubbelzinnigheden om mee om te gaan. bijvoorbeeld:
+De bovenstaande probleemverklaringen bieden verschillende grote uitdagingen. Met name te veel dubbelzinnigheden om mee om te gaan. bijvoorbeeld:
   
 - Het is niet duidelijk hoe het schakelen tussen Postvak IN en Agenda op de laptop werkt.
     
 - Wanneer de gebruiker zegt: 'Kan het niet gewoon snel zijn', wat is 'snel'?
     
-- Hoe lang is 'voor altijd'? Is dat enkele seconden of minuten, of kan de gebruiker gaan lunchen en wordt deze tien minuten nadat de gebruiker terug is, klaar?
+- Hoe lang is 'voor altijd'? Is dat enkele seconden? Of veel minuten? Of kan de gebruiker lunchen en de actie 10 minuten nadat ze terug waren, voltooien?
     
-Dit alles zonder rekening te houden met het feit dat de beheerder en probleemoplosser niet op de hoogte kunnen zijn van veel details uit probleemverklaringen zoals deze. Bijvoorbeeld wanneer het probleem zich voordeed. Dat de gebruiker thuis werkt en alleen maar langzaam ziet schakelen terwijl hij of zij een thuisnetwerk gebruikt. Dat de gebruiker meerdere andere RAM-intensieve toepassingen moet uitvoeren op de lokale client, of dat de gebruiker een ouder besturingssysteem gebruikt of geen recente updates heeft uitgevoerd.
+De beheerder en probleemoplosser kunnen niet op de hoogte zijn van de *details* van het probleem uit algemene instructies zoals deze. Ze weten bijvoorbeeld niet wanneer het probleem is begonnen. De probleemoplosser weet mogelijk niet dat de gebruiker thuis werkt en ziet alleen maar langzaam schakelen terwijl hij of zij op het thuisnetwerk werkt. Of dat de gebruiker andere RAM-intensieve toepassingen op de lokale client gebruikt. Beheerders weten mogelijk niet dat de gebruiker een ouder besturingssysteem gebruikt of hebben geen recente updates uitgevoerd.
   
-Wanneer gebruikers een prestatieprobleem melden, moet er veel informatie worden verzameld. Het verzamelen van deze gegevens maakt deel uit van een proces dat scoping van het probleem wordt genoemd, of het onderzoeken ervan. Het volgende is een eenvoudige scopinglijst die u kunt gebruiken om informatie over uw prestatieprobleem te verzamelen. Deze lijst is niet volledig, maar het is een plek om een eigen lijst te starten: 
+Wanneer gebruikers een prestatieprobleem melden, moet er veel informatie worden verzameld. Het verkrijgen en opnemen van gegevens wordt scoping van het probleem genoemd. Hier is een eenvoudige lijst met scoping die u kunt gebruiken om informatie over prestatieproblemen te verzamelen. Deze lijst is niet volledig, maar het is een plek om te beginnen:
   
 - Op welke datum is het probleem gebeurd en rond welk tijdstip van de dag of nacht?
     
