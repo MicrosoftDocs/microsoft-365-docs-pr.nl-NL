@@ -134,13 +134,13 @@
         - name: Bestandsshares migreren naar Microsoft 365
           items:
             - name: Overzicht
-              href: /sharepointmigration/mm-get-started.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+              href: /sharepointmigration/mm-get-started?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
             - name: 'Stap 1: agents instellen'
-              href: /sharepointmigration/mm-setup-clients.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+              href: /sharepointmigration/mm-setup-clients?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
             - name: 'Stap 2: een migratietaak maken'
-              href: /sharepointmigration/mm-how-to-use.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+              href: /sharepointmigration/mm-how-to-use?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
             - name: 'Stap 3: controle en rapport'
-              href: /sharepointmigration/mm-reports.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+              href: /sharepointmigration/mm-reports?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
     - name: Teamwerk en samenwerking
       items:
         - name: Teams voice in Microsoft 365 implementeren
@@ -148,17 +148,17 @@
             - name: Overzicht
               href: deploy-voice.md
             - name: Stap 1. Kies uw voice oplossing
-              href: /MicrosoftTeams/cloud-voice-landing-page.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+              href: /MicrosoftTeams/cloud-voice-landing-page?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
             - name: Stap 2. - Stel uw telefoonsysteem in
-              href: /MicrosoftTeams/setting-up-your-phone-system.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+              href: /MicrosoftTeams/setting-up-your-phone-system?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
             - name: Stap 3. - Stel PSTN-connectiviteit in
               items:
                 - name: Abonnementsoptie
-                  href: /MicrosoftTeams/set-up-calling-plans.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+                  href: /MicrosoftTeams/set-up-calling-plans?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
                 - name: Optie voor directe routering
-                  href: /MicrosoftTeams/direct-routing-configure.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+                  href: /MicrosoftTeams/direct-routing-configure?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
             - name: Casestudy voor multinationale bedrijven
-              href: /MicrosoftTeams/voice-case-study-overview.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+              href: /MicrosoftTeams/voice-case-study-overview?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
         - name: Contracten voor uw bedrijf beheren
           items:
             - name: Overzicht
@@ -172,19 +172,19 @@
         - name: Een intelligent SharePoint-intranet bouwen
           items:
             - name: Overzicht
-              href: /sharepoint/intelligent-internet-overview.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+              href: /sharepoint/intelligent-internet-overview?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
             - name: Denk na over uw intelligente intranet
-              href: /sharepoint/itrad-vs-modern-intranet.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+              href: /sharepoint/itrad-vs-modern-intranet?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
             - name: Intranetroadmap
-              href: /sharepoint/iintranet-overview.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+              href: /sharepoint/iintranet-overview?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
             - name: Plan uw intranet
-              href: /sharepoint/iplan-intranet.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+              href: /sharepoint/iplan-intranet?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
             - name: Overwegingen bij het plannen van een globaal intranet
-              href: /sharepoint/iset-up-global-intranet.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+              href: /sharepoint/iset-up-global-intranet?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
             - name: Intranetbeheer
-              href: /sharepoint/iintranet-governance.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+              href: /sharepoint/iintranet-governance?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
             - name: Communicatie op de werkplek
-              href: /sharepoint/iworkplace-communications.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+              href: /sharepoint/iworkplace-communications?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
         - name: Samenwerkingsbeheer
           items:
             - name: Overzicht
@@ -238,13 +238,13 @@
         - name: Actieplannen voor wettelijke compliance
           items:
             - name: ISO - Aanbevolen actieplan
-              href: /compliance/regulatory/iso-action-plan.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+              href: /compliance/regulatory/iso-action-plan?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
             - name: NIST - Aanbevolen actieplan
-              href: /compliance/regulatory/nist-action-plan.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+              href: /compliance/regulatory/nist-action-plan?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
             - name: CCPA - Veelgestelde vragen
-              href: /compliance/regulatory/ccpa-faq.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+              href: /compliance/regulatory/ccpa-faq?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
             - name: AVG - Aanbevolen actieplan
-              href: /compliance/regulatory/gdpr.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+              href: /compliance/regulatory/gdpr?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
     - name: Beveiliging
       items:
         - name: Belangrijkste taken voor beveiligingsteams om het thuiswerken te ondersteunen
@@ -270,7 +270,7 @@
         - name: Geïsoleerd team voor een uiterst geheim project
           href: contoso-team-for-top-secret-project.md
         - name: Teams-spraakmigratie
-          href: /MicrosoftTeams/voice-case-study-overview.md
+          href: /MicrosoftTeams/voice-case-study-overview
         - name: Contoso-compliancecasestudy
           href: ../compliance/communication-compliance-case-study.md
     - name: Testlabrichtlijnen
@@ -292,17 +292,17 @@
     - name: Gezondheidszorg
       items:
         - name: Teams voor gezondheidszorg
-          href: /MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc.md
+          href: /MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc
     - name: Onderwijs
       items:
         - name: Teams voor het onderwijs
-          href: /MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page.md
+          href: /MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page
     - name: Overheid
       items:
         - name: Teams voor de overheid
-          href: /MicrosoftTeams/expand-teams-across-your-org/teams-for-government-landing-page.md
+          href: /MicrosoftTeams/expand-teams-across-your-org/teams-for-government-landing-page
         - name: Ondersteuning van overheidswerknemers die Teams gebruiken om op afstand te werken
-          href: /MicrosoftTeams/expand-teams-across-your-org/gov-support-remote-work-with-teams.md
+          href: /MicrosoftTeams/expand-teams-across-your-org/gov-support-remote-work-with-teams
 - name: Ontwerpprincipes voor ondernemingsarchitectuur
   items:
     - name: Overzicht

@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: f74972bcd5d0ddaab58d82b72a55991fda44e3b1
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 6aa709fe4534bf049c6f8c097bc4bd85a9d6793b
+ms.sourcegitcommit: 93eeaefc0d509c75e4c2210029155298ecca7583
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583542"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53347905"
 ---
 # <a name="aadspnsignineventsbeta"></a>AADSpnSignInEventsBeta
 
@@ -48,31 +48,31 @@ Zie de geavanceerde zoekverwijzing voor meer informatie over andere tabellen in 
 
 
 
-| Kolomnaam     | Gegevenstype | Beschrijving   |
-| ----- | ----- | ---- |
-| `Timestamp` | datetime      | Datum en tijd waarop de record is gegenereerd                                                                                                     |
-| `Application`          | tekenreeks        | Toepassing die de opgenomen actie heeft uitgevoerd                                                                                                   |
-| `ApplicationId`        | tekenreeks        | Unieke id voor de toepassing                                                                                                           |
-| `IsManagedIdentity`    | booleaanse       | Geeft aan of de aanmelding is gestart door een beheerde identiteit                                                                               |
-| `ErrorCode`            | int        | Bevat de foutcode als er een aanmeldingsfout optreedt. Als u een beschrijving van een specifieke foutcode wilt zoeken, gaat u naar <https://aka.ms/AADsigninsErrorCodes> . |
-| `CorrelationId`        | tekenreeks        | Unieke id van de aanmeldingsgebeurtenis                                                                                                          |
-| `ServicePrincipalName` | tekenreeks        | Naam van de serviceprincipaal die de aanmelding heeft gestart                                                                                        |
-| `ServicePrincipalId`   | tekenreeks        | Unieke id van de serviceprincipaal die de aanmelding heeft gestart                                                                           |
-| `ResourceDisplayName`  | tekenreeks        | Weergavenaam van de resource die wordt gebruikt                                                                                                           |
-| `ResourceId`           | tekenreeks        | Unieke id van de resource die wordt gebruikt                                                                                                      |
-| `ResourceTenantId`     | tekenreeks        | Unieke id van de tenant van de resource die wordt gebruikt                                                                                        |
-| `IPAddress`            | tekenreeks        | IP-adres toegewezen aan het eindpunt en gebruikt tijdens gerelateerde netwerkcommunicatie                                                              |
-| `Country`          | tekenreeks        | Code met twee letters waarmee het land wordt aangegeven waar het IP-adres van de client is geloceerd                                                                |
-| `State`                | tekenreeks        | Geef aan waar de aanmelding heeft plaatsgevonden, indien beschikbaar                                                                                                  |
-| `City`                 | tekenreeks        | Plaats waar de accountgebruiker zich bevindt                                                                                                          |
-| `Latitude`             | tekenreeks        | De coördinaten van noord naar zuid van de aanmeldingslocatie                                                                                          |
-| `Longitude`            | tekenreeks        | De coördinaten van de aanmeldingslocatie                                                                                            |
-| `RequestId`            | tekenreeks        | Unieke id van de aanvraag                                                                                                                |
-|`ReportId` | tekenreeks | Unieke id voor de gebeurtenis | 
+| Kolomnaam | Gegevenstype | Omschrijving |
+|-----|-----|-----|
+| `Timestamp` | datetime | Datum en tijd waarop de record is gegenereerd |
+| `Application` | reeks | Toepassing die de opgenomen actie heeft uitgevoerd |
+| `ApplicationId` | reeks | Unieke id voor de toepassing |
+| `IsManagedIdentity`    | booleaanse       | Geeft aan of de aanmelding is gestart door een beheerde identiteit |
+| `ErrorCode`    | int | Bevat de foutcode als er een aanmeldingsfout optreedt. Als u een beschrijving van een specifieke foutcode wilt zoeken, gaat u naar <https://aka.ms/AADsigninsErrorCodes> . |
+| `CorrelationId`        | reeks        | Unieke id van de aanmeldingsgebeurtenis |
+| `ServicePrincipalName` | reeks        | Naam van de serviceprincipaal die de aanmelding heeft gestart  |
+| `ServicePrincipalId`   | reeks        | Unieke id van de serviceprincipaal die de aanmelding heeft gestart  |
+| `ResourceDisplayName`  | reeks        | Weergavenaam van de resource die wordt gebruikt  |
+| `ResourceId`           | reeks        | Unieke id van de resource die wordt gebruikt  |
+| `ResourceTenantId`     | reeks        | Unieke id van de tenant van de resource die wordt gebruikt |
+| `IPAddress`            | reeks        | IP-adres toegewezen aan het eindpunt en gebruikt tijdens gerelateerde netwerkcommunicatie  |
+| `Country`          | reeks        | Code met twee letters waarmee het land wordt aangegeven waar het IP-adres van de client is geloceerd |
+| `State`                | reeks        | Geef aan waar de aanmelding heeft plaatsgevonden, indien beschikbaar |
+| `City`                 | reeks        | Plaats waar de accountgebruiker zich bevindt  |
+| `Latitude`             | reeks        | De coördinaten van noord naar zuid van de aanmeldingslocatie |
+| `Longitude`            | reeks        | De coördinaten van de aanmeldingslocatie |
+| `RequestId`            | reeks        | Unieke id van de aanvraag |
+|`ReportId` | reeks | Unieke id voor de gebeurtenis |
 
  
 
-## <a name="related-articles"></a>Aanverwante artikelen
+## <a name="related-articles"></a>Verwante artikelen
 
 -   [AADSignInEventsBeta](./advanced-hunting-aadsignineventsbeta-table.md)
 -   [Overzicht van geavanceerd opsporen](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview)
