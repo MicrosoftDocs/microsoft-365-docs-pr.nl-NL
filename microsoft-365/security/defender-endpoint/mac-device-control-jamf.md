@@ -18,30 +18,28 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b9ce161a472366d11b267824c9bd08ceccf285aa
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 21e44090cf21ac8bba29885a2f97242faf3e2164
+ms.sourcegitcommit: 7dc3b4dec05299abb4290a6e3d1ebe0fdc622ed7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933455"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53363965"
 ---
-# <a name="examples-of-device-control-policies-for-jamf"></a><span data-ttu-id="928b2-104">Voorbeelden van beleidsregels voor apparaatbeheer voor JAMF</span><span class="sxs-lookup"><span data-stu-id="928b2-104">Examples of device control policies for JAMF</span></span>
+# <a name="examples-of-device-control-policies-for-jamf"></a><span data-ttu-id="39fee-104">Voorbeelden van beleidsregels voor apparaatbeheer voor JAMF</span><span class="sxs-lookup"><span data-stu-id="39fee-104">Examples of device control policies for JAMF</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-<span data-ttu-id="928b2-105">**Van toepassing op:**</span><span class="sxs-lookup"><span data-stu-id="928b2-105">**Applies to:**</span></span>
-- [<span data-ttu-id="928b2-106">Microsoft Defender voor Eindpunt</span><span class="sxs-lookup"><span data-stu-id="928b2-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
-- [<span data-ttu-id="928b2-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="928b2-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
+<span data-ttu-id="39fee-105">**Van toepassing op:**</span><span class="sxs-lookup"><span data-stu-id="39fee-105">**Applies to:**</span></span>
+- [<span data-ttu-id="39fee-106">Microsoft Defender voor Eindpunt</span><span class="sxs-lookup"><span data-stu-id="39fee-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [<span data-ttu-id="39fee-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="39fee-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> <span data-ttu-id="928b2-108">Wilt u Microsoft Defender voor Eindpunt ervaren?</span><span class="sxs-lookup"><span data-stu-id="928b2-108">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="928b2-109">Meld u aan voor een gratis proefabonnement.</span><span class="sxs-lookup"><span data-stu-id="928b2-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> <span data-ttu-id="39fee-108">Wilt u Microsoft Defender voor Eindpunt ervaren?</span><span class="sxs-lookup"><span data-stu-id="39fee-108">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="39fee-109">Meld u aan voor een gratis proefversie.</span><span class="sxs-lookup"><span data-stu-id="39fee-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-[!include[Prerelease information](../../includes/prerelease.md)]
+<span data-ttu-id="39fee-110">Dit document bevat voorbeelden van beleidsregels voor apparaatbesturingselementen die u kunt aanpassen voor uw eigen organisatie.</span><span class="sxs-lookup"><span data-stu-id="39fee-110">This document contains examples of device control policies that you can customize for your own organization.</span></span> <span data-ttu-id="39fee-111">Deze voorbeelden zijn van toepassing als u JAMF gebruikt om apparaten in uw bedrijf te beheren.</span><span class="sxs-lookup"><span data-stu-id="39fee-111">These examples are applicable if you are using JAMF to manage devices in your enterprise.</span></span>
 
-<span data-ttu-id="928b2-110">Dit document bevat voorbeelden van beleidsregels voor apparaatbesturingselementen die u kunt aanpassen voor uw eigen organisatie.</span><span class="sxs-lookup"><span data-stu-id="928b2-110">This document contains examples of device control policies that you can customize for your own organization.</span></span> <span data-ttu-id="928b2-111">Deze voorbeelden zijn van toepassing als u JAMF gebruikt om apparaten in uw bedrijf te beheren.</span><span class="sxs-lookup"><span data-stu-id="928b2-111">These examples are applicable if you are using JAMF to manage devices in your enterprise.</span></span>
+## <a name="restrict-access-to-all-removable-media"></a><span data-ttu-id="39fee-112">Toegang tot alle verwisselbare media beperken</span><span class="sxs-lookup"><span data-stu-id="39fee-112">Restrict access to all removable media</span></span>
 
-## <a name="restrict-access-to-all-removable-media"></a><span data-ttu-id="928b2-112">Toegang tot alle verwisselbare media beperken</span><span class="sxs-lookup"><span data-stu-id="928b2-112">Restrict access to all removable media</span></span>
-
-<span data-ttu-id="928b2-113">In het volgende voorbeeld wordt de toegang tot alle verwisselbare media beperkt.</span><span class="sxs-lookup"><span data-stu-id="928b2-113">The following example restricts access to all removable media.</span></span> <span data-ttu-id="928b2-114">Let op de machtiging die wordt toegepast op het hoogste niveau van het beleid, wat betekent `none` dat alle bestandsbewerkingen zijn verboden.</span><span class="sxs-lookup"><span data-stu-id="928b2-114">Note the `none` permission that is applied at the top level of the policy, meaning that all file operations will be prohibited.</span></span>
+<span data-ttu-id="39fee-113">In het volgende voorbeeld wordt de toegang tot alle verwisselbare media beperkt.</span><span class="sxs-lookup"><span data-stu-id="39fee-113">The following example restricts access to all removable media.</span></span> <span data-ttu-id="39fee-114">Let op de machtiging die wordt toegepast op het hoogste niveau van het beleid, wat betekent `none` dat alle bestandsbewerkingen zijn verboden.</span><span class="sxs-lookup"><span data-stu-id="39fee-114">Note the `none` permission that is applied at the top level of the policy, meaning that all file operations will be prohibited.</span></span>
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?> 
@@ -64,9 +62,9 @@ ms.locfileid: "51933455"
 </plist>
 ```
 
-## <a name="set-all-removable-media-to-be-read-only"></a><span data-ttu-id="928b2-115">Alle verwisselbare media instellen op alleen-lezen</span><span class="sxs-lookup"><span data-stu-id="928b2-115">Set all removable media to be read-only</span></span>
+## <a name="set-all-removable-media-to-be-read-only"></a><span data-ttu-id="39fee-115">Alle verwisselbare media instellen op alleen-lezen</span><span class="sxs-lookup"><span data-stu-id="39fee-115">Set all removable media to be read-only</span></span>
 
-<span data-ttu-id="928b2-116">In het volgende voorbeeld worden alle verwisselbare media geconfigureerd als alleen-lezen.</span><span class="sxs-lookup"><span data-stu-id="928b2-116">The following example configures all removable media to be read-only.</span></span> <span data-ttu-id="928b2-117">Noteer de machtiging die wordt toegepast op het hoogste niveau van het beleid, wat betekent dat alle schrijf- en `read` uitvoerbewerkingen worden afgekeurd.</span><span class="sxs-lookup"><span data-stu-id="928b2-117">Note the `read` permission that is applied at the top level of the policy, meaning that all write and execute operations will be disallowed.</span></span>
+<span data-ttu-id="39fee-116">In het volgende voorbeeld worden alle verwisselbare media geconfigureerd als alleen-lezen.</span><span class="sxs-lookup"><span data-stu-id="39fee-116">The following example configures all removable media to be read-only.</span></span> <span data-ttu-id="39fee-117">Noteer de machtiging die wordt toegepast op het hoogste niveau van het beleid, wat betekent dat alle schrijf- en `read` uitvoerbewerkingen worden afgekeurd.</span><span class="sxs-lookup"><span data-stu-id="39fee-117">Note the `read` permission that is applied at the top level of the policy, meaning that all write and execute operations will be disallowed.</span></span>
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?> 
@@ -89,9 +87,9 @@ ms.locfileid: "51933455"
 </plist>
 ```
 
-## <a name="disallow-program-execution-from-removable-media"></a><span data-ttu-id="928b2-118">Programmauitvoering van verwisselbare media niet meer uitvoeren</span><span class="sxs-lookup"><span data-stu-id="928b2-118">Disallow program execution from removable media</span></span>
+## <a name="disallow-program-execution-from-removable-media"></a><span data-ttu-id="39fee-118">Programmauitvoering van verwisselbare media niet meer uitvoeren</span><span class="sxs-lookup"><span data-stu-id="39fee-118">Disallow program execution from removable media</span></span>
 
-<span data-ttu-id="928b2-119">In het volgende voorbeeld ziet u hoe de uitvoering van programma's uit verwisselbare media kan worden afgekeurd.</span><span class="sxs-lookup"><span data-stu-id="928b2-119">The following example shows how program execution from removable media can be disallowed.</span></span> <span data-ttu-id="928b2-120">Noteer de `read` `write` machtigingen en machtigingen die worden toegepast op het hoogste niveau van het beleid.</span><span class="sxs-lookup"><span data-stu-id="928b2-120">Note the `read` and `write` permissions that are applied at the top level of the policy.</span></span>
+<span data-ttu-id="39fee-119">In het volgende voorbeeld ziet u hoe de uitvoering van programma's uit verwisselbare media kan worden afgekeurd.</span><span class="sxs-lookup"><span data-stu-id="39fee-119">The following example shows how program execution from removable media can be disallowed.</span></span> <span data-ttu-id="39fee-120">Noteer de `read` `write` machtigingen en machtigingen die worden toegepast op het hoogste niveau van het beleid.</span><span class="sxs-lookup"><span data-stu-id="39fee-120">Note the `read` and `write` permissions that are applied at the top level of the policy.</span></span>
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?> 
@@ -115,9 +113,9 @@ ms.locfileid: "51933455"
 </plist>
 ```
 
-## <a name="restrict-all-devices-from-specific-vendors"></a><span data-ttu-id="928b2-121">Alle apparaten van specifieke leveranciers beperken</span><span class="sxs-lookup"><span data-stu-id="928b2-121">Restrict all devices from specific vendors</span></span>
+## <a name="restrict-all-devices-from-specific-vendors"></a><span data-ttu-id="39fee-121">Alle apparaten van specifieke leveranciers beperken</span><span class="sxs-lookup"><span data-stu-id="39fee-121">Restrict all devices from specific vendors</span></span>
 
-<span data-ttu-id="928b2-122">In het volgende voorbeeld worden alle apparaten van specifieke leveranciers beperkt (in dit geval geïdentificeerd door `fff0` en `4525` ).</span><span class="sxs-lookup"><span data-stu-id="928b2-122">The following example restricts all devices from specific vendors (in this case identified by `fff0` and `4525`).</span></span> <span data-ttu-id="928b2-123">Alle andere apparaten zijn onbeperkt, omdat de machtiging die is gedefinieerd op het hoogste niveau van het beleid alle mogelijke machtigingen bevat (lezen, schrijven en uitvoeren).</span><span class="sxs-lookup"><span data-stu-id="928b2-123">All other devices will be unrestricted, since the permission defined at the top level of the policy lists all possible permissions (read, write, and execute).</span></span>
+<span data-ttu-id="39fee-122">In het volgende voorbeeld worden alle apparaten van specifieke leveranciers beperkt (in dit geval geïdentificeerd door `fff0` en `4525` ).</span><span class="sxs-lookup"><span data-stu-id="39fee-122">The following example restricts all devices from specific vendors (in this case identified by `fff0` and `4525`).</span></span> <span data-ttu-id="39fee-123">Alle andere apparaten zijn onbeperkt, omdat de machtiging die is gedefinieerd op het hoogste niveau van het beleid alle mogelijke machtigingen bevat (lezen, schrijven en uitvoeren).</span><span class="sxs-lookup"><span data-stu-id="39fee-123">All other devices will be unrestricted, since the permission defined at the top level of the policy lists all possible permissions (read, write, and execute).</span></span>
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?> 
@@ -159,9 +157,9 @@ ms.locfileid: "51933455"
 </plist> 
 ```
 
-## <a name="restrict-specific-devices-identified-by-vendor-id-product-id-and-serial-number"></a><span data-ttu-id="928b2-124">Specifieke apparaten beperken die zijn geïdentificeerd met leveranciers-id, product-id en serienummer</span><span class="sxs-lookup"><span data-stu-id="928b2-124">Restrict specific devices identified by vendor ID, product ID, and serial number</span></span>
+## <a name="restrict-specific-devices-identified-by-vendor-id-product-id-and-serial-number"></a><span data-ttu-id="39fee-124">Specifieke apparaten beperken die zijn geïdentificeerd met leveranciers-id, product-id en serienummer</span><span class="sxs-lookup"><span data-stu-id="39fee-124">Restrict specific devices identified by vendor ID, product ID, and serial number</span></span>
 
-<span data-ttu-id="928b2-125">In het volgende voorbeeld worden twee specifieke apparaten beperkt, die zijn geïdentificeerd met leveranciers-id, `fff0` `1000` product-id en `04ZSSMHI2O7WBVOA` serienummers en `04ZSSMHI2O7WBVOB` .</span><span class="sxs-lookup"><span data-stu-id="928b2-125">The following example restricts two specific devices, identified by vendor ID `fff0`, product ID `1000`, and serial numbers `04ZSSMHI2O7WBVOA` and `04ZSSMHI2O7WBVOB`.</span></span> <span data-ttu-id="928b2-126">Op alle andere niveaus van het beleid bevatten de machtigingen alle mogelijke waarden (lezen, schrijven en uitvoeren), wat betekent dat alle andere apparaten onbeperkt zijn.</span><span class="sxs-lookup"><span data-stu-id="928b2-126">At all other levels of the policy the permissions include all possible values (read, write, and execute), meaning that all other devices will be unrestricted.</span></span>
+<span data-ttu-id="39fee-125">In het volgende voorbeeld worden twee specifieke apparaten beperkt, die zijn geïdentificeerd met leveranciers-id, `fff0` `1000` product-id en `04ZSSMHI2O7WBVOA` serienummers en `04ZSSMHI2O7WBVOB` .</span><span class="sxs-lookup"><span data-stu-id="39fee-125">The following example restricts two specific devices, identified by vendor ID `fff0`, product ID `1000`, and serial numbers `04ZSSMHI2O7WBVOA` and `04ZSSMHI2O7WBVOB`.</span></span> <span data-ttu-id="39fee-126">Op alle andere niveaus van het beleid bevatten de machtigingen alle mogelijke waarden (lezen, schrijven en uitvoeren), wat betekent dat alle andere apparaten onbeperkt zijn.</span><span class="sxs-lookup"><span data-stu-id="39fee-126">At all other levels of the policy the permissions include all possible values (read, write, and execute), meaning that all other devices will be unrestricted.</span></span>
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?> 
@@ -221,6 +219,6 @@ ms.locfileid: "51933455"
 </plist> 
 ```
 
-## <a name="related-topics"></a><span data-ttu-id="928b2-127">Verwante onderwerpen</span><span class="sxs-lookup"><span data-stu-id="928b2-127">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="39fee-127">Gerelateerde onderwerpen</span><span class="sxs-lookup"><span data-stu-id="39fee-127">Related topics</span></span>
 
-- [<span data-ttu-id="928b2-128">Overzicht van apparaatbesturingselement voor macOS</span><span class="sxs-lookup"><span data-stu-id="928b2-128">Overview of device control for macOS</span></span>](mac-device-control-overview.md)
+- [<span data-ttu-id="39fee-128">Overzicht van apparaatbesturingselement voor macOS</span><span class="sxs-lookup"><span data-stu-id="39fee-128">Overview of device control for macOS</span></span>](mac-device-control-overview.md)
