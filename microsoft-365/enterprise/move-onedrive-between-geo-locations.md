@@ -15,12 +15,12 @@ ms.collection:
 - SPO_Content
 localization_priority: Normal
 description: Informatie over het verplaatsen van een OneDrive naar een andere geografische locatie, zoals het plannen van siteverplaatsing en het communiceren van verwachtingen aan gebruikers.
-ms.openlocfilehash: 59b3fb47fd195967e7af056c7a71fb4e736471d1
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 9e75c8e4102f82d4ab6e0f99ea26e1c0ad8b4bab
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46688925"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362244"
 ---
 # <a name="move-a-onedrive-site-to-a-different-geo-location"></a>Een site OneDrive naar een andere geografische locatie verplaatsen 
 
@@ -28,7 +28,7 @@ Met OneDrive geo-move kunt u de gegevens van een gebruiker OneDrive naar een and
 
 De OneDrive-service gebruikt Azure Blob Storage om inhoud op te slaan. De Storage blob die is gekoppeld aan de OneDrive van de gebruiker, wordt binnen 40 dagen na de OneDrive voor de gebruiker van de bron naar de doellocatie verplaatst. De toegang tot de OneDrive van de gebruiker wordt hersteld zodra de OneDrive beschikbaar is.
 
-Tijdens OneDrive geoverhuisvenster (ongeveer 2-6 uur) is de OneDrive van de gebruiker ingesteld op alleen-lezen. De gebruiker heeft nog steeds toegang tot zijn bestanden via de OneDrive-synchronisatieclient of via OneDrive site in SharePoint Online. Nadat OneDrive geoverplaatsing is voltooid, wordt de gebruiker automatisch verbonden met zijn of haar OneDrive op de geografische locatie van de bestemming wanneer hij of zij naar OneDrive in het start startstation voor Microsoft 365 app navigeert. De synchronisatieclient wordt automatisch vanaf de nieuwe locatie gesynchroniseerd.
+Tijdens OneDrive geoverhuisvenster (ongeveer 2-6 uur) is de OneDrive van de gebruiker ingesteld op alleen-lezen. De gebruiker heeft nog steeds toegang tot zijn of haar bestanden via OneDrive-synchronisatie app of via OneDrive site in SharePoint Online. Nadat OneDrive geoverplaatsing is voltooid, wordt de gebruiker automatisch verbonden met zijn of haar OneDrive op de geografische locatie van de bestemming wanneer hij of zij naar OneDrive in het start startstation voor Microsoft 365 app navigeert. De synchronisatie-app wordt automatisch vanaf de nieuwe locatie gesynchroniseerd.
 
 Voor de procedures in dit artikel is Microsoft Office SharePoint Online [PowerShell-module vereist.](https://www.microsoft.com/download/details.aspx?id=35588)
 
@@ -123,8 +123,8 @@ De statussen voor verplaatsen worden in de volgende tabel beschreven.
 <table>
 <thead>
 <tr class="header">
-<th align="left"><strong>Status</strong></th>
-<th align="left"><strong>Beschrijving</strong></th>
+<th align="left">Status</th>
+<th align="left">Omschrijving</th>
 </tr>
 </thead>
 <tbody>
@@ -137,7 +137,7 @@ De statussen voor verplaatsen worden in de volgende tabel beschreven.
 <td align="left">De move wordt uitgevoerd in een van de volgende staten: Validatie (1/4), Back-up (2/4), Herstellen (3/4), Opschoning (4-4).</td>
 </tr>
 <tr class="odd">
-<td align="left">Succes</td>
+<td align="left">Geslaagd</td>
 <td align="left">De verhuizing is voltooid.</td>
 </tr>
 <tr class="even">
@@ -161,7 +161,7 @@ U kunt ook de `-Verbose` parameter toevoegen voor uitgebreidere beschrijvingen v
 
 Gebruikers van OneDrive moeten minimale onderbrekingen zien als hun OneDrive naar een andere geografische locatie wordt verplaatst. Afgezien van een korte status alleen-lezen tijdens het verplaatsen, blijven bestaande koppelingen en machtigingen werken zoals verwacht wanneer de verhuizing is voltooid.
 
-### <a name="onedrive-for-business"></a>OneDrive voor Bedrijven
+### <a name="users-onedrive"></a>Gebruikersgegevens OneDrive
 
 Terwijl de move wordt uitgevoerd, is de OneDrive van de gebruiker ingesteld op alleen-lezen. Wanneer de overstap is voltooid, wordt de gebruiker doorgestuurd naar zijn of haar OneDrive in de nieuwe geografische locatie wanneer hij of zij naar OneDrive het start- Microsoft 365 app of een webbrowser navigeert.
 
@@ -169,11 +169,11 @@ Terwijl de move wordt uitgevoerd, is de OneDrive van de gebruiker ingesteld op a
 
 Gebruikers met machtigingen voor het OneDrive inhoud hebben nog steeds toegang tot de inhoud tijdens de verhuizing en nadat deze is voltooid.
 
-### <a name="onedrive-sync-client"></a>OneDrive Synchronisatieclient 
+### <a name="onedrive-sync-app"></a>OneDrive-synchronisatie app 
 
-De OneDrive-synchronisatieclient detecteert automatisch en schakelt naadloos synchronisatie over naar de nieuwe OneDrive-locatie zodra de OneDrive geoverplaatsing is voltooid. De gebruiker hoeft zich niet opnieuw aan te melden of een andere actie uit te voeren.  (Versie 17.3.6943.0625 of hoger van de synchronisatieclient vereist.)
+De OneDrive-synchronisatie app detecteert automatisch en schakelt naadloos synchronisatie over naar de nieuwe OneDrive locatie zodra de OneDrive geoverplaatsing is voltooid. De gebruiker hoeft zich niet opnieuw aan te melden of een andere actie uit te voeren.  (Versie 17.3.6943.0625 of hoger van de synchronisatie-app vereist.)
 
-Als een gebruiker een bestand bij werkt terwijl de OneDrive geo-move wordt uitgevoerd, meldt de synchronisatieclient dat de uploads van bestanden in behandeling zijn terwijl de overstap wordt uitgevoerd.
+Als een gebruiker een bestand bij werkt terwijl de OneDrive geo-move wordt uitgevoerd, ontvangt de synchronisatie-app een melding dat er een bestand wordt geüpload terwijl de overstap wordt uitgevoerd.
 
 ### <a name="sharing-links"></a>Koppelingen voor delen 
 
@@ -193,7 +193,7 @@ OneNote win32-client en uwp-app (Universal) worden notitieblokken automatisch ge
 
 Wanneer OneDrive geo-move hebt voltooid, hebben gebruikers toegang tot hun OneDrive bestanden in de Teams app. Bovendien blijven bestanden die worden gedeeld via Teams chat vanaf hun OneDrive voordat de geo-beweging wordt verplaatst, werken nadat de beweging is voltooid.
 
-### <a name="onedrive-for-business-mobile-app-ios"></a>OneDrive voor Bedrijven Mobiele app (iOS) 
+### <a name="onedrive-mobile-app-ios"></a>OneDrive Mobiele app (iOS) 
 
 Wanneer OneDrive geo-move voltooid is, moet de gebruiker zich aanmelden en zich opnieuw aanmelden in de mobiele iOS-app om te synchroniseren met de nieuwe OneDrive locatie.
 

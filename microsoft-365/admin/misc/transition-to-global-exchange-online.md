@@ -12,16 +12,16 @@ localization_priority: Normal
 ms.custom: AdminSurgePortfolio
 ROBOTS: NOINDEX, NOFOLLOW
 description: Meer informatie over het overstappen van Microsoft Cloud Germany Exchange Online naar de wereldwijde Exchange Online service
-ms.openlocfilehash: 8de64e30205b07a0c20a8ae4f7cdedbf6cc6824f
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 93eab2c4e0ab2f841359061ebdca69967d8d7d33
+ms.sourcegitcommit: 7dc3b4dec05299abb4290a6e3d1ebe0fdc622ed7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48644853"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53363869"
 ---
 # <a name="update-your-mx-records-to-transition-to-the-global-exchange-online-service"></a>Uw MX-records bijwerken om over te gaan naar de globale Exchange Online service
 
-1. Meld u aan [bij Microsoft 365-beheerportal](https://admin.microsoft.com)en ga naar **Instellingen**  >  **Domeinen**
+1. Meld u aan [bij Microsoft 365-beheercentrum](https://admin.microsoft.com)en ga naar **Instellingen**  >  **Domeinen**
 
 2. Status wordt aan de rechterkant weergegeven voor elk domein. Als de domeinen van uw organisatie naar Microsoft Cloud Germany Exchange Online, moet u uw MX-record bijwerken.
 

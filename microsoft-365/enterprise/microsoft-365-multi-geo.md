@@ -13,12 +13,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: In dit artikel leert u hoe u uw aanwezigheid Microsoft 365 meerdere geografische regio's kunt uitbreiden met Microsoft 365 Multi-Geo.
-ms.openlocfilehash: 2805470f1a35bb5978f3d25c30aa07523ad21afb
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 17fc2645f69a0d91c71c91718f321e5932d31bd2
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909548"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362760"
 ---
 # <a name="microsoft-365-multi-geo"></a>Microsoft 365 Multi-Geo
 
@@ -57,6 +57,8 @@ Microsoft 365 Multi-Geo is beschikbaar als invoegabonnement op de volgende Micro
 - Exchange Online Plan 1 of Plan 2
 - OneDrive voor Bedrijven Plan 1 of Plan 2
 - SharePoint Online abonnement 1 of Abonnement 2
+
+Als een licentie is toegewezen aan een gebruiker en later wordt verwijderd, worden Teams gebruikerschatgegevens in de wachtrij geplaatst om terug te worden verplaatst naar de centrale locatie. SharePoint en Exchange gegevens worden niet verplaatst.
 
 ## <a name="microsoft-365-multi-geo-availability"></a>Microsoft 365 Beschikbaarheid van meerdere geo's
 

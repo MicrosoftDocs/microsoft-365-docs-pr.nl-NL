@@ -9,69 +9,67 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: abd1b681f3d5900f846fde7922f2f4a2ca5821ef
-ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
+ms.openlocfilehash: 2eea02b0a891f65ccd7e4e993ca719b0f3aa1b8b
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49841361"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362604"
 ---
 # <a name="getting-help-for-users"></a>Hulp aanvragen voor gebruikers
 
-Er zijn twee manieren waarop gebruikers in uw organisatie hulp kunnen krijgen met hun Microsoft Managed Desktop apparaten: **Hulp vragen** app of telefonische ondersteuning. Beide ondersteuningsopties zijn 24 uur per dag, 7 dagen per week beschikbaar voor gebruikers.
+Als u het punt in de [werkstroom](../service-description/user-support.md) hebt bereikt waarop u toegang tot een verhoogd apparaat of escalatie bij Microsoft moet aanvragen, gaat u als volgt te werk:
  
 >[!NOTE]
 >Deze ondersteuningsopties zijn niet beschikbaar voor apparaten in de groep Testen.
 
-## <a name="get-help-app"></a>Hulp vragen app
+## <a name="elevation-requests"></a>Hoogte-aanvragen
 
-De voorkeursmethode voor het bieden van ondersteuning aan uw gebruikers is **Hulp vragen,** een gebruiksvriendelijke interface die is ingebouwd in het gebruikersapparaat.  
+Voordat u verhoogde toegang tot een apparaat aanvraagt, kunt u het beste bekijken welke acties het meest geschikt zijn.
 
-![Hulp vragen app-pictogram](../../media/get-help.png)
+- **Typische acties** zijn waarvoor dit proces is bedoeld en worden routinematig uitgevoerd tijdens het oplossen van problemen met Microsoft Managed Desktop apparaten. Voorbeelden hiervan zijn:
+    - Ingebouwde probleemoplossers voor het systeem, de opdrachtprompt of de Windows PowerShell
+    - Problemen met zakelijke toepassingen oplossen
+    - Een tijdelijke oplossing gebruiken om iets te corrigeren dat automatisch moet werken (zoals BitLocker-activering of systeemtijd die niet wordt bijgewerkt)
+    - Apparaatbeheer verheffen om dingen te doen zoals stuurprogramma's bijwerken, een apparaat verwijderen of nieuwe wijzigingen scannen
 
-Hulp vragen is een toepassing die is geïnstalleerd op alle Microsoft Managed Desktop apparaten en is vastgemaakt aan de taakbalk. 
+- **Acties die niet worden aanbevolen, zijn** de volgende:
+    - Software of browsers installeren
+    - Stuurprogramma's installeren buiten Windows instellingen, inclusief stuurprogramma's voor randapparatuur
+    - Bestanden .msi of .exe installeren
+    - Functies voor Windows installeren
 
-- Gebruikers kunnen een terugbelverzoek indienen bij een opgegeven telefoonnummer of online chatten met een servicemedewerker.
-- Aanvragen die buiten het bereik van Microsoft Managed Desktop vallen, worden via een telefoongesprek omgeleid naar de lokale IT-helpdesk.
+- **Acties die niet worden ondersteund,** zijn de volgende:
+    - Software of functies installeren die conflicteren met Microsoft Managed Desktop beveiligings- of beheerfuncties of -bewerkingen
+    - Een functie Windows uitschakelen die is vereist voor Microsoft Managed Desktop, zoals BitLocker
+    - Instellingen wijzigen die worden beheerd door uw organisatie
+
+### <a name="to-request-elevation"></a>Hoogte aanvragen
+
+1. Ga naar de portal bij [https://aka.ms/mmdelevationrequest](https://aka.ms/mmdelevationrequest) en meld u aan met uw Azure Active Directory referenties.
+2. Selecteer **Nieuwe hoogte-aanvraag.**
+3. Geef deze details op:
+    - **Ondersteuningsticket-id** van uw eigen ondersteuningsticketsysteem.
+    - **Apparaatnaam:** voer het serienummer van het apparaat in en selecteer het apparaat in het menu.
+    - **Categorie:** Selecteer de categorie die het beste bij uw probleem past. Als er geen optie lijkt te sluiten, **selecteert** u Overige en geeft u meer informatie op in de velden **Titel** en **Plan van** actie. U kunt het beste een categorie selecteren als dat mogelijk is.
+    - **Subcategorie:** Selecteer de categorie die het beste bij het probleem past. Als er geen optie lijkt te sluiten, **selecteert** u Overige en geeft u een korte beschrijving op in **Titel.** Geef **in Plan van actie** de stappen voor het oplossen van problemen op die u wilt ondernemen zodra de hoogte is verleend.
+4. Selecteer **Verzenden**.
+
+
+## <a name="escalation-requests"></a>Escalatieaanvragen
+
+
+Als u een probleem [wilt escaleren](../service-description/user-support.md#escalation-portal) naar Microsoft, volgt u de volgende stappen:
+
+1. Ga naar de portal bij [https://aka.ms/mmdelevationrequest](https://aka.ms/mmdelevationrequest) en meld u aan met uw Azure Active Directory referenties.
+2. Selecteer **Escalatieaanvragen** en selecteer vervolgens **Nieuwe escalatieaanvraag.**
+3. Geef deze details op:
+    - **Categorie:** Selecteer de categorie die het beste bij uw probleem past.
+    - **Titel:** Geef een zeer korte beschrijving op.
+    - **Beschrijving:** Voeg aanvullende details toe die ons team kunnen helpen het probleem te begrijpen. Als u bestanden wilt toevoegen, kunt u dit doen door terug te keren naar de aanvraag nadat u deze hebt ingediend.
+    - **Primaire contactgegevens:** geef informatie over hoe u contact op kunt nemen met de hoofdpersoon die verantwoordelijk is voor het werken met ons team.
+4. Selecteer **Verzenden**.
+5. Bekijk het ticket opnieuw in dezelfde portal om met ons team te communiceren.
 
 > [!NOTE]
-> De weergavetaal voor de Hulp vragen app is alleen Engels, zelfs als een gebruiker een andere taal heeft geselecteerd bij het instellen van het apparaat of in apparaatinstellingen. 
-
-### <a name="prerequisites"></a>Vereisten
-Als uw gebruikers hulp kunnen krijgen via de app, moet u ervoor zorgen dat aan deze vereisten wordt voldaan:
-
-- Het apparaat moet zijn geregistreerd Microsoft Managed Desktop een van de methoden [in](../get-started/set-up-devices.md)Het instellen van Microsoft Managed Desktop apparaten, zoals Nieuwe apparaten [zelf registreren.](../get-started/register-devices-self.md)
-- De weergavetaal voor het apparaat moet zijn ingesteld op een van deze Engelstalige locales: nl-nl, nl-nl, nl-au, en-nz of en-ca.
-- De Hulp vragen app moet up-to-date zijn. Als u de status wilt bevestigen, controleert u op app-updates in de Microsoft Store.
-- Bepaalde [eindpunten moeten](../get-ready/network.md#endpoints-allowed-that-are-necessary-for-microsoft-managed-desktop) toegankelijk zijn vanaf het apparaat.
-
-> [!NOTE]
-> De Hulp vragen app kan maximaal één uur duren nadat een apparaat is geïmplementeerd om volledig te functioneren.
-
-Als u deze vereisten hebt gecontroleerd en de Hulp vragen nog steeds niet werkt, moet u als IT-beheerder een [ondersteuningsaanvraag indienen.](admin-support.md)
-
-## <a name="phone-support"></a>Telefonische ondersteuning
-
-Gebruikers met Microsoft Managed Desktop hebben ook toegang tot gratis telefoonnummers die ze kunnen bellen. De getallen zijn bedoeld om te worden gebruikt wanneer Hulp vragen niet beschikbaar is. Als ze zich bijvoorbeeld niet kunnen aanmelden bij het apparaat of als het apparaat is verbroken. Hier zijn de telefoonnummers voor telefonische ondersteuning:
-
-- Verenigde Staten: +1 855 425 0216
-- Canada (exclusief Quebec): +1 855 425 0216
-- Verenigd Koninkrijk: +44 800 026 0698
-- België: +32 800 58533
-- Luxemburg: +352 800 40119
-- Australië: +61 180 037 0619
-- Nieuw-Zeeland: +64 988 44380
-- Zweden: +46 20 120 3554
-- Noorwegen: +47 800 62584
-- IJsland: +354 800 9006
-- Ierland: +353 1 800 832272
-- Denemarken: +45 80 40 04 01
-- Finland: +358 800 525088
-
->[!NOTE]
->U moet uw e-mailadres van uw organisatie gereed hebben wanneer u belt om uw identiteit te verifiëren. 
-
-## <a name="more-resources"></a>Meer informatie
-- [Ondersteuning voor beheerders voor Microsoft Managed Desktop.](admin-support.md) 
-- [Ondersteuning voor Microsoft Managed Desktop.](../service-description/support.md)
-- Als u zich al hebt geabonneerd op Microsoft Managed Desktop, vindt u gedetailleerde procedures, processtromen, werkinstructies en veelgestelde vragen in de Microsoft Managed Desktop-beheerhandleiding in de **onlineresources** onder de sectie Microsoft Managed Desktop van het menu **Tenantbeheer** in [Microsoft Endpoint Manager.](https://endpoint.microsoft.com/)
+> Alleen problemen met ernst C kunnen via dit pad worden geëscaleerd. Neem voor andere problemen contact op met uw IT-beheerder om de aanvraag in te sturen via de beheerportal.

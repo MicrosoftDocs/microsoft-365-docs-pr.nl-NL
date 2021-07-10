@@ -18,16 +18,16 @@ ms.collection:
 localization_priority: Normal
 ms.assetid: 094e86f2-9ff0-40ac-af31-28fcaba00c1d
 description: Vouw uw Microsoft 365 uit naar meerdere geografische regio's met multi-geomogelijkheden in OneDrive Online.
-ms.openlocfilehash: 8f42b071abef0602304f1a468190c33700fe3e82
-ms.sourcegitcommit: 321610fd312e5c54ae8a757a71ab0c9fd2f1ac03
+ms.openlocfilehash: 405f876317a6cec6defdf3f1a49b0dc32ac0add2
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "48995907"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362280"
 ---
 # <a name="multi-geo-capabilities-in-onedrive-and-sharepoint-online"></a>Multi-Geo Capabilities in OneDrive en SharePoint Online
 
-Met multi-geo-mogelijkheden in OneDrive en SharePoint Online kunt u gedeelde resources beheren, zoals SharePoint teamsites en Microsoft 365 Groepspostvakken die in rust zijn opgeslagen in een land of regio.
+Met multi-geo-mogelijkheden in OneDrive en SharePoint Online kunt u gedeelde resources beheren, zoals SharePoint teamsites en Microsoft 365 Groepspostvakken die in rust zijn opgeslagen op een opgegeven geografische locatie.
 
 Elke gebruiker, groeppostvak en SharePoint site heeft een VOORKEURsgegevenslocatie (PDL) die de geografische locatie aan wijst waar gerelateerde gegevens moeten worden opgeslagen. De persoonlijke gegevens van gebruikers (Exchange postvak en OneDrive) samen met alle Microsoft 365 Groepen of SharePoint-sites die ze maken, kunnen worden opgeslagen op de opgegeven geografische locatie om te voldoen aan de vereisten voor gegevensopslag. U kunt [verschillende beheerders opgeven voor elke geografische locatie.](add-a-sharepoint-geo-admin.md)
 
@@ -43,7 +43,7 @@ Het beheer van de functie Multi-Geo is beschikbaar via het SharePoint beheercent
 
 Wanneer een gebruiker een SharePoint met een groep verbonden site maakt in een multi-geo-omgeving, wordt de PDL ervan gebruikt om de geografische locatie te bepalen waar de site en het bijbehorende groepspostvak worden gemaakt. (Als de PDL-waarde van de gebruiker niet is ingesteld of is ingesteld op een geografische locatie die niet is geconfigureerd als satellietlocatie, worden de site en het postvak op de centrale locatie gemaakt.)
 
-Microsoft 365 andere services dan Exchange, OneDrive en SharePoint zijn niet Multi-Geo. De Microsoft 365 groepen die door deze services worden gemaakt, worden echter gestempeld met de PDL van de maker en het Exchange Groepspostvak en SharePoint O365-groepssite die zijn ingericht in het bijbehorende geo. 
+Microsoft 365 andere services dan Exchange, OneDrive, SharePoint en Teams zijn niet Multi-Geo. De Microsoft 365 groepen die door deze services worden gemaakt, worden echter geconfigureerd met de PDL van de maker en het Exchange Groepspostvak, SharePoint-site zijn ingericht in de bijbehorende geo. 
 
 ## <a name="managing-the-multi-geo-environment"></a>De multi-geo-omgeving beheren
 

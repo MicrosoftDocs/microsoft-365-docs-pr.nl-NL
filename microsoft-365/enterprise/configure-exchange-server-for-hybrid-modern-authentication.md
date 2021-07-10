@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Meer informatie over het configureren Exchange Server on-premises voor het gebruik van HMA (Hybrid Modern Authentication), met veiligere gebruikersverificatie en autorisatie.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d30d1b2b14efd66d973e9bf6d45b970d7af681bc
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 21ffec620ac3e262679fc0e2385f6f0f1b31933b
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841628"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362256"
 ---
 # <a name="how-to-configure-exchange-server-on-premises-to-use-hybrid-modern-authentication"></a>On-premises Exchange Server configureren voor het gebruik van hybride moderne verificatie
 
@@ -171,7 +171,7 @@ Set-OrganizationConfig -OAuth2ClientProfileEnabled $true
 
 ## <a name="verify"></a>Controleren
 
-Wanneer u HMA hebt ingeschakeld, wordt de nieuwe auth-stroom gebruikt voor de volgende aanmelding van een klant. Houd er rekening mee dat u met het in-/uitschakelen van HMA geen herauthenticatie voor een client kunt activeren. De clients reauthenticate op basis van de levensduur van de auth tokens en/of certs die ze hebben.
+Wanneer u HMA hebt ingeschakeld, wordt de nieuwe auth-stroom gebruikt voor de volgende aanmelding van een klant. Houd er rekening mee dat als u HMA in- of uit-2013 in-2013 in- of uit- of uit-2013 voor elke client in- of uit te stellen, het even kan duren voordat Exchange de nieuwe instellingen hebt opgehaald.
 
 U moet ook de Ctrl-toets ingedrukt houden terwijl u met de rechtermuisknop op het pictogram voor de Outlook-client (ook in het Windows-systeemvak) klikt en klikt u op 'Verbindingsstatus'. Zoek naar het SMTP-adres van de klant tegen het type 'Authn' van 'Bearer', dat het token voor de toler vertegenwoordigt dat \* in OAuth wordt gebruikt.
 
@@ -190,6 +190,6 @@ Als u een on-premises klant bent met Exchange server op TCP 443, kunt u de verwe
 
 De Outlook-app voor iOS en Android is ontworpen als de beste manier om Microsoft 365 of Office 365 op uw mobiele apparaat te ervaren met behulp van Microsoft-services om uw dagelijkse leven en werk te vinden, plannen en prioriteit te geven. Zie Hybride moderne verificatie gebruiken met Outlook [voor iOS en Android voor meer informatie.](/exchange/clients/outlook-for-ios-and-android/use-hybrid-modern-auth)
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-topics"></a>Gerelateerde onderwerpen
 
 [Moderne verificatieconfiguratievereisten voor de overgang van Office 365 dedicated/ITAR naar vNext](/exchange/troubleshoot/modern-authentication/modern-authentication-configuration)

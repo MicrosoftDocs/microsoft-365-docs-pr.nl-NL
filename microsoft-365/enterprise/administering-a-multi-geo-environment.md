@@ -15,16 +15,20 @@ ms.collection:
 - SPO_Content
 localization_priority: Normal
 description: Beheerders kunnen meer informatie krijgen over het beheren SharePoint en OneDrive services in een multi-geoomgeving.
-ms.openlocfilehash: 213070f2f7a04e15a1e2ac3cd9a3ae697b66a718
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 4c5215b855b8ca1840035b39fcfbddde419c13d8
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905594"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362316"
 ---
 # <a name="administering-a-multi-geo-environment"></a>Een multi-geo-omgeving beheren
 
 Hier ziet u hoe Microsoft 365 services werken in een multi-geoomgeving.
+
+## <a name="administrator-experience"></a>Beheerderservaring
+
+Het [SharePoint beheercentrum](https://admin.microsoft.com/sharepoint) heeft een tabblad **Geolocaties** in de linkernavigatie met een kaart met geografische locaties waar u uw geografische locaties kunt bekijken en beheren. Gebruik deze pagina om geografische locaties voor uw tenant toe te voegen of te verwijderen.
 
 ## <a name="audit-log-search"></a>Zoeken in het Auditlogboek
 
@@ -34,7 +38,11 @@ Een geïntegreerd [auditlogboek](https://support.office.com/article/0d4d0f35-390
 
 BCS, Secure Store en Apps hebben allemaal afzonderlijke exemplaren op elke satellietlocatie. Daarom moet de beheerder van SharePoint Online deze services afzonderlijk van elke satellietlocatie beheren en configureren.
 
-## <a name="ediscovery"></a>eDiscovery 
+## <a name="compliance-admin-center"></a>Compliance-beheercentrum
+
+Er is één centraal compliancecentrum voor een multi-geo tenant: [Microsoft 365 Compliance-beheercentrum.](https://compliance.microsoft.com/)
+
+## <a name="ediscovery"></a>eDiscovery
 
 Standaard kan een eDiscovery-manager of beheerder van een multi-geo tenant eDiscovery alleen uitvoeren op de centrale locatie van die tenant. De globale Office 365-beheerder moet eDiscovery Manager-machtigingen toewijzen om anderen toe te staan eDiscovery uit te voeren en een 'Regio'-parameter toe te wijzen in hun toepasselijke compliancebeveiligingsfilter om de regio voor het uitvoeren van eDiscovery op te geven als satellietlocatie, anders wordt er geen eDiscovery uitgevoerd voor de satellietlocatie. Zie Configure [Office 365 Multi-Geo eDiscovery (Multi-Geo eDiscovery) als](multi-geo-ediscovery-configuration.md)u het compliancebeveiligingsfilter voor een regio wilt configureren.
 
@@ -42,7 +50,7 @@ Standaard kan een eDiscovery-manager of beheerder van een multi-geo tenant eDisc
 
 De postvakken Exchange gebruikers worden automatisch verplaatst als hun PDL wordt gewijzigd. Wanneer een nieuw postvak wordt gemaakt, wordt dit ingericht op de PDL van de gebruiker of op de centrale locatie als er geen waarde is ingesteld voor de PDL van de gebruiker.
 
-## <a name="information-protection-ip-data-loss-prevention-dlp-policy"></a>Information Protection (IP) Data Loss Prevention (DLP) Policy
+## <a name="information-protection-ip-data-loss-prevention-dlp-policy"></a>Beleid voor gegevensbescherming (IP) preventie van gegevensverlies (DLP)
 
 U kunt uw IP-DLP-beleid instellen voor OneDrive voor Bedrijven, SharePoint en Exchange in het Beveiligings- en compliancecentrum, het beleid zo nodig voor de hele tenant of voor de betreffende gebruikers. Bijvoorbeeld: Als u een beleid wilt selecteren voor een gebruiker op een satellietlocatie, selecteert u om het beleid toe te passen op een specifieke OneDrive en voert u de url van de gebruiker OneDrive in. Zie [Overzicht van beleid voor preventie van gegevensverlies](https://support.office.com/article/1966b2a7-d1e2-4d92-ab61-42efbb137f5e) voor algemene richtlijnen bij het maken van DLP-beleid.
 
@@ -50,21 +58,13 @@ Het DLP-beleid wordt automatisch gesynchroniseerd op basis van de toepassing erv
 
 Het implementeren van het preventiebeleid voor gegevensbescherming en gegevensverlies voor alle gebruikers op een geografische locatie is geen optie die beschikbaar is in de gebruikersinterface. In plaats daarvan moet u de toepasselijke accounts voor het beleid selecteren of het beleid globaal toepassen op alle accounts.
 
-## <a name="microsoft-flow"></a>Microsoft Flow
-
-Stromen die zijn gemaakt voor de satellietlocatie, gebruiken het eindpunt op de standaardlocatie voor de tenant.  Microsoft Flow is geen Multi-Geo-service. 
-
 ## <a name="microsoft-powerapps"></a>Microsoft PowerApps
 
 PowerApps die zijn gemaakt voor de satellietlocatie, gebruiken het eindpunt op de centrale locatie voor de tenant. Microsoft PowerApps is geen Multi-Geo-service. 
 
-## <a name="onedrive-administrator-experience"></a>OneDrive Beheerderservaring
+## <a name="power-automate"></a>Power Automate
 
-Het [OneDrive beheercentrum](https://admin.onedrive.com) heeft een tabblad **Geolocaties** in de linkernavigatie met een kaart met geografische locaties waar u uw geografische locaties kunt bekijken en beheren. Gebruik deze pagina om geografische locaties voor uw tenant toe te voegen of te verwijderen.
-
-## <a name="security-and-compliance-admin-center"></a>Beveiligings- en compliancebeheerderscentrum
-
-Er is één centraal compliancecentrum voor een multi-geo tenant: [Microsoft 365 Security & Compliance Center.](https://protection.office.com/?rfr=AdminCenter\#/homepage)
+Stromen die zijn gemaakt voor de satellietlocatie, gebruiken het eindpunt op de standaardlocatie voor de tenant.  Power Automate is geen Multi-Geo-service. 
 
 ## <a name="sharepoint-storage-quota"></a>SharePoint opslagquotum
 
@@ -73,6 +73,10 @@ Standaard delen alle geografische locaties van een multi-geo-omgeving het beschi
 ## <a name="sharing"></a>Delen
 
 Beheerders kunnen beleid voor delen instellen en beheren voor elk van hun locaties. De OneDrive en SharePoint sites op elke geografische locatie zullen alleen de bijbehorende geospecifieke instellingen voor delen eren. (U kunt bijvoorbeeld extern delen [toestaan](https://support.office.com/article/C8A462EB-0723-4B0B-8D0A-70FEAFE4BE85) voor uw centrale locatie, maar niet voor uw satellietlocatie of omgekeerd.) De instellingen voor delen staan het configureren van beperkingen voor delen tussen geografische locaties niet toe.
+
+## <a name="stream"></a>Stream
+
+Video's die zijn geüpload naar Stream, worden opgeslagen in de OneDrive van de persoon die uploadt. Opnamen van vergaderingen worden opgeslagen in de OneDrive van elke deelnemer die de vergadering registreert.
 
 ## <a name="taxonomy"></a>Taxonomie
 
@@ -87,23 +91,6 @@ Er is een [gebruikersprofieltoepassing](/sharepoint/manage-user-profiles) op elk
 Als u aangepaste profieleigenschappen hebt, raden we u aan hetzelfde profielschema in verschillende geografische gebieden te gebruiken en uw aangepaste profieleigenschappen in te vullen op alle geografische locaties of waar nodig. Raadpleeg de Bulk User Profile Update API voor informatie over het programmatisch in vullen van [gebruikersprofielgegevens.](/sharepoint/dev/solution-guidance/bulk-user-profile-update-api-for-sharepoint-online)
 
 Zie [Werken met gebruikersprofielen in een multi-geo tenant](/sharepoint/dev/solution-guidance/multigeo-userprofileexperience) voor meer informatie en voor richtlijnen voor ontwikkelaars.
-
-## <a name="video-portal"></a>Videoportal
-
-In een multi-geo tenant wordt de O365-videoportal alleen vanuit standaard geo gebruikt en worden alle gebruikers omgeleid naar die centrale portal-url. Daarom wordt de RMS (Remote Media Service) voor die regio gebruikt, als volgt op basis van uw centrale locatie.
-
-Stream is momenteel beschikbaar in de volgende regio's:
-
-- Noord-Amerika, gehost in de Verenigde Staten 
-- Europa
-- Azië en Stille Oceaan
-
-Stream is echter nog niet beschikbaar in de volgende regio's die momenteel worden ondersteund voor Microsoft 365 Video. Daarom gebruiken we voor deze lokale exemplaren de RMS die zich in de dichtstbijzijnde ondersteunde regio belandt.
-
-- Australië
-- Canada
-- India
-- Verenigd Koninkrijk
 
 ## <a name="yammer"></a>Yammer
 

@@ -54,8 +54,8 @@
           href: insider-risk-management-settings.md
         - name: Intern risicobeleid maken en beheren
           href: insider-risk-management-policies.md
-        - name: Waarschuwingen voor insider-risico onderzoeken
-          href: insider-risk-management-alerts.md
+        - name: Activiteiten voor insider-risico onderzoeken
+          href: insider-risk-management-activities.md
         - name: Actie ondernemen in het geval van insider-risico
           href: insider-risk-management-cases.md
         - name: Activiteiten controleren met insider-risico auditlogboek.
@@ -118,6 +118,12 @@
           href: create-a-custom-sensitive-information-type.md
         - name: Een aangepast type gevoelige informatie maken met Windows PowerShell
           href: create-a-custom-sensitive-information-type-in-scc-powershell.md
+        - name: Een aangepast type gevoelige informatie verwijderen met Windows PowerShell
+          href: sit-remove-a-custom-sensitive-information-type-in-powershell.md
+        - name: Een aangepast type gevoelige informatie aanpassen met Windows PowerShell
+          href: sit-modify-a-custom-sensitive-information-type-in-powershell.md
+        - name: Referentie filters aangepast type gevoelige informatie
+          href: sit-custom-sit-filters.md
         - name: Een woordenlijst met trefwoorden maken
           href: create-a-keyword-dictionary.md
         - name: Een woordenlijst met trefwoorden wijzigen
@@ -417,11 +423,13 @@
               href: archive-reuterseikon-data.md
             - name: Reuters FX
               href: archive-reutersfx-data.md
+            - name: RingCentral (preview-versie)
+              href: archive-ringcentral-data.md
             - name: Salesforce Chatter
               href: archive-salesforcechatter-data.md
             - name: ServiceNow
               href: archive-servicenow-data.md
-            - name: Skype voor Bedrijven (preview)
+            - name: Skype voor Bedrijven
               href: archive-skypeforbusiness-data.md
             - name: Slack eDiscovery
               href: archive-slack-data.md
@@ -455,9 +463,9 @@
               href: archive-enterprise-number-data.md
             - name: O2 Telefonica SMS en Voice Network Archiver
               href: archive-o2-network-data.md
-            - name: Signaal (preview)
+            - name: Signal Archiver
               href: archive-signal-archiver-data.md
-            - name: Telegram (preview)
+            - name: Telegram Archiver
               href: archive-telegram-archiver-data.md
             - name: TELUS-netwerk
               href: archive-telus-network-data.md
@@ -913,7 +921,7 @@
         - name: Compliance Configuration Analyzer-tool
           href: compliance-manager-mcca.md
         - name: Veelgestelde vragen
-          href: compliance-manager-faq.md
+          href: compliance-manager-faq.yml
         - name: Compliancebeheer (klassiek)
           href: meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md
     - name: Microsoft Service Trust Portal

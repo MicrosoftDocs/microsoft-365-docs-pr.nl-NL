@@ -246,7 +246,8 @@
 #### [Auditmodus gebruiken voor het verminderen van kwetsbaarheid voor aanvallen](audit-windows-defender.md)
 
 ### Beveiliging van de volgende generatie
-#### [Overzicht van Microsoft Defender Antivirus](microsoft-defender-antivirus-in-windows-10.md)
+#### [Overzicht van beveiliging van de volgende generatie](next-generation-protection.md)
+##### [Overzicht van Microsoft Defender Antivirus](microsoft-defender-antivirus-windows.md)
 ##### [Microsoft Defender Antivirus op Windows Server](microsoft-defender-antivirus-on-windows-server.md)
 ##### [Samen beter: Microsoft Defender Antivirus en Microsoft Defender voor Eindpunt](why-use-microsoft-defender-antivirus.md)
 ##### [Samen beter: Microsoft Defender Antivirus en Office 365](office-365-microsoft-defender-antivirus.md)

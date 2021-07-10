@@ -1,5 +1,5 @@
 ---
-title: Zoek in het auditlogboek in het Beveiligings- en compliancecentrum
+title: Zoek in het auditlogboek in het Microsoft 365-compliancecentrum
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: 'Ga naar het Microsoft 365-compliancecentrum om het geïntegreerde auditlogboek te zoeken zodat u activiteiten van gebruikers en beheerders kunt bekijken in uw organisatie. '
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 007881220c3bdf862e75464521733e64f0d6c5c0
-ms.sourcegitcommit: 17d82e5617f0466eb825e15ab88594afcdaf4437
+ms.openlocfilehash: 46f223953df65b75c0ecfe0d2c9fe92514b797ff
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "53300134"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341650"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>Zoek in het auditlogboek in het compliancecentrum
 
@@ -48,11 +48,11 @@ Wilt u weten of een gebruiker een bepaald document heeft bekeken of een item uit
 - Activiteit van gebruikers en beheerders voor gevoeligheidslabels voor sites die gebruikmaken van SharePoint Online of Microsoft Teams
 - Beheerdersactiviteit in Briefing-e-mail en MyAnalytics
 
-## <a name="requirements-to-search-the-audit-log"></a>Vereisten voor het doorzoeken van het auditlogboek
+## <a name="before-you-search-the-audit-log"></a>Vereisten voor het doorzoeken van het auditlogboek
 
 Lees de volgende items voordat u gaat zoeken in het auditlogboek.
 
-- Zoeken in auditlogboek is standaard ingeschakeld voor organisaties met Microsoft 365 en Office 365 Enterprise. Dit geldt ook voor organisaties met een E3/G3- of E5/G5-abonnement. Als u wilt controleren of zoeken in auditlogboek is ingeschakeld, kunt u de volgende opdracht uitvoeren in Exchange Online PowerShell:
+- Zoeken in auditlogboek is standaard ingeschakeld voor organisaties met Microsoft 365 en Office 365 Enterprise. Als u wilt controleren of zoeken in auditlogboek is ingeschakeld, kunt u de volgende opdracht uitvoeren in Exchange Online PowerShell:
 
   ```powershell
   Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled
@@ -63,7 +63,7 @@ Lees de volgende items voordat u gaat zoeken in het auditlogboek.
 - Als u auditlogboeken wilt doorzoeken, moet aan u de rol Auditlogboeken alleen-weergeven of Auditlogboeken in Exchange Online zijn toegewezen. Deze rollen worden standaard toegewezen aan de rollengroepen Compliancebeheer en Organisatiebeheer op de pagina **Machtigingen** in het Exchange-beheercentrum. Globale beheerders in Office 365 en Microsoft 365 worden automatisch toegevoegd als leden van de rollengroep Organisatiebeheer in Exchange Online. Als u de gebruiker het auditlogboek wilt laten doorzoeken met minimale rechten, kunt u in Exchange Online een aangepaste rollengroep maken, de rol Auditlogboeken alleen-weergeven of Auditlogboeken toevoegen en vervolgens de gebruiker toevoegen als lid van de nieuwe rollengroep. Zie voor meer informatie [Rollengroepen beheren in Exchange Online](/Exchange/permissions-exo/role-groups).
 
   > [!IMPORTANT]
-  > Als u gebruikers de rol Auditlogboeken alleen-weergeven of Auditlogboeken toewijst op de pagina **Machtigingen** in het Beveiligings- en compliancecentrum, dan kunnen ze het auditlogboek niet doorzoeken. U moet deze machtigingen toewijzen in Exchange Online. Dat komt omdat de onderliggende cmdlet voor het doorzoeken van het auditlogboek een Exchange Online-cmdlet is.
+  > Als u gebruikers de rol Auditlogboeken alleen-weergeven of Auditlogboeken toevoegen toewijst op de pagina **Machtigingen** in het Microsoft 365-compliancecentrum, kunnen ze het auditlogboek niet doorzoeken. U moet deze machtigingen toewijzen in Exchange Online. Dat komt omdat de onderliggende cmdlet voor het doorzoeken van het auditlogboek een Exchange Online-cmdlet is.
 
 - Wanneer een gecontroleerde activiteit wordt uitgevoerd door een gebruiker of beheerder, wordt een auditrecord gegenereerd en opgeslagen in het auditlogboek voor uw organisatie. De tijdsduur dat een auditrecord wordt bewaard (en doorzoekbaar is in het auditlogboek) is afhankelijk van uw Office 365- of Microsoft 365 Enterprise-abonnement, en specifiek het type licentie dat aan specifieke gebruikers is toegewezen.
 
@@ -75,7 +75,7 @@ Lees de volgende items voordat u gaat zoeken in het auditlogboek.
   - Voor gebruikers waaraan een andere (niet-E5) Office 365- of Microsoft 365-licentie is toegewezen, worden auditrecords 90 dagen bewaard. Zie [de servicebeschrijving van het beveiligings- en compliancecentrum](/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center) voor een lijst met Office 365- en Microsoft 365-abonnementen die uniforme auditregistratie ondersteunen.
 
     > [!NOTE]
-    > Zelfs wanneer postvakcontrole standaard is ingeschakeld, merkt u mogelijk dat postvakcontrolegebeurtenissen voor sommige gebruikers niet worden gevonden in auditlogboeken in het Beveiligings- en compliancecentrum of via de Office 365 Management Activity-API. Zie ook [Meer informatie over controlelogboekregistratie van postvakken](enable-mailbox-auditing.md#more-information).
+    > Zelfs wanneer Postvakcontrole standaard aan is ingeschakeld, merkt u mogelijk dat postvakcontrolegebeurtenissen voor sommige gebruikers niet worden gevonden tijdens zoekopdrachten in auditlogboeken in het Microsoft 365-compliancecentrum of via de Office 365 Management Activity-API. Zie ook [Meer informatie over controlelogboekregistratie van postvakken](enable-mailbox-auditing.md#more-information).
 
 - Als u het zoeken in auditlogboeken wilt uitschakelen voor uw organisatie, kunt u de volgende opdracht uitvoeren in een externe PowerShell-sessie met uw Exchange Online-organisatie:
 
@@ -91,7 +91,7 @@ Lees de volgende items voordat u gaat zoeken in het auditlogboek.
 
   Zie [Zoeken in auditlogboeken uitschakelen](turn-audit-log-search-on-or-off.md) voor meer informatie.
 
-- Zoals eerder is gezegd, is de onderliggende cmdlet die wordt gebruikt voor het doorzoeken van het auditlogboek een Exchange Online-cmdlet; dit is **Search-UnifiedAuditLog**. Dat betekent dat u deze cmdlet kunt gebruiken om het auditlogboek te doorzoeken in plaats van de pagina **Zoeken in auditlogboeken** in het Beveiligings- en compliancecentrum. U moet deze cmdlet uitvoeren in een externe PowerShell die is verbonden met uw Exchange Online-organisatie. Zie [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog) voor meer informatie.
+- Zoals eerder is gezegd, is de onderliggende cmdlet die wordt gebruikt voor het doorzoeken van het auditlogboek een Exchange Online-cmdlet; dit is **Search-UnifiedAuditLog**. Dat betekent dat u deze cmdlet kunt gebruiken om het auditlogboek te doorzoeken in plaats van de pagina **Zoeken in auditlogboek** in het Microsoft 365-compliancecentrum. U moet deze cmdlet uitvoeren in een externe PowerShell die is verbonden met uw Exchange Online-organisatie. Zie [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog) voor meer informatie.
 
   Voor informatie over het exporteren van de zoekresultaten die zijn geretourneerd door de **Search-UnifiedAuditLog**-cmdlet naar een CSV-bestand, zie de sectie 'Tips voor het exporteren en bekijken van het auditlogboek' in [Auditlogboekrecords exporteren, configureren en weergeven](export-view-audit-log-records.md#tips-for-exporting-and-viewing-the-audit-log).
 
@@ -118,7 +118,7 @@ Lees de volgende items voordat u gaat zoeken in het auditlogboek.
   |Microsoft Teams|![Vinkje](../media/checkmark.png)||
   |Power Apps||![Vinkje](../media/checkmark.png)|
   |Power BI|![Vinkje](../media/checkmark.png)||
-  |Beveiligings- en compliancecentrum|![Vinkje](../media/checkmark.png)||
+  |Microsoft 365-compliancecentrum|![Vinkje](../media/checkmark.png)||
   |Vertrouwelijkheidslabels||![Vinkje](../media/checkmark.png)|
   |SharePoint Online en OneDrive voor Bedrijven|![Vinkje](../media/checkmark.png)||
   |Workplace Analytics|![Vinkje](../media/checkmark.png)||
@@ -132,7 +132,7 @@ Lees de volgende items voordat u gaat zoeken in het auditlogboek.
 
 ## <a name="search-the-audit-log"></a>Zoeken in het auditlogboek
 
-Hier is het proces voor het zoeken in het auditlogboek in Office 365.
+Dit is het proces voor het zoeken in het auditlogboek in Microsoft 365.
 
 [Stap 1: Een zoekopdracht in het auditlogboek uitvoeren](#step-1-run-an-audit-log-search)
 
@@ -144,48 +144,42 @@ Hier is het proces voor het zoeken in het auditlogboek in Office 365.
 
 ### <a name="step-1-run-an-audit-log-search"></a>Stap 1: Een zoekopdracht in het auditlogboek uitvoeren
 
-1. Ga naar [https://protection.office.com](https://protection.office.com).
+1. Ga naar <https://compliance.microsoft.com> en meld u aan.
 
     > [!TIP]
-    > Gebruik een persoonlijke browsersessie (geen normale sessie) om het Beveiligings- en compliancecentrum te openen. Hierdoor wordt voorkomen dat de referenties waarmee u bent aangemeld, worden gebruikt. Om een InPrivate-browsing-sessie in Internet Explorer of Microsoft Edge te openen, drukt u op CTRL+SHIFT+P. Druk op CTRL+SHIFT+N om een privé-browsersessie te openen in Google Chrome (ook wel een incognitovenster genoemd).
+    > Gebruik een private browsing-sessie (geen normale sessie) om het Microsoft 365-compliancecentrum te openen. Hierdoor wordt voorkomen dat de referentie waarmee u bent aangemeld, wordt gebruikt. Om een InPrivate-browsing-sessie in Internet Explorer of Microsoft Edge te openen, drukt u op CTRL+SHIFT+P. Druk op CTRL+SHIFT+N om een privé-browsersessie te openen in Google Chrome (ook wel een incognitovenster genoemd).
 
-2. Meld u aan met uw werk- of schoolaccount.
+2. Klik in het linkerdeelvenster van het Microsoft 365-compliancecentrum op **Audit**.
 
-3. Klik in het linkerdeelvenster van het Beveiligings- en compliancecentrum op **Zoekacties en onderzoek** en vervolgens op **Zoeken in het auditlogboek**.
+    De pagina **Audit** wordt weergegeven.
 
-    De pagina **Zoeken in het auditlogboek** wordt weergegeven.
-
-    ![Configureer criteria en klik vervolgens op Zoeken om een rapport uit te voeren](../media/8639d09c-2843-44e4-8b4b-9f45974ff7f1.png)
+    ![Configureer criteria en klik vervolgens op Zoeken om een rapport uit te voeren](../media/AuditLogSearchPage1.png)
 
     > [!NOTE]
-    > U moet eerst controlelogboekregistratie inschakelen voordat u een zoekopdracht in het auditlogboek kunt uitvoeren. Als de koppeling **Registreren van gebruikers- en beheerdersactiviteit starten** wordt weergegeven, klikt u erop om de controle in te schakelen. Als u deze koppeling niet ziet, is controle al ingeschakeld voor uw organisatie.
+    > Als de koppeling **Beginnen met vastleggen van gebruikers- en beheerdersactiviteiten** wordt weergegeven, klikt u erop om de controle in te schakelen. Als u deze koppeling niet ziet, is controle al ingeschakeld voor uw organisatie.
 
-4. Configureer de volgende zoekcriteria: 
-
-   1. **Activiteiten**: klik op de vervolgkeuzelijst om activiteiten weer te geven die u kunt zoeken. Activiteiten van gebruikers en beheerders staan gerangschikt in groepen met gerelateerde activiteiten. U kunt specifieke activiteiten selecteren of u kunt op de naam van de activiteitengroep klikken om alle activiteiten in de groep te selecteren. U kunt ook op een geselecteerde activiteit klikken om de selectie te wissen. Als u de zoekopdracht hebt uitgevoerd, worden alleen de vermeldingen in het auditlogboek voor de geselecteerde activiteiten weergegeven. Als u **Resultaten tonen voor alle activiteiten** selecteert, worden de resultaten weergegeven voor alle activiteiten die zijn uitgevoerd door de geselecteerde gebruiker of groep gebruikers.
-
-      Er worden meer dan honderd activiteiten van gebruikers en beheerders in het auditlogboek vastgelegd. Klik op het tabblad **Gecontroleerde activiteiten** bij het onderwerp van dit artikel om de beschrijvingen van elke activiteit in elk van de verschillende services te zien.
+3. Configureer de volgende zoekcriteria op het tabblad **Zoeken**:
 
    1. **Begindatum** en **Einddatum**: standaard worden de laatste zeven dagen geselecteerd. Selecteer een bereik voor de datum en tijd om de gebeurtenissen weer te geven die in die periode hebben plaatsgevonden.  De datum en tijd worden op lokale tijd weergegeven. Het grootste datumbereik dat u kunt opgeven is 90 dagen. Er wordt een fout weergegeven als het geselecteerde datumbereik groter is dan 90 dagen.
 
-      > [!TIP]
-      > Als u het maximum datumbereik van 90 dagen gebruikt, selecteert u het huidige tijdstip voor **Begindatum**. Anders krijgt u de foutmelding dat de begindatum eerder is dan de einddatum. Als u de controle de afgelopen 90 dagen hebt ingeschakeld, kan het maximum datumbereik niet beginnen vóór de datum waarop de controle is ingeschakeld.
+    > [!TIP]
+    > Als u het maximum datumbereik van 90 dagen gebruikt, selecteert u het huidige tijdstip voor **Begindatum**. Anders krijgt u de foutmelding dat de begindatum eerder is dan de einddatum. Als u de controle de afgelopen 90 dagen hebt ingeschakeld, kan het maximum datumbereik niet beginnen vóór de datum waarop de controle is ingeschakeld.
 
-   1. **Gebruikers**: klik in dit vak en selecteer een of meer gebruikers waarvoor u de zoekresultaten wilt weergeven. De vermeldingen in het auditlogboek voor de geselecteerde activiteit die is uitgevoerd door de gebruikers die u in dit vak selecteert, worden in de lijst met resultaten weergegeven. Laat dit vak leeg als u vermeldingen wilt zien voor alle gebruikers (en serviceaccounts) in uw organisatie.
+   2. **Activiteiten**: klik op de vervolgkeuzelijst om activiteiten weer te geven die u kunt zoeken. Activiteiten van gebruikers en beheerders staan gerangschikt in groepen met gerelateerde activiteiten. U kunt specifieke activiteiten selecteren of u kunt op de naam van de activiteitengroep klikken om alle activiteiten in de groep te selecteren. U kunt ook op een geselecteerde activiteit klikken om de selectie te wissen. Als u de zoekopdracht hebt uitgevoerd, worden alleen de vermeldingen in het auditlogboek voor de geselecteerde activiteiten weergegeven. Als u **Resultaten tonen voor alle activiteiten** selecteert, worden de resultaten weergegeven voor alle activiteiten die zijn uitgevoerd door de geselecteerde gebruiker of groep gebruikers.<br/><br/>Er worden meer dan honderd activiteiten van gebruikers en beheerders in het auditlogboek vastgelegd. Klik op het tabblad **Gecontroleerde activiteiten** bij het onderwerp van dit artikel om de beschrijvingen van elke activiteit in elk van de verschillende services te zien.
 
-   1. **Bestand, map of site**: typ de naam (of een gedeelte ervan) van het bestand of de map om te zoeken naar activiteit met betrekking tot dat bestand of die map die het opgegeven trefwoord bevat. U kunt ook een URL van een bestand of map opgeven. Als u een URL gebruikt, zorg er dan voor dat u het volledige URL-pad typt of als u een deel van de URL typt, geen speciale tekens of spaties opneemt.
+   3. **Gebruikers**: klik in dit vak en selecteer een of meer gebruikers waarvoor u de zoekresultaten wilt weergeven. De vermeldingen in het auditlogboek voor de geselecteerde activiteit die is uitgevoerd door de gebruikers die u in dit vak selecteert, worden in de lijst met resultaten weergegeven. Laat dit vak leeg als u vermeldingen wilt zien voor alle gebruikers (en serviceaccounts) in uw organisatie.
 
-      Laat dit vak leeg als u vermeldingen wilt zien voor alle bestanden en mappen in uw organisatie.
+   4. **Bestand, map of site**: typ de naam (of een gedeelte ervan) van het bestand of de map om te zoeken naar activiteit met betrekking tot dat bestand of die map die het opgegeven trefwoord bevat. U kunt ook een URL van een bestand of map opgeven. Als u een URL gebruikt, zorg er dan voor dat u het volledige URL-pad typt of als u een deel van de URL typt, geen speciale tekens of spaties opneemt.<br/><br/>Laat dit vak leeg als u vermeldingen wilt zien voor alle bestanden en mappen in uw organisatie.
 
-      > [!TIP]
-      >
-      > - Als u op zoek bent naar alle activiteiten die zijn gerelateerd aan een **site**, voegt u het jokerteken (\*) toe na de URL om alle vermeldingen voor die site te retourneren; bijvoorbeeld, `"https://contoso-my.sharepoint.com/personal*"`.
-      >
-      > - Als u op zoek bent naar alle activiteiten die zijn gerelateerd aan een **bestand**, voegt u het jokerteken (\*) toe voor de bestandsnaam om alle vermeldingen voor dat bestand te retourneren; bijvoorbeeld, `"*Customer_Profitability_Sample.csv"`.
+    > [!TIP]
+    >
+    > - Als u op zoek bent naar alle activiteiten die zijn gerelateerd aan een **site**, voegt u het jokerteken (\*) toe na de URL om alle vermeldingen voor die site te retourneren; bijvoorbeeld, `"https://contoso-my.sharepoint.com/personal*"`.
+    >
+    > - Als u op zoek bent naar alle activiteiten die zijn gerelateerd aan een **bestand**, voegt u het jokerteken (\*) toe voor de bestandsnaam om alle vermeldingen voor dat bestand te retourneren; bijvoorbeeld, `"*Customer_Profitability_Sample.csv"`.
 
-5. Klik op **Zoeken** om de zoekopdracht met uw zoekcriteria uit te voeren. 
+4. Klik op **Zoeken** om de zoekopdracht met uw zoekcriteria uit te voeren. 
 
-   De zoekresultaten worden geladen en worden na enkele ogenblikken onder **Resultaten** weergegeven. Als de zoekopdracht is voltooid, wordt het aantal gevonden resultaten weergegeven. Er worden maximaal 5000 gebeurtenissen weergegeven in het deelvenster **Resultaten** in stappen van 150 gebeurtenissen. Als er meer dan 5000 gebeurtenissen voldoen aan de zoekcriteria, worden de meest recente 5000 gebeurtenissen weergegeven.
+   De zoekresultaten worden geladen en na enkele ogenblikken op een nieuwe pagina weergegeven. Wanneer de zoekopdracht is voltooid, wordt het aantal gevonden resultaten weergegeven. Er worden maximaal 5000 gebeurtenissen weergegeven in stappen van 150 gebeurtenissen. Als er meer dan 5000 gebeurtenissen voldoen aan de zoekcriteria, worden de meest recente 5000 gebeurtenissen weergegeven.
 
    ![Het aantal resultaten wordt weergegeven nadat de zoekactie is voltooid](../media/986216f1-ca2f-4747-9480-e232b5bf094c.png)
 
@@ -442,7 +436,7 @@ In de volgende tabel worden de activiteiten in bestanden en pagina's in SharePoi
 |Bestand verwijderd uit een prullenbak tweede stadium|FileDeletedSecondStageRecycleBin|Gebruiker verwijdert een bestand uit de prullenbak tweede stadium van een site.|
 |Verwijderd bestand gemarkeerd als record|RecordDelete|Een document of e-mailbericht dat als record is gemarkeerd, is verwijderd. Een item wordt beschouwd als een record wanneer een bewaarlabel waarin items als een record worden aangeduid, wordt toegepast op inhoud.|
 |Gedetecteerde niet-overeenkomende documentgevoeligheid|DocumentSensitivityMismatchDetected|Gebruiker uploadt een document naar een site die is beveiligd met een vertrouwelijkheidslabel en het document heeft een vertrouwelijkheidslabel met een hogere prioriteit dan het vertrouwelijkheidslabel dat op de site is toegepast.<br/><br/> Deze gebeurtenis wordt niet geactiveerd als het document een gevoeligheidslabel met een lagere prioriteit heeft dan het gevoeligheidslabel dat op de site is toegepast. Een document met het label Algemeen wordt bijvoorbeeld geüpload naar een site met het label Vertrouwelijk. Zie voor meer informatie over prioriteit van gevoeligheidslabels [Labelprioriteit (volgorde is van belang)](sensitivity-labels.md#label-priority-order-matters).|
-|Schadelijke software vastgesteld in bestand|FileMalwareDetected|Met de anti-virusen engine van SharePoint wordt malware in een bestand gedetecteerd.|
+|Schadelijke software vastgesteld in bestand|FileMalwareDetected|Met de antivirusengine van SharePoint wordt malware in een bestand gedetecteerd.|
 |Uitchecken van bestand genegeerd|FileCheckOutDiscarded|De gebruiker doet een uitgecheckt bestand teniet (of maakt dit ongedaan). Dat betekent dat eventuele aangebrachte wijzigingen bij het uitchecken aan het bestand worden tenietgedaan en niet opgeslagen in de versie van het document in de documentbibliotheek.|
 |Bestand gedownload|FileDownloaded|Gebruiker downloadt een document van een site.|
 |Bestand gewijzigd|FileModified|Gebruiker of systeemaccount wijzigt de inhoud of de eigenschappen van een document op een site.|
@@ -868,7 +862,7 @@ In de volgende tabel worden de activiteiten van gebruikers en beheerders in Yamm
 
 ### <a name="microsoft-power-automate-activities"></a>Activiteiten in Microsoft Power Automate
 
-U kunt in het auditlogboek zoeken naar activiteiten in Power Automatite (voorheen Microsoft Flow). Deze activiteiten omvatten het maken, bewerken en verwijderen van stromen en het wijzigen van stroommachtigingen. Voor informatie over het controleren van Power Automate-activiteiten, zie de blog  [Controlegebeurtenissen van Microsoft Flow die nu beschikbaar zijn in het Beveiligings- en compliancecentrum](https://flow.microsoft.com/blog/security-and-compliance-center).
+U kunt in het auditlogboek zoeken naar activiteiten in Power Automatite (voorheen Microsoft Flow). Deze activiteiten omvatten het maken, bewerken en verwijderen van stromen en het wijzigen van stroommachtigingen. Zie voor informatie over het controleren van Power Automate-activiteiten de blog  [Controlegebeurtenissen van Microsoft Flow die nu beschikbaar zijn in het Microsoft 365-compliancecentrum](https://flow.microsoft.com/blog/security-and-compliance-center).
 
 ### <a name="microsoft-power-apps-activities"></a>Activiteiten in Microsoft Power Apps
 
@@ -1071,7 +1065,7 @@ Zie de [Gecontroleerde activiteiten](#audited-activities) in dit artikel voor ee
 
 **Hoe lang duurt het voordat een controlerecord beschikbaar is nadat een gebeurtenis is opgetreden?**
 
-De meeste controlegegevens zijn binnen 30 minuten beschikbaar, maar het kan tot 24 uur duren voordat de bijbehorende auditlogboekinvoer in de zoekresultaten wordt weergegeven. Zie de tabel in de sectie [Vereisten voor het doorzoeken van het auditlogboek](#requirements-to-search-the-audit-log) van dit artikel waarin wordt beschreven hoe lang het duurt voordat gebeurtenissen in de verschillende services beschikbaar zijn.
+De meeste controlegegevens zijn binnen 30 minuten beschikbaar, maar het kan tot 24 uur duren voordat de bijbehorende auditlogboekinvoer in de zoekresultaten wordt weergegeven. Zie de tabel in de sectie [Vereisten voor het doorzoeken van het auditlogboek](#before-you-search-the-audit-log) van dit artikel waarin wordt beschreven hoe lang het duurt voordat gebeurtenissen in de verschillende services beschikbaar zijn.
 
 **Hoe lang worden de controlerecords bewaard?**
 
@@ -1087,7 +1081,7 @@ Nee. Dit zijn de enige twee manieren om gegevens op te halen uit de controleserv
 
 **Moet ik de controle individueel inschakelen voor elke service waar ik auditlogboeken voor wil vastleggen?**
 
-In de meeste services is controle standaard ingeschakeld nadat u in eerste instantie de controle voor uw organisatie hebt ingeschakeld (zoals wordt beschreven in de sectie [Vereisten voor het doorzoeken van het auditlogboek](#requirements-to-search-the-audit-log) in dit artikel).
+In de meeste services is controle standaard ingeschakeld nadat u in eerste instantie de controle voor uw organisatie hebt ingeschakeld (zoals wordt beschreven in de sectie [Vereisten voor het doorzoeken van het auditlogboek](#before-you-search-the-audit-log) in dit artikel).
 
 **Biedt de controleservice ondersteuning voor ontdubbelen van records?**
 

@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Meer informatie over feedback die uw gebruikers naar Microsoft kunnen sturen over Microsoft-producten.
-ms.openlocfilehash: 29fe6b7f43b3c888c3848daeb6ab4c2152a9c44c
-ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
+ms.openlocfilehash: 7b8798847559e84a6ea10079aab010a08d8eaa42
+ms.sourcegitcommit: 7dc3b4dec05299abb4290a6e3d1ebe0fdc622ed7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51650057"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53363929"
 ---
 # <a name="learn-about-microsoft-feedback-for-your-organization"></a>Meer informatie over Microsoft-feedback voor uw organisatie
 
@@ -84,13 +84,12 @@ Wanneer een gebruiker feedback inzendt, worden app-gegevens meestal verzameld, s
 - **Bijlagen**   Waren bijlagen (dat wil zeggen schermafbeeldingen, bestanden) verzameld als onderdeel van de feedback? (Ja/Nee).
 - **TenantId**   Als feedback wordt verzonden vanuit een Azure Active Directory account, waaraan TenantId is gekoppeld.
 
-## <a name="data-handling-and-privacy"></a>Gegevensverwerking en privacy
-
-We werken om vertrouwen te winnen door ervoor te zorgen dat we ons richten op de basisprincipes voor gegevensverwerking en gegevensbescherming.
-We zorgen ervoor dat de feedback die we ontvangen, wordt opgeslagen en verwerkt onder Microsoft-beheerregels en dat deze alleen kan worden gebruikt voor goedgekeurd gebruik.
-
-We geven u de controle over uw privacy met gebruiks- en gebruikshulpmiddelen en duidelijke keuzes. We zijn transparant over hoe we gegevens verzamelen en gebruiken, zodat u weloverwogen beslissingen kunt nemen over wat u wilt delen. We beschermen de gegevens die u ons toe vertrouwen met sterke beveiliging en versleuteling. We respecteren lokale privacywetten en strijden voor wettelijke bescherming van uw privacy als een mensenrecht. We gebruiken uw e-mail, chat, bestanden of andere persoonlijke inhoud niet om advertenties op u te richten. Wanneer we gegevens verzamelen, gebruiken we deze om uw ervaringen te verbeteren. Meer informatie over de benadering van Microsoft voor privacy [hier](https://privacy.microsoft.com/). Meer informatie over ons [privacyoverzicht.](/compliance/assurance/assurance-privacy)
-
 ## <a name="how-can-i-see-my-users-feedback"></a>Hoe kan ik de feedback van mijn gebruiker zien?
 
-Binnenkort delen we de feedbackgegevens die we voor Microsoft-producten verzamelen, weer aan u. We werken aan een nieuwe ervaring in het Microsoft 365 beheercentrum, zodat u de feedbackgegevens voor uw organisatie kunt bekijken, verwijderen en exporteren. Dit geeft u directe transparantie en nuttige inzichten in de ervaringen van uw gebruikers met Microsoft 365 producten.
+Om aan de wettelijke verplichtingen van Microsoft voor klanten te voldoen, werken we aan een nieuwe ervaring in de Microsoft 365-beheercentrum waarmee beheerders de feedbackgegevens voor hun organisaties kunnen bekijken, verwijderen en exporteren. Als onderdeel van hun verantwoordelijkheid voor de gegevenscontroller zijn klanten eigenaar van alle feedbackgegevens van gebruikers en deze functionaliteit helpt beheerders om directe transparantie te bieden in de ervaringen van hun gebruikers met Microsoft 365-producten en om feedbackgegevens van gebruikers te verstrekken als onderdeel van een aanvraag voor gegevensonderwerpen. Globale beheerders en compliancegegevensbeheerders kunnen feedback van gebruikers bekijken, exporteren en verwijderen. Alle andere beheerders, evenals lezers, kunnen feedbackgegevens bekijken en exporteren, maar kunnen geen compliancegerelateerde taken uitvoeren of informatie zien over wie de feedback heeft gepost (zoals gebruikersnaam, e-mail of apparaatnaam). Als u toegang wilt tot de feedbackgegevens van uw organisatie, meldt u zich aan bij de Microsoft 365-beheercentrum en past u de navigatie aan om het status knooppunt weer te geven. Toegang tot deze ervaring door **Productfeedback te selecteren** onder het knooppunt Status.
+
+## <a name="data-handling-and-privacy"></a>Gegevensverwerking en privacy
+
+We begrijpen dat wanneer u onze cloudservices gebruikt, u ons een van uw meest waardevolle activa toe vertrouwen: uw gegevens. We zorgen ervoor dat de feedback die we ontvangen, wordt opgeslagen en verwerkt onder Microsoft-beheerregels en dat deze alleen kan worden gebruikt voor goedgekeurd gebruik. We gebruiken uw e-mail, chat, bestanden of andere persoonlijke inhoud niet om advertenties op u te richten. Wanneer we gegevens verzamelen, gebruiken we deze om uw ervaringen te verbeteren.
+
+Bekijk onze privacyprincipes in het [Microsoft Trust Center](https://www.microsoft.com/trust-center/privacy)voor meer informatie over hoe we de privacy en vertrouwelijkheid van uw gegevens beschermen en hoe we ervoor zorgen dat deze alleen worden gebruikt op een manier die overeenkomt met uw verwachtingen.

@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Maak waarschuwingsbeleid in de Microsoft 365-compliancecentrum om mogelijke bedreigingen, gegevensverlies en machtigingsproblemen te controleren.
-ms.openlocfilehash: 4ae85f69eea5221945c531b2b63000be7eb43fb7
-ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
+ms.openlocfilehash: 02b5727f0c844fa6b825b4c0c032ea6c2633d6df
+ms.sourcegitcommit: 7dc3b4dec05299abb4290a6e3d1ebe0fdc622ed7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53341066"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53363989"
 ---
 # <a name="alert-policies-in-the-microsoft-365-compliance-center"></a>Waarschuwingsbeleid in de Microsoft 365-compliancecentrum
 
@@ -62,6 +62,9 @@ Een waarschuwingsbeleid bestaat uit een set regels en voorwaarden die de activit
 Ga naar <https://compliance.microsoft.com> en selecteer **beleidsregels voor**  >    >  **waarschuwingsbeleid**. U kunt ook rechtstreeks naar <https://compliance.microsoft.com/alertpolicies> .
 
 ![Selecteer beleidsregels in het compliancecentrum en selecteer onder Waarschuwingsbeleid voor het weergeven en maken van waarschuwingsbeleid](../media/LaunchAlertPoliciesMCC.png)
+
+> [!NOTE]
+> U moet de rol Waarschuwingen View-Only beheren om waarschuwingsbeleid weer te geven in de Microsoft 365-compliancecentrum. U moet de rol Waarschuwingen beheren toegewezen krijgen om waarschuwingsbeleid te maken en te bewerken. Zie Machtigingen [in het beveiligings- en compliancecentrum](../security/office-365-security/permissions-in-the-security-and-compliance-center.md)voor meer informatie.
 
 Een waarschuwingsbeleid bestaat uit de volgende instellingen en voorwaarden.
 

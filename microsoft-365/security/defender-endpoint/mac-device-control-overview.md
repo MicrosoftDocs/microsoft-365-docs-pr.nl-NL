@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 682f59729e06c63818491ad7540528d574380c8b
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 5cb819daa11a50ef54c758a6aa696a5fc645029c
+ms.sourcegitcommit: 7dc3b4dec05299abb4290a6e3d1ebe0fdc622ed7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52877834"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53363977"
 ---
 # <a name="device-control-for-macos"></a>Apparaatbesturingselement voor macOS
 
@@ -33,9 +33,7 @@ ms.locfileid: "52877834"
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
-
-[!include[Prerelease information](../../includes/prerelease.md)]
+> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 ## <a name="requirements"></a>Vereisten
 
@@ -43,30 +41,8 @@ Apparaatbesturingselement voor macOS heeft de volgende vereisten:
 
 >[!div class="checklist"]
 > - Microsoft Defender for Endpoint entitlement (can be trial)
-> - Minimale os-versie: macOS 10.15.4 of hoger
-> - Minimale productversie: 101.24.59
-> - Uw apparaat moet worden uitgevoerd met systeemextensies (dit is de standaardinstelling voor macOS 11 Big Sur). 
-> 
->   U kunt controleren of uw apparaat wordt uitgevoerd op systeemextensies door de volgende opdracht uit te voeren en te controleren of het wordt afgedrukt `endpoint_security_extension` op de console: 
-> 
->   ```bash
->   mdatp health --field real_time_protection_subsystem 
->   ```
-> - Uw apparaat moet zich in `Beta` het updatekanaal van `InsiderFast` Microsoft AutoUpdate (voorheen ) hebben. Zie Updates implementeren [voor Microsoft Defender voor Eindpunt op Mac voor meer informatie.](mac-updates.md)
-> 
->   U kunt het updatekanaal controleren met de volgende opdracht: 
-> 
->    ```bash
->    mdatp health --field release_ring 
->    ```
->
->    Als de bovenstaande opdracht niet wordt afgedrukt `Beta` `InsiderFast` of, voert u de volgende opdracht uit vanaf de Terminal. De kanaalupdate wordt van kracht wanneer het product de volgende keer wordt gestart (wanneer de volgende productupdate is geïnstalleerd of wanneer het apparaat opnieuw wordt opgestart). 
-> 
->    ```bash
->    defaults write com.microsoft.autoupdate2 ChannelName -string Beta
->    ```
->
->    Als u zich in een beheerde omgeving (JAMF of Intune) hebt, kunt u het updatekanaal ook op afstand configureren. Zie Updates implementeren [voor Microsoft Defender voor Eindpunt op Mac voor meer informatie.](mac-updates.md) 
+> - Minimale os-versie: macOS 11 of hoger
+> - Minimale productversie: 101.34.20
 
 ## <a name="device-control-policy"></a>Apparaatbeheerbeleid
 
@@ -142,6 +118,9 @@ Onder de sectie verwisselbare media is er een optie om het afdwingingsniveau in 
 
 - `audit` - Als de toegang tot een apparaat is beperkt, wordt onder dit handhavingsniveau een melding weergegeven voor de gebruiker, maar het apparaat kan nog steeds worden gebruikt. Dit handhavingsniveau kan handig zijn om de effectiviteit van een beleid te evalueren.
 - `block` - Onder dit handhavingsniveau zijn de bewerkingen die de gebruiker op het apparaat kan uitvoeren, beperkt tot wat is gedefinieerd in het beleid. Bovendien wordt er een melding naar de gebruiker getrokken. 
+
+> [!NOTE] 
+> Standaard is het afdwingingsniveau ingesteld op `audit` . 
 
 |Sectie|Waarde|
 |:---|:---|
@@ -369,7 +348,7 @@ Voorbeeld van uitvoer:
 
 In het bovenstaande voorbeeld is er slechts één verwisselbaar mediaapparaat aangesloten en het heeft en machtigingen, volgens het beleid voor apparaatbesturingselement dat is geleverd `read` `execute` aan het apparaat.
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-topics"></a>Gerelateerde onderwerpen
 
 - [Voorbeelden van beleidsregels voor apparaatbesturingselementen voor Intune](mac-device-control-intune.md)
 - [Voorbeelden van beleidsregels voor apparaatbeheer voor JAMF](mac-device-control-jamf.md)

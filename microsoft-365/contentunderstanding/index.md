@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Informatie over het zoeken naar bronnen voor Microsoft SharePoint Syntex.
-ms.openlocfilehash: a3bd14c379425573ee7ad57604cc4cbb706741b8
-ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
+ms.openlocfilehash: 087cf7b21d00cef3711d8e5765161eaa98418437
+ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2021
-ms.locfileid: "53149008"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53327057"
 ---
 # <a name="introduction-to-microsoft-sharepoint-syntex"></a>Kennismaken met Microsoft SharePoint Syntex
 
@@ -56,7 +56,8 @@ Meer informatie over het gebruik en de implementatie van SharePoint-Syntex in je
 | Als je op zoek bent naar deze informatie: | Raadpleegt u deze bron: |
 |:-----|:-----|
 |Meer informatie over het gebruik van SharePoint-Syntex plannen |[Ingebruikname van SharePoint Syntex: aan de slag](./adoption-getstarted.md)| 
-|Bekijk voorbeeldscenario's om u ideeën te geven over hoe u SharePoint Syntex in uw organisatie kunt gebruiken |[Scenario's en gebruiksvoorbeelden voor Microsoft SharePoint Syntex](./adoption-scenarios.md)| 
+|Bekijk voorbeeldscenario's om u ideeën te geven over hoe u SharePoint Syntex in uw organisatie kunt gebruiken |[Scenario's en use cases voor SharePoint Syntex](./adoption-scenarios.md)| 
+|Een testprogramma instellen en uitvoeren voor een proefversie van SharePoint Syntex |[Een proefversie uitvoeren](./trial-syntex.md)|
 |Meer informatie over het gebruik van SharePoint Syntex om documentprocessen te automatiseren |[Beheer contracten met een gebruik van een Microsoft 365 oplossing](./solution-manage-contracts-in-microsoft-365.md)| 
 
 ## <a name="set-up-sharepoint-syntex"></a>SharePoint Syntex installeren
@@ -65,7 +66,7 @@ De informatiebronnen in dit gedeelte helpen de beheerder in je organisatie Micro
 
 | Als je op zoek bent naar deze informatie: | Raadpleegt u deze bron: |
 |:-----|:-----|
-|SharePoint Syntex installeren en configureren|[Microsoft SharePoint Syntex installeren](./set-up-content-understanding.md)|
+|SharePoint Syntex installeren en configureren|[SharePoint Syntex instellen](./set-up-content-understanding.md)|
 |Meer informatie over het taggen van afbeeldingen en het uitschakelen ervan|[Afbeeldingen taggen in SharePoint Syntex](./image-tagging.md)|
 
 ## <a name="models"></a>Modellen
@@ -76,6 +77,7 @@ De informatiebronnen in dit gedeelte helpen je gebruikers documentbegrip- en for
 |:-----|:-----|
 |Met modellen leren werken|[Een inhoudscentrum maken](./create-a-content-center.md)<br><br>[Een classificatie maken](./create-a-classifier.md)<br><br>[Een extractor maken](./create-an-extractor.md)<br><br>[Een verwerkingsmodel voor formulieren maken](./create-a-form-processing-model.md)<br><br>[Uitlegtypen](./explanation-types-overview.md)<br><br>[Een documentbegripmodel toepassen](./apply-a-model.md)<br><br>[Informatie over documentbegripmodellen met behulp van het voorbeeldmodel](./learn-about-document-understanding-models-through-the-sample-model.md)<br><br>|
 |Een retentielabel toepassen op uw model|[Een retentietag toepassen op een documentbegripmodel](./apply-a-retention-label-to-a-model.md)|
+|Een vertrouwelijkheidslabel toepassen op uw model|[Een vertrouwelijkheidslabel toepassen op een documentbegripmodel](./apply-a-sensitivity-label-to-a-model.md)|
 |Taxonomie van beheerde metagegevensservices-termenarchief gebruiken bij het maken van een extractor|[De taxonomie van een termenarchief benutten bij het maken van een extractor](./leverage-term-store-taxonomy.md)|
 |Informatie over het weergeven van gegevens over uw modellen|[Gebruiksanalyse van modellen](./model-usage-analytics.md)|
 |Kom te weten hoe je toegankelijkheidsmodus kan gebruiken wanneer je een model opleidt|[SharePoint Syntex toegankelijkheidsmodus](./accessibility-mode.md)|
@@ -90,4 +92,3 @@ Met een SharePoint-Syntex-licentie krijgen uw gebruikers premium inhoudsservices
 |Meer informatie over hoe u inhoudstypen consequenter beschikbaar maakt voor SharePoint-bibliotheken en -lijsten|[Inhoudstypen naar een hub pushen](./push-content-type-to-hub.md)|
 |Meer informatie over de termenarchiefrapporten die voor u beschikbaar zijn|[Termenarchiefrapporten](./term-store-analytics.md)|
 
-## <a name="see-also"></a>Zie ook

@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: fc162939e12f0bd55da5847c6bc1bda4b3761fd7
-ms.sourcegitcommit: 8c6a5db0dab99a82a69dd8a0a7c56af1cb825931
+ms.openlocfilehash: 841f22421ac81ba447dad70a68c4c7bc95605b16
+ms.sourcegitcommit: 7dc3b4dec05299abb4290a6e3d1ebe0fdc622ed7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53276903"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53363893"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint-on-mac"></a>Nieuwe functies in Microsoft Defender voor Eindpunt op Mac
 
@@ -40,6 +40,7 @@ ms.locfileid: "53276903"
 
 ## <a name="1013420-20121051134200"></a>101.34.20 (20.121051.13420.0)
 
+- [Apparaatbesturingselement voor macOS](mac-device-control-overview.md) is nu algemeen beschikbaar
 - Een probleem opgelost waarbij een snelle scan niet kon worden gestart vanuit het statusmenu op macOS 11 (Big Sur)
 - Andere oplossingen voor fouten
 

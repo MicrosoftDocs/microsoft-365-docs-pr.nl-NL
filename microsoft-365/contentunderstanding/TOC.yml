@@ -46,6 +46,8 @@
       href: adoption-getstarted.md
     - name: Scenario's en use-cases
       href: adoption-scenarios.md
+    - name: Een proefversie uitvoeren
+      href: trial-syntex.md
     - name: Contracten beheren in Microsoft 365
       items:
         - name: Overzicht

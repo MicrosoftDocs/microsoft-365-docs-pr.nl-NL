@@ -1,5 +1,5 @@
 ---
-title: Ondersteuning voor Microsoft Managed Desktop
+title: Ondersteuning voor beheerders
 description: Beschrijft proactief en reactief incidentbeheer voor Microsoft Managed Desktop.
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentatie
 ms.service: m365-md
@@ -9,14 +9,14 @@ manager: laurawi
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 90787ec28aa2c421df50757fc29bf20b2b5d55f7
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 1c4d94fb89aef76617ebd0995a6849de428afea4
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52925501"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362472"
 ---
-# <a name="support-for-microsoft-managed-desktop"></a>Ondersteuning voor Microsoft Managed Desktop
+# <a name="admin-support"></a>Ondersteuning voor beheerders
 
 Microsoft biedt proactief en reactief incidentbeheer. Microsoft houdt incidenten bij in de Microsoft Managed Desktop-beheerportal. Ze worden geclassificeerd op basis [van ernstsdefinities](../working-with-managed-desktop/admin-support.md#sev).
 
@@ -38,7 +38,7 @@ Ondersteunde producten:
 - Windows 10 met Microsoft Defender voor Eindpunt
 - Deze Microsoft 365-apps voor ondernemingen apps: Outlook, Word, PowerPoint, Excel, Skype voor Bedrijven client, Microsoft Teams 
 - Microsoft Store voor Bedrijven 
-- OneDrive voor Bedrijven client 
+- OneDrive client 
 
 Ondersteuningsdetails:
 
@@ -48,7 +48,7 @@ Ondersteuningsdetails:
 - Microsoft Managed Desktop apparaten in de groep 'Testen' en apparaten die geen deel uitmaken van Microsoft Managed Desktop vallen buiten het bereik 
 
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-topics"></a>Gerelateerde onderwerpen
 
 - [Informatie over hoe IT-beheerders ondersteuning kunnen krijgen](../working-with-managed-desktop/admin-support.md)
 - [Meer informatie over hoe gebruikers ondersteuning kunnen krijgen](../working-with-managed-desktop/end-user-support.md)

@@ -16,17 +16,17 @@ search.appverid:
 ms.assetid: 429e686f-d8a6-455e-a2b6-3791d763f000
 description: Informatie over het gebruik van Compliancebeheer in de Microsoft Service Trust Portal om te voldoen aan vereisten op het gebied van gegevensbescherming en regelgeving.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e308de5bdf3441a602002e2fd6f216c361f64286
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 5bb7e05a211c35f2b707e7282c6975b0049dce93
+ms.sourcegitcommit: 48e50a5445c63d397197af2bb7549cbec0bce790
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "52162151"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53330987"
 ---
 # <a name="microsoft-compliance-manager-classic"></a>Microsoft Compliancebeheer (klassiek)
 
 > [!IMPORTANT]
-> **Compliancebeheer (klassiek) wordt binnenkort verwijderd uit de Microsoft Service Trust Portal.** Het is raadzaam om over te stappen op de nieuwe versie van [Compliancebeheer in het Microsoft 365-compliancecentrum](https://compliance.microsoft.com/). Dit biedt een verbeterde gebruikerservaring en bijgewerkte toewijzing van controles. Klanten met beoordelingen in de klassieke versie moeten nieuwe beoordelingen maken in het nieuwe Compliancebeheer. Bestaande gegevens, inclusief uw beoordelingen, controles en andere gegevens, worden niet overgebracht naar het nieuwe Compliancebeheer. [Lees meer over de overgang](compliance-manager-faq.md#whats-happening-to-compliance-manager-classic-in-the-service-trust-portal).
+> **Compliancebeheer (klassiek) wordt binnenkort verwijderd uit de Microsoft Service Trust Portal.** Het is raadzaam om over te stappen op de nieuwe versie van [Compliancebeheer in het Microsoft 365-compliancecentrum](https://compliance.microsoft.com/). Dit biedt een verbeterde gebruikerservaring en bijgewerkte toewijzing van controles. Klanten met beoordelingen in de klassieke versie moeten nieuwe beoordelingen maken in het nieuwe Compliancebeheer. Bestaande gegevens, inclusief uw beoordelingen, controles en andere gegevens, worden niet overgebracht naar het nieuwe Compliancebeheer. [Lees meer over de overgang](compliance-manager-faq.yml#what-s-happening-to-compliance-manager--classic--in-the-service-trust-portal-).
 
 *Compliancebeheer is niet beschikbaar in Office 365 beheerd door 21Vianet, Office 365 Germany, Office 365 U.S. Government Community High (GCC Hoog) of Office 365 Department of Defense.*
 
@@ -65,23 +65,23 @@ Een evaluatie bestaat uit verschillende onderdelen:
 
   Hier is een voorbeeld van drie Microsoft-controles in de controlegroep **Beveiliging** van een evaluatie van Office 365 en de AVG.
 
-    ![Details van door Microsoft beheerde controles in Compliancebeheer](../media/d1351212-1ebf-424e-91b8-930c2b2edef1.png)
+  ![Details van door Microsoft beheerde controles in Compliancebeheer](../media/d1351212-1ebf-424e-91b8-930c2b2edef1.png)
 
-  a. Geeft de volgende informatie op uit de certificering of regelgeving die is toegewezen aan de controle van Microsoft.
+  1. Geeft de volgende informatie op uit de certificering of regelgeving die is toegewezen aan de controle van Microsoft.
 
-  - **Controle-id**: het sectie- of artikelnummer uit de certificering of regelgeving die aan de controle is toegewezen.
+     - **Controle-id**: het sectie- of artikelnummer uit de certificering of regelgeving die aan de controle is toegewezen.
 
-  - **Titel**: de titel van de bijbehorende certificering of regelgeving.
+     - **Titel**: de titel van de bijbehorende certificering of regelgeving.
 
-  - **Artikel-id**: dit veld is alleen opgenomen voor AVG-evaluaties, omdat dit het bijbehorende artikelnummer voor de AVG aangeeft.
+     - **Artikel-id**: dit veld is alleen opgenomen voor AVG-evaluaties, omdat dit het bijbehorende artikelnummer voor de AVG aangeeft.
 
-  - **Beschrijving**: de tekst van de standaard of regelgeving die is toegewezen aan de geselecteerde, door Microsoft beheerde controle.
+     - **Beschrijving**: de tekst van de standaard of regelgeving die is toegewezen aan de geselecteerde, door Microsoft beheerde controle.
 
-  b. De compliancescore voor de controle, waarmee het risiconiveau (als gevolg van een fout in verband met niet-compliance of controle) wordt aangegeven dat is gekoppeld aan elke door Microsoft beheerde controle. Zie [De compliancescore](#understanding-the-compliance-score) voor meer informatie. Compliancescores worden beoordeeld van 1 tot en met 10 en hebben kleurcodes. Geel geeft controles met laag risico aan, oranje staat voor controles met gemiddeld risico en rood geeft controles met hoog risico aan.
+  1. De compliancescore voor de controle, waarmee het risiconiveau (als gevolg van een fout in verband met niet-compliance of controle) wordt aangegeven dat is gekoppeld aan elke door Microsoft beheerde controle. Zie [De compliancescore](#understanding-the-compliance-score) voor meer informatie. Compliancescores worden beoordeeld van 1 tot en met 10 en hebben kleurcodes. Geel geeft controles met laag risico aan, oranje staat voor controles met gemiddeld risico en rood geeft controles met hoog risico aan.
 
-  c. Informatie over de implementatiestatus van een controle, de datum waarop de controle is getest, wie de test heeft uitgevoerd en het testresultaat.
+  1. Informatie over de implementatiestatus van een controle, de datum waarop de controle is getest, wie de test heeft uitgevoerd en het testresultaat.
 
-  d. Voor elke controle kunt u op **Meer** klikken voor aanvullende informatie, waaronder details van de implementatie van de controle door Microsoft en informatie over hoe de controle is getest en gevalideerd door een onafhankelijke, externe auditor.
+  1. Voor elke controle kunt u op **Meer** klikken voor aanvullende informatie, waaronder details van de implementatie van de controle door Microsoft en informatie over hoe de controle is getest en gevalideerd door een onafhankelijke, externe auditor.
 
 - **Door de klant beheerde controles**: dit is de verzameling controles die worden beheerd door uw organisatie. Uw organisatie is verantwoordelijk voor de implementatie van deze controles als onderdeel van uw complianceproces voor een bepaalde standaard of regelgeving. Door de klant beheerde controles zijn ook ingedeeld in controlegroepen voor de bijbehorende certificering of regelgeving. Gebruik de door de klant beheerde controles om de aanbevolen acties te implementeren die door Microsoft worden voorgesteld als onderdeel van uw complianceactiviteiten. Uw organisatie kan met de voorgeschreven richtlijnen en aanbevolen klantacties voor elke door de klant beheerde controle het implementatie- en evaluatieproces voor deze controle beheren.
 
@@ -118,7 +118,7 @@ De controle voor de evaluatie van Gebruikerstoegangsbeheer die u hieronder ziet,
 
 ![Compliancebeheer - Evaluatiecontrole met hoge ernst - score 10](../media/174ecb2c-aaed-436e-9950-74da7dadf5db.png)
 
- Ter vergelijking: de controle voor de evaluatie van Gegevensback-up die u hieronder ziet, heeft een lagere ernstclassificatie en krijgt een toegewezen waarde van 3.
+Ter vergelijking: de controle voor de evaluatie van Gegevensback-up die u hieronder ziet, heeft een lagere ernstclassificatie en krijgt een toegewezen waarde van 3.
 
 ![Compliancebeheer - Evaluatiecontrole met lage ernst - score 3](../media/11749f20-5f22-40c2-bbc1-eaccbf29e2ae.png)
 
@@ -208,9 +208,9 @@ De essentie van de controle is gebaseerd op of deze verplicht of discretionair i
 
 ### <a name="mandatory-or-discretionary"></a>Verplicht of discretionair
 
- *Verplichte controles* zijn controles die niet bewust of per ongeluk kunnen worden overgeslagen. Een voorbeeld van een veelgebruikte, verplichte controle is een centraal beheerd wachtwoordbeleid met vereisten voor lengte, complexiteit en verloop van wachtwoorden. Gebruikers moeten aan deze vereisten voldoen om toegang tot het systeem te krijgen.
+*Verplichte controles* zijn controles die niet bewust of per ongeluk kunnen worden overgeslagen. Een voorbeeld van een veelgebruikte, verplichte controle is een centraal beheerd wachtwoordbeleid met vereisten voor lengte, complexiteit en verloop van wachtwoorden. Gebruikers moeten aan deze vereisten voldoen om toegang tot het systeem te krijgen.
 
- *Discretionaire controles* zijn controles waarbij gebruikers het beleid moeten kennen en hiernaar moeten handelen. Een beleid waarbij gebruikers hun computer moeten vergrendelen wanneer ze de computer verlaten, is bijvoorbeeld een discretionaire controle, omdat dit afhankelijk is van de gebruiker.
+*Discretionaire controles* zijn controles waarbij gebruikers het beleid moeten kennen en hiernaar moeten handelen. Een beleid waarbij gebruikers hun computer moeten vergrendelen wanneer ze de computer verlaten, is bijvoorbeeld een discretionaire controle, omdat dit afhankelijk is van de gebruiker.
 
 ### <a name="preventative-detective-or-corrective"></a>Preventief, opsporend of corrigerend
 
@@ -326,7 +326,7 @@ Door op de evaluatie **Office 365 - AVG** te klikken en met de filteropties AVG-
 
 ![Evaluatie in Compliancebeheer - gedeelde controles](../media/aafb106e-0abc-4918-8038-de11cf326dfe.png)
 
- Hier zien we dat de implementatie en test van AVG-controle 6.10.1.2 is voltooid.
+Hier zien we dat de implementatie en test van AVG-controle 6.10.1.2 is voltooid.
 
 ![Compliancebeheer - Evaluatiecontrole AVG 6.10.1.2 - geslaagd](../media/ee9e83b6-9d51-4b3b-85eb-96bec0fef2e1.png)
 
@@ -509,9 +509,9 @@ Een evaluatie toevoegen aan Compliancebeheer:
 
 3. Klik op **Volgende** en voer de volgende handelingen uit:
 
-   a. Kies in de vervolgkeuzelijst **Een product selecteren** een Microsoft-cloudservice waarvan u de compliance wilt evalueren.
+   1. Kies in de vervolgkeuzelijst **Een product selecteren** een Microsoft-cloudservice waarvan u de compliance wilt evalueren.
 
-   b. Kies in de vervolgkeuzelijst **Een certificeringsinstantie selecteren** een certificering aan de hand waarvan u de geselecteerde cloudservice wilt evalueren.
+   1. Kies in de vervolgkeuzelijst **Een certificeringsinstantie selecteren** een certificering aan de hand waarvan u de geselecteerde cloudservice wilt evalueren.
 
 4. Klik **Toevoegen aan dashboard** om de evaluatie te maken. De evaluatie wordt als een nieuwe tegel toegevoegd aan het dashboard Compliancebeheer onderaan de lijst met bestaande tegels.
 

@@ -48,3 +48,5 @@
   items:
     - name: Aan de slag gaan met de acceptatie
       href: topics-adoption-getstarted.md
+    - name: Een proefversie uitvoeren
+      href: trial-topics.md

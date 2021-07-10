@@ -1,6 +1,6 @@
 ---
 title: Uw gebruikers voorbereiden om apparaten te gebruiken
-description: Informatie om uw gebruikers klaar te maken voor het gebruik van apparaten.
+description: Informatie om uw gebruikers klaar te maken voor het gebruik van apparaten
 keywords: Microsoft Managed Desktop, apparaat, aan de slag, Microsoft 365
 ms.service: m365-md
 author: jaimeo
@@ -11,24 +11,22 @@ manager: laurawi
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: fd730017a20f121281c0aba2c2ecca4cbd23a8a7
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 8a20a7103be799826cb848c71cb285b0884e9540
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52925717"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362568"
 ---
 # <a name="get-your-users-ready-to-use-devices"></a>Uw gebruikers voorbereiden om apparaten te gebruiken
 
 Wanneer een Microsoft Managed Desktop in handen is van uw gebruiker, is het snel en eenvoudig om daarmee aan de slag te gaan. Apparaten worden vooraf geconfigureerd met de huidige versie van Windows en configuraties en apps worden geïnstalleerd vanuit de cloud terwijl de gebruiker de installatie voltooit. 
  
-Om dit nog eenvoudiger te maken, bieden we een handleiding die uw gebruikers begeleidt bij de eerste installatie en helpbronnen biedt, zowel voor de installatie als voor gebruik later, indien nodig. U kunt deze handleiding aanpassen om bepaalde details op te nemen die specifiek zijn voor uw organisatie. Vervolgens distribueert u de handleiding rechtstreeks naar uw gebruikers samen met hun apparaat. Er zijn twee versies, een voor organisaties die gebruikmaken van het ondersteuningssysteem van Microsoft (de Hulp vragen-app), een voor organisaties die alternatieve ondersteuning bieden voor hun gebruikers.
+Om dit nog eenvoudiger te maken, bieden we een handleiding die uw gebruikers begeleidt bij de eerste installatie en helpbronnen biedt, zowel voor de installatie als voor gebruik later, indien nodig. U kunt deze handleiding aanpassen om bepaalde details op te nemen die specifiek zijn voor uw organisatie. Vervolgens distribueert u de handleiding rechtstreeks naar uw gebruikers samen met hun apparaat. 
 
 ## <a name="to-prepare-the-guide"></a>De handleiding voorbereiden
 
-1. Download de versie die geschikt is voor uw organisatie:
-- Microsoft Managed Desktop - Aan de slag met uw apparaat [(Hulp vragen versie)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-help-custom-v3.pdf) - gebruik deze versie als uw gebruikers het ondersteuningssysteem van Microsoft zullen gebruiken.
-- [Microsoft Managed Desktop - Aan de slag met uw apparaat](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-no-help-custom-v2.pdf) -  gebruik deze versie als uw gebruikers het ondersteuningssysteem van Microsoft niet gebruiken.
+1. Download de handleiding: [Microsoft Managed Desktop - Aan de slag met uw apparaat.](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-no-help-custom-v2.pdf)
 2. Gebruik elke app die PDF-bestanden kan openen om gegevens in te vullen die relevant zijn voor uw organisatie:
     - De naam van het netwerk waar uw gebruikers verbinding mee moeten maken om de installatie voort te zetten (stap 3 in de handleiding)
     - De naam van het Azure-tenantaccount van uw organisatie (stap 4 in de handleiding)
@@ -37,10 +35,9 @@ Om dit nog eenvoudiger te maken, bieden we een handleiding die uw gebruikers beg
 
 ## <a name="ready-to-use-guide"></a>"Ready-to-use guide"
 
-We bieden ook een algemenere versie van de handleiding voor organisaties die deze niet hoeven aan te passen. Er zijn twee versies, een voor organisaties die gebruikmaken van het ondersteuningssysteem van Microsoft (de Hulp vragen-app), een voor organisaties die alternatieve ondersteuning bieden voor hun gebruikers. 
+We bieden ook een algemenere versie van de handleiding voor organisaties die deze niet hoeven aan te passen.
 
-- Microsoft Managed Desktop - Aan de slag met uw apparaat [(Hulp vragen versie -](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-help-v3.pdf) klaar voor gebruik) - gebruik deze versie als uw gebruikers het ondersteuningssysteem van Microsoft zullen gebruiken.
-- [Microsoft Managed Desktop - Aan de](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-no-help-v2.pdf) slag met uw apparaat (klaar voor gebruik)  - gebruik deze versie als uw gebruikers het ondersteuningssysteem van Microsoft niet gebruiken.
+Download de handleiding: [Microsoft Managed Desktop - Aan de slag met uw apparaat (klaar voor gebruik).](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-no-help-v2.pdf)
 
 U kunt nu verder gaan met het implementeren van apps:
 

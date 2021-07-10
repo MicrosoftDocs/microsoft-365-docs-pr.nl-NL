@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: ab5eb117-0f22-4fa7-a662-3a6bdb0add74
 description: Met e-mail doorsturen kunt u e-mailberichten doorsturen die zijn verzonden naar een Microsoft 365 postvak van een gebruiker naar een ander postvak binnen of buiten uw organisatie.
-ms.openlocfilehash: e0043fe75eefe224c63fd23f352d4bd3ddf2c326
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 9d645c2b36bdac2ab53dcb8af4ff6ebdbd0ee601
+ms.sourcegitcommit: 7dc3b4dec05299abb4290a6e3d1ebe0fdc622ed7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53228049"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53363789"
 ---
 # <a name="configure-email-forwarding-in-microsoft-365"></a>E-mail doorsturen configureren in Microsoft 365
 
@@ -49,6 +49,8 @@ Voordat u het doorsturen van e-mail in stelt, moet u het volgende doen:
 
 U moet een beheerder Exchange globale beheerder in Microsoft 365 om deze stappen uit te voeren. Zie het onderwerp Over [beheerdersrollen voor meer informatie.](../add-users/about-admin-roles.md)
 
+::: moniker range="o365-worldwide"
+
 1. Ga in het beheercentrum naar de pagina **Gebruikers** \> **[actieve gebruikers.](https://go.microsoft.com/fwlink/p/?linkid=834822)**
 
 2. Selecteer de naam van de gebruiker van wie u e-mail wilt doorsturen en open vervolgens de eigenschappenpagina.
@@ -59,8 +61,8 @@ U moet een beheerder Exchange globale beheerder in Microsoft 365 om deze stappen
 
     **Als u meerdere e-mailadressen** wilt doorsturen, kunt u de gebruiker vragen om een regel in te stellen in Outlook door te sturen naar de adressen. 
     
-    1.  Outlook   >  **Home**  >   **Rules openen >** Selecteer Regels beheren & **waarschuwingen**
-    1. Selecteer **Nieuwe regel** Selecteer Regel toepassen op het bericht dat ik ontvang onder aan de lijst en klik vervolgens op  >   **Volgende.**
+    1.  Outlook  > **Home** > **Rules openen >** Selecteer Regels beheren & **waarschuwingen**  
+    1. Selecteer **Nieuwe regel** Selecteer Regel toepassen op het bericht dat ik ontvang onder aan de lijst en klik vervolgens op >  **Volgende.**
     1. Klik **op Ja** wanneer u daarom wordt gevraagd Deze regel wordt toegepast op elk bericht dat u ontvangt. 
     1. Selecteer in de volgende lijst de acties **omleiden naar personen of** openbare groepen en stop **met het verwerken van meer regels**
     1. Klik op de onderstreepte **woordgroep personen of openbare groep** in het onderste deel van het venster.
@@ -110,7 +112,7 @@ U moet een beheerder Exchange globale beheerder in Microsoft 365 om deze stappen
 
 ::: moniker-end
 
-## <a name="related-content"></a>Verwante inhoud 
+## <a name="related-content"></a>Verwante onderwerpen 
 
 [Een gedeeld postvak](../email/create-a-shared-mailbox.md) maken (artikel)\
 [E-mail verzenden vanaf een ander adres](https://support.microsoft.com/office/ccba89cb-141c-4a36-8c56-6d16a8556d2e) (artikel)\

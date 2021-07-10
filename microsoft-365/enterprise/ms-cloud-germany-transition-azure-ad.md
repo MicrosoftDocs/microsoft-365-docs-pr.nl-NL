@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Overzicht: Aanvullende Azure Active Directory informatie bij het verplaatsen van Microsoft Cloud Germany (Microsoft Cloud Deutschland) naar Office 365 services in de nieuwe Duitse datacenterregio.'
-ms.openlocfilehash: 1e3871dc5a8a8a9ecbef29df21431aa3707871d0
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 0e7abd68945a9b685a33c120ff1e92fda62b2c56
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923848"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362724"
 ---
 # <a name="additional-azure-active-directory-information-for-the-migration-from-microsoft-cloud-deutschland"></a>Aanvullende Azure Active Directory voor de migratie van Microsoft Cloud Deutschland
 
@@ -80,6 +80,10 @@ Een toepassing kan een van de volgende opties zijn:
 **Hoe zit het met toepassingen die ik publiceer?**
 
 Als u een toepassing publiceert die beschikbaar is voor gebruikers buiten uw tenant, moet u mogelijk uw toepassingsregistratie wijzigen om de continuïteit te waarborgen. Andere tenants die uw toepassing gebruiken, kunnen op een ander tijdstip worden verplaatst dan uw tenant. Om ervoor te zorgen dat ze nooit toegang tot uw toepassing verliezen, moet u toestemming geven dat uw app wordt gesynchroniseerd van Azure Germany naar Azure public.
+
+**Hoe zit het met het toevoegen van nieuwe multi-tenanttoepassingen tijdens de migratie?**
+
+Als u een nieuwe toepassing wilt gebruiken die wordt gepubliceerd door een andere organisatie (multi-tenanttoepassing), kunt u deze toepassing niet toevoegen tijdens het migratieproces (fasen 2 tot en met fase 9).  U kunt deze taak uitvoeren wanneer uw organisatie fase 9 voltooit en volledig is overgeboekt naar het openbare Azure-exemplaar.
 
 ## <a name="additional-considerations"></a>Aanvullende overwegingen
 

@@ -15,12 +15,12 @@ ms.collection:
 - SPO_Content
 localization_priority: Normal
 description: Meer informatie Microsoft 365 Multi-Geo, hoe multi-geo werkt en welke geografische locaties beschikbaar zijn voor gegevensopslag.
-ms.openlocfilehash: 9625d55015cc0f18801d59e82fc8ca7090b3b721
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 52c4bc8a23bdf89afb1a3f3eae3fe6348fed8009
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50927530"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362712"
 ---
 # <a name="plan-for-microsoft-365-multi-geo"></a>Plannen voor Microsoft 365 Multi-Geo
 
@@ -75,12 +75,10 @@ Het beheer van een multi-geo tenant kan afwijken van een niet-multi-geo tenant, 
 
 Lees [Gebruikerservaring in een multi-geo-omgeving](multi-geo-user-experience.md) voor meer informatie over de ervaring van uw eindgebruikers in een multi-geo-omgeving.
 
-Zie Teams ervaring in een Microsoft 365 OneDrive en SharePoint Online Multi-Geo-tenancy voor meer informatie over de Teams-ervaring in een Microsoft 365 [multi-geo-tenancy.](/microsoftteams/teams-experience-o365odb-spo-multi-geo)
-
 Als u wilt beginnen met het configureren Microsoft 365 Multi-Geo, zie [Configureren Microsoft 365 Multi-Geo](multi-geo-tenant-configuration.md).
 
 Wanneer u de configuratie hebt voltooid, moet u de bibliotheken van uw gebruikers [OneDrive](move-onedrive-between-geo-locations.md) migreren om uw gebruikers te laten werken vanaf hun favoriete gegevenslocaties.
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-topics"></a>Gerelateerde onderwerpen
 
 [Microsoft 365 Multi-Geo eDiscovery-configuratie](./multi-geo-ediscovery-configuration.md)

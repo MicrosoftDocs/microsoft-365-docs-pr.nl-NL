@@ -18,12 +18,12 @@ localization_priority: Priority
 f1.keywords: NOCSH
 recommendations: false
 description: In dit artikel vindt u informatie over de aanbevolen procedures voor het delen van bestanden en mappen met niet-geverifieerde gebruikers.
-ms.openlocfilehash: 7198e2d343f73299bb62ea73863cecd359d90ba2
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 2c89ca319ba79d6f0463cc6d244c8d91928d6e42
+ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538229"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53327021"
 ---
 # <a name="best-practices-for-sharing-files-and-folders-with-unauthenticated-users"></a>Aanbevolen procedures voor het delen van bestanden en mappen met niet-geverifieerde gebruikers
 
@@ -43,7 +43,7 @@ Wanneer een *iedereen*-koppeling verloopt, kan deze niet meer worden gebruikt vo
 Een vervaldatum instellen voor iedereen-koppelingen voor de gehele organisatie
 
 1. Open het [SharePoint-beheercentrum](https://admin.microsoft.com/sharepoint).
-2. Klik in het navigatievenster aan de linkerkant op **delen**.
+2. Vouw in het navigatievenster aan de linkerkant **Beleid** uit, en klik vervolgens op **Delen**.
 3. Schakel onder **Opties voor verloop en machtigingen kiezen voor 'Iedereen'-koppelingen** het selectievakje **Deze koppelingen moeten binnen zoveel dagen verlopen** in.</br>
    ![Schermafbeelding van de verloopinstellingen van de Iedereen-koppelingen op organisatieniveau in SharePoint](../media/sharepoint-organization-anyone-link-expiration.png)
 4. Typ het aantal dagen in het vak en klik vervolgens op **opslaan**.

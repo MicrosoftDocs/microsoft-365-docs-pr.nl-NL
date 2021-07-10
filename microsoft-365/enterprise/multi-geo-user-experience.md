@@ -15,12 +15,12 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 localization_priority: Normal
 description: Meer informatie over de SharePoint, OneDrive en Exchange gebruikerservaring in een multi-geo-omgeving voor Microsoft 365.
-ms.openlocfilehash: 558e5a1f7ff2f6f5485a9f32d6e2b43b552b7f17
-ms.sourcegitcommit: ae646779d84e993cf80b1207e76b856a21be5790
+ms.openlocfilehash: 4e752581f4ca692f9fecc5019f8e34543ebf7067
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/04/2021
-ms.locfileid: "49749572"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362376"
 ---
 # <a name="user-experience-in-a-multi-geo-environment"></a>Gebruikerservaring in een multi-geo-omgeving
 
@@ -28,7 +28,7 @@ Dit is wat uw gebruikers zien in een OneDrive Multi-Geo configuratie:
 
 ## <a name="exchange-mailbox"></a>Exchange postvak
 
-Het postvak van Exchange gebruiker is ingericht op de gewenste gegevenslocatie en wordt automatisch verplaatst als de PDL-locatie wordt gewijzigd. Gebruikers kunnen Outlook en Outlook op internet gebruiken zonder dat de gebruikerservaring in een omgeving met meerdere geografische gegevens wordt gewijzigd.
+Het postvak van Exchange gebruiker is ingericht op de gewenste gegevenslocatie en wordt automatisch verplaatst als de PDL-locatie wordt gewijzigd. Gebruikers kunnen Outlook en webversie van Outlook gebruiken zonder dat de gebruikerservaring in een multi-geoomgeving verandert.
 
 ## <a name="hub-sites"></a>Hubsites
 
@@ -40,15 +40,15 @@ Het start start- en start start-start start-element voor apps is multi-geo aware
 
 ## <a name="office-applications"></a>Office-toepassingen
 
-Office toepassingen zoals Word, Excel en PowerPoint worden automatisch de juiste OneDrive voor Bedrijven geolocatie voor elke gebruiker gedetecteerd wanneer ze zich aanmelden. Gebruikers hoeven de geospecifieke URL niet in te voeren voor hun OneDrive of SharePoint sites.
+Office toepassingen zoals Word, Excel en PowerPoint worden automatisch de juiste OneDrive geolocatie voor elke gebruiker gedetecteerd wanneer ze zich aanmelden. Gebruikers hoeven de geospecifieke URL niet in te voeren voor hun OneDrive of SharePoint sites.
 
-## <a name="onedrive-for-business-sync-client"></a>OneDrive voor Bedrijven Synchronisatieclient
+## <a name="onedrive-sync-app"></a>OneDrive-synchronisatie app
 
-De OneDrive voor Bedrijven-synchronisatieclient (versie 17.3.6943.0625 en hoger) detecteert automatisch de juiste OneDrive voor Bedrijven geolocatie voor de gebruiker. Synchronisatieclientondersteuning omvat de mogelijkheid om sites op basis van groepen te synchroniseren, ongeacht hun geografische locatie. Houd er rekening mee Groove de synchronisatieclient niet wordt ondersteund voor multi-geo. 
+De OneDrive-synchronisatie app (versie 17.3.6943.0625 en hoger) detecteert automatisch de juiste OneDrive geolocatie voor de gebruiker. Ondersteuning voor synchronisatie-apps omvat de mogelijkheid om sites op basis van groepen te synchroniseren, ongeacht hun geografische locatie. Houd er rekening mee Groove de synchronisatieclient niet wordt ondersteund voor multi-geo. 
 
-## <a name="onedrive-for-business-location"></a>OneDrive voor Bedrijven locatie
+## <a name="onedrive-location"></a>OneDrive locatie
 
-Gebruikers hebben hun OneDrive voor Bedrijven ingericht op hun gewenste gegevenslocatie. Als een gebruiker naar een OneDrive-URL navigeert die een onjuiste geografische locatie bevat (zoals een bladwijzer van een vorige geografische locatie), worden deze automatisch omgeleid naar de OneDrive op de juiste geografische locatie.
+Gebruikers hebben hun OneDrive ingericht op hun gewenste gegevenslocatie. Als een gebruiker naar een OneDrive-URL navigeert die een onjuiste geografische locatie bevat (zoals een bladwijzer van een vorige geografische locatie), worden deze automatisch omgeleid naar de OneDrive op de juiste geografische locatie.
 
 ## <a name="onedrive-ios-and-android"></a>OneDrive iOS en Android 
 
@@ -62,11 +62,11 @@ De OneDrive Mobile Client is multi-geo aware en geeft relevante inhoud en result
 
 ## <a name="search"></a>Zoeken
 
-Elke geografische locatie heeft een eigen zoekindex en zoekcentrum. Wanneer een gebruiker zoekt, wordt de query naar alle geografische locaties verzonden en worden de geretourneerde resultaten samengevoegd en vervolgens gerangschikt, zodat de gebruiker geïntegreerde resultaten krijgt. Gebruikers krijgen resultaten van alle geografische locaties, ongeacht hun eigen geografische locatie. Zie [Zoeken naar OneDrive voor Bedrijven multi-geo configureren](configure-search-for-multi-geo.md) voor specifieke informatie.
+Elke geografische locatie heeft een eigen zoekindex en zoekcentrum. Wanneer een gebruiker zoekt, wordt de query naar alle geografische locaties verzonden en worden de geretourneerde resultaten samengevoegd en vervolgens gerangschikt, zodat de gebruiker geïntegreerde resultaten krijgt. Gebruikers krijgen resultaten van alle geografische locaties, ongeacht hun eigen geografische locatie. Zie [Zoeken naar OneDrive Multi-Geo](configure-search-for-multi-geo.md) details configureren.
 
 De volgende zoek clients worden ondersteund:
 
--   OneDrive voor Bedrijven
+-   OneDrive
 
 -   Delve
 
@@ -78,7 +78,7 @@ De volgende zoek clients worden ondersteund:
 
 ## <a name="sharepoint-home"></a>SharePoint Start 
 
-In SharePoint Multi-Geo uw SharePoint wordt gehost op de locatie waar de gebruiker zich bevindt, zoals bepaald door de locatie OneDrive voor bedrijven. Bijvoorbeeld: als de gebruiker zijn of haar OneDrive op een Europese satellietlocatie heeft gehost, wordt zijn of haar SharePoint vanuit Europa weergegeven. SharePoint home bevat alle inhoud die relevant is voor de gebruiker, ongeacht de geografische locatie. 
+In SharePoint Multi-Geo uw SharePoint wordt gehost op de locatie waar de gebruiker zich bevindt, zoals bepaald door de OneDrive locatie. Bijvoorbeeld: als de gebruiker zijn of haar OneDrive op een Europese satellietlocatie heeft gehost, wordt zijn of haar SharePoint vanuit Europa weergegeven. SharePoint home bevat alle inhoud die relevant is voor de gebruiker, ongeacht de geografische locatie. 
 
 **Gevolgde sites, nieuws van sites, recente sites, veelgebruikte sites en voorgestelde sites**
 
@@ -94,11 +94,11 @@ De SharePoint Mobile Client is multi-geo aware en geeft relevante inhoud en resu
 
 ## <a name="sharing"></a>Delen
 
-De gebruikers picker-ervaring toont alle gebruikers, ongeacht hun geografische locatie. Op deze manier kan een gebruiker delen met een andere gebruiker in dezelfde geo of op een andere geografische locatie van uw tenant. Inhoud van verschillende geografische locaties  wordt in de weergave Gedeeld met mij in de OneDrive voor Bedrijven van de gebruiker weergeven en kan worden gebruikt met Een enkele Sign-On-ervaring, ongeacht de geografische locatie waarin deze wordt gehost.
+De gebruikers picker-ervaring toont alle gebruikers, ongeacht hun geografische locatie. Op deze manier kan een gebruiker delen met een andere gebruiker in dezelfde geo of op een andere geografische locatie van uw tenant. Inhoud van verschillende geografische locaties  wordt in de weergave Gedeeld met mij in de OneDrive van de gebruiker weergeven en kan worden gebruikt met een enkele Sign-On-ervaring, ongeacht de geografische locatie waarin deze wordt gehost.
 
 ## <a name="teams-experience"></a>Teams Ervaring
 
-Teams is multi-geo aware. OneDrive bestanden en onlangs bekeken bestanden worden weergegeven, ongeacht de geografische locatie van de gebruiker. @ vermeldingen werken met gebruikers van alle geografische locaties.
+Teams is een multi-geo-service. OneDrive bestanden en onlangs bekeken bestanden worden weergegeven, ongeacht de geografische locatie van de gebruiker. @ vermeldingen werken met gebruikers van alle geografische locaties.
 
 ## <a name="user-profiles"></a>Gebruikersprofielen
 

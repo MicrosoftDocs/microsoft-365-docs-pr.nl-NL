@@ -12,13 +12,13 @@ ms.collection: Strat_SP_gtc
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: Meer informatie over het configureren van zoeken in een multi-geo-omgeving. Alleen sommige clients, zoals OneDrive voor Bedrijven, kunnen resultaten retourneren in een multi-geoomgeving.
-ms.openlocfilehash: 31e0c4ae3fe73f2f6e113dbc38989726eb1ca590
-ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
+description: Meer informatie over het configureren van zoeken in een multi-geo-omgeving. Alleen sommige clients, zoals OneDrive, kunnen resultaten retourneren in een multi-geoomgeving.
+ms.openlocfilehash: dfc9e3dd986132810f363ba47ba18eae45666fc7
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53022328"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362268"
 ---
 # <a name="configure-search-for-microsoft-365-multi-geo"></a>Zoeken naar Microsoft 365 multi-geo configureren
 
@@ -30,13 +30,13 @@ Een gebruiker op één geografische locatie kan bijvoorbeeld zoeken naar inhoud 
 
 Deze clients kunnen resultaten van alle geografische locaties retourneren:
 
-- OneDrive voor Bedrijven
+- OneDrive
 - Delve
 - De SharePoint startpagina
 - Het zoekcentrum
 - Aangepaste zoektoepassingen die gebruikmaken van de SharePoint Search API
 
-### <a name="onedrive-for-business"></a>OneDrive voor Bedrijven
+### <a name="onedrive"></a>OneDrive
 
 Zodra de multi-geo-omgeving is ingesteld, krijgen gebruikers die zoeken in OneDrive resultaten van alle geografische locaties.
 
@@ -65,9 +65,9 @@ Sommige zoekfuncties die u mogelijk kent, werken anders in een multi-geoomgeving
 <table>
 <thead>
 <tr class="header">
-<th align="left"><strong>Functie</strong></th>
-<th align="left"><strong>Hoe het werkt</strong></th>
-<th align="left"><strong>Tijdelijke oplossing</strong></th>
+<th align="left">Functie</th>
+<th align="left">Hoe het werkt</th>
+<th align="left">Tijdelijke oplossing</th>
 </tr>
 </thead>
 <tbody>
@@ -112,8 +112,8 @@ Sommige zoekfuncties die u mogelijk kent, worden niet ondersteund in een multi-g
 <table>
 <thead>
 <tr class="header">
-<th align="left"><strong>Zoekfunctie</strong></th>
-<th align="left"><strong>Opmerking</strong></th>
+<th align="left">Zoekfunctie</th>
+<th align="left">Opmerking</th>
 </tr>
 </thead>
 <tbody>
@@ -122,8 +122,8 @@ Sommige zoekfuncties die u mogelijk kent, worden niet ondersteund in een multi-g
 <td align="left">App-only verificatie (privileged access from services) wordt niet ondersteund in multi-geo-zoekopdracht.</td>
 </tr>
 <tr class="even">
-<td align="left">Gastgebruikers</td>
-<td align="left">Gastgebruikers krijgen alleen resultaten van de geografische locatie waar ze naar zoeken.</td>
+<td align="left">Gasten</td>
+<td align="left">Gasten krijgen alleen resultaten van de geografische locatie waar ze naar zoeken.</td>
 </tr>
 </tbody>
 </table>
@@ -210,7 +210,7 @@ Als u DataLocation of EndPoint weglaat of als een DataLocation wordt gedupliceer
 
 ### <a name="response-data"></a>Antwoordgegevens
 
-MultiGeoSearchStatus: dit is een eigenschap die de SharePoint Search API retourneert als antwoord op een aanvraag. De waarde van de eigenschap is een tekenreeks en geeft de volgende informatie over de resultaten die de SharePoint Search API retourneert:
+MultiGeoSearchStatus: dit is een eigenschap die SharePoint zoek-API retourneert als antwoord op een aanvraag. De waarde van de eigenschap is een tekenreeks en geeft de volgende informatie over de resultaten die SharePoint Zoek-API retourneert:
 
 <table>
 <thead>
@@ -254,18 +254,22 @@ Met een GET-aanvraag geeft u de queryparameters op in de URL. Met een POST-aanvr
 
 #### <a name="sample-get-request-thats-fanned-out-to-all-geo-locations"></a>Voorbeeld van GET-aanvraag die is uitgewaakt naar **alle** geografische locaties
 
-https:// \<tenant\> / \_ api/search/query?querytext='sharepoint'&Properties='EnableMultiGeoSearch:true'&ClientType='my \_ client \_ id'
+```http
+https:// \<tenant\>/\_api/search/query?querytext='sharepoint'&Properties='EnableMultiGeoSearch:true'&ClientType='my\_client\_id'
+```
 
 #### <a name="sample-get-request-to-fan-out-to-some-geo-locations"></a>Voorbeeld van GET-aanvraag om uit te waaieren **naar bepaalde** geografische locaties
 
-https:// \<tenant\> / \_ api/search/query?querytext='site'&ClientType='my_client_id'&Properties='EnableMultiGeoSearch:true, MultiGeoSearchConfiguration:[{DataLocation \\ :"NAM" \\ ,Endpoint \\ :"https \\ ://contosoNAM.sharepoint.com" \\ ,SourceId \\ :"B81EAB55-3140-4312-B0F4-9459D1B4FFEE"} \\ ,{DataLocation \\ :"CAN" \\ ,Endpoint \\ :"https \\ ://contosoCAN.sharepoint-df.com"}'
+```http
+https:// \<tenant\>/\_api/search/query?querytext='site'&ClientType='my_client_id'&Properties='EnableMultiGeoSearch:true, MultiGeoSearchConfiguration:[{DataLocation\\:"NAM"\\,Endpoint\\:"https\\://contosoNAM.sharepoint.com"\\,SourceId\\:"B81EAB55-3140-4312-B0F4-9459D1B4FFEE"}\\,{DataLocation\\:"CAN"\\,Endpoint\\:"https\\://contosoCAN.sharepoint-df.com"}]'
+```
 
 > [!NOTE]
 > Komma's en dubbele puntpunten in de lijst met geografische locaties voor de eigenschap MultiGeoSearchConfiguration worden voorafgegaan door het **backslash-teken.** Dit komt omdat get-aanvragen dubbele punten gebruiken om eigenschappen en komma's te scheiden om argumenten van eigenschappen te scheiden. Zonder de backslash als een escape-teken wordt de eigenschap MultiGeoSearchConfiguration verkeerd geïnterpreteerd.
 
 #### <a name="sample-post-request-thats-fanned-out-to-all-geo-locations"></a>Voorbeeld van een POST-aanvraag die is uitgewaakt naar **alle** geografische locaties
 
-```text
+```http
     {
     "request": {
             "__metadata": {
@@ -290,7 +294,7 @@ https:// \<tenant\> / \_ api/search/query?querytext='site'&ClientType='my_client
 
 #### <a name="sample-post-request-thats-fanned-out-to-some-geo-locations"></a>Voorbeeld van een POST-aanvraag die is uitgewaakt naar **bepaalde** geografische locaties
 
-```text
+```http
     {
         "request": {
             "Querytext": "SharePoint",
@@ -321,7 +325,7 @@ https:// \<tenant\> / \_ api/search/query?querytext='site'&ClientType='my_client
 
 Hier is een voorbeeld van een CSOM-query die is uitgewaakt naar **alle** geografische locaties:
 
-```text
+```CSOM
 var keywordQuery = new KeywordQuery(ctx);
 keywordQuery.QueryText = query.SearchQueryText;
 keywordQuery.ClientType = <enter a string here>;

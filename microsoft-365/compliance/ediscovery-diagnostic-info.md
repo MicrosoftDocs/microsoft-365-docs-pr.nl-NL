@@ -16,12 +16,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Meer informatie over het verzamelen van diagnostische gegevens voor eDiscovery voor een microsoft-ondersteuningscase.
-ms.openlocfilehash: 842f8baf770f178df3298bbfa911de26ce946ed0
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: b2441e0b7af8a82e24a8acca9e000e954e1c8964
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "52162158"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362592"
 ---
 # <a name="collect-ediscovery-diagnostic-information"></a>Diagnostische gegevens voor eDiscovery verzamelen
 
@@ -39,7 +39,7 @@ Als u de volgende cmdlets wilt uitvoeren, maakt u verbinding met [Security & Com
 Nadat u het gegenereerde tekstbestand hebt beoordeeld en gevoelige informatie opnieuw hebt gemaakt, stuurt u deze naar de Microsoft Support-engineer die aan uw zaak werkt.
 
 > [!NOTE]
-> U kunt ook de opdrachten in deze sectie uitvoeren om diagnostische  gegevens te verzamelen voor de zoekopdrachten en exporten die worden weergegeven op de pagina Inhoud zoeken in het Microsoft 365 compliancecentrum.
+> U kunt ook de opdrachten in deze sectie uitvoeren om diagnostische  gegevens te verzamelen voor de zoekopdrachten en exporten die worden weergegeven op de pagina Inhoud zoeken in de Microsoft 365-compliancecentrum.
 
 ### <a name="collect-information-about-searches"></a>Informatie over zoekopdrachten verzamelen
 
@@ -67,10 +67,10 @@ Get-CaseHoldPolicy "<Case hold policy name>" | %{"--CaseHoldPolicy--";$_|FL;"--C
 
 ### <a name="collect-all-case-information"></a>Alle case-informatie verzamelen
 
-Soms is het niet duidelijk welke informatie vereist is door Microsoft Support om uw probleem te onderzoeken. In deze situatie kunt u alle diagnostische gegevens verzamelen voor een kern-eDiscovery-zaak. De hoofdnaam van de hoofdzaak *eDiscovery* in de volgende opdracht is hetzelfde als de naam van een zaak die wordt weergegeven op de pagina Core **eDiscovery** in het Microsoft 365 compliancecentrum.
+Soms is het niet duidelijk welke informatie vereist is door Microsoft Support om uw probleem te onderzoeken. In deze situatie kunt u alle diagnostische gegevens verzamelen voor een kern-eDiscovery-zaak. De naam van de hoofdzaak Core *eDiscovery* in de volgende opdracht is hetzelfde als de naam van een zaak die wordt weergegeven op de pagina **Core eDiscovery** in de Microsoft 365-compliancecentrum.
 
 ```powershell
-Get-ComplianceCase "<Core eDiscovery case name>"| %{"$($_.Name)";"`t==Searches==";Get-ComplianceSearch -Case $_.Name | FL;"`t==Search Actions==";Get-ComplianceSearchAction -Case $_.Name |FL;"`t==Holds==";Get-CaseHoldPolicy -Case $_.Name | %{$_|FL;"`t`t ==$($_.Name) Rules==";Get-CaseHoldRule -Policy $_.Name | FL}} > "eDiscoveryCase.txt"
+Get-ComplianceCase "<Core eDiscovery case name>"| %{$_|fl;"`t==Searches==";Get-ComplianceSearch -Case $_.Name | FL;"`t==Search Actions==";Get-ComplianceSearchAction -Case $_.Name |FL;"`t==Holds==";Get-CaseHoldPolicy -Case $_.Name | %{$_|FL;"`t`t ==$($_.Name) Rules==";Get-CaseHoldRule -Policy $_.Name | FL}} > "eDiscoveryCase.txt"
 ```
 
 ## <a name="collect-diagnostic-information-for-advanced-ediscovery"></a>Diagnostische gegevens verzamelen voor Advanced eDiscovery

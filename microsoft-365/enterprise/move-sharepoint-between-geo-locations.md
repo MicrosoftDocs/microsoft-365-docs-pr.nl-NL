@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 description: Meer informatie over het verplaatsen van een SharePoint naar een andere geografische locatie in uw multi-geo-omgeving en de verwachtingen van de wijzigingen aan uw gebruikers communiceren.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: eed323b2e2b8f68a4a603052657e17495bb17690
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 5a49098045dbce94ef1c474497b8da1b397ac0b0
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50910928"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362352"
 ---
 # <a name="move-a-sharepoint-site-to-a-different-geo-location"></a>Een site SharePoint naar een andere geografische locatie verplaatsen
 
@@ -28,7 +28,7 @@ Met SharePoint site geoverplaatsing kunt u SharePoint sites verplaatsen naar and
 
 De volgende typen site kunnen worden verplaatst tussen geografische locaties:
 
-- Microsoft 365 Sites met groepsconnectie
+- Microsoft 365 Sites met groepsconnectie, inclusief sites die zijn gekoppeld aan Microsoft Teams
 - Moderne sites zonder een Microsoft 365 groep
 - Klassieke SharePoint sites
 - Communicatiesites
@@ -154,12 +154,12 @@ De statussen voor verplaatsen worden in de volgende tabel beschreven.
 
 ****
 
-|Status|Beschrijving|
+|Status|Omschrijving|
 |---|---|
 |Klaar om te activeren|De move is nog niet gestart.|
 |Gepland|De move staat in de wachtrij, maar is nog niet gestart.|
 |InProgress (n/4)|De move wordt uitgevoerd in een van de volgende staten: Validatie (1/4), Back-up (2/4), Herstellen (3/4), Opschoning (4-4).|
-|Succes|De verhuizing is voltooid.|
+|Geslaagd|De verhuizing is voltooid.|
 |Mislukt|De beweging is mislukt.|
 |
 
@@ -177,11 +177,11 @@ Terwijl de move wordt uitgevoerd, is de site ingesteld op alleen-lezen. Wanneer 
 
 Gebruikers met een sitemachtiging blijven toegang tot de site hebben tijdens de verhuizing en nadat de site is voltooid.
 
-### <a name="sync-client"></a>Synchronisatieclient
+### <a name="sync-app"></a>Synchronisatie-app
 
-De synchronisatieclient detecteert automatisch en schakelt naadloos synchronisatie over naar de nieuwe sitelocatie zodra de siteverplaatsing is voltooid. De gebruiker hoeft zich niet opnieuw aan te melden of een andere actie uit te voeren. (Versie 17.3.6943.0625 of hoger van de synchronisatieclient vereist.)
+De synchronisatie-app detecteert automatisch en zet synchronisatie naadloos over naar de nieuwe sitelocatie zodra de siteverplaatsing is voltooid. De gebruiker hoeft zich niet opnieuw aan te melden of een andere actie uit te voeren. (Versie 17.3.6943.0625 of hoger van de synchronisatie-app vereist.)
 
-Als een gebruiker een bestand bij werkt terwijl de overstap wordt uitgevoerd, ontvangt de synchronisatieclient een melding dat er een bestand wordt geüpload terwijl de overstap wordt uitgevoerd.
+Als een gebruiker een bestand bij werkt terwijl de overstap wordt uitgevoerd, wordt de gebruiker door de synchronisatie-app ervan op de hoogte stellen dat er een bestand wordt geüpload terwijl de overstap wordt uitgevoerd.
 
 ### <a name="sharing-links"></a>Koppelingen voor delen
 

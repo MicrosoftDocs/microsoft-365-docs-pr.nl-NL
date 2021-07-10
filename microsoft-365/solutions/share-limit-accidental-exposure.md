@@ -17,12 +17,12 @@ localization_priority: Priority
 f1.keywords: NOCSH
 recommendations: false
 description: Meer informatie over het beperken van de onopzettelijke blootstelling van informatie bij het delen van bestanden met personen van buiten uw organisatie.
-ms.openlocfilehash: aed567e503fb2c615b183c6769c69248c149742a
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 1dffa40a0c21f5f611492d5a098a98f8aaa726a5
+ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52539045"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53326985"
 ---
 # <a name="limit-accidental-exposure-to-files-when-sharing-with-people-outside-your-organization"></a>Het beperken van de onopzettelijke blootstelling van bestanden bij het delen met personen van buiten uw organisatie
 
@@ -64,7 +64,7 @@ Afhankelijk van uw behoeften kunt u *Iedereen*-koppelingen voor specifieke sites
 
 U kunt lijsten voor het toestaan of weigeren van domeinen gebruiken om te specificeren welke domeinen uw gebruikers kunnen gebruiken wanneer zij iets met personen van buiten uw organisatie delen.
 
-Met een lijst Toestaan kunt u een lijst opgeven met domeinen waarin gebruikers in uw organisatie kunnen delen met personen van buiten uw organisatie. Delen met andere domeinen wordt geblokkeerd. Als uw organisatie alleen samenwerkt met personen uit een lijst met specifieke domeinen, kunt u deze functie gebruiken om te voorkomen dat er met andere domeinen wordt gedeeld.
+Met een lijst Toestaan kunt u een lijst opgeven met domeinen waarin gebruikers in uw organisatie kunnen delen met personen van buiten uw organisatie. Delen met andere domeinen is geblokkeerd. Als uw organisatie alleen samenwerkt met personen uit een lijst met specifieke domeinen, kunt u deze functie gebruiken om te voorkomen dat er met andere domeinen wordt gedeeld.
 
 Met een lijst Weigeren kunt u een lijst opgeven met domeinen waaruit gebruikers in uw organisatie niet kunnen delen met personen van buiten uw organisatie. Delen met de opgegeven domeinen wordt geblokkeerd. Dit kan handig zijn als u bijvoorbeeld concurrenten hebt, waarvan u wilt voorkomen dat zij toegang hebben tot de inhoud van uw organisatie.
 

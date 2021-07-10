@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b9ce161a472366d11b267824c9bd08ceccf285aa
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 21e44090cf21ac8bba29885a2f97242faf3e2164
+ms.sourcegitcommit: 7dc3b4dec05299abb4290a6e3d1ebe0fdc622ed7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933455"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53363965"
 ---
 # <a name="examples-of-device-control-policies-for-jamf"></a>Voorbeelden van beleidsregels voor apparaatbeheer voor JAMF
 
@@ -33,9 +33,7 @@ ms.locfileid: "51933455"
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
-
-[!include[Prerelease information](../../includes/prerelease.md)]
+> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 Dit document bevat voorbeelden van beleidsregels voor apparaatbesturingselementen die u kunt aanpassen voor uw eigen organisatie. Deze voorbeelden zijn van toepassing als u JAMF gebruikt om apparaten in uw bedrijf te beheren.
 
@@ -221,6 +219,6 @@ In het volgende voorbeeld worden twee specifieke apparaten beperkt, die zijn ge√
 </plist> 
 ```
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-topics"></a>Gerelateerde onderwerpen
 
 - [Overzicht van apparaatbesturingselement voor macOS](mac-device-control-overview.md)
