@@ -15,12 +15,12 @@ ms.collection:
 - SPO_Content
 localization_priority: Normal
 description: Beheerders kunnen meer informatie krijgen over het beheren SharePoint en OneDrive services in een multi-geoomgeving.
-ms.openlocfilehash: 4c5215b855b8ca1840035b39fcfbddde419c13d8
-ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
+ms.openlocfilehash: 9ef22a34881ef5c9c2ed72835bc88c1dbfe835b5
+ms.sourcegitcommit: 7dc3b4dec05299abb4290a6e3d1ebe0fdc622ed7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53362316"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53363941"
 ---
 # <a name="administering-a-multi-geo-environment"></a>Een multi-geo-omgeving beheren
 
@@ -72,15 +72,15 @@ Standaard delen alle geografische locaties van een multi-geo-omgeving het beschi
 
 ## <a name="sharing"></a>Delen
 
-Beheerders kunnen beleid voor delen instellen en beheren voor elk van hun locaties. De OneDrive en SharePoint sites op elke geografische locatie zullen alleen de bijbehorende geospecifieke instellingen voor delen eren. (U kunt bijvoorbeeld extern delen [toestaan](https://support.office.com/article/C8A462EB-0723-4B0B-8D0A-70FEAFE4BE85) voor uw centrale locatie, maar niet voor uw satellietlocatie of omgekeerd.) De instellingen voor delen staan het configureren van beperkingen voor delen tussen geografische locaties niet toe.
+Beheerders kunnen beleid voor delen instellen en beheren voor elk van hun locaties. De OneDrive en SharePoint sites op elke geografische locatie worden alleen aan de bijbehorende geospecifieke instellingen voor delen aangepast. (U kunt bijvoorbeeld extern delen [toestaan](https://support.office.com/article/C8A462EB-0723-4B0B-8D0A-70FEAFE4BE85) voor uw centrale locatie, maar niet voor uw satellietlocatie of omgekeerd.) De instellingen voor delen staan het configureren van beperkingen voor delen tussen geografische locaties niet toe.
 
 ## <a name="stream"></a>Stream
 
-Video's die zijn geüpload naar Stream, worden opgeslagen in de OneDrive van de persoon die uploadt. Opnamen van vergaderingen worden opgeslagen in de OneDrive van elke deelnemer die de vergadering registreert.
+Video's die zijn geüpload naar Stream in een 1:1-chat, worden opgeslagen in de OneDrive van de persoon die uploadt. Opnamen van vergaderingen worden opgeslagen in de OneDrive van elke deelnemer die de vergadering registreert.
 
 ## <a name="taxonomy"></a>Taxonomie
 
-We ondersteunen een geïntegreerde [taxonomie](/sharepoint/managed-metadata) voor beheerde metagegevens voor ondernemingen op verschillende geografische locaties, met het hoofd dat wordt gehost op de centrale locatie voor uw bedrijf. U wordt aangeraden uw globale taxonomie vanaf de centrale locatie te beheren en alleen locatiespecifieke termen toe te voegen aan de Taxonomie van de satellietlocatie. Globale taxonomievoorwaarden worden gesynchroniseerd met de satellietlocaties.
+We ondersteunen een geïntegreerde [taxonomie](/sharepoint/managed-metadata) voor door ondernemingen beheerde metagegevens op verschillende geografische locaties, met het hoofd dat wordt gehost op de centrale locatie voor uw bedrijf. U wordt aangeraden uw globale taxonomie vanaf de centrale locatie te beheren en alleen locatiespecifieke termen toe te voegen aan de Taxonomie van de satellietlocatie. Globale taxonomievoorwaarden worden gesynchroniseerd met de satellietlocaties.
 
 Zie [Metagegevens beheren in een multi-geo tenant](/sharepoint/dev/solution-guidance/multigeo-managedmetadata) voor meer informatie en voor richtlijnen voor ontwikkelaars.
 

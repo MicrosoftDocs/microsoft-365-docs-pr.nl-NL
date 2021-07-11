@@ -9,12 +9,12 @@ manager: laurawi
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 8cb1b30da84ece597235d8eef674a12208ab6456
-ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
+ms.openlocfilehash: 8063e1b0e76241df946a29ef2c5115bc0dc39aad
+ms.sourcegitcommit: 7dc3b4dec05299abb4290a6e3d1ebe0fdc622ed7
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53362657"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53363765"
 ---
 # <a name="user-support"></a>Ondersteuning voor gebruikers
 
@@ -83,7 +83,7 @@ Als een gebruikersprobleem moet worden geëscaleerd naar Microsoft Managed Deskt
 
 ### <a name="elevation-portal"></a>Hoogteportal 
 
-Aangezien Microsoft Managed Desktop apparaten standaard op standaardgebruiker worden uitgevoerd, is voor sommige taken het verhogen van bevoegdheden vereist. (Zie Gebruikersaccountbeheer voor meer informatie over het beheer [van gebruikersaccounts](/windows/security/identity-protection/user-account-control/user-account-control-overview)) Om ervoor te zorgen dat [](../working-with-managed-desktop/end-user-support.md#elevation-requests) ondersteuningsmedewerkers taken kunnen uitvoeren tijdens het oplossen van problemen voor gebruikers, bieden we 'just-in-time' toegang tot een beheerdersaccount. Dit wachtwoord wordt veilig toegankelijk gemaakt door alleen de personen die u aanwijzen en wordt om de paar uur gedraaid.  
+Aangezien Microsoft Managed Desktop apparaten standaard op standaardgebruiker worden uitgevoerd, is voor sommige taken het verhogen van bevoegdheden vereist. Zie Gebruikersaccountbeheer voor meer informatie over het beheer [van gebruikersaccounts.](/windows/security/identity-protection/user-account-control/user-account-control-overview) Om ervoor te zorgen dat [](../working-with-managed-desktop/end-user-support.md#elevation-requests) ondersteuningsmedewerkers taken kunnen uitvoeren tijdens het oplossen van problemen voor gebruikers, bieden we 'just-in-time' toegang tot een beheerdersaccount. Dit wachtwoord wordt veilig toegankelijk gemaakt door alleen de personen die u aanwijzen en wordt om de paar uur gedraaid.  
 
 Zie Gebruikersondersteuningsfuncties [inschakelen](../get-started/enable-support.md)voor stappen over het instellen van gebruikers voor toegang tot deze portal.
 
