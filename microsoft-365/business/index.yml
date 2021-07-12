@@ -27,10 +27,10 @@ productDirectory:
       imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-blue.svg'
       summary: Antivirusbeheer en Universal Print zijn nu beschikbaar in Microsoft 365 Business Premium.
       url: 'https://aka.ms/M365BPQ1Update'
-    - title: Doe mee met de webinarreeks van partners
+    - title: Neem deel aan de webinar Microsoft 365 Lighthouse-partner op 28 juli
       imageSrc: 'https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg'
-      summary: Versnel de bedrijfsgroei met de beheerde services met Microsoft 365 Business Premium.
-      url: 'https://aka.ms/acceleratewithm365bp'
+      summary: Microsoft 365 Lighthouse gebruiken om Microsoft 365 Business Premium-klanten te beveiligen en standaardiseren.
+      url: 'https://aka.ms/m365lighthousewebinar'
 conceptualContent:
   items:
     - title: Wat is Microsoft 365 Business Premium?
