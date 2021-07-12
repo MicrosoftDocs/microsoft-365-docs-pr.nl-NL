@@ -10,12 +10,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 0c08f5d05c42ed8d1e84632377be28e542771c2a
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: e70a67f9472dff155b8554d5d6ae26c79d49a67a
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841364"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362615"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>Wat is Microsoft Managed Desktop?
 
@@ -25,7 +25,6 @@ Microsoft Managed Desktop is een cloudservice die [Microsoft 365 Enterprise](../
 - Implementatie van gebruikersapparaten
 - IT-servicebeheer en -activiteiten
 - Beveiligingscontrole en -antwoord
-- Ondersteuning voor gebruikers
 
 Microsoft Managed Desktop biedt een oplossing voor verschillende van de uitdagingen waarmee bedrijven en hun personeel vandaag de dag worden geconfronteerd:
 - De overgang naar de snelle wereld van software-as-a-service is lastig.
@@ -33,7 +32,7 @@ Microsoft Managed Desktop biedt een oplossing voor verschillende van de uitdagin
 - Veel van de huidige IT-beheer- en beveiligingsprocessen zijn verouderd, tijdrovend en duur.
 - Bedrijven willen zich concentreren op wat hen succesvol maakt, in plaats van het onderhouden van digitale infrastructuur.
 
-Uw gebruikers kunnen profiteren van de nieuwste versies van Windows 10 en Microsoft 365-apps voor ondernemingen (en meer), met apparaten en software die zijn gekozen en grondig zijn getest voor de beste prestaties en betrouwbaarheid. Bovendien hoeft u zich nooit zorgen te maken over het up-to-date houden van deze software, omdat dat automatisch gebeurt, volgens een zorgvuldige uitrolprocedure die stap voor stap wordt gevolgd. En geregistreerde apparaten worden 24x7 bewaakt op technische en beveiligingsproblemen, dus als er iets misgaat, is er hulp onderweg.
+Uw gebruikers kunnen profiteren van de nieuwste versies van Windows 10 en Microsoft 365-apps voor ondernemingen (en meer), met apparaten en software die zijn gekozen en grondig zijn getest voor de beste prestaties en betrouwbaarheid. Bovendien hoeft u zich nooit zorgen te maken over het up-to-date houden van deze software, omdat dat automatisch gebeurt, volgens een zorgvuldige uitrolprocedure die stap voor stap wordt gevolgd. En geregistreerde apparaten worden 24 uur per dag, 7 dagen per week gemonitord op technische en beveiligingsproblemen, dus als er iets misgaat, is er snel hulp beschikbaar.
 
 
 ## <a name="unique-to-microsoft-managed-desktop"></a>Uniek voor Microsoft Managed Desktop

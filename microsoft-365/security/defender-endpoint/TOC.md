@@ -174,6 +174,7 @@
 #### [Algemeen]()
 ##### [Gegevensopslaglocatie controleren en instellingen voor het bewaren van gegevens bijwerken](data-retention-settings.md)
 ##### [Waarschuwingsmeldingen configureren](configure-email-notifications.md)
+##### [E-mailmeldingen voor beveiligingsproblemen configureren](configure-vulnerability-email-notifications.md)
 ##### [Geavanceerde functies configureren](advanced-features.md)
 
 #### [Machtigingen]()
