@@ -17,16 +17,16 @@ search.appverid:
 - MET150
 description: Leer hoe u meldingen maakt voor activiteiten met exacte gegevensovereenkomst.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: da00c43ae9ba5b129129027df16f49ef80b8757d
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 263dc319d7e7d3ee5f12ebe374e8f5bd44c4cc8c
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53288165"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341674"
 ---
 # <a name="create-notifications-for-exact-data-match-activities"></a>Meldingen maken voor activiteiten met exacte gegevensovereenkomst
 
-Wanneer u [aangepaste typen gevoelige informatie maakt met exacte gegevensovereenkomst (EDM)](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md), zijn er een aantal activiteiten die in het [auditlogboek](search-the-audit-log-in-security-and-compliance.md#requirements-to-search-the-audit-log) worden gemaakt. U kunt de PowerShell-cmdlet [New-ProtectionAlert](/powershell/module/exchange/new-protectionalert) gebruiken om meldingen te maken die u laten weten wanneer deze activiteiten plaatsvinden:
+Wanneer u [aangepaste typen gevoelige informatie maakt met exacte gegevensovereenkomst (EDM)](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md), zijn er een aantal activiteiten die in het [auditlogboek](search-the-audit-log-in-security-and-compliance.md#before-you-search-the-audit-log) worden gemaakt. U kunt de PowerShell-cmdlet [New-ProtectionAlert](/powershell/module/exchange/new-protectionalert) gebruiken om meldingen te maken die u laten weten wanneer deze activiteiten plaatsvinden:
 
 - CreateSchema
 - EditSchema
@@ -44,30 +44,30 @@ Het account dat u gebruikt, moet een van de volgende zijn:
 
 Zie [Machtigingen](data-loss-prevention-policies.md#permissions) voor meer informatie over DLP-machtigingen.
 
-EDM-gebaseerde classificatie is inbegrepen in deze abonnementen
+EDM-classificatie is inbegrepen in deze abonnementen:
 
 - Office 365 E5
 - Microsoft 365 E5
 - Microsoft 365 E5 Compliance
 - Microsoft E5/A5 Gegevensbeveiliging en -beheer
 
-Zie [Richtlijnen voor Microsoft 365-licenties voor beveiliging en compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection) voor meer informatie over DLP-licenties.
+Zie [Richtlijnen voor Microsoft 365-licenties voor beveiliging en compliance voor meer informatie over DLP-licenties](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection).
 
 ## <a name="configure-notifications-for-edm-activities"></a>Meldingen configureren voor EDM-activiteiten
 
-1. Verbinding maken met [PowerShell voor het Beveiligings- en compliancecentrum](/powershell/exchange/connect-to-scc-powershell) 
+1. Verbinding maken met [PowerShell voor het Beveiligings- en compliancecentrum.](/powershell/exchange/connect-to-scc-powershell)
 
-2. Voer de cmdlet `New-ProtectionAlert` uit met behulp van de activiteit waarvoor u de melding wilt maken.  Als u bijvoorbeeld een melding wilt ontvangen wanneer de actie **UploadDataCompleted** heeft plaatsgevonden, gebruikt u
+2. Voer de cmdlet `New-ProtectionAlert` uit met behulp van de activiteit waarvoor u de melding wilt maken.  Als u bijvoorbeeld een melding wilt ontvangen wanneer de actie **UploadDataCompleted** heeft plaatsgevonden, gebruikt u:
 
-```powershell
-New-ProtectionAlert -Name "EdmUploadCompleteAlertPolicy" -Category Others -NotifyUser <***address to send  notification to***> -ThreatType Activity -Operation UploadDataCompleted -Description "Custom alert policy to track when EDM upload Completed" -AggregationType None
-```
-
-voor de **UploadDataFailed** gebruikt u
-
-```powershell
-New-ProtectionAlert -Name "EdmUploadFailAlertPolicy" -Category Others -NotifyUser <***SMTP address to send notification to***> -ThreatType Activity -Operation UploadDataFailed -Description "Custom alert policy to track when EDM upload Failed" -AggregationType None -Severity High
-```
+    ```powershell
+    New-ProtectionAlert -Name "EdmUploadCompleteAlertPolicy" -Category Others -NotifyUser <address to send notification to> -ThreatType Activity -Operation UploadDataCompleted -Description "Custom alert policy to track when EDM upload Completed" -AggregationType None
+    ```
+    
+    voor de **UploadDataFailed** gebruikt u:
+    
+    ```powershell
+    New-ProtectionAlert -Name "EdmUploadFailAlertPolicy" -Category Others -NotifyUser <SMTP address to send notification to> -ThreatType Activity -Operation UploadDataFailed -Description "Custom alert policy to track when EDM upload Failed" -AggregationType None -Severity High
+    ```
 
 ## <a name="related-articles"></a>Verwante artikelen
 

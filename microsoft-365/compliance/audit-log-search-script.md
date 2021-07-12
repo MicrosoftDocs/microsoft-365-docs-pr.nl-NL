@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.custom: seo-marvel-apr2020
 description: Een PowerShell-script gebruiken dat de cmdlet Search-UnifiedAuditLog in Exchange Online gebruikt om het auditlogboek te doorzoeken. Dit script is geoptimaliseerd voor het retourneren van een grote set (maximaal 50.000) van auditrecords. Het script exporteert deze records naar een CSV-bestand dat u kunt bekijken of transformeren met behulp van Power Query in Excel.
-ms.openlocfilehash: df5e675e5e36603a73078bd5ecf5e64bc7a76f95
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+ms.openlocfilehash: 8abea51bb1e7e1fa7bd513bea78708b06da62def
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "52162712"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341006"
 ---
 # <a name="use-a-powershell-script-to-search-the-audit-log"></a>Een PowerShell-script gebruiken om in het auditlogboek te zoeken
 
@@ -48,7 +48,7 @@ In situaties waarin u handmatig auditgegevens moet ophalen voor een specifiek on
 
   De waarde van `True` voor de eigenschap **UnifiedAuditLogIngestionEnabled** geeft aan dat zoeken in auditlogboek is ingeschakeld.
 
-- Als u het script wilt uitvoeren moet aan u de rol Auditlogboeken alleen-weergeven of Auditlogboeken in Exchange Online zijn toegewezen. Deze rollen worden standaard toegewezen aan de rollengroepen Compliancebeheer en Organisatiebeheer op de pagina Machtigingen in het Exchange-beheercentrum. Zie voor meer informatie de sectie 'Vereisten voor het doorzoeken van het auditlogboek' in [Zoek in het auditlogboek in het compliancecentrum](search-the-audit-log-in-security-and-compliance.md#requirements-to-search-the-audit-log).
+- Als u het script wilt uitvoeren moet aan u de rol Auditlogboeken alleen-weergeven of Auditlogboeken in Exchange Online zijn toegewezen. Deze rollen worden standaard toegewezen aan de rollengroepen Compliancebeheer en Organisatiebeheer op de pagina Machtigingen in het Exchange-beheercentrum. Zie voor meer informatie de sectie 'Vereisten voor het doorzoeken van het auditlogboek' in [Zoek in het auditlogboek in het compliancecentrum](search-the-audit-log-in-security-and-compliance.md#before-you-search-the-audit-log).
 
 - Het kan lang duren voordat het script is voltooid. Hoe lang het duurt om deze uit te voeren, is afhankelijk van het datumbereik en de grootte van het interval waar u het script voor configureert om auditrecords voor op te halen. Grotere datumbereiken en kleinere intervallen leiden tot een lange oplopende tijd. Zie de tabel in stap 2 voor meer informatie over het datumbereik en de intervallen.
 
@@ -62,7 +62,7 @@ De eerste stap is verbinding maken met Exchange Online PowerShell. U kunt verbin
 
 Nadat u verbinding hebt gemaakt met Exchange Online PowerShell, bestaat de volgende stap uit het maken, wijzigen en uitvoeren van het script om de controlegegevens op te halen. De eerste zeven regels in het zoekscript voor het auditlogboek bevatten de volgende variabelen die u kunt wijzigen om uw zoekopdracht te configureren. Zie de tabel in stap 2 voor een beschrijving van deze variabelen.
 
-1. Sla de volgende tekst op in een Windows PowerShell-script door het bestandsnaamachtervoegsel .ps1 te gebruiken. Bijvoorbeeld SearchAuditLog.ps1.
+1. Sla de volgende tekst op in een Windows PowerShell-script door het bestandsnaamachtervoegsel .ps1 te gebruiken. Bijvoorbeeld, SearchAuditLog.ps1.
 
    ```powershell
    #Modify the values for the following variables to configure the audit log search.
@@ -147,7 +147,7 @@ Nadat u verbinding hebt gemaakt met Exchange Online PowerShell, bestaat de volge
 
    |Variabele|Voorbeeldwaarde|Omschrijving|
    |---|---|---|
-   |`$logFile`|"d:\temp\AuditSearchLog.txt"|De naam en locatie van het logboekbestand met informatie over de voortgang van de zoekopdracht in het auditlogboek die door het script wordt uitgevoerd. Het script schrijft UTC-timestamp naar het logboekbestand.|
+   |`$logFile`|"d:\temp\AuditSearchLog.txt"|De naam en locatie van het logboekbestand met informatie over de voortgang van de zoekopdracht in het auditlogboek die door het script wordt uitgevoerd. Het script schrijft UTC-tijdstempels naar het logbestand.|
    |`$outputFile`|"d:\temp\AuditRecords.csv"|Hiermee geeft u de naam en locatie op van het CSV-bestand dat de auditrecords bevat die door het script worden geretourneerd.|
    |`[DateTime]$start` en `[DateTime]$end`|[DateTime]::UtcNow.AddDays(-1) <br/>[DateTime]::UtcNow|Hiermee geeft u het datumbereik voor het zoeken in het auditlogboek op. Het script retourneert records voor controleactiviteiten die hebben plaatsgevonden binnen het opgegeven datumbereik. Als u bijvoorbeeld activiteiten wilt retourneren die zijn uitgevoerd in januari 2021, kunt u een begindatum van `"2021-01-01"` en een einddatum van `"2021-01-31"` gebruiken (plaats de waarden tussen dubbele aanhalingstekens) Met de voorbeeldwaarde in het script worden records als resultaat geven voor activiteiten die in de afgelopen 24 uur zijn uitgevoerd. Als de waarde geen tijdstempel bevat, is de standaardtijdstempel 12:00 uur (middernacht) op de opgegeven datum.|
    |`$record`|"AzureActiveDirectory"|Het recordtype van de controleactiviteiten (ook wel controle *bewerkingen* genoemd) die u wilt zoeken. Deze eigenschap geeft de service of functie aan waarin een activiteit is geactiveerd. Zie [Het recordtype Auditlogboek](/office/office-365-management-api/office-365-management-activity-api-schema#auditlogrecordtype)voor een lijst met recordtypen die u voor deze variabele kunt gebruiken. U kunt de naam van het recordtype of de ENUM-waarde gebruiken. <br/><br/>**Tip:** als u auditrecords voor alle recordtypen wilt retourneren, gebruikt u de waarde `$null` (zonder dubbele aanhalingstekens).|

@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: 268a109e-7843-405b-bb3d-b9393b2342ce
 ms.custom: seo-marvel-apr2020
 description: Lees hoe u het compliancecentrum kunt gebruiken om archiefpostvakken in te stellen ter ondersteuning van de vereisten voor het bewaren en bewaren van berichten in uw organisatie, eDiscovery en bewaring.
-ms.openlocfilehash: 2bc80d347d1324a317cc2cc2712d475781adc492
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 72aa3f194197140cd86463598a17ab07fbbd647a
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "52162155"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341686"
 ---
 # <a name="enable-archive-mailboxes-in-the-compliance-center"></a>Archiefpostvakken inschakelen in het compliancecentrum
 
@@ -40,11 +40,9 @@ De rol van e-mailgeadresseerde moet aan u zijn toegewezen in Exchange Online om 
 
 ## <a name="enable-an-archive-mailbox"></a>Schakel een archiefpostvak in
 
-1. Ga naar <https://protection.office.com>.
+1. Ga naar <https://compliance.microsoft.com> en meld u aan.
 
-2. Meld u aan met uw werk- of schoolaccount.
-
-3. Klik in het linkerdeelvenster van het beveiligings- en compliancecentrum op **Informatiebeheer** \> **archief**.
+2. Klik in het linkerdeelvenster van het Microsoft365-compliancecentrum op **Informatiebeheer** en vervolgens op het **Archief**-tabblad.
 
    Er wordt een pagina **Archief** weergegeven. De **Archiefpostvak** geeft aan of een archiefpostvak voor elke gebruiker is ingeschakeld of uitgeschakeld.
 
@@ -74,24 +72,22 @@ Twee jaar na de datum waarop een bericht in het postvak van gebruikers wordt bez
 
 Een archiefpostvak uitschakelen:
 
-1. Ga naar <https://protection.office.com>.
+1. Ga naar <https://compliance.microsoft.com> en meld u aan.
 
-2. Meld u aan met uw werk- of schoolaccount.
-
-3. Klik in het linkerdeelvenster van het beveiligings- en compliancecentrum op **Informatiebeheer** \> **archief**.
+2. Klik in het linkerdeelvenster van het Microsoft365-compliancecentrum op **Informatiebeheer** en vervolgens op het **Archief**-tabblad.
 
    Er wordt een pagina **Archief** weergegeven. De **Archiefpostvak** geeft aan of een archiefpostvak voor elke gebruiker is ingeschakeld of uitgeschakeld.
 
    > [!NOTE]
    > Op de pagina **Archief** kunnen maximaal 500 gebruikers worden weergegeven.
 
-4. Selecteer in de lijst met postvakken de gebruiker voor wie u het archiefpostvak wilt uitschakelen.
+3. Selecteer in de lijst met postvakken de gebruiker voor wie u het archiefpostvak wilt uitschakelen.
 
-5. Klik in het detailvenster op **Uitschakelen**.
+4. Klik in het detailvenster op **Uitschakelen**.
 
    Er wordt een waarschuwingsbericht weergegeven met de tekst dat u 30 dagen de tijd hebt om het archiefpostvak opnieuw in te stellen. Na 30 dagen worden alle gegevens in het archief definitief verwijderd.
 
-6. Klik **Ja** om archiefpostvak uit te schakelen.
+5. Klik **Ja** om archiefpostvak uit te schakelen.
 
    Het kan even duren voordat het archiefpostvak is uitgeschakeld. Wanneer het postvak is uitgeschakeld, wordt **Archiefpostvak: uitgeschakeld** weergegeven in het detailvenster voor de geselecteerde gebruiker. Mogelijk moet u op **Vernieuwen** ![pictogram Vernieuwen](../media/O365-MDM-Policy-RefreshIcon.gif) klikken om de informatie in het detailvenster bij te werken.
 

@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: fb5ac074-e203-4e1f-9843-b9d1a3e03297
 description: 'Lees hoe een Microsoft 365-globale beheerder het e-mailadres en de weergavenaam van een gebruiker kan wijzigen wanneer hun naam wijzigt. '
-ms.openlocfilehash: fdba2191449bc3ea5aae5b5bde73fe5294b1f9d3
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 3215044f94d3b4e77860434ab28eed8a36754f12
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53228361"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341018"
 ---
 # <a name="change-a-user-name-and-email-address"></a>Een gebruikersnaam en e-mailadres wijzigen
 
@@ -64,7 +64,7 @@ U moet een [globale beheerder](about-admin-roles.md) zijn om deze stappen uit te
 
 1. Selecteer de naam van de gebruiker en selecteer vervolgens op het tabblad **Account** de optie **Gebruikersnaam beheren**.
 
-1. Typ in het eerste vak het eerste deel van het nieuwe e-mailadres. Als u uw eigen domein hebt toegevoegd aan Microsoft 365, kiest u het domein voor de nieuwe e-mailalias in de vervolgkeuzelijst.
+1. Typ in het eerste vak het eerste deel van het nieuwe e-mailadres. Als u uw eigen domein hebt toegevoegd aan Microsoft 365, kiest u het domein voor de nieuwe e-mailalias in de vervolgkeuzelijst. [Ontdek hoe u een domein toevoegt](../setup/add-domain.md).
 
 1. Selecteer **Wijzigingen opslaan**.
 
@@ -118,7 +118,7 @@ U moet een [globale beheerder](about-admin-roles.md) zijn om deze stappen uit te
 
 ::: moniker range="o365-worldwide"
 
-1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>.
+1. Ga in het beheercentrum naar de pagina **Gebruikers** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Actieve gebruikers</a>. 
 
 ::: moniker-end
 
@@ -177,6 +177,7 @@ Zie [De naam van een gebruikersaccount wijzigen](/previous-versions/windows/it-p
 
 ## <a name="related-content"></a>Verwante inhoud
 
-[Beheerders: het wachtwoord opnieuw instellen voor een of meer gebruikers](reset-passwords.md) (artikel)\
-[Ander e-mailadres voor een gebruiker toevoegen](../email/add-another-email-alias-for-a-user.md) (artikel)\
-[Een gedeeld postvak maken](../email/create-a-shared-mailbox.md) (artikel)
+[Een domein toevoegen](../setup/add-domain.md)
+[Beheerders: een wachtwoord voor een of meer gebruikers opnieuw instellen](reset-passwords.md)
+[Een ander e-mailadres toevoegen aan een gebruiker](../email/add-another-email-alias-for-a-user.md)
+[Een gedeelde mailbox maken](../email/create-a-shared-mailbox.md)
