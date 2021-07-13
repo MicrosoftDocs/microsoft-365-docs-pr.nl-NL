@@ -19,156 +19,157 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - commerce_billing
+- AdminTemplateSet
 ms.date: 03/17/2021
-ms.openlocfilehash: 5c472615846ba6460bc829bc0157c6c6da940292
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 9429a4fc5adc3447a0238a3e8aa84ab39585fc50
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332016"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394519"
 ---
-# <a name="tax-information"></a><span data-ttu-id="bf452-103">Belastinginformatie</span><span class="sxs-lookup"><span data-stu-id="bf452-103">Tax information</span></span>
+# <a name="tax-information"></a><span data-ttu-id="5f21b-103">Belastinginformatie</span><span class="sxs-lookup"><span data-stu-id="5f21b-103">Tax information</span></span>
 
-<span data-ttu-id="bf452-104">Wanneer u Microsoft 365 producten en services koopt, worden de belastingen die u betaalt bepaald door een van de twee dingen: uw zakelijke adres of uw verzendadres, als dit anders is.</span><span class="sxs-lookup"><span data-stu-id="bf452-104">When you buy Microsoft 365 products and services, the taxes that you pay are determined by one of two things: your business address, or your shipping address, if it's different.</span></span> <span data-ttu-id="bf452-105">Als uw organisatie in de Verenigde Staten is, moet u een FEIN (Federal Employer Identification Number) geven.</span><span class="sxs-lookup"><span data-stu-id="bf452-105">If your organization is in the United States, you must provide a Federal Employer Identification Number (FEIN).</span></span>
+<span data-ttu-id="5f21b-104">Wanneer u Microsoft 365 producten en services koopt, worden de belastingen die u betaalt bepaald door een van de twee dingen: uw zakelijke adres of uw verzendadres, als dit anders is.</span><span class="sxs-lookup"><span data-stu-id="5f21b-104">When you buy Microsoft 365 products and services, the taxes that you pay are determined by one of two things: your business address, or your shipping address, if it's different.</span></span> <span data-ttu-id="5f21b-105">Als uw organisatie in de Verenigde Staten is, moet u een FEIN (Federal Employer Identification Number) geven.</span><span class="sxs-lookup"><span data-stu-id="5f21b-105">If your organization is in the United States, you must provide a Federal Employer Identification Number (FEIN).</span></span>
 
-<span data-ttu-id="bf452-106">Bedrijven in de volgende landen kunnen hun btw-nummer of lokale equivalent verstrekken:</span><span class="sxs-lookup"><span data-stu-id="bf452-106">Businesses in the following countries can provide their VAT number or local equivalent:</span></span>
+<span data-ttu-id="5f21b-106">Bedrijven in de volgende landen kunnen hun btw-nummer of lokale equivalent verstrekken:</span><span class="sxs-lookup"><span data-stu-id="5f21b-106">Businesses in the following countries can provide their VAT number or local equivalent:</span></span>
 
 :::row:::
     :::column:::
 
-- <span data-ttu-id="bf452-107">Armenië</span><span class="sxs-lookup"><span data-stu-id="bf452-107">Armenia</span></span>
-- <span data-ttu-id="bf452-108">Australië</span><span class="sxs-lookup"><span data-stu-id="bf452-108">Australia</span></span>
-- <span data-ttu-id="bf452-109">Oostenrijk</span><span class="sxs-lookup"><span data-stu-id="bf452-109">Austria</span></span>
-- <span data-ttu-id="bf452-110">Bahama's</span><span class="sxs-lookup"><span data-stu-id="bf452-110">Bahamas</span></span>
-- <span data-ttu-id="bf452-111">Bangladesh</span><span class="sxs-lookup"><span data-stu-id="bf452-111">Bangladesh</span></span>
-- <span data-ttu-id="bf452-112">Belarus</span><span class="sxs-lookup"><span data-stu-id="bf452-112">Belarus</span></span>
-- <span data-ttu-id="bf452-113">België</span><span class="sxs-lookup"><span data-stu-id="bf452-113">Belgium</span></span>
-- <span data-ttu-id="bf452-114">Brazilië\*</span><span class="sxs-lookup"><span data-stu-id="bf452-114">Brazil\*</span></span>
-- <span data-ttu-id="bf452-115">Bulgarije</span><span class="sxs-lookup"><span data-stu-id="bf452-115">Bulgaria</span></span>
-- <span data-ttu-id="bf452-116">Chili</span><span class="sxs-lookup"><span data-stu-id="bf452-116">Chile</span></span>
-- <span data-ttu-id="bf452-117">Colombia</span><span class="sxs-lookup"><span data-stu-id="bf452-117">Colombia</span></span>
-- <span data-ttu-id="bf452-118">Kroatië</span><span class="sxs-lookup"><span data-stu-id="bf452-118">Croatia</span></span>
-- <span data-ttu-id="bf452-119">Cyprus</span><span class="sxs-lookup"><span data-stu-id="bf452-119">Cyprus</span></span>
-- <span data-ttu-id="bf452-120">Tsjechië</span><span class="sxs-lookup"><span data-stu-id="bf452-120">Czech Republic</span></span>
-- <span data-ttu-id="bf452-121">Denemarken</span><span class="sxs-lookup"><span data-stu-id="bf452-121">Denmark</span></span>
-- <span data-ttu-id="bf452-122">Estland</span><span class="sxs-lookup"><span data-stu-id="bf452-122">Estonia</span></span>
-- <span data-ttu-id="bf452-123">Finland</span><span class="sxs-lookup"><span data-stu-id="bf452-123">Finland</span></span>
-- <span data-ttu-id="bf452-124">Frankrijk</span><span class="sxs-lookup"><span data-stu-id="bf452-124">France</span></span>
-- <span data-ttu-id="bf452-125">Duitsland</span><span class="sxs-lookup"><span data-stu-id="bf452-125">Germany</span></span>
-- <span data-ttu-id="bf452-126">Griekenland</span><span class="sxs-lookup"><span data-stu-id="bf452-126">Greece</span></span>
-- <span data-ttu-id="bf452-127">Hongarije</span><span class="sxs-lookup"><span data-stu-id="bf452-127">Hungary</span></span>
-- <span data-ttu-id="bf452-128">India\*</span><span class="sxs-lookup"><span data-stu-id="bf452-128">India\*</span></span>
-- <span data-ttu-id="bf452-129">Indonesië</span><span class="sxs-lookup"><span data-stu-id="bf452-129">Indonesia</span></span>
-- <span data-ttu-id="bf452-130">Ierland</span><span class="sxs-lookup"><span data-stu-id="bf452-130">Ireland</span></span>
-- <span data-ttu-id="bf452-131">Isle of Man</span><span class="sxs-lookup"><span data-stu-id="bf452-131">Isle of Man</span></span>
-- <span data-ttu-id="bf452-132">Italië</span><span class="sxs-lookup"><span data-stu-id="bf452-132">Italy</span></span>
+- <span data-ttu-id="5f21b-107">Armenië</span><span class="sxs-lookup"><span data-stu-id="5f21b-107">Armenia</span></span>
+- <span data-ttu-id="5f21b-108">Australië</span><span class="sxs-lookup"><span data-stu-id="5f21b-108">Australia</span></span>
+- <span data-ttu-id="5f21b-109">Oostenrijk</span><span class="sxs-lookup"><span data-stu-id="5f21b-109">Austria</span></span>
+- <span data-ttu-id="5f21b-110">Bahama's</span><span class="sxs-lookup"><span data-stu-id="5f21b-110">Bahamas</span></span>
+- <span data-ttu-id="5f21b-111">Bangladesh</span><span class="sxs-lookup"><span data-stu-id="5f21b-111">Bangladesh</span></span>
+- <span data-ttu-id="5f21b-112">Belarus</span><span class="sxs-lookup"><span data-stu-id="5f21b-112">Belarus</span></span>
+- <span data-ttu-id="5f21b-113">België</span><span class="sxs-lookup"><span data-stu-id="5f21b-113">Belgium</span></span>
+- <span data-ttu-id="5f21b-114">Brazilië\*</span><span class="sxs-lookup"><span data-stu-id="5f21b-114">Brazil\*</span></span>
+- <span data-ttu-id="5f21b-115">Bulgarije</span><span class="sxs-lookup"><span data-stu-id="5f21b-115">Bulgaria</span></span>
+- <span data-ttu-id="5f21b-116">Chili</span><span class="sxs-lookup"><span data-stu-id="5f21b-116">Chile</span></span>
+- <span data-ttu-id="5f21b-117">Colombia</span><span class="sxs-lookup"><span data-stu-id="5f21b-117">Colombia</span></span>
+- <span data-ttu-id="5f21b-118">Kroatië</span><span class="sxs-lookup"><span data-stu-id="5f21b-118">Croatia</span></span>
+- <span data-ttu-id="5f21b-119">Cyprus</span><span class="sxs-lookup"><span data-stu-id="5f21b-119">Cyprus</span></span>
+- <span data-ttu-id="5f21b-120">Tsjechië</span><span class="sxs-lookup"><span data-stu-id="5f21b-120">Czech Republic</span></span>
+- <span data-ttu-id="5f21b-121">Denemarken</span><span class="sxs-lookup"><span data-stu-id="5f21b-121">Denmark</span></span>
+- <span data-ttu-id="5f21b-122">Estland</span><span class="sxs-lookup"><span data-stu-id="5f21b-122">Estonia</span></span>
+- <span data-ttu-id="5f21b-123">Finland</span><span class="sxs-lookup"><span data-stu-id="5f21b-123">Finland</span></span>
+- <span data-ttu-id="5f21b-124">Frankrijk</span><span class="sxs-lookup"><span data-stu-id="5f21b-124">France</span></span>
+- <span data-ttu-id="5f21b-125">Duitsland</span><span class="sxs-lookup"><span data-stu-id="5f21b-125">Germany</span></span>
+- <span data-ttu-id="5f21b-126">Griekenland</span><span class="sxs-lookup"><span data-stu-id="5f21b-126">Greece</span></span>
+- <span data-ttu-id="5f21b-127">Hongarije</span><span class="sxs-lookup"><span data-stu-id="5f21b-127">Hungary</span></span>
+- <span data-ttu-id="5f21b-128">India\*</span><span class="sxs-lookup"><span data-stu-id="5f21b-128">India\*</span></span>
+- <span data-ttu-id="5f21b-129">Indonesië</span><span class="sxs-lookup"><span data-stu-id="5f21b-129">Indonesia</span></span>
+- <span data-ttu-id="5f21b-130">Ierland</span><span class="sxs-lookup"><span data-stu-id="5f21b-130">Ireland</span></span>
+- <span data-ttu-id="5f21b-131">Isle of Man</span><span class="sxs-lookup"><span data-stu-id="5f21b-131">Isle of Man</span></span>
+- <span data-ttu-id="5f21b-132">Italië</span><span class="sxs-lookup"><span data-stu-id="5f21b-132">Italy</span></span>
     :::column-end:::
     :::column:::
-- <span data-ttu-id="bf452-133">Korea </span><span class="sxs-lookup"><span data-stu-id="bf452-133">Korea</span></span>
-- <span data-ttu-id="bf452-134">Letland</span><span class="sxs-lookup"><span data-stu-id="bf452-134">Latvia</span></span>
-- <span data-ttu-id="bf452-135">Liechtenstein</span><span class="sxs-lookup"><span data-stu-id="bf452-135">Liechtenstein</span></span>
-- <span data-ttu-id="bf452-136">Litouwen</span><span class="sxs-lookup"><span data-stu-id="bf452-136">Lithuania</span></span>
-- <span data-ttu-id="bf452-137">Luxemburg</span><span class="sxs-lookup"><span data-stu-id="bf452-137">Luxembourg</span></span>
-- <span data-ttu-id="bf452-138">Maleisië </span><span class="sxs-lookup"><span data-stu-id="bf452-138">Malaysia</span></span>
-- <span data-ttu-id="bf452-139">Malta</span><span class="sxs-lookup"><span data-stu-id="bf452-139">Malta</span></span>
-- <span data-ttu-id="bf452-140">Mexico</span><span class="sxs-lookup"><span data-stu-id="bf452-140">Mexico</span></span>
-- <span data-ttu-id="bf452-141">Monaco</span><span class="sxs-lookup"><span data-stu-id="bf452-141">Monaco</span></span>
-- <span data-ttu-id="bf452-142">Nederland</span><span class="sxs-lookup"><span data-stu-id="bf452-142">Netherlands</span></span>
-- <span data-ttu-id="bf452-143">Nieuw-Zeeland</span><span class="sxs-lookup"><span data-stu-id="bf452-143">New Zealand</span></span>
-- <span data-ttu-id="bf452-144">Noorwegen</span><span class="sxs-lookup"><span data-stu-id="bf452-144">Norway</span></span>
-- <span data-ttu-id="bf452-145">Polen</span><span class="sxs-lookup"><span data-stu-id="bf452-145">Poland</span></span>
-- <span data-ttu-id="bf452-146">Portugal</span><span class="sxs-lookup"><span data-stu-id="bf452-146">Portugal</span></span>
-- <span data-ttu-id="bf452-147">Roemenië</span><span class="sxs-lookup"><span data-stu-id="bf452-147">Romania</span></span>
-- <span data-ttu-id="bf452-148">Saudi-Arabië</span><span class="sxs-lookup"><span data-stu-id="bf452-148">Saudi Arabia</span></span>
-- <span data-ttu-id="bf452-149">Slowakije</span><span class="sxs-lookup"><span data-stu-id="bf452-149">Slovakia</span></span>
-- <span data-ttu-id="bf452-150">Slovenië</span><span class="sxs-lookup"><span data-stu-id="bf452-150">Slovenia</span></span>
-- <span data-ttu-id="bf452-151">Zuid-Afrika</span><span class="sxs-lookup"><span data-stu-id="bf452-151">South Africa</span></span>
-- <span data-ttu-id="bf452-152">Spanje</span><span class="sxs-lookup"><span data-stu-id="bf452-152">Spain</span></span>
-- <span data-ttu-id="bf452-153">Zweden</span><span class="sxs-lookup"><span data-stu-id="bf452-153">Sweden</span></span>
-- <span data-ttu-id="bf452-154">Zwitserland</span><span class="sxs-lookup"><span data-stu-id="bf452-154">Switzerland</span></span>
-- <span data-ttu-id="bf452-155">Taiwan</span><span class="sxs-lookup"><span data-stu-id="bf452-155">Taiwan</span></span>
-- <span data-ttu-id="bf452-156">Turkije</span><span class="sxs-lookup"><span data-stu-id="bf452-156">Turkey</span></span>
-- <span data-ttu-id="bf452-157">Verenigde Arabische Emiraten</span><span class="sxs-lookup"><span data-stu-id="bf452-157">United Arab Emirates</span></span>
-- <span data-ttu-id="bf452-158">Verenigd Koninkrijk</span><span class="sxs-lookup"><span data-stu-id="bf452-158">United Kingdom</span></span>
+- <span data-ttu-id="5f21b-133">Korea </span><span class="sxs-lookup"><span data-stu-id="5f21b-133">Korea</span></span>
+- <span data-ttu-id="5f21b-134">Letland</span><span class="sxs-lookup"><span data-stu-id="5f21b-134">Latvia</span></span>
+- <span data-ttu-id="5f21b-135">Liechtenstein</span><span class="sxs-lookup"><span data-stu-id="5f21b-135">Liechtenstein</span></span>
+- <span data-ttu-id="5f21b-136">Litouwen</span><span class="sxs-lookup"><span data-stu-id="5f21b-136">Lithuania</span></span>
+- <span data-ttu-id="5f21b-137">Luxemburg</span><span class="sxs-lookup"><span data-stu-id="5f21b-137">Luxembourg</span></span>
+- <span data-ttu-id="5f21b-138">Maleisië </span><span class="sxs-lookup"><span data-stu-id="5f21b-138">Malaysia</span></span>
+- <span data-ttu-id="5f21b-139">Malta</span><span class="sxs-lookup"><span data-stu-id="5f21b-139">Malta</span></span>
+- <span data-ttu-id="5f21b-140">Mexico</span><span class="sxs-lookup"><span data-stu-id="5f21b-140">Mexico</span></span>
+- <span data-ttu-id="5f21b-141">Monaco</span><span class="sxs-lookup"><span data-stu-id="5f21b-141">Monaco</span></span>
+- <span data-ttu-id="5f21b-142">Nederland</span><span class="sxs-lookup"><span data-stu-id="5f21b-142">Netherlands</span></span>
+- <span data-ttu-id="5f21b-143">Nieuw-Zeeland</span><span class="sxs-lookup"><span data-stu-id="5f21b-143">New Zealand</span></span>
+- <span data-ttu-id="5f21b-144">Noorwegen</span><span class="sxs-lookup"><span data-stu-id="5f21b-144">Norway</span></span>
+- <span data-ttu-id="5f21b-145">Polen</span><span class="sxs-lookup"><span data-stu-id="5f21b-145">Poland</span></span>
+- <span data-ttu-id="5f21b-146">Portugal</span><span class="sxs-lookup"><span data-stu-id="5f21b-146">Portugal</span></span>
+- <span data-ttu-id="5f21b-147">Roemenië</span><span class="sxs-lookup"><span data-stu-id="5f21b-147">Romania</span></span>
+- <span data-ttu-id="5f21b-148">Saudi-Arabië</span><span class="sxs-lookup"><span data-stu-id="5f21b-148">Saudi Arabia</span></span>
+- <span data-ttu-id="5f21b-149">Slowakije</span><span class="sxs-lookup"><span data-stu-id="5f21b-149">Slovakia</span></span>
+- <span data-ttu-id="5f21b-150">Slovenië</span><span class="sxs-lookup"><span data-stu-id="5f21b-150">Slovenia</span></span>
+- <span data-ttu-id="5f21b-151">Zuid-Afrika</span><span class="sxs-lookup"><span data-stu-id="5f21b-151">South Africa</span></span>
+- <span data-ttu-id="5f21b-152">Spanje</span><span class="sxs-lookup"><span data-stu-id="5f21b-152">Spain</span></span>
+- <span data-ttu-id="5f21b-153">Zweden</span><span class="sxs-lookup"><span data-stu-id="5f21b-153">Sweden</span></span>
+- <span data-ttu-id="5f21b-154">Zwitserland</span><span class="sxs-lookup"><span data-stu-id="5f21b-154">Switzerland</span></span>
+- <span data-ttu-id="5f21b-155">Taiwan</span><span class="sxs-lookup"><span data-stu-id="5f21b-155">Taiwan</span></span>
+- <span data-ttu-id="5f21b-156">Turkije</span><span class="sxs-lookup"><span data-stu-id="5f21b-156">Turkey</span></span>
+- <span data-ttu-id="5f21b-157">Verenigde Arabische Emiraten</span><span class="sxs-lookup"><span data-stu-id="5f21b-157">United Arab Emirates</span></span>
+- <span data-ttu-id="5f21b-158">Verenigd Koninkrijk</span><span class="sxs-lookup"><span data-stu-id="5f21b-158">United Kingdom</span></span>
     :::column-end:::
 :::row-end:::
 
-<span data-ttu-id="bf452-159">\*Voor de meeste vermelde landen is het optioneel om een btw-nummer of een lokaal equivalent op te geven.</span><span class="sxs-lookup"><span data-stu-id="bf452-159">\*For most of the countries listed, providing a VAT number or local equivalent is optional.</span></span> <span data-ttu-id="bf452-160">Voor Brazilië en India is het nummer van de belastingaanduiding vereist.</span><span class="sxs-lookup"><span data-stu-id="bf452-160">For Brazil and India, the tax identifier number is required.</span></span>
+<span data-ttu-id="5f21b-159">\*Voor de meeste vermelde landen is het optioneel om een btw-nummer of een lokaal equivalent op te geven.</span><span class="sxs-lookup"><span data-stu-id="5f21b-159">\*For most of the countries listed, providing a VAT number or local equivalent is optional.</span></span> <span data-ttu-id="5f21b-160">Voor Brazilië en India is het nummer van de belastingaanduiding vereist.</span><span class="sxs-lookup"><span data-stu-id="5f21b-160">For Brazil and India, the tax identifier number is required.</span></span>
 
 > [!Note]
-> <span data-ttu-id="bf452-161">Als u contact wilt opnemen met de ondersteuning, moet u uw FEIN-, btw-nummer of lokale equivalent aan de ondersteuningsagent geven.</span><span class="sxs-lookup"><span data-stu-id="bf452-161">If you need to contact support, have your FEIN, VAT number, or local equivalent ready to give to the support agent.</span></span>
+> <span data-ttu-id="5f21b-161">Als u contact wilt opnemen met de ondersteuning, moet u uw FEIN-, btw-nummer of lokale equivalent aan de ondersteuningsagent geven.</span><span class="sxs-lookup"><span data-stu-id="5f21b-161">If you need to contact support, have your FEIN, VAT number, or local equivalent ready to give to the support agent.</span></span>
 
-## <a name="europe-the-middle-east-and-africa-emea"></a><span data-ttu-id="bf452-162">Europa, het Midden-Oosten en Afrika (EMEA)</span><span class="sxs-lookup"><span data-stu-id="bf452-162">Europe, the Middle East, and Africa (EMEA)</span></span>
+## <a name="europe-the-middle-east-and-africa-emea"></a><span data-ttu-id="5f21b-162">Europa, het Midden-Oosten en Afrika (EMEA)</span><span class="sxs-lookup"><span data-stu-id="5f21b-162">Europe, the Middle East, and Africa (EMEA)</span></span>
 
-<span data-ttu-id="bf452-163">Wanneer u Microsoft 365 services koopt in de EMEA-regio, kan deze aankoop onderworpen zijn aan Value-Added btw.</span><span class="sxs-lookup"><span data-stu-id="bf452-163">When you buy Microsoft 365 services in the EMEA region, this purchase could be subject to Value-Added Tax (VAT).</span></span>
+<span data-ttu-id="5f21b-163">Wanneer u Microsoft 365 services koopt in de EMEA-regio, kan deze aankoop onderworpen zijn aan Value-Added btw.</span><span class="sxs-lookup"><span data-stu-id="5f21b-163">When you buy Microsoft 365 services in the EMEA region, this purchase could be subject to Value-Added Tax (VAT).</span></span>
   
-- <span data-ttu-id="bf452-164">Als u zich in een lidstaat van de Europese Unie, Armenië, Wit-Rusland, Noorwegen, Turkije of de Verenigde Arabische Emiraten bevindt en u uw geldige lokale btw-id niet verstrekt, wordt het huidige lokale btw-tarief toegepast op basis van het factureringsland waarin uw account is ingesteld.</span><span class="sxs-lookup"><span data-stu-id="bf452-164">If you're located in a European Union Member State, Armenia, Belarus, Norway, Turkey, or United Arab Emirates, and you don't provide your valid local VAT ID, Microsoft Ireland Operations Ltd. will apply the current local VAT rate, based on the billing country your account is set to.</span></span>
+- <span data-ttu-id="5f21b-164">Als u zich in een lidstaat van de Europese Unie, Armenië, Wit-Rusland, Noorwegen, Turkije of de Verenigde Arabische Emiraten bevindt en u uw geldige lokale btw-id niet verstrekt, wordt het huidige lokale btw-tarief toegepast op basis van het factureringsland waarin uw account is ingesteld.</span><span class="sxs-lookup"><span data-stu-id="5f21b-164">If you're located in a European Union Member State, Armenia, Belarus, Norway, Turkey, or United Arab Emirates, and you don't provide your valid local VAT ID, Microsoft Ireland Operations Ltd. will apply the current local VAT rate, based on the billing country your account is set to.</span></span>
 
-- <span data-ttu-id="bf452-165">Als u zich in Liechtenstein, Rusland, Servië, Zuid-Afrika of Zwitserland bevindt, wordt de btw toegepast, ongeacht of u uw btw-id op geeft of niet.</span><span class="sxs-lookup"><span data-stu-id="bf452-165">If you're located in Liechtenstein, Russia, Serbia, South Africa, or Switzerland, the VAT is applied, whether you provide your VAT ID or not.</span></span>
+- <span data-ttu-id="5f21b-165">Als u zich in Liechtenstein, Rusland, Servië, Zuid-Afrika of Zwitserland bevindt, wordt de btw toegepast, ongeacht of u uw btw-id op geeft of niet.</span><span class="sxs-lookup"><span data-stu-id="5f21b-165">If you're located in Liechtenstein, Russia, Serbia, South Africa, or Switzerland, the VAT is applied, whether you provide your VAT ID or not.</span></span>
 
-- <span data-ttu-id="bf452-166">Voordat we uw BTW-id kunnen valideren voor EU-klanten, moet deze beschikbaar zijn voor verificatie in het BTW-Exchange-systeem (VIES).</span><span class="sxs-lookup"><span data-stu-id="bf452-166">For EU customers, before we can validate your VAT ID, it must be available for verification in the VAT Information Exchange System (VIES).</span></span> <span data-ttu-id="bf452-167">Als uw btw-id niet kan worden geverifieerd, neem dan contact op met uw lokale belastingdienst.</span><span class="sxs-lookup"><span data-stu-id="bf452-167">If your VAT ID can't be verified, contact your local tax authority.</span></span>
+- <span data-ttu-id="5f21b-166">Voordat we uw BTW-id kunnen valideren voor EU-klanten, moet deze beschikbaar zijn voor verificatie in het BTW-Exchange-systeem (VIES).</span><span class="sxs-lookup"><span data-stu-id="5f21b-166">For EU customers, before we can validate your VAT ID, it must be available for verification in the VAT Information Exchange System (VIES).</span></span> <span data-ttu-id="5f21b-167">Als uw btw-id niet kan worden geverifieerd, neem dan contact op met uw lokale belastingdienst.</span><span class="sxs-lookup"><span data-stu-id="5f21b-167">If your VAT ID can't be verified, contact your local tax authority.</span></span>
 
-<span data-ttu-id="bf452-168">U komt mogelijk in aanmerking voor btw-nul als:</span><span class="sxs-lookup"><span data-stu-id="bf452-168">You might qualify for VAT zero-rating if:</span></span>
+<span data-ttu-id="5f21b-168">U komt mogelijk in aanmerking voor btw-nul als:</span><span class="sxs-lookup"><span data-stu-id="5f21b-168">You might qualify for VAT zero-rating if:</span></span>
   
-- <span data-ttu-id="bf452-169">**U bent in een lidstaat van de Europese Unie buiten Ierland:** U kunt uw geldige lokale btw-id verstrekken.</span><span class="sxs-lookup"><span data-stu-id="bf452-169">**You're in a European Union Member State outside Ireland:** You can provide your valid local VAT ID.</span></span> <span data-ttu-id="bf452-170">Hierdoor kan Microsoft Ireland Operations Ltd. de transactie zonder btw betalen.</span><span class="sxs-lookup"><span data-stu-id="bf452-170">This lets Microsoft Ireland Operations Ltd. to VAT zero-rate the transaction.</span></span> <span data-ttu-id="bf452-171">Het is echter mogelijk dat u een lokale btw-verplichting hebt.</span><span class="sxs-lookup"><span data-stu-id="bf452-171">However, you might have a local VAT accounting obligation.</span></span> <span data-ttu-id="bf452-172">Neem contact op met uw belastingadviseurs als u zich zorgen maakt.</span><span class="sxs-lookup"><span data-stu-id="bf452-172">If you have any concerns, check with your tax advisers.</span></span> <span data-ttu-id="bf452-173">Zie Uw btw-id toevoegen [voor instructies.](#add-your-vat-id)</span><span class="sxs-lookup"><span data-stu-id="bf452-173">For instructions, see [Add your VAT ID](#add-your-vat-id).</span></span>
+- <span data-ttu-id="5f21b-169">**U bent in een lidstaat van de Europese Unie buiten Ierland:** U kunt uw geldige lokale btw-id verstrekken.</span><span class="sxs-lookup"><span data-stu-id="5f21b-169">**You're in a European Union Member State outside Ireland:** You can provide your valid local VAT ID.</span></span> <span data-ttu-id="5f21b-170">Hierdoor kan Microsoft Ireland Operations Ltd. de transactie zonder btw betalen.</span><span class="sxs-lookup"><span data-stu-id="5f21b-170">This lets Microsoft Ireland Operations Ltd. to VAT zero-rate the transaction.</span></span> <span data-ttu-id="5f21b-171">Het is echter mogelijk dat u een lokale btw-verplichting hebt.</span><span class="sxs-lookup"><span data-stu-id="5f21b-171">However, you might have a local VAT accounting obligation.</span></span> <span data-ttu-id="5f21b-172">Neem contact op met uw belastingadviseurs als u zich zorgen maakt.</span><span class="sxs-lookup"><span data-stu-id="5f21b-172">If you have any concerns, check with your tax advisers.</span></span> <span data-ttu-id="5f21b-173">Zie Uw btw-id toevoegen [voor instructies.](#add-your-vat-id)</span><span class="sxs-lookup"><span data-stu-id="5f21b-173">For instructions, see [Add your VAT ID](#add-your-vat-id).</span></span>
 
-- <span data-ttu-id="bf452-174">U bent in Ierland en hebt de relevante **geldige certificering voor btw-vrijstelling:** Microsoft Ireland Operations Ltd. kan het recht hebben om de transactie vrij te stellen van btw.</span><span class="sxs-lookup"><span data-stu-id="bf452-174">**You're in Ireland and have the relevant valid VAT exemption certification:** Microsoft Ireland Operations Ltd. may be entitled to exempt the transaction from VAT.</span></span> <span data-ttu-id="bf452-175">Als dat niet het geval is, past Microsoft Ireland Operations Ltd. het huidige Ierse btw-tarief toe, ongeacht of u een btw-nummer op geeft of niet.</span><span class="sxs-lookup"><span data-stu-id="bf452-175">If you don't, Microsoft Ireland Operations Ltd. applies the current Irish VAT rate, whether you provide a VAT ID or not.</span></span>
+- <span data-ttu-id="5f21b-174">U bent in Ierland en hebt de relevante **geldige certificering voor btw-vrijstelling:** Microsoft Ireland Operations Ltd. kan het recht hebben om de transactie vrij te stellen van btw.</span><span class="sxs-lookup"><span data-stu-id="5f21b-174">**You're in Ireland and have the relevant valid VAT exemption certification:** Microsoft Ireland Operations Ltd. may be entitled to exempt the transaction from VAT.</span></span> <span data-ttu-id="5f21b-175">Als dat niet het geval is, past Microsoft Ireland Operations Ltd. het huidige Ierse btw-tarief toe, ongeacht of u een btw-nummer op geeft of niet.</span><span class="sxs-lookup"><span data-stu-id="5f21b-175">If you don't, Microsoft Ireland Operations Ltd. applies the current Irish VAT rate, whether you provide a VAT ID or not.</span></span>
 
-- <span data-ttu-id="bf452-176">**U bent in Armenië, Wit-Rusland, Noorwegen, Turkije of de Verenigde Arabische Emiraten:** U kunt uw lokale btw-id verstrekken.</span><span class="sxs-lookup"><span data-stu-id="bf452-176">**You're in Armenia, Belarus, Norway, Turkey, or United Arab Emirates:** You can provide your local VAT ID.</span></span> <span data-ttu-id="bf452-177">Hierdoor heeft Microsoft Ireland Operations Ltd. recht op btw-tarief voor de transactie.</span><span class="sxs-lookup"><span data-stu-id="bf452-177">This entitles Microsoft Ireland Operations Ltd. to VAT zero-rate the transaction.</span></span> <span data-ttu-id="bf452-178">U hebt echter mogelijk een lokale btw-verplichting, dus neem contact op met uw belastingadviseurs als u problemen hebt.</span><span class="sxs-lookup"><span data-stu-id="bf452-178">However, you may have a local VAT accounting obligation, so please check with your tax advisers if you have any concerns.</span></span> <span data-ttu-id="bf452-179">Zie Uw btw-id toevoegen [voor instructies.](#add-your-vat-id)</span><span class="sxs-lookup"><span data-stu-id="bf452-179">For instructions, see [Add your VAT ID](#add-your-vat-id).</span></span>
+- <span data-ttu-id="5f21b-176">**U bent in Armenië, Wit-Rusland, Noorwegen, Turkije of de Verenigde Arabische Emiraten:** U kunt uw lokale btw-id verstrekken.</span><span class="sxs-lookup"><span data-stu-id="5f21b-176">**You're in Armenia, Belarus, Norway, Turkey, or United Arab Emirates:** You can provide your local VAT ID.</span></span> <span data-ttu-id="5f21b-177">Hierdoor heeft Microsoft Ireland Operations Ltd. recht op btw-tarief voor de transactie.</span><span class="sxs-lookup"><span data-stu-id="5f21b-177">This entitles Microsoft Ireland Operations Ltd. to VAT zero-rate the transaction.</span></span> <span data-ttu-id="5f21b-178">U hebt echter mogelijk een lokale btw-verplichting, dus neem contact op met uw belastingadviseurs als u problemen hebt.</span><span class="sxs-lookup"><span data-stu-id="5f21b-178">However, you may have a local VAT accounting obligation, so please check with your tax advisers if you have any concerns.</span></span> <span data-ttu-id="5f21b-179">Zie Uw btw-id toevoegen [voor instructies.](#add-your-vat-id)</span><span class="sxs-lookup"><span data-stu-id="5f21b-179">For instructions, see [Add your VAT ID](#add-your-vat-id).</span></span>
 
-## <a name="asia-pacific-countries-apac"></a><span data-ttu-id="bf452-180">Azië en Stille Oceaan (APAC)</span><span class="sxs-lookup"><span data-stu-id="bf452-180">Asia Pacific countries (APAC)</span></span>
+## <a name="asia-pacific-countries-apac"></a><span data-ttu-id="5f21b-180">Azië en Stille Oceaan (APAC)</span><span class="sxs-lookup"><span data-stu-id="5f21b-180">Asia Pacific countries (APAC)</span></span>
 
-<span data-ttu-id="bf452-181">Als u wordt gefactureerd door het Microsoft Regional Sales-kantoor, 'Microsoft Regional Sales Pte.</span><span class="sxs-lookup"><span data-stu-id="bf452-181">If you're billed by the Microsoft Regional Sales office, "Microsoft Regional Sales Pte.</span></span> <span data-ttu-id="bf452-182">Ltd.'</span><span class="sxs-lookup"><span data-stu-id="bf452-182">Ltd."</span></span> <span data-ttu-id="bf452-183">wordt weergegeven op uw factuur en mogelijk worden er kosten in rekening gebracht voor eventuele toepasselijke belastingen op toegevoegde waarde, verkopen of soortgelijke belastingen.</span><span class="sxs-lookup"><span data-stu-id="bf452-183">appears on your invoice, and you might be charged for any applicable value-added, sales, or similar taxes.</span></span>
+<span data-ttu-id="5f21b-181">Als u wordt gefactureerd door het Microsoft Regional Sales-kantoor, 'Microsoft Regional Sales Pte.</span><span class="sxs-lookup"><span data-stu-id="5f21b-181">If you're billed by the Microsoft Regional Sales office, "Microsoft Regional Sales Pte.</span></span> <span data-ttu-id="5f21b-182">Ltd.'</span><span class="sxs-lookup"><span data-stu-id="5f21b-182">Ltd."</span></span> <span data-ttu-id="5f21b-183">wordt weergegeven op uw factuur en mogelijk worden er kosten in rekening gebracht voor eventuele toepasselijke belastingen op toegevoegde waarde, verkopen of soortgelijke belastingen.</span><span class="sxs-lookup"><span data-stu-id="5f21b-183">appears on your invoice, and you might be charged for any applicable value-added, sales, or similar taxes.</span></span>
   
-<span data-ttu-id="bf452-184">Als u wordt gefactureerd vanaf een van de volgende locaties, wordt de huidige lokale belasting toegepast.</span><span class="sxs-lookup"><span data-stu-id="bf452-184">If you're billed from one of the following locations, the current local tax is applied.</span></span> <span data-ttu-id="bf452-185">De locatie wordt op [uw factuur opgenomen:](view-your-bill-or-invoice.md)</span><span class="sxs-lookup"><span data-stu-id="bf452-185">The location is included [on your invoice](view-your-bill-or-invoice.md):</span></span>
+<span data-ttu-id="5f21b-184">Als u wordt gefactureerd vanaf een van de volgende locaties, wordt de huidige lokale belasting toegepast.</span><span class="sxs-lookup"><span data-stu-id="5f21b-184">If you're billed from one of the following locations, the current local tax is applied.</span></span> <span data-ttu-id="5f21b-185">De locatie wordt op [uw factuur opgenomen:](view-your-bill-or-invoice.md)</span><span class="sxs-lookup"><span data-stu-id="5f21b-185">The location is included [on your invoice](view-your-bill-or-invoice.md):</span></span>
   
-- <span data-ttu-id="bf452-186">India</span><span class="sxs-lookup"><span data-stu-id="bf452-186">India</span></span>
-- <span data-ttu-id="bf452-187">Japan </span><span class="sxs-lookup"><span data-stu-id="bf452-187">Japan</span></span>
-- <span data-ttu-id="bf452-188">Korea </span><span class="sxs-lookup"><span data-stu-id="bf452-188">Korea</span></span>
-- <span data-ttu-id="bf452-189">Singapore</span><span class="sxs-lookup"><span data-stu-id="bf452-189">Singapore</span></span>
-- <span data-ttu-id="bf452-190">Taiwan</span><span class="sxs-lookup"><span data-stu-id="bf452-190">Taiwan</span></span>
+- <span data-ttu-id="5f21b-186">India</span><span class="sxs-lookup"><span data-stu-id="5f21b-186">India</span></span>
+- <span data-ttu-id="5f21b-187">Japan </span><span class="sxs-lookup"><span data-stu-id="5f21b-187">Japan</span></span>
+- <span data-ttu-id="5f21b-188">Korea </span><span class="sxs-lookup"><span data-stu-id="5f21b-188">Korea</span></span>
+- <span data-ttu-id="5f21b-189">Singapore</span><span class="sxs-lookup"><span data-stu-id="5f21b-189">Singapore</span></span>
+- <span data-ttu-id="5f21b-190">Taiwan</span><span class="sxs-lookup"><span data-stu-id="5f21b-190">Taiwan</span></span>
 
-## <a name="north-central-and-south-america"></a><span data-ttu-id="bf452-191">Noord-, Centraal- en Zuid-Amerika</span><span class="sxs-lookup"><span data-stu-id="bf452-191">North, Central, and South America</span></span>
+## <a name="north-central-and-south-america"></a><span data-ttu-id="5f21b-191">Noord-, Centraal- en Zuid-Amerika</span><span class="sxs-lookup"><span data-stu-id="5f21b-191">North, Central, and South America</span></span>
 
-<span data-ttu-id="bf452-192">In de Verenigde Staten, Canada, Mexico, Chili en Colombia gelden verschillende belastingtarieven, afhankelijk van het product en uw locatie.</span><span class="sxs-lookup"><span data-stu-id="bf452-192">In the United States, Canada, Mexico, Chile, and Colombia, various tax rates apply depending on the product nature and your location.</span></span>
+<span data-ttu-id="5f21b-192">In de Verenigde Staten, Canada, Mexico, Chili en Colombia gelden verschillende belastingtarieven, afhankelijk van het product en uw locatie.</span><span class="sxs-lookup"><span data-stu-id="5f21b-192">In the United States, Canada, Mexico, Chile, and Colombia, various tax rates apply depending on the product nature and your location.</span></span>
   
-<span data-ttu-id="bf452-193">Als uw facturering wordt uitgevoerd door Microsoft Corporation[(zie](view-your-bill-or-invoice.md)uw factuur) en u zich hebt aangemeld voor Microsoft 365 buiten de Verenigde Staten, Canada, Puerto Rico, Chili en Colombia, wordt er over het algemeen geen belasting in rekening gebracht.</span><span class="sxs-lookup"><span data-stu-id="bf452-193">If your billing is done by Microsoft Corporation ([see your invoice](view-your-bill-or-invoice.md)), and you signed up for Microsoft 365 outside of the United States, Canada, Puerto Rico, Chile, and Colombia, then tax is generally not charged.</span></span>
+<span data-ttu-id="5f21b-193">Als uw facturering wordt uitgevoerd door Microsoft Corporation[(zie](view-your-bill-or-invoice.md)uw factuur) en u zich hebt aangemeld voor Microsoft 365 buiten de Verenigde Staten, Canada, Puerto Rico, Chili en Colombia, wordt er over het algemeen geen belasting in rekening gebracht.</span><span class="sxs-lookup"><span data-stu-id="5f21b-193">If your billing is done by Microsoft Corporation ([see your invoice](view-your-bill-or-invoice.md)), and you signed up for Microsoft 365 outside of the United States, Canada, Puerto Rico, Chile, and Colombia, then tax is generally not charged.</span></span>
 
-## <a name="add-your-vat-id"></a><span data-ttu-id="bf452-194">Uw BTW-id toevoegen</span><span class="sxs-lookup"><span data-stu-id="bf452-194">Add your VAT ID</span></span>
+## <a name="add-your-vat-id"></a><span data-ttu-id="5f21b-194">Uw BTW-id toevoegen</span><span class="sxs-lookup"><span data-stu-id="5f21b-194">Add your VAT ID</span></span>
 
-1. <span data-ttu-id="bf452-195">Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.</span><span class="sxs-lookup"><span data-stu-id="bf452-195">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page.</span></span>
-2. <span data-ttu-id="bf452-196">Zoek op het tabblad **Producten** het abonnement dat u wilt bijwerken.</span><span class="sxs-lookup"><span data-stu-id="bf452-196">On the **Products** tab, select the subscription that you want to update.</span></span>
-3. <span data-ttu-id="bf452-197">Selecteer op de pagina abonnementsgegevens in de sectie **Servicegebruiksadres** de optie **Adres van servicegebruik bewerken.**</span><span class="sxs-lookup"><span data-stu-id="bf452-197">On the subscription details page, in the **Service usage address** section, select **Edit service usage address**.</span></span>
-4. <span data-ttu-id="bf452-198">Voer in **het deelvenster Servicegebruiksadres** bewerken in het vak BTW-nummer uw btw-id in, inclusief het voorvoegsel, en zonder spaties. </span><span class="sxs-lookup"><span data-stu-id="bf452-198">On the **Edit service usage address** pane, in the **VAT number** box, enter your VAT ID, including the prefix, and without any spaces.</span></span>
-5. <span data-ttu-id="bf452-199">Klik op **Opslaan**.</span><span class="sxs-lookup"><span data-stu-id="bf452-199">Select **Save**.</span></span>
+1. <span data-ttu-id="5f21b-195">Ga in het beheercentrum naar de pagina **Facturering** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Mijn producten</a>.</span><span class="sxs-lookup"><span data-stu-id="5f21b-195">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page.</span></span>
+2. <span data-ttu-id="5f21b-196">Zoek op het tabblad **Producten** het abonnement dat u wilt bijwerken.</span><span class="sxs-lookup"><span data-stu-id="5f21b-196">On the **Products** tab, select the subscription that you want to update.</span></span>
+3. <span data-ttu-id="5f21b-197">Selecteer op de pagina abonnementsgegevens in de sectie **Servicegebruiksadres** de optie **Adres van servicegebruik bewerken.**</span><span class="sxs-lookup"><span data-stu-id="5f21b-197">On the subscription details page, in the **Service usage address** section, select **Edit service usage address**.</span></span>
+4. <span data-ttu-id="5f21b-198">Voer in **het deelvenster Servicegebruiksadres** bewerken in het vak BTW-nummer uw btw-id in, inclusief het voorvoegsel, en zonder spaties. </span><span class="sxs-lookup"><span data-stu-id="5f21b-198">On the **Edit service usage address** pane, in the **VAT number** box, enter your VAT ID, including the prefix, and without any spaces.</span></span>
+5. <span data-ttu-id="5f21b-199">Kies **Opslaan**.</span><span class="sxs-lookup"><span data-stu-id="5f21b-199">Select **Save**.</span></span>
 
-## <a name="how-taxes-are-calculated"></a><span data-ttu-id="bf452-200">Berekening van belastingen</span><span class="sxs-lookup"><span data-stu-id="bf452-200">How taxes are calculated</span></span>
+## <a name="how-taxes-are-calculated"></a><span data-ttu-id="5f21b-200">Berekening van belastingen</span><span class="sxs-lookup"><span data-stu-id="5f21b-200">How taxes are calculated</span></span>
 
-<span data-ttu-id="bf452-201">Omzetbelastingen worden berekend op basis van de prijs per eenheid en vervolgens samengevoegd.</span><span class="sxs-lookup"><span data-stu-id="bf452-201">Sales taxes are calculated against the unit price, and then aggregated.</span></span>
+<span data-ttu-id="5f21b-201">Omzetbelastingen worden berekend op basis van de prijs per eenheid en vervolgens samengevoegd.</span><span class="sxs-lookup"><span data-stu-id="5f21b-201">Sales taxes are calculated against the unit price, and then aggregated.</span></span>
 
-<span data-ttu-id="bf452-202">Bijvoorbeeld:</span><span class="sxs-lookup"><span data-stu-id="bf452-202">For example:</span></span>
+<span data-ttu-id="5f21b-202">Bijvoorbeeld:</span><span class="sxs-lookup"><span data-stu-id="5f21b-202">For example:</span></span>
 
-><span data-ttu-id="bf452-203">*(eenheidsprijs X belastingtarief) X aantal = totale btw*</span><span class="sxs-lookup"><span data-stu-id="bf452-203">*(unit price X tax rate) X quantity = total sales tax*</span></span>
+><span data-ttu-id="5f21b-203">*(eenheidsprijs X belastingtarief) X aantal = totale btw*</span><span class="sxs-lookup"><span data-stu-id="5f21b-203">*(unit price X tax rate) X quantity = total sales tax*</span></span>
 
-<span data-ttu-id="bf452-204">-of-</span><span class="sxs-lookup"><span data-stu-id="bf452-204">-or-</span></span>
+<span data-ttu-id="5f21b-204">-of-</span><span class="sxs-lookup"><span data-stu-id="5f21b-204">-or-</span></span>
 
-><span data-ttu-id="bf452-205">($ 1,29 X 0,095) X 100 = $ 12,25</span><span class="sxs-lookup"><span data-stu-id="bf452-205">($1.29 X 0.095) X 100 = $12.25</span></span>
+><span data-ttu-id="5f21b-205">($ 1,29 X 0,095) X 100 = $ 12,25</span><span class="sxs-lookup"><span data-stu-id="5f21b-205">($1.29 X 0.095) X 100 = $12.25</span></span>
 
-## <a name="apply-for-tax-exempt-status"></a><span data-ttu-id="bf452-206">Belastingvrijstelling aanvragen</span><span class="sxs-lookup"><span data-stu-id="bf452-206">Apply for tax-exempt status</span></span>
+## <a name="apply-for-tax-exempt-status"></a><span data-ttu-id="5f21b-206">Belastingvrijstelling aanvragen</span><span class="sxs-lookup"><span data-stu-id="5f21b-206">Apply for tax-exempt status</span></span>
 
-<span data-ttu-id="bf452-207">Als u in aanmerking komt voor belastingvrijstelling in uw markt, start u een [serviceaanvraag](../../business-video/get-help-support.md) om de belastingvrijstellingsstatus voor uw organisatie vast te stellen.</span><span class="sxs-lookup"><span data-stu-id="bf452-207">If you qualify for tax-exempt status in your market, [start a service request](../../business-video/get-help-support.md) to establish tax exempt status for your organization.</span></span>
+<span data-ttu-id="5f21b-207">Als u in aanmerking komt voor belastingvrijstelling in uw markt, start u een [serviceaanvraag](../../business-video/get-help-support.md) om de belastingvrijstellingsstatus voor uw organisatie vast te stellen.</span><span class="sxs-lookup"><span data-stu-id="5f21b-207">If you qualify for tax-exempt status in your market, [start a service request](../../business-video/get-help-support.md) to establish tax exempt status for your organization.</span></span>
 
-|<span data-ttu-id="bf452-208">Land of land</span><span class="sxs-lookup"><span data-stu-id="bf452-208">Country or locale</span></span> | <span data-ttu-id="bf452-209">Documentatie</span><span class="sxs-lookup"><span data-stu-id="bf452-209">Documentation</span></span> |
+|<span data-ttu-id="5f21b-208">Land of land</span><span class="sxs-lookup"><span data-stu-id="5f21b-208">Country or locale</span></span> | <span data-ttu-id="5f21b-209">Documentatie</span><span class="sxs-lookup"><span data-stu-id="5f21b-209">Documentation</span></span> |
 |------------------|----------------|
-| <span data-ttu-id="bf452-210">Canada</span><span class="sxs-lookup"><span data-stu-id="bf452-210">Canada</span></span> | <span data-ttu-id="bf452-211">Certificaat van vrijstelling (of een equivalente machtigingsbrief)</span><span class="sxs-lookup"><span data-stu-id="bf452-211">Certificate of Exemption (or equivalent letter of authorization)</span></span> |
-| <span data-ttu-id="bf452-212">Chili</span><span class="sxs-lookup"><span data-stu-id="bf452-212">Chile</span></span> | <span data-ttu-id="bf452-213">IVA-status/RUT (Registro Unico Tributario)</span><span class="sxs-lookup"><span data-stu-id="bf452-213">IVA status/RUT (Registro Unico Tributario)</span></span> |
-| <span data-ttu-id="bf452-214">Colombia</span><span class="sxs-lookup"><span data-stu-id="bf452-214">Colombia</span></span> | <span data-ttu-id="bf452-215">IVA-status/RUT (Registro Unico Tributario)</span><span class="sxs-lookup"><span data-stu-id="bf452-215">IVA status/RUT (Registro Unico Tributario)</span></span> |
-| <span data-ttu-id="bf452-216">Internationale organisaties met belastingvrijstelling</span><span class="sxs-lookup"><span data-stu-id="bf452-216">International organizations that hold tax exemption</span></span> | <span data-ttu-id="bf452-217">Certificering /briefbevestiging van lokale belastingdiensten</span><span class="sxs-lookup"><span data-stu-id="bf452-217">Certification / letter confirmation from local tax authorities</span></span> |
-| <span data-ttu-id="bf452-218">Ierland</span><span class="sxs-lookup"><span data-stu-id="bf452-218">Ireland</span></span> | <span data-ttu-id="bf452-219">13B/56A Tax Exemption Certificate</span><span class="sxs-lookup"><span data-stu-id="bf452-219">13B/56A Tax Exemption Certificate</span></span>|
-| <span data-ttu-id="bf452-220">Verenigde Staten</span><span class="sxs-lookup"><span data-stu-id="bf452-220">United States</span></span> | <span data-ttu-id="bf452-221">Btw-vrijstellingscertificaat</span><span class="sxs-lookup"><span data-stu-id="bf452-221">Sales Tax Exemption Certificate</span></span> |
-| <span data-ttu-id="bf452-222">Puerto Rico</span><span class="sxs-lookup"><span data-stu-id="bf452-222">Puerto Rico</span></span> | <span data-ttu-id="bf452-223">Certificado de Compras Exentas</span><span class="sxs-lookup"><span data-stu-id="bf452-223">Certificado de Compras Exentas</span></span> |
+| <span data-ttu-id="5f21b-210">Canada</span><span class="sxs-lookup"><span data-stu-id="5f21b-210">Canada</span></span> | <span data-ttu-id="5f21b-211">Certificaat van vrijstelling (of een equivalente machtigingsbrief)</span><span class="sxs-lookup"><span data-stu-id="5f21b-211">Certificate of Exemption (or equivalent letter of authorization)</span></span> |
+| <span data-ttu-id="5f21b-212">Chili</span><span class="sxs-lookup"><span data-stu-id="5f21b-212">Chile</span></span> | <span data-ttu-id="5f21b-213">IVA-status/RUT (Registro Unico Tributario)</span><span class="sxs-lookup"><span data-stu-id="5f21b-213">IVA status/RUT (Registro Unico Tributario)</span></span> |
+| <span data-ttu-id="5f21b-214">Colombia</span><span class="sxs-lookup"><span data-stu-id="5f21b-214">Colombia</span></span> | <span data-ttu-id="5f21b-215">IVA-status/RUT (Registro Unico Tributario)</span><span class="sxs-lookup"><span data-stu-id="5f21b-215">IVA status/RUT (Registro Unico Tributario)</span></span> |
+| <span data-ttu-id="5f21b-216">Internationale organisaties met belastingvrijstelling</span><span class="sxs-lookup"><span data-stu-id="5f21b-216">International organizations that hold tax exemption</span></span> | <span data-ttu-id="5f21b-217">Certificering /briefbevestiging van lokale belastingdiensten</span><span class="sxs-lookup"><span data-stu-id="5f21b-217">Certification / letter confirmation from local tax authorities</span></span> |
+| <span data-ttu-id="5f21b-218">Ierland</span><span class="sxs-lookup"><span data-stu-id="5f21b-218">Ireland</span></span> | <span data-ttu-id="5f21b-219">13B/56A Tax Exemption Certificate</span><span class="sxs-lookup"><span data-stu-id="5f21b-219">13B/56A Tax Exemption Certificate</span></span>|
+| <span data-ttu-id="5f21b-220">Verenigde Staten</span><span class="sxs-lookup"><span data-stu-id="5f21b-220">United States</span></span> | <span data-ttu-id="5f21b-221">Btw-vrijstellingscertificaat</span><span class="sxs-lookup"><span data-stu-id="5f21b-221">Sales Tax Exemption Certificate</span></span> |
+| <span data-ttu-id="5f21b-222">Puerto Rico</span><span class="sxs-lookup"><span data-stu-id="5f21b-222">Puerto Rico</span></span> | <span data-ttu-id="5f21b-223">Certificado de Compras Exentas</span><span class="sxs-lookup"><span data-stu-id="5f21b-223">Certificado de Compras Exentas</span></span> |
   
-## <a name="related-content"></a><span data-ttu-id="bf452-224">Verwante onderwerpen</span><span class="sxs-lookup"><span data-stu-id="bf452-224">Related content</span></span>
+## <a name="related-content"></a><span data-ttu-id="5f21b-224">Verwante inhoud</span><span class="sxs-lookup"><span data-stu-id="5f21b-224">Related content</span></span>
   
-<span data-ttu-id="bf452-225">[Uw rekening of factuur bekijken](view-your-bill-or-invoice.md) (artikel)</span><span class="sxs-lookup"><span data-stu-id="bf452-225">[View your bill or invoice](view-your-bill-or-invoice.md) (article)</span></span>\
-<span data-ttu-id="bf452-226">[Inzicht in uw rekening of factuur](understand-your-invoice.md) (artikel)</span><span class="sxs-lookup"><span data-stu-id="bf452-226">[Understand your bill or invoice](understand-your-invoice.md) (article)</span></span>
+<span data-ttu-id="5f21b-225">[Uw rekening of factuur bekijken](view-your-bill-or-invoice.md) (artikel)</span><span class="sxs-lookup"><span data-stu-id="5f21b-225">[View your bill or invoice](view-your-bill-or-invoice.md) (article)</span></span>\
+<span data-ttu-id="5f21b-226">[Inzicht in uw rekening of factuur](understand-your-invoice.md) (artikel)</span><span class="sxs-lookup"><span data-stu-id="5f21b-226">[Understand your bill or invoice](understand-your-invoice.md) (article)</span></span>
