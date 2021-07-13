@@ -932,6 +932,18 @@
           href: ../solutions/financial-services-secure-collaboration.md
         - name: Beveiliging en compliance voor energieservices
           href: ../solutions/energy-secure-collaboration.md
+- name: Privacyrisico's beheren
+  items:
+    - name: Meer informatie over privacybeheer
+      href: privacy-management.md
+    - name: Aan de slag met privacybeheer
+      href: privacy-management-setup.md
+    - name: Persoonlijke gegevens zoeken en visualiseren in privacybeheer
+      href: privacy-management-data-profile.md
+    - name: Beleid maken en beheren in privacybeheer
+      href: privacy-management-policies.md
+    - name: Aanvragen voor onderwerprechten beheren in privacybeheer
+      href: privacy-management-subject-rights-requests.md
 - name: Mogelijkheden voor hybride compliance
   items:
     - name: Exchange Online-e-mailversleuteling met AD RMS
