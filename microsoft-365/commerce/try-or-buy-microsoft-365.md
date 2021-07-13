@@ -16,15 +16,16 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - commerce_purchase
+- AdminTemplateSet
 search.appverid: GEA150
 description: Meld u aan voor een gratis proefabonnement van 30 dagen voor Microsoft 365 Business Standard, Microsoft 365 Business Premium of Microsoft 365-apps voor bedrijven.
 ms.date: 08/07/2020
-ms.openlocfilehash: c53f9eb64463eeb7c647bc63123aaac02598fd4c
-ms.sourcegitcommit: 959c3c3633e40b7b0f5e2c8372409778005a24db
+ms.openlocfilehash: 1ef3ceffb795a25ebad0bac1e37dd12df6f62d90
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52950045"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394867"
 ---
 # <a name="try-or-buy-a-microsoft-365-for-business-subscription"></a>Een abonnement voor Microsoft 365 voor bedrijven proberen of kopen
 
@@ -141,7 +142,7 @@ Als u een nieuw account hebt en uw eerste abonnement instelt, kunt u de artikele
 
 Als u al een abonnement hebt en een nieuw abonnement toevoegt, kunt u gebruikers naar het abonnement verplaatsen. Zie Gebruikers verplaatsen [naar een ander abonnement voor meer informatie.](subscriptions/move-users-different-subscription.md)
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Microsoft 365 voor zakelijke trainingsvideo's](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816) (video)\
 [Gebruikers toevoegen en tegelijkertijd licenties](../admin/add-users/add-users.md) toewijzen (artikel)\

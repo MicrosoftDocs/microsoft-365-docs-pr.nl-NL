@@ -17,12 +17,12 @@ ms.custom:
 description: Beheerders kunnen meer informatie krijgen over de toepassingsorde van beveiligingen in Exchange Online Protection (EOP) en hoe de prioriteitswaarde in beveiligingsbeleid bepaalt welk beleid wordt toegepast.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: df40ca6efaed5a1884e6dc453f2053f9bc1a84f1
-ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
+ms.openlocfilehash: 9dea01324e37a56fbff049e4e46cd5882f1fabad
+ms.sourcegitcommit: 8c698d1a0c41baf5f35d07b0d765b4a5ead593d0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53029283"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53409126"
 ---
 # <a name="order-and-precedence-of-email-protection"></a>Volgorde en prioriteit van e-mailbeveiliging
 
@@ -61,7 +61,8 @@ Er zijn twee belangrijke factoren die bepalen welk beleid wordt toegepast op een
 
 - De prioriteit van het **beleid:** Voor elk type beleid (antispam, anti-malware, anti-phishing, enzovoort) is er een standaardbeleid dat voor iedereen van toepassing is, maar u kunt aangepaste beleidsregels maken die van toepassing zijn op specifieke gebruikers. Elk aangepast beleid heeft een prioriteitswaarde die de volgorde bepaalt waarin het beleid wordt toegepast. Het standaardbeleid wordt altijd als laatste toegepast.
 
-  Als een gebruiker is gedefinieerd in meerdere beleidsregels van hetzelfde type, wordt alleen het beleid met de hoogste prioriteit op de gebruiker toegepast. Resterende beleidsregels van dat type worden niet geëvalueerd voor de gebruiker (inclusief het standaardbeleid).
+  > [!IMPORTANT]
+  > Als een gebruiker is gedefinieerd in meerdere beleidsregels van hetzelfde type, wordt alleen het beleid met de hoogste prioriteit op de gebruiker toegepast. Resterende beleidsregels van dat type worden niet geëvalueerd voor de gebruiker (inclusief het standaardbeleid).
 
 Denk bijvoorbeeld aan de volgende anti-phishingbeleidsregels in Microsoft Defender voor Office 365 die van toepassing zijn op dezelfde gebruikers **en** een bericht dat is geïdentificeerd als gebruikersomitatie en spoofing:
 

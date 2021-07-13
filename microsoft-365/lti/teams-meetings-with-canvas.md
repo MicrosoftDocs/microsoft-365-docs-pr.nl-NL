@@ -13,12 +13,12 @@ ms.collection: M365-modern-desktop
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: Vergaderingen Microsoft Teams canvas integreren
-ms.openlocfilehash: 946abaec52cb1c5060d5490b409758cf230a4e5a
-ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
+ms.openlocfilehash: 7e13052cb029fef369f6386c2039785e40acc4ff
+ms.sourcegitcommit: 8c698d1a0c41baf5f35d07b0d765b4a5ead593d0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53256877"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53409090"
 ---
 # <a name="use-microsoft-teams-meetings-with-canvas"></a>Vergaderingen Microsoft Teams Canvas gebruiken
 
@@ -78,3 +78,9 @@ Als canvasbeheerder moet u de LTI-app voor vergaderingen Microsoft Teams in uw o
 5. Kies **Installeren**.
 
    De Microsoft Teams LTI-app voor vergaderingen wordt toegevoegd aan de lijst met externe apps.
+   
+## <a name="enable-for-canvas-courses"></a>Canvascursussen inschakelen
+
+Als u de LTI in een cursus wilt gebruiken, moet een docent van de canvascursus de synchronisatie van de integraties inschakelen. Elke cursus moet door een docent zijn ingeschakeld om een overeenkomstige Teams te maken; er is geen globaal mechanisme voor het Teams maken. Dit is ontworpen uit voorzorg om te voorkomen dat ongewenste Teams worden gemaakt.
+
+Raadpleeg uw docenten voor documentatie over [docenten](https://support.microsoft.com/en-us/topic/use-microsoft-teams-classes-in-your-lms-preview-ac6a1e34-32f7-45e6-b83e-094185a1e78a#ID0EBD=Instructure_Canvas) voor het inschakelen van de LTI voor elke cursus en het afronden van de integratie-instelling.

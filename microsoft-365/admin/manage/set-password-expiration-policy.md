@@ -16,6 +16,7 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - okr_smb
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
@@ -23,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0f54736f-eb22-414c-8273-498a0918678f
 description: Lees hoe een beheerder een wachtwoordverloopbeleid kan instellen voor uw bedrijf, school of non-profitorganisatie in het Microsoft 365-beheercentrum.
-ms.openlocfilehash: fdd219e4fc99e2388acb5b19eacb2fc470041f79
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 64a17053ad8bc018935f99ee375e3a7164dff711
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286727"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53392465"
 ---
 # <a name="set-the-password-expiration-policy-for-your-organization"></a>Het wachtwoordverloopbeleid voor uw organisatie instellen
 
@@ -59,7 +60,7 @@ Volg onderstaande stappen als u wilt instellen dat gebruikerswachtwoorden na een
   
 5. Typ hoe vaak wachtwoorden moeten verlopen. Kies een aantal dagen tussen de 14 en 730.
   
-6. Geef in het tweede vak op wanneer gebruikers een melding ontvangen over het verlopen van het wachtwoord en selecteer vervolgens **Opslaan**. Kies een aantal dagen tussen 1 en 30.
+6. Geef in het tweede vak op wanneer gebruikers een melding ontvangen over het verlopen van het wachtwoord en klik op **Opslaan**. Kies een aantal dagen tussen 1 en 30.
   
 ## <a name="important-things-you-need-to-know-about-the-password-expiration-feature"></a>Belangrijke dingen die u moet weten over de functie voor verlopen wachtwoorden
   
@@ -67,7 +68,7 @@ Personen die alleen gebruikmaken van de Outlook-app worden niet gedwongen hun Mi
 
 ## <a name="prevent-last-password-from-being-used-again"></a>Voorkomen dat laatste wachtwoord opnieuw wordt gebruikt
 
-Als u wilt voorkomen dat uw gebruikers oude wachtwoorden opnieuw gebruiken, kunt u dit doen door Wachtwoordgeschiedenis afdwingen in te stellen in on-premises Active Directory (AD). Raadpleeg [Een aangepast wachtwoordbeleid aanmaken](/azure/active-directory-domain-services/password-policy#create-a-custom-password-policy).
+Als u wilt voorkomen dat uw gebruikers oude wachtwoorden recyclen, kunt u dit doen door de wachtwoordgeschiedenis af te dwingen in on-premises Active Directory (AD). Zie [Een aangepast wachtwoordbeleid maken](/azure/active-directory-domain-services/password-policy#create-a-custom-password-policy).
 
 In Azure AD kan het laatste wachtwoord niet opnieuw worden gebruikt als de gebruiker een wachtwoord wijzigt. Het wachtwoordbeleid wordt toegepast op alle gebruikersaccounts die rechtstreeks in Azure AD worden aangemaakt en beheerd. Dit wachtwoordbeleid kan niet worden aangepast. Raadpleeg [Azure AD-wachtwoordbeleid](/azure/active-directory/authentication/concept-sspr-policy#password-policies-that-only-apply-to-cloud-user-accounts).
 

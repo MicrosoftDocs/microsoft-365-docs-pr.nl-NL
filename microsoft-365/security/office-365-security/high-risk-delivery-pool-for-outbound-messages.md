@@ -17,12 +17,12 @@ ms.collection:
 description: Lees hoe de bezorgingsgroepen worden gebruikt om de reputatie van e-mailservers in de Microsoft 365 beschermen.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 85f200cf226a050762db4ea37255f71241d1f98c
-ms.sourcegitcommit: 410f6e1c6cf53c3d9013b89d6e0b40a050ee9cad
+ms.openlocfilehash: c5881b20eaed8387988d01b69a4acd022c5924a2
+ms.sourcegitcommit: 8c698d1a0c41baf5f35d07b0d765b4a5ead593d0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53137716"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53409138"
 ---
 # <a name="outbound-delivery-pools"></a>Uitgaande bezorgingspools
 
@@ -82,3 +82,6 @@ In gevallen waarin we de afzender kunnen verifiëren, gebruiken we Sender Rewrit
 Als DKIM werkt, moet u DKIM inschakelen voor het verzenden van domein. De fabrikam.com maakt bijvoorbeeld deel uit van contoso.com en wordt gedefinieerd in de geaccepteerde domeinen van de organisatie. Als de afzender van het bericht sender@fabrikam.com, moet DKIM zijn ingeschakeld voor fabrikam.com. U kunt lezen hoe u [DKIM](use-dkim-to-validate-outbound-email.md)kunt inschakelen om uitgaande e-mail te valideren die is verzonden vanuit uw aangepaste domein.
 
 Als u een aangepast domein wilt toevoegen, volgt u de stappen in [Een domein toevoegen aan Microsoft 365.](../../admin/setup/add-domain.md)
+
+Als de MX-record voor uw domein naar een service van derden of een on-premises e-mailserver wijst, moet u Verbeterde filtering voor [connectors gebruiken.](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors) Verbeterde filtering zorgt ervoor dat SPF-validatie juist is voor binnenkomende e-mail en voorkomt dat e-mail wordt verzonden via de relaygroep.
+

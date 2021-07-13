@@ -15,18 +15,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- AdminTemplateSet
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Uw organisatie heeft mogelijk meerdere domeinen nodig, zodat klanten u kunnen vinden. Meer informatie over het toevoegen van een ander domein aan uw abonnement.
-ms.openlocfilehash: 13fc3cf73a112945db4372231cce70c1837c1321
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: 766d0f6c1e3c68a262bc01ba432e042f0d274ce8
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706428"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394843"
 ---
 # <a name="add-another-domain"></a>Ander domein toevoegen
 
@@ -36,7 +37,7 @@ Uw bedrijf heeft mogelijk meerdere domeinnamen nodig voor verschillende doeleind
 
 ## <a name="try-it"></a>Probeer het zelf!
 
-1. Kies in Microsoft 365 beheercentrum de optie **Setup.**
+1. Kies in Microsoft 365-beheercentrum de optie **Setup**.
 1. Selecteer **onder Uw aangepaste domein instellen** instellen de optie **Weergeven.**
 1. Kies **Beheren** en vervolgens **Domein toevoegen.**
 1. Voer de nieuwe domeinnaam in die u wilt toevoegen en selecteer **Volgende.**
@@ -54,7 +55,7 @@ Als u e-mail wilt ontvangen op uw nieuwe domein, moet u een nieuwe e-mailalias v
 1. Selecteer **Wijzigingen opslaan** en sluit het venster.
 1. Herhaal deze stappen voor elke gebruiker die e-mail moet ontvangen bij het nieuwe domein.
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Een domein toevoegen aan Microsoft 365](../admin/setup/add-domain.md) (artikel)\
 [DNS-records toevoegen om uw domein te verbinden](../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md) (artikel)\

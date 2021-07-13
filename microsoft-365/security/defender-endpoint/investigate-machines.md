@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: e64f17f2bedea89db1190e6c758c514f14fc3a68
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: c89de5fbf5d5b4d5d5e53074109bc8884a271eea
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843576"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394891"
 ---
 # <a name="investigate-devices-in-the-microsoft-defender-for-endpoint-devices-list"></a>Apparaten onderzoeken in de lijst Microsoft Defender voor eindpuntapparaten
 
@@ -34,7 +34,7 @@ ms.locfileid: "52843576"
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigatemachines-abovefoldlink)
+>Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigatemachines-abovefoldlink)
 
 Onderzoek de details van een waarschuwing die op een specifiek apparaat wordt opgehaald om andere gedragingen of gebeurtenissen te identificeren die mogelijk verband houden met de waarschuwing of het mogelijke bereik van de inbreuk.
 
@@ -58,6 +58,10 @@ Wanneer u een specifiek apparaat onderzoekt, ziet u:
 - Kaarten (actieve waarschuwingen, aangemelde gebruikers, beveiligingsbeoordeling)
 
 ![Afbeelding van de apparaatweergave](images/specific-device.png)
+
+> [!NOTE]
+> Vanwege productbeperkten wordt in het apparaatprofiel niet rekening met alle cybergegevens bij het bepalen van de periode 'Laatst gezien' (zoals u ook op de apparaatpagina ziet).
+> De waarde 'Laatst gezien' op de pagina Apparaat kan bijvoorbeeld een ouder tijdsbestek weergeven, ook al zijn er recentere waarschuwingen of gegevens beschikbaar in de tijdlijn van de computer.
 
 ## <a name="device-details"></a>Apparaatdetails
 
@@ -184,6 +188,8 @@ De **Azure Advanced Threat Protection-kaart** geeft een overzicht van waarschuwi
 Op **de kaart Aangemelde gebruikers** ziet u hoeveel gebruikers zich de afgelopen 30 dagen hebben aangemeld, samen met de meest en minst frequente gebruikers. Als u de koppeling 'Alle gebruikers weergeven' selecteert, wordt het detailvenster geopend, waarin informatie wordt weergegeven, zoals het type gebruiker, het type aanmelden en wanneer de gebruiker voor het eerst en voor het laatst is gezien. Zie [Gebruikersentiteiten onderzoeken voor meer informatie.](investigate-user.md)
 
 ![Afbeelding van het deelvenster Gebruikersgegevens](images/logged-on-users.png)
+> [!NOTE]
+> De 'Meest voorkomende' gebruikerswaarde wordt alleen berekend op basis van gegevens van gebruikers die zich interactief hebben aangemeld. In het zijdeelvenster 'Alle gebruikers' worden echter allerlei gebruikerslogo's berekend, zodat er naar verwachting vaker gebruikers in het zijdeelvenster worden weergegeven, aangezien deze gebruikers mogelijk niet interactief zijn.
 
 ### <a name="security-assessments"></a>Beveiligingsbeoordelingen
 
@@ -191,7 +197,7 @@ De **kaart Beveiligingsbeoordelingen** toont het algehele blootstellingsniveau, 
 
 ![Afbeelding van beveiligingsbeoordelingenkaart](images/security-assessments.png)
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-topics"></a>Gerelateerde onderwerpen
 
 - [De wachtrij waarschuwingen voor Microsoft Defender voor eindpunten weergeven en ordenen](alerts-queue.md)
 - [Waarschuwingen voor Microsoft Defender voor eindpunten beheren](manage-alerts.md)

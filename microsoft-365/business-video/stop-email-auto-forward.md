@@ -15,18 +15,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- AdminTemplateSet
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Meer informatie over het stoppen van het automatisch doorsturen van e-mailberichten door een e-mailstroomregel te maken om diefstal van bedrijfsgegevens te voorkomen.
-ms.openlocfilehash: 82e4c80b0edc501889e0fc4dc28f1ec1ad703568
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: 23b1afa7a851c0b00fb9fca574ca0bb32057ea42
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706472"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394795"
 ---
 # <a name="stop-email-auto-forward"></a>E-mail automatisch doorsturen stoppen
 
@@ -38,7 +39,7 @@ Als een hacker toegang krijgt tot het postvak van een gebruiker, kunnen ze de e-
 
 ## <a name="try-it"></a>Probeer het zelf!
 
-1. Selecteer in Microsoft 365 beheercentrum Exchange **,** **e-mailstroom** en  selecteer op het tabblad Regels het plusteken en kies **een nieuwe regel maken.**
+1. Selecteer in Microsoft 365-beheercentrum de Exchange **,** **e-mailstroom** en  selecteer op het tabblad Regels het plusteken en kies een **nieuwe regel maken.**
 1. Selecteer **Meer opties.** De nieuwe regel een naam geven.
 1. Open vervolgens de vervolgkeuzekeuze voor het **toepassen van deze regel als**, selecteer **de** afzender en is vervolgens **extern intern**.
 1. Selecteer **Binnen de organisatie** en klik vervolgens op **OK.**

@@ -16,12 +16,12 @@ ms.collection:
 description: Beheerders kunnen informatie krijgen over het configureren van toestaan en blokkeren in de lijst Tenant toestaan/blokkeren in de beveiligingsportal.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1548eda760b7b6b19214cb834d7fc43357dc0357
-ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
+ms.openlocfilehash: dbd4694a7442b3898d24304dc78fc95c28c9a905
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52985490"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394951"
 ---
 # <a name="manage-the-tenant-allowblock-list"></a>Tenant Toestaan/Blokkeren-lijst beheren
 
@@ -40,7 +40,7 @@ ms.locfileid: "52985490"
 
 In Microsoft 365 organisaties met postvakken in Exchange Online of zelfstandige Exchange Online Protection (EOP)-organisaties zonder Exchange Online-postvakken, kunt u het niet eens zijn met de uitspraak over EOP-filtering. Een goed bericht kan bijvoorbeeld worden gemarkeerd als slecht (een onwaar positief) of een slecht bericht kan worden toegestaan (een onwaar negatief).
 
-Met de tenantlijst Toestaan/blokkeren in de Microsoft 365 Defender portal kunt u handmatig de Microsoft 365 filteren. De lijst Tenant toestaan/blokkeren wordt gebruikt tijdens de e-mailstroom en op het moment dat de gebruiker klikt. U kunt de volgende typen overschrijven opgeven:
+Met de tenantlijst Toestaan/blokkeren in de Microsoft 365 Defender portal kunt u handmatig de Microsoft 365 filteren. De lijst Tenant toestaan/blokkeren wordt gebruikt tijdens de e-mailstroom voor binnenkomende berichten (is niet van toepassing op berichten binnen de organisatie) en op het moment dat de gebruiker klikt. U kunt de volgende typen overschrijven opgeven:
 
 - URL's die u wilt blokkeren.
 - Bestanden die u wilt blokkeren.

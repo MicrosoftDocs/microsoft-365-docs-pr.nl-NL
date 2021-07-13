@@ -14,12 +14,12 @@ ms.custom:
 - it-pro
 ms.collection:
 - M365-subscription-management
-ms.openlocfilehash: 018c47076642d4ce51340aed5fcb25c1d25c6b4f
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 471682b6f830609ef4ff9241bdaa515c97ca2d8d
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53289161"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394903"
 ---
 # <a name="cross-tenant-mailbox-migration-preview"></a>Migratie van postvakken tussen tenants (voorbeeld)
 
@@ -304,7 +304,7 @@ U moet ervoor zorgen dat de volgende objecten en kenmerken zijn ingesteld in de 
    - De doelmailgebruiker moet deze kenmerken uit het bronpostvak hebben of zijn toegewezen aan het nieuwe object Gebruiker:
       - ExchangeGUID (directe stroom van bron naar doel) – De postvak-GUID moet overeenkomen. Het verplaatsen gaat niet door als dit niet aanwezig is op het doelobject.
       - ArchiveGUID (direct flow from source to target) – The archive GUID must match. Het verplaatsen gaat niet door als dit niet aanwezig is op het doelobject. (Dit is alleen vereist als het bronpostvak Archiveren is ingeschakeld).
-      - LegacyExchangeDN (flow as proxyAddress, "x500: <LegacyExchangeDN> ") – The LegacyExchangeDN must be present on target MailUser as x500: proxyAddress. De verhuisprocessen gaan niet door als dit niet aanwezig is op het doelobject.
+      - LegacyExchangeDN (flow as proxyAddress, "x500: <LegacyExchangeDN> ") – The LegacyExchangeDN must be present on target MailUser as x500: proxyAddress. Daarnaast moet u ook alle x500-adressen uit het bronpostvak kopiëren naar de doelmailgebruiker. De verhuisprocessen gaan niet door als deze niet aanwezig zijn op het doelobject. 
       - UserPrincipalName: UPN wordt uitgelijnd op de nieuwe identiteit of het doelbedrijf van de gebruiker (bijvoorbeeld user@northwindtraders.onmicrosoft.com).
       - Primair SMTPAddress- Primair SMTP-adres wordt uitgelijnd op het nieuwe bedrijf van de gebruiker (bijvoorbeeld user@northwind.com).
       - TargetAddress/ExternalEmailAddress: MailUser verwijst naar het huidige postvak van de gebruiker dat wordt gehost in bronten tenant (bijvoorbeeld user@contoso.onmicrosoft.com). Wanneer u deze waarde toewijst, controleert u of u ook PrimarySMTPAddress hebt of toewijst, anders wordt met deze waarde het PrimarySMTPAddress ingesteld, waardoor fouten worden verplaatst.

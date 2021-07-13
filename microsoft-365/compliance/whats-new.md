@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Of het nu gaat om het toevoegen van nieuwe oplossingen aan het compliancecentrum, het bijwerken van bestaande functies op basis van uw feedback of het implementeren van nieuwe en bijgewerkte documentatie, met Microsoft 365 kunt u het steeds veranderende compliancelandschap in de hand houden. Ontdek wat we deze maand hebben gedaan.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: aec9135a00b53f504d19a80e428d52f21b92cf9c
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 4e298a9dc8b23e3977db51d5a3b96f7b0723a0d1
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53288129"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394939"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Wat is er nieuw in Microsoft 365-compliance
 
@@ -40,6 +40,28 @@ Of het nu gaat om het toevoegen van nieuwe oplossingen aan de [Microsoft 365-com
 > - [Wat is er nieuw in Microsoft 365 Defender](../security/defender/whats-new.md)
 >
 > En ga naar [Microsoft 365 routekaart](https://www.microsoft.com/microsoft-365/roadmap) voor meer Microsoft 365 functies die zijn gestart, worden uitgerold, in ontwikkeling zijn, zijn geannuleerd of eerder zijn uitgebracht.
+
+## <a name="june-2021"></a>Juni 2021
+
+### <a name="customer-key"></a>Klantsleutel
+
+- [Serviceversleuteling met klantsleutel](customer-key-overview.md) (klantsleuteltenderniveau DEP's versleutelen nu de configuratie van gevoeligheidslabels voor Microsoft Information Protection.)
+
+### <a name="ediscovery"></a>eDiscovery
+
+- [Inhoud in een revisieset](review-set-search.md) query's en filteren (nieuwe query- en filtermogelijkheden in een nieuwe UX-indeling om inhoud in een revisieset te filteren en te zoeken)
+- [Documenten](tagging-documents.md) taggen in een revisieset in Advanced eDiscovery (nieuwe tagfunctionaliteit en UX om het labelen van documenten in een revisieset sneller en eenvoudiger te maken; bevat nieuwe mogelijkheden voor het labelen van documenten met behulp van een query en het gebruik van filters om snel revisiesetitems te zoeken of uit te sluiten op basis van de manier waarop een item is gelabeld)
+- Compliancegrenzen instellen voor [eDiscovery-onderzoeken](set-up-compliance-boundaries.md) (Microsoft heeft de vereiste om contact op te nemen met MS-ondersteuning verwijderd om te vragen dat een compliancekenmerk wordt gesynchroniseerd met OneDrive-accounts; nu wordt een filter voor zoekmachtigingen voor postvak gebruikt om de nalevingsgrenzen voor OneDrive af te dwingen)
+
+### <a name="sensitivity-labels"></a>Vertrouwelijkheidslabels
+
+- De wizard gevoeligheidslabelbeleid ondersteunt [nu Outlook-specifieke](sensitivity-labels-office-apps.md#outlook-specific-options-for-default-label-and-mandatory-labeling) opties voor standaardlabels en verplichte labeling als een eenvoudigere configuratie dan de geavanceerde instellingen van PowerShell (nog steeds ondersteund).
+- Ondersteuning voor [dynamische markeringen met variabelen](sensitivity-labels-office-apps.md#dynamic-markings-with-variables ) wordt nu uitgerold voor Word, Excel en webversie van PowerPoint
+- Als [het label](apply-sensitivity-label-automatically.md) is geconfigureerd voor versleuteling, wordt deze versleuteling niet toegepast Exchange beleid voor automatische labeling voor Exchange is geconfigureerd voor versleuteling. Daarnaast kunt u Exchange beleid voor automatische labeling configureren en de volgende nieuwe voorwaarden configureren: het onderwerp, het adres van de geadresseerde of het adres van de afzender komt overeen met patronen. adres van geadresseerde bevat woorden; afzenderdomein is, geadresseerde is lid van; afzender is.
+- Wanneer u gevoeligheidslabels gebruikt voor teams, groepen en sites, kunt u Set-SPOTenant gebruiken met de parameter BlockSendLabelMismatchEmail om te voorkomen dat de automatisch gegenereerde e-mail wordt gegenereerd wanneer de auditgebeurtenis **Gedetecteerde** documentgevoeligheidsfout wordt vastgelegd.  Zie Gevoeligheidslabelactiviteiten controleren voor [meer informatie.](sensitivity-labels-teams-groups-sites.md#auditing-sensitivity-label-activities )
+- De [instelling voor verificatiecontext](sensitivity-labels-teams-groups-sites.md#more-information-about-the-dependencies-for-the-authentication-context-option) is nu volledig uitgerold in preview voor gevoeligheidslabels. Bovendien wordt deze configuratie nu ondersteund door Microsoft Teams.
+- Bestanden die zijn gelabeld en versleuteld met een serviceprincipenaam (zoals Microsoft Cloud App Security) en vervolgens worden geüpload naar SharePoint en OneDrive, kunnen nu worden geopend in webversie van Office wanneer u gevoeligheidslabels hebt ingeschakeld voor [Office-bestanden in SharePoint en OneDrive.](sensitivity-labels-sharepoint-onedrive-files.md)
+- [Co-authoring](sensitivity-labels-coauthoring.md) en Automatisch opslaan is niet langer beperkt tot het testen van tenants en wordt nu ondersteund in productie wanneer u versie 2105: 18 juni voor Windows en versie 16.50+ voor macOS gebruikt. Deze functie wordt nog steeds niet ondersteund door iOS en Android en blijft in preview.
 
 ## <a name="may-2021"></a>Mei 2021
 
@@ -269,49 +291,3 @@ De volgende Microsoft 365 complianceoplossingen ondersteunen nu de detectie van 
 
 - Gevoeligheidslabels worden nu ondersteund voor tenants van de Amerikaanse overheid (GCC en GCC-H).
 - Nieuwe [ondersteuning voor automatische labeling](sensitivity-labels-office-apps.md) voor macOS.
-
-## <a name="december-2020"></a>December 2020
-
-### <a name="spotlight-new-content-for-insider-risk-solutions"></a>Spotlight: Nieuwe inhoud voor oplossingen voor insiderrisico's
-
-Het Microsoft 365 compliance-inhoudsteam is hard bezig met het maken van documenten met inhoudsoplossing om te bevorderen hoe compliancemogelijkheden samen kunnen worden gebruikt om te voldoen aan uw compliancedoelstellingen.
-
-Ten eerste is inhoud die onze insiderrisicooplossingen met elkaar verbindt: communicatie compliance, insider risk management, informatiebarrières en privileged access management. Hier ziet u wat u kunt vinden:
-
-- [Nieuwe landingspagina voor insiderrisicooplossingen.](insider-risk-solution-overview.md) Bevat details over de risico's die de oplossingen kunnen helpen beperken, licentievereisten, implementatiereeks, architectuurillustraties, trainingsbronnen en meer.
-- Nieuwe overzichtsartikelen voor elke insider-risicooplossing. Richtlijnen en koppelingen naar artikelen die u helpen bij het plannen, implementeren en beheren van elke oplossing:
-  - [Naleving van communicatie](communication-compliance-solution-overview.md)
-  - [Insider-risicobeheer](insider-risk-management-solution-overview.md)
-  - [Informatiebelemmeringen](information-barriers-solution-overview.md)
-  - [Privileged Access Management](privileged-access-management-solution-overview.md)
-
-Er komen binnenkort meer inhoudsoplossings docs!
-
-### <a name="advanced-ediscovery"></a>Advanced eDiscovery
-
-Verbeterde werkstroom en functionaliteit voor het toevoegen van [bewaarders](add-custodians-to-case.md) en [niet-bewaardergegevensbronnen](non-custodial-data-sources.md) aan een Advanced eDiscovery zaak.
-
-### <a name="data-connectors"></a>Gegevensconnectors
-
-[Er zijn vier nieuwe Veritas-connectors](archiving-third-party-data.md#third-party-data-connectors)uitgebracht: Redtail Speak, Salesforce Chatter, ServiceNow en Yieldbroker.
-
-### <a name="encryption"></a>Versleuteling
-
-Maak kennis [met klantsleutel voor Microsoft 365 op tenantniveau.](customer-key-tenant-level.md) Met behulp van de door u op te geven sleutels kunt u een dep (Data Encryption Policy) maken en deze toewijzen aan de tenant. De DEP versleutelt gegevens in de tenant voor deze werkbelastingen:
-
-- Teams chatberichten (1:1 chats, groepschats, vergaderingschats en kanaalgesprekken)
-- Teams mediaberichten (afbeeldingen, codefragmenten, video's, wikiafbeeldingen)
-- Teams gespreks- en vergaderingsopnamen die zijn opgeslagen in Teams opslag
-- Teams chatmeldingen
-- Teams chatsuggesties per Cortana
-- Teams statusberichten
-- Gebruikers- en signaalgegevens voor Exchange Online
-
-### <a name="records-management"></a>Records Management
-
-De [rollengroep Records management verleent](get-started-with-records-management.md#permissions-required-for-records-management) nu machtigingen voor alle functies voor recordbeheer, inclusief beoordeling van de beschikking.
-
-### <a name="sensitivity-labels"></a>Vertrouwelijkheidslabels
-
-- [Gegevens automatisch labelen in Azure Purview (voorbeeld)](/azure/purview/create-sensitivity-label). U kunt nu gevoeligheidslabels maken en automatisch toepassen op activa in Azure Purview, zoals bestanden in Azure Blob-opslag en databasekolommen in SQL Server.
-- [Gebruikers moeten een label toepassen op items.](sensitivity-labels-office-apps.md#require-users-to-apply-a-label-to-their-email-and-documents) Deze nieuwe optie wordt ook wel 'verplichte labeling' genoemd en vereist dat gebruikers een gevoeligheidslabel kiezen en toepassen onder de specifieke scenario's.

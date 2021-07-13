@@ -13,7 +13,9 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
@@ -23,14 +25,14 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: Instructies voor het instellen van meervoudige verificatie voor uw organisatie.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 480e09e42ea53cc78cd738a6e0650feae7a9f8c8
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 7ee6f3a7fc01fa998e3b984683ddad1402fe5587
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635948"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393617"
 ---
-# <a name="set-up-multi-factor-authentication"></a>Meervoudige verificatie instellen
+# <a name="set-up-multifactor-authentication"></a>Meervoudige verificatie instellen
 
 Gezien uw ervaring met [meervoudige verificatie (MFA) en de bijbehorende ondersteuning in Microsoft 365](multi-factor-authentication-microsoft-365.md), is het tijd om dit in te stellen en te implementeren in uw organisatie.
 
@@ -42,7 +44,7 @@ Gezien uw ervaring met [meervoudige verificatie (MFA) en de bijbehorende onderst
 - U moet een algemeen beheerder zijn om MFA te beheren. Raadpleeg [Over beheerdersrollen](../add-users/about-admin-roles.md) voor meer informatie.
 - Als verouderde per persoon-MFA is ingeschakeld, [schakel dit dan uit](#turn-off-legacy-per-user-mfa).
 - Als u Office 2013-clients op Windows-apparaten hebt, moet u [Moderne verificatie voor Office 2013-clients inschakelen](./enable-modern-authentication.md).
-- Geavanceerd: als u adreslijstservices van derden met Active Directory Federation Services (AD FS) hebt, moet u de Azure MFA-server instellen. Raadpleeg [geavanceerde scenario's met Azure AD Multi-Factor Authentication en VPN-oplossingen van derden](/azure/active-directory/authentication/howto-mfaserver-nps-vpn) voor meer informatie.
+- Geavanceerd: als u adreslijstservices van derden met Active Directory Federation Services (AD FS) hebt, moet u de Azure MFA-server instellen. Raadpleeg [geavanceerde scenario's met Azure AD Multifactor Authentication en VPN-oplossingen van derden](/azure/active-directory/authentication/howto-mfaserver-nps-vpn) voor meer informatie.
 
 ## <a name="turn-security-defaults-on-or-off"></a>Standaardinstellingen voor beveiliging in- of uitschakelen
 
@@ -104,5 +106,5 @@ Als u eerder per gebruiker-MFA hebt ingeschakeld, moet u dit uitschakelen voorda
 
 ## <a name="related-content"></a>Verwante onderwerpen
 
-[Video: Meervoudige verificatie inschakelen](../../business-video/turn-on-mfa.md) (video)\
-[Video: Meervoudige verificatie inschakelen voor uw telefoon](../../business-video/set-up-mfa.md) (video)
+[Meervoudige verificatie inschakelen](../../business-video/turn-on-mfa.md) (video)\
+[Meervoudige verificatie inschakelen voor uw telefoon](../../business-video/set-up-mfa.md) (video)

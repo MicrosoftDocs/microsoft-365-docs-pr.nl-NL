@@ -19,12 +19,12 @@ ms.custom:
 description: Beheerders kunnen leren hoe ze de portal Inzendingen in de Microsoft 365 Defender-portal kunnen gebruiken om verdachte e-mailberichten, vermoedelijke phishingmails, spam en andere potentieel schadelijke berichten, URL's en e-mailbijlagen bij Microsoft in te dienen voor het opnieuw controleren.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: eecb635972be85e1a1a4f95c2786f209ee249745
-ms.sourcegitcommit: 99e67bfe1d677c2f51712b05dcc54908b343cf6f
+ms.openlocfilehash: 2d18dd7f5dc702f08a722652394aeb0102f100ef
+ms.sourcegitcommit: 8c698d1a0c41baf5f35d07b0d765b4a5ead593d0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53203278"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53409054"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>Beheerdersinzending gebruiken om verdachte spam, phish, URL's en bestanden naar Microsoft te verzenden
 
@@ -67,6 +67,9 @@ Zie Berichten en bestanden rapporteren bij Microsoft voor andere manieren om e-m
 2. Controleer op **de pagina Inzendingen** of het tabblad Ingediend voor analyse is geselecteerd en klik vervolgens op  ![ Advertentiepictogram Verzenden bij Microsoft voor ](../../media/m365-cc-sc-create-icon.png) **analyse.**
 
 3. Gebruik de **flyout Verzenden bij Microsoft** voor controle die wordt weergegeven om het bericht, de URL of de e-mailbijlage in te dienen, zoals beschreven in de volgende secties.
+
+   > [!NOTE]
+   > Bestands- en URL-inzendingen zijn niet beschikbaar in de clouds die niet toestaan dat gegevens de omgeving verlaten. De mogelijkheid om Bestand of URL te selecteren, wordt grijs weergegeven.
 
 ### <a name="submit-a-questionable-email-to-microsoft"></a>Een twijfelachtige e-mail verzenden naar Microsoft
 

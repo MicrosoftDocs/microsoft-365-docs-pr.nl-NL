@@ -15,17 +15,18 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
+- AdminTemplateSet
 description: Beheerdersrollen worden toegewezen aan bedrijfsfuncties en geven machtigingen om specifieke taken uit te voeren in het Beheercentrum. De Servicebeheerder opent bijvoorbeeld supporttickets met Microsoft.
-ms.openlocfilehash: 60a1f21e65df007e78077d8c3bb22161313c1073
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: bee35191e7e80313521891a1efc1780489902ae8
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51759904"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394325"
 ---
 # <a name="intune-admin-roles-in-the-microsoft-365-admin-center"></a>Intune-beheerdersrollen in het Microsoft 365-beheercentrum 
 
-Uw abonnement op Microsoft 365 of Office 365 wordt geleverd met een set beheerdersrollen die u kunt toewijzen aan gebruikers in uw organisatie via het Microsoft 365-beheercentrum. Elke beheerdersrol wordt toegewezen aan algemene bedrijfsfuncties en machtigt personen in uw organisatie om specifieke taken uit te voeren in de beheercentra.
+Het Microsoft 365- of Office 365-abonnement wordt geleverd met een set beheerdersrollen die u kunt toewijzen aan gebruikers in uw organisatie met behulp van het Microsoft 365-beheercentrum. Elke beheerdersrol wordt toegewezen aan algemene bedrijfsfuncties en machtigt personen in uw organisatie om specifieke taken in de beheercentra uit te voeren.
 
 In het Microsoft 365-beheercentrum kunt u een aantal Microsoft Intune-rollen beheren. Deze rollen vormen echter een subset van de rollen die beschikbaar zijn in het Intune-beheercentrum. Op zoek naar de gedetailleerde rolbeschrijvingen voor Microsoft Intune? Bekijk [op rollen gebaseerd toegangsbeheer (RBAC) met Microsoft Intune](/mem/intune/fundamentals/role-based-access-control).
 
@@ -46,7 +47,7 @@ In het Microsoft 365-beheercentrum kunt u naar **Rollen** gaan en vervolgens een
 
 ## <a name="delegated-administration-for-microsoft-partners"></a>Gedelegeerd beheer voor Microsoft-partners
 
-Als u met een Microsoft-partner werkt, kunt u aan uw partner beheerdersrollen toewijzen. Zij kunnen op hun beurt gebruikers in uw bedrijf, of hun bedrijf, beheerdersrollen toewijzen. U wilt misschien dat ze dit doen, bijvoorbeeld als ze uw online organisatie voor u opzetten en beheren.
+Als u met een Microsoft-partner werkt, kunt u aan uw partner beheerdersrollen toewijzen. Deze kan op zijn beurt gebruikers in uw bedrijf, of zijn bedrijf, beheerdersrollen toewijzen. Soms wilt u dat uw partner dit doet, bijvoorbeeld als deze uw online organisatie voor u instelt en beheert.
   
 Een partner kan deze rollen toewijzen: 
   
@@ -56,10 +57,8 @@ Een partner kan deze rollen toewijzen:
 
 Voordat de partner deze rollen aan gebruikers kan toewijzen, moet u de partner als gedelegeerde beheerder aan uw account toevoegen. Dit proces wordt geïnitieerd door een geautoriseerde partner. De partner stuurt u een e-mailbericht waarin u wordt gevraagd of u de partner toestemming wilt geven om te fungeren als gedelegeerde beheerder. Zie [Partnerrelaties autoriseren of verwijderen](../misc/add-partner.md)voor instructies.
   
-## <a name="related-articles"></a>Verwante artikelen
+## <a name="related-content"></a>Verwante inhoud
 
-[Over Microsoft 365-beheersrollen](about-admin-roles.md)
-
-[Beheerdersrollen toewijzen](assign-admin-roles.md)
-
-[Activiteitenoverzichten in het Microsoft 365-beheercentrum](../activity-reports/activity-reports.md)
+[Over Microsoft 365 beheerdersrollen](about-admin-roles.md) (artikel)\
+[Beheerdersrollen toewijzen](assign-admin-roles.md) (artikel)\
+[Activiteitenoverzichten in het Microsoft 365-beheercentrum](../activity-reports/activity-reports.md) (artikel)

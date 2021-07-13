@@ -20,12 +20,12 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: ae170ecf0fc0f354c9975300e5f2f7cd014b0c47
-ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
+ms.openlocfilehash: 835195f0c35ada409ef632b2dbfa1b6de0291351
+ms.sourcegitcommit: 8c698d1a0c41baf5f35d07b0d765b4a5ead593d0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "53339684"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53409150"
 ---
 # <a name="endpoint-detection-and-response-edr-in-block-mode"></a>Endpoint detection and response (EDR) in block mode
 
@@ -68,8 +68,8 @@ In de volgende afbeelding ziet u een exemplaar van ongewenste software die is ge
 
 3. Schakel de **EDR in de blokmodus in.**
 
-> [!NOTE]
-> EDR in de blokmodus kan alleen worden ingeschakeld in de Microsoft 365 Defender portal. U kunt registersleutels, Intune- of groepsbeleid niet gebruiken om de EDR in of uit te schakelen in de blokmodus.
+   > [!NOTE]
+   > EDR in de blokmodus kan alleen worden ingeschakeld in de Microsoft 365 Defender portal. U kunt registersleutels, Intune- of groepsbeleid niet gebruiken om de EDR in of uit te schakelen in de blokmodus.
 
 ## <a name="requirements-for-edr-in-block-mode"></a>Vereisten voor EDR in blokmodus
 
@@ -77,7 +77,7 @@ In de volgende afbeelding ziet u een exemplaar van ongewenste software die is ge
 |---------|---------|
 |Machtigingen |Globale beheerder of beveiligingsbeheerder die is toegewezen in [Azure Active Directory.](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal) Zie [Basismachtigingen.](basic-permissions.md) |
 |Besturingssysteem     |Een van de volgende versies: <br/>- Windows 10 (alle releases) <br/>- Windows Server, versie 1803 of hoger <br/>- Windows Server 2019 <br/>- Windows Server 2016 (alleen als Microsoft Defender Antivirus actief is)     |
-|Windows E5-inschrijving     |Windows E5 is opgenomen in de volgende abonnementen: <br/>- Microsoft 365 E5 <br/>- Microsoft 365 E3 samen met het aanbod voor identiteits- & bedreigingsbeveiliging <br/><br/>Zie [Onderdelen](/microsoft-365/enterprise/microsoft-365-overview#components) en [functies en mogelijkheden voor elk abonnement.](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans)       |
+|Windows E5-inschrijving     |Windows E5 is opgenomen in de volgende abonnementen: <br/>- Microsoft 365 E5 <br/>- Microsoft 365 E3 samen met de Microsoft 365 E5 Security invoeg <br/><br/>Zie [Onderdelen](/microsoft-365/enterprise/microsoft-365-overview#components) en [functies en mogelijkheden voor elk abonnement.](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans)       |
 |Microsoft Defender Antivirus  |Microsoft Defender Antivirus moet zijn geïnstalleerd en uitgevoerd in de actieve of passieve modus. (U kunt Microsoft Defender Antivirus naast een niet-Microsoft-antivirusoplossing gebruiken.) [Bevestig Microsoft Defender Antivirus actief of passief is.](#how-do-i-confirm-microsoft-defender-antivirus-is-in-active-or-passive-mode) |
 |Cloudbeveiliging |Zorg ervoor dat Microsoft Defender Antivirus zodanig is geconfigureerd dat beveiliging in de [cloud is ingeschakeld.](enable-cloud-protection-microsoft-defender-antivirus.md) |
 |Microsoft Defender Antivirus antimalwareclient |Zorg ervoor dat uw client up-to-date is. Voer met PowerShell de [cmdlet Get-MpComputerStatus](/powershell/module/defender/get-mpcomputerstatus) uit als beheerder. In de **REGEL AMProductVersion** ziet u **4.18.2001.10** of hoger. |
