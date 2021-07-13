@@ -16,12 +16,12 @@ ms.custom:
 - M365-Lighthouse
 search.appverid: MET150
 description: Voor MSP's (Managed Service Providers) leert u hoe u zich kunt registreren voor Microsoft 365 Lighthouse.
-ms.openlocfilehash: 08ef5dabaad8e35cfff611325641b99b5a86ad18
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: 01e17b9c1f3f4e8a877f0b8489288e57ae9fa392
+ms.sourcegitcommit: 8c698d1a0c41baf5f35d07b0d765b4a5ead593d0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53395185"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53409006"
 ---
 # <a name="sign-up-for-microsoft-365-lighthouse"></a>Registreren voor Microsoft 365 Lighthouse
 
@@ -62,7 +62,7 @@ ms.locfileid: "53395185"
 
 ## <a name="next-steps"></a>Volgende stappen
 
-[Beveiliging Microsoft 365 Lighthouse portal configureren]() 
+[Beveiliging Microsoft 365 Lighthouse portal configureren](m365-lighthouse-configure-portal-security.md) 
 
 ## <a name="related-content"></a>Verwante inhoud
 

@@ -16,12 +16,12 @@ ms.custom:
 - M365-Lighthouse
 search.appverid: MET150
 description: Voor MSP's (Managed Service Providers) met Microsoft 365 Lighthouse, leert u hoe u Microsoft 365 Lighthouse basislijnen implementeert.
-ms.openlocfilehash: 0bda7edec2a200e51e734db64e2b703a027e57bb
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: f329993443b4bd3003a3e8460d77f9b73ac10fc6
+ms.sourcegitcommit: 8c698d1a0c41baf5f35d07b0d765b4a5ead593d0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53395193"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53409102"
 ---
 # <a name="deploy-microsoft-365-lighthouse-baselines"></a>Basislijnen Microsoft 365 Lighthouse implementeren 
 
@@ -61,5 +61,5 @@ Selecteer **Basislijnen** in het linkernavigatiedeelvenster om de pagina Basisli
 
 ## <a name="related-content"></a>Verwante inhoud
 
-[Overzicht van het gebruik van basislijnen voor het implementeren van standaardtenderconfiguraties](m365-lighthouse-deploying-standard-tenant-configurations-overview.md) (artikel)\
+[Overzicht van het gebruik van basislijnen voor het implementeren van standaardtenderconfiguraties](m365-lighthouse-deploy-standard-tenant-configurations-overview.md) (artikel)\
 [Microsoft 365 Lighthouse veelgestelde vragen](m365-lighthouse-faq.yml) (artikel)

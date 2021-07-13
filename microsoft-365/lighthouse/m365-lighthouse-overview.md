@@ -16,12 +16,12 @@ ms.custom:
 - M365-Lighthouse
 search.appverid: MET150
 description: Voor MSP's (Managed Service Providers) leert u hoe Microsoft 365 Lighthouse u kunt helpen bij het beveiligen en beheren van klanttenaties op één locatie.
-ms.openlocfilehash: a8af12e2fecade0b78f95f1d38bda34f7934ccd6
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: af03495f7bf47fe3c72ebb7487b8709d2e2b0736
+ms.sourcegitcommit: 8c698d1a0c41baf5f35d07b0d765b4a5ead593d0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53395192"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53409030"
 ---
 # <a name="overview-of-microsoft-365-lighthouse"></a>Overzicht van Microsoft 365 Lighthouse
 
@@ -42,7 +42,7 @@ Houd er rekening mee dat indirecte CSP-providers momenteel niet worden ondersteu
 Zie het overzicht van het Cloud Solution Provider programma [voor meer informatie over het CSP-programma.](/partner-center/csp-overview)
 
 > [!NOTE]  
-> Een soortgelijk aanbod, Azure Lighthouse, helpt serviceproviders bij het leveren van beheerde services voor Azure-services met behulp van uitgebreide en krachtige beheerhulpprogramma's die zijn ingebouwd in het Azure-platform. Zie Wat is [Azure Lighthouse?](/azure/lighthouse/overview) voor meer informatie.   
+> Een soortgelijk aanbod, Azure Lighthouse, helpt serviceproviders bij het leveren van beheerde services voor Azure-services met behulp van uitgebreide en krachtige beheerhulpprogramma's die zijn ingebouwd in het Azure-platform. Zie Wat [is Azure Lighthouse?](/azure/lighthouse/overview) voor meer informatie.   
 
 ## <a name="microsoft-365-lighthouse-benefits"></a>Microsoft 365 Lighthouse voordelen
 
