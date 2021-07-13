@@ -1,0 +1,42 @@
+- name: Microsoft 365 Lighthouse
+  items:
+    - name: Overzicht van Microsoft 365 Lighthouse
+      href: m365-lighthouse-overview.md
+    - name: Vereisten voor Microsoft 365 Lighthouse
+      href: m365-lighthouse-requirements.md
+- name: Aan de slag
+  items:
+    - name: Aanmelden
+      href: m365-lighthouse-sign-up.md
+- name: Beveiligde Microsoft 365 Lighthouse
+  items:
+    - name: Portalbeveiliging configureren
+      href: m365-lighthouse-configure-portal-security.md
+- name: Klanten beveiligen met basislijnen
+  items:
+    - name: Overzicht van het gebruik van basislijnen voor het implementeren van standaardtenderconfiguraties
+      href: m365-lighthouse-deploying-standard-tenant-configurations-overview.md
+    - name: Basislijnen implementeren
+      href: m365-lighthouse-deploy-baselines.md
+- name: Tenants beheren
+  items:
+    - name: Overzicht van tenantlijst
+      href: m365-lighthouse-tenant-list-overview.md
+- name: Gebruikers binnen tenants beheren
+  items:
+    - name: Overzicht gebruikerspagina
+      href: m365-lighthouse-users-page-overview.md
+- name: Apparaten beheren
+  items:
+    - name: Overzicht van de pagina Apparaat compliance
+      href: m365-lighthouse-device-compliance-page-overview.md
+- name: Bedreigingen beheren
+  items:
+    - name: Overzicht van de pagina Bedreigingsbeheer
+      href: m365-lighthouse-threat-management-page-overview.md
+- name: Hulp en ondersteuning krijgen
+  items:
+    - name: Hulp en ondersteuning krijgen
+      href: m365-lighthouse-get-help-and-support.md
+    - name: Veelgestelde vragen (veelgestelde vragen)
+      href: m365-lighthouse-faq.yml

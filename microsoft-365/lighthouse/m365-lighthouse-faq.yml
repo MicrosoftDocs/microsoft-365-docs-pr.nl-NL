@@ -1,0 +1,76 @@
+### YamlMime:FAQ
+metadata:
+  title: Microsoft 365 Lighthouse veelgestelde vragen (veelgestelde vragen)
+  f1.keywords: NOCSH
+  ms.author: sharik
+  author: SKjerland
+  manager: scotv
+  audience: Admin
+  ms.topic: article
+  ms.prod: microsoft-365-lighthouse
+  localization_priority: Normal
+  ms.collection:
+  - M365-subscription-management
+  - Adm_O365
+  ms.custom:
+  - AdminSurgePortfolio
+  - M365-Lighthouse
+  search.appverid: MET150
+  description: Voor beheerde serviceproviders (MSP's) die Microsoft 365 Lighthouse, krijgt u antwoorden op veelgestelde vragen (veelgestelde vragen) over Microsoft 365 Lighthouse.
+  ms.openlocfilehash: 05ed433a5f7afb6418cab77c99a401351f3a5565
+  ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+  ms.translationtype: MT
+  ms.contentlocale: nl-NL
+  ms.lasthandoff: 07/12/2021
+  ms.locfileid: "53395051"
+title: Microsoft 365 Lighthouse veelgestelde vragen (veelgestelde vragen)
+summary: >
+  > [!NOTE]
+
+  > De functies die in dit artikel worden beschreven, zijn in Preview, kunnen worden gewijzigd en zijn alleen beschikbaar voor partners die aan de vereisten [voldoen.](m365-lighthouse-requirements.md) Als uw organisatie geen Microsoft 365 Lighthouse, zie [Registreren voor Microsoft 365 Lighthouse.](m365-lighthouse-sign-up.md)
+
+
+  Dit artikel bevat antwoorden op veelgestelde vragen (veelgestelde vragen) over Microsoft 365 Lighthouse.
+
+
+  Als u geen antwoord op uw vraag kunt vinden, laat het ons dan weten door een opmerking achter te laten en we voegen het toe aan dit artikel.
+sections:
+- name: Genegeerd
+  questions:
+  - question: Wat is Microsoft 365 Lighthouse?
+    answer: >
+      Microsoft 365 Lighthouse is een beheerportal waarmee MSP's (Managed Service Providers) apparaten, gegevens en gebruikers op grote schaal kunnen beveiligen en beheren voor klanten van kleine en middelgrote bedrijven die gebruikmaken van Microsoft 365 Business Premium.  Microsoft 365 Lighthouse onboarding van tenants vereenvoudigt door het aanbevelen van basislijnen voor beveiligingsconfiguraties die zijn afgestemd op kleine en middelgrote ondernemingen en het bieden van weergaven met meerdere tenants in alle klantomgevingen. Zie Overzicht van [Microsoft 365 Lighthouse.](m365-lighthouse-overview.md)
+  - question: Wat is het verschil tussen Microsoft 365 Lighthouse en Azure Lighthouse?
+    answer: >
+      Microsoft 365 Lighthouse is gericht op Microsoft 365 services in plaats van Azure-services. Hoewel Azure Lighthouse is ingebouwd in de Azure-portal en IT-partners meerdere tenants voor Azure kunnen beheren, is Microsoft 365 Lighthouse een zelfstandige portal waarmee MSP's meerdere Microsoft 365 Business Premium tenants kunnen beheren. Zie Overzicht van Microsoft 365 Lighthouse voor [meer Microsoft 365 Lighthouse.](m365-lighthouse-overview.md) Zie Wat is Azure [Lighthouse?](/azure/lighthouse/overview) voor meer informatie over Azure Lighthouse.
+  - question: Hoeveel kosten Microsoft 365 Lighthouse kosten?
+    answer: >
+      Er zijn geen extra kosten verbonden aan het gebruik van de Preview-versie van Microsoft 365 Lighthouse voor het beheren Microsoft 365 Business Premium services en verbonden apparaten. Microsoft 365 Lighthouse is momenteel beschikbaar in Preview en is beschikbaar voor MSP's die kleine tot middelgrote bedrijven bedienen en die een Cloud Solution Provider (CSP) relatie hebben met hun klanten. Indirecte providers worden momenteel niet ondersteund door Microsoft 365 Lighthouse. Zie Vereisten voor [Microsoft 365 Lighthouse.](m365-lighthouse-requirements.md)
+  - question: Wat zijn de vereisten voor het gebruik van Microsoft 365 Lighthouse?
+    answer: >
+      Zie Vereisten voor Microsoft 365 Lighthouse voor een lijst [met huidige vereisten.](m365-lighthouse-requirements.md)
+  - question: Hoe meld ik me aan voor Microsoft 365 Lighthouse?
+    answer: >
+      Als u zich wilt registreren Microsoft 365 Lighthouse, moet u zijn geregistreerd bij het CSP-programma. We kunnen momenteel geen ondersteuning bieden voor indirecte providers. Zie Registreren voor Microsoft 365 Lighthouse voor instructies over het [registreren](m365-lighthouse-sign-up.md)van Microsoft 365 Lighthouse. Zie het overzicht van het Cloud Solution Provider [programma voor meer informatie over het CSP-programma.](/partner-center/csp-overview)
+  - question: Ik ben klaar met registreren, dus waarom zie ik geen klant tenantgegevens?
+    answer: >
+      Het kan tot 48 uur duren voordat klant tenantgegevens binnen een Microsoft 365 Lighthouse. Als het meer dan 48 uur geleden is dat u de onboarding hebt voltooid, neem dan contact op met ons ondersteuningsteam voor hulp. U moet ze laten weten wanneer u de onboarding hebt voltooid en relevante schermafbeeldingen en logboeken op te geven. Zie Hulp en ondersteuning voor [Microsoft 365 Lighthouse.](m365-lighthouse-get-help-and-support.md)
+  - question: Waarom zie ik gegevens voor sommige klantten tenants, maar niet voor andere?
+    answer: >
+      Als klantten tenantgegevens in een Microsoft 365 Lighthouse, moeten partners gedelegeerde beheerdersbevoegdheden (DAP) met klanten tot stand brengen via partnercentrum. Zie Een resellerrelatie aanvragen met een [klant in partnercentrum](/partner-center/request-a-relationship-with-a-customer)voor meer informatie. Tenants moeten ook ten minste één abonnement Microsoft 365 Business Premium en minder dan 500 gebruikers met een licentie in hun tenant hebben. Zie Vereisten voor [Microsoft 365 Lighthouse.](m365-lighthouse-requirements.md)
+  - question: Wat gebeurt er als ik bepaalde tenants niet in de Microsoft 365 Lighthouse?
+    answer: >
+      Als u bepaalde tenants en hun gegevens niet wilt zien in Microsoft 365 Lighthouse, kunt u deze tenants inactief maken. Als u een tenant wilt inactiveren, volgt u de volgende stappen:
+
+
+      1. Selecteer **Tenants** in het linkernavigatiedeelvenster om de pagina **Tenants te** openen.
+
+      1. Zoek de tenant die u wilt inactiveren, selecteer de drie puntjes naast de tenantnaam en selecteer **vervolgens Tenant inactief maken.**
+
+      1. Selecteer bevestigen om de tenant  inactief te maken in het bevestigingsbericht dat wordt weergegeven.
+          > [!NOTE]
+          > Nadat u een tenant hebt geactiveerd, kunt u geen actie ondernemen op de tenant totdat de inactivering is voltooid. Het kan tot 48 uur duren voordat de inactiviteit is voltooid.
+
+      Zie het overzicht van de tenantlijst Microsoft 365 Lighthouse voor meer informatie over [tenants.](m365-lighthouse-tenant-list-overview.md)
+  - question: Werkt Microsoft 365 Lighthouse als mijn klantten tenants andere abonnementen hebben dan Microsoft 365 Business Premium?
+    answer: Microsoft 365 Lighthouse helpt u bij het beheren van klantten met Microsoft 365 Business Premium licenties voor hun gebruikers. Voor gebruikers in klantten die geen zakelijke Premium hebben, Microsoft 365 Lighthouse functionaliteit beperkt. Als een gebruiker bijvoorbeeld een licentie mist die Intune bevat, zijn de apparaten, de nalevingsstatus van het apparaat en de status van bedreigingen niet beschikbaar. en als een gebruiker een licentie mist die Azure AD P1 bevat, zijn het wachtwoord en het aanmeldingsbeheer van die gebruiker niet beschikbaar. Zie Vereisten voor [Microsoft 365 Lighthouse.](m365-lighthouse-requirements.md)

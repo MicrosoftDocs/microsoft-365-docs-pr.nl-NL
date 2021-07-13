@@ -34,6 +34,8 @@
           href: office-365-air.md
         - name: Hoe geautomatiseerd onderzoek en reactie werkt
           href: automated-investigation-response-office.md
+        - name: E-mailanalyse in onderzoeken
+          href: email-analysis-investigations.md
         - name: Herstelacties
           href: air-remediation-actions.md
         - name: Beveiliging tegen malware
