@@ -15,15 +15,16 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - MET150
 description: Gebruik Basismobiliteit en beveiliging om beveiligingsbeleid en toegangsregels voor apparaten in te stellen.
-ms.openlocfilehash: 37be420a4b9499da3d1290b8b6a898b9fcb09c5b
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: 1d1376ec39f7249dfffb94c666b2fdcfa07641a0
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706308"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394073"
 ---
 # <a name="overview-of-basic-mobility-and-security-for-microsoft-365"></a>Overzicht van basismobiliteit en beveiliging voor Microsoft 365
 
@@ -59,7 +60,7 @@ Nadat u Basismobiliteit en Beveiliging hebt ingesteld en uw gebruikers hun appar
 
 Als u alleen mobile app management (MAM) nodig hebt, misschien voor personen die werkprojecten bijwerken op hun eigen apparaten, biedt Intune een andere optie dan het registreren en beheren van apparaten. Met een Intune-abonnement kunt u MAM-beleid instellen via de Azure-portal, zelfs als de apparaten van personen niet zijn geregistreerd in Intune. Zie Overzicht van [app-beveiligingsbeleid voor meer informatie.](/mem/intune/apps/app-protection-policy)
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Basismobiliteit en beveiliging instellen](set-up.md) (artikel)\
 [Uw mobiele apparaat registreren met basismobiliteit en beveiliging](enroll-your-mobile-device.md) (artikel)\

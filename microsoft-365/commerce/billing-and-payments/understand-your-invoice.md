@@ -18,16 +18,17 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - commerce_billing
+- AdminTemplateSet
 search.appverid: MET150
 description: Ontdek hier hoe je je factuur of rekening voor zakelijke Microsoft-producten kunt lezen en begrijpen.
 keywords: factureringsaccounts, organisatie info, facturen
 ms.date: 05/04/2021
-ms.openlocfilehash: 64ccf82549bb85ba803693eb3e7c15939940d45c
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: b780b2f0379e9e1f1866c22139a7ac3504a23b53
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635844"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394507"
 ---
 # <a name="understand-your-bill-or-invoice"></a>Inzicht in je rekening of factuur
 
@@ -150,7 +151,7 @@ Als je vragen hebt of hulp nodig hebt bij je Azure-tegoeden kun je <a href="http
 
 Als je vragen hebt of hulp nodig hebt bij je factuur in het Microsoft 365-beheercentrum kun je [contact opnemen met ondersteuning voor zakelijke producten](../../business-video/get-help-support.md).
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Uw factuur of factuur voor Microsoft 365 voor bedrijven](understand-your-invoice2.md) (artikel)\
 [Microsoft Customer Agreement Azure credit balance](/azure/billing/billing-mca-check-azure-credits-balance) (article)\ bijhouden

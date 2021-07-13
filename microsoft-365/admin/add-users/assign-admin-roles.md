@@ -1,5 +1,5 @@
 ---
-title: Beheerdersrollen toewijzen aan het Microsoft 365 beheercentrum
+title: Beheerdersrollen toewijzen aan de Microsoft 365-beheercentrum
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -19,6 +19,7 @@ ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
@@ -27,12 +28,12 @@ search.appverid:
 - GEA150
 ms.assetid: eac4d046-1afd-4f1a-85fc-8219c79e1504
 description: Lees hoe u beheerdersrollen kunt toewijzen aan een gebruiker of meerdere gebruikers in uw bedrijf, zodat ze specifieke taken kunnen uitvoeren in het beheercentrum.
-ms.openlocfilehash: e53d1a414d081ddb74a1c4784adcd982b6194691
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 575d1d8c6b0ffce40877fb41d28df82c24e84d04
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683209"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393773"
 ---
 # <a name="assign-admin-roles"></a>Beheerdersrollen toewijzen
 
@@ -46,7 +47,7 @@ Wanneer u nieuwe gebruikers toevoegt, als u ze geen beheerdersrol toewijst, zijn
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfO] 
 
-Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../../business-video/index.yml).
+Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../../business-video/index.yml).
 
 ## <a name="assign-admin-roles"></a>Beheerdersrollen toewijzen 
 
@@ -103,7 +104,7 @@ U kunt beheerdersrolmachtigingen op twee verschillende manieren controleren:
 - U kunt naar de details van de gebruiker gaan en kijken onder **Rollen** op de **pagina Account.**
 - U kunt ook naar **Rollen gaan en** de beheerdersrol selecteren en toegewezen beheerders selecteren om te zien welke gebruikers zijn toegewezen.
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Over Microsoft 365 beheerdersrollen](about-admin-roles.md) (artikel)\
 [Beheerdersrolmachtigingen in Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) (artikel)\

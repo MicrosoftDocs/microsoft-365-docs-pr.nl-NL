@@ -1,5 +1,5 @@
 ---
-title: Wat is er nieuw in het Microsoft 365 beheercentrum?
+title: Wat is er nieuw in de Microsoft 365-beheercentrum?
 f1.keywords:
 - CSH
 ms.author: kwekua
@@ -17,18 +17,18 @@ search.appverid:
 - MET150
 - MOE150
 - FRP150
-description: 'Het Microsoft 365-beheercentrum: meer informatie over de functies die deze maand zijn toegevoegd.'
+description: De Microsoft 365-beheercentrum - meer informatie over de functies die deze maand zijn toegevoegd.
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: 5bb8377dd45714dcdf25533055159f8964acc558
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 497d1f78b2d0c17cfcaa23571838c4dc363b7017
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841964"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394699"
 ---
-# <a name="whats-new-in-the-microsoft-365-admin-center"></a>Nieuwe functies in het Microsoft 365 beheercentrum
+# <a name="whats-new-in-the-microsoft-365-admin-center"></a>Nieuwe functies in de Microsoft 365-beheercentrum
 
 ::: moniker range="o365-21vianet"
 
@@ -37,22 +37,48 @@ ms.locfileid: "52841964"
 
 ::: moniker-end
 
-We voegen voortdurend nieuwe [](../business-video/admin-center-overview.md)functies toe aan het Microsoft 365 beheercentrum, lossen problemen op die we leren en brengen wijzigingen aan op basis van uw feedback. Bekijk hieronder wat er vandaag voor u beschikbaar is. Sommige functies worden met verschillende snelheden uitgerold voor onze klanten. Als u nog geen functie ziet, kunt u [proberen om uzelf toe te voegen aan een gerichte release.](manage/release-options-in-office-365.md)
+We voegen voortdurend nieuwe functies toe aan de [Microsoft 365-beheercentrum,](../business-video/admin-center-overview.md)lossen problemen op die we leren en brengen wijzigingen aan op basis van uw feedback. Bekijk hieronder wat er vandaag voor u beschikbaar is. Sommige functies worden met verschillende snelheden uitgerold voor onze klanten. Als u nog geen functie ziet, kunt u [proberen om uzelf toe te voegen aan een gerichte release.](manage/release-options-in-office-365.md)
 
 En als u wilt weten wat er nieuw is met andere Microsoft-cloudservices:
 
 - [Nieuwe functies in Azure Active Directory](/azure/active-directory/fundamentals/whats-new)
 - [Nieuwe functies in het Exchange beheercentrum](/Exchange/whats-new)
 - [Nieuwe functies in Microsoft Intune](/mem/intune/fundamentals/whats-new)
-- [Nieuwe functies in het Microsoft 365 compliancecentrum](/Office365/SecurityCompliance/whats-new)
+- [Nieuwe functies in de Microsoft 365-compliancecentrum](/Office365/SecurityCompliance/whats-new)
 - [Wat is er nieuw in Microsoft 365 Defender](../security/mtp/whats-new.md)
 - [Nieuwe functies in het SharePoint beheercentrum](/sharepoint/what-s-new-in-admin-center)
 - [Office updates](/OfficeUpdates/)
 - [De status van Windows release controleren](/windows/deployment/update/check-release-health)
 
+## <a name="july-2021"></a>Juli 2021
+
+### <a name="microsoft-365-admin-center-search"></a>Microsoft 365-beheercentrum zoeken
+
+U kunt nu zoeken naar incident-ID's in de Microsoft 365-beheercentrum. U kunt meer informatie krijgen over actuele incidenten via sociale media, branchepublicaties of van andere beheerders. U kunt nu naar het beheercentrum gaan om meer informatie over het incident op te zoeken en de gevolgen voor uw organisatie te begrijpen. Zoek naar de incident-id in het beheercentrum.
+
+:::image type="content" source="../media/incident-id.png" alt-text="Schermafbeelding: Zoeken naar incident-id in het beheercentrum":::
+
+### <a name="support-ticket-insight-for-premier-organizations"></a>Inzicht in ondersteuningstickets voor Premier-organisaties
+
+We hebben twee grafieken toegevoegd met de naam **Volumetrend** en **Volumetrend per product** om u visueel inzicht te geven in uw ondersteuningsvolume.
+
+De lijndiagram onder **volumetrendtabblad** markeert de trend als ondersteuningszaken maand na maand toenemen of afnemen voor uw organisatie. U kunt de muisaanwijzer op de grafiek houden om het aantal ondersteuningszaken te controleren dat in elke maand is gemaakt.
+
+:::image type="content" source="../media/SuppInsight-voltrnd.PNG" alt-text="Schermafbeelding: Graph die de trend markeert als ondersteuningszaken maand na maand toenemen of afnemen voor uw organisatie":::
+
+De **volumetrend per productgrafiek** toont de drie beste producten van elke maand met de hoogste ondersteuningsgevallen. We hebben filteren in de tabel ingeschakeld en u kunt de resultaten nu filteren op **Product,** **Ernst** en **Datum.**
+
+:::image type="content" source="../media/SuppInsight-voltrndproduct.PNG" alt-text="Schermafbeelding: Graph de drie beste producten van elke maand met de hoogste ondersteuningsgevallen":::
+
+We hebben ook twee nieuwe **velden,** Ernst en Gesloten datum, toegevoegd **aan** de tabel **Serviceaanvraag** weergeven om u meer inzicht te geven over uw tickets.
+
+:::image type="content" source="../media/SuppInsight-date-sev.PNG" alt-text="Schermafbeelding: Tabel met ondersteuningstickets sorteren op ernst en datum.":::
+
+Als u deze updates in Microsoft 365-beheercentrum wilt bekijken, gaat u naar **Serviceaanvragen**  >  **voor ondersteuningsweergave** in het linkernavigatiedeelvenster.
+
 ## <a name="june-2021"></a>Juni 2021
 
-### <a name="microsoft-365-admin-center-search"></a>Microsoft 365 zoeken in het beheercentrum
+### <a name="microsoft-365-admin-center-search"></a>Microsoft 365-beheercentrum zoeken
 
 We hebben een aantal nieuwe categorieën toegevoegd aan de zoekfunctionaliteit.
 
@@ -60,7 +86,7 @@ We hebben een aantal nieuwe categorieën toegevoegd aan de zoekfunctionaliteit.
 
 - U kunt nu vereenvoudigde installatie-ervaringen vinden via globale zoekopdrachten. Dit kan u en uw team helpen om snel aan de slag te gaan met het gebruik van nieuwe functies. Zoek bijvoorbeeld naar ingesteld **wachtwoord dat nooit verloopt.**
 
-Zie Zoeken in het Microsoft 365 beheercentrum voor meer informatie over zoeken [in het beheercentrum.](manage/search-in-the-mac.md)
+Zie Zoeken in het beheercentrum voor meer informatie over zoeken [in het beheercentrum Microsoft 365-beheercentrum.](manage/search-in-the-mac.md)
 
 ## <a name="may-2021"></a>Mei 2021
 
@@ -142,11 +168,11 @@ We hebben een reeks functies ontwikkeld voor beheerders met meerdere tenants, zo
 
 ### <a name="monitor-your-most-important-accounts"></a>Uw belangrijkste accounts controleren
 
-U kunt mislukte of vertraagde e-mailberichten controleren en bijhouden die zijn verzonden naar uw gebruikers die een hoge zakelijke impact hebben, zoals uw CEO. U houdt prioriteitsaccounts bij door gebruikers toe te voegen aan uw lijst met prioriteitsaccounts in Microsoft 365 beheercentrum. Voeg leidinggevenden, leidinggevenden, managers of andere gebruikers toe die toegang hebben tot gevoelige of hoge prioriteitsgegevens.
+U kunt mislukte of vertraagde e-mailberichten controleren en bijhouden die zijn verzonden naar uw gebruikers die een hoge zakelijke impact hebben, zoals uw CEO. U houdt prioriteitsaccounts bij door gebruikers toe te voegen aan uw lijst met prioriteitsaccounts in de Microsoft 365-beheercentrum. Voeg leidinggevenden, leidinggevenden, managers of andere gebruikers toe die toegang hebben tot gevoelige of hoge prioriteitsgegevens.
 
 Prioriteitsaccounts zijn alleen beschikbaar voor organisaties die aan beide van de volgende vereisten voldoen:
 
-- Office 365 E3 of Microsoft 365 E3, of Office 365 E5 of Microsoft 365 E5.
+- Office 365 E3 of Microsoft 365 E3 of Office 365 E5 of Microsoft 365 E5.
 - Ten minste 10.000 licenties en ten minste 50 maandelijkse actieve Exchange Online gebruikers.
 
 ![Installatiepagina voor de functie: Uw belangrijkste accounts controleren](../media/MAC-WN-PriorityAccounts.png)
@@ -162,7 +188,7 @@ Zie Prioriteitsaccounts controleren voor meer informatie over [prioriteitsaccoun
 
 We zijn begonnen met de uitrol van een nieuwe zoekervaring voor het beheercentrum en we kunnen niet wachten tot u het wilt uitproberen. ![Het zoekvak is verplaatst naar het bannergebied. Alt+S om op elke pagina te zoeken.](../media/MAC-WN-GlobalSearch.png)
 
-- Het vak Zoeken is verplaatst naar het koptekstgebied met de tekst 'Microsoft 365 beheercentrum' zodat u nu op elke pagina zoekt, niet alleen op de startpagina. We hebben zelfs een snelkoppeling: **Alt+S.**
+- Het vak Zoeken is verplaatst naar het koptekstgebied waar 'Microsoft 365-beheercentrum' staat, zodat u nu vanaf elke pagina kunt zoeken, niet alleen op de startpagina. We hebben zelfs een snelkoppeling: **Alt+S.**
 - Zoeken is slimmer en geeft u betere resultaten, nog sneller. Probeer '2fa' te typen om aan de slag te gaan.
 - Zoekresultaten worden ingedeeld op het type item of actie dat u kunt ondernemen.
   - **Gebruikers:** Selecteer de naam van de gebruiker en u kunt die gebruiker daar bewerken. Als u het menu drie puntjes (meer acties) naast de naam selecteert, kunt u het wachtwoord opnieuw instellen. U kunt zoeken op weergavenaam, achternaam, voornaam, gebruikersnaam of primair e-mailadres en e-mailalias. Maar om een exacte overeenkomst te krijgen, zoekt u op primair e-mailadres of gebruikersnaam.
@@ -207,7 +233,7 @@ We zijn voortdurend bezig met het bekijken en bijwerken van de inhoud en hulpmid
 - Problemen met het instellen van DKIM oplossen
 - Fouten bij het registreren van Intune-gebruikers diagnosticeren
 
-En we zijn de nieuwe en verbeterde ondersteuningservaring die u al ziet in het Microsoft 365-beheercentrum, uitgerold naar enkele andere beheercentra. Teams Beheercentrum en beveiligings- en compliancebeheerderscentra hebben deze nieuwe ervaring al. Binnenkort worden **Exchange** beheercentrum, **SharePoint** beheercentrum en **Office.com** bijgewerkt, samen met deze nieuwe help-ervaring voor beheerders.
+En we zijn de nieuwe en verbeterde ondersteuningservaring die u al ziet in de Microsoft 365-beheercentrum voor een aantal andere beheercentra. Teams Beheercentrum en beveiligings- en compliancebeheerderscentra hebben deze nieuwe ervaring al. Binnenkort worden **Exchange** beheercentrum, **SharePoint** beheercentrum en **Office.com** bijgewerkt, samen met deze nieuwe help-ervaring voor beheerders.
 
 ### <a name="manage-changes-with-microsoft-planner"></a>Wijzigingen beheren met Microsoft Planner
 
@@ -269,7 +295,7 @@ Een paar maanden geleden hebben we een instelling toegevoegd waarmee u de nieuwe
 
 Op 12 mei hebben we de beschikbaarheid aangekondigd van een nieuw updatekanaal voor Office: Monthly Enterprise Channel. Dit updatekanaal biedt uw gebruikers eenmaal Office maand nieuwe functies, op de tweede dinsdag van de maand.
 
-Als u uw gebruikers toestaat om zelf een Office te installeren in de portal, kunt u Monthly Enterprise-kanaal voor hen selecteren. Meld u hiervoor aan bij het Microsoft 365 beheercentrum en ga naar **Alle** instellingen Instellingen  >   >  **Organisatie-instellingen**  >  **Office**  >  **instellingen voor software downloaden.** Als u Eenmaal per maand **(Monthly Enterprise-kanaal)** selecteert, worden nieuwe zelf-installaties van Office geconfigureerd voor het gebruik van Monthly Enterprise-kanaal.
+Als u uw gebruikers toestaat om zelf een Office te installeren in de portal, kunt u Monthly Enterprise-kanaal voor hen selecteren. U doet dit door u aan te melden bij de Microsoft 365-beheercentrum en naar Alle instellingen **Instellingen**  >   >    >  **Org-instellingen Office**  >  **instellingen voor software downloaden.** Als u Eenmaal per maand **(Monthly Enterprise-kanaal)** selecteert, worden nieuwe zelf-installaties van Office geconfigureerd voor het gebruik van Monthly Enterprise-kanaal.
 
 In combinatie met de release van Monthly Enterprise Channel worden ook de namen van de bestaande updatekanalen herzien. Monthly-kanaal wordt bijvoorbeeld gewijzigd in Huidig kanaal. De nieuwe namen worden op 9 juni 2020 van kracht.
 
@@ -277,7 +303,7 @@ Zie [Wijzigingen aan updatekanalen voor Microsoft 365-apps](/DeployOffice/update
 
 ### <a name="new-admin-roles"></a>Nieuwe beheerdersrollen
 
-We hebben een aantal nieuwe Azure Active Directory beheerdersrollen toegevoegd aan het Microsoft 365 beheercentrum.
+We hebben een aantal nieuwe beheerdersrollen Azure Active Directory toegevoegd aan de Microsoft 365-beheercentrum.
 
 - De rol van hybride identiteitsbeheerder geeft gebruikers toestemming om cloud-inrichtings- en verificatieservices te beheren.
 - Met de rol netwerkbeheerder kunnen gebruikers netwerklocaties beheren en netwerkinzichten bekijken voor Microsoft 365 Software as a Service-apps.
@@ -302,7 +328,7 @@ Deze maand hebben we een nieuwe site uitgebracht [](../solutions/index.yml)op do
 ### <a name="docs-training-and-videos-may"></a>Documenten, training en video's (mei)
 
 - Nieuw in **Microsoft 365-videoreeks:** deze maand behandelen we de nieuwe ondersteuningservaring in de Teams-beheer- en beveiligings- en compliancecentra, plannerintegratie met het Berichtencentrum en de nieuwe 3x3-video-indeling in Microsoft Teams. 
-- De [Microsoft 365 help-hubpagina](./index.yml) van het beheercentrum is bijgewerkt om u te helpen sneller te vinden wat u nodig hebt. En als u nu naar die pagina gaat kijken, hebben we een kaart toegevoegd om u te informeren over belangrijke updates en wijzigingen.
+- De [Microsoft 365-beheercentrum Help-hub](./index.yml) is bijgewerkt om u te helpen sneller te vinden wat u nodig hebt. En als u nu naar die pagina gaat kijken, hebben we een kaart toegevoegd om u te informeren over belangrijke updates en wijzigingen.
 
 ## <a name="april-2020"></a>April 2020
 
@@ -310,7 +336,7 @@ Deze maand hebben we een nieuwe site uitgebracht [](../solutions/index.yml)op do
 
 [April 2020](#april-2020)
 
-We hebben het gedaan. We hebben de tweede stap gezet naar een geïntegreerde rollenervaring en u kunt nu Intune-rollen beheren in het Microsoft 365 beheercentrum. U kunt ook gebruikmaken van functies, zoals de mogelijkheid om rollen te zoeken en rolmachtigingen weer te geven. Dit betekent dat u geen twee afzonderlijke hulpprogramma's nodig hebt om rollen voor Microsoft 365 en Intune te beheren. Wanneer u zich bij het Microsoft 365-beheercentrum meldt, ziet u dat er twee draaitatjes op de pagina Rollen staan, een voor Azure AD en een voor Intune.
+We hebben het gedaan. We hebben de tweede stap gezet naar een geïntegreerde rollenervaring en u kunt nu Intune-rollen beheren in de Microsoft 365-beheercentrum. U kunt ook gebruikmaken van functies, zoals de mogelijkheid om rollen te zoeken en rolmachtigingen weer te geven. Dit betekent dat u geen twee afzonderlijke hulpprogramma's nodig hebt om rollen voor Microsoft 365 en Intune te beheren. Wanneer u zich bij de Microsoft 365-beheercentrum, ziet u dat er twee draaitatjes op de pagina Rollen staan, een voor Azure AD en een voor Intune.
 
 ![Pagina Rollen met de intune-draaipunt geselecteerd](../media/MAC-WN-IntuneRoles.png)
 
@@ -322,11 +348,11 @@ Vanaf mei zien beheerders die targeted release hebben de knop 'Planner syncing' 
 
 ### <a name="need-help-launched-in-teams-admin-center--security-and-compliance-centers"></a>'Hulp nodig?' gestart in Teams beheercentrum & beveiligings- en compliancecentra
 
-Het Teams beheercentrum, beveiligingscentrum en compliancecentrum gebruiken nu hetzelfde 'Hulp nodig?' functie die het Microsoft 365 gebruikt voor het zoeken naar hulp en contact opnemen met ondersteuning. We hebben veel feedback ontvangen van beheerders die u op hetzelfde niveau van hulp en ondersteuning wilde hebben en we brengen dat graag naar u toe. Probeer het uit en geef ons uw feedback!
+Het Teams beheercentrum, beveiligingscentrum en compliancecentrum gebruiken nu hetzelfde 'Hulp nodig?' functie die de Microsoft 365-beheercentrum gebruikt om hulp te vinden en contact op te nemen met ondersteuning. We hebben veel feedback ontvangen van beheerders die u op hetzelfde niveau van hulp en ondersteuning wilde hebben en we brengen dat graag naar u toe. Probeer het uit en geef ons uw feedback!
 
 #### <a name="need-chat"></a>Wilt u chatten?
 
-Onze ondersteuningsagenten hebben thuis gewerkt, terwijl ze nog steeds klantzaken en beperkingen voor internetbandbreedte in beslag nemen terwijl ze thuis werken, kunnen van invloed zijn op de gesprekskwaliteit van de klant. Om u te blijven ondersteunen, hebben we de ondersteuningsoptie voor livechats voor commerciële klanten in het Microsoft 365 gestart.
+Onze ondersteuningsagenten hebben thuis gewerkt, terwijl ze nog steeds klantzaken en beperkingen voor internetbandbreedte in beslag nemen terwijl ze thuis werken, kunnen van invloed zijn op de gesprekskwaliteit van de klant. Om u te blijven ondersteunen, hebben we de ondersteuningsoptie voor livechats voor commerciële klanten in de Microsoft 365-beheercentrum.
 
 Tijdens het maken van een serviceaanvraag ziet u chat nu als een optie, naast telefoon en e-mail. Selecteer chat als een voorkeurskanaal voor communicatie en maak de aanvraag. Nadat u de aanvraag hebt gemaakt, kunt u de chat starten wanneer u klaar bent om te chatten met Microsoft-agenten.
 
@@ -393,7 +419,7 @@ Met de uptick in Teams gebruik, krijgen sommige organisaties een vastgemaakte da
 
 ### <a name="customize-your-organizations-sharepoint-mobile-app-theme"></a>Het thema van de mobiele SharePoint uw organisatie aanpassen
 
-Met het Microsoft 365 beheercentrum kunt u nu het thema van uw organisatie aanpassen in SharePoint mobiele app voor iOS en SharePoint mobiele app voor Android. Deze functie biedt eenvoudig een mobiele intranet-app die kan overeenkomen met uw SharePoint Online voor werknemers die onderweg zijn. Themaaanpassing omvat uw logoafbeelding, navigatiebalkkleur, tekst- en pictogramkleuren en accentkleuren, waardoor u eenvoudig kunt worden herkend.
+Met de Microsoft 365-beheercentrum kunt u nu het thema van uw organisatie aanpassen in SharePoint mobiele app voor iOS en SharePoint mobiele app voor Android. Deze functie biedt eenvoudig een mobiele intranet-app die kan overeenkomen met uw SharePoint Online voor werknemers die onderweg zijn. Themaaanpassing omvat uw logoafbeelding, navigatiebalkkleur, tekst- en pictogramkleuren en accentkleuren, waardoor u eenvoudig kunt worden herkend.
 
 ![Diagram dat de instellingen van het beheercentrum toewijst aan de mobiele app.](../media/MAC-WN-CustThemeSP.png)
 
@@ -429,7 +455,7 @@ We hebben veel feedback ontvangen van partners en beheerders over de uitdagingen
 > [!TIP]
 > U hoeft niets te doen om de organisatiewisselaar te laten verschijnen, zolang u de recordpartner bent voor ten minste één organisatie.
 
-1. Selecteer in Microsoft 365 beheercentrum de naam van de organisatie.
+1. Selecteer in Microsoft 365-beheercentrum de naam van de organisatie.
 ![Schermafbeelding: boven aan de startpagina met de naam van het organisatieprofiel met het schakelpictogram.](../media/MAC-Organization-switcher.png)
 
 2. Selecteer in de organisatiewisselaar de organisatie die u wilt beheren.
@@ -442,7 +468,7 @@ Dat is het letterlijk!!!
 Een paar wijzigingen in het groepengebied deze maand:
 
 - **Sorteren op groepsnaam:** u kunt de lijst met groepen alfabetisch sorteren door de kolom **Groepsnaam te** selecteren.
-- **Verwijderde Microsoft 365 herstellen:** u hoeft niet meer naar het Exchange-beheercentrum te gaan om verwijderde Microsoft 365 herstellen. Ga naar **Microsoft 365 beheercentrum** \> **Groepen** \> **Verwijderde groepen** \> (selecteer een groep in de lijst) \> **Groep herstellen.** Het herstelt de groep  weer in de lijst Groepen en herstelt de e-mail, gesprekken, notitieblokken, bestanden en agenda van de groep.
+- **Verwijderde Microsoft 365 herstellen:** u hoeft niet meer naar het Exchange-beheercentrum te gaan om verwijderde Microsoft 365 herstellen. Ga naar **Microsoft 365-beheercentrum** \> **Groepen** \> **Verwijderde groepen** \> (selecteer een groep in de lijst) \> **Groep herstellen.** Het herstelt de groep  weer in de lijst Groepen en herstelt de e-mail, gesprekken, notitieblokken, bestanden en agenda van de groep.
 
 ### <a name="videos-training-and-docs-february"></a>Video's, trainingen en documenten (februari)
 

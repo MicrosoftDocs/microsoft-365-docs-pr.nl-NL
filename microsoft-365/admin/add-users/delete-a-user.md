@@ -16,16 +16,17 @@ ms.collection:
 - SPO_Content
 ms.custom:
 - AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - MET150
 ms.assetid: d5155593-3bac-4d8d-9d8b-f4513a81479e
 description: Lees hoe u een gebruikersaccount verwijdert en wat u moet doen met de e-mail en OneDrive van de gebruiker en of u de productlicentie wilt behouden.
-ms.openlocfilehash: 43a57a69ce0d810af2b029f49c15d32d75a4dc33
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 81dc71c6734340146e1dd13bcd59696eed5be202
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683137"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394349"
 ---
 # <a name="delete-a-user-from-your-organization"></a>Een gebruiker uit uw organisatie verwijderen
   
@@ -131,7 +132,7 @@ Het aantal licenties beperken is een afzonderlijke stap die alleen kan worden ui
 
 4. Voer in **het deelvenster** Licenties verwijderen onder  **Nieuw** aantal in het vak Totaal aantal licenties het totale aantal licenties in dat u voor dit abonnement wilt gebruiken. Als u bijvoorbeeld 100 licenties hebt en u er vijf wilt verwijderen, voert u 95 in.
 
-5. Klik op **Opslaan**.
+5. Kies **Opslaan**.
 
 Wanneer u later de stappen doorloopt om een andere persoon aan uw bedrijf toe te voegen, wordt u gevraagd tegelijkertijd een licentie te kopen. Dat kan met één stap.
 
@@ -151,7 +152,7 @@ Hier volgt een overzicht van de meestvoorkomende problemen tijdens het verwijder
 
 **Wilt u uw Microsoft 365 van uw computer verwijderen? Ga naar [Uw abonnement opzeggen.](../../commerce/subscriptions/cancel-your-subscription.md)**
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Een gebruiker herstellen](restore-user.md) (artikel)\
 [Een postvak permanent verwijderen](/exchange/permanently-delete-a-mailbox-exchange-2013-help) (artikel)\

@@ -13,19 +13,21 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 832276bd-d024-47b6-a80a-a6b884907a5b
 description: 'Informatie over het in- of uitschakelen van de functie Onbelangrijke e-mail voor alle of specifieke gebruikers in uw organisatie, met Exchange PowerShell. '
-ms.openlocfilehash: 059fb8e626a0b05e0224fc89931453aaae43be0b
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: 91098047bdf2ab8190283990bdc6b0292e3e57ba
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706107"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393977"
 ---
 # <a name="configure-clutter-for-your-organization"></a>Onbelangrijke e-mail configureren voor uw organisatie
 
@@ -60,7 +62,7 @@ Als u PowerShell gebruikt om veel gebruikers ineens te maken, dan moet u [Set-Cl
 
 Als beheerder kunt u Onbelangrijke e-mail opnieuw inschakelen met Exchange PowerShell. Wanneer u dit hebt gedaan, wordt Postvak IN met prioriteit uitgeschakeld en is Onbelangrijke e-mail opnieuw actief. 
   
- **Als u een Outlook op internet gebruikt met een Microsoft 365 Business Premium abonnement:**
+ **Als u een abonnement webversie van Outlook met Microsoft 365 Business Premium abonnement:**
   
 - Als een gebruiker momenteel Onbelangrijke e-mail heeft ingeschakeld: 
     
@@ -96,7 +98,7 @@ Als beheerder kunt u Onbelangrijke e-mail opnieuw inschakelen met Exchange Power
     
   - Instellingen voor Onbelangrijke e-mail worden weergegeven
     
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Onbelangrijke e-mail gebruiken om](https://support.microsoft.com/office/7b50c5db-7704-4e55-8a1b-dfc7bf1eafa0) berichten met een lage prioriteit te sorteren in Outlook (artikel)\
 [Onbelangrijke e-mail gebruiken om](https://support.microsoft.com/office/fe4d64ca-bf73-48f1-91b4-9a659e008bce) berichten met een lage prioriteit te sorteren in OWA (artikel)\

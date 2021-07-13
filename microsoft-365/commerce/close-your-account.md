@@ -17,15 +17,16 @@ ms.custom:
 - AdminSurgePortfolio
 - fwlink 2133922 to Delete subscription heading
 - commerce_subscription
+- AdminTemplateSet
 search.appverid: MET150
 description: Wanneer u uw account met Microsoft sluit, worden alle gegevens over uw account verwijderd, inclusief licenties, gebruikers en gebruikersgegevens.
 ms.date: 04/02/2021
-ms.openlocfilehash: b212911707b5d6a967ab833a5a06bc76f5ceeb3b
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: f46a35ca9a8b4ca0a68a3260f1a79bbf3717b552
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624323"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394459"
 ---
 # <a name="close-your-account"></a>Uw account sluiten
 
@@ -89,7 +90,7 @@ U kunt [PowerShell ook gebruiken om meervoudige](/azure/active-directory/authent
 
 Nadat u deze laatste stap hebt voltooid, wordt uw account bij Microsoft gesloten en verwijderd.
 
-## <a name="related-content"></a>Verwante onderwerpen 
+## <a name="related-content"></a>Verwante inhoud 
 
 [Uw factuur of factuur voor Microsoft 365 voor bedrijven](./billing-and-payments/understand-your-invoice2.md) (artikel)\
 [Uw abonnement opzeggen](./subscriptions/cancel-your-subscription.md) (artikel)

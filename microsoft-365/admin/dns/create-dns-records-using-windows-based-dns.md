@@ -14,19 +14,21 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 9eec911d-5773-422c-9593-40e1147ffbde
 description: Informatie over het verifiëren van uw domein en het instellen van DNS-records voor e-mail, Skype voor Bedrijven Online en andere services bij Windows op basis van DNS voor Microsoft.
-ms.openlocfilehash: b9088fe3efd58700db0234a2839665a783731eb0
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: 86deaac256c0d657ad9604be91349b113e9c0ded
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706108"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393725"
 ---
 # <a name="create-dns-records-for-microsoft-using-windows-based-dns"></a>DNS-records voor Microsoft maken met Windows dns op basis van
 
@@ -76,14 +78,14 @@ Voeg de SIP CNAME-record toe.
     - Hostnaam: sip
     - Type: CNAME
     - Adres: sipdir.online.lync.com
-- Selecteer **OK**.
+- Selecteer **OK**.
 
 Voeg de Skype voor Bedrijven Online Autodiscover CNAME-record toe.  
 - Ga op de pagina DNS Manager voor het domein naar **Actie** \> **CNAME (CNAME)**. Zorg er **in het dialoogvenster** Nieuwe resourcerecord voor dat de velden precies zijn ingesteld op de volgende waarden:  
     - Hostnaam: lyncdiscover
     - Type: CNAME
     - Adres: webdir.online.lync.com
-- Selecteer **OK**.
+- Selecteer **OK**.
    
 ### <a name="add-two-cname-records-for-mobile-device-management-mdm-for-microsoft"></a>Twee CNAME-records toevoegen voor Mobile Device Management (MDM) voor Microsoft
 
@@ -97,7 +99,7 @@ Voeg de MDM Enterpriseregistration CNAME-record toe.
 - Hostnaam: enterpriseregistration
 - Type: CNAME
 - Adres: enterpriseregistration.windows.net
-- Selecteer **OK**. 
+- Selecteer **OK**. 
 
 Voeg de MDM Enterpriseenrollment CNAME-record toe. 
 -  Ga op de pagina DNS Manager voor het domein naar **Actie** \> **CNAME (CNAME)**. 
@@ -105,7 +107,7 @@ Voeg de MDM Enterpriseenrollment CNAME-record toe.
     - Hostnaam: enterpriseenrollment
     - Type: CNAME
     - Adres: enterpriseenrollment-s.manage.microsoft.com
-- Selecteer **OK**.
+- Selecteer **OK**.
    
 ## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Een TXT-record voor SPF toevoegen om spam tegen te gaan
 <a name="BKMK_add_TXT"> </a>
@@ -125,7 +127,7 @@ Voeg de SPF TXT-record voor uw domein om spam te voorkomen.
 -  Recordtype: TXT
 -  Adres: v=spf1 include:spf.protection.outlook.com -all 
          
--  Selecteer **OK**.
+-  Selecteer **OK**.
    
 ## <a name="add-srv-records"></a>SRV-records toevoegen
 <a name="BKMK_add_SRV"> </a>
@@ -142,7 +144,7 @@ Voeg de SIP SRV-record voor Skype voor Bedrijven Online-webconferenties toe.  <b
     -  Gewicht: 1
     -  Poort: 443
     -  Doel (Hostnaam): sipdir.online.lync.com
--  Selecteer **OK**. 
+-  Selecteer **OK**. 
 
 
 Voeg de SIP SRV-record voor Skype voor Bedrijven Online-federatie toe.  
@@ -155,7 +157,7 @@ Voeg de SIP SRV-record voor Skype voor Bedrijven Online-federatie toe.
     -  Gewicht: 1
     -  Poort: 5061
     -  Doel (hostnaam): sipfed.online.lync.com
--  Selecteer **OK**. 
+-  Selecteer **OK**. 
    
 ## <a name="add-a-record-to-verify-that-you-own-the-domain-if-you-havent-already"></a>Een record toevoegen om te verifiëren dat u eigenaar bent van het domein, als dit nog niet is gedaan
 <a name="BKMK_verify"> </a>
@@ -206,7 +208,7 @@ Als u van plan bent uw on-premises Active Directory te synchroniseren met Micros
 > [!NOTE]
 >  Het duurt gewoonlijk ongeveer 15 minuten voordat DNS-wijzigingen van kracht worden. Het kan echter soms wat langer duren voordat een wijziging die u hebt aangebracht, is bijgewerkt via het DNS-systeem op internet. Als u na het toevoegen van de DNS-records problemen hebt met het ontvangen of verzenden van e-mail, raadpleegt u [Problemen oplossen nadat u uw domeinnaam of DNS-records hebt gewijzigd](../get-help-with-domains/find-and-fix-issues.md). 
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Een domein overbrengen van Micrsoft 365 naar een andere host](../get-help-with-domains/transfer-a-domain-from-microsoft-to-another-host.md) (artikel)\
 [Pilot Microsoft 365 van mijn aangepaste domein](../misc/pilot-microsoft-365-from-my-custom-domain.md) (artikel)\

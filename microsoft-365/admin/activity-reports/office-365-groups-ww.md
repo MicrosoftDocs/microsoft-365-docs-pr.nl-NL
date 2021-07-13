@@ -11,7 +11,9 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
@@ -19,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: a27f1a99-3557-4f85-9560-a28e3d822a40
 description: Krijg een Microsoft 365 groepenrapport om meer te weten te komen over de groepen en hun activiteiten.
-ms.openlocfilehash: 9426f7a35dea6c0f4a34e78dd8b2c214a0619bdd
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+ms.openlocfilehash: ed598633205aab83920abef79e766ef16e248f43
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939228"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394133"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-365-groups"></a>Microsoft 365 Rapporten in het beheercentrum - Microsoft 365 groepen
 
@@ -67,7 +69,9 @@ U kunt de rapportgegevens ook exporteren naar een Excel .csv bestand door de **k
 |Externe leden |Het aantal externe gebruikers in de groep.|
 |||
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
-[Microsoft 365 Rapporten in](activity-reports.md) het beheercentrum (artikel) Rapporten in het [Beveiligings- & Compliancecentrum](../../compliance/reports-in-security-and-compliance.md) (artikel) Microsoft 365 Rapporten in het [beheercentrum - Actieve](../../admin/activity-reports/active-users-ww.md) gebruikers (artikel)
+[Microsoft 365 Rapporten in het beheercentrum](activity-reports.md) (artikel)\
+[Rapporten in het beveiligingscentrum & compliancecentrum](../../compliance/reports-in-security-and-compliance.md) (artikel)\
+[Microsoft 365 rapporten in het beheercentrum - Actieve gebruikers](../../admin/activity-reports/active-users-ww.md) (artikel)
 

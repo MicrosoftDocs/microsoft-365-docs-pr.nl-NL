@@ -19,18 +19,19 @@ ms.custom:
 - OKR_SMB_Videos
 - AdminSurgePortfolio
 - okr_smb
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
 description: Lees hoe u een beleid kunt instellen waarmee gebruikers hun eigen wachtwoorden opnieuw kunnen instellen met behulp van het hulpprogramma voor het opnieuw instellen van selfservicewachtwoorden.
-ms.openlocfilehash: 81fbe1949b8d5e4a601411703d86165f95cc7b7f
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: ac6d7f16cb35cec757340a94c262c3541bea927a
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52634266"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394313"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>Gebruikers toestaan hun eigen wachtwoord opnieuw in te stellen
 
@@ -52,7 +53,7 @@ U moet een globale [beheerder of wachtwoordbeheerder zijn om](about-admin-roles.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3AY8S]
 
-Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../../business-video/index.yml).
+Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../../business-video/index.yml).
 
 ## <a name="steps-let-people-reset-their-own-passwords"></a>Stappen: Personen hun eigen wachtwoorden opnieuw laten instellen
 
@@ -72,8 +73,8 @@ Met deze stappen wordt selfservice voor wachtwoordherstel ingeschakeld voor iede
   
 7. Wanneer uw gebruikers zich aanmelden, wordt hen gevraagd om aanvullende contactgegevens in te voeren, zodat ze hun wachtwoord in de toekomst opnieuw kunnen instellen.
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Het wachtwoordverloopbeleid voor uw organisatie](../manage/set-password-expiration-policy.md) instellen (artikel)\
 [Het wachtwoord van een individuele gebruiker zo instellen dat het nooit verloopt](set-password-to-never-expire.md) (artikel)\
-[Microsoft 365 Business trainingsvideo's](../../business-video/index.yml) (koppelingspagina)
+[Microsoft 365 trainingsvideo's voor bedrijven](../../business-video/index.yml) (koppelingspagina)

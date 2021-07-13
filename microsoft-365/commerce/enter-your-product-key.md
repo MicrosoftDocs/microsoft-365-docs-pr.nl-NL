@@ -19,14 +19,15 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - commerce_purchase
+- AdminTemplateSet
 description: Als u een Microsoft 365 Business Standard in een winkel hebt gekocht, leert u hoe u de productcode kunt inwisselen en uw abonnement kunt activeren.
 ms.date: 11/13/2020
-ms.openlocfilehash: e075a9d06b45f823540a3a99a1943caa9d116954
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: c3807a6e4ce5a49b1552fee7320c03c6b329a8c6
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636120"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394447"
 ---
 # <a name="enter-your-product-key-for-microsoft-365-business-standard"></a>Voer uw productcode voor Microsoft 365 Business Standard
 
@@ -65,7 +66,7 @@ Bekijk deze lijst met veelvoorkomende fouten en oplossingen: [Problemen met uw M
   
 U kunt ook [Microsoft Ondersteuning bellen](../business-video/get-help-support.md).
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Upgraden naar een ander abonnement](./subscriptions/upgrade-to-different-plan.md) (artikel)\
 [Wat gebeurt er met mijn gegevens en toegang wanneer mijn Microsoft 365 voor Bedrijven-abonnement afloopt?](./subscriptions/what-if-my-subscription-expires.md) (artikel)\

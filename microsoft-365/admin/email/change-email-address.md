@@ -17,6 +17,7 @@ ms.collection:
 ms.custom:
 - MSStore_Link
 - AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
@@ -25,12 +26,12 @@ search.appverid:
 - GEA150
 ms.assetid: f4d8cae9-6d06-4c4b-b4e5-6581fd05ea82
 description: Wijzig uw e-mailadres in een vriendelijk e-mailadres zoals tom@fourthcoffee.com door een domeinnaam te kopen en toe te voegen aan Microsoft 365.
-ms.openlocfilehash: 7fb113c0efd6462c4c703956a20c390f2d555d5f
-ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
+ms.openlocfilehash: 599ca47a9df2dc7b022ff614e3f78b23defdd96e
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53341458"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394001"
 ---
 # <a name="change-your-email-address-to-use-your-custom-domain"></a>Uw e-mailadres wijzigen om uw aangepaste domein te gebruiken
 
@@ -91,7 +92,7 @@ Je moet een globale beheerder zijn om deze stappen uit te voeren.
 > [!NOTE]
 > Als u geen licentie voor Exchange gebruikt, kunt u het domein niet gebruiken om e-mailberichten te verzenden of te ontvangen van de Microsoft 365 tenant.
   
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Een aangepast domein kopen met Microsoft 365](../get-help-with-domains/buy-a-domain-name.md) (artikel)\
 [Domeinen beheren](../get-help-with-domains/index.yml) (koppelingspagina)\

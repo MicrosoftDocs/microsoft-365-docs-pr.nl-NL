@@ -13,19 +13,21 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: b7c66b59-657a-4e1a-8aa0-8163b1f4eb54
 description: Een verwijderde groep blijft 30 dagen behouden en u kunt de groep nog steeds herstellen. Na 30 dagen worden de groep en de inhoud ervan definitief verwijderd.
-ms.openlocfilehash: 2c20c2bd3ce91331e7160132047dbf3ecd79c4b8
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: ddc3da57c05b7c5f54c10a0cc429c9a3f24b859c
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635736"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394049"
 ---
 # <a name="restore-a-deleted-microsoft-365-group"></a>Een verwijderde Microsoft 365 herstellen
 
@@ -56,7 +58,7 @@ Wanneer een groep wordt hersteld, wordt de volgende inhoud hersteld:
 
 # <a name="outlook"></a>[Outlook](#tab/outlook)
 
-Als u de eigenaar bent van een Microsoft 365 groep, kunt u de groep zelf herstellen in Outlook web door de volgende stappen uit te voeren:
+Als u de eigenaar bent van een Microsoft 365 groep, kunt u de groep zelf herstellen in webversie van Outlook door de volgende stappen uit te voeren:
 
 1. Selecteer op [de pagina Verwijderde](https://outlook.office.com/people/group/deleted)groepen de  optie Groepen **beheren** onder het knooppunt Groepen en kies **vervolgens Verwijderd.**
 
@@ -66,7 +68,7 @@ Als de verwijderde groep hier niet wordt weergegeven, neemt u contact op met een
 
 # <a name="admin-center"></a>[Beheercentrum](#tab/admin-center)
 
-Als u een globale beheerder of een groepsbeheerder bent, kunt u een verwijderde groep herstellen in het Microsoft 365 beheercentrum:
+Als u een globale beheerder of groepsbeheerder bent, kunt u een verwijderde groep in de volgende Microsoft 365-beheercentrum:
 
 1. Ga naar het [beheercentrum.](https://admin.microsoft.com)
 2. Vouw **Groepen** uit en klik vervolgens **op Verwijderde groepen.**
@@ -81,7 +83,7 @@ Als u een globale beheerder of een groepsbeheerder bent, kunt u een verwijderde 
 
 Ga naar [de Microsoft Tech Community om](https://techcommunity.microsoft.com/t5/Office-365-Groups/ct-p/Office365Groups) vragen te posten en deel te nemen aan gesprekken over Microsoft 365 groepen. 
   
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Groepen Microsoft 365 beheren met PowerShell](../../enterprise/manage-microsoft-365-groups-with-powershell.md) (artikel)\
 [Groepen verwijderen met de Remove-UnifiedGroup cmdlet](/powershell/module/exchange/remove-unifiedgroup) (artikel)\

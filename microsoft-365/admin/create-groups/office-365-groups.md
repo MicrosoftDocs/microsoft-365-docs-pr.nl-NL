@@ -16,17 +16,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - okr_smb
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Met Microsoft 365 Groepen kunt u teamwerk in verschillende Microsoft 365 stimuleren door een groep personen toegang te geven tot een verzameling gedeelde resources.
-ms.openlocfilehash: 69f7e47bcfb9e0704f8c373cf1addf98ef898cfa
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: 612884306b0b999de48f7168981d9c006335f0aa
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782391"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393737"
 ---
 # <a name="overview-of-microsoft-365-groups-for-administrators"></a>Overzicht van Microsoft 365 groepen voor beheerders
 
@@ -53,7 +54,7 @@ Groepen hebben de volgende rollen:
 - **Leden:** leden hebben toegang tot alles in de groep, maar kunnen de groepsinstellingen niet wijzigen. Standaard kunnen groepsleden gasten uitnodigen om deel te nemen aan uw groep, maar u kunt [deze instelling bepalen.](manage-guest-access-in-groups.md)
 - **Gasten** - Groepsgasten zijn leden van buiten uw organisatie.
 
-Alleen globale beheerders, gebruikersbeheerders en groepenbeheerders kunnen groepen maken en beheren in het Microsoft 365 beheercentrum. U kunt geen gedelegeerde beheerder zijn (bijvoorbeeld een consultant die plaatsvervangend beheerder is).
+Alleen globale beheerders, gebruikersbeheerders en groepenbeheerders kunnen groepen maken en beheren in de Microsoft 365-beheercentrum. U kunt geen gedelegeerde beheerder zijn (bijvoorbeeld een consultant die plaatsvervangend beheerder is).
 
 Als beheerder kunt u het volgende doen:
 
@@ -65,7 +66,7 @@ Als beheerder kunt u het volgende doen:
 
 Als u liever een meer geautomatiseerde manier hebt om de levenscyclus van uw Microsoft 365 te beheren, kunt u verloopbeleid gebruiken om groepen met een bepaald tijdsinterval te laten verlopen. De eigenaren van de groep ontvangen een e-mail van 30, 15 en 1 dag vóór de verloopdatum van de groep, zodat ze de groep kunnen verlengen als deze nog steeds nodig is. Zie: [Microsoft 365 groep verloopbeleid](../../solutions/microsoft-365-groups-expiration-policy.md).
 
-U kunt uw groepen beheren vanuit het Microsoft 365 beheercentrum of [met PowerShell.](../../enterprise/manage-microsoft-365-groups-with-powershell.md)
+U kunt uw groepen beheren vanaf de Microsoft 365-beheercentrum of [met PowerShell.](../../enterprise/manage-microsoft-365-groups-with-powershell.md)
 
 Als u veel gebruikers hebt, zoals in een groot bedrijf of grote onderneming, kunt u veel gebruikers hebben die groepen voor verschillende doeleinden maken. We raden u ten zeerste aan plan [voor beheer in](../../solutions/collaboration-governance-overview.md) Microsoft 365 te controleren op aanbevolen procedures.
 
@@ -85,7 +86,7 @@ De volgende limieten zijn van toepassing op Microsoft 365 Groepen:
 
 Het standaard maximum aantal Microsoft 365 groepen dat een organisatie kan hebben, is 500.000. Als u de standaardlimiet wilt overschrijden, moet u contact opnemen met Microsoft Support. Zie Groepen - Help voor beheerders voor Microsoft 365 meer Microsoft 365 groepen voor [meer informatie.](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 
-Het beheren van Microsoft 365 groepen is effectiever wanneer u actie-informatie hebt over het gebruik van groepen. Het Microsoft 365-beheercentrum heeft een rapportageprogramma waarmee u het opslaggebruik kunt zien, hoeveel actieve groepen u hebt en hoe gebruikers de groepen gebruiken. Zie: [Microsoft 365 rapporten in het beheercentrum voor](../activity-reports/office-365-groups.md) meer informatie.
+Het beheren van Microsoft 365 groepen is effectiever wanneer u actie-informatie hebt over het gebruik van groepen. De Microsoft 365-beheercentrum beschikt over een rapportageprogramma waarmee u het opslaggebruik kunt zien, hoeveel actieve groepen u hebt en hoe gebruikers de groepen gebruiken. Zie: [Microsoft 365 rapporten in het beheercentrum voor](../activity-reports/office-365-groups.md) meer informatie.
 
 ## <a name="sensitivity-labels"></a>Vertrouwelijkheidslabels
 
@@ -114,10 +115,10 @@ Als u een Exchange-only abonnement hebt, kunt u nog steeds de gedeelde functies 
 Microsoft 365 groepen werken met Azure Active Directory. Welke groepsfuncties u krijgt, is afhankelijk van Azure Active Directory abonnement dat u hebt en welke licenties zijn toegewezen aan de organisator van de groep.
 
 > [!IMPORTANT]
-> Als u een Azure AD-Premium-abonnement hebt voor alle groepen, kunnen gebruikers deelnemen aan de groep, ongeacht of ze een AAD P1-licentie hebben toegewezen. Licenties worden niet afgedwongen.
+> Als u voor alle groepsfuncties een abonnement Azure AD Premium, kunnen gebruikers deelnemen aan de groep, ongeacht of er een AAD P1-licentie aan hen is toegewezen. Licenties worden niet afgedwongen.
 > Periodiek genereren we gebruiksrapporten waarin wordt verteld welke gebruikers een licentie missen en hebben we er een nodig die aan hen is toegewezen om te voldoen aan de licentievereisten. Stel dat een gebruiker geen licentie heeft en wordt toegevoegd aan een groep waarin het naamgevingsbeleid wordt afgedwongen. Het rapport geeft aan dat ze een licentie nodig hebben.
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Meer informatie over Microsoft 365 Groepen](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2) (artikel)\
 [Distributielijsten upgraden naar Microsoft 365 Groepen](../manage/upgrade-distribution-lists.md) (artikel)\

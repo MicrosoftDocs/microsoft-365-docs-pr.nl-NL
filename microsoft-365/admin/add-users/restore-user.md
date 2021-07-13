@@ -16,6 +16,7 @@ ms.collection:
 ms.custom:
 - MSStore_Link
 - AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
@@ -23,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 2c261e42-5dd1-48b0-845f-2a016d29cfc1
 description: Binnen 30 dagen na het verwijderen van een gebruikersaccount kunt u het account en alle gegevens herstellen en kan de gebruiker zich aanmelden met hetzelfde account.
-ms.openlocfilehash: f849fe8e403aa9a72eccb4dd65665ec9f33618d1
-ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
+ms.openlocfilehash: e37f913bcc6a54bdcc1e0f52168fe1aab0c8afdd
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52779648"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394265"
 ---
 # <a name="restore-a-user"></a>Een gebruiker herstellen
    
@@ -91,7 +92,7 @@ Hiervoor moet [u beheerdersmachtigingen](about-admin-roles.md) Microsoft 365.
     
 4. Controleer het resultaat en selecteer vervolgens **Sluiten**.
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Een gebruiker verwijderen](delete-a-user.md) (artikel)\
 [Beheerdersrollen toewijzen](assign-admin-roles.md) (video)\

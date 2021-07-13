@@ -17,15 +17,16 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - commerce_billing
+- AdminTemplateSet
 search.appverid: MET150
 description: Meer informatie over het bijwerken van uw factuuradressen of het e-mailadres dat wordt gebruikt voor het ontvangen van factureringsmeldingen voor Microsoft 365 voor bedrijven.
 ms.date: 04/07/2021
-ms.openlocfilehash: afc23134f85995a5e8d7db0fb956635ceb6ea629
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 383e8febffa2a65e01c1ae0c543d7b984a96eb26
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683605"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394639"
 ---
 # <a name="change-your-billing-addresses"></a>Uw factuuradressen wijzigen
 
@@ -159,7 +160,7 @@ U kunt ook het alternatieve e-mailadres van andere globale en factureringsbeheer
 
 3. Typ in **het deelvenster Gebruikersrollen** bewerken het alternatieve e-mailadres dat u wilt gebruiken en selecteer **Opslaan.**
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Uw rekening of factuur bekijken](view-your-bill-or-invoice.md) (artikel)\
 [Uw factuur of factuur begrijpen](understand-your-invoice2.md) (artikel)\

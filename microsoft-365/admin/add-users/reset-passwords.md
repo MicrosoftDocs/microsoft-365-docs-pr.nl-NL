@@ -19,6 +19,7 @@ ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
@@ -27,12 +28,12 @@ search.appverid:
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
 description: Meld u aan met uw Microsoft 365-beheerdersaccount om wachtwoorden opnieuw in te stellen voor gebruikers in Microsoft 365 voor bedrijven-abonnement.
-ms.openlocfilehash: 0cec6c7874b51c76fca60c6c237395c940c47bbe
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 64382d94ae92373d8d814eae0e9f6aa7c6e0043b
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635568"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394277"
 ---
 # <a name="reset-passwords"></a>Wachtwoorden opnieuw instellen
 
@@ -126,4 +127,4 @@ Kijk eens naar dit artikel: [Ik weet de gebruikersnaam of het wachtwoord niet me
 [Wachtwoorden opnieuw instellen](../add-users/reset-passwords.md) (artikel)\
 [Het wachtwoord van een individuele gebruiker zo instellen dat het nooit verloopt](set-password-to-never-expire.md) (artikel)\
 [Het wachtwoordverloopbeleid voor uw organisatie](../manage/set-password-expiration-policy.md) instellen (artikel)\
-[Microsoft 365 voor zakelijke trainingsvideo's](../../business-video/index.yml) (koppelingspagina)
+[Trainingsvideo's voor Microsoft 365 voor bedrijven](../../business-video/index.yml) (koppelingspagina)

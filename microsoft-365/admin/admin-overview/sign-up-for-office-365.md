@@ -20,17 +20,18 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - commerce_signup
+- AdminTemplateSet
 search.appverid:
 - MET150
 ROBOTS: NOINDEX
 description: Begrijp wat u moet weten voordat u het aanmeldingsproces voor Office 365.
 ms.date: 03/17/2021
-ms.openlocfilehash: 393c1304ba4e699c6bf7d09bf51f6c81bb7389d9
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 8c9598215b5f5da7b4a62ca89bbc0fa5a94fe12d
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683101"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394229"
 ---
 # <a name="how-to-sign-up---admin-help"></a>Registreren - Help voor beheerders
 
@@ -58,7 +59,7 @@ Voordat u koopt, moet u nadenken over het plan waar u zich voor hebt registreren
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/906be77d-ded6-48fb-a25f-da110f787282]
 
-Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../../business-video/index.yml).
+Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../../business-video/index.yml).
 
 Hulp nodig bij het kiezen van een plan? Er zijn verkoopadviseurs beschikbaar om uw vragen te beantwoorden. Ga naar [Alle producten vergelijken](https://products.office.com/compare-all-microsoft-office-products?tab=2) en kies een van de ondersteuningsopties voor contactpersonen aan de linkerkant van de pagina.
   
@@ -123,6 +124,6 @@ U hoeft uw proefabonnement niet te annuleren. Als u het proefabonnement niet koo
     > [!IMPORTANT]
     >  Wanneer u zich registreert, moet u de beste betalingsoptie voor uw organisatie kiezen. Bel de ondersteuning voor facturering als u betalingsopties wilt wijzigen.
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
-[Microsoft 365 voor zakelijke trainingsvideo's](../../business-video/index.yml) (koppelingspagina)
+[Trainingsvideo's voor Microsoft 365 voor bedrijven](../../business-video/index.yml) (koppelingspagina)

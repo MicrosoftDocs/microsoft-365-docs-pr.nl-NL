@@ -17,17 +17,18 @@ ms.custom:
 - MSStore_Link
 - AdminSurgePortfolio
 - okr_smb
+- AdminTemplateSet
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9cdfa29d-7681-4af2-a79d-3e72e7ab9778
 description: Voeg nieuwe werknemers toe aan Microsoft 365 voor bedrijven voor e-mail, Skype en Office apps.
-ms.openlocfilehash: 2dbdb9cb931b95241b0bd3599fdae154ab72ea24
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: 24b31e22423fe7f0d51da5a71c4c14b54f1525f0
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706188"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394109"
 ---
 # <a name="add-a-new-employee-to-microsoft-365"></a>Een nieuwe werknemer toevoegen aan Microsoft 365
 
@@ -86,7 +87,7 @@ En hier is een beknopt overzicht om ze aan de slag te helpen:
 |Voltooi de OneDrive voor Bedrijven training om u te helpen uw documenten, presentaties en spreadsheets op te slaan en te ordenen in de cloud.  <br/> |Houd uw zakelijke documenten in de cloud met behulp van OneDrive voor Bedrijven. U kunt altijd bij uw inhoud komen, zelfs als u bent aangemeld bij Microsoft 365 op een andere computer. [Bekijk een video voor meer informatie over het gebruik van uw OneDrive voor Bedrijven](https://support.microsoft.com/office/b30da4eb-ddd2-44b6-943b-e6fbfc6b8dde) <br/><br/> **Training:** [OneDrive voor Bedrijven training](https://support.microsoft.com/office/1f608184-b7e6-43ca-8753-2ff679203132) (Selecteer OneDrive voor Bedrijven).  <br/> |
 |Voltooi de SharePoint onlinetraining om u te helpen samen te werken met collega's en inhoud te delen.  <br/> |De beste plek om documenten te bewaren die uw collega's ook kunnen openen, is in SharePoint Online.  <br/> <br/>**Training:** [Video: Samenwerken met teaminhoud met SharePoint Online](https://support.microsoft.com/office/c17b6824-cc22-478f-8757-497cc6b57121) <br/><br/> **Ontdek het volgende:** Hoe gebruikt uw organisatie SharePoint Online en welk type documenten wordt daar opgeslagen. Ook welke documenten worden opgeslagen in OneDrive voor Bedrijven.  <br/> |
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Een voormalige werknemer verwijderen uit Microsoft 365](remove-former-employee.md) (artikel)\
 [Gebruikers toevoegen en tegelijkertijd licenties toewijzen65](add-users.md) (artikel)

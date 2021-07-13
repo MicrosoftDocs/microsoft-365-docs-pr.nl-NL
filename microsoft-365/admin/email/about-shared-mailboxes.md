@@ -17,17 +17,18 @@ ms.custom:
 - MSStore_Link
 - AdminSurgePortfolio
 - okr_smb
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Gedeelde postvakken worden gebruikt wanneer meerdere personen toegang nodig hebben tot hetzelfde postvak. Lees wat u moet weten voordat u een gedeeld postvak maakt.
-ms.openlocfilehash: 601636f03bee93224025d286b7a74fa0f24782fb
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: a251967670e19d8f387e3fc4f724a06ef674a2b4
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635532"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394037"
 ---
 # <a name="about-shared-mailboxes"></a>Meer over gedeelde postvakken
 
@@ -45,7 +46,7 @@ Voordat u [een gedeeld postvak maakt,](create-a-shared-mailbox.md)zijn hier enke
 
 - **Externe gebruikers:** U kunt personen buiten uw bedrijf (zoals personen met een Gmail-account) geen toegang geven tot uw gedeelde postvak. Als u dat toch wilt doen, kunt u een groep voor Outlook maken. Zie Een groep Microsoft 365 [maken in het beheercentrum](../create-groups/create-groups.md)voor meer informatie.
 
-- **Gebruiken met Outlook:** Naast het gebruik van Outlook op internet vanuit uw browser om gedeelde postvakken te openen, kunt u ook de Outlook voor iOS-app of de app Outlook voor Android gebruiken. Zie Een gedeeld postvak [toevoegen aan uw Outlook voor meer informatie.](https://support.microsoft.com/office/f866242c-81b2-472e-8776-6c49c5473c9f) Een andere optie is om een groep te maken voor uw gedeelde postvak. Zie Groepen vergelijken [voor meer informatie.](../create-groups/compare-groups.md)
+- **Gebruiken met Outlook:** Naast het gebruik webversie van Outlook van uw browser voor toegang tot gedeelde postvakken, kunt u ook de Outlook voor iOS-app of de app Outlook voor Android gebruiken. Zie Een gedeeld postvak [toevoegen aan uw Outlook voor meer informatie.](https://support.microsoft.com/office/f866242c-81b2-472e-8776-6c49c5473c9f) Een andere optie is om een groep te maken voor uw gedeelde postvak. Zie Groepen vergelijken [voor meer informatie.](../create-groups/compare-groups.md)
 
 - **Versleuteling:** U kunt e-mail die vanuit een gedeeld postvak wordt verzonden, niet versleutelen. Dit komt omdat een gedeeld postvak geen eigen beveiligingscontext heeft (gebruikersnaam/wachtwoord), dus kan er geen sleutel aan worden toegewezen. Als meerdere personen lid zijn en e-mailberichten verzenden/ontvangen die ze met hun eigen sleutels hebben versleuteld, kunnen andere leden mogelijk de e-mail lezen en anderen niet, afhankelijk van de openbare sleutel waarmee de e-mail is versleuteld.
 
@@ -65,7 +66,7 @@ Voordat u [een gedeeld postvak maakt,](create-a-shared-mailbox.md)zijn hier enke
 > [!NOTE]
 > Als u toegang wilt tot een gedeeld postvak, moet een gebruiker een licentie Exchange Online, maar voor het gedeelde postvak is geen aparte licentie vereist. Elk gedeeld postvak heeft een bijbehorend gebruikersaccount. Is het u opgevallen dat u niet werd gevraagd een wachtwoord in te voeren toen u het gedeelde postvak maakte? Het account heeft een wachtwoord, maar dat wordt gegenereerd door het systeem (onbekend). U moet het account niet gebruiken om u aan te melden bij het gedeelde postvak. Zonder licentie zijn gedeelde postvakken beperkt tot 50 GB. Als u de limiet wilt verhogen tot 100 GB, moet aan het gedeelde postvak een Exchange Online Abonnement 2-licentie of een Exchange Online Abonnement 1-licentie met een Exchange Online Archiving-invoeglicentie worden toegewezen. Hiermee kunt u ook automatisch uitbreidende archivering inschakelen voor een onbeperkte hoeveelheid archiefopslagcapaciteit. Als u een gedeeld postvak in de wacht wilt zetten voor juridische procedures, moet het gedeelde postvak een licentie Exchange Online Abonnement 2 of een Exchange Online Abonnement 1-licentie hebben met een Exchange Online Archiving-invoeglicentie. Als u geavanceerde functies wilt toepassen, zoals Microsoft Defender voor Office 365, Advanced eDiscovery of automatisch bewaarbeleid, moet het gedeelde postvak een licentie hebben voor deze functies.
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Een gedeeld postvak](create-a-shared-mailbox.md) maken (artikel)\
 [Een gedeeld postvak configureren](configure-a-shared-mailbox.md) (artikel)\

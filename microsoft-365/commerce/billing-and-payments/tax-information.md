@@ -19,13 +19,14 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - commerce_billing
+- AdminTemplateSet
 ms.date: 03/17/2021
-ms.openlocfilehash: 5c472615846ba6460bc829bc0157c6c6da940292
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 9429a4fc5adc3447a0238a3e8aa84ab39585fc50
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332016"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394519"
 ---
 # <a name="tax-information"></a>Belastinginformatie
 
@@ -140,7 +141,7 @@ Als uw facturering wordt uitgevoerd door Microsoft Corporation[(zie](view-your-b
 2. Zoek op het tabblad **Producten** het abonnement dat u wilt bijwerken.
 3. Selecteer op de pagina abonnementsgegevens in de sectie **Servicegebruiksadres** de optie **Adres van servicegebruik bewerken.**
 4. Voer in **het deelvenster Servicegebruiksadres** bewerken in het vak BTW-nummer uw btw-id in, inclusief het voorvoegsel, en zonder spaties. 
-5. Klik op **Opslaan**.
+5. Kies **Opslaan**.
 
 ## <a name="how-taxes-are-calculated"></a>Berekening van belastingen
 
@@ -168,7 +169,7 @@ Als u in aanmerking komt voor belastingvrijstelling in uw markt, start u een [se
 | Verenigde Staten | Btw-vrijstellingscertificaat |
 | Puerto Rico | Certificado de Compras Exentas |
   
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
   
 [Uw rekening of factuur bekijken](view-your-bill-or-invoice.md) (artikel)\
 [Inzicht in uw rekening of factuur](understand-your-invoice.md) (artikel)

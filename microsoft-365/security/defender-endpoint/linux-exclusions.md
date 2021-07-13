@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: bd506caa041af2585778fb3ecd7a40562463b17e
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
-ms.translationtype: HT
+ms.openlocfilehash: b55572509e9837f2858f96b01a13fbf259b2b770
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52346412"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393785"
 ---
 # <a name="configure-and-validate-exclusions-for-microsoft-defender-for-endpoint-on-linux"></a>Uitsluitingen configureren en valideren voor Microsoft Defender voor Eindpunt op Linux
 
@@ -114,6 +114,18 @@ Voorbeelden:
     Folder exclusion configured successfully
     ```
 
+
+- Een uitsluiting voor een tweede map toevoegen:
+
+    ```bash
+    mdatp exclusion folder add --path /var/log/
+    mdatp exclusion folder add --path /other/folder
+    ```
+    ```Output
+    Folder exclusion configured successfully
+    ```
+
+
 - Voeg een uitsluiting toe voor een map met een jokerteken:
 
     ```bash
@@ -137,6 +149,17 @@ Voorbeelden:
 
     ```bash
     mdatp exclusion process add --name cat
+    ```
+    ```Output    
+    Process exclusion configured successfully
+    ```
+
+
+- Een uitsluiting toevoegen voor een tweede proces:
+
+    ```bash
+    mdatp exclusion process add --name cat
+    mdatp exclusion process add --name dog
     ```
     ```Output    
     Process exclusion configured successfully

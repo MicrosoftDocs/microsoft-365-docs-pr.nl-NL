@@ -18,15 +18,16 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - commerce_billing
+- AdminTemplateSet
 search.appverid: MET150
 description: Lees hoe factureringsprofielen facturen ondersteunen.
 ms.date: 04/02/2021
-ms.openlocfilehash: e66efe12e05d2aaf286b689c955f17c8401144f1
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: ecea09a9ceea12fa92b92eac3e5a7595b2510042
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537329"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394627"
 ---
 # <a name="understand-billing-profiles"></a>Inzicht in factureringsprofielen
 
@@ -34,7 +35,7 @@ Een factureringsprofiel bevat een betalingswijze, factuurgegevens en andere fact
 
 > [!NOTE]
 >
-> Factureringsprofielen zijn niet beschikbaar voor klanten die producten en  services kopen Microsoft.com of op de pagina Services aanschaffen van het Microsoft 365 beheercentrum.
+> Factureringsprofielen zijn niet beschikbaar voor klanten die producten en services kopen Microsoft.com of op de **pagina Services** aanschaffen van de Microsoft 365-beheercentrum.
 
 ## <a name="what-are-billing-profile-roles"></a>Wat zijn factureringsprofielrollen?
 
@@ -73,9 +74,9 @@ Elk factureringsprofiel bevat de volgende informatie:
 
 Als u vragen hebt of hulp nodig hebt bij uw Azure-kosten, maakt <a href="https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest" target="_blank">u een ondersteuningsaanvraag met Azure-ondersteuning.</a>
 
-Als u vragen hebt of hulp nodig hebt bij uw factureringsprofiel in Microsoft 365 beheercentrum, [neem dan contact op met ondersteuning.](../../business-video/get-help-support.md)
+Als u vragen hebt of hulp nodig hebt bij uw factureringsprofiel in Microsoft 365-beheercentrum, [neem dan contact op met de ondersteuning.](../../business-video/get-help-support.md)
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Betalen voor uw abonnement met een factureringsprofiel](pay-for-subscription-billing-profile.md) (artikel)\
 [Inzicht in factureringsaccounts](../manage-billing-accounts.md) (artikel)\

@@ -18,15 +18,16 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - commerce_billing
+- c
 search.appverid: MET150
 description: Lees hoe u kunt wijzigen hoe vaak u wordt gefactureerd voor uw zakelijke abonnement.
 ms.date: 04/02/2021
-ms.openlocfilehash: 529003210e37897f8c1e0d30a692a6f3a1464a80
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: 52bf7f3eda473e241f5fef7c5d7c8e7417ab841e
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52705568"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394663"
 ---
 # <a name="change-your-billing-frequency"></a>Uw factureringsfrequentie wijzigen
 
@@ -37,7 +38,7 @@ Wanneer u een abonnement koopt, kiest u maandelijkse of jaarlijkse facturering. 
 3. Selecteer op de pagina Abonnementsgegevens in de sectie **Abonnements-** en betalingsinstellingen de optie **Factureringsfrequentie bewerken.**
 4. Kies in **het deelvenster Factureringsfrequentie** bewerken de optie voor hoe vaak u wilt worden gefactureerd en selecteer **Vervolgens Wijzigen.**
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Uw rekening of factuur bekijken](../../commerce/billing-and-payments/view-your-bill-or-invoice.md) (artikel)\
 [Betalen voor uw abonnement](../../commerce/billing-and-payments/pay-for-your-subscription.md) (artikel)\

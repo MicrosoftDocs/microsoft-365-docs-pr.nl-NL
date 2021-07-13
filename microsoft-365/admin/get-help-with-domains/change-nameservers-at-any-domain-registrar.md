@@ -17,6 +17,7 @@ ms.collection:
 ms.custom:
 - okr_smb
 - AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
@@ -25,12 +26,12 @@ search.appverid:
 - GEA150
 ms.assetid: a8b487a9-2a45-4581-9dc4-5d28a47010a2
 description: Meer informatie over het toevoegen en instellen van uw domein in Microsoft 365 zodat uw services zoals e-mail en Skype voor Bedrijven Online uw eigen domeinnaam gebruiken.
-ms.openlocfilehash: 1a65ca52b85c2cf2e4fc30e2a71e5930ae7a9a4d
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: c2de2d8b75aaf50bd1d19d3fd3b507fd476d4847
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53287123"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393929"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-365-with-any-domain-registrar"></a>Naamservers wijzigen voor het instellen van Microsoft 365 domeinregistrar
 
@@ -183,7 +184,7 @@ U kunt eveneens een CNAME-record maken om klanten te helpen bij het zoeken van u
 3. Typ www in het vak Hostnaam **of** **Alias.**
 4. Typ in **het vak** Adrespunten de volledig gekwalificeerde domeinnaam (FQDN) voor uw website. Bijvoorbeeld **contoso.5om**.
 5. Als u de TTL-instelling voor de record wilt wijzigen, selecteert u een nieuwe tijdsduur in de **vervolgkeuzelijst TTL.** Ga anders verder met stap 6.
-6. Selecteer **Opslaan**.
+6. Kies **Opslaan**.
 
 Nadat de naamserverrecords zijn bijgewerkt om naar Microsoft te wijzen, is uw domeinconfiguratie voltooid. E-mail wordt doorgeleid naar Microsoft en het verkeer naar uw websiteadres blijft naar uw huidige websitehost gaan.'
 

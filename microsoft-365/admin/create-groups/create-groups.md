@@ -16,27 +16,28 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - okr_smb
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
 description: Leer hoe u groepen maakt en Microsoft 365, groepsleden toevoegt en verwijdert en hoe de groep werkt aan te passen.
-ms.openlocfilehash: b8cbd194825ef114fa8e4ce999355248a61e7830
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 1afa8d38d05ca0383f56cdba795f26739457347c
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635580"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393749"
 ---
-# <a name="create-a-group-in-the-microsoft-365-admin-center"></a>Een groep maken in het Microsoft 365 beheercentrum
+# <a name="create-a-group-in-the-microsoft-365-admin-center"></a>Een groep maken in de Microsoft 365-beheercentrum
   
-Hoewel gebruikers een Microsoft 365 kunnen maken vanuit Outlook of andere apps, moet u als beheerder mogelijk groepen maken of verwijderen, leden toevoegen of verwijderen en aanpassen hoe ze werken. Het Microsoft 365 beheercentrum is de plek om dit te doen. 
+Hoewel gebruikers een Microsoft 365 kunnen maken vanuit Outlook of andere apps, moet u als beheerder mogelijk groepen maken of verwijderen, leden toevoegen of verwijderen en aanpassen hoe ze werken. De Microsoft 365-beheercentrum is de plek om dit te doen. 
 
 > [!TIP]
-> Microsoft 365 verbonden Yammer groepen moeten worden gemaakt in Yammer, maar kunnen worden beheerd in het Microsoft 365-beheercentrum zoals andere Microsoft 365 groepen. Zie voor meer informatie [Yammer en Microsoft 365 groepen.](/yammer/manage-yammer-groups/yammer-and-office-365-groups) 
+> Microsoft 365 verbonden Yammer groepen moeten worden gemaakt in Yammer, maar kunnen worden beheerd in de Microsoft 365-beheercentrum zoals andere Microsoft 365 groepen. Zie voor meer informatie [Yammer en Microsoft 365 groepen.](/yammer/manage-yammer-groups/yammer-and-office-365-groups) 
 
-## <a name="create-a-microsoft-365-group"></a>Een groep Microsoft 365 maken
+## <a name="create-a-microsoft-365-group"></a>Een Microsoft 365-groep maken 
 
 1. Vouw groepen uit in het beheercentrum **en** klik vervolgens op **Groepen.**
 
@@ -76,7 +77,7 @@ De groep wordt weergegeven in Outlook met leden die aan de groep zijn toegewezen
 
 De groepseigenaar kan alle e-mailberichten verwijderen uit het Postvak IN van de groep, ongeacht of hij de oorspronkelijke auteur was.
   
-Een lid kan een e-mailgesprek verwijderen uit het Postvak IN van groep als deze is gestart en alleen Outlook op het web gebruiken (klik met de rechtermuisknop op het e-mailbericht en kies **vervolgens Verwijderen).** Dit kunnen ze niet doen vanuit de Outlook-app (Outlook 2016).
+Een lid kan een e-mailgesprek verwijderen uit het Postvak IN van groep als hij of zij het heeft gestart en alleen webversie van Outlook gebruiken (klik met de rechtermuisknop op het e-mailbericht en kies **vervolgens Verwijderen).** Dit kunnen ze niet doen vanuit de Outlook-app (Outlook 2016).
   
 Wanneer een e-mailbericht uit het groepspostvak wordt verwijderd, wordt deze niet verwijderd uit de persoonlijke postvakken van de groepsleden.
 
@@ -84,7 +85,7 @@ Wanneer een e-mailbericht uit het groepspostvak wordt verwijderd, wordt deze nie
 
 Nadat u een nieuwe groep hebt ingesteld en leden hebt toegevoegd, kunt u de groep verder configureren, zoals het bewerken van de groepsnaam of beschrijving, het wijzigen van eigenaren of leden, en opgeven of externe afzenders een e-mail naar de groep kunnen sturen en of ze kopieën van groepsgesprekken naar leden kunnen verzenden. Zie [Een groep Microsoft 365 beheren](manage-groups.md) voor informatie.
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Gasttoegang tot groepen Microsoft 365 beheren](https://support.microsoft.com/office/bfc7a840-868f-4fd6-a390-f347bf51aff6) (artikel)\
 [Kies het domein dat u wilt gebruiken bij het maken Microsoft 365 groepen](../../solutions/choose-domain-to-create-groups.md) (artikel)\

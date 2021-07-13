@@ -13,18 +13,20 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Beheerdersrollen worden aan zakelijke functies toewijzen en geven machtigingen voor het uitvoeren van specifieke taken in het beheercentrum. De Servicebeheerder opent bijvoorbeeld supporttickets met Microsoft.
-ms.openlocfilehash: 4e2b1db207a2a590855f7fb2d0bf2019d4b57ea5
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 20ba46c94f94267df7117d4baf020bbdc21cad7c
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52924561"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394385"
 ---
 # <a name="get-started-with-the-roles-page"></a>Aan de slag met de pagina Rollen
 
@@ -59,11 +61,11 @@ Dit is geen volledige lijst met alle machtigingen die deze rollen hebben. Select
 
 Wijs de Exchange beheerdersrol toe aan gebruikers die de e-mailpostvakken, Microsoft 365 groepen en Exchange Online. Ze kunnen ook serviceaanvragen voor Microsoft-ondersteuning openen en beheren. [Meer informatie](/microsoft-365/admin/add-users/about-exchange-online-admin-role)
 
-### <a name="global-admin"></a>Algemene beheerder
+### <a name="global-admin"></a>Bedrijfsbeheerder
 
 Wijs de rol van globale beheerder toe aan gebruikers die globale toegang nodig hebben tot de meeste beheerfuncties en gegevens in de onlineservices van Microsoft. Te veel gebruikers globale toegang geven is een beveiligingsrisico, we raden u dan ook aan om 2 tot 4 globale beheerders te hebben. Alleen globale beheerders kunnen wachtwoorden opnieuw instellen voor alle gebruikers en domeinen toevoegen en beheren. Ze kunnen ook serviceaanvragen voor Microsoft-ondersteuning openen en beheren. De persoon die zich heeft aangemeld voor Microsoft Online Services, wordt automatisch een globale beheerder. [Meer informatie](/microsoft-365/admin/add-users/about-admin-roles#roles-available-in-the-microsoft-365-admin-center)
 
-### <a name="global-reader"></a>Algemene lezer
+### <a name="global-reader"></a>Globale lezer
 
 Wijs de rol van globale lezerbeheerder toe aan gebruikers die beheerdersfuncties en -instellingen moeten bekijken in alle beheercentra die de globale beheerder kan bekijken. De rol globale lezerbeheerder kan geen instellingen bewerken. [Meer informatie](/microsoft-365/admin/add-users/about-admin-roles#roles-available-in-the-microsoft-365-admin-center)
 

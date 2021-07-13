@@ -17,6 +17,7 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - okr_smb
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
@@ -24,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: 40398b0b-bdd0-4afd-ab5e-b5ae6b7990bf
 description: Lees hoe u problemen kunt oplossen bij het instellen van een aangepast domein door ervoor te zorgen dat de DNS-records correct zijn ingesteld.
-ms.openlocfilehash: 70beb877251c333766a0963316287796eb81d595
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 1dcc52be68fca11245e1a2437d9fe5a3f23ed694
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52623963"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393893"
 ---
 # <a name="find-and-fix-issues-after-adding-your-domain-or-dns-records"></a>Problemen opsporen en oplossen nadat u uw domein of DNS-records hebt toegevoegd
 
@@ -101,7 +102,7 @@ Als u DNS-problemen hebt opgelost en nog steeds problemen ondervindt, probeer da
     
 - U kunt uw A-record of CNAME-record niet bijwerken om naar uw website te wijzen: [Aangepaste DNS-records bijwerken in Microsoft 365](../setup/add-domain.md)
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Probleem oplossen: Controlegegevens over geverifieerde domeinwijziging](/azure/active-directory/reports-monitoring/troubleshoot-audit-data-verified-domain) (artikel)\
 [Veelgestelde vragen over domeinen](../setup/domains-faq.yml) (artikel)

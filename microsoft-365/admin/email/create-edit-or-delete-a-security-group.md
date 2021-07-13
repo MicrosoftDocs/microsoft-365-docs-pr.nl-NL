@@ -1,5 +1,5 @@
 ---
-title: Een beveiligingsgroep maken, bewerken of verwijderen in het Microsoft 365 beheercentrum
+title: Een beveiligingsgroep maken, bewerken of verwijderen in de Microsoft 365-beheercentrum
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -13,21 +13,23 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 55c96b32-e086-4c9e-948b-a018b44510cb
 description: Informatie over het maken, bewerken of verwijderen van een beveiligingsgroep.
-ms.openlocfilehash: 7887a6371287ebef3a91cc1a37f2ed696df1948d
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 525acc45b293563f58bb9aa12c40bec1438cb055
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52623999"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393953"
 ---
-# <a name="create-edit-or-delete-a-security-group-in-the-microsoft-365-admin-center"></a>Een beveiligingsgroep maken, bewerken of verwijderen in het Microsoft 365 beheercentrum
+# <a name="create-edit-or-delete-a-security-group-in-the-microsoft-365-admin-center"></a>Een beveiligingsgroep maken, bewerken of verwijderen in de Microsoft 365-beheercentrum
 
 Op de Microsoft 365 **groepen** kunt u groepen gebruikersaccounts maken die u kunt gebruiken om dezelfde machtigingen toe te wijzen in SharePoint Online en CRM Online. Een beheerder kan bijvoorbeeld een beveiligingsgroep maken om een bepaalde groep personen toegang te verlenen tot een SharePoint site. Alleen globale beheerders en beheerders van gebruikersbeheer hebben machtigingen voor het maken, bewerken of verwijderen van beveiligingsgroepen. Zie Beheerdersrollen toewijzen voor meer informatie over [beheerdersrollen.](../add-users/assign-admin-roles.md) 
   
@@ -40,7 +42,7 @@ Er zijn ook [Groepen in Exchange Online en SharePoint Online](#groups-in-exchang
 
 ### <a name="add-a-security-group"></a>Een beveiligingsgroep toevoegen
 
-1. Ga in Microsoft 365 beheercentrum naar de pagina  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groepengroepen.</a>
+1. Ga in Microsoft 365-beheercentrum naar de pagina  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groepengroepen.</a>
   
 2. Selecteer op **de** pagina Groepen de optie **Een groep toevoegen.**
     
@@ -100,8 +102,8 @@ Nee, dit is slechts een extra manier waarop u de beveiliging voor uw organisatie
 
 Ja. Maar als u groepen wilt gebruiken voor e-mail en samenwerking, raden we u aan in plaats daarvan een Microsoft 365 [maken.](../create-groups/create-groups.md) 
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
-[Een groep maken in het Microsoft 365 beheercentrum](../create-groups/create-groups.md) (artikel)\
+[Een groep maken in de Microsoft 365-beheercentrum](../create-groups/create-groups.md) (artikel)\
 [Uitleg over Microsoft 365 groepen aan uw gebruikers](../create-groups/explain-groups-knowledge-worker.md) (artikel)\
-[Een groep beheren in het Microsoft 365 beheercentrum](../create-groups/manage-groups.md) (artikel)
+[Een groep beheren in de Microsoft 365-beheercentrum](../create-groups/manage-groups.md) (artikel)

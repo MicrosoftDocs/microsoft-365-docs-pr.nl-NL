@@ -1,5 +1,5 @@
 ---
-title: Migreren naar Microsoft 365 Business van Office 365 E3
+title: Migreren naar Microsoft 365 business van Office 365 E3
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -18,20 +18,21 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
-description: Als u een Office 365 E3-abonnement hebt maar niet meer dan 300 werknemers hebt, kunt u overstappen op Microsoft 365 Business Premium.
-ms.openlocfilehash: d139d07c946ff3efed3db3a73eb5e1a4ae66c190
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+description: Als u een abonnement Office 365 E3 maar niet meer dan 300 werknemers hebt, kunt u overstappen op Microsoft 365 Business Premium.
+ms.openlocfilehash: c1b4da07b3bf28cce1a48424ab45cde6ea54d367
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52623600"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394166"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Migreren van Office 365 E3 naar Microsoft 365 Business Premium
 
-Microsoft 365 Business Premium heeft alles wat u nodig hebt voor uw kleine bedrijf, waarbij u de beste productiviteits-apps in de cloud combineert met eenvoudig apparaatbeheer en beveiliging. Als u momenteel een Office 365 E3-abonnement hebt, maar niet meer dan 300 werknemers hebt, kunt u overwegen over te schakelen naar Microsoft 365 Business Premium voor extra beveiligingsfuncties.
+Microsoft 365 Business Premium heeft alles wat u nodig hebt voor uw kleine bedrijf, waarbij u de beste productiviteits-apps in de cloud combineert met eenvoudig apparaatbeheer en beveiliging. Als u momenteel een abonnement Office 365 E3, maar niet meer dan 300 werknemers hebt, kunt u overstappen op Microsoft 365 Business Premium voor extra beveiligingsfuncties.
 
 Migreren is eenvoudig: eerst schakelt u over van licentie en blijven al uw gegevens en gebruikersgegevens in uw huidige abonnement behouden. Na de migratie moet u de functies instellen die in de Microsoft 365 Business Premium.
 
@@ -59,7 +60,7 @@ In deze tabel ziet u de verschillen tussen Microsoft 365 Business Premium en Off
 | Upgraderechten voor Windows 10 Pro van Win 7/8.1 Pro licenties|     ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)    ||
 | **Gegevensbeveiliging**        | | |
 |Office 365 Preventie van gegevensverlies|    ![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)|![Inbegrepen bij Office 365 E3](../media/check-mark.png)|
-|Azure Information Protection Plan 1, BitLocker afdwingen|![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)||
+|Azure Information Protection Plan 1, BitLocker enforcement|![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)||
 |Azure Information Protection Plan 1, Gevoeligheidslabels|![Inbegrepen bij Microsoft 365 Business Premium](../media/check-mark.png)||
 |**Client Access License (CAL-rechten)**|||
 |Enterprise CAL Suite (Exchange, SharePoint, Skype)||![Inbegrepen bij Office 365 E3](../media/check-mark.png)|
@@ -71,7 +72,7 @@ In deze tabel ziet u de verschillen tussen Microsoft 365 Business Premium en Off
 Zie Abonnementen handmatig [](../commerce/subscriptions/change-plans-manually.md) wijzigen voor instructies als u slechts een paar personen wilt verplaatsen naar Microsoft 365 Business Premium. U kunt ook [iedereen automatisch upgraden](../commerce/subscriptions/upgrade-to-different-plan.md)of samenwerken met een partner om uw E3-abonnement en licenties te verplaatsen naar een Microsoft 365 Business Premium abonnement.
 In de volgende secties worden de wijzigingen beschreven die u moet aanbrengen en wat u na de migratie kunt doen.
 
-### <a name="office-365-e3-subscription-configuration-and-data"></a>Office 365 Configuratie en gegevens van E3-abonnement
+### <a name="office-365-e3-subscription-configuration-and-data"></a>Office 365 E3 abonnementsconfiguratie en -gegevens
 U hoeft uw huidige abonnement of gegevens niet te wijzigen voordat u migreert, waaronder:
 
 - Abonnementsconfiguratie, zoals DNS-records en domeinnamen.
@@ -86,7 +87,7 @@ Als uw Windows nog niet aan de creator-update Windows Pro, kunt u deze upgraden 
 ### <a name="set-up-policies-to-protect-user-devices-and-files"></a>Beleidsregels instellen om gebruikersapparaten en bestanden te beveiligen
 
 > [!NOTE]
-> Als u Office 365 MDM-beleid en -apparaten in stelt, worden  deze apparaten weergegeven op de pagina Apparaten in het Microsoft 365 beheercentrum. Alle beleidsregels die u hebt ingesteld, worden weergegeven in de lijst met klassieke beleidsregels in de [Intune-portal.](https://portal.azure.com/#blade/Microsoft_Intune_DeviceSettings/ExtensionLandingBlade/overview)
+> Als u Office 365 MDM-beleid en -apparaten in stelt, worden  deze apparaten weergegeven op de pagina Apparaten in de Microsoft 365-beheercentrum. Alle beleidsregels die u hebt ingesteld, worden weergegeven in de lijst met klassieke beleidsregels in de [Intune-portal.](https://portal.azure.com/#blade/Microsoft_Intune_DeviceSettings/ExtensionLandingBlade/overview)
 
 Nadat u licenties hebt toegewezen aan Microsoft 365 Business Premium, kunt u de apparaten en bestanden van de gebruikers gaan beveiligen.
 
@@ -126,7 +127,7 @@ Na de migratie naar Microsoft 365 Business Premium, hebt u Defender voor Office 
 
 Zie Overzicht van gevoeligheidslabels en het maken en beheren van [gevoeligheidslabels](../business-video/create-sensitivity-labels.md) video als u gevoeligheidslabels wilt gebruiken. [](../compliance/sensitivity-labels.md)
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Abonnementen handmatig wijzigen](../commerce/subscriptions/change-plans-manually.md) (artikel)\
 [Upgrade Windows naar Windows 10 Pro](upgrade-to-windows-pro-creators-update.md) (video)\
