@@ -11,20 +11,22 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 - GEA150
 ms.assetid: fc1cf1d0-cd84-43fd-adb7-a4c4dfa8112d
-description: Lees hoe u een rapport Actieve gebruikers kunt krijgen met behulp van het dashboard Microsoft 365 Rapporten in het Microsoft 365-beheercentrum en ontdek hoeveel productlicenties worden gebruikt.
-ms.openlocfilehash: 8ea9feeb18cb1885023ec14f1ffb4d77b2775877
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+description: Lees hoe u een rapport Actieve gebruikers kunt krijgen met behulp van Microsoft 365 dashboard Rapporten in de Microsoft 365-beheercentrum en ontdek hoeveel productlicenties worden gebruikt.
+ms.openlocfilehash: d127ddccd4944279052c628cbee9cc37dd3c8358
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52924369"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53391361"
 ---
 # <a name="assess-the-microsoft-365-active-users-report"></a>Het rapport Microsoft 365 actieve gebruikers beoordelen
 
@@ -65,4 +67,4 @@ Als uw abonnement wordt beheerd door 21Vianet, ziet u geen Yammer.
 
 
 
-Als het beleid van uw organisatie verhindert dat u rapporten weergeeft waarin gebruikersgegevens kunnen worden geïdentificeerd, kunt u de privacy-instelling voor elk van deze rapporten wijzigen. Bekijk de sectie **Details op gebruikersniveau** verbergen in [Activiteitenrapporten in het Microsoft 365 beheercentrum.](activity-reports.md)  
+Als het beleid van uw organisatie verhindert dat u rapporten weergeeft waarin gebruikersgegevens kunnen worden geïdentificeerd, kunt u de privacy-instelling voor elk van deze rapporten wijzigen. Bekijk de sectie **Details op gebruikersniveau** verbergen in [Activiteitenrapporten in de Microsoft 365-beheercentrum.](activity-reports.md)  

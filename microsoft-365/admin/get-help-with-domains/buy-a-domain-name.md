@@ -16,6 +16,7 @@ ms.collection:
 - Adm_O365_Setup
 ms.custom:
 - AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
@@ -23,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1561140a-16a9-4a02-822d-a989250e479d
 description: Meer informatie over het kopen van een domeinnaam in Microsoft 365.
-ms.openlocfilehash: c4b3b0ac88671e72ed567998ad9d97486dfb6342
-ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
+ms.openlocfilehash: 4d2a6546703c93f4b4d6a55e82c309120e384ead
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52779684"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393125"
 ---
 # <a name="buy-a-domain-name"></a>Een domeinnaam kopen
 
@@ -116,7 +117,7 @@ Nadat u uw domein hebt geregistreerd (bij een domeinregistrar), meld u zich aan 
     
 ::: moniker-end
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Een domein toevoegen aan Microsoft 365](../setup/add-domain.md) (artikel)\
 [Veelgestelde vragen over domeinen](../setup/domains-faq.yml) (artikel)\

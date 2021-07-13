@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: 'Ga naar het Microsoft 365-compliancecentrum om het geïntegreerde auditlogboek te zoeken zodat u activiteiten van gebruikers en beheerders kunt bekijken in uw organisatie. '
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 46f223953df65b75c0ecfe0d2c9fe92514b797ff
-ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
+ms.openlocfilehash: a3c7f88441b05d6c64470f6632b9c63ac67b295c
+ms.sourcegitcommit: 7dc3b4dec05299abb4290a6e3d1ebe0fdc622ed7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53341650"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53363953"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>Zoek in het auditlogboek in het compliancecentrum
 
@@ -620,7 +620,7 @@ De volgende tabel bevat de gebeurtenissen die het gevolg zijn van sitebeheertake
 |Beheerder van geografische locatie toegevoegd|GeoAdminAdded|Een SharePoint-beheerder of globale beheerder heeft een gebruiker toegevoegd als geobeheerder van een locatie.|
 |Gebruiker toegestaan groepen te maken|AllowGroupCreationSet|Sitebeheerder of eigenaar voegt een machtigingsniveau toe aan een site waardoor een gebruiker aan wie de machtiging wordt verleend, een groep voor die site kan maken. |
 |Geografische verplaatsing van geannuleerde site|SiteGeoMoveCancelled|Een SharePoint-beheerder of globale beheerder annuleert de geografische verplaatsing van een SharePoint- of OneDrive-site. Met de functie Multi-Geo kan een organisatie meerdere geografische gebieden van het Microsoft-datacenter omspannen. Dit worden geografische gebieden genoemd. Zie voor meer informatie [mogelijkheden voor Multi-Geo in OneDrive en SharePoint Online](../enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365.md).|
-|Beleid voor delen gewijzigd|SharingPolicyChanged|Een SharePoint-beheerder of globale beheerder heeft een SharePoint-beleid voor delen gewijzigd met behulp van de Microsoft 365-beheerportal, SharePoint-beheerportal of SharePoint Online Management Shell. Elke wijziging aan de instellingen in de beleidsregel voor delen in de organisatie wordt in het logboek geregistreerd. Het gewijzigde beleid wordt aangegeven in het veld **ModifiedProperties** in de gedetailleerde eigenschappen van de gebeurtenisrecord.|
+|Beleid voor delen gewijzigd|SharingPolicyChanged|Een SharePoint-beheerder of globale beheerder heeft een SharePoint-beleid voor delen gewijzigd met behulp van de Microsoft 365-beheercentrum, SharePoint-beheercentrum, of SharePoint Online Management Shell. Elke wijziging aan de instellingen in de beleidsregel voor delen in de organisatie wordt in het logboek geregistreerd. Het gewijzigde beleid wordt aangegeven in het veld **ModifiedProperties** in de gedetailleerde eigenschappen van de gebeurtenisrecord.|
 |Toegangsbeleid voor apparaten is gewijzigd|DeviceAccessPolicyChanged|Een SharePoint-beheerder of globale beheerder heeft het beleid voor niet-beheerde apparaten van uw bedrijf gewijzigd. Dit beleid bepaalt de toegang tot SharePoint, OneDrive en Microsoft 365 van apparaten die geen deel van uw bedrijf uitmaken. Het configureren van dit beleid vereist een Enterprise Mobility + Security-abonnement. Zie voor meer informatie [Control access from unmanaged devices (Toegangsbeheer op niet-beheerde apparaten)](/sharepoint/control-access-from-unmanaged-devices).|
 |Vrijgestelde gebruikersagenten gewijzigd|CustomizeExemptUsers|Een SharePoint- of globale beheerder heeft de lijst met vrijgestelde gebruikersagenten aangepast in het SharePoint-beheercentrum. U kunt opgeven welke gebruikersagenten moeten worden vrijgesteld van het ontvangen van een hele webpagina die moet worden geïndexeerd. Dit betekent dat als een door u vrijgestelde gebruikersagent een InfoPath-formulier krijgt, het formulier wordt geretourneerd als een XML-bestand in plaats van een hele webpagina. Hierdoor kunnen de InfoPath-formulieren sneller worden geïndexeerd.|
 |Toegangsbeleid voor netwerk gewijzigd|NetworkAccessPolicyChanged|Een SharePoint-beheerder of globale beheerder heeft het beleid op basis van locatie gewijzigd (ook wel een vertrouwde netwerkgrens genoemd) in het SharePoint-beheercentrum of met behulp van SharePoint Online PowerShell. Dit type beleid beheert wie toegang heeft tot SharePoint- en OneDrive-bronnen in uw bedrijf op basis van geautoriseerde IP-adresbereiken die u opgeeft. Zie [Toegang tot SharePoint Online en OneDrive-gegevens regelen op basis van netwerklocaties](/sharepoint/control-access-based-on-network-location) voor meer informatie.|

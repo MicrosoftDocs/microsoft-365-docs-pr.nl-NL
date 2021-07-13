@@ -13,7 +13,9 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
@@ -21,13 +23,13 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 3b3adfa4-1777-4ff0-b606-fb8732101f47
-description: Meer informatie over het instellen van de releaseoptie voor nieuwe product- en functiesupdates in het Microsoft 365 beheercentrum.
-ms.openlocfilehash: 5060e2dc99355d89928ec91c96b7d25e2016c7c4
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+description: Meer informatie over het instellen van de releaseoptie voor nieuwe product- en functiesupdates in de Microsoft 365-beheercentrum.
+ms.openlocfilehash: ba9c3a71807728e18b612f0b63aff80d04a46a90
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593943"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53392525"
 ---
 # <a name="set-up-the-standard-or-targeted-release-options"></a>De opties Standaard of Targeted Release instellen
 
@@ -109,6 +111,6 @@ U kunt de manier wijzigen waarop uw organisatie updates Microsoft 365 ontvangen 
 
 Ontdek hoe u [berichten beheert](/office365/admin/manage/message-center) in uw [Microsoft 365 berichtencentrum](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/MessageCenter) om meldingen te krijgen over toekomstige Microsoft 365 updates en releases.
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Deelnemen aan Office Insider-programma](https://insider.office.com/join/windows) (artikel)

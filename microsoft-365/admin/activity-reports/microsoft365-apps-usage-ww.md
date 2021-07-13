@@ -17,13 +17,13 @@ search.appverid:
 - MET150
 - MOE150
 - GEA150
-description: Meer informatie over hoe u een rapport Microsoft 365-apps voor gebruik kunt krijgen met behulp van Microsoft 365 dashboard Rapporten in het Microsoft 365 beheercentrum.
-ms.openlocfilehash: d41a1680b46709c3f41b5238d309794c68101cee
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+description: Lees hoe u een rapport Microsoft 365-apps voor gebruik kunt krijgen met het Microsoft 365 dashboard Rapporten in de Microsoft 365-beheercentrum.
+ms.openlocfilehash: 3147aebc10ff774b8af3ff10f9a76d52a2db87b2
+ms.sourcegitcommit: 022d9d91263994c48efcebe08a84319573dc3a8c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860747"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53377239"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-365-apps-usage"></a>Microsoft 365 Rapporten in het beheercentrum - Microsoft 365-apps gebruik
 
@@ -55,6 +55,6 @@ U kunt een beeld krijgen van de activiteiten van Microsoft 365-apps gebruiker do
  |4. <br/> |De **weergave Platforms** toont de trend van actieve gebruikers in alle apps voor elk platform: Windows, Mac, Web en Mobile. <br/> |
  |5.<br/>|In de **grafiek Gebruikers** is de Y-as het aantal unieke actieve gebruikers voor de betreffende app. In de **grafiek Platforms** is   de Y-as het aantal unieke gebruikers voor het betreffende platform. De X-as in beide grafieken is de datum waarop een app op een bepaald platform is gebruikt.<br/>|
  6.<br/>|U kunt de reeks filteren die u in de grafiek ziet door een item in de legenda te selecteren. Selecteer bijvoorbeeld in  de grafiek Gebruikers Outlook, Word, Excel, PowerPoint, OneDrive of Teams om alleen de gegevens te zien die betrekking hebben op elke grafiek. Als u deze selectie wijzigt, worden de gegevens in de rastertabel eronder niet gewijzigd.|
- |7.<br/>|De tabel toont een uitsplitsing van de gegevens per gebruiker. U kunt kolommen toevoegen aan of verwijderen uit de tabel.  <br/><br/>**Gebruikersnaam** is het e-mailadres van de gebruiker die de activiteit heeft uitgevoerd op Microsoft Apps.<br><br/>**De laatste activeringsdatum (UTC)** is de laatste datum waarop de gebruiker zijn of haar Microsoft 365-apps heeft geactiveerd.<br/><br/>**De laatste activiteitsdatum (UTC)** is de laatste datum waarop een opzettelijke activiteit is uitgevoerd door de gebruiker. Als u de activiteit van een bepaalde datum wilt zien, selecteert u de datum rechtstreeks in de grafiek.<br/><br/>De andere kolommen geven aan of de gebruiker actief was op dat platform voor die app (binnen Microsoft 365-apps) in de geselecteerde periode. |
+ |7.<br/>|De tabel toont een uitsplitsing van de gegevens per gebruiker. U kunt kolommen toevoegen aan of verwijderen uit de tabel.  <br/><br/>**Gebruikersnaam** is het e-mailadres van de gebruiker die de activiteit heeft uitgevoerd op Microsoft Apps.<br><br/>**De laatste activeringsdatum (UTC)** is de laatste datum waarop de gebruiker zijn Microsoft 365-apps-abonnement heeft geactiveerd op een computer of zich aanmeldt op een gedeelde computer en de app start met zijn of haar account. <br/><br/>**De laatste activiteitsdatum (UTC)** is de laatste datum waarop een opzettelijke activiteit is uitgevoerd door de gebruiker. Als u de activiteit van een bepaalde datum wilt zien, selecteert u de datum rechtstreeks in de grafiek.<br/><br/>De andere kolommen geven aan of de gebruiker actief was op dat platform voor die app (binnen Microsoft 365-apps) in de geselecteerde periode. |
  |8.<br/>|Selecteer het **pictogram Kolommen kiezen** om kolommen toe te voegen of te verwijderen uit het rapport.|
  |9.<br/>|U kunt de rapportgegevens ook exporteren naar een Excel .csv bestand door de **koppeling Exporteren te** selecteren. Hiermee exporteert u gegevens voor alle gebruikers en kunt u eenvoudige aggregatie, sorteren en filteren voor verdere analyse. Als u minder dan 100 gebruikers hebt, kunt u sorteren en filteren in de tabel in het rapport zelf. Als u meer dan 100 gebruikers hebt, moet u de gegevens exporteren om te kunnen filteren en sorteren.|

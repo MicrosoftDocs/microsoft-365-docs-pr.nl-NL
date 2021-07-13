@@ -14,17 +14,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - MET150
 - MOE150
 description: Ontdek hoe Microsoft Productiviteitsscore metingen van ervaringen van mensen en technologie weergeeft en vergelijkt met organisaties van vergelijkbare grootte.
-ms.openlocfilehash: af0e8583bec00b1ddfd62145a4757a4e568108e8
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: ddbc1590abc1383035db1852345310bfc8dd196d
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52789037"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393665"
 ---
 # <a name="microsoft-productivity-score"></a>Microsoft Productiviteitsscore 
 

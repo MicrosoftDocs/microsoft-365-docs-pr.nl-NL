@@ -13,19 +13,21 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 7e453a40-66df-44ab-92a1-96786cb7fb34
 description: Meer informatie over toestemming van gebruikers voor apps en hoe u deze in kunt stellen om apps van derden toegang te geven tot de Microsoft 365 gebruikersgegevens.
-ms.openlocfilehash: b8f65b50e50b0e0b4d978388463bbd380ca60d4e
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 629e64494c6d72a13c3b155370a8f47505e9fa20
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624499"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53391229"
 ---
 # <a name="managing-user-consent-to-apps-in-microsoft-365"></a>Gebruikers toestemming voor apps beheren in Microsoft 365
 
@@ -36,7 +38,6 @@ Als u deze instelling int, vragen deze apps gebruikers om toestemming voor toega
 Een gebruiker kan alleen toegang geven voor apps waarvan ze de eigenaar zijn en waarvoor toegang tot hun Office 365-gegevens is vereist. Ze kunnen apps geen toestemming geven voor het gebruik van gegevens van anderen.
 
 ## <a name="turning-user-consent-on-or-off"></a>Toestemming van gebruikers in- of uitschakelen
-<a name="__toc379982114"> </a>
 
 U kunt als eerste de toestemming van gebruikers voor apps in- of uitschakelen.
 
@@ -44,8 +45,7 @@ U kunt als eerste de toestemming van gebruikers voor apps in- of uitschakelen.
 
 2. Selecteer op **de pagina Gebruikers toestemming voor apps** de optie om toestemming van gebruikers in of uit te schakelen.
 
-## <a name="related-content"></a>Verwante onderwerpen 
-<a name="__toc379982114"> </a>
+## <a name="related-content"></a>Verwante inhoud 
 
 [De werkstroom voor beheerdersmachtiging](/azure/active-directory/manage-apps/configure-admin-consent-workflow) configureren (artikel)\
 [Toestemming voor toepassingen beheren en toestemmingsaanvragen evalueren](/azure/active-directory/manage-apps/manage-consent-requests) (artikel)

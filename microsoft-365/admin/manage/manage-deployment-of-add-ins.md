@@ -16,22 +16,23 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - okr_smb
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Informatie over het implementeren van invoegvoegingen voor gebruikers en groepen in uw organisatie met gecentraliseerde implementatie in het beheercentrum.
-ms.openlocfilehash: 796517ba13a4718c38d5200fcf9cbe38b5dc62d0
-ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
+ms.openlocfilehash: 88613e593f3c8375073865ebe9b7e417c6b3f06f
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52779636"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53392849"
 ---
 # <a name="deploy-add-ins-in-the-admin-center"></a>Invoegtoepassingen implementeren in het beheercentrum
 
-Met Office-invoegtoepassingen kunt u uw documenten aan uw persoonlijke voorkeur aanpassen en de manier waarop u toegang krijgt tot informatie op internet stroomlijnen (zie [Uw Office-invoegtoepassing gebruiken](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862)). Als beheerder kunt u Office voor de gebruikers in uw organisatie implementeren met de functie Gecentraliseerde implementatie in het Microsoft 365 beheercentrum. Gecentraliseerde implementatie is de aanbevolen en meest veelzijdige manier voor de meeste beheerders om invoegtoepassingen te implementeren voor gebruikers en groepen binnen een organisatie.
+Met Office-invoegtoepassingen kunt u uw documenten aan uw persoonlijke voorkeur aanpassen en de manier waarop u toegang krijgt tot informatie op internet stroomlijnen (zie [Uw Office-invoegtoepassing gebruiken](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862)). Als beheerder kunt u Office voor de gebruikers in uw organisatie implementeren met de functie Gecentraliseerde implementatie in de Microsoft 365-beheercentrum. Gecentraliseerde implementatie is de aanbevolen en meest veelzijdige manier voor de meeste beheerders om invoegtoepassingen te implementeren voor gebruikers en groepen binnen een organisatie.
 
 Zie Bepalen of gecentraliseerde implementatie van invoegvoegingen werkt voor uw organisatie voor meer informatie over het bepalen of uw organisatie gecentraliseerde implementatie [kan ondersteunen.](centralized-deployment-of-add-ins.md)
 
@@ -129,7 +130,7 @@ Updates voor invoegtoepassingen worden als volgt uitgevoerd:
 
 - **Office Store-invoegtoepassing:** Als een beheerder een invoegtoepassing in de Office Store heeft geselecteerd (als een invoegtoepassing in de Office Store wordt bijgewerkt), wordt de invoegtoepassing later bijgewerkt in Gecentraliseerde implementatie. De volgende keer dat de betreffende Office-toepassingen worden gestart, wordt de invoegtoepassing bijgewerkt. De webtoepassing kan elk moment worden gewijzigd.
   
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Invoegvoegingen beheren in het beheercentrum](manage-addins-in-the-admin-center.md) (artikel)\
 [Uw eerste Word-taakvenster maken (artikel\](/office/dev/add-ins/quickstarts/word-quickstart?tabs=yeomangenerator)

@@ -15,16 +15,16 @@ ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: Geef uw gebruikers actuele nieuwskoppen over uw branche en informatie van uw organisatie, gebruik de nieuwsservice om een aangepaste nieuwsfeed in te stellen voor uw organisatie.
-ms.openlocfilehash: 4282cb71bd5b2847528d651e0ab94b5fe966cedf
-ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
+ms.openlocfilehash: dedc39d9c82f66d64660f66be8e77ba954246e09
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51650029"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53392837"
 ---
 # <a name="manage-industry-news"></a>Industrienieuws beheren
 
-Als u uw gebruikers up-to-date nieuwskoppen wilt geven over uw branche en informatie uit uw organisatie, gebruikt u de nieuwsservice om een aangepaste nieuwsfeed in te stellen voor uw organisatie. U kunt ook een dagelijkse e-mail voor brancheupdates inschakelen en instellingen voor de Bing startpagina en Microsoft Edge pagina met nieuwe tabbladen beheren (te beginnen met de release van Edge 87). 
+Als u uw gebruikers up-to-date nieuwskoppen wilt geven over uw branche en informatie uit uw organisatie, gebruikt u de nieuwsservice om een aangepaste nieuwsfeed in te stellen voor uw organisatie. U kunt ook een dagelijkse e-mail van Industrie-updates inschakelen en instellingen beheren voor de Bing startpagina en Microsoft Edge nieuwe tabbladpagina. 
 
 ## <a name="what-your-users-will-see"></a>Wat uw gebruikers zien
 
@@ -44,7 +44,7 @@ Ze kunnen ook bedrijfs-, industrie- en interne nieuws- of persoonlijke werkgegev
 
 Als beheerder beheert u de instellingen voor de nieuwsfeed voor uw organisatie, inclusief de geselecteerde industrie en de startpagina van Bing, de nieuwe tabbladpagina Microsoft Edge (vanaf de release van Edge 87) en de e-mailervaringen. 
 
-1. Ga in het Microsoft 365-beheercentrum **naar Instellingen** Org  >  **settings**  >  **Services**  >  [**News**](https://admin.microsoft.com/adminportal/home?#/Settings/Services/:/Settings/L1/BingNews). 
+1. Ga in de Microsoft 365-beheercentrum naar **Instellingen**  >  **Org settings**  >  **Services**  >  [**News**](https://admin.microsoft.com/adminportal/home?#/Settings/Services/:/Settings/L1/BingNews). 
 
 1. Klik in **het** deelvenster Nieuws op het **tabblad** Algemeen.
 
@@ -54,13 +54,13 @@ Als beheerder beheert u de instellingen voor de nieuwsfeed voor uw organisatie, 
 
 1. U kunt artikelen met trefwoorden blokkeren in het **veld Inhoud uitsluiten.** Als u bijvoorbeeld wilt voorkomen dat artikelen met het trefwoord 'bakken' worden weergegeven in de nieuwsfeed, voegt u het trefwoord 'bakken' toe in het **veld Inhoud uitsluiten.** Vermijd het gebruik van algemene termen (de voorwaarden, het en, enzovoort); ze kunnen voorkomen dat relevante inhoud wordt weergegeven in uw bedrijfsnieuwsfeeds. 
 
-1. Klik op **Opslaan**. Het kan tot 24 uur duren voordat wijzigingen worden weergegeven. 
+1. Kies **Opslaan**. Het kan tot 24 uur duren voordat wijzigingen worden weergegeven. 
 
 ## <a name="industry-updates-in-email"></a>Branche-updates in e-mail 
 
 U kunt een dagelijkse e-mailupdate met relevant branchenieuws verzenden naar de Postvak IN van uw gebruikers. Dagelijkse e-mailupdates instellen voor gebruikers: 
 
-1. Ga in het Microsoft 365-beheercentrum **naar Instellingen** Org  >  **settings**  >  **Services**  >  [**News**](https://admin.microsoft.com/adminportal/home?#/Settings/Services/:/Settings/L1/BingNews). 
+1. Ga in de Microsoft 365-beheercentrum naar **Instellingen**  >  **Org settings**  >  **Services**  >  [**News**](https://admin.microsoft.com/adminportal/home?#/Settings/Services/:/Settings/L1/BingNews). 
 
 1. Klik in **het** deelvenster Nieuws op het **tabblad Industrie-updates.** 
 
@@ -72,7 +72,7 @@ U kunt een dagelijkse e-mailupdate met relevant branchenieuws verzenden naar de 
 
 U kunt de startpagina Bing om nieuws over uw branche op te nemen. 
 
-1. Ga in het Microsoft 365-beheercentrum **naar Instellingen** Org  >  **settings**  >  **Services**  >  [**News**](https://admin.microsoft.com/adminportal/home?#/Settings/Services/:/Settings/L1/BingNews). 
+1. Ga in de Microsoft 365-beheercentrum naar **Instellingen**  >  **Org settings**  >  **Services**  >  [**News**](https://admin.microsoft.com/adminportal/home?#/Settings/Services/:/Settings/L1/BingNews). 
 
 1. Klik in **het** deelvenster Nieuws op het **tabblad Bing startpagina** en selecteer Opnemen op Bing **startpagina.** 
 
@@ -81,12 +81,12 @@ U kunt de startpagina Bing om nieuws over uw branche op te nemen.
 ## <a name="microsoft-edge-new-tab-page"></a>Microsoft Edge nieuwe tabbladpagina 
 Wanneer uw gebruikers zich aanmelden bij Microsoft Edge (release 87 of hoger) met een geldig werk- of schoolaccount, kunnen ze nieuws zien dat is afgestemd op uw organisatie.
 
-1. Ga in het Microsoft 365-beheercentrum **naar Instellingen** Org  >  **settings**  >  **Services**  >  [News](https://admin.microsoft.com/adminportal/home?#/Settings/Services/:/Settings/L1/BingNews).
+1. Ga in de Microsoft 365-beheercentrum naar **Instellingen**  >  **Org settings**  >  **Services**  >  [News](https://admin.microsoft.com/adminportal/home?#/Settings/Services/:/Settings/L1/BingNews).
 2. Klik in **het** deelvenster Nieuws **op Microsoft Edge nieuwe tabbladpagina.**
 3. Selecteer **Inhoud Office 365 op de nieuwe tabbladpagina toestaan.** Wanneer dit is ingeschakeld, kunnen gebruikers hun nieuwe tabblad aanpassen om informatie uit Office 365 weer te geven, inclusief aanbevolen en recente bestanden, samen met veelgebruikte SharePoint sites en andere informatie.
 4. Selecteer **Bedrijfsgegevens en branchenieuws op de nieuwe tabbladpagina.** Nieuwsartikelen over uw organisatie en branche worden weergegeven voor gebruikers die ervoor kiezen om artikelen op hun nieuwe tabblad te zien.
 
-## <a name="related-articles"></a>Aanverwante artikelen
+## <a name="related-articles"></a>Verwante artikelen
 
 - [Microsoft Search](/microsoftsearch/)
 - [Uw gegevens en service beheren](./index.yml)

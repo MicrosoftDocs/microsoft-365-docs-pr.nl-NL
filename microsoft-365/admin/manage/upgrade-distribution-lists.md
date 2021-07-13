@@ -13,19 +13,21 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 787d7a75-e201-46f3-a242-f698162ff09f
 description: Lees hoe u een of meer distributielijsten kunt upgraden naar Microsoft 365 groepen in Outlook en hoe u PowerShell gebruikt om meerdere distributielijsten tegelijk te upgraden.
-ms.openlocfilehash: d4686e7f2ec305194130b60fbacab24c9cf7f4e9
-ms.sourcegitcommit: 4bcac4cb4f9399ebbd7c8cff0abb4d6ecedb731e
+ms.openlocfilehash: aef797a2bf052fcc84c9220993c2e6706eae5f61
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52698938"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53391385"
 ---
 # <a name="upgrade-distribution-lists-to-microsoft-365-groups-in-outlook"></a>Distributielijsten upgraden naar Microsoft 365 groepen in Outlook
 
@@ -153,7 +155,6 @@ U kunt alleen in de cloud beheerde, eenvoudige, niet-geneste distributielijsten 
 |Beveiligingsgroepen  <br/> |Nee  <br/> |
 |Dynamische distributielijsten  <br/> |Nee  <br/> |
 |Distributielijsten die zijn geconverteerd **naar RoomLists**  <br/> |Nee  <br/> |
-|Distributielijsten **waarin MemberJoinRestriction** en/of **MemberDepartRestriction** is **gesloten**  <br/> |Nee  <br/> |
 
 ### <a name="check-which-dls-are-eligible-for-upgrade"></a>Controleren welke DL's in aanmerking komen voor een upgrade
 
@@ -173,7 +174,7 @@ Personen met globale beheerders- of Exchange beheerdersrechten.
 
 - Voor Outlook: Wanneer iemand een e-mail probeert te verzenden in Outlook door de naam van de Microsoft 365-groep te typen na de migratie, wordt de geadresseerde opgelost als de distributielijst in plaats van de groep. Het visitekaartje van de geadresseerde wordt het visitekaartje van de distributielijsten. Dit wordt veroorzaakt door de cache met geadresseerden of de cache met bijnamen in Outlook. De e-mail wordt naar de groep verzonden, maar kan verwarring veroorzaken bij de afzender.<br/>U kunt de stappen in dit artikel, Informatie over de lijst [Outlook automatisch](/outlook/troubleshoot/contacts/information-about-the-outlook-autocomplete-list) aanvullen, uitvoeren om de cache opnieuw in te stellen, waardoor dit probleem wordt opgelost.
 
-- Voor Outlook op internet: in het geval van Outlook op internet, blijft de ontvanger van de distributielijst nog steeds in de cache. U kunt de stappen in Voorgestelde naam of [e-mailadres](https://support.microsoft.com/office/9E1419D9-E88F-445B-B07F-F558B8A37C58) verwijderen uit de lijst Automatisch voltooien volgen om de cache te vernieuwen om het groepscontactkaart te zien.
+- Voor webversie van Outlook: In geval van webversie van Outlook blijft de ontvanger van de distributielijst in de cache. U kunt de stappen in Voorgestelde naam of [e-mailadres](https://support.microsoft.com/office/9E1419D9-E88F-445B-B07F-F558B8A37C58) verwijderen uit de lijst Automatisch voltooien volgen om de cache te vernieuwen om het groepscontactkaart te zien.
 
 ### <a name="do-new-group-members-get-a-welcome-email-in-their-inbox"></a>Krijgen nieuwe groepsleden een welkomstbericht in hun postvak IN?
 
@@ -191,7 +192,7 @@ Er zijn enkele gevallen waarin DL wel in aanmerking komt, maar niet kan worden b
 
 De upgrade vindt alleen plaats als de oproep naar de server wordt verzonden. Als de upgrade mislukt, worden de distributielijsten niet gewijzigd. Ze blijven op dezelfde manier werken.
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Groepen vergelijken](../create-groups/compare-groups.md) (artikel)\
 [Uitleg over Microsoft 365 groepen aan uw gebruikers](../create-groups/explain-groups-knowledge-worker.md) (artikel)\

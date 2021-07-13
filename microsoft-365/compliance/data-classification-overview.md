@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Het dashboard voor gegevensclassificatie geeft u inzicht in hoeveel vertrouwelijke gegevens in uw organisatie zijn gevonden en geclassificeerd.
-ms.openlocfilehash: d9c53d1f4679fbea9f5a7cded7f4bb6b6eb15b98
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: c0343117251d169d0284c2fdb3fc3b8bca5ff0df
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244381"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362556"
 ---
 # <a name="learn-about-data-classification"></a>Meer informatie over gegevensclassificatie
 
@@ -66,6 +66,9 @@ Een aantal verschillende abonnementen ondersteunen Endpoint DLP. Zie [Informatio
 - Beveiligingsbeheerder
 - Beheerder van nalevingsgegevens
 
+> [!NOTE]
+> Gebruik als aanbevolen procedure altijd de rol met de minste bevoegdheid om toegang te verlenen tot Microsoft 365-gegevensclassificatie.
+
 ## <a name="sensitive-information-types-used-most-in-your-content"></a>Typen vertrouwelijke informatie die het meest worden gebruikt in uw inhoud
 
 Microsoft 365 wordt geleverd met een groot aantal definities van typen gevoelige informatie, zoals een item met een beveiligingsnummer of een creditcardnummer. Zie [Entiteitsdefinities van typen gevoelige informatie](sensitive-information-type-entity-definitions.md) voor meer informatie over de typen gevoelige informatie.
@@ -100,7 +103,7 @@ Op de kaart voor vertrouwelijkheidslabels wordt het aantal items (e-mails of doc
 ![Schermafbeelding van uitsplitsing van inhoud op tijdelijke aanduiding voor de classificatie van het gevoeligheidslabel](../media/data-classification-top-sensitivity-labels-applied.png)
 
 > [!NOTE]
-> Als er geen gevoeligheidslabels zijn gemaakt of gepubliceerd of als er geen gevoeligheidslabel is toegepast op de inhoud, wordt op deze kaart het bericht 'Er zijn geen gevoeligheidslabels gedetecteerd' weergegeven. Om aan de slag te gaan met vertrouwelijkheidslabels, zie:
+> Als er geen gevoeligheidslabels zijn gemaakt of gepubliceerd of als er geen gevoeligheidslabel is toegepast op de inhoud, wordt op deze kaart het bericht 'Er zijn geen gevoeligheidslabels gedetecteerd' weergegeven. Om aan de slag te gaan met vertrouwelijkheidslabels, gaat u naar:
 >- [Aan de slag met vertrouwelijkheidslabels](get-started-with-sensitivity-labels.md) of voor AIP [Het Azure-gegevensbeveiligingsbeleid configureren](/azure/information-protection/configure-policy)
 
 ## <a name="top-retention-labels-applied-to-content"></a>Voornaamste retentielabels toegepast op inhoud
@@ -128,7 +131,7 @@ Deze kaart bevat een beknopt overzicht van de meest voorkomende acties die gebru
 Het doel van de rapportage van de gegevensclassificatie is om inzicht te verstrekken in het aantal items met een bepaald label en hun locatie. Deze kaarten laten u weten hoeveel gelabelde items er zijn in Exchange, SharePoint en OneDrive, enzovoort.
 
 > [!NOTE]
-> Als er geen gevoeligheidslabels zijn gemaakt of gepubliceerd of als er geen retentielabel is toegepast op de inhoud, wordt op deze kaart het bericht 'Er zijn geen locaties gedetecteerd' weergegeven. Om aan de slag te gaan met vertrouwelijkheidslabels, zie:
+> Als er geen gevoeligheidslabels zijn gemaakt of gepubliceerd of als er geen retentielabel is toegepast op de inhoud, wordt op deze kaart het bericht 'Er zijn geen locaties gedetecteerd' weergegeven. Om aan de slag te gaan met vertrouwelijkheidslabels, gaat u naar:
 >- [Gevoeligheidslabels](sensitivity-labels.md)
 
 ## <a name="see-also"></a>Zie ook

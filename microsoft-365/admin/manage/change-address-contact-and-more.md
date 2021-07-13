@@ -16,15 +16,16 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - commcerce_billing
+- AdminTemplateSet
 search.appverid: MET150
 description: Wijzigingen aanbrengen in uw organisatieprofiel, zoals organisatienaam, adres, telefoon, technische contactpersoon en e-mail.
 ms.date: 03/30/2021
-ms.openlocfilehash: 2646d2d83c72caa8a56f6658f005812f087101cb
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 80f48c001cb4796e60f9ec3cc20c03ac231eccab
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635400"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393689"
 ---
 # <a name="change-your-organizations-address-technical-contact-and-more"></a>Het adres en de technische contactpersoon van uw organisatie en meer wijzigen
   
@@ -51,7 +52,7 @@ Hieronder vindt u een beschrijving van elk veld.
 
 |**Veld**  |**Beschrijving**  |
 |---------|---------|
-|Naam  <br/>   | De naam die u hier opgeeft, wordt voor gebruikers weergegeven op de volgende pagina's:  <br/>  Aanmeldingspagina: als uw gebruikers andere Microsoft-accounts hebben ingesteld met hun e-mailadres van het bedrijf of de school, zien ze mogelijk de naam van de organisatie op de aanmeldingspagina. Op deze manier kunnen ze onderscheid maken tussen hun werk- of schoolaccount en hun andere accounts, zodat ze weten welk account ze moeten gebruiken wanneer ze zich aanmelden.  <br/>  Profielkoppeling en -pagina van organisatie: de koppeling naar het profiel van uw organisatie bevat de naam van de organisatie.  <br/>  Yammer navigatie: In Yammer gebruikt de linkernavigatie de naam van de organisatie als de naam van het Yammer netwerk.  <br/> OneDrive synchronisatieclient: De naam van de organisatie wordt weergegeven in Verkenner op Windows en Finder op Mac, de bestandspaden, het activiteitencentrum van OneDrive, de knopinfo van het OneDrive-cloudpictogram en het OneDrive-instellingenvenster. Momenteel wordt de naam van de organisatie niet bijgewerkt voor geconfigureerde clients. <br/> MS Teams: Organisatiewisselaar in Teams geeft de naam van de organisatie weer <br/>  |
+|Naam  <br/>   | De naam die u hier opgeeft, wordt voor gebruikers weergegeven op de volgende pagina's:  <br/>  Aanmeldingspagina: als uw gebruikers andere Microsoft-accounts hebben ingesteld met hun e-mailadres van het bedrijf of de school, zien ze mogelijk de naam van de organisatie op de aanmeldingspagina. Op deze manier kunnen ze onderscheid maken tussen hun werk- of schoolaccount en hun andere accounts, zodat ze weten welk account ze moeten gebruiken wanneer ze zich aanmelden.  <br/>  Profielkoppeling en -pagina van organisatie: de koppeling naar het profiel van uw organisatie bevat de naam van de organisatie.  <br/>  Yammer navigatie: In Yammer gebruikt de linkernavigatie de naam van de organisatie als de naam van het Yammer netwerk.  <br/> OneDrive-synchronisatie client: De naam van de organisatie wordt weergegeven in Verkenner op Windows en Finder op Mac, de bestandspaden, het activiteitencentrum van OneDrive, de knopinfo van het OneDrive-cloudpictogram en het OneDrive-instellingenvenster. Momenteel wordt de naam van de organisatie niet bijgewerkt voor geconfigureerde clients. <br/> MS Teams: Organisatiewisselaar in Teams geeft de naam van de organisatie weer <br/>  |
 |Adres, plaats, provincie, postcode  <br/>     | Het adres dat hier wordt ingevoerd, wordt weergegeven op uw factuur, onder Verkocht aan: Het adres Verkocht aan op uw factuur is hetzelfde als het adres van uw organisatie op uw profielpagina (zie Uw factuur of factuur voor [Microsoft 365](../../commerce/billing-and-payments/understand-your-invoice2.md)voor Bedrijven begrijpen).  <br/>        |
 |Land of regio  <br/>    | Dit is het land of de regio waarin het bedrijf is gevestigd. Via het geselecteerde land of de geselecteerde regio wordt bepaald welke services beschikbaar zijn voor u, welke belastingen en factureringsvaluta voor uw land of regio worden gebruikt en wat het dichtstbijzijnde datacentrum voor u is (zie [Gebruiksrechtbeperkingen voor Microsoft Office](https://office.microsoft.com/redir/FX103037529)).  <br/>OPMERKING: Nadat u het land of de regio hebt geselecteerd, kan het land of de regio niet worden gewijzigd. Als u de selectie wilt wijzigen, moet u uw abonnement opzeggen en u opnieuw aanmelden. Neem contact op met [ondersteuning voor hulp bij dit proces.](../../business-video/get-help-support.md)        |
 |Telefoon  <br/>     | Dit is het primaire nummer voor uw bedrijf. Dit is meestal het nummer van het hoofdkantoor van het bedrijf.  <br/>        |
@@ -62,7 +63,7 @@ Hieronder vindt u een beschrijving van elk veld.
 
 Als beheerder kunt u uw alternatieve e-mailadres wijzigen voor het opnieuw instellen van wachtwoorden.
 
-1. Ga naar het <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 beheercentrum.</a>
+1. Ga naar de <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365-beheercentrum.</a>
 
 2. Selecteer in de koptekst het profielpictogram en selecteer vervolgens **Account weergeven.**
 
@@ -79,7 +80,7 @@ Zie Uw contactvoorkeuren wijzigen of [Uw](change-contact-preferences.md) weergav
   
 U kunt uw e-mailhandtekening wijzigen in Outlook Web App. Zie [E-mailinstellingen](https://support.microsoft.com/office/30c69a79-efc6-42d2-b740-4bf1c1f8a01c) voor meer informatie.
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [E-mail verzenden vanaf een ander adres](https://support.microsoft.com/office/ccba89cb-141c-4a36-8c56-6d16a8556d2e) (artikel)\
 [Een gebruikersnaam en e-mailadres wijzigen](../add-users/change-a-user-name-and-email-address.md) (artikel)\

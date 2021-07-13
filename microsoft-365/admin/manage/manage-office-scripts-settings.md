@@ -13,19 +13,21 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid: MET150
 description: Meer informatie over het beheren Office scripts voor gebruikers in uw organisatie.
-ms.openlocfilehash: e0cb52c4a8f48ff2310c83ffce61e08a0236ed59
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: fea50838cf1089b73a6af5bbf86d490293831085
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572307"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53392669"
 ---
 # <a name="manage-office-scripts-settings"></a>Instellingen voor Office-scripts beheren
 
-[Office scripts](/office/dev/scripts)kunnen gebruikers taken automatiseren door scripts op te nemen, te bewerken en uit te voeren in Excel web. Office Scripts werken met Power Automate en gebruikers voeren scripts uit op werkmappen met behulp van Excel onlineconnector (Business). Microsoft 365 beheerders kunnen de Office scripts beheren vanuit het Microsoft 365 beheercentrum.
+[Office scripts](/office/dev/scripts)kunnen gebruikers taken automatiseren door scripts op te nemen, te bewerken en uit te voeren in Excel web. Office Scripts werken met Power Automate en gebruikers voeren scripts uit op werkmappen met behulp van Excel onlineconnector (Business). Microsoft 365 beheerders kunnen de Office scripts beheren vanaf de Microsoft 365-beheercentrum.
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
@@ -43,7 +45,7 @@ ms.locfileid: "52572307"
 
 ## <a name="manage-availability-of-office-scripts-and-sharing-of-scripts"></a>Beschikbaarheid van scripts Office en delen van scripts beheren
 
-1. Ga in Microsoft 365 beheercentrum naar het **tabblad Instellingen** Instellingen \> **voor** organisaties \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">Services.</a>
+1. Ga in Microsoft 365-beheercentrum naar het tabblad **Instellingen** \> **Instellingen** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">services.</a>
 
 2. Selecteer **Office scripts.**
 
@@ -92,7 +94,7 @@ ms.locfileid: "52572307"
 
     - Zie Office scripts uitvoeren met Power Automate voor meer informatie over het gebruik van Office [scripts met Power Automate](/office/dev/scripts/develop/power-automate-integration)scripts.
 
-8. Klik op **Opslaan**.
+8. Kies **Opslaan**.
 
     Het kan tot 48 uur duren voordat wijzigingen in de Office scripts worden doorgevoerd.
 
@@ -100,7 +102,7 @@ ms.locfileid: "52572307"
 
 Omdat Office Scripts werkt met Power Automate, raden we u aan uw bestaande DLP-beleid (Data Loss Prevention) te bekijken om ervoor te zorgen dat de gegevens van uw organisatie beveiligd blijven terwijl gebruikers scripts Office gebruiken. Zie [DLP-beleid (Data Loss Prevention) voor meer informatie.](/power-automate/prevent-data-loss)
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Office Scripts technische documentatie](/office/dev/scripts/) (koppelingspagina)\
 [Inleiding tot Office scripts in Excel](https://support.microsoft.com/office/9fbe283d-adb8-4f13-a75b-a81c6baf163a) (artikel)\

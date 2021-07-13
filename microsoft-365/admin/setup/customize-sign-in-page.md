@@ -16,18 +16,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - okr_smb
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: a1229cdb-ce19-4da5-90c7-2b9b146aef0a
 description: Pas de Microsoft 365 aanmeldingspagina aan met de Azure Active Directory. U kunt een afbeelding, een logo en tekst toevoegen aan de aanmeldingspagina.
-ms.openlocfilehash: 6c873409a06d824c7b63f5ea02e178e22337a345
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 1c805e8f37081b2d09e821b24ce2f83816b23e3d
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635936"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393545"
 ---
 # <a name="add-your-company-branding-to-the-sign-in-page"></a>Uw huisstijl toevoegen aan de pagina Aanmelden
 
@@ -53,7 +54,7 @@ Naast de aanmeldingspagina kunt u ook de toegangspagina in Azure aanpassen
 
 Bent u klaar om huisstijlelementen toe te voegen? Bekijk dan de aanpassingsmogelijkheden in de inhoudsset voor Azure: [Huisstijlelementen toevoegen aan de aanmeldings- en toegangspagina's](/azure/active-directory/fundamentals/customize-branding).
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Het thema Microsoft 365 uw organisatie](customize-your-organization-theme.md) aanpassen (artikel)\
 [Verschil tussen de installatiewizard en de pagina Setup](o365-setup-wizard-and-setup-page.md) (artikel)\

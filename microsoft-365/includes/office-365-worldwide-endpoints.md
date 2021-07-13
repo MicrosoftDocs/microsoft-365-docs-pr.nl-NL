@@ -123,7 +123,7 @@ ID | Categorie | ER | Adressen | Poorten
 148 | Standaard<BR>Vereist | Nee | `cdnprod.myanalytics.microsoft.com, myanalytics.microsoft.com, myanalytics-gcc.microsoft.com` | **TCP:** 443, 80
 149 | Standaard<BR>Vereist | Nee | `workplaceanalytics.cdn.office.net` | **TCP:** 443, 80
 150 | Standaard<BR>Optioneel<BR>**Notities**: Het blokkeren van deze eindpunten is van invloed op de mogelijkheid om de implementatie- en beheerfuncties van Office 365 ProPlus te gebruiken via de portal. | Nee | `*.officeconfig.msocdn.com` | **TCP:** 443
-152 | Standaard<BR>Optioneel<BR>**Notities:** Deze eindpunten maken het gebruik van de functionaliteit van  Office-scripts op Office-clients mogelijk via het tabblad Automatiseren. Deze functie kan worden uitgeschakeld via de Office 365 Admin-portal. | Nee | `*.microsoftusercontent.com` | **TCP:** 443
+152 | Standaard<BR>Optioneel<BR>**Notities:** Deze eindpunten maken het gebruik van de functionaliteit van  Office-scripts op Office-clients mogelijk via het tabblad Automatiseren. Deze functie kan worden uitgeschakeld via het Microsoft 365-beheercentrum. | Nee | `*.microsoftusercontent.com` | **TCP:** 443
 153 | Standaard<BR>Vereist | Nee | `*.azure-apim.net, *.flow.microsoft.com, *.powerapps.com` | **TCP:** 443
 156 | Standaard<BR>Vereist | Nee | `activity.windows.com` | **TCP:** 443
 157 | Standaard<BR>Vereist | Nee | `ocsp.int-x3.letsencrypt.org` | **TCP:** 80

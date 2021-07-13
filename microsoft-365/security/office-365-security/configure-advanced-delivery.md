@@ -17,12 +17,12 @@ ms.custom: ''
 description: Beheerders kunnen leren hoe ze het beleid voor geavanceerde bezorging in Exchange Online Protection (EOP) kunnen gebruiken om berichten te identificeren die niet moeten worden gefilterd in specifieke ondersteunde scenario's (phishingsimulaties van derden en berichten die worden bezorgd in postvakken van beveiligingsbewerkingen (SecOps).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 053f88da96983b03ad03e75c11a4fa692ac6a850
-ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
+ms.openlocfilehash: b989b11739b5418ad14e147f76dde0e0dd7b1b1a
+ms.sourcegitcommit: 233989a02a3fc6db33c995ad06b1f820f08f8f0a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53256865"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53383448"
 ---
 # <a name="configure-the-delivery-of-third-party-phishing-simulations-to-users-and-unfiltered-messages-to-secops-mailboxes"></a>De bezorging van phishingsimulaties van derden configureren voor gebruikers en ongefilterde berichten in SecOps-postvakken
 
@@ -110,7 +110,7 @@ De secops-postvakinzendingen die u hebt geconfigureerd, worden weergegeven op he
      - Enkel IP: bijvoorbeeld 192.168.1.1.
      - IP-bereik: bijvoorbeeld 192.168.0.1-192.168.0.254.
      - CIDR IP: Bijvoorbeeld 192.168.0.1/25.
-   - **Url's** voor simulaties om dit mogelijk te maken: Vouw deze instelling uit en voer desgewenst specifieke URL's in die deel uitmaken van uw phishingsimulatiecampagne die niet mogen worden geblokkeerd of gedetoneerd door in het vak te klikken, een waarde in te voeren en vervolgens op Enter te drukken of de waarde te selecteren die onder het vak wordt weergegeven. U kunt maximaal tien items toevoegen.
+   - **Url's** voor simulaties om dit mogelijk te maken: Vouw deze instelling uit en voer desgewenst specifieke URL's in die deel uitmaken van uw phishingsimulatiecampagne die niet mogen worden geblokkeerd of gedetoneerd door in het vak te klikken, een waarde in te voeren en vervolgens op Enter te drukken of de waarde te selecteren die onder het vak wordt weergegeven. U kunt maximaal tien items toevoegen. Zie URL-syntaxis voor [de tenantlijst toestaan/blokkeren](/microsoft-365/security/office-365-security/tenant-allow-block-list#url-syntax-for-the-tenant-allowblock-list)voor de syntaxis van de URL.
 
    Als u een bestaande waarde wilt verwijderen, klikt u op verwijderen ![Pictogram Verwijderen](../../media/m365-cc-sc-remove-selection-icon.png) naast de waarde.
 

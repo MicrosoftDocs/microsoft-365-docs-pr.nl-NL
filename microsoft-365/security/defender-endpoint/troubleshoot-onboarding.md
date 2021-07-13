@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: b3ee2f2dcf13402e506b299935459e435fd2f89a
-ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
+ms.openlocfilehash: fa9592dccd806ad14e609df073c855170dcb2c76
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53326901"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53391445"
 ---
 # <a name="troubleshoot-microsoft-defender-for-endpoint-onboarding-issues"></a>Problemen met de onboarding van Microsoft Defender voor eindpunten oplossen
 
@@ -113,8 +113,8 @@ Foutcode Hex | Foutcode dec | Foutbeschrijving | OMA-URI | Mogelijke stappen voo
 0x87D1FDE8 | -2016281112 | Herstel is mislukt | Onboarding <br> Offboarding | **Mogelijke oorzaak:** Onboarding of offboarding is mislukt op een verkeerde blob: verkeerde handtekening of ontbrekende velden PreviousOrgIds. <br><br> **Stappen voor het oplossen van problemen:** <br> Controleer de gebeurtenis-ID's in de [onboarding-fouten van agentweergave in de sectie apparaatgebeurtenislogboek.](#view-agent-onboarding-errors-in-the-device-event-log) <br><br> Controleer de MDM-gebeurtenislogboeken in de volgende tabel of volg de instructies in [MDM-fouten diagnosticeren in Windows 10.](/windows/client-management/mdm/diagnose-mdm-failures-in-windows-10)
  | | | | Onboarding <br> Offboarding <br> SampleSharing | **Mogelijke oorzaak:** Microsoft Defender for Endpoint Policy registry key is not exist or the OMA DM client doesn't have permissions to write to it. <br><br> **Stappen voor het oplossen van problemen:** Controleer of de volgende registersleutel bestaat: `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection` <br> <br> Als deze niet bestaat, opent u een verhoogde opdracht en voegt u de sleutel toe.
  | | | | SenseIsRunning <br> OnboardingState <br> OrgId |  **Mogelijke oorzaak:** Een poging om te corrigeren met de eigenschap Alleen-lezen. Onboarding is mislukt. <br><br> **Stappen voor het oplossen van problemen:** Bekijk de stappen voor het oplossen van problemen met [onboarding op het apparaat.](#troubleshoot-onboarding-issues-on-the-device) <br><br> Controleer de MDM-gebeurtenislogboeken in de volgende tabel of volg de instructies in [MDM-fouten diagnosticeren in Windows 10.](/windows/client-management/mdm/diagnose-mdm-failures-in-windows-10)
- | | | | Alle | **Mogelijke oorzaak:** Probeer Microsoft Defender voor Eindpunt te implementeren op niet-ondersteunde SKU/Platform, met name Holografische SKU. <br><br> Momenteel ondersteunde platforms:<br> Enterprise, Education en Professional.<br> Server wordt niet ondersteund.
- 0x87D101A9 | -2016345687 |SyncML(425): De aangevraagde opdracht is mislukt omdat de afzender niet over voldoende toegangsbeheermachtigingen (ACL) voor de geadresseerde heeft. | Alle |  **Mogelijke oorzaak:** Probeer Microsoft Defender voor Eindpunt te implementeren op niet-ondersteunde SKU/Platform, met name Holografische SKU.<br><br> Momenteel ondersteunde platforms:<br>  Enterprise, Education en Professional.
+ | | | | Alles | **Mogelijke oorzaak:** Probeer Microsoft Defender voor Eindpunt te implementeren op niet-ondersteunde SKU/Platform, met name Holografische SKU. <br><br> Momenteel ondersteunde platforms:<br> Enterprise, Education en Professional.<br> Server wordt niet ondersteund.
+ 0x87D101A9 | -2016345687 |SyncML(425): De aangevraagde opdracht is mislukt omdat de afzender niet over voldoende toegangsbeheermachtigingen (ACL) voor de geadresseerde heeft. | Alles |  **Mogelijke oorzaak:** Probeer Microsoft Defender voor Eindpunt te implementeren op niet-ondersteunde SKU/Platform, met name Holografische SKU.<br><br> Momenteel ondersteunde platforms:<br>  Enterprise, Education en Professional.
 
 #### <a name="known-issues-with-non-compliance"></a>Bekende problemen met niet-naleving
 
@@ -337,8 +337,10 @@ De onderstaande stappen geven richtlijnen voor het volgende scenario:
 - Apparaat is uitgeschakeld of opnieuw gestart voordat de eindgebruiker een eerste aanmelding uitvoert
 - In dit scenario start de SENSE-service niet automatisch, ook al is onboarding-pakket geïmplementeerd
 
-<div class="alert"><b>OPMERKING:</b> Gebruiker Aanmelding na OOBE is niet meer vereist voor de SENSE-service om te beginnen met de volgende of recentere Windows-versies: Windows 10 versie 1809 of Windows Server 2019 met update-rollup van [22 april 2021](https://support.microsoft.com/kb/5001384) </br> Windows 10, versie 1909 met update-rollup van april [2021](https://support.microsoft.com/kb/5001396) </br> Windows 10, versie 2004/20H2 met [update-rollup van 28 april 2021](https://support.microsoft.com/kb/5001391) </div> 
-<br></br>
+> [!NOTE]
+> Gebruiker Aanmelding na OOBE is niet meer vereist om de SENSE-service te laten beginnen op de volgende of recentere Windows-versies: Windows 10 versie 1809 of Windows Server 2019 met update-rollup van [22 april 2021.](https://support.microsoft.com/kb/5001384) Windows 10, versie 1909 met update rollup van april [2021](https://support.microsoft.com/kb/5001396). Windows 10, versie 2004/20H2 met [update-rollup van 28 april 2021](https://support.microsoft.com/kb/5001391). 
+
+
 > [!NOTE]
 > De volgende stappen zijn alleen relevant wanneer u Microsoft Endpoint Configuration Manager. Zie Microsoft Defender voor Eindpunt voor meer informatie over onboarding Microsoft Endpoint Configuration Manager gebruik [van Microsoft Endpoint Configuration Manager.](/mem/configmgr/protect/deploy-use/windows-defender-advanced-threat-protection)
 

@@ -22,15 +22,16 @@ ms.custom:
 - seo-marvel-may2020
 - AdminSurgePortfolio
 - okr_smb
-description: Maak distributiegroepen of lijsten in het Microsoft 365 beheercentrum, zodat u e-mailberichten naar een groep kunt verzenden zonder de naam van elke geadresseerde te typen.
-ms.openlocfilehash: 845aa04e5e26beb14fca0fa3bc08c0599077b152
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+- AdminTemplateSet
+description: Maak distributiegroepen of lijsten in de Microsoft 365-beheercentrum zodat u e-mailberichten naar een groep kunt verzenden zonder de naam van elke geadresseerde te typen.
+ms.openlocfilehash: 87b3f375f5e90ec7fc97332abb801d814bf4939b
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635664"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393569"
 ---
-# <a name="create-distribution-groups-in-the-microsoft-365-admin-center"></a>Distributiegroepen maken in het Microsoft 365 beheercentrum
+# <a name="create-distribution-groups-in-the-microsoft-365-admin-center"></a>Distributiegroepen maken in de Microsoft 365-beheercentrum
   
 Gebruikt wanneer u e-mail wilt verzenden naar een groep personen zonder de naam van elke afzonderlijke geadresseerde te moeten typen, worden distributiegroepen (distributielijsten) georganiseerd door een bepaald discussieonderwerp (zoals 'Marketing') of door gebruikers die veelvoorkomende werkzaamheden delen, zodat ze regelmatig moeten communiceren. Ze bieden u ook een manier om e-mail automatisch door te sturen naar meerdere e-mailadressen.
 
@@ -70,12 +71,12 @@ Ga naar het beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=
     
 6. Zie Een gebruiker of contactpersoon toevoegen aan een distributiegroep als u gebruikers wilt toevoegen [aan uw distributielijst.](../email/add-user-or-contact-to-distribution-list.md)
     
-Bekijk hoe u groep gebruikt in Outlook 2016 en Outlook op het web in Groepen [contactpersonen gebruiken (voorheen distributielijsten) in Outlook.](https://support.microsoft.com/office/1c97fcb2-0ed4-41e6-b401-58f9d7d40e39) 
+Bekijk hoe u groep in Outlook 2016 en webversie van Outlook gebruiken in Groepen [contactpersonen gebruiken (voorheen distributielijsten) in Outlook.](https://support.microsoft.com/office/1c97fcb2-0ed4-41e6-b401-58f9d7d40e39) 
   
 Bekijk Problemen [met distributiegroepen](/office365/troubleshoot/groups/distribution-list-issues) voor hulp bij problemen met distributielijst. 
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Gebruikers-e-mailinstellingen](../email/office-365-user-email-settings.md) (artikel)\
-[Een beveiligingsgroep maken, bewerken of verwijderen in het Microsoft 365](../email/create-edit-or-delete-a-security-group.md) (artikel)\
+[Een beveiligingsgroep maken, bewerken](../email/create-edit-or-delete-a-security-group.md) of verwijderen in de Microsoft 365-beheercentrum (artikel)\
 [Een gedeeld postvak maken](../email/create-a-shared-mailbox.md) (artikel)

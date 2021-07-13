@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Beheerders kunnen ondersteuning voor gevoeligheidslabels inschakelen voor Word Excel en PowerPoint bestanden in SharePoint en OneDrive.
-ms.openlocfilehash: 67aa69ef8505290b6fde47c4e523a09870312b97
-ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
+ms.openlocfilehash: 61b6c366f76c25ab0b35df4314f63491be5ce5e6
+ms.sourcegitcommit: 022d9d91263994c48efcebe08a84319573dc3a8c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53322231"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53377227"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>Vertrouwelijkheidslabels inschakelen voor Office-bestanden in SharePoint en OneDrive
 
@@ -90,6 +90,12 @@ Gebruik de OneDrive-synchronisatie app versie 19.002.0121.0008 of hoger op Windo
     Voor etiketten met een van deze versleutelingsconfiguraties worden de etiketten niet weergegeven voor gebruikers in webversie van Office. Bovendien kunnen de nieuwe mogelijkheden niet worden gebruikt met documenten met een label die al deze versleutelingsinstellingen hebben. Deze documenten worden bijvoorbeeld niet geretourneerd in zoekresultaten, zelfs niet als ze worden bijgewerkt.
 
 - Als u een document uploadt naar SharePoint en het label van het bestand geen  versleuteling gebruikt, kan het even duren voordat de labelnaam wordt weergegeven in de kolom Gevoeligheid in de documentbibliotheek. Factor in deze vertraging als u scripts of automatisering gebruikt die afhankelijk zijn van de labelnaam in deze kolom.
+
+- Als een document is gelabeld terwijl het is uitgecheckt [in SharePoint,](https://support.microsoft.com/office/check-out-check-in-or-discard-changes-to-files-in-a-library-7e2c12a9-a874-4393-9511-1378a700f6de)wordt de labelnaam pas weergegeven in de kolom Gevoeligheid in de documentbibliotheek als het document is ingecheckt en vervolgens wordt geopend in SharePoint. 
+
+- Als een gelabeld en versleuteld document wordt gedownload van SharePoint of OneDrive door een app of service die een servicenaam gebruikt en vervolgens opnieuw wordt geüpload met een label dat verschillende versleutelingsinstellingen van toepassing is, mislukt het uploaden. Een voorbeeldscenario is Microsoft Cloud App Security een gevoeligheidslabel voor  een bestand wijzigt van Vertrouwelijk in **Zeer** vertrouwelijk, of van Vertrouwelijk **naar** **Algemeen.**
+    
+    Het uploaden mislukt niet als de app of service eerst de [cmdlet Unlock-SPOSensitivityLabelEncryptedFile](/powershell/module/sharepoint-online/unlock-sposensitivitylabelencryptedFile) voert, zoals wordt uitgelegd in de sectie Versleuteling verwijderen voor een gelabeld [document.](#remove-encryption-for-a-labeled-document) Of voordat u het uploadt, wordt het oorspronkelijke bestand verwijderd of wordt de bestandsnaam gewijzigd.
 
 - Gebruikers kunnen vertragingen ervaren bij het openen van versleutelde documenten in het volgende scenario Opslaan als: Met een bureaubladversie van Office kiest een gebruiker Opslaan als voor een document met een gevoeligheidslabel waarin versleuteling wordt toegepast. De gebruiker selecteert SharePoint of OneDrive voor de locatie en probeert dat document vervolgens onmiddellijk te openen in webversie van Office. Als de service de versleuteling nog steeds verwerkt, ziet de gebruiker een bericht dat het document moet worden geopend in de bureaublad-app. Als ze het binnen een paar minuten opnieuw proberen, wordt het document geopend in webversie van Office.
 

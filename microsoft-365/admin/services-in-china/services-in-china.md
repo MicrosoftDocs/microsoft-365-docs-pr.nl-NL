@@ -14,7 +14,9 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - SPO_Content
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - MET150
 - GEU150
@@ -22,12 +24,12 @@ search.appverid:
 ms.assetid: a8ab5061-3346-4da0-bb7c-5260822b53ae
 description: Meer informatie over Office 365 beheerd door 21Vianet dat is ontworpen om te voldoen aan de behoeften voor veilige, betrouwbare en schaalbare cloudservices in China.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 75bf7c7a4d7e453fa2be711c7332878b8a8f1150
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: c8d43c385f44434e9ed4832a094ea4909bf505a4
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52924717"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393605"
 ---
 # <a name="office-365-operated-by-21vianet"></a>Office 365, beheerd door 21Vianet
 
@@ -142,7 +144,7 @@ Voor organisaties met oudere of gemengde versies van Exchange Server worden somm
  Daarnaast worden sommige Exchange- en compliancefuncties niet volledig ondersteund in hybride implementaties met Office 365 tenants die worden gehost door 21Vianet. Deze functies zijn:
 
 - [Messaging Records Management (MRM)](/exchange/security-and-compliance/messaging-records-management/messaging-records-management) 
-- [In-place eDiscovery](/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery) 
+- [In-Place eDiscovery](/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery) 
 - [In-Place Hold](/exchange/security-and-compliance/in-place-and-litigation-holds) 
 - [Archiveren op de plaats](/exchange/in-place-archiving-in-exchange-2013-exchange-2013-help)
 - [Postvakcontrole](/exchange/security-and-compliance/exchange-auditing-reports/exchange-auditing-reports)
@@ -150,7 +152,7 @@ Voor organisaties met oudere of gemengde versies van Exchange Server worden somm
 
 Gebruik de volgende tabel voor meer informatie over functieondersteuning in verschillende Exchange implementatiescenario's: 
 
-|**On-Premises Exchange versie**|**MRM (gesplitst archief)**|**OWA-toegang (gesplitst archief)**|**In-place eDiscovery**|**Postvakcontrole**|**In-Place Hold/Archiving**|
+|**On-Premises Exchange versie**|**MRM (gesplitst archief)**|**OWA-toegang (gesplitst archief)**|**In-Place eDiscovery**|**Postvakcontrole**|**In-Place Hold/Archiving**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 | Alle 2013 CU5  <br/> | Ondersteund <br/>  | Niet ondersteund <br/>  | Ondersteund <br/>  | Ondersteund  <br/> | Ondersteund <br/> |
 | Alle SP3 2010 <br/>  | Niet ondersteund <br/>  | Niet ondersteund <br/>  | Ondersteund<sup>1</sup> <br/> | Ondersteund  <br/> | Ondersteund <br/>  |

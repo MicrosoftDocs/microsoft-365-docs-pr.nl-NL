@@ -19,18 +19,19 @@ ms.custom:
 - OKR_SMB_M365
 - seo-marvel-mar
 - AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
 description: Informatie over het gebruik Windows AutoPilot om nieuwe Windows 10 voor uw bedrijf in te stellen, zodat ze klaar zijn voor gebruik door werknemers.
-ms.openlocfilehash: e178e7df220e89605502d9ed400265bcd963e57e
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: f160ddcd1e41bd44c908ecc8bbd30a9819f76902
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636101"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393434"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>De stapsgewijze handleiding gebruiken om Autopilot-apparaten en -profielen toe te voegen
 
@@ -93,7 +94,7 @@ Als u nog geen apparaatgroepen of -profielen hebt gemaakt, kunt u het beste aan 
     
 6. **U bent klaar, geeft** aan dat het profiel dat u hebt gemaakt (of gekozen) wordt toegepast op de apparaatgroep die u hebt gemaakt door de lijst met apparaten te uploaden. De instellingen zijn van kracht wanneer de gebruikers van het apparaat zich volgende aanmelden. Kies **Sluiten**.
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Instellingen voor AutoPilot-profiel](autopilot-profile-settings.md) (artikel)\
 [Opties voor het beveiligen van uw apparaten en app-gegevens](../admin/devices/choose-device-security.md) (artikel)

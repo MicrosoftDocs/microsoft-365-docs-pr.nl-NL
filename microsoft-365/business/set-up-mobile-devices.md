@@ -26,12 +26,12 @@ search.appverid:
 - MET150
 ms.assetid: d868561b-d340-4c04-a973-e2575d7f09bc
 description: Installeer Office op een iPhone of een Android-telefoon en uw werkbestanden in Office apps worden beveiligd door Microsoft 365 voor bedrijven.
-ms.openlocfilehash: 7b411b6ae1223963b8583e1e3cd0ee00e13ff958
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 477f0ee63b045ca8fd6d3cfc3023f4122661a3b6
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244791"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393394"
 ---
 # <a name="set-up-mobile-devices-for-microsoft-365-for-business-users"></a>Mobiele apparaten instellen voor Microsoft 365 voor zakelijke gebruikers
 
@@ -47,7 +47,7 @@ Bekijk een korte video over het instellen van Office apps op iOS-apparaten met M
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWee2n] 
 
-Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../business-video/index.yml).
+Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../business-video/index.yml).
 
 Ga naar **App store** en typ in het zoekveld Microsoft Outlook.
   
@@ -79,7 +79,7 @@ Bekijk een video over het installeren van Outlook en Office op Android-apparaten
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/ecc2e9c0-bc7e-4f26-8b14-91d84dbcfef0] 
 
-Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../business-video/index.yml).
+Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../business-video/index.yml).
 
 Als u wilt beginnen met instellen op uw Android-telefoon, gaat u naar de Play Store.
   
@@ -105,7 +105,7 @@ Open Outlook opnieuw en voer een pincode in en bevestig deze. Uw Outlook-app is 
   
 ![Set  PIN for Outlook app in Android](../media/edb91afb-f1ed-451a-bc6b-8ccba664e055.png)
 
-## <a name="see-also"></a>Zie ook
+## <a name="related-content"></a>Verwante inhoud
 
 [Trainingsvideo's voor Microsoft 365 voor bedrijven](../business-video/index.yml)
 

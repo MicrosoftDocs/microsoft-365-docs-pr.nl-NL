@@ -19,18 +19,19 @@ ms.custom:
 - seo-marvel-may2020
 - AdminSurgePortfolio
 - okr_smb
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 2d75860f-c527-4352-a7f6-73eba54c0c72
 description: Beheer e-mailhandtekeningen, inclusief juridische vrijwaringen of openbaarmakingsverklaringen voor alle e-mailberichten die uw organisatie binnenkomen of verlaten.
-ms.openlocfilehash: f72d522c7dc592a7f719d716e22ecf726d00a6de
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: ba96d0d5782fc675a044980db0a0ac1d4ce6caaf
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635652"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393557"
 ---
 # <a name="create-organization-wide-signatures-and-disclaimers"></a>Handtekeningen en vrijwaringen voor de hele organisatie maken
 
@@ -40,7 +41,7 @@ ms.locfileid: "52635652"
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1IEWf] 
 
-Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../../business-video/index.yml).
+Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../../business-video/index.yml).
 
 ## <a name="create-a-signature-that-applies-to-all-messages"></a>Een handtekening maken die van toepassing is op alle berichten
 
@@ -117,7 +118,7 @@ Gebruik een hulpprogramma van derden om deze en andere mogelijkheden te verkrijg
 
 Zie Bericht [disclaimers, handtekeningen, voetteksten](/exchange/security-and-compliance/mail-flow-rules/disclaimers-signatures-footers-or-headers)of kopteksten voor de hele organisatie in Exchange Online.
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [E-mail en contactpersonen](migrate-email-and-contacts-admin.md) migreren naar Microsoft 365 (video)\
 [Gebruikers-e-mailinstellingen](../email/office-365-user-email-settings.md) (artikel)\

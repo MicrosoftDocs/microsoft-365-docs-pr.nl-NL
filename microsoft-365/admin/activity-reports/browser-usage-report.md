@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - GEA150
 description: Meer informatie over het downloaden van een Microsoft-browsergebruiksrapport met behulp van Microsoft 365 dashboard Rapporten in de Microsoft 365-beheercentrum.
-ms.openlocfilehash: f2d8d8347e7b71375958c56f6649fbb911155d46
-ms.sourcegitcommit: b42dd3e706ebf9638cd893b35f75eaa56dd8fd7e
+ms.openlocfilehash: 2f6f287e5a8642d94c9581fc73525b7bfaafb41b
+ms.sourcegitcommit: 022d9d91263994c48efcebe08a84319573dc3a8c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53125409"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53377203"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-browser-usage"></a>Microsoft 365 Rapporten in het beheercentrum - Browsergebruik van Microsoft
 
@@ -36,16 +36,6 @@ In Microsoft 365 **dashboard Rapporten** ziet u een overzicht van activiteiten v
 
 1. Ga in het beheercentrum naar de pagina **Rapporten** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Gebruik</a>. 
 2. Klik op de startpagina van het dashboard op **de knop Meer** weergeven op de microsoft-browsergebruikskaart.
-
-## <a name="how-to-notify-users-to-upgrade-their-browser"></a>Gebruikers op de hoogte stellen van een upgrade van hun browser
-
-![Actiestroom microsoft browsergebruiksrapport](../../media/1ef4eb08-18b8-4dda-aa15-1aad013ecd70.png)
-
-Globale beheerders kunnen zich ervoor kiezen om berichten te verzenden naar gebruikers die gebruikmaken van Microsoft 365-services op Edge Legacy (niet ondersteund) en Internet Explorer (binnenkort niet meer ondersteund). Dit gerichte bericht meldt gebruikers dat de ondersteuning voor deze browsers binnenkort wordt beëindigen en het wordt naar een ondersteuningsartikel met informatie over Microsoft Edge en eenvoudige stappen die u moet volgen om van browser te wisselen. 
-
-U vindt deze functie op de rapportpagina. Wanneer het bericht is gemaakt, worden gebruikers op de hoogte gesteld met de opgegeven frequentie tot 17 augustus 2021. U kunt deze functie op elk moment uitschakelen om te stoppen met het verzenden van meldingen naar gebruikers. Als u wilt beginnen met het opnieuw verzenden van meldingen, zet u de functie weer in.
-
-Zie voor meer informatie [Microsoft Edge help & leren.](https://support.microsoft.com/microsoft-edge)
 
 ## <a name="interpret-the-microsoft-browser-usage-report"></a>Het browsergebruiksrapport van Microsoft interpreteren
 

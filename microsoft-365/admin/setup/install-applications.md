@@ -21,13 +21,14 @@ ms.custom:
 - seo-marvel-may2020
 - AdminSurgePortfolio
 - okr_smb
+- AdminTemplateSet
 description: Nu u een Microsoft 365 hebt ingesteld, leert u hoe u afzonderlijke Office op uw Mac, pc of mobiele apparaten installeert.
-ms.openlocfilehash: 47f6a04e8fe42f03de0cd2008f15fd1f6f5617f3
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: dc32009bd42027890457bee97e19cdd94f49c6b7
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593815"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393521"
 ---
 # <a name="install-office-applications"></a>Office-toepassingen installeren
 
@@ -47,10 +48,10 @@ Volg deze koppelingen voor informatie over hoe u:
 
 ::: moniker range="o365-21vianet"
 
-Als u Azure Active Directory Premium (AADP) Abonnement 1 of Abonnement 2 hebt gekocht, komt u in aanmerking voor Microsoft Identity Manager (MIM). Als u MIM wilt downloaden, gaat u naar [het Downloadcentrum.](https://www.microsoft.com/zh-cn/download/details.aspx?id=58498)
+Als u Azure Active Directory Premium (AADP) Plan 1 of Plan 2 hebt gekocht, komt u in aanmerking voor Microsoft Identity Manager (MIM). Als u MIM wilt downloaden, gaat u naar [het Downloadcentrum.](https://www.microsoft.com/zh-cn/download/details.aspx?id=58498)
 
 ::: moniker-end
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
   
 [Problemen met het installeren Office en Microsoft 365](https://support.microsoft.com/office/35ff2def-e0b2-4dac-9784-4cf212c1f6c2) (artikel)

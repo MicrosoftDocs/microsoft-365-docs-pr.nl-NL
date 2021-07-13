@@ -1,5 +1,5 @@
 ---
-title: Meervoudige verificatie instellen voor Microsoft 365
+title: Meervoudige verificatie voor Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -16,6 +16,7 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - okr_smb
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
@@ -23,18 +24,18 @@ search.appverid:
 ms.assetid: 043807b2-21db-4d5c-b430-c8a6dee0e6ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: MFA (Multi-Factor Authentication) gebruikt zowel een wachtwoord, dat sterk moet zijn, als een extra verificatiemethode.
-ms.openlocfilehash: d9af486cf5e53609557b519612f185a20729cf76
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 9b3347f1a8e7b1f62c9bbfe77a7f14c221ef28b5
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52924729"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393641"
 ---
-# <a name="multi-factor-authentication-for-microsoft-365"></a>Meervoudige verificatie instellen voor Microsoft 365
+# <a name="multifactor-authentication-for-microsoft-365"></a>Meervoudige verificatie voor Microsoft 365
 
 Wachtwoorden zijn de meest voorkomende methode om een aanmelding bij een computer of een online service te verifiëren, maar deze zijn ook het meest kwetsbaar. Mensen kunnen eenvoudige wachtwoorden kiezen en dezelfde wachtwoorden gebruiken voor meerdere aanmeldingen bij verschillende computers en services.
 
-Om een extra beveiligingsniveau voor aanmeldingen te bieden, moet u meervoudige verificatie (MFA) gebruiken, dat zowel een wachtwoord gebruikt dat sterk moet zijn, als een aanvullende verificatiemethode op basis van:
+Als u een extra beveiligingsniveau wilt bieden voor aanmeldingen, moet u meervoudige verificatie (MFA) gebruiken, waarbij zowel een wachtwoord wordt gebruikt, dat sterk moet zijn, als een extra verificatiemethode op basis van:
 
 - Iets wat men bij zich heeft dat niet makkelijk te dupliceren is, zoals een smartphone.
 - Iets wat u uniek en biologisch heeft, zoals uw vingerafdrukken, gezicht of ander biometrisch kenmerk.
@@ -174,7 +175,7 @@ In het Microsoft 365-beheercentrum kunt u MFA-instellingen per gebruiker en serv
 
 [MFA instellen voor Microsoft 365](set-up-multi-factor-authentication.md)
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
-[Video: Meervoudige verificatie inschakelen](../../business-video/turn-on-mfa.md) (video)\
-[Video: Meervoudige verificatie inschakelen voor uw telefoon](../../business-video/set-up-mfa.md) (video)
+[Meervoudige verificatie](../../business-video/turn-on-mfa.md) (video)\ inschakelen
+[Meervoudige verificatie voor uw telefoon inschakelen](../../business-video/set-up-mfa.md) (video)

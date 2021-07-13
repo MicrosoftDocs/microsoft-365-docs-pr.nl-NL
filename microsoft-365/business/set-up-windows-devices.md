@@ -22,17 +22,18 @@ ms.custom:
 - seo-marvel-mar
 - AdminSurgePortfolio
 - okr_smb
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
 description: Stel Windows apparaten in met Windows 10 Pro voor Microsoft 365 Business Premium gebruikers, zodat gecentraliseerde beheer- en beveiligingsbesturingselementen worden inschakelen.
-ms.openlocfilehash: 7a9c75f6ec14605225d40c103c18e62937e773bf
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: a911414b1a7abef259f4c5fffbdd48e07f9ebfdd
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635869"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393354"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-premium-users"></a>Apparaten Windows instellen voor Microsoft 365 Business Premium gebruikers
 
@@ -46,11 +47,11 @@ Volg de stappen in dit onderwerp voor meer informatie over het voor Windows-appa
   
 Zie [Controleren of het apparaat is verbonden met Azure AD](#verify-the-device-is-connected-to-azure-ad) om te controleren of u de upgrade hebt uitgevoerd of om te controleren of de upgrade heeft gewerkt.
 
-## <a name="watch-connect-your-pc-to-microsoft-365-business"></a>Kijken: Verbinding maken uw pc naar Microsoft 365 Business
+## <a name="watch-connect-your-pc-to-microsoft-365-business"></a>Kijken: Verbinding maken pc naar Microsoft 365 Business
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3yXh3] 
 
-Als u deze video nuttig vond, raadpleegt u dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../business-video/index.yml).
+Als je deze video nuttig vond, raadpleeg dan de [complete reeks trainingen voor kleine bedrijven en nieuwe gebruikers van Microsoft 365](../business-video/index.yml).
   
 ## <a name="join-windows-10-devices-to-your-organizations-azure-ad"></a>Windows 10-apparaten koppelen aan Azure AD van uw organisatie
 
@@ -128,6 +129,6 @@ Controleer of uw Azure AD-apparaten Windows 10 worden geüpgraded naar Windows 1
 
 Als u uw mobiele apparaten wilt instellen, zie Mobiele apparaten instellen voor Microsoft 365 Business Premium gebruikers , Zie Beheer Microsoft 365 voor bedrijven als u apparaatbeveiligings- [of](set-up-mobile-devices.md) [app-beveiligingsbeleid wilt instellen.](manage.md)
   
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
-[Microsoft 365 voor zakelijke trainingsvideo's](../business-video/index.yml) (koppelingspagina)
+[Trainingsvideo's voor Microsoft 365 voor bedrijven](../business-video/index.yml) (koppelingspagina)

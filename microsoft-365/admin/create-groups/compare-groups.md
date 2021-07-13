@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 758759ad-63ee-4ea9-90a3-39f941897b7d
 description: Leden van een Microsoft 365-groep ontvangen een groeps e-mail en een gedeelde werkruimte voor gesprekken, bestanden, agenda-items, Stream en Planner.
-ms.openlocfilehash: 038c4b9f6d9d28e62c0fb9b8f117db96ac42ddfb
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: 37bead3ab878aac087c5ec16016dc2c8ddce410c
+ms.sourcegitcommit: 022d9d91263994c48efcebe08a84319573dc3a8c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52903838"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53377179"
 ---
 # <a name="compare-groups"></a>Groepen vergelijken
 
@@ -61,6 +61,8 @@ Distributiegroepen kunnen worden [bijgewerkt naar Microsoft 365-groepen](../mana
 
 Distributiegroepen kunnen worden toegevoegd aan een team in Microsoft Teams.
 
+Microsoft 365-groepen kunnen geen lid zijn van distributiegroepen.
+
 ## <a name="security-groups"></a>Beveiligingsgroepen
 
 [Beveiligingsgroepen](../email/create-edit-or-delete-a-security-group.md) worden gebruikt voor het verlenen van toegang tot Microsoft 365-bronnen, zoals SharePoint. Deze groepen kunnen het beheer vereenvoudigen, omdat u alleen de groep hoeft te beheren in plaats van afzonderlijke gebruikers aan afzonderlijke bronnen toe te voegen.
@@ -70,6 +72,8 @@ Beveiligingsgroepen kunnen gebruikers en apparaten bevatten. Het maken van een b
 Beveiligingsgroepen kunnen worden [geconfigureerd voor dynamisch lidmaatschap van Azure Active Directory](/azure/active-directory/users-groups-roles/groups-change-type), zodat groepsleden of apparaten automatisch kunnen worden toegevoegd of verwijderd op basis van gebruikerskenmerken zoals afdeling, locatie of titel of apparaatkenmerken zoals de versie van het besturingssystem.
 
 Beveiligingsgroepen kunnen worden toegevoegd aan een team.
+
+Microsoft 365-groepen kunnen geen lid zijn van beveiligingsgroepen.
 
 ## <a name="mail-enabled-security-groups"></a>Beveiligingsgroepen met e-mail
 

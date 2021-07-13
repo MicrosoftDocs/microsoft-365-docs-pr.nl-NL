@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Gebruik bewaarbeleid om de inhoud die gebruikers genereren met e-mail, documenten en gesprekken efficiënt te beheren. Behoud wat u wilt en verwijder wat u niet wilt.
-ms.openlocfilehash: a9b348d51f147d5f228e6dbb643b7bedd2eb8c8e
-ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
+ms.openlocfilehash: 97b90cc84e2b14e5c63779ea8b941a5ffe64bcd7
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53256529"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362328"
 ---
 # <a name="create-and-configure-retention-policies"></a>Bewaarbeleid maken en configureren
 
@@ -75,7 +75,7 @@ Zie [De principes van bewaren of wat heeft prioriteit?](retention.md#the-princip
     - **Teamchats**: berichten van privé 1:1-chats, groepschats en vergaderingchats.
     - **Teams privékanaalberichten**: berichten van privékanaalchats en privékanaalvergaderingen. Deze optie wordt momenteel uitgerold in preview en als u deze niet ziet verschijnen, probeer het dan over een paar dagen opnieuw.
     
-   Standaard [worden alle teams en alle gebruikers geselecteerd](#a-policy-that-applies-to-entire-locations), maar u kunt dit verfijnen door de opties [ **Kiezen** en **Uitsluiten** te selecteren](#a-policy-with-specific-inclusions-or-exclusions). Voordat u de standaard wijzigt, moet u echter rekening houden met de volgende gevolgen voor een bewaarbeleid waarin berichten worden verwijderd wanneer deze zijn geconfigureerd voor omvat of uitgesloten:
+   Standaard worden [alle teams en alle gebruikers geselecteerd](#a-policy-that-applies-to-entire-locations), maar u kunt dit verfijnen door de opties van **Bewerken** te selecteren om een bewaarbeleid te configureren voor [specifieke insluitingen of uitsluitingen](#a-policy-with-specific-inclusions-or-exclusions). Voordat u de standaard wijzigt, moet u echter rekening houden met de volgende gevolgen voor een bewaarbeleid waarin berichten worden verwijderd wanneer deze zijn geconfigureerd voor omvat of uitgesloten:
     
     - Voor groepschatberichten en privékanaalberichten, omdat een kopie van berichten wordt opgeslagen in het postvak van elke gebruiker die is opgenomen in de chat, blijven er kopieën van berichten worden geretourneerd in eDiscovery-resultaten van gebruikers aan wie het beleid niet is toegewezen.
     - Voor gebruikers aan wie het beleid niet is toegewezen, worden verwijderde berichten geretourneerd in de zoekresultaten van Teams, maar wordt de inhoud van het bericht niet weergegeven als gevolg van de permanente verwijdering van het beleid dat is toegewezen aan gebruikers.
@@ -94,9 +94,9 @@ Zie [Meer informatie over bewaren voor Microsoft Teams](retention-policies-teams
 
 - Hoewel u de optie kunt selecteren om de bewaarperiode te starten wanneer items voor het laatst zijn gewijzigd, wordt altijd de waarde van **Wanneer items zijn gemaakt** gebruikt. Voor berichten die zijn bewerkt wordt een kopie van het oorspronkelijke bericht opgeslagen met het oorspronkelijke tijdstempel om vast te stellen wanneer dit bericht is gemaakt vóór de bewerking en het bericht na de bewerking krijgt een nieuwer tijdstempel.
 
-- Wanneer u **Teams kiezen** selecteert voor de locatie **Teams-kanaalberichten** ziet u mogelijk Microsoft 365-groepen die geen teams zijn. Selecteer deze groepen niet.
+- Wanneer u **Bewerken** selecteert voor de locatie **Teams-kanaalberichten**, ziet u mogelijk Microsoft 365-groepen die geen teams zijn. Selecteer deze groepen niet.
 
-- Wanneer u de locatie **Gebruikers kiezen voor de Teams-chats** ziet u mogelijk gasten en niet-postvakgebruikers. Bewaarbeleid is niet ontworpen voor deze gebruikers, selecteer ze daarom ook niet.
+- Wanneer u **Bewerken** selecteert voor de locatie Teams-chats, ziet u mogelijk gasten en niet-postvakgebruikers. Bewaarbeleid is niet ontworpen voor deze gebruikers, selecteer ze daarom ook niet.
 
 
 #### <a name="additional-retention-policy-needed-to-support-teams"></a>Aanvullend bewaarbeleid dat nodig is om Teams te ondersteunen
@@ -125,17 +125,22 @@ Het is mogelijk dat bewaarbeleid dat wordt toegepast op Microsoft 365-groepen, S
 
 2. Selecteer **Nieuw bewaarbeleid** om nieuw bewaarbeleid te maken.
 
-3. Voor de pagina **Beslissen of uw inhoud wilt bewaren, verwijderen of beide** van de wizard, specificeert u de configuratieopties voor het bewaren en verwijderen van inhoud. 
+3. Schakel voor de pagina **Locaties kiezen om het beleid toe te passen** een of beide locaties voor Yammer in: **Berichten in de Yammer-community** en **Gebruikersberichten in Yammer**.
     
-    U kunt bewaarbeleid maken dat alleen inhoud bewaart zonder te verwijderen, bewaart en vervolgens na een opgegeven periode verwijdert of alleen verwijdert na een opgegeven periode. Zie [Instellingen voor bewaren en verwijderen van inhoud](#settings-for-retaining-and-deleting-content) op deze pagina voor meer informatie.
-
-4. Selecteer voor de pagina **Locaties kiezen**, **Ik wil specifieke locaties kiezen**. Schakel vervolgens een of beide locaties voor Yammer in: **Berichten in de Yammer-community** en **Gebruikersberichten in Yammer**.
+    > [!IMPORTANT]
+    > Hoewel u een bewaarbeleid kunt maken voor alleen Yammer-gebruikersberichten, kan een bewaarbeleid voor deze locatie communityberichten verwijderen uit de Yammer-app voor alle communityleden.
+    > 
+    > Als u deze optie kiest en het bewaarbeleid wordt geconfigureerd om gebruikersberichten te verwijderen, zorg er dan voor dat u deze implicatie begrijpt. Zie [Hoe retentie werkt voor Yammer](retention-policies-yammer.md#how-retention-works-with-yammer) voor meer informatie.
     
     Standaard worden alle community's en gebruikers geselecteerd, maar u kunt dit verfijnen door specifieke community's en gebruikers op te geven die moeten worden opgenomen of uitgesloten.
     
     Voor gebruikersberichten in Yammer: 
     - Als u de standaard op **Alle** laat staan, worden Azure B2B-gasten niet opgenomen. 
-    - Als u **Gebruiker selecteren** selecteert, kunt u bewaarbeleid toepassen op externe gebruikers als u hun account kent.
+    - Als u **Bewerken** selecteert voor de kolom **Opgenomen**, kunt u bewaarbeleid toepassen op externe gebruikers als u hun account kent.
+
+4. Voor de pagina **Beslissen of uw inhoud wilt bewaren, verwijderen of beide** van de wizard, specificeert u de configuratieopties voor het bewaren en verwijderen van inhoud. 
+    
+    U kunt bewaarbeleid maken dat alleen inhoud bewaart zonder te verwijderen, bewaart en vervolgens na een opgegeven periode verwijdert of alleen verwijdert na een opgegeven periode. Zie [Instellingen voor bewaren en verwijderen van inhoud](#settings-for-retaining-and-deleting-content) op deze pagina voor meer informatie.
 
 5. Voltooi de wizard om uw instellingen op te slaan.
 
@@ -167,7 +172,7 @@ Gebruik de volgende instructies voor bewaarbeleid dat van toepassing is op een v
 
 2. Selecteer **Nieuw bewaarbeleid** om de wizard Bewaarbeleid maken te starten en geef uw nieuwe bewaarbeleid een naam.
 
-3. Schakel voor de pagina **Locaties kiezen** de locaties in of uit, behalve de locaties voor Teams. U kunt voor elke locatie de standaard [beleid toepassen op de volledige locatie](#a-policy-that-applies-to-entire-locations) laten staan of [opnames en uitsluitingen opgeven](#a-policy-with-specific-inclusions-or-exclusions).
+3. Schakel voor de pagina **Locaties kiezen om het beleid toe te passen** de locaties in of uit, behalve de locaties voor Teams. U kunt voor elke locatie de standaard [beleid toepassen op de volledige locatie](#a-policy-that-applies-to-entire-locations) laten staan of [opnames en uitsluitingen opgeven](#a-policy-with-specific-inclusions-or-exclusions).
 
     Informatie specifiek voor locaties:
     - [Exchange-e-mail en openbare Exchange-mappen](#configuration-information-for-exchange-email-and-exchange-public-folders)

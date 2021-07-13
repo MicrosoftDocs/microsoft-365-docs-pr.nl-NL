@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Lees meer over retentiebeleid dat van toepassing is op Yammer.
-ms.openlocfilehash: d4988eee419a38497d4fa35cdb3e2f7fec103688
-ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
+ms.openlocfilehash: 1398bf385631967d92de760924ef94e2b3c16441
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53052925"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362292"
 ---
 # <a name="learn-about-retention-for-yammer"></a>Meer informatie over retentie voor Yammer
 
@@ -39,17 +39,28 @@ Zie voor andere workloads:
 - [Meer informatie over retentie voor Microsoft Teams](retention-policies-teams.md)
 - [Meer informatie over retentie voor Exchange](retention-policies-exchange.md)
 
-## <a name="whats-included-for-retention-and-deletion"></a>Wat is inbegrepen voor retentie en verwijdering?
+## <a name="whats-included-for-retention-and-deletion"></a>Wat is inbegrepen voor retentie en verwijdering
 
-De volgende Yammer-items kunnen worden bewaard en verwijderd via bewaarbeleid voor Yammer: communityberichten en privéberichten.
+De volgende Yammer-items kunnen worden bewaard en verwijderd via bewaarbeleid voor Yammer: communityberichten en gebruikersberichten.
 
 Reacties van anderen in de vorm van emoticons worden niet opgenomen in deze berichten.
 
 ## <a name="how-retention-works-with-yammer"></a>Hoe retentie werkt voor Yammer
 
-U kunt een bewaarbeleid gebruiken om communityberichten en privéberichten in Yammer te behouden en te verwijderen. Privéberichten worden opgeslagen in een verborgen map in het postvak van elke gebruiker in het bericht en communityberichten worden opgeslagen in een soortgelijke verborgen map in het groepspostvak voor de community.
+Gebruik deze sectie als u wilt weten hoe aan uw nalevingsvereisten wordt voldaan door back-endopslag en -processen. Dit moet worden gecontroleerd met behulp van eDiscovery-hulpprogramma's in plaats van aan de hand van berichten die momenteel zichtbaar zijn in de Yammer-app.
 
-Yammer-berichten worden niet beïnvloed door bewaarbeleid dat is geconfigureerd voor postvakken van gebruikers of groepen. Hoewel Yammer-berichten zijn opgeslagen in Exchange, worden deze Yammer-gegevens alleen opgenomen door een bewaarbeleid dat is geconfigureerd voor de **Yammer-communityberichten** en **Yammer-gebruikersberichten** en locaties.
+U kunt een bewaarbeleid gebruiken om gegevens uit communityberichten en gebruikersberichten in Yammer te behouden en deze berichten te verwijderen. Achter de schermen worden Exchange-postvakken gebruikt om gegevens op te slaan die uit deze berichten zijn gekopieerd. Gegevens uit Yammer-gebruikersberichten worden opgeslagen in een verborgen map in het postvak van elke gebruiker die in het gebruikersbericht is opgenomen. Een soortgelijke verborgen map in een groepspostvak wordt gebruikt voor communityberichten.
+
+Kopieën van communityberichten kunnen ook worden opgeslagen in de verborgen map van postvakken van gebruikers wanneer ze gebruikers @vermelden of de gebruiker op de hoogte stellen van een antwoord. Hoewel deze berichten oorspronkelijk een communitybericht zijn, bevat een bewaarbeleid voor Yammer-gebruikersberichten vaak kopieën van communityberichten.
+
+Deze verborgen mappen zijn niet ontworpen om rechtstreeks toegankelijk te zijn voor gebruikers of beheerders, maar slaan in plaats daarvan gegevens op die beheerders met eDiscovery-hulpprogramma's kunnen zoeken.
+
+> [!IMPORTANT]
+> Omdat kopieën van communityberichten ook kunnen worden opgeslagen in postvakken van gebruikers, kan een bewaarbeleid met een verwijderactie voor Yammer-gebruikersberichten ertoe leiden dat het oorspronkelijke communitybericht niet meer zichtbaar is voor gebruikers in de Yammer-app.
+> 
+> Een kopie van het oorspronkelijke bericht is echter nog steeds beschikbaar in de verborgen map van het postvak van de communitygroep en toegankelijk met eDiscovery-zoekopdrachten voor nalevingsdoeleinden.
+
+Yammer-berichten worden niet beïnvloed door bewaarbeleid dat is geconfigureerd voor Exchange-postvakken. Hoewel Yammer-berichten zijn opgeslagen in Exchange, worden deze Yammer-gegevens alleen opgenomen door een bewaarbeleid dat is geconfigureerd voor de **Yammer-communityberichten** en **Yammer-gebruikersberichten** en locaties.
 
 > [!NOTE]
 > Als een gebruiker is opgenomen in een actief bewaarbeleid waarin Yammer-gegevens worden bewaard en u een postvak verwijdert van een gebruiker die in dit beleid is opgenomen, wordt het postvak omgezet naar een [inactief postvak](inactive-mailboxes-in-office-365.md) om de gegevens in Teams te behouden. Als u deze Yammer-gegevens voor de gebruiker niet wilt bewaren, moet u het gebruikersaccount uitsluiten van het bewaarbeleid voordat u het postvak van de gebruiker verwijdert.
@@ -91,7 +102,7 @@ Als het bewaarbeleid is ingesteld op alleen bewaren of alleen verwijderen, is de
 
 ## <a name="messages-and-external-users"></a>Berichtenn en externe gebruikers
 
-Standaard is een bewaarbeleid voor gebruikersberichten van Yammer van toepassing op alle gebruikers in uw organisatie, maar niet op externe gebruikers. U kunteen bewaarbeleid toepassen op externe gebruikers als u de functie **Gebruiker kiezen** gebruikt en hun account opgeeft. 
+Standaard is een bewaarbeleid voor gebruikersberichten van Yammer van toepassing op alle gebruikers in uw organisatie, maar niet op externe gebruikers. U kunt een bewaarbeleid toepassen op externe gebruikers als u de optie **Bewerken** gebruikt voor opgenomen gebruikers en hun account opgeeft.
 
 Op dit moment worden gastgebruikers van Azure B2B niet ondersteund.
 
@@ -103,9 +114,9 @@ Raadpleeg de [equivalente sectie](retention-policies-sharepoint.md#when-a-user-l
 
 ## <a name="limitations"></a>Beperkingen
 
-Bewaarbeleid van Yammer is momenteel preview en we werken voortdurend aan het optimaliseren van functionaliteit voor bewaarbeleid. Houd u in de tussentijd rekening met de volgende beperking wanneer u bewaarbeleid gebruikt voor berichten en privéberichten in de Yammer-community:
+Bewaarbeleid van Yammer is momenteel preview en we werken voortdurend aan het optimaliseren van functionaliteit voor bewaarbeleid. Houd in de tussentijd rekening met de volgende beperking wanneer u bewaarbeleid gebruikt voor communityberichten en gebruikersberichten in Yammer:
 
-- Wanneer u **Gebruikers kiezen** selecteert voor de locatie **Yammer-gebruikersberichten** krijgt u mogelijk gasten en niet-postvakgebruikers te zien. Bewaarbeleid is niet ontworpen voor deze gebruikers, selecteer ze daarom ook niet.
+- Wanneer u **Bewerken** selecteert voor de locatie **Yammer-gebruikersberichten**, ziet u mogelijk gasten en niet-postvakgebruikers. Bewaarbeleid is niet ontworpen voor deze gebruikers, selecteer ze daarom ook niet.
 
 ## <a name="configuration-guidance"></a>Configuratierichtlijnen
 

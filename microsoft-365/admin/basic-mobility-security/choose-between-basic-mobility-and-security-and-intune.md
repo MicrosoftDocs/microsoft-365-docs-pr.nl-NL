@@ -15,15 +15,16 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - MET150
 description: Basismobiliteit en beveiliging maken deel uit van de Microsoft 365 abonnementen.
-ms.openlocfilehash: 869968fa46e09fbc7a983957a83a9ad308c9f40c
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 3404d2aeecd047fecec573bf1d60407ad3659efe
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53228265"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393293"
 ---
 # <a name="choose-between-basic-mobility-and-security-or-intune"></a>Kiezen tussen Basismobiliteit en Beveiliging of Intune
 
@@ -33,7 +34,7 @@ ms.locfileid: "53228265"
 
 Zowel Basismobiliteit als Beveiliging en Intune zijn opgenomen in verschillende abonnementen, die in de volgende tabel worden beschreven.
 
-| Plan | Basic Mobility en Security | Microsoft Intune |
+| Abonnement | Basic Mobility en Security | Microsoft Intune |
 |:-----|:-----|:-----|
 |Microsoft 365-apps|Ja|Nee|
 |Microsoft 365 Business Basic|Ja|Nee|

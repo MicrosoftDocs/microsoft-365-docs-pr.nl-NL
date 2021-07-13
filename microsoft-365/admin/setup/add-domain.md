@@ -20,18 +20,19 @@ ms.custom:
 - MSStore_Link
 - okr_smb
 - AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 6383f56d-3d09-4dcb-9b41-b5f5a5efd611
 description: Gebruik de installatiewizard om uw domein toe te voegen aan Microsoft 365 in de Microsoft 365-beheercentrum door een DNS-record toe te voegen aan uw DNS-host.
-ms.openlocfilehash: 547a3bf242130993522b00f53819908b10c9e4d1
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: caec9951fa80d19467623922dffa8551d0b4ad0d
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227833"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393581"
 ---
 # <a name="add-a-domain-to-microsoft-365"></a>Een domein toevoegen aan Microsoft 365
 
@@ -45,7 +46,7 @@ Volg deze stappen om een domein toe te voegen, in te stellen of te blijven inste
 
 ::: moniker range="o365-worldwide"
 
-1. Ga naar het beheercentrum via <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.
+1. Ga naar het beheercentrum op <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.
 
 ::: moniker-end
 ::: moniker range="o365-germany"

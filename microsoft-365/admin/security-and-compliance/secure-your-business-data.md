@@ -16,18 +16,19 @@ ms.custom:
 - MSStore_Link
 - AdminSurgePortfolio
 - okr_smb
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
 description: Uw zakelijke e-mail en gegevens beschermen tegen cyberdreigingen, zoals ransomware, phishing en schadelijke bijlagen.
-ms.openlocfilehash: a5d87c907d47be2d8edc12642ad4e93afb0eb142
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 8ee8e34ef984cb466f472e5503ad7cc14c181030
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52924621"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393629"
 ---
 # <a name="top-10-ways-to-secure-microsoft-365-for-business-plans"></a>Top 10 manieren om uw Microsoft 365 zakelijke abonnementen te beveiligen
 
@@ -152,7 +153,7 @@ Als u een regel voor e-mailtransport wilt maken, bekijkt u een [korte trainingsv
 
 5. Pas de instellingen in de volgende tabel toe voor elke regel. Laat de overige instellingen standaard staan, tenzij u deze wilt wijzigen.
 
-6. Klik op **Opslaan**.
+6. Kies **Opslaan**.
     
 | Instelling | Gebruikers waarschuwen voordat ze bijlagen van Office openen | Bestandstypen blokkeren die ransomware of andere schadelijke code kunnen bevatten |
 |:-----|:-----|:-----|
@@ -188,7 +189,7 @@ Een regel voor e-mailtransport maken:
 
 5. Pas de instellingen in de volgende tabel toe. Laat de overige instellingen standaard staan, tenzij u deze wilt wijzigen.
 
-6. Klik op **Opslaan**.
+6. Kies **Opslaan**.
 
 |Instelling|Automatisch doorsturen van e-mailberichten naar externe domeinen weigeren|
 |---|---|
@@ -326,7 +327,7 @@ Het standaardbeleid wijzigen:
 
 3. Selecteer **Office 365** toepassingen onder Instellingen die van toepassing zijn op inhoud, behalve **e-mail,** niet bijhouden wanneer gebruikers op veilige koppelingen klikken en Gebruikers niet door veilige koppelingen naar de oorspronkelijke URL laten **klikken.**
 
-4. Klik op **Opslaan**.
+4. Kies **Opslaan**.
 
 Een nieuw beleid maken dat is gericht op alle geadresseerden in uw domein:
 
@@ -334,7 +335,7 @@ Een nieuw beleid maken dat is gericht op alle geadresseerden in uw domein:
 
 2. Pas de instellingen toe die in de volgende tabel worden vermeld.
 
-3. Klik op **Opslaan**.
+3. Kies **Opslaan**.
 
 |Instelling of optie|Aanbevolen instelling|
 |---|---|

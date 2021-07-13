@@ -16,17 +16,18 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Lees hoe u toegang krijgt tot on-premises resources, zoals zakelijke apps, bestandsaandelen en printers vanaf een Azure Active Directory aangesloten Windows 10 apparaat.
-ms.openlocfilehash: 72b3c5ae538cad24fc12e25717dedccb2fdc9017
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 71d60e0187c917dffb7390afcedf22dc73f44008
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843317"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393454"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business-premium"></a>On-premises resources openen vanaf een azure AD-apparaat in Microsoft 365 Business Premium
 
@@ -57,7 +58,7 @@ Als uw organisatie nog niet klaar is om te implementeren in de configuratie van 
 
 Als het Windows dat u hebt samengevoegd met Azure-AD eerder is verbonden met een domein of in een werkgroep, moet u rekening houden met de volgende beperkingen:
 
-- Wanneer een apparaat azure AD wordt joins, wordt er een nieuwe gebruiker gemaakt zonder te verwijzen naar een bestaand profiel. Profielen moeten handmatig worden gemigreerd. Een gebruikersprofiel bevat informatie zoals favorieten, lokale bestanden, browserinstellingen en Menu-instellingen starten. U kunt het beste een hulpprogramma van derden vinden om bestaande bestanden en instellingen toe te passen op het nieuwe profiel.
+- Wanneer een apparaat azure AD wordt joins, wordt er een nieuwe gebruiker gemaakt zonder te verwijzen naar een bestaand profiel. Profielen moeten handmatig worden gemigreerd. Een gebruikersprofiel bevat informatie zoals favorieten, lokale bestanden, browserinstellingen en Startmenu instellingen. U kunt het beste een hulpprogramma van derden vinden om bestaande bestanden en instellingen toe te passen op het nieuwe profiel.
 
 - Als het apparaat groepsbeleidsobjecten (GPO) gebruikt, hebben sommige GPOs mogelijk geen vergelijkbare [Configuratieserviceprovider](/windows/configuration/provisioning-packages/how-it-pros-can-use-configuration-service-providers) (CSP) in Intune. Voer het [hulpprogramma MMAT uit om](https://www.microsoft.com/download/details.aspx?id=45520) vergelijkbare CSP's voor bestaande GPOs te zoeken.
 

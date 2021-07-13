@@ -20,16 +20,17 @@ ms.custom:
 - OKR_SMB_M365
 - seo-marvel-mar
 - AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 description: Lees hoe u in Microsoft 365 enkele stappen lokale active-directory-apparaten Windows 10 kunt beveiligen.
-ms.openlocfilehash: eb95c437030ae13a44f5e8043b3544d5846001c2
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 9cc7ca01cec667465e9114083fecdc56ef4e7ce7
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53287690"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393374"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>Schakel domeingevoegde Windows 10 apparaten in om te worden beheerd door Microsoft 365 Business Premium
 

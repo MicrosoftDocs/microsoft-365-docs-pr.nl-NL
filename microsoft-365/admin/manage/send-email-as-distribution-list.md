@@ -15,18 +15,19 @@ ms.collection:
 ms.custom:
 - MSStore_Link
 - AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: a7c98273-067e-4162-b3a1-4ba081796012
 description: Verzend e-mail als een distributielijst in Microsoft 365 zodat wanneer een lid een bericht beantwoordt, deze afkomstig lijkt te zijn van de distributielijst.
-ms.openlocfilehash: eb5ce4a08fae13ee0d2631499a8df1724ef3ef66
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: c77455b5b990a9c35fc7e47ee81cc9ddef4d0a23
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635712"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53392513"
 ---
 # <a name="send-email-as-a-distribution-list"></a>E-mail verzenden als distributielijst
 
@@ -62,8 +63,8 @@ Voordat u deze stappen uit te voeren, zorg ervoor dat u bent toegevoegd aan een 
 
 4. Verzend de e-mail.
 
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
-[Een beveiligingsgroep maken, bewerken of verwijderen in het Microsoft 365](../email/create-edit-or-delete-a-security-group.md) (artikel)\
+[Een beveiligingsgroep maken, bewerken](../email/create-edit-or-delete-a-security-group.md) of verwijderen in de Microsoft 365-beheercentrum (artikel)\
 [E-mailsamenwerking](../email/email-collaboration.md) (artikel)\
 [Een gebruiker of contactpersoon toevoegen aan een distributiegroep](../email/add-user-or-contact-to-distribution-list.md) (artikel)

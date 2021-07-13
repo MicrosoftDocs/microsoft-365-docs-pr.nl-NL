@@ -20,16 +20,16 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: Beschik over een periodiek rapport over de manier waarop personen in uw organisatie Microsoft 365-services gebruiken en elk diagram onderzoeken voor meer inzicht.
-ms.openlocfilehash: 66cb3436fe6903c429e3c1950eee040b21c6dc9d
-ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
+ms.openlocfilehash: 89182ddc317bfefdf0e82632bbe8ec8f78f81ada
+ms.sourcegitcommit: 022d9d91263994c48efcebe08a84319573dc3a8c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52808997"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53377215"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>Microsoft 365-overzichten in het beheercentrum
 
-U kunt gemakkelijk zien hoe mensen in uw bedrijf Microsoft 365-services gebruiken. Zo kunt u vaststellen wie een service veel gebruikt en quota behaalt, of wie misschien helemaal geen Microsoft 365-licentie nodig heeft.
+U kunt gemakkelijk zien hoe mensen in uw bedrijf Microsoft 365-services gebruiken. Zo kunt u vaststellen wie een service veel gebruikt en quota's behaalt, of wie misschien helemaal geen Microsoft 365-licentie nodig heeft. Eeuwigdurende licentie wordt niet opgenomen in de rapporten. 
   
 Er zijn overzichten beschikbaar voor de afgelopen 7 dagen, 30 dagen, 90 dagen en 180 dagen. Er zijn niet direct gegevens voor alle rapportageperioden beschikbaar. De rapporten komen beschikbaar na 48 uur.
   

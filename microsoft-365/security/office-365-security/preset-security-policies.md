@@ -15,12 +15,12 @@ ms.collection:
 description: Beheerders kunnen leren hoe ze standaard- en striktbeleidsinstellingen kunnen toepassen op de beveiligingsfuncties van Exchange Online Protection (EOP) en Microsoft Defender voor Office 365
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e41edb6c2d77a69ee3d4fa28ff86e0e77410caa5
-ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
+ms.openlocfilehash: 61166c78f31a86882ef0e2dc2a79683aea794040
+ms.sourcegitcommit: 233989a02a3fc6db33c995ad06b1f820f08f8f0a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53108293"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53383460"
 ---
 # <a name="preset-security-policies-in-eop-and-microsoft-defender-for-office-365"></a>Vooraf ingestelde beveiligingsbeleidsregels in EOP en Microsoft Defender voor Office 365
 
@@ -99,7 +99,9 @@ Wanneer meerdere beleidsregels worden toegepast op een gebruiker, wordt de volge
 3. Aangepast beveiligingsbeleid
 4. Standaardbeveiligingsbeleid
 
-Met andere woorden, de  instellingen van het strikte beveiligingsbeleid overschrijven de instellingen van het standaardbeveiligingsbeleid, waardoor de instellingen worden overgenomen van een aangepast beleid, waardoor de instellingen van het standaardbeleid worden overgenomen. 
+Met andere woorden, de  instellingen van het strikte beveiligingsbeleid overschrijven de instellingen van het standaardbeveiligingsbeleid, waardoor de instellingen worden overgenomen van een aangepast beleid, waardoor de instellingen van het standaardbeleid worden overgenomen.  
+
+Als er bijvoorbeeld een beveiligingsinstelling bestaat **in** Standaardbeveiliging  en een beheerder de  standaardbeveiliging voor een gebruiker heeft ingeschakeld, wordt de instelling Standaardbeveiliging toegepast in plaats van wat is geconfigureerd voor die instelling in een aangepast beleid of in het standaardbeleid (voor dezelfde gebruiker). Houd er rekening mee dat u mogelijk een deel  van  uw organisatie hebt waarop u alleen het beveiligingsbeleid Standaard of Strikt wilt toepassen terwijl u een aangepast beleid op andere gebruikers in uw organisatie past om aan specifieke behoeften te voldoen.
 
 ## <a name="assign-preset-security-policies-to-users"></a>Vooraf ingestelde beveiligingsbeleidsregels toewijzen aan gebruikers
 
@@ -115,7 +117,7 @@ Met andere woorden, de  instellingen van het strikte beveiligingsbeleid overschr
 
   Zie [Machtigingen in Exchange Online](/exchange/permissions-exo/permissions-exo) voor meer informatie.
 
-  **Opmerking:** Gebruikers toevoegen aan de bijbehorende Azure Active Directory rol in de Microsoft 365-beheercentrum  geeft gebruikers de vereiste machtigingen en machtigingen voor andere functies in Microsoft 365. Raadpleeg [Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
+  **Opmerking:** Gebruikers toevoegen aan de bijbehorende Azure Active Directory rol in de Microsoft 365-beheercentrum  geeft gebruikers de vereiste machtigingen en machtigingen voor andere functies in Microsoft 365. Zie[Over beheerdersrollen](../../admin/add-users/about-admin-roles.md) voor meer informatie.
 
 ### <a name="use-the-microsoft-365-defender-portal-to-assign-preset-security-policies-to-users"></a>De portal Microsoft 365 Defender gebruiken om vooraf ingestelde beveiligingsbeleidsregels toe te wijzen aan gebruikers
 
@@ -132,7 +134,7 @@ Met andere woorden, de  instellingen van het strikte beveiligingsbeleid overschr
 
    Voor gebruikers of groepen kunt u de meeste id's (naam, weergavenaam, alias, e-mailadres, accountnaam, enzovoort) gebruiken, maar de bijbehorende weergavenaam wordt weergegeven in de resultaten. Voer voor gebruikers een enkel sterretje (\*) in om alle beschikbare waarden weer te geven.
 
-   - **Deze gebruikers, groepen** en domeinen uitsluiten: Als u uitzonderingen wilt toevoegen voor de interne geadresseerden waar het beleid op van toepassing is (uitzonderingen voor geadresseerden), selecteert u deze optie en configureert u de uitzonderingen. De instellingen en het gedrag zijn exact hetzelfde als bij de voorwaarden.
+   - **Deze gebruikers, groepen en domeinen uitsluiten**: als u uitzonderingen wilt toevoegen voor de interne ontvangers op wie het beleid van toepassing is (uitzonderingen op ontvangers), selecteert u deze optie en configureert u de uitzonderingen. De instellingen en het gedrag zijn exact hetzelfde als bij de voorwaarden.
 
    Wanneer u gereed bent, klikt u op **Volgende**.
 
@@ -140,7 +142,7 @@ Met andere woorden, de  instellingen van het strikte beveiligingsbeleid overschr
 
    De instellingen en het gedrag zijn precies zoals de **EOP-beveiligingen van toepassing zijn op de** pagina.
 
-   Wanneer je klaar bent, klik je op **Volgende**.
+   Wanneer u gereed bent, klikt u op **Volgende**.
 
 5. Controleer uw **selecties** op de pagina Controleren en bevestig uw wijzigingen en klik vervolgens op **Bevestigen.**
 

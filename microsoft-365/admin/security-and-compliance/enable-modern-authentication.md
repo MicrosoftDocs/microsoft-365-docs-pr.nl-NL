@@ -16,18 +16,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - okr_smb
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 7dc1c01a-090f-4971-9677-f1b192d6c910
 description: Informatie over het instellen van registersleutels om moderne verificatie in te schakelen voor apparaten Microsoft Office 2013 zijn geïnstalleerd.
-ms.openlocfilehash: 917ecd5c668ea43b0627ba2361f951ebc5e19725
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 8bfe515fefed9d58f140a67e53ce0d078457aa72
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635688"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393653"
 ---
 # <a name="enable-modern-authentication-for-office-2013-on-windows-devices"></a>Moderne verificatie inschakelen voor Office 2013 op Windows-apparaten
 
@@ -57,7 +58,7 @@ Als u moderne verificatie wilt uitschakelen op een apparaat, stelt u de volgende
 |:-------|:------:|--------:|
 |HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\EnableADAL |REG_DWORD|0|
    
-## <a name="related-content"></a>Verwante onderwerpen
+## <a name="related-content"></a>Verwante inhoud
 
 [Meld u aan bij Office 2013 met een tweede verificatiemethode](https://support.microsoft.com/office/2b856342-170a-438e-9a4f-3c092394d3cb) (artikel)\
 [Outlook vraagt om wachtwoord en gebruikt geen](/outlook/troubleshoot/authentication/outlook-prompt-password-modern-authentication-enabled) moderne verificatie om verbinding te maken met Office 365 (artikel)
