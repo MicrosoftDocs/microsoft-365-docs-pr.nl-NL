@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Gebruik de quickstarthandleiding compliancebeheer om u te helpen bij het maken van kennis, het instellen en het gebruik van Compliance Manager.
-ms.openlocfilehash: 8ac4245da95192516c57d51d740531fd4af10647
-ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
+ms.openlocfilehash: 59d833c74c0d56d82d3f4ae4170e1bbd32638a49
+ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2021
-ms.locfileid: "53149044"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53419593"
 ---
 # <a name="compliance-manager-quickstart"></a>Snelstartgids voor Compliancebeheer
 
@@ -63,7 +63,7 @@ Wanneer u vertrouwd bent met het beheren van beoordelingen in Compliance Manager
 
 U kunt ook automatische tests instellen voor alle of een subset van verbeteracties. Ga naar de onderstaande koppelingen voor meer geavanceerde functionaliteit in Compliance Manager:
 
-- [Een compliancebeheersjabloon uitbreiden door uw eigen besturingselementen en verbeteracties toe te voegen](compliance-manager-templates.md#extend-an-assessment-template)
+- [Een compliancebeheersjabloon uitbreiden door uw eigen besturingselementen en verbeteracties toe te voegen](compliance-manager-templates.md#extend-microsoft-365-assessment-templates)
 - [Uw eigen aangepaste sjabloon maken](compliance-manager-templates.md#create-an-assessment-template)
 - [Een bestaande sjabloon wijzigen om besturingselementen en acties toe te voegen of te verwijderen](compliance-manager-templates.md#modify-a-template)
 - [Geautomatiseerde tests van verbeteracties instellen](compliance-manager-setup.md#set-up-automated-testing)

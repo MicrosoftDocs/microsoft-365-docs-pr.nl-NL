@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Meer informatie over het gebruik en beheren van sjablonen voor het maken van evaluaties in Microsoft Compliance Manager. Sjablonen maken en wijzigen met een opgemaakt Excel bestand.
-ms.openlocfilehash: 2d20fa69345f2ff2624252972cb0e017e401f0dd
-ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
+ms.openlocfilehash: 4386f5be67d01d3d6961ccc4bd51ecf729bc8a38
+ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2021
-ms.locfileid: "53149128"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53419581"
 ---
 # <a name="working-with-assessment-templates-in-compliance-manager"></a>Werken met beoordelingssjablonen in Compliance Manager
 
@@ -30,7 +30,7 @@ ms.locfileid: "53149128"
 
 ## <a name="templates-overview"></a>Sjablonenoverzicht
 
-Een sjabloon is een kader van besturingselementen voor het maken van een beoordeling in Compliance Manager. Met onze uitgebreide set sjablonen kan uw organisatie voldoen aan nationale, regionale en branchespecifieke vereisten voor het verzamelen en gebruiken van gegevens. We verwijzen naar sjablonen met dezelfde naam als de onderliggende certificering of regelgeving, zoals de AVG-sjabloon van de EU en de ISO/IEC 27701:2019-sjabloon.
+Een sjabloon is een kader van besturingselementen voor het maken van een beoordeling in Compliance Manager. Met onze uitgebreide set sjablonen kan uw organisatie voldoen aan nationale, regionale en branchespecifieke vereisten voor het verzamelen en gebruiken van gegevens. We verwijzen naar sjablonen met dezelfde naam als de onderliggende certificering of regelgeving, zoals de AVG-sjabloon van de EU en de ISO/IEC 27701:2019-sjabloon. Aangezien compliancemanger kan worden gebruikt om verschillende soorten producten te beoordelen, is elke sjabloon beschikbaar in twee versies: een sjabloon die van toepassing is op Microsoft 365 en een universele versie die kan worden aangepast aan het gekozen product.
 
 ## <a name="template-availability-and-licensing"></a>Beschikbaarheid en licenties van sjabloon
 
@@ -50,7 +50,7 @@ Sjablonen geven een activeringsstatus weer als actief of inactief:
 - Een sjabloon wordt als **actief beschouwd** wanneer u een evaluatie maakt op basis van die sjabloon.
 - Een sjabloon wordt **als inactief beschouwd** als uw organisatie deze niet gebruikt voor een evaluatie.
 
-Wanneer u een premiumsjabloon koopt en er een evaluatie van maakt, is die sjabloon één jaar actief. Uw aankoop wordt automatisch verlengd, tenzij u annuleert.
+Als u beoordelingen koppelt aan een aangeschafte premiumsjabloon, is deze sjabloon één jaar actief. Uw aankoop wordt automatisch verlengd, tenzij u annuleert.
 
 U kunt ook premiumsjablonen uitproberen op proefversie. Proeflicenties zijn goed voor maximaal 25 sjablonen voor 30 dagen. Zodra uw proefabonnement begint, moeten de sjablonen binnen 48 uur beschikbaar zijn in uw tenant. Experimenten kunnen worden geactiveerd via de Microsoft 365-beheercentrum.
 
@@ -61,6 +61,8 @@ De pagina beoordelingspagina en beoordelingssjablonen hebben een **geactiveerde*
 Als de teller bijvoorbeeld 2/5 laat zien, betekent dit dat uw organisatie twee sjablonen van de 5 heeft geactiveerd die beschikbaar zijn voor gebruik.
 
 Als de teller 5/2 aangeeft, geeft dit aan dat uw organisatie de limieten overschrijdt en drie van de premiumsjablonen in gebruik moet kopen.
+
+Microsoft 365 en universele versies van sjablonen hebben gezamenlijke licenties, zodat u dezelfde onderliggende certificering voor meer dan één product kunt gebruiken. Als u een van beide versies van dezelfde sjabloon gebruikt, wordt slechts één geactiveerde sjabloon gebruikt.
 
 Zie Richtlijnen voor [compliancebeheerlicenties voor](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#compliance-manager)meer informatie.
 
@@ -123,7 +125,7 @@ Het **tabblad** Acties is vereist.  Het wijst verbeteracties aan die worden behe
 
 - **actionScore:** Geef in dit vereiste veld een numerieke scorewaarde op voor uw actie. De waarde moet een geheel getal zijn tussen 1 en 99. het kan niet 0, null of leeg zijn. Hoe hoger het getal, hoe groter de waarde voor het verbeteren van de nalevingsstatus. In de onderstaande afbeelding wordt gedemonstreerd hoe Compliance Manager scores bepaalt:
 
-![Compliance Manager besturingselementen puntwaarden](../media/compliance-score-action-scoring.png "Compliance Manager besturingselementen puntwaarden")
+  ![Compliance Manager besturingselementen puntwaarden](../media/compliance-score-action-scoring.png "Compliance Manager besturingselementen puntwaarden")
 
 - **actionDescriptionTitle:** Dit is de titel van de beschrijving en is vereist. Met deze beschrijvingstitel kunt u dezelfde actie in meerdere sjablonen hebben en in elke sjabloon een andere beschrijving weergeven.  Met dit veld kunt u verduidelijken welke sjabloon de beschrijving verwijst. In de meeste gevallen kunt u de naam van de sjabloon die u maakt in dit veld zetten.
 
@@ -160,9 +162,13 @@ Alleen gebruikers met een rol voor globale beheerder of compliancebeheer kunnen 
 7. Het laatste scherm bevestigt dat er een nieuwe sjabloon is gemaakt. Selecteer **Klaar om** de wizard te sluiten.
 8. U komt op de detailspagina van de nieuwe sjabloon, waar u [uw beoordeling kunt maken.](compliance-manager-assessments.md#create-assessments)
 
-## <a name="extend-an-assessment-template"></a>Een evaluatiesjabloon uitbreiden
+## <a name="extend-microsoft-365-assessment-templates"></a>Evaluatiesjablonen Microsoft 365 uitbreiden
 
 Compliance Manager biedt de optie om uw eigen besturingselementen en verbeteracties toe te voegen aan een bestaande door Microsoft verstrekte sjabloon. Dit proces wordt het uitbreiden van een Microsoft-sjabloon genoemd. Wanneer u een sjabloon uitbreidt, kan deze nog steeds updates ontvangen die door Microsoft zijn uitgebracht, wat kan gebeuren wanneer er wijzigingen zijn in de gerelateerde regelgeving of het bijbehorende product (zie [Updates voor beoordelingen accepteren).](compliance-manager-assessments.md#accept-updates-to-assessments)
+
+Houd er rekening mee dat als u evaluaties instelt voor andere producten dan Microsoft 365, uw proces verschilt. Zie Universele beoordelingssjablonen uitbreiden voor [meer informatie.](#extend-universal-assessment-templates)
+
+### <a name="prepare-template-data-and-create-extension"></a>Sjabloongegevens voorbereiden en extensie maken
 
 Ter voorbereiding moet u een speciaal opgemaakt werkblad Excel om de benodigde sjabloongegevens te importeren. De Excel bestanden volgen dezelfde algemene indeling die hierboven wordt beschreven, maar er zijn speciale vereisten voor extensies. Zie deze extra punten om fouten te voorkomen:
 
@@ -195,6 +201,12 @@ Nadat u de spreadsheet hebt opgemaakt, volgt u de onderstaande stappen.
 10. Het laatste scherm bevestigt dat er een nieuwe sjabloon is gemaakt. Selecteer **Klaar om** de wizard te sluiten.
 
 11. U komt op de detailspagina van de nieuwe sjabloon. Hier kunt u uw beoordeling maken door Beoordeling **maken te selecteren.** Zie Evaluaties maken en beheren voor [hulp.](compliance-manager-assessments.md#create-assessments)
+
+## <a name="extend-universal-assessment-templates"></a>Universele beoordelingssjablonen uitbreiden
+
+Universele versies van sjablonen kunnen ook worden uitgebreid om uw productspecifieke beoordelingen aan te passen. U ontvangt een speciale extensiesjabloon wanneer u een beoordeling maakt met behulp van een universele sjabloon en de beoordeling een unieke combinatie van producten en certificering heeft. Dit kan worden aangepast aan uw behoeften. Zie de onderstaande instructies voor het wijzigen van een sjabloon voor informatie over het bewerken van de sjabloon.
+
+Wanneer u een universele sjabloon bewerkt, kan alle inhoud in de sjabloon worden gewijzigd, maar hierdoor wordt de overname van de bovenliggende sjabloon niet meer mogelijk. Dit betekent dat de sjabloon niet meer automatisch updates ontvangt van Microsoft als de bovenliggende sjabloon wordt vernieuwd.
 
 ## <a name="modify-a-template"></a>Een sjabloon wijzigen
 
@@ -233,7 +245,7 @@ U kunt de **actieTitel** (kolom A) niet bewerken, omdat compliancebeheer dit als
 
 #### <a name="change-an-improvement-actions-name"></a>De naam van een verbeteringsactie wijzigen
 
-Als u de naam van een verbeteringsactie wilt wijzigen, moet u in het spreadsheet expliciet aanwijzen dat u een bestaande naam vervangt door een nieuwe naam. Ga als volgt te werk:
+Als u de naam van een verbeteringsactie wilt wijzigen, moet u in het spreadsheet expliciet aanwijzen dat u een bestaande naam vervangt door een nieuwe naam. Volg deze stappen:
 
 1. Voeg op **het** tabblad Acties van uw spreadsheet een nieuwe kolom toe aan het spreadsheet na kolom A.
 2. Zet in deze nieuwe kolom, die nu kolom B is, als koptekst in rij 1: **oldActionTitle**.
@@ -282,11 +294,11 @@ Nadat uw Excel bestand is voltooid en opgeslagen, volgt u deze stappen.
 De sjabloon bevat nu de wijzigingen die u hebt aangebracht. Alle beoordelingen die gebruikmaken van deze gewijzigde sjabloon, worden nu in behandeling zijnde updates weergegeven en u moet de updates voor de beoordelingen accepteren om de wijzigingen in de sjabloon weer te geven. Meer informatie over [updates voor beoordelingen.](compliance-manager-assessments.md#accept-updates-to-assessments)
 
 > [!NOTE]
-> Als u Compliance Manager gebruikt in een andere taal dan Engels, ziet u dat sommige tekst in het Engels wordt weergegeven wanneer u een sjabloon exporteert naar Excel. De titels van acties (zowel uw verbeteracties als Microsoft-acties) moeten in het Engels zijn om te worden herkend door besturingselementen. Als u wijzigingen aan een actietitel aanneemt, moet u deze in het Engels schrijven, zodat het bestand correct wordt geïmporteerd.
+> Als u Compliance Manager gebruikt in een andere taal dan Engels, ziet u dat sommige tekst in het Engels wordt weergegeven wanneer u een sjabloon exporteert naar Excel. De titels van acties (zowel uw verbeteracties als, waar van toepassing, Microsoft-acties) moeten in het Engels zijn om te worden herkend door besturingselementen. Als u wijzigingen aan een actietitel aanneemt, moet u deze in het Engels schrijven, zodat het bestand correct wordt geïmporteerd.
 
 ## <a name="export-a-template"></a>Een sjabloon exporteren
 
-U kunt een Excel met alle gegevens van een sjabloon exporteren. U moet een sjabloon exporteren om deze te kunnen wijzigen, aangezien dit het Excel bestand is dat u bewerkt en uploadt in het [wijzigingsproces.](#modify-a-template)
+U kunt een Excel met alle gegevens van een sjabloon exporteren. U moet een sjabloon exporteren om deze te kunnen wijzigen, aangezien dit het Excel bestand is dat u bewerkt en uploadt in het [wijzigingsproces.](#modify-a-template) U kunt ook een sjabloon voor verwijzing exporteren als u gegevens ervan wilt gebruiken tijdens het maken van een nieuwe aangepaste sjabloon.
 
 Als u de sjabloon wilt exporteren, gaat u naar de pagina met sjabloondetails en selecteert u de knop **Exporteren naar Excel** sjabloon.
 

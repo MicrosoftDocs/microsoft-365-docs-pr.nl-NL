@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 - m365initiative-coredeploy
 description: Overzicht van netwerkconnectiviteit in het Microsoft 365-beheer Center
-ms.openlocfilehash: 8ad589ede747975ca9dcd3c81e661a2147fc1b88
-ms.sourcegitcommit: 8c6a5db0dab99a82a69dd8a0a7c56af1cb825931
+ms.openlocfilehash: 05247c73bec3a11905890d26db84f8fe1a288a99
+ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53276999"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53419797"
 ---
 # <a name="network-connectivity-in-the-microsoft-365-admin-center"></a>Netwerkconnectiviteit in het Microsoft 365-beheer Center
 
@@ -78,7 +78,7 @@ Testrapporten worden gekoppeld aan een locatie als deze is toegevoegd met LAN-su
 Maatvoorbeelden en kantoorlocaties worden 2-3 minuten nadat een testrapport is voltooid, weergegeven. Zie de test voor [Microsoft 365 netwerkverbinding voor meer informatie.](office-365-network-mac-perf-onboarding-tool.md)
 
 > [!NOTE]
-> Wanneer u uw kantoorlocaties toevoegt aan Microsoft 365 netwerkconnectiviteit in de Microsoft 365-beheercentrum, kunt u IPv4- of IPv6-adressen voor uw LAN-subnetten verstrekken. Egress IP-adressen moeten IPv4 gebruiken.
+> Momenteel kunt u alleen IPv4-adressen voor uw LAN-subnetten Microsoft 365 als u uw kantoorlocaties toevoegt aan Microsoft 365 netwerkconnectiviteit in de Microsoft 365-beheercentrum. Egress IP-adressen moeten IPv4 gebruiken.
 
 ## <a name="how-do-i-use-this-information"></a>Hoe gebruik ik deze gegevens?
 
@@ -149,7 +149,7 @@ Een kaart van het perimeternetwerk voor uw organisatiegebruikers op de locatie w
 - **SharePoint optimale service voor** de deur - Een van de aanbevolen SharePoint servicedeuren waar gebruikers op deze kantoorlocatie verbinding mee moeten maken
 - **SharePoint sub-optimal service front door** - Een SharePoint service front door die gebruikers zijn verbonden met, maar wordt niet aanbevolen
 - **DNS-recursieve resolverserver** : de locatie uit een geo-IP-database van de gedetecteerde DNS-recursieve resolver die voor Exchange Online (indien beschikbaar)
-- **Uw proxyserver:** de locatie van een geo-IP-database van de gedetecteerde proxyserver (indien beschikbaar) 
+- **Uw proxyserver:** de locatie van een geo-IP-database van de gedetecteerde proxyserver (indien beschikbaar)
 
 De overzichtspagina van de kantoorlocatie toont bovendien de netwerkbeoordeling van de locatie, de netwerkbeoordelingsgeschiedenis, een vergelijking van de beoordeling van deze locatie met andere klanten in dezelfde plaats, en een lijst met specifieke inzichten en aanbevelingen die u kunt ondernemen om de netwerkprestaties en betrouwbaarheid te verbeteren.
 
@@ -161,7 +161,6 @@ Op het tabblad Details op de pagina kantoorlocatie ziet u de specifieke meetresu
 
 > [!div class="mx-imgBorder"]
 > ![Locatiespecifieke details](../media/m365-mac-perf/m365-mac-perf-locations-plan-details-all.png)
-
 
 ## <a name="sharing-network-assessment-data-with-microsoft"></a>Netwerkbeoordelingsgegevens delen met Microsoft
 
@@ -189,9 +188,9 @@ In het CSV-bestand wordt een locatie van een gevonden plaats in de kolom userEnt
    1. **Adres** (vereist): Het fysieke adres van het kantoor
    1. **Breedtegraad** (optioneel): Ingevuld vanaf Bing kaarten zoeken van het adres als het leeg is
    1. **Lengte (optioneel):** Ingevuld vanaf Bing het adres wordt opzoekt als het leeg is
-   1. **Egress IP-adresbereiken 1-5** (optioneel): Voer voor elk bereik de circuitnaam in, gevolgd door een spatie gescheiden lijst met geldige IPv4- of IPv6-CIDR-adressen. Deze waarden worden gebruikt om onderscheid te maken tussen meerdere kantoorlocaties waar u dezelfde LAN-subnet-IP-adressen gebruikt. Egress IP-adresbereiken moeten allemaal /24 netwerkgrootte hebben en de /24 is niet opgenomen in de invoer.
+   1. **Egress IP-adresbereiken 1-5** (optioneel): Voer voor elk bereik de circuitnaam in, gevolgd door een spatie gescheiden lijst met geldige IPv4 CIDR-adressen. Deze waarden worden gebruikt om onderscheid te maken tussen meerdere kantoorlocaties waar u dezelfde LAN-subnet-IP-adressen gebruikt. Egress IP-adresbereiken moeten allemaal /24 netwerkgrootte hebben en de /24 is niet opgenomen in de invoer.
    1. **LanIps** (vereist): Vermeld de LAN-subnetbereiken die op deze kantoorlocatie worden gebruikt. LAN-subnet-ID's moeten een CIDR-netwerkgrootte hebben, waarbij de netwerkgrootte tussen /8 en /29 kan zijn. Meerdere LAN-subnetbereiken kunnen worden gescheiden door een komma of een puntkomma.
-   
+
 1. Wanneer u uw kantoorlocaties hebt toegevoegd en  het bestand  hebt opgeslagen, klikt u op de knop Bladeren naast het Upload het voltooide veld en selecteert u het opgeslagen CSV-bestand.
 
 1. Het bestand wordt automatisch gevalideerd. Als er validatiefouten zijn, ziet u het foutbericht: _Er zijn enkele fouten in het importbestand. Controleer de fouten, corrigeer het importbestand en probeer het opnieuw._ Klik op de koppeling **Foutdetails openen** voor een lijst met specifieke veldvalidatiefouten.

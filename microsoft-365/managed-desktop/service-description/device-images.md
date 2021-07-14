@@ -12,12 +12,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 211e26035ad8bdf73defde85c33a631af3a193d0
-ms.sourcegitcommit: 17d82e5617f0466eb825e15ab88594afcdaf4437
+ms.openlocfilehash: fb3646e2ff339115d3fe6043ed45ea8f2140105a
+ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "53300101"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53419509"
 ---
 # <a name="device-images"></a>Afbeeldingen van apparaten
 
@@ -41,23 +41,7 @@ Als u een apparaat bestelt bij HP dat [](customizing.md) als uitzondering is goe
 - Globaal: mmd@hp.com
 
 ### <a name="lenovo"></a>Lenovo
-Wanneer u apparaten bij Lenovo bestelt voor gebruik in Microsoft Managed Desktop, moet u een specifiek onderdeelnummer aangeven dat deel uitmaakt van de bestelling. Neem contact op met uw vertegenwoordiger van Lenovo of Lenovo Channel Partner en vraag hen om een *speciaal* biedmodel te maken met een systeem dat voldoet aan onze [apparaatvereisten.](device-requirements.md#minimum-requirements) Als u een vooraf geladen afbeelding wilt opnemen die compatibel is met Microsoft Managed Desktop, vraagt u de verkoper om te verwijzen naar het nummer *SBB0Q94938 - MMD Enablement* van het systeemgebouw.
-
-De volgende producten zijn momenteel ingeschakeld voor Microsoft Managed Desktop ondersteuning:
-
-- L13 Gen 1
-- L13 Yoga Gen 1
-- L14 Gen 1 (Intel)
-- L14 Gen 1 (AMD)
-- L15 Gen 1 (Intel)
-- L15 Gen 1 (AMD)
-- X1 Carbon Gen 8
-- X1 Yoga Gen 5
-- T14 Gen 1 (Intel)
-- T14 Gen 1 (AMD)
-- T15 Gen 1
-- X13 Gen 1 (Intel)
-
+Wanneer u apparaten bij Lenovo bestelt voor gebruik in Microsoft Managed Desktop, moet u een specifiek onderdeelnummer aangeven dat deel uitmaakt van de bestelling. Neem contact op met uw vertegenwoordiger van Lenovo of Lenovo Channel Partner en vraag hen om een *speciaal* biedmodel te maken met een systeem dat voldoet aan onze [apparaatvereisten.](device-requirements.md#minimum-requirements) Als u een vooraf geladen afbeelding wilt opnemen die compatibel is met Microsoft Managed Desktop, vraagt u de verkoper om te verwijzen naar het nummer *SBB0Q94938 - MMD Enablement* van het systeemgebouw. Werk samen met uw lenovo-vertegenwoordiger of Lenovo-kanaalpartner voor aanbevolen services, ondersteunings- en beeldverwerkingsservices.
 
 ### <a name="microsoft"></a>Microsoft
 Alle Microsoft-apparaten die voldoen aan apparaatvereisten, hebben een afbeelding die werkt met Microsoft Managed Desktop. Er zijn geen andere stappen vereist.

@@ -3,7 +3,7 @@ title: Gebruik Office 365 Content Delivery Network (CDN) met SharePoint Online
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 2/19/2020
+ms.date: 07/13/2021
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +21,12 @@ search.appverid:
 - SPO160
 ms.assetid: bebb285f-1d54-4f79-90a5-94985afc6af8
 description: Lees hoe u de Office 365 Content Delivery Network (CDN) kunt gebruiken om de levering van uw SharePoint Online-assets te versnellen.
-ms.openlocfilehash: 5e9ed00462b7073c7e03f62a5de6bf26f1e586af
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 24b86f059e5a59d3b6dadf989bef0ab38ad8e010
+ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53289449"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53419545"
 ---
 # <a name="use-the-office-365-content-delivery-network-cdn-with-sharepoint-online"></a>De Office 365 Content Delivery Network (CDN) gebruiken met SharePoint Online
 
@@ -37,7 +37,7 @@ U kunt de ingebouwde Office 365 Content Delivery Network (CDN) gebruiken om stat
 
 De Office 365 CDN bestaat uit meerdere CDN's waarmee u statische assets op meerdere locaties of _origins_ kunt hosten en deze kunt gebruiken vanuit globale snelle netwerken. Afhankelijk van het type inhoud dat u wilt hosten in  de Office 365 CDN, kunt u openbare origins, **privé-origins** of beide toevoegen. Zie [Kiezen of elke origin openbaar](use-microsoft-365-cdn-with-spo.md#CDNOriginChoosePublicPrivate) of privé moet zijn voor meer informatie over het verschil tussen openbare en private origins.
 
-![Office 365 CDN conceptueel diagram](../media/O365-CDN/o365-cdn-flow-transparent.svg "Office 365 CDN conceptueel diagram")
+![Office 365 CDN conceptueel diagram](../media/O365-CDN/o365-cdn-flow-transparent.png "Office 365 CDN conceptueel diagram")
 
 Als u al bekend bent met de manier waarop CDN's werken, hoeft u slechts een paar stappen uit te voeren om de Office 365 CDN voor uw tenant in te stellen. In dit onderwerp wordt beschreven hoe. Lees verder voor informatie over hoe u aan de slag kunt met het hosten van uw statische assets.
 
@@ -920,7 +920,7 @@ Hieronder volgt een overzicht van de koppelingen die automatisch worden herschre
 
 In het volgende diagram wordt de werkstroom weergegeven wanneer SharePoint een aanvraag ontvangt voor een pagina met activa van een openbare origin.
 
-![Werkstroomdiagram: ophalen Office 365 CDN activa van een openbare origin](../media/O365-CDN/o365-cdn-public-steps-transparent.svg "Werkstroom: het ophalen Office 365 CDN activa van een openbare origin")
+![Werkstroomdiagram: ophalen Office 365 CDN activa van een openbare origin](../media/O365-CDN/o365-cdn-public-steps-transparent.png "Werkstroom: het ophalen Office 365 CDN activa van een openbare origin")
 
 > [!TIP]
 > Als u automatisch herschrijven voor specifieke URL's op een pagina wilt uitschakelen, kunt u de pagina bekijken en de parameter queryreeks **toevoegen? NoAutoReWrites=true** aan het einde van elke koppeling die u wilt uitschakelen.
@@ -956,7 +956,7 @@ Toegang tot activa in privé-origins wordt beveiligd door dynamisch gegenereerde
 
 In het volgende diagram wordt de werkstroom weergegeven wanneer SharePoint een aanvraag ontvangt voor een pagina met activa van een persoonlijke origin.
 
-![Werkstroomdiagram: ophalen Office 365 CDN activa van een privé-origin](../media/O365-CDN/o365-cdn-private-steps-transparent.svg "Werkstroom: ophalen van Office 365 CDN activa van een privé-origin")
+![Werkstroomdiagram: ophalen Office 365 CDN activa van een privé-origin](../media/O365-CDN/o365-cdn-private-steps-transparent.png "Werkstroom: ophalen van Office 365 CDN activa van een privé-origin")
 
 #### <a name="token-based-authorization-in-private-origins"></a>Autorisatie op basis van token in privé-origins
 

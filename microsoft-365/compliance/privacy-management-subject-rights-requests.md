@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Met de oplossing voor het aanvragen van onderwerprechten in Microsoft privacybeheer kunt u persoonlijke gegevens vinden en samenwerken aan het bekijken van inhoud en het maken van rapporten.
-ms.openlocfilehash: b1f92aa7b5e6f8117d8e3a4af758f13d6c91fe99
-ms.sourcegitcommit: 022d9d91263994c48efcebe08a84319573dc3a8c
+ms.openlocfilehash: b266708c97ee4b81af6ba61dfa6716c57ff6026e
+ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53378494"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53419773"
 ---
 # <a name="manage-subject-rights-requests-in-privacy-management-preview"></a>Verzoeken om onderwerprechten beheren in privacybeheer (voorbeeld)
 
@@ -47,7 +47,7 @@ Zie Een aanvraag maken om een nieuwe [aanvraag te openen.](#create-a-request)
 
 ## <a name="create-a-request"></a>Een aanvraag maken
 
-Beheerders van onderwerprechtenbeheer kunnen de wizard privacybeheer gebruiken om aanvragen te maken. Deze wizard begeleidt u bij het proces van het vinden van persoonlijke gegevens over een betrokkene en het voldoen aan hun verzoek.
+Beheerders van onderwerprechtenbeheer kunnen de wizard privacybeheer gebruiken om aanvragen te maken. De wizard begeleidt u bij het proces van het vinden van persoonlijke gegevens over een betrokkene en het voldoen aan hun verzoek.
 
 De vier belangrijkste stappen zijn de volgende.
 

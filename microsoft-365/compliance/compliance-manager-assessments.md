@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Maak evaluaties in Microsoft Compliance Manager om u te helpen voldoen aan de vereisten van voorschriften en certificeringen die belangrijk zijn voor uw organisatie.
-ms.openlocfilehash: 4530f8544834c672b3ae1ebb70625ffe8f2ae4ae
-ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
+ms.openlocfilehash: 7014e294454095456acdac8e2c60895c400ced3f
+ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2021
-ms.locfileid: "53148936"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53419605"
 ---
 # <a name="build-and-manage-assessments-in-compliance-manager"></a>Evaluaties maken en beheren in Compliance Manager
 
@@ -27,7 +27,7 @@ ms.locfileid: "53148936"
 
 ## <a name="introduction-to-assessments"></a>Inleiding tot evaluaties
 
-Compliance manager helpt u bij het maken van evaluaties waarmee wordt geëvalueerd of u voldoet aan de branche- en regionale regelgeving die van toepassing is op uw organisatie. Beoordelingen zijn gebaseerd op het raamwerk van beoordelingssjablonen, die de benodigde besturingselementen, verbeteracties en Microsoft-acties bevatten voor het voltooien van de beoordeling. Als u de meest relevante beoordelingen voor uw organisatie instelt, kunt u beleidsregels en operationele procedures implementeren om uw compliancerisico te beperken.
+Compliance manager helpt u bij het maken van evaluaties waarmee wordt geëvalueerd of u voldoet aan de branche- en regionale regelgeving die van toepassing is op uw organisatie. Beoordelingen zijn gebaseerd op het raamwerk van beoordelingssjablonen, die de benodigde besturingselementen, verbeteracties en, waar van toepassing, Microsoft-acties bevatten voor het voltooien van de beoordeling. Als u de meest relevante beoordelingen voor uw organisatie instelt, kunt u beleidsregels en operationele procedures implementeren om uw compliancerisico te beperken.
 
 Al uw beoordelingen worden vermeld op het tabblad Evaluaties van Compliance Manager. Meer informatie over het filteren van uw weergave van uw beoordelingen en [het interpreteren van statusstatussen.](compliance-manager-setup.md#assessments-page)
 
@@ -54,7 +54,7 @@ Hieronder vindt u voorbeelden van twee groepen en hun onderliggende beoordelinge
   - ISO 27001:2013
   - ISO 27018:2014
 
-Wanneer twee verschillende evaluaties in dezelfde groep verbeteracties delen die u beheert, worden alle updates die u aan de implementatiedetails of status van een actie aanneemt, automatisch gesynchroniseerd in de hele groep. Met deze synchronisatie kunt u één verbeteringsactie implementeren en tegelijkertijd aan verschillende vereisten voldoen.
+Verschillende beoordelingen binnen een groep of groepen kunnen verbeteringsacties delen. Verbeteracties kunnen wijzigingen zijn die u aan de hand van technische oplossingen aan uw tenant hebt aangebracht, zoals het inschakelen van tweestapsverificatie of niet-technische acties die u buiten het systeem voert, zoals het instellen van een nieuw bedrijfsbeleid. Alle updates in details of status die u aan een actie voor technische verbetering geeft, worden opgehaald door evaluaties in alle groepen. Niet-technische verbeteringsactie-updates worden herkend door evaluaties binnen de groep waarin u deze toe te passen. Op deze manier kunt u één verbeteringsactie implementeren en tegelijkertijd aan verschillende vereisten voldoen.
 
 ### <a name="create-a-group"></a>Een groep maken
 
@@ -68,12 +68,13 @@ U kunt een groep maken terwijl u een nieuwe beoordeling maakt. Groepen kunnen ni
 - Wanneer u een beoordeling aan een groep toevoegt, kan de groepering niet meer worden gewijzigd.
 - Als u een nieuwe beoordeling toevoegt aan een bestaande groep, worden algemene gegevens uit beoordelingen in die groep gekopieerd naar de nieuwe beoordeling.
 - Gerelateerde beoordelingsbesturingselementen in verschillende beoordelingen binnen dezelfde groep worden automatisch bijgewerkt wanneer deze zijn voltooid.
-- Wanneer een wijziging wordt aangebracht in een verbetering die in meerdere groepen wordt weergegeven, wordt deze wijziging in alle gevallen van die verbeteringsactie weerspiegeld.
 - Groepen kunnen beoordelingen bevatten voor dezelfde certificering of regelgeving, maar elke groep kan slechts één beoordeling bevatten voor een specifiek productcertificeringspaar. Een groep kan bijvoorbeeld geen twee evaluaties voor Office 365 en NIST-CSF bevatten. Een groep kan alleen meerdere beoordelingen voor hetzelfde product bevatten als de bijbehorende certificering of regelgeving voor elk product anders is.
 - Als u een beoordeling verwijderd, wordt de relatie tussen die beoordeling en de groep 100 procent van de groep doorbreekt.
 - Groepen kunnen niet handmatig worden verwijderd.
 
 ## <a name="create-assessments"></a>Beoordelingen maken
+
+Als u een beoordeling wilt maken, gebruikt u een wizard om de sjabloon te selecteren die deze moet gebruiken en stelt u de eigenschappen van de beoordeling in. Sjablonen bevatten de besturingselementen en actieaanbevelingen voor de beoordeling, op basis van certificeringen voor verschillende privacyregels en -standaarden. De beschikbare sjablonen van uw organisatie kunnen een of meer sjablonen bevatten die zijn opgenomen als onderdeel van uw licentieovereenkomst, samen met eventuele extra premiumsjablonen die u hebt gekocht. Elke sjabloon, inbegrepen of premium, bestaat in twee versies: een sjabloon voor gebruik met Microsoft 365 en een universele versie die kan worden aangepast aan andere producten die u gebruikt. Zie Werken met beoordelingssjablonen voor meer informatie over [sjablonen.](compliance-manager-templates.md)
 
 > [!NOTE]
 > Alleen gebruikers die een rol voor globale beheerder, compliancebeheer of compliancemanagers hebben, kunnen beoordelingen maken en wijzigen. Meer informatie over [rollen en machtigingen.](compliance-manager-setup.md#set-user-permissions-and-assign-roles)
@@ -88,7 +89,9 @@ Als u wilt beginnen met het maken van evaluaties, volgt u deze stappen.
 
 3. **Selecteer een sjabloon:** Als u in stap 2 nog geen sjabloon hebt gekozen, kiest u een sjabloon die als basis voor uw beoordeling dient. U ziet de lijst met sjablonen die zijn onderverdeeld in opgenomen en premiumcategorieën (zie [Sjabloontypen](compliance-manager-templates.md#template-availability-and-licensing) voor meer informatie). Selecteer de keuzerondje naast de gekozen sjabloon en selecteer **vervolgens Volgende.**
 
-4. **Naam en groep:** Stel deze eigenschappen in om uw beoordeling te identificeren en toe te wijzen aan een groep.
+4. **Product, naam en groep:** Stel deze eigenschappen in om uw beoordeling te identificeren, kies welk product het evalueert en wijs het toe aan een groep.
+
+    - **Product:** Als u een universele sjabloon gebruikt, selecteert u of u deze beoordeling maakt voor een nieuw product of een bestaand aangepast product dat u al hebt gedefinieerd in Compliance Manager. Als u een nieuw product kiest, voert u de naam in. Houd er rekening mee dat u geen Microsoft 365 als product kunt selecteren wanneer u een universele sjabloon gebruikt. Als u een sjabloon voor Microsoft 365 gebruikt, wordt dit veld ingevuld om aan te geven Microsoft 365 en kan niet worden gewijzigd.
     - **Naam:** Voer een naam in voor uw beoordeling in het **veld Beoordelingsnaam.** Beoordelingsnamen moeten uniek zijn in groepen. Als de naam van uw beoordeling overeenkomt met de naam van een andere beoordeling in een bepaalde groep, ontvangt u een foutbericht waarin u wordt gevraagd een andere naam te maken.
     - **Groep:** Wijs uw beoordeling toe aan een groep. U kunt het volgende doen:
         - Selecteer **Bestaande groep gebruiken** om deze toe te wijzen aan een groep die u al hebt gemaakt. of
@@ -134,11 +137,11 @@ Onder de grafiek bevat een tabel gedetailleerde informatie over elk besturingsel
 - **Besturings-id:** het identificatienummer van het besturingselement, toegewezen aan de bijbehorende regelgeving, standaard of beleid
 - **Behaalde punten:** het aantal punten dat wordt verdiend door acties uit te voeren, van het totale aantal haalbare punten 
 - **Uw acties:** het aantal acties dat is voltooid buiten het totale aantal acties dat moet worden uitgevoerd
-- **Microsoft-acties:** het aantal acties dat door Microsoft is voltooid 
+- **Microsoft-acties:** het aantal acties dat door Microsoft is voltooid
 
 Als u de details van een besturingselement wilt bekijken, selecteert u het in de rij in de tabel. Op de pagina met besturingselementdetails ziet u een grafiek die de teststatus aangeeft van de acties binnen dat besturingselement. In een tabel onder de grafiek ziet u belangrijke verbeteracties voor dat besturingselement.
 
-Selecteer een verbeteringsactie in de lijst om in te zoomen op de detailspagina van de verbeteringsactie. Op de detailspagina's ziet u de teststatus, implementatienotities en start u de aanbevolen oplossing.
+Selecteer een verbeteringsactie in de lijst om in te zoomen op de detailspagina van de verbeteringsactie. Op de pagina details worden teststatus- en implementatienotities weergegeven en wordt de aanbevolen oplossing weergegeven.
 
 ### <a name="your-improvement-actions-tab"></a>Het tabblad Verbeteracties
 
@@ -148,7 +151,7 @@ Selecteer een verbeteringsactie om de detailspagina te bekijken en selecteer de 
 
 ### <a name="microsoft-actions-tab"></a>Tabblad Microsoft-acties
 
-Het tabblad Microsoft-acties bevat alle acties in de beoordeling die worden beheerd door Microsoft. De lijst bevat belangrijke actiedetails, waaronder: teststatus, punten die bijdragen aan uw algemene nalevingsscore, bijbehorende regelgeving en standaarden, toepasselijke oplossing, actietype en beheerfamilie. Selecteer een verbeteringsactie om de detailspagina te bekijken.
+Het tabblad Microsoft-acties wordt weergegeven voor evaluaties op basis van de Microsoft 365 versies van de sjablonen. In deze lijst worden alle acties in de beoordeling vermeld die worden beheerd door Microsoft. De lijst bevat belangrijke actiedetails, waaronder: teststatus, punten die bijdragen aan uw algemene nalevingsscore, bijbehorende regelgeving en standaarden, toepasselijke oplossing, actietype en beheerfamilie. Selecteer een verbeteringsactie om de detailspagina te bekijken.
 
 Meer informatie over [hoe besturingselementen en verbeteracties worden bijgeslagen en gescored.](compliance-score-calculation.md)
 
