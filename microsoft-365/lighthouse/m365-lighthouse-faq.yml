@@ -17,12 +17,12 @@ metadata:
   - M365-Lighthouse
   search.appverid: MET150
   description: Voor beheerde serviceproviders (MSP's) die Microsoft 365 Lighthouse, krijgt u antwoorden op veelgestelde vragen (veelgestelde vragen) over Microsoft 365 Lighthouse.
-  ms.openlocfilehash: 05ed433a5f7afb6418cab77c99a401351f3a5565
-  ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+  ms.openlocfilehash: 5f15453f21ef48fcc1f8266d9474fc0cbc4190c2
+  ms.sourcegitcommit: 4046c2c390851dffcdb430e1ba38c4df23fe2e69
   ms.translationtype: MT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 07/12/2021
-  ms.locfileid: "53395051"
+  ms.lasthandoff: 07/13/2021
+  ms.locfileid: "53415531"
 title: Microsoft 365 Lighthouse veelgestelde vragen (veelgestelde vragen)
 summary: >
   > [!NOTE]
@@ -49,6 +49,12 @@ sections:
   - question: Wat zijn de vereisten voor het gebruik van Microsoft 365 Lighthouse?
     answer: >
       Zie Vereisten voor Microsoft 365 Lighthouse voor een lijst [met huidige vereisten.](m365-lighthouse-requirements.md)
+  - question: In welke landen en regio's is Microsoft 365 Lighthouse beschikbaar?
+    answer: >
+      Microsoft 365 Lighthouse is beschikbaar in alle landen waar Microsoft 365 beschikbaar is, behalve China en de Palestijnse Autoriteit. Functies in Microsoft 365 Lighthouse, zoals apparaatbeheer en bedreigingsbeheer, zijn echter afhankelijk van Microsoft Intune en gebruikersbeheer is afhankelijk van Azure Active Directory (Azure AD) en Intune en Azure AD zijn mogelijk niet beschikbaar in bepaalde landen en regio's. Zie Internationale beschikbaarheid voor een volledige Microsoft 365 beschikbaarheid van Azure [](https://www.microsoft.com/microsoft-365/business/international-availability)AD en Intune.
+
+
+      Microsoft 365 Lighthouse is niet beschikbaar in nationale wolken.
   - question: Hoe meld ik me aan voor Microsoft 365 Lighthouse?
     answer: >
       Als u zich wilt registreren Microsoft 365 Lighthouse, moet u zijn geregistreerd bij het CSP-programma. We kunnen momenteel geen ondersteuning bieden voor indirecte providers. Zie Registreren voor Microsoft 365 Lighthouse voor instructies over het [registreren](m365-lighthouse-sign-up.md)van Microsoft 365 Lighthouse. Zie het overzicht van het Cloud Solution Provider [programma voor meer informatie over het CSP-programma.](/partner-center/csp-overview)
