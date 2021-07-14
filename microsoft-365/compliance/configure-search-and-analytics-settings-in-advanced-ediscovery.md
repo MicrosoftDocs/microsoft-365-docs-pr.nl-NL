@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 ms.custom: seo-marvel-mar2020
 description: Configureer Advanced eDiscovery instellingen die van toepassing zijn op alle revisiesets in een zaak. Dit omvat instellingen voor analyse en optische tekenherkenning.
-ms.openlocfilehash: 11932d2172d797ae1913cf28e713d57805ace122
-ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
+ms.openlocfilehash: e0ad41354b265016ba67632162a8ead62f11068b
+ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "52161652"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53430550"
 ---
 # <a name="configure-search-and-analytics-settings-in-advanced-ediscovery"></a>Zoek- en analyseinstellingen configureren in Advanced eDiscovery
 
@@ -86,7 +86,7 @@ Er zijn situaties waarin bepaalde tekst de kwaliteit van de analyse vermindert, 
 
 Wanneer deze instelling is ingeschakeld, wordt OCR-verwerking uitgevoerd op afbeeldingsbestanden. OCR-verwerking wordt uitgevoerd in de volgende situaties:
 
-- Wanneer bewaarders en [niet-bewaardergegevensbronnen](non-custodial-data-sources.md) aan een zaak worden toegevoegd. OCR-verwerking wordt uitgevoerd tijdens het proces voor geavanceerde indexering. Dit betekent dat tekst in afbeeldingsbestanden die overeenkomt met de zoekcriteria, wordt geretourneerd in een verzamelingszoekactie.
+- Wanneer bewaarders en [niet-bewaardergegevensbronnen](non-custodial-data-sources.md) aan een zaak worden toegevoegd. OCR-verwerking wordt uitgevoerd tijdens het [proces voor geavanceerde indexering.](indexing-custodian-data.md) OCR wordt alleen uitgevoerd op items die tijdens geavanceerde indexering worden verwerkt. Als bijvoorbeeld een groot PDF-bestand dat gedeeltelijk is geïndexeerd of andere indexeringsfouten heeft gehad, wordt verwerkt tijdens geavanceerde indexering, wordt in het bestand ook OCR toegepast. Met andere woorden, OCR-verwerking vindt alleen plaats op bestanden die opnieuw worden geïndexeerd tijdens het proces voor geavanceerde indexering. Dit betekent dat situaties waarin bewaarders worden toegevoegd aan een zaak, sommige e-mailbijlagen niet worden verwerkt voor OCR omdat deze bestanden niet worden verwerkt tijdens geavanceerde indexering. Wanneer OCR wordt toegepast op afbeeldingsbestanden, kan de tekst in die afbeeldingsbestanden worden doorzocht tijdens een verzameling.
 
 - Wanneer inhoud uit andere gegevensbronnen (die niet zijn gekoppeld aan een bewaarder en die in een niet-bewaardergegevensbron aan de zaak is toegevoegd) wordt toegevoegd aan een revisieset.
 

@@ -16,12 +16,12 @@ metadata:
   ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
   description: Hebt u een vraag over hoe de nieuwe mogelijkheden voor berichtbeveiliging werken? Controleer hier of er een antwoord is.
   ms.custom: seo-marvel-apr2020
-  ms.openlocfilehash: 9a64866f7956e9b18b9e25c57431bf0855148ec8
-  ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
+  ms.openlocfilehash: 386f37e2e6ebff820f4f6385281783daf41243b2
+  ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
   ms.translationtype: MT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 04/16/2021
-  ms.locfileid: "51876764"
+  ms.lasthandoff: 07/14/2021
+  ms.locfileid: "53430442"
 title: Veelgestelde vragen over berichtversleuteling
 summary: >
   Hebt u een vraag over hoe de nieuwe mogelijkheden voor berichtbeveiliging werken? Controleer hier of er een antwoord is. Bekijk ook Veelgestelde vragen over gegevensbescherming [in Azure Information Protection](/information-protection/get-started/faqs-rms) voor antwoorden op vragen over de gegevensbeschermingsservice, Azure Rights Management, in Azure Information Protection.
@@ -44,7 +44,7 @@ sections:
     answer: "Nee. OME en de optie voor het verstrekken en controleren van uw eigen versleutelingssleutels, byok genaamd, van Azure Information Protection, zijn niet ontworpen om te reageren op dagvaardingsverzoeken van de wet. OME, met BYOK voor Azure Information Protection, is ontworpen voor klanten met compliance-aandacht. Microsoft neemt verzoeken van derden voor klantgegevens serieus. Als cloudserviceprovider pleiten we altijd voor de privacy van klantgegevens. In het geval dat we een dagvaarding krijgen, proberen we altijd de derde partij om te leiden naar de klant om de informatie te verkrijgen. (Lees Brad Smith's blog: [Bescherm klantgegevens tegen overheidsinkijkers).](https://blogs.microsoft.com/blog/2013/12/04/protecting-customer-data-from-government-snooping/) We publiceren regelmatig gedetailleerde informatie over de aanvraag die we ontvangen. Zie Reageren op verzoeken van de overheid en wetshandhavers om toegang te krijgen tot klantgegevens [in](https://www.microsoft.com/trustcenter/privacy/govt-requests-for-data) het Microsoft Trust Center voor meer informatie over gegevensaanvragen van derden. Zie ook 'Openbaarmaking van klantgegevens' in de [Voorwaarden voor onlineservices (OST).](https://www.microsoft.com/Licensing/product-licensing/products.aspx)\n  \n"
   - question: >
       Hoe is deze functie gerelateerd aan oudere Office 365-berichtversleuteling (OME) en IRM-functies (Information Rights Management) ?
-    answer: "De nieuwe mogelijkheden voor Office 365-berichtversleuteling zijn een evolutie van de bestaande IRM- en oudere OME-oplossingen. In de volgende tabel vindt u meer informatie.\n  \n**Vergelijking van oudere OME-, IRM- en nieuwe OME-mogelijkheden**\n\n| Functie | Vorige versies van OME | IRM | Nieuwe OME-mogelijkheden |\n|:-----|:-----|:-----|:-----|\n|**Een versleutelde e-mail verzenden**|Alleen via Exchange regels voor e-mailstroom|Eindgebruikers die zijn gestart vanuit Outlook voor Windows, Outlook voor Mac of Outlook op internet; of via Exchange regels voor e-mailstroom|Eindgebruikers die zijn gestart vanuit Outlook voor Windows, Outlook voor Mac of Outlook op internet; of via e-mailstroomregels|\n|**Rechtenbeheer**|-|Optie Niet doorsturen en aangepaste sjablonen|Optie Niet doorsturen, optie alleen-versleutelen, standaard- en aangepaste sjablonen|\n|**Ondersteund type geadresseerde**|Alleen externe geadresseerden|Alleen interne geadresseerden|Interne en externe geadresseerden|\n|**Ervaring voor geadresseerde**|Externe geadresseerden hebben een HTML-bericht ontvangen dat ze hebben gedownload en geopend in een browser of een mobiele app hebben gedownload.|Interne geadresseerden hebben alleen versleutelde e-mail ontvangen in Outlook voor Windows, Outlook voor Mac en Outlook op internet.|Interne en externe geadresseerden ontvangen e-mail in Outlook voor Windows, Outlook voor Mac, Outlook op het web, Outlook voor Android en Outlook voor iOS, of via een webportal, ongeacht of ze zich in dezelfde organisatie of in een organisatie hebben. De OME-portal vereist geen afzonderlijke download.|\n|**Ondersteuning voor uw eigen sleutel**|Niet beschikbaar|Niet beschikbaar| BYOK ondersteund|\n"
+    answer: "De nieuwe mogelijkheden voor Office 365-berichtversleuteling zijn een evolutie van de bestaande IRM- en oudere OME-oplossingen. In de volgende tabel vindt u meer informatie.\n  \n**Vergelijking van oudere OME-, IRM- en nieuwe OME-mogelijkheden**\n\n| Mogelijkheid | Vorige versies van OME | IRM | Nieuwe OME-mogelijkheden |\n|:-----|:-----|:-----|:-----|\n|**Een versleutelde e-mail verzenden**|Alleen via Exchange regels voor e-mailstroom|Eindgebruiker die is gestart vanuit Outlook voor Windows, Outlook voor Mac of webversie van Outlook; of via Exchange regels voor e-mailstroom|Eindgebruiker die is gestart vanuit Outlook voor Windows, Outlook voor Mac of webversie van Outlook; of via e-mailstroomregels|\n|**Rechtenbeheer**|-|Optie Niet doorsturen en aangepaste sjablonen|Optie Niet doorsturen, optie alleen-versleutelen, standaard- en aangepaste sjablonen|\n|**Ondersteund type geadresseerde**|Alleen externe geadresseerden|Alleen interne geadresseerden|Interne en externe geadresseerden|\n|**Ervaring voor geadresseerde**|Externe geadresseerden hebben een HTML-bericht ontvangen dat ze hebben gedownload en geopend in een browser of een mobiele app hebben gedownload.|Interne geadresseerden hebben alleen versleutelde e-mail ontvangen in Outlook voor Windows, Outlook voor Mac en webversie van Outlook.|Interne en externe geadresseerden ontvangen e-mail in Outlook voor Windows, Outlook voor Mac, webversie van Outlook, Outlook voor Android en Outlook voor iOS of via een webportal, ongeacht of ze zich in dezelfde organisatie of in een organisatie hebben. De OME-portal vereist geen afzonderlijke download.|\n|**Ondersteuning voor uw eigen sleutel**|Niet beschikbaar|Niet beschikbaar| BYOK ondersteund|\n"
   - question: >
       Hoe schakel ik de nieuwe OME-mogelijkheden voor mijn organisatie in?
     answer: "Zie [Nieuwe functies Office 365-berichtversleuteling instellen.](set-up-new-message-encryption-capabilities.md)\n  \n"
@@ -60,15 +60,15 @@ sections:
     answer: "On-premises gebruikers kunnen versleutelde e-mail verzenden met Exchange Online regels voor e-mailstroom. Hiervoor moet u e-mail door e-mail Exchange Online. Zie Deel [2: E-mail zo configureren](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-to-route-mail#part-2-configure-mail-to-flow-from-your-email-server-to-office-365)dat de e-mail van uw e-mailserver naar de Microsoft 365.\n  \n"
   - question: >
       Welke e-mailclient moet ik gebruiken om een VERSLEUTELD OME-bericht te maken? Welke toepassingen worden ondersteund voor het verzenden van beveiligde berichten?
-    answer: "U kunt beveiligde berichten maken Outlook 2016, Outlook 2013 voor Windows en Mac en van Outlook op internet. Zie Versleutelde berichten verzenden, weergeven en beantwoorden in Outlook pc voor meer informatie over het verzenden [van versleutelde berichten.](https://support.microsoft.com/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980?ui=en-us&rs=en-us&ad=us)\n  \n"
+    answer: "U kunt beveiligde berichten maken van Outlook 2016, Outlook 2013 voor Windows mac en van webversie van Outlook. Zie Versleutelde berichten verzenden, weergeven en beantwoorden in Outlook pc voor meer informatie over het verzenden [van versleutelde berichten.](https://support.microsoft.com/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980?ui=en-us&rs=en-us&ad=us)\n  \n"
   - question: >
       Welke e-mail clients worden ondersteund om beveiligde e-mailberichten te lezen en te beantwoorden?
     answer: >
-      Microsoft 365 gebruikers kunnen lezen en reageren vanuit Outlook voor Windows en Mac (2013 en 2016), Outlook op het web en Outlook mobiel (Android en iOS). U kunt ook de oorspronkelijke e-mailclient van iOS gebruiken als uw organisatie dit toestaat. Als u geen gebruiker Microsoft 365, kunt u versleutelde berichten op internet lezen en beantwoorden via uw webbrowser.
+      Microsoft 365 gebruikers kunnen lezen en reageren vanuit Outlook voor Windows en Mac (2013 en 2016), webversie van Outlook en Outlook mobiel (Android en iOS). U kunt ook de oorspronkelijke e-mailclient van iOS gebruiken als uw organisatie dit toestaat. Als u geen gebruiker Microsoft 365, kunt u versleutelde berichten op internet lezen en beantwoorden via uw webbrowser.
   - question: >
       Welke e-mail clients ondersteunen de versleutelde beveiligde e-mailberichten?
     answer: >
-      Microsoft 365 gebruikers kunnen Outlook voor pc-versies 2019 en Microsoft 365 gebruiken om e-mail te maken die is beveiligd met het beleid voor alleen-versleutelen.  Dat betekent dat berichten waarin het nieuwe versleutelingsbeleid is toegepast, rechtstreeks kunnen worden gelezen in Outlook op het web, in Outlook voor iOS en Android, en nu Outlook voor pc-versies 2019 en Microsoft 365.
+      Microsoft 365 gebruikers kunnen Outlook voor pc-versies 2019 en Microsoft 365 gebruiken om e-mail te maken die is beveiligd met het beleid voor alleen-versleutelen.  Dat betekent dat berichten waarin het nieuwe versleutelingsbeleid is toegepast, rechtstreeks kunnen worden gelezen in webversie van Outlook, in Outlook voor iOS en Android, en nu Outlook voor pc-versies 2019 en Microsoft 365.
   - question: >
       Is er een limiet voor de grootte van berichten die u met OME kunt verzenden?
     answer: >
@@ -82,7 +82,7 @@ sections:
       Het korte antwoord is ja! Als dit is ingeschakeld, kunt u met PDF-versleuteling gevoelige PDF-documenten beveiligen via veilige communicatie of veilige samenwerking. Wanneer u een e-mailbericht verzendt, worden Office 365 PDF-bestandsbijlagen versleuteld. De Outlook-client versleutelt geen PDF-bestandsbijlagen.
 
 
-      Voor Outlook op het web, Outlook voor iOS en Outlook voor Android kunt u PDF-bestanden die u verzendt versleutelen zonder meer stappen. Deze clients ondersteunen inheems PDF-versleuteling.
+      Voor webversie van Outlook, Outlook voor iOS en Outlook voor Android kunt u PDF's versleutelen die u verzendt zonder meer stappen. Deze clients ondersteunen inheems PDF-versleuteling.
 
 
       Outlook desktop biedt geen standaardondersteuning voor versleuteling van PDF-bestandsbijlagen. In plaats daarvan moet u eerst de regels Exchange e-mailstroom of DLP instellen om versleuteling toe te passen op PDF-bijlagen. Wanneer u e-mail verzendt vanaf Outlook bureaublad met een PDF-bijlage, stuurt de client eerst het bericht met de bijlage naar de service. Wanneer de service het bestand ontvangt, past de service de OME-beveiliging toe van het DLP-beleid (Data Loss Prevention) of de regel e-mailstroom in Exchange Online. Vervolgens verzendt Exchange Online bericht met de beveiligde PDF-bestandsbijlage.
@@ -98,7 +98,7 @@ sections:
       ```
 
 
-      Met PDF-versleuteling kunt u gevoelige PDF-documenten beveiligen via veilige communicatie of veilige samenwerking. Voor alle Outlook-clients nemen berichten en niet-beveiligde PDF-bijlagen de OME-beveiliging over van het DLP-beleid (Data Loss Prevention) of de regel voor e-mailstroom in Exchange Online. Als een gebruiker Outlook op het web een niet-beveiligd PDF-document bijsluit en de beveiliging op het bericht van toepassing is, neemt het bericht de beveiliging van het bericht over. Gebruikers kunnen de versleutelde bijlagen alleen openen in toepassingen die beveiligde PDF-bestanden ondersteunen (bijvoorbeeld de OME Portal en de Azure Information Protection Viewer).
+      Met PDF-versleuteling kunt u gevoelige PDF-documenten beveiligen via veilige communicatie of veilige samenwerking. Voor alle Outlook-clients nemen berichten en niet-beveiligde PDF-bijlagen de OME-beveiliging over van het DLP-beleid (Data Loss Prevention) of de regel voor e-mailstroom in Exchange Online. Als een gebruiker webversie van Outlook een niet-beveiligd PDF-document bijsluit en de beveiliging op het bericht van toepassing is, neemt het bericht de beveiliging van het bericht over. Gebruikers kunnen de versleutelde bijlagen alleen openen in toepassingen die beveiligde PDF-bestanden ondersteunen (bijvoorbeeld de OME Portal en de Azure Information Protection Viewer).
 
 
       > [!IMPORTANT]
@@ -110,22 +110,22 @@ sections:
       Nog niet. OneDrive voor Bedrijven bijlagen worden niet ondersteund en eindgebruikers kunnen geen e-mail versleutelen die een cloudbijlage OneDrive voor Bedrijven bevatten.
   - question: >
       Welke e-mail clients ondersteunen preview van versleutelde bijlagen in beveiligde e-mailberichten?
-    answer: "Wanneer bijlagen zijn beveiligd met een beveiligde e-mail, Outlook clients de mogelijkheid om het document rechtstreeks te bekijken. Outlook ondersteunt een voorbeeld van Office documenten (docx, xlsx, pptx, doc, xls, ppt). Outlook web ondersteunt een voorbeeld van Office documenten (docx, xlsx, pptx) en PDF.  \n"
+    answer: "Wanneer bijlagen zijn beveiligd met een beveiligde e-mail, Outlook clients de mogelijkheid om het document rechtstreeks te bekijken. Outlook ondersteunt een voorbeeld van Office documenten (docx, xlsx, pptx, doc, xls, ppt). webversie van Outlook ondersteunt een voorbeeld van Office documenten (docx, xlsx, pptx) en PDF.  \n"
   - question: >
       Welke e-mail clients ondersteunen het intrekken van beveiligde e-mailberichten?
     answer: >
-      Outlook op internet ondersteunt het intrekken van beveiligde e-mail.  Zie [Een versleuteld bericht intrekken dat u hebt verzonden voor](revoke-ome-encrypted-mail.md#how-to-revoke-an-encrypted-message-that-you-sent) meer informatie.
+      webversie van Outlook ondersteunt intrekking van beveiligde e-mail.  Zie [Een versleuteld bericht intrekken dat u hebt verzonden voor](revoke-ome-encrypted-mail.md#how-to-revoke-an-encrypted-message-that-you-sent) meer informatie.
   - question: >
       Kan ik berichten automatisch versleutelen door beleid in te stellen?
     answer: "Ja. Gebruik e-mailstroomregels in Exchange Online om een bericht automatisch te versleutelen op basis van bepaalde voorwaarden. U kunt bijvoorbeeld beleid maken op basis van de geadresseerde-id, het domein van de geadresseerde of op de inhoud in de tekst of het onderwerp van het bericht. Zie [Regels voor e-mailstroom definiëren om e-mailberichten te versleutelen in Office 365.](define-mail-flow-rules-to-encrypt-email.md)\n  \n"
   - question: >
       Kan ik versleuteling voor inkomende en uitgaande e-mail automatisch verwijderen?
     answer: >
-      Beheerders kunnen een e-mailstroomregel instellen om versleuteling voor uitgaande e-mail te verwijderen. U kunt geen regel instellen om versleuteling voor inkomende e-mail te verwijderen.
+      Beheerders kunnen een e-mailstroomregel instellen om versleuteling voor uitgaande e-mail te verwijderen. U kunt alleen een regel instellen om versleuteling te verwijderen voor inkomende e-mail die afkomstig is van uw organisatie.
   - question: >
-      Kan ik berichten automatisch versleutelen door beleid in te stellen in Data Loss Prevention (DLP) via het Beveiligings &amp; compliancecentrum?
+      Kan ik berichten automatisch versleutelen door beleid in te stellen in DLP (Data Loss Prevention) via de Microsoft 365-compliancecentrum?
     answer: >
-      Ja! U kunt e-mailstroomregels instellen in Exchange Online of met DLP in het Beveiligings &amp; compliancecentrum.
+      Ja! U kunt regels voor e-mailstroom instellen in Exchange Online of met DLP in de Microsoft 365-compliancecentrum.
   - question: >
       Kan ik versleutelde berichten aanpassen met de huisstijl van mijn bedrijf?
     answer: "Ja! Zie Het merk van uw organisatie toevoegen aan uw versleutelde berichten voor informatie over het aanpassen van e-mailberichten en de OME-portal. Zie [Het merk van uw organisatie toevoegen aan uw versleutelde berichten.](add-your-organization-brand-to-encrypted-messages.md)\n  \n"
@@ -157,7 +157,7 @@ sections:
       - Gebruikers kunnen beveiligde e-mails openen in een gedeeld postvak waar het gedeelde postvak een beveiligde e-mail heeft ontvangen als onderdeel van een distributiegroep.
 
 
-      - Gebruikers kunnen bijlagen bekijken die bescherming van e-mail overnemen wanneer ze Outlook gebruiken voor Windows, Outlook voor Mac en Outlook op internet.
+      - Gebruikers kunnen bijlagen bekijken die bescherming van e-mail overnemen wanneer ze Outlook gebruiken voor Windows, Outlook voor Mac en webversie van Outlook.
 
 
       In de volgende tabel worden de ondersteunde clients voor gedeelde postvakken vermeld.

@@ -18,12 +18,12 @@ ms.custom:
 localization_priority: Priority
 recommendations: false
 description: Meer informatie over de instellingen voor het delen met gasten in Microsoft 365 die van invloed kunnen zijn op het delen met personen buiten uw organisatie.
-ms.openlocfilehash: 57db724fe8938d0e258dd1df58fe5016d5e8d2c7
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 41ead8bf4532503cb47623f65a82ca36a616091e
+ms.sourcegitcommit: 8c698d1a0c41baf5f35d07b0d765b4a5ead593d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53229225"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53409162"
 ---
 # <a name="microsoft-365-guest-sharing-settings-reference"></a>Microsoft 365 guest sharing settings reference (Overzicht van de instellingen voor delen met gasten van Microsoft 365)
 
@@ -165,7 +165,7 @@ Omdat OneDrive een hiërarchie van sites binnen SharePoint is, hebben de instell
 | Instelling | Standaard | Omschrijving |
 |:-----|:-----|:-----|
 |Extern delen per domein beperken|Uit|Met deze instelling kunt u een lijst opgeven met voor het delen toegestane of geblokkeerde domeinen. Als toegestane domeinen worden opgegeven, kunnen uitnodigingen tot delen alleen naar deze domeinen worden verzonden. Als geblokkeerde domeinen worden opgegeven, kunnen er geen uitnodigingen tot delen naar deze domeinen worden verzonden. <p> Deze instelling heeft invloed op alle SharePoint-en OneDrive-sites in de organisatie.|
-|Alleen gebruikers in specifieke beveiligingsgroepen toestaan om extern te delen|Uit|Als u wilt beperken wie er met gasten kan delen in SharePoint en OneDrive, kunt u dit doen door delen te beperken tot personen in opgegeven beveiligingsgroepen. Deze instellingen hebben geen invloed op delen via Microsoft 365 Groepen of Teams. Gasten die via een groep of team zijn uitgenodigd, hebben ook toegang tot de bijbehorende site, hoewel het delen van documenten en mappen alleen kan worden uitgevoerd door personen in de opgegeven beveiligingsgroepen. <p> Voor elke opgegeven groep kunt u kiezen of die gebruikers kunnen delen met iedereen-koppelingen.|
+|Alleen gebruikers in specifieke beveiligingsgroepen toestaan om extern te delen|Uit|Als u wilt beperken wie er met gasten kan delen in SharePoint en OneDrive, kunt u dit doen door delen te beperken tot personen in opgegeven beveiligingsgroepen. Deze instellingen hebben geen invloed op delen via Microsoft 365 Groepen of Teams. Gasten die via een groep of team zijn uitgenodigd, hebben ook toegang tot de bijbehorende site, hoewel het delen van documenten en mappen alleen kan worden uitgevoerd door personen in de opgegeven beveiligingsgroepen. <p> Voor elke opgegeven groep kunt u kiezen welke van die gebruikers kunnen delen met Iedereen-koppelingen.|
 |Gasten moeten zich aanmelden met behulp van hetzelfde account waarnaar de uitnodigingen voor delen worden verzenden|Uit|Hiermee voorkomt u dat gasten uitnodigingen voor het delen van sites benutten met een ander e-mailadres dan waarnaar de uitnodiging werd verzonden. <p> Bij [SharePoint- en OneDrive-integratie met Microsoft Azure AD B2B (voorbeeld)](/sharepoint/sharepoint-azureb2b-integration-preview) wordt deze instelling niet gebruikt, omdat alle gasten worden toegevoegd aan de directory op basis van het e-mailadres waarnaar de uitnodiging werd verzonden. Alternatieve e-mailadressen kunnen niet worden gebruikt voor sitetoegang.|
 |Gasten toestaan items te delen waarvan ze niet de eigenaar zijn|Aan|Wanneer **Aan** kunnen gasten items waarvan ze niet de eigenaar zijn, delen met andere gebruikers of gasten. Wanneer **Uit** is dit niet mogelijk. Gasten kunnen altijd items delen waarover ze het volledige beheer hebben.|
 |Personen die een verificatiecode gebruiken, moeten na dit aantal dagen opnieuw verifiëren|Uit|Met deze instelling kunt u vereisen dat gebruikers die zich verifiëren met een eenmalige wachtwoordcode na een bepaald aantal dagen opnieuw moeten verifiëren.|

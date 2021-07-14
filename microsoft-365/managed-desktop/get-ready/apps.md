@@ -10,12 +10,12 @@ ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 571acc9c240fc0243998050ac3013258a2f85a3e
-ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
+ms.openlocfilehash: 37f533f34753d66d975cb557239b2b168ac78f8e
+ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52028942"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53430766"
 ---
 # <a name="apps-in-microsoft-managed-desktop"></a>Apps in Microsoft Managed Desktop
 
@@ -31,7 +31,7 @@ U kunt ook extra niet-Microsoft-apps implementeren voor uw gebruikers voor selfs
 
 ## <a name="apps-provided-by-microsoft"></a>Apps van Microsoft
 
-Inbegrepen bij uw Microsoft Managed Desktop-licentie zijn 64-bits versies van de apps in de Microsoft 365-apps voor ondernemingen Standard Suite (Word, Excel, PowerPoint, Outlook, Publisher, Access, Skype voor Bedrijven en OneNote.) Klik-en-Run-versies van Microsoft Project en Visio zijn  standaard niet opgenomen, maar u kunt ze wel vragen om ze toe te voegen. Zie Installatie van Microsoft Project of Microsoft Visio op Microsoft Managed Desktop [apps voor meer informatie over deze apps.](../get-started/project-visio.md)
+Inbegrepen bij uw Microsoft Managed Desktop-licentie zijn 64-bits versies van de apps in de Microsoft 365-apps voor ondernemingen Standard Suite (Word, Excel, PowerPoint, Outlook, Publisher, Access, Teams en OneNote.) Klik-en-Run-versies van Microsoft Project en Visio zijn  standaard niet opgenomen, maar u kunt ze wel vragen om ze toe te voegen. Zie Installatie van Microsoft Project of Microsoft Visio op Microsoft Managed Desktop [apps voor meer informatie over deze apps.](../get-started/project-visio.md)
 
 ### <a name="what-microsoft-does-to-support-the-apps-we-provide"></a>Wat Microsoft doet om de apps die we bieden te ondersteunen
 

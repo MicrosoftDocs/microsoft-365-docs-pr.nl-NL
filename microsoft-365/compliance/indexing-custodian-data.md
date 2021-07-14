@@ -16,16 +16,16 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Wanneer een bewaarder wordt toegevoegd aan een Advanced eDiscovery geval, wordt inhoud die als gedeeltelijk geïndexeerd is beschouwd, opnieuw verwerkt om deze volledig doorzoekbaar te maken.
-ms.openlocfilehash: 904c8fe626ce8ece8f4b48bd5504e4011e9f4fb2
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: f510b7e9c0fa2c5c181709c96907610066a4b1cf
+ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "52161892"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53430504"
 ---
 # <a name="advanced-indexing-of-custodian-data"></a>Geavanceerde indexering van beheerdersgegevens
 
-Wanneer een bewaarder wordt toegevoegd aan een Advanced eDiscovery geval, wordt inhoud die als gedeeltelijk geïndexeerd is beschouwd, opnieuw verwerkt om deze volledig doorzoekbaar te maken.  Dit proces wordt Geavanceerde *indexering genoemd.* Inhoud kan gedeeltelijk worden geïndexeerd om een aantal redenen, zoals het bestaan van afbeeldingen, niet-ondersteunde bestandstypen of wanneer limieten voor bestandsgrootte indexeren worden aangetroffen.
+Wanneer een bewaarder wordt toegevoegd aan een Advanced eDiscovery geval, wordt inhoud die als gedeeltelijk geïndexeerd is beschouwd of indexeringsfouten heeft gehad, opnieuw geïndexeerd om deze volledig doorzoekbaar te maken.  Dit proces voor het opnieuw indexeren wordt *Geavanceerde indexering genoemd.* Er zijn een aantal redenen waarom inhoud gedeeltelijk is geïndexeerd of indexeringsfouten bevat. Dit omvat afbeeldingsbestanden of de aanwezigheid van afbeeldingen in een bestand, niet-ondersteunde bestandstypen of indexeringslimieten met bestandsgrootte. Voor SharePoint worden geavanceerde indexering alleen uitgevoerd op items die zijn gemarkeerd als gedeeltelijk geïndexeerd of met indexeringsfouten. In Exchange worden e-mailberichten met afbeeldingsbijlagen niet gemarkeerd als gedeeltelijk geïndexeerd of met indexeringsfouten. Dit betekent dat deze bestanden niet opnieuw worden geïndexeerd door geavanceerd indexeringsproces.
 
 Zie voor meer informatie over het verwerken van ondersteuning en gedeeltelijk geïndexeerde items:
 

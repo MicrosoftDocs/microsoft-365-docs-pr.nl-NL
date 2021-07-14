@@ -17,12 +17,12 @@ search.appverid:
 - SPO160
 - MET150
 description: In dit artikel wordt beschreven hoe u uw portal kunt starten met de planning voor het starten van portals
-ms.openlocfilehash: a0ba40849b47af93f45bcc9c77f2ba6d8f715dc5
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: dd2b6bdabae5f4d24882912709d6f16a637a9721
+ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53229549"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53430418"
 ---
 # <a name="launch-your-portal-using-the-sharepoint-portal-launch-scheduler"></a>Uw portal starten met de SharePoint portal launch scheduler
 
@@ -117,9 +117,8 @@ Voorheen konden portallanceringen alleen worden gepland via SharePoint PowerShel
 
     > [!NOTE]
     > Maximaal 50 afzonderlijke gebruikers of beveiligingsgroepen kunnen maximaal worden gebruikt voor de hele lancering. Elke start is onafhankelijk van elkaar, dus als u een lancering in een andere portal plant, kunt u maximaal 50 gebruikers/beveiligingsgroepen gebruiken voor die start. Daarnaast kunt u maximaal 20 verschillende gebruikers of beveiligingsgroepen per golf gebruiken. 
-
->De planning voor het starten van portals ondersteunt beveiligingsgroepen en beveiligingsgroepen met e-mail. 
-
+    >
+    > De planning voor het starten van portals ondersteunt beveiligingsgroepen en beveiligingsgroepen met e-mail. 
 
 8. Bevestig de details van de portallancering en selecteer **Planning.** Nadat de start is gepland, moeten wijzigingen in de startpagina van de portal SharePoint een gezond diagnostisch resultaat ontvangen voordat de portal wordt geopend.
 
@@ -127,7 +126,14 @@ Voorheen konden portallanceringen alleen worden gepland via SharePoint PowerShel
 
 Als u van plan bent een portal met meer dan 100.000 gebruikers te starten, dient u een ondersteuningsaanvraag in volgens de onderstaande stappen. Zorg ervoor dat u alle gevraagde informatie op moet nemen.
 
-**Ga als volgt te werk:**
+> [!NOTE]
+>
+> - Deze procedure moet alleen worden gevolgd als u aan de volgende vereisten voldoet:
+> - De startpagina is voltooid.
+> - [Portal Health Guidance](https://aka.ms/portalhealth) is gevolgd.
+> - De startdatum is binnen 14 dagen.
+
+**Volg deze stappen:**
 
 1. Ga naar <https://admin.microsoft.com>.
 2. Controleer of u de preview van het nieuwe beheercentrum gebruikt
@@ -160,7 +166,7 @@ Lanceringen die zijn gepland met het hulpprogramma Voor het starten van portals,
 
 2. Selecteer vervolgens **Verwijderen en** selecteer nogmaals Verwijderen wanneer u het bericht hieronder ziet. 
 
-   ![Afbeelding van het hulpprogramma Voor het starten van portal](../media/portal-launch-delete-2.png)
+   ![Afbeelding van de prompt met de vraag of u een geplande start wilt verwijderen of behouden](../media/portal-launch-delete-2.png)
 
 ## <a name="use-the-powershell-portal-launch-scheduler"></a>De startplanning voor PowerShell Portal gebruiken
 

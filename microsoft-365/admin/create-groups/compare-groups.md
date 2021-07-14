@@ -16,18 +16,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - okr_smb
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 758759ad-63ee-4ea9-90a3-39f941897b7d
 description: Leden van een Microsoft 365-groep ontvangen een groeps e-mail en een gedeelde werkruimte voor gesprekken, bestanden, agenda-items, Stream en Planner.
-ms.openlocfilehash: 37bead3ab878aac087c5ec16016dc2c8ddce410c
-ms.sourcegitcommit: 022d9d91263994c48efcebe08a84319573dc3a8c
+ms.openlocfilehash: 12da954beb4d019b7652ef4df2e18cb30ff542ed
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 07/12/2021
-ms.locfileid: "53377179"
+ms.locfileid: "53393257"
 ---
 # <a name="compare-groups"></a>Groepen vergelijken
 
@@ -50,6 +51,8 @@ Microsoft 365-groepen kunnen worden [geconfigureerd voor dynamisch lidmaatschap 
 Microsoft 365-groepen kunnen worden geopend via mobiele apps zoals Outlook voor iOS en Outlook voor Android.
 
 Groepsleden kunnen verzenden als of verzenden namens het e-mailadres van de groep als dit is [ingeschakeld door de beheerder](../../solutions/allow-members-to-send-as-or-send-on-behalf-of-group.md).
+
+Microsoft 365-groepen bieden geen ondersteuning voor nesting met andere Microsoft 365-groepen of met distributie- of beveiligingsgroepen.
 
 ## <a name="distribution-groups"></a>Distributiegroepen
 
@@ -97,5 +100,8 @@ Het is niet mogelijk een gedeeld postvak te migreren naar een Microsoft 365-groe
 
 ## <a name="related-content"></a>Verwante inhoud
 
-[Meer informatie over Microsoft 365 Groepen](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2) (artikel)\
-[Waarom u een upgrade voor uw distributielijsten moet uitvoeren naar groepen in Outlook](https://support.microsoft.com/office/7fb3d880-593b-4909-aafa-950dd50ce188) (artikel)
+[Meer informatie over Microsoft 365-groepen](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+
+[Distributielijsten upgraden naar Microsoft 365-groepen in Outlook](/microsoft-365/admin/manage/upgrade-distribution-lists)
+
+[Waarom u uw distributielijsten moet upgraden naar groepen in Outlook](https://support.microsoft.com/office/7fb3d880-593b-4909-aafa-950dd50ce188)

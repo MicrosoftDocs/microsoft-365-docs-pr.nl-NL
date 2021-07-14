@@ -15,21 +15,27 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: 0dae2d65e88c8a5ad4bc6c39e8ea540f55d0f822
-ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
+ms.openlocfilehash: e033142567c0eb33987cae6d840abf5f6422365e
+ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53326745"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53430598"
 ---
 # <a name="learn-about-insider-risk-management-in-microsoft-365"></a>Meer informatie over insider risk management in Microsoft 365
 
 Insider risk management is een complianceoplossing in Microsoft 365 waarmee interne risico's worden geminimaliseerd doordat u schadelijke en onbedoelde activiteiten in uw organisatie kunt opsporen, onderzoeken en erop kunt reageren. Met beleidsregels voor insiderrisico's kunt u de soorten risico's definiëren die u in uw organisatie kunt identificeren en detecteren, inclusief het handelen in zaken en het escaleren van zaken naar Microsoft Advanced eDiscovery indien nodig. Risicoanalisten in uw organisatie kunnen snel passende acties uitvoeren om ervoor te zorgen dat gebruikers voldoen aan de nalevingsstandaarden van uw organisatie.
 
-Bekijk de onderstaande video om te zien hoe insider risk management uw organisatie kan helpen bij het voorkomen, detecteren en bevatten van risico's terwijl u prioriteit geeft aan uw organisatiewaarden, cultuur en gebruikerservaring:
+Bekijk de onderstaande video's om te leren hoe insiderrisicobeheer uw organisatie kan helpen bij het voorkomen, detecteren en bevatten van risico's, terwijl u prioriteit geeft aan de waarden, cultuur en gebruikerservaring van uw organisatie:
 <br>
 <br>
+
+**Insider-oplossing voor risicobeheer & ontwikkeling:**
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4j9CN]
+<br>
+
+**Insider-werkstroom voor risicobeheer:**
+>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OUXB]
 
 ## <a name="modern-risk-pain-points"></a>Moderne risicopijnpunten
 

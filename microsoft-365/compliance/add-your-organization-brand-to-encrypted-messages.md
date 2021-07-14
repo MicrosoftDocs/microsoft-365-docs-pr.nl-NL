@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 description: Lees hoe Office 365 globale beheerders de huisstijl van uw organisatie kunnen toepassen op versleutelde e-mailberichten & inhoud van de versleutelingsportal.
-ms.openlocfilehash: 2898e12ad00d11cd9eb2f3be5d817ef113607e79
-ms.sourcegitcommit: 94fa3e57fa6505551d84ae7b458150dceff30db7
+ms.openlocfilehash: 95320e9f268f19cedd993efe4fa0e68fd75af125
+ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "52162485"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53430730"
 ---
 # <a name="add-your-organizations-brand-to-your-microsoft-365-for-business-message-encryption-encrypted-messages"></a>Het merk van uw organisatie toevoegen aan uw Microsoft 365 berichtenversleuteling voor bedrijven
 
@@ -153,9 +153,12 @@ Een aangepaste huisstijlsjabloon verwijderen:
 
 ## <a name="create-an-exchange-mail-flow-rule-that-applies-your-custom-branding-to-encrypted-emails"></a>Maak een Exchange e-mailstroomregel die uw aangepaste huisstijl op versleutelde e-mailberichten van toepassing is
 
+> [!IMPORTANT]
+> Toepassingen van derden die e-mail scannen en wijzigen, kunnen voorkomen dat OME-huisstijl correct wordt toegepast.
+
 Nadat u de standaardsjabloon hebt gewijzigd of nieuwe huisstijlsjablonen hebt gemaakt, kunt u Exchange regels voor e-mailstroom maken om uw aangepaste huisstijl toe te passen op basis van bepaalde voorwaarden. Een dergelijke regel is in de volgende scenario's van toepassing op aangepaste huisstijl:
 
-- Als de e-mail handmatig is versleuteld door de eindgebruiker met Outlook of Outlook op het web, voorheen Outlook Web App
+- Als de e-mail handmatig is versleuteld door de eindgebruiker met Outlook of webversie van Outlook, voorheen Outlook Web App
 
 - Als de e-mail automatisch is versleuteld door een Exchange regel voor e-mailstroom of beleid voor preventie van gegevensverlies
 
@@ -165,7 +168,7 @@ Zie Regels voor e-mailstroom definiëren om e-mailberichten te versleutelen in O
 
 2. Kies de **tegel** Beheerder.
 
-3. Kies in Microsoft 365 beheercentrum de optie **Beheercentra** \> **Exchange.**
+3. Kies beheercentra Microsoft 365-beheercentrum de  \> Exchange.
 
 4. Ga in het EAC naar **E-mailstroomregels** \>  en selecteer **Nieuw** nieuw pictogram Een nieuwe ![ regel ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> **maken.** Zie voor meer informatie over het gebruik van het EAC [Exchange beheercentrum in Exchange Online.](/exchange/exchange-admin-center)
 

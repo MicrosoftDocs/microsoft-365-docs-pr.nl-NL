@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0b0f7c5a4a75fdc80509dbc02a43d28f7c93fd7c
-ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
+ms.openlocfilehash: 801d94eb769c6b738a1d4c011b67f8a2a7cf81f1
+ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53327045"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53430802"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-access-control"></a>Microsoft Defender voor Endpoint Device Control Verwisselbare Storage Access Control
 
@@ -39,6 +39,13 @@ Met Microsoft Defender voor Endpoint Device Control Verwisselbaar Storage Access
 |Ondersteuning voor GPO    |   Ja      |
 |Ondersteuning op basis van gebruikers     |   Ja      |
 |Ondersteuning op basis van machines    |    Ja     |
+
+## <a name="licensing"></a>Licenties
+
+Voordat u aan de slag gaat met Verwisselbaar Storage Access Control, moet u [uw Microsoft 365 bevestigen.](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1) Als u Verwisselbare Storage Access Control wilt openen en gebruiken, moet u het volgende hebben:
+
+- Microsoft 365 E3 voor functionaliteit/beleidsimplementatie.
+- Microsoft 365 E5 voor rapportage.
 
 ## <a name="prepare-your-endpoints"></a>Uw eindpunten voorbereiden
 
@@ -272,8 +279,6 @@ Voor beleidsimplementatie in Intune moet het account machtigingen hebben voor he
       ./Vendor/MSFT/Defender/Configuration/DeviceControl/PolicyGroups/%7b9b28fae8-72f7-4267-a1a5-685f747a7146%7d/GroupData
 
     - Gegevenstype: tekenreeks (XML-bestand)
-    
-      :::image type="content" source="images/xml-data-type-string.png" alt-text="Het xml-bestand voor het gegevenstype TEKENREEKS":::
 
 2. Maak voor elk beleid ook een OMA-URI:
 
@@ -287,7 +292,6 @@ Voor beleidsimplementatie in Intune moet het account machtigingen hebben voor he
 
     - Gegevenstype: tekenreeks (XML-bestand)
 
-      :::image type="content" source="images/xml-data-type-string-2.png" lightbox="images/xml-data-type-string-2.png" alt-text="Weergave van XML-bestand voor het gegevenstype TEKENREEKS":::
 
 ## <a name="deploying-and-managing-policy-by-using-intune-user-interface"></a>Beleid implementeren en beheren met intune-gebruikersinterface
 

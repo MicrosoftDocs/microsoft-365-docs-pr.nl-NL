@@ -20,19 +20,16 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: b852071c3fbfe12aac62e1d309fa130a4cd81e9c
-ms.sourcegitcommit: b42dd3e706ebf9638cd893b35f75eaa56dd8fd7e
+ms.openlocfilehash: 088dbd16c3667331843ff934c80f85aa8d3a837f
+ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53125396"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53430814"
 ---
 # <a name="microsoft-365-defender-preview-features"></a>Microsoft 365 Defender preview-functies
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
-
-> [!IMPORTANT]
-> De preview-versies worden geleverd zonder serviceovereenkomst en worden niet aanbevolen voor productiebelastingen. Bepaalde functies worden mogelijk niet ondersteund of hebben mogelijk beperkte mogelijkheden.
 
 **Van toepassing op:**
 - Microsoft 365 Defender
@@ -42,6 +39,19 @@ De Microsoft 365 Defender-service wordt voortdurend bijgewerkt met nieuwe functi
 Lees meer over nieuwe functies in Microsoft 365 Defender preview-release en probeer als een van de eersten de komende functies door de preview-ervaring in te- of uitschakelen.
 
 Zie Nieuwe functies in de Microsoft 365 Defender voor meer informatie over nieuwe mogelijkheden die algemeen [beschikbaar zijn.](whats-new.md)
+
+ ## <a name="what-you-need-to-know"></a>Wat u moet weten
+
+Als u werkt met functies in een openbaar voorbeeld, zijn deze functies:
+
+- Kan beperkte of beperkte functionaliteit hebben. De functie kan bijvoorbeeld slechts op één platform van toepassing zijn.
+- Meestal worden functiewijzigingen doorgevoerd voordat ze algemeen beschikbaar zijn (GA).
+- Worden volledig ondersteund door Microsoft.
+- Is mogelijk alleen beschikbaar in geselecteerde geografische regio's of cloudomgevingen. De functie bestaat bijvoorbeeld mogelijk niet in de cloud van de overheid.
+- Afzonderlijke functies in de preview-versie hebben mogelijk meer gebruiks- en ondersteuningsbeperkingen. Als dat zo is, wordt deze informatie meestal vermeld in de documentatie van de functie.
+- De preview-versies worden geleverd met een standaardondersteuningsniveau en kunnen worden gebruikt voor productieomgevingen. 
+
+
 
 ## <a name="required-permissions"></a>Vereiste machtigingen
 

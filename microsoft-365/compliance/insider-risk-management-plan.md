@@ -12,16 +12,22 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: a6a0ebb6ef15a6d4746d72a73feb16e53f89354e
-ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
+ms.openlocfilehash: 19149c7f53cee537450ac12ce5a346a12d43bd91
+ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53326781"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53430511"
 ---
 # <a name="plan-for-insider-risk-management"></a>Intern risicobeheer plannen
 
 Voordat u aan de slag gaat met [insider risk management](insider-risk-management.md) in uw organisatie, zijn er belangrijke planningsactiviteiten en overwegingen die moeten worden beoordeeld door uw informatietechnologie- en compliancebeheerteams. Als u de implementatie op de volgende gebieden grondig begrijpt en plant, zorgt u ervoor dat de implementatie en het gebruik van functies voor insiderrisicobeheer soepel verloopt en wordt afgestemd op de best practices voor de oplossing.
+
+Bekijk de onderstaande video om te zien hoe de insider-werkstroom voor risicobeheer uw organisatie kan helpen bij het voorkomen, detecteren en bevatten van risico's, terwijl u prioriteit geeft aan de waarden, cultuur en gebruikerservaring van uw organisatie:
+<br>
+<br>
+
+>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OUXB]
 
 ## <a name="work-with-stakeholders-in-your-organization"></a>Werken met belanghebbenden in uw organisatie
 
@@ -82,7 +88,7 @@ Als u geen waarschuwingen ziet direct na het configureren van een beleid voor in
 Deel documentatie voor insiderrisicobeheer met de belanghebbenden in uw organisatie die zijn opgenomen in uw beheer- en herstelwerkstroom:
 
 - [Intern risicobeleid maken en beheren](insider-risk-management-policies.md)
-- [Activiteiten met insiderrisico's onderzoeken](insider-risk-management-activities.md)
+- [Activiteiten voor insider-risico onderzoeken](insider-risk-management-activities.md)
 - [Actie ondernemen in het geval van insider-risico](insider-risk-management-cases.md)
 - [Casegegevens controleren met het insiderrisico Inhoudsverkenner](insider-risk-management-content-explorer.md)
 - [Kennisgevingssjablonen voor insider-risico maken](insider-risk-management-notices.md)
