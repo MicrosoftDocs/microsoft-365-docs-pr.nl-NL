@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 08fe4314c1461710d83ea7aeba1fdf9a60dd33a8
-ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
+ms.openlocfilehash: ff4c44199e4b6f8f1b3ca4806908813d7e710e4b
+ms.sourcegitcommit: 4046c2c390851dffcdb430e1ba38c4df23fe2e69
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "53339236"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53415609"
 ---
 # <a name="onboard-windows-servers-to-the-microsoft-defender-for-endpoint-service"></a>Onboard Windows servers to the Microsoft Defender for Endpoint service
 
@@ -222,6 +222,12 @@ De volgende stappen zijn vereist om deze integratie mogelijk te maken:
 ## <a name="offboard-windows-servers"></a>Offboard-Windows servers
 
 U kunt offboard Windows Server (SAC), Windows Server 2019 en Windows Server 2019 Core edition volgens dezelfde methode die beschikbaar is voor Windows 10 clientapparaten.
+
+- [Offboarding met groepsbeleid](configure-endpoints-gp.md#offboard-devices-using-group-policy)
+- [Offboard-apparaten met Configuration Manager](configure-endpoints-sccm.md#offboard-devices-using-configuration-manager)
+- [Apparaten offboarden en bewaken met behulp van hulpprogramma's voor mobiel apparaatbeheer](configure-endpoints-mdm.md#offboard-and-monitor-devices-using-mobile-device-management-tools)
+- [Offboard-apparaten met een lokaal script](configure-endpoints-script.md#offboard-devices-using-a-local-script)
+
 
 Voor andere Windows serverversies hebt u twee opties voor het offboarden Windows servers van de service:
 

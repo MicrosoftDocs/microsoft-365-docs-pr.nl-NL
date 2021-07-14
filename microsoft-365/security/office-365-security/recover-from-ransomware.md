@@ -15,12 +15,12 @@ ms.collection:
 description: Microsoft 365 beheerders kunnen leren hoe ze kunnen herstellen van een ransomware-aanval.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6c3664cb2a60a7173e345de4abaddefefea6e2b1
-ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
+ms.openlocfilehash: 608fac50fc65f20a612b80ed151252eb2a0c2e01
+ms.sourcegitcommit: 4046c2c390851dffcdb430e1ba38c4df23fe2e69
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53341434"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53415549"
 ---
 # <a name="recover-from-a-ransomware-attack-in-microsoft-365"></a>Herstellen van een ransomware-aanval in Microsoft 365
 
@@ -143,16 +143,19 @@ U kunt phishingberichten die ransomware bevatten rapporteren met behulp van een 
 
 ## <a name="additional-ransomware-resources"></a>Extra ransomware-bronnen
 
-[Overzicht van door mensen beheerde ransomware](/security/compass/human-operated-ransomware)
+Belangrijke branchegegevens:
 
-[Snel beschermen tegen ransomware en afpersing](/security/compass/protect-against-ransomware)
+- [Overzicht van door mensen beheerde ransomware](/security/compass/human-operated-ransomware)
 
-[De meest recente Microsoft-beveiligingsinformatie Pdf-rapport)](https://www.microsoft.com/securityinsights/) (zoek naar 'ransomware')
+- [Snel beschermen tegen ransomware en afpersing](/security/compass/protect-against-ransomware)
 
-**Ransomware: Een doorlopende bedreigingsrapport** in het knooppunt **Bedreigingsanalyse** van de Microsoft 365 Defender portal
+- [De meest recente Microsoft-beveiligingsinformatie rapport](https://www.microsoft.com/securityinsights/) (zie pagina's 22-24)
+
+- **Ransomware: Een doordringbaar** en doorlopend  bedreigingsrapport in het knooppunt Bedreigingsanalyse van de Microsoft 365 Defender portal (zie deze [licentievereisten)](/microsoft-365/security/defender/prerequisites#licensing-requirements)
 
 Microsoft 365 beveiliging:
 
+- [Beveiliging tegen malware en ransomware](/compliance/assurance/assurance-malware-and-ransomware-protection)
 - [Ransomware detectie en herstellen van uw bestanden in OneDrive](https://support.microsoft.com/office/0d90ec50-6bfd-40f4-acc7-b8c12c73637f)
 - [Macro's in- of uitschakelen in Office bestanden](https://support.microsoft.com/office/12b036fd-d140-4e74-b45e-16fed1a7e5c6)
 - [Aanbevolen instellingen voor EOP en Microsoft Defender voor Office 365 beveiliging](recommended-settings-for-eop-and-office365.md)

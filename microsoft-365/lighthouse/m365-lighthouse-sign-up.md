@@ -16,12 +16,12 @@ ms.custom:
 - M365-Lighthouse
 search.appverid: MET150
 description: Voor MSP's (Managed Service Providers) leert u hoe u zich kunt registreren voor Microsoft 365 Lighthouse.
-ms.openlocfilehash: 01e17b9c1f3f4e8a877f0b8489288e57ae9fa392
-ms.sourcegitcommit: 8c698d1a0c41baf5f35d07b0d765b4a5ead593d0
+ms.openlocfilehash: f0e67dc6cab0ac135a8ff752e1d2b97aff846cf2
+ms.sourcegitcommit: 4046c2c390851dffcdb430e1ba38c4df23fe2e69
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 07/13/2021
-ms.locfileid: "53409006"
+ms.locfileid: "53415633"
 ---
 # <a name="sign-up-for-microsoft-365-lighthouse"></a>Registreren voor Microsoft 365 Lighthouse
 
@@ -53,7 +53,7 @@ ms.locfileid: "53409006"
 
     Als u wilt controleren of Microsoft 365 Lighthouse is toegevoegd aan uw tenant, gaat u naar Microsoft 365 Lighthouse **onder Facturering > Uw** producten in de Microsoft 365-beheercentrum.
 
-1. Als u niet wordt omgeleid naar de Microsoft 365 Lighthouse portal, gaat u naar `https://lighthouse.microsoft.com/` .
+1. Als u niet wordt omgeleid naar de Microsoft 365 Lighthouse portal, gaat u naar <a href="https://lighthouse.microsoft.com" target="_blank">https://lighthouse.microsoft.com</a> .
 
 1. Selecteer **Akkoord & doorgaan om** het wijzigingsvoorstel voor de partnerovereenkomst te voltooien.
 
@@ -64,7 +64,7 @@ ms.locfileid: "53409006"
 
 [Beveiliging Microsoft 365 Lighthouse portal configureren](m365-lighthouse-configure-portal-security.md) 
 
-## <a name="related-content"></a>Verwante inhoud
+## <a name="related-content"></a>Verwante onderwerpen
 
 [Overzicht van Microsoft 365 Lighthouse](m365-lighthouse-overview.md) (artikel)\
 [Microsoft 365 Lighthouse veelgestelde vragen](m365-lighthouse-faq.yml) (artikel)

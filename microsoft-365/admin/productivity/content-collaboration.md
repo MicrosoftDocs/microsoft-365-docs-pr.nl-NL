@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 'Details van de samenwerking met inhoud: personen ervaren productiviteitsscore.'
-ms.openlocfilehash: 2921cc738d1325416a0a5a8ab4a8eea9456b3269
-ms.sourcegitcommit: 17d82e5617f0466eb825e15ab88594afcdaf4437
+ms.openlocfilehash: d403f533fd69ee47fb48907f11d4752985daea1a
+ms.sourcegitcommit: 4046c2c390851dffcdb430e1ba38c4df23fe2e69
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "53300078"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53415621"
 ---
 # <a name="content-collaboration--people-experiences"></a>Samenwerking met inhoud: ervaringen met personen
 
@@ -137,7 +137,7 @@ We bieden u ook informatie waarmee u inzicht krijgt in de manier waarop uw organ
         - Teller: het aantal personen dat bestanden bijlaat aan e-mail die niet zijn opgeslagen in OneDrive of SharePoint in de afgelopen 28 dagen.
         - Noemer: Het aantal personen dat toegang heeft tot Exchange en OneDrive, SharePoint of beide binnen de afgelopen 28 dagen.
       - **Koppelingen naar onlinebestanden:** Het blauwe (gekleurde) gedeelte van de balk en de breuk (teller/noemer) op de balk vertegenwoordigen het percentage personen dat bijlagen gebruikt en koppelingen aan bestanden in e-mailberichten koppelt.
-        - Teller: Het aantal personen dat koppelingen naar onlinebestanden (opgeslagen in OneDrive of SharePoint) in de afgelopen 28 dagen aan e-mailberichten koppelt.
+        - Teller: het aantal personen dat in de afgelopen 28 dagen koppelingen aan onlinebestanden aan e-mailberichten koppelt.
         - Noemer: Het aantal personen dat toegang heeft tot Exchange en OneDrive, SharePoint of beide binnen de afgelopen 28 dagen.
 4. **Koppeling naar resources:** Selecteer deze koppeling om Help-inhoud weer te geven.
 
