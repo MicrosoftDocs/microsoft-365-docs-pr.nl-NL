@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: Een bestandsplan biedt geavanceerde beheermogelijkheden voor retentielabels.
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: 422a76db5705e80c67803b798275e1faedd1d7aa
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 920a613cdc3a32267415d42cebe962e62ff6831a
+ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "52161867"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53419761"
 ---
 # <a name="use-file-plan-to-manage-retention-labels"></a>Bestandsplan gebruiken voor het beheren van retentielabels
 
@@ -32,7 +32,7 @@ Hoewel u in het Microsoft 365-compliancecentrum retentielabels kunt maken en beh
 
 - U kunt bulksgewijs retentielabels maken door de relevante informatie uit een spreadsheet te importeren.
 
-- U kunt de gegevens van bestaande retentielabels exporteren voor analyse en offlinesamenwerking of voor bulkbewerking.
+- U kunt de informatie uit bestaande retentielabels exporteren voor analyse en offline samenwerking.
 
 - Er wordt meer informatie over de retentielabels weergegeven, zodat u de instellingen van al uw retentielabels beter kunt zien in één weergave.
 
@@ -99,7 +99,7 @@ Alle kolommen behalve het label **Naam** kunnen worden weergegeven of verborgen 
 
 Met een bestandsplan kunt u meer informatie opnemen als onderdeel van uw retentielabels. Deze beschrijvingen van het bestandsplan bieden meer opties om de beheerbaarheid en organisatie te verbeteren van de inhoud die u van een label wilt voorzien.
 
-Standaard worden in de volgende kolommen, te beginnen met **Verwijzings-id**, deze beschrijvingen voor het bestandsplan weergegeven die u kunt opgeven wanneer u een retentielabel maakt of een bestaand label bewerkt. 
+Standaard worden in de volgende kolommen, te beginnen met **Verwijzings-id**, deze optionele beschrijvingen voor het bestandsplan weergegeven die u kunt opgeven wanneer u een retentielabel maakt of een bestaand label bewerkt. 
 
 Om u op weg te helpen, zijn er enkele kant-en-klare waarden voor de volgende beschrijvingen van het bestandsplan: 
 - Bedrijfsfunctie/afdeling
@@ -123,13 +123,13 @@ Ga als volgt te werk om alle retentielabels te exporteren: klik op de pagina **B
 
 ![Optie voor het exporteren van bestandsplan](../media/compliance-file-plan-export-labels.png)
 
-Er wordt een CSV-bestand geopend dat alle bestaande retentielabels bevat. Bijvoorbeeld:
+Er wordt een *.CSV-bestand geopend dat alle bestaande retentielabels bevat. Bijvoorbeeld:
 
 ![CSV-bestand met alle retentielabels](../media/file-plan-csv-file.png)
 
 ## <a name="import-retention-labels-into-your-file-plan"></a>Retentielabels importeren in uw bestandsplan
 
-U kunt in het bestandsplan bulksgewijs nieuwe retentielabels importeren en op dezelfde manier bestaande retentielabels bulksgewijs wijzigen.
+In het bestandsplan kunt u bulksgewijs nieuwe retentielabels importeren met behulp van een CSV-bestand met een specifieke indeling. Nadat de labels zijn geïmporteerd, kunt u wijzigingen aanbrengen in het CSV-bestand en het bestand opnieuw importeren voor eenvoudiger bulkbewerking van bestaande retentielabels.
 
 Nieuwe retentielabels importeren en bestaande retentielabels wijzigen: 
 
@@ -139,52 +139,56 @@ Nieuwe retentielabels importeren en bestaande retentielabels wijzigen:
 
    ![Optie voor het downloaden van een sjabloon voor een leeg bestandsplan](../media/file-plan-blank-template-option.png)
 
-2. Download een lege sjabloon om nieuwe retentielabels te importeren. U kunt ook beginnen met het CSV-bestand dat wordt geëxporteerd wanneer u de bestaande retentielabels in uw organisatie exporteert.
+2. Download een lege sjabloon zoals aangegeven:
 
-   ![Leeg bestandsplansjabloon wordt geopend in Excel](../media/file-plan-blank-template.png)
+   ![Lege sjabloon voor bestandsplan wordt geopend in Excel](../media/file-plan-blank-template.png)
 
-3. Vul de volgende informatie, die de eigenschappen en geldige waarden voor elke eigenschap beschrijft, in de sjabloon in. Voor het importeren hebben sommige waarden een maximale lengte:
+3. Vul de sjabloon in met behulp van de volgende informatie die de eigenschappen en geldige waarden voor elke eigenschap beschrijft. Voor het importeren hebben sommige waarden een maximale lengte:
     
     - **LabelName**: maximaal 64 tekens
     - **Opmerkingen** en **Notities**: maximaal 1024 tekens
     - Alle overige waarden: onbeperkte lengte
     <br/>
     
-   |Eigenschap|Type|Geldige waarden|
-   |:-----|:-----|:-----|
-   |LabelName|Tekenreeks|Met deze eigenschap wordt de naam van het retentielabel opgegeven.|
-   |Opmerking|Tekenreeks|Gebruik deze eigenschap om een beschrijving van het retentielabel toe te voegen voor beheerders. Deze beschrijving wordt alleen weergegeven voor beheerders die het retentielabel beheren in het compliancecentrum.|
-   |Opmerkingen|Tekenreeks|Gebruik deze eigenschap om een beschrijving van het retentielabel toe te voegen voor gebruikers. Deze beschrijving wordt weergegeven wanneer gebruikers met de muisaanwijzer over het label gaan in apps zoals Outlook, SharePoint en OneDrive. Als u deze eigenschap leeg laat, wordt een standaardbeschrijving weergegeven waarin de retentie-instellingen voor het label worden uitgelegd. |
-   |IsRecordLabel|Tekenreeks|Met deze eigenschap wordt opgegeven of het label de inhoud markeert als een record. Geldige waarden zijn: </br>**WAAR**: het label markeert het item als een record en hierdoor kan het item niet worden verwijderd. </br>**ONWAAR**: het label markeert de inhoud niet als record. Dit is de standaardwaarde.|
-   |RetentionAction|Tekenreeks|Deze eigenschap geeft aan welke actie moet worden ondernomen nadat de waarde die is opgegeven in de eigenschap RetentionDuration is verlopen. Geldige waarden zijn: </br>**Verwijderen**: items die ouder zijn dan de waarde die is opgegeven met de eigenschap RetentionDuration worden verwijderd.</br>**Behouden**: behoud items voor de duur die is opgegeven in de eigenschap RetentionDuration en doe niets wanneer de periode verloopt. </br>**BehoudenEnVerwijderen**: behoud items voor de duur die is opgegeven in de eigenschap RetentionDuration en verwijder ze wanneer de periode verloopt.   |
-   |RetentionDuration|Tekenreeks|Met deze eigenschap wordt het aantal dagen opgegeven dat de inhoud moet worden bewaard. Geldige waarden zijn: </br>**Onbeperkt**: items worden voor onbepaalde tijd bewaard. </br>**_n_*_: een positief geheel getal; bijvoorbeeld _* 365**. 
-   |RetentionType|Tekenreeks|Deze eigenschap geeft aan of de duur wordt berekend op basis van de aanmaakdatum, de datum van de gebeurtenis, de labelingsdatum of de laatste wijzigingsdatum. Geldige waarden zijn: </br>**CreationAgeInDays**</br>**EventAgeInDays**</br>**TaggedAgeInDays**</br>**ModificationAgeInDays** |
-   |ReviewerEmail|SmtpAddress|Wanneer deze eigenschap is ingevuld, wordt een verwijderingsbeoordeling geactiveerd wanneer de bewaarduur verloopt. Met deze eigenschap wordt het e-mailadres opgegeven van een revisor voor de actie **BehoudenEnVerwijderen**. U kunt het e-mailadres van afzonderlijke gebruikers, distributiegroepen of beveiligingsgroepen opnemen. U kunt meerdere e-mailadressen opgeven, gescheiden door puntkomma's.|
-   |ReferenceId|Tekenreeks|Deze eigenschap geeft de waarde op die wordt weergegeven in de beschrijving **Verwijzings-id** van het bestandsplan. U kunt deze als unieke waarde voor uw organisatie gebruiken.| 
-   |DepartmentName|Tekenreeks|Deze eigenschap geeft de waarde op die wordt weergegeven in de beschrijving **Functie/afdeling** van het bestandsplan.|
-   |Categorie|Tekenreeks|Deze eigenschap geeft de waarde op die wordt weergegeven in de beschrijving **Categorie** van het bestandsplan.|
-   |Subcategorie|Tekenreeks|Deze eigenschap geeft de waarde op die wordt weergegeven in de beschrijving **Subcategorie** van het bestandsplan.|
-   |AuthorityType|Tekenreeks|Deze eigenschap geeft de waarde op die wordt weergegeven in de beschrijving **Type Instantie** van het bestandsplan.|
-   |CitationName|Tekenreeks|Met deze eigenschap geeft u de naam op van de bronvermelding die wordt weergegeven in de beschrijving **Inrichting/bronvermelding** van het bestandsplan. Bijvoorbeeld 'Sarbanes-Oxley Act van 2002'. |
-   |CitationUrl|Tekenreeks|Met deze eigenschap geeft u de URL op die wordt weergegeven in de beschrijving **Inrichting/bronvermelding** van het bestandsplan.|
-   |CitationJurisdiction|Tekenreeks|Met deze eigenschap geeft u het rechtsgebied of de instantie op die wordt weergegeven in de beschrijving **Inrichting/bronvermelding** van het bestandsplan. Bijvoorbeeld 'U.S. Securities and Exchange Commission (SEC)'.|
-   |Wettelijk verplicht|Tekenreeks|Laat leeg. Deze eigenschap wordt op dit moment niet gebruikt.|
-   |EventType|Tekenreeks|Met deze eigenschap wordt de bewaarregel opgegeven die aan het label is gekoppeld. U kunt elke waarde gebruiken die de regel op een unieke manier identificeert. Bijvoorbeeld:</br>**Naam**</br>**Distinguished Name (DN)**</br>**GUID** </br>U kunt de cmdlet [Get-RetentionComplianceRule](/powershell/module/exchange/get-retentioncompliancerule) gebruiken om de beschikbare retentieregels weer te geven. Houd er rekening mee dat u als u labels uit een organisatie exporteert, u de waarden voor de eigenschap EventType van die organisatie niet kunt gebruiken om labels in een andere organisatie te importeren omdat de EventType-waarden uniek zijn voor een organisatie.|
+   |Eigenschap|Type|Vereist|Geldige waarden|
+   |:-----|:-----|:-----|:-----|
+   |LabelName|Tekenreeks|Ja|Met deze eigenschap geeft u de naam van het retentielabel op. Deze moet uniek zijn in uw tenant.|
+   |Opmerking|Tekenreeks|Nee|Gebruik deze eigenschap om een beschrijving van het retentielabel toe te voegen voor beheerders. Deze beschrijving wordt alleen weergegeven voor beheerders die het retentielabel beheren in het compliancecentrum.|
+   |Opmerkingen|Tekenreeks|Nee|Gebruik deze eigenschap om een beschrijving van het retentielabel toe te voegen voor gebruikers. Deze beschrijving wordt weergegeven wanneer gebruikers met de muisaanwijzer over het label gaan in apps zoals Outlook, SharePoint en OneDrive. Als u deze eigenschap leeg laat, wordt een standaardbeschrijving weergegeven waarin de retentie-instellingen voor het label worden uitgelegd. |
+   |IsRecordLabel|Tekenreeks|Nee, tenzij **Regelgevend** is **WAAR**|Met deze eigenschap wordt opgegeven of het label de inhoud markeert als een record. Geldige waarden zijn:</br>**WAAR**: het label markeert het item als een record en hierdoor kan het item niet worden verwijderd. </br>**ONWAAR**: het label markeert de inhoud niet als record. Dit is de standaardwaarde. </br> </br> Groepsafhankelijkheden: als deze eigenschap is opgegeven, moeten ook RetentionAction, RetentionDuration en RetentionType worden opgegeven.|
+   |RetentionAction|Tekenreeks|Nee, tenzij **RetentionDuration**, **RetentionType** of **ReviewerEmail** zijn opgegeven|Deze eigenschap geeft aan welke actie moet worden ondernomen nadat de waarde die is opgegeven in de eigenschap RetentionDuration verloopt. Geldige waarden zijn:</br>**Verwijderen**: items die ouder zijn dan de waarde die is opgegeven met de eigenschap RetentionDuration worden verwijderd.</br>**Behouden**: behoud items voor de duur die is opgegeven in de eigenschap RetentionDuration en doe niets wanneer de periode verloopt. </br>**BehoudenEnVerwijderen**: behoud items voor de duur die is opgegeven in de eigenschap RetentionDuration en verwijder ze wanneer de periode verloopt. </br> </br> Groepsafhankelijkheden: als deze eigenschap is opgegeven, moeten ook RetentionDuration en RetentionType worden opgegeven. |
+   |RetentionDuration|Tekenreeks|Nee, tenzij **RetentionAction** of **RetentionType** zijn opgegeven|Met deze eigenschap wordt het aantal dagen opgegeven dat de inhoud moet worden bewaard. Geldige waarden zijn:</br>**Onbeperkt**: items worden voor onbepaalde tijd bewaard. </br>**_n_*: een positief geheel getal in dagen; bijvoorbeeld **365**. Het maximaal ondersteunde aantal is 24.855, dat is 68 jaar. Als u langer dan dit maximum nodig hebt, gebruikt u in plaats daarvan Onbeperkt.</br> </br> Groepsafhankelijkheden: als deze eigenschap is opgegeven, moeten ook RetentionAction en RetentionType worden opgegeven.
+   |RetentionType|Tekenreeks|Nee, tenzij **RetentionAction** of **RetentionDuration** zijn opgegeven|Met deze eigenschap geeft u op of de retentieduur (indien opgegeven) wordt berekend op basis van de aanmaakdatum, gebeurtenisdatum, gelabelde datum of datum van laatste wijziging. Geldige waarden zijn: </br>**CreationAgeInDays**</br>**EventAgeInDays**</br>**TaggedAgeInDays**</br>**ModificationAgeInDays** </br> </br> Groepsafhankelijkheden: als deze eigenschap is opgegeven, moeten ook RetentionAction en RetentionDuration worden opgegeven.|
+   |ReviewerEmail|SmtpAddress|Nee|Wanneer deze eigenschap is opgegeven, wordt een verwijderingsbeoordeling geactiveerd wanneer de bewaarperiode verloopt. Met deze eigenschap geeft u het e-mailadres van een revisor op voor de bewaaractie **KeepAndDelete**. </br> </br> U kunt het e-mailadres van afzonderlijke gebruikers, distributiegroepen of beveiligingsgroepen in uw tenant opnemen. Geef meerdere e-mailadressen op door deze te scheiden met puntkomma's. </br> </br> Groepsafhankelijkheden: wanneer deze eigenschap is opgegeven, moeten ook **RetentionAction** (moet zijn **KeepAndDelete**), **RetentionDuration** en **RetentionType** worden opgegeven.|
+   |ReferenceId|Tekenreeks|Nee|Deze eigenschap geeft de waarde op die wordt weergegeven in de beschrijving **Verwijzings-id** van het bestandsplan. U kunt deze als unieke waarde voor uw organisatie gebruiken.| 
+   |DepartmentName|Tekenreeks|Nee|Deze eigenschap geeft de waarde op die wordt weergegeven in de beschrijving **Functie/afdeling** van het bestandsplan.|
+   |Categorie|Tekenreeks|Nee|Deze eigenschap geeft de waarde op die wordt weergegeven in de beschrijving **Categorie** van het bestandsplan.|
+   |Subcategorie|Tekenreeks|Nee|Deze eigenschap geeft de waarde op die wordt weergegeven in de beschrijving **Subcategorie** van het bestandsplan.|
+   |AuthorityType|Tekenreeks|Nee|Deze eigenschap geeft de waarde op die wordt weergegeven in de beschrijving **Type Instantie** van het bestandsplan.|
+   |CitationName|Tekenreeks|Nee|Met deze eigenschap geeft u de naam op van de bronvermelding die wordt weergegeven in de beschrijving **Inrichting/bronvermelding** van het bestandsplan. Bijvoorbeeld 'Sarbanes-Oxley Act van 2002'. |
+   |CitationUrl|Tekenreeks|Nee|Met deze eigenschap geeft u de URL op die wordt weergegeven in de beschrijving **Inrichting/bronvermelding** van het bestandsplan.|
+   |CitationJurisdiction|Tekenreeks|Nee|Met deze eigenschap geeft u het rechtsgebied of de instantie op die wordt weergegeven in de beschrijving **Inrichting/bronvermelding** van het bestandsplan. Bijvoorbeeld 'U.S. Securities and Exchange Commission (SEC)'.|
+   |Wettelijk verplicht|Tekenreeks|Nee|Met deze eigenschap geeft u op of de inhoud door het label wordt gemarkeerd als een regelgevingsrecord. Dit is [meer beperkende](records-management.md#compare-restrictions-for-what-actions-are-allowed-or-blocked) dan een record. Als u deze labelconfiguratie wilt gebruiken, moet uw tenant zijn geconfigureerd om [de optie weer te geven om inhoud te markeren als een regelgevingsrecord](declare-records.md#how-to-display-the-option-to-mark-content-as-a-regulatory-record), anders mislukt de importvalidatie. Geldige waarden zijn: </br>**TRUE**: het label markeert het item als een regelgevingsrecord. U moet ook de eigenschap **IsRecordLabel** instellen op TRUE.</br>**ONWAAR**: het label markeert de inhoud niet als record. Dit is de standaardwaarde.|
+   |EventType|Tekenreeks|Nee, tenzij **RetentionType** gelijk is aan **EventAgeInDays**|Met deze eigenschap geeft u een gebeurtenistype op dat wordt gebruikt voor [retentie op basis van gebeurtenissen](event-driven-retention.md). Geef een bestaand gebeurtenistype op dat wordt weergegeven in **Recordbeheer** > **Gebeurtenissen** > **Gebeurtenistypen beheren**. U kunt ook de cmdlet [Get-ComplianceRetentionEventType](/powershell/module/exchange/get-complianceretentioneventtype) gebruiken om de beschikbare gebeurtenistypen weer te geven. Hoewel er enkele ingebouwde gebeurtenistypen zijn, zoals **Werknemersactiviteit** en **Levensduur van het product**, kunt u ook uw eigen gebeurtenistypen maken. </br> </br> Als u uw eigen gebeurtenistype opgeeft, moet dit bestaan vóór de import, omdat de naam wordt gevalideerd als onderdeel van het importproces.|
    |||
 
    Hier is een voorbeeld van de sjabloon met informatie over retentielabels.
 
    ![Bestandsplansjabloon met ingevulde gegevens](../media/file-plan-filled-out-template.png)
 
-4. Klik onder stap 3 op de pagina **Uw bestandsplan invullen en importeren** op **Bestanden zoeken** om de ingevulde sjabloon te uploaden. 
+4. Klik onder stap 3 op de pagina **Uw bestandsplan invullen en importeren** op **Bestanden zoeken** om de ingevulde sjabloon te uploaden en selecteer vervolgens **Volgende**.
 
-   Bestandsplan valideert de vermeldingen en geeft de importstatistieken weer.
+   Bestandsplan uploadt het bestand en valideert de invoer, waarbij de importstatistieken worden weergegeven.
 
    ![Statistieken voor het importeren van het bestandsplan](../media/file-plan-import-statistics.png)
 
-   Als er een validatiefout is opgetreden, blijft het proces voor het importeren van het bestandsplan elke vermelding in het importbestand valideren en worden alle fouten weergegeven met daarbij de regel- en rijnummers in het importbestand. Kopieer de weergegeven foutresultaten zodat u deze kunt corrigeren wanneer u terug gaat naar het importbestand.
+5. Afhankelijk van de validatieresultaten doet u het volgende:
+    
+    - Als de validatie mislukt: noteer het rijnummer en de kolomnaam die u wilt corrigeren in het importbestand. Selecteer **Sluiten** en vervolgens **Ja** om te bevestigen. Corrigeer de fouten in het bestand en sla het op, selecteer de optie **Importeren** opnieuw en ga terug naar stap 4.
+    
+    - Als de validatie is geslaagd: u kunt **Go Live** selecteren om de retentielabels beschikbaar te maken in uw tenant. Of selecteer het pictogram Sluiten voor de pagina en **Ja** om te bevestigen dat u de wizard wilt sluiten zonder de bewaarlabels op dit moment beschikbaar te maken in uw Tenant.
 
-Wanneer het importeren is voltooid, kunt u de retentielabels toevoegen aan een nieuw retentielabelbeleid of ze automatisch toepassen. U kunt dit direct doen vanaf de pagina **Bestandsplan** door de vervolgkeuzelijst te selecteren in **+ Label maken** en vervolgens **Beleid voor het publiceren van labels** of **Beleid voor het automatisch toepassen van een label** te selecteren.
+Wanneer de geïmporteerde labels zijn toegevoegd aan uw tenant, kunt u ze nu toevoegen aan een nieuw beleid voor retentielabels of ze automatisch toepassen. U kunt dit direct doen vanaf de pagina **Bestandsplan** door de vervolgkeuzelijst te selecteren in **+ Label maken** en vervolgens **Beleid voor het publiceren van labels** of **Beleid voor het automatisch toepassen van een label** te selecteren.
 
 ## <a name="next-steps"></a>Volgende stappen
 

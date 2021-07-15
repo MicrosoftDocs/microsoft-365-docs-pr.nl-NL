@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: App-beleid maken.
-ms.openlocfilehash: 17417d7fac80f2763edbbaa8dbb2c8be16e47371
-ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
+ms.openlocfilehash: 66d8dda7c9cd768d6971e2b58dca4c9c5437e5bb
+ms.sourcegitcommit: 2fd60871975d61e60d4827b36cd689021fd2a4c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420218"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53438058"
 ---
 # <a name="create-app-policies"></a>App-beleid maken
 
@@ -32,7 +32,7 @@ Naast een ingebouwde set mogelijkheden om afwijkend app-gedrag te detecteren en 
 
 U kunt app-beleid maken op basis van opgegeven sjablonen die kunnen worden aangepast of u kunt uw eigen aangepaste app-beleid maken.
 
-Als u een nieuw app-beleid wilt maken, gaat u naar **Microsoft 365-compliancecentrum > App-beveiliging & -governance > Overzichtspagina > Beleidsregels**:
+Als u nieuw app-beleid wilt maken, gaat u naar **Microsoft 365-compliancecentrum > App-governance > Overzichtspagina > Beleidsregels**:
 
 - Als u een nieuw app-beleid wilt maken met sjablonen die zijn ontworpen voor app-gebruik, selecteert u **Beleid maken** onder **Een app-gebruiksbeleid maken**.
 - Als u een nieuw app-beleid wilt maken met sjablonen die zijn ontworpen voor app-machtigingen, selecteert u **Beleid maken** onder **Een machtigingsbeleid maken**.
@@ -50,7 +50,7 @@ App-governance bevat deze sjablonen om waarschuwingen voor app-gebruik te genere
 
 | Sjabloonnaam | Omschrijving |
 |:-------|:-----|
-| Nieuwe app met veel gegevenstoegang | Markeert alle recent geregistreerde apps met toegang tot grote hoeveelheden gegevens om ervoor te zorgen dat die gegevenspatronen worden verwacht. <br><br> Dit beleid markeert standaard alle apps die in de afgelopen zeven dagen zijn geregistreerd en die gedurende die periode meer dan 1 GB aan gegevenstoegang hebben gehad. Dit beleid kan worden aangepast met meer voorwaarden en acties. |
+| Nieuwe app met veel gegevenstoegang | Markeert alle recent geregistreerde apps met toegang tot grote hoeveelheden gegevens om ervoor te zorgen dat die gegevenspatronen worden verwacht. <br><br> Dit beleid markeert standaard alle apps die in de afgelopen zeven dagen zijn geregistreerd en die gedurende die periode meer dan 1 GB aan gegevenstoegang hebben gehad. Dit beleid kan met meer voorwaarden en acties worden aangepast. |
 |||
 
 ### <a name="app-permissions"></a>App-machtigingen

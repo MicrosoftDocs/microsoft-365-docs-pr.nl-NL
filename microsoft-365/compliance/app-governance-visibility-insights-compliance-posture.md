@@ -14,18 +14,18 @@ search.appverid:
 - MOE150
 - MET150
 description: Bepaal jouw compliance-houding.
-ms.openlocfilehash: 3d7cac319c31bac40a3aad2f6b9a4c16303f6a20
-ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
+ms.openlocfilehash: 2fde19e385d4797e04c8f991efa673d33cea3b58
+ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420060"
+ms.locfileid: "53430670"
 ---
 # <a name="determine-your-app-compliance-posture"></a>Bepaal jouw compliance-houding
 
 >*[Richtlijnen voor Microsoft 365-licenties voor beveiliging en compliance](https://aka.ms/ComplianceSD).*
 
-Met Microsoft-app-governance kan je snel toegang krijgen tot de compliance-houding van externe apps en hun toegang tot gegevens in de Microsoft 365-tenant uit de overzichtpagina van de app-governance in het [Microsoft 365-compliancecentrum](https://compliance.microsoft.com/appgovernance).
+Met Microsoft-app-governance kan je snel toegang krijgen tot de compliance-houding van externe apps en hun toegang tot gegevens in de Microsoft 365-tenant uit de overzichtpagina van de app-governance in het [Microsoft 365-compliancecentrum](https://aka.ms/appgovernance).
 
 ![De overzichtpagina van de app-governance in het Microsoft 365-compliancecentrum](..\media\manage-app-protection-governance\mapg-cc-overview.png)
 

@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: fcd7f192ba0846e3bf3051cde927095088f32d26
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: b17585f7449f1151c7a5f5cd75d06b8e723fbe4b
+ms.sourcegitcommit: 2fd60871975d61e60d4827b36cd689021fd2a4c8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245790"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53438010"
 ---
 # <a name="device-requirements"></a>Apparaatvereisten
 
@@ -49,7 +49,9 @@ Op het apparaat moet deze software vooraf zijn geïnstalleerd:
 - de 64-bits versie van Microsoft 365-apps voor ondernemingen 
 - Alle toepasselijke apparaat stuurprogramma's
 
-
+> [!NOTE]
+> Windows 11 is een extra optie voor vooraf geïnstalleerde software zodra deze algemene beschikbaarheid heeft bereikt.
+>
 ### <a name="physical-features"></a>Fysieke functies
 
 Apparaten moeten de volgende mogelijkheden hebben:
@@ -62,7 +64,8 @@ Apparaten moeten de volgende mogelijkheden hebben:
 Zie voor meer informatie over deze mogelijkheden en de technologieën die hiermee verband houden dat de service [gebruikt, Microsoft Managed Desktop technologieën.](../intro/technologies.md)
 
 > [!NOTE]
-> ARM processors worden niet ondersteund.
+>- ARM processors worden niet ondersteund.
+>- Windows 11 heeft aanvullende [hardwarevereisten.](/windows/whats-new/windows-11-requirements)
 
 Apparaten moeten voldoen aan of de volgende limieten voor opslag en geheugen overschrijden:
 

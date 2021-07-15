@@ -14,18 +14,18 @@ search.appverid:
 - MOE150
 - MET150
 description: Aan de slag met zichtbaarheid en inzichten.
-ms.openlocfilehash: 12c1a01667b1bda545b619e931d99132e6611e35
-ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
+ms.openlocfilehash: 93be3557c32345e81c7126b669ead8edf8ebac21
+ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420135"
+ms.locfileid: "53430478"
 ---
 # <a name="get-started-with-visibility-and-insights"></a>Aan de slag met zichtbaarheid en inzichten
 
 >*[Richtlijnen voor Microsoft 365-licenties voor beveiliging en compliance](https://aka.ms/ComplianceSD).*
 
-De eerste plaats om te beginnen is het app-governance-dashboard op [https://compliance.microsoft.com/appgovernance](https://compliance.microsoft.com/appgovernance). Merk op dat het aanmeldingsaccount één van [deze app-governancebeheerdersrollen](app-governance-get-started.md#administrator-roles) moet hebben om app-governancegegevens weer te geven.
+De eerste plaats om te beginnen is het app-governance-dashboard op [https://aka.ms/appgovernance](https://aka.ms/appgovernance). Merk op dat het aanmeldingsaccount één van [deze app-governancebeheerdersrollen](app-governance-get-started.md#administrator-roles) moet hebben om app-governancegegevens weer te geven.
 
 ![De overzichtpagina van de app-governance in het Microsoft 365-compliancecentrum](..\media\manage-app-protection-governance\mapg-cc-overview.png)
 

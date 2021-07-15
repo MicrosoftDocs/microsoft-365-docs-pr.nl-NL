@@ -555,6 +555,44 @@
           href: record-versioning.md
         - name: Resources voor wettelijke vereisten
           href: retention-regulatory-requirements.md
+- name: App-governance beheren
+  items:
+    - name: Apps beveiligen en beheren
+      href: app-governance-manage-app-protection-governance.md
+    - name: Aan de slag met app-governance
+      href: app-governance-get-started.md
+    - name: Feedback verzenden over app-governance
+      href: app-governance-feedback.md
+    - name: Zichtbaarheid en inzichten ophalen
+      items:
+        - name: Meer informatie over zichtbaarheid en inzichten
+          href: app-governance-visibility-insights-overview.md
+        - name: Aan de slag
+          href: app-governance-visibility-insights-get-started.md
+        - name: Apps weergeven
+          href: app-governance-visibility-insights-view-apps.md
+        - name: Compliance-houding bepalen
+          href: app-governance-visibility-insights-compliance-posture.md
+    - name: App-beleid implementeren
+      items:
+        - name: Meer informatie over app-beleid
+          href: app-governance-app-policies-overview.md
+        - name: Aan de slag
+          href: app-governance-app-policies-get-started.md
+        - name: App-beleid maken
+          href: app-governance-app-policies-create.md
+        - name: App-beleid beheren
+          href: app-governance-app-policies-manage.md
+    - name: App-bedreigingen detecteren en herstellen
+      items:
+        - name: Meer informatie over detectie en herstel
+          href: app-governance-detect-remediate-overview.md
+        - name: Aan de slag
+          href: app-governance-detect-remediate-get-started.md
+        - name: Waarschuwingen voor detectie van afwijkingen onderzoeken
+          href: app-governance-anomaly-detection-alerts.md
+        - name: App-bedreigingen herstellen
+          href: app-governance-detect-remediate-detect-threats.md
 - name: eDiscovery beheren
   items:
     - name: Oplossingen voor Microsoft 365 eDiscovery

@@ -16,16 +16,16 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Wanneer een bewaarder wordt toegevoegd aan een Advanced eDiscovery geval, wordt inhoud die als gedeeltelijk geïndexeerd is beschouwd, opnieuw verwerkt om deze volledig doorzoekbaar te maken.
-ms.openlocfilehash: f510b7e9c0fa2c5c181709c96907610066a4b1cf
-ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
+ms.openlocfilehash: 34855eb168dd10fc500e2e57fe1d57ad81449452
+ms.sourcegitcommit: 2fd60871975d61e60d4827b36cd689021fd2a4c8
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53430504"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53437974"
 ---
 # <a name="advanced-indexing-of-custodian-data"></a>Geavanceerde indexering van beheerdersgegevens
 
-Wanneer een bewaarder wordt toegevoegd aan een Advanced eDiscovery geval, wordt inhoud die als gedeeltelijk geïndexeerd is beschouwd of indexeringsfouten heeft gehad, opnieuw geïndexeerd om deze volledig doorzoekbaar te maken.  Dit proces voor het opnieuw indexeren wordt *Geavanceerde indexering genoemd.* Er zijn een aantal redenen waarom inhoud gedeeltelijk is geïndexeerd of indexeringsfouten bevat. Dit omvat afbeeldingsbestanden of de aanwezigheid van afbeeldingen in een bestand, niet-ondersteunde bestandstypen of indexeringslimieten met bestandsgrootte. Voor SharePoint worden geavanceerde indexering alleen uitgevoerd op items die zijn gemarkeerd als gedeeltelijk geïndexeerd of met indexeringsfouten. In Exchange worden e-mailberichten met afbeeldingsbijlagen niet gemarkeerd als gedeeltelijk geïndexeerd of met indexeringsfouten. Dit betekent dat deze bestanden niet opnieuw worden geïndexeerd door geavanceerd indexeringsproces.
+Wanneer een bewaarder wordt toegevoegd aan een Advanced eDiscovery geval, wordt inhoud die als gedeeltelijk geïndexeerd is beschouwd of indexeringsfouten heeft gehad, opnieuw geïndexeerd om deze volledig doorzoekbaar te maken.  Dit proces voor het opnieuw indexeren wordt *Geavanceerde indexering genoemd.* Er zijn een aantal redenen waarom inhoud gedeeltelijk is geïndexeerd of indexeringsfouten bevat. Dit omvat afbeeldingsbestanden of de aanwezigheid van afbeeldingen in een bestand, niet-ondersteunde bestandstypen of indexeringslimieten met bestandsgrootte. Voor SharePoint worden geavanceerde indexering alleen uitgevoerd op items die zijn gemarkeerd als gedeeltelijk geïndexeerd of met indexeringsfouten. In Exchange worden e-mailberichten met afbeeldingsbijlagen niet gemarkeerd als gedeeltelijk geïndexeerd of met indexeringsfouten. Dit betekent dat deze bestanden niet opnieuw worden geïndexeerd door het proces voor geavanceerde indexering.
 
 Zie voor meer informatie over het verwerken van ondersteuning en gedeeltelijk geïndexeerde items:
 

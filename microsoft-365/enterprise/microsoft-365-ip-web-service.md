@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 - BCS160
 description: Informatie over het gebruik van het IP-adres en de URL-webservice van Office 365 om u te helpen bij het beter identificeren en onderscheiden van het netwerkverkeer van Office 365.
-ms.openlocfilehash: 0469070ed6d46b7695526697c255e23c0dc009ec
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 4de78934a76a7dba16f79cb9cc6f93a7c935a314
+ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286415"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53419785"
 ---
 # <a name="office-365-ip-address-and-url-web-service"></a>IP-adres en URL-webservice van Office 365
 
@@ -63,8 +63,8 @@ Zie voor meer informatie:
 
 De volgende parameters worden veel gebruikt in alle webservicemethoden:
 
-- **format=<JSON | CSV>** — De standaardindeling van de geretourneerde gegevens is JSON. Gebruik deze optionele parameter als u de gegevens in een indeling met door komma's gescheiden waarden wilt hebben.
-- **ClientRequestId=\<guid>** — Een verplichte GUID die u genereert voor clientkoppeling. Genereer een unieke GUID voor elke computer waarmee de webservice wordt aangeroepen (de scripts op deze pagina genereren een GUID voor u). Gebruik niet de GUID's uit het volgende voorbeeld. Deze kunnen in de toekomst door de webservice worden geblokkeerd. De indeling van de GUID is _xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx_, waarin de x voor een hexadecimaal getal staat.
+- **format=\<JSON \| CSV\>** - De standaardindeling van de geretourneerde gegevens is JSON. Gebruik deze optionele parameter als u de gegevens in een indeling met door komma's gescheiden waarden wilt hebben.
+- **ClientRequestId=\<guid\>** — Een verplichte GUID die u genereert voor clientkoppeling. Genereer een unieke GUID voor elke computer waarmee de webservice wordt aangeroepen (de scripts op deze pagina genereren een GUID voor u). Gebruik niet de GUID's uit het volgende voorbeeld. Deze kunnen in de toekomst door de webservice worden geblokkeerd. De indeling van de GUID is _xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx_, waarin de x voor een hexadecimaal getal staat.
 
   Als u een GUID wilt genereren, kunt u gebruikmaken van de opdracht [New-GUID](/powershell/module/microsoft.powershell.utility/new-guid) PowerShell of een online service zoals [Online GUID Generator](https://www.guidgenerator.com/).
 
@@ -76,9 +76,9 @@ Aan de gegevens voor elk gepubliceerd exemplaar wordt een versienummer toegeweze
 
 Parameters voor de versiewebmethode zijn:
 
-- **AllVersions=<true | false>** — Standaard is de geretourneerde versie de laatste. Neem deze optionele parameter op om alle gepubliceerde versies aan te vragen sinds de webservice voor het eerst werd uitgebracht.
-- **Format=<JSON | CSV | RSS>** — Naast de JSON- en CSV-indelingen, ondersteunt de versiewebmethode ook RSS. U kunt deze optionele parameter combineren met de parameter _AllVersions=true_ om een RSS-feed aan te vragen die kan worden gebruikt met Outlook of andere RSS-lezers.
-- **Instance=<Worldwide | China | Germany | USGovDoD | USGovGCCHigh>** — Deze optionele parameter specificeert het exemplaar waarvoor de versie moet worden geretourneerd. Indien niet gebruikt, worden alle exemplaren geretourneerd. Geldige exemplaren zijn: wereldwijd, China, Duitsland, USGovDoD en USGovGCCHigh.
+- **AllVersions=\<true \| false\>** - Standaard is de geretourneerde versie de laatste. Neem deze optionele parameter op om alle gepubliceerde versies aan te vragen sinds de webservice voor het eerst werd uitgebracht.
+- **Format=\<JSON \| CSV \| RSS\>** — Naast de JSON- en CSV-indelingen, ondersteunt de versiewebmethode ook RSS. U kunt deze optionele parameter combineren met de parameter _AllVersions=true_ om een RSS-feed aan te vragen die kan worden gebruikt met Outlook of andere RSS-lezers.
+- **Instance=\<Worldwide \| China \| Germany \| USGovDoD \| USGovGCCHigh\>** - Met deze optionele parameter wordt het exemplaar gespecificeerd waarvoor de versie moet worden geretourneerd. Indien niet gebruikt, worden alle exemplaren geretourneerd. Geldige exemplaren zijn: wereldwijd, China, Duitsland, USGovDoD en USGovGCCHigh.
 
 De versiewebmethode is niet beperkt en geeft nooit 429 HTTP-antwoordcodes. Het antwoord op de versiewebmethode omvat een cache-besturingselementindeling die het in de cache opslaan van de gegevens voor 1 uur aanbeveelt. Het resultaat van de versiewebmethode kan één record zijn of een matrix van records. De elementen van elke record zijn:
 
@@ -86,9 +86,9 @@ De versiewebmethode is niet beperkt en geeft nooit 429 HTTP-antwoordcodes. Het a
 - nieuwste - De nieuwste versie voor eindpunten van het opgegeven exemplaar.
 - versies - Een lijst met alle voorgaande versies voor het opgegeven exemplaar. Dit element is alleen opgenomen als de parameter _AllVersions_ waar is.
 
-### <a name="examples"></a>Voorbeelden:
+### <a name="version-web-method-examples"></a>Voorbeelden versiewebmethode
 
-Voorbeeld 1 URI aanvragen: [https://endpoints.office.com/version?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7](https://endpoints.office.com/version?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7)
+Voorbeeld 1 URI aanvraag: <https://endpoints.office.com/version?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7>
 
 Met deze URI wordt de nieuwste versie van elk Office 365-service-exemplaar geretourneerd. Resultaat van voorbeeld:
 
@@ -120,7 +120,7 @@ Met deze URI wordt de nieuwste versie van elk Office 365-service-exemplaar geret
 > [!IMPORTANT]
 > De GUID voor de parameter ClientRequestID in deze URI's is slechts een voorbeeld. Genereer uw eigen GUID als u de URI's voor de webservice wilt uitproberen. De in deze voorbeelden getoonde GUID's kunnen in de toekomst door de webservice worden geblokkeerd.
 
-Voorbeeld 2 URI aanvragen: [https://endpoints.office.com/version/Worldwide?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7](https://endpoints.office.com/version/Worldwide?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7)
+Voorbeeld 2 URI aanvraag: <https://endpoints.office.com/version/Worldwide?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7>
 
 Met deze URI wordt de nieuwste versie van het opgegeven Office 365-service-exemplaar geretourneerd. Resultaat van voorbeeld:
 
@@ -131,7 +131,7 @@ Met deze URI wordt de nieuwste versie van het opgegeven Office 365-service-exemp
 }
 ```
 
-Voorbeeld 3 URI aanvragen: [https://endpoints.office.com/version/Worldwide?Format=CSV&amp;ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7](https://endpoints.office.com/version/Worldwide?Format=CSV&amp;ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7)
+Voorbeeld 3 URI aanvraag: <https://endpoints.office.com/version/Worldwide?Format=CSV&amp;ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7>
 
 Met deze URI wordt de uitvoer in een CSV-indeling getoond. Resultaat van voorbeeld:
 
@@ -140,9 +140,9 @@ instance,latest
 Worldwide,2018063000
 ```
 
-Voorbeeld 4 URI aanvragen: [https://endpoints.office.com/version/Worldwide?AllVersions=true&amp;ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7](https://endpoints.office.com/version/Worldwide?AllVersions=true&amp;ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7)
+Voorbeeld 4 URI aanvraag: <https://endpoints.office.com/version/Worldwide?AllVersions=true&amp;ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7>
 
-Met deze URI worden alle vorige versies getoond die voor het Office 365 Worldwide-service-exemplaar zijn gepubliceerd. Resultaat van voorbeeld:
+Met deze URI worden alle vorige versies getoond die voor het Office 365 worldwide-service-exemplaar zijn gepubliceerd. Resultaat van voorbeeld:
 
 ```json
 {
@@ -155,7 +155,7 @@ Met deze URI worden alle vorige versies getoond die voor het Office 365 Worldwid
 }
 ```
 
-Voorbeeld 5 URI voor RSS-feed: [https://endpoints.office.com/version/worldwide?clientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7&allVersions=true&format=RSS](https://endpoints.office.com/version/worldwide?clientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7&allVersions=true&format=RSS)
+Voorbeeld 5 URI voor RSS-feed: <https://endpoints.office.com/version/worldwide?clientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7&allVersions=true&format=RSS>
 
 Deze URI toont een RSS-feed van de gepubliceerde versies met links naar de lijst met wijzigingen voor elke versie. Voorbeeld resultaat:
 
@@ -180,10 +180,10 @@ Met de eindpuntenwebmethode worden alle records voor IP-adresbereiken en URL's g
 
 Parameters voor de eindpuntenwebmethode zijn:
 
-- **ServiceAreas=<Common | Exchange | SharePoint | Skype>** — Een door komma‘s gescheiden lijst van servicegebieden. Geldige items zijn _Common_, _Exchange_, _SharePoint_ en _Skype_. Omdat _Common_-servicegebieditems een vereiste zijn voor alle overige servicegebieden, is dit item altijd in de webservice opgenomen. Als u deze parameter niet opneemt, worden alle services geretourneerd.
-- **TenantName=<tenant_name>** — De naam van uw Office 365-tenant. De webservice gebruikt de opgegeven naam en voegt deze in delen van URL's in waarin de naam van de tenant is opgenomen. Als u geen tenantnaam opgeeft, bevatten deze URL's een jokerteken (\*).
-- **NoIPv6=<true | false>** — Stel de waarde in op _true_ om NoIPv6-adressen van de uitvoer uit te sluiten als u IPv6 niet gebruikt in uw netwerk.
-- **Instance=<Worldwide | China | Germany | USGovDoD | USGovGCCHigh>** — Deze verplichte parameter specificeert het exemplaar waarvoor de eindpunten moeten worden geretourneerd. Geldige exemplaren zijn: _Worldwide_, _China_, _Germany_, _USGovDoD_ en _USGovGCCHigh_.
+- **ServiceAreas=\<Common \| Exchange \| SharePoint \| Skype\>** - Een door komma's gescheiden lijst met servicegebieden. Geldige items zijn _Common_, _Exchange_, _SharePoint_ en _Skype_. Omdat _Common_-servicegebieditems een vereiste zijn voor alle overige servicegebieden, is dit item altijd in de webservice opgenomen. Als u deze parameter niet opneemt, worden alle services geretourneerd.
+- **TenantName=\<tenant_name\>** — De naam van uw Office 365-tenant. De webservice gebruikt de opgegeven naam en voegt deze in delen van URL's in waarin de naam van de tenant is opgenomen. Als u geen tenantnaam opgeeft, bevatten deze URL's een jokerteken (\*).
+- **NoIPv6=\<true \| false\>** — Stel de waarde in op _true_ om NoIPv6-adressen van de uitvoer uit te sluiten als u IPv6 niet gebruikt in uw netwerk.
+- **Instance=\<Worldwide \| China \| Germany \| USGovDoD \| USGovGCCHigh\>** - Deze verplichte parameter specificeert het exemplaar waarvoor de eindpunten moeten worden geretourneerd. Geldige exemplaren zijn: _Worldwide_, _China_, _Germany_, _USGovDoD_ en _USGovGCCHigh_.
 
 Als u de eindpuntenwebmethode te vaak oproept van hetzelfde IP-adres van de client, ontvangt u mogelijk de HTTP-antwoordcode _429 (te veel aanvragen)_. Als u deze antwoordcode krijgt, wacht u 1 uur voordat u de aanvraag herhaalt of genereert u een nieuwe GUID voor de aanvraag. Over het algemeen kunt u het beste de eindpuntenwebmethode pas opnieuw aanroepen wanneer de versiewebmethode aangeeft dat er een nieuwe versie van de gegevens beschikbaar is.
 
@@ -200,9 +200,9 @@ Het resultaat van de endpoints-webmethode is een array van records waarin elk re
 - required — _True_ als deze eindpuntenset moet zijn verbonden om ondersteuning van Office 365 mogelijk te maken. _False_ als deze eindpunt serie optioneel is.
 - opmerkingen — Voor optionele eindpunten beschrijft deze tekst Office 365-functionaliteit die niet beschikbaar zou zijn als IP-adressen of URL's in deze eindpuntset niet toegankelijk zijn op de netwerklaag. Weggelaten indien leeg.
 
-### <a name="examples"></a>Voorbeelden:
+### <a name="endpoints-web-method-examples"></a>Voorbeelden eindpuntenwebmethode
 
-Voorbeeld 1 URI aanvragen: [https://endpoints.office.com/endpoints/Worldwide?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7](https://endpoints.office.com/endpoints/Worldwide?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7)
+Voorbeeld 1 URI aanvraag: <https://endpoints.office.com/endpoints/Worldwide?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7>
 
 Met deze URI worden voor alle werkbelastingen alle eindpunten verkregen voor het Office 365 Worldwide-exemplaar. Voorbeeldresultaat dat een fragment van de uitvoer toont:
 
@@ -278,11 +278,11 @@ Het resultaat van de changes web-methode is een array van records waarin elk rec
   — ips — Items die uit de _ips_-matrix moeten worden verwijderd.
   — urls- Items die uit de _URL‘s_-matrix moeten worden verwijderd.
 
-### <a name="examples"></a>Voorbeelden:
+### <a name="changes-web-method-examples"></a>Wijzigingen voorbeelden webmethode
 
-Voorbeeld 1 URI aanvragen: [https://endpoints.office.com/changes/worldwide/0000000000?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7](https://endpoints.office.com/changes/worldwide/0000000000?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7)
+Voorbeeld 1 URI aanvraag: <https://endpoints.office.com/changes/worldwide/0000000000?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7>
 
-Hiermee worden alle voorgaande wijzigingen aan het Office 365 Worldwide-service-exemplaar aangevraagd. Resultaat van voorbeeld:
+Hiermee worden alle voorgaande wijzigingen aan het Office 365 worldwide-service-exemplaar aangevraagd. Resultaat van voorbeeld:
 
 ```json
 [
@@ -318,7 +318,7 @@ Hiermee worden alle voorgaande wijzigingen aan het Office 365 Worldwide-service-
      [
 ```
 
-Voorbeeld 2 URI aanvragen: [https://endpoints.office.com/changes/worldwide/2018062700?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7](https://endpoints.office.com/changes/worldwide/2018062700?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7)
+Voorbeeld 2 URI aanvraag: <https://endpoints.office.com/changes/worldwide/2018062700?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7>
 
 Hiermee worden wijzigingen aangevraagd die zijn aangebracht na de opgegeven versie van het Office 365 Worldwide-exemplaar. In dit geval is de versie die is opgegeven de nieuwste versie. Resultaat van voorbeeld:
 

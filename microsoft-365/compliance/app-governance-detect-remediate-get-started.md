@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Aan de slag met app-bedreigingsdetectie en herstel.
-ms.openlocfilehash: 6229d2cf94ec1ba892929f399fe49cf88da608d1
-ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
+ms.openlocfilehash: 77de3676a9a486bbed572a4a16bf62ad4d038406
+ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420176"
+ms.locfileid: "53430718"
 ---
 # <a name="get-started-with-app-threat-detection-and-remediation"></a>Aan de slag met app-bedreigingsdetectie en herstel
 
@@ -27,7 +27,7 @@ ms.locfileid: "53420176"
 
 Microsoft-app-governance verzamelt bedreigingswaarschuwingen die gegenereerd worden door ingebouwde app-governancedetectiemethodes gebaseerd op schadelijke activiteiten en beleidswaarschuwingen gegenereerd door actief app-beleid dat door jouw is gemaakt.
 
-De eerste plaats om app-waarschuwingen te bekijken is het app-governance-dashboard op [https://compliance.microsoft.com/appgovernance](https://compliance.microsoft.com/appgovernance).
+De eerste plaats om app-waarschuwingen te bekijken is het app-governance-dashboard op [https://aka.ms/appgovernance](https://aka.ms/appgovernance).
 
 ![De overzichtpagina van app-governance in het Microsoft 365-compliancecentrum met de aandacht op de sectie Detectie en beleidswaarschuwingen](..\media\manage-app-protection-governance\mapg-cc-overview-alerts.png)
 
