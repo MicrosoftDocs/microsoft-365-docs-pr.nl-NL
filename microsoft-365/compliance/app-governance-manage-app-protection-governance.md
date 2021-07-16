@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Beheermogelijkheden voor Microsoft-apps implementeren om uw apps te beheren.
-ms.openlocfilehash: bc8c739132de52abb69c15479cd851462e9f6ce7
-ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
+ms.openlocfilehash: 63bd6684bc041c3c82ba6b8ddcc28c2600182b26
+ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420163"
+ms.locfileid: "53430694"
 ---
 # <a name="app-governance-add-on-to-microsoft-cloud-app-security-in-preview"></a>Invoegtoepassing voor app-beheer voor Microsoft Cloud App Security (in preview)
 
@@ -53,7 +53,7 @@ Microsoft allows developers to build cloud applications using Azure Active Direc
 
 ## <a name="a-first-glimpse-at-app-governance"></a>Een eerste blik op app-beheer
 
-Als u het dashboard voor app-beheer wilt zien, gaat u naar [https://compliance.microsoft.com/appgovernance](https://compliance.microsoft.com/appgovernance). Houd er rekening mee dat uw aanmeldingsaccount een van de [beheerdersrollen](app-governance-get-started.md#administrator-roles) moet hebben om app-beheergegevens weer te geven.
+Als u het dashboard voor app-beheer wilt zien, gaat u naar [https://aka.ms/appgovernance](https://aka.ms/appgovernance). Houd er rekening mee dat uw aanmeldingsaccount een van de [beheerdersrollen](app-governance-get-started.md#administrator-roles) moet hebben om app-beheergegevens weer te geven.
 
 ## <a name="app-governance-integration-with-azure-ad-and-microsoft-cloud-app-security"></a>Integratie van app-beheer met Azure AD en Microsoft Cloud App Security
 

@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Meer informatie over detectie en herstel van app-bedreigingen.
-ms.openlocfilehash: 26cd8501fdd8bd828357f8adb7d4e90f96e70114
-ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
+ms.openlocfilehash: 574688e67b7562c8df6aec7d2242e68485239479
+ms.sourcegitcommit: 2fd60871975d61e60d4827b36cd689021fd2a4c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420170"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53438046"
 ---
 # <a name="learn-about-app-threat-detection-and-remediation"></a>Meer informatie over detectie en herstel van app-bedreigingen
 
@@ -42,11 +42,11 @@ Zie de [beheerdersrollen](app-governance-get-started.md#administrator-roles) voo
 
 App-beheer, Azure Active Directory en Microsoft Cloud App Security verzamelen en leveren verschillende gegevenssets:
 
-- Azure AD biedt basismetagegevens voor apps en gedetailleerde informatie over aanmeldingen bij apps.
 - App-beheer biedt gedetailleerde informatie over de activiteit van een app op API-niveau.
+- Azure AD biedt basismetagegevens voor apps en gedetailleerde informatie over aanmeldingen bij apps.
 - Microsoft Cloud App Security biedt informatie over app-risico's.
 
-Door informatie te delen tussen app-beheer, Azure AD en Microsoft Cloud App Security, kunt u geaggregeerde informatie in één portal weergeven en eenvoudig een koppeling maken naar een andere portal voor meer informatie. Hier zijn enkele voorbeelden:
+Door informatie te delen tussen app-governance, Azure AD en Microsoft Cloud App Security, kunt u geaggregeerde informatie in één portal weergeven en eenvoudig een koppeling maken naar een andere portal voor meer informatie. Hier ziet u enkele voorbeelden:
 
 - Aanmeldingsgegevens voor apps in app-beheer:
 
