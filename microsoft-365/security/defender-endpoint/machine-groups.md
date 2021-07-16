@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d4f62acde4e7d790c7a7c8635f51c99f0823687d
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 49bd90d8a082f55622e54976cc8fc78229d8c646
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842768"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53453535"
 ---
 # <a name="create-and-manage-device-groups"></a>Apparaatgroepen maken en beheren
 
@@ -32,7 +32,7 @@ ms.locfileid: "52842768"
 - Microsoft Azure Active Directory
 - Office 365
 
-> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 
 In een ondernemingsscenario krijgen beveiligingsbewerkingsteams meestal een set apparaten toegewezen. Deze apparaten worden gegroepeerd op basis van een set kenmerken, zoals hun domeinen, computernamen of aangewezen tags.
@@ -59,7 +59,7 @@ Als onderdeel van het proces voor het maken van een apparaatgroep, gaat u als vo
 
 ## <a name="create-a-device-group"></a>Een apparaatgroep maken
 
-1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **Apparaatgroepen.**
+1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **groepen Eindpuntenmachtigingen**  >    >  **Apparaat**.
 
 2. Klik **op Apparaatgroep toevoegen.**
 
@@ -107,7 +107,7 @@ Apparaatgroepdefinities kunnen ook meerdere waarden voor elke voorwaarde bevatte
 
 Zie Apparaatgroepen - Microsoft 365 beveiliging voor meer informatie over het koppelen [aan definities van apparaatgroepen.](https://sip.security.microsoft.com/homepage)
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-topics"></a>Gerelateerde onderwerpen
 
 - [Portaltoegang beheren met behulp van op rollen gebaseerd toegangsbeheer](rbac.md)
 - [Apparaattags maken en beheren](machine-tags.md)

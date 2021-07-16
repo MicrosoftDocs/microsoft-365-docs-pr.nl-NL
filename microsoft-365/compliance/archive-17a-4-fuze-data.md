@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Meer informatie over het instellen en gebruiken van een 17a-4 Fuze DataParser-connector voor het importeren en archiveren van Fuze-gegevens in Microsoft 365.
-ms.openlocfilehash: eb7e66bf3a8d00431ad7e393471110b36efa8e65
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: 9f3c7590a033c2c19d9b588167d67c24f917ec5f
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096394"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454503"
 ---
-# <a name="set-up-a-connector-to-archive-fuze-data-preview"></a>Een verbindingslijn instellen om Fuze-gegevens te archiveren (voorbeeld)
+# <a name="set-up-a-connector-to-archive-fuze-data"></a>Een verbindingslijn instellen voor het archiveren van Fuze-gegevens
 
 Gebruik de [Fuze DataParser](https://www.17a-4.com/fuze-dataparser/) van 17a-4 LLC om gegevens uit Fuze te importeren en te archiveren in gebruikerspostvakken in uw Microsoft 365 organisatie. De DataParser bevat een Fuze-connector die is geconfigureerd om items uit een externe gegevensbron vast te leggen en deze items te importeren in Microsoft 365. De verbindingslijn Fuze DataParser converteert Fuze-gegevens naar een e-mailberichtindeling en importeert deze items vervolgens in gebruikerspostvakken in Microsoft 365.
 

@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-spintranet
 localization_priority: Normal
 description: Meer informatie over hoe Teams werken met Microsoft 365 Multi-Geo.
-ms.openlocfilehash: 9fe9b289b0ffbef12327c4232b9deb6727b6d718
-ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
+ms.openlocfilehash: 7da2032e1106d03178eccf3bcfb4f37fc63780d7
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53362651"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53453523"
 ---
 # <a name="multi-geo-capabilities-in-microsoft-teams"></a>Multi-Geo-mogelijkheden in Microsoft Teams
 
@@ -48,7 +48,7 @@ Get-MultiGeoRegion -EntityType User -EntityId <UPN>
 
 ## <a name="channel-messages"></a>Kanaalberichten
 
-Elke Microsoft 365 groep heeft een voorkeursgegevenslocatie (PDL) die de geografische locatie aanneert waar gerelateerde gegevens moeten worden opgeslagen. Teams gebruikt de PDL voor de groep die aan elk team is gekoppeld om te bepalen waar kanaalberichtengegevens voor dat team moeten worden opgeslagen. Dit geldt ook voor chat die plaatsvindt in een kanaalvergadering.
+Elke Microsoft 365 groep heeft een voorkeursgegevenslocatie (PDL) die de geografische locatie aanneert waar gerelateerde gegevens moeten worden opgeslagen. Teams gebruikt de PDL voor de groep die aan elk team is gekoppeld om te bepalen waar kanaalberichtengegevens voor dat team moeten worden opgeslagen. Dit geldt zowel voor privékanalen als voor chatberichten die plaatsvinden binnen een kanaalvergadering.
 
 Wanneer een gebruiker een nieuw team maakt, bepaalt de PDL van die gebruiker welke PDL is toegewezen aan de Microsoft 365 groep. De groep PDL bepaalt waar de gegevens van dat team worden opgeslagen. Als de PDL van die gebruiker later wordt gewijzigd, wordt de PDL van de groep niet gewijzigd.
 

@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 3579e9dab975d8776a53d400121d98fe119fe6cc
-ms.sourcegitcommit: 2fd60871975d61e60d4827b36cd689021fd2a4c8
+ms.openlocfilehash: 4c4ed845a31f044e17c97e0b43adfc86dd3f68ba
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 07/15/2021
-ms.locfileid: "53438070"
+ms.locfileid: "53454803"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-manually"></a>Microsoft Defender voor Eindpunt handmatig implementeren op Linux
 
@@ -266,13 +266,13 @@ Als u een voorbeeld van nieuwe functies wilt bekijken en vroegtijdig feedback wi
 
 ## <a name="download-the-onboarding-package"></a>Het onboarding-pakket downloaden
 
-Download het onboarding-pakket van Microsoft Defender-beveiligingscentrum:
+Download het onboarding-pakket van Microsoft 365 Defender portal:
 
-1. Ga Microsoft Defender-beveiligingscentrum naar Instellingen > **Device Management > Onboarding.**
-2. Selecteer in de eerste vervolgkeuzelijst **Linux Server** als besturingssysteem. Selecteer in de tweede vervolgkeuzelijst Lokaal script (voor maximaal **10 apparaten)** als implementatiemethode.
+1. Ga in Microsoft 365 Defender portal naar Instellingen > eindpunten > **Apparaatbeheer > Onboarding.**
+2. Selecteer in de eerste vervolgkeuzelijst **Linux Server** als besturingssysteem. Selecteer in de tweede vervolgkeuzelijst **Lokaal script** als implementatiemethode.
 3. Selecteer **Onboarding-pakket downloaden.** Sla het bestand op als WindowsDefenderATPOnboardingPackage.zip.
 
-    ![Microsoft Defender-beveiligingscentrum schermafbeelding](images/atp-portal-onboarding-linux.png)
+    ![Microsoft 365 Defender portal schermafbeelding](images/atp-portal-onboarding-linux.png)
 
 4. Controleer in een opdrachtprompt of u het bestand hebt.
     Haal de inhoud van het archief op:
@@ -359,11 +359,11 @@ Download het onboarding-pakket van Microsoft Defender-beveiligingscentrum:
 
 Als u de functionaliteit van EDR voor Linux wilt testen, volgt u de onderstaande stappen om een detectie op uw Linux-server te simuleren en de zaak te onderzoeken. 
 
-1.  Controleer of de onboarded Linux-server wordt weergegeven in Microsoft Defender-beveiligingscentrum. Als dit de eerste onboarding van de computer is, kan het tot 20 minuten duren voordat deze wordt weergegeven. 
+1.  Controleer of de onboarded Linux-server wordt weergegeven in Microsoft 365 Defender. Als dit de eerste onboarding van de computer is, kan het tot 20 minuten duren voordat deze wordt weergegeven. 
 
 2.  Download en haal het [scriptbestand op](https://aka.ms/LinuxDIY) naar een onboarded Linux-server en voer de volgende opdracht uit: `./mde_linux_edr_diy.sh`
 
-3.  Na een paar minuten moet een detectie in de Microsoft Defender-beveiligingscentrum.
+3.  Na een paar minuten moet een detectie in de Microsoft 365 Defender.
 
 4.  Bekijk de details van de waarschuwing, de tijdlijn van de machine en voer de gebruikelijke onderzoeksstappen uit.
 

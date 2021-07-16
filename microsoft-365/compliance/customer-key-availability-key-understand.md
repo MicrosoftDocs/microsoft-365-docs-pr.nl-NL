@@ -10,12 +10,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Meer informatie over de beschikbaarheidscode die wordt gebruikt om verloren klantsleutels te herstellen.
-ms.openlocfilehash: a4db6eab78feebd171dbfd5c8b45252837f229d0
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 0f65721856cd046f28a399701e625239decbd9b6
+ms.sourcegitcommit: 84e70051bb61b1171cebfbabe500b4904dfac04f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227077"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53463995"
 ---
 # <a name="learn-about-the-availability-key-for-customer-key"></a>Meer informatie over de beschikbaarheidssleutel voor de klantsleutel
 
@@ -65,7 +65,7 @@ Microsoft gebruikt een uitgebreide strategie om te voorkomen dat kwaadwillende p
 
 Microsoft 365 is ontworpen om misbruik van de beschikbaarheidscode te voorkomen. De toepassingslaag is de enige methode waarmee sleutels, inclusief de beschikbaarheidssleutel, kunnen worden gebruikt om gegevens te versleutelen en te ontsleutelen. Alleen Microsoft 365 servicecode kan de sleutelhiërarchie voor versleutelings- en ontsleutelingsactiviteiten interpreteren en doorlopen. Logische isolatie bestaat tussen de opslaglocaties van klantsleutels, beschikbaarheidstoetsen, andere hiërarchische sleutels en klantgegevens. Door deze isolatie wordt het risico van blootstelling aan gegevens beperkt als een of meer locaties worden gecompromitteerd. Elke laag in de hiërarchie heeft 24x7 mogelijkheden voor inbraakdetectie ingebouwd om gegevens en geheimen te beveiligen die zijn opgeslagen.
 
-Toegangsbesturingselementen worden geïmplementeerd om ongeautoriseerde toegang tot interne systemen te voorkomen, inclusief beschikbaarheidscodes. Microsoft-technici hebben geen directe toegang tot de beschikbaarheidscodes voor geheime winkels. Voor meer informatie over toegangsbesturingselementen, controleert u [Beheertoegangsbesturingselementen in Microsoft 365.](/Office365/securitycompliance/office-365-administrative-access-controls-overview)
+Toegangsbesturingselementen worden geïmplementeerd om ongeautoriseerde toegang tot interne systemen te voorkomen, inclusief beschikbaarheidscodes. Microsoft-technici hebben geen directe toegang tot de beschikbaarheidscodes voor geheime winkels. Voor meer informatie over toegangsbesturingselementen, controleert u [Beheertoegangsbesturingselementen in Microsoft 365.](/compliance/office-365-administrative-access-controls-overview)
 
 Technische besturingselementen voorkomen dat Medewerkers van Microsoft zich aanmelden bij zeer bevoorrechte serviceaccounts, die anders door aanvallers kunnen worden gebruikt om zich voor te Microsoft-services. Deze besturingselementen voorkomen bijvoorbeeld interactieve aanmelding.
 

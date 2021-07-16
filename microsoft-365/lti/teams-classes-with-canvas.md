@@ -13,19 +13,24 @@ ms.collection: M365-modern-desktop
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: De Microsoft Teams met Canvas integreren
-ms.openlocfilehash: 50e4e8ef912a8f19f379bba29b328a5a27358b5c
-ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
+ms.openlocfilehash: e8ab45de84fe8325f6d5b349deb96aa831d54e36
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53256901"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454683"
 ---
 # <a name="use-microsoft-teams-classes-with-canvas"></a>Gebruik Microsoft Teams met Canvas
 
-> [!IMPORTANT]
-> Sommige informatie is gerelateerd aan voorlopige productversies die mogelijk aanzienlijk gewijzigd worden voordat ze commercieel gepubliceerd worden. Microsoft geeft geen garantie, uitdrukkelijk of impliciet, met betrekking tot de informatie die hier wordt beschreven.
-
 Microsoft Teams lessen is een Learning app Hulpmiddelen interoperabiliteit (LTI) waarmee docenten en leerlingen eenvoudig kunnen navigeren tussen hun Learning Management System (LMS) en Teams. Gebruikers hebben rechtstreeks vanuit hun LMS toegang tot hun klasteams die aan hun cursus zijn gekoppeld.
+
+## <a name="prerequisites-before-deployment"></a>Vereisten vóór implementatie
+
+> [!NOTE]
+> De huidige class Teams LTI ondersteunt alleen het synchroniseren van Canvas-gebruikers met Microsoft Azure Active Directory (AAD) in een beperkt bereik. 
+> - Uw tenant moet een exacte overeenkomst hebben tussen een Canvas-veld (e-mail, gebruikers-id of SIS-id) en de UPN in Microsoft AAD. We werken eraan om de flexibiliteit voor de synchronisatiefunctionaliteit uit te breiden, maar in de tussentijd worden gebruikers in Canvas die niet zijn afgestemd op een UPN in AAD niet toegevoegd aan de Teams-klas gesynchroniseerd met Canvas. 
+> - Er kan slechts één Microsoft-tenant worden gebruikt voor het toewijzen van gebruikers tussen Canvas en Microsoft.
+> - U moet SDS uitschakelen voordat u de klasse Teams LTI gebruikt om duplicatie van groepen te voorkomen.
 
 ## <a name="microsoft-office-365-admin"></a>Microsoft Office 365 Beheerder
 
@@ -78,3 +83,9 @@ Als canvasbeheerder moet u de LTI-app Microsoft Teams in uw omgeving toevoegen. 
 5. Kies **Installeren**.
 
    De Microsoft Teams klassen LTI-app wordt toegevoegd aan de lijst met externe apps.
+   
+## <a name="enabling-the-lti-app-for-canvas-courses"></a>De LTI-app voor canvascursussen inschakelen
+
+Als u de LTI-app in een cursus wilt gebruiken, moet een docent van de canvascursus integratiessynchronisatie inschakelen. Elke cursus moet door een docent zijn ingeschakeld voor het maken van een overeenkomend team. er is geen globaal mechanisme voor het maken van teams. Dit is ontworpen als een voorzorgsmaatregel om te voorkomen dat ongewenste teams worden gemaakt.
+
+Verwijs uw docenten naar de documentatie voor docenten [voor](https://support.microsoft.com/topic/use-microsoft-teams-classes-in-your-lms-preview-ac6a1e34-32f7-45e6-b83e-094185a1e78a#ID0EBD=Instructure_Canvas) het inschakelen van de LTI-app voor elke cursus en het voltooien van de integratie-instelling.

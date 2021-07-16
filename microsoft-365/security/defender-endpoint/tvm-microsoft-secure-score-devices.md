@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: f2c799d477c400482c16b09b4d8a5cdc01106dfa
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 13307d3205818d41e7b2219b4e3a4ed6e9f2d5bb
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934079"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454776"
 ---
 # <a name="microsoft-secure-score-for-devices"></a>Microsoft Secure Score voor apparaten
 
@@ -35,13 +35,13 @@ ms.locfileid: "51934079"
 - [Bedreiging en vulnerability management](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 
+> Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 
 
 
 >[!NOTE]
 > Configuratiescore maakt nu deel uit van Threat and Vulnerability Management als Microsoft Secure Score voor apparaten.
 
-Uw score voor apparaten is zichtbaar in [het Threat and Vulnerability Management dashboard](tvm-dashboard-insights.md) van de Microsoft Defender-beveiligingscentrum. Een hogere Microsoft Secure Score voor apparaten betekent dat uw eindpunten beter bestand zijn tegen cyberbeveiligingsaanvallen. Het geeft de status van de collectieve beveiligingsconfiguratie van uw apparaten weer in de volgende categorieën:
+Uw score voor apparaten is zichtbaar in het [Threat and Vulnerability Management dashboard](tvm-dashboard-insights.md) van de Microsoft 365 Defender portal. Een hogere Microsoft Secure Score voor apparaten betekent dat uw eindpunten beter bestand zijn tegen cyberbeveiligingsaanvallen. Het geeft de status van de collectieve beveiligingsconfiguratie van uw apparaten weer in de volgende categorieën:
 
 - Toepassing
 - Besturingssysteem
@@ -57,7 +57,7 @@ Doorsturen van Microsoft Defender voor eindpuntsignalen, zodat Microsoft Secure 
 
 Het kan enkele uren duren voordat wijzigingen worden doorgevoerd in het dashboard.
 
-1. Ga in het navigatiedeelvenster naar **Instellingen**  >  **Geavanceerde functies** 
+1. Ga in het navigatiedeelvenster naar **Instellingen**  >  **functies van Endpoints**  >  **General**  >  **Advanced** 
 
 2. Schuif omlaag naar **Microsoft Secure Score** en zet de instelling in op **Aan.**
 
@@ -83,15 +83,17 @@ Verbeter uw beveiligingsconfiguratie door problemen op te lossen vanuit de lijst
 
 2. Selecteer een item in de lijst. Het flyout-deelvenster wordt geopend met informatie over de aanbeveling. Selecteer **Herstelopties.**
 
-   ![Beveiligingsbesturingselementen gerelateerde beveiligingsaanbevelingen](images/tvm_security_controls.png)
+   :::image type="content" alt-text="Beveiligingsbesturingselementen gerelateerde beveiligingsaanbevelingen." source="images/security-controls.png":::
 
 3. Lees de beschrijving om de context van het probleem te begrijpen en wat u daarna moet doen. Selecteer een einddatum, voeg notities toe en selecteer Alle herstelactiviteitsgegevens exporteren naar **CSV,** zodat u deze kunt toevoegen aan een e-mail voor opvolging.
 
 4. **Aanvraag indienen**. U ziet een bevestigingsbericht dat de hersteltaak is gemaakt.
-   ![Bevestiging van het maken van hersteltaak](images/tvm_remediation_task_created.png)
+
+   :::image type="content" alt-text="Bevestiging van het maken van taken herstellen." source="images/remediation-task-created.png":::
 
 5. Sla uw CSV-bestand op.
-   ![CSV-bestand opslaan](images/tvm_save_csv_file.png)
+
+   :::image type="content" alt-text="Csv-bestand opslaan." source="images/tvm_save_csv_file.png":::
 
 6. Stuur een follow-up-e-mail naar uw IT-beheerder en laat de tijd die u hebt toegewezen om de hersteltijd in het systeem door te geven.
 
@@ -108,7 +110,7 @@ Verbeter uw beveiligingsconfiguratie door problemen op te lossen vanuit de lijst
 >1. Ga naar [Microsoft Update Catalog](https://www.catalog.update.microsoft.com/home.aspx).
 >2. Key-in the security update KB number that you need to download, then click **Search**.  
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-topics"></a>Gerelateerde onderwerpen
 
 - [Overzicht van bedreigingen en vulnerability management](next-gen-threat-and-vuln-mgt.md)
 - [Dashboard](tvm-dashboard-insights.md)

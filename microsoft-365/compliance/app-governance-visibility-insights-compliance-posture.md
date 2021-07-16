@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Bepaal jouw compliance-houding.
-ms.openlocfilehash: 2fde19e385d4797e04c8f991efa673d33cea3b58
-ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
+ms.openlocfilehash: 152f68e8fe0e7d7340d2e048bc73684bc079386f
+ms.sourcegitcommit: 2fd60871975d61e60d4827b36cd689021fd2a4c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53430670"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53438022"
 ---
 # <a name="determine-your-app-compliance-posture"></a>Bepaal jouw compliance-houding
 
@@ -54,7 +54,7 @@ Op deze pagina kan je het volgende bekijken:
 
 - Voor toegang tot gegevens en resources:
 
-  - De toegang tot API-gegevens van de toepassing in de afgelopen 90 dagen
-  - Het gebruik van de belangrijkste resources in de afgelopen 90 dagen
+  - Totaal gegevens dat door apps in de tenant is geopend via Graph API in de huidige en vorige drie kalendermaanden. (Bevat momenteel alleen verbruik voor uploaden en downloaden van e-mail en bestanden)
+  - Dataverbruik in de huidige en vorige drie kalendermaanden, opgesplitst per resourcetype. (Bevat momenteel alleen verbruik voor uploaden en downloaden van e-mail en bestanden)
 
   Op basis van deze informatie kan je bepalen of er ongewone pieken zijn in de toegang tot de gegevens in de Microsoft 365-tenant.

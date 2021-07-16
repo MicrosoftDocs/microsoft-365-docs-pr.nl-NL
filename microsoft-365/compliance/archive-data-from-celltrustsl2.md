@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Meer informatie over het instellen en gebruiken van een CellTrust SL2-gegevensconnector voor het importeren en archiveren van mobiele communicatiegegevens.
-ms.openlocfilehash: 0929a92978f9b48d40153b3cc7328e5e05b54fd0
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: 191160921c9e949aa7b82520d72dc7a18bfb26ef
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53097069"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53453970"
 ---
-# <a name="archive-data-from-celltrust-sl2-to-microsoft-365-preview"></a>Gegevens archiveren van CellTrust SL2 naar Microsoft 365 (voorbeeld)
+# <a name="archive-data-from-celltrust-sl2-to-microsoft-365"></a>Gegevens archiveren van CellTrust SL2 naar Microsoft 365
 
 CellTrust SL2 legt mobiele communicatiegegevens vast en integreert met de toonaangevende archiveringstechnologieën om te voldoen aan de vereisten voor elektronische detectie voor regelgeving zoals FINRA, HIPAA, FOIA en TCPA. De SL2 Data Connector importeert mobiele communicatie-items naar Microsoft 365. In dit artikel wordt het proces beschreven voor het integreren van SL2 met Microsoft 365 met behulp van de CellTrust SL2 Data Connector voor archivering. Als u dit proces voltooit, gaat u ervan uit dat u zich hebt geabonneerd op de CellTrust SL2-service en bekend bent met de SL2-architectuur. Zie voor meer informatie over SL2 <www.celltrust.com>.
 

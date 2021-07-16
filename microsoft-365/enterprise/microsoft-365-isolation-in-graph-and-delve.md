@@ -17,11 +17,11 @@ f1.keywords:
 description: In dit artikel vindt u een uitleg over hoe Microsoft 365 tenantisolatie werkt in de Office Graph en in Delve.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 966f02726a2cce18e30e4d5bc7ab0beb5db51a29
-ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
+ms.sourcegitcommit: 27addd4dac07926528b788215d2dcd0e46301eb1
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47332386"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53464069"
 ---
 # <a name="microsoft-365-tenant-isolation-in-the-microsoft-graph-and-delve"></a>Microsoft 365 Tenantisolatie in de Microsoft-Graph en Delve
 

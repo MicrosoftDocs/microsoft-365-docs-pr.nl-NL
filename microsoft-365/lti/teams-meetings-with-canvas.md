@@ -13,17 +13,14 @@ ms.collection: M365-modern-desktop
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: Vergaderingen Microsoft Teams canvas integreren
-ms.openlocfilehash: 7e13052cb029fef369f6386c2039785e40acc4ff
-ms.sourcegitcommit: 8c698d1a0c41baf5f35d07b0d765b4a5ead593d0
+ms.openlocfilehash: 54dd3cc2709933ffb7b7d5fecdd181fad2abb42b
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "53409090"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454671"
 ---
 # <a name="use-microsoft-teams-meetings-with-canvas"></a>Vergaderingen Microsoft Teams Canvas gebruiken
-
-> [!IMPORTANT]
-> Sommige informatie is gerelateerd aan voorlopige productversies die mogelijk aanzienlijk gewijzigd worden voordat ze commercieel gepubliceerd worden. Microsoft geeft geen garantie, uitdrukkelijk of impliciet, met betrekking tot de informatie die hier wordt beschreven.
 
 Microsoft Teams vergaderingen is een app Learning Tools Interoperability (LTI) waarmee docenten en leerlingen eenvoudig kunnen navigeren tussen hun Learning Management System (LMS) en Teams. Gebruikers hebben rechtstreeks vanuit hun LMS toegang tot hun klasteams die aan hun cursus zijn gekoppeld.
 

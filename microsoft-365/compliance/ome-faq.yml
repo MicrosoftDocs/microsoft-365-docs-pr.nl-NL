@@ -6,7 +6,7 @@ metadata:
   ms.author: krowley
   author: kccross
   manager: laurawi
-  ms.date: 05/22/2020
+  ms.date: 07/14/2021
   audience: ITPro
   ms.topic: overview
   ms.service: O365-seccomp
@@ -16,12 +16,12 @@ metadata:
   ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
   description: Hebt u een vraag over hoe de nieuwe mogelijkheden voor berichtbeveiliging werken? Controleer hier of er een antwoord is.
   ms.custom: seo-marvel-apr2020
-  ms.openlocfilehash: 386f37e2e6ebff820f4f6385281783daf41243b2
-  ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
+  ms.openlocfilehash: 809f31682fbcb690aaaf2483ec8b72c766282cf5
+  ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
   ms.translationtype: MT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 07/14/2021
-  ms.locfileid: "53430442"
+  ms.lasthandoff: 07/15/2021
+  ms.locfileid: "53453823"
 title: Veelgestelde vragen over berichtversleuteling
 summary: >
   Hebt u een vraag over hoe de nieuwe mogelijkheden voor berichtbeveiliging werken? Controleer hier of er een antwoord is. Bekijk ook Veelgestelde vragen over gegevensbescherming [in Azure Information Protection](/information-protection/get-started/faqs-rms) voor antwoorden op vragen over de gegevensbeschermingsservice, Azure Rights Management, in Azure Information Protection.
@@ -35,23 +35,23 @@ sections:
     answer: "U kunt de nieuwe mogelijkheden voor OME onder de volgende voorwaarden gebruiken:\n  \n- Als u nog nooit OME of IRM hebt ingesteld voor Exchange Online in Office 365.\n\n- Als u OME en IRM hebt ingesteld, kunt u deze stappen gebruiken als u de service Azure Rights Management Azure Information Protection gebruikt.\n\n- Als u een Exchange Online Active Directory Rights Management-service (AD RMS) gebruikt, kunt u deze nieuwe mogelijkheden niet direct inschakelen. In plaats daarvan moet u AD RMS eerst migreren [naar Azure Information Protection.](/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms) Wanneer u klaar bent met de migratie, kunt u OME instellen.\n\n  Als u ervoor kiest om on-premises AD RMS te blijven gebruiken met Exchange Online in plaats van te migreren naar Azure Information Protection, kunt u deze nieuwe mogelijkheden niet gebruiken.\n"
   - question: >
       Welke abonnementen heb ik nodig om de nieuwe OME-mogelijkheden te gebruiken?
-    answer: "Als u de nieuwe OME-mogelijkheden wilt gebruiken, hebt u een van de volgende abonnementen nodig:\n  \n- Office 365-berichtversleuteling wordt aangeboden als onderdeel van Office 365 Enterprise E3 en E5, Microsoft Enterprise E3 en E5, Microsoft 365 Business Premium, Office 365 A1, A3 en A5, en Office 365 Government G3 en G5. Klanten hebben geen extra licenties nodig om de nieuwe beveiligingsmogelijkheden te ontvangen die worden ondersteund door Azure Information Protection.\n\n- U kunt ook Azure Information Protection Plan 1 toevoegen aan de volgende abonnementen om de nieuwe Office 365-berichtversleuteling-mogelijkheden te ontvangen: Exchange Online Plan 1, Exchange Online Plan 2, Office 365 F1, Microsoft 365 Business Basic, Microsoft 365 Business Standard of Office 365 Enterprise E1.\n\n- Elke gebruiker die profiteert van Office 365-berichtversleuteling moet een licentie hebben om onder de functie te vallen.\n\n- Zie voor de volledige lijst de [Exchange Online servicebeschrijvingen](/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description) voor Office 365-berichtversleuteling.\n"
+    answer: "Als u de nieuwe OME-mogelijkheden wilt gebruiken, hebt u een van de volgende abonnementen nodig:\n  \n- Office 365-berichtversleuteling wordt aangeboden als onderdeel van Office 365 Enterprise E3 en E5, Microsoft Enterprise E3 en E5, Microsoft 365 Business Premium, Office 365 A1, A3 en A5, en Office 365 Government G3 en G5. U hebt geen extra licenties nodig om de nieuwe beveiligingsmogelijkheden te ontvangen die worden mogelijk gemaakt door Azure Information Protection.\n\n- U kunt ook Azure Information Protection Plan 1 toevoegen aan de volgende abonnementen om de nieuwe Office 365-berichtversleuteling-mogelijkheden te ontvangen: Exchange Online Plan 1, Exchange Online Plan 2, Office 365 F1, Microsoft 365 Business Basic, Microsoft 365 Business Standard of Office 365 Enterprise E1.\n\n- Elke gebruiker die profiteert van Office 365-berichtversleuteling moet een licentie hebben om onder de functie te vallen.\n\n- Zie voor de volledige lijst de [Exchange Online servicebeschrijvingen](/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description) voor Office 365-berichtversleuteling.\n"
   - question: >
       Kan ik een Exchange Online gebruiken met uw eigen sleutel (BYOK) in Azure Information Protection?
     answer: "Ja! Microsoft raadt u aan de stappen voor het instellen van BYOK uit te voeren voordat u OME in stelt.\n  \nZie Uw Azure Information [Protection tenantsleutel](/information-protection/plan-design/plan-implement-tenant-key)plannen en implementeren voor meer informatie over BYOK.\n  \n"
   - question: >
       Veranderen OME en BYOK met Azure Information Protection de aanpak van Microsoft voor gegevensaanvragen van derden, zoals dagvaarding?
-    answer: "Nee. OME en de optie voor het verstrekken en controleren van uw eigen versleutelingssleutels, byok genaamd, van Azure Information Protection, zijn niet ontworpen om te reageren op dagvaardingsverzoeken van de wet. OME, met BYOK voor Azure Information Protection, is ontworpen voor klanten met compliance-aandacht. Microsoft neemt verzoeken van derden voor klantgegevens serieus. Als cloudserviceprovider pleiten we altijd voor de privacy van klantgegevens. In het geval dat we een dagvaarding krijgen, proberen we altijd de derde partij om te leiden naar de klant om de informatie te verkrijgen. (Lees Brad Smith's blog: [Bescherm klantgegevens tegen overheidsinkijkers).](https://blogs.microsoft.com/blog/2013/12/04/protecting-customer-data-from-government-snooping/) We publiceren regelmatig gedetailleerde informatie over de aanvraag die we ontvangen. Zie Reageren op verzoeken van de overheid en wetshandhavers om toegang te krijgen tot klantgegevens [in](https://www.microsoft.com/trustcenter/privacy/govt-requests-for-data) het Microsoft Trust Center voor meer informatie over gegevensaanvragen van derden. Zie ook 'Openbaarmaking van klantgegevens' in de [Voorwaarden voor onlineservices (OST).](https://www.microsoft.com/Licensing/product-licensing/products.aspx)\n  \n"
+    answer: "Nee. OME en de optie voor het verstrekken en controleren van uw eigen versleutelingssleutels, byok genaamd, van Azure Information Protection, zijn niet ontworpen om te reageren op dagvaardingsverzoeken van de wet. OME, met BYOK voor Azure Information Protection, is ontworpen voor op naleving gerichte organisaties. Microsoft neemt verzoeken van derden voor klantgegevens serieus. Als cloudserviceprovider pleiten we altijd voor de privacy van uw gegevens. In het geval dat we een dagvaarding krijgen, proberen we altijd de derde partij rechtstreeks naar u om te leiden om de informatie te verkrijgen. (Lees Brad Smith's blog: [Bescherm klantgegevens tegen overheidsinkijkers).](https://blogs.microsoft.com/blog/2013/12/04/protecting-customer-data-from-government-snooping/) We publiceren regelmatig gedetailleerde informatie over de aanvraag die we ontvangen. Zie Reageren op verzoeken van de overheid en wetshandhavers om toegang te krijgen tot klantgegevens [in](https://www.microsoft.com/trustcenter/privacy/govt-requests-for-data) het Microsoft Trust Center voor meer informatie over gegevensaanvragen van derden. Zie ook 'Openbaarmaking van klantgegevens' in de [Voorwaarden voor onlineservices (OST).](https://www.microsoft.com/Licensing/product-licensing/products.aspx)\n  \n"
   - question: >
       Hoe is deze functie gerelateerd aan oudere Office 365-berichtversleuteling (OME) en IRM-functies (Information Rights Management) ?
-    answer: "De nieuwe mogelijkheden voor Office 365-berichtversleuteling zijn een evolutie van de bestaande IRM- en oudere OME-oplossingen. In de volgende tabel vindt u meer informatie.\n  \n**Vergelijking van oudere OME-, IRM- en nieuwe OME-mogelijkheden**\n\n| Mogelijkheid | Vorige versies van OME | IRM | Nieuwe OME-mogelijkheden |\n|:-----|:-----|:-----|:-----|\n|**Een versleutelde e-mail verzenden**|Alleen via Exchange regels voor e-mailstroom|Eindgebruiker die is gestart vanuit Outlook voor Windows, Outlook voor Mac of webversie van Outlook; of via Exchange regels voor e-mailstroom|Eindgebruiker die is gestart vanuit Outlook voor Windows, Outlook voor Mac of webversie van Outlook; of via e-mailstroomregels|\n|**Rechtenbeheer**|-|Optie Niet doorsturen en aangepaste sjablonen|Optie Niet doorsturen, optie alleen-versleutelen, standaard- en aangepaste sjablonen|\n|**Ondersteund type geadresseerde**|Alleen externe geadresseerden|Alleen interne geadresseerden|Interne en externe geadresseerden|\n|**Ervaring voor geadresseerde**|Externe geadresseerden hebben een HTML-bericht ontvangen dat ze hebben gedownload en geopend in een browser of een mobiele app hebben gedownload.|Interne geadresseerden hebben alleen versleutelde e-mail ontvangen in Outlook voor Windows, Outlook voor Mac en webversie van Outlook.|Interne en externe geadresseerden ontvangen e-mail in Outlook voor Windows, Outlook voor Mac, webversie van Outlook, Outlook voor Android en Outlook voor iOS of via een webportal, ongeacht of ze zich in dezelfde organisatie of in een organisatie hebben. De OME-portal vereist geen afzonderlijke download.|\n|**Ondersteuning voor uw eigen sleutel**|Niet beschikbaar|Niet beschikbaar| BYOK ondersteund|\n"
+    answer: "De nieuwe mogelijkheden voor Office 365-berichtversleuteling zijn een evolutie van de bestaande IRM- en oudere OME-oplossingen. In de volgende tabel vindt u meer informatie.\n  \n**Vergelijking van oudere OME-, IRM- en nieuwe OME-mogelijkheden**\n\n| Functie | Vorige versies van OME | IRM | Nieuwe OME-mogelijkheden |\n|:-----|:-----|:-----|:-----|\n|**Een versleutelde e-mail verzenden**|Alleen via Exchange regels voor e-mailstroom|Eindgebruiker die is gestart vanuit Outlook voor Windows, Outlook voor Mac of webversie van Outlook; of via Exchange regels voor e-mailstroom|Eindgebruiker die is gestart vanuit Outlook voor Windows, Outlook voor Mac of webversie van Outlook; of via e-mailstroomregels|\n|**Rechtenbeheer**|-|Optie Niet doorsturen en aangepaste sjablonen|Optie Niet doorsturen, optie alleen-versleutelen, standaard- en aangepaste sjablonen|\n|**Ondersteund type geadresseerde**|Alleen externe geadresseerden|Alleen interne geadresseerden|Interne en externe geadresseerden|\n|**Ervaring voor geadresseerde**|Externe geadresseerden hebben een HTML-bericht ontvangen dat ze hebben gedownload en geopend in een browser of een mobiele app hebben gedownload.|Interne geadresseerden hebben alleen versleutelde e-mail ontvangen in Outlook voor Windows, Outlook voor Mac en webversie van Outlook.|Interne en externe geadresseerden ontvangen e-mail in Outlook voor Windows, Outlook voor Mac, webversie van Outlook, Outlook voor Android en Outlook voor iOS of via een webportal, ongeacht of ze zich in dezelfde organisatie of in een organisatie hebben. De OME-portal vereist geen afzonderlijke download.|\n|**Ondersteuning voor uw eigen sleutel**|Niet beschikbaar|Niet beschikbaar| BYOK ondersteund|\n"
   - question: >
       Hoe schakel ik de nieuwe OME-mogelijkheden voor mijn organisatie in?
     answer: "Zie [Nieuwe functies Office 365-berichtversleuteling instellen.](set-up-new-message-encryption-capabilities.md)\n  \n"
   - question: >
       Wordt de vorige versie van OME afgeschaft?
     answer: >
-      U kunt de vorige versie van OME nog steeds gebruiken, deze wordt op dit moment niet afgeschaft. We raden organisaties echter ten zeerste aan om de nieuwe en verbeterde OME-oplossing te gebruiken. Klanten die NOG GEEN OME hebben geïmplementeerd, kunnen geen nieuwe implementatie van de vorige versie van OME instellen.
+      U kunt de vorige versie van OME nog steeds gebruiken, deze wordt op dit moment niet afgeschaft. We raden organisaties echter ten zeerste aan om de nieuwe en verbeterde OME-oplossing te gebruiken. Als u OME nog niet hebt geïmplementeerd, kunt u geen nieuwe implementatie van de vorige versie van OME instellen.
   - question: >
       Mijn organisatie gebruikt Active Directory Rights Management, kan ik deze functionaliteit gebruiken?
     answer: "Nee. Als u een Exchange Online Active Directory Rights Management-service (AD RMS) gebruikt, kunt u deze nieuwe mogelijkheden niet direct inschakelen. In plaats daarvan moet u AD RMS eerst migreren [naar Azure Information Protection.](/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms)\n  \n"
@@ -135,7 +135,7 @@ sections:
   - question: >
       Kan ik berichtversleuteling gebruiken met compliancefuncties zoals eDiscovery?
     answer: >
-      Ja. Alle versleutelde e-mailberichten kunnen worden ontdekt Microsoft 365 compliancefuncties.
+      Ja. Microsoft 365 compliancefuncties kunnen alle versleutelde e-mailberichten ontdekken. Zie [eDiscovery-activiteiten die versleutelde items ondersteunen voor](/microsoft-365/compliance/ediscovery-decryption#ediscovery-activities-that-support-encrypted-items) meer informatie.
   - question: >
       Kan ik versleuteling uit e-mail verwijderen?
     answer: >
@@ -151,7 +151,7 @@ sections:
   - question: >
       Kan ik versleutelde berichten openen die naar een gedeeld postvak zijn verzonden?
     answer: >
-      Ja! Versleutelde berichten worden ondersteund voor een gedeeld postvak.
+      Ja! U kunt versleutelde berichten voor een gedeeld postvak openen wanneer u bent aangemeld bij een ondersteunde Outlook client.
 
 
       - Gebruikers kunnen beveiligde e-mails openen in een gedeeld postvak waar het gedeelde postvak een beveiligde e-mail heeft ontvangen als onderdeel van een distributiegroep.
@@ -203,7 +203,7 @@ sections:
   - question: >
       Kan ik versleutelde berichten openen die met Fullaccess naar het postvak van een andere gebruiker zijn verzonden?
     answer: >
-      Gebruikers kunnen versleutelde berichten openen zolang ze directe toegang krijgen en automatisch maken is ingeschakeld. Toegang is niet toegestaan als de toegang wordt verleend via een beveiligingsgroep met e-mail.
+      Nee. U kunt alleen versleutelde berichten openen in een gedeeld postvak.
   - question: >
       Wat moet ik doen als ik de een time pass-code niet ontvang nadat ik deze heb aangevraagd?
     answer: >-

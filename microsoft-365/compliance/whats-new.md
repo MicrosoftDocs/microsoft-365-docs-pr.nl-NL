@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Of het nu gaat om het toevoegen van nieuwe oplossingen aan het compliancecentrum, het bijwerken van bestaande functies op basis van uw feedback of het implementeren van nieuwe en bijgewerkte documentatie, met Microsoft 365 kunt u het steeds veranderende compliancelandschap in de hand houden. Ontdek wat we deze maand hebben gedaan.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4e298a9dc8b23e3977db51d5a3b96f7b0723a0d1
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: acbad7a1c5fa541ee83da668768cc42af7a5afda
+ms.sourcegitcommit: 84e70051bb61b1171cebfbabe500b4904dfac04f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53394939"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53464007"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Wat is er nieuw in Microsoft 365-compliance
 
@@ -46,6 +46,10 @@ Of het nu gaat om het toevoegen van nieuwe oplossingen aan de [Microsoft 365-com
 ### <a name="customer-key"></a>Klantsleutel
 
 - [Serviceversleuteling met klantsleutel](customer-key-overview.md) (klantsleuteltenderniveau DEP's versleutelen nu de configuratie van gevoeligheidslabels voor Microsoft Information Protection.)
+
+### <a name="data-connectors"></a>Gegevensconnectors
+
+- We hebben 17 nieuwe gegevensconnectoren uitgebracht in samenwerking met [17a-4 LLC](archiving-third-party-data.md#17a-4-data-connectors) en één nieuwe [connector in samenwerking met CellTrust.](archiving-third-party-data.md#celltrust-data-connectors) We hebben ook extra gegevensconnectoren uitgebracht in samenwerking met [Veritas](archiving-third-party-data.md#veritas-data-connectors) en [TeleMessage.](archiving-third-party-data.md#telemessage-data-connectors) Tot op heden zijn er dan in totaal 65 beschikbare gegevensconnectors beschikbaar om gegevens van derden te importeren en te archiveren in Microsoft 365.
 
 ### <a name="ediscovery"></a>eDiscovery
 
@@ -264,7 +268,7 @@ Inhoud is toegevoegd of bijgewerkt in de volgende onderwerpen:
 - [Meer informatie over typen gevoelige informatie](/microsoft-365/compliance/sensitive-information-type-learn-about)
 - [Een aangepast type voor vertrouwelijke gegevens maken met PowerShell](/microsoft-365/compliance/create-a-custom-sensitive-information-type-in-scc-powershell)
 - [Een aangepaste gevoelige informatietypen maken met een classificatie op basis van Exacte gegevensmatch](/microsoft-365/compliance/create-custom-sensitive-information-types-with-exact-data-match-based-classification)
-- [Entiteitsdefinities voor het type gevoelige informatie](/microsoft-365/compliance/sensitive-information-type-entity-definitions)
+- [Definities van entiteiten van het type vertrouwelijke gegevens](/microsoft-365/compliance/sensitive-information-type-entity-definitions)
 
 ### <a name="sensitivity-labels"></a>Vertrouwelijkheidslabels
 

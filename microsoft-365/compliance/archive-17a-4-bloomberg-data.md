@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Meer informatie over het instellen en gebruiken van een 17a-4 Bloomberg DataParser-connector voor het importeren en archiveren van Gegevensparser-gegevens in Microsoft 365.
-ms.openlocfilehash: 7fcc02384ce7bea6b9903fddef1256b97b8e340c
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: 2d4005468d7df7987d1794e8d61262c8fde70b5f
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096387"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454539"
 ---
-# <a name="set-up-a-connector-to-archive-bloomberg-data-preview"></a>Een connector instellen voor het archiveren van Gegevens van Bloomberg (voorbeeld)
+# <a name="set-up-a-connector-to-archive-bloomberg-data"></a>Een verbindingslijn instellen voor het archiveren van Gegevens van Bloomberg
 
 Gebruik de [Gegevensparser van](https://www.17a-4.com/Bloomberg-dataparser/) 17a-4 LLC van Bloomberg om gegevens uit Bloomberg te importeren en te archiveren in postvakken van gebruikers in uw Microsoft 365 organisatie. De DataParser bevat een Connector van Bloomberg die is geconfigureerd om items uit een externe gegevensbron vast te leggen en deze items te importeren in Microsoft 365. Met de Connector DataParser van Bloomberg worden Gegevensparser-gegevens ge converteert naar een e-mailberichtindeling en worden deze items vervolgens geïmporteerd in postvakken van gebruikers in Microsoft 365.
 

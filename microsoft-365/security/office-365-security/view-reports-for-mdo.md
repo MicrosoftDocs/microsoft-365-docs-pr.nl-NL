@@ -20,12 +20,12 @@ description: Beheerders kunnen leren hoe ze de Defender kunnen vinden en gebruik
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f7eab856f22ac1c2282e83897db6e3f93d4d97e6
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: e8bb03202139137adf55c4c10230b1c4e99253ba
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53083510"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454719"
 ---
 # <a name="view-defender-for-office-365-reports-in-the-microsoft-365-defender-portal"></a>Defender weergeven voor Office 365 rapporten in de Microsoft 365 Defender portal
 
@@ -191,11 +191,24 @@ Naast de rapporten die in dit artikel worden beschreven, zijn er verschillende a
 |Rapport|Onderwerp|
 |---|---|
 |**Explorer** (Microsoft Defender voor Office 365 plan 2) of **realtime detecties** (Microsoft Defender voor Office 365 abonnement 1)|[Bedreigingsverkenner (en realtime detecties)](threat-explorer.md)|
-|**E-mailbeveiligingsrapporten,** zoals het rapport Top senders and recipients, the Spoof mail report, and the Spam detections report.|[E-mailbeveiligingsrapporten weergeven in de Microsoft 365 Defender portal](view-email-security-reports.md)|
-|**E-mailstroomrapporten,** zoals het rapport Doorsturen, het rapport Mailflow-status en het rapport Top senders and recipients.|[E-mailstroomrapporten in het nieuwe Exchange beheercentrum](/exchange/monitoring/mail-flow-reports/mail-flow-reports)|
-|**URL-trace voor Safe koppelingen** (alleen PowerShell). In de uitvoer van deze cmdlet ziet u de resultaten van Safe koppelingen in de afgelopen zeven dagen.|[Get-UrlTrace](/powershell/module/exchange/get-urltrace)|
-|**Resultaten van e-mailverkeer voor EOP en Microsoft Defender voor Office 365** (alleen PowerShell). De uitvoer van deze cmdlet bevat informatie over Domein, Datum, Gebeurtenistype, Richting, Actie en Aantal berichten.|[Get-MailTrafficATPReport](/powershell/module/exchange/get-mailtrafficatpreport)|
-|**E-maildetailrapporten voor EOP en Defender Office 365 detecties** (alleen PowerShell). De uitvoer van deze cmdlet bevat details over schadelijke bestanden of URL's, phishingpogingen, imitatie en andere potentiële bedreigingen in e-mail of bestanden.|[Get-MailDetailATPReport](/powershell/module/exchange/get-maildetailatpreport)|
+|E-mailbeveiligingsrapporten waarvoor Defender niet nodig is voor Office 365|[E-mailbeveiligingsrapporten weergeven in de Microsoft 365 Defender portal](view-email-security-reports.md)|
+|E-mailstroomrapporten in het Exchange-beheercentrum (EAC)|[E-mailstroomrapporten in het nieuwe Exchange beheercentrum](/exchange/monitoring/mail-flow-reports/mail-flow-reports)|
+|
+
+PowerShell-rapportage-cmdlets:
+
+<br>
+
+****
+
+|Rapport|Onderwerp|
+|---|---|
+|Belangrijkste afzenders en geadresseerden|[Get-MailTrafficTopReport](/powershell/module/exchange/get-mailtraffictopreport) <p> [Get-MailTrafficSummaryReport](/powershell/module/exchange/get-mailtrafficsummaryreport)|
+|Top malware|[Get-MailTrafficSummaryReport](/powershell/module/exchange/get-mailtrafficsummaryreport)|
+|E-mailverkeer|[Get-MailTrafficATPReport](/powershell/module/exchange/get-mailtrafficatpreport) <p> [Get-MailDetailATPReport](/powershell/module/exchange/get-maildetailatpreport)|
+|Veilige koppelingen|[Get-SafeLinksAggregateReport](/powershell/module/exchange/get-safelinksaggregatereport) <p> [Get-SafeLinksDetailReport](/powershell/module/exchange/get-safelinksdetailreport)|
+|Gecompromitteerde gebruikers|[Get-CompromisedUserAggregateReport](/powershell/module/exchange/get-compromiseduseraggregatereport) <p> [Get-CompromisedUserDetailReport](/powershell/module/exchange/get-compromiseduserdetailreport)|
+|E-mailstroomstatus|[Get-MailflowStatusReport](/powershell/module/exchange/get-mailflowstatusreport)|
 |
 
 ## <a name="what-permissions-are-needed-to-view-the-defender-for-office-365-reports"></a>Welke machtigingen zijn nodig om de Defender voor Office 365 weergeven?
@@ -203,7 +216,7 @@ Naast de rapporten die in dit artikel worden beschreven, zijn er verschillende a
 Als u de rapporten wilt bekijken en gebruiken die in dit artikel worden beschreven, moet u lid zijn van een van de volgende rollengroepen in de Microsoft 365 Defender portal:
 
 - **Organisatiebeheer**
-- **Beveiligingsadministrator**
+- **Beveiligingsbeheerder**
 - **Beveiligingslezer**
 - **Globale lezer**
 
@@ -215,7 +228,7 @@ Zie [Machtigingen in de Microsoft 365 Defender-portal](permissions-microsoft-365
 
 Als u geen gegevens ziet in uw Defender voor Office 365 rapporten, controleert u of uw beleid correct is ingesteld. Uw organisatie moet Safe [beleidsregels](set-up-safe-links-policies.md) voor koppelingen en Safe [bijlagen](set-up-safe-attachments-policies.md) hebben gedefinieerd, zodat Defender Office 365 beveiliging kan worden gebruikt. Zie ook [Anti-spam en anti-malwarebeveiliging.](anti-spam-and-anti-malware-protection.md)
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-topics"></a>Gerelateerde onderwerpen
 
 [Slimme rapporten en inzichten in de Microsoft 365 Defender portal](reports-and-insights-in-security-and-compliance.md)
 

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 777f5f63c4739f277ec24f826bc8a61a226fb65f
-ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
+ms.openlocfilehash: 4aff505f9f35b6144360eed5992ac36cf0847617
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "53339668"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454707"
 ---
 # <a name="onboard-non-windows-devices"></a>Niet-Windows-apparaten onboarden
 
@@ -50,7 +50,7 @@ U moet de volgende stappen ondernemen om niet-Windows in te stappen:
 
    - Voor macOS-apparaten kunt u ervoor kiezen om aan boord te gaan via Microsoft Defender voor Eindpunt of via een oplossing van derden. Zie Microsoft Defender voor Eindpunt op Mac voor [meer informatie.](/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint-mac)
 
-   - Voor andere niet-Windows-apparaten kiest **u Onboard niet-Windows** apparaten via integratie van derden .   
+   - Voor andere niet-Windows-apparaten kiest u **Onboard niet-Windows** apparaten via integratie van derden.   
     1. Selecteer in het navigatiedeelvenster **Interoperabiliteitspartners.**  >   Zorg ervoor dat de oplossing van derden wordt vermeld.
     2. Selecteer op **het tabblad Partnertoepassingen** de partner die uw niet-Windows ondersteunt.
     3. Selecteer **Partnerpagina openen om** de pagina van de partner te openen. Volg de instructies op de pagina.

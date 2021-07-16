@@ -15,20 +15,20 @@ ms.collection:
 - m365initiative-compliance
 ms.custom: seo-marvel-apr2020
 description: In dit artikel leert u hoe serviceversleuteling werkt met Customer Key in Microsoft 365.
-ms.openlocfilehash: d12a5d2f80de11a69fc4a36146a511c5f9a306f8
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 9a8558a0cf36f2040614ca3ffb61e7ba9936d40f
+ms.sourcegitcommit: 84e70051bb61b1171cebfbabe500b4904dfac04f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769447"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53463959"
 ---
 # <a name="service-encryption-with-customer-key"></a>Serviceversleuteling met klantsleutel
 
-Microsoft 365 biedt basislijnversleuteling, volumeversleuteling die is ingeschakeld via BitLocker en Distributed Key Manager (DKM). Microsoft 365 biedt een extra versleutelingslaag voor uw inhoud. Deze inhoud bevat gegevens uit Exchange Online, Skype voor Bedrijven, SharePoint Online, OneDrive voor Bedrijven en Microsoft Teams.
+Microsoft 365 biedt basislijnversleuteling, volumeversleuteling ingeschakeld via BitLocker en Distributed Key Manager (DKM). Microsoft 365 biedt een extra versleutelingslaag voor uw inhoud. Deze inhoud bevat gegevens uit Exchange Online, Skype voor Bedrijven, SharePoint Online, OneDrive voor Bedrijven en Microsoft Teams.
 
 ## <a name="how-service-encryption-bitlocker-and-customer-key-work-together"></a>Hoe serviceversleuteling, BitLocker en Klantsleutel samenwerken
 
-Uw gegevens worden altijd in rust versleuteld in de Microsoft 365 service met BitLocker en DKM. Zie Hoe beveiligt u [uw Exchange Online e-mailgeheimen](exchange-online-secures-email-secrets.md)voor meer informatie. Klantsleutel biedt extra bescherming tegen het weergeven van gegevens door onbevoegde systemen of personeel en vormt een aanvulling op de BitLocker schijfversleuteling in Microsoft-datacenters. Serviceversleuteling is niet bedoeld om te voorkomen dat medewerkers van Microsoft toegang krijgen tot uw gegevens. In plaats daarvan helpt Customer Key u om te voldoen aan wettelijke of nalevingsvereisten voor het beheren van hoofdsleutels. U machtigt Microsoft 365 services expliciet om uw versleutelingssleutels te gebruiken om cloudservices met toegevoegde waarde te leveren, zoals eDiscovery, anti-malware, antispam, zoekindexering, en dergelijke.
+Uw gegevens worden altijd in rust versleuteld in de Microsoft 365 met BitLocker en DKM. Zie Hoe beveiligt u [uw Exchange Online e-mailgeheimen](exchange-online-secures-email-secrets.md)voor meer informatie. Customer Key biedt extra bescherming tegen het weergeven van gegevens door onbevoegde systemen of personeel en vormt een aanvulling op BitLocker-schijfversleuteling in Microsoft-datacenters. Serviceversleuteling is niet bedoeld om te voorkomen dat medewerkers van Microsoft toegang krijgen tot uw gegevens. In plaats daarvan helpt Customer Key u om te voldoen aan wettelijke of nalevingsvereisten voor het beheren van hoofdsleutels. U machtigt Microsoft 365 services expliciet om uw versleutelingssleutels te gebruiken om cloudservices met toegevoegde waarde te leveren, zoals eDiscovery, anti-malware, antispam, zoekindexering, en dergelijke.
 
 Klantsleutel is gebaseerd op serviceversleuteling en u kunt versleutelingssleutels leveren en bedienen. Microsoft 365 gebruikt deze sleutels om uw gegevens in rust te versleutelen, zoals beschreven in de [Voorwaarden voor Online Services (OST).](https://www.microsoft.com/licensing/product-licensing/products.aspx) Met De klantsleutel kunt u voldoen aan nalevingsverplichtingen omdat u de versleutelingssleutels controleert die Microsoft 365 gegevens versleutelen en ontsleutelen.
   
@@ -48,7 +48,7 @@ Een decodeerbeleid voor gegevensversleuteling definieert de versleutelingshiëra
 - Teams mediaberichten (afbeeldingen, codefragmenten, videoberichten, audioberichten, wikiafbeeldingen)
 - Teams gespreks- en vergaderingsopnamen die zijn opgeslagen in Teams opslag
 - Teams chatmeldingen
-- Teams chatsuggesties van Cortana
+- Teams chatsuggesties per Cortana
 - Teams statusberichten
 - Gebruikers- en signaalgegevens voor Exchange Online
 - Exchange Online postvakken die nog niet zijn versleuteld door postvakDEP's
@@ -63,7 +63,7 @@ DEP's met meerdere werkbelastingen versleutelen de volgende typen gegevens niet.
 - SharePoint en OneDrive voor Bedrijven gegevens.
 - Microsoft Teams bestanden en sommige Teams gespreks- en vergaderingsopnamen die zijn opgeslagen in OneDrive voor Bedrijven en SharePoint Online worden versleuteld met behulp van SharePoint onlineDEP.
 - Andere Microsoft 365 werkbelastingen zoals Yammer en Planner die momenteel niet worden ondersteund door Customer Key.
-- Teams Livegebeurtenissen en Q&A in Live Events. Voor Teams scenario is dit het enige scenario dat niet wordt versleuteld door Customer Key met behulp van DEP met meerdere werkbelastingen.
+- Teams Livegebeurtenisgegevens.
 
 U kunt meerdere DEP's per tenant maken, maar slechts één DEP tegelijk toewijzen. Wanneer u het DEP toewijst, wordt de versleuteling automatisch gestart, maar duurt het enige tijd, afhankelijk van de grootte van de tenant.
 
@@ -101,7 +101,7 @@ De sleutelhiërarchie die wordt gebruikt voor DEP's die gegevens voor meerdere M
 
 ![Versleutelingscodes voor SharePoint Online Customer Key](../media/customerkeyencryptionhierarchiessharepointonedriveteamsfiles.png)
 
-## <a name="related-articles"></a>Aanverwante artikelen
+## <a name="related-articles"></a>Verwante artikelen
 
 - [Klantsleutel instellen](customer-key-set-up.md)
 

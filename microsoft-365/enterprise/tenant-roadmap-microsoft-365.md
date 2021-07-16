@@ -14,12 +14,12 @@ ms.collection:
 - m365initiative-coredeploy
 ms.custom: it-pro
 description: De routekaart voor het instellen van uw tenants voor Microsoft 365.
-ms.openlocfilehash: fb3b6eecd893a5ab9b71bfa7bdfaea53af43470d
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 4b94540293b86bd922ce4b29f970e52eb1245a01
+ms.sourcegitcommit: 84e70051bb61b1171cebfbabe500b4904dfac04f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909452"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53464031"
 ---
 # <a name="tenant-roadmap-for-microsoft-365"></a>Tenant roadmap voor Microsoft 365
 
@@ -43,14 +43,14 @@ Plannen voor de implementatie van uw tenant:
 - [Ondersteuning voor client-apps plannen](microsoft-365-client-support-certificate-based-authentication.md)
 - [Bepalen hoe u hybride moderne verificatie gebruikt](hybrid-modern-auth-overview.md)
 - [Upgrades voor Office 2007 en Office 2010 plannen](plan-upgrade-previous-versions-office.md)
-- [Tenantisolatie begrijpen](microsoft-365-tenant-isolation-overview.md)
+- [Tenantisolatie begrijpen](/compliance/assurance/microsoft-365-isolation-controls)
 
 ### <a name="deploy"></a>Implementeren
 
 Uw tenant implementeren: 
 
 - Voeg de [DNS-domeinen voor](../admin/setup/add-domain.md) uw organisatie toe.
-- Gebruik de [installatiehulplijnen in het Microsoft 365 beheercentrum.](setup-guides-for-microsoft-365.md)
+- Gebruik de [installatiehulplijnen in de Microsoft 365-beheercentrum.](setup-guides-for-microsoft-365.md)
 - Bouw uw [identiteitsinfrastructuur uit en](identity-roadmap-microsoft-365.md) [beveilig uw aanmeldingen voor gebruikers.](microsoft-365-secure-sign-in.md)
 
 ### <a name="move-a-tenants-geographic-locations"></a>Geografische locaties van een tenant verplaatsen

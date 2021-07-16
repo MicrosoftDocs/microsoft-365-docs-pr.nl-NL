@@ -14,16 +14,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Ga aan de slag met mogelijkheden voor app-beheer om uw apps te beheren.
-ms.openlocfilehash: 0fc00819947d3d472de9199b0381c6f33de0acd6
-ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
+ms.openlocfilehash: 58f3bab9f8c5e28ce921ab244b23c49682394795
+ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420164"
+ms.locfileid: "53430706"
 ---
-# <a name="get-started-with-app-governance-in-preview"></a>Aan de slag met app-beheer (in preview)
+# <a name="get-started-with-app-governance-in-preview"></a>Aan de slag met app-governance (in preview)
 
-Ga als volgende te werk om de functie voor app-beheer te gebruiken voor Microsoft Cloud App Security:
+Ga als volgt te werk om de functie voor app-governance te gebruiken voor Microsoft Cloud App Security:
 
 1. Controleer of uw account het juiste licentieniveau heeft. App-beheer is een invoegtoepassingsfunctie voor Microsoft Cloud App Security (MCAS) en daarom moet MCAS aanwezig zijn in uw account als zelfstandig product of als onderdeel van de verschillende licentiepakketten die hieronder worden vermeld.
 1. U moet een van de onderstaande beheerdersrollen hebben om toegang te krijgen tot de pagina's voor app-beheer in de portal.

@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Meer informatie over het instellen en gebruiken van een 17a-4 Zoom DataParser-connector voor het importeren en archiveren van zoomgegevens in Microsoft 365.
-ms.openlocfilehash: dffececb0719999abf19ea58eab1a52afdb3daea
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: 1c70099efa17b5ff6c1c4dfcd71c6bf6790535c8
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53097068"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53453943"
 ---
-# <a name="set-up-a-connector-to-archive-zoom-data-preview"></a>Een verbindingslijn instellen om zoomgegevens te archiveren (voorbeeld)
+# <a name="set-up-a-connector-to-archive-zoom-data"></a>Een verbindingslijn instellen voor het archiveren van zoomgegevens
 
 Gebruik de [Zoom DataParser](https://www.17a-4.com/dataparser/) van 17a-4 LLC om gegevens van het zoomplatform te importeren en te archiveren in postvakken van gebruikers in uw Microsoft 365 organisatie. De DataParser bevat een zoomconnector die is geconfigureerd om items uit een externe gegevensbron vast te leggen en deze items te importeren in Microsoft 365. Met de zoomgegevensparser-connector worden zoomgegevens ge converteert naar een e-mailberichtindeling en worden deze items vervolgens geïmporteerd naar postvakken van gebruikers in Microsoft 365.
 

@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Meer informatie over het instellen en gebruiken van een 17a-4 FX Verbinding maken DataParser-connector voor het importeren en archiveren van FX-Verbinding maken in Microsoft 365.
-ms.openlocfilehash: 1126b6f427d650367c837abe0146f1d4e0ebc547
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: 667f36d111a877a7e2e04aa54653f61556d337d9
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096398"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454491"
 ---
-# <a name="set-up-a-connector-to-archive-fx-connect-data-preview"></a>Een connector instellen voor het archiveren van FX-Verbinding maken gegevens (voorbeeld)
+# <a name="set-up-a-connector-to-archive-data-from-fx-connect"></a>Een connector instellen om gegevens van FX-Verbinding maken
 
 Gebruik de [FX Verbinding maken DataParser](https://www.17a-4.com/dataparser-roadmap/) van 17a-4 LLC om gegevens uit FX-Verbinding maken te importeren en te archiveren in postvakken van gebruikers in uw Microsoft 365 organisatie. De DataParser bevat een FX-Verbinding maken-connector die is geconfigureerd om items uit een externe gegevensbron vast te leggen en deze items te importeren in Microsoft 365. De FX Verbinding maken DataParser-connector converteert FX-Verbinding maken-gegevens naar een e-mailberichtindeling en importeert deze items vervolgens in gebruikerspostvakken in Microsoft 365.
 

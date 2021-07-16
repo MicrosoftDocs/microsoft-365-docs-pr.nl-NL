@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: Een bestandsplan biedt geavanceerde beheermogelijkheden voor retentielabels.
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: 920a613cdc3a32267415d42cebe962e62ff6831a
-ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
+ms.openlocfilehash: 6aa47048d9654c46694e8a8eb0626b18b8b52f69
+ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 07/14/2021
-ms.locfileid: "53419761"
+ms.locfileid: "53430636"
 ---
 # <a name="use-file-plan-to-manage-retention-labels"></a>Bestandsplan gebruiken voor het beheren van retentielabels
 
@@ -39,8 +39,6 @@ Hoewel u in het Microsoft 365-compliancecentrum retentielabels kunt maken en beh
 - Beschrijvingen van bestandsplannen ondersteunen aanvullende en optionele informatie voor elk label.
 
 Bestandsplan kan worden gebruikt voor alle retentielabels, zelfs als ze inhoud niet als record markeren.
-
-![Pagina Bestandsplan](../media/compliance-file-plan.png)
 
 Zie [Meer informatie over bewaarbeleid en retentielabels](retention.md) voor informatie over wat retentielabels zijn en hoe u deze kunt gebruiken.
 
@@ -111,9 +109,9 @@ Voorbeeld van beschrijvingen van het bestandsplan wanneer u een retentielabel ma
 
 ![Beschrijvingen van het bestandsplan wanneer u een retentielabel maakt of bewerkt](../media/file-plan-descriptors.png)
 
-Voorbeeldweergave van de kolommen in het bestandsplan:
+Wanneer u **Kiezen** selecteert voor elk van deze optionele descriptors, kunt u een van de standaardwaarden selecteren of uw eigen waarden maken en deze vervolgens selecteren. Bijvoorbeeld: 
 
-![Kolommen met beschrijvingen voor het bestandsplan](../media/file-plan-descriptors-on-labels-tab.png)
+![Nieuwe descriptor voor bestandsplannen maken voor bepaling/bronvermelding](../media/file-plan-descriptors-create.png)
 
 ## <a name="export-all-retention-labels-to-analyze-or-enable-offline-reviews"></a>Alle retentielabels exporteren om offlinebeoordelingen te analyseren of in te stellen
 
@@ -129,9 +127,7 @@ Er wordt een *.CSV-bestand geopend dat alle bestaande retentielabels bevat. Bijv
 
 ## <a name="import-retention-labels-into-your-file-plan"></a>Retentielabels importeren in uw bestandsplan
 
-In het bestandsplan kunt u bulksgewijs nieuwe retentielabels importeren met behulp van een CSV-bestand met een specifieke indeling. Nadat de labels zijn geïmporteerd, kunt u wijzigingen aanbrengen in het CSV-bestand en het bestand opnieuw importeren voor eenvoudiger bulkbewerking van bestaande retentielabels.
-
-Nieuwe retentielabels importeren en bestaande retentielabels wijzigen: 
+In het bestandsplan kunt u bulksgewijs nieuwe retentielabels importeren met behulp van een .CSV-bestand met een specifieke indeling: 
 
 1. Klik op pagina **Bestandsplan** op **Importeren** om de pagina **Uw bestandsplan invullen en importeren** te gebruiken:
 
@@ -186,9 +182,9 @@ Nieuwe retentielabels importeren en bestaande retentielabels wijzigen:
     
     - Als de validatie mislukt: noteer het rijnummer en de kolomnaam die u wilt corrigeren in het importbestand. Selecteer **Sluiten** en vervolgens **Ja** om te bevestigen. Corrigeer de fouten in het bestand en sla het op, selecteer de optie **Importeren** opnieuw en ga terug naar stap 4.
     
-    - Als de validatie is geslaagd: u kunt **Go Live** selecteren om de retentielabels beschikbaar te maken in uw tenant. Of selecteer het pictogram Sluiten voor de pagina en **Ja** om te bevestigen dat u de wizard wilt sluiten zonder de bewaarlabels op dit moment beschikbaar te maken in uw Tenant.
+    - Als de validatie is geslaagd: u kunt **Go Live** selecteren om de retentielabels beschikbaar te maken in uw tenant. Of kies het pictogram Sluiten voor de pagina en **Ja** om te bevestigen dat u de wizard wilt sluiten zonder de bewaarlabels op dit moment beschikbaar te maken in uw tenant.
 
-Wanneer de geïmporteerde labels zijn toegevoegd aan uw tenant, kunt u ze nu toevoegen aan een nieuw beleid voor retentielabels of ze automatisch toepassen. U kunt dit direct doen vanaf de pagina **Bestandsplan** door de vervolgkeuzelijst te selecteren in **+ Label maken** en vervolgens **Beleid voor het publiceren van labels** of **Beleid voor het automatisch toepassen van een label** te selecteren.
+Wanneer de geïmporteerde labels worden toegevoegd aan uw tenant, kunt u ze nu beschikbaar maken voor gebruikers door ze te publiceren of automatisch toe te passen. U kunt beide doen op het tabblad **Labelbeleid** en vervolgens **Labels publiceren** kiezen of **een label automatisch toepassen**.
 
 ## <a name="next-steps"></a>Volgende stappen
 

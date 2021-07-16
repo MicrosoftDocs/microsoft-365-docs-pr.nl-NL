@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Informatie voor IT-beheerders voor het beheren van vertrouwelijkheidslabels in Office-apps voor desktop, mobiele apparaten en internet.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1cdfe9d106a55cef79a63b42b47f28b2d9bb9c53
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 2484aed7dd5f70a92b1199f472c983848326db7c
+ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53228589"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53430754"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Vertrouwelijkheidslabels in Office-apps beheren
 
@@ -361,6 +361,8 @@ Voorbeelden:
 > De [geïntegreerde Azure Information Protection-labelclient](/azure/information-protection/rms-client/install-unifiedlabelingclient-app) ondersteunt deze configuratie, ook wel verplicht labelen genoemd. Voor in Office ingebouwd labelen, raadpleegt u de tabellen in de sectie [Mogelijkheden](#support-for-sensitivity-label-capabilities-in-apps) op deze pagina voor ondersteunde minimale versies.
 >
 > Als u verplicht labelen voor documenten maar niet voor e-mailberichten wilt gebruiken, volgt u de instructies in de volgende sectie, waarin wordt uitgelegd hoe u Outlook-specifieke opties configureert.
+> 
+> Als u verplicht labelen wilt gebruiken voor Power BI, raadpleegt u [Beleid voor verplichte labels voor Power BI](/power-bi/admin/service-security-sensitivity-label-mandatory-label-policy).
 
 Wanneer de beleidsinstelling **Gebruikers verplichten een label toe te passen op hun e-mail en documenten** is geselecteerd, moeten gebruikers aan wie het beleid is toegewezen, een vertrouwelijkheidslabel selecteren en toepassen in de volgende scenario's:
 

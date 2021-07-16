@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Meer informatie over het instellen en gebruiken van een 17a-4 Quip DataParser-connector voor het importeren en archiveren van Quip-gegevens in Microsoft 365.
-ms.openlocfilehash: 6db47d79cdab0f130d2b7b3483d37c08b267cdfd
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: e3379e238b0142522d4161149fd38892843e6eae
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53097123"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454443"
 ---
-# <a name="set-up-a-connector-to-archive-quip-data-preview"></a>Een verbindingslijn instellen om Quip-gegevens te archiveren (voorbeeld)
+# <a name="set-up-a-connector-to-archive-quip-data"></a>Een verbindingslijn instellen voor het archiveren van Quip-gegevens
 
 Gebruik [quip DataParser](https://www.17a-4.com/quip-dataparser/) van 17a-4 LLC om gegevens uit Quip te importeren en te archiveren in gebruikerspostvakken in uw Microsoft 365 organisatie. De DataParser bevat een Quip-connector die is geconfigureerd om items uit een externe gegevensbron vast te leggen en deze items te importeren in Microsoft 365. De Quip DataParser-connector converteert Quip-gegevens naar een e-mailberichtindeling en importeert deze items vervolgens in postvakken van gebruikers in Microsoft 365.
 

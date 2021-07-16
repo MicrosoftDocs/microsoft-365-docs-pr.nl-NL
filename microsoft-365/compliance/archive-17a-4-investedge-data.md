@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Meer informatie over het instellen en gebruiken van een 17a-4 InvestEdge DataParser-connector voor het importeren en archiveren van InvestEdge-gegevens in Microsoft 365.
-ms.openlocfilehash: fd384cb25486c4fa072dc17283c5b73e26e514a6
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: b20d9809c4bea113580a62c7a414321ed15da6ad
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53097130"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454467"
 ---
-# <a name="set-up-a-connector-to-archive-investedge-data-preview"></a>Een connector instellen voor het archiveren van InvestEdge-gegevens (voorbeeld)
+# <a name="set-up-a-connector-to-archive-investedge-data"></a>Een connector instellen voor het archiveren van InvestEdge-gegevens
 
 Gebruik [de InvestEdge DataParser](https://www.17a-4.com/investedge-dataparser/) van 17a-4 LLC om gegevens uit InvestEdge te importeren en te archiveren in gebruikerspostvakken in uw Microsoft 365 organisatie. De DataParser bevat een InvestEdge-connector die is geconfigureerd om items uit een externe gegevensbron vast te leggen en deze items te importeren in Microsoft 365. De InvestEdge DataParser-connector converteert InvestEdge-gegevens naar een e-mailberichtindeling en importeert deze items vervolgens in postvakken van gebruikers in Microsoft 365.
 

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f1549512a02fe3af71d32c6b33c69cc705de99a8
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 74b89d86b770cb47a0855b45d457ea8ce5fb9802
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51862125"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454755"
 ---
 # <a name="manage-suppression-rules"></a>Onderdrukkende regels beheren
 
@@ -32,7 +32,7 @@ ms.locfileid: "51862125"
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 
 Er kunnen scenario's zijn waarin u waarschuwingen wilt onderdrukken die worden weergegeven in de portal. U kunt onderdrukkingsregels maken voor specifieke waarschuwingen die onschadelijk zijn, zoals bekende hulpmiddelen of processen in uw organisatie. Zie Waarschuwingen onderdrukken voor meer informatie over het onderdrukken [van waarschuwingen.](manage-alerts.md)
@@ -40,7 +40,7 @@ Er kunnen scenario's zijn waarin u waarschuwingen wilt onderdrukken die worden w
 U kunt een lijst met alle onderdrukkingsregels weergeven en deze op één plaats beheren. U kunt ook een regel voor het onderdrukken van waarschuwingen in- of uitschakelen.
 
 
-1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **waarschuwingsonderdrukking.** De lijst met onderdrukkingsregels die gebruikers in uw organisatie hebben gemaakt, wordt weergegeven.
+1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **endpoints**  >  **Rules**  >  **Alert suppression**. De lijst met onderdrukkingsregels die gebruikers in uw organisatie hebben gemaakt, wordt weergegeven.
 
 2. Selecteer een regel door op het selectievakje naast de naam van de regel te klikken.
 
@@ -49,10 +49,10 @@ U kunt een lijst met alle onderdrukkingsregels weergeven en deze op één plaats
 
 ## <a name="view-details-of-a-suppression-rule"></a>Details van een onderdrukkingsregel weergeven
 
-1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **waarschuwingsonderdrukking.** De lijst met onderdrukkingsregels die gebruikers in uw organisatie hebben gemaakt, wordt weergegeven.
+1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **endpoints**  >  **Rules**  >  **Alert suppression**. De lijst met onderdrukkingsregels die gebruikers in uw organisatie hebben gemaakt, wordt weergegeven.
 
 2. Klik op een regelnaam. Details van de regel worden weergegeven. U ziet de regeldetails, zoals status, bereik, actie, aantal overeenkomende waarschuwingen, gemaakt op en datum waarop de regel is gemaakt. U kunt ook gekoppelde waarschuwingen en de regelvoorwaarden bekijken.
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-topics"></a>Gerelateerde onderwerpen
 
 - [Waarschuwingen beheren](manage-alerts.md)

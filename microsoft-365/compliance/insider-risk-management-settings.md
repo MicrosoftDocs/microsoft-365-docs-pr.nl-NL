@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: 1dd61570a0695124fdd675241535dec7d288a627
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 4e4edb24d0cc63e2cd014d4b16b0aabaa274c4d3
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53226381"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454039"
 ---
 # <a name="get-started-with-insider-risk-management-settings"></a>Aan de slag met instellingen voor insider-risicobeheer
 
@@ -268,7 +268,9 @@ Gebruikers in uw organisatie kunnen verschillende risiconiveaus hebben, afhankel
 
 ![Gebruikersgroepinstellingen met prioriteit voor insiderrisicobeheer](../media/insider-risk-settings-priority-users.png)
 
-U moet zich bijvoorbeeld beschermen tegen gegevenslekken voor een zeer vertrouwelijk project waarbij gebruikers toegang hebben tot gevoelige informatie. U kiest ervoor om *vertrouwelijke Project* *gebruikersgroep prioriteit* te maken voor gebruikers in uw organisatie die aan dit project werken. Met de beleidswizard en de beleidssjabloon Gegevenslekken door *prioriteitsgebruikers* maakt u een nieuw beleid en wijst u de groep Vertrouwelijke *Project gebruikers* prioriteit aan het beleid toe. Activiteiten die worden onderzocht door het beleid voor leden van de gebruikersgroep Vertrouwelijke *Project* Gebruikers met prioriteit zijn gevoeliger voor risico's en activiteiten van deze gebruikers zullen waarschijnlijk een waarschuwing genereren en waarschuwingen hebben met hogere ernstniveaus.
+In plaats van open te staan voor controle door alle analisten en onderzoekers, moeten gebruikersgroepen met prioriteit mogelijk ook controleactiviteiten beperken tot specifieke gebruikers of rollengroepen voor insiderrisico's. U kunt ervoor kiezen om afzonderlijke gebruikers en rollengroepen toe te wijzen om gebruikers, waarschuwingen, gevallen en rapporten voor elke gebruikersgroep met prioriteit te controleren. Gebruikersgroepen met prioriteit kunnen controlemachtigingen hebben toegewezen aan de ingebouwde *Insider Risk Management,* *Insider Risk Management Analysts* en *Insider Risk Management-rollengroepen,* een of meer van deze rollengroepen of aan een aangepaste selectie van gebruikers.
+
+U moet zich bijvoorbeeld beschermen tegen gegevenslekken voor een zeer vertrouwelijk project waarbij gebruikers toegang hebben tot gevoelige informatie. U kiest ervoor om *vertrouwelijke Project* *gebruikersgroep prioriteit* te maken voor gebruikers in uw organisatie die aan dit project werken. Bovendien mogen in deze gebruikersgroep met prioriteit geen gebruikers, waarschuwingen, zaken en rapporten zijn gekoppeld aan de groep, die zichtbaar zijn voor alle standaardbeheerders, analisten en onderzoeker van insiderrisicobeheer. In **Instellingen** maakt u de groep Vertrouwelijke Project *gebruikers* prioriteit gebruikers en wijst u twee gebruikers toe als revisor die gegevens met betrekking tot de groepen kan bekijken. Met de beleidswizard en de beleidssjabloon Gegevenslekken door *prioriteitsgebruikers* maakt u een nieuw beleid en wijst u de groep Vertrouwelijke *Project gebruikers* prioriteit aan het beleid toe. Activiteiten die worden onderzocht door het beleid voor leden van de gebruikersgroep Vertrouwelijke *Project* Gebruikers met prioriteit zijn gevoeliger voor risico's en activiteiten van deze gebruikers zullen waarschijnlijk een waarschuwing genereren en waarschuwingen hebben met hogere ernstniveaus.
 
 ### <a name="create-a-priority-user-group"></a>Een gebruikersgroep met prioriteit maken
 
@@ -277,16 +279,18 @@ Als u een nieuwe gebruikersgroep met prioriteit wilt maken, gebruikt u instellin
 Volg de volgende stappen om een gebruikersgroep met prioriteit te maken:
 
 1. Ga in [Microsoft 365-compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer **Insider-risico-instellingen.**
-2. Het tabblad **Prioriteit gebruikersgroepen** selecteren
-3. Selecteer op **het tabblad Prioriteit gebruikersgroepen** de optie **Prioriteitsgebruikersgroep maken** om de wizard Groep maken te starten.
-4. Vul op **de pagina Groep** definiëren de volgende velden in:
+2. Selecteer het **tabblad Prioriteitsgebruikersgroepen (voorbeeld).**
+3. Selecteer op **het tabblad Prioriteitsgebruikersgroepen (voorbeeld)** de optie **Prioriteitsgebruikersgroep maken** om de wizard Groep maken te starten.
+4. Vul op **de pagina Naam** en beschrijving de volgende velden in:
     - **Naam (vereist)**: Voer een vriendelijke naam in voor de gebruikersgroep met prioriteit. U kunt de naam van de gebruikersgroep met prioriteit niet wijzigen nadat u de wizard hebt voltooid.
     - **Beschrijving (optioneel)**: Voer een beschrijving in voor de gebruikersgroep met prioriteit.
 5. Selecteer **Volgende** om door te gaan.
 6. Selecteer **op** de pagina  Leden kiezen de optie Leden kiezen om te zoeken en  selecteer welke gebruikersaccounts met e-mail zijn opgenomen in de groep of schakel het selectievakje Alles selecteren in om alle gebruikers in uw organisatie toe te voegen aan de groep. Selecteer **Toevoegen om** door te gaan of Annuleren **om** te sluiten zonder gebruikers toe te voegen aan de groep.
 7. Selecteer **Volgende** om door te gaan.
-8. Bekijk op **de** pagina Controleren de instellingen die u hebt gekozen voor de gebruikersgroep met prioriteit. Selecteer **Bewerken** om een van de groepswaarden te wijzigen of selecteer **Verzenden** om de gebruikersgroep met prioriteit te maken en te activeren.
-9. Selecteer op de bevestigingspagina **Klaar om** de wizard te sluiten.
+8. Op de **pagina Kiezen wie deze groep kan** bekijken, moet u definiëren wie gebruikers, waarschuwingen, zaken en rapporten voor de gebruikersgroep met prioriteit kan controleren. Er moet ten minste één rollengroep voor risicobeheer voor gebruikers of insiders worden toegewezen. Selecteer **Gebruikers en rollengroepen kiezen** en selecteer de gebruikers of rollengroepen voor insiderrisicobeheer die u wilt toewijzen aan de gebruikersgroep met prioriteit. Selecteer **Toevoegen** om de geselecteerde gebruikers of rollengroepen toe te wijzen aan de groep.
+9. Selecteer Volgende om door te gaan.
+10. Bekijk op **de** pagina Controleren de instellingen die u hebt gekozen voor de gebruikersgroep met prioriteit. Selecteer de **koppelingen Bewerken** om een van de groepswaarden te wijzigen of selecteer **Verzenden** om de gebruikersgroep met prioriteit te maken en te activeren.
+11. Selecteer op de bevestigingspagina **Klaar om** de wizard te sluiten.
 
 ### <a name="update-a-priority-user-group"></a>Een gebruikersgroep met prioriteit bijwerken
 
@@ -295,12 +299,14 @@ Als u een bestaande gebruikersgroep met prioriteit wilt bijwerken, gebruikt u in
 Volg de volgende stappen om een gebruikersgroep met prioriteit te bewerken:
 
 1. Ga in [Microsoft 365-compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer **Insider-risico-instellingen.**
-2. Het tabblad **Prioriteit gebruikersgroepen** selecteren
+2. Selecteer het **tabblad Prioriteitsgebruikersgroepen (voorbeeld).**
 3. Selecteer de gebruikersgroep met prioriteit die u wilt bewerken en selecteer **Groep bewerken.**
-4. Werk op **de pagina Groep** definiëren het veld Beschrijving zo nodig bij. U kunt de naam van de gebruikersgroep met prioriteit niet bijwerken. Selecteer **Volgende** om door te gaan.
+4. Werk op **de pagina Naam** en beschrijving het veld Beschrijving zo nodig bij. U kunt de naam van de gebruikersgroep met prioriteit niet bijwerken. Selecteer **Volgende** om door te gaan.
 5. Voeg op **de pagina Leden** kiezen nieuwe leden toe aan de groep met het **besturingselement Leden** kiezen. Als u een gebruiker uit de groep wilt verwijderen, selecteert u de 'X' naast de gebruiker die u wilt verwijderen. Selecteer **Volgende** om door te gaan.
-6. Bekijk op **de** pagina Controleren de update-instellingen die u hebt gekozen voor de gebruikersgroep met prioriteit. Selecteer **Bewerken om** een van de groepswaarden te wijzigen of selecteer Verzenden **om** de gebruikersgroep met prioriteit bij te werken.
-7. Selecteer op de bevestigingspagina **Klaar om** de wizard te sluiten.
+6. Op de **pagina Kiezen wie** deze groep kan bekijken, kunt u gebruikers of rollengroepen toevoegen of verwijderen die gebruikers, waarschuwingen, zaken en rapporten voor de gebruikersgroep met prioriteit kunnen controleren.
+7. Selecteer **Volgende** om door te gaan.
+8. Bekijk op **de** pagina Controleren de update-instellingen die u hebt gekozen voor de gebruikersgroep met prioriteit. Selecteer de **koppelingen Bewerken** om een van de groepswaarden te wijzigen of selecteer **Verzenden om** de gebruikersgroep met prioriteit bij te werken.
+9. Selecteer op de bevestigingspagina **Klaar om** de wizard te sluiten.
 
 ### <a name="delete-a-priority-user-group"></a>Een gebruikersgroep met prioriteit verwijderen
 
@@ -312,7 +318,7 @@ Als u een bestaande gebruikersgroep met prioriteit wilt verwijderen, gebruikt u 
 Volg de volgende stappen om een gebruikersgroep met prioriteit te verwijderen:
 
 1. Ga in [Microsoft 365-compliancecentrum](https://compliance.microsoft.com)naar **Insider-risicobeheer** en selecteer **Insider-risico-instellingen.**
-2. Het tabblad **Prioriteit gebruikersgroepen** selecteren
+2. Selecteer het **tabblad Prioriteitsgebruikersgroepen (voorbeeld).**
 3. Selecteer de gebruikersgroep met prioriteit die u wilt bewerken en selecteer **Verwijderen** in het dashboardmenu.
 4. Selecteer in **het** dialoogvenster Verwijderen **Ja** om de gebruikersgroep met prioriteit te verwijderen of selecteer **Annuleren om** terug te keren naar het dashboard.
 
@@ -367,7 +373,7 @@ Klanten met Microsoft 365 met insider risk management hebben geen extra Power Au
 
 De volgende Power Automate klanten ter ondersteuning van procesautomatisering voor gebruikers van insiderrisicobeheer en -cases:
 
-- **Gebruikers op** de hoogte stellen wanneer ze worden toegevoegd aan een insiderrisicobeleid: Deze sjabloon is voor organisaties met interne beleidsregels, privacy of wettelijke vereisten dat gebruikers moeten worden geïnformeerd wanneer ze onderhevig zijn aan beleid voor insiderrisicobeheer. Wanneer deze stroom is geconfigureerd en geselecteerd voor een gebruiker op de gebruikerspagina, ontvangen gebruikers en hun managers een e-mailbericht wanneer de gebruiker wordt toegevoegd aan een beleid voor insiderrisicobeheer. Deze sjabloon ondersteunt ook het bijwerken van een SharePoint die wordt gehost op een SharePoint site om informatie over meldingen, zoals datum/tijd en de geadresseerde van het bericht, bij te houden. Als u ervoor hebt gekozen om gebruikers te anonimiseren in privacy-instellingen, werken stromen die zijn gemaakt op basis van deze sjabloon niet zoals bedoeld, zodat de privacy van gebruikers wordt gehandhaafd. Power Automate stromen met deze sjabloon zijn beschikbaar op het **dashboard Gebruikers.**
+- **Gebruikers op** de hoogte stellen wanneer ze worden toegevoegd aan een insiderrisicobeleid: Deze sjabloon is voor organisaties met interne beleidsregels, privacy of wettelijke vereisten dat gebruikers moeten worden geïnformeerd wanneer ze onderhevig zijn aan beleid voor insiderrisicobeheer. Wanneer deze stroom is geconfigureerd en geselecteerd  voor een gebruiker op de pagina Gebruikers, ontvangen gebruikers en hun managers een e-mailbericht wanneer de gebruiker wordt toegevoegd aan een beleid voor insiderrisicobeheer. Deze sjabloon ondersteunt ook het bijwerken van een SharePoint die wordt gehost op een SharePoint site om informatie over meldingen, zoals datum/tijd en de geadresseerde van het bericht, bij te houden. Als u ervoor hebt gekozen om gebruikers te anonimiseren in privacy-instellingen, werken stromen die zijn gemaakt op basis van deze sjabloon niet zoals bedoeld, zodat de privacy van gebruikers wordt gehandhaafd. Power Automate stromen met deze sjabloon zijn beschikbaar op het **dashboard Gebruikers.**
 - **Informatie aanvragen** bij HR of bedrijven over een gebruiker in een insiderrisicozaak: Bij het uitvoeren van een zaak moeten insiderrisicoanalisten en -onderzoekers mogelijk overleggen met HR of andere belanghebbenden om de context van de zaakactiviteiten te begrijpen. Wanneer deze stroom is geconfigureerd en geselecteerd voor een zaak, verzenden analisten en onderzoeker een e-mailbericht naar HR- en zakelijke belanghebbenden die zijn geconfigureerd voor deze stroom. Elke geadresseerde krijgt een bericht met vooraf geconfigureerde of aanpasbare antwoordopties. Wanneer geadresseerden een antwoordoptie selecteren, wordt het antwoord opgenomen als een notitie met de geadresseerde en de datum-/tijdgegevens. Als u ervoor hebt gekozen om gebruikers te anonimiseren in privacy-instellingen, werken stromen die zijn gemaakt op basis van deze sjabloon niet zoals bedoeld, zodat de privacy van gebruikers wordt gehandhaafd. Power Automate stromen met deze sjabloon zijn beschikbaar op het **dashboard Cases.**
 - **Meldingsmanager wanneer een gebruiker een insiderrisicowaarschuwing** heeft: Sommige organisaties moeten mogelijk onmiddellijk een melding van het beheer hebben wanneer een gebruiker een waarschuwing voor insiderrisicobeheer heeft. Wanneer deze stroom is geconfigureerd en geselecteerd, ontvangt de manager voor de casegebruiker een e-mailbericht met de volgende informatie over alle hoofdzakenwaarschuwingen:
     - Toepasselijk beleid voor de waarschuwing

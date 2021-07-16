@@ -19,18 +19,18 @@ search.appverid:
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
 description: Leer hoe u Microsoft 365 groepen kunt beheren, zoals het toevoegen van groepsleden verwijderen, het bewerken van het e-mailadres, de groepsnaam of beschrijving en het aanpassen van de manier waarop de groep werkt.
-ms.openlocfilehash: 3ba3dd36ed3929e956ce6359e678d6b684f64bb9
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 2ec8198b7e28b47bcbbf40818fbe624b2744f0ee
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50908708"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454575"
 ---
-# <a name="manage-a-group-in-the-microsoft-365-admin-center"></a>Een groep beheren in het Microsoft 365 beheercentrum
+# <a name="manage-a-group-in-the-microsoft-365-admin-center"></a>Een groep in de Microsoft 365-beheercentrum
 
 Nadat u een [groep Microsoft 365 en](create-groups.md) groepsleden hebt toegevoegd, kunt u de groep configureren. U kunt de naam of beschrijving van de groep bewerken, eigenaren of leden beheren en opgeven of externe afzenders een e-mail kunnen sturen naar de groep en of u kopieën van groepsgesprekken naar leden wilt verzenden.
 
-Ga naar het Microsoft 365 beheercentrum op [https://admin.microsoft.com](https://admin.microsoft.com) .
+Ga naar de Microsoft 365-beheercentrum bij [https://admin.microsoft.com](https://admin.microsoft.com) .
 
 ## <a name="edit-the-group-name-or-description"></a>De naam of beschrijving van de groep bewerken
 
@@ -54,7 +54,7 @@ Ga naar het Microsoft 365 beheercentrum op [https://admin.microsoft.com](https:/
 
 ## <a name="send-copies-of-conversations-to-group-members-inboxes"></a>Kopieën van gesprekken verzenden naar postvak IN van groepsleden
   
-Wanneer u het beheercentrum gebruikt om een groep te maken, ontvangen gebruikers standaard geen kopieën van groeps-e-mailberichten en uitnodigingen voor vergadering die naar hun Postvak IN worden verzonden. Ze moeten naar de groep gaan om gesprekken en vergaderingen te zien. U kunt deze instelling wijzigen in het beheercentrum.
+Wanneer u het beheercentrum gebruikt om een groep te maken, ontvangen gebruikers standaard geen kopieën van groeps-e-mailberichten die naar hun Postvak IN worden verzonden, maar ontvangen gebruikers kopieën van uitnodigingen voor groepsvergaderingen die naar hun Postvak IN worden verzonden. Ze moeten naar de groep gaan om gesprekken te zien. U kunt deze instelling wijzigen in het beheercentrum.
 
 Wanneer u deze instelling int, ontvangen groepsleden een kopie van groeps-e-mailberichten en uitnodigingen voor de vergadering die naar hun Outlook Postvak IN. De groepsleden kunnen dit exemplaar van het e-mailbericht lezen en verwijderen zonder dat dit van invloed is op iemand anders. In het Postvak IN van de groep blijft een kopie van het e-mailbericht bewaard.
 
@@ -66,7 +66,7 @@ Groepsleden kunnen ervoor kiezen deze e-mailberichten niet meer te ontvangen doo
 
 3. Selecteer **op Instellingen** tabblad Kopieën  van groepsgesprekken en gebeurtenissen verzenden naar groepsleden als u wilt dat leden kopieën van groepsberichten en agenda-items in hun eigen Postvak IN ontvangen.
 
-4. Klik op **Opslaan**.
+4. Kies **Opslaan**.
 
 ## <a name="let-people-outside-the-organization-email-the-group"></a>Personen buiten de organisatie e-mailen naar de groep
 
@@ -78,7 +78,7 @@ Deze optie is geweldig als u een e-mailadres van een bedrijf wilt hebben, zoals 
 
 3. Selecteer in de lijst met beheercentrumgroepen de naam van de groep die u wilt wijzigen en selecteer vervolgens op het tabblad Instellingen externe afzenders toestaan deze groep een **e-mail** **te sturen.**
     
-4. Klik op **Opslaan**.
+4. Kies **Opslaan**.
 
 ## <a name="permanently-delete-a-microsoft-365-group"></a>Een groep permanent Microsoft 365 verwijderen
 
@@ -101,9 +101,9 @@ Voer deze opdracht uit in PowerShell om de groep permanent te verwijderen:
 
 U kunt controleren dat de groep definitief is verwijderd door de cmdlet  *Get-AzureADMSDeletedGroup*  opnieuw uit te voeren en te kijken of de groep niet meer wordt vermeld in de lijst met voorlopig verwijderde groepen. In sommige gevallen duurt het wel 24 uur voordat de groep en alle bijbehorende gegevens permanent zijn verwijderd. 
   
-## <a name="related-articles"></a>Aanverwante artikelen
+## <a name="related-articles"></a>Verwante artikelen
 
-[Een groep Microsoft 365 maken](create-groups.md)
+[Een Microsoft 365-groep maken ](create-groups.md)
 
 [Gasttoegang tot Microsoft 365 beheren](https://support.microsoft.com/office/bfc7a840-868f-4fd6-a390-f347bf51aff6)
 

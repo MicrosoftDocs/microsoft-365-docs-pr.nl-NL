@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Meer informatie over het instellen en gebruiken van een 17a-4 ServiceNow DataParser-connector voor het importeren en archiveren van ServiceNow-gegevens in Microsoft 365.
-ms.openlocfilehash: 992f34864f0de7ddff1f8159e9970157bcffb964
-ms.sourcegitcommit: 8c6a5db0dab99a82a69dd8a0a7c56af1cb825931
+ms.openlocfilehash: a01e075b6cbf400bc3b7dc38950d87443a46f81c
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53276963"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454419"
 ---
-# <a name="set-up-a-connector-to-archive-servicenow-data-preview"></a>Een connector instellen voor het archiveren van ServiceNow-gegevens (voorbeeld)
+# <a name="set-up-a-connector-to-archive-data-from-servicenow"></a>Een verbindingslijn instellen om gegevens van ServiceNow te archiveren
 
 Gebruik [serviceNow DataParser](https://www.17a-4.com/dataparser/) van 17a-4 LLC om gegevens uit ServiceNow te importeren en te archiveren in gebruikerspostvakken in uw Microsoft 365 organisatie. De DataParser bevat een ServiceNow-connector die is geconfigureerd om items uit een externe gegevensbron vast te leggen en deze items te importeren in Microsoft 365. De ServiceNow DataParser-connector converteert ServiceNow-gegevens naar een e-mailberichtindeling en importeert deze items vervolgens in gebruikerspostvakken in Microsoft 365.
 

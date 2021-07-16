@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Meer informatie over het instellen en gebruiken van een 17a-4 LivePerson Conversational Cloud DataParser-connector voor het importeren en archiveren van LivePerson Conversational Cloud-gegevens in Microsoft 365.
-ms.openlocfilehash: 3a4156d817e1b7471f769a2365c5af9d58ade991
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: 70b8e8bd1c8c411894a90e0f919581b3faf58cae
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53097124"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454455"
 ---
-# <a name="set-up-a-connector-to-archive-liveperson-conversational-cloud-data-preview"></a>Een connector instellen voor het archiveren van LivePerson Conversational Cloud-gegevens (preview)
+# <a name="set-up-a-connector-to-archive-liveperson-conversational-cloud-data"></a>Een connector instellen voor het archiveren van LivePerson Conversational Cloud-gegevens
 
 Gebruik [de LivePerson Conversational Cloud DataParser](https://www.17a-4.com/liveperson-dataparser/) van 17a-4 LLC om gegevens uit LivePerson Conversational Cloud te importeren en te archiveren naar postvakken van gebruikers in uw Microsoft 365 organisatie. De DataParser bevat een LivePerson Conversational Cloud-connector die is geconfigureerd om items uit een externe gegevensbron vast te leggen en deze items te importeren in Microsoft 365. De LivePerson Conversational Cloud DataParser-connector converteert gegevens naar een e-mailberichtindeling en importeert deze items vervolgens in gebruikerspostvakken in Microsoft 365.
 

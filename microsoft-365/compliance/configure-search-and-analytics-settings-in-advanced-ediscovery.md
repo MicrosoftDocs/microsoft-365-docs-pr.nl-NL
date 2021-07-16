@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 ms.custom: seo-marvel-mar2020
 description: Configureer Advanced eDiscovery instellingen die van toepassing zijn op alle revisiesets in een zaak. Dit omvat instellingen voor analyse en optische tekenherkenning.
-ms.openlocfilehash: e0ad41354b265016ba67632162a8ead62f11068b
-ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
+ms.openlocfilehash: 2b9c438e28b8d9b84ec8cc29bf85911e5bdc3c8d
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53430550"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53453895"
 ---
 # <a name="configure-search-and-analytics-settings-in-advanced-ediscovery"></a>Zoek- en analyseinstellingen configureren in Advanced eDiscovery
 
@@ -80,13 +80,13 @@ Met deze query worden in feite dubbele items uit de revisieset gefilterd. Hierme
 
 ## <a name="ignore-text"></a>Tekst negeren
 
-Er zijn situaties waarin bepaalde tekst de kwaliteit van de analyse vermindert, zoals lange vrijwaringen die worden toegevoegd aan e-mailberichten, ongeacht de inhoud van de e-mail. Als u weet van tekst die moet worden genegeerd, kunt u deze uitsluiten van analyse door de tekenreeks en de analysefunctionaliteit (Near-duplicates, Email threading, Themes en Relevantie) op te geven waarin de tekst moet worden uitgesloten. Het gebruik van reguliere expressies (RegEx) als genegeerde tekst wordt ook ondersteund. 
+Er zijn situaties waarin bepaalde tekst de kwaliteit van de analyse vermindert, zoals lange vrijwaringen die worden toegevoegd aan e-mailberichten, ongeacht de inhoud van de e-mail. Als u weet van tekst die moet worden genegeerd, kunt u deze uitsluiten van analyse door de tekenreeks en de analysefunctionaliteit (Near-duplicates, Email threading, Themes en Relevantie) op te geven waarin de tekst moet worden uitgesloten. Het gebruik van reguliere expressies (RegEx) als genegeerde tekst wordt ook ondersteund.
 
 ## <a name="optical-character-recognition-ocr"></a>OcR (Optical Character Recognition)
 
 Wanneer deze instelling is ingeschakeld, wordt OCR-verwerking uitgevoerd op afbeeldingsbestanden. OCR-verwerking wordt uitgevoerd in de volgende situaties:
 
-- Wanneer bewaarders en [niet-bewaardergegevensbronnen](non-custodial-data-sources.md) aan een zaak worden toegevoegd. OCR-verwerking wordt uitgevoerd tijdens het [proces voor geavanceerde indexering.](indexing-custodian-data.md) OCR wordt alleen uitgevoerd op items die tijdens geavanceerde indexering worden verwerkt. Als bijvoorbeeld een groot PDF-bestand dat gedeeltelijk is geïndexeerd of andere indexeringsfouten heeft gehad, wordt verwerkt tijdens geavanceerde indexering, wordt in het bestand ook OCR toegepast. Met andere woorden, OCR-verwerking vindt alleen plaats op bestanden die opnieuw worden geïndexeerd tijdens het proces voor geavanceerde indexering. Dit betekent dat situaties waarin bewaarders worden toegevoegd aan een zaak, sommige e-mailbijlagen niet worden verwerkt voor OCR omdat deze bestanden niet worden verwerkt tijdens geavanceerde indexering. Wanneer OCR wordt toegepast op afbeeldingsbestanden, kan de tekst in die afbeeldingsbestanden worden doorzocht tijdens een verzameling.
+- Wanneer bewaarders en [niet-bewaardergegevensbronnen](non-custodial-data-sources.md) aan een zaak worden toegevoegd. Wanneer OCR wordt toegepast op afbeeldingsbestanden, kan de tekst in die bestanden worden doorzocht tijdens een verzameling. OCR-verwerking wordt uitgevoerd tijdens het [proces voor geavanceerde indexering.](indexing-custodian-data.md) OCR wordt alleen uitgevoerd op items die tijdens geavanceerde indexering worden verwerkt. Als bijvoorbeeld een groot PDF-bestand dat gedeeltelijk is geïndexeerd of andere indexeringsfouten heeft gehad, wordt verwerkt tijdens geavanceerde indexering, wordt in het bestand ook OCR toegepast. Met andere woorden, OCR-verwerking vindt alleen plaats op bestanden die opnieuw worden geïndexeerd tijdens het proces voor geavanceerde indexering. Dit betekent dat er situaties kunnen zijn waarin bewaarders aan een zaak worden toegevoegd, maar sommige e-mailbijlagen worden niet verwerkt voor OCR omdat deze bestanden niet worden verwerkt tijdens geavanceerde indexering.
 
 - Wanneer inhoud uit andere gegevensbronnen (die niet zijn gekoppeld aan een bewaarder en die in een niet-bewaardergegevensbron aan de zaak is toegevoegd) wordt toegevoegd aan een revisieset.
 

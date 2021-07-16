@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Informatie over app-beleid.
-ms.openlocfilehash: 6d4ff23ca0e09f5e410d32d6ced144afc0c4bb15
-ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
+ms.openlocfilehash: b5d36d6597de54d7936bc542d37d91d0fac0ba45
+ms.sourcegitcommit: 2fd60871975d61e60d4827b36cd689021fd2a4c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420187"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53437962"
 ---
 # <a name="learn-about-app-policies"></a>Informatie over app-beleid
 
@@ -29,18 +29,7 @@ Microsoft app governance detecteert afwijkend app-gedrag in uw Microsoft 365 ten
 
 Dit beleid voor app- en gebruikerspatronen en -gedrag en beschermt uw gebruikers tegen het gebruik van niet-conforme of schadelijke apps en beperkt de toegang van risicovolle apps tot uw gegevens.
 
-Hier is een kort overzicht van de vereiste beheerdersrollen voor app-beleidsbeheer.
-
-| Rol | Beleid lezen | Beleid maken, bijwerken of verwijderen |
-|:-------|:-----|:-------|
-| Beheerder voor naleving | ![Vinkje](..\media\checkmark.png) | ![Vinkje](..\media\checkmark.png) |
-| Nalevingslezer | ![Vinkje](..\media\checkmark.png) |  |
-| Globale beheerder | ![Vinkje](..\media\checkmark.png) | ![Vinkje](..\media\checkmark.png) |
-| Globale lezer  | ![Vinkje](..\media\checkmark.png) |  |
-| Beveiligingsbeheerder | ![Vinkje](..\media\checkmark.png) | ![Vinkje](..\media\checkmark.png) |
-| Beveiligingslezer  | ![Vinkje](..\media\checkmark.png) |  |
-| Beveiligingsoperator | ![Vinkje](..\media\checkmark.png) | ![Vinkje](..\media\checkmark.png) |
-||||
+Zie [beheerdersrollen](app-governance-get-started.md#administrator-roles) voor informatie over welke rollen beleidsregels kunnen wijzigen.
 
 <!--
 How app policies are the method by which MAPG detects app anomolies resulting in detection (alerts) and remediation (manual or automatic) 

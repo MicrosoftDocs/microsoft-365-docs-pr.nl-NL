@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Privacy management biedt oplossingen voor het evalueren van persoonlijke gegevens die uw organisatie op Microsoft 365 en helpt u bij het identificeren en corrigeren van privacyrisico's.
-ms.openlocfilehash: 4f98a5c867b232e3eca298a163fe4b6b4855f7a9
-ms.sourcegitcommit: 022d9d91263994c48efcebe08a84319573dc3a8c
+ms.openlocfilehash: df3fa07271321d6bc1fedb4e0d06b40b3483b238
+ms.sourcegitcommit: 9856f86532bdcf0befbcdbdb7c6dc6bf89fe63b5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53378493"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53455383"
 ---
 # <a name="microsoft-privacy-management-preview"></a>Microsoft-privacybeheer (preview)
 
@@ -70,7 +70,7 @@ In overeenstemming met bepaalde privacyregels, bijvoorbeeld Algemene verordening
 
 Privacybeheer in Microsoft 365 kan u helpen bij het afhandelen van deze vragen via de oplossing voor het aanvragen van rechten voor onderwerpen. Het biedt automatiserings- en werkstroommogelijkheden om u te helpen zoeken naar onderwerpgegevens die u hebt opgeslagen in Microsoft 365, de resultaten te bekijken, de juiste bestanden te selecteren en rapporten te maken. Onderweg kunt u veilig samenwerken met andere experts in uw organisatie om de aanvraag af te ronden.
 
-Houd er rekening mee dat deze oplossing voor het aanvragen van onderwerprechten mogelijkheden biedt die verder gaan dan de oorspronkelijke DSR-oplossing (Data Subject Requests) in het compliancecentrum en dat er geen verbinding of delen van werkstromen is tussen de twee. De oudere DSR-pagina wordt op een later tijdstip ingetrokken.
+Houd er rekening mee dat deze oplossing voor het aanvragen van onderwerprechten mogelijkheden biedt die verder gaan dan de oorspronkelijke DSR-oplossing (Data Subject Requests) in het compliancecentrum en dat er geen verbinding of delen van werkstromen is tussen de twee.
 
 Zie Aanvragen voor [onderwerprechten beheren voor meer informatie.](privacy-management-subject-rights-requests.md)
 

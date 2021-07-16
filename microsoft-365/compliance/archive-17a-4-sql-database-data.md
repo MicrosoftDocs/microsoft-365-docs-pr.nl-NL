@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Meer informatie over het instellen en gebruiken van een 17a-4 SQL DataParser-connector om gegevens in SQL te Microsoft 365.
-ms.openlocfilehash: 51fd433ad072ba5afe0b314d7b61041728337240
-ms.sourcegitcommit: 410f6e1c6cf53c3d9013b89d6e0b40a050ee9cad
+ms.openlocfilehash: 67ad3332a05356702df7b0624ee05519ff30bcac
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53137665"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454027"
 ---
-# <a name="set-up-a-connector-to-archive-sql-data-preview"></a>Een verbindingslijn instellen om gegevens SQL archiveren (voorbeeld)
+# <a name="set-up-a-connector-to-archive-sql-data"></a>Een verbindingslijn instellen voor het archiveren van SQL gegevens
 
 Gebruik de [SQL DataParser](https://www.17a-4.com/sql-dataparser/) van 17a-4 LLC om gegevens uit een SQL-database te importeren en te archiveren naar postvakken van gebruikers in uw Microsoft 365 organisatie. De DataParser bevat een SQL connector die is geconfigureerd om items uit een externe gegevensbron vast te leggen en deze items te importeren in Microsoft 365. De SQL DataParser-connector converteert SQL gegevens naar een e-mailberichtindeling en importeert deze items vervolgens in gebruikerspostvakken in Microsoft 365.
 

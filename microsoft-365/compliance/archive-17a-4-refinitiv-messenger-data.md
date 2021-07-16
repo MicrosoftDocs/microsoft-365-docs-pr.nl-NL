@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Meer informatie over het instellen en gebruiken van een Refinitiv Eikon Messenger DataParser-connector van 17a-4 om Refinitiv Eikon Messenger-gegevens te importeren en te archiveren in Microsoft 365.
-ms.openlocfilehash: 59380695a6ade9a7dfc36c51ea4254e13a7fd03c
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: 4577d849e84955f10c2f3176c2e384410430ebc6
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53097109"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454431"
 ---
-# <a name="set-up-a-connector-to-archive-refinitiv-eikon-messenger-data-preview"></a>Een connector instellen voor het archiveren van Refinitiv Eikon Messenger-gegevens (voorbeeld)
+# <a name="set-up-a-connector-to-archive-refinitiv-eikon-messenger-data"></a>Een connector instellen voor het archiveren van Refinitiv Eikon Messenger-gegevens
 
 Gebruik [de Refinitiv Eikon Messenger DataParser](https://www.17a-4.com/refinitiv-messenger-dataparser/) van 17a-4 LLC om gegevens uit Refinitiv Eikon Messenger te importeren en te archiveren naar postvakken van gebruikers in uw Microsoft 365 organisatie. De DataParser bevat een Refinitiv Eikon Messenger-connector die is geconfigureerd om items uit een externe gegevensbron vast te leggen en deze items te importeren in Microsoft 365. De Refinitiv Eikon Messenger DataParser-connector converteert Refinitiv Eikon Messenger-gegevens naar een e-mailberichtindeling en importeert deze items vervolgens in gebruikerspostvakken in Microsoft 365.
 

@@ -24,12 +24,12 @@ ms.custom: migrationguides
 ms.date: 06/14/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
 ms.technology: mde
-ms.openlocfilehash: 2953103cb3812103740f98a6db5b8f4d369731e3
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: cff0810a4469d3c2d9ff2fe0fe5100b7a37408ae
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52930305"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454743"
 ---
 # <a name="make-the-switch-from-non-microsoft-endpoint-protection-to-microsoft-defender-for-endpoint"></a>De overstap maken van niet-Microsoft-eindpuntbeveiliging naar Microsoft Defender voor Eindpunt
 
@@ -47,7 +47,7 @@ Het migratieproces naar Defender voor Eindpunt kan worden onderverdeeld in drie 
 
 |Fase |Omschrijving |
 |--|--|
-|[Voorbereiden op uw migratie](switch-to-microsoft-defender-prepare.md) |Tijdens [de **fase Voorbereiden:**](switch-to-microsoft-defender-prepare.md) <p>1. Werk de apparaten van uw organisatie bij. <p>2. Krijg Defender voor eindpunt. <p>3. Plan uw rollen en machtigingen en verleen toegang tot de Microsoft Defender-beveiligingscentrum. <p>4. Configureer de apparaatproxy- en internetinstellingen om communicatie tussen de apparaten van uw organisatie en Defender voor Eindpunt in te stellen. |
+|[Voorbereiden op uw migratie](switch-to-microsoft-defender-prepare.md) |Tijdens [de **fase Voorbereiden:**](switch-to-microsoft-defender-prepare.md) <p>1. Werk de apparaten van uw organisatie bij. <p>2. Krijg Defender voor eindpunt. <p>3. Plan uw rollen en machtigingen en verleen toegang tot de Microsoft 365 Defender portal. <p>4. Configureer de apparaatproxy- en internetinstellingen om communicatie tussen de apparaten van uw organisatie en Defender voor Eindpunt in te stellen. |
 |[Defender voor eindpunt instellen](switch-to-microsoft-defender-setup.md) |Tijdens [de **installatiefase**](switch-to-microsoft-defender-setup.md): <p>1. De Microsoft Defender Antivirus. <p>2. Configure Defender for Endpoint. <p>3. Voeg Defender voor Eindpunt toe aan de lijst met uitsluitingen voor uw bestaande oplossing. <p>4. Voeg uw bestaande oplossing toe aan de uitsluitingslijst voor Microsoft Defender Antivirus. <p>5. Stel uw apparaatgroepen, verzamelingen en organisatie-eenheden in. <p>6. Configureer uw antimalwarebeleid en realtime beveiligingsinstellingen.|
 |[Onboard to Defender for Endpoint](switch-to-microsoft-defender-onboard.md) |Tijdens [de **onboard-fase**](switch-to-microsoft-defender-onboard.md): <p>1. Onboard your devices to Defender for Endpoint. <p>2. Voer een detectietest uit. <p>3. Controleer of Microsoft Defender Antivirus actief is in de passieve modus. <p>4. Ontvang updates voor Microsoft Defender Antivirus. <p>5. Verwijder uw bestaande oplossing voor eindpuntbeveiliging. <p>6. Zorg ervoor dat Defender voor Eindpunt correct werkt. |
 

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 37a251acd3b7631cffffaf2eb76bf0f2b4954ee6
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 05c103cba051c7d5e7f45e5dd3feb288013ee367
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185835"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454815"
 ---
 # <a name="manage-automation-folder-exclusions"></a>Uitsluitingen van automatiseringsmappen beheren 
 
@@ -32,7 +32,7 @@ ms.locfileid: "51185835"
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-automationexclusionfolder-abovefoldlink)
+>Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-automationexclusionfolder-abovefoldlink)
 
 Met uitsluitingen van automatiseringsmappen kunt u mappen opgeven die door het geautomatiseerde onderzoek worden overgeslagen. 
 
@@ -59,7 +59,7 @@ U kunt de bestandsnamen opgeven die u wilt uitsluiten in een specifieke adreslij
 
 
 ## <a name="add-an-automation-folder-exclusion"></a>Een uitsluiting van automatiseringsmappen toevoegen
-1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **uitsluitingen van automatiseringsmappen.**  
+1. Selecteer in het navigatiedeelvenster **Instellingen** uitsluitingen van de map  >    >    >  **Regelautomatisering van eindpunten.**  
 
 2. Klik **op Nieuwe mapuitsluiting.**  
 
@@ -68,8 +68,7 @@ U kunt de bestandsnamen opgeven die u wilt uitsluiten in een specifieke adreslij
     - Map
     - Extensies
     - Bestandsnamen
-    - Beschrijving
-    
+    - Omschrijving
 
 4. Klik op **Opslaan**.
 
@@ -77,17 +76,17 @@ U kunt de bestandsnamen opgeven die u wilt uitsluiten in een specifieke adreslij
 > Opdrachten voor livereactie om uitgesloten bestanden te verzamelen of te onderzoeken, mislukken met de fout: 'Bestand is uitgesloten'. Bovendien worden de uitgesloten items genegeerd door automatisch onderzoek.
 
 ## <a name="edit-an-automation-folder-exclusion"></a>Een uitsluiting van automatiseringsmappen bewerken 
-1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **uitsluitingen van automatiseringsmappen.** 
+1. Selecteer in het navigatiedeelvenster **Instellingen** uitsluitingen van de map  >    >    >  **Regelautomatisering van eindpunten.** 
 
 2. Klik **op Bewerken** op de mapuitsluiting.  
 
 3. Werk de details van de regel bij en klik op **Opslaan.**
 
 ## <a name="remove-an-automation-folder-exclusion"></a>Een uitsluiting van automatiseringsmappen verwijderen 
-1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **uitsluitingen van automatiseringsmappen.**  
+1. Selecteer in het navigatiedeelvenster **Instellingen** uitsluitingen van de map  >    >    >  **Regelautomatisering van eindpunten.**  
 2. Klik **op Uitsluiting verwijderen.** 
 
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-topics"></a>Gerelateerde onderwerpen
 - [Toegestane/geblokkeerde lijsten voor automatisering beheren](manage-indicators.md)
 - [Automatiseringsbestandsuploads beheren](manage-automation-file-uploads.md)

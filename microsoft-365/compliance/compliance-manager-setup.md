@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Stel gebruikersmachtigingen en -rollen van Microsoft Compliance Manager in en configureer geautomatiseerde tests van acties. Beheer de gebruikersgeschiedenis en filter de dashboardweergave.
-ms.openlocfilehash: 7e29dd0eff7b05cb55a1fb0e071632353dadbdf8
-ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
+ms.openlocfilehash: 4791948f6fe3ca6df620a0e93851dbf4e11edd98
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2021
-ms.locfileid: "53148900"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454015"
 ---
 # <a name="get-started-with-compliance-manager"></a>Aan de slag met Compliancebeheer
 
@@ -49,32 +49,30 @@ Compliance Manager gebruikt een RBAC-machtigingsmodel (Role-Based Access Control
 
 ### <a name="where-to-set-permissions"></a>Waar kunt u machtigingen instellen?
 
-De persoon die de rol van globale beheerder voor uw organisatie heeft, kan gebruikersmachtigingen instellen voor Compliance Manager. Machtigingen kunnen worden ingesteld in het Office 365 beveiligingscentrum & compliancecentrum en in Azure Active Directory (Azure AD).
+De persoon die de rol van globale beheerder voor uw organisatie heeft, kan gebruikersmachtigingen instellen voor Compliance Manager. Machtigingen kunnen worden ingesteld in de Microsoft 365-compliancecentrum en in Azure Active Directory (Azure AD).
 
 > [!NOTE]
 > Klanten in de Amerikaanse government community (GCC) High and Department of Defense (DoD) omgevingen kunnen alleen gebruikersmachtigingen en rollen instellen voor Compliance Manager in Azure AD. Zie hieronder voor Azure AD-instructies en definities van rollentype.
 
-Als u machtigingen wilt instellen en rollen wilt toewijzen in Office 365 beveiligingscentrum & compliancecentrum, volgt u de onderstaande stappen:
+Als u machtigingen wilt instellen en rollen wilt toewijzen in de Microsoft 365-compliancecentrum, volgt u de onderstaande stappen:
 
-1. Ga naar het [Office 365 Beveiligings- & compliancecentrum](https://protection.office.com/) en selecteer **Machtigingen** aan de linkerkant van de navigatie.
+1. Ga naar het [Microsoft 365-compliancecentrum](https://compliance.microsoft.com/compliancemanager) en selecteer **Machtigingen** aan de linkerkant van de navigatie.
 
-2. Zoek de rollengroep waaraan u een of meer gebruikers wilt toevoegen en selectievakje links van de groepsnaam. (Zie de [lijst met rollen en gerelateerde functies hieronder.](#role-types) De namen van de rollengroep bootsen de rolnaam na.)
+2. Selecteer rollen **onder de vervolgkeuze** van het **Compliancecentrum.** 
 
-3. Selecteer bewerken onder de kop  Leden in het deelvenster flyout voor **die** groep.
+3. Zoek de rollengroep waaraan u een of meer gebruikers wilt toevoegen en selectievakje links van de groepsnaam. (Zie de [lijst met rollen en gerelateerde functies hieronder.](#role-types) De namen van de rollengroep bootsen de rolnaam na.)
 
-4. Selecteer **Leden kiezen.** Er wordt een ander flyoutvenster weergegeven.
+4. Selecteer bewerken onder de kop  Leden in het deelvenster flyout voor **die** groep.
 
-5. Selecteer **+ Toevoegen** om een of meer gebruikers te kiezen die u wilt toevoegen aan de groep.
+5. Selecteer **Leden kiezen.** Er wordt een ander flyoutvenster weergegeven.
 
-6. Schakel het selectievakje in naast de namen die u wilt toevoegen en selecteer vervolgens **de** knop Toevoegen onderaan.
+6. Selecteer **+ Toevoegen** om een of meer gebruikers te kiezen die u wilt toevoegen aan de groep.
 
-7. Wanneer u klaar bent met het toewijzen van gebruikers, **selecteert** u Klaar, **selecteert** u Opslaan en vervolgens **Sluiten.**
+7. Schakel het selectievakje in naast de namen die u wilt toevoegen en selecteer vervolgens **de** knop Toevoegen onderaan.
 
-##### <a name="more-about-the-office-365-security--compliance-center"></a>Meer informatie over het Office 365 beveiligings- & compliancecentrum
+8. Wanneer u klaar bent met het toewijzen van gebruikers, **selecteert** u Klaar, **selecteert** u Opslaan en vervolgens **Sluiten.**
 
-Meer informatie over [machtigingen in het Office 365 beveiligings- & Compliancecentrum.](../security/office-365-security/permissions-in-the-security-and-compliance-center.md)
-
-Als u geen toegang hebt tot het Office 365-beveiligings- en compliancecentrum of als u toegang wilt tot de klassieke versie van Compliance Manager in de Microsoft Service Trust Portal, biedt de beheerinstellingen in de Service Trust Portal een andere manier om rollen toe te wijzen[(instructies](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md#assigning-compliance-manager-roles-to-users)weergeven). Let op: dergelijke rollen zijn beperkter in hun functionaliteit.
+Als u toegang wilt tot de klassieke versie van Compliance Manager in de Microsoft Service Trust Portal, biedt de beheerinstellingen in de Service Trust Portal een andere manier om rollen toe te wijzen[(instructies weergeven).](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md#assigning-compliance-manager-roles-to-users) Let op: dergelijke rollen zijn beperkter in hun functionaliteit.
 
 ##### <a name="more-about-azure-ad"></a>Meer informatie over Azure AD
 
@@ -90,8 +88,8 @@ In de onderstaande tabel ziet u de functies die door elke rol in Compliance Mana
 | Gebruiker kan: | Rol compliancebeheer | Azure AD-rol | 
 | :------------- | :-------------: | :------------: |
 | **Gegevens lezen, maar niet bewerken**| Compliancebeheer - Lezer  | Azure AD Global Reader, Beveiligingslezer | 
-| **Gegevens bewerken**| Bijdrage compliancebeheer | Compliancebeheerder | 
-| **Testresultaten bewerken**| Compliancebeheer - Beoordelaar | Compliancebeheerder | 
+| **Gegevens bewerken**| Bijdrage compliancebeheer | Beheerder voor naleving | 
+| **Testresultaten bewerken**| Compliancebeheer - Beoordelaar | Beheerder voor naleving | 
 | **Evaluaties en sjabloon- en tenantgegevens beheren**| Beheer van compliancebeheer | Compliancebeheerder, compliancegegevensbeheerder, beveiligingsbeheerder  | 
 | **Gebruikers toewijzen**| Globale beheerder | Globale beheerder | 
 
@@ -187,7 +185,7 @@ U kunt verbeteracties van de ene gebruiker naar de andere toewijzen. Wanneer u e
 8. Wanneer de herplaatsing is voltooid, ziet u een bevestigingsbericht in het flyoutvenster waarin wordt bevestigd dat alle verbeteracties van de vorige gebruiker zijn toegewezen aan de nieuwe gebruiker. Als u een melding voor een fout bij het opnieuw toewijzen ontvangt, sluit u het venster en probeert u het opnieuw. Als u het deelvenster flyout wilt sluiten, selecteert u **Klaar**.
 
 De nieuwe toegewezene ontvangt een e-mailbericht dat is toegewezen aan een verbeteringsactie. Het e-mailbericht bevat een directe koppeling naar de detailspagina van de actie voor de verbetering.
- 
+
  > [!NOTE]
 > Als u een actie met een update in behandeling opnieuw toekent, wordt de directe koppeling naar de actie in de e-mail voor de herplaatsing niet meer geaccepteerd als de update na de herplaatsing wordt geaccepteerd. U kunt dit oplossen door de actie opnieuw toe te wijzen aan de gebruiker nadat de update is geaccepteerd. Meer informatie over [updates voor verbeteracties.](compliance-manager-improvement-actions.md#accepting-updates-to-improvement-actions)
 
@@ -215,7 +213,7 @@ Als u de geschiedenis van een gebruiker wilt verwijderen, volgt u de onderstaand
 
 Het compliancebeheerdashboard is ontworpen om u een overzicht te geven van uw huidige compliance-houding.
 
-![Compliance Manager - dashboard](../media/compliance-manager-dashboard.png "Compliance Manager-dashboard")
+:::image type="content" alt-text="Compliance manager - dashboard." source="../media/compliance-manager-dashboard.png" lightbox="../media/compliance-manager-dashboard.png":::
 
 ### <a name="overall-compliance-score"></a>Algemene nalevingsscore
 

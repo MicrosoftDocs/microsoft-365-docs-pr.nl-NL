@@ -15,13 +15,13 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
-description: ''
-ms.openlocfilehash: 3f64b981b60db9f9089af0555e4bf734864913b9
-ms.sourcegitcommit: 17d82e5617f0466eb825e15ab88594afcdaf4437
+description: In dit artikel wordt een overzicht gegeven van gevoelige informatietypen en hoe ze gevoelige informatie detecteren, zoals sociale zekerheid, creditcard- of bankrekeningnummers om gevoelige items te identificeren
+ms.openlocfilehash: dee4ec59ce5fe6140c4aef33d147e89e11facd59
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "53300379"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53453619"
 ---
 # <a name="learn-about-sensitive-information-types"></a>Meer informatie over typen gevoelige informatie
 
@@ -35,12 +35,13 @@ Gevoelige informatietypen zijn classificaties op basis van patronen. Ze detecter
 
 ## <a name="sensitive-information-types-are-used-in"></a>Gevoelige informatietypen worden gebruikt in
 
-- [Preventiebeleid voor gegevensverlies](dlp-learn-about-dlp.md) 
+- [Preventiebeleid voor gegevensverlies](dlp-learn-about-dlp.md)
 - [Gevoeligheidslabels](sensitivity-labels.md)
 - [Retentielabels](retention.md)
-- [Insider-risicobeheer](insider-risk-management.md)
-- [Naleving van communicatie](communication-compliance.md)
+- [Intern risicobeheer](insider-risk-management.md)
+- [Communicatiecompliance](communication-compliance.md)
 - [Beleid voor automatisch labelen](apply-sensitivity-label-automatically.md#how-to-configure-auto-labeling-for-office-apps)
+- [Privacybeheer (preview)](privacy-management.md)
 
 ## <a name="fundamental-parts-of-a-sensitive-information-type"></a>Basisonderdelen van een type gevoelige informatie
 
@@ -148,8 +149,8 @@ Als u aangepaste gevoelige informatietypen wilt maken in het beveiligings- & com
 > Microsoft 365 Information Protection ondersteunt nu dubbele bytetekensettalen voor:
 > - Vereenvoudigd Chinees
 > - Traditioneel Chinees
-> - Koreaks
-> - Japans
+> - Korean
+> - Japanese
 > 
 > Deze ondersteuning is beschikbaar voor typen gevoelige informatie. Zie [Ondersteuning voor Information Protection voor releaseopmerkingen bij dubbel-bytetekensets (preview)](mip-dbcs-relnotes.md) voor meer informatie.
 
@@ -158,7 +159,7 @@ Als u aangepaste gevoelige informatietypen wilt maken in het beveiligings- & com
 > 
 > Om bijvoorbeeld een trefwoord als "机密的document" te detecteren, gebruikt u twee varianten van het trefwoord; een met een spatie tussen de Japanse en Engelse tekst en een andere zonder een spatie tussen de Japanse en Engelse tekst. De trefwoorden die in de SIT moeten worden toegevoegd, moeten dus "机密的 document" en "机密的document" zijn. Evenzo moeten twee varianten worden gebruikt om een zin "東京オリンピック2020" te detecteren; "東京オリンピック 2020" en "東京オリンピック2020".
 > 
-> Zorg er bij het maken van een regex met een dubbelbyte-afbreekstreepje of een dubbele-byte-periode voor dat u beide tekens escaped, zoals een koppelteken of een punt in een regex. Hier is een voorbeeldregex ter referentie:
+> Tijdens het maken van een regex met behulp van een dubbel byteafbreekstreepje of een dubbele byteperiode, moet u ervoor zorgen dat beide tekens, zoals één, een afbreekstreepje of een punt in een regex. Hier volgt een voorbeeld van een regex ter referentie:
 >    - (?<!\d)([４][０-９]{3}[\-?\－\t]*[０-９]{4}
 >
 > Het is raadzaam tekenreeksmatch te gebruiken in plaats van woordmatch in een trefwoordlijst.

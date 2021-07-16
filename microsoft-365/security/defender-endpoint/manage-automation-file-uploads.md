@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c8935368e4439221f2ce21cfa620e540c02165f8
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: b7d330388dd698cb524c1f4a8edaf9039ba4d16e
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185847"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454827"
 ---
 # <a name="manage-automation-file-uploads"></a>Automatiseringsbestandsuploads beheren
 
@@ -31,7 +31,7 @@ ms.locfileid: "51185847"
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-automationefileuploads-abovefoldlink)
+>Wilt u Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-automationefileuploads-abovefoldlink)
 
 Schakel de mogelijkheid voor inhoudsanalyse in, zodat bepaalde bestanden en e-mailbijlagen automatisch naar de cloud kunnen worden geüpload voor aanvullende controle in Geautomatiseerd onderzoek.
 
@@ -41,7 +41,7 @@ Als u bijvoorbeeld *exe* en *bat* toevoegt als bestands- of bijlageextensienamen
 
 ## <a name="add-file-extension-names-and-attachment-extension-names"></a>Bestandsextensienamen en naam van bijlageextensie toevoegen.
 
-1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **Automatiseringsbestand uploadt.** 
+1. Selecteer in het navigatiedeelvenster **Instellingen**  >  **Endpoints**  >  **Rules**  >  **Automation uploads**.
 
 2. Schakel de instelling voor inhoudsanalyse in **tussen Aan** en **Uit.**
 
@@ -49,5 +49,5 @@ Als u bijvoorbeeld *exe* en *bat* toevoegt als bestands- of bijlageextensienamen
    - **Bestandsextensienamen:** verdachte bestanden, behalve e-mailbijlagen, worden ter aanvullende controle ingediend
   
 
-## <a name="related-topics"></a>Verwante onderwerpen
+## <a name="related-topics"></a>Gerelateerde onderwerpen
 - [Uitsluitingen van automatiseringsmappen beheren](manage-automation-folder-exclusions.md)

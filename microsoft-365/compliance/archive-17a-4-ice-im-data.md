@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Meer informatie over het instellen en gebruiken van een ICE-Verbinding maken 17a-4 Ice Verbinding maken Chat DataParser-connector voor het importeren en archiveren van ICE-Verbinding maken Chatgegevens in Microsoft 365.
-ms.openlocfilehash: 2c9eb6524e4f5e131603b5998d215e0b2d8111d3
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: 0aac5c701f122eaf99497635281ebc07d835fc2e
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53097136"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454479"
 ---
-# <a name="set-up-a-connector-to-archive-ice-connect-chat-data-preview"></a>Een connector instellen voor het archiveren van ICE-Verbinding maken Chatgegevens (voorbeeld)
+# <a name="set-up-a-connector-to-archive-ice-connect-chat-data"></a>Een connector instellen voor het archiveren van ICE-Verbinding maken Chatgegevens
 
 Gebruik ICE [DataParser](https://www.17a-4.com/ice-dataparser/) van 17a-4 LLC om gegevens uit ICE Verbinding maken Chat te importeren en te archiveren in postvakken van gebruikers in uw Microsoft 365 organisatie. De DataParser bevat een ICE Chat-connector die is geconfigureerd om items uit een externe gegevensbron vast te leggen en deze items te importeren in Microsoft 365. De ICE DataParser-connector converteert ICE-Verbinding maken Chatgegevens naar een e-mailberichtindeling en importeert deze items vervolgens in gebruikerspostvakken in Microsoft 365.
 

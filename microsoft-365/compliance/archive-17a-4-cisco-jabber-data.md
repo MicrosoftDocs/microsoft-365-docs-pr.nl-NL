@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Lees hoe u een 17a-4 Cisco Jabber DataParser-connector kunt instellen en gebruiken om Cisco Jabber-gegevens te importeren en te archiveren in Microsoft 365.
-ms.openlocfilehash: b5bf70a00887a6ea802354f51ee5fd65f5351727
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: 45f3b59fb4a99d8084b882607b925cf449525cba
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096391"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454527"
 ---
-# <a name="set-up-a-connector-to-archive-cisco-jabber-data-preview"></a>Een connector instellen voor het archiveren van Cisco Jabber-gegevens (preview)
+# <a name="set-up-a-connector-to-archive-cisco-jabber-data"></a>Een connector instellen voor het archiveren van Cisco Jabber-gegevens
 
 Gebruik cisco [Jabber DataParser](https://www.17a-4.com/jabber-dataparser/) van 17a-4 LLC om gegevens van Cisco Jabber te importeren en te archiveren naar postvakken van gebruikers in uw Microsoft 365 organisatie. De DataParser bevat een Cisco Jabber-connector die is geconfigureerd om items uit een externe gegevensbron vast te leggen en deze items te importeren in Microsoft 365. De Cisco Jabber DataParser-connector converteert Cisco Jabber-gegevens naar een e-mailberichtindeling en importeert deze items vervolgens in gebruikerspostvakken in Microsoft 365.
 

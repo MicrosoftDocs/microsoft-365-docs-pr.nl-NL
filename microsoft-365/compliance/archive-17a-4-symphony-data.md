@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Meer informatie over het instellen en gebruiken van een 17a-4 Symphony DataParser-connector voor het importeren en archiveren van gegevens van Den Microsoft 365.
-ms.openlocfilehash: da947c80a296aa4fee8ccabb9bb82eecc1d9b103
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: 0dce81b5251612bc3c3ddb467c658bd4a32d56f7
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096974"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53453931"
 ---
-# <a name="set-up-a-connector-to-archive-symphony-data-preview"></a>Een verbindingslijn instellen voor het archiveren van Gegevens van Dessymfonie (voorbeeld)
+# <a name="set-up-a-connector-to-archive-data-from-symphony"></a>Een verbindingslijn instellen voor het archiveren van gegevens uit Deymfonie
 
 Gebruik de [Symphony DataParser](https://www.17a-4.com/Symphony-dataparser/) van 17a-4 LLC om communicatiegegevens van Den 17a-4 te importeren en te archiveren in postvakken van gebruikers in uw Microsoft 365 organisatie. De DataParser bevat een Connector van Deymfonie die is geconfigureerd om items uit een externe gegevensbron vast te leggen en deze items te importeren in Microsoft 365. Met de Connector Gegevensparser van Symphony worden de Gegevensparser-gegevens van Deymfonie ge converteert naar een e-mailberichtindeling en worden deze items vervolgens geïmporteerd in postvakken van gebruikers in Microsoft 365.
 

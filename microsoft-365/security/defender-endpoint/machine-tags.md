@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ffe7d13ca0943e8927d0d9ce663527fedf880e48
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 83dd2483b93b2f4fe520973ce05346f59baf2f28
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187587"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53453554"
 ---
 # <a name="create-and-manage-device-tags"></a>Apparaattags maken en beheren
 
@@ -31,7 +31,7 @@ ms.locfileid: "51187587"
 - [Microsoft Defender voor Eindpunt](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefabonnement.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> Wilt u Microsoft Defender voor Eindpunt ervaren? [Meld u aan voor een gratis proefversie.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 Voeg tags toe aan apparaten om een logische groep te maken. Apparaatlabels ondersteunen de juiste toewijzing van het netwerk, zodat u verschillende tags kunt koppelen om context vast te leggen en dynamische lijstcreatie als onderdeel van een incident kunt inschakelen. Tags kunnen worden gebruikt als filter in de lijstweergave **Apparaten** of om apparaten te groeperen. Zie Apparaatgroepen maken en beheren voor meer informatie over [apparaatgroepering.](machine-groups.md)
 
@@ -58,11 +58,11 @@ Zie Api voor apparaatlabels toevoegen of verwijderen als u apparaatlabels wilt t
 
 2. Selecteer **Tags beheren** in de rij met antwoordacties.
 
-    ![Afbeelding van de knop Tags beheren](images/manage-tags.png)
+    :::image type="content" alt-text="Afbeelding van de knop Tags beheren." source="images/manage-tags-option.png":::
 
 3. Typen om tags te zoeken of te maken
 
-    ![Afbeelding van het toevoegen van tags op een apparaat1](images/new-tags.png)
+    :::image type="content" alt-text="Afbeelding van het toevoegen van tags op een apparaat1." source="images/create-new-tag.png":::
 
 Tags worden toegevoegd aan de apparaatweergave en worden ook weergegeven in de **lijstweergave** Apparaten. Vervolgens kunt u het filter **Tags gebruiken** om de relevante lijst met apparaten te bekijken.
 
@@ -72,7 +72,7 @@ Tags worden toegevoegd aan de apparaatweergave en worden ook weergegeven in de *
 
 U kunt ook tags uit deze weergave verwijderen.
 
-![Afbeelding van het toevoegen van tags op een apparaat2](images/more-manage-tags.png)
+:::image type="content" alt-text="Afbeelding van het toevoegen van tags op een apparaat2." source="images/new-tag-label-display.png":::
 
 ## <a name="add-device-tags-by-setting-a-registry-key-value"></a>Apparaatlabels toevoegen door een registersleutelwaarde in te stellen
 

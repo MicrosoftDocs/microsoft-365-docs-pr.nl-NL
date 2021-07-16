@@ -1,10 +1,10 @@
-- name: M365 Office LTI (preview)
+- name: M365 Office LTI
   href: index.md
-- name: Gebruik Microsoft OneDrive LTI met Canvas (voorbeeld)
+- name: LTI Microsoft OneDrive canvas gebruiken
   href: onedrive-lti.md
-- name: Gebruik Microsoft Teams met Canvas (voorbeeld)
+- name: Gebruik Microsoft Teams met Canvas
   href: teams-classes-with-canvas.md
-- name: Vergaderingen Microsoft Teams canvas gebruiken (voorbeeld)
+- name: Vergaderingen Microsoft Teams Canvas gebruiken
   href: teams-meetings-with-canvas.md
-- name: Gebruik Microsoft Teams met Blackboard Learn Ultra (Preview)
+- name: Gebruik Microsoft Teams met Blackboard Learn Ultra
   href: teams-classes-with-blackboard.md

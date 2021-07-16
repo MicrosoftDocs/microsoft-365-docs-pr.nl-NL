@@ -1,5 +1,5 @@
 ---
-title: Integratie Microsoft Teams klassen met Blackboard Learn Ultra
+title: Gebruik Microsoft Teams met Blackboard Learn Ultra
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -12,13 +12,13 @@ f1.keywords:
 ms.collection: M365-modern-desktop
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-description: Integratie Microsoft Teams klassen met Blackboard Learn Ultra
-ms.openlocfilehash: da98fae3fa5d6be2513147be58747512bea99e16
-ms.sourcegitcommit: 8b0718f5607ab509092cb80bda854010d885c54f
+description: Gebruik Microsoft Teams met Blackboard Learn Ultra
+ms.openlocfilehash: a97d5bf56e1e045ccb0ef7cc66ecef7dfba4041a
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53314489"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454627"
 ---
 # <a name="use-microsoft-teams-classes-with-blackboard-learn-ultra"></a>Gebruik Microsoft Teams met Blackboard Learn Ultra
 
@@ -27,15 +27,15 @@ Teamwerk staat centraal in elke moderne organisatie. Door samenwerking te bevord
 Uw lessen kunnen realtime gesprekken, videovergaderingen of asynchrone interacties bevatten. U kunt bestanden delen en cocreatie-ervaringen toevoegen voor uw leerlingen/studenten, allemaal op één plek. Microsoft Teams met Learn Ultra de dynamiek van het onderwijs opnieuw definiëren en wat effectief leren betekent.
 
 > [!IMPORTANT]
-> Zorg ervoor dat u het veld Instellingse-e-mail hebt ingesteld in uw SIS (Student Information System) `help.blackboard.com/Learn/Administrator/SaaS/Integrations/Student\_Information\_System/SIS\_Planning`
+> Zorg ervoor dat u het veld Instellingse-e-mail hebt ingesteld in uw [SIS (Student Information System)](https://help.blackboard.com/Learn/Administrator/SaaS/Integrations/Student_Information_System/SIS_Planning)
 >
->De Microsoft Teams klassenintegratie is afhankelijk van het e-mailveld van de instelling in uw SIS om de juiste Microsoft Azure Active Directory's (AAD) User Principal Name (UPN) toe te vertrouwen. Als er geen e-mail van een instelling is ingericht, wordt dit standaard ingesteld op de bestaande e-mail. U wordt aangeraden dit veld in te stellen voor elke gebruiker om ervoor te zorgen dat hun gegevens correct worden gesynchroniseerd en dat er geen conflict is tussen e-mailgegevens tussen Microsoft AAD en Blackboard Learn Ultra.
+>De Microsoft Teams klassenintegratie is afhankelijk van het e-mailveld van de instelling in uw SIS om de juiste Microsoft Azure Active Directory's (AAD) [User Principle Name (UPN) toe te vertrouwen.](/azure/active-directory/hybrid/howto-troubleshoot-upn-changes) Als er geen e-mail van een instelling is ingericht, wordt dit standaard ingesteld op de bestaande e-mail. Het wordt aanbevolen om dit veld in te stellen voor elke gebruiker om ervoor te zorgen dat hun gegevens correct worden gesynchroniseerd en dat er geen conflict is tussen e-mailgegevens tussen AAD en Blackboard Learn Ultra.
 >
 > Als u dit veld niet op de juiste manier hebt ingesteld in de SIS-toewijzing, blijft de integratie werken, maar worden gebruikers mogelijk niet weergegeven in de Teams-klassen die zijn gemaakt en kunnen er fouten optreden.
 
 ## <a name="supporting-institutional-data-mapping--institution-email-sis-field"></a>Ondersteuning voor het toewijzen van institutionele gegevens – SIS-veld instellings-e-mail
 
-Als onderdeel van de ontwikkeling met cloudproviderintegraties heeft  Blackboard Learn Ultra een nieuw veld Voor e-mail van instellingen gemaakt, zowel in de integratie van het Student Information System Framework als openbare REST-API's, zodat instellingen het proces voor gegevenssynchronisatie effectief kunnen beheren tussen Blackboard Learn Ultra en Microsoft AAD.
+Als onderdeel van de ontwikkeling met integraties van cloudproviders heeft Blackboard Learn Ultra een nieuw veld Voor e-mail van instellingen gemaakt, zowel in de integratie van studentinformatiesysteemkader als openbare REST-API's, zodat instellingen het proces voor gegevenssynchronisatie effectief kunnen beheren tussen Blackboard Learn Ultra en AAD. 
 
 ### <a name="what-does-the-institution-email-mean-and-what-does-it-support"></a>Wat betekent de e-mail van de instelling en wat wordt er ondersteund?
 
@@ -59,6 +59,8 @@ De **toewijzing van** het veld Institution Email is nu beschikbaar voor alle bes
 De Microsoft Teams klassenintegratie is alleen beschikbaar voor **cursussen voor Ultra Course View.** Uw instelling moet aan deze vereisten voldoen om deze te kunnen gebruiken:
 
 - Laat Blackboard Learn Ultra Learn SaaS met Ultra Base Navigation ingeschakeld
+
+  ![een voorbeeld van de functie is ingeschakeld in cursussen](media/feature-availability.png)
 
 - LTI inschakelen voor gebruik in cursussen.
 
@@ -157,6 +159,10 @@ Als u ervoor kiest om de app Blackboard Learn Ultra Teams Classes Azure goed te 
 > [!NOTE]
 > U vervangt **{Tenant} door** uw specifieke Microsoft Azure tenant-id.
 
+U ziet een machtigingenvenster waarin wordt uitgelegd dat u toestemming geeft voor Blackboard Learn Ultra om toegang te krijgen tot Microsoft Teams.
+
+![het machtigingsvenster voor Microsoft en Blackboard](media/permissions1.png)
+
 ### <a name="after-configuring-the-lti-applications"></a>Na het configureren van de LTI-toepassingen
 
 1. Ga in **het beheerderspaneel** naar **Hulpprogramma's** en selecteer **Microsoft Teams Integratiebeheerder.**
@@ -172,3 +178,5 @@ Als u ervoor kiest om de app Blackboard Learn Ultra Teams Classes Azure goed te 
    - Als toestemming nog niet is goedgekeurd, volgt u de stappen die worden beschreven om de URL voor toestemming te genereren en deze ter goedkeuring naar de Microsoft 365 globale beheerder te verzenden.
 
 5. Nadat u de goedkeuring hebt bevestigd, **selecteert** u Opnieuw proberen om te bevestigen en selecteert u **Vervolgens Verzenden**.
+
+   ![Een dialoogvenster dat aangeeft dat uw toegang is geblokkeerd](media/blocked-access.png)

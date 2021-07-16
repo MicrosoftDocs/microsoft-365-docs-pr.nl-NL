@@ -13,12 +13,12 @@ ms.author: shmehta
 ms.reviewer: krowley
 appliesto:
 - Office 365 Business
-ms.openlocfilehash: 331dd1ea510983e57c069f8d142aa0f7d3f7062e
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: ca689b846589ffcb1b8aa4d85ea8a0312f8d9d51
+ms.sourcegitcommit: 84e70051bb61b1171cebfbabe500b4904dfac04f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53226081"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53463971"
 ---
 # <a name="preparing-for-tls-12-in-office-365-and-office-365-gcc"></a>Voorbereiden op TLS 1.2 in Office 365 en Office 365 GCC
 
@@ -30,9 +30,11 @@ De [Implementatie van Microsoft TLS 1.0](https://support.microsoft.com/help/3117
 
 Raadpleeg het volgende artikel voor informatie over het verwijderen van TLS 1.0- en 1.1-afhankelijkheden: [Het oplossen van het TLS 1.0 probleem](https://www.microsoft.com/download/details.aspx?id=55266).
 
+Nadat u een upgrade hebt uitgevoerd naar TLS 1.2, moet u ervoor zorgen dat de coderingssuites die u gebruikt, worden ondersteund door Azure Front Door. Microsoft 365 en Azure Front Door hebben kleine verschillen in de ondersteuning voor cipher suite. Zie Wat worden de [huidige coderingssuites](/azure/frontdoor/front-door-faq#what-are-the-current-cipher-suites-supported-by-azure-front-door-)ondersteund door Azure Front Door? voor meer informatie.
+
 ## <a name="more-information"></a>Meer informatie
 
-Vanaf januari 2020 zijn we al begonnen met de afschaffing van TLS 1.0 en 1.1. Alle clients, apparaten of services die verbinding maken met Office 365 via TLS 1.0 of 1.1 in onze DoD- of GCC High-exemplaren worden niet ondersteund. Voor onze commerciële klanten van Office 365 begint de intrekking van TLS 1.0 en 1.1 op 15 oktober 2020 en wordt de uitrol in de weken en maanden daarna voortgezet. 
+Vanaf januari 2020 zijn we al begonnen met de afschaffing van TLS 1.0 en 1.1. Alle clients, apparaten of services die verbinding maken met Office 365 via TLS 1.0 of 1.1 in onze DoD- of GCC High-exemplaren worden niet ondersteund. Voor onze commerciële klanten van Office 365 begint de intrekking van TLS 1.0 en 1.1 op 15 oktober 2020 en wordt de uitrol in de weken en maanden daarna voortgezet.
 
 Wij bevelen aan dat alle combinaties van client-server en browserserver TLS 1.2 (of een latere versie) gebruiken om verbinding met Office 365-services te onderhouden. Mogelijk moet u bepaalde combinaties van client-server en browserserver bijwerken.
 
