@@ -9,12 +9,12 @@ manager: laurawi
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 3ee0ca72f0eb3623755c9b342966915f520c485d
-ms.sourcegitcommit: 2abc6bf9939b14a427647e88f319dbb70de49ca6
+ms.openlocfilehash: 8dee18909d82656bcfb3e63fdc078328c678e660
+ms.sourcegitcommit: ea8de1b48adb6df92fb9351ea862184a9f16cbbb
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 07/16/2021
-ms.locfileid: "53457979"
+ms.locfileid: "53461385"
 ---
 # <a name="preview-and-test-windows-11-with-microsoft-managed-desktop"></a>Voorbeeld en test Windows 11 met Microsoft Managed Desktop
 
@@ -24,7 +24,7 @@ ms.locfileid: "53457979"
 
 Tot op heden voldoet meer dan 95% Microsoft Managed Desktop apparaten aan geschiktheidscriteria voor Windows [11](/windows/whats-new/windows-11-requirements). U kunt gegevens over de geschiktheidsstatus van uw apparaten op Microsoft Managed Desktop. Als u de aanvraag wilt indienen, gaat u als volgt te werk:
 
-1. Open een nieuwe serviceaanvraag met het Microsoft Managed Desktop Service Engineering-team. Zie Ondersteuning voor beheerders als u meer informatie nodig hebt over het indienen van de [aanvraag.](admin-support.md)
+1. Open een nieuwe serviceaanvraag met het Microsoft Managed Desktop Service Engineering-team. Zie Ondersteuning voor beheerders als u meer informatie nodig hebt over het indienen [van de aanvraag.](admin-support.md)
 2. Gebruik deze waarden voor de velden:
     - Titel: Windows 11 apparaat in aanmerking komen
     - Type aanvraag: informatie aanvragen
@@ -52,7 +52,7 @@ Als u uw apparaten wilt registreren in de pre-release testgroep:
 
 Bedrijfskritische toepassingen zijn de beste kandidaten voor meer validatie in een gesloten Windows 11 omgeving. We kunnen u helpen prioriteit te geven aan apps Windows 11 testen op basis van gebruiks- en betrouwbaarheidsgegevens. Als u onze aanbevelingen wilt aanvragen, volgt u de volgende stappen:
 
-1. Open een nieuwe serviceaanvraag met het Microsoft Managed Desktop Service Engineering-team. Zie Ondersteuning voor beheerders als u meer informatie nodig hebt over het indienen van de [aanvraag.](admin-support.md)
+1. Open een nieuwe serviceaanvraag met het Microsoft Managed Desktop Service Engineering-team. Zie Ondersteuning voor beheerders als u meer informatie nodig hebt over het indienen [van de aanvraag.](admin-support.md)
 2. Gebruik deze waarden voor de velden:
     - Titel: Windows 11 testbasiskandidaten
     - Type aanvraag: informatie aanvragen
