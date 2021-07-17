@@ -1,7 +1,7 @@
 ---
-title: De resultaten van uw pilot Microsoft 365 Defender-project samenvatten
-description: Sluit uw pilot Microsoft 365 Defender-project af door uw scorecard te voltooien, uw rapport bevindingen te analyseren en te bepalen hoe u verder wilt gaan.
-keywords: Microsoft 365 Defender pilot, decide what to do next after pilot Microsoft 365 Defender project, what to do after evaluating Microsoft 365 Defender in production, transition from Microsoft 365 Defender pilot to deployment, cyber security, advanced persistent threat, enterprise security, devices, device, identity, users, data, applications, incidents, automated investigation and remediation, advanced hunting
+title: Een overzicht maken van uw Microsoft 365 Defender projectresultaten
+description: Sluit uw pilot Microsoft 365 Defender project af door uw scorecard te voltooien, uw rapport bevindingen te analyseren en te beslissen hoe u verder wilt gaan.
+keywords: Microsoft 365 Defender pilot, beslissen wat u na het pilot Microsoft 365 Defender-project moet doen, wat u moet doen na de evaluatie van Microsoft 365 Defender in productie, de overgang van Microsoft 365 Defender-pilot naar implementatie, cyberbeveiliging, geavanceerde permanente bedreiging, bedrijfsbeveiliging, apparaten, apparaat, identiteit, gebruikers, gegevens, toepassingen, incidenten, geautomatiseerd onderzoek en herstel, geavanceerde jacht
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -22,13 +22,13 @@ ms.collection:
 ms.topic: conceptual
 ms.technology: m365d
 ms.openlocfilehash: 64cdb37b64780a651b2689e68e21c5a385df5ba9
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.sourcegitcommit: 9856f86532bdcf0befbcdbdb7c6dc6bf89fe63b5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932867"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53457955"
 ---
-# <a name="closing-and-summarizing-your-microsoft-365-defender-pilot"></a>Uw Microsoft 365 Defender-pilot sluiten en samenvatten  
+# <a name="closing-and-summarizing-your-microsoft-365-defender-pilot"></a>Uw testfase sluiten en Microsoft 365 Defender samenvatten  
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -60,7 +60,7 @@ Presenteert de rapporten van uw uiteindelijke uitvoer aan interne [](./prepare-m
 We hopen dat u genoten hebt van deze simulatie. Begin met het implementeren van wat u op grotere schaal in uw organisatie hebt geleerd om het beste uit de geïntegreerde beveiligingsoplossing te halen.
 
 ## <a name="next-step"></a>Volgende stap
-Meer informatie over de Microsoft 365 Defender-pilaren via de volgende interactieve handleidingen:
+Meer informatie over de Microsoft 365 Defender via de volgende interactieve handleidingen:
 - [Uw organisatie beveiligen met Microsoft Defender voor Office 365](https://aka.ms/O365ATP-Interactive-Guide)
 - [Verdachte activiteiten en mogelijke aanvallen detecteren met Microsoft Defender voor identiteit](https://aka.ms/AATP-Interactive-Guide)
 - [Detecteer bedreigingen en beheer waarschuwingen met Microsoft Cloud App Security](https://aka.ms/DetectThreatsAndAlertsMCAS-InteractiveGuide)

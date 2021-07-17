@@ -22,11 +22,11 @@ ms.collection:
 ms.topic: conceptual
 ms.technology: m365d
 ms.openlocfilehash: 6a52df8035ce6f84770a2d06c3b8c127e426622e
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.sourcegitcommit: 9856f86532bdcf0befbcdbdb7c6dc6bf89fe63b5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53285995"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53457954"
 ---
 # <a name="planning-your-pilot-microsoft-365-defender-project"></a>Uw pilotproject Microsoft 365 Defender plannen 
 

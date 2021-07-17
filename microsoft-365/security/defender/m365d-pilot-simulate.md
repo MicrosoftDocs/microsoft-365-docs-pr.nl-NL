@@ -22,11 +22,11 @@ ms.collection:
 ms.topic: conceptual
 ms.technology: m365d
 ms.openlocfilehash: 18dc8158ef3c806e5dac5a01778adebc6eecc1ce
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.sourcegitcommit: 9856f86532bdcf0befbcdbdb7c6dc6bf89fe63b5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53230017"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53457951"
 ---
 # <a name="run-your-microsoft-365-defender-attack-simulations"></a>Voer uw Microsoft 365 Defender aanvalssimulaties uit
 

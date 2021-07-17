@@ -22,12 +22,12 @@ description: Gebruik vertrouwelijkheidslabels van Microsoft Information Protecti
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 972282713e21c0e1f99a66e696de32531e68d4a7
-ms.sourcegitcommit: 8b79d276f71f22bcaeb150e78e35101cb1ae0375
+ms.openlocfilehash: e1de507dd5ec9508df0318c8ba2ef30af795e25b
+ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53114774"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53430790"
 ---
 # <a name="learn-about-sensitivity-labels"></a>Meer informatie over vertrouwelijkheidslabels
 
@@ -190,7 +190,7 @@ Wanneer u labelbeleid configureert, kunt u:
 
     ![Prompt wanneer gebruikers een reden invoeren](../media/Sensitivity-label-justification-required.png)
 
-- **Vereisen dat gebruikers een label toepassen** op documenten en e-mails, alleen documenten en op containers. Deze opties, ook wel verplicht labelen genoemd, zorgen ervoor dat er een label moet worden toegepast voordat gebruikers documenten kunnen opslaan en e-mailberichten verzenden en nieuwe groepen of sites maken.
+- **Vereisen dat gebruikers een label toepassen** voor documenten en e-mails, alleen documenten, voor containers en Power BI-inhoud. Deze opties, ook wel verplicht labelen genoemd, zorgen ervoor dat een label moet worden toegepast voordat gebruikers documenten kunnen opslaan en e-mailberichten kunnen verzenden, nieuwe groepen of sites kunnen maken en wanneer ze niet-gelabelde inhoud gebruiken voor Power BI.
     
     Aan documenten en e-mailberichten kan door een gebruiker handmatig een label worden toegewezen, automatisch als gevolg van een voorwaarde die u hebt geconfigureerd of standaard worden toegewezen (de hiervoor beschreven optie standaardlabel). Een voorbeeldprompt die in Outlook wordt weergegeven wanneer een gebruiker een label moet toewijzen:
 
@@ -199,6 +199,8 @@ Wanneer u labelbeleid configureert, kunt u:
     Zie [Vereisen dat gebruikers een label toepassen op hun e-mail en documenten](sensitivity-labels-office-apps.md#require-users-to-apply-a-label-to-their-email-and-documents) voor meer informatie.
     
     Aan containers moet een label worden toegewezen op het moment dat de groep of site wordt gemaakt.
+    
+    Voor meer informatie over verplicht labelen voor Power BI, raadpleegt u [Beleid voor verplichte labels voor Power BI](/power-bi/admin/service-security-sensitivity-label-mandatory-label-policy).
     
     U kunt deze optie gebruiken om de dekking van uw labels te vergroten. Zonder gebruikerstraining kunnen deze instellingen echter leiden tot onnauwkeurige labels. Tenzij u ook een bijbehorend standaardlabel instelt, kan verplicht labelen met de geregelde prompts leiden tot frustratie bij uw gebruikers.
 

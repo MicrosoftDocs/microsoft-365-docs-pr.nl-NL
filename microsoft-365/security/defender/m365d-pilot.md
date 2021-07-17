@@ -22,11 +22,11 @@ ms.collection:
 ms.topic: conceptual
 ms.technology: m365d
 ms.openlocfilehash: fd84ef93d679be6e1e42f823dcac1f2d5181f1e9
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.sourcegitcommit: 9856f86532bdcf0befbcdbdb7c6dc6bf89fe63b5
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53289953"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53457946"
 ---
 # <a name="run-your-pilot-microsoft-365-defender-project"></a>Uw pilot Microsoft 365 Defender uitvoeren 
 
